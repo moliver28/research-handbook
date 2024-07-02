@@ -41,11 +41,11 @@ Remote [organizations](./jobs/) search for people who place a high degree of val
 
 Because of the self-directed nature of remote work, employers look for people capable of:
 
-- being a [manager of one]({{< ref "values#managers-of-one" >}})
+- being a [manager of one](/handbook/values/#managers-of-one)
 - working [asynchronously]({{< ref "./asynchronous" >}})
 - [communicating through text]({{< ref "./effective-communication" >}})
 - setting up an ideal [workspace]({{< ref "./workspace" >}})
-- eliminating distractions for optimal [efficiency]({{< ref "values#efficiency" >}})
+- eliminating distractions for optimal [efficiency](/handbook/values/#efficiency)
 
 ![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration-illustration.jpg)
 {style="max-width: 50%;"}
@@ -54,7 +54,7 @@ Because of the self-directed nature of remote work, employers look for people ca
 
 ### Q: Where does leadership work?
 
-When evaluating a remote role, it's critical to understand where leadership works on a day-to-day basis. In an all-remote company, each team member — including the executive team — is remote. This creates a culture of trust and [transparency]({{< ref "values#transparency" >}}), and it sends a clear message that no one will be treated as an outsider within the organization based on their geographic location.
+When evaluating a remote role, it's critical to understand where leadership works on a day-to-day basis. In an all-remote company, each team member — including the executive team — is remote. This creates a culture of trust and [transparency](/handbook/values/#transparency), and it sends a clear message that no one will be treated as an outsider within the organization based on their geographic location.
 
 In companies where the leadership team is colocated, but most (if not all) of the company is remote, consider asking how this impacts the dissemination of information. Remote [forces companies to do things they ought to be doing earlier and better]({{< ref "./management#how-do-you-manage-a-100-remote-team" >}}), including [documenting]({{< ref "documentation" >}}) culture and process. With a colocated leadership team, a company runs the risk of bypassing diligent documentation in favor of an in-person sync where discussion notes and outcomes are not documented and shared.
 
@@ -71,7 +71,7 @@ This ensures that each team member is treated equally, and removes typical board
 
 Flex-work and workplace flexibility have grown in popularity, but it's important to ask for specific examples of how this actually works within a company you are considering joining.
 
-Do only senior leaders have complete flexibility to schedule their working hours and days around their lives? Is workplace flexibility truly embraced and supported throughout the organization? Does the company empower team members to be a [manager of one]({{< ref "values#managers-of-one" >}}), valuing [outputs]({{< ref "values#results" >}}) rather than inputs such as hours worked?
+Do only senior leaders have complete flexibility to schedule their working hours and days around their lives? Is workplace flexibility truly embraced and supported throughout the organization? Does the company empower team members to be a [manager of one](/handbook/values/#managers-of-one), valuing [outputs](/handbook/values/#results) rather than inputs such as hours worked?
 
 When life happens and you need to restructure your day on the fly, is this openly encouraged and supported or quietly frowned upon?
 
@@ -103,7 +103,7 @@ Consider asking if notes are captured using an online collaborative suite (Offic
 
 ### Q: How is informal communication encouraged and enabled?
 
-Remote companies must be intentional about [informal communication]({{< ref "./informal-communication" >}}). When some or all team members are not able to foster relationships in person, a company must take deliberate steps. Consider asking for specific [examples](/handbook/incentives/#visiting-grant) of how a company has created an atmosphere where team members are [encouraged to connect as humans](https://about.gitlab.com/blog/2017/06/30/there-and-back-again-in-one-release/), not just colleagues.
+Remote companies must be intentional about [informal communication]({{< ref "./informal-communication" >}}). When some or all team members are not able to foster relationships in person, a company must take deliberate steps. Consider asking for specific [examples](/handbook/total-rewards/incentives/#visiting-grant) of how a company has created an atmosphere where team members are [encouraged to connect as humans](https://about.gitlab.com/blog/2017/06/30/there-and-back-again-in-one-release/), not just colleagues.
 
 ### Q: What percentage of your team was hired without an in-person meeting?
 
@@ -126,6 +126,6 @@ This question dives into a couple of areas. It provides an opportunity to unders
 
 GitLab believes that all-remote is the [future of work]({{< ref "./remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

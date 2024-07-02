@@ -33,14 +33,14 @@ Both department-level and company-wide mentorship programs have their own unique
 
 1. Be encouraged to prioritize, and be held accountable for, your [career development]({{< ref "career-development" >}})
 1. Learn new skills related to your current role, your future career goals, or an area that you're passionate about
-1. Set and reach clearly outlined [goals]({{< ref "/handbook/company/okrs" >}}).
+1. Set and reach clearly outlined [goals](/handbook/company/okrs).
 
 ### Benefits for the mentor
 
-1. Serve as a [leader in the organization]({{< ref "/handbook/leadership" >}}) by enabling growth for other team members
-1. Practice leadership, [effective communication]({{< ref "communication" >}}), and [coaching]({{< ref "/handbook/leadership/coaching" >}}) skills
+1. Serve as a [leader in the organization](/handbook/leadership) by enabling growth for other team members
+1. Practice leadership, [effective communication]({{< ref "communication" >}}), and [coaching](/handbook/leadership/coaching) skills
 1. Establish yourself as an expert in a field or specialty
-1. [Build trust]({{< ref "/handbook/leadership/building-trust" >}}) with team members
+1. [Build trust](/handbook/leadership/building-trust) with team members
 
 ### Expectations
 
@@ -49,16 +49,16 @@ Both department-level and company-wide mentorship programs have their own unique
 | **Mentees lead conversations** | Mentorship is led by the mentee, similar to how [1:1's at GitLab]({{< ref "1-1" >}}) are driven by direct reports. |
 | **Maintain Boundaries** | Maintain clear and appropriate boundaries. Be clear on your responsibilities and those of their manager. |
 | **Set Goals** | Mentees should create goals, put them in writing, and frequently revisit goals to measure progress. |
-| **Build Trust** | Colleague first, expert second. Spend time [getting to know one another]({{< ref "values#diversity-inclusion" >}}). [Be open, honest, and fully authentic](/handbook/values/#transparency). |
+| **Build Trust** | Colleague first, expert second. Spend time [getting to know one another](/handbook/values/#diversity-inclusion). [Be open, honest, and fully authentic](/handbook/values/#transparency). |
 | **Set Expectations** | Be realistic and uphold your commitment. Share access to resources and people, but make it clear you do not wield your influence over others.|
-| **Listen** | Establish [trust]({{< ref "/handbook/leadership/building-trust" >}}) and openness in communication. Give your full, undivided attention. Hear concerns before offering advice and guidance.|
-| **Acknowledge Independence** | Recognize mentee goals and autonomy. Your role as a mentor is to guide; it’s up to the mentee to decide what to implement in their own career. |
+| **Listen** | Establish [trust](/handbook/leadership/building-trust) and openness in communication. Give your full, undivided attention. Hear concerns before offering advice and guidance.|
+| **Acknowledge Independence** | Recognize mentee goals and autonomy. Your role as a mentor is to guide; it's up to the mentee to decide what to implement in their own career. |
 | **Respect Diverse Experiences** | Recognise that underrepresented groups might face additional barriers to advancement. Educate yourself and ask for advice and support via the [appropriate DIB channels]({{< ref "erg-guide#how-to-join-current-tmrgs-and-their-slack-channels" >}}). |
-| **Practice Self-Awareness** | Identify your strengths, weaknesses, and [biases]({{< ref "values#unconscious-bias" >}}). Be aware of and respect other's experiences, ideas, and goals. |
+| **Practice Self-Awareness** | Identify your strengths, weaknesses, and [biases](/handbook/values/#unconscious-bias). Be aware of and respect other's experiences, ideas, and goals. |
 | **Advocate** | Mentor others on being effective managers or colleagues to those who might have different experiences to them. Teach your mentee how to become a mentor themselves – by example and by encouragement.|
 | **Express Gratitude** | Share openly about your experience. Express gratitude for the skills or experiences developed over time. |
-| **Maintain a Growth Mindset** | Practice a [growth mindset]({{< ref "values#growth-mindset" >}}). Both parties can learn and grow from mentorship |
-| **Iterate** | [Iterate]({{< ref "values#iteration" >}}) on goals throughout the mentorship. Focus on quick wins that the mentee can reach, then keep growing. |
+| **Maintain a Growth Mindset** | Practice a [growth mindset](/handbook/values/#growth-mindset). Both parties can learn and grow from mentorship |
+| **Iterate** | [Iterate](/handbook/values/#iteration) on goals throughout the mentorship. Focus on quick wins that the mentee can reach, then keep growing. |
 | **Confidentiality** | Respect the trust built between mentor and mentee. Challenges and conversations shared in mentorship sessions should be kept confidential unless the mentor and mentee are okay with them being shared. |
 
 *Adapted from the [NCWIT Mentoring-in-a-Box Mentoring Basics - A Mentor's Guide to Success](https://www.ncwit.org/sites/default/files/legacy/pdf/IMentor_MentorGuide.pdf), section What Are the "Dos" of Mentoring and [People Grove resources](https://support.peoplegrove.com/hc/en-us/articles/360001265792-Structure-Goals-and-Agendas)*
@@ -79,7 +79,7 @@ Take the LinkedIn Learning training called [How to be a Good Mentor and Mentee](
 
 ### Mentee: What to do before your mentorship begins
 
-1. Set up a coffee chat with your mentor. Take time to get to know them and [build trust]({{< ref "/handbook/leadership/building-trust" >}}). Discuss communication styles and preferences.
+1. Set up a coffee chat with your mentor. Take time to get to know them and [build trust](/handbook/leadership/building-trust). Discuss communication styles and preferences.
 1. Set a specific goal for your mentorship. It's OK if you don't reach 100% of your goal during the mentorship.
 1. Join the [#mentoring](https://app.slack.com/client/T02592416/C01QKNDJ76J/thread/C5P8T9VQX-1587584276.009700) Slack channel
 
@@ -201,7 +201,7 @@ These resources are meant to provide both mentors and mentees with additional pe
 {{< youtube "u4kTlK5mUHc" >}}
 
 1. The [Engineering department](/handbook/engineering/) outlines [strategies for mentors and mentees](/handbook/engineering/career-development/mentoring/) with suggestions on how to host meetings and set and evaluate goals.
-1. The [Support team]({{< ref "/handbook/support" >}}) has outlined expectations and examples on [Mentorship in Support Engineering]({{< ref "/handbook/support/engineering/mentorship" >}}).
+1. The [Support team](/handbook/support) has outlined expectations and examples on [Mentorship in Support Engineering](/handbook/support/engineering/mentorship).
 1. [Career growth resources at GitLab]({{< ref "career-development" >}})
 1. [Harvard Business Review: What efficient mentorship looks like](https://hbr.org/2020/08/what-efficient-mentorship-looks-like)
 1. [Harvard Business Review: What great mentorship looks like in a hybrid workplace](https://hbr.org/2021/05/what-great-mentorship-looks-like-in-a-hybrid-workplace)

@@ -19,6 +19,7 @@ The Senior Backend Engineer is a [grade 7](/handbook/total-rewards/compensation/
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - Ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 - Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Encouraged to complete [Interview Training](/hiring/conducting-a-gitlab-interview/#interviewer-training-requirements) in support of hiring efforts for the department. Participation as either a technical interviewer or part of their team's interview panel may be expected from hiring managers, given ongoing hiring needs.
 
 ## Requirements
 
@@ -66,7 +67,7 @@ The Senior Backend Engineer is a [grade 7](/handbook/total-rewards/compensation/
 
 ### Distribution:Build
 
-The Build team closely partners with our greater engineering organization to build and distribute GitLab services. The Build team is tasked with ensuring the components that make up GitLab are up to date, license compliant, and available for our users’ platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
+The Build team closely partners with our greater engineering organization to build and distribute GitLab services. The Build team is tasked with ensuring the components that make up GitLab are up to date, license compliant, and available for our users' platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
 
 Distribution Build engineering regularly interfaces with broader development teams in supporting newly created features. Notably, the Distribution Deploy team is the Build team's biggest internal collaborator, so there is significant team interdependency. The Distribution Build team is involved with diverse projects and tasks that include assisting community packaging efforts.
 
@@ -131,7 +132,7 @@ Package engineers are focused on creating and maintaining the dependency managem
 
 ### Runner
 
-Runner engineers are primarily responsible for the [GitLab-Runner](https://gitlab.com/gitlab-org/gitlab-runner). The GitLab-Runner service acts as the interface between the rest of GitLab and a user's CI infrastructure, so that whether CI is running on a cluster of Raspberry Pis, a super-computer, or, as in the case with GitLab.com, thousands of virtual machines running in the cloud - it’s the GitLab-Runner that makes this happen. You can learn more about the Runner group on the [Runner product category](/handbook/product/categories/#runner-group) handbook page.
+Runner engineers are primarily responsible for the [GitLab-Runner](https://gitlab.com/gitlab-org/gitlab-runner). The GitLab-Runner service acts as the interface between the rest of GitLab and a user's CI infrastructure, so that whether CI is running on a cluster of Raspberry Pis, a super-computer, or, as in the case with GitLab.com, thousands of virtual machines running in the cloud - it's the GitLab-Runner that makes this happen. You can learn more about the Runner group on the [Runner product category](/handbook/product/categories/#runner-group) handbook page.
 
 #### Requirements
 
@@ -265,12 +266,12 @@ Growth: Analytics and Experimentation Engineers build, maintain, and integrate w
 - Experience with Snowplow
 - Frontend experience including HTML, CSS, and JavaScript frameworks (Vue.js preferred).
 
-### Product Intelligence
+### Analytics Instrumentation
 
-Senior Backend Engineers in the Product Intelligence group play a key role in implementing analytics and data collection tools within the GitLab product in a privacy-focused manner.
+Senior Backend Engineers in the Analytics Instrumentation group play a key role in implementing analytics and data collection tools within the GitLab product in a privacy-focused manner.
 The group focuses on providing GitLab's team with data-driven product insights to build a better GitLab.
 
-The Senior Backend Engineer for Product Intelligence extends the Senior Backend Engineer requirements with these additional requirements and responsibilities.
+The Senior Backend Engineer for Analytics Instrumentation extends the Senior Backend Engineer requirements with these additional requirements and responsibilities.
 
 #### Requirements
 
@@ -282,13 +283,15 @@ The Senior Backend Engineer for Product Intelligence extends the Senior Backend 
 - Experience with dbt, or other related data engineering tools.
 - Experience with Snowflake and Snowpipe.
 - Experience with Snowplow collector.
+- Experience with Go and/or Python.
 - Frontend experience including HTML, CSS, and JavaScript frameworks (Vue.js preferred).
 
 #### Responsibilities
 
-- Build tooling to collect metrics from GitLab.com and self managed instances.
+- Build tooling to collect events and metrics from GitLab.com, Self-Managed and
+  other GitLab and customer services.
 - Work closely with GitLab's Data team to analyse data pipelines.
-- Build automation to ensure the quality of our collected metrics.
+- Build automation to ensure the quality of our collected metrics and events.
 - Build monitoring to ensure the reliability of our data pipelines.
 
 ### Engineering Productivity
@@ -363,7 +366,7 @@ Alternatively, some of the following qualifications, may not necessarily be all 
 
 ### Ecosystem
 
-The Ecosystem team is responsible for seamless integration between GitLab and 3rd party products as well as making GitLab products available on cloud service providers’ marketplaces such as AWS. The team plays a critical role in developing APIs and SDK and expanding GitLab market opportunities.
+The Ecosystem team is responsible for seamless integration between GitLab and 3rd party products as well as making GitLab products available on cloud service providers' marketplaces such as AWS. The team plays a critical role in developing APIs and SDK and expanding GitLab market opportunities.
 
 #### Responsibilities
 
@@ -387,20 +390,20 @@ Gitaly is a service that handles git and other filesystem operations for GitLab 
 #### Responsibilities
 
 - Participate in architectural discussions and decisions surrounding Gitaly.
-- Scope, estimate and describe tasks to reach the team’s goals.
+- Scope, estimate and describe tasks to reach the team's goals.
 - Collaborate on designing RPC interfaces for the Gitaly service.
 - Instrument, monitor and profile Gitaly in the production environment.
 - Build dashboards and alerts to monitor the health of your services.
-- Conduct acceptance testing of the features you’ve built.
+- Conduct acceptance testing of the features you've built.
 - Educate all team members on best practices relating to high availability.
 
 #### Requirements
 
 - Mandatory: production experience building, debugging, optimising software in large-scale, high-volume environments.
 - Mandatory: Solid production Ruby experience.
-- Highly desirable: Experience working with Go. It’s important that candidates must be willing to learn and work in both Go and Ruby.
+- Highly desirable: Experience working with Go. It's important that candidates must be willing to learn and work in both Go and Ruby.
 - Highly desirable: experience with gRPC.
-- Highly desirable: a good understanding of git’s internal data structures or experience running git servers. You can reason about software, algorithms, and performance from a high level.
+- Highly desirable: a good understanding of git's internal data structures or experience running git servers. You can reason about software, algorithms, and performance from a high level.
 - Understanding of how to build instrumented, observable software systems.
 - Experience highly-available systems in production environments.
 

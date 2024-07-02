@@ -4,17 +4,9 @@ description: "This page covers the factors to consider for customer health, guid
 title: "Customer Health Assessment and Management"
 ---
 
-
-
-
-
-
-
-
-
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-----
+---
 This page covers the factors to consider for customer health, guidelines for selecting the appropriate rating, communication guidelines, CSM responsibilities and instructions for the account triage issue creation.
 
 See [Customer Health Scoring](/handbook/customer-success/customer-health-scoring) for an overview on how customer health scoring is defined and calculated at GitLab.
@@ -61,11 +53,11 @@ Examples:
 
 - Potential risk of contraction or churn (even if this is unconfirmed)
 - Lack of alignment with stakeholders who can drive outcomes...
-   - [Economic Buyer](/handbook/sales/meddppicc/#economic-buyer)
-   - [Champion](/handbook/sales/meddppicc/#champion)
-   - Key [Personas](/handbook/product/personas/)
-      - [Cameron (Compliance Manager)](/handbook/product/personas/#cameron-compliance-manager)
-      - [Delaney (Development Team Lead)](/handbook/product/personas/#delaney-development-team-lead)
+  - [Economic Buyer](/handbook/sales/meddppicc/#economic-buyer)
+  - [Champion](/handbook/sales/meddppicc/#champion)
+  - Key [Personas](/handbook/product/personas/)
+    - [Cameron (Compliance Manager)](/handbook/product/personas/#cameron-compliance-manager)
+    - [Delaney (Development Team Lead)](/handbook/product/personas/#delaney-development-team-lead)
 - Product does not deliver expected value or outcomes as defined by success plan
 - No or low product adoption with no progression
 - Communication of poor sentiment
@@ -172,7 +164,7 @@ If a CSM has marked an account as [Red](/handbook/customer-success/csm/health-sc
 1. **Customer Churn** - fully churn the account
 1. **Tier Downgrade** - move down tiers
 1. **Seat Churn** - reduce license seat count
-1. **Customer Sentiment** (Impact Unknown) - customer is unhappy and the impact isn’t quantified
+1. **Customer Sentiment** (Impact Unknown) - customer is unhappy and the impact isn't quantified
 1. **Competitor** - any competitive intelligence we might be up against
 1. **Stage Name** - stage impact, for example, product deficiencies, direction, or needs.
 
@@ -201,12 +193,12 @@ The prospect or customer lost budget due to business contraction, change of prio
 #### Corporate Decision
 
 Due to management decision or policy, the prospect or customer chose a different product but not because of product gaps, adoption, etc. This would be a top-down decision (e.g., ELA, decision to commit to a single provider)
+
 - **Other** - other company issues that contribute to a blocker for the renewal
 
 ### Mitigation Strategies
 
 For CSM guidance on mitigating risk, please see the [Risk Types, Discovery & Mitigation Strategies](/handbook/customer-success/csm/risk-mitigation) page.
-
 
 ## At Risk Communication Guidelines
 
@@ -224,9 +216,6 @@ The following are guidelines on who to notify when an account is yellow or red. 
 - Area Sales Manager and Regional Director
 - Vice President of Customer Success
 
-
-
 ## Related Processes
 
 [Customer Success Escalations Process](/handbook/customer-success/csm/escalations/)
-

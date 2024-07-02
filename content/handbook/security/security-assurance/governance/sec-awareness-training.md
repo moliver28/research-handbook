@@ -28,13 +28,13 @@ By default, GitLab team members within the Engineering Department and the sub-de
 
 Other departments outside of Engineering such as Finance and Marketing also include team members that write code and will be required to complete training.
 
-#### Contractors (Temporary Service Providers)
+### Contractors (Temporary Service Providers)
 
 Internal Contractors/TSPs (with a GitLab email address) and external Contractors/TSPs (non-GitLab email address) that have access to production data are required to complete new hire security training during onboarding and the annual security awareness training thereafter.
 
 Internal contractors/TSPs will be assigned training via ProofPoint. External contractors/TSPs will be sent an email with a training video and handbook links to review.
 
-##### Training exceptions:
+#### Training exceptions
 
 - Contractors/TSPs that do **NOT** have access to any internal systems or sensitive data are **NOT** required to complete GitLab's annual training. However, they must complete training during onboarding.
 - Contractors/TSPs that have been offboarded are not required to complete training, but an [offboarding issue](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues) must be provided as proof of termination.

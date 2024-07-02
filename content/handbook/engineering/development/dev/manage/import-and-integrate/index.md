@@ -29,11 +29,19 @@ The following people are permanent members of the group:
 
 ## Metrics
 
-You can find our group metrics in the [Manage:Import and Integrate Sisense Dashboard](https://app.periscopedata.com/app/gitlab/1129535/Manage:Import-and-Integrate-Dashboard) and [Import and Integrate Group Engineering Metrics handbook page](/handbook/engineering/metrics/dev/manage/import-and-integrate/).
+Here is our group page: [Import and Integrate Group Engineering Metrics handbook page](/handbook/engineering/metrics/dev/manage/import-and-integrate/).
 
-{{< sisense dashboard="926758" chart="12808907" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="import and integrate" >}}
+{{< /tableau >}}
 
-{{% cross-functional-dashboards filters="import and integrate" %}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="import and integrate" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="import and integrate" >}}
+{{< /tableau >}}
 
 ## Work
 
@@ -96,15 +104,15 @@ To maintain good label hygiene, please apply the correct labels when creating or
 All issues should have:
 
 - All of our section, stage and group labels:
-    - `~"section::core platform"`
-    - `~"devops::manage"`
-    - `~"group::import and integrate"`
+  - `~"section::core platform"`
+  - `~"devops::manage"`
+  - `~"group::import and integrate"`
 - One or more of the category labels:
-    - `~"Category:API"`
-    - `~"Category:Importers"`
-    - `~"Category:Integrations"`
-    - `~"Category:Internationalization"`
-    - `~"Category:Webhooks"`
+  - `~"Category:API"`
+  - `~"Category:Importers"`
+  - `~"Category:Integrations"`
+  - `~"Category:Internationalization"`
+  - `~"Category:Webhooks"`
 - A [type label](/handbook/engineering/metrics/#work-type-classification)
 - A [workflow label](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development)
 - `~"backend"` or `~"frontend"` if appropriate
@@ -152,7 +160,7 @@ Anything larger than 5 should be broken down if possible.
 
 Security issues are typically weighted one level higher than they would normally
 appear from the table above. This is to account for the extra rigor of the
-[security release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/developer.md).
+[patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md).
 In particular, the fix usually needs more-careful consideration, and must also
 be backported across several releases.
 
@@ -193,16 +201,14 @@ to look:
 Once identified, the engineering manager will apply the `ready for next refinement` label, which will indicate the issues are ready for
 refinement.
 
-The engineering manager will use the [Refinement
-Bot](https://gitlab.com/gitlab-org/manage/import-and-integrate/refinement-bot)
+The engineering manager will use the [Refinement Bot](https://gitlab.com/gitlab-org/manage/import-and-integrate/refinement-bot)
 to generate an issue with all the issues that have been identified for
 refinement.
 
 #### Step 2: Refining Issues
 
 Over the week, each engineer on the team will look at the list of issues
-selected for backlog refinement. [Current backlog refinement
-issues](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&state=opened&label_name%5B%5D=ready%20for%20next%20refinement).
+selected for backlog refinement. [Current backlog refinement issues](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&state=opened&label_name%5B%5D=ready%20for%20next%20refinement).
 
 For each issue, each team member will review the issues and provide the
 following information:
@@ -239,21 +245,61 @@ from PM or UX.
 
 ### Working with Security
 
-The group has an existing [threat model](https://gitlab.com/gitlab-com/gl-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/GitLab%20Migration.md) to assist in identifying issues that may have security implications, but there are other considerations.
+The group has an existing [threat model](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/GitLab%20Migration.md) to assist in identifying issues that may have security implications, but there are other considerations.
 
-An [Application Security Review](/handbook/security/product-security/application-security/appsec-reviews.html) should be requested when the issue or MR might have security implications. These include, but aren't limited to, issues or MRs which:
+An [Application Security Review](/handbook/security/product-security/application-security/appsec-reviews/) should be requested when the issue or MR might have security implications. These include, but aren't limited to, issues or MRs which:
+
 - falls under the threat model
 - handles binary files (downloading, decompressing, extracting, moving, deleting)
 - modifies or uses file manipulation services
 - uses methods from Import/Export `CommandLineUtil`
 
-#### During a release
+### Longer lived feature flags
+
+This is a supplement to GitLab's common [development guidance](https://docs.gitlab.com/ee/development/feature_flags)
+for use of feature flags. It applies to all flag types besides the [`ops` type](https://docs.gitlab.com/ee/development/feature_flags/#ops-type).
+
+Changes to Import and Integrate features often happen in high-traffic code paths and have
+led to outages on GitLab.com in the past. Outages are often to do with resource contention that can
+be difficult to see ahead of time in code review or in QA testing.
+
+- Large imports can trigger thousands of workers.
+- Integrations and webhooks are executed millions of times a day.
+- Contention problems sometimes do not surface immediately, and only when large customers trigger the new code path.
+
+For this reason we should prefer to keep feature flags in the codebase for a longer period of time than normal.
+During this time the flag is enabled by default but can still be disabled quickly in the event of an incident.
+
+In the past, we were able to quickly mitigate several incidents by disabling the feature:
+
+- [2023-09-21: Group import allows impersonation of users in CI pipelines](https://gitlab.com/gitlab-sirt/shared-incidents/incident_4304/-/issues/1)
+- [2023-10-30: Gitlab.com is down](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17054)
+- [2024-01-30: Sidekiq Apdex SLO](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17504)
+
+For changes within importers, integrations or webhooks we should prefer to:
+
+1. Roll out the flag with `/chatops` as normal.
+1. QA the changes using large data to proactively flush out any problems at scale.
+   For importers, see [our runbook](https://gitlab.com/gitlab-org/manage/import-and-integrate/team/-/blob/main/importers/runbook.md)
+   for tips.
+1. When you come to release the feature, change the feature flag to be `default_enabled: true`
+   rather than to remove it. This is the
+   [optional release the feature with the flag](https://gitlab.com/gitlab-org/gitlab/-/blob/e730c474ed80143ebae33df90900b342020ad7c0/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md?plain=1#L83)
+   step on the flag rollout issue.
+1. At this point the feature is considered released within the milestone, and can be
+   announced in the release post as it will ship to self-managed customers.
+1. **Wait between 1-3 weeks** where the flag exists in the codebase but remains enabled by default.
+   Use the longer period for changes in areas of more contention, or if you feel it may take
+   longer to detect problems for any reason.
+1. After that period, remove the feature flag to complete the flag rollout process.
+
+### During a release
 
 - When an issue is introduced into a release after Kickoff, an equal amount of weight must be removed to account for the unplanned work.
 - Development should not begin on an issue before it's been estimated and given a weight.
 - By the 15th, engineering merge requests should be merged. In other words, we assume code merged after the 15th will not be in the release. That allows time for the release to be finalized, and any associated [release posts](/handbook/marketing/blog/release-posts/) to be merged by the 17th. (This is an [experiment starting with 13.11](https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17330).)
 
-#### Release posts
+### Release posts
 
 For issues which need to be announced in more detail, a release post can be automatically created using the issue.
 When working on an issue, either in planning, or during design and development, you can use the
@@ -263,11 +309,11 @@ to have the release post created and notify all the relevant people.
 If you do not want an issue to have a release post, make sure that the issue does not have a
 release notes section or do not use a `release post item::` label.
 
-#### Proof-of-concept MRs
+### Proof-of-concept MRs
 
 We strongly believe in [Iteration](/handbook/values/#iteration) and delivering value in small increments. Iteration can be hard, especially when you lack product context or are working on a particularly risky/complex part of the codebase. If you are struggling to estimate an issue or determine whether it is feasible, it may be appropriate to first create a proof-of-concept MR. The goal of a proof-of-concept MR is to remove any major assumptions during planning and provide early feedback, therefore reducing risk from any future implementation.
 
-- Create an MR, prefixed with `PoC: `.
+- Create an MR, prefixed with `PoC:`.
 - Explain what problem the PoC MR is trying to solve for in the MR description.
 - Timebox it. Can you determine feasibility or a plan in less than 2-3 days?
 - Identify a reviewer to provide feedback at the end of this period.
@@ -283,19 +329,13 @@ We have 1 regularly scheduled "Per Milestone" retrospective, and can have ad-hoc
 
 #### Per Milestone
 
-The Import and Integrate group conducts [milestone retrospectives in GitLab
-issues][retros]. These include the engineers, UX, PM, and
+The Import and Integrate group conducts [milestone retrospectives in GitLab issues](https://gitlab.com/gl-retrospectives/manage-stage/import-and-integrate/-/issues). These include the engineers, UX, PM, and
 all stable counterparts who have worked with that team during the milestone.
 
 Participation by our team members is highly encouraged for every milestone.
 
 These are confidential during the initial discussion, then made public in time
-for each month's [GitLab retrospective]. For more information, see [group
-retrospectives].
-
-[retros]: https://gitlab.com/gl-retrospectives/manage-stage/import-and-integrate/-/issues
-[GitLab retrospective]: /handbook/engineering/workflow/#retrospective
-[group retrospectives]: /handbook/engineering/management/group-retrospectives/
+for each month's [GitLab retrospective](/handbook/engineering/workflow/#retrospective). For more information, see [group retrospectives](/handbook/engineering/management/group-retrospectives/).
 
 #### Per Project
 
@@ -314,8 +354,10 @@ All feedback from the retrospective should ultimately end up in the issue for re
 
 Our group works with tech leads to help organize work on different topics and identify DRIs for them.
 
-### Characteristics of a Tech Lead
+#### Characteristics of a Tech Lead
+
 A tech lead is:
+
 - an individual contributor with additional responsibilities. Every engineer regardless of their seniority is qualified to be a tech lead.
 - a temporary role that is tied to a specific topic/project. We allow the team to have multiple tech leads at the same time for different topics/projects.
 - **not** a manager.
@@ -324,6 +366,7 @@ A tech lead is:
 The Tech Lead role provides growth opportunity for engineers who are interested in adopting leadership skills.
 
 #### Responsibilites of a Tech Lead
+
 Tech leads wear many hats. Their responsibilities may differ from project to project but may include:
 
 - Technical Vision and Architecture - Defining and evolving the overall technical architecture for a given project
@@ -335,17 +378,16 @@ Tech leads wear many hats. Their responsibilities may differ from project to pro
 - Technical documentation - Maintaining documentation of the technical architecture and code structure for other developers
 
 #### Current Tech Leads
+
 Below is an overview of topics that are overseen by a tech lead:
 
 | Topic | Tech Lead | Topic Link | Notes |
 | ------ | ------ | ------ | ------ |
-| FLC for #17057 | Carla Drago| [FCL issue](https://gitlab.com/gitlab-com/feature-change-locks/-/issues/43) | - |
-| Direct Transfer Q4 OKR | George Koltsov | [Key Result 1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5027), [Key Result 2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5029) | |
-| GitHub Q4 OKR | Luke Duncalfe | [Key Result](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5028) | |
+| Direct Transfer - User contribution mapping | Rodrigo Tomonari | [Epic](https://gitlab.com/groups/gitlab-org/-/epics/12378) | - |
+| Improve the efficiency of developer contributions to the importers | James Nutt | [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6658) | - |
 | Congregate | tbd | https://gitlab.com/gitlab-org/gitlab/-/issues/428657 | |
 | GitHub Actions | tbd | https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17652 | |
 |  | | |  |
-
 
 ## Merge request roulette reviews
 
@@ -408,13 +450,10 @@ This is a collection of links for monitoring our features.
 
 ### Grafana dashboards
 
-- [Import and Integrate group dashboard][grafana-dashboard] which contain:
-    - Links to various Kibana logs, filtered to our feature categories
-    - Our [error budget](#error-budget) spend attribution
+- [Import and Integrate group dashboard](https://dashboards.gitlab.net/d/stage-groups-import_and_integrate/stage-groups-import-and-integrate-group-dashboard?orgId=1) which contain:
+  - Links to various Kibana logs, filtered to our feature categories
+  - Our [error budget](#error-budgets) spend attribution
 - [Worker queues](https://dashboards.gitlab.net/d/sidekiq-queue-detail/sidekiq-queue-detail?orgId=1&var-PROMETHEUS_DS=Global&var-environment=gprd&var-stage=main&var-queue=jira_connect:jira_connect_sync_branch) where you can switch queues with the `queue` dropdown
-
-### Periscope dashboards
-- [Importer - North star metrics](https://app.periscopedata.com/app/gitlab/661967/Manage:Import-Dashboard)
 
 ### Sentry errors
 
@@ -440,9 +479,9 @@ This is a collection of links for monitoring our features.
 
 ### Error budgets
 
-GitLab uses [error budgets][error-budgets-handbook] to measure the availability and performance of our features.
+GitLab uses [error budgets](/handbook/engineering/error-budgets/) to measure the availability and performance of our features.
 Each engineering group has its own budget spend. The current 28-day spend for the Import and Integrate team
-shows in this [Grafana dashboard][grafana-dashboard].
+shows in this [Grafana dashboard](https://dashboards.gitlab.net/d/stage-groups-import_and_integrate/stage-groups-import-and-integrate-group-dashboard?orgId=1).
 
 Error budget spend happens when either of the following exceeds a certain threshold:
 
@@ -451,7 +490,7 @@ Error budget spend happens when either of the following exceeds a certain thresh
 
 #### Determine the highest-impact fixes
 
-To determine the highest-priority problems in our [Grafana dashboard][grafana-dashboard]:
+To determine the highest-priority problems in our [Grafana dashboard](https://dashboards.gitlab.net/d/stage-groups-import_and_integrate/stage-groups-import-and-integrate-group-dashboard?orgId=1):
 
 1. Go to the **Error budget** panel.
 1. Expand **Budget spend attribution**. The **Budget failures** panel is ordered by top failures.
@@ -463,23 +502,25 @@ Fixing the top offenders will have the biggest impact on the budget spend.
 
 Learn more about error budgets with these resources:
 
-- [Error budgets and how they are calculated][error-budgets-handbook]
+- [Error budgets and how they are calculated](/handbook/engineering/error-budgets/)
 - [What Apdex is and how it works](https://docs.gitlab.com/ee/development/application_slis/rails_request_apdex.html)
 - [Error budget in Grafana dashboards](https://docs.gitlab.com/ee/development/stage_group_observability/index.html#error-budget)
 - [Feature categorization](https://docs.gitlab.com/ee/development/feature_categorization): our code is attributed to us by `feature_category: :api`, `feature_category: :integrations`, `feature_category: :internationalization`, `feature_category: :importers`, and `feature_category: :webhooks`
 
-[error-budgets-handbook]: /handbook/engineering/error-budgets/ "Error budgets handbook page"
-[grafana-dashboard]: https://dashboards.gitlab.net/d/stage-groups-import_and_integrate/stage-groups-import-and-integrate-group-dashboard?orgId=1 "Grafana Error Budget Dashboard for Integrations"
-
 ## Links and resources {#links}
 
 {{% include "includes/engineering/manage/shared-links.md" %}}
+
 - [Milestone retrospectives](https://gitlab.com/gl-retrospectives/manage-stage/import-and-integrate/-/issues)
 - Our Slack channels
   - Manage:Import and Integrate [#g_manage_import_and_integrate](https://gitlab.slack.com/archives/C04RDL3MEH5)
   - Daily standups [#g_manage_import_and_integrate_daily](https://gitlab.slack.com/archives/C04UYQV7716)
 - Issue boards
   - [Current milestone board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport%20and%20integrate)
+- Contribution guides
+  - [Principles of importer design](https://docs.gitlab.com/ee/development/import/principles_of_importer_design/)
+  - [Contributing to Direct Transfer](https://docs.gitlab.com/ee/development/bulk_imports/contributing)
+    - [Feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/456468)
 - Onboarding videos (GitLab Unfiltered Youtube)
   - [Direct Transfer](https://www.youtube.com/watch?v=vVQ6Ex9fSl8) (formerly known as GitLab Migration)
   - [Introduction to GitHub Importer](https://www.youtube.com/watch?v=TxHopzXop5s)

@@ -1,17 +1,7 @@
 ---
-
 title: "Self-Service List Imports"
 description: "Automated process developed by Marketing Operations to facilitate self-service list imports"
 ---
-
-
-
-
-
-
-
-
-  
 
 With the purpose of increasing efficiency through the use of automation, Marketing Operations has developed a self-service process for list imports, to be used by campaign managers when they have third party vendor lists from events/other campaigns or to update the member status on field marketing events.
 
@@ -65,7 +55,7 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 **Step 4 - Drop the CSV in the Google Drive folder**
 {: .alert .alert-info}
 
-1. Go to the [Google Drive folder](https://drive.google.com/drive/folders/1SvDR2KW8_vtPZjJ7WWihA1iOgSJn0_fv?usp=share_link) called `List Import Automation`. If you do not have access to the folder, open an AR request with the Marketing Operations team seeking access to both the `List Import Automation` and the `Report Folder`. 
+1. Go to the [Google Drive folder](https://drive.google.com/drive/folders/1SvDR2KW8_vtPZjJ7WWihA1iOgSJn0_fv?usp=share_link) called `List Import Automation`. If you do not have access to the folder, open an AR request with the Marketing Operations team seeking access to both the `List Import Automation` and the `Report Folder`.
 1. Drop your CSV containing lead data into the folder
 1. An automated process will pick up your CSV and start processing each record in your file, validating the data.
 
@@ -74,11 +64,11 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 
 **When the import finishes processing in Marketo, it will send a slack message with information about:**
 
-    1. Report link
-    1. Marketo program link
-    1. Records created
-    1. Records updated
-    1. Failed records
+1. Report link
+1. Marketo program link
+1. Records created
+1. Records updated
+1. Failed records
 
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
@@ -103,8 +93,8 @@ Pubsec field marketers need to use `List Upload Complete - PubSec` label on eith
 
 ![Report status column](/handbook/marketing/marketing-operations/automated-list-import/images/report-status.png)
 
-</details> 
-  
+</details>
+
 ## Common errors
 
 1. Country or State Failed Validation: We check the country and state values against a strict picklist. Having wrong values in those fields results in Salesforce refusing to accept to sync a new lead.
@@ -114,17 +104,9 @@ Pubsec field marketers need to use `List Upload Complete - PubSec` label on eith
 
 ## Data Cleaning Instructions
 
-<div  class="panel panel-danger">
-
-**Caution**
-
+{{% panel header="**Caution**" header-bg="danger" %}}
 DO NOT MAKE CHANGES TO THE ORIGINAL SPREADSHEET OR INPUT DATA INTO IT. MAKE A COMPLETE COPY AS INDICATED IN THE LIST UPLOAD ISSUE TEMPLATE
-{: .panel-heading}
-
-<div  class="panel-body">
-
-</div>
-</div>
+{{% /panel %}}
 
 <details>
 
@@ -152,7 +134,7 @@ The following data cleanup is required for any list prior to sending it to the M
 
 - **Duplicate Records:** If the person is a duplicate based on email address, they will appear red under the blue column header, and should be removed from the list.
 
-** Best Practices **
+**Best Practices**
 
 1. Remove inaccurate entries
 
@@ -211,7 +193,7 @@ The following data cleanup is required for any list prior to sending it to the M
 | Last Name              | Yes                                       |                                                                                                                                           | Missing this value will result in an **error**                                                                                                                                                                                                                          |
 | Email Address          | Yes                                       |                                                                                                                                           | Missing this value will result in an **error**                                                                                                                                                                                                                          |
 | Company Name           | Yes                                       |                                                                                                                                           | Missing this value will result in an **error**                                                                                                                                                                                                                          |
-| State/Province         | No but preferable for US/Canada/Australia | See values [here](#reference-values-for-picklists)                                                                                        |
+| State/Province         | No but preferable for US/Canada/Australia | See values [here](#reference-values-for-picklists)                                                                                        | |
 | Country                | Yes                                       | See values [here](#reference-values-for-picklists)                                                                                        | Missing this value will result in an **error**                                                                                                                                                                                                                          |
 | Campaign Member Status | Yes                                       | See values [here](#reference-values-for-picklists)                                                                                        | This will determine the status in the Marketo Program                                                                                                                                                                                                                   |
 | Label as Opt-In?       | No                                        | Yes/No or True/False                                                                                                                      | Leave blank if no option is provided                                                                                                                                                                                                                                    |
@@ -464,7 +446,7 @@ The following data cleanup is required for any list prior to sending it to the M
 | Western Sahara                               |                                      |                         |
 | Yemen                                        |                                      |                         |
 | Zambia                                       |                                      |                         |
-| Zimbabwe                                     |                                      |
+| Zimbabwe                                     |                                      | |
 
 </details>
 
@@ -478,17 +460,17 @@ A: Before re-uploading the correct list or trying to fix the error, please get i
 
 A: Your tokens were not filled out before the time of the import. A new batch campaign will need to be created to update this information.
 
-**Q: I haven’t received a notification that my import is complete, how can I check its status?**
+**Q: I haven't received a notification that my import is complete, how can I check its status?**
 
-A: If you have access to log into Marketo, navigate to the campaign and you can see the number of leads that have been loaded. Check these numbers against your CSV file to see its progress. Refresh this page periodically to see if those numbers continue to increase. If they seem to have stopped and don’t match your final numbers you can notify mktgops and we can check for any failures.
+A: If you have access to log into Marketo, navigate to the campaign and you can see the number of leads that have been loaded. Check these numbers against your CSV file to see its progress. Refresh this page periodically to see if those numbers continue to increase. If they seem to have stopped and don't match your final numbers you can notify mktgops and we can check for any failures.
 
 **Q: Can I use this system to update information on a list that already exists? (Ex: I need to change their opt-in status or their employee bucket numbers.)**
 
 A: Yes, you can create a CSV list with the members email and the column data you want to update and import the same way, this will update the records.
 
-**Q: What’s taking so long?!?**
+**Q: What's taking so long?!?**
 
-A: Workato is running the leads through all the processing needed to add leads, update fields, and sync to SFDC. Due to Workato and Google Workspace’s integration, there is a built-in delay to prevent the API from being over-taxed and canceling the job halfway through. With larger lists, the process can take some time but we do not expect the process to go over the 24 hour SLA. As an example; we have seen lists of non english leads of upwards of 800+ taking close to 14 hours to fully complete.
+A: Workato is running the leads through all the processing needed to add leads, update fields, and sync to SFDC. Due to Workato and Google Workspace's integration, there is a built-in delay to prevent the API from being over-taxed and canceling the job halfway through. With larger lists, the process can take some time but we do not expect the process to go over the 24 hour SLA. As an example; we have seen lists of non english leads of upwards of 800+ taking close to 14 hours to fully complete.
 
 - Example: Uploaded at 1:20PM -> Progress check at 3:00PM: (467 members added so far out of the 807 total) ->
   Import Complete Message at 3:14AM.

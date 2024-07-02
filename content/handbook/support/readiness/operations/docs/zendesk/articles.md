@@ -9,7 +9,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/articles"
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
 
-#### Creating a new article
+### Creating a new article
 
 You will first need to get the managed content file in the Support managed
 content project. Remember to use the correct filenames for all of this to
@@ -57,13 +57,13 @@ From here, create the merge request in the sync repo project. We highly
 recommend referencing the already existing files to get an idea of what the new
 YAML file will need within it.
 
-#### Updating an existing article
+### Updating an existing article
 
 Updating an existing article is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
-#### Deactivating an article
+### Deactivating an article
 
 To deactivate an article, you will simply change the article file in the source
 sync repo project via your merge request. Ensure you merge request does the
@@ -75,12 +75,12 @@ following:
 
 ## Source Projects
 
-#### Zendesk Global
+### Zendesk Global
 
 - [Support managed content project](https://gitlab.com/gitlab-com/support/support-pages)
 - [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-global/articles)
 
-#### Zendesk US Government
+### Zendesk US Government
 
 - [Support managed content project](https://gitlab.com/gitlab-com/support/support-pages)
 - [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/articles)

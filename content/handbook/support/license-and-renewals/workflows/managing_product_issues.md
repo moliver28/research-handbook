@@ -1,5 +1,4 @@
 ---
-
 title: Managing Product Issues
 description: "The collaborative process between Support and Fulfillment for managing product issues"
 category: General

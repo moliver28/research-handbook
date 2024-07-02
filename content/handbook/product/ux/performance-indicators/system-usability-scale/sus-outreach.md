@@ -43,7 +43,7 @@ Every quarter, we include a question in the SUS survey that asks whether respond
 **Copy for the permission to record question in Calendly invite**:
 
 > We would like to record (1) the conversation you have with our team member and (2) anything you choose to share on your screen with us during the call. We would like to share the recording of the call with other GitLab team members. The recording is stored securely and would never be shared with anyone outside of the GitLab team. Please indicate below whether you give your permission for us to record the conversation and share with our team.
-
+>
 > I agree, I give my permission for my voice and screen to be recorded.
 >
 > I disagree, I do not want my voice or screen to be recorded.
@@ -58,4 +58,4 @@ Every quarter, we include a question in the SUS survey that asks whether respond
 1. If multiple GitLab team members are on the call, it can be beneficial to debrief immediately afterwards.
 1. Collect all notes that were taken and the upload the Zoom recording (if applicable) to our [SUS Follow-up Project in Dovetail](https://gitlab.dovetailapp.com/projects/36nmGVKvkaT7SGMXtUeHVg/v/70xPTo5RzTRZnCNEVz1fWH).
 1. If you told the user you'd follow up on anything or promised to send them further information, make sure you do so, ideally within two business days.
-1. Add the label 'SUS::Impacting' to any epics/issues that result from or align with feedback from the SUS outreach calls.
+1. Add the label 'SUS::Responder Outreach' to any epics/issues that result from or align with feedback from the SUS outreach calls.

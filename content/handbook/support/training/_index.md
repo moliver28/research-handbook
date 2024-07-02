@@ -1,12 +1,7 @@
 ---
-
 title: Support Learning & Training
 description: Learning Pathways available to Support team members
 ---
-
-
-
-
 
 ## Support Learning Pathways
 
@@ -23,7 +18,7 @@ To create an issue for yourself with one of the module templates:
 
 ## Support hybrid model
 
-The hybrid model is a structured training plan that will prepare you to work on both [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/) and [self-managed](https://docs.gitlab.com/ee/subscriptions/self_managed/) support issues. The ultimate goal is to split your time roughly 50%/50% between the two. You may find these [checkpoints](/handbook/support/training/onboarding_hybrid_path_checkpoints) helpful while working through the hybrid model path.
+The hybrid model is a structured training plan that will prepare you to work on [GitLab.com](https://docs.gitlab.com/ee/subscriptions/gitlab_com/), [self-managed](https://docs.gitlab.com/ee/subscriptions/self_managed/), and [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) support issues. You may find these [checkpoints](/handbook/support/training/onboarding_hybrid_path_checkpoints) helpful while working through the hybrid model path.
 
 <div class="x-scrollable">
 <div style="width: 1800px;">
@@ -118,6 +113,7 @@ The GitLab Support pathway covers all platforms that we offer. In completing the
 | [GitLab-com SaaS Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab-com%20SaaS%20Basics) | 2 Weeks | Understand the basics to answer GitLab.com (SaaS) product related tickets |
 | [GitLab Installation & Administration Basics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=GitLab%20Installation%20and%20Administration%20Basics) | 1 Week | Understand the different ways in which GitLab can be installed and managed |
 | [Self-Managed Support Basics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Self-Managed%20Basics) | 2 Weeks | Understand the basics to answer Self Managed product related tickets |
+| [GitLab Dedicated Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab%20Dedicated) | 1 Week | Understand the basics to answer GitLab Dedicated related tickets |
 
 When these modules are complete:
 
@@ -193,7 +189,7 @@ It is recommended that you complete the modules in the order listed, unless an i
 | [ZenDesk Basics](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Zendesk-Basics.md) | 1 Day | Utilize ZenDesk to perform ticket management |
 | [Triaging Tickets](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Triaging%20Tickets) | 4 Days | Understand how to triage tickets including the triage view in Zendesk |
 | [Customer Emergencies](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Customer-Emergencies.md) | 1 Week | Understand the responsibilities of being on-call for Customer Emergencies |
-| [SSAT Reviewing Manager](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/SSAT-Reviewing-Manager.md) | 1 day | Understand how to handle Support Satisfaction feedback results |
+| [SSAT Reviewing for Managers](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/SSAT%20Reviewing%20Manager.md) | 1 day | Understand how to handle Support Satisfaction feedback results |
 
 When this pathway is complete, let your manager know that you are ready to join the appropriate on-call rotations. (Your Support Manager Basics issue contains the instructions for this step.)
 

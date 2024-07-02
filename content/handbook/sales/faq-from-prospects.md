@@ -1,16 +1,9 @@
 ---
-
 title: "FAQ from prospects"
 description: "See FAQs about GitLab's features, user management, statistics/logs, performance, installation, and support"
 ---
 
-
-
-
-
-
-
-### Features:
+### Features
 
 - Q: Does GitLab support a search engine based on Elasticsearch or alike?
 
@@ -19,7 +12,7 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
   Documentation: https://docs.gitlab.com/ee/integration/elasticsearch.html
 
 - Q: Is Advanced Search Avilable for Guest accounts?
-  
+
   A: Yes, In GitLab EE with Advanced Search enabled Guests accounts can use Advanced Search.
 
 - Q: Does GitLab provide project templates?
@@ -40,8 +33,7 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1366
 
-
-### User management:
+### User management
 
 - Q: Does GitLab supports groups of users?
 
@@ -71,8 +63,7 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   License FAQ: /pricing/licensing-faq/
 
-
-### Statistics / Logs:
+### Statistics / Logs
 
 - Q: What kind of usage statistics are available for GitLab admins?
 
@@ -90,8 +81,7 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   Audit Events: https://docs.gitlab.com/ee/administration/audit_events.html
 
-
-### Performance:
+### Performance
 
 - Q: What are the system requirements for a certain amount of users or repositories?
 
@@ -103,8 +93,7 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   Documentation: missing
 
-
-### Installation and support:
+### Installation and support
 
 - Q: What is the process to request support?
 

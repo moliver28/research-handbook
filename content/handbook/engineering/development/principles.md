@@ -26,8 +26,7 @@ engineering practice.
 
 ## Iteration
 
-We always push ourselves to be iterative and make the [minimal viable
-change](/handbook/product/product-principles/#the-minimal-viable-change-mvc)
+We always push ourselves to be iterative and make the [minimal viable change](/handbook/product/product-principles/#the-minimal-viable-change-mvc)
 that is on the direct path to achiving our goals.
 
 For complex initiatives we are using the [Architecture Design Workflow](/handbook/engineering/architecture/workflow/)
@@ -109,7 +108,7 @@ we will need to put more work into building a simple solution.
 
 **Availability/Reliability**, **Quality**, **Security**, and **Performance** are the pillars for building reliable software. Reliability is our contract with our customers that say you can count on us to deliver an available and dependable product. Everyone in the organization has a role to play.
 
-Engineers, Product Managers, and Designers have the most direct influence over the reliability of the code through either planning, implementation, monitoring (e.g. [Kibana](/handbook/support/workflows/kibana.html), [Sentry](/handbook/support/workflows/sentry.html), Grafana and other [GitLab.com monitoring tools](/handbook/engineering/monitoring/#monitoring)), or prioritization of the work. Product and Engineering management monitors (e.g. [Error Budgets](/handbook/engineering/error-budgets/)) and measures the reliability of features and makes recommendations if necessary. Our focus on [learning and development](/handbook/people-group/learning-and-development/) will also ensure that teams have the tools and training required to build reliable software. The [Infrastructure](/handbook/engineering/infrastructure/#mission), [Application Security](/handbook/security/product-security/application-security/#application-security-mission), [Database](/handbook/engineering/infrastructure/core-platform/data_stores/database/) and [Quality](/handbook/engineering/quality/#mission) teams are the Subject Matter Experts supporting product development teams.
+Engineers, Product Managers, and Designers have the most direct influence over the reliability of the code through either planning, implementation, monitoring (e.g. [Kibana](/handbook/support/workflows/kibana/), [Sentry](/handbook/support/workflows/sentry/), Grafana and other [GitLab.com monitoring tools](/handbook/engineering/monitoring/#monitoring)), or prioritization of the work. Product and Engineering management monitors (e.g. [Error Budgets](/handbook/engineering/error-budgets/)) and measures the reliability of features and makes recommendations if necessary. Our focus on [learning and development](/handbook/people-group/learning-and-development/) will also ensure that teams have the tools and training required to build reliable software. The [Infrastructure](/handbook/engineering/infrastructure/#mission), [Application Security](/handbook/security/product-security/application-security/#application-security-mission), [Database](/handbook/engineering/infrastructure/core-platform/data_stores/database/) and [Quality](/handbook/engineering/quality/#mission) teams are the Subject Matter Experts supporting product development teams.
 
 ## Velocity
 
@@ -244,8 +243,8 @@ We develop and document processes that are designed to help us in achieving bett
 
 For example, the following processes exist to reduce the risk and improve code quality:
 
-* [Feature Flags Usage](https://docs.gitlab.com/ee/development/feature_flags/index.html)
-* [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html))
+- [Feature Flags Usage](https://docs.gitlab.com/ee/development/feature_flags/index.html)
+- [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html)
 
 We find opportunities for improvement through analyzing metrics to identify trends, hosting retrospectives (e.g. [Group Retrospectives](/handbook/engineering/management/group-retrospectives/), [Iteration Retrospectives](/handbook/engineering/development/dev/create/engineers/iteration/)), performing [Root Cause Analyses](/handbook/customer-success/professional-services-engineering/workflows/internal\root-cause-analysis.html), and receiving feedback from team members. Team members are encouraged to identify opportunities to improve our processes and propose solutions, examples of this could be an MR or and issue describing these opportunities.
 
@@ -253,10 +252,7 @@ Everyone can contribute by proposing new processes and improving upon existing p
 
 ## Quality
 
-It is important to remember that quality is everyone's responsibility. Everything you merge to master should be production ready. Familiarize yourself with the [definition of done].
-
-[Development Guides]: https://docs.gitlab.com/ee/development/
-[definition of done]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/merge_request_workflow.md#definition-of-done
+It is important to remember that quality is everyone's responsibility. Everything you merge to master should be production ready. Familiarize yourself with the [definition of done](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/merge_request_workflow.md#definition-of-done).
 
 ### Release when it's ready
 
@@ -269,12 +265,12 @@ As the first of these is a monthly release, it's tempting to try to rush to get 
 
 Due date pressure logically leads to a few outcomes:
 
-1. People are at [increased risk of burnout](/handbook/paid-time-off/#recognizing-burnout).
+1. People are at [increased risk of burnout](/handbook/people-group/paid-time-off/#recognizing-burnout).
 1. We may compromise on our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done).
 1. We [cut scope](/handbook/values/#move-fast-by-shipping-the-minimal-viable-change).
 1. We miss the due date.
 
-Only the last two outcomes are acceptable as a general rule. Missing a 'due date' in the form of an assigned milestone is often OK as we put [velocity above predictability](#velocity-over-predictability), and missing the monthly self-managed release does not prevent code from reaching GitLab.com.
+Only the last two outcomes are acceptable as a general rule. Missing a 'due date' in the form of an assigned milestone is often OK as we put [velocity above predictability](/handbook/engineering/development/principles/#the-importance-of-velocity), and missing the monthly self-managed release does not prevent code from reaching GitLab.com.
 
 For these reasons, and others, we intentionally [do not define a specific date](/handbook/engineering/releases/#timelines) for code to be merged in order to reach a self-managed monthly release. The earlier it is merged, the better. This also means that:
 
@@ -312,7 +308,7 @@ Follow the [dogfooding process described in the Product Handbook](/handbook/prod
 
 ### Code Quality and Standards
 
-We need to maintain code quality and standards. It's very important that you are familiar with the [Development Guides] in general, and the ones that relates to your group in particular:
+We need to maintain code quality and standards. It's very important that you are familiar with the [Development Guides](https://docs.gitlab.com/ee/development/) in general, and the ones that relates to your group in particular:
 
 - [UX Guides](https://docs.gitlab.com/ee/development/ux)
 - [Backend Guides](https://docs.gitlab.com/ee/development/#backend-guides)
@@ -329,7 +325,7 @@ The only way to achieve flexibility is to make things as simple and easy to chan
 
 Part of our engineering culture is to keep shipping so users and customers see significant new value added to GitLab.com or their self-managed instance. To support rapid development, we choose pragmatically the right technology. As each view is unique, we should equally respect our HAML and Vue codebase and make an educated choice per view as to which framework will enable the most consistency and maintainability.
 
-It’s important to keep in mind that when building complex applications, there are many factors to consider such as the fully planned feature to avoid situations where we build an MVC in HAML only to later need to re-write it in Vue due to growing complexity.
+It's important to keep in mind that when building complex applications, there are many factors to consider such as the fully planned feature to avoid situations where we build an MVC in HAML only to later need to re-write it in Vue due to growing complexity.
 
 To promote visual consistency and an accessible UI, we should always aim to use simple and reusable UI components provided by the [GitLab UI component library](https://gitlab.com/gitlab-org/gitlab-ui/) both in Vue and HAML views. We implement GitLab UI components based on our Pajamas design system and currently these are mostly in Vue, however, we provide [adapters](https://docs.gitlab.com/ee/development/fe_guide/haml.html#available-components) that allow us to use a few simple components in HAML as well.
 
@@ -353,8 +349,8 @@ If a GitLab UI component is not available on HAML due to its intrinsic complexit
 
 A complex component denotes a type of component that cannot be used easily in our HAML files. This might be due to in-built state management, CSS or dynamic behaviour that rapidly becomes a maintainability burden inside HAML. An example of such a component would be our [Table component](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/base-table-table--default).
 
-* [backend](https://docs.gitlab.com/ee/development/api_graphql_styleguide.html)
-* [frontend](https://docs.gitlab.com/ee/development/fe_guide/graphql.html)
-* [use GraphQL everywhere](https://gitlab.com/groups/gitlab-org/-/epics/1366)
-* [the importance of velocity](/handbook/engineering/development/principles/#the-importance-of-velocity)
-* [engineering proposed initiative](/handbook/engineering/#engineering-proposed-initiatives)
+- [backend](https://docs.gitlab.com/ee/development/api_graphql_styleguide.html)
+- [frontend](https://docs.gitlab.com/ee/development/fe_guide/graphql.html)
+- [use GraphQL everywhere](https://gitlab.com/groups/gitlab-org/-/epics/1366)
+- [the importance of velocity](/handbook/engineering/development/principles/#the-importance-of-velocity)
+- [engineering proposed initiative](/handbook/engineering/#engineering-proposed-initiatives)

@@ -13,7 +13,6 @@ GitLab covers **100%** of team member, spouse, dependents, and/or domestic partn
 
 Please review the [Employee Booklet](https://drive.google.com/file/d/1QToHbxyoqAx4lz8wnI73OqNuICScE5tk/view?usp=sharing) and full [policy document](https://drive.google.com/file/d/1UFEPx7LI1kUmOr2BX47ZlRniQip_qewJ/view?usp=sharing) for more information on the benefits being offered.
 
-
 ## Group Health Coverage
 
 GitLab offers medical, dental, and vision coverage at no cost to the team member. The benefits are outlined in the following [benefit summary](https://drive.google.com/file/d/1QToHbxyoqAx4lz8wnI73OqNuICScE5tk/view?usp=sharing) as well as below. This documentation also has details on the products and services available under the plan.
@@ -87,9 +86,7 @@ Effective May 1, 2021 GitLab team members and their dependants enrolled in Canad
 
 **Beneficiary Designation**
 
-Team Members should designate a beneficiary for your Life Insurance Plan with Canada Life.
-
-In order to assign a beneficiary for the Life Insurance plan, team members should download the "Beneficiary Form"  on the [Canada Life Beneficiary](https://www.canadalife.com/support/forms/plan-administrators/apply-or-make-changes-to-group-coverage-or-beneficiary-trustee-i/beneficiary-or-trustee-change.html) webpage. If the beneficiary is a minor, please also download the "Trustee Appointment" form. Please email the completed from to Total-rewards@gitlab.com and Darren@scinsurance.ca
+Team Members should designate a beneficiary for your Life Insurance Plan with Canada Life. [See instructions](/handbook/total-rewards/benefits/general-and-entity-benefits/canada-corp-benefits/#updating-beneficiary-information) on how to update your Beneficiary.
 
 It's important to have this information up to date to ensure that team member's loved ones receive the funds tax free in the unfortunate event of a team member passing.  Without a beneficiary in place, the funds may go into an estate and could be subject to taxes before beneficiaries are eligible.
 
@@ -130,6 +127,15 @@ Member ID: When you complete your digital enrollment, Collage will populate a Me
 
 In order to assign a beneficiary for the Life Insurance plan, team members should download the "Beneficiary Form"  on the [Canada Life Beneficiary webpage](https://www.canadalife.com/support/forms/plan-administrators/apply-or-make-changes-to-group-coverage-or-beneficiary-trustee-i/beneficiary-or-trustee-change.html). If the beneficiary is a minor, please also download the "Trustee Appointment" form. Canada Life requires a wet signature on these forms, so please print, complete, and scan back the forms to Total-rewards@gitlab.com and Darren@scinsurance.ca.
 
+When filling out the form you may enter the following under Part 1:
+
+- Plan Number: [Link to Plan Number](https://docs.google.com/document/d/1fwBuM3lgCOeiWcrgf2tfUJ9S72-ODWZKBBtKBdFzNJw/edit?usp=sharing)
+- Division Number: [You May Leave this Section Blank]
+- Plan Member ID: [When you complete your digital enrollment, Collage will populate a Member ID # for you. You can find the Member ID # in the Benefits Tab on your Collage profile page.]
+- Plan Sponsor: GitLab Canada Corp
+
+It's important to have this information up to date to ensure that team member's loved ones receive the funds tax free in the unfortunate event of a team member passing.  Without a beneficiary in place, the funds may go into an estate and could be subject to taxes before beneficiaries are eligible.
+
 Please note that there is a separate process for electing a beneficiary for the RRSP plan.
 
 ### Updating Coverage Status and Enrollment of Domestic Partners, Spouses, and Dependents
@@ -140,7 +146,7 @@ Domestic Partner Enrollment: Canada Life uses the first day cohabitating as the 
 
 ### Canada Life Enrollment
 
-In addition to enrollment in the Collage portal, you can also register directly with Canada Life. To register, you can do so by following this [registration link](https://gwl.greatwestlife.com/MyRegistration). This will allow you access to Canada Life’s GroupNet for Plan Members and the ability to download the GroupNet Mobile app on your mobile device. Once registered you will have access to online claims submission, your electronic benefits card, direct deposit of claim payments, view the status of your claims and more. Canada Life has also provided the following [Welcome Packet](https://drive.google.com/file/d/1Fg9LxE-eyLqgDihpw5kUb-4PuDK5AeMa/view?usp=sharing). The [french version of the welcome packet](https://drive.google.com/file/d/1SChNz6Ir6Vyk8scbM-WJR1N8solVmpeE/view?usp=sharing) is also available.
+In addition to enrollment in the Collage portal, you can also register directly with Canada Life. To register, you can do so by following this [registration link](https://gwl.greatwestlife.com/climsMyLogin). This will allow you access to Canada Life's GroupNet for Plan Members and the ability to download the GroupNet Mobile app on your mobile device. Once registered you will have access to online claims submission, your electronic benefits card, direct deposit of claim payments, view the status of your claims and more. Canada Life has also provided the following [Welcome Packet](https://drive.google.com/file/d/1Fg9LxE-eyLqgDihpw5kUb-4PuDK5AeMa/view?usp=sharing). The [french version of the welcome packet](https://drive.google.com/file/d/1SChNz6Ir6Vyk8scbM-WJR1N8solVmpeE/view?usp=sharing) is also available.
 
 Learn how to use GroupNet for Plan Members by watching the helpful videos in the following [pdf](https://drive.google.com/file/d/1mrZPMKd17m9cwC1Qnsdq6KyJ2lmfehFe/view?usp=sharing).
 
@@ -171,12 +177,12 @@ Canada Life has designed [tools and services](https://www.greatwestlife.com/you-
 - What are my key responsibilities as a plan member?
   - If you experience a major lifestyles event, you must advise your plan administrator within 31 days of the event and complete any corresponding paperwork. Failure to notify Canada Life of a lifestyle event within 31 days of the event, could result in limitations or declined coverage. Please see your plan administrator for support.
   - Major lifestyles events include:
-     - Marriage - legal or common-law (1st day of cohabitation)
-     - Legal Separation
-     - Divorce or termination of a common-law relationship
-     - Death of spouse or insured child, Birth or adoption of a child
-     - Loss of spouse’s benefits
-     - Dependents becoming ineligible for dependent coverage either because of their age or student status
+    - Marriage - legal or common-law (1st day of cohabitation)
+    - Legal Separation
+    - Divorce or termination of a common-law relationship
+    - Death of spouse or insured child, Birth or adoption of a child
+    - Loss of spouse's benefits
+    - Dependents becoming ineligible for dependent coverage either because of their age or student status
 
 ## Registered Retirement Savings Plan (RRSP)
 
@@ -247,11 +253,11 @@ Québec - [La Loi sur les normes du travail (N-1.1)](http://www.legisquebec.gouv
 
 *Quebec*
 
-- Team members are entitled to 5 consecutive weeks of paternity leave. This leave may begin as of the week of the child’s birth and end no later than 78 weeks after the child’s birth. At the request of the parent, this leave may be suspended, divided, or extended if the health conditions of the parent or child require it.  This type of leave is exclusive to the biological father, or spouse of the biological mother.
+- Team members are entitled to 5 consecutive weeks of paternity leave. This leave may begin as of the week of the child's birth and end no later than 78 weeks after the child's birth. At the request of the parent, this leave may be suspended, divided, or extended if the health conditions of the parent or child require it.  This type of leave is exclusive to the biological father, or spouse of the biological mother.
 
 - Benefits for a two-woman couple: The biological mother is entitled to maternity benefits and her spouse is entitled to paternity benefits if she is mentioned on the birth certificate. Both mothers are also entitled to parental benefits. In the case of spouses who adopt a child, both are entitled to adoption benefits.
 
-- Benefits for a two-man couple: Paternity and parental benefits are granted to the biological father. A man who adopts his spouse’s biological child may also be entitled to adoption benefits. In the case of spouses who adopt a child, both are entitled to adoption benefits.
+- Benefits for a two-man couple: Paternity and parental benefits are granted to the biological father. A man who adopts his spouse's biological child may also be entitled to adoption benefits. In the case of spouses who adopt a child, both are entitled to adoption benefits.
 
 **Parental Leave:**
 
@@ -280,16 +286,16 @@ Québec - [La Loi sur les normes du travail (N-1.1)](http://www.legisquebec.gouv
 - Team members in Ontario, British Columbia, Alberta, and Manitoba may be eligible to receive [Employment Insurance Maternity Benefit](https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/maternity-parental.html#h2.1) through the Government of Canada for up to 15 weeks of Maternity Leave if they meet the required eligibility criteria.
   - The Province of Québec is responsible for providing maternity, paternity, parental, and adoption benefits to residents of Quebec through a program called the [Québec Parental Insurance Plan](https://www.rqap.gouv.qc.ca/en/about-the-plan/general-information/premiums-and-maximum-insurable-earnings).
 - Team members may also be eligible to receive Employment Insurance Parental Benefit (see below) if they meet the required eligibility criteria.
-- If a team member is eligible to receive Employment Insurance and also eligible to receive payments under [GitLab's paid Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement Employment Insurance payments for up to 16 weeks such that the gross amount of the Employment Insurance payments plus GitLab’s top-up payment under Parental Leave will equal 100% of the team members’ normal weekly salary during each week of the top-up payments.
-- If a team member is ineligible to receive Employment Insurance, but eligible to take GitLab's paid Parental Leave, GitLab will pay 100% of the team members’ normal weekly salary for up to 16 weeks of leave.
+- If a team member is eligible to receive Employment Insurance and also eligible to receive payments under [GitLab's paid Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement Employment Insurance payments for up to 16 weeks such that the gross amount of the Employment Insurance payments plus GitLab's top-up payment under Parental Leave will equal 100% of the team members' normal weekly salary during each week of the top-up payments.
+- If a team member is ineligible to receive Employment Insurance, but eligible to take GitLab's paid Parental Leave, GitLab will pay 100% of the team members' normal weekly salary for up to 16 weeks of leave.
 - To determine your eligibility for such benefits and/or apply for Employment Insurance, follow the instructions on the [Service Canada website](https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/maternity-parental.html#h2.3). Please note that GitLab is not responsible for, or at all involved in, the adjudication of claims for employment insurance benefits.
 
 ### Parental Leave Payment
 
 - Team members in Ontario, British Columbia, Alberta, and Manitoba may be eligible to receive [Employment Insurance Standard Parental Benefit](https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/maternity-parental.html#h2.1-h3.2) through the Government of Canada of up to 35 weeks or [Employment Insurance Extended Parental Benefit](https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/maternity-parental.html#h2.1-h3.2) of up to 61 weeks if they meet the required eligibility criteria.
   - The Province of Québec is responsible for providing maternity, paternity, parental, and adoption benefits to residents of Quebec through a program called the [Québec Parental Insurance Plan](https://www.rqap.gouv.qc.ca/en/about-the-plan/general-information/premiums-and-maximum-insurable-earnings).
-- If a team member is eligible to receive Employment Insurance and also eligible to receive payments under [GitLab's paid Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement Employment Insurance payments for up to 16 weeks such that the gross amount of the Employment Insurance payments plus GitLab’s top-up payment under Parental Leave will equal 100% of the team members’ normal weekly salary during each week of the top-up payments.
-- If a team member is ineligible to receive Employment Insurance, but eligible to take GitLab's Parental Leave, GitLab will pay 100% of the team members’ normal weekly salary for up to 16 weeks of leave.
+- If a team member is eligible to receive Employment Insurance and also eligible to receive payments under [GitLab's paid Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement Employment Insurance payments for up to 16 weeks such that the gross amount of the Employment Insurance payments plus GitLab's top-up payment under Parental Leave will equal 100% of the team members' normal weekly salary during each week of the top-up payments.
+- If a team member is ineligible to receive Employment Insurance, but eligible to take GitLab's Parental Leave, GitLab will pay 100% of the team members' normal weekly salary for up to 16 weeks of leave.
 - To determine your eligibility for such benefits and/or apply for Employment Insurance, follow the instructions on the [Service Canada website](https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/maternity-parental.html#h2.3).  Please note that GitLab is not responsible for, or at all involved in, the adjudication of claims for employment insurance benefits.
 
 ### Applying for Parental Leave in Canada
@@ -315,7 +321,7 @@ Per the statutory requirements in Canada, a team member is ineligible to receive
 
 <summary>Ontario</summary>
 
-The following statutory leave types run concurrently with GitLab PTO. Each leave is separate, and the right to each leave is independent of any right a team member may have to other leave(s). A team member may be entitled to more than one leave for the same event. A team member’s entitlement to any statutory leaves of absence is governed by the legislation applicable in the province in which the employee works for the Company. Statutory leaves of absence will be tracked separately. Any additional paid or unpaid leaves provided by GitLab, are inclusive of, and not in addition to, any concurrent paid or unpaid leaves provided by the applicable employment standards legislation. Additional information can be found on the [Government of Ontario website](https://www.ontario.ca/document/your-guide-employment-standards-act-0). Statutory leave for which team members are not entitled to pay will be paid at 100% of the team member’s salary for the first 25 days. If the team member is eligible for a government benefit, GitLab will supplement the payment so that the team member receives 100% of their salary for the first 25 days.
+The following statutory leave types run concurrently with GitLab PTO. Each leave is separate, and the right to each leave is independent of any right a team member may have to other leave(s). A team member may be entitled to more than one leave for the same event. A team member's entitlement to any statutory leaves of absence is governed by the legislation applicable in the province in which the employee works for the Company. Statutory leaves of absence will be tracked separately. Any additional paid or unpaid leaves provided by GitLab, are inclusive of, and not in addition to, any concurrent paid or unpaid leaves provided by the applicable employment standards legislation. Additional information can be found on the [Government of Ontario website](https://www.ontario.ca/document/your-guide-employment-standards-act-0). Statutory leave for which team members are not entitled to pay will be paid at 100% of the team member's salary for the first 25 days. If the team member is eligible for a government benefit, GitLab will supplement the payment so that the team member receives 100% of their salary for the first 25 days.
 
 To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact `leaves@domain.com` and then submit the time off request by selecting the appropriate option in Time Off by Deel. If you do not feel comfortable submitting your time away in Time Off by Deel, the Absence Management team can enter your time off in Workday on your behalf.
 
@@ -368,7 +374,7 @@ To initiate leave, and ensure that statutory entitlements are properly tracked, 
 
 **Organ Donor Leave** *Team members who have been employed with GitLab for at least 13 weeks*
 
-- Up to to 13 weeks of [organ donor leave](https://www.ontario.ca/document/your-guide-employment-standards-act-0/organ-donor-leave) for the purpose of undergoing surgery to donate all or part of certain organs to a person.
+- Up to 13 weeks of [organ donor leave](https://www.ontario.ca/document/your-guide-employment-standards-act-0/organ-donor-leave) for the purpose of undergoing surgery to donate all or part of certain organs to a person.
 - This leave may be extended an additional 13 weeks for a maximum of 26 weeks.
 - Team Members should select `Out Sick` in Time Off by Deel.
 
@@ -383,26 +389,26 @@ To initiate leave, and ensure that statutory entitlements are properly tracked, 
 
 <summary>Québec</summary>
 
-The following leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain` and then submit the time off request by selecting the appropriate option in Time Off by Deel. If you do not feel comfortable submitting your time away in Time Off by Deel, the Absence Management team can enter your time off in Workday on your behalf.  More information on these leave entitlements can be found on the [Commission des Normes, de l’Equité website](https://www.cnesst.gouv.qc.ca/fr/conditions-travail/conges/lies-famille).
+The following leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain` and then submit the time off request by selecting the appropriate option in Time Off by Deel. If you do not feel comfortable submitting your time away in Time Off by Deel, the Absence Management team can enter your time off in Workday on your behalf.  More information on these leave entitlements can be found on the [Commission des Normes, de l'Equité website](https://www.cnesst.gouv.qc.ca/fr/conditions-travail/conges/lies-famille).
 
 **Reservist Leave**
 
 - A reservist of the Canadian Armed Forces may be absent from civilian work, without pay, to conduct operations in Canada or abroad:
-    - Abroad: After 12 months of uninterrupted service with their employer, reservists may be absent from work to take part in a Canadian Armed Forces operation abroad for a period of up to 18 months. An operation abroad includes preparation, training, rest and travel from their place of residence and back;
-    - In Canada: A reservist may be absent from work to take part in a Canadian Armed Forces operation in Canada in order to:
-        - provide assistance in the event of a major disaster within the meaning of the Loi sur la sécurité civile;
-        - assist the civil authority at the request of the Attorney General of Québec pursuant to the National Defence Act;
-        - intervene in any other emergency situation designated by the Government.
-    - In Canada or abroad: A reservist may be absent from work to take part in any other Canadian Armed Forces operation under the circumstances, the conditions and for the period prescribed by regulation;
-    - Annual training: A reservist may be absent from work to take part in annual training with the Canadian Armed Forces for a period of up to 15 days;
-    - Exceptions: A reservist does not have the right to be absent from work in the following situations:
-        - if there is a danger to the life, health or safety of other workers or the population;
-        - if there is a risk of destruction or serious deterioration of buildings or movable property, or in a case of force majeure; if their absence is contrary to their professional code of ethics.
+  - Abroad: After 12 months of uninterrupted service with their employer, reservists may be absent from work to take part in a Canadian Armed Forces operation abroad for a period of up to 18 months. An operation abroad includes preparation, training, rest and travel from their place of residence and back;
+  - In Canada: A reservist may be absent from work to take part in a Canadian Armed Forces operation in Canada in order to:
+    - provide assistance in the event of a major disaster within the meaning of the Loi sur la sécurité civile;
+    - assist the civil authority at the request of the Attorney General of Québec pursuant to the National Defence Act;
+    - intervene in any other emergency situation designated by the Government.
+  - In Canada or abroad: A reservist may be absent from work to take part in any other Canadian Armed Forces operation under the circumstances, the conditions and for the period prescribed by regulation;
+  - Annual training: A reservist may be absent from work to take part in annual training with the Canadian Armed Forces for a period of up to 15 days;
+  - Exceptions: A reservist does not have the right to be absent from work in the following situations:
+    - if there is a danger to the life, health or safety of other workers or the population;
+    - if there is a risk of destruction or serious deterioration of buildings or movable property, or in a case of force majeure; if their absence is contrary to their professional code of ethics.
 - Team Members should select `Mandatory Civilian Service` in Time Off by Deel.
 
 **Marriage or civil union**
 
-- 1 day of paid leave for the team member’s marriage or civil union when it falls on a week day.
+- 1 day of paid leave for the team member's marriage or civil union when it falls on a week day.
 - 1 day of unpaid leave for the marriage or civil union of a parent, child, sibling, or child of spouse.
 - Team Members should select `Vacation` in Time Off by Deel.
 
@@ -448,7 +454,7 @@ The following leave types run concurrently with GitLab time away policies (PTO, 
 
 - 2 paid days per calendar year (which do not roll over) and up to 26 weeks over a 12-month period for the following reasons:
   - Sickness or accident that is not related to their work and which renders them unable to work.
-  - Family obligations relating to care, health, or education of child or spouse’s child.
+  - Family obligations relating to care, health, or education of child or spouse's child.
   - Family obligations as an informal caregiver for a relative or another person who is ill.
 - Team Members should select `Out Sick` in Time Off by Deel.
 
@@ -465,7 +471,7 @@ The following leave types **do not** run concurrently with GitLab time away poli
 
 The following leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain` and then submit the time off request by selecting the appropriate option in Time Off by Deel. If you do not feel comfortable submitting your time away in Time Off by Deel, the Absence Management team can enter your time off in Workday on your behalf.
 
-More information on these leave entitlements can be found on the [Government of British Columbia’s website](https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/time-off/leaves-of-absence).
+More information on these leave entitlements can be found on the [Government of British Columbia's website](https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/time-off/leaves-of-absence).
 
 **Leave respecting domestic or sexual violence**
 
@@ -503,7 +509,7 @@ More information on these leave entitlements can be found on the [Government of 
 
 **Leave respecting the disappearance of a child**
 
-- Up to 52 weeks of unpaid leave for employees whose child has gone missing in circumstances where it is likely the child’s disappearance is the result of a crime.
+- Up to 52 weeks of unpaid leave for employees whose child has gone missing in circumstances where it is likely the child's disappearance is the result of a crime.
 - Team Members should select `Out Sick` in Time Off by Deel.
 
 **Leave respecting the death of a child**
@@ -599,7 +605,7 @@ More information about these leave types can be found on the [Government of Albe
 
 <summary>Manitoba</summary>
 
-The following statutory leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). A team member’s entitlement to any statutory leaves of absence is governed by the legislation applicable in the province in which the employee works for the Company. Statutory leaves of absence will be tracked separately. Any additional paid or unpaid leaves provided by GitLab, are inclusive of, and not in addition to, any concurrent paid or unpaid leaves provided by the applicable employment standards legislation.
+The following statutory leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). A team member's entitlement to any statutory leaves of absence is governed by the legislation applicable in the province in which the employee works for the Company. Statutory leaves of absence will be tracked separately. Any additional paid or unpaid leaves provided by GitLab, are inclusive of, and not in addition to, any concurrent paid or unpaid leaves provided by the applicable employment standards legislation.
 
 To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain` and then submit the time off request by selecting the appropriate option in Time Off by Deel. If you do not feel comfortable submitting your time away in Time Off by Deel, the Absence Management team can enter your time off in Workday on your behalf.
 
@@ -658,7 +664,6 @@ More information can be found on the [Government of Manitoba website](https://ww
 - Team Members should select `Out Sick` in Time Off by Deel.
 
 </details>
-
 
 ## Administrative Details for Benefits Team
 
@@ -722,10 +727,11 @@ Adjustments for Current Team Members
 ### Checking if Employees are Eligible for Excess LTD Insurance & need underwriting (Quarterly)
 
 1. Log on to Group Net Canada Life
-1. Enrollment tab > request reports> coverage summary> effective date(today’s date)> sort by Employee name
+1. Enrollment tab > request reports> coverage summary> effective date(today's date)> sort by Employee name
 1. Review the data to identify  if the team member is eligible for more Life Insurance and LTD Coverage than they are currently receiving (i.e. compare the LTD and LTD eligible Amount Columns to see if there is a delta)
 1. Reach out to the team member with the Eligiblity of Insurance Document and instructions so that they can complete their EOI. Notify SC Insurance that the quartelry audit was completed as an fyi.
- - View additional Instructions & email template in the [Quarterly Check for Excess LTD folder](https://drive.google.com/drive/folders/1BCIGQIKJxPOrPHfhdZbnccGEFZTNhh6C?usp=sharing)
+
+- View additional Instructions & email template in the [Quarterly Check for Excess LTD folder](https://drive.google.com/drive/folders/1BCIGQIKJxPOrPHfhdZbnccGEFZTNhh6C?usp=sharing)
 
 ### RRSP Process (Semi-monthly)
 
@@ -744,12 +750,13 @@ Adjustments for Current Team Members
      - Last Name, First Name, Initial, certificate number, status, subgroup plan type, enrol date, account type, date of change, Employee Amount %: you can find these details on the downloaded CanadaLife Report
      - Employer amount%: You'll need to enter this manually, since this is a match, you'll enter the same % as the Employee Amount %
      - Member Voluntary%: Check the CanadaLife report to see if the team member has any member % and update on the same line.
-1. Canada Payroll will then deducts the percentage from team member’s pay and sends TR the dollar amount that was deducted in a Remittance Report. Follow up with Canada payroll if they don't send the remittance report before you update the next pay periods' RRSP change report.
+1. Canada Payroll will then deducts the percentage from team member's pay and sends TR the dollar amount that was deducted in a Remittance Report. Follow up with Canada payroll if they don't send the remittance report before you update the next pay periods' RRSP change report.
 1. Total Rewards sends the Remittance report to CanadaLife and the remit the payments Canada Life Charges the total to GitLab, and we pay out the amount Special Instructions for when team members want to contribute one-off bonuses:
 1. Team Members have the opportunity to request to contribute their one-off bonuses towards their RRSP if they so choose, the team member will email Total Rewards with their request.
 1. Total rewards will add a line in the Canada Payroll Change Report with the team member's entry. If there are no other changes, they can leave the Employee and Employer amount blank and just add the Member Voluntary amount with an explanation of the payment.
 
 Offboarding:
+
 - The Canada Life RRSP portal is not able to be connected to Collage so team members will need to be manually removed from the RRSP plan upon termination.
 
 Please see the [administration guide](https://drive.google.com/drive/u/0/folders/1qJ3NmOzDjeXKFpwwO2J0upF5ZVBs_YLD) for additional instructions.

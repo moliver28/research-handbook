@@ -1,25 +1,15 @@
 ---
-
 title: Engineering A/B tests
-description: >-
-  Learn more about how Digital Experience engineers our A/B tests.
+description: "Learn more about how Digital Experience engineers our A/B tests."
 ---
 
-
-
-
-
-
-
-
-# Engineering AB Tests
-
 ## Overview
+
 An A/B test is when we release two versions of a page and compare how well they perform (comparing version A to version B). When running an experiment, we are testing a hypothesis using a control variant and a test variant, similar to how one typically employs the scientific method.
 
 We currently use [LaunchDarkly](https://launchdarkly.com/) to control whether or not a test is showing, at what percentage, and gather metrics about a test's performance. Within LaunchDarkly, you can create events that fire when a user does something. For our case, our most common example would be a click. We also push the experiment ID into the Google Analytics dataLayer so we know what version of the page the user viewed.
 
-```
+```js
 window.dataLayer = window.dataLayer || [];
 
 dataLayer.push({
@@ -41,8 +31,9 @@ Below are some resources to learn more about feature flags. At a high level, a f
 ### How we run AB test
 
 Our AB tests include two files, the control and the test variant. Both exist on the page in the HTML DOM at the same time, but are hidden by default on page load. The javascript SDK will return which version of the experiment should be shown. For each test, we use the following process:
+
 1. Test Candidates are validated by modelling out the potential lift on an annualized basis.
-1. AB test candidate with the highest annualized lift (lift scoped specifically to the action/improvement we’re measuring) is run as an AB test.
+1. AB test candidate with the highest annualized lift (lift scoped specifically to the action/improvement we're measuring) is run as an AB test.
 1. AB test complete, data analysis on results.
 1. The winner goes live at 100%.
 1. Saves (tests that did not deliver as expected) are documented.
@@ -67,11 +58,13 @@ Our AB tests include two files, the control and the test variant. Both exist on 
 ## How do we engineer tests
 
 ### Running test on the Buyer's Experience repository
+
 * Developer notes on running an experiment: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/docs/plugins.md
 * Example MR for an AB test: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/merge_requests/258
 * Video Explanation: [https://www.youtube.com/watch?v=F1tlCZgYUqQ](https://www.youtube.com/watch?v=F1tlCZgYUqQ)
 
 ### Running test on the `www` repository
+
 This can be overridden by optional URL parameters as exhibited in the codepaths section below.
 
 [Example merge request for an AB test](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/80315)
@@ -86,12 +79,12 @@ This can be overridden by optional URL parameters as exhibited in the codepaths 
 * [DEPRECATED: Outdated Google doc and video explainer outlining the system. Code and structure has changed a lot since this video was made.](https://docs.google.com/document/d/1_XztSRs_CMBulZDvrVbSHmCjtOnL0xd6gFUEVo_NxoA/edit?usp=sharing)
 
 #### Additional Notes
+
 * Previous solution: `run-experiments.js` from www: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/source/javascripts/run-experiment.js
 * Originally tried to bring this file over and integrate it as a nuxt plugin in this MR: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/merge_requests/224/diffs#8f8555baf29e37a194c0d155b0001e82de21ddbf
-* Our buyer’s experience repository is a JS pre-rendered site with TS support, so this would be a good candidate for interacting with their SDK TS directly: https://docs.launchdarkly.com/sdk/client-side/javascript#getting-started
+* Our buyer's experience repository is a JS pre-rendered site with TS support, so this would be a good candidate for interacting with their SDK TS directly: https://docs.launchdarkly.com/sdk/client-side/javascript#getting-started
 * Initialize client, helper function to evaluate feature flag value: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/plugins/launchdarkly.ts
 * Higher order component with control and experiment slots: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/components/launch-darkly.vue
-
 
 ## Why did we choose LaunchDarkly
 

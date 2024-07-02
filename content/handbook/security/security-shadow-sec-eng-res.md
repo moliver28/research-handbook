@@ -17,10 +17,10 @@ Do you like complexity? Do you have a knack for identifying insecure edge cases,
 **Schedule / Topics Covered:**
 
 - AS101.1: Intro to AppSec (1 hour)
-- AS101.2: HackerOne “The Program” (1-2 hours)
+- AS101.2: HackerOne "The Program" (1-2 hours)
 - AS101.3: AppSec Review Ride-Along (1-2 hours)
 - AS101.4: Stable Counterparts and Working with Engineering Teams (1 hour)
-- AS101.5: Security “It’s Happening” Release (1-2 hours)
+- AS101.5: Security "It's Happening" Release (1-2 hours)
 
 This schedule is a suggestion. The AppSec Engineer and the shadow are encouraged to communicate
 ahead of time or during the first session to understand the interests of the shadow to adapt the
@@ -34,11 +34,11 @@ prepare quality answers before the next session.
 
 5 days, 5-8 hours
 
-**Team Manager:** Andrew Kelly @ankelly, Vitor Meireles De Sousa @vdesousa
+**Team Manager:** James Ritchey @jritchey, Vitor Meireles De Sousa @vdesousa
 
 ## Security Research
 
-The [Security Research Team]({{< ref "./threat-management/security-research" >}}) is a multi-discipline team that seeks to answer the deep questions: “What can be done to detect malicious dependencies before they are known to be malicious?”; or “What is the attack surface of Kubernetes, and how does it apply to the GitLab Helm Chart?”; or “How can we do lightweight, but effective threat modeling as part of our SDLC?”. We enjoy asking, and answering the questions that need depth to be answered, and working with other teams, inside and outside of security, to apply the findings to GitLab problems. Like any good research organization, we also look to share our findings with the wider security community, be it through responsible disclosure, blog posts, or participation in conferences.
+The [Security Research Team]({{< ref "./product-security/security-research" >}}) is a multi-discipline team that seeks to answer the deep questions: "What can be done to detect malicious dependencies before they are known to be malicious?"; or "What is the attack surface of Kubernetes, and how does it apply to the GitLab Helm Chart?"; or "How can we do lightweight, but effective threat modeling as part of our SDLC?". We enjoy asking, and answering the questions that need depth to be answered, and working with other teams, inside and outside of security, to apply the findings to GitLab problems. Like any good research organization, we also look to share our findings with the wider security community, be it through responsible disclosure, blog posts, or participation in conferences.
 
 **Schedule / Topics Covered:**
 

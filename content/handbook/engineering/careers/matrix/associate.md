@@ -3,7 +3,7 @@ title: "Engineering Career Framework: Associate"
 ---
 
 ## Engineering Function Competencies: Associate
- 
+
 **Associates at GitLab are expected to exhibit the following competencies:**
 
 - [Associate Leadership Competencies](#associate-leadership-competencies)

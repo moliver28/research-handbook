@@ -1,10 +1,7 @@
 ---
-
 title: "Testing for conversion at GitLab"
 description: "The Inbound Marketing team run tests to improve visitor experience and conversion rate across about.gitlab.com."
 ---
-
-# Testing for conversion at GitLab
 
 We test changes at GitLab to verify a hypothesis for design or copy changes. These changes can use a variety of tools and methods, but the goal is the same: to make changes to help improve the visitor experience and better explain the value of GitLab.
 
@@ -17,6 +14,7 @@ We don't test fixes for typos, link updates, or other structural improvements to
 1. Improve customer experience
 
 ### Always be testing
+
 Testing requires a control and a variant within the same time period, while holding all other variables constant. Using A/B testing tools allow us to create tests to follow testing best practices and gather data about what works or does not work to encourage people to spend time on our site or [convert on a form](/handbook/sales/field-operations/gtm-resources/). With testing, we can make informed decisions about what works for our audience and helps them reach their goals, and what works for us to help use meet our business goals.
 
 ### Types of experiments
@@ -33,10 +31,10 @@ Testing requires a control and a variant within the same time period, while hold
 
 1. Build a test: If you would like to request an a/b or multivariate test, create an issue for [Digital Marketing Programs using this template](https://gitlab.com/gitlab-com/marketing/growth-marketing/growth/issues/new?issuable_template=ab-test).
 1. Keeping it MVC: Not all changes to changes need to be tested. We should test changes to our key conversion pages, and these pages/elements are key areas we test often:
-    * [Homepage](/)
+    * [Homepage](https://about.gitlab.com/)
     * Top navigation
     * [Pricing page](https://about.gitlab.com/pricing/)
-    * [Free trial](/free-trial/)
+    * [Free trial](https://about.gitlab.com/free-trial/)
     * [Contact sales](/sales/)
 1. Please check [CODEOWNERS](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/CODEOWNERS) to see if a page being tested. We updated the `#Active tests` sections, [@shanerice](https://gitlab.com/shanerice) and [@dmor](https://gitlab.com/dmor) will appear as approvers on any MRs with active tests.
 

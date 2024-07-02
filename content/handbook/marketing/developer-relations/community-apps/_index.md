@@ -1,24 +1,17 @@
 ---
-
 title: "GitLab Community Apps"
 ---
 
-
-
-
-
-
-
 ## <i class="" id="overview"></i> GitLab Community Apps Overview
 
-The GitLab Community Apps is a suite of tools that enables the community and other teams at GitLab measure the impact of activities, programs or campaigns they run. 
+The GitLab Community Apps is a suite of tools that enables the community and other teams at GitLab measure the impact of activities, programs or campaigns they run.
 
 - [Application Hompage](https://app.community.gitlab.com)
-- [Source Code](https://gitlab.com/gitlab-com/marketing/community-relations/dev-evangelism/code/gitlab-community-app)
+- [Source Code](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/gitlab-community-app)
 
-The applications are built and currently maintained by [Abubakar Siddiq Ango](https://gitlab.com/abuango) and [MRs are welcome](https://gitlab.com/gitlab-com/marketing/community-relations/dev-evangelism/code/gitlab-community-app#how-to-contribute)!
+The applications are built and currently maintained by [Abubakar Siddiq Ango](https://gitlab.com/abuango) and [MRs are welcome](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/gitlab-community-app#how-to-contribute)!
 
-The tools available in the suite are described below. 
+The tools available in the suite are described below.
 
 ### <i class="" id="campaign-manager"></i> [Campaign Manager](/handbook/marketing/developer-relations/community-apps/campaign-manager/)
 
@@ -33,22 +26,14 @@ The tools available in the suite are described below.
 
 Learn more about the GitLab Campaign Manager with the [User guide](/handbook/marketing/developer-relations/community-apps/campaign-manager/).
 
-
-
 ### <i class="" id="gitlab-go"></i> GitLabGO URL Shortnener
 
 TBD
-
-
 
 ### <i class="" id="qr-studio"></i> QR Code Studio
 
 TBD
 
-
-
 ### <i class="" id="community-api"></i> Community API
 
 TBD
-
-

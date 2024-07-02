@@ -4,7 +4,7 @@ description: Support Operations documentation page for our Zendesk theme
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/theme"
 ---
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -58,7 +58,7 @@ the temporary theme link. Towards the bottom of the logs should be a line
 looking something like this:
 
 ```bash
-Theme will be available via https://gitlab1545832369.zendesk.com/theming/theme/febb6377-13f5-489d-8287-1c16467718b0
+Theme will be available via https://gitlab1707170878.zendesk.com/theming/theme/febb6377-13f5-489d-8287-1c16467718b0
 ```
 
 You will want to copy that whole line and add it as a comment in your merge
@@ -80,7 +80,7 @@ granted, you are good to merge the changes into the master branch. The changes
 will automatically be populated into both the production and sandbox instances
 on the next deployment date.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 

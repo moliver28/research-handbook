@@ -3,12 +3,6 @@ aliases: /handbook/engineering/communication
 title: Engineering Communication
 ---
 
-
-
-
-
-
-
 ## Communication
 
 GitLab Engineering values clear, concise, transparent, asynchronous, and frequent communication. Here are our most important modes of communication:
@@ -29,10 +23,10 @@ We employ [multimodal communication](/handbook/communication/#multimodal-communi
 For the Engineering division, any important initiative will be announced in:
 
 - The Engineering mailing list
-    - All members of the division should become members as part of the onboarding process. If this is not the case for you, reach out to your manager.
+  - All members of the division should become members as part of the onboarding process. If this is not the case for you, reach out to your manager.
 - Slack channel
-    - [`#engineering-fyi`](https://gitlab.slack.com/archives/CJWA4E9UG)
-        - The channel membership is mandatory
+  - [`#engineering-fyi`](https://gitlab.slack.com/archives/CJWA4E9UG)
+    - The channel membership is mandatory
 - [Engineering Week-in-Review](https://drive.google.com/drive/search?q=engineering%20week%20in%20review) (internal)
 
 Other Slack channels that are Engineering focused and are good sources of information:

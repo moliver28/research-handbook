@@ -5,7 +5,29 @@ description: "The Billing Operations Team at GitLab form part of the Revenue Acc
 
 The Billing Operations Team at GitLab form part of the Revenue Accounting Group and are responsible for the Global Billing Operations within the order to cash process.
 
-### Billing Operations Team Levels
+## Billing Operations Team Levels
+
+### Billing Opertions Intern
+
+The Billing Operations Intern reports to the Manager, Billing or above.
+
+The Billing Operations Associate is a [grade 4](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+
+#### Billing Operations Intern Responsibilities
+
+- Aid in the maintenance and update of customer billing portals, ensuring invoices are processed accurately
+- Handle customer inquiries related to customer billing inquiries, customer promise to pay, and W9 requests
+- Assist in the management of pending invoices, ensuring timely follow-up and resolution
+- Support the Accounts Receivable (AR) team by reviewing, coding, and updating cash on account
+- Engage in learning opportunities to understand the order to cash process
+
+#### Billing Operations Intern Requirements
+
+- Currently enrolled in or recently graduated from a degree program in Finance, Accounting, Business Administration, or relevant experience in related field
+- Excellent verbal and written communication skills. Ability to communicate effectively with team members and customers
+- Strong attention to detail and accuracy in handling financial information and customer accounts
+- Ability to work collaboratively in a team, contributing positively to team operations and culture
+- Proactive in learning new skills and taking on challenges to support team objectives
 
 ### Billing Operations Associate
 
@@ -77,7 +99,7 @@ The Billing Operations Analyst is a [grade 6](/handbook/total-rewards/compensati
   - Google Suite (Gmail, Google Docs, Sheets, etc.)
   - Slack (preferred, not required)
 
-## Senior Billing Operations Analyst
+### Senior Billing Operations Analyst
 
 The Senior Billing Operations Analyst reports to the Manager, Billing or above.
 
@@ -113,7 +135,7 @@ The Senior Billing Operations Analyst is a [grade 7](/handbook/total-rewards/com
   - Google Suite (Gmail, Google Docs, Sheets, etc.)
   - Slack (preferred, not required)
 
-#### Lead Billing Operations Analyst Job Grade
+### Lead Billing Operations Analyst Job Grade
 
 The Lead Billing Operations Analyst is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
@@ -169,7 +191,7 @@ The Manager, Billing is a [grade 8](/handbook/total-rewards/compensation/compens
 
 #### Manager, Billing Operations Requirements
 
-- Bachelor’s degree in Accounting/Finance or equivalent experience
+- Bachelor's degree in Accounting/Finance or equivalent experience
 - 5+ Years of experience in billing and collections
 - 3+ Years experience with Zuora and Salesforce from quote to cash
 - Proven ability to perform strategic planning and set priorities for a billing department

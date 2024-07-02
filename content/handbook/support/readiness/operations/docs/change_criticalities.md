@@ -38,7 +38,7 @@ doubt, reach out to a Support Operations Manager for assistance.
 
 ## Criticality level definitions
 
-#### Criticality 1
+### Criticality 1
 
 These are changes with high impact or high risk that may significantly modify
 Support Engineer or Customer experience. If a change is going to cause downtime
@@ -50,7 +50,7 @@ Some examples of Criticality 1 requests are:
 - Altering Zendesk in a way to support a significant process change
 - Changes to any SLA policy in use
 
-#### Criticality 2
+### Criticality 2
 
 These are changes that aren't expected to significantly impact Support Engineer
 or Customer experiences, but which still carry some risk of impact if something
@@ -62,7 +62,7 @@ Some examples of Criticality 2 requests are:
 - Adding a new ticket form
 - Changing any triggers/automations relating to SSAT or Support KPIs
 
-#### Criticality 3
+### Criticality 3
 
 These are changes with either no or very-low risk of negative impact, but where
 there is still some inherent complexity, or it is not fully automated and
@@ -76,7 +76,7 @@ Some examples of Criticality 3 requests are:
   Engineers
 - Removing or deactivating active macros
 
-#### Criticality 4
+### Criticality 4
 
 These are changes that are exceedingly low risk and commonly executed, or which
 are fully automated. Often these will be changes that are mainly being recorded

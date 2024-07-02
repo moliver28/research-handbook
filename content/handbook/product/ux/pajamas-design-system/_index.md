@@ -14,7 +14,7 @@ As a fully implemented design system, Pajamas includes:
 
 - **UX/Design Philosophy:** GitLab has strong foundational principles by which
 we work, and Pajamas reflects those values&mdash;helping to tell the story of
-how we build products and translating “our way of working” to the outside world.
+how we build products and translating "our way of working" to the outside world.
 - **Contribution Guidelines:** We clearly outline how anyone can contribute to
 GitLab through issue creation/discussions, component documentation, designs,
 and/or code.
@@ -22,7 +22,7 @@ and/or code.
 (how it works), Visual (how it looks), and Usage (how you should use it).
 - **Page Layouts:** We clearly document page layout options and our grid implementation.
 - **Content Guidelines:** We provide voice and tone guidance for our UI that
-aligns with GitLab’s brand standards.
+aligns with GitLab's brand standards.
 - **Accessibility Guidelines:** As a company, GitLab strongly believes that
 everyone should be able to contribute. That means we must always consider how to
 design and code in an adaptive way to support our users, regardless of their abilities.
@@ -36,7 +36,7 @@ example, our Sketch pattern library.
 Pajamas enables anyone to contribute towards GitLab. It allows Product, Engineering,
 UX Design, and Contributors to work together more seamlessly and improve our product faster.
 
-**It’s efficient.**
+**It's efficient.**
 
 - Product Designers can spend more time solving problems and less time designing
 (and redesigning) UI components. Components can be reused, making design efforts
@@ -53,7 +53,7 @@ guidelines.
 - GitLab Teams can make fast, continuous feature additions within their iterative
 groups, while still maintaining consistency with other product areas.
 - GitLab Users can get up to speed more quickly on new features, because they
-don’t need to spend time learning how to interact with inconsistent UI patterns.
+don't need to spend time learning how to interact with inconsistent UI patterns.
 - Product Designers can feel more confident that their designs are visually
 appealing, consistent, and on brand.
 - It enables Marketing and UX to create consistent experiences across GitLab
@@ -85,8 +85,7 @@ Not every component used in the GitLab product must be codified as part of the
 design system, because sometimes we create components that are relevant for only
 a specific use case in a distinct product area.
 
-To learn more about when to add a new component to Pajamas, read our [component
-lifecycle documentation](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas).
+To learn more about when to add a new component to Pajamas, read our [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas).
 
 ## What is the component development lifecycle?
 
@@ -94,14 +93,13 @@ The goal of this process is to make it easy to: submit new designs (including
 documentation), propose changes to existing designs, and translate component
 designs into built components.
 
-To learn more about the stages of the component lifecycle, read our [component
-lifecycle documentation](https://design.gitlab.com/get-started/lifecycle).
+To learn more about the stages of the component lifecycle, read our [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle).
 
 ## Beautifying the GitLab UI
 
-A design system is only valuable if it’s used consistently throughout the product
+A design system is only valuable if it's used consistently throughout the product
 it supports. Because Pajamas is a new design system, we have to catch up the
-existing product to using “single source of truth” Pajamas components.
+existing product to using "single source of truth" Pajamas components.
 
 To ramp up implementation, we commit to ensuring that:
 
@@ -138,6 +136,6 @@ goals, which can be evaluated regularly at major adoption milestones (0%, 25%,
 - The UX team sends surveys to Product Designers and Front-End Engineers to gather
 data related to the time they spend building unique components.
 - We pull reports to determine the number of `UI polish` and
-[`UX debt`](https://docs.gitlab.com/ee/development/labels/index.html#technical-and-ux-debt)
+[`Deferred UX`](https://docs.gitlab.com/ee/development/labels/index.html#technical-debt-and-deferred-ux)
 issues to track trends over time. A reduction in overall issues affirms consistency
 throughout the product.

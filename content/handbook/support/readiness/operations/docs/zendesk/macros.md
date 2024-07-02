@@ -18,7 +18,7 @@ As per
 > determine if a macro should be applied. Agents evaluate tickets and apply
 > macros manually as needed.
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -28,7 +28,7 @@ foremost.
 When your new macro is going to be using managed content, you will first
 need to get the managed content file in the Support managed content project.
 Remember to use the correct filenames for all of this to prevent
-[Pipeline error “No managed content file”](#pipeline-error-no-managed-content-file)
+[Pipeline error "No managed content file"](#pipeline-error-no-managed-content-file)
 in the sync repo project later on.
 
 Only after that has been done should you proceed to the next steps, which will
@@ -62,7 +62,7 @@ From here, create the merge request in the sync repo project.
 #### Updating an existing macro
 
 Updating an existing macro is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
 The one caveat you need to consider is when you are changing a macro to allow
@@ -110,6 +110,8 @@ three vertical dots at right-hand side of the macro, and click `Delete`. This
 will cause a pop-up modal to appear asking you to confirm the action. Click blue
 `Delete macro` button to do so.
 
+### Troubleshotting
+
 #### Pipeline error "No managed content file"
 
 This happens when we have said a managed content file should exist, but the git
@@ -132,7 +134,41 @@ submodule does not contain one. This is commonly caused by:
   done, you can rebase your MR by making a comment of `/rebase`. After it
   performs the rebase, your MR's CI/CD pipeline should pass.
 
-## Source Projects
+#### Pipeline error "Blank ID"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `id` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank title"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `title` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Inactive macro in active folder"
+
+This means the script detected a YAML file within `data/active` that has an
+`active` value of `false`. You will need to locate the file mentioned in the
+error and correct that.
+
+#### Pipeline error "Active macro in inactive folder"
+
+This means the script detected a YAML file within `data/inactive` that has an
+`active` value of anything other than `false`. You will need to locate the file
+mentioned in the error and correct that.
+
+#### Pipeline error "GitLab errors"
+
+This is a generic error message that will detail some error that occurred when
+trying to either create or update the tag used on the source project. The exact
+steps to fix this will vary based on the nature of the error itself. You will
+need to review the error and determine the next steps from there.
+
+If you are unsure how to proceed, it is best to seek assistance from the wider
+team.
+
+### Source Projects
 
 #### Zendesk Global
 

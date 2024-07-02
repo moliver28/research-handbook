@@ -14,11 +14,10 @@ We thrive for ownership of the things that we built by having a clear view on it
 The Dev sub-department is taking care of the first part of the DevSecOps Lifecycle with the following stages and the specific groups:
 
 1. [Manage](/handbook/product/categories/#manage-stage)
-    - [Manage:Authentication and Authorization](/handbook/engineering/development/dev/manage/authentication-and-authorization)
     - [Manage:Foundations](/handbook/engineering/development/dev/manage/foundations/)
     - [Manage:Import and Integrate](/handbook/engineering/development/dev/manage/import-and-integrate)
 1. [Plan](/handbook/product/categories/#plan-stage)
-    - [Plan:Project Management](/handbook/engineering/development/dev/plan-project-management/)
+    - [Plan:Project Management](/handbook/engineering/development/dev/plan/project-management/)
     - [Plan:Product Planning](/handbook/engineering/development/dev/plan/product-planning/)
     - [Plan:Optimize](/handbook/engineering/development/dev/plan/optimize)
     - [Plan:Editor](/handbook/engineering/development/dev/plan/editor/)
@@ -59,7 +58,6 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 {{< team-by-manager-role "Engineering Manager(.*)Plan:Optimize" >}}
 
 #### Plan:Knowledge
-
 
 {{< team-by-manager-role role="Senior Manager, Engineering(.*)Plan" team="[,&] (Plan:Knowledge)" >}}
 
@@ -121,13 +119,19 @@ One way that groups can keep error budgets in mind is by automating a weekly rem
 
 A [Slack workflow](https://gitlab.com/gitlab-com/gl-infra/scalability/-/snippets/2299544) can be created that allows any member of the team to provide a quick update on the current error budget status.
 
-{{% cross-functional-dashboards filters="dev" section=true %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "SECTION_LABEL"="dev" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "SECTION_LABEL"="dev" >}}
+{{< /tableau >}}
 
 ## Common Links
 
 - Issue Tracker
 - Slack Channels
-    - #sd_dev_engineering
-    - #s_manage
-    - #s_plan
-    - #s_create
+  - #sd_dev_engineering
+  - #s_manage
+  - #s_plan
+  - #s_create

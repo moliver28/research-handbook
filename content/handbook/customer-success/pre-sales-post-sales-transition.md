@@ -1,15 +1,8 @@
 ---
-
 title: Transitioning Accounts from Pre-Sales to Post-Sales
 description: >-
   How to effectively transition a customer from the pre-sales engagement to post-sales to ensure the customer is successful.
 ---
-
-
-
-
-
-
 
 As a member of the pre-sales team, closing another successful deal for GitLab, it is important to pave the way for the CSM. A successful CSM introduction is a critical step in the customer lifecycle. An effective CSM introduction will lead to customer excitement about the product and increase the CSM's credibility as they assist the customer through onboarding, implementation, and adoption.
 
@@ -45,7 +38,7 @@ This is a great time to introduce the CSM to the decision-makers and key stakeho
 
 Additionally, CSM engagement can be requested earlier in [stage](/handbook/sales/field-operations/gtm-resources/) `3-Technical Evaluation` (but not before) in the following situations:
 
-  - If a POV has been conducted - Upon POV completion & results presentation meeting where the next steps agreed upon
+- If a POV has been conducted - Upon POV completion & results presentation meeting where the next steps agreed upon
 
 <!--
 
@@ -70,7 +63,7 @@ After a CSM is assigned by the manager, the SA should arrange an internal [accou
 
 In preparation for transitioning the account to post-sales, the CSM should schedule a meeting with the entire [account team](/handbook/customer-success/account-team/) to review details about the customer and the success plan. The account team should use the following questions to review details, and define the next steps near-, medium-, and long-term for the customer adoption journey:
 
-- What are the customer’s objectives & measurable success criteria for the next 6-12 months? For each objective discussed, ensure we have answers to the following:
+- What are the customer's objectives & measurable success criteria for the next 6-12 months? For each objective discussed, ensure we have answers to the following:
   - Initiative - What activity are we completing?
   - Business Outcome - What customer-defined result do we need to achieve?
   - Success Criteria - How do we measure success?
@@ -131,17 +124,17 @@ Once the account is fully transitioned to post-sales, the SA may be invited by t
 
 There are instances where the CSM will need to reengage the SAE/AE and SA. Here are a few examples of customer requests the CSM can listen for in order to reengage them:
 
-  - Development of expansion plans with the SAE and CSM leading to tier upgrades
-  - A POV, product evaluation, RFP, or security begins for a "new" single team or an enterprise-wide tier upgrade not for renewal purposes
-  - SAs may assist CSMs with an existing customer team on an exception basis. SA leadership approval is required.
-    - Customer enablement assistance when specifically requested by the CSM team
-    - Workshops assistance when specifically requested by the CSM team
-    - ROI analysis for an existing customer team when requested by the CSM team
-    - Unless it's for a tier upgrade, presales activities such as POVs and RFPs should be avoided for an existing customer team. Like with any presales opportunity, these activities should not be offered as a sales tools, but leveraged when a prospect/customer requires these activities as part of their evaluation.
-  - Any Professional Services that are being discussed and may require an SOW
-  - If a CSM is over-committed or unable to support a customer request, the SA may be requested to assist
-  - Support of GitLab days or other on-site evangelism of GitLab at customer sites
-  - Executive Business Reviews (EBRs)
+- Development of expansion plans with the SAE and CSM leading to tier upgrades
+- A POV, product evaluation, RFP, or security begins for a "new" single team or an enterprise-wide tier upgrade not for renewal purposes
+- SAs may assist CSMs with an existing customer team on an exception basis. SA leadership approval is required.
+  - Customer enablement assistance when specifically requested by the CSM team
+  - Workshops assistance when specifically requested by the CSM team
+  - ROI analysis for an existing customer team when requested by the CSM team
+  - Unless it's for a tier upgrade, presales activities such as POVs and RFPs should be avoided for an existing customer team. Like with any presales opportunity, these activities should not be offered as a sales tools, but leveraged when a prospect/customer requires these activities as part of their evaluation.
+- Any Professional Services that are being discussed and may require an SOW
+- If a CSM is over-committed or unable to support a customer request, the SA may be requested to assist
+- Support of GitLab days or other on-site evangelism of GitLab at customer sites
+- Executive Business Reviews (EBRs)
 
 ## Useful Links
 
@@ -150,7 +143,3 @@ There are instances where the CSM will need to reengage the SAE/AE and SA. Here 
   [account-management](https://gitlab.com/gitlab-com/account-management/) parent project for account-specific work and collaboration with the rest of the sales
 
   [customer-success](https://gitlab.com/gitlab-com/customer-success) parent project for Customer Success employee, shared or triage work
-
-  
-
-

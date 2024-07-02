@@ -1,14 +1,7 @@
 ---
-
 title: "Delivery Checklists"
 description: "Instructor Pre-Training and Post-Training Checklists"
 ---
-
-
-
-
-
-
 
 ## Overview
 

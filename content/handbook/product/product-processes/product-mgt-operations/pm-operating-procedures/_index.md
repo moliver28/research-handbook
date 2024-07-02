@@ -24,6 +24,7 @@ The intent of this review and collaboration workflow is not to "block" but to he
 - support from Product Operations for successful rollout to and adoption by the Product team
 
 #### Product Management Meeting (Bi-weekly)
+
 **DRI:** [Product Operations](/handbook/company/team/#fseifoddini) and [Chief Product Officer](/handbook/company/team/#david)
 
 - **What:** A bi-weekly team meeting for Product. All team members can add items to the agenda either as a Read-Only, or as a discussion item.
@@ -44,6 +45,7 @@ The intent of this review and collaboration workflow is not to "block" but to he
 All product team members are encouraged to add agenda items. The Chief Product Officer will prioritize the discussion items, and any items we can't get to in the allotted 50 min will be moved to the following meeting. If you are a Product team member and are unable to attend the call, you may add items for `READ-ONLY` to the agenda.
 
 #### Product Leadership Meeting (Weekly)
+
 **DRI:** [Chief Product Officer](/handbook/company/team/#david) and  [EBA to Chief Product Officer](/handbook/company/team/#gschwam)
 
 The Chief Product Officer and their direct reports track our highest priority Product Team initiatives. If one of those initiatives needs to be discussed synchronously the assigned individual should add it to the meeting's [GoogleDoc agenda](https://docs.google.com/document/d/1yN2n1ei24HiM5G7tBxaqK4yNPYreKpLZ3CG3nsEFOR4/edit#heading=h.384zmpcao5l6). Directors can delegate and coordinate cross-product initiatives as needed based on the issues in this board.
@@ -53,14 +55,15 @@ As part of this Product Leadership Meeting we also [review progress towards our 
 Non-public items for discussion should be added directly to the [agenda document](https://docs.google.com/document/d/1yN2n1ei24HiM5G7tBxaqK4yNPYreKpLZ3CG3nsEFOR4/edit#heading=h.384zmpcao5l6) for the meeting.
 
 #### Section Performance Indicator Review (Monthly)
+
 **DRI:** Appropriate [Product Section](/handbook/product/categories) Leader & [Senior Director, Product Monetization](/handbook/company/team/#justinfarris)
 
 - **What:** A monthly meeting for [Product  Sections](/handbook/product/categories/#devops-stages) to provide updates on  Performance Indicators, inclusive of their Stages and Groups and the cross-functional team. The main deliverable from the team is for each group to clearly show what they are doing in the next month to drive their metrics in the right direction.
 - **When:** During the last two weeks of every month
 - **Duration:** 50 minutes
 - **Format:** The meeting is lead by the Section Leader
-     - All data reviewed will be published on the Section's PI page in the internal handbook ([example](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/). Sections may optionally provide supporting slides.
-     - Content will focus on the following areas:
+  - All data reviewed will be published on the Section's PI page in the internal handbook ([example](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/). Sections may optionally provide supporting slides.
+  - Content will focus on the following areas:
      1. Development - Error Budgets, Past Due Security/InfraDev Issues (S1/S2)
      2. Quality - Past Due Bugs (S1/S2)
      3. UX - Past Due SUS Impacting Issues (S1/S2)
@@ -107,9 +110,9 @@ the product is developed with [directly responsible individuals](/handbook/peopl
 
 | Product Managers | Engineering Managers | UXers | SETs |
 | :--------------: | :------------------: | :---: | :---: |
-| Set [milestone priorities](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) and define what features Engineering works on | Own the definition of done; decide what gets merged into Product. [Prioritizes maintenance work](#prioritization-for-feature-maintenance-and-bugs) | Proactively identify small and large strategic UX needs to aid Product Management prioritization | Own and identify test strategy and requirements to complete the definition of done |
+| Set [milestone priorities](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) and define what features Engineering works on | Own the definition of done; decide what gets merged into Product. Prioritizes maintenance work | Proactively identify small and large strategic UX needs to aid Product Management prioritization | Own and identify test strategy and requirements to complete the definition of done |
 
-At GitLab, we develop our product for self-managed as well as SaaS-hosted customers. We realize that while we have DRIs there are many stakeholders who who must have input, including Engineering, Quality, UX, Product, Security, and Infrastructure. For example, the Security team often has the deeper context of what it takes to run a secure SaaS system. Similarly, the Infrastructure team has insights into what we should build into the product to reduce toil and enable efficient, reliable, performant, and scalable systems.
+At GitLab, we develop our product for self-managed as well as SaaS-hosted customers. We realize that while we have DRIs there are many stakeholders who must have input, including Engineering, Quality, UX, Product, Security, and Infrastructure. For example, the Security team often has the deeper context of what it takes to run a secure SaaS system. Similarly, the Infrastructure team has insights into what we should build into the product to reduce toil and enable efficient, reliable, performant, and scalable systems.
 
 We call this the [Product Group](/handbook/company/structure/#product-groups) model. It is an extension of the classic quad concept at the leadership level and is currently comprised of Development, Quality, User Experience, Infrastructure, Product, and Security.
 
@@ -177,7 +180,7 @@ It's important to keep [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab
 - [Why GitLab Premium?](https://about.gitlab.com/pricing/premium/)
 - [Why GitLab Ultimate?](https://about.gitlab.com/pricing/ultimate)
 - [Feature Comparison](https://about.gitlab.com/pricing/feature-comparison/)
-- [DevOps Lifecycle](/stages-devops-lifecycle/)
+- [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/)
 - [DevOps Tools Landscape](https://about.gitlab.com/why-gitlab/)
 
 **Internal**
@@ -191,11 +194,11 @@ The standard for working as a team at GitLab is the [Product Development Workflo
 
 It's important to remember that User Experience (UX) does not only relate to visual features or interface design. UX is the intangible design of a strategy that brings us to a solution, so it also refers to the experience of writing code, working with .yml files, designing APIs, working with a CLI, etc. All of those functionalities are meant to be read and used by people. Involving a Product Designer into their planning and development can be highly beneficial. A guide to consider is: anytime a person is interacting with something, there is an opportunity for that interaction to be designed.
 
-##### Assessing user workflows
+#### Assessing user workflows
 
 As the GitLab product matures, we know we must make important workflows easier to use through feedback-loop mechanisms as is captured in the "Improve" section of the [Product Development Flow](/handbook/product-development-flow/#outcomes-and-activities-7). We can use the [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/) and [UX scorecards](/handbook/product/ux/ux-scorecards/) as mechanisms to provide insights into how might be able to improve these user workflows.
 
-##### What if there is a conflict with the product direction plan and solution proposal?
+#### What if there is a conflict with the product direction plan and solution proposal?
 
 For areas with minimal maturity, or low/internal-only adoption, iteration and quickly adapting the product is the priority. In cases where the product experience desired would take longer to implement than required for the current maturity stage, it is advised the Product Manager work with the Product Designer and/or Engineering Manager to scope an iteration plan to ensure the experience is delivered incrementally over time to provide value quickly with quality.
 
@@ -205,21 +208,20 @@ As a team, there may be cases where a proposal exceeds the expected time to mark
 
 As DRIs, it is important to consider the input from other team members and to know when to trust in their experience and judgment. It is advised to use an [opportunity canvas lite](/handbook/product/product-processes/#opportunity-canvas-lite). The PM is expected to compile the canvas lite with inputs from the Product Designer and/or Engineering Manager. The PM then makes a decision after weighing input from the product designer and engineering, as appropriate. The PM should then share the decision, articulating the costs of waiting, and shipping earlier with less polish, as well as why no smaller iteration exists as part of this decision.
 
-In the event that a decision is made to build something that is less polished, has a lesser user experience, or otherwise doesn't live up to our standards of where we want this UI to end up the team should generate follow-up [UX Debt](/handbook/product/ux/performance-indicators/#ux-debt) issues to be addressed in the next upcoming milestone(s).
+In the event that a decision is made to build something that is less polished, has a lesser user experience, or otherwise doesn't live up to our standards of where we want this UI to end up the team should generate follow-up [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux) issues to be addressed in the next upcoming milestone(s).
 
-If a quad member remains concerned and in strong disagreement with the decision made by the PM DRI, the quad member should exercise our [disagree, commit, and disagree value](/handbook/values/#disagree-commit-and-disagree), by initiating an [escalation](/handbook/leadership/#effective-escalations) to bring in management layers above into the decision.
+If a quad member remains concerned and in strong disagreement with the decision made by the PM DRI, the quad member should exercise our [disagree, commit, and disagree value](/handbook/values/#disagree-and-commit), by initiating an [escalation](/handbook/leadership/#effective-escalations) to bring in management layers above into the decision.
 
 Results are the most important aspect to consider for the business and our users. If there is a perceived risk to potentially harm the business financially, reduce customer satisfaction or value, or lead to legal trouble, teammates are empowered to seek an alternative perspective for the product decision. Within the Product Division, we recommend escalating first to the management layer immediately above where the disagreement is happening for input and further escalating to PLT and ultimately the Chief Product Officer.
 
-
-
-##### What if your team doesn't have a designer?
+#### What if your team doesn't have a designer?
 
 Product Designer assignments are listed in the team.yml file. Unfortunately, we are currently unable to assign a dedicated Product Designer for every group. Instead, Product Designers are assigned to the areas of highest business priority and will continue to provide focused support to those priorities throughout the year. Due to the limited capacity, we are also not able to do UX reviews on MRs for groups without a designer.
 
 If there isn't a designer listed for a group, then that team is expected to be self-sufficient in taking responsibility for the design needs of their product area. Product Design does not have the capacity to review complex proposed design solutions or provide design solutions for unsupported groups.
 
 If you have questions or need support you can do so in the following ways:
+
 - PMs who need to create designs can request access to Figma by creating an [Access Request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new). **Note:** We cannot grant an Editor seat by requesting an upgrade within Figma. An access request issue is required.
 - Review and follow the [Pajamas guidelines](https://design.gitlab.com/).
 - If you have a small design question, or the Pajamas guidance is not clear, reach out via the `#ux` or `#ux_coworking` Slack channel.

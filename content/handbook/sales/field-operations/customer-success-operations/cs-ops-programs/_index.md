@@ -1,17 +1,8 @@
 ---
-
 title: "Customer Programs"
 description: "Customer Programs creates communication paths using Gainsight to inform, educate, and learn from our customers."
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
-
-
-
-
-
 
 ## What we do
 
@@ -26,7 +17,6 @@ You can see more information about what we do and our strategy in the following 
 
 ## Meet the Team
 
-
 | Person | Role |
 | ------ | ------ |
 | [Brittney Sinq](https://gitlab.com/bsinq) | [Sr. Director, CS Strategy & Operations](/job-families/sales/director-customer-operations/) |
@@ -35,13 +25,12 @@ You can see more information about what we do and our strategy in the following 
 | [John Gamboa](https://gitlab.com/johnpgamboa) | [Program Manager, Customer Programs](/job-families/sales/program-manager-customer-programs) |
 
 ## Related Content
+
 - [Available Programs](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/available-programs/)
 - [Getting Help from Digital Customer Success](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/getting-help-from-dcs/)
 - [NPS/CSAT Surveys](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/nps-csat-scores/)
 - [CS Content Guide](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/cs-content-guide.html)
 - [Customer Newsletter](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/customer-newsletter/)
-
-
 
 ## Who we support
 
@@ -62,7 +51,6 @@ Please refer to the [Available Programs](/handbook/sales/field-operations/custom
 - Webinar invitations and promotion through Zoom and Gainsight
 - Monthly newsletters
 - Surveys sent through Gainsight
-
 
 ### Available program metrics and data and timelines
 
@@ -95,10 +83,9 @@ On accounts using the GitLab SaaS product, individual users with Owner and Maint
 
 Targeting individual users at the account level enables the DCS Team to ensure customer enablement programs reach contacts most likely to take action on individual features of GitLab.
 
-
 ### Sold-To Contacts
 
-If a customer purchases GitLab without the assistance of the Sales team directly from GitLab’s website, there may be no GitLab Admin user configured to the account. If so, communications normally designed for the GitLab Admin contacts will be sent to the contact that directly purchased GitLab products and services (the Sold-To contact). These contacts do not receive NPS or CSAT communication.
+If a customer purchases GitLab without the assistance of the Sales team directly from GitLab's website, there may be no GitLab Admin user configured to the account. If so, communications normally designed for the GitLab Admin contacts will be sent to the contact that directly purchased GitLab products and services (the Sold-To contact). These contacts do not receive NPS or CSAT communication.
 
 ## How to configure a GitLab Admin
 
@@ -118,7 +105,3 @@ If a customer purchases GitLab without the assistance of the Sales team directly
 1. Edit the `Role` field.
 1. Select `GitLab Admin` from the picklist.
 1. Click **Save**.
-
-
-
-

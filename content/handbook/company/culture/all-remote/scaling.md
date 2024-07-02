@@ -30,7 +30,7 @@ In response to a question on whether or not all-remote is infinitely scalable, o
 >
 > A team in one room works really well. A team on one floor probably works OK. A team on multiple floors, you start having some problems. A team across multiple offices, it gets even harder. A team in multiple cities, it gets even harder. A team on multiple continents, that gets super hard. That model breaks down.
 >
-> There's very little benefit to colocation if you're such a big company. While the benefits of remote — [writing down your processes]({{< ref "/handbook/documentation" >}}), stimulating cross-company [informal communication](./informal-communication/) — those get much more pronounced at scale.
+> There's very little benefit to colocation if you're such a big company. While the benefits of remote — [writing down your processes](/handbook/product/ux/technical-writing/documentation/), stimulating cross-company [informal communication](./informal-communication/) — those get much more pronounced at scale.
 >
 > It's not just that [all-remote] scales. It scales way better. - *GitLab co-founder and CEO Sid Sijbrandij*
 
@@ -79,7 +79,7 @@ In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRT
 
 > The more widespread an organization is, the less it benefits from being colocated. An all-remote organization will have to adopt the processes you'd use to control an organization at scale.
 >
-> [Writing things down]({{< ref "values#write-things-down" >}}), [recording things](/handbook/marketing/marketing-operations/youtube/), and [working asynchronously]({{< ref "./management#asynchronous" >}}) — we have to master those things early, so they become more prevalent in the organization. Hence, they are easier to scale.
+> [Writing things down](/handbook/values/#write-things-down), [recording things](/handbook/marketing/marketing-operations/youtube/), and [working asynchronously]({{< ref "./management#asynchronous" >}}) — we have to master those things early, so they become more prevalent in the organization. Hence, they are easier to scale.
 >
 > For example, we have the best [onboarding process]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}) of any company in the world. It's not perfect — I can see lots of room for improvement — but no other company has [250+ tasks](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md#all-gitlabbers) you need to complete when onboarding.
 >
@@ -107,7 +107,7 @@ Conversely, small colocated teams are apt to eschew documentation with the assum
 
 As any team scales, greater depths of organizational knowledge are acquired. Each additional hire brings in added expertise and experience. In a colocated setting, this influx of knowledge takes place, but it is unequally disseminated. Those physically close to the next new person are most likely to reap the benefits, while those in a different office — or even a different floor — will be disadvantaged in gleaning the same insights.
 
-In an all-remote setting, everyone is equidistant in practical terms. When your "office" is a Slack room, there is less friction in reaching out to a new employee to seek advice. This has a profound impact at scale, and contributes to a more [transparent]({{< ref "values#transparency" >}}) work climate.
+In an all-remote setting, everyone is equidistant in practical terms. When your "office" is a Slack room, there is less friction in reaching out to a new employee to seek advice. This has a profound impact at scale, and contributes to a more [transparent](/handbook/values/#transparency) work climate.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
@@ -115,6 +115,6 @@ In an all-remote setting, everyone is equidistant in practical terms. When your 
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-------
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

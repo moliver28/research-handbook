@@ -12,7 +12,7 @@ Management of the Learning System is a collaborative effort between Education Se
 
 ### Learning & Development
 
-The L&D team uses Thought Industries to support training for GitLab team members, and in some instances, community members. This is achieved in accordance with our [Purpose, Vision, and Mission.]({{< ref "/handbook/people-group/learning-and-development#mission" >}})
+The L&D team uses Thought Industries to support training for GitLab team members, and in some instances, community members. This is achieved in accordance with our [Purpose, Vision, and Mission.](/handbook/people-group/learning-and-development#mission)
 
 ### Education Services
 
@@ -95,7 +95,7 @@ The admin home page is a place for platform administrators to access:
 
 ### Authoring
 
-Level Up uses a [handbook first](/handbook/handbook-usage/#why-handbook-first) approach for all learning content, using the handbook as our single source of truth for learning content.
+Level Up uses a [handbook first](/handbook/about/handbook-usage/#why-handbook-first) approach for all learning content, using the handbook as our single source of truth for learning content.
 This approach ensures:
 
 - all voices and contributions are heard
@@ -113,7 +113,7 @@ It's important to add captions to videos whenever possible. The steps below outl
     1. Scroll through the video to a time marker where you want to put a caption
     1. Click the caption button at lower right of the video
     1. Paste in a short amount of text.
-    1. Watch it back. You can easily edit the captions (they are listed all together below the video window) so it’s not hard to adjust and make them fit.
+    1. Watch it back. You can easily edit the captions (they are listed all together below the video window) so it's not hard to adjust and make them fit.
 
 #### Custom Content Fields
 

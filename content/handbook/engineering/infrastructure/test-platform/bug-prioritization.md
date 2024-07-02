@@ -22,6 +22,7 @@ As defined in our [Product Development Timeline](/handbook/engineering/workflow/
 ## Bug Prioritization triage report
 
 An automated [Bug Prioritization triage report](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/template/group/bug-prioritization.yml.erb) is created for each group on a monthly basis containing the Top 10 open issues of `~"type::bug"`. The report is generated with issues that are prioritized based on the below conditions:
+
   1. Severity based on label `severity::*`
   1. Security vulnerabilities based on label `bug::vulnerability`
   1. Customer issues based on label `customer`
@@ -39,7 +40,7 @@ to update the generated files as well.
 
 ## Bug Prioritization Dashboard
 
-The [bug prioritization dashboard](https://app.periscopedata.com/app/gitlab/1037965/Bug-Prioritization) can also be used to put together a suggested list of bugs for each group.
+The [bug prioritization dashboard](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard?:iid=2) can also be used to put together a suggested list of bugs for each group.
 This dashboard should be revisited for each milestone, as the data will change over time.
 
 As a general guideline, the total amount of bugs proposed should match the burndown plan from the dashboard for your specific group.

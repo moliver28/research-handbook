@@ -1,6 +1,6 @@
 ---
 title: "VP Scheduling"
-description: “Discover how to schedule meetings with VPs at GitLab”
+description: "Discover how to schedule meetings with VPs at GitLab"
 ---
 
 When scheduling for VPs or Directors at GitLab, please check the scheduling preferences below.
@@ -36,13 +36,13 @@ When scheduling for VPs or Directors at GitLab, please check the scheduling pref
 
 ## Scheduling for Sales VPs
 
-**David Sakamoto, Mike Pyle, Ryan O’Nell, & Nima Badiey**
+**David Sakamoto, Mike Pyle, Ryan O'Nell, & Nima Badiey**
 
 - Please reach out to Victoria Reinhardt (Sr. EBA) to schedule or reschedule any meetings for Ryan O'Nell and Mike Pyle
 - Please reach out to Becky Piccone (Sr. EBA) to schedule or reschedule any meetings for David Sakamoto and Nima Badiey
 - Don't schedule over DNB or any CRO calls without reaching out for approval from VP and EBA
 - For interviews: CES should tag EBA on Greenhouse to review times submitted by the candidate, or to provide times for the VP
-- If you add any meetings to calendar directly, tick the box “Attendees can modify” so EBA can change if necessary
+- If you add any meetings to calendar directly, tick the box "Attendees can modify" so EBA can change if necessary
 - External meeting requests (with those outside of GitLab): email EBA and VP and loop them in with external parties. EBA will then schedule directly with external parties.
 - Internal meeting requests (with other GitLab Team Members)
   - Please slack EBA in #sales-vp channel
@@ -63,7 +63,7 @@ When scheduling for VPs or Directors at GitLab, please check the scheduling pref
 - Please reach out to Cindy King (Sr. EBA) to schedule or reschedule any meetings with Dale Brown
 - Don't schedule over DNB blocks
 - For interviews: CES should tag EBA on Greenhouse to review times submitted by the candidate, or to provide times for the VP
-- If you add any meetings to calendar directly, tick the box “Attendees can modify” so EBA can change if necessary
+- If you add any meetings to calendar directly, tick the box "Attendees can modify" so EBA can change if necessary
 - Working blocks on the calendar are OK and can be moved to prioritize other meeting requests, team members should check in with the EBA to request a meeting using the meeting request requirements as a guideline
 - A calendar key is available for viewing in their daily schedule
 - External meeting requests (with those outside of GitLab): email EBA and VP / Sr. Leadership and loop them in with external parties. EBA will then schedule directly with external parties.
@@ -87,6 +87,4 @@ When scheduling for VPs or Directors at GitLab, please check the scheduling pref
   - Subject of the meeting
   - Provide context: include agenda to be covered, share google doc if available, include a link to any relevant issues, slides, etc.
   - For customer meetings please create an issue request using [this template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/product-leader-customer-meeting-request-template.md) and tag Jennifer Garcia (Product EBA) for review and availability
-- If you add any meetings to calendar directly, tick the box “Attendees can modify” so EBA can change if necessary
-
-
+- If you add any meetings to calendar directly, tick the box "Attendees can modify" so EBA can change if necessary

@@ -1,17 +1,10 @@
 ---
-
 title: "Account Handoff CSM-to-CSM Checklist"
 ---
 
-
-
-
-
-
-
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-----
+---
 
 CSMs will need to occasionally transfer accounts they have been working with to another CSM (e.g. a CSM changes territories, a realignment occurs in Sales, a need to equalize books of business, etc.), and they should use this handbook page to help guide them through important questions and topics during the handoff.
 
@@ -40,6 +33,52 @@ The first step once you are aware of a handoff is for the new CSM to open an [CT
 - New CSM: Schedule additional sync with old CSM if needed; otherwise close this CTA
 
 As you follow the tasks in the CTA and collaborate amongst each other, be aware of the following suggestions to ensure a seamless handoff experience.
+
+## Account Handoff: Compensation Specific Systems Process
+
+Many of our internal processes rely on accurate assignments in our CRMs. This includes the way CSM/E variable compensation is tracked and attributed.
+<br>
+
+### Key Fields & Their Use
+
+| Field Name | Source of Truth (SOT) Location | Other Locations Updated by SOT | Description |
+| -------- | -------- | -------- | -------- |
+| Customer Success Manager | Gainsight C360 | SFDC Account Page | Represents who is assigned to the customer |
+| CSM Compensation Pool | Gainsight C360| SFDC Account Page | Assigns the account to a compensation pool. This is the "live" version of the pool |
+| Compensation Pool Team | SFDC Opportunity | N/A | This field is updated by the CSM Compensation Pool team field on the SFDC Account and is stamped at opportunity closure. It then represents the Compensation Pool who will receive credit for the opportunity. |
+| Compensation Pool Team Override | SFDC Opportunity | N/A | When the Compensation Pool Team field is stamped with the incorrect pool the process outlined below uses this field to override the stamped value. |
+<br>
+
+### Types of Coverage Transfers and How to Handle Them
+
+**Handoff between two named resources (CSM/A to CSM/A)**
+
+DRI: New CSM/A being assigned
+
+1. On the day of the transfer, change the name listed as the Customer Success Manager in Gainsight to the new named resource
+1. If the new CSM/A is associated with a different CSM Compensation Pool, update the CSM Compensation Pool in Gainsight to the new CSM/A's pool.
+
+**CSM/A to CSE Organization**
+
+DRI: CSM/A that the customer is transferring away from
+
+1. On the day of transfer change the name listed as the Customer Success Manager in Gainsight to TAM Scale. This is the name that represents the CSE organization as a whole in our CRMs.
+1. The CSM Compensation Pool will need to be changed. Change it to the CSE pool that represents the Geo of the customer:
+    1. CSE_AMER_1
+    1. CSE_EMEA_1
+    1. CSE_APAC_1
+    1. CSE_PUBSEC_1
+
+**CSE Organization to CSM/A**
+
+DRI: CSM/A the customer is transferring to
+
+1. On the day of the transfer, change the name listed as the Customer Success Manager in Gainsight to the new named resource
+1. Update the CSM Compensation Pool in Gainsight to the new CSM/A's pool.
+
+**How to handle overrides**
+
+At Gitlab, we value [Collaboration](/handbook/values/#collaboration). The stance we take as far as making sure Salesforce Opportunities are attributed to the right compensation pools is that we lean in on that value and work together to ensure the right pool is being compensated for the opportunities that close shortly after a transfer is made. The managers associated with the compensation pools involved are responsible for agreeing which opportunities may need an override of the compensation pool that was stamped at the time of close. In the case of a disagreement, the Geo's senior leader should make the final decision. **If an agreement results in a need for an override, the CSM/E Manager should chatter @sales-comp on the opportunity that needs the override.**
 
 ## Topics to Cover
 
@@ -120,7 +159,7 @@ While not all customer calls are recorded, many are, and they can be a wealth of
 
 Thoroughly understand the main technical issues the customer cares about and has had problems with. Take note of critical open tickets and collaborate with support as needed, and review any key technical issues the customer experienced in the past; for example, migrations, integrations, major upgrades, etc.
 
-As the new CSM is finally responsible for knowing about important support tickets and its status, its recommended to subscribe yourself (in "CC") to all support tickets, the old CSM was watching. This will ensure, that the new CSM gets notified (as the old CSM will remove herself from the CC list).  
+As the new CSM is finally responsible for knowing about important support tickets and its status, its recommended to subscribe yourself (in "CC") to all support tickets, the old CSM was watching. This will ensure, that the new CSM gets notified (as the old CSM will remove herself from the CC list).
 
 ### Installation
 

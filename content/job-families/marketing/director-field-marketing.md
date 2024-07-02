@@ -46,7 +46,7 @@ The Director, Field Marketing is a [grade 10](/handbook/total-rewards/compensati
 - Experience with supporting both direct sales and channel sales teams.
 - [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Specialty
 
@@ -77,7 +77,6 @@ The Director of Marketing, Japan leads the strategy and execution of marketing p
 - Track record of delivering results in line with overall business objectives through operational excellence, including accelerating and progressing pipeline
 - Skilled at partnering cross-functionally across marketing, internal stakeholders and agency partners as well as external stakeholders, including channel partners and customers
 - Deep understanding of channel ecosystem and related processes
-
 
 ### Career Ladder
 

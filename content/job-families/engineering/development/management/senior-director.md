@@ -25,7 +25,7 @@ Directors in Engineering at GitLab see their team as their product. While they a
 - Experience managing managers, senior managers, or directors
 - Agile project management skills
 - Commitment to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Understanding of how to be successfully manage at a remote-only company
 - Humble, servant leader
 

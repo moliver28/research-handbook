@@ -28,7 +28,7 @@ The great part about this test is it takes around 10 minutes (or less, if you re
 
 ### 1. Are senior leaders remote by default?
 
-The *quickest* way to send the *clearest* signal that remote is the future is to start at the top of the organizational chart. Remove execs from the physical office, and you’ll quickly figure out what gaps you need to fill with tools and process.
+The *quickest* way to send the *clearest* signal that remote is the future is to start at the top of the organizational chart. Remove execs from the physical office, and you'll quickly figure out what gaps you need to fill with tools and process.
 
 If you force the executive team to work remotely for a meaningful amount of time (over one month, in most cases), you'll discover communication gaps, as well as voids in tooling and process.
 
@@ -42,19 +42,19 @@ In areas where defined working hours are required by the role or client, great r
 
 ### 3. Is most communication about work done asynchronously?
 
-There are [valid reasons]({{< ref "./asynchronous#best-practices-guidelines-and-async-feature-set" >}}) to work synchronously. Communicating *about work* is best done asynchronously. This includes status updates, FYIs, process documentation (e.g. how to [alert your security team about a suspected phishing attempt]({{< ref "/handbook/security#what-to-do-if-you-suspect-an-email-is-a-phishing-attack" >}})). It also includes *meeting about a meeting*.
+There are [valid reasons]({{< ref "./asynchronous#best-practices-guidelines-and-async-feature-set" >}}) to work synchronously. Communicating *about work* is best done asynchronously. This includes status updates, FYIs, process documentation (e.g. how to [alert your security team about a suspected phishing attempt](/handbook/security#what-to-do-if-you-suspect-an-email-is-a-phishing-attack)). It also includes *meeting about a meeting*.
 
 Prerequisites for this to work well are below.
 
 1. Leveraging a single tool to funnel communication about work (e.g. [GitLab](/handbook/product/gitlab-the-product), [Friday](https://friday.app), [Dropbox Spaces](https://blog.dropbox.com/topics/product-tips/make-remote-work-easier-with-dropbox-spaces), [Qatalog](https://qatalog.com))
 1. Documented [communication guidelines]({{< ref "communication" >}}) on how and where to communicate about work
-1. Executive commitment to [transparency]({{< ref "values#transparency" >}})
+1. Executive commitment to [transparency](/handbook/values/#transparency)
 
 ### 4. Are your values, and how to live them, explicitly defined and documented?
 
 Great remote organizations undergo an audit which seeks to convert tacit knowledge (e.g. implied knowledge) to explicit knowledge (e.g. documented knowledge). This begins with a values audit.
 
-It's not enough to have core values documented on a company website. Each core value needs [operating principles]({{< ref "values#operating-principles" >}}), such that a globally distributed team can reference tangible examples of how common terms like collaboration, iteration, and results are lived out. This also creates shared understanding of what values mean to your specific organization. Ideally, all team members are empowered to contribute proposals to bolster values and share newly-discovered methods of living them out.
+It's not enough to have core values documented on a company website. Each core value needs [operating principles](/handbook/values/#operating-principles), such that a globally distributed team can reference tangible examples of how common terms like collaboration, iteration, and results are lived out. This also creates shared understanding of what values mean to your specific organization. Ideally, all team members are empowered to contribute proposals to bolster values and share newly-discovered methods of living them out.
 
 ### 5. Does every functional department surface work in a single tool with company-wide visibility?
 
@@ -72,7 +72,7 @@ Remote culture is largely built by empowering people to fill their social quota 
 
 ### 8. Are communication expectations documented in a single source of truth?
 
-Absent [communication guidelines]({{< ref "communication" >}}), colocated organizations generally default to meetings as the catch-all for communicating about work. Great remote organizations create and document expectations and suggestions around communication, both formal and informal. For transitioning organizations, don't wait until you have implemented a central workspace tool to start articulating communication expectations. Even a [boring solution]({{< ref "values#boring-solutions" >}}) such as requiring all work-related meetings to [have an agenda attached]({{< ref "./live-doc-meetings" >}}) to the calendar invite can usher in new ways of thinking.
+Absent [communication guidelines]({{< ref "communication" >}}), colocated organizations generally default to meetings as the catch-all for communicating about work. Great remote organizations create and document expectations and suggestions around communication, both formal and informal. For transitioning organizations, don't wait until you have implemented a central workspace tool to start articulating communication expectations. Even a [boring solution](/handbook/values/#boring-solutions) such as requiring all work-related meetings to [have an agenda attached]({{< ref "./live-doc-meetings" >}}) to the calendar invite can usher in new ways of thinking.
 
 ### 9. Does each team member call/collaborate with their own equipment?
 
@@ -86,7 +86,7 @@ Quarterly or bi-annual retreats, annual company-wide gatherings, in-person onboa
 
 ### 11. Do you hire, praise, and promote on values alignment and results?
 
-Great remote organizations actively work against [proximity bias](https://www.protocol.com/workplace/proximity-bias-hybrid-work) by utilizing praise and promotion tactics rooted in [values alignment]({{< ref "values#culture-fit-is-a-bad-excuse" >}}). A boring solution to encourage this is the use of a [promotion document]({{< ref "/handbook/people-group/promotions-transfers#general-promotion-document-template" >}}) which requires a manager detail how an individual has exemplified company values.
+Great remote organizations actively work against [proximity bias](https://www.protocol.com/workplace/proximity-bias-hybrid-work) by utilizing praise and promotion tactics rooted in [values alignment](/handbook/values/#culture-fit-is-a-bad-excuse). A boring solution to encourage this is the use of a [promotion document](/handbook/people-group/promotions-transfers#general-promotion-document-template) which requires a manager detail how an individual has exemplified company values.
 
 ### 12. Do you fund individual workspaces and reimburse for out-of-home office use?
 
@@ -100,6 +100,6 @@ Great remote organizations recognize that there are more than two places to work
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

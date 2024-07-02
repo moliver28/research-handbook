@@ -39,7 +39,7 @@ graph TD;
   L[Readiness implements the request]
 ```
 
-## Prospects
+### Prospects
 
 **NOTE**: This was formerly called Priority Prospect requests
 
@@ -127,6 +127,7 @@ With that created, you need to edit some of the organization fields:
 | Account Type           | Prospect                     |
 | Manual Support Upgrade | Check this box               |
 | Expiration Date        | 30 days from setup           |
+| Not in SFDC            | Check this box               |
 
 For `GitLab Plan`, you need to review the opportunity to determine if this is
 a gitlab.com or Self-Managed opportunity. If you cannot determine it, please ask
@@ -202,7 +203,7 @@ After doing so, you need to
 [update the previous Gratis Support spreadsheet](#updating-the-previous-gratis-support-spreadsheet)
 for tracking purposes.
 
-## Migration Offerings
+### Migration Offerings
 
 #### Migration offerings - Validation checks
 
@@ -318,7 +319,7 @@ After doing so, you need to
 [update the previous Gratis Support spreadsheet](#updating-the-previous-gratis-support-spreadsheet)
 for tracking purposes.
 
-## Upgrade Offerings
+### Upgrade Offerings
 
 #### Upgrade offerings - Validation checks
 
@@ -420,7 +421,7 @@ After doing so, you need to
 [update the previous Gratis Support spreadsheet](#updating-the-previous-gratis-support-spreadsheet)
 for tracking purposes.
 
-## Former Customers
+### Former Customers
 
 #### Former Customers - Validation checks
 
@@ -528,7 +529,7 @@ After doing so, you need to
 [update the previous Gratis Support spreadsheet](#updating-the-previous-gratis-support-spreadsheet)
 for tracking purposes.
 
-## Extensions
+### Extensions
 
 #### Extensions - Validation checks
 
@@ -579,7 +580,7 @@ Due to the "other" style nature of these, there is not a set process we can
 really follow for these. For these types of requests, please assign them to a
 Support Readiness Manager or Support Readiness Director to work.
 
-## Updating the Current Gratis Support spreadsheet
+### Updating the Current Gratis Support spreadsheet
 
 Regardless of the request type, you will need to update the
 [Current Gratis Support](https://docs.google.com/spreadsheets/d/11p3aBj1LTr-ngk1wxoMlae-UvJ3bOTuQHd48so2ZcXU/edit?usp=sharing)
@@ -688,7 +689,7 @@ Jason's preferred method for this is as follows:
    - Replacing ISSUE_LINK with the issue you are working
    - Replacing YYYY-MM-DD with the date of expiration
 
-## Failed validation check responses
+### Failed validation check responses
 
 Utilize these to comment on a request when a validation check has failed.
 
@@ -720,7 +721,7 @@ Utilize these to comment on a request when a validation check has failed.
 > As such, we will not be able to proceed on this request and will now close
 > the issue.
 >
-> You might want to reach out in #spt_managers to speak to a support manager
+> You might want to reach out in #support_leadership to speak to a support manager
 > bout other options that may be able to be used for this account.
 >
 > /label ~"SupportOps::Blocked"
@@ -738,7 +739,7 @@ Utilize these to comment on a request when a validation check has failed.
 > As such, we will not be able to proceed on this request and will now close
 > the issue.
 >
-> You might want to reach out in #spt_managers to speak to a support manager
+> You might want to reach out in #support_leadership to speak to a support manager
 > bout other options that may be able to be used for this account.
 >
 > /label ~"SupportOps::Blocked"
@@ -756,7 +757,7 @@ Utilize these to comment on a request when a validation check has failed.
 > As such, we will not be able to proceed on this request and will now close
 > the issue.
 >
-> You might want to reach out in #spt_managers to speak to a support manager
+> You might want to reach out in #support_leadership to speak to a support manager
 > bout other options that may be able to be used for this account.
 >
 > /label ~"SupportOps::Blocked"
@@ -823,7 +824,7 @@ Utilize these to comment on a request when a validation check has failed.
 > We are seeing the Gratis Support status for this customer has already expired
 > and cannot be extended at this time.
 >
-> You might want to reach out in #spt_managers to speak to a support manager
+> You might want to reach out in #support_leadership to speak to a support manager
 > bout other options that may be able to be used for this account.
 >
 > /label ~"SupportOps::Blocked"

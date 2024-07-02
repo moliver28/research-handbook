@@ -32,7 +32,7 @@ Haydn Mackay delivered a [wonderful keynote](https://www.youtube.com/watch?v=kDf
 
 ### *2017: GitLab Storytime*
 
-A team member at GitLab interviewed the first five team members from GitLab to hear stories from the first years. In [Storytime Part 1](https://www.youtube.com/watch?v=DSmqOQ6eLB4) the team talks about hiring its first team member, learning to iterate, thoughts of shutting down, Y Combinator, and how the values were created. In [Storytime Part 2](https://www.youtube.com/watch?v=4pe6_d9ZTC4), we hear some hilarious stories of a surprise bachelor party, a competitor’s offer to talk, a presentation that involved a lab coat and safety goggles, the first GitLab summit, and experiences at the Mountain View House.
+A team member at GitLab interviewed the first five team members from GitLab to hear stories from the first years. In [Storytime Part 1](https://www.youtube.com/watch?v=DSmqOQ6eLB4) the team talks about hiring its first team member, learning to iterate, thoughts of shutting down, Y Combinator, and how the values were created. In [Storytime Part 2](https://www.youtube.com/watch?v=4pe6_d9ZTC4), we hear some hilarious stories of a surprise bachelor party, a competitor's offer to talk, a presentation that involved a lab coat and safety goggles, the first GitLab summit, and experiences at the Mountain View House.
 
 ### *2016: Growth*
 
@@ -63,7 +63,7 @@ In the end of that year we submitted [our application to Y Combinator](https://a
 
 Large organizations running GitLab asked Sid to add features that they needed.
 At the same time Dmitriy tweeted out to the world that he wanted to work on GitLab full time.
-Sid and Dmitriy teamed up and introduced [GitLab Enterprise Edition](/releases/2013/07/22/announcing-gitlab-enterprise-edition) with the features asked for by larger organizations. Sid authored the [initial commit](https://gitlab.com/gitlab-com/www-gitlab-com/-/commit/d69bc4c1acb61666e20ec62a2a0907d535176753) on GitLab's website repository.
+Sid and Dmitriy teamed up and introduced [GitLab Enterprise Edition](https://about.gitlab.com/releases/2013/07/22/announcing-gitlab-enterprise-edition) with the features asked for by larger organizations. Sid authored the [initial commit](https://gitlab.com/gitlab-com/www-gitlab-com/-/commit/d69bc4c1acb61666e20ec62a2a0907d535176753) on GitLab's website repository.
 
 ### *2012: GitLab.com*
 

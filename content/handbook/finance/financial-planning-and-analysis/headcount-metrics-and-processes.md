@@ -7,7 +7,7 @@ description: "Public Company Headcount Metrics and Processes"
 
 **Ending Headcount**: As a public company, GitLab forecasts Ending Headcount on a monthly, quarterly, and annual basis. This metric is what headcount-related expenses and our investor guidance are based on, so it is mission-critical to get accurate. Underlined key terminology and a full list of terms are defined below.
 
-### Forecasted Ending Headcount is calculated as:
+### Forecasted Ending Headcount is calculated as
 
 1. Begin with <ins>Ending Headcount</ins> from previous period
 1. Increase by: <ins>Gross Known Future Starts</ins> in period
@@ -15,7 +15,7 @@ description: "Public Company Headcount Metrics and Processes"
    - Gross Forecasted Future Starts include <ins>Offers Outstanding<ins>
 1. Increase by: <ins>Attrition Backfills<ins> in period
    - Attrition Backfills are assumed not to be filled until the following quarter. As a result, the Ending Headcount is decreased in the current quarter due to Attrition. In all quarters following the current quarter, Attrition Backfills from the previous quarters are assumed to be filled, and the number of Attrition Backfill positions is equal to Attrition for the previous quarter.
-1. Decrease by: <ins>Total Attrition<ins> applied to the previous quarter’s ending headcount
+1. Decrease by: <ins>Total Attrition<ins> applied to the previous quarter's ending headcount
    - Component 1 - <ins>Known Attrition<ins>: Remove any known attrites from prior period Ending Headcount
    - Component 2 - <ins>Forecasted Attrition<ins>: Using a 5% hypothetical quarterly attrition assumption for example purposes, back into the Forecasted Attrition assumption (e.g., if 3% is already Known Attrition, then adjust the Forecasted Attrition input to 2% to reflect the remaining portion expected to churn)
       - If attrition is more/less than expected in M1 and/or M2 of the quarter, the Forecasted Attrition Assumption is adjusted to solve back to the hypothetical 5% Total Attrition for the quarter
@@ -74,9 +74,9 @@ description: "Public Company Headcount Metrics and Processes"
 
 ### Appendix: Other Public Company Headcount Definitions
 
-1. [**Adaptive**]({{< ref "../financial-planning-and-analysis/adaptive-insights" >}}): FP&A’s SSOT for all forecasted headcount metrics and headcount-related expenses. Adaptive is maintained by the FP&A team and roles are input into Adaptive by the FP&A team.
+1. [**Adaptive**]({{< ref "../financial-planning-and-analysis/adaptive-insights" >}}): FP&A's SSOT for all forecasted headcount metrics and headcount-related expenses. Adaptive is maintained by the FP&A team and roles are input into Adaptive by the FP&A team.
 
-1. **Start Date**: Day one of a team member’s employment at GitLab. Start Dates are estimated by FP&A based on the priorities of the business, target Start Dates information in Greenhouse, and collaboration with TA. Once a team member has started their employment, Workday is the SSOT for the official Start Date.
+1. **Start Date**: Day one of a team member's employment at GitLab. Start Dates are estimated by FP&A based on the priorities of the business, target Start Dates information in Greenhouse, and collaboration with TA. Once a team member has started their employment, Workday is the SSOT for the official Start Date.
 
 1. **Net New Roles**: New roles (i.e., not Attrition Backfills) that GitLab plans to (either via an external candidate or Internal Hire).
 
@@ -97,12 +97,12 @@ description: "Public Company Headcount Metrics and Processes"
 
 1. [**Greenhouse**]({{< ref "greenhouse" >}}): SSOT for recruiting metrics and pipeline development in various stages of recruiting.
 1. [**Workday**]({{< ref "workday-guide" >}}): SSOT for Actual Starts and Start Dates.
-1. **Hires**: Team members who accept an employment offer within a specified period. The start date of the team members’ employment is irrelevant. Hires includes Internal Hires.
-1. **Recruiting Capacity**: The capacity of recruiters related to Hires within a specified period. Individual recruiter capacity does not relate to Starts; however, we can estimate the recruiting organization’s broader capacity for Starts by looking at historical Hire to Start data.
+1. **Hires**: Team members who accept an employment offer within a specified period. The start date of the team members' employment is irrelevant. Hires includes Internal Hires.
+1. **Recruiting Capacity**: The capacity of recruiters related to Hires within a specified period. Individual recruiter capacity does not relate to Starts; however, we can estimate the recruiting organization's broader capacity for Starts by looking at historical Hire to Start data.
 1. **Offer Accept**: The date on which a candidate signs the Offer and is transferred into Workday. This process ideally happens within 24 business hours of signing the Offer, but may be backdated to the date of signature as needed.
 1. **Requisition Open to Offer Accept**: The number of days from the date of requisition opening until the date the accepting candidate has accepted the Offer. Requisition Open to Offer Accept does not consider Start Date.
 1. **Offer Accept to Start Date**: The number of days from a successful candidate accepting the Offer until Start Date.
-1. **Requisition Open to Start Date**: Total hiring time required to fill a role; the number of days required from the date of requisition opening until the successful candidate’s Start Date.
+1. **Requisition Open to Start Date**: Total hiring time required to fill a role; the number of days required from the date of requisition opening until the successful candidate's Start Date.
       - Requisition Open to Start = Requisition Open to Offer Accept + Offer Accept to Start Date.
 
 ## Talent Acquisition Metrics/Processes

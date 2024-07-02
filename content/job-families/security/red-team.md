@@ -5,7 +5,7 @@ extra_js:
 - libs/mermaid.min.js
 ---
 
-As members of GitLab's [Threat Management sub department](/handbook/security/threat-management/), the [Red Team](/handbook/security/threat-management/red-team/) conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure.
+As members of GitLab's [Threat Management sub department](/handbook/security/threat-management/), the [Red Team](/handbook/security/security-operations/red-team/) conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure.
 
 The Red Team does not perform penetration tests, and the work we do is not focused on delivering a list of vulnerabilities in a specific application or service. Instead, we emulate the real-world tactics, techniques, and procedures (TTPs) of threats that are most relevant to our organization.
 
@@ -16,7 +16,7 @@ Our Red Team works **together** with our Blue Team. Even when planning attacks, 
 ## Responsibilities
 
 - Maintain a deep understanding of GitLab's product offerings, how they work, and how they could be attacked or abused
-- Propose, plan, and execute [Red Team operations](/handbook/security/threat-management/red-team/#red-team-operations) based on realistic threats to the organization
+- Propose, plan, and execute [Red Team operations](/handbook/security/security-operations/red-team/#what-the-red-team-does) based on realistic threats to the organization
 - Automate attack techniques, creating custom tooling for specific operations and contributing to general-purpose open source tools
 - Write detailed reports covering the goals and outcomes of Red Team operations, including significant observations and recommendations
 - Collaborate with GitLab's [Security Incident Response Team (SIRT)](/handbook/security/security-operations/sirt/) to improve detection and response capabilities

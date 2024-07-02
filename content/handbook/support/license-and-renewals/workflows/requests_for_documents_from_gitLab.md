@@ -1,5 +1,4 @@
 ---
-
 title: Requests for documents or signatures from GitLab
 category: General
 description: How to get GitLab documents or signature for customers.
@@ -23,7 +22,7 @@ Additional information on this topic can be found in the following handbook page
 - [Sales Guide: Collaborating with GitLab Legal - How to reach Legal](/handbook/legal/customer-negotiations/)
 - [Sales Order Processing - Contact Legal](/handbook/sales/field-operations/order-processing/#contact-legal)
 
-Other types of documents may be covered by the [general Support workflows]({{< ref "/content/handbook/support/workflows/_index.md" >}}).
+Other types of documents may be covered by the [general Support workflows](/handbook/support/workflows/_index.md).
 
 ## Tax Documents
 

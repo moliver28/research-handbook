@@ -1,14 +1,6 @@
 ---
-
 title: "Infrastructure Escalations"
 ---
-
-
-
-
-
-
-
 
 ## Infrastructure Engineering Team Process for Incident Management
 
@@ -36,15 +28,13 @@ Immediately following the resolution of an incident, asynchronous work to author
  the Incident Review should be complete, and the last Incident Manager assigned to the response is responsible for labelling
  it appropriately and adding it to the agenda for Infrastructure's
  [Synchronous Review Meeting](/handbook/engineering/infrastructure/incident-review/#synchronous-review-meeting-sessions)
- held weekly on Tuesdays, and published in the GitLab Team Meetings calendar.  
+ held weekly on Tuesdays, and published in the GitLab Team Meetings calendar.
 
 For S1/S2 incidents where a CSM has reason to believe their customer has been impacted,
  it is highly recommended that the CSM reach out proactively to their customer(s)to better understand
  if and how the customer has impacted and to determine next steps. For most customers,
  proactive CSM communication, in addition to the platform notifications and incident
  issue updates, will be sufficient.
-
-
 
 ### Incidents Impacting All Customers
 

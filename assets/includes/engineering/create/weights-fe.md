@@ -12,7 +12,7 @@ When issues are both Frontend and Backend we use specific labels to support both
 | 2: Small | The problem is well understood and a solution is outlined, but a little bit of extra investigation will probably still be required to realize the solution. |
 | 3: Medium | Features that are well understood and relatively straightforward. Bugs that are relatively poorly understood and may not yet have a suggested solution. |
 
-Anything above weight 3 is unschedulable. 
+Anything above weight 3 is unschedulable.
 
 Those are either large amounts of work or have too many unknowns. In that case, opt to break it down into multiple issues right away or open an epic to start a discussion in order to create the multiple steps.
 
@@ -20,4 +20,4 @@ Also consider adding the label: `~"workflow::planning breakdown"`.
 
 **Why?**
 
-This hard limit helps the team embody the [Iteration](/handbook/values/#iteration) value. 
+This hard limit helps the team embody the [Iteration](/handbook/values/#iteration) value.

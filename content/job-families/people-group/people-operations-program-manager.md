@@ -2,7 +2,6 @@
 title: People Operations Program Manager
 ---
 
-
 ## Levels
 
 ### People Operations Program Manager
@@ -185,5 +184,4 @@ Candidates for this position can expect the hiring process to follow the order b
 - Fourth interview: 30-45 minutes with VP, Total Rewards and People Operations
 - May request for additional interview time.
 
-Additional details about our process can be found on our [hiring page]({{< ref "/handbook/hiring" >}}).
-
+Additional details about our process can be found on our [hiring page](/handbook/hiring).

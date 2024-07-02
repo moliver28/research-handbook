@@ -22,15 +22,15 @@ GitLab is the world's largest all-remote company. We are 100% remote, with no co
 
 > We don't say you have to work from home — you can work from anywhere.
 >
-> That’s wherever you're most comfortable. Maybe that's a co-working space, maybe that's at a friend's house, maybe that's a different place every month.
+> That's wherever you're most comfortable. Maybe that's a co-working space, maybe that's at a friend's house, maybe that's a different place every month.
 >
 > We have people [at GitLab] who travel all around the world, and every month they're in a different time zone. We have over 1,100 employees, but none of them operate their days quite the same as anyone else.
 >
-> The beautiful thing about all-remote is it truly makes everyone a first-class team member. A lot of people will say in a hybrid-remote setting, ‘If I don't go to the office frequently enough, I miss out on some things, or maybe I miss out on praise or promotion opportunities.’ You feel inferior or deprioritized, as if you don't fully belong.
+> The beautiful thing about all-remote is it truly makes everyone a first-class team member. A lot of people will say in a hybrid-remote setting, 'If I don't go to the office frequently enough, I miss out on some things, or maybe I miss out on praise or promotion opportunities.' You feel inferior or deprioritized, as if you don't fully belong.
 >
 > In an environment like that, you have to take certain approaches to include people. You have to be intentional to include those remote individuals, whereas if it's all-remote, you're all on a level playing field.
 >
-> All-remote enables a workforce that may have been rejected at other stages — caregivers, working parents, or military spouses, where their spouse has to move at each new deployment. A lot of these people might say ’It's too complicated to continue to reinvent my career with every move along the way.’
+> All-remote enables a workforce that may have been rejected at other stages — caregivers, working parents, or military spouses, where their spouse has to move at each new deployment. A lot of these people might say 'It's too complicated to continue to reinvent my career with every move along the way.'
 >
 > In an all-remote setting, your job goes with you as those changes in life happen. That's going to become the norm, where the notion of moving for a career will seem silly. The career should follow you no matter where life takes you.
 
@@ -76,7 +76,7 @@ Working remotely also doesn't mean you're physically constrained to home. You're
 
 At the organizational level, "all-remote" does not mean simply offshoring work. Instead, it means you're able to [hire the best talent from all around the world]({{< ref "./hiring" >}}). It's also not a management paradigm. You still have a hierarchical organization, but with a [focus on output instead of input]({{< ref "./management" >}}).
 
-All in all, remote is fundamentally about *freedom* and *individual choice*. At GitLab, we [value your results]({{< ref "values#results" >}}), regardless of where you get your work done.
+All in all, remote is fundamentally about *freedom* and *individual choice*. At GitLab, we [value your results](/handbook/values/#results), regardless of where you get your work done.
 
 ### Careers, not outsourcing or offshoring
 
@@ -89,7 +89,7 @@ It's important to recognize that all-remote is *not* a synonym for outsourcing o
 
 GitLab believes that [in-person interactions]({{< ref "./in-person" >}}) are valuable. We are intentional about gathering the entire team every 9 to 12 months for a shared experience ([GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute)), and we encourage team members to gather in-person for [reimbursed holiday gatherings](https://about.gitlab.com/handbook/spending-company-money#year-end-holiday-party-budget), [GitLab Commit](https://about.gitlab.com/events/commit) events, and other opportunities such as conferences and trade shows.
 
-GitLab also gathers its [e-group]({{< ref "structure#e-group" >}}) for a [quarterly four-day offsite]({{< ref "offsite" >}}). These offsites are planned and highly structured as to create exceptional efficiencies. The agenda, takeaways, and changes are all documented for the rest of the company to see, with broader company discussion in a dedicated `#e-group` Slack channel. This is intentionally designed to be [transparent]({{< ref "values#transparency" >}}).
+GitLab also gathers its [e-group]({{< ref "structure#e-group" >}}) for a [quarterly four-day offsite]({{< ref "offsite" >}}). These offsites are planned and highly structured as to create exceptional efficiencies. The agenda, takeaways, and changes are all documented for the rest of the company to see, with broader company discussion in a dedicated `#e-group` Slack channel. This is intentionally designed to be [transparent](/handbook/values/#transparency).
 
 There is a marked difference between being intentional and selective about in-person interactions, and forcing a team to endure a daily commute.
 
@@ -102,7 +102,7 @@ We feel that terminology is important when detailing the future of work. Brushin
 
 ## Alternative terms that miss the mark
 
-Remote is fundamentally about *freedom* and *individual choice*. At GitLab, we [value your results]({{< ref "values#results" >}}), regardless of where you get your work done.
+Remote is fundamentally about *freedom* and *individual choice*. At GitLab, we [value your results](/handbook/values/#results), regardless of where you get your work done.
 
 {{< youtube "jdN5mj5ieLk?start=2115" >}}
 
@@ -144,6 +144,6 @@ For added context, consider reading GitLab's guide on the [various stages of rem
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

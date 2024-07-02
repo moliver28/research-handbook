@@ -4,16 +4,11 @@ title: Front End Plan Team
 
 ## Frontend Plan Team
 
-The Frontend Plan team works on the frontend part of GitLab for the [Plan
-stage]. Among other things, this means working on GitLab's issue tracker,
-[portfolio management features], and [Markdown rendering].
+The Frontend Plan team works on the frontend part of GitLab for the [Plan stage](https://about.gitlab.com/stages-devops-lifecycle/#plan). Among other things, this means working on GitLab's issue tracker,
+[portfolio management features](https://about.gitlab.com/solutions/agile-delivery/), and [Markdown rendering](https://docs.gitlab.com/ee/user/markdown.html).
 
 For more details about the vision for this area of the product, see the [Plan
 stage] page.
-
-[Plan stage]: /stages-devops-lifecycle/plan/
-[Markdown rendering]: https://docs.gitlab.com/ee/user/markdown.html
-[portfolio management features]: /solutions/agile-delivery/
 
 ## Team Members
 
@@ -42,22 +37,16 @@ outside of their speciality.
 
 ## Work
 
-You can see how we work as a stage at the [Plan stage page].
+You can see how we work as a stage at the [Plan stage page](/handbook/product/categories/#plan-stage).
 
-Like the [backend team], we use the standard GitLab [engineering workflow]. To
+Like the [backend team](/handbook/engineering/development/dev/plan/project-management/), we use the standard GitLab [engineering workflow](/handbook/engineering/workflow/). To
 get in touch with the Plan frontend team, it's best to create an issue in the
-relevant project (typically [GitLab]) and add the ~"devops::plan" and
+relevant project (typically [GitLab](https://gitlab.com/gitlab-org/gitlab)) and add the ~"devops::plan" and
 ~"frontend" labels, along with any other appropriate labels. Then, feel free to
 ping the relevant Product Manager and/or Frontend Engineering Manager as listed
 above.
 
-For more urgent items, feel free to also share the issue in [#s_plan] on Slack.
-
-[Intern]: /handbook/engineering/development/dev/fe-plan/internship
-[Plan stage page]: /handbook/product/categories/#plan-stage
-[backend team]: /handbook/engineering/development/dev/plan-project-management/
-[engineering workflow]: /handbook/engineering/workflow/
-[GitLab]: https://gitlab.com/gitlab-org/gitlab
+For more urgent items, feel free to also share the issue in [#s_plan](https://gitlab.slack.com/archives/s_plan) on Slack.
 
 ### Capacity Planning
 
@@ -81,8 +70,7 @@ issue. If there are differences in weights, the highest weight will be used.
 
 ### Picking something to work on
 
-The Plan FE stage works off of two boards, depending on the group: [Project
-Management] and [Product Planning]
+The Plan FE stage works off of two boards, depending on the group: [Project Management](https://gitlab.com/groups/gitlab-org/-/boards/1285239?label_name[]=group%3A%3Aproject%20management) and [Product Planning](https://gitlab.com/groups/gitlab-org/-/boards/1569369?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Aplan&label_name[]=group%3A%3Aproduct%20planning&not[milestone_title]=Backlog)
 
 When deciding the next issue to take, frontend engineers should prioritize by
 the following:
@@ -104,9 +92,6 @@ the issue should be better specified.
 When you pick something to work on, please assign the issue to yourself and
 add the ~"workflow::In dev" label.
 
-[Project Management]: https://gitlab.com/groups/gitlab-org/-/boards/1285239?label_name[]=group%3A%3Aproject%20management
-[Product Planning]: https://gitlab.com/groups/gitlab-org/-/boards/1569369?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Aplan&label_name[]=group%3A%3Aproduct%20planning&not[milestone_title]=Backlog
-
 #### High Severity Issues
 
 {{% include "includes/engineering/plan/high-severity-items.md" %}}
@@ -121,7 +106,7 @@ the PM of the group so they are able to reprioritize if necessary.
 
 ### Code Reviews
 
-Our [Code Review Guidelines] state that we default to assigning reviews to team
+Our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html) state that we default to assigning reviews to team
 members with domain expertise. A domain can be an area of the codebase that a
 team is responsible for, so frontend engineers within the Plan stage are
 considered domain experts for Issues, Epics, and all other areas of Plan.
@@ -142,10 +127,7 @@ assisting another team) review can and should go to an engineer on another team
 - If an MR touches code that Plan uses, but that is also used by another team,
 one review (either reviewer or maintainer) should be done by the other team. An
 example is with changes to notes, where responsibility is shared between
-[Create:Source Code] and Plan.
-
-[Code Review Guidelines]: https://docs.gitlab.com/ee/development/code_review.html
-[Create:Source Code]: /handbook/engineering/frontend/create/
+[Create:Source Code](/handbook/engineering/frontend/create/) and Plan.
 
 ### Iterations
 
@@ -156,13 +138,7 @@ accomplished during the week.
 
 ## Useful links
 
-* [Plan frontend board] - this shows work in the current release
-* [#s_plan] in Slack
-* [Recorded meetings][youtube]
-* [Retrospectives][retros]
-
-[Plan frontend board]: https://gitlab.com/groups/gitlab-org/-/boards/654688
-[#s_plan]: https://gitlab.slack.com/archives/s_plan
-[youtube]: https://www.youtube.com/playlist?list=PLFGfElNsQthaREiE1QwWQtqUv1LYPEuuj
-[retros]: https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective
-
+- [Plan frontend board](https://gitlab.com/groups/gitlab-org/-/boards/654688) - this shows work in the current release
+- [#s_plan](https://gitlab.slack.com/archives/s_plan) in Slack
+- [Recorded meetings](https://www.youtube.com/playlist?list=PLFGfElNsQthaREiE1QwWQtqUv1LYPEuuj)
+- [Retrospectives](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective)

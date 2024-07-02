@@ -1,14 +1,14 @@
 ---
 aliases: /handbook/customer-success/professional-services-engineering/SKUs
 title: "PS Standard SKUs"
-description: “Discover GitLab’s Professional Services Standard SKUs”
+description: "Discover GitLab's Professional Services Standard SKUs"
 ---
 
 Some Professional Services Offerings, such as non-customized Education Services courses, Rapid Results implementations, and other out-of-the-box implementation packages can be sold as a standard SKU. Professional Services SKUs can be easily added to an order within Zuora and do not require creation of a custom SOW.
 
 **Important Note:** The GitLab System Administration Basics and GitLab Advanced System Administration courses should always be ordered using the custom SOW process so that we can review the customer's deployment variables and create a custom list of topics for them with the appropriate pricing depending on the scope of the topics needed. Once the trainings are scoped, they can be ordered using the new hourly rate Training SKU for ProServ Education Services in Zuora/SFDC.
 
-Below are the current SKUs broken out by services category. For a detailed list including pricing see the [Full Catalog](/services/catalog/) page.
+Below are the current SKUs broken out by services category. For a detailed list including pricing see the [Full Catalog](https://about.gitlab.com/services/catalog/) page.
 
 ### Implementation and Integration Services Standard SKUs
 
@@ -31,6 +31,7 @@ Here are answers to anticipated frequently-asked questions.
 {{% sku-tables categories="Education" maturities="Viable,Lovable,Minimal" stages=true %}}
 
 #### Planned SKUs
+
 We are planning to release additional Education Services SKUs designed to increase our scale and reach to GitLab customers. For details review the issues in the [Education Services Project](https://gitlab.com/gitlab-com/customer-success/professional-services-group/education-services).
 
 ##### Have an idea for a new SKU?

@@ -25,8 +25,8 @@ This workshop is intended to provide enablement for new or existing customers th
 The goal of the discovery questions is to help your customer tie this back to a larger initiative and identify a champion who will sponsor their efforts. The champion is who you will be running Session 1 with.
 
 - Tell me about your use case for innersource. Does it show up explicitly in a transformation or company goal?
-- What is it that you’re hoping InnerSource will accomplish for your company? What outcome?
-- How is source code classified within your company? (i.e. “highly secure”/least privilege?)
+- What is it that you're hoping InnerSource will accomplish for your company? What outcome?
+- How is source code classified within your company? (i.e. "highly secure"/least privilege?)
 - What do you use for secrets management and secrets detection?
 - Who is championing innersource?
 - Do you have a use case in mind?
@@ -45,4 +45,3 @@ Some feedback that we've heard is if GitLab could provide examples of good Inner
 - **Executive Overview** [Session 1: InnerSource Quick Start w/GitLab slides](https://docs.google.com/presentation/d/1O_MBH5_NHfKvDcWrdaHx_tmfUWWRkc3xnvMBWdikwIA/edit#slide=id.gcb47225958_0_1126)
 - **Hands-On Workshop** [Session 2: InnerSource Workshop](https://docs.google.com/presentation/d/1PauUr2hczbWNb7D5xvEGkMo5h4w1KGORnE2thgYiQZg/edit#slide=id.gfd8e70f97a_0_295)
 - [Demo project](https://cs.gitlabdemo.cloud/innersource/demo) that was leveraged in the InnerSource webinar
-

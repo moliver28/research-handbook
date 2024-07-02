@@ -1,13 +1,6 @@
 ---
-
 title: Database Engineering
 ---
-
-
-
-
-
-
 
 This page is dedicated to database application engineering and provides an entry-point for resources on this topic.
 
@@ -40,26 +33,26 @@ The Database Maintainer role:
 * It is not expected to participate in incident management issues.
 * Adheres to the [review turnaround time](https://docs.gitlab.com/ee/development/code_review.html#review-turnaround-time) of 2 working days.
 
-If you're interested in participating in database reviews, please start by reviewing the [the Database maintainer process](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/handbook/engineering/workflow/code-review/index.md#project-maintainer-process-for-gitlab-database) which contains all the resources for a reviewer.
+If you're interested in participating in database reviews, please start by reviewing [the Database maintainer process](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/handbook/engineering/workflow/code-review/index.md#project-maintainer-process-for-gitlab-database) which contains all the resources for a reviewer.
 
 ## Recommended links and reference materials
 
-##### GitLab resources
+### GitLab resources
 
 * Database Office Hours are bi-weekly and can be found on the [GitLab Team Meetings Calendar](/handbook/tools-and-tips/#gitlab-team-meetings-calendar)
 * Database Office Hours playlist on GitLab Unfiltered under the [Database Office Hours Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kp-kqXeiF7fF7cFYaKtdqXM)
 
-##### Books
+### Books
 
 *(In no particular order.)*
 
 * I. Ahmed, G. Smith et al: "[PostgreSQL 10 High Performance: Expert techniques for query optimization, high availability, and efficient database maintenance.](https://www.amazon.com/dp/1788474481)" (2018)
 * Hans-Jürgen Schönig: "[Mastering PostgreSQL 11](https://www.amazon.com/Mastering-PostgreSQL-techniques-fault-tolerant-applications/dp/1789537819)" (2018)
 * Markus Winand: "[SQL Performance Explained](https://sql-performance-explained.com/)"
-* Dimitri Fontaine: "[The Art of PostgreSQL](https://theartofpostgresql.com/)" - [Virtual training is available for GitLab team members.](https://gitlab.com/gitlab-org/database-team/team-tasks/-/issues/23) 
+* Dimitri Fontaine: "[The Art of PostgreSQL](https://theartofpostgresql.com/)" - [Virtual training is available for GitLab team members.](https://gitlab.com/gitlab-org/database-team/team-tasks/-/issues/23)
 * Alex Petrov: "[Database Internals](https://www.databass.dev/)"
 
-##### Other resources
+### Other resources
 
 * [Official PostgreSQL mailinglists](https://www.postgresql.org/list/), particularly `pgsql-general`
 * [Postgres Weekly](https://postgresweekly.com)

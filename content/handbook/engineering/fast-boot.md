@@ -1,13 +1,6 @@
 ---
-
 title: Fast Boot
 ---
-
-
-
-
-
-
 
 A Fast Boot is an event that gathers the members of a team or group in one
 physical location to work together and bond in order to accelerate the
@@ -36,7 +29,7 @@ time and establish and strengthen relationships between team members.
 
 ## How should you get approval?
 
-First raise the idea with your manager to determine if there’s a good case
+First raise the idea with your manager to determine if there's a good case
 for a Fast Boot. Ultimately, the executive team will approve these on a case
 by case basis.
 

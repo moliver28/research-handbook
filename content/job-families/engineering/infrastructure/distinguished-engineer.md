@@ -33,7 +33,7 @@ The Distinguished Engineer is a [grade 10](/handbook/total-rewards/compensation/
 #### Technical
 
 - Deep and broad knowledge of current and emerging technologies that affect the business
-- Expert on GitLab’s product, architecture and workflow at both typical and large scale
+- Expert on GitLab's product, architecture and workflow at both typical and large scale
 - Expert in designing, implementing, and troubleshooting major portions of a production stack
 
 #### Communication
@@ -116,4 +116,4 @@ Share our company values, and work in accordance with those values.
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

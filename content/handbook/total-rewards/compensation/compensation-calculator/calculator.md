@@ -1,5 +1,4 @@
 ---
-
 title: Compensation Calculator
 manual_cookiebot: true
 ---

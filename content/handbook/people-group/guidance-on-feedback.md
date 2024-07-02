@@ -53,7 +53,7 @@ Sid (GitLab CEO and Co-founder) and the Learning & Development team discussed gu
 
 ### Embracing Feedback
 
-“In teamwork, silence isn’t golden, it’s deadly.“ ~Mark Sanborn
+"In teamwork, silence isn't golden, it's deadly." ~Mark Sanborn
 
 The habit of seeking feedback may not be easy to develop, but failing to seek honest input from your team can have a significant impact on GitLab's culture. Patrick Lencioni, author of [The Five Dysfunctions of a Team (2002)](https://www.tablegroup.com/books/dysfunctions), cites these consequences of ignoring feedback:
 
@@ -69,7 +69,7 @@ Watch as [Dr. Jeb Hurley](https://linkedin.com/in/jebhurley), Co-founder of Xmet
 
 ### Hard Conversations
 
-Difficult and constructive feedback is valuable when delivered with compassion. It's important to consider the individual recieving the feedback and anticipate how they might react. As explained in [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}), if the person feels threatened, they might shift into Silence or Verbal Violence.
+Difficult and constructive feedback is valuable when delivered with compassion. It's important to consider the individual recieving the feedback and anticipate how they might react. As explained in [Crucial Conversations](/handbook/leadership/crucial-conversations), if the person feels threatened, they might shift into Silence or Verbal Violence.
 
 To optimize for a open, honest, and effective conversation, reflection on the following before sharing difficult feedback:
 
@@ -82,11 +82,11 @@ Preparing for hard conversations is important, tips [in this article](https://ps
 
 ### Radical candor
 
-Radical Candor is a framework about HOW to deliver feedback. It’s a powerful, assertive, and caring place that demonstrates to an individual that you both care about them personally and that you’re willing to challenge them directly. When you’re not caring personally or challenging directly, it can lead to Ruinous Empathy, Manipulative Insincerity, or Obnoxious Aggression.
+Radical Candor is a framework about HOW to deliver feedback. It's a powerful, assertive, and caring place that demonstrates to an individual that you both care about them personally and that you're willing to challenge them directly. When you're not caring personally or challenging directly, it can lead to Ruinous Empathy, Manipulative Insincerity, or Obnoxious Aggression.
 
 - [Radical Candor — The Surprising Secret to Being a Good Boss First Round Review](https://www.youtube.com/watch?v=4yODalLQ2lM)
 - [How To Use Radical Candor To Drive Great Results](https://www.forbes.com/sites/roncarucci/2017/03/14/how-to-use-radical-candor-to-drive-great-results/?sh=39085db24e23)
-- [Brutal Honesty and Radical Candor: 6 Ways You’re Getting Radical Candor Wrong and 6 Ways to Get It Right](https://www.radicalcandor.com/blog/radical-candor-not-brutal-honesty/)
+- [Brutal Honesty and Radical Candor: 6 Ways You're Getting Radical Candor Wrong and 6 Ways to Get It Right](https://www.radicalcandor.com/blog/radical-candor-not-brutal-honesty/)
 
 ### Cross-Cultural Feedback Considerations
 
@@ -109,13 +109,13 @@ It's safer to give and receive feedback from those with whom you have already es
 
 ## Giving Feedback
 
-![Feedback Image](/images/Training/Feedback_Image.png)
+![Feedback Image](/images/handbook/Training/Feedback_Image.png)
 
 1. Have positive intent
    - If you have the intent to hurt someone and not to help them, reconsider giving the feedback.
    - Harsh feedback does not help people thrive and excel.
 1. Make it a frequent event and do it in real time
-   - Don’t wait until performance reviews to deliver
+   - Don't wait until performance reviews to deliver
 1. Avoid using absolutes
    - For Example: "You always." "You never show up to meetings on time."
 1. Feedback should be both positive and constructive
@@ -132,7 +132,7 @@ It's safer to give and receive feedback from those with whom you have already es
 1. Focus on actions and outcomes
    - What actions can be taken after getting feedback?
 1. Recognize how communication styles differ
-   - Could the individual’s background affect the way they prefer to receive feedback?
+   - Could the individual's background affect the way they prefer to receive feedback?
    - Read The [Culture Map](https://erinmeyer.com/book/) to understand communication and feedback styles of different countries.
 
 ### S-B-I Model
@@ -143,7 +143,7 @@ The Situation-Behavior-Impact (S-B-I) Model focuses feedback based on:
 
 **Behavior** -  Describe the observable behavior and how it was applied.
 
-**Impact** - Describe how the other person’s action affected you or others experiences and thinking.
+**Impact** - Describe how the other person's action affected you or others experiences and thinking.
 
 For a more in-depth look at how to apply this model see [The Situation-Behavior-Impact-Feedback Framework](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357), an external blog post that has a bit more detail and some examples.
 
@@ -169,7 +169,7 @@ Receiving all types of feedback can be difficult. Our brains want to protect us 
 1. Be respectful
    - Give them your full attention
 1. Ask questions
-   - It’s okay to take time to reflect on it and then come back with questions at a later time
+   - It's okay to take time to reflect on it and then come back with questions at a later time
 1. Show appreciation
    - Say thank you and mean it
 1. Reflect on the feedback
@@ -184,6 +184,7 @@ Receiving all types of feedback can be difficult. Our brains want to protect us 
 {{< youtube "ZdUMoI1jMvI" >}}
 
 *Originally hosted on 2020-02-25*
+
 - [Slide Deck](https://docs.google.com/presentation/d/1yziTxwnAHD6vA1deSPf4DCwGLNYRijAmHiYcdoAxOmo/edit?usp=sharing)
 - [Meeting Agenda](https://docs.google.com/document/d/1k5ja-8qJRMnguVOUOOsMUAQ2PEbXiuDBsbpstJPkSEo/edit?usp=sharing).
 
@@ -222,7 +223,7 @@ Example:
 1. Share an update of the team member(s) recognition during the next team meeting
 1. Highlight the recognition of the team members during a group conversation with the broader organization
 1. Showcase the recognition during an e-group meeting to executives
-1. Consider a [discretionary bonus per team member](/handbook/incentives/) as a form of superior recognition
+1. Consider a [discretionary bonus per team member](/handbook/total-rewards/incentives/) as a form of superior recognition
 1. Managers can also recognize team members during 1-1 meetings
 1. Quarterly [Skip Level](/handbook/leadership/skip-levels/) Meetings.
 
@@ -246,7 +247,6 @@ Take a moment to identify situations in which you or your team are saying "Thank
 - [Coaching Feedback Model](https://www.coachingcultureatwork.com/coaching-feedback-model/)
 - COIN & COILED feedback models - [World of Work Project Article](https://worldofwork.io/2019/07/the-coin-coiled-feedback-models/), 3 minute LinkedIn Learning [video](https://www.linkedin.com/learning/coaching-virtually/use-the-coin-model-to-give-feedback-virtually?u=2255073) on COIN.
 - CEDAR Feedback model - introduction and overview from [join.com](https://join.com/recruitment-hr-blog/feedback-models#6thecedarfeedbackmodel:~:text=6.%20The%20CEDAR,way%20of%20working), and a more comprehensive article and sample conversation at [World of Work Project](https://worldofwork.io/2019/07/the-cedar-feedback-model/)
-
 
 ## Modeling a Culture of Feedback Manager Competency
 

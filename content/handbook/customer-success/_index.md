@@ -1,5 +1,4 @@
 ---
-
 title: Customer Success
 description: >-
   The Customer Success department is part of the GitLab Sales function who
@@ -10,21 +9,15 @@ The Customer Success department is part of the [GitLab Sales](/handbook/sales/) 
 
 The team can be reached in [Slack channel](https://gitlab.slack.com/archives/customer-success) (internal only).
 
-
-
-
-
-
-
 ## Mission Statement
 
 To deliver value to all customers by engaging in a consistent, repeatable, scalable way across defined segments so that customers see the value in their investment with GitLab, and we retain and drive growth within our enterprise customers.
 
 - The mission of the Customer Success Department is to provide these customers with experience in order to:
-    - Accelerate initial customer value
-    - Maximize long-term, sustainable customer value
-    - Improve overall customer satisfaction & referenceability
-    - Maximize the total value of the customer to GitLab
+  - Accelerate initial customer value
+  - Maximize long-term, sustainable customer value
+  - Improve overall customer satisfaction & referenceability
+  - Maximize the total value of the customer to GitLab
 
 ## Vision Page
 
@@ -52,7 +45,7 @@ Ensuring paying customers are successful in their onboarding in order to gain ad
 
 ### Initiative: Usage
 
-Collecting and making use of customer data and insights is key to customer success. It’s important to do more with data and when necessary share back with customers, which in turn helps and encourages our customers to improve and drive adoption.
+Collecting and making use of customer data and insights is key to customer success. It's important to do more with data and when necessary share back with customers, which in turn helps and encourages our customers to improve and drive adoption.
 
 ### Initiative: Performance
 
@@ -72,7 +65,7 @@ See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-t
 
 ### Solutions Architects
 
-- [Solutions Architects handbook](/handbook/customer-success/solutions-architects/)
+- [Solutions Architects handbook](/handbook/solutions-architects/)
 - [Public Sector Solutions Architects handbook](/handbook/customer-success/public-sector/solutions-architects/)
 
 ### Professional Services
@@ -87,7 +80,6 @@ See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-t
 ### Renewals Managers
 
 - [Renewals Managers handbook](/handbook/customer-success/renewals-managers/home)
-
 
 ### Demo Systems
 
@@ -121,7 +113,7 @@ CSM-Created, Enablement Focus:
 
 SA-Created, Hands-On Focus:
 
-- [Hands-On Workshops](/handbook/customer-success/solutions-architects/tools-and-resources/#hands-on-workshops)
+- [Hands-On Workshops](/handbook/solutions-architects/tools-and-resources/#hands-on-workshops)
 
 ### Using Salesforce within Customer Success
 
@@ -133,7 +125,7 @@ Visit [this page](/handbook/customer-success/csm/gainsight/) for more informatio
 
 ### Dogfooding
 
-Outside of Engineering the Customer Success team has the largest concentration of tooling development capability. The team has unique needs that can't always be solved by GitLab's single [DevOps platform](/solutions/devops-platform/). However, it is important to [dogfood](/handbook/values/#dogfooding) and avoid [dogfooding anti-patterns](/handbook/engineering/development/principles/#dogfooding-antipatterns). As a result the [Product organization heavily weights internal customers](/handbook/values/#dogfooding) when considering prioritization. If you are considering building tooling in support of Customer Success priorities outside of GitLab, please follow the [dogfooding process](/handbook/values/#dogfooding).
+Outside of Engineering the Customer Success team has the largest concentration of tooling development capability. The team has unique needs that can't always be solved by GitLab's single [DevOps platform](https://about.gitlab.com/solutions/devops-platform/). However, it is important to [dogfood](/handbook/values/#dogfooding) and avoid [dogfooding anti-patterns](/handbook/engineering/development/principles/#dogfooding-antipatterns). As a result the [Product organization heavily weights internal customers](/handbook/values/#dogfooding) when considering prioritization. If you are considering building tooling in support of Customer Success priorities outside of GitLab, please follow the [dogfooding process](/handbook/values/#dogfooding).
 
 ### Customer Success AWS Test Account
 
@@ -180,10 +172,10 @@ Customer Success team members maintain a [FAQ](/handbook/customer-success/faq/) 
 - [Sales Skills Best Practices](/handbook/sales/training/)
 - [Sales Discovery Questions](/handbook/sales/qualification-questions/)
 - [EE Product Qualification Questions](/handbook/sales/qualification-questions/)
-- [GitLab Positioning](/handbook/positioning-faq/)
+- [GitLab Positioning](/handbook/marketing/positioning-faq/)
 - [FAQ from prospects](/handbook/sales/faq-from-prospects/)
-- [Client Use Cases](/handbook/use-cases/)
-- [Proof of Value Guidelines](/handbook/customer-success/solutions-architects/tools-and-resources/pov)
+- [Client Use Cases](/handbook/marketing/use-cases/)
+- [Proof of Value Guidelines](/handbook/solutions-architects/tools-and-resources/pov)
 - [Account Planning Template for Large/Strategic Accounts](https://docs.google.com/presentation/d/1yQ6W7I30I4gW5Vi-TURIz8ZxnmL88uksCl0u9oyRrew/edit?ts=58b89146#slide=id.g1c9fcf1d5b_0_24))
 - [Sales Demo](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/)
 - [Sales Development Group Handbook](/handbook/marketing/sales-development/)
@@ -199,4 +191,3 @@ Customer Success has a few standing meetings:
 - Quarterly Reverse AMA with Sakamoto and Female+ Team Members
 
 The different groups within CS also have standing meetings, including meetings for the SAs, PS, and CSMs groups, regional groups, and social calls.
-

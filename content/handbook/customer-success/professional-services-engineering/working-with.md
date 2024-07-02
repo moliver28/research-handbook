@@ -1,15 +1,8 @@
 ---
-
 title: "Working with Professional Services"
 description: "Discover how to work with the GitLab Professional Services Team."
 
 ---
-
-
-
-
-
-
 
 ### How to Contact Professional Services
 
@@ -69,18 +62,19 @@ Often we are asked "what is your lead time for getting started with a project" o
 As there may be many projects and proposals in flight at any time, there are a few rules we use when prioritizing and scheduling engagements:
 
 - No engagement schedule can be committed to until the PS Opportunity is closed/ won and the PS Operations team has scheduled the project. While we can make a good faith effort to try and match a schedule ahead of that time, to be fair to customers who have committed to a services engagement we must prioritize those first.
-- Please, check with the PS Operations Team by tagging the group `@ps-scheduling` for the latest lead time details in the [professional services slack channel](#slack) if you need a more accurate estimate.  
+- Please, check with the PS Operations Team by tagging the group `@ps-scheduling` for the latest lead time details in the [professional services slack channel](#slack) if you need a more accurate estimate.
 - The PS Operations team does review projects that are SFDC Stage 5.  As we strive to start the projects within days of the SFDC Stage of closed/won.
-
 
 #### Custom services SOW creation and approval
 
 When scoping custom SOWs, the Professional Services Engagement Manager partners with the SA/CSM/SAE to create a custom engagement that will help meet the customer's needs, and push the SOW through the appropriate approval process. All Custom SOW's will require approval from PS Leadership.
 
 ##### Estimate creation
+
 - The account team (SAE/ISR/SA/CSM) can initiate the process by creating a new scoping issue via the [Services Calculator](https://services-calculator.gitlab.io/). Through this process they will be asked some high-level questions, and a SSOT table will arrive in the issue to drive the scoping process. The SA/CSM should work with the Customer initially to complete this as well as they can. The Professional Services Engagement Manager will then create an Estimate based upon the inputs provided, and provide a link for review.
 
 ##### SOW creation
+
 - Once the Estimate has been reviewed by the account team and Customer, any feedback received, and refinement made, we can then move to generating the SOW. As part of the scoping issue, the Engagement Manager will need to understand whether there is an MSA in place, or standard terms are to be used.
 - We prefer customers to mark up our agreement and SOW document if they request changes. If they require the use of their own services terms or SOW, please contact the PS team.
 
@@ -101,7 +95,6 @@ The labels are (from left to right):
 - `proposal::SOW_WIP`: The Engagement Manager is drafting the SOW and preparing a [Cost Estimate](/handbook/customer-success/vision/#professional-services-standard-cost) using the [SOW Cost Estimate Calculator](https://docs.google.com/spreadsheets/d/16KFNRFe4E_oaqU7_ZGivoO7eU3-65dkMgVvK5Jvb7ZQ/edit#gid=158441360) for margin calculation purposes
 - `proposal::Ready For Approval`: The Engagement Manager has prepared the required SOW, and triggered the approval requests. Approvals are now required prior to releasing the SOW.
 - `proposal::Approved`: The SOW is now approved, and ready for execution. The SAE/AE should gain a Legal stamp via a Legal Case in SFDC before releasing the SOW for signature.
-
 
 ### Scheduling Professional Services
 

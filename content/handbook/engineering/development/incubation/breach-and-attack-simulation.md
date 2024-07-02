@@ -1,13 +1,6 @@
 ---
-
 title: Breach and Attack Simulation (BAS) Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## Breach and Attack Simulation (BAS) Single-Engineer Group
 
@@ -63,8 +56,8 @@ Inside of GitLab CI we're able to leverage the following:
 The following tools could come in handy for port scanning or subdomain enumeration phases of reconnaissance:
 
 * Automated tools such as [Flan Scan](https://github.com/cloudflare/flan)?
-* [subfinder][] allows enumeration of subdomains.
-* [naabu][] allows quick enumeration of available ports for a list of hosts.
+* [subfinder](https://github.com/projectdiscovery/subfinder) allows enumeration of subdomains.
+* [naabu](https://github.com/projectdiscovery/naabu) allows quick enumeration of available ports for a list of hosts.
 
 #### External Penetration
 
@@ -93,7 +86,7 @@ Once an attacker has compromised an asset in a network they gain even further ne
 In main cases attackers are looking for data or sensitive information they can use for further compromise or financial gain. In many cases network access is restricted so obfuscation or unconventional methods must be used to get this data off of the target network.
 
 To confirm exfiltration we could set up listeners on DNS, TCP, HTTP, etc. to confirm we can initiate egress including unique identifiers.
-One such tool we could leverage is [interactsh][] which is designed for testing out-of-band (OOB) interactions.
+One such tool we could leverage is [interactsh](https://github.com/projectdiscovery/interactsh) which is designed for testing out-of-band (OOB) interactions.
 
 Progress of this portion can be monitored in this issue at [gitlab-org/gitlab#333751](https://gitlab.com/gitlab-org/gitlab/-/issues/333751).
 
@@ -127,7 +120,7 @@ Data sets:
 * Subdomain brute forcing
 * URL collection/datasets
 
-The first iteration where can immediately add value is to provide our users with asset discovery/attack surface & inventories. 
+The first iteration where can immediately add value is to provide our users with asset discovery/attack surface & inventories.
 
 ### Jobs to be Done
 
@@ -146,25 +139,20 @@ Utilize JTBD and job statements to:
 
 | Job statements | Maturity | Research | Roadmap |
 |----------------|----------|----------|---------|
-| When configure run security scans, I want to run curated attack scenarios, so that I don't need to verify each individual vulnerability manually. | ![Category Maturity Scorecard Score: Unknown][] | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/7) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/8) |
+| When configure run security scans, I want to run curated attack scenarios, so that I don't need to verify each individual vulnerability manually. | ![Category Maturity Scorecard Score: Unknown](https://img.shields.io/badge/CM%20Score-—-777777?style=for-the-badge) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/7) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/8) |
 
 #### Report on attack scenarios
 
 | Job statements | Maturity | Research | Roadmap |
 |----------------|----------|----------|---------|
-| When I have performed a DAST scan, I want to view exploited vulnerabilities, so I can prioritize remediation and mitigation. | ![Category Maturity Scorecard Score: Unknown][] | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/9) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/10) |
-| When I have performed a non-DAST scan, I want to view exploited vulnerabilities, so I can prioritize remediation and mitigation. | ![Category Maturity Scorecard Score: Unknown][] | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/12) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/11) |
+| When I have performed a DAST scan, I want to view exploited vulnerabilities, so I can prioritize remediation and mitigation. | ![Category Maturity Scorecard Score: Unknown](https://img.shields.io/badge/CM%20Score-—-777777?style=for-the-badge) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/9) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/10) |
+| When I have performed a non-DAST scan, I want to view exploited vulnerabilities, so I can prioritize remediation and mitigation. | ![Category Maturity Scorecard Score: Unknown](https://img.shields.io/badge/CM%20Score-—-777777?style=for-the-badge) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/12) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/11) |
 
 #### Simulate attack scenarios
 
 | Job statements | Maturity | Research | Roadmap |
 |----------------|----------|----------|---------|
-| When I run my service inside a GitLab CI Service container, I want to simulate attacks, so that I can see which detected vulnerabilities are exploitable. | ![Category Maturity Scorecard Score: Unknown][] | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/13) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/14) |
-| When I run my service inside a pre-production environment, I want to simulate attacks against my own Kubernetes environment, so that I can see which detected vulnerabilities are exploitable. | ![Category Maturity Scorecard Score: Unknown][] | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/15) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/16) |
-| When I have successfully simulated an attack, I want to call out to a dedicated callback server, so that I can simulate exfiltration of data. | ![Category Maturity Scorecard Score: Unknown][] | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/18) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/17) |
-| When I have successfully simulated an attack, I want to detect accessible services on the network, so that I can view lateral movement potential. | ![Category Maturity Scorecard Score: Unknown][] | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/20) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/19) |
-
-[Category Maturity Scorecard Score: Unknown]: https://img.shields.io/badge/CM%20Score-—-777777?style=for-the-badge
-[interactsh]: https://github.com/projectdiscovery/interactsh
-[naabu]: https://github.com/projectdiscovery/naabu
-[subfinder]: https://github.com/projectdiscovery/subfinder
+| When I run my service inside a GitLab CI Service container, I want to simulate attacks, so that I can see which detected vulnerabilities are exploitable. | ![Category Maturity Scorecard Score: Unknown](https://img.shields.io/badge/CM%20Score-—-777777?style=for-the-badge) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/13) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/14) |
+| When I run my service inside a pre-production environment, I want to simulate attacks against my own Kubernetes environment, so that I can see which detected vulnerabilities are exploitable. | ![Category Maturity Scorecard Score: Unknown](https://img.shields.io/badge/CM%20Score-—-777777?style=for-the-badge) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/15) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/16) |
+| When I have successfully simulated an attack, I want to call out to a dedicated callback server, so that I can simulate exfiltration of data. | ![Category Maturity Scorecard Score: Unknown](https://img.shields.io/badge/CM%20Score-—-777777?style=for-the-badge) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/18) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/17) |
+| When I have successfully simulated an attack, I want to detect accessible services on the network, so that I can view lateral movement potential. | ![Category Maturity Scorecard Score: Unknown](https://img.shields.io/badge/CM%20Score-—-777777?style=for-the-badge) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/20) | [Issue](https://gitlab.com/gitlab-org/incubation-engineering/breach-and-attack-simulation/meta/-/issues/19) |

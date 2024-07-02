@@ -17,22 +17,22 @@ the org, or your username, depending on where the package is hosted. For example
 For the purpose of this workflow, our package will not do anything special since it will not have any functionality other than to confirm it's been installed. As a result, we will
 only need a `package.json` file.
 
-##### Step 1: Create a directory for your package
+### Step 1: Create a directory for your package
 
 - `mkdir npm-package`
 
-##### Step 2: Initialize the project on git
+### Step 2: Initialize the project on git
 
 - `git init`
 - `git remote add origin <your_git_url>`
 
-##### Step 3: Navigate to the npm-package directory and initialize the npm package under your org/username
+### Step 3: Navigate to the npm-package directory and initialize the npm package under your org/username
 
 This will create a `package.json`
 
 - `npm init --scope=<your_group/username>`
 
-##### Step 4, follow the steps in the prompt
+### Step 4, follow the steps in the prompt
 
 You don't need to add a license, keyword etc. All that matters it that:
 
@@ -47,12 +47,12 @@ You don't need to add a license, keyword etc. All that matters it that:
 The `npmrc` file is one of the locations where npm gets its settings. In our case, the configuration, per the official [GitLab NPM Registry docs](https://docs.gitlab.com/ee/user/packages/npm_registry/index.html), it will hold is where to look for packages under a particular
 scope, as well as the current user's authentication to push/pull packages.
 
-##### Step 1: Create the ~/.npmrc file
+### Step 1: Create the ~/.npmrc file
 
 - The ~/.npmrc generally lives in the home directory, however, sometimes, it can be created within the project's root directory, but also has no effect on packages that
  are installed globally (`npm install -g`)
 
-##### Step 2: Provision the ~/.npmrc file <a name="create-npmrc-file"></a>
+### Step 2: Provision the ~/.npmrc file <a name="create-npmrc-file"></a>
 
 - Add the registry to your scope, that way npm knows where to look for packages that start with @nameofyourscope.
   Example:
@@ -125,7 +125,7 @@ In order to run a job to publish your package in a job, paste the snippet below 
 ```text
 image: node:latest
 
-# This template assumes you have the following settings configured:
+# This template assumes you have the following settings configured
 # OAUTH Access Token generated and added as an Environment Variable under Project -> Settings -> CI/CD https://docs.gitlab.com/ee/api/oauth2.html
 # Personal Access Token added as an Environment Variable in order to update your package.json with the new version value
 # Your package.json contains the path to your private NPM Registry on GitLab. https://docs.gitlab.com/ee/user/packages/npm_registry/index.html#uploading-packages

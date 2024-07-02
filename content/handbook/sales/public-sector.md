@@ -1,14 +1,7 @@
 ---
-
 title: "Public Sector"
 description: "Public Sector at GitLab"
 ---
-
-
-
-
-
-
 
 ## Government Customers/Contracting
 

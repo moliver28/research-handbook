@@ -14,7 +14,7 @@ Not all forms of remote work are created equal. While hybrid may appear to offer
 
 This page is designed to clarify the differences in workplace experience by individuals who are *remote by default* in an all-remote setting vs. a hybrid-remote setting. This page is *not* designed to compare the in-person experience with the remote experience within a hybrid-remote organization.
 
-It is becoming more common for [job seekers]({{< ref "./jobs" >}}) to weigh [multiple competing offers](https://carta.com/blog/gitlab-interview-covid-19-remote-landscape/). Understanding the [nuanced differences]({{< ref "./evaluate" >}}) in operating within a single-tier environment (all-remote) vs. a multi-tier environment (hybrid-remote) is critical for expectation alignment. Be careful to not assume that all remote offers are equal, thereby simplifying job selection to metrics such as compensation and job title. The job selection process is [intensely personal]({{< ref "./evaluate" >}}), and this guide intends to help those in the process put a more [meaningful value on all-remote benefits](https://about.gitlab.com/blog/2019/08/15/all-remote-is-for-everyone/) (and conversely, arm candidates with data if negotiating a higher salary to compensate for the inbuilt [dysfunction]({{< ref "values#five-dysfunctions" >}}) and inequity present in many hybrid environments).
+It is becoming more common for [job seekers]({{< ref "./jobs" >}}) to weigh [multiple competing offers](https://carta.com/blog/gitlab-interview-covid-19-remote-landscape/). Understanding the [nuanced differences]({{< ref "./evaluate" >}}) in operating within a single-tier environment (all-remote) vs. a multi-tier environment (hybrid-remote) is critical for expectation alignment. Be careful to not assume that all remote offers are equal, thereby simplifying job selection to metrics such as compensation and job title. The job selection process is [intensely personal]({{< ref "./evaluate" >}}), and this guide intends to help those in the process put a more [meaningful value on all-remote benefits](https://about.gitlab.com/blog/2019/08/15/all-remote-is-for-everyone/) (and conversely, arm candidates with data if negotiating a higher salary to compensate for the inbuilt [dysfunction](/handbook/values/#five-dysfunctions) and inequity present in many hybrid environments).
 
 ## Language and terminology
 
@@ -23,6 +23,7 @@ For the purpose of this compare and contrast exercise, we define hybrid-remote a
 Those who are never remote will default to working [office-first]({{< ref "./what-not-to-do" >}}) (e.g. using a [physical whiteboard]({{< ref "./collaboration-and-whiteboarding" >}}) that cannot support remote contribution) and those who are never in the office will miss out on non-transparent work conversations and promotion opportunities.
 
 For deeper dives on this topic, read our guides below.
+
 1. [How to evaluate a remote job]({{< ref "./evaluate" >}})
 1. [The stages of remote work]({{< ref "./stages" >}})
 1. [Hybrid-Remote: understanding nuances and pitfalls]({{< ref "./hybrid-remote" >}})
@@ -38,7 +39,7 @@ For deeper dives on this topic, read our guides below.
 | Ability to [optimize location](https://www.fastcompany.com/90548691/extremely-transparent-and-incredibly-remote-gitlabs-radical-vision-for-the-future-of-work) for something other than a commutable distance to an office |            Yes             |                                    Limited |
 | Avoid [physiological stress of open-plan offices](https://theconversation.com/open-plan-office-noise-increases-stress-and-worsens-mood-weve-measured-the-effects-162843) |            Yes             |                                    Depends |
 | [Equal footing by default]({{< ref "./how-to-work-remote-first" >}}) on access to executives and senior leaders |            Yes             |                                         No |
-| Praise and promotion based on [work output]({{< ref "values#measure-results-not-hours" >}}) vs. "face time" with the right people |            Yes             |                                         No |
+| Praise and promotion based on [work output](/handbook/values/#measure-results-not-hours) vs. "face time" with the right people |            Yes             |                                         No |
 | IT/support applied to everyone equally                       |            Yes             |                                         No |
 | All team members use [digital tools to work, collaborate, and communicate](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/) |            Yes             |                                         No |
 | Freedom from manually chasing information shared during siloed, in-person meetings |            Yes             |                                         No |
@@ -59,13 +60,12 @@ For deeper dives on this topic, read our guides below.
 | Eclectic mix of company-wide [in-person gatherings]({{< ref "./in-person" >}}) (vs. congregating at a standard office) |            Yes             |                                         No |
 | Hearing about watercooler chitchat and perpetual cubical drop-ins from your in-office colleagues |             No             |                                        Yes |
 
-***Learn more through [Life at GitLab]({{< ref "culture#life-at-gitlab" >}}) and our [Out of the Office]({{< ref "./out-of-the-office" >}}) report. If this page resonates with you, visit GitLab's [Career Opportunities](/jobs/).***
+***Learn more through [Life at GitLab]({{< ref "culture#life-at-gitlab" >}}) and our [Out of the Office]({{< ref "./out-of-the-office" >}}) report. If this page resonates with you, visit GitLab's [Career Opportunities](https://about.gitlab.com/jobs/).***
 
 ## Assessing the remote workplace experience
 
 1. [RemoteRated](https://remoterated.com/) seeks to rate and rank organizations based on their remote fluency, cutting through what's advertised and focusing on *actual* team member experience.
 1. While [Glassdoor](https://www.glassdoor.com/) does not yet offer a dedicated `Remote Experience` filter in reviews, you are able to sort by `COVID-19 Related`. This filter increases the chances of reading reviews relevant to one's remote work experience at an organization. It's also helpful to search for `remote` within an organization's Review section. Glassdoor also offers [remote-related content on its blog](https://www.glassdoor.com/blog/tag/remote-work/).
-
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
@@ -75,6 +75,6 @@ For deeper dives on this topic, read our guides below.
 
 GitLab believes that all-remote is the [future of work]({{< ref "./remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page](./).

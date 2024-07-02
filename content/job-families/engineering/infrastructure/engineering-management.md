@@ -145,7 +145,7 @@ The Senior Engineering Manager, Infrastructure is a [grade 9](/handbook/total-re
 - Technical credibility: Past experience as a product engineer and managing teams thereof
 - Management credibility: Past experience (3 to 5 years) as an engineering manager
 - Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Value and exhibit servant-leadership behaviors
 
@@ -284,4 +284,4 @@ The VP Infrastructure, is responsible for ensuring [Infrastructure Performance I
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

@@ -56,7 +56,7 @@ When possible, avoid doing a job interview in a room with other people or in a p
 
 You can have great technology, but if you fail to connect or stay connected during your interview, it can make it difficult to have a productive conversation. Be sure to reset, check, and test your internet connection especially prior to an interview.
 
-If you have challenges with connectivity in your home office, consider asking your interviewer or recruiter whether the company offers [interview accommodations]({{< ref "/handbook/hiring/interviewing#adjustments-to-our-interview-process" >}}) such as reimbursing the cost to rent a private office or call booth for the interview.
+If you have challenges with connectivity in your home office, consider asking your interviewer or recruiter whether the company offers [interview accommodations](/handbook/hiring/interviewing#adjustments-to-our-interview-process) such as reimbursing the cost to rent a private office or call booth for the interview.
 
 ## How do you conduct a remote interview?
 
@@ -77,11 +77,11 @@ Before a remote interview, check your front-facing camera or webcam to ensure yo
 
 ### Place
 
-Pick a neutral location that is quiet and comfortable. That way, neither you nor the interviewer will be distracted by your environment. We encourage you to display your [quirkiness]({{< ref "values#diversity-inclusion" >}}) and personality, but for an interview, it's best to avoid chaos.
+Pick a neutral location that is quiet and comfortable. That way, neither you nor the interviewer will be distracted by your environment. We encourage you to display your [quirkiness](/handbook/values/#diversity-inclusion) and personality, but for an interview, it's best to avoid chaos.
 
 ### Practice
 
-To help make a great first impression, prepare by researching the company and reviewing their [handbook and values]({{< ref "/handbook" >}}). Practice answering some [sample interview questions]({{< ref "/handbook/hiring/interviewing#what-to-expect-during-an-interview-with-a-recruiter" >}}) live with a peer or by recording yourself or practicing in a mirror.
+To help make a great first impression, prepare by researching the company and reviewing their [handbook and values](/handbook). Practice answering some [sample interview questions](/handbook/hiring/interviewing#what-to-expect-during-an-interview-with-a-recruiter) live with a peer or by recording yourself or practicing in a mirror.
 
 ## What traits do remote interviewers look for?
 
@@ -90,7 +90,7 @@ In an [all-remote]({{< ref "./hybrid-remote#all-remote-upgrade" >}}) organizatio
 During the interview phase, it's vital to get an understanding of how a potential employee understands and plans to participate effectively in remote work. To be a great remote worker, potential hires should be:
 
 - able to work [asynchronously]({{< ref "./asynchronous" >}})
-- self-disciplined and able to be a [manager of one]({{< ref "values#managers-of-one" >}})
+- self-disciplined and able to be a [manager of one](/handbook/values/#managers-of-one)
 - comfortable with remote communication, much of which is [communicated through text]({{< ref "./effective-communication" >}})
 - ready to engineer an [optimal workspace]({{< ref "./workspace" >}})
 - able to focus and pinpoint both [when and where you prefer to work on a daily basis](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office)
@@ -126,7 +126,7 @@ To answer this question, you first need to unlearn a bit, and change your frame 
 
 For many, it is assumed that culture is simply the aura, energy, or vibe one gets when walking into an office. This is largely driven by decor and personas in the room. It is dangerous to allow company culture to be dictated by such factors, as this will create an oscillating culture that changes depending on mood or socioeconomic conditions.
 
-A company culture is a company's list of values. Culture is an assurance that each employee respects, admires, and feels invested in a company's values, and that leadership works to ensure values are not violated. As GitLab, an operating principle within our Diversity, Inclusion & Belonging  value is "[culture fit is a bad excuse]({{< ref "values#culture-fit-is-a-bad-excuse" >}})."
+A company culture is a company's list of values. Culture is an assurance that each employee respects, admires, and feels invested in a company's values, and that leadership works to ensure values are not violated. As GitLab, an operating principle within our Diversity, Inclusion & Belonging  value is "[culture fit is a bad excuse](/handbook/values/#culture-fit-is-a-bad-excuse)."
 
 Remote interviewers should link a company's values during the interview and have a conversation to assess a candidate's alignment and understanding of those values. Particularly in a remote setting, [values]({{< ref "values" >}}) serve as the north star, guiding every business decision by people you cannot physically see and shaping how colleagues treat one another.
 
@@ -155,7 +155,7 @@ GitLab seeks to learn from others who are embracing remote work. This list of qu
 
 We are working on a submission process for remote companies who want to engage in interviews with GitLab to share their perspective on these questions and more — stay tuned!
 
-1. What’s driving society’s appetite for workplace flexibility and remote opportunities?
+1. What's driving society's appetite for workplace flexibility and remote opportunities?
 1. What qualities are important to look for in new hires as you scale a remote organization?
 1. How does all-remote contribute to people being themselves/vulnerable?
     What benefits have you seen manifest from this?
@@ -165,15 +165,15 @@ We are working on a submission process for remote companies who want to engage i
 1. Do you feel that all-remote organizations contribute to solving cost-of-living, traffic and housing crises in cities like San Francisco and Los Angeles?
 1. Do you feel that all-remote organizations are more inclusive by their nature?
     - Is all-remote a mechanism to tackle ageism in the workplace?
-1. What’s the impact of bringing skilled jobs to rural communities and underserved countries?
+1. What's the impact of bringing skilled jobs to rural communities and underserved countries?
     - What kind of GDP-altering potential is there if all-remote itself is scaled?
 1. Can existing co-located organizations transition to all-remote?
 1. What encouragement would you give new startups today to structure their company as an all-remote entity?
 1. What types of businesses are best suited for all-remote?
 1. Why do employees apply to work in an all-remote culture?
-1. What’s the most important communication channel or practice that you use internally to keep your remote team connected and engaged?
+1. What's the most important communication channel or practice that you use internally to keep your remote team connected and engaged?
 1. What advantages do remote organizations have when it comes to building and sustaining their company culture?
-1. What are some things you’d encourage newly remote employees to do?
+1. What are some things you'd encourage newly remote employees to do?
     - Join a [WiFi Tribe](https://wifitribe.co) digital nomad chapter?
     - Consider relocating (temporarily or permanently)?
     - Working in new time zones?
@@ -214,7 +214,7 @@ If you have yet to work within an all-remote environment, it can be difficult to
 
 *In the [GitLab Unfiltered video](https://youtu.be/QTPeyRW766Q) above, two GitLab team members share their experiences on working in an all-remote setting, providing a glimpse at what's possible when embracing this style of work.*
 
-To provide insight and [transparency]({{< ref "values#transparency" >}}) into the lives of GitLab team members — and give those considering remote work [ideas for structuring their own lives]({{< ref "./resources#blogs-from-gitlab-team-members" >}}) — we ask the below questions in a video interview. While GitLab's entire team is remote, there can be great diversity in answers.
+To provide insight and [transparency](/handbook/values/#transparency) into the lives of GitLab team members — and give those considering remote work [ideas for structuring their own lives]({{< ref "./resources#blogs-from-gitlab-team-members" >}}) — we ask the below questions in a video interview. While GitLab's entire team is remote, there can be great diversity in answers.
 
 1. Who are you, how long have you been at GitLab, and what do you do at GitLab?
 1. What attracted you to GitLab?
@@ -227,6 +227,6 @@ Explore answers from GitLab team members in the [Remote Work playlist](https://w
 
 GitLab team members interested in being interviewed should message [@dmurph](https://gitlab.com/dmurph).
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

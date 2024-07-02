@@ -1,5 +1,4 @@
 ---
-
 title: "Scaled Agile Framework and GitLab"
 description: "The scaled agile framework has evolved to be a common approach for large enterprises adopt agile delivery practices at scale."
 ---
@@ -26,7 +25,7 @@ Boards provide a flexible and dynamic approach to visually manage a project.  He
 
 #### Milestones
 
-Milestones establish a target date for a sprint or specific bundle of issues and code changes to be delivered.  The milestone enables the team to either set a specific Start and Stop for the work, as in a Sprint, or the milestone could be a fixed point in time.  
+Milestones establish a target date for a sprint or specific bundle of issues and code changes to be delivered.  The milestone enables the team to either set a specific Start and Stop for the work, as in a Sprint, or the milestone could be a fixed point in time.
 
 #### Labels
 
@@ -52,7 +51,6 @@ In order to track groups of related projects and issues, the GitLab epic gives p
 
 | The group level issue board makes it possible for oversight and governance of the projects and sub groups.  This view, makes it easy to see how specific issues are flowing through the lifecycle and to understand the overall capacity of the teams. |  ![GitLab Kanban Board](https://about.gitlab.com/images/gitlab-kanban-board.png)‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾ |
 
-
 ## [Scaled Agile Framework](https://v46.scaledagileframework.com/#)
 
 | The scaled agile framework is used by many large enterprises to define, organize, and synchronize the work of multiple agile teams.  Designed to help enable coordination, collaboration, governance and oversight of multiple agile teams in complex environments. | ![SAFe Model Board](/images/solutions/scaled-agile/safe_model.png) ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾ |
@@ -77,9 +75,9 @@ Project level **milestones** are used to define time based sprints. Issues are a
 
 #### [Team Kanban](https://v46.scaledagileframework.com/team-kanban/)
 
-Project **issue board** helps teams to visualize and manage the flow of their work, with the ability to track the overall 'weight' of all the issues assigned to any specific stage in the board.  
+Project **issue board** helps teams to visualize and manage the flow of their work, with the ability to track the overall 'weight' of all the issues assigned to any specific stage in the board.
 
-----------
+---
 
 ### [Program](https://v46.scaledagileframework.com/program-level/)
 
@@ -93,7 +91,7 @@ Agile Release Trains enable cross project collaboration and coordination of work
 
 The Program Increment is a smaller time frame than the Agile Release Train, and is managed in GitLab using **group level boards and labels**.
 
-------
+---
 
 ### [Large Solution](https://v46.scaledagileframework.com/large-solution-level/)
 
@@ -101,12 +99,11 @@ In order to coordinate how multiple dimensions of a complex solution are deliver
 
 #### [Solution Intent](https://v46.scaledagileframework.com/solution-intent/)
 
-
 #### [Solution Train](https://v46.scaledagileframework.com/solution-train/)
 
 Solution Trains enable cross project collaboration and coordination of work to meet specific release targets.   In GitLab, the **Group boards and labels** are used to define specific stages in the solution train and to track how project level issues and merge requests are progressing toward being ready to release.
 
-------
+---
 
 ### [Portfolio](https://v46.scaledagileframework.com/portfolio-level/)
 
@@ -114,7 +111,7 @@ At the top of the Scaled Agile Framework is where portfolio and strategic planni
 
 #### [Strategic Themes](https://v46.scaledagileframework.com/strategic-themes/)
 
-Strategic themes are effectively long term goals and objectives at the portfolio level.  In GitLab, the **Epic** at the group level can be used to define the overall theme.  
+Strategic themes are effectively long term goals and objectives at the portfolio level.  In GitLab, the **Epic** at the group level can be used to define the overall theme.
 
 #### [Epic](https://v46.scaledagileframework.com/epic/)
 

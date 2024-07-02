@@ -91,12 +91,7 @@ The Deal Desk Analyst is a [grade 6](/handbook/total-rewards/compensation/compen
   - Efficiency in resolving issues
   - Transparency in addressing ongoing problems, SLAs, and field expectations
 
-
-
-
-
-
-## Deal Strategist
+### Deal Strategist
 
 The Deal Strategist reports to the Manager, Deal Desk.
 
@@ -136,7 +131,7 @@ The Deal Strategist is a Grade 7
 - Proficiency in SFDC & gSuite
 - Interest in GitLab and open source software; ability to use GitLab"
 
-## Senior Deal Strategist
+### Senior Deal Strategist
 
 The Senior Deal Strategist reports to the Manager, Deal Desk.
 
@@ -179,7 +174,7 @@ The Senior Deal Strategist is a Grade 8
 - Proficiency in SFDC & gSuite
 - Interest in GitLab and open source software; ability to use GitLab
 
-## Manager, Deal Desk
+### Manager, Deal Desk
 
 The Manager, Deal Desk reports to the Senior Manager, Deal Desk.
 
@@ -270,13 +265,7 @@ The Senior Director, Deal Desk is a [grade 11](/handbook/total-rewards/compensat
 - Strong emotional intelligence and experience in multi-layered people management
 - Strong executive presence, ability to tell a story from data but also be succinct
 
-
-
-
-
 ## Specialties
-
-
 
 ## Performance Indicators
 

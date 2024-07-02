@@ -7,7 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-Due to global issues concerning [COVID-19 (Coronavirus)](https://www.cdc.gov/coronavirus/2019-ncov/index.html), many employees and employers are facing a new reality: they're remote, and they’re unsure of when they’ll be able to return to the office.
+Due to global issues concerning [COVID-19 (Coronavirus)](https://www.cdc.gov/coronavirus/2019-ncov/index.html), many employees and employers are facing a new reality: they're remote, and they're unsure of when they'll be able to return to the office.
 
 For **leaders** who are suddenly managing work-from-home teams, there are five things you can focus on right now to maximize stability.
 
@@ -45,7 +45,7 @@ This will be rudimentary to start, and will serve as a [single source of truth](
 
 You can learn more at GitLab's [remote team solutions page]({{< ref "./gitlab-for-remote" >}}).
 
-One of the most sizable challenges when going remote is keeping everyone informed in an efficient way. Put concerted effort around systematically documenting important process changes in a central place to minimize [confusion and dysfunction]({{< ref "values#five-dysfunctions" >}}).
+One of the most sizable challenges when going remote is keeping everyone informed in an efficient way. Put concerted effort around systematically documenting important process changes in a central place to minimize [confusion and dysfunction](/handbook/values/#five-dysfunctions).
 
 ## Establish a communications plan
 
@@ -101,6 +101,6 @@ We recognize that many companies are in need of establishing baseline remote pri
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

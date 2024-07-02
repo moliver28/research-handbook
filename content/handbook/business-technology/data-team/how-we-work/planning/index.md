@@ -1,17 +1,7 @@
 ---
-
 title: "Data Team - Planning Drumbeat"
 description: "GitLab Data Team OKR and Iteration planning process"
 ---
-
-
-
-
-
-
-
-
-
 
 ---
 
@@ -31,6 +21,7 @@ LT = Leadership Team (`@amiebright`, `@iweeks`, `@dvanrooijen2`, `@nmcavinue`) <
 DT = Data team (Product Fusion Team, GTM Fusion Team, BI Platform Team, or Data Platform Team)
 
 The overall ambition is to **structure** why, when and what we are doing.
+
 - OKRs will lead to **why**
 - Work breakdown will lead to **what**
 - Iteration planning will lead to **when**
@@ -70,9 +61,9 @@ Iteration planning should take into consideration:
 The timeline for Iteration planning is as follows:
 
 - Meeting Preparation - Responsible Party: Iteration Planner
-    - Investigate and flesh out open issues.
-    - Assign issues to the iteration based on alignment with the Team Roadmap.
-    - Note: Issues are not assigned to an individual at this stage, except where required.
+  - Investigate and flesh out open issues.
+  - Assign issues to the iteration based on alignment with the Team Roadmap.
+  - Note: Issues are not assigned to an individual at this stage, except where required.
 
 | Day               | Current Iteration                                                                                                                                            | Next Iteration                                                                                                                                                                                                             |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -84,19 +75,20 @@ The timeline for Iteration planning is as follows:
 
 ### Quarterly OKR Planning
 
-Data Team OKRs aspire to align with Business Technology OKRs, Finance Division OKRs, and CEO OKRs, thereby aligning with the OKRs of the Divisions we support. The Data Team also creates OKRs for [Data Platform](/handbook/business-technology/data-team/platform/) infrastructure development and these OKRs may not always map to immediate term Business Partner OKRs. Overall, [OKRs constitute 60-75%](/handbook/business-technology/data-team/how-we-work/#standing-priorities) of the Data Team's Quarterly Capacity, with Production Operations as the only established higher priority.
+Data Team OKRs aspire to align with divisional and company OKRs as well as GitLab Yearlies. The Data Team also creates OKRs for [Data Platform](/handbook/business-technology/data-team/platform/) infrastructure development and these OKRs may not always map to immediate term Business Partner OKRs. Overall, OKRs constitute 60-75% of the Data Team's Quarterly Capacity, with Production Operations as the only established higher priority.
 
-Data Team OKRs are managed with [GitLab Plan](https://about.gitlab.com/direction/plan/) using Epics and Issues using a standard naming scheme and structure and this approach:
+Data Team OKRs are managed with [GitLab Plan](https://about.gitlab.com/direction/plan/) using a combination of Objectives, Key Results, Epics, and Issues using a standard naming scheme and structure and this approach:
+
 - enables async contributions and planning
 - clearly defines Data Team priorities
 - helps to keep Epic and Issue description content to a manageable level
-- supports the [Rolly Bot](/handbook/business-technology/data-team/how-we-work/#weekly-roll-up-reporting) for regular progress reporting
+- leverages KR health statuses for progress reporting
 
 OKRs across the Data Team are written using GitLab's [How to Write OKRs](/handbook/company/okrs/#how-to-write-okrs) handbook page. The below formulas are used to write OKRs:
 
 - Objectives: Verb + What you want to do + In order to/for/so that (what you hope to achieve or rationale for objective). Objective Example: Increase awareness of company in the market in order to increase sales.
 
-- Key Results: Verb + what you’re going to measure + from “x to y”. Key Result Example: 100% of employees certified on OKR expectations and process.
+- Key Results: Verb + what you're going to measure + from "x to y". Key Result Example: 100% of employees certified on OKR expectations and process.
 
 After OKRs have been drafted and shared across the Data Team, they are shared with Business Partner stakeholders for feedback. Once the draft process is complete, three summarized Objectives and KRs are published into the [Business Technology Group Project](https://gitlab.com/groups/gitlab-com/business-technology/) for sharing with the broader Business Technology Team, Finance Team, and company. These summarized Objectives and KRs attempt to capture the top OKRs in support of business results.
 
@@ -147,21 +139,23 @@ We use a T-Shirt sizing approach for quickly sizing the work required to deliver
 
 | Size | Dedicated Person Time | Weight (issue points) | Examples |
 | :--: | :--: | :-- | :-- |
-| XS | 1/2 Day | 1 | Update existing handbook page. #data research/response. New Trusted Data Test. Opening AR to get access to a data source.
-| S | 1 Day | 2-3 | New handbook page; typical triage issue. New dashboard on top of existing models. Align on data scope for new data source.
-| M | 1 Week | 5-8 | New dashboard requiring new models. New data source with Stitch or Fivetran.
-| L | 2-3 Weeks | 13 | New fact table implementation & testing. Full XMAU solution.
-| XL | 1-2 Months | 26 | New Data Pump to new system. New Data Source with complex source API.
-| XXL | 2-4 Months | 52+ | New Dimensional Model subject area with New Data Sources.
+| XS | 1/2 Day | 1 | Update existing handbook page. #data research/response. New Trusted Data Test. Opening AR to get access to a data source. |
+| S | 1 Day | 2-3 | New handbook page; typical triage issue. New dashboard on top of existing models. Align on data scope for new data source. |
+| M | 1 Week | 5-8 | New dashboard requiring new models. New data source with Stitch or Fivetran. |
+| L | 2-3 Weeks | 13 | New fact table implementation & testing. Full XMAU solution. |
+| XL | 1-2 Months | 26 | New Data Pump to new system. New Data Source with complex source API. |
+| XXL | 2-4 Months | 52+ | New Dimensional Model subject area with New Data Sources. |
 
 ## Work Breakdowns
 
-Work breakdowns are always developed as a part of the Quarterly OKR Planning Drumbeat, but can also be leveraged to help scope and plan new initiatives, infrastructure projects, and similar multi-person or multi-week projects. The outcome of the work breakdown is a detailed description of the work to be performed, deliverables and responsibilities, and a high-level timeline.  
+Work breakdowns are always developed as a part of the Quarterly OKR Planning Drumbeat, but can also be leveraged to help scope and plan new initiatives, infrastructure projects, and similar multi-person or multi-week projects. The outcome of the work breakdown is a detailed description of the work to be performed, deliverables and responsibilities, and a high-level timeline.
+
 - As a part of the Quarterly OKR Planning Drumbeat, work breakdowns are embedded in the KR Description.
 - As a part of a stand-alone or ad-hoc initiative, work breakdowns are embedded in the appropriate Epic Description.
 - As an example of a Work Breakdown, see this [FY22-Q4 Data Platform Work Breakdown](https://gitlab.com/groups/gitlab-data/-/epics/372).
 
 Work Breakdowns consider the following inputs:
+
 1. Defined upcoming OKRs
 2. OKR Reviews
 3. New / forward looking insights

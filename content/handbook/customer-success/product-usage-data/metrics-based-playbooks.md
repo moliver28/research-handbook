@@ -1,5 +1,4 @@
 ---
-
 title: "Product usage playbooks with usage metrics"
 description: "Using metrics to trigger product usage playbooks and leading discovery with data"
 ---
@@ -17,13 +16,11 @@ GitLab collects product usage metrics via [service ping](https://docs.gitlab.com
 | [`projects_teamcity_active`](https://docs.gitlab.com/ee/development/usage_ping/dictionary.html#countsprojects_teamcity_active)| Higher than 20% of projects on GitLab instance after onboarding or growth month on month | Count of projects with active integrations for Teamcity CI | Ideally this metric should trend down as CSMs help onboard customers onto GitLab's single DevSecOps platform. If the metric is trending up instead, then it is important to understand the customer's motivation and liaise with product to ensure that the customer can benefit from GitLab CI/CD. |
 | [`projects_bamboo_active`](https://docs.gitlab.com/ee/development/usage_ping/dictionary.html#countsprojects_bamboo_active)| Higher than 20% of projects on GitLab instance after onboarding or growth month on month| Count of projects with active integrations for Bamboo CI | Ideally this metric should trend down as CSMs help onboard customers onto GitLab's single DevSecOps platform. If the metric is trending up instead, then it is important to understand the customer's motivation and liaise with product to ensure that the customer can benefit from GitLab CI/CD. |
 
-
 ## User Engagement Use Case
 
 | Metric | Triggers | Definition | Discovery|
 |---- | ---- | -------- | --------- |
 | [`billable_user_count`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/license/20210531204603_license_billable_users.yml)/[`license_user_count`](https://docs.gitlab.com/ee/development/usage_ping/dictionary.html#license_user_count)  | Drops by at least 10% month on month or remains below 50% a month after onboarding  | Ratio of active users versus licensed users  | A ratio less than one implies that the customer is not fully utilizing their license which is usually the case during onboarding or a consolidation of different GitLab instances into one. If this number drops month on month it is important to understand the reasons behind the drop from the customer and ensure that GitLab is meeting their needs. |
-
 
 ## Secure Use Case
 

@@ -28,13 +28,13 @@ Learn more about [enabling informal communication in an all-remote company]({{< 
 
 ### Handbook, goals, and documentation
 
-Remote work is also what led to the development of our publicly viewable [handbook]({{< ref "/handbook" >}}), which captures everything you'd need to know about the company. If you can't tell, we like [efficiency]({{< ref "values#efficiency" >}}) and don't like having to explain things twice.
+Remote work is also what led to the development of our publicly viewable [handbook](/handbook), which captures everything you'd need to know about the company. If you can't tell, we like [efficiency](/handbook/values/#efficiency) and don't like having to explain things twice.
 
-Each department and team's quarterly goals, or ["objectives and key results" (OKRs)]({{< ref "/handbook/company/okrs" >}}), are also clearly documented in our handbook for visibility across the company. We check in on these goals monthly, so there's as much transparency as possible around what each team is accomplishing.
+Each department and team's quarterly goals, or ["objectives and key results" (OKRs)](/handbook/company/okrs), are also clearly documented in our handbook for visibility across the company. We check in on these goals monthly, so there's as much transparency as possible around what each team is accomplishing.
 
-Our approach to [documentation]({{< ref "/handbook/documentation" >}}) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}), because everything they need to know is in one place.
+Our approach to [documentation](/handbook/product/ux/technical-writing/documentation/) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}), because everything they need to know is in one place.
 
-We also have an extensive [onboarding template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) and we host a [GitLab 101]({{< ref "/handbook/company/culture/gitlab-101" >}}) for new hires to ask questions.
+We also have an extensive [onboarding template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) and we host a [GitLab 101](/handbook/company/culture/gitlab-101) for new hires to ask questions.
 
 #### Docs instead of whiteboards
 
@@ -55,8 +55,8 @@ The GitLab way of working is more [inclusive]({{< ref "inclusion#fully-distribut
 
 #### Hiring
 
-We've published our [hiring process]({{< ref "/handbook/hiring/interviewing" >}}), including example screening questions, in our handbook.
-While this may be unique, we see it as simply staying true to our [transparency value]({{< ref "values#transparency" >}}). The process shouldn't be a mystery.
+We've published our [hiring process](/handbook/hiring/interviewing), including example screening questions, in our handbook.
+While this may be unique, we see it as simply staying true to our [transparency value](/handbook/values/#transparency). The process shouldn't be a mystery.
 
 Letting candidates know what to expect allows them to focus on whether the role and the company are right for them, while we evaluate that too.
 
@@ -72,7 +72,7 @@ Take a look at [how our compensation calculator works]({{< ref "compensation-cal
 
 Hiring globally as an all-remote company has many [advantages]({{< ref "remote-benefits" >}}), including bringing diversity to our team. But it also poses unique [challenges]({{< ref "./hiring" >}}) because many countries differ in their rules, laws, and regulations.
 
-Find out more about how we handle this in our [country hiring guidelines]({{< ref "/handbook/people-group/employment-solutions#country-hiring-guidelines" >}}) in the handbook.
+Find out more about how we handle this in our [country hiring guidelines](/handbook/people-group/employment-solutions#country-hiring-guidelines) in the handbook.
 
 ### We encourage flexibility and balance
 
@@ -82,7 +82,7 @@ Find out more about how we handle this in our [country hiring guidelines]({{< re
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, two GitLab colleagues discuss the benefits of living in a lower cost-of-living environment near friends, family, and community.*
 
-At GitLab, when we say our people can work from [anywhere]({{< ref "./people#travelers" >}}), we really mean it. We care about the [results]({{< ref "values#results" >}}) of their work, not where it's getting done.
+At GitLab, when we say our people can work from [anywhere]({{< ref "./people#travelers" >}}), we really mean it. We care about the [results](/handbook/values/#results) of their work, not where it's getting done.
 
 This flexibility often means something different for [each person at GitLab]({{< ref "./people" >}}). We have team members who are completely [location independent]({{< ref "./people#nomads" >}}) and [travel full time](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence).
 
@@ -99,9 +99,8 @@ It's important to clarify that being able to work from anywhere does **not** rep
 
 We recognize how crucial it is to build in time when you can mentally take a break from your work, and as a company, we encourage our team members to do that. Learn more about [how time off works at GitLab.]({{< ref "paid-time-off" >}})
 
-> **“I work closely with our executive team here, and they have been so supportive and encouraging when family-related conflicts arise. They are constantly reminding me that “family first” is our mantra, and give me ease of mind to take time away when needed. Sid, our co-founder and CEO, told me if it’s a beautiful day out and I just want to go enjoy it, I should do that. Moments like these make me so proud to be a part of the GitLab team."**
+> **"I work closely with our executive team here, and they have been so supportive and encouraging when family-related conflicts arise. They are constantly reminding me that "family first" is our mantra, and give me ease of mind to take time away when needed. Sid, our co-founder and CEO, told me if it's a beautiful day out and I just want to go enjoy it, I should do that. Moments like these make me so proud to be a part of the GitLab team."**
 [- Cheri, Manager, Executive Assistant](/handbook/company/team#cheriholmes)
-
 
 ## Tips for leaders and other companies
 
@@ -122,7 +121,7 @@ Here are some best practices that may help your all-remote team be successful.
 ### Communication
 
 - Encourage people to [write down all information]({{< ref "./meetings#document-everything-live-yes-everything" >}}).
-- Allow everyone in the company to [view and edit every document]({{< ref "values#transparency" >}}).
+- Allow everyone in the company to [view and edit every document](/handbook/values/#transparency).
 - Consider every document a draft, don't wait to share until it's done.
 - Use screenshots in an issue tracker instead of a whiteboard, ensuring that everyone at any time can follow the thought process.
 - Encourage [non-work related communication]({{< ref "./informal-communication" >}}) (talking about private life on a team call) for [relationship building](https://medium.com/@markfrein70/the-distributed-workplace-15ef447fa926).
@@ -149,8 +148,8 @@ Our team members often share [their best advice](https://about.gitlab.com/blog/2
 - Take small breaks throughout your working hours to keep your creativity or productivity going.
 - If you worked at an office before, you might be missing your default group of coworkers at lunch. Now that you have the flexibility to choose what you do with that time, reach out to a friend and ask them to lunch.
 
-> **“I think you need to throw the concept of 'nine to five' out the window and actively experiment to find what schedule lets you make the most of your time.
-I often find the midday slump to be so real, so if I'm feeling this way I step away for a while and then come back for a few hours in the evening when I generally feel supercharged.”**
+> **"I think you need to throw the concept of 'nine to five' out the window and actively experiment to find what schedule lets you make the most of your time.
+I often find the midday slump to be so real, so if I'm feeling this way I step away for a while and then come back for a few hours in the evening when I generally feel supercharged."**
 [- Tanya Pazitny, Quality Engineering Manager](/handbook/company/team#tpazitny)
 
 ### Balance work and life
@@ -204,21 +203,20 @@ It's sometimes hard to remember to stay active when you work from home. Here are
 - If possible, choose a workspace that's exposed to [natural light](https://www.makegreatlight.com/wp-content/uploads/Health_Benefits_Natural_Light.pdf).
 - Avoid "Digital Eye Strain" by following the [20-20-20 Rule](https://www.healthline.com/health/eye-health/20-20-20-rule#definition). Every 20 minutes look into the distance (at least 20 feet/6 meters) for 20 seconds.
 - Use an app - there are some that will remind you to take a break or help you with your computer posture:
-    - [PostureMinder](http://www.postureminder.co.uk) (Windows)
-    - [Time Out](https://itunes.apple.com/us/app/time-out-break-reminders/id402592703?mt=12 )(macOS)
-    - [Awareness](http://iamfutureproof.com/tools/awareness) (macOS)
-    - [SafeEyes](https://slgobinath.github.io/SafeEyes) (GNU/Linux)
+  - [Time Out](https://itunes.apple.com/us/app/time-out-break-reminders/id402592703?mt=12 )(macOS)
+  - [Awareness](http://iamfutureproof.com/tools/awareness) (macOS)
+  - [SafeEyes](https://slgobinath.github.io/SafeEyes) (GNU/Linux)
 - Move every day
-    - Go for a walk or do a short exercise for at least 15 minutes a day.
-    - Do something active that can be done within a short amount of time like rope jumping, lifting kettlebells, push-ups or sit-ups. It might also help to split the activity into multiple shorter sessions. You can use an app that helps you with the workout, e.g., [7 minute workout](https://7minuteworkout.jnj.com).
+  - Go for a walk or do a short exercise for at least 15 minutes a day.
+  - Do something active that can be done within a short amount of time like rope jumping, lifting kettlebells, push-ups or sit-ups. It might also help to split the activity into multiple shorter sessions. You can use an app that helps you with the workout, e.g., [7 minute workout](https://7minuteworkout.jnj.com).
 
 > **"Getting out of the house before I start my day is very important for me.
-Either walking the dog or going for a swim to clear my head and get the blood flowing.”**
+Either walking the dog or going for a swim to clear my head and get the blood flowing."**
 [- Daniel Gruesso, Product Manager](/handbook/company/team#danielgruesso)
 
 - Try to create a repeatable schedule that is consistent and try to make a habit out of it. Make sure you enjoy the activity.
 - It can also help to create a goal or challenge for yourself, e.g. registering for a race.
-- Eat less refined sugar and simple carbs, and eat complex carbs instead. Try to eat more vegetables. Don't go to the kitchen to eat something every 15 minutes (it’s a trap!). Keep junk food out of your house.
+- Eat less refined sugar and simple carbs, and eat complex carbs instead. Try to eat more vegetables. Don't go to the kitchen to eat something every 15 minutes (it's a trap!). Keep junk food out of your house.
 - Have a water bottle with you at your desk. You will be more inclined to drink if it's available at all times.
 - Try to get enough sleep at night and take a nap during the day if you need one.
 
@@ -234,6 +232,6 @@ Here's how you can participate:
 - [Create an issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues) if you have any questions or if you see an inconsistency.
 - Help spread the word about all-remote organizations by sharing it on social media.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

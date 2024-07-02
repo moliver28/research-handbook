@@ -6,13 +6,12 @@ canonical_path: "/company/stewardship/"
 
 ## Business Model
 
-GitLab Inc. is a for profit company that balances the need to improve the open source code of GitLab with the need to add source-available features in order to generate income. We have an [open
-core](https://en.wikipedia.org/wiki/Open_core) business model and generate
+GitLab Inc. is a for profit company that balances the need to improve the open source code of GitLab with the need to add source-available features in order to generate income. We have an [open core](https://en.wikipedia.org/wiki/Open_core) business model and generate
 almost all our revenue with [subscriptions to paid tiers](https://about.gitlab.com/pricing/). We
 recognize that we need to balance the need to generate income and with the
 needs of the open source project.
 
-We have tried different business models, and many didn’t work. As a company, we realized we needed recurring revenue to continue our mission, and we introduced source available code that is proprietary. Initially there was a worry we would stop working on the open source code but the community saw we were able to accelerate the work on open-source code too.
+We have tried different business models, and many didn't work. As a company, we realized we needed recurring revenue to continue our mission, and we introduced source available code that is proprietary. Initially there was a worry we would stop working on the open source code but the community saw we were able to accelerate the work on open-source code too.
 
 ## Promises
 
@@ -30,7 +29,6 @@ We promise that:
 1. We will always allow you to [benchmark the performance](https://news.ycombinator.com/item?id=18103162) of GitLab.
 1. We will make our Free tier easily discoverable.
 1. We will always make it clear what is proprietary and what is open source code. This will be implemented with a [separate directory for EE code](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee) and a [Git repo downstream that is open source only](https://gitlab.com/gitlab-org/gitlab-foss).
-
 
 ## Software as a Service
 
@@ -50,7 +48,7 @@ just that we think that other buyers are relatively more likely to care about it
 The more of GitLab that you use the more likely it is that you benefit from a higher tier.
 Even a single person using GitLab might be best off using our highest tier.
 
-It is hard to get [the tier](/handbook/marketing/strategic-marketing/tiers/) right, and if we put something in a tier that is too high we won't hesitate to [open-source](/releases/2016/12/24/were-bringing-gitlab-pages-to-community-edition/) [it](https://news.ycombinator.com/item?id=10931347) or move it to a lower tier. We listen to our community in order to find what we feel is the right balance, and we iterate and make changes based on their feedback. At the same time, the premium product needs to hold value, and we believe we provide that.
+It is hard to get [the tier](/handbook/marketing/strategic-marketing/tiers/) right, and if we put something in a tier that is too high we won't hesitate to [open-source](https://about.gitlab.com/releases/2016/12/24/were-bringing-gitlab-pages-to-community-edition/) [it](https://news.ycombinator.com/item?id=10931347) or move it to a lower tier. We listen to our community in order to find what we feel is the right balance, and we iterate and make changes based on their feedback. At the same time, the premium product needs to hold value, and we believe we provide that.
 
 All stages of the [DevOps lifecycle](https://about.gitlab.com/direction/#scope) have at least some features available in GitLab Core. There are companies using GitLab Core with more than 10,000 users.
 
@@ -72,7 +70,7 @@ We do this when we realize we made a mistake applying our criteria, for example
 when we learned that a branded homepage was an [essential feature](https://news.ycombinator.com/item?id=10931347) or
 when we [brought GitLab Pages to the Community Edition](https://about.gitlab.com/releases/2016/12/24/were-bringing-gitlab-pages-to-community-edition/).
 
-Our plan is to become the most popular tool for people’s own git hosting service; we’ve managed that so far. Secondarily, we want to get to be the one with the most revenue. Thirdly, we want to become the most popular tool for hosting private repos. Once we’ve reached that, we want to be the most popular tool for hosting public repos. And, lastly, we want to be the number one tool for people to host not just code but books, tech papers, visual models, movies, etc. More info on this is on our [strategy page](/handbook/company/strategy/).
+Our plan is to become the most popular tool for people's own git hosting service; we've managed that so far. Secondarily, we want to get to be the one with the most revenue. Thirdly, we want to become the most popular tool for hosting private repos. Once we've reached that, we want to be the most popular tool for hosting public repos. And, lastly, we want to be the number one tool for people to host not just code but books, tech papers, visual models, movies, etc. More info on this is on our [strategy page](/handbook/company/strategy/).
 
 ## How Open Source Benefits From Open Core
 

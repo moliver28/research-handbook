@@ -14,37 +14,37 @@ flowchart LR
     contributionIncrease["Contribution Increase"]
     bothIncrease["Contributor & Contribution Increase"]
     increaseValue("Increase Contribution Value")
-    improveVelocity("Improve Contribution Velocity")
+    improveJourney("Improve Contributor Journey")
     fosterDiversity("Foster Diversity, Equity, and Inclusion")
     scaleCommunity("Scale the Community")
     expandOutreach("Expand Outreach")
-    scaleCommunity-->improveVelocity
+    scaleCommunity-->improveJourney
     scaleCommunity-->increaseValue
     scaleCommunity-->fosterDiversity
     expandOutreach-->scaleCommunity
     increaseValue-->contributionIncrease
-    improveVelocity-->contributorIncrease
+    improveJourney-->contributorIncrease
     fosterDiversity-->bothIncrease
   end
   style moreContributions fill:#FFF, stroke:#9370DB, stroke-dasharray: 5 5
   style contributionIncrease fill:#9370DB,stroke:#9370DB,stroke-width:10px
   style contributorIncrease fill:#9370DB,stroke:#9370DB,stroke-width:10px
   style bothIncrease fill:#9370DB,stroke:#9370DB,stroke-width:10px
-  style improveVelocity color:#6b4fbb, stroke:#9370DB
+  style improveJourney color:#6b4fbb, stroke:#9370DB
   style increaseValue color:#6b4fbb, stroke:#9370DB
   style fosterDiversity color:#6b4fbb, stroke:#9370DB
   style expandOutreach color:#6b4fbb, stroke:#9370DB
   style scaleCommunity color:#6b4fbb, stroke:#9370DB
-  click improveVelocity "./#improve-contribution-velocity" _self
+  click improveJourney "./#improve-contributor-journey" _self
   click increaseValue "./#increase-contribution-value" _self
   click fosterDiversity "./#foster-diversity-equity-and-inclusion" _self
   click expandOutreach "./#expand-outreach" _self
   click scaleCommunity "./#scale-the-community" _self
  ```
 
-### Improve Contribution Velocity
+### Improve Contributor Journey
 
-Provide an outstanding and efficient contributor experience, from onboarding materials to final merge. Improve Contributor Journey, making it easier and more efficient to contribute. Gather feedback from wider community contributors and product teams on contribution friction.
+Provide an outstanding, highly efficient and fast contributor experience, from onboarding to getting a change merged. One of the tactics is to reduce contribution stumbling blocks to make the contributor journey more efficient. These stumbling blocks will be identified through gathering feedback from wider community contributors, product teams and GitLab Team Members on contribution friction.
 
 #### Reduce Open Community MR Age
 
@@ -100,7 +100,7 @@ Incentivize, attract and retain contributors by providing a compelling value and
 
 #### Contributor career advancement
 
-* **Why:** In Open Source Projects, the contributors’ motivation in addition to solving a bug or adding a missing feature is to get experience and build their CV for career advancement.
+* **Why:** In Open Source Projects, the contributors' motivation in addition to solving a bug or adding a missing feature is to get experience and build their CV for career advancement.
 * **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9077>
 * **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 
@@ -120,7 +120,7 @@ Center diversity, equity, and inclusion within our open source community relatio
 
 #### Track internal DEI group participation
 
-* **Why:** By tracking GitLab participation in DEI groups and initiatives, we can increase our team’s awareness on diversity, equity and inclusion best practices. We can also reach more potential contributors at external groups.
+* **Why:** By tracking GitLab participation in DEI groups and initiatives, we can increase our team's awareness on diversity, equity and inclusion best practices. We can also reach more potential contributors at external groups.
 * **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/)
 
 #### Incentivize contributors at qualifying events

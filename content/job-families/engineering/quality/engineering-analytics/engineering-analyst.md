@@ -4,7 +4,7 @@ title: "Engineering Analyst"
 
 Engineering Analysts at GitLab build and improve on the data capabilities needed to support a highly productive Engineering Division.
 They equip Engineering leaders with metric intelligence and actionable performance indicators.
-They work closely with GitLab’s Data team to enable new data capabilities that drives our analysis and visualizations.
+They work closely with GitLab's Data team to enable new data capabilities that drives our analysis and visualizations.
 
 ## Responsibilities
 
@@ -140,7 +140,7 @@ The Staff Engineering Analyst role extends the [Senior Engineering Analyst](#sen
 ### UX
 
 - SUS Scores
-- UX Debt
+- Deferred UX
 
 ### Security
 
@@ -177,4 +177,4 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

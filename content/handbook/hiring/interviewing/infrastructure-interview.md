@@ -5,10 +5,10 @@ description: "Tips on how to prepare for your interview - Infrastructure"
 
 ## Most common open roles in Infrastructure
 
-- [Backend Engineer]({{< ref "/job-families/engineering/infrastructure/backend-engineer" >}})
-- [Site Reliability Engineer]({{< ref "/job-families/engineering/infrastructure/site-reliability-engineer" >}})
-- [Database Reliability Engineer]({{< ref "/job-families/engineering/infrastructure/database-reliability-engineer" >}})
-- [Engineering Manager]({{< ref "/job-families/engineering/infrastructure/engineering-management" >}})
+- [Backend Engineer](/job-families/engineering/infrastructure/backend-engineer)
+- [Site Reliability Engineer](/job-families/engineering/infrastructure/site-reliability-engineer)
+- [Database Reliability Engineer](/job-families/engineering/infrastructure/database-reliability-engineer)
+- [Engineering Manager](/job-families/engineering/infrastructure/engineering-management)
 
 ## Tips on how to prepare for Infrastructure interviews
 
@@ -18,7 +18,7 @@ What is it like to interview for roles in the Infrastructure department at GitLa
 
 When applying for roles at GitLab, make sure to upload the resume that will highlight your skills and experience, so that you are noticed! Review the role's description carefully to understand if this is a good match, not only in terms of your technical skills but also in terms of your expectations from the role.
 
-If you choose to, you can learn even more about the infrastructure department and it’s various subdivisions in the handbook. Group pages offer a breakdown on teams Mission, Targets, Team Members and Approach to Work.
+If you choose to, you can learn even more about the infrastructure department and it's various subdivisions in the handbook. Group pages offer a breakdown on teams Mission, Targets, Team Members and Approach to Work.
 
 [Infrastructure at GitLab](/handbook/engineering/infrastructure/)
 

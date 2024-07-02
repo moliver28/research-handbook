@@ -1,19 +1,10 @@
 ---
-
 title: "How To Use Google Calendar Delegate"
 ---
 
-
-
-
-
-
-
-
 ## Introduction
 
-The purpose of this handbook page is to describe how to utilize [Google
-Calendar Delegation](https://support.google.com/a/users/answer/168126?hl=en#:~:text=When%20you%20set%20up%20mail,parts%20of%20your%20account%E2%80%8B.). Google Calendar delegation gives the ability to for a team member to access
+The purpose of this handbook page is to describe how to utilize [Google Calendar Delegation](https://support.google.com/a/users/answer/168126?hl=en#:~:text=When%20you%20set%20up%20mail,parts%20of%20your%20account%E2%80%8B.). Google Calendar delegation gives the ability to for a team member to access
 another team member's Google Calendar.
 
 There are different [Levels of Permissions](https://support.google.com/a/users/answer/37082#Delegate_Calendar&zippy=%2Cunderstand-permission-settings-for-shared-calendars) that can be assigned to Google Calendar Delegation.
@@ -50,7 +41,6 @@ There are different [Levels of Permissions](https://support.google.com/a/users/a
 - `Make changes to events` - The team member will be able to edit your calendar events. They will also gain the ability to edit the event details.
 
 - `Make changes and manage sharing` - The team member will be able to edit your calendar events. They will also gain the ability to edit the event details. They will also gain the ability to change your calendar sharing settings.
-
 
 ## How To Access Google Calendar Delegation
 

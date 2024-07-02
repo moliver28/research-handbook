@@ -24,7 +24,7 @@ You can expense (for approved GitLab/company events):
 You can *not* expense relocation costs.
 
 Please note, that GitLab is only able to cover the costs of one VISA attempt. If your VISA request is rejected, team members are free to re-submit at their discretion and any additional costs will be need to be covered by the team member.
-Please refer to the [Global Travel and Expense Policy Handbook Page](https://handbook.gitlab.com/handbook/finance/expenses/#visaspermitscovid-tests) for more information regarding the reimbursement.
+Please refer to the [Global Travel and Expense Policy Handbook Page](/handbook/finance/expenses/#visaspermitscovid-tests) for more information regarding the reimbursement.
 
 ### Arranging a visa for travel
 
@@ -47,8 +47,8 @@ Always **check the website of the Embassy of the Country you want to visit** loc
 *Please note that the below timeline is just a guide, and you should always check the guidance on the official website of the embassy for the country you are applying to before making your application or traveling to an interview.*
 
 - **6 months beforehand**: make appointment at embassy, and start gathering all necessary paperwork, forms, certificates, pictures, etc.
-   - Sometimes you might call the embassy, and be told that you do not need to schedule an interview so far ahead of your trip. Don't take their word for it, since that advice is typically made with the "typical, best case"  process in mind and for example in the case of the USA does not account for the possibility of a black hole "administrative processing" period. In other words, make sure you get an appointment as early as possible.
-   - If the country where the embassy/consulate is located where you are going for your application is listed as anything other than "High Income" by the [World Bank's "Little Data Book"](https://openknowledge.worldbank.org/bitstream/handle/10986/23968/9781464808340.pdf?sequence=4&isAllowed=y) then it is likely that the embassy/consulate there has a [high tendency to say "no" to visa applications](http://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html). We recommend to engage the services of a local lawyer who is familiar with the embassy process to help check that your paperwork is in order, and to practice interview questions. You're also welcome to ask for support when you are in a "High Income" country. People Ops can help you with this.
+  - Sometimes you might call the embassy, and be told that you do not need to schedule an interview so far ahead of your trip. Don't take their word for it, since that advice is typically made with the "typical, best case"  process in mind and for example in the case of the USA does not account for the possibility of a black hole "administrative processing" period. In other words, make sure you get an appointment as early as possible.
+  - If the country where the embassy/consulate is located where you are going for your application is listed as anything other than "High Income" by the [World Bank's "Little Data Book"](https://openknowledge.worldbank.org/bitstream/handle/10986/23968/9781464808340.pdf?sequence=4&isAllowed=y) then it is likely that the embassy/consulate there has a [high tendency to say "no" to visa applications](http://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html). We recommend to engage the services of a local lawyer who is familiar with the embassy process to help check that your paperwork is in order, and to practice interview questions. You're also welcome to ask for support when you are in a "High Income" country. People Ops can help you with this.
 - **3 months beforehand** (or earlier if indicated by the embassy you are applying to): go to embassy for interview.
 - **2 months beforehand**: if you have not received your visa by now, contact your local lawyer again to see if anything can be done to expedite the process.
 
@@ -62,12 +62,13 @@ Some of our GitLab team-members in the Netherlands have a "werkvergunning" or wo
 
 Here is a [generally but not authoritative helpful guide](https://www.expatica.com/nl/moving/relocation/leaving-the-netherlands-108416/) on considerations around permit extensions.
 
-The IND (Dutch immigration services) in general take about 4 to 6 weeks’ time to make a decision on the renewal application, but officially they have 90 days to decide.
+The IND (Dutch immigration services) in general take about 4 to 6 weeks' time to make a decision on the renewal application, but officially they have 90 days to decide.
 
 1. Some important notes before you arrange travel / depart to the Netherlands:
+
 - **A direct flight to the Netherlands is required, indirect travel may result in entry refusal**
 
-#### 30% Ruling in the Netherlands
+### 30% Ruling in the Netherlands
 
 The [30% reimbursement ruling](https://www.iamsterdam.com/en/living/take-care-of-official-matters/highly-skilled-migrants/thirty-percent-ruling) (better known as the 30% ruling) is a tax advantage for highly skilled migrants moving to the Netherlands. This benefit, granted for five years, allows them to receive 30% of their employment income tax free. As an example, when your employment income is EUR 60,000; the 30% ruling ensures a net pay of EUR 18,000. The remainder of EUR 42,000 is subject to Dutch taxes. In addition, when being entitled to the 30% ruling you can exclude your savings from Dutch income tax (which can be beneficial once you have exercised your stock options).
 
@@ -83,11 +84,11 @@ The 30% ruling is a mutual application filed by the employee and GitLab BV as th
 
 Here is [an approximate net-salary calculator in The Netherlands](https://relocate.me/net-pay-calculators/the-netherlands) to reckon additional salary payment with 30% ruling.
 
-#### Transferring the 30% Ruling from a Previous Employer
+### Transferring the 30% Ruling from a Previous Employer
 
 The 30% ruling is a tax advantage granted for five years, which means that you can carry this over to a new employer if your new role still fulfills the requirements of the 30% ruling. Note that you are only allowed to transfer the 30% ruling when there is a gap of maximum three months between your previous employment and your employment at GitLab BV. The 30% ruling questionnaire includes a section where you can state that you have already been entitled to the 30% ruling. Transferring the 30% ruling tends to be faster since your qualifications were already assessed at your previous employment.
 
-#### BSN Number
+### BSN Number
 
 A [BSN number](https://www.iamsterdam.com/en/living/take-care-of-official-matters/registration/citizen-service-number) is like a citizen number. It is required so new team members can be added to the B.V. Netherlands payroll. It's also required for things like health insurance and opening a bank account.
 
@@ -106,7 +107,7 @@ If a team member wishes to immigrate and relocate to the Netherlands, they will 
 1. When using the [compensation calculator]({{< ref "calculator" >}}) you must meet the Dutch salary requirement for [highly skilled migrants for 3 more years](https://ind.nl/en/Pages/required-amounts-income-requirement.aspx#Application_for_residence_permit_highly_skilled_migrant_and_European_Blue_Card)
     - Note, that the Dutch government has a higher requirement for team members aged 30 and above. The age related wage requirement does not increase when reaching 30 if you already have an approved migrant visa (with the same employer).
     - The following pay elements are not included in the salary criterion and can't be used to meet the mimimum salary requirement: Vacation allowance; the value of payment made in kind; Uncertain, non-regular pay elements (for example overtime allowances, variable boni and payments from funds).
-    - *Note: This calculation should be based on what GitLab*would*pay the team member in the Netherlands in accordance with the compensation calculator,*not*based on the team member's current salary.*
+    - *Note: This calculation should be based on what GitLab **would** pay the team member in the Netherlands in accordance with the compensation calculator, **not** based on the team member's current salary.*
 1. You have been a team member at GitLab for one year.
 1. You are not on a Performance Improvement Plan (PIP).
 
@@ -147,7 +148,7 @@ Sid and Marin discuss the history of GitLab's right to immigrate to the Netherla
 
 GitLab may be able to offer employment agreements to highly skilled candidates seeking employment already in Ireland, who apply for, or already hold, a [Critical Skills Employment Permit](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Permit-Types/Critical-Skills-Employment-Permit/), where the relevant role falls into a category listed on the [Critical Skills Occupations List](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Employment-Permit-Eligibility/Highly-Skilled-Eligible-Occupations-List/) or a salary threshold is exceeded.
 
-Please note: GitLab does not cover any costs for the application nor does it guarantee the issuance of the Critical Skills Employment Permit.  The employment agreement offered will include the condition that the candidate will hold the sufficient right to work and if a permit is required that they will be able to obtain the permit.  If the critical skills employment permit application is refused, the employment agreement would be rescinded. Permit holders may apply to the Irish Naturalisation and Immigration Service for permission to reside and work without the requirement for an employment permit upon completion of the Critical Skills Employment Permit’s duration.
+Please note: GitLab does not cover any costs for the application nor does it guarantee the issuance of the Critical Skills Employment Permit.  The employment agreement offered will include the condition that the candidate will hold the sufficient right to work and if a permit is required that they will be able to obtain the permit.  If the critical skills employment permit application is refused, the employment agreement would be rescinded. Permit holders may apply to the Irish Naturalisation and Immigration Service for permission to reside and work without the requirement for an employment permit upon completion of the Critical Skills Employment Permit's duration.
 
 #### The eligibility criteria
 
@@ -155,7 +156,7 @@ Occupations with a minimum annual remuneration of €32,000 for a restricted num
 All occupations with a minimum annual remuneration of over €64,000, other than those on the [Ineligible List of Occupations for Employment Permits](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Employment-Permit-Eligibility/Ineligible-Categories-of-Employment/) or which are contrary to the public interest. A non-EEA national who does not have a degree qualification or higher, must have the necessary level of experience.
 The prospective employee concerned must have secured a 2-year job offer in respect of the eligible occupation from the prospective employer.
 
-#### Further criteria include:
+#### Further criteria include
 
 The prospective employee concerned must possess the relevant qualifications, skills and experience that are required for the employment.
 An employment permit will not be granted to companies unless 50% or more of the employees in the firm are EEA nationals at the time of application. However, this restriction may be waived in respect of start-up companies within 2 years of their establishment (that is, registered as an employer with Revenue) and which are supported by the enterprise development agencies, Enterprise Ireland, or IDA Ireland (this applies to client companies of Enterprise Ireland or IDA Ireland only).
@@ -202,7 +203,7 @@ The EU Blue Card Germany, is a German residence permit for highly skilled worker
 
 ### Application process
 
-You can apply for an EU Blue Card from the Foreigner’s Office in Germany.  Depending on your current location you may need to obtain an entry visa from your most local German embassy.
+You can apply for an EU Blue Card from the Foreigner's Office in Germany.  Depending on your current location you may need to obtain an entry visa from your most local German embassy.
 
 1. [Apply for a Long-Term Relocation]({{< ref "relocation#how-to-apply-for-a-long-term-relocation" >}}) to Germany, as you will need a German employment agreement for the EU Blue Card application
 1. Set up a visa appointment for employment purposes from the German embassy or consulate
@@ -212,11 +213,11 @@ You can apply for an EU Blue Card from the Foreigner’s Office in Germany.  Dep
 1. Wait for a decision (can take 1 to 3 months for the entry visa).
 1. Travel to Germany: If your visa application is approved, you will receive a visa, allowing you to enter Germany.
 1. Register your [Germany residence](https://www.bmi.bund.de/EN/topics/administrative-reform/registration/registration-node.html#:~:text=Anyone%20who%20moves%20into%20a,the%20person%20providing%20the%20residence.) which you will you need to enroll for [health insurance](https://visaguide.world/international-health-insurance/germany/) (You can choose private or Public), and open a bank account.
-1. Once you have your residence, health insurance and bank account submit your EU Blue Card application at the Ausländerbehörde (German Foreigner’s Authority).
+1. Once you have your residence, health insurance and bank account submit your EU Blue Card application at the Ausländerbehörde (German Foreigner's Authority).
 
 #### Applying for the Blue card when you are already in Germany
 
-If you are already in Germany, and you are offered a position that makes you eligible for a Blue Card, you can apply at the local Ausländerbehörde (German Foreigner’s Authority). You must start the process at least six weeks before your current residence permit expires.
+If you are already in Germany, and you are offered a position that makes you eligible for a Blue Card, you can apply at the local Ausländerbehörde (German Foreigner's Authority). You must start the process at least six weeks before your current residence permit expires.
 
 #### Germany Blue card required documents
 
@@ -244,8 +245,10 @@ If there is a change in employer within Germany and the blue card has been held 
 Everyone that meets the following requirements can request to immigrate and relocate to Germany, but you will also still need to pass the formal visa application process to qualify. The requirements are:
 
 1. When using the [compensation calculator]({{< ref "calculator" >}}) you must meet the salary requirement for [Requirements to receive a Blue Card](https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card)
+
 - The following pay elements are not included in the salary criterion and can't be used to meet the minimum salary requirement: The value of payment made in kind; Uncertain, non-regular pay elements (for example overtime allowances, variable bonus and payments from funds).
-- *Note: This calculation should be based on what GitLab*would*pay the team member in Germany in accordance with the compensation calculator,*not*based on the team member's current salary.*
+- *Note: This calculation should be based on what GitLab **would** pay the team member in Germany in accordance with the compensation calculator, **not** based on the team member's current salary.*
+
 1. You have been a team member at GitLab for one year.
 1. You are not on a Performance Improvement Plan (PIP).
 

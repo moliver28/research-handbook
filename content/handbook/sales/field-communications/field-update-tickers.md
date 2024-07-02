@@ -1,21 +1,13 @@
 ---
-
 title: "Field Update Tickers"
 description: "The Field Update Tickers are a weekly summary of all relevant updates to the Field."
 ---
 
-
-
-
-
-
-
 ## Overview
 
-The Field Update Tickers serve as a weekly summary of all relevant information posted in #field-fyi and/or information directly relevant to each team member’s role segment (Enterprise, Commercial, Customer Success, Field Operations and Channel & Alliances). The information is prioritized based on required action needed and high customer/business impact. The purpose of each Update Ticker is to provide more targeted, focused and action-based communications to team members in each segment. The Update Ticker is not inclusive of all internal communications and team members should continue to use company-wide Slack channels (#company-fyi, #whats-happening-at-gitlab and other Slack channels as appropriate) to stay informed.
+The Field Update Tickers serve as a weekly summary of all relevant information posted in #field-fyi and/or information directly relevant to each team member's role segment (Enterprise, Commercial, Customer Success, Field Operations and Channel & Alliances). The information is prioritized based on required action needed and high customer/business impact. The purpose of each Update Ticker is to provide more targeted, focused and action-based communications to team members in each segment. The Update Ticker is not inclusive of all internal communications and team members should continue to use company-wide Slack channels (#company-fyi, #whats-happening-at-gitlab and other Slack channels as appropriate) to stay informed.
 
-The [Enterprise Update Ticker](https://docs.google.com/document/d/18SfdalBZDQyhnN0X7LwCRQmSfv3iiK59JPuj85f6Zkc/edit?usp=sharing) and [Commercial Update Ticker](https://docs.google.com/document/d/1B72XVov_xZN7ESqKL6wbykHDBivw_mygmeQ2AXdBFyE/edit?usp=sharing) are currently operational. Future iterations include the scoping and operationalizing of dedicated Channel & Alliancdes, Customer Success and Field Operations
-Update Tickers.
+The [Enterprise Update Ticker and Commercial Update Ticker](https://baton.fyi/r/#/) are currently operational. Future iterations include the scoping and operationalizing of dedicated Partner, Pre- and Post-Sales and Revenue Strategy, Operations and Enablement (RSOE) Update Tickers.
 
 ## Target Audience
 
@@ -23,14 +15,14 @@ The updates and any associated action include in each Update Ticker is geared to
 
 ## Delivery Mechanism
 
-Each Update Ticker is created and maintained in a Google Doc and also accessible in Highspot via each segment’s dedicated Spot. In the spirit of Iteration and Efficiency, Field Communications will continue to explore new tools to support the Update Tickers.
+Each Update Ticker is created and maintained in Baton and sent via email. In the spirit of Iteration and Efficiency, Field Communications will continue to explore new tools to support the Update Tickers.
 
 ## Individual Contributors: How to Use the Update Ticker
 
 How to use the Update Ticker:
 
 1. Review the information included in the ticker on a weekly basis. The information is structured and prioritized for you to read quickly and efficiently. However, you should schedule time to read and synthesize any supporting links (Slack messages, Highspot pages, Handbook pages, etc.) when appropriate. Enterprise Account Executives can expect to receive a email notification on Thursdays when the Update Ticker has been updated.
-2. Complete action items as required. Items that require your action are categorized as ‘Required action’ or ‘Take action’ for efficiency. Please complete these items by the associated due date.
+2. Complete action items as required. Items that require your action are categorized as 'Required action' or 'Take action' for efficiency. Please complete these items by the associated due date.
 3. Note any key dates. Included at the top of each Update Ticker is a summary of key dates that you should be aware of. Note that this information is subject to change so we recommend that you check this information often.
 
 ## Managers+: How to Use the Update Ticker
@@ -39,7 +31,6 @@ In the current iteration, the Update Tickers contain information and updates rel
 
 1. Add the link to the relevant ticker in your team meeting agenda for easy reference and access.
 2. Pull the information from the ticker and regionalize where appropriate in your team meetings, Slack channels and/or 1:1 meetings. You know your region best so you can add any additional considerations or additional directives for your team.
-
 
 ## Format
 
@@ -56,15 +47,14 @@ This is the current iteration of the Update Ticker:
    - Updates:
         Each update is summarized in 2-5 sentences and includes links for more information and details
 
-
 ## Process
 
 1. During the [Field Communications triage process](/handbook/sales/field-communications/#how-to-use), each Field Announcement Request is evaluated to determine if the update should also be included in the relevant Update Ticker.
 
    - In some cases, Field Communications will determine that a Field Announcement request is not relevant to the entire Field and will instead include this information in the Update Ticker vs. #field-fyi. For example, in cases where a Field Announcement request is only applicable to specific segement(s) vs. applcable to the entire Field, Field Communications will advise that an update be made in the applicable Update Ticker vs. a broader #field-fyi announcement.
-   - All Field Announcements posted to #field-fyi Monday-Thursday  will be included in the week’s Update Ticker. Field Announcements posted in #field-fyi on Fridays will be included in the following week’s tickers.
+   - All Field Announcements posted to #field-fyi Monday-Thursday  will be included in the week's Update Ticker. Field Announcements posted in #field-fyi on Fridays will be included in the following week's tickers.
 
 2. Field Communications will summarize and categorize each update and add to the Google Doc by 5 p.m. PT each Thursday.
-3. The Google Doc will be emailed to all Enterprise team members using the Enterprise Sales Google group (‘sales-ent@gitlab.com') on Thursdays. Note: Field Communications is currently scoping the ability to email the Google Doc to Commercial team members.
+3. The Google Doc will be emailed to all Enterprise team members using the Enterprise Sales Google group ('sales-ent@gitlab.com') on Thursdays. Note: Field Communications is currently scoping the ability to email the Google Doc to Commercial team members.
 
 Reach out in the #field-enablement-team Slack channel for questions or feedback.

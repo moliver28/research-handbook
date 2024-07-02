@@ -1,5 +1,4 @@
 ---
-
 title: Metrics Analysis - Hypothesis and Actions
 description: "How to analyze Support metrics hypotheses"
 ---
@@ -16,7 +15,6 @@ Additionally it includes specific actions that might be used to shore lagging me
 ### Ticket volume is too high
 
 #### Past Analysis
-
 
 ##### [2020-09-01](https://gitlab.com/gitlab-com/support/metrics/-/issues/1)
 
@@ -36,7 +34,6 @@ Additionally it includes specific actions that might be used to shore lagging me
 
 #### Shaping Actions
 
-
 If ticket volume is too high:
 
 - Determine what is driving that volume. If it's:
@@ -51,9 +48,7 @@ If ticket volume is too high:
 
 #### Past Analysis
 
-
 #### [2020-09-01: FRT Hawks spending more time on needs-org tickets is causing a dip in performance](https://gitlab.com/gitlab-com/support/metrics/-/issues/6)
-
 
 **Evidence Gathered:**
 
@@ -67,7 +62,6 @@ If ticket volume is too high:
 
 #### Shaping Actions
 
-
 If you suspect a time consuming workflow is causing a dip in performance:
 
 - Identify the number of tickets that would fall under the workflow
@@ -79,7 +73,6 @@ If you suspect a time consuming workflow is causing a dip in performance:
 ### Dedicating resources to a specfic set of tickets has reduced the overall capacity of the team
 
 #### Past Analysis
-
 
 ##### [2020-09-01: Adding resources more dedicated to US Federal has reduced the overall capacity of the team](https://gitlab.com/gitlab-com/support/metrics/-/issues/7)
 
@@ -96,7 +89,7 @@ If you suspect a time consuming workflow is causing a dip in performance:
 - Examined theoretical capacity loss by repeating the above caluclation with "actual" close rates.
 - Examined "worst case" capacity loss by assuming 100% of productivity taken by this queue.
 
-##### [2020-09-01: Adding L&R has drawn resources away from the rest of the queues that haven’t been replenished.](https://gitlab.com/gitlab-com/support/metrics/-/issues/5)
+##### [2020-09-01: Adding L&R has drawn resources away from the rest of the queues that haven't been replenished.](https://gitlab.com/gitlab-com/support/metrics/-/issues/5)
 
 **Evidence Gathered:**
 
@@ -112,7 +105,6 @@ If you suspect a time consuming workflow is causing a dip in performance:
 
 #### Shaping Actions
 
-
 If dedicating team-members to a specific set of tickets has reduced capacity:
 
 - hire
@@ -124,7 +116,6 @@ If dedicating team-members to a specific set of tickets has reduced capacity:
 ### Tickets have increased in difficulty
 
 #### Past Analysis
-
 
 ##### [2020-09-01: SaaS Tickets have gotten harder](https://gitlab.com/gitlab-com/support/metrics/-/issues/9)
 
@@ -148,7 +139,6 @@ If dedicating team-members to a specific set of tickets has reduced capacity:
 
 #### Shaping Actions
 
-
 If tickets have increased in difficulty:
 
 - Determine if additional headcount can be applied to this area (temporarily)
@@ -162,7 +152,6 @@ If tickets have increased in difficulty:
 ### Time-Off impacting performance
 
 #### Past Analysis
-
 
 ##### [2020-09-14: Folks on PTO over summer and F&F days have caused lags in performance](https://gitlab.com/gitlab-com/support/metrics/-/issues/3)
 
@@ -183,7 +172,6 @@ If tickets have increased in difficulty:
 
 #### Shaping Actions
 
-
 If it was identified that PTO impacted our results:
 
 - Determine if additional headcount should be applied on certain dates / days of week.
@@ -194,7 +182,6 @@ If it was identified that PTO impacted our results:
 ### A single portion of tickets is responsible for decreased FRT results
 
 #### Past Analysis
-
 
 ##### [2020-09-14: A single portion of tickets is responsible for the overall sag in FRT](https://gitlab.com/gitlab-com/support/metrics/-/issues/2)
 
@@ -208,7 +195,6 @@ If it was identified that PTO impacted our results:
 - Compare the results and identify trends and spikes.
 
 #### Shaping Actions
-
 
 If it was identified that a single portion of our problem types exhibits poor performance (compared to the other problem types).
 

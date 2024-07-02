@@ -1,5 +1,4 @@
 ---
-
 title: "Minorities in Tech Mentoring Program: Thank You"
 description: "Thank You Page for Completing your Voting."
 canonical_path: "/company/culture/inclusion/erg-minorities-in-tech/mentoring/projects/2020/thankyou.html"

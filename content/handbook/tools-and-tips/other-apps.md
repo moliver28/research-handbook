@@ -107,15 +107,9 @@ You can also make the entire web page editable, using the [`designMode`](https:/
 [Grammarly](https://www.grammarly.com) is a good tool for those who want to feel more comfortable drafting written communication in English (American or British).
 There is a free and premium version.
 
-<div class="panel panel-gitlab-orange">
-**IMPORTANT NOTE FOR GRAMMARLY**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**IMPORTANT NOTE FOR GRAMMARLY**" header-bg="orange" %}}
 Grammarly browser extensions are discouraged, Grammarly will have access to everything you type in your browser, and they have had [a security problem](https://gizmodo.com/grammarly-bug-let-snoops-read-everything-you-wrote-onli-1822740378). If you want to use it to check non-confidential text manually, you should download the [desktop version](https://www.grammarly.com/native/mac) instead. The desktop version is not available for Linux. Refer to [GitLab's Data Classification Standard](/handbook/security/data-classification-standard.html) for additional details on how data is classified across the organization.
-
-</div>
-</div>
+{{% /panel %}}
 
 ### LanguageTool
 
@@ -236,11 +230,46 @@ There is [an unofficial extension maintained by GitLab team members](https://www
 [TripMode ($7.99)](https://www.tripmode.ch/) lets you control which apps can use the internet.
 This is especially useful when you're working on a cellular/metered connection. TripMode is only available for the Mac.
 
+### Stream Deck
+
+If you're not good at remembering hotkeys, or you are in need of a multi-step automation, a [Stream deck](https://www.elgato.com/ww/en/s/welcome-to-stream-deck) or similar might be the right thing for you. A Stream Deck allows you to program buttons to execute complex sequences of actions with a single press.
+
+#### How to use Apple Shortcuts with the Stream deck
+
+Besides the official integrations, you can also use the Apple Shortcuts app to have an easy way of defining actions without any programming knowledge and without the need of any external plugins.
+
+1. Add a Shortcut in the Shortcut app that you want to bind to a button on the Stream deck to.
+   - Note: Don't use a too complicated name as we will need the name to identify the Shortcut to run later. Blank spaces do work though.
+1. Save the following code as `ShortcutScript.scpt` (you can rename it, just the `scpt` extension is important) on your computer. The Stream deck will reference this script so save it somewhere you can find it later and keep in mind that deleting it will break the button as well.
+
+   ```applescript
+   on run argv
+      tell application "Shortcuts Events"
+         set shortcutName to item 1 of argv
+         run shortcut shortcutName
+      end tell
+   end run
+   ```
+
+1. Add a new Action in your Stream deck application. Use System > Open as template for this. You can freely choose the title of the action, this is only for your own reference and does not have to do anything with the Shortcut. As for the App/File - you can use the file locator to reference the .scpt file from step 2. Afterwards you have to click back into the input field and delete the apostrophes that were added by the file locator around the path. Now we can pass the name of the Shortcut to the script, if your Shortcut had blank spaces in its name you have to enclose it in quotes. So f.e for a Shortcut called `Active Speaker` the App/File input should contain the following `/path/to/script/ShortcutScript.scpt "Activate speaker"`
+
+1. Add more actions as you need them. Since the .scpt file is parameterized you dont have to repeat step 2 and can just use the script for all Shortcuts!
+
+#### Other Stream deck use cases
+
+- Switching scenes in OBS
+- Muting your microphone
+- Switching between speaker and headphones
+- Switching between languages and keyboard layouts
+- Starting timers (there are some great pomodoro apps that show the reminaing time on the button)
+- Enabling/disabling Do not disturb mode
+- Control lightning and change scenes
+
 ## Text editors
 
 ### GitHub Copilot
 
-GitHub released [Copilot](https://copilot.github.com), an AI-powered tool for in-situ suggestions within VSCode, in 2021. It’s an interesting and exciting tool. However at this time it does not guarantee that the code being suggested is strictly sourced from codebases governed by [an open source license compatible with our own project](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/LICENSE) which could lead to license conflicts. Until the licensing of the suggestions is established, please don't use Copilot.
+GitHub released [Copilot](https://copilot.github.com), an AI-powered tool for in-situ suggestions within VSCode, in 2021. It's an interesting and exciting tool. However at this time it does not guarantee that the code being suggested is strictly sourced from codebases governed by [an open source license compatible with our own project](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/LICENSE) which could lead to license conflicts. Until the licensing of the suggestions is established, please don't use Copilot.
 
 ## Video calling
 

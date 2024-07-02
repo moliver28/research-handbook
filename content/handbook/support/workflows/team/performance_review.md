@@ -1,11 +1,8 @@
 ---
-
 title: Performance reviews
 category: Support Team
 description: Information about performance reviews in Support Engineering
 ---
-
-
 
 ## Overview
 
@@ -45,8 +42,6 @@ corresponding Google Sheet.
 
 #### Growth, development and hiring of team members (Weighting: 20%)
 
-
-
 - **Developing:**
   - You are still getting to know your direct reports, and have not yet
     established a foundation to discuss career or learning goals.
@@ -73,8 +68,6 @@ corresponding Google Sheet.
     Talent Acquisition to ensure effective execution of the hiring plan.
 
 #### Process development and improvement (Weighting: 20%)
-
-
 
 - **Developing:**
   - You are just starting to build an understanding of Support Engineering
@@ -111,8 +104,6 @@ corresponding Google Sheet.
 
 #### People care and performance management (Weighting: 30%)
 
-
-
 - **Developing:**
   - You are just starting to build an understanding of most of your direct
     reports' productivity, engagement with work and personal wellbeing. You are
@@ -143,8 +134,6 @@ corresponding Google Sheet.
     Support Engineering team.
 
 #### Managing customer service outcomes (Weighting: 30%)
-
-
 
 - **Developing:**
   - You are just starting to build an understanding of service-related Support

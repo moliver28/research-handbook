@@ -1,25 +1,18 @@
 ---
-
 title: "Market Segmentation"
 ---
-
-
-
-
-
-
 
 ## Industry verticals
 
 Various verticals and industries face specific challenges as they address their specific market.  Ranging from compliance and regulatory pressure to specific market disruptions, IT teams in these verticals are developing solutions to their unique challenges.
 
- - Financial services
- - Automotive
- - Health care
- - Federal / Government / Public sector
- - Retail
- - Advanced manufacturing (as opposed to automotive)
- - Oil & Gas/Energy
+- Financial services
+- Automotive
+- Health care
+- Federal / Government / Public sector
+- Retail
+- Advanced manufacturing (as opposed to automotive)
+- Oil & Gas/Energy
 
  More information about Sales Segmentation can be found in our [Go To Market Resources page](/handbook/sales/field-operations/gtm-resources/).
 
@@ -27,17 +20,17 @@ Various verticals and industries face specific challenges as they address their 
 
  | Challenge | GitLab Helps |
  | --------- | ------------ |
- | **Security** | GitLab’s single platform controls and manages access to the SDLC tool chain helping them to increase confidence in their development process.   The ability to audit, review and automate security scans as a core part of the development lifecycle further helps to ensure that every application they build is more secure. |
+ | **Security** | GitLab's single platform controls and manages access to the SDLC tool chain helping them to increase confidence in their development process.   The ability to audit, review and automate security scans as a core part of the development lifecycle further helps to ensure that every application they build is more secure. |
  | **Aging infrastructure** | GitLab simplifies move to modern cloud native (kubernetes) |
  | **Compliance** | A single platform that controls and manages access to the SDLC tool chain.   Built in audits, reviews and automation help to create a trusted pipeline. |
  | **New technology (business disruption / digital transformation)** | This will demand rapid and responsive design, development and iteration from the software teams building the transportation as a service platform and infrastructure.   GitLab and concurrent DevOps can help teams to dramatically decrease cycle times to ship software. |
 
- - [8 challenges for Financial Svcs CIOs](https://www.cio.com/article/3128314/financial-it/8-challenges-that-keep-financial-services-ctos-and-cios-up-at-night.html)
- - [Top Finanical Svcs Issues  (PWC)](https://www.pwc.com/us/en/industries/financial-services/research-institute/top-issues.html)
- - [FSI Top Issues 2018 (PWC pdf)](https://www.pwc.com/us/en/financial-services/research-institute/assets/pwc-fsi-top-issues-2018.pdf)
- - [Fin Svcs Insights - Protiviti](https://www.protiviti.com/sites/default/files/united_states/insights/fs-insights-v4-i3-protiviti.pdf)
- - [Financial Services Regulatory Compliance](/solutions/financial-services-regulatory-compliance/)
- - [PCI Compliance](/solutions/pci-compliance/)
+- [8 challenges for Financial Svcs CIOs](https://www.cio.com/article/3128314/financial-it/8-challenges-that-keep-financial-services-ctos-and-cios-up-at-night.html)
+- [Top Finanical Svcs Issues  (PWC)](https://www.pwc.com/us/en/industries/financial-services/research-institute/top-issues.html)
+- [FSI Top Issues 2018 (PWC pdf)](https://www.pwc.com/us/en/financial-services/research-institute/assets/pwc-fsi-top-issues-2018.pdf)
+- [Fin Svcs Insights - Protiviti](https://www.protiviti.com/sites/default/files/united_states/insights/fs-insights-v4-i3-protiviti.pdf)
+- [Financial Services Regulatory Compliance](https://about.gitlab.com/solutions/financial-services-regulatory-compliance/)
+- [PCI Compliance](https://about.gitlab.com/solutions/pci-compliance/)
 
 ### Automotive
 
@@ -64,7 +57,7 @@ Various verticals and industries face specific challenges as they address their 
 - [3 challenges for healthcare IT](https://www.healthdatamanagement.com/opinion/how-3-major-challenges-will-shape-healthcare-it-in-2018)
 - [Four IT Challenges for healthcare in 2018](https://thedoctorweighsin.com/four-it-challenges-facing-healthcare-organizations-in-2018/)
 - [Top IT issues in 2018](https://www.advisory.com/research/health-care-it-advisor/it-forefront/2018/01/top-it-2018)
-- [How GitLab can help HIPAA compliance](/solutions/hipaa-compliance/)
+- [How GitLab can help HIPAA compliance](https://about.gitlab.com/solutions/hipaa-compliance/)
 
 ### Oil & gas/energy
 

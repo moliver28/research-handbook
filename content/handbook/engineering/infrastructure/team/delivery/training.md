@@ -1,13 +1,6 @@
 ---
-
 title: "Delivery Team Training"
 ---
-
-
-
-
-
-
 
 ## Common links
 
@@ -60,14 +53,14 @@ skills about release management topics. These sessions are focused on release pr
 fire drills and any other topic that could ramp-up the release manager knowledge between
 Delivery team members.
 
-The topics and scenarios discussed in the meeting are brought up in [Release Manager agenda]
+The topics and scenarios discussed in the meeting are brought up in [Release Manager agenda](https://docs.google.com/document/d/1ttz3uNRaL5Ihp373Xgl459Fqu7wZMX4h9ROKeq_CaSY/edit)
 (internal only) ahead of the meeting time and the videos are posted on the
 [Release Manager discussions and fire drills playlist].
 
 ## Training Listings
 
-- [Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqQh7yud-u2NSt7V4isH_vg)
-- [Release Manager discussions and fire drills playlist]
+* [Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqQh7yud-u2NSt7V4isH_vg)
+* [Release Manager discussions and fire drills playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrxYqLycfvyiWpgtNApTfzx)
 
 ### FAQ
 
@@ -83,6 +76,3 @@ A: In an ideal world, possibly. However, everyone has a lot of tasks assigned
 and they might not be able to go through the docs until they need to do something.
 This might be months later and you, as a person who would give the training, might not
 be able help efficiently anymore.
-
-[Release Manager agenda]: https://docs.google.com/document/d/1ttz3uNRaL5Ihp373Xgl459Fqu7wZMX4h9ROKeq_CaSY/edit
-[Release Manager discussions and fire drills playlist]: https://www.youtube.com/playlist?list=PL05JrBw4t0KrxYqLycfvyiWpgtNApTfzx

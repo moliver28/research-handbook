@@ -29,7 +29,7 @@ flowchart LR
 - Expanding GitLab Environment Toolkit (GET), our established provisioning toolkit.
 - Expanding GitLab Performance Tool (GPT), our performance testing tool for validation at scale.
 
-The [Self-Managed Excellence dashboard](https://app.periscopedata.com/app/gitlab/1101145/Self-Managed-Excellence-metrics)
+The [Self-Managed Excellence dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2241132/views)
 tracks merge requests and issues metrics for GitLab Environment Toolkit, GitLab Performance Tool and Reference Architectures projects.
 
 ## Reference Architectures
@@ -54,9 +54,8 @@ In FY23 we're focusing on enabling self-service approach for Reference Architect
 
 ### Metrics
 
-{{< sisense chart="15921901" dashboard="1101145" >}}
-
-{{< sisense chart="16832951" dashboard="1101145" >}}
+{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/ReferenceArchitectures?:iid=3" >}}
+{{< /tableau >}}
 
 ## GitLab Environment Toolkit
 
@@ -82,11 +81,8 @@ In FY23 we're focusing on achieving Viable maturity status for GET in both funct
 
 ### Metrics
 
-{{< sisense chart="15914946" dashboard="1101145" >}}
-
-{{< sisense chart="15921561" dashboard="1101145" >}}
-
-{{< sisense chart="15921831" dashboard="1101145" >}}
+{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/GitlabEnvironmentToolkit?:iid=3" >}}
+{{< /tableau >}}
 
 ## GitLab Performance Tool
 
@@ -106,9 +102,8 @@ For more details about the roadmap and the list of planned issues, please refer 
 
 ### Metrics
 
-{{< sisense chart="15914977" dashboard="1101145" >}}
-
-{{< sisense chart="15946692" dashboard="1101145" >}}
+{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/GitlabPerformanceTool?:iid=3" >}}
+{{< /tableau >}}
 
 ## How to Engage with Us
 

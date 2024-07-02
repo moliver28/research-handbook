@@ -1,15 +1,9 @@
 ---
-
 title: "Enterprise Data & Insights Team Operating Principles"
 description: "GitLab Enterprise Data & Insights Team Operating Principles Handbook"
 ---
 
-
-
-
-
-
-----
+---
 
 ## Data Management Principles
 
@@ -36,15 +30,15 @@ description: "GitLab Enterprise Data & Insights Team Operating Principles Handbo
 
 ## Data & Insights Operating Principles
 
-**We are proud, yet humbled to be the Center of Excellence for Data & Insights at one of the world’s most innovative companies.**
+**We are proud, yet humbled to be the Center of Excellence for Data & Insights at one of the world's most innovative companies.**
 
 There are three **Data Team Operating Principles**:
 
 ```mermaid
 graph TD
   A[Data Team Operating Principles]
-  A --> B[Build A Better Team] 
-  A --> C[Deliver Results That Matter] 
+  A --> B[Build A Better Team]
+  A --> C[Deliver Results That Matter]
   A --> D[Create Trusted & Scalable Data Solutions]
 ```
 
@@ -55,8 +49,8 @@ graph TD
 - We assume best intent towards GitLab success
 - We are honest with ourselves and with each other
 - We have permission to disagree, but must drive to commitment
-- We don’t hide from difficult conversations
-- We’re in this together as a team
+- We don't hide from difficult conversations
+- We're in this together as a team
 - We tackle mistakes as a team and seek to get better
 
 ### Deliver Results That Matter
@@ -64,7 +58,7 @@ graph TD
 - Data-Driven First, Data-Informed Second, Principles & Stories Third
 - We believe in built to last, not built too fast
 - We operate with a [growth mindset](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means), continually raising the standard
-- We don’t confuse activity with progress
+- We don't confuse activity with progress
 - We know how our work aligns with strategic initiatives and how it will help our Business Partners deliver impactful results
 - We go the extra mile to provide Context, Facts, and Insights
 - We define expectations up front: Scope, Time, and Success Criteria
@@ -80,8 +74,8 @@ graph TD
 - We believe the best way to align on a complex outcome is to picture it
 - Automated tests are the best tests and we implement tests at every step of the data delivery process
 
+### Additional beliefs held by the Data Team include
 
-### Additional beliefs held by the Data Team include:
 - Everything can and should be defined in code and version controlled
 - Data implementations should integrate best practices from DevOps into their workflow
 - Partner with each Business function while having a high-quality, maintainable code base
@@ -92,4 +86,3 @@ graph TD
 - All business users should be able to learn how to interpret and calculate simple statistics
 
 ---
-

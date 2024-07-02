@@ -1,5 +1,4 @@
 ---
-
 title: Marketing Analytics
 description: >-
   Marketing Analytics supports the entire Marketing team to
@@ -10,12 +9,6 @@ description: >-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
 ## <i id="biz-tech-icons" class="far fa-newspaper"></i>Charter
 
 Marketing Analytics supports the entire Marketing team to develop and execute a Global Marketing Strategy working with Marketing Leadership and GTM teams, as well as owning the overall measurement strategy for GitLab marketing working with the data team.
@@ -23,36 +16,18 @@ Marketing Analytics supports the entire Marketing team to develop and execute a 
 ## <i id="biz-tech-icons" class="fas fa-users"></i>Meet the Team
 
 - [Christine Lee, VP, Marketing Operations & Analytics](/handbook/company/team/#christinelee)
-- [Jerome Ahye, Manager, Data Analytics](/handbook/company/team/#jahye1)
+- [Viola Hempel, Director, Marketing Analytics](/handbook/company/team/#vhempel)
+- [Jerome Ahye, Staff Data Analyst, Data Analytics](/handbook/company/team/#jahye1)
 - [Robert Kohnke, Senior Data Engineer](/handbook/company/team/#rkohnke)
 - [David Egan, Staff Data Analyst](/handbook/company/team/#dwegan)
-- [Djordje Micovic, Senior Data Analyst](/handbook/company/team/#dmicovic)
-- [Dennis Charukulvanich, Digital Experience Analyst](/handbook/company/team/#dennischarukulvanich)
-
-## <i id="biz-tech-icons" class="fas fa-users"></i>Teams We Work Closely With
-
-<div class="flex-row" markdown="0" style="height:80px">
-    <a href="/handbook/marketing/revenue-marketing/" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Revenue Marketing</a>
-    <a href="/handbook/marketing/corporate-communications" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Corporate Communications</a>
-    <a href="/handbook/marketing/developer-relations/" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Developer Relations</a>
-    <a href="/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Product and Solution Marketing</a>
-    <a href="/handbook/marketing/inbound-marketing/" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Inbound Marketing</a>
-
-</div>
-
-<div class="flex-row" markdown="0" style="height:80px">
-    <a href="/handbook/sales/field-operations/sales-operations" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Sales Operations</a>
-    <a href="/handbook/finance/procurement/" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Procurement</a>
-    <a href="/handbook/business-technology/" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Business Ops</a>
-
-</div>
+- [Djordje Micovic, Staff Data Analyst](/handbook/company/team/#dmicovic)
+- [Dennis Charukulvanich, Senior Data Analyst](/handbook/company/team/#dennischarukulvanich)
 
 ## <i id="biz-tech-icons" class="far fa-paper-plane"></i>How to Communicate with Us
 
 **Slack channels**
 
 We can be reached via our own [#mktg-analytics](https://gitlab.slack.com/archives/C01HTAYQBM5) channel, although we also monitor the general [#marketing](https://gitlab.slack.com/archives/C0AKZRSQ5) channel and [#mktgops](https://gitlab.slack.com/archives/mktgops). We attempt to [avoid direct messages](/handbook/communication/#avoid-direct-messages) where possible as it discourages collaboration.
-
 
 ## <i id="biz-tech-icons" class="far fa-life-ring"></i>How to Get Help
 
@@ -98,8 +73,9 @@ Marketing Analytics uses the Fibonnacci sequence when creating [issue weights](h
 We follow a weekly triage schedule and alternate responsibility between the team. You can see who is currently on triage with our shared [Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y185YTczZjgzOWQyOWUyY2U3MDEwYjkyNTJmYzFmY2U2NTYzM2MyMzBiOGQxNzk5NmY4ZDIyODkxOGVlNmM1ZWM5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
 During your rotation, you are expected to:
-  - Triage new issues in our board according to our stakeholder alignment, checking at least twice per day.
-  - Triage or help with new messages in [#mktg-strat-analytics](https://gitlab.slack.com/archives/C01HTAYQBM5)
+
+- Triage new issues in our board according to our stakeholder alignment, checking at least twice per day.
+- Triage or help with new messages in [#mktg-strat-analytics](https://gitlab.slack.com/archives/C01HTAYQBM5)
 
 Dennis is responsible for all web analytics triage.
 
@@ -198,20 +174,19 @@ To give each functional marketing team has a single point of contact for marketi
 ## <i id="biz-tech-icons" class="far fa-folder-open"></i>Important Resources
 
 - [Marketing Metrics](/handbook/marketing/strategy-performance/marketing-metrics)
+- [Dashboards Page](dashboards)
 
-## <i id="biz-tech-icons" class="fas fa-toolbox"></i>We are the Bussiness Owners Of the Following Applications: 
+## <i id="biz-tech-icons" class="fas fa-toolbox"></i>We are the Bussiness Owners Of the Following Applications
 
 - [Bizible](/handbook/marketing/marketing-operations/bizible/)
 - [Allocadia](/handbook/marketing/strategy-performance/allocadia/)
 - Google Analytics
 
-
 ### Requesting access to an existing tool
 
-To request access to Bizible or Allocadia, [please follow the access request process](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
+To request access to Bizible or Allocadia, [please follow the access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
 
 If you are working with a contractor or consultant that requires access to one of these tools, [please follow the professional services access request process](/handbook/finance/procurement/) as outlined in the procurement handbook.
-
 
 ## Campaigns and Programs
 

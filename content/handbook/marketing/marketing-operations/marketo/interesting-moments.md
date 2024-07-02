@@ -1,22 +1,16 @@
 ---
-
 title: "Marketo Interesting Moments"
 description: "Commonly used Interesting Moments and what they mean"
 ---
 
-
-
-
-
-
-
 ## Overview
+
 [Interesting moments](https://experienceleague.adobe.com/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/features/tabs-in-the-msi-panel/interesting-moments/using-interesting-moments.html?lang=en) are used by Marketo to show relevant information to the sales team and others in Salesforce.com
 
 Interesting Moments show in two places on records, in the Marketo Sales Insight window or in the `Last Intersting Moment Description` field. This field updates dynamically every time an Interesting Moment is updated and date stamped.
 
-
 ## Common Interesting Moments
+
 |Interesting Moment|Description|SFDC Campaign|SDR Action|
 |-----------|--------------|------------|----------|
 |`This lead is part of a namespace that has checked to setup GitLab for Company/Team use`|Owner indicated on signup that this namespace is for company or team use. This person is a member of that namespace|n/a|no action, more of an FYI|

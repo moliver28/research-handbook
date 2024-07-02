@@ -1,18 +1,12 @@
 ---
-
 title: "Communicating with the Field"
 description: "Guide to communicating with and within the GitLab Field team using both Slack and email"
 ---
 
-
-
-
-
-
-
 This page is meant to serve as a guide to communicating with and within the Field using both Slack and email. Read below to find an outline of all Google Groups and Slack channels related to Sales and Customer Success.
 
 In order to drive clarity on this page, it is important to note the difference in definitions between:
+
 1. Sales: Refers to team members in the Enterprise and Commercial Sales teams.
 1. CS: Refers to team members in the groups that make up the Customer Success organization.
 1. Field: Refers to ALL members of the GTM team – Sales, CS, Marketing (SDRs), Professional Services.
@@ -50,7 +44,7 @@ See the below chart for a visualization of the Google Group hierarchy
 
 ![Sales Google Groups](/handbook/sales/images/newsalesgg_v5.jpg)
 
-To confirm if you are in a particular Google Group, see the [Google Workspace Group Membership Reports.](/handbook/business-technology/team-member-enablement/#automated-group-membership-reports-for-managers) To gain access to new Google Groups, please [fill out an access request (AR) form.](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/)
+To confirm if you are in a particular Google Group, see the [Google Workspace Group Membership Reports.](/handbook/business-technology/end-user-services/#automated-group-membership-reports-for-managers) To gain access to new Google Groups, please [fill out an access request (AR) form.](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/)
 
 ## Slack Channels and Groups
 
@@ -61,13 +55,14 @@ The primary Slack channels for the field are:
 - #sales-support: The general channel to ask for sales support from Field Operations.
 - #customer-success: The general channel to interact with & within Customer Success.
 
-All field team members should star 🌟 and follow these four channels for important updates about the business. There are multiple team channels in the field organization, outlined below. Please follow the channels relevant to your role. To gain access to private channels, please [fill out an access request (AR) form.](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/)
+All field team members should star 🌟 and follow these four channels for important updates about the business. There are multiple team channels in the field organization, outlined below. Please follow the channels relevant to your role. To gain access to private channels, please [fill out an access request (AR) form.](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/)
 
 ### Slack Groups
 
 Slack Groups are groups of members in a workspace who often need to be notified at once. The Field organization has multiple Slack Groups that effectively allow a group of people to be cc'd on a Slack communication. Please note that Slack groups send a push notification to all members and should be used sparingly, in accordance with the [guidelines around @here mentions in the Handbook](/handbook/communication/#be-respectful-of-others-time).
 
 Only use Slack Groups if:
+
 1. The content of the message is hyper-relevant to ALL members of the group
 1. The content of the message is time-sensitive and/or needs immediate action
 1. The content of the message has significant impact to the business and/or team
@@ -102,7 +97,6 @@ The below channels are specific to the field organization.
 | #sales-cs-managers | private | Used for communication with and between WW managers in Customer Success |
 | #wins-key-deals | public | Used for celebrating key deals for our Sales team. Scope defined in channel description. |
 
-
 **Sales**
 
 | Channel Name | Channel Access (Private/Public) | Description |
@@ -118,6 +112,7 @@ The below channels are specific to the field organization.
 
 **Customer Success**
 Consistent with company guidance to use [public channels](/handbook/communication/#use-public-channels), there are instances where private channels are preferred. As we want to ensure an [inclusive environment](/handbook/values/#diversity-inclusion), the feedback from some of the team is that private channels are sometimes preferred as there is a perception of being judged (i.e., imposter syndrome). The recommendation is to use public channels as it:
+
 - Allows for broader collaboration (i.e., SA/CSM/PS, Product, Marketing, Sales) on solutions, recommendations, and best practices
 - Provides ability for broader learning for things such as customer challenges, enablement needs, product documentation improvements, etc.
 - Enables the ability to harvest the information for content (i.e., CSM solutions, adoption content for digital journey, product documentation)
@@ -127,7 +122,7 @@ The recommendation is to use public channels even while it may sometimes feel un
 | ------ | ------ | ------ |
 | #customer-success | public | Used to interact with & within Customer Success |
 | #cs-questions | public | Questions from customers and prospects to the Customer Success team about using GitLab and best practices |
-| #demo-systems | public | Open discussion and questions about demo systems that aren’t appropriate for issues |
+| #demo-systems | public | Open discussion and questions about demo systems that aren't appropriate for issues |
 | #professional-services |  public | Used to [communicate with the Professional Services team](/handbook/customer-success/professional-services-engineering/working-with/#slack) |
 
 **Field Operations**
@@ -142,7 +137,7 @@ The recommendation is to use public channels even while it may sometimes feel un
 
 | Channel Name | Channel Access (Private/Public) | Description |
 | ------ | ------ | ------ |
-| #alliances | public | Questions regarding alliance partners |
+| #cloud-aws or #cloud-gcp | public | Questions regarding alliance partners |
 | #channel-sales | public | Topics related to channel sales |
 | #partner-programs-ops | public | Topics related to partner programs and operations |
 | #channel-marketing | public | Topics related to channel marketing |

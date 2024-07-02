@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab for Education Program Workflows"
 description: "Details on program-specific workflows related to the GitLab for Education Program"
 ---
@@ -8,7 +7,7 @@ description: "Details on program-specific workflows related to the GitLab for Ed
 
 This page contains details regarding workflows specific to the [GitLab for Education Program](https://about.gitlab.com/solutions/education/).
 GitLab uses a third party, [SheerID](https://www.sheerid.com/), for verification services.
-The GitLab for Education Program provides SheerID with the [program requirements](/solutions/education/join/#requirements) and the SheerID platform is able to verify if an individual meets our requirements by matching applicant-provided data against authoritative data sources automatically.
+The GitLab for Education Program provides SheerID with the [program requirements](https://about.gitlab.com/solutions/education/join/#requirements) and the SheerID platform is able to verify if an individual meets our requirements by matching applicant-provided data against authoritative data sources automatically.
 SheerID instantly confirms whether or not there is a match and either successfully verifies the applicant or rejects the applicant.
 
 ## Managing application forms
@@ -57,7 +56,7 @@ Acceptable examples include Teacher ID card with valid date and pay stub from wi
 Applicants will have 3 attempts to upload a document providing verification of eligibility.
 SheerID will manually review these documents.  Upon the third unsuccessful attempt, applicant will be rejected.
 
-If SheerID is unable to determine the eligibility based on the document review, SheerID will forward the applicant's record to education@gitlab.com. 
+If SheerID is unable to determine the eligibility based on the document review, SheerID will forward the applicant's record to education@gitlab.com.
 The GitLab for Education team will review the documentation and determine eligibility.
 
 ### Verification limit
@@ -85,10 +84,12 @@ You'll need to create an EndNote account from the [EndNote homepage](https://end
 1. Save the citations your Google Scholar Library
 1. Export the citations in EndNote format.
 1. Log into your [EndNote account](https://endnote.com/). See note below if you do not have an account. Import the citations from Google Scholar
-  - From the `Collect` menu go to `Import References`
-  - Choose the File
-  - For `Import Option` choose EndNote
-  - For `To` choose **GitLab Citation Index Webpage** Group
+
+   - From the `Collect` menu go to `Import References`
+   - Choose the File
+   - For `Import Option` choose EndNote
+   - For `To` choose **GitLab Citation Index Webpage** Group
+
 1. View each citation from the `My References` menu
 1. Update any relevant information that may have not imported correctly
 1. Add relevant keywords
@@ -134,7 +135,7 @@ Using Twitch as part of the Education program involves using an Education Evange
 If you are a GitLab team member and you would like to join an episode of ["Meet the Tanukis"]([Meet The Tanukis](https://www.youtube.com/playlist?list=PL05JrBw4t0KoNJYDi1ozN45tvstdwEy04)
 ), please create an issue with the [`edu_twitch_internal_request` template](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/outreach/-/issues/new?issuable_template=edu_twitch_internal_request).
 
-The goal of "Meet the Tanukis” is to add a vehicle for Developer Relations and broader team members to reach out to their communities. Twitch is valuable in creating a show format that helps create audience participation as well as a valuable source for future content by uploading the show to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/c/GitLabUnfiltered/videos) after. By creating a show featuring team members, any outreach goals they have for their own program can be highlighted on the show and utilized for future content as well to promote their KRs or other goals.
+The goal of "Meet the Tanukis" is to add a vehicle for Developer Relations and broader team members to reach out to their communities. Twitch is valuable in creating a show format that helps create audience participation as well as a valuable source for future content by uploading the show to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/c/GitLabUnfiltered/videos) after. By creating a show featuring team members, any outreach goals they have for their own program can be highlighted on the show and utilized for future content as well to promote their KRs or other goals.
 
 The structure of the show is a talk show where the guest is able to highlight and discuss anything they'd like. It's a casual conversation with an ["at-the-table"](https://design.gitlab.com/brand/overview#tone-of-voice) tone. The conversation can move and change as the show goes on, but the host will always bring it back to the preferred topics provided by the team member.
 
@@ -152,7 +153,7 @@ Once you've finished a stream, make sure to download the video so you can upload
 
 `Name of Show season.episode: Name of Guest`
 
-In the description, make sure to include any relevant links, especially ones you shared onstream. Be sure to include the [GitLab for Education](/solutions/education/) link every time as well. While uploading, make sure to add it to the correct playlist: `Meet the Tanukis`.
+In the description, make sure to include any relevant links, especially ones you shared onstream. Be sure to include the [GitLab for Education](https://about.gitlab.com/solutions/education/) link every time as well. While uploading, make sure to add it to the correct playlist: `Meet the Tanukis`.
 
 There is a Dev.to series page for the shows. Add a new article to Dev.to and give each episode its own article with the YouTube video in the article as well as all the links discussed or important to the show. The text for each individual article should read:
 
@@ -160,7 +161,7 @@ Meet the Tanukis: `Meet the Tanukis is a stream about the amazing Team members a
 
 Indicate that it is a part of the series ["Meet the Tanukis"](https://dev.to/metzinaround/series/14323) by selecting it from the hexagon at the bottom of the article editor. The series lists all the articles related to the episode.
 
-Finally, post the link to the youtube video in any relevant slack channels, including [#dev-evangelism-and-technical-marketing](https://gitlab.slack.com/archives/CMELFQS4B), [#education-evangelism](https://gitlab.slack.com/archives/C024ZBWK5KJ), and [#social_media_action](https://gitlab.slack.com/archives/C01AZ9C8Z4G).
+Finally, post the link to the youtube video in any relevant slack channels, including [#dev-advocacy-team](https://gitlab.slack.com/archives/CMELFQS4B), [#education-evangelism](https://gitlab.slack.com/archives/C024ZBWK5KJ), and [#social_media_action](https://gitlab.slack.com/archives/C01AZ9C8Z4G).
 
 ### Locating Streams
 

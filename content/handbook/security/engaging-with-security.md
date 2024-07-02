@@ -10,7 +10,7 @@ GitLab receives vulnerability reports by various pathways, including:
 - Reports or questions that come in from customers through Zendesk.
 - Issues opened on the public issue trackers. The security team can not review
 all new issues and relies on everyone in the company to identify and label
-issues as `~bug::vulnerability` and @-mention `@gitlab-com/gl-security/appsec` on issues.
+issues as `~bug::vulnerability` and @-mention `@gitlab-com/gl-security/product-security/appsec` on issues.
 - Issues reported by automated security scanning tools
 
 For **any** reported vulnerability:
@@ -19,9 +19,10 @@ For **any** reported vulnerability:
 is verified. If the vulnerability was reported via a public issue, make the issue confidential.
 If triage is delayed due to team availability, the delay should be communicated.
 - Add `~security` and `~bug::vulnerability` labels to the issue.  Add the appropriate group label if known.
+- Add the `~Weakness::CWE-XXX` label, where the `XXX` is the weakness related [CWE](https://cwe.mitre.org/data/index.html) ID.
 - An initial determination should be made as to severity and impact. Never **dismiss** a security report outright. Instead, follow up with the reporter, asking clarifying questions.
 - For next steps, see the process as it is detailed below for HackerOne reports, and adhere to the guidelines there for vulnerabilities reported in other ways as well in terms of frequency of communication and so forth.
-- Remember to prepare patches, blog posts, email templates, etc. [following the security release process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md) or in other non-public ways even if there is a reason to believe that the vulnerability is already out in the public domain (e.g. the original report was made in a public issue that was later made confidential).
+- Remember to prepare patches, blog posts, email templates, etc. [following the security engineer process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md) or in other non-public ways even if there is a reason to believe that the vulnerability is already out in the public domain (e.g. the original report was made in a public issue that was later made confidential).
 
 ### Triage Rotation
 
@@ -53,10 +54,10 @@ The GitLab issue should then be closed and - after 30 days - sanitized and made 
 
 ### Process for disclosing security issues
 
-At GitLab we value [being as transparent as possible]({{< ref "values#transparency" >}}), even [when it costs]({{< ref "values#transparency-is-most-valuable-if-you-continue-to-do-it-when-there-are-costs" >}}). Part of this is making confidential GitLab issues about security vulnerabilities public 30 days after a patch. The process is as follows:
+At GitLab we value [being as transparent as possible](/handbook/values/#transparency), even [when it costs](/handbook/values/#transparency-is-most-valuable-if-you-continue-to-do-it-when-there-are-costs). Part of this is making confidential GitLab issues about security vulnerabilities public 30 days after a patch. The process is as follows:
 
 1. Check for a `~keep confidential` tag. If one exists
-   1. Decide whether this tag is still appropriate and in line with our [Transparency value]({{< ref "values#transparency" >}})
+   1. Decide whether this tag is still appropriate and in line with our [Transparency value](/handbook/values/#transparency)
    1. Start a discussion with issue participants, if needed
 1. If an issue does not have `~keep confidential`, remove sensitive information from the description and comments, e.g.
    1. Proof-of-concept videos & screenshots showing researcher account information
@@ -117,13 +118,13 @@ Consider adding the `/confidential` quick action to a project issue template.
 - Add any additional labels you know apply. Additional labels will be applied
 by the security team and other engineering personnel, but it will help with
 the triage process:
-    - [`~"type::bug"`, `~"type::maintenance"`, or `~"type::feature"` if appropriate]({{< ref "./product-security/application-security/vulnerability-management#vulnerability-vs-feature-vs-bug" >}})
-    - Team or DevOps lifecycle labels
-    - `~customer` if issue is a result of a customer report
-    - `~internal customer` should be added by team members when the issue
+  - [`~"type::bug"`, `~"type::maintenance"`, or `~"type::feature"` if appropriate]({{< ref "./product-security/application-security/vulnerability-management#vulnerability-vs-feature-vs-bug" >}})
+  - Team or DevOps lifecycle labels
+  - `~customer` if issue is a result of a customer report
+  - `~internal customer` should be added by team members when the issue
     impacts GitLab operations.
-    - `~dependency update` if issue is related to updating to newer versions of the dependencies GitLab requires.
-    - `~featureflag::` scoped labels if issue is for a functionality behind a feature flag
+  - `~dependency update` if issue is related to updating to newer versions of the dependencies GitLab requires.
+  - `~featureflag::` scoped labels if issue is for a functionality behind a feature flag
 - Issues that contain customer specific data, such as private repository contents,
 should be assigned `~keep confidential`. If possible avoid this by linking
 resources only available to GitLab team member, for example, the originating
@@ -135,7 +136,7 @@ issue. If necessary, a sanitized issue may need to be created with more
 general discussion and examples appropriate for public disclosure prior to
 release.
 
-For review by the Application Security team, @ mention `@gitlab-com/gl-security/appsec`.
+For review by the Application Security team, @ mention `@gitlab-com/gl-security/product-security/appsec`.
 
 For more *immediate* attention, refer to [Engaging security on-call]({{< ref "engaging-security-on-call" >}}).
 
@@ -144,7 +145,7 @@ For more *immediate* attention, refer to [Engaging security on-call]({{< ref "en
 Severity and priority labels are set by an application security engineer at the time of triage
 if and only if the issue is [determined to be a vulnerability]({{< ref "./product-security/application-security/vulnerability-management#vulnerability-vs-feature-vs-bug" >}}).
 To identify such issues, the engineer will add the `~bug::vulnerability` label.
-Severity label is determined by CVSS score, using the [GitLab CVSS calculator](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/).
+Severity label is determined by CVSS score, using the [GitLab CVSS calculator](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/).
 If another team member feels that the chosen `~severity` / `~priority` labels
 need to be reconsidered, they are encouraged to begin a discussion on the relevant issue.
 
@@ -163,10 +164,10 @@ a external
 metric that may be evaluated by users as an indication of GitLab's commitment
 to protecting our users and customers. It is also an important measurement that
 security researchers use when choosing to engage with the security team, either
-directly or through our [HackerOne Bug Bounty Program]({{< ref "./product-security/application-security/runbooks/hackerone-process." >}}").
+directly or through our [HackerOne Bug Bounty Program]({{< ref "./product-security/application-security/runbooks/hackerone-process.md" >}}").
 
 Vulnerabilities must be mitigated and remediated according to specific timelines.
-The timelines are specified in the [Vulnerability Management handbook]({{< ref "./threat-management/vulnerability-management/#remediation-slas" >}}) (a [controlled document]({{< ref "./controlled-document-procedure" >}})).
+The timelines are specified in the [Vulnerability Management handbook]({{< ref "./product-security/vulnerability-management/#remediation-slas" >}}) (a [controlled document]({{< ref "./controlled-document-procedure" >}})).
 
 If a better understanding of an issue leads us to discover the severity has changed, recalculate the time to remediate from the date the issue was opened. If that date is in the past, the issue must be remediated on or before the next security release.
 
@@ -176,7 +177,7 @@ For `~security` issues with the `~bug::vulnerability` label and a severity of `~
 which is the target date of when fixes should be ready for release.
 This due date should account for the `Time to remediate` times above, as well as
 monthly security releases on the 28th of each month. For example, suppose today is October 1st, and
-a new `severity::2` `~security` issue is opened. It must be addressed in a security release [within 30 days]({{< ref "./threat-management/vulnerability-management#remediation-slas" >}}),
+a new `severity::2` `~security` issue is opened. It must be addressed in a security release [within 30 days]({{< ref "./product-security/vulnerability-management#remediation-slas" >}}),
 which is October 31st. So therefore, it must catch the October 28th security release.
 Furthermore, the [Security Release Process deadlines](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#release-deadlines)
 say that all merge requests associated with the fix must be ready 48 hours before the due date of the security release, which would be October 26th. So the due date in this example must be October 26th.
@@ -201,15 +202,14 @@ problems that arise.
 |       S4 |    Begin working on the ~"bug::vulnerability" and ~"FedRAMP::Vulnerability" security issue at least 2 Milestones prior to the due date    |
 | S1,S2 or S3 that is blocked | The team that owns the blocking issue, should disrupt their current milestone and work on the blocking issue **right away** |
 
-
 ### Reproducibility on `~security` Issues
 
 The issue description should have a `How to reproduce` section to ensure clear replication details are in description. Add additional details, as needed:
 
 - Environment used:
-    - Docker Omnibus version x.y.z
-    - gitlab.com
-    - staging.gitlab.com
+  - Docker Omnibus version x.y.z
+  - gitlab.com
+  - staging.gitlab.com
 - Conditions used such as projects, users, enabled features or files used
 - A step by step plan to reproduce the issue
 - The url or even better the `curl` command that triggers the issue
@@ -218,7 +218,7 @@ The issue description should have a `How to reproduce` section to ensure clear r
 
 Issues labelled with the `security` but without `~type::bug + ~bug::vulnerability` labels are **not** considered vulnerabilities, but rather security enhancements, defense-in-depth mechanisms, or other security-adjacent bugs. For example, issues labeled `~"type::feature"` or `~"type::maintenance"`. This means the security team does not set the `~severity` and `~priority` labels or follow the vulnerability triage process as these issues will be triaged by [product](/handbook/product/) or other appropriate team owning the component.
 
-Implementation of security feature issues should be done publicly in line with our [Transparency]({{< ref "values#transparency" >}}) value, i.e. not following the [security developer workflow](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md).
+Implementation of security feature issues should be done publicly in line with our [Transparency](/handbook/values/#transparency) value, i.e. not following the [security developer workflow](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md).
 
 On the contrary, note that issues with the `security`, `~type::bug`, and `severity::4` labels are considered `Low` severity vulnerabilities and will be handled according to the standard vulnerability triage process.
 

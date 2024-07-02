@@ -1,15 +1,7 @@
 ---
-
 title: "Product Marketing Onboarding"
 description: "GitLab's onboarding guide: important information for new team members"
 ---
-
-
-
-
-
-
-
 
 ## **Onboarding Guide**
 
@@ -102,7 +94,7 @@ Pay special attention to the [**coffee chats**](/handbook/company/culture/all-re
 
 #### Learn About Our Partners
 
-| **Get to know our partners** | Recordings
+| **Get to know our partners** | Recordings |
 | ------ | ------ |
 |    1. Technology Partners overview | tbd |
 |    2. Channel Partners and Resellers overview | tbd |

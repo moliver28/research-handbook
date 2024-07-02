@@ -146,7 +146,7 @@ The Senior Manager, Marketing Campaigns is a [grade 9](/handbook/total-rewards/c
 #### Senior Manager, Marketing Campaigns Requirements
 
 - Extends that of the Manager, Marketing Campaigns requirements
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ## Specializations
@@ -177,7 +177,7 @@ The Marketing Campaign Manager, Public Sector is responsible for strategizing, e
 
 - Extends that of the Marketing Campaign Manager responsibilities
 - Strategize, execute, and optimize a data-driven demand generation campaign strategy to achieve sales goals for Channels and Alliances group
-- Develop and manage strategy across the sales channels and alliances sales teams and align to quarterly OKR’s and sales goals/objectives (i.e. channel partner)
+- Develop and manage strategy across the sales channels and alliances sales teams and align to quarterly OKR's and sales goals/objectives (i.e. channel partner)
 - Align with marketing leadership on results of top funnel campaigns, gain anecdotal feedback, and generate ideas for campaign optimization
 - Demonstrate impact of partners and channels on business, analyze and report progress against partner campaign goals, and report on ROI
 - Act as marketing adviser to regional partner sales and marketing teams, collaborating with them to deliver campaigns that resonate with our partners and their customers
@@ -204,7 +204,7 @@ The lifecycle marketing manager is responsible for strategizing, executing, and 
 - Use KPIs to lead to business decisions but avoid them becoming the singular focus of the team (for example: open rates)
 - Establish a strong working relationship with cross-functional stakeholders across the organization, such as customer communication, marketing operations, sales, product, and the rest of the marketing group.
 - Act as the data steward for customer data, monitoring accuracy and quality of customer, user, and prospect information on an ongoing basis
-- ‘Speak’ (live and breathe) email and help the team learn how to incorporate best practices into all planning, decisions and execution – from creative to segmentation to deliverability
+- 'Speak' (live and breathe) email and help the team learn how to incorporate best practices into all planning, decisions and execution – from creative to segmentation to deliverability
 - Act as email marketing SME (subject matter expert) owning email design templates and brand guidelines in collaboration with Brand team
 - Recommend marketing automation segmentation (Marketo), targeting, and personalization tactics for use across marketing campaigns in collaboration with marketing operations
 - Work with marketing operations to improve Marketo database efficiency, database hygiene, field values, field completeness, normalization processes, and overall database health to enable user lifecycle programs

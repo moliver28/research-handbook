@@ -1,9 +1,6 @@
 ---
-
 title: "Architecture Design Workflow"
 ---
-
-# Architecture Design Workflow
 
 As engineers at GitLab, we lead the **evolution** of software, constantly
 working to find the right balance between proactive work, reactive work, and
@@ -25,6 +22,10 @@ organizationally.
 
 ## Design Documents
 
+<!--
+   TODO: Update once design docus migration is underway.
+   https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279
+-->
 Design documents are the primary artifact that the workflow revolves around.
 They are version controlled documents that are released alongside our
 [user-facing documentation](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc/architecture/blueprints)
@@ -97,6 +98,10 @@ a Principal+ Engineer for input.
 
 ### Design Phase
 
+<!--
+   TODO: Update once design docus migration is underway.
+   https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279
+-->
 1. Start writing a design document somewhere! Depending on whether the content
    can be considered [SAFE](/handbook/legal/safe-framework/) or not you may
    want to do that in a private space first. If you don't know what content to
@@ -228,6 +233,10 @@ generate awareness early in the cycle and so that they can provide their input.
 
 ### Design Document
 
+<!--
+   TODO: Update once design docus migration is underway.
+   https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279
+-->
 Merged design documents will be published on our [documentation website](https://docs.gitlab.com/ee/architecture/)
 
 If you don't know what content you could put into a design document, you can use

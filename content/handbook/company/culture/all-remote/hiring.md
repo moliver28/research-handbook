@@ -11,14 +11,14 @@ twitter_creator: "@gitlab"
 
 The [pandemic](https://www.cdc.gov/coronavirus/2019-ncov/index.html) forced many organizations to transition to be [all-remote companies]({{< ref "./guide" >}}). Many realized the [benefits]({{< ref "remote-benefits#benefits-of-remote-work" >}}) and decided to keep the remote structure. This shift necessitates implementing a remote hiring process to grow a remote workforce.
 
-As one of the world's largest [all-remote companies]({{< ref "./guide" >}}), GitLab has been hiring and onboarding remote workers, remotely for over a decade. We've detailed what we learned in the [Principles of Hiring section of our Handbook]({{< ref "/handbook/hiring" >}}). On this page, we're sharing best practices for a streamlined remote hiring process anyone can implement.
+As one of the world's largest [all-remote companies]({{< ref "./guide" >}}), GitLab has been hiring and onboarding remote workers, remotely for over a decade. We've detailed what we learned in the [Principles of Hiring section of our Handbook](/handbook/hiring). On this page, we're sharing best practices for a streamlined remote hiring process anyone can implement.
 
 ![GitLab customer illustration](/images/all-remote/gitlab-customer-path.jpg)
 {style="max-width: 50%;"}
 
 ## What are the benefits of all-remote hiring?
 
-One advantage of being an all-remote company is the ability to [hire talent from a global pool]({{< ref "/handbook/hiring" >}}), giving access to a tremendous amount of talent that many other companies overlook.
+One advantage of being an all-remote company is the ability to [hire talent from a global pool](/handbook/hiring), giving access to a tremendous amount of talent that many other companies overlook.
 
 It can be a struggle for organizations to find, recruit, retain, and compensate employees in competitive markets, including most major cities. Imagine the influx of highly qualified applicants if the location requirement were removed from all job descriptions. For a glimpse at what this looks like, please visit [GitLab's Jobs page](https://about.gitlab.com/jobs).
 
@@ -54,7 +54,7 @@ Prepare a well-designed [remote interview process](https://about.gitlab.com./int
 
 ### Advertise accurately and transparently
 
-We've published our [hiring process]({{< ref "/handbook/hiring/interviewing" >}}), including example screening questions, in our handbook.
+We've published our [hiring process](/handbook/hiring/interviewing), including example screening questions, in our handbook.
 
 While this may be unique, we see it as simply staying true to our [transparency value](values#transparency). The process shouldn't be a mystery.
 
@@ -68,7 +68,7 @@ In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDR
 </figure>
 <!-- blank line -->
 
-> To be [transparent]({{< ref "values#transparency" >}}), we showcase our culture to prospective hires in advance. For example, there's a section of our Jobs FAQ called "[What's it like to work at GitLab?]({{< ref "candidate-faq" >}})"
+> To be [transparent](/handbook/values/#transparency), we showcase our culture to prospective hires in advance. For example, there's a section of our Jobs FAQ called "[What's it like to work at GitLab?]({{< ref "candidate-faq" >}})"
 >
 > You cannot expect to hire people who are passionate about executing your strategy if you wait to share the plan *after* they are onboard. Some candidates may opt out of the interview funnel if they realize they aren't a good fit for the company's mission, vision, and values.
 >
@@ -82,13 +82,13 @@ In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDR
 >
 > I think that's bananas. That's what every company in the world does. If your strategy is really important, make sure people buy in *before* they join. And make sure that people who don't buy in don't join the company.
 >
-> Execution depends on people; [being public about what we do]({{< ref "/handbook/company/strategy" >}}). allows us to attract the best people to best execute our strategy." — *GitLab co-founder and CEO Sid Sijbrandij*
+> Execution depends on people; [being public about what we do](/handbook/company/strategy). allows us to attract the best people to best execute our strategy." — *GitLab co-founder and CEO Sid Sijbrandij*
 
 ### Make yourself attractive to top talent
 
 Remote work is the last great competitive advantage for employers. Remote maximizes a person's freedom and autonomy to integrate work into their life instead of the other way around. If two employers offer a talented applicant the same title, salary, and benefits, the tipping point will be the employer that **supports remote work**.
 
-We've gathered extra ways to attract top talent to your organization (Note: this list assumes a workplace supports remote and [permission to play]({{< ref "values#permission-to-play" >}}) behaviors.)
+We've gathered extra ways to attract top talent to your organization (Note: this list assumes a workplace supports remote and [permission to play](/handbook/values/#permission-to-play) behaviors.)
 
 1. Benefits for families and caregivers (daycare stipend, cleaning/laundry stipend, meal stipend, enhanced health insurance options, continuing education, adoption/fertility support, etc.)
 1. [No ask, must tell vacation policy]({{< ref "paid-time-off" >}}) which senior leaders visibly model
@@ -97,12 +97,12 @@ We've gathered extra ways to attract top talent to your organization (Note: this
 1. [De-location stipend](https://zapier.com/blog/move-away-from-sf-get-remote-job) (supporting relocation away from a high cost-of-market location)
 1. 4-day workweek, Summer Fridays, no-meeting days, and other efforts that provide company-wide time off for employees to rest, recharge, and connect with community
 1. Supporting the purchase of a complete and ergonomic [remote workspace]({{< ref "./workspace" >}}) uniquely tailored to each team member
-1. Transparent policies for investing in and championing [diversity, inclusion & belonging]({{< ref "values#diversity-inclusion" >}}) (and published goals for improvement)
+1. Transparent policies for investing in and championing [diversity, inclusion & belonging](/handbook/values/#diversity-inclusion) (and published goals for improvement)
 1. Restricted stock units (RSU) or stock options
 1. Enhanced hiring bonuses and higher salaries
-1. Large annual bonuses based on performance (*remote work [measures results]({{< ref "values#measure-results-not-hours" >}}), not hours spent, input, or time-in-seat*)
+1. Large annual bonuses based on performance (*remote work [measures results](/handbook/values/#measure-results-not-hours), not hours spent, input, or time-in-seat*)
 1. Well-trained remote managers that default to [asynchronous workflows]({{< ref "./asynchronous" >}}) (*Confidently assuring prospective talent that they will endure fewer meetings and micromanagement is a solid way to differentiate from other employers.*)
-1. Publishing supportive policies which explicitly allow employees to create better [work/life harmony]({{< ref "./people#worklife-harmony" >}}) and put [family and friends before work]({{< ref "values#family-and-friends-first-work-second" >}})
+1. Publishing supportive policies which explicitly allow employees to create better [work/life harmony]({{< ref "./people#worklife-harmony" >}}) and put [family and friends before work](/handbook/values/#family-and-friends-first-work-second)
 1. Supporting (via time and money) learning for self-development
 1. Building and explicitly publishing a culture of trust, empowerment, and autonomy for employees to do great work regardless of location (*view [GitLab's guide on building culture]({{< ref "./building-culture" >}}) and its [Values page]({{< ref "values" >}}) for more*)
 1. Engage and respect *existing* employees, empowering them to become [talent brand ambassadors]({{< ref "gitlab-ambassadors" >}}) on platforms such as Glassdoor, LinkedIn, Twitter, and Comparably
@@ -119,7 +119,7 @@ However, there are plenty of people who thrive in remote jobs (as GitLab's globa
 
 #### Self-management
 
-There are nuances to loving remote work and being a great remote worker. An operating principle at GitLab calls it being a ["manager of one"]({{< ref "values#managers-of-one" >}}).
+There are nuances to loving remote work and being a great remote worker. An operating principle at GitLab calls it being a ["manager of one"](/handbook/values/#managers-of-one).
 
 #### Communication skills
 
@@ -129,7 +129,7 @@ How do you screen for text-communication skills? Whether they realize it or not,
 
 #### Remote-work experience
 
-If someone has not worked in a remote environment, chances are that they *have* worked outside of their office (e.g., working while traveling, advancing a university project while away from campus, etc.) Ask candidates for examples of how they managed those instances, looking specifically for how they embrace autonomy and [blameless problem solving]({{< ref "values#blameless-problem-solving" >}}).
+If someone has not worked in a remote environment, chances are that they *have* worked outside of their office (e.g., working while traveling, advancing a university project while away from campus, etc.) Ask candidates for examples of how they managed those instances, looking specifically for how they embrace autonomy and [blameless problem solving](/handbook/values/#blameless-problem-solving).
 
 Even if your company didn't define it this way, those offices [were remote to one another]({{< ref "./stages" >}}). You had to navigate Zoom calls, time zone differences, etc. For example, you may be based in Seattle with colleagues in Singapore and London. Asking applicants to dive into those situations will help uncover how they handle remote work.
 
@@ -147,12 +147,12 @@ Other qualities unique to a remote workplace are:
 
 1. Inclination for [self-learning and self-service]({{< ref "./self-service" >}})
 1. Appreciation for [documentation]({{< ref "./handbook-first" >}})
-1. Proven ability to be a [manager of one]({{< ref "values#managers-of-one" >}})
+1. Proven ability to be a [manager of one](/handbook/values/#managers-of-one)
 1. Capable of (and enjoys) working [asynchronously]({{< ref "./asynchronous" >}})
 
 When asked if anyone could learn to work well in an all-remote setting during an [INSEAD](http://insead.edu) case study [interview](https://youtu.be/EuGsen3FxXc), GitLab co-founder and CEO Sid Sijbrandij replied:
 
-> "What's essential in all-remote is that you are a [manager of one]({{< ref "values#managers-of-one" >}}).
+> "What's essential in all-remote is that you are a [manager of one](/handbook/values/#managers-of-one).
 >
 > You're not going to have someone expecting you at the office and hold your hand, so you have to be able to manage yourself and work independently.
 >
@@ -160,7 +160,7 @@ When asked if anyone could learn to work well in an all-remote setting during an
 
 ### Tips for interviewing all-remote candidates
 
-We’ve created a guide on [How to Conduct a Remote Interview]({{< ref "./interviews" >}}), and included some highlights below.
+We've created a guide on [How to Conduct a Remote Interview]({{< ref "./interviews" >}}), and included some highlights below.
 
 #### The top 10 questions to ask a remote candidate
 
@@ -179,7 +179,7 @@ The full list of [questions to ask a remote candidate]({{< ref "./interviews#int
 
 ### Use video calls to interview and engage
 
-Candidates need to be comfortable with video calls since they are a primary medium for communication in a remote role. At GitLab, we use [Zoom]({{< ref "/handbook/tools-and-tips#zoom" >}}) to connect with candidates via [video calls]({{< ref "communication#video-calls" >}}).
+Candidates need to be comfortable with video calls since they are a primary medium for communication in a remote role. At GitLab, we use [Zoom](/handbook/tools-and-tips#zoom) to connect with candidates via [video calls]({{< ref "communication#video-calls" >}}).
 
 This [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video demonstrates how to conduct a remote interview process.
 
@@ -193,8 +193,8 @@ For more, watch Shane Bouchard, UX Manager, and Jeremy Watson, Senior Product Ma
 
 This approach reinforces several of GitLab's [values]({{< ref "values" >}}).
 
-- [Efficiency]({{< ref "values#efficiency" >}}): We can provide a better candidate experience and hire faster since neither candidate nor interviewer must travel.
-- [Diversity, Inclusion & Belonging]({{< ref "values#diversity-inclusion" >}}): We create a level playing field for all candidates by allowing them to interview from a space where they are comfortable.
+- [Efficiency](/handbook/values/#efficiency): We can provide a better candidate experience and hire faster since neither candidate nor interviewer must travel.
+- [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion): We create a level playing field for all candidates by allowing them to interview from a space where they are comfortable.
 
 ## What to do after you hire a remote worker
 
@@ -236,7 +236,7 @@ Model good informal communication practices with new hires by scheduling regular
 
 ## Global hiring best practices
 
-GitLab hires globally because we [envision]({{< ref "remote-vision" >}}) a world where talented, driven individuals seek employment and find roles based on **business needs** rather than **geographic location**. In our 10+ years of global hiring, we have significantly developed our best practices. Here are a few things to keep in mind; please see the [hiring section of our handbook]({{< ref "/handbook/hiring" >}}) for more in-depth coverage.
+GitLab hires globally because we [envision]({{< ref "remote-vision" >}}) a world where talented, driven individuals seek employment and find roles based on **business needs** rather than **geographic location**. In our 10+ years of global hiring, we have significantly developed our best practices. Here are a few things to keep in mind; please see the [hiring section of our handbook](/handbook/hiring) for more in-depth coverage.
 
 ### Where do you *not* hire?
 
@@ -246,18 +246,18 @@ Each country has unique and complex rules, laws and regulations, which can affec
 
 We are growing rapidly and continuously expanding our hiring capabilities in other geographies. In countries listed in our [entity_mapper.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/entity_mapper.yml) that don't have `contractor: true`, we have a payroll and can employ people directly. In all other listed countries, we can hire people as a contractor.
 
-Learn more at our [Country Hiring Guidelines]({{< ref "/handbook/people-group/employment-solutions#country-hiring-guidelines" >}}) section in the [Employment Solutions (International Expansion & Relocations)]({{< ref "/handbook/people-group/employment-solutions" >}}) handbook page.
+Learn more at our [Country Hiring Guidelines](/handbook/people-group/employment-solutions#country-hiring-guidelines) section in the [Employment Solutions (International Expansion & Relocations)](/handbook/people-group/employment-solutions) handbook page.
 
-### Handling local regulations, risks, entities, etc.
+### Handling local regulations, risks, entities, etc
 
 Rather than attempting to incorporate in every country where an all-remote company has even a single employee, organizations must weigh the benefits of creating a legal entity with other options. There are four means of engagement with GitLab. These are commonly used arrangements that can be considered by other all-remote companies.
 
 - **GitLab Entity**: Individuals can be employed directly with GitLab Inc, BV, LTD, GmbH, PTY, Federal.
-- **Professional Employer Organization (PEO)**: In select countries where GitLab does not have an entity, we hire professional employment organizations to serve as the [employer of record (EOR)]({{< ref "/handbook/people-group/contracts-probation-periods#employer-of-record-providers" >}}) in order to facilitate payments.
+- **Professional Employer Organization (PEO)**: In select countries where GitLab does not have an entity, we hire professional employment organizations to serve as the [employer of record (EOR)](/handbook/people-group/contracts-probation-periods#employer-of-record-providers) in order to facilitate payments.
 - **C2C (Contractor)**: A corp to corp arrangement, whereby a corporation or LLC invoices GitLab BV for GitLab related work.
 - **IND (Contractor)**: By far the most widely applicable. The individual contractor arrangement can be used in countries where GitLab is hiring, yet does not have an entity or PEO agreement in place. This allows an individual to invoice GitLab BV as an individual or via their own company with no partners.
 
-Learn more about [employee types and hiring partners]({{< ref "/handbook/people-group/contracts-probation-periods#employee-types-at-gitlab" >}}) across countries in the [Contracts, Probation Periods & PIAA]({{< ref "contracts-probation-periods" >}}) handbook page.
+Learn more about [employee types and hiring partners](/handbook/people-group/contracts-probation-periods#employee-types-at-gitlab) across countries in the [Contracts, Probation Periods & PIAA]({{< ref "contracts-probation-periods" >}}) handbook page.
 
 It is not always practical to understand the nuances of local regulations in-house. Wherever GitLab has an entity or contractor, we have external counsel to advise and ensure that we are compliant.
 
@@ -310,7 +310,7 @@ While GitLab is location-agnostic, we ensure that we have local Sourcers based i
 
 Our sourcing effort is extremely important for bringing [diverse]({{< ref "inclusion" >}}) talent onboard. Our Sourcers regularly network with recruiters and business verticals so they can quickly tap into real-time knowledge of specific markets when a niche position comes available.
 
-Driven by our [Collaboration value]({{< ref "values#collaboration" >}}), we organize [source-a-thons]({{< ref "/handbook/hiring/sourcing#source-a-thons" >}}), which become a place for everyone to share market insights and contribute to hiring. These sessions are extremely productive as they help Sourcers better partner with their hiring managers and calibrate expectations. You can learn more about how GitLab's Sourcing team operates [here]({{< ref "/handbook/hiring/sourcing" >}}).
+Driven by our [Collaboration value](/handbook/values/#collaboration), we organize [source-a-thons](/handbook/hiring/sourcing#source-a-thons), which become a place for everyone to share market insights and contribute to hiring. These sessions are extremely productive as they help Sourcers better partner with their hiring managers and calibrate expectations. You can learn more about how GitLab's Sourcing team operates [here](/handbook/hiring/sourcing).
 
 ## Contribute your lessons
 

@@ -1,14 +1,7 @@
 ---
-
 title: "CSM Manager Handbook"
 description: "Field guide for CSM Managers on standard and recurring practices."
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -38,7 +31,7 @@ This page provides an overview on relevant CSM leadership processes.
 | [Chenje Katanda](/handbook/company/team/#ckatanda) | EMEA | Manager | CSM |
 | [Christina Souleles](/handbook/company/team/#csouleles) | EMEA | Manager | CSM |
 | [Robert Clark](/handbook/company/team/#robclark14) | PubSec | Manager | CSM & CSE |
-| [Steven Terhar](/handbook/company/team/#SteveTerhar) | PubSec | Manager | CSM & CSE |
+| [Steven Terhar](/handbook/company/team/#steveterhar) | PubSec | Manager | CSM & CSE |
 
 ## CSM Manager Responsibilities & Requirements
 
@@ -68,7 +61,7 @@ This page provides an overview on relevant CSM leadership processes.
   </tr>
   <tr>
     <td>Team development (quarterly)</td>
-    <td><ul><li>The manager schedules an additional 1-hour sync to discuss their IDP and progress/obstacles</li><li>The CSM is responsible for building and maintaining this document in partnership with their manager</li><li>When a CSM is working towards a promotion, the promotion doc is built and collaborated on in partnership between the CSM and CSM manager. It is the manager’s role to ensure the areas the CSM needs to develop to move towards the promotion are clear and articulated</li></ul></td>
+    <td><ul><li>The manager schedules an additional 1-hour sync to discuss their IDP and progress/obstacles</li><li>The CSM is responsible for building and maintaining this document in partnership with their manager</li><li>When a CSM is working towards a promotion, the promotion doc is built and collaborated on in partnership between the CSM and CSM manager. It is the manager's role to ensure the areas the CSM needs to develop to move towards the promotion are clear and articulated</li></ul></td>
     <td>An active IDP in place for every team member, reviewed on a quarterly basis</td>
   </tr>
   <tr>
@@ -155,7 +148,6 @@ The CSM Manager should then work with their team to help the CSM drive up and de
 - [Success Plan Handbook](/handbook/customer-success/csm/success-plans/)
 - Gainsight Dashboard - **CSM Portfolio** or **CS Leadership**
 
-
 ### Health Review and At-Risk Customers
 
 On at least a monthly basis, review accounts within your region in preparation for a biweekly **At-Risk** call. This includes reviewing:
@@ -165,7 +157,6 @@ On at least a monthly basis, review accounts within your region in preparation f
    1. Gainsight at-risk comments per account
 
 Details for all at-risk account should be captured in Gainsight using an `At-Risk Update` timeline entry. These updates are synced to Salesforce, and reports used to review at-risk accounts draw on these updates.
-
 
 #### At-Risk Review Meetings
 
@@ -196,17 +187,20 @@ CSM Managers align with their team members about any agreed-upon action items or
 The regional at-risk meetings use a specified format, to ensure consistent action & alignment on at-risk customers globally:
 
 > For each cohort listed below, we will discuss the following details:
+>
 > - What is the primary driver of risk?
 > - What do we need to accomplish to mitigate the risk?
 > - Next steps & ownership
 >
 > **Customer Cohorts**
+>
 > 1. At-risk renewals in current FQ
 > 1. At-risk renewals in next FQ
 > 1. All At-risk customers above $100k ARR (any FQ)
 > 1. Any other customers that warrant discussion outside of those groups
 >
 > **Reports for review**
+>
 > 1. [FQ At-Risk Accounts $100k ARR and Above](https://gitlab.my.salesforce.com/00OPL0000001spZ) [*Update linked report to one for your region*]
 
 Update the date range for `Close Date` at the top of the report to view the relevant fiscal quarter. Doing it this way allows us to work from a single report across all relevant customer cohorts. The priority in this meeting is current FQ and next FQ, but as time permits other at-risk customers should be reviewed.
@@ -238,7 +232,6 @@ This review also leads into the [regional review meeting](#regional-review-agend
 
 Moving to one exception process through SFDC chatter. Sales-comp is tagged on chatter for the required exception with the required approval. If it is a CSM pooled field change request then the comp team will process it and reply back on chatter. If it is a Renewal Rate/Growth ARR opportunity exception then the applicable exception checkbox is checked on the opportunity by the comp team and replied to the team by tagging the requestor. System team can help create a chatter report for the teams to view and this helps to collate all requests in one place.
 
-
 ## Renewal Resources
 
 - [Renewal Review Handbook](/handbook/customer-success/csm/renewals/)
@@ -257,37 +250,37 @@ This is a suggested cadence that can be used by regional CSM managers in their w
 
 `1st week` is defined as the first **full** week of the month.
 
-
 1st week:
+
 1. KPIs: nARR, renewal rate (async)
 1. Team: Hiring, Career Dev, Risk
 1. Customers: Escalations & Risk. SFDC Report: **At-Risk Customers**
 
 2nd week:
+
 1. KPIs: nARR, renewal rate (async)
 1. Top 50 customer reveiw. Tableau Report, OR Gainsight Dashboard - **Customer Health** sort by ARR
 1. OKR / Big Rock initiatives progress
 
 3rd week:
+
 1. KPIs: nARR, renewal rate (async)
 1. Team: Hiring, Career Dev, Risk
 1. Customers: Escalations & Risk. SFDC Report - **At-Risk Customers**
 
 4th week:
+
 1. KPIs: nARR, renewal rate (async)
-1. Ultimate Customers. Sisence dashboard OR Gainsight Dashboard - **Use Case Adoption**  
+1. Ultimate Customers. Sisence dashboard OR Gainsight Dashboard - **Use Case Adoption**
    1. Purchased last Qtr
    1. By ARR
 1. OKR / Big Rock initiatives progress
-
-
 
 ## Annual Processes
 
 ### President's Club Calculations
 
 President's Club criteria and processes are documented in the [GitLab internal handbook](https://internal.gitlab.com/handbook/sales/presidents-club/).
-
 
 ## Team Member Performance
 

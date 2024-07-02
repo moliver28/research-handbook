@@ -1,13 +1,6 @@
 ---
-
 title: Dogfooding for Product Managers
 ---
-
-
-
-
-
-
 
 ### Dogfood everything
 
@@ -60,9 +53,8 @@ relevant teams using your feature in their daily work. This can be done by
 recording a demo of the new functionality and sharing it with the team,
 running through examples of usage on Product calls, or identifying current
 workflows or processes the feature could help improve.
-1. Including top internal user issues in the relevant [category
-epics](/handbook/product/product-processes/#category-direction) when they align with our strategy.
-1. Maintaining a set of [internal customer DRIs](#internal-customer-DRIs) who represent GitLab team members
+1. Including top internal user issues in the relevant [category epics](/handbook/product/product-processes/#category-direction) when they align with our strategy.
+1. Maintaining a set of [internal customer DRIs](#internal-customer-dris) who represent GitLab team members
 who use GitLab for the purposes of developing and operating GitLab and
 GitLab.com.
 
@@ -75,7 +67,7 @@ Internal users can help quickly identify where workflows might break down or
 where potential usability or performance issues must be explored. We should
 heavily weigh internal feedback to shape our perspective on customer needs,
 and then compare it to what we know about both large and small customers
-(and if we’re unsure, then we should proactively ask).
+(and if we're unsure, then we should proactively ask).
 
 #### Internal Customer DRIs
 
@@ -91,8 +83,8 @@ Below are the responsibilities of an Internal Customer DRI:
 #### Dogfooding Process
 
 1. **Any GitLab team member** can create an issue labeled `Dogfooding` and spur a discussion with PM. This label should
-never be removed so that the decision-making process gets memorialized on the [Dogfooding board](https://gitlab.com/groups/gitlab-org/-/boards/1212116). 
-When creating a Dogfooding issue, consider using the [Dogfooding Issue Template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Dogfooding.md) 
+never be removed so that the decision-making process gets memorialized on the [Dogfooding board](https://gitlab.com/groups/gitlab-org/-/boards/1212116).
+When creating a Dogfooding issue, consider using the [Dogfooding Issue Template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Dogfooding.md)
 for existing features that need Dogfooding or the [Feature Proposal template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md) for new features.
 1. **PMs** will consider the issue, make an explicit decision, and **add** an appropriate label for next steps:
     1. `Dogfooding::Build in GitLab` when a new feature should be built into GitLab

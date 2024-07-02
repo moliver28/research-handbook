@@ -15,7 +15,7 @@ matters, such as:
 
 A more general way to think of it is that it is the Help Center.
 
-## Accessing Zendesk Guide
+### Accessing Zendesk Guide
 
 The main way to access Zendesk Guide is to click the 4 squares in the top-right
 of the page and then select Guide. This will open up the Zendesk Guide in a new
@@ -28,7 +28,7 @@ the admin page for Zendesk Guide.
 mode. At the top of the screen, this should be indicated, along with a link you
 can click to leave preview mode.
 
-## Components of Zendesk Guide
+### Components of Zendesk Guide
 
 On the admin page for Zendesk Guide, you will find several icons on the
 left-hand side of the page:

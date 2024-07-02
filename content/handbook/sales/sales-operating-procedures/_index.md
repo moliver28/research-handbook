@@ -1,16 +1,7 @@
 ---
-
 title: "Sales Operating Procedures"
 description: "GitLab sales process documentation"
 ---
-
-
-
-
-
-
-
-# Sales Operating Procedures
 
 This documentation is based on the [GitLab Sales Process](https://docs.google.com/spreadsheets/d/1ISe3kb5bIbUKxo8lSYQlU-OddgfRgZgl9D0Y5CJ1iew/edit#gid=901742865) document approved in February 2020.
 

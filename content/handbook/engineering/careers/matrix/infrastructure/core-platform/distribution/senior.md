@@ -15,14 +15,13 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 
 ---
 
-
 ### Leadership Competencies
 
 {{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
 
 {{$ include "includes/engineering/development-senior-leadership-competency.md" %}}
 
-##### Distribution
+#### Distribution
 
 - Presents training or demos within their domain on a regular cadence.
 - Leads technical architecture discussions and help drive technical decisions.
@@ -38,7 +37,7 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 
 {{% include "includes/engineering-careers/development-senior-technical-competency.md" %}}
 
-##### Distribution
+#### Distribution
 
 - Provides high level of expertise in programming languages and their frameworks used in Distribution managed engineering projects.
 - Acts as a subject matter expert in one or more linux system deployment technology.
@@ -46,7 +45,7 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 - Able to provide deployment recommendations for production installations.
 - Understand how features in their domain operate at scale in production.
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 

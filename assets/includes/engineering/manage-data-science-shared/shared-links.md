@@ -1,0 +1,4 @@
+- Engineering links
+  - Manage and Data Science engineering discussion are located at [`gitlab-org/manage/engineering-managers`](https://gitlab.com/gitlab-org/manage/engineering-managers)
+  - Social channel [#pikachus-social](https://gitlab.slack.com/archives/GSEL4S98S)
+  - Engineering Manager Slack [#s_manage_data_science_ems](https://gitlab.slack.com/archives/C01VAATSWNP)

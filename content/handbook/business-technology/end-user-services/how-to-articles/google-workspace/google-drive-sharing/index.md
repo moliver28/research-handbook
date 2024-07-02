@@ -1,33 +1,18 @@
 ---
-
 title: "How To Use Google Drive Sharing"
 ---
 
-
-
-
-
-
-
-
 ## Introduction
 
-The purpose of this handbook page is to describe how to utilize [Google
-Drive Sharing](https://support.google.com/drive/answer/2494822?hl=en&ref_topic=7000947). Google Drive sharing gives the ability to access another team members [Google Drive File](https://support.google.com/drive/answer/2494822?hl=en&ref_topic=7000947) or [Google Drive Folder](https://support.google.com/drive/answer/7166529?hl=en&co=GENIE.Platform%3DDesktop) that is stored in their `My Drive`.
+The purpose of this handbook page is to describe how to utilize [Google Drive Sharing](https://support.google.com/drive/answer/2494822?hl=en&ref_topic=7000947). Google Drive sharing gives the ability to access another team members [Google Drive File](https://support.google.com/drive/answer/2494822?hl=en&ref_topic=7000947) or [Google Drive Folder](https://support.google.com/drive/answer/7166529?hl=en&co=GENIE.Platform%3DDesktop) that is stored in their `My Drive`.
 
 There are different [Levels of Permissions](https://support.google.com/drive/answer/2494822?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Cchoose-if-people-can-view-comment-or-edit) that can be assigned to Google Drive Sharing.
 
 ## How to Share Google Drive Files
 
-<div class="panel panel-info">
-**Note**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Note**" header-bg="info" %}}
 There are multiple ways to share Google Drive files and folders.
-
-</div>
-</div>
+{{% /panel %}}
 
 ### Using `drive.google.com`
 
@@ -55,15 +40,9 @@ There are multiple ways to share Google Drive files and folders.
 
 ## How to Access Shared Google Drive Files
 
-<div class="panel panel-info">
-**Note**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Note**" header-bg="info" %}}
 There are multiple ways to access shared Google Drive files and folders.
-
-</div>
-</div>
+{{% /panel %}}
 
 ### Using `drive.google.com`
 
@@ -93,8 +72,8 @@ There are multiple ways to access shared Google Drive files and folders.
 
 There are three levels of permissions when sharing a file from `My Drive`
 
-- `Viewer` - People can view, but can’t change or share the file with others
+- `Viewer` - People can view, but can't change or share the file with others
 
-- `Commenter` - People can make comments and suggestions, but can’t change or share the file with others
+- `Commenter` - People can make comments and suggestions, but can't change or share the file with others
 
 - `Editor` - People can make changes, accept or reject suggestions, and share the file with others

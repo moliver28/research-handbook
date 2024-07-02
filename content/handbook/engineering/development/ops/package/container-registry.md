@@ -4,8 +4,7 @@ title: Package:Container Registry Group
 
 ## The Team
 
-The Container Registry is part of the GitLab [Package
-stage](/handbook/engineering/development/ops/package/), which integrates with [GitLab's CI/CD product](https://about.gitlab.com/direction/ops/).
+The Container Registry is part of the GitLab [Package stage](/handbook/engineering/development/ops/package/), which integrates with [GitLab's CI/CD product](https://about.gitlab.com/direction/ops/).
 
 ## Who We Are
 

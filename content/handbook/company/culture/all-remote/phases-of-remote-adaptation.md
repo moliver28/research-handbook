@@ -22,7 +22,7 @@ To better understand this, we're using this page to detail the phases of remote 
 
 *In the [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) video above, Darren (Head of Remote, GitLab) and Luke (Founder, [Friday](https://www.friday.app)) unpack the phases of remote adaptation, and discuss projections for societal shifts related to remote work.*
 
-It's important to frame one's transition to remote in terms of phases, as opposed to an all-or-nothing approach. Breaking adaptation down into smaller chunks creates less overwhelm. The goal for any suddenly remote company should be to graduate from one phase to another in a sustainable and efficient manner, instead of what will otherwise feel like a massive leap from nothing to mastery. This is [iteration]({{< ref "values#iteration" >}}) in practice.
+It's important to frame one's transition to remote in terms of phases, as opposed to an all-or-nothing approach. Breaking adaptation down into smaller chunks creates less overwhelm. The goal for any suddenly remote company should be to graduate from one phase to another in a sustainable and efficient manner, instead of what will otherwise feel like a massive leap from nothing to mastery. This is [iteration](/handbook/values/#iteration) in practice.
 
 ## Phase 1: Skeuomorph
 
@@ -67,7 +67,7 @@ Some businesses will choose not to invest time, energy, and resources to moving 
 
 Entering Phase 2 is simple. It begins with leadership asking a fundamental question: "What if we didn't do things the way we've always done them?"
 
-Remote enables you to function differently than a conventional colocated company. It challenges preconceived notions and it provides new opportunities to increase [efficiency]({{< ref "values#efficiency" >}}) of work and [agency]({{< ref "values#give-agency" >}}) of people.
+Remote enables you to function differently than a conventional colocated company. It challenges preconceived notions and it provides new opportunities to increase [efficiency](/handbook/values/#efficiency) of work and [agency](/handbook/values/#give-agency) of people.
 
 ### Evolving processes
 
@@ -108,7 +108,7 @@ Learn more in GitLab's guide to using [forcing functions to work remote-first]({
 >
 > This counteracts the human instinct to start a project in a chat tool. It forces us to ask a simple question: 'Where does the work need to end up?' (Answer: [GitLab](https://about.gitlab.com/stages-devops-lifecycle))
 >
-> This structure also solves another common problem with remote teams, which is people tend to feel isolated or disconnected from people. Given that we cannot practically use Slack for long-term work projects, we maximize its use as a tool for informal communication. Our team has access to a plethora of [topical channels]({{< ref "/handbook/communication/chat" >}}) — fitness, music, mental health, parenting, etc.
+> This structure also solves another common problem with remote teams, which is people tend to feel isolated or disconnected from people. Given that we cannot practically use Slack for long-term work projects, we maximize its use as a tool for informal communication. Our team has access to a plethora of [topical channels](/handbook/communication/chat) — fitness, music, mental health, parenting, etc.
 
 ### Using GitLab for remote collaboration
 
@@ -125,7 +125,7 @@ You can learn more at GitLab's [remote team solutions page]({{< ref "./gitlab-fo
 
 Phase 4 is marked by an extraordinary amount of intentionality, particularly in areas that are typically assumed to need minimal guardrails. The list below is not exhaustive, but showcases examples of this approach.
 
-- Measuring [output]({{< ref "values#measure-results-not-hours" >}}) (results) rather than input (hours). This requires a deliberate choice to not measure hours spent working, as well as a strong commitment to outlining deliverables and expectations that can be measured. This enables team members to work towards their goals in any manner they choose.
+- Measuring [output](/handbook/values/#measure-results-not-hours) (results) rather than input (hours). This requires a deliberate choice to not measure hours spent working, as well as a strong commitment to outlining deliverables and expectations that can be measured. This enables team members to work towards their goals in any manner they choose.
 - Hiring outside of a company's home geography without relocating. By intentionally opening one's talent acquisition pipeline to the globe, you assume certain risks (time zone headaches, legal and regulatory hurdles in foreign nations, etc.) understanding that the ability to hire the world's best talent is worthwhile.
 - Structure social interactions and non-work activities. While colocated companies allow fate to dictate these interactions, remote companies look to their people group to brainstorm ideas with functional leaders and put opportunities to gather as a team on the calendar.
 - Create [team building opportunities]({{< ref "./informal-communication" >}}) that are even grander than those in colocated spaces, such as [team-wide talent shows](https://twitter.com/darrenmurph/status/1243194687453835265), trivia events, show-and-tell gatherings, virtual lobbies for water-cooler conversation, [global pizza parties/celebrations](https://about.gitlab.com/blog/2019/10/02/support-virtual-pizza-party), and even global [family-oriented chats]({{< ref "./informal-communication#juice-box-chats" >}}).
@@ -153,11 +153,11 @@ An organization's ability to transition quickly from Phase 1 to Phase 3 is depen
 - Do team members have a preexisting understanding of [digital communication tools]({{< ref "communication" >}})?
 - Do team members have preexisting methods of accessing sensitive information (e.g. established VPN protocols)?
 - Does a company's [business operations](https://about.gitlab.com/handbook/business-technology) or IT department have preexisting protocols for enabling team members from locales outside of the office?
-- Does a company have preexisting documentation for core company processes ([communication]({{< ref "communication" >}}), client service expectations, socializing and relationship building, onboarding, [in-person interactions](./in-person), [expensing](https://about.gitlab.com/handbook/spending-company-money), working hours, [metrics and goals]({{< ref "/handbook/company/okrs" >}}), owners/[DRIs]({{< ref "directly-responsible-individuals" >}}), etc.)
+- Does a company have preexisting documentation for core company processes ([communication]({{< ref "communication" >}}), client service expectations, socializing and relationship building, onboarding, [in-person interactions](./in-person), [expensing](https://about.gitlab.com/handbook/spending-company-money), working hours, [metrics and goals](/handbook/company/okrs), owners/[DRIs]({{< ref "directly-responsible-individuals" >}}), etc.)
 
 ## GitLab Knowledge Assessment: Phases of Remote Adaptation
 
-Anyone can test their knowledge on the phases of remote adaptation by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSdeD_swNPsT_5YUaaLNFhpNmLGIajYaswkC9vdHxwO4c4QiAQ/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Anyone can test their knowledge on the phases of remote adaptation by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSdeD_swNPsT_5YUaaLNFhpNmLGIajYaswkC9vdHxwO4c4QiAQ/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
@@ -165,6 +165,6 @@ Anyone can test their knowledge on the phases of remote adaptation by completing
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

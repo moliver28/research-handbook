@@ -1,19 +1,13 @@
 ---
-
 title: "Casey Persona snippets"
 ---
-
-
-
-
-
-
 
 ## SDR persona snippets by use case
 
 ### [Casey (Release and Change Management Director)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/#casey---the-release-and-change-management-director)
 
 **Overview**
+
 - description
 
 #### [VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)

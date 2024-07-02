@@ -1,18 +1,11 @@
 ---
-
 title: "CSM Quarterly Business Review"
 description: "Instructions for CSM Managers on presenting their QBR decks."
 ---
 
-
-
-
-
-
-
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-----
+---
 
 The CSM Manager is responsible for developing and delivering a [Quarterly Business Review](/handbook/sales/qbrs/) for their team each quarter.
 

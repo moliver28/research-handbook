@@ -54,7 +54,7 @@ The Director of Customer Success  is a job grade [level 10](/handbook/total-rewa
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ### Senior Director of Customer Success
 
@@ -95,7 +95,7 @@ ans that enhance and integrate into GitLab's Go-To-Market strategies and plans, 
 
 - net ARR (i.e., retention and expansion)
 - [CSM-related metrics](/handbook/customer-success/csm/)
-- Some of [sales metrics](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary) associated with the Solution Architect responsibilities (e.g., channel, new logos).
+- Some of [sales metrics](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary) associated with the Solution Architect responsibilities (e.g., channel, new logos).
 
 ## Career Ladder
 

@@ -53,14 +53,13 @@ The Director, Marketing Strategy is a [grade 10](/handbook/total-rewards/compens
 - Own and architect the overall measurement framework for GitLab Marketing, including defining key marketing metrics and developing and maintaining dashboard sources of truth.
 - Drive clear full funnel reporting of Marketing performance across key dimensions such as new and growth, customer segments, and geographies.
 - Be a thought partner to Marketing functional stakeholders– e.g. Digital Marketing, Field Marketing, Digital Experience, Brand, Product Marketing, etc.– by managing a team that analyzes data, surfaces insights, and recommends actionable findings.
-- Solve marketing data and reporting challenges to further Marketing’s understanding of levers that move the business– e.g. marketing attribution, lead scoring optimizations, and ROI and efficiency reporting across our marketing activities.
+- Solve marketing data and reporting challenges to further Marketing's understanding of levers that move the business– e.g. marketing attribution, lead scoring optimizations, and ROI and efficiency reporting across our marketing activities.
 - Build a world-class Marketing Analytics team, maintaining a strategic roadmap and ensuring efficient day-to-day operations for on-time delivery. Set priorities for the Marketing Analytics team, as well as mentoring and coaching them.
 - Be a trusted advisor to Marketing Leadership in driving marketing strategy, by partnering with them and their teams to ensure that data guides decision making and prioritization. Assist in defining and measuring Marketing OKR metrics.
 - Author and deliver executive-level presentation materials to support CMO and Marketing Leadership in key communication forums, e.g. Key Reviews, Board decks, and E-Group level communications
 - Partner with the Marketing Operations, Sales Operations, and IT teams to drive data quality and measurement instrumentation.
 - Partner with the Central Data Team and other functional data teams across the company to build and maintain shared source of truth data and definitions to enable consistent and fast answers to business questions.
 - Build for long-term scalability by looking for automation and self-service reporting opportunities.
-
 
 #### Director, Marketing Analytics Requirements
 
@@ -83,7 +82,6 @@ BA/BS degree, MBA or other related advanced degree preferred
 - [Total number of SAOs by month](/handbook/marketing/performance-indicators/#total-number-of-mqls-by-month)
 - INQ to SAO conversion rate
 - Marketing influenced pipeline
-
 
 ## Career Ladder
 

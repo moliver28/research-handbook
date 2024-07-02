@@ -1,19 +1,10 @@
 ---
-
 title: "Navigation Repository"
 ---
 
+The [navigation repository](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation) (also known as `be-navigation`) is a separate package that is updated and maintained independently from the rest of the marketing website. This is so that we can make changes in one place, and have any consuming repositories pull from that single source of truth. The navigation is currently maintained by the [Digital Experience team](/handbook/marketing/digital-experience/).
 
-
-
-
-
-
-# Navigation Repository
-
-The [navigation repository](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation) (also known as `be-navigation`) is a separate package that is updated and maintained independently from the rest of the marketing website. This is so that we can make changes in one place, and have any consuming repositories pull from that single source of truth. The navigation is currently maintained by the [Digital Experience team](/handbook/marketing/digital-experience/). 
-
-Navigation is following [Semantic Versioning](https://semver.org/). The current released version can be found on this [npm page](https://www.npmjs.com/package/be-navigation) under `Versions`. 
+Navigation is following [Semantic Versioning](https://semver.org/). The current released version can be found on this [npm page](https://www.npmjs.com/package/be-navigation) under `Versions`.
 
 ## Making Changes
 
@@ -28,11 +19,11 @@ Navigation data is stored within Contentful, and it is utilized by projects that
 
 Localization data is managed within this context, where child entries are organized by language, and each entry is named with its respective language code format, such as `[fr-fr] - Name of the entry`.
 
-To ensure that changes become visible in production, it's necessary to **publish** the data in Contentful. Afterward, within a few minutes, the updated data will become accessible on the website once the pipeline of the corresponding project has been successfully executed. 
+To ensure that changes become visible in production, it's necessary to **publish** the data in Contentful. Afterward, within a few minutes, the updated data will become accessible on the website once the pipeline of the corresponding project has been successfully executed.
 
 ### Structural Changes
 
-To request changes to the Navigation repository, please fill out an issue [here](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation/-/issues/new) to be triaged by the Digital Experience team. 
+To request changes to the Navigation repository, please fill out an issue [here](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation/-/issues/new) to be triaged by the Digital Experience team.
 
 If you would like to self-serve changes to the navigation, feel free to clone the project locally following the instructions in the [readme](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation/-/blob/main/README.md). Once you make changes, please tag a member of the [Digital Experience team](/handbook/marketing/digital-experience/#groups-metrics--team-members) to review your MR. We are consistently running tests on navigation links, and doing research and design spikes on navigation changes, so all changes will need to be approved by a member of our team.
 
@@ -42,11 +33,11 @@ If you would like to self-serve changes to the navigation, feel free to clone th
 
 ## Releases
 
-Currently, our team releases new navigation changes in bundles on **Wednesdays**. This can be adjusted as necessary, and we typically opt to release large, breaking changes in their own version. 
+Currently, our team releases new navigation changes in bundles on **Wednesdays**. This can be adjusted as necessary, and we typically opt to release large, breaking changes in their own version.
 
 We avoid deploying minor or major releases of the navigation on release post days.
 
-### Releasing involves 4 main steps:
+### Releasing involves 4 main steps
 
 1. Prepping issues for the release
 2. Publishing a new version to npm
@@ -55,13 +46,13 @@ We avoid deploying minor or major releases of the navigation on release post day
 
 ### Detailed instructions
 
-1. Create a new issue titled `Navigation release: Version x.x.xx` and include links to the MRs and Issues included in this release. This navigation issue should be added to the quarterly navigation release epic (ex. [FY23Q3 epic](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/155)). If this has been assigned to you already, you can skip this step. 
+1. Create a new issue titled `Navigation release: Version x.x.xx` and include links to the MRs and Issues included in this release. This navigation issue should be added to the quarterly navigation release epic (ex. [FY23Q3 epic](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/155)). If this has been assigned to you already, you can skip this step.
 1. Create a new branch from `main`, with all changes
 1. Increment the version number in `package.json`
 1. Build /dist folder - ```yarn build``` (optionally use `yarn link` [for a detailed local review](#detailed-local-review-before-a-nav-release-with-yarn-link))
 1. Publish to npm - ```npm publish``` (Note: You may need to login with your npm credentials using ```npm login```)
 1. Merge changes to `origin/main`
-1. Once the package has been published it's now ready to be [updated in the consuming repositories](#using-navigation-in-other-repositories). This should include the `Buyer Experience` and `www` repositories. Open an MR in those repos using the `navigation-change` description template. Include links to those MRs in your Navigation Release Issue assigned to you. 
+1. Once the package has been published it's now ready to be [updated in the consuming repositories](#using-navigation-in-other-repositories). This should include the `Buyer Experience` and `www` repositories. Open an MR in those repos using the `navigation-change` description template. Include links to those MRs in your Navigation Release Issue assigned to you.
 1. Close the Navigation Release Issue
 
 If you see "Please Choose a version of be-navigation from this list:", this means that there is an issue with the npm package version you specified. You should double check that your package was published and that the `package.json` contains the correct `be-navigation` version
@@ -69,6 +60,7 @@ If you see "Please Choose a version of be-navigation from this list:", this mean
 ## Using Navigation in Other Repositories
 
 To update the navigation in the repositorys that consume it, for example www-gitlab-com, or buyer-experience:
+
 - Go to `package.json`, find the `be-navigation` line item, and increment to the latest version
 - run `npm install` to update the package
 - commit your changes so that you can do extensive testing in the review app
@@ -79,13 +71,14 @@ To update the navigation in the repositorys that consume it, for example www-git
   - Check that the logos in Alliance Partners look alright, and that Resources -> Get Started icons are aligned
   - Scroll down to the footer and click on a regular link, and `Cookie Preferences`, and `Edit in Web IDE` to make sure they work as expected
   - Go to mobile view and click through all links
-- Does anything seem off? If it's breaking, hotfix it in the navigation repo and release a new version. If it's a minor bug, create a new issue to be triaged. 
+- Does anything seem off? If it's breaking, hotfix it in the navigation repo and release a new version. If it's a minor bug, create a new issue to be triaged.
 
 ## Major Release Navigation Checklist
 
 You can use the MR template in the buyer experience repo titled "navigation change". It contains the following checks, for a thorough runthrough of the navigation:
 
 _Chrome_
+
 - [ ] Test a link in each dropdown of the **desktop** header (Especially login/free trial buttons)
 - [ ] Test a link each section of the **desktop** footer (Especially Edit in IDE/Page source links)
 - [ ] Test a link in each section of the **mobile** header
@@ -96,6 +89,7 @@ _Chrome_
 - [ ] Test tabbing through footer links
 
 _Safari_
+
 - [ ] Test a link in each dropdown of the **desktop** header (Especially login/free trial buttons)
 - [ ] Test a link each section of the **desktop** footer (Especially Edit in IDE/Page source links)
 - [ ] Test a link in each section of the **mobile** header
@@ -106,6 +100,7 @@ _Safari_
 - [ ] Test tabbing through footer links
 
 _Firefox_
+
 - [ ] Test a link in each dropdown of the **desktop** header (Especially login/free trial buttons)
 - [ ] Test a link each section of the **desktop** footer (Especially Edit in IDE/Page source links)
 - [ ] Test a link in each section of the **mobile** header
@@ -142,10 +137,11 @@ In order to update www and Buyer Experience separately we created a [new main br
 - Run the `yarn` command in order to generate the yarn.lock file, commit both the yarn.lock, and package.lock files.
 - Ask for review/merge
 
-#### Note:
+### Note
+
 The package version for the www repo **should not** be major, which means it can't be anything higher than `4.x.x`
 
-#### Detailed local review before a nav release with yarn link
+### Detailed local review before a nav release with yarn link
 
 If you want to review locally changes made to the navigation:
 
@@ -156,8 +152,7 @@ If you want to review locally changes made to the navigation:
 1. Run `yarn link be-navigation`.
 1. Install packages and start the project by running `yarn && yarn dev`
 
-Changes made to the navigation should be available in the BE or Dub repo for testing extensively on your local environment. 
-
+Changes made to the navigation should be available in the BE or Dub repo for testing extensively on your local environment.
 
 ## Semantic Versioning and releasing alpha versions
 
@@ -167,20 +162,19 @@ For example, if you are looking to release verion `1.1.0` of the navigation, con
 
 If there are problems, you can make changes in the navigation repo, release those changes as `1.1.0-beta` or `1.1.0-alpha.1`, test them, and so on, continuing to release "unstable" alpha versions until you're happy with the release.
 
-Once the bugs are fixed, re-release the same code to npm as version `1.1.0`, and merge everything in. 
+Once the bugs are fixed, re-release the same code to npm as version `1.1.0`, and merge everything in.
 
-Although this means re-releasing identical code as a new version to npm, it saves us from incrementing multiple minor versions in one release. 
-
+Although this means re-releasing identical code as a new version to npm, it saves us from incrementing multiple minor versions in one release.
 
 ## Running an A/B Test on the Navigation
 
-We use LaunchDarkly as our AB testing tool. Because of the way the navigation is bundled and pulled into other repositories, we can't target specific items in the Navigation repo for testing. If we want to test something in the Navigation, we need to create a duplicate of the entire navigation component, make the changes in that duplicate version, and release two entirely complete navigations. If we're running an ABC test, we need to duplicate the navigation a third time. 
+We use LaunchDarkly as our AB testing tool. Because of the way the navigation is bundled and pulled into other repositories, we can't target specific items in the Navigation repo for testing. If we want to test something in the Navigation, we need to create a duplicate of the entire navigation component, make the changes in that duplicate version, and release two entirely complete navigations. If we're running an ABC test, we need to duplicate the navigation a third time.
 
 This adds a layer of complexity, since we need to keep two or more distinct navigations up-to-date with any changes. It also takes a fairly lightweight package and doubles it in size. Due to this, when we run navigation tests, they should be testing **genuine, burning questions the team has** - we should run test for which we really need the data to drive a decision (i.e. Could this change be a "just do"?)
 
 Once the two navigation components have been released, they can be used in the Buyer Experience repository like so:
 
-```
+```text
 <LaunchDarkly feature-flag="some-ab-test-id">
 
   <template #control>

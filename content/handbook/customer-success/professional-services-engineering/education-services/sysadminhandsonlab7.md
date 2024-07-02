@@ -1,11 +1,13 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Configure Instance Monitoring"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+description: "This Hands-On Guide walks you through accessing and using Prometheus configurations and metrics."
 ---
 
 > Estimated time to complete: 30 minutes
 
-> **You are viewing the latest Version 16.x instructions.** If you are using `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson7.md).
+## Objectives
+
+The purpose of this lab is to walk you through using Prometheus Service, and how to view Prometheus metrics. To learn more about Prometheus, click [here](https://docs.gitlab.com/ee/administration/monitoring/prometheus/).
 
 ### Task A. Access the Prometheus Service
 
@@ -25,7 +27,7 @@ description: "This hands-on lab guide is designed to walk you through the lab ex
 
 > For this example, suppose you wanted to monitor HTTP requests sent into your GitLab instance. To achieve this, we can use some built in GitLab metrics.
 
-1. Navigate to `http://localhost:9090`. 
+1. Navigate to `http://localhost:9090`.
 
 1. In the input beside the **magnifying glass** button, type `http_requests_total`.
 
@@ -47,7 +49,7 @@ description: "This hands-on lab guide is designed to walk you through the lab ex
 
 1. Click **Alerts** in the top menu.
 
-    > Note that there are two sets of alert rules, one named GitLab and one named Node. The GitLab alerts correspond to platform issues such as the a service being down, Postgres being down, or high queueing withing services. A Node alert corresponds to the server GitLab is deployed on. 
+    > Note that there are two sets of alert rules, one named GitLab and one named Node. The GitLab alerts correspond to platform issues such as a service being down, Postgres being down, or high queueing within services. A Node alert corresponds to the server GitLab is deployed on.
 
 1. Note the file that contains the alerting rules. By default, the file is `/var/opt/gitlab/prometheus/rules/gitlab.rules`.
 
@@ -61,7 +63,7 @@ There are a variety of different metrics administrators can use to monitor the p
 
 1. In the input beside the **magnifying glass** button, type the following query:
 
-    ```
+    ```text
     ((node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes) or ((node_memory_MemFree_bytes + node_memory_Buffers_bytes + node_memory_Cached_bytes) / node_memory_MemTotal_bytes)) * 100
     ```
 
@@ -71,7 +73,7 @@ There are a variety of different metrics administrators can use to monitor the p
 
 1. In the query input, delete your previous query and replace it with the following query:
 
-    ```
+    ```text
     1 - avg without (mode,cpu) (rate(node_cpu_seconds_total{mode="idle"}[5m]))
     ```
 
@@ -87,5 +89,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ### Suggestions?
 
-If you’d like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.
-
+If you'd like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.

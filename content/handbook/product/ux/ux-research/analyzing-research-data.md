@@ -22,13 +22,13 @@ Capturing these insights while the session is fresh in your minds makes the over
 **Synthesizing user interview data**
 Affinity diagramming is one way of finding themes in a collection of ideas, quotes, or observations. This method helps you draw out insights from qualitative data quickly and collaboratively. This is traditionally done in person with sticky notes on a large blank wall or whiteboard. At GitLab, we use a tool called [Figjam](https://www.figma.com/figjam/online-whiteboard/) to recreate this experience remotely.
 
-We use Dovetail to capture notes from each participant session and to store the insights which result from synthesizing the data. As you record data from research sessions, please remove any [personal identifiable information](/handbook/support/workflows/pii_removal_requests.html#overview) or PII (such as first and last names). Additionally, Dovetail has the option of allowing you to highlight and tag your notes within the platform.
+We use Dovetail to capture notes from each participant session and to store the insights which result from synthesizing the data. As you record data from research sessions, please remove any [personal identifiable information](/handbook/support/workflows/pii_removal_requests/#overview) or PII (such as first and last names). Additionally, Dovetail has the option of allowing you to highlight and tag your notes within the platform.
 
 Aside from Dovetail, Figjam is a helpful tool when you are just learning how to synthesize and analyze your data.
 
 #### 1. Put your notes into Figjam
 
-Don’t just copy your notes word for word into a sticky note in Figjam. Read through them and choose the most salient information to create a sticky note from. Best practice is to use one piece of information per sticky note. Have each contributor take one participant to create sticky notes for. At the end of this step, you should have groups of sticky notes for each participant.
+Don't just copy your notes word for word into a sticky note in Figjam. Read through them and choose the most salient information to create a sticky note from. Best practice is to use one piece of information per sticky note. Have each contributor take one participant to create sticky notes for. At the end of this step, you should have groups of sticky notes for each participant.
 
 #### 2. Cluster the data into themes
 
@@ -48,7 +48,7 @@ As your groupings start to come together, add text headings that summarize each 
 
 Organize and reorganize your findings into meaningful categories. See if you need to adjust any of your themes before moving onto the next step.
 
-You also need to check for possible bias. Try “[arguing the other side](https://uxdesign.cc/how-to-look-at-evidence-and-not-translate-it-into-your-own-agenda-9860171b7ba9).” In other words, build a case from your research *against* your key insights to see if they still stand up.
+You also need to check for possible bias. Try "[arguing the other side](https://uxdesign.cc/how-to-look-at-evidence-and-not-translate-it-into-your-own-agenda-9860171b7ba9)." In other words, build a case from your research *against* your key insights to see if they still stand up.
 
 #### 4. Distill findings into insights
 

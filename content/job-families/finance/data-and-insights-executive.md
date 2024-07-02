@@ -19,7 +19,7 @@ The Director, Data and Insights is a [grade 10](/handbook/total-rewards/compensa
 ### Responsibilities
 
 1. Drive the scope and effectiveness of the data and analysis function at GitLab.
-1. Ensure the Company’s cloud and on-premise data that is centralized into a single data lake is modeled to support data analysis requirements from all functional groups of the Company.
+1. Ensure the Company's cloud and on-premise data that is centralized into a single data lake is modeled to support data analysis requirements from all functional groups of the Company.
 1. Create a common data framework so that all company data can be analyzed in a unified manner.
 1. Work with the product, operations, and executive management teams to create a data enabled user journey.
 1. Create and execute a plan to develop and mature our ability to measure and optimize usage growth, mapped to our user journey.
@@ -55,7 +55,7 @@ The Director, data platform is a [grade 10](/handbook/total-rewards/compensation
 ### Responsibilities
 
 1. Drive the scope and effectiveness of the data and analysis function at GitLab.
-1. Ensure the Company’s cloud and on-premise data is centralized into a single data platform.
+1. Ensure the Company's cloud and on-premise data is centralized into a single data platform.
 1. Create a common data framework so that all company data can be analyzed in a unified manner.
 1. Ensure that all transactional systems can communicate with the data platform.
 1. Develop a roadmap for the data and analytics function that clearly defines ownership and responsibility between the central data function and the functional groups.
@@ -123,7 +123,7 @@ The Senior Director, Data and Insights is a [grade 11](/handbook/total-rewards/c
 ### Responsibilites
 
 - **Leadership**: Set the vision, hire, build, coach and manage a highly productive team of analytics professionals and data scientists. Expert management skills, especially at developing talent. Set goals and priorities for the team.
-- **Results**: Deliver analysis and scientific data to answer GitLab’s toughest analytical questions. Turn those answers into actionable operational results to drive ARR in the business. Ask the right questions to help leaders think through tough business challenges that can be solved with data.
+- **Results**: Deliver analysis and scientific data to answer GitLab's toughest analytical questions. Turn those answers into actionable operational results to drive ARR in the business. Ask the right questions to help leaders think through tough business challenges that can be solved with data.
 - **Stakeholder Management**: Ensure there is alignment with stakeholders, including success and failure criteria of projects, operational resources to operationalize data products.
 - **Communication**: Prepare and review visualizations of all types of data to promote internal understanding of your team's insights. Expert influencer to our executive team. Clearly articulate insights.
 - **Data Science Modeling**: Design, implement and apply analytics techniques (e.g., optimization, machine learning, experimentation, mathematical modeling) using analytical tools and programming languages (e.g., R, Python, SAS). Be comfortable with a boring solution such as a heuristic when it helps drive the insight.
@@ -134,7 +134,7 @@ The Senior Director, Data and Insights is a [grade 11](/handbook/total-rewards/c
 
 ### Requirements
 
-- Leadership: Experience leading data science and analytics team with a track record of delivering measurable business results with your team’s insights and data products
+- Leadership: Experience leading data science and analytics team with a track record of delivering measurable business results with your team's insights and data products
 - Business Partnership: Consistent track record of using quantitative analysis to impact key business decisions in partnership with the business.
 - Communication: Ability to present financial data concisely through written and oral communication. Expert at influencing business stakeholders.
 - Data Analysis: A passion for understanding business questions and making data driven insights. Excellent analytical skills.

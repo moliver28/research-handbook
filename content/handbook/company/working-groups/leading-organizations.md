@@ -33,7 +33,7 @@ Build scalable model to activate 100 Leading Organizations by the end of FY24-Q4
    1. Reduce time to activation
 1. Recognize and amplify success
    1. Publish case studies, blog posts and fireside chats with members about co-creation
-   1. Amplify Leading Organizations’ contributions at industry conferences
+   1. Amplify Leading Organizations' contributions at industry conferences
 1. Increase capacity and improve attribution
    1. Increase reviewer/maintainer capacity in product areas with high number of contributions
    1. Improve contribution tracking, customer segmentation and attribution

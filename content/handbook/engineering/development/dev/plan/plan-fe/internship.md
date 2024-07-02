@@ -1,13 +1,6 @@
 ---
-
 title: "Plan Frontend Engineer Internship"
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -46,17 +39,17 @@ For this program to be successful, the Roles and Responsibilities must be transp
 **Weekly:**
 
 - Weekly 1-1:
-    - Agenda:
-        - Discuss Outstanding Questions
-        - Review Status of Assigned Issues
-        - Review Status of Project
-        - 1-1 Questions
-            - What went well
-            - Learnings from last week
-            - Priorities for upcoming week
-            - Any challenges or concerns
-            - Feedback and career development
-    - Assign a new issue from backlog
+  - Agenda:
+    - Discuss Outstanding Questions
+    - Review Status of Assigned Issues
+    - Review Status of Project
+    - 1-1 Questions
+      - What went well
+      - Learnings from last week
+      - Priorities for upcoming week
+      - Any challenges or concerns
+      - Feedback and career development
+  - Assign a new issue from backlog
 
 **As needed:**
 
@@ -88,11 +81,11 @@ The Intern will have a Primary Mentor, however any of these responsibilities can
 
 - Participate in at least one pair programming session
 - Weekly meeting:
-    - Agenda:
-        - Discuss Outstanding Questions
-        - Review status of current issues
-        - Review status of Project
-        - Discuss learnings from the past week
+  - Agenda:
+    - Discuss Outstanding Questions
+    - Review status of current issues
+    - Review status of Project
+    - Discuss learnings from the past week
 
 **As Needed:**
 
@@ -105,8 +98,8 @@ The Intern will have a Primary Mentor, however any of these responsibilities can
 
 - Complete Onboarding Issue first week items
 - Review Plan pages in handbook
-    - [Frontend Plan Team](/handbook/engineering/development/dev/plan-project-management/)
-    - [Plan Stage Page](https://about.gitlab.com/stages-devops-lifecycle/plan/)
+  - [Frontend Plan Team](/handbook/engineering/development/dev/plan/project-management/)
+  - [Plan Stage Page](https://about.gitlab.com/stages-devops-lifecycle/plan/)
 - Follow the Internship Day to Day Activities
 - Review long term Project
 - Work with the Engineering Manager to complete Goal Analysis

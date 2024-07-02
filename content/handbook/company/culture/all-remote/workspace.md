@@ -24,7 +24,7 @@ Workspace expert Ryan Anderson from [MillerKnoll](https://www.millerknoll.com) s
 
 {{< youtube "l9jmb8TE7sw" >}}
 
-Like Ryan says, it's important to view your home office as an evolving project. [Iteration]({{< ref "values#iteration" >}}) applies to workspaces, too. As you begin working in your office, you may realize that you need to shift your monitors, add lighting, or find that you get more done in silence or ambient noise than wearing headphones playing music.
+Like Ryan says, it's important to view your home office as an evolving project. [Iteration](/handbook/values/#iteration) applies to workspaces, too. As you begin working in your office, you may realize that you need to shift your monitors, add lighting, or find that you get more done in silence or ambient noise than wearing headphones playing music.
 GitLab teamed up with the workplace design experts at Herman Miller to create the **[Work-From-Home Field Guide]({{< ref "./work-from-home-field-guide" >}})**. This resource is a blueprint for leaders and remote teams to build healthier workspaces, no matter where work gets done. On this page, we're sharing lessons from that guide, with a lot of added detail.
 
 ## The importance of choosing the right workspace equipment
@@ -46,7 +46,7 @@ Assuming you're lucky enough to have excellent access, you may also want to set 
 
 ### PC
 
-Refer to your company's policy for specifics on [purchasing a computer or laptop](/handbook/business-technology/team-member-enablement/onboarding-access-requests#laptops). Since this will your main mode of working and communicating, be sure the specs and speed fit your optimal way of working.
+Refer to your company's policy for specifics on [purchasing a computer or laptop](/handbook/business-technology/end-user-services/onboarding-access-requests#laptops). Since this will your main mode of working and communicating, be sure the specs and speed fit your optimal way of working.
 
 ### Camera with video capability
 
@@ -59,8 +59,6 @@ There are generally three tiers of camera quality for at-home workspaces (profes
 1. Built-in webcam on a phone, laptop, or external display (baseline)
 
 #### Mirrorless or DSLR camera
-
-{{% tweet user="chrisgetsbetter" id="1243620518281928705" %}}
 
 For optimal image quality in video calls, a dedicated mirrorless camera or DSLR is the ideal. *The Verge* maintains a [basic setup guide](https://www.theverge.com/21244380/webcam-camera-how-to-dslr-mirrorless-capture-card-usb-hdmi) if you're new to the concept. Sony's Alpha line of mirrorless cameras are excellent for webcam use. However, these types of cameras and their accessories can be very expensive, and may not be right for everyone's needs. Before committing, read the following considerations.
 
@@ -129,15 +127,15 @@ Sid Sijbrandij (CEO and co-founder, GitLab) shared a video overview of his [stre
 
 Teleprompters enable eye contact similar to meeting someone in-person and can make meetings more engaging. However, there are currently challenges with using a teleprompter setup as your everyday video conferencing setup. Once these are overcome, we may recommend it.
 
-1. **Problem (Major):** When Zoom is on the teleprompter, the chat, controls, and screen sharing are extremely small and unusable. They have a “dual monitor” mode that is meant for screen sharing and it behaves as expected for n=3+ calls. But for 1:1 calls it unexpectedly puts yourself on the video window in the teleprompter.
+1. **Problem (Major):** When Zoom is on the teleprompter, the chat, controls, and screen sharing are extremely small and unusable. They have a "dual monitor" mode that is meant for screen sharing and it behaves as expected for n=3+ calls. But for 1:1 calls it unexpectedly puts yourself on the video window in the teleprompter.
     - *Mitigation:* We may need to wait for Zoom to roll out a new mode that is teleprompter-specific
 1. **Problem (Major):** The mouse, Zoom controls, and screen shared content are horizontally flipped on the teleprompter making it very difficult to work
     - *Mitigation:* Buy [a device](https://telepromptermirror.com/hdmi-mirrorbox) that horizontally flips the HDMI output to the monitor mounted in the teleprompter
 1. **Problem (Minor):** It's disconcerting that the audio of the person you're looking at is coming from your computer which is sitting to the side. This is especially true when you have a video monitor window on that computer that pulls your attention away from the teleprompter because it's brighter, larger, and syncs to the audio
     - *Mitigation:* External stereo speakers that mount to teleprompter
-1. **Problem (Minor):** It's harder to know when your camera is off when it's mounted in a teleprompter. And that’s a problem if your office is a guest bedroom (or something)
+1. **Problem (Minor):** It's harder to know when your camera is off when it's mounted in a teleprompter. And that's a problem if your office is a guest bedroom (or something)
     - *Mitigations*
-        - Get some sort of “on air” light
+        - Get some sort of "on air" light
         - Get a black silk hood to flip over the camera
         - Remember to turn the camera off every single time
 1. **Problem (Minor):** The video quality is slightly degraded by the physics of light passing through an additional pane of glass
@@ -160,7 +158,7 @@ It's important for remote workers to be cognizant of repetitive motion. While it
 Keep in mind that work often happens [in multiple spaces](https://youtu.be/l9jmb8TE7sw?t=454) throughout the workweek. You'll want to consider a range of spaces for different types of work:
 
 1. **Primary spaces:** Ideal for deep, focused work where you need secondary screens, specialized tools, or controlled conditions for important video calls.
-1. **Secondary spaces:** Try these for re-energizing your mind with [coffee chats]({{< ref "./informal-communication#coffee-chats" >}}), 1:1s, [learning and development]({{< ref "/handbook/people-group/learning-and-development" >}}), etc.
+1. **Secondary spaces:** Try these for re-energizing your mind with [coffee chats]({{< ref "./informal-communication#coffee-chats" >}}), 1:1s, [learning and development](/handbook/people-group/learning-and-development), etc.
 1. **On-the-go spaces:** Great for cognitively light work and fitting in bursts of productivity between meetings or appointments.
 
 ### Chair
@@ -189,15 +187,13 @@ Generally, a larger desk is preferred, as it reduces crowding. A clean, uncrowde
 
 #### Standing desks
 
-{{% tweet user="jake_burden_" id="1333471036474597377" %}}
-
 An adjustable standing desk is a great, ergonomic option. You can find standing desks at a variety of price points, heights, adjustability levels, and more. An adjustable desk allows you to easily move your desk higher in order to stand while working, and then adjust it back down to sit for a time. This is a good article on [The Best Standing Desks](https://thewirecutter.com/reviews/best-standing-desk) in higher price ranges.
 
 GitLab team members have been satisfied with the value and quality of standing desks from [Autonomous](https://www.autonomous.ai), [IKEA](https://www.ikea.com/us/en/p/skarsta-trotten-desk-sit-stand-white-s49435416), [Fully](https://www.fully.com/standing-desks.html) and [WorkTrainer for small spaces](https://www.worktrainer.de/Kleiner-Wand-Sitz-Steh-Tisch-Walldesk-elektrisch).
 
 Research is ongoing as to the [ideal ratio of sitting to standing](https://uwaterloo.ca/kinesiology/how-long-should-you-stand-rather-sit-your-work-station) during a workday.
 
-> Using advanced ergonomic and health risk calculations, [Jack Callaghan](https://uwaterloo.ca/kinesiology/people-profiles/jack-callaghan), a professor in Waterloo’s Department of Kinesiology, has found that the ideal sit-stand ratio lies somewhere between 1:1 and 1:3  – a vast departure from traditional wisdom.
+> Using advanced ergonomic and health risk calculations, [Jack Callaghan](https://uwaterloo.ca/kinesiology/people-profiles/jack-callaghan), a professor in Waterloo's Department of Kinesiology, has found that the ideal sit-stand ratio lies somewhere between 1:1 and 1:3  – a vast departure from traditional wisdom.
 
 #### Standing mats
 
@@ -264,11 +260,11 @@ Plan your work time and [time off]({{< ref "paid-time-off" >}}) in advance. When
 
 Have an open, honest conversation with co-dwellers about your working hours. Explain that while you are home, you should be considered unreachable unless there's a significant level of need.
 
-Be sure to have the ["I'm home but working" conversation with children](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home), who may struggle to understand why a [a working parent](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby) is in the home but unable or unwilling to engage with them for certain parts of the day.
+Be sure to have the ["I'm home but working" conversation with children](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home), who may struggle to understand why [a working parent](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby) is in the home but unable or unwilling to engage with them for certain parts of the day.
 
 ### How can I decorate my home office?
 
-When you work from home, you create a space that fuels your work. According to this [Thrive Global article on remote space setup](https://thriveglobal.com/stories/how-remote-work-can-reduce-stress-and-revitalize-your-mindset), "Maybe that is art, pictures, having a couch close by, or maybe it’s just having music playing...at home you can really do whatever you want. It feels less like a corporate job and more of your own thing."
+When you work from home, you create a space that fuels your work. According to this [Thrive Global article on remote space setup](https://thriveglobal.com/stories/how-remote-work-can-reduce-stress-and-revitalize-your-mindset), "Maybe that is art, pictures, having a couch close by, or maybe it's just having music playing...at home you can really do whatever you want. It feels less like a corporate job and more of your own thing."
 
 Try not to [worry about your background]({{< ref "./meetings#meetings-are-about-the-work-not-the-background" >}}) too much. Sometimes pets or family wander into a room while you're on a call and reminds us that we are people first and colleagues second.
 
@@ -288,7 +284,7 @@ Keep in mind that there's no "one size fits all" for a home office setup, becaus
 
 ## GitLab Knowledge Assessment: Considerations for a productive home office or remote workspace
 
-Anyone can test their knowledge on how to set up a productive home office or remote workspace by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSeuswfs_t1Dl2vbmapTLNRHa2rfi5zwUg2IQ7ZQI7hxc1gB5g/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Anyone can test their knowledge on how to set up a productive home office or remote workspace by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSeuswfs_t1Dl2vbmapTLNRHa2rfi5zwUg2IQ7ZQI7hxc1gB5g/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
@@ -296,6 +292,6 @@ Anyone can test their knowledge on how to set up a productive home office or rem
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

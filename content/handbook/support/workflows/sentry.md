@@ -4,8 +4,6 @@ category: Infrastructure for troubleshooting
 description: How to use Sentry to investigate GitLab.com errors
 ---
 
-
-
 ## Sentry
 
 *Note*: Sentry organizes applications into "Sentry Teams". To investigate errors across different applications or environments, our primary teams used are `#gitlab` (for the production rails application) and `#gitlab-internal` (for non-production environments). By joining said Sentry Team, the application errors should be viewable.

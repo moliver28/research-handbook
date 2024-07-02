@@ -7,7 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-Despite all of its [advantages]({{< ref "remote-benefits" >}}), all-remote work isn't for everyone. It can have disadvantages for potential employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency]({{< ref "values#transparency" >}}), we'll also highlight counterpoints and solutions to these challenges.
+Despite all of its [advantages]({{< ref "remote-benefits" >}}), all-remote work isn't for everyone. It can have disadvantages for potential employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency](/handbook/values/#transparency), we'll also highlight counterpoints and solutions to these challenges.
 
 {{< youtube "CwOLAKSdlfs" >}}
 
@@ -57,7 +57,7 @@ Some may find it difficult to work in the same setting as they live and sleep, b
 
 **Solutions**
 
-- All-remote companies should not assume that team members will work from their home 100% of the time. Organizations can consider [reimbursing coworking space usage](/handbook/spending-company-money/) and [creating an atmosphere](/handbook/spending-company-money/) where team members are [encouraged to construct a workspace]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}) that is ideal for their comfort and productivity.
+- All-remote companies should not assume that team members will work from their home 100% of the time. Organizations can consider [reimbursing coworking space usage](/handbook/finance/spending-company-money/) and [creating an atmosphere](/handbook/finance/spending-company-money/) where team members are [encouraged to construct a workspace]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}) that is ideal for their comfort and productivity.
 - GitLab team members have shared their own solutions in a number of blog posts, including a series on [working at home with kids](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home/) and [utilizing an RV as a traveling office](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence/).
 
 ### Challenge: Different time zones
@@ -67,7 +67,7 @@ Team members in different time zones may have to compromise on meeting times.
 **Solutions**
 
 - All-remote companies should consider [meetings]({{< ref "./meetings" >}}) as a last resort, instead relying on asynchronous collaboration tools like Google Docs and [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) to facilitate meaningful dialog without time zone concerns.
-- To prevent [pent-up frustration]({{< ref "values#five-dysfunctions" >}}) over working odd hours to facilitate a global call, all-remote companies should consider treating each team member as a [manager of one]({{< ref "values#managers-of-one" >}}). This goes beyond the basic definition of flexibility by empowering team members to structure each day according to the needs at hand. For example, spending more time with family earlier in the day to compensate for a late-night work call.
+- To prevent [pent-up frustration](/handbook/values/#five-dysfunctions) over working odd hours to facilitate a global call, all-remote companies should consider treating each team member as a [manager of one](/handbook/values/#managers-of-one). This goes beyond the basic definition of flexibility by empowering team members to structure each day according to the needs at hand. For example, spending more time with family earlier in the day to compensate for a late-night work call.
 
 ### Challenge: Separating work from personal life
 
@@ -76,12 +76,12 @@ It can be hard to separate your personal and work life. It's important to encour
 **Solutions**
 
 - [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}), to regular [1:1s]({{< ref "1-1" >}}).
-- All-remote companies should consider implementing a [Results value]({{< ref "values#results" >}}), where [results (as opposed to hours) are measured]({{< ref "values#measure-results-not-hours" >}}). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
+- All-remote companies should consider implementing a [Results value](/handbook/values/#results), where [results (as opposed to hours) are measured](/handbook/values/#measure-results-not-hours). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
 - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout]({{< ref "paid-time-off#recognizing-burnout" >}}), and to be mindful of the last time a team member [took time off from work]({{< ref "paid-time-off#paid-time-off" >}}).
 
 ### Challenge: Time management
 
-Remote work requires you to [manage your own time]({{< ref "values#managers-of-one" >}}) and be self-motivated, disciplined, and [organized](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).
+Remote work requires you to [manage your own time](/handbook/values/#managers-of-one) and be self-motivated, disciplined, and [organized](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).
 
 **Solutions**
 
@@ -109,7 +109,7 @@ Because it's non-traditional, all-remote work sometimes [concerns](https://about
 - For those in the early stages of fundraising for an all-remote company, here are [30 tips from GitLab co-founder and CEO Sid Sijbrandij](https://about.gitlab.com/blog/2016/10/14/fundraising-tips-ceo/).
 - For even more on this topic, [listen](https://about.gitlab.com/blog/2019/08/16/all-remote-fundraising/) to Sid unpack why venture firms struggle to fund all-remote startups with [Maren Kate](https://www.linkedin.com/in/marenkate), host of the [Remote AF podcast](https://podcasts.apple.com/us/podcast/gitlab-raised-$100m-got-valued-at-over-billion-by-starting/id1467214647?i=1000444691471).
 
-> "In the beginning they assess your team, then they assess your product, and then they assess your financials. When it comes to the team, [investors are] super skeptical they will be able to create something with all-remote. Then when it’s about the product they say, ‘Yes, maybe, but what about scaling?’ And then when it’s about the financials you can let the numbers speak for themselves so it’s less of a concern. — *GitLab co-founder and CEO Sid Sijbrandij*
+> "In the beginning they assess your team, then they assess your product, and then they assess your financials. When it comes to the team, [investors are] super skeptical they will be able to create something with all-remote. Then when it's about the product they say, 'Yes, maybe, but what about scaling?' And then when it's about the financials you can let the numbers speak for themselves so it's less of a concern. — *GitLab co-founder and CEO Sid Sijbrandij*
 
 ### Challenge: Compliance
 
@@ -127,7 +127,7 @@ You have to be more intentional about [cultivating](https://about.gitlab.com/blo
 
 - While this is an obstacle for all-remote companies, colocated organizations should be deliberate about documenting their culture as well.
 - All-remote organizations should document everything, including [values]({{< ref "values" >}}), and ensure that they are easily accessible to all.
-- GitLab demonstrates this with its [Handbook]({{< ref "/handbook" >}}), a living document that is [continually iterated on]({{< ref "about#count-handbook-pages" >}}) by team members. We encourage all-remote organizations to glean from this and develop their own handbook.
+- GitLab demonstrates this with its [Handbook](/handbook), a living document that is [continually iterated on]({{< ref "about#count-handbook-pages" >}}) by team members. We encourage all-remote organizations to glean from this and develop their own handbook.
 
 ## Remote work challenges and solutions for teams
 
@@ -158,9 +158,9 @@ It's not easy to separate work and personal life when working remote. It's impor
 **Solutions**
 
 - [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}), to regular [1:1s]({{< ref "1-1" >}}).
-- Focus on [results (as opposed to hours worked)]({{< ref "values#measure-results-not-hours" >}}).
+- Focus on [results (as opposed to hours worked)](/handbook/values/#measure-results-not-hours).
 - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout]({{< ref "paid-time-off#recognizing-burnout" >}}), and to be mindful of the last time a team member [took time off from work]({{< ref "paid-time-off#paid-time-off" >}}).
-- Remote work requires you to [manage your own time]({{< ref "values#managers-of-one" >}}) and be self-motivated, disciplined, and [organized](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).
+- Remote work requires you to [manage your own time](/handbook/values/#managers-of-one) and be self-motivated, disciplined, and [organized](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).
 
 ## Is working remotely effective?
 

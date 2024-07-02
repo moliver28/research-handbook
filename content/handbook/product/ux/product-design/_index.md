@@ -1,11 +1,7 @@
 ---
 title: "Product Design"
-description: "We support the business of GitLab by becoming experts in our stage group, educating ourselves about the entire product, and staying engaged with user and business goals"
+description: "We support the business of GitLab by becoming experts in our stage group, educating ourselves about the entire product, and staying engaged with user and business goals. We partner closely with our stable counterparts in Product Management and Development."
 ---
-
-## Product Design at GitLab
-
-We support the business of GitLab by becoming experts in our stage group, educating ourselves about the entire product, and staying engaged with user and business goals. We partner closely with our stable counterparts in Product Management and Development.
 
 ### Process and DRI
 
@@ -33,22 +29,9 @@ Each Product Designer is assigned to an area of our product, called Stage Groups
 
 Information about product categories and links to team members and direction pages can be found [here](/handbook/product/categories/).
 
-### UX Paper Cuts Team
-
-The UX Paper Cuts team is a small team responsible for identifying and fixing small, but impactful, usability issues in the GitLab product. The term "paper cut" refers to a small, seemingly insignificant problem that can cause annoyance or frustration for users. When considered as a collective, these problems can reduce the overall impression users have of the product.
-
-The UX Paper Cuts team continuously improves the user experience by creating merge requests to address these small issues. By focusing on small details, the team helps create a more polished and user-friendly interface, leading to increased user satisfaction, engagement, and, ultimately, a more successful product.
-
-You can find changes made by UX Paper Cuts by following along in the [GitLab Polish Gallery](https://nicolasdular.gitlab.io/gitlab-polish-gallery/), the internal Slack channel `#ux_paper_cuts_mrs`, or by searching the GitLab label [UX Paper Cuts](https://gitlab.com/dashboard/merge_requests?scope=all&state=all&label_name[]=UX%20Paper%20Cuts).
-
-#### Learn more about UX Paper Cuts
-
-- [Planning epic](https://gitlab.com/groups/gitlab-org/-/epics/10026)
-- [Workflow](/handbook/product/ux/product-designer/#ux-paper-cuts-workflow)
-
 ## Learn about UX and see our work
 
-- [YouTube Playlist for UX Showcases](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz)
+- [YouTube Playlist for UX Forum](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz)
 
 ## Product Design Workflow
 
@@ -76,7 +59,7 @@ Product Designer Tools
 
 Product Design Management
 
-- [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager.html)
+- [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager)
 
 Learning and Development
 
@@ -114,15 +97,14 @@ Going forward, every milestone, we will ask Product Designers and Engineers to v
 
 | Milestone          | Product Designer  | Engineer          |
 | ------------------ | ----------------- | ----------------- |
-| 16.8               | Veethika M         |   Mireya Andres   |
-| 16.9               |                   |                   |
-| 16.10              |                   |                   |
-| 16.11              |                   |                   |
+| 16.8               | Veethika Mishra   |   Mireya Andres   |
 | 17.0               |                   |                   |
-| 17.1               |  Veethika Mishra  |     Miguel Rincon |
-
+| 17.1               |  Veethika Mishra  |   Miguel Rincon   |
+| 17.2               |                   |                   |
+| 17.3               |                   |                   |
 
 {{% details summary="Previous Volunteers" %}}
+
 | Milestone         | Product Designer  | Engineer          |
 | ----------------- | ----------------- | ----------------- |
 | [16.1 (2023-05-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/394768) | Veethika M         | Payton Burdette |
@@ -133,6 +115,7 @@ Going forward, every milestone, we will ask Product Designers and Engineers to v
 | [15.2 (2022-06-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/362122) | Emily Bauman       | Jannik Lehmann  |
 | [15.1 (2022-05-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/361641) | Sascha Eggenberger | Robert Hunt     |
 | [15.0 (2022-04-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/356703) | Annabel Gray       | Phil Hughes     |
+
 {{% /details %}}
 
 #### How do I volunteer?
@@ -151,7 +134,7 @@ Every MR should follow the [approval guidelines](https://docs.gitlab.com/ee/deve
 
 The point of this initiative is to move fast, often in product areas you may not be familiar with. Because these fixes don't go through our regular [product development flow](/handbook/product-development-flow/), it's important to take reasonable steps to reduce risk. Consider things like:
 
-- **Use feature flags**. To more quickly and easily revert changes, it can make sense to use feature flags. Annabel Dunstone Gray recorded a [UX showcase around how to do so and why it might be beneficial](https://www.youtube.com/watch?v=M9pgdTlqBmw).
+- **Use feature flags**. To more quickly and easily revert changes, it can make sense to use feature flags. [Learn how and why it might be beneficial](https://www.youtube.com/watch?v=M9pgdTlqBmw).
 - **How will this change impact our self-managed customers?** Because we use our SaaS product, we're not always personally aware of nuanced differences between our Self-Managed and SaaS offerings. Make sure to consider the possible implications of any changes to all of our deployment options. Start by reviewing the docs related to the feature, and ask questions if you're still unsure.
 - **How can I crowd source feedback on a significant change?** Sometimes there will be dependencies that aren't obvious. Consider opening up feedback issues (like [this one](https://gitlab.com/gitlab-org/gitlab/-/issues/363276)) and use our internal Slack to make the company aware of significant upcoming changes, so that people can offer feedback. Channels like `#product`, `#whats-happening-at-gitlab`, and `#is-this-known` can be good places to publicize these messages.
 - **Use the [Pajamas Design System](https://design.gitlab.com/).** Make sure your changes align with the design system and leverage available components. If there's a need to update an existing component or propose a new one, follow the [component lifecycle](https://design.gitlab.com/get-started/lifecycle). If you have questions, ask a member of the [Foundations group](/handbook/product/categories/#foundations-group).

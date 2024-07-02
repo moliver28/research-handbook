@@ -1,15 +1,8 @@
 ---
-
 title: "CI/CD Campaign"
 description: "Everything you need to know about the CI/CD campaign."
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
-
-
-
-
-
-
 
 ## Campaign Overview
 
@@ -29,7 +22,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 {: #campaign-visual}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-![](/images/handbook/marketing/marketing-programs/CI-CD_Campaign_Flow.png.png)
+![''](/images/handbook/marketing/marketing-programs/CI-CD_Campaign_Flow.png.png)
 
 ### Campaign Pages & Activities
 
@@ -39,6 +32,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 **[See the FY22 Marketing Calendar for upcoming virtual events >>](https://docs.google.com/spreadsheets/d/1c2V3Aj1l_UT5hEb54nczzinGUxtxswZBhZV8r9eErqM/edit#gid=571560493&fvid=1408681455)**
 
 Always On Lead Generation:
+
 - :books: Content [[eBook] The benefits of single application CI/CD](https://about.gitlab.com/why/use-continuous-integration-to-build-and-test-faster/)
 - :books: Content [[eBook] Modernize your CI/CD](https://about.gitlab.com/resources/ebook-fuel-growth-cicd/)
 - :video_camera: On-Demand Webinar [[Demo + Q&A] Continuous Integration with GitLab](https://www.brighttalk.com/webcast/17523/461825?utm_source=GitLab&utm_medium=brighttalk&utm_campaign=461825)
@@ -59,12 +53,12 @@ Always On Lead Generation:
 - **Level:** Manager
 - **Function:** Dev, App
 - **Challenges we're trying to solve with this campaign:**
-   - Too many DevOps integrations/toolchain overload
-   - Lack of scalability (usually intensified the larger the org)
-   - Easy entry for teams to get started with CI/CD
-   - Additional info:
-     - DevOps Manager: Needs to effectively support the DevOps tools and infrastructure integral to their org’s application delivery. Concerned with providing development teams with the best possible tools, environments, and integrations for them to be successful. Challenged with prioritizing development work as an individual contributor (features/bug fixes) and supporting dev teams.
-     - Dev Leads (Development Manager): Needs to have a finger on the pulse of their development team’s capacity and priorities. Concerned with improving productivity and unblocking any issues that get in the way of progress. Challenged when development deadlines and assigned tasks change rapidly or too frequently. Also challenged when work on feature delivery is interrupted by show-stopping bugs or blockers.
+  - Too many DevOps integrations/toolchain overload
+  - Lack of scalability (usually intensified the larger the org)
+  - Easy entry for teams to get started with CI/CD
+  - Additional info:
+    - DevOps Manager: Needs to effectively support the DevOps tools and infrastructure integral to their org's application delivery. Concerned with providing development teams with the best possible tools, environments, and integrations for them to be successful. Challenged with prioritizing development work as an individual contributor (features/bug fixes) and supporting dev teams.
+    - Dev Leads (Development Manager): Needs to have a finger on the pulse of their development team's capacity and priorities. Concerned with improving productivity and unblocking any issues that get in the way of progress. Challenged when development deadlines and assigned tasks change rapidly or too frequently. Also challenged when work on feature delivery is interrupted by show-stopping bugs or blockers.
 - **Ideal state:**
   - Dev and Ops are empowered to work better together, no more "throwing things over the proverbial wall"
   - Improved visibility and communication, gain faster feedback and integrate smaller code changes frequently (with less risk of build-breaking changes)
@@ -77,7 +71,7 @@ Always On Lead Generation:
 - **Why is GitLab a better solution than competitors:**
   - GitLab as a single application provides end-to-end visibility into the SDLC and promotes better, more frequent, collaboration among teams. Errors are caught earlier in the process before they turn into bigger problems.
   - GitLab enables faster release cycles in batches of small iterations without requiring a complete overhaul of existing development workflows and/or DevOps tools
-  - GitLab’s built-in CI means less context switching between tools and more time that developers spend writing code. Overall productivity increases
+  - GitLab's built-in CI means less context switching between tools and more time that developers spend writing code. Overall productivity increases
 
 #### Target Persona 2: Practitioners
 
@@ -92,7 +86,7 @@ Always On Lead Generation:
   - Lack of education and/or official support
   - Additional info:
     - Developers: Needs automation to replace otherwise tedious, manual, work. Concerned with delivering high quality code as fast as possible. Challenged when planned work is disrupted and productivity is negatively impacted.
-    - DevOps Engineer: Needs to effectively support the DevOps tools and infrastructure integral to their org’s application delivery. Concerned with providing development teams with the best possible tools, environments, and integrations for them to be successful. Challenged with prioritizing development work as an individual contributor (features/bug fixes) and supporting dev teams.
+    - DevOps Engineer: Needs to effectively support the DevOps tools and infrastructure integral to their org's application delivery. Concerned with providing development teams with the best possible tools, environments, and integrations for them to be successful. Challenged with prioritizing development work as an individual contributor (features/bug fixes) and supporting dev teams.
 - **Ideal state:**
   - Dev and Ops are empowered to work better together, no more "throwing things over the proverbial wall"
   - Improved visibility and communication, gain faster feedback and integrate smaller code changes frequently (with less risk of build-breaking changes)
@@ -103,7 +97,7 @@ Always On Lead Generation:
   - Increasing operational efficiencies - Automation reduces manual work and overall cost of tools. Less overhead. Improved performance.
   - Reducing security and compliance risk: Regular releases on a monthly cadence (thanks to rapid innovation) minimizes security risk along with automated tests and scan
 - **Why is GitLab a better solution than competitors:**
-  - GitLab’s built-in CI means less context switching between tools and more time that developers spend writing code. Overall productivity increases
+  - GitLab's built-in CI means less context switching between tools and more time that developers spend writing code. Overall productivity increases
   - GitLab as a single application provides end-to-end visibility into the SDLC and promotes better, more frequent, collaboration among teams. Errors are caught earlier in the process before they turn into bigger problems.
   - GitLab enables faster release cycles in batches of small iterations without requiring a complete overhaul of existing development workflows and/or DevOps tools
 
@@ -185,14 +179,12 @@ Always On Lead Generation:
 | Consideration | [[EBOOK] Benefits of single application CI/CD](https://about.gitlab.com/resources/ebook-single-app-cicd/) | [[REPORT] The Total Economic Impact™ of GitLab](https://about.gitlab.com/resources/report-forrester-tei/) | [[VIDEO] GitLab CI/CD Overview](https://www.youtube.com/watch?v=wsbSvLyC2Z8) |
 | Purchase| [[ANALYST] The 2019 Forrester Wave™: Cloud-Native Continuous Integration Tools](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/4203)| [[REFERENCE] How Jaguar Land Rover embraced CI to speed up builds](https://about.gitlab.com/blog/2018/07/23/chris-hill-devops-enterprise-summit-talk/)| [COMPETITIVE] GitLab vs. Jenkins |
 
-
 ### Marketo Nurture Emails
 
 {: #nurture-emails .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **[See Marketo Nurture Email Copies >>](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2478#ship-final-copies)**
-
 
 ### Outreach Emails
 
@@ -215,7 +207,7 @@ Always On Lead Generation:
 
 {: .alert #behind-the-scenes .alert-gitlab-orange}
 <!-- DO NOT CHANGE THIS ANCHOR -->
-#### Campaign Execution Documentation & Resources
+### Campaign Execution Documentation & Resources
 
 {: #campaign-execution .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->

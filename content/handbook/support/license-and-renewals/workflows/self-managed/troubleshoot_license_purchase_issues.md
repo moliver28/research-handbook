@@ -1,10 +1,8 @@
 ---
-
 title: Troubleshooting license purchase errors
 description: "How to troubleshoot GitLab license purchasing errors"
 category: GitLab Self-Managed licenses
 ---
-
 
 Customers may report encountering the following error message when purchasing additional seats for their licensed GitLab Self-Managed instance:
 

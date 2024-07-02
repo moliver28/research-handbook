@@ -1,14 +1,7 @@
 ---
-
 title: "Demo Systems"
 description: "The GitLab Demo Systems provide infrastructure for the GitLab Customer Success, Marketing, Sales, and Training teams to demonstrate GitLab features, value propositions, and workflows in a variety of asynchronous and live capacities."
 ---
-
-
-
-
-
-
 
 ## Overview of Demo Systems
 
@@ -21,6 +14,7 @@ In June 2021, Jeff Martin changed roles to a [Senior IT Systems Engineer](/job-f
 For questions about what demo sample projects are available or peer assistance with troubleshooting your failed pipeline job, please ask in the `#cs-questions` Slack channel.
 
 Please tag `@Jeff Martin` in one of the following Slack channels with any questions or requests related to infrastructure or access requests.
+
 - `#demo-systems` is for SA, CSM, and PSE team members with questions or needing technical assistance. No longer for training/workshop related posts.
 - `#demo-systems-workshops` is for workshop-related discussions.
 - `#demo-systems-ps-education` is for ILT/SPT/etc related discussions for Professional Services.
@@ -30,40 +24,36 @@ Please consider this handbook documentation to be the single source of truth ("S
 
 ### Why do we have demo systems?
 
-- **Why shouldn’t we just use GitLab.com?** Although you can use GitLab.com for showing most of the value of GitLab use cases, there are some administrative features that require the deployment of GitLab Omnibus infrastructure in AWS, GCP, or local VM/container. Many of our enterprise customers opt for self-managed over GitLab.com so we are mindful of “showing the customer what they’ll see in production”.
+- **Why shouldn't we just use GitLab.com?** Although you can use GitLab.com for showing most of the value of GitLab use cases, there are some administrative features that require the deployment of GitLab Omnibus infrastructure in AWS, GCP, or local VM/container. Many of our enterprise customers opt for self-managed over GitLab.com so we are mindful of "showing the customer what they'll see in production".
 
-- **What’s special about our infrastructure?** The demo systems infrastructure doesn’t do anything special that a customer or partner company couldn’t do themselves with the appropriate staffing and engineering investment. We have open sourced our infrastructure-as-code methods, scripts and tools for the wider community to use to streamline their deployment of Omnibus infrastructure. See the [gitlab-com/demo-systems](https://gitlab.com/gitlab-com/demo-systems) repositories to explore our open source projects.
+- **What's special about our infrastructure?** The demo systems infrastructure doesn't do anything special that a customer or partner company couldn't do themselves with the appropriate staffing and engineering investment. We have open sourced our infrastructure-as-code methods, scripts and tools for the wider community to use to streamline their deployment of Omnibus infrastructure. See the [gitlab-com/demo-systems](https://gitlab.com/gitlab-com/demo-systems) repositories to explore our open source projects.
 
 - **Are there special engineering or scalability considerations with training classes and workshops?** Yes. The GitLab product was designed for users to be doing different activities throughout the day and the smaller reference architectures are not designed for dozens or hundreds of users to click the same button and running the same background jobs or pipeline jobs at the same time. Our users are also ephemeral and have automated garbage collection requirements that are not customary for conventional GitLab product use cases. This requires special scalability considerations, notably with the Container Registry, Sidekiq, and Kubernetes that we have to accommodate for. Here's some of the things we're looking for with scalability challenges.
-    - Autoscaling runners for 500 simultaneous pipelines started in 10 seconds
-    - Autoscaling Kubernetes nodes for 500 simultaneous review apps/deployments in 60 seconds
-    - Auto DevOps pipelines that consume lots of wasted resources
-    - Kubernetes services that are not needed (ex. Postgres database)
-    - Intensive test jobs that are not needed during workshop (ex. Code Quality, Dependency Scanning, etc.)
-    - Project export/import queued job fails with 500 simultaneous project imports
-    - Features in your project that have known issues with import/export process (ex. wikis)
-    - Administrative access for students (alternative use cases)
-    - Package registry caching and garbage collection
-    - Container registry caching and garbage collection
-    - CI images pulling from Docker Hub with rate limits
-    - CI image versions that are incompatible or have been upgraded with bug fixes
-    - Using templates in `.gitlab-ci.yml` without realizing the underlying job load.
-    - Using custom `.gitlab-ci.yml` files without comments of the actions being performed
-    - Dependency proxy configuration (particularly for npm and maven dependencies)
-    - Lack of step-by-step instructions that leads to student misconfigurations and errors
+
+  - Autoscaling runners for 500 simultaneous pipelines started in 10 seconds
+  - Autoscaling Kubernetes nodes for 500 simultaneous review apps/deployments in 60 seconds
+  - Auto DevOps pipelines that consume lots of wasted resources
+  - Kubernetes services that are not needed (ex. Postgres database)
+  - Intensive test jobs that are not needed during workshop (ex. Code Quality, Dependency Scanning, etc.)
+  - Project export/import queued job fails with 500 simultaneous project imports
+  - Features in your project that have known issues with import/export process (ex. wikis)
+  - Administrative access for students (alternative use cases)
+  - Package registry caching and garbage collection
+  - Container registry caching and garbage collection
+  - CI images pulling from Docker Hub with rate limits
+  - CI image versions that are incompatible or have been upgraded with bug fixes
+  - Using templates in `.gitlab-ci.yml` without realizing the underlying job load.
+  - Using custom `.gitlab-ci.yml` files without comments of the actions being performed
+  - Dependency proxy configuration (particularly for npm and maven dependencies)
+  - Lack of step-by-step instructions that leads to student misconfigurations and errors
 
 ## Shared Environments
 
 These shared environments are referred to as the Demo Cloud or Training Cloud. Historically, training users used the Demo Cloud so the names are used interchangably in some conversations.
 
-<div class="panel panel-warning">
-<div class="panel-heading">
-Demo Systems v1 Deprecation
-</div>
-<div class="panel-body">
-The <code>gitlab-core.us.gitlabdemo.cloud</code> instance was deprecated on 2021-04-20 and destroyed on 2021-06-03. No data back up is available. See <a href="#access-shared-omnibus-instances">Access Shared Omnibus Instances</a> instructions for accessing the <code>cs.gitlabdemo.cloud</code> instance (direct replacement).<br />
-</div>
-</div>
+{{% panel header="**Demo Systems v1 Deprecation**" header-bg="warning" %}}
+The <code>gitlab-core.us.gitlabdemo.cloud</code> instance was deprecated on 2021-04-20 and destroyed on 2021-06-03. No data back up is available. See <a href="#access-shared-omnibus-instances">Access Shared Omnibus Instances</a> instructions for accessing the <code>cs.gitlabdemo.cloud</code> instance (direct replacement).
+{{% /panel %}}
 
 - `cs.gitlabdemo.cloud` - This is the primary GitLab Omnibus instance that all team members have access to for creating groups, projects, and sandbox purposes on a self-managed Omnibus instance. Please keep in mind that this is a shared environment across all team members and you should treat the Admin areas as read-only.
 - `ilt.gitlabtraining.cloud` - This is used for instructor-led training classes. You should generate credentials for this instance if you are an instructor and need admin access to be able to import sample projects and/or see the groups for all of the students in a class.
@@ -230,7 +220,7 @@ For demo and sandbox use cases requiring an older version, you can deploy a GitL
 
 Historically, there has not been a consistent set of demo data. Each of our Solutions Architects are responsible for creating their own demo data or forking projects from other team members.
 
-See the handbook page for [Demo Readiness](/handbook/customer-success/solutions-architects/demonstrations/#demo-readiness) and [Existing Demonstrations](/handbook/customer-success/solutions-architects/demonstrations/#existing-demonstrations) to get started.
+See the handbook page for [Demo Readiness](/handbook/solutions-architects/demonstrations/#demo-readiness) and [Existing Demonstrations](/handbook/solutions-architects/demonstrations/#existing-demonstrations) to get started.
 
 Please see the <a href="https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/issues">Solutions Architecture Initiatives issue tracker</a> for more information on the crowd sourced OKRs that are in progress and the development of our [Communities of Practice](/handbook/customer-success/initiatives/communities-of-practice.html).
 
@@ -243,45 +233,45 @@ These are the projects that make the Demo Systems possible behind the scenes. Yo
 The Demo Systems v2 repositories can be found in [gitlab.com/gitlab-com/demo-systems](https://gitlab.com/gitlab-com/demo-systems).
 
 - `Public` Underlying Terraform Modules and Ansible Role
-    - [terraform-modules](https://gitlab.com/gitlab-com/demo-systems/terraform-modules)
-    - [terraform-modules/gcp/gce/gcp-compute-instance-tf-module](https://gitlab.com/gitlab-com/demo-systems/terraform-modules/gcp/gce/gcp-compute-instance-tf-module)
-    - [terraform-modules/gcp/gke/gke-cluster-tf-module](https://gitlab.com/gitlab-com/demo-systems/terraform-modules/gcp/gke/gke-cluster-tf-module)
-    - [ansible-roles/omnibus](https://gitlab.com/gitlab-com/demo-systems/ansible-roles/omnibus)
+  - [terraform-modules](https://gitlab.com/gitlab-com/demo-systems/terraform-modules)
+  - [terraform-modules/gcp/gce/gcp-compute-instance-tf-module](https://gitlab.com/gitlab-com/demo-systems/terraform-modules/gcp/gce/gcp-compute-instance-tf-module)
+  - [terraform-modules/gcp/gke/gke-cluster-tf-module](https://gitlab.com/gitlab-com/demo-systems/terraform-modules/gcp/gke/gke-cluster-tf-module)
+  - [ansible-roles/omnibus](https://gitlab.com/gitlab-com/demo-systems/ansible-roles/omnibus)
 - `Public` Assembled Terraform Modules and Environments
-    - [terraform-modules/gcp/gitlab/gitlab-omnibus-sandbox-tf-module](https://gitlab.com/gitlab-com/demo-systems/terraform-modules/gcp/gitlab/gitlab-omnibus-sandbox-tf-module)
-    - [environment-templates/gitlabtraining-shared-environment-template](https://gitlab.com/gitlab-com/demo-systems/environment-templates/gitlabtraining-shared-environment-template)
-    - [INSTALL.md example](https://gitlab.com/gitlab-com/demo-systems/environment-templates/gitlabtraining-shared-environment-template/-/blob/master/INSTALL.md)
+  - [terraform-modules/gcp/gitlab/gitlab-omnibus-sandbox-tf-module](https://gitlab.com/gitlab-com/demo-systems/terraform-modules/gcp/gitlab/gitlab-omnibus-sandbox-tf-module)
+  - [environment-templates/gitlabtraining-shared-environment-template](https://gitlab.com/gitlab-com/demo-systems/environment-templates/gitlabtraining-shared-environment-template)
+  - [INSTALL.md example](https://gitlab.com/gitlab-com/demo-systems/environment-templates/gitlabtraining-shared-environment-template/-/blob/master/INSTALL.md)
 - `Private` Environments IaC - see `terraform/terraform.tfvars.json` and CI pipeline
-    - [environments](https://gitlab.com/gitlab-com/demo-systems/environments)
-    - [environments/cs-gitlabdemo-cloud](https://gitlab.com/gitlab-com/demo-systems/environments/cs-gitlabdemo-cloud)
-    - [environments/ilt-gitlabtraining-cloud-iac](https://gitlab.com/gitlab-com/demo-systems/environments/ilt-gitlabtraining-cloud-iac)
-    - [environments/spt-gitlabtraining-cloud-iac](https://gitlab.com/gitlab-com/demo-systems/environments/spt-gitlabtraining-cloud-iac)
-    - [environments/workshop-gitlabtraining-cloud-iac](https://gitlab.com/gitlab-com/demo-systems/environments/workshop-gitlabtraining-cloud-iac)
-    - [environments/app-gitlabdemo-cloud](https://gitlab.com/gitlab-com/demo-systems/environments/app-gitlabdemo-cloud)
+  - [environments](https://gitlab.com/gitlab-com/demo-systems/environments)
+  - [environments/cs-gitlabdemo-cloud](https://gitlab.com/gitlab-com/demo-systems/environments/cs-gitlabdemo-cloud)
+  - [environments/ilt-gitlabtraining-cloud-iac](https://gitlab.com/gitlab-com/demo-systems/environments/ilt-gitlabtraining-cloud-iac)
+  - [environments/spt-gitlabtraining-cloud-iac](https://gitlab.com/gitlab-com/demo-systems/environments/spt-gitlabtraining-cloud-iac)
+  - [environments/workshop-gitlabtraining-cloud-iac](https://gitlab.com/gitlab-com/demo-systems/environments/workshop-gitlabtraining-cloud-iac)
+  - [environments/app-gitlabdemo-cloud](https://gitlab.com/gitlab-com/demo-systems/environments/app-gitlabdemo-cloud)
 - `Public` Management Applications
-    - [management-apps/gitlabdemo-cloud-app](https://gitlab.com/gitlab-com/demo-systems/management-apps/gitlabdemo-cloud-app)
-    - [gitlab.com/hackystack/hackystack-portal](https://gitlab.com/hackystack/hackystack-portal) (Open source namespace)
-    - [sandbox-cloud/apps-tools/hackystack-portal](https://gitlab.com/gitlab-com/demo-systems/sandbox-cloud/apps-tools/hackystack-portal) (Mirror for Ultimate features)
+  - [management-apps/gitlabdemo-cloud-app](https://gitlab.com/gitlab-com/demo-systems/management-apps/gitlabdemo-cloud-app)
+  - [gitlab.com/hackystack/hackystack-portal](https://gitlab.com/hackystack/hackystack-portal) (Open source namespace)
+  - [sandbox-cloud/apps-tools/hackystack-portal](https://gitlab.com/gitlab-com/demo-systems/sandbox-cloud/apps-tools/hackystack-portal) (Mirror for Ultimate features)
 - `Private - Ops` Sandbox Cloud Infrastructure
-    - [ops.gitlab.net/cloud-realms/master-account/gcp/gcp-hackystack-portal-prd-tf](https://ops.gitlab.net/cloud-realms/master-account/gcp/gcp-hackystack-portal-prd-tf)
-    - [ops.gitlab.net/cloud-realms/master-account/gcp/gcp-hackystack-portal-prd-ansible](https://ops.gitlab.net/cloud-realms/master-account/gcp/gcp-hackystack-portal-prd-ansible)
-    - [ops.gitlab.net/cloud-realms/master-account/gcp/gcp-sandbox-cloud-dns-tf](https://ops.gitlab.net/cloud-realms/master-account/gcp/gcp-sandbox-cloud-dns-tf)
+  - [ops.gitlab.net/cloud-realms/master-account/gcp/gcp-hackystack-portal-prd-tf](https://ops.gitlab.net/cloud-realms/master-account/gcp/gcp-hackystack-portal-prd-tf)
+  - [ops.gitlab.net/cloud-realms/master-account/gcp/gcp-hackystack-portal-prd-ansible](https://ops.gitlab.net/cloud-realms/master-account/gcp/gcp-hackystack-portal-prd-ansible)
+  - [ops.gitlab.net/cloud-realms/master-account/gcp/gcp-sandbox-cloud-dns-tf](https://ops.gitlab.net/cloud-realms/master-account/gcp/gcp-sandbox-cloud-dns-tf)
 - `Private` Runbooks
-    - [runbooks](https://gitlab.com/gitlab-com/demo-systems/runbooks)
-    - [ops.gitlab.net/cloud-realms/apps-tools/runbook-docs](https://ops.gitlab.net/cloud-realms/apps-tools/runbook-docs)
+  - [runbooks](https://gitlab.com/gitlab-com/demo-systems/runbooks)
+  - [ops.gitlab.net/cloud-realms/apps-tools/runbook-docs](https://ops.gitlab.net/cloud-realms/apps-tools/runbook-docs)
 
 ### Demo Systems v1 (Deprecated)
 
 The Demo Systems v1 repositories can be found in [gitlab.com/gitlab-com/customer-success/demo-systems](https://gitlab.com/gitlab-com/customer-success/demo-systems).
 
 - `Private` Terraform Monolith Environments and Modules
-    - [infrastructure/demosys-terraform](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-terraform)
+  - [infrastructure/demosys-terraform](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-terraform)
 - `Private` Ansible Monolith Configuration and Roles
-    - [infrastructure/demosys-ansible](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-ansible)
+  - [infrastructure/demosys-ansible](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-ansible)
 - `Private` Management Applications (gitlabdemo.com)
-    - [infrastructure/demosys-portal](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-portal)
+  - [infrastructure/demosys-portal](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-portal)
 - Issue Trackers
-    - [Demo Systems](https://gitlab.com/gitlab-com/demo-systems/issue-tracker)
+  - [Demo Systems](https://gitlab.com/gitlab-com/demo-systems/issue-tracker)
 
 ### Handbook Links for Related Infrastructure
 

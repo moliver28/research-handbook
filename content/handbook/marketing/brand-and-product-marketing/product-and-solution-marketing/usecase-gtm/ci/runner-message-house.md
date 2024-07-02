@@ -1,20 +1,13 @@
 ---
-
 title: "Runner Message House"
 description: Messaging and positioning for GitLab Runner, the open source project that is used to run your jobs and send the results back to GitLab.
 ---
-
-
-
-
-
-
 
 ## Background info
 
 ### What is GitLab Runner?
 
-Suppose you’re a developer or part of a team responsible for building, testing, and deploying your applications. In that case, GitLab Runner is the engine that enables you to run fast, scalable continuous integration pipelines on your on-premise infrastructure or the cloud. As the build agent that works in conjunction with GitLab CI/CD, the Runner executes your build and deployment jobs with minimal maintenance and overhead for your development teams.
+Suppose you're a developer or part of a team responsible for building, testing, and deploying your applications. In that case, GitLab Runner is the engine that enables you to run fast, scalable continuous integration pipelines on your on-premise infrastructure or the cloud. As the build agent that works in conjunction with GitLab CI/CD, the Runner executes your build and deployment jobs with minimal maintenance and overhead for your development teams.
 
 GitLab Runner is one of the most feature-rich and flexible build agents. You can use GitLab.com hosted Runners or install the Runner on your on-premise Kubernetes clusters, RedHat OpenShift, Linux, macOS or Windows Servers, and IBM Z mainframes.
 
@@ -46,7 +39,7 @@ For those organizations hosting workloads on public clouds, you can install the 
 
 GitLab Runner is the multi-platform, autoscaling agent that can run GitLab CI/CD pipeline jobs on your on-premise infrastructure, on GitLab.com or a public cloud provider.
 
-Run your jobs in an environment best suited to your team’s workflows and needs, whether that is a Kubernetes cluster, a local shell, or Docker containers. You have the flexibility and control to solve your CI/CD process requirements with a simple to set up and operate, almost no maintenance solution.
+Run your jobs in an environment best suited to your team's workflows and needs, whether that is a Kubernetes cluster, a local shell, or Docker containers. You have the flexibility and control to solve your CI/CD process requirements with a simple to set up and operate, almost no maintenance solution.
 
 GitLab Runner is a shell-based excecution engine that can take any script and run it.
 
@@ -77,17 +70,17 @@ Use GitLab Runner to orchestrate your CI/CD pipelines and optimize workflow exec
 ### GitLab Runner capabilities
 
 - Flexible, efficient builds
-   - Build parallelization to run multiple jobs concurrently
-   - Run builds locally or in the cloud using Docker containers
-   - Autoscale resources and provision runners on-demand
+  - Build parallelization to run multiple jobs concurrently
+  - Run builds locally or in the cloud using Docker containers
+  - Autoscale resources and provision runners on-demand
 - Any language, any platform, any cloud
-   - Runner is written in Go and distributed as a single binary without any other requirements.
-   - Supports Bash and Windows PowerShell.
-   - Works on GNU/Linux, macOS, and Windows (pretty much anywhere you can run Docker).
-   - Allows for customization of the job running environment.
+  - Runner is written in Go and distributed as a single binary without any other requirements.
+  - Supports Bash and Windows PowerShell.
+  - Works on GNU/Linux, macOS, and Windows (pretty much anywhere you can run Docker).
+  - Allows for customization of the job running environment.
 - Straightforward to adopt and scale as you onboard new teams
-   - Easy to use and setup initially with support for Docker, Docker-SSH, Parallels, or SSH running environments.
-   - Easy installation as a service for GNU/Linux, macOS, and Windows.
+  - Easy to use and setup initially with support for Docker, Docker-SSH, Parallels, or SSH running environments.
+  - Easy installation as a service for GNU/Linux, macOS, and Windows.
 
 See a full list of [Runner features](https://docs.gitlab.com/runner/#features))
 

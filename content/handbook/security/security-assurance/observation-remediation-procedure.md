@@ -102,7 +102,7 @@ The observation program is a key input to the [StORM program]({{< ref "storm-pro
 - An observation in an entity level control
 - When multiple observations share root cause and are grouped in an [observation epic]({{< ref "observation-remediation-procedure#root-cause-observation-epics" >}}). Observation epics are a group of observations spanning multiple systems that have shared root cause and remediation paths.
 
-### Security Compliance Workflow:
+### Security Compliance Workflow
 
 ```mermaid
 graph TD
@@ -116,7 +116,7 @@ graph TD
     E --> I[Work with risk on collaborative remediation<br>for both Tier 2 and Tier 3 issues]
 ```
 
-### Security Risk Workflow:
+### Security Risk Workflow
 
 ```mermaid
 flowchart TD
@@ -165,12 +165,11 @@ Defined below are status labels that will aide in the process of managing remedi
 |`Upgraded::StORM-Managed` | This label will be leverage when the observation has been upgraded to a tier 2 risk and will be managed in the StORM program|
 |`Upgraded::StORM-Shared` | This label will be leverage when the observation has been upgraded to a tier 2 risk and remediation is shared by the Security Risk and Security Compliance team|
 
-
 ## Exceptions
 
 Exceptions will be created for observations that breach a mutually agreed upon remediation date, breach in SLA or if the Remediation Owner confirms the observation will not be remediated.
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "../_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

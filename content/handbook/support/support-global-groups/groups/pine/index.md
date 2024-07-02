@@ -17,9 +17,9 @@ description: Home Page for Support's Pine Group
 
 ### Pairing Sessions
 
- - A Pine Crush hour is scheduled for the AMER region twice per week:
-   - Tuesdays at 8:00 PM UTC
-   - Thursdays at 8:00 PM UTC
+- A Pine Crush hour is scheduled for the AMER region twice per week:
+  - Tuesdays at 8:00 PM UTC
+  - Thursdays at 8:00 PM UTC
 
 ### Sync meetings
 
@@ -31,9 +31,9 @@ To get to know each other better we infrequently post questions that are fun but
 
 Some questions we discussed so far:
 
- - In what order do you put on your shoes and socks – AA BB, or AB AB?
- - Do you put the toilet paper on the roll so that the paper comes from over the roll or under the roll?
- - Nutella – with or without butter underneath?
+- In what order do you put on your shoes and socks – AA BB, or AB AB?
+- Do you put the toilet paper on the roll so that the paper comes from over the roll or under the roll?
+- Nutella – with or without butter underneath?
 
 ### Taking Time Off
 
@@ -63,6 +63,7 @@ out. Here's how we do that.
 #### Slack notifications
 
 To update your notification settings on Slack:
+
 1. In Slack, right click on our channel [#spt_gg_pine](https://gitlab.slack.com/archives/C02SAEW4B24)
 1. Choose **Change notifications**
 1. Change **Send a notification for** to **All new messages**
@@ -72,7 +73,7 @@ To update your notification settings on Slack:
 
 We have dedicated Slack group handles in place that allow us to easily target specific regions in a message:
 
- - `@spt-pine`
- - `@spt-pine-amer`
- - `@spt-pine-apac`
- - `@spt-pine-emea`
+- `@spt-pine`
+- `@spt-pine-amer`
+- `@spt-pine-apac`
+- `@spt-pine-emea`

@@ -34,7 +34,7 @@ When you STAR a ticket, a thread is created in the [#support_ticket-attention-re
 ### When is a STAR not appropriate?
 
 1. It is a **business-critical** situation for GitLab where existing or future business is at risk so attention from CSM is needed -> [raise an account escalation](/handbook/customer-success/csm/escalations/#initiating-managing-and-closing-an-escalation)
-1. It is an **emergency** -> Advise the customer to [raise an emergency](https://internal.gitlab.com/handbook/support/#raising-an-emergency) (internal Handbook link, GitLab team members only; only Premium/Ultimate customers are eligible to trigger emergencies)
+1. It is an **emergency** -> Advise the customer to [raise an emergency](https://internal.gitlab.com/handbook/support/workflows/raising-an-emergency) (internal Handbook link, GitLab team members only; only Premium/Ultimate customers are eligible to trigger emergencies)
 1. It is a **SaaS incident** -> [check the GitLab Status Page](https://status.gitlab.com/) or [report an incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident)
 1. You want to pass additional information to the engineer working on the ticket --> Leave an internal note in the ticket in Zendesk or reach out to the Support Engineer working the ticket in a Slack channel like `#support_gitlab-com` or `#support_self-managed`.
 
@@ -45,7 +45,7 @@ When you STAR a ticket, a thread is created in the [#support_ticket-attention-re
 Check that the ticket meets basic eligibility for STAR treatment:
 
 1. A relevant Support Engineer (who replied previously, left a substantial note, etc.) was contacted via Slack but did not reply.
-1. **Is the ticket about L&R (subscription, plan, renewal, licensing, trials)?** Please see our [Workflow for handling Plan/License Ticket Attention Requests](/handbook/support/license-and-renewals/workflows/managers_working_with_extensions.html) and its decision flowchart. Requests for customer convenience (that is, when a loss of functionality is not imminent) may not be prioritized.
+1. **Is the ticket about L&R (subscription, plan, renewal, licensing, trials)?** Please see our [Workflow for handling Plan/License Ticket Attention Requests](/handbook/support/license-and-renewals/workflows/managers_working_with_extensions/) and its decision flowchart. Requests for customer convenience (that is, when a loss of functionality is not imminent) may not be prioritized.
    - L&R STAR requests must include all relevant information, like group name, subscription name, license holder.
 1. **Are we waiting for information from the customer, or from you?** Ensure the latest response is *from the customer* (or from a GitLab team member, in the case of Internal Requests). If the latest response is from GitLab Support, we are waiting for necessary information.
 1. **Is the ticket within SLA?** Review the SLA associated with the ticket, and the amount of time left until breach, by logging into [Zendesk](https://gitlab.zendesk.com) using Okta.

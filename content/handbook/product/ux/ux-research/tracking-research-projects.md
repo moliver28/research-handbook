@@ -18,7 +18,6 @@ The labels are used to generate [this dashboard (internal only)](https://app.per
 
 Collectively, these data visualizations helps us understand more about the volume of UX research occurring, the lifecycle of a UX research project, and where UX research projects are taking place.
 
-
 {{% sisense dashboard="1063612" chart="15250081" height="400" %}}
 
 {{% sisense dashboard="1063612" chart="15225364" height="400" %}}

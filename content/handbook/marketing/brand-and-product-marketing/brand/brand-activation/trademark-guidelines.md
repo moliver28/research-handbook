@@ -1,25 +1,14 @@
 ---
-
 title: "Trademark Guidelines"
 ---
-
-
-
-
-
-
-
-# Trademark Guidelines
-
-
 
 *Date of last revision: 2023/04/27*
 
 To protect our intellectual property rights and our reputation, we are careful about how our trademarks can be used.
 
-These Trademark Guidelines (“**Guidelines**”) apply to all trademarks of GitLab Inc. and its affiliates (“**GitLab Inc.**”, “**we**”, “**us**”, and “**our**”), including the GITLAB name (the “**GitLab Name**”); the [Core Logo](https://design.gitlab.com/brand-logo/core-logo/), [Logomark](https://design.gitlab.com/brand-logo/logomark/), and [Wordmark](https://design.gitlab.com/brand-logo/core-logo#wordmark) (the “**Logos**”); and all other registered and unregistered trademarks (collectively, the “**Trademarks**”).
+These Trademark Guidelines ("**Guidelines**") apply to all trademarks of GitLab Inc. and its affiliates ("**GitLab Inc.**", "**we**", "**us**", and "**our**"), including the GITLAB name (the "**GitLab Name**"); the [Core Logo](https://design.gitlab.com/brand-logo/core-logo/), [Logomark](https://design.gitlab.com/brand-logo/logomark/), and [Wordmark](https://design.gitlab.com/brand-logo/core-logo#wordmark) (the "**Logos**"); and all other registered and unregistered trademarks (collectively, the "**Trademarks**").
 
-To request use of the Trademarks in a manner, or for a purpose, not expressly permitted in these Guidelines, including use for any purpose of the Logos, email [intellectualproperty@gitlab.com](mailto:intellectualproperty@gitlab.com).
+Use of the Logos is not permitted under these Guidelines. To request use of the Logos in any manner and for any purpose, or use of the Trademarks in a manner, or for purposes, not expressly permitted in these Guidelines, email [intellectualproperty@gitlab.com](mailto:intellectualproperty@gitlab.com).
 
 ### **1. Use of the Trademarks**
 
@@ -49,7 +38,7 @@ To request use of the Trademarks in a manner, or for a purpose, not expressly pe
 
 2.1. Unless otherwise expressly permitted in these Guidelines, you must never:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.1. Use the Trademarks in the name of your business, product, service, app, domain name, social media account, or business indicator, even if such use otherwise complies with Section 1.1.1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.1. Use the Trademarks in the name of your business, product, service, app, domain name, email username, social media account, or business indicator, even if such use otherwise complies with Section 1.1.1;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.2. Inaccurately imply an affiliation, endorsement, sponsorship, or approval with or by GitLab Inc., or use the Trademarks in a manner that is considered deceptive, unethical, illegal, or is detrimental to us in any way;
 
@@ -65,7 +54,7 @@ To request use of the Trademarks in a manner, or for a purpose, not expressly pe
 
 ### **3. Other terms**
 
-3.1. GitLab Inc. retains all right, title, and interest in and to the Trademarks, and you agree never to challenge, contest, or question the validity, or GitLab Inc.’s exclusive ownership, of the Trademarks.
+3.1. GitLab Inc. retains all right, title, and interest in and to the Trademarks, and you agree never to challenge, contest, or question the validity, or GitLab Inc.'s exclusive ownership, of the Trademarks.
 
 3.2. In the event of inconsistency between these Guidelines and the terms of any other agreement governing your relationship with GitLab Inc., or the use of the Trademarks, the provisions of such other agreement will prevail to the extent of the inconsistency.
 

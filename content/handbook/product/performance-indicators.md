@@ -1,12 +1,6 @@
 ---
-
 title: Product Division Performance Indicators
 ---
-
-
-
-
-
 
 {{% include "includes/product-handbook-links.md" %}}
 

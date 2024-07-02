@@ -1,11 +1,8 @@
 ---
-
 title: Mattermost
 description: "Workflow for escalating Mattermost support issues."
 category: Self-managed
 ---
-
-
 
 ### Escalating to the Mattermost team
 

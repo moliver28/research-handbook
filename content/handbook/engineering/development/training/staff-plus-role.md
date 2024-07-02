@@ -4,12 +4,6 @@ aliases: /handbook/engineering/development/training/staff-plus-role.html
 title: "Resources for Staff+ roles"
 ---
 
-
-
-
-
-
-
 ## Overview
 
 This page provides resources for Staff+ engineers and aspiring Staff engineers.
@@ -18,9 +12,9 @@ This page provides resources for Staff+ engineers and aspiring Staff engineers.
 
 As Staff+ engineer it's important to stay up to date with what's happening in engineering.
 By staying up to date you can better understand where problems and inefficiencies can be and
-what we could do or explore to make things better. 
+what we could do or explore to make things better.
 
-Here are various activities that can be useful for this purpose: 
+Here are various activities that can be useful for this purpose:
 
 * See the [Engineering Communications](../../engineering-comms.md#keeping-yourself-informed) page.
 * Read the release posts every month. It helps understand what other team have worked on. What features we have added.
@@ -37,4 +31,4 @@ Here are various activities that can be useful for this purpose:
 
 ## Book club
 
-We hosted a book club: [The Staff Engineer’s Path](https://gitlab.com/gitlab-com/books-clubs/combined-book-clubs/-/issues/45) (internal link), where you can find more resources.
+We hosted a book club: [The Staff Engineer's Path](https://gitlab.com/gitlab-com/books-clubs/combined-book-clubs/-/issues/45) (internal link), where you can find more resources.

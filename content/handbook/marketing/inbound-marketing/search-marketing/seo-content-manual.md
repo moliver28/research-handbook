@@ -1,11 +1,10 @@
 ---
-
 title: "SEO Content Manual"
 description: "The aim of this manual is to help create content that provides use and value to both searchers and search engines."
 canonical_path: "/handbook/marketing/inbound-marketing/search-marketing/seo-content-manual/"
 ---
 
- 
+
 
 
 
@@ -36,7 +35,7 @@ Ideally, content production takes a topic first approach. Meaning, target topics
 
 Creating valuable content means not just publicizing useful and attractive information, but also assuring that the information can be found. The following is a checklist which goes through each step required to make sure that all content is fully optimised before digital publication.
 
-### Quick summary of on page elements that require inclusion 
+### Quick summary of on page elements that require inclusion
 
 1. Include your keyword in the URL
 2. Keep URLs as short as possible
@@ -93,7 +92,7 @@ Creating valuable content means not just publicizing useful and attractive infor
 
 When identifying what key terms to target within the keyword research process it is important to ensure the use of valid and current customer terminology for a specific target topic.
 
-Over time, the way topics or categories are discussed by professionals or industry users can alter, expand, contract and evolve. As such, it is essential to remain current with the customers’#39; language.
+Over time, the way topics or categories are discussed by professionals or industry users can alter, expand, contract and evolve. As such, it is essential to remain current with the customers'#39; language.
 
 At GitLab we have access to valuable resources that help inform, validate and evolve the targeting process.
 
@@ -302,9 +301,9 @@ Be sure to use keyword rich anchor text for your internal links as these help in
 
 Internal links have multiple purposes for SEO. They signal to search engines how much you cover a topic not just through the initial page, but also linked pages and this helps boost topical expertise. Providing links to related pages can also increase page views and engagement and build brand trust and push users towards conversion.
 
-More internal links also keep search bots on the site longer and assist in indexing more of the website's content. 
+More internal links also keep search bots on the site longer and assist in indexing more of the website's content.
 
-Internal link structure also allows for the strategic passing of page equity within the site and can boost page authority and help increase positioning. 
+Internal link structure also allows for the strategic passing of page equity within the site and can boost page authority and help increase positioning.
 
 A page's equity is passed through the links the page contains, and is in a sense divided between the number of links on the given page. The position of the links can also influence the amount of importance that a search engine will allocate to it.
 
@@ -324,80 +323,82 @@ External links should be low within the page copy, internal links take precedenc
 
 Anchor text is the text used for the hyperlink when adding a link within the page copy, this text is extremely important as it gives search engines a description of the context of the link and the relationship between the two pages.
 
-Ensure you use descriptive text that is succinct and relevant to the page you are linking to, and not text such as “click here” etc., which provides no context or value.
+Ensure you use descriptive text that is succinct and relevant to the page you are linking to, and not text such as "click here" etc., which provides no context or value.
 
-Anchor text 5 basic types 
-1. Exact match: exact match to the target term of the page (eg. “GitOps” linking to GitOps page.
-2. Partial match: anchor text that includes a variation of the core target term of the linked page (eg. “benefits of GitOps” to GitOps page)
-3. Branded: using “GitLab” as anchor text
-4. Generic: avoid these, as they provide no value (“click here” or “read more” as anchor text)
+Anchor text 5 basic types
+
+1. Exact match: exact match to the target term of the page (eg. "GitOps" linking to GitOps page.
+2. Partial match: anchor text that includes a variation of the core target term of the linked page (eg. "benefits of GitOps" to GitOps page)
+3. Branded: using "GitLab" as anchor text
+4. Generic: avoid these, as they provide no value ("click here" or "read more" as anchor text)
 5. Naked anchor text: also avoid as they provide no context (this would consist of a URL link: www.xyz.com/topcs/devops/)
 
 Image anchors are another form of link anchor (non-text). When using images as an anchor for a link, search engines will utilize the image's alt attribute as the anchor text (goes back to why images need to be optimized).
-
 
 ## Optimisation strategies
 
 ### Simple steps for creating ranking content
 
-1. Choose your target keyword 
+1. Choose your target keyword
 2. Analyze the SERP results and analyze the competition
 3. Create or optimize a page that aligns with searcher intent (as outlined above)
 4. Cover topic in full and provide value
 5. Build backlinks (more than the competition) and add internal links
 6. Be prepared to wait - ranking takes time
 
-SEO is a long-term game. Many strategies require more than six months to show results. Some strategies can provide faster impact/results, but overall strategies are rolled out in cadences and are long-term. Patience is a key to success when vying for competitive top positions. 
+SEO is a long-term game. Many strategies require more than six months to show results. Some strategies can provide faster impact/results, but overall strategies are rolled out in cadences and are long-term. Patience is a key to success when vying for competitive top positions.
 
 It is important to remember that there are multiple mitigating factors that need to be allowed for, these include:
-* Competitor strategies
-* Competitiveness of query terms and aligning intent
-* Search engine algorythem updates
-* Seasonality
-* Internal issues/changes
-* ...and more!
+
+- Competitor strategies
+- Competitiveness of query terms and aligning intent
+- Search engine algorythem updates
+- Seasonality
+- Internal issues/changes
+- ...and more!
 
 ### Satisfying searcher intent - an extremely important strategic factor
 
-SEO is **not** optimizing for machines. It is optimizing for users and implementing specific elements to ensure that our content is crawled, indexed, and seen as best in class in order to be allotted a top result for a given topical query. 
+SEO is **not** optimizing for machines. It is optimizing for users and implementing specific elements to ensure that our content is crawled, indexed, and seen as best in class in order to be allotted a top result for a given topical query.
 
-It is aligning with the AI and ML system processes that search engines have developed in order to provide users with the exact, and best, content that satisfies the user's search query intent. 
+It is aligning with the AI and ML system processes that search engines have developed in order to provide users with the exact, and best, content that satisfies the user's search query intent.
 
 If search engines did not give users the best results for their query, Google would not be what it is today. The whole premise of the search engine is to solve a searcher's problem, completely, efficiently, and effectively. This process is continually evolving and improving.
 
-## Searcher intent explained 
+## Searcher intent explained
 
 There are four primary levels of searcher intent, and understanding these allows us to segment target keywords into these groups. Doing so helps us understand the format and type of content that we need to produce in order to consolidate a page one position in SERPs for a particular query.
 
 The main types of search intent are:
 
-* **Informational**: (know) the searcher is looking for information, a content-heavy resource that provides valuable insight into a specified topic - generally top of the funnel, blogs, topics page, etc.
+- **Informational**: (know) the searcher is looking for information, a content-heavy resource that provides valuable insight into a specified topic - generally top of the funnel, blogs, topics page, etc.
 
-* **Commercial investigation**: (prove) the searcher is within the mid-funnel stage for this type of search intent, is seeking research and data to inform a decision prior to purchasing. This data may be for themselves, or for a senior member of the team who is the decision-maker.
+- **Commercial investigation**: (prove) the searcher is within the mid-funnel stage for this type of search intent, is seeking research and data to inform a decision prior to purchasing. This data may be for themselves, or for a senior member of the team who is the decision-maker.
 
-* **Transactional**: (do) at this stage the user is actively wanting to purchase and terms will include modifiers related to purchasing/cost etc.
+- **Transactional**: (do) at this stage the user is actively wanting to purchase and terms will include modifiers related to purchasing/cost etc.
 
-* **Navigational**: (go) users with this intent are trying to find a specific website or web page (most often branded searches).
+- **Navigational**: (go) users with this intent are trying to find a specific website or web page (most often branded searches).
 
 A simple and easy way to deconstruct the searcher intent behind a query is to type it into a search engine. Look at the first page of results for the query, examine the format of the content of those results.
 
-What format does the resulting content take, a blog, a topics page, or a solutions page? Are the titles predominantly include terms such as “how, what, where, methods, etc” this would all indicate informational intent. 
+What format does the resulting content take, a blog, a topics page, or a solutions page? Are the titles predominantly include terms such as "how, what, where, methods, etc" this would all indicate informational intent.
 
 If the intent is informational, provide as much relevant content as is possible and help educate the user on the query topic. Thoroughly cover the topic, and answer common questions.
 
-Terms such as “best, top, etc” would indicate commercial intent. To align with this type of search query intent, provide the searcher with the information required to make a particular decision (reviews, pricing, comparisons, FAQs, etc.)
+Terms such as "best, top, etc" would indicate commercial intent. To align with this type of search query intent, provide the searcher with the information required to make a particular decision (reviews, pricing, comparisons, FAQs, etc.)
 
 If the intent is transactional, optimize the copy for this and emphasize specific conversion value points within the page title and copy. Keep the content focused on the desired outcome (eg. buying a product). This page type will not require loads of supporting content, unlike an informational intent page.
 
 ## Creating content that aligns with, and satisfies, searcher intent
 
 The easiest way to deconstruct a strategy from the SERP results is utilizing the four Cs concept:
+
 1. Content-type
 2. Content format
 3. Content angle
 4. Content coverage
 
-**Content-type:** this refers to the most common “type” of content that is in the top search results and can consist of blog posts, a product page, a category page, or a landing page. Examining the titles and URLs can inform the proper content format to match searcher intent.
+**Content-type:** this refers to the most common "type" of content that is in the top search results and can consist of blog posts, a product page, a category page, or a landing page. Examining the titles and URLs can inform the proper content format to match searcher intent.
 
 **Content format:** examine the competition and identify what format the top results take - are the how-to guides, reviews, comparisons, or other such formats.
 
@@ -410,8 +411,9 @@ The easiest way to deconstruct a strategy from the SERP results is utilizing the
 The following optimizations work for top of funnel (ToF) content (both blogs or topics-related content, independent of the off-page informational hierarchy structure).
 
 Identify the target topic for the page, from this research and focus on a primary keyword.
-* Note that short tail keywords tend to have higher search volume, but much higher competition and also lower intent value as they are broader in query.
-* Long-tail keywords tend to have lower search volume but higher intent, and at times easier to rank for.
+
+- Note that short tail keywords tend to have higher search volume, but much higher competition and also lower intent value as they are broader in query.
+- Long-tail keywords tend to have lower search volume but higher intent, and at times easier to rank for.
 
 Once the core target term is identified, run competitor analysis and see what is ranking on page 1 of SERPs for that type of query. Take note of the content format, and also note what subtopics are covered on each page. This will help define the information types and value that users look for relating to the query and that search engines deliver to satisfy the search query intent.
 Next, identify semantic terms related to the core target topic as well as variances of the original term. Create a list of these and utilize them within the copy when executing the content.
@@ -516,5 +518,4 @@ A cluster strategy is a prime approach to gaining page one position rankings for
 
 Once established content clusters can be added to regularly, as well as tracking and optimising assets within the cluster. A common question is how many cluster pages should be in a content cluster?
 
-Answer: as many as you can think of. The trick is to continually identify content gaps within your cluster by means of research and to fill these. 
-
+Answer: as many as you can think of. The trick is to continually identify content gaps within your cluster by means of research and to fill these.

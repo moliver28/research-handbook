@@ -1,12 +1,9 @@
 ---
-
 title: Triaging Tickets
 description: "A walkthrough of triaging tickets in Zendesk"
 category: Handling tickets
 subcategory: Triaging
 ---
-
-
 
 ## Purpose of this page
 
@@ -62,11 +59,11 @@ For cases that need to go to non-support forms, apply the `General::Forms::Incor
 Free Users who are reporting Self-Managed or SaaS issues
 
 1. Triage the Free User ticket and verify if they are a SaaS user who meets the support criteria outlined in the [free users section of the statement of support](https://about.gitlab.com/support/statement-of-support/#free-users).
-1. If they do not meet the above criteria or the ticket is for a self-managed Free User, in `New` tickets you can select `Free customer` in `Self-Managed Subscription` dropdown, which will activate the [`Auto-close free and self-provisioned trial SM tickets`](https://gitlab.com/search?group_id=2573624&repository_ref=master&scope=blobs&search=id%3A+5475833679900&snippets=false) trigger (responds and solves the ticket). If the ticket is `Open`, then direct the customer to the [GitLab community forum](https://forum.gitlab.com/) via the ["Self-managed or GitLab.com Free User Request" macro](https://gitlab.com/search?utf8=%E2%9C%93&group_id=15990755&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&search=id%3A+360044960813) and mark it "Solved”. If you wish to provide technical assistance to the user, then please do so via the [GitLab community forum](https://forum.gitlab.com/).
+1. If they do not meet the above criteria or the ticket is for a self-managed Free User, in `New` tickets you can select `Free customer` in `Self-Managed Subscription` dropdown, which will activate the [`Auto-close free and self-provisioned trial SM tickets`](https://gitlab.com/search?group_id=2573624&repository_ref=master&scope=blobs&search=id%3A+5475833679900&snippets=false) trigger (responds and solves the ticket). If the ticket is `Open`, then direct the customer to the [GitLab community forum](https://forum.gitlab.com/) via the ["Self-managed or GitLab.com Free User Request" macro](https://gitlab.com/search?utf8=%E2%9C%93&group_id=15990755&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&search=id%3A+360044960813) and mark it "Solved". If you wish to provide technical assistance to the user, then please do so via the [GitLab community forum](https://forum.gitlab.com/).
 
 Free Users who are reporting L&R issues
 
-Triage the Free User ticket and verify if the user’s issue relates to subscriptions or account/billing listed in the [Applying the Correct Form section](#applying-the-correct-form), change the form to the appropriate one so that a team member can deal with the request directly.
+Triage the Free User ticket and verify if the user's issue relates to subscriptions or account/billing listed in the [Applying the Correct Form section](#applying-the-correct-form), change the form to the appropriate one so that a team member can deal with the request directly.
 
 If the user is asking for assistance getting in contact with sales, you can use the "L&R" form.
 
@@ -78,7 +75,6 @@ If the request falls outside of such scenarios, see the [Other Requests section]
 - If missing, gather information about the `GitLab Install Type`, `Reference Architecture` and `GitLab Version`
 - Consider gathering any other information that might be missing if the customer used the incorrect form.
 
-
 ## US Government tickets in Global Support Portal
 
 Users of GitLab's [US Government Support](https://about.gitlab.com/support/us-federal-support/) offering may opt to raise a ticket in the Global Support Portal as well. The most common reason for this is the need for support outside of the US Government's [hours of operation](https://about.gitlab.com/support/us-government-support/#hours-of-operation). If during the triage process, a Global Agent comes across a ticket that is from an organization which appears to be a customer entitled to US Government Support, the agent can work this case the same as they would any other ticket.
@@ -87,7 +83,7 @@ If a ticket is created through the Global Support Portal and a request is made t
 
 ## Other Requests
 
-We also receive non Support requests in our queue - if you see something not listed below or something you are unsure about, ask in the `#spt_managers` slack channel and make a MR to update the list below when you find out the answer.
+We also receive non Support requests in our queue - if you see something not listed below or something you are unsure about, ask in the `#support_leadership` slack channel and make a MR to update the list below when you find out the answer.
 
 |Request|Workflow|
 |--|--|

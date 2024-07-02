@@ -34,7 +34,7 @@ Associate-level engineers in Infrastructure are primarily focused on completing 
 1. Contributes to the team culture by actively participating in team-led initiatives, such as: retros, team syncs and demos, discussions and similar.
 1. Recognizes interrupts affecting the team throughput, and exposes them regularly to their manager.
 1. Supports colleagues who are currently on-call by assisting with investigations or making simple improvements to on-call tooling.
- 
+
 ## Engineering alignment
 
 ### Associate Leadership Competencies

@@ -51,13 +51,13 @@ A number of studies from the likes of [Google](https://www.forbes.com/sites/abdu
 
 ### Benefits for all-remote employees
 
-It’s important for employees to truly take advantage of the freedoms and possibilities enabled by remote, rather than simply remaining where they are and switching an office desk for a room in their home. This is the core benefit of **remote** as compared to **work-from-home**.
+It's important for employees to truly take advantage of the freedoms and possibilities enabled by remote, rather than simply remaining where they are and switching an office desk for a room in their home. This is the core benefit of **remote** as compared to **work-from-home**.
 
 Consider relocating to a lower cost-of-living environment, and look to integrate work into life rather than vice-versa. Remote work enables you to optimize for things like superior air quality and medical facilities, a healthier community environment, and better schools for your children. All of this requires premeditated action — to embrace the reality that work is now decoupled from geography.
 
-In the home, aim to create a dedicated working space (or work from a coworking space, external office, or cafe). It’s vital to intentionally separate work and life to prevent [burnout]({{< ref "./mental-health" >}}). Moreover, don’t stop engaging with people. You may not fill your social quota entirely from work interactions, which enables you to pay closer attention to family, neighbors, and community opportunities.
+In the home, aim to create a dedicated working space (or work from a coworking space, external office, or cafe). It's vital to intentionally separate work and life to prevent [burnout]({{< ref "./mental-health" >}}). Moreover, don't stop engaging with people. You may not fill your social quota entirely from work interactions, which enables you to pay closer attention to family, neighbors, and community opportunities.
 
-Be intentional about replacing your recovered commute time. Whether it’s fitness, cooking, cleaning, spending time with family, or resting, be deliberate about reclaiming that time and using it to improve your overall wellbeing.
+Be intentional about replacing your recovered commute time. Whether it's fitness, cooking, cleaning, spending time with family, or resting, be deliberate about reclaiming that time and using it to improve your overall wellbeing.
 
 1. You have more [flexibility](http://shedoesdatathings.com/post/1-year-at-gitlab) in your [daily life]({{< ref "./people#those-who-value-flexibility-and-autonomy" >}}) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
 1. No more time, [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs#5baf10f04245), or money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
@@ -78,7 +78,7 @@ Be intentional about replacing your recovered commute time. Whether it’s fitne
 
 From family time to travel plans, there are [many examples and stories]({{< ref "./stories" >}}) of how remote work has impacted the lives of GitLab team members around the world.
 
-> **“The flexibility makes family life exponentially easier, which reduces stress and makes you more productive and motivated. You can’t put a dollar value on it – it’s priceless.”** - Haydn, Regional Sales Director, GitLab
+> **"The flexibility makes family life exponentially easier, which reduces stress and makes you more productive and motivated. You can't put a dollar value on it – it's priceless."** - Haydn, Regional Sales Director, GitLab
 
 ### Benefits for all-remote organizations
 
@@ -102,11 +102,11 @@ Not only does this create a less [inclusive]({{< ref "inclusion" >}}) hiring pro
 1. It's easier to quickly grow and scale your company.
    - GitLab **does not own/lease office space**. As colocated companies scale in size, their spend related to real estate will swell. This not only encompasses office space, but related activities such as security, cleaning, remodeling, etc. It also hampers [growth]({{< ref "./scaling" >}}). Hiring too many people in too short a time span will force you to move offices in quick succession, creating massive cost and inefficiency.
 1. Employees are [increasingly](https://www.iofficecorp.com/blog/workplace-design-statistics) expecting remote work options from their employers.
-   - GitLab sees **over 3,000 applicants per week** for open [vacancies](https://about.gitlab.com/jobs). Each applicant is given access to our [strategy]({{< ref "/handbook/company/strategy" >}}) and an overview of [what it's like to work at GitLab](/handbook/company/culture#so-thats-what-its-like-to-work-at-gitlab) *before* they are asked to invest time and energy in applying. We get more qualified applicants due to our [transparency]({{< ref "values#transparency" >}}), showcased through examples like [role description videos](https://youtu.be/BOeXgGu1Vco) hosted on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
+   - GitLab sees **over 3,000 applicants per week** for open [vacancies](https://about.gitlab.com/jobs). Each applicant is given access to our [strategy](/handbook/company/strategy) and an overview of [what it's like to work at GitLab](/handbook/company/culture#so-thats-what-its-like-to-work-at-gitlab) *before* they are asked to invest time and energy in applying. We get more qualified applicants due to our [transparency](/handbook/values/#transparency), showcased through examples like [role description videos](https://youtu.be/BOeXgGu1Vco) hosted on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
 1. Companies often experience [lower employee turnover](https://www.owllabs.com/blog/remote-work-statistics) and higher morale with remote work.
    - GitLab enjoys a **[strong year-over-year voluntary retention rate](/handbook/people-group/people-success-performance-indicators/#executive-summary)**.  All-remote contributes to our high retention of people, as they're able to [take their career with them]({{< ref "./people" >}}) through life's changes.
-1. You have [fewer meetings](./meetings) and more focus on results and [output of great work]({{< ref "values#results" >}}).
-   - Each meeting which is avoided by [asynchronous communication]({{< ref "communication" >}}) and intentional [documentation]({{< ref "./management#scaling-by-documenting" >}}) saves thousands of dollars in wages. Too, the time savings can be repurposed for generating additional value and empowering people to live [richer lives]({{< ref "./people" >}}) as they work more [efficiently]({{< ref "values#efficiency" >}}).
+1. You have [fewer meetings](./meetings) and more focus on results and [output of great work](/handbook/values/#results).
+   - Each meeting which is avoided by [asynchronous communication]({{< ref "communication" >}}) and intentional [documentation]({{< ref "./management#scaling-by-documenting" >}}) saves thousands of dollars in wages. Too, the time savings can be repurposed for generating additional value and empowering people to live [richer lives]({{< ref "./people" >}}) as they work more [efficiently](/handbook/values/#efficiency).
 1. You don't have to pay to relocate someone to join your team.
    - GitLab's talent acquisition department tracks cost per hire, which currently does not have a target.
 1. With employees located all over the world [working asynchronously](https://about.gitlab.com/blog/2019/02/27/remote-enables-innovation), contributions can continue even when one time zone's working day is over.
@@ -153,7 +153,7 @@ Employees are [more productive with fewer distractions](https://about.gitlab.com
 
 ## Challenges to consider before embracing remote work
 
-Despite [all-remote having many advantages](./benefits), remote work isn't for everyone. It can have disadvantages for employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency]({{< ref "values#transparency" >}}), we've outlined [potential drawbacks and solutions to these challenges here]({{< ref "./drawbacks" >}}).
+Despite [all-remote having many advantages](./benefits), remote work isn't for everyone. It can have disadvantages for employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency](/handbook/values/#transparency), we've outlined [potential drawbacks and solutions to these challenges here]({{< ref "./drawbacks" >}}).
 
 ## Which is right for your organization?
 
@@ -195,6 +195,6 @@ Click around to learn more about what "all-remote" really means, [how it works a
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

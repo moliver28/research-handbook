@@ -8,7 +8,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/org-fields"
 
 Organization fields are custom items on organizations that we control.
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -54,7 +54,7 @@ positioning.
 #### Updating an existing organization field
 
 Updating an existing organization field is considerably easier than creating a
-new one. Simply change change the code in the source project and it will occur
+new one. Simply change the code in the source project and it will occur
 via the sync repo.
 
 The one caveat is when you are adding new `custom_field_options`, as you will
@@ -102,7 +102,49 @@ Display name (to open the organization field editor). You will then click the
 cause a pop-up modal to appear asking you to confirm the action. Click the red
 `Delete` button to do so.
 
-## Source Projects
+### Troubleshooting
+
+#### Pipeline error "Blank ID"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `id` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank position"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `position` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank title"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `title` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Inactive organization field in active folder"
+
+This means the script detected a YAML file within `data/active` that has an
+`active` value of `false`. You will need to locate the file mentioned in the
+error and correct that.
+
+#### Pipeline error "Active organization field in inactive folder"
+
+This means the script detected a YAML file within `data/inactive` that has an
+`active` value of anything other than `false`. You will need to locate the file
+mentioned in the error and correct that.
+
+#### Pipeline error "GitLab errors"
+
+This is a generic error message that will detail some error that occurred when
+trying to either create or update the tag used on the source project. The exact
+steps to fix this will vary based on the nature of the error itself. You will
+need to review the error and determine the next steps from there.
+
+If you are unsure how to proceed, it is best to seek assistance from the wider
+team.
+
+### Source Projects
 
 #### Zendesk Global
 
@@ -140,7 +182,7 @@ see are:
   checkbox organization field type)
 - Field validation - the regex formula to use for the organization field
 
-## Organization field standards
+### Organization field standards
 
 To ensure all organization fields we utilize are both consistent in nature and
 transparent in their actions, we strive to meet some standards on all

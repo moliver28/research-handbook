@@ -3,13 +3,6 @@ title: Manage Foundations Team
 description: The Manage Foundations team is responsible for foundational Frontend work and our Design System Pajamas.
 ---
 
-<!-- Common Links -->
-[engineering workflow]: /handbook/engineering/workflow/
-[GitLab]: https://gitlab.com/gitlab-org/gitlab
-[GitLab UI]: https://gitlab.com/gitlab-org/gitlab-ui
-[Pajamas]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com
-[#g_manage_foundations]: https://gitlab.slack.com/archives/C010NAWPRV4
-
 ## About
 
 We're the Foundations team and we are part of the [Manage Stage](/handbook/product/categories/#manage-stage).
@@ -24,30 +17,31 @@ We hope it's a good entry point to learn more about who we are and what we do.
 
 ## What do we work on?
 
- -  **Design System** ([Direction Page](https://about.gitlab.com/direction/manage/foundations/design_system/))
+- **Design System** ([Direction Page](https://about.gitlab.com/direction/manage/foundations/design_system/))
 
-    We are currently focused on integrating our design system, [Pajamas], into the GitLab product.
+    We are currently focused on integrating our design system, [Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com), into the GitLab product.
 
-    We perform an accessibility audit on each component and make sure that our implementations in [GitLab UI] and [GitLab] match the desired user experience, guidelines, and visual design.
+    We perform an accessibility audit on each component and make sure that our implementations in [GitLab UI](https://gitlab.com/gitlab-org/gitlab-ui) and [GitLab](https://gitlab.com/gitlab-org/gitlab) match the desired user experience, guidelines, and visual design.
 
     The Foundations team does the preparation work necessary so that other Engineers at GitLab and members from the wider community can help out with these efforts.
 
     **Do you want to contribute?** Please see [the Migration Day Picker for a good entry point](https://picker.pajamasmigrationday.com/).
 
- - **Navigation & Settings** ([Direction Page](https://about.gitlab.com/direction/manage/foundations/navigation_settings/))
+- **Navigation & Settings** ([Direction Page](https://about.gitlab.com/direction/manage/foundations/navigation_settings/))
 
 ## How do we work?
 
 ### Communication
 
-To get in touch with the Foundations team, it's best to create an issue in the relevant project (typically [GitLab], [Pajamas] or [GitLab UI]) and add the `~"group::foundations"` label, along with any other appropriate labels.
+To get in touch with the Foundations team, it's best to create an issue in the relevant project (typically [GitLab](https://gitlab.com/gitlab-org/gitlab), [Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) or [GitLab UI](https://gitlab.com/gitlab-org/gitlab-ui)) and add the `~"group::foundations"` label, along with any other appropriate labels.
 Then, ping the relevant Product Manager and/or Engineering Manager (see [team members](#team-members)).
 
-For more urgent items or if you are unsure who to ask, ping `@gitlab-org/manage/foundations` or use [#g_manage_foundations] on Slack (internal only).
+For more urgent items or if you are unsure who to ask, ping `@gitlab-org/manage/foundations` or use [#g_manage_foundations](https://gitlab.slack.com/archives/C010NAWPRV4) on Slack (internal only).
 
 ### Capacity Planning
 
 In general, we use the standard GitLab [Product Development Flow](/handbook/product-development-flow/). Here are some specific workflows we use:
+
 #### How we weight issues
 
 We use a Fibonacci scale and in terms of complexity, we use [this table](https://www.scrum.org/resources/blog/practical-fibonacci-beginners-guide-relative-sizing) from Practical Fibonacci.
@@ -64,7 +58,7 @@ We use a Fibonacci scale and in terms of complexity, we use [this table](https:/
 
 ## Fifth week of focus
 
-With our [release schedule](https://handbook.gitlab.com/handbook/engineering/workflow/#product-development-timeline) our milestones are either four or five weeks long.
+With our [release schedule](/handbook/engineering/workflow/#product-development-timeline) our milestones are either four or five weeks long.
 To make planning more predictable and encourage experimentation, we treat the fifth week of any longer milestone as a week of focus.
 During this week, our engineers are encouraged to work on a project of their own choosing.
 It could be starting a proof-of-concept, learning a new skill, burning down neglected issues, writing a blog post, or something else.
@@ -91,7 +85,21 @@ Here are some resources team members can use for employee development:
 
 ## Metrics
 
-{{% cross-functional-dashboards filters="Foundations" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="foundations" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="foundations" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="foundations" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="foundations" >}}
+{{< /tableau >}}
 
 ## Team onboarding
 

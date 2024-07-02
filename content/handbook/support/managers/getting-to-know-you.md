@@ -1,5 +1,4 @@
 ---
-
 title: Getting To Know Your Team Members
 description: "Guideline on becoming not just a good manager, but the right manager for each individual member of your Support Engineering team"
 ---
@@ -89,16 +88,15 @@ are:
 - When you want to coach them about something, look back to see how they want
    to work with their manager and receive feedback
 
-
 ## All About You
 
 For those who don't have access to the Google Doc, the text of the template follows.
 
 ---
 
-### What’s this all about?
+### What's this all about?
 
-The purpose of this document is to facilitate a conversation between your manager and you about who you are, what you want, and how the two of you can best work together. It should be kept handy so that your manager can refer to it whenever they need to be sure they’re following your guidance on being a great manager for you.
+The purpose of this document is to facilitate a conversation between your manager and you about who you are, what you want, and how the two of you can best work together. It should be kept handy so that your manager can refer to it whenever they need to be sure they're following your guidance on being a great manager for you.
 
 ### Personal Background & Interests
 
@@ -106,39 +104,39 @@ Tell me anything you want me to know about who you are, and NOTHING you think is
 
 #### Childhood
 
-   - Where did you grow up?
-   - Please tell me about growing up with your siblings, parents, and others
+- Where did you grow up?
+- Please tell me about growing up with your siblings, parents, and others
 
 #### Education
 
-   - Where did you go?
-   - What did you study?
+- Where did you go?
+- What did you study?
 
 #### Current Situation
 
-   - Where (actual location) are you now and how did you get there?
-   - Do you have family of your own? Tell me about them.
+- Where (actual location) are you now and how did you get there?
+- Do you have family of your own? Tell me about them.
 
 #### Fun
 
-   - Hobbies? Interests? Activities? Passions?
+- Hobbies? Interests? Activities? Passions?
 
 ### Professional Background & Interests
 
-   - What did you do before GitLab?
-   - What brought you here?
-   - What is your dream career?
-   - What do you love to do at work?
-   - What do you “prefer not to do?”
+- What did you do before GitLab?
+- What brought you here?
+- What is your dream career?
+- What do you love to do at work?
+- What do you "prefer not to do?"
 
 ### Management Tips
 
-   - What do you want most from me as your manager?
-   - What should I avoid as your manager?
-   - What motivates you at work? What demotivates you?
-   - What excites you at work?
-   - What expectations do you have of yourself?
-   - How do you like to be rewarded and recognized?
-      - Reward - what types of rewards really mean the most to you? Cash? Personalized gift? Special time off?
-      - Recognition - where do you fall on the spectrum between “love and need public recognition” and “only want private recognition?”
-   - What else do I need to know in order to be a really good manager for you?
+- What do you want most from me as your manager?
+- What should I avoid as your manager?
+- What motivates you at work? What demotivates you?
+- What excites you at work?
+- What expectations do you have of yourself?
+- How do you like to be rewarded and recognized?
+  - Reward - what types of rewards really mean the most to you? Cash? Personalized gift? Special time off?
+  - Recognition - where do you fall on the spectrum between "love and need public recognition" and "only want private recognition?"
+- What else do I need to know in order to be a really good manager for you?

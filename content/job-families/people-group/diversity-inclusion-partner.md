@@ -1,7 +1,7 @@
 ---
 title: "Diversity, Inclusion and Belonging"
 ---
-The Diversity, Inclusion and Belonging (DIB) team builds an environment where all team members feel they belong: they are recognized, allowed to express their thoughts, have the ability to make contributions and are able to bring their best selves to work every day. As GitLab continues to grow, we look for people from a wide range of backgrounds to reflect the global nature of our customers and we want to have the tools and resources available to support that growth. It takes diversity of thought, culture, background, and perspective to build a truly global company. The DIB team members build and work with external partnerships as well as closely with internal departments such as Recruiting, Marketing, Communication, Talent Brand, etc to help shape the overall DIB strategy that creates, supports and fuels GitLab’s growth.
+The Diversity, Inclusion and Belonging (DIB) team builds an environment where all team members feel they belong: they are recognized, allowed to express their thoughts, have the ability to make contributions and are able to bring their best selves to work every day. As GitLab continues to grow, we look for people from a wide range of backgrounds to reflect the global nature of our customers and we want to have the tools and resources available to support that growth. It takes diversity of thought, culture, background, and perspective to build a truly global company. The DIB team members build and work with external partnerships as well as closely with internal departments such as Recruiting, Marketing, Communication, Talent Brand, etc to help shape the overall DIB strategy that creates, supports and fuels GitLab's growth.
 
 ## Responsibilities
 

@@ -47,7 +47,7 @@ Cédric Fabianski, co-founder and CTO at Bearer, [reiterated](https://www.bearer
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (GitLab) and Anna-Karin (Because Mondays) discuss a number of challenges and solutions related to remote work, transitioning a company to remote, working asynchronously, and defaulting to documentation.*
 
-Companies considering a transition to fully remote should ask themselves if they could function if every team member chose to work from their home tomorrow. To get an idea of what needs to be in place from a [tools and technology]({{< ref "/handbook/tools-and-tips" >}}) standpoint, consider the following questions in light of the aforesaid scenario.
+Companies considering a transition to fully remote should ask themselves if they could function if every team member chose to work from their home tomorrow. To get an idea of what needs to be in place from a [tools and technology](/handbook/tools-and-tips) standpoint, consider the following questions in light of the aforesaid scenario.
 
 1. What voids would become apparent?
 1. What areas of communication would falter?
@@ -92,18 +92,18 @@ Clear and proactive internal communication is essential to removing fear and ins
 1. Consider a policy that [reimburses fees associated with co-working spaces](https://about.gitlab.com/handbook/spending-company-money), understanding that some employees will thrive in settings that mimic the office.
 1. Invest in education, including [conferences]({{< ref "./events" >}}), courses, meetups, etc.
 1. Formalize and document an [in-person strategy]({{< ref "./in-person" >}}), embracing retreats, [company summits](https://about.gitlab.com/events/gitlab-contribute), etc. to show that bonding in a physical space is still valued.
-1. Prepare for micro-groups to form as people relocate. Leverage [geographic Slack channels]({{< ref "/handbook/communication/chat#location-channels-loc_" >}}) to retain community even as people use newfound remote freedoms to move to a locale that is more personally fulfilling.
+1. Prepare for micro-groups to form as people relocate. Leverage [geographic Slack channels](/handbook/communication/chat#location-channels-loc_) to retain community even as people use newfound remote freedoms to move to a locale that is more personally fulfilling.
 1. Get intentional about [informal communication]({{< ref "./informal-communication" >}}). With the removal of daily in-person interactions, you'll need to formalize mechanisms such as coffee chats, team social calls, and co-working calls to form and foster relationships.
 
 ### Embrace iteration and transparency in transition
 
 {{< youtube "3HHyjAV3hYE?start=581" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first]({{< ref "/handbook/handbook-usage#why-handbook-first" >}})" approach to companywide documentation.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to companywide documentation.*
 
-> I think [documentation]({{< ref "./handbook-first" >}}) has to be [instilled as a value]({{< ref "values#write-things-down" >}}). It has to start there, and the whole leadership team in an organization has to be onboard.
+> I think [documentation]({{< ref "./handbook-first" >}}) has to be [instilled as a value](/handbook/values/#write-things-down). It has to start there, and the whole leadership team in an organization has to be onboard.
 >
-> All of [leadership]({{< ref "/handbook/leadership" >}}) needs to understand the importance of documentation — not just with lip service. A true, genuine understanding of its value. If they *truly* understand the value of it, they'll emanate that to their direct reports.
+> All of [leadership](/handbook/leadership) needs to understand the importance of documentation — not just with lip service. A true, genuine understanding of its value. If they *truly* understand the value of it, they'll emanate that to their direct reports.
 >
 > For companies looking to transition to fully remote, a helpful step for leadership is to say: "OK, we're going to be remote-first as a start." This means that a company in transition would optimize everything in its physical office space to be remote-first. Instead of optimizing conference rooms with lots of tables, for instance, you have each employee sit in their own office and wear headsets all day. This is how you prevent remote employees from feeling [disconnected and isolated]({{< ref "./hybrid-remote#disadvantages-to-hybrid-remote" >}}).
 >
@@ -111,9 +111,9 @@ Clear and proactive internal communication is essential to removing fear and ins
 
 Expect bumps along the road. As with any significant business transformation, it's wise to communicate proactively to team members, customers, and investors that obstacles will emerge. Transitioning a company to fully remote, while still running the business, is not easy. It's a long-term bet that the short-term pain will be [worthwhile]({{< ref "remote-benefits" >}}).
 
-Leadership should be completely [transparent]({{< ref "values#transparency" >}}) with team members as the transition unfolds. Share headaches and roadblocks as well as successes. This should occur in an agreed channel so that discussion and feedback is centralized, and action items can be clearly disseminated.
+Leadership should be completely [transparent](/handbook/values/#transparency) with team members as the transition unfolds. Share headaches and roadblocks as well as successes. This should occur in an agreed channel so that discussion and feedback is centralized, and action items can be clearly disseminated.
 
-[Iteration]({{< ref "values#iteration" >}}) is a core value at GitLab, and we strive to [apply iteration to everything]({{< ref "./management#applying-iteration-to-everything" >}}) — from [building a product](https://about.gitlab.com/blog/2019/04/26/agile-iteration-unique-onboarding-experience) to shaping our [workspaces]({{< ref "./workspace" >}}). This applies to business transformation as well. Implement the [smallest viable change]({{< ref "values#minimal-viable-change-mvc" >}}), solicit feedback, and tweak or revert if needed. By taking this approach to transforming your business, you're setting the example for how day-to-day tasks should be managed in a fully remote setting.
+[Iteration](/handbook/values/#iteration) is a core value at GitLab, and we strive to [apply iteration to everything]({{< ref "./management#applying-iteration-to-everything" >}}) — from [building a product](https://about.gitlab.com/blog/2019/04/26/agile-iteration-unique-onboarding-experience) to shaping our [workspaces]({{< ref "./workspace" >}}). This applies to business transformation as well. Implement the [smallest viable change](/handbook/values/#minimal-viable-change-mvc), solicit feedback, and tweak or revert if needed. By taking this approach to transforming your business, you're setting the example for how day-to-day tasks should be managed in a fully remote setting.
 
 ### Iteration requires empowered teams and workers
 
@@ -126,9 +126,9 @@ The ability to charge forward and deliver capabilities is a combination of a few
 - Freedom to experiment without consensus
 - Monitoring and clean-up to manage resources and costs
 
-Attempting to transition to a remote working environment while maintaining the gatekeeping effects of the system administrators and security teams may hinder aspirational values such as [bias for action]({{< ref "values#bias-for-action" >}}). Do not provide access to sensitive data sets or applications to unverified vendors or take any unnecessarily risky approaches, but try to shrink guard rails and take inventory of what is *truly* sensitive and/or confidential.
+Attempting to transition to a remote working environment while maintaining the gatekeeping effects of the system administrators and security teams may hinder aspirational values such as [bias for action](/handbook/values/#bias-for-action). Do not provide access to sensitive data sets or applications to unverified vendors or take any unnecessarily risky approaches, but try to shrink guard rails and take inventory of what is *truly* sensitive and/or confidential.
 
-Leadership must foster creativity and intentionally seek progressive, [two-way door]({{< ref "values#make-two-way-door-decisions" >}}) approaches. Once a technique or application is proving itself out in the experimental phase, mature it with security evaluations and reliability. Importantly, any experiments that don't pan out won't have wasted months or years.
+Leadership must foster creativity and intentionally seek progressive, [two-way door](/handbook/values/#make-two-way-door-decisions) approaches. Once a technique or application is proving itself out in the experimental phase, mature it with security evaluations and reliability. Importantly, any experiments that don't pan out won't have wasted months or years.
 
 ## Hiring a Head of Remote Work
 
@@ -189,7 +189,7 @@ This requires tremendous effort, day after day, from every member of the company
 
 ## GitLab Knowledge Assessment: Transitioning a Company to Remote
 
-Anyone can test their knowledge on Transitioning a Company to Remote by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSc4bQbcRMBtcj_ZFCZ2VIr6tUyasr9N6L2vQnwnpDd4yHQ4Xg/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development]({{< ref "/handbook/people-group/learning-and-development" >}}) team at `learning@gitlab.com`.
+Anyone can test their knowledge on Transitioning a Company to Remote by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSc4bQbcRMBtcj_ZFCZ2VIr6tUyasr9N6L2vQnwnpDd4yHQ4Xg/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development](/handbook/people-group/learning-and-development) team at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

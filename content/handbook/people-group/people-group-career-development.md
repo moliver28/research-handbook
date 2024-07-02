@@ -32,13 +32,11 @@ Not sure how to get started? Use these steps to determine the best place to star
 1. [Employer Branding on LinkedIn](https://gitlab.edcast.com/insights/employer)
 1. [Content Marketing Foundations](https://gitlab.edcast.com/insights/content-marketing-foundations)
 
-
 ### People Ops
 
 1. [Human Resources: Protecting Confidentiality](https://gitlab.edcast.com/insights/human)
 1. [Learning Document Retention and Data Management](https://gitlab.edcast.com/insights/learning-document)
 1. [GDPR Compliance: Essential Training](https://gitlab.edcast.com/insights/gdpr-compliance)
-
 
 ### Total Rewards
 
@@ -51,7 +49,6 @@ Not sure how to get started? Use these steps to determine the best place to star
 
 1. [Meeting Facilitation](https://gitlab.edcast.com/insights/meeting)
 1. [Communicating with Empathy](https://gitlab.edcast.com/insights/communicating-with-empathy)
-
 
 ### Becoming a People Group Leader
 
@@ -69,7 +66,6 @@ Not sure how to get started? Use these steps to determine the best place to star
 1. [Avoiding Burnout](https://gitlab.edcast.com/insights/avoiding)
 1. [Enhancing Resilience](https://gitlab.edcast.com/insights/enhancing)
 1. [Overcoming Imposter Syndrome](https://gitlab.edcast.com/insights/overcoming-imposter)
-
 
 ## Career development tips from the People Group
 

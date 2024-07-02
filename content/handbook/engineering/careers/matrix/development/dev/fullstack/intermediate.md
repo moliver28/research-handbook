@@ -3,7 +3,7 @@ title: "Dev Career Framework: Intermediate Fullstack Engineer"
 ---
 
 ## Dev Intermediate Fullstack Engineer
- 
+
 {{% include "includes/engineering-careers/dev-fullstack-career-matrix-nav.md" %}}
 
 **Dev Intermediate Fullstack Engineers at GitLab are expected to exhibit the following competencies:**
@@ -24,7 +24,7 @@ title: "Dev Career Framework: Intermediate Fullstack Engineer"
 {{% include "includes/engineering-careers/intermediate-technical-competency.md" %}}
 {{% include "includes/engineering-careers/development-intermediate-technical-competency.md" %}}
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 {{% include "includes/engineering-careers/development-intermediate-values-competency.md" %}}

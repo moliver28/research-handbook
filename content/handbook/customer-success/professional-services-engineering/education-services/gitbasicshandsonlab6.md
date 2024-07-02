@@ -1,15 +1,13 @@
 ---
 title: "GitLab with Git Essentials - Hands-On Lab: Static Application Security Testing (SAST)"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
+description: "This Hands-On Guide walks you through setting up a SAST job to track security flaws in code."
 ---
 
 > Estimated time to complete: 30 minutes
 
-> **We are transitioning to the latest version of this course.**  If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitbasicshandsonlab6.md).
-
 ## Objectives
 
-This lab uses SAST, an optional feature in CI/CD pipelines, to identify security vulnerabilities in your code. GitLab’s Vulnerability Report then shows any old or new vulnerabilities found with each pipeline run. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/application_security/sast/).
+This lab uses SAST, an optional feature in CI/CD pipelines, to identify security vulnerabilities in your code. GitLab's Vulnerability Report then shows any old or new vulnerabilities found with each pipeline run. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/application_security/sast/).
 
 ## Task A. Enable SAST in your `CI Test` project
 
@@ -102,4 +100,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you’d like to suggest changes to the lab, please submit them via merge request.
+If you'd like to suggest changes to the lab, please submit them via merge request.

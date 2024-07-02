@@ -1,9 +1,7 @@
 ---
-
 title: Performance Management for Support Managers
 description: "Some support specific tips on performance management"
 ---
-
 
 ### What is this page?
 
@@ -59,7 +57,7 @@ For a more complete look, see [warning signs / patterns of underperformance](/ha
 
 Underperformance for Support Engineers is defined as an Engineer **not** meeting their agreed upon goals for **4 consecutive weeks**.
 
-###### Working through Underperformance
+##### Working through Underperformance
 
 Managers should act early by having a conversation with their direct report when a team member is underperforming. A good guideline to what is "early" is when a support engineer hasn't been meeting their goals for four consecutive weeks. At this point you should [discuss the situation and plan for moving forward with your manager](/handbook/leadership/underperformance/#immediately-discuss-with-the-managers-manager).
 

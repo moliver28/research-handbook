@@ -12,21 +12,21 @@ In addition, we empower our teams to ship world class enterprise software at sca
 ## Our principles
 
 - **Foster an environment where Quality is Everyone's responsibility.**
-    - We enable product teams in baking quality early in the product development flow process.
-    - We are a sounding-board for our end users by making feedback known to product teams.
-    - We are a champion of good software design, testing practices and bug prevention strategies.
+  - We enable product teams in baking quality early in the product development flow process.
+  - We are a sounding-board for our end users by making feedback known to product teams.
+  - We are a champion of good software design, testing practices and bug prevention strategies.
 - **Improve test coverage and leverage tests at all [levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html).**
-    - We work to ensure that the right tests run at the right places.
-    - We enable product teams' awareness of their test coverage with fast, clear and actionable reporting.
-    - We continuously refine test efficiency, refactor duplicate coverage, and increase stability.
+  - We work to ensure that the right tests run at the right places.
+  - We enable product teams' awareness of their test coverage with fast, clear and actionable reporting.
+  - We continuously refine test efficiency, refactor duplicate coverage, and increase stability.
 - **Make Engineering teams efficient, engaged and productive.**
-    - We build automated solutions to improve workflow efficiency and productivity.
-    - We ensure reliability in our tooling and tests.
-    - We ensure that continuous integration pipelines are efficient, stable with optimal coverage.
+  - We build automated solutions to improve workflow efficiency and productivity.
+  - We ensure reliability in our tooling and tests.
+  - We ensure that continuous integration pipelines are efficient, stable with optimal coverage.
 - **Metrics driven.**
-    - We provide data driven insights into defects, test stability, efficiency and team execution health.
-    - We ensure the data is actionable and is available transparently to the company and the wider community.
-    - We use data to make informative next steps and continuously improve with metrics-driven optimizations.
+  - We provide data driven insights into defects, test stability, efficiency and team execution health.
+  - We ensure the data is actionable and is available transparently to the company and the wider community.
+  - We use data to make informative next steps and continuously improve with metrics-driven optimizations.
 
 ## FY23 Direction
 
@@ -124,9 +124,9 @@ We staff our department with the following gearing ratios:
 
 In addition to GitLab's [communication guidelines](/handbook/communication) and [engineering communication](/handbook/engineering/#communication), we communicate and collaborate actively across GitLab in the following venues:
 
-- [Group Conversation](#group-conversation)
+- [Group Conversation](/handbook/company/group-conversation/)
 - [Week-in-review](#week-in-review)
-- [Department meetings](#department-meetings)
+- [Department meetings](#department-recurring-event-dris)
 - [Engineering-wide retrospective](#engineering-wide-retrospective)
 
 ### Week-in-review
@@ -169,13 +169,13 @@ In order to engage with the team, please refer to the [Engineering Analytics tea
 ### Process
 
 - [Create an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new) with `~"Engineering Metrics"` to be added to the [Engineering Analytics](https://gitlab.com/gitlab-org/quality/engineering-analytics/team-tasks/-/boards/2650515?group_by=epic) board.
-    - State clearly what are the requirements and measures of the performance indicator.
-- The [Director of Engineering Analytics](https://gitlab.com/cdeleon_gitlab) is the DRI for triage, prioritization, and assignment.
-    - If work can be done without the need of new data warehouse capabilities, the DRI will schedule and assign the work within Engineering.
-    - If new Data warehouse capabilities are needed from the Data team, a linked issue will be created on the [Data team's Engineering](https://gitlab.com/groups/gitlab-data/-/boards/1496166?label_name%5B%5D=Engineering) board.
-        - Requests for support from the Data Team will be reviewed during Data Triage or by [requesting an expedition](/handbook/business-technology/data-team/how-we-work/#request-to-expedite-responses)
+  - State clearly what are the requirements and measures of the performance indicator.
+- The Director of Engineering Analytics is the DRI for triage, prioritization, and assignment.
+  - If work can be done without the need of new data warehouse capabilities, the DRI will schedule and assign the work within Engineering.
+  - If new Data warehouse capabilities are needed from the Data team, a linked issue will be created on the [Data team's Engineering](https://gitlab.com/groups/gitlab-data/-/boards/1496166?label_name%5B%5D=Engineering) board.
+    - Requests for support from the Data Team will be reviewed during Data Triage or by [requesting an expedition](/handbook/business-technology/data-team/how-we-work/#request-to-expedite-responses)
 - Every KPI issue is either assigned to the backlog or given a due date. The Engineering team will propose first a due date, which the Results DRI will confirm if possible or the provide the next possible date.
-    - Discussions to take place in [#eng-data-kpi](https://gitlab.slack.com/archives/C0166JCH85U) as needed.
+  - Discussions to take place in [#eng-data-kpi](https://gitlab.slack.com/archives/C0166JCH85U) as needed.
 - Every new KPI/RPI should follow our [standardized format](/handbook/engineering/performance-indicators/#guidelines).
 - The closure of the issue should be done with a merge request to the performance indicator page(s).
 
@@ -253,8 +253,8 @@ Quality Engineering will do the following in order to identify the issues to be 
 #### Process
 
 - A manager in the Quality Engineering department will lead refinement with issues populated beforehand in the issue boards.
-    - The [performance refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1233204?&label_name%5B%5D=performance-refinement) is used to triage performance issues. 
-    - The [transient bugs board](https://gitlab.com/groups/gitlab-org/-/boards/2206756?&label_name[]=type::bug%3A%3Atransient) is used to triage transient issues.
+  - The [performance refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1233204?&label_name%5B%5D=performance-refinement) is used to triage performance issues.
+  - The [transient bugs board](https://gitlab.com/groups/gitlab-org/-/boards/2206756?&label_name[]=type::bug%3A%3Atransient) is used to triage transient issues.
 - Before each meeting, for issues that are not yet fully triaged, the QEM meeting lead will assign the QEM of the appropriate stage or group to prioritize them.
 - The QEM meeting lead should review the board for long running issues that do not have meaningful activity and add them to the agenda to be considered for closure if no longer actionable.
 - Any high impact issues which need wider awareness should be added to the agenda for discussion by the relevant stakeholder. This includes urgent performance/transient issues as well as those that have been surfaced as important for customers.
@@ -266,7 +266,7 @@ Quality Engineering will do the following in order to identify the issues to be 
 Quality Engineering will track productivity, metric and process automation improvement work items
 in the [Development-Quality](https://gitlab.com/groups/gitlab-org/-/boards/1262515) board to service the [Development](/handbook/engineering/development/) department.
 Requirements and requests are to be created with the label `~dev-quality`. The head of both departments will review and refine the board on an on-going basis.
-Issues will be assigned and worked on by an Engineer in the [Engineering Productivity team](engineering-productivity) team and [communicated broadly](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#communicate-early-and-broadly-about-expected-automation-impact) when each work item is completed.
+Issues will be assigned and worked on by an Engineer in the [Engineering Productivity team](engineering-productivity) and [communicated broadly](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#communicate-early-and-broadly-about-expected-automation-impact) when each work item is completed.
 
 ### Release process overview
 
@@ -285,11 +285,11 @@ If additional input is needed from the Quality team, the DRI for this is the Dir
 | Recurring event | Primary DRI | Backup DRI | Cadence | Format |
 | --------------- | ----------- | ---------- | ------- | ------ |
 | Quality Key Review | `@meks` | `@vincywilson` | Every 8 weeks | Review meeting |
-| Group conversation | `@meks` | `@at.ramya` <br>`@vincywilson` <br>`@vincywilson` | Every 8 weeks | [Group Conversations](#group-conversations) |
-| [GitLab SaaS Infrastructure Weekly](/handbook/engineering/infrastructure/#gitlab-saas-infrastructure) | Rotates between @vincywilson` | `@vincywilson` | Weekly | Incident review and corrective action tracking |
+| Group conversation | `@meks` | `@at.ramya` <br>`@vincywilson` <br>`@vincywilson` | Every 8 weeks | [Group Conversations](/handbook/company/group-conversations/) |
+| [GitLab SaaS Infrastructure Weekly](/handbook/engineering/infrastructure/#gitlab-saas-infrastructure) | Rotates between `@vincywilson` | `@vincywilson` | Weekly | Incident review and corrective action tracking |
 | [Incident management](/handbook/engineering/infrastructure/incident-management/) | Rotates between `@at.ramya`, and `@vincywilson` | All managers | Weekly | Incident monitoring, response, and management as needed to represent Quality |
 | [Reference Architectures](/handbook/engineering/infrastructure/test-platform/self-managed-excellence/#reference-architectures) | `@ksvoboda` | `@vincywilson` | Every 2 weeks | Sync stand-up |
-| [Bug refinement](/handbook/engineering/quality/#bug-refinement) | Rotates between `@at.ramya` <br>`@vincywilson` | Weekly | Review meeting |
+| [Bug refinement](/handbook/engineering/quality/#bug-refinement) | Rotates between `@at.ramya` <br>`@vincywilson` | | Weekly | Review meeting |
 | Security Vulnerability review | `@meks` | `TBD` | Every 4 weeks | Review meeting |
 | Quality Department Staff Meeting | `@meks` | `TBD` | Weekly | Review meeting |
 | Quality Department Bi-Weekly | Department management team | `@meks` | Every 2 weeks | Review meeting |
@@ -311,14 +311,14 @@ More on our [Triage Operations](/handbook/engineering/infrastructure/engineering
 
 The GitLab test automation framework is distributed across two projects:
 
-- [GitLab QA], the test orchestration tool.
-- The scenarios and spec files within the GitLab codebase under `/qa` in [GitLab].
+- [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa), the test orchestration tool.
+- The scenarios and spec files within the GitLab codebase under `/qa` in [GitLab](https://gitlab.com/gitlab-org/gitlab).
 
 #### Installation and execution
 
 - Install and set up the [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit)
-- Install and run [GitLab QA] to kick off test execution.
-    - The spec files (test cases) can be found in the [GitLab codebase](https://gitlab.com/gitlab-org/gitlab/tree/master/qa)
+- Install and run [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa) to kick off test execution.
+  - The spec files (test cases) can be found in the [GitLab codebase](https://gitlab.com/gitlab-org/gitlab/tree/master/qa)
 
 ### Test results tracking
 
@@ -328,19 +328,19 @@ Technical details about our test results tracking can be found in the [Test resu
 
 - Within an E2E test file, each test is associated with one [GitLab testcase](https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases).
 
-```ruby
-RSpec.describe 'Stage' do
-  describe 'General description of the feature under test' do
-    it 'test name', testcase: 'https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases/:test_case_id' do
-      ...
-    end
+  ```ruby
+  RSpec.describe 'Stage' do
+    describe 'General description of the feature under test' do
+      it 'test name', testcase: 'https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases/:test_case_id' do
+        ...
+      end
 
-    it 'another test', testcase: 'https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases/:another_test_case_id' do
-      ...
+      it 'another test', testcase: 'https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases/:another_test_case_id' do
+        ...
+      end
     end
   end
-end
-```
+  ```
 
   The test failure stack trace and the issue stack trace are compared, and the existing issue for which the stack trace is the most similar (under a 15% difference threshold) to the test failure is used.
   The test failure job is then added to the failure report list in the issue.
@@ -373,15 +373,11 @@ Once GitLab stores test data, we can improve failure reporting and management.
 ### Performance and Scalability
 
 The Quality Department is committed to ensuring that self-managed customers have performant and scalable configurations.
-To that end, we are focused on creating a variety of tested and certified [Reference Architectures]. Additionally, we
-have developed the [GitLab Performance Tool], which provides several tools for measuring the performance of any GitLab
+To that end, we are focused on creating a variety of tested and certified [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html). Additionally, we
+have developed the [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance), which provides several tools for measuring the performance of any GitLab
 instance. We use the Tool every day to monitor for potential performance degradations, and this tool can also be used
 by GitLab customers to directly test their on-premise instances. More information is available on our
 [Performance and Scalability](/handbook/engineering/quality/performance-and-scalability/) page.
-
-### MRARR
-
-The Quality department is the DRI for [MRARR](/handbook/engineering/performance-indicators/#mrarr) tooling and tracking. MRARR is an important part of the [Open Core 3 year strategy](/handbook/company/strategy/#2-build-on-our-open-core-strength) to increase contributions from the Wider community.
 
 ### Demo and Test Data
 
@@ -389,42 +385,9 @@ Whether automatically generating production-like data, test data, or [data to be
 
 See the [GitLab Data Seeder](/handbook/engineering/quality/gitlab-data-seeder) documentation for more information.
 
-#### Customer contributor tracking
-
-Customer contributors are currently tracked in [a Google Sheet](https://docs.google.com/spreadsheets/d/1yIASbQOS2TcHIFmSW_e3xTiQzgkYSLSgiujFJ7Dg834/edit#gid=447581669) that is imported to Sisense every day. Data has been sourced from Bitergia and reviewing previous Wider community contributions.
-
-#### Customer contributor additions
-
-Additions have been identified through the following means and added to the source above once confirmed by a Manager in the Quality Department.
-
-1. Indication from a member of the Sales team
-1. Contributor is linked to a Salesforce contact
-1. Confirmation with other public sources
-    - Identifying the organization, commit email or other public user information on the merge request.
-    - Validating that contributor is associated with a customer organization by using other public sources such as LinkedIn.
-    - Verify the organization is a paying customer of GitLab in using Salesforce.com to open the Account and look at the CARR fields.
-
-After verifying a contributor is associated with a customer, these steps are how to add a new contributor to the tracking [sheet](https://docs.google.com/spreadsheets/d/1yIASbQOS2TcHIFmSW_e3xTiQzgkYSLSgiujFJ7Dg834/edit#gid=447581669)
-
-1. Check if the customer organization is already defined in the spreadsheet by the Salesforce Account ID. If not, add a new row with the following information:
-    - Salesforce Account name for the Contributor Organization (a)
-    - Full 18 character Salesforce Account ID for the SFDC Account ID column (c). This can be retrieved from converting the 15 character ID with a gem like `salesforce_id_formatter`
-1. Add the Contributor's GitLab.com username to the Contributor Usernames column (b). **The format of this column is a JSON array. Please use double quoted strings and commas after each username.**
-
-#### Diagnostic dashboard
-
-The [MRARR Diagnostics](https://app.periscopedata.com/app/gitlab/790656/) dashboard contains some helpful supplemental charts to understand changes in MRARR and untracked contributors.
-
 ## Other related pages
 
 - [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
 - [Performance of GitLab](/handbook/engineering/performance/)
 - [Monitoring of GitLab.com](/handbook/engineering/monitoring/)
 - [Production Readiness Guide](https://gitlab.com/gitlab-com/infrastructure/blob/master/.gitlab/issue_templates/production_readiness.md)
-
-[GitLab QA]: https://gitlab.com/gitlab-org/gitlab-qa
-[GitLab Insights]: https://gitlab.com/gitlab-org/gitlab-insights
-[GitLab Performance Tool]: https://gitlab.com/gitlab-org/quality/performance
-[GitLab Triage]: https://gitlab.com/gitlab-org/gitlab-triage
-[GitLab]: https://gitlab.com/gitlab-org/gitlab
-[Reference Architectures]: https://docs.gitlab.com/ee/administration/reference_architectures/index.html

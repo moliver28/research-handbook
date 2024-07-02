@@ -3,7 +3,7 @@ title: "Sales Management"
 ---
 ## Area Sales Manager
 
-The Area Sales Manager (ASM) role is vital in all of our territory selling markets. As the ASM, you will lead a dynamic sales team and help GitLab surpass our growth goals. Reporting to the Regional Sales Director, you will be responsible for hiring, developing and leading a high-performing team of Strategic Account Leaders to meet and exceed sales goals. The right candidate is truly passionate about open source software and has a proven track record to talk about! This is an exciting opportunity to unequivocally influence GitLab’s overall success and growth.
+The Area Sales Manager (ASM) role is vital in all of our territory selling markets. As the ASM, you will lead a dynamic sales team and help GitLab surpass our growth goals. Reporting to the Regional Sales Director, you will be responsible for hiring, developing and leading a high-performing team of Strategic Account Leaders to meet and exceed sales goals. The right candidate is truly passionate about open source software and has a proven track record to talk about! This is an exciting opportunity to unequivocally influence GitLab's overall success and growth.
 
 ## Levels
 
@@ -36,7 +36,7 @@ Ensure the successful rollout and adoption of GitLab products through strong acc
 #### Associate Area Sales Manager Requirements
 
 - Demonstrated progressive experience in field sales, operations and leadership in open source software or software DevOps environment
-- Experience selling to Fortune 500; willingness to “roll up your sleeves” and sell
+- Experience selling to Fortune 500; willingness to "roll up your sleeves" and sell
 - Proven track record of meeting or exceeding performance objectives (revenue targets, pipeline targets, etc.)
 - Experience utilizing CRM systems and marketing automation systems (such as Salesforce, Clari, Marketo, etc).
 - Ability to exercise effective judgment, sensitivity, creativity to changing needs and situations; ability to handle a fast-paced environment and challenging workload
@@ -45,7 +45,7 @@ Ensure the successful rollout and adoption of GitLab products through strong acc
 - You share our values, and work in accordance with those values.
 - [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ### Area Sales Manager (Intermediate)
 
@@ -70,7 +70,7 @@ The Area Sales Manager (Intermediate) is a [grade 9](/handbook/total-rewards/com
 #### Area Sales Manager (Intermediate) Requirements
 
 - Demonstrated progressive experience in field sales, operations and leadership in open source software or software DevOps environment
-- Experience selling to Fortune 500; willingness to “roll up your sleeves” and sell
+- Experience selling to Fortune 500; willingness to "roll up your sleeves" and sell
 - Proven track record of meeting or exceeding performance objectives (revenue targets, pipeline targets, etc.)
 - Experience utilizing CRM systems and marketing automation systems (such as Salesforce, Clari, Marketo, etc).
 - Ability to exercise effective judgment, sensitivity, creativity to changing needs and situations; ability to handle a fast-paced environment and challenging workload
@@ -79,7 +79,7 @@ The Area Sales Manager (Intermediate) is a [grade 9](/handbook/total-rewards/com
 - You share our values, and work in accordance with those values.
 - [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ### Senior Area Sales Manager
 
@@ -98,8 +98,8 @@ The Senior Area Sales Manager is a [grade 9](/handbook/total-rewards/compensatio
 - Responsible for maintaining and growing accounts within territory and converting new accounts at acceptable margins
 - Accurately forecasts bookings by territory and prioritizes time accordingly
 - Effectively engages Channels, Customer Success, Marketing, and Sales resources during the sales process as necessary
-- Maintains close contact with assigned accounts by establishing strong relationships with key decision makers. Develops and maintains a strong executive call plan and relationship with the CXO’s & Program level leaders for the account set.
-- Utilizes advanced offering knowledge and understanding of the customer’s business to develop customized proposals
+- Maintains close contact with assigned accounts by establishing strong relationships with key decision makers. Develops and maintains a strong executive call plan and relationship with the CXO's & Program level leaders for the account set.
+- Utilizes advanced offering knowledge and understanding of the customer's business to develop customized proposals
 
 #### Senior Area Sales Manager Requirements
 
@@ -136,7 +136,7 @@ The Senior Area Sales Manager is a [grade 9](/handbook/total-rewards/compensatio
 - Knowledge of open source enterprise software and/or version control is highly desirable
 - Exceptional knowledge of Federal infrastructure and agencies
 - A security clearance is a plus
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
 
 ### First order
 
@@ -144,7 +144,7 @@ The Senior Area Sales Manager is a [grade 9](/handbook/total-rewards/compensatio
 
 - Extends that of the Area Sales Manager (Intermediate) or Senior Area Sales Manager Responsibilities
 - Works closely with the VP, Commercial to develop and operationalize strategies for new customer acquisition
-- Experience creating customer demand by analyzing customer needs and creating a compelling case to buy GitLab’s products
+- Experience creating customer demand by analyzing customer needs and creating a compelling case to buy GitLab's products
 - Focuses on selling into new customer accounts within the Mid Market segment which have between 500 and 1999 employees globally
 - Consistently documents learnings from each customer interaction to iterate on strategy to win new customers who have not used GitLab before
 
@@ -156,7 +156,7 @@ The Senior Area Sales Manager is a [grade 9](/handbook/total-rewards/compensatio
 
 ## Performance Indicators
 
-[Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary)
+[Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary)
 
 ## Career Ladder
 

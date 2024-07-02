@@ -1,16 +1,9 @@
 ---
-
 title: Pipeline Authoring Frontend Architecture Process
 description: >-
   This page documents the frontend architecture process used in the
   Verify:Pipeline Authoring group.
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -46,7 +39,7 @@ It does not need to address to the schedule. That can be handled in the traditio
 
 The proposal should include:
 
-- A component breakdown. This doesn’t have to be perfect, but listing how, for instance, you might break up the work you are doing into sections, is good. This will feed into ...
+- A component breakdown. This doesn't have to be perfect, but listing how, for instance, you might break up the work you are doing into sections, is good. This will feed into ...
 - A data story! Where will the data we are displaying come from? Where does it go? How will subcomponents access it? What will the backend do, what will the frontend cover? Looking at the utility functions in the `app/assets/javascripts/pipelines/` and `app/assets/javascripts/pipeline_editor/` can help provide clues for what we already do.
 - How these changes fit with the code that already exists. Does it follow the patterns? Does it diverge? Will it consume shared components?
 - A list of unknowns. What don't you know? What are you unsure about? If this were a map, where would you write _here be dragons_?
@@ -56,7 +49,7 @@ This list may seem long, but for smaller changes, they should be able to be addr
 
 #### Base Assumptions For All Architectures
 
-- We’ll follow our other guidelines, both at the department level and those outlined in the [team resources page](/handbook/engineering/development/ops/verify/pipeline-authoring/team-resources/).
+- We'll follow our other guidelines, both at the department level and those outlined in the [team resources page](/handbook/engineering/development/ops/verify/pipeline-authoring/team-resources/).
 - We will use Apollo and GraphQL for our data fetching and state handling needs.
 - Using data structures that are identical to current data structures whenever possible is a good plan. While we do process a fair amount of data on the frontend, adding exceptions within that processing to deal with slight variations on that data is best avoided.
 - We will use the `reportFailure` error pattern as used in, for instance, `app/assets/javascripts/pipelines/components/graph/graph_component_wrapper.vue` or `app/assets/javascripts/pipelines/components/dag/dag.vue` to handle our errors.

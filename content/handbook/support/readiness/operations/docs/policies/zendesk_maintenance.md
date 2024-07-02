@@ -13,7 +13,7 @@ global groups (SGG) routing. You need to be aware of these issues and rectify
 them manually whenever possible. We recommend making two personal views to
 easily catch the two types of issues.
 
-#### Tickets in SGG void
+### Tickets in SGG void
 
 These are tickets using a support form that has a SGG value of "Not Applicable".
 This causes them to sit in a void where they will not normally get seen. When
@@ -35,7 +35,7 @@ To help with this, we recommend setting up a view with the following conditions:
   - Form is Select Partner
   - Form is Alliance Partners
 
-#### Incorrect SGG
+### Incorrect SGG
 
 These are tickets in a support form assigned to an agent but the SGG value is
 "Not Applicable". This causes them to sit in a void where only the assignee
@@ -68,7 +68,7 @@ Once a shift, Support Ops should go through the Suspended and Deleted tickets in
 - [Suspended tickets for ZD US Federal](https://gitlab-federal-support.zendesk.com/agent/filters/suspended)
 - [Deleted tickets for ZD US Federal](https://gitlab-federal-support.zendesk.com/agent/filters/deleted)
 
-#### Suspended tickets
+### Suspended tickets
 
 For the suspended tickets, you will need to review the contents of said ticket
 (done by clicking the subject) to determine if the ticket is legitimate or not.
@@ -82,7 +82,7 @@ has likely faced a delay and might be close to (if not) breaching SLA.
 If the ticket is not legitimate, you should click the arrow on the right hand
 side of the button and select Delete.
 
-#### Deleted tickets
+### Deleted tickets
 
 For deleted tickets, you should look over the tickets present and make sure
 they should be deleted. This will require looking at the reason and the

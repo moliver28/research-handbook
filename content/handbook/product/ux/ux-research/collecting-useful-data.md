@@ -5,11 +5,11 @@ description: "You can use your research objectives to create categories you can 
 
 ## Decide what kinds of insights to collect
 
-As you take notes, it’s easy to think that everything you hear and/or see is important, but this makes it extremely difficult to analyze the information across all your participants. You can use your research objectives to create categories you can reference as you take notes to make sure you are capturing the most salient information. Focus on the **need-to-know information**, not the **nice-to-know information**.
+As you take notes, it's easy to think that everything you hear and/or see is important, but this makes it extremely difficult to analyze the information across all your participants. You can use your research objectives to create categories you can reference as you take notes to make sure you are capturing the most salient information. Focus on the **need-to-know information**, not the **nice-to-know information**.
 
 ## Decide on a collection method
 
-Conducting user research often results in a pretty hefty amount of information. To stay organized throughout this process, spend some time upfront deciding how you’ll collect your notes. Using [Dovetail](/handbook/product/ux/dovetail/) will help consolidate your data as well as facilitates [highlighting and tagging content](/handbook/product/ux/dovetail/#tagging-data-in-dovetail). Doing this makes it easier for your team to collaborate by adding their own notes and observations, and collecting everything in a central place will keep things organized and consistent.
+Conducting user research often results in a pretty hefty amount of information. To stay organized throughout this process, spend some time upfront deciding how you'll collect your notes. Using [Dovetail](/handbook/product/ux/dovetail/) will help consolidate your data as well as facilitates [highlighting and tagging content](/handbook/product/ux/dovetail/#tagging-data-in-dovetail). Doing this makes it easier for your team to collaborate by adding their own notes and observations, and collecting everything in a central place will keep things organized and consistent.
 
 Here are some note-taking resources to use, in addition to Dovetail, depending on the type of study you're conducting:
 
@@ -35,6 +35,6 @@ Twitter and LinkedIn are great platforms for engaging with our users and sometim
 - Determine the frequency of the feedback. How often are similar statements made? By how many people?
 - Analyze the feedback to separate opinion from fact. Analyze the factual statements to see if solutions are proposed. If they are, determine what additional work is needed (either design or problem validation) to take the solutions to the next level.
 - If a research project is currently underway and the feedback appears to be around the same topic, you can use it as an additional set of data to help triangulate the data from the research project.
-- As a follow-up, request the person providing feedback to sign-up for [GitLab First Look](https://about.gitlab.com/community/gitlab-first-look/) and also share the relevant issuable template, depending if it is a feature request or a bug, so they could easily create an issue around their feedback.
+- As a follow-up, request the person providing feedback to fill out the relevant issuable template, depending if it is a feature request or a bug, so they could easily create an issue around their feedback.
 
 For more information around the guidelines for engagement on social media platforms, visit the [Team Member Social Media Policy and Guidelines](/handbook/marketing/team-member-social-media-policy/) page.

@@ -1,5 +1,4 @@
 ---
-
 title: "Neurodiversity in the Workplace Short Course"
 description: "This page hosts the read section of the Neurodiversity in the Workplace Short Course"
 canonical_path: "/company/culture/inclusion/neurodiversity-short-course/"
@@ -31,7 +30,6 @@ There isn't a predefined list of what falls under the umbrella, it is a personal
 - General learning differences.
 
 These groups make up a large portion of the population, and have many talents to lend to an organization. As an HR professional, you can guide your organization in learning how to hire, employ, and support this population to maximize this fantastic and talented workforce. Neurodiversity creates a new landscape of hiring and supporting employees. Human resource professionals can increase their competencies to support this group and educate the workforce to ensure inclusion for all types of minds. The world is ready to embrace neurodiversity. Neurodivergent people bring unique perspectives, solutions, and innovative ideas. Starting here is a great first step to embrace this population within your organization.
-
 
 [Defining the spectrum of neurodiversity via Linkedin Learning](https://www.linkedin.com/learning/hiring-and-supporting-neurodiversity-in-the-workplace/defining-the-spectrum-of-neurodiversity?autoAdvance=true&autoSkip=false&autoplay=true&resume=false&u=2255073)
 {.h4}
@@ -97,7 +95,7 @@ Servant leadership is very important when building an environment where neurodiv
 
 ##### Challenging your bias & perceptions
 
-If you haven’t already read through our handbook page on unconscious bias and also read or taken the psychological safety short course. Everyone has bias and it is about recognising and challenging your bias which can inform your perceptions.
+If you haven't already read through our handbook page on unconscious bias and also read or taken the psychological safety short course. Everyone has bias and it is about recognising and challenging your bias which can inform your perceptions.
 
 People who are neurodivergent can miss social cues or not provide certain social cues. This could elevate a biased response in those interactions. You may perceive someone as disinterested, uncommunicative or lacking knowledge. Ensure that when you encounter situations that you do not perceive as normal, cloud your judgment on that person's ability to do their work. Let our results value always be the indicator of success.
 

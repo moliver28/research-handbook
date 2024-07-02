@@ -1,14 +1,7 @@
 ---
-
 title: "SQL Style Guide"
 description: "A set of conventions and guidelines for writing SQL at GitLab"
 ---
-
-
-
-
-
-
 
 ---
 
@@ -64,9 +57,7 @@ SQLFluff includes a `fix` command that will apply fixes to rule violations when 
 - selecting Key words, Data Types and Functions to always be upper case
 - require table aliases to be a minimum of four characters
 
-
 The configuration file that the Data Team uses can be found in the [GitLab Data Team repository](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/.sqlfluff).
-
 
 ### General Guidance
 
@@ -78,7 +69,6 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
 - Be explicit. Defining something explicitly will ensure that it works the way you expect and it is easier for the next person, which may be you, when you are explicit in SQL.
 
-
 ### Best Practices
 
 - No tabs should be used - only spaces. Your editor should be setup to convert tabs to spaces - see our [onboarding template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Team%3A%20Data%20Onboarding.md) for more details.
@@ -86,7 +76,6 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 - Wrap long lines of code, between 80 and 100, to a new line.
 
 - Do not use the `USING` command in joins because it produces inaccurate results in Snowflake. Create an account to view the [forum discussion on this topic.](https://community.snowflake.com/s/question/0D50Z00008WRZBBSA5/bug-with-join-using-)
-
 
 - Understand the difference between the following related statements and use appropriately:
   - `UNION ALL` and `UNION`
@@ -104,7 +93,6 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
 - Prefer `WHERE` to `HAVING` when either would suffice.
 
-
 ### Commenting
 
 - When making single line comments in a model use the `--` syntax
@@ -115,7 +103,6 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 - Instead of leaving `TODO` comments, create new issues for improvement
 
 ### Naming Conventions
-
 
 - An ambiguous field name such as `id`, `name`, or `type` should always be prefixed by what it is identifying or naming:
 
@@ -213,8 +200,8 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
     LEFT JOIN cost_category
         ON budget_forecast.unique_account_name = cost_category.unique_account_name
 
- 
-    -- vs 
+
+    -- vs
 
     -- Not Preferred
     SELECT
@@ -233,17 +220,16 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
 - Only use double quotes when necessary, such as columns that contain special characters or are case sensitive.
 
-
     ```sql
         -- Preferred
-        SELECT 
+        SELECT
             "First_Name_&_" AS first_name,
             ...
 
         -- vs
 
         -- Not Preferred
-        SELECT 
+        SELECT
             FIRST_NAME AS first_name,
             ...
 
@@ -256,7 +242,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
         SELECT
             data_by_row['id']::bigint as id_value
             ...
-        
+
         -- vs
 
         -- Not Preferred
@@ -305,7 +291,6 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
         ...
     ```
 
-
 ### Common Table Expressions (CTEs)
 
 - Prefer CTEs over sub-queries as [CTEs make SQL more readable and are more performant](https://www.alisa-in.tech/post/2019-10-02-ctes/):
@@ -318,7 +303,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
             specific_column
         FROM other_table
         WHERE specific_column != 'foo'
-        
+
     )
 
     SELECT
@@ -328,7 +313,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
     INNER JOIN important_list
         ON primary_table.column_3 = important_list.specific_column
 
-    -- vs   
+    -- vs
 
     -- Not Preferred
     SELECT
@@ -336,8 +321,8 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
         primary_table.column_2
     FROM primary_table
     WHERE primary_table.column_3 IN (
-        SELECT DISTINCT specific_column 
-        FROM other_table 
+        SELECT DISTINCT specific_column
+        FROM other_table
         WHERE specific_column != 'foo')
 
     ```
@@ -346,18 +331,17 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 - CTEs should be placed at the top of the query.
 - Where performance permits, CTEs should perform a single, logical unit of work.
 - CTE names should be as concise as possible while still being clear.
-    - Avoid long names like `replace_sfdc_account_id_with_master_record_id` and prefer a shorter name with a comment in the CTE. This will help avoid table aliasing in joins.
+  - Avoid long names like `replace_sfdc_account_id_with_master_record_id` and prefer a shorter name with a comment in the CTE. This will help avoid table aliasing in joins.
 - CTEs with confusing or notable logic should be commented in file and documented in dbt docs.
 - CTEs that are duplicated across models should be pulled out into their own models.
-
 
 ### Data Types
 
 - Use default data types and not aliases. Review the [Snowflake summary of data types](https://docs.snowflake.com/en/sql-reference/intro-summary-data-types.html) for more details. The defaults are:
-    - `NUMBER` instead of `DECIMAL`, `NUMERIC`, `INTEGER`, `BIGINT`, etc.
-    - `FLOAT` instead of `DOUBLE`, `REAL`, etc.
-    - `VARCHAR` instead of `STRING`, `TEXT`, etc.
-    - `TIMESTAMP` instead of `DATETIME`
+  - `NUMBER` instead of `DECIMAL`, `NUMERIC`, `INTEGER`, `BIGINT`, etc.
+  - `FLOAT` instead of `DOUBLE`, `REAL`, etc.
+  - `VARCHAR` instead of `STRING`, `TEXT`, etc.
+  - `TIMESTAMP` instead of `DATETIME`
 
     The exception to this is for timestamps. Prefer `TIMESTAMP` to `TIME`. Note that the default for `TIMESTAMP` is `TIMESTAMP_NTZ` which does not include a time zone.
 
@@ -368,11 +352,11 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
     ```sql
     -- Preferred
-    SELECT 
+    SELECT
         IFF(column_1 = 'foo', column_2,column_3) AS logic_switch,
         ...
 
-    -- vs 
+    -- vs
 
     -- Not Preferred
     SELECT
@@ -387,13 +371,13 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
     ```sql
     -- Preferred
-    SELECT 
+    SELECT
         IFF(amount < 10,TRUE,FALSE) AS is_less_than_ten,
         ...
     -- vs
 
     -- Not Preferred
-    SELECT 
+    SELECT
         (amount < 10) AS is_less_than_ten,
         ...
     ```
@@ -413,10 +397,10 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
         END AS field_type,
         ...
 
-    -- vs 
+    -- vs
 
     -- Not Preferred
-    SELECT 
+    SELECT
         CASE
             WHEN field_id = 1 THEN 'date'
             WHEN field_id = 2 THEN 'integer'
@@ -426,7 +410,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
             WHEN field_id = 6 THEN 'text'
         END AS field_type,
         ...
-    
+
     ```
 
 - Prefer the explicit date function over `date_part`, but prefer `date_part` over `extract`:
@@ -510,8 +494,6 @@ SELECT *
 FROM final
 
 ```
-
-
 
 ### Other SQL Style Guides
 

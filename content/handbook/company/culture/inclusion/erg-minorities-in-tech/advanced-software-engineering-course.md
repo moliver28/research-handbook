@@ -12,7 +12,7 @@ Diversity, Inclusion and Belonging ([DIB]({{< ref "inclusion" >}})) are fundamen
 
 ## GitLab Benefits
 
-- Partnering with HBCUs will provide an opportunity for GitLab to diversify it’s talent acquisition pipeline, and enhance its commitment to diversity.
+- Partnering with HBCUs will provide an opportunity for GitLab to diversify it's talent acquisition pipeline, and enhance its commitment to diversity.
 - Opportunity to diversify and to our Community of Contributors
 - Evangelizing GitLab software to future Engineers
 - Opportunity to diversify our talent acquisition pipeline
@@ -35,7 +35,7 @@ Diversity, Inclusion and Belonging ([DIB]({{< ref "inclusion" >}})) are fundamen
 
 The GitLab instructors below have volunteered their time to create the course content that made this course possible. A special thanks goes out to each person listed below:
 
-- [Brendan O’Leary](/handbook/company/team/#brendan), Senior Developer Evangelist
+- [Brendan O'Leary](/handbook/company/team/#brendan), Senior Developer Evangelist
 - [Michael Friedrich](/handbook/company/team/#dnsmichi), Developer Advocate
 - Darren Murph, Head of Remote
 - [Paul Slaughter](/handbook/company/team/#pslaughter), Senior Frontend Engineer
@@ -43,7 +43,7 @@ The GitLab instructors below have volunteered their time to create the course co
 - [Ash McKenzie](/handbook/company/team/#ashmckenzie), Staff Backend Engineer
 - [Florie Guibert](/handbook/company/team/#fguibert), Senior Frontend Engineer
 - [Taurie Davis](/handbook/company/team/#tauriedavis), Product Design Manager
-- [Darren Eastman](/handbook/company/team/#DarrenEastman), Senior Product Manager
+- [Darren Eastman](/handbook/company/team/#darreneastman), Senior Product Manager
 - [Ezekiel Kigbo](/handbook/company/team/#ekigbo), Senior Frontend Engineer
 - [Dave Smith](/handbook/company/team/#dawsmith), Engineering Manager, Reliability
 - [Andrew Kelly](/handbook/company/team/#ankelly), Senior Security Engineer
@@ -53,7 +53,7 @@ The GitLab instructors below have volunteered their time to create the course co
 - [Thomas Randolph](/handbook/company/team/#thomasrandolph), Senior Frontend Engineer
 - [Eric Schurter](/handbook/company/team/#ericschurter), Senior Product Manager
 - [Sean Carroll](/handbook/company/team/#sean_carroll), Engineering Manager
-- [Sharif Bennett](/handbook/company/team/#SharifATL), Mid Market Account Executive
+- [Sharif Bennett](/handbook/company/team/#sharifatl), Mid Market Account Executive
 
 ## Career Stories
 
@@ -125,5 +125,5 @@ For those interested in using GitLab to support a course whether it is Face to F
 | [GitLab CD(Continuous Deployment)](https://docs.gitlab.com/ee/ci/) | Used to push every day code changes into the production environment resulting in continuous deployments to production. |
 | [Requirements](https://docs.gitlab.com/ee/user/project/requirements/) | Used for homework assignments to mimic real world environments where you have customers who submit requirements to engineering teams. |
 | [Designs](https://docs.gitlab.com/ee/user/project/issues/design_management.html) | Used for homework assignments to provide a visual for the Handbook Pages they will contribute to |
-| [GitLab Handbook]({{< ref "/handbook" >}}) | Students will learn to update the GitLab Handbook and they will also use some Handbook content as supplemental lecture material. |
+| [GitLab Handbook](/handbook) | Students will learn to update the GitLab Handbook and they will also use some Handbook content as supplemental lecture material. |
 | [GitLab Docs](https://docs.gitlab.com) | Students will use GitLab docs as supplemental lecture material. |
