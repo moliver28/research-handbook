@@ -16,7 +16,7 @@
 {{- $activity := where $data "category" "eq" "activity" }}
 {{- $collaboration := where $data "category" "eq" "collaboration" }}
 {{- $efficiency := where $data "category" "eq" "efficiency" }}
-{{- $space := slice $satisfaction $performance $activity $collaboration $efficiency }}
+{{- $space := slice | append $satisfaction $performance $activity $collaboration $efficiency }}
 
 {{- range $space -}}
   {{- $first := index . 0 -}}
@@ -63,7 +63,7 @@
   {{- range . -}}
     {{- $anchor := .name | anchorize -}}
     <h4 id="{{ $anchor }}">{{ .name }} <a href="{{ .base_path }}#{{ $anchor }}">#</a></h4>
-    <p>{{ .description }}</p>
+    <p>{{ .definition }}</p>
     <p>
       <strong>Target</strong>: {{ .target }}
       <strong>Health</strong>:

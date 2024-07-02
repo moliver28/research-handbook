@@ -49,6 +49,21 @@
         height: 400px
         toolbar: hidden
         hide_tabs: true
+- name: S1 Bugs
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Number of open S1 bugs over time
+  target: TBD
+  category: performance
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S1OpenBugAgePI
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
   urls:
     - https://handbook.gitlab.com/handbook/engineering/development/performance-indicators/#escape-rate-over-time
 - name: MR Rate
