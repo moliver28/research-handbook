@@ -20,7 +20,7 @@ To get started, create an issue in the [UX Research Project](https://gitlab.com/
 
 You'll also want to create a copy of our [JTBD Canvas Template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1) that will be used throughout this process. This will help you visualize what you know (or think you know) about a particular Domain area's Job Performers, and to get alignment with your team on all the aspects of your product, your users, their goals, and their needs.
 
-## Define Job Performers and Jobs
+## Define Job Performers and Their Jobs
 
 The first step in the JTBD process is identifying your users and their objectives within your product space. This foundation ensures success in subsequent steps.
 
@@ -39,24 +39,9 @@ The workshop involves four steps:
 
 Follow the instructions for each step provided in the FigJam template.
 
-#### Async Workshop (multi-day)
+### Exercise 2: Define the Jobs To Be Done (Async)
 
-Gather your team for an asynchronous workshop. Set the expectation that they will participate over multiple days, dedicating at least 20 minutes to each step daily. At a minimum, include the Product Design DRI and Product Manager. Adding engineering counterparts and your Section's UX Researcher will provide diverse perspectives. Use a Zoom call and the [FigJam JTBD Template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1) created earlier.
-
-The workshop involves four steps:
-
-1. Brainstorm all the activities users are performing in your product’s space.
-    1. Have each participant read the instructions on FigJam. For any questions, reach out to the Product Design DRI.
-    1. Complete the step and ping the Product Design DRI in the planning issue.
-    1. Wait for the Product Design DRI to ping the team when ready for the next step.
-    1. Follow this process for the remaining steps in the workshop.
-1. Organize these users into related groups.
-1. Name each user group to best describe them.
-1. Divide the tasks within each group into the three [Job Types](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-types).
-
-### Exercise 2: Define the Jobs To Be Done
-
-In this step, the Product Design DRI will take the information gathered in Exercise 1 and format it into Job Statements.
+In this exercise, the Product Design DRI will take the information gathered in Exercise 1 and format it into Job Statements.
 
 1. **Copy and Organize**:
    - Copy the groups and their stickies from Exercise 1 to this new work area to get started.
