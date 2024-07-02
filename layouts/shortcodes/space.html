@@ -63,7 +63,7 @@
   {{- range . -}}
     {{- $anchor := .name | anchorize -}}
     <h4 id="{{ $anchor }}">{{ .name }} <a href="{{ .base_path }}#{{ $anchor }}">#</a></h4>
-    <p>{{ .description }}</p>
+    <p>{{ .definition }}</p>
     <p>
       <strong>Target</strong>: {{ .target }}
       <strong>Health</strong>:
