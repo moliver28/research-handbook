@@ -103,6 +103,25 @@ The query uses [PromQL](https://prometheus.io/docs/prometheus/latest/querying/ba
 - [hyperfine](https://github.com/sharkdp/hyperfine): a performance tool that can benchmarks over time
   - hyperfine can be used together with grpcurl to check the response time of a gPRC call
 
+#### strace
+
+`strace(1)` a gitaly process:
+
+```shell
+strace -fttTyyy -s 1024 -o /paht/filename -p $(pgrep -fd, gitaly)
+```
+
+Or wrap a process to make it easy to strace, especially if it then spawns more processes:
+
+```shell
+#!/bin/bash/sh
+echo $(date)" $PPID $@" >> /tmp/gitlab-shell.txt
+exec /opt/gitlab/embedded/service/gitlab-shell/bin/gitlab-shell-orig "$@"
+# strace -fttTyyy -s 1024 -o /tmp/sshd_trace-$PPID /opt/gitlab/embedded/service/gitlab-shell/bin/gitlab-shell-orig
+```
+
+https://gitlab.com/gitlab-com/support/toolbox/strace-parser is useful to make the results more readable.
+
 ## Log analysis
 
 Kibana (Elastic) Dashboards
