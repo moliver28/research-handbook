@@ -7,7 +7,7 @@ title: "IT Enterprise Applications"
 ## <i class="fas fa-users" id="biz-tech-icons"></i> About Us
 
 The **IT Enterprise Applications Team** is responsible for the design, implementation, compliance and operations of specialized applications that are key to the digital transformation by streamlining business processes, improving efficacy and efficiency, and enabling organizational growth
-We are directly responsible for all of GitLab’s finance systems and Enterprise Applications Integrations. We build and extend these applications to support the processes of our business partners and rationalize our application landscape to ensure it is optimized for efficiency and spend.
+We are directly responsible for all of GitLab's finance systems and Enterprise Applications Integrations. We build and extend these applications to support the processes of our business partners and rationalize our application landscape to ensure it is optimized for efficiency and spend.
 Our team ensures the availability of these applications and integrations through monitoring and alerting. These internal-facing applications include a multitude of different applications and environments, including Zuora, Adaptive Planning, NetSuite, Navan Expense, etc. We are also responsible for the IT Audit and Compliance function to ensure we pass SOX Audit for our IT General Controls (ITGC).
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Vision
@@ -68,11 +68,4 @@ We are the single point of contact for IT owned applications for ITGCs. We parti
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Release Calendar
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Sprint Schedule 
-
-
-
-
-
-
-
+## <i class="fas fa-users" id="biz-tech-icons"></i> Sprint Schedule
