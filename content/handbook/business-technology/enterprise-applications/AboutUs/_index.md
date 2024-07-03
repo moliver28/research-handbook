@@ -1,12 +1,12 @@
 ---
-title: "Enterprise Applications"
+title: "IT Enterprise Applications"
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> About Us
 
-The **Enterprise Applications Team** is responsible for the design, implementation, compliance and operations of specialized applications that are key to the digital transformation by streamlining business processes, improving efficacy and efficiency, and enabling organizational growth
+The **IT Enterprise Applications Team** is responsible for the design, implementation, compliance and operations of specialized applications that are key to the digital transformation by streamlining business processes, improving efficacy and efficiency, and enabling organizational growth
 We are directly responsible for all of GitLab’s finance systems and Enterprise Applications Integrations. We build and extend these applications to support the processes of our business partners and rationalize our application landscape to ensure it is optimized for efficiency and spend.
 Our team ensures the availability of these applications and integrations through monitoring and alerting. These internal-facing applications include a multitude of different applications and environments, including Zuora, Adaptive Planning, NetSuite, Navan Expense, etc. We are also responsible for the IT Audit and Compliance function to ensure we pass SOX Audit for our IT General Controls (ITGC).
 
@@ -60,6 +60,11 @@ Enterprise Application Services (EAS) provides  horizontal support, operations, 
 We are the single point of contact for IT owned applications for ITGCs. We participate in walkthroughs hosted by KPMG or Internal Audit. We support operating effectiveness testing by KPMG and IA. Facilitate ITGC remediations along with onboarding of new applications owned by IT. We facilitate SOX UARs for systems and key reports as well as SOD reviews for key SOX financial applications.
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> How We Operate
+
+| Control Family | Control Mapping |
+| ------ | ------ |
+| Access to Programs and Data | Logical access provisioning requires approval from appropriate personnel. |
+|  |  |
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Release Calendar
 
