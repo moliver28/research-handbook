@@ -142,7 +142,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 
 ### Deliver, Train, and Monitor
 
-Please reference the [PSDM (Professional Services Delivery Methodology)](/content/handbook/customer-success/professional-services-engineering/process/psdm)
+Please reference the [PSDM (Professional Services Delivery Methodology)](../processes/_index.md) page for more information.
 
 *this also includes information on how we track/report on risk and escalated projects (via RAID), internal retrospective guidelines, tracking lessons learned, and capturing Customer and Project wins
 
