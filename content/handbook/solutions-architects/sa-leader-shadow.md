@@ -56,7 +56,7 @@ During the program, you will:
 2. Gain greater exposure to GitLab's SA people leaders and their decision making processes
 3. Work on developing the [skills required](/job-families/sales/solutions-architect/#manager-solutions-architects-responsibilities) to become an SA people leader
 
-| Skill	| Action |
+| Skill | Action |
 |-------|---------|
 | Grow A Highly Effective Team | Get [TeamOps Certified](https://university.gitlab.com/learn/course/teamops/introduction-to-teamops/introduction?client=internal-team-members) |
 | Interviewing | Complete Interview Training and Participate in one Interview and provide feedback on that interview format. |
