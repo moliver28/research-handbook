@@ -50,7 +50,6 @@ Before your scheduled rotation, try to schedule coffee chats with your as many S
 
 ## During the program
 
-
 ## Other shadow programs
 
 * [CEO Shadow Program](/handbook/ceo/shadow/)
