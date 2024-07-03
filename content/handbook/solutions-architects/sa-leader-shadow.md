@@ -1,6 +1,6 @@
 ---
-title: Solutions Architects Leader Shadow Program
-description: "Program for Solutions Architects (SA) to shadow a Solutions Architect leader."
+title: Solutions Architects People Leader Shadow Program
+description: "Program for Solutions Architects (SA) to shadow a Solutions Architect people leader."
 ---
 
 ## Overview
@@ -9,7 +9,7 @@ description: "Program for Solutions Architects (SA) to shadow a Solutions Archit
 
 ### Elegibility
 
-The SA Leader shadow program is open to all team members who complete the following:
+The SA people leader shadow program is open to all team members who complete the following:
 
 1. Complete your [Individual Growth Plan (IGP)](/handbook/people-group/learning-and-development/career-development/igp-guide)
 2. Review your IGP with your manager and discuss your desire for growing into a leadership role
@@ -42,13 +42,34 @@ Participating in the shadow program is a privilege where you will be exposed to 
 
 ### Consider adding goals
 
-Develop goals for your time as a SA Leader Shadow. To make your goals more actionable, you may want to use the [SMART goals framework](https://www.mindtools.com/pages/article/smart-goals.htm).
+Develop goals for your time as a SA People Leader Shadow. To make your goals more actionable, you may want to use the [SMART goals framework](https://www.mindtools.com/pages/article/smart-goals.htm).
 
-### Coffee chat with SA Leaders
+### Coffee chat with SA People Leaders
 
-Before your scheduled rotation, try to schedule coffee chats with your as many SA Leaders as possible before you start the program. This gives you the opportunity to get to know them before the rotation.
+Before your scheduled rotation, try to schedule coffee chats with as many SA people leaders as possible before you start the program. This gives you the opportunity to get to know them before the rotation.
 
 ## During the program
+
+During the program, you will:
+
+1. Experience a "day in the life" of an SA people leader to better gauge interest in pursuing a leadership role in the future
+2. Gain greater exposure to GitLab's SA people leaders and their decision making processes
+2. Work on developing the [skills required](/job-families/sales/solutions-architect/#manager-solutions-architects-responsibilities) to become an SA people leader
+3. Help perform short-term administrative tasks such as taking notes during a meeting and making handbook updates
+
+### Skills Developed
+
+| Skill                        	| Action                                                                                                                                                                         	|
+|------------------------------	|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Grow A Highly Effective Team 	| Get  [TeamOps Certified](https://university.gitlab.com/learn/course/teamops/introduction-to-teamops/introduction?client=internal-team-members)                                 	|
+| Interviewing                 	| Complete Interview Training and Participate in one Interview and provide feedback on that interview format.                                                                    	|
+| Retention of Personnel       	| Take feedback from the Retrospective and build an initiative around improving one aspect of the team                                                                           	|
+| Give Feedback                	| Do x number of ride alongs and provide feedback to driver using feedback.                                                                                                      	|
+| Clear Communication          	| Attend SA Leadership Meetings within your timezone and participate in note-taking                                                                                              	|
+| Guide by Example             	| Continue taking primary responsibility for your accounts and opportunities. Be litigious in recording activities via Rattle and take a proactive approach with your customers. 	|
+| Sales Strategy               	| Attend at least 3 sales forecasting calls                                                                                                                                      	|
+| Mentorship                   	| Assign yourself as a mentor                                                                                                                                                    	|
+| Personal Development         	| Identify key areas of growth and work with a mentor on growing areas in monthly cadenced meetings                                                                              	|
 
 ## Other shadow programs
 
