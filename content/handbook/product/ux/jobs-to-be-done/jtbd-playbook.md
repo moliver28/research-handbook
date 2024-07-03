@@ -52,7 +52,7 @@ This exercise involves four steps:
 
 By following these instructions, you'll systematically convert the raw data from Exercise 1 into clear, actionable Job Statements, which will be used as guides for the next steps in this JTBD process.
 
-## Investigation Interviews Job Mapping and Outcome Survey Preparation
+## Investigation Interviews, Job Mapping and Outcome Survey Preparation
 
 The goal of this phase is to understand the Job and the process used for completing it by conducting qualitative interviews with representative Job Performers. The data from these interviews will provide insights into how our product's Job Performers accomplish their tasks and will inform the next steps in building and updating our product.
 
@@ -133,7 +133,7 @@ In this last exercise, you will gather and refine Job Differentiators from your 
     - Convert each potential Job Differentiator into a properly formatted [Job Differentiator](/handbook/product/ux/jobs-to-be-done/#job-differentiators-what-are-the-factors-or-conditions-that-make-a-difference-in-how-the-job-gets-done).
     - Ensure clarity and precision in the wording to accurately reflect the key factors identified.
 
-## Outcome Survey
+## Outcomes Survey
 
 Lastly, now that you have your Job Maps and Outcomes, you need to run an [Outcome Survey](/handbook/product/UX/jobs-to-be-done/JTBD-Evaluation-Methods#Benchmarking_the_Domain) to evaluate the Main Job and Consumption Job Outcomes, establish a benchmark and assist with prioritization by identifying underserved needs.
 
