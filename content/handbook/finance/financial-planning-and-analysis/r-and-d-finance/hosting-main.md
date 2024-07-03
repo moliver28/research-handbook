@@ -2,19 +2,24 @@
 title: "Hosting"
 ---
 
-Welcome to the Hosting Handbook!
-{.h2}
+---
 
-## GCP - CUD process outline ( Testing )
+### GCP - Committed Use Discount ( CUD ) Process
 
-The GCP (Google Cloud Platform) CUD (Committed Use Discount) process involves the following steps:
+See the page [GCP CUD](https://handbook.gitlab.com/handbook/engineering/infrastructure/cost-management/gcp-cud/#gcp-cud-purchase-approval-process) page of the handbook for a full write-up of the GCP CUD process.
 
-1. **Assess your GCP resource usage**: Analyze your current and projected GCP resource usage to determine the appropriate CUD commitment level.
+Please submit a [Finance issue](https://gitlab.com/gitlab-com/Finance-Division/finance/-/issues/new) using the CUD template to request a CUD purchase and assign to Matt Dunleavy.
 
-2. **Determine the CUD commitment term**: Choose the CUD commitment term (1 year or 3 years) that best fits your GCP usage needs.
+### AWS - Savings Plan ( SP ) and Reserved Instance ( RI ) Processes
 
-3. **Purchase the CUD**: Procure the CUD commitment through the GCP Console or by working with your Google sales representative.
+Note: This page needs to be created
+See the [AWS Savings Plan](https://handbook.gitlab.com/handbook/engineering/infrastructure/cost-management/aws-savings-plan/) page of the handbook for a full write-up on the AWS Savings Plan process.
 
-4. **Monitor and optimize**: Continuously monitor your GCP resource usage and adjust your CUD commitment as needed to maximize cost savings.
+Note: This page needs to be created
+See the [AWS Reserved Instances](https://handbook.gitlab.com/handbook/engineering/infrastructure/cost-management/aws-reserved-instances/) page of the handbook for a full write-up on the AWS Reserved Instance process.
 
-By following this CUD process, you can take advantage of significant cost savings on your GCP resource usage and optimize your cloud infrastructure costs.
+Please submit a [Finance issue](https://gitlab.com/gitlab-com/Finance-Division/finance/-/issues/new) using the appropriate template (AWS Savings Plan or AWS Reserved Instance) to request a purchase and assign to Matt Dunleavy.
+
+
+
+
