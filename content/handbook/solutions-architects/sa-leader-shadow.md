@@ -54,10 +54,7 @@ During the program, you will:
 
 1. Experience a "day in the life" of an SA people leader to better gauge interest in pursuing a leadership role in the future
 2. Gain greater exposure to GitLab's SA people leaders and their decision making processes
-2. Work on developing the [skills required](/job-families/sales/solutions-architect/#manager-solutions-architects-responsibilities) to become an SA people leader
-3. Help perform short-term administrative tasks such as taking notes during a meeting and making handbook updates
-
-### Skills Developed
+3. Work on developing the [skills required](/job-families/sales/solutions-architect/#manager-solutions-architects-responsibilities) to become an SA people leader
 
 | Skill	| Action |                                                                                                                                                                      	
 |-------|---------|
