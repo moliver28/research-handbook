@@ -52,6 +52,7 @@ Jacob Waters<br>
 Justin Bisutti<br>
 Marcus Whitaker<br>
 Mohammed Al Kobaisy<br>
+Zach Hardie<br>
 </tr>
 <tr>
 <td><strong>Device Trust<br>Engineering</strong></td>
@@ -74,6 +75,7 @@ Mohammed Al Kobaisy<br>
 Adam Huss<br>
 Clayton Shank<br>
 Justin Bisutti<br>
+Zach Hardie<br>
 </tr>
 <tr>
 <td><strong>Identity<br>Engineering</strong></td>

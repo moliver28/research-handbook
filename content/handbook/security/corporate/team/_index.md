@@ -250,7 +250,26 @@ The Corporate Security department provides tech support [helpdesk services](/han
 <!-- Team Member -->
 <tr>
 <td>
-<a href="/handbook/company/team/#kimwaters"><div style="display: inline-block; vertical-align: top;"><img class="avatar" src="https://about.gitlab.com/images/gitlab-logo-extra-whitespace.png" style="max-width: 50px !important; width: 50px !important; max-height: 50px !important; height: 50px !important;" alt="Kim Waters"></div><div style="display: inline-block; vertical-align: top">Kim Waters</a><br>
+<a href="/handbook/company/team/#jbisutti-gl"><div style="display: inline-block; vertical-align: top;"><img class="avatar" src="https://about.gitlab.com/images/team/jbisutti-gl-crop.jpg" style="max-width: 50px !important; width: 50px !important; max-height: 50px !important; height: 50px !important;" alt="Justin Bisutti"></div><div style="display: inline-block; vertical-align: top">Justin Bisutti</a><br>
+<small>
+<i class="fas fa-earth-americas" style="padding-right: 5px;"></i>AMER<br>
+<i class="fas fa-address-card" style="padding-right: 5px;"></i><code>jbisutti</code><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/jbisutti-gl">@jbisutti-gl</a>
+</small>
+</td>
+<td><small>
+<i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_eng_device_trust</code><br>
+<i class="fas fa-address-card" style="padding-right: 5px;"></i><code>corpsec_eng_saas</code>
+</small></td>
+<td><small>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/device-trust">@gitlab-com/gl-security/corp/team/device-trust</a><br>
+<i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/team/saas">@gitlab-com/gl-security/corp/team/saas</a><br>
+</small></td>
+</tr>
+<!-- Team Member -->
+<tr>
+<td>
+<a href="/handbook/company/team/#kimwaters"><div style="display: inline-block; vertical-align: top;"><img class="avatar" src="https://about.gitlab.com/images/team/kimwaters-crop.jpg" style="max-width: 50px !important; width: 50px !important; max-height: 50px !important; height: 50px !important;" alt="Kim Waters"></div><div style="display: inline-block; vertical-align: top">Kim Waters</a><br>
 <small>
 <i class="fas fa-earth-americas" style="padding-right: 5px;"></i>AMER<br>
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>kwaters</code><br>
@@ -323,7 +342,7 @@ N/A
 <!-- Team Member -->
 <tr>
 <td>
-<a href="/handbook/company/team/#mrohr-ext"><div style="display: inline-block; vertical-align: top;"><img class="avatar" src="https://about.gitlab.com/images/gitlab-logo-extra-whitespace.png" style="max-width: 50px !important; width: 50px !important; max-height: 50px !important; height: 50px !important;" alt="Mic Rohr"></div><div style="display: inline-block; vertical-align: top">Mic Rohr</a><br>
+<a href="/handbook/company/team/#mic_rohr"><div style="display: inline-block; vertical-align: top;"><img class="avatar" src="https://about.gitlab.com/images/team/mic_rohr-crop.jpg" style="max-width: 50px !important; width: 50px !important; max-height: 50px !important; height: 50px !important;" alt="Mic Rohr"></div><div style="display: inline-block; vertical-align: top">Mic Rohr</a><br>
 <small>
 <i class="fas fa-earth-americas" style="padding-right: 5px;"></i>AMER<br>
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>mrohr</code><br>
@@ -442,10 +461,10 @@ N/A
 <!-- Team Member -->
 <tr>
 <td>
-<a href="/handbook/company/team/#zhardy"><div style="display: inline-block; vertical-align: top;"><img class="avatar" src="https://about.gitlab.com/images/gitlab-logo-extra-whitespace.png" style="max-width: 50px !important; width: 50px !important; max-height: 50px !important; height: 50px !important;" alt="Zach Hardy"></div><div style="display: inline-block; vertical-align: top">Zach Hardy</a><br>
+<a href="/handbook/company/team/#zhardie1"><div style="display: inline-block; vertical-align: top;"><img class="avatar" src="https://about.gitlab.com/images/team/zackhardie-crop.jpg" style="max-width: 50px !important; width: 50px !important; max-height: 50px !important; height: 50px !important;" alt="Zach Hardie"></div><div style="display: inline-block; vertical-align: top">Zach Hardie</a><br>
 <small>
 <i class="fas fa-earth-americas" style="padding-right: 5px;"></i>AMER<br>
-<i class="fas fa-address-card" style="padding-right: 5px;"></i><code>zhardy</code><br>
+<i class="fas fa-address-card" style="padding-right: 5px;"></i><code>zhardie</code><br>
 <i class="fa-brands fa-gitlab" style="padding-right: 5px;"></i><a target="_blank" href="https://gitlab.com/zhardie1">@zhardie1</a>
 </small>
 </td>
@@ -472,8 +491,8 @@ CORPSEC_SVC_HELPDESK["<b>Helpdesk Services</b><br><i><b>Manager:</b> Michael Bel
 CORPSEC_SVC_LOGISTICS["<b>Logistics Services (Laptops)</b><br><i><b>Manager:</b> Michael Beltran</i><br><i><b>Analysts:</b> Mic Rohr</i>"]:::emerald
 CORPSEC_SVC_INFRA["<b>Infrastructure Services</b><br><i><b>Program Manager:</b> Jeff Martin</i><br><i><b>Engineers:</b> Mohammed Al Kobaisy (EMEA)<br>Vlad Stoianovici (EMEA)"]:::emerald
 
-CORPSEC_ENG_SAAS["<b>(Corporate) SaaS Engineering</b><br><i><b>Eng Managers:</b> David, Eric</i><br><i><b>Program Manager:</b> Kim Waters</i><br><i><b>Staff Engineer:</b> Mark Loveless</i><br><i><b>Engineers:</b> Adam, Clayton, Erik,<br> Jacob, Justin, Marcus, Mohammed</i><br><br>1Password<br>GitLab.com IAM Policies<br>Google Drive<br>Google Workspace<br>Nira<br>Okta Configuration<br>Service Accounts<br>Slack<br>Zoom"]:::fuchsia
-CORPSEC_ENG_DEVICE["<b>Device Trust Engineering</b><br><i><b>Eng Manager:</b> Eric Rubin</i><br><i><b>Program Manager:</b> Kim Waters</i><br><i><b>Staff Engineer:</b> Mark Loveless</i><br><i><b>Engineers:</b> Adam, Clayton, Justin</i><br><br>DriveStrike<br>Jamf MDM<br>Mobile Devices<br>NordLayer VPN<br>Okta Verify<br>SentinelOne EDR<br>Software Version Updates<br>YubiKey"]:::fuchsia
+CORPSEC_ENG_SAAS["<b>(Corporate) SaaS Engineering</b><br><i><b>Eng Managers:</b> David, Eric</i><br><i><b>Program Manager:</b> Kim Waters</i><br><i><b>Staff Engineer:</b> Mark Loveless</i><br><i><b>Engineers:</b> Adam, Clayton, Erik,<br> Jacob, Justin, Marcus, Mohammed, Zach</i><br><br>1Password<br>GitLab.com IAM Policies<br>Google Drive<br>Google Workspace<br>Nira<br>Okta Configuration<br>Service Accounts<br>Slack<br>Zoom"]:::fuchsia
+CORPSEC_ENG_DEVICE["<b>Device Trust Engineering</b><br><i><b>Eng Manager:</b> Eric Rubin</i><br><i><b>Program Manager:</b> Kim Waters</i><br><i><b>Staff Engineer:</b> Mark Loveless</i><br><i><b>Engineers:</b> Adam, Clayton, Justin, Zach</i><br><br>DriveStrike<br>Jamf MDM<br>Mobile Devices<br>NordLayer VPN<br>Okta Verify<br>SentinelOne EDR<br>Software Version Updates<br>YubiKey"]:::fuchsia
 CORPSEC_ENG_IDENTITY["<b>Identity Engineering</b><br><i><b>Eng Manager:</b> David Zhu</i><br><i><b>Program Manager:</b> Kim Waters</i><br><i><b>Staff Engineer:</b> Jeff Martin</i><br><i><b>Engineers:</b> Erik, Jacob,<br>Marcus, Mohammed</i><br><br>ABAC and RBAC<br>AuthN and AuthZ Policies<br>Identity Governance (IGA)<br>No Code Automation<br>Onboarding<br>Offboarding<br>Role Entitlements"]:::fuchsia
 CORPSEC_ENG_INFRA["<b>Infrastructure Engineering</b><br><i><b>Program Manager:</b> Jeff Martin</i><br><i><b>Engineers:</b> Mohammed, Vlad<br><br>ARs and IAM (AWS/GCP)<br>Amazon Web Services (AWS)<br>Azure<br>Billing and Cost Mgmt<br>Domains and DNS<br>Google Cloud (GCP)<br>Multi-Tenant Org Architecture<br>Sandbox Cloud<br>Secrets Mgmt Platform<br>Tech Debt Cleanup<br>Teleport Bastion"]:::fuchsia
 CORPSEC_ENG_PLATFORM["<b>Platform Engineering</b><br><i><b>Program Manager:</b> David Zhu</i><br><i><b>Staff Engineer:</b> Jeff Martin</i><br><i>(+ contributors per project)</i><br><br>accesschk (IAM/RBAC)<br>accessctl (IAM/RBAC)<br>demosys (IAM/RBAC/Infra)<br>hackystack (Infra)<br>provisionesta (API/Auditlog)<br>Systems Handbook<br>trainingctl (Student IAM)<br>Terraform (Config Mgmt)"]:::fuchsia
@@ -536,7 +555,7 @@ AHUSS["Adam Huss"]:::fuchsia
 CSHANK["Clayton Shank"]:::fuchsia
 ERUBIN["Eric Rubin<br>Manager<br>(Device Trust and SaaS)"]:::orange
 JBISUTTI["Justing Bisutti"]:::fuchsia
-ZHARDY["Zach Hardy"]:::fuchsia
+ZHARDIE["Zach Hardie"]:::fuchsia
 end
 
 subgraph "Identity, Infrastructure, Platform, and SaaS Engineering"
