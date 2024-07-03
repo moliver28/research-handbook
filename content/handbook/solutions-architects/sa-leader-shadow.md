@@ -5,6 +5,16 @@ description: "Program for Solutions Architects (SA) to shadow a Solutions Archit
 
 ## Overview
 
+The SA people leader shadow program is an immersive quarterly assignment where team members can apply to shadow a SA people leader.
+
+### Program Goals
+
+- Allow team members to experience a "day in the life" of an SA people leader to better gauge interest in pursuing a leadership role in the future
+- Give SAs serving in individual contributor roles greater exposure to GitLab's SA people leaders and their decision making processes to increase awareness of those decision making processes
+- Enlist a larger group of people to help drive and inform key initiatives
+- Foster transparency, diversity, inclusion, and belonging within the SA organization
+- Develop the next generation of SA people Leaders
+
 ## Participating in the program
 
 ### Elegibility
@@ -58,12 +68,12 @@ During the program, you will:
 
 | Skill | Action |
 |-------|---------|
-| Grow A Highly Effective Team | Get [TeamOps Certified](https://university.gitlab.com/learn/course/teamops/introduction-to-teamops/introduction?client=internal-team-members) |
-| Interviewing | Complete Interview Training and Participate in one Interview and provide feedback on that interview format. |
-| Retention of Personnel | Take feedback from the Retrospective and build an initiative around improving one aspect of the team |
-| Give Feedback | Do x number of ride alongs and provide feedback to driver using feedback. |
+| Grow a Highly Effective Team | Get [TeamOps Certified](https://university.gitlab.com/learn/course/teamops/introduction-to-teamops/introduction?client=internal-team-members) |
+| Interviewing | Complete [Interview Training](https://university.gitlab.com/learn/course/interviewer-training), participate in one interview, and provide feedback on that interview format |
+| Retention of Personnel | Take feedback from the Retrospective, prepare the QBR Retrospective Slide for your given team and lead the discussion on that slide, and build an initiative around improving one aspect of the team |
+| Give Feedback | Do 5 number of ride alongs and provide feedback to driver using feedback |
 | Clear Communication | Attend SA Leadership Meetings within your timezone and participate in note-taking |
-| Guide by Example | Continue taking primary responsibility for your accounts and opportunities. Be litigious in recording activities via Rattle and take a proactive approach with your customers. |
+| Guide by Example | Continue taking primary responsibility for your accounts and opportunities. Be litigious in recording activities via Rattle and take a proactive approach with your customers |
 | Sales Strategy | Attend at least 3 sales forecasting calls |
 | Mentorship | Assign yourself as a mentor |
 | Personal Development | Identify key areas of growth and work with a mentor on growing areas in monthly cadenced meetings |
