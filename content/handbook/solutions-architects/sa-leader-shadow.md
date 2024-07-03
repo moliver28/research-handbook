@@ -80,5 +80,5 @@ During the program, you will:
 
 ## Other shadow programs
 
-* [CEO Shadow Program](/handbook/ceo/shadow/)
-* [CFO Shadow Program](/handbook/finance/growth-and-development/cfo-shadow-program/)
+- [CEO Shadow Program](/handbook/ceo/shadow/)
+- [CFO Shadow Program](/handbook/finance/growth-and-development/cfo-shadow-program/)
