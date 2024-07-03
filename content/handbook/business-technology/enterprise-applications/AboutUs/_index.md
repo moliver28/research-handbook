@@ -64,8 +64,16 @@ We are the single point of contact for IT owned applications for ITGCs. We parti
 | Control Family | Control Mapping |
 | ------ | ------ |
 | Access to Programs and Data | Logical access provisioning requires approval from appropriate personnel. |
-|  |  |
-
-## <i class="fas fa-users" id="biz-tech-icons"></i> Release Calendar
-
-## <i class="fas fa-users" id="biz-tech-icons"></i> Sprint Schedule
+| Access to Programs and Data | Terminated users have their access revoked in a timely manner. |
+| Access to Programs and Data | GitLab access reviews are performed on a quarterly basis; research and corrective action is taken where applicable. |
+| Access to Programs and Data | The ability to add, modify, and delete accounts is limited to appropriate personnel. |
+| Access to Programs and Data | Authentication to in-scope systems is configured in line with the password policy. Exemptions to the policy are formally approved. |
+| Change Management | Access to migrate changes to production is limited to appropriate personnel. |
+| Change Management | Changes are tested and approved by appropriate personnel in accordance with the change management policy. |
+| Computer Operations | Access to modify relevant jobs is restricted to appropriate personnel. |
+| Computer Operations | Jobs are monitored to ensure effective ongoing operation. Issues are researched and resolved in a timely manner. |
+| Computer Operations | Backups are completed according to a predefined system schedule. |
+| Computer Operations | GitLab performs backup restoration or failover tests at least annually to confirm the reliability and integrity of system backups or recovery operations. |
+| Program Development | Significant program changes are tested and known issues are communicated to the relevant stakeholders prior to approval. |
+| Program Development | GitLab validates that data transferred during an applicable program change is complete and accurate. |
+| SOC reports review | SOC reports are reviewed on a periodic basis. |
