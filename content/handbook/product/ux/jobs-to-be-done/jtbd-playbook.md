@@ -1,14 +1,14 @@
 ---
-title: How we do JTBD research at GitLab (A Playbook)
-description: >-
-  GitLab follows a series of steps and exercises to discover and develop Job Canvases from basic assumptions all the way to validated and ranked Desired Outcomes and opportunities.
+title: The GitLab JTBD Playbook
+description: >- 
+The JTBD playbook is a comprehensive, step-by-step guide to help teams effectively apply the JTBD framework. It guides you from initial assumptions to prioritized user desired outcomes, providing a solid foundation and collaborative research tools.
 ---
 
-The playbook guides teams from initial assumptions to prioritized user Desired Outcomes. This process builds confidence that you're tackling the right problems at the right time. The handbook offers a JTBD foundation and collaborative research tools. Leverage in-house UX expertise for deeper guidance.
+The playbook will ensure you tackle the right problems at the right time by focusing on the critical question: **What outcomes are you trying to influence?**.
 
-Use this playbook to complete your JTBD canvases and come away with measured Outcomes to guide your teams strategy for years to come. For more information on each part of the canvas, refer to [anatomy of a JTBD canvas](/handbook/product/ux/jobs-to-be-done/#anatomy-of-a-jtbd-canvas).
+If this is your first time going through the playbook, it's recommended to review [what JTBD is and the main concepts](/handbook/product/ux/jobs-to-be-done/) before getting started.
 
-This page covers the _how_ of Jobs to be Done. For more on _what_ Jobs to be Done _is_, head over to the [main page](/handbook/product/ux/jobs-to-be-done/).
+We've included a [JTBD Canvas](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1) (Figma) to help teams collaboratively navigate each step.
 
 #### A Note on Time, Confidence, and Validation
 

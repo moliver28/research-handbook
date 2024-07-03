@@ -3,18 +3,20 @@ title: Jobs to be Done at GitLab
 description: JTBD is a practical framework for understanding customers' desired outcomes.
 ---
 
-Customers purchase products and services to get a Job done. This principle is at the core of Jobs-to-be-Done (JTBD) Theory. JTBD is a practical framework for understanding customers' desired outcomes. It shifts the focus from the solution to the problem the user is attempting to solve and the outcome they aim to achieve. This clarity enables you to ask the right question: **What outcome are you trying to influence**?
+We use Jobs-to-be-Done (JTBD) to achieve a deeper understanding of our customers and the underlying job they're trying to accomplish. Though JTBD can be applied in various ways, we use our own interpretation that fits our design process. We leverage the framework for "categorizing, defining, capturing, and organizing customers' needs, and tying customer-defined performance metrics (in the form of desired outcome statements) to the JTBD" (Ulrick).
 
-_The Jobs-to-be-done (JTBD) Theory provides a framework for categorizing, defining, capturing, and organizing all your customers' needs and tying customer-defined performance metrics (in the form of desired outcome statements) to the job-to-be-done. - Anthony Ulwick, Jobs-to-be-done, Theory to Practice, 2023._
-
->🔗 Reference guide: [JTBD topics and definitions](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions)
+At it's core, we focus on asking: **What outcome are you trying to influence?**
 
 ## Framework Overview
 
-1. **[Define the Job:](/handbook/product/ux/jobs-to-be-done/jtbd-playbook)** The first step of the JTBD framework is to understand who your [Job Performers](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Performers) are and the [Jobs](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-types) they are responsible for in your [Domain](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#domain). This step lays the groundwork for the rest of the framework upon which all activities rely.
-2. **[Uncover Needs:](/handbook/product/ux/jobs-to-be-done/jtbd-playbook)** After defining the [Jobs](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-types) in your [Domain](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#domain), the next step is to draft [Outcomes statements](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Outcome-statements). These will be used to benchmark the experience, evaluate solutions, and prioritize future efforts.
-3. **[Quantify Outcomes:](/handbook/product/ux/jobs-to-be-done/jtbd-playbook/#Exercise-2:-Synthesize-Outcomes)** The next step in the process is to understand how well your customers' needs are met with the current experience. This is akin to benchmarking and will result in a quantitative analysis of all your [Outcomes](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Outcomes) and the degree to which they are being met.
-4. **Evaluate Solutions:** Once you establish a benchmark for your [Outcomes](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Outcomes), you will continually refer to them as you create and validate solutions, checking to see if you have made a significant impact.
+Here are the key steps to apply the JTBD framework:
+
+1. **[Define the Job:](/handbook/product/ux/jobs-to-be-done/jtbd-playbook)** Understand who your [Job Performers](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Performers) are and the [Jobs](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-types) they are responsible for in your [Domain](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#domain).
+1. **[Uncover Needs:](/handbook/product/ux/jobs-to-be-done/jtbd-playbook)** Draft [Outcomes statements](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Outcome-statements) to baseline the experience, evaluate solutions, and prioritize future efforts.
+1. **[Quantify Outcomes:](/handbook/product/ux/jobs-to-be-done/jtbd-playbook/#Exercise-2:-Synthesize-Outcomes)** Conduct a quantitative analysis to understand how well the current experience meets customers needs. Baseline the [Outcomes](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Outcomes) for their effectiveness.
+1. **Evaluate Solutions:** Continually refer to the baselines outcomes when creating and validating solutions to ensure significant impact on meeting customer needs.
+
+For a step-by-step process, follow the [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook).
 
 ## Core Concepts
 
@@ -64,7 +66,7 @@ Using [Outcomes](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#
 - **Benchmarking:** Evaluate the Main Job and Consumption Job Outcomes to establish a benchmark and assist with prioritization by identifying underserved needs.
 - **Solution Evaluation** Evaluate how your solution improves the targeted Outcome(s), using the established benchmark as reference.
 
-## Jobs Gitlab helps get done
+## Jobs GitLab helps get done
 
 ### Main jobs
 
@@ -72,6 +74,7 @@ _placeholder for jtbd-yml file_
 
 ## Reference Material
 
+- [JTBD topics and definitions](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions)
 - [Jobs to be Done Playbook by Jim Kalbach](https://rosenfeldmedia.com/books/jobs-to-be-done-book/)
 - [Jobs to be Done by Anthony Ulwick](https://jobs-to-be-done-book.com/)
 - [Competing Against Luck by Clay Christenson](https://www.amazon.com/dp/0062435612/ref=cm_sw_em_r_mt_dp_U_v0k9Eb92AEDZX)
