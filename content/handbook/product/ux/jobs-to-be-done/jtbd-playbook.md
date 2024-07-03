@@ -1,7 +1,7 @@
 ---
 title: The GitLab JTBD Playbook
 description: >- 
-The JTBD playbook is a comprehensive, step-by-step guide to help teams effectively apply the JTBD framework. It guides you from initial assumptions to prioritized user desired outcomes, providing a solid foundation and collaborative research tools.
+  The JTBD playbook is a comprehensive, step-by-step guide to help teams effectively apply the JTBD framework. It guides you from initial assumptions to prioritized user desired outcomes, providing a solid foundation and collaborative research tools.
 ---
 
 The playbook will ensure you tackle the right problems at the right time by focusing on the critical question: **What outcomes are you trying to influence?**.
