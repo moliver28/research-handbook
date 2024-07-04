@@ -341,7 +341,7 @@ or for a group:
 /chatops run feature set expanded_ai_logging true --group=GROUP_ID
 ```
 
-1. Inform the user or group admin that logging will be automatically disabled after 24 hours.
+1. Inform the user or group admin that logging will be disabled after 24 hours.
 1. Investigate the issue using the expanded logging data.
 1. Once the investigation is complete or after 24 hours (whichever comes first), disable the feature flag:
 
