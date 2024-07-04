@@ -15,7 +15,19 @@ This page is part of the Sales Development team's handbook [page](/handbook/mark
     **No:** It is worked by the SDR team <br>
     **Yes:** Check the BDR Prospecting Status
 
-2. Is the Account in "Actively Working" Status?
+1. Is the Account an existing customer?
+
+**No:** Move on to the next step
+**Yes:** Is there an existing renewal opportunity?
+
+**Next Steps:** If yes, align with the sales [RoE for renewals](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#crediting--splits) and check whether the lead is involved in an upcoming renewal, check in with the Account Executive and your Regional Manager to determine what's the best course of action for this person. 
+
+Some outcomes could be:
+
+- Consider converting the person to the account as a contact and notify the AE team.
+- Move on to the the next step of this guide and consider adding the account to your growth OB pipeline.
+
+2. Is the Account in “Actively Working” Status?
 
     **No:** It is worked by the SDR team <br>
     **Yes:** Check for Activity
