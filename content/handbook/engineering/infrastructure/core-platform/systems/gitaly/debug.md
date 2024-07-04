@@ -103,7 +103,7 @@ The query uses [PromQL](https://prometheus.io/docs/prometheus/latest/querying/ba
 - [hyperfine](https://github.com/sharkdp/hyperfine): a performance tool that can benchmarks over time
   - hyperfine can be used together with grpcurl to check the response time of a gPRC call
 
-#### strace
+### strace
 
 `strace(1)` a gitaly process:
 
