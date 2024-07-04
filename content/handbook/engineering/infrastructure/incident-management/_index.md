@@ -326,9 +326,9 @@ For AI-related incidents that require detailed logging for debugging purposes, w
 
 1. The incident should be declared following the standard [Reporting an Incident](#reporting-an-incident) process.
 1. If detailed logging is required for debugging, the Incident Manager or EOC should:
-  - Inform the user or group admin that expanded logging is needed for debugging.
-  - Obtain explicit consent from the user or group admin to enable detailed logging.
-  - Use chatops to enable the `expanded_ai_logging` feature flag for the specific user or group.
+      - Inform the user or group admin that expanded logging is needed for debugging.
+      - Obtain explicit consent from the user or group admin to enable detailed logging.
+      - Use chatops to enable the `expanded_ai_logging` feature flag for the specific user or group.
 1. Enable the feature flag using the following chatops command:
 
 ```bash
