@@ -320,6 +320,45 @@ of the above roles.
 
 **In the event of a GitLab.com outage**, a mirror of the runbooks repository is available on at https://ops.gitlab.net/gitlab-com/runbooks.
 
+## Opt-In Logging for AI-Related Debugging
+
+For AI-related incidents that require detailed logging for debugging purposes, we have implemented an opt-in feature flag system to ensure customer privacy and consent. This process should be followed when investigating AI-related issues that require access to detailed logs:
+
+1. The incident should be declared following the standard [Reporting an Incident](#reporting-an-incident) process.
+2. If detailed logging is required for debugging, the Incident Manager or EOC should:
+   a. Inform the user or group admin that expanded logging is needed for debugging.
+   b. Obtain explicit consent from the user or group admin to enable detailed logging.
+   c. Use chatops to enable the `expanded_ai_logging` feature flag for the specific user or group.
+
+3. Enable the feature flag using the following chatops command:
+   ```
+   /chatops run feature set expanded_ai_logging true --user=USER_ID
+   ```
+   or for a group:
+   ```
+   /chatops run feature set expanded_ai_logging true --group=GROUP_ID
+   ```
+
+4. Inform the user or group admin that logging will be automatically disabled after 24 hours.
+5. Investigate the issue using the expanded logging data.
+6. Once the investigation is complete or after 24 hours (whichever comes first), disable the feature flag:
+   ```
+   /chatops run feature set expanded_ai_logging false --user=USER_ID
+   ```
+   or for a group:
+   ```
+   /chatops run feature set expanded_ai_logging false --group=GROUP_ID
+   ```
+
+7. Update the incident issue with any findings from the expanded logging, ensuring no sensitive data is included in the public issue.
+8. If any sensitive data was collected during the expanded logging period, ensure it is properly handled and deleted according to our data retention policies.
+
+Remember:
+
+- Expanded logging should only be enabled with explicit customer consent.
+- Logging should be disabled as soon as the investigation is complete, or automatically after 24 hours.
+- Group-level opt-outs take precedence over individual user opt-ins. If a group has opted out, no individual user within that group can enable expanded logging.
+
 ## Who is the Current EOC?
 
 Use the `@sre-oncall` handle to check who the current EOC is
