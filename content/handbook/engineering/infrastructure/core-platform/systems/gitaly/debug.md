@@ -34,7 +34,7 @@ We have some useful pre-built monitoring dashboards on GitLab's internal Grafana
 The following dashboards are most common:
 
 - [Gitaly: Overview](https://dashboards.gitlab.net/d/gitaly-main/gitaly3a-overview?orgId=1&var-PROMETHEUS_DS=default&var-environment=gprd&var-stage=main). This dashboard contains cluster-wide aggregated metrics. It is used to determine the overall health of the cluster and make it easy to spot any outlier node.
-- [Gitaly: Host details](https://dashboards.gitlab.net/d/gitaly-main/gitaly3a-overview?orgId=1&var-PROMETHEUS_DS=default&var-environment=gprd&var-stage=main). This dashboard contains more detailed metrics of a particular node.
+- [Gitaly: Host details](https://dashboards.gitlab.net/d/gitaly-host-detail/gitaly3a-host-detail?orgId=1). This dashboard contains more detailed metrics of a particular node.
 - [Gitaly Housekeeping statistics](https://dashboards.gitlab.net/d/Z2xwZIP7k/gitaly-housekeeping-statistics?orgId=1&refresh=5m). This dashboard shows detailed operational information of [Gitaly housekeeping feature](https://docs.gitlab.com/ee/administration/housekeeping.html).
 - [Gitaly: Rebalance dashboard](https://dashboards.gitlab.net/d/gitaly-rebalancing/gitaly3a-rebalance-dashboard?from=now-6h%2Fm&to=now%2Fm&var-PROMETHEUS_DS=default&var-environment=gprd&var-fqdn=gitaly-cny-01-stor-gprd.c.gitlab-production.internal&orgId=1): This dashboard shows the relative balance between Gitaly nodes. It is used to determine when we need to relocate the repositories of a node to others.
 
