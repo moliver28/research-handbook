@@ -107,9 +107,25 @@ The call is recorded to the [Infrastructure Platforms Leads Demo Unfiltered Play
 While the intention is for the call to be made public on GitLab Unfiltered, the default is for it to be published as private.
 At the end of the call, a quick vote is held between the attendees and if all agree that the content is #SAFE, it can be published as public.
 
+### Inbound Support Requests
+
+We provide support to internal teams regarding the production platforms.
+
+Any team member outside of SaaS Platforms who requires support can add a message to the [#saas-platforms-help](https://gitlab.slack.com/archives/CB3LSMEJV) Slack channel.
+
+This channel is triaged by the person currently listed in the Pager Duty Schedule called [SaaS Platforms Help](https://gitlab.pagerduty.com/schedules/PIECG9N).
+
+The Pager Duty Schedule lists each Engineering Manager in Production Engineering and Scalability. Delivery have been excluded because of their Release Manager duties. Dedicated are not included as they have their own triage mechanisms. The Engineering Manager in the schedule should create overrides to rotate the responsibility for triage between each member of their teams, including the EM themselves.
+
+When on triage rotation, the expectation is to respond to each message in the Slack channel within 24 hours up until the close of that team members working day on the Friday. When the triage rotation changes on Monday, the incoming team member should handle questions that have come in from Friday evening through the weekend.
+
+This person is expected to look at every message and perform one of the following actions:
+1. For quick questions that they can answer, they should provide the answer.
+2. For questions they cannot answer, or questions that will cause a larger conversation, they should ping the Engineering Manager from the appropriate SaaS Platforms team, and it becomes the EMs responsibility to find the answer. The EM can also choose to use the Issue Tracker Integration to create an issue from the request.
+
 ### Slack to GitLab Issue Tracker Integration
 
-In an effort to enhance the tracking and resolution of requests directed to the Infrastructure team, we are evaluating a bot that converts Slack messages in [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV) channel into GitLab issues.
+In an effort to enhance the tracking and resolution of requests directed to the Infrastructure team, we are evaluating a bot that converts Slack messages in [#saas-platforms-help](https://gitlab.slack.com/archives/CB3LSMEJV) channel into GitLab issues.
 
 #### Workflow Overview
 
@@ -117,7 +133,7 @@ In an effort to enhance the tracking and resolution of requests directed to the 
 - **Issue Creation**: The Slack bot then creates an issue with the acknowledging agent assigned to it.
 - **Thread Attachment**: The Slack thread corresponding to the message is also posted on the created GitLab issue.
 - **Label Assignment**: Agents can further categorize issues by adding label emojis (`ops`, `foundations`, `scalability-observability` or `scalability-practices`) in the Slack message. This action automatically assigns the issue to the respective team: Ops, Foundations, Scalability-Observability or Scalability-Practices.
-- **Project Tracking**: These converted issues are tracked under a dedicated project hosted at [Infrastructure Lounge Slack Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker).
+- **Project Tracking**: These converted issues are tracked under a dedicated project hosted at [SaaS Platforms Help Slack Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/saas-platforms-help-slack-issue-tracker).
 - **Issue Closure**: Agents/Requester can close the issue when resolved by adding any of the `resolved_emojis` (`green-circle-check`,`white_check_mark`or `checked`in our case)
 
 #### Configuration
