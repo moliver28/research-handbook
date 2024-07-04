@@ -120,6 +120,7 @@ The Pager Duty Schedule lists each Engineering Manager in Production Engineering
 When on triage rotation, the expectation is to respond to each message in the Slack channel within 24 hours up until the close of that team members working day on the Friday. When the triage rotation changes on Monday, the incoming team member should handle questions that have come in from Friday evening through the weekend.
 
 This person is expected to look at every message and perform one of the following actions:
+
 1. For quick questions that they can answer, they should provide the answer.
 2. For questions they cannot answer, or questions that will cause a larger conversation, they should ping the Engineering Manager from the appropriate SaaS Platforms team, and it becomes the EMs responsibility to find the answer. The EM can also choose to use the Issue Tracker Integration to create an issue from the request.
 
