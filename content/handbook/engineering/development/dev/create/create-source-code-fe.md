@@ -89,6 +89,8 @@ To prevent the creation of knowledge silos and also receiving input from people 
 
 **MRs important to the team:** these are changes to logic in our apps or meaningful component changes. Sequential work in a larger epic is also beneficial to have oversight from peers within the team. But bottom line, use your best judgement.
 
+{{% include "includes/engineering/create/conventional-comments.md" %}}
+
 ### Capacity planning
 
 {{% include "includes/engineering/create/capacity-planning-fe.md" %}}
