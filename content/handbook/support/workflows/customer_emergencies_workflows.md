@@ -167,7 +167,7 @@ If at any point you would like advice or help finding additional support, [conta
 In rare cases, the on-call engineer may experience concurrent emergencies triggered by separate customers. If this happens to you, please remember that you are not alone; you need only take the first step in the following process to ensure proper engagement and resolution of each emergency:
 
 1. **You**: [Contact the on-call Support Manager](/handbook/support/on-call/#paging-the-on-call-manager) to inform them of the new incoming emergency. The Support Manager is responsible for finding an engineer to own the new emergency page.
-1. **Support Manager**: In Slack, ping the regional support group (*e.g.* `@support-team-americas`) and request assistance from anyone who is available to assist with the new incoming emergency case.
+1. **Support Manager**: In Slack, ping the regional support group (*for example:* `@support-team-americas`) and request assistance from anyone who is available to assist with the new incoming emergency case.
 1. **Second Support Engineer**: Acknowledge and resolve the emergency page to indicate that you are assisting the customer with the case.
 
 #### Incident-related emergencies
@@ -176,17 +176,17 @@ If multiple emergencies are caused by an active incident, then you'll work toget
 
 **Communication channels and status tracking**
 
-The CMOC will ensure that a Support Readiness Issue is available and used as the SSOT to track status and our progress related to the incident. Slack is useful for real-time discussion and organisation around tasks, but the Readiness issue should be used to document any relevant information that helps team members easily get up to speed and start contributing.    
+The CMOC will ensure that a Support Readiness Issue is available and used as the SSOT to track status and our progress related to the incident. Slack is useful for real-time discussion and organisation around tasks, but the Readiness issue should be used to document any relevant information that helps team members easily get up to speed and start contributing.
 
 When discussing a ticket in Slack, ensure to keep the thread focused on that specific ticket. Since incident-related tickets will have a lot of similarities, it is tempting to discuss other tickets in the same thread, however, this can quickly lead to confusion when multiple tickets are being troubleshooted at the same time.
 
 **Workflow creation**
 
-As these tickets are being handled and discussed, we will organically develop ad-hoc workflows and repeatable troubleshooting steps which can be used to address other tickets. Ensure that the workflows and troubleshooting steps are documented in the Support Readiness Issue. Keep the issue updated as the workflows and troubleshooting steps evolve. 
+As these tickets are being handled and discussed, we will organically develop ad-hoc workflows and repeatable troubleshooting steps which can be used to address other tickets. Ensure that the workflows and troubleshooting steps are documented in the Support Readiness Issue. Keep the issue updated as the workflows and troubleshooting steps evolve.
 
 **Knowledge sharing and cross-region collaboration**
 
-As you learn and understand more about addressing the tickets, share useful information and tips on the Readiness issue to make it easier for other engineers to onboard and help with the tickets. 
+As you learn and understand more about addressing the tickets, share useful information and tips on the Readiness issue to make it easier for other engineers to onboard and help with the tickets.
 
 Review the Readiness issue at the end of your shift and share any learnings or information that could help the next shift with ticket handling. Here is an example:
 
@@ -198,7 +198,7 @@ If a Support tool or workflow is built which requires or uses elevated permissio
 
 **Incident checklist**
 
-Role-specific tasks are documented in the incident checklist. The incident checklist is a supplemental tool to help the CEOC, CMOC, and SMOC organise tasks relating to the incident.
+Role-specific tasks are documented in the incident checklist. The incident checklist is a supplemental tool to help the CEOC, CMOC, and SMOC organize tasks relating to the incident.
 
 #### Backup engineers on weekends in APAC
 

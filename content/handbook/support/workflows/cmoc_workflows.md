@@ -331,16 +331,16 @@ While in the `Manage Incident` stage, routinely monitor Zendesk for new and exis
 created>4hours order_by:created_at sort:desc group:none group:"support" -form:billing -form:security
 ```
 
-Adjust the `4` if the incident began earlier than four hours ago. 
+Adjust the `4` if the incident began earlier than four hours ago.
 
-If the volume of tickets are high, reach out to the Support Manager On Call to arrange for volunteers to help respond to tickets.
+If the volume of tickets are high, work together with the CMOC and SMOC to arrange volunteers to help address the tickets.
 
 #### Support Readiness Issue
 
 If this incident is the result of a feature change or bug, proceed to:
 
 1. Create a Support Readiness issue (if one does not exist).
-1. Update the issue with incident information, including timeline, impact to ticket volume, and any additional work Support is doing to respond to customers via tickets.
+1. Update the issue with incident information, including timeline, impact to ticket volume, and any additional work Support is doing to respond to customers in tickets.
 1. Tag the Engineering Manager and Product Manager of the related feature to give them visibility for the impact of the change or bug.
 
 If there is an ad-hoc workflow or troubleshooting steps a Support Engineer should take to respond to a customer, document this in the Readiness issue and ensure the section stays up to date so that new volunteers can onboard quickly and start assisting with tickets.
