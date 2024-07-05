@@ -9,16 +9,13 @@ Welcome to the R&D Finance Handbook!
 
 Ellen Boyd, Director, FP&A @eboyd1
 
-| Department | Name |
+| Division/Department | Name |
 | -------- | ---- |
-| Development | @JessSmith |
-| UX | @JessSmith |
-| Security | @cam.smith |
-| Infrastructure and Quality | @rtaira |
-| Hosting | @rtaira |
-| Incubation Engineering | @JessSmith |
-| Product Management | @JessSmith |
-| Customer Support | @rtaira |
+| Engineering | Jess Smith (@JessSmith), Petra Foget (@pfoget) |
+| Product & UX | Jess Smith (@JessSmith), Petra Foget (@pfoget)  |
+| Security | Petra Foget (@pfoget) |
+| Hosting | Matt Dunleavy (@mdunleavy), Pranoti Thote (@pthote) |
+| Customer Support | Pranoti Thote (@pthote)  |
 
 @eboyd1 can approve Coupa and Greenhouse Reqs as needed for Finance Business Partners.
 
