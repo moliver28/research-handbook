@@ -170,6 +170,36 @@ In rare cases, the on-call engineer may experience concurrent emergencies trigge
 1. **Support Manager**: In Slack, ping the regional support group (*e.g.* `@support-team-americas`) and request assistance from anyone who is available to assist with the new incoming emergency case.
 1. **Second Support Engineer**: Acknowledge and resolve the emergency page to indicate that you are assisting the customer with the case.
 
+#### Incident-related emergencies
+
+If multiple emergencies are caused by an active incident, then you'll work together with the CMOC and SMOC to address the tickets. Consider the following when working on these emergencies:
+
+**Communication channels and status tracking**
+
+The CMOC will ensure that a Support Readiness Issue is available and used as the SSOT to track status and our progress related to the incident. Slack is useful for real-time discussion and organisation around tasks, but the Readiness issue should be used to document any relevant information that helps team members easily get up to speed and start contributing.    
+
+When discussing a ticket in Slack, ensure to keep the thread focused on that specific ticket. Since incident-related tickets will have a lot of similarities, it is tempting to discuss other tickets in the same thread, however, this can quickly lead to confusion when multiple tickets are being troubleshooted at the same time.
+
+**Workflow creation**
+
+As these tickets are being handled and discussed, we will organically develop ad-hoc workflows and repeatable troubleshooting steps which can be used to address other tickets. Ensure that the workflows and troubleshooting steps are documented in the Support Readiness Issue. Keep the issue updated as the workflows and troubleshooting steps evolve. 
+
+**Knowledge sharing and cross-region collaboration**
+
+As you learn and understand more about addressing the tickets, share useful information and tips on the Readiness issue to make it easier for other engineers to onboard and help with the tickets. 
+
+Review the Readiness issue at the end of your shift and share any learnings or information that could help the next shift with ticket handling. Here is an example:
+
+> This incident resulted in x customer emergencies today, and we anticipate continued ticket volume since the incident is still ongoing and high impact. Most tickets were addressed by doing ..., and we found that customers often ran into problems with ..., which can be resolved by doing ...
+
+**Support tooling**
+
+If a Support tool or workflow is built which requires or uses elevated permissions (example: a script that runs with Admin made available to use for engineers without Admin), consult with the SMOC and Security team.
+
+**Incident checklist**
+
+Role-specific tasks are documented in the incident checklist. The incident checklist is a supplemental tool to help the CEOC, CMOC, and SMOC organise tasks relating to the incident.
+
 #### Backup engineers on weekends in APAC
 
 Concurrent emergencies are anticipated to become more frequent over weekends. There is active discussion with the APAC managers on
