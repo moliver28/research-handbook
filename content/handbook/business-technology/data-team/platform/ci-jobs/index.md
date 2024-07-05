@@ -103,8 +103,8 @@ Run this if you want to test a new sheetload load. This jobs runs against the cl
 This pipeline needs to be executed when doing changes to any of the below manifest files present in path `analytics/extract/postgres_pipeline/manifests`.
 
 - el_saas_customers_scd_db_manifest.yaml
-- el_gitlab_com_db_manifest.yaml
-- el_gitlab_com_scd_db_manifest.yaml
+- el_gitlab_dotcom_db_manifest.yaml
+- el_gitlab_dotcom_scd_db_manifest.yaml
 
 This pipeline requires.
 
