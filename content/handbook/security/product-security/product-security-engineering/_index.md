@@ -253,7 +253,7 @@ Labels are a driving force behind our metrics collection. The appropriate label 
 
 ## Integrating Product Security Team Requirements Into GitLab
 
-Information on how the Product Security Engineering team plans, develops, and maintains functionality required by the GitLab Product Security sub-department can [be found here](/handbook/security/product-security/product-security-engineering/milestone-planning/product-security-requirements).
+Information on how the Product Security Engineering team plans, develops, and maintains functionality required by the GitLab Product Security sub-department can [be found here](/handbook/security/product-security/product-security-engineering/product-security-requirements).
 
 ### Open Source Contributions
 
