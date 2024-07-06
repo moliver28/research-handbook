@@ -148,7 +148,7 @@ The greater cost of operational inefficiencies is business agility.
 
 ## Required capabilities
 
-The DevOps Platform is more than a collection of features and capabilties—it provides synergistic business benefits by comboning those functions seamlessly and transparently. Still, the toolchain it replaces is comprised of necessary features that will be required by expected by customers.
+The DevOps Platform is more than a collection of features and capabilties—it provides synergistic business benefits by combining those functions seamlessly and transparently. Still, the toolchain it replaces is comprised of necessary features that will be required and expected by customers.
 
 | Market Requirement | Description | Typical capability-enabling features | Value/ROI |
 |---------|-------------|-----------|------|
