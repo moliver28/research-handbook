@@ -523,6 +523,7 @@ When  considering introducing a new data store, there are quite a few considerat
   * What is the effort to deploy and maintain multiple deployments across our SaaS environments?
   * Who would be responsible for operating these environments and responding to incidents?
   * How would we backup, restore, and failover this data store?
+  * Could we operate this within a FedRAMP Moderate environment? Is it FIPS compliant?
 * Is it something our customers can run?
   * Would we package this in our own Linux packages, Helm chart, or Operators?
   * Is there a widely available SaaS service that most of our customers could use?
