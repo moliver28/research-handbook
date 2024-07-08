@@ -29,4 +29,3 @@ GitLab uses Nira to:
 
 - [Nira Official Website](https://www.nira.com/)
 - [Nira User Guide](https://help.nira.com/)
-
