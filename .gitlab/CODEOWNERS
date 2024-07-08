@@ -563,7 +563,7 @@
 
 ^[security]
 /content/handbook/security/ @joshlemos @jlongo_gitlab @plafoucriere @juliedavila
-/content/handbook/security/corporate/ @smanzuik @ericrubin @dzhu-gl @mbeee
+/content/handbook/security/corporate/ @smanzuik @ericrubin @dzhu-gl @mbeee @jeffersonmartin
 /content/handbook/security/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/product-security/ @juliedavila
 /content/handbook/security/product-security/infrastructure-security.md @juliedavila
@@ -681,7 +681,6 @@
 ## Controlled Documents must be in this section, and it must be the last section
 ## Please do not add or remove documents from the Controlled Documents section without checking with Security Governance. The Controlled Documents program is only for documents that are in-scope for Security Compliance's external audits. You can contact Security Governance in the #sec-assurance Slack channel.
 [Controlled-Documents]
-/content/handbook/business-technology/end-user-services/onboarding-access-requests/ @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/_index.md @cdu1 @marin @meks @vincywilson @gitlab-com/egroup @gitlab-com/content-sites

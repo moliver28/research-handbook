@@ -1,5 +1,7 @@
 ---
 title: Google Calendar Delegation Guide
+aliases:
+  - /handbook/business-technology/end-user-services/how-to-articles/google-workspace/google-calendar-delegation
 ---
 
 ## Overview

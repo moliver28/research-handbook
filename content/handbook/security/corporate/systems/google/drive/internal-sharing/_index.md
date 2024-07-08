@@ -1,5 +1,7 @@
 ---
 title: Google Docs and Drive Internal Sharing Guide
+aliases:
+  - /handbook/business-technology/end-user-services/how-to-articles/google-workspace/google-drive-sharing
 ---
 
 ## Overview
