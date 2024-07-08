@@ -1,0 +1,15 @@
+schemaVersion: 2.2.0
+components:
+  - name: tooling-container
+    attributes:
+      gl/inject-editor: true
+    container:
+      # NOTE: THIS IMAGE EXISTS ONLY FOR DEMO PURPOSES AND WILL NOT BE MAINTAINED
+      image: registry.gitlab.com/pages/hugo/hugo_extended:0.128.0
+      memoryRequest: 1024M
+      memoryLimit: 2048M
+      cpuRequest: 500m
+      cpuLimit: 1000m
+      endpoints:
+        - name: http-1313
+          targetPort: 1313
