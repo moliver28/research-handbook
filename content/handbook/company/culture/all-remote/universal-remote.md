@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GitLab's Universal Remote weekly web show
-description: "Join us for a weekly web show where we’ll take 30 minutes to talk about the realities of remote work. We’ll tackle the real challenges, ask the hard questions, and of course, we’ll be sure to not take ourselves too seriously."
+description: "Join us for a weekly web show where we'll take 30 minutes to talk about the realities of remote work. We'll tackle the real challenges, ask the hard questions, and of course, we'll be sure to not take ourselves too seriously."
 suppress_header: true
 extra_css:
   - meetups.css

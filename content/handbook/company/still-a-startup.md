@@ -12,7 +12,7 @@ Most companies regress to the mean and slow down over time. We plan to maintain 
 
 ### Reinforcing our values
 
-We have more than 20 documented ways to reinforce [GitLab’s values](/handbook/values/). Since hiring, bonuses, and promotions provide strong signals of what is valued and rewarded, we make values the lens through which we evaluate team member fit and advancement.
+We have more than 20 documented ways to reinforce [GitLab's values](/handbook/values/). Since hiring, bonuses, and promotions provide strong signals of what is valued and rewarded, we make values the lens through which we evaluate team member fit and advancement.
 
 ### Quick and informed decisions
 
@@ -26,7 +26,7 @@ A [DRI](/handbook/people-group/directly-responsible-individuals/) is a single pe
 
 [Informal team member communications](/handbook/company/culture/all-remote/informal-communication/), such as a chat about life outside of work, are necessary for building trust. Trust is essential for great business results. Many businesses invest heavily in offices and facilities, because they believe offices are necessary for informal communication.
 
-During the pandemic, many businesses that were forced to work remotely discovered that productivity increased. Many of these same businesses are now making plans to return to the office. One reason given is that not everyone can work from home. We solve this by allowing people to rent work space. The other main reason given is that people miss working from a central office with co-workers. I don’t think that people miss the commute or the office furniture. They miss informal communication. Central offices are a really expensive, inconvenient, and indirect way to facilitate information communication. It is more efficient to directly organize informal communication.
+During the pandemic, many businesses that were forced to work remotely discovered that productivity increased. Many of these same businesses are now making plans to return to the office. One reason given is that not everyone can work from home. We solve this by allowing people to rent work space. The other main reason given is that people miss working from a central office with co-workers. I don't think that people miss the commute or the office furniture. They miss informal communication. Central offices are a really expensive, inconvenient, and indirect way to facilitate information communication. It is more efficient to directly organize informal communication.
 
 For example, every person who joins GitLab has to schedule at least 5 [coffee chats](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) during their onboarding. We also have social calls, [Ask Me Anything](/handbook/company/culture/all-remote/informal-communication/#ama-ask-me-anything) meetings with senior leaders, and 15 other explicit ways to encourage employee connections and relationship building. Intentionally organizing informal communication enables the trust-building conversations that are essential for collaboration. This can be more effective than relying on chance encounters in an office building. You can connect with team members throughout the world and across departments through a coffee chat. You may not meet people outside of your own floor in an office setting.
 
@@ -36,11 +36,11 @@ We do not do things differently for the sake of being different, and we use bori
 
 ### Bias for action
 
-Decisions should be thoughtful, but delivering fast results requires the fearless acceptance of occasionally making mistakes. Our bias for action may result in the occasional mistake, but it also allows us to course correct quickly. We keep the stakes low for mistakes for the sake of transparency. When people are comfortable communicating missteps, risk aversion and secrecy don’t become the norm.
+Decisions should be thoughtful, but delivering fast results requires the fearless acceptance of occasionally making mistakes. Our bias for action may result in the occasional mistake, but it also allows us to course correct quickly. We keep the stakes low for mistakes for the sake of transparency. When people are comfortable communicating missteps, risk aversion and secrecy don't become the norm.
 
 ### Not a family
 
-Some companies talk about being a 'Family.' We don't think that is the right perspective. At GitLab, the relationship is not the end goal. The goal is results. We are clear about accountability and hold people to a clearly articulated standard. When people do not perform, we try to help them improve. If they still can’t meet expectations, we let them go.
+Some companies talk about being a 'Family.' We don't think that is the right perspective. At GitLab, the relationship is not the end goal. The goal is results. We are clear about accountability and hold people to a clearly articulated standard. When people do not perform, we try to help them improve. If they still can't meet expectations, we let them go.
 
 ### Time based release
 

@@ -18,7 +18,7 @@ While success may look different to each individual, it requires support from on
 
 At GitLab, we believe that [most jobs can be done remotely]({{< ref "./terminology" >}}). We are the world's largest all-remote company with no company-owned offices anywhere on the planet. We have team members in more than 65 countries, many of whom are parents. It can be done; it should be done!
 
-When looking for a parent-friendly job, instead of focusing on the specific role, look at the company. Do they offer flexible scheduling? [No-ask PTO]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}})? Are they [family first]({{< ref "values#family-and-friends-first-work-second" >}})? Choose an organization that proactively supports parents and prioritizing your kids above your job.
+When looking for a parent-friendly job, instead of focusing on the specific role, look at the company. Do they offer flexible scheduling? [No-ask PTO]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}})? Are they [family first](/handbook/values/#family-and-friends-first-work-second)? Choose an organization that proactively supports parents and prioritizing your kids above your job.
 
 ## Q: What are the benefits of work from home parenting?
 
@@ -89,7 +89,7 @@ Parents bring a great deal of wisdom and experience to the workforce and contrib
 
 ### Create and reinforce supportive values
 
-At GitLab, we have an operating principle that clarifies [family and friends come first, and work second]({{< ref "values#family-and-friends-first-work-second" >}}). Our Diversity, Inclusion & Belonging value includes an operating principle to [make family feel welcome]({{< ref "values#make-family-feel-welcome" >}}).
+At GitLab, we have an operating principle that clarifies [family and friends come first, and work second](/handbook/values/#family-and-friends-first-work-second). Our Diversity, Inclusion & Belonging value includes an operating principle to [make family feel welcome](/handbook/values/#make-family-feel-welcome).
 
 Parents will only get so far in juggling work and parenting without organizational support. It is vital for leaders to create values and workplace flexibility such that a parent does not feel pressured to choose work over family on an ongoing basis.
 
@@ -98,7 +98,7 @@ Parents will only get so far in juggling work and parenting without organization
 GitLab expires all Slack messages after 90 days as a remote-first forcing function. This serves multiple purposes.
 
 1. It forces work to begin and end in GitLab ([the product]({{< ref "./gitlab-for-remote" >}}))
-1. It lowers [anxiety]({{< ref "./mental-health" >}}) often associated with chat tools by reinforcing a [bias towards asynchronous workflows]({{< ref "values#bias-towards-asynchronous-communication" >}})
+1. It lowers [anxiety]({{< ref "./mental-health" >}}) often associated with chat tools by reinforcing a [bias towards asynchronous workflows](/handbook/values/#bias-towards-asynchronous-communication)
 1. It reminds employees that the tool's primary function is [informal communication]({{< ref "./informal-communication" >}}), where parents can converse about challenges and solutions related to parents. (We're humans first, colleagues second!)
 
 GitLab has several Slack channels where parents can ask questions, share challenges/tips/advice, and offer recommendations. This may include homeschooling programs, useful apps, or suggestions for staying sane during a global pandemic. Companies should consider creating similar. GitLab's [Juicebox Chats]({{< ref "./informal-communication#juice-box-chats" >}}) have been a delightful tool for encouraging cultural exploration for kids while at home during COVID-19.
@@ -138,7 +138,7 @@ With just one or two clicks, you can modify your status on Slack or Microsoft Te
 
 ### Optimize for open space in your calendar
 
-Being booked at 100% is a risk, particularly for working parents. (See [Kingman's Formula](https://blog.acolyer.org/2015/04/29/applying-the-universal-scalability-law-to-organisations) for the mathematics behind this.) The ebbs and flows of life cannot be predicted — after all, [it's impossible to know everything]({{< ref "values#its-impossible-to-know-everything" >}}). If your standing commitments have you at 100%, you have no room to react thoughtfully to life/children, or to plan for improvements.
+Being booked at 100% is a risk, particularly for working parents. (See [Kingman's Formula](https://blog.acolyer.org/2015/04/29/applying-the-universal-scalability-law-to-organisations) for the mathematics behind this.) The ebbs and flows of life cannot be predicted — after all, [it's impossible to know everything](/handbook/values/#its-impossible-to-know-everything). If your standing commitments have you at 100%, you have no room to react thoughtfully to life/children, or to plan for improvements.
 
 Stress is contagious, but so is [calm]({{< ref "./mental-health" >}}). Be ruthless in declining meetings and conveying that your schedule is full once you reach a certain quantity of daily or weekly meetings.
 
@@ -152,7 +152,7 @@ Much of the [how to be a great remote manager]({{< ref "./being-a-great-remote-m
 
 Some best practices for motivating remote employees balancing caregiving include:
 
-- Prioritize [results over hours worked]({{< ref "values#measure-results-not-hours" >}})
+- Prioritize [results over hours worked](/handbook/values/#measure-results-not-hours)
 - Don't require people to have consistent set working hours or say when they're working
 - Don't encourage or celebrate working long hours or on weekends
 - Encourage teamwork
@@ -166,7 +166,7 @@ It's not impossible to work from home while being a parent or caregiver; it's in
 >
 > If someone *does* schedule over family time or personal time, I feel confident to decline, unless it is very urgent and I'm blocking it (I always suggest a new time first, before using family time for a meeting). I am also inclined to say that if folks keep scheduling outside of your work time, to make sure you [respond back and highlight that](/handbook/values/#transparency), and check if you can find an alternative time that works for both of you. — [*Nadia V.*](https://gitlab.com/Vatalidis)
 >
-> When I joined GitLab, it was great to see things in people's calendars like `baby time`, `homework with kids`, `date night`, etc. Part of [onboarding]({{< ref "./getting-started" >}}) was [coffee chats]({{< ref "./informal-communication#coffee-chats" >}}) so I saw these “meetings” on calendars as I tried to schedule chats. It reinforced our [family first operating principle]({{< ref "values#family-and-friends-first-work-second" >}}), and also normalized these activities. It helped me understand that I could set up similar boundaries and not sacrifice bed time or something similar just to have an empty hour on my calendar. — [*Seth B.*](https://gitlab.com/sethgitlab)
+> When I joined GitLab, it was great to see things in people's calendars like `baby time`, `homework with kids`, `date night`, etc. Part of [onboarding]({{< ref "./getting-started" >}}) was [coffee chats]({{< ref "./informal-communication#coffee-chats" >}}) so I saw these "meetings" on calendars as I tried to schedule chats. It reinforced our [family first operating principle](/handbook/values/#family-and-friends-first-work-second), and also normalized these activities. It helped me understand that I could set up similar boundaries and not sacrifice bed time or something similar just to have an empty hour on my calendar. — [*Seth B.*](https://gitlab.com/sethgitlab)
 
 <!-- From family time to unforgettable adventures, there are [many great stories]({{< ref "./stories" >}}) of how remote work has impacted the lives of GitLab team members and their families around the world. -->
 From family time to unforgettable adventures, there are many great stories of how remote work has impacted the lives of GitLab team members and their families around the world.
@@ -175,7 +175,7 @@ From family time to unforgettable adventures, there are many great stories of ho
 
 ### GitLab blogs from working parents
 
-1. [What’s it like to be a working parent at GitLab?](https://about.gitlab.com/blog/2016/04/08/remote-working-parents)
+1. [What's it like to be a working parent at GitLab?](https://about.gitlab.com/blog/2016/04/08/remote-working-parents)
 1. [Parental/maternity leave around the world – how does your country stack up?](https://about.gitlab.com/blog/2019/07/18/how-is-it-being-a-new-mom-working-for-gitlab)
 1. [How I balance a baby, a career at GitLab, and cultural expectations of motherhood](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby)
 1. [How to make your home a space that works with kids](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home)

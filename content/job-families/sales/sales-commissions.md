@@ -140,11 +140,11 @@ The Director, Sales Commissions is a [grade 10](/handbook/total-rewards/compensa
 
 - Lead worldwide commissions calculations, reporting, policies and ensure first-tier support for all end-user technical or commission inquiries
 - Build a best practice focused Sales Commissions team providing direction, mentorship and coaching
-- Attract and retain team members by knowing each individual’s capabilities and aspirations and investing in their growth
+- Attract and retain team members by knowing each individual's capabilities and aspirations and investing in their growth
 - Partner with various functions such as Sales Strategy, Sales Operations, Deal Desk, People Operations, Total Rewards, Legal, Sales Systems and Finance to establish best practices, as well as drive ongoing process refinement to improve the efficiency and accuracy of sales commissions methodology, calculations and reporting
 - Provide routine, timely and accurate reporting and analysis on incentive compensation components, payments and other related items to the CRO and Finance leadership teams and communicates complex logic and analysis in a manner that is consumable
 - Leverages analyses to drive appropriate actions (e.g., correction of errors, acceleration where seeing success)
-- Recommend and influence iterations applicable to cross-functional team’s practices impacting the Sales Commissions team which is dependent on various upstream and downstream data and demands to meet Commission deadlines with accurate and timely results
+- Recommend and influence iterations applicable to cross-functional team's practices impacting the Sales Commissions team which is dependent on various upstream and downstream data and demands to meet Commission deadlines with accurate and timely results
 - Ownership of commissions systems process and infrastructure, along with overseeing project management of any changes and providing recommendations to drive operational efficiencies.
 - Provides guidance and oversight to global design, delivery of deployed plans, governance, controls, metrics and best practices
 - Co-lead Incentive Compensation Committee to review compensation issues, disputes, appeals and provide analysis and recommendations to facilitate resolution

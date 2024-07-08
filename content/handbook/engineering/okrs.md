@@ -35,12 +35,12 @@ The source of truth for GitLab OKRs and KRs is [GitLab](https://gitlab.com/gitla
 ### 4. CTO: [Continue to build a diverse team of top talent that we retain and grow](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2443)
 
 1. **CTO KR**: [Refine the Engineering promotion process for IC levels (Staff+) to include structured cross functional feedback and allow us to remove gearing ratios without sacrificing rigor](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2444)
-1. **CTO KR**: [Team member check-ins completed with a growth plan in place with a focus on ensuring business continuity throughout FY’24](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2445)
+1. **CTO KR**: [Team member check-ins completed with a growth plan in place with a focus on ensuring business continuity throughout FY'24](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2445)
 1. **CTO KR**: [100% of Managers in Engineering complete the Neurodiversity short course in LevelUp](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2446)
 
 ### 5. CTO: [Engineering efficiency and foundations](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2448)
 
-1. **CTO KR**: [Cells on track to launch in Q4 of FY’25](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2450)
+1. **CTO KR**: [Cells on track to launch in Q4 of FY'25](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2450)
 1. **CTO KR**: [Overall hosting costs reduced by 5% from FY24Q1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2452)
 1. **CTO KR**: [Two horizontal foundational engineering efficiency initiatives funded and on track](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2453)
 1. **CTO KR**: [Master pipeline stability >95% and Merge Request pipeline duration <60 mins](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2454)

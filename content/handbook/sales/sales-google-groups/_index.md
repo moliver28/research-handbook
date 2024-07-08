@@ -1,14 +1,7 @@
 ---
-
 title: "Communicating with the Field"
 description: "Guide to communicating with and within the GitLab Field team using both Slack and email"
 ---
-
-
-
-
-
-
 
 This page is meant to serve as a guide to communicating with and within the Field using both Slack and email. Read below to find an outline of all Google Groups and Slack channels related to Sales and Customer Success.
 
@@ -39,17 +32,10 @@ The parent google group of the sales team is sales-all. Several child groups fal
 | sales-west | team | Members of the ENT AMER west sales team |
 | sales-pubsec | team | Members of the ENT pubsec sales team |
 | sales-cs | segment | Members of the customer success team |
-| sales-channels | segment | Members of the channel partners team |
-| sales-alliances | segment | Members of the alliance partners team |
-| sales-fieldops | segment | Members of the field operations team |
+| partners_all_hands | segment | Members of the Partner team |
+| rsoe-team | segment | Members of the Revenue Strategy, Operations and Enablement (RSOE) team |
 | sales-ops | team | Members of the sales operations team |
 | field-enablement | team | Members of the field enablement team |
-| sales-analytics | team | Members of the sales strategy team |
-| sales-talent acquisition | segment | People partners and sales recruiters who support the field organization |
-
-See the below chart for a visualization of the Google Group hierarchy
-
-![Sales Google Groups](/handbook/sales/images/newsalesgg_v5.jpg)
 
 To confirm if you are in a particular Google Group, see the [Google Workspace Group Membership Reports.](/handbook/business-technology/end-user-services/#automated-group-membership-reports-for-managers) To gain access to new Google Groups, please [fill out an access request (AR) form.](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/)
 
@@ -94,15 +80,8 @@ The below channels are specific to the field organization.
 | #sales | public | General channel for WW Sales, open to posts from all team members |
 | #field-fyi | public (read-only) | Official field announcements channel |
 | #cro | public | CRO (Chief Revenue Officer) announcements and communication |
-| #cro-approvals | public | Triaging approvals required by the CRO across GitLab |
 | #sales-vp | public | Used for scheduling requests, etc. related to all field VPs |
-| #sales-leaders | private | Used for communication with and between Sales directors and above (ASM and above for COM) |
-| #cs-leaders | private | Used for communication with and between VP Customer Success direct reports |
 | #field-managers | private | Confidential (people and/or comp-related) communication with Field (Sales, CS, SDR) managers - ASMs or equivalent and above |
-| #sales-ent-managers | private | Used for communication with and between WW ASM-and-above-level managers in Enterprise |
-| #sales-com-managers | private | Used for communication with and between WW ASM-and-above-level managers in Commercial |
-| #sales-cs-managers | private | Used for communication with and between WW managers in Customer Success |
-| #wins-key-deals | public | Used for celebrating key deals for our Sales team. Scope defined in channel description. |
 
 **Sales**
 
@@ -129,7 +108,7 @@ The recommendation is to use public channels even while it may sometimes feel un
 | ------ | ------ | ------ |
 | #customer-success | public | Used to interact with & within Customer Success |
 | #cs-questions | public | Questions from customers and prospects to the Customer Success team about using GitLab and best practices |
-| #demo-systems | public | Open discussion and questions about demo systems that aren’t appropriate for issues |
+| #demo-systems | public | Open discussion and questions about demo systems that aren't appropriate for issues |
 | #professional-services |  public | Used to [communicate with the Professional Services team](/handbook/customer-success/professional-services-engineering/working-with/#slack) |
 
 **Field Operations**
@@ -138,7 +117,6 @@ The recommendation is to use public channels even while it may sometimes feel un
 | ------ | ------ | ------ |
 | #sales-support | public | Support for general sales-related questions, requests, and updates |
 | #field-enablement-team | public | Used for communication between GitLab sales and CS team members and the field enablement team |
-| #field-cert-program | public | Stay up-to-date on GitLab's [Field Certification Program](/handbook/sales/training/field-certification/) |
 
 **Channels and Alliances**
 
@@ -150,7 +128,6 @@ The recommendation is to use public channels even while it may sometimes feel un
 | #channel-marketing | public | Topics related to channel marketing |
 | #channel-services | public | Topics related to channel services |
 | #channel-accred-mvp | public | Communication about the channel partner accreditation program |
-| #partner-fyi | public | Communicates updates to the Channel & Alliances teams on program, operations, enablement and marketing. |
 
 ### Helpful Company Slack Channels
 
@@ -167,7 +144,7 @@ The below channels are owned by teams outside of the field organization but migh
 | #legal | public | General legal questions that are not confidential or seeking legal advice |
 | #marketing | public | General marketing team channel |
 | #sdr-global | public | Used to ask questions and provide useful information related to XDRs |
-| #sdr-fyi | public (read-only) | The official SDR announcements channel |
+| #sales_dev_fyi | public (read-only) | The official SDR announcements channel |
 | #content-updates | public | The latest GitLab-published content you can share with prospects on social media |
 | #newswire | public | News mentions and industry news related to GitLab |
 | #diversity_inclusion_and_belonging | public | Get updates and receive feedback on all things related to Diversity, Inclusion & Belonging  |

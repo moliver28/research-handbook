@@ -39,7 +39,7 @@ Teams in the Ops Sub-Department map to several Product Sections.  Product direct
 - [#cd-section](https://gitlab.slack.com/archives/C05BTB4CBGQ) - CD Section discussions spanning Deploy Stage
 - [#ops_staff_plus](https://gitlab.slack.com/archives/C0305PJB9JR) - Foster collaboration and technical leadership within Ops section
 - [#doe-ops](https://gitlab.slack.com/archives/CT9CM1VDJ) - Channel for GitLab's Director of Engineering, Ops
-- 🔒ops-staff-confidential - Channel for reviewing topics for Ops Engineering leaders.  Please use #doe-ops or other public channels for topics that don’t require confidentiality.
+- 🔒ops-staff-confidential - Channel for reviewing topics for Ops Engineering leaders.  Please use #doe-ops or other public channels for topics that don't require confidentiality.
 
 ## Meetings
 
@@ -268,13 +268,13 @@ Weekly project plan template
 Week of Jan 4th
 
     Single chart shows up in Slack. Data is canned.
-    Schedule risk: we’re validating our list of chart types are all technically feasible. We’ll demo outcome of that investigation.
+    Schedule risk: we're validating our list of chart types are all technically feasible. We'll demo outcome of that investigation.
 
 Week of Jan 11th
 
     Chart data reflects live information, and is functional in Slack chart.
     Additional chart type shows in Slack room, with most basic visual design.
-    We’ve shown to at least one alpha customer for feedback. We start sharing with them every week from here on out.
+    We've shown to at least one alpha customer for feedback. We start sharing with them every week from here on out.
     Jessica is on-call and doing interrupt-driven work for week.
 
 Week of Jan 18th
@@ -285,7 +285,7 @@ Week of Jan 18th
 Week of Jan 25th
 
     Holiday Jan 26th.
-    Charts look great and are thoroughly tested, instrumented. We’ll show usage dashboards.
+    Charts look great and are thoroughly tested, instrumented. We'll show usage dashboards.
     Release end of week.
 
 ```

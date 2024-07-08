@@ -249,13 +249,13 @@ Managers should support their direct reports with their professional development
 
 ### Inclusive Growth
 
-It’s critical to understand how the diverse experiences and perspectives of individuals influence their approach to career growth. Without the right support, behaviors by team members [from underrepresented groups](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups) might influence their growth. Consider how the following might influence growth on your team
+It's critical to understand how the diverse experiences and perspectives of individuals influence their approach to career growth. Without the right support, behaviors by team members [from underrepresented groups](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups) might influence their growth. Consider how the following might influence growth on your team
 
 | Behavior | Example |
 | ----- | --------------- |
-| Raised Hands | Who opts in? Who doesn’t? Who’s your go to person for stretch projects? Lack of opting in might be influenced by imposter syndrome, not a lack of interest. |
-| Starting the Conversation | Who already set up career conversations with you? Who hasn’t? Like opting in, this could indicate different expectations of growth rather than disinterest. |
-| Stretch Projects | Share equitably across your team. Be aware of who got the last opportunity. Ask open and honestly about everyone’s interests and capacity before allocating stretch projects. |
+| Raised Hands | Who opts in? Who doesn't? Who's your go to person for stretch projects? Lack of opting in might be influenced by imposter syndrome, not a lack of interest. |
+| Starting the Conversation | Who already set up career conversations with you? Who hasn't? Like opting in, this could indicate different expectations of growth rather than disinterest. |
+| Stretch Projects | Share equitably across your team. Be aware of who got the last opportunity. Ask open and honestly about everyone's interests and capacity before allocating stretch projects. |
 | Beyond Work | Consider the jobs we have outside of work. These responsibilities might influence our career growth but do not have to limit it. |
 | Cultural|  Career growth expectations vary around the world. Ask your team individually about their expectations rather than making assumptions based on your experience. |
 | Bias | Biases that might especially be prevalent in career conversations could include past roles and companies, performance, and authority. |
@@ -345,7 +345,7 @@ The bi-annual cadence is not required, but recommended. Some team members may pr
 
 ## E-Group Performance Enablement Review
 
-Each member of the E-Group will have a performance conversation with their direct manager, the [CEO](/handbook/company/team/#sytses), at the beginning of the new fiscal year. These conversations will assess alignment to each of our [credit values]({{< ref "values#credit" >}}), performance and personal development.
+Each member of the E-Group will have a performance conversation with their direct manager, the [CEO](/handbook/company/team/#sytses), at the beginning of the new fiscal year. These conversations will assess alignment to each of our [credit values](/handbook/values/#credit), performance and personal development.
 
 The E-Group will follow a similar process to our GitLab team member process with the additional requirement of a [self review](https://docs.google.com/document/d/1pi-nv6NtMejosVOXlr1O4rZGxmGUzuN01OMnXn5dxKU/edit#).
 

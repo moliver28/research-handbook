@@ -1,14 +1,6 @@
 ---
-
 title: Development Department Learning and Development - Reliability
 ---
-
-
-
-
-
-
-
 
 ## Goal of this training
 

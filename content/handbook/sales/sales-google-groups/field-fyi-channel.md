@@ -1,14 +1,7 @@
 ---
-
 title: "Field-FYI Slack Channel"
 description: "GitLab's official field announcements channel"
 ---
-
-
-
-
-
-
 
 The #field-fyi channel is the official field announcements channel. This is a read-only channel with permission levels restricted to Field and Company Leadership as well as Field Operations. The purpose of this channel is to pull news and announcements out of #sales, where they can easily get buried, and consolidate them in a streamlined channel. Anyone is free to react to and comment on posts in this channel, and field team members are encouraged to star it to stay up-to-date. For general field channels, see #sales and #customer-success.
 

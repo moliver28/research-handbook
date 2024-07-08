@@ -1,13 +1,6 @@
 ---
-
 title: "Static Analysis Runbooks"
 ---
-
-
-
-
-
-
 
 ## Overview
 

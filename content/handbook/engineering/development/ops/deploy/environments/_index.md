@@ -141,40 +141,6 @@ Each week the Product Designer hosts a design pairing session with the team on T
 
 If there are no topics, the meeting can be cancelled for the week.
 
-#### Engineering Pair Meeting
-
-Due to high distrubtion and full calendars, we can have one of these for as many
-regions for which we have a DRI.
-
-##### AMER
-
-DRI: `@hustewart`
-
-Time: Tuesdays at 6:00pm UTC.
-
-Goal: Solve problems together and build trust/rapport.
-
-[Calendar event](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2xxMm5kOGYwOXB2YzloZTBvZWg4bGhwczQgZ2l0bGFiLmNvbV9rbmFpZmY3YmNwZzNxa3FydWJka2Y0aXYxMEBn&tmsrc=gitlab.com_knaiff7bcpg3qkqrubdkf4iv10%40group.calendar.google.com)
-
-What we'll do:
-
-- Introductions for people who don't know each other.
-- Pick a problem to solve.
-- Pair.
-- Document what we learn.
-
-Feel free to submit a topic beforehand (notes are on calendar event), or simply show up.
-
-All team members are welcome.
-
-##### EMEA/APAC
-
-DRI: `@andrei.zubov`
-
-Time: Every second Tuesday at 8:00am UTC.
-
-[Calendar event](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDIyOG9rNWxhbTU3ZXJoYTVxYmlrcmt2ZW1fMjAyNDAzMjZUMDgwMDAwWiBnaXRsYWIuY29tX2tuYWlmZjdiY3BnM3FrcXJ1YmRrZjRpdjEwQGc&tmsrc=gitlab.com_knaiff7bcpg3qkqrubdkf4iv10%40group.calendar.google.com&scp=ALL)
-
 ### Team issue tracker
 
 - We use [team issues tracker](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/general/-/issues) for internal discussions such as: milestone planning issues, events planning, etc...

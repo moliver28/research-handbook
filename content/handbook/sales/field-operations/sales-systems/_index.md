@@ -1,13 +1,7 @@
 ---
-
 title: "Sales Systems"
 description: "This page in an overview of all things related to the Sales Systems team at GitLab. It includes an overview of who we are, how we work, how to work with us as well as references to key sales systems technical documentation and system configuration."
 ---
-
-
-
-
-
 
 ## Sales Systems Charter
 

@@ -1,14 +1,7 @@
 ---
-
 title: "Best Practices for Building Value with Customers"
 description: "An overview of some of the GitLab Field team's best-practices to build value with customers."
 ---
-
-
-
-
-
-
 
 The below page overviews some best-practices to build value with customers. For a full overview of Sales Operating Procedures, see the four phases [here](/handbook/sales/sales-operating-procedures/).
 
@@ -24,7 +17,7 @@ It starts by understanding the bigger picture your customer is working towards, 
 A Value Deck is dedicated to your focus accounts on which you will be spending more time.
 It is a deck that contains high level information on the Corporate Objectives, Business Strategies, Key initiatives and Challenges.
 
-We then use this information to formulate a Problem Statement that sums up your customer’s Challenges and what could happen if the Business Strategies and thus Corporate Objectives are not met.
+We then use this information to formulate a Problem Statement that sums up your customer's Challenges and what could happen if the Business Strategies and thus Corporate Objectives are not met.
 
 Spending time on this will help you understand your customers better to work smart together, it will also help you formulate the business value at the Commercial Validation stage.
 

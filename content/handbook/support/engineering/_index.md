@@ -1,5 +1,4 @@
 ---
-
 title: Support Engineer Resources
 description: If you want to learn more about what support engineers do and how they do it, this is the place.
 ---

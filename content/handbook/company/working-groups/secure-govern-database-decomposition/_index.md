@@ -154,8 +154,6 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 9. If successful, globally rollout usage of the decomposed database for the feature.
 10. Repeat for each sufficiently sectionable feature subset until decomposition is completed.
 
-### Work Stream(s) and DRI
-
 #### Decompose the Secure/Govern dataset from the Primary GitLab database
 
 1. Epic/Issue: https://gitlab.com/groups/gitlab-org/-/epics/13043
@@ -180,6 +178,18 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 | Member                               | Dylan Griffith    | Principal Engineer, Create |
 | Member                               | Thong Kuah        | Principal Engineer, Data Stores |
 | Member                               |                   ||
+
+### Related Performance Projects
+
+1. [Tuple Reduction](https://gitlab.com/groups/gitlab-org/-/epics/13616)
+   - Brian Williams (DRI)
+   - Fabien Catteau
+   - Michael Becker
+1. [Vulnerability Management Application Limits](https://gitlab.com/groups/gitlab-org/-/epics/13571) and [Vulnerability Management Retention Policy](https://gitlab.com/groups/gitlab-org/-/epics/12229)
+   - Mehmet Emin Inaç (DRI)
+   - Joey Khabie
+1. [Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/13087)
+   - Subashis Chakraborty (DRI)
 
 ## Useful References
 

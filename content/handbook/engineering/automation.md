@@ -1,5 +1,4 @@
 ---
-
 title: "Guidelines for automation and access tokens"
 description: "Guidelines for automation with project/group tokens or service accounts"
 ---

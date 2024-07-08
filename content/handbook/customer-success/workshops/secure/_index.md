@@ -1,13 +1,6 @@
 ---
-
 title: "Secure Workshop"
 ---
-
-
-
-
-
-
 
 ## Overview
 

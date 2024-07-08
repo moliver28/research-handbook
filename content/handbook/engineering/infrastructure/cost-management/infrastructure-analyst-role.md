@@ -1,17 +1,7 @@
 ---
-
 title: "Infrastructure Analyst Role"
 description: "Defines role and responsibilities of infra analyst"
 ---
-
-
-
-
-
-
-
-
-
 
 ---
 

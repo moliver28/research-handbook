@@ -1,5 +1,4 @@
 ---
-
 title: What is Cognitive Bias
 description: Learn about Cognitive Bias and how to facilitate Cognitive Bias exercise.
 ---

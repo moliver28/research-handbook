@@ -2,7 +2,6 @@
 title: "Engineering Manager, Monitoring"
 ---
 
-
 ## Responsibilities
 
 - Hire a world class team of engineers to work on their team

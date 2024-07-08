@@ -1,5 +1,4 @@
 ---
-
 title: Product and Solution Marketing
 description: "GitLab Product and Solution Marketing: Core product marketing, competitive marketing and intelligence, market research and insights, analyst relations and customer advocacy"
 twitter_image: '/images/tweets/handbook-marketing.png'
@@ -9,15 +8,15 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 ## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Product and Solution Marketing Handbook
 
-We create positioning and messaging to fuel demand and adoption of GitLab’s solutions and products. We develop market and competitive intelligence in order to develop actionable insights on market trends, customer needs, and competitive insights that guide go-to-market and product strategy. We identify, recruit, and activate customer advocates to demonstrate momentum and trust in the market.
+We create positioning and messaging to fuel demand and adoption of GitLab's solutions and products. We develop market and competitive intelligence in order to develop actionable insights on market trends, customer needs, and competitive insights that guide go-to-market and product strategy. We identify, recruit, and activate customer advocates to demonstrate momentum and trust in the market.
 
 {: .no_toc}
 
 ## What does Product and Solution Marketing do?
 
-Our mission is to accelerate GitLab’s path to market by developing insights, positioning, and messaging that communicate the value of our platform and solutions.
+Our mission is to accelerate GitLab's path to market by developing insights, positioning, and messaging that communicate the value of our platform and solutions.
 
-- We are core to GitLab’s go-to-market process, operating at the intersection of product management, sales, customer success, and marketing.
+- We are core to GitLab's go-to-market process, operating at the intersection of product management, sales, customer success, and marketing.
 - We help deliver a connected customer experience with every touchpoint reinforcing the brand, values, solutions, and vision of GitLab.
 - We create programs and messaging to demonstrate momentum and trust in the market.
 
@@ -73,7 +72,7 @@ Each team within Product and Solution Marketing contributes uniquely and equally
 
 ## <i class="fas fa-star fa-fw color-orange font-awesome"></i>Subject matter expertise
 
-Product marketers are core to GitLab’s go-to-market process, operating at the intersection of product management, sales, customer success, and marketing. Some examples of initiatives led by product marketing team include:
+Product marketers are core to GitLab's go-to-market process, operating at the intersection of product management, sales, customer success, and marketing. Some examples of initiatives led by product marketing team include:
 
 - They lead go to market across different channels working with many cross functional teams within marketing. E.g., Solutions based Go to Market of Automated Software Delivery or Security and Governance
 - They lead product launches collaborating with cross functional teams across product, campaigns, sales, and marketing. E.g., GitLab Dedicated, GitLab Duo for AI-powered DevSecOps

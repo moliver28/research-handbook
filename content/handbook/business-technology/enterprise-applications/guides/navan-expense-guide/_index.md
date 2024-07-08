@@ -7,7 +7,7 @@ description: "Navan Expense End Users Guide"
 
 ## What is Navan Expense
 
-Navan Expense is an expense and payments platform that improves managing expenses while you’re on the road.
+Navan Expense is an expense and payments platform that improves managing expenses while you're on the road.
 
 ### How to access Navan Expense
 

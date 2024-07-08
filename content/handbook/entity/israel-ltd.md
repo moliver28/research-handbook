@@ -1,8 +1,17 @@
 ---
 title: GitLab Israel Ltd. information & benefits
 description: GitLab Israel Ltd. benefits and information specific to Israel-based team members
-controlled_document: true
 ---
+
+<div class="panel panel-gitlab-orange">
+**This is a Secure Document**
+{: .panel-heading}
+<div class="panel-body">
+
+Per the stated [Roles & Responsibilities](/handbook/entity/israel-ltd/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
+
+</div>
+</div>
 
 This Handbook page is for team members employed by GitLab Israel Ltd. and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
 
@@ -20,7 +29,7 @@ These standards apply to all GitLab team members hired through GitLab Israel Ltd
 
 ## Employment Contracts
 
-GitLab’s Team Member contract templates, including for Israel, (which will be listed in due course) are [here](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#israel) for reference purposes, viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
+GitLab's Team Member contract templates, including for Israel, (which will be listed in due course) are [here](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#israel) for reference purposes, viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
 Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).
 
 ## Employment Policies
@@ -133,7 +142,7 @@ If eligible, sick leave runs concurrently with GitLab's Sick Leave policy and of
 
 ### Maternity Leave
 
-Team members with one year or more of service are entitled to 26 weeks of maternity leave. The team member may take up to seven weeks of leave before the predicted due date of the child and the remainder after the birth. Israel’s social security system compensates the maternity leave if the team member is eligible which generally equals 15 weeks of fully paid leave and 11 weeks of unpaid leave.
+Team members with one year or more of service are entitled to 26 weeks of maternity leave. The team member may take up to seven weeks of leave before the predicted due date of the child and the remainder after the birth. Israel's social security system compensates the maternity leave if the team member is eligible which generally equals 15 weeks of fully paid leave and 11 weeks of unpaid leave.
 
 Team members who have worked for the company for less than one year are entitled to 15 weeks of maternity leave.
 

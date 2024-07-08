@@ -1,5 +1,4 @@
 ---
-
 title: Localization
 description: Handbook page for localization processes.
 ---

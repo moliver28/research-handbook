@@ -41,7 +41,7 @@ We do however understand that making such technical details available for resear
   – Further details about specific project content that can be independently verified by the **GitLab Security** department must be
   present in the project `README.md` file; for example, links to supporting materials such as a blog post describing the project.
   – All malicious binaries/files are stored in password-protected archive files, with the passwords clearly documented; for example
-  placed in the repository’s `README.md`.
+  placed in the repository's `README.md`.
      *Example: [GitHub](https://github.com/ytisf/theZoo)
      * `git-lfs` is available for use for binary files on GitLab.com.
 
@@ -49,7 +49,7 @@ We do however understand that making such technical details available for resear
 
 #### Security Testing Tools
 
-When researching security issues, especially those which may compromise the privacy of others, you must use only test accounts in order to respect our users’ privacy. Accessing private information of other users, performing actions that may negatively affect GitLab’s users (e.g., spam, denial of service). Activity that is disruptive to GitLab operations will result in account being blocked. Examples of disruptive activity include, but are not limited to:
+When researching security issues, especially those which may compromise the privacy of others, you must use only test accounts in order to respect our users' privacy. Accessing private information of other users, performing actions that may negatively affect GitLab's users (e.g., spam, denial of service). Activity that is disruptive to GitLab operations will result in account being blocked. Examples of disruptive activity include, but are not limited to:
 
 - Generating abusive requests including API requests.
 - Mass creation of users, groups, and projects

@@ -1,5 +1,4 @@
 ---
-
 title: "Global Digital SMB"
 description: "Overview of the Global Digital SMB Sales Model"
 ---
@@ -338,7 +337,7 @@ All Low Priority cases should be picked up and responded to within 7 days of ent
 
 All cases should be worked, and closed out, within a 15 day period (except High Value cases).
 
-The above, and other data points, will be tracked on the below dash.  Periodically, the info will be presented to the Advocate so that they can ‘clean up their room’.
+The above, and other data points, will be tracked on the below dash.  Periodically, the info will be presented to the Advocate so that they can 'clean up their room'.
 
 Due to the high case volume, it is imperative that the Required 10 is followed, so cases do not become stale.
 

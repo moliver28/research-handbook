@@ -30,6 +30,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Official Speaking Session Name/Title of Talk:**
 * **Date of Speaking Session:**
 * **Campaign Name for Speaking Session:**
+* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign for Speaking Session**]()
 * [ ] [**Marketo Program for Speaking Session**]()
 
@@ -72,6 +73,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Official Speaking Session Name/Title of Talk:**
 * **Date of Speaking Session:**
 * **Campaign Name for Speaking Session:**
+* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign for Speaking Session**]()
 * [ ] [**Marketo Program for Speaking Session**]()
 
@@ -113,6 +115,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Official Speaking Session Name/Title of Talk:**
 * **Date of Speaking Session:**
 * **Campaign Name for Speaking Session:**
+* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign for Speaking Session**]()
 * [ ] [**Marketo Program for Speaking Session**]()
 

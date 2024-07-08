@@ -1,5 +1,4 @@
 ---
-
 title: Customer Success Plan
 
 description: A Customer Success Plan is a customer-facing and mutually agreed roadmap for achieving value through GitLab adoption. This is an outcome of collaboration between GitLab Solution Architecture and the customer with the primary objective of ensuring customers are successful. The process is designed to support shifting from product scoped conversations (focusing on specific features or functions and limited to a specific subset of DevSecOps stages) towards solution (addressing specific pain points) or strategic (shaping business outcomes through holistic organizational process innovation and transformation tied to top strategic initiatives ) scopes. This Success Plan starts in the pre-sales process and is intended to carry through to the post-sales Success Plan. The Customer Success Plan is intended to be dynamic and should therefore be regularly reviewed on an agreed-upon cadence.
@@ -73,7 +72,7 @@ There also may be parts of the original Technical Close Plan that are no longer 
 
 Here is a quick reference on what content elements are in a Technical Close Plan vs. a Customer Success Plan:
 
-||**Content Element**|**Technical Close Plan**|**Champion’s Deck/ Proposal**|**Mutual Customer Success Plan**|**Kick Off Call/ Onboarding EBR**|
+||**Content Element**|**Technical Close Plan**|**Champion's Deck/ Proposal**|**Mutual Customer Success Plan**|**Kick Off Call/ Onboarding EBR**|
 |--|--|--|--|--|--|
 |1.|Company Background|X||X||
 |2.|What Have We Heard||X|X||
@@ -205,7 +204,7 @@ The following is a recommendation on how to advance an oppotunity, meeting by me
    - The SA may optionally create a Technical Close Plan after the fact  to add all he remaining context, to understand why was GitLab bought previously and what was the customer's expectation of value from Gitlab
    - In addition the CSM, when conducting cadences with the Customer, is expected record the following in the Mutual Customer Success Plan:
 
-||**Content Element**|**Technical Close Plan**|**Champion’s Deck/ Proposal**|**Mutual Success Plan**|**Kick Off Call/ Onboarding EBR**|
+||**Content Element**|**Technical Close Plan**|**Champion's Deck/ Proposal**|**Mutual Success Plan**|**Kick Off Call/ Onboarding EBR**|
 |--|--|--|--|--|--|
 |1.|Utilization per Features/ Capabilities|||Update Utilization upon Cadence|X|
 |2.|Use Case Adoption in Prod|||Update Use Case Adoption upon Cadence|X|

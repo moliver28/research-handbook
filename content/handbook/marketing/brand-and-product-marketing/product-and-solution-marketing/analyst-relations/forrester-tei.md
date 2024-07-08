@@ -1,14 +1,6 @@
 ---
-
 title: "Forrester Total Economic Impact™ (TEI) Study Commissioned By GitLab, June 2020"
 ---
-
-
-
-
-
-
-
 
 GitLab commissioned Forrester Consulting to conduct a Total Economic Impact™ (TEI) study examining the potential return on investment (ROI) enterprises may realize by using GitLab.
 
@@ -79,7 +71,7 @@ This TEI study also incorporated significant risk adjustments and productivity r
 
 This study was commissioned by GitLab and delivered by Forrester Consulting, customer names and contact information was provided to Forrester Consulting, who in turn interviewed GitLab customers independently. The data collected, resulting model, and study itself was reviewed independently by Forrester Research analysts. GitLab stakeholders were also interviewed as part of the data gathering and review process.
 
-Like all ROI models, while they are useful for discovering and articulating potential value, they are still “just” models, effectively a set of assumptions through which we can put data in and get a picture of what potential results might look like. Neither Forrester nor GitLab makes any assumptions as to the potential ROI that other organizations will receive. Both Forrester and GitLab strongly advise that readers, prospects, and customers, use their own estimates within the framework provided in the report to determine the appropriateness of an investment in GitLab.
+Like all ROI models, while they are useful for discovering and articulating potential value, they are still "just" models, effectively a set of assumptions through which we can put data in and get a picture of what potential results might look like. Neither Forrester nor GitLab makes any assumptions as to the potential ROI that other organizations will receive. Both Forrester and GitLab strongly advise that readers, prospects, and customers, use their own estimates within the framework provided in the report to determine the appropriateness of an investment in GitLab.
 
 ## Frequently Asked Questions
 
@@ -87,11 +79,11 @@ Like all ROI models, while they are useful for discovering and articulating pote
 
 A: This study looked at customers using GitLab for Version Control & Collaboration (SCM), Continuous Integration (CI), and Continuous Delivery (CD).
 
-*Q: Why are the results what they are? Why weren’t they higher?*
+*Q: Why are the results what they are? Why weren't they higher?*
 
-A: The results of the TEI study were based on our actual customer’s experiences and included a realistic assessment of costs involved and realistic estimates of risk involved in an investment. Models should be adjusted and the data put into the model should reflect each individual’s unique situation inclusive of costs and risk to get a more realistic estimate of their potential results.
+A: The results of the TEI study were based on our actual customer's experiences and included a realistic assessment of costs involved and realistic estimates of risk involved in an investment. Models should be adjusted and the data put into the model should reflect each individual's unique situation inclusive of costs and risk to get a more realistic estimate of their potential results.
 
-*Q: Why was this study focused on enterprises and can this study’s results be used by smaller organisations?*
+*Q: Why was this study focused on enterprises and can this study's results be used by smaller organisations?*
 
 A: At the time this study was commissioned it was determined that our most pressing, immediate need for a 3rd party validated ROI model was in support of our enterprise growth efforts. To get the most confident, useful results when creating a model it is critical to have the core sources of information (in this case customers) be as relatively similar as possible. All of that said, yes we believe that the TEI study can still provide useful context and insights for midmarket and smaller organisations.
 
@@ -103,11 +95,11 @@ A: The study itself certainly can be used independently, but we also have an onl
 
 A: No, many vendors across the industry (including several of our competitors like GitHub and Atlassian) have and continue to commission these studies as they have become a trusted, useful mechanism for helping organizations articulate and prioritize the problems they are trying to solve in terms of business value so that they can make the best decision they can when choosing to invest in products and services.
 
-*Q: How does our TEI compare to those of competitors? Do competitors having their own TEI mean I can’t or shouldn’t use ours - especially if they show different or higher numbers for some things?*
+*Q: How does our TEI compare to those of competitors? Do competitors having their own TEI mean I can't or shouldn't use ours - especially if they show different or higher numbers for some things?*
 
 A: While the TEI uses a standardized methodology, each one ends up effectively unique, as it is shaped by the unique experiences of a specific combination of customers, situations, solutions, over a period of time. In other words, they end up different enough that TEI studies in general, should not be compared to each other.
 
-That said there are situations where some amount of overlap in metric/value type may occur, and that’s where a second look at the totality of the model, the scope of the study, should be reviewed. For example, not all TEI studies incorporate the same precise type or amounts of costs or risk in their calculations of ROI as we do. We did incorporate these costs as well as reasonable risk adjustments and productivity recapture discounting because we believe that they are critical to getting a more realistic value picture, but as we know, not everyone shares our values and/or takes our approach to the market. As a result when you review and/or your customers and prospects review ours and others’ TEI studies, be sure to look for/draw attention to omissions like that.
+That said there are situations where some amount of overlap in metric/value type may occur, and that's where a second look at the totality of the model, the scope of the study, should be reviewed. For example, not all TEI studies incorporate the same precise type or amounts of costs or risk in their calculations of ROI as we do. We did incorporate these costs as well as reasonable risk adjustments and productivity recapture discounting because we believe that they are critical to getting a more realistic value picture, but as we know, not everyone shares our values and/or takes our approach to the market. As a result when you review and/or your customers and prospects review ours and others' TEI studies, be sure to look for/draw attention to omissions like that.
 
 *Q: How long is this study good for? Are there any more like it coming as it only covers VC&C, CI, and CD and we do much more?*
 
@@ -120,7 +112,7 @@ A: Your Industry Analyst Relations team ([Handbook Page](/handbook/marketing/bra
 ## Competitive Positioning Guidance
 
 - **Keep the conversation focused on our own TEI study** - To minimize confusion and maximize the use of our customer and prospective customer's time we should keep focus on our TEI study, model, and potential results. We should feel comfortable enough with our own study to be able to contrast/highlight the differences between a competitior's TEI or similar study if it comes up, we should be aware that they may exist, but we should not assume everyone understands, is familiar with, or is even aware of a competitior's TEI or similar study.
-- **ROIs are unique** - We should remember and help those we have the opportunity to discuss our TEI study with that ROI’s are not all the same, they are not interchangable - you can’t and shouldn’t just compare one ROI figure directly to another as they won’t be based on the same data, the same assumptions, the same constraints.
+- **ROIs are unique** - We should remember and help those we have the opportunity to discuss our TEI study with that ROI's are not all the same, they are not interchangable - you can't and shouldn't just compare one ROI figure directly to another as they won't be based on the same data, the same assumptions, the same constraints.
 - **Emphasize the important qualities of our TEI study** - We should be quick, comfortable, and confident to draw attention to key qualities of our TEI study that enhance both its credibility and its usefulness. Doing so makes the lack of these qualities in other's studies all the more apparent.
   - **Depth & Breadth:** The depth and breadth of our study (spanning 3 Use Cases - Version Control & Collaboration/SCM, CI, and CD) is objectively greater than most - we cover more and deeper, than many.
   - **Realistic Costs:** Our study takes into account realistic costs like implementation, training, ongoing maintenance requirements that our interviewed customers actually experienced - many studies do not or only do so minimally, leading to unrealistic expectations and disappointment.

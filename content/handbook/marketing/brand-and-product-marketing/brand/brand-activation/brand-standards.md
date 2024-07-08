@@ -1,9 +1,6 @@
 ---
-
 title: "Brand Resources"
 ---
-
-
 
 ## Overview
 

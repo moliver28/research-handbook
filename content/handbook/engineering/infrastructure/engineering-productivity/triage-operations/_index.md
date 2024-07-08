@@ -1,14 +1,7 @@
 ---
-
 title: "Triage Operations"
 description: "Automation and tooling for processing un-triaged issues at GitLab"
 ---
-
-
-
-
-
-
 
 Any GitLab team-member can triage issues. Keeping the number of [un-triaged issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#triaging-issues) low is essential for maintainability, and is our collective responsibility.
 

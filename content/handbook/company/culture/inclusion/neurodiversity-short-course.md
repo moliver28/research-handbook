@@ -1,5 +1,4 @@
 ---
-
 title: "Neurodiversity in the Workplace Short Course"
 description: "This page hosts the read section of the Neurodiversity in the Workplace Short Course"
 canonical_path: "/company/culture/inclusion/neurodiversity-short-course/"
@@ -96,7 +95,7 @@ Servant leadership is very important when building an environment where neurodiv
 
 ##### Challenging your bias & perceptions
 
-If you haven’t already read through our handbook page on unconscious bias and also read or taken the psychological safety short course. Everyone has bias and it is about recognising and challenging your bias which can inform your perceptions.
+If you haven't already read through our handbook page on unconscious bias and also read or taken the psychological safety short course. Everyone has bias and it is about recognising and challenging your bias which can inform your perceptions.
 
 People who are neurodivergent can miss social cues or not provide certain social cues. This could elevate a biased response in those interactions. You may perceive someone as disinterested, uncommunicative or lacking knowledge. Ensure that when you encounter situations that you do not perceive as normal, cloud your judgment on that person's ability to do their work. Let our results value always be the indicator of success.
 

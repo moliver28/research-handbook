@@ -1,5 +1,4 @@
 ---
-
 title: Analytics Instrumentation Guide
 ---
 

@@ -202,7 +202,7 @@ While individual groups are free to use as many stages in the [Product Developme
 
 ### Discovery/Refinement
 
-**The end goal is defined,** where all direct stakeholders says “yes, this is ready for development”. Some issues get there quickly, some require a few passes back and forth to figure out.
+**The end goal is defined,** where all direct stakeholders says "yes, this is ready for development". Some issues get there quickly, some require a few passes back and forth to figure out.
 
 The goal is for engineers to have buy-in and feel connected to the roadmap. By having engineering included earlier on, the process can be much more natural and smooth. To do so, engineering managers, engineers, and designers can be pinged directly from the issue.
 

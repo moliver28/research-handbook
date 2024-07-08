@@ -224,18 +224,18 @@ Once we have identified the functionality and components for this tool, we:
 
 ## Milestone Planning
 
-Please visit the [Product Security Engineering Milestone Planning page]({{< ref "milestone-planning" >}}) for information about how we plan our work.
+Please visit the [Product Security Engineering Milestone Planning page](/handbook/security/product-security/product-security-engineering/milestone-planning/) for information about how we plan our work.
 
 ## Metrics
 
 The Product Security Engineering team currently tracks the following metrics:
 
 - [Team velocity, measured in total weight of issues closed per week](https://10az.online.tableau.com/#/site/gitlab/views/ProductSecurityEngineering/Sheet1?:iid=1)
+- [Number of Merge Requests into GitLab products directly related to implementing the functionality required by Product Security teams](https://10az.online.tableau.com/#/site/gitlab/views/ProductSecurityEngineering/ProdSecRequirementMRs?:iid=2)
+- [Number of Merge Requests for creating security enhancements, defense in depth measures, and paved roads](https://10az.online.tableau.com/#/site/gitlab/views/ProductSecurityEngineering/DefenseinDepthorPavedRoadsMRs?:iid=4)
 
 We are working to track the following metrics that indicate adherence to our team's charter:
 
-- Number of Merge Requests into GitLab products directly related to implementing the functionality required by Product Security teams
-- Number of Merge Requests for creating security enhancements, defense in depth measures, and paved roads
 - The percentage of distinct value propositions in current in-house custom tools that have been contributed to the product
 
 ### Metrics Labels
@@ -250,3 +250,11 @@ Labels are a driving force behind our metrics collection. The appropriate label 
 | Tooling Integration: work done as part of the effort to integrate functionality from custom in-house tooling into a GitLab product | `~ProdSecEngMetric::Tooling Integration` | Epics |
 | Custom Tooling: work performed to build, maintain, or augment outside-of-the-product custom tooling needed to satisfy Product Security requirements | `~ProdSecEngMetric::Custom Tooling` | Issues and Merge Requests, sometimes Epics |
 | Pending: the work type isn't entirely clear yet, but we don't want to block progress for now | `~ProdSecEngMetric::Pending` | Issues, Merge Requests, and Epics |
+
+## Integrating Product Security Team Requirements Into GitLab
+
+Information on how the Product Security Engineering team plans, develops, and maintains functionality required by the GitLab Product Security sub-department can [be found here](/handbook/security/product-security/product-security-engineering/product-security-requirements/).
+
+### Open Source Contributions
+
+When possible, we contribute new features or security improvements directly to the dependencies that GitLab relies on so that everyone can benefit from those enhancements. Since those contributions happen in external repositories, they can't be tracked with our labels. In those cases, we should apply the appropriate labels to the merge requests we create for updating the dependency version to the one that includes our contributed changes.

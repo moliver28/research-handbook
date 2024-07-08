@@ -1,13 +1,6 @@
 ---
-
 title: "Learn How to Use Chorus.ai"
 ---
-
-
-
-
-
-
 
 Confused about how to use Chorus? Check out the instructions and links below for more information on how to get the most out of this important sales tool.
 
@@ -40,7 +33,7 @@ To comply with GDPR and similar privacy laws, all team members with a Recorder l
 
   1. Open Zoom SSO via [Okta](https://gitlab.okta.com/app/UserHome?iss=https%3A%2F%2Fgitlab.okta.com)
   2. Click on Settings then Zoom Apps
-  3. Make sure “Zoom Apps Quick Launch Button” is turned on
+  3. Make sure "Zoom Apps Quick Launch Button" is turned on
   4. Open a Zoom meeting on your desktop app
   5. You should now be able to see Chorus App and utilize the tool
 
@@ -110,7 +103,7 @@ The banner "Live on Zoom with Chorus.ai" is controlled and set by Zoom, therefor
 - [Getting Started with Chorus](https://docs.chorus.ai/hc/en-us/sections/115002365608-Getting-Started-with-Chorus)
 - [Chorus Basics for SDRs and Reps](https://docs.chorus.ai/hc/en-us/sections/360003251593-Chorus-Basics-for-SDRs-BDRs-and-Reps)
 - [Chorus Basics for Managers & Sales Enablement](https://docs.chorus.ai/hc/en-us/sections/115002370787-Chorus-Basics-for-Managers-Sales-Enablement)
-- [What’s the maximum length of a Chorus recorded meeting?](https://docs.chorus.ai/hc/en-us/articles/360045702734-What-s-the-maximum-length-of-a-Chorus-recorded-meeting-)
+- [What's the maximum length of a Chorus recorded meeting?](https://docs.chorus.ai/hc/en-us/articles/360045702734-What-s-the-maximum-length-of-a-Chorus-recorded-meeting-)
 
 ## Chorus.ai Resources
 

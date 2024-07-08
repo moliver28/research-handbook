@@ -36,7 +36,7 @@ Example Query, this will return a list of inquiries with the date they became an
   inquiry_reporting_date
   FROM common_mart_marketing.mart_crm_person
   where
-  lower(Status) != ’raw`
+  lower(Status) != 'raw`
   and inquiry_reporting_date is not null
 ```
 
@@ -150,7 +150,7 @@ A Closed Won Opportunity (CW) is an opportunity where the sales team won the dea
 #### First Order CW Opportunities
 
 Because a closed-won deal is an opportunity, the order_type field stores the first order information.
-When querying for First Order Closed Won, it’s best to use the `is_new_logo_first_order` flag, this ensures that all our dashboards are using the same logic to find FO CW.
+When querying for First Order Closed Won, it's best to use the `is_new_logo_first_order` flag, this ensures that all our dashboards are using the same logic to find FO CW.
 
 #### Date of Closed Deal
 
@@ -189,7 +189,7 @@ Sisense Snippet: [rpt_crm_opportunity_closed_period_closed_won](https://app.peri
 
 #### SaaS Trial Volume
 
-GitLab counts the number of SaaS trial signups by counting the number of Inquiries in Salesforce with a lead source = ‘SaaS Free Trial’.
+GitLab counts the number of SaaS trial signups by counting the number of Inquiries in Salesforce with a lead source = 'SaaS Free Trial'.
 
 #### Trial-to-Paid Conversion Metric
 
@@ -204,7 +204,7 @@ We do not count every namespace trial. Instead, we only include those with the f
 
 ##### Trial-to-Paid Dashboard
 
-You can find the SSoT for the [Trial-to-Paid metric in Tableau](https://10az.online.tableau.com/#/site/gitlab/views/TrialNamespaceConversionRateCohorted/ThreeLines_1?:iid=1). This dashboard is the source of trial conversion metrics for Marketing in Key Reviews and other executive readouts. The dashboard cohorts the company trial conversion rate described above to 45 days, 30 days, and 90 days. While the 45-Day rate is the primary metrics we use for reporting, we’ve included the others as they give more context to decision-makers.
+You can find the SSoT for the [Trial-to-Paid metric in Tableau](https://10az.online.tableau.com/#/site/gitlab/views/TrialNamespaceConversionRateCohorted/ThreeLines_1?:iid=1). This dashboard is the source of trial conversion metrics for Marketing in Key Reviews and other executive readouts. The dashboard cohorts the company trial conversion rate described above to 45 days, 30 days, and 90 days. While the 45-Day rate is the primary metrics we use for reporting, we've included the others as they give more context to decision-makers.
 
 The dashboard creates the cohorts in the following way:
 
@@ -509,7 +509,7 @@ Inquiries (people who end up registering for your event or engaging with your ad
 
 If you were driving people to register for something, then hop over to your SFDC campaign. Then go down to the `Custom Links` section and click on the `View All Campaign Members` report.
 
-You’ll then want to sort by `Ad Campaign Name (FT)`, which answers the question “What was the 1st touch ad this record interacted with?” and also the `Ad Campaign Name (LC)`, which answers the question “What ad created this lead?”.
+You'll then want to sort by `Ad Campaign Name (FT)`, which answers the question "What was the 1st touch ad this record interacted with?" and also the `Ad Campaign Name (LC)`, which answers the question "What ad created this lead?".
 
 If you did not have a specific SFDC Campaign you were driving to, and you wanted to see the success of your campaign, then you would still refer to the [WW SFDC Field Marketing Digital Report](https://gitlab.my.salesforce.com/00O4M000004aA0V), add in your campaigns UTM there, using the filter `Ad Campaign Name` [contains] and add your UTM.
 

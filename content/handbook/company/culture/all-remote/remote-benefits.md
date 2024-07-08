@@ -51,13 +51,13 @@ A number of studies from the likes of [Google](https://www.forbes.com/sites/abdu
 
 ### Benefits for all-remote employees
 
-It’s important for employees to truly take advantage of the freedoms and possibilities enabled by remote, rather than simply remaining where they are and switching an office desk for a room in their home. This is the core benefit of **remote** as compared to **work-from-home**.
+It's important for employees to truly take advantage of the freedoms and possibilities enabled by remote, rather than simply remaining where they are and switching an office desk for a room in their home. This is the core benefit of **remote** as compared to **work-from-home**.
 
 Consider relocating to a lower cost-of-living environment, and look to integrate work into life rather than vice-versa. Remote work enables you to optimize for things like superior air quality and medical facilities, a healthier community environment, and better schools for your children. All of this requires premeditated action — to embrace the reality that work is now decoupled from geography.
 
-In the home, aim to create a dedicated working space (or work from a coworking space, external office, or cafe). It’s vital to intentionally separate work and life to prevent [burnout]({{< ref "./mental-health" >}}). Moreover, don’t stop engaging with people. You may not fill your social quota entirely from work interactions, which enables you to pay closer attention to family, neighbors, and community opportunities.
+In the home, aim to create a dedicated working space (or work from a coworking space, external office, or cafe). It's vital to intentionally separate work and life to prevent [burnout]({{< ref "./mental-health" >}}). Moreover, don't stop engaging with people. You may not fill your social quota entirely from work interactions, which enables you to pay closer attention to family, neighbors, and community opportunities.
 
-Be intentional about replacing your recovered commute time. Whether it’s fitness, cooking, cleaning, spending time with family, or resting, be deliberate about reclaiming that time and using it to improve your overall wellbeing.
+Be intentional about replacing your recovered commute time. Whether it's fitness, cooking, cleaning, spending time with family, or resting, be deliberate about reclaiming that time and using it to improve your overall wellbeing.
 
 1. You have more [flexibility](http://shedoesdatathings.com/post/1-year-at-gitlab) in your [daily life]({{< ref "./people#those-who-value-flexibility-and-autonomy" >}}) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
 1. No more time, [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs#5baf10f04245), or money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
@@ -78,7 +78,7 @@ Be intentional about replacing your recovered commute time. Whether it’s fitne
 
 From family time to travel plans, there are [many examples and stories]({{< ref "./stories" >}}) of how remote work has impacted the lives of GitLab team members around the world.
 
-> **“The flexibility makes family life exponentially easier, which reduces stress and makes you more productive and motivated. You can’t put a dollar value on it – it’s priceless.”** - Haydn, Regional Sales Director, GitLab
+> **"The flexibility makes family life exponentially easier, which reduces stress and makes you more productive and motivated. You can't put a dollar value on it – it's priceless."** - Haydn, Regional Sales Director, GitLab
 
 ### Benefits for all-remote organizations
 

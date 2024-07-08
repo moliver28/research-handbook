@@ -1,16 +1,7 @@
 ---
-
 title: "Data Team CI Jobs"
 description: "GitLab Data Team CI Jobs"
 ---
-
-
-
-
-
-
-
-
 
 ---
 

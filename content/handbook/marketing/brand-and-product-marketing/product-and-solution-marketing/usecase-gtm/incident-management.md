@@ -1,5 +1,4 @@
 ---
-
 title: "Proposed Use Case - Incident Management"
 description: "Downtime is expensive and you can lower MTTR with GitLab Incident Management."
 ---

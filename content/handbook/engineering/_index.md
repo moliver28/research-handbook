@@ -46,25 +46,25 @@ Work in the 40% time budget should be coordinated and prioritized by the enginee
 
 ### Community Contributions
 
-We have a 3-year goal of [reaching 1,000 monthly contributors](/handbook/company/strategy/#2-build-on-our-open-core-strength) as a way to mature new stages, add customer-desired features that aren’t on our roadmap, and even translate our product into multiple languages.
+We have a 3-year goal of [reaching 1,000 monthly contributors](/handbook/company/strategy/#2-build-on-our-open-core-strength) as a way to mature new stages, add customer-desired features that aren't on our roadmap, and even translate our product into multiple languages.
 
 ### Diversity
 
-[Diverse teams perform better.](https://www.cio.com/article/189194/5-ways-diversity-and-inclusion-help-teams-perform-better.html#:~:text=With%20diversity%20comes%20multiple%20perspectives,better%20decisions%20based%20on%20facts.) They provide a sense of belonging that leads to higher levels of trust, better decision making, and a larger talent pool. [They also focus more on facts, process facts more carefully, and are more innovative.](https://hbr.org/2016/11/why-diverse-teams-are-smarter) By hiring globally and increasing the numbers of women and ethnic minorities in the Engineering division, we’re helping everyone bring their best selves to work.
+[Diverse teams perform better.](https://www.cio.com/article/189194/5-ways-diversity-and-inclusion-help-teams-perform-better.html#:~:text=With%20diversity%20comes%20multiple%20perspectives,better%20decisions%20based%20on%20facts.) They provide a sense of belonging that leads to higher levels of trust, better decision making, and a larger talent pool. [They also focus more on facts, process facts more carefully, and are more innovative.](https://hbr.org/2016/11/why-diverse-teams-are-smarter) By hiring globally and increasing the numbers of women and ethnic minorities in the Engineering division, we're helping everyone bring their best selves to work.
 
 ### Growing our team
 
-Hiring is still a top priority in FY24, and we're excited to continue hiring people who are passionate about our product and have the skills to make it the best DevSecOps tool in the market. Our current focus areas include reducing the amount of time between offer and start dates and hiring a diverse team (see above). We're also implementing industry-standard approaches like structured, behavioral, and situational interviewing to help ensure a consistent interview process that helps to identify the best candidate for every role. We’re excited to have a recruiting org to partner with as we balance the time that managers spend recruiting against the time they spend investing in their current team members.
+Hiring is still a top priority in FY24, and we're excited to continue hiring people who are passionate about our product and have the skills to make it the best DevSecOps tool in the market. Our current focus areas include reducing the amount of time between offer and start dates and hiring a diverse team (see above). We're also implementing industry-standard approaches like structured, behavioral, and situational interviewing to help ensure a consistent interview process that helps to identify the best candidate for every role. We're excited to have a recruiting org to partner with as we balance the time that managers spend recruiting against the time they spend investing in their current team members.
 
 ### Expand customer focus through depth, and stability
 
 As expected, a large part of our focus in FY24 is on improving our product.
 
-For **Enterprise customers**, we’re refining our product to meet the levels of security and reliability that customers rightfully demand from SaaS platforms _(SaaS Reliability)_. We’re also providing more robust utilization metrics to help them discover features relevant to their own DevOps transformations _(Usage Reporting)_ and offering the ability to purchase and manage licenses without spending time contacting Sales or Support _(E-Commerce and Cloud Licensing)_. Lastly, in response to Enterprise customer requests, we're adding features to support Suggested Reviewers, better portfolio management through Work Items, and Audit Events that provide additional visibility into user passive actions.
+For **Enterprise customers**, we're refining our product to meet the levels of security and reliability that customers rightfully demand from SaaS platforms _(SaaS Reliability)_. We're also providing more robust utilization metrics to help them discover features relevant to their own DevOps transformations _(Usage Reporting)_ and offering the ability to purchase and manage licenses without spending time contacting Sales or Support _(E-Commerce and Cloud Licensing)_. Lastly, in response to Enterprise customer requests, we're adding features to support Suggested Reviewers, better portfolio management through Work Items, and Audit Events that provide additional visibility into user passive actions.
 
-For **Free Users**, we’re becoming more efficient with our open core offering, so that we can continue to support and give back to students, startups, educational institutions, open source projects, GitLab contributors, and nonprofits
+For **Free Users**, we're becoming more efficient with our open core offering, so that we can continue to support and give back to students, startups, educational institutions, open source projects, GitLab contributors, and nonprofits
 
-For **Federal Agencies**, we’re obtaining FedRAMP certification to strengthen confidence in the security standards required on our SaaS offering. This is a mandated prerequisite for United States federal agencies to use our product.
+For **Federal Agencies**, we're obtaining FedRAMP certification to strengthen confidence in the security standards required on our SaaS offering. This is a mandated prerequisite for United States federal agencies to use our product.
 
 For **Hosted Customers**, we're supporting feature parity between Self-Managed and GitLab Hosted environments through the Workspace initiative. We're also launching GitLab Dedicated for customers who want the flexibility of cloud with the security and performance of a single-tenant environment.
 

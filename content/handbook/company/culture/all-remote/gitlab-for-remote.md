@@ -77,7 +77,7 @@ destination_url: "https://youtu.be/qCDAioq3eis"
     <div class="col d-flex align-items-center">
         <div>
             <h2>Document while you work</h2>
-            <p>Instead of critical information getting lost in email or chat, writing down what’s happening inside of GitLab Issues means the plan, process, and execution are automatically documented. Other users can be tagged to comment and collaborate. Since Issues are a many-to-many channel, it’s easy to loop in more folks without the clutter of a reply-all thread.</p>
+            <p>Instead of critical information getting lost in email or chat, writing down what's happening inside of GitLab Issues means the plan, process, and execution are automatically documented. Other users can be tagged to comment and collaborate. Since Issues are a many-to-many channel, it's easy to loop in more folks without the clutter of a reply-all thread.</p>
         </div>
     </div>
     <div class="col">
@@ -92,7 +92,7 @@ destination_url: "https://youtu.be/qCDAioq3eis"
     <div class="col d-flex align-items-center">
         <div>
         <h2>Track work from dream to done</h2>
-        <p>Adding labels to GitLab Issues lets you categorize work into different stages, such as planning, in-progress, and complete. <a href="https://about.gitlab.com/stages-devops-lifecycle/issueboard/">GitLab Boards</a> give you visibility and control over how work is being done. It’s like moving digital post-it notes across an online whiteboard that everyone can use, not just the folks in the conference room.</p></div>
+        <p>Adding labels to GitLab Issues lets you categorize work into different stages, such as planning, in-progress, and complete. <a href="https://about.gitlab.com/stages-devops-lifecycle/issueboard/">GitLab Boards</a> give you visibility and control over how work is being done. It's like moving digital post-it notes across an online whiteboard that everyone can use, not just the folks in the conference room.</p></div>
     </div>
 </div>
 
@@ -115,7 +115,7 @@ destination_url: "https://youtu.be/qCDAioq3eis"
     <div class="col d-flex align-items-center">
         <div>
         <h2>Version every word</h2>
-        <p>One of the advanced uses for GitLab is to treat copy like code. You can store, version, review, and approve not only software code, but any text at all. Using GitLab’s version control and “code review” capabilities for your text-based copywriting, you’ll be able to track versions, know who changed what when, make multiple proposals to the same document, and easily manage approvals.</p></div>
+        <p>One of the advanced uses for GitLab is to treat copy like code. You can store, version, review, and approve not only software code, but any text at all. Using GitLab's version control and "code review" capabilities for your text-based copywriting, you'll be able to track versions, know who changed what when, make multiple proposals to the same document, and easily manage approvals.</p></div>
     </div>
 </div>
 </div>

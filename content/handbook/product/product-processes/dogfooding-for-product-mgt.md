@@ -1,13 +1,6 @@
 ---
-
 title: Dogfooding for Product Managers
 ---
-
-
-
-
-
-
 
 ### Dogfood everything
 
@@ -74,7 +67,7 @@ Internal users can help quickly identify where workflows might break down or
 where potential usability or performance issues must be explored. We should
 heavily weigh internal feedback to shape our perspective on customer needs,
 and then compare it to what we know about both large and small customers
-(and if we’re unsure, then we should proactively ask).
+(and if we're unsure, then we should proactively ask).
 
 #### Internal Customer DRIs
 

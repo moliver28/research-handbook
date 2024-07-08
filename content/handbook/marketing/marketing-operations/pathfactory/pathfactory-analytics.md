@@ -1,14 +1,7 @@
 ---
-
 title: "PathFactory Analytics"
 description: "All roles and permissions have access to reporting functionality in PathFactory."
 ---
-
-
-
-
-
-
 
 ## PathFactory Analytics
 

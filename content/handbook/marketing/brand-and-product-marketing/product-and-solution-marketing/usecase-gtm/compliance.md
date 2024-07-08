@@ -233,8 +233,8 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 **5. Related security questions**
 
 - What percentage of code are you currently scanning? Are there holes where an attacker could more easily enter and then traverse laterally? How much more would it cost you to scan all of your code?
-- If you are using containers, orchestrators, and/or microservices/API’s, how are you scanning them for vulnerabilities and monitoring them during production?
-- How much of the security team’s time is spent tracking vulnerabilities, triaging them, and following up to see that they were remediated?
+- If you are using containers, orchestrators, and/or microservices/API's, how are you scanning them for vulnerabilities and monitoring them during production?
+- How much of the security team's time is spent tracking vulnerabilities, triaging them, and following up to see that they were remediated?
 
 #### Before state and negative consquences
 

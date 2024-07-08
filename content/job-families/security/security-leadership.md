@@ -9,11 +9,11 @@ description: "Leaders in the security department at GitLab see the team as their
 Leaders in the security department at GitLab are customer focused. While they are technically credible and know the details of what security engineers and analysts work on, their time is spent hiring a world-class team and putting them in the best position to succeed. They own the delivery of security commitments and are always looking to improve productivity. They must coordinate across departments to accomplish collaborative goals. Security leaders embrace a set of shared values:
 
 - **Security Principles:** Champion the security [operating principles](/handbook/security/#-security-vision-and-mission) and develop the frameworks and strategies necessary to leverage principles in practice.
-- **Priority Setting:** Spends their time and the time of others on what’s important: quickly zeros in on the critical few and puts the trivial many aside, can quickly sense what will help or hinder accomplishing a goal, eliminates roadblocks, creates focus.
-- **Process Management:** Build efficient processes which are necessary to get things done: know how to organize people and activities, understand how to separate and combine tasks into efficient work flow, know what to measure and how to measure it, can see opportunities for synergy and integration where others can’t. Capable of simplifying or eliminating complex processes.
+- **Priority Setting:** Spends their time and the time of others on what's important: quickly zeros in on the critical few and puts the trivial many aside, can quickly sense what will help or hinder accomplishing a goal, eliminates roadblocks, creates focus.
+- **Process Management:** Build efficient processes which are necessary to get things done: know how to organize people and activities, understand how to separate and combine tasks into efficient work flow, know what to measure and how to measure it, can see opportunities for synergy and integration where others can't. Capable of simplifying or eliminating complex processes.
 - **Strategy:**  Able to see around corners and anticipate future consequences and emerging challenges accurately, have broad knowledge and perspective, is future oriented, can articulately paint credible pictures and visions of possibilities and likelihoods, can create competitive and breakthrough strategies and plans. Look toward the broadest possible view of an issue/challenge: has broad-ranging personal and business interests and pursuits, can easily pose future scenarios, can think globally, can discuss multiple aspects and impacts of issues and project them into the future.
 - **Diplomacy:** Embrace discourse, seeing disagreement  as opportunities: read situations quickly, good at focused listening, can hammer out tough agreements and settle disputes equitably, can find common ground and get cooperation with minimum noise.
-- **Influence:** Skilled in communicating a compelling perspective to various audiences: one-on-one, small and large groups, with peers, reports, and leaders. Is effective both inside and outside the organization, on both cool data and hot and controversial topics, commands attention and can manage group processes during the presentation, can change tactics midstream when something isn’t working.
+- **Influence:** Skilled in communicating a compelling perspective to various audiences: one-on-one, small and large groups, with peers, reports, and leaders. Is effective both inside and outside the organization, on both cool data and hot and controversial topics, commands attention and can manage group processes during the presentation, can change tactics midstream when something isn't working.
 - **Building Effective Teams:** Inspires team members to do their best work. Creates and fosters environments where team members can grow and deliver their best work.
 - **Vision:** Communicates a compelling and inspired vision or sense of core purpose: talks beyond today, talks about possibilities, is optimistic, creates mileposts and symbols to rally support behind the vision, makes the vision shareable by everyone, can inspire and motivate the entire organization.
 
@@ -249,7 +249,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Requirements
 
-- Superior understanding of the organization’s goals and objectives
+- Superior understanding of the organization's goals and objectives
 - Ability to act as a champion for Security and convey cyber-security risks in layman terms
 - Ability to build collaborative relationships with diverse stakeholders including executive team, management, privacy, engineering and external auditors
 - Proficient experience with industry standard security and risk frameworks/standards/laws/regulations: SOX ITGCs, SOC, FedRAMP/NIST 800-53, NIST CSF, PCI, ISO27001, ISO 31000, etc.
@@ -275,13 +275,13 @@ The Corporate Security & IT Operations function leads a team of highly-collabora
 - Establish seamless processes to onboard, change and offboard resources from IT services
 - Own and maintain Corporate Security & IT Operations applications
 - Document and enforce new and current IT policies and procedures
-- Measure, monitor, and maintain team’s ability to meet or exceed contact and resolution Service Level Agreements (SLA)
+- Measure, monitor, and maintain team's ability to meet or exceed contact and resolution Service Level Agreements (SLA)
 - Run the IT Service desk, define and manage ticket SLAs, and move towards greater automation (and where appropriate) self-service of tickets
 - Proven ability to successfully recruit, manage, motivate and develop high performing teams
 - Negotiates and influences the opinions and decision making of internal senior leaders on matters of significance to the division
 - Consistently demonstrates, models and coaches managers and senior managers on GitLab's remote working competencies
 - Proactively communicates with leadership about progress and outcomes and how strategy and contributions support higher-level priorities and initiatives
-- Focuses the team’s communication and productivity
+- Focuses the team's communication and productivity
 
 ###### Requirements
 

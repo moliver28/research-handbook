@@ -1,10 +1,8 @@
 ---
-
 title: Community Forum Workflows
 category: References
 description: Workflows for Support ticket deflection via the GitLab Community Forum.
 ---
-
 
 ## Technical Support in the Community Forum
 

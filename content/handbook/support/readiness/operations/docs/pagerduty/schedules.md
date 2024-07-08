@@ -404,17 +404,6 @@ This rotation is used for Support Directors.
   - Members
     - Lee Matos
 
-### SSAT Reviewing Manager
-
-This rotation is used for assigning Support Managers SSAT reviewing duties.
-
-- [Schedule link](https://gitlab.pagerduty.com/schedules#P9UIIDY)
-- Timezone: UTC
-- Layer 1
-  - Rotation type: weekly
-  - Handoff time: Tuesday 0000
-  - Hours: Not restricted to specific times
-
 ### Shadow - Customer Emergenices
 
 - [Schedule link](https://gitlab.pagerduty.com/schedules#PLNQAAB)

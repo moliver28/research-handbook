@@ -33,7 +33,7 @@ The VP, Field Operations is a [grade 12](/handbook/total-rewards/compensation/co
 - Analytical and detail oriented, strong project management skills with a drive for results.
 - Proven ability to thrive in a fluid, fast-paced, unpredictable environment.
 - Unquestionable ethics, integrity and business judgment; you share our values, and work in accordance with those values.
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ### Performance Indicators
 

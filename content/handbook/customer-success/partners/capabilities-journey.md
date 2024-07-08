@@ -4,12 +4,6 @@ title: "Partner Capabilities Journey"
 description: "Suggest a partner journey maturity model for Channel and Systems Integrator partner"
 ---
 
-
-
-
-
-
-
 ## Objective
 
 Create a partner success approach, providing a framework for partners to integrate their DevSecOps practice with the GitLab DevSecOps Platform and our go to market strategy.

@@ -1,14 +1,7 @@
 ---
-
 title: "Tableau Style Guide"
 description: "Tableau Style Guide"
 ---
-
-
-
-
-
-
 
 ---
 

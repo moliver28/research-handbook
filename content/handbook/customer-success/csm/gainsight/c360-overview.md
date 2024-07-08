@@ -1,14 +1,7 @@
 ---
-
 title: "Customer 360"
 description: "An overview of the key components in Customer 360."
 ---
-
-
-
-
-
-
 
 *For an overview of Gainsight, and information about how to login, please refer to the [Gainsight Overview Page](/handbook/sales/gainsight/).*
 

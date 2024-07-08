@@ -34,7 +34,7 @@ RTO and RPO are two of the most important parameters of a Business Continuity Pl
 
 #### What is a Recovery Point Objective?
 
-Recovery Point Objective (RPO) is the interval of time that might pass during a disruption before the quantity of data lost during that period exceeds the Business Continuity Plan’s maximum allowable threshold.
+Recovery Point Objective (RPO) is the interval of time that might pass during a disruption before the quantity of data lost during that period exceeds the Business Continuity Plan's maximum allowable threshold.
 
 #### What is a Recovery Time Objective?
 
@@ -96,7 +96,7 @@ Disruption of service from TripActions or internal chat tool (Slack).
 
 ### Communication Plan and Role Assignments
 
-When it comes to a disaster, communication is of the essence. A plan is essential because it puts all team-members on the same page and clearly outlines all communication. Documents should all have updated team-member contact information and team-members should understand exactly what their role is, in the days following the triggering of the BC plan. Assignments like setting up workstations, assessing damage, redirecting phones and other tasks will need assignments if you don’t have some sort of technical resource to help you sort through everything.
+When it comes to a disaster, communication is of the essence. A plan is essential because it puts all team-members on the same page and clearly outlines all communication. Documents should all have updated team-member contact information and team-members should understand exactly what their role is, in the days following the triggering of the BC plan. Assignments like setting up workstations, assessing damage, redirecting phones and other tasks will need assignments if you don't have some sort of technical resource to help you sort through everything.
 
 Each GitLab team should be trained and ready to deploy in the event of a disruptive situation requiring plan activation. The plan of action steps, procedures, and guidelines will be documented in their team runbooks page (currently under development) and should be available offline. This should have detailed steps on recovery capabilities, and instructions on how to return the system to normal operations.
 
@@ -104,7 +104,7 @@ More details on this will be covered in the `BC plan - roles & responsibilities 
 
 ### Backup check
 
-[Make sure that backups are performed daily](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md), and include running an additional full local backup on all servers and data in the Business Continuity preparation plan. Run them as far in advance as possible tp ensure that they’re backed up to a location that will not be impacted by the disaster. [Alternate storage provisioning](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
+[Make sure that backups are performed daily](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md), and include running an additional full local backup on all servers and data in the Business Continuity preparation plan. Run them as far in advance as possible tp ensure that they're backed up to a location that will not be impacted by the disaster. [Alternate storage provisioning](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
 
 ### Distribute and Verify the Plan / Approval from Senior management
 
@@ -133,7 +133,7 @@ GitLab's first test of the business continuity plan was performed in April 2020 
 
 - To ensure that the current backup facilities and procedures are feasible and compatible to achieve the determined RTO.  Can backup systems withstand a cyberattack.
 - To confirm that your continuity objectives are met (RTO and RPO). Accordingly provide training to the team managers and team members.
-- To evaluate the company’s response to various kinds of disruptive events .. Emergency communication strategy, is it functioning as expected. - How quickly can everyone be informed about an incident.
+- To evaluate the company's response to various kinds of disruptive events .. Emergency communication strategy, is it functioning as expected. - How quickly can everyone be informed about an incident.
 - To identify areas in the plan that need modification. Improve systems and processes based on test findings. And accordingly maintain and update the BC plan.
 
 ### Testing the plan
@@ -158,7 +158,7 @@ Some testing scenarios that can be performed, are given below:
         - Server/drive crash
         - Datacenter outage
     - Data is mission-critical and losing it can have many serious consequences, such as significantly impacting sales and logistics applications.
-    - The goal is to regain access to that data as soon as possible. Restoring backup is the solution. However, who’s responsible for that? What’s the communication plan in this case? What are the priorities? Who needs to be contacted right away? Are there any vendors involved? These and many other questions will be answered during this test.
+    - The goal is to regain access to that data as soon as possible. Restoring backup is the solution. However, who's responsible for that? What's the communication plan in this case? What are the priorities? Who needs to be contacted right away? Are there any vendors involved? These and many other questions will be answered during this test.
 
 1. Data Recovery Testing
 

@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab Release Posts"
 description: "Guidelines to create and update release posts"
 ---
@@ -9,10 +8,6 @@ description: "Guidelines to create and update release posts"
 Release posts are [blog posts](https://about.gitlab.com/releases/categories/releases/) that announce changes to the GitLab application. This includes our regular cadence of monthly releases which happen [every month](/handbook/engineering/releases/), and patch/security releases whenever necessary.
 
 Release posts follow a process outlined here, and the templates that are used to create them also highlight what needs to be done, by whom, and when those items are due.
-
-{{% note %}}
-We're evolving our release post process! You can view and share feedback on the latest direction by viewing [Scaling the release post](https://docs.google.com/presentation/d/1_Osx3FrDxT4aqjl-Kc9QXgp30z0Pl1k4tBCv0DlZYkk/edit).
-{{% /note %}}
 
 ## Quick Links
 
@@ -230,7 +225,7 @@ Please share your feedback by <time datetime="18:00">6 pm UTC (1 pm ET / 10 am P
 
 Currently there are no known issues/adjustments to the content but I know of one deprecation that needs to be added and will happen with my first wave of edits.
 
-Here’s the 13.6 release post MR: `https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/66652`
+Here's the 13.6 release post MR: `https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/66652`
 
 Cc @TW Lead @tech-advisor @PMM @Sid @david
 ```
@@ -698,8 +693,8 @@ Product Designers [DRIs](/handbook/people-group/directly-responsible-individuals
 
 Product Designers should collaborate on release post items and review:
 
-- **JTBD**: Ensure that the messaging encapsulates how the item supports a user’s [Job to be Done](/handbook/product/ux/jobs-to-be-done/).
-- **MVC messaging**: Articulate any design vision or future iterations if applicable. This is especially important when considering items that are [under construction](/handbook/values/#under-construction), or contribute toward a Category’s maturity.
+- **JTBD**: Ensure that the messaging encapsulates how the item supports a user's [Job to be Done](/handbook/product/ux/jobs-to-be-done/).
+- **MVC messaging**: Articulate any design vision or future iterations if applicable. This is especially important when considering items that are [under construction](/handbook/values/#under-construction), or contribute toward a Category's maturity.
 - **Artifacts**: Validate that UI elements (screenshots, GIFs) included in the post are up to date and reflect all design changes. Ensure that no mocks are used.
 
 ## Engineering Managers
@@ -912,7 +907,7 @@ features:
 
 #### Description
 
-Content of the **description** should adhere to the Marketing editorial team’s
+Content of the **description** should adhere to the Marketing editorial team's
 [style guide](/handbook/marketing/brand-and-product-marketing/content/editorial-team/#blog-style-guide).
 
 Do not include UI navigation instructions in the feature's description. These instructions should be
@@ -930,9 +925,11 @@ Use a short and strong name for all feature names.
 
 #### Feature Availability
 
-Use the following pattern to apply the correct badge to the feature (Free, Premium, Ultimate).
+Use the following pattern to apply the correct badge to the feature (Free, Premium, Ultimate) and to specify any add-ons (Duo Pro, Duo Enterprise).
 
-For the feature availability tier, use `available_in` with:
+##### Subscription tier
+
+For the subscription tier where the feature is available, use `available_in` with:
 
 - For GitLab Free, `[core, premium, ultimate]`
 - For GitLab Premium, `[premium, ultimate]`
@@ -940,7 +937,9 @@ For the feature availability tier, use `available_in` with:
 
   **Important note**: The GitLab Free tier is listed as `core` in the data file. This is intentional and the page templates will apply the proper tier name on the frontend.
 
-For features available on both self-managed and SaaS:
+##### Offering (GitLab.com or self-managed)
+
+For features available on both self-managed and GitLab.com:
 
 - Use `gitlab_com: true`, or do not include `gitlab_com` in the yaml file.
 
@@ -967,6 +966,19 @@ You can also mix the GitLab.com badges with the self-managed badges. However, fo
   - For availability in all tiers on GitLab.com and only Premium and Ultimate tiers on self-managed, use `[free, silver, gold, premium, ultimate]` and set `gitlab_com: false`
   - For availability in the Silver and Gold tiers on GitLab.com and all tiers on self-managed, use `[core, premium, ultimate, silver, gold]` and set `gitlab_com: false`
   - For availability in the Gold tier on GitLab.com and only Premium and Ultimate tiers on self-managed, use `[premium, ultimate, gold]` and set `gitlab_com: false`
+
+##### Add-ons
+
+To specify a subscription add-on, enter text in the `add_ons: [ ]` field.
+Each entry adds a badge. For Duo Pro and Duo Enterprise, specify both. For example:
+
+```yaml
+add_ons: ["Duo Pro", "Duo Enterprise"]
+```
+
+If only Duo Pro applies, use `add_ons: ["Duo Pro"]`.
+
+##### Features behind flags
 
 From time to time a feature may be developed behind a feature flag and made [available slowly](https://docs.gitlab.com/ee/development/feature_flags/#development-type) to larger audiences. If this is the case, do not include the item in the release post unless you are deliberately seeking beta testers. This may result in a feature issue being closed in a milestone earlier than it is announced.
 

@@ -1,13 +1,6 @@
 ---
-
 title: "Auxiliary Solution Resource: Continuous Delivery"
 ---
-
-
-
-
-
-
 
 #### Who to contact
 
@@ -19,15 +12,15 @@ title: "Auxiliary Solution Resource: Continuous Delivery"
 
 ## Continuous Delivery
 
-> “Deployment is manual”
-> “Functional tests are manual”
-> “Time consuming or lack of rollback on performance degradation or production errors”
-> “Hard to maintain environment configurations and hard to operate”
-> “No consistency in deployment process”
-> “Manual / hard coded configurations”
-> “No standardized software artifact”
-> “No release management in place”
-> “Too dependent on other teams to get any release done”
+> "Deployment is manual"
+> "Functional tests are manual"
+> "Time consuming or lack of rollback on performance degradation or production errors"
+> "Hard to maintain environment configurations and hard to operate"
+> "No consistency in deployment process"
+> "Manual / hard coded configurations"
+> "No standardized software artifact"
+> "No release management in place"
+> "Too dependent on other teams to get any release done"
 
 If these are the typical problems you face, Continuous Delivery is for you.
 
@@ -137,7 +130,7 @@ A collection of short demonstrations that show GitLab's CD capabilities.
 
 | Differentiator |  Value  |  Proof Point | Demos |
 |----------|-------------|------|----|
-| 1) **Unified deployment and monitoring strategies** | GitLab provides the ability to visualise what goes into production (via [Review Apps](https://docs.gitlab.com/ee/ci/review_apps/)), what to deploy to production (via [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html)), who to deploy it to (via [Progressive Delivery](https://docs.gitlab.com/ee/ci/environments/incremental_rollouts.html) and deployment strategies like [Canary](https://docs.gitlab.com/ee/user/project/canary_deployments.html)), monitor performance of deployment (via [browser performance testing](https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html), performance monitoring/tracing) and rollback based on performance via [post deployment monitoring](https://gitlab.com/groups/gitlab-org/-/epics/3088), **all from a single application**. | Strong Performer in the [Forrester Wave for Continuous Delivery and Release Automation Q2 2020](https://about.gitlab.com/blog/2020/07/08/forrester-cdra2020/) <br/> - James Governor from RedMonk talking about [GitLab’s focus on Progressive Delivery](https://redmonk.com/jgovernor/2019/07/10/progressive-delivery-at-gitlab/) - GitLab is an interesting case for a couple of key reasons: <br/> a) It has a significant and fast growing enterprise footprint, notably with its CD product. <br/> b) It develops software at high velocity, with a monthly release schedule and a strong bias to shipping, so you can watch improvements in real time. The company ships open source software and has a strong culture of corporate observability. | [![Unified and integrated monitoring and deployment strategies](../../images/youtube_social_icon_red-32x23.png) Unified and integrated monitoring and deployment strategies](https://youtu.be/ihdxpO5rgSc) |
+| 1) **Unified deployment and monitoring strategies** | GitLab provides the ability to visualise what goes into production (via [Review Apps](https://docs.gitlab.com/ee/ci/review_apps/)), what to deploy to production (via [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html)), who to deploy it to (via [Progressive Delivery](https://docs.gitlab.com/ee/ci/environments/incremental_rollouts.html) and deployment strategies like [Canary](https://docs.gitlab.com/ee/user/project/canary_deployments.html)), monitor performance of deployment (via [browser performance testing](https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html), performance monitoring/tracing) and rollback based on performance via [post deployment monitoring](https://gitlab.com/groups/gitlab-org/-/epics/3088), **all from a single application**. | Strong Performer in the [Forrester Wave for Continuous Delivery and Release Automation Q2 2020](https://about.gitlab.com/blog/2020/07/08/forrester-cdra2020/) <br/> - James Governor from RedMonk talking about [GitLab's focus on Progressive Delivery](https://redmonk.com/jgovernor/2019/07/10/progressive-delivery-at-gitlab/) - GitLab is an interesting case for a couple of key reasons: <br/> a) It has a significant and fast growing enterprise footprint, notably with its CD product. <br/> b) It develops software at high velocity, with a monthly release schedule and a strong bias to shipping, so you can watch improvements in real time. The company ships open source software and has a strong culture of corporate observability. | [![Unified and integrated monitoring and deployment strategies](../../images/youtube_social_icon_red-32x23.png) Unified and integrated monitoring and deployment strategies](https://youtu.be/ihdxpO5rgSc) |
 | 2) **Automated and Integrated Continuous Delivery** |  GitLab [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/index.html) simplifies and accelerates delivery with a complete delivery pipeline out of the box. Simply commit code and GitLab does the rest. GitLab also provides an integrated dashboard that spans across the CI/CD pipeline status and deployment status | - The built-in features of Auto DevOps have made our experience more rewarding and effective - [Daniel B on G2 Peer Reviews](https://www.g2.com/products/gitlab/reviews/gitlab-review-572450)<br/> - It has really helped us to shorten lead time, which has positively affected every single metric we measure - [Chorus.ai](https://about.gitlab.com/customers/chorus/) <br/> - GitLab Auto DevOps also delivered the technology component required for true CI/CD, accelerating product delivery with an end-to-end pipeline out of the box. - [ExtraHop Networks](https://about.gitlab.com/customers/extra-hop-networks/) | [![Automated and integrated Continuous Delivery](../../images/youtube_social_icon_red-32x23.png) Automated and integrated Continuous Delivery](https://youtu.be/blJT8f6ZDH8)  |
 | 3) **Modern Compliance for Continuous Delivery** | GitLab simplifies [compliance](https://docs.gitlab.com/ee/administration/compliance.html#compliance-features) with helping customers **define granular policies** such as who can approve MR, push to production, segregation of duties, release governance etc, **define security policies** such as license compliance, password policies, credential inventories etc, **track adherence to compliance** such as  user actions such as commits, permission changes, approval changes, logins, password changes, release evidence etc - all within a single application which allows **traceability** from deployment all the way back to code changes and requirements | - During a recent audit for SOC2 compliance, the auditors said that Chorus had the fastest auditing process they have seen and most of that is due to the capabilities of GitLab - [Chorus.ai](https://about.gitlab.com/customers/chorus/) <br/> - There is no longer a need for license keys or several different logins, because of the built-in security and compliance. Software is deployed anywhere, which relieves developers localization constraints.| tbd |
 
@@ -402,7 +395,7 @@ Check out this introductory video to learn the basics of CI/CD as software devel
 
 ### Blogs and articles
 
-- [Auto DevOps 101: How we’re making CI/CD easier](https://about.gitlab.com/blog/2019/10/07/auto-devops-explained/)
+- [Auto DevOps 101: How we're making CI/CD easier](https://about.gitlab.com/blog/2019/10/07/auto-devops-explained/)
 - [Progressive Delivery](https://about.gitlab.com/blog/2019/04/19/progressive-delivery-using-review-apps/)
 
 ### Interesting reads

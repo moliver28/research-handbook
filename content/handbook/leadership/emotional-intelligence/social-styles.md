@@ -54,7 +54,7 @@ Dimension of behavior that measures the degree to which others perceive a person
 
 **Personality:**  The combination of ideas, values, hopes, dreams, attitudes, abilities, as well as the behavior that others can observe that encompasses everything a person is.
 
-**SOCIAL STYLES:** Pattern of actions that others can observe and agree upon for describing one’s behavior
+**SOCIAL STYLES:** Pattern of actions that others can observe and agree upon for describing one's behavior
 
 <figure class="video_container">
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSGVmCDCF2hFfy7810AY0mMPeaBfsfYvOWYTp37roeBBRxCwAZdiqpdHXfV69tYRjuFfy2yk2CDAUS6/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

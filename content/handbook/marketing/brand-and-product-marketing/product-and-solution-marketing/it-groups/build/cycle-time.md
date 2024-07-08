@@ -1,5 +1,4 @@
 ---
-
 title: "Improve Cycle Time"
 description: "Faster time to market and shorter cycle times are a major challenge that is faced by development teams in every industry."
 ---
@@ -10,10 +9,10 @@ Faster time to market and shorter cycle times are a major challenge that is face
 ### 1- Cycle Time - Improve IT responsiveness to business demand
 
 1. What challenges do I (VP Apps) face?
-   1. **Meeting the demand from the business to deliver new capabilities**, enhancements, bug fixes, and patches needed to remain competitive.  We lack the capacity to do all the work and always have to prioritize which thing we will work on.   The business thinks we’re too slow and can’t respond fast enough.  **They want it all, and they want it now.** They think our projects are simply too expensive.
+   1. **Meeting the demand from the business to deliver new capabilities**, enhancements, bug fixes, and patches needed to remain competitive.  We lack the capacity to do all the work and always have to prioritize which thing we will work on.   The business thinks we're too slow and can't respond fast enough.  **They want it all, and they want it now.** They think our projects are simply too expensive.
    1. We have **constraints and bottlenecks** that create project conflicts, causing project flows to stop and wait for key resources (environments, SMEs, etc.)
-   1. **Bureaucracy (manual handoffs and processes between teams) slows us down** and prevents us from doing the ‘real work’ of shipping code.
-   1. **Quality - we’re swamped fixing defects, dealing with incidents** (support), and can’t pay down our technical debt.
+   1. **Bureaucracy (manual handoffs and processes between teams) slows us down** and prevents us from doing the 'real work' of shipping code.
+   1. **Quality - we're swamped fixing defects, dealing with incidents** (support), and can't pay down our technical debt.
 
 1. What does it look like today (problems faced)?
    1. **Unhappy business leaders, unhappy customers**
@@ -46,7 +45,7 @@ Faster time to market and shorter cycle times are a major challenge that is face
    1. Number of engineer **hours spent on new features versus** the integration and maintenance of toolchain
 
 1. How does GitLab help solve the problem?
-   1. **Integrated project management, SCM and robust automation** enable development teams to rapidly move from issue to code to test.   GitLab’s CI/CD enables teams to rapidly test each of their changes and then move those changes into testing environments using containers and Kubernetes.
+   1. **Integrated project management, SCM and robust automation** enable development teams to rapidly move from issue to code to test.   GitLab's CI/CD enables teams to rapidly test each of their changes and then move those changes into testing environments using containers and Kubernetes.
    1. **Integrated collaboration and built-in workflow between teams**
    1. **Single application for the entire SDLC** - no need to integrate 9+ tool categories
 
@@ -64,7 +63,7 @@ Faster time to market and shorter cycle times are a major challenge that is face
    1. Analyst reports
       1. Forrester has evaluated GitLab as a Leader in Continuous Integration in The Forrester Wave™: Continuous Integration Tools, Q3 2017 report.
       1. Forrester has evaluated GitLab as a strong performer for VSM capabilities on top of its end to end DevOps capabilities.
-      1. [Gartner Peer Reviews - Customer’s Choice (Applications release orchestration)](https://www.gartner.com/reviews/market/application-release-orchestration-solutions/vendor/gitlab/?pid=67923)
+      1. [Gartner Peer Reviews - Customer's Choice (Applications release orchestration)](https://www.gartner.com/reviews/market/application-release-orchestration-solutions/vendor/gitlab/?pid=67923)
       1. IDC recognized GitLab as a top 3 innovator in Agile Code Development Technologies for 2018.
 
    1. Industry Awards

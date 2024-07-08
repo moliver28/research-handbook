@@ -1,5 +1,4 @@
 ---
-
 title: "Marketing Operations"
 description: "Marketing Operations (MktgOps) supports the entire Marketing team to streamline processes and manage related tools. Due to those tools, we often support other teams at GitLab as well."
 ---
@@ -409,10 +408,9 @@ Below are tools in the Marketing Technology stack, organized by tier.
 #### Management Technology - Tier 3
 
 - [Litmus](/handbook/marketing/marketing-operations/litmus)
-- [Reachdesk](/handbook/marketing/marketing-operations/reachdesk/)
+- [Brilliant Gifts](/handbook/marketing/marketing-operations/brilliant/)
 - Google Analytics (Search Discovery/Further) (DEX)
 - [Terminus Email Experiences](/handbook/marketing/marketing-operations/terminus-email-experiences)
-- [Typeform](/handbook/marketing/marketing-operations/typeform/)
 
 #### Functional Technology - Tier 4
 
@@ -431,6 +429,7 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - [Sprout Social + Bambu](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#team-member-social-media-advocacy-and-enablement)
 - [Vimeo](/handbook/marketing/marketing-operations/vimeo/) (Brand)
 - [Zendesk Community](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
+- [Typeform](/handbook/marketing/marketing-operations/typeform/)
 
 ### Requesting access to an existing tool
 
@@ -458,7 +457,6 @@ Click to see dropdown list of available status page URLs.
 - [LinkedIn Sales Navigator](https://www.linkedin-apistatus.com/)
 - [Outreach.io](https://status.outreach.io/)
 - [PathFactory](https://status.pathfactory.com/)
-- ReachDesk
 - RingLead
 - [Terminus Email Experiences](https://status.terminus.com/)
 - [ZoomInfo](https://status.zoominfo.com/)
@@ -620,9 +618,9 @@ Status in the table below means:
 | Investor | outbound | Sourced by our investors (i.e. - GV, Khosla, ICONIQ). The `Investor` value is coupled with the `Investor Name` custom field | Active |
 | GitLab DataMart|core| Created by the GitLab Marketing Database data pump. Contains leads from various internal sources|Active|
 | GitLab Subscription Portal|Signed up for customers portal account, but did not upgrade| |Active|
-|Free Registration|core| Sign up via Free User registration|Active|
-|Paid Social|inbound|Sourced from Paid Social Campaigns|Active|
-|Vendor Arranged Meetings|paid demand gen| Registered or attended a vendor arranged meeting|Active|
+| Free Registration|core| Sign up via Free User registration|Active|
+| Paid Social|inbound|Sourced from Paid Social Campaigns|Active|
+| Vendor Arranged Meetings|paid demand gen| Registered or attended a vendor arranged meeting|Active|
 | Trust Center | inbound | Requested access to the GitLab [Trust Center](/handbook/security/security-assurance/field-security/trust_center_guide/) | Active |
 
 | Source | Source Bucket | Definition and/or transition plan | Status* |

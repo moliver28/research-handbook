@@ -1,9 +1,9 @@
 ---
 title: The Internal Audit and SOX Manager
-description: Responsible for preparing and implementing a risk-based SOX audit plan to assess, report on, and make suggestions for improving the company’s key operational and finance activities and internal controls.
+description: Responsible for preparing and implementing a risk-based SOX audit plan to assess, report on, and make suggestions for improving the company's key operational and finance activities and internal controls.
 ---
 
-The position will have a key role in assessing the company’s compliance with the requirements of the Sarbanes-Oxley Act of 2002. This position reports to the Vice President of Internal Audit.
+The position will have a key role in assessing the company's compliance with the requirements of the Sarbanes-Oxley Act of 2002. This position reports to the Vice President of Internal Audit.
 
 ### Job Grade
 
@@ -20,7 +20,7 @@ Market Justification: This individual will own the program management of Interna
 - Coordinate with internal and external auditors and co-sourcing partners for controls testing and process walkthroughs to streamline impact on the business and align test results and yield efficiencies.
 - Lead implementation of a SOX project management tool and maintain the tool going forward
 - Reviewing, assessing, and evaluating reported control deficiencies, root causes, and planned corrective actions in conjunction with business process owners.
-- Recommend continuous improvements related to the Company’s key controls
+- Recommend continuous improvements related to the Company's key controls
 - Lead and manage various SOX meetings e.g. SOX working team, SOX Steering Group and other SOX meetings as required
 - Working closely with the IT and Security Compliance teams to ensure IT General Control and documentation and monitoring programs are consistent with SOX requirements.
 - Preparing materials and presenting SOX findings and assertions at SOX Steering Group

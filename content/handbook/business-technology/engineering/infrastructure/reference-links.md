@@ -1,5 +1,4 @@
 ---
-
 title: "Infrastructure Reference Links"
 description: "This page provides helpful links and reference material for the infrastructure team."
 ---

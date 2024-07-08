@@ -16,9 +16,9 @@ Core Platform focuses on improving our capabilities and metrics in the following
 - [Distribution:Deploy](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-deploy)
 - [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/)
 - [Gitaly](/handbook/engineering/infrastructure/core-platform/systems/gitaly/)
-- [Cloud Connector](/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/)
+- [Cloud Connector](/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/)
 - [Global Search](/handbook/engineering/infrastructure/core-platform/data_stores/search/)
-- [Tenant Scale](/handbook/engineering/infrastructure/core-platform/data_stores/tenant-scale/)
+- [Tenant Scale](/handbook/engineering/infrastructure/core-platform/tenant-scale/)
 
 ## All Team Members
 
@@ -34,7 +34,7 @@ The following people are permanent members of teams that belong to the Core Plat
 
 ### Distribution:Build
 
-{{< team-by-manager-slug manager="sissiyao" team="Build" >}}
+{{< team-by-manager-slug manager="plu8" team="Build" >}}
 
 ### Distribution:Deploy
 
@@ -221,4 +221,4 @@ The following conditions are followed when initiating the process:
 1. The applying candidate's last performance rating was `Performing` and there is no ongoing performance concerns at the time of application.
 2. The length of duration is what is defined by the Rapid Action and Borrow requests. For Internship, it is typically [6 weeks to 3 months](/handbook/people-group/learning-and-development/internship-for-learning/#:~:text=How%20long%20does%20an%20internship%20of%20this%20nature%20last%3F).
 3. At any time, the maximum concurrent temporary assignments cannot exceed 2 individuals for the roles within Core Platform. Note that there is no limit to roles for Rapid Actions and Borrows of company priority initiatives.
-4. Other specific requirements of each temporary arrangement, for example a condition of Internship says 'If your manager has coverage, you can spend a percentage of your time working (through an ‘Internship’) with another team.'
+4. Other specific requirements of each temporary arrangement, for example a condition of Internship says 'If your manager has coverage, you can spend a percentage of your time working (through an 'Internship') with another team.'

@@ -1,13 +1,6 @@
 ---
-
 title: "Infrastructure Department Frequently Asked Questions"
 ---
-
-
-
-
-
-
 
 ### GitLab.com Backups
 

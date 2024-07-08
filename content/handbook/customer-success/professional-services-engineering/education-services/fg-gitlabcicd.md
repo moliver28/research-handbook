@@ -56,7 +56,7 @@ description: "This Facilitator Guide is intended to walk you through all importa
 
 ### Module 3: Anatomy of a Pipeline
 
-1. Be prepared to demo a YAML build- a simple “hello world” project is fine
+1. Be prepared to demo a YAML build- a simple "hello world" project is fine
 1. Ensure attendees have the Hands On Guide open for their lab exercises
 1. For lab 2- they can use any template they choose, but BASH covers the most characteristics and examples for them.
 1. Be prepared to demo a merge request (from our lab guide)

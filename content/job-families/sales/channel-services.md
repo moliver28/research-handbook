@@ -42,9 +42,9 @@ The Channel Services Manager is a [grade 6](/handbook/total-rewards/compensation
 
 #### Responsibilities
 
-- The Channel Services Manager will serve as a primary point of contact for GitLab’s top services partners and will ensure that services partners are trained and certified to provide professional, consulting, training, & managed services for GitLab customers.
+- The Channel Services Manager will serve as a primary point of contact for GitLab's top services partners and will ensure that services partners are trained and certified to provide professional, consulting, training, & managed services for GitLab customers.
   - For managed services: ensuring that the channel partners are operating compliant practices and offerings with the GitLab best practices.
-- This individual will help GitLab manage the evolution of its services offerings via partners to drive usage adoption of the complete GitLab platform and expansion across the customers’ organizations.
+- This individual will help GitLab manage the evolution of its services offerings via partners to drive usage adoption of the complete GitLab platform and expansion across the customers' organizations.
 - Assist in defining, documenting, and packaging service offerings &/or practices at the partner that support the GitLab Customer Success cycle including maintaining GitLab published assets in the partner portal and the GitLab Handbook–with specific focus on training services or managed services.
 - Support the GitLab Enablement & Customer Success teams in building and improving tools and processes that promote partner services success.
 - Working with the Channel Sales Managers, drive and facilitate the launch of partner GitLab practices, service & solution offerings.
@@ -66,7 +66,7 @@ The Channel Services Manager is a [grade 6](/handbook/total-rewards/compensation
 - BS/BA required or equivalent experience; MBA a plus
 - DevOps experience a plus
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Senior Channel Services Manager
 
@@ -102,7 +102,7 @@ The Senior Channel Services Manager is a [grade 7](/handbook/total-rewards/compe
 - BS/BA required or equivalent experience
 - DevOps experience a plus
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Lead Channel Services Manager
 
@@ -144,7 +144,7 @@ The Lead Channel Services Manager is a [grade 8](/handbook/total-rewards/compens
 - BS/BA required or equivalent experience; MBA a plus
 - Experience in the DevOps space a plus
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Manager, Channel Services
 
@@ -190,7 +190,7 @@ The Senior Manager, Channel Services is a [grade 9](/handbook/total-rewards/comp
 - Experience in the DevOps space a plus
 - Experience in recruiting and leading high performing teams.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Director, Channel Services
 
@@ -222,7 +222,7 @@ The Director, Channel Services is a [grade 10](/handbook/total-rewards/compensat
 - BS/BA required or equivalent experience; MBA a plus
 - Experience in the DevOps space a plus
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Senior Director, Channel Services
 

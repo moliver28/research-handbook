@@ -134,7 +134,7 @@ When sending a calendar invite for an in-person meeting at Mission Control, plea
 - Meetings should be scheduled for 25 minutes or 50 minutes.  As a general guideline meetings should not be scheduled to the full 30/60 minute mark
 - If the call is with any Google company, use Hangouts instead of Zoom.
 - For meetings at Mission Control and another guest joining via video call: The EBA will schedule an additional ten minutes before the appointment to test the zoom room system.
-- For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled.
+- For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it's scheduled.
 - Make sure to plan travel time (in a separate calendar item, just for the exec) before and after the meeting in case another meeting or call should follow.
 - After each meeting with a potential investor, make sure to update Airtable with the information on these meetings.
 
@@ -229,7 +229,7 @@ More information can be found [here](/job-families/people-group/executive-busine
 1. What is this for?
 1. Electronic signature or physical wet signature?
 1. Who needs to sign? See [Authorization Matrix](/handbook/finance/authorization-matrix/)
-1. Why is this person’s signature required?
+1. Why is this person's signature required?
 1. If a wet signature is required,  is there a specific ink color that should be use?
 1. Is there a specific paper size that is required? For example, Ireland requires A4.
 1. Is Legal required to review and/or stamp approved?

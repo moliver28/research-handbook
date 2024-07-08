@@ -4,8 +4,6 @@ description: "Messaging for DevSecOps use case showing positioning, promise, key
 title: "DevSecOps Message House"
 ---
 
-
-
 | Positioning Statement: | *Simplify and scale security and compliance while adding visibility and control* |
 |------------------------|-------------------------------------------------------------------------|
 | **Short Description** | *GitLab automates robust application security scanning, embedded within CI, to help you align your security program to the DevOps development process. Automated security and compliance policies help developers go fast while managing software risk.* |

@@ -131,7 +131,7 @@ More questions [here](/handbook/marketing/brand-and-product-marketing/product-an
 
 ### Common benefits  {#common-benefits}
 
-| Desired Future State (“After Scenarios”) | So What? (“Positive Business Outcomes”) |
+| Desired Future State ("After Scenarios") | So What? ("Positive Business Outcomes") |
 | ----------------------------- | -------------------------------- |
 | More automation | Less risk as manual repetitive tasks are error prone |
 | Faster mean time to repair | Can be rolled back rapidly to a working definition of the infrastructure rather than troubleshooting before roll-back - resulting in faster time to repair |
@@ -296,10 +296,10 @@ How to identify if you need to have a GitOps conversation with a lead?
 
 Here are a few recommended email templates you can use based on the stage of the customers journey.
 
-- Awareness: [Here’s how infra teams can move at the pace of development](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.tvxw4uololys)
+- Awareness: [Here's how infra teams can move at the pace of development](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.tvxw4uololys)
 - Consideration: [Achieve multi-cloud multi-k8s deployments with GitOps](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.qb2mme6e6mph)
 - Decision/Purchase: [Learn how Kiwi.com deploys infrastructure and application within 3 minutes!](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.6fvbsmo2n7go)
-- Technical Demo: [Here’s how your team can automate infrastructure deployments](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.zedoh58debpr)
+- Technical Demo: [Here's how your team can automate infrastructure deployments](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.zedoh58debpr)
 
 ### Services {#services}
 

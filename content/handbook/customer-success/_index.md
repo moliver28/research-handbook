@@ -1,5 +1,4 @@
 ---
-
 title: Customer Success
 description: >-
   The Customer Success department is part of the GitLab Sales function who
@@ -46,7 +45,7 @@ Ensuring paying customers are successful in their onboarding in order to gain ad
 
 ### Initiative: Usage
 
-Collecting and making use of customer data and insights is key to customer success. It’s important to do more with data and when necessary share back with customers, which in turn helps and encourages our customers to improve and drive adoption.
+Collecting and making use of customer data and insights is key to customer success. It's important to do more with data and when necessary share back with customers, which in turn helps and encourages our customers to improve and drive adoption.
 
 ### Initiative: Performance
 

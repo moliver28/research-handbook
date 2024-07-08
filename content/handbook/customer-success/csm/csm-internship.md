@@ -1,13 +1,7 @@
 ---
-
 title: "CSM Internship Program"
 
 ---
-
-
-
-
-
 
 This page describes best practices for an [internship for learning](/handbook/people-group/learning-and-development/internship-for-learning/) with the CSM team.
 

@@ -1,9 +1,9 @@
 ---
 title: "Technical Accounting Management"
-description: "The Technical Accounting Role deeply understands GAAP accounting principles and how to apply those principles to GitLab’s financial statements."
+description: "The Technical Accounting Role deeply understands GAAP accounting principles and how to apply those principles to GitLab's financial statements."
 ---
 
-The Technical Accounting Role deeply understands GAAP accounting principles and how to apply those principles to GitLab’s financial statements.
+The Technical Accounting Role deeply understands GAAP accounting principles and how to apply those principles to GitLab's financial statements.
 
 ## Levels
 
@@ -15,7 +15,7 @@ The Technical Accounting Manager is a [grade 8](/handbook/total-rewards/compensa
 
 #### Responsibilities
 
-- Assists in determining and documenting the Company’s accounting policies and position on relevant transactions.
+- Assists in determining and documenting the Company's accounting policies and position on relevant transactions.
 - Review of non-recurring journal entries to determine appropriate classification.
 - Must have good technical research skills.
 - Must be able to work collaboratively with the operational accounting team and business functions.
@@ -91,9 +91,9 @@ The Senior Director, Technical Accounting is a [grade 11](/handbook/total-reward
 - Provide global oversight of technical accounting policies and proactively assess the impact of new U.S. GAAP accounting standards and SEC regulations
 - Provide strategic direction to the technical accounting team, including recruiting, retaining, and developing top talent
 - Partner with leadership, team members and other stakeholders across GitLab to address technical accounting matters
-- Establish themselves as a key business partner and “go-to” resource to provide technical accounting guidance to senior management and others
+- Establish themselves as a key business partner and "go-to" resource to provide technical accounting guidance to senior management and others
 - Document analysis of complex accounting matters and communicate results succinctly for non-accountants to understand
-- Support GitLab’s quarterly and annual SEC filings and partner with the SEC Reporting team during the quarterly reporting cycle
+- Support GitLab's quarterly and annual SEC filings and partner with the SEC Reporting team during the quarterly reporting cycle
 - Incorporate and maintain SOX controls within the Technical Accounting function
 - Coordinate with the accounting team/advisors/external valuation firms/founders of targets for all financial reporting related matters for asset and business acquisitions
 - Draft responses to SEC comments on the financial statements

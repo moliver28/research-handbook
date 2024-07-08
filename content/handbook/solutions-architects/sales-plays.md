@@ -1,9 +1,7 @@
 ---
-
 title: Solutions Architect Sales Plays
-description: “Discover GitLab Solutions Architects’ Sales Plays practices”
+description: "Discover GitLab Solutions Architects' Sales Plays practices"
 ---
-
 
 ## Sales Plays for new account & teams(existing customer) lands
 

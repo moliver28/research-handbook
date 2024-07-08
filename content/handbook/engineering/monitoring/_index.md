@@ -1,5 +1,4 @@
 ---
-
 title: Monitoring of GitLab.com
 ---
 
@@ -13,6 +12,7 @@ More details on definitions of outage, and degradation are on the [incident-mana
 
 | **Year Month** | **Availability** | **Comments** |
 | ---- | ----------- | ---- |
+| 2024 June | 99.99% |  |
 | 2024 May | 100.00% |  |
 | 2024 April | 99.96% | |
 | 2024 March | 100% | |

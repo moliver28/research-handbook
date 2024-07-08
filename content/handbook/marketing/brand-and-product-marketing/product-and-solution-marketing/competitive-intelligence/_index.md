@@ -1,13 +1,6 @@
 ---
-
 title: "Competitive Intelligence"
 ---
-
-
-
-
-
-
 
 ## Competitive Intelligence at GitLab
 
@@ -52,9 +45,9 @@ If you are not in these teams and require access, reach out to @jkempton on slac
 
 In the spirit of the GitLab values of iteration and collaboration, Crayon is designed to allow GitLab teammates to contribute and develop any and all competitive intelligence, wherever and whenever they encounter it, rather than it being gatekept by just the Competitive Intelligence Team. In that regard, the team are encouraged to update, correct, amend and comment on competitive intelligence news, on competitive cards, and collaborate on competitive boards to ensure everyone has the best and most up-to-date information. Crayon also has a dedicated analyst working behind the scenes to help source and surface competitive intelligence; you may see comments from our analyst within the Crayon tool.
 
-For any questions around how to use the Crayon platform, please use Crayon’s [own FAQ](https://support.crayon.co/hc/en-us) before reaching out to ‘@jkempton’ for any help.
+For any questions around how to use the Crayon platform, please use Crayon's [own FAQ](https://support.crayon.co/hc/en-us) before reaching out to '@jkempton' for any help.
 
-Note also that the “help” functionality on the tool should ONLY be used for questions around the use of the Crayon tool, and not for general questions directed at the GitLab competitive intelligence team (for example, questions like “Can you help with this competitor” should be shared in the ‘#competition’ slack channel, not asked as a question through Crayon)
+Note also that the "help" functionality on the tool should ONLY be used for questions around the use of the Crayon tool, and not for general questions directed at the GitLab competitive intelligence team (for example, questions like "Can you help with this competitor" should be shared in the '#competition' slack channel, not asked as a question through Crayon)
 
 #### How to use Crayon
 

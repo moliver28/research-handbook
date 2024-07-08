@@ -1,5 +1,4 @@
 ---
-
 title: "Business Technology - Tech Stack Details"
 description: "A list of tools and applications used internally at GitLab and how to access them."
 ---

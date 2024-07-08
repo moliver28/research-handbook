@@ -1,14 +1,7 @@
 ---
-
 title: "Operational Email Sends"
 description: "The Marketing Operations team works very closely with the Lifecyle Marketing team, and sometimes are tasked with deploying non-demand generation emails."
 ---
-
-
-
-
-
-
 
 ## Overview
 

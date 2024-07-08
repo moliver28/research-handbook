@@ -25,7 +25,7 @@ Customer Terrain Mapping Engagements provide customers with the benefit of GitLa
 
 ### Further Iterations of Customer Terrain Maps
 
-Like anything in the handbook, it is everyone’s responsibility and prerogative to improve these materials through corrections and enhancements. At the same time, Terrain Mapping reflects adherence to specific design principles to deliver the items documented above in Customer Terrain Mapping Design Goals.  For those wishing to make substantial changes or generate entirely new Terrain maps, these design principles are documented here: [Terrain Mapping Overview and Design Principles (GitLab Team Members Only)](https://docs.google.com/document/d/1aphwxd6LwwyfVlqNbbTzLgKyjZEX-jvpmEWEyC4XXQg/edit?usp=sharing)
+Like anything in the handbook, it is everyone's responsibility and prerogative to improve these materials through corrections and enhancements. At the same time, Terrain Mapping reflects adherence to specific design principles to deliver the items documented above in Customer Terrain Mapping Design Goals.  For those wishing to make substantial changes or generate entirely new Terrain maps, these design principles are documented here: [Terrain Mapping Overview and Design Principles (GitLab Team Members Only)](https://docs.google.com/document/d/1aphwxd6LwwyfVlqNbbTzLgKyjZEX-jvpmEWEyC4XXQg/edit?usp=sharing)
 
 ### GitLab Internal Enablement and Preparation Resources
 

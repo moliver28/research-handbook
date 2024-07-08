@@ -1,8 +1,6 @@
 ---
-
 title: Business Value Consulting
 ---
-
 
 Business value consulting is a practice and approach that a Solutions Architect (SA), in collaboration with the sales team, can engage with the customers to
 

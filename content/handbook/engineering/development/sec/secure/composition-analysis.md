@@ -55,7 +55,7 @@ To share your time-off:
 
 1. In Slack, find the `Time Off by Deel` application under the `Apps` menu.
 1. Under `Home`, click on `Your Events` to show a dropdown.
-1. Click on ‘Calendar Sync’ under the Settings break.
+1. Click on 'Calendar Sync' under the Settings break.
 1. Click `Add calendar` under `Additional calendars to include?`. Use the calendar ID above.
 
 To visualize the calendar:
@@ -383,6 +383,15 @@ The vulnerabilities reported on the currently used version of the scanner are au
 
 We check for new releases of the upstream scanners on a monthly basis, as part of our [release issue](https://gitlab.com/gitlab-org/security-products/release/-/blob/master/scripts/templates/release_issue.md.erb). When an update is available, a new issue is created using the [update scanner issue template](https://gitlab.com/gitlab-org/security-products/release/-/blob/master/scripts/templates/update_scanner_issue.md.erb) and added to the next milestone.
 
+##### Upstream Tools and Analyzers list
+
+1. [Trivy](https://gitlab.com/gitlab-org/security-products/dependencies/trivy).
+   1. [Container Scanning](https://gitlab.com/gitlab-org/security-products/analyzers/container-scanning/-/blob/master/doc/howto/update-scanners.md)
+   1. [Trivy K8S wrapper](https://gitlab.com/gitlab-org/security-products/analyzers/trivy-k8s-wrapper/-/blob/main/docs/update_scanner.md)
+1. [OpenTofu](https://opentofu.org/)
+   1. [Deployment](https://gitlab.com/gitlab-org/security-products/license-db/deployment)
+1. [OpenTofu component](https://gitlab.com/components/opentofu)
+   1. [Deployment](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/.gitlab-ci.yml#L5)
 Every analyzer relying on an upstream scanner has a "*How to update the upstream Scanner*" section in their readme detailing the process. This includes a verification for possible new security vulnerabilities and a license check which are detailed below.
 
 ##### Security checks when updating an upstream scanner

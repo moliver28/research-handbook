@@ -69,7 +69,7 @@ The broader Finance and Business Technology team is focused on the principles of
 | 6 | Sales Process Improvements | - [Approvals Matrix](https://docs.google.com/spreadsheets/d/1AUFys4-bkykjOCscI2Zhg8FXbqlMNqWwUbAd8ahT2oI/edit#gid=0) | - Deliver in FY24-Q4 and FY25-Q1 |
 | 7 | Data Quality | - Salesforce Data Governance Committee | - Deliver to planned ship dates  |
 | 8 | Sales Rep Usability | - Program to remove fields and clean up page layouts for key rep flows <br> - Reduce clicks. | -  TBD - not started |
-| 9 | Value Add in the System for Sales | - Identify 3 flows where reps get value in the system (e.g. request SA help or product meeting for my deal) | - TBD - can’t start until progress on 1-8 |
+| 9 | Value Add in the System for Sales | - Identify 3 flows where reps get value in the system (e.g. request SA help or product meeting for my deal) | - TBD - can't start until progress on 1-8 |
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Work
 

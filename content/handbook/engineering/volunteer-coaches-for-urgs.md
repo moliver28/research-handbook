@@ -1,13 +1,6 @@
 ---
-
 title: "Volunteer Coaches for URGs"
 ---
-
-
-
-
-
-
 
 ## Pilot Program Overview
 
@@ -43,7 +36,7 @@ To make this program as scalable as possible we partner with other organizations
 
 Here is a little bit about **Latinitas** in [their own words](https://latinitasmagazine.org/about-us/):
 
-> Latinas are underestimated and underrepresented. It’s time for Latinas to know that they are important; they deserve to see their experiences reflected honestly and accurately.
+> Latinas are underestimated and underrepresented. It's time for Latinas to know that they are important; they deserve to see their experiences reflected honestly and accurately.
 > Through after-school clubs, camps, events and publications, and channels, we provide a space, both in the physical and online, for girls to express themselves, develop their skills, learn about their culture and discover their unique voice.
 
 GitLab Contact: [Melissa Ushakov](https://gitlab.com/mushakov)

@@ -1,17 +1,10 @@
 ---
-
 title: "Tech Stack Applications"
 description: "Instructions for how to access the GitLab tech stack and request updates to it"
 extra_js:
   - libs/vue.min.js
   - tech-stack.js
 ---
-
-
-
-
-
-
 
 ## Definition and Access
 

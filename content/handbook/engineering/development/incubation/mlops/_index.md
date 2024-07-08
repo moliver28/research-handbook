@@ -1,5 +1,4 @@
 ---
-
 title: MLOps Incubation Engineering
 ---
 
@@ -49,7 +48,7 @@ MLops is a large and young field. We used Jobs to be Done to make it explicit wh
 We are keeping a backlog for potential exploration areas. Anyone is welcomed to pitch in new ideas using the [Backlog Epic](https://gitlab.com/groups/gitlab-org/incubation-engineering/mlops/-/epics/8)
 
 |                                                                                                                                   | Reach | Impact | Confidence | Effort | Colab | MLOps Branding* | RICE+ |
-|-----------------------------------------------------------------------------------------------------------------------------------|-------|--------|------------|--------|-------|-----------------|-------|  
+|-----------------------------------------------------------------------------------------------------------------------------------|-------|--------|------------|--------|-------|-----------------|-------|
 | [JupyterLab-GitLab Plugin](https://gitlab.com/gitlab-org/incubation-engineering/mlops/meta/-/issues/50)                           | 2     | 2      | 2          | 2      | 1     | 3               | 24    |
 | [Enable GitLab Runners for ML Use cases](https://gitlab.com/gitlab-org/gitlab/-/issues/328489)                                    | 3     | 3      | 3          | 2      | 2     | 1.5             | 13.5  |
 | [Analysis Repository, GitLab Pages for Data Science](https://gitlab.com/groups/gitlab-org/incubation-engineering/mlops/-/epics/7) | 1     | 2      | 1          | 2      | 1     | 3               | 6     |

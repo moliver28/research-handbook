@@ -2,7 +2,6 @@
 title: Security at GitLab
 ---
 
-
 ## <i class="fas fa-rocket" id="biz-tech-icons"></i> Security Vision and Mission
 
 Our vision is to transparently lead the world to secure outcomes.
@@ -10,7 +9,7 @@ Our vision is to transparently lead the world to secure outcomes.
 Our mission is to enable everyone to innovate and succeed on a safe, secure, and trusted DevSecOps platform. This will be achieved through 5 security operating principles:
 
 1. Accelerate business success with a focus on:
-   - Prioritize ‘boring’, iterative solutions that minimize risk
+   - Prioritize 'boring', iterative solutions that minimize risk
    - Find ways to say Yes
    - Understand goals before recommending solutions
    - Use GitLab first
@@ -21,7 +20,7 @@ Our mission is to enable everyone to innovate and succeed on a safe, secure, and
    - Reusable or repeatable over singular solutions
 1. Transparency with a focus on:
    - Responsible protection of MNPI (material non-public information)
-   - Evangelize [dogfooding]({{< ref "values#dogfooding" >}}) of GitLab publicly
+   - Evangelize [dogfooding](/handbook/values/#dogfooding) of GitLab publicly
    - Lead with metrics
    - Balance security with usefulness
 1. Risk Reduction with a focus on:
@@ -101,7 +100,7 @@ To reflect this, we have structured the Security Division around four key tenets
 
 The [Product Security Department]({{< ref "product-security" >}}) is primarily focused on Securing the Product. This reflects the Security Division's current efforts to be involved in the Application development and Release cycle for Security Releases, Infrastructure Security, and our HackerOne bug bounty program.
 
-The term “Product” is interpreted broadly and includes the GitLab application itself and all other integrations and code that is developed internally to support the GitLab application for the multi-tenant SaaS. Our responsibility is to ensure all aspects of GitLab that are exposed to customers or that host customer data are held to the highest security standards, and to be proactive and responsive to ensure world-class security in anything GitLab offers.
+The term "Product" is interpreted broadly and includes the GitLab application itself and all other integrations and code that is developed internally to support the GitLab application for the multi-tenant SaaS. Our responsibility is to ensure all aspects of GitLab that are exposed to customers or that host customer data are held to the highest security standards, and to be proactive and responsive to ensure world-class security in anything GitLab offers.
 
 #### Protect the Company - The Security Operations Department
 
@@ -134,7 +133,7 @@ Security Program Management is responsible for complete overview and driving sec
 
 ### Product development
 
-In keeping with our [core values]({{< ref "values" >}}) and the belief that [everyone can contribute]({{< ref "mission#everyone-can-contribute" >}}), the Security Division is committed to [dogfooding]({{< ref "values#dogfooding" >}}) and contributing to the development of the GitLab product.
+In keeping with our [core values]({{< ref "values" >}}) and the belief that [everyone can contribute]({{< ref "mission#everyone-can-contribute" >}}), the Security Division is committed to [dogfooding](/handbook/values/#dogfooding) and contributing to the development of the GitLab product.
 
 ---
 

@@ -770,7 +770,7 @@ This is how we operate, because Google Docs/Apps can only be found and contribut
 
 #### Do not link directly to Google Drive/Apps
 
-Having said that, there is content which doesn’t make sense to be created on the website directly (e.g. large collections of data in tables, spreadsheets for calculations, etc) or for which Google Drive storage makes sense.
+Having said that, there is content which doesn't make sense to be created on the website directly (e.g. large collections of data in tables, spreadsheets for calculations, etc) or for which Google Drive storage makes sense.
 
 When directing folks to these files in Google Drive please include name of the file in the handbook so that team members can search for it in Google Drive. If you link directly to the URL, people from outside the organization can request access, creating workload and the potential for mistakes.
 
@@ -865,13 +865,14 @@ The default setting of showing the previous (older) message is usually preferred
 
 #### Email signature
 
-Set up an [email signature](https://support.google.com/mail/answer/8395) which includes your full name and job title so people can quickly know what you do.
+-Set up an [email signature](https://support.google.com/mail/answer/8395) which includes your full name and job title so people can quickly know who you are and what you do.
+-It is also an option to add your [personal pronouns](/handbook/people-group/pronouns/) to your email signature.
 
 ##### Example
 
 *Note: You can copy and paste the template below to use it in your own signature.*
 
-<span style="font-family: serif;font-size: small;display: block;">John Doe</span>
+<span style="font-family: serif;font-size: small;display: block;">Alex Doe (they/them)</span>
 <span style="color: #999999;font-family: sans-serif;font-size: small;display: block;">Frontend Engineer | GitLab</span>
 
 <img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png" alt="GitLab Logo" width="98" height="37">
@@ -880,7 +881,7 @@ Set up an [email signature](https://support.google.com/mail/answer/8395) which i
 
 If you are employed by our German entity GitLab GmbH, you will need to include some additional company related details after your own signature in emails ([along with other forms of communication listed on the German entity Handbook page]({{< ref "gmbh-germany" >}})) as follows:
 
-<span style="font-family: serif;font-size: small;display: block;">John Doe</span>
+<span style="font-family: serif;font-size: small;display: block;">Alex Doe (they/them)</span>
 <span style="color: #999999;font-family: sans-serif;font-size: small;display: block;">Frontend Engineer | GitLab</span>
 
 <img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png" alt="GitLab Logo" width="98" height="37">

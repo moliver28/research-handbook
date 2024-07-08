@@ -1,14 +1,8 @@
 ---
-
 title: Professional Service Operations
 category: Internal
 description: "Learn about the GitLab Professional Services operations processes and workflows."
 ---
-
-
-
-
-
 
 ## Welcome to GitLab Professional Services Operations
 
@@ -370,19 +364,19 @@ Health Reports provide a weekly snap shot status to PS Management on the overall
   - What is the individual being hires to do
     - GitLab Customer Name- Partner Name- PSE/ PM Name
   - Are any GitLab employees already performing this service?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - Will GitLab provide the individual with the required hardware/ device to complete the work?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - Is this a PS Partners service request?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - Is this an extension?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - Is the intended engagement meant to be over 6 months?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - Would you like Procurement to negotiate?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - What is the estimated spend?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - Requisition Information
     - Add Partner Name
     - Description/ Item
@@ -414,8 +408,8 @@ Health Reports provide a weekly snap shot status to PS Management on the overall
 - Go into the Review Cart section and enter the information on the purchase request with the Professional Services Request Form questions already populated and added to the purchase request.
 
 - Notes:
-  - For Consulting, do not specify anyone for the “on behalf of” field. PS Project Coordinator will initiate the new purchase request.
-  - For Training, PS Education Services Manager will initiate a new purchase request and specify the PS Project Coordinator for the “on behalf of” field.
+  - For Consulting, do not specify anyone for the "on behalf of" field. PS Project Coordinator will initiate the new purchase request.
+  - For Training, PS Education Services Manager will initiate a new purchase request and specify the PS Project Coordinator for the "on behalf of" field.
 - General Info section:
   - Description of Purchase- PS Partner Sub Contractor Agreement
   - Add Agreements in the Attachments

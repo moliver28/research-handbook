@@ -155,7 +155,7 @@ The IT Compliance role is a [grade 8](/handbook/total-rewards/compensation/compe
 This role includes all of the requirements above, plus:
 
 - Experience working with leadership to execute on IT Compliance processes and procedures
-- Contribute to and enable GitLab’s operational strategy by enabling distributed asynchronous operations while ensuring compliance with GDPR, SOX, ISO 27001, and other standards
+- Contribute to and enable GitLab's operational strategy by enabling distributed asynchronous operations while ensuring compliance with GDPR, SOX, ISO 27001, and other standards
 - Ability to use GitLab
 - Experience building and maintaining corporate IT Compliance policies and processes
 

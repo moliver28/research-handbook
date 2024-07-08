@@ -86,6 +86,10 @@ documents that are being used to align team members across multiple iterations.
 
 ## Roadmap
 
+<!--
+   TODO: Update once design docus migration is underway.
+   https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279
+-->
 Following our [Transparency](/handbook/values/#transparency)
 value, our [architecture roadmap](roadmap/) and
 [design documents](https://docs.gitlab.com/ee/architecture) are public.

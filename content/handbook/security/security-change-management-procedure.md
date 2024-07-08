@@ -1,7 +1,6 @@
 ---
 title: "Security Change Management Procedure"
 description: "Change management procedure for the Security Division."
-controlled_document: true
 ---
 
 ## Purpose

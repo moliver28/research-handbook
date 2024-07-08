@@ -265,7 +265,7 @@ Bugs that have gone through screening can then be assessed by the engineer that 
 - Devise a high-level possible resolution approach and identify the type of bug it is
 - Roughly estimate the effort for resolution by assigning a weight
 
-The backlog from where the DRI engineer works are all bugs labelled with `group::geo`, `geo::planning` and `workflow::solution validation`. These are the bugs that have gone through screening.
+The backlog from where the DRI engineer works are all bugs labelled with `group::geo`, `geo::planning` and `workflow::solution validation` and `type::bug` and are listed on this [Geo Bug Awaiting Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/7636877). These are the bugs that have gone through screening.
 
 When trying to reproduce, the engineer may recruit help from the QA stable counterpart if needed (e.g. to get help setting up a test framework and/or environment that meets the conditions to reproduce the problem).
 
@@ -287,7 +287,7 @@ If after investing some time and reasonable effort the engineer is unable to rep
 
 If the bug was triggered by a customer, the PM can then work with the customer to open a customer support request to investigate the problem in the context of the customer's own data and infrastructure. This investigation may lead to a new bug being opened with more specific and reliable reproduction steps.
 
-Refer to the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712).
+Refer to the [Geo Bug Awaiting Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/7636877).
 
 ##### Phase 3: Scheduling
 
@@ -313,53 +313,97 @@ For a bug to be ready for execution it must meet the following criteria:
 
 Refer to the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712).
 
-#### Engineering Triage Rotation Process
+#### Engineering Customer/Support Rotation Process (Trial Phase)
 
-Every month, a Geo engineer is assigned to be the DRI for doing the technical assessment of bugs (see section above on Phase 2 of the triage process).
+Every week, a Geo engineer is assigned to be the DRI for doing the technical assessment of customer support tickets + monitoring [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel for support issues. 
 
-A different backend engineer is assigned to triage rotation each month and we schedule monthly shifts 3 to 6 months in advance.
+A different backend engineer is assigned to support rotation each week and we schedule shifts 2 to 6 months in advance. This is a new rotation documented here in this [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5118)
 
 Process summary:
 
-- Every month, a slack reminder in #geo-lounge channel will let the group know that a new shift is starting for technical assessment triage.
+- Every week, a slack reminder in [#geo-lounge](https://gitlab.enterprise.slack.com/archives/C7U95P909) channel will let the group know that a new support shift is starting for technical assessment triage.
+- Every Geo engineer is expected to be aware of their upcoming rotation (as per the schedule below) and take action as per the slack reminder.
+- The DRI currently assigned to the rotation should then dedicate their week to review issues from the customer support [backlog](https://gitlab.com/gitlab-com/geo-customers/-/issues/?label_name%5B%5D=support) and support in the [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel.
+  - Be first on point to triage questions in our [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel. Now that we have a test workflow -> this should be taught/triggered per more complex questions and quickly answer anything that's short and sweet.
+  - Expected duties are: triaging, creating issues, documenting initial research, adding priority labels etc. so that a customer support issue can enter our usual workflow. One dev continuing to take ownership of an issue they started on is preferred over handing it over.
+- If the DRI is unable to perform an upcoming triage rotation shift due to any reason (e.g. PTO, sick leave, other responsibilities taking precedence), they are expected to swap their rotation with another team member or notify the EM to facilitate. Once the swap is identified, the schedule should be updated with via a MR.
+- The DRI needs to update this [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5120) for example for the 2024 rotation similiar to the bug triage process. 
+
+##### Combined Schedule
+
+| Rotation   | Month     | Start Date | End Date   | Name                                                 |
+| ---------- | --------- | ---------- | ---------- | ---------------------------------------------------- |
+| Support    | July      | 2024-07-08 | 2024-07-12 | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| Support    | July      | 2024-07-15 | 2024-07-19 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
+| Bug Triage |           | 2024-07-08 | 2024-07-19 | [`@kyetter`](https://gitlab.com/kyetter)             |
+| Support    | July      | 2024-07-22 | 2024-07-26 | [`@kyetter`](https://gitlab.com/kyetter)             |
+| Support    | July      | 2024-07-29 | 2024-08-02 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| Bug Triage |           | 2024-07-22 | 2024-08-02 | [`@mkozono`](https://gitlab.com/mkozono)             |
+| Support    | August    | 2024-08-05 | 2024-08-09 | [`@mkozono`](https://gitlab.com/mkozono)             |
+| Support    | August    | 2024-08-12 | 2024-08-16 | [`@brodock`](https://gitlab.com/brodock)             |
+| Bug Triage |           | 2024-08-05 | 2024-08-16 | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| Support    | August    | 2024-08-19 | 2024-08-23 | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| Support    | August    | 2024-08-26 | 2024-08-30 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
+| Bug Triage |           | 2024-08-19 | 2024-08-30 | [`@brodock`](https://gitlab.com/brodock)             |
+| Support    | September | 2024-09-02 | 2024-09-06 | [`@brodock`](https://gitlab.com/brodock)             |
+| Support    | September | 2024-09-09 | 2024-09-13 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| Bug Triage |           | 2024-09-02 | 2024-09-13 | [`@kyetter`](https://gitlab.com/kyetter)             |
+| Support    | September | 2024-09-16 | 2024-09-20 | [`@brodock`](https://gitlab.com/brodock)             |
+| Support    | September | 2024-09-23 | 2024-09-27 | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| Bug Triage |           | 2024-09-16 | 2024-09-27 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| Support    | September | 2024-09-30 | 2024-10-04 | [`@mkozono`](https://gitlab.com/mkozono)             |
+| Support    | October   | 2024-10-07 | 2024-10-11 | [`@kyetter`](https://gitlab.com/kyetter)             |
+| Bug Triage |           | 2024-09-30 | 2024-10-11 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
+| Support    | October   | 2024-10-14 | 2024-10-18 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
+| Support    | October   | 2024-10-21 | 2024-10-25 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| Bug Triage |           | 2024-10-14 | 2024-10-25 | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| Support    | October   | 2024-10-28 | 2024-11-01 | [`@brodock`](https://gitlab.com/brodock)             |
+| Support    | November  | 2024-11-04 | 2024-11-08 | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| Bug Triage |           | 2024-10-28 | 2024-11-08 | [`@mkozono`](https://gitlab.com/mkozono)             |
+| Support    | November  | 2024-11-11 | 2024-11-15 |                                                      |
+| Support    | November  | 2024-11-18 | 2024-11-22 |                                                      |
+| Bug Triage |           | 2024-11-11 | 2024-11-22 | [`@kyetter`](https://gitlab.com/kyetter)             |
+| Support    | November  | 2024-11-25 | 2024-11-29 |                                                      |
+| Support    | December  | 2024-12-02 | 2024-12-06 |                                                      |
+| Bug Triage |           | 2024-11-25 | 2024-12-06 | [`@brodock`](https://gitlab.com/brodock)             |
+| Support    | December  | 2024-12-09 | 2024-12-13 |                                                      |
+| Support    | December  | 2024-12-16 | 2024-12-20 |                                                      |
+| Bug Triage |           | 2024-12-09 | 2024-12-20 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| Support    | December  | 2024-12-23 | 2024-12-27 | Christmas Break?                                     |
+| Support    | December  | 2024-12-30 | 2025-01-03 | Christmas Break?                                     |
+| Bug Triage |           | 2024-12-23 | 2024-01-03 | Christmas Break?                                     |
+
+#### Engineering Bug Triage Rotation Process
+
+Every two weeks, a Geo engineer is assigned to be the DRI for doing the technical assessment of bugs (see section above on Phase 2 of the triage process) and monitor staging ref for any pipeline failures and creating issues when those occur.
+
+A different backend engineer is assigned to triage rotation each two weeks and we schedule monthly shifts 3 to 6 months in advance.
+
+Process summary:
+
+- Every two weeks, a slack reminder in [#geo-lounge](https://gitlab.enterprise.slack.com/archives/C7U95P909) channel will let the group know that a new shift is starting for technical assessment triage.
 - Every Geo engineer is expected to be aware of their upcoming rotation (as per the schedule below) and take action as per the slack reminder.
 - The outgoing DRI should connect with the incoming DRI and transfer the knowledge of the current bug issues being triaged. Anything still `awaiting feedback` should be highlighted and discussed.
   - The outgoing DRI should post a summary to the current year's Geo Bug Triage - Rotation discussion issue (i.e. [this one](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5066) for 2023).
   - The summary should list the bugs that were triaged during the month with the corresponding outcome (i.e. either moved to `workflow::scheduling` or closed)
   - The summary should highlight any triage bugs that are in transition and awaiting feedback with a knowledge transfer note indicating the work that has been done and the next steps.
+  - The DRI should also summarize whether there were any issues raised from staging-ref failures.
 - The DRI currently assigned to the rotation should then dedicate a portion of their week (4-6 hours) to review issues from the bug backlog as defined in the "Phase 2: Technical Assessment" section of the triage process described above.
 - If the DRI is unable to perform an upcoming triage rotation shift due to PTO, they are expected to find a backup or notify the EM to find a backup.
 
-##### Schedule
+##### Schedule(Deprecated)
 
-| Month     | Name                                                   |
-| --------- | ------------------------------------------------------ |
-| **2024**  |                                                        |
-| December  |  [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)  |
-| November  | [`@kyetter`](https://gitlab.com/kyetter)               |
-| October   | [`@dbalexandre`](https://gitlab.com/dbalexandre)       |
-| September | [`@ibaum`](https://gitlab.com/ibaum)                   |
-| August    | [`@mkozono`](https://gitlab.com/mkozono)               |
-| July      | [`@kyetter`](https://gitlab.com/kyetter)               |
-| June      |  [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)  |
-| May       | [`@dbalexandre`](https://gitlab.com/dbalexandre)       |
-| April     | [`@ibaum`](https://gitlab.com/ibaum)                   |
-| March     | [`@brodock`](https://gitlab.com/brodock)               |
-| February  | N/A                                                    |
-| January   | [`@mkozono`](https://gitlab.com/mkozono)               |
-| **2023**  |                                                        |
-| December  | [`@ibaum`](https://gitlab.com/ibaum)                   |
-| November  | [`@jtapiab`](https://gitlab.com/jtapiab)               |
-| October   | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)   |
-| September | [`@brodock`](https://gitlab.com/brodock)               |
-| August    | [`@dbalexandre`](https://gitlab.com/dbalexandre)       |
-| July      | [`@vsizov`](https://gitlab.com/vsizov)                 |
-| June      | [`@mkozono`](https://gitlab.com/mkozono)               |
-| May       | [`@ibaum`](https://gitlab.com/ibaum)                   |
-| April     | [`@jtapiab`](https://gitlab.com/jtapiab)               |
-| March     | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)   |
-| February  | [`@brodock`](https://gitlab.com/brodock)               |
-| January   | [`@brodock`](https://gitlab.com/brodock) (missed)      |
+| Month     | Name                                                 |
+| --------- | ---------------------------------------------------- |
+| **2024**  |                                                      |
+| December  | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| November  | [`@kyetter`](https://gitlab.com/kyetter)             |
+| October   | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
+| September | [`@ibaum`](https://gitlab.com/ibaum)                 |
+| August    | [`@mkozono`](https://gitlab.com/mkozono)             |
+| July      | [`@kyetter`](https://gitlab.com/kyetter)             |
+| June      | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
+| May       | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
 
 ## Retrospectives
 

@@ -65,7 +65,7 @@ The outcome of the call is shared in a persistent location (Slack is not persist
 
 `1*` Exceptions to the recording rule are: 1-1 calls, discussions around non-project work, and in cases where parties do not feel comfortable with recording or we cannot record due to the nature of content discussed. However, even with the exceptions, outcome of project related discussions need to be logged in a persistent location, such as the main issue tracker.
 
-### Tracking & Planning Work
+### Tracking, Planning & Delivering Projects
 
 #### Resources
 
@@ -90,6 +90,21 @@ Quarterly planning is owned and driven by the Switchboard EM and PM.
    - Prioritise the objectives
    - Document the associated epics
 4. EM creates a delivery epic for the quarter that will be used in Grand Reviews and updates the epic-summaries bot to reflect this change
+
+#### Directly Responsible Individuals (DRIs)
+
+Each and every project is owned and driven by a Directly Responsible Individual or [DRI](/handbook/people-group/directly-responsible-individuals/).
+Though Switchboard is a cross-functional team the DRI is responsible for delivering the project output including UX design, product decisions, frontend and backend implementation along with any other deliverables, regardless of their expertise.
+For example if the DRI is a backend engineer, while they may not directly implement every issue, they are still responsible for checking progress to ensure other team members have access to the information needed to fulfil the project.
+The DRI will not directly implement every piece of the project but they are responsible for ensuring it is delivered. This involves collaborating with the EM to ensure issues are prioritised within the engineering team, collaborating with the various functions within the team to ensure they have access to the information needed to fulfil the project (UX, frontend, backend, product etc), highlighting possible risks and ensuring alignment across the team. 
+
+We use issues to collaborate on ideas and solve problems. Everyone working on issues is responsible for keeping its description (SSoT) up to date with the latest decisions, and to ensure any follow-up resulting work is being tracked. The DRI is responsible for ensuring discussion threads reach a decision.
+DRIs should also drive a [pivot to synchronous discussion](/handbook/company/culture/all-remote/asynchronous/#when-to-pivot-from-asynchronous-to-synchronous) when a thread is not yielding a timely conclusion.
+In the case where the UX design has been agreed upon prior to implementation, the DRI can accelerate the MR review process and reduce the workload on the PM and UX designer by ensuring the MR deliverable matches the design provided in Figma and approving accordingly.
+
+The Epic Refinement process followed by the DRI at the beginning of the project is described below in the [Epic Refinement](#epic-refinement) section.
+The DRI is also responsible for weekly status updates ([further details](/handbook/engineering/infrastructure/platforms/project-management/#projects-are-reviewed-weekly-in-the-grand-review)) and ensuring the epic has a demo link attached (see [Switchboard Demos](#switchboard-demos)).
+The instructions for delivering the final status update and closing an epic can be found [here](/handbook/engineering/infrastructure/platforms/project-management/#when-a-project-is-finished).
 
 #### Epic Refinement
 
@@ -207,8 +222,8 @@ In addition to the above when a change is being proposed to the UI the following
 
 **UI changes visible to internal GitLab users:**
 
-1. MR author cc’s PM & UX Designer on the MR but they are not reviewers or blockers of the merge
-1. If they have any suggestions they can be dealt with on the MR or on a later MR at the MR author’s discretion
+1. MR author cc's PM & UX Designer on the MR but they are not reviewers or blockers of the merge
+1. If they have any suggestions they can be dealt with on the MR or on a later MR at the MR author's discretion
 1. Eventually the PM & UX Designer will be reviewers on the internally visible UI updates but our process is not there yet nor is their capacity
 1. If you require help or guidance with the UX or copy please ask **before** implementation begins on the issue
 
@@ -269,46 +284,54 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 <details><summary>Epic Template</summary>
 
 ```markdown
-### DRI :levitate
+### DRI :levitate:
 - TBC
 
-### Participants :busts_in_silhouette
+### Participants :busts_in_silhouette:
+
+- Frontend Engineer:
+- Backend Engineer:
+- SRE: 
+- UX Designer:
+- PM:
+- Technical Writer:
+- EM: 
 -
 
-### Problem to solve :thinking
+### Problem to solve :thinking:
 
-### Video Walkthrough from Product :video_camera
+### Video Walkthrough from Product :video_camera:
 
-### Intended users :bust_in_silhouette
+### Intended users :bust_in_silhouette:
 
-### User experience goal :goal
+### User experience goal :goal:
 
 
 <!-- Overview of user experience goal -->
 
-### UX Design Spec :paintbrush
+### UX Design Spec :paintbrush:
 - Figma Link:
 - Dev mode:
 - Any other details
 
-### Proposal :bulb
+### Proposal :bulb:
 
-### Open Questions :question
+### Open Questions :question:
 | Question | Added by | Discussion thread |
 |----------|----------|-------------------|
 |  |  |  |
 
-### Further details :mag
+### Further details :mag:
 
-Dependencies :link:
+### Dependencies :link:
 
-### Permissions and Security :link
+### Permissions and Security :link:
 
-### Documentation :book
+### Documentation :book:
 
 * Publicly Accessible Documentation:
 
-### Epic Kick-Off :ballot_box_with_check
+### Epic Kick-Off :ballot_box_with_check:
 
 * [ ] Video walkthrough from Product outlining expectations
 * [ ] DRI identified
@@ -319,7 +342,7 @@ Dependencies :link:
 * [ ] Issue created to track Documentation requirements
 * [ ] Outstanding Questions captured in threads for resolution
 
-### Roll out Plan :speaker
+### Roll out Plan :speaker:
 <!--
 If visible to external customers please provide the following information:
     - What communication is required ahead of release?
@@ -330,7 +353,7 @@ If visible to external customers please provide the following information:
 -->
 
 
-### Links / references :books
+### Links / references :books:
 
 *
 

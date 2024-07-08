@@ -1,15 +1,8 @@
 ---
-
 title: "Developer Advocacy: Mentoring and Coaching"
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/mentoring-coaching/index.html
 ---
-
-
-
-
-
-
 
 ## Introduction
 
@@ -24,7 +17,7 @@ GitLab Developer Advocates actively engage with mentoring wider community member
 ### Resources
 
 - Review the process and tips in [Mentoring at GitLab](/handbook/people-group/learning-and-development/mentor/)
-- [How to be a mentor: 4 ways to change someone’s life](https://www.betterup.com/blog/how-to-be-a-mentor)
+- [How to be a mentor: 4 ways to change someone's life](https://www.betterup.com/blog/how-to-be-a-mentor)
 
 ### Topics
 

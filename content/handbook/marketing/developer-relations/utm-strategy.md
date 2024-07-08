@@ -1,13 +1,6 @@
 ---
-
 title: "Developer Relations workflow: UTM Tracking Strategy"
 ---
-
-
-
-
-
-
 
 ## <i class="" id="overview"></i> Overview
 

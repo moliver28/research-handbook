@@ -20,7 +20,7 @@ The IT Systems Engineer is responsible for performing functions such as evaluati
 - Participate in general IT operations and user support
 - Build and maintain cross-functional relationships with internal teams to drive initiatives
 - Design, develop, and support integrations using tools such as Okta Workflows, Workato or custom code to reduce repetitive and manual tasks
-- Maintenance of existing scripts written in PHP Laravel and Python  
+- Maintenance of existing scripts written in PHP Laravel and Python
 - Oversee and provide operations support including account management, workflow, log analysis, troubleshooting and service optimization
 - Assist in ongoing evaluation and management of major vendor relationships and outsourcing arrangements
 - Develop system-monitoring and support automation to enhance and scale the quality of support
@@ -78,9 +78,9 @@ The Senior IT Systems Engineer has all the same responsibilities as the intermed
 - Participate in the Global IT planning process and ensure architectural designs and principles are incorporated in enterprise implementations
 - Evaluate existing or emerging technologies to consider factors such as cost, security, compatibility and usability
 - Establish strong relationships with key technology stakeholders and facilitate, communicate, collaborate, and persuade others in the definition, adoption and implementation of a coherent architecture
-- Provide guidance around "Cloud/SaaS” Infrastructure, Business Applications architectures and address unique security considerations
+- Provide guidance around "Cloud/SaaS" Infrastructure, Business Applications architectures and address unique security considerations
 - Build roadmaps for acquiring, integrating, and implementing high-value technology and processes. Oversee efforts (e.g. proof of concepts) to measure and prove new technology value
-- Design and deploy best practices regarding system monitoring, change control, service level agreements, and in the creation of the company’s infrastructure policies and standards
+- Design and deploy best practices regarding system monitoring, change control, service level agreements, and in the creation of the company's infrastructure policies and standards
 
 #### Senior IT Systems Engineer Requirements
 
@@ -111,7 +111,7 @@ The Staff IT Systems Engineer has all the same responsibilities as the senior po
 - Designing and developing software that improves back office automation.
 - Escalation engineering and emergency response for IT Operations and Security teams, and providing assistance to team members with all of the systems that we build and manage.
 - Factor in cost, security, compatibility, maintainability and user experience when making decisions.
-- Growing other team members’ skill sets through mentorship to improve operational efficiency and encourage professional development.
+- Growing other team members' skill sets through mentorship to improve operational efficiency and encourage professional development.
 - Handbook documentation for processes and systems architecture.
 - Identifying and communicating the technical direction of our broader IT department to team members, stakeholders, and engineers.
 - Joint collaboration with Compliance, IT, People, and Security team members for improving automation efficiency, security posture, and vulnerability management.

@@ -20,7 +20,7 @@ The committee goals are to:
 - Help drive the mission of being the most transparent security group in the world
 - Provide actionable feedback and direction to the security department, so they may best live up to the GitLab values
 
-The committee should draft the ways to reach these goals for an open, approachable and transparent culture within the security department. The department’s leadership should reinforce those ways by communicating and leading by example. The committee will provide an interface for all team members to express any concerns regarding the culture within the security department.
+The committee should draft the ways to reach these goals for an open, approachable and transparent culture within the security department. The department's leadership should reinforce those ways by communicating and leading by example. The committee will provide an interface for all team members to express any concerns regarding the culture within the security department.
 
 ## Participation
 

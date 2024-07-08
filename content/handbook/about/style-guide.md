@@ -63,7 +63,7 @@ Files and directories should *never* be given names that differ from the names o
 
 ### Understanding absolute and relative URLs
 
-When you’re adding or editing links in the Handbook (or really, *anywhere* on the marketing site) please keep in mind that root-relative URLs are preferable for our same-site links.
+When you're adding or editing links in the Handbook (or really, *anywhere* on the marketing site) please keep in mind that root-relative URLs are preferable for our same-site links.
 
 Absolute URLs are the ones that look like this:
 

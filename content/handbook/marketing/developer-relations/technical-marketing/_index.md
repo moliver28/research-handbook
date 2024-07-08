@@ -1,14 +1,7 @@
 ---
-
 title: "Technical Marketing"
 description: "Learn more about the purpose, process and output of GitLab's Technical Marketing."
 ---
-
-
-
-
-
-
 
 ## Team overview
 

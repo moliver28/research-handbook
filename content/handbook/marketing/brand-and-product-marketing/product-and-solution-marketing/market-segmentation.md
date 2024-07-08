@@ -1,13 +1,6 @@
 ---
-
 title: "Market Segmentation"
 ---
-
-
-
-
-
-
 
 ## Industry verticals
 
@@ -27,7 +20,7 @@ Various verticals and industries face specific challenges as they address their 
 
  | Challenge | GitLab Helps |
  | --------- | ------------ |
- | **Security** | GitLab’s single platform controls and manages access to the SDLC tool chain helping them to increase confidence in their development process.   The ability to audit, review and automate security scans as a core part of the development lifecycle further helps to ensure that every application they build is more secure. |
+ | **Security** | GitLab's single platform controls and manages access to the SDLC tool chain helping them to increase confidence in their development process.   The ability to audit, review and automate security scans as a core part of the development lifecycle further helps to ensure that every application they build is more secure. |
  | **Aging infrastructure** | GitLab simplifies move to modern cloud native (kubernetes) |
  | **Compliance** | A single platform that controls and manages access to the SDLC tool chain.   Built in audits, reviews and automation help to create a trusted pipeline. |
  | **New technology (business disruption / digital transformation)** | This will demand rapid and responsive design, development and iteration from the software teams building the transportation as a service platform and infrastructure.   GitLab and concurrent DevOps can help teams to dramatically decrease cycle times to ship software. |

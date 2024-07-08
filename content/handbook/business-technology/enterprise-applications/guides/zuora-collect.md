@@ -1,5 +1,4 @@
 ---
-
 title: "Zuora Collect module"
 description: "The business process behind the Zuora Collect module"
 ---
@@ -178,7 +177,7 @@ To create a follow-up task:
       - Completed: The task has been completed.
       - Closed: The task has not been completed but is no longer relevant.
    - Add a **Description**: Specify a brief description of the task.
-      - It is recommended to include the account, invoice, or payment that’s related to the task.
+      - It is recommended to include the account, invoice, or payment that's related to the task.
    - Select the assignee from **Assign To**: Type at least two letters in a username or email address to trigger the automatic completion feature.
    - Add a **Due date**: The date when the task is due.
       - On the due date, the owner and the assignee of this task will get a notification.
@@ -381,7 +380,7 @@ There are two ways to view invoices:
       - Completed: The task has been completed.
       - Closed: The task has not been completed but is no longer relevant.
    - Add a **Description**: Specify a brief description of the task.
-      - It is recommended to include the account, invoice, or payment that’s related to the task.
+      - It is recommended to include the account, invoice, or payment that's related to the task.
    - Select the assignee from **Assign To**: Type at least two letters in a username or email address to trigger the automatic completion feature.
    - Add a **Due date**: The date when the task is due.
       - On the due date, the owner and the assignee of this task will get a notification.

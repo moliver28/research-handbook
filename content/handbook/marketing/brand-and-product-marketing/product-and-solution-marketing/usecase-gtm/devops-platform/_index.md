@@ -69,9 +69,9 @@ Both buyer personas are also secondary user personas. While their day-to-day tas
 
 The suggested discovery questions below are meant to help you uncover opportunities when speaking with prospects or customers who are not currently using GitLab or are only using GitLab as a point solution, and not experiencing the full value of an end-to-end platform.
 
-Don’t try to use them all—just those most relevant to your customer that will help you identify the value they need to see. Please contribute additional questions!
+Don't try to use them all—just those most relevant to your customer that will help you identify the value they need to see. Please contribute additional questions!
 
-### Current state: Where’s the pain?
+### Current state: Where's the pain?
 
 1. **How far along are you in your DevOps journey?** This will scope their maturity and help you understand what success looks like. If the organization is new to DevOps, The DevOps Platform can be a guide toward DevOps best practices that helps them avoid common pitfalls as they mature. If the company is well along their journey already, they have likely encountered very specific challenges that the benefits of a single, end-to-end platform can help them overcome.
 2. **What / how many DevOps tools are you using today?** Similarly, this will help scope the situation. A large number of tools will almost always equal integration complexity and sub-optimal communication among tools and teams. A very small number of tools could indicate a lack of automation or an acceptance that there are just some things they cannot do (see below).
@@ -186,7 +186,7 @@ Ultimate supports the broadest possible range of personas, extending to Portfoli
 
 In their [Market Guide for DevOps Value Stream Delivery Platforms](https://page.gitlab.com/resources-report-gartner-market-guide-vsdp.html), Gartner's Strategic Planning Assumption was:
 
-**“By 2024, 60% of organizations will have switched from multiple point solutions to value stream delivery platforms to streamline application delivery, up from 20% in 2021.”**
+**"By 2024, 60% of organizations will have switched from multiple point solutions to value stream delivery platforms to streamline application delivery, up from 20% in 2021."**
 
 <sub>[Market Guide for Value Stream Delivery Platforms](https://page.gitlab.com/resources-report-gartner-market-guide-vsdp.html), Manjunath Bhat, Thomas Murphy, Daniel Betts, Chris Saunderson, Hassan Ennaciri, Joachim Herschmann, 18 October 2021</sub>
 
@@ -204,13 +204,13 @@ GitLab believes this indicates that the market for a DevOps platform delivered a
 
 - [Glympse](https://about.gitlab.com/customers/glympse/) consolidated ~20 tools consolidated into GitLab and remediated security issues faster than any other company in their Security Auditor's experience
 
->Development can move much faster when engineers can stay on one page and click buttons to release auditable changes to production and have easy rollbacks; everything is much more streamlined. Within one sprint, just 2 weeks, Glympse was able to implement security jobs across all of their repositories using GitLab’s CI templates and their pre-existing Docker-based deployment scripts.
+>Development can move much faster when engineers can stay on one page and click buttons to release auditable changes to production and have easy rollbacks; everything is much more streamlined. Within one sprint, just 2 weeks, Glympse was able to implement security jobs across all of their repositories using GitLab's CI templates and their pre-existing Docker-based deployment scripts.
 >
 >Zaq Wiedmann, Lead Software Engineer, Glympse
 
 - [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/) improves from bi-monthly builds to over a thousand per day
 
-> GitLab has allowed us to dramatically increase the velocity of development in our Engineering Division. We believe GitLab’s dedication to helping enterprises rapidly and effectively bring software to market will help other companies achieve the same sort of efficiencies we have seen inside Goldman Sachs. We now see some teams running and merging 1000+ CI feature branch builds a day!
+> GitLab has allowed us to dramatically increase the velocity of development in our Engineering Division. We believe GitLab's dedication to helping enterprises rapidly and effectively bring software to market will help other companies achieve the same sort of efficiencies we have seen inside Goldman Sachs. We now see some teams running and merging 1000+ CI feature branch builds a day!
 >
 > Andrew Knight, Managing Director, Goldman Sachs
 

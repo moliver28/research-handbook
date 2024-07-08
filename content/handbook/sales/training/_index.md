@@ -1,14 +1,7 @@
 ---
-
 title: "Sales Training"
 description: "GitLab's sales learning framework and sales training resources"
 ---
-
-
-
-
-
-
 
 ## GitLab Sales Learning Framework
 
@@ -22,7 +15,7 @@ Successful field team members must have an intimate understanding of ideal custo
 
 | **Topic** | **Resource(s)** |
 | ------ | ------ |
-| What is GitLab’s ideal customer profile? |- [Handbook page](/handbook/marketing/account-based-marketing/) <br>- [GitLab Account Based Marketing and Ideal Customer Profile](https://youtu.be/6TbtGiS9Eak) (Mar 2020, 34 minutes) |
+| What is GitLab's ideal customer profile? |- [Handbook page](/handbook/marketing/account-based-marketing/) <br>- [GitLab Account Based Marketing and Ideal Customer Profile](https://youtu.be/6TbtGiS9Eak) (Mar 2020, 34 minutes) (internal only) |
 | What business problems does GitLab help customers solve? | - Check out the value drivers and other materials on the GitLab [Command of the Message page](/handbook/sales/command-of-the-message/) |
 | What are target buyer personas and their pain points? | - [GitLab Buyer Personas](/handbook/product/personas/#buyer-personas) <br> - [Interview with an IT Agility Director](/handbook/sales/it-agility-director-interview/) <br> - Learn more about [Enterprise IT roles & key pain points](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/enterprise-it-roles/) |
 | What are target user personas and their pain points? | - [Handbook page](/handbook/product/personas/#user-personas) |
@@ -65,7 +58,7 @@ GitLab field team members must be able to clearly articulate a compelling, diffe
 | What customer ROI models are available? | - [Forrester TEI Enablement (Study + Estimator)](https://youtu.be/PBAjRh8_Vsk) (Dec 2022, 30 minutes) <br> - [The New Simple ROI Calculator](https://youtu.be/cOW1C-penoY) (July 2022, 24 minutes) <br> - Check out the resources on [this page](/handbook/sales/command-of-the-message/metrics/#economic-metrics) |
 | GitLab culture | - [GitLab Culture](/handbook/company/culture/) <br> - [GitLab Values](/handbook/values/) <br> - [This is GitLab video](https://www.youtube.com/watch?v=Mkw1-Uc7V1k) (Feb 2018, 3.5 minutes) <br> - [Everyone Can Contribute video](https://www.youtube.com/watch?v=V2Z1h_2gLNU) (May 2019, 3.5 minutes) |
 | GitLab subscription model | - [How GitLab.com Subscriptions Work](https://www.youtube.com/watch?v=W-ZYi4H4XMM) (Jun 2019, 29 minutes) |
-| GitLab vision | - Review [GitLab’s Direction](https://about.gitlab.com/direction/#single-application) |
+| GitLab vision | - Review [GitLab's Direction](https://about.gitlab.com/direction/#single-application) |
 | Follow GitLab | - Review and subscribe to the [GitLab blog](https://about.gitlab.com/blog/) |
 
 ## Competition
@@ -98,7 +91,7 @@ GitLab field team members must understand how various elements of the GitLab por
 | Where may I learn about the GitOps customer use case / solution? | - Check out the [GitOps Handbook page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/) <br> - Watch [The GitLab Journey & the GitOps Use Case](https://youtu.be/Ap14indu2-w) (July 2020, 30 minutes)  |
 | Where may I learn about the Agile Planning customer use case / solution? | - Check out the [Agile Planning website page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/agile/) (Handbook page coming soon) <br> - [Agile Project & Portfolio Management on GitLab Click-Through Demo](https://www.youtube.com/watch?v=Eo8pFoE6DjU) (Jun 2019, 30 minutes) |
 | Are additional customer use cases / solutions being considered and/or developed? | - Yes, check out the [Customer Use Cases Handbook page](/handbook/marketing/use-cases/) for the latest and greatest information |
-| What about services? | - [Positioning Professional Services](https://youtu.be/vFr86T4MFCE) (Apr 2023, 29 minutes) <br> - Professional services, available through GitLab or partners, help to optimize your organization's adoption of GitLab, continue to leverage the tools your teams use every day, facilitate your transition to GitLab, and deliver hands-on training to accelerate your team’s adoption <br> - [Q1 FY23 Professional Services Update](https://youtu.be/_UUhi2A2Biw) (Mar 2022, 25 minutes) <br> - [GitLab Value Stream Assesments](https://youtu.be/jfM3AG6dBFY) (Feb 2022, 29 minutes) <br> - [Services to Accelerate Customer Adoption](/handbook/customer-success/professional-services-engineering/sales-enablement/) <br> - [How to engage Professional Services to help you sell and scope](/handbook/customer-success/professional-services-engineering/working-with/) <br> - [Professional Services Full Catalog](/services/catalog/) <br> - [The Value of Professional Services: A CFOs Perspective](https://youtu.be/arF-6BBRAxU) (Aug 2020, 29 minutes) <br> - [Professional Services Offerings & Positioning](https://www.youtube.com/watch?v=_04S2JhVZ5A) (Apr 2020, 29 minutes) <br> - [Selling Services to Accelerate Customer Adoption](https://youtu.be/ngTI5-1cQK4) (Oct 2019, 28 minutes) |
+| What about services? | - [Positioning Professional Services](https://youtu.be/vFr86T4MFCE) (Apr 2023, 29 minutes) <br> - Professional services, available through GitLab or partners, help to optimize your organization's adoption of GitLab, continue to leverage the tools your teams use every day, facilitate your transition to GitLab, and deliver hands-on training to accelerate your team's adoption <br> - [Q1 FY23 Professional Services Update](https://youtu.be/_UUhi2A2Biw) (Mar 2022, 25 minutes) <br> - [GitLab Value Stream Assesments](https://youtu.be/jfM3AG6dBFY) (Feb 2022, 29 minutes) <br> - [Services to Accelerate Customer Adoption](/handbook/customer-success/professional-services-engineering/sales-enablement/) <br> - [How to engage Professional Services to help you sell and scope](/handbook/customer-success/professional-services-engineering/working-with/) <br> - [Professional Services Full Catalog](/services/catalog/) <br> - [The Value of Professional Services: A CFOs Perspective](https://youtu.be/arF-6BBRAxU) (Aug 2020, 29 minutes) <br> - [Professional Services Offerings & Positioning](https://www.youtube.com/watch?v=_04S2JhVZ5A) (Apr 2020, 29 minutes) <br> - [Selling Services to Accelerate Customer Adoption](https://youtu.be/ngTI5-1cQK4) (Oct 2019, 28 minutes) |
 | What about GitLab security? | - [Solution Selling: Compliance](https://youtu.be/sGSZlxGciiE) (Apr 2022, 29 minutes) <br> - [Product Stage Direction - Secure](https://about.gitlab.com/direction/secure/) <br> - From SCM and CI to Security: Paths to Ultimate ([slides](https://docs.google.com/presentation/d/1VTCfKcAZ4NS2xQu8C-fA6pugCdvUbb0MfQhimLiAGak/) from GitLab Sales Kickoff 2020) <br> - [How GitLab Helps Customers Achieve Compliance](https://youtu.be/MRaCKYDXmuI) (May 2020, 26 minutes) <br> - [Forrester Software Composition Analysis (SCA) Wave & Security Q&A](https://www.youtube.com/watch?v=FIfZCg02G3o) (Apr 2019, 30 minutes) <br>- [GitLab SOC2 Security Compliance](/handbook/security/security-assurance/security-compliance/certifications.html) |
 | What about GitLab testing capabilities? | - [Pipeline Security Direction Handbook pages](/handbook/product/categories/#pipeline-security-group) <br> - [Verify:Pipeline Security Category Vision and Positioning](https://youtu.be/Zisa9Qfh8v8) (Sep 2021, 26 minutes) |
 | What are the most common technical questions that GitLab sales team members should be able to answer? | - Check out the [Technical Questions for Sales](/handbook/sales/training/technical-questions-for-sales/) page |

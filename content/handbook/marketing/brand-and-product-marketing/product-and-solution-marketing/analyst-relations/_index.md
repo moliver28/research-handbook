@@ -1,13 +1,6 @@
 ---
-
 title: "Analyst Relations"
 ---
-
-
-
-
-
-
 
 ## Industry Analyst Relations at GitLab
 
@@ -64,7 +57,7 @@ Examples of how we engage with analysts include:
 
   - Present every feature in the best possible light so we have the most defensible chance at high scores.
   - Provide whatever evidence we can that illustrates our current and future capability to address the market needs identified by the analysts.
-  - When responding to the analyst request, challenge ourselves to find a way to honestly, unhesitatingly say “yes” and paint the product in the best light possible. We carefully work to understand specific feature and capability descriptions that often make up inclusion, exclusion and even evaluation criteria. If, at first glance we think we may not or do not support a specific feature or capability as described, we will take a deeper, second look at the requirement and look to see if there is a way that our existing features solve the problem at hand.
+  - When responding to the analyst request, challenge ourselves to find a way to honestly, unhesitatingly say "yes" and paint the product in the best light possible. We carefully work to understand specific feature and capability descriptions that often make up inclusion, exclusion and even evaluation criteria. If, at first glance we think we may not or do not support a specific feature or capability as described, we will take a deeper, second look at the requirement and look to see if there is a way that our existing features solve the problem at hand.
   - Present our overall solution within the context of the entirety of a specific, defined market, meaning these exercises are bake-offs; we are being evaluated in comparison to everyone else rather than in comparison to an ideal world. We should take into account the competitive landscape as we craft our position and support it.
   - Our demo should be viewed as a further proof point of our solution and a way to demonstrate things we might not be able to illustrate or otherwise communicate the way we'd like to in the questionnaire response.
 

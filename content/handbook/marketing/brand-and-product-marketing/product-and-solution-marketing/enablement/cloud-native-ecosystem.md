@@ -1,13 +1,6 @@
 ---
-
 title: "Cloud Native Ecosystem Sales Enablement"
 ---
-
-
-
-
-
-
 
 ## [Video](https://www.youtube.com/watch?v=0DxQKVKB3nY)
 
@@ -54,7 +47,7 @@ Intellectually elite(st?)
 - Empathy for their struggles
 - Demos and technical knowledge (strategic level ok and appreciated)
 
-### What they don’t like
+### What they don't like
 
 - Pitches that sound canned
 - Mass email
@@ -65,7 +58,7 @@ Intellectually elite(st?)
 - Teach them something new
 - Talk tech - be up to date
 - Be credible (cite papers, reference industry experts)
-- Be ready to do a demo at moment’s notice
+- Be ready to do a demo at moment's notice
 - Help - contribute generously
 - Sell intellect and empathy, the $$ will follow
 

@@ -1,9 +1,7 @@
 ---
-
 title: "Developer Relations - Content Effectiveness"
 description: "How the Developer Relations team measures effectiveness of content it creates."
 ---
-
 
 ## Quicklinks
 

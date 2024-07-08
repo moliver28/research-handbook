@@ -1,11 +1,10 @@
 ---
-
 title: "SEO Content Manual"
 description: "The aim of this manual is to help create content that provides use and value to both searchers and search engines."
 canonical_path: "/handbook/marketing/inbound-marketing/search-marketing/seo-content-manual/"
 ---
 
- 
+
 
 
 
@@ -93,7 +92,7 @@ Creating valuable content means not just publicizing useful and attractive infor
 
 When identifying what key terms to target within the keyword research process it is important to ensure the use of valid and current customer terminology for a specific target topic.
 
-Over time, the way topics or categories are discussed by professionals or industry users can alter, expand, contract and evolve. As such, it is essential to remain current with the customers’#39; language.
+Over time, the way topics or categories are discussed by professionals or industry users can alter, expand, contract and evolve. As such, it is essential to remain current with the customers'#39; language.
 
 At GitLab we have access to valuable resources that help inform, validate and evolve the targeting process.
 
@@ -324,14 +323,14 @@ External links should be low within the page copy, internal links take precedenc
 
 Anchor text is the text used for the hyperlink when adding a link within the page copy, this text is extremely important as it gives search engines a description of the context of the link and the relationship between the two pages.
 
-Ensure you use descriptive text that is succinct and relevant to the page you are linking to, and not text such as “click here” etc., which provides no context or value.
+Ensure you use descriptive text that is succinct and relevant to the page you are linking to, and not text such as "click here" etc., which provides no context or value.
 
 Anchor text 5 basic types
 
-1. Exact match: exact match to the target term of the page (eg. “GitOps” linking to GitOps page.
-2. Partial match: anchor text that includes a variation of the core target term of the linked page (eg. “benefits of GitOps” to GitOps page)
-3. Branded: using “GitLab” as anchor text
-4. Generic: avoid these, as they provide no value (“click here” or “read more” as anchor text)
+1. Exact match: exact match to the target term of the page (eg. "GitOps" linking to GitOps page.
+2. Partial match: anchor text that includes a variation of the core target term of the linked page (eg. "benefits of GitOps" to GitOps page)
+3. Branded: using "GitLab" as anchor text
+4. Generic: avoid these, as they provide no value ("click here" or "read more" as anchor text)
 5. Naked anchor text: also avoid as they provide no context (this would consist of a URL link: www.xyz.com/topcs/devops/)
 
 Image anchors are another form of link anchor (non-text). When using images as an anchor for a link, search engines will utilize the image's alt attribute as the anchor text (goes back to why images need to be optimized).
@@ -382,11 +381,11 @@ The main types of search intent are:
 
 A simple and easy way to deconstruct the searcher intent behind a query is to type it into a search engine. Look at the first page of results for the query, examine the format of the content of those results.
 
-What format does the resulting content take, a blog, a topics page, or a solutions page? Are the titles predominantly include terms such as “how, what, where, methods, etc” this would all indicate informational intent.
+What format does the resulting content take, a blog, a topics page, or a solutions page? Are the titles predominantly include terms such as "how, what, where, methods, etc" this would all indicate informational intent.
 
 If the intent is informational, provide as much relevant content as is possible and help educate the user on the query topic. Thoroughly cover the topic, and answer common questions.
 
-Terms such as “best, top, etc” would indicate commercial intent. To align with this type of search query intent, provide the searcher with the information required to make a particular decision (reviews, pricing, comparisons, FAQs, etc.)
+Terms such as "best, top, etc" would indicate commercial intent. To align with this type of search query intent, provide the searcher with the information required to make a particular decision (reviews, pricing, comparisons, FAQs, etc.)
 
 If the intent is transactional, optimize the copy for this and emphasize specific conversion value points within the page title and copy. Keep the content focused on the desired outcome (eg. buying a product). This page type will not require loads of supporting content, unlike an informational intent page.
 
@@ -399,7 +398,7 @@ The easiest way to deconstruct a strategy from the SERP results is utilizing the
 3. Content angle
 4. Content coverage
 
-**Content-type:** this refers to the most common “type” of content that is in the top search results and can consist of blog posts, a product page, a category page, or a landing page. Examining the titles and URLs can inform the proper content format to match searcher intent.
+**Content-type:** this refers to the most common "type" of content that is in the top search results and can consist of blog posts, a product page, a category page, or a landing page. Examining the titles and URLs can inform the proper content format to match searcher intent.
 
 **Content format:** examine the competition and identify what format the top results take - are the how-to guides, reviews, comparisons, or other such formats.
 

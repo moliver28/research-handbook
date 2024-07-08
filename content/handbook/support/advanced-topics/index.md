@@ -1,10 +1,7 @@
 ---
-
 title: Advanced Support Topics
 description: Training modules that Support team members can complete to gain expert skills.
 ---
-
-
 
 ### Support Training Modules
 

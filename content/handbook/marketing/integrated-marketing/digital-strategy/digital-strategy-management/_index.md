@@ -1,13 +1,6 @@
 ---
-
 title: "Digital Strategy Management"
 ---
-
-
-
-
-
-
 
 ## Digital Strategy Team
 
@@ -21,9 +14,9 @@ title: "Digital Strategy Management"
 
 **Team Charter:**
 
-Develop the digital strategy to drive INQ’s and MQL’s that lead to SAO’s  for GitLab full funnel campaigns across all segments and regions.  Our core competency is to deliver a plan inclusive of the best digital channels in order to maximize the dollars and closely monitor campaigns and their assets for peak optimization.
+Develop the digital strategy to drive INQ's and MQL's that lead to SAO's  for GitLab full funnel campaigns across all segments and regions.  Our core competency is to deliver a plan inclusive of the best digital channels in order to maximize the dollars and closely monitor campaigns and their assets for peak optimization.
 
-Digital marketing managers own the INQ and MQL number that drive SAO’s for the region and segment they align to.  They are responsible for daily monitoring of campaign goals and the digital strategy component of that lightning strike. Their plans are representative across all funnel stages and each have unique channel expertise.  The team is broken down as follows:
+Digital marketing managers own the INQ and MQL number that drive SAO's for the region and segment they align to.  They are responsible for daily monitoring of campaign goals and the digital strategy component of that lightning strike. Their plans are representative across all funnel stages and each have unique channel expertise.  The team is broken down as follows:
 
 **Joon Shin:** SMB, MM, AMER, APAC, Auto-SD Test, team enablement, digital experience & All Remote
 
@@ -48,13 +41,13 @@ We take a unified approach to long term planning.  We are given our direction fr
 
 Upon agreement and alignment with the research findings, we develop a recommendation of the number of assets and asset types that are most effective in digital across all media types.  We feed the core planning team this intelligence at the beginning of the campaign kickoff so that they can plan the asset creation and campaign accordingly.  With these recommendations, we encourage the core team to consider whether or not assets already exist and simply need to be refaced or if they need to be developed/net-new.  The SSoT for content is PathFactory and internal assets SSoT is HighSpot.  The digital marketing team is not responsible for allocating budget to the creation of these assets however we will happily support applying budget to adjust an asset for improved performance in a digital channel. (ex. Asset size, color, etc).  This content creation must be baked into the overall planning timeline we review later on this page.
 
-Once the types of assets are identified, the digital marketing issue should be created using the [digital campaign request template](https://gitlab.com/gitlab-com/marketing/demand-generation/digital-marketing/-/issues/new#?issuable_template=digital-campaign-request) in GitLab.  Historically similar design requests and ad copy requests have been made by multiple teams so it’s the teams hope that by placing this request at the beginning of the planning process will remove such instances of duplication.
+Once the types of assets are identified, the digital marketing issue should be created using the [digital campaign request template](https://gitlab.com/gitlab-com/marketing/demand-generation/digital-marketing/-/issues/new#?issuable_template=digital-campaign-request) in GitLab.  Historically similar design requests and ad copy requests have been made by multiple teams so it's the teams hope that by placing this request at the beginning of the planning process will remove such instances of duplication.
 
 While the digital marketing team would love to support any and all requests that are asked of us in support of the business, we have a finite budget and finite resources and will do our best to maximize both.  Sub-region campaigns or campaigns to drive event attendance have proven ineffective in many historical cases and are an example of where we are currently unable to afford these low outcome campaigns.
 
 ### Digital Campaign Planning Timeline
 
-The digital marketing manager will need to be briefed on the campaign by the core team in advance of the kickoff call to define the “elevator pitch” for the campaign (ex. This campaign targets mid market IT Directors who need x pain point solved) so we can work with our agency to determine the market opportunity within digital and validate keywords across multiple channels to focus on.  Understanding the source of this elevator pitch came from (i.e. market research, sales feedback, customer advisory board, etc) is important for the team to know when crafting their marketing plan recommendations.  We expect this research (inclusive of competitive updates and options as well as campaign naming conventions) to take 2 weeks to return back to the digital team who will then share key learnings with the core planning team.  At this point, we should be no sooner than 12 weeks prior to campaign launch.<br>
+The digital marketing manager will need to be briefed on the campaign by the core team in advance of the kickoff call to define the "elevator pitch" for the campaign (ex. This campaign targets mid market IT Directors who need x pain point solved) so we can work with our agency to determine the market opportunity within digital and validate keywords across multiple channels to focus on.  Understanding the source of this elevator pitch came from (i.e. market research, sales feedback, customer advisory board, etc) is important for the team to know when crafting their marketing plan recommendations.  We expect this research (inclusive of competitive updates and options as well as campaign naming conventions) to take 2 weeks to return back to the digital team who will then share key learnings with the core planning team.  At this point, we should be no sooner than 12 weeks prior to campaign launch.<br>
 
  **T-12 weeks to campaign launch:**<br>
 
@@ -62,7 +55,7 @@ The digital marketing manager will need to be briefed on the campaign by the cor
 * Digital team to develop the media plan, their goals, the channel mix, spend, keyword list, and campaign calls to action <br>
 **T-10 weeks to campaign launch:** <br>
 * Tracking pixels, landing pages developed (digital experience team) with input from digital marketing team <br>
-* UTM parameters created by campaigns team.  URL’s created.<br>
+* UTM parameters created by campaigns team.  URL's created.<br>
 **T-8 weeks to campaign launch:**<br>
 * Freeze all changes to campaign scope and targets.  No further changes or launch date with slip.<br>
 **T-6 weeks to campaign launch:** <br>
@@ -99,7 +92,7 @@ The digital marketing manager will need to be briefed on the campaign by the cor
 {: #paid-digital-marketing}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-### How does paid digital contribute to GitLab’s funnel?
+### How does paid digital contribute to GitLab's funnel?
 
 {: #funnel}
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -109,7 +102,7 @@ The digital marketing manager will need to be briefed on the campaign by the cor
 
 [Click here](/handbook/marketing/integrated-marketing/digital-strategy/digital-strategy-management/#channel-definitions) to see channel definitions and where they fit in buyer journey.
 
-The Digital Marketing team’s strategy & execution ultimately leads to filling pipeline, while closely analyzing down-funnel metrics & results in order to influence & optimize top of funnel strategy in a feedback loop.
+The Digital Marketing team's strategy & execution ultimately leads to filling pipeline, while closely analyzing down-funnel metrics & results in order to influence & optimize top of funnel strategy in a feedback loop.
 
 ### External Agencies
 
@@ -123,15 +116,15 @@ For more detailed information on our partnership, communication, and invoicing, 
 
 ### Quarterly planning and strategy creation
 
-We don’t invest in assets, we invest in campaigns.  We need to understand the campaign's objectives and goals.  We triage each request and analyze and with the required information to develop a point of view as to what we can reasonably do with the dollars we have.
+We don't invest in assets, we invest in campaigns.  We need to understand the campaign's objectives and goals.  We triage each request and analyze and with the required information to develop a point of view as to what we can reasonably do with the dollars we have.
 
-We need to understand the buyer persona we are targeting, the segment and the region and with that information, develop a point of view that determines what’s possible.
+We need to understand the buyer persona we are targeting, the segment and the region and with that information, develop a point of view that determines what's possible.
 
 The segment and regional goals are built from the TOPO model so everything we do, maps back to that.  The goals we align to, add up to the ultimate goal so if we get there through campaign A or B is irrelevant.  We need to get there in the most efficient way possible.
 
-By monitoring these campaigns regularly we’ll be able to dial up and dial down the investment to make sure we are getting maximum performance.  We are laser focused on driving high volume balanced with high quality, so if an asset is not performing, we take it down, right away.  If it’s exceeding expectations, we put more money behind it.  We need to be able to shift on a dime and have developed criteria and a process for evaluating these assets.
+By monitoring these campaigns regularly we'll be able to dial up and dial down the investment to make sure we are getting maximum performance.  We are laser focused on driving high volume balanced with high quality, so if an asset is not performing, we take it down, right away.  If it's exceeding expectations, we put more money behind it.  We need to be able to shift on a dime and have developed criteria and a process for evaluating these assets.
 
-Each sales segment and region have varying ASP’s and average sales cycles - those are taken into consideration as we set the goals for the campaign and as we begin to track results.  For a campaign that has just gone live, we need to be sure to set the expectation upfront about when we will start to see results and will they come in the form of INQ’s, MQL’s or SAO’s  By setting the expectations in advance, we can track to those goals and keep all pertinent teams apprised of results.
+Each sales segment and region have varying ASP's and average sales cycles - those are taken into consideration as we set the goals for the campaign and as we begin to track results.  For a campaign that has just gone live, we need to be sure to set the expectation upfront about when we will start to see results and will they come in the form of INQ's, MQL's or SAO's  By setting the expectations in advance, we can track to those goals and keep all pertinent teams apprised of results.
 
 Finally, each campaign will have an end date that will prompt further discussion and evaluation.  The end date is determined at the time of issue creation and should not exceed 6 months.  Assets will be consistently evaluated for effectiveness, need for refresh or revision.
 
@@ -397,7 +390,7 @@ Each paid channel has its own unique design specifications, ad copy character li
 * In-Banner Design High Performers
   * Benefit/Value Prop and educational messaging
   * CICD emblem background
-  * “Learn More” CTA
+  * "Learn More" CTA
   * 4-7 word volume
 
 #### Paid Search
@@ -453,37 +446,37 @@ If you would not like to see GitLab ads, you are able to opt-out of ads as you s
 
 1. On the ad, click on the arrow next to the URL
 2. Click on Why this ad?
-3. On the toggle next to “Show ads from gitlab.com”, toggle off
+3. On the toggle next to "Show ads from gitlab.com", toggle off
 4. Close out of box
 
 **Google Display**: When you see a GitLab ad on a third-party website
 
 1. Click on the blue arrow icon at the top right-hand corner for the ad
-2. Select “Stop seeing this ad” when the option appears
+2. Select "Stop seeing this ad" when the option appears
 3. Make a selection on why you do not want to see the ad anymore
 4. Done
 
 **Facebook**: When you see a GitLab ad on Facebook
 
 1. On the upper right-hand corner of the ad, click the three dots in that corner
-2. When, menu appears, click on “Why am I seeing this ad?”
-3. In the next pop-up box, under “What You Can Do”, click the “Hide” button next to the option that says “Hide all ads from this advertiser”
+2. When, menu appears, click on "Why am I seeing this ad?"
+3. In the next pop-up box, under "What You Can Do", click the "Hide" button next to the option that says "Hide all ads from this advertiser"
 
 **LinkedIn**: When you see a GitLab ad on LinkedIn
 
 1. On the upper right-hand corner of the ad, click the three dots in that corner
-2. When option box appears, click on “Report this ad, I don’t want to see this ad in my feed”
+2. When option box appears, click on "Report this ad, I don't want to see this ad in my feed"
 3. In the pop-up box that appears next, select an option
 4. Click the Submit button on the next page
 
 **Twitter**: When you see a GitLab ad on Twitter
 
 1. On the upper right-hand corner of the ad, click the arrow
-2. When option box appears, click on “I don’t like this ad”
+2. When option box appears, click on "I don't like this ad"
 
 * Note that this does not necessarily block all ads, just that specific ad. You would need to do this on all the ads you see from GitLab
 * You could block @gitlab in your profile to no longer see ads. However you block all ability to engage with the @gitlab Twitter accounts as well (seeing Tweets, Retweeting, mentioning, etc).
 
 ### Localization
 
-Localization is a core tenet of the campaign managers GANTT chart that serves to manage the campaign and the digital team will do our best to support localization if we can ensure it doesn’t severely impact campaign efficiency.  Future versions of our investment model will contain a workback formula to help us evaluate whether or not localization would be effective, and affordable.
+Localization is a core tenet of the campaign managers GANTT chart that serves to manage the campaign and the digital team will do our best to support localization if we can ensure it doesn't severely impact campaign efficiency.  Future versions of our investment model will contain a workback formula to help us evaluate whether or not localization would be effective, and affordable.

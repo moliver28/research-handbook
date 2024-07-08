@@ -104,7 +104,7 @@ Tiering systems utilized across GitLab enables team members to make decisions on
 
 ### Maintaining Critical Logging Tiers
 
-A Critical Logging assessment is performed on an annual cadence in alignment with the [StORM annual risk assessment process]({{< ref "storm-program" >}}) to validate existing systems in GitLab’s environment and make adjustments to assigned tiers accordingly. A system's assigned tier can be found in the [tech_stack.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). A systems logging inventory can be found in the [SecLogging Inventory Repository](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/security-logging/sec-logging-inventory)
+A Critical Logging assessment is performed on an annual cadence in alignment with the [StORM annual risk assessment process]({{< ref "storm-program" >}}) to validate existing systems in GitLab's environment and make adjustments to assigned tiers accordingly. A system's assigned tier can be found in the [tech_stack.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). A systems logging inventory can be found in the [SecLogging Inventory Repository](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/security-logging/sec-logging-inventory)
 
 #### Exceptions
 

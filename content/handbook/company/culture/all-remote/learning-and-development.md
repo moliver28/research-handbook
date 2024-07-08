@@ -48,7 +48,7 @@ Clear communication is one of the best ways to overcome remote challenges.[GitLa
 
 Managers can set, share, and track team goals, or ["objectives and key results" (OKRs)](/handbook/company/okrs) for visibility across the team and company.
 
-One potential downside for all-remote teams is having timely and adequate access to people and information. Managers can ensure everyone has the needed access to information by [documenting everything]({{< ref "values#write-things-down" >}}).
+One potential downside for all-remote teams is having timely and adequate access to people and information. Managers can ensure everyone has the needed access to information by [documenting everything](/handbook/values/#write-things-down).
 
 ## The importance of documenting everything
 
@@ -118,7 +118,7 @@ To stay ahead in L&D, GitLab prioritizes personal [Growth & Development opportun
 
 Companywide trust and impeccable communication serve as the bedrock for learning and development in any company, all-remote organizations included. This relies on a [set of values]({{< ref "values" >}}) that encourages behaviors which are at odds with micromanagement.
 
-Leaders should create a climate for employees where they are eager to learn new skills and improved processes rather than political tactics. For this to occur, each team member must be trusted and empowered to make decisions based on their professional experience and skill set. This is manifested through behaviors such as [reaching across departments]({{< ref "values#reach-across-company-departments" >}}), asking for help with [no fear of judgment or embarrassment]({{< ref "values#its-impossible-to-know-everything" >}}), and [speaking up]({{< ref "values#share" >}}) when values are not adhered to.
+Leaders should create a climate for employees where they are eager to learn new skills and improved processes rather than political tactics. For this to occur, each team member must be trusted and empowered to make decisions based on their professional experience and skill set. This is manifested through behaviors such as [reaching across departments](/handbook/values/#reach-across-company-departments), asking for help with [no fear of judgment or embarrassment](/handbook/values/#its-impossible-to-know-everything), and [speaking up](/handbook/values/#share) when values are not adhered to.
 
 Proper learning and development requires more than a curriculum. It requires an atmosphere where people are unafraid and unashamed to learn, recognizing that those efforts will be encouraged and supported.
 

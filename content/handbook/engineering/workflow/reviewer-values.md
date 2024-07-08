@@ -81,7 +81,7 @@ and communicate acceptable trade-offs in the codebase.
 
 #### Quality must haves
 
-A merge request must have some thing to be considered “profitable.”
+A merge request must have some thing to be considered "profitable."
 Being a reviewer is a tough juggling act. You will find yourself often balancing iteration
 vs quality concerns, but a bias for quality serves you (and the rest of your
 teammates!) well. The following list includes a guide of some common (but not exhaustive) quality must-haves:
@@ -207,7 +207,7 @@ But they come at a cost:
 
 - They create needless MR cycles (explicitly or implicitly).
 - They create cognitive load.
-- They can possibly damage the contributor’s morale.
+- They can possibly damage the contributor's morale.
 
 Nitpicks can create a lot of noise in a code review. They can, at best, bog down a review, or at worst, create a toxic experience for the author.
 

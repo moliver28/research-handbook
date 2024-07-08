@@ -3,11 +3,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database
 title: Partitioning - Issue group search
 ---
 
-
-
-
-
-
 ## Database Partitioning: Issue group search
 
 We have [motivated database partitioning](partitioning.html) by looking at a specific example: Group-based issue search.

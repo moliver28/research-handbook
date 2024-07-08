@@ -1,16 +1,9 @@
 ---
-
 title: "Associating emails to Salesforce"
 description: "A quick guide on associating emails to Salesforce"
 ---
 
-
-
-
-
-
-
-This page contains tipson how to associate emails to Salesforce.
+This page contains tips on how to associate emails to Salesforce.
 
 ## Associating Emails to Opportunities
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Community Programs"
 description: "Meet the Community Programs team at GitLab"
 ---

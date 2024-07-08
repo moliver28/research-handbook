@@ -52,7 +52,7 @@ Developer relations and developer advocacy is an evolving, complex field.
 Our team focuses on areas aligning with the company's areas of interest including:
 
 - DevSecOps: We want our work to speak to not only developers but all team members involved in the DevSecOps lifecycle to deliver working code to production: Product Managers, software engineers, system and DB administrators, designers, test engineers, security engineers, operations engineers, platform engineers, SREs, development managers and executives, etc.
-- Enterprise: Developers and DevSecOps professionals in the enterprise have special constraints and needs.  Often these are glossed over with easy “throw out your architecture and use this new shiny thing” - we won’t do that, we’ll acknowledge real-world challenges, legacy code, and enterprise constraints and help people solve those problems as well. When applicable, we switch roles into consulting and support.
+- Enterprise: Developers and DevSecOps professionals in the enterprise have special constraints and needs.  Often these are glossed over with easy "throw out your architecture and use this new shiny thing" - we won't do that, we'll acknowledge real-world challenges, legacy code, and enterprise constraints and help people solve those problems as well. When applicable, we switch roles into consulting and support.
 
 ### KPIs
 

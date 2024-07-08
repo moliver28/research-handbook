@@ -1,13 +1,6 @@
 ---
-
 title: Incubation Engineer's Playbook
 ---
-
-
-
-
-
-
 
 ## Incubation Engineer's Playbook
 

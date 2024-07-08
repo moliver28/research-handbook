@@ -15,7 +15,7 @@ Areas of focus and core competencies for Engineering Analytics include:
 
 - Own creation, implementation, optimization, and standardization of the KPIs and metrics for the Engineering Division and its departments.
 - Collaborate across Engineering departments to find common themes in KPIs and other metrics, and determine the best ways to represent metrics with these shared or common themes.
-- Create new metrics, data analyses, and data visualizations to provide additional clarity for existing operational metrics for Engineering, built on top of the data infrastructure provided by GitLab’s Data Team's.
+- Create new metrics, data analyses, and data visualizations to provide additional clarity for existing operational metrics for Engineering, built on top of the data infrastructure provided by GitLab's Data Team's.
 - Propose strategic improvements to Engineering leadership by analyzing trends and behavior in Engineering's KPIs and metrics.
 
 ## Internal Team Responsibilities
@@ -107,7 +107,7 @@ While this team operates as a single team reporting to one manager, we emphasize
 
 The team structure will leverage [stable counterpart](/handbook/leadership/#stable-counterparts) assignees to ensure proper allocation and attention needed to service all Engineering Departments and Leaders and still promote cross-functional collaboration and ownership of an area.
 
-We assign the stable counterpart by Engineering Division’s sub-departments. This is identified by the Engineering Department name assigned to an Engineering Analyst.
+We assign the stable counterpart by Engineering Division's sub-departments. This is identified by the Engineering Department name assigned to an Engineering Analyst.
 
 | Eng Department | Analyst                                                             | PI Page                                                                                              |
 |----------------|---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ Engineering Analysts will hold recurring 1-1 with their assigned VP of an Engine
 - Capture strategic asks
 - Ensure completion of follow up for Key Reviews
 
-#### Bi-Weekly review with GitLab’s Data Team
+#### Bi-Weekly review with GitLab's Data Team
 
 This team will have standing bi-weekly sync with the Data team to:
 

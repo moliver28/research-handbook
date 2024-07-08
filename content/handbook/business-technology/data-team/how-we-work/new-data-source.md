@@ -1,16 +1,7 @@
 ---
-
 title: "New Data Source"
 description: "How to add a new data source"
 ---
-
-
-
-
-
-
-
-
 
 ---
 
@@ -23,7 +14,7 @@ Both the development (assigning resources from the Data Team, from other teams i
 - Is there a valid [business case](/handbook/business-technology/data-team/how-we-work/#data-team-value-calculator)?
   - Sometimes the business case is to comply with regulatory requirements.
   - Sometimes the business case is straightforward because value potential is clear above the investment costs.
-  - Most of the time it’s hard to quantify, because either the value is unsure or the costs are unsure. Feel free to have an open and honest discussion with the Data Team. We have the experience and could help with the justification and this does not necessarily need to be a scientific calculation.
+  - Most of the time it's hard to quantify, because either the value is unsure or the costs are unsure. Feel free to have an open and honest discussion with the Data Team. We have the experience and could help with the justification and this does not necessarily need to be a scientific calculation.
 - The work is not done when data lands in the data warehouse. The data will 'just' land in the `raw` data layer, and this is not accessible by default for Sisense. Data need to be loaded downstream into the [Enterprise Dimensional Model](/handbook/business-technology/data-team/platform/edw/) (EDM) via dbt. Follow up needs to take place, and will come on top of the process described on this page.
   - Downstream modelling could be handled by the business team, because we embrace contribution on our data platform. Please note that extensive ([dbt-](/handbook/business-technology/data-team/platform/dbt-guide/), SQL- and data modelling knowledge is needed)
   - Downstream modelling could be handled by the Data Team, ideally by a [Data Fusion Team](/handbook/business-technology/data-team/organization/#data-fusion-team-organization). Planning needs to take place and priorities are set in line with company priorities. **This falls not within the scope of adding a new data source to the data warehouse**, thus this needs to be arranged subsequently.
@@ -234,6 +225,23 @@ When extracting new data towards Snowflake and the data source is not listed or 
 - The team member that requests the connection will perform an analysis of the data and confirm the data that is extracted is not Red data.
   - For instances where Red data (fields) must be ingested into Snowflake, [masking](/handbook/business-technology/data-team/platform/#data-masking) will be applied upon extraction.
 - BT/Data VP-level, Legal and Security must sign off to start the implementation.
+
+## Personal data
+
+Extracting [Personal Data](/handbook/legal/privacy/#:~:text=DPIAs%20here.-,Personal%20Data,-Any%20data%2C%20individually) into the Data Platofrm (Snowflake) is allowed, but it will require additional review from our Legal Privacy team and, where applicable, the People Team. When requesting to add a new data source, the team member that requests the upstream system/data source is responsible to indicate if the data source contains personal data and which data elements it concerns. If a team member doesn't have enough knowledge to determine whether certain infomration is Personal Data, they should tag a subject matter expert and, if needed, a data engineer.
+
+Please note that "pseudonymized" data is still Personal Data under privacy legislation.
+
+If the upstream system (data source) contains Personal Data, the Data Team will either:
+
+- exclude the indicated Personal Data elements from the extract if the extract can fulfill the requester's purpose **without retaining** the Personal Data; or
+- obtain Legal Privacy review and approval to action the extraction to and processing of Personal Data in our Data Platform.
+
+### Sensitive Personal Data
+
+Certain Personal Data elements are deemed "sensitive" under various privacy legislation. Sensitive Personal Data generally includes racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data, data related to health, data related to sex life or sexual orientation, criminal offenses, and citizenship/immigraion status.
+
+Privacy legislation prohibits the processing of these types of data elements, except in limited circumstances. If a request is made to extract data that contains sensitive Personal Data, it will generally be denied unless true consent has been obtained to the processing, and Legal Privacy and, where applicable, the People Team, have approved this processing.
 
 ## Monte Carlo observability
 

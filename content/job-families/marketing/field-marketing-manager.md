@@ -89,7 +89,7 @@ The Field Marketing Manager is a [grade 6](/handbook/total-rewards/compensation/
 - A passion and substantial understanding of the developer tools, IT operations tools, and/or IT security markets.
 - Experience with supporting both direct sales and channel sales teams.
 - Travel up to 50%.
-- Ability to travel if needed and comply with the company’s travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Key Performance Indicators
 
@@ -124,7 +124,7 @@ This role includes all of the requirements above, plus:
 - Experience in enterprise solution demand creation and field marketing.
 - Orientation to managing program details.
 - Travel up to 50%.
-- Ability to travel if needed and comply with the company’s travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Key Performance Indicators
 
@@ -187,7 +187,7 @@ The Manager, Field Marketing is a [grade 8](/handbook/total-rewards/compensation
 - Experience managing direct or cross-functional teams of 3-10 marketers.
 - Experience managing a multi-million dollar marketing budget and working with senior finance and marketing leaders on annual budgeting processes.
 - Demonstrated track record of driving results and staying within a budget.
-- Ability to travel if needed and comply with the company’s travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 #### AMER Specific Requirements
 
@@ -234,7 +234,7 @@ The Senior Manager, Field Marketing is a [grade 9](/handbook/total-rewards/compe
 
 - Establish, allocate, and track budget down to the sub-region
 - Play an integral role in building out and operationalizing the work Field Marketing does to support our growing channel business
-- Play an integral role in building out Field Marketing’s work with cross-functional integrated campaigns
+- Play an integral role in building out Field Marketing's work with cross-functional integrated campaigns
 - Lead bi-monthly actionable calls with regional peers from the sales development team with the focus on MQL progression and regional goal tracking
 - Act as a leader to foster team collaboration and problem solving within the Integrated Marketing team
 
@@ -242,7 +242,7 @@ The Senior Manager, Field Marketing is a [grade 9](/handbook/total-rewards/compe
 
 - 20+ years of experience
 - Past experience running a team of 10+ direct reports
-- Ability to travel if needed and comply with the company’s travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Key Performance Indicators
 

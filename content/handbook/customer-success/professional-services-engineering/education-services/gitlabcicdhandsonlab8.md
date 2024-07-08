@@ -46,9 +46,9 @@ Docker is a platform commonly used by developers to build container applications
     ```yml
     build image:
       stage: build
-      image: docker:18
+      image: docker:27
       services:
-        - docker:18-dind
+        - docker:27-dind
       variables:
         IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
       script:

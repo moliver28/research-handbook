@@ -34,7 +34,7 @@ title: Learning & Development
 ### Principles
 
 1. **Meaningful and relevant content.** We deliver learning solutions that help you reach your professional goals.
-1. **Values aligned.** Our learning solutions reinforce GitLab’s [values]({{< ref "values" >}}) and foster continuous learning and curiosity.
+1. **Values aligned.** Our learning solutions reinforce GitLab's [values]({{< ref "values" >}}) and foster continuous learning and curiosity.
 1. **Diverse approaches to learning.** We apply a blended learning model to find solutions to various individual needs.
 1. **Community.** L&D offerings available to the public so that everyone can contribute.
 

@@ -63,7 +63,7 @@ The Director, Brand is a [grade 10](/handbook/total-rewards/compensation/compens
 - Bring the GitLab brand to life through one-of-a-kind brand campaigns and creative brand concepts that target our business and developer audiences.
 - Recruit top talent to build a world class brand and creative team to take GitLab to the next level as a company.
 - Work with the team to provide vision and strategy around brand campaigns to execute them in a results and metrics driven fashion.
-- Manage joint marketing opportunities with customers and partners to drive GitLab’s brand narrative.
+- Manage joint marketing opportunities with customers and partners to drive GitLab's brand narrative.
 - Bring on and manage creative agencies around the world; ensuring activities are aligned to the strategy.
 - Oversee the creative, brand growth and corporate events team to align with overall brand objectives and messaging.
 - Oversee resources to ensure key activities are activated with the right budget at the right time, in-line with the GitLab brand.

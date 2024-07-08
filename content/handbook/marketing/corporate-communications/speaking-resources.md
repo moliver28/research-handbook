@@ -83,7 +83,7 @@ For ideas to help you or your customers get their submissions accepted:
 
 > 🤝 **These steps are required.**
 
-Before accepting an invitation to speak at an event, please ensure that the conference aligns with GitLab’s values around its mission that “everyone can contribute”. The event should have both good intentions and accurately reflect those intentions.
+Before accepting an invitation to speak at an event, please ensure that the conference aligns with GitLab's values around its mission that "everyone can contribute". The event should have both good intentions and accurately reflect those intentions.
 
 1. Any event where a GitLab team member is speaking "on behalf of GitLab," requires to have at least two speakers on the event agenda from [an underrepresented group](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups) and any panel a GitLab team member participates on should have at least one speaker from an underrepresented group.
 1. Please ensure the event has an enforced, public Code of Conduct to ensure it is a safe environment for all contributing. If needed, event organizers are welcome to use GitLab's [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).

@@ -1,5 +1,4 @@
 ---
-
 title: Handling trials and extensions for GitLab Self-Managed
 category: GitLab Self-Managed licenses
 description: Issuing a license to "extend" Self-managed trials and grace periods
@@ -90,7 +89,7 @@ The `Deviation from SM License Extension Workflow` macro is to be used to record
 
 #### Customer requests for a license extension
 
-For tracking customer requests for a license extension, we rely on the SE to review the problem type and fix it if it's wrong. When a customer submits a ticket requesting a license extension, we should apply the macro `Customer Request for SM License Extension` to redirect the customer to their AE.  In this scenario, we need to modify the template text to provide the customer with their AE’s email address.
+For tracking customer requests for a license extension, we rely on the SE to review the problem type and fix it if it's wrong. When a customer submits a ticket requesting a license extension, we should apply the macro `Customer Request for SM License Extension` to redirect the customer to their AE.  In this scenario, we need to modify the template text to provide the customer with their AE's email address.
 
 This macro will automatically add the tag `lnr_sm_extension_customer_request` to track these instances.
 

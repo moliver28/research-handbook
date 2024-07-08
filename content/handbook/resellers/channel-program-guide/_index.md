@@ -4,11 +4,6 @@ title: "GitLab Channel Program Guide"
 description: "GitLab Channel partner program guide."
 ---
 
-
-
-
-
-
 **We invite organizations interested in becoming a GitLab Channel Partner to [APPLY NOW](https://partners.gitlab.com/English/register_email.aspx).**
 
 ## GitLab Channel Partner Program & Guide
@@ -99,7 +94,7 @@ GitLab PSP Designations are reviewed annually: <br>1\.Non-compliant partners at 
 
 #### GitLab PSP Designation Requirements
 
-- Program Entry Requirements  
+- Program Entry Requirements
   - Each PSP must be:
         1. An Open or Select GitLab Partner or a GitLab Distribution Partner
         2. Design, build and operate a professional service practice, and

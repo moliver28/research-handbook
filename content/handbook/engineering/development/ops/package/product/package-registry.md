@@ -1,13 +1,6 @@
 ---
-
 title: Package Stage - Package Registry
 ---
-
-
-
-
-
-
 
 ## Overview
 

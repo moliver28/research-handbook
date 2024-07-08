@@ -85,14 +85,14 @@ Each of the values and remote work competencies have a knowledge assessment in t
 
 ### Values Competencies
 
-1. [Collaboration]({{< ref "values#collaboration-competency" >}})
-1. [Results]({{< ref "values#results-competency" >}})
-1. [Efficiency]({{< ref "values#efficiency-competency" >}})
-1. [Diversity, Inclusion & Belonging ]({{< ref "values#diversity-inclusion--belonging-competency" >}})
-1. [Iteration]({{< ref "values#iteration-competency" >}})
-1. [Transparency]({{< ref "values#transparency-competency" >}})
+1. [Collaboration](/handbook/values/#collaboration-competency)
+1. [Results](/handbook/values/#results-competency)
+1. [Efficiency](/handbook/values/#efficiency-competency)
+1. [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion--belonging-competency)
+1. [Iteration](/handbook/values/#iteration-competency)
+1. [Transparency](/handbook/values/#transparency-competency)
 
-In addition to the knowledge assessments for each value, you can take this [Knowledge Assessment]({{< ref "values#gitlab-values-knowledge-assessment" >}}) to become certified in the values.
+In addition to the knowledge assessments for each value, you can take this [Knowledge Assessment](/handbook/values/#gitlab-values-knowledge-assessment) to become certified in the values.
 
 ### Remote Work Competencies
 

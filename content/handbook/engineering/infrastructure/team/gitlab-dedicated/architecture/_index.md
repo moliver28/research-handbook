@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab Dedicated Architecture"
 ---
 

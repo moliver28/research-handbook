@@ -1,13 +1,7 @@
 ---
-
 title: "Database"
+controlled_document: true
 ---
-
-
-
-
-
-
 
 ## Database Reliability at GitLab
 

@@ -1,13 +1,10 @@
 ---
-
 title: Restoring Deleted Data Requests
 category: GitLab.com
 subcategory:
 description: "Workflow for cases when a customer requests deleted data to be restored on GitLab.com."
 last-reviewed: 2021-10-06
 ---
-
-
 
 ## Overview
 

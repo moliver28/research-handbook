@@ -1,5 +1,4 @@
 ---
-
 title: "Neurodiversity Resources"
 description: "This page provides resources for team members, managers and those who identify as neurodivergent"
 canonical_path: "/company/culture/inclusion/neurodiversity-resources/"

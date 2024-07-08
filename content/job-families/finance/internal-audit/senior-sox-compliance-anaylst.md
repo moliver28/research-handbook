@@ -1,9 +1,9 @@
 ---
 title: Senior SOX Compliance Anaylst
-description: Responsible for preparing and implementing a risk-based audit plan to assess, report on, and make suggestions for improving the company’s key operational and finance activities and internal controls.
+description: Responsible for preparing and implementing a risk-based audit plan to assess, report on, and make suggestions for improving the company's key operational and finance activities and internal controls.
 ---
 
-The position is additionally responsible for identifying and assisting in documenting existing internal finance and disclosure controls, implementing and documenting new internal controls, and establishing an internal monitoring function to audit the company’s compliance with such internal controls. The position will have a key role in assessing the company’s compliance with the requirements of the Sarbanes-Oxley Act of 2002. The position will be further called on to identify and implement finance department process improvements.
+The position is additionally responsible for identifying and assisting in documenting existing internal finance and disclosure controls, implementing and documenting new internal controls, and establishing an internal monitoring function to audit the company's compliance with such internal controls. The position will have a key role in assessing the company's compliance with the requirements of the Sarbanes-Oxley Act of 2002. The position will be further called on to identify and implement finance department process improvements.
 
 The Senior SOX Compliance Analyst reports to the [Senior Internal Audit Manager](/job-families/finance/internal-audit/#senior-manager-internal-audit).
 

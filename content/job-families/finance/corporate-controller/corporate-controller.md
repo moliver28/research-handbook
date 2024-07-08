@@ -1,9 +1,9 @@
 ---
 title: "Corporate Controller"
-description: "The Corporate Controller job family leads the accounting and financial reporting activities and is responsible for the leadership, development and execution of the company’s corporate accounting function."
+description: "The Corporate Controller job family leads the accounting and financial reporting activities and is responsible for the leadership, development and execution of the company's corporate accounting function."
 ---
 
-The Corporate Controller job family leads the accounting and financial reporting activities and is responsible for the leadership, development and execution of the company’s corporate accounting function. Reporting to the Principal Accounting Officer, the Corporate Controller enhances financial controls, processes and oversees compliance with our policies and procedures. These functions and processes produce timely and accurate monthly financial results in compliance with US GAAP and SEC reporting requirements. The Controller is also responsible for capturing, defining and ensuring accuracy of non-gaap financial metrics. The Controller works closely with our external and internal auditors, and other members of the organization to complete our monthly and quarterly reporting on a timely basis. This role instills a culture of strong internal controls across the company and is responsible for compliance with our technical accounting standards, GL and sub-modules for efficient operations and global revenue.
+The Corporate Controller job family leads the accounting and financial reporting activities and is responsible for the leadership, development and execution of the company's corporate accounting function. Reporting to the Principal Accounting Officer, the Corporate Controller enhances financial controls, processes and oversees compliance with our policies and procedures. These functions and processes produce timely and accurate monthly financial results in compliance with US GAAP and SEC reporting requirements. The Controller is also responsible for capturing, defining and ensuring accuracy of non-gaap financial metrics. The Controller works closely with our external and internal auditors, and other members of the organization to complete our monthly and quarterly reporting on a timely basis. This role instills a culture of strong internal controls across the company and is responsible for compliance with our technical accounting standards, GL and sub-modules for efficient operations and global revenue.
 
 ## Responsibilities
 
@@ -24,7 +24,7 @@ The Corporate Controller job family leads the accounting and financial reporting
 - Demonstrates strong business judgment applied to routine and complex financial and accounting issues.
 - Proven international experience working with overseas financial operations.
 - Over fifteen (15) years of experience dealing with complex accounting matters.
-- Active CPA license along with a bachelor’s degree in Accounting or equivalent is required.
+- Active CPA license along with a bachelor's degree in Accounting or equivalent is required.
 - Proven success as a Sr. Director - Corporate Controller managing complex global business entities, and proven ability to handle the financial accounting and  reporting duties.
 - Self-motivated team player who can credibly communicate with and relate to individuals at all levels in the finance and accounting organization and other associated internal customer teams, with demonstrated experience in mentoring and leading distributed accounting teams.
 - Ability to both grow in the role and grow with the company, demonstrating leadership capabilities and upward progression.
@@ -64,7 +64,7 @@ The Director, Corporate Controller is a [10](/handbook/total-rewards/compensatio
 - Demonstrated ability to work with investor facing teams to showcase the company's financial results.
 - International experience working with overseas financial operations.
 - Over 10 years of experience dealing with complex accounting matters.
-- A CPA along with a bachelor’s degree in Accounting or equivalent is required.
+- A CPA along with a bachelor's degree in Accounting or equivalent is required.
 - Proven success as a Corporate Controller of complex global business entity, and ability to handle the financial accounting and financial reporting.
 - Significant technical accounting background.
 - Willing to get into the details to understand business processes at a deep level with the ability to drive efficiencies.
@@ -112,7 +112,7 @@ The Senior Director, Corporate Controller is a [11](/handbook/total-rewards/comp
 - Demonstrated ability to work with investor facing teams to showcase the company's financial results.
 - Proven international experience working with overseas financial operations.
 - Over fifteen (15) years of experience dealing with complex accounting matters.
-- Active CPA license along with a bachelor’s degree in Accounting or equivalent is required.
+- Active CPA license along with a bachelor's degree in Accounting or equivalent is required.
 - Proven success as a Sr. Director - Corporate Controller managing complex global business entities, and proven ability to handle the financial accounting and  reporting duties.
 - Significant technical accounting background.
 - Demonstrated ability to get into the details, understand business processes and resolve issues at a deep level with the acumen to drive process efficiencies.
@@ -140,8 +140,8 @@ The Vice President, Corporate Controller is a [12](/handbook/total-rewards/compe
 #### Vice President, Corporate Controller Responsibilities
 
 - DRI and owner of and will lead the monthly close process and is responsible for achieving our target for days to close (initial is eight day close).
-- Will develop and ensure compliance of GitLab’s corporate accounting policies and procedures in full compliance with US GAAP and SEC reporting standards.
-- Will own the Global Balance Sheet, Statement of Income and Statement of Cash Flow reporting.  As part of this ownership, will be responsible for the timely reporting of entries to GitLab’s statements including Revenue, Commissions, Accruals, Equity Reporting, Tax, Transfer Pricing and ensure accounts are reconciled monthly and statements are in compliance with US GAAP and SEC Reporting.
+- Will develop and ensure compliance of GitLab's corporate accounting policies and procedures in full compliance with US GAAP and SEC reporting standards.
+- Will own the Global Balance Sheet, Statement of Income and Statement of Cash Flow reporting.  As part of this ownership, will be responsible for the timely reporting of entries to GitLab's statements including Revenue, Commissions, Accruals, Equity Reporting, Tax, Transfer Pricing and ensure accounts are reconciled monthly and statements are in compliance with US GAAP and SEC Reporting.
 - Direct responsibility for managing accounting operations, monthly/quarterly accounting close and preparation of financial statements.  Will ensure all accounts are reconciled and major variances are disclosed.
 - Drive processes  to optimize and automate accounting operations to drive efficient monthly/quarterly close cycles and improve accuracy and efficiency.
 - Experience with and own our financial systems, including NetSuite, Coupa, Stock Administration, Workiva, FloQuast and Xactly.
@@ -162,7 +162,7 @@ The Vice President, Corporate Controller is a [12](/handbook/total-rewards/compe
 - Demonstrated ability to work with investor facing teams to showcase the company's financial results.
 - Has driven international teams working with overseas financial operations.
 - Over fifteen to twenty (15-20) years of experience dealing with complex accounting matters.
-- Active CPA license along with a bachelor’s degree in Accounting or equivalent is required.
+- Active CPA license along with a bachelor's degree in Accounting or equivalent is required.
 - Proven success as a Sr. Director or VP - Corporate Controller managing complex global business entities, and proven ability to handle the financial accounting and reporting duties.
 - Demonstrated technical accounting background.
 - Demonstrated ability to understand the details behind transactions, understand business processes and resolve issues at a deep level with the acumen to drive process efficiencies.

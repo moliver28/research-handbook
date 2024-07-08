@@ -13,12 +13,9 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Jun 20 | TBD |  |
-| Jun 27 | GitLab 17 Launch - Marketing Enablement | Field Enablement |
-| Jul 3 | Leveraging Partners Throughout the Customer Journey | Partner Team  |
 | Jul 11 | Spekit - RealTime Enablement - Tool Launch | Spekit & RSOE Team |
-| Jul 18 | GTM Rev Play: GitLab Duo Enterprise| Marketing |
-| Jul 25 | *No session during the last week of the quarter* | N/A |
+| Jul 18 | *No session during the last two weeks of the quarter* | N/A |
+| Jul 25 | *No session during the last two weeks of the quarter* | N/A |
 
 ## Past Sessions
 
@@ -27,6 +24,8 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-07-03 | **[Leveraging Partners Throughout the Customer Journey](https://drive.google.com/file/d/1A5_C8QMotr0K4PP_PZkM3wVQdu9qyFyh/view?usp=drive_link)** | Private  |
+| 2024-06-27 | **[GitLab 17 Launch - Marketing Enablement](https://drive.google.com/file/d/1cYYsgl5M88T8WsbVyaCTmWkMrPRXNTzf/view?usp=drive_link)** | Field Enablement |
 | 2024-06-13 | **[Business Value Services & Ecosystems](https://drive.google.com/file/d/1Y1cm7tGc8_-Kx4av4ML2135AhWFpemVX/view?usp=drive_link)**  | Private |
 | 2024-05-30 | **[Partner e-marketplace](https://drive.google.com/file/d/13pJQu_gAIwtFDvvc-Xriq1g4huOZkaOb/view?usp=drive_link)** | Private |
 | 2024-05-23 | **[Winning with Analyst Relations](https://drive.google.com/file/d/13kyzyQ6CYMampDNCTkF5I6_CMA_G1Cbc/view?usp=drive_link)** | Private  |
@@ -58,7 +57,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | 2023-08-03 |  **[FY24-Q3 - Deal Desk Update: Quote Approvals](https://drive.google.com/file/d/1cSDLF-pPUZgWd1FQB5BzWBpfzlY0oNcT/view?usp=sharing)** | Private |
 | 2023-07-13 | **[GitLab Security Competitors Overview](https://drive.google.com/file/d/1-AWkTHU5h1AhpNJTaWwDJCBYuNS4YNXw/view?usp=sharing)**  | Private |
 | 2023-06-15 | **[New Gartner & Forrester Reports: GitLab Named DevOps Platform Leader](https://drive.google.com/file/d/1cEy97VfXZ80UbywyeD5l6fMvlTuuBHMJ/view?usp=drive_link)** | Private |
-| 2023-06-08 | **[GitLab’s AI Vision & Strategy AMA & Course Launch](https://drive.google.com/file/d/1JHsZWwzzhaJQKYpUxSi8sn61cNMIGyyu/view?usp=sharing)**  | Private |
+| 2023-06-08 | **[GitLab's AI Vision & Strategy AMA & Course Launch](https://drive.google.com/file/d/1JHsZWwzzhaJQKYpUxSi8sn61cNMIGyyu/view?usp=sharing)**  | Private |
 | 2023-06-01 | **[GitLab Dedicated - General Availability Launch](https://gitlab.highspot.com/items/6478cd2f94e64c47fe04e6f5)** | Private |
 | 2023-05-25 | **[GitLab AI Competitors Overview](https://gitlab.highspot.com/items/6474ca9b3df78ba1b4baac4c)** | Private |
 | 2023-05-18 | **[Global DevSecOps Trends - Survey Results](https://gitlab.highspot.com/items/64668846776d67e6807de286?lfrm=shp.0)** | Private |
@@ -257,7 +256,7 @@ There are a few places to see previous Sales Enablement sessions:
   - Director, Sales & Customer Enablement (David Somers)
 - After alignment call, John Blevins to open issues for each enablement session with
   - Documentation of preliminary learning objectives, title, expected outcomes, etc.
-  - Tentative dates listed as “TENTATIVE - ZZZ”
+  - Tentative dates listed as "TENTATIVE - ZZZ"
   - Intended SME/speaker(s) assigned to the issue
   - Ping the SME in the issue to ask if they can commit to it, get their commitment before you schedule.
 

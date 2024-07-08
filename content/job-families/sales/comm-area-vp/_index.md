@@ -10,7 +10,7 @@ The Area Vice President reports into the [VP, Commercial Sales](/job-families/sa
 
 - Establish and deliver on a strategy to land new customers with a mutual vision for expansion and expand existing accounts with purpose, driving customer success and predictable year over year ARR growth for GitLab.
 - Recruit and develop a top tier, diverse, efficient commercial sales organization of Area Sales Managers and Account Executives
-- Maintain key customer relationships and develop and implement strategies for expanding the company’s customer base
+- Maintain key customer relationships and develop and implement strategies for expanding the company's customer base
 - Provide detailed and accurate sales forecasting
 - Manage overall sales process, set appropriate metrics for sales funnel management
 - Plan and manage at both the strategic and operational levels
@@ -30,7 +30,7 @@ The Area Vice President reports into the [VP, Commercial Sales](/job-families/sa
 - Polished presentation skills
 - Ability to handle a fast-paced environment and ambitious workload
 - Bachelor degree
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Segment
 

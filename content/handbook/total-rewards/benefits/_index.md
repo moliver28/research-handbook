@@ -42,7 +42,7 @@ These principles will guide our benefit strategies and decisions.
     - Foster Cross Company understanding
   - Results
     - Evangelize benefit programs in each entity.
-    - Transform “statutory” to “competitive.”
+    - Transform "statutory" to "competitive."
     - Make benefits a very real aspect of compensation during the hiring process.
     - Measure team member engagement and benefit enrollment.
   - Efficiency
@@ -60,7 +60,7 @@ We do not have specific budgets around benefit costs, but instead look to increa
 
 ## Annual Global Benefit  Review Process
 
-The Total Rewards team reviews GitLab’s global benefits on an annual basis and proposes changes for the next Fiscal Year. The Planning Process is as follows:
+The Total Rewards team reviews GitLab's global benefits on an annual basis and proposes changes for the next Fiscal Year. The Planning Process is as follows:
 
 ### 1. Team Member Feedback
 
@@ -69,7 +69,7 @@ The Total Rewards team reviews GitLab’s global benefits on an annual basis and
 ### 2. Market Data Collection
 
 - In Q2 & Q3,Total Rewards engages with the benefits broker to collect market data and benchmark benefit plans against other hi-tech employers.
-Benchmarking Data is the broker’s proprietary information that GitLab purchases. While some high-level benchmarking information can be shared with team members, most details cannot be disclosed outside of the People Team.
+Benchmarking Data is the broker's proprietary information that GitLab purchases. While some high-level benchmarking information can be shared with team members, most details cannot be disclosed outside of the People Team.
 
 ### 3. Fiscal Year Planning
 
@@ -88,7 +88,7 @@ The decision to participate in a pooling plan will be based on financial savings
 ### 6. People Team & Team Member Issues
 
 - Total Rewards will open People Team issues to inform Stakeholders (payroll, legal, finance, tax, etc.) and track the progress of the enhancement.
-For major plan enhancements, the Total Rewards team will create a Team Member issue with plan details to get plan specific feedback. While Team Member feedback will be considered as a strong data point, a decision will be made by the Total Rewards team considering all factors (benchmarking, budget, administration, etc).  The Total Rewards team may not create an issue if the change or enhancement is a ‘smaller’ change (i.e. change in deductible amounts, increase in contributions, etc).
+For major plan enhancements, the Total Rewards team will create a Team Member issue with plan details to get plan specific feedback. While Team Member feedback will be considered as a strong data point, a decision will be made by the Total Rewards team considering all factors (benchmarking, budget, administration, etc).  The Total Rewards team may not create an issue if the change or enhancement is a 'smaller' change (i.e. change in deductible amounts, increase in contributions, etc).
 
 ### 7. Announce Enhancements
 
