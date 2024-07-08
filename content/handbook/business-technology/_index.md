@@ -30,15 +30,6 @@ description: IT Business Technology
   </div>
 </div>
 
-<div class="flex-row" markdown="0">
-  <div>
-    <h3>IT Operations </h3>
-    <a href="/handbook/business-technology/end-user-services/" class="btn btn-purple" style="width:200px;margin:5px;">End User Services</a>
-    <a href="/handbook/business-technology/engineering/" class="btn btn-purple" style="width:200px;margin:5px;">Engineering and Infrastructure</a>
-    <a href="/handbook/business-technology/it/security/" class="btn btn-purple" style="width:200px;margin:5px;">IT Security</a>
-  </div>
-</div>
-
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Role of IT Business Technology
 
 Our department focuses on managing the framework of how GitLab procures, implements, integrates, secures, exports analytics, and supports our [tech stack applications](/handbook/business-technology/tech-stack-applications) while providing strategic enablement and integration support for all departments and team members that allows us to scale efficiently, [SAFE](/handbook/legal/safe-framework/)ly, and securely.
@@ -85,27 +76,9 @@ The [IT Security and Compliance](/handbook/business-technology/it-compliance/) t
 
 The best practices and policies for team members can be found on the [security practices](/handbook/security/) handbook page.
 
-## Organization Wide Technologies
+## IT Support
 
-The [IT Support](/handbook/business-technology/end-user-services/) team (aka Helpdesk or End User Services) focuses on providing helpdesk support for all of our team members globally with the technologies that are used across the entire organization. These include our collaboration tools (GitLab.com, Google Workspace, Slack, Zoom, etc.), security and compliance tools (1Password, Okta, Jamf, SentinelOne, etc.), laptops and hardware (MacBook Pros, Linux machines, etc.), and most software applications that run on MacOS.
-
-You can ask for assistance in the `#it_help` Slack channel.
-
-## Access Management
-
-The [IT Support](/handbook/business-technology/end-user-services/) team handles [access requests](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) for the tech stack applications that IT manages. All access requests are created in the same [issue tracker](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) project, regardless of which System Owner is responsible for provisioning your user account.
-
-The [IT Engineering - Access Management](/handbook/business-technology/engineering/access-manager) team focuses on Identity and Access Management (IAM) and Role-Based Access Control (RBAC) automation for all of [GitLab's tech stack applications](/handbook/business-technology/tech-stack-applications/).
-
-## Cloud Infrastructure Management
-
-The [IT Engineering - Infrastructure](/handbook/business-technology/engineering/infrastructure) team collaborates with the [Engineering Infrastructure Reliability (SRE)](/handbook/engineering/infrastructure/) and [Infrastructure Security](/handbook/security/product-security/infrastructure-security/) teams to provide Infrastructure Shared Services for all AWS, Azure, and GCP related requests and support across the organization. See the [Infrastructure Standards](/handbook/infrastructure-standards) handbook page to learn more.
-
-Our focus is on organizational policy management, access request provisioning, and services that are outside of the [Reliability Engineering](/handbook/engineering/infrastructure/) scope of hosting the Gitlab.com SaaS service, such as the provisioning of demo/sandbox/test infrastructure for team members.
-
-The [Demo Systems](/handbook/customer-success/demo-systems/) provide an always-on shared sandbox environment for demo and experimental use cases that aren't intended for or supported on GitLab.com and don't need dedicated infrastructure to be provisioned for your use case.
-
-The [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/), powered by [HackyStack](https://gitlab.com/gitlab-com/business-technology/engineering/tools/hackystack), automates the provisioning of AWS accounts, AWS IAM users, GCP projects, and GCP users. This has allowed us to automate a large portion of our AWS and GCP access requests.
+The IT Support, Engineering, and Infrastructure Management functions have moved to [Corporate Security](/handbook/security/corporate).
 
 ## <i class="fas fa-database" id="biz-tech-icons"></i>  Cross-Department System Owners
 
@@ -139,8 +112,6 @@ You can see all of our IT Careers and job families in this page to learn more ab
 - Groups in GitLab
   - `@gitlab-com/business-technology`
   - `@gitlab-com/business-technology/enterprise-apps`
-  - `@gitlab-com/business-technology/end-user-services`
 - Channels in Slack
   - [`#business-technology`](https://gitlab.slack.com/archives/C01BLS12V37)
   - [`#enterprise_apps`](https://gitlab.slack.com/archives/CCPG8P3K4)
-  - [`#it_help`](https://gitlab.slack.com/archives/CK4EQH50E)
