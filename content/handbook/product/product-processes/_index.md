@@ -525,7 +525,7 @@ When  considering introducing a new data store, there are quite a few considerat
   * How would we backup, restore, and failover this data store?
   * Could we operate this within a FedRAMP Moderate environment? Is it FIPS compliant?
 * Is it something our customers can run?
-  * Would we package this in our own Linux packages, Helm chart, or Operators?
+  * Would we package this in our own Linux packages, Helm chart, or Operators? Who would own contributing and maintaining these components?
   * Is there a widely available SaaS service that most of our customers could use?
   * Is Cloud Connector a viable approach given the data stored?
   * Is there sufficient operational documentation and runbooks such that our customers can successfully manage this if they needed to, perhaps for air-gapped customers?
