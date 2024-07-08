@@ -1,5 +1,7 @@
 ---
 title: Laptop Web Browsers
+aliases:
+  - /handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/google-chrome-enterprise-management
 ---
 
 ## Overview
