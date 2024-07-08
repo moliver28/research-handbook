@@ -173,8 +173,11 @@ A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook
 - **Announcement Amplification in Slack**: Share announcement post in the following channel
    - marketing
    - marketing_integratedmarketing
-- **Post-Launch Connect Calls with activation team**: TBD
-- **Campaign Analysis**: Campaign Manager provides analysis of campaign metrics 6 months in
+- **Post-Launch Connect Calls with activation team**: TBC
+   - What webinars/tech demos/workshops were run? Or are planned?
+   - What new content was developed/launched?
+   - Potential optimizations based on performance
+- **Campaign Analysis**: Campaign Manager provides analysis of campaign metrics 6 months
    - Check quarter over quarter performance
 
 ## How do we measure performance??
@@ -194,16 +197,57 @@ Our dashboards are owned and managed by the Marketing Strategy and Performance t
 - Brand Awareness Campaign - Higher-level print and digital marketing efforts organized by the corporate marketing team. These are focused on brand recognition.
 - Salesforce Campaign - An object within Salesforce that represents different types of offers. These are less-so theoretical and more to capture touchpoints of prospects and customers.
 
-## FY24 Active and WIP Integrated Campaigns
+## FY25 Active and Planned Integrated Campaigns
 
 {: #upcoming-integrated-campaigns .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
+In our FY24 campaigns review, we uncovered platform messaging doesn’t work well for early buyer engagement. Interest in pain points and solutions is still much higher than overarching DevOps platforms. Therefore, we pivoted our FY25 campaigns message and content around our prospects and customers top pain points. For more details and contect behind the change, please reference [this campaign message house](https://docs.google.com/presentation/d/1htQSPay__jcYy8Hqbu2bFxiwmuMqHV3yTL08J-Hvwac/edit?usp=sharing). 
 
+The below global integrated campaigns are continally optimized by the Marketing Campaigns team, in collaboration with Digital Marketing, Developer Advocacy, Product Marketing, and beyond. These campaign kits are leveraged by all teams in Marketing to apply cohesive and consistent messaging and approach across all marketing channels and tactics.
+
+### 🚀 FY H1: Trading off Speed for Security Pain Point campaign
+
+**Buyer Persona Campaign Manager DRI: Eirini Pan**
+**Practitioner Persona Campaign Manager DRI: Shari Rances**
+
+**Launch date: May 2024**
+
+- [Epic in GitLab](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4872)
+- [Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4872#memo-campaign-brief)
+- [Campaign Core Team Members](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4872#busts_in_silhouette-campaign-core-team)
+
+
+### Coming in FY25 H2: Too long from Software Planning to Deployment Pain Point campaign
+
+
+### 🚀 Automated Software Delivery Campaign
+
+{: #cicd}
+<!-- DO NOT CHANGE THIS ANCHOR -->
+
+**Campaign Manager DRI: Shari Rances**
+
+**Refresh date: April 2023**
+
+**Launch date: August 2022**
+
+- [FY24 Epic in GitLab](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3611)
+- [FY24 Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3611#memo-campaign-brief)
+- [FY24 Campaign Core Team Members](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3611#busts_in_silhouette-campaign-core-team)
+- [FY23 Epic in GitLab](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2790)
+- [FY23 Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2790#memo-campaign-brief)
+
+## Past Integrated Campaigns
+
+{: #past-integrated-campaigns .gitlab-purple}
+<!-- DO NOT CHANGE THIS ANCHOR -->
+
+The below were campaigns run historically, and aligned to overall GTM. They have since been retired in order to run new global campaigns aigned to updated GTM strategies between Sales and Marketing.
+
+- **[See FY24 Integrated Campaigns here>>](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3555)**
 - **[See FY23 Integrated Campaigns here>>](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2851)**
 - **[See FY22 Integrated Campaigns and GTM Motions here >>](/handbook/marketing/plan-fy22/)**
 - **[See FY21 Integrated Camapigns here >>](https://gitlab.com/groups/gitlab-com/marketing/-/epics/749)**
-
-The below global integrated campaigns are continally optimized by the Marketing Campaigns team, in collaboration wit Digtial Marketing, Developer Advocacy, Product Marketing, and beyond. These campaign bundles are leveraged by all teams in Marketing to apply cohesive and consistent messaging and approach across all marketing channels and tactics.
 
 ### 🚀 DevSecOps Platform Campaign (Previously DevOps Platform Campaign)
 
@@ -213,8 +257,8 @@ The below global integrated campaigns are continally optimized by the Marketing 
 
 **Launch date: May 2021**
 
-- [WIP:FY24 Epic in GitLab](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3460)
-- [WIP:FY24 Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3460#memo-campaign-brief)
+- [FY24 Epic in GitLab](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3460)
+- [FY24 Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3460#memo-campaign-brief)
 - [FY24 Campaign Core Team Members](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3460#busts_in_silhouette-campaign-core-team)
 - [FY23 DevOps Platform Campaign Epic in GitLab](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2858)
 - [FY23 DevOps Platform Campaign Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2858#memo-campaign-brief)
@@ -250,12 +294,6 @@ The below global integrated campaigns are continally optimized by the Marketing 
 - [FY23 Epic in GitLab](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2790)
 - [FY23 Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2790#memo-campaign-brief)
 
-## Past Integrated Campaigns
-
-{: #past-integrated-campaigns .gitlab-purple}
-<!-- DO NOT CHANGE THIS ANCHOR -->
-
-The below were campaigns run historically, and aligned to overall GTM. They have since been retired in order to run new global campaigns aigned to updated GTM strategies between Sales and Marketing.
 
 ### 🚀 CI/CD (Capability Campaign)
 
