@@ -64,7 +64,7 @@ If you would like to be added to a function's Key Review, ask your functional E-
 ## Meeting Format
 
 There are three meeting formats.
-The preferred meeting format leverages the [KPI Slides project](https://gitlab.com/gitlab-com/kpi-slides) which uses Reveal JS to automate the slide preparation and leverages version control to provide a history of changes over time.
+The preferred meeting format leverages the KPI Slides which uses Reveal JS to automate the slide preparation and leverages version control to provide a history of changes over time.
 Other teams leverage Google Slides for their meetings.
 Some teams leverage Sisense's existing automation functionality to prepare Google Slides with automated charts.
 
@@ -143,7 +143,7 @@ To create these slides, you will need *Editor* access in Sisense.
 - Edit the chart you're interested in.
 - Click "Chart Format" (second tab on far right)
 - Under Advanced, select "Expose Public CSV URL"
-- Follow the [instructions on pulling data out of Sisense](/handbook/business-technology/data-team/platform/periscope/#pulling-data-out-of-sisense)
+- Follow the [instructions on pulling data out of Sisense](https://www.youtube.com/watch?v=n4o65ivta48)
 - Select the data set and add a chart to the sheet
 - In the slides, Insert > Chart > From Sheets > find the one you're looking for
 
