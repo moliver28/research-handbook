@@ -201,7 +201,7 @@ Our dashboards are owned and managed by the Marketing Strategy and Performance t
 
 {: #upcoming-integrated-campaigns .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
-In our FY24 campaigns review, we uncovered platform messaging doesn’t work well for early buyer engagement. Interest in pain points and solutions is still much higher than overarching DevOps platforms. Therefore, we pivoted our FY25 campaigns message and content around our prospects and customers top pain points. For more details and contect behind the change, please reference [this campaign message house](https://docs.google.com/presentation/d/1htQSPay__jcYy8Hqbu2bFxiwmuMqHV3yTL08J-Hvwac/edit?usp=sharing). 
+In our FY24 campaigns review, we uncovered platform messaging doesn’t work well for early buyer engagement. Interest in pain points and solutions is still much higher than overarching DevOps platforms. Therefore, we pivoted our campaigns message and content around our prospects and customers top pain points. For more details and contect behind the change, please reference [this campaign message house](https://docs.google.com/presentation/d/1htQSPay__jcYy8Hqbu2bFxiwmuMqHV3yTL08J-Hvwac/edit?usp=sharing). 
 
 The below global integrated campaigns are continally optimized by the Marketing Campaigns team, in collaboration with Digital Marketing, Developer Advocacy, Product Marketing, and beyond. These campaign kits are leveraged by all teams in Marketing to apply cohesive and consistent messaging and approach across all marketing channels and tactics.
 
