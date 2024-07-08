@@ -122,6 +122,24 @@ exec /opt/gitlab/embedded/service/gitlab-shell/bin/gitlab-shell-orig "$@"
 
 https://gitlab.com/gitlab-com/support/toolbox/strace-parser is useful to make the results more readable.
 
+### fast-stats
+
+[fast-stats](https://gitlab.com/gitlab-com/support/toolbox/fast-stats) is a useful tool developed by Support to quickly pull statistics from GitLab logs.
+
+#### Examples
+
+To find in one interval of 60m duration what the top methods called are from the gitaly logs.
+
+```shell
+fast-stats --interval 60m --limit 1 var/log/gitlab/gitaly/current
+```
+
+To find the top 10 User, Project, Client by Duration calling that method:
+
+```shell
+grep PostUploadPackWithSidechannel var/log/gitlab/gitaly/current | ~/bin/fast-stats --interval 60m top
+```
+
 ## Log analysis
 
 Kibana (Elastic) Dashboards
