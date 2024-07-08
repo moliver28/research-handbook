@@ -142,7 +142,7 @@ The IT Compliance role is a [grade 8](/handbook/total-rewards/compensation/compe
 ### Manager, IT Compliance Responsibilities
 
 - Build, scale, and manage our IT Compliance team to support our needs as a distributed company
-- Be the IT Compliance Expert at GitLab, and advocate on bahalf of management for all external audits that requrie IT inquiry
+- Be the IT Compliance Expert at GitLab, and advocate on bahalf of management for all external audits that require IT inquiry
 - Hold regular 1:1’s with all members of the IT Compliance team
 - Triage and manage priorities of the IT Compliance team
 - Represent the IT Compliance team in different company functions
