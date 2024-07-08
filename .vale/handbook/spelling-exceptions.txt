@@ -466,7 +466,6 @@ Grafana
 Grafonnet
 gravatar
 Grype
-Guideslines
 GUIs
 Gzip
 Hackathon
