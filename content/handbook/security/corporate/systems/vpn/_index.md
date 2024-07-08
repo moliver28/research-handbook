@@ -1,5 +1,8 @@
 ---
 title: Laptop VPN for Public Networks and System Administration
+aliases:
+  - /handbook/it/guides/nordlayer
+  - /handbook/business-technology/it/security/tools/nordlayer
 ---
 
 ## Overview

@@ -1,5 +1,7 @@
 ---
 title: Google Mail (Gmail) User Delegation Guide
+aliases:
+  - /handbook/business-technology/end-user-services/how-to-articles/google-workspace/gmail-delegation
 ---
 
 ## Overview

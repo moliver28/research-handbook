@@ -1,5 +1,7 @@
 ---
 title: Corporate Security Onboarding 101 Guide
+aliases:
+  - /handbook/business-technology/end-user-services/onboarding101
 ---
 
 👋 Welcome to GitLab! We're glad you're here. The links on this page will help you get your laptop set up and access to the various systems that you will use to collaborate with other team members and start working on projects with your team.

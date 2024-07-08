@@ -1,5 +1,8 @@
 ---
 title: "SentinelOne Endpoint Detection and Response (EDR)"
+aliases:
+  - /handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/edr
+  
 ---
 
 ## Overview

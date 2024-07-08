@@ -1,5 +1,8 @@
 ---
 title: Corporate Security (CorpSec)
+aliases:
+  - /handbook/business-technology/engineering
+  - /handbook/business-technology/it
 ---
 
 👋 Welcome to Corporate Security, we're glad you're here! You may also know us as the former IT Operations team that moved from the Finance to Security division in early 2024.

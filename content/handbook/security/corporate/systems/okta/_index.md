@@ -1,5 +1,8 @@
 ---
 title: Okta Workforce Identity and SSO
+aliases:
+  - /handbook/business-technology/okta
+  - /handbook/business-technology/okta/okta-enduser-faq
 ---
 
 ## Overview
