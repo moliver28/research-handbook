@@ -454,8 +454,8 @@
 /content/handbook/people-policies/ @emilyplotkin @pegan @wendybarnes
 /content/handbook/people-policies/leave-of-absence/ @lyndemeiers @pegan @cgudgenov
 /content/handbook/people-policies/leave-of-absence/us.md @lyndemeiers @pegan @cgudgenov
-/content/handbook/total-rewards/incentives.md @wendybarnes @shristikauffman @Rkole
-/content/handbook/total-rewards/stock-options.md @wendybarnes @glucchesi @pegan @cbednarz
+/content/handbook/total-rewards/incentives.md @wendybarnes @michellenelson @mwilkins @azurmuhle @Rkole
+/content/handbook/total-rewards/stock-options.md @wendybarnes @michellenelson @mwilkins
 /content/handbook/travel/ @wendybarnes @pegan
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
@@ -613,9 +613,9 @@
 /content/handbook/product/ux/technical-writing/ @susantacker @dianalogan @kpaizee @david
 
 ^[total-rewards]
-/content/handbook/total-rewards/ @shristikauffman @mwilkins
-/content/handbook/total-rewards/benefits/ @shristikauffman @Rkole
-/content/handbook/total-rewards/compensation/ @shristikauffman @mwilkins @franzrivera
+/content/handbook/total-rewards/ @michellenelson @mwilkins @azurmuhle @Rkole
+/content/handbook/total-rewards/benefits/ @michellenelson @azurmuhle @Rkole
+/content/handbook/total-rewards/compensation/ @michellenelson @mwilkins
 
 ^[working-groups]
 /content/handbook/company/working-groups/ @gitlab-com/egroup
