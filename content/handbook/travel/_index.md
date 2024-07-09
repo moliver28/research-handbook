@@ -12,6 +12,10 @@ Team member safety and security are a top priority for GitLab. If a team member 
 
 Although GitLab is an all-remote company that encourages working from anywhere, some places are subject to trade control restrictions. For this reason, team members cannot take company-owned devices to or otherwise work from US-embargoed countries or regions under any circumstances. US-embargoed countries currently include Cuba, Iran, North Korea, and Syria and US-embargoed regions include the Crimea, Donetsk, and Luhansk regions of Ukraine; however, that list is subject to change without notice. Team members also cannot work remotely from Russia or Belarus, which are also subject to various restrictions, without written authorization from Legal.
 
+### Security Considerations
+
+GitLab prohibits team member access to company resources from China due to the significant cybersecurity threats posed by state-sponsored actors originating from that region.  By restricting access from regions known for supporting malicious activities, we aim to mitigate risks and uphold the confidentiality, integrity, and availability of GitLab. This approach aligns with our commitment to secure out customer data from evolving global threats. Please reach out to #security-corpsec in Slack with questions.
+
 ### Business Travel Emergency Assistance Program with International SOS
 
 In an emergency, International SOS (ISOS) can provide quick medical, safety, and security assistance and services to team members on business travel around the globe.
