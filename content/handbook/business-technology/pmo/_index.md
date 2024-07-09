@@ -1,5 +1,5 @@
 ---
-title: "Enterprise Applications - PMO"
+title: "IT Enterprise Applications - Program Management Office"
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
@@ -13,6 +13,11 @@ We are a global team, focused on building and managing world-class information t
 - **Al Champagne - Senior Director, Enterprise Applications** 
 GitLab handle: [achampagne1](https://gitlab.com/achampagne1) 
 Slack handle: Al Champagne
+- **Analucia Ocampo - Business Technology Program Manager**
+GitLab handle: [@aocampo2](https://gitlab.com/aocampo2)
+Slack handle: `@Analucia`
+Location and Timezone: USA, EDT/EST
+LinkedIn Profile: [analuciaocampocsp](https://www.linkedin.com/in/analuciaocampocsp/) 
 - **Barbara Roncato - Manager, IT Program Management**
 GitLab handle: [@broncato](https://gitlab.com/broncato)
 Slack handle: `@barbara`
@@ -38,12 +43,15 @@ GitLab handle: [@nicosando](https://gitlab.com/nicosando)
 Slack handle: `@Nico Sandoval` <br>
 Location and Timezone: USA, EDT/EST
 LinkedIn Profile: [nicolas-sandoval-331900b3](https://www.linkedin.com/in/nicolas-sandoval-331900b3/)
+- **Vikas Jha - Business Systems Analyst**
+GitLab handle: [@vjha_144](https://gitlab.com/vjha_144)
+Slack handle: @vjha
+Location and Timezone: India / GMT+5:30
+LinkedIn Profile: [vikas-jha](https://www.linkedin.com/in/vikas-jha/)
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 
-TBD
-
-## IT Portfolio Planning & Prioritization
+### IT Portfolio Planning & Prioritization
 
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-planning.png)
 
