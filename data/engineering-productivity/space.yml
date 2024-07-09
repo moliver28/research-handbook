@@ -152,4 +152,19 @@
         height: 400px
         toolbar: hidden
         hide_tabs: true
+- name: Weekly Merge Frequency
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: This is the weekly number of MRs merged. Hovering over the data points will give the daily frequencies.
+  target: TBD
+  category: efficiency
+  # dri: <a href="https://gitlab.com/vincywilson">Vincy Wilson</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/WeeklyMergeFrequency/WeeklyMergeFrequency
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
 
