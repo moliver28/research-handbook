@@ -25,6 +25,6 @@ We are migrating tech stack applications to Lumos iteratively and not all apps a
     - Access length
     - Business justification — "why" the access is needed
 
-    <img src="/handbook/security/corporate/systems/lumos/access_requests/images/lumos_appstore_and_app.png" alt="Lumos App Store and Access Request" width="600"/><br>
+    <img src="/handbook/security/corporate/systems/lumos/ar/images/lumos_appstore_and_app.png" alt="Lumos App Store and Access Request" width="600"/><br>
 
 4. When all approvals are completed, Lumos will notify you that access is granted
