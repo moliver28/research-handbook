@@ -113,6 +113,10 @@ When weighing issues that have to do with Blob view, make sure to take into acco
 
 This duality will be resolved with the [Link to package managers when viewing dependency files with highlight.js](https://gitlab.com/groups/gitlab-org/-/epics/7888).
 
+#### Spike issues
+
+{{% include "includes/engineering/create/spike-issues.md" %}}
+
 ### Workflow labels
 
 {{% engineering/workflow-labels group-label="group::source code" %}}
