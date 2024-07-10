@@ -10,5 +10,4 @@ To request a customer to speak and/or otherwise support an event please open the
 
 For events, please align with Nicole Smith, Director of Customer Advocacy during the quarterly OKR planning and include the Customer Advocacy team in the event kickoff. 
 
-
 Please review our GitLab Customer Advocacy Event Support Process [here](https://docs.google.com/presentation/d/1LJ1V51Psq6fmhen7FLRGVbzc5n7y4CUrtaYGZazH-uA/edit#slide=id.g2cfaeb0ced0_0_455).
