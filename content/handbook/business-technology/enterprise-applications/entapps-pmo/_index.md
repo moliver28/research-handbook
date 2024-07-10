@@ -47,11 +47,12 @@ LinkedIn Profile: [/analuciaocampocsp/](https://www.linkedin.com/in/analuciaocam
 GitLab handle: [@vjha_144](https://gitlab.com/vjha_144)
 Slack handle: `@vjha` <br>
 Location and Timezone: India / GMT+5:30
-LinkedIn Profile: [/vikas-jha/](https://www.linkedin.com/in/vikas-jha/)
+LinkedIn Profile: [/vikas-jha/](https://www.linkedin.com/in/vikas-jha/) 
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 
-## IT Portfolio Planning & Prioritization
+## IT Enterprise Applications Portfolio Planning & Prioritization
+
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-planning.png)
 
 The IT portfolio planning & prioritization process has 6 steps:
