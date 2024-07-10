@@ -52,7 +52,6 @@ LinkedIn Profile: [/vikas-jha/](https://www.linkedin.com/in/vikas-jha/)
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 
 ## IT Portfolio Planning & Prioritization
-
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-planning.png)
 
 The IT portfolio planning & prioritization process has 6 steps:

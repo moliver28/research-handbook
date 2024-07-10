@@ -51,7 +51,6 @@ LinkedIn Profile: [/vikas-jha/](https://www.linkedin.com/in/vikas-jha/)
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 
-
 ## IT Enterprise Applications Portfolio Planning & Prioritization
 
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-planning.png)
@@ -370,4 +369,3 @@ The IT PMO team primarily uses the below groups and projects on GitLab:
 ### (Governance and IT Program Management) [https://handbook.gitlab.com/handbook/business-technology/pmo/pmo-governance/]
 
 Describes the program methodology for GitLab IT programs to ensure strong results and execution in an efficient way, proper scoping consistent with our value of iteration, correct stakeholders consistent with our value of collaboration and proper documentation for compliance consistent with our transparency value.
-
