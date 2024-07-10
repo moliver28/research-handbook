@@ -38,10 +38,18 @@ GitLab handle: [@nicosando](https://gitlab.com/nicosando)
 Slack handle: `@Nico Sandoval` <br>
 Location and Timezone: USA, EDT/EST
 LinkedIn Profile: [nicolas-sandoval-331900b3](https://www.linkedin.com/in/nicolas-sandoval-331900b3/)
+- **Analucia Ocampo - Business Technology Program Manager**
+GitLab handle: [@aocampo2](https://gitlab.com/aocampo2)
+Slack handle: `@Analucia` <br>
+Location and Timezone: USA, EDT/ES
+LinkedIn Profile: [/analuciaocampocsp/](https://www.linkedin.com/in/analuciaocampocsp/)
+- **Vikas Jha - Business Systems Analyst**
+GitLab handle: [@vjha_144](https://gitlab.com/vjha_144)
+Slack handle: `@vjha` <br>
+Location and Timezone: India / GMT+5:30
+LinkedIn Profile: [/vikas-jha/](https://www.linkedin.com/in/vikas-jha/)
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
-
-TBD
 
 ## IT Portfolio Planning & Prioritization
 
@@ -357,3 +365,7 @@ The team follows [GitLab meeting practices and standards](https://about.gitlab.c
 The IT PMO team primarily uses the below groups and projects on GitLab:
 
 - [Program Management Office](https://gitlab.com/gitlab-com/business-technology/program-management-office) group: main group for the IT PMO team.
+
+### (Governance and IT Program Management) [https://handbook.gitlab.com/handbook/business-technology/pmo/pmo-governance/]
+
+Describes the program methodology for GitLab IT programs to ensure strong results and execution in an efficient way, proper scoping consistent with our value of iteration, correct stakeholders consistent with our value of collaboration and proper documentation for compliance consistent with our transparency value.
