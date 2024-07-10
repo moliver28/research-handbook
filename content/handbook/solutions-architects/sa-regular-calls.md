@@ -42,7 +42,7 @@ TBD
 #### Notes
 <ol>
 <li id="note1">
- We should <a href="https://about.gitlab.com/handbook/communication/#communicating-in-utc">communicate in UTC</a> - but this is quite challenging when daylight savings time is considered (as the UTC time of a meeting will then vary depending on the time of year - even as the local time remains the same). Giving the time in a specific location - with a link to a website (e.g. <a href="https://time.is">timein.is</a>) that will convert that time to a person's local timezone - is seen as the best compromise currently available. 
+ We should <a href="https://about.gitlab.com/handbook/communication/#communicating-in-utc">communicate in UTC</a> - but this is quite challenging when daylight savings time is considered (as the UTC time of a meeting will then vary depending on the time of year - even as the local time remains the same). Giving the time in a specific location - with a link to a website (e.g. <a href="https://time.is">time.is</a>) that will convert that time to a person's local timezone - is seen as the best compromise currently available. 
  </li>
  <li id="note2">
  'Compulsory' in this context means 'attend in person if practical to do so' - but if you cannot, ensure you review the notes document. <b>It is expected that very few calls are given this designation.</b>
