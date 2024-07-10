@@ -38,19 +38,16 @@ GitLab handle: [@nicosando](https://gitlab.com/nicosando)
 Slack handle: `@Nico Sandoval` <br>
 Location and Timezone: USA, EDT/EST
 LinkedIn Profile: [nicolas-sandoval-331900b3](https://www.linkedin.com/in/nicolas-sandoval-331900b3/)
-
 - **Analucia Ocampo - Business Technology Program Manager**
 GitLab handle: [@aocampo2](https://gitlab.com/aocampo2)
 Slack handle: `@Analucia` <br>
 Location and Timezone: USA, EDT/ES
 LinkedIn Profile: [/analuciaocampocsp/](https://www.linkedin.com/in/analuciaocampocsp/)
-
 - **Vikas Jha - Business Systems Analyst**
 GitLab handle: [@vjha_144](https://gitlab.com/vjha_144)
 Slack handle: `@vjha` <br>
 Location and Timezone: India / GMT+5:30
-LinkedIn Profile: [/vikas-jha/](https://www.linkedin.com/in/vikas-jha/)
-
+LinkedIn Profile: [/vikas-jha/](https://www.linkedin.com/in/vikas-jha/) 
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 
