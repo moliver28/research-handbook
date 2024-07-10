@@ -42,7 +42,7 @@ Please see the internal [Wiki](https://gitlab.com/gitlab-com/Finance-Division/fi
 
 ## Communicating with Billing
 
-Avoid contacting any Billing team members [directly via Slack]({{< ref "communication#avoid-direct-messages" >}}). Please tag `@billing-ops` in the #Finance channel.
+Avoid contacting any Billing team members [directly via Slack](/handbook/communication/#avoid-direct-messages). Please tag `@billing-ops` in the #Finance channel.
 
 - Email: `billing@gitlab.com`
 - Salesforce: `@billing-ops`

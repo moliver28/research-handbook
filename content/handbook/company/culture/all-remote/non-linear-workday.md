@@ -172,7 +172,7 @@ The example detailed here would not have been possible without a few realities a
 - A personal dedication to being a [manager of one](/handbook/values/#managers-of-one), able to focus on the right tasks while working from a foreign environment.
 - An understanding that not every single day will look like this. Even masters of non-linear workdays recognize that some days are less amenable to midday excursions than others. Rather than being sour about that, embrace the thrill of it being possible at all, and put effort into structuring your upcoming schedule in a way that allows for such days. As a manager of one, you have to take control over (and be accountable for) your schedule. Otherwise, other forces of the world and work will control it for you.
 
-In December of 2021, the Learning and Development team hosted [Dr. Krystal Wilkinson](https://www.mmu.ac.uk/business-school/about-us/our-staff/pp/profile/index.php?id=1039), senior lecturer at Manchester Metropolitain University, to speak about her research on the impact, challenges, and realities of working structures similar to the non-linear workday. Watch the recording on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/watch?v=m-GBiLbfTVk).
+In December of 2021, the Learning and Development team hosted [Dr. Krystal Wilkinson](https://www.mmu.ac.uk/staff/profile/dr-krystal-wilkinson), senior lecturer at Manchester Metropolitain University, to speak about her research on the impact, challenges, and realities of working structures similar to the non-linear workday. Watch the recording on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/watch?v=m-GBiLbfTVk).
 
 ### What about meetings?
 

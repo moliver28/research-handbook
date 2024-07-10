@@ -65,32 +65,32 @@ To reflect this, we have structured the Security Division around four key tenets
   <tr>
       <td>
         <ul>
-            <li><a href="{{< ref "./product-security/application-security" >}}">Application Security</a></li>
-            <li><a href="{{< ref "./product-security/infrastructure-security" >}}">Infrastructure Security</a></li>
-            <li><a href="{{< ref "./product-security/security-research" >}}">Security Research</a></li>
-            <li><a href="{{< ref "./product-security/vulnerability-management" >}}">Security Threat & Vulnerability Management</a></li>
+            <li><a href="product-security/application-security/">Application Security</a></li>
+            <li><a href="product-security/infrastructure-security/">Infrastructure Security</a></li>
+            <li><a href="product-security/security-research/">Security Research</a></li>
+            <li><a href="product-security/vulnerability-management/">Security Threat & Vulnerability Management</a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="{{< ref "./security-operations/sirt" >}}">Security Incident Response Team (SIRT)</a></li>
-            <li><a href="{{< ref "./security-operations/trustandsafety" >}}">Trust and Safety</a></li>
-            <li><a href="{{< ref "./security-operations/security-logging" >}}">Security Logging</a></li>
-            <li><a href="{{< ref "./security-operations/red-team" >}}">Red Team</a></li>
+            <li><a href="security-operations/sirt/">Security Incident Response Team (SIRT)</a></li>
+            <li><a href="security-operations/trustandsafety/">Trust and Safety</a></li>
+            <li><a href="security-operations/security-logging/">Security Logging</a></li>
+            <li><a href="security-operations/red-team/">Red Team</a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="{{< ref "./threat-management/identity" >}}">Identity Engineering, Infra, and Ops</a></li>
+            <li><a href="threat-management/identity/">Identity Engineering, Infra, and Ops</a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="{{< ref "./security-assurance/field-security" >}}">Field Security</a></li>
-            <li><a href="{{< ref "./security-assurance/security-compliance" >}}">Security Compliance, Commercial</a></li>
-            <li><a href="{{< ref "./security-assurance/dedicated-compliance" >}}">Security Compliance, Dedicated Markets</a></li>
-            <li><a href="{{< ref "./security-assurance/governance" >}}">Security Governance</a></li>
-            <li><a href="{{< ref "./security-assurance/security-risk" >}}">Security Risk</a></li>
+            <li><a href="security-assurance/field-security/">Field Security</a></li>
+            <li><a href="security-assurance/security-compliance/">Security Compliance, Commercial</a></li>
+            <li><a href="security-assurance/dedicated-compliance/">Security Compliance, Dedicated Markets</a></li>
+            <li><a href="security-assurance/governance/">Security Governance</a></li>
+            <li><a href="security-assurance/security-risk/">Security Risk</a></li>
         </ul>
       </td>
   </tr>
@@ -276,7 +276,7 @@ our security automation initiatives.
 - [Security READMEs](/handbook/security/readmes/)
 - [Working in Security](/handbook/security/working-in-security.md)
 - [Contributing to GitLab the product as a Security team member]({{< ref "contributing-to-gitlab-the-product" >}})
-- [Threat Modeling]({{< ref "./product-security/application-security/threat-modeling" >}})
+- [Threat Modeling](product-security/application-security/threat-modeling/)
 
 #### AI in Security Learning Group
 

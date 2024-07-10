@@ -36,7 +36,7 @@ When looking for the right tool for you and your team, consider what's most impo
 
 ## Does Google have a collaborative whiteboard?
 
-Remote teams should aim to [minimize their tool stack]({{< ref "remote-work-emergency-plan#minimize-your-tool-stack" >}}). It's good practice to consider how you can extract additional value from tools you already use, and [Google Docs]({{< ref "communication#google-docs" >}}) is a great example of this. While Google Docs is a fantastic shared editing tool, GitLab also uses it for temporal [meeting documentation]({{< ref "../meetings#document-everything-live-yes-everything" >}}) (prior to contextualizing takeaways for placement in relevant [handbook]({{< ref "handbook-first" >}}) sections).
+Remote teams should aim to [minimize their tool stack]({{< ref "remote-work-emergency-plan#minimize-your-tool-stack" >}}). It's good practice to consider how you can extract additional value from tools you already use, and [Google Docs](/handbook/communication/#google-docs) is a great example of this. While Google Docs is a fantastic shared editing tool, GitLab also uses it for temporal [meeting documentation]({{< ref "../meetings#document-everything-live-yes-everything" >}}) (prior to contextualizing takeaways for placement in relevant [handbook]({{< ref "handbook-first" >}}) sections).
 
 It also happens to be a great remote whiteboarding tool.
 

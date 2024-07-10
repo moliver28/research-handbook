@@ -286,8 +286,8 @@ With a right click (or your configured hotkey) you can switch from push to talk 
 Don't forget to unblock your mic in Zoom/Google Hangouts immediately after joining.
 Be warned that page up with fn+down arrow will activate it.
 Use space for page down instead of fn+up arrow.
-**Warning**: Check your [headset compatility](http://mizage.clarify-it.com/d/jv2enz) before purchase.
-Many usb headsets are unmutable.
+**Warning**: Check your headset compatibility before purchase.
+Many USB headsets are unmutable.
 
 #### Shush alternative for Linux
 

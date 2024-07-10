@@ -82,7 +82,7 @@ Feature proposals can be submitted for the following:
 - GitLab [CE](https://about.gitlab.com/install/?version=ce) and;
 - GitLab [EE](https://about.gitlab.com/install/);
 
-You can tag `@gitlab-com/gl-security/security-operations/trust-and-safety` and `@gitlab-org/modelops/anti-abuse` to review the gitlab issue.
+You can tag `@gitlab-com/gl-security/security-operations/trust-and-safety` and `@gitlab-org/modelops/anti-abuse` to review the GitLab issue.
 
 ### GitLab team members can reach Trust and Safety via
 

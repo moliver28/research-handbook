@@ -36,7 +36,7 @@ GitLab is the world's largest all-remote company. We are 100% remote, with no co
 
 ### Contrasting with remote-first
 
-All-remote is different than [remote-first](hybrid-remote/#differences-between-all-remote-and-remote-first). A remote-first organization embodies many of the principles that create a [thriving all-remote culture](building-culture/) — [handbook-first documentation](handbook-first/), [asynchronous workflows](asynchronous/), no [hybrid calls]({{< ref "communication#hybrid-calls-are-horrible" >}}), etc. — but these entities reserve the right to establish a physical company headquarters.
+All-remote is different than [remote-first](hybrid-remote/#differences-between-all-remote-and-remote-first). A remote-first organization embodies many of the principles that create a [thriving all-remote culture](building-culture/) — [handbook-first documentation](handbook-first/), [asynchronous workflows](asynchronous/), no [hybrid calls](/handbook/communication/#hybrid-calls-are-horrible), etc. — but these entities reserve the right to establish a physical company headquarters.
 
 It *is* possible to [find remote-first companies](jobs/#remote-first-companies) with a healthy, understanding culture that works to support both colocated and remote colleagues. Prospective employees should do their own due diligence to make sure the requisite values are established and lived out.
 

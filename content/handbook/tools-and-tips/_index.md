@@ -255,7 +255,7 @@ convert input.png \( +clone -background black -shadow 80x20+0+15 \) +swap -backg
 If 2FA stops working unexpectedly (no new phone or computer) it's usually because of improperly configured date & time on either device.
 Make sure that "Automatic Date & Time" is **enabled** on both devices.
 If they're already enabled try toggling them off and on again to force an update.
-If this doesn't work, request that ITOps reset your 2FA setting.
+If this doesn't work, request that IT Ops reset your 2FA setting.
 
 Links for finding the settings:
 
@@ -523,7 +523,7 @@ If you experience any such irregularities, please bring it to the attention of t
 
 ## Slack
 
-There is a lot of information pertaining to Slack, as it is a critical part of GitLab's communication. See the [Slack handbook page]({{< ref "./slack.md" >}}).
+There is a lot of information pertaining to Slack, as it is a critical part of GitLab's communication. See the [Slack handbook page](slack.md).
 
 ## Zoom
 

@@ -37,8 +37,8 @@ We're thoughtful about how we run meetings, because, when done right, they are f
    1. Ensure your [Slack profile name pronunciation has been completed](../../../tools-and-tips/slack.md#profile).
    1. Consider adding a link to the pronunciation of your name to the agenda doc in the attendee section.
    1. Ensure your [Google profile name pronunciation has been completed](../../../tools-and-tips/_index.md#add-name-pronunciation-in-google).
-1. **Avoid presenting in most meetings.** Valuable synchronous time should not be used to present in [most cases]({{< ref "communication#few-meetings-with-presentations" >}}). Instead, recorded presentations make content accessible, prevent confusion, and increase participation for team members that prefer consuming content asynchronously. It is OK to present spontaneously to share unplanned material during a meeting, but stop sharing once the point is made. This ensures that the video stream is preserved for team members to engage and interact with each other.
-1. **Be intentional about introductions (or not).** Some meetings may benefit from introductions, so be intentional about either doing introductions or not. If you are going to do introductions, make sure participants are aware beforehand so they are prepared. Create a [list of people]({{< ref "communication#meeting-introduction-guidelines" >}}) with their roles, and use that for guiding the introduction sequence. Let each individual introduce themselves so that Zoom emphasizes the speaker's video stream.
+1. **Avoid presenting in most meetings.** Valuable synchronous time should not be used to present in [most cases](/handbook/communication/#few-meetings-with-presentations). Instead, recorded presentations make content accessible, prevent confusion, and increase participation for team members that prefer consuming content asynchronously. It is OK to present spontaneously to share unplanned material during a meeting, but stop sharing once the point is made. This ensures that the video stream is preserved for team members to engage and interact with each other.
+1. **Be intentional about introductions (or not).** Some meetings may benefit from introductions, so be intentional about either doing introductions or not. If you are going to do introductions, make sure participants are aware beforehand so they are prepared. Create a [list of people](/handbook/communication/#meeting-introduction-guidelines) with their roles, and use that for guiding the introduction sequence. Let each individual introduce themselves so that Zoom emphasizes the speaker's video stream.
 1. **Provide verbal cues.** If you're going through an agenda document, then add context: "bullet 3c, Sam, you added that point, can you verbalize it for us?" Similarly use slide numbers when going through a presentation to ensure that all attendees are tracking on the content.
 1. **Adhere to the agenda order to ensure inclusiveness.** People may add agenda topics to the agenda asynchronously and synchronously during the meeting. In guiding discussions, ensure that agenda topics discussed are equitable and fair - don't let a single person or subset of the group monopolize the agenda at the expense of others.
 1. **Document in real-time.** Since not all team members will be able to attend a meeting live, documentation is a vital part of avoiding team dysfunction. Follow [Live Doc meeting best practices]({{< ref "live-doc-meetings" >}}) to increase cohesion, discipline, and transparency.
@@ -98,11 +98,11 @@ Recurring meetings are often established as meaningful points along a given jour
 
 A nontrivial amount of time is required to regain focus after a distraction. While it is not always possible to schedule meetings such that they do not create distractions, it's important to begin and end meetings on time in order to minimize disruption.
 
-When scheduling a meeting at GitLab, we value people's time and prefer the "speedy meetings" setting in our Google Calendar. This gives us meetings of, for example, 25 or 50 minutes - leaving some time to write notes, stretch, etc. before continuing to our next call. Learn more in the [Communication section of GitLab's Handbook]({{< ref "communication#scheduling-meetings" >}}).
+When scheduling a meeting at GitLab, we value people's time and prefer the "speedy meetings" setting in our Google Calendar. This gives us meetings of, for example, 25 or 50 minutes - leaving some time to write notes, stretch, etc. before continuing to our next call. Learn more in the [Communication section of GitLab's Handbook](/handbook/communication/#scheduling-meetings).
 
 ### 4. All meetings must have an agenda
 
-"[No agenda, no attenda]({{< ref "communication#external-communication" >}})." Every work-related meeting should have a single live doc agenda affixed to the calendar invite at the time that the invite is added to calendars.
+"[No agenda, no attenda](/handbook/communication/#external-communication)." Every work-related meeting should have a single live doc agenda affixed to the calendar invite at the time that the invite is added to calendars.
 
 Meeting agendas should be include:
 
@@ -178,7 +178,7 @@ Your appearance, surroundings, and background can be the source of great stress 
 1. Celebrate [unique surroundings](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence). It's not uncommon to see GitLab team members participate in a video call from the shores of a lake, coffee shops, RVs, or even while walking.
 1. Focus on your internet connection and your audio quality ([use headphones](https://about.gitlab.com/blog/2019/06/28/five-things-you-hear-from-gitlab-ceo)), reducing listening fatigue for others.
 1. Encourage family and housemates to say hello! All-remote employees invite others into their homes via video call, creating a unique opportunity to share their lives with colleagues.
-1. Consider *not* using a video call. Visit GitLab's [Communication]({{< ref "communication#video-calls" >}}) section of the Handbook to learn more.
+1. Consider *not* using a video call. Visit GitLab's [Communication](/handbook/communication/#video-calls) section of the Handbook to learn more.
 
 ### 9. It's OK to look away
 
@@ -186,13 +186,13 @@ Many organizations have attempted to improve the utility of meetings — usually
 
 1. It's completely acceptable to work on other tasks if (a particular portion of) a meeting doesn't apply to you. If your meeting is with only GitLab team members please leave your camera on to allow people to see the overall interest level and adjust the time spent on certain topics. If your meeting includes non-GitLab team members consider turning off your camera because people outside GitLab might not know that it is acceptable for us to work on other tasks during a meeting.
 1. It's not embarrassing to ask occasionally for something to be repeated. Because you manage your own attention, you are free to engage with other work and then be pulled back into a relevant part of the meeting conversation.
-1. It feels rude in video calls to interrupt people. This is because the latency causes you to talk over the speaker for longer than during an in-person meeting. We should not be discouraged by this, the questions and context provided by interruptions are valuable. This is a situation where we have to do something counter-intuitive to make all-remote meetings work. In GitLab, everyone is encouraged to interrupt the speaker in a video call to ask a question or offer context. We want everyone to contribute instead of a monologue. Just like in-person meetings be cognizant of when, who, and how you interrupt. For example, this can help avoid the issue of [men too often interrupting women](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.870.5508&rep=rep1&type=pdf).
+1. It feels rude in video calls to interrupt people. This is because the latency causes you to talk over the speaker for longer than during an in-person meeting. We should not be discouraged by this, the questions and context provided by interruptions are valuable. This is a situation where we have to do something counter-intuitive to make all-remote meetings work. In GitLab, everyone is encouraged to interrupt the speaker in a video call to ask a question or offer context. We want everyone to contribute instead of a monologue. Just like in-person meetings be cognizant of when, who, and how you interrupt. For example, this can help avoid the issue of men too often interrupting women.
 
-Learn more in the [Communication section of GitLab's Handbook]({{< ref "communication#video-calls" >}})
+Learn more in the [Communication section of GitLab's Handbook](/handbook/communication/#video-calls)
 
 ### 10. Say thanks and be creative
 
-At GitLab, we have a dedicated Slack channel [devoted to saying thanks]({{< ref "communication#say-thanks" >}}). Kindness is embedded in our [Collaboration](/handbook/values/#collaboration) value, and gratitude is an essential part of our culture. This reinforces what connects us as a [geographically diverse](/handbook/company/culture/inclusion#fully-distributed-and-completely-connected) team.
+At GitLab, we have a dedicated Slack channel [devoted to saying thanks](/handbook/communication/#say-thanks). Kindness is embedded in our [Collaboration](/handbook/values/#collaboration) value, and gratitude is an essential part of our culture. This reinforces what connects us as a [geographically diverse](/handbook/company/culture/inclusion#fully-distributed-and-completely-connected) team.
 
 A great example of several GitLab's [values](/handbook/values/) being used to generate a creative outcome from a regularly scheduled meeting is detailed on the company blog: ["How we turned a dull weekly all-hands into a podcast"](https://about.gitlab.com/blog/2019/06/03/how-we-turned-40-person-meeting-into-a-podcast)
 
@@ -249,7 +249,7 @@ When working in an all-remote company, there is a strong tendency to avoid tradi
 
 1. Block off everyone's calendar just as if they'd traveled for an offsite. Remove all other distractions (Slack, email, etc.) and enable Do Not Disturb modes on phones and computers.
 1. Ensure you have a strong desired outcome before planning a virtual offsite. This will ideally be discussed before the date and time are set, and written into the agenda.
-1. Coordinate pre-reading and work that can be done [asynchronously]({{< ref "communication#internal-communication" >}}) ahead of the remote offsite.
+1. Coordinate pre-reading and work that can be done [asynchronously](/handbook/communication/#internal-communication) ahead of the remote offsite.
 1. For newly formed groups, include initial ice-breakers and activities to develop shared trust. For example, begin with a show & tell that allows team members to showcase something they've assembled or have contributed to.
 1. Schedule breaks during calls longer than 1 hour.
 1. Keep in mind the downsides of time-zone shifting to attend these synchronous meetings. Team members in shifted time-zones may arrive with lower energy.
@@ -316,7 +316,7 @@ In addition to making it effective and efficient for participants to contribute 
 1. Start and end your calls on time.
 1. Give attendees the option to ask someone else to `please verbalize` for them if they aren't comfortable speaking up.
 
-For more tips, visit the [GitLab video call communication guide]({{< ref "communication#video-calls" >}}).
+For more tips, visit the [GitLab video call communication guide](/handbook/communication/#video-calls).
 
 ### What are the best alternatives to Zoom for remote meetings?
 

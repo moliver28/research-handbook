@@ -32,7 +32,7 @@ Remote interviews are similar to in-person interviews in many ways: You're still
 
 ### Camera
 
-For a remote interview, being able to easily navigate a [video call]({{< ref "communication#video-calls" >}}) is vital. First, consider how you want to present yourself visually by choosing a camera quality:
+For a remote interview, being able to easily navigate a [video call](/handbook/communication/#video-calls) is vital. First, consider how you want to present yourself visually by choosing a camera quality:
 
 1. Inbuilt webcam on a phone, laptop, or external display (baseline)
 1. Dedicated USB webcam (mid-tier)
@@ -189,7 +189,7 @@ Below is an archive of past interview guests, answering the above questions and 
 
 An archive of Pick Your Brain interviews are below. We've also created a [Pick Your Brain Playlist](https://www.youtube.com/playlist?list=PLFGfElNsQthafBVmoPPVMvBc_Gg2nsyQb) on [GitLab's YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg).
 
-Learn more about scheduling a GitLab [Pick Your Brain series]({{< ref "eba#pick-your-brain-meetings" >}}).
+Learn more about scheduling a GitLab [Pick Your Brain series](/handbook/eba/#pick-your-brain-meetings).
 
 1. [GitLab CEO Sid Sijbrandij and InVision Chief People Officer Mark Frein](https://about.gitlab.com/blog/2019/07/31/pyb-all-remote-mark-frein)
 1. [GitLab CEO Sid Sijbrandij and FormAssembly CEO Cedric Savarese](https://about.gitlab.com/blog/2017/08/11/pick-your-brain-interview-cedric-savarese)

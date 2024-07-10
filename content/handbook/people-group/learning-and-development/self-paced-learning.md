@@ -96,7 +96,7 @@ Due to limited licenses, we ask that team members use one license at a time from
 1. Update the [license usage sheet](https://docs.google.com/spreadsheets/d/1gHwWy7TKAXem24NVCUmq94sICp_yCocDaf_onUZ3BPg/edit#gid=0) with team member's `first name`, `last name`, `email`, `department`, and `link to their Access Request`.
 1. Communicate the following template to each new user. Include the unique access code associated with their name from the licenage usage sheet.
 
-> Your access to the Linux Foundation has been approved! Please follow these [instructions](#learning-portal-access) to set up your account using your gitlab email address. Your unique and case sensitive access code is `XXXX`. You only need this code for your initial login. Let me know if you have any questions.
+> Your access to the Linux Foundation has been approved! Please follow these [instructions](#learning-portal-access) to set up your account using your GitLab email address. Your unique and case sensitive access code is `XXXX`. You only need this code for your initial login. Let me know if you have any questions.
 
 #### License Audit + Reallocation Steps
 
@@ -114,7 +114,7 @@ This is a completely self-paced learning platform with a variety of learning for
 
 ### Sign Up
 
-Any current GitLab team member can gain access to the learning platform by filling out [this form](https://inthecloud.withgoogle.com/partner-training/request-training-resources.html). Required information includes your first and last name, your gitlab email address, a phone number, and your location. While it asks you to identify areas of interest, this is optional, and you are not limited to just the area of interest you've indicated.
+Any current GitLab team member can gain access to the learning platform by filling out [this form](https://inthecloud.withgoogle.com/partner-training/request-training-resources.html). Required information includes your first and last name, your GitLab email address, a phone number, and your location. While it asks you to identify areas of interest, this is optional, and you are not limited to just the area of interest you've indicated.
 
 Once you've submitted the form, you will receive a welcome email from partner-training@google.com within 1-3 business days with instructions for how to access the learning platform. Once you gain access, all the learning content is available to you, and you can engage as much or as little as suits your individual learning goals and level of interest.
 

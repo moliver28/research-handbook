@@ -23,7 +23,7 @@ We need to proactively identify languages, testing questions and teams with them
 - Make it as easy as possible for participants to experiment with the features, using the following recommendations and adjusting to the context:
   - Onboarding process. Minimize the number of steps needed for a participant to opt into the POV.
     - Example process:
-      - Survey to gather participants' name, role, gitlab account
+      - Survey to gather participants' name, role, GitLab account
       - Participant is enrolled in the POV instance, and given access to the right projects
       - Participant is invited to POV meetings
       - In the meeting invitation, participant finds instructions to access the POV instance, link to pre-POV survey, link to instructions to go through the workshops asynchronously, etc.

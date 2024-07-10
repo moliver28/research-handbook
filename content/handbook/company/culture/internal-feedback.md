@@ -310,7 +310,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Less downtime on GitLab.com.
     - Our Infrastructure team is always looking for new ways to improve the ownership of the things we ship. The team will look to have owners of services or features, and these services working will be the way they prove that they are actually delivering. Infrastructure has also increased uptime to 99.91% in [December 2016](http://stats.pingdom.com/81vpf8jyr1h9/1902794/2016/12).
 1. Casual and social interaction.
-    - We have instituted [Coffee Breaks](/handbook/company/culture/all-remote/tips#coffee-chats) to promote catching up with GitLab team-members. Also, all GitLab team-members are just a click away on Slack or a call away on the [Random Hangout]({{< ref "communication#random-room" >}}).
+    - We have instituted [Coffee Breaks](/handbook/company/culture/all-remote/tips#coffee-chats) to promote catching up with GitLab team-members. Also, all GitLab team-members are just a click away on Slack or a call away on the [Random Hangout](/handbook/communication/#random-room).
 1. Revise Lever Notifications.
     - Sometimes it can be hard to manage Lever notifications. Here are some [guidelines](/handbook/hiring#general-points-about-moving-applicants-through-the-process) to keep your inbox low.
 

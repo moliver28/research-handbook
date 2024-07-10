@@ -29,7 +29,7 @@ Navan Expense is available via Okta. To access the platform:
 
 ![navan-image-20](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/signin.png)
 
-- Add your gitlab email and click `Continue`.
+- Add your GitLab email and click `Continue`.
 
 ![navan-image-21](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/work-email.png)
 

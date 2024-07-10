@@ -270,7 +270,7 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 ### Acquisitions
 
-- [**Acquisitions**]({{< ref "./talent-acquisition-framework/acquisitions" >}})
+- [**Acquisitions**](talent-acquisition-framework/acquisitions/)
 
 ### Internal Mobility
 

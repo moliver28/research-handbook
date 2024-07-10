@@ -176,7 +176,7 @@ The Registry Service is backed by a storage bucket managed by the GitLab Environ
 .com Leverages the same GitLab Helm chart to deploy and configure the Container Registry service.
 The backing storage is configured by our own terraform mechanism in the [`config-mgmt`](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt) repository.
 
-Container Registry uses PostgesSQL Database for [online garbage collection](https://docs.gitlab.com/ee/architecture/administration/packages/container_registry_metadata_database.html) where the database migrations are managed by a [Kubernetes Job](https://gitlab.com/gitlab-org/charts/gitlab/-/blob/8a6a34b8db7a41eaff463d0353a2e876ebc41458/charts/registry/templates/migrations-job.yaml) with possibility to manually rollback.
+Container Registry uses PostgesSQL Database for [online garbage collection](https://docs.gitlab.com/ee/administration/packages/container_registry_metadata_database.html) where the database migrations are managed by a [Kubernetes Job](https://gitlab.com/gitlab-org/charts/gitlab/-/blob/8a6a34b8db7a41eaff463d0353a2e876ebc41458/charts/registry/templates/migrations-job.yaml) with possibility to manually rollback.
 
 The Container Registry also uses Redis as a caching layer.
 
@@ -191,7 +191,7 @@ The Container Registry also uses Redis as a caching layer.
 _work in progress._  [See Issue 2481](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/2481)
 
 - Outgoing: It is slated that we leverage the [AWS `SES` product](https://aws.amazon.com/ses/) and geared towards outgoing email.
-- Incoming: [Incoming email](https://docs.gitlab.com/ee/architecture/administration/incoming_email.html) is unsupported.
+- Incoming: [Incoming email](https://docs.gitlab.com/ee/administration/incoming_email.html) is unsupported.
 
 **What is GitLab.com doing right now:**
 

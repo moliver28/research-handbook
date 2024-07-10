@@ -337,7 +337,6 @@ The first objects built using the work items architecture support the [Parker](/
 Read more about work items
 
 - [Work items architecture](https://docs.gitlab.com/ee/architecture/blueprints/work_items/)
-- [Work items Pajamas documentation](https://design.gitlab.com/objects/work-item)
 - [Work items terminology](https://docs.gitlab.com/ee/development/work_items.html#work-item-terminology)
 
 ##### Terminology
@@ -586,7 +585,7 @@ and can be formed of just Functional Leads and members who participate in fulfil
 
 ### Product Outreach
 
-There can be a gap in understanding between Engineering and Product on a team. We are experimenting with a pilot programme that will allow engineers to spend time in the world of Product, with the goal of greater mutual communication, understanding and collaboration. It helps us work more effectively as a team for better features.
+There can be a gap in understanding between Engineering and Product on a team. We are experimenting with a pilot program that will allow engineers to spend time in the world of Product, with the goal of greater mutual communication, understanding and collaboration. It helps us work more effectively as a team for better features.
 
 #### Product Shadowing schedule
 

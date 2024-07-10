@@ -32,7 +32,7 @@ A simple way to achieve this redundancy is to lean on one mobile network operato
 
 Another way to improve your chances of a strong internet connection while traveling is to bring an Ethernet cord and adapter that allows you to connect an ethernet cord to your laptop. Not all hotels or coworking spaces will provide an ethernet connection option, but if it is available Ethernet is your best bet for a fast, secure internet connection.
 
-If you plan to travel through [various countries and continents](https://about.gitlab.com/blog/2017/06/30/there-and-back-again-in-one-release), plan ahead. Services such as [KnowRoaming](https://www.knowroaming.co/order) and [Skyroam](https://www.skyroam.com) enable connections across borders. While it's possible to acquire a local SIM card in most countries, you'll need an unlocked smartphone or hotspot. Plus, you may need a basic understanding of the local language, local currency, and to shop during regular business hours.
+If you plan to travel through [various countries and continents](https://about.gitlab.com/blog/2017/06/30/there-and-back-again-in-one-release), plan ahead. Services such as [KnowRoaming](https://www.knowroaming.com/) and [Skyroam](https://www.skyroam.com) enable connections across borders. While it's possible to acquire a local SIM card in most countries, you'll need an unlocked smartphone or hotspot. Plus, you may need a basic understanding of the local language, local currency, and to shop during regular business hours.
 
 ### Buy local data with an eSIM, without changing your SIM card
 

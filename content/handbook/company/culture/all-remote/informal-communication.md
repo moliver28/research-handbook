@@ -129,7 +129,7 @@ Below are a number of intentional facets of [GitLab's culture]({{< ref "culture#
 1. Coworking calls: More details below.
 1. Social hours: Informal social calls organized within our immediate teams to get to know each other on a more personal level.
 1. Local meetups: Co-located team members are encouraged to organize their own meetups, whether it's a coworking space or getting dinner together.
-1. [Slack]({{< ref "communication#slack" >}}): We use Slack channels for informal communications throughout the company, whether it's a team-specific channel or a channel dedicated to sharing vacation photos with other team members.
+1. [Slack](/handbook/communication/#slack): We use Slack channels for informal communications throughout the company, whether it's a team-specific channel or a channel dedicated to sharing vacation photos with other team members.
 1. [Zoom calls]({{< ref "tools-and-tips#zoom" >}}): Not only do we get to know our coworkers better by seeing them in real time during video calls, we also get to know their pets and families too. This visual engagement helps us relate to each other on a more personal level, so when we meet in person, we already know each other. In fact, when our team members meet face-to-face for the first time, the most surprising factor is usually each person's height.
 1. Gaming: GitLab has a `#gaming` Slack channel where fans of video games and digital board games can connect. Coordinating shared gaming sessions is a great way to informally connect with team members and collaborate toward goals outside of work.
 1. Music making: GitLab's `#music_making` Slack channel is a place where artists can come together and collaborate synchronously or asynchronously to make music together. Several GitLab team members came together to create [All I Want This Quarter Is You (GitLab)](https://youtu.be/9kTwqsW8I68), a musical masterpiece on the GitLab Unfiltered YouTube channel.
@@ -152,7 +152,7 @@ In a colocated setting, meetings tend to begin with personal conversation. Virtu
 
 ### Speedy meetings
 
-As part of our overall [Communications Handbook]({{< ref "communication#scheduling-meetings" >}}), we prefer to utilize the "speedy meetings" setting in Google Calendar, which encourages before-the-call banter and conversation. It also provides space between meetings to recharge and reset.
+As part of our overall [Communications Handbook](/handbook/communication/#scheduling-meetings), we prefer to utilize the "speedy meetings" setting in Google Calendar, which encourages before-the-call banter and conversation. It also provides space between meetings to recharge and reset.
 
 ### Lead with empathy
 
@@ -215,7 +215,7 @@ It's a great chance to get to know who you work with, talk about everyday things
 
 ### Scheduling a Coffee Chat
 
-GitLab Team Members can easily schedule a Coffee Chat in Google Calendar and link it to Zoom, with a 1-click link to the video call. When scheduling coffee chats with executive leadership, please reach out to their EBA to find a mutually available time. If they are not on the list in the [EBA Handbook]({{< ref "eba#executive-business-administrator-team" >}}), please follow the steps below:
+GitLab Team Members can easily schedule a Coffee Chat in Google Calendar and link it to Zoom, with a 1-click link to the video call. When scheduling coffee chats with executive leadership, please reach out to their EBA to find a mutually available time. If they are not on the list in the [EBA Handbook](/handbook/eba/#executive-business-administrator-team), please follow the steps below:
 
 Watch this [short video](https://youtu.be/zbbEn_PznK0) to see how it's done.
 
@@ -269,7 +269,7 @@ We recognize that coffee chats may place pressure on the URG team member to come
 1. How do you describe our offering to family and friends?
 1. What opportunities for learning and growth have you recently found or created for yourself? What such opportunities do you see for your colleagues?
 
-If you have any questions please reach out to the [Staff EBA to the CEO]({{< ref "eba#executive-business-administrator-team" >}}) or the Manager, Diversity Inclusion and Belonging or your People Business Partner. If your question/feedback can be posted publicly, please post in the slack channel #urg-leadership-coffee-chat
+If you have any questions please reach out to the [Staff EBA to the CEO](/handbook/eba/#executive-business-administrator-team) or the Manager, Diversity Inclusion and Belonging or your People Business Partner. If your question/feedback can be posted publicly, please post in the slack channel #urg-leadership-coffee-chat
 
 ### The Donut Bot
 

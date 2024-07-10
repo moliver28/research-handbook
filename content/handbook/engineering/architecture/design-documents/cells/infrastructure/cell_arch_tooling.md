@@ -171,7 +171,7 @@ cloud "Google Cloud Platform" <<gcp>> {
 
 #### Components
 
-Each cell contains a [Cloud Native Hybrid deployment](https://docs.gitlab.com/ee/architecture/administration/reference_architectures/50k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) of GitLab, sized appropriately for its expected workload. This is provided by the [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) via the Dedicated tool [Instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor) which acts as an orchestration layer on top of GET.
+Each cell contains a [Cloud Native Hybrid deployment](https://docs.gitlab.com/ee/administration/reference_architectures/50k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) of GitLab, sized appropriately for its expected workload. This is provided by the [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) via the Dedicated tool [Instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor) which acts as an orchestration layer on top of GET.
 
 Cell definitions (i.e. size of each cell, which components it includes, etc.) will be stored in the [`cells-tissue` repository](https://gitlab.com/gitlab-com/gl-infra/cells-tissue), which already contains definitions for a number of cells and rings.
 

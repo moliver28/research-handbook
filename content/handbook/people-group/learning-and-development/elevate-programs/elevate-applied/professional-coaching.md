@@ -41,7 +41,7 @@ Applications will open from 2024-06-05 through 2024-06-14. Use [this Google Form
 
 _Read testimonials below from managers who have received professional coaching from GitLab._
 
-![written testimonials from managers at gitlab who have recieved professional coaching](/handbook/people-group/learning-and-development/elevate-programs/images/testimonials.png)
+![written testimonials from managers at GitLab who have recieved professional coaching](/handbook/people-group/learning-and-development/elevate-programs/images/testimonials.png)
 
 #### Selection Criteria
 

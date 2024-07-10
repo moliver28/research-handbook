@@ -242,7 +242,7 @@ If you need support with a specific CultureAmp Survey, please complete this [iss
 - [Offboarding]({{< ref "offboarding" >}})
 - [Celebrations]({{< ref "celebrations" >}})
 - [People Connect](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
-- [People Analytics]({{< ref "./people-ops-tech-analytics/people-analytics/_index.md" >}})
+- [People Analytics](people-ops-tech-analytics/people-analytics/_index.md)
 
 ### Talent Acquisition
 

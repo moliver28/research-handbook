@@ -74,29 +74,29 @@ set of widgets for them.
 | Widget  | Description | Feature flag | Write permission | GraphQL Subscription Support |
 |---|---|---|---|---|
 | [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/index.html#workitemwidgetassignees) | List of work item assignees | |`Guest`|Yes|
-| [WorkItemWidgetAwardEmoji](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetawardemoji) | Emoji reactions added to work item, including support for upvote/downvote counts | |Anyone who can view|No|
-| [WorkItemWidgetColor](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetcolor) | Set color of a work item. **Note:** Color is available only for epics. | |`Reporter`|No|
-| [WorkItemWidgetCurrentUserTodos](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetcurrentusertodos) | User todo state of work item | |Anyone who can view|No|
-| [WorkItemWidgetDescription](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetdescription) | Description of work item, including support for edited state, timestamp, and author | |`Reporter`|No|
-| [WorkItemWidgetDesigns](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetdesigns) | Design attachments for work items | |`Reporter`|No|
-| [WorkItemWidgetDevelopment](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetdevelopment) | Show related branches and merge requests for work items | |`Reporter`|No|
-| [WorkItemWidgetHealthStatus](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgethealthstatus) | Health status assignment support for work item | |`Reporter`|No|
-| [WorkItemWidgetHierarchy](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgethierarchy) | Hierarchy of work items, including support for boolean representing presence of children. | |`Guest`|No|
-| [WorkItemWidgetIteration](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetiteration) | Iteration assignment support for work item | |`Reporter`|No|
-| [WorkItemWidgetLabels](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetlabels) | List of labels added to work items, including support for checking whether scoped labels are supported | |`Reporter`|Yes|
-| [WorkItemWidgetLinkedItems](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetlinkeditems) | List of work items added as related to a given work item, with possible relationship types being `relates_to`, `blocks`, and `blocked_by`. Includes support for individual counts of blocked status, blocked by, blocking, and related to. | |`Guest`|No|
-| [WorkItemWidgetMilestone](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetmilestone) | Milestone assignment support for work item | |`Reporter`|No|
-| [WorkItemWidgetNotes](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetnotes) | List of discussions within a work item | |`Guest`|Yes|
-| [WorkItemWidgetNotifications](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetnotifications) | Notifications subscription status of a work item for current user | |Anyone who can view|No|
-| [WorkItemWidgetParticipants](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetparticipants) | Participants of a work item | |Anyone who can view|No|
-| [WorkItemWidgetProgress](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetprogress) | Progress value of a work item. **Note:** Progress is currently available only for OKRs. | `okrs_mvc` |`Reporter`|No|
-| [WorkItemWidgetRequirementLegacy](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetrequirementlegacy) | Legacy requirements | | |No|
-| [WorkItemWidgetRolledupDates](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetrolledupdates) | Set the start date and due date for epic work items, and roll up the start date and due date from child work items | |`Reporter`|No|
-| [WorkItemWidgetStartAndDueDate](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetstartandduedate) | Set start and due dates for a work item | |`Reporter`|No|
-| [WorkItemWidgetStatus](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetstatus) | Status of a work item when type is Requirement, with possible status types being `unverified`, `satisfied`, or `failed` | | |No|
-| [WorkItemWidgetTestReports](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgettestreports) | Test reports associated with a work item | | | |
-| [WorkItemWidgetTimeTracking](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgettimetracking) | Track total time spent on a work item | |`Reporter`|No|
-| [WorkItemWidgetWeight](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetweight) | Set weight of a work item | |`Reporter`|No|
+| [WorkItemWidgetAwardEmoji](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetawardemoji) | Emoji reactions added to work item, including support for upvote/downvote counts | |Anyone who can view|No|
+| [WorkItemWidgetColor](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetcolor) | Set color of a work item. **Note:** Color is available only for epics. | |`Reporter`|No|
+| [WorkItemWidgetCurrentUserTodos](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetcurrentusertodos) | User todo state of work item | |Anyone who can view|No|
+| [WorkItemWidgetDescription](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetdescription) | Description of work item, including support for edited state, timestamp, and author | |`Reporter`|No|
+| [WorkItemWidgetDesigns](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetdesigns) | Design attachments for work items | |`Reporter`|No|
+| [WorkItemWidgetDevelopment](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetdevelopment) | Show related branches and merge requests for work items | |`Reporter`|No|
+| [WorkItemWidgetHealthStatus](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgethealthstatus) | Health status assignment support for work item | |`Reporter`|No|
+| [WorkItemWidgetHierarchy](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgethierarchy) | Hierarchy of work items, including support for boolean representing presence of children. | |`Guest`|No|
+| [WorkItemWidgetIteration](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetiteration) | Iteration assignment support for work item | |`Reporter`|No|
+| [WorkItemWidgetLabels](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetlabels) | List of labels added to work items, including support for checking whether scoped labels are supported | |`Reporter`|Yes|
+| [WorkItemWidgetLinkedItems](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetlinkeditems) | List of work items added as related to a given work item, with possible relationship types being `relates_to`, `blocks`, and `blocked_by`. Includes support for individual counts of blocked status, blocked by, blocking, and related to. | |`Guest`|No|
+| [WorkItemWidgetMilestone](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetmilestone) | Milestone assignment support for work item | |`Reporter`|No|
+| [WorkItemWidgetNotes](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetnotes) | List of discussions within a work item | |`Guest`|Yes|
+| [WorkItemWidgetNotifications](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetnotifications) | Notifications subscription status of a work item for current user | |Anyone who can view|No|
+| [WorkItemWidgetParticipants](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetparticipants) | Participants of a work item | |Anyone who can view|No|
+| [WorkItemWidgetProgress](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetprogress) | Progress value of a work item. **Note:** Progress is currently available only for OKRs. | `okrs_mvc` |`Reporter`|No|
+| [WorkItemWidgetRequirementLegacy](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetrequirementlegacy) | Legacy requirements | | |No|
+| [WorkItemWidgetRolledupDates](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetrolledupdates) | Set the start date and due date for epic work items, and roll up the start date and due date from child work items | |`Reporter`|No|
+| [WorkItemWidgetStartAndDueDate](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetstartandduedate) | Set start and due dates for a work item | |`Reporter`|No|
+| [WorkItemWidgetStatus](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetstatus) | Status of a work item when type is Requirement, with possible status types being `unverified`, `satisfied`, or `failed` | | |No|
+| [WorkItemWidgetTestReports](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgettestreports) | Test reports associated with a work item | | | |
+| [WorkItemWidgetTimeTracking](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgettimetracking) | Track total time spent on a work item | |`Reporter`|No|
+| [WorkItemWidgetWeight](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetweight) | Set weight of a work item | |`Reporter`|No|
 | WorkItemWidgetLock | Lock/Unlock a work item | |`Reporter`|No|
 
 #### Widget availability (updating)
@@ -104,29 +104,29 @@ set of widgets for them.
 | Widget | Epic | Issue | Task | Objective | Key Result |
 |---|---|---|---|---|---|
 | [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/index.html#workitemwidgetassignees) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [WorkItemWidgetAwardEmoji](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetawardemoji) | ✅ | ✔️ | ✅ | ✅ | ✅ |
-| [WorkItemWidgetColor](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetcolor) | ✅ | ❌ | ❌ | ❌ | ❌ |
-| [WorkItemWidgetCurrentUserTodos](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetcurrentusertodos) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [WorkItemWidgetDescription](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetdescription) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [WorkItemWidgetDesigns](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetdesigns) | ✔️ | ✅ | ❌ | ❌ | ❌ |
-| [WorkItemWidgetDevelopment](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetdevelopment) | ❌ | ✅ | ❌ | ❌ | ❌ |
-| [WorkItemWidgetHealthStatus](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgethealthstatus) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [WorkItemWidgetHierarchy](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgethierarchy) | ✅ | ✅ | ❌ | ✅ | ❌ |
-| [WorkItemWidgetIteration](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetiteration) | ❌ | ✅ | ✅ | ❌ | ❌ |
-| [WorkItemWidgetLabels](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetlabels) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [WorkItemWidgetLinkedItems](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetlinkeditems) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [WorkItemWidgetMilestone](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetmilestone) | ❌ | ✅ | ✅ | ✅ | ❌ |
-| [WorkItemWidgetNotes](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetnotes) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [WorkItemWidgetNotifications](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetnotifications) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [WorkItemWidgetParticipants](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetparticipants) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [WorkItemWidgetProgress](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetprogress) | ❌ | ❌ | ❌ | ✅ | ✅ |
-| [WorkItemWidgetRequirementLegacy](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetrequirementlegacy) | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [WorkItemWidgetRolledupDates](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetrolledupdates) | ✅ | ❌ | ❌ | ❌ | ❌ |
-| [WorkItemWidgetStartAndDueDate](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetstartandduedate) | ❌ | ✅ | ✅ | ❌ | ✅ |
-| [WorkItemWidgetStatus](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetstatus) | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [WorkItemWidgetTestReports](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgettestreports) | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [WorkItemWidgetTimeTracking](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgettimetracking) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [WorkItemWidgetWeight](https://docs.gitlab.com/ee/api/graphql/reference/index.md#workitemwidgetweight) | ❌ | ✅ | ✅ | ❌ | ❌ |
+| [WorkItemWidgetAwardEmoji](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetawardemoji) | ✅ | ✔️ | ✅ | ✅ | ✅ |
+| [WorkItemWidgetColor](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetcolor) | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [WorkItemWidgetCurrentUserTodos](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetcurrentusertodos) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [WorkItemWidgetDescription](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetdescription) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [WorkItemWidgetDesigns](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetdesigns) | ✔️ | ✅ | ❌ | ❌ | ❌ |
+| [WorkItemWidgetDevelopment](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetdevelopment) | ❌ | ✅ | ❌ | ❌ | ❌ |
+| [WorkItemWidgetHealthStatus](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgethealthstatus) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [WorkItemWidgetHierarchy](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgethierarchy) | ✅ | ✅ | ❌ | ✅ | ❌ |
+| [WorkItemWidgetIteration](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetiteration) | ❌ | ✅ | ✅ | ❌ | ❌ |
+| [WorkItemWidgetLabels](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetlabels) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [WorkItemWidgetLinkedItems](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetlinkeditems) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [WorkItemWidgetMilestone](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetmilestone) | ❌ | ✅ | ✅ | ✅ | ❌ |
+| [WorkItemWidgetNotes](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetnotes) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [WorkItemWidgetNotifications](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetnotifications) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [WorkItemWidgetParticipants](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetparticipants) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [WorkItemWidgetProgress](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetprogress) | ❌ | ❌ | ❌ | ✅ | ✅ |
+| [WorkItemWidgetRequirementLegacy](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetrequirementlegacy) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [WorkItemWidgetRolledupDates](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetrolledupdates) | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [WorkItemWidgetStartAndDueDate](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetstartandduedate) | ❌ | ✅ | ✅ | ❌ | ✅ |
+| [WorkItemWidgetStatus](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetstatus) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [WorkItemWidgetTestReports](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgettestreports) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [WorkItemWidgetTimeTracking](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgettimetracking) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [WorkItemWidgetWeight](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetweight) | ❌ | ✅ | ✅ | ❌ | ❌ |
 
 ##### Legend
 
@@ -203,7 +203,7 @@ makes the architecture more scalable.
 
 ### Flexibility
 
-With existing implementation, we have a rigid structure for issuables, 
+With existing implementation, we have a rigid structure for issuables,
 merge requests, epics etc. This structure is defined on both backend and frontend,
 so any change requires a coordinated effort. Also, it would be very hard to make
 this structure customizable for the user without introducing a set of flags to

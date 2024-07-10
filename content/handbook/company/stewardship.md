@@ -110,7 +110,7 @@ and [wider community contributions per release](/handbook/marketing/developer-re
 **Deployment Constrained.**
 Customers are afraid of confusing or unsanctioned licenses entering a business environment. -
  We don't use a limiting license such as SSPL. As we highlight [in our docs](https://docs.gitlab.com/ee/development/licensing.html),
-[GitLab Community Edition (CE)](https://gitlab.com/gitlab-org/gitlab-foss/) is licensed under the terms of the [MIT License](https://gitlab.com/gitlab-org/gitlab-foss/blob/master/LICENSE), which is an official Open Source license as defined by the [Open Source Initative](https://opensource.org/licenses/alphabetical).
+[GitLab Community Edition (CE)](https://gitlab.com/gitlab-org/gitlab-foss/) is licensed under the terms of the [MIT License](https://gitlab.com/gitlab-org/gitlab-foss/blob/master/LICENSE), which is an official Open Source license as defined by the [Open Source Initiative](https://opensource.org/licenses/alphabetical).
 
 ## Existing Contributed Open Source Features Will Not Become Source-Available
 
@@ -171,7 +171,7 @@ GitLab is open core built entirely with open source. We rely on [thousands of de
 Shipping as much open source as possible is critical to our [business model](#business-model) because it increases the velocity of our [flywheels](/handbook/company/strategy/#dual-flywheels). The faster they spin, the more we can contribute back.
 
 **Contribute At Scale.**
-GitLab is a single application for the entire DevOps lifecycle. By [freely providing](https://about.gitlab.com/solutions/open-source/join/) the top tier of GitLab to [open source projects](https://about.gitlab.com/solutions/open-source/projects/), we are enabling them to be more efficient, secure, and productive.
+GitLab is a single application for the entire DevOps lifecycle. By [freely providing](https://about.gitlab.com/solutions/open-source/join/) the top tier of GitLab to [open source projects](https://about.gitlab.com/solutions/open-source/), we are enabling them to be more efficient, secure, and productive.
 
 The combination of the above leads to global optimization on a much larger scale than anything we could contribute with a small portion of our time working on things that don't directly move our vision forward.
 

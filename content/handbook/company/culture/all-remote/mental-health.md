@@ -29,7 +29,7 @@ In the [People Group Conversation](https://youtu.be/fH8nmtEoBh4) above, GitLab C
 >
 > Everyone is used to that [being pressured]. At every company I've been at, that was a celebrated thing. We have to be super, super careful that we do not celebrate that at GitLab. — *Sid Sijbrandij, GitLab co-founder and CEO*
 
-There's a fine line between [thanking someone publicly]({{< ref "communication#say-thanks" >}}) for going above and beyond to help out in a situation, and sending a message that work should always trump life.
+There's a fine line between [thanking someone publicly](/handbook/communication/#say-thanks) for going above and beyond to help out in a situation, and sending a message that work should always trump life.
 Burnout rarely happens all at once. Rather, it typically takes one by surprise, eventually coming to a head after days, weeks, or months of overwork creep.
 
 While working one additional hour to move a given project forward is likely not debilitating when viewed in a vacuum, it can trigger a revised baseline where you must *continue* to overwork in order to maintain the new status quo.
@@ -52,7 +52,7 @@ As John Fitch describes in the book [Time Off](https://www.timeoffbook.com), the
 1. Illumination
 1. Verification
 
-[John Fitch](https://twitter.com/johnwfitch), co-founder of [Time Off](https://www.timeoff.co), articulates this on [The Culture Factor podcast](https://the-culture-factor.simplecast.com/episodes/what-if-time-off-created-a-culture-of-productivity-that-surpassed-12-hour-days). A portion of the interview is transcribed below.
+[John Fitch](https://twitter.com/johnwfitch), co-founder of Time Off, articulates this on [The Culture Factor podcast](https://the-culture-factor.simplecast.com/episodes/what-if-time-off-created-a-culture-of-productivity-that-surpassed-12-hour-days). A portion of the interview is transcribed below.
 
 > Incubation and illumination are only activated through time off — by not doing the actual work, by doing something else. While you're resting, parts of you are still working. I came to this contrarian belief that your best work is actually cultivated outside of work.
 >
@@ -60,7 +60,7 @@ As John Fitch describes in the book [Time Off](https://www.timeoffbook.com), the
 
 Establishing a culture that gives voice to this reality is critical in removing the stigma from taking breaks and prioritizing well-being. Rest isn't at the expense of work; it's a core function of doing *excellent* work.
 
-As part of his session at [REMOTE by GitLab](https://remotebygitlab.com), John shares how organizations can intentionally build company policy and culture that support and encourage time off. Watch the session:
+As part of his session at REMOTE by GitLab, John shares how organizations can intentionally build company policy and culture that support and encourage time off. Watch the session:
 
 {{< youtube "bQMoF7oSh2o" >}}
 
@@ -107,7 +107,7 @@ GitLab hosted John Fitch for 2 Live [Speaker Series]({{< ref "learning-initiativ
 
 There are [many mental health benefits]({{< ref "remote-benefits#benefits-for-all-remote-employees" >}}) to remote work, but some that top the list are:
 
-1. Increased [flexibility](http://shedoesdatathings.com/post/1-year-at-gitlab) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
+1. Increased [flexibility](https://web.archive.org/web/20200606214525/http://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
 1. Less time and [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs#5baf10f04245), and money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
 1. Reduced [interruption stress](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done) and increased [productivity](https://www.inc.com/brian-de-haaff/3-ways-remote-workers-outperform-office-workers.html).
 1. Less exposure to germs from sick coworkers.
@@ -238,7 +238,7 @@ Prevention is a [team sport](https://www.cncf.io/blog/2020/04/03/were-all-in-thi
 1. Remove Slack from your smartphone or at the very least, turn off notifications for it
 1. Keep each other accountable. When you notice someone in a different time zone should be asleep, tell them
 1. Use your Slack status to share a message with the team that you are unavailable
-1. Schedule [random coffee breaks]({{< ref "communication#random-room" >}})
+1. Schedule [random coffee breaks](/handbook/communication/#random-room)
 1. You can use [informal communication](informal-communication/) mechanisms such as virtual trivia sessions, talent shows, scavenger hunts, and global pizza parties/meals to help bond as a team and prevent work-related burnout.
 
 ### The power of being proactive
@@ -313,7 +313,7 @@ Create a rudimentary README that clarifies how you work. Ideally, it's working f
 
 ### Be transparent on capacity
 
-In a remote setting, it's important to let others know you need uninterrupted focus. You should feel safe to manually adjust your status to indicate when you are at capacity or engaged in focus time. This models healthy boundaries while communicating that Slack and synchronous conversation [should not be the default]({{< ref "communication#internal-communication" >}}).
+In a remote setting, it's important to let others know you need uninterrupted focus. You should feel safe to manually adjust your status to indicate when you are at capacity or engaged in focus time. This models healthy boundaries while communicating that Slack and synchronous conversation [should not be the default](/handbook/communication/#internal-communication).
 
 ## What are some tips for managing time when working remotely?
 
@@ -350,7 +350,7 @@ The following tools and strategies are used by the GitLab team to manage burnout
 | [The donut bot](informal-communication/#the-donut-bot) | Random coffee chat meeting match bot |
 | [Modern Health Community Circles](https://circles.modernhealth.com) | Public community conversations hosted by Modern Health |
 | [Coffee Chats](informal-communication/#coffee-chats) | Social calls with team members |
-| [Walk and Talk meeting structure]({{< ref "communication#walk-and-talk-calls" >}}) | An optional structure for both work and social calls |
+| [Walk and Talk meeting structure](/handbook/communication/#walk-and-talk-calls) | An optional structure for both work and social calls |
 | [Burnout Index](https://web.archive.org/web/20240121220209/https://burnoutindex.yerbo.co/) | Burnout assessment tool |
 | [Burnout assessment](https://ssir.org/pdf/2005WI_Feature_Maslach_Leiter.pdf) | Burnout assessment tool |
 | [Daylio](https://daylio.net) |  Mood tracker app |

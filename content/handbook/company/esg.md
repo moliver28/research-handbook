@@ -311,7 +311,7 @@ Our FY23 priorities in this area included:
 
 - **Enhancing platform security**, including improvements in [many industry certifications](https://about.gitlab.com/security/cap/).
 
-- **Investing heavily in our federal offering**, including [Federal Information Processing Standard](https://docs.gitlab.com/ee/development/fips_compliance.html.) (FIPs) compliance
+- **Investing heavily in our federal offering**, including [Federal Information Processing Standard](https://docs.gitlab.com/ee/development/fips_compliance.html) (FIPs) compliance
 
 - **Launched [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/)**
 

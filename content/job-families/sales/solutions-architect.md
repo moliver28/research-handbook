@@ -332,7 +332,7 @@ Specialty responsibilities and requirements may extend or overlay [Level roles](
 #### Alliances Solution Architect Requirements
 
 - Extends the Solutions Architect requirements
-- Technical background with key partnerships such as AWS, GCP, Azure, VMware, and Hashicorp. Certification in AWS/GCP/Azure is a plus
+- Technical background with key partnerships such as AWS, GCP, Azure, VMWare, and Hashicorp. Certification in AWS/GCP/Azure is a plus
 - Knowledge of all or most of the following categories in the DevOps space: Consulting, Integration, and or Technical Advisory.
 - Ability to breakdown the Alliance team's Go-To-Market strategy into technical initiatives and drive them forward.
 

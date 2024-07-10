@@ -236,4 +236,4 @@ A more successful strategy is to create a Google Form without too many freetext 
 Polywork embeds Google Forms, so the users don't have to leave the site.
 
 If you ask for contact details for follow up questions, you have a set of recruits that may be more open to follow up in-person interviews if needed.
- (Note: Contact details are PII data. Do not use it beyond the usecase indicated on the form, do not save it elsewhere and delete immediately after use. Refer to our [Privacy Page](/handbook/legal/privacy/) for details)
+ (Note: Contact details are PII data. Do not use it beyond the use case indicated on the form, do not save it elsewhere and delete immediately after use. Refer to our [Privacy Page](/handbook/legal/privacy/) for details)

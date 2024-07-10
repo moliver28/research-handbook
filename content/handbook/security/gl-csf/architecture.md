@@ -25,7 +25,7 @@ that addresses functional or non-functional requirements (see [perspectives](#pe
 These decisions are generally stored as Architectural Decision Records ("ADR"), which are simple
 file explaining their rationale. For example, the [Backstage](https://backstage.io/) website
 provides them directly in the
-[documentation](https://backstage.io/docs/architecture-decisions/adrs-overview). These sections
+[documentation](https://backstage.io/docs/architecture-decisions/). These sections
 helps to understand the conception of the software, and also bring some interesting details like
 consequences (which can be drawbacks).
 
@@ -104,7 +104,7 @@ GitLab offers out of the box some nice integrations in Markdown files, like
 [Mermaid](https://docs.gitlab.com/ee/user/markdown.html#mermaid) or
 [PlantUML](https://docs.gitlab.com/ee/user/markdown.html#plantuml). These are great for sequence or
 activity diagram, but don't work well for other views. [Diagrams](https://diagrams.net) is an
-opensource tool to create drag and drop diagrams, and is the recommended tool for this activity as
+open source tool to create drag and drop diagrams, and is the recommended tool for this activity as
 of today.
 
 ## Views and Viewpoints

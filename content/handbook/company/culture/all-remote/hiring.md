@@ -179,7 +179,7 @@ The full list of [questions to ask a remote candidate](interviews/#interview-que
 
 ### Use video calls to interview and engage
 
-Candidates need to be comfortable with video calls since they are a primary medium for communication in a remote role. At GitLab, we use [Zoom](/handbook/tools-and-tips#zoom) to connect with candidates via [video calls]({{< ref "communication#video-calls" >}}).
+Candidates need to be comfortable with video calls since they are a primary medium for communication in a remote role. At GitLab, we use [Zoom](/handbook/tools-and-tips#zoom) to connect with candidates via [video calls](/handbook/communication/#video-calls).
 
 This [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video demonstrates how to conduct a remote interview process.
 

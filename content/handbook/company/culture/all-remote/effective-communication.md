@@ -9,7 +9,7 @@ twitter_creator: "@gitlab"
 
 As an all-remote company that defaults to [asynchronous communication](management/#asynchronous), GitLab relies heavily on textual communication. This can feel unusual or even uncomfortable for those who come from a colocated environment, where in-person meetings and vocalized communiques are the norm. Embracing text communication and learning to use it effectively requires a mental shift. Mastering this should be seen as a long-term project, though there are tips to breaking down barriers and experiencing benefits.
 
-Be sure to read GitLab's [guidelines to effective and responsible communication]({{< ref "communication#effective--responsible-communciation-guidelines" >}}) to understand the foundational elements on which this all-remote guide is built.
+Be sure to read GitLab's [guidelines to effective and responsible communication](/handbook/communication/#effective--responsible-communciation-guidelines) to understand the foundational elements on which this all-remote guide is built.
 
 ## Tips for better writing
 
@@ -53,7 +53,7 @@ Below are several additional reasons to master the art of textual communication 
 ![GitLab all-remote desk space with laptop and map](/images/all-remote/gitlab-commit-sf-2020-laptop-user.jpg)
 {style="max-width: 50%;"}
 
-At GitLab, we [communicate assuming others have low context]({{< ref "communication#internal-communication" >}}). We provide as much context as possible to avoid confusion.
+At GitLab, we [communicate assuming others have low context](/handbook/communication/#internal-communication). We provide as much context as possible to avoid confusion.
 
 1. The goal of low context is to be **considerate** of the people or audience you're speaking to. It's important to recognize that what you write — either internally or externally — may be read in the future, or by someone who is coming into the conversation at a time after the initial thread began
 1. This is one of the more challenging elements to master, particularly for those coming from careers in colocated spaces. In colocated environments, high context communication is the default. High context is less direct with an emphasis on human relations, and it's more sensitive to non-verbals and the feelings of others.
@@ -120,7 +120,7 @@ You can learn more at GitLab's [remote team solutions page]({{< ref "gitlab-for-
 
 ### Communicating dates and time
 
-You can learn more in GitLab's [communication handbook]({{< ref "communication#communicating-dates-and-time" >}}) as the Single Source of Truth (SSoT).
+You can learn more in GitLab's [communication handbook](/handbook/communication/#communicating-dates-and-time) as the Single Source of Truth (SSoT).
 
 ## Feedback is a gift
 

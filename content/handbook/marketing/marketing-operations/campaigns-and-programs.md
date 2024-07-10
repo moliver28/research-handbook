@@ -1192,7 +1192,7 @@ _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
 
 ## Test your Marketo program setup
 
-1. Submit a test registration on the webpage for this campaign. If you need to create a new test record (instead of using your existing email address), you can add a `+` after your username: for example `jdoe+testuser@gitlab.com`. When you run your test, pay attention to if the flow has a "Remove from flow" for gitlab email addresses. If this is the case, you need to either delete that flow step or test with another email address.
+1. Submit a test registration on the webpage for this campaign. If you need to create a new test record (instead of using your existing email address), you can add a `+` after your username: for example `jdoe+testuser@gitlab.com`. When you run your test, pay attention to if the flow has a "Remove from flow" for GitLab email addresses. If this is the case, you need to either delete that flow step or test with another email address.
 1. After the test lead is submitted, go to the Marketo database by clicking `Database` in the Marketo navigation. Then click on `Default` on the left side menu.
 1. Search for the email address you used for your test record and open the test record in the Marketo database. Go to the Activity History and confirm:
      1. The form was submitted

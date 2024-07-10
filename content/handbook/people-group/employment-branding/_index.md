@@ -205,7 +205,6 @@ Our goal on the site is to maintain our profile and keep the feedback up to date
 - [Builtin](https://builtin.com/company/gitlab)
 - [Indeed](https://www.indeed.com/cmp/Gitlab-Inc/about)
 - [AngelList](https://angel.co/company/gitlab/)
-- [RemoteFit](https://www.remotefit.io/c/gitlab)
 
 ### GitLab blog
 

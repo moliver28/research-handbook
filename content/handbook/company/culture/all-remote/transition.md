@@ -181,7 +181,7 @@ Added care must be taken to ensure that the usual [downsides of hybrid-remote](h
 
 Above all, a company which intends to begin hiring remotely (or allowing existing employees to optionally transition from colocated to remote) **must structure the company as if every single team member were remote**.
 
-This means that any hallway conversations must be documented and disseminated for all who were not present to hear, and it means that in-office workers must each use a single webcam and microphone to join a group call (as opposed to in-office colleagues [gathering in a conference room with a sole camera]({{< ref "communication#hybrid-calls-are-horrible" >}})).
+This means that any hallway conversations must be documented and disseminated for all who were not present to hear, and it means that in-office workers must each use a single webcam and microphone to join a group call (as opposed to in-office colleagues [gathering in a conference room with a sole camera](/handbook/communication/#hybrid-calls-are-horrible)).
 
 It means, for example, that colleagues who are sitting side-by-side must use a public Slack channel to communicate, as vocalizing a conversation would be unfair to team members who are remote.
 

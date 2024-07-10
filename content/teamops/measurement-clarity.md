@@ -66,7 +66,7 @@ Note that outputs aren't just tangible deliverables. Results include any form of
 {{% details summary="Examples and resources for measure results, not hours" %}}
 **Example:** [Measuring impact of GitLab's 10 year campaign](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5507)
 
-Producing the `10 Years of GitLab` integrated marketing campaign and [associated website](https://about.gitlab.com/ten/) demanded a cross-functional effort. Working group members established a GitLab issue to explicitly define [elements to be tracked and measured](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5507) in order to provide an adequate report of the campaign's overall impact. By focusing on results over hours spent (or if a given team member was online at a certain time, or in a certain office), everyone involved in the project could focus energy on executing the campaign.
+Producing the `10 Years of GitLab` integrated marketing campaign and [associated website](https://web.archive.org/web/20240225183113/https://about.gitlab.com/ten/) demanded a cross-functional effort. Working group members established a GitLab issue to explicitly define [elements to be tracked and measured](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5507) in order to provide an adequate report of the campaign's overall impact. By focusing on results over hours spent (or if a given team member was online at a certain time, or in a certain office), everyone involved in the project could focus energy on executing the campaign.
 
 **Resource:** [Time is Not a Measure of Productivity](https://nesslabs.com/time-is-not-a-measure-of-productivity) (article)
 {{% /details %}}
@@ -141,7 +141,7 @@ Achieving measurement clarity involves more than evaluating *whether* your team 
 - specific
 - documented
 
-Like all information shared on a team practicing TeamOps, the impacts and action items a message triggers shouldn't rely on a recipient's subjective memory or interpretation. Sharing feedback is a great start to improving an individual's future work; sharing it transparently means that the entire team can improve together_
+Like all information shared on a team practicing TeamOps, the impacts and action items a message triggers shouldn't rely on a recipient's subjective memory or interpretation. Sharing feedback is a great start to improving an individual's future work; sharing it transparently means that the entire team can improve together.
 
 To optimize the efficacy of delivered feedback, consider how other TeamOps tenets can support actionability. For example:
 
@@ -181,7 +181,7 @@ This is why establishing a transparent [cadence](/handbook/company/cadence/) for
 
 At the same time each quarter, executive leadership hosts [GitLab Assembly](/handbook/company/gitlab-assembly/)—a company-wide recap of the past quarter's accomplishments, summary of the new quarter's objectives, and an open-floor Q&A for any employee to resolve questions or concerns. Knowing exactly when this meeting will occur, who will be in attendance, and what will be discussed gives GitLab team members full confidence of when they can have direct access to the executive team about company growth.
 
-**Resource:** [How to use a business cadence to promote collaboration](https://www.hydra.cloud/en/resources/blog/how-to-use-a-business-cadence-to-promote-collaboration) (article)
+**Resource:** [How to use a business cadence to promote collaboration](https://web.archive.org/web/20231201100335/https://www.hydra.cloud/en/resources/blog/how-to-use-a-business-cadence-to-promote-collaboration) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for cadence" %}}

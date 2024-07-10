@@ -50,7 +50,7 @@ Labels are the best way to generate reports around our Projects and sort accordi
 Currently, our [CP (Customer Project) automation](professional-services-delivery-methodology/cp/_index.md) includes the following labels:
 
 - SOW-# or PO# - helps the GitLab team search for Projects within the Professional service Group
-- PM name - helps the gitlab team sort by PM name
+- PM name - helps the GitLab team sort by PM name
 - PSD workflow (for issue board management)
 
 Labels used for *Internal retro & RAID tracking/reporting* can be found in “Reporting throughout the Iteration” below.

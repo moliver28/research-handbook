@@ -101,7 +101,7 @@ Invitations codes are created by the demo systems team and can be requested by f
 1. Visit [https://gitlabdemo.com](https://gitlabdemo.com) and click the **Redeem Invitation Code** button.
 1. Type in the 8-character invitation code that was provided by your instructor or in your course materials.
 1. Press **Redeem and Create Account**.
-1. Type in your gitlab username (without the @), then click **Redeem and Create Account**.
+1. Type in your GitLab username (without the @), then click **Redeem and Create Account**.
 1. Click the blue **My Group** button to open a new tab with the URL of the your GitLab group living on Learn Labs.
 
 ### Workshop Preparation

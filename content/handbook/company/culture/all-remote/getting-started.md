@@ -52,7 +52,7 @@ Absorbing a company culture in a colocated setting occurs over time, as one witn
 
 As you settle into a new role, ensure that you devote time to reading and internalizing [company values](/handbook/values/). While this may feel like a skippable activity, understanding the values early on enables you to have a strong foundation on which to build. Every decision you make in your role should be guided by values. If you have questions about how values are lived, take time during onboarding to consult with others.
 
-At GitLab, one's [Onboarding Buddy]({{< ref "onboarding-buddies" >}}) is there to answer these questions and provide guidance. There is also a `#values` Slack channel for related discussions. Whenever you see a value being lived, we encourage the use of a [values emoji reaction]({{< ref "communication#say-thanks" >}}) to reinforce values being used day-to-day.
+At GitLab, one's [Onboarding Buddy]({{< ref "onboarding-buddies" >}}) is there to answer these questions and provide guidance. There is also a `#values` Slack channel for related discussions. Whenever you see a value being lived, we encourage the use of a [values emoji reaction](/handbook/communication/#say-thanks) to reinforce values being used day-to-day.
 
 ## Adjusting to a self-service mindset
 
@@ -134,12 +134,12 @@ While you will naturally connect with people during your onboarding, you will al
 
 Below are a number of intentional facets of [GitLab's culture](/handbook/company/culture#culture-at-gitlab), created to foster connections.
 
-1. [Social call]({{< ref "communication#social-call" >}}): A series of optional calls once a month on a Tuesday, to which everyone in the organization is invited. We have no set agenda, but items can be added to the linked document. This is just a time set aside for everyone to openly talk where everyone is a moderator.
+1. [Social call](/handbook/communication/#social-call): A series of optional calls once a month on a Tuesday, to which everyone in the organization is invited. We have no set agenda, but items can be added to the linked document. This is just a time set aside for everyone to openly talk where everyone is a moderator.
 1. [Contribute Unconference](https://about.gitlab.com/events/gitlab-contribute/): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
 1. [Group conversations]({{< ref "group-conversations" >}}): Four times a week the company gets together virtually to discuss an area of the business. Slides are provided for context but not presented.
 1. Social hours: Informal social calls organized within our immediate teams to get to know each other on a more personal level.
 1. Local meetups: Co-located team members are encouraged to organize their own meetups, whether it's a co-working space or getting dinner together.
-1. [Slack]({{< ref "communication#slack" >}}): We use Slack channels for informal communications throughout the company, whether it's a team-specific channel or a channel dedicated to sharing vacation photos with other team members.
+1. [Slack](/handbook/communication/#slack): We use Slack channels for informal communications throughout the company, whether it's a team-specific channel or a channel dedicated to sharing vacation photos with other team members.
 1. [Zoom calls]({{< ref "tools-and-tips#zoom" >}}): Not only do we get to know our coworkers better by seeing them in real time during video calls, we also get to know their pets and families too. This visual engagement helps us relate to each other on a more personal level, so when we meet in person, we already know each other. In fact, when our team members meet face-to-face for the first time, the most surprising factor is usually each person's height.
 1. Gaming: GitLab has a `#gaming` Slack channel where fans of video games and digital board games can connect. Coordinating shared gaming sessions is a great way to informally connect with team members and collaborate toward goals outside of work.
 1. Music making: GitLab's `#music_making` Slack channel is a place where artists can come together and collaborate synchronously or asynchronously to make music together. Several GitLab team members came together to create [All I Want This Quarter Is You (GitLab)](https://youtu.be/9kTwqsW8I68), a musical masterpiece on the GitLab Unfiltered YouTube channel.

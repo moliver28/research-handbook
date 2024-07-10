@@ -60,7 +60,7 @@ In companies where the leadership team is colocated, but most (if not all) of th
 
 ### Q: Are hybrid calls utilized or tolerated?
 
-In [hybrid-remote](hybrid-remote/) companies, where certain team members are colocated and others are remote, consider asking how [meetings](meetings/) and calls are handled. [Hybrid calls]({{< ref "communication#hybrid-calls-are-horrible" >}}) are often allowed or encouraged, though they offer a suboptimal experience for remote attendees. Ideally, each call participant will have their own equipment (camera, headset, and screen), even if multiple members are colocated.
+In [hybrid-remote](hybrid-remote/) companies, where certain team members are colocated and others are remote, consider asking how [meetings](meetings/) and calls are handled. [Hybrid calls](/handbook/communication/#hybrid-calls-are-horrible) are often allowed or encouraged, though they offer a suboptimal experience for remote attendees. Ideally, each call participant will have their own equipment (camera, headset, and screen), even if multiple members are colocated.
 
 This ensures that each team member is treated equally, and removes typical boardroom issues such as difficulty seeing body language through a wide-angle camera and being interrupted or booted from a room.
 

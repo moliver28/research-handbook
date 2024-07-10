@@ -280,7 +280,7 @@ The below is an inexhaustive list of news articles covering the growing movement
 1. The Globe and Mail: [Chief remote working officers are now navigating organizations into a post-pandemic world](https://www.theglobeandmail.com/business/article-chief-remote-working-officers-are-now-navigating-organizations-into-a)
 1. SHRM: [Why You Need a Remote-Work Leader](https://www.shrm.org/hr-today/news/hr-news/pages/why-you-need-remote-work-leader.aspx)
 1. VentureBeat: [After embracing remote work in 2020, companies face conflicts making it permanent](https://venturebeat.com/2021/01/01/after-embracing-remote-work-in-2020-companies-face-conflicts-making-it-permanent)
-1. The Australian: [Why hybrid workplaces bring a whole new set of challenges](https://www.theaustralian.com.au/business/the-deal-magazine/will-the-hybrid-workplace-be-a-risky-option-for-employers-postcovid/news-story/7841d04614fe688fb366eb2eb3272d70)
+1. The Australian: [Why hybrid workplaces bring a whole new set of challenges](https://www.theaustralian.com.au/business/the-deal-magazine/will-the-hybrid-workplace-be-a-risky-option-for-employers-postcovid/news-story/7841d04614fe688fb366eb2eb3272d70) (subscription required)
 1. LinkedIn Talent Blog: [Why You Need to Hire a Head of Remote Work — and What That Job Entails](https://business.linkedin.com/talent-solutions/blog/work-flexibility/2020/why-you-need-to-hire-a-head-of-remote-work)
 1. Reworked: [Is Now the Time to Invest in a Head of Remote Work?](https://www.reworked.co/leadership/is-now-the-time-to-invest-in-a-head-of-remote-work)
 1. Running Remote: [Is it time for your company to hire a Head of Remote?](https://runningremote.com/is-it-time-for-your-company-to-hire-a-head-of-remote)

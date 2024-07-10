@@ -79,7 +79,7 @@ Humans tend to trust other humans more than words written in an online repositor
 
 A commonly-rooted habit that requires breaking at GitLab is this: oftentimes, people assume that by asking someone a question privately, they are doing everyone else a favor by bothering the fewest number of people.
 
-At GitLab, we flip that notion on its head. We [prefer public discourse over private]({{< ref "communication#avoid-direct-messages" >}}), as this enables deeper [collaboration](/handbook/values/#collaboration). We [encourage](/handbook/values/#share) team members to consider making private issues public wherever possible so that we can all learn from the experience, rather than requiring a small group to spend effort translating those learnings in the future.
+At GitLab, we flip that notion on its head. We [prefer public discourse over private](/handbook/communication/#avoid-direct-messages), as this enables deeper [collaboration](/handbook/values/#collaboration). We [encourage](/handbook/values/#share) team members to consider making private issues public wherever possible so that we can all learn from the experience, rather than requiring a small group to spend effort translating those learnings in the future.
 
 ## Answer with a link
 
@@ -99,7 +99,7 @@ By answering with a link, you're doing the following:
 
 ### Say thanks
 
-For people going out of their way to help you, also consider [sharing public kudos]({{< ref "communication#say-thanks" >}}) in GitLab's `#thanks` channel, showcasing the link to the entire channel and celebrating specific values that were lived in the process.
+For people going out of their way to help you, also consider [sharing public kudos](/handbook/communication/#say-thanks) in GitLab's `#thanks` channel, showcasing the link to the entire channel and celebrating specific values that were lived in the process.
 
 ## How self-learning leads to success in your role
 

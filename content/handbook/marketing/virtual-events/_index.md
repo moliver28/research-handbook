@@ -165,7 +165,7 @@ Below is a summary of the promotion plan for webcasts. MPMs will be responsible 
 
 * **Blog merchandising:** 1 post, -30 days prior to live event, DRI = Content team
 * **Organic Social:** 1-2 post, -14 to -7 days prior to live event, DRI = Social team (requires image for sharing)
-* **Paid Ads:** n/a, -21 days prior to live event, DRI = DMP (requires gitlab owned pages - about.gitlab or pages.gitlab)
+* **Paid Ads:** n/a, -21 days prior to live event, DRI = DMP (requires GitLab owned pages - about.gitlab or pages.gitlab)
 * **Targeted Email:** 2-3 sends, -14 and -7 days prior to live event, DRI = MPM (copy provided by requestor)
 * **Newsletter:** 1 post, -15 to -1 day prior to live event, DRI = MPM (only support English language)
 

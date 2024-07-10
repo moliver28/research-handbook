@@ -17,7 +17,7 @@ On this page, we're detailing how to create efficient, transparent, documentatio
 ![GitLab all-remote mentor](/images/all-remote/ceo-shadow-gitlab-awesomeness.jpg)
 {style="width: 50%;"}
 
-"[No agenda, no attenda]({{< ref "communication#external-communication" >}})." Every work-related meeting should have a [live doc agenda](https://docs.google.com/document/d/1eH-adpjfyo_RnlfbPvJ3i0e1Qb-aVoNc4yajnkZgJcU/edit#heading=h.6upuyp25d0wm) affixed to the calendar invite. To better understand how GitLab utilizes agenda docs, here's a [templated example](https://docs.google.com/document/d/1eH-adpjfyo_RnlfbPvJ3i0e1Qb-aVoNc4yajnkZgJcU/edit#heading=h.6upuyp25d0wm) you can copy and use in your organization. [Coffee chats](informal-communication/#coffee-chats) are excluded from this given their function in informal communication.
+"[No agenda, no attenda](/handbook/communication/#external-communication)." Every work-related meeting should have a [live doc agenda](https://docs.google.com/document/d/1eH-adpjfyo_RnlfbPvJ3i0e1Qb-aVoNc4yajnkZgJcU/edit#heading=h.6upuyp25d0wm) affixed to the calendar invite. To better understand how GitLab utilizes agenda docs, here's a [templated example](https://docs.google.com/document/d/1eH-adpjfyo_RnlfbPvJ3i0e1Qb-aVoNc4yajnkZgJcU/edit#heading=h.6upuyp25d0wm) you can copy and use in your organization. [Coffee chats](informal-communication/#coffee-chats) are excluded from this given their function in informal communication.
 
 If you determine that a meeting is needed to move a project forward, address a blocker, or resolve a miscommunication, follow the proven principles below.
 
@@ -27,20 +27,20 @@ If you determine that a meeting is needed to move a project forward, address a b
 1. Ensure that the appropriate sharing settings are in place to prevent a chorus of "I can't access the agenda" comments; agendas should be editable by all participants.
 1. Link the agenda in the meeting invite.
 1. Establish the agenda as far in advance of the meeting as possible.
-1. Agendas should use [numbered lists]({{< ref "communication#writing-style-guidelines" >}}), not bulleted lists.
+1. Agendas should use [numbered lists](/handbook/communication/#writing-style-guidelines), not bulleted lists.
 1. `Context` section includes: The goal(s) of the meeting; clear pre-work or pre-watch/read instructions; intent and expected outcomes using [low-context communication](effective-communication/).
 
 ### Pre-work and meeting kick-off
 
 1. Pre-read/watch or pre-work materials should be emailed to attendees at least 24 hours in advance.
-1. The meeting host ([DRI]({{< ref "directly-responsible-individuals" >}})) may summarize key points and context for the first 1 to 2 minutes of the meeting, but [few meetings should be presentations]({{< ref "communication#few-meetings-with-presentations" >}}).
+1. The meeting host ([DRI]({{< ref "directly-responsible-individuals" >}})) may summarize key points and context for the first 1 to 2 minutes of the meeting, but [few meetings should be presentations](/handbook/communication/#few-meetings-with-presentations).
 1. Questions should be [written](/handbook/values/#write-things-down) and listed in advance of the scheduled meeting time; this tends to increase the quality of questions.
 
 ### Note taking and structure during the meeting
 
 1. [Make a proposal](/handbook/values#make-a-proposal) whenever feasible. It should be possible to answer/comment with a simple "yes."
 1. Link any relevant piece of text to associated resources to prevent people from spending time searching or asking.
-1. Follow GitLab's [smart note taking guidance]({{< ref "communication#smart-note-taking-in-meetings" >}}) by taking notes inline with the agenda rather than using a separate "notes" section. Real-time note-taking by multiple participants is encouraged.
+1. Follow GitLab's [smart note taking guidance](/handbook/communication/#smart-note-taking-in-meetings) by taking notes inline with the agenda rather than using a separate "notes" section. Real-time note-taking by multiple participants is encouraged.
    - Another good reference is the CEO Shadow [handbook page tips section](/handbook/ceo/shadow/#taking-notes:~:text=in%20a%20meeting.-,Tips,-%3A), specifically `It's helpful if shadow one takes notes as the first speaker is talking, then shadow two starts when the next speaker continues the conversation. Shadow one can pick up note taking again when the next speaker contributes. By alternating this way, the shadows are better able to keep up with all the participants in the conversation.` This advice can be used in general meetings as well.
 1. If you're not talking in the meeting, at any given time, help take notes. If there isn't a note taker listed in the document at the start of the meeting, people should self-note-take. Consider asking other people to write down the answers in real-time to allow the person who asked the question to focus on the answer. The person asking the question can touch up the answer when the conversation has moved on to something less relevant to them.
 1. Notes should be properly indented and structured to follow the conversation's flow.
@@ -91,7 +91,7 @@ A live document is a document that may continually be edited and updated. Exampl
 
 ## Q: How can I participate in a live doc meeting?
 
-There are two ways to participate in a live doc meeting: either synchronously, like when [joining a live Zoom call]({{< ref "communication#video-calls" >}}), or [asynchronously](asynchronous/), by reviewing the documented discussion along with any recorded video after the meeting is over.
+There are two ways to participate in a live doc meeting: either synchronously, like when [joining a live Zoom call](/handbook/communication/#video-calls), or [asynchronously](asynchronous/), by reviewing the documented discussion along with any recorded video after the meeting is over.
 
 ## Q: When are live doc meetings held?
 

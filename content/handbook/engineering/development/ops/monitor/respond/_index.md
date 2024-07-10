@@ -272,7 +272,7 @@ The following people are owners of this account and can [grant access](https://z
 
 #### Documentation
 
-For more information on how to use Zoom see theirs [guides](https://marketplace.zoom.us/docs/guides) and [API reference](https://marketplace.zoom.us/docs/api-reference/introduction).
+For more information on how to use Zoom see theirs [guides](https://developers.zoom.us/docs/) and [API reference](https://developers.zoom.us/docs/api/).
 
 ## Labels
 

@@ -46,7 +46,7 @@ Nomination reasons for how Brittany demonstrated Efficiency:
 
 Victor Wu, Product Manager Discussion, is the October 2017 Top Team Member embodying diversity!
 
-- Victor has gone above and beyond in leading a podcast focused on Diversity and has shown a strong interest and willingness to help GitLab be an inclusive workplace. https://stemdiversitypodcast.com/
+- Victor has gone above and beyond in leading a [podcast focused on Diversity](https://www.podchaser.com/podcasts/stem-diversity-podcast-572701) and has shown a strong interest and willingness to help GitLab be an inclusive workplace.
 
 ### November 2017 Top Team Member
 
@@ -56,7 +56,7 @@ Nomination reasons for how Grzegorz demonstrated GitLab's values:
 
 - Help setting up the Geo GitLab QA testing framework, displaying the values of Collaboration and Results
 - The Geo team now has a suite of QA specs that run nightly, and can be run whenever a new Omnibus package is generated. This has already helped us to catch multiple regressions before they reached customers.
-- The Geo team also has a list of scenarios to implement in the future, building on top of his excellent work: https://gitlab.com/gitlab-org/gitlab-qa/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name.
+- The Geo team also has a list of scenarios to implement in the future, building on top of [his excellent work](https://gitlab.com/gitlab-org/gitlab-qa/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name).
 
 ### December 2017 Top Team Member
 

@@ -226,7 +226,7 @@ The `only: {}` metadata defines and filters the environment. Know more about [Ex
 
 #### Can I use the gitlab-qa gem to just do the setup of a GitLab instance locally without running tests?
 
-Yes. There are two useful options that can be passed to the command: `--no-teardown` which ensure the gitlab instance stays up after running tests and `--no-tests` for only setting up the instance without having any test code run.
+Yes. There are two useful options that can be passed to the command: `--no-teardown` which ensure the GitLab instance stays up after running tests and `--no-tests` for only setting up the instance without having any test code run.
 
 An example:
 

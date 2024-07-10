@@ -360,9 +360,9 @@ The following will link to enablement and training videos and content.
 
 GitLab offers a [variety of pre-packaged and custom services](https://about.gitlab.com/services/) for our customers and partners. The following are service offers specific to this solution. For additional services, see the [full service catalog](https://about.gitlab.com/services/catalog/).
 
-- [Git and GitLab Basics training](https://university.gitlab.com/pages/gitlab-fundamentals-training) - Training for team members new to Git SCM and the gitlab application
-- [GitLab training for Project Managers](https://university.gitlab.com/pages/gitlab-fundamentals-training) - Training to teach Project Managers how to use gitlab issues and how that relates to the create stage in the development lifecycle
-- [DevOps Fundamentals Training](https://university.gitlab.com/courses/gitlab-devops-fundamentals) - Training to teach Project Managers how to use gitlab issues and how that relates to the create stage in the development lifecycle
+- [Git and GitLab Basics training](https://university.gitlab.com/pages/gitlab-fundamentals-training) - Training for team members new to Git SCM and the GitLab application
+- [GitLab training for Project Managers](https://university.gitlab.com/pages/gitlab-fundamentals-training) - Training to teach Project Managers how to use GitLab issues and how that relates to the create stage in the development lifecycle
+- [DevOps Fundamentals Training](https://university.gitlab.com/courses/gitlab-devops-fundamentals) - Training to teach Project Managers how to use GitLab issues and how that relates to the create stage in the development lifecycle
 - [SCM Migration Services](https://about.gitlab.com/services/migration/) - Data and user migration from a previous software Version Control System to GitLab self-managed or cloud-delivered solutions
 
 ## Key Value (at tiers)

@@ -146,7 +146,7 @@ Consider a secondary mentor for the length of the internship that has a great de
 
 Remember: struggling remote interns may have a sound understanding of their work tasks, but are unable to articulate blockers related to their work environment.
 
-Consider also creating opportunities for interns to connect and network with senior leaders on the team. In his session at [REMOTE by GitLab](https://remotebygitlab.com), Professor Raj Choudhury shared the results of a Harvard Business School study showing how brief virtual water cooler sessions with senior managers might have job and career benefits for newcomers in a remote setting. Watch the recording to learn more:
+Consider also creating opportunities for interns to connect and network with senior leaders on the team. In his session at REMOTE by GitLab, Professor Raj Choudhury shared the results of a Harvard Business School study showing how brief virtual water cooler sessions with senior managers might have job and career benefits for newcomers in a remote setting. Watch the recording to learn more:
 
 {{< youtube "RVMUworx2Vk" >}}
 
@@ -180,7 +180,7 @@ All-remote forces you to do things that you [should do anyway](management/), but
 
 If you don't hire your remote intern/s at the end of their internship experience, be sure to sweeten their transition out by ending well.
 
-1. [Say Thanks]({{< ref "communication#say-thanks" >}}) for the work they contributed during their internship. At GitLab, we even have a `#thanks` Slack channel!
+1. [Say Thanks](/handbook/communication/#say-thanks) for the work they contributed during their internship. At GitLab, we even have a `#thanks` Slack channel!
 1. Acknowledge intern contributions in team meetings, issues, company calls, 1-1 meetings.
 1. Send a gift or a swag bag to commemorate their contributions.
 

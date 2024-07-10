@@ -59,7 +59,7 @@ In the home, aim to create a dedicated working space (or work from a coworking s
 
 Be intentional about replacing your recovered commute time. Whether it's fitness, cooking, cleaning, spending time with family, or resting, be deliberate about reclaiming that time and using it to improve your overall well-being.
 
-1. You have more [flexibility](http://shedoesdatathings.com/post/1-year-at-gitlab) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
+1. You have more [flexibility](https://web.archive.org/web/20200606214525/http://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
 1. No more time, [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs#5baf10f04245), or money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
 1. It's safer. With no commute, there's no risk of getting into an accident traveling to and from work.
 1. You can optimize your life for superior air quality and medical facilities, a healthier community environment, and better schools for your children, rather than access to onsite jobs.
@@ -94,7 +94,7 @@ Not only does this create a less [inclusive](/handbook/company/culture/inclusion
    - GitLab has a truly global footprint, with team members in [65+ countries](/handbook/company/team).
 1. Employees are [more productive with fewer distractions](https://about.gitlab.com/blog/2018/05/11/day-in-life-of-remote-sdr), so long as leadership is supportive in equipping teams with the requisite tools, structure, and culture to thrive.
    - For example, GitLab has a KPI of [65 tickets closed per support staff per month](/handbook/support/performance-indicators#average-daily-tickets-closed-per-support-team-member).
-1. [Increased savings on office costs](https://globalworkplaceanalytics.com/the-remote-work-roi-calculator-v0-95) and [compensation](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates) (due to hiring in lower-cost regions).
+1. [Increased savings on office costs](https://globalworkplaceanalytics.com/wp-content/The%20Remote%20Work%20ROI%20Calculator%20V0.97/The%20Remote%20Work%20ROI%20Calculator%20V0.97.htm) and [compensation](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates) (due to hiring in lower-cost regions).
    - GitLab **maintains a more balanced payroll** than other San Francisco Bay Area colocated companies. Learn more in the [Compensation Calculator](/handbook/total-rewards/compensation/compensation-calculator) section of GitLab's handbook.
    - Each function has a new hire location factor target. As an example, [marketing]({{< ref "kpis#marketing-kpis" >}}) targets < 0.72 and [finance]({{< ref "kpis#finance-team-kpis" >}}) targets < 0.69.  (For reference, San Francisco is 1.00)
    - We have a [people group KPI]({{< ref "kpis#people-group-kpis" >}}) for our average overall location factor to be < 0.65.
@@ -126,7 +126,7 @@ We believe all-remote has the power to pause, and perhaps even reverse, these tr
 
 Working remotely gives each person the autonomy to serve in a place that matters to them – a place that has shaped them – contributing significantly to the well-being of a population that may be at risk of losing its foundation, should talent continue to flee to the usual job centers.
 
-1. There's evidence that [remote work can reduce the effects of urban crowding](https://qz.com/work/1641664/remote-workers-are-the-solution-to-urban-crowding) for many cities around the world. Some states and countries are even [offering incentives](http://fortune.com/2019/06/22/google-housing-plan-bay-area) to encourage remote work. Here are [13 examples](https://www.bankrate.com/personal-finance/smart-money/places-that-will-pay-you-to-move#slide=1) around the world.
+1. There's evidence that [remote work can reduce the effects of urban crowding](https://qz.com/work/1641664/remote-workers-are-the-solution-to-urban-crowding) for many cities around the world. Some states and countries are even [offering incentives](http://fortune.com/2019/06/22/google-housing-plan-bay-area) to encourage remote work. Here are [13 examples](https://web.archive.org/web/20210122035410/https://www.bankrate.com/personal-finance/smart-money/places-that-will-pay-you-to-move/) around the world.
 1. For global companies, bringing better-paying jobs to low-cost regions has positive economic impacts and works to reverse the [trends](http://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_BRI(2016)586632) of [depopulation in rural regions](https://carsey.unh.edu/publication/rural-depopulation).
 
 ## The competitive advantage for companies that embrace remote work

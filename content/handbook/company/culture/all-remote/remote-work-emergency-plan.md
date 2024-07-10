@@ -61,7 +61,7 @@ For a fast-boot on this front, consider replicating GitLab's public [communicati
 
 ## Minimize your tool stack
 
-While functioning remotely, strip the tool stack down to a minimum. Google Docs, a company-wide chat tool (like Microsoft Teams or [Slack]({{< ref "communication#slack" >}})), and [Zoom](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) are all you need to start. If your team needs access to internal systems through a VPN, ensure that everyone has easy access, and instructions on usage are clear.
+While functioning remotely, strip the tool stack down to a minimum. Google Docs, a company-wide chat tool (like Microsoft Teams or [Slack](/handbook/communication/#slack)), and [Zoom](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) are all you need to start. If your team needs access to internal systems through a VPN, ensure that everyone has easy access, and instructions on usage are clear.
 
 Working well remotely requires [writing things down](effective-communication/). For companies who do not have an existing culture of documentation, this will prove to be the most difficult shift. Aim to funnel communication into as few places as possible to reduce silos and fragmentation. You'll want to proactively solve for mass confusion when it comes to finding things — policies, protocols, outreach mechanisms, messaging, etc.
 

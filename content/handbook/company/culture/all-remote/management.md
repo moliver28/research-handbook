@@ -74,7 +74,7 @@ We've done a deep dive on the most common [drawbacks to all-remote working here]
 
 For example, all-remote companies that have colleagues spread out across time zones will encounter scenarios where one has to [compromise](drawbacks/) in order to be online at the same time for critical calls, meetings, or projects. However, there is great freedom in being able to disconnect from work at an appointed time with the understanding that your colleagues will communicate asynchronously rather than pressuring you to be available outside of your work hours.
 
-As documented in the [Communication section of GitLab's Handbook]({{< ref "communication" >}}), there are limits to asynchronous communication. When we go **back and forth three times,** we jump on a [synchronous video call]({{< ref "communication#video-calls" >}}).
+As documented in the [Communication section of GitLab's Handbook]({{< ref "communication" >}}), there are limits to asynchronous communication. When we go **back and forth three times,** we jump on a [synchronous video call](/handbook/communication/#video-calls).
 
 ## Remote management tools
 

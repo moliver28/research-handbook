@@ -164,7 +164,7 @@ It's wise to rank all of the above in order of importance for you. If you find t
 
 ### Employer benefits
 
-[Employers](management/) should recognize that this reality [also benefits them]({{< ref "remote-compensation" >}}). When you hire individuals who place a high degree of value on not having to commute and being able to live and work where they're most comfortable, they will generally hold the company in higher regard, find greater connection with their work, and exhibit greater loyalty. Research by [TINYpulse and Owl Labs](https://www.tinypulse.com/blog/the-state-of-remote-work) found that "companies that support remote work have a 25% higher retention rate than companies that don't."
+[Employers](management/) should recognize that this reality [also benefits them]({{< ref "remote-compensation" >}}). When you hire individuals who place a high degree of value on not having to commute and being able to live and work where they're most comfortable, they will generally hold the company in higher regard, find greater connection with their work, and exhibit greater loyalty. Research by [TINYpulse and Owl Labs](https://web.archive.org/web/20230131134608/https://www.tinypulse.com/blog/the-state-of-remote-work) found that "companies that support remote work have a 25% higher retention rate than companies that don't."
 
 ## Work/life harmony
 

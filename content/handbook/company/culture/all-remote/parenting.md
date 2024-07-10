@@ -24,7 +24,7 @@ When looking for a parent-friendly job, instead of focusing on the specific role
 
 While there are numerous [advantages to remote work]({{< ref "remote-benefits" >}}), being able to pair working and parenting/caregiving is considered an enormous benefit to many people.
 
-1. You have more [flexibility](http://shedoesdatathings.com/post/1-year-at-gitlab) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
+1. You have more [flexibility](https://web.archive.org/web/20200606214525/http://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
 1. No more time, [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs#5baf10f04245), or money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
 1. You can optimize your life for superior air quality and medical facilities, a healthier community environment, and better schools for your children, rather than access to onsite jobs.
 1. Expectant parents have the autonomy to more easily plan around and attend doctor's appointments, optimize for their physical comfort during the day, and work [non-linear workdays](non-linear-workday/) to build in rest when needed.
@@ -156,13 +156,13 @@ Some best practices for motivating remote employees balancing caregiving include
 - Don't require people to have consistent set working hours or say when they're working
 - Don't encourage or celebrate working long hours or on weekends
 - Encourage teamwork
-- Say [thank you]({{< ref "communication#say-thanks" >}}) often
+- Say [thank you](/handbook/communication/#say-thanks) often
 
 ## Q: What are some final thoughts on work from home parenting?
 
 It's not impossible to work from home while being a parent or caregiver; it's inevitable. These two anecdotes from GitLab team members will help you understand how to make the best of both worlds.
 
-> What has worked for me is to integrate GitLab into my life, and not the other way around. I set very clear boundaries in my calendar of when is work time and when is family time. Per GitLab's [recommendation]({{< ref "communication#google-calendar" >}}), my calendar is viewable by anyone and clearly has time for: `kids test prep`, `visual therapy for one`, `judo pick-up` and other appointments I have outside of work. This prevents team members from scheduling over these instances.
+> What has worked for me is to integrate GitLab into my life, and not the other way around. I set very clear boundaries in my calendar of when is work time and when is family time. Per GitLab's [recommendation](/handbook/communication/#google-calendar), my calendar is viewable by anyone and clearly has time for: `kids test prep`, `visual therapy for one`, `judo pick-up` and other appointments I have outside of work. This prevents team members from scheduling over these instances.
 >
 > If someone *does* schedule over family time or personal time, I feel confident to decline, unless it is very urgent and I'm blocking it (I always suggest a new time first, before using family time for a meeting). I am also inclined to say that if folks keep scheduling outside of your work time, to make sure you [respond back and highlight that](/handbook/values/#transparency), and check if you can find an alternative time that works for both of you. — [*Nadia V.*](https://gitlab.com/Vatalidis)
 >

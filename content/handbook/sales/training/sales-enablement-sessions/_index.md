@@ -94,7 +94,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | 2022-09-29 | **[Collaborating with Community Programs](https://youtu.be/B75IPB5L4yI)**  | Private  |
 | 2022-09-15 | **[FY23 - Q3 Sales Ops Update - Clari Data Analytics & Best Practices](https://youtu.be/tNgYhYQH_N0)** | Private  |
 | 2022-09-08 | **[Basics of Legal Subscription Agreements](https://youtu.be/8cmfmqc6iag)**  | Private  |
-| 2022-09-01 | **[VMware Partnership and Go-to-Market Approaches.](https://youtu.be/Hx_QE65GDKA)**  | Private  |
+| 2022-09-01 | **[VMWare Partnership and Go-to-Market Approaches.](https://youtu.be/Hx_QE65GDKA)**  | Private  |
 | 2022-08-25 | **[Q3 Rev Program Update](https://youtu.be/nBV-_LrTqKQ)**  | Private  |
 | 2022-08-18  | **[Automated Software Delivery (AutoSD) Integrated Campaign](https://youtu.be/Eq-DdOGkAlk)**  | Private  |
 | 2022-08-11 | **[FY23 - Q3 Channel Update](https://youtu.be/7H4tJptEJ_Y)**  | Private  |
@@ -157,7 +157,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | 2020-11-05 | **[Co-Selling with Google - Alliance Overview](https://youtu.be/albyLzQNo7U)** | Private |
 | 2020-10-15 | **[Proof Points & Analyst Resources Update](https://youtu.be/B0-Y4SNVfXU)**  | Private      |
 | 2020-10-08 | **[Deal Structure Best Practices](https://youtu.be/t55rDyNd0wE)**             | Private |
-| 2020-10-01 | **[Leveraging the GitLab/VMware Alliance](https://youtu.be/unpgyIR9yH0)**      | Private |
+| 2020-10-01 | **[Leveraging the GitLab/VMWare Alliance](https://youtu.be/unpgyIR9yH0)**      | Private |
 | 2020-09-24 | **[Q3 FY21 Competitive Update](https://youtu.be/fOeLdLwAgOI)**                 | Private |
 | 2020-09-10 | **[Accelerating Your Pipeline with AWS](https://youtu.be/iPDPtOUuNls)**            | Private |
 | 2020-09-03 | **[GitLab Standard ROI Models](https://youtu.be/znCrnpTDRoE)** | Public |

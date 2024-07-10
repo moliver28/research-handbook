@@ -78,7 +78,7 @@ Given that remote work summits are engineered to be open to anyone, anywhere in 
 
 Remote work events welcome anyone interested in the future of workplace design. The beauty of remote work events is that everyone is welcome, even those who may still be skeptical of or learning about remote work.
 
-[All-remote and remote-first](https://about.gitlab.com./stages/) workflows change rapidly. Technology, tools, mobile network infrastructure, internet ubiquity, and a cultural understanding of virtual communication all contribute to making remote work [increasingly feasible](remote-benefits/). Those who have a [negative](drawbacks/) view of remote work, but are curious to see how the space is [evolving](hybrid-remote/), stand to gain much from attending remote work conferences and summits.
+All-remote and remote-first workflows change rapidly. Technology, tools, mobile network infrastructure, internet ubiquity, and a cultural understanding of virtual communication all contribute to making remote work [increasingly feasible](remote-benefits/). Those who have a [negative](drawbacks/) view of remote work, but are curious to see how the space is [evolving](hybrid-remote/), stand to gain much from attending remote work conferences and summits.
 
 #### The power of networking
 

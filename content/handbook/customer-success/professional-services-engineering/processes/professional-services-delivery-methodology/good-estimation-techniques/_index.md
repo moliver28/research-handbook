@@ -29,7 +29,7 @@ It is worth noting that the meaning of "estimate" can be
 
 Synonyms include: _calculate roughly, approximate, rough guess_ – hence the slang term "guestimate" – a mixture of guesswork and calculation.
 
-Dwight D. Eisenhower famously said: _"Plans are worthless, but planning is everything. There is a very great distinction because when you are planning for an emergency you must start with this one thing: the very definition of "emergency" is that it is unexpected, therefore it is not going to happen the way you are planning."_[\[1\]](http://file///C:/Users/brian/Dropbox/My%20Documents/Will%20Consulting%20Group/Published%20on%20LinkedIn/Agile%20Estimation%20How%20To/Agile%20Estimation%20How%20To.docx#\_ftn1)
+Dwight D. Eisenhower famously said: _"Plans are worthless, but planning is everything. There is a very great distinction because when you are planning for an emergency you must start with this one thing: the very definition of "emergency" is that it is unexpected, therefore it is not going to happen the way you are planning."_[^1]
 
 The point is that estimates are never precise, but in project management – especially software / IT project management – estimates regularly are baselined, cast in stone, tracked against, and then cause many political problems because it is perceived that the people that originally estimated the effort got it all wrong.
 
@@ -141,7 +141,7 @@ The following table compares and contrasts absolute vs. relative estimation tech
 
 ![Estimation Poker](Estimation-poker.jpg){width="523" height="285"}
 
-As mentioned before, Estimation Poker is a relative estimation technique that favors accuracy over precision. It commonly uses the Fibonacci number sequence (1, 2, 3, 5, 8, 13, 21, 34, 55, …)[\[2\]](http://file///C:/Users/brian/Dropbox/My%20Documents/Will%20Consulting%20Group/Published%20on%20LinkedIn/Agile%20Estimation%20How%20To/Agile%20Estimation%20How%20To.docx#\_ftn2).
+As mentioned before, Estimation Poker is a relative estimation technique that favors accuracy over precision. It commonly uses the Fibonacci number sequence (1, 2, 3, 5, 8, 13, 21, 34, 55, …) [^2].
 
 The Implementation Team members doing the work have to do the estimates; this is critical. You cannot have people other than the actual Implementation Team estimate the work. This is critical in order to create accountability and make sure the Implementation Team is fully committed to the estimate.
 
@@ -312,6 +312,6 @@ Because it is an empirical approach to project planning, you always know exactly
 
 T-Shirt Sizing (Affinity Estimation) is used for higher level estimates needed for budgeting, staffing, and other longer term planning activities where not all user stories are defined in all detail and a quick assessment of upcoming work is needed.
 
-[\[1\]](http://file///C:/Users/brian/Dropbox/My%20Documents/Will%20Consulting%20Group/Published%20on%20LinkedIn/Agile%20Estimation%20How%20To/Agile%20Estimation%20How%20To.docx#\_ftnref1) From a speech to the National Defense Executive Reserve Conference in Washington, D.C. (November 14, 1957) ; in Public Papers of the Presidents of the United States, Dwight D. Eisenhower, 1957, National Archives and Records Service, Government Printing Office, p. 818 : ISBN 0160588510, 9780160588518
+[^1]: From a speech to the National Defense Executive Reserve Conference in Washington, D.C. (November 14, 1957) ; in Public Papers of the Presidents of the United States, Dwight D. Eisenhower, 1957, National Archives and Records Service, Government Printing Office, p. 818 : ISBN 0160588510, 9780160588518
 
-[\[2\]](http://file///C:/Users/brian/Dropbox/My%20Documents/Will%20Consulting%20Group/Published%20on%20LinkedIn/Agile%20Estimation%20How%20To/Agile%20Estimation%20How%20To.docx#\_ftnref2) By definition, the first two numbers in the Fibonacci sequence are 0 and 1, and each subsequent number is the sum of the previous two
+[^2]: By definition, the first two numbers in the Fibonacci sequence are 0 and 1, and each subsequent number is the sum of the previous two

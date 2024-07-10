@@ -116,7 +116,7 @@ You are encouraged to learn and develop skills without pressure to in turn seek 
 
 ### Career Development and Well-being
 
-Watch this live speaker series where we talk to Leah Weiss of [Skylyte](https://www.skylyte.com/) about the connection between well-being, purpose, and our career growth.
+Watch this live speaker series where we talk to Leah Weiss of Skylyte about the connection between well-being, purpose, and our career growth.
 
 {{< youtube "2XmmGYlsEP8" >}}
 

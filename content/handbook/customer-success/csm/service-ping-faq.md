@@ -46,7 +46,7 @@ GitLab can collaborate with you to understand your security controls and regulat
 
 Yes, you are able to extract this information manually and review prior to sending to GitLab. Here are the steps:
 
-1. Login to your gitlab instance as administrator
+1. Login to your GitLab instance as administrator
 1. Navigate to the admin section of the Interface by clicking the "wrench" at the top navigation ribbon of the homepage
 1. At the left navigation panel, hover over the "Settings" –> and click on "Metrics and Profiling"
 1. When the Metrics and Profiling page populates, scroll down to the "Usage Statistics" segment of the page and click on the "Expand" button at the right-hand side.

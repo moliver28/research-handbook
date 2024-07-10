@@ -75,7 +75,7 @@ Companies in Phase 2 will begin to take advantage of technology to replace thing
 
 - Record all meetings and automatically upload them, plugging knowledge gaps created by undocumented gatherings.
 - Attach a Google Doc agenda to every business meeting, writing questions, answers, and conversation down in real-time as the meeting transpires so that knowledge is archived for reference, and for viewing by attendees who are not able to attend live.
-- Converse about a work topic [in a public chat channel]({{< ref "communication#slack" >}}) instead of a private channel, so that more input may be gained.
+- Converse about a work topic [in a public chat channel](/handbook/communication/#slack) instead of a private channel, so that more input may be gained.
 - Documentation will occur in most instances, but there is no overarching guidance on how to document, where to contextualize takeaways, who to share documentation with, and how others will ever find anyone else's documentation.
 
 ## Phase 3: Asynchronous

@@ -24,7 +24,7 @@ Use the content from our [presentation at GitLab Culture Open House 2020](https:
 
 When you work synchronously, tools like Slack or Microsoft Teams enable conversations that can go on for months. The upside is the potential for immediate replies. The downsides are numerous. A never-ending strand of red bubbles (unread notifications) can take a toll on one's [mental health](mental-health/), and completely destroys a human's ability to find a state of flow.
 
-Letting Slack pings dictate your working life is a recipe for burnout. It's also a terrible way to work. Messages are [siloed]({{< ref "communication#avoid-direct-messages" >}}) outside of public channels, so it's impossible for others to transparently see what others are working on.
+Letting Slack pings dictate your working life is a recipe for burnout. It's also a terrible way to work. Messages are [siloed](/handbook/communication/#avoid-direct-messages) outside of public channels, so it's impossible for others to transparently see what others are working on.
 
 To solve for this, only pay for a chat plan that retains messages for 90 days or less. If your team knows that they'll never be able to query a message thread for context on a project, they will not use the tool for work. Instead, they'll be forced to start, discuss, and complete work in the place where it should end up. At GitLab (the company), this is GitLab ([the product](https://about.gitlab.com/stages-devops-lifecycle)).
 
@@ -97,7 +97,7 @@ This remote-first behavior triggers a healthy reminder for people to chat about 
 
 Imagine this scenario. You're in a conference room with five others, being joined by a group of five remote team members in a video call.
 
-Those in the office are inclined to use the office camera, dialing in as a single participant with five heads and voices. This creates an unlevel playing field, where the remote team members are immediately seen as inferior, and are given a substandard call experience. (We've detailed why [hybrid calls are horrible]({{< ref "communication#hybrid-calls-are-horrible" >}}) in the Communication section of the GitLab handbook.)
+Those in the office are inclined to use the office camera, dialing in as a single participant with five heads and voices. This creates an unlevel playing field, where the remote team members are immediately seen as inferior, and are given a substandard call experience. (We've detailed why [hybrid calls are horrible](/handbook/communication/#hybrid-calls-are-horrible) in the Communication section of the GitLab handbook.)
 
 The forcing function here is to mandate that everyone, at all times, use their own webcam. This would mean that each individual in the aforementioned conference room would need to open their own laptop and join. This would feel remarkably awkward to those in the room, which is precisely the point. The next logical question is the intended conclusion: *why did everyone in the office bother commuting*?
 

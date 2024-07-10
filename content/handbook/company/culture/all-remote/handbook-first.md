@@ -41,7 +41,7 @@ It's important not to let hindsight thwart progress in the here and now. While a
 
 ## Let your Slack or chat messages expire quickly
 
-At GitLab, only [90 days of Slack activity is retained]({{< ref "communication#slack" >}}). After that, it's gone. This is intentional, as it prevents Slack as being useful as a tool for managing projects end-to-end. Slack, Microsoft Teams, and similar tools are *instant* messaging platforms, which may work to the detriment of a truly [asynchronous culture](asynchronous/).
+At GitLab, only [90 days of Slack activity is retained](/handbook/communication/#slack). After that, it's gone. This is intentional, as it prevents Slack as being useful as a tool for managing projects end-to-end. Slack, Microsoft Teams, and similar tools are *instant* messaging platforms, which may work to the detriment of a truly [asynchronous culture](asynchronous/).
 
 Leaders who are serious about ensuring that their team can rely on a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide#documentation-is-the-single-source-of-truth-ssot) will be ruthless when it comes to instant message retention. If team members know that they can search their instant message history for updates on a given project, there is no motivation to document progress in a place that is universally accessible. This creates massive [knowledge gaps](asynchronous/#plugging-the-knowledge-leak) and further splinters communication, alignment, and understanding throughout an organization.
 
@@ -157,7 +157,7 @@ Empowering the entire company to propose changes creates widespread autonomy and
 
 Ideally, everyone feels as if they are a contributing member of a handbook's evolution. This is easier to foster when you instill ["writing things down"](/handbook/values/#write-things-down) as a value at an early stage. For [scaled companies](scaling/) adding a handbook many years after inception, consider hiring dedicated scribes that sit on each team.
 
-Former journalists are ideal for this type of work, as it goes well beyond transcription. Documenting [notes](communication#external-communication) during [meetings](meetings/), and converting them from [Google Docs]({{< ref "communication#google-docs" >}}) to [handbook](/handbook/about/handbook-usage/#why-handbook-first), requires a knack for storytelling as well as an understanding of what's important and what [context](effective-communication/#understanding-low-context-communication) should be added.
+Former journalists are ideal for this type of work, as it goes well beyond transcription. Documenting [notes](communication#external-communication) during [meetings](meetings/), and converting them from [Google Docs](/handbook/communication/#google-docs) to [handbook](/handbook/about/handbook-usage/#why-handbook-first), requires a knack for storytelling as well as an understanding of what's important and what [context](effective-communication/#understanding-low-context-communication) should be added.
 
 Consider investing in a handbook editor team that ensures the engineering framework is up to date, and that code owners are notified whenever pages go too long without an update.
 

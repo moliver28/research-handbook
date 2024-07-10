@@ -55,7 +55,7 @@ For an in-depth look at the programs and tools we offer our partners, see our [m
 
 ## 6 Month Planning Cycle with quarterly reviews: Channel Marketing Managers
 
-The Channel Marketing Managers are responsible for creating channel marketing plans with our marketing-ready channel partners that align to a 6-month planning cycle with quartely reviews. This allows time for our channel partners to properly source resources and staffing for these campaigns.
+The Channel Marketing Managers are responsible for creating channel marketing plans with our marketing-ready channel partners that align to a 6-month planning cycle with quarterly reviews. This allows time for our channel partners to properly source resources and staffing for these campaigns.
 
 - Feb - July - Plans due second week of December
 - August - January - Plans due second week of June
@@ -178,7 +178,7 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
           - `MDF-POP` and use the scoped labels below to work through the approval process:
           - `MDF::POP Pending`: issues created but POP has not yet been received
           - `MDF::POP Approval Needed`: once POP is received change this status to have Samara Souza approve the POP documents submitted
-          - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisiton can be created
+          - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisition can be created
           - `MDF:: POP Completed`: Once all of the steps above are completed, change to this status and close the MDF POP issue
   - Once all sub-issues are completed, close out the epic.
 
@@ -223,7 +223,7 @@ In the Marketing Center, Partners will have access to real time reporting.
 
 ### Key Features
 
-Social Syndication - SMARTlink technlogy directs each call to action to the relevant Showcase page that belongs to the partner whose post generated the demand.
+Social Syndication - SMARTlink technology directs each call to action to the relevant Showcase page that belongs to the partner whose post generated the demand.
 Lead Management - gives your partners the ability to manage all the leads generated within the TCMA system via our simple dashboard.
 
 #### How to Participate
@@ -513,7 +513,7 @@ This process requires the following platforms: Allocadia, Marketo, Salesforce, T
 
 [Flow Chart >](https://www.figma.com/file/6LFKq2rQaw16YFhq1zej5d/Sales-Dev---Partner-Sales-Collaboration?type=whiteboard&node-id=0-1&t=GQvBSLo14kJcVzGu-0)
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6LFKq2rQaw16YFhq1zej5d%2FSales-Dev---Partner-Sales-Collaboration%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3Dzu4zZQVPbHpeR8S0-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fboard%2F6LFKq2rQaw16YFhq1zej5d%2FSales-Dev---Partner-Sales-Collaboration%3Fnode-id%3D0-1%26t%3DcNSChb35P9rw0ayz-1" allowfullscreen></iframe>
 
 1. Allocadia - Create the subcategory and line item in Allocadia.
    1. [Create Sales Dev - Partner Campaign Alignment issue (automated when Worked by Sales Dev = True)](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Partner_Sales_BDR_Collaboration_Template.md?ref_type=heads) to communicate how the Sales Dev team is expected to follow up with the campaign.
@@ -666,7 +666,7 @@ Step 3: Export Leads from Salesforce
 1. Once spreadsheet is completed, proceed with [self service list import](/handbook/marketing/marketing-operations/automated-list-import/) instructions.
 1. (no setup needed) Marketo will process.
     1. If there is a `CRM Partner ID` that equals to a Channel Partner Account ID (18),
-        1. Set `Vartopia Partner Account` - if CRM Partner ID is asociated to a Channel Partner.
+        1. Set `Vartopia Partner Account` - if CRM Partner ID is associated to a Channel Partner.
         1. Set `Partner Consent` = `True`
     1. If `CRM Partner ID` equals to a Alliance Partner Account ID (18),
         1. Do nothing.

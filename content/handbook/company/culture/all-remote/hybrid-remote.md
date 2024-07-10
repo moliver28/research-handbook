@@ -115,7 +115,7 @@ Leaders should reinforce a particular rigor on documenting takeaways following i
 
 ### Redesigned spaces for individual hybrid-remote meeting rooms
 
-Hybrid calls are [suboptimal for remote attendees](meetings/#avoid-hybrid-calls). Leaders transitioning to hybrid-remote should consider redesigning existing office space to optomize for individual workspaces and individual meeting rooms. This reinforces that the office is simply [another venue to work remotely from]({{< ref "how-to-work-remote-first#offices-are-simply-venues-to-work-remotely-from" >}}).
+Hybrid calls are [suboptimal for remote attendees](meetings/#avoid-hybrid-calls). Leaders transitioning to hybrid-remote should consider redesigning existing office space to optimize for individual workspaces and individual meeting rooms. This reinforces that the office is simply [another venue to work remotely from]({{< ref "how-to-work-remote-first#offices-are-simply-venues-to-work-remotely-from" >}}).
 
 Eliminating conference rooms serves as a forcing function to ensure collaboration is accessible to all and removes the temptation to have in-office team members gather around a single camera for a video call with remote attendees.
 
@@ -179,19 +179,19 @@ We believe it's useful for transitioning companies to see *how* others are embra
 1. Dropbox - *[Virtual First Toolkit](https://experience.dropbox.com/virtual-first-toolkit)*
 1. Slack - *[A new guide for adapting to a radically different workplace](https://slack.com/blog/transformation/navigating-the-disruption-of-work)*
 1. Hubspot - *[How we're building a hybrid company](https://www.hubspot.com/careers-blog/future-of-work-hybrid)*
-1. Coinbase - *[Building a remote-first company: our biggest lessons so far](https://blog.coinbase.com/building-a-remote-first-company-our-biggest-lessons-so-far-bac75adb650b)*
+1. Coinbase - *[Building a remote-first company: our biggest lessons so far](https://www.coinbase.com/blog/building-a-remote-first-company-our-biggest-lessons-so-far)*
 1. Herman Miller - *[The Future of Work: Looking Forward](https://www.hermanmiller.com/research/categories/white-papers/looking-forward)*
 
 ## Companies embracing hybrid-remote
 
-COVID-19 created a wave of companies intentionally shifting to remote-first. For some organizations, unwinding all of their office space and [becoming an all-remote organazation](transition/) is not practical. Many are announcing their plan to embrace some variation of hybrid-remote. This is not an exhaustive list, so we welcome additions and contributions.
+COVID-19 created a wave of companies intentionally shifting to remote-first. For some organizations, unwinding all of their office space and [becoming an all-remote organization](transition/) is not practical. Many are announcing their plan to embrace some variation of hybrid-remote. This is not an exhaustive list, so we welcome additions and contributions.
 
 1. HubSpot — *[The Future of Work at HubSpot: How We're Building a Hybrid Company](https://www.hubspot.com/careers-blog/future-of-work-hybrid)*
 1. Dropbox — *[Dropbox goes Virtual First](https://blog.dropbox.com/topics/company/dropbox-goes-virtual-first)*
 1. Robinhood — *[Robinhood is a Remote First Company](https://blog.robinhood.com/news/2022/1/12/robinhood-is-a-remote-first-company)*
 1. Reddit — *[Evolving Reddit's Workforce](https://redditblog.com/2020/10/27/evolving-reddits-workforce)*
 1. Figma — *[How work is changing at Figma](https://www.figma.com/blog/how-work-is-changing-at-figma)*
-1. Coinbase — *[Post COVID-19, Coinbase will be a remote-first company](https://blog.coinbase.com/post-covid-19-coinbase-will-be-a-remote-first-company-cdac6e621df7)*
+1. Coinbase — *[Post COVID-19, Coinbase will be a remote-first company](https://www.coinbase.com/blog/post-covid-19-coinbase-will-be-a-remote-first-company)*
 1. Shopify — *[Digital by default](https://www.shopify.com/careers/work-anywhere)*
 1. Twitter — *[Where We Work](https://careers.twitter.com/en/locations.html)*
 1. Slack — *[A new guide for adapting to a radically different workplace](https://slack.com/blog/transformation/navigating-the-disruption-of-work)*
@@ -203,7 +203,7 @@ COVID-19 created a wave of companies intentionally shifting to remote-first. For
 1. Asana - *[Reuniting and Thriving in a Distributed World With Asana](https://blog.asana.com/2021/04/reuniting-teams)*
 1. LinkedIn - *[A Sneak Peek at LinkedIn's New Hybrid Workplace Plans](https://www.linkedin.com/business/talent/blog/talent-engagement/sneak-peek-at-linkedins-new-hybrid-workplace-plans)*
 1. DoorDash - *[DoorDash's Hybrid Work Plan: Committing to Flexibility](https://doordash.news/company/doordashs-hybrid-work-plan-committing-to-flexibility)*
-1. Uber - *[Our Return to the Office](https://www.uber.com/blog/our-return-to-the-office)*
+1. Uber - *[Our Return to the Office](https://www.uber.com/blog/our-return-to-the-office/)*
 1. Cisco - *[Cisco Powers Hybrid Work](https://newsroom.cisco.com/feature-content?type=webcontent&articleId=2179907)*
 1. Intel - *[Creating a "Hybrid-First" Company](https://www.intel.com/content/www/us/en/newsroom/opinion/creating-hybrid-first-company.html#gs.t85vm4)*
 1. Lyft - *[We're Going Fully Flexible](https://www.lyft.com/blog/posts/lyft-announces-fully-flexible-workplace)*
@@ -228,7 +228,7 @@ While this scenario may still be preferred over one where remote employees are *
 
 ### Better work-life balance
 
-Hybrid-remote employees can plan for more [flexibility](http://shedoesdatathings.com/post/1-year-at-gitlab) in their [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
+Hybrid-remote employees can plan for more flexibility in their [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
 
 ### Optimize when and where you work
 
@@ -320,7 +320,7 @@ If you're considering working for a remote-first company, consider asking the fo
 1. Does the executive team work remotely, or do they all congregate in the same physical space day-to-day?
 1. Where and how are all-hands calls handled?
 1. Are interviews and onboarding handled on-premise or via video call?
-1. Do team members have [hybrid calls]({{< ref "communication#hybrid-calls-are-horrible" >}}), or does each person have their own equipment?
+1. Do team members have [hybrid calls](/handbook/communication/#hybrid-calls-are-horrible), or does each person have their own equipment?
 1. What procedures are in place to ensure that remote employees are granted [learning and development](learning-and-development/) and promotion opportunities?
 
 It is possible to find remote-first companies with a healthy, understanding culture that works to support both colocated and remote colleagues. Prospective employees should do their own due diligence to make sure the requisite values are established and lived out.

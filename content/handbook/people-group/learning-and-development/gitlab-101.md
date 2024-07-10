@@ -37,7 +37,7 @@ This will make more sense once you understand all of the terminology.
    1. **Definition:** is a set of practices that combines software development and information-technology operations which aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
 1. Epic
    1. **Definition:** provides a way to organize and manage a set of issues and sub-epics that share the same theme.
-   1. **Example:** This is an [epic](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/15).
+   1. **Example:** This is an [epic](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/15) (internal).
 1. Git
    1. **Definition:** is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
 1. Groups
@@ -47,7 +47,7 @@ This will make more sense once you understand all of the terminology.
    1. **Definition:** it's a process that describes documenting in the handbook before taking an action, without using other forms of communication. This ensures no duplication and having the Handbook up to date.
 1. Issue
    1. **Definition:** the fundamental medium for collaborating on ideas and planning work in GitLab
-   1. **Example:** This is an [Issue](https://gitlab.com/gitlab-com/people-group/gitlab-tool-training/-/issues/1).
+   1. **Example:** This is an [Issue](https://gitlab.com/gitlab-com/people-group/gitlab-tool-training/-/issues/1) (internal).
 1. Labels
    1. **Definition:** They help you organize and tag your work so you can track and find the work items you're interested in. You can use descriptive titles like bug, feature request, or docs, as well as customizable colors.
    1. **More information on:** [labels](https://docs.gitlab.com/ee/user/project/labels.html).

@@ -22,7 +22,7 @@ To benefit the most from the types of meetings that the CFO attends, it's recomm
 
 1. Create a merge request to add yourself to the [rotation schedule](#rotation-schedule)
 1. Assign your manager and ask them to approve (**but not to merge**) the merge request
-1. Once your manager approves the merge request, assign the merge request to the [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}})
+1. Once your manager approves the merge request, assign the merge request to the [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas)
 
 ## Additional Preparation
 
@@ -32,7 +32,7 @@ Participating in the shadow program is a privilege where you will be exposed to 
 
 ### Create an onboarding and offboarding issue
 
- We currently track onboarding and offboarding in the [cfo-shadow](https://gitlab.com/gitlab-com/Finance-Division/cfo-shadow) project.  For questions, reach out to the [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}}) in the `#cfo-shadow` channel
+ We currently track onboarding and offboarding in the [cfo-shadow](https://gitlab.com/gitlab-com/Finance-Division/cfo-shadow) project.  For questions, reach out to the [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas) in the `#cfo-shadow` channel
 
  At this time, we do not have a "See One, Teach One" [rotational rhythm](/handbook/ceo/shadow#rotation-rhythm) in place, but as a CFO shadow you should be prepared to be a buddy to the following quarter's shadow as described in the onboarding issue.
 
@@ -48,7 +48,7 @@ It will be helpful to read more about introductions related to the [CEO Shadow P
 
 ### Review the CFO's calendar
 
-Schedule a call with the CFO's [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}}) to review the CFO's calendar to get an idea of what your upcoming days will be like.
+Schedule a call with the CFO's [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas) to review the CFO's calendar to get an idea of what your upcoming days will be like.
 
 ## During the Program
 
@@ -96,7 +96,7 @@ Shadows are responsible for being aware of the current time and verbally providi
 **Tips for time-keeping:**
 
 - Decide who. Past shadows have found it helpful for the individual in the second week of the program to commit to keeping time when applicable.
-- Understand meeting length. Use the calendar invite as an indication of how long the meeting should last. Remember, we do [speedy meetings]({{< ref "communication#scheduling-meetings" >}}).
+- Understand meeting length. Use the calendar invite as an indication of how long the meeting should last. Remember, we do [speedy meetings](/handbook/communication/#scheduling-meetings).
 - Shadows should provide a 5-minute and a 1-minute notification. You can write "Time check, 5 minutes" on Zoom chat.
 - **If a meeting is running over the allocated time, unmute and verbally say "we're in overtime".** Don't wait for a break in the conversation.
 

@@ -26,7 +26,7 @@ Between these larger gatherings, informal communication is another important ele
 
 ### Attendance is optional
 
-GitLab has a meeting policy we like to call "[No agenda, no attenda]({{< ref "communication#external-communication" >}})." Every work-related meeting has purpose, which is outlined a live doc agenda affixed to the calendar invite: here's a [templated example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) you can copy and use in your organization. As an all-remote company, we [do not look to a meeting by default](asynchronous/#question-every-meeting); when they are necessary, we strive to make in-person attendance optional by enabling asynchronous contribution.
+GitLab has a meeting policy we like to call "[No agenda, no attenda](/handbook/communication/#external-communication)." Every work-related meeting has purpose, which is outlined a live doc agenda affixed to the calendar invite: here's a [templated example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) you can copy and use in your organization. As an all-remote company, we [do not look to a meeting by default](asynchronous/#question-every-meeting); when they are necessary, we strive to make in-person attendance optional by enabling asynchronous contribution.
 
 ### Meetings are recorded
 
@@ -50,7 +50,7 @@ On a virtual call, you're limited to viewing a certain number of faces at a time
 
 ## How to prepare for an in-person meeting
 
-In-person meeting prep is similar to getting ready for a [video call]({{< ref "communication#video-calls" >}}). In these situations, you should plan to:
+In-person meeting prep is similar to getting ready for a [video call](/handbook/communication/#video-calls). In these situations, you should plan to:
 
 1. Start and end on time
 1. Build in social interactions and plan to get to know the people in your group

@@ -28,7 +28,7 @@ It provides a way to discover and reuse pipeline constructs, allowing for a more
 
 There are several flavors of the CI/CD catalog:
 
-1. [Namespace catalog (experimental)](https://docs.gitlab.com/ee/architecture/ci/components/index.html): Bound to the top-level namespace (group or personal namespace). The namespace catalog aggregates all published components from Projects it contains. The number of top-level namespaces available in an Organization could potentially be the number of available catalogs.
+1. [Namespace catalog (experimental)](/handbook/engineering/architecture/design-documents/ci_pipeline_components/): Bound to the top-level namespace (group or personal namespace). The namespace catalog aggregates all published components from Projects it contains. The number of top-level namespaces available in an Organization could potentially be the number of available catalogs.
 1. Instance-wide component catalog (planned): Surfacing all the components that are scattered across an instance. All published components in a public or internal Project will be available in the instance-wide catalog. Only a single instance-wide catalog is planned per instance.
 1. Community catalog (planned): Allow users to search all published components in different repositories across multiple namespaces. The original plan was to introduce a community catalog within self-managed customer that would act as an aggregator of all published components hosted in that instance.
 

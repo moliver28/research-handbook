@@ -248,7 +248,7 @@ This is required to allow the actions of any given account to be associated back
 
 ### Reclaiming GitLab Accounts during Offboarding
 
-For anyone hired **after** 2020-03-23: GitLab will block and reclaim team-members gitlab accounts during the offboarding process. The reasoning behind this is due to the case of visibility into confidential issues; if the `closed-assigned` or `participant` issues are in public projects, the former team-member will continue to have access to the closed issues and will continue to be updated and can access the confidential issues where they are a `participant`. For this reason, we advise team members to not utilize your work GitLab account for personal projects.
+For anyone hired **after** 2020-03-23: GitLab will block and reclaim team-members GitLab accounts during the offboarding process. The reasoning behind this is due to the case of visibility into confidential issues; if the `closed-assigned` or `participant` issues are in public projects, the former team-member will continue to have access to the closed issues and will continue to be updated and can access the confidential issues where they are a `participant`. For this reason, we advise team members to not utilize your work GitLab account for personal projects.
 
 For anyone hired **before** 2020-03-23: Upon offboarding - IT Operations will update your email address on your GitLab account to be your personal email that is on file in Workday, and you will be allowed to take your account with you. Please note: should you ever be rehired at GitLab, you will be required to make a new GitLab account. Access to all GitLab related projects and groups will be removed.
 

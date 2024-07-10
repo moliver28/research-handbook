@@ -326,7 +326,7 @@ Talk with @em in the [professional services slack channel](/handbook/customer-su
 - [Nebulaworks](https://learn.gitlab.com/gitops-gtm-all/nebulaworks?lx=AZeFEd)
 - [SURF](https://learn.gitlab.com/gitops-gtm-all/surf?lx=AZeFEd)
 - [kiwi.com](https://learn.gitlab.com/gitops-gtm-all/flying-base-native-clouds?lx=AZeFEd)
-- [VMware](https://learn.gitlab.com/gitops-gtm-all/infrastructure-code-iac-terraform-cloud?lx=AZeFEd)
+- [VMWare](https://learn.gitlab.com/gitops-gtm-all/infrastructure-code-iac-terraform-cloud?lx=AZeFEd)
 - [ValidaTek](https://learn.gitlab.com/gitops-gtm-all/valida-tek-iac?lx=AZeFEd)
 And many more [here](https://learn.gitlab.com/l/gitops-gtm-content)
 

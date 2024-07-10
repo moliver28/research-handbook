@@ -20,7 +20,7 @@ twitter_creator: "@gitlab"
 
 While there are [benefits]({{< ref "remote-benefits" >}}) to ditching the cubicle, it can feel overwhelming to design a new workspace. It's not as hard as you think to create a space where you can be comfortable, focused, and productive.
 
-Workspace expert Ryan Anderson from [MillerKnoll](https://www.millerknoll.com) shares [how to set up a personal workspace](https://remotebygitlab.com) using best practices for ergonomics, productivity, and environment.
+Workspace expert Ryan Anderson from [MillerKnoll](https://www.millerknoll.com) shares how to set up a personal workspace using best practices for ergonomics, productivity, and environment.
 
 {{< youtube "l9jmb8TE7sw" >}}
 
@@ -50,7 +50,7 @@ Refer to your company's policy for specifics on [purchasing a computer or laptop
 
 ### Camera with video capability
 
-In an all-remote setting, [video calls]({{< ref "communication#video-calls" >}}) are vital to maintaining close relationships with clients, partners, and colleagues. While voice calls are flexible and allow for uniquely efficient lifestyles (e.g. listening to a conference call while running in a park), it's important to integrate video into [workplace communication](meetings/).
+In an all-remote setting, [video calls](/handbook/communication/#video-calls) are vital to maintaining close relationships with clients, partners, and colleagues. While voice calls are flexible and allow for uniquely efficient lifestyles (e.g. listening to a conference call while running in a park), it's important to integrate video into [workplace communication](meetings/).
 
 There are generally three tiers of camera quality for at-home workspaces (professional studio rigs notwithstanding).
 
@@ -93,7 +93,7 @@ What constitutes "good headphones" varies significantly depending on preference.
 
 Almost any phone or laptop comes with a built-in microphone that should be adequate for your needs. A pair of Bluetooth or wired earbuds with an in-line microphone can help reduce background noise, if you work in a noisy space. These are commonly included with most smartphones.
 
-However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://thewirecutter.com/reviews/the-best-usb-microphone) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.bluedesigns.com) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls]({{< ref "communication#video-calls" >}}).
+However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://thewirecutter.com/reviews/the-best-usb-microphone) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.bluedesigns.com) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls](/handbook/communication/#video-calls).
 
 Several GitLab team members have positive experiences with the [M-Audio UberMic](https://www.amazon.com/M-Audio-Uber-Mic-Professional-Microphone/dp/B0767N58ZY).
 

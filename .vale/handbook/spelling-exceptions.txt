@@ -1,5 +1,6 @@
 accessor
 accessors
+accreditations
 ACLs
 actuals
 Adafruit
@@ -13,6 +14,7 @@ Algolia
 Alibaba
 aliuid
 Aliyun
+Allocadia
 allowlist
 allowlisted
 allowlisting
@@ -78,6 +80,8 @@ Ayoa
 AZs
 Azure
 B-tree
+backchannel
+backchanneled
 backfilled
 backfilling
 backfills
@@ -93,6 +97,7 @@ badging
 balancer
 balancer's
 Bamboo
+Bambu
 Bazel
 bcrypt
 BDRs
@@ -144,13 +149,16 @@ canonicalized
 captcha
 CAPTCHAs
 Capybara
+Carahsoft
 cardpane
 Casdoor
+CDFs
 CDNs
 CE
 CentOS
 Ceph
 Certbot
+CFPs
 cgo
 cgroup
 cgroups
@@ -182,6 +190,7 @@ clusterized
 CMake
 CMK
 CMKs
+CMMs
 CNAs
 CNs
 Cobertura
@@ -200,6 +209,7 @@ colocate
 colocated
 colocating
 colocation
+Comerica
 commit's
 CommonMark
 Compa
@@ -215,12 +225,15 @@ Coronavirus
 Corosync
 corpuses
 Cosign
+Coupa
 Coursier
 cowork
 coworking
 CPU
 CPUs
+CQLs
 CRAN
+Credly
 CRI-O
 cron
 crond
@@ -322,6 +335,8 @@ Disqus
 Distroless
 Divio
 DLE
+DMPs
+DMs
 DNs
 Docker
 Dockerfile
@@ -350,6 +365,8 @@ DSLs
 DSN
 Dynatrace
 EBAs
+ebook
+ebooks
 Ecto
 edcast
 Edcast
@@ -377,6 +394,8 @@ Excon
 exfiltrate
 exfiltration
 ExifTool
+expensed
+expensing
 expirable
 Facebook
 failover
@@ -392,6 +411,7 @@ Fastzip
 favicon
 favorited
 FBPs
+Fedex
 Fediverse
 ffaker
 Figjam
@@ -404,6 +424,7 @@ Finnhub
 Fio
 firewalled
 firewalling
+Fivetran
 fixup
 flamegraph
 flamegraphs
@@ -412,6 +433,8 @@ Flickr
 Fluentd
 Flutterwave
 Flycheck
+FMCs
+FMMs
 focusable
 forecasted
 Forgerock
@@ -473,6 +496,7 @@ Gradle
 Grafana
 Grafonnet
 gravatar
+Grubhub
 Grype
 GUIs
 Gzip
@@ -494,6 +518,7 @@ Herokuish
 heuristical
 hexdigest
 Hexo
+Highspot
 HipChat
 hoc
 Hoc
@@ -503,11 +528,14 @@ hotfix
 hotfixed
 hotfixes
 hotfixing
+hotspot
+hotspots
 hotspots
 HTMLHint
 http
 https
 Hugomods
+hypergrowth
 hyperparameter
 hyperparameters
 iCalendar
@@ -516,8 +544,10 @@ ICs
 idempotence
 idmapper
 Iglu
+IGPs
 IIFEs
 Immer
+iMovie
 impactful
 incentivizing
 inclusivity
@@ -550,6 +580,7 @@ JavaScript
 Jenkins
 Jenkinsfile
 JetBrains
+JFrog
 Jira
 Jitsu
 jq
@@ -596,6 +627,7 @@ Kucoin
 Kustomization
 Kustomize
 kwargs
+Labra
 Laravel
 LaunchDarkly
 ldapsearch
@@ -634,6 +666,7 @@ lookbehinds
 Lookbook
 lookups
 loopback
+LPs
 LSP
 Lua
 Lucene
@@ -699,11 +732,14 @@ monorepo
 monorepos
 monospace
 MQLs
+MQs
 MRs
 MSBuild
 multiline
+multimodal
 mutex
 MVCs
+MVPs
 nameserver
 nameservers
 namespace
@@ -720,7 +756,11 @@ navigations
 negatable
 Neovim
 Netlify
+Netsuite
+neurodivergent
+neurodiverse
 neurodiversity
+neurotypical
 NGINX
 ngrok
 njsscan
@@ -750,7 +790,9 @@ OKRs
 Okta
 OLM
 OmniAuth
+onboarded
 onboarding
+onboards
 OpenID
 OpenShift
 OpenTelemetry
@@ -773,6 +815,7 @@ packfiles
 Packwerk
 Pagerduty
 paginator
+PAMs
 parallelization
 parallelizations
 parsable
@@ -781,11 +824,13 @@ PascalCased
 passthrough
 passthroughs
 passwordless
+Pathfactory
 Patroni
 PBPs
 PDFs
 PEOs
 performant
+Permifrost
 PgBouncer
 pgFormatter
 pgLoader
@@ -802,6 +847,7 @@ pipenv
 Pipfile
 Pipfiles
 Piwik
+Pizzatime
 plaintext
 podman
 Poedit
@@ -839,7 +885,9 @@ prepends
 prepopulate
 prepopulated
 presentationals
+presenteeism
 Prettifier
+Printfection
 Pritaly
 Priyanka
 profiler
@@ -855,6 +903,7 @@ pseudocode
 pseudonymization
 pseudonymized
 pseudonymizer
+PTMs
 Pulumi
 Puma
 Pumble
@@ -862,6 +911,7 @@ PyPI
 pytest
 Python
 QBRs
+Qualtrics
 Qualys
 queryable
 Quicktime
@@ -921,6 +971,7 @@ replicables
 repmgr
 repmgrd
 repo
+repos
 reposts
 repurpose
 repurposes
@@ -1067,6 +1118,7 @@ Stackprof
 stacktrace
 starrer
 starrers
+Stickermule
 storable
 storages
 strace
@@ -1125,8 +1177,8 @@ superset
 supersets
 supertype
 supertypes
-svlogd
 SVGs
+svlogd
 swappiness
 swimlane
 swimlanes
@@ -1160,6 +1212,7 @@ timelogs
 timesheet
 timesheets
 Tiptap
+ToDo
 todos
 tokenizer
 Tokenizers
@@ -1175,6 +1228,7 @@ tooltips
 touchpoint
 touchpoints
 transactionally
+transformative
 transpile
 transpiled
 transpiles
@@ -1221,6 +1275,7 @@ unchecks
 uncomment
 uncommented
 uncommenting
+unconference
 uncordon
 underperform
 underperformance
@@ -1248,6 +1303,7 @@ unmerged
 unmerges
 unmerging
 unmocked
+unmoderated
 unoptimize
 unoptimized
 unoptimizes
@@ -1320,6 +1376,7 @@ UXers
 Vagrantfile
 validator
 validators
+Vartopia
 vCPUs
 vendored
 vendoring
@@ -1379,6 +1436,7 @@ Zeitwerk
 Zendesk
 ZenTao
 Zoekt
+Zoominfo
 zsh
 Zstandard
 Zuora

@@ -45,7 +45,7 @@ Meeting these standards will help meet objectives such as [FedRAMP compliance](h
 
 ### Cryptographic Modules
 
-For regulatory requirements (such as FIPS), all cryptographic modules must be publicly available (open source) to ensure compliance with the [Bureau of Industry and Security's Export Administration Regulations regarding encryption](https://www.bis.doc.gov/index.php/policy-guidance/encryption). As this compliance meets international standards per the [Wassenaar Arrangement](https://www.wassenaar.org/) this should meet any requirements that might be encountered globally, should the situation arise.
+For regulatory requirements (such as FIPS), all cryptographic modules must be publicly available (open source) to ensure compliance with the [Bureau of Industry and Security's Export Administration Regulations regarding encryption](https://www.bis.gov/articles/encryption-and-export-administration-regulations-ear). As this compliance meets international standards per the [Wassenaar Arrangement](https://www.wassenaar.org/) this should meet any requirements that might be encountered globally, should the situation arise.
 
 The choice of cryptographic modules is important. It is possible that GitLab features that have cryptographic elements could find themselves having to meet stringent module requirements (FedRAMP standards, running in FIPS mode, etc) so adherence to specific modules is highly recommended. This includes the following:
 

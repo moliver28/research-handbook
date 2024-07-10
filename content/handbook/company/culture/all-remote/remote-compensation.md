@@ -45,7 +45,7 @@ These additional investments can be made simply by lowering a company's overall 
 
 ## How can other companies move to a remote compensation model?
 
-To talk through Best Practices for Remote Compensation, GitLab partnered with [Compaas](https://www2.compa.as/gitlab) to outline how to get started recommendations, and pitfalls when transitioning to a remote friendly or remote only compensation model.
+To talk through Best Practices for Remote Compensation, GitLab partnered with [Compaas](https://web.archive.org/web/20230327015045/https://www2.compa.as/gitlab) to outline how to get started recommendations, and pitfalls when transitioning to a remote friendly or remote only compensation model.
 
 ## How do you decide how much to pay people?
 

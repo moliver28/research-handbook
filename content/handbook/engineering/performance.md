@@ -235,7 +235,7 @@ Consider the scenario of a user opening their browser, and surfing to their dash
       first byte is recorded [elsewhere on this page](#external).
       - For any page, you can use your browser's "inspect" tool to look at "TTFB" (time to first byte).
       - [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/)
-      `First Byte - External` is measured for a hand selected number of URLs using [SiteSpeed](https://sitespeed.io)
+      `First Byte - External` is measured for a hand selected number of URLs using [SiteSpeed](https://www.sitespeed.io/)
     1. <a name="reaching-speed-index"></a> [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) [**Speed Index**](#tb-reaching-speed-index)
       - Browser parses the HTML blob and sends out further requests
       to GitLab.com to fetch assets such as javascript bundles, CSS, images, and

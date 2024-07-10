@@ -331,7 +331,7 @@ One the report has been clarified, follow the "regular flow" described above.
 
 ## Breakdown of Effective Communication
 
-Sometimes there will be a breakdown in effective communication with a reporter. While this could happen for multiple reasons, it is important that further communication follows [GitLab's Guidelines for Effective and Responsible Communication]({{< ref "communication#effective--responsible-communication-guidelines" >}}). If communication with a reporter has gotten to this point, the following steps should be taken to help meet this goal.
+Sometimes there will be a breakdown in effective communication with a reporter. While this could happen for multiple reasons, it is important that further communication follows [GitLab's Guidelines for Effective and Responsible Communication](/handbook/communication/#effective--responsible-communication-guidelines). If communication with a reporter has gotten to this point, the following steps should be taken to help meet this goal.
 
 - Take a step back from the situation. Do not respond immediately.
 - Seek advice from the H1 triage engineer or, if you are more comfortable, a manager on how best to move forward.

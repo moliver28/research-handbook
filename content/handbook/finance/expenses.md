@@ -639,7 +639,7 @@ The procedure by which reimbursable expenses are processed varies and is depende
 
 ## 5. Physical Cards
 
-Please see Navan Physical Card policy [here]({{< ref "./accounts-payable/corp-credit-cards" >}}).
+Please see Navan Physical Card policy [here](accounts-payable/corp-credit-cards/).
 
 ## 6. Purchase Cards
 

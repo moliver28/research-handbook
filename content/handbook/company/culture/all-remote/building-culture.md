@@ -160,7 +160,7 @@ Whatever behavior you reward will become your values. New hires and promotions s
 1. We select for during [hiring](/handbook/hiring).
 1. We emphasize during [onboarding]({{< ref "general-onboarding" >}}).
 1. Behavior we give each-other [360 feedback]({{< ref "360-feedback" >}}) on.
-1. Behavior we [compliment]({{< ref "communication#say-thanks" >}}).
+1. Behavior we [compliment](/handbook/communication/#say-thanks).
 1. Criteria we use for [discretionary bonuses]({{< ref "incentives#discretionary-bonuses" >}}).
 1. Criteria we use for our [annual compensation review]({{< ref "compensation-review-cycle" >}}).
 1. Criteria we use for [promotions]({{< ref "promotions-transfers" >}}).
@@ -232,7 +232,7 @@ Emna G., founder and CEO at Veamly, spoke with GitLab's [Darren M.](https://twit
 
 A remote culture is only as strong as it is lived. At GitLab, we encourage team members to surface culture on a regular basis through the following mechanisms.
 
-1. [Say Thanks]({{< ref "communication#say-thanks" >}})
+1. [Say Thanks](/handbook/communication/#say-thanks)
 1. Use values emoji — ![CREDIT emoji](/images/handbook/values-emoji.png) — to recognize messages that exemplify a company value.
 1. Recommend a colleague for a [discretionary bonus]({{< ref "incentives#discretionary-bonuses" >}}). If granted, the rationale and values lived are then documented and announced during a company call, serving as a beacon to others on how to improve the lives of others by living the values.
 1. Serving as a GitLab [Contribute Ambassador](https://about.gitlab.com/events/gitlab-contribute/#ambassadors), which helps the entire company get the most out of a [weeklong trip](https://about.gitlab.com/events/gitlab-contribute/) to spend time with each other in person every 9-12 months.

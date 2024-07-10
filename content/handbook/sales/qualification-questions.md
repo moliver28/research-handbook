@@ -62,7 +62,7 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
     - Microservices
     - Kubernetes
     - What tools do you use for project management?
-- What platforms/clouds are you deploying to?  (AWS/GCP/Azure/VMware/Openshift/other)
+- What platforms/clouds are you deploying to?  (AWS/GCP/Azure/VMWare/Openshift/other)
   - If AWS are you deploying to EC2, ECS, EKS, Fargate, or Lambda
   - If GCP are you deploying to GCE, GKE, App Engine, or Cloud Run
   - If Azure are you deploying to VMs, AKS, Functions

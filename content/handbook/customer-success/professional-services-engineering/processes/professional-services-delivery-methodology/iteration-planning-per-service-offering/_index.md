@@ -37,7 +37,7 @@ In all Transformation projects, there will be elements of SCM migration and CI t
 3. **Iteration N - M**. For iterationss during migration:
    1. Create one issue per wave for migration engineer to use as runbook. Communicate to end users who will be affected by that wave. Communicate how they can get support and what to expect in terms of the new issue landing in their newly-migrated GitLab project.
    2. Create the dashboard that can show the burnup of issues closed (indicating CI adoption). Create another dashboard (Graphana?) that shows CI jobs run per day. Showcase to key executives once any amount of data starts to show up.
-   3. Hold office hours to help customers drive adoption of gitlab CI.
+   3. Hold office hours to help customers drive adoption of GitLab CI.
    4. Create a Consultation request approach for an app team to request a GitLab Engineer to help them translate their pipeline job?
    5. PM:
       1. Schedule stakeholder review / [Steerco](https://docs.google.com/presentation/d/1TDKOJeuzR1uy18umu6ovy30l_A986pOEatFn_7eiNbQ/edit#slide=id.g2e5469c2f0d_0_465).

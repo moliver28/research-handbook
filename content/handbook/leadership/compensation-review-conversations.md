@@ -25,7 +25,7 @@ For FY25, Total Rewards will be providing [Total Compensation Statements](/handb
 
 ### Compensation Communication Recommendations
 
-- **Communicate the increase face-to-face over [Zoom]({{< ref "communication#zoom" >}}).** As a manager, this is an opportunity for you to have a conversation with your team member about their compensation, increase and/or equity refresh grant (if applicable). Having the conversation over Zoom allows for you to have a dialogue with your team member (versus just sharing the number) and allows you to pick up other information like tone and non-verbal cues which can tell you more about how someone is feeling.
+- **Communicate the increase face-to-face over [Zoom](/handbook/communication/#zoom).** As a manager, this is an opportunity for you to have a conversation with your team member about their compensation, increase and/or equity refresh grant (if applicable). Having the conversation over Zoom allows for you to have a dialogue with your team member (versus just sharing the number) and allows you to pick up other information like tone and non-verbal cues which can tell you more about how someone is feeling.
 - **Prepare for the call ahead of time.** As a manager, you should have awareness of the following facts about GitLab's compensation principles (please review the handbook's [Global Compensation](/handbook/total-rewards/compensation/) page), any recent changes to the compensation calculator/band and personal details about your team member in Workday:
   - Hire date
   - Current compensation (including base salary, variable pay (where applicable), equity etc.)

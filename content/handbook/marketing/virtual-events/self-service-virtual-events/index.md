@@ -327,7 +327,7 @@ If your video meets the gating criteria, please open the following issues for th
 * [ ] [Pathfactory Track Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-track)
 * [ ] [Marketo Landing Page & Automation Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-mkto-landing-page)
 
-*Note: The 550 min threshold is based on the avg of top 10 videos on gitlab branded youtube channel between 8/11/20 - 8/18/20.*
+*Note: The 550 min threshold is based on the avg of top 10 videos on GitLab branded youtube channel between 8/11/20 - 8/18/20.*
 
 ### Results
 

@@ -40,7 +40,7 @@ Managing any team remotely is much like managing in-person. We've created an in-
 Most challenges associated with all-remote L&D can be addressed at the [hiring stage](hiring/). All-remote companies should seek team members who want to be a manager of one, thrive in environments of high autonomy, and who embrace virtual communication mediums. Learn more about [how to hire in an all-remote company](hiring/).
 
 - **No guarantee of uptake**: In all-remote settings, educators and trainers must design courses that hold the attention of remote pupils, understanding that they may be engaged with the coursework in highly unconventional settings. In turn, it is difficult to guarantee that participants are truly internalizing what's being conveyed.
-- **Live feedback/Q&A is hard**: At GitLab, we aim to operate [asynchronously](asynchronous/), staying true to our values of [Efficiency](/handbook/values/#efficiency) and [Results](/handbook/values/#results). Due to this, it's difficult to find time to hold a question and answer session with a large group of students. Utilizing [a Google Doc]({{< ref "communication#google-docs" >}}), where questions can be discussed and answered in real time, is a workaround.
+- **Live feedback/Q&A is hard**: At GitLab, we aim to operate [asynchronously](asynchronous/), staying true to our values of [Efficiency](/handbook/values/#efficiency) and [Results](/handbook/values/#results). Due to this, it's difficult to find time to hold a question and answer session with a large group of students. Utilizing [a Google Doc](/handbook/communication/#google-docs), where questions can be discussed and answered in real time, is a workaround.
 
 ### How can teams overcome remote L&D challenges?
 

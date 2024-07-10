@@ -312,7 +312,7 @@ GitLab team members compiled tips in a four-part blog series, linked below, look
 
 Tips from GitLab team members are the greater community are below, as well as how each aligns with at least one of [GitLab's values](/handbook/values/).
 
-> What has worked for me is to integrate GitLab into my life, and not the other way around. I set very clear boundaries in my calendar of when is work time and when is family time. Per GitLab's [recommendation]({{< ref "communication#google-calendar" >}}), my calendar is viewable by anyone and clearly has time for: `kids test prep`, `visual therapy for one`, `judo pick-up` and other appointments I have outside of work. This prevents team members from scheduling over these instances.
+> What has worked for me is to integrate GitLab into my life, and not the other way around. I set very clear boundaries in my calendar of when is work time and when is family time. Per GitLab's [recommendation](/handbook/communication/#google-calendar), my calendar is viewable by anyone and clearly has time for: `kids test prep`, `visual therapy for one`, `judo pick-up` and other appointments I have outside of work. This prevents team members from scheduling over these instances.
 >
 > If someone *does* schedule over family time or personal time, I feel confident to decline, unless it is very urgent and I'm blocking it (I always suggest a new time first, before using family time for a meeting). I am also inclined to say that if folks keep scheduling outside of your work time, to make sure you [respond back and highlight that](/handbook/values/#transparency), and check if you can find an alternative time that works for both of you. — [*Nadia V.*](https://gitlab.com/Vatalidis)
 
