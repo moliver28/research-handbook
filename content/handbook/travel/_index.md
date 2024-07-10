@@ -14,7 +14,7 @@ Although GitLab is an all-remote company that encourages working from anywhere, 
 
 ### Security Considerations
 
-GitLab prohibits team member access to company resources from China due to the significant cybersecurity threats posed by state-sponsored actors originating from that region.  By restricting access from regions known for supporting malicious activities, we aim to mitigate risks and uphold the confidentiality, integrity, and availability of GitLab. This approach aligns with our commitment to secure out customer data from evolving global threats. Please reach out to #security-corpsec in Slack with questions.
+GitLab prohibits team member access to company resources from China due to the significant cybersecurity threats posed by state-sponsored actors originating from that region. By restricting access from regions known for supporting malicious activities, we aim to mitigate risks and uphold the confidentiality, integrity, and availability of GitLab. This approach aligns with our commitment to secure our customer data from evolving global threats. Please reach out to #security-corpsec in Slack with questions.
 
 ### Business Travel Emergency Assistance Program with International SOS
 
