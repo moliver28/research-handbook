@@ -25,7 +25,6 @@ such as:
 
 - Toggling the escalation state of an org (turning it on or off)
 - Set the collaboration project ID for an organization
-- Setting a Dedicated SGG for an organization
 - Setting an Assigned Support Engineer for an organization
 
 ### Request a team member license

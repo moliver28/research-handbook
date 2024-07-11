@@ -42,7 +42,6 @@ The current division of responsibilities is:
 |                     | [support/team page](https://gitlab.com/gitlab-com/support/team)                                                                                       | Everyone         | Everyone         |
 | Pagerduty           | [Management](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty)                                                              | @avilla4         | @jcolyer         |
 |                     | [Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                                             | @jcolyer         | @lyle            |
-| Slack               | [SGG Slackbot](https://gitlab.com/gitlab-com/support/support-ops/other-software/sgg-slackbot)                                                         | @avilla4         | @jcolyer         |
 |                     | [Workflows](https://gitlab.com/gitlab-com/support/support-ops/other-software/slack-workflows)                                                         | @jcolyer         | @nabeel.bilgrami |
 | Status.io           | [Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                                           | @jcolyer         | @lyle            |
 | Support Ops Project | [Issues](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/)                                                                      | Everyone         | Everyone         |

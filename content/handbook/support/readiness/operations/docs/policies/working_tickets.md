@@ -216,7 +216,7 @@ graph TD;
   F(Add an internal note detailing<br>the situation and why it is<br>being moved breached)
   G(Move the ticket to the correct form)
   H(Create a new ticket and use the macro<br>Support::Support-Ops::Response<br>to original ticket using an incorrect form)
-  I(Move the ticket to the correct form,<br>setting stage to FRT, removing<br>assignee, and ensuring the SGG is blank)
+  I(Move the ticket to the correct form,<br>setting stage to FRT, removing<br>assignee)
 ```
 
 **Notes**:
@@ -228,8 +228,7 @@ graph TD;
 1. If you determine the ticket is from a free or community user, there is no
    need to create a new ticket. Instead, simply change the form to the
    appropriate support form and ensure the gitlab.com/Self-managed Subscription
-   is set to 'Free User'. Make sure to set the SGG field on the ticket to a
-   blank value!
+   is set to 'Free User'.
 1. When moving tickets to a new form, do your best to fill out the ticket
    metadata for the team that will work the ticket.
 
