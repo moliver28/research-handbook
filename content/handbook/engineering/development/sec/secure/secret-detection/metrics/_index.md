@@ -96,7 +96,39 @@ anywhere from 4-10 days.
 
 #### Process for adding
 
-Database metrics are not yet supported by the CLI so must be done by hand.
+Database metrics are implemented by a Ruby subclass of
+`GitLab::Usage::Metrics::Instrumentation::DatabaseMetric` and
+utilizes `ActiveRecord` relations to build the queries. Alternatively, you can
+provide the SQL for the query too.
+
+The class should be in `lib/gitlab/usage/metrics/instrumentation/` or the EE
+equivalent.
+
+To implement the metric, in the most simple way, we call the `#operation` and `#relation` methods.
+
+The argument to `operaion` can be
+- `:count`
+- `:distinct_count`
+- `:estimate_batch_distinct_count`
+- `:sum`
+- `:average`
+
+
+`relation` takes a block that returns the query results.
+
+Example:
+```ruby
+class CountProjectsWithSecretPushProtectionEnabledMetric < DatabaseMetric
+  operation :count
+
+  relation do
+    ProjectSecuritySetting.where(pre_receive_secret_detection_enabled: true)
+  end
+end
+```
+
+Each database metric has to have an accompanying metric dictionary like Internal
+Tracking Events. Unfortunately, database metrics are not yet supported by the CLI so must be done by hand.
 
 1. Create a yaml file in the appropriate subdirectory of `config/metrics` or `ee/config/metrics` if it's a metric
 limited to an enterprise tier.
@@ -106,6 +138,19 @@ monthly metrics respectively.
   - Use existing yaml files as templates
   - Use the schema defined [here](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html).
   - NOTE: Make sure that the milestone is a string
+
+#### Testing
+
+Like Internal Tracking Events, database metrics have shared examples that we can
+utilize in our tests.
+
+```ruby
+it_behaves_like 'a correct instrumented metric value', { time_frame: 'all',
+data_source: 'database' }
+```
+
+`time_frame` should match the value in the dictionary for the metric that was
+defined.
 
 ### Viewing and Analyzing
 
