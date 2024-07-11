@@ -5,7 +5,7 @@ description: Proof of Value (POV)
 
 ## Proof of Value (POV)
 
-Proof of value is a combination of [technical evaluation] (https://handbook.gitlab.com/handbook/solutions-architects/processes/#technical-discovery-and-demo-preparation) and the communication of the expected business value of a solution.  The solution, its practical application, and how it drives specific business value are proven and documented through the POV process.
+Proof of value is a combination of [technical evaluation](https://handbook.gitlab.com/handbook/solutions-architects/processes/#technical-discovery-and-demo-preparation) and the communication of the expected business value of a solution.  The solution, its practical application, and how it drives specific business value are proven and documented through the POV process.
 
 Solution Architects are instrumental in guiding prospects and customers to carry out a successful Proof of **Value**. POV's should focus on specific prospect/customer business outcomes that cannot be achieved through other consultative interactions.
 
