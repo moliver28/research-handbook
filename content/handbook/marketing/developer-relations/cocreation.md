@@ -21,6 +21,7 @@ To ensure effective use of this collaborative period, GitLab will **co-locate 1 
 GitLab has [a list of smaller issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=quick%20win&label_name%5B%5D=Seeking%20community%20contributions&first_page_size=100) ready to work on. Identifying and resolving a common problem together while learning the process is the quickest way to get started.
 Identify areas that are of high priority to the customer together with the Solutions Architect & Contributor Success. Alignment with Product & Engineering is a required prerequisite.
 
+1. Create a Google doc based on [this Google Doc template](https://docs.google.com/document/d/1rl8JzWgBLKjf_bk_hu3dsbeZdiQIlNBQsXXInAuh1NQ/edit#heading=h.xiutfkcp0t6f) to track the progress and ensure the right DRIs are appointed.
 1. Identify the opportunity and create a Slack channel with the following pattern `#cocreate-initiative-CUSTOMERNAME`.
 1. Determine the level of willingness and ability of the customer to [contribute to GitLab](https://docs.gitlab.com/ee/development/contributing/).
 1. Invite the CSM, SA, AE, Nick Veenhof & Raimund Hook.
