@@ -257,27 +257,6 @@ There are several activities that take place to prepare for new OKRs / commits a
 ## Weekly Roll Up Reporting
 
 The IT Integrations team designed the Rolly Bot, a tool aimed at automating the generation and distribution of weekly status updates. With this tool, the IT PMO Team can deliver consistent updates on ongoing projects. A [new roll-up](https://gitlab.com/gitlab-com/business-technology/program-management-office/it-projects-reporting/-/issues) is produced every Monday.
-
-## Definitions and terms used across the IT department
-
-- **Service Desk**: Single point of contact between IT service providers and users/customers. The primary goal of the Service Desk is to ensure that all incidents, service requests, and other IT-related issues are promptly addressed and resolved, ensuring minimal disruption to the business.
-- **Continual Service Improvement (CSI)**: An ongoing process that focuses on improving the quality of services and the efficiency of IT processes. It involves identifying areas for improvement, implementing changes, and measuring the results.
-- **Service Request, Change request and Incident**: three distinct concepts that play essential roles in IT Service Management. Here are the key differences between them:
-
-| Concept | Definition | Purpose | Examples |
-| ------ | ------ | ------ | ------ |
-| **Service Request** | A service request is a formal request from a user or customer for information, advice, a standard change, or access to an IT service. It involves predefined and well-documented procedures. | Service requests are typically routine, low-risk, and straightforward tasks that do not require major changes to the IT environment. They aim to fulfill specific user needs and provide predefined services quickly and efficiently. | Password reset, user account creation, software installation, email account setup, hardware procurement, conference room booking, etc. |
-| **Change Request** | A change request is a formal proposal to modify the configuration of an IT service, system, or infrastructure in a controlled manner. It aims to introduce improvements, fix issues, implement new features, or make any other alterations that can potentially impact the existing environment. | Change requests involve making intentional changes to the IT environment, and they need to be carefully evaluated, planned, and implemented to avoid disruptions and minimize risks. Change management ensures that changes are controlled and align with business objectives. | Software upgrade, hardware replacement, infrastructure configuration change, service maintenance window, database schema modification, etc. |
-| **Incident** | An incident is an unplanned interruption or reduction in the quality of an IT service. It can also refer to the failure of a configuration item (CI) that has not yet impacted service but poses a significant risk of doing so in the future. | Incidents are unexpected events that disrupt normal service operations and require immediate attention to restore service to its normal state. Incident management focuses on minimizing the impact of incidents on users and business operations. | Network outage, application crash, server failure, data loss, email delivery problems, etc. |
-
-- **Project:** To be considered a project the request need to meet all the below criteria:
-  - The work will taken more than 48hrs to be built and tested (end to end)
-  - Involves 2 or more systems
-  - Involves 2 or more stakeholders
-  - Involves 2 or more teams (even within IT so for example, EntApps LTC and EntApps Integrations)
-
-The main difference between a project and a change request in ITIL lies in their scope, nature, and the processes they follow. Projects are temporary, comprehensive efforts aimed at achieving specific goals, while change requests are smaller, routine or ad-hoc requests to modify existing IT services or configurations.
-
 ## <i class="fas fa-file-alt" id="biz-tech-icons"></i> Meetings
 
 ## Meetings Protocol
@@ -348,11 +327,7 @@ The team follows [GitLab meeting practices and standards](https://about.gitlab.c
   - **Frequency**: Quarterly
   - **Participants**: VP, IT (host), Business & IT Leadership.
 
-### Budget Planning
 
-- **Purpose**: Discuss the company's budget and make adjustments as needed.
-  - **Frequency**: Annual
-  - **Participants**: Business & IT Leadership.
 
 ## <i class="fas fa-headset" id="biz-tech-icons"></i> How To Connect With Us
 
