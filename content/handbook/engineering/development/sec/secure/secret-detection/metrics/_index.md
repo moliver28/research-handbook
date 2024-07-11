@@ -1,9 +1,6 @@
-
 ---
-
 title: "Secret Detection Metrics"
 ---
-
 
 ## Overview
 
@@ -37,11 +34,11 @@ track_internal_event(
   namespace: namespace,
   project: project
 )
-
 ...
 ```
 
 Each event has a descriptive name and, when possible, useful data for context like:
+
 - user
 - project
 - namespace (which will be pulled from `project` if not supplied)
@@ -52,9 +49,11 @@ the class that the event was fired from. This is important to know for testing.
 Each event can also have up to 3 additional data. Events support 2 string values, and 1 numeric.
 These additional properties are stored in the `additional_properties` map in the
 event and the keys are:
+
 - `label` (string)
 - `property` (string)
 - `value` (numeric)
+
 You should utilize them in that order when possible, i.e., `label` before
 `property`.
 
@@ -107,16 +106,17 @@ equivalent.
 To implement the metric, in the most simple way, we call the `#operation` and `#relation` methods.
 
 The argument to `operaion` can be
+
 - `:count`
 - `:distinct_count`
 - `:estimate_batch_distinct_count`
 - `:sum`
 - `:average`
 
-
 `relation` takes a block that returns the query results.
 
 Example:
+
 ```ruby
 class CountProjectsWithSecretPushProtectionEnabledMetric < DatabaseMetric
   operation :count
@@ -130,14 +130,13 @@ end
 Each database metric has to have an accompanying metric dictionary like Internal
 Tracking Events. Unfortunately, database metrics are not yet supported by the CLI so must be done by hand.
 
-1. Create a yaml file in the appropriate subdirectory of `config/metrics` or `ee/config/metrics` if it's a metric
-limited to an enterprise tier.
-  - If the metric is meant to capture all time, use the `counts_all` subdirectory.
-  - Otherwise use the appropriate `counts_7d` or `counts_28d` subdirectory for weekly and
-monthly metrics respectively.
-  - Use existing yaml files as templates
-  - Use the schema defined [here](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html).
-  - NOTE: Make sure that the milestone is a string
+1. Create a yaml file in the appropriate subdirectory of `config/metrics` or `ee/config/metrics` if it's a metric limited to an enterprise tier.
+  1. If the metric is meant to capture all time, use the `counts_all` subdirectory.
+  1. Otherwise use the appropriate `counts_7d` or `counts_28d` subdirectory for weekly and monthly metrics respectively.
+1. Use existing yaml files as templates
+1. Use the schema defined [here](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html).
+
+NOTE: Make sure that the milestone is a string
 
 #### Testing
 
@@ -162,5 +161,6 @@ With the `Explorer` role in Tableau, you will be able to create dashboards but
 will be limited to using data sources created by someone with higher
 permissions. Any new Internal Tracking Event or Database Metric should be
 included in existing data sources
+
 - `Mart Ping Instance Metric Monthly`
 - `Mart Ping Instance Metric Weekly`
