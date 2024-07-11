@@ -257,6 +257,7 @@ There are several activities that take place to prepare for new OKRs / commits a
 ## Weekly Roll Up Reporting
 
 The IT Integrations team designed the Rolly Bot, a tool aimed at automating the generation and distribution of weekly status updates. With this tool, the IT PMO Team can deliver consistent updates on ongoing projects. A [new roll-up](https://gitlab.com/gitlab-com/business-technology/program-management-office/it-projects-reporting/-/issues) is produced every Monday.
+
 ## <i class="fas fa-file-alt" id="biz-tech-icons"></i> Meetings
 
 ## Meetings Protocol
@@ -326,8 +327,6 @@ The team follows [GitLab meeting practices and standards](https://about.gitlab.c
 - **Purpose**: Provide advice, ensure delivery of IT project outputs and the achievement of IT project outcomes.
   - **Frequency**: Quarterly
   - **Participants**: VP, IT (host), Business & IT Leadership.
-
-
 
 ## <i class="fas fa-headset" id="biz-tech-icons"></i> How To Connect With Us
 
