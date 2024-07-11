@@ -247,13 +247,13 @@ The Director of International Tax is a job [grade 11](/handbook/total-rewards/co
 - Supervising managers and creating leaders
 - The Director of International Tax will have a BS/BA in Accounting or Finance with an MST, MBT, or LLM in taxation. A CPA is preferred.
 
-### Senior Director of International Tax
+### Senior Director of Multinational Tax
 
 #### Job Grade
 
-The Senior Director of International Tax is a job [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Director of Multinational Tax is a job [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Director of International Tax Responsibilities
+#### Senior Director of Multinational Tax Responsibilities
 
 - Provides strategic leadership with respect to GitLab’s international structure, including the location of the economic ownership of GitLab IP.
 - Plans for, models, and operationalizes GitLab’s footprint in international locations.
@@ -271,9 +271,9 @@ The Senior Director of International Tax is a job [grade 11](/handbook/total-rew
 - Project-Manages tax and transfer pricing audits
 - VAT/GST compliance and audits
 - Optimizes per-country stock based compensation from a corporate income tax perspective
-- Builds and leads the International tax team in alignment with GitLab leadership values and principles.
+- Builds and leads the Multinational tax team in alignment with GitLab leadership values and principles.
 
-#### Senior Director of International Tax Requirements
+#### Senior Director of Multinational Tax Requirements
 
 - The candidate will have a minimum of 10 years in Big-4 accounting firm, law firm, or comparable US-based multinational company experience. Specifically, the candidate will have demonstrable, progressive experience in:
 - The ability to reduce complex technical issues into communications (both oral and written) intended for lay people
@@ -304,9 +304,9 @@ Currentness of knowledge of existing and pending legislation and regulations
 - Assist with the resolution of all state notices relating to US indirect tax
 - 3+ years indirect tax experience with multiple states and local jurisdictions preferred.
 
-### International
+### Multinational
 
-- Primary focus on international tax
+- Primary focus on multinational tax
 - Working knowledge of multiple International tax areas
 - Proven international experience working with overseas operations
 - Proven success with managing tax on a global scale
