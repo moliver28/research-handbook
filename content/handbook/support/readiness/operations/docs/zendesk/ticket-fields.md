@@ -152,7 +152,7 @@ team.
 
 #### Zendesk Global
 
-- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/tickets/forms-and-fields)
+- [Support managed content project](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/forms-and-fields)
 
 #### Zendesk US Government
 
