@@ -243,7 +243,7 @@ We want to help people understand exciting features (which are often new), and i
 
 Some guidelines to help promote consistency of what is included in the blog post between different Product Managers are below.
 
-Depending on the [maturity level](https://about.gitlab.com/direction/maturity/) of your category should influence what you select for as a release post item.
+Depending on the [maturity level](https://about.gitlab.com/direction/#maturity) of your category should influence what you select for as a release post item.
 
 **Minimal**
 
@@ -543,7 +543,7 @@ there is a single group for `Manage`, but new groups were created for `control` 
 To prepare for creating multiple Groups, we should:
 
 1. Update `categories.yml` and `stages.yml`, assigning each Group a set of Categories
-1. Ensure all issues remain labelled with the Stage name, like `devops::manage`
+1. Ensure all issues remain labeled with the Stage name, like `devops::manage`
 1. Ensure all issues also have a group label, like `Control` or `Framework`
 1. Prior to the new groups being formed, the PM and EM prioritize the shared `devops::manage` backlog
 
@@ -1063,7 +1063,7 @@ there is a single group for `Manage`, but will be splitting into `control` and `
 To prepare for splitting a Stage into multiple Groups, we should:
 
 1. Update `categories.yml` and `stages.yml`, assigning each Group a set of Categories
-1. Ensure all issues remain labelled with the Stage name, like `devops::manage`
+1. Ensure all issues remain labeled with the Stage name, like `devops::manage`
 1. Ensure all issues also have a group label, like `Control` or `Framework`
 1. Create a "Label change" issue in [Triage Ops](https://gitlab.com/gitlab-org/quality/triage-ops) listing affected label to have the change reflected retroactively in Engineering Dashboards.
 1. Prior to the new groups being formed, the PM and EM prioritize the shared `devops::manage` backlog
@@ -1230,7 +1230,7 @@ The category epic should include:
 - Sub-epics related to the category, to make navigation and discoverability easier for our users by leveraging the epic hierarchy
 - A link to a search query which can be used to find all issues with the category label
 
-Maturity plans adhering to the [maturity framework](https://about.gitlab.com/direction/maturity/) are
+Maturity plans adhering to the [maturity framework](https://about.gitlab.com/direction/#maturity) are
 highly encouraged - but not required - for non-marketing categories.
 
 For specifics of how the category strategy page should look, see the [category strategy template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/templates/product/category_strategy_template.html.md).
@@ -1994,7 +1994,7 @@ When we speak to users and customers directly during this workflow, we must be m
 > I would be very interested in speaking further about some of the points you raised in your survey response. Would you be willing to do a 30 minute Zoom call to give us some more detailed feedback on your experience using GitLab? You'd be able to schedule the call at a time convenient to you.
 >
 > Schedule a time for the call using this link:
-> https://calendly.com/yourname/30min
+> `https://calendly.com/yourname/30min`
 >
 > Thank you for your feedback and let me know if you have any questions.
 >
@@ -2213,9 +2213,9 @@ Feature issues identify work to support the implementation of a feature and/or r
 
 - If there is doubt about whether you could expect something to be there or work, it's a missing feature.
 - We iterate to deliver features, so we often don't have functionality that people expect. For this reason, 'people could reasonably expect this functionality' does not make it a bug.
-- Whether the code results in user facing updates or not, if it is part of building the feature it should be labelled as such.
-- Performance improvements and user interface enhancements improve the experience for end users and should be labelled as `~"type::feature"`.
-- API additions including both REST and GraphQL should also be labelled as `~"type::feature"`.
+- Whether the code results in user facing updates or not, if it is part of building the feature it should be labeled as such.
+- Performance improvements and user interface enhancements improve the experience for end users and should be labeled as `~"type::feature"`.
+- API additions including both REST and GraphQL should also be labeled as `~"type::feature"`.
 - If people care about a missing feature and the solution is clear, the issue should be marked as `~"Seeking community contributions"`.
 
 ##### Bug issues
@@ -2226,7 +2226,7 @@ Bug issues report undesirable or incorrect behavior, such as:
 - Inaccurate presentation or data.
 - Part of GitLab not working according to the documentation or a universal expectation.
 - Functionality inadvertently being broken, or changed from how it is supposed to work. This is also a [regression](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#regression-issues).
-- A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labelled as `~"type::bug"` and `~"bug::vulnerability"`.
+- A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labeled as `~"type::bug"` and `~"bug::vulnerability"`.
 - Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#severity-labels) for classifying a bug as `severity::1`.
 
 #### Issue state

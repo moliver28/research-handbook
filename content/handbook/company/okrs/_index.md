@@ -1,15 +1,14 @@
 ---
 title: "Objectives and Key Results (OKRs)"
 description: "OKRs stands for Objective-Key Results and are our quarterly objectives. OKRs are how to achieve the goal of the Key Performance Indicators KPIs."
-canonical_path: "/company/okrs/"
 ---
 
 ## Most recent OKRs
 
 Our OKR process and timelines are public and listed on the pages below.
 
-- [FY25-Q1 Active](/handbook/company/okrs/fy25-q1/)
-- [FY25-Q2 Future](/handbook/company/okrs/fy25-q2/)
+- [FY25-Q2 Active](/handbook/company/okrs/fy25-q2/)
+- FY25-Q3 Future: to be shared
 - [Previous OKRs](#okr-archive)
 
 OKRs are internal-only in line with guidance from the [SAFE framework](/handbook/legal/safe-framework/).
@@ -268,7 +267,7 @@ In the event that a functional objective that is captured in GitLab needs to be 
 
 Top level Company KRs will appear in the handbook. OKRs have numbers attached to them for [ease of reference, not for ranking](/handbook/communication/#numbering-is-for-reference-not-as-a-signal). In order to maintain a [single source of truth](/handbook/product/ux/technical-writing/documentation/#documentation-is-the-single-source-of-truth-ssot) (SSoT), starting in FY24-Q1, we're putting functional objectives and KRs in GitLab and linking this to the handbook page. It also provides a SSoT for OKRs.
 
-Functional leaders are responsible for updating their objectives and KRs in GitLab before each [Key Review](/handbook/company/key-review/#automated-kpi-slides).
+Functional leaders are responsible for updating their objectives and KRs in GitLab before each [Key Review](key-review/#automated-kpi-slides).
 
 ## How to Use GitLab for OKRs
 
@@ -278,7 +277,7 @@ Watch this video for a demo on how to use GitLab for OKR management:
 
 ### Creating Objectives
 
-The objectives for the quarter are defined in the [OKR section of the handbook](/handbook/company/okrs/).
+The objectives for the quarter are defined on this page.
 To add new objectives in GitLab, follow the steps below:
 
 1. In the [GitLab OKRs project](https://gitlab.com/gitlab-com/gitlab-OKRs), navigate to OKRs by selecting **Issues** on the left sidebar.
@@ -422,7 +421,7 @@ Watch this video for a demo on how to find the OKRs you're looking for:
 
 ## Maintaining the status of OKRs
 
-Teams should update score for their key results in GitLab within the first five business days of every month and present the most recent update in the [Key Review](/handbook/company/key-review/) that immediately follows the  update. If a key result is off track, it should be clear why. The owner should leave a comment with the most recent Health Status or there should be a link to an issue, an epic, or another source for details.
+Teams should update the score for their key results in GitLab within the first five business days of every month and prior to the [Key Review](key-review/). If a key result is off track, it should be clear why. The owner should leave a comment with the most recent Health Status or there should be a link to an issue, an epic, or another source for details.
 When presenting the status of OKRs, we use the following terms to denote the status of a key result:
 
 1. On track - the DRI is confident the key result will be achieved.
@@ -431,11 +430,10 @@ When presenting the status of OKRs, we use the following terms to denote the sta
 
 An Objective/Key Results health status should be maintained as the SSOT on the status. This is something that should be able to be referenced at any point in order to get a clear view of progress against the objective. The objective owner will be responsible for designating a health status based on a roll up the health statuses of all relevant KRs.
 
-During Key Reviews, teams should include material that covers [key OKR progress  details](/handbook/company/key-review/#okr-slides) and links to relevant OKRs.
+During Key Reviews, teams should include material that covers [key OKR progress details](key-review/#okr-slides) and links to relevant OKRs.
+Each KR should have a clear scoring
 
-The first Key Review of the following quarter should offer a clear scoring for each KR.
-
-Company OKR progress will be shared in the first week of the month in the  following slack channels: [#ceo](https://gitlab.slack.com/archives/C3MAZRM8W); [#okrs](https://gitlab.slack.com/archives/C7957GG4B); [#e-group](https://gitlab.slack.com/archives/C5W3VS1C4); [#whats-happening-at-gitlab](https://gitlab.slack.com/archives/C0259241C).
+Company OKR progress that does not involve MPNI can be viewed [in the GitLab OKR project with the ~"Company OKR" label](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Company%20OKR).
 
 ## Scoring OKRs
 
@@ -479,6 +477,7 @@ To update please make a merge request and post a link to the MR in the #okrs cha
 
 ## OKR Archive
 
+- [FY25-Q1](/handbook/company/okrs/fy25-q1/)
 - [FY24-Q4](/handbook/company/okrs/fy24-q4/)
 - [FY24-Q3](/handbook/company/okrs/fy24-q3/)
 - [FY24-Q2](/handbook/company/okrs/fy24-q2/)

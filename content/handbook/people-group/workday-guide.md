@@ -56,7 +56,7 @@ Use these helpful resources for completing team member self-service tasks in Wor
 
 ## Job Title Speciality Creation/Update
 
-If you require any changes to a job title speciality or need a new job title speciality created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new) for the People Tech team to review. Select the `Workday: Job Title Speciality Request` template option. Once the job title speciality has been created, and you need changes to team members profiles in Workday, please send an email to `people-connect@gitlab.com` for assistance.
+If you require any changes to a job title speciality or need a new job title speciality created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new) for the People Tech team to review. Select the `Workday: Job Title Speciality Request` template option. Once the job title speciality has been created, and you need changes to team members profiles in Workday, please submit a Job Title Specialty request in HelpLab for assistance.
 
 ## How is Workday being implemented?
 
@@ -132,7 +132,7 @@ Modules/functionality being implemented:
 
 ## Workday support
 
-For general navigation and functionality questions, please contact [#people-connect](https://gitlab.slack.com/archives/C02360SQQFR).
+For general navigation and functionality questions, please contact the People Connect team via HelpLab.
 For report requests, or to request an enhancement or report a bug, please create an issue in the [People Technology Intake project](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/issues/new?issuable_template=intake)
 
 ## Frequently asked questions

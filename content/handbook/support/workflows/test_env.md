@@ -681,9 +681,9 @@ docker exec -it gitlab-ee gitlab-ctl reconfigure
 
 #### Resources
 
-- [https://docs.gitlab.com/omnibus/docker/](https://docs.gitlab.com/omnibus/docker/)
-- [https://docs.docker.com/machine/get-started/](https://docs.docker.com/machine/get-started/)
-- [https://docs.docker.com/machine/reference/ip/](https://docs.docker.com/machine/reference/ip/)
+- <https://docs.gitlab.com/ee/install/docker.html>
+- <https://docs.docker.com/machine/get-started/>
+- <https://docs.docker.com/machine/reference/ip/>
 
 ## Windows
 

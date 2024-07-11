@@ -3,15 +3,35 @@ title: GitLab GmbH (Germany) information & benefits
 description: GitLab GmbH (Germany) benefits and information specific to Germany-based team members.
 ---
 
-Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).
+<div class="panel panel-gitlab-orange">
+**This is a Secure Document**
+{: .panel-heading}
+<div class="panel-body">
 
-## Specific to Employees Based in Germany
+Per the stated [Roles & Responsibilities](/handbook/entity/gmbh-germany/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
+
+</div>
+</div>
+
+### Scope
+
+These standards apply to all GitLab team members hired through GitLab GmbH, which has a registered address at Elsenheimerstraße 7, München 80687, Germany.
+
+### Roles & Responsibilities
+
+| Role  | Responsibility |
+|-----------|-----------|
+| GitLab Team Members | Responsible for understanding and following the requirements in this document |
+| People, Legal, Payroll, Total Rewards, Absence | Responsible for implementing and executing this document |
+| People, Legal, Payroll, Total Rewards, Absence (Code owners) | Responsible for approving changes to this document |
+
+## Germany-Specific Team Member Benefits
 
 Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continously review our benefits design and offerings available through GitLab in Germany.
 
 Join the [#gitlab-germany channel](https://gitlab.slack.com/archives/CCLBN72TW) in Slack for questions.
 
-## Eye Exam and Glasses Reimbursement
+### Eye Exam and Glasses Reimbursement
 
 Under The Occupational Health and Saftey Act, employers must provide computer glasses when medically necessary to perform the job. If an eye exam determines that a team member needs glasses solely and exclusively for VDU (visual display unit i.e. computer screen) use, GitLab will reimburse towards the cost of a basic pair of frames and lenses (i.e. not designer frames) up to 150 Euro.
 
@@ -19,7 +39,7 @@ The team member needs to provide documentation (a prescription) from the opticia
 
 Please submit your prescription to Total Rewards for approval. Once approved, please send your receipts to expensify for reimbursement.
 
-## German Supplemental Pension Plans
+### German Supplemental Pension Plans
 
 GitLab has introduced two supplemental Pension Plans for our Germany Team Members.
 GitLab offers a **Support fund** (*effective 2023-04*, GitLab contributions only) and a **Direct Insurance Pension Plan** (*effective 2023-05*, Team Member contributions with GitLab matching up to 1% via [Allianz](https://www.allianz.de/?gclid=Cj0KCQiA-oqdBhDfARIsAO0TrGFOXdVxBxDl1GdNzweGsEGxNyDBojrXXa_aita6JwWV_fudgFJOhyAaAhspEALw_wcB&AZMEDID=SEM_SE-GG_VT-g_TH-Brand.Gold_KA-perma%7Copen%7CBrandGold_AG-Brand.Gold.Brand_KW-allianz_MT-p_AZ-334946579704_SL-keinSL_EG-Multiple&ef_id=Cj0KCQiA-oqdBhDfARIsAO0TrGFOXdVxBxDl1GdNzweGsEGxNyDBojrXXa_aita6JwWV_fudgFJOhyAaAhspEALw_wcB:G:s&s_kwcid=AL!8161!3!334946579704!p!!g!!allianz&gclsrc=aw.ds)). Please see the below "Plan Design" section for additional plan details.

@@ -68,7 +68,7 @@ We want to make our corner of the internet a little safer, but also be the best 
 
 - To report **abusive** activity, see our [Abuse on GitLab.com page]({{< ref "abuse-on-gitlab-com" >}}).
 - Copyright and Trademark infringements, see our [Intellectual Property on GitLab.com page]({{< ref "intellectual-property-on-gitlab-com" >}}).
-- Frequently Asked Questions, see our [FAQ page]({{< ref "./faq" >}}).
+- Frequently Asked Questions, see our [FAQ page](faq/).
 
 ### Working with GitLab Trust and Safety Team
 

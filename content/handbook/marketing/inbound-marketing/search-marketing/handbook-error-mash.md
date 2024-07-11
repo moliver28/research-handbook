@@ -24,20 +24,32 @@ The Search Marketing team made a series of videos showing why fixing these error
 
 ### Handbook error mash kickoff video
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QHBuAwX3pDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/QHBuAwX3pDs" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ### Fixing page titles and meta descriptions
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SOOYUiRwZik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/SOOYUiRwZik" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hcw63x5TGGk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/hcw63x5TGGk" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ### Broken links and 301 redirects
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W40ciCKtzpk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/W40ciCKtzpk" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 While you're fixing those broken links, consider [making the link text meaningful](/handbook/markdown-guide/#links) if it isn't already. This helps to improve our site's accessibility for people who use screen readers.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1K8irzpGExY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/1K8irzpGExY" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VE1gpOzyufs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/VE1gpOzyufs" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>

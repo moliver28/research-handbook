@@ -10,7 +10,7 @@ As an organization with [67+ countries and regions](/handbook/company/team/) rep
 
 ### Individual Culture vs. Company Culture
 
-An important principle in any global organization is the distinction between our cultural background vs. the GitLab company culture. A critical aspect of our recruitment process is ensuring the people we hire are aligned with our [company values]({{< ref "values" >}}).
+An important principle in any global organization is the distinction between our cultural background vs. the GitLab company culture. A critical aspect of our recruitment process is ensuring the people we hire are aligned with our [company values](/handbook/values/).
 
 Our diverse backgrounds help us live out our [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion) value, while alignment with our company values allow us to collaborate as a *team*. While maintaining respect for each team member's individual culture, GitLab culture and values should be what unites us. For many team members, some company values and the digital and [asynchronous]({{< ref "communication#internal-communication" >}}) way in which we work at GitLab may take some adjusting to during onboarding. We should support and encourage each other to [assume positive intent](/handbook/values/#assume-positive-intent) and live out our values daily!
 

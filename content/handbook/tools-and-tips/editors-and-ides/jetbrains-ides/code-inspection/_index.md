@@ -9,7 +9,7 @@ no_list: true
 
 ## Code Inspections
 
-(***If you are here to ask "What are all the `noinspection` comments in the code?", please read the ["Why are there `noinspection` comments"](./why-are-there-noinspection-comments) page for a thorough explanation.**
+(***If you are here to ask "What are all the `noinspection` comments in the code?", please read the ["Why are there `noinspection` comments"](why-are-there-noinspection-comments/) page for a thorough explanation.**
 But if you just want to learn how to use Code Inspection effectively in JetBrains, this is the page you're looking for...*)
 
 One of the nice features of JetBrains IDEs is "Inspect Code" (`Code -> Inspect Code`).

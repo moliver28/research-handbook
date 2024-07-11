@@ -62,7 +62,7 @@ Our work is mainly driven and prioritized by the following Marketing defined [Co
 
 One form of output is demo videos to help show the value GitLab can bring to customers.
 
-* Learn about our [demo creation and publishing practices](./howto/create-and-publish-demos.html)
+* Learn about our [demo creation and publishing practices](howto/create-and-publish-demos.html)
 
 ##### Updating demos
 
@@ -129,7 +129,7 @@ Each TMM is listed with their areas of primary responsibility, but all TMM's sho
 
 ## Making better videos
 
-With the internet's attention span, the more successful videos are short form. GitLab Marketing's has adjusted it's video strategy to focus on short form, educational videos. With that move we've begun to learn about how to make better videos. The ["Making better videos" page](./making_better_videos.html) covers our research and pointers we are going to do our best to follow.
+With the internet's attention span, the more successful videos are short form. GitLab Marketing's has adjusted it's video strategy to focus on short form, educational videos. With that move we've begun to learn about how to make better videos. The ["Making better videos" page](making_better_videos.html) covers our research and pointers we are going to do our best to follow.
 
 ## OKRs
 

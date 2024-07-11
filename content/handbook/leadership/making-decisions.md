@@ -8,7 +8,7 @@ On this page, we have outlined how we make decisions at GitLab.
 
 ## Making decisions
 
-GitLab's **[values]({{< ref "values" >}})** are the guiding principles for our business. They inform hiring, performance management, and promotion assessments. They also guide other decisions that we make. At times, values may be in conflict. To address this, GitLab has a [values hierarchy](/handbook/values/#hierarchy). At the top of this [hierarchy is "results"](/handbook/values/#hierarchy). While items higher in the hierarchy don't always override items lower in the hierarchy, this structure guides team members as they weigh decision making alternatives.
+GitLab's **[values](/handbook/values/)** are the guiding principles for our business. They inform hiring, performance management, and promotion assessments. They also guide other decisions that we make. At times, values may be in conflict. To address this, GitLab has a [values hierarchy](/handbook/values/#hierarchy). At the top of this [hierarchy is "results"](/handbook/values/#hierarchy). While items higher in the hierarchy don't always override items lower in the hierarchy, this structure guides team members as they weigh decision making alternatives.
 
 GitLab has a **decision making process** that avoids the short falls of [hierarchical and consensus organizations](/handbook/company/culture/all-remote/management/#separating-decision-gathering-from-decision-making). Hierarchical organizations can make decisions quickly, but aren't great at gathering data. This leads people to say "yes," but have relatively low follow through on their commitments. Consensus organizations are good at gathering data but lack decision making speed. This can lead to projects happening under the radar.
 

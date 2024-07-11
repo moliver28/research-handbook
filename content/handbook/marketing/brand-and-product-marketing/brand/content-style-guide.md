@@ -250,7 +250,7 @@ For external-facing content, spell out the month and use a comma before the year
 >
 > ✅ On November 16, 2023, we released GitLab 16.6.
 >
-> ✅ We released Gitlab 16.6 in November 2023.
+> ✅ We released GitLab 16.6 in November 2023.
 
 For internal content, use ISO format (_2023-11-16_). In content geared toward a specific region, use the format preferred in that region.
 

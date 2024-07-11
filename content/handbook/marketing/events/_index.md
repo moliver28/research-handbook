@@ -134,7 +134,7 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
 
 * Alliances/Partner Marketing involved - (if yes, must designate a DRI)
 * Will this event include use of Marketing Development Funds (MDFs)? YES/NO
-   * [Requesting MDF Funds](<a href="https://about.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/channel-marketing/#requesting-mdf-funds"</a>)
+   * [Requesting MDF Funds](<a href="https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/channel-marketing/#requesting-mdf-funds"</a>)
 
 ## Issues to be created
 
@@ -560,7 +560,7 @@ The sales nominated process allows for records to be added to the campaign in or
 - [Government Matters Technology Leaders Innovation Series: Low-to-High Collaboration (with Marc Kriz) (video)](https://www.youtube.com/watch?v=RvZSTCbPkiE&feature=youtu.be)
 - [Modernizing Government IT through DevOps (whitepaper)](https://about.gitlab.com/resources/whitepaper-modernizing-government-it/)
 - [Cross Domain DevSecOps: Low-to-High Side Collaboration](https://drive.google.com/file/d/1ewgLvmlfg3f0CVE3B6mu9wRtgK-TcORz/view)
-- [DevSecOps: How Proactive Security Integration Reduces Your Agency's Risks & Vulnerability](https://gcn.com/whitepapers/2020/06/gitlab-devsecops-wp-060120.aspx?&pc=G0136GCN&utm_source=webmktg&utm_medium=E-Mail&utm_campaign=G0136GCN)
+- [DevSecOps: How Proactive Security Integration Reduces Your Agency's Risks & Vulnerability](https://www.ncsi.com/wp-content/uploads/2021/03/GCN_DevSecOps_How-Proactive-Security-Integration-Reduces-Your-Agencies-Risks-and-Vulnerability.pdf)
 - [Hardened Containers: The Right Application Platform Can Help DoD Develop Its DevSecOps Culture](https://drive.google.com/file/d/1cszlj5fKFE12qFd4aMNij0a83v-3Fe4r/view)
 - [VPAT Template](https://docs.google.com/document/d/1o6gCe2Se_Cuia-VsrUTdGvESNZVefyoqFAu1NY8rJpQ/edit)
 - [What is GitLab? Speed. Efficiency. Trust](https://www.youtube.com/watch?v=-_CDU6NFw7U&list=PL05JrBw4t0KpEQDAhM3Txia7QHdYlngMa&index=2&t=16s)

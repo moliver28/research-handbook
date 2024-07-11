@@ -13,16 +13,25 @@ aliases:
 
 ### Team Workflow
 
-- [<i class="far fa-clipboard"></i> Team Workflow](/handbook/marketing/developer-relations/developer-advocacy/workflow/)
+#### Issue Templates
+
+- [<i class="far fa-edit"></i> New Content Issue](https://go.gitlab.com/new-content-issue)
+- [<i class="far fa-edit"></i> New Event Issue](https://go.gitlab.com/new-event-issue)
+- [<i class="far fa-edit"></i> New Activity Issue](https://go.gitlab.com/new-activity-ssue)
 - [<i class="far fa-edit"></i> CFP Issue Template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=cfp)
-- [<i class="far fa-clipboard"></i> Team General Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1565342?&label_name[]=developer-advocacy)
-- [<i class="far fa-clipboard"></i> Team Activity Type Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/3811304?label_name[]=developer-advocacy)
-- [<i class="far fa-clipboard"></i> CFP Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1616902?label_name[]=CFP)
-- [<i class="far fa-calendar-alt"></i> Team Calendar](/handbook/marketing/developer-relations/developer-advocacy/calendar)
-- [<i class="far fa-chart-line"></i> Content Effectiveness](/handbook/marketing/developer-relations/content-effectiveness/)
+
+#### Issue Boards
+
+- [<i class="far fa-clipboard"></i> Team Workflow](/handbook/marketing/developer-relations/developer-advocacy/workflow/)
+- [<i class="far fa-clipboard"></i> Content by Assignee](https://gitlab.com/groups/gitlab-com/-/boards/7577841?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy)
+- [<i class="far fa-clipboard"></i> Content by Quarter](https://gitlab.com/groups/gitlab-com/-/boards/7577857?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy)
+- [<i class="far fa-clipboard"></i> Content by Types](https://gitlab.com/groups/gitlab-com/-/boards/7577822?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy)
+- [<i class="far fa-clipboard"></i> Events](https://gitlab.com/groups/gitlab-com/-/boards/7577874?label_name[]=developer-advocacy&label_name[]=DA-Type%3A%3AEvents)
 
 ### Team Resources
 
+- [<i class="far fa-calendar-alt"></i> Team Calendar](/handbook/marketing/developer-relations/developer-advocacy/calendar)
+- [<i class="far fa-chart-line"></i> Content Effectiveness](/handbook/marketing/developer-relations/content-effectiveness/)
 - [<i class="fas fa-project-diagram"></i> Team Projects](/handbook/marketing/developer-relations/developer-advocacy/projects)
 - [<i class="fas fa-toolbox"></i> Team Tools](/handbook/marketing/developer-relations/developer-advocacy/tools/)
 - [<i class="far fa-object-group"></i> OSS Contributions](/handbook/marketing/developer-relations/developer-advocacy/#oss-contributions)
@@ -132,7 +141,7 @@ Our team regularly engages with the wider GitLab community. We do this organical
 
 The Developer Advocate team is the DRI for questions and strategy on the platforms below:
 
-<!-- This partially duplicates https://about.gitlab.com/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview - when making updates, ensure to keep it in sync. -->
+<!-- This partially duplicates https://handbook.gitlab.com/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview - when making updates, ensure to keep it in sync. -->
 
 | Platform | Description | Workflows |
 |-------------|-------------|-----------|

@@ -362,7 +362,7 @@ The partner requested that the purchase confirmation email with license/activati
 This can be actioned by either the GitLab Sales Rep or the partner:
 
 - The GitLab Sales Rep can [submit an internal support ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to request that the support team send the purchase confirmation email to the same end user contact.
-- The partner that received the Gitlab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) can [submit a support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be resent to the same end user contact.
+- The partner that received the GitLab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) can [submit a support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be resent to the same end user contact.
 
 </details>
 

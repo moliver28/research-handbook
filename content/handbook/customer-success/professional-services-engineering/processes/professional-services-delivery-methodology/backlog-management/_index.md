@@ -33,7 +33,7 @@ To reiterate some of the basic preconditions that have to be met in order to eff
 
 The Program Manager / Project Manager provides strategy and direction for the project, which means he/she is responsible for providing the vision, product roadmap, release goals, sprint goal. The Program Manager / Project Manager is expected to insert, re-prioritize, refine, or delete items from the product backlog; this can happen any time until the sprint scope is defined and committed to by the development team.
 
-![Backlog Change](./refine-backlog.png)
+![Backlog Change](refine-backlog.png)
 
 [Sizing and estimation](../good-estimation-techniques/_index.md) of the product backlog usually occurs in sprint planning meetings or at regularly intervals during ongoing sprints. Depending on how fast the Program Manager / Project Manager adds user stories, more frequent, maybe even daily estimation sessions might be needed. The GitLab Implementation Team and the Customer Development Team and Program Manager / Project Manager must work together to estimate the backlog items, may that be in sprint planning meetings or during ongoing regular sessions.
 
@@ -61,13 +61,13 @@ Many efforts require you to manage three backlogs:
 
 Labels can be used to tag user stories / issues.
 
-![Release Labels](./Release-Label.jpg){width="330" height="45"}
+![Release Labels](Release-Label.jpg){width="330" height="45"}
 
 Using such tagging lets you easily view relevant information about the specific user story and what state it is in.
 
 Usually the next upcoming sprint is sized and estimated in detail using Estimation Poker, with the following two to three sprints and their contents being sized and estimated using either Estimation Poker or T-Shirt Sizing. Remember that once a sprint is committed to by the team, the scope should not change any longer as you are "in-flight" - changing stories "in-flight" causes unnecessary context switching, which is costly in terms of productivity. Future sprints can still be adjusted and items can be reshuffled as the Product Owner and Development Team agree on.
 
-![Release Backlog](./Agile-Release-Planning-Sprint.jpg){width="767" height="518"}
+![Release Backlog](Agile-Release-Planning-Sprint.jpg){width="767" height="518"}
 
 ![Sprint Backlog](../release-and-engagement-planning/Sprint-Backlog.jpg){width="753" height="251"}
 

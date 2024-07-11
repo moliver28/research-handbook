@@ -98,12 +98,12 @@ Also, [we do not say no by-default to having existing paid features contributed 
 **Vendor Lock-In.**
 Premium features make it more difficult to switch workflows. -
 GitLab the product [plays well with others](/handbook/product/gitlab-the-product/#plays-well-with-others). As we outline,
-> Many other applications [integrate with GitLab](https://about.gitlab.com/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](https://about.gitlab.com/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/ee/user/project/integrations/project_services.html).
+> Many other applications [integrate with GitLab](https://about.gitlab.com/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](https://about.gitlab.com/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/ee/user/project/integrations/).
 > GitLab [welcomes and supports new integrations](https://about.gitlab.com/partners/technology-partners/integrate/) to be created to extend collaborations with other products. GitLab plays well with others by providing APIs for nearly anything you can do within GitLab. GitLab can be a [provider of authentication](https://docs.gitlab.com/ee/integration/oauth_provider.html) for external applications. **GitLab is open source so people are very welcome to add anything that they are missing.**
 
 **Community Is Devalued.**
 Community is seen as a marketing tool instead of as participants working to make the product better together. -
-We care deeply about our community and depend on all GitLabbers to help us improve our [category and stage maturity](https://about.gitlab.com/direction/maturity/).
+We care deeply about our community and depend on all GitLabbers to help us improve our [category and stage maturity](https://about.gitlab.com/direction/#maturity).
 We have [Merge Request Coaches](/job-families/expert/merge-request-coach/) who help contributors get their merge requests to meet the [contribution acceptance criteria](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#contribution-acceptance-criteria),
 and [wider community contributions per release](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release) is [a GitLab KPI](/handbook/company/kpis/#gitlab-kpis).
 

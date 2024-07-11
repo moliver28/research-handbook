@@ -5,9 +5,19 @@ aliases:
 - /handbook/anti-harassment/
 ---
 
+<div class="panel panel-gitlab-orange">
+**This is a Secure Document**
+{: .panel-heading}
+<div class="panel-body">
+
+Per the stated [Roles & Responsibilities](/handbook/people-group/anti-harassment/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
+
+</div>
+</div>
+
 ## Introduction
 
-Everyone at GitLab has a responsibility to prevent and stop harassment. Working remotely means that the majority of our interactions are by video call or written communication, such as email or shared documents. The exceptions to this are team summits, attending conferences together, and local team meetups. No matter the method of communication, it is expected that everyone will contribute to an inclusive and collaborative working environment and respect each other at all times. Team member behavior is not limited to internal interactions with each other.  Our Anti-harassment policy applies to GitLab team members interaction with customers, vendors and community members. Should you become aware of or witness any form of harassment or behavior that violates this policy or our [company values]({{< ref "values" >}}), please report the incident directly to the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) immediately for thorough investigation.
+Everyone at GitLab has a responsibility to prevent and stop harassment. Working remotely means that the majority of our interactions are by video call or written communication, such as email or shared documents. The exceptions to this are team summits, attending conferences together, and local team meetups. No matter the method of communication, it is expected that everyone will contribute to an inclusive and collaborative working environment and respect each other at all times. Team member behavior is not limited to internal interactions with each other.  Our Anti-harassment policy applies to GitLab team members interaction with customers, vendors and community members. Should you become aware of or witness any form of harassment or behavior that violates this policy or our [company values](/handbook/values/), please report the incident directly to the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) immediately for thorough investigation.
 
 ## Perspective
 
@@ -16,6 +26,14 @@ GitLab is a San Francisco, California-based start-up that has grown into a globa
 ## Scope
 
 This policy applies to all team members of GitLab, whether contractor or employee, in all locations. There are local labor laws in every country and in the case of the United States, state laws, that must be followed when handling, reporting and investigating incidents of harassment. The People Business Partner team and legal counsel, if required, in each of those countries will be called upon to ensure compliance and the appropriate legal processes and procedures are followed. Specific country requirements for employees (subject to changes in employment law) are listed in the [Country & US State-Specific Requirements](#country--us-state-specific-requirements) section and will be updated regularly. All individual contributors, managers, and leaders will be subject to disciplinary action, up to and including termination, for any act of harassment they commit.
+
+## Roles and Responsibilities
+
+| Role | Responsibility |
+|-----------|-----------|
+| GitLab Team Members | Responsible for following the requirements in these policies |
+| People Ops | Responsible for implementing and executing these policies |
+| Legal & People Ops Management (Code Owners) | Responsible for approving significant changes and exceptions to these policies |
 
 ## Types of Harassment
 

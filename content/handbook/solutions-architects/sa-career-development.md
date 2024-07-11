@@ -1,9 +1,9 @@
 ---
-aliases: /handbook/solutions-architects/career-development
 title: SA Career Development
 description: >-
   For career development Solution Architects can choose between an individual
   contributor or leadership track
+aliases: /handbook/solutions-architects/career-development/
 ---
 
 ## Career Development
@@ -16,8 +16,6 @@ Solutions Architecture team members you should review the [GitLab People Group C
 
 Because of the valuable experience and skills gained while driving customer outcomes, Solutions Architects can move to a variety of technical, sales and leadership roles in GitLab and across industries.
 The diagram below can help you exploring potential evolutions of your career development.
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FGbJpPTw3N06rIoDk93HQG9%2FSA-Career-Path%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DpWZgSrpSxzLS5CDh-1" allowfullscreen></iframe>
 
 While maturing a decision or assessing options, the below steps can help you throughout the process:
 

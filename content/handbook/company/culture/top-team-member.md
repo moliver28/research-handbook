@@ -7,7 +7,7 @@ Note: Top team member awards as of 2018 are no longer in practice.
 
 ## Top Team Member
 
-A Top Team Member (T2M) exemplifies the [GitLab Values]({{< ref "values" >}}) beyond of the [team of people]({{< ref "structure" >}}) they directly work with.
+A Top Team Member (T2M) exemplifies the [GitLab Values](/handbook/values/) beyond of the [team of people](/handbook/company/structure/) they directly work with.
 You can only be nominated by a manager who you don't report to because this award recognizes cross-functional collaboration.
 
 ### July 2017 Top Team Member

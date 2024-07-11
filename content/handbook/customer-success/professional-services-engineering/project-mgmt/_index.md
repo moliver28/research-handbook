@@ -3,7 +3,7 @@ title: "Professional Services Project Management"
 description: "Learn about the processes that the GitLab Project Management team uses to deliver successful engagements with Customers."
 ---
 
-Customer success = GitLab product implementation, on time, on budget delivery of agreed upon scope, faster time to value that leads to satisfied customers that see the added value of Gitlab products and PS
+Customer success = GitLab product implementation, on time, on budget delivery of agreed upon scope, faster time to value that leads to satisfied customers that see the added value of GitLab products and PS
 
 ![<PS Delivery Customer Journey Flow - Page 1 (10).png>](<PS Delivery Customer Journey Flow - Page 1 (11).png>)
 
@@ -52,7 +52,7 @@ Given the close collaboration between the PS Project Management and PS Operation
 ##### PS/PMO Cadence Schedule
 
 * Pinned to the ps_pmo Slack channel
-* The purpose of this reference is to understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the Gitlab organization
+* The purpose of this reference is to understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the GitLab organization
 
 ##### Kantata
 
@@ -142,7 +142,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 
 ### Deliver, Train, and Monitor
 
-Please reference the [PSDM (Professional Services Delivery Methodology)](/content/handbook/customer-success/professional-services-engineering/process/psdm)
+Please reference the [PSDM (Professional Services Delivery Methodology)](../processes/_index.md) page for more information.
 
 *this also includes information on how we track/report on risk and escalated projects (via RAID), internal retrospective guidelines, tracking lessons learned, and capturing Customer and Project wins
 

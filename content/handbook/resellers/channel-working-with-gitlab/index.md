@@ -336,7 +336,7 @@ GitLab NFR licenses expire after a 12-month subscription period, unless they are
 
 The GitLab Not-for-Resale (NFR) Program offers qualified GitLab Partners access to our solutions at no cost. The NFR Program provides Partners with an opportunity to develop greater expertise on the GitLab platform. We encourage all GitLab Partners to participate in the program and set up GitLab solutions. Consider using your environment to create integrations with GitLab Alliance Solution Partners. This way your staff can fully understand the benefits and features of GitLab products and be better prepared to demonstrate products to customers.
 
-Request your license by logging in to the [Partner Portal](https://www.partners.gitlab.com/); click the "Services" tab and the NFR Request form will be the first Quick Link. Please allow two (2) business days for processing your request.
+Request your license by logging in to the [Partner Portal](https://partners.gitlab.com/); click the "Services" tab and the NFR Request form will be the first Quick Link. Please allow two (2) business days for processing your request.
 
 - Partners can receive one Self-Managed and one Software-as-a-Service (SaaS) NFR license at the Ultimate level for a 12-month period.
   - Select Partners can request a license for up to 25 users. Additional licenses may be available with business justification.
@@ -409,7 +409,7 @@ GitLab is building out a global Authorized Distributor network similar to many o
   - Offer an array of financing options including the ability for our partners/customers to transact in local currency, which reduces their risk
 - Extend GitLab technical services, training capacity, and coverage, both pre and post-sale
 
-https://about.gitlab.com/handbook/sales/field-operations/channel-operations/#transacting-through-distribution
+https://handbook.gitlab.com/handbook/sales/field-operations/channel-operations/#transacting-through-distribution
 
 ## Contact Us
 

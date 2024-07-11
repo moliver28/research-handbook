@@ -14,7 +14,7 @@ This page aims to help the ISR/SAE understand the services that certain types of
 
 ## Value of GitLab Professional Services
 
-![Professional Services Value](./ps-value.png)
+![Professional Services Value](ps-value.png)
 
 <!-- ### Elevator Pitch
 

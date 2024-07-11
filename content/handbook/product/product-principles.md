@@ -154,7 +154,7 @@ since they may have important user perspectives around your categories.
 
 We have achieved many successes following this approach:
 
-- [Code Quality](https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html) in CI/CD pipelines by embedding [CodeClimate](https://codeclimate.com/)
+- [Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html) in CI/CD pipelines by embedding [CodeClimate](https://codeclimate.com/)
 - [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html) by using the [Unleash](https://github.com/Unleash/unleash) client library
 - [Mobile publishing](https://about.gitlab.com/blog/2019/03/06/ios-publishing-with-gitlab-and-fastlane/) by writing about how to utilize [FastLane](https://fastlane.tools/) with GitLab
 
@@ -653,7 +653,7 @@ For more guidance on the feature naming process, see [naming features](/handbook
 ### Next Generation
 
 While our [big, hairy, audacious goal](https://www.jimcollins.com/concepts/bhag.html) spans all development processes, personas, and use-cases, there are primary targets in each one of these venues.
-When considering prioritization we should first aim to provide complete [maturity](https://about.gitlab.com/direction/maturity/) for developers building cloud native applications in a modern way prior to moving to other development methodologies, personas, and application types.
+When considering prioritization we should first aim to provide complete [maturity](https://about.gitlab.com/direction/#maturity) for developers building cloud native applications in a modern way prior to moving to other development methodologies, personas, and application types.
 
 #### Modern first
 

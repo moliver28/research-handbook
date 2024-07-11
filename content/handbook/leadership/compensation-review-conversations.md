@@ -16,7 +16,7 @@ Please make sure to review and understand the following content with regards to 
 - [LevelUp Training: GitLab Total Rewards Compensation Fundamentals](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/total-rewards-compensation-fundamentals-training)
 - [Compensation Calculator](https://comp-calculator.gitlab.net/users/sign_in)
 - [Annual Compensation Review Cycle](/handbook/total-rewards/compensation/compensation-review-cycle/#determining-cash-compensation-increases)
-- [Equity Refresh Program](https://about.gitlab.com/handbook/total-rewards/stock-options/)
+- [Equity Refresh Program](/handbook/total-rewards/stock-options/)
 - [Talent Assessment at GitLab](/handbook/people-group/talent-assessment/)
 
 ## Total Compensation Statements

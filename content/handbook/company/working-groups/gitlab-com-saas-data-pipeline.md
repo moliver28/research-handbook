@@ -22,7 +22,7 @@ Provide reliable, stable, scalable and secure data feed for reporting and analyt
 
 Implement a data pipeline that captures `create`, `update` and `delete` operations and stores them in the GitLab Data platform to be available for further processing and analytics.
 
-![High Level Design](./HLD.png)
+![High Level Design](HLD.png)
 
 ## Exit Criteria
 

@@ -107,11 +107,11 @@ chat channel for questions that don't seem appropriate to use the issue tracker
 for.
 - [Geo YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoY_6FXXVgj7wPE9ZDS4cOw)
 - [Product Support Requests](/handbook/product/product-processes/#product-support-requests)
-- [Geo on staging.gitlab.com](./staging.html)
+- [Geo on staging.gitlab.com](staging.html)
 
 ## Planning and Process
 
-Our planning and build process is recorded on the [process page](./process.html).
+Our planning and build process is recorded on the [process page](process.html).
 
 ## Demos
 

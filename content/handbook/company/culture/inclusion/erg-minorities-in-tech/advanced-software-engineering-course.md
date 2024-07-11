@@ -3,7 +3,7 @@ title: Advanced Software Engineering Course - Morehouse College
 description: "Diversity, Inclusion and Belongingare fundamental to the success of GitLab and the collaboration with Morehouse College, an HBCU, is an example of GitLab living our values."
 ---
 
-Diversity, Inclusion and Belonging ([DIB]({{< ref "inclusion" >}})) are fundamental to the success of GitLab and the collaboration with [Morehouse College](https://www.morehouse.edu), an [HBCU](https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities), is an example of GitLab living our values. The Engineering organization has developed a curriculum that provides a holistic education for Computer Science students. This course will teach students about:
+Diversity, Inclusion and Belonging ([DIB](/handbook/company/culture/inclusion/)) are fundamental to the success of GitLab and the collaboration with [Morehouse College](https://www.morehouse.edu), an [HBCU](https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities), is an example of GitLab living our values. The Engineering organization has developed a curriculum that provides a holistic education for Computer Science students. This course will teach students about:
 
 - Software Development Tools
 - Real-world Software Development Roles & Responsibilities

@@ -72,4 +72,4 @@ The program will have four phases:
 1. Program launch
 1. Program conclusion/End of the Program Showcase
 
-[Learn More about the mentorship program's structure.]({{< ref "./program-structure" >}})
+[Learn More about the mentorship program's structure.](program-structure/)

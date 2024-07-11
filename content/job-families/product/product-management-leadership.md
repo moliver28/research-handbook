@@ -166,7 +166,7 @@ The Director, Product Management is a [grade 10](/handbook/total-rewards/compens
 - Ensure adequate Career Coaching is available to all Product Managers in your organization
 - Maintain a comprehensive understanding of GitLab's overall, and Section specific Product Direction to spot, propose and complete appropriate [global optimizations](/handbook/values/#global-optimization) of our R&D investment
 - Analyze GTM metrics and propose and complete improvements to our R&D and GTM interactions including [pricing](/handbook/company/pricing/), product positioning and process
-- Maintain priorities for and champion [acquisitions](/handbook/acquisitions/) that impact our [product maturity](https://about.gitlab.com/direction/maturity/)
+- Maintain priorities for and champion [acquisitions](/handbook/acquisitions/) that impact our [product maturity](https://about.gitlab.com/direction/#maturity)
 - Perform [product walk-throughs](/handbook/product/product-processes/#walk-through) regularly to highlight opportunities for improved workflows that span groups, stages and section.
 - Exemplify, coach others on, and contribute to [GitLab values](/handbook/values/)
 - Drive cross-functional, high impact business workstreams outside of the direct area of ownership

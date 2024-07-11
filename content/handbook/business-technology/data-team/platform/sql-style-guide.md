@@ -3,8 +3,6 @@ title: "SQL Style Guide"
 description: "A set of conventions and guidelines for writing SQL at GitLab"
 ---
 
----
-
 ## SQL Style Guide
 
 This guide establishes our standards for SQL and are enforced by the SQLFluff linter and by code review. The target code changes that this stile guide apply to are those made using dbt.
@@ -63,7 +61,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
 - Do not optimize for fewer lines of code, new lines are cheap but [brain time is expensive](https://blog.getdbt.com/write-better-sql-a-defense-of-group-by-1/).
 
-- Familiarize yourself with [the DRY Principal](https://docs.getdbt.com/docs/design-patterns). Leverage CTEs, jinja and macros in dbt, and snippets in Sisense. If you type the same line twice, it needs to be maintained in two places.
+- Familiarize yourself with [the DRY Principal](https://docs.getdbt.com/terms/dry). Leverage CTEs, jinja and macros in dbt, and snippets in Sisense. If you type the same line twice, it needs to be maintained in two places.
 
 - Be consistent. Even if you are not sure of the best way to do something do it the same way throughout your code, it will be easier to read and make changes if they are needed.
 

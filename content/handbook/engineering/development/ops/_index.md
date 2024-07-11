@@ -387,7 +387,7 @@ and would benefit from additional visibility, please post a link with a short de
 
 ### Supporting Customers on Dedicated instances
 
-When teams are asked to triage support requests for customers on GitLab Dedicated and engineers need access to their logs, a sync can be arranged between the engineer and the assigned Support Engineer for a screensharing session.
+When teams are asked to triage support requests for customers on GitLab Dedicated and engineers need access to their logs, a sync can be arranged between the engineer and the assigned Support Engineer for a screen sharing session.
 However, when further troubleshooting is needed by the engineering team or async collaboration is preferred, follow these steps to request access:
 
 1. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) (AR) and list the engineers who require access.  (Note that EMs can create this issue and provide `Manager Approval` on behalf of the engineers)

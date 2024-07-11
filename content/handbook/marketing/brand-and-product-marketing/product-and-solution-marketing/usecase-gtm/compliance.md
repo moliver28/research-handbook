@@ -155,7 +155,7 @@ Note: The Free tier does not include providing these results in vulnerability re
 **Key Compliance features with Ultimate:**
 
 - [Compliant workflows and Compliant pipelines](https://docs.gitlab.com/ee/user/project/settings/index.html#compliance-pipeline-configuration) - projects are assigned a compliance framework and policies are enforced accordingly. This is a key capability for winning compliance opportunities!
-- [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard/index.html) - See if merge requests were approved, and by whom.
+- [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_center/) - See if merge requests were approved, and by whom.
 - Fuzz testing, called out by the 2021 US Executive Order to Improve Cybersecurity
 - [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html) - identify the presence of new software licenses included in your project and track project dependencies. Approve or deny the inclusion of a specific license.
 
@@ -342,7 +342,7 @@ The following will link to enablement and training videos and content.
 
 GitLab offers a [variety of pre-packaged and custom services](https://about.gitlab.com/services/) for our customers and partners. The following are service offers specific to this solution. For additional services, see the [full service catalog](https://about.gitlab.com/services/catalog/).
 
-- [DevOps Fundamentals Training](https://about.gitlab.com/services/education/devops-fundamentals/) (all stages of the DevOps lifecycle)
+- [DevOps Fundamentals Training](https://university.gitlab.com/courses/gitlab-devops-fundamentals) (all stages of the DevOps lifecycle)
 - [GitLab CI/CD Training](https://about.gitlab.com/services/education/gitlab-ci/)
 - [Integration Services](https://about.gitlab.com/services/implementation/integration/ )
 

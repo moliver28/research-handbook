@@ -149,7 +149,7 @@ OR, Skip to the topics of interest to you:
 
 Support Engineers with verified US Citizenship may join the GitLab US Government Support Team. This group works through the [US Government Support portal](https://about.gitlab.com/support/us-government-support/) to collaborate with Public Sector organizations and United States Government agencies in order to support, maintain, and resolve issues in their GitLab environments.
 
-There are a number of challenges that are unique when it comes to supporting the customer environments that an engineer may encounter in the US Government space. Some of those challenges may include highly sanitized and redacted troubleshooting information, inability to screenshare or provide screenshots, etc. You can learn more about working on tickets in the US Government Support portal [here](/handbook/support/workflows/usgovernment_tickets/). If you look forward to the aforementioned challenges and meet the requirements for US Government Support, apply today!
+There are a number of challenges that are unique when it comes to supporting the customer environments that an engineer may encounter in the US Government space. Some of those challenges may include highly sanitized and redacted troubleshooting information, inability to screen share or provide screenshots, etc. You can learn more about working on tickets in the US Government Support portal [here](/handbook/support/workflows/usgovernment_tickets/). If you look forward to the aforementioned challenges and meet the requirements for US Government Support, apply today!
 
 ### Support Engineer (Shift)
 

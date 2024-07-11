@@ -365,7 +365,7 @@ Our planning timeline follows the [GitLab Product Development timeline](/handboo
 
 Engineers are expected to allocate approximately 6 hours each milestone to refine and weight issues on the [`~needs weight` board](https://gitlab.com/groups/gitlab-org/-/boards/4178322).
 
-The purpose of refining an issue is to ensure the problem statement is clear enough to provide a rough effort sizing estimate; the intention is not to provide **solution validation** during refinement. When refining issues, engineers should timebox the activity to no more than 2 hours per issue. If an issue is complex and will require more research, we should track that effort in a refinement "~spike" to ensure we account for it in milestone planning. The "~spike" should be linked as blocking the original issue and outline the outcomes expected and a timebox for the effort should be specified. The original issue should be labelled as "~workflow::blocked".
+The purpose of refining an issue is to ensure the problem statement is clear enough to provide a rough effort sizing estimate; the intention is not to provide **solution validation** during refinement. When refining issues, engineers should timebox the activity to no more than 2 hours per issue. If an issue is complex and will require more research, we should track that effort in a refinement "~spike" to ensure we account for it in milestone planning. The "~spike" should be linked as blocking the original issue and outline the outcomes expected and a timebox for the effort should be specified. The original issue should be labeled as "~workflow::blocked".
 
 Engineering uses the [following handbook guidance for determining weights](#weighting-issues). If any issue needs any additional `~frontend ~backend ~Quality ~UX ~documentation` reviews, they are assigned to the respective individual(s).
 
@@ -400,7 +400,7 @@ Engineers will:
 Because we should not be spending more than 2 hours per issue, we should re-evaluate if more time is needed or if a spike is required based on
 
 1. If the issue is still reproducible on Gitlab.com. If the cause is not obvious, a good first step is to ask the author for clarifications.
-1. If Support engagement is present in the issue. We can tell if the issue is created by a Gitlab team member or if it has the ~customer label.
+1. If Support engagement is present in the issue. We can tell if the issue is created by a GitLab team member or if it has the ~customer label.
 1. If the issue is on Gitlab.com or if it's on a self-managed instance. If this only affects self-managed instance, we can ask for request for help issue instead.
 1. The scope and affect of the issue. If it's only affecting one customer or if it's present for multiple customers
 
@@ -463,7 +463,7 @@ At any point, if an issue becomes blocked, it would be in the `workflow::blocked
 
 `workflow::ready for development` means that an issue has been sufficiently [refined and weighted by Engineering](#how-engineering-refines-issues). Issues in this state that are labeled `cicd::active` are ones that should be worked on in a milestone. When a developer starts working on an issue they should [set the milestone](#setting-the-milestone) to that of the one where the issue will most likely be completed, rather than the one where it is started.
 
-`workflow::awaiting security release` is applied by an engineer after the security issue has passed verification and this label signals that it is ready for production but awaiting the next [monthly security release](https://about.gitlab.com/handbook/engineering/releases/security-releases/). When this label is applied, the issue's milestone should also be updated to the next milestone to align with when the next security release will happen.
+`workflow::awaiting security release` is applied by an engineer after the security issue has passed verification and this label signals that it is ready for production but awaiting the next [monthly security release](/handbook/engineering/releases/security-releases/). When this label is applied, the issue's milestone should also be updated to the next milestone to align with when the next security release will happen.
 
 `workflow::feature-flagged` is applied to an issue that is being enabled through a separate feature flag rollout issue. Once the feature is validated the status is moved to `workflow::complete` and the issue is closed.
 
@@ -477,7 +477,7 @@ More detail on the workflow is available on the [Product-Development Flow](/hand
 
 We use a series of labels to indicate the highest priority issues in the milestone.
 
-1. The highest priorities for a given milestone would be issues labelled with `Verify::P1`, `Deliverable`, and `group::pipeline execution` to align with the Theme and Goals of the milestone.
+1. The highest priorities for a given milestone would be issues labeled with `Verify::P1`, `Deliverable`, and `group::pipeline execution` to align with the Theme and Goals of the milestone.
 1. Each milestone will start with 1 issue per engineer, which will be labeled as `Verify::P1`, `Deliverable`, and `group::pipeline execution`. This should account for approximately 30% of the average total milestone weight.
 1. Once all of the `Verify::P1` issues have been picked up and are in `workflow:in dev` or beyond, we have `Verify::P2` and `Verify::P3` to signal issues that are important and will likely become `Verify::P1` issues in later milestones.
 

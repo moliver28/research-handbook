@@ -22,10 +22,11 @@ If you choose to, you can learn even more about the infrastructure department an
 
 [Infrastructure at GitLab](/handbook/engineering/infrastructure/)
 
-- [Reliability Engineering](/handbook/engineering/infrastructure/team/reliability/)
-- [Delivery Group](/handbook/engineering/infrastructure/team/delivery/): [Orchestration](/handbook/engineering/infrastructure/team/delivery/#deliveryorchestration) and [System](/handbook/engineering/infrastructure/team/delivery/#deliverysystem)
-- [Scalability Group](/handbook/engineering/infrastructure/team/scalability/): [Frameworks](/handbook/engineering/infrastructure/team/scalability/frameworks.html) and [Projections](/handbook/engineering/infrastructure/team/scalability/projections.html)
-- [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/): Environment Automation, US Public Sector Services and Switchboard
+- [SaaS Platforms](/handbook/engineering/infrastructure/team/platforms/)
+  - [Delivery Group](/handbook/engineering/infrastructure/team/delivery/)
+  - [Scalability Group](/handbook/engineering/infrastructure/team/scalability/)
+  - [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/)
+  - Production Engineering group with [Ops](/handbook/engineering/infrastructure/team/ops/) and [Foundations](/handbook/engineering/infrastructure/team/foundations/)
 
 A well-written resume or a detailed LinkedIn profile will increase your chances to be selected for this role. Read the requirements carefully and make sure that some of those specific areas are outlined in your resume/LinkedIn profile. In Infrastructure Engineering, we especially pay attention to your experience/knowledge of:
 
@@ -41,7 +42,7 @@ It is important to us to create an accessible and inclusive interview experience
 
 Now it's time to get excited! Here are some links that might help you understand our company and the role even better:
 
-- [Values]({{< ref "values" >}})
+- [Values](/handbook/values/)
 - [GitLab Company Culture](/handbook/company/culture/)
 - [Informal Communication in an all-remote environment](/handbook/company/culture/all-remote/informal-communication/)
 - [Incident Management](/handbook/engineering/infrastructure/incident-management/)

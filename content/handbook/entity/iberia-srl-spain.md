@@ -1,8 +1,17 @@
 ---
 title: "GitLab Iberia s.r.l. (Spain) Information and Benefits"
 description: "Entitity Information for GitLab Iberia s.r.l. Spain Team Members"
-controlled_document: true
 ---
+
+<div class="panel panel-gitlab-orange">
+**This is a Secure Document**
+{: .panel-heading}
+<div class="panel-body">
+
+Per the stated [Roles & Responsibilities](/handbook/entity/iberia-srl-spain/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
+
+</div>
+</div>
 
 Bienvenido! This Handbook is for team members employed by GitLab Iberia s.r.l and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
 
@@ -16,7 +25,7 @@ These standards apply to all GitLab team members hired through GitLab Iberia s.r
 |-----------|-----------|
 | GitLab Team Members | Responsible for understanding and following the requirements in this document |
 | People, Legal, Payroll, Total Rewards, Absence | Responsible for implementing and executing this document |
-| People, Legal, Payroll, Total Rewards, Absence (Code Owners) | Responsible for approving changes to this document |
+| People, Legal, Payroll, Total Rewards, Absence (Code owners) | Responsible for approving changes to this document |
 
 ## Employment Contracts
 

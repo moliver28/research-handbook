@@ -98,11 +98,11 @@ In addition to incident management responsibilities, the EOC also is responsible
 
 ## Test Platform Team On-Call Rotation
 
-- Test Platform sub-department's on-call do not include work outside GitLab's normal business hours. The process is defined on our [pipeline on-call rotation](https://about.gitlab.com/engineering/infrastructure/test-platform/oncall-rotation) page.
+- Test Platform sub-department's on-call do not include work outside GitLab's normal business hours. The process is defined on our [pipeline on-call rotation](/handbook/engineering/infrastructure/test-platform/oncall-rotation) page.
 - The rotation is on a weekly basis across 3 timezones (APAC, EMEA, AMER) and triage activities happen during each team member's working hours.
 - This on-call rotation is to ensure accurate and stable test pipeline results that directly affects our continuous release process.
-- The list of pipelines which are monitored are defined on our [pipeline](https://about.gitlab.com/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) page.
-- The schedule and roster is defined on our [schedule](https://about.gitlab.com/engineering/infrastructure/test-platform/oncall-rotation/#schedule) page.
+- The list of pipelines which are monitored are defined on our [pipeline](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) page.
+- The schedule and roster is defined on our [schedule](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) page.
 
 ## PagerDuty
 

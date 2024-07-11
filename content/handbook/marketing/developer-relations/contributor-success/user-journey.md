@@ -148,8 +148,8 @@ flowchart TB
         id2_box3("Community Pairing")
         id2_box4("Hackathons")
 
-        click id2_box2 "https://about.gitlab.com/handbook/marketing/developer-relations/contributor-success/#community-office-hours"
-        click id2_box3 "https://about.gitlab.com/handbook/marketing/developer-relations/contributor-success/community-pairing-sessions.html"
+        click id2_box2 "https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success/#community-office-hours"
+        click id2_box3 "https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success/community-pairing-sessions.html"
         click id2_box4 "https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats"
         click id2_box5 "https://about.gitlab.com/community/hackathon/"
 
@@ -160,7 +160,7 @@ flowchart TB
         id3_box2("GitLab Handbook")
 
         click id3_box1 "https://docs.gitlab.com/ee/tutorials/"
-        click id3_box2 "https://about.gitlab.com/handbook/"
+        click id3_box2 "https://handbook.gitlab.com/handbook/"
     end
 
 %% Root level mappings

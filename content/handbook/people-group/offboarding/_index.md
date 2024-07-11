@@ -193,13 +193,8 @@ To ensure a successful completion of the offboarding issue, it is important that
 
 ## GitLab Alumni Program
 
-Voluntary exits that are eligible to be rehired will be added to the Slack channel `#gitlab-alumni`. The offboarding details provided by the Manager in Workday is how eligibility is determined and later shared with IT.
-
-Reasons that someone would not be permitted to join would be:
-
-1. Due to involuntary offboarding for extreme behavior or a violation of our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d).
-1. Underperformance or other causes for involuntary offboarding are not a reason to exclude someone from the alumni program.
-1. Team members who are not eligible for rehire.
+All voluntary exits are eligible to be added to the Slack channel `#gitlab-alumni`, unless otherwise noted. Involuntary exits are not eligible for the alumni channel, unless otherwise noted by Team Member Relations.
+The offboarding details provided by the terminatino transaction in Workday is how eligibility is determined and later shared with IT.
 
 The purpose of this channel is to network and socialize with team members.
 
@@ -207,10 +202,6 @@ Joining the channel is voluntary and subject to GitLab's [Code of Conduct](https
 
 GitLab, the company, monitors the channel and can remove people from it at their sole discretion.
 The GitLab [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) is enforced in the channel.
-
-### Process for Team Members Outside of the US
-
-*To be documented*
 
 ## Communicating Departures
 

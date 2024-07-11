@@ -1,6 +1,5 @@
 ---
 title: "Network Security Management Procedure"
-controlled_document: true
 ---
 
 ## Purpose

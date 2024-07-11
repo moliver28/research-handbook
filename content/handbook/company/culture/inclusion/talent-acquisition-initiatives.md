@@ -3,8 +3,8 @@ title: "Talent Acquisition Initiatives"
 description: "Learn more about GitLab Diversity, Inclusion & Belonging Talent Acquisition Initiatives."
 ---
 
-At GitLab, Diversity, Inclusion & Belonging is infused into our company culture, from our [values]({{< ref "values" >}}) to our [all-remote way of working]({{< ref "all-remote" >}}).
-The GitLab Talent Acquisition team partners closely with our [Diversity, Inclusion & Belonging]({{< ref "inclusion" >}}) team to ensure we're building a diverse and inclusive workforce around the globe as the company continues to grow.
+At GitLab, Diversity, Inclusion & Belonging is infused into our company culture, from our [values](/handbook/values/) to our [all-remote way of working](/handbook/company/culture/all-remote/).
+The GitLab Talent Acquisition team partners closely with our [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) team to ensure we're building a diverse and inclusive workforce around the globe as the company continues to grow.
 
 ## Talent Brand Initiatives
 
@@ -66,4 +66,4 @@ If you don't have dates (employment period, graduation year, etc.) on your resum
 
 ## Return to the Main Diversity, Inclusion & Belonging Page
 
-For a full overview of GitLab's diversity, inclusion and belonging initiatives, please [return to the main page.]({{< ref "inclusion" >}})
+For a full overview of GitLab's diversity, inclusion and belonging initiatives, please [return to the main page.](/handbook/company/culture/inclusion/)

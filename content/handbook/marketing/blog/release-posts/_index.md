@@ -9,10 +9,6 @@ Release posts are [blog posts](https://about.gitlab.com/releases/categories/rele
 
 Release posts follow a process outlined here, and the templates that are used to create them also highlight what needs to be done, by whom, and when those items are due.
 
-{{% note %}}
-We're evolving our release post process! You can view and share feedback on the latest direction by viewing [Scaling the release post](https://docs.google.com/presentation/d/1_Osx3FrDxT4aqjl-Kc9QXgp30z0Pl1k4tBCv0DlZYkk/edit).
-{{% /note %}}
-
 ## Quick Links
 
 - [Frequently used templates](/handbook/marketing/blog/release-posts/#templates)
@@ -893,7 +889,7 @@ features:
   primary:
     - name: "Do great things with this feature"
       available_in: [core, premium, ultimate]
-      documentation_link: 'https://docs.gitlab.com/ee/ci/multi_project_pipelines.html#multi-project-pipeline-visualization-premium'
+      documentation_link: 'https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#multi-project-pipelines#multi-project-pipeline-visualization-premium'
       image_url: '/images/topics/multi-project_pipelines.png'
       reporter: bikebilly
       stage: secure

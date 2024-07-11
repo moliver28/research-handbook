@@ -1,6 +1,5 @@
 ---
 title: Global Travel and Expense Policy
-controlled_document: true
 ---
 
 ## 1. POLICY

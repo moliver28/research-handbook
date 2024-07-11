@@ -56,8 +56,8 @@ Key results we'd like to achieve within the scope of the working group to ensure
 | Table Partitioning | A table that contains a part of the data of a partitioned table (horizontal slice). ([source](https://www.postgresql.org/docs/12/ddl-partitioning.html))| Partition | |
 | Dataset | A set of tables and their contained data that is contained within a logical database. | | The Secure/Govern Dataset includes all tables related to GitLab's security features, including but not limited to vulnerability and dependency tracking. |
 | Featureset | A set of features associated with some kind of concept within GitLab for ease of reference. | | Core, Secure/Govern |
-| Core | Referred to in terms of Dataset or Featureset, this is information of functionality related to standard Gitlab operations, such as Projects, Namespaces, Users and others.  | | |
-| Secure/Govern | Referred to in terms of Dataset or Featureset, this is information of functionality related to standard Gitlab operations, such as Vulnerabilities, Dependencies (SBOM), Security Findings, Policies and more. | | |
+| Core | Referred to in terms of Dataset or Featureset, this is information of functionality related to standard GitLab operations, such as Projects, Namespaces, Users and others.  | | |
+| Secure/Govern | Referred to in terms of Dataset or Featureset, this is information of functionality related to standard GitLab operations, such as Vulnerabilities, Dependencies (SBOM), Security Findings, Policies and more. | | |
 
 ### Overview
 
@@ -86,7 +86,7 @@ We have the benefit of being able to lean heavily on the prior art and experienc
 
 ### Interdependencies
 
-Secure/Govern Data has a high degree of integration with CI and standard GitLab data, such as Users, Projects and Namespaces. The past CI decomposition has succesfully delinked query interdependency of the associated CI dataset, however, significant effort will be necessary to do the same between the core Gitlab dataset and Govern/Secure functionality.
+Secure/Govern Data has a high degree of integration with CI and standard GitLab data, such as Users, Projects and Namespaces. The past CI decomposition has succesfully delinked query interdependency of the associated CI dataset, however, significant effort will be necessary to do the same between the core GitLab dataset and Govern/Secure functionality.
 
 ### Timeline
 

@@ -162,8 +162,8 @@ Top questions from suddenly or newly-remote companies
    <li>How do we <a href="https://about.gitlab.com/company/culture/all-remote/informal-communication/">maintain and build new work relationships</a> without seeing each other in-person on a regular basis?</li>
    <li>How do we <a href="https://about.gitlab.com/company/culture/all-remote/mental-health/">prevent burnout, isolation, and mental health crises</a>?</li>
    <li>How do we <a href="https://about.gitlab.com/company/culture/all-remote/meetings/">combat Zoom fatigue</a> (e.g. exhaustion associated with nonstop videocalls)?</li>
-   <li>How we do handle <a href="https://about.gitlab.com/handbook/total-rewards/compensation/">compensation changes</a> if people permanently relocate to work remotely?</li>
-   <li>How do we ensure that <a href="https://about.gitlab.com/handbook/leadership/">employees are productive</a> when we cannot physically see them?</li>
+   <li>How we do handle <a href="https://handbook.gitlab.com/handbook/total-rewards/compensation/">compensation changes</a> if people permanently relocate to work remotely?</li>
+   <li>How do we ensure that <a href="https://handbook.gitlab.com/handbook/leadership/">employees are productive</a> when we cannot physically see them?</li>
    <li>How does one <a href="https://about.gitlab.com/company/culture/all-remote/being-a-great-remote-manager/">become a great remote manager</a>?</li>
    <li>How do you <a href="https://www.coursera.org/learn/remote-team-management">effectively lead remote teams</a>?</li>
    <li>How do you <a href="https://about.gitlab.com/company/culture/all-remote/onboarding/">onboard</a> and <a href="https://about.gitlab.com/company/culture/all-remote/learning-and-development/">train/educate</a> remotely?</li>

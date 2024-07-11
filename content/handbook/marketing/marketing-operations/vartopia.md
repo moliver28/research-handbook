@@ -312,7 +312,7 @@ This is not an MDF campaign, as referenced in the name, it's a value-added where
 1. Setup Allocadia
     1. Create a subcategory and line item
     1. Update `Worked by Sales Dev` to `True` on the subcategory (required)
-    1. Open GitLab epic and issues using the GitLab issue - Allocadia integration. The Gitlab epic and issues will include an issue template called, [Partner Sales Campaign - BDR Collaboration Template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Partner_Sales_BDR_Collaboration_Template.md?ref_type=heads). The purpose of this issue is to communicate how the Sales Dev team is expected to follow up with the campaign.
+    1. Open GitLab epic and issues using the GitLab issue - Allocadia integration. The GitLab epic and issues will include an issue template called, [Partner Sales Campaign - BDR Collaboration Template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Partner_Sales_BDR_Collaboration_Template.md?ref_type=heads). The purpose of this issue is to communicate how the Sales Dev team is expected to follow up with the campaign.
        1. Tag the Public Sector Business Development & AMER SDR on the Partner Sales Campaign BDR issue for visibility.
 1. Follow the [instructions](/handbook/marketing/channel-marketing/partner-campaigns/#partner-campaigns) to setup Marketo Program and SFDC Campaign.
    1. Setup in Marketo

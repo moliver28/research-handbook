@@ -269,12 +269,12 @@ We have boundless [ambition](/handbook/product/product-principles/#how-this-impa
 1. Networking, maybe leveraging some of the [open source standards for networking](https://www.linux.com/news/5-open-source-software-defined-networking-projects-know/) and/or [Terraform networking providers](https://www.terraform.io/docs/providers/type/network-index.html)
 1. Design, we already have [design management](https://gitlab.com/groups/gitlab-org/-/epics/1445) today
 
-Stages are different from the [application types](https://about.gitlab.com/direction/maturity/#application-type-maturity) you can service with GitLab.
+Stages are different from the [application types](https://about.gitlab.com/direction/#maturity) you can service with GitLab.
 
 ## Maturity
 
 Not all categories are at the same level of maturity. Some are just minimal and
-some are lovable. See the [category maturity page](https://about.gitlab.com/direction/maturity/) to see where each
+some are lovable. See the [category maturity page](https://about.gitlab.com/direction/#maturity) to see where each
 category stands.
 
 ## Other functionality

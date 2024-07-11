@@ -7,7 +7,7 @@ description: "The GitLab Verify:CI Platform Group Handbook page"
 
 Our team is responsible for the following categories:
 
-- [CI Scaling](https://about.gitlab.com/direction/verify/ci_scaling/)
+- [CI Scaling](https://about.gitlab.com/direction/verify/#continuous-integration-ci-scaling)
 
 ## Mission
 

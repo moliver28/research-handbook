@@ -18,7 +18,7 @@ Relevant solutions will differ by audience.
 
 A picture may help convey the **Solution Framework**.
 
-![Solution Framework](./Solution-framework.png)
+![Solution Framework](Solution-framework.png)
 
 One of the most common of these sweeping initiatives is **Digital Transformation**. The Enterprise Project provides a useful [definition of Digital Transformation](https://enterprisersproject.com/what-is-digital-transformation): "Digital transformation is the integration of digital technology into all areas of a business, fundamentally changing how you operate and deliver value to customers.".
 
@@ -129,7 +129,7 @@ As a prospect is determining that they have a specific problem to solve, they ty
 
 In addition the **buyer's journey**, there are also different audiences in an organization with different needs at different times. The general model for the buyer's journey outlines kinds of collateral that is needed at different stages of the buying cycle. It is incredibly important to understand the needs of the audience when creating collateral. Executives, managers, and individual contributors will need different information to support their specific work.
 
-![Buyer's Journey](./buyers-cycle-journey.png)
+![Buyer's Journey](buyers-cycle-journey.png)
 
 - **Executives** will need information about business value, risk, cost, and impact to support strategic objectives
 - **Managers** will need more detailed information to drive planning, justification, and migration details.

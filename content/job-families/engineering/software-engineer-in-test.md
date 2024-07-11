@@ -59,7 +59,7 @@ The Software Engineer in Test is a [grade 6](/handbook/total-rewards/compensatio
 #### Responsibilities
 
 - Quad Planning & Test Coverage
-  - Perform [quad planning](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/quad-planning/) and improve test coverage in collaboration with other Software Engineers in Test
+  - Perform [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) and improve test coverage in collaboration with other Software Engineers in Test
   - Help create test strategy and implement test automation for new and existing features.
   - Identifies gaps in functional test automation, document missing coverage, and add new test automation to improve coverage.
 - Test Stability & Triage
@@ -92,7 +92,7 @@ The Senior Software Engineer in Test is a [grade 7](/handbook/total-rewards/comp
 #### Responsibilities
 
 - Quad Planning & Test Coverage
-  - Lead [Quad planning](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and optimize test coverage.
+  - Lead [Quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and optimize test coverage.
   - Create test strategy and implement test automation for new features.
   - Provide risk analysis and input on test strategy.
   - Identify and communicate must-have test coverage for critical functionality.
@@ -138,7 +138,7 @@ The Staff Software Engineer in Test is a [grade 8](/handbook/total-rewards/compe
 #### Responsibilities
 
 - Test Strategy (Quad Planning) & Test Coverage
-  - Own [quad planning](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and proactively optimize test coverage.
+  - Own [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and proactively optimize test coverage.
   - Coach other SETs and fellow counterpart team members on effective testing strategies and implementation of test automation for new features.
   - Proactively manage the competing priorities and potential collisions of concurrent projects to reduce risk, increase test coverage, and leverage efficiency gains in overlapping testing activities.
   - Identify and design potential new testing practices/tools/frameworks, demonstrate their value, and implement in collaboration with other Software Engineers in Test.

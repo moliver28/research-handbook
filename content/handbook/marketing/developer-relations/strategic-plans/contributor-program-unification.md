@@ -28,10 +28,10 @@ Developer Relations is currently responsible for overseeing five programs, each 
 
 | Name of program  | Goal | Benefits & Rewards | Handbook Page |
 |------------------|------|--------------------|---------------|
-| Heroes | Evangelizing GitLab by speaking, demoing, giving talks, writing blogs, … | Invites to GitLab events, Ultimate licenses, Swag | <https://about.gitlab.com/handbook/marketing/developer-relations/evangelist-program/#gitlab-heroes> |
-| Meetup Organizers | Support meetup organizers so that GitLab can be evangelized &  GitLab Heroes have a stage to talk from. | Meetup Expenses, Swag | <https://about.gitlab.com/handbook/marketing/developer-relations/evangelist-program/#meetups> |
-| Code Contributors<br>Hackathon, MVP, 1st MR Merged code contributors | Support & grow the number of code contributors as described in our [company strategy](/handbook/company/strategy/#dual-flywheels) in order for our dual-flywheel to go faster. | Swag | <https://about.gitlab.com/handbook/marketing/developer-relations/contributor-success/> |
-| Leading Organizations | The GitLab Leading Organization program supports this mission by recognizing and incentivizing organizations and individuals who are among our most active contributors. | Consultant Contributor for organizations > 100K ARR, SLO on review time, Legal Advice, Certificate of achievement | <https://about.gitlab.com/handbook/marketing/developer-relations/leading-organizations/> |
+| Heroes | Evangelizing GitLab by speaking, demoing, giving talks, writing blogs, … | Invites to GitLab events, Ultimate licenses, Swag | <https://handbook.gitlab.com/handbook/marketing/developer-relations/evangelist-program/#gitlab-heroes> |
+| Meetup Organizers | Support meetup organizers so that GitLab can be evangelized &  GitLab Heroes have a stage to talk from. | Meetup Expenses, Swag | <https://handbook.gitlab.com/handbook/marketing/developer-relations/evangelist-program/#meetups> |
+| Code Contributors<br>Hackathon, MVP, 1st MR Merged code contributors | Support & grow the number of code contributors as described in our [company strategy](/handbook/company/strategy/#dual-flywheels) in order for our dual-flywheel to go faster. | Swag | <https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success/> |
+| Leading Organizations | The GitLab Leading Organization program supports this mission by recognizing and incentivizing organizations and individuals who are among our most active contributors. | Consultant Contributor for organizations > 100K ARR, SLO on review time, Legal Advice, Certificate of achievement | <https://handbook.gitlab.com/handbook/marketing/developer-relations/leading-organizations/> |
 | Core Team | The mission of the core team is to act as a steward for the wider GitLab community and help GitLab live up to its mission and values. | Limited Slack Access, Developer Role in gitlab-org, Team Page listing, Ultimate license, JetBrains license, GitLab event sponsored access, Swag | <https://about.gitlab.com/community/core-team/> |
 
 ## Gaps
@@ -164,7 +164,7 @@ Note: The points, levels & status can still change.
     - Merged merge requests credited to all code participants, each participant was credited 5 Contribution Points
 
 - A community member validates a bug
-  - Issue Labelled as ~"Issue Validation::<FY*Q*>"
+  - Issue labeled as ~"Issue Validation::<FY*Q*>"
     - Validation credited to participant who commented in issue explaining what they have validated and requested label be applied
 
 - Writing blog posts

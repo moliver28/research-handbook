@@ -371,8 +371,8 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 
 ## Performance Indicator
 
-- [CSAT](https://about.gitlab.com/handbook/support/support-ops/#customer-satisfaction-survey-csat ) >8.0/10
-- [Project Margin](https://about.gitlab.com/handbook/customer-success/professional-services-engineering/#long-term-profitability-targets ) > 20% for assigned projects
+- [CSAT](/handbook/support/support-ops/#customer-satisfaction-survey-csat ) >8.0/10
+- [Project Margin](/handbook/customer-success/professional-services-engineering/#long-term-profitability-targets ) > 20% for assigned projects
 - Successfully manage the quarterly Education Services revenue forecast within a 5% margin
 
 ## Career Ladder

@@ -69,7 +69,7 @@ By nature, having no offices or headquarters makes us more inclusive, more trans
 With a team spread across over 65 countries around the globe, we invite diverse perspectives, we document everything, and we collaborate asynchronously.
 
 Despite all of its benefits for team members, our company, and the world, remote work isn't for everyone.
-Learn more about [all-remote work]({{< ref "all-remote" >}}) at GitLab and decide if it's right for you.
+Learn more about [all-remote work](/handbook/company/culture/all-remote/) at GitLab and decide if it's right for you.
 
 ## Culture at GitLab
 
@@ -78,7 +78,7 @@ Learn more about [all-remote work]({{< ref "all-remote" >}}) at GitLab and decid
 
 Culture at GitLab is composed of three things.
 
-1. [GitLab Values]({{< ref "values" >}})
+1. [GitLab Values](/handbook/values/)
 1. Camaraderie (mutual trust and friendship). This is created and maintained by [informal communication]({{< ref "./all-remote/informal-communication" >}}). We also build trust by [effectively collaborating](/handbook/values/#dont-let-each-other-fail) with others.
 1. Work style (how we work). This is defined and articulated in our [communication guide]({{< ref "communication" >}}) and [handbook usage guide]({{< ref "handbook-usage" >}}).
 
@@ -100,12 +100,12 @@ Some key takeaways from the call include:
 
 ## Other pages related to culture
 
-1. [GitLab 101]({{< ref "./gitlab-101" >}})
+1. [GitLab 101](gitlab-101/)
 1. [GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute/)
 1. [Internal Feedback]({{< ref "internal-feedback" >}})
-1. [Diversity, Inclusion and Belonging]({{< ref "./inclusion" >}})
-1. [All-Remote]({{< ref "./all-remote" >}})
-1. [GitLab Songbook]({{< ref "./songbook" >}})
+1. [Diversity, Inclusion and Belonging](inclusion/)
+1. [All-Remote](all-remote/)
+1. [GitLab Songbook](songbook/)
 1. [Still a Startup]({{< ref "still-a-startup" >}})
 
 ## Historical Anecdotes

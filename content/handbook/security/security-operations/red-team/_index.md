@@ -140,7 +140,7 @@ We use a combination of GitLab CI pipelines and GitLab Pages to build and host t
 - [MITRE ATT&CK Flow](https://github.com/center-for-threat-informed-defense/attack-flow)
   - [Our internal automation project](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/automation/ci-attack-flow)
   - [Our internal build](https://flow.gl-redteam.com/)
-- [MITRE ATT&CK Navigator](https://github.com/center-for-threat-informed-defense/attack-navigator)
+- [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/)
   - [Our internal automation project](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/automation/ci-attack-navigator)
   - [Our internal build](https://navigator.gl-redteam.com/)
   - [Public blog describing the project](https://about.gitlab.com/blog/2023/08/09/gitlab-mitre-attack-navigator/)

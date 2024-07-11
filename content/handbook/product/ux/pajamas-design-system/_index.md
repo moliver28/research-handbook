@@ -71,7 +71,7 @@ improving the experience of our UI.
 
 Everyone can contribute! Pajamas is a living system, meaning it continually evolves
 to support new UI components and also deprecate outdated components. For this
-evolution to be scalable, we encourage everyone to [contribute](https://design.gitlab.com/contribute/get-started)
+evolution to be scalable, we encourage everyone to [contribute](https://design.gitlab.com/get-started/contributing)
 ideas, designs, code, and bug reports.
 
 External contributions can be particularly valuable, because GitLab Contributors

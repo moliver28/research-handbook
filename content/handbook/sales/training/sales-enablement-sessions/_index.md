@@ -13,10 +13,9 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Jul 3 | Leveraging Partners Throughout the Customer Journey | Partner Team  |
 | Jul 11 | Spekit - RealTime Enablement - Tool Launch | Spekit & RSOE Team |
-| Jul 18 | GTM Rev Play: GitLab Duo Enterprise| Marketing |
-| Jul 25 | *No session during the last week of the quarter* | N/A |
+| Jul 18 | *No session during the last two weeks of the quarter* | N/A |
+| Jul 25 | *No session during the last two weeks of the quarter* | N/A |
 
 ## Past Sessions
 
@@ -25,6 +24,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-07-03 | **[Leveraging Partners Throughout the Customer Journey](https://drive.google.com/file/d/1A5_C8QMotr0K4PP_PZkM3wVQdu9qyFyh/view?usp=drive_link)** | Private  |
 | 2024-06-27 | **[GitLab 17 Launch - Marketing Enablement](https://drive.google.com/file/d/1cYYsgl5M88T8WsbVyaCTmWkMrPRXNTzf/view?usp=drive_link)** | Field Enablement |
 | 2024-06-13 | **[Business Value Services & Ecosystems](https://drive.google.com/file/d/1Y1cm7tGc8_-Kx4av4ML2135AhWFpemVX/view?usp=drive_link)**  | Private |
 | 2024-05-30 | **[Partner e-marketplace](https://drive.google.com/file/d/13pJQu_gAIwtFDvvc-Xriq1g4huOZkaOb/view?usp=drive_link)** | Private |

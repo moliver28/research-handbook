@@ -14,7 +14,7 @@ dbt, short for [data build tool](https://www.getdbt.com/), is an [open source pr
 
 The following links will give you an excellent overview of what dbt is:
 
-- [What, exactly, is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/) - This is a less technical overview for understanding the tool
+- [What, exactly, is dbt?](https://www.getdbt.com/blog/what-exactly-is-dbt) - This is a less technical overview for understanding the tool
 - [What is dbt?](https://docs.getdbt.com/docs/introduction) - This is a bit more technical and comes straight from the docs
 
 But why do we use dbt? There are several reasons.

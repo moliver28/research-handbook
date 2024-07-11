@@ -62,13 +62,13 @@ The L&D team will conduct a voluntary audit at the end of Q1 & Q3 each fiscal ye
 
 After your access request as been approved, team members should follow these steps for activating their license:
 
-- Go to: [https://trainingportal.linuxfoundation.org/redeem](https://linux.thoughtindustries.com/redeem)
+- Go to: <https://trainingportal.linuxfoundation.org/redeem>
 - Log in if you already have an LF-ID, or click `Create an Account`
 - For new accounts, check your email and validate your email address. Please use your `@gitlab.com` email address-
 - When back at the LF page, enter your assigned redemption code (case-sensitive) as the `Registration Code`. You will receive this code after your access request has been approved.
 - Accept the terms and conditions and click `Redeem`
 - You should then land in the learner dashboard where you can start scrolling through courses and exams. Click any title to begin.
-- For support, please log a ticket at [trainingsupport.linuxfoundation.org](http://trainingsupport.linuxfoundation.org/)
+- For support, please log a ticket at <http://trainingsupport.linuxfoundation.org/>
 
 ### FAQs
 

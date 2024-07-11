@@ -181,7 +181,7 @@ When scheduling an event, this table can help guide you towards the right event 
 
 |                                       | Zoom Webcast                | Zoom Meeting                                  |
 |---------------------------------------|-----------------------------|-----------------------------------------------|
-| Screenshare                           | Yes                         | Yes                                           |
+| Screen share                           | Yes                         | Yes                                           |
 | Video/Audio sharing                   | Host/Panelist only          | All participants                              |
 | Participant<br>List                   | Visible to<br>host/panelist | All participants                              |
 | Multiple Hosts                        | Yes                         | Yes                                           |

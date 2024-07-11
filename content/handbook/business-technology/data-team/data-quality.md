@@ -354,7 +354,7 @@ We [extract BambooHR data](https://gitlab.com/gitlab-data/analytics/tree/master/
 
 ##### Postgres Pipeline
 
-Our own [Postgres_Pipeline](https://gitlab.com/gitlab-data/analytics/tree/master/extract/postgres_pipeline) (which handles data from gitlab.com, customers.gitlab.com, license.gitlab.com, version.gitlab.com) checks for agreement of row counts between the source and destination databases.
+Our own [Postgres_Pipeline](https://gitlab.com/gitlab-data/analytics/tree/master/extract/postgres_pipeline) (which handles data from gitlab.com, customers.gitlab.com, version.gitlab.com) checks for agreement of row counts between the source and destination databases.
 
 ### Transformation Data Quality
 

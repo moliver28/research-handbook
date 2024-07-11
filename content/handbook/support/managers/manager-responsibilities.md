@@ -73,7 +73,7 @@ We are equally responsible to ensure our team members are supported in their Git
 |  | Interact with groups to amplify group successes and understand group challenges |
 |  | Encourage and support cross-group collaboration |
 | Serve as a point of escalation to team members | Act as a guide to help progress stagnant SGG initiatives |
-|  | Seek to understand (and be prepared to assist with) the overall health of each group (group wellbeing, collaboration efforts, blockers, capacity issues) |
+|  | Seek to understand (and be prepared to assist with) the overall health of each group (group well-being, collaboration efforts, blockers, capacity issues) |
 |  | Help adjust or redistribute team member priorities based on SGG or individual capacity |
 |  | Communicate clear SGG and/or individual expectations and seek to remove ambiguities |
 |  | Help develop global strategies with team members across SGG groups where it makes sense |

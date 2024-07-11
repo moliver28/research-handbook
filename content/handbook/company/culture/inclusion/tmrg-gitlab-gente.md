@@ -65,7 +65,7 @@ Our Gente members are proud to be contributing externally to the following chari
 - [GitLab Community meetups globally](https://www.meetup.com/pro/gitlab/) – [EN](https://www.meetup.com/pro/gitlab/) [ES](https://www.meetup.com/es/pro/gitlab/) [PT](https://www.meetup.com/pt-BR/pro/gitlab/)
 - [Techqueria](https://techqueria.org/) – Techqueria is a nonprofit that serves the largest community of Latinx professionals in tech.
 - [Latinitas](https://latinitasmagazine.org/) – Empowering all girls to innovate through media and technology
-- [Latinas in Tech](https://www.latinasintech.org/) – We are a non-profit organization with the aim to connect, support, and empower Latina women working in tech. We work hand in hand with top technology companies to create safe spaces for learning, mentorship and recruitment..
+- [Latinas in Tech](https://latinasintech.org/) – We are a non-profit organization with the aim to connect, support, and empower Latina women working in tech. We work hand in hand with top technology companies to create safe spaces for learning, mentorship and recruitment..
 
 ## Gente Member Development
 
@@ -73,6 +73,6 @@ Learn more about the Gente community
 
 - [Renaming TMRG issue](https://gitlab.com/gitlab-com/latinx-tmrg/-/issues/40)
 - [Why Latinx?](https://www.merriam-webster.com/words-at-play/word-history-latinx)
-- [LTX Fest On-Demand](https://ltxfest.com/ltx-on-demand/) – The largest gathering of Latinx folks in tech, advocacy, and entrepreneurship.
+- [LTX Fest On-Demand](https://my.ltxconnect.org/ltx-fest-on-demand/) – The largest gathering of Latinx folks in tech, advocacy, and entrepreneurship.
 - Contribute to GitLab by [translating GitLab](https://translate.gitlab.com/) the product to promote inclusivity.
 - [LinkedIn Learning - Leadership in Tech](https://www.linkedin.com/learning/leadership-in-tech/) – Erica Lockheimer successfully rose through the ranks at LinkedIn to become a VP of engineering. In this course, she interviews other leaders—all of whom inspired her own professional journey—about what it takes to carve out a lasting career in the lively, challenging world of tech.

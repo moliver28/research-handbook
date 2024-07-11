@@ -43,7 +43,7 @@ Below is a list of the different technical skill sets found on the Sales System 
 
 1. Create an issue in our [project](https://gitlab.com/gitlab-com/sales-team/field-operations/systems), making sure to provide detailed business requirements for the ask or problem. Please leave assignee blank
     - If this issue removes any existing functionality, or requires any components to be deprecated, please include the `technical debt` label on the issue.
-2. In order to align our working style with the Labels, the Systems team prioritizes working on issues in the order as they get added & the issues get labelled accordingly
+2. In order to align our working style with the Labels, the Systems team prioritizes working on issues in the order as they get added & the issues get labeled accordingly
 3. The Systems Label Workflow and Label Description are as follows
 
       ![The Systems Label Workflow](/handbook/sales/images/Systemsworkflow.png)

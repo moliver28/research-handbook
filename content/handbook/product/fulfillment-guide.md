@@ -221,7 +221,8 @@ There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnAuto
 - [Renewal: UX Scorecard](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2160)
 - [Creating a subscription in Zuora to renew it in a local environment](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/zuora/zuora_tips_and_tricks.md#create-a-subscription)
 - [Auto-Renew: Custom auto-renew feature](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/flows/custom_auto_renew/index.md)
-- [Auto-Renew: Experience Flowchart (password protected)](https://www.figma.com/file/4IAnGWRKIxIKqMLUDxWf1A/Autorenew-experience-flowchart?node-id=0%3A1&t=x31XThz7dVzhhIaK-0)
+- [Auto-Renew: Experience Flowchart](https://www.figma.com/file/4IAnGWRKIxIKqMLUDxWf1A/Autorenew-experience-flowchart?node-id=0%3A1&t=x31XThz7dVzhhIaK-0)
+  - You must be logged in to Figma with your @gitlab.com email to view Figma files. When asked to sign in, click "Continue with Google" and create an account if prompted.
 - [Generating coupon codes for community programs renewals](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/community_programs/coupons.md#coupons)
 
 #### Related terminology
@@ -896,7 +897,7 @@ This section outlines top provisioning bugs and when they were resolved or are e
 | Self Managed | Cloud Licensing | Cloud License activation failure when future dated renewal and past subscription trueups. | [4874](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4874) | 15.10 |
 | Both | True-Ups | True-up validation fails when no previous_users_count is present. | [361345](https://gitlab.com/gitlab-org/gitlab/-/issues/361345) |  15.9 |
 | Self Managed | Cloud Licensing | CustomersDot Admin Cloud Activations tab lists multiple activation codes when zuora_id is blank. | [4580](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4580) |  15.9 |
-| GitLab.com | Add-Ons Provisioning | Gitlab group storage quota is overwritten by the last syncd Zuora subscription's storage. | [4687](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4687) | 15.8 |
+| GitLab.com | Add-Ons Provisioning | GitLab group storage quota is overwritten by the last syncd Zuora subscription's storage. | [4687](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4687) | 15.8 |
 | GitLab.com | SaaS Provisioning | SaaS subscriptions with multiple product line items do not provision seats correctly. | [3956](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3956) | 15.8 |
 | Self Managed | Cloud Licensing | License sync does now work with IPv4. | [354839](https://gitlab.com/gitlab-org/gitlab/-/issues/354839) | 15.7 |
 | Self Managed | Cloud Licensing  |  Multi-year subscription licenses have incorrect term dates (already expired license, 1-year only term). | [4815](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4815), [3421](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3421), [4816](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4816) | 15.7 |

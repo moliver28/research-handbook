@@ -67,7 +67,7 @@ git push origin  0000-branch-name
 
 ### Official GitLab Documentation
 
-Here is the [official documentation on merge request conflict resolution](https://docs.gitlab.com/ee/user/project/merge_requests/resolve_conflicts.html) in GitLab.
+Here is the [official documentation on merge request conflict resolution](https://docs.gitlab.com/ee/user/project/merge_requests/conflicts.html) in GitLab.
 
 Here's a great blog post on [resolving merge conflicts from the GitLab UI](https://about.gitlab.com/blog/2016/09/06/resolving-merge-conflicts-from-the-gitlab-ui/).
 

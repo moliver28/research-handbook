@@ -86,7 +86,7 @@ otherwise agreed with the Product Manager and Technical Writer:
 
 - Use the [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html),
   and other resources linked from there, including:
-  - Documentation [Structure and template](https://docs.gitlab.com/ee/development/documentation/structure.html) page.
+  - Documentation [Structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html) page.
   - [Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
   - [Markdown Guide](https://docs.gitlab.com/ee/user/markdown.html).
 - Contact the Technical Writer for the relevant
@@ -129,7 +129,7 @@ must:
 - Ensure the issue contains:
   - Any new or updated feature name.
   - Overview, description, and use cases when applicable (as required by the
-    [documentation structure and template](https://docs.gitlab.com/ee/development/documentation/structure.html).
+    [documentation structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html).
 
 Everyone is encouraged to draft the documentation requirements in the issue.
 However, a Product Manager will:

@@ -11,6 +11,11 @@ This page contains guidelines for localization at GitLab. This page is currently
 - Oleks Pysaryuk, Sr. Manager, Globalization Technology
 - Megumi Uchikawa, Senior Localization Content Manager
 - Rasam Hossain, Senior Fullstack Engineer
+- Noriko Akiyama, Localization Specialist, Japanese*
+- Maud Leuenberger, Content Manager, French*
+- María José Salmerón Ibanez, Product Manager, Globalization*
+
+*temporary service provider
 
 ## Overview
 

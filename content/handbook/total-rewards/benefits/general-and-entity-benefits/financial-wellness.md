@@ -48,7 +48,6 @@ Examples of Learning Courses include:
 
 - [Managing Your Personal Finances](https://www.linkedin.com/learning/managing-your-personal-finances-2021/what-s-your-money-story?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
 - [Behavioral Finance Foundations](https://www.linkedin.com/learning/behavioral-finance-foundations-2/behavioral-finance-and-the-stock-market?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
-[The Five-step Guide to Mastering Your Money](https://www.linkedin.com/learning/the-five-step-guide-to-mastering-your-money/achieving-your-financial-goals?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
 - [Personal Finance Tips & Tricks](https://www.linkedin.com/learning/personal-finance-tips-and-tricks/welcome-to-the-series?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
 - [Managing Your Personal Investments](https://www.linkedin.com/learning/managing-your-personal-investments/taking-control-of-your-investments?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
 - [Financial Wellness: Managing Personal Cash Flow](https://www.linkedin.com/learning/financial-wellness-managing-personal-cash-flow/understanding-your-relationship-with-money?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)

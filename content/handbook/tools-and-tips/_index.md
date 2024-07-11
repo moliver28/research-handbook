@@ -528,7 +528,7 @@ There is a lot of information pertaining to Slack, as it is a critical part of G
 ## Zoom
 
 There is a lot of information pertaining to Zoom, as it is a critical part of GitLab's
-communication. See the [Zoom handbook page]({{< ref "./zoom.md" >}}).
+communication. See the [Zoom handbook page](zoom.md).
 
 The [Google Calendar](/handbook/tools-and-tips/#google-calendar) invite is the single source of truth for the Zoom link. Avoid linking the Zoom link in Google Document agendas since those may quickly become out of date. If the zoom link changed around the start of the meeting it is OK to have it in there temporarily.
 

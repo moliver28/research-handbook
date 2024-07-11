@@ -298,7 +298,7 @@ This role develops and leads a cross-functional, long-term strategic communicati
 - Experience with evolving a company's position to a new market category that aligns it with current market and customer priorities.
 - Proven track record in building, getting buy-in, executing plans, and staying focused on "getting it done" in a fast-moving, technical environment.
 - Comfortable with transparency in our communications, internally and externally
-- You share our values (<https://about.gitlab.com/handbook/values>) and work following those values.
+- You share our values (<https://handbook.gitlab.com/handbook/values>) and work following those values.
 - Ability to use GitLab
 
 ### VP, Corporate Communications
@@ -338,7 +338,7 @@ The VP, Corporate Communications is a grade 12.
 - Outstanding written and verbal communications skills with the ability to explain and translate complex technology concepts into simple and intuitive communications.
 - Uses data to measure results and inform decision making and strategy development.
 - Comfortable with transparency in our communications, internally and externally
-- You share our values (<https://about.gitlab.com/handbook/values/>), and work in accordance with those values.
+- You share our values (<https://handbook.gitlab.com/handbook/values/>), and work in accordance with those values.
 Leadership (<https://about.gitlab.com/company/team/structure/#director-group>) at GitLab
 Ability to use GitLab
 

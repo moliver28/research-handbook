@@ -18,7 +18,7 @@ Our [planning issues](https://gitlab.com/gitlab-org/modelops/anti-abuse/team-tas
 
 ### Workflow
 
-We follow the same [workflow pattern](./authorization.md#workflow) as our friends in Govern::Authorization.
+We follow the same [workflow pattern](authorization.md#workflow) as our friends in Govern::Authorization.
 
 ## Iteration
 
@@ -30,7 +30,7 @@ We follow the [iteration process](/handbook/engineering/development/principles/#
 
 ## Weekly async issue updates
 
-We use the same [weekly async issue template](./authorization.md#weekly-async-issue-updates) as our friends in Govern::Authorization.
+We use the same [weekly async issue template](authorization.md#weekly-async-issue-updates) as our friends in Govern::Authorization.
 
 ## Group members
 

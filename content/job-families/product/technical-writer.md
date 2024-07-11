@@ -43,7 +43,7 @@ The Technical Writer (Intermediate) is a [grade 6](/handbook/total-rewards/compe
 #### Technical Writer (Intermediate) Responsibilities
 
 - **Content**: Create, merge, and maintain product documentation and release posts for assigned product groups. Balance priorities.
-- **Structure**: Ensure newly developed content uses [content topic types](https://docs.gitlab.com/ee/development/documentation/structure.html) to make product documentation easier to scan.
+- **Structure**: Ensure newly developed content uses [content topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/) to make product documentation easier to scan.
 - **Organization**: Ensure that product documentation pages in your assigned groups are well organized by using good naming and logical groupings.
 - **User interface**: Create or improve user interface text, such as field labels or error messages, with a focus on your assigned groups.
 - **Reviews**: Provide effective reviews for content created by others mainly within your assigned groups, based on relevant style guides.

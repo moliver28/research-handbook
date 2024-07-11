@@ -40,7 +40,7 @@ The following members of other functional teams are our stable counterparts:
 
 ## Shared Responsibilities
 
-The Global Search team shares responsibilites with the AI Framework team in the area of [Retrieval Augmented Generation](./rag_ownership_framework.png) (RAG). Specifically, we will collaborate in the data preparation stage and information retrieval stage of the RAG process.
+The Global Search team shares responsibilites with the AI Framework team in the area of [Retrieval Augmented Generation](rag_ownership_framework.png) (RAG). Specifically, we will collaborate in the data preparation stage and information retrieval stage of the RAG process.
 
 ## Meetings
 
@@ -98,7 +98,7 @@ The team has been actively working on enabling Elasticsearch powered Advanced Se
 The two types of operations we detail severity metrics for above are:
 
 - Recall Record, Global: This is the time it takes to recall a record using a globally scoped search of GitLab.com. Records could be entities such as projects, users, groups, etc.
-- Time until inserted record is recallable: This is the elapsed time between adding a new record and having that new record be recallable via a search. This process depends on many underlying technologies such as the [Go indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer), [Sidekiq queues](https://docs.gitlab.com/ee/development/elasticsearch.html#how-does-it-work), and the Elasticsearch database.
+- Time until inserted record is recallable: This is the elapsed time between adding a new record and having that new record be recallable via a search. This process depends on many underlying technologies such as the [Go indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer), [Sidekiq queues](https://docs.gitlab.com/ee/development/advanced_search.html#how-does-it-work), and the Elasticsearch database.
 
 ### Weighting for Search Issues
 

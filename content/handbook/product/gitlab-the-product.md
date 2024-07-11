@@ -322,7 +322,7 @@ only one part of GitLab it should be a great experience.
 GitLab ships with built-in integrations to many popular applications. We aspire
 to have the world's best integrations for Slack, JIRA, and Jenkins.
 
-Many other applications [integrate with GitLab](/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/ee/user/project/integrations/project_services.html).
+Many other applications [integrate with GitLab](/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/ee/user/project/integrations/).
 
 GitLab [welcomes and supports new integrations](/partners/technology-partners/integrate/) to be created to extend collaborations with other products.
 GitLab plays well with others by providing APIs for nearly anything you can do within GitLab.

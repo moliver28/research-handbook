@@ -99,7 +99,7 @@ Extends the Business Systems Analyst requirements plus:
 
 #### Job Grade
 
-The Staff Business Systems Analyst is a [grade 8](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Staff Business Systems Analyst is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Staff Business Systems Analyst Responsibilities
 
@@ -127,7 +127,7 @@ Extends the Senior Business Systems Analyst responsibilities plus:
 
 #### Job Grade
 
-The Principal Business Systems Analyst is a [grade 9](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Principal Business Systems Analyst is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Principal Business Systems Analyst Responsibilities
 
@@ -148,7 +148,7 @@ Extends the Staff, Business Systems Analyst requirements plus:
 
 #### Job Grade
 
-The Distinguished Business Systems is a [grade 10](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Distinguished Business Systems is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Distinguished Business Systems Responsibilities
 

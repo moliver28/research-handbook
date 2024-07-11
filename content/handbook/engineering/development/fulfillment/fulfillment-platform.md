@@ -5,7 +5,7 @@ description: "The Fulfillment Platform Team of the Fulfillment Sub-department at
 
 ## Vision
 
-More details about the product vision for Fulfillment Platform, can be found on our [Fulfillment Platform direction](https://about.gitlab.com/direction/fulfillment/platform/) page.
+More details about the product vision for Fulfillment Platform, can be found on one of the [Fulfillment Platform direction pages](/handbook/product/categories/#fulfillment-platform-group).
 
 For a wider picture of the product vision for the Fulfillment section, please see the [Fulfillment direction](https://about.gitlab.com/direction/fulfillment/) page.
 

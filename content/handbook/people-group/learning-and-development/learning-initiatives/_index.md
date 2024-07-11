@@ -159,7 +159,7 @@ This is the list of topics that were covered in FY22.
 - October: Emotional Intelligence
 - November: Gratitude and Recognition
 - December: Resilience and Reflection
-- January: Team Member Wellbeing
+- January: Team Member Well-being
 
 ### FY23 Topic Outline
 

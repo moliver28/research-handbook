@@ -18,7 +18,7 @@ description: "Learn about managing reports around project wins, Business Develop
 
 ## Tracking Project Wins, Business Development Items, and Customer Stories
 
-The process of a internal project retrospective is started when the project starts. It is a collection of team celebration, lessons learned, what could be improved, questions, comments, assets create. This in an internal-only issue and the Gitlab team is encouraged to gather learnings and celebrations throughout the Project.
+The process of a internal project retrospective is started when the project starts. It is a collection of team celebration, lessons learned, what could be improved, questions, comments, assets create. This in an internal-only issue and the GitLab team is encouraged to gather learnings and celebrations throughout the Project.
 
 * The Internal retro issue lives within the internal Customer EPIC and is created when the Epic is created, the latest template can be found at the issue level, [and here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/project_retrospective.md?ref_type=heads)
 * PMs to make sure this issue is linked in the internal Project slack channel

@@ -7,7 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-As an all-remote company that defaults to [asynchronous communication]({{< ref "./management#asynchronous" >}}), GitLab relies heavily on textual communication. This can feel unusual or even uncomfortable for those who come from a colocated environment, where in-person meetings and vocalized communiques are the norm. Embracing text communication and learning to use it effectively requires a mental shift. Mastering this should be seen as a long-term project, though there are tips to breaking down barriers and experiencing benefits.
+As an all-remote company that defaults to [asynchronous communication](management/#asynchronous), GitLab relies heavily on textual communication. This can feel unusual or even uncomfortable for those who come from a colocated environment, where in-person meetings and vocalized communiques are the norm. Embracing text communication and learning to use it effectively requires a mental shift. Mastering this should be seen as a long-term project, though there are tips to breaking down barriers and experiencing benefits.
 
 Be sure to read GitLab's [guidelines to effective and responsible communication]({{< ref "communication#effective--responsible-communciation-guidelines" >}}) to understand the foundational elements on which this all-remote guide is built.
 
@@ -61,7 +61,7 @@ At GitLab, we [communicate assuming others have low context]({{< ref "communicat
 1. It's easy to imply your experiences with text communication, but remember that not everyone has similar life experiences to relate to, hence the need to be precise.
 1. By being specific, you're forcing yourself to think through what you're saying. In general, there is value in **taking the time to be deliberate** about communications. Re-read communiques before sending, particularly if they may be perceived as negative or inflammatory to certain parties. The ability to self-edit before sending is a boon to text communication. Vocalized words cannot be unsaid once uttered.
 1. Aiming for precision in communication requires you to put yourself in another person's shoes and **try to understand their current perspective and worldview**. It's important to view text communication not as a way to impose your will, but as a means to listen, understand, and collaborate.
-1. This isn't suggesting that your communication should be cold or soulless. In the GitLab `#thanks` Slack channel, for instance, we encourage team members to be specific about what they are thanking someone for, such that you do not need prior context to understand how a [value]({{< ref "values" >}}) was being lived.
+1. This isn't suggesting that your communication should be cold or soulless. In the GitLab `#thanks` Slack channel, for instance, we encourage team members to be specific about what they are thanking someone for, such that you do not need prior context to understand how a [value](/handbook/values/) was being lived.
 
 ## Why text communication can be difficult
 
@@ -94,7 +94,7 @@ Watch the recording of this disucssion with Maria:
 
 ### Letting values guide communication
 
-Text communication can be easily derailed, and assumptions can lead to good-mannered communiques being viewed as a slight. A number of [GitLab's operating principles]({{< ref "values" >}}) are useful to reference if you end up in a scenario where you are unsure of how to communicate effectively and responsibly through text.
+Text communication can be easily derailed, and assumptions can lead to good-mannered communiques being viewed as a slight. A number of [GitLab's operating principles](/handbook/values/) are useful to reference if you end up in a scenario where you are unsure of how to communicate effectively and responsibly through text.
 
 1. [No ego](/handbook/values/#no-ego) (Don't defend a point to win an argument or double-down on a mistake.)
 1. [Assume positive intent](/handbook/values/#assume-positive-intent) (If a message feels like a slight, assume positive intent while asking for clarification.)
@@ -124,7 +124,7 @@ You can learn more in GitLab's [communication handbook]({{< ref "communication#c
 
 ## Feedback is a gift
 
-Managers should strive to **incorporate positive feedback** into their day-to-day work. Particularly in an all-remote setting, where people can work for days, weeks, or months without seeing a colleague [in person]({{< ref "./in-person" >}}), friendly words go a long way.
+Managers should strive to **incorporate positive feedback** into their day-to-day work. Particularly in an all-remote setting, where people can work for days, weeks, or months without seeing a colleague [in person](in-person/), friendly words go a long way.
 
 It's easy to brush [positive feedback]({{< ref "leadership#giving-feedback" >}}) aside as nonessential, but that is unwise in a remote setting. If the only feedback a report receives is negative — while hearing nothing when they are exceling — they are likely to view feedback as an attack. Moreover, they're likely to feel unappreciated and misunderstood, and are apt to view critical feedback as something that is being delivered to spite them rather than improve them.
 

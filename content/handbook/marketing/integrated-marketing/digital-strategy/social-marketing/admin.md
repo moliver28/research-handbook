@@ -250,7 +250,7 @@ More on optional labels will be available soon.
 
 <ol>
 <li>Contact the social media team in the #social_media_action Slack channel to discuss the details and thoughts about the giveaway. If it makes sense, we can commit to supporting the giveaway following legal approval in step 2 below.</li>
-<li>Work with the legal team to review and approve the promotional game. <a href="https://about.gitlab.com/handbook/legal/marketing-collaboration/#promotional-games">You can find more info on what legal requires here in the handbook</a>. Alternatively, <a href="https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/sweepstakes_legal_template.md">you can head right to the promotional game review issue template to file an issue for legal approval</a>.</li>
+<li>Work with the legal team to review and approve the promotional game. <a href="https://handbook.gitlab.com/handbook/legal/marketing-collaboration/#promotional-games">You can find more info on what legal requires here in the handbook</a>. Alternatively, <a href="https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/sweepstakes_legal_template.md">you can head right to the promotional game review issue template to file an issue for legal approval</a>.</li>
 <li>Once approved, create an issue and tag the Social Marketing Manager to determine the
 rules of engagement and the Corporate Events Manager for prizes.</li>
 <li>Create and publish an <a href="#officialrules">Official Sweepstakes Rules page</a></li>
@@ -279,7 +279,7 @@ Post-Giveaway </summary>
 <li>Winners must sign an Affidavit of Eligibility &amp; Liability, Indemnity, and Publicity Release. Use the &quot;Affidavit of Eligibility - Sweepstakes&quot; template found on the google drive.</li>
 <li>Announce the winners</li>
 </ol>
-<p><a href="https://about.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/giveaways/">Find out more about the swag giveaways here.</a></p>
+<p><a href="https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/giveaways/">Find out more about the swag giveaways here.</a></p>
 
 </details>
 

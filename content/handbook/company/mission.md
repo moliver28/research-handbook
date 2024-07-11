@@ -31,7 +31,7 @@ We actively welcome contributors to **enable everyone to contribute to and co-cr
 increase the rate of innovation to benefit customers and users. There is also an open dialogue between GitLab and our customers, partners, and the community so that we can also better identify what they need. That way we can not only build a solution for them, but bring that solution to the world.
 
 We think that it is logical that our collaboration tools are a collaborative
-work themselves. More than [3,000 people from the wider community](http://contributors.gitlab.com/) have contributed to GitLab to make that a reality.
+work themselves. More than [3,000 people from the wider community](https://about.gitlab.com/community/contribute/) have contributed to GitLab to make that a reality.
 
 We do this by having quality code, tests, documentation, popular frameworks,
 and offering a comprehensive [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit)

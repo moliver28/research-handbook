@@ -12,13 +12,13 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 
 - [Finance Issues](https://gitlab.com/gitlab-com/finance/issues)
   - Please use confidential issues for topics that should only be visible to team members at GitLab.
-- [Accounts Payable]({{< ref "./accounts-payable" >}})
-- [Expense Guidelines]({{< ref "./expenses" >}})
+- [Accounts Payable](accounts-payable/)
+- [Expense Guidelines](expenses/)
 - [Operating Metrics]({{< ref "key-review" >}})
-- [Procurement]({{< ref "./procurement" >}})
-- [Sales Comp Plan]({{< ref "./sales-comp-plan" >}})
-- [Signature Authorization Matrix]({{< ref "./authorization-matrix" >}})
-- [Authorization Matrix Policy]({{< ref "./authorization-matrix#authorization-matrix-policy" >}})
+- [Procurement](procurement/)
+- [Sales Comp Plan](sales-comp-plan/)
+- [Signature Authorization Matrix](authorization-matrix/)
+- [Authorization Matrix Policy](authorization-matrix/#authorization-matrix-policy)
 - [Stock Options](/handbook/total-rewards/stock-options/)
 
 ## Forms
@@ -48,10 +48,10 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 
 ## <i aria-hidden="true" class="fas fa-book fa-fw icon-color font-awesome"></i>Finance Handbooks{#finance-handbooks}
 
-- [Accounting]({{< ref "./accounting" >}})
+- [Accounting](accounting/)
 - [Business Technology](/handbook/business-technology/)
-- [Financial Planning & Analysis]({{< ref "./financial-planning-and-analysis" >}})
-- [Investor Relations]({{< ref "./investor-relations" >}}/)
+- [Financial Planning & Analysis](financial-planning-and-analysis/)
+- [Investor Relations](investor-relations//)
 - [Tax](/handbook/tax)
 
 ---

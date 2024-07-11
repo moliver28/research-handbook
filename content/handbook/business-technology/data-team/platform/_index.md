@@ -1,7 +1,6 @@
 ---
 title: "Data Team Platform"
 description: "GitLab Data Team Platform"
-controlled_document: true
 ---
 
 ## Purpose
@@ -99,6 +98,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [BambooHR](https://www.bamboohr.com/) | Airflow | `bamboohr` | `sensitive` | People | 12h / 24h | No | Tier 2 |
 | [Clari](https://www.clari.com/) | Airflow | `clari` | `clari` | Sales | 24h / 24h | Yes | Tier 2 |
 | [Clearbit](https://clearbit.com/) | x | x | x | x / x |  | No | Tier 3 |
+| [Common Room](https://https://commonroom.io/) | Snowflake task | `commonroom` | `commonroom` | `DevRels`/`Developer Advocates` |  | No | Tier 3 |
 | [CustomersDot](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#gitlab-customer-dot-database) [ERD](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/staging/doc/db_erd.pdf) | pgp | `tap_postgres` | `customers` | Product | 24h / x | No | Tier 1 |
 | [Demandbase](https://www.demandbase.com/) | Snowflake task | `demandbase` | `demandbase` | Marketing | 24h / x | No | Tier 2 |
 | [Elastic Search Billing](https://www.elastic.co/guide/en/cloud/current/Billing_Costs_Analysis.html) | Airflow | `elasticsearch_billing` | `elastic_billing` | Engineering | 24h / 24h | No | Tier 2 |
@@ -132,7 +132,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [PMG](https://www.pmg.com/) | x | `pmg` | `pmg` | x | x / x | No | Tier 3 |
 | [Time Off by Deel](https://www.deel.com/engage/pto) | Snowpipe | `pto` | `gitlab_pto` | Engineering Productivity / People | 7 days / x | No | Tier 3 |
 | [Qualtrics](https://www.qualtrics.com/) | Airflow | `qualitrics` | `qualtrics` | Marketing | 12h / 48h | No | Tier 2 |
-| [SaaS Service Ping](https://gitlab.com/gitlab-data/analytics/-/tree/master/extract/saas_usage_ping) | Airflow | `saas_usage_ping` | `saas_usage_ping` | Product | 1 week / x | No | Tier 1 |
+| [SaaS Service Ping](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#service-ping) | Airflow | `saas_usage_ping` | `saas_usage_ping` | Product | 1 week / 24h ([more context](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#slo-explanation-for-automated-service-ping)) | No | Tier 1 |
 | [Salesforce](https://www.salesforce.com/) | Stitch | `salesforce_v2_stitch` | `sfdc` | Sales | 6h / 24h | Yes | Tier 1 |
 | [Salesforce Sandbox](https://gitlab--staging.sandbox.my.salesforce.com/)| Stitch | `salesforce_stitch_sandbox_v2` | `TBC` |Sales | 24h / 48h| Yes| Tier 3|
 | SheetLoad | SheetLoad | `sheetload` | `sheetload` | Multiple | 24h / 48h | Yes | Tier 1 |
@@ -569,7 +569,7 @@ The PAT value is saved within 1Pass, and also as a CI environment variable so th
 
 #### snowflake_users.yml - end of file issue
 
-When adding a user to the `snowflake_users.yml` file, specifically when appending to the bottom of the file, it causes unexpected behavior if done using the Gitlab Single File Editor, more info in [this issue](https://gitlab.com/gitlab-data/analytics/-/issues/20730#note_1919902289).
+When adding a user to the `snowflake_users.yml` file, specifically when appending to the bottom of the file, it causes unexpected behavior if done using the GitLab Single File Editor, more info in [this issue](https://gitlab.com/gitlab-data/analytics/-/issues/20730#note_1919902289).
 
 The workaround is that at the bottom of `snowflake_users.yml`, it has this comment:
 
@@ -586,6 +586,13 @@ All active Snowflake users/roles are declared within `roles.yml`. Therefore, if 
 These users will be dropped by running the following [deprovision_user.sql](https://gitlab.com/gitlab-data/analytics/-/blob/master/orchestration/snowflake_provisioning_automation/provision_users/sql_templates/deprovision_user.sql?ref_type=heads) script.
 
 This process is not exposed via CI job due to its sensitive nature and because it is less time sensitive. Therefore, a weekly 'cleanup' task via Airflow will be run instead.
+
+#### Snowflake user/service account
+
+The `permifrost_bot_user` is used to run both Snowflake provisioning and deprovisioning processes. This is for 2 reasons:
+
+1. `permifrost_bot_user` already has the proper permissions to run provisioning/deprovisioning as the same perms are needed to run existing Permifrost jobs.
+1. The `permifrost_bot_user` already runs existing Permifrost jobs using both Airflow and Gitlab CI, so the applied NSP IP addresses will not be redundant when added for both provisioning (run via CI) /deprovisioning (run via Airflow).
 
 #### Provisioning permissions to external tables to user roles
 

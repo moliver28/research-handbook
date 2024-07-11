@@ -76,7 +76,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 
 **Competitive Information**
 
-- [GitLab Maturity Page](https://about.gitlab.com/direction/maturity/) (Web Page)
+- [GitLab Maturity Page](https://about.gitlab.com/direction/#maturity) (Web Page)
   - A very transparent self-assessment of the maturity of each GitLab feature. No direct comparisons with other vendors here.
 - [GitLab Competitive Overviews](https://partners.gitlab.com/prm/English/s/assets?collectionId=56958) (Portal Assets)
   - Have a look at competitive positioning material in the assets library of the Partner site. (login required)

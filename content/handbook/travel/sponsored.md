@@ -56,7 +56,7 @@ Planning flights far in advance can help you get cheaper fares when booking. For
 ### Other Travel Recommendations and Policies
 
 1. The company can accommodate custom requests. It is OK to stay longer on your trip. However, the extra days will not be covered by the company or customer.
-1. Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/spending-company-money), especially the part about spending it like it is your own money, still applies for all expenses.
+1. Understand that the guidelines of [Spending Company Money](/handbook/spending-company-money), especially the part about spending it like it is your own money, still applies for all expenses.
 1. Always bring a credit card with you when traveling for company business if you have one.
 1. Hotels will generally expect you to have a physical credit card to present upon check-in. This credit card will be kept on file for the duration of your stay. Even if your lodging was pre-paid by the company, the hotel may still require a card to be on file for "incidentals".
 1. If you incur any work-travel related expenses (on your personal card or a GitLab company card), please make sure to save the original receipt.

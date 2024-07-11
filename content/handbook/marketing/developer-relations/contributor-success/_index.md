@@ -406,7 +406,7 @@ Discord: https://discord.gg/gitlab
   - Questions
     - We could ask ourselves a few questions we intend to answer, or let the community ask all the questions
   - Live pairing and/or issue housekeeping
-    - We could link to the team's issues labelled with `quick win` for example
+    - We could link to the team's issues labeled with `quick win` for example
 ```
 
 It is your meeting and you can adapt the agenda to suit your needs.

@@ -360,7 +360,7 @@ The merge request is the atomic unit of deliverable work in most cases, so it mu
 and calculations by being owned by one and only one issue.
 
 In order to enforce this via triage-ops automations
-(https://about.gitlab.com/handbook/engineering/development/dev/create/ide/#automations-for-remote-development-workflow),
+(/handbook/engineering/development/dev/create/ide/#automations-for-remote-development-workflow),
 the first line of the issue should have the format: `MR: <...>`:
 
 1. For new issues, the first description line should be: `MR: Pending`

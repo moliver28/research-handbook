@@ -35,7 +35,7 @@ You can also check out pages related to People Group in the section below. If yo
 
 ## The People Group: [One Team Mosaic Video](https://www.youtube.com/watch?v=5bSij66OSgw)
 
-In general, the People Group is here to support GitLab's [mission](/handbook/company/mission/) by bringing top talent into GitLab, and then enabling team members to make meaningful contributions in alignment with our [values]({{< ref "values" >}}).  Please don't hesitate to [reach out](#how-to-reach-the-right-member-of-the-people-group) with questions or ask for support!
+In general, the People Group is here to support GitLab's [mission](/handbook/company/mission/) by bringing top talent into GitLab, and then enabling team members to make meaningful contributions in alignment with our [values](/handbook/values/).  Please don't hesitate to [reach out](#how-to-reach-the-right-member-of-the-people-group) with questions or ask for support!
 
 The People Group works together as one team, made up of five departments: People Operations, Talent and Engagement, Total Rewards, People Business Partners, and Diversity, Inclusion, and Belonging (DIB).
 

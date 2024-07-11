@@ -98,6 +98,8 @@ This program type is used in conjunction with Marketo email programs. This progr
 
 This is used for campaigns that can either be organised through a 3rd party vendor or GitLab, covering both in-person and virtual roundtables. It is a gathering of high level CxO attendees run as an open discussion between the moderator/host, GitLab expert and delegates. There usually aren't any presentations, but instead a discussion where anyone can chime in to speak. The host would prepare questions to lead discussion topics and go around the room asking delegates questions to answer. [Read More](/handbook/marketing/virtual-events/external-virtual-events/#overview).
 
+Program type is included on the smart campaign meant to clear `dietary restriction` related fields. 7 days after an event's program statuses are recorded, the fields are cleared automatically.
+
 **Bizible:** This is tracked as an _offline_ channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
 
 | Member Status | Definition | Success |
@@ -163,6 +165,8 @@ This is used for non-traditional list uploads in which we are looking to a) avoi
 This is an event that we have created, own registration and arrange speaker/venue (example: GitLab Commit or Meetups). Also considered in this grouping would be 3rd party auxiliary events that are added on to a conference sponsorship (i.e a happy hour or VIP dinner at a conference).
 
 **Bizible:** This is tracked as an _online_ and as an _offline_ channel because we manage the registration process through our website. Whenever someone registers, a TP will be created based on that online activity while another  TP is added based on the campaign sync rules, for the campaign members with success statuses.
+
+Program type is included on the smart campaign meant to clear `dietary restriction` related fields. 7 days after an event's program statuses are recorded, the fields are cleared automatically.
 
 | Member Status | Definition | Success |
 | ------------- | ---------- | ------- |
@@ -278,6 +282,8 @@ Used for campaigns where a third party vendor is organizing one-to-one meetings 
 
 **Bizible:** This is tracked as an _offline_ Bizible channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
 
+Program type is included on the smart campaign meant to clear `dietary restriction` related fields. 7 days after an event's program statuses are recorded, the fields are cleared automatically.
+
 | Member Status | Definition | Success |
 | ------------- | ---------- | ------- |
 | No Action | default starting position for all records |  |
@@ -315,6 +321,8 @@ An in-person or virtual workshop where the attendees are guided through an agend
 
 For logistical setup and more information, go [here](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshops-1).
 **Bizible:** This is tracked as an _offline_ Bizible channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
+
+Program type is included on the smart campaign meant to clear `dietary restriction` related fields. 7 days after an event's program statuses are recorded, the fields are cleared automatically.
 
 | Member Status | Definition | Success |
 | ------------- | ---------- | ------- |
@@ -1295,3 +1303,17 @@ For conferences list loads with more than 5,000 attendees, consider not marking 
 1. Uncheck `Success` box for `Attended` and save
 1. Load the list in with the attended members
 1. Once the list is done processing and campaign members are added, go back into Admin>Tags>Channel>Conference, and recheck the `Success` box for `Attended`
+
+## Instructions: How to collect Dietary Restrictions on event registration and view responses
+
+1. For an owned event (Field Marketing), add `FORM 4286: Owned event with Dietary Restriction` to the LP. Note that we do have other forms that collect this data, for example DevSecOps World Tour forms. Check with MOps if you aren't sure which form to use for your use.
+1. Update Smart Campaign to look for `FORM 4286` in the Registration Processing SC.
+1. Create a smartlist to look for the responses from the form. From the program, click "New", then "New local asset", then "Smart List". Name the smart list "Dietary Requirements". Add the filters `Member of Program` (Program name) & `Dietary Restriction Details` (is not empty).
+1. Next, you need to [create a custom view](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/using-smart-lists/create-and-change-views-for-lists-and-smart-list) in Marketo to see the details. Once you create the view, you will always have it available for selection the dropdown.
+1. Click on the `Dietary Requirements` smart list you created, then go to the People tab.
+1. Click where it says `View: Default`
+1. Select Create View
+1. Name the view Dietary Restrictions and under hidden columns, select `Dietary Restriction Detail` and `Dietary Restrictions: Other`
+1. Click Create
+
+The view you created will be saved for future use, so any time you need to see this specific view in the future, you will click View: Default and select "Dietary Restrictions" from your dropdown (the list is unique to you, so you will have different options than other people). Due to privacy requirements, we are not pushing this information to SFDC, but you can see it in Marketo up until seven days after the event. See details below for creating a report in Marketo to see the responses. The dietary restriction fields will automatically be cleared 7 days after the lead list is loaded.

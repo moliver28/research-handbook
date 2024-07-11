@@ -31,7 +31,7 @@ To reach the Product Security Engineering team, team members can:
 
 ## Runbooks
 
-Please see our [Runbooks page]({{< ref "./runbooks" >}}).
+Please see our [Runbooks page](runbooks/).
 
 ## Workflow
 
@@ -224,7 +224,7 @@ Once we have identified the functionality and components for this tool, we:
 
 ## Milestone Planning
 
-Please visit the [Product Security Engineering Milestone Planning page]({{< ref "milestone-planning" >}}) for information about how we plan our work.
+Please visit the [Product Security Engineering Milestone Planning page](/handbook/security/product-security/product-security-engineering/milestone-planning/) for information about how we plan our work.
 
 ## Metrics
 
@@ -250,6 +250,10 @@ Labels are a driving force behind our metrics collection. The appropriate label 
 | Tooling Integration: work done as part of the effort to integrate functionality from custom in-house tooling into a GitLab product | `~ProdSecEngMetric::Tooling Integration` | Epics |
 | Custom Tooling: work performed to build, maintain, or augment outside-of-the-product custom tooling needed to satisfy Product Security requirements | `~ProdSecEngMetric::Custom Tooling` | Issues and Merge Requests, sometimes Epics |
 | Pending: the work type isn't entirely clear yet, but we don't want to block progress for now | `~ProdSecEngMetric::Pending` | Issues, Merge Requests, and Epics |
+
+## Integrating Product Security Team Requirements Into GitLab
+
+Information on how the Product Security Engineering team plans, develops, and maintains functionality required by the GitLab Product Security sub-department can [be found here](/handbook/security/product-security/product-security-engineering/product-security-requirements/).
 
 ### Open Source Contributions
 

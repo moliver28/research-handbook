@@ -143,7 +143,7 @@ Goal: The coffee chats helps our customers learn how to use GitLab Duo and adopt
 - [Talk: Efficient DevSecOps Workflows with a little help from AI](https://go.gitlab.com/T864XF) - [content epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402)
 - [Organization issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/375)
 
-Maintainer: [Michael Friedrich, @dnsmichi](https://about.gitlab.com/handbook/company/team/#dnsmichi)
+Maintainer: [Michael Friedrich, @dnsmichi](/handbook/company/team/#dnsmichi)
 
 ### CI/CD Adoption
 

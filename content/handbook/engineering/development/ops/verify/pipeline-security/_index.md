@@ -12,7 +12,7 @@ Our team is responsible for devliering on the following categories:
 - [Build Artifacts](https://about.gitlab.com/direction/verify/build_artifacts/)
 - [Secrets Management](https://about.gitlab.com/direction/verify/secrets_management/)
 
-The current and planned category maturity can be found on the [Maturity page](https://about.gitlab.com/direction/maturity/#verify).
+The current and planned category maturity can be found on the [Maturity page](https://about.gitlab.com/direction/#maturity).
 
 ## Mission
 

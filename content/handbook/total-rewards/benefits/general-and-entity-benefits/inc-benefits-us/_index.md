@@ -66,6 +66,15 @@ You can log into PlanSource through your Workday profile. There is an integratio
 - For support with the PlanSource system: `total-rewards@ gitlab.com`
 - For questions regarding internal policies, etc. 401(k), : `total-rewards@ gitlab.com`
 
+## ID Cards
+
+Cigna has moved from Physical to Digital ID cards. Team members can request a physical medical card on mycigna.com. Please allow up to two weeks for ID cards to generate after completing your enrollment.
+Kaiser cards will be mailed within 3 weeks of submitting your benefit elections.
+
+Cigna: Digital ID cards are available through the myCigna website or the myCigna mobile app.
+
+Kaiser: Digital ID cards are available through the Kaiser website or the Kaiser mobile app.
+
 ## Enrolling in Benefits
 
 Team Members have 30 days from their Hire Date to enroll in the benefit plans. Enrollment is through our benefit administrator, PlanSource.

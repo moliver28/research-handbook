@@ -19,7 +19,7 @@ GitLab customers can have SCM, CI, security, and more in one browser window. The
 
 ### A partner like no other
 
-GitLab is uniquely open and transparent about our [vision and roadmap](https://about.gitlab.com/direction/), [our internal processes](/handbook/), our [product maturity](https://about.gitlab.com/direction/maturity/), and we invite and encourage [community and customer contributions and collaboration](https://about.gitlab.com/community/contribute/).
+GitLab is uniquely open and transparent about our [vision and roadmap](https://about.gitlab.com/direction/), [our internal processes](/handbook/), our [product maturity](https://about.gitlab.com/direction/#maturity), and we invite and encourage [community and customer contributions and collaboration](https://about.gitlab.com/community/contribute/).
 
 This short video summarizes our unique DevOps solution and bold way of working:
 

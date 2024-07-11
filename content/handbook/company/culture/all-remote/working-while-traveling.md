@@ -26,7 +26,7 @@ Additionally, GitLab team members should be wary of connecting to unsecured netw
 {{% /card %}}
 {{% /cardpane %}}
 
-For remote workers, a robust connection to the internet is [vital](https://about.gitlab.com/blog/2016/03/23/remote-communication). This is easier to control at [home](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) or in a [coworking venue](https://about.gitlab.com/blog/2019/09/04/not-all-remote-is-created-equal), and it requires special consideration when on the road. [Avid travelers](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence) and dedicated [nomads]({{< ref "./people#nomads" >}}) should maintain at least two connectivity sources — ideally, two sources that connect to different mobile networks.
+For remote workers, a robust connection to the internet is [vital](https://about.gitlab.com/blog/2016/03/23/remote-communication). This is easier to control at [home](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) or in a [coworking venue](https://about.gitlab.com/blog/2019/09/04/not-all-remote-is-created-equal), and it requires special consideration when on the road. [Avid travelers](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence) and dedicated [nomads](people/#nomads) should maintain at least two connectivity sources — ideally, two sources that connect to different mobile networks.
 
 A simple way to achieve this redundancy is to lean on one mobile network operator for your smartphone (and enable tethering if it is not on by default with your current plan), while procuring a mobile hotspot through a different operator.
 
@@ -57,7 +57,7 @@ Working while traveling requires a delicate balance. It's wise to have a minimal
 
 However, long-term travelers should consider health, ergonomics, and comfort, and invest in the appropriate equipment. Examples include laptop risers, global power adapters, external peripherals (keyboard, mouse, etc.), a backup battery, comfortable headphones, and a rugged backpack with support straps. [Secondary displays](https://support.apple.com/en-us/HT210380) add weight but may be worthwhile for the productivity gains.
 
-Consider where you plan to work on the road, and what elements of your [home workspace]({{< ref "./workspace" >}}) you may miss. This will help you plan your purchases, should any be necessary.
+Consider where you plan to work on the road, and what elements of your [home workspace](workspace/) you may miss. This will help you plan your purchases, should any be necessary.
 
 Learn more about [traveling workspaces from the GitLab blog](https://about.gitlab.com/blog/2019/10/10/whats-in-your-backpack).
 

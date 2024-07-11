@@ -15,8 +15,8 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 
 ## Stages
 
-* [AI-Powered](./ai-powered/)
-* [ModelOps](./modelops/)
+* [AI-Powered](ai-powered/)
+* [ModelOps](modelops/)
 
 ## Career Development
 

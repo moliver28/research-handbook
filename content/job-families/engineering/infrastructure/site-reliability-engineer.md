@@ -67,7 +67,7 @@ GitLab.com is a unique site and brings with it unique challenges: it is the larg
 #### Collaboration and Communication
 
 - Leading and contributing to scope and designs for issues, epics, and OKRs
-- Contributing to the [Handbook](https://about.gitlab.com/handbook/), create and update [runbooks](https://gitlab.com/gitlab-com/runbooks) and [general documentation](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs), and write [blog posts](https://about.gitlab.com/blog/categories/engineering/)
+- Contributing to the [Handbook](/handbook/), create and update [runbooks](https://gitlab.com/gitlab-com/runbooks) and [general documentation](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs), and write [blog posts](https://about.gitlab.com/blog/categories/engineering/)
 - Completing Root Cause Analysis (RCA) investigations and perform readiness reviews
 - Improving team practices through code reviews, handoffs of work and incidents
 

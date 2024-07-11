@@ -64,7 +64,7 @@ Using [Outcomes](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#
 - **Benchmarking:** Evaluate the Main Job and Consumption Job Outcomes to establish a benchmark and assist with prioritization by identifying underserved needs.
 - **Solution Evaluation** Evaluate how your solution improves the targeted Outcome(s), using the established benchmark as reference.
 
-## Jobs Gitlab helps get done
+## Jobs GitLab helps get done
 
 ### Main jobs
 

@@ -8,7 +8,7 @@ twitter_creator: '@gitlab'
 
 ## Looking for FY23?
 
-To view the FY23 Marketing Plan, go here: [https://about.gitlab.com/handbook/marketing/plan-fy23/](/handbook/marketing/plan-fy23/)
+To view the FY23 Marketing Plan, go here: [https://handbook.gitlab.com/handbook/marketing/plan-fy23/](/handbook/marketing/plan-fy23/)
 
 ## Overview FY22 Marketing Plan
 

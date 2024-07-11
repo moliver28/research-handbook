@@ -28,7 +28,7 @@ Below is a set of general, yet not strict, characteristics of companies that are
 - Engineers that meet our [standard hiring guidelines](/job-families/engineering/backend-engineer/)
 - Ideally bring a solution which accelerates our maturity in a product category
 - R&D team size under 30 people
-according to our [category maturity](https://about.gitlab.com/direction/maturity/) or fits into the new categories on our roadmap:
+according to our [category maturity](https://about.gitlab.com/direction/#maturity) or fits into the new categories on our roadmap:
 
 {{< sdlc >}}
 

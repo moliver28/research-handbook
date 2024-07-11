@@ -1,6 +1,5 @@
 ---
 title: "Software Development Lifecycle Policy"
-controlled_document: true
 ---
 
 ## Purpose
@@ -65,7 +64,7 @@ Software development at GitLab is accomplished using industry standard developme
 
 Software development must be accomplished using GitLab's development platform in a version controlled manner.
 
-[Code review guidelines](https://about.gitlab.com/handbook/engineering/workflow/code-review/) must be adhered to when developing code at GitLab.
+[Code review guidelines](/handbook/engineering/workflow/code-review/) must be adhered to when developing code at GitLab.
 
 Development work must undergo testing and approval prior to deployment to production. This includes configuration changes and other related changes that may not be considered "development" work.
 

@@ -53,7 +53,7 @@ As a Product Designer, a key part of your role is to lead and facilitate idea ge
 
 For access instructions to Dovetail, Zendesk and Chorus.ai, refer to the relevant guides.
 
-- **Leverage the [community forum](https://forum.gitlab.com/) is a valuable support option for free users and can provide additional insights.
+- The [community forum](https://forum.gitlab.com/) is a support option for free users.
 
 #### Understand the space
 
@@ -200,7 +200,7 @@ To ensure a smooth process:
 
 #### Collaborating on in-product reference information
 
-When additional [in-product reference information](https://design.gitlab.com/usability/helping-users/#providing-reference-information) is needed in a [drawer component](https://design.gitlab.com/components/drawer/).
+Sometimes the designer, PM, and technical writer agree to display additional [in-product reference information](https://design.gitlab.com/usability/contextual-help) in a [drawer component](https://design.gitlab.com/components/drawer/). The reference information should align with the existing documentation for the feature.
 
 1. **Draft copy**: The designer drafts the content for the drawer, identifying necessary information for user foals. This draft should be as close as possible to the final version.
 1. **Mark draft status**: Indicate that the drawer content is not final, using a text watermark like "waiting on documentation," "draft," or "placeholder," or a pin in the Figma file.

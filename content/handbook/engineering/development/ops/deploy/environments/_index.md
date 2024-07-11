@@ -355,7 +355,7 @@ We aim to achieve 100% `re-prioritized say-do` and at least 80% `say-do`.
 
 ##### Example
 
-- In the milestone 15.11 we have 10 `~Deliverable` issues labelled as such by the 17th of March 2023
+- In the milestone 15.11 we have 10 `~Deliverable` issues labeled as such by the 17th of March 2023
 - Along the way we realise that 5 of those `~Deliverable` issues will not make it, and reasonably before the end of the milestone, we move them to 16.0
 - At the end of the milestone there is an hiccup and of those 5 remaining issues, 1 is not completed.
 
@@ -548,7 +548,7 @@ on what existing testing does and how to develop features for Auto DevOps.
 - [Tips and Troubleshooting](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/kubernetes/tips_and_troubleshooting.md)
 - [Useful Commands](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/kubernetes/useful_commands.md)
 - [How to work with slow connections](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/kubernetes/tips_and_troubleshooting.md#qa)
-- [Enabling premium features for development purposes](https://license.gitlab.com/users/sign_in)
+- [Enabling premium features for development purposes](/handbook/engineering/developer-onboarding/#working-on-gitlab-ee-developer-licenses)
 - [Thanos query for complete Auto DevOps pipelines](https://thanos-query.ops.gitlab.net/graph?g0.range_input=2d&g0.max_source_resolution=0s&g0.expr=sum(increase(auto_devops_pipelines_completed_total%7Benv%3D%22gprd%22%7D%5B6h%5D))%20by%20(status)&g0.tab=0)
 
 ### Shared Cloud Infrastructure

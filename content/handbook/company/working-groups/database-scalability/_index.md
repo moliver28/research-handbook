@@ -62,7 +62,7 @@ Although this working group is closing, our work to improve GitLab's database an
 | Table Partitioning | A table that contains a part of the data of a partitioned table (horizontal slice). ([source](https://www.postgresql.org/docs/12/ddl-partitioning.html))| Partition | |
 | Track | A sub-group within the WG that tackles one scaling pattern. | | |
 
-![Database Terms](./DB-terminology.png)
+![Database Terms](DB-terminology.png)
 
 ### Overview
 

@@ -197,7 +197,7 @@ To support [Iteration](/handbook/values/#iteration) Growth engineering:
 
 #### Status Updates
 
-The DRI (assignee) of an issue is encouraged to add an async issue update, particularly for issues labelled `~Deliverable` or `~Stretch`.
+The DRI (assignee) of an issue is encouraged to add an async issue update, particularly for issues labeled `~Deliverable` or `~Stretch`.
 These updates can be added anytime and are useful to highlight when an issue is on track, blocked, or may need to be re-prioritized.
 This helps us maintain [transparency](/handbook/values/#transparency) and our [bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication).
 
@@ -220,7 +220,7 @@ Async issue update
 
 The Growth groups regularly run experiments to test product hypothesis.
 
-- Read about the [experimentation process](./experimentation).
+- Read about the [experimentation process](experimentation/).
 - View the [developer documentation](https://docs.gitlab.com/ee/development/experiment_guide/)
 - View slides for the [Experimentation Workshop](https://docs.google.com/presentation/d/1nmStWChWkYad9K-dced9wS4jS7XLIrHB-WKafc7jrMU/)
 

@@ -69,7 +69,7 @@ At GitLab we value [being as transparent as possible](/handbook/values/#transpar
 1. Optionally add a comment that explains the CVSS.
 1. Edit the Confidentiality of the issue and set it to Public
 
-To facilitate this process the [GitLab Security Bot](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/appsec-escalator) comments on confidential issues 30 days after issue closure when they are not labelled `~keep confidential`.
+To facilitate this process the [GitLab Security Bot](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/appsec-escalator) comments on confidential issues 30 days after issue closure when they are not labeled `~keep confidential`.
 
 ### Handling Disruptive Researcher Activity
 
@@ -167,7 +167,7 @@ security researchers use when choosing to engage with the security team, either
 directly or through our [HackerOne Bug Bounty Program]({{< ref "./product-security/application-security/runbooks/hackerone-process.md" >}}").
 
 Vulnerabilities must be mitigated and remediated according to specific timelines.
-The timelines are specified in the [Vulnerability Management handbook]({{< ref "./product-security/vulnerability-management/#remediation-slas" >}}) (a [controlled document]({{< ref "./controlled-document-procedure" >}})).
+The timelines are specified in the [Vulnerability Management handbook]({{< ref "./product-security/vulnerability-management/#remediation-slas" >}}) (a [controlled document](controlled-document-procedure/)).
 
 If a better understanding of an issue leads us to discover the severity has changed, recalculate the time to remediate from the date the issue was opened. If that date is in the past, the issue must be remediated on or before the next security release.
 
@@ -216,7 +216,7 @@ The issue description should have a `How to reproduce` section to ensure clear r
 
 ### Non-vulnerability `~security` issues
 
-Issues labelled with the `security` but without `~type::bug + ~bug::vulnerability` labels are **not** considered vulnerabilities, but rather security enhancements, defense-in-depth mechanisms, or other security-adjacent bugs. For example, issues labeled `~"type::feature"` or `~"type::maintenance"`. This means the security team does not set the `~severity` and `~priority` labels or follow the vulnerability triage process as these issues will be triaged by [product](/handbook/product/) or other appropriate team owning the component.
+Issues labeled with the `security` but without `~type::bug + ~bug::vulnerability` labels are **not** considered vulnerabilities, but rather security enhancements, defense-in-depth mechanisms, or other security-adjacent bugs. For example, issues labeled `~"type::feature"` or `~"type::maintenance"`. This means the security team does not set the `~severity` and `~priority` labels or follow the vulnerability triage process as these issues will be triaged by [product](/handbook/product/) or other appropriate team owning the component.
 
 Implementation of security feature issues should be done publicly in line with our [Transparency](/handbook/values/#transparency) value, i.e. not following the [security developer workflow](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md).
 

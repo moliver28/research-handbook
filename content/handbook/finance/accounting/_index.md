@@ -292,7 +292,7 @@ Invoices in Coupa can be created via 4 different channels:
 A NetSuite error log identifying invoice integration issues will be emailed to the Accounts Payable Team every Tuesday and Friday. The email is sent from **Finance Systems Admins** and the Subject is **Coupa2NS Invoices - Integration Log**. Download the attached file and filter by Type = **Error** and **Audit**. Review the **Details** field to find the invoice number/document number that needs to be reviewed/corrected. For information regarding common errors and how to correct them, please review this [file](https://docs.google.com/spreadsheets/d/1KL6ft-kNkeKhvf-iORfar_3vzK6mySHB/edit#gid=1779396759); under the column labeled **Script** search for **Coupa Invoice Integration**. If any troubleshooting assistance is needed, please ask in the **#coupa_help** Slack channel.
 
 There is also a View in Coupa that will list invoices not exported to NetSuite. Under Invoices, select View = **Not Exported**
-![coupa-image-1](./finance-ops/coupainvoiceview.png)
+![coupa-image-1](finance-ops/coupainvoiceview.png)
 
 However, there will be no details regarding the integration issue. You will need to review the NetSuite error log (referenced above) for the details.
 
@@ -406,7 +406,7 @@ For more information regarding how to set up SPAs or Coupa Pay, please check out
 A NetSuite error log identifying payment integration issues will be emailed to the Accounts Payable Team every Tuesday and Friday. The email is sent from **Finance Systems Admins** and the Subject is **Coupa2NS Pay Payments Integration Log**. Download the attached file and filter by Type = **Error** and **Audit**. Review the **Details** field to find the payment number that needs to be reviewed/corrected. For information regarding common errors and how to correct them, please see this [file](https://docs.google.com/spreadsheets/d/1KL6ft-kNkeKhvf-iORfar_3vzK6mySHB/edit#gid=1779396759); under the column labeled **Script** search for **Coupa Invoice Payment Integration**. If any troubleshooting assistance is needed, please ask in the **#coupa_help** Slack channel.
 
 There is also a View in Coupa that will list payments not exported to NetSuite. Under Payments, select View = **Not Exported**
-![coupa-image-1](./finance-ops/coupapymtview.png)
+![coupa-image-1](finance-ops/coupapymtview.png)
 
 However, there will be no details regarding the integration issue. You will need to review the NetSuite error log (referenced above) for the details.
 

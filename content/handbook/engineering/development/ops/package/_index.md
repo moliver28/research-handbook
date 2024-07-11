@@ -265,7 +265,7 @@ Issues that we're expecting to work on in the milestone will have the `workflow:
 * Our Product Manager, Product Designer, and Engineering Manager develop a plan for upcoming milestones.
 * The PM creates an issue for milestone planning that includes the goals, priorities and work for the milestone. The milestone planning issues can be found in our [Milestone Planning Epic](https://gitlab.com/groups/gitlab-org/-/epics/3591).
 * Everyone can contribute and collaborate in the milestone issue to propose work, raise concerns and clarify topics.
-* To identify work and their priority, issues are assigned to the milestone and labelled as `Package:P1` or `Package:P2` according to their priority. Our prioritization model can be found below in the section [Priorities](/handbook/engineering/development/ops/package/#milestone-priorities).
+* To identify work and their priority, issues are assigned to the milestone and labeled as `Package:P1` or `Package:P2` according to their priority. Our prioritization model can be found below in the section [Priorities](/handbook/engineering/development/ops/package/#milestone-priorities).
 * Before commiting to the work for the milestone, engineers perform [refinement](/handbook/engineering/development/ops/package/#refinement) and confirm all issues are ready for development.
 * We commit to the `Package:P1` work in the milestone by having an engineer add the `workflow::ready for development` label and then having the engineering manager add the `Deliverable` label.
 

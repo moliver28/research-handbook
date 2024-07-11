@@ -98,7 +98,9 @@ Please follow the table below to quickly find the most relevant place for what y
 | [1:1 Dashboards - Leads: ENTG EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Vo) | 1:1 dashboard for leads in the ENTG EMEA segment.       |
 | [1:1 Dashboards - Leads: ENTG AMER/LATAM](https://gitlab.my.salesforce.com/01Z8X000000u7W8) | 1:1 dashboard for leads in the ENTG AMER/LATAM segment.  |
 | [1:1 Dashboards - Leads: COMM EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Q5)  | 1:1 dashboard for leads in the COMM EMEA segment.       |
+| [1:1 Dashboards - Leads: COMM AMER](https://gitlab.my.salesforce.com/01ZPL000000YXRN)  | 1:1 dashboard for leads in the COMM AMER segment.       |
 | [1:1 Dashboards - Accounts: EMEA COMM](https://gitlab.my.salesforce.com/01Z8X000000u7O4) | 1:1 dashboard for accounts in the EMEA COMM segment.    |
+| [1:1 Dashboards - Accounts: AMER COMM](https://gitlab.my.salesforce.com/01ZPL000000YXPl?) | 1:1 dashboard for accounts in the AMER COMM segment.    |
 | [1:1 Dashboards - Accounts: ENG AMER/LATAM](https://gitlab.my.salesforce.com/01Z8X000000u7Ww) | 1:1 dashboard for accounts in the ENG AMER/LATAM segment. |
 | [1:1 Dashboards - Accounts: COMM APJ](https://gitlab.my.salesforce.com/01ZPL000000YXxd)   | 1:1 dashboard for accounts in the Commercial APJ segment.     |
 | [1:1 Dashboards - Accounts: ENTG APJ](https://gitlab.my.salesforce.com/01Z8X000000u7Wm) | 1:1 dashboard for accounts in the ENTG APJ segment. |

@@ -212,7 +212,7 @@ Solution Architects should participate in [technical discovery](#technical-disco
 - Prospect Q&A sessions
 - RFI/RFP completion
 - PoV planning, documentation and execution strategy
-- [Security Audits](https://about.gitlab.comhandbook/security/security-assurance/field-security/customer-security-assessment-process.html)
+- [Security Audits](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html)
 - [SOW Scoping with Professional Services](/handbook/customer-success/professional-services-engineering/selling/)
 
 SA's may also work in tandem with a CSM to support existing customers, especially when expand opportunities exist within the account. And SA's may also have regular touch points smaller customers who do not have a CSM assigned.

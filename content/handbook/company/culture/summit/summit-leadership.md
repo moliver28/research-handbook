@@ -99,7 +99,7 @@ It is important to recognize that people from different cultures have different 
 Summit attendees should also remember:
 
 - We have various generations and 50+ countries/cultures coming together for several straight days, versus our normal routine of interacting remotely.
-- We are guests of this country, of the hotel, and of the sites we will visit - it is our privilege to be there, and we need to be ambassadors of GitLab and lead by example the whole time according to [our values]({{< ref "values" >}}).
+- We are guests of this country, of the hotel, and of the sites we will visit - it is our privilege to be there, and we need to be ambassadors of GitLab and lead by example the whole time according to [our values](/handbook/values/).
 - Be sensitive to political, religious and other potentially divisive conversations
 
 ### Lost in Translation

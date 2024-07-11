@@ -134,7 +134,7 @@ This policy is not intended to restrict communications or actions protected or r
 
 ### Approval for Outside Activities
 
-Before beginning outside employment, side projects, or other activities, whether paid or unpaid, that could potentially impair your ability to perform your obligations to GitLab or could be deemed a conflict of interest (collectively referred to as "outside activities"), you must disclose the activity in writing to your Manager, and further escalate as needed. Approval will not be granted if GitLab determines that the proposed outside activity would be a conflict of interest under the Code of Business Conduct and Ethics. Candidates at a certain stage in the recruiting process will also be asked to disclose outside employment, side projects, or other activities in order for GitLab to determine whether a conflict exists with their ability to perform their obligations to GitLab.
+Before beginning outside employment, side projects, or other activities, whether paid or unpaid (collectively referred to as "outside activities"), you must disclose the activity in writing to your Manager, and further escalate as needed. Approval will not be granted if GitLab determines that the proposed outside activity would be a conflict of interest under the Code of Business Conduct and Ethics or if it would compromise a team member's ability to perform their job effectively. Candidates at a certain stage in the recruiting process will also be asked to disclose outside employment, side projects, or other activities in order for GitLab to determine whether a conflict exists with their ability to perform their obligations to GitLab.
 
 #### Steps as a current candidate (actively engaged in the hiring process)
 

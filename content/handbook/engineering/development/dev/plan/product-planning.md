@@ -63,7 +63,7 @@ See the [Plan stage page](/handbook/product/categories/#plan-stage) and the [Pla
 
 Work that arrives in ~"workflow::ready for development" that is out of scope
 or ill-defined should be
-[returned to ~"workflow::planning breakdown" for further refinement](https://about.gitlab.com/handbook/product-development-flow/#build-phase-2-develop--test).
+[returned to ~"workflow::planning breakdown" for further refinement](/handbook/product-development-flow/#build-phase-2-develop--test).
 To avoid the disruption this introduces we try to reduce the number of times
 it happens by planning more carefully. While it's not always possible, we aim
 to identify complexity before the build phase, such as by assigning an engineering

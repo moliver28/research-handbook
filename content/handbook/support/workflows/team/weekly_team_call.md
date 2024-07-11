@@ -23,6 +23,10 @@ convenient, but all are welcome on any call. Every call is recorded and notes
 are taken on the agenda for each one. If you miss a meeting or otherwise can't
 make it, you can always get caught up.
 
+For the AMER team, **while attending the meetings is optional, engagement in
+the meeting agenda is required**. Engagement opportunities include contributing to
+the agenda, watching a meeting recording, and reading the meeting notes.
+
 The APAC team meets at 03:00am UTC:
 
 - This time works best for team members from all APAC timezones.

@@ -225,6 +225,6 @@ Steps for creating the alerts:
 
 Tool that helps you monitor, analyze and optimize your website speed and performance.
 
-* [Documentation](https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html#overview)
+* [Documentation](https://docs.gitlab.com/ee/ci/testing/browser_performance_testing.html#overview)
 * [GitLab.com Sitespeed Measurement Repository](https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup/)
 * [How we used sitespeed.io to measure Frontend performance](https://www.youtube.com/watch?v=6xo01hzW-f4)

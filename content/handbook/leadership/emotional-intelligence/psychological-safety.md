@@ -31,7 +31,7 @@ Why is psychological safety important? When you have psychological safety in the
 - Collaboration
 - Innovation
 - Inclusion
-- Wellbeing
+- Well-being
 - Culture
 
 ![Psychological Safety How it Works](/images/handbook/leadership/psych-safety-how-it-works.png)

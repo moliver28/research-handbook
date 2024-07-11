@@ -109,4 +109,4 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 ## Usage Data for AI-Powered Features
 
-AI-powered features, such as Code Suggestions, are not encompassed by the descriptions on this page.  Those features are subject to their own collection configuration.  Usage data and telemetry collected for AI-powered features will be detailed on the Gitlab Duo Docs page [here](https://docs.gitlab.com/ee/user/gitlab_duo/data_usage.html#telemetry).
+AI-powered features, such as Code Suggestions, are not encompassed by the descriptions on this page.  Those features are subject to their own collection configuration.  Usage data and telemetry collected for AI-powered features will be detailed on the GitLab Duo Docs page [here](https://docs.gitlab.com/ee/user/gitlab_duo/data_usage.html#telemetry).
