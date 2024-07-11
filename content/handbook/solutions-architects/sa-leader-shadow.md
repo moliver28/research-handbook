@@ -56,7 +56,7 @@ Develop goals for your time as a SA People Leader Shadow. To make your goals mor
 
 ### Coffee chat with SA People Leaders
 
-Before your scheduled rotation, try to schedule coffee chats with at least three SA people leaders before you start the program. This gives you the opportunity to get to know them before the rotation.
+Before your scheduled rotation, try to schedule coffee chats with a few SA people leaders before you start the program. This gives you the opportunity to get to know them before the rotation.
 
 Use this coffee chat to express to them your interest in people leadership as well as to seek advice / feedback on your goals.
 
