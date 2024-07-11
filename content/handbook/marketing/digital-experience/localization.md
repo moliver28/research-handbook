@@ -8,7 +8,6 @@ description: >-
 
 Both the Digital Experience team and the [Localization team](https://handbook.gitlab.com/handbook/marketing/localization/) have collaborated for many quarters, and we would like to outline our learnings to work more efficiently together. 
 
-
 ### Summary
 
 ![Flowchart of process current process](current-expected-localization-flow.png) 
@@ -22,13 +21,15 @@ All of this has been synthesized by the [following issue comment](https://gitlab
 1. Techology: The engineering review process, and integration with other tools
 1. People: Project management, including flow and organization
 
-
 ### How Engineering kicks off a translation request
 
 Engineers can kick off the translation process by [creating a new issue using the localization template](https://gitlab.com/gitlab-com/localization/issue-tracker/-/issues/new?issuable_template=localization-request) in the [Localization Issue Tracker project](Localization Issue Tracker). This eventually leads to an item being created in 
 
 Note that the source language's content must be completed for this to go through. Given that it takes them between 5-7 days to translate, communicate that with your stakeholders before commiting to work. As a general rule, content should be completed before the start of an iteration to give ample time for translations and LQA.
 
+### When should pages become translated? Is it possible to release pages in multiple languages? 
+
+We are not at a mature enough spot to release in multiple languages. In our current state, we struggle between the increased lead time for translators, more complex QA process across languages, and alignment between different teams. We are firing off translation request *after* the page is live in english. This is to avoid back and forth between content and localization.
 
 #### Best practices when building marketing pages to support internationalizaion
 
@@ -37,34 +38,25 @@ Note that the source language's content must be completed for this to go through
   - When net new pages are created, we should use the `i10n-attention` [label](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&sort=relevance&search=l10n-attention)
   - [Overflowing text](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/171) due to the length of different character averages among locales
 
-
-### Requesting access into Argo
+### What is Argo? How do I requesting access into Argo?
 
 Argo is a translation service used by the localization team to manage files and assets that are to be translated. This epic was created to track onboarding into [Argo](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/156). Here are issues that talk about [assets](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/173) and [requests](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/174) in the UI. You can do request content that lives in YAML, or that [exists in Contentful](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/172) 
 
-
-
-
-### How do we localize YML? 
-
-
 ### How do we deal with Marketo Forms? 
 
-Right now, each Marketo form ID is unique per every locale. We are looking into a potential solution so that one form holds each locale's content. 
-
+Right now, each Marketo form ID is unique per every locale. We are looking into a potential solution so that one form holds each locale's content. This is being scoped out in [this issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/3873). 
 
 ### Contentful
 
-
 #### What are source entries in Contentful?
 
+This content comes from this [issue](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/68), where we define source entries as a relationship between the authored content and the localized version. This is so that updates to the authored content can be correctly changed on the corresponding cloned entry.
 
-#### What is the difference between field level and entry level localization? 
+#### What is the difference between field-level and entry-level localization? 
 
-
-
-
-
+ Field level localization allows content in different locales to exist within the same entry, with each locale being a field of the entry. Entry level localization is when every different localized content pieces are used as unique net-new entries with each locale. One way to think about this is that field-level localization creates more fields, but less entries. Entry-level localization creates more entries, but less fields.  
+ 
+ Per this [comment](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/3683#note_1901051450), we typically use both field and entry-level localization. It is up to the localization team in collaboration with Digital Experience to see which approach makes the most sense. 
 
 
 
