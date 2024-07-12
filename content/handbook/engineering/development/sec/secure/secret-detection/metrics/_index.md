@@ -131,12 +131,12 @@ Each database metric has to have an accompanying metric dictionary like Internal
 Tracking Events. Unfortunately, database metrics are not yet supported by the CLI so must be done by hand.
 
 1. Create a yaml file in the appropriate subdirectory of `config/metrics` or `ee/config/metrics` if it's a metric limited to an enterprise tier.
-  1. If the metric is meant to capture all time, use the `counts_all` subdirectory.
-  1. Otherwise use the appropriate `counts_7d` or `counts_28d` subdirectory for weekly and monthly metrics respectively.
+    1. If the metric is meant to capture all time, use the `counts_all` subdirectory.
+    1. Otherwise use the appropriate `counts_7d` or `counts_28d` subdirectory for weekly and monthly metrics respectively.
 1. Use existing yaml files as templates
 1. Use the schema defined [here](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html).
 
-NOTE: Make sure that the milestone is a string
+NOTE: Make sure that the milestone is a string.
 
 #### Testing
 
