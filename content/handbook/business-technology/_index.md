@@ -51,7 +51,7 @@ project management resources to support all IT initiatives. Our services consist
 
 Our architecture team manages all of the integrations and automations between Enterprise Applications at GitLab. Focusing on building out failover, redundant and auditable integrations that are constantly monitored. Developing automations to eliminate manual and repetitive tasks along with contributing to improved efficiency, service quality, and overall organizational performance.
 
-### IT Services & Operations
+### Services & Operations
 
 Enterprise Application Services (EAS) provides  horizontal support, operations, administration, governance, risk assessment, and compliance of Enterprise Services. Leveraging the ITIL framework, EAS is responsible for the end-to-end service and application lifecycle management, and promotes operational excellence through Enforcement of IT Policies & Procedure, including Change-, Release-, and Incident Management, while ensuring operating effectiveness through Compliance Reviews.
 
