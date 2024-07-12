@@ -127,6 +127,75 @@ These items must be triaged continuously throughout the milestone which means th
         - If the incident isn't resolved in 30 minutes or more, investigate on it.
         - Write down in the insident Slack thread all the steps that were done to resolve it.
 
+#### Handover
+
+As Reaction Rotation is continous process, post the handover status to the issue using the following template:
+
+<details>
+<summary>Reaction Rotation Handover Template</summary>
+
+### Reaction Rotation Handover Template
+
+---
+
+**Handover Date:** [Current Date]
+
+**Outgoing Engineer:** [Your Name]
+
+**Incoming Engineer:** [Next Engineer's Name]
+
+---
+
+#### **Ongoing Tasks and Issues**
+
+1. **Security Tasks:**
+   - **Vulnerabilities:**
+     - [Issue #1234](link to issue): Description of the vulnerability, current status, and next steps.
+     - [Issue #5678](link to issue): Description of the vulnerability, current status, and next steps.
+   - **Security Automation Failures:**
+     - [Automation Job #9012](link to job): Description of the failure, any initial troubleshooting steps taken, and next steps.
+   - **Dependency Updates:**
+     - [Dependency Update #3456](link to update): Description, current status, and next steps for updating the dependency.
+
+2. **Support Tasks:**
+   - **Support Requests:**
+     - [Request #7890](link to request): Description of the support request, current status, and any communication with the requester.
+     - [Request #2345](link to request): Description of the support request, current status, and any communication with the requester.
+   - **Slack Channels Monitoring:**
+     - #g_secure-composition-analysis: Summary of recent discussions, any unresolved questions, and pending actions.
+     - #s_secure-alerts: Summary of recent alerts, any unresolved issues, and pending actions.
+
+3. **Maintenance Tasks:**
+   - **Community Contributions:**
+     - [Merge Request #6789](link to MR): Description of the contribution, current status, and next steps.
+     - [Merge Request #4321](link to MR): Description of the contribution, current status, and next steps.
+   - **Scheduled Bugs and Maintenance Issues:**
+     - [Issue #3456](link to issue): Description of the issue, current status, and next steps.
+     - [Issue #9876](link to issue): Description of the issue, current status, and next steps.
+
+#### **Completed Tasks**
+
+1. **Security Tasks:**
+   - [Completed Security Task #1234](link to task): Brief description of the task and resolution.
+   - [Completed Security Task #5678](link to task): Brief description of the task and resolution.
+
+2. **Support Tasks:**
+   - [Completed Support Request #9012](link to request): Brief description of the request and resolution.
+   - [Completed Support Request #3456](link to request): Brief description of the request and resolution.
+
+3. **Maintenance Tasks:**
+   - [Completed Maintenance Issue #7890](link to issue): Brief description of the issue and resolution.
+   - [Completed Community Contribution #2345](link to MR): Brief description of the contribution and resolution.
+
+#### **Additional Notes**
+  
+1. **Any additional context or notes relevant to the next engineer:**
+   - Additional Note.
+
+This handover template ensures that the incoming engineer is fully informed of the current status of tasks, issues, and any important context. It facilitates a smooth transition and minimizes the risk of overlooking critical responsibilities.
+
+</details>
+
 ### Security vulnerabilities triaging process
 
 We are responsible for triaging vulnerabilities reported on 2 sets of projects: the projects maintained by GitLab and the upstream scanner software we might depend on. Though, we have different processes that apply depending on the situation.
