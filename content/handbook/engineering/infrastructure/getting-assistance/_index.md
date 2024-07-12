@@ -43,13 +43,25 @@ We can help with:
 
 Contact us in [#g_delivery](https://gitlab.enterprise.slack.com/archives/CCFV016SV)
 
-### Scalability
+### Scalability - Observability
 
-[#g_scalability](https://gitlab.enterprise.slack.com/archives/CMMF8TKR9)
-[#g_scalability-practices](https://gitlab.enterprise.slack.com/archives/C04M6HVAY49)
-[#g_scalability-observability](https://gitlab.enterprise.slack.com/archives/C065RLJB8HK)
+Contact us in: [#g_scalability-observability](https://gitlab.enterprise.slack.com/archives/C065RLJB8HK)
 
+We can help with:
+- Observability
+- Metrics
+- Grafana / Kibana / Mimir / Prometheus
+- Error Budgets
+- Capacity Planning
 
+### Scalability - Practices
+
+Contact us in: [#g_scalability-practices](https://gitlab.enterprise.slack.com/archives/C04M6HVAY49)
+
+We can help with:
+- Runway
+- Redis
+- Sidekiq
 
 ## Dedicated
 
