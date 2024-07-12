@@ -17,7 +17,6 @@ If you have read this whole page and are unsure how to proceed, please ask in th
 
 [#g_infra_ops](https://gitlab.enterprise.slack.com/archives/C04MH2L07JS)
 
-
 ### Production Engineering - Foundations
 
 Contact us in: [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6)
@@ -25,6 +24,7 @@ Contact us in: [#g_infra_foundations](https://gitlab.enterprise.slack.com/archiv
 Open an issue in our [Production engineering tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-foundations)
 
 We can help with:
+
 - Networking
 - Rate Limiting
 - K8s
@@ -48,6 +48,7 @@ Contact us in [#g_delivery](https://gitlab.enterprise.slack.com/archives/CCFV016
 Contact us in: [#g_scalability-observability](https://gitlab.enterprise.slack.com/archives/C065RLJB8HK)
 
 We can help with:
+
 - Observability
 - Metrics
 - Grafana / Kibana / Mimir / Prometheus
@@ -59,9 +60,9 @@ We can help with:
 Contact us in: [#g_scalability-practices](https://gitlab.enterprise.slack.com/archives/C04M6HVAY49)
 
 We can help with:
+
 - Runway
 - Redis
 - Sidekiq
 
 ## Dedicated
-
