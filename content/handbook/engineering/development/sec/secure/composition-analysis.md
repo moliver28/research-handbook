@@ -127,7 +127,6 @@ These items must be triaged continuously throughout the milestone which means th
         - If the incident isn't resolved in 30 minutes or more, investigate on it.
         - Write down in the insident Slack thread all the steps that were done to resolve it.
 
-
 #### Handover
 
 As Reaction Rotation is continous process, post the handover status to the issue using the following template:
@@ -188,9 +187,10 @@ As Reaction Rotation is continous process, post the handover status to the issue
    - [Completed Maintenance Issue #7890](link to issue): Brief description of the issue and resolution.
    - [Completed Community Contribution #2345](link to MR): Brief description of the contribution and resolution.
 
-
 #### **Additional Notes**
-  - [Any additional context or notes relevant to the next engineer]
+  
+1. **Any additional context or notes relevant to the next engineer:**
+   - Additional Note.
 
 This handover template ensures that the incoming engineer is fully informed of the current status of tasks, issues, and any important context. It facilitates a smooth transition and minimizes the risk of overlooking critical responsibilities.
 
