@@ -67,7 +67,7 @@ Candidates for a position in the Security Operations team can expect the hiring 
 
 ### Security Operations Engineer (Intermediate)
 
-This position reports to the [Manager, Security Operations](#manager-security-incident-response-team) in your corresponding geographical region.
+This position reports to the [Manager, Security Operations](#manager-security-operations) in your corresponding geographical region.
 
 #### Security Operations Engineer (Intermediate) Job Grade
 
