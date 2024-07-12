@@ -121,7 +121,8 @@ The Senior Security Operations Engineer is a [grade 7](/handbook/total-rewards/c
 
 ### Staff Security Operations Engineer
 
-This position reports to the [Manager, Security Operations](#manager-security-operations).
+This position reports to the [Manager, Security Operations](#manager-security-operations). 
+The Staff Security Operations engineer is an extension of Security Operations leadership and works hand in hand with the manager to solve complex, bigger-picture problems. 
 
 #### Staff Security Operations Engineer Job Grade
 
@@ -129,12 +130,19 @@ The Staff Security Operations Engineer is a [grade 8](/handbook/total-rewards/co
 
 #### Staff Security Operations Engineer Responsibilities
 
-- Extends Senior Security Incident Response Engineer responsibilities, plus;
-- SME in incident response, mentoring and training other members of Security Operations
-- Participate in the Security Incident Manager on-call rotation
-- Lead the design, evaluation, implementation and deployment of new security technologies
-- Maintain knowledge of emerging threats, security technologies and academic research for application in the protection of the organization and GitLab.com
-- Lead efforts to design and collect incident response metrics and improve efficiency and effectiveness of incident response plans
+- Extends Senior Security Incident Response Engineer responsibilities, plus:
+- Subject Matter Expert (SME) in security operations, providing mentoring and training to other members of the Security Operations team
+- Lead the design, evaluation, implementation, and deployment of new security technologies to enhance the organization’s security posture
+- Maintain up-to-date knowledge of emerging threats, security technologies, and academic research for application in the protection of the organization and GitLab.com
+- Participate in on-call duties at least quarterly to maintain an understanding of response operations and provide support, particularly in regions with limited coverage
+- Lead efforts to design and collect security operations metrics, and improve the efficiency and effectiveness of incident response plans
+- Tackle complex technical issues and problems that cross other teams and significantly impact the business, especially those that other engineers have been unsuccessful in resolving
+- Direct the implementation of solutions in collaboration with the team and provide guidance where necessary
+- Develop strong relationships with Managers, who should help guide rather than direct staff engineers
+- Make critical decisions during incidents, including containment actions, ensuring a timely and effective response
+- Build and maintain cross-functional relationships with other Staff Engineers and Managers, acting as an extension of leadership and fostering collaboration
+- Evangelize best practices, promote security awareness, and drive continuous improvement within the organization
+- Provide cross-training and coverage for Security Logging until adequate coverage is achieved
 
 #### Staff Security Operations Engineer Requirements
 
