@@ -1,13 +1,17 @@
 ---
-title: "Security Incident Response Team"
-description: "As members of GitLab's Security Operations sub department, the Security Incident Response Team detects, manages, and remediates security incidents across GitLab."
+title: "Security Operations Team"
+description: "As members of GitLab's Security Operations department, the Security Operations team is divided into three focus areas: Security Incident Response, Trust & Safety, and Security Logging."
 extra_js:
 - libs/mermaid.min.js
 ---
 
-As members of GitLab's [Security Operations sub department](/handbook/security/security-operations/), the [Security Incident Response Team](/handbook/security/security-operations/sirt/) detects, manages, and remediates security incidents across GitLab. Members of the Security Incident Response Team (SIRT) are the fire fighters of the GitLab Security department. SIRT works to create and maintain a safe and secure operating environment for the organization and its customers and responds to active security incidents. As a Security Engineer on SIRT you will build and maintain the tools we use to detect and respond to emerging threats in efficient and scalable ways, respond to security incidents and drive them to resolution, and develop and deploy preventative security measures for the GitLab organization and GitLab.com. Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user's data safe in an ever changing threat landscape.
+As members of GitLab's [Security Operations department](/handbook/security/security-operations/), the [Security Operations](/handbook/security/security-operations/sirt/) is divided into three focus areas: Security Incident Response, Trust & Safety, and Security Logging, and is operational 24/7 with a follow-the-sun rotation. The Security Operations (SecOps) team detects, manages, and remediates security incidents across GitLab. Members of SecOps are the defenders and firefighters of the GitLab Security division. SecOps works to create and maintain a safe and secure operating environment for the organization and its customers and responds to active security incidents. As a Security Engineer on SecOps you will build and maintain the tools we use to detect and respond to emerging threats in efficient and scalable ways, work to increase our observability over the organisation to catch threats early, respond to security incidents and drive them to resolution, and develop and deploy preventative security measures for the GitLab organization and GitLab.com. Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user's data safe in an ever changing threat landscape.
 
 ## Responsibilities
+
+There are three areas of focus within the Security Operations team. 
+
+### Security Incident Response Team
 
 - Detect and respond to company-wide security incidents, coordinating cross-functional teams to mitigate and eradicate threats
 - Monitor and analyze emerging threats, vulnerabilities and exploits
@@ -15,25 +19,61 @@ As members of GitLab's [Security Operations sub department](/handbook/security/s
 - Incorporate current security trends, advisories, publications, and academic research
 - Communicate risks and mitigations across multiple audiences
 
+### Trust & Safety
+
+- Monitor and mitigate abusive activity on GitLab.com
+- Triage and respond to Trust and Safety related incidents and reports
+- Create, maintain and improve operational workflows in Trust and Safety
+- Utilize log ingestion platforms for analyzing and identifying the tactics, techniques and patterns of abusive users
+- Assist with training and onboarding of new team members
+
+### Security Logging
+
+- Be part of the architectural direction, administration, maintenance, documentation, and oversight of the Security information and event management [[SIEM](https://en.wikipedia.org/wiki/Security_information_and_event_management)] solution
+- Create and maintain integrations and solutions for the log collection, aggregation, indexing, search, alerting
+- Manage implementation, enhancement and adoption of the solutions built by the team into operations
+- Utilize log ingestion platform for security analytics and identification of tactics, techniques and patterns of attackers
+- Collect and review security logs from all systems (Cloud Providers, GitLab, OS, G-Suite, OKTA, IDS, etc.)
+- Ensure compliance with internal policies, standards, and regulatory requirements
+
 ## Requirements
 
 - Ability to use GitLab
-- Experience with designing and implement processes and tools to improve incident handling and resolution
+- Good written and verbal communication skills, including proficiency to communicate over text-based mediums (Slack, GitLab Issues, Email) and the ability to succinctly document technical details
+- Experience working in site-reliability engineering, cloud security, system engineering, or similar positions 
+- Experience with designing and implementing processes and tools to improve incident handling and resolution
+- Experience with Google Cloud Platform (preferred) or Amazon Web Services
+- Substantial knowledge of the Linux operating system
 - Technical knowledge of systems in a multi-tenant, cloud environment
-- Proficiency to communicate over a text-based medium (Slack, GitLab Issues, Email) and can succinctly document technical details
-- Share our [values](/handbook/values/), and work in accordance with those values
+- Experience with one or more programming languages (Python and either Ruby, Go, or PHP)
+- Demonstrated experience with running systems at scale
+- You are a team player and enjoy collaborating with cross-functional teams
+- You are a great communicator
+- You employ a flexible and constructive approach when solving problems
+- You are comfortable with moving forward when faced with ambiguity
+- You share our [values](/handbook/values/), and work in accordance with those values
+
+## Hiring Process
+
+Candidates for a position in the Security Operations team can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
+
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Next, candidates will be invited to schedule an interview with Security Incident Response Team Manager
+- Candidates will then be invited to schedule an interview with 2 SIRT peers, one of which will be a Senior
+- Candidates will then be invited to schedule an interview with Director of Security Operations
+- Successful candidates will subsequently be made an offer via email
 
 ## Levels
 
-### Security Incident Response Team Engineer (Intermediate)
+### Security Operations Engineer (Intermediate)
 
-This position reports to the [Manager, Security Incident Response Team](#manager-security-incident-response-team).
+This position reports to the [Manager, Security Operations](#manager-security-incident-response-team) in your corresponding geographical region.
 
-#### Security Incident Response Team Engineer (Intermediate) Job Grade
+#### Security Operations Engineer (Intermediate) Job Grade
 
-The Security Incident Response Team Engineer is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Security Operations Engineer is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Security Incident Response Team Engineer (Intermediate) Responsibilities
+#### Security Operations Engineer (Intermediate) Responsibilities
 
 - Detect and respond to basic security incidents across the organization or GitLab.com
 - Implement and monitor security measures for the protection of corporate and production infrastructure
@@ -44,7 +84,7 @@ The Security Incident Response Team Engineer is a [grade 6](/handbook/total-rewa
 - Digital forensics & incident response (DFIR)
 - Identify and mitigate complex security vulnerabilities before an attacker exploits them
 
-#### Security Incident Response Team Engineer (Intermediate) Requirements
+#### Security Operations Engineer (Intermediate) Requirements
 
 - A minimum of 2 years experience working with incident response
 - Good written and verbal communication skills
@@ -52,17 +92,17 @@ The Security Incident Response Team Engineer is a [grade 6](/handbook/total-rewa
 - Familiarity with Google Cloud Platform (GCP), AWS, and/or Azure
 - Substantial engineering mindset
 
-### Senior Security Incident Response Team Engineer
+### Senior Security Operations Engineer
 
-This position reports to the [Manager, Security Incident Response Team](#manager-security-incident-response-team).
+This position reports to the [Manager, Security Incident Response Team](#manager-security-operations).
 
-#### Senior Security Incident Response Team Engineer Job Grade
+#### Senior Security Operations Engineer Job Grade
 
-The Senior Security Incident Response Team Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Security Operations Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Security Incident Response Team Engineer Responsibilities
+#### Senior Security Operations Engineer Responsibilities
 
-- Extends Security Incident Response Engineer responsibilities, plus;
+- Extends Security Operations Engineer responsibilities, plus;
 - Detect and independently respond to security incidents across the organization or GitLab.com
 - Conduct proactive threat hunting based on threat intel
 - Perform forensic analysis of infected hosts independently
@@ -71,7 +111,7 @@ The Senior Security Incident Response Team Engineer is a [grade 7](/handbook/tot
 - Build and maintain scalable log ingestion and analytics platforms and tooling
 - Perform root cause analysis (RCA) and incident reviews
 
-#### Senior Security Incident Response Team Engineer Requirements
+#### Senior Security Operations Engineer Requirements
 
 - 5+ years of demonstrated experience in web or cloud security engineering, log aggregation, and/or penetration testing
 - A minimum of 2 years experience working with incident response
@@ -79,25 +119,15 @@ The Senior Security Incident Response Team Engineer is a [grade 7](/handbook/tot
 - Capability to build working relationships with key stakeholders
 - Experience with operating system internals and hardening, web application and browser security, and monitoring and intrusion detection
 
-### Hiring Process
+### Staff Security Operations Engineer
 
-Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
+This position reports to the [Manager, Security Incident Response Team](#manager-security-operations).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
-- Next, candidates will be invited to schedule an interview with Security Incident Response Team Manager
-- Candidates will then be invited to schedule an interview with 2 SIRT peers, one of which will be a Senior
-- Candidates will then be invited to schedule an interview with Director of Security Operations
-- Successful candidates will subsequently be made an offer via email
-
-### Staff Security Incident Response Team Engineer
-
-This position reports to the [Manager, Security Incident Response Team](#manager-security-incident-response-team).
-
-#### Staff Security Incident Response Team Engineer Job Grade
+#### Staff Security Operations Engineer Job Grade
 
 The Staff Security Incident Response Team Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Staff Security Incident Response Team Engineer Responsibilities
+#### Staff Security Operations Engineer Responsibilities
 
 - Extends Senior Security Incident Response Engineer responsibilities, plus;
 - SME in incident response, mentoring and training other members of the Security Incident Response Team
@@ -106,7 +136,7 @@ The Staff Security Incident Response Team Engineer is a [grade 8](/handbook/tota
 - Maintain knowledge of emerging threats, security technologies and academic research for application in the protection of the organization and GitLab.com
 - Lead efforts to design and collect incident response metrics and improve efficiency and effectiveness of incident response plans
 
-#### Staff Security Incident Response Team Engineer Requirements
+#### Staff Security Operations Engineer Requirements
 
 - 10 years of demonstrated experience in web or cloud security engineering, log aggregation, and/or penetration testing
 - Profound knowledge of attack and mitigation methods
@@ -114,15 +144,15 @@ The Staff Security Incident Response Team Engineer is a [grade 8](/handbook/tota
 - Experience with threat modeling
 - Experience in the development of security tools and automation
 
-### Manager, Security Incident Response Team
+### Manager, Security Operations
 
-This position reports to the [Senior Manager, Security Incident Response Team](#senior-manager-security-incident-response-team).
+This position reports to the [Senior Manager, Security Incident Response Team](#senior-manager-security-operations).
 
-#### Manager, Security Incident Response Team Job Grade
+#### Manager, Security Operations Job Grade
 
 The Security Incident Response Team Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Manager, Security Incident Response Team Responsibilities
+#### Manager, Security Operations Responsibilities
 
 - Hire a world class team of security engineers to work on their team
 - Help their team grow their skills and experience
@@ -137,7 +167,7 @@ The Security Incident Response Team Manager is a [grade 8](/handbook/total-rewar
 - Build a substantial, collaborative partnership with Legal, Infrastructure, Development and Product departments
 - Assume the role of an Incident Manager during larger security events
 
-#### Manager, Security Incident Response Team Requirements
+#### Manager, Security Operations Requirements
 
 - Proven track record as an experienced member of Security Operations or Incident Response teams - either as an Individual Contributor or as a Manager
 - Experience with leading Security or security-focused Site Reliability teams
@@ -152,17 +182,17 @@ The Security Incident Response Team Manager is a [grade 8](/handbook/total-rewar
 - First hand experience with major cloud providers - GCP, AWS, Azure, Digital Ocean
 - Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/structure/#management-group)
 
-### Senior Manager, Security Incident Response Team
+### Senior Manager, Security Operations
 
 This role reports to the [Director of Security Operations](/job-families/security/security-leadership/#director-security-operations).
 
-#### Senior Manager, Security Incident Response Team Job Grade
+#### Senior Manager, Security Operations Job Grade
 
 The Security Incident Response Team Senior Manager is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Manager, Security Incident Response Team Responsibilities
+#### Senior Manager, Security Operations Responsibilities
 
-- Extends Manager, Security Incident Response Team responsibilities, plus;
+- Extends Manager, Security Operations responsibilities, plus;
 - Provide tactical oversight of the teams' daily efforts
 - Maintain vision for the teams' immediate and near-term future
 - Develop and maintain teams' KPIs
@@ -173,7 +203,7 @@ The Security Incident Response Team Senior Manager is a [grade 9](/handbook/tota
 - Build a substantial, collaborative partnership with your peers in the Legal, Infrastructure, IT, Development and Product departments
 - Being part of the Security Escalation On-Call rotation
 
-#### Senior Manager, Security Incident Response Team Requirements
+#### Senior Manager, Security Operations Requirements
 
 - Experience with leading people managers
 - Experience with leading Security or security-focused Site Reliability teams
@@ -203,16 +233,4 @@ The Security Incident Response Team Senior Manager is a [grade 9](/handbook/tota
   sec:sesm(Security Incident Response Senior Manager)-->sec:ds(Director of Security Operations);
 ```
 
-For details on the Security organization leadership roles, to include the Security Operations Director and VP of Security, see the Security Leadership page.
-
-## Hiring Process
-
-Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
-
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
-- Next, candidates will be invited to schedule an interview with Security Incident Response Team Manager
-- Candidates will then be invited to schedule an interview with Senior Security Incident Response Team Engineer, Red Team Manager, Trust & Safety Manager
-- Candidates will then be invited to schedule an interview with Director of Security Operations
-- Successful candidates will subsequently be made an offer via email
-
-Additional details about our process can be found on our [hiring page](/handbook/hiring/).
+For details on the Security division leadership roles, to include the Security Operations Director and VP of Security, see the Security Leadership page.
