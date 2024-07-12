@@ -1,11 +1,11 @@
 ---
 title: Growth and Development Fund
-description: A description of programs and resources for team members to access when using the Growth and Development Fund.
+description: A description of programs and resources for team members to access when using the Gt Fund.
 ---
 
 ## Introduction
 
-The Growth and Development fund is managed by the [Talent Development team](/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
+The Growth and Development (G&D) fund is managed by the [Talent Development team](/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
 
 GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) depending on tenure, performance, company need for the learned skill, and available budget.
 
