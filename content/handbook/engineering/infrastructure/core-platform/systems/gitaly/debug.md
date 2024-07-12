@@ -44,7 +44,9 @@ A standardized dashboard should have a top-level section containing environment 
 
 Such dashboards usually include two parts. The second half contains panels of custom metrics collected from Gitaly. The first half is more complicated. It contains GitLab-wide indicators telling if Gitaly is "healthy" and node-level resource metrics. The aggregation and calculation are sophisticated. In summary, those dashboards tell us if Gitaly performs well according to predefined [thresholds](https://gitlab.com/gitlab-com/runbooks/-/blob/master/metrics-catalog/services/gitaly.jsonnet), . We could contact [Scalability:Observability Team](../../../team/scalability/observability/) for any questions.
 
-![Gitaly Debug Indicators](gitaly-debug-indicators.png)
+[//]: # (Here be dragons. The file "debug.md" renders as the path /debug/ in Hugo, therefore the images are not found. Also, this is a comment.)
+
+![Gitaly Debug Indicators](../gitaly-debug-indicators.png)
 
 Some examples of using built-in dashboards to investigate production issues, from an Engineer's point of view:
 
@@ -58,7 +60,7 @@ A panel in a dashboard is a visualization of the aggregated version of underlyin
 
 In a dashboard, you can click on the top-right hamburger button and choose "Explore" to get access to the underlying metrics. Or you could use [the Explore page](https://dashboards.gitlab.net/explore) to play with metrics.
 
-![Gitaly Debug Explore](gitaly-debug-explore.png)
+![Gitaly Debug Explore](../gitaly-debug-explore.png)
 
 Unfortunately, we don't have a curated list of all Gitaly metrics as well as their definition. So, you might need to look up their definition at multiple places. Here is [the list of all Gitaly-related metrics](https://dashboards.gitlab.net/explore?schemaVersion=1&panes=%7B%22pum%22%3A%7B%22datasource%22%3A%22mimir-gitlab-gprd%22%2C%22queries%22%3A%5B%7B%22refId%22%3A%22A%22%2C%22expr%22%3A%22group+by%28__name__%29+%28%7B__name__%3D%7E%5C%22.*gitaly.*%5C%22%2C+job%21%3D%5C%22prometheus%5C%22%7D%29%22%2C%22range%22%3Atrue%2C%22instant%22%3Atrue%2C%22datasource%22%3A%7B%22type%22%3A%22prometheus%22%2C%22uid%22%3A%22mimir-gitlab-gprd%22%7D%2C%22editorMode%22%3A%22code%22%2C%22legendFormat%22%3A%22__auto%22%7D%2C%7B%22refId%22%3A%22B%22%2C%22expr%22%3A%22group+by%28__name__%29+%28%7Btype%3D%5C%22gitaly%5C%22%2C+job%21%3D%5C%22prometheus%5C%22%7D%29%22%2C%22range%22%3Atrue%2C%22instant%22%3Atrue%2C%22datasource%22%3A%7B%22type%22%3A%22prometheus%22%2C%22uid%22%3A%22mimir-gitlab-gprd%22%7D%2C%22editorMode%22%3A%22code%22%2C%22legendFormat%22%3A%22__auto%22%7D%5D%2C%22range%22%3A%7B%22from%22%3A%22now-1h%22%2C%22to%22%3A%22now%22%7D%7D%7D&orgId=1). There are some sources
 
@@ -66,7 +68,7 @@ Unfortunately, we don't have a curated list of all Gitaly metrics as well as the
 - Gitaly-specific metrics. Those metrics are accounted for directly in the code. Typically, they have `gitaly_` prefixes.
 - Aggregated metrics, such as combining different metrics or downsizing metrics due to high cardinality issues. The list of Gitaly's aggregated metrics is listed [in this file](https://gitlab.com/gitlab-com/runbooks/-/blob/master/mimir-rules/gitlab-gprd/gitaly/gitaly.yml).
 
-![Gitaly Debug Metric Lists](gitaly-debug-list-metrics.png)
+![Gitaly Debug Metric Lists](../gitaly-debug-list-metrics.png)
 
 In the code, you'll see something like the following. Any registered metrics are available when Prometheus scrapes from the endpoint. Tracing those instances, you could find the usage of Gitaly-specific metrics.
 
