@@ -1,5 +1,8 @@
 ---
-title: "GitLab Co-Creation Initiative"
+title: "GitLab Co-Create Initiative"
+aliases:
+- /handbook/marketing/developer-relations/cocreate/
+- /handbook/marketing/developer-relations/cocreation/
 ---
 
 ## Goal
@@ -28,7 +31,7 @@ Identify areas that are of high priority to the customer together with the Solut
 1. Contributor Success will lead the triage process and partner with the appropriate PMs. We will invite the PMs and other stakeholders of the problem-space to get their buy-in. This will result in 3 pathways:
     1. The opportunity is not aligned with our roadmap or product strategy.
     1. The opportunity is considered a 'minor' contribution and can entirely be handled by contributor success like any other community contribution.
-    1. The co-creation opportunity is considered a major/relevant contribution, aligned with our roadmap and product strategy.
+    1. The co-create opportunity is considered a major/relevant contribution, aligned with our roadmap and product strategy.
 1. CSM and Contributor Success present the co-create program and identified pathway & align with the customer. Don't make any commitments to the customer until engineering & contributor success has aligned and allocated.
 1. Involve Contributor Success (Raimund Hook) to schedule an onboarding session with the customer's engineers.
 1. Only in case of a major/relevant contribution: as outlined above, we will proceed with going on-site. Invite Shekhar Patnaik into the channel & collaborate with engineering to find the right engineer we can send on-site to co-create together.
@@ -37,7 +40,7 @@ Identify areas that are of high priority to the customer together with the Solut
 ## Roles & Responsibilities
 
 1. **Opportunity Identification**: Solution Architects (SAs) and Customer Success Managers (CSMs) will collaborate with their technical counterparts within the customer's organization to introduce the program and identify opportunities for collaboration. They will also work with internal stakeholders such as Product managers.
-1. **Enablement**: Upon identifying a viable opportunity and the right stakeholders, Developer Relations will conduct an interactive workshop to identify specific co-creation opportunities and enable technically the customer's engineers to contribute to GitLab.
+1. **Enablement**: Upon identifying a viable opportunity and the right stakeholders, Developer Relations will conduct an interactive workshop to identify specific co-create opportunities and enable technically the customer's engineers to contribute to GitLab.
 1. **Collaborative Development**: GitLab's engineering team will take the lead in pairing engineers with the customer's team to support the development effort.
 
 ## SPIFF (Sales Performance Incentive Fund Formula)
