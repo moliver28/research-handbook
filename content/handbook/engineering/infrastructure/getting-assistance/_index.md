@@ -5,7 +5,7 @@ description: "How to get assistance for problems on Production Platforms"
 
 ## GitLab.com
 
-If you need to report an incident - follow the instructions on the [Report An Incident page](https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
+If you need to report an incident - follow the instructions on the [Report An Incident page](./incident-management/#reporting-an-incident).
 
 If you are looking for help, and you know what service you need help with - find the owner in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and contact them via Slack.
 
@@ -37,7 +37,7 @@ We can help with:
 - Load Balancing
 - RBAC / IAM
 - Teleport connections: create an issue with the [teleport-troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=teleport-troubleshooting)
-- Cloudflare: create an issue with the the [Cloudflare Troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%20Troubleshooting)
+- Cloudflare: create an issue with the [Cloudflare Troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%20Troubleshooting)
 
 ### Delivery
 
