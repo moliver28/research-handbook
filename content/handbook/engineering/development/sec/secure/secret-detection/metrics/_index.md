@@ -87,11 +87,10 @@ end
 
 ### Database Metric (Service Ping)
 
-Database metrics, aka Service Pings, are metrics that can be collected with
-database queries. These metrics are updated in a batch.
-
-The batch of metrics is updated approximately every 7 days, but may vary
-anywhere from 4-10 days.
+[Database metrics](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_instrumentation.html#database-metrics),
+aka Service Pings, are metrics that can be collected with
+database queries. These metrics are updated in a batch approximately every 7
+days. However, this is not guaranteed and may be generated anywhere from 4-10 days.
 
 #### Process for adding
 
@@ -103,7 +102,18 @@ provide the SQL for the query too.
 The class should be in `lib/gitlab/usage/metrics/instrumentation/` or the EE
 equivalent.
 
-To implement the metric, in the most simple way, we call the `#operation` and `#relation` methods.
+We have a Rails
+[generator](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_instrumentation.html#create-a-new-metric-instrumentation-class)
+that can be used to create the necessary classes:
+
+```ruby
+rails generate gitlab:usage_metric CountIssues --type database --operation distinct_count
+        create lib/gitlab/usage/metrics/instrumentations/count_issues_metric.rb
+        create spec/lib/gitlab/usage/metrics/instrumentations/count_issues_metric_spec.rb
+
+```
+
+The simplest way to implement the metric is to call the class-level `#operation` and `#relation` methods.
 
 The argument to `operaion` can be
 
@@ -128,7 +138,7 @@ end
 ```
 
 Each database metric has to have an accompanying metric dictionary like Internal
-Tracking Events. Unfortunately, database metrics are not yet supported by the CLI so must be done by hand.
+Tracking Events. Unfortunately, database metrics are not yet supported by the `internal_events` CLI script so must be partially done by hand.
 
 1. Create a yaml file in the appropriate subdirectory of `config/metrics` or `ee/config/metrics` if it's a metric limited to an enterprise tier.
     1. If the metric is meant to capture all time, use the `counts_all` subdirectory.
