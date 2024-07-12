@@ -29,7 +29,7 @@ There are three areas of focus within the Security Operations team.
 
 ### Security Logging
 
-- Be part of the architectural direction, administration, maintenance, documentation, and oversight of the Security information and event management [[SIEM](https://en.wikipedia.org/wiki/Security_information_and_event_management)] solution
+- Be part of the architectural direction, administration, maintenance, documentation, and oversight of the Security information and event management ([SIEM](https://en.wikipedia.org/wiki/Security_information_and_event_management)) solution
 - Create and maintain integrations and solutions for the log collection, aggregation, indexing, search, alerting
 - Manage implementation, enhancement and adoption of the solutions built by the team into operations
 - Utilize log ingestion platform for security analytics and identification of tactics, techniques and patterns of attackers
@@ -58,7 +58,7 @@ There are three areas of focus within the Security Operations team.
 Candidates for a position in the Security Operations team can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
 - Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
-- Next, candidates will be invited to schedule an interview with Security Incident Response Team Manager
+- Next, candidates will be invited to schedule an interview with Security Operations Manager
 - Candidates will then be invited to schedule an interview with 2 SIRT peers, one of which will be a Senior
 - Candidates will then be invited to schedule an interview with Director of Security Operations
 - Successful candidates will subsequently be made an offer via email
@@ -80,7 +80,7 @@ The Security Operations Engineer is a [grade 6](/handbook/total-rewards/compensa
 - Utilize log ingestion platform for security analytics and identification of tactics, techniques and patterns of attackers
 - Contribute to creation of runbooks
 - Contribute to the production and tuning of detection rules
-- Participate in the Security Incident Response Team on-call rotation
+- Participate in the Security Operations on-call rotation
 - Digital forensics & incident response (DFIR)
 - Identify and mitigate complex security vulnerabilities before an attacker exploits them
 
@@ -94,7 +94,7 @@ The Security Operations Engineer is a [grade 6](/handbook/total-rewards/compensa
 
 ### Senior Security Operations Engineer
 
-This position reports to the [Manager, Security Incident Response Team](#manager-security-operations).
+This position reports to the [Manager, Security Operations](#manager-security-operations).
 
 #### Senior Security Operations Engineer Job Grade
 
@@ -107,7 +107,7 @@ The Senior Security Operations Engineer is a [grade 7](/handbook/total-rewards/c
 - Conduct proactive threat hunting based on threat intel
 - Perform forensic analysis of infected hosts independently
 - Analyze network traffic and identify attacker activity
-- Mentor other members of the Security Incident Response Team
+- Mentor other members of Security Operations
 - Build and maintain scalable log ingestion and analytics platforms and tooling
 - Perform root cause analysis (RCA) and incident reviews
 
@@ -121,16 +121,16 @@ The Senior Security Operations Engineer is a [grade 7](/handbook/total-rewards/c
 
 ### Staff Security Operations Engineer
 
-This position reports to the [Manager, Security Incident Response Team](#manager-security-operations).
+This position reports to the [Manager, Security Operations](#manager-security-operations).
 
 #### Staff Security Operations Engineer Job Grade
 
-The Staff Security Incident Response Team Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Staff Security Operations Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Staff Security Operations Engineer Responsibilities
 
 - Extends Senior Security Incident Response Engineer responsibilities, plus;
-- SME in incident response, mentoring and training other members of the Security Incident Response Team
+- SME in incident response, mentoring and training other members of Security Operations
 - Participate in the Security Incident Manager on-call rotation
 - Lead the design, evaluation, implementation and deployment of new security technologies
 - Maintain knowledge of emerging threats, security technologies and academic research for application in the protection of the organization and GitLab.com
@@ -146,11 +146,11 @@ The Staff Security Incident Response Team Engineer is a [grade 8](/handbook/tota
 
 ### Manager, Security Operations
 
-This position reports to the [Senior Manager, Security Incident Response Team](#senior-manager-security-operations).
+This position reports to the [Senior Manager, Security Operations](#senior-manager-security-operations).
 
 #### Manager, Security Operations Job Grade
 
-The Security Incident Response Team Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Security Operations Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Manager, Security Operations Responsibilities
 
@@ -188,7 +188,7 @@ This role reports to the [Director of Security Operations](/job-families/securit
 
 #### Senior Manager, Security Operations Job Grade
 
-The Security Incident Response Team Senior Manager is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Security Operations Senior Manager is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior Manager, Security Operations Responsibilities
 
@@ -215,11 +215,11 @@ The Security Incident Response Team Senior Manager is a [grade 9](/handbook/tota
 - Robust understanding of security issues, mitigations, and a solid grasp of the current global threat landscape
 - Experience with the role of an incident manager during large scale security events
 - Familiarity with major cloud providers - GCP, AWS, Azure, Digital Ocean
-- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/structure/#management-group).
+- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ## Performance Indicators
 
-- Support the organisation by [ensuring that the Security Engineer On-Call meets SLAs](/handbook/security/performance-indicators/#sirt-former-security-operations-page-volume).
+- Support the organisation by [ensuring that the Security Engineer On-Call meets SLAs](/handbook/security/performance-indicators/#sirt-former-security-operations-page-volume)
 
 ### Career Ladder
 
@@ -233,4 +233,4 @@ The Security Incident Response Team Senior Manager is a [grade 9](/handbook/tota
   sec:sesm(Security Incident Response Senior Manager)-->sec:ds(Director of Security Operations);
 ```
 
-For details on the Security division leadership roles, to include the Security Operations Director and VP of Security, see the Security Leadership page.
+For details on the Security division leadership roles, to include the Security Operations Director and VP of Security, see the [Security Leadership](/job-families/security/security-leadership/) page.
