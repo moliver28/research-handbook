@@ -163,7 +163,7 @@ We operate using async communication by default. There are times when a sync dis
 As new open source models emerge, the Custom Models team will consider them for GitLab Duo use-cases. The process for this is:
 
 1. Research and identify use cases required for each Duo Feature 
-2. Research and identify industry benchmarks that serve as the best proxy for Duo Feature use-cases
+2. Identify industry benchmarks that serve as the best proxy for Duo Feature use-cases
    * document industry benchmarks identified in this epic under "[Industry Benchmarks](https://gitlab.com/gitlab-org/gitlab/-/issues/461070#industry-benchmarks "Document how to identify Open Source Models for Duo use cases")"
 3. Document the performance of open source models against those identified industry benchmarks
    * Leverage model leaderboards to help identify models. Examples of leaderboards include:
