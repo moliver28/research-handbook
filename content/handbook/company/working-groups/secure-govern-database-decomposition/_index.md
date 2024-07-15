@@ -99,14 +99,19 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 ### Plan
 
 1. Introduce separate `gitlab_sec` schema
-1. Begin decomposition of foreign keys and cross-database transactions per table, following the loose order of sbom, security, and vulnerability tables
 1. Introduce `gitlab_sec` database connection (defaulting to fallback to using `gitlab_main` database)
+1. In parallel, begin decomposition of foreign keys and cross-database transactions following the loose order of SBOM, Security, and Vulnerability code boundaries. For each slice perform the following breakdown:
+    1. Migrate tables with low referentiality (few foreign keys)
+    1. Migrate tables with higher referentiality (many foreign keys)
+    1. Identify and [allowlist cross-joins](https://docs.gitlab.com/ee/development/database/multiple_databases.html#allowlist-for-existing-cross-database-foreign-keys) to be addressed
+    1. Identify and allowlist cross-database transactions to be addressed
+    1. Remove identified cross-joins and cross-database transactions
 1. Await results of Logical Replication Production test to determine the viability of this as a migration path.
 1. Depending on the results of the production test, formulate a path for the safe migration of the Secure/Govern dataset to a new physical database. These may take the form of the headings below.
 1. Open Change Request to migrate phased tables (step 2) using chosen approach (step 5)
 1. Update [documentation around migrating self-managed instances to multiple databases](https://docs.gitlab.com/ee/administration/postgresql/multiple_databases.html)
 
-#### Proposal A: Logical Replication
+#### Migration Proposal A: Logical Replication
 
 1. Research and test the possiblity of a staged logical replication in which we migrate small subsets of the Secure/Govern featureset at a time, such as SBOM.
     1. If a staged rollout is possible
@@ -128,7 +133,7 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
         6. If successful, globally rollout usage of the decomposed database for the full featureset.
 2. Cleanup legacy data from the GitLab core database.
 
-#### Proposal B: Physical Replication
+#### Migration Proposal B: Physical Replication
 
 1. Determine acceptability of a full downtime for GitLab, or a temporary suspension of use for the entire Secure/Govern featureset to prevent dataloss. (Alternatively, notify users that there will be dataloss related to this featureset after a certain Date and Time)
     1. Begin communicating with customers ahead of time to minimise disatisfaction as a result of this disruption.
@@ -141,7 +146,7 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
     8. Cleanup legacy Secure/Govern data from the GitLab Core database.
     9. Cleanup legacy Core data from the new Secure/Govern database.
 
-#### Proposal C: Application Replication
+#### Migration Proposal C: Application Replication
 
 1. As a staged rollout is possible, identify the highest value feature subset to decompose.
 2. Plan a decomposition strategy to separate only that feature to achieve a production benefit sooner.
@@ -153,11 +158,6 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 8. Begin testing transition of the feature to using the new database instance as it's new write primary.
 9. If successful, globally rollout usage of the decomposed database for the feature.
 10. Repeat for each sufficiently sectionable feature subset until decomposition is completed.
-
-#### Decompose the Secure/Govern dataset from the Primary GitLab database
-
-1. Epic/Issue: https://gitlab.com/groups/gitlab-org/-/epics/13043
-1. DRI: Gregory Havenga
 
 ## Roles and Responsibilities
 
