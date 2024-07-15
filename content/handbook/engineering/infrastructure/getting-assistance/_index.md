@@ -72,3 +72,11 @@ We can help with:
 - Sidekiq
 
 ## Dedicated
+
+Contact us in: [#f_gitlab_dedicated](https://gitlab.enterprise.slack.com/archives/C01S0QNSYJ2)
+
+Raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team) using the `Request for Help` template which will add the ~"Dedicated::Request for Help" label.
+
+We can help with:
+
+- Questions and support for GitLab Dedicated
