@@ -3,6 +3,7 @@
 Assembling a case for promotion can be a time-consuming process. The tips and style principles in this guide will help you prepare a document that presents the evidence clearly, requiring fewer review cycles.
 
 The emphasis on quantification over editorialization has a number of benefits for both the reader and the author:
+
 - It's easier to gradually assemble the document over time, and to understand the level of completion at any point.
 - The document reads more confidently and, crucially, more objectively.
 - Cases for promotion to the same role are more readily comparable to each other and the job family criteria, with consistent tone.
