@@ -13,6 +13,8 @@ If you need help, but you aren't sure who to ask, look through the teams below t
 
 If you have read this whole page and are unsure how to proceed, please ask in the #saas-platforms-help channel. You will be refirected to the appropriate team for help.
 
+We aim to respond to your request within 24 hours. If you raise your request on a Friday, it may only be responded to on Monday. 
+
 ### Production Engineering - Ops
 
 Contact us in: [#g_infra_ops](https://gitlab.enterprise.slack.com/archives/C04MH2L07JS)
@@ -29,19 +31,19 @@ Open an issue in our [Production engineering tracker](https://gitlab.com/gitlab-
 
 We can help with:
 
-- Networking
-- Rate Limiting
-- K8s
-- Config
-- Service Discovery with Consul
-- Secrets Management with Vault
-- ops.gitlab.net and ops runners
-- CDN
-- DNS
-- Load Balancing
-- RBAC / IAM
-- Teleport connections: create an issue with the [teleport-troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=teleport-troubleshooting)
-- Cloudflare: create an issue with the [Cloudflare Troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%20Troubleshooting)
+1. Networking
+1. Rate Limiting
+1. K8s
+1. Config
+1. Service Discovery with Consul
+1. Secrets Management with Vault
+1. ops.gitlab.net and ops runners
+1. CDN
+1. DNS
+1. Load Balancing
+1. RBAC / IAM
+1. Teleport connections: create an issue with the [teleport-troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=teleport-troubleshooting)
+1. Cloudflare: create an issue with the [Cloudflare Troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%20Troubleshooting)
 
 ### Delivery
 
@@ -55,11 +57,12 @@ Contact us in: [#g_scalability-observability](https://gitlab.enterprise.slack.co
 
 We can help with:
 
-- Observability
-- Metrics
-- Grafana / Kibana / Mimir / Prometheus
-- Error Budgets
-- Capacity Planning
+1. Observability
+1. Logging
+1. Metrics
+1. Grafana / Kibana / Mimir / Prometheus
+1. Error Budgets
+1. Capacity Planning
 
 ### Scalability - Practices
 
@@ -67,9 +70,9 @@ Contact us in: [#g_scalability-practices](https://gitlab.enterprise.slack.com/ar
 
 We can help with:
 
-- Runway
-- Redis
-- Sidekiq
+1. Runway
+1. Redis
+1. Sidekiq
 
 ## Dedicated
 
@@ -79,4 +82,4 @@ Raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab
 
 We can help with:
 
-- Questions and support for GitLab Dedicated
+1. Questions and support for GitLab Dedicated
