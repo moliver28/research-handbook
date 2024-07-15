@@ -31,12 +31,11 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Constructive Discharge Notice](https://drive.google.com/file/d/1bAb20djNfDNuojt0QPm8Q24Pa64l5ORM/view)
 - [Discrimination is Prohibited in Employment](https://www.azag.gov/sites/default/files/publications/2018-07/Discrimination_Brochure.pdf)
 - [Earned Paid Sick Time](https://www.azica.gov/sites/default/files/AZ%20Earned%20Paid%20Sick%20Time%20Poster%202017.pdf)
-- [Employee Safety and Health Protection](https://www.ica.state.az.us/sites/default/files/ADOSH_Poster_WorkplaceSafetyBilingual.pdf)
-- [Minimum Wage Act](https://www.azica.gov/sites/default/files/media/2023%20THE%20FAIR%20WAGES%20AND%20HEALTHY%20FAMILIES%20ACT.pdf)
+- [Employee Safety and Health Protection](https://www.azica.gov/sites/default/files/ADOSH_Poster_WorkplaceSafetyBilingual.pdf)
+- [2024 Minimum Wage](https://www.azica.gov/sites/default/files/2023-12/2024%20THE%20FAIR%20WAGES%20AND%20HEALTHY%20FAMILIES%20ACT%20English.pdf)
 - [Unemployment Insurance](https://des.az.gov/sites/default/files/legacy/dl/POU-003.pdf)
 - [Workers' Compensation - Inc.](https://drive.google.com/file/d/1ve97o6Rlln4gnh4wvgvVi399HCYuj9Vi/view?usp=sharing)
-- [Work Exposure to Bodily Fluids](https://www.ica.state.az.us/sites/default/files/migrated_pdf/Claims_Poster_WorkExpToBodilyFluids_HIV_AIDS_HepC.pdf)
-- [Work Exposure to MRSA, Spinal Meningitis, or Tuberculosis](https://www.ica.state.az.us/sites/default/files/migrated_pdf/Claims_Poster_WorkExpToMRSA_SpMen_TB.pdf)
+- [Bodily Fluids Work Exposure](https://www.azica.gov/forms/bodily-fluids-work-exposure-form) and [REPORT OF SIGNIFICANT WORK EXPOSURE TO BODILY FLUIDS OR OTHER INFECTIOUS MATERIAL](https://www.ica.state.az.us/sites/default/files/migrated_pdf/Claims_Poster_WorkExpToMRSA_SpMen_TB.pdf)
 
 ### Arkansas
 
@@ -99,32 +98,31 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - **City of Santa Monica**
   - [Minimum Wage, Paid Sick Leave and Service Charge Law](https://santamonica.gov/media/Minimum_Wage/Notifications/23-24%20Notices/2023-24_Notification_English.pdf)
 - **City of West Hollywood**
-  - [Minimum Wage - English](https://www.weho.org/home/showpublisheddocument/56165/638158711072630000)
-  - [Minimum Wage - Spanish](https://www.weho.org/home/showpublisheddocument/56249/638168015412630000)
+  - [Minimum Wage - English](hhttps://www.weho.org/home/showpublisheddocument/56165/638488638315030000)
+  - [Minimum Wage - Spanish](https://www.weho.org/home/showpublisheddocument/56213/638488634394800000)
 
 ### Colorado
 
 - [Employment Anti-Discrimination Poster](https://drive.google.com/file/d/1oa9S3N_G7XhbPx4bELinO_6QoRuqIK1C/view)
 - [Housing Anti-Discrimination Poster](https://drive.google.com/file/d/1louFE4g1WZuXwgLLJEr1sz--soofr_ZZ/view)
 - [Public Accommodations Anti-Discrimination Poster](https://drive.google.com/file/d/1cmoKGVB6hi8QfVdtqBQ_KeenPGvkgijA/view)
-- [Employment Security Act](https://cdle.colorado.gov/sites/cdle/files/502_NoticeToWorkers-Poster.pdf)
-- [Minimum Wage and Overtime Pay Standards](https://cdle.colorado.gov/sites/cdle/files/COMPS%20Order%20%2338%20%282022%29%20Poster%20CLEAN.pdf)
+- [Employment Security Act](https://cdle.colorado.gov/sites/cdle/files/Notice_to_Workers_English_0.pdf)
+- [Overtime & Minimum Pay Standards](https://cdle.colorado.gov/sites/cdle/files/2024%20COMPS%20Order%20%2339%20Poster%20English%20%5Baccessible%5D.pdf)
 - [Notice to Employer of Injury](https://codwc.app.box.com/v/WC50-Injury-Poster)
 - [Notice of Paydays](https://drive.google.com/file/d/1B9NG0eCOvxGD_KE_R9Zxtw58lTi4fkje/view?usp=sharing)
 - [Workers' Compensation Act](https://drive.google.com/file/d/1OkdN7QSD23d5-etB7awiU4C_JjM9KXHM/view?usp=sharing)
-- [Paid Family and Medical Leave Insurance](https://famli.colorado.gov/sites/famli/files/documents/Employer-Toolkit-Break-Room-Poster-V3.pdf)
-- [Paid Leave, Whistleblowing, and Personal Protective Equipment](https://cdle.colorado.gov/sites/cdle/files/%5BCLEAN%20June%201%2C%202022%5D%20Poster%2C%20Paid%20Leave%20%26%20Whistleblower.pdf)
+- [Paid Family and Medical Leave Insurance](https://drive.google.com/file/d/1Sc8TRmb544kdb016DrSkTYql9Zbzn38u/view)
+- [Paid Leave, Whistleblowing, and Personal Protective Equipment](https://cdle.colorado.gov/sites/cdle/files/Poster%2C%20Paid%20Leave%20%26%20Whistleblower.pdf)
 
 ### Connecticut
 
 - [Sexual Harassment is Illegal](https://portal.ct.gov/-/media/CHRO/SexualHarassmentPreventionPosterpdf.pdf)
-- [Paid Sick Leave](https://www.ctdol.state.ct.us/wgwkstnd/NoticeSickLeavePoster2014%20.pdf)
-- [Connecticut Paid Sick Leave](https://www.ctdol.state.ct.us/wgwkstnd/NoticeSickLeavePoster2014%20.pdf)
-- [Paid Leave poster](https://portal.ct.gov/-/media/DDS/Self_Determination/Employee_Rights_Poster.pdf)
+- [Paid Sick Leave](https://portal.ct.gov/dol/-/media/dol/2022-new-design-system/divisions/wage-and-workplace-standards/noticesickleaveposter2023.pdf)
+- [Paid Leave poster](https://portal.ct.gov/-/media/dolui/new-53122-prototype-of-employers-written-notice-to-employees-of-rights-under-ctfmla-and-ctpl.pdf)
 - [Discrimination is Illegal](https://portal.ct.gov/-/media/CHRO/DiscriminationFlyerpdf.pdf)
-- [Minimum Wage](https://www.ctdol.state.ct.us/wgwkstnd/DOL-75.pdf)
+- [Minimum Wage](https://www1.ctdol.state.ct.us/lmi/ctminimumwage.asp)
 - [Worker's Compensation Notice](https://drive.google.com/file/d/1QudFkpV7haIaUzUpIYccD9slAiDrAnHd/view?usp=sharing)
-- [Electronic Monitoring Notice](https://www.ctdol.state.ct.us/wgwkstnd/ElectMonitoring.pdf)
+- [Electronic Monitoring Notice](https://portal.ct.gov/-/media/das/statewide-hr/a---z-listing-task-pdfs/electronic-monitoring-of-state-employees-policy.pdf)
 - [Office of the Healthcare Advocate](https://portal.ct.gov/-/media/OHA/OHA-Poster---English.pdf)
 - [Pregnancy Discrimination and Accommodation in the Workplace](https://www.ctdol.state.ct.us/gendocs/SS46a%20Pregnancy%20Disability%20Poster.pdf)
 
