@@ -129,7 +129,8 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### Delaware
 
 - [Labor Law Poster](https://laborfiles.delaware.gov/main/dia/olle/Labor_Law_Poster.pdf)
-- [Sexual Harassment Notice](https://dhr.delaware.gov/personnel/neo/documents/sexual-harassment-notice.pdf)
+- [Sexual Harasment Notice](https://bahprdpplsrvcs.blob.core.windows.net/pplsrvcs/Delaware/Delaware_Sexual_Harassment_Notice.pdf)
+- [Respectful Workplace and Anti-Discrimination Policy](https://dhr.delaware.gov/policies/documents/respectful-workplace-policy.pdf)
 
 ### District of Columbia
 
@@ -157,8 +158,8 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 - [Unemployment Insurance](https://drive.google.com/file/d/1Vd53xxQph7ETr9R22PZS7cujgjoDPvI7/view)
 - [Vacation - Unemployment Insurance](https://doas.ga.gov/assets/Human%20Resources%20Administration/Workplace%20Posters/UI%20not%20payable%20during%20vacation.pdf)
-- [Workers' Compensation](https://doas.ga.gov/assets/Human%20Resources%20Administration/Workplace%20Posters/WC-P3%20(MCO)%20(7-1-21).pdf)
-- [Bill of Rights for the Injured Worker](https://doas.ga.gov/assets/Human%20Resources%20Administration/Workplace%20Posters/WC%20Bill%20of%20Rights%20for%20the%20Injured%20Worker%20(July%202019).pdf)
+- [Workers' Compensation](https://doas.ga.gov/sites/default/files/assets/Risk%20Management/Workers%20Compensation%20Publications%20and%20Forms/01-30-06_employee_brochure.pdf)
+- [Bill of Rights for the Injured Worker](https://doas.ga.gov/sites/default/files/assets/Human%20Resources%20Administration/Workplace%20Posters/workers%20comp%20bill%20of%20rights%20July%202022.pdf)
 - [Workers' Compensation Fraud](https://doas.ga.gov/assets/Human%20Resources%20Administration/Workplace%20Posters/Georgia%20Workers%20Compensation%20Fraud_Notice.pdf)
 - [Human Trafficking](https://doas.ga.gov/assets/Human%20Resources%20Administration/Workplace%20Posters/human%20trafficking%20notice%20(5-24-21).pdf)
 - [Equal Pay for Equal Work Act](https://doas.ga.gov/assets/Human%20Resources%20Administration/Workplace%20Posters/Equal%20Pay%20for%20Equal%20Work%20Act%20notice.pdf)
@@ -182,10 +183,10 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Illinois
 
-- [Your Rights Under Illinois Employment Laws](https://labor.illinois.gov/content/dam/soi/en/web/idol/employers/posters/23_YourRights_Poster_11x17.pdf)
-- [Victims' Economic Security and Safety Act (VESSA)](https://labor.illinois.gov/content/dam/soi/en/web/idol/employers/posters/2022-vessa-poster-english.pdf)
-- [Pregnancy Rights Notice](https://www2.illinois.gov/dhr/Publications/Documents/Pregnancy_Posting-lgl-ENG14.pdf)
-- [Your Rights Under the Illinois Service Member Employment and Reemployment Rights Act](https://illinoisattorneygeneral.gov/rights/mvrb_iserra_poster_0818.pdf)
+- [Your Rights Under Illinois Employment Laws](https://labor.illinois.gov/content/dam/soi/en/web/idol/employers/posters/your-rights/2024/IDOL%202024%20YOUR%20RIGHTS%20POSTER.pdf)
+- [Victims' Economic Security and Safety Act (VESSA)](https://labor.illinois.gov/content/dam/soi/en/web/idol/employers/posters/vessa/2024/VESSA.pdf)
+- [Pregnancy Rights Notice](https://dhr.illinois.gov/content/dam/soi/en/web/dhr/publications/documents/pregnancy-posting-idhr-eng-2023.pdf)
+- [Your Rights Under the Illinois Service Member Employment and Reemployment Rights Act](https://illinoisattorneygeneral.gov/Page-Attachments/ISERRAnotice.pdf)
 - [Right to Employment Free from Discrimination and Sexual Harassment](https://dhr.illinois.gov/content/dam/soi/en/web/dhr/documents/idhr-employer-notice-poster-v9.22.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1PjPrd9_YG_5YumpJxaqDG-KDaUj4sLAD/view?usp=sharing)
 - **City of Chicago**
@@ -195,7 +196,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Indiana
 
-- [Unemployment Insurance](https://www.in.gov/dwd/files/X-11.pdf)
+- [Unemployment Insurance Claimant Handbook](https://www.in.gov/dwd/files/Claimant_Handbook.pdf)
 - [Job Safety and Health](https://www.in.gov/dol/files/English_IOSHA_Poster.pdf)
 - [Minimum Wage](https://www.in.gov/dol/files/Minimum-Wage-Law.pdf)
 - [Equal Employment Opportunity is the Law](https://www.in.gov/icrc/files/Equal_Employment_Poster_New1.pdf)
@@ -204,10 +205,11 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Iowa
 
-- [Unemployment Insurance](https://www.iowaworkforcedevelopment.gov/sites/search.iowaworkforcedevelopment.gov/files/documents/2018/UnemploymentFlyer70-8010.pdf)
+- [All in One](https://workforce.iowa.gov/media/229/download?inline=)
+- [Unemployment Insurance](https://workforce.iowa.gov/media/1389/download?inline=)
 - [Safety and Health Protection on the Job](https://www.iowaworkforcedevelopment.gov/sites/search.iowaworkforcedevelopment.gov/files/documents/2018/UnemploymentFlyer70-8010.pdf)
-- [Your Rights Under Iowa's Minimum Wage](https://www.iowaworkforcedevelopment.gov/sites/search.iowaworkforcedevelopment.gov/files/State%20Min%20Wage.pdf)
-- [Equal Employment Opportunity](https://www.iowaworkforcedevelopment.gov/sites/search.iowaworkforcedevelopment.gov/files/documents/IA-Equal-Employment-Opportunity.pdf)
+- [Your Rights Under Iowa's Minimum Wage](https://workforce.iowa.gov/media/234/download?inline=)
+- [Equal Employment Opportunity](https://workforce.iowa.gov/media/316/download?inline=)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1X2jlSjVqY06iLnd55pxZMNoYHkoo1j2u/view?usp=sharing)
 
 ### Kansas
@@ -290,7 +292,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### Minnesota
 
 - [Age Discrimination](https://www.dli.mn.gov/sites/default/files/pdf/agediscr_poster.pdf)
-- [Minimum Wage](https://www.dli.mn.gov/sites/default/files/pdf/minwage_poster_2023.pdf)
+- [Minimum Wage](https://www.dli.mn.gov/sites/default/files/pdf/minwage_poster_2024.pdf)
 - [Safety and Health Protection on the Job](https://www.dli.mn.gov/sites/default/files/pdf/mnosha_poster.pdf)
 - [Unemployment Insurance](https://www.uimn.org/assets/109_tcm1068-192562.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1TiucUJJeuRL_P9KRhGMVEvyXe12Qik5w/view?usp=sharing)
@@ -304,7 +306,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - **City of Saint Paul**
   - [Earned Sick and Safe Time and Minimum Wage](https://www.stpaul.gov/sites/default/files/2023-08/2023-08-21%20Notice%20to%20Employees%20about%20ESST%20and%20Minimum%20Wage.pdf)
   **City of Bloomington**
-  - [Earned Sick and Safe Time](https://www.bloomingtonmn.gov/sites/default/files/2023-03/ESSL-poster-en.pdf)
+  - [Earned Sick and Safe Time](https://www.bloomingtonmn.gov/sites/default/files/2024-02/ESST-Poster-en-0224.pdf)
 
 ### Mississippi
 
@@ -320,8 +322,8 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Montana
 
-- [Montana Wage & Hour - English](https://erd.dli.mt.gov/_docs/labor-standards/2022-min-wage-poster.pdf)
-- [Montana Wage & Hour - Spanish](https://erd.dli.mt.gov/_docs/labor-standards/2022-min-wage-spanish.pdf)
+- [Montana Wage & Hour - English](https://erd.dli.mt.gov/_docs/labor-standards/2024-MINIMUM-WAGE-POSTER.pdf)
+- [Montana Wage & Hour - Spanish](https://erd.dli.mt.gov/_docs/labor-standards/2024-CARTEL-DE-SALARIO-MINIMO-ES-ESPANOL.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1ga6NehPQ65LbaZl06PdFq1QqXlQy56Iv/view?usp=sharing)
 
 ### Nebraska
