@@ -65,56 +65,32 @@ Our continuous learning initiatives are documented in the [UX Department Learnin
 
 ## Cross-functional Initiatives
 
-### Beautifying our UI
+### Usability improvement sprints 
 
-This initiative aims to enhance our product's usability by leveraging the best practices from the "Macro UX" experiment, which paired Product Designers and Engineers to make self-directed improvements. See the [retro issue](https://gitlab.com/gitlab-org/gitlab/-/issues/351288) for details.
+This initiative aims to enhance our product's usability by enabling pairing of Product Designers and Engineers to make self-directed progress on high confidence improvements. 
 
 Key Elements:
 
 - **Self-directed improvements:** Product Designers and Engineers are empowered to fix usability issues they identify without strict prioritization constraints.
 - **No restrictions on product area:** Improvements can be made across any product area, fostering broad collaboration.
-- **Work in MRs, not issues:** Direct changes are made through Merge Requests (MRs), with comprehensive documentation and explanations.
-- **Length of rotation:** Pairings last 1-3 milestones, depending on what the pairing believes is appropriate. Multiple pairs can be working simultaneously on Beautifying our UI.
-- **Prioritization:** Participants coordinate with their managers to balance their involvement with regular responsiblities.
+- **Define a theme:** [Fiscal year investment themes](https://about.gitlab.com/direction/#fy25-rd-investment-themes) are a company wide priority. Participants can either choose one of those or any another area of emphasis as a theme to align with for the initiative.
+- **Length of rotation:** Pairings last 1-3 milestones, depending on what the pairing believes is appropriate.
+- **Prioritization and capacity planning:** Participants coordinate with their managers to balance their involvement with regular responsiblities. They create a capacity plan to demonstrate how they will accommodate the ongoing product and engineering priorities while delivering the list of improvements.
 - **Documentation:** All changes must be documentated, adhering to the [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), and involving [relevant Technical Writers](/handbook/product/ux/technical-writing/#assignments).
 
-#### Volunteering and Participation
+#### Participation
 
-To volunteer, Product Designers and Engineers should:
+To participate, Product Designers and Engineers should:
 
-1. Create an MR to add their name to the volunteer table and assign it to their manager for review.
+1. Create an issue to share plan and assign it to their manager for approval.
 1. Indicate the percentage of capacity dedicated to the initiative.
-1. Create an issue and link all related MRs for transparency and tracking.
+1. use the same issue to link all related issues selected for teh sprint for transparency and tracking.
 1. Ensure all changes align with the Pajamas Design System and leverage feature flags where appropriate.
 
-Volunteers:
-
-| Milestone          | Product Designer  | Engineer          |
-| ------------------ | ----------------- | ----------------- |
-| 16.8               | Veethika Mishra   |   Mireya Andres   |
-| 17.0               |                   |                   |
-| 17.1               |  Veethika Mishra  |   Miguel Rincon   |
-| 17.2               |                   |                   |
-| 17.3               |                   |                   |
-
-{{% details summary="Previous Volunteers" %}}
-
-| Milestone         | Product Designer  | Engineer          |
-| ----------------- | ----------------- | ----------------- |
-| [16.1 (2023-05-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/394768) | Veethika M         | Payton Burdette |
-| [15.11 (2023-03-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/387070)| Annabel Gray       | Phil Hughes     |
-| [15.6 (2022-10-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/378259) | Matej Latin        | Deepika Guliani |
-| [15.5 (2022-09-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/374580) | Katie Macoy        | Anna Vovchenko  |
-| [15.4 (2022-08-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/370364) | Nadia Sotnikova    | Alex Kalderimis |
-| [15.2 (2022-06-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/362122) | Emily Bauman       | Jannik Lehmann  |
-| [15.1 (2022-05-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/361641) | Sascha Eggenberger | Robert Hunt     |
-| [15.0 (2022-04-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/356703) | Annabel Gray       | Phil Hughes     |
-
-{{% /details %}}
 
 #### Measuring Success
 
-Success of the program will be tracked by the total number of MRs merged with the "Beautifying our UI" label.
+Success of the program will be tracked by the total number of MRs merged with the "Usability improvement" label.
 
 #### Risks and Considerations
 
