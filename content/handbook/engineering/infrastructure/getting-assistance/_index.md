@@ -35,7 +35,7 @@ Open an issue in our [Production engineering tracker](https://gitlab.com/gitlab-
 We can help with:
 
 1. Networking
-1. Rate Limiting
+1. Rate Limiting: create an issue with the [rate limiting request template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-rate-limiting)
 1. K8s
 1. Config
 1. Service Discovery with Consul
