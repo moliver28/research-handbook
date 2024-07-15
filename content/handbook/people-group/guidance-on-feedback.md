@@ -17,7 +17,6 @@ Feedback can come in the form of **"praise"** for things team members do well, a
 1. [360 Feedback]({{< ref "360-feedback" >}}) via Culture Amp
 1. Regularly during [1-1's]({{< ref "1-1" >}})
 1. "365 feedback": Giving verbal, direct feedback 365 days a year in the [#thanks Slack channel](https://app.slack.com/client/T02592416/C038E3Q6L), direct message, or other personal communication
-1. [TrustMetryx](https://trustmetryx.com): behavioral science based feedback measuring relationship strength between teams and among teammates
 
 ## Documenting Feedback
 

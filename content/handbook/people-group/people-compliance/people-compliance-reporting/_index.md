@@ -7,7 +7,7 @@ description: "The People Compliance team manages and ensure that all mandated HR
 
 ### EEO-1
 
-The [EEO-1 Component 1](https://www.eeoc.gov/employers/eeo-1-data-collection) report is a mandatory annual data collection that requires all private sector employers with 100 or more employees, and federal contractors with 50 or more employees meeting certain criteria, to submit demographic workforce data, including data by race/ethnicity, sex and job categories. The 2022 EEO-1 Component 1 data collection is tentatively scheduled to open in April 2023.
+The [EEO-1 Component 1](https://www.eeocdata.org/eeo1) report is a mandatory annual data collection that requires all private sector employers with 100 or more employees, and federal contractors with 50 or more employees meeting certain criteria, to submit demographic workforce data, including data by race/ethnicity, sex and job categories. The 2022 EEO-1 Component 1 data collection is tentatively scheduled to open in April 2023.
 
 ### AAP
 
