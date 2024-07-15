@@ -177,7 +177,7 @@ GitLab strives to maintain a workplace that is free from illegal use, possession
 1. What are we doing to get there?
     - Talk about mental health issues and ideas in the #mental_health_aware Slack channel.
     - GitLab would also like to encourage GitLab team members to take [time off]({{< ref "paid-time-off" >}}) to properly take care of themselves. We encourage the team to go to yoga, take a long lunch, or anything else in their day to day life that assists in their mental and emotional well-being.
-    - In addition to our current EAP programs available for employees, we encourage GitLab team members to take a look at [Working Through It](https://www.workplacestrategiesformentalhealth.com/employee-resources/working-through-it) for insight into reclaiming well-being at work, off work, and return to work.
+    - In addition to our current EAP programs available for employees, we encourage GitLab team members to take a look at these [Resources for Employees](https://www.workplacestrategiesformentalhealth.com/topic/Resources-for-employees) for insight into reclaiming well-being at work, off work, and return to work.
     - We believe that our values and culture lends itself to being able to discuss mental health open and honestly without being stigmatized, but let's work together to make it even more inclusive. For example, Finding the right words:
         - "How can we help you do your job?"
         - "You're not your usual self."
