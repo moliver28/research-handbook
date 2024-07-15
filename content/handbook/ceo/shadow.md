@@ -248,6 +248,7 @@ For insights on maximizing a remote CEO Shadow rotation, view takeaway recap vid
 
 #### Tips for remote shadows
 
+1. If you're based in a different time zone to the CEO, consider moving your working days in small increments (30 -60 mins) towards CEO's working hours 1-2 weeks prior to the start of your rotation. This will help you be refreshed on the first day and alert for the tasks that will be assigned to you during the programme.
 1. Be sure that you have an [ergonomic workspace](/handbook/company/culture/all-remote/workspace/). You'll be taking lots of notes during meetings, and will want a comfortable setup.
 1. Communicate clearly with your co-shadow about shared tasks since you will not be working together in person.
 1. Consider alternating who leads note-taking from one meeting to the next, which reduces confusion on who writes first and who follows from one event to the next.
