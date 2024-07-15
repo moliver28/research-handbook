@@ -62,7 +62,6 @@ important to those working within Zendesk:
 | `open_partner`        | Signifies the ticket is from an account labeled as Open Partner |
 | `select_partner`      | Signifies the ticket is from an account labeled as Select Partner |
 | `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner |
-
 </details>
 <details>
 <summary>Organization Tags</summary>
@@ -92,7 +91,9 @@ important to those working within Zendesk:
 | `sub_ss_ase`                   | The organization has an Assigned Support Engineer addon |
 | `sub_usgov_12x5`               | The organization has a US Government 12x5 subscription |
 | `sub_usgov_24x7`               | The organization has a US Government 24x7 subscription |
-
+| `org_region_amer`     | |
+| `org_region_emea`     | |
+| `org_region_apac`     | |
 </details>
 <details>
 <summary>Categorization tags</summary>
@@ -741,6 +742,11 @@ important to those working within Zendesk:
 | `within_grace_period`            | Indicates a ticket was submitted while the account is within the subscription's grace period |
 | `CUSTOM_PATH_issues_IID`         | See below for more information |
 | `CUSTOM_PATH_merge_requests_IID` | See below for more information |
+| `americas_usa`                   | Customer selected preferred region of service: AMER |
+| `europe__middle_east__africa`    | Customer selected preferred region of service: EMEA |
+| `asia_pacific`                   | Customer selected preferred region of service: APAC |
+| `all_regions`                    | Customer selected preferred region of service: All Regions |
+
 
 For `CUSTOM_PATH_issues_IID` and `CUSTOM_PATH_merge_requests_IID`, this refers
 to a long tag that contains the entire project path.
