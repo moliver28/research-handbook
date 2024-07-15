@@ -23,6 +23,9 @@ Open an issue in our [Production engineering tracker](https://gitlab.com/gitlab-
 
 We can help with:
 
+1. Disaster Recovery
+2. Incident Management
+3. System and OS level patching
 ### Production Engineering - Foundations
 
 Contact us in: [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6)
