@@ -11,55 +11,42 @@ The emphasis on quantification over editorialization has a number of benefits fo
 
 ## Tips
 
-#### Only use numbered links to list examples, not to describe how the person did something. Instead describe the contribution and link parts of the text
-
-- **Don't**
-  - Bob brought a critical user feature from the architectural stage right through to General Availability (GA) [1,2,3,4,5]
-- **Do**
-  - Bob created an architecture blueprint, with a proof of concept implementation to validate the proposed solution and aid estimation. As a result, the project was delivered on time in 3 MRs [1,2,3].
-- **Why**: Avoids the need for the reader to investigate each link individually and figure out for themselves what the person's contribution actually was, often from a large issue or discussion.
-
-#### Expand acronyms first time they appear
-
-- **Don't**:
-  - Jane worked with the PM for the stage to establish the Customer Engagement WG.
-- **Do**:
-  - Jane worked with the Product Manager (PM) to establish the Customer Engagement Working Group (WG).
-- **Why**: Peer reviewers in your field of expertise may be familiar with the acronyms but most readers will not. Many acronyms are unclear and there are collisions between disciplines (e.g. Total Addressable Market and Technical Account Manager).
-
-#### Avoid sentences over 30 words
-
-- **Don't**:
-  - Due to the fact that launching the project at scale represented a significant availability risk in hosted environments, Clare prepared a detailed rollout plan in collaboration with the Scalability and development teams that included a back-out strategy if something should go wrong.
-- **Do**:
-  - Clare identified and mitigated the risk to hosted environments by engaging with the Scalability and development teams to establish a back-out plan.
-- **Why**: Clear and concise writing makes the document easier to read and understand, reducing the cognitive load on the reader and ensuring that key points are not missed.
-
-#### Minimize the use of adjectives and adverbs
-
-- **Don't**:
-  - “significantly improved the performance of the most important Plan endpoints”
-- **Do**:
-  - “reduced Time to First Byte (TTFB) by an average of 180ms for the 5 most visited Plan endpoints”
-- **Why**: Adjectives and adverbs are imprecise and make it difficult for the reader to understand the true impact and the person's exact contribution to it.
-
-#### Quantification
-
-- **Don't**:
-- **Do**:
-- **Why**:
-
-#### Focus on ability at the next level
-
-- **Don't**:
-- **Do**:
-- **Why**: Space is limited and detailing contributions at the current level does not materially contribute to the case for promotion.
-
-#### Business Justification should describe how the person's role will change if promoted
-
-- **Don't**:
-- **Do**:
-- **Why**:
+1. Only use numbered links to list examples, not to describe how the person did something. Instead describe the contribution and link parts of the text
+   - **Don't**
+     - Bob brought a critical user feature from the architectural stage right through to General Availability (GA) [1,2,3,4,5]
+   - **Do**
+     - Bob created an architecture blueprint, with a proof of concept implementation to validate the proposed solution and aid estimation. As a result, the project was delivered on time in 3 MRs [1,2,3].
+   - **Why**: Avoids the need for the reader to investigate each link individually and figure out for themselves what the person's contribution actually was, often from a large issue or discussion.
+1. Expand acronyms first time they appear
+   - **Don't**:
+     - Jane worked with the PM for the stage to establish the Customer Engagement WG.
+   - **Do**:
+     - Jane worked with the Product Manager (PM) to establish the Customer Engagement Working Group (WG).
+   - **Why**: Peer reviewers in your field of expertise may be familiar with the acronyms but most readers will not. Many acronyms are unclear and there are collisions between disciplines (e.g. Total Addressable Market and Technical Account Manager).
+1. Avoid sentences over 30 words
+   - **Don't**:
+     - Due to the fact that launching the project at scale represented a significant availability risk in hosted environments, Clare prepared a detailed rollout plan in collaboration with the Scalability and development teams that included a back-out strategy if something should go wrong.
+   - **Do**:
+     - Clare identified and mitigated the risk to hosted environments by engaging with the Scalability and development teams to establish a back-out plan.
+   - **Why**: Clear and concise writing makes the document easier to read and understand, reducing the cognitive load on the reader and ensuring that key points are not missed.
+1.  Minimize the use of adjectives and adverbs
+   - **Don't**:
+     - “significantly improved the performance of the most important Plan endpoints”
+   - **Do**:
+     - “reduced Time to First Byte (TTFB) by an average of 180ms for the 5 most visited Plan endpoints”
+   - **Why**: Adjectives and adverbs are imprecise and make it difficult for the reader to understand the true impact and the person's exact contribution to it.
+1. Quantification
+   - **Don't**:
+   - **Do**:
+   - **Why**:
+1. Focus on ability at the next level
+   - **Don't**:
+   - **Do**:
+   - **Why**: Space is limited and detailing contributions at the current level does not materially contribute to the case for promotion.
+1. Business Justification should describe how the person's role will change if promoted
+   - **Don't**:
+   - **Do**:
+   - **Why**:
 
 ## Additional Tips
 
