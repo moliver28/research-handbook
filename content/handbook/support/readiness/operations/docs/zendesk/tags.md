@@ -752,7 +752,6 @@ important to those working within Zendesk:
 | `asia_pacific`                   | Customer selected preferred region of service: APAC |
 | `all_regions`                    | Customer selected preferred region of service: All Regions |
 
-
 For `CUSTOM_PATH_issues_IID` and `CUSTOM_PATH_merge_requests_IID`, this refers
 to a long tag that contains the entire project path.
 
