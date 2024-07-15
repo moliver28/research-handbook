@@ -31,3 +31,13 @@ Instead of including ClickHouse in the installer packages, we will provide an in
 
 Teams should consider ClickHouse as a fully supported technology to build features on top of, for both GitLab.com, GitLab Dedicated, and self-managed.
 Since ClickHouse is an optional requirement for running with GitLab, features should be designed in a way that they are disabled or fail gracefully when ClickHouse is not available.
+
+#### Features currently using ClickHouse
+
+These features currently leverage ClickHouse:
+
+- [Product Analytics](https://docs.gitlab.com/ee/user/product_analytics/)
+- [Observability](https://docs.gitlab.com/ee/operations/tracing.html)
+- [Runner Fleet Dashboard](https://docs.gitlab.com/ee/ci/runners/runner_fleet_dashboard.html)
+- [Value Stream Dashboard](https://docs.gitlab.com/ee/user/analytics/value_streams_dashboard.html#ai-impact-analytics)
+- [Activity Data Storage](https://docs.gitlab.com/ee/development/database/clickhouse/gitlab_activity_data.html)
