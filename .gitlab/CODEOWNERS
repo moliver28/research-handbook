@@ -295,7 +295,7 @@
 /content/job-families/finance/ @brobins @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
 [Finance required approvals]
-/content/handbook/finance/expenses.md @brobins @gitlab-com/egroup
+/content/handbook/finance/expenses.md @brobins @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[Infrastructure-Standards]
 /content/handbook/infrastructure-standards/ @gitlab-com/gl-security/identity/infra
