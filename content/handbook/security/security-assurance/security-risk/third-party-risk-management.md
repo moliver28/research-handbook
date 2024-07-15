@@ -453,7 +453,8 @@ Circumstances may arise in which a Security deficiency exists that is unavoidabl
 1. **Annual recertification** is required in the event that the risk is unremediated. This will include a new assessment of the vendor or system along with associated approvals.
 1. **Remediation Plan** a 12-month plan must be documented within the issue to define steps to be taken in addressing the risk. Risks can be addressed by remediating or mitigating the deficiency, or by drafting a timeline for off-boarding and replacing the system. Risks being accepted should follow a 12-month remediation timeline. The Security Risk team is available to aid in the development of this plan.
 
-Security Notices for externally-hosted systems are drafted and escalated in alignment with the system's [Critical System Tier](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/storm-program/critical-systems/). This is to allow for appropriate stakeholder visibility and to minimize business disruption resulting from requisition denial.
+Security Notices for externally-hosted systems are drafted and escalated in alignment with the system's [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/). This is to allow for appropriate stakeholder visibility and to minimize business disruption resulting from requisition denial.
+
 1. **Tier 4 Systems** - Not eligible for a Security Notice as these are not required to support business functions.
 1. **Tier 3 Systems** - Minor impact on business operations. VP and Corporate Security approval required.
 1. **Tier 2 and Tier 1 Systems** - Major impact on business operations. E-Group and Corporate Security approval required.
