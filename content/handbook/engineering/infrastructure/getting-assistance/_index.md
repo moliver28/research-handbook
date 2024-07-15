@@ -5,7 +5,7 @@ description: "How to get assistance for problems on Production Platforms"
 
 ## GitLab.com
 
-If you need to report an incident - follow the instructions on the [Report An Incident page](./incident-management/#reporting-an-incident).
+If you need to report an incident - follow the instructions on the [Report An Incident page](/incident-management/#reporting-an-incident).
 
 If you are looking for help, and you know what service you need help with - find the owner in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and contact them via Slack.
 
@@ -15,7 +15,11 @@ If you have read this whole page and are unsure how to proceed, please ask in th
 
 ### Production Engineering - Ops
 
-[#g_infra_ops](https://gitlab.enterprise.slack.com/archives/C04MH2L07JS)
+Contact us in: [#g_infra_ops](https://gitlab.enterprise.slack.com/archives/C04MH2L07JS)
+
+Open an issue in our [Production engineering tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new)
+
+We can help with:
 
 ### Production Engineering - Foundations
 
@@ -42,6 +46,8 @@ We can help with:
 ### Delivery
 
 Contact us in [#g_delivery](https://gitlab.enterprise.slack.com/archives/CCFV016SV)
+
+We can help with:
 
 ### Scalability - Observability
 
