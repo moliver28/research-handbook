@@ -34,7 +34,7 @@ Create simple, effective, and intentional brand experiences by solving complex p
 
 Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request.
 
-### Brand & Marketing Design Issue Templates
+### Brand Design & Video Issue Templates
 
 #### 1. [Brand Review Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request)
 
@@ -86,6 +86,18 @@ Does your design request not fall within one of the above categories? Please use
 
 - Do NOT use this template for brand reviews.*
 
+#### 9. [New Brand Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=new-video-request)
+
+Please use this issue when requesting a net new video.
+
+#### 10. [Upload Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request)
+
+Please us this issue template when requesting to have a video uploaded to Vimeo, YouTube, or another similar platform.
+
+#### 11. [Video Edit Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request)
+
+Please use this issue when requesting an update to an existing video or edits to video footage such as adding lower thirds, bumpers or slides to a zoom recording.
+
 #### **Not sure if you need a brand refresh?** Here's what has changed with our branding
 
 1. [Logomark](https://design.gitlab.com/brand-logo/logomark) and [Core Logo](https://design.gitlab.com/brand-logo/core-logo) the rules around how to use it properly
@@ -103,20 +115,6 @@ Does your design request not fall within one of the above categories? Please use
 - **If the deadline for your request is under a two-week window,** please ping our Senior Creative Operations Manager in Slack and include a link to your request, the deadline date, and why this is a quick-turn ask.
 - When inputting your project deadline, **please be mindful of time zone differences**. For example, if you're operating a day ahead of our Brand Design Team (PT / GMT-8 time zone) and need deliverables completed by Tuesday, Feb 20, please select Monday, Feb 19 as your deadline to accommodate for the time difference.
 - If you have any questions, comments, or concerns regarding your creative request, please reach out to our Senior Creative Operations Manager.
-
-### Brand Video Issue Templates
-
-#### 1. [New Brand Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=new-video-request)
-
-Please use this issue when requesting a net new video.
-
-#### 2. [Upload Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request)
-
-Please us this issue template when requesting to have a video uploaded to Vimeo, YouTube, or another similar platform.
-
-#### 3. [Video Edit Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request)
-
-Please use this issue when requesting an update to an existing video or edits to video footage such as adding lower thirds, bumpers or slides to a zoom recording.
 
 #### Contacting the team
 
