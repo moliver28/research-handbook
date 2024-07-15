@@ -14,7 +14,7 @@ _fill in / link to existing Psql positioning_
 ## ClickHouse
 
 [ClickHouse](https://clickhouse.com/) is a technology that is being used more throughout GitLab.
-It is a column-oriented database, as opposed to a row-oriented database, which makes it good for different use cases compared to Postgres, such as [OLAP](https://en.wikipedia.org/wiki/Online_analytical_processing) and big data processing.
+It is a [column-oriented database](https://clickhouse.com/docs/en/intro#why-column-oriented-databases-work-better-in-the-olap-scenario), as opposed to a row-oriented database like Postgres, which makes it good for use cases such as [OLAP](https://en.wikipedia.org/wiki/Online_analytical_processing) and big data processing.
 
 ### Deployment
 
