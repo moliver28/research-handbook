@@ -393,7 +393,6 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Gender Equity Notice](https://www.nj.gov/labor/wageandhour/assets/PDFs/Employer%20Poster%20Packet/genderequityposterenglish.pdf)
 [Public Employees Occuptional Safety and Health](https://www.nj.gov/labor/wageandhour/assets/PDFs/Employer%20Poster%20Packet/wps35.pdf)
 - [New Jersey Misclassifiation Notice](https://www.nj.gov/labor/wageandhour/assets/PDFs/Employer%20Poster%20Packet/mw-899b_%20520_missclassification%208x11.pdf)
-- [NJ Law Prohibits Discrimination in Employment](https://www.nj.gov/oag/dcr/downloads/posters/8x11_employmentposter.pdf)
 - [The Law Against Discrimination (LAD) Prohibits Discrimination and Harassment](https://www.njoag.gov/wp-content/uploads/2022/07/Employment.pdf)
 - [The New Jersey Family Leave Act (NJFLA)](https://www.njoag.gov/wp-content/uploads/2022/07/Family-Leave-Act.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1cMriBMp42Fo1fYupPZ1RHYhSUgLCayhI/view?usp=sharing)
@@ -401,12 +400,12 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### New Mexico
 
-- [Minimum Wage Act Summary](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/MWA_Summary_ENGL-2022.pdf)
-- [Human Rights Act](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/human_rights_poster_2020.pdf)
+- [Minimum Wage](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/MWA_Summary_ENGL_2023.pdf)
+- [Human Rights Act](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/Human_Rights_poster-letter_size_7.12.2023_UPDATE.pdf?ver=KdwYlrNqS_o_fuGp-q5ygg%3d%3d)
 - [Human Trafficking Poster](https://www.dws.state.nm.us/Portals/0/DM/Business/Human_Trafficking_Poster.pdf)
 - [Job Safety and Health Poster](https://www.env.nm.gov/occupational_health_safety/wp-content/uploads/sites/12/2021/10/OSHA_Poster.pdf)
 - Notice of Accident or Occupational Disease Disablement
-- [Paid Sick Leave](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/Paid_Sick_Leave_poster_11x17_size.pdf?ver=2022-03-29-000531-210)
+- [Paid Sick Leave](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/Paid_Sick_Leave_poster_letter_size.pdf?ver=2022-03-29-000528-147)
 **Bernalillo County**
 - [Employee Wellness Act](https://www.bernco.gov/planning/wp-content/uploads/sites/58/2022/09/2022-BC-Employee-Wellness-Act-Poster.FINAL.pdf)
 
@@ -443,7 +442,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 - [Child Labor Poster](https://drive.google.com/file/d/1dF8mWBRZsW_a1Vb-YTzR83EJNDCvQf9X/view?usp=sharing)
 - [Equal Employment Opportunity Poster](https://drive.google.com/file/d/1uLgvyuYpO1KghE1ignPPUmMIthCbIq6o/view?usp=sharing)
-- [Minimum Wage](https://com.ohio.gov/static/documents/2023MWPoster.pdf)
+- [Minimum Wage](https://dam.assets.ohio.gov/image/upload/com.ohio.gov/documents/2024_MW_Poster.pdf)
 - [Unemployment Compensation - Notice to Employees](https://drive.google.com/file/d/1TmrcpGiVtdu0YadZ4PTqAyClRtH7vuC3/view?usp=sharing)
 - [Workers'Compensation Rebuttal Presumption of Drug/Alcohol Use](https://drive.google.com/file/d/1qQ4W_TZosZSXwslr4NKljW0D5xC9Rz35/view?usp=sharing)
 
@@ -479,7 +478,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Workers' Compensation Notice - Federal](https://drive.google.com/file/d/1SKo7zi1Q9rkrR03gVIor1exbz1tPxlB2/view?usp=sharing)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1exd3Hy9ODgexMuAZtza-PmvGsqzHZAIZ/view?usp=sharing)
 - **Allegheny County, PA**
-  - [Paid Sick Leave Ordinance](https://www.alleghenycounty.us/uploadedFiles/Allegheny_Home/Dept_-_Content/Administrative/Docs/Paid%20Sick%20Leave%20Ordinance%20-%20notice.pdf)
+  - [Paid Sick Leave Ordinance](https://www.alleghenycounty.us/files/assets/county/v/1/government/health/documents/paid-sick-leave/paid-sick-leave-ordinance-notice.pdf)
 - **City of Philadelphia**
   - [Promoting Healthy Families and Workplaces](https://www.phila.gov/media/20191218103833/Paid-Sick-Leave-Poster-Translations.pdf)
   - [Fair Chance Hiring Law](https://www.phila.gov/media/20210423160847/Fair-Chance-Hiring-law-poster.pdf)
@@ -537,14 +536,14 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Payday Law Poster](https://drive.google.com/file/d/1wRMvfxmZmvdMMGyPKNfemXUeX3nTetvQ/view?usp=sharing)
 - [Unemployment Compensation Act](https://drive.google.com/file/d/1f3fTOsJ6u_aszC20_MIBtmCgvxLtA7gM/view?usp=sharing)
 - [Equal Employment Opportunity](https://www.twc.texas.gov/files/businesses/employee-rights-poster-twc.pdf)
-- [Child Labor Laws](https://www.twc.texas.gov/files/businesses/whcl-70-child-labor-poster-eng-twc.pdf)
-- [Wage Claims](https://www.twc.texas.gov/files/jobseekers/wh-52-eng-are-you-owed-wages-twc.pdf)
+- [Child Labor Laws](hhttps://www.twc.texas.gov/sites/default/files/fdcm/docs/whcl-70-child-labor-poster-eng-twc.pdf)
+- [Wage Claims](https://www.twc.texas.gov/sites/default/files/fdcm/docs/wh-52-eng-are-you-owed-wages-twc.pdf)
 - [Workers' Compensation Notice - Federal](https://drive.google.com/file/d/1zIXQAK8RM_zO8tJyo1R5WclYLmILQpjZ/view?usp=sharing)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1LvjoMrQP0tj3mjKd4RhOz02fA9gmMflO/view?usp=sharing)
 
 ### Utah
 
-- [Pregnancy and Related Conditions Poster](https://laborcommission.utah.gov/wp-content/uploads/2019/11/PregnancyandRelatedConditionsPoster.pdf)
+- [Pregnancy and Related Conditions Poster](https://laborcommission.utah.gov/wp-content/uploads/2024/06/PregnancyandRelatedConditionsPoster-New.pdf)
 - [Workplace Safety and Health](https://laborcommission.utah.gov/wp-content/uploads/2019/11/uoshaPoster.pdf)
 - [Unemployment Notice](https://jobs.utah.gov/ui/employer/Public/UINoticePosterEnglish.pdf)
 - [Workers' Compensation Notice - Federal](https://drive.google.com/file/d/1QSH4q1MHcoebne_ye_6YDMApnjWCPm_2/view?usp=sharing)
@@ -566,7 +565,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Virginia
 
-- [Virginia Unemployment Compensation Act](https://www.vec.virginia.gov/sites/default/files/documents/TranslatedPDFs/Notice-to-Workers/Notice-to-Workers-English.pdf)
+- [Virginia Unemployment Compensation Act](https://www.vec.virginia.gov/pdf/vecb29eng.pdf)
 - [Virginia Occupational Safety and Health Act](https://www.doli.virginia.gov/wp-content/uploads/2021/10/Job-Safety-Posters-English-August-2021.pdf)
 - [Earned Income Tax Credit](https://www.irs.gov/pub/irs-pdf/p962esp.pdf)
 - [Virgina CLI](https://www.dss.virginia.gov/files/division/cvs/pi/eitc/employer_info/cli_flyer2021.pdf)
@@ -601,7 +600,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Minimum Wage Requirements](https://labor.wv.gov/Wage-Hour/Minimum_Wage/Documents/MINIMUM%20WAGE%20POSTER%20012018.pdf)
 - [Wage Payment and Collection Act](https://labor.wv.gov/Wage-Hour/Wage_Collection/Documents/WPC%20Poster.pdf)
 - [WV Human Rights Act](https://hrc.wv.gov/about/Documents/NEW%20Notice%20HRA%20FHA%20PWFA.pdf)
-- [Notice to Employees - Unemployment Benefits](https://workforcewv.org/images/files/Claimants/UC-Benefits-Poster.pdf)
+- [Unemployment Benefits Claimant Handbook](https://workforcewv.org/wp-content/uploads/2024/05/WFWV-Claimant-Handbook-08.23-2.pdf)
 
 ### Wisconsin
 
@@ -618,7 +617,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Wyoming
 
-- [Consolidated Labor Law Posters](https://dws.wyo.gov/wp-content/uploads/2022/08/labor-law-wyoming.pdf)
+- [Consolidated Labor Law Posters](https://drive.google.com/file/d/12gCg1UGo8XFwAd_WMb0RK8w5VBsC4rhB/view)
 
 ### EEOC (U.S. Equal Employment Opportunity Commission) Notices
 
