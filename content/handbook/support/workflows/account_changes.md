@@ -24,6 +24,10 @@ For example, users should be deleting their own projects, but if they encounter 
 
 If in doubt, please ask a Support manager to review.
 
+#### Communicating Financial Implications
+
+In situations where Support intervenes [with permission](#asking-permission), the changes requested by the customer may have financial implications. All discussions about the financial implications of these changes must be referred to the Sales team. Use the appropriate [Slack channel](/handbook/sales/sales-google-groups/##slack-channels-and-groups) to start the conversation. A complete and correct answer from the right person later is better than an incomplete or inaccurate answer "now". 
+
 ## Project/Group Changes
 
 In cases where Support needs to take action on the project or group, such as for troubleshooting purposes, Support should do two things:
