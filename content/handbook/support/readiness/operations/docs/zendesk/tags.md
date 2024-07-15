@@ -71,6 +71,12 @@ important to those working within Zendesk:
 |--------------------------------|---------------|
 | `greatly_expired`              | The organization is slated to be removed due to data rentention policies |
 | `not_in_sfdc`                  | The organization is not being controlled by the ZD-SFDC sync |
+| `org_region_apac`              | The organization has a Geographic Demographic relating to APAC |
+| `org_region_amer`              | The organization has a Geographic Demographic relating to AMER |
+| `org_region_emea`              | The organization has a Geographic Demographic relating to EMEA |
+| `org_region_latam`             | The organization has a Geographic Demographic relating to LATAM |
+| `org_region_ncsa`              | The organization has a Geographic Demographic relating to NCSA |
+| `org_region_noram`             | The organization has a Geographic Demographic relating to NORAM |
 | `partner_customer`             | The organization has purchased from an OEM partner |
 | `restricted_account`           | The SFDC account is classified as restricted and cannot receive support |
 | `sub_community_other`          | The organization has a community subscription which had an undetectable type |
@@ -92,9 +98,7 @@ important to those working within Zendesk:
 | `sub_ss_ase`                   | The organization has an Assigned Support Engineer addon |
 | `sub_usgov_12x5`               | The organization has a US Government 12x5 subscription |
 | `sub_usgov_24x7`               | The organization has a US Government 24x7 subscription |
-| `org_region_amer`     | |
-| `org_region_emea`     | |
-| `org_region_apac`     | |
+
 </details>
 <details>
 <summary>Categorization tags</summary>
