@@ -13,7 +13,7 @@ If you need help, but you aren't sure who to ask, look through the teams below t
 
 If you have read this whole page and are unsure how to proceed, please ask in the #saas-platforms-help channel. You will be refirected to the appropriate team for help.
 
-We aim to respond to your request within 24 hours. If you raise your request on a Friday, it may only be responded to on Monday. 
+We aim to respond to your request within 24 hours. If you raise your request on a Friday, it may only be responded to on Monday.
 
 ### Production Engineering - Ops
 
@@ -55,6 +55,8 @@ We can help with:
 
 Contact us in: [#g_scalability-observability](https://gitlab.enterprise.slack.com/archives/C065RLJB8HK)
 
+Open an issue in our [Scalability issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/new)
+
 We can help with:
 
 1. Observability
@@ -67,6 +69,8 @@ We can help with:
 ### Scalability - Practices
 
 Contact us in: [#g_scalability-practices](https://gitlab.enterprise.slack.com/archives/C04M6HVAY49)
+
+Open an issue in our [Scalability issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/new)
 
 We can help with:
 
