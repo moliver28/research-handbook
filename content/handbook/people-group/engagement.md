@@ -106,10 +106,14 @@ Our Engagement Survey for FY'25 is scheduled to run from 2024-06-17 to 2024-06-2
 - 202-06-17: Survey launch @ 8am PT
 - 2024-06-28: Survey close @ 5pm PT
 - 2024-07-08: High-level summary shared with People Leadership Team
-- 2024-07-09: High-level summary shared with E-Group
+- 2024-07-10: High-level summary shared with E-Group
+- 2024-07-15: Vice President, Sr. Director, and Director level reports shared in CultureAmp*
+- 2024-07-16: Sr. Manager and Manager level reports shared in CultreAmp*
 - 2024-07-18: High-level summary release (company-wide) and followed by handbook updates
-- 2024-07-18 through 2024-07-31: E-group & leadership division-level summary release
+- 2024-07-18 through 2024-07-31: Division-level results summary shared by division leaders
 - Q3 - Finalize Division specific action plans
+
+*Only leaders with 5 or more respondents will receive a report in CultreAmp
 
 ### Summit Pulse Surveys Overview
 
