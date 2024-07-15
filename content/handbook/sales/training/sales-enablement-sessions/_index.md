@@ -9,13 +9,24 @@ description: "Continuous education webcast series for GitLab sales team members"
 
 To see what training is coming soon, view the [Field Enablement Spotlight issue list](https://gitlab.com/groups/gitlab-com/sales-team/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sales%20enablement%20sessions).
 
-**Summer 2024 Lineup**
+**Fall 2024 Lineup**
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Jul 11 | Spekit - RealTime Enablement - Tool Launch | Spekit & RSOE Team |
-| Jul 18 | *No session during the last two weeks of the quarter* | N/A |
-| Jul 25 | *No session during the last two weeks of the quarter* | N/A |
+| Aug 1 | Duo Enterprise Revenue Play Enablement  | Marketing |
+| Aug 8  | New Forrester TEI Report | Marketing |
+| Aug 15  | Gong User Training | RSOE Team |
+| Aug 22  | Groove User Training  | RSOE Team |
+| Aug 29  | Renewals Manager Overview  |  Renewals Team |
+| Sep 5  | Field Dashboards Overview  | RSOE Team |
+| Sep 12  |  TBD     |       |
+| Sep 19  | FY25-Q3 - Professional Services Update | Professional Services Team |
+| Sep 26  | FY25-Q3 - Analyst Relations Update | Analyst Relations Team |
+| Oct 3  |  FY25-Q3 - Competitive Update | Marketing |
+| Oct 12  | TBD      |       |
+| Oct 17  | TBD     |       |
+| Oct 24 | *No session during the last two weeks of the quarter* | N/A |
+| Oct 31 | *No session during the last two weeks of the quarter* | N/A |
 
 ## Past Sessions
 
@@ -24,6 +35,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-07-11 | **[Spekit - RealTime Enablement - Tool Launch](https://drive.google.com/file/d/1pD7GEb8Zjdu_O7RfRKuf0PtuiGd2PrYz/view?usp=drive_link)** | Private |
 | 2024-07-03 | **[Leveraging Partners Throughout the Customer Journey](https://drive.google.com/file/d/1A5_C8QMotr0K4PP_PZkM3wVQdu9qyFyh/view?usp=drive_link)** | Private  |
 | 2024-06-27 | **[GitLab 17 Launch - Marketing Enablement](https://drive.google.com/file/d/1cYYsgl5M88T8WsbVyaCTmWkMrPRXNTzf/view?usp=drive_link)** | Field Enablement |
 | 2024-06-13 | **[Business Value Services & Ecosystems](https://drive.google.com/file/d/1Y1cm7tGc8_-Kx4av4ML2135AhWFpemVX/view?usp=drive_link)**  | Private |
