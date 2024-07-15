@@ -62,6 +62,7 @@ important to those working within Zendesk:
 | `open_partner`        | Signifies the ticket is from an account labeled as Open Partner |
 | `select_partner`      | Signifies the ticket is from an account labeled as Select Partner |
 | `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner |
+
 </details>
 <details>
 <summary>Organization Tags</summary>
