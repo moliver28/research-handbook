@@ -7,7 +7,7 @@ description: "How to get assistance for problems on Production Platforms"
 
 If you need to report an incident - follow the instructions on the [Report An Incident page](/incident-management/#reporting-an-incident).
 
-If you are looking for help, and you know what service you need help with - find the owner in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and contact them via Slack.
+If you are looking for help, and you know what service you need help with - find the owner in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). Check below to see if the team has a specific issue template or tracker for the help you seek or contact them via Slack.
 
 If you need help, but you aren't sure who to ask, look through the teams below to see which team is the best fit for your question.
 
