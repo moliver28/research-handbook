@@ -31,24 +31,24 @@ can leverage the list of drivers on this page to find a Solutions Architect you 
 
 To become a driver, submit an MR to this page adding yourself to the table below and assign your manager as a reviewer.
 
-| Team Member            | Segment                      |
-|------------------------|------------------------------|
-| **Tim Poffenbarger**   | Americas SMB, Mid-Market     |
-| **Noah Ing**           | Americas SMB, Mid-Market     |
-| **Joe Randazzo**       | Americas SMB, Mid-Market     |
-| **Jeremy Wagner**      | Americas SMB, Mid-Market     |
-| **Madou Coulibaly**    | EMEA SMB, Mid-Market         |
-| **Idir Ouhab Meskine** | EMEA Enterprise              |
-| **Alexander Dess**     | EMEA Enterprise              |
-| **Sameer Kamani**      | PubSec                       |
-| **Linc Williams**      | PubSec USN, USMC,DHA         |
-| **Ben Ridley**         | APAC PubSec                  |
-| **Sophia Manicor**     | Americas SMB, Mid-Market     |
-| **Julie Byrne**        | Americas SMB, Mid-Market     |
-| **Ken McKnight**       | Americas Enterprise West     |
-| **Jefferson Jones**    | Americas SMB, Mid-Market     |
-| **Edmond Chan**.       | Americas Enterprise East.    |
-| **__**                 |                              |
+| Team Member            | Segment                      | Time Zone | Language |
+|------------------------|------------------------------|-----------|----------|
+| **Tim Poffenbarger**   | Americas SMB, Mid-Market     | GMT-5     | EN       |
+| **Noah Ing**           | Americas SMB, Mid-Market     | GMT-4     | EN       |
+| **Joe Randazzo**       | Americas SMB, Mid-Market     | GMT-4     | EN       |
+| **Jeremy Wagner**      | Americas SMB, Mid-Market     | GMT-4     | EN       |
+| **Madou Coulibaly**    | EMEA SMB, Mid-Market         | GMT+1     | FR       |
+| **Idir Ouhab Meskine** | EMEA Enterprise              |           |          |
+| **Alexander Dess**     | EMEA Enterprise              | GMT+1     | DE       |
+| **Sameer Kamani**      | PubSec                       | GMT-4     | EN       |
+| **Linc Williams**      | PubSec USN, USMC,DHA         | GMT-4     | EN       |
+| **Ben Ridley**         | APAC PubSec                  | GMT+10    | EN       |
+| **Sophia Manicor**     | Americas SMB, Mid-Market     | GMT-5     | EN       |
+| **Julie Byrne**        | Americas SMB, Mid-Market     | GMT-4     | EN       |
+| **Ken McKnight**       | Americas Enterprise West     | GMT-7     | EN       |
+| **Jefferson Jones**    | Americas SMB, Mid-Market     |           | EN       |
+| **Edmond Chan**.       | Americas Enterprise East.    | GMT-4     | EN       |
+| **__**                 |                              |           |          |
 
 ##### Sync before Call
 
