@@ -82,7 +82,7 @@ Key Elements:
 
 To participate, Product Designers and Engineers should:
 
-1. Create an issue to share plan and assign it to their manager for approval.
+1. Create an issue to share a plan and assign it to their manager for approval.
 1. Indicate the percentage of capacity dedicated to the initiative.
 1. Link all related issues that arise in the sprint to the main issue for transparency and tracking.
 1. Ensure all changes align with the Pajamas Design System and leverage feature flags where appropriate.
