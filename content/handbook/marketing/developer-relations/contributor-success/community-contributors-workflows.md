@@ -11,7 +11,7 @@ A GitLab contributor room is available on [Discord](https://discord.gg/gitlab) f
 
 ## Issues
 
-### Labeling issues for community contributors
+### Labelling issues for community contributors
 
 See guidance on [seeking wider community contributions](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions) and the [criteria for `quick win` issues](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#criteria-for-quick-win-issues).
 
@@ -21,9 +21,23 @@ See the [partial issue triage checklist](/handbook/engineering/infrastructure/en
 
 ## Bounties
 
-### Adding Bounties to issues
+Issue bounties allow users to offer rewards for community issues. The terms of these bounties need to be discussed by all parties involved and are outside the remit of GitLab. GitLab will not take responsibility for any redemption or disagreements involving bounties.
 
-To add a bounty to a GitLab community issue, please mention the releveant product manager. They will assess whether the issue aligns with the GitLab product and, if appropriate, add the bounty label.
+### Adding bounties to issues
+
+To add a bounty to a GitLab community issue, please mention the relevant product manager. They will assess whether the issue aligns with the GitLab product and, if appropriate, add the bounty label. Once the label has been added, the user offering the bounty should add any details of the reward to the issue as a comment.
+
+### Displaying issue with bounties
+
+To display all issues that have bounties assigned, use the filter in the issue search and look for the label "bounty".
+
+### Accepting a issue bounty
+
+To accept an issue bounty, mention the user(s) offering the bounty/bounties and discuss the terms.
+
+### Claiming a issue bounty
+
+When you have completed the bounty as per the discussed terms, mention the user offering the bounty and provide an update. Any payment, product, or services offered should be processed outside of the GitLab platform.
 
 ## Merge Requests
 
