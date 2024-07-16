@@ -58,7 +58,6 @@ auditability
 auditable
 Auth0
 authenticator
-authntication
 Authy
 autocomplete
 autocompleted
@@ -108,9 +107,7 @@ Bazel
 bcrypt
 BDRs
 Beamer
-Beltran
 Bhyve
-Bisutti
 Bitbucket
 Bitnami
 bitrate
@@ -168,7 +165,7 @@ CE
 CentOS
 Ceph
 Certbot
-cfg
+CFPs
 cgo
 cgroup
 cgroups
@@ -335,7 +332,6 @@ deserializes
 desugar
 desugars
 desynchronized
-dev
 Dev
 devfile
 devfiles
@@ -401,7 +397,6 @@ enrichers
 enum
 enums
 Enviroments
-Eoghan
 ESLint
 ESXi
 ETag
@@ -430,7 +425,6 @@ favorited
 FBPs
 Fedex
 Fediverse
-Ferreira
 ffaker
 Figjam
 Figma
@@ -534,7 +528,6 @@ heatmaps
 Helm
 Helmfile
 helpdesk
-Helpdesk
 Heroku
 Herokuish
 heuristical
@@ -542,7 +535,6 @@ hexdigest
 Hexo
 Highspot
 HipChat
-Hirata
 hoc
 Hoc
 hostname
@@ -552,7 +544,6 @@ hotfixed
 hotfixes
 hotfixing
 hotspot
-Hotspot
 hotspots
 HTMLHint
 http
@@ -566,7 +557,6 @@ iCloud
 ICs
 idempotence
 idmapper
-ie
 Iglu
 IGPs
 IIFEs
@@ -600,6 +590,7 @@ issuables
 Istio
 iTerm
 Jaeger
+Jamstack
 Jamf
 jasmine-jquery
 Javafuzz
@@ -641,12 +632,10 @@ Kibana
 Kinesis
 Klar
 Knative
-Kobaisy
 KPIs
 Kramdown
 Kroki
 KRs
-Krusiec
 kubeconfig
 Kubecost
 kubectl
@@ -656,7 +645,7 @@ Kucoin
 Kustomization
 Kustomize
 kwargs
-Ladgrove
+Labra
 Laravel
 LaunchDarkly
 ldapsearch
@@ -665,10 +654,10 @@ LEDs
 Lefthook
 Leiningen
 Lemmy
-Lentz
 libFuzzer
 Libgcrypt
 Libravatar
+LinkedIn
 linux
 liveness
 livestream
@@ -714,7 +703,6 @@ Makefile
 Makefiles
 malloc
 Maniphest
-Manzuik
 Markdown
 markdownlint
 Marketo
@@ -723,7 +711,6 @@ matchers
 Matomo
 Mattermost
 Mavenlink
-Maximillian
 mbox
 Meltano
 memoization
@@ -762,7 +749,6 @@ Mmap
 mockup
 mockups
 ModSecurity
-Mohammed
 Monokai
 monorepo
 monorepos
@@ -796,7 +782,11 @@ navigations
 negatable
 Neovim
 Netlify
-newtork
+Netsuite
+neurodivergent
+neurodiverse
+neurodiversity
+neurotypical
 NGINX
 ngrok
 Nira
@@ -1482,7 +1472,6 @@ ZAProxy
 Zeitwerk
 Zendesk
 ZenTao
-Zhu
 Zoekt
 Zoominfo
 zsh
