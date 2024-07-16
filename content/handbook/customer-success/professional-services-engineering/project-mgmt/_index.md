@@ -37,6 +37,7 @@ Given the close collaboration between the PS Project Management and PS Operation
    * Add epics for each activity including labels: "PM::name" "PSD Workflow::Not Started" "SOW-00". Issues will be created at a later stage by the technical team under the right epic
 
 1. The PM to ensure the communiation plan, delivery methodology, scope definitions, time, and budget are aligned as we head into Delivery. All professional services engagements that are successful essentially follow 11 steps, regardless of specific customer framework, process, or SDLC flavor involved. The steps are:
+
 * Identify, document, and conduct an engagement strategy based on the specific customer situation
 * Build awareness and excitement at all levels - regularly communicate status to all relevant parties: executives, buyers, stakeholders
 * Identify MVP pilot project(s) - we always utilize one or more MVPs to prove out our engagement strategy
