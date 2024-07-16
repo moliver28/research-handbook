@@ -322,7 +322,7 @@ We welcome team members to join meetings that are on our shared calendar. The [S
 
 ### Staying informed
 
-GitLab is an extremely active organization which generates a lot of news and activity each week. Everyone in Secure are encouraged to [keep themselves informed](/handbook/engineering/#keeping-yourself-informed) as to what is happening in the larger organzation. Everyone is also
+GitLab is an extremely active organization which generates a lot of news and activity each week. Everyone in Secure are encouraged to keep themselves informed as to what is happening in the larger organzation. Everyone is also
 encouraged to contribute to these channels and communication paradigms when you have information to share.
 
 In addition to this, each group in Secure conducts a weekly synchronous meeting. These meetings are publicized on the Secure Calendar mentioned above. As always at GitLab, we strive to [make meeting attendance optional](/handbook/company/culture/all-remote/meetings/#1-make-meeting-attendance-optional).
