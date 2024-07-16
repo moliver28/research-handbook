@@ -42,19 +42,18 @@ Using either the email address or the form will result in the creation of a Sale
 
 ***NB:** Support should be able to rely on the Salesforce `Account Owner` field to determine who is responsible for the account. If that is incorrect, escalate it **immediately**.*
 
-#### If the Salesforce `Account Owner` is `AMER|EMEA|APAC SMB Sales User`
+#### If the Salesforce `Account Owner` is `<@AMER|@EMEA|@APAC> SMB Sales User`
 
-- Follow this [process](/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) to create a case, OR
-Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F98X000000oPQS) group in Salesforce.
+Customers with an Account Owner of `<@AMER|@EMEA|@APAC> SMB Sales User` are managed by the SMB Advocate Team. They primarily work out of SFDC cases, in alignment with the [Global Digital SMB Sales Model](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#global-digital-smb-sales-model).
+
+{{% alert title="IMPORTANT" color="warning" %}}
+
+`Interim Process 2024-02-29`: Case creation can only be performed by the nominated Support Engineers listed [here](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5875#sfdc-case-creators). If you are are not listed as a Case Creator, please handover the ticket to one of the case creators listed, as they will be responsible for manually creating cases using this [process](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team). Tooling enhancement is being developed to automate case creation - follow [issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5039) for updates. {{% /alert %}}
+
+- Follow this [process](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) to create a case.
   - Once a case is created, it will be picked up by an SMB Advocate.  Once picked up, the SMB Adovate will drop a note in the Zendesk ticket advising that the request is being actioned.
   - The case can then be tracked by viewing the `Case Status` field, and `Case Next Steps` field.
   - Support Cases, and their current status, can be viewed on the SFDC account, or via this [SFDC Report](https://gitlab.my.salesforce.com/00OPL000000toc5).
-
-- If the Support Engineer does not have Salesforce access, post a message in the [**#global-digital-smb_public**](https://gitlab.enterprise.slack.com/archives/C06H72XGQUD) slack channel.
-- In your post, include:
-  - details of the request
-  - the Zendesk ticket link
-- Note: Chattering the group or creating a slack post, instead of creating a Salesforce case, will result in a delayed response.  Chatters and slack messages can also not be tracked.
 
 ##### If the Salesforce `Account Owner` is not a person and is not `<@AMER|@EMEA|@APAC> SMB Sales` User
 
