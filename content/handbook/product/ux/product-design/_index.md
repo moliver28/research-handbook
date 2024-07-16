@@ -75,7 +75,7 @@ Key Elements:
 - **No restrictions on product area:** Improvements can be made across any product area, fostering broad collaboration.
 - **Define a theme:** [Fiscal year investment themes](https://about.gitlab.com/direction/#fy25-rd-investment-themes) are a company wide priority. Participants can either choose one of those or any another area of emphasis as a theme to align with for the initiative.
 - **Length of rotation:** Pairings last 1-3 milestones, depending on what the pairing believes is appropriate.
-- **Prioritization and capacity planning:** Participants coordinate with their managers to balance their involvement with regular responsiblities. They create a capacity plan to demonstrate how they will accommodate the ongoing product and engineering priorities while delivering the list of improvements.
+- **Prioritization and capacity planning:** Participants should coordinate with their managers to balance their involvement with regular responsibilities. They should create a capacity plan to demonstrate how they will accommodate the ongoing product and engineering priorities while delivering the list of improvements.
 - **Documentation:** All changes must be documentated, adhering to the [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), and involving [relevant Technical Writers](/handbook/product/ux/technical-writing/#assignments).
 
 #### Participation
