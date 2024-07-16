@@ -60,7 +60,7 @@ You've now got some time to do some investigation on some of your accounts. You 
   </tr>
   <tr>
    <td><strong>Custom pitch deck built for all opps over $5k amount (SMB) or $10k amount (Mid-Market)</strong></td>
-   <td><a href="https://about.gitlab.com/handbook/sales/commercial/#custom-deck-requirements">Requirements</a></td>
+   <td><a href="https://handbook.gitlab.com/handbook/sales/commercial/#custom-deck-requirements">Requirements</a></td>
    <td>It helps you sell on value rather than just features and it arms your champion with the info they need to get sign-off internally to buy GitLab. Lastly, it makes you stand out as a sales rep.</td>
   </tr>
   <tr>

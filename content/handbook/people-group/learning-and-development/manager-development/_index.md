@@ -47,7 +47,7 @@ If you have questions as you work your way through this checklist please ask the
 
 ## Becoming a GitLab Manager Issue Retrospective
 
-An important task is to create a retrospective thread within the Becoming a GitLab Manager issue, so that the team member can log any questions, comments, proposals and more about their issue. Retrospectives are used in many ways at GitLab, like after a GitLab product [release]({{< ref "communication#release-retrospectives-and-kickoffs" >}}) based on the Product [retrospective workflow](/handbook/engineering/workflow/#retrospective). For the Becoming a GitLab Manager issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Feel free to please ask any questions in the [#managers](https://gitlab.slack.com/messages/C5Z55R5J5/details/) Slack channel.
+An important task is to create a retrospective thread within the Becoming a GitLab Manager issue, so that the team member can log any questions, comments, proposals and more about their issue. Retrospectives are used in many ways at GitLab, like after a GitLab product [release](/handbook/communication/#release-retrospectives-and-kickoffs) based on the Product [retrospective workflow](/handbook/engineering/workflow/#retrospective). For the Becoming a GitLab Manager issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Feel free to please ask any questions in the [#managers](https://gitlab.slack.com/messages/C5Z55R5J5/details/) Slack channel.
 
 ### Coaching remote work practices
 

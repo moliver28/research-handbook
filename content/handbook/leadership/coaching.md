@@ -281,7 +281,7 @@ The planning for the action phase is about enabling the coachee to make a plan w
 - Coaches may not necessarily be attached to the results a coachee achieves.
 - Actions are anchored in what is important to the coachee, what changes they want to achieve. Coaches should hold their coachee accountable for performance on action steps and their overall change agenda.
 
-When you are planning for action while wearing your coaching hat, you are not evaluating or judging or driving your agenda. The coachee should ultimately decide the action steps, committing to their path forward. As a coach, you are curious and non-judgemental while living up to [GitLab values]({{< ref "values" >}}).
+When you are planning for action while wearing your coaching hat, you are not evaluating or judging or driving your agenda. The coachee should ultimately decide the action steps, committing to their path forward. As a coach, you are curious and non-judgemental while living up to [GitLab values](/handbook/values/).
 
 #### Sample planning for action questions
 

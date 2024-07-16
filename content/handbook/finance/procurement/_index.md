@@ -345,7 +345,7 @@ The planning stages for events of this size should be completed at least 18-24 m
 
 ### Contract Templates
 
-- [GitLab Vendor Terms and Conditions]({{< ref "./vendor-guidelines" >}})
+- [GitLab Vendor Terms and Conditions](vendor-guidelines/)
 - [Logo Authorization Template](https://drive.google.com/file/d/1Vtq3UHc8lMfIbVFJ3Mc-PZZjb6_CKAvm/view?usp=sharing)
 - [Data Processing Addendum (unlocked for editing)](https://docs.google.com/document/d/1U8jCxpRc21fNu6_VsYxsSSun3G7s4b2Q/edit?usp=share_link&ouid=101595031187349560306&rtpof=true&sd=true)
 - [EU Standard Contractual Clauses](https://drive.google.com/file/d/17I4nirg99UPsrDi28VS1-R0B2FcKTKbz/view?usp=share_link)
@@ -364,11 +364,11 @@ The planning stages for events of this size should be completed at least 18-24 m
 
 #### Other Services
 
-- [Home Office and Supplies]({{< ref "./office-equipment-supplies" >}})
-- [Individual Use Software]({{< ref "./individual-use-software" >}})
+- [Home Office and Supplies](office-equipment-supplies/)
+- [Individual Use Software](individual-use-software/)
 - [RFP and Vendor Selection Process](https://internal.gitlab.com/handbook/finance/procurement/)
-- [Vendor Terms and Conditions]({{< ref "./vendor-guidelines" >}})
+- [Vendor Terms and Conditions](vendor-guidelines/)
 - [Non-Disclosure Agreement (NDA)](/handbook/legal/NDA/#)
-- [Charitable Contributions]({{< ref "./charitable-contributions" >}})
-- [Non-Cost Related Agreements (Including Trials/Demos)]({{< ref "./trial-agreement" >}})
+- [Charitable Contributions](charitable-contributions/)
+- [Non-Cost Related Agreements (Including Trials/Demos)](trial-agreement/)
 <!-- markdownlint-enable MD051 -->

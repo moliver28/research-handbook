@@ -114,7 +114,7 @@ Customer personas are attributed to individual contacts in Gainsight when viewin
 
 On the Gainsight Attributes section, the CSM can set the priority level per customer with levels 1 or 2, with 1 being the highest. A new CSM-assigned customer coming on to GitLab will default to Pr1 until their onboarding enablement is complete. Pr3 is solely for unmanaged child accounts, and Pr4 is only for our digital customers and not for the CSM-assigned segment, with the exception of the Public Sector that is trialing a CSM-assigned digital customer. Priority definitions vary by CSM segment.
 
-![Post-Sales Customer Segmentation](./img/segmentation.jpg "Post-Sales Customer Segmentation")
+![Post-Sales Customer Segmentation](img/segmentation.jpg "Post-Sales Customer Segmentation")
 
 Why do we use a prioritization system?
 

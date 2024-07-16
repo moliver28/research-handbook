@@ -58,7 +58,7 @@ UTMs should **always** be used when linking to:
 
 **When UTMs are NOT Needed:**
 
-* When linking to a non GitLab web property (Eg: Youtube, Linkedin, etc..)
+* When linking to a non GitLab web property (Eg: Youtube, LinkedIn, etc..)
 * Internal links with the same gitlab.com domain. For instance, linking to learn.gitlab.com from an about.gitlab.com webpage. Google Analytics is set up for cross-domain tracking. If UTMs are detected within an internal gitlab.com link, a new session will be counted, and conversion attribution will be overridden by the new UTM parameter values. The original source will not receive proper credit.
 
 ## How to create UTMs

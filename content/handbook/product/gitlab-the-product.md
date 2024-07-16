@@ -64,98 +64,6 @@ them, as that introduces other issues).
 
 For more guidance on feature tiers and pricing, visit [tiering guidance for features](/handbook/product/tiering-guidance-for-features/)
 
-### Deprecations, removals, and breaking changes
-
-#### Breaking changes
-
-A breaking change is defined as a non-backward compatible change that:
-
-- causes other areas of the GitLab product to fail, or
-- alters product behavior such that dependent workflows can no longer be completed and no workaround can be provided.
-
-A breaking change may occur when you intentionally plan to change or remove functionality. Breaking changes can sometimes result from the addition of new features. It is the responsibility of the PM and EM for a category to carefully consider the risk and impact of introducing a breaking change as they can cause severe disruption to users.
-
-If you are introducing a breaking change, you must notify the user community and users through a deprecation notice in the monthly release post as soon as possible. Follow the [process outlined below for deprecations and removals](#process-for-deprecating-and-removing-a-feature).
-
-#### Is this a breaking change?
-
-With a [few exceptions](#exceptions-for-breaking-changes), if the answer is yes to any of the following questions, the change is to be considered a breaking change and should only be introduced in a major version.
-
-- Does this change require an action from the customer to ensure continuity of function? (For example, removing background upload for object storage meant users needed to migrate objects to a supported object storage provider)
-- Does this change cause a disruption to a customer's workflows or tasks? (For example, removing support for the "WIP" prefix in MRs meant users would need to use the "Draft:" prefix instead)
-- Does this change cause other parts of the product to fail? (For example, removing certificate-based cluster integration means users can no longer install additional applications via GitLab Managed Apps)
-
-For special definitions of what constitutes a breaking change for our APIs, see:
-
-- [REST API breaking changes](https://docs.gitlab.com/ee/development/api_styleguide.html#what-is-a-breaking-change).
-- [GraphQL API breaking changes](https://docs.gitlab.com/ee/development/api_graphql_styleguide.html#breaking-changes).
-
-#### Exceptions for breaking changes
-
-Introducing a breaking change in a minor release is against policy because it can disrupt our customers,
-however there are some rare exceptions:
-
-- When GitLab establishes that delaying a breaking change would overall have a _significantly_ more negative impact to customers compared to shipping it in a minor release.
-- If an integrated service shuts down, the integration can be removed during a minor release.
-
-In both cases, the PM or EM must [follow the Request a Breaking Change process](https://docs.gitlab.com/ee/development/deprecation_guidelines/#requesting-a-breaking-change-in-a-minor-release).
-
-#### Deprecating and removing features
-
-Deprecating and removing a feature needs to follow a specific process because it is important that we minimize disruption for our users. As you move through the process, use the language `deprecated` or `removed` to specify the current state of the feature that is going to be or has been removed.
-
-**Note** - some deprecations or removals do not result in a breaking change. So in your notice, you need to be explicit about the following:
-
-- Does the deprecation or removal result in a breaking change?
-- If the deprecation or removal results in a breaking change, then what does it break?
-- If the deprecation or removal results in a breaking change, what is the user's remediation?
-
-#### Definitions
-
-See the [terminology of deprecations](https://docs.gitlab.com/ee/update/terminology.html).
-
-#### Process for deprecating and removing a feature
-
-**As soon as possible, but no later than the third milestone preceding intended removal:**
-
-_For example, if the intended removal milestone is `16.0`, given the following release schedule: `15.9, 15.10, 15.11, 16.0`, then `15.9` is the third milestone preceding intended removal._
-
-1. Make sure the deprecation has an issue leveraging the [deprecation issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Deprecations.md).
-    - Leveraging this template to create a deprecation issue is required because it serves as the SSOT/communication cross-functionally and across other stable counterparts, such as CSMs and Marketing, who need awareness of upcoming removals.
-1. Identify if deprecating the feature creates a breaking change. If so, you will need to wait until a XX.0 major release for removal. (Consider providing a notice as much in advance as you can - especially for features that have large impact.)
-
-**If you believe you need to push a breaking change outside a major release, tag your manager into the deprecation issue for approval. Upon manager approval, tag in [Delivery group](/handbook/product/categories/features/#saas-platformsdelivery-group) PM `@swiskow` into the deprecation issue for advisement/collaboration on whether any additional communication to users is required. Communicating to SaaS users on breaking changes is critical, it is recommended you set up a [broadcast message](/handbook/product/product-processes/#gitlabcom-in-app-messages-broadcast-messaging) one milestone ahead of the milestone in which the breaking change will happen.**
-
-1. Review the overall [workflow for announcing deprecations and removals](/handbook/marketing/blog/release-posts/#deprecations-removals-and-breaking-changes) and follow guidance to [announce the deprecation in GitLab Docs and the release post](/handbook/marketing/blog/release-posts/#deprecations-and-other-planned-breaking-change-announcements).
-1. Potentially mention it in the [Kickoff Videos](/handbook/product/product-processes/#kickoff-meetings).
-1. Engage the support team to discuss support procedures for deprecated features and update the [Statement of Support](https://about.gitlab.com/support/statement-of-support/) as necessary
-1. Label the feature accordingly in documentation and the application
-1. Remove the feature from marketing pages
-
-**Milestone of Removal:**
-
-1. Engage the support team to update the [Statement of Support](https://about.gitlab.com/support/statement-of-support/) as necessary
-
-The release post automatically shows all removals that occur during a milestone. (In the deprecation yaml file, the `removal_milestone`.)
-
-**Important Notes**
-
-- The deprecation notice and the linked issue must have clear language describing the change and the impact to users.
-- It is the responsibility of the PM and EM for a category to carefully review the language in the linked issue for clarity.
-- Regardless of whether the Product Manager or Engineering Manager creates the initial deprecation epic/issue, they must @mention the following stable counterparts for their category on each deprecation epic/issue to keep them informed: Support, Customer Success, and Product Marketing.
-  - To make this easy and consistent across teams, using the [deprecations issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Deprecations.md) is required.
-
-#### Video on deprecations and removals process
-
-- Watch this [video](https://youtu.be/ehT1xBajCRI) for an overview of GitLab's deprecations and removals policy and recent updates to it. It also includes an overview of the process from the Runner engineering team for managing deprecations and removals between major releases.
-
-In June of 2023, we changed the process so that all deprecations and removals are displayed on [the Deprecations page](https://docs.gitlab.com/ee/update/deprecations.html).
-The announcements are grouped by the milestone they'll be removed. The deprecation announcement date is listed below each individual item.
-
-#### Syntax deprecation process
-
-{{% include "includes/syntax-deprection.md" %}}
-
 ### Naming features
 
 Naming new features or [renaming existing features](https://docs.gitlab.com/ee/development/renaming_features.html) is notoriously hard and sensitive to many opinions.
@@ -322,7 +230,7 @@ only one part of GitLab it should be a great experience.
 GitLab ships with built-in integrations to many popular applications. We aspire
 to have the world's best integrations for Slack, JIRA, and Jenkins.
 
-Many other applications [integrate with GitLab](/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/ee/user/project/integrations/project_services.html).
+Many other applications [integrate with GitLab](/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/ee/user/project/integrations/).
 
 GitLab [welcomes and supports new integrations](/partners/technology-partners/integrate/) to be created to extend collaborations with other products.
 GitLab plays well with others by providing APIs for nearly anything you can do within GitLab.

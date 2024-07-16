@@ -19,7 +19,7 @@ Common challenges in data science are described on the [Data Science with GitLab
 
 To be fleshed out as with [other usecases](/handbook/marketing/use-cases/).
 
-### [Keywords and definitions](./keywords/)
+### [Keywords and definitions](keywords/)
 
 ## Personas
 
@@ -43,7 +43,7 @@ Who are the [buyers](/handbook/product/personas/)
 - Engineering Manager of Data Products, or of Data Infrastructure
 - Director of Data and Analytics, or Chief Data Officer
 
-## [Message House](./message-house/)
+## [Message House](message-house/)
 
 The message house provides a structure to describe and discuss value and differentiators for data science.
 

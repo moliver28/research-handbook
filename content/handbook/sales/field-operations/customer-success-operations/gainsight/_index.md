@@ -496,7 +496,7 @@ The namespaces list used by SaaS Namespace Service Ping is driven by a clone of 
 
 ### Data definitions
 
-- [UUID](https://docs.gitlab.com/ee/development/usage_ping/dictionary.html#uuid): originally intended as unique identifier
+- [UUID](https://docs.gitlab.com/ee/api/usage_data.html#export-service-ping-sql-queries): originally intended as unique identifier
 - `Hostname`: the url for the company's on-prem server (e.g., gitlab.gainsight.com)
 - `Namespace id`: the GitLab-defined ID for namespaces (SaaS)
 - `Namespace name`: the customer-defined name for their namespace. Note: many are listed as "BLOCKED" because of PII

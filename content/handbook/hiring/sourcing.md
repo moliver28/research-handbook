@@ -234,7 +234,7 @@ The recommended process of re-contacting candidates:
 
 ### Rehires
 
-If a former GitLab team member is identified by the Hiring Manager, Recruiter, or a current team member as a potential rehire, the Recruiter should contact People Connect directly using the Greenhouse email template titled `Rehire Eligibility Request (send to people-connect@gitlab.com)` before approaching the candidate. People Connect will conduct a review of possible performance concerns or other factors that may have impacted the candidate's departure from their role at GitLab. People Connect will inform the Recruiter directly if the candidate is eligible for rehire and the recruiter will add a private note of the decision to the candidate's Greenhouse profile (i.e. "eligible for rehire" or "not eligible for rehire"). Note that rehires are not eligible for referral bonuses.
+If a former GitLab team member is identified by the Hiring Manager, Recruiter, or a current team member as a potential rehire, the Recruiter should contact People Connect directly via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) using the Greenhouse email template titled `Rehire Eligibility Request` before approaching the candidate. People Connect will conduct a review of possible performance concerns or other factors that may have impacted the candidate's departure from their role at GitLab. People Connect will inform the Recruiter directly if the candidate is eligible for rehire and the recruiter will add a private note of the decision to the candidate's Greenhouse profile (i.e. "eligible for rehire" or "not eligible for rehire"). Note that rehires are not eligible for referral bonuses.
 
 ### For GitLab Hiring Managers and Team Members
 
@@ -280,7 +280,7 @@ Take a look at the [Content library - life at GitLab](/handbook/people-group/emp
 
 **Upgrading Your LinkedIn Account to Hiring Manager**
 
-Hiring Managers and hiring team members are able to request a **LinkedIn Hiring Manager Seat.** To upgrade your seat, please add your GitLab email to your LinkedIn profile by following this process: {+ Login to Linkedin > click Me > Settings & Privacy > Sign in & security > Email addresses > add your GitLab email address and verify it. +} Next, submit an [Access Request Issue](https://gitlab.com/gl-talent-acquisition/operations/issues/new?issuable_template=LinkedIn%20Access%20Request) using the LinkedIn Access Request template within the [Technology and Insights project](https://gitlab.com/gl-talent-acquisition/operations).
+Hiring Managers and hiring team members are able to request a **LinkedIn Hiring Manager Seat.** To upgrade your seat, please add your GitLab email to your LinkedIn profile by following this process: {+ Login to LinkedIn > click Me > Settings & Privacy > Sign in & security > Email addresses > add your GitLab email address and verify it. +} Next, submit an [Access Request Issue](https://gitlab.com/gl-talent-acquisition/operations/issues/new?issuable_template=LinkedIn%20Access%20Request) using the LinkedIn Access Request template within the [Technology and Insights project](https://gitlab.com/gl-talent-acquisition/operations).
 
 - **A Hiring Manager seat** allows a user to collaborate on projects, where they can share and review profiles and provide feedback on prospective candidates.
 

@@ -19,7 +19,7 @@ Credit the conventional classroom environment for implying that learning is best
 
 In an all-remote company, learning and development can still occur on a face-to-face basis, albeit through webcams and video chat software. Even in colocated organizations, a growing percentage of learning and development — particularly required training courses assigned by human resource departments — are delivered via webcast.
 
-We believe that all-remote companies are at a competitive advantage when it comes to educating and developing team members. Across the [spectrum of learning styles](https://www.duq.edu/about/centers-and-institutes/center-for-teaching-excellence/teaching-and-learning/discover-your-learning-style), all-remote companies are able to easily scale training sessions, give team members greater agency over their development, and include historical cultural elements in [onboarding procedures]({{< ref "./onboarding" >}}).
+We believe that all-remote companies are at a competitive advantage when it comes to educating and developing team members. Across the [spectrum of learning styles](https://www.duq.edu/about/centers-and-institutes/center-for-teaching-excellence/teaching-and-learning/discover-your-learning-style), all-remote companies are able to easily scale training sessions, give team members greater agency over their development, and include historical cultural elements in [onboarding procedures](onboarding/).
 
 Learn more about [learning and development at GitLab in our Handbook](/handbook/people-group/learning-and-development).
 
@@ -27,9 +27,9 @@ Learn more about [learning and development at GitLab in our Handbook](/handbook/
 
 Learning and development teams within all-remote organizations enjoy unique benefits, a few of which are highlighted below.
 
-- **Faster delivery of training courses**: When your company works [asynchronously]({{< ref "./asynchronous" >}}), you don't have to wait for a cohort to be in the same place at the same time to administer updated material.
+- **Faster delivery of training courses**: When your company works [asynchronously](asynchronous/), you don't have to wait for a cohort to be in the same place at the same time to administer updated material.
 - **Culture isn't lost**: Onboarding at most companies involves meet-and-greets and shallow briefs on whatever is pressing at the moment. Institutional knowledge and cultural underpinnings are largely lost due to a dearth of documentation as the company grows and experiences churn.
-- **Learning is more [inclusive](values#diversity-inclusion)**: In all-remote settings, individuals can learn in [environments that are most comfortable for them]({{< ref "inclusion" >}}) — home, a library, a coworking space, a lakeshore, while caring for a family member, etc. This allows those who struggle to focus in group settings, or who have mobility concerns, to embrace education that they may opt out of if the setting weren't ideal.
+- **Learning is more [inclusive](values#diversity-inclusion)**: In all-remote settings, individuals can learn in [environments that are most comfortable for them](/handbook/company/culture/inclusion/) — home, a library, a coworking space, a lakeshore, while caring for a family member, etc. This allows those who struggle to focus in group settings, or who have mobility concerns, to embrace education that they may opt out of if the setting weren't ideal.
 
 ### What are some good resources for developing remote team skills?
 
@@ -37,10 +37,10 @@ Managing any team remotely is much like managing in-person. We've created an in-
 
 ## Challenges with all-remote L&D
 
-Most challenges associated with all-remote L&D can be addressed at the [hiring stage]({{< ref "./hiring" >}}). All-remote companies should seek team members who want to be a manager of one, thrive in environments of high autonomy, and who embrace virtual communication mediums. Learn more about [how to hire in an all-remote company]({{< ref "./hiring" >}}).
+Most challenges associated with all-remote L&D can be addressed at the [hiring stage](hiring/). All-remote companies should seek team members who want to be a manager of one, thrive in environments of high autonomy, and who embrace virtual communication mediums. Learn more about [how to hire in an all-remote company](hiring/).
 
 - **No guarantee of uptake**: In all-remote settings, educators and trainers must design courses that hold the attention of remote pupils, understanding that they may be engaged with the coursework in highly unconventional settings. In turn, it is difficult to guarantee that participants are truly internalizing what's being conveyed.
-- **Live feedback/Q&A is hard**: At GitLab, we aim to operate [asynchronously]({{< ref "./asynchronous" >}}), staying true to our values of [Efficiency](/handbook/values/#efficiency) and [Results](/handbook/values/#results). Due to this, it's difficult to find time to hold a question and answer session with a large group of students. Utilizing [a Google Doc]({{< ref "communication#google-docs" >}}), where questions can be discussed and answered in real time, is a workaround.
+- **Live feedback/Q&A is hard**: At GitLab, we aim to operate [asynchronously](asynchronous/), staying true to our values of [Efficiency](/handbook/values/#efficiency) and [Results](/handbook/values/#results). Due to this, it's difficult to find time to hold a question and answer session with a large group of students. Utilizing [a Google Doc](/handbook/communication/#google-docs), where questions can be discussed and answered in real time, is a workaround.
 
 ### How can teams overcome remote L&D challenges?
 
@@ -56,19 +56,19 @@ One potential downside for all-remote teams is having timely and adequate access
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab team members discuss the challenges and reasoning behind intentional documentation with Miki and Sandra from [Job Portraits](https://www.jobportraits.com).*
 
-Learning involves much more than comprehending what's necessary to complete a job. In fact, we hope candidates aspire to learn about GitLab's [history]({{< ref "history" >}}), [all-remote culture]({{< ref "culture" >}}), and [values]({{< ref "values" >}}) prior to joining the company.
+Learning involves much more than comprehending what's necessary to complete a job. In fact, we hope candidates aspire to learn about GitLab's [history]({{< ref "history" >}}), [all-remote culture](/handbook/company/culture/), and [values](/handbook/values/) prior to joining the company.
 
-The above would be difficult, if not impossible, to achieve without a commitment to [documentation]({{< ref "./handbook-first" >}}). Documentation is so important at GitLab that we have a [section of our Handbook devoted to it](/handbook/product/ux/technical-writing/documentation/).
+The above would be difficult, if not impossible, to achieve without a commitment to [documentation](handbook-first/). Documentation is so important at GitLab that we have a [section of our Handbook devoted to it](/handbook/product/ux/technical-writing/documentation/).
 
-Particularly in all-remote companies — where everything from [interviewing]({{< ref "./interviews" >}}) to [onboarding]({{< ref "./onboarding" >}}) to [career development]({{< ref "career-development" >}}) takes place outside of a central office — regimented [documentation]({{< ref "./handbook-first" >}}) is the only way to ensure future team members have access to the same information as past and current team members. Even if you've already started a company but have failed to document key learnings, it's never too late to start.
+Particularly in all-remote companies — where everything from [interviewing](interviews/) to [onboarding](onboarding/) to [career development]({{< ref "career-development" >}}) takes place outside of a central office — regimented [documentation](handbook-first/) is the only way to ensure future team members have access to the same information as past and current team members. Even if you've already started a company but have failed to document key learnings, it's never too late to start.
 
 ### Handbook first
 
-GitLab's Handbook would [cover thousands of pages if printed](/handbook/about#count-handbook-pages). Each page is loaded with institutional knowledge on important topics like [hiring](/handbook/hiring), [values]({{< ref "values" >}}), and [benefits]({{< ref "benefits" >}}), Content is contributed, refreshed, and refined by hundreds of team members across the company.
+GitLab's Handbook would [cover thousands of pages if printed](/handbook/about#count-handbook-pages). Each page is loaded with institutional knowledge on important topics like [hiring](/handbook/hiring), [values](/handbook/values/), and [benefits]({{< ref "benefits" >}}), Content is contributed, refreshed, and refined by hundreds of team members across the company.
 
-We encourage other all-remote companies to adopt this [handbook first approach]({{< ref "handbook-usage#why-handbook-first" >}}). Simply, we default to adding knowledge to our handbook *before* disseminating elsewhere. Learn more about [GitLab's handbook-first approach to documentation]({{< ref "./handbook-first" >}}).
+We encourage other all-remote companies to adopt this [handbook first approach]({{< ref "handbook-usage#why-handbook-first" >}}). Simply, we default to adding knowledge to our handbook *before* disseminating elsewhere. Learn more about [GitLab's handbook-first approach to documentation](handbook-first/).
 
-From a learning and development standpoint, this approach ensures that all team members have access to all learnings — past, present, and future — at all times. This is a highly [inclusive]({{< ref "inclusion" >}}) way to manage knowledge, and it reflects our [mission]({{< ref "mission#mission" >}}) to change all creative work from read-only to read-write so that **everyone can contribute**.
+From a learning and development standpoint, this approach ensures that all team members have access to all learnings — past, present, and future — at all times. This is a highly [inclusive](/handbook/company/culture/inclusion/) way to manage knowledge, and it reflects our [mission]({{< ref "mission#mission" >}}) to change all creative work from read-only to read-write so that **everyone can contribute**.
 
 ## Learning and development as a mindset
 
@@ -83,11 +83,11 @@ This creates an atmosphere where all team members are hungry to learn from one a
 
 ## Responsibilities from managers and leaders
 
-GitLab's [100% remote culture]({{< ref "culture" >}}) and our workplace methodologies are highly unique. You should not expect to transfer the norms of colocated corporations into a work from anywhere scenario. Those who thrive at GitLab take the opportunity to drop prior workplace baggage at the door, embrace a liberating and empowering [set of values]({{< ref "values" >}}), and give themselves permission to truly operate differently.
+GitLab's [100% remote culture](/handbook/company/culture/) and our workplace methodologies are highly unique. You should not expect to transfer the norms of colocated corporations into a work from anywhere scenario. Those who thrive at GitLab take the opportunity to drop prior workplace baggage at the door, embrace a liberating and empowering [set of values](/handbook/values/), and give themselves permission to truly operate differently.
 
-So differently, in fact, that many of GitLab's most effective [processes]({{< ref "./management" >}}) would be discouraged or forbidden in conventional corporations.
+So differently, in fact, that many of GitLab's most effective [processes](management/) would be discouraged or forbidden in conventional corporations.
 
-Hence, GitLab managers are [expected]({{< ref "structure#management-group" >}}) to coach their reports to utilize [asyncronous communication]({{< ref "./asynchronous" >}}), be [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}), design an [optimal workspace]({{< ref "./workspace" >}}), and understand the importance of [self-learning/self-service]({{< ref "./self-service" >}}).
+Hence, GitLab managers are [expected]({{< ref "structure#management-group" >}}) to coach their reports to utilize [asyncronous communication](asynchronous/), be [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}), design an [optimal workspace](workspace/), and understand the importance of [self-learning/self-service](self-service/).
 
 ## What are some best practices for remote team management of L&D initiatives?
 
@@ -99,10 +99,10 @@ GitLab's L&D team has a [regular meeting schedule](/handbook/people-group/learni
 
 For a remote team to work well, managers should coach their team in healthy remote-work practices such as:
 
-- [asynchronous communication]({{< ref "./management#asynchronous" >}})
+- [asynchronous communication](management/#asynchronous)
 - working [handbook-first](/handbook/about/handbook-usage/#why-handbook-first)
-- creating an [optimal workspace]({{< ref "./workspace" >}})
-- understanding the importance of [self-learning/self-service]({{< ref "./self-service" >}}).
+- creating an [optimal workspace](workspace/)
+- understanding the importance of [self-learning/self-service](self-service/).
 
 To stay ahead in L&D, GitLab prioritizes personal [Growth & Development opportunities](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) by allowing team members to take advantage of training opportunities for professional development, certifications, workshops, coaching, language courses, and much more!
 
@@ -116,7 +116,7 @@ To stay ahead in L&D, GitLab prioritizes personal [Growth & Development opportun
 >
 > Impeccable communication and trust is the backbone of any relationship. When it comes to a working environment, [those elements] make it much easier to do what you need to do. - [*Charlie A. — Senior Backend Engineer*](https://gitlab.com/cablett)
 
-Companywide trust and impeccable communication serve as the bedrock for learning and development in any company, all-remote organizations included. This relies on a [set of values]({{< ref "values" >}}) that encourages behaviors which are at odds with micromanagement.
+Companywide trust and impeccable communication serve as the bedrock for learning and development in any company, all-remote organizations included. This relies on a [set of values](/handbook/values/) that encourages behaviors which are at odds with micromanagement.
 
 Leaders should create a climate for employees where they are eager to learn new skills and improved processes rather than political tactics. For this to occur, each team member must be trusted and empowered to make decisions based on their professional experience and skill set. This is manifested through behaviors such as [reaching across departments](/handbook/values/#reach-across-company-departments), asking for help with [no fear of judgment or embarrassment](/handbook/values/#its-impossible-to-know-everything), and [speaking up](/handbook/values/#share) when values are not adhered to.
 
@@ -131,20 +131,20 @@ Proper learning and development requires more than a curriculum. It requires an 
 At a high level, this is how new team members are onboarded at GitLab.
 
 1. On a new hire's first day, they are invited to create a GitLab account
-1. Within their GitLab account is an [onboarding issue](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md#all-gitlabbers) with over 200 tasks, including [GitLab's Guide to Starting a Remote Role]({{< ref "./getting-started" >}})
+1. Within their GitLab account is an [onboarding issue](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md#all-gitlabbers) with over 200 tasks, including [GitLab's Guide to Starting a Remote Role](getting-started/)
     - Onboarding items are extremely prescriptive
     - Rather than bundling a complex series of asks into one "task," as is common elsewhere, GitLab strives to remove ambiguity
 1. Each new hire is assigned an Onboarding Buddy as an added resource beyond the individual's manager
     - The Onboarding Buddy is a serious role, replete with [its own Handbook page]({{< ref "onboarding-buddies" >}})
     - The Onboarding Buddy provides assistance in any way, where no question is silly or too minute, to ensure the new hire has all questions addressed
     - If a concern or obstacle is surfaced to the Onboarding Buddy, and there is no solution in the Handbook, the Onboarding Buddy works with the new hire to create a merge request for the enlightenment of all future new hires
-1. The onboarding process is self-directed and self-guided, with new hires encouraged to lean on [documentation]({{< ref "./handbook-first" >}}) in the [Handbook](/handbook) — as well as conversing with any GitLab team member — to get up to speed.
+1. The onboarding process is self-directed and self-guided, with new hires encouraged to lean on [documentation](handbook-first/) in the [Handbook](/handbook) — as well as conversing with any GitLab team member — to get up to speed.
 
-Read more in GitLab's [complete guide to remote onboarding]({{< ref "./onboarding" >}}).
+Read more in GitLab's [complete guide to remote onboarding](onboarding/).
 
 ### High-touch and low-touch flexibility
 
-The beauty of an all-remote setting is that onboarding can be as high-touch or low-touch as a new hire wishes. Those who prefer visual learning can engage in a series of video calls and screenshare sessions to walk through each element of their onboarding issue.
+The beauty of an all-remote setting is that onboarding can be as high-touch or low-touch as a new hire wishes. Those who prefer visual learning can engage in a series of video calls and screen share sessions to walk through each element of their onboarding issue.
 
 That flexibility is unique to the all-remote environment, as those who prefer a self-guided experience are typically forced into a very social onboarding at colocated companies.
 

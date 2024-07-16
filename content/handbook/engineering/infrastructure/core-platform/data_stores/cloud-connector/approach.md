@@ -113,7 +113,7 @@ queries fire per every relation that is processed. This leads to a kind of mega-
 has tens or hundreds of thousands of merge requests or issues, all of which have dependencies themselves
 that need to be imported, then we would end up performing a number of database inserts equal to a multiple
 of all these relations. We found that we were able to mitigate some of this overhead without completely changing
-the design by moving to [batch insertions](https://docs.gitlab.com/ee/development/insert_into_tables_in_batches.html) instead.
+the design by moving to [batch insertions](https://docs.gitlab.com/ee/development/database/insert_into_tables_in_batches.html) instead.
 
 ### Overreliance on ActiveRecord
 

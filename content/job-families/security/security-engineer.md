@@ -11,7 +11,7 @@ description: "As a member of the security team at GitLab, you will be working to
 
 As a member of the security team at GitLab, you will be working towards raising the bar on security. We will achieve that by working and collaborating with cross-functional teams to provide guidance on security best practices.
 
-The [Security Team](https://about.gitlab.com/handbook/security) is responsible for leading and implementing the various initiatives that relate to improving GitLab's security.
+The [Security Team](/handbook/security) is responsible for leading and implementing the various initiatives that relate to improving GitLab's security.
 
 ## Responsibilities for Security Engineer roles
 

@@ -320,6 +320,8 @@ This also mitigates the issue of potential weak communication encryption since t
 
 It can be distracting when a call with a large number of attendees has folks joining unmuted. For [Assembly](/handbook/company/gitlab-assembly), CEO [AMAs](/handbook/communication/ask-me-anything), and other meetings in which we expect an attendance of over 25 folks, meetings should be scheduled, so that folks enter on mute. These folks can then opt to unmute as required to participate in the conversation.
 
+If a team member in a meeting is not on mute but creating sound that is distracting, any other team member should feel empowered to put this person on mute. A person must be a co-host or host to put someone on mute. If you are the host and you'd like help with muting people, ensure that "co-host" is enabled in your Zoom settings. During meetings, you can click on individuals in the meeting and designate them as "co-hosts."
+
 ---
 
 ## During your Zoom Meeting
@@ -430,6 +432,12 @@ available. Processing takes about 15 minutes, so the video files appear before t
 1. Go to your Zoom account's [profile](https://gitlab.zoom.us/profile).
 1. In the side bar expand `AI Companion` and then click on `Meeting Summary`.
 1. To edit or share, click on a meeting topic and you will have the option to `Share`, `Edit`, or `Delete` meeting summaries.
+
+### Enabling email notifications for hosts when attendees join first
+
+1. Go to your Zoom account [settings](https://gitlab.zoom.us/profile/setting).
+1. Click the `Meeting` tab.
+1. Under `Email notification`, click the `When attendees join meeting before host` toggle to enable or disable it.
 
 ### How to share a presentation in Zoom
 

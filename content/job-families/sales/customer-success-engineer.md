@@ -100,14 +100,14 @@ The Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/compensatio
 
 ### Manager, CSE Responsibilities
 
-- Extends the respsonsibilities of [Manager, CSM](/job-families/sales/customer-success-management/#manager-csm) by:
+- Extends the responsibilities of [Manager, CSM](/job-families/sales/customer-success-management/#manager-csm) by:
   - Working with a variety of customers in countries across a whole super-region (Americas, EMEA, APAC)
   - Foster relationship and collaboration of the whole CSE community on a global level
   - Oversee the creation and delivery of workshops, webinars and other content scaled for a larger target group
 
 ### Manager, CSE Requirements
 
-- Extends the respsonsibilities of [Manager, CSM](/job-families/sales/customer-success-management/#manager-csm) by:
+- Extends the responsibilities of [Manager, CSM](/job-families/sales/customer-success-management/#manager-csm) by:
   - Deeper technical understanding in DevSecOps and ability to coach and mentor team members on that topic
   - Experience with content creation and delivery at scale
 
@@ -127,7 +127,7 @@ The Senior Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/comp
 - Consistent representation of our values to the customer, our CSE team, and the company as a whole
 - Lead in cross-functional work representing customer success in GitLabs more strategic revenue-focused initiatives
 - Owns and manages more than just the CSE manager purview - defined by looking for and solving larger team or organizational challenges, and owning initiatives that span wider than the CSE manager role
-- Aligned with the objectives of Gitlab and is responsible for ensuring that the CSE team as a whole is contributing to our company objectives
+- Aligned with the objectives of GitLab and is responsible for ensuring that the CSE team as a whole is contributing to our company objectives
 - Strategic in thinking to solve challenges for the entire CSE team and make improvements that will positively impact all customers
 
 ### Senior Manager, CSE Requirements

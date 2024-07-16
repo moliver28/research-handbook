@@ -9,7 +9,7 @@ Terminus Email Experiences is a marketing tool used as an advertising channel in
 
 ## Training & Help
 
-1. [Knowledgebase](https://support.terminus.com/hc/en-us/sections/360009459853-Email-Experiences-Sigstr-)
+1. [Knowledge base](https://resources.terminus.com/l/resources)
 1. [Admin role training pt. 1 - Overview, features and integrations](https://drive.google.com/file/d/1boIfDvPnwXlBAxlLUupvnlHzNaP_Eru_/view?usp=sharing)
 1. [Admin role training pt. 2 - Setting up a Terminus campaign](https://drive.google.com/file/d/1cy1jMwAUPvvGrEkajIN5JbtfZ1rdOF3t/view?usp=sharing)
 

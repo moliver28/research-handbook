@@ -41,7 +41,7 @@ The Vice President of Ta} is a [grade #12](/handbook/total-rewards/compensation/
 
 ## Performance Indicators
 
-- Effective Tax Rate](<https://about.gitlab.com/handbook/tax/performance-indicators/#effective-tax-rate-etr>)
+- Effective Tax Rate](<https://handbook.gitlab.com/handbook/tax/performance-indicators/#effective-tax-rate-etr>)
 - [Budget vs. Actual](/handbook/tax/performance-indicators/#budget-vs-actual)
 - [Audit Adjustments](/handbook/tax/performance-indicators/#audit-adjustments)
 - Effective Tax Compliance and Strategic Outlook}

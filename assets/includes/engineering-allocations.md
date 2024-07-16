@@ -47,4 +47,4 @@ Once the item's success criteria are achieved, the Engineering Manager should co
 
 When reseting a groups Engineering Allocation in the table above, the goal should be set as `floor %`, the goal should be `empower every SWEs from raising reliability and security issues`, percentage of headcount allocated should be `10%`, and `N/A` in place of a link to the Epic.
 
-All engineering allocation closures should be reviewed and approved by the [VP of Development](https://about.gitlab.com/handbook/engineering/development/#team-members).
+All engineering allocation closures should be reviewed and approved by the [VP of Development](/handbook/engineering/development/#team-members).

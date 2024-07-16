@@ -37,9 +37,9 @@ Success in product security is not confined to PSD or even the Security Division
 
 The Product Security sub-department includes the following teams. Learn more about each by visiting their Handbook pages.
 
-- [Application Security]({{< ref "./application-security" >}})
-- [Infrastructure Security]({{< ref "./infrastructure-security" >}})
-- [Product Security Engineering]({{< ref "./product-security-engineering" >}})
-- [Vulnerabiity Management]({{< ref "./vulnerability-management" >}})
-- [Security Research ]({{< ref "./security-research" >}})
-- [Security Architecture]({{< ref "./architecture" >}})
+- [Application Security](application-security/)
+- [Infrastructure Security](infrastructure-security/)
+- [Product Security Engineering](product-security-engineering/)
+- [Vulnerabiity Management](vulnerability-management/)
+- [Security Research](security-research/)
+- [Security Architecture](architecture/)

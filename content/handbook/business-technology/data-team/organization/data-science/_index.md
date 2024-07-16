@@ -118,7 +118,7 @@ To request a new Data Science project, please fill out the [Opportunity Canvas](
 
 **Maturity**
 
-Maturity of data science projects is similar to the [GitLab product maturity model](https://about.gitlab.com/direction/maturity/):
+Maturity of data science projects is similar to the [GitLab product maturity model](https://about.gitlab.com/direction/#maturity):
 
 - **Unplanned**: Not implemented, and not yet on our roadmap.
 - **Planned**: Not implemented, but on our roadmap; executive sponsor attached to project.

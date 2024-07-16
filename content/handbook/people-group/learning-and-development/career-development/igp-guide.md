@@ -104,7 +104,7 @@ Below is a sample timeline that you may want to follow when it comes to tracking
 
 ## Additional Resources
 
-1. [LinkedIn Learning Course: Building a Career Plan](https://www.linkedin.com/learning/how-to-develop-your-career-plan/introduction?autoplay=true&dApp=94866976&leis=LAA&u=2255073)
+1. LinkedIn Learning Course: Building a Career Plan (course no longer available)
 1. Watch this interview with a GitLab team member who's used the IGP to plan a career transition at GitLab:
 
 {{< youtube "0ih0lMoKxN0" >}}

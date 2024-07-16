@@ -15,13 +15,13 @@ description: "Test and Tools Infrastructure Team in Test Platform sub-department
 
 ## Vision
 
-The Test & Tools Infrastructure team, under the [Test Platform sub-department](../_index.md) at GitLab, aspires to be a pioneering force in the innovation and maintenance of advanced testing frameworks and test infrastructure to support Gitlab's principle of [Quality is everyone's responsibility](https://about.gitlab.com/handbook/engineering/quality/#our-principles).
+The Test & Tools Infrastructure team, under the [Test Platform sub-department](../_index.md) at GitLab, aspires to be a pioneering force in the innovation and maintenance of advanced testing frameworks and test infrastructure to support Gitlab's principle of [Quality is everyone's responsibility](/handbook/engineering/quality/#our-principles).
 
 As an integral part of our vision, we aim to:
 
 - Build a highly performant team of engineers, combining operational and software development experience to implement and support the best-in-class reliable testing processes & infrastructure.
-- Work publicly in accordance with GitLab's [`transparency`](https://about.gitlab.com/handbook/values/#transparency) value.
-- Leverage [`dogfooding`](https://about.gitlab.com/handbook/engineering/infrastructure/#dogfooding) to prepare, build, deliver test tooling that improves the product itself.
+- Work publicly in accordance with GitLab's [`transparency`](/handbook/values/#transparency) value.
+- Leverage [`dogfooding`](/handbook/engineering/infrastructure/#dogfooding) to prepare, build, deliver test tooling that improves the product itself.
 - Align our strategy with the industry trends, company direction, and customer needs.
 
 ## Mission

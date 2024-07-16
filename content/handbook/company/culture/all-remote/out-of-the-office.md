@@ -22,7 +22,7 @@ twitter_image: '/images/opengraph/out-of-the-office-remote-report.png'
 
 ### About GitLab and remote work
 
-As a fully remote company and a leader [in all-remote work]({{< ref "all-remote" >}}), GitLab hopes to inspire other companies to embrace the future of work by publicly sharing its challenges and solutions to creating a thriving remote culture. To learn more, check out [GitLab's Remote Manifesto]({{< ref "./guide" >}}) and browse its extensive library of [remote work resources]({{< ref "./resources" >}}).
+As a fully remote company and a leader [in all-remote work](/handbook/company/culture/all-remote/), GitLab hopes to inspire other companies to embrace the future of work by publicly sharing its challenges and solutions to creating a thriving remote culture. To learn more, check out [GitLab's Remote Manifesto](guide/) and browse its extensive library of [remote work resources](resources/).
 
 ### Methodology
 

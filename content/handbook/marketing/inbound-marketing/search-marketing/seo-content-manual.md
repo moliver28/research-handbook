@@ -27,13 +27,13 @@ The goal of this unification is to:
 1. Rank as high as possible in SEARCH results for specific topics and related terms. To drive qualified traffic - not just general traffic
 2. To engage and create brand trust and return visits
 3. To convince readers to take specific actions and to convert
-4. To create an optimised internal linking structure which indicates relevance, relationships between content pieces as well as funnels for pushing traffic through general buyer journey stages
+4. To create an optimized internal linking structure which indicates relevance, relationships between content pieces as well as funnels for pushing traffic through general buyer journey stages
 
 Ideally, content production takes a topic first approach. Meaning, target topics are identified which is followed by keyword research which maps keywords to the identified topics.
 
 ## Digital Content Publication SEO Checklist
 
-Creating valuable content means not just publicizing useful and attractive information, but also assuring that the information can be found. The following is a checklist which goes through each step required to make sure that all content is fully optimised before digital publication.
+Creating valuable content means not just publicizing useful and attractive information, but also assuring that the information can be found. The following is a checklist which goes through each step required to make sure that all content is fully optimized before digital publication.
 
 ### Quick summary of on page elements that require inclusion
 
@@ -43,7 +43,7 @@ Creating valuable content means not just publicizing useful and attractive infor
 4. Embed Title Tag modifiers
 5. Use your keyword (or variants) in the subheadings (H1,H2,H3)
 6. Use your keyword as close to the beginning of the first paragraph of text as possible.
-7. Optimise your images (image Alt Tags)
+7. Optimize your images (image Alt Tags)
 8. Use semantic keyword terms within the copy
 9. Use external links to authoritative sites, but ensure any external links open in a new window so as not to end the session - try to ensure that any external links are placed low down in the copy, after any prioritised or strategic links.
 10. Use internal links and use keyword rich anchor text which indicates the pages relationship. Also target pages which funnel traffic through buyer stages.
@@ -194,7 +194,7 @@ See more on this topic covered below.
 
 This process has two elements, internal and external.
 
-- **Internal:** what content do we have internally that already covers this topic - this ensures we do not create keyword cannibalization issues as well as help to optimise a content clustering strategy approach in terms of linking.
+- **Internal:** what content do we have internally that already covers this topic - this ensures we do not create keyword cannibalization issues as well as help to optimize a content clustering strategy approach in terms of linking.
 
 - **External:** What content do our competitors have that cover this topic, what is performing well for this in search, what format does it take? We use this information to inform our own production.
 
@@ -453,7 +453,7 @@ When it comes to optimizing your past articles, the primary focus is on four cor
 3. [Highly-indexed, low-clicked articles from the Search Engine Results Page (SERP)](#high-indexed-low-clicked-articles)
 4. [Page one ranking opportunity articles](#page-one-ranking-opportunity-articles)
 
-When not focusing on individual page optimisations, it is best to categorize and group pages based on the above and to optimise each group within a project setting.
+When not focusing on individual page optimisations, it is best to categorize and group pages based on the above and to optimize each group within a project setting.
 
 ##### Low-converting articles
 
@@ -512,7 +512,7 @@ A cluster strategy is a prime approach to gaining page one position rankings for
 1. Identify goals and execute keyword research based on the target topic. Execute gap analysis on performing competitive content to identify what has traction within search based on intent type.
 2. Execute internal content audit and identify existing live assets which can be included within the cluster. This has two main impacts, firstly it ensures we are not creating overlapping content and, secondly including live content that has traction speeds up the ranking process.
 3. Establish a pillar page to tie these assets together and formalise your cluster and provide a hub for your links to and from these pages. At times it is possible to expand upon a suitable existing page to create your pillar page, other times it may be necessary to create a new page to satisfy this function.
-4. Establish your internal linking structure to tie all elements together. All cluster pages should link to the pillar page, and the pillar page should link out to all the cluster pages. Be sure to use optimised anchor text terms for your hyperlinks.
+4. Establish your internal linking structure to tie all elements together. All cluster pages should link to the pillar page, and the pillar page should link out to all the cluster pages. Be sure to use optimized anchor text terms for your hyperlinks.
 
 ### Maintenance of your content cluster
 

@@ -661,16 +661,16 @@ All final IACV (including any won upside IACV) will be attributed to the PARENT 
 A `Professional Services` OPPORTUNITY will be used to cover any integration, consulting, training or other service that a Sales rep will sell to a prospect/client and needs or wants to be invoiced separately.
 To invoice separately a new quote and opportunity must be created.
 
-A full list of professional services can be found [here](/handbook/customer-success/professional-services-engineering/#professional-services-offerings).
+A full list of professional services can be found [here](about.gitlab.com/services/catalog).
 See [Working with Professional Services](/handbook/customer-success/professional-services-engineering/working-with/) for workflow details.
 
 ##### Steps for creating a Professional Services opportunity in SFDC
 
-*Here is [a video](https://drive.google.com/file/d/142csIZyrzIfSJOSJkIAK6d9c1JwTO_Rq/view?usp=sharing) explaining the below process.*
+*Here is [a video](https://gitlab.highspot.com/items/6655fc408e0d8cc5d7a7c166?lfrm=srp.0) explaining the below process.*
 
-1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp).
-1. Click the "New PS Opportunity" button and fill out the following:
-   - OPPORTUNITY Name = will already be set correctly; do not change
+1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp). Note that this must be a standard license or subscription Opportunity. 
+1. Click the "Create Services Opportunity" button (in Lightning, this button is on the dropdown list in the top right of the page) and fill out the following:
+   <!-- - OPPORTUNITY Name = will already be set correctly; do not change
    - Type = do not change it will populate from parent OPPORTUNITY
    - Initial Source = do not change it will populate from parent OPPORTUNITY
    - Close Date = if no timeframe defined input close date on a rolling 9-months.
@@ -678,9 +678,11 @@ See [Working with Professional Services](/handbook/customer-success/professional
    - Professional Services Value (ProServe Value) = enter dollar value, which is defined as the total value of all consulting, training, integration, or other professional services as outlined in the Statement of Work.
    - ACV = **do not populate** an automated workflow will fill this information
    - Amount = **do not populate** an automated workflow will fill this information
-   - Professional Services Description, Project Scope, Task Schedule and Key Assumption fields = these will push to the Statement of Work when a PDF is generated from Zuora.
-   - Verify the `Professional Services` OPPORTUNITY has the *original* OPPORTUNITY in the `Parent Opportunity` field. If this is not a validation rule error will occur while attempting to save the OPPORTUNITY.
-1. Click `Save`
+   - Professional Services Description, Project Scope, Task Schedule and Key Assumption fields = these will push to the Statement of Work when a PDF is generated from Zuora. -->
+   - Close Date 
+   - Stage
+   - Customer Folder URL (this will be auto-populated by a field **on the account object** that needs to be completed)
+1. Click `Next` and you're done! A child Professional Services opportunity will be created once submitted. Also, all of the scoping issue, estimation spreadsheet and proposal template will be automatically created and cross-linked!
 1. To create a quote, see the [Creating Quotes](/handbook/sales/field-operations/sales-operations/deal-desk/#quoting-professional-services) Deal Desk page.
 
 #### How to Share an Opportunity

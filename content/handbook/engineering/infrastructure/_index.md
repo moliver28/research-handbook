@@ -153,13 +153,13 @@ We have a model that we use to help us support product features. [This model](/h
 
 ## Ownership
 
-The Infrastructure team maintains responsibility for the underlying infrastructure on which customer-facing services run.  Specific ownership details are in the [GitLab Service Ownership Policy](./service-ownership/index.html)
+The Infrastructure team maintains responsibility for the underlying infrastructure on which customer-facing services run.  Specific ownership details are in the [GitLab Service Ownership Policy](service-ownership/index.html)
 
 ## Stable Counterparts
 
 Infrastructure SREs may be aligned with [stage groups](/handbook/product/categories/#categories-a-z) as [stable counterparts](https://about.gitlab.com/blog/2018/10/16/an-ode-to-stable-counterparts/).
 
-[Stable Counterparts](./team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Teams](/handbook/engineering/infrastructure-quality/#engaging-with-the-infrastructure-teams).
+[Stable Counterparts](team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Teams](/handbook/engineering/infrastructure-quality/#engaging-with-the-infrastructure-teams).
 
 ## Interviewing
 

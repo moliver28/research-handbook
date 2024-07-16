@@ -38,7 +38,7 @@ For Terraform and Chef, each of these environments is unique, although they shar
 ensure consistency. However, each environment can differ from the others. There is no way to ensure uniformity, and over time
 these environments have, for a variety of reasons, drifted away from uniformity.
 
-![''](./img/envs-in-gitlab-com-config-mgmt.png)
+![''](img/envs-in-gitlab-com-config-mgmt.png)
 
 *Similar but different: environments in GitLab.com's config-mgmt project*
 
@@ -82,7 +82,7 @@ coordination needs to be carried out to ensure that change is done in the correc
 may need to be applied, followed by chef-repo changes. If differences happen to occur in the manual coordination of these changes,
 it may lead to unexpected outcomes, ultimately leading to slower delivery, outages or even data-loss.
 
-![''](./img/many-config-mngmt-tools.png)
+![''](img/many-config-mngmt-tools.png)
 
 *GitLab.com: Many Different Configuration Management Tools*
 
@@ -91,7 +91,7 @@ it may lead to unexpected outcomes, ultimately leading to slower delivery, outag
 Dedicated seeks to simplify this model by providing a single project, Instrumentor, which encapsulates all atomic changes to
 the tenant or cell environment. The problem of coordinating changes across multiple projects is solved by integrating all changes into a single project.
 
-![''](./img/dedicated-single-poe-for-all-envs.png)
+![''](img/dedicated-single-poe-for-all-envs.png)
 
 *Dedicated: Single Entrypoint for All Environment Changes*
 
@@ -156,7 +156,7 @@ and adding the features to support this would add a great deal of complexity tha
 
 This section describes the components of GitLab Dedicated, focusing on why these components were included in the design.
 
-![''](./img/gitlab-dedicated-components.png)
+![''](img/gitlab-dedicated-components.png)
 
 *GitLab Dedicated Components*
 
@@ -261,7 +261,7 @@ Many of the same design considerations that apply for GitLab Dedicated apply equ
 
 Cells could use the same deployment model as Environment Automation used before Switchboard had been developed. This is represented by the switchboard_la project.
 
-![''](./img/cells-deployments-via-environment-automation.png)
+![''](img/cells-deployments-via-environment-automation.png)
 
 *Deploying Cells using Environment Automation*
 

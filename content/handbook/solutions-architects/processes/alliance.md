@@ -4,7 +4,7 @@ title: Alliance SA Engagement Model
 
 ## Alliance Solutions Architect: Role & Responsibilities
 
-The Alliance SA is an influential technical representative from GitLab to [Alliance partners](https://about.gitlab.com/partners/technology-partners/) like AWS, Google, IBM, Microsoft, VMware, Red Hat, etc. The Alliance SA role also entails communicating technical concerns of partners back into GitLab Product, Engineering, Marketings and other areas as appropriate. This role involves pre-sales and supporting partners. It often involves finding out what a stakeholder needs and wants in real-time, and coming up with a plan to meet those goals. This can include providing relevant suggestions and offering alternative options.
+The Alliance SA is an influential technical representative from GitLab to [Alliance partners](https://about.gitlab.com/partners/technology-partners/) like AWS, Google, IBM, Microsoft, VMWare, Red Hat, etc. The Alliance SA role also entails communicating technical concerns of partners back into GitLab Product, Engineering, Marketings and other areas as appropriate. This role involves pre-sales and supporting partners. It often involves finding out what a stakeholder needs and wants in real-time, and coming up with a plan to meet those goals. This can include providing relevant suggestions and offering alternative options.
 
 | GTM Solution / Offering Development | Partner Enablement | PreSales Engagement | Technical Evangelism | Marketing | Community Contribution |
 | -------------- | ------- | --------- | ---- | ------ | ------ |

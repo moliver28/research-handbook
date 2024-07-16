@@ -110,7 +110,7 @@ The primary goal of the Releases team is to provide everything to do with creati
 
 ### Delivery:Deployments
 
-The primary goal of the Deployments team is to provide everything to do with rolling out changes to active platforms managed by GitLab, including but not limited to continuous deployment to GitLab.com (deployment safety), changing gitlab.com architecture to support continuous deployment (eliminate staging 🤞 ) and thinking about how to optimise the rollout experience (zero downtime work).
+The primary goal of the Deployments team is to provide everything to do with rolling out changes to active platforms managed by GitLab, including but not limited to continuous deployment to GitLab.com (deployment safety), changing gitlab.com architecture to support continuous deployment (eliminate staging 🤞 ) and thinking about how to optimize the rollout experience (zero downtime work).
 
 ### Team Members
 

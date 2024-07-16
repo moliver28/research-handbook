@@ -83,8 +83,9 @@ happens outside of the weekly scheduled maintenance window should be referred to
 maintenance"
 
 In such cases, the GitLab Dedicated CMOC will be called upon to send initial notification to
-customers using the `TO_BE_CREATED` macro. The following information should be provided:
+customers using the `Support::Dedicated::Emergency Maintenance - Security` macro. The following information should be provided:
 
 - The list of customers to contact.
 - The date and approximate time (in UTC) that emergency maintenance was carried out.
 - Whether the customer's GitLab Dedicated environment was impacted and details if any.
+- A brief summary that can be used in the subject line of the ticket/message.

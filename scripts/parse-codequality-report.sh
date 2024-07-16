@@ -25,10 +25,12 @@ generate_table() {
       LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
       DESCRIPTION=$(yq ".[$i].description" $MREPORT -o yaml | cut -d ':' -f 2-)
       ERRORS+=( $ERROR )
-      if [[ -z "$ERROR" ]] || [[ $ERROR == "Missing CODEOWNER entry" ]] || [[ -z "$URL" ]]; then
-        MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
-      else
-        MSG+="| [$ERROR]($URL) | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+      if [[ "$ERROR" ]]; then
+        if [[ -z "$URL" ]]; then
+          MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+        else
+          MSG+="| [$ERROR]($URL) | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+        fi
       fi
     done
     for i in $(seq 0 $(($(yq 'length' $VREPORT -o yaml)-1))); do
@@ -40,10 +42,12 @@ generate_table() {
         LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
         DESCRIPTION=$(yq ".[$i].description" $VREPORT -o yaml | cut -d ':' -f 2-)
         ERRORS+=( $ERROR )
-        if [[ -z "$ERROR" ]] || [[ $ERROR == "Missing CODEOWNER entry" ]] || [[ -z "$URL" ]]; then
-            MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
-        else
-            MSG+="| [$ERROR]($URL) | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+        if [[ "$ERROR" ]]; then
+          if [[ -z "$URL" ]]; then
+              MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+          else
+              MSG+="| [$ERROR]($URL) | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+          fi
         fi
       fi
     done
@@ -54,7 +58,7 @@ generate_table() {
       LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
       DESCRIPTION=$(yq ".[$i].description" $HREPORT -o yaml | cut -d ':' -f 2-)
       ERRORS+=( $ERROR )
-      if [[ -z "$ERROR" ]]; then
+      if [[ "$ERROR" ]]; then
         MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
       fi
     done

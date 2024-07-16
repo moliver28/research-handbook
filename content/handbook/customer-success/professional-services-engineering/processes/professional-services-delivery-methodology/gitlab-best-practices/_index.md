@@ -25,7 +25,7 @@ When working on a feature branch and adding new commits, run tests right away. I
 
 You can also have these [displayed in each Merge Request](https://docs.gitlab.com/ee/user/application_security/#view-security-scan-information-in-merge-requests).
 
-![MR widget test results](./MR-UI-Results.png){width="624" height="220"}
+![MR widget test results](MR-UI-Results.png){width="624" height="220"}
 
 ## 4. Perform code reviews before merging into the main branch
 
@@ -52,7 +52,7 @@ Code Review best practices:
    5. Etc
 2. For assistance with security scans or comments, include the Application Security Team 
 3. The reviewers use the [reviewer functionality](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/index.html) in the sidebar. Reviewers can add their approval by [approving additionally](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/index.html#approve-a-merge-request).
-4. Depending on the areas your merge request touches, it must be approved by one or more [maintainers](https://about.gitlab.com/handbook/engineering/workflow/code-review/#maintainer). The Approved button is in the merge request widget.
+4. Depending on the areas your merge request touches, it must be approved by one or more [maintainers](/handbook/engineering/workflow/code-review/#maintainer). The Approved button is in the merge request widget.
 5. Getting your merge request merged also requires a maintainer. If it requires more than one approval, the last maintainer to review and approve merges it.
 6. Using [labels](https://docs.gitlab.com/ee/user/project/labels.html) in MR helps to identify the present status of the MR whether it is in code-review/work in-progress or anything else.
 7. Below are some tips and guidelines to follow
@@ -81,7 +81,7 @@ Please keep in mind that code review is a process that can take multiple iterati
 * When a merge request has multiple areas for review, it is recommended you specify which area a reviewer should be reviewing, and at which stage (first or second). This will help team members who qualify as a reviewer for multiple areas to know which area they're being requested to review. For example, when a merge request has both backend and frontend concerns, you can mention the reviewer in this manner: @John_doe can you please review \~backend? or @Jane_Doe - could you please give this MR a \~frontend maintainer review?
 * You can also use workflow::ready for review label. That means that your merge request is ready to be reviewed and any reviewer can pick it. It is recommended to use that label only if there isn't time pressure and make sure the merge request is assigned to a reviewer.
 * When your merge request receives an approval from the first reviewer it can be passed to a maintainer. You should default to choosing a maintainer with [domain expertise](https://docs.gitlab.com/ee/development/code_review.html#domain-experts), and otherwise follow the Reviewer Roulette recommendation or use the label ready for merge.
-* Sometimes, a maintainer may not be available for review. They could be out of the office or [at capacity](https://about.gitlab.com/handbook/engineering/workflow/code-review/#review-response-slo). You can and should check the maintainer's availability in their profile. If the maintainer recommended by the roulette is not available, choose someone else from that list.
+* Sometimes, a maintainer may not be available for review. They could be out of the office or [at capacity](/handbook/engineering/workflow/code-review/#review-response-slo). You can and should check the maintainer's availability in their profile. If the maintainer recommended by the roulette is not available, choose someone else from that list.
 * It is the responsibility of the author for the merge request to be reviewed. If it stays in the ready for review state too long it is recommended to request a review from a specific reviewer.
 
 ### Reviewing a merge request
@@ -124,7 +124,7 @@ Scenarios in which the final approver might not merge an MR:
 
 If any of these scenarios occurs, an MR author may merge their own MR if it has all required approvals and they have merge rights to the repository. This is also in line with the GitLab [bias for action](../../../../../values/_index.md#operate-with-a-bias-for-action) value.
 
-This policy is in place to satisfy the CHG-04 control of the GitLab [Change Management Controls](https://about.gitlab.com/handbook/security/change-management-policy.html).
+This policy is in place to satisfy the CHG-04 control of the GitLab [Change Management Controls](/handbook/security/change-management-policy.html).
 
 To implement this policy in gitlab-org/gitlab, we have enabled the following settings to ensure MRs get an approval from a top-level CODEOWNERS maintainer:
 
@@ -133,7 +133,7 @@ To implement this policy in gitlab-org/gitlab, we have enabled the following set
 * [Prevent editing approval rules in merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html#prevent-editing-approval-rules-in-merge-requests).
 * [Remove all approvals when commits are added to the source branch](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html#remove-all-approvals-when-commits-are-added-to-the-source-branch).
 
-To update the code owners in the CODEOWNERS file for gitlab-org/gitlab, follow the process explained in the [code owners approvals handbook section](https://about.gitlab.com/handbook/engineering/workflow/code-review/#code-owner-approvals).
+To update the code owners in the CODEOWNERS file for gitlab-org/gitlab, follow the process explained in the [code owners approvals handbook section](/handbook/engineering/workflow/code-review/#code-owner-approvals).
 
 Some actions, such as rebasing locally or applying suggestions, are considered the same as adding a commit and could reset existing approvals. Approvals are not removed when rebasing from the UI or with the [/rebase quick action](https://docs.gitlab.com/ee/user/project/quick_actions.html).
 
@@ -141,7 +141,7 @@ Some actions, such as rebasing locally or applying suggestions, are considered t
 
 * Consider using the [Squash and merge](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html#squash-and-merge) feature when the merge request has a lot of commits. When merging code, a maintainer should only use the squash feature if the author has already set this option, or if the merge request clearly contains a messy commit history, it will be more efficient to squash commits instead of circling back with the author about that. Otherwise, if the MR only has a few commits, we'll be respecting the author's setting by not squashing them.
 * Go to the merge request's Pipelines tab, and select Run pipeline. Then, on the Overview tab, enable Auto-merge. Note that:
-  * If [the default branch is broken](https://about.gitlab.com/handbook/engineering/workflow/#broken-master), do not merge the merge request except for [very specific cases](https://about.gitlab.com/handbook/engineering/workflow/#criteria-for-merging-during-broken-master). For other cases, follow these [handbook instructions](https://about.gitlab.com/handbook/engineering/workflow/#merging-during-broken-master).
+  * If [the default branch is broken](/handbook/engineering/workflow/#broken-master), do not merge the merge request except for [very specific cases](/handbook/engineering/workflow/#criteria-for-merging-during-broken-master). For other cases, follow these [handbook instructions](/handbook/engineering/workflow/#merging-during-broken-master).
   * If the latest pipeline was created before the merge request was approved, start a new pipeline to ensure that the full RSpec suite has been run. You may skip this step only if the merge request does not contain any backend change.
   * If the latest [merged results pipeline](https://docs.gitlab.com/ee/ci/pipelines/merged_results_pipelines.html) was created less than 6 hours ago, and finished less than 2 hours ago, you may merge without starting a new pipeline as the merge request is close enough to main.
 * When you set the MR to auto-merge, you should take over subsequent revisions for anything that would be spotted after that.
@@ -216,7 +216,7 @@ The [default branch](https://docs.gitlab.com/ee/user/project/repository/branches
 
 It might be a good idea to have an environment that is automatically updated to the staging branch. Only, in this case, the name of this environment might differ from the branch name. Suppose you have a staging environment, a pre-production environment, and a production environment:
 
-![GitLab Flow](./gitlab-flow.png){width="356" height="340"}
+![GitLab Flow](gitlab-flow.png){width="356" height="340"}
 
 In this case, deploy the staging branch to your staging environment. To deploy to pre-production, create a merge request from the staging branch to the pre-prod branch. Go live by merging the pre-prod branch into the production branch. This workflow, where commits only flow downstream, ensures that everything is tested in all environments. 
 
@@ -238,7 +238,7 @@ Another important part of compliance is knowing it is actually happening in your
 
 Audit Events allows GitLab owners and administrators to track important events such as who performed certain actions and the time they occurred.
 
-![Audit events](./audit-events.png){width="496" height="322"}
+![Audit events](audit-events.png){width="496" height="322"}
 
 Audit Events records different events per group and per project, which can be seen in the [audit events](https://docs.gitlab.com/ee/administration/audit_events.html) documentation. Audit Events can be accessed by going to Security & Compliance \> Audit Events Some examples include:
 
@@ -252,7 +252,7 @@ Audit Events can also be sent to an HTTP endpoint using Audit Event Streaming. I
 
 Compliance Report gives you the ability to see a group's merge request activity. It provides a high-level view for all projects in the group.
 
-![Compliance report](./compliance-report.png){width="524" height="339"}
+![Compliance report](compliance-report.png){width="524" height="339"}
 
 You can use the report to:
 

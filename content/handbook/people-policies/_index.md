@@ -6,7 +6,7 @@ controlled_document: true
 
 ## Purpose
 
-All of the policies listed below are important for GitLab team members to read and understand as they deal with people benefits, entity specific issues, and procedures and requirements of the company. If you have any questions around the internal policies, please reach out to People Operations at `people-connect@gitlab.com`.
+All of the policies listed below are important for GitLab team members to read and understand as they deal with people benefits, entity specific issues, and procedures and requirements of the company. If you have any questions around the internal policies, please reach out to People Operations via HelpLab.
 
 ## Scope
 
@@ -166,7 +166,7 @@ GitLab strives to maintain a workplace that is free from illegal use, possession
     - Our business at its core is a group of people working together towards a common goal. With awareness of what might affect our colleagues, we are better equipped to help them if they do discuss it with us and therefore help our business.
     - Mental health has so much emotional baggage as a topic that it can initially seem scary to talk about. Promoting mental health awareness helps to remove the stigma and taboos associated with it.
     - GitLab can offer "productive and fruitful" work for all of our employees. That should not be [underestimated](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwitr7eP18_XAhWIORoKHY2_CA4QFggrMAA&url=https%3A%2F%2Fcardinal-management.co.uk%2Fwp-content%2Fuploads%2F2016%2F04%2FBurton-Waddell-is-work-good-for-you.pdf&usg=AOvVaw0ROXJdWquGML5bIsBEIRLo).
-    - In the cold-light of business metrics, the healthier we are, [the more productive we are](https://www.rand.org/randeurope/research/projects/workplace-health-wellbeing-productivity.html).
+    - In the cold-light of business metrics, the healthier we are, [the more productive we are](https://www.rand.org/randeurope/research/projects/workplace-health-well-being-productivity.html).
 1. At GitLab we strive to create a stigma-free workplace. In accordance with the National Mental Health Association and the National Council for Behavioral Health we would like to:
     - Educate employees about the signs and symptoms of mental health disorders.
     - Encourage employees to talk about stress, workload, family commitments, and other issues.
@@ -177,7 +177,7 @@ GitLab strives to maintain a workplace that is free from illegal use, possession
 1. What are we doing to get there?
     - Talk about mental health issues and ideas in the #mental_health_aware Slack channel.
     - GitLab would also like to encourage GitLab team members to take [time off]({{< ref "paid-time-off" >}}) to properly take care of themselves. We encourage the team to go to yoga, take a long lunch, or anything else in their day to day life that assists in their mental and emotional well-being.
-    - In addition to our current EAP programs available for employees, we encourage GitLab team members to take a look at [Working Through It](https://www.workplacestrategiesformentalhealth.com/employee-resources/working-through-it) for insight into reclaiming well-being at work, off work, and return to work.
+    - In addition to our current EAP programs available for employees, we encourage GitLab team members to take a look at these [Resources for Employees](https://www.workplacestrategiesformentalhealth.com/topic/Resources-for-employees) for insight into reclaiming well-being at work, off work, and return to work.
     - We believe that our values and culture lends itself to being able to discuss mental health open and honestly without being stigmatized, but let's work together to make it even more inclusive. For example, Finding the right words:
         - "How can we help you do your job?"
         - "You're not your usual self."
@@ -187,7 +187,7 @@ GitLab strives to maintain a workplace that is free from illegal use, possession
 
         For additional information, please see the Mental Wellness Services offered through [Modern Health](/handbook/total-rewards/benefits/modern-health/) and tips on [Leading Through Adversity](/handbook/leadership/managing-conflict/leading-through-adversity/). Additionally, team members should learn to [recognize burnout](/handbook/people-group/paid-time-off/#recognizing-burnout) and to [prevent it](https://about.gitlab.com/blog/2022/05/03/preventing-burnout-a-managers-toolkit/).
 
-Any questions or concerns? Please feel free to contact the People Connect team in the #people-connect Slack channel or email people-connect@gitlab.com.
+Any questions or concerns? Please feel free to contact the People Connect team via HelpLab.
 
 ## Other People Policies
 
@@ -247,7 +247,7 @@ There are a number of GitLab Legal Policies which are important for GitLab team 
 
 **Health and Safety**
 
-To ensure the health and safety of our team members in Germany, and to maintain compliance with the German Occupational Safety and Health Act, all team members in Germany will complete the following checklist at onboarding. If you think you may need accommodations in order to achieve and/or maintain a healthy and safe work environment, please contact [People Connect](mailto:people-connect@gitlab.com). If you need to report an accident or injury, please contact [Team Member Relations](mailto:teammemberrelations@gitlab.com).
+To ensure the health and safety of our team members in Germany, and to maintain compliance with the German Occupational Safety and Health Act, all team members in Germany will complete the following checklist at onboarding. If you think you may need accommodations in order to achieve and/or maintain a healthy and safe work environment, please contact the People Connect team via HelpLab. If you need to report an accident or injury, please contact [Team Member Relations](mailto:teammemberrelations@gitlab.com).
 
 - [Work from Home Checklist](https://docs.google.com/document/d/1Z3i-vrkcU5ald0j-scf2rgTumwFCc_sI/edit?usp=sharing&ouid=106298195226644329866&rtpof=true&sd=true)
 {{% /details %}}
@@ -286,7 +286,7 @@ To ensure the health and safety of our team members in Germany, and to maintain 
 
 - [Display Screen Equipment Regulations 2007](https://www.irishstatutebook.ie/eli/2007/si/299/made/en/print#partii-chapv)
 
-- To ensure the physical and mental health and safety of our team members in Ireland, and to maintain compliance with local employment regulations, all team members in Ireland will complete a [home working checklist](https://forms.gle/bmXqNdH1xEw2bFTa8) at onboarding. This checklist will be reviewed annually. If you think you may need accommodations in order to achieve and/or maintain a healthy and safe work environment, please contact [People Connect](mailto:people-connect@gitlab.com). If you need to report an accident or injury, please contact [Team Member Relations](mailto:teammemberrelations@gitlab.com).
+- To ensure the physical and mental health and safety of our team members in Ireland, and to maintain compliance with local employment regulations, all team members in Ireland will complete a [home working checklist](https://forms.gle/bmXqNdH1xEw2bFTa8) at onboarding. This checklist will be reviewed annually. If you think you may need accommodations in order to achieve and/or maintain a healthy and safe work environment, please contact the People Connect team. If you need to report an accident or injury, please contact [Team Member Relations](mailto:teammemberrelations@gitlab.com).
 {{% /details %}}
 
 {{% details summary="GitLab Korea LTD" %}}
@@ -306,7 +306,7 @@ None currently applicable specific to team members in Korea.
 
 [GitLab Ltd (UK) Health and Safety Risk Assessment](https://docs.google.com/document/d/1c1Miem37ysMvddyhhQYfp1Tz07rQ7P3MnyUrFyhoTmc/edit#)
 
-To ensure the physical and mental health and safety of our team members in the UK, and to maintain compliance with local employment regulations, all team members employed by GitLab Ltd. must review the [guidelines for working comfortably at home](https://docs.google.com/document/d/1aFVBgpfLIyuV14kE0kavHsdl5_fWjnnP/edit?usp=sharing&ouid=106298195226644329866&rtpof=true&sd=true) and complete a [home working risk assessment](https://docs.google.com/document/d/1hJDuR1wqEcSCq3us2FnsV_b4My7STgctyM-c_FDqfAU/edit?usp=sharing) at onboarding. If you think you may need accommodations in order to achieve and/or maintain a healthy and safe work environment, please contact [People Connect](mailto:people-connect@gitlab.com). If you need to report an accident or injury, please contact [Team Member Relations](mailto:teammemberrelations@gitlab.com). Team members should regularly inspect their home offices for potential hazards related to the following:
+To ensure the physical and mental health and safety of our team members in the UK, and to maintain compliance with local employment regulations, all team members employed by GitLab Ltd. must review the [guidelines for working comfortably at home](https://docs.google.com/document/d/1aFVBgpfLIyuV14kE0kavHsdl5_fWjnnP/edit?usp=sharing&ouid=106298195226644329866&rtpof=true&sd=true) and complete a [home working risk assessment](https://docs.google.com/document/d/1hJDuR1wqEcSCq3us2FnsV_b4My7STgctyM-c_FDqfAU/edit?usp=sharing) at onboarding. If you think you may need accommodations in order to achieve and/or maintain a healthy and safe work environment, please contact the People Connect team via HelpLab. If you need to report an accident or injury, please contact [Team Member Relations](mailto:teammemberrelations@gitlab.com). Team members should regularly inspect their home offices for potential hazards related to the following:
 
 - Electrical equipment: make sure that your plugs, wiring, and casings are in good working order and there is no fraying.
 - Fire: regularly check your smoke detectors and develop an escape plan in case of fire, if you haven't already.
@@ -336,7 +336,7 @@ For more information about the 48-hour working week restrictions, please visit t
 *How to opt-out of the 48-hour working week*
 
 It is entirely your decision if you would like to work more than an average of 48 hours a week. GitLab is committed to enabling team members to maintain a healthy work-life balance, but on occasion (for example during periods of high customer demand) you may be asked to work longer hours. To ensure that we remain compliant with the regulations, we ask you to opt out of them, in case such a need arises.
-If you would like to opt-out, you can do this by signing this written agreement, known as the opt-out agreement. You may have chosen to sign/confirm this agreement already during your onboarding. The duration of the agreement is indefinite. If you haven't already signed [this agreement](https://docs.google.com/document/d/1DRu62fqQW7OQV0lS6evf_XxdQ-0IVZl1Jk_LmSgEhDo/edit#heading=h.tkxekwf0szl9) but would like to do so, you can make a copy of this document, add your name and sign it, and email a copy to people-connect@gitlab.com, with a request that it be saved with your documents in Workday.
+If you would like to opt-out, you can do this by signing this written agreement, known as the opt-out agreement. You may have chosen to sign/confirm this agreement already during your onboarding. The duration of the agreement is indefinite. If you haven't already signed [this agreement](https://docs.google.com/document/d/1DRu62fqQW7OQV0lS6evf_XxdQ-0IVZl1Jk_LmSgEhDo/edit#heading=h.tkxekwf0szl9) but would like to do so, you can make a copy of this document, add your name and sign it, and attach a copy of it to a new case to the People Connect team within HelpLab, with a request that it be saved with your documents in Workday.
 
 *How do I cancel my opt-out agreement?*
 
@@ -349,7 +349,7 @@ You can choose to cancel your opt-out agreement at any time. The notice period y
 
 **Health and Safety**
 
-To ensure the physical and mental health and safety of our team members in Australia, and to maintain compliance with local employment regulations, all team members in Australia will complete the following checklist at onboarding. This checklist will be reviewed annually. If you think you may need accommodations in order to achieve and/or maintain a healthy and safe work environment, please contact [People Connect](mailto:people-connect@gitlab.com). If you need to report an accident or injury, please contact [Team Member Relations](mailto:teammemberrelations@gitlab.com).
+To ensure the physical and mental health and safety of our team members in Australia, and to maintain compliance with local employment regulations, all team members in Australia will complete the following checklist at onboarding. This checklist will be reviewed annually. If you think you may need accommodations in order to achieve and/or maintain a healthy and safe work environment, please contact the People Connect team via HelpLab. If you need to report an accident or injury, please contact [Team Member Relations](mailto:teammemberrelations@gitlab.com).
 
 - [Remote Work Checklist](https://docs.google.com/document/d/1_sHk3ksGLDVxBZsnO3pMD-U_R_Fy0Yyu/edit?usp=sharing&ouid=106298195226644329866&rtpof=true&sd=true)
 {{% /details %}}
@@ -360,7 +360,7 @@ To ensure the physical and mental health and safety of our team members in Austr
 
 **Health and Safety**
 
-To ensure the physical and mental health and safety of our team members in New Zealand, and to maintain compliance with local employment regulations, all team members in New Zealand will complete the following survey at onboarding. The responses will be reviewed annually. If you think you may need accommodations in order to achieve and/or maintain a healthy and safe work environment, please contact [People Connect](mailto:people-connect@gitlab.com). If you need to report an accident or injury, please contact [Team Member Relations](mailto:teammemberrelations@gitlab.com).
+To ensure the physical and mental health and safety of our team members in New Zealand, and to maintain compliance with local employment regulations, all team members in New Zealand will complete the following survey at onboarding. The responses will be reviewed annually. If you think you may need accommodations in order to achieve and/or maintain a healthy and safe work environment, please contact the People Connect team via HelpLab. If you need to report an accident or injury, please contact [Team Member Relations](mailto:teammemberrelations@gitlab.com).
 
 - [Remote Work Checklist](https://forms.gle/DszZNkBA22Rhy3VW7)
 {{% /details %}}

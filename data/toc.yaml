@@ -127,6 +127,8 @@
           url: travel
         - name: Visas
           url: visas
+    - name: Talent Assessment
+      url: /handbook/people-group/talent-assessment
     - name: Team Member Relations Philosophy
       url: /handbook/people-group/team-member-relations#team-member-relations-philosophy
     - name: Total Rewards

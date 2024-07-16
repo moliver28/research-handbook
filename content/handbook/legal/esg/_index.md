@@ -48,7 +48,7 @@ Team members may self organize volunteer events at any point throughout the year
 
 Team members can also request support from the ESG Team to organize local or virtual volunteer opportunities on their behalf by going to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and opening a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support). Please write "yes" for the question, "Would you like the ESG team's help organizing the volunteer activity?"
 
-All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/). Team members must follow GitLab's paid time off (PTO) policy if volunteering during work hours and use the "public service/volunteer" option in Time Off by Deel.
+All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/). Team members must follow GitLab's paid time off (PTO) policy if volunteering during work hours and use the "public service/volunteer" option in Workday.
 
 If volunteering in person, team members may incur some expenses. All expenses should be submitted in Navan using the "GiveLab" classification. Please note that GitLab does not allow team members to travel to in-person volunteer events. All in-person volunteering should be local to the team member.
 

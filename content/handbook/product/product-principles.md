@@ -18,7 +18,7 @@ These are core principles we believe world class product organizations exhibit. 
 1. **You're not the customer.** Talk to them. It is tempting to assume that we understand our customers, but we are often wrong. We validate our assumptions through qualitative and quantitative customer input.
     - Helpful resources: [Inspired](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/ref=sr_1_3?keywords=marty+cagan&qid=1558392207&s=gateway&sr=8-3). [Competing Against Luck](https://www.amazon.com/Competing-Against-Luck-Innovation-Customer/dp/0062435612/ref=sr_1_3?keywords=competing+against+luck&qid=1558392608&s=gateway&sr=8-3). [Get in the Van](https://firstround.com/review/the-power-of-interviewing-customers-the-right-way-from-twitters-ex-vp-product/).
 1. **Start with the problem, not the solution.** It is tempting to dive right into solutioning, but we are often wrong about the underlying problem. A well formed problem statement is the key to a successful project.
-    - Helpful resources: [Love the Problem Not Your Solution](https://blog.leanstack.com/love-the-problem-not-your-solution-65cfbfb1916b). [Great PM's Don't Spend Their Time on Solutions](https://www.intercom.com/blog/great-product-managers-dont-spend-time-on-solutions/).
+    - Helpful resources: [Love the Problem Not Your Solution](https://www.leanfoundry.com/articles/love-the-problem-not-your-solution). [Great PM's Don't Spend Their Time on Solutions](https://www.intercom.com/blog/great-product-managers-dont-spend-time-on-solutions/).
 1. **Prioritize relentlessly.** It is better to do a few things well than many things poorly. We should focus first on what we're best at and what our customers need most, with a preference for simplicity. Customers will tell us when we're missing something they need, but they're unlikely to tell us when we're overwhelming them with unwanted features.
     - Helpful resources: [Essentialism](https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382/ref=sr_1_3?keywords=essentialism&qid=1558392393&s=gateway&sr=8-3). [RICE](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/).
 1. **Assume you are wrong.** Human intuition is often wrong. To fight this, have a hypothesis and try to invalidate it quickly.
@@ -154,7 +154,7 @@ since they may have important user perspectives around your categories.
 
 We have achieved many successes following this approach:
 
-- [Code Quality](https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html) in CI/CD pipelines by embedding [CodeClimate](https://codeclimate.com/)
+- [Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html) in CI/CD pipelines by embedding [CodeClimate](https://codeclimate.com/)
 - [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html) by using the [Unleash](https://github.com/Unleash/unleash) client library
 - [Mobile publishing](https://about.gitlab.com/blog/2019/03/06/ios-publishing-with-gitlab-and-fastlane/) by writing about how to utilize [FastLane](https://fastlane.tools/) with GitLab
 
@@ -653,7 +653,7 @@ For more guidance on the feature naming process, see [naming features](/handbook
 ### Next Generation
 
 While our [big, hairy, audacious goal](https://www.jimcollins.com/concepts/bhag.html) spans all development processes, personas, and use-cases, there are primary targets in each one of these venues.
-When considering prioritization we should first aim to provide complete [maturity](https://about.gitlab.com/direction/maturity/) for developers building cloud native applications in a modern way prior to moving to other development methodologies, personas, and application types.
+When considering prioritization we should first aim to provide complete [maturity](https://about.gitlab.com/direction/#maturity) for developers building cloud native applications in a modern way prior to moving to other development methodologies, personas, and application types.
 
 #### Modern first
 

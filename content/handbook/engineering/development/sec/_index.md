@@ -425,7 +425,7 @@ At least once per milestone, Senior Engineering Managers in the section will do 
 
 - In partnership with Product Management, initiatives 6 months or older will be evaluated to determine if they're still relevant.
 - New initiatives will be triaged, checking their requirements for understandability and completeness. Further, the group most impacted will be identified.
-  - In situations where most impacted group is not clear, Senior IC leadership via #sec_staff_plus will be engaged to help discern which group that might be.
+  - In situations where most impacted group is not clear, technical leadership via #sec-section will be engaged to help discern which group that might be.
 - Group most impacted will be declared DRI for that initiative and are expected to:
   - Produce a high-level implementation plan that will scale for the whole problem.
   - Create implementation issues that are broken down by feature category.

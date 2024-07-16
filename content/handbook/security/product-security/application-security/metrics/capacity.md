@@ -49,6 +49,10 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::HackerAdmin | Indicates the work was associated to HackerOne administration |
 | AppSecWorkType::Operational | Should be used for everything else that's not covered by a label above |
 
+### Work impacted by SIRT incidents
+
+When SIRT incidents happen, this has an impact on our capacity. To evalute that impact, team members should apply the label `ImpactedBySIRTIncidents` to the issue.
+
 #### Who assigns this label and when?
 
 The AppSec Engineer responsible for the task is expected to assign this label to any Issue or MR as soon as they begin interaction.

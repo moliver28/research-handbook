@@ -25,7 +25,7 @@ Make sure to save these credentials as distinct from your regular GitLab credent
 ## Important Links for Customers and Prospects
 
 - Resources for Prospects who are trialing and need direction
-  - [Get started with GitLab](https://docs.gitlab.com/ee/intro/)
+  - [Get started with GitLab](https://docs.gitlab.com/)
   - [GitLab epics](https://docs.gitlab.com/ee/user/group/epics/)
 - [Instructions on how to renew self-managed](https://about.gitlab.com/pricing/licensing-faq/#how-do-i-renew-my-subscription)
 - [Customer Facing: Licensing, Renewing, and Subscription FAQ](https://about.gitlab.com/pricing/licensing-faq/)
@@ -107,7 +107,7 @@ Communicate to the customer
 To help me provide better support for your renewal I'll need some more information, could you please provide a screenshot following the below instructions?
 
 1. Navigate to Admin Area
-1. Click `License` as it's shown [here](https://docs.gitlab.com/ee/administration/img/license_details.png) and send it to me
+1. Click `License` as it's described [here](https://docs.gitlab.com/ee/administration/license_file.html#view-license-details-and-history) and send it to me
    - For GitLab.com
 1. Navigate to group settings
 1. Navigate to billing

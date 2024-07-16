@@ -52,6 +52,16 @@
 /handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure.html /handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure/ 301
 /handbook/legal/privacy/us-state-privacy-disclosure/ https://about.gitlab.com/privacy/us-state-privacy-rights-and-disclosures/ 301
 
+# Old redirect pre-migration - remove 2024-12-01
+/handbook/content/handbook/finance/accounting/prepaid/ https://internal.gitlab.com/handbook/finance/accounting/prepaid/
+/handbook/content/handbook/finance/accounting/finance-ops/accounts-receivable/ https://internal.gitlab.com/handbook/finance/accounting/finance-ops/accounts-receivable/
+/handbook/content/handbook/finance/accounting/finance-ops/billing-ops/zuora-billing/ https://internal.gitlab.com/handbook/finance/accounting/finance-ops/billing-ops/zuora-billing/
+/handbook/content/handbook/finance/accounting/finance-ops/revenue-accounting/ https://internal.gitlab.com/handbook/finance/accounting/finance-ops/revenue-accounting/
+/handbook/content/handbook/finance/accounting/finance-ops/revenue-accounting/tech-stack-guide-zuora-revenue/ https://internal.gitlab.com/handbook/finance/accounting/finance-ops/revenue-accounting/tech-stack-guide-zuora-revenue/
+/handbook/content/handbook/finance/financial-planning-and-analysis/marketing-finance/ https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/
+/handbook/content/handbook/finance/financial-planning-and-analysis/sales-finance/ https://internal.gitlab.com/handbook/finance/finance-planning-and-analysis/sales-finance/
+/handbook/content/handbook/finance/timekeeping/frequently-asked-questions/ https://internal.gitlab.com/handbook/finance/payroll/timekeeping/frequently-asked-questions/
+
 # Solutions Architecture Handbook Moved - remove 2025-06-01
 /handbook/customer-success/solutions-architects/* /handbook/solutions-architects/:splat 301
 /handbook/customer-success/solutions-architects/ /handbook/solutions-architects/ 301

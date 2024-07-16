@@ -47,7 +47,7 @@ Here is my office setup:
 
 * Standing desk from a local office supplier
 * Samsung WQHD 24 inch external monitor (S24H850)
-* Goldtouch [adjustable keyboard](https://shop.goldtouch.com/products/goldtouch-v2-adjustable-comfort-keyboard-pc-and-mac-compatible-usb)
+* Goldtouch [adjustable keyboard](https://www.goldtouch.com/v2-adjustable-keyboard/)
 * Logitech mouse
 * Logitech wired headset
 

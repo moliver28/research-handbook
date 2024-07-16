@@ -190,7 +190,7 @@ We'd rather use inline links, such as `[Text to display](link)`, as they are eas
 
 ### Relative links
 
-Use relative links when referring to links found on [about.gitlab.com](https://about.gitlab.com/). For example, a link to our blog handbook should look like this `/handbook/marketing/blog/` and **not** this `https://about.gitlab.com/handbook/marketing/blog/`. Remove everything from the `https` through `about.gitlab.com`, but retain the forward slash after `.com`.
+Use relative links when referring to links found on [about.gitlab.com](https://about.gitlab.com/). For example, a link to our blog handbook should look like this `/handbook/marketing/blog/` and **not** this `https://handbook.gitlab.com/handbook/marketing/blog/`. Remove everything from the `https` through `about.gitlab.com`, but retain the forward slash after `.com`.
 
 Learn more in the [Markdown Guide](/handbook/style-guide/#links).
 

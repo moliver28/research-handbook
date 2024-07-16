@@ -79,7 +79,7 @@ Please keep in mind:
 
 ## Temporary renewal extensions
 
-*Last updated on 2024-05-1.*
+*Last updated on 2024-06-10.*
 
 Temporary extensions for **Self-Managed** & **SaaS** renewals are now generally available for eligible renewal opportunities
 
@@ -87,7 +87,10 @@ In the event that a renewal process takes longer then intended (e.g. customer ta
 
 Temporary Renewal Extension is an internal feature built in SFDC, and is accessible from a Renewal Opportunity. It enables any Sales Rep to generate the extension on their own, without contacting Support. Extension can be generated 1-15 days before subscription end date or 1-13 days after subscription end date, with a default expiration date of 21 days after subscription end date (followed by the [grace period of 14 days for SaaS extensions only](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-expiry)).
 
-Please note for Self managed extensions - the 14 day grace period does not apply and the customer will only get a 21 day extension [OPEN issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1827)
+Please note for Self Managed extensions:
+
+- The 14 day grace period does not apply and the customer will only get a 21 day extension [OPEN issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1827)
+- The temporary license generated will only be for the customer's base plan (Premium or Ultimate). If the customer has a GitLab Duo Pro or GitLab Duo Enterprise add-on, they will lose Duo access when the temporary renewal license is applied to their instance.
 
 Additional context about this feature can be found [here](https://gitlab.com/groups/gitlab-org/-/epics/10173), including a [visual timeline](https://gitlab.com/groups/gitlab-org/-/epics/10173#timeline-of-events) of subscription events related to the temporary renewal extensions.
 
@@ -221,7 +224,8 @@ There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnAuto
 - [Renewal: UX Scorecard](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2160)
 - [Creating a subscription in Zuora to renew it in a local environment](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/zuora/zuora_tips_and_tricks.md#create-a-subscription)
 - [Auto-Renew: Custom auto-renew feature](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/flows/custom_auto_renew/index.md)
-- [Auto-Renew: Experience Flowchart (password protected)](https://www.figma.com/file/4IAnGWRKIxIKqMLUDxWf1A/Autorenew-experience-flowchart?node-id=0%3A1&t=x31XThz7dVzhhIaK-0)
+- [Auto-Renew: Experience Flowchart](https://www.figma.com/file/4IAnGWRKIxIKqMLUDxWf1A/Autorenew-experience-flowchart?node-id=0%3A1&t=x31XThz7dVzhhIaK-0)
+  - You must be logged in to Figma with your @gitlab.com email to view Figma files. When asked to sign in, click "Continue with Google" and create an account if prompted.
 - [Generating coupon codes for community programs renewals](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/community_programs/coupons.md#coupons)
 
 #### Related terminology
@@ -896,7 +900,7 @@ This section outlines top provisioning bugs and when they were resolved or are e
 | Self Managed | Cloud Licensing | Cloud License activation failure when future dated renewal and past subscription trueups. | [4874](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4874) | 15.10 |
 | Both | True-Ups | True-up validation fails when no previous_users_count is present. | [361345](https://gitlab.com/gitlab-org/gitlab/-/issues/361345) |  15.9 |
 | Self Managed | Cloud Licensing | CustomersDot Admin Cloud Activations tab lists multiple activation codes when zuora_id is blank. | [4580](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4580) |  15.9 |
-| GitLab.com | Add-Ons Provisioning | Gitlab group storage quota is overwritten by the last syncd Zuora subscription's storage. | [4687](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4687) | 15.8 |
+| GitLab.com | Add-Ons Provisioning | GitLab group storage quota is overwritten by the last syncd Zuora subscription's storage. | [4687](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4687) | 15.8 |
 | GitLab.com | SaaS Provisioning | SaaS subscriptions with multiple product line items do not provision seats correctly. | [3956](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3956) | 15.8 |
 | Self Managed | Cloud Licensing | License sync does now work with IPv4. | [354839](https://gitlab.com/gitlab-org/gitlab/-/issues/354839) | 15.7 |
 | Self Managed | Cloud Licensing  |  Multi-year subscription licenses have incorrect term dates (already expired license, 1-year only term). | [4815](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4815), [3421](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3421), [4816](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4816) | 15.7 |

@@ -19,7 +19,7 @@ title: "Usecase: Template"
 
 Define and describe the use case in customer terms.  Reference the [customer use case page](/handbook/marketing/use-cases/)
 
-- [Keywords and SEO Terms](./keywords/)
+- [Keywords and SEO Terms](keywords/)
 
 ## Personas
 

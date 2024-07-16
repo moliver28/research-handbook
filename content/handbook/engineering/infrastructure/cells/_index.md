@@ -437,7 +437,7 @@ The listed phases will be applied for both Staging then at a later stage to Prod
    1. Limitations
       - No automation
       - No internal and external customers
-1. [Phase 7](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%207): Reconfigure Gitlab Shell to use Topology Service
+1. [Phase 7](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%207): Reconfigure GitLab Shell to use Topology Service
 1. [Phase 8](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%208): Production readiness
 1. [Phase 9](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%209): Cell 3
    - Internal customers only

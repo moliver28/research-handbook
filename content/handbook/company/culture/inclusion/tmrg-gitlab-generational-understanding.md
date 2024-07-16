@@ -77,7 +77,7 @@ Links to interesting handbook pages, articles, books, and training
 - [U.S. Equal Employment Opportunity Commission: Age Discrimination](https://www.eeoc.gov/age-discrimination)
 - [Psychology Today:"Young People Are Just Smarter"](https://www.psychologytoday.com/us/blog/boomers-30/201710/young-people-are-just-smarter)
 - [How to protect yourself from ageist attitudes](https://www.theguardian.com/careers/2017/apr/27/how-to-protect-yourself-from-ageist-attitudes)
-- [How older workers get sidelined in tech](https://www.protocol.com/workplace/ageism-tech-workers)
+- [How older workers get sidelined in tech](https://web.archive.org/web/20240223232547/https://www.protocol.com/workplace/ageism-tech-workers)
 
 ### Training resources
 

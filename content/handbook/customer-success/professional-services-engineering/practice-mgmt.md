@@ -79,7 +79,7 @@ Here are the main labels specific to the Education Practice Management projects.
 - **Add to customers.gitlab.com ordering page**: Gives visibility and leads user down path of discovering more offerings
 - **Event Presence**: Education Services presence at Commit
 - **Community and Evangelism**:
-  - **GitLab Heros**: Pilot with GitLab Heros to test out certifications. Have Heros participate in training in advance of commit and then iterate based on that. Offer trainings for free and offer free exam to get gitlab certified ahead of time (John Coghlan is contact)
+  - **GitLab Heros**: Pilot with GitLab Heros to test out certifications. Have Heros participate in training in advance of commit and then iterate based on that. Offer trainings for free and offer free exam to get GitLab certified ahead of time (John Coghlan is contact)
   - **GitLab Evangelism team**: Collaboration initiatives TBD
 - **Add to Customer Success Plan**: Make certifications part of success plan from CSM. Set metrics against percentage of users who complete certifications
 - Offerings integrated into customer adoption nurture campaign

@@ -22,14 +22,10 @@ organizationally.
 
 ## Design Documents
 
-<!--
-   TODO: Update once design docus migration is underway.
-   https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279
--->
 Design documents are the primary artifact that the workflow revolves around.
-They are version controlled documents that are released alongside our
-[user-facing documentation](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc/architecture/blueprints)
-and you can find [a list of published ones](https://docs.gitlab.com/ee/architecture) there too.
+They are version controlled documents that are released in this handbook
+[user-facing documentation](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/main/content/handbook/engineering/architecture/design-documents)
+and you can find [a list of published ones](design-documents/) there too.
 
 Long-term iterations, longer than a single milestone, either on features or
 maintenance tasks, are challenging because it is easy to lose consensus,
@@ -98,17 +94,13 @@ a Principal+ Engineer for input.
 
 ### Design Phase
 
-<!--
-   TODO: Update once design docus migration is underway.
-   https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279
--->
 1. Start writing a design document somewhere! Depending on whether the content
    can be considered [SAFE](/handbook/legal/safe-framework/) or not you may
    want to do that in a private space first. If you don't know what content to
-   start with you can use [a template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/_template.md?plain=1).
+   start with you can use [a template](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md?plain=1).
    You will find a couple of suggestions there and a markdown front matter we
    use for status tracking.
-1. Open a [merge request](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc/architecture/blueprints)
+1. Open a [merge request](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/main/content/handbook/engineering/architecture/design-documents)
    if you have not done it already and if it is SAFE to do so.
 1. Post a link to your design document, with a brief description of it, in the
    internal [`#architecture`](https://gitlab.slack.com/archives/CJ4DB7517)
@@ -237,10 +229,10 @@ generate awareness early in the cycle and so that they can provide their input.
    TODO: Update once design docus migration is underway.
    https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279
 -->
-Merged design documents will be published on our [documentation website](https://docs.gitlab.com/ee/architecture/)
+Merged design documents will be published our [public handbook](design-documents/_index.md)
 
 If you don't know what content you could put into a design document, you can use
-[this template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/_template.md?plain=1)
+[this template](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md?plain=1)
 as a starting point.
 
 Please be conscious of our [SAFE](/handbook/legal/safe-framework/) framework

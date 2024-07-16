@@ -17,7 +17,6 @@ This page is intended to help others understand what it might be like to work wi
 [LinkedIn](https://www.linkedin.com/in/mario-mora-41ba9361/)
 [About Mario](/handbook/company/team/#mmora)
 [GitLab handle](https://gitlab.com/mmora)
-[Mario Alberto Mora](https://www.marioalbertomora.com/)
 
 ## About me
 

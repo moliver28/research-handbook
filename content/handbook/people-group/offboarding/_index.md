@@ -17,7 +17,7 @@ For system access questions and [laptop wipes](/handbook/business-technology/end
 
 For payroll questions or outstanding expense claims, please reach out to either `uspayroll@gitlab.com` or `nonuspayroll@gitlab.com`.
 
-For any other offboarding questions, please reach out to People Connect via `people-connect@gitlab.com` or directly in the `#people-connect` Slack channel.
+For any other offboarding questions from active team members please reach out to People Connect via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=897eb385478c069067429ee0026d432c) or send an email to `people-connect@gitlab.com` if your access has already been terminated.
 
 **Note:** If a termination date changes, please reach out to People Connect via HelpLab. The team will update Workday.  The notice is used as supporting documentation of the change and is saved in the team members Workday record. If the team member is employed via a PEO, they will also be notified by People Connect.
 
@@ -34,7 +34,7 @@ For any other offboarding questions, please reach out to People Connect via `peo
 1. **Team Member:** Following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit) submit your resignation directly in Workday which you may access through Okta.
 1. **Team Member:** If you are employed via a PEO or Third-Party Employer forward a copy of your Letter of Resignation directly to them.
 1. **Team Member:** Within 48 hours of submitting your resignation you can anticipate receiving both your offboarding information email and a request to complete an exit survey along with an invitation to take part in an optional exit interview.
-1. **Team Member:** You should review the [Offboarding FAQ](/handbook/people-group/offboarding/faq) handbook page to address any questions you may have. If you have a question that is not on that page, please reach out in #people-connect. **Note: You will not see your offboarding issue prior to your departure as this is an issue used to deprovision access and is created once you are done working.**
+1. **Team Member:** You should review the [Offboarding FAQ](/handbook/people-group/offboarding/faq) handbook page to address any questions you may have. If you have a question that is not on that page, please reach out to the People Connect Team. **Note: You will not see your offboarding issue prior to your departure as this is an issue used to deprovision access and is created once you are done working.**
 1. **Manager:** You will receive the resignation for review through your Workday Inbox - ensure that the proposed final date of employment aligns to the documented [notice period]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) for the team members location.
 1. **Manager:** In the instance that the resignation details require revision, you may send it back to the team member by clicking `Send Back`.  If you are satisfied with the information, click `Approve`.
 1. **Manager:** Once the details about the team members departure have been finalized schedule time with the team member to plan the [departure announcement](#communicating-departures). Please reach out to your PBP if you need additional guidance.
@@ -193,13 +193,8 @@ To ensure a successful completion of the offboarding issue, it is important that
 
 ## GitLab Alumni Program
 
-Voluntary exits that are eligible to be rehired will be added to the Slack channel `#gitlab-alumni`. The offboarding details provided by the Manager in Workday is how eligibility is determined and later shared with IT.
-
-Reasons that someone would not be permitted to join would be:
-
-1. Due to involuntary offboarding for extreme behavior or a violation of our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d).
-1. Underperformance or other causes for involuntary offboarding are not a reason to exclude someone from the alumni program.
-1. Team members who are not eligible for rehire.
+All voluntary exits are eligible to be added to the Slack channel `#gitlab-alumni`, unless otherwise noted. Involuntary exits are not eligible for the alumni channel, unless otherwise noted by Team Member Relations.
+The offboarding details provided by the terminatino transaction in Workday is how eligibility is determined and later shared with IT.
 
 The purpose of this channel is to network and socialize with team members.
 
@@ -207,10 +202,6 @@ Joining the channel is voluntary and subject to GitLab's [Code of Conduct](https
 
 GitLab, the company, monitors the channel and can remove people from it at their sole discretion.
 The GitLab [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) is enforced in the channel.
-
-### Process for Team Members Outside of the US
-
-*To be documented*
 
 ## Communicating Departures
 
@@ -343,6 +334,6 @@ Unemployment Insurance is funded through employer contributions and most states 
 
 If you are a full-time team member and you are contacted by your state's Unemployment Commission to discuss your request for Unemployment Benefits, you may be a victim of Unemployment Claim Fraud.
 
-Before giving out any information to the caller, please confirm that you are speaking with an agency employee. If you confirm with your state's Unemployment Commission that there is a fraudulent claim, please report it via email to people-connect@gitlab.com.
+Before giving out any information to the caller, please confirm that you are speaking with an agency employee. If you confirm with your state's Unemployment Commission that there is a fraudulent claim, please report it via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) to the People Connect team.
 
 Additionally here is a link to the [U.S Department of Labor Contact Particulars](https://www.dol.gov/agencies/eta/unemployment-insurance-payment-accuracy/UIFraudReporting) to report Unemployment Insurance Fraud.

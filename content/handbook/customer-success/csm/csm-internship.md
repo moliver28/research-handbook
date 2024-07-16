@@ -130,9 +130,9 @@ In order to make the most of the internship, it's expected for the intern to do 
       1. Questions in the knowledge check that you got wrong, what the correct answer is, and why
       1. Prompts in the hands-on lab that you struggled to understand or complete, what the correct answer is, and why
       1. If available, review your score with your mentor to identify areas of improvement if you need to take the course again
-1. Review [account triage](https://about.gitlab.com/handbook/customer-success/csm/health-score-triage/)
+1. Review [account triage](/handbook/customer-success/csm/health-score-triage/)
    1. Ask your mentor to share their screen and walk through a customer's Gainsight 360, including scorecards, health updates in Timeline, and product usage data
-   1. Review customer [escalations](https://gitlab.slack.com/archives/CL0S629QB) and the [process](https://about.gitlab.com/handbook/customer-success/csm/escalations/)
+   1. Review customer [escalations](https://gitlab.slack.com/archives/CL0S629QB) and the [process](/handbook/customer-success/csm/escalations/)
       1. Schedule a coffee chat with a CSM currently managing or who recently closed an escalation in order to learn about their experience
 
 #### Week 7

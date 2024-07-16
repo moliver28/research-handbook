@@ -145,11 +145,6 @@ The contract phase is unique based upon the team member's relocation. The differ
 
 1. Once the People Connect Team member has updated Workday, they will then reach out to another People Connect team member to audit the updated entry
 1. Once the team member updates their address in Workday, the People Connect Team member [approves the address change](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/#home-contact-changes---workday-inbox)
-1. The People Connect Team member notifies Payroll of the changes by adding the relevant details to the applicable payroll sheet depending on the country under the 'Compensation' header and starting month tab
-
-   - [Non-US payroll changes](https://docs.google.com/spreadsheets/d/1M_puIKHLWkHnVzOJ2MwjIpQ-mwxolae-LpT2VPlByv0/edit#gid=261391927)
-   - [(US)Payroll Changes](https://docs.google.com/spreadsheets/d/1163qL1tIG32vAVUNNIbhnPnzkL5euPAD9DGlOaapTjY/edit#gid=1431873926)
-   - [Canada Payroll Changes](https://docs.google.com/spreadsheets/d/1_jX0TuBarGHnvM3CL7n64ily9a7aV4himDREODk8Ddo/edit#gid=13386269)
 
 1. If there is a sales commission change: Add the details to the [Final Sales OTE](https://docs.google.com/spreadsheets/d/1lyGxlNAdY4PLMKR31Zw46i7jpb8qfMovMJBUql8PfjE/edit#gid=1320059142) sheet under the 'Changes' tab
 
@@ -181,10 +176,6 @@ The contract phase is unique based upon the team member's relocation. The differ
     - Update the locality at point of relocation (don't wait for the address change)
     - Check if a future dated One-Time-Payment needs to get updated due to the currency change
 1. Once the People Connect Team member has updated Workday, they will then reach out to another People Connect team member to have them audit the updated entry.
-1. The People Connect Team member notifies Total Rewards and Payroll of the changes by adding the relevant details to the applicable payroll sheet under the 'Compensation' and 'Relocation' section for the future country and the 'Termination' section for the previous country:
-    - [Non-US payroll changes](https://docs.google.com/spreadsheets/d/1M_puIKHLWkHnVzOJ2MwjIpQ-mwxolae-LpT2VPlByv0/edit#gid=261391927)
-    - [(US)Payroll Changes](https://docs.google.com/spreadsheets/d/1163qL1tIG32vAVUNNIbhnPnzkL5euPAD9DGlOaapTjY/edit#gid=1431873926)
-    - [Canada Payroll Changes](https://docs.google.com/spreadsheets/d/1_jX0TuBarGHnvM3CL7n64ily9a7aV4himDREODk8Ddo/edit#gid=13386269)
 1. The People Connect Team member will update the [Relocation Tracker](https://docs.google.com/spreadsheets/d/1Z45eOZ2rCRIKgGae3eOKQ8lhIbAPikSs5gLz3V8Kh9U/edit#gid=972787144), that the relocation has been completed.
 1. Create a [relocation issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/relocations.md) for the team member using the applicable country template in the [team member epics](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues) and assign to yourself and the relocating team member. Ensure all tasks are completed and follow up with the relocating team member if required.
     - Copy/paste any country specific [on-/offboarding tasks](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/tree/main/.gitlab/issue_templates) to this issue
@@ -311,7 +302,7 @@ In the event that the team member decides not to proceed with the relocation. No
 1. Delete the respective contracts from Google Drive and Workday, if signed
 1. Notify stakeholder of the change.  Possible stakeholders:
       - PEO
-      - Payroll: remove relocation details from the payroll sheets
+      - Payroll
       - HRSavvy
 1. Workday - Update fields that were changed for the relocation.
 1. Update [relocation tracker](https://docs.google.com/spreadsheets/d/1Z45eOZ2rCRIKgGae3eOKQ8lhIbAPikSs5gLz3V8Kh9U/edit#gid=972787144)

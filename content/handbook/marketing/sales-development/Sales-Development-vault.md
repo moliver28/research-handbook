@@ -331,7 +331,7 @@ This page is to act as your guide to the many tools and best practices that the 
 
 ### ZoomInfo Training Resources
 
-- ZoomInfo University: [40 Minute Introduction Video](https://university.zoominfo.com/learn/course/101-introduction-to-zoominfo-on-demand/training-session/101-introduction-to-zoominfo)
+- ZoomInfo University: [40 Minute Introduction Video](https://university.zoominfo.com/salesos-essential-features-on-demand)
 - GitLab Edcast: [ZoomInfo Introduction Training](https://gitlab.edcast.com/journey/week)
 - GitLab Edcast: [ZoomInfo Advanced Training](https://gitlab.edcast.com/journey/week-note)
 - ZI 101 Video: [Quick Saved Searches](https://www.youtube.com/watch?v=OpTgvoOQ1jM)
@@ -395,7 +395,7 @@ Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywor
 
 ### Chorus Training Resources
 
-- Chorus: [Tips for Getting Start](https://docs.chorus.ai/hc/en-us/articles/115009183547-Tips-on-Getting-Started-with-Chorus)
+- Chorus: [Tips for Getting Start](https://www.zoominfo.com/about/get-started-old/chorus)
 - GitLab Edcast: [Chorus Overview](https://gitlab.edcast.com/journey/week)
 - GitLab Edcast: [Sample Chorus IQM Calls](https://gitlab.edcast.com/insights/sample-chorus)
 

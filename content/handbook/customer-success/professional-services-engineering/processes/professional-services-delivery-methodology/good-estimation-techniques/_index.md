@@ -11,9 +11,9 @@ This brief How-To guide will quickly summarize the key issues addressed in Agile
 
 Note: **We only suggest applying Estimation techniques for Projects over 2 months in duration.**
 
-## Estimating Gitlab Professional Services Projects
+## Estimating GitLab Professional Services Projects
 
-We recommend the below t-shirt sizing estimation if the Gitlab and Customer Project teams decides to move forward with applying weight to Gitlab Issues:
+We recommend the below t-shirt sizing estimation if the GitLab and Customer Project teams decides to move forward with applying weight to GitLab Issues:
 
 * Sm - 1  (0-2 hrs)
 * Med - 2   (2-5 hrs)
@@ -29,7 +29,7 @@ It is worth noting that the meaning of "estimate" can be
 
 Synonyms include: _calculate roughly, approximate, rough guess_ – hence the slang term "guestimate" – a mixture of guesswork and calculation.
 
-Dwight D. Eisenhower famously said: _"Plans are worthless, but planning is everything. There is a very great distinction because when you are planning for an emergency you must start with this one thing: the very definition of "emergency" is that it is unexpected, therefore it is not going to happen the way you are planning."_[\[1\]](http://file///C:/Users/brian/Dropbox/My%20Documents/Will%20Consulting%20Group/Published%20on%20LinkedIn/Agile%20Estimation%20How%20To/Agile%20Estimation%20How%20To.docx#\_ftn1)
+Dwight D. Eisenhower famously said: _"Plans are worthless, but planning is everything. There is a very great distinction because when you are planning for an emergency you must start with this one thing: the very definition of "emergency" is that it is unexpected, therefore it is not going to happen the way you are planning."_[^1]
 
 The point is that estimates are never precise, but in project management – especially software / IT project management – estimates regularly are baselined, cast in stone, tracked against, and then cause many political problems because it is perceived that the people that originally estimated the effort got it all wrong.
 
@@ -47,7 +47,7 @@ As you go through different project phases and you learn more about the actual w
 
 **Estimation variability decreases the closer we get to completing the project.**
 
-![ConeOfUncertainty.jpg](./ConeOfUncertainty.jpg)
+![ConeOfUncertainty.jpg](ConeOfUncertainty.jpg)
 
 The only exception to this is if you are working on a process that is 100% understood – a production line is a good example, you know exactly how long the piece will move through different stages on the production line and you can estimate exactly how long it will take to finish one instance of your product.
 
@@ -69,17 +69,17 @@ On the other hand, if I am trying to plan for something 5 months out, the best I
 
 For estimation of software projects, this translates into the traditional "Planning Onion" as follows:
 
-![PlanningOnion.jpg](./PlanningOnion.jpg)
+![PlanningOnion.jpg](PlanningOnion.jpg)
 
 This "Planning Onion" basically works from the outside in to provide ever increasing levels of detail; as such it is closely related to the concept presented in the Cone of Uncertainty.
 
 To reflect the timing aspect and estimation detail, you can think of the "Planning Onion" like this:
 
-![PlanningOnionTiming.jpg](./PlanningOnionTiming.jpg)
+![PlanningOnionTiming.jpg](PlanningOnionTiming.jpg)
 
 Finally, in terms of Agile / Scrum estimation time horizons, you can think of Long Term vs. Short Term planning horizons as follows:
 
-![ShortLongHorizon.jpg](./ShortLongHorizon.jpg)
+![ShortLongHorizon.jpg](ShortLongHorizon.jpg)
 
 Vision and Roadmap planning are Long Term Horizon activities, whereas Sprint planning falls into the Short Term Horizon activities.
 
@@ -97,13 +97,13 @@ The following picture shows a traditional Waterfall process with three imaginary
 2. Customer Management Turnover – your customer / client management or key stakeholders changed and the "new team" wants to provide input (read "new direction") on the project which causes a reset
 3. Technology Innovation – new technologies allow for better ways to deliver the project, which forces the team to re-evaluate existing analysis, design, and code and start over
 
-![WaterfallModel.jpg](./WaterfallModel.jpg)
+![WaterfallModel.jpg](WaterfallModel.jpg)
 
 **On waterfall projects, this happens all the time! You reset without delivering value.**
 
 Using Agile on the other hand, you are able to deliver small product increments rapidly. Your planning horizons are shorter, and the Agile team basically commits to delivering a working increment at the end of every sprint.
 
-![AgilePlanning Model.jpg](./AgilePlanning_Model.jpg)
+![AgilePlanning Model.jpg](AgilePlanning_Model.jpg)
 
 Even if requirements change mid sprint, the product increment at the end of that sprint will be delivered. New requirements make it into the product backlog to be prioritized for later sprints.
 
@@ -127,7 +127,7 @@ One key thing to keep in mind is that Agile / Scrum teams use relative estimatio
 
 The following picture tries to clarify the differences:
 
-![Absolute-Relative](./Absolute-relative.jpg)
+![Absolute-Relative](Absolute-relative.jpg)
 
 The _absolute_ measure here is milliliters (ml), which is an International System of Units fluid measure. There is no interpretation as to what it means. It is absolute. Wine bottles are classified accordingly.
 
@@ -135,13 +135,13 @@ The _relative_ measure might be the small, medium, large classification used i
 
 The following table compares and contrasts absolute vs. relative estimation techniques:
 
-![Absolute-Relative-Table](./Absolute-relative-table.jpg){width="544" height="380"}
+![Absolute-Relative-Table](Absolute-relative-table.jpg){width="544" height="380"}
 
 ## Estimation Poker
 
-![Estimation Poker](./Estimation-poker.jpg){width="523" height="285"}
+![Estimation Poker](Estimation-poker.jpg){width="523" height="285"}
 
-As mentioned before, Estimation Poker is a relative estimation technique that favors accuracy over precision. It commonly uses the Fibonacci number sequence (1, 2, 3, 5, 8, 13, 21, 34, 55, …)[\[2\]](http://file///C:/Users/brian/Dropbox/My%20Documents/Will%20Consulting%20Group/Published%20on%20LinkedIn/Agile%20Estimation%20How%20To/Agile%20Estimation%20How%20To.docx#\_ftn2).
+As mentioned before, Estimation Poker is a relative estimation technique that favors accuracy over precision. It commonly uses the Fibonacci number sequence (1, 2, 3, 5, 8, 13, 21, 34, 55, …) [^2].
 
 The Implementation Team members doing the work have to do the estimates; this is critical. You cannot have people other than the actual Implementation Team estimate the work. This is critical in order to create accountability and make sure the Implementation Team is fully committed to the estimate.
 
@@ -200,7 +200,7 @@ All for one, and one for all!
 
 ## T-Shirt Sizing and Affinity Estimation
 
-![T-Shirt Sizing](./T-shirt-sizing.jpg){width="521" height="326"}
+![T-Shirt Sizing](T-shirt-sizing.jpg){width="521" height="326"}
 
 T-Shirt Sizing (aka Affinity Estimation) is based upon the need to estimate things quickly without necessarily having all the details available that you usually might require. Here are some examples of how T-Shirt Sizing can be use:
 
@@ -240,7 +240,7 @@ This 4 step process allows the Development Team to tackle many hundreds of user 
 
 Regardless if you are using Estimation Poker, or T-Shirt Sizing, the Cone of Uncertainty still applies. Be aware that using T-Shirt Sizing early in the process will produce estimates with higher variability.
 
-![ConeTShirtPoker.jpg](./ConeTShirtPoker.jpg)Depending on what you are challenged with estimating, choose the right estimation method:
+![ConeTShirtPoker.jpg](ConeTShirtPoker.jpg)Depending on what you are challenged with estimating, choose the right estimation method:
 
 * Roadmap Planning =\> Use T-Shirt Sizing
 * Release Planning =\> Use T-Shirt Sizing or Estimation Poker, depending on the number of user stories
@@ -254,7 +254,7 @@ The estimation team size is determined by the Agile Implementation Team size, wh
 
 Sometimes organizations think that adding more people to the estimation effort will make the estimate better, but that is a commonly accepted fallacy. Larger teams do not produce better estimates:
 
-![Estimation Accuracy](./EstimateAccuracy.jpg){width="600" height="377"}
+![Estimation Accuracy](EstimateAccuracy.jpg){width="600" height="377"}
 
 **Estimation accuracy actually decreases with increasing team size.**
 
@@ -264,7 +264,7 @@ It is worthwhile pointing out, that sports teams are organized around this size 
 
 What is important to understand, both for estimation efficiency as well as team dynamics, is the following:
 
-![Team Dynamics](./TeamDynamics.jpg)
+![Team Dynamics](TeamDynamics.jpg)
 
 The bigger the team, the harder it is to effectively communicate, estimate, and come to consensus. The bigger the team, the more likely something will fall through the cracks because of miscommunication. Because most of our PS engagements are conducted remotely, this problem is amplified even more.
 
@@ -274,13 +274,13 @@ This challenge of ever increasing communication paths with larger teams is also 
 
 Velocity is the rate at which the Development Team can reliably deliver story points (usually packaged into time boxed sprints and resulting in a working product increment).
 
-![Velocity Table](./Velocity.jpg)
+![Velocity Table](Velocity.jpg)
 
 ## Estimates Self-Correct
 
 Using Estimation Poker, estimation variability decreases usually over the course of the first 4 to 6 sprints. I have rarely seen stable teams that did not achieve fairly accurate estimates after working together for 5 to 6 sprints.
 
-![Estimation Accuracty](./EstimationAccuracySelfCorrect.jpg)
+![Estimation Accuracty](EstimationAccuracySelfCorrect.jpg)
 
 Pleases note that "stable teams" is key here – teams need to be stable, meaning team members need to know each other, have worked with each other, and successfully formed a team – following the standard "forming–storming–norming–performing" model of group development, first proposed by [Bruce Tuckman in 1965](http://en.wikipedia.org/wiki/Tuckman's_stages_of_group_development).
 
@@ -290,7 +290,7 @@ These phases are all necessary and inevitable in order for the team to grow, to 
 
 Once a Implementation Team has gone through the "forming–storming–norming–performing" process, team velocity is established. Estimation accuracy and predictable velocity allow for longer term forecasting.
 
-![Velocity Over Time](./Velocity-Forecast.jpg)
+![Velocity Over Time](Velocity-Forecast.jpg)
 
 **Simply put, if your product backlog contains 450 user stories representing 2,400 story point and your Development Team is delivering at a steady velocity of 60 story points for every 2 week sprint, you are able to predict that the rest of the project will take another 40 sprints, which equals 80 weeks, or roughly 1 ½ years.**
 
@@ -312,6 +312,6 @@ Because it is an empirical approach to project planning, you always know exactly
 
 T-Shirt Sizing (Affinity Estimation) is used for higher level estimates needed for budgeting, staffing, and other longer term planning activities where not all user stories are defined in all detail and a quick assessment of upcoming work is needed.
 
-[\[1\]](http://file///C:/Users/brian/Dropbox/My%20Documents/Will%20Consulting%20Group/Published%20on%20LinkedIn/Agile%20Estimation%20How%20To/Agile%20Estimation%20How%20To.docx#\_ftnref1) From a speech to the National Defense Executive Reserve Conference in Washington, D.C. (November 14, 1957) ; in Public Papers of the Presidents of the United States, Dwight D. Eisenhower, 1957, National Archives and Records Service, Government Printing Office, p. 818 : ISBN 0160588510, 9780160588518
+[^1]: From a speech to the National Defense Executive Reserve Conference in Washington, D.C. (November 14, 1957) ; in Public Papers of the Presidents of the United States, Dwight D. Eisenhower, 1957, National Archives and Records Service, Government Printing Office, p. 818 : ISBN 0160588510, 9780160588518
 
-[\[2\]](http://file///C:/Users/brian/Dropbox/My%20Documents/Will%20Consulting%20Group/Published%20on%20LinkedIn/Agile%20Estimation%20How%20To/Agile%20Estimation%20How%20To.docx#\_ftnref2) By definition, the first two numbers in the Fibonacci sequence are 0 and 1, and each subsequent number is the sum of the previous two
+[^2]: By definition, the first two numbers in the Fibonacci sequence are 0 and 1, and each subsequent number is the sum of the previous two

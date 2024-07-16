@@ -17,7 +17,7 @@ Please send a copy of the written approval to the Field Onboarding Program Manag
   - Solution Architects (SA)
   - Customer Success Managers (CSM)
   - [Customer Success Engineers (CSE)](/handbook/customer-success/csm/segment/cse/cse-tm-onboarding/)
-  - Professional Services Engagement Managers and Practice Managers
+  - Professional Services Engagement Managers, Practice Managers, and Technical Architects
   - Area Sales Managers (ASMs), Regional Directors (RDs) & Vice Presidents (VPs)
   - Customer Success Managers and Directors
   - Channels (all roles)

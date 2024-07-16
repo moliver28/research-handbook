@@ -25,7 +25,7 @@ In FY24, 85% of people leaders will complete Elevate and earn the GitLab Elevate
 
 ## What is Elevate
 
-Elevate is a highly interactive, all-remote program where managers will learn with, and from, each other. The goal is to provide a common, well understood leadership framework which demonstrates GitLab [values]({{< ref "values" >}}), [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies), and [mission]({{< ref "mission" >}}).
+Elevate is a highly interactive, all-remote program where managers will learn with, and from, each other. The goal is to provide a common, well understood leadership framework which demonstrates GitLab [values](/handbook/values/), [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies), and [mission]({{< ref "mission" >}}).
 
 In Elevate, participants will:
 

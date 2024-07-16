@@ -7,6 +7,7 @@ description: "How the Developer Relations team measures effectiveness of content
 
 - [Marketing Campaigns Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/CampaignDrillDown?%3Aiid=1) on Tableau
 - [Looker Reports](https://lookerstudio.google.com/reporting/25dedcd0-7f67-4a37-8ab6-ad03cd431f92/page/p_k19k34iwad)
+  - [Multilingual YouTube Views Report](https://lookerstudio.google.com/u/0/reporting/25dedcd0-7f67-4a37-8ab6-ad03cd431f92/page/p_zzca42mped)
 - [Content Asset Inventory](https://docs.google.com/spreadsheets/d/1WzdX8o9wzuswIPMAYVUURswm2AtwFcVE6XhmHy1lhr8/edit#gid=0)
 - [Youtube2Sheets](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/youtube2sheets) Script
 - [CommunityApps](https://campaign-manager.gitlab.com/) (Campaign Manager)
@@ -112,9 +113,21 @@ Here is an example of a blend:
 
 ![looker-blend](/images/handbook/marketing/developer-relations/looker-blend.png)
 
+#### Multilingual YouTube Views Report
+
+Some of the videos published on GitLab.com are dubbed in languages like Spanish & Portuguese. To understand how they perform against the English version, we have the [Multilingual YouTube Views Report](https://lookerstudio.google.com/u/0/reporting/25dedcd0-7f67-4a37-8ab6-ad03cd431f92/page/p_zzca42mped) in Looker Studio.
+
+![looker_studio_multilingual_report](/images/handbook/marketing/developer-relations/looker_studio_multilingual_report.png)
+
+This report uses the `youtube_views_gitlab` sheet in the Content Inventory Sheet by introducing the `video_topic` column. The column is used to group a set of videos with same content but in different languages. For example, in the image below, you will see the same video_topic is specified for the English, Spanish and Portuguese versions of the listed videos. This process is manual. Once the videos have been synced by [Youtube2Sheets](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/youtube2sheets/), you'll need to update the sheets and fill in the `video_topics` for videos you want in the multilingual report.
+
+![multilingual_reports-sheet-example](/images/handbook/marketing/developer-relations/multilingual_reports-sheet-example.png)
+
+This configuration only supports videos published on the Official GitLab YouTube Channel. If you are publishing new videos, make sure they are in the appropriate [English](https://www.youtube.com/playlist?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED), [Portuguese](https://www.youtube.com/playlist?list=PLFGfElNsQthaRSNTv93cM57GBB1l_95Px) and [Spanish](https://www.youtube.com/playlist?list=PLFGfElNsQthbm-EfY2AyFNr8o6qT5A2ud) playlists. If you are creating a new language playlist, add the playlist to the [Youtube2Sheets Configuration file](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/youtube2sheets/-/blob/master/data_config.json?ref_type=heads) and specify the language.
+
 ## Maintenance guide
 
-This section details how the different components of the Content Effectiveness wokflow link togther and how to maintain them.
+This section details how the different components of the Content Effectiveness workflow link together and how to maintain them.
 
 ### Data Reporting Flow
 

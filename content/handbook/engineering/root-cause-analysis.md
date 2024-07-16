@@ -26,7 +26,7 @@ To perform an RCA simply leverage the template provided below and open an issue 
 
 Please reference [the RCA template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/rca.md) for a step-by-step overview of questions to answer in an RCA.
 
-Unplanned upgrade stop has a [special template for conducting Root Cause Analysis](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/rca_upgrade_stop.md). Please refer to [Unplanned upgrade stop](./unplanned-upgrade-stop) page to learn more.
+Unplanned upgrade stop has a [special template for conducting Root Cause Analysis](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/rca_upgrade_stop.md). Please refer to [Unplanned upgrade stop](unplanned-upgrade-stop/) page to learn more.
 
 For a more in-depth overview of an established RCA process, please review [this handbook page](../customer-success/professional-services-engineering/workflows/internal/root-cause-analysis).
 

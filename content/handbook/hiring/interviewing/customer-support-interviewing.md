@@ -35,7 +35,7 @@ It is important to us to create an accessible and inclusive interview experience
 
 Now it's time to get excited! Here are some links that might help you understand our company and the role even better:
 
-- [Values]({{< ref "values" >}})
+- [Values](/handbook/values/)
 - [GitLab Company Culture](/handbook/company/culture/)
 - [Informal Communication in an all-remote environment](/handbook/company/culture/all-remote/informal-communication/)
 - [Support Team Handbook](/handbook/support)

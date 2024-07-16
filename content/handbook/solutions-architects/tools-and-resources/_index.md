@@ -98,9 +98,9 @@ In order to facilitate an environment of learning and development, the Solutions
 
 More information can be found on the [Customer Success Education & Enablement page](/handbook/customer-success/education-enablement/).
 
-### Linkedin Learning Platform
+### LinkedIn Learning Platform
 
-Linkedin Learning is another platform with various resources to help SA's during their onboarding journeys.
+LinkedIn Learning is another platform with various resources to help SA's during their onboarding journeys.
 
 ### Getting started as an associate SA
 

@@ -143,7 +143,7 @@ GitLab DevSecOps use case overview
 
 ## Message House
 
-The [message house](./message-house/) for DevSecOps provides a structure to describe and discuss the value and differentiators for the use case.
+The [message house](message-house/) for DevSecOps provides a structure to describe and discuss the value and differentiators for the use case.
 
 ## Competitive Comparison
 
@@ -191,7 +191,7 @@ In addition, enjoy these benefits of Ultimate:
 - [Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) - visualize security status for projects.
 - [Vulnerability Management](/handbook/security/product-security/vulnerability-management/)
 - [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_scanning_of_cyclonedx_files/) - identify the presence of new software licenses included in your project and track project dependencies. Approve or deny the inclusion of a specific license.
-- [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard/index.html) - See if merge requests were approved, and by whom.
+- [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_center/) - See if merge requests were approved, and by whom.
 
 ## Technology Partnerships
 
@@ -446,7 +446,7 @@ The following will link to enablement and training videos and content.
 
 GitLab offers a [variety of pre-packaged and custom services](https://about.gitlab.com/services/) for our customers and partners. The following are service offers specific to this solution. For additional services, see the [full service catalog](https://about.gitlab.com/services/catalog/).
 
-- [DevOps Fundamentals Training](https://about.gitlab.com/services/education/devops-fundamentals/) (all stages of the DevOps lifecycle)
+- [DevOps Fundamentals Training](https://university.gitlab.com/courses/gitlab-devops-fundamentals) (all stages of the DevOps lifecycle)
 - [GitLab CI/CD Training](https://about.gitlab.com/services/education/gitlab-ci/)
 - [Integration Services](https://about.gitlab.com/services/implementation/integration/ )
 

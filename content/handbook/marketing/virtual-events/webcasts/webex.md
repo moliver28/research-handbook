@@ -163,4 +163,4 @@ If additional assistance is required, please comment in the [#marketing_programs
 
 ### Step 5: Test your set up
 
-1. Submit a test lead using your gitlab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email. *Check and test the registration confirmation email. Do not forget to update the `Add to calendar` token and the email values for the Google calendar in the Registration Confirmation, Reminder 1 and Reminder 2.*
+1. Submit a test lead using your GitLab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email. *Check and test the registration confirmation email. Do not forget to update the `Add to calendar` token and the email values for the Google calendar in the Registration Confirmation, Reminder 1 and Reminder 2.*

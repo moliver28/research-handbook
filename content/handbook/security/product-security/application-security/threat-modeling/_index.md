@@ -17,7 +17,7 @@ We've developed an issue template available [here](https://gitlab.com/gitlab-com
 
 The basis of our threat modeling is modeled after [PASTA](https://en.wikipedia.org/wiki/Threat_model#P.A.S.T.A.) It should be noted that a full PASTA threat model is usually not required as it involves 7 steps, and in many cases only the steps 4, 5, and 6 are needed. To make it even easier, you can use [STRIDE](https://en.wikipedia.org/wiki/STRIDE_(security)) to help define the threats.
 
-Therefore we've included a beginner-friendly [how-to guide to threat modeling]({{< ref "./howto" >}}) which you should read if you're new to threat modeling. It includes a bit more detail about using STRIDE. If you need additional help, please ping the AppSec team or reach out in the #sec-appsec Slack channel.
+Therefore we've included a beginner-friendly [how-to guide to threat modeling](howto/) which you should read if you're new to threat modeling. It includes a bit more detail about using STRIDE. If you need additional help, please ping the AppSec team or reach out in the #sec-appsec Slack channel.
 
 ### Samples of PASTA Evaluations
 

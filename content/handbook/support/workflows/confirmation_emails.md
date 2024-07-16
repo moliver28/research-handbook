@@ -103,6 +103,9 @@ If the problem is with the customers portal account email, you can send the user
 
 ### Checking Mailgun logs
 
+NOTE:
+The `mg.gitlab.com` domain contains relevant data for Support troubleshooting. You will not see this list as a domain option in the drop-down on any pages. You must select the domain under Send > Sending > Domains. There is an email.mg.gitlab.com domain which appears by default, but will not work.
+
 On the first attempt, if our email system could not get through (usually server says it's non-existent or similar), then our mail server will put a suppression on sending further emails.
 
 This is useful to check if emails have been delivered successfully from our end, which could mean that the error is with the users' email provider.

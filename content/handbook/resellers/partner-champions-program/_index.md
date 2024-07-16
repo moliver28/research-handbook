@@ -47,7 +47,7 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 ## Who is the Right Candidate for the Program?
 
-**- Adhere to GitLab Values:** Aspire to GitLab [mission](https://about.gitlab.com/company/mission/#mission), uphold our [values](https://about.gitlab.com/handbook/values/), and adhere to our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
+**- Adhere to GitLab Values:** Aspire to GitLab [mission](https://about.gitlab.com/company/mission/#mission), uphold our [values](/handbook/values/), and adhere to our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
 
 **- Passion for GitLab:** Genuine passion for GitLab and a desire to drive practice building within the partner organization.
 

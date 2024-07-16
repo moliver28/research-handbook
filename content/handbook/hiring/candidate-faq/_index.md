@@ -190,7 +190,7 @@ Depending on your location, a [background screen]({{< ref "people-policies#backg
 
 ## Where does GitLab hire people?
 
-At GitLab, we hire people from all over the world and all walks of life. Diversity, Inclusion & Belonging  is one of our [core values]({{< ref "values" >}}). As an [all-remote company](/handbook/company/culture/all-remote/) we do face challenges with hiring in certain countries. Each country has unique and complex rules, laws, and regulations, that can affect our ability to conduct business, as well as the employability of the citizens and residents of those countries. It unfortunately affects the employability of the citizens and residents of those countries. We are growing and continuously exploring our hiring capabilities in a variety of geographies. At present we are focusing our hiring in countries where we have entities & PEO's (Professional Employer Organization).
+At GitLab, we hire people from all over the world and all walks of life. Diversity, Inclusion & Belonging  is one of our [core values](/handbook/values/). As an [all-remote company](/handbook/company/culture/all-remote/) we do face challenges with hiring in certain countries. Each country has unique and complex rules, laws, and regulations, that can affect our ability to conduct business, as well as the employability of the citizens and residents of those countries. It unfortunately affects the employability of the citizens and residents of those countries. We are growing and continuously exploring our hiring capabilities in a variety of geographies. At present we are focusing our hiring in countries where we have entities & PEO's (Professional Employer Organization).
 
 {{% details summary="Take a look at the countries where we currently hire below." %}}
 
@@ -235,7 +235,7 @@ Note: In countries with a star (*) hiring is limited to only certain roles
 
 ## What's it like to work at GitLab?
 
-Our [mission]({{< ref "mission" >}}) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations on our product]({{< ref "using-gitlab-at-gitlab" >}}) and staying aligned with our [values]({{< ref "values" >}}).
+Our [mission]({{< ref "mission" >}}) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations on our product]({{< ref "using-gitlab-at-gitlab" >}}) and staying aligned with our [values](/handbook/values/).
 
 {{% details summary="Explore the resources below for a deeper understanding of working at GitLab — one of the world's largest all-remote companies" %}}
 

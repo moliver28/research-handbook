@@ -47,4 +47,4 @@ I am always looking to improve myself and my team and am always open to feedback
 
 ### How Sales Development Contributes
 
-Our department helps GitLab deliver on overall business goals by initially qualifying prospective and existing customers and connecting them with Sales team members. We do this through articulating GitLab's differentiated platform vision and value in our customer outreach, driving Security adoption by positioning Ultimate as a solution, and introducing new capabilities to the market such as Duo Pro.
+Our department helps GitLab deliver on overall business goals by initially qualifying prospective and existing customers and connecting them with Sales team members. We do this through articulating GitLab's differentiated platform vision and value in our customer outreach, driving Security adoption by positioning Ultimate as a solution, and introducing new capabilities to the market such as our Duo suite.

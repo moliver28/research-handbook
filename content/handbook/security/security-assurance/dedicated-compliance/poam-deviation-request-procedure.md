@@ -1,6 +1,5 @@
 ---
 title: "FedRAMP Vulnerability Deviation Request Procedure"
-controlled_document: true
 ---
 
 ## Submit a Request

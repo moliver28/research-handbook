@@ -119,7 +119,7 @@ _Devs love a puzzle, so I'm always keen.[...]_
 The easiest way to determine the correct place for a Support Request for Help issue is to use the docs pages. One possible workflow is as follows:
 
 1. Locate a documentation page for the feature or topic on which you need help.
-1. Scroll down to the bottom of the page and click on either the "Edit this page" link.
+1. Scroll down to the bottom of the page and click on either the "View page source" link.
 1. This will open up the `.md` source file of that docs page, which contains both the `stage` and `group` responsible for it noted on the top.
 1. Now go to the [Product Categories handbook page](/handbook/product/categories/) and search for the Development Section to which the group identified on the previous step belongs to.
 1. Use the table and workflow below to create a Request for Help issue in the project identified above.
@@ -174,6 +174,7 @@ Use the following repositories and resources for identifying similar issues or r
 1. Mention the engineer who is helping or assigned with _every_ comment where you need them to review or respond.
 1. If an issue is moved to another group (through a label change or moving to another project), check the corresponding template for the new group to see who to assign or mention in a comment.
 1. When linking to Kibana, also upload a copy of relevant entries, a screenshot of the graph, etc. as logs rotate out after 7 days. If possible, also link to the relevant Sentry entry.
+1. Many teams do not have access to customer information. So make sure if you are accessing information using elevated access (Such as GitLab.com Admin) that you provide information in the issue directly that may be required to understand the problem.
 
 #### Escalate to unblock a request
 

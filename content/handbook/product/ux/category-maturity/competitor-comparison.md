@@ -61,7 +61,7 @@ A Product Manager will lead their quad team, in collaboration with a Product Mar
   - Remember: the competitor comparison should be completely data/evidence driven.
 
 - **Step 8 - Document/update the scoring**
-  - Either add or amend the existing category score on [this handbook page](https://about.gitlab.com/direction/maturity/) with the appropriate signal
+  - Either add or amend the existing category score on [this handbook page](https://about.gitlab.com/direction/#maturity) with the appropriate signal
 
 - **Step 9 - Identifying actionable steps to take**
   - Now that the gaps are identified and ratings are complete, it's time to develop an action plan to move maturity up and/or achieve best in class

@@ -113,5 +113,5 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
     1. Host second AMA for APJ time zones (people team in partnership with corporate development and product)
     1. Share media coverage recap with stakeholders, including in acquisition working group and e-group channels (comms team)
     1. Reach out to relevant analysts, if appropriate (analyst relations)
-    1. Either port to Gitlab or deactivate acquired company's social channels, depending on volume of followers (social team)
+    1. Either port to GitLab or deactivate acquired company's social channels, depending on volume of followers (social team)
     1. Retro of announcement and process (corporate development team)

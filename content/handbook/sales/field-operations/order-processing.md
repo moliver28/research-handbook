@@ -1352,7 +1352,7 @@ This policy dictates the timing of opportunity closure for all sales-assisted de
   - Relevant details about the account/opp seeking early booking
   - Why an exception is needed (justification)
   - Impact to the business (Net ARR or Renewal ARR loss)
-  - **Approval from both** CRO and CFO (or Principal Accounting Officer)
+  - **Approval from both** CRO and CFO (or Chief Accounting Officer, if CFO is not available)
   - Anticipated (revised) Renewal Close Date
   - Tag @Sales-Support and the Sr. Dir., Deal Desk for visibility
 

@@ -21,13 +21,13 @@ The output of this meeting is to ensure the Delivery team is prepared, and we ha
 
 ## Stakeholder Planning Meeting
 
-During this meeting, the PM between the Gitlab & Customer side meet to review the high level scope, and gather any onboarding material that is still missing. This is an opportunity to meet each other and begin to build trust. Additionally, this is an opportunity to review how we plan to manage the project our of Gitlab, along with a quick overview of our methodology. (review suggested cadences, iteration planning & review, preferred updated for status, etc.) We will take this information to our Customer kickoff and review it with the broader project teams.
+During this meeting, the PM between the GitLab & Customer side meet to review the high level scope, and gather any onboarding material that is still missing. This is an opportunity to meet each other and begin to build trust. Additionally, this is an opportunity to review how we plan to manage the project our of Gitlab, along with a quick overview of our methodology. (review suggested cadences, iteration planning & review, preferred updated for status, etc.) We will take this information to our Customer kickoff and review it with the broader project teams.
 
 The PM will take information from this discussion & the EM\>PS transition process and continue to build out the following for our [Customer Kickoff](https://docs.google.com/presentation/d/1XUljBcQUZgQA-0fhQ5UayiEGtp4Of3xsaFGpVxdoDS4/edit#slide=id.p1):
 
 1. Project Roadmap (workstream overview, use EM timeline as a reference point)
 2. Definitions of success
-3. Review the project within Gitlab (provide collateral as needed) & other tools (Zoom, Slack, etc.)
+3. Review the project within GitLab (provide collateral as needed) & other tools (Zoom, Slack, etc.)
 4. Review & agree on Communication plan (iterations, cadence scheduling)
 5. Project Burndown (google sheets)
 6. RAID tracking
@@ -40,6 +40,6 @@ Before we enter Project Kickoff, the goal is to confidently be on the same under
 
 * The template for our Kickoff deck can be found [here.](https://docs.google.com/presentation/d/1XUljBcQUZgQA-0fhQ5UayiEGtp4Of3xsaFGpVxdoDS4/edit#slide=id.p1)
 * Our [SteerCO template](https://docs.google.com/presentation/d/1TDKOJeuzR1uy18umu6ovy30l_A986pOEatFn_7eiNbQ/edit#slide=id.g2e563e08cf5_0_1) can be found here.
-* It is recommended to use Gitlab for Iteration status reporting, but if the customer prefers a deck, please reference this [template.](https://docs.google.com/presentation/d/1jSc5vAID3DMMwojyZnAnOT0aKY2UwDfH2Si-XxEHjLU/edit#slide=id.g2e5808acdbf_0_252)
+* It is recommended to use GitLab for Iteration status reporting, but if the customer prefers a deck, please reference this [template.](https://docs.google.com/presentation/d/1jSc5vAID3DMMwojyZnAnOT0aKY2UwDfH2Si-XxEHjLU/edit#slide=id.g2e5808acdbf_0_252)
 
 output: prepared & scheduled Discovery & Planning sessions, and [Iteration Cadences](../iteration-scheduling/_index.md) are confirmed by the Customer

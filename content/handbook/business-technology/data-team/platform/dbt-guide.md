@@ -14,7 +14,7 @@ dbt, short for [data build tool](https://www.getdbt.com/), is an [open source pr
 
 The following links will give you an excellent overview of what dbt is:
 
-- [What, exactly, is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/) - This is a less technical overview for understanding the tool
+- [What, exactly, is dbt?](https://www.getdbt.com/blog/what-exactly-is-dbt) - This is a less technical overview for understanding the tool
 - [What is dbt?](https://docs.getdbt.com/docs/introduction) - This is a bit more technical and comes straight from the docs
 
 But why do we use dbt? There are several reasons.
@@ -42,22 +42,34 @@ If you're interested in using dbt, the [dbt documentation has a great tutorial](
 
 If you wish to use dbt and contribute to the data team project, you'll need to gain access to our Snowflake instance, which can be done via an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
-### Configuration
+### Local environment
 
-- Ensure you have access to our Snowflake instance
+We use user-dedicated development databases and [virtual environments](/handbook/business-technology/data-team/platform/dbt-guide/#venv-workflow) via [make](https://www.gnu.org/software/make/manual/make.html) recipes in order to facilitate a 'local' development environment for GitLab team members contributing to our dbt project(s)
+
+#### 'Local' User-Dedicated Development Databases
+
+When needed for team members we create local development databases corresponding to the snowflake user with `_PREP` and `_PROD` suffixes, corresponding to the `PREP` and `PROD` databases in snowflake. These will be targeted by our main dbt project when run within the local environment so that contributors can develop and test changes to our dbt project. More detail on our development process within our dbt project can be found on the [dbt Change Workflow page](/handbook/business-technology/data-team/how-we-work/dbt-change-workflow/).
+
+Any data built within these development databases should be considered ephemeral as they're only to be used for local development. To ensure the optimal use of dbt, as well as appropriate security and compliace, these databases should be cleaned by the owning user regularly. [This Runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/Snowflake/snowflake_dev_clean_up.md) can be used to make that process quick and easy, and it's suggested to be run at the end or beginning of each development cycle. Additionaly, in order to ensure compliance with our data retention policies and procedures we will automatically drop all tables in development environments after **80 days** without alteration. This retention period is set within the dbt project with the `dev_db_object_expiration` variable and tables are deleted each weekend.
+
+Note: Development databases are dropped as soon as the corresponding Team Member is deprovisioned access to Snowflake (i.e. in case of offboarding or [inactive usage](/handbook/business-technology/data-team/data-management/#snowflake-1). There is not [backup]/handbook/business-technology/data-team/platform/#backups) process for development databases.
+
+#### Configuration
+
+- Ensure you have access to our Snowflake instance and dedicated development databases for your snowflake user
 - Ensure you have [Make](https://en.wikipedia.org/wiki/Make_(software)) installed (should be installed on new Macs and with XCode)
 - Create a folder in your home directory called `.dbt`
 - In the `~/.dbt/` folder there should be a `profiles.yml`file that looks like this [sample profile](https://gitlab.com/gitlab-data/analytics/blob/master/admin/sample_profiles.yml)
 - The smallest possible warehouse should be stored as an environment variable. Our dbt jobs use `SNOWFLAKE_TRANSFORM_WAREHOUSE` as the variable name to identify the warehouse. The environment variable can be set in the `.bashrc` or `.zshrc` file as follows:
-  - `export SNOWFLAKE_TRANSFORM_WAREHOUSE="ANALYST_XS"`
+  - `export SNOWFLAKE_TRANSFORM_WAREHOUSE="DEV_XS"`
   - In cases where more compute is required, this variable can be overwritten at run. We will cover how to do this in the [next section](/handbook/business-technology/data-team/platform/dbt-guide/#choosing-the-right-snowflake-warehouse-when-running-dbt).
 - Clone the [analytics project](https://gitlab.com/gitlab-data/analytics/)
 - If running on Linux:
-  - Ensure you have [Docker installed](https://docs.docker.com/docker-for-mac/)
+  - Ensure you have [Rancher Desktop Installed](https://rancherdesktop.io/)
 
 Note that many of these steps are done in the [onboarding script](https://gitlab.com/gitlab-data/analytics/-/blob/master/admin/onboarding_script.zsh) we recommend new analysts run.
 
-### Choosing the right Snowflake warehouse when running dbt
+#### Choosing the right Snowflake warehouse when running dbt
 
 Our Snowflake instance contains [warehouses of multiple sizes](https://docs.snowflake.com/en/user-guide/warehouses-overview.html), which allow for dbt developers to allocate
 differing levels of compute resources to the queries they run. The larger a warehouse is and the longer it runs, the more the query costs. For example, it costs [8 times](https://docs.snowflake.com/en/user-guide/warehouses-overview.html#warehouse-size) more to run a Large warehouse for an hour than it costs to run an X-Small warehouse for an hour.
@@ -83,7 +95,7 @@ gitlab-snowflake:
       user: {username}
       role: {rolename}
       database: {databasename}
-      warehouse: ANALYST_XS
+      warehouse: DEV_XS
       schema: preparation
       authenticator: externalbrowser
     dev_l:
@@ -93,7 +105,7 @@ gitlab-snowflake:
       user: {username}
       role: {rolename}
       database: {databasename}
-      warehouse: ANALYST_L
+      warehouse: DEV_L
       schema: preparation
       authenticator: externalbrowser
 ```
@@ -105,7 +117,7 @@ use a larger warehouse. You want to retry the build, but this time you want dbt 
 `dbt run --models @{model_name} --target dev_l`, which tells dbt to use the warehouse you specified in the `dev_l` target in your `profiles.yml` file. After a few minutes, the build
 completes and you start checking your work.
 
-### Venv Workflow
+#### Venv Workflow
 
 {: #Venv-workflow}
 

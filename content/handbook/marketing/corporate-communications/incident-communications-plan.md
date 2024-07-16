@@ -11,7 +11,7 @@ We use our incident plan and communication escalation process enables the entire
 
 ### What is an Incident?
 
-A contentious issue that undermines a critical attribute of our company's brand and challenges its reputation. And/or an incident which impacts, or has the potential to impact the safety and wellbeing of our team-members.
+A contentious issue that undermines a critical attribute of our company's brand and challenges its reputation. And/or an incident which impacts, or has the potential to impact the safety and well-being of our team-members.
 
 ### Defining the scope/severity of a potential incident
 

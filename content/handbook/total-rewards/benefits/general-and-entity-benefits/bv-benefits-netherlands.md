@@ -60,7 +60,7 @@ Once Total Rewards approves, the team member should submit their reimbursement t
 
 ## Pension
 
-State pension (AOW) is standard and will be paid out at retirement age. Starting January 1, 2021, GitLab will offer a private pension plan through [ASR](https://asr.nl/doenpensioen)(formerly Brand New Day) for all team members over the age of 21 employed via a GitLab BV Netherlands employment contract. The pension plan will be a Defined Contribution Agreement with a flat rate of 5.00% of the pension base. The GitLab team member will contribute 2%, with the employer (GitLab) contributing 3%. The pension base equals the pensionable salary less the state pension offset. For additional training, ASR has provided [video](https://drive.google.com/drive/folders/1qjCicb0JxnCmG5i4l3Hv5CEs5q8mOuXX?usp=sharing) explanations on how the pension plan works.
+State pension (AOW) is standard and will be paid out at retirement age. Starting January 1, 2021, GitLab will offer a private pension plan through [ASR](https://asr.nl/doenpensioen)(formerly Brand New Day) for all team members over the age of 21 employed via a GitLab BV Netherlands employment contract. The pension plan will be a Defined Contribution Agreement with a flat rate of 5.00% of the pension base. The GitLab team member will contribute 2%, with the employer (GitLab) contributing 3%. The pension base equals the pensionable salary less the state pension offset. For additional training, ASR has provided [video](https://drive.google.com/drive/folders/1qjCicb0JxnCmG5i4l3Hv5CEs5q8mOuXX?usp=sharing) explanations on how the pension plan works. The pension plan is managed by HR savvy and team members are automatically enrolled upon hire.
 
 **Pension Plan Summary:**
 

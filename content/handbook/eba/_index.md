@@ -127,7 +127,7 @@ When sending a calendar invite for an in-person meeting at Mission Control, plea
 ### General scheduling guidelines
 
 - For meetings spanning across multiple time zones and with external parties, [Time & Date Calculator](https://www.timeanddate.com/worldclock/meeting.html) can help determine the best time to schedule
-- When scheduling internally with multiple attendee's, please utilize Google [calendars](https://calendar.google.com)[Find a Time feature](https://gsuitetips.com/tips/calendar/find-a-time-in-google-calendar/) to see when GitLab team-members are free to schedule a meeting with. Please be cognizant of people time zones. If in doubt, please reach out to the team member directly in slack
+- When scheduling internally with multiple attendee's, please utilize Google [calendars](https://calendar.google.com)[Find a Time feature](https://support.google.com/calendar/answer/6294878) to see when GitLab team-members are free to schedule a meeting with. Please be cognizant of people time zones. If in doubt, please reach out to the team member directly in slack
 - When researching flights, consider using a tool like [Skyscanner](https://www.skyscanner.com) or [Google Flights](https://www.google.com/flights?hl=en) to explore options for flights
 - Schedule calls in European timezones in the morning (am) Pacific (Daylight) Time and US time zones in the afternoon (pm) Pacific (Daylight) Time
 - Holds on the schedule should be removed at least 60 minutes before the preceding meeting starts. Preferably 24hr in advance of the meeting when possible
@@ -161,7 +161,7 @@ Please remember to reach out to the EBA of the executive you need to schedule fo
 1. Must be a speedy meeting
 1. Agenda for the meeting must be complete 24hrs or 1 business day before the meeting and include any links to materials and pre-recorded presentations
    - [Live doc meetings](/handbook/company/culture/all-remote/live-doc-meetings/) provides a great overview of how we use live docs in our meetings.
-   - We do not present in any of our meetings. If you wish to present your material, you can record a presentation in advance and link it in the agenda document. We use synchronous meetings for Q&A. More detail at https://about.gitlab.com/handbook/communication/#few-meetings-with-presentations
+   - We do not present in any of our meetings. If you wish to present your material, you can record a presentation in advance and link it in the agenda document. We use synchronous meetings for Q&A. More detail at https://handbook.gitlab.com/handbook/communication/#few-meetings-with-presentations
 1. Plan to join the meeting on time. We start on time and do not wait for folks to join.
    - As most of our meetings are conducted over zoom, please join with your camera on and with a headset or dedicated microphone whenever possible
 1. The meeting may be recorded or live streamed to GitLab Unfiltered on YouTube, please determine in advance if the meeting should be live streamed or recorded

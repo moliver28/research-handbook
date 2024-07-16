@@ -7,7 +7,7 @@ description: "The People Compliance team manages and ensure that all mandated HR
 
 ### EEO-1
 
-The [EEO-1 Component 1](https://www.eeoc.gov/employers/eeo-1-data-collection) report is a mandatory annual data collection that requires all private sector employers with 100 or more employees, and federal contractors with 50 or more employees meeting certain criteria, to submit demographic workforce data, including data by race/ethnicity, sex and job categories. The 2022 EEO-1 Component 1 data collection is tentatively scheduled to open in April 2023.
+The [EEO-1 Component 1](https://www.eeocdata.org/eeo1) report is a mandatory annual data collection that requires all private sector employers with 100 or more employees, and federal contractors with 50 or more employees meeting certain criteria, to submit demographic workforce data, including data by race/ethnicity, sex and job categories. GitLab submits our EEO-1 reports annually within the required time frame.
 
 ### AAP
 
@@ -15,13 +15,7 @@ According to United States Federal regulation [41 CFR § 60-2.10](https://www.ec
 
 The US Department of Labor's Office of Federal Contract Compliance Programs (OFCCP) enforces the Executive Order 11246, as amended; Section 503 of the Rehabilitation Act of 1973, as amended; and the affirmative action provisions (Section 4212) of the Vietnam Era Veterans' Readjustment Assistance Act, as amended. Taken together, these laws ban discrimination and require federal contractors and subcontractors to take affirmative action to ensure that all individuals have an equal opportunity for employment, without regard to race, color, religion, sex, national origin, disability or status as a Vietnam era or special disabled veteran.
 
-Our AAP is developed using the same start month every year. The AAP report is kept on file internally and shared with the OFCCP in the case of an audit.
-
-- In 2021, we gathered data to file our AAP for our Fiscal Year 2022 (February 1, 2021 to January 31, 2022).
-- In 2022, we gathered data to file our AAP for our Fiscal Year 2023 (February 1, 2022 – January 31, 2023).
-- In 2023, we gathered data to file our AAP for our Fiscal Year 2024 (February 1, 2023 – January 31, 2024).
-
-Further information for team members is found on our [Affirmative Action Plan]({{< ref "aap" >}}) page.
+Our AAP is developed using the same start month every year. The AAP report is kept on file internally and shared with the OFCCP in the case of an audit. Our first AAP was for our Fiscal Year 2022 (February 1, 2021 to January 31, 2022). Further information for team members is found on our [Affirmative Action Plan](/handbook/people-group/people-compliance/people-compliance-reporting/aap/) page.
 
 ### VETS-4212
 
@@ -39,10 +33,7 @@ As of 2021, due to Senate Bill 973, California employers are required to submit 
 - In each of the Job Categories in the federal EEO-1 Report; and
 - Whose annual earnings fall within each of the pay bands used by the United States Bureau of Labor Statistics in the Occupational Employment Statistics survey.
 
-Employers must create a "snapshot" that counts all of the individuals in each job category by race, ethnicity and sex employed during a single pay period of the employer's choice between October 1 and December 31 of the reporting year. The CA Pay Data reports are usually due in late March / early April of the succeeding year. Our California Pay Data Reports were submitted:
-
-- For calendar year 2020, submitted prior to the deadline of March 31, 2021
-- For calendar year 2021, submitted prior to the deadline of April 1, 2022
+Employers must create a "snapshot" that counts all of the individuals in each job category by race, ethnicity and sex employed during a single pay period of the employer's choice between October 1 and December 31 of the reporting year. The CA Pay Data reports are usually due in late March / early April of the succeeding year. Our California Pay Data Reports were submitted within the deadline since the required was put in place.
 
 #### Illinois SB 1480
 
@@ -52,7 +43,7 @@ Illinois' SB 1480 requires employers to make their EEO-1 reports public beginnin
 
 **Amendments to the Illinois Equal Pay Act**
 
-Illinois SB 1480 amends the Illinois Equal Pay Act of 2003 and requires private employers in the state with more than 100 Illinois-based employees to obtain an Equal Pay Registration Certificate from the state Department of Labor or certify in writing that it is exempt. Employers must obtain the certificate within the period of March 24, 2022, and March 23, 2024. Employers must also re-certify every two years. New businesses meeting the employee threshold must obtain an Equal Pay Registration Certificate within three years of commencing operations and recertify every two years.
+Illinois SB 1480 amends the Illinois Equal Pay Act of 2003 and requires private employers in the state with more than 100 Illinois-based employees to obtain an Equal Pay Registration Certificate from the state Department of Labor or certify in writing that it is exempt. Employers must also re-certify every two years. New businesses meeting the employee threshold must obtain an Equal Pay Registration Certificate within three years of commencing operations and recertify every two years.
 
 To apply for an Equal Pay Registration Certificate employers must pay a $150 filing fee and provide the following to the Illinois Department of Labor:
 
@@ -66,9 +57,7 @@ To apply for an Equal Pay Registration Certificate employers must pay a $150 fil
 
 The [Workplace Gender Equality Act 2012](https://www.wgea.gov.au/what-we-do/reporting) requires non-public sector employers with 100 or more employees (for 6 months or more of a reporting period) to submit a report to the Workplace Gender Equality Agency.
 
-Each year, the WGEA Portal opens on 1 April for reporting. Organisations then have two months to submit their reports, with reports due on 31 May. Reports cover the preceding 12-month reporting period. The reporting period is the same each year, from 1 April (the previous year) to 31 March (the current year).
-
-GitLab is tracking our headcount in Australia, so that in the event that we fall under the headcount requirement, we will ensure to submit our WGEA report by May 31, 2023.
+Each year, the WGEA Portal opens on 1 April for reporting. Organisations then have two months to submit their reports, with reports due on 31 May. Reports cover the preceding 12-month reporting period. The reporting period is the same each year, from 1 April (the previous year) to 31 March (the current year). As of May 2024 has not yet reached the threshold. GitLab continues to track our headcount in Australia, and in the event that we fall under the headcount requirement, we will ensure to submit our WGEA report by the deadline.
 
 ## Ireland
 

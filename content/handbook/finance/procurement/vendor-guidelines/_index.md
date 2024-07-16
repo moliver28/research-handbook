@@ -18,7 +18,7 @@ The tables below highlight the current Standard Vendor Terms and Conditions, as 
    </td>
   </tr>
   <tr>
-   <td><a href="{{< ref "./vendor-agreement" >}}">Standard Vendor Terms and Conditions</a>
+   <td><a href="vendor-agreement/">Standard Vendor Terms and Conditions</a>
    </td>
    <td>Effective February 24, 2023
    </td>
@@ -35,7 +35,7 @@ The tables below highlight the current Standard Vendor Terms and Conditions, as 
    </td>
   </tr>
   <tr>
-   <td><a href="{{< ref "./legacy-vendor-agreement-v1" >}}">Legacy Standard Vendor Terms and Conditions v1</a>
+   <td><a href="legacy-vendor-agreement-v1/">Legacy Standard Vendor Terms and Conditions v1</a>
    </td>
    <td>January 2019 - February 23, 2023
    </td>

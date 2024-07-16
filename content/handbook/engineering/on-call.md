@@ -77,6 +77,14 @@ In addition to incident management responsibilities, the EOC also is responsible
 - Check out [process description and on-call workflow](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) when escalating GitLab.com operational issue(s).
 - Check out more detail for [general information](/handbook/engineering/development/processes/Infra-Dev-Escalation/) of the escalation process.
 
+### Gitaly Engineer On-Call
+
+**This is currently not active; tentative start date is 2025-01-01.**
+
+- Gitaly team provides an expert oncall rotation via PagerDuty, currently in [pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4).
+- SLO is 15 minutes, during working hours only (which still tends to cover 24h of workdays, given team member distribution).
+- For more details, see the [team page](/handbook/engineering/infrastructure/core-platform/systems/gitaly/#gitaly-oncall-rotation)
+
 ## Security Team On-Call Rotation
 
 ### Security Operations (SecOps)
@@ -98,11 +106,11 @@ In addition to incident management responsibilities, the EOC also is responsible
 
 ## Test Platform Team On-Call Rotation
 
-- Test Platform sub-department's on-call do not include work outside GitLab's normal business hours. The process is defined on our [pipeline on-call rotation](https://about.gitlab.com/engineering/infrastructure/test-platform/oncall-rotation) page.
+- Test Platform sub-department's on-call do not include work outside GitLab's normal business hours. The process is defined on our [pipeline on-call rotation](/handbook/engineering/infrastructure/test-platform/oncall-rotation) page.
 - The rotation is on a weekly basis across 3 timezones (APAC, EMEA, AMER) and triage activities happen during each team member's working hours.
 - This on-call rotation is to ensure accurate and stable test pipeline results that directly affects our continuous release process.
-- The list of pipelines which are monitored are defined on our [pipeline](https://about.gitlab.com/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) page.
-- The schedule and roster is defined on our [schedule](https://about.gitlab.com/engineering/infrastructure/test-platform/oncall-rotation/#schedule) page.
+- The list of pipelines which are monitored are defined on our [pipeline](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) page.
+- The schedule and roster is defined on our [schedule](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) page.
 
 ## PagerDuty
 

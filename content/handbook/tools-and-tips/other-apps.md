@@ -84,7 +84,7 @@ Certainly do not install it on your local machine.
 But even the Google Chrome plugin that lets you see embedded Flash content in websites can pose a security hazard.
 If you have not already, go to your [Chrome Flash Settings](chrome://settings/content/flash) and disable Flash.
 For further context, note that [Google Chrome is removing Flash support soon](https://nakedsecurity.sophos.com/2016/05/18/yet-more-bad-news-for-flash-as-google-chrome-says-goodbye-sort-of/), and while the [plugin is better than a local install of Flash](http://security.stackexchange.com/questions/98117/should-flash-be-disabled-or-are-sandboxes-secure-enough),
-it still leaves vulnerabilities for [zero-day attacks](http://www.pctools.com/security-news/zero-day-vulnerability/).
+it still leaves vulnerabilities for [zero-day attacks](https://en.wikipedia.org/wiki/Zero-day_vulnerability).
 
 ### Prototyping in the browser
 
@@ -144,7 +144,7 @@ https://docs.gitlab.com/search/?q={query}
 ```
 
 ```url
-https://about.gitlab.com/handbook/#stq={query}&stp=1
+https://handbook.gitlab.com/handbook/#stq={query}&stp=1
 ```
 
 Read [Searching using Alfred](/handbook/tools-and-tips/searching/#searching-using-alfred-on-macos) to learn more and be able to automatically add them.
@@ -182,7 +182,7 @@ If you are scheduling a meeting with a GitLab team-member, please use Google Cal
 1. Change the event link to `45min`.
 1. The event description needs to be copied to the 15, 30 and 60 minute meetings too.
 1. If you intend to use any of the other event types, make sure to add this to their event descriptions as well.
-1. For people outside of GitLab Inc, send them your Calendly link that links directly to the 45 minute time slot: "Are any of the times on <https://calendly.com/XXXXX/45min/> convenient for you? If so please book one, if not please let me know what times are good for you and we'll find an alternative."
+1. For people outside of GitLab Inc, send them your Calendly link that links directly to the 45 minute time slot: "Are any of the times on `https://calendly.com/XXXXX/45min/` convenient for you? If so please book one, if not please let me know what times are good for you and we'll find an alternative."
 1. Update your availability on [Calendy Event Types](https://calendly.com/event_types/) by clicking the action cog and then the edit option on an event type (For Example: 15 minute meeting) and in the event details clicking on the "When can people book this event?" section then clicking the "Availability" section.
    Here you can set your working hours during which you want to accept meetings, and on the "Advanced" tab you can set the minimum scheduling notice you want enforced.
    Although Calendy does synchronize with Google Calendar to show your availability you may wish to set extra restrictions in Calendy.
@@ -286,8 +286,8 @@ With a right click (or your configured hotkey) you can switch from push to talk 
 Don't forget to unblock your mic in Zoom/Google Hangouts immediately after joining.
 Be warned that page up with fn+down arrow will activate it.
 Use space for page down instead of fn+up arrow.
-**Warning**: Check your [headset compatility](http://mizage.clarify-it.com/d/jv2enz) before purchase.
-Many usb headsets are unmutable.
+**Warning**: Check your headset compatibility before purchase.
+Many USB headsets are unmutable.
 
 #### Shush alternative for Linux
 

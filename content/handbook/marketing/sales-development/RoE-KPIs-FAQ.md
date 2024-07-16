@@ -13,19 +13,29 @@ This page is part of the Sales Development team's handbook [page](/handbook/mark
 1. Is the MQL from an Existing Account?
 
     **No:** It is worked by the SDR team <br>
-    **Yes:** Check the BDR Prospecting Status
+    **Yes:** Check the BDR Prospecting Status and Account Type
 
-2. Is the Account in "Actively Working" Status?
+2. Is the Account a customer?
+
+    **No:** Move on to the next step
+    **Yes:** Check for Opportunities
+
+3. Is there an existing renewal opportunity?
+
+    **No:** Move on to the next step
+    **Yes:** Align with the sales [RoE for renewals](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#crediting--splits) and check whether the lead is involved in an upcoming renewal, check in with the Account Executive and your Regional Manager to determine what's the best course of action for this person.
+
+4. Is the Account in "Actively Working" Status 
 
     **No:** It is worked by the SDR team <br>
     **Yes:** Check for Activity
 
-3. Is the lead connecting to accounts from the Financial Services (AMER) or Telecommunications (EMEA) industries?
+5. Is the lead connecting to accounts from the Financial Services (AMER) or Telecommunications (EMEA) industries?
 
     **No:** Please proceed to the next step.
     **Yes:** Normal RoE rules are superceded, and the lead is worked by the respective Telco/Finserv BDRs, not the SDR team <br>
 
-4. Does the account have activity placed by the BDR in the last 30 days?
+6. Does the account have activity placed by the BDR in the last 30 days?
 
     **Yes:** It is worked by the BDR Assigned. <br>
     **No:** Check to see if there are leads related to the account that have activity using [this report](https://gitlab.my.salesforce.com/00O8X000008RfvU)
@@ -35,15 +45,15 @@ This page is part of the Sales Development team's handbook [page](/handbook/mark
 
     **Next Steps:** SDR chatters the BDR Assigned and lets them know you didn't find activity and will go ahead and sequence the lead. FYI's the BDR Manager. BDR Manager will work with the BDR to put the account into the correct BDR Prospecting status. If a BDR is able to relay information that was not picked up in the SDR's research, the SDR should end the sequence if the prospect hasn't engaged and change lead ownership to BDR so the BDR can reach out. If the SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between SDR and BDR. Note: Only activity logged in SFDC will be recognized as activity.
 
-5. Is the Account in "Queued" Status?
+7. Is the Account in "Queued" Status?
 
     **Yes:** It is worked by the SDR team
 
-6. Is the Account in "Worked in FY" Status?
+8. Is the Account in "Worked in FY" Status?
 
     **Yes:** It is worked by the SDR team
 
-7. Is the Account in "Restricted" Status?
+9. Is the Account in "Restricted" Status?
 
     **Yes:** It should be routed to the BDR assigned. The BDR assigned will chatter the SAE about whether they'd like them to reach out or whether they would like to own that responsibility. The AE should respond within 48 hours.
 
@@ -53,19 +63,19 @@ This page is part of the Sales Development team's handbook [page](/handbook/mark
 
     After determining an MQL is to be worked by the SDR team:
 
-8. Is the new MQL related to an existing MQL that is part of the same account?
+10. Is the new MQL related to an existing MQL that is part of the same account?
 
     **No:** The MQL can be worked by the SDR that received it through the round robin
 
     **Yes:** Check the status of the existing MQL
 
-9. Is the existing MQL in Accepted or Qualifying status?
+11. Is the existing MQL in Accepted or Qualifying status?
 
     **No:** The MQL can be worked by the SDR that received it through the round robin
 
     **Yes:** Check the activity on the existing MQL
 
-10. Is there activity in the last 30 days or a follow up task scheduled for the future?
+12. Is there activity in the last 30 days or a follow up task scheduled for the future?
 
     **Yes:** The MQL should be worked by the owner of the existing MQL
 

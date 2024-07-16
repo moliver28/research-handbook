@@ -136,7 +136,7 @@ graph TB
                 zgIssues --> zgIssueN --> zgORApprov
 
     %% Clickable Nodes
-         click ProcIntake "https://about.gitlab.com/handbook/finance/procurement/#-how-do-i-create-a-purchase-request-in-zip" _blank
+         click ProcIntake "https://handbook.gitlab.com/handbook/finance/procurement/#-how-do-i-create-a-purchase-request-in-zip" _blank
 
     %% Dedicated styling
       %%  classDef clickme fill:#6E49CB,stroke:#88DDFD,stroke-width:4px,color:#FFFFFF;

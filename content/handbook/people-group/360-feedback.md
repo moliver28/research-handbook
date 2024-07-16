@@ -70,7 +70,7 @@ The FY'24 360 Feedback Cycle will be optional company-wide. To sign up, **all te
 - Make sure that you [fulfill the requirements](#360-feedback-requirements) for participation and that you have an [Individual Growth Plan]({{< ref "career-development#individual-growth-plan" >}}) (or equivalent) in place prior to the 360 Feedback launch
 - Review [the guidelines](#is-the-360-process-right-for-me) to determine whether the 360 Feedback process is right for you
 
-Team members that sign up and meet the eligibility requirements will receive an invtation from CultureAmp at the start of the [Nomination Phase](#timeline-fy24).  Team members that sign up and **do not** meet the eligibility requirements will be notified by their People Business Partner.
+Team members that sign up and meet the eligibility requirements will receive an invitation from CultureAmp at the start of the [Nomination Phase](#timeline-fy24).  Team members that sign up and **do not** meet the eligibility requirements will be notified by their People Business Partner.
 
 ## 360 Structure
 
@@ -105,7 +105,7 @@ The options shown align with [GitLab Competencies](/handbook/people-group/compet
 - Efficiency: Prioritizing work and managing time well.
 - Diversity: Recognizes and avoids unconscious biases.
 - Inclusion: Recognizing the difference among teams and inviting people to contribute to remove barriers.
-- Belonging: Is an ally, willing ot take action in support of another person in order to remove barriers.
+- Belonging: Is an ally, willing to take action in support of another person in order to remove barriers.
 - Iteration: Experimenting with innovative ideas and approaches / being open to new ways of doing things.
 - Transparency: Actively keeping people informed about what is happening. Being open to contribution and collaboration.
 - Feedback: Actively giving, seeking and responding positively to thoughtful feedback.
@@ -123,7 +123,7 @@ Direct reports of managers that participate in the 360 feedback process will be 
 
 ### Culture Amp Resources For Coaches
 
-1. [360 feedback overview for coaches](https://support.cultureamp.com/hc/en-us/articles/115005117369-Individual-Effectiveness-Coach-s-guide-to-360s)
+1. [360 feedback overview for coaches](https://support.cultureamp.com/en/articles/7048473-guide-to-managing-the-360-review-process-as-a-coach)
 1. [Coach's guide to taking action on Effectiveness 360 feedback](https://support.cultureamp.com/hc/en-us/articles/208687485-Coach-s-guide-to-taking-action-on-Effectiveness-360-surveys)
 
 #### Checklist For Coaches
@@ -145,7 +145,7 @@ In Culture Amp, a reviewer is anyone who is requested to provide feedback for a 
 
 Reviewers can be managers, direct reports or co-workers(no participants outside of GitLab). Here are some best practices for selecting reviewers:
 
-- Nominate your manager, all of your direct reports (if applicable) and a selection of around three peers. Three peers is not a hard limit but we want to make sure the process remains managable for all.
+- Nominate your manager, all of your direct reports (if applicable) and a selection of around three peers. Three peers is not a hard limit but we want to make sure the process remains manageable for all.
 - If you are in heavily cross-functional or in leadership roles, ensure you have cross-functional representation in line with your level of collaboration.
 - Ensure to nominate team members who are operating at the same level as you to not overburden your skip-level leaders.
 - Search for team members using their email or last name, as CultureAmp does not support listing Preferred Name, only Legal Name and Email.

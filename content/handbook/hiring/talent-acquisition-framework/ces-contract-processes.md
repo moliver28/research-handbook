@@ -38,7 +38,6 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab South Korea | Jess Dallmar & Rob Allen |
 | GitLab Singapore PTE. LTD. | Jess Dallmar & Rob Allen. Backup: Simon Mundy |
 | GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
-| Oxeye Security Ltd. | James Gladen, Simon Mundy|
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
 | PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Farris |
 
@@ -217,17 +216,17 @@ The hiring manager or PBP should provide confirmation of the new start date via 
    - In the "Make a Note" section in Greenhouse, state the old start date and the new state date, and tag the person on FP&A (typically the second approver) who approved the offer.
    - Save
 
-### How to Update a Start Date After a French contract has been signed
+### How to Update a Start Date After a French or Spain contract has been signed
 
    Please follow the normal start date change [process](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#how-to-update-a-start-date-after-the-contract-is-signed), thereafter, please follow the following steps:
 
    1. Make a copy of this Start Date Amendment [letter](https://docs.google.com/document/d/1qpxTi6nPrT4KXDi87tDAWm49D9NZNvTS/edit)
    1. Edit all the highlighted details and save the document on your desktop
    1. In Docusign, create a new envelope and set the signing order as follows:
-      - 1 - GitLab France Signatory (sign)
+      - 1 - GitLab France or Spain Signatory (sign)
       - 2 - The candidate (sign)
       - 3 - Alessio Spaggiari (copy)
-   1. Use the TextExpander 'Francesd' in the body of the email in Docusign
+   1. Use the TextExpander ‘StartdateFS’ in the body of the email in Docusign
    1. Request the signatory in the contracts Slack Channel `#contracts-to-sign` to sign the letter
    1. Once the document has been signed, load it onto the candidate's profile in WorkDay
 
@@ -526,7 +525,7 @@ To create the contract:
 1. CXC will inform the Candidate Experience Specialist when the contract is signed.
 1. The Candidate Experience Specialist will mark the candidate as hired.
 1. The CES will adjust the 'Accepted' date to match the 'Sent' date.
-1. The Candidate Experience Specialist will now [mark the candidate as hired]({{< ref "./coordinator#send-contract" >}}). See steps 10-12.
+1. The Candidate Experience Specialist will now [mark the candidate as hired](coordinator/#send-contract). See steps 10-12.
 
 ## Preparing Employment Agreements for GitLab team members employed via Global Upside
 
@@ -595,14 +594,14 @@ To create the contract:
 1. CES will send PEO template and sign once it is received in their inbox.
 1. Once PEO template is signed, CES can upload candidate into the Remote.com platform (see more details instructions on how to do so, below).
 1. Remote will prepare the New Employee Contract and will inform the Candidate Experience Specialist when the contract is sgined.
-1. Once  CES receives confirmation that the candidate has signed the Remote.com contract (can be viewed in portal), they will continue steps as normal - send Welcome Email and [mark the candidate as hired]({{< ref "./coordinator#send-contract" >}}). See steps 10-12.
+1. Once  CES receives confirmation that the candidate has signed the Remote.com contract (can be viewed in portal), they will continue steps as normal - send Welcome Email and [mark the candidate as hired](coordinator/#send-contract). See steps 10-12.
 1. The CES will adjust the 'Accepted' date to match the 'Sent' date.
 
 ## Advance Funds process for locations GitLab can not order laptops
 
 There are a handful of countries, listed [here](/handbook/business-technology/end-user-services/onboarding-access-requests/#new-hire-laptop-ordering-process) where new hires will need to procure their own laptop before their start date.
 
-1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Israel, Brazil, Costa Rica, Chile template.
+1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Brazil, Costa Rica, Chile template.
 1. This email uses a different Google form than the regular Welcome Email. The new hire will be presented with two options and be asked to select their preference:
     - Purchase and expense for reimbursement through NAVAN on their first day at GitLab
     - Request advanced funds to self-procure
@@ -713,7 +712,7 @@ If there are any questions, these should be directed to help@remote.com.
 1. The PEO will inform the Candidate Experience Specialist when the contract is signed.
 1. The Candidate Experience Specialist will mark the candidate as hired.
 1. The CES will adjust the 'Accepted' date to match the 'Sent' date.
-1. The Candidate Experience Specialist will now [mark the candidate as hired]({{< ref "./coordinator#send-contract" >}}). See steps 10-12.
+1. The Candidate Experience Specialist will now [mark the candidate as hired](coordinator/#send-contract). See steps 10-12.
 
 **GitLab & CIIC:**
 

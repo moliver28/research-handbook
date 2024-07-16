@@ -85,7 +85,7 @@ By using these templates, everyone on the team knows where we are at and what co
 
 All operations end with a final report. We use an issue template which is [shared publicly here](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/red-team-issue-templates).
 
-Security risks affect everyone, and it is essential to make our reports approachable and consumable to a broad audience. To achieve this, we make an effort to [use simple language]({{< ref "communication#simple-language" >}}). Our goal is to ensure that anyone in the company can understand the reports, even if they don't have a background in security.
+Security risks affect everyone, and it is essential to make our reports approachable and consumable to a broad audience. To achieve this, we make an effort to [use simple language](/handbook/communication/#simple-language). Our goal is to ensure that anyone in the company can understand the reports, even if they don't have a background in security.
 
 After an operation has concluded, if relevant, we will create a short video summarizing the operation, which should not exceed five minutes. We will also schedule synchronous meetings with our Security Incident Response Team (SIRT) to go over the various attack steps of the operation and review detections and alerts.
 
@@ -140,7 +140,7 @@ We use a combination of GitLab CI pipelines and GitLab Pages to build and host t
 - [MITRE ATT&CK Flow](https://github.com/center-for-threat-informed-defense/attack-flow)
   - [Our internal automation project](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/automation/ci-attack-flow)
   - [Our internal build](https://flow.gl-redteam.com/)
-- [MITRE ATT&CK Navigator](https://github.com/center-for-threat-informed-defense/attack-navigator)
+- [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/)
   - [Our internal automation project](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/automation/ci-attack-navigator)
   - [Our internal build](https://navigator.gl-redteam.com/)
   - [Public blog describing the project](https://about.gitlab.com/blog/2023/08/09/gitlab-mitre-attack-navigator/)

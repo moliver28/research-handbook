@@ -41,7 +41,7 @@ The chart below outlines the user permissions for each role (Producer, Presenter
 | Advance slides | x | x |  |
 | Push poll questions to the audience | x | x |  |
 | Whiteboarding tools | x | x |  |
-| Screenshare | x | x |  |
+| Screen share | x | x |  |
 | Q&A | x | x | x |
 | Team chat | x | x | x |
 
@@ -187,7 +187,7 @@ Click the globe icon in your webcast library or on the chain icon anywhere in an
 The Console Builder is at the heart of creating a custom webcast experience for your audience. The webcast console is what your audience will see when they attend your webcast. We currently have 2 console templates:
 
 1. `Standard event template`, which includes a media player, slides, Q&A, resources, and speaker bio modules
-1. `XL Media Player`, which is a media player with no slides. This template should be used if your presenter prefers to screenshare their slides, as opposed to uploading their deck into a separate module. This console also includes Q&A, resources, and speaker bio modules
+1. `XL Media Player`, which is a media player with no slides. This template should be used if your presenter prefers to screen share their slides, as opposed to uploading their deck into a separate module. This console also includes Q&A, resources, and speaker bio modules
 Note we are sticking to using specific templates for the time being while we build out integrations and test platform capabilities vs team use case.
 
 Follow these steps to apply a console template:
@@ -331,3 +331,7 @@ The On24 Engagement Score is an aggregate of all of the activities that an atten
 ### ON24 FAQ
 
 The campaigns team has started a FAQ document [here](https://docs.google.com/document/d/1UI5EzypN1j6_Gx5xcM8mR2gKFcM9QFxs-OZwkpK0QDU/edit#). *Once it is completed, the text will be added to this page.
+
+### Data Removal Requests
+
+If a user requests we remove their data from On24, email `dsr@on24.com` with the request and On24 will manage the removal.

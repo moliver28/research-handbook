@@ -131,7 +131,7 @@ Please review the **best practices** below:
 
 1. All custom content fields and sub fields are case sensitive - avoid mistakes like `Communication`, `Communications`, `Communicating`
 1. Wherever possible, use existing custom content fields and sub fields as opposed to creating new ones
-1. Review [TI support docs](https://support.thoughtindustries.com/hc/en-us/articles/360046307213-Using-Custom-Fields-vs-Curated-Categories) when questions arise
+1. Review [TI support docs](https://support.thoughtindustries.com/hc/en-us/articles/360045730954-Creating-and-Using-Custom-Content-Typeses) when questions arise
 
 ## Publishing a course for internal team members
 

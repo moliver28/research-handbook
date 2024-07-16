@@ -4,11 +4,11 @@ title: Managing Conflict
 
 ## Managing conflict
 
-In this section we will review the definition of conflict, the different causes of conflict, review different methods for addressing conflict, steps in the conflict process and some do's and dont's of workplace conflict. Conflict in the workplace is inevitable when you have team members of various backgrounds and different work styles all working towards the same goals and [OKRs](/handbook/company/okrs) (Objectives and Key Results). Conflict should never just be avoided, conflict should be managed and resolved. The first step is for the team members that experience conflict to work to address the situation to work towards a resolution. If a resolution is not possible, the manager should then work with the team members and their assigned [People Business Partner](/handbook/people-group/) to help foster a resolution.
+In this section we will review the definition of conflict, the different causes of conflict, review different methods for addressing conflict, steps in the conflict process, and some do's and dont's of workplace conflict. Conflict in the workplace is inevitable when you have team members of various backgrounds and different work styles all working towards the same goals and [OKRs](/handbook/company/okrs) (Objectives and Key Results). Conflict should never just be avoided, conflict should be managed and resolved. The first step is for the team members that experience conflict to work to address the situation to work towards a resolution. If a resolution is not possible, the manager should then work with the team members and their assigned [People Business Partner](/handbook/people-group/) to help foster a resolution.
 
 ## What is conflict?
 
-Conflict is any situation in which your concerns, desires, perceptions, goals or values differ and clash with other team members. Here are a few examples of potential causes of workplace conflict:
+Conflict is any situation in which your concerns, desires, perceptions, goals, or values differ and clash with other team members. Here are a few examples of potential causes of workplace conflict:
 
 - Personality differences
 - Team member behavior is regarded by some as irritating or annoying
@@ -112,7 +112,7 @@ Conflict is *constructive* when it:
 - Causes team members to reassess process or actions
 - Increases team member involvement.
 
-If at any time a manager feels the conflict situation has violated our [values]({{< ref "values" >}}) or code of conduct they should [reach out to the PBP](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group) (People Business Partner). Also, if a manager would like to talk through different conflict situations and approaches your PBP is willing to help you work through the best strategies.
+If at any time a manager feels the conflict situation has violated our [values](/handbook/values/) or code of conduct they should [reach out to the PBP](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group) (People Business Partner). Also, if a manager would like to talk through different conflict situations and approaches your PBP is willing to help you work through the best strategies.
 
 ## Conflict Resolution Competency
 
@@ -130,8 +130,7 @@ Managers need to be well versed in managing and facilitating conflict resolution
 
 If you are interested in learning about conflict and your role as a manager please review the following articles.
 
-- [Do You Handle Conflict like a Rhinocerso or an Ostrich](https://www.salesforce.com/blog/2015/12/how-to-handle-difficult-conversations.html)
-- [Conflict in the Workplace](https://www.workplaceissues.com/arconflict/)
+- [Do You Handle Conflict like a Rhinoceros or an Ostrich](https://keithrosen.com/2015/04/14/do-you-handle-conflict-like-a-rhinoceros-or-an-ostrich/)
 - [How to deal with employees who do not get along](https://www.insperity.com/blog/employees-who-dont-get-along/)
   [How managers should deal with conflict between two employees](https://www.theladders.com/career-advice/how-managers-should-deal-with-conflict-between-two-employees)
 - [5 Conflict Management Skills For Every Manager](https://lattice.com/library/conflict-management-skills-for-every-manager)

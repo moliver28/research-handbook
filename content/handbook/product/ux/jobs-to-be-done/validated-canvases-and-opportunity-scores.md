@@ -12,7 +12,7 @@ For each canvas / job performer we list each outcome statment that received a sc
 
 - Validated by: Ben Leduc-Mills (Create)
 - Quarter Validated: FY24Q4
-- Primary Teams: Create:IDE, Create:Code Creation, Create:Editor Extensions
+- Primary Teams: Create:Remote Development, Create:Code Creation, Create:Editor Extensions
 - [Link to JTBD Canvas](https://www.figma.com/file/FnXu3p8AiDFvtd1p9kFUS7/Create-Stage----Jobs-to-be-done-%2B-Opportunity-Scores?type=whiteboard&node-id=4-2883&t=3h1z6qF7hI9RLAlu-4)
 - [Link to full survey results](https://docs.google.com/spreadsheets/d/10RLF592SrcDDcAjlgXcOBM8eqhWZy1ArJzvd8MTKNNE/edit?usp=sharing)
 

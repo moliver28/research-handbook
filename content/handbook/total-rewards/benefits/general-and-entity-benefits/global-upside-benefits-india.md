@@ -16,10 +16,10 @@ All of the benefits listed below are administered and managed by [Global Upside]
 
 ### Medical Benefits
 
-- Group Mediclaim Policy is arranged through [ICICI Lombard](https://www.icicilombard.com/)
-- [Group Health (Floater) Insurance Policy](https://drive.google.com/file/d/1-LAXZgtEqVmsybJsb5rS4JL3ewspH_4f/view?usp=sharing) which will take care of hospitalization expenses, the coverage provided is available for the team member, their spouse, up to two children, and dependent parents or parent in-laws.  Should additional cover be required this will need to be purchased by the team member in the form of an Individual Policy. This can not be purchased under the Group Mediclaim Policy. See [additional details](https://drive.google.com/file/d/1jLQ34jc6IGIojvaOEk3Y0tspcKpIPEyy/view?usp=sharing) on the policy and definitions.
+- Group Mediclaim Policy is arranged through [ICICI Lombard](https://www.icicilombard.com/) and renews on May 29. 
+- [2024 Group Health (Floater) Insurance Policy](https://drive.google.com/drive/folders/1YHx7lcR1MXdttY8iK6ugypnonr-JemII) which will take care of hospitalization expenses, the coverage provided is available for the team member, their spouse, up to two children, and dependent parents or parent in-laws.  Should additional cover be required this will need to be purchased by the team member in the form of an Individual Policy. This can not be purchased under the Group Mediclaim Policy. See [additional details](https://drive.google.com/file/d/1jLQ34jc6IGIojvaOEk3Y0tspcKpIPEyy/view?usp=sharing) on the policy and definitions.
 - Group Personal Accident policy including accidental death benefit.
-- For additional information on how [Benefits](https://drive.google.com/file/d/1g1CTUGi8p7GzEd4B4uwb5XhJ8L_WBEXL/view?usp=sharing) operate, please check out the documentation on the Google Drive.
+- For additional information on how [2024 Benefits](https://docs.google.com/presentation/d/1dF9vM-tCQy53dKgQM9zgQNppPi6ptR1I/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true) operate, please check out the documentation on the Google Drive.
 
 ### Pension
 

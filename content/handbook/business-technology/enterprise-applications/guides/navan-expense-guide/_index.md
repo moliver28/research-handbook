@@ -29,7 +29,7 @@ Navan Expense is available via Okta. To access the platform:
 
 ![navan-image-20](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/signin.png)
 
-- Add your gitlab email and click `Continue`.
+- Add your GitLab email and click `Continue`.
 
 ![navan-image-21](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/work-email.png)
 
@@ -171,6 +171,11 @@ Users with a United States-issued personal card can link the card to their Navan
 #### Connecting your bank account for reimbursements
 
 Connect your bank account to Navan to receive reimbursements for out-of-pocket expenses. Bank accounts can be linked via [Plaid](https://plaid.com/en-eu/) (US-based bank accounts only) by entering your bank account login credentials. Additionally, US-based bank accounts and accounts based in [countries eligible for direct reimbursement](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/#in-what-countries-are-direct-reimbursements-available) can be linked manually by inputting your bank account information.
+
+- For Canadian bank accounts, the format for routing number is 0XXXYYYYY
+  - add a zero in the beginning for electronic transfers
+  - XXX = last 3 digits institution number
+  - YYYYY = first 5 digits branch/transit number
 
 Please note that you can link only one account at a time. To add a different account for reimbursements, you must first unlink the existing account.
 {: .alert .alert-warning}

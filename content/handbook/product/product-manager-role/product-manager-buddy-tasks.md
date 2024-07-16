@@ -60,7 +60,7 @@ draft: true
     - [Release posts](/handbook/product/product-processes/#writing-release-blog-posts)
         - Important deadlines are having them in review by Technical Writing and PMM two weeks prior to the release and merged 7 days prior to the release.
     - Moving issues that do not finish in the milestone
-        - This is an [https://about.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#milestone-reschedule] to move issues that do not finish in amilestone but it's good to review issues that were not closed in a milestone as it does not move confidential issues.
+        - This is an [https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#milestone-reschedule] to move issues that do not finish in amilestone but it's good to review issues that were not closed in a milestone as it does not move confidential issues.
     - Retrospectives
     - [Direction updates](/handbook/product/product-processes/#managing-your-product-direction)
         - There is no wrong time to update your direction pages when something has changed. The cadence of a release is a great time to schedule it to ensure it is happening regularly though.

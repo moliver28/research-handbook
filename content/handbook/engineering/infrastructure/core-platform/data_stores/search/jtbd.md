@@ -18,4 +18,4 @@ Utilize JTBD and job statements to:
 
 ## Jobs To Be Done
 
-<%= partial("direction/jtbd-list", locals: { stage_key: "Global Search" }) %>
+{{% jtbd "Global Search" %}}

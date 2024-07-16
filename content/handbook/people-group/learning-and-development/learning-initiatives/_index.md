@@ -70,7 +70,7 @@ The L&D team hosted a quarterly newsletter for five quarters for the community.
 
 ## Take Time Out To Learn Campaign
 
-[Focus Friday's]({{< ref "communication#focus-fridays" >}}) are a great benefit at GitLab. We try to schedule minimal meetings on Fridays to catch up on work and grow our skills professionally. Use Focus Fridays to take time out to learn. Team members can work with their manager through a [career development conversation]({{< ref "1-1#career-development-discussion-at-the-1-1" >}}) to determine what skills that want to grow in the future. Aspirations can be documented in an [individual growth plan]({{< ref "career-development#internal-resources" >}}).
+[Focus Friday's](/handbook/communication/#focus-fridays) are a great benefit at GitLab. We try to schedule minimal meetings on Fridays to catch up on work and grow our skills professionally. Use Focus Fridays to take time out to learn. Team members can work with their manager through a [career development conversation]({{< ref "1-1#career-development-discussion-at-the-1-1" >}}) to determine what skills that want to grow in the future. Aspirations can be documented in an [individual growth plan]({{< ref "career-development#internal-resources" >}}).
 
 From there, identify what will be needed to attain the new skills and consider using the [Growth and Development Benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) or [expensing professional development opportunities such as coaching, worskshops, conferencces, self-service learning, etc.](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#types-of-growth-and-development-reimbursements). Block time off your calendar every week or month to devote to learning new skills. Share what you are learning with team members and in the `#learninganddevelopment` slack channel.
 
@@ -159,7 +159,7 @@ This is the list of topics that were covered in FY22.
 - October: Emotional Intelligence
 - November: Gratitude and Recognition
 - December: Resilience and Reflection
-- January: Team Member Wellbeing
+- January: Team Member Well-being
 
 ### FY23 Topic Outline
 

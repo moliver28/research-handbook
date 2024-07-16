@@ -194,12 +194,12 @@ This content is divided into five key competencies for Product Managers.
 
 #### Online courses
 
-- [Continuous Interviewing by Product Talk](https://learn.producttalk.org/p/continuous-interviewing)
+- [Continuous Interviewing by Product Talk](https://learn.producttalk.org/continuous-interviewing)
 
 #### Books
 
-- [Interviewing for Research by Andrew Travers](https://trvrs.co/book/)
-- [Talking to Humans](https://www.amazon.co.uk/Talking-Humans-Success-understanding-customers-ebook/dp/B00NSUEUL4) ([alternate free pdf](https://s3.amazonaws.com/TalkingtoHumans/Talking+to+Humans.pdf))
+- [Interviewing for Research by Andrew Travers](https://www.andrewtravers.co/book/)
+- [Talking to Humans](https://www.amazon.co.uk/Talking-Humans-Success-understanding-customers-ebook/dp/B00NSUEUL4) ([alternate free PDF](https://s3.amazonaws.com/TalkingtoHumans/Talking+to+Humans.pdf))
 - [The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you](https://www.amazon.com/Mom-Test-customers-business-everyone/dp/1492180742)
 - [Interviewing Users: How to Uncover Compelling Insights](https://www.amazon.com/Interviewing-Users-Uncover-Compelling-Insights/dp/193382011X)
 
@@ -268,7 +268,7 @@ This content is divided into five key competencies for Product Managers.
 
 #### Online courses
 
-- [Reforge](https://www.reforge.com/all-programs)
+- [Reforge](https://www.reforge.com/courses)
 
 #### Books
 
@@ -304,7 +304,7 @@ This content is divided into five key competencies for Product Managers.
 - [Steve Krug: Don't Make Me Think](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515)
 - [Sketching User Experiences: The Workbook](https://www.amazon.com/Sketching-User-Experiences-Saul-Greenberg/dp/0123819598)
 - [The User Experience Team of One: A Research and Design Survival Guide](https://www.amazon.com/User-Experience-Team-One-Research/dp/1933820187)
-- [Jeff Gothelf: Lean UX](https://www.amazon.com/Lean-UX-Designing-Great-Products-ebook/dp/B01LYGQ6CH/)
+- [Jeff Gothelf: Lean UX](https://www.amazon.com/Lean-UX-Creating-Great-Products/dp/1098116305/)
 
 <br>
 <br>
@@ -359,7 +359,6 @@ _Please contribute your favorite resources here_
 
 - [The Engineering Manager: The relationship with Product](https://www.theengineeringmanager.com/growth/the-engineering-product-relationship/)
 - [Visha Soni: A Practical Prioritization Approach for Technical Debt](https://productcoalition.com/a-practical-prioritization-approach-for-technical-debt-f1eb31b8e409)
-- [Rajat Harlalka: Why You Should Invest in Relationships With Your Engineering Team](https://www.mindtheproduct.com/why-you-should-invest-in-relationships-with-your-engineering-team/)
 - [PM & EM: Rules of Engagement](https://segment.com/blog/product-manager-engineering-manager-rules-of-engagement/)
 
 #### Deeper dive

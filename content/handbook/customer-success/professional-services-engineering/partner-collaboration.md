@@ -46,7 +46,7 @@ GitLab PS can and should help our partners be successful in delivering services 
 
 ### Implementation Services
 
-- These services almost always involve actually building the infrastructure and configuring the gitlab components so maintaining a customer-free reference for IaC of configuration Automation tends to be harder
+- These services almost always involve actually building the infrastructure and configuring the GitLab components so maintaining a customer-free reference for IaC of configuration Automation tends to be harder
 - [Proliferate](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/implementation/proliferate) can be used by Partners (Indirect) (project based and staff aug).
 - Partners (Direct) TBD
 - As Partners (Indirect) deliver implementation services projects, they can use [Implementation services discovery deck](https://docs.google.com/presentation/d/1K37wr--H2IT9Kv_c9N99UmkGUovAg6iOLmbcRKeKf10/edit)
@@ -171,7 +171,7 @@ Sr. Channel Solutions Manager is responsible for managing the relationship with 
 
 The Partner Scheduling Process is as follows:
 
-1. The Project Coordinator reviews the internal capacity first prior to outsourcing to our partners for project delivery. 
+1. The Project Coordinator reviews the internal capacity first prior to outsourcing to our partners for project delivery.
 2. Once it is determined that we need to have a partner staff a project, the Project Coordinator will tag the partner lead in the partner slack channel with the project information.
 3. After the Project Coordinator works with the partner lead on an agreed project assignment, the Project Coordinator will send the work authorization form for the partner to review and execute via Docusign.
 4. If the Partner Engineer is not vetted, the Project Coordinator will go through the partner vetting process outlined earlier.
@@ -193,9 +193,9 @@ The Consulting subcontracting Prime Partner SOW includes a work authorization fo
 
 ### Time Sheet Submissions
 
-Each week, the Partner will submit their timesheets into our PSA tool by the end of their business day. 
+Each week, the Partner will submit their timesheets into our PSA tool by the end of their business day.
 Timesheets are due on the Friday of each week. It is imparative that all timesheets are submitted into the PSA tool weekly by the deadline!
-Month end deadlines for timesheet submissions are posted in the partner slack channels at month end. Reminders are submitted mid-month as we lead up to the month-end deadline. 
+Month end deadlines for timesheet submissions are posted in the partner slack channels at month end. Reminders are submitted mid-month as we lead up to the month-end deadline.
 Here are details for [time tracking and submission of timesheets](/handbook.gitlab.com/handbook/customer-success/professional-services-engineering/professional-services-operations/#time-tracking)
 
 **Partner Monthly Invoicing**

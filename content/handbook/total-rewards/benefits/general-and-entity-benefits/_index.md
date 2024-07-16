@@ -39,7 +39,7 @@ Our contractor agreements and employment contracts are all on the [Employment Co
 
 ## Spending Company Money
 
-GitLab will [pay for the items you need to get your job done](https://about.gitlab.com/handbook/spending-company-money).
+GitLab will [pay for the items you need to get your job done](/handbook/spending-company-money).
 
 ## Equity Compensation
 
@@ -52,12 +52,20 @@ In the unfortunate event that a GitLab team member passes away, GitLab will prov
 - This benefit is not applicable if there is a separate life insurance policy as part of the [Entity Specific Benefits](#entity-benefits) package.
 - For all other GitLab team members, the following conditions apply:
   - The team member must be either an employee or direct contractor.
-  - The team member must have indicated in writing to whom the money should be transferred. To do this you must complete the [Expression of wishes](https://docs.google.com/document/d/19p4IN-msvs4H10teBessfPx-1wu8J7Vs67Es8iVLlL8/edit?usp=sharing) form. To do this, first copy the template to your Google Drive (File -> Make a copy), enter your information, sign electronically. To sign the document, use a free document signing program like [smallpdf](https://smallpdf.com/sign-pdf); or you can print it, sign and digitize. Sign, save as a pdf and upload to your Documents folder in Workday - [here](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit) is the job aid for quick reference.
+  - The team member must have indicated in writing to whom the money should be transferred. To do this you must complete the [Expression of wishes](https://docs.google.com/document/d/19p4IN-msvs4H10teBessfPx-1wu8J7Vs67Es8iVLlL8/edit?usp=sharing) form. To do this:
+    - Copy the template to your Google Drive (File -> Make a copy), enter your information.
+    - Export to PDF (File > Download > PDF Document (.pdf)).
+    - To sign the document, you can use one of the following methods:
+      - Print it, sign and digitize.
+      - In macOS, use the native Preview app.
+      - In Linux, use the Xournal app's pen tool to draw the signature.
+      - Use a free document signing program like [smallpdf](https://smallpdf.com/sign-pdf); Please beware that there are always security concerns with tools that require uploading personal data. So, you may want to do this as a last resort only.
+    - Upload to your Documents folder in Workday - [here](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit) is the job aid for quick reference.
   - For part-time GitLab team members, the lump sum is calculated pro-rata, so for example for a team member that works for GitLab 50% of the time, the lump sum would be [$10,000]({{< ref "compensation#exchange-rates" >}}).
 
-## Discount Wellbeing Platform
+## Discount Well-being Platform
 
-Starting 2024, GitLab has partnered with HealthKick, a global wellbeing platform providing Team Members discounts across wellbeing, fitness, & overall lifestyle offerings/services.
+Starting 2024, GitLab has partnered with HealthKick, a global well-being platform providing Team Members discounts across well-being, fitness, & overall lifestyle offerings/services.
 
 - *This program is offered at no cost for team members.
 
@@ -247,15 +255,17 @@ Additionally, effective Q1 FY22, commissioned roles are eligible to receive quot
 
 In all cases, quota relief is calculated based on the per-month quotas set for a team member in a role at the beginning of the fiscal year, which generally are not equal to 1/12 of annual quota per month, due to businss seasonality.
 
-### Commission Payments on Non-Parental Leave
-
-Effective Q1 FY25, team members on leave for 30 days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave. Commissions will be paid based on the 6 prior months of performance with a cap at 100% of plan. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy.
-
-For Solution Architects and Sales Management and Customer Success Management, payment will be calculated for individuals using actual team performance while on leave for the first five weeks of non-parental leave. These roles will not be eligible for quota relief during parental leave.
+For Solution Architects and Sales Management and Customer Success Management, payment will be calculated for individuals using actual team performance. These roles will not be eligible for quota relief during parental leave.
 
 For Sales roles with a utilization attainment, like the [Professional Services Engineer](/handbook/customer-success/professional-services-engineering/#team-metrics), since the utilization attainment is based on delivering above 70% of available billable hours, we apply the baseline attainment linked to utilization attainment. At the end of 90 continuous days of parental or medical leave, a one time payment of the 50% billable utilization attainment will be paid. Utilization payout during parental or medical leave is not based on prior individual performance, since projects identified for billable utilization are based on sales engagements and services attached, and not determined by individual performance.
 
 On the day you return from leave, the utilization payout returns to the established utilization attainment ranges.
+
+### Commission Payments on Non-Parental Leave
+
+Effective Q1 FY25, team members on leave for 30 days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave. Commissions will be paid based on the 6 prior months of performance with a cap at 100% of plan. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy. 
+
+For Solution Architects and Sales Management and Customer Success Management, payment will be calculated for individuals using actual team performance for the first five weeks of non-parental leave. These roles will not be eligible for quota relief during non-parental leave. 
 
 #### Quota Relief While On Non-Parental Leave
 
@@ -302,9 +312,9 @@ GitLab team members compiled tips in a four-part blog series, linked below, look
 1. [How to make your home a space that works with kids](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home/)
 1. [5 Things to keep in mind while working remotely with kids](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four/)
 
-Tips from GitLab team members are the greater community are below, as well as how each aligns with at least one of [GitLab's values]({{< ref "values" >}}).
+Tips from GitLab team members are the greater community are below, as well as how each aligns with at least one of [GitLab's values](/handbook/values/).
 
-> What has worked for me is to integrate GitLab into my life, and not the other way around. I set very clear boundaries in my calendar of when is work time and when is family time. Per GitLab's [recommendation]({{< ref "communication#google-calendar" >}}), my calendar is viewable by anyone and clearly has time for: `kids test prep`, `visual therapy for one`, `judo pick-up` and other appointments I have outside of work. This prevents team members from scheduling over these instances.
+> What has worked for me is to integrate GitLab into my life, and not the other way around. I set very clear boundaries in my calendar of when is work time and when is family time. Per GitLab's [recommendation](/handbook/communication/#google-calendar), my calendar is viewable by anyone and clearly has time for: `kids test prep`, `visual therapy for one`, `judo pick-up` and other appointments I have outside of work. This prevents team members from scheduling over these instances.
 >
 > If someone *does* schedule over family time or personal time, I feel confident to decline, unless it is very urgent and I'm blocking it (I always suggest a new time first, before using family time for a meeting). I am also inclined to say that if folks keep scheduling outside of your work time, to make sure you [respond back and highlight that](/handbook/values/#transparency), and check if you can find an alternative time that works for both of you. — [*Nadia V.*](https://gitlab.com/Vatalidis)
 

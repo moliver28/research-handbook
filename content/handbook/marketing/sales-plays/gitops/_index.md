@@ -305,7 +305,7 @@ Here are a few recommended email templates you can use based on the stage of the
 
 GitLab Professional Services help customers become efficient in GitLab quickly. GitLab (or a GitLab partner) offers a number of service offerings to support customers.
 
-For the GitOps sales play, consider asking your customer about their workforce's proficiency with git, GitLab, and GitLab CI as they are foundational elements to GitOps. If they are not strong in all of these topics, consider positioning [GitLab with git Basics training](https://about.gitlab.com/services/education/gitlab-basics/) and/or [GitLab CI/CD training](https://about.gitlab.com/services/education/gitlab-ci/).
+For the GitOps sales play, consider asking your customer about their workforce's proficiency with git, GitLab, and GitLab CI as they are foundational elements to GitOps. If they are not strong in all of these topics, consider positioning [GitLab with git Basics training](https://university.gitlab.com/pages/gitlab-fundamentals-training) and/or [GitLab CI/CD training](https://about.gitlab.com/services/education/gitlab-ci/).
 
 Advisory/Consulting services to help with GitOps rollout are planned to be rolled out later this year. Please register your interest for a GitOps Advisory offering [here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-practice-management/-/issues/74) to help PS effectively prioritize!
 
@@ -326,7 +326,7 @@ Talk with @em in the [professional services slack channel](/handbook/customer-su
 - [Nebulaworks](https://learn.gitlab.com/gitops-gtm-all/nebulaworks?lx=AZeFEd)
 - [SURF](https://learn.gitlab.com/gitops-gtm-all/surf?lx=AZeFEd)
 - [kiwi.com](https://learn.gitlab.com/gitops-gtm-all/flying-base-native-clouds?lx=AZeFEd)
-- [VMware](https://learn.gitlab.com/gitops-gtm-all/infrastructure-code-iac-terraform-cloud?lx=AZeFEd)
+- [VMWare](https://learn.gitlab.com/gitops-gtm-all/infrastructure-code-iac-terraform-cloud?lx=AZeFEd)
 - [ValidaTek](https://learn.gitlab.com/gitops-gtm-all/valida-tek-iac?lx=AZeFEd)
 And many more [here](https://learn.gitlab.com/l/gitops-gtm-content)
 

@@ -11,7 +11,7 @@ US Government Support has a number of engineers with [verified US Citizenship](#
 After 7 days of a case being in the `pending` state an automation will run that puts the case back into an `open` state. This allows for the agent to either [follow up with the user](#following-up) on the requested actions or move the case to a `solved` state if they believe the issue in the case is resolved.
 
 There are events where customers will request to re-assign a Zendesk case to a co-worker. We handle this using the `Change` option at the top of the ticket by the respondents email.
-The context for this flow is because [CCs are disabled](https://about.gitlab.com/support/us-federal-support/#ccs-are-disabled).
+The context for this flow is because [CCs are disabled](https://about.gitlab.com/support/us-government-support/#ccs-are-disabled).
 
 ## Access limited to US Citizens
 
@@ -26,7 +26,7 @@ For any assistance with log review or confidential information within a ticket i
 Government tickets can be linked publicly, such as in an issue or merge request as the link itself does not reveal any information, just avoid naming the link with any identifiable information. For
     example: `[US Government Internal Ticket](<ticket_link>)`.
 
-When pairing over video chat, be sure you only pair with engineers that have access to the US Government instance and avoid screensharing content from the US Government Support Instance, logs, or other information that is required to be kept confidential.
+When pairing over video chat, be sure you only pair with engineers that have access to the US Government instance and avoid screen sharing content from the US Government Support Instance, logs, or other information that is required to be kept confidential.
 
 When providing links to documentation, it's possible an organization's mail server may strip embedded links prior to delivering the ticket update to the receiver. In order to continue to provide our documentation to customers, consider using an identifier in the reply body, then "footnotes" towards the end of the ticket. For example:
 
@@ -113,7 +113,7 @@ Once the ticket has been marked as solved, the support ops bot will automaticall
 
 ## Checking for access
 
-When discussing cases or issues with others in GitLab it may be difficult to ensure they meet the [access requirements](#access-limited-to-us-citizens) to be allowed to receive confidential or sensitive information via chat, screenshare, or call. The single source of truth is whether or not that person has a US Government Zendesk account, this can be either full or light agent access. The individuals with access have been confirmed by people-ops to be allowed access to this information. The support-ops team has built a handy tool for team members to check whether a person has access to US Government Zendesk. The tool can be accessed by GitLab team members via [this link](https://gitlab-com.gitlab.io/support/support-ops/zendesk-us-federal-project/) please note that it updates weekly on Sundays at 00:00 UTC. If you need verification for someone who was added more recently you can always ask a US Government Support Manager or Support-Ops Manager to validate. If you are not able to find a person's name in this tool the user should be considered ineligible to access the instance and you should refer to the [Communication Guidelines](#communication-guidelines) for steps on how to proceed.
+When discussing cases or issues with others in GitLab it may be difficult to ensure they meet the [access requirements](#access-limited-to-us-citizens) to be allowed to receive confidential or sensitive information via chat, screen share, or call. The single source of truth is whether or not that person has a US Government Zendesk account, this can be either full or light agent access. The individuals with access have been confirmed by people-ops to be allowed access to this information. The support-ops team has built a handy tool for team members to check whether a person has access to US Government Zendesk. The tool can be accessed by GitLab team members via [this link](https://gitlab-com.gitlab.io/support/support-ops/zendesk-us-federal-project/) please note that it updates weekly on Sundays at 00:00 UTC. If you need verification for someone who was added more recently you can always ask a US Government Support Manager or Support-Ops Manager to validate. If you are not able to find a person's name in this tool the user should be considered ineligible to access the instance and you should refer to the [Communication Guidelines](#communication-guidelines) for steps on how to proceed.
 
 ## US Government Support Discovery Calls
 

@@ -11,7 +11,7 @@ The password standard sets the requirements for constructing secure passwords an
 
 1Password is a password manager that can be used in two different ways - as a standalone application (by purchasing a standalone license) or as a hosted service (by subscribing). GitLab uses 1Password for Business which is a hosted service.
 
-**Important:** Any personal Passwords stored in your GitLab vault will be inaccessible upon separation with GitLab. Please use the complimentry 1Passsword Families membership subscription that comes with your business account to store any personal passwords. This account will stay with you even in the event that you stop working with GitLab.
+**Important:** Any personal Passwords stored in your GitLab vault will be inaccessible upon separation with GitLab. Please use the complimentary 1Passsword Families membership subscription that comes with your business account to store any personal passwords. This account will stay with you even in the event that you stop working with GitLab.
  For more information on how to redeem your free subscription, please follow the steps outlined in [this article](https://support.1password.com/link-family/).
 
 Ideally you memorize one strong password - hence the name - and let 1Password generate and manage strong, unique passwords
@@ -66,7 +66,7 @@ users about password breaches and other security problems on the websites they
 have saved in 1Password Teams, so users can take action. This is not something
 account administrators can review for team members, so it is up to you to enable!
 Enable Watchtower by going to your 1Password app and then to **Preferences > Watchtower**.
-1. Use the ["Security Audit"](https://i.agilebits.com/dt/Blank_Skitch_Document_18FB0234.png)
+1. Use the "Security Audit"
 functionality of 1Password to meet the [password standard](password-standard.md).
 It will report reused passwords, weak passwords, accounts that
 are missing 2-factor authorization, and so forth that can then be fixed.
@@ -144,7 +144,7 @@ may have access to others.
 #### Shared Vault Etiquette
 
 1. In general, 1Password items should be self-documenting. This is especially important for items in team vaults such as those to which a team member gains access once part of the GitLab team or they are granted access via their baseline entitlements issue. Always make sure the `title`, `username`, and `notes` fields are meaningful.
-1. Deleting items is fine as they are kept in the "recently deleted" tab indefinetely. It's also fine to leave them in their respective vault but delete the account on the system associated with the item. In the second case, and in order to prevent confusing team members, edit the title (e.g. `[Deleted on 2024-02-14]`) to reflect the purposeful deletion of the account and explain briefly who and why removed it in the notes.
+1. Deleting items is fine as they are kept in the "recently deleted" tab indefinitely. It's also fine to leave them in their respective vault but delete the account on the system associated with the item. In the second case, and in order to prevent confusing team members, edit the title (e.g. `[Deleted on 2024-02-14]`) to reflect the purposeful deletion of the account and explain briefly who and why removed it in the notes.
 
 #### Vaults
 
@@ -236,7 +236,7 @@ Example for configuring [glab](https://gitlab.com/gitlab-org/cli) with 1Password
 The environment variable name goes before the equals sign, and the path to the secret in 1Password goes after.
 You can store multiple variable secret pairs per file when you need to use
 secrets together.
-The paths can be obtained by viewing the credential in th 1Password GUI, clicking the dropdown menu and selecting "Copy Secret Reference".
+The paths can be obtained by viewing the credential in the 1Password GUI, clicking the dropdown menu and selecting "Copy Secret Reference".
 
 ```sh
 ## format is op://vault-name/item-name/[section-name/]field-name

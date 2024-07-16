@@ -56,7 +56,7 @@ If the [Customer Collaboration Project](/handbook/customer-success/csm/customer-
 
 **The AM ID should therefore be**: 17735787 and finally point to https://gitlab.com/<collaboration_project_url>
 
-**Ref. of handbook**: https://about.gitlab.com/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project
+**Ref. of handbook**: https://handbook.gitlab.com/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project
 
 ---
 

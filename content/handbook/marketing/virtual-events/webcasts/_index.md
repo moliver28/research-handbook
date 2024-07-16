@@ -188,7 +188,7 @@ Partner webcasts are managed and moderated by Partner Marketing, working closely
   * *Slide Deck and Unlisted YouTube video of the webcast*
   * *A call-to-action for a 30-day trial, any other relevant joint partner collateral (gated or not), and/or an applicable Path Factory*
   * *Follow up emails should be sent 24-48 hours post webcast*
-* Work with the Campaign Manager on the [conversion of the on-demand page post webcast](https://about.gitlab.co/handbook/marketing/virtual-events/webcasts/#converting-the-webcast-to-an-on-demand-gated-asset---zoom)
+* Work with the Campaign Manager on the [conversion of the on-demand page post webcast](/handbook/marketing/virtual-events/webcasts/#converting-the-webcast-to-an-on-demand-gated-asset---zoom)
 * If we are sharing leads with the partner, partner marketing works with Campaign Manager and Marketing Ops to share the leads.
 
 **Step 5: Reporting**
@@ -533,7 +533,7 @@ If additional assistance is required, please comment in the [#marketing_programs
 
 {: #zoom-multiple-timeslots} <!-- DO NOT CHANGE THIS ANCHOR -->
 
-:exclamation: **Note from @jgragnola: let's see if we can simplify and remove the "multiple timeslot webcast" section so that there is just instruction on updating the form (or create a new program template in Marketo)**
+:exclamation: **Note from @aoetama: let's see if we can simplify and remove the "multiple timeslot webcast" section so that there is just instruction on updating the form (or create a new program template in Marketo)**
 
 Note: These instructions are for a single webcast with multiple timeslots and the person can only register for one time. If you would like instructions for a single landing page for a webcast series of different topics, see `Scheduling a multi-webcast series - Single landing page` below.
 
@@ -648,7 +648,7 @@ If you have 3 webcasts, you will have 3 Zoom webcasts and 3 Marketo programs. Ti
 
 {: #zoom-webcast-invites} <!-- DO NOT CHANGE THIS ANCHOR -->
 
-:exclamation: **Note from @jgragnola: we are working on further templatizing these invitations so that copy changes are not needed and tokens take care of these emails.** ([issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/3422))
+:exclamation: **Note from @aoetama: we are working on further templatizing these invitations so that copy changes are not needed and tokens take care of these emails.** ([issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/3422))
 
 1. Update emails `invitation 1 - 2 weeks prior`,  `invitation 2 - 1 week prior` , and if needed `invitation 3 - Day before` with relevant copies related to the webcast. *Note: We normally use the same copy for all 3 emails and simply tweaked the templated subject lines to sound more like "Reminders".*
 2. Approve copy and send samples to the requestor, and the presenter (if different from requestor).
@@ -665,7 +665,7 @@ If you have 3 webcasts, you will have 3 Zoom webcasts and 3 Marketo programs. Ti
 
 {: #zoom-testing} <!-- DO NOT CHANGE THIS ANCHOR -->
 
-1. Submit a test lead using your gitlab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email from zoom.
+1. Submit a test lead using your GitLab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email from zoom.
 
 ### After the LIVE webcast - Zoom
 
@@ -769,7 +769,7 @@ In the event you need to change the date of your webcast, please follow the step
 5. Leave a comment on the epic stating the event has been rescheduled and tag all internal panelists and hosts.
 6. If webcast is on the Events Page, [submit MR](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) to change the date.
 7. Go to marketo, send a webcast reschedule email to all registrants, telling them they will be receiving a new email with the new join link from zoom shortly (this will be covered in step 11). See example reschedule email [here](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit#bookmark=id.eqjyly5at0fb).
-8. Create a new zoom program with the new webcast date/time following the steps outlined in [the section above](https://about.gitlab.comhandbook/marketing/virtual-events/webcasts/#step-1-configure-zoom).
+8. Create a new zoom program with the new webcast date/time following the steps outlined in [the section above](/handbook/marketing/virtual-events/webcasts/#step-1-configure-zoom).
 9. Create a new marketo program with the new webcast date/time following the steps outlined in [the section above](/handbook/marketing/virtual-events/webcasts/#step-2-set-up-the-webcast-in-marketosfdc-and-integrate-to-webex) minus the create new campaign in SFDC step since we will be syncing to the existing SFDC program in a later step (step 14).
 10. Move the landing page from the Marketo program with old webcast date/time to the newly created marketo program with new webcast date/time.
 11. Move the registrants from the Marketo program with old webcast date/time to the newly created marketo program with new webcast date/time by running a one time bulk update on the `(Optional: for rescheduled webcast only) Import registrants from old program` smart campaign. Doing this will also re-trigger the confirmation email to existing registrants.
@@ -809,11 +809,11 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 * [ON24 Webcast Login Portal](https://wcc.on24.com/webcast/login)
 * [ON24 Knowledge Centre](https://on24support.force.com/Support/s/knowledge)
 
-### Types of ON24 Webcasts
+### ON24 Event Types
 
 {: #on24-types} <!-- DO NOT CHANGE THIS ANCHOR -->
 
-* **ON24 Live (with Screen Share):** traditional live webcast with live speakers and Q&A.
+* **Live Video (Video and audio with screen share):** traditional live webinar with speakers and Q&A.
   * Pre-event registration takes place
   * The event automatically converts to on-demand upon completion
 * **ON24 Live Audio (no Screen Share):** multiple presenters can present a live webcast using the telephone. Presenters will dial into the ON24 presenter phone bridge for the live event. Live screen share is not available with this event type.
@@ -1089,7 +1089,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 {: #on24-webpage-listings} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * To add the webcast to the /events/ page follow this [step by step guide](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents).
-* To add the webcast to the /resources/ page follow this [step by step guide](/https://about.gitlab.com/handbook/marketing/demand-generation/campaigns/content-in-campaigns/#add-to-resources-page).
+* To add the webcast to the /resources/ page follow this [step by step guide](/https://handbook.gitlab.com/handbook/marketing/demand-generation/campaigns/content-in-campaigns/#add-to-resources-page).
 
 ### ON24 Webcast Testings / QA
 
@@ -1386,7 +1386,7 @@ If additional assistance is required, please comment in the [#marketing_programs
 
 ### Webcast invitation - WebEx
 
-:exclamation: **Note from @jgragnola: we are working on further templatizing these invitations so that copy changes are not needed and tokens take care of these emails.** ([issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/3422))
+:exclamation: **Note from @aoetama: we are working on further templatizing these invitations so that copy changes are not needed and tokens take care of these emails.** ([issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/3422))
 
 1. Update emails `invitation 1 - 2 weeks prior`,  `invitation 2 - 1 week prior` , and if needed `invitation 3 - Day before` with relevant copies related to the webcast. *Note: We normally use the same copy for all 3 emails and simply tweaked the templated subject lines to sound more like "Reminders".*
 2. Update email `Registration Confirmation`, and if desired `Reminder 1` , and  `Reminder 3` with relevant copies related to the webcast. *Note: We normally use the same copy for all 3 emails and simply tweaked the templated subject lines to sound more like "Reminders".*
@@ -1400,7 +1400,7 @@ If additional assistance is required, please comment in the [#marketing_programs
 
 ### Step 5: Test your set up
 
-1. Submit a test lead using your gitlab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email. *Check and test the registration confirmation email. Do not forget to update the `Add to calendar` token and the email values for the Google calendar in the Registration Confirmation, Reminder 1 and Reminder 2.*
+1. Submit a test lead using your GitLab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email. *Check and test the registration confirmation email. Do not forget to update the `Add to calendar` token and the email values for the Google calendar in the Registration Confirmation, Reminder 1 and Reminder 2.*
 
 ### Live Webcasts - ON24
 

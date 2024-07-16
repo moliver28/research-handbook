@@ -13,13 +13,13 @@ The Product Backlog is essentially the project's To-Do list, or requirements rep
 
 All items that are deemed in scope for the project, regardless of level of detail, are in the Product Backlog, and they are ordered, not just prioritized – meaning the one on top is more important than the one in 5th position, which is more important than the one in 23rd position. Order is decided by the Program Manager / Product Manager and usually driven by business value – in consultation with the Customer Development Team.
 
-![Example Backlog](./Backlog.png)
+![Example Backlog](Backlog.png)
 
 What is known of the projects scope, is written down and documented in the form of user stories, with the expectation that discovery will lead to change. The Product Backlog is a living repository and is owned by the Program Manager / Project Manager.
 
 The Product Backlog is the source for the Sprint Backlog. Whereas the Product Backlog represents the requirements repository for the project / engagement, the Sprint Backlog is the agreed upon scope for the next upcoming sprint and as such represents the GitLab Implementation and Customer Development Team's deliverable commitment. The GitLab Implementation Team does not operate in a vacuum, it close coordinates priorities with the Customer Development Team.
 
-![Iteration Cycle](./IterationCycle.jpg)
+![Iteration Cycle](IterationCycle.jpg)
 
 Once agreed upon and committed to, the Sprint Backlog usually does not change in order to ensure the GitLab Implementation Team and the Customer Development Team can deliver against their commitment.
 

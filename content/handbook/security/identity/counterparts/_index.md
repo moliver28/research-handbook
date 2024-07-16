@@ -33,7 +33,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - disla
   gitlab_saas_tag: '@gitlab-com/it/compliance'
   slack_channel: '#it_help'
-  handbook_page: 'https://about.gitlab.com/handbook/business-technology/it-compliance/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/business-technology/it-compliance/'
   issue_tracker: 'https://gitlab.com/gitlab-com/business-technology/change-management/-/issues'
 - it_ops_leader:
   team_name: 'IT Ops Leadership'
@@ -57,7 +57,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - malkobaisy
   gitlab_saas_tag: '@gitlab-com/it/security @gitlab-com/it/engops'
   slack_channel: '#it_security_help'
-  handbook_page: 'https://about.gitlab.com/handbook/business-technology/it/security/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/business-technology/it/security/'
   issue_tracker: 'https://gitlab.com/gitlab-com/it/security/issue-tracker/-/issues'
 - infra_platforms_leader:
   team_name: 'Infrastructure SaaS Platforms Leadership'
@@ -68,7 +68,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - marin
   gitlab_saas_group_tag: '@marin'
   slack_channel: '#s_platforms'
-  handbook_page: 'https://about.gitlab.com/handbook/engineering/infrastructure/platforms/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues'
 - infra_foundations:
   team_name: 'Production Engineering Foundations'
@@ -79,7 +79,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - sabrams
   gitlab_saas_tag: '@sabrams'
   slack_channel: '#g_infra_foundations'
-  handbook_page: 'https://about.gitlab.com/handbook/engineering/infrastructure/team/reliability/foundations.html'
+  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure/team/reliability/foundations.html'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues'
 - infra_ops:
   team_name: 'Production Engineering Ops'
@@ -90,7 +90,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - glopezfernandez
   gitlab_saas_tag: '@glopezfernandez'
   slack_channel: 'g_infra_general'
-  handbook_page: 'https://about.gitlab.com/handbook/engineering/infrastructure/team/reliability/general.html'
+  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure/team/reliability/general.html'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues'
 - infra_scalability_leader:
   team_name: 'Scalability Leadership'
@@ -101,7 +101,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - rnienaber
   gitlab_saas_tag: '@rnienaber'
   slack_channel: '#g_scalability'
-  handbook_page: 'https://about.gitlab.com/handbook/engineering/infrastructure/team/scalability/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure/team/scalability/'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues'
 - infra_observability:
   team_name: 'Scalability Observability'
@@ -111,7 +111,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
   counterpart: 'lmcandrew'
   gitlab_saas_tag: '@lmcandrew'
   slack_channel: '#g_scalability'
-  handbook_page: 'https://about.gitlab.com/handbook/engineering/infrastructure/team/scalability/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure/team/scalability/'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues'
 - infra_practices:
   team_name: 'Scalability Practices'
@@ -122,7 +122,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - kwanyangu
   gitlab_saas_tag: '@kwanyangu'
   slack_channel: '#g_scalability'
-  handbook_page: 'https://about.gitlab.com/handbook/engineering/infrastructure/team/scalability/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure/team/scalability/'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues'
 - infra_deployment:
   team_name: 'Delivery Deployment System'
@@ -133,7 +133,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - dsmith
   gitlab_saas_tag: '@dawsmith'
   slack_channel: '#g_delivery'
-  handbook_page: 'https://about.gitlab.com/handbook/engineering/infrastructure/team/delivery/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure/team/delivery/'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues'
 - infra_orchestration:
   team_name: 'Delivery Release Orchestration'
@@ -144,7 +144,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - mbursi
   gitlab_saas_tag: '@mbursi'
   slack_channel: '#g_delivery'
-  handbook_page: 'https://about.gitlab.com/handbook/engineering/infrastructure/team/delivery/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure/team/delivery/'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues'
 - infra_dedicated_general:
   team_name: 'Dedicated Leadership'
@@ -155,7 +155,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - aphillips
   gitlab_saas_tag: '@aphillips'
   slack_channel: '#g_dedicated-team'
-  handbook_page: 'https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues'
 - infra_dedicated_env_automation:
   team_name: 'Dedicated Environment Automation'
@@ -166,7 +166,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - olluch
   gitlab_saas_tag: '@o-lluch @gitlab-dedicated/environment-automation'
   slack_channel: '#g_dedicated-team'
-  handbook_page: 'https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues'
 - infra_dedicated_switchboard:
   team_name: 'Dedicated Switchboard'
@@ -177,7 +177,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - ashiel
   gitlab_saas_tag: '@ashiel'
   slack_channel: '#g_dedicated-switchboard-team'
-  handbook_page: 'https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues'
 - infra_dedicated_switchboard:
   team_name: 'Dedicated US Public Sector Services'
@@ -187,7 +187,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
   counterpart: sdumesnil
   gitlab_saas_tag: '@sdumesnil'
   slack_channel: '#g_dedicated-us-pubsec'
-  handbook_page: 'https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services/'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues'
 - people_ops_technology:
   team_name: 'People Ops Technology and Tools'

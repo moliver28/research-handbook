@@ -14,9 +14,9 @@ title: Engineers
 
 {{< team-by-manager-role "Backend Engineering Manager(.*)Create:Code Review" >}}
 
-#### Create:IDE
+#### Create:Remote Development
 
-{{< team-by-manager-role role="Engineering Manager(.*)Create:Knowledge & Create:IDE" team="Create:IDE" >}}
+{{< team-by-manager-role role="Engineering Manager(.*)Create:Knowledge & Create:Remote Development" team="Create:Remote Development" >}}
 
 #### Create:Source Code Frontend
 

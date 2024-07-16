@@ -1,6 +1,5 @@
 ---
 title: "Observation Creation Procedure"
-controlled_document: true
 ---
 
 ## Purpose

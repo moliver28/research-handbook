@@ -136,7 +136,7 @@ With SWA, you may need to enter your username and password upon the first use of
 
 To change your password for a specific application, hover your mouse over the app's icon. Click the gear to go to settings, which should open a menu that gives you the option to change your password for that specific application.
 
-If you are not able to update the username and password, contact GitLab Okta support or the ITOps team.
+If you are not able to update the username and password, contact GitLab Okta support or the IT Ops team.
 Can I be confident my password is safe?
 Yes, nobody (including GitLab administrators or IT support) have access or visibility into your password data.
 

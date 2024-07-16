@@ -164,7 +164,7 @@ The Senior Manager, Global Sales Development Operations is a [grade 9](/handbook
 
 ### Director, Global Sales Development Operations
 
-The Director, Sales Development Operations reports to the AVP of Sales Development.
+The Director, Sales Development Operations reports to the VP of Sales Development.
 
 #### Director, Global Sales Development Operations Job Grade
 
@@ -206,6 +206,31 @@ The Director, Sales Development Operations is a [grade 10](/handbook/total-rewar
 - Ability to understand the nuances required to lead effective outbound campaigns
 - Leadership at GitLab
 - Ability to use GitLab
+
+### Senior Director, Global Sales Development Operations
+
+The Senior Director, Sales Development Operations reports to the VP of Sales Development.
+
+#### Senior Director, Global Sales Development Operations Job Grade
+
+The Senior Director, Sales Development Operations is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Senior Director, Global Sales Development Operations Responsibilities
+
+- Extends that of the Director  Global Sales Development Operations responsibilities
+- Leads the SDR (inbound) Team Globally
+- Ensures we efficiently and effectively qualify inbound demand, follow our SLAs and respect our KPIs Defines success metrics for SDR team and works with cross functional partners to ensure the team is exceeding their goals
+- Plans, forecasts, and understands ramp adjusted capacity to ensure the team is grown effectively, in tandem with the needs of our sales organization and the supply of inbound demand from marketing
+- Manages SDR headcount plan for optimized capacity and productivity, ensuring our talent and organizational design strategy is aligned to our business strategy
+- Recruit, onboard, coach and develop top talent towards career development and advancement within the SDR function 
+- Identifies and champions new technologies with the SDR teams to optimize sales development in the world of Artificial Intelligence
+
+#### Senior Director, Global Sales Development Operations Requirements
+
+- Extends that of the Director, Global Sales Development Operations requirements
+- Ability to build POCs with new technology vendors
+- Partners cross functionally with MOPS, Procurement and Legal teams to ensure compliance when selecting new vendors
+- Proven experience driving and managing change initiatives at the enterprise level aligning business practices or processes aligned to the scale of the organization
 
 ## Performance Indicators
 

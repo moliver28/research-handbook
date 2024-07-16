@@ -3,7 +3,7 @@ title: "Professional Services Project Management"
 description: "Learn about the processes that the GitLab Project Management team uses to deliver successful engagements with Customers."
 ---
 
-Customer success = GitLab product implementation, on time, on budget delivery of agreed upon scope, faster time to value that leads to satisfied customers that see the added value of Gitlab products and PS
+Customer success = GitLab product implementation, on time, on budget delivery of agreed upon scope, faster time to value that leads to satisfied customers that see the added value of GitLab products and PS
 
 ![<PS Delivery Customer Journey Flow - Page 1 (10).png>](<PS Delivery Customer Journey Flow - Page 1 (11).png>)
 
@@ -36,8 +36,19 @@ Given the close collaboration between the PS Project Management and PS Operation
    * Create a blank project under your new subgroup with SOW-<sow_number>
    * Add epics for each activity including labels: "PM::name" "PSD Workflow::Not Started" "SOW-00". Issues will be created at a later stage by the technical team under the right epic
 
-1. The PM to ensure the communiation plan, delivery methodology, scope definitions, time, and budget are aligned as we head into Delivery
-   * _add Methodology steps_
+1. The PM to ensure the communiation plan, delivery methodology, scope definitions, time, and budget are aligned as we head into Delivery. All professional services engagements that are successful essentially follow 11 steps, regardless of specific customer framework, process, or SDLC flavor involved. The steps are:
+
+* Identify, document, and conduct an engagement strategy based on the specific customer situation
+* Build awareness and excitement at all levels - regularly communicate status to all relevant parties: executives, buyers, stakeholders
+* Identify MVP pilot project(s) - we always utilize one or more MVPs to prove out our engagement strategy
+* Train the customer development team(s)
+* Develop product backlog and estimates for the engagement
+* Run iterations / sprints producing incremental value
+* Identify metrics - make data centric decisions
+* Gather feedback and improve – adjust the process
+* Mature - Delivery Kits, Runbooks, Tooling
+* Scale across other teams, programs, portfolios - scale in waves
+* Regularly Assess and Refine
 
 #### For Consulting Blocks and Dedicated Engineer Projects
 
@@ -52,7 +63,7 @@ Given the close collaboration between the PS Project Management and PS Operation
 ##### PS/PMO Cadence Schedule
 
 * Pinned to the ps_pmo Slack channel
-* The purpose of this reference is to understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the Gitlab organization
+* The purpose of this reference is to understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the GitLab organization
 
 ##### Kantata
 
@@ -142,7 +153,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 
 ### Deliver, Train, and Monitor
 
-Please reference the [PSDM (Professional Services Delivery Methodology)](/content/handbook/customer-success/professional-services-engineering/process/psdm)
+Please reference the [PSDM (Professional Services Delivery Methodology)](../processes/_index.md) page for more information.
 
 *this also includes information on how we track/report on risk and escalated projects (via RAID), internal retrospective guidelines, tracking lessons learned, and capturing Customer and Project wins
 

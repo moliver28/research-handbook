@@ -130,7 +130,7 @@ The PM sends out the request for acceptance to the customer and then updates the
 - Update Sign Off received, when acceptance is received or Passive Acceptance is reached and add the PDF email of acceptance to the Milestone
 - Update if Passive Acceptance has been utilized for sign off
 
-![fprevenuerelease](./fprevenuerelease.png)
+![fprevenuerelease](fprevenuerelease.png)
 
 ## Project Coordination- Training
 
@@ -172,7 +172,7 @@ If required per the project SOW, the PC sends the request for acceptance to the 
 - Update Sign Off received, when training is complete, acceptance is received, or Passive Acceptance is reached and add the class roster or PDF email of acceptance to the Milestone
 - Update if Passive Acceptance has been utilized for sign off
 
-![trainingrelease](./trainingrelease.png)
+![trainingrelease](trainingrelease.png)
 
 ---
 
@@ -272,7 +272,7 @@ Time sheets would be submitted by the team and then approved by the project lead
 
 Here is an example of a time sheet that has been submitted and approved on a Tuesday, then new lines created for the remainder of the week
 
-![splittimesheet](./splittimesheet.png)
+![splittimesheet](splittimesheet.png)
 
 #### Month End Revenue and Billing Timelines
 

@@ -13,7 +13,7 @@ Note: this section only discusses items in the offboarding where People Engineer
 
 ```mermaid
 graph TD
-  A[Offboarding is logged into the tracker] --> |All offboardings| B
+  A[Offboarding is approved in Workday] --> |All offboardings on last day of work| B
   A --> |When the offboarding is voluntary| G
   B[Offboarding issue is created, manager is assigned] --> C
   C[Offboarding merge request is created] --> D
@@ -32,10 +32,10 @@ The pipeline is scheduled to run every hour and scan for any recent voluntary of
 
 ### Scheduled offboarding issue creation
 
-Every 15 minutes, a pipeline scans Workday for any terminations with the last day of work as today (PST).
+Every 15 minutes, a pipeline scans Workday for any terminations.
 
 - Involuntary offboardings will be opened as soon as they are available.
-- Voluntary offboardings will be opened in the respective team members offboarding window for the day. This checks their Slack timezone to find a *local* time to start the offboarding
+- Voluntary offboardings will be opened in the respective team members offboarding window for the day. This checks their Slack timezone to find a *local* time to start the offboarding.
   - Monday - Thursday @ 4pm
   - Friday @ 12pm
 

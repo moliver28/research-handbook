@@ -14,7 +14,7 @@ This handbook page is meant to cover who we are and why we exist at GitLab. On t
 
 ## People Analytics Handbook Contents
 
-- [People Analytics Data Guide]({{< ref "./data-guide.md" >}}) - If you are an analyst trying to use People data sets, this guide will help you get started with our data models.
+- [People Analytics Data Guide](data-guide.md) - If you are an analyst trying to use People data sets, this guide will help you get started with our data models.
 - [People Data Governance]({{< ref "data-governance" >}}) - This is an overview of how we ensure quality of our People data.
 - [People Analytics Tableau Dashboard Overview]({{< ref "people-tableau" >}}) - This page covers how we use Tableau to share data and insights at GitLab. It includes some of our commonly used dashboards.
 - [People Analytics Survey Support]({{< ref "survey-support" >}}) - We help build employee surveys in Culture Amp. This page covers some of the details we need to help administer a survey and the additional support the People Analytics team can provide.
@@ -44,7 +44,7 @@ The People Analytics team at GitLab is part of the [People Operations, Technolog
 
 GitLab's commitment to transparency and efficiency is reflected in the Data team's use of technologies like dbt and Snowflake to provide reliable and timely data to company leaders. By adhering to strict data governance and best practices, the team ensures that the data is consistent and easy to work with, while also complying with all applicable laws and regulations.
 
-We have a data governance process in place to ensure that we are only extracting data that we are authorized to access. This involves working closely with our People and Legal teams. We also have a process in place for handling data requests from team members, which involves verifying their identity and ensuring that they have a legitimate business need for the requested data as well as approvals from stakeholders. You can find more information in our [Data Governance handbook page]({{< ref "./data-governance.md" >}}).
+We have a data governance process in place to ensure that we are only extracting data that we are authorized to access. This involves working closely with our People and Legal teams. We also have a process in place for handling data requests from team members, which involves verifying their identity and ensuring that they have a legitimate business need for the requested data as well as approvals from stakeholders. You can find more information in our [Data Governance handbook page](data-governance.md).
 
 ### Main objectives of the People Analytics Team
 

@@ -24,7 +24,7 @@ We have a materials shared in our internal `Ruby on Rails Performance Training` 
 - [GitLab - Performance Bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html)
 - [GitLab - Profiling](https://docs.gitlab.com/ee/development/profiling.html)
 - [Jaeger for OpenTracing](https://docs.gitlab.com/ee/development/distributed_tracing.html)
-- [Remote Request Profiling](https://docs.gitlab.com/ee/administration/monitoring/performance/request_profiling.html)
+- [Remote Request Profiling](https://docs.gitlab.com/ee/development/profiling.html)
 
 ### Articles
 

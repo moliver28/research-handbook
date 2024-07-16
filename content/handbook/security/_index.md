@@ -47,50 +47,50 @@ To reflect this, we have structured the Security Division around four key tenets
   <tr>
     <th class="text-center">
         <i class="fas fa-bullseye i-bt"></i>
-        <h5><a href="{{< ref "./product-security" >}}">Product Security</a></h5>
+        <h5><a href="product-security/">Product Security</a></h5>
     </th>
     <th class="text-center">
         <i class="fas fa-shield-alt i-bt"></i>
-        <h5><a href="{{< ref "./security-operations" >}}">Security Operations</a></h5>
+        <h5><a href="security-operations/">Security Operations</a></h5>
     </th>
     <th class="text-center">
         <i class="fas fa-bullseye i-bt"></i>
-        <h5><a href="{{< ref "./threat-management" >}}">Threat Management</a></h5>
+        <h5><a href="threat-management/">Threat Management</a></h5>
     </th>
     <th class="text-center">
         <i class="fas fa-hands-helping i-bt"></i>
-        <h5><a href="{{< ref "./security-assurance" >}}">Security Assurance</a></h5>
+        <h5><a href="security-assurance/">Security Assurance</a></h5>
     </th>
   </tr>
   <tr>
       <td>
         <ul>
-            <li><a href="{{< ref "./product-security/application-security" >}}">Application Security</a></li>
-            <li><a href="{{< ref "./product-security/infrastructure-security" >}}">Infrastructure Security</a></li>
-            <li><a href="{{< ref "./product-security/security-research" >}}">Security Research</a></li>
-            <li><a href="{{< ref "./product-security/vulnerability-management" >}}">Security Threat & Vulnerability Management</a></li>
+            <li><a href="product-security/application-security/">Application Security</a></li>
+            <li><a href="product-security/infrastructure-security/">Infrastructure Security</a></li>
+            <li><a href="product-security/security-research/">Security Research</a></li>
+            <li><a href="product-security/vulnerability-management/">Security Threat & Vulnerability Management</a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="{{< ref "./security-operations/sirt" >}}">Security Incident Response Team (SIRT)</a></li>
-            <li><a href="{{< ref "./security-operations/trustandsafety" >}}">Trust and Safety</a></li>
-            <li><a href="{{< ref "./security-operations/security-logging" >}}">Security Logging</a></li>
-            <li><a href="{{< ref "./security-operations/red-team" >}}">Red Team</a></li>
+            <li><a href="security-operations/sirt/">Security Incident Response Team (SIRT)</a></li>
+            <li><a href="security-operations/trustandsafety/">Trust and Safety</a></li>
+            <li><a href="security-operations/security-logging/">Security Logging</a></li>
+            <li><a href="security-operations/red-team/">Red Team</a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="{{< ref "./threat-management/identity" >}}">Identity Engineering, Infra, and Ops</a></li>
+            <li><a href="threat-management/identity/">Identity Engineering, Infra, and Ops</a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="{{< ref "./security-assurance/field-security" >}}">Field Security</a></li>
-            <li><a href="{{< ref "./security-assurance/security-compliance" >}}">Security Compliance, Commercial</a></li>
-            <li><a href="{{< ref "./security-assurance/dedicated-compliance" >}}">Security Compliance, Dedicated Markets</a></li>
-            <li><a href="{{< ref "./security-assurance/governance" >}}">Security Governance</a></li>
-            <li><a href="{{< ref "./security-assurance/security-risk" >}}">Security Risk</a></li>
+            <li><a href="security-assurance/field-security/">Field Security</a></li>
+            <li><a href="security-assurance/security-compliance/">Security Compliance, Commercial</a></li>
+            <li><a href="security-assurance/dedicated-compliance/">Security Compliance, Dedicated Markets</a></li>
+            <li><a href="security-assurance/governance/">Security Governance</a></li>
+            <li><a href="security-assurance/security-risk/">Security Risk</a></li>
         </ul>
       </td>
   </tr>
@@ -133,7 +133,7 @@ Security Program Management is responsible for complete overview and driving sec
 
 ### Product development
 
-In keeping with our [core values]({{< ref "values" >}}) and the belief that [everyone can contribute]({{< ref "mission#everyone-can-contribute" >}}), the Security Division is committed to [dogfooding](/handbook/values/#dogfooding) and contributing to the development of the GitLab product.
+In keeping with our [core values](/handbook/values/) and the belief that [everyone can contribute]({{< ref "mission#everyone-can-contribute" >}}), the Security Division is committed to [dogfooding](/handbook/values/#dogfooding) and contributing to the development of the GitLab product.
 
 ---
 
@@ -228,7 +228,7 @@ The following best practices will help ensure tokens are handled appropriately a
 
 - To receive security release blog notifications delivered to your inbox, visit our [contact us](https://about.gitlab.com/company/contact/) page.
 - To receive release notifications via RSS, subscribe to our [security release RSS feed](https://about.gitlab.com/security-releases.xml) or our [RSS feed for all releases](https://about.gitlab.com/all-releases.xml).
-- For additional information regarding security releases, please visit the Delivery Team's [security releases](https://about.gitlab.com/handbook/engineering/releases/security-releases/) page.
+- For additional information regarding security releases, please visit the Delivery Team's [security releases](/handbook/engineering/releases/security-releases/) page.
 
 ### <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> Resources
 
@@ -250,7 +250,7 @@ We welcome GitLab team members to join meetings that are on our shared [Security
 
 #### Other Frequently Used GitLab.com Projects
 
-Security crosses many teams in the company, so you will find `~security` labelled
+Security crosses many teams in the company, so you will find `~security` labeled
 issues across all GitLab projects, especially:
 
 - [gitlab-foss](https://gitlab.com/gitlab-org/gitlab-foss/issues/)
@@ -276,7 +276,7 @@ our security automation initiatives.
 - [Security READMEs](/handbook/security/readmes/)
 - [Working in Security](/handbook/security/working-in-security.md)
 - [Contributing to GitLab the product as a Security team member]({{< ref "contributing-to-gitlab-the-product" >}})
-- [Threat Modeling]({{< ref "./product-security/application-security/threat-modeling" >}})
+- [Threat Modeling](product-security/application-security/threat-modeling/)
 
 #### AI in Security Learning Group
 

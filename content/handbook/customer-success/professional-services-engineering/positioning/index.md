@@ -8,13 +8,13 @@ Most professional service engagements happen during the onboarding, implementati
 
 ![GitLab Customer Journey](/handbook/customer-success/customer-success-vision/images/customer-journey.png "GitLab Customer Journey")
 
-When opportunities are approaching closed/won and planning for these stages is occurring, its a good idea to consider bringing in professional services to help expedite the customer's transition to using gitlab to enable them to [realize value faster](/handbook/customer-success/vision/#time-to-value-kpis).
+When opportunities are approaching closed/won and planning for these stages is occurring, its a good idea to consider bringing in professional services to help expedite the customer's transition to using GitLab to enable them to [realize value faster](/handbook/customer-success/vision/#time-to-value-kpis).
 
 This page aims to help the ISR/SAE understand the services that certain types of customers typically engage in and how to position those services when building out a success plan.
 
 ## Value of GitLab Professional Services
 
-![Professional Services Value](./ps-value.png)
+![Professional Services Value](ps-value.png)
 
 <!-- ### Elevator Pitch
 
@@ -37,7 +37,7 @@ With PS engagement, customers start leveraging the full capabilities of GitLab e
 
 ### Short Message
 
-"The whole is greater than the sum of its parts" - and this is particularly true in modern software development. GitLab makes the collaboration around software delivery as efficient as possible. We provide services to minimize the transition period to gitlab and help you get back to peak efficiency quickly. We provide specialized training to educate users in these software development and delivery practices using gitlab.
+"The whole is greater than the sum of its parts" - and this is particularly true in modern software development. GitLab makes the collaboration around software delivery as efficient as possible. We provide services to minimize the transition period to GitLab and help you get back to peak efficiency quickly. We provide specialized training to educate users in these software development and delivery practices using gitlab.
 
 ### Long Message
 
@@ -51,23 +51,23 @@ GitLab's Professional Services team exists to enable you to realize the full val
 
 ### Mid-Market to Enterprise coming from non-gitlab SCM
 
-These customers are adopting gitlab usually for a number of reasons, but typically use SCM as their entry point. They have source code management happening in their company but it might not be standardized into a single process or tool. This means they will need to migrate data and users to (sometimes git and) gitlab.
+These customers are adopting GitLab usually for a number of reasons, but typically use SCM as their entry point. They have source code management happening in their company but it might not be standardized into a single process or tool. This means they will need to migrate data and users to (sometimes git and) gitlab.
 
-The larger the company, the higher likelihood they will be opting for gitlab self-managed. If this is the case, they will need to deploy gitlab typically with aspirational requirements of system High Availability, Disaster Recovery and performance and might not have the technical expertise in their current staff.
+The larger the company, the higher likelihood they will be opting for GitLab self-managed. If this is the case, they will need to deploy GitLab typically with aspirational requirements of system High Availability, Disaster Recovery and performance and might not have the technical expertise in their current staff.
 
-They have a team that manages the current tooling at the highest level, and are often competing against shadow IT from setting up their own (less restrictive) instances of SDLC tools. This team has probably never managed a large migration and needs help with the rollout plan. Their engineering teams (end users of gitlab) are on the continuum of knowledge about latest git and gitlab best practices.
+They have a team that manages the current tooling at the highest level, and are often competing against shadow IT from setting up their own (less restrictive) instances of SDLC tools. This team has probably never managed a large migration and needs help with the rollout plan. Their engineering teams (end users of gitlab) are on the continuum of knowledge about latest git and GitLab best practices.
 
 To get to [first value](/handbook/customer-success/vision/#time-to-value-kpis) as soon as possible, you should consider:
 
-- [Implementation](/services/implementation/) (infrastructure deployment and gitlab configuration)
+- [Implementation](/services/implementation/) (infrastructure deployment and GitLab configuration)
 - [Migration](/services/migration/) (SCM Data and user migration)
 - [Education](/services/education/) (Basics, CI/CD and Admin)
 
 ### SMB to Mid-Market moving to gitlab.com
 
-These customers typically move to gitlab for the benefits of an all-in-one SDLC platform to reduce toolchain tax.
+These customers typically move to GitLab for the benefits of an all-in-one SDLC platform to reduce toolchain tax.
 
-They will likely have a small team responsible for transformation that will be managing this transition. Its unlikely they have the expertise or time to manage a data and user migration without slowing down their business significantly. They will also probably want to integrate with other systems like LDAP, Jira, or Jenkins. Finally, their users will probably need upskilling on the basic and advanced features of gitlab to ensure they're getting the most value out of the gitlab.
+They will likely have a small team responsible for transformation that will be managing this transition. Its unlikely they have the expertise or time to manage a data and user migration without slowing down their business significantly. They will also probably want to integrate with other systems like LDAP, Jira, or Jenkins. Finally, their users will probably need upskilling on the basic and advanced features of GitLab to ensure they're getting the most value out of the gitlab.
 
 To get your customer the most [value](/handbook/customer-success/vision/#time-to-value-kpis) as soon as possible, you should consider:
 

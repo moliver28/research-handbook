@@ -9,7 +9,7 @@
 
 #### Cross-functional Backlog
 
-We also track our backlog of issues, including past due security and infradev issues, and total open [System Usability Scale (SUS) impacting](https://about.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#sus-impacting) issues and bugs.
+We also track our backlog of issues, including past due security and infradev issues, and total open [System Usability Scale (SUS) impacting](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#sus-impacting) issues and bugs.
 
 {{ partial "sisense-with-filter" (dict "dashboard" "1000952" "filters" $filters "visible" (slice "team_group" "stage" "development_section")) }}
 

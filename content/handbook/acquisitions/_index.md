@@ -26,12 +26,8 @@ Below is a set of general, yet not strict, characteristics of companies that are
 
 - Have built features or functionalities which are aligned with GitLab's [long term strategy](https://about.gitlab.com/direction/)
 - Engineers that meet our [standard hiring guidelines](/job-families/engineering/backend-engineer/)
-- Ideally bring a solution which accelerates our maturity in a product category
+- Ideally bring a solution which accelerates our maturity in a product category or fits into the new categories on our roadmap.
 - R&D team size under 30 people
-according to our [category maturity](https://about.gitlab.com/direction/maturity/) or fits into the new categories on our roadmap:
-
-{{< sdlc >}}
-
 - Willing to [reimplement products into GitLab](/handbook/product/single-application/) in Ruby and Go
 - Willing to sunset old customers within 90 days or less, with an option to transition to GitLab. GitLab follows an [open-core model](https://about.gitlab.com/install/ce-or-ee/)
 - Aligned to ship on the first month and iterate quickly
@@ -56,7 +52,8 @@ Acquisitions receive a compensation offer specific to that engagement, which wil
 
 ## What happens to your current company?
 
-1. We follow an **asset purchase** and not a stock purchase in order to limit unexpected liabilities. Please review our [Term Sheet](https://docs.google.com/document/d/1_G2bXxhMe_qXrF8LdZcXwsCcIs1GJAS1-v42U2MV8a4) for additional details.
+1. Our goal is to integrate the acquired technology into GitLab's platform with the team behind it, keeping the team as whole as possible.
+1. We want to focus on integrating the value quickly, thus we don't want to maintain existing services/products outside of GitLab's platform as doing that will hinder the speed of integration.
 
 ## Hear from the founders of our previous acquisitions
 

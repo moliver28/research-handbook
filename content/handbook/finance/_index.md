@@ -12,13 +12,13 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 
 - [Finance Issues](https://gitlab.com/gitlab-com/finance/issues)
   - Please use confidential issues for topics that should only be visible to team members at GitLab.
-- [Accounts Payable]({{< ref "./accounts-payable" >}})
-- [Expense Guidelines]({{< ref "./expenses" >}})
+- [Accounts Payable](accounts-payable/)
+- [Expense Guidelines](expenses/)
 - [Operating Metrics]({{< ref "key-review" >}})
-- [Procurement]({{< ref "./procurement" >}})
-- [Sales Comp Plan]({{< ref "./sales-comp-plan" >}})
-- [Signature Authorization Matrix]({{< ref "./authorization-matrix" >}})
-- [Authorization Matrix Policy]({{< ref "./authorization-matrix#authorization-matrix-policy" >}})
+- [Procurement](procurement/)
+- [Sales Comp Plan](sales-comp-plan/)
+- [Signature Authorization Matrix](authorization-matrix/)
+- [Authorization Matrix Policy](authorization-matrix/#authorization-matrix-policy)
 - [Stock Options](/handbook/total-rewards/stock-options/)
 
 ## Forms
@@ -48,10 +48,10 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 
 ## <i aria-hidden="true" class="fas fa-book fa-fw icon-color font-awesome"></i>Finance Handbooks{#finance-handbooks}
 
-- [Accounting]({{< ref "./accounting" >}})
+- [Accounting](accounting/)
 - [Business Technology](/handbook/business-technology/)
-- [Financial Planning & Analysis]({{< ref "./financial-planning-and-analysis" >}})
-- [Investor Relations]({{< ref "./investor-relations" >}}/)
+- [Financial Planning & Analysis](financial-planning-and-analysis/)
+- [Investor Relations](investor-relations//)
 - [Tax](/handbook/tax)
 
 ---
@@ -90,7 +90,7 @@ GitLab's Fiscal Year runs from February 1 to January 31.
 | FY25-Q3 | 2024-08-01 to 2024-10-31 |
 | FY25-Q4 | 2024-11-01 to 2025-01-31 |
 
-Refer to our [writing style guidelines]({{< ref "communication#writing-style-guidelines" >}}) for proper use of date formats.
+Refer to our [writing style guidelines](/handbook/communication/#writing-style-guidelines) for proper use of date formats.
 
 ### Revenue non-committee
 
@@ -107,7 +107,7 @@ Non-US contractors not from Hungary, Italy, Japan, New Zealand, Nigeria, South A
 - submit monthly salary/bonus/commission invoice in BambooHR under Contractor Invoice tab (select the currency based on contract agreement) by the 8th of each month
 - submit expenses through Navan Expense by the 8th of each month
 - the scheduled payment date is the 22nd of each month
-- iiPay will send out remittance advice along with the scheduled payment via your gitlab email address
+- iiPay will send out remittance advice along with the scheduled payment via your GitLab email address
 
 Non-US contractors from Italy, Nigeria, South Africa, Switzerland, and Ukraine will need to send their monthly invoice for salary/bonus/commission and any [expenses](/handbook/finance/spending-company-money/) by the 15th to payroll@gitlab.com.
 
@@ -137,11 +137,11 @@ For example, work to enable a sales partner that will not be incorporated into t
 
 | Function | Name |
 | -------- | ---- |
-| Customer Support | [R&D Finance]({{< ref "./financial-planning-and-analysis/r-and-d-finance" >}}) |
-| R & D | [R&D Finance]({{< ref "./financial-planning-and-analysis/r-and-d-finance" >}}) |
-| Sales | [Sales Finance]({{< ref "./financial-planning-and-analysis/sales-finance" >}}) |
-| Professional Services | [Sales Finance]({{< ref "./financial-planning-and-analysis/sales-finance" >}}) |
-| Marketing | [Marketing Finance]({{< ref "./financial-planning-and-analysis/marketing-finance" >}}) |
+| Customer Support | [R&D Finance](financial-planning-and-analysis/r-and-d-finance/) |
+| R & D | [R&D Finance](financial-planning-and-analysis/r-and-d-finance/) |
+| Sales | [Sales Finance](financial-planning-and-analysis/sales-finance/) |
+| Professional Services | [Sales Finance](financial-planning-and-analysis/sales-finance/) |
+| Marketing | [Marketing Finance](financial-planning-and-analysis/marketing-finance/) |
 | G & A | Ellen Boyd and Jess Smith |
 
 ### Types of Work that the team does

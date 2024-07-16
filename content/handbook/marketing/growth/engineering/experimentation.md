@@ -159,7 +159,7 @@ Ask yourself, "Is there a simpler version of this experiment which is worth depl
 
 For real time experiment rollout status GitLab team members can view the [experiments API](https://gitlab.com/api/v4/experiments) ([docs](https://docs.gitlab.com/ee/api/experiments.html)) (a JSON viewer for your browser is recommended).
 
-The "current_status" will be on, off, or conditional. If conditional, there will be either a percentage_of_time or percentage_of_actors. Refer to the [note on feature flags](https://docs.gitlab.com/ee/development/experiment_guide/gitlab_experiment.html#notes-on-feature-flags) in the experiment guide.
+The "current_status" will be on, off, or conditional. If conditional, there will be either a percentage_of_time or percentage_of_actors. Refer to the [note on feature flags](https://docs.gitlab.com/ee/development/experiment_guide/experiment_rollout.html) in the experiment guide.
 
 There are dashboards in Sisense to indicate whether the experiment flag still exists, but not the current status. These are also only available to GitLab team members.
 

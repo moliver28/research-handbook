@@ -13,7 +13,7 @@ On this page, we're detailing how compensation works in a global all-remote comp
 
 When you open your hiring pipeline to practically every nation on the planet, you get questions like "How do you pay people?"
 
-While there are certain complexities to paying team members who are spread across the globe, we believe that it's worthwhile. Being an all-remote company enables us to [hire the world's best talent]({{< ref "./hiring" >}}), not just the best talent from a few cities.
+While there are certain complexities to paying team members who are spread across the globe, we believe that it's worthwhile. Being an all-remote company enables us to [hire the world's best talent](hiring/), not just the best talent from a few cities.
 
 {{< youtube "Yr2do8A38r0" >}}
 
@@ -45,7 +45,7 @@ These additional investments can be made simply by lowering a company's overall 
 
 ## How can other companies move to a remote compensation model?
 
-To talk through Best Practices for Remote Compensation, GitLab partnered with [Compaas](https://www2.compa.as/gitlab) to outline how to get started recommendations, and pitfalls when transitioning to a remote friendly or remote only compensation model.
+To talk through Best Practices for Remote Compensation, GitLab partnered with [Compaas](https://web.archive.org/web/20230327015045/https://www2.compa.as/gitlab) to outline how to get started recommendations, and pitfalls when transitioning to a remote friendly or remote only compensation model.
 
 ## How do you decide how much to pay people?
 

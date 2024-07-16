@@ -104,13 +104,14 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [Earnings activities](/handbook/finance/investor-relations/)
 1. [Key Reviews](/handbook/company/key-review/)
 1. [Group Conversations](/handbook/company/group-conversations/)
+1. [Quarterly touchpoint meetings](/handbook/company/offsite/#quarterly-touchpoint-meetings)
 
 ## Month
 
 1. [Release](https://about.gitlab.com/releases/)
 1. [Retrospective](/handbook/communication/#kickoffs)
 1. [Most KPIs](/handbook/company/kpis/)
-1. [Monthly touchpoint meetings](/handbook/company/offsite/#monthly-touch-point-meetings)
+1. **Note**: while Key Reviews, E-Group Offsites, and Quarterly Touch Points each happen on a quarterly basis, we aim to space these out throughout the quarter, so we have a set time for business deep dives on a monthly basis.
 
 ## Week
 
