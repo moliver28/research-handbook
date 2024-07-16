@@ -46,8 +46,8 @@ The following people are permanent members of the Remote Development Engineering
 
 Depending on the context here are the most appropriate ways to reach out to the Remote Development Group:
 
-- Slack Channel: [`#g_create_ide`](https://gitlab.slack.com/archives/CJS40SLJE)
-- Slack Groups: `@create-ide-team` (entire team) and `@create-ide-engs` (just engineers)
+- Slack Channel: [`#g_create_remote_development`](https://gitlab.slack.com/archives/CJS40SLJE)
+- Slack Groups: `@create-remote-development-team` (entire team) and `@create-remote-development-engs` (just engineers)
 
 ### Group Metrics Dashboards
 
@@ -160,7 +160,7 @@ These components allow us to provide realistic velocity-based estimates based on
 
 ### Custom workflow labels
 
-To facilitate the Remote Development group's specific planning process, we make use of custom workflow scoped labels under `~rd-workflow::` or `~webide-workflow::`.
+To facilitate the Remote Development group's specific planning process, we make use of custom workflow scoped labels under `~workspaces-workflow::` or `~webide-workflow::`.
 These custom workflow labels are necessary to work around [current limitations of GitLab iterations and boards in implementing this process](https://gitlab.com/cwoolley-gitlab/gl-velocity-board-extension#why-doesnt-standard-gitlab-support-this).
 
 The Web IDE category uses the separate set of `~webide-workflow::` scoped labels, because this makes management of boards and workflows easier, especially in the case of issues which may have both categories' labels applied.
@@ -190,7 +190,7 @@ javascript:(function(){var el=document.getElementsByClassName('boards-list');for
 
 TODO: We need to create a Web IDE version of this report and link it in the category slack channel - there is [an issue for this](https://gitlab.com/gitlab-org/gitlab/-/issues/452218).
 
-In addition to the Velocity Board chrome extension, there is a [Workspace Iteration Planning Report](https://gitlab-org.gitlab.io/remote-development/remote-development-team-automation/remote-development-iteration-planning-report-latest.html) which is automatically published every 6 hours.
+In addition to the Velocity Board chrome extension, there is a [Workspace Iteration Planning Report](https://gitlab-org.gitlab.io/remote-development/remote-development-team-automation/workspaces-iteration-planning-report-latest.html) which is automatically published every 6 hours.
 
 This report shows the same auto-calculated iteration/velocity data, and uses the same logic as the Velocity Board Chrome Extension, but you don't have to install the extension to see it.
 
@@ -202,11 +202,11 @@ NOTE: All issues in this process _must_ be assigned the `~Category:Workspace` or
 
 ```mermaid
 graph TD;
-  S[issue created] -->|New issue is added to an epic, and '(rd|webide)-workflow::unprioritized' label is applied| V[High Level Validation and Planning]
+  S[issue created] -->|New issue is added to an epic, and '(workspaces|webide)-workflow::unprioritized' label is applied| V[High Level Validation and Planning]
   V -->|'Next 1-3 Releases' milestone is applied to higher-priority issues| R[Pre-IPM - Async Refinement]
   R -->|Unprioritized issues with 'Next 1-3 Releases' milestone are assigned for refinement| P[Pre-IPM - Sync prioritization]
-  P -->|Refined issues are prioritized into '(rd|webide)-workflow::prioritized'| I[IPM]
-  I -->|'(rd|webide)-workflow::prioritized' issues are discussed and estimated by the entire team| N[Next]
+  P -->|Refined issues are prioritized into '(workspaces|webide)-workflow::prioritized'| I[IPM]
+  I -->|'(workspaces|webide)-workflow::prioritized' issues are discussed and estimated by the entire team| N[Next]
   N -->|Issue is assigned to a specific release based on its calculated iteration| E[Development proceeds for issue]
 ```
 
@@ -217,10 +217,10 @@ graph TD;
 **TL;DR: Assign the [`Next 1-3 releases` milestone](https://gitlab.com/groups/gitlab-org/-/milestones/48#tab-issues) to all issues that should be refined and prioritized in the next Pre-IPM meeting(s).**
 
 1. All higher-priority issues should be [contained in the category epic or one of its sub-epics](https://gitlab.com/groups/gitlab-org/-/epics/7419)
-1. They should all have the `~(rd|webide)-workflow::unprioritized` label assigned.
+1. They should all have the `~(workspaces|webide)-workflow::unprioritized` label assigned.
 1. All higher-priority issues should be assigned to the **[`Next 1-3 releases` milestone](https://gitlab.com/groups/gitlab-org/-/milestones/48#tab-issues)**.
 1. Issues which are not a priority to finish within the `%"Next 1-3 releases"` may have the `%"Next 4-7 releases"` or `%"Next 7-13 releases"` release applied, or alternately, they can be assigned to `%Backlog` or `%Awaiting Further Demand`.
-1. Issues in `~(rd|webide)-workflow::unprioritized` MUST NOT be left without a release applied. This should be enforced by automation. Use [this issue search to identify Workspace issues which are missing a milestone](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=Category%3ARemote%20Development&milestone_title=None&first_page_size=100)
+1. Issues in `~(workspaces|webide)-workflow::unprioritized` MUST NOT be left without a release applied. This should be enforced by automation. Use [this issue search to identify Workspace issues which are missing a milestone](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=Category%3AWorkspaces&milestone_title=None&first_page_size=100)
 
 **Explanation:**
 
@@ -230,7 +230,7 @@ In addition to validating features, this process can also result in Engineering 
 
 There may be concerns about over-committing too many issues to the `%"Next 1-3 releases"` release. However:
 
-1. If we are being healthy and diligent about following the Pre-IPM process **_every week_** as defined, we should be reviewing **_ALL_** issues which have the `%"Next 1-3 releases"` during every Pre-IPM, and moving them to `~"(rd|webide)-workflow::prioritized"` .
+1. If we are being healthy and diligent about following the Pre-IPM process **_every week_** as defined, we should be reviewing **_ALL_** issues which have the `%"Next 1-3 releases"` during every Pre-IPM, and moving them to `~"(workspaces|webide)-workflow::prioritized"` .
 1. If we don't get to them one week, we should decide how to deal with it - either agree to do them async in the next week, schedule an extra Pre-IPM, or commit to ensuring we finish reviewing them in next week's Pre-IPM.
 1. Then, during the weekly IPM, per the process defined above, these issues will be weighted and prioritized, and have their release changed from `%"Next 1-3 releases"` to a specific release, depending on what iteration they fall into (and we can always give ourselves a "buffer" by assuming, for our purposes, that only things slated to be completed by a certain time will be likely to be in the release, e.g., everything slated to be completed in the 2nd iteration of the month, which is a ~1+ week buffer before the actual release is cut).
 
@@ -241,24 +241,24 @@ See the [following discussion thread](https://gitlab.com/gitlab-org/create-stage
 **TL;DR:**
 
 - **Async phase - Refinement:**
-  - **Engineering Manager: Assign someone to refine each unrefined `(rd|webide)-workflow::unprioritized` issue which has the `%"Next 1-3 releases"` milestone using the [Workspace issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Remote%20Development%20Group%20-%20issue.md)**
-  - **Refinement Assignees: Adequately refine the issue using the [Workspace issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Remote%20Development%20Group%20-%20issue.md), then apply the `refined` label**
-- **Sync phase - Prioritization: Product and Engineering leaders meet to appropriately prioritize each `refined` issue into the `(rd|webide)-workflow::prioritized` lane on the Iteration Planning board.**
+  - **Engineering Manager: Assign someone to refine each unrefined `(workspaces|webide)-workflow::unprioritized` issue which has the `%"Next 1-3 releases"` milestone using the [Workspace issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Workspaces%20Category%20-%20issue.md)**
+  - **Refinement Assignees: Adequately refine the issue using the [Workspace issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Workspaces%20Category%20-%20issue.md), then apply the `refined` label**
+- **Sync phase - Prioritization: Product and Engineering leaders meet to appropriately prioritize each `refined` issue into the `(workspaces|webide)-workflow::prioritized` lane on the Iteration Planning board.**
 
 ##### Async Phase of Pre-IPM Process - Refinement
 
 1. Identify all issues which:
-   1. Have the `~"(rd|webide)-workflow::unprioritized"` **AND**
+   1. Have the `~"(workspaces|webide)-workflow::unprioritized"` **AND**
    1. Have the `%"Next 1-3 releases"` milestone applied (optionally include additional milestones for next `3-4`/`4-7` releases, if these are being used) **AND**
    1. Do **NOT** yet have the `~refined` label
 1. This can be done by a direct search:
-   1. Workspace: [direct search for `Label is ~rd-workflow::unprioritized` and `Milestone is %Next 1-3 releases` and `Label is not one of ~refined`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=rd-workflow%3A%3Aunprioritized&milestone_title=Next%201-3%20releases&amp;not%5Blabel_name%5D%5B%5D=refined&first_page_size=100)
+   1. Workspace: [direct search for `Label is ~workspaces-workflow::unprioritized` and `Milestone is %Next 1-3 releases` and `Label is not one of ~refined`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=workspaces-workflow%3A%3Aunprioritized&milestone_title=Next%201-3%20releases&amp;not%5Blabel_name%5D%5B%5D=refined&first_page_size=100)
    1. Web IDE: [direct search for `Label is ~webide-workflow::unprioritized` and `Milestone is %Next 1-3 releases` and `Label is not one of ~refined`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=webide-workflow%3A%3Aunprioritized&milestone_title=Next%201-3%20releases&amp;not%5Blabel_name%5D%5B%5D=refined&first_page_size=20).
 1. Assign each of these issues to an appropriate team member to be refined, and leave a comment on the issue mentioning the team member and linking to
    [Async Phase of Pre-IPM Process - Refinement](#async-phase-of-pre-ipm-process---refinement)
    This selection process can be whatever works for the team, but in general issues should be refined by someone who has the knowledge and availability
    to refine them properly and promptly. If there are questions, ask for help or reassign it to someone else.
-1. The assignee should use the [Workspace issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Remote%20Development%20Group%20-%20issue.md) to refine the issue. The refinement should ensure
+1. The assignee should use the [Workspace issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Workspaces%20Category%20-%20issue.md) to refine the issue. The refinement should ensure
    that the description of each prioritized issue is complete, and contains enough information for the team to review, understand
    and estimate it during the next IPM, in less than 5-10 minutes, without extensive debate/discussion.
 1. There should be no `TODO:` comments left in the description from the template once refinement is complete. If a section from the template is not applicable, delete it.
@@ -268,10 +268,10 @@ See the [following discussion thread](https://gitlab.com/gitlab-org/create-stage
 ##### Sync Phase of Pre-IPM Process - Prioritization
 
 1. During each Pre-IPM meeting, we will _temporarily_ filter the Iteration Planning board on the `~refined` label,
-   so that only refined issues appear in the `~"(rd|webide)-workflow::unprioritized"` list. _Make sure you don't save this filter to the defualt board settings_
-1. The goal of each Pre-IPM sync meeting will be to prioritize all of these issues into the `~"(rd|webide)-workflow::prioritized"` list, based on their
-   relative importance, whether they are blocking other issues, etc. They are prioritized by dragging them into the appropriate order in the `~"(rd|webide)-workflow::prioritized"` list, with the highest-priority issues being at the top, and the lowest-priority issues being at the bottom.
-1. After an issue has been moved to the `~"(rd|webide)-workflow::prioritized"` list, it should be assigned to the **current `Iteration` of the `Iteration Cadence`**.
+   so that only refined issues appear in the `~"(workspaces|webide)-workflow::unprioritized"` list. _Make sure you don't save this filter to the defualt board settings_
+1. The goal of each Pre-IPM sync meeting will be to prioritize all of these issues into the `~"(workspaces|webide)-workflow::prioritized"` list, based on their
+   relative importance, whether they are blocking other issues, etc. They are prioritized by dragging them into the appropriate order in the `~"(workspaces|webide)-workflow::prioritized"` list, with the highest-priority issues being at the top, and the lowest-priority issues being at the bottom.
+1. After an issue has been moved to the `~"(workspaces|webide)-workflow::prioritized"` list, it should be assigned to the **current `Iteration` of the `Iteration Cadence`**.
    We will eventually create an automation for this, but for now it must be done manually. The easiest way to do this is to search for `RD` in the `Iteration` field,
    and pick the top-most iteration. Then, the `Iteration Cadence` feature functionality will handle automatically rolling over any incomplete issues to the next
    iteration once the current iteration ends. Do _NOT_ assign it to a future iteration, only the current iteration. We do this because of limitations in the
@@ -288,7 +288,7 @@ During the Pre-IPM, the team will collaborate on creating/refining, organizing, 
 If a single piece of work spans multiple projects/repos, there should be a separate issue created for each MR in each repo. We cannot use the [tasks feature](https://docs.gitlab.com/ee/user/tasks.html#set-task-weight), because boards cannot display individual
 tasks.
 
-**QUESTION: Why isn't there a `~(rd|webide)-workflow::refined` phase instead of using the `~refined` label?**
+**QUESTION: Why isn't there a `~(workspaces|webide)-workflow::refined` phase instead of using the `~refined` label?**
 
 For a few reasons:
 
@@ -306,9 +306,9 @@ For a few reasons:
 
 **TL;DR: _As a team_, briefly discuss then estimate each prioritized issue.**
 
-1. In each the IPM meeting, all newly prioritized issues in the `~"(rd|webide)-workflow::prioritized"` lane of the [Workspace Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/5283620) or [Web IDE Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/7440987) are reviewed by the team. The board should be unfiltered other than the standard `~"Category:Workspace"` or `~"Category:Web IDE"` label.
+1. In each the IPM meeting, all newly prioritized issues in the `~"(workspaces|webide)-workflow::prioritized"` lane of the [Workspace Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/5283620) or [Web IDE Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/7440987) are reviewed by the team. The board should be unfiltered other than the standard `~"Category:Workspace"` or `~"Category:Web IDE"` label.
 1. For each newly-prioritized issue, the facilitator reads the description, and the team **_briefly_** discusses the issue. If there are no blocking concerns/risks raised, the team collectively estimates the issue with rock-paper-scissors fibonacci scale, and the collectively agreed weight is assigned.
-    1. If the discussion for a single issue goes on longer than 5-10 minutes or turns into an extended debate/discussion, this is an indicator that the issue has not been adequately refined, and should go back to the `~"(rd|webide)-workflow::unprioritized"` list, and potentially have another issue immediately created and prioritized to do further investigation/refinement, if the refinement scope may be significant.
+    1. If the discussion for a single issue goes on longer than 5-10 minutes or turns into an extended debate/discussion, this is an indicator that the issue has not been adequately refined, and should go back to the `~"(workspaces|webide)-workflow::unprioritized"` list, and potentially have another issue immediately created and prioritized to do further investigation/refinement, if the refinement scope may be significant.
 1. Issues which are prioritized in the upcoming 1-2 iterations should be assigned to individual(s) at this point, to ensure it gets worked on and not lost.
 
 **Explanation:**
@@ -332,12 +332,12 @@ Then, based on the dates of calculated iterations, we can reassign the issues fr
 ### Example Lifecycle for a Feature Issue
 
 1. Product and Design work together to identify a new feature requirement.
-1. An issue is created using the [Workspace issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Remote%20Development%20Group%20-%20issue.md). The correct labels are automatically applied by the template,
-   so the issue shows up in the `~"(rd|webide)-workflow::unprioritized` list of the Iteration Planning board.
+1. An issue is created using the [Workspace issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Workspaces%20Category%20-%20issue.md). The correct labels are automatically applied by the template,
+   so the issue shows up in the `~"(workspaces|webide)-workflow::unprioritized` list of the Iteration Planning board.
    Note that the issue description may be incomplete/unrefined and high-level at this point.
 1. Product decides the issue is a high priority, so they apply the `%"Next 1-3 Releases"` milestone to signal this.
 1. As part of the async Pre-IPM process, someone is assigned to refine the issue, by finishing filling out the issue template, then applying the `~refined` label
-1. As part of the sync Pre-IPM meeting, product and engineering leadership move the refined issue to the `~(rd|webide)-workflow::prioritized` list,
+1. As part of the sync Pre-IPM meeting, product and engineering leadership move the refined issue to the `~(workspaces|webide)-workflow::prioritized` list,
    in the appropriate position based on its priority relative to other issues.
 1. In the sync IPM meeting, the wider team discusses and estimates the issue, and it is assigned to whoever will do the work.
 1. Once the priority and weight are determined, the current velocity will tell us what iteration the issue should be completed in, and a specific
@@ -345,7 +345,7 @@ Then, based on the dates of calculated iterations, we can reassign the issues fr
 1. The assignee opens an MR for the issue, ensures that the issue and MR are cross-referenced on the first lines of their descriptions, and
    begins work on the MR.
 1. When the work is completely done - i.e., the MR is reviewed and merged, the feature is verified and tested in production, etc.,
-   then the issue is closed, and moved to the `~(rd|webide)-workflow::done` list.
+   then the issue is closed, and moved to the `~(workspaces|webide)-workflow::done` list.
 
 ### Relationship of Issues to MRs
 
@@ -426,7 +426,7 @@ Some issues are large in scope to start implementing, and/or still has too many 
 
 <span id="-handling-remote-development-issues-outside-the-process" data-message="alias anchor for old links"></span>
 
-Certain `group::ide` issues may be categorized under the `(rd|webide)-workflow::ignored` label. These categories include:
+Certain `group::ide` issues may be categorized under the `(workspaces|webide)-workflow::ignored` label. These categories include:
 
 1. **QA-Owned Issues:**
    - Issues owned by QA that may not require the standard Workspaces process.
@@ -503,23 +503,23 @@ Other more complex automations may be set up in the
 
 Ideally we should automate as much of the [Workspace Planning Process](#-remote-development-planning-process) workflow as possible.
 
-We have the following automation goals for this Workflow. Unless otherwise noted, these rules are all defined in the [triage-ops `policies/groups/gitlab-org/ide/remote-development-workflow.yml` config files](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/ide/remote-development).
+We have the following automation goals for this Workflow. Unless otherwise noted, these rules are all defined in the [triage-ops `policies/groups/gitlab-org/ide/remote-development-workflow.yml` config files](https://gitlab.com/gitlab-org/quality/triage-ops/-/tree/master/policies/groups/gitlab-org/remote-development).
 
 TODO: None of these are set up for the Web IDE category and `webide-workflow::*` labels yet - there is [an issue for this](https://gitlab.com/gitlab-org/gitlab/-/issues/452218).
 
 | ID | Goal | Automation | Link(s) to implementation |
 | --- | --- | --- | --- |
 | <a id="automation-01">01</a> | Ensure every issue in the category is assigned to an epic | Issues in `~"Category:Workspace"` but no epic assigned should get a warning comment | TODO: implement |
-| <a id="automation-02">02</a> | Ensure category issues show up on the Iteration Planning board | Issues in `~"Category:Workspace"` but no `~rd-workflow` label should be added to `~rd-workflow::unprioritized`. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blame/master/policies/groups/gitlab-org/ide/remote_development/workflow-02.yml) |
-| <a id="automation-03">03</a> | Avoid premature assignment of specific milestones before an issue has gone through IPM, to avoid getting this warning: https://gitlab.com/gitlab-org/gitlab/-/issues/411933#note_1419147845 | 1. Issues with a specific milestone but not in `~rd-workflow::prioritized` should have the milestone automatically set back to `%"Next 1-3 releases"`. <br> 2. Issues with a specific milestone but no weight should have the milestone automatically set back to `%"Next 1-3 releases"`. <br> 3. Issues with a specific milestone but no iteration should have the milestone automatically set back to `%"Next 1-3 releases"`. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blame/master/policies/groups/gitlab-org/ide/remote_development/workflow-03.yml) |
-| <a id="automation-04">04</a> | Ensure prioritized issues are in the correct state | Issues in `~rd-workflow::prioritized` but not assigned to the current Iteration of the Iteration Cadence should automatically get assigned to the Current Iteration | TODO: implement |
-| <a id="automation-05">05</a> | Ensure closed issues are in the correct state | Every Issue in `~"Category:Workspace"` which is closed must have the `~rd-workflow::done` label applied. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blame/master/policies/groups/gitlab-org/ide/remote_development/workflow-05.yml) |
-| <a id="automation-06">06</a> | Sync Workspace workflow and GitLab workflow labels | 1. Issues in `~rd-workflow::unprioritized` but with no GitLab workflow label should have `~"refined"` assigned. <br> 2. Unstarted issues in `~rd-workflow::prioritized` but with `~"refined"` assigned should get `~"workflow::ready` for development" assigned. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blame/master/policies/groups/gitlab-org/ide/remote_development/workflow-06.yml) |
-| <a id="automation-07">07</a> | Ensure all prioritized issues have a milestone assigned | All issues with `~rd-workflow::prioritized` but no milestone should have `%"Next 1-3 releases"` milestone assigned. | TODO: implement |
-| <a id="automation-08">08</a> | Ensure all issues with `~rd-workflow-unprioritized` have a milestone assigned | All issues with `~rd-workflow::unprioritized`, but no milestone, should have: <br> - `~needs-milestone` label applied <br> - along with a comment with a link to the [1. High level validation and planning section](#1-high-level-validation-and-planning), and instructions that one of the following milestones must be assigned to all issues in `~rd-workflow::unprioritized`: <br> - `%"Next 1-3 releases"` <br> - `%"Next 4-6 releases"` <br> - `%"Next 7-12 releases"` <br> - `%Backlog` <br> - `%Awaiting further demand` | TODO: implement |
-| <a id="automation-09">09</a> | Apply correct ~rd-workflow label to reopened issues | Re-opened issues which are open but in `~rd-workflow::done` should have `~"rd-workflow::prioritized"` assigned. | TODO: implement |
+| <a id="automation-02">02</a> | Ensure category issues show up on the Iteration Planning board | Issues in `~"Category:Workspace"` but no `~workspaces-workflow` label should be added to `~workspaces-workflow::unprioritized`. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/remote-development/workspaces/workflow-02.yml) |
+| <a id="automation-03">03</a> | Avoid premature assignment of specific milestones before an issue has gone through IPM, to avoid getting this warning: https://gitlab.com/gitlab-org/gitlab/-/issues/411933#note_1419147845 | 1. Issues with a specific milestone but not in `~workspaces-workflow::prioritized` should have the milestone automatically set back to `%"Next 1-3 releases"`. <br> 2. Issues with a specific milestone but no weight should have the milestone automatically set back to `%"Next 1-3 releases"`. <br> 3. Issues with a specific milestone but no iteration should have the milestone automatically set back to `%"Next 1-3 releases"`. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/remote-development/workspaces/workflow-03.yml) |
+| <a id="automation-04">04</a> | Ensure prioritized issues are in the correct state | Issues in `~workspaces-workflow::prioritized` but not assigned to the current Iteration of the Iteration Cadence should automatically get assigned to the Current Iteration | TODO: implement |
+| <a id="automation-05">05</a> | Ensure closed issues are in the correct state | Every Issue in `~"Category:Workspace"` which is closed must have the `~workspaces-workflow::done` label applied. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/remote-development/workspaces//workflow-05.yml) |
+| <a id="automation-06">06</a> | Sync Workspace workflow and GitLab workflow labels | 1. Issues in `~workspaces-workflow::unprioritized` but with no GitLab workflow label should have `~"refined"` assigned. <br> 2. Unstarted issues in `~workspaces-workflow::prioritized` but with `~"refined"` assigned should get `~"workflow::ready` for development" assigned. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/remote-development/workspaces/workflow-06.yml) |
+| <a id="automation-07">07</a> | Ensure all prioritized issues have a milestone assigned | All issues with `~workspaces-workflow::prioritized` but no milestone should have `%"Next 1-3 releases"` milestone assigned. | TODO: implement |
+| <a id="automation-08">08</a> | Ensure all issues with `~workspaces-workflow-unprioritized` have a milestone assigned | All issues with `~workspaces-workflow::unprioritized`, but no milestone, should have: <br> - `~needs-milestone` label applied <br> - along with a comment with a link to the [1. High level validation and planning section](#1-high-level-validation-and-planning), and instructions that one of the following milestones must be assigned to all issues in `~workspaces-workflow::unprioritized`: <br> - `%"Next 1-3 releases"` <br> - `%"Next 4-6 releases"` <br> - `%"Next 7-12 releases"` <br> - `%Backlog` <br> - `%Awaiting further demand` | TODO: implement |
+| <a id="automation-09">09</a> | Apply correct ~workspaces-workflow label to reopened issues | Re-opened issues which are open but in `~workspaces-workflow::done` should have `~"workspaces-workflow::prioritized"` assigned. | TODO: implement |
 | <a id="automation-10">10</a> | Ensure issues and MRs are 1-1 | - Every MR in `~"Category:Workspace"` must have the first line of the description matching: `Issue: <issue link>\n\n`. See https://docs.gitlab.com/ee/topics/gitlab_flow.html#linking-and-closing-issues-from-merge-requests  <br> - Every Issue in `~"Category:Workspace"` must have the first line of the description matching: `"MR: <MR link>"` or `"MR: Pending"`. See https://docs.gitlab.com/ee/topics/gitlab_flow.html#linking-and-closing-issues-from-merge-requests | TODO: implement |
-| <a id="automation-11">11</a> | Automate Label Assignment for Ignored Issues | Issues with the `type::ignore` label should have the `rd-workflow::ignored` label assigned. | TODO: implement |
-| <a id="automation-12">12</a> | Ensure all prioritized issues with an assignee have a weight assigned | All issues with `~rd-workflow::prioritized` and an assignee but no weight should get a reminder note to either add a weight estimate or remove the assignee. | TODO: implement |
+| <a id="automation-11">11</a> | Automate Label Assignment for Ignored Issues | Issues with the `type::ignore` label should have the `workspaces-workflow::ignored` label assigned. | TODO: implement |
+| <a id="automation-12">12</a> | Ensure all prioritized issues with an assignee have a weight assigned | All issues with `~workspaces-workflow::prioritized` and an assignee but no weight should get a reminder note to either add a weight estimate or remove the assignee. | TODO: implement |
 | <a id="automation-13">13</a> | Assign a `rd-maturity::*` label of `viable`, `complete`, etc based on epic hierarchy | All issues should have appropriate labels added/removed based on epic hierarchy | TODO: implement |
 | <a id="automation-14">14</a> | Add an error comment if an issue is assigned to an iteration in the [RD cadence](https://gitlab.com/groups/gitlab-org/-/cadences/) but not assigned to `~Category:Workspace` | TODO: implement | |
