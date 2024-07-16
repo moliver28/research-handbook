@@ -7,6 +7,11 @@ description: "This page outlines GitLab's benchmarks for measuring the effective
 
 This page outlines GitLab's standardized benchmarks for evaluating AI features throughout the development lifecycle. These metrics are designed to be approachable for all teams while aligning with industry best practices for AI evaluation.
 
+## Challenges with evaluating features
+- Non-deterministic outputs are difficult to test due to the variance in responses
+- Speed of industry advancements sometimes require reworking features mid-development
+- High quality evaluations require time, focus and attention to detail
+
 ## Key Principles
 
 - Focus on end-user value and impact
@@ -14,7 +19,7 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 - Prioritize real-world usage over academic benchmarks
 - Embrace iteration and continuous improvement
 
-## Core Evaluation Metrics
+## Potential Evaluation Metrics
 
 ### 1. Time to Value
 
@@ -48,7 +53,7 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 
 **Measurement**: Automated comparison against ground truth datasets
 
-### 5. Impact on Development Velocity
+### 5. Impact on Development Velocity (if applicable)
 
 **Definition**: Reduction in overall development cycle time when using AI features
 
@@ -66,7 +71,7 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 
 ### 7. Expert Comparison
 
-**Definition**: Performance of the AI feature compared to human experts in the domain
+**Definition**: Performance of the AI feature compared to [human experts in the same domain](https://handbook.gitlab.com/handbook/product/personas/#list-of-user-personas)
 
 **Benchmark**: AI performance meets or exceeds median expert level
 
@@ -94,7 +99,7 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 
 ## Things to Avoid
 
-- Over-relying on academic benchmarks that don't reflect real-world usage
+- Favoring academic benchmarks over real-world usage
 - Spending excessive time on evaluations before validating product-market fit
 - Using complex evaluation frameworks that slow down iteration
 - Neglecting to measure long-term impact on user workflows and productivity
