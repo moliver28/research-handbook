@@ -53,7 +53,19 @@ We can help with:
 
 Contact us in [#g_delivery](https://gitlab.enterprise.slack.com/archives/CCFV016SV)
 
-We can help with:
+-We can help with:
+
+1. Deployments to GitLab.com
+1. Post Deployment Migrations (in relation to deployments)
+1. Auto-Deploy
+1. Hot Patching Process
+1. Mean Time To Production
+1. Release Management
+1. Release Processes
+1. Maintenance Policy
+1. Patch Releases
+1. Monthly Releases
+1. Backports
 
 ### Scalability - Observability
 
