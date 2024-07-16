@@ -67,7 +67,7 @@ Our continuous learning initiatives are documented in the [UX Department Learnin
 
 ### Usability improvement sprints 
 
-This initiative aims to enhance our product's usability by enabling pairing of Product Designers and Engineers to make self-directed progress on high confidence improvements. 
+This initiative aims to enhance our product's usability by pairing Product Designers and Engineers to make self-directed progress toward high-confidence improvements. 
 
 Key Elements:
 
