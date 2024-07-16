@@ -395,7 +395,7 @@ Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywor
 
 ### Chorus Training Resources
 
-- Chorus: [Tips for Getting Start](https://docs.chorus.ai/hc/en-us/articles/115009183547-Tips-on-Getting-Started-with-Chorus)
+- Chorus: [Tips for Getting Start](https://www.zoominfo.com/about/get-started-old/chorus)
 - GitLab Edcast: [Chorus Overview](https://gitlab.edcast.com/journey/week)
 - GitLab Edcast: [Sample Chorus IQM Calls](https://gitlab.edcast.com/insights/sample-chorus)
 
