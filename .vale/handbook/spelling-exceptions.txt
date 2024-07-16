@@ -824,7 +824,8 @@ onboards
 OpenID
 OpenShift
 OpenTelemetry
-opportunties
+operationalize
+operationalized
 Opsgenie
 Opstrace
 orgs
@@ -858,6 +859,7 @@ PBPs
 PDFs
 PEOs
 performant
+Permifrost
 pfSense
 PgBouncer
 pgFormatter
@@ -1000,6 +1002,7 @@ replicables
 repmgr
 repmgrd
 repo
+repos
 reposts
 repurpose
 repurposes
@@ -1261,6 +1264,8 @@ toolkits
 toolset
 tooltip
 tooltips
+touchpoint
+touchpoints
 trainingctl
 transactionally
 transformative
