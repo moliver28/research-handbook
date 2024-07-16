@@ -39,5 +39,5 @@ These features currently leverage ClickHouse:
 - [Product Analytics](https://docs.gitlab.com/ee/user/product_analytics/)
 - [Observability](https://docs.gitlab.com/ee/operations/tracing.html)
 - [Runner Fleet Dashboard](https://docs.gitlab.com/ee/ci/runners/runner_fleet_dashboard.html)
-- [Value Stream Dashboard](https://docs.gitlab.com/ee/user/analytics/value_streams_dashboard.html#ai-impact-analytics)
+- [AI Impact Analysis in Value Stream Dashboard](https://docs.gitlab.com/ee/user/analytics/value_streams_dashboard.html#ai-impact-analytics)
 - [Activity Data Storage](https://docs.gitlab.com/ee/development/database/clickhouse/gitlab_activity_data.html)
