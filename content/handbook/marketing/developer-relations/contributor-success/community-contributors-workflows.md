@@ -19,6 +19,10 @@ See guidance on [seeking wider community contributions](/handbook/marketing/deve
 
 See the [partial issue triage checklist](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#partial-triage-checklist).
 
+### Adding Bounties to issues
+
+
+
 ## Merge Requests
 
 Wider community merge requests are MRs opened by a person that's not present on https://about.gitlab.com/company/team/ (excluding any bot, service account users or individual contractors).
