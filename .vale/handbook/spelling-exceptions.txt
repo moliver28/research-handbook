@@ -804,7 +804,7 @@ nullable
 Nurtch
 NVMe
 nyc
-Oauth
+O'Reilly
 OAuth
 OCP
 Octokit
@@ -1155,7 +1155,7 @@ Stackprof
 stacktrace
 starrer
 starrers
-Stoianovici
+Stickermule
 storable
 storages
 strace
