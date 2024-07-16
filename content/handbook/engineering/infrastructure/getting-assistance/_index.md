@@ -26,6 +26,7 @@ We can help with:
 1. Disaster Recovery
 2. Incident Management
 3. System and OS level patching
+
 ### Production Engineering - Foundations
 
 Contact us in: [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6)
@@ -77,9 +78,9 @@ Open an issue in our [Scalability issue tracker](https://gitlab.com/gitlab-com/g
 
 We can help with:
 
-1. Runway
 1. Redis
 1. Sidekiq
+1. Runway: create an issue in the [Runway tracker](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/new)
 
 ## Dedicated
 
