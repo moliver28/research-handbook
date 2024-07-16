@@ -108,6 +108,7 @@ We are members of the [Developer Relations team](/handbook/marketing/developer-r
 | [John Coghlan](/handbook/company/team/#john-coghlan) <br/> Director, Developer Advocacy | Strategy and Planning in Developer Advocacy | English | | | [Website](https://coghlan.me/) |
 | [Michael Friedrich](/handbook/company/team/#dnsmichi) <br/> Senior Developer Advocate | DevSecOps with a focus on AI and CI/CD efficiency | English, German, Austrian | [CI/CD components maintainer](https://gitlab.com/components) | DevSecOps, AI, CI/CD, Observability, Python, Go, C/C++, Rust, Ruby | [Talks](https://dnsmichi.at/talks/), [Portfolio](https://dnsmichi.at/talks/) |
 | [William Arias](/handbook/company/team/#warias) <br/> Senior Developer Advocate | DevSecOps with a focus on AI/ML, Sec and Data | English, Spanish |  | CI/CD, AI/ML, Kubernetes, Security, Python, C |  |
+| [Daniel Helfand](/handbook/company/team/#dhelfand) <br/> Developer Advocate | DevSecOps | English |  | CI/CD, Kubernetes, Go |  |
 
 ## <i class="fa fa-tasks" aria-hidden="true"></i> What we do
 
