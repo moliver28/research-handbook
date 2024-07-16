@@ -101,11 +101,13 @@ details summary * {
 - g_engineering_productivity
 - g_observability
 - g_pipeline-security
+- g_product-planning
 - g_project-management
 - g_runner
 - gck
 - gdk
-- gitpod-gdk
+- gdk-gitpod
+- gdk-workspaces
 - golang
 - is-this-known
 - jetbrains-ide
@@ -133,7 +135,6 @@ details summary * {
 - ux_coworking
 - vim
 - website
-- workspaces-gdk
 
 </details>
 
