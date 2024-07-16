@@ -255,15 +255,17 @@ Additionally, effective Q1 FY22, commissioned roles are eligible to receive quot
 
 In all cases, quota relief is calculated based on the per-month quotas set for a team member in a role at the beginning of the fiscal year, which generally are not equal to 1/12 of annual quota per month, due to businss seasonality.
 
-### Commission Payments on Non-Parental Leave
-
-Effective Q1 FY25, team members on leave for 30 days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave. Commissions will be paid based on the 6 prior months of performance with a cap at 100% of plan. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy.
-
-For Solution Architects and Sales Management and Customer Success Management, payment will be calculated for individuals using actual team performance while on leave for the first five weeks of non-parental leave. These roles will not be eligible for quota relief during parental leave.
+For Solution Architects and Sales Management and Customer Success Management, payment will be calculated for individuals using actual team performance. These roles will not be eligible for quota relief during parental leave.
 
 For Sales roles with a utilization attainment, like the [Professional Services Engineer](/handbook/customer-success/professional-services-engineering/#team-metrics), since the utilization attainment is based on delivering above 70% of available billable hours, we apply the baseline attainment linked to utilization attainment. At the end of 90 continuous days of parental or medical leave, a one time payment of the 50% billable utilization attainment will be paid. Utilization payout during parental or medical leave is not based on prior individual performance, since projects identified for billable utilization are based on sales engagements and services attached, and not determined by individual performance.
 
 On the day you return from leave, the utilization payout returns to the established utilization attainment ranges.
+
+### Commission Payments on Non-Parental Leave
+
+Effective Q1 FY25, team members on leave for 30 days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave. Commissions will be paid based on the 6 prior months of performance with a cap at 100% of plan. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy. 
+
+For Solution Architects and Sales Management and Customer Success Management, payment will be calculated for individuals using actual team performance for the first five weeks of non-parental leave. These roles will not be eligible for quota relief during non-parental leave. 
 
 #### Quota Relief While On Non-Parental Leave
 
