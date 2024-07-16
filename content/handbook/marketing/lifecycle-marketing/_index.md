@@ -28,7 +28,7 @@ Please reach out to Allie Klatzkin or Luis Diego D'ambrosio with any questions.
 ### Meet the Team
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-**Allie Klatzkin** _Staff Lifecycle Marketing Manager_
+**Allie Klatzkin** _Manager, Lifecycle Marketing_
 
 * **Free User Campaigns**: DRI for free user efficiency project, focused on progression of free users to trial to paid
 * **Trial User Campaigns**: DRI for trial nurture, focused on progressing trial users to paid
@@ -40,6 +40,16 @@ Please reach out to Allie Klatzkin or Luis Diego D'ambrosio with any questions.
 * **Email Best Practices, Processes & Optimization**: enable teams across GitLab (mainly Marketing and Sales Dev) on email best practices, as well as streamlining, scaling, and improving email performance
 * **GitLab Corporate Events**: Global templates and scaling process for promoting and following up from corporate events and conferences.
 * **Email point of contact/support**: Reviewing and optimizing AMER & Global events (fmm & corp), campaigns, and newsletter email sends to ensure best practices and compliance with the GitLab brand
+
+**Alison Lee** _Senior Customer Lifecycle Marketing Manager_
+
+* Customer upsell / cross sell / retention
+* Create and continuously optimize email marketing programs that leverage 3rd party signals (e.g. firmographic or demographic) as well as customer behavior data to drive revenue growth or prevent churn
+* Partner with Customer Success to coordinate marketing and support touchpoints for maximum revenue impact
+* Partner with Marketing Analytics to define customer lifecycle reporting and create dashboards to analyze tests, monitor performance against goals
+* Map GitLab’s customer lifecycle stages and create strategic initiatives for each stage of the customer journey, which include onboarding, expansion, and retention
+* Identify key measurable metrics (SKU upsell, license expansion, churn prevention, etc.) that these lifecycle programs can effectively influence
+* Build and maintain relationships with Product Marketing, Developer Relations, and Sales. Establish feedback loops to ensure messaging in our campaigns is accurate, differentiated, and meaningful to our target personas
 
 **Luis Diego D'Ambrosio** _Senior Lifecycle Marketing Manager_
 
