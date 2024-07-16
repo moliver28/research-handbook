@@ -19,9 +19,11 @@ See guidance on [seeking wider community contributions](/handbook/marketing/deve
 
 See the [partial issue triage checklist](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#partial-triage-checklist).
 
+## Bounties
+
 ### Adding Bounties to issues
 
-
+To add a bounty to a GitLab community issue, please mention the releveant product manager. They will assess whether the issue aligns with the GitLab product and, if appropriate, add the bounty label.
 
 ## Merge Requests
 
