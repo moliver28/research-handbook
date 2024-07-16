@@ -1,5 +1,5 @@
 ---
-title: Remote development
+title: Remote development workspaces
 status: ongoing
 creation-date: "2022-11-15"
 authors: [ "@vtak" ]
@@ -737,13 +737,13 @@ You can read more about this decision in this [issue](https://gitlab.com/gitlab-
 
 ## Links
 
-- [Remote Development direction](https://about.gitlab.com/direction/create/ide/remote_development/)
+- [Remote Development Workspaces direction](https://about.gitlab.com/direction/create/remote_development/workspaces/)
 - [Remote Development presentation](https://docs.google.com/presentation/d/1XHH_ZilZPufQoWVWViv3evipI-BnAvRQrdvzlhBuumw/edit#slide=id.g131f2bb72e4_0_8)
 - [Category Strategy epic](https://gitlab.com/groups/gitlab-org/-/epics/7419)
 - [Minimal Maturity epic](https://gitlab.com/groups/gitlab-org/-/epics/9189)
 - [Viable Maturity epic](https://gitlab.com/groups/gitlab-org/-/epics/9190)
 - [Complete Maturity epic](https://gitlab.com/groups/gitlab-org/-/epics/9191)
-- [Remote Development Engineering Sync](https://docs.google.com/document/d/1hWVvksIc7VzZjG-0iSlzBnLpyr-OjwBVCYMxsBB3h_E/edit#)
+- [Remote Development Workspaces Engineering Sync](https://docs.google.com/document/d/1hWVvksIc7VzZjG-0iSlzBnLpyr-OjwBVCYMxsBB3h_E/edit#)
 - [Market analysis and architecture](https://gitlab.com/groups/gitlab-org/-/epics/8131)
 - [Developer Documentation](https://gitlab.com/gitlab-org/remote-development/gitlab-remote-development-docs/)
 - [BYO infrastructure](https://gitlab.com/groups/gitlab-org/-/epics/8290)
