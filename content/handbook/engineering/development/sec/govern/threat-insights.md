@@ -38,7 +38,7 @@ The following members of other functional teams are our stable counterparts, and
 
 DRI: {{< member-by-gitlab "nmccorrison" >}}
 
-{{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "Quintasan" "subashis">}}
+{{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "subashis">}}
 
 ### [Projects](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#vulnerability-management)
 
