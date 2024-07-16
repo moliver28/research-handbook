@@ -67,8 +67,7 @@ Our continuous learning initiatives are documented in the [UX Department Learnin
 
 ### Usability improvement sprints 
 
-This initiative aims to enhance our product's usability by pairing Product Designers and Engineers to make self-directed progress toward high-confidence improvements. 
-
+This initiative aims to enhance our product's usability by pairing Product Designers and Engineers to make self-directed progress toward high-confidence improvements.
 Key Elements:
 
 - **Self-directed improvements:** Product Designers and Engineers are empowered to fix usability issues they identify without strict prioritization constraints.
@@ -86,7 +85,6 @@ To participate, Product Designers and Engineers should:
 1. Indicate the percentage of capacity dedicated to the initiative.
 1. Link all related issues that arise in the sprint to the main issue for transparency and tracking.
 1. Ensure all changes align with the Pajamas Design System and leverage feature flags where appropriate.
-
 
 #### Measuring Success
 
