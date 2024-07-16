@@ -64,7 +64,9 @@ Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/
 You can access your ManuLife portal [here](https://portal.manulife.ca/gb/sponsor-portal/public/welcomePage). See this video on how to [navigate the ManuLife Portal](https://drive.google.com/file/d/13Lxx8EC8FsWm5q-dc3kNkbAswNndzX2D/view?usp=sharing) and this video on the [ManuLife Mobile App access](https://drive.google.com/file/d/16bmw-RpeL8YKiz7MOWCJA03hQ0jEfubV/view?usp=sharing)
 
 **For new hires:**
-Upon your first week with GitLab, you will be receiving an invitation from ManuLife with a directions on how to register for the a ManuLife account and add our Group Plan. Click on that link sent to you to set up your profile.  
+Once you've determined your enrollment coverage (family plan or single plan), email your decision to total-rewards@gitlab.com. This step must be completed in order for your enrollment process to begin.
+
+During your first week with GitLab, you will be receiving an invitation from ManuLife with a directions on how to register for the a ManuLife account and add our Group Plan. Click on that link sent to you to set up your profile.  
 Please reach out to the Total Rewards team at `total-rewards@gitlab.com` if you have any questions!
 
 More Details on setting up your ManuLife site can be found the [GitLab ManuLife Resource Page](https://eng4e.seismic.com/ls/0e8eb3a1-8323-43d7-b686-66c5d7745887/LkB_7-xfYTPGO0qT#/) including the following guides:
