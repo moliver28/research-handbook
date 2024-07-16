@@ -43,7 +43,7 @@ More details on Channel SA engagement model can be found in this [RACI spreadshe
 
 ### How to Engage a Channel SA
 
-The `#channel-solution-architects` slack channel is monitored by the CSA's globally.  If you do have a specific Partner related topic or question best handled by an SA, reach out to us there.
+The `#partner-solutions-architects` slack channel is monitored by the CSA's globally.  If you do have a specific Partner related topic or question best handled by an SA, reach out to us there.
 
 Regionally the Channel SA's coordinate issues within the following projects:
 
