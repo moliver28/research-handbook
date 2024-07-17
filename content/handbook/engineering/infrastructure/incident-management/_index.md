@@ -550,9 +550,9 @@ In order to help with attribution, we also label each incident with a scoped lab
 
 #### Root Cause Labeling
 
-Labeling incidents with similar causes helps develop insight into overall trends and when combined with Service attribution, improved understanding of Service behavior. Indicating a single root cause is desirable and in cases where there appear to be multiple root causes, indicate the root cause which precipitated the incident.
-
-The EOC, as DRI of the incident, is responsible for determining root cause.
+Labeling incidents with a Root Cause is done for the categorization of incidents when deploy pipelines are blocked.
+For this reason, a label with the prefix `~RootCause` is required whenever an incident has the `~"release-blocker"` label.
+The person assigned to the incident is responsible for adding the appropriate Root Cause label.
 
 The current Root Cause labels are listed below. In order to support trend awareness these labels are meant to be high-level, not too numerous, and as consistent as possible over time.
 
@@ -644,7 +644,7 @@ These labels are always required on incident issues.
 | ----- | ------- |
 | `~Service::*` | Scoped label for service attribution. Used in metrics and error budgeting. |
 | `~Severity::*` (automatically applied) | Scoped label for severity assignment. Details on severity selection can be found in the [availability severities](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) section. |
-| `~RootCause::*` | Scoped label indicating root cause of the incident. |
+| `~RootCause::*` | Scoped label indicating root cause of the incident, this label is only required for incidents with the `~"release-blcoker"` label. |
 
 #### Other Incident Labels
 
