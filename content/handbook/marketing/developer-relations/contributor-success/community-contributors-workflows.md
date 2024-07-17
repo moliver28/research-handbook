@@ -21,7 +21,9 @@ See the [partial issue triage checklist](/handbook/engineering/infrastructure/en
 
 ## Bounties
 
-Issue bounties allow users to offer rewards for community issues. The terms of these bounties need to be discussed by all parties involved and are outside the remit of GitLab. GitLab will not take responsibility for any redemption or disagreements involving bounties.
+Issue bounties allow users to offer rewards for issues.
+Bounty terms are between the bounter/offererer and the bountee/recipient(s) and outside the remit of GitLab.
+GitLab does not take responsibility for redemption or disagreements involving bounties.
 
 ### Adding bounties to issues
 
