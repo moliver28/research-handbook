@@ -44,39 +44,7 @@ It is expected that some objectives will not be completed for general availabili
 
 ### 1. Data access layer
 
-Before Cells can be run in production we need to prepare the codebase to accept the Cells architecture.
-This preparation involves:
-
-- Allowing data sharing between Cells.
-- Updating the tooling for discovering cross-Cell data traversal.
-- Defining code practices for cross-Cell data traversal.
-- Analyzing the data model to define the data affinity.
-
-Under this objective the following steps are expected:
-
-1. **Allow to share cluster-wide data with database-level data access layer.**
-
-    Cells can connect to a database containing shared data. For example: application settings, users, or routing information.
-
-1. **Evaluate the efficiency of database-level access vs. API-oriented access layer.**
-
-    Reconsider the consequences of database-level data access for data migration, resiliency of updates and of interconnected systems when we share only a subset of data.
-
-1. **Cluster-unique identifiers**
-
-    Every object has a unique identifier that can be used to access data across the cluster. The IDs for allocated Projects, issues and any other objects are cluster-unique.
-
-1. **Cluster-wide deletions**
-
-    If entities deleted in Cell 2 are cross-referenced, they are properly deleted or nullified across clusters. We will likely reuse existing [loose foreign keys](https://docs.gitlab.com/ee/development/database/loose_foreign_keys.html) to extend it with cross-Cells data removal.
-
-1. **Data access layer**
-
-    Ensure that a stable data access (versioned) layer is implemented that allows to share cluster-wide data.
-
-1. **Database migration**
-
-    Ensure that migrations can be run independently between Cells, and we safely handle migrations of shared data in a way that does not impact other Cells.
+The [Topology Service](topology_service.md) will be used for global uniqueness and for a Cell to access data that is globally available.
 
 ### 2. Workflows
 
