@@ -127,6 +127,61 @@ These items must be triaged continuously throughout the milestone which means th
         - If the incident isn't resolved in 30 minutes or more, investigate on it.
         - Write down in the insident Slack thread all the steps that were done to resolve it.
 
+#### Handover
+
+1. As Reaction Rotation is continous process, post the handover status to the reaction rotation issue using the following template:
+
+<details>
+<summary>Reaction Rotation Handover Template</summary>
+
+### Reaction Rotation Handover Template
+
+```markdown
+
+---
+
+**Outgoing Engineers:** [1st reaction rotation eng., 2nd reaction rotation eng.]
+
+**Incoming Engineers:** [1st reaction rotation eng., 2nd reaction rotation eng.]
+
+---
+
+#### **Ongoing Tasks and Issues**
+
+1. **Security Tasks:**
+   - **Vulnerabilities:**
+     - [Issue #1234](link to issue): Description of the vulnerability, current status, and next steps.
+   - **Security Automation Failures:**
+     - [Automation Job #9012](link to job): Description of the failure, any initial troubleshooting steps taken, and next steps.
+   - **Dependency Updates:**
+     - [Dependency Update #3456](link to update): Description, current status, and next steps for updating the dependency.
+
+2. **Support Tasks:**
+   - **Support Requests:**
+     - [Request #7890](link to request): Description of the support request in progress, current status, and any communication with the requester.
+   - **Slack Channels Monitoring:**
+     - #g_secure-composition-analysis: Summary of recent discussions, any unresolved questions, and pending actions.
+     - #s_secure-alerts: Summary of recent alerts, any unresolved issues, and pending actions.
+
+3. **Maintenance Tasks:**
+   - **Community Contributions:**
+     - [Merge Request #6789](link to MR): Description of the contribution, current status, and next steps.
+   - **Scheduled Bugs and Maintenance Issues:**
+     - [Issue #3456](link to issue): Description of the issue, current status, and next steps.
+
+#### **Additional Notes**
+  
+1. **Any additional context or notes relevant to the next engineer:**
+   - Additional Note.
+
+```
+
+This handover template ensures that the incoming engineer is fully informed of the current status of tasks, issues, and any important context. It facilitates a smooth transition and minimizes the risk of overlooking critical responsibilities.
+
+</details>
+
+1. Assign ownership of the [Reaction Rotation group](https://gitlab.com/groups/gitlab-org/secure/composition-analysis-dev/reaction-rotation/-/group_members?with_inherited_permissions=exclude) to the new engineers.
+
 ### Security vulnerabilities triaging process
 
 We are responsible for triaging vulnerabilities reported on 2 sets of projects: the projects maintained by GitLab and the upstream scanner software we might depend on. Though, we have different processes that apply depending on the situation.
