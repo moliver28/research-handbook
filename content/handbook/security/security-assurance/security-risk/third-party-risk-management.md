@@ -455,11 +455,16 @@ Circumstances may arise in which a Security deficiency exists that is unavoidabl
 
 Security Notices for externally-hosted systems are drafted and escalated in alignment with the system's [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/). This is to allow for appropriate stakeholder visibility and to minimize business disruption resulting from requisition denial.
 
-1. **Tier 4 Systems** - Not eligible for a Security Notice as these are not required to support business functions.
-1. **Tier 3 Systems** - Minor impact on business operations. VP and Corporate Security approval required.
-1. **Tier 2 and Tier 1 Systems** - Major impact on business operations. E-Group and Corporate Security approval required.
+1. **Tier 4 Systems** - Not required to support business functions. Not eligible for a security notice, request is denied.
+1. **Tier 3 Systems** - Minor impact on business operations. Business Owner and VP approval required.
+1. **Tier 2 and Tier 1 Systems** - Major impact on business operations. Business Onwer, VP, and E-Group approval required.
 
-In some circumstances, the business may require advance approval of a requisition prior to completion of a security review. In these scenarios, a TPRM Security Notice will be documented and presented for VP approval for Tier 1, 2, and 3 systems. Failure to obtain the requisite materials within a reasonable timeline may result in escalation of the risk to executive leadership.
+Deficiences related to professional services vendors are reported in alignment with the classification of data shared.
+
+1. **Orange Data:** VP, IT
+1. **Red Data:** E-Group, IT
+
+In some circumstances, the business may require advance approval of a requisition prior to completion of a security review. In these scenarios, a TPRM Security Notice will be documented and presented for VP approval for Tier 1 - 3 systems. Failure to obtain the requisite materials within a reasonable timeline may result in escalation of the risk to executive leadership. Tier 4 systems are not eligible for advance approval.
 
 Scenarios could exist in which a Security control failure carries Privacy implications that should be communicated to the Business Owner. As such, the Privacy team should be notified prior to finalization of the associated Security Notice.
 
