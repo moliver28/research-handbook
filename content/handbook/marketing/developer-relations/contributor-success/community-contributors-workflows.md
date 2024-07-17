@@ -39,7 +39,7 @@ Meaning it is easier for the bounty hunters to know the benefactors to mention w
 
 #### Displaying issue with bounties
 
-To display all issues that have bounties assigned, use the filter in the issue search and look for the label "bounty".
+To display all [issues that have bounties](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=popularity&state=opened&label_name%5B%5D=bounty&first_page_size=20) assigned, use the filter in the issue search and look for the label "bounty".
 
 #### Accepting a bounty
 
