@@ -31,11 +31,11 @@ Base type for issue, requirement, test case, incident and task (this list is pla
 
 A set of predefined types for different categories of work items. Currently, the available types are:
 
-- [Incident](https://docs.gitlab.com/ee/operations/incident_management/incidents.html)
-- [Test case](https://docs.gitlab.com/ee/ci/test_cases/index.html)
-- [Requirement](https://docs.gitlab.com/ee/user/project/requirements/index.html)
 - [Task](https://docs.gitlab.com/ee/user/tasks.html)
 - [OKRs](https://docs.gitlab.com/ee/user/okrs.html)
+- [Incident](https://docs.gitlab.com/ee/operations/incident_management/incidents.html) - The work item type has been defined but is not used in production.
+- [Test case](https://docs.gitlab.com/ee/ci/test_cases/index.html) - The work item type has been defined but is not used in production.
+- [Requirement](https://docs.gitlab.com/ee/user/project/requirements/index.html) - The work item type has been defined but is not used in production.
 
 Work is underway to convert existing objects to Work Item Types or add new ones:
 
