@@ -738,7 +738,7 @@ You can read more about this decision in this [issue](https://gitlab.com/gitlab-
 ## Links
 
 - [Remote Development Workspaces direction](https://about.gitlab.com/direction/create/remote_development/workspaces/)
-- [Remote Development presentation](https://docs.google.com/presentation/d/1XHH_ZilZPufQoWVWViv3evipI-BnAvRQrdvzlhBuumw/edit#slide=id.g131f2bb72e4_0_8)
+- [Remote Development Workspaces presentation](https://docs.google.com/presentation/d/1XHH_ZilZPufQoWVWViv3evipI-BnAvRQrdvzlhBuumw/edit#slide=id.g131f2bb72e4_0_8)
 - [Category Strategy epic](https://gitlab.com/groups/gitlab-org/-/epics/7419)
 - [Minimal Maturity epic](https://gitlab.com/groups/gitlab-org/-/epics/9189)
 - [Viable Maturity epic](https://gitlab.com/groups/gitlab-org/-/epics/9190)
