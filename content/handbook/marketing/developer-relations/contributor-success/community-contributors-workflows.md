@@ -19,27 +19,30 @@ See guidance on [seeking wider community contributions](/handbook/marketing/deve
 
 See the [partial issue triage checklist](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#partial-triage-checklist).
 
-## Bounties
+### Bounties
 
 Issue bounties allow users to offer rewards for issues.
-Bounty terms are between the bounter/offererer and the bountee/recipient(s) and outside the remit of GitLab.
+Bounty terms are between the offererer and the recipient(s) and outside the remit of GitLab.
 GitLab does not take responsibility for redemption or disagreements involving bounties.
 
-### Adding bounties to issues
+#### Adding bounties to issues
 
-To add a bounty to a GitLab community issue, please mention the relevant product manager. They will assess whether the issue aligns with the GitLab product and, if appropriate, add the bounty label. Once the label has been added, the user offering the bounty should add any details of the reward to the issue as a comment.
+To add a bounty to a issue, mention the relevant product manager.
+If the issue aligns with the GitLab product offering, the bounty label is assigned.
+The bounty offerer adds any details of the reward to the issue as a comment.
 
-### Displaying issue with bounties
+#### Displaying issue with bounties
 
 To display all issues that have bounties assigned, use the filter in the issue search and look for the label "bounty".
 
-### Accepting a issue bounty
+#### Accepting a issue bounty
 
 To accept an issue bounty, mention the user(s) offering the bounty/bounties and discuss the terms.
 
-### Claiming a issue bounty
+#### Claiming a issue bounty
 
-When you have completed the bounty as per the discussed terms, mention the user offering the bounty and provide an update. Any payment, product, or services offered should be processed outside of the GitLab platform.
+When you have completed the bounty as per the discussed terms, mention the user offering the bounty and provide an update.
+Any payment, product, or services offered should be processed outside of the GitLab platform.
 
 ## Merge Requests
 
