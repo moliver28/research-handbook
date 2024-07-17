@@ -5,7 +5,6 @@ description: "Google Lighthouse is used on our Buyer Experience site to measure 
 
 Relevant links
 
-* Link to CI server: <https://gitlab-be-lhci-server-b083c644acc1.herokuapp.com/app/projects/gitlab-be-lhci-server/dashboard>
 * Link to project in GitLab: <https://gitlab.com/gitlab-com/marketing/digital-experience/lighthouse-ci-server>
 * Documentation: <https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/server.md>
 
