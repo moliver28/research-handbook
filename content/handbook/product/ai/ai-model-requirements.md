@@ -1,7 +1,7 @@
-***
+---
 title: "AI Model Requirements"
 description: "High level guidance around AI model requirements, specifically LLMs"
-***
+---
 
 ## Intent
 
@@ -20,8 +20,8 @@ Example Duo Use cases
 
 [Code Suggestions](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/index.html) is made up of two distinct capabilities: 
 
-* Code Completion * Complete line as user is typing in real time
-* Code Generation * Natural language code comment to full function/file generation
+* Code Completion: Complete line as user is typing in real time
+* Code Generation: Natural language code comment to full function/file generation
 
 ### Code Completion
 
@@ -71,7 +71,7 @@ Code generation has more relaxed requirements. As a developer is not activley wr
 * Focus on P50 latency due to:
   * Variance in GitLab deployment patterns
   * Customer geographies
-  * Local user & customer network configurations
+  * Local user and customer network configurations
 
 #### Latency Thresholds
 
@@ -81,12 +81,12 @@ Code generation has more relaxed requirements. As a developer is not activley wr
 #### Ideal Latency
 
 * 200ms for inference
-* Assumption: ~100ms total for pre* & post*inference routing & processing
+* Assumption: ~100ms total for pre- and post-inference routing and processing
 * Target: 300ms total (perceived as "instant" rendering)
 
 #### Current Benchmarks
 
 * No specific benchmarks available
-* Performance testing process detailed at: [GitLab Blog * Inside Look: How GitLab's Test Platform Team Validates AI Features](https://about.gitlab.com/blog/2024/06/03/inside*look*how*gitlabs*test*platform*team*validates*ai*features/#performance*validation)
+* Performance testing process detailed at: [GitLab Blog - Inside Look: How GitLab's Test Platform Team Validates AI Features](https://about.gitlab.com/blog/2024/06/03/inside-look-how-gitlabs-test-platform-team-validates-ai-features/#performance-validation)
 
 Note: All latency goals are for end*to*end rendering in the user IDE, not just model inference time.
