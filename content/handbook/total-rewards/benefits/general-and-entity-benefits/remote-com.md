@@ -624,7 +624,7 @@ GitLab does not plan to offer pension benefit at this time as the Hungarian pens
 
 ### Life Insurance
 
-GitLab does not plan to offer life insurance at this time as team members can access the benefits from [Social insurance system](https://tcs.allamkincstar.gov.hu/) if they get ill, injured or have a disability.
+GitLab does not plan to offer life insurance at this time as team members can access the benefits from [Social insurance system](https://www.allamkincstar.gov.hu/) if they get ill, injured or have a disability.
 
 ### Hungary Statutory Leave Policies
 
