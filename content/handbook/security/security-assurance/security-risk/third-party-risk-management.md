@@ -459,10 +459,10 @@ Security Notices for externally-hosted systems are drafted and escalated in alig
 1. **Tier 3 Systems** - Minor impact on business operations. Business Owner and VP approval required.
 1. **Tier 2 and Tier 1 Systems** - Major impact on business operations. Business Onwer, VP, and E-Group approval required.
 
-Deficiences related to professional services vendors are reported in alignment with the classification of data shared.
+Deficiences related to professional services vendors are reported in alignment with the classification of data shared. IT and/or People Ops should be included as an approver based on the deficiences identified. Endpoint deficiencies will be reported to IT, background check deficiencies are reported to People Ops.
 
-1. **Orange Data:** VP, IT
-1. **Red Data:** E-Group, IT
+1. **Orange Data:** VP, IT / People Ops
+1. **Red Data:** E-Group, IT / People Ops
 
 In some circumstances, the business may require advance approval of a requisition prior to completion of a security review. In these scenarios, a TPRM Security Notice will be documented and presented for VP approval for Tier 1 - 3 systems. Failure to obtain the requisite materials within a reasonable timeline may result in escalation of the risk to executive leadership. Tier 4 systems are not eligible for advance approval.
 
