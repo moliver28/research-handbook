@@ -13,7 +13,7 @@ Note: this section only discusses items in the offboarding where People Engineer
 
 ```mermaid
 graph TD
-  A[Offboarding is approved in Workday] --> |All offboardings on last day of work| B
+  A[Offboarding is approved in Workday] --> |All offboardings| B
   A --> |When the offboarding is voluntary| G
   B[Offboarding issue is created, manager is assigned] --> C
   C[Offboarding merge request is created] --> D
@@ -21,6 +21,10 @@ graph TD
   G[Informational email is sent to the departing team member] --> |2 days before departure| H
   H[Slack message is sent to the departing team member]
 ```
+
+> **Voluntary** terminations will be processed within a valid offboarding window for the day, according to the team members current timezone. Please see, the [Scheduled Offboarding Issue Creation](#scheduled-offboarding-issue-creation) section for more.
+>
+> **Involuntary** terminations will be processed as soon as they are fully approved in Workday.
 
 ## Automations
 
