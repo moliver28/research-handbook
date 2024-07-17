@@ -8,7 +8,7 @@ During an incident, playbooks are vital to the engineer on call (EOC) in resolvi
 
 ## Expectations
 
-A playboook should use the [playbook template][] and follow the guidence within. The playbook should include the following sections:
+A playboook should use the [playbook template](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/template-alert-playbook.md) and follow the guidence within. The playbook should include the following sections:
 
 1. An overview section including what the alert means and what action the EOC is expected to take.
 2. Information on the service and who owns the service.
@@ -25,20 +25,16 @@ A playboook should use the [playbook template][] and follow the guidence within.
 
 ## Guidelines on Playbook Management and Creation
 
-- Create playbooks in the relevent service directory under `/alerts/` such as `docs/<service name>/alerts/` in the [Runbooks Repo][] using the [playbook template][playbook template]
+- Create playbooks in the relevent service directory under `/alerts/` such as `docs/<service name>/alerts/` in the [Runbooks Repo](https://gitlab.com/gitlab-com/runbooks) using the playbook template.
 - Condense alerts into a single playbook when the difference between alert names is only a suffix with a header line indicating that the playbook covers multiple alerts.
   - For example, `WALGBaseBackupDelayed` and `WALGBaseBackupFailed` are combined into one playbook named [`WALGBaseBackup`](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/patroni/alerts/walgBaseBackup.md). The majority of the details will be the same, but the difference between "Delayed" and "Failed" need to be discussed.
 - Update the links that are attached to the alerts. Alerts are defined in either the [mimir-rules-jsonnet](https://gitlab.com/gitlab-com/runbooks/-/tree/master/mimir-rules-jsonnet) or [mimir-rules](https://gitlab.com/gitlab-com/runbooks/-/tree/master/mimir-rules) directories in the Runbooks repo.
 - When adding a new alert, the service owners adding the alert should create a playbook ***before*** the alert is added.
 - After modifying an alert or playbook, you'll need to run `make generate` in the runbooks repo. Instructions on how to prepare the runbooks repo can be found in the [contributor onboarding in the README](https://gitlab.com/gitlab-com/runbooks/-/tree/master#contributor-onboarding).
-- When creating the merge request, use the template [`alert-playbook-template`][mr template] for the text of the merge request.
+- When creating the merge request, use the template [`alert-playbook-template`](https://gitlab.com/gitlab-com/runbooks/-/blob/master/.gitlab/merge_request_templates/alert-playbook-template.md) for the text of the merge request.
 - Reach out to the Production Engineering - Ops team in #g_infra_ops Slack channel if you need assistance.
 
 ## Important Links
 
-- [Playbook Template][]
-- [MR template for new playbooks][mr template]
-
-[runbook repo]: https://gitlab.com/gitlab-com/runbooks
-[playbook template]: https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/template-alert-playbook.md
-[mr template]: https://gitlab.com/gitlab-com/runbooks/-/blob/master/.gitlab/merge_request_templates/alert-playbook-template.md
+- [Playbook Template](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/template-alert-playbook.md)
+- [MR template for new playbooks](https://gitlab.com/gitlab-com/runbooks/-/blob/master/.gitlab/merge_request_templates/alert-playbook-template.md)
