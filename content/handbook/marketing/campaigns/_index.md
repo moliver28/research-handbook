@@ -37,7 +37,7 @@ Think of a **campaign activation kit** as the bill of materials of an integrated
 
 _The list below includes recommended items included in a **Campaign activation kit**, which is developed by the Campaign Core Team consisting of Campaigns, Product Marketing, Developer Advocacy, Content, Analyst relations, and Design.
 
-_Visualization of a campaigns kit coming soon_
+Campaign managers will update the [SSOT activation kit issue]() at campaign launch and whenever new content for the campaign is ready to be activated. 
 
 **What is included in a Campaign kit?**
 
