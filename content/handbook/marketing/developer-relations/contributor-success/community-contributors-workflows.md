@@ -22,27 +22,36 @@ See the [partial issue triage checklist](/handbook/engineering/infrastructure/en
 ### Bounties
 
 Issue bounties allow users to offer rewards for issues.
-Bounty terms are between the offererer and the recipient(s) and outside the remit of GitLab.
+Bounty terms are between the benefactor(s) and the bounty hunter(s) and outside the remit of GitLab.
 GitLab does not take responsibility for redemption or disagreements involving bounties.
 
 #### Adding bounties to issues
 
-To add a bounty to a issue, mention the relevant product manager.
-If the issue aligns with the GitLab product offering, the bounty label is assigned.
-The bounty offerer adds any details of the reward to the issue as a comment.
+To offer a bounty to a issue, mention the product manager for the
+[relevant product group](https://handbook.gitlab.com/handbook/product/categories/).
+Provide details about the bounty reward, for example:
+
+`Hey @gweaver I am prepared to offer a financial incentive for anyone who can delivery this feature. If you're happy it aligns with the product direction, could you please add the ~bounty label.`
+
+If the issue aligns with the product direction, the product manager assigns the `~bounty` label.
+They also update the issue description to add/update section `Bounty Benefactors` listing the benefactor(s).
+Meaning it is easier for the bounty hunters to know the benefactors to mention when discussing terms.
 
 #### Displaying issue with bounties
 
 To display all issues that have bounties assigned, use the filter in the issue search and look for the label "bounty".
 
-#### Accepting a issue bounty
+#### Accepting a bounty
 
-To accept an issue bounty, mention the user(s) offering the bounty/bounties and discuss the terms.
+To accept a bounty, mention the benefactor(s) offering the bounty/bounties and discuss the terms.
 
-#### Claiming a issue bounty
+Already accepted bounties do not preclude anyone else working on it too.
+But `@mention` the bounty hunter(s) about possibility of collaboration beforehand.
 
-When you have completed the bounty as per the discussed terms, mention the user offering the bounty and provide an update.
-Any payment, product, or services offered should be processed outside of the GitLab platform.
+#### Claiming a bounty
+
+When you have completed the bounty as per the discussed terms, mention the benefactor(s) offering the bounty and provide an update.
+Payment, product, or services are processed outside of GitLab.
 
 ## Merge Requests
 
