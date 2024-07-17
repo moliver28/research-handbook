@@ -28,7 +28,7 @@ GitLab does not take responsibility for redemption or disagreements involving bo
 #### Adding bounties to issues
 
 To offer a bounty to a issue, mention the product manager for the
-[relevant product group](https://handbook.gitlab.com/handbook/product/categories/).
+[relevant product group](/handbook/product/categories/).
 Provide details about the bounty reward, for example:
 
 `Hey @gweaver I am prepared to offer a financial incentive for anyone who can delivery this feature. If you're happy it aligns with the product direction, could you please add the ~bounty label.`
