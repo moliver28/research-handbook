@@ -1,13 +1,6 @@
 ---
-
 title: "Sales & Customer Success Onboarding Process"
 ---
-
-
-
-
-
-
 
 ## Sales Onboarding Process
 
@@ -21,7 +14,7 @@ title: "Sales & Customer Success Onboarding Process"
     - [department_enterprise_sales](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/tree/master/.gitlab/issue_templates/role_baseline_access_request_tasks/department_enterprise_sales)
     - [department_field_operations](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/tree/master/.gitlab/issue_templates/role_baseline_access_request_tasks/department_field_operations)
 1. In the "Sales Division" section of that issue, Field Enablement is tagged with the action to add the new sales team member to the Sales Quick Start learning path in EdCast. They will be added to the learning path within their first week of joining GitLab. This learning path is designed to accelerate the new sales team member's time to productivity by focusing on the key sales-specific elements they need to know and be able to do within their first several weeks at GitLab.
-1. The new sales team member will receive an email prompting them to login to EdCast to begin working through the Sales Quick Start learning path.  
+1. The new sales team member will receive an email prompting them to login to EdCast to begin working through the Sales Quick Start learning path.
     - When possible, Sales Enablement will also update the new team member's onboarding issue and/or add a comment to explicitly reference the link to their Sales Quick Start learning path.
     - In the "New Team Member" section, there is a specific action for the new hire to "Complete your Sales Quick Start learning path."
     - See what's included in the virtual, self-paced [Sales Quick Start learning path.](/handbook/sales/onboarding/sales-learning-path/)
@@ -48,4 +41,4 @@ GitLab's role-based learning journeys are based on milestones and enable us to d
 
 ## The Customer-Ready Shadow Program
 
-Shadowing the customer calls of your peers offers a hands-on way to learn how different GitLab roles represent GitLab. We often learn best when we have the opportunity to learn from our peers, practice, and get feedback in an interactive way. It’s also a great way for current team members to make new hires feel welcome and a part of our sales culture at GitLab. [Learn more on the Customer-Ready Shadow Program page.](/handbook/sales/shadow-program/)
+Shadowing the customer calls of your peers offers a hands-on way to learn how different GitLab roles represent GitLab. We often learn best when we have the opportunity to learn from our peers, practice, and get feedback in an interactive way. It's also a great way for current team members to make new hires feel welcome and a part of our sales culture at GitLab. [Learn more on the Customer-Ready Shadow Program page.](/handbook/sales/shadow-program/)

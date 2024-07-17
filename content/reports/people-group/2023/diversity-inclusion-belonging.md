@@ -11,7 +11,7 @@ pdf: 12170_GitLab_DIB_Presentation_07.25.23.pdf
 GitLab. In fact, we founded the company
 with a mission to make it so that
 everyone can contribute—and we know
-that “everyone” is a powerful word. We
+that "everyone" is a powerful word. We
 don't take that lightly.**
 
 "Everyone" is a promise to honor the experiences of each
@@ -39,7 +39,7 @@ help our users change the world.
 > the annual company goals:**
 >
 > Continue to build a diverse team of top talent that we retain
-> and grow.” DIB helps us accelerate innovation, attract top
+> and grow." DIB helps us accelerate innovation, attract top
 > talent, and deepen team member engagement.
 > In fiscal year 2023 (February 2022 through January 2023),
 > GitLab exceeded its aspirational, internal goals for hiring and
@@ -340,7 +340,7 @@ engagement platforms, focused on:
 While FY23 was rooted in building the foundational elements and
 introducing aspirational goals in Talent Acquisition, the year ahead will
 be highlighted by embedding inclusive hiring into our metrics,
-definitions of success, and best practices. Instead of adding “diversity”
+definitions of success, and best practices. Instead of adding "diversity"
 as a layer or lens to see Talent Acquisition (TA) through, we are setting
 out to make DIB a foundational ingredient in everything that we do.
 Through a continued partnership with the DIB, People Business Partners,
@@ -408,10 +408,10 @@ As we work toward achieving our mission of making it so that everyone can
 contribute, DIB will remain a key focus for GitLab. Over the last year we
 faced a number of external headwinds that impacted our global workforce
 in different ways. We dealt with an economic downturn, the fallout from
-Russia’s invasion of Ukraine and the resulting war, the uncertainty of
+Russia's invasion of Ukraine and the resulting war, the uncertainty of
 COVID, the uncertainty of political movements across the globe, and the
 reality that these factors weigh heavily on our team members. With DIB as
-one of our core values, we’ve been able to make progress in spite of
+one of our core values, we've been able to make progress in spite of
 these challenges and are more committed than ever to ensuring GitLab
 creates a workplace and community where everyone can contribute and
 everyone is welcome.

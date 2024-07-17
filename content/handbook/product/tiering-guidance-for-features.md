@@ -1,5 +1,4 @@
 ---
-
 title: Tiering Strategy & Guidance for Product Managers
 ---
 
@@ -87,4 +86,4 @@ Pricing adjustments within a buyer-based model can be challenging and sometimes 
 👎
 
 - Pricing the [MR Diff code quality annotations](https://gitlab.com/gitlab-org/gitlab/-/issues/2526) into Ultimate was something that got some resistance initially since the feature would be used by developers. The feature fits into the Transformation type sale where a team is trying to shift code quality to the left and bring it to the full code review process.
-- Putting the [Accessibility MR Widget](https://docs.gitlab.com/ee/user/project/merge_requests/accessibility_testing.html) into Core was about getting some usage for the new category and to learn what additional features customers wanted.
+- Putting the [Accessibility MR Widget](https://docs.gitlab.com/ee/ci/testing/accessibility_testing.html) into Core was about getting some usage for the new category and to learn what additional features customers wanted.

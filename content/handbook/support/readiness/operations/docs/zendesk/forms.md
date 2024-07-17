@@ -143,11 +143,11 @@ team.
 
 #### Zendesk Global
 
-- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/tickets/forms-and-fields)
+- [Sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/forms-and-fields)
 
 #### Zendesk US Government
 
-- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-us-government/tickets/forms-and-fields)
+- [Sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/tickets/forms-and-fields)
 
 ### Current Zendesk Global forms
 

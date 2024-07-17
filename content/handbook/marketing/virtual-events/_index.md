@@ -104,7 +104,7 @@ This is a GitLab-hosted virtual event with `Webcast` type configuration, which *
 {: #workshops}
 Field Marketing runs hands-on workshops virtually. Regardless or not if there will be money spent to advertise these workshops, marketers are to use the webcast event type. A few more points to note:
 
-* Our GitLab demo environment cannot support more than 250 people, therefore we need to be able to cap registration at no more than 400-500 people. The Self-Service option does not allow for registration to be capped. You can require approval, but Zoom doesn’t allow customization of the rejection email (and it isn’t clear if a rejection email is even sent).
+* Our GitLab demo environment cannot support more than 250 people, therefore we need to be able to cap registration at no more than 400-500 people. The Self-Service option does not allow for registration to be capped. You can require approval, but Zoom doesn't allow customization of the rejection email (and it isn't clear if a rejection email is even sent).
 * By using Zoom webcast for these workshops we are able to more easily track and manage the Q&A coming in from the larger audience. With the chat feature in the Self Service Zoom offering, the chat runs long and can become confusing.
 * There is a more professional look and feel of a Webcast run event vs a self-service run event.
 
@@ -165,7 +165,7 @@ Below is a summary of the promotion plan for webcasts. MPMs will be responsible 
 
 * **Blog merchandising:** 1 post, -30 days prior to live event, DRI = Content team
 * **Organic Social:** 1-2 post, -14 to -7 days prior to live event, DRI = Social team (requires image for sharing)
-* **Paid Ads:** n/a, -21 days prior to live event, DRI = DMP (requires gitlab owned pages - about.gitlab or pages.gitlab)
+* **Paid Ads:** n/a, -21 days prior to live event, DRI = DMP (requires GitLab owned pages - about.gitlab or pages.gitlab)
 * **Targeted Email:** 2-3 sends, -14 and -7 days prior to live event, DRI = MPM (copy provided by requestor)
 * **Newsletter:** 1 post, -15 to -1 day prior to live event, DRI = MPM (only support English language)
 
@@ -181,7 +181,7 @@ When scheduling an event, this table can help guide you towards the right event 
 
 |                                       | Zoom Webcast                | Zoom Meeting                                  |
 |---------------------------------------|-----------------------------|-----------------------------------------------|
-| Screenshare                           | Yes                         | Yes                                           |
+| Screen share                           | Yes                         | Yes                                           |
 | Video/Audio sharing                   | Host/Panelist only          | All participants                              |
 | Participant<br>List                   | Visible to<br>host/panelist | All participants                              |
 | Multiple Hosts                        | Yes                         | Yes                                           |
@@ -365,12 +365,12 @@ You may also want to review the [GitLab Video Playbook](/handbook/communication/
 {: #best-practices-sponsored-events}
 
 * Unlike in-person events, there are not usually drink receptions, food and other activities that drive traffic to a virtual booth. If there is gamification, it also is not a guarantee someone will actually talk to someone in the booth. Do not expect to get the same type of traffic you would at an in person event.
-* To help drive traffic, staff and schedule SDRS and others to attend and network outside of the booth as well, whether that be through direct messages, in sessions, or any other networking features the event provides. Be mindful and encourage SDR’s to direct messages strategically, avoiding mass messaging everyone at the conference. This is often not an appreciated outreach and will be disregarded.
+* To help drive traffic, staff and schedule SDRS and others to attend and network outside of the booth as well, whether that be through direct messages, in sessions, or any other networking features the event provides. Be mindful and encourage SDR's to direct messages strategically, avoiding mass messaging everyone at the conference. This is often not an appreciated outreach and will be disregarded.
 * In AMER, Solution Architects will not join regional virtual sponsored conferences unless otherwise specified. If technical questions arise during the event, please list the question(s) into the `#cs-questions` slack channel. SA Manager is to be included on the event issue and a heads-up will be given in the `#cs-questions` Slack channel so the SA team knows an event will be occurring and to expect questions.
 * Have staff reach out to booth leads as soon as they connect with you to help drive engagement and conversations during the event. Aim to set post event appointments.
 * Create a list of sessions/tracks relevant to GitLab and encourage staff to attend.
 * Post incremental updates in the internal event slack channel or have a daily sync about progress on the event goals, any updates, what to expect that day such as speaking slots or other relevant sessions.
-* If you are the event planner, you may want to create an event profile as “GitLab Moderator” so you can create more brand awareness and manage more aspects of the event without being tied to yourself. It also gives another opportunity for people to interact with the brand if they don’t know where to start.
+* If you are the event planner, you may want to create an event profile as "GitLab Moderator" so you can create more brand awareness and manage more aspects of the event without being tied to yourself. It also gives another opportunity for people to interact with the brand if they don't know where to start.
 * If the event is free or inexpensive, you will likely get people who reach out about hiring. Have a script ready for these questions.
 
 ### Speaker Best Practices
@@ -387,7 +387,7 @@ You may also want to review the [GitLab Video Playbook](/handbook/communication/
 * Remember your background: this will be recorded and published online.
   * Recommend using [GitLab branded virtual backgrounds](https://about.gitlab.com/press/press-kit/).
 * Slides: use a large clear font. You do not know what device the viewer will be on.
-* Don’t move around a lot.
+* Don't move around a lot.
 * Look at the camera.
 * Dress as if you were at an actual conference.
 * If someone will be introducing you, ensure they know how to pronounce your name, title, and GitLab correctly.
@@ -405,7 +405,7 @@ You may also want to review the [GitLab Video Playbook](/handbook/communication/
 * Guide and enable people to share on social .
 * Remind them how they will be able to access content post-event.
 * Teach them how to use the platform you are doing the event on.
-* Add “- GitLab” and the end of your name or “- your title” to your event profile depending on what is displayed in the event when in chat rooms or other interactive areas. If the event platform accepts emoji (often possible if there is a mobile app) feel free to use the fox emoji or something else that shows your personality.
+* Add "- GitLab" and the end of your name or "- your title" to your event profile depending on what is displayed in the event when in chat rooms or other interactive areas. If the event platform accepts emoji (often possible if there is a mobile app) feel free to use the fox emoji or something else that shows your personality.
 * Add a profile picture to your virtual profile if you have the option. It adds a more humanistic touch. If you do not feel comfortable using your image, please use one of the company logos instead.
 
 ### Attendee/Staff Best Practices (Virtual sponsored conferences) - Simulating Hallway Traffic and Connections

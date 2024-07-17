@@ -1,5 +1,4 @@
 ---
-
 title: Alliance Partner Support Guide
 description: "Guide for Support Engineering on how to work with Alliance Partners"
 ---

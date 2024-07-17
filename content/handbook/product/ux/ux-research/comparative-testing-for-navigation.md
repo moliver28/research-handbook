@@ -4,7 +4,7 @@ title: "Comparative testing for navigation"
 
 [Comparative, qualitative usability testing](https://www.uxmatters.com/mt/archives/2017/03/conducting-qualitative-comparative-usability-testing.php) enables you to get feedback on 2-3 designs **early in the design process** to assess the pros and cons of different design directions. This is different from quantitative comparative studies that focus on benchmarking and measurement of the design.
 
-The focus at this stage in the design process is to identify what is working well or not working well with different designs and provide insight on which one to move forward with. This is a within subjects methodology, meaning that each participant will see all designs. By experiencing multiple designs, participants are able to provide useful feedback because they are able to compare and contrast the different designs they’ve seen.
+The focus at this stage in the design process is to identify what is working well or not working well with different designs and provide insight on which one to move forward with. This is a within subjects methodology, meaning that each participant will see all designs. By experiencing multiple designs, participants are able to provide useful feedback because they are able to compare and contrast the different designs they've seen.
 
 ## Why should I use this method?
 
@@ -14,7 +14,7 @@ If you have 2-3 navigation designs with distinct differences, and you want to se
 
 **Benefits:**
 
-- Participants can provide more beneficial and specific feedback because they’re exposed to multiple designs. Having participants experience multiple designs to achieve the same goal will enable them to think about the differences between them.
+- Participants can provide more beneficial and specific feedback because they're exposed to multiple designs. Having participants experience multiple designs to achieve the same goal will enable them to think about the differences between them.
 - You will learn qualitative insights such as comments and opinions about the designs from participants thinking out loud.
 - You will have quantitative data from Task Completion and UMUX Lite scores to compare your designs, although there are limitations to interpreting the data due to a small sample size. These should be interpreted as directional only.
 
@@ -30,7 +30,7 @@ If you have 2-3 navigation designs with distinct differences, and you want to se
 
 **Type of facilitation:** This kind of testing may be moderated or unmoderated depending on the specific details and goals of the study (e.g., how much qualitative insight are you hoping to learn, can participants get through the prototype on their own, etc), but will likely be moderated to elicit enough qualitative feedback to compare the designs.
 
-**Fidelity required:** A prototype with enough fidelity to test the basic interactions and be able to compare the differences between the designs. For example, if you want to assess whether participants can navigate to an area, you would need an interactive prototype that allows participants to complete that task, and ideally be able to click a couple of “wrong” areas or paths.
+**Fidelity required:** A prototype with enough fidelity to test the basic interactions and be able to compare the differences between the designs. For example, if you want to assess whether participants can navigate to an area, you would need an interactive prototype that allows participants to complete that task, and ideally be able to click a couple of "wrong" areas or paths.
 
 **Recommended sample size:** 5, because the goal is to obtain qualitative insights. If you are learning new and significant usability issues after 5 participants, add 1-2 additional participants.
 
@@ -53,7 +53,7 @@ If you have 2-3 navigation designs with distinct differences, and you want to se
 | Metric                    | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                          | What it measures          |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
 | Task Completion           | Assess if participants completed this task. This should be interpreted as directional only, given the small sample size. For example, this can indicate where to focus improvements/help to prioritize findings.                                                                                                                                                                                                                                                 | Effectiveness             |
-| UMUX Lite                 | Two questions on a 7 point scale (1 = strongly disagree and 7 = strongly agree):<br> - 1. [This system’s] capabilities meet my requirements.<br> - 2. [This system] is easy to use.<br> <br>This should be interpreted as directional only, given the small sample size and the focus should be on **why** they provided the rating they did. Also collect qualitative feedback to add understanding to their answer by asking **why** participants rated their UMUX Lite as they did.  | Perceived usability       |
+| UMUX Lite                 | Two questions on a 7 point scale (1 = strongly disagree and 7 = strongly agree):<br> - 1. [This system's] capabilities meet my requirements.<br> - 2. [This system] is easy to use.<br> <br>This should be interpreted as directional only, given the small sample size and the focus should be on **why** they provided the rating they did. Also collect qualitative feedback to add understanding to their answer by asking **why** participants rated their UMUX Lite as they did.  | Perceived usability       |
 | Usability severity rating | Usability issues can be rated as High, Medium, or Low. <br> - **High:** Participants could not complete a task or experienced significant frustration.<br> - **Medium:** Participants had some difficulties completing a task, but could complete it.<br> - **Low:** Participants experienced some minor frustration, confusion, or other issues.                                                                                                                                     | How severe the issues are, informs priority to address |
 
 **Recommended testing platform:** UserTesting for unmoderated,  Zoom for moderated
@@ -89,12 +89,12 @@ If you have 2-3 navigation designs with distinct differences, and you want to se
 To report brief/initial findings in Slack or in an Issue, please use the following format:
 
 - Number of usability issues found with each design
-  - For example, “Design A had 5 usability issues, Design B had 2 usability issues, and Design C had 6 usability issues.”
+  - For example, "Design A had 5 usability issues, Design B had 2 usability issues, and Design C had 6 usability issues."
 - Top 1-2 usability issues found in each design (highest severity) with a brief description of each
   - Fill out the [usability severity analysis spreadsheet- (internal link)](https://docs.google.com/spreadsheets/d/1LkQG2NT1-xi352i0K_3arV2bYs7RlvJ2/edit#gid=1835440721) to determine severity of issues
-  - For example, “2 out of 3 participants struggled to find a recent project with the new placement of the [button or element name].”
+  - For example, "2 out of 3 participants struggled to find a recent project with the new placement of the [button or element name]."
 - Themes around behaviors that led to the usability issue
-  - For example, “2 participants expected to find it [somewhere else]
+  - For example, "2 participants expected to find it [somewhere else]
 - Note any other interesting observations or feedback
-  - For example, “All 3 participants expressed confusion around the change with [X] because…”
+  - For example, "All 3 participants expressed confusion around the change with [X] because…"
 - Note any issues that you plan to address before running the next 2 participants

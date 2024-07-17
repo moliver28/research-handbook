@@ -18,7 +18,7 @@ The People Communications & Engagement Associate is a [grade 5](/handbook/total-
 - Own the internal editorial calendar, through vehicles such as our company newsletter, manager communication, executive videos and/or other communications channels
 - Partner closely with internal stakeholders to develop change management communications with clarity and empathy
 - Have an eye and ear to the ground across GitLab team members and teams with the goal of maximizing the team member experience and to ensure GitLab remains a place where all team members belong and are included
-- Be a shining example for GitLab’s culture, infusing GitLab’s mission, culture, and values into everything we do
+- Be a shining example for GitLab's culture, infusing GitLab's mission, culture, and values into everything we do
 
 #### People Communications & Engagement Associate Requirements
 
@@ -41,7 +41,7 @@ The Talent & Engagement Program Manager is a [grade 6](/handbook/total-rewards/c
 
 #### Talent & Engagement Program Manager Responsibilities
 
-- Independently manage Talent, People Comms, and Engagement projects with the intent of embedding GitLab’s practices and ways of working into onboarding and other team member touchpoints
+- Independently manage Talent, People Comms, and Engagement projects with the intent of embedding GitLab's practices and ways of working into onboarding and other team member touchpoints
 - Plan and project manage key team member surveys run through Culture Amp including engagement surveys and onboarding surveys
 - Organize and manage workstreams for various projects related to key OKRs within the People Comms & Engagement function
 - Contribute to Talent & Engagement plans and create updates to team members across all levels of the company
@@ -53,7 +53,7 @@ The Talent & Engagement Program Manager is a [grade 6](/handbook/total-rewards/c
 - Mentor and coach team members on core concepts that are taught during onboarding and be the source of fostering a positive work environment where everyone feels inspired by their own growth & potential
 - Develop and execute proactive and strategic communication initiatives, programs, and events in collaboration with teams across GitLab
 - Have an eye and ear to the ground across GitLab team members and teams with the goal of maximizing the team member experience and to ensure GitLab remains a place where all team members belong and are included
-- Be a shining example for GitLab’s culture, infusing GitLab’s mission, culture, and values into everything we do
+- Be a shining example for GitLab's culture, infusing GitLab's mission, culture, and values into everything we do
 
 #### People Communications & Engagement Program Manager Requirements
 
@@ -78,12 +78,12 @@ The Senior People Communications & Engagement Program Manager is a [grade 7](/ha
 #### Senior People Communications & Engagement Program Manager Responsibilties
 
 - Develop and execute proactive and strategic communication initiatives, programs, and events in collaboration with global teams across GitLab
-- Own the internal editorial calendar and be the chief storyteller, whether it’s through our company newsletter, manager communication, executive videos and/or other communications channels
+- Own the internal editorial calendar and be the chief storyteller, whether it's through our company newsletter, manager communication, executive videos and/or other communications channels
 - Partner closely with internal stakeholders, leaders, and E-Group members to develop change management communications with clarity and empathy
 - Have an eye and ear to the ground across GitLab team members and teams with the goal of maximizing the team member experience and to ensure GitLab remains a place where all team members belong and are included
 - Support engagement activities that are intended to improve team member engagement and build culture
 - Organize and operate culture champions program to ensure we have a trusted group of team members to ideate and collaborate with
-- Be a shining example for GitLab’s culture, infusing GitLab’s mission, culture, and values into everything we do
+- Be a shining example for GitLab's culture, infusing GitLab's mission, culture, and values into everything we do
 - Partner with and provide dedicated communications support to certain various cross-functional team and leaders of their functions providing communications expertise to functional teams
 
 #### Senior People Communications & Engagement Program Manager Requirements
@@ -111,7 +111,7 @@ The Staff People Communications & Engagement Manager is a [grade 8](/handbook/to
 #### Staff People Communications & Engagement Manager Responsibilities
 
 - Extends that of the Senior People Communications & Engagement Program Manager responsibilities
-- Partner with the People Communications & Engagement leader in providing ‘internal PR’ support, including crisis communications
+- Partner with the People Communications & Engagement leader in providing 'internal PR' support, including crisis communications
 - Partner with and provide dedicated communications support to certain various cross-functional team and leaders of their functions providing communications expertise to functional teams
 
 #### Staff People Communications & Engagement Manager Requirements
@@ -135,15 +135,15 @@ The Manager, People Communications & Engagement is a [grade 8](/handbook/total-r
 - Collaborate with various leaders and members of the Marketing and People teams to plan and improve company-wide team member communications including Slack, issue comments, and other asynchronous communication, Handbook education, company calls, etc.
 - Help moderate internal communications across general & administrative teams to ensure GitLab values are upheld as well as compliance with our code of conduct
 - Drive engagement activities that are intended to improve team member engagement and build culture
-- Provide ‘internal PR’ support as needed, including supporting corporate comms on crisis communications
+- Provide 'internal PR' support as needed, including supporting corporate comms on crisis communications
 - Act as a communications consultant to team members to help develop campaigns for internal programs or initiatives (e.g. GitLab referral program)
 - Ensure the effective evaluation of onboarding and engagement programs takes place consistently to ensure they meet the needs of team members, strategic organization priorities, and stakeholders
-- Curate and publish key internal news (e.g., “Here are the 3 things you need to know” digest) on a weekly basis
-- Partner closely with the Talent Brand Manager to ensure integrity and cohesion between our external talent brand and internal team member experience and effectively articulate GitLab’s culture and value proposition
+- Curate and publish key internal news (e.g., "Here are the 3 things you need to know" digest) on a weekly basis
+- Partner closely with the Talent Brand Manager to ensure integrity and cohesion between our external talent brand and internal team member experience and effectively articulate GitLab's culture and value proposition
 - Build relationships with key stakeholders to ensure delivery of commitments
 - Collaborate with key stakeholders to develop specific communication plans (e.g., work with People Business Partners and People Operations on Engagement Survey communication)
 - Plan, communicate, and coordinate celebratory occasions, company communication initiatives, volunteer activities, and other team member engagement opportunities
-- Be a shining example for GitLab’s culture, infusing GitLab’s mission, culture, and values into everything we do
+- Be a shining example for GitLab's culture, infusing GitLab's mission, culture, and values into everything we do
 
 #### Manager, People Communications & Engagement Requirements
 
@@ -177,10 +177,10 @@ The Senior Manager, People Communications & Engagement is a [grade 9](/handbook/
 - Collaborate with various leaders and members of the Marketing and People teams to plan and improve company-wide team member communications including Slack, issue comments, and other asynchronous communication, Handbook education, company calls, etc.
 - Help moderate internal communications across general & administrative teams to ensure GitLab values are upheld as well as compliance with our code of conduct
 - Drive engagement activities that are intended to improve team member engagement and build culture
-- Provide ‘internal PR’ support, including crisis communications
+- Provide 'internal PR' support, including crisis communications
 - Act as a communications consultant to team members to help develop campaigns for internal programs or initiatives (e.g. GitLab referral program)
-- Curate and publish key internal news (e.g., “Here are the 3 things you need to know” digest) on a weekly basis
-- Partner closely with the Talent Brand Manager to ensure integrity and cohesion between our external talent brand and internal team member experience and effectively articulate GitLab’s culture and value proposition
+- Curate and publish key internal news (e.g., "Here are the 3 things you need to know" digest) on a weekly basis
+- Partner closely with the Talent Brand Manager to ensure integrity and cohesion between our external talent brand and internal team member experience and effectively articulate GitLab's culture and value proposition
 - Collaborate with key stakeholders to develop specific communication plans (e.g., work with People Business Partners and People Operations on Engagement Survey communication)
 - Plan, communicate, and coordinate celebratory occasions, company communication initiatives, volunteer activities, and other team member engagement opportunities
 
@@ -218,7 +218,7 @@ The Director, People Communications & Engagement is a [grade 10](/handbook/total
 - Manage planning and execution of Quarterly All Hands (GitLab Assembly)
 - Instill a data-driven mindset and robust two-way communication approach to how we communicate and share information with team members
 - Establish operating rhythm with key business functions to ensure key projects and priorities are effectively communicated
-- Lead ‘internal PR’ support, including crisis communications
+- Lead 'internal PR' support, including crisis communications
 - Develop innovative ways of engaging team members across various communications channels
 
 #### Director, People Communications & Engagement Requirements
@@ -227,7 +227,7 @@ The Director, People Communications & Engagement is a [grade 10](/handbook/total
 - Experience building a high-growth, scaling global internal communications function
 - Outstanding leadership skills and someone who takes initiative, makes hard decisions, and is accountable
 - Proven track record of working closely with an executive leadership team
-- Ability to influence senior leaders using data and expertise  
+- Ability to influence senior leaders using data and expertise
 - Demonstrated capability to drive initiatives, develop thoughtful communication strategies, and deliver results at a senior level
 - Willingness to roll sleeves up and work on complex issues and crises on deadline
 - High emotional intelligence, matched with the ability to execute

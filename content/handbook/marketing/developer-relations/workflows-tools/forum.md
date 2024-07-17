@@ -1,13 +1,6 @@
 ---
-
 title: "Forum workflow"
 ---
-
-
-
-
-
-
 
 ## Users
 
@@ -124,26 +117,26 @@ Sometimes users will accidentally post private information like license or API k
 
 **Instructions**
 
-If you need to edit a user’s post for whatever reason, please private message the user in the forum letting them know that you have done so, and the reason why.
+If you need to edit a user's post for whatever reason, please private message the user in the forum letting them know that you have done so, and the reason why.
 
 Click the ellipsis in the small grey toolbar on the post > click the pencil icon.
 
 **Instructions For Sending a Private Message**
 
-1. Click the user’s avatar icon, user card will appear
+1. Click the user's avatar icon, user card will appear
 2. Click the `message` button on the user card to draft private message
 
 The edit history diff is only visible to moderators.
 
 ##### Viewing email addresses
 
-For the sake of anonymity, only Forum Moderators can see the email address associated with a forum user’s account.
+For the sake of anonymity, only Forum Moderators can see the email address associated with a forum user's account.
 
 **Instructions*
 
-1. Click the user’s avatar icon, user card will appear
-2. Click the avatar icon on the user card to navigate to the user’s profile
-3. Click the `show` button in the user’s profile
+1. Click the user's avatar icon, user card will appear
+2. Click the avatar icon on the user card to navigate to the user's profile
+3. Click the `show` button in the user's profile
 
 ##### Drafting in/using the private Staff Category
 
@@ -159,7 +152,7 @@ Click the ellipsis in the small grey toolbar on the post > click the trash can i
 
 ##### Moving Posts To a New Thread
 
-It’s not uncommon that moderators will feel the need to move new posts out of old threads, or move posts to their own topic altogether. Please move new posts out of old topics when users try to bring topics a year or older back to life.
+It's not uncommon that moderators will feel the need to move new posts out of old threads, or move posts to their own topic altogether. Please move new posts out of old topics when users try to bring topics a year or older back to life.
 
 **Instructions**
 

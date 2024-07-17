@@ -1,13 +1,6 @@
 ---
-
 title: Product Data Insights Data Models Cheat Sheet
 ---
-
-
-
-
-
-
 
 ## Objectives for this page
 
@@ -172,8 +165,6 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 
 - [Snowplow docs on standard fields](https://docs.snowplow.io/docs/understanding-your-pipeline/canonical-event/)
 
-- [Snowplow schema definitions in GitLab docs](https://docs.gitlab.com/ee/development/snowplow/schemas.html)
-
 - [PDI: Snowplow New Models Onboarding](https://docs.google.com/presentation/d/1L6g2XCHWhRRXAbJ5txBavdxPW0Jja1E43QzxbtYvQK0/edit?usp=sharing)
 
 </details>
@@ -201,7 +192,7 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 
 - We do not use snowplow on our self-managed instances, only on GitLab.com
 
-- If developers or PMs are wondering about standard implementation, the event schema is documented [here](https://docs.gitlab.com/ee/development/snowplow/index.html#event-schema).
+- If developers or PMs are wondering about standard implementation, the event schema is documented.
 
 </details>
 

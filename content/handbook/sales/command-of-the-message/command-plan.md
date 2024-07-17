@@ -1,22 +1,17 @@
 ---
-
 title: "Command Plan"
 description: "The Command Plan is how GitLab has operationalized a customer value-driven sales methodology with strategic opportunity management into the opportunity management process"
 ---
-
-
-
-
-
-
-
-
 
 ## Overview
 
 The Command Plan is how GitLab has operationalized [Command of the Message](/handbook/sales/command-of-the-message/) (*a customer value-driven sales methodology*) and [MEDDPPICC](/handbook/sales/meddppicc/) (*a proven methodology used for strategic opportunity management and complex sales process orchestration for enterprise organizations*) into the opportunity management process. Access the [Effective Command Plans to Help You Win More Deals](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/sal-effective-command-plans-to-help-you-win-more-deals) e-learning course for ENT or [Strategic Opportunity Management](https://university.gitlab.com/learn/course/strategic-opportunity-management-the-process/main/strategic-opportunity-management-the-process?client=internal-team-members&page=6) for Commercial.
 
-The Command Plan consists of the below 3 sections. The Opportunity Overview section is **required for ALL opportunities in stage 2-Scoping or later for current quarter and next quarter as a minimum global standard**. The remaining sections (MEDDPPICC and Close Plan Details) are only required for opportunities *at or above defined ARR thresholds* (**$100K+ for Enterprise**, **$50K+ for Mid-Market**). By day 1 of the current quarter, all Command Plans and Opportunity Consults should be updated for both the current and next quarters. Note: These thresholds are minimum global standards, and geographic and segment specific teams can and should aim to exceed these expectations by extending the command plan process to lower deal thresholds where appropriate.
+## Command Plan Requirements
+
+The Command Plan consists of the below 3 sections. The Opportunity Overview section is **required for ALL opportunities in stage 2-Scoping or later for current quarter and next quarter as a minimum global standard**. The remaining sections (MEDDPPICC and Close Plan Details) are only required for opportunities *at or above defined ARR thresholds* (**$100K+ for Enterprise**, **$50K+ for Mid-Market**). 
+
+By day 1 of the current quarter, all Command Plans and Opportunity Consults should be updated for both the current and next quarters. Note: These thresholds are minimum global standards, and geographic and segment specific teams can and should aim to exceed these expectations by extending the command plan process to lower deal thresholds where appropriate.
 
 1. [**Opportunity Overview**](/handbook/sales/command-of-the-message/command-plan/#opportunity-overview)
 1. [**MEDDPPICC**](/handbook/sales/command-of-the-message/command-plan/#meddppicc)
@@ -37,7 +32,7 @@ This section consists of 5 mandatory fields:
 1. **Solution** - *What is the primary GitLab solution (Automate Software Delivery, Continuous Software Security Assurance, Software Compliance, or DevOps Platform) that best aligns with the problem the customer wants to solve?*
 1. **Primary Capability** - *What is the primary capability that the customer is pursuing to achieve the above value driver(s)?*
 1. **Why GitLab?** - *Why is the customer choosing GitLab over the competition? What are GitLab's key differentiators from the customer's perspective?*
-1. **Why Do Anything At All?** - *What are the negative consequences if the customer does nothing? What happens if the customer doesn’t do this deal on the forecasted timeline?*
+1. **Why Do Anything At All?** - *What are the negative consequences if the customer does nothing? What happens if the customer doesn't do this deal on the forecasted timeline?*
 
 ## MEDDPPICC
 
@@ -53,7 +48,7 @@ This section is comprised of the following 3 fields:
 
 ## Manager Review
 
-Continuing to improve the fidelity of Command Plans is a critical success factor to winning more deals and improving productivity and predictability. As such, at the bottom of the Command Plan is a section for Managers and above to enter review notes from [opportunity consults](/handbook/sales/command-of-the-message/opportunity-consults/) (and/or Lightweight Deal Reviews for Commercial Sales) conducted. Manager Review notes should begin with “YYYY-MM-DD” to indicate the date when the opportunity consult was conducted, and the notes should succinctly highlight:
+Continuing to improve the fidelity of Command Plans is a critical success factor to winning more deals and improving productivity and predictability. As such, at the bottom of the Command Plan is a section for Managers and above to enter review notes from [opportunity consults](/handbook/sales/command-of-the-message/opportunity-consults/) (and/or Lightweight Deal Reviews for Commercial Sales) conducted. Manager Review notes should begin with "YYYY-MM-DD" to indicate the date when the opportunity consult was conducted, and the notes should succinctly highlight:
 
 1. Prioritized gaps identified during the opportunity consult
 1. Specific action items that were agreed to (who will do what by when)

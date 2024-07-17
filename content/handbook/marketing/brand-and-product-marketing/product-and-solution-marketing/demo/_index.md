@@ -1,13 +1,6 @@
 ---
-
 title: "DEPRECATED-Demos"
 ---
-
-
-
-
-
-
 
 ## About Demos
 
@@ -24,7 +17,7 @@ There are 3 basic demos types:
 These demos come in different formats:
 
 - Videos - good for everyone to self-demo by passively watching
-- [Sim demos](./sim-demos/) - good for disconnected situations (like conferences) and for interactive self demos
+- [Sim demos](sim-demos/) - good for disconnected situations (like conferences) and for interactive self demos
 - Live (instructions for how to set up and run demos live) - enables everyone (especially GitLab sales) to set up and run through the demo live on their own system resources. Allows for spontaneous deep diving - not always a good thing).
 
 ## Videos
@@ -252,7 +245,7 @@ Click-through demos can be run in multiple ways:
 
 ## [Planning to Monitoring (formerly i2p)](i2p/)
 
-Highlights GitLab’s single platform for the complete DevOps lifecycle, from idea to production, through issues, planning, merge request, CI/CD, and monitoring.
+Highlights GitLab's single platform for the complete DevOps lifecycle, from idea to production, through issues, planning, merge request, CI/CD, and monitoring.
 
 ## [CI/CD Deep Dive](cicd-deep/)
 

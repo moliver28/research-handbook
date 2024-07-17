@@ -28,13 +28,13 @@ This email will include a link to the Laptop Procurement Form to start the order
 
 Team members that live in these countries can be serviced via the IT Laptop Ordering Process:
 
-USA, Canada, Mexico, all of the EU, Thailand, China, Japan, Philippines, Singapore, Australia, New Zealand, India and the UK.
+USA, Canada, Mexico, all of the EU, Thailand, China, Japan, Philippines, Singapore, Australia, New Zealand, India, Israel and the UK.
 
 Please note that we are adding supported countries to this list as we discover our ability to order in them.
 You can test this by going to order a MacBook Pro (or Dell) from the regional Apple store, and seeing if they let you customize a build or alternately refer you to local retailers.
 If the latter, see below.
 
-We currently cannot procure Apple laptops for Israel, Brazil, Costa Rica, Chile, Armenia, or Ukraine. If your country is not listed above or for any general laptop procurement questions please contact `IT-Help@gitlab.com` or your Candidate Experience Specialist to discuss alternate options.
+We currently cannot procure Apple laptops for Brazil, Costa Rica, Chile, Armenia, or Ukraine. If your country is not listed above or for any general laptop procurement questions please contact `IT-Help@gitlab.com` or your Candidate Experience Specialist to discuss alternate options.
 If the team member requires financial assistance to purchase the hardware, the Company will advance the funds to help facilitate the purchase (see Exception Processes below).
 
 {{% alert title="**Warning: fake job scams**" color="warning" %}}
@@ -108,7 +108,7 @@ We do not allow personal laptops to be used for GitLab work. If you are in need 
 
 ### Laptops Out of Spec
 
-If the laptop is outside the standardized specifications listed [here](#apple-hardware) then manager and [Michael Beltran's](/handbook/company/team/#mbeee)/[Steve Ladgrove's](https://about.gitlab.com/company/team/#sladgrove) approval will be required before IT can purchase the laptop.
+If the laptop is outside the standardized specifications listed [here](#apple-hardware) then manager and [Michael Beltran's](/handbook/company/team/#mbeee), [Steve Ladgrove's](https://about.gitlab.com/company/team/#sladgrove) or [Mic Rohr's](https://about.gitlab.com/company/team/#mic_rohr) approval will be required before IT can purchase the laptop.
 
 ### Exception Processes
 
@@ -152,9 +152,9 @@ IT strongly encourages team members to select Macs; please only request a Linux 
 
 **Below are roles that qualify for Linux Laptops**
 
-- Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, and Digital Production are eligible for Dell Precision Mobile Workstation laptops from the 5570 line. Due to supply constraints, specific models available from these lines my vary. IT will work with each person to find an available model meeting the following specifications: [15.6” display / 512 GB SSD / 32 GB of RAM / Intel i9 CPU](https://www.dell.com/en-us/shop/laptops/new-15-5560-workstation/spd/precision-15-5570-laptop).
+- Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, and Digital Production are eligible for Dell Precision Mobile Workstation laptops from the 5690 line. Due to supply constraints, specific models available from these lines my vary. IT will work with each person to find an available model meeting the following specifications: [16" display / 512 GB SSD / 32 GB of RAM / Intel Core CPU](https://www.dell.com/en-us/shop/dell-computer-laptops/new-precision-5690-workstation/spd/precision-16-5690-laptop/s004p5690usvp).
 
-\*\*NOTE: The maximum price of Linux laptops is not to exceed **the price of the equivalent [16” MacBook pro laptop](#apple-hardware)**. Please make sure you order this model a minimum of 14 days, based on your locality, prior to your desired date to receive.
+\*\*NOTE: The maximum price of Linux laptops is not to exceed **the price of the equivalent [16" MacBook Pro laptop](#apple-hardware)**. Please make sure you order this model a minimum of 14 days, based on your locality, prior to your desired date to receive.
 
 Our **only approved Linux laptop vendor at this time is Dell**. These laptops generally come pre-loaded with Ubuntu Linux in order to save money on unused Windows licenses. Dell do not currently sell laptops pre-installed with Linux in Australia and New Zealand; staff will need to install Linux themselves.
 
@@ -245,7 +245,7 @@ It will make the RMA process much easier in case you need it.
 
 ### Laptop Buy back Policy
 
-If the team member has not completed 1 calendar year at the time of offboarding or has received a laptop refresh within the past year, they have the option to purchase their laptop for current market value from GitLab. If the laptop has been used by the team member for more than one year at the time of offboarding, they can opt to keep their laptop at no cost. Subject to promptly working with the Company during the offboarding process to enable the laptop to be wiped and, when required by applicable legal obligations, imaged for preservation purposes.
+If the team member has not completed 1 calendar year at the time of offboarding or has received a laptop refresh within the past year, they have the option to purchase their laptop for current market value from GitLab. If the laptop has been used by the team member for more than one year at the time of offboarding, they can opt to keep their laptop at no cost. Subject to promptly working with the Company during the offboarding process to enable the laptop to be wiped and, when required by applicable legal obligations, imaged for preservation purposes.  If GitLab needs to create an image of the team member's computer for preservation purposes, that may be accomplished via sending the computer to GitLab Corporate Security via prepaid package or remotely via [Backblaze](/handbook/security/corporate/systems/backblaze/).
 
 If the team member would like to purchase the laptop at the current market value, they will need to send an email to laptops@gitlab.com to start the process. If purchasing, our Manager of IT, or Lead IT Analyst can approve, and send the employee an email with the determined value. If the employee decides to move forward with purchasing, our accounting department will reach out with payment information.
 
@@ -354,14 +354,14 @@ IT Ops has an automated workflow that triggers upon a notification from PeopleOp
 - The former team-member (FTM) is removed from access to all GitLab provisioned services linked to their Okta account
 - The former team-member (FTM) is removed from access to all GitLab provisioned services not linked to their Okta account
 - Unless there is a legal hold on their laptop, the laptop is securely wiped
-- The FTM’s manager is setup as a delegate to their Gmail and Google Calendar
-- The FTM’s manager gains editor privileges to all “My Drive” Google Drive Files
-- The FTM’s account is moved to the Former Team Members OU
+- The FTM's manager is setup as a delegate to their Gmail and Google Calendar
+- The FTM's manager gains editor privileges to all "My Drive" Google Drive Files
+- The FTM's account is moved to the Former Team Members OU
 - Remove the FTM account from the Global Address List
-- All of the account’s sign in cookies/sessions are cleared and the account password is reset to a random 64 character password
-- The account’s recovery email is set to null
-- The account’s recovery phone number is set to null
-- The FTM’s auto-response email message is setup.
+- All of the account's sign in cookies/sessions are cleared and the account password is reset to a random 64 character password
+- The account's recovery email is set to null
+- The account's recovery phone number is set to null
+- The FTM's auto-response email message is setup.
 
 #### These are the steps that follow after the Former Team Member has been gone for 90 days
 
@@ -370,27 +370,27 @@ IT Ops has an automated workflow that triggers upon a notification from PeopleOp
 - These are saved in the Offboarded Users Drive Archive
 - Each user has their own folder in the following format
 - <emailUsername>_google_drive
-- The FTM’s account is suspended
-- The FTM’s account will be moved to NoGSuiteLicense OU
+- The FTM's account is suspended
+- The FTM's account will be moved to NoGSuiteLicense OU
 - The Google Workspace License is removed from the account
 
-#### The following notifications will be sent out to the FTM’s manager and IT over Slack
+#### The following notifications will be sent out to the FTM's manager and IT over Slack
 
 **Immediate Slack notification:**
 
-> Hello `<Manager Firstname>``<Manager Lastname>`, you are receiving this notification to let you know that one of your direct reports `<Firstname>``<LastName>` has been deprovisioned from GitLab’s Google Workspace. In keeping with our standard offboarding policy you will receive a copy of this user’s Google Drive data as well as delegated access to their email and calendar account. This delegate access will remain available to you for 90 days after which the account will be closed, and all data will be archived. Please be sure to copy anything you wish to keep to your own account before this time. For more information about how to access this data please see information in this Handbook page (provide link).
+> Hello `<Manager Firstname>``<Manager Lastname>`, you are receiving this notification to let you know that one of your direct reports `<Firstname>``<LastName>` has been deprovisioned from GitLab's Google Workspace. In keeping with our standard offboarding policy you will receive a copy of this user's Google Drive data as well as delegated access to their email and calendar account. This delegate access will remain available to you for 90 days after which the account will be closed, and all data will be archived. Please be sure to copy anything you wish to keep to your own account before this time. For more information about how to access this data please see information in this Handbook page (provide link).
 >
 > You will receive another notification 30 days before and then a final notification at 1 week before this account is closed. If you have any questions about this process, or need assistance with access the data, please feel free to reach out to the Corp IT team in the #it_help Slack channel.
 
 **30 Days Slack notification**
 
-> Hello `<Manager Firstname>``<Manager Lastname>`, you are receiving this notification to let you know that one of your direct reports `<Firstname>``<LastName>` was deprovisioned from GitLab’s Google Workspace 60 days ago. In keeping with our standard offboarding policy you will continue to have delegated access to their email and calendar account for another 30 days after which the account will be closed, and all data will be archived. Please be sure to copy anything you wish to keep to your own account before this time. For more information about how to access this data please see information in this Handbook page (provide link).
+> Hello `<Manager Firstname>``<Manager Lastname>`, you are receiving this notification to let you know that one of your direct reports `<Firstname>``<LastName>` was deprovisioned from GitLab's Google Workspace 60 days ago. In keeping with our standard offboarding policy you will continue to have delegated access to their email and calendar account for another 30 days after which the account will be closed, and all data will be archived. Please be sure to copy anything you wish to keep to your own account before this time. For more information about how to access this data please see information in this Handbook page (provide link).
 >
 > You will receive another notification at 1 week before this account is closed. If you have any questions about this process, or need assistance with access the data, please feel free to reach out to the Corp IT team in the #it_help Slack channel.
 
 **7 Days Slack notification**
 
-> Hello `<Manager Firstname>``<Manager Lastname>`, you are receiving this notification to let you know that one of your direct reports `<Firstname>``<LastName>` was deprovisioned from GitLab’s Google Workspace 83 days ago. In keeping with our standard offboarding policy you will continue to have delegated access to their email and calendar account for another 7 days after which the account will be closed, and all data will be archived. Please be sure to copy anything you wish to keep to your own account before this time. For more information about how to access this data please see information in this Handbook page (provide link).
+> Hello `<Manager Firstname>``<Manager Lastname>`, you are receiving this notification to let you know that one of your direct reports `<Firstname>``<LastName>` was deprovisioned from GitLab's Google Workspace 83 days ago. In keeping with our standard offboarding policy you will continue to have delegated access to their email and calendar account for another 7 days after which the account will be closed, and all data will be archived. Please be sure to copy anything you wish to keep to your own account before this time. For more information about how to access this data please see information in this Handbook page (provide link).
 >
 > This is the final notification. If you have any questions about this process, or need assistance with access the data, please feel free to reach out to the Corp IT team in the #it_help Slack channel.
 

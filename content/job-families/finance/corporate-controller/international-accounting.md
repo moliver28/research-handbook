@@ -99,9 +99,9 @@ The Director, International Accounting is a [10](/handbook/total-rewards/compens
 - Collaborate with the GL team on intercompany balances
 - Responsible for account recons (Due to / from accounts, TP, AR and AP)
 - Review of IC account activity to ensure all accounts net to zero / TP accounts match, Review of IC AR / AP
-- FX review to determine if there are “open” foreign currency balances that are being revalued to adjust as needed
+- FX review to determine if there are "open" foreign currency balances that are being revalued to adjust as needed
 - Collaborate with the Tax Team as needed for purposes of Stat to Tax Analysis, Intercompany contributions, Transfer Pricing related activities
-- Ensure correct JE’s to reflect the intercompany contributions and loan offsets
+- Ensure correct JE's to reflect the intercompany contributions and loan offsets
 - Ownership of transfer pricing calculations
 - Ownership of AP reclasses, Computer equipment, Movement of cash
 - Collaborate with Treasury on projects of relating to intercompany funding, intercompany contributions
@@ -147,9 +147,9 @@ The Senior Director, International Accounting is a [11](/handbook/total-rewards/
 - Collaborate with the GL team on intercompany balances
 - Responsible for account recons (Due to / from accounts, TP, AR and AP)
 - Review of IC account activity to ensure all accounts net to zero / TP accounts match, Review of IC AR / AP
-- FX review to determine if there are “open” foreign currency balances that are being revalued to adjust as needed
+- FX review to determine if there are "open" foreign currency balances that are being revalued to adjust as needed
 - Collaborate with the Tax Team as needed for purposes of Stat to Tax Analysis, Intercompany contributions, Transfer Pricing related activities
-- Ensure correct JE’s to reflect the intercompany contributions and loan offsets
+- Ensure correct JE's to reflect the intercompany contributions and loan offsets
 - Ownership of transfer pricing calculations
 - Ownership of AP reclasses, Computer equipment, Movement of cash
 - Collaborate with Treasury on projects of relating to intercompany funding, intercompany contributions

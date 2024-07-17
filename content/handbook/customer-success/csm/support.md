@@ -1,13 +1,6 @@
 ---
-
 title: "CSM and Support Interaction"
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -19,9 +12,9 @@ Define the process for how the CSM interacts with the systems and processes desi
 
 ## Establishing Customers in Support Systems
 
-During the onboarding process, the CSM will ensure that customers are correctly established in the support system. GitLab manages support requests through a system called [Zendesk](/handbook/support/workflows/zendesk-instances.html). GitLab has [integrated the GitLab instance of Salesforce with Zendesk](/handbook/support/workflows/zendesk_organizations_and_users_overview/) to facilitate the establishment of users in Zendesk. The integration synchronizes account-level data so that the Zendesk ticket has accurate information on the customers’ purchase of products that include support.
+During the onboarding process, the CSM will ensure that customers are correctly established in the support system. GitLab manages support requests through a system called [Zendesk](/handbook/support/workflows/zendesk-instances.html). GitLab has [integrated the GitLab instance of Salesforce with Zendesk](/handbook/support/workflows/zendesk_organizations_and_users_overview/) to facilitate the establishment of users in Zendesk. The integration synchronizes account-level data so that the Zendesk ticket has accurate information on the customers' purchase of products that include support.
 
-Though automation exists, the CSM must still ensure customers take additional steps to fully establish their personnel in Zendesk. Specifically, the CSM must work with the customer to establish specific Zendesk users under the Zendesk Account so that tickets submitted by the customer’s personnel are guided by the GitLab support team’s [Service Level Agreements (SLAs)](https://about.gitlab.com/support/#gitlab-support-service-levels).
+Though automation exists, the CSM must still ensure customers take additional steps to fully establish their personnel in Zendesk. Specifically, the CSM must work with the customer to establish specific Zendesk users under the Zendesk Account so that tickets submitted by the customer's personnel are guided by the GitLab support team's [Service Level Agreements (SLAs)](https://about.gitlab.com/support/#gitlab-support-service-levels).
 
 To add important static notes that will appear on each new ticket to help the support team with context, review the [support handbook](/handbook/support/internal-support/#i-want-to-add-important-information-about-the-organizationuser) to request this be attached to the customer's Zendesk organization.
 
@@ -63,7 +56,7 @@ If the [Customer Collaboration Project](/handbook/customer-success/csm/customer-
 
 **The AM ID should therefore be**: 17735787 and finally point to https://gitlab.com/<collaboration_project_url>
 
-**Ref. of handbook**: https://about.gitlab.com/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project
+**Ref. of handbook**: https://handbook.gitlab.com/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project
 
 ---
 

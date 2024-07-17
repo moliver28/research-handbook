@@ -7,7 +7,7 @@ description: "Resources for understanding and discussing pronouns and their usag
 
 At GitLab, [Diversity, Inclusion, & Belonging](/handbook/values/#diversity-inclusion) are written into our values.
 Part of creating an inclusive workplace centers on
-[the language that we use]({{< ref "values#inclusive-language--pronouns" >}}) when we communicate with each other.
+[the language that we use](/handbook/values/#inclusive-language--pronouns) when we communicate with each other.
 
 This includes the usage of [pronouns](https://en.wikipedia.org/wiki/Pronoun), which are "a word or a group of words that
 one may substitute for a noun or noun phrase."
@@ -97,15 +97,19 @@ mistake after the fact, perhaps after seeing someone's pronouns listed in Slack.
 
 ### GitLab.com
 
-Set your GitLab.com pronouns on your [GitLab profile](https://docs.gitlab.com/ee/user/profile/#add-your-gender-pronouns).
+You can set your GitLab.com pronouns on your [GitLab profile](https://docs.gitlab.com/ee/user/profile/#add-your-gender-pronouns).
+
+### Google Mail (Gmail)
+
+You can set your pronouns in your [email signature](/handbook/tools-and-tips/index.md#email-signature).
 
 ### Slack
 
-Set your Slack pronouns on your [Slack profile](https://slack.com/help/articles/204092246-Edit-your-profile).
+You can set your Slack pronouns on your [Slack profile](https://slack.com/help/articles/204092246-Edit-your-profile).
 
 ### Zoom
 
-Set your Zoom pronouns through the [Zoom web portal](https://support.zoom.us/hc/en-us/articles/4402698027533-Adding-and-sharing-your-pronouns#h_01F89H5DCX04A6QG8Q3MS69Q4J).
+You can set your Zoom pronouns through the [Zoom web portal](https://support.zoom.us/hc/en-us/articles/4402698027533-Adding-and-sharing-your-pronouns#h_01F89H5DCX04A6QG8Q3MS69Q4J).
 
 ## Additional resources
 
@@ -114,4 +118,4 @@ Set your Zoom pronouns through the [Zoom web portal](https://support.zoom.us/hc/
 - [**Article:** 'She/They' and Other Pronouns You Might See on Candidate Profiles](https://www.linkedin.com/business/talent/blog/talent-acquisition/pronouns-you-might-see-on-candidate-profiles)
 - [**Book:** *Gender: A Graphic Guide*](https://www.introducingbooks.com/ib-title/gender-a-graphic-guide/)
 - [**Book:** *What's Your Pronoun? Beyond He and She*](https://wwnorton.com/books/9781631496042)
-- [**Book:** *A Quick & Easy Guide to They/Them Pronouns*](https://onipress.com/collections/limerence-press/products/a-quick-easy-guide-to-they-them-pronouns)
+- [**Book:** *A Quick & Easy Guide to They/Them Pronouns*](https://www.onipress.com/titles/project-one-f5w4d-233sh-3ybcx-9w275-dphaz-4h8ew-saabl-kdbm2-bed8a-szjan)

@@ -131,7 +131,7 @@ More questions [here](/handbook/marketing/brand-and-product-marketing/product-an
 
 ### Common benefits  {#common-benefits}
 
-| Desired Future State (“After Scenarios”) | So What? (“Positive Business Outcomes”) |
+| Desired Future State ("After Scenarios") | So What? ("Positive Business Outcomes") |
 | ----------------------------- | -------------------------------- |
 | More automation | Less risk as manual repetitive tasks are error prone |
 | Faster mean time to repair | Can be rolled back rapidly to a working definition of the infrastructure rather than troubleshooting before roll-back - resulting in faster time to repair |
@@ -296,16 +296,16 @@ How to identify if you need to have a GitOps conversation with a lead?
 
 Here are a few recommended email templates you can use based on the stage of the customers journey.
 
-- Awareness: [Here’s how infra teams can move at the pace of development](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.tvxw4uololys)
+- Awareness: [Here's how infra teams can move at the pace of development](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.tvxw4uololys)
 - Consideration: [Achieve multi-cloud multi-k8s deployments with GitOps](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.qb2mme6e6mph)
 - Decision/Purchase: [Learn how Kiwi.com deploys infrastructure and application within 3 minutes!](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.6fvbsmo2n7go)
-- Technical Demo: [Here’s how your team can automate infrastructure deployments](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.zedoh58debpr)
+- Technical Demo: [Here's how your team can automate infrastructure deployments](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.zedoh58debpr)
 
 ### Services {#services}
 
 GitLab Professional Services help customers become efficient in GitLab quickly. GitLab (or a GitLab partner) offers a number of service offerings to support customers.
 
-For the GitOps sales play, consider asking your customer about their workforce's proficiency with git, GitLab, and GitLab CI as they are foundational elements to GitOps. If they are not strong in all of these topics, consider positioning [GitLab with git Basics training](https://about.gitlab.com/services/education/gitlab-basics/) and/or [GitLab CI/CD training](https://about.gitlab.com/services/education/gitlab-ci/).
+For the GitOps sales play, consider asking your customer about their workforce's proficiency with git, GitLab, and GitLab CI as they are foundational elements to GitOps. If they are not strong in all of these topics, consider positioning [GitLab with git Basics training](https://university.gitlab.com/pages/gitlab-fundamentals-training) and/or [GitLab CI/CD training](https://about.gitlab.com/services/education/gitlab-ci/).
 
 Advisory/Consulting services to help with GitOps rollout are planned to be rolled out later this year. Please register your interest for a GitOps Advisory offering [here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-practice-management/-/issues/74) to help PS effectively prioritize!
 
@@ -326,7 +326,7 @@ Talk with @em in the [professional services slack channel](/handbook/customer-su
 - [Nebulaworks](https://learn.gitlab.com/gitops-gtm-all/nebulaworks?lx=AZeFEd)
 - [SURF](https://learn.gitlab.com/gitops-gtm-all/surf?lx=AZeFEd)
 - [kiwi.com](https://learn.gitlab.com/gitops-gtm-all/flying-base-native-clouds?lx=AZeFEd)
-- [VMware](https://learn.gitlab.com/gitops-gtm-all/infrastructure-code-iac-terraform-cloud?lx=AZeFEd)
+- [VMWare](https://learn.gitlab.com/gitops-gtm-all/infrastructure-code-iac-terraform-cloud?lx=AZeFEd)
 - [ValidaTek](https://learn.gitlab.com/gitops-gtm-all/valida-tek-iac?lx=AZeFEd)
 And many more [here](https://learn.gitlab.com/l/gitops-gtm-content)
 

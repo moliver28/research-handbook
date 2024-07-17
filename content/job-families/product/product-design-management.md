@@ -29,7 +29,7 @@ The Product Design Manager is a [grade 8](/handbook/total-rewards/compensation/c
 
 The Foundations team works on building a cohesive and consistent user experience, both visually and functionally. You'll be responsible for leading the direction of the experience design, visual style, and technical tooling of the GitLab product. You'll act as a centralized resource, helping to triage large-scale experience problems as the need arises.
 
-You'll spend your time collaborating with a [cross-functional team](/handbook/product/categories/#ecosystem-group), helping to implement our [design system](https://design.gitlab.com/), building comprehensive accessibility standards into our workflows, and defining guidelines and best practices that will inform how teams design and build products. A breakdown of the vision you’ll help to deliver within the Foundations group can be found on our [product direction page](https://about.gitlab.com/direction/manage/foundations/).
+You'll spend your time collaborating with a [cross-functional team](/handbook/product/categories/#ecosystem-group), helping to implement our [design system](https://design.gitlab.com/), building comprehensive accessibility standards into our workflows, and defining guidelines and best practices that will inform how teams design and build products. A breakdown of the vision you'll help to deliver within the Foundations group can be found on our [product direction page](https://about.gitlab.com/direction/manage/foundations/).
 
 ### Requirements
 
@@ -90,7 +90,7 @@ The Senior Manager of Product Design is a [grade 9](/handbook/total-rewards/comp
 - **UX evangelism:** Ensure UX is prioritized by working with product leadership to identify opportunities for validation and better cross-functional collaboration.
 - **UX process:** Improve processes across the organization to ensure that product design is an active participant throughout the entire [product development flow](/handbook/product-development-flow/). Identify efficiency improvements and scale them across the organization.
 - **Hiring:** Help identify growth opportunities needed to support business goals. Hire and retain a world-class team of product designers and product design managers.
-- **Vision and direction**: Actively influence and guide the experience strategy and vision of the areas you’re assigned.
+- **Vision and direction**: Actively influence and guide the experience strategy and vision of the areas you're assigned.
 - **Career development:** Provide coaching for those on your team to grow management/coaching skills and develop career paths using methods such as weekly [1:1s](/handbook/leadership/1-1), individual growth plans, and routine career development check-ins.
 - **People management:** Coach your team on how to recognize and prevent burnout while managing performance. Impact the happiness and productivity of your team through methods such as capacity management coaching. Conduct quarterly skip-levels with your reports' direct reports.
 - **Goal setting and performance tracking:** Define and manage [performance indicators](/handbook/product/ux/performance-indicators/) and [FY directional next steps](/handbook/product/ux/#fy23-direction) for the product design team. Facilitate the creation and execution of product design [OKRs](/handbook/company/okrs/) in collaboration with the product design team and UX leadership.

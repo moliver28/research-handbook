@@ -1,11 +1,10 @@
 ---
-
 title: Mattermost
 description: "Workflow for escalating Mattermost support issues."
 category: Self-managed
 ---
 
-
+## This workflow is currently under review and can not be used in its current form. See https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/8594
 
 ### Escalating to the Mattermost team
 

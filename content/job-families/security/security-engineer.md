@@ -11,7 +11,7 @@ description: "As a member of the security team at GitLab, you will be working to
 
 As a member of the security team at GitLab, you will be working towards raising the bar on security. We will achieve that by working and collaborating with cross-functional teams to provide guidance on security best practices.
 
-The [Security Team](https://about.gitlab.com/handbook/security) is responsible for leading and implementing the various initiatives that relate to improving GitLab's security.
+The [Security Team](/handbook/security) is responsible for leading and implementing the various initiatives that relate to improving GitLab's security.
 
 ## Responsibilities for Security Engineer roles
 
@@ -188,10 +188,10 @@ At GitLab, [Staff+ individual contributors](/handbook/engineering/ic-leadership/
 
 Initiatives are selected with the following criteria:
 
-- Mutually Decided: The team member and team member’s manager will mutually agree upon the initiative, taking into account the requirements of other stakeholders.
-- Relevant: The initiative should be relevant to GitLab, the Security Department, and the team member’s team.
+- Mutually Decided: The team member and team member's manager will mutually agree upon the initiative, taking into account the requirements of other stakeholders.
+- Relevant: The initiative should be relevant to GitLab, the Security Department, and the team member's team.
 - Impactful: The initiative should have a positive impact in making GitLab more secure and/or maturing our Security program
-- (Preferably) Within Team Member’s Domain: To increase the team member’s ability to succeed and ability to control influence and outcome, the chosen work should fall within the team member’s domain of work.  The team member does not need to be at an expert level as growth and development in skillset is not only encouraged, but intended.
+- (Preferably) Within Team Member's Domain: To increase the team member's ability to succeed and ability to control influence and outcome, the chosen work should fall within the team member's domain of work.  The team member does not need to be at an expert level as growth and development in skillset is not only encouraged, but intended.
 - Solves a Problem:  The initiative should be designed to produce an outcome that remediates or mitigates a security concern.
 
 All staff+ initiatives are tracked as epics with the `~"Staff+ Initiative"` label in both of our top-level namespaces with corresponding epic boards for global transparency and tracking:
@@ -209,11 +209,11 @@ The manager and team member should work to define how much time should be alloca
 
 **Define Objective and Scope of Work**
 
-Scope should include systems, services, and tools.  The objective should provide a clear description of outlining the problem to be addressed, why this is a problem, what impact or value solving this problem will have, and the cost of not addressing this issue.  Note: The more data you can provide in proving value, the more likely you are to succeed. For example, it is better to say “fixing this will result in a reduction of $74,000 in bug bounty spend” vs “fixing this will make us more secure”.
+Scope should include systems, services, and tools.  The objective should provide a clear description of outlining the problem to be addressed, why this is a problem, what impact or value solving this problem will have, and the cost of not addressing this issue.  Note: The more data you can provide in proving value, the more likely you are to succeed. For example, it is better to say "fixing this will result in a reduction of $74,000 in bug bounty spend" vs "fixing this will make us more secure".
 
 **Timebound**
 
-The initiative will list a projected start and end date.  Ideally, projects would range anywhere from 6 weeks to 6 months.  The end date is your educated guess and may change, but leverage the due date to your advantage with your dependencies and stakeholders.  Further, this does not need to follow a quarterly cycle meaning it does not need to start at the beginning of a quarter and end on the last day of the quarter.  The intent is to start an initiative and carry it to 100% completion.  The work is not required to be tracked as an OKR but the team member may choose to create OKR’s if they feel more comfortable with that tracking and reporting style.
+The initiative will list a projected start and end date.  Ideally, projects would range anywhere from 6 weeks to 6 months.  The end date is your educated guess and may change, but leverage the due date to your advantage with your dependencies and stakeholders.  Further, this does not need to follow a quarterly cycle meaning it does not need to start at the beginning of a quarter and end on the last day of the quarter.  The intent is to start an initiative and carry it to 100% completion.  The work is not required to be tracked as an OKR but the team member may choose to create OKR's if they feel more comfortable with that tracking and reporting style.
 
 **Milestones**
 
@@ -225,7 +225,7 @@ The project needs to have a well defined exit criteria.  This should match with 
 
 **Stakeholders**
 
-The team member should ensure stakeholders are identified, notified, and kept informed throughout the duration of the project.  It is the team member’s responsibility to negotiate time and resources with their stakeholders and understand the nuances of stakeholder and team priorities.
+The team member should ensure stakeholders are identified, notified, and kept informed throughout the duration of the project.  It is the team member's responsibility to negotiate time and resources with their stakeholders and understand the nuances of stakeholder and team priorities.
 
 **Dependencies & Risks**
 
@@ -291,7 +291,7 @@ Product Security Engineering Team Requirements
 
 ### SIRT - Security Incident Response Team
 
-SIRT Engineers are the firefighters of the GitLab Security Team.  As a Security Engineer in SIRT your daily duties will include incident response, log analysis, forensics, tooling and automation development, as well as contributing to strategic improvements to the GitLab products and GitLab.com services.  Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, have the ability to engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user’s data safe.
+SIRT Engineers are the firefighters of the GitLab Security Team.  As a Security Engineer in SIRT your daily duties will include incident response, log analysis, forensics, tooling and automation development, as well as contributing to strategic improvements to the GitLab products and GitLab.com services.  Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, have the ability to engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user's data safe.
 
 More information about the SIRT role is described in the persona of [Alex, SIRT Engineer](/handbook/product/personas/#alex-security-operations-engineer)
 
@@ -324,7 +324,7 @@ SIRT Requirements
 
 Trust & Safety Engineers are the builders of the anti-abuse world. They develop the tools needed to monitor, mitigate and report on abusive behavior and are an essential part of our goal to be good internet citizens.
 
-A successful candidate is someone who wants to make the internet a safer place and do the right thing because it’s right.
+A successful candidate is someone who wants to make the internet a safer place and do the right thing because it's right.
 
 Your daily duties will include building tooling and automation for curbing abuse, assist with incident response, as well as contributing to strategic improvements to the GitLab products and GitLab.com services.
 

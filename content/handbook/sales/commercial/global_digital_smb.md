@@ -1,5 +1,4 @@
 ---
-
 title: "Global Digital SMB"
 description: "Overview of the Global Digital SMB Sales Model"
 ---
@@ -338,7 +337,7 @@ All Low Priority cases should be picked up and responded to within 7 days of ent
 
 All cases should be worked, and closed out, within a 15 day period (except High Value cases).
 
-The above, and other data points, will be tracked on the below dash.  Periodically, the info will be presented to the Advocate so that they can ‘clean up their room’.
+The above, and other data points, will be tracked on the below dash.  Periodically, the info will be presented to the Advocate so that they can 'clean up their room'.
 
 Due to the high case volume, it is imperative that the Required 10 is followed, so cases do not become stale.
 
@@ -417,7 +416,7 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - Q. If a prospect/ customer emails me directly requesting assistance, what do I do?
 - A. First check the account to see if there is an In Progress SMB Sales Case owned by a different Advocate.  If there is, add the nature of the customers request to the Description field, and chatter the Advocate on the case. If no case is present, and this enquiry represents a nARR opportunity, follow the above process (*Working with the Global Digital SMB Account Team*.), and assign the case directly to yourself. Note: for general enquiries, you should direct customers to smallbusiness@gitlab.com
 - Q. As an Advocate, when I go on PTO, what happens to my cases?
-- A. Whilst on PTO, your *In Progress* cases will remain in your name. In your OOO email signature however, you should include the contact details of a fellow Advocate who has agreed to cover you whilst you are away. Ideally, this Advocate should be located in a similar region with similar langauge skills. When a customer emails you (and the Advocate providing coverage), the Advocate providing coverage should assign the active case to themself, and work it through to completion
+- A. Whilst on PTO, your *In Progress* cases will remain in your name. In your OOO email signature however, you should include the contact details of a fellow Advocate who has agreed to cover you whilst you are away. Ideally, this Advocate should be located in a similar region with similar langauge skills. When a customer emails you (and the Advocate providing coverage), the Advocate providing coverage should assign the active case to themself, and work it through to completion.  Also, be sure to follow the standard PTO guideline stated [here](/handbook/people-group/paid-time-off/#communicating-your-time-off). 
 
 ## Escalation Paths
 

@@ -21,7 +21,7 @@ Team members celebrating a GitLab anniversary will have the option to select a c
 
 No action is required by team members in order to receive these gifts! If you are due an anniversary gift the People Connect team will email you at the beginning of the following month that you are celebrating your anniversary with a specific redemption link and unique code. The People Connect runs a monthly report from Workday looking back to the previous month to identify the eligible team members.
 
-Please contact the #people-connect slack channel for any questions.
+Please reach out to the People Connect team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) for any questions.
 
 ### Team Member Birthdays
 

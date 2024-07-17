@@ -1,14 +1,7 @@
 ---
-
 title: "Rev"
 description: "Rev is an speech-to-text company that provides closed captioning, subtitles, and transcription services."
 ---
-
-
-
-
-
-
 
 ## Support
 

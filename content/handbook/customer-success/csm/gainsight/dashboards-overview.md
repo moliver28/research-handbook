@@ -1,14 +1,7 @@
 ---
-
 title: "CSM Dashboard Overview"
 description: "An overview of the key CSM dashboards."
 ---
-
-
-
-
-
-
 
 *For an overview of Gainsight, and information about how to login, please refer to the [Gainsight Overview Page](/handbook/sales/gainsight/).*
 

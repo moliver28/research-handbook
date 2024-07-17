@@ -1,5 +1,4 @@
 ---
-
 title: Social Advocacy Curator Program
 description: Strategies and details to enable curators to share GitLab-related news for company-wide enablement
 twitter_image: /images/opengraph/handbook/social-marketing/social-advocacy-curator-program-opengraph.png
@@ -7,11 +6,6 @@ twitter_image_alt: GitLab's Social Media Handbook branded image
 twitter_site: gitlab
 twitter_creator: gitlab
 ---
-
-
-
-
-
 
 ## What is Social Advocacy?
 
@@ -73,7 +67,7 @@ When you add content into Bambu, consider the following:
 - Include suggested social post copy
   - 1-2 versions for Twitter
   - 1-2 versions that cover both Facebook and LinkedIn
-  - Diversify options: one copy for “professional” use (full words, no emoji, sounds clean and clear) and one copy for “fun” (emoji, exclamation points, light and fun).
+  - Diversify options: one copy for "professional" use (full words, no emoji, sounds clean and clear) and one copy for "fun" (emoji, exclamation points, light and fun).
 - Add start and end date
   - Stories should be available for a minimum of 1 month from publishing (e.g, Sept 28th to Oct 28) however, consider your campaigns and communications focuses - big deal content could go on longer.
 
@@ -89,7 +83,7 @@ Topics enable users in all roles to follow and unfollow collections of Stories g
 
 - Admins can add Stories to up to two Required Topics that individuals cannot unfollow. For GitLab, we use `Company News` and `Spotlight` as the required topics that all team members will follow. This helps us to extend awareness of specific content we believe everyone should see and share.
 - Up to three Topics can be applied to a Story.
-- Topics can be measured inside Bambu’s Content Report.
+- Topics can be measured inside Bambu's Content Report.
 - When a new Topic is created, all individuals will automatically follow the Topic, unless it is restricted to a specific Team.
 - All new users who register in Bambu will follow all Topics by default.
 - Team Members will need to "unsubscribe" from topics that they wish to not see content about.

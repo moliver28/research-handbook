@@ -1,13 +1,6 @@
 ---
-
 title: "Product and Solution Marketing On-Boarding and Other How-to's"
 ---
-
-
-
-
-
-
 
 ## Product and Solution Marketing How-to's
 

@@ -23,7 +23,7 @@ We also have a [Mitigating Concerns page](https://internal.gitlab.com/handbook/l
 
 [Lack of Developers](https://stackoverflow.blog/2017/03/09/developer-hiring-trends-2017/)
 
-[Open Source](https://about.gitlab.com/topics/20-years-open-source/)
+[Open Source](https://web.archive.org/web/20230821170744/https://about.gitlab.com/topics/20-years-open-source/)
 
 ## 3. Multicloud
 

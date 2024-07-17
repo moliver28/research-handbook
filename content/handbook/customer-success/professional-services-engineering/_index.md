@@ -12,9 +12,7 @@ Here are links to the most popular Professional Services topics.
 * [Marketed Offerings](https://about.gitlab.com/services/)
 * [Offerings Framework & Delivery Kits](framework/)
 * [Positioning](positioning/)
-* [Process and Methodology](processes/)
-  * [Go To Market (Pre-Sales)](processes/pre-sales-methodology/)
-  * [Delivery (Post-Sales)](processes/post-sales-methodology/)
+* [Professional Services Methodology](processes/)
 * [Selling](selling/)
 * [Working with PS](working-with/)
 * [SKUs](SKUs/)
@@ -31,7 +29,7 @@ The Professional Services team is organized according to specialized functions a
 
 | Function | Responsibilities |
 |---|---|
-| [Delivery](processes/pre-sales-methodology) | Service delivery planning and execution through specialized engineering team members |
+| [Delivery](processes/) | Service delivery planning and execution through specialized engineering team members |
 | [Engagement Management](engagement-mgmt/) | Opportunity and SOW scoping and closing in collaboration with GitLab Sales team members |
 | [Instructional Design and Development](instruct-dev/) | Educational content creation, deployment, and maintenance |
 | [Practice Management](practice-mgmt/) | Definition, planning, go-to-market, and performance for specific categories of professional services offerings |
@@ -47,12 +45,10 @@ GitLab Professional Services enables customers and partners to realize the full 
 
 ### Goals
 
-1. Measure benefits of Professional Services’ contributions to product growth, adoption, retention, and time-to-value to drive internal stakeholders (Sales, Product, CS), external customers and partner success
+1. Measure benefits of Professional Services' contributions to product growth, adoption, retention, and time-to-value to drive internal stakeholders (Sales, Product, CS), external customers and partner success
 1. Predictably meet or exceed company financial performance goals for Professional Services through services delivery by overachieving project goals while maintaining project profitability targets
 1. Increase market opportunities and delivery elasticity by expanding to a partner-leveraged delivery model in order to reach more customers
 1. Ensure high-quality service delivery for GitLab direct and partner delivered services
-
-For Success Criteria mapped to these goals, check out our [FY22 strategy](https://docs.google.com/presentation/d/1jQ2gkhYzBrw46BYQGGpCYNI0POKdW08qD_MRAh6FIkI/edit#slide=id.gca6b4ba3df_3_1), GitLab Team Members Only.
 
 ## Value of Professional Services
 

@@ -1,5 +1,4 @@
 ---
-
 title: How to Engage with Product Management
 ---
 
@@ -126,16 +125,16 @@ If a customer has identified an issue that is high priority for them, such as a 
 
 The following part of [this UX design article](https://uxdesign.cc/wanting-a-faster-horse-doesnt-mean-the-customer-is-wrong-90b1bed8b7e) sums it up well:
 
-Listening to the right customers at the right time is a great first start, but you also need to make sure you are interpreting their feedback/requests correctly. The reason for that is generally customers ask for something to be better, not different — **they interpret their problems through existing solutions**. A customer is unlikely to tell you what new product to create (that’s your company’s job!) but they will tell you what problem that product needs to solve.
+Listening to the right customers at the right time is a great first start, but you also need to make sure you are interpreting their feedback/requests correctly. The reason for that is generally customers ask for something to be better, not different — **they interpret their problems through existing solutions**. A customer is unlikely to tell you what new product to create (that's your company's job!) but they will tell you what problem that product needs to solve.
 
 To do this you need to get to the underlying why behind the feature request — what is the basic problem to be solved, and then think about how to solve that problem in a fundamentally better (e.g., 10x faster, easier, cheaper) way.
 
-This concept is best described by the (most likely misattributed) quote by the founder of the Ford Motor Company, Henry Ford: "If I had asked people what they wanted, they would have said faster horses.”
+This concept is best described by the (most likely misattributed) quote by the founder of the Ford Motor Company, Henry Ford: "If I had asked people what they wanted, they would have said faster horses."
 
 > When the customer asks for a faster horse, you should then ask why. You would invariably hear things like:
-> I’d like to shorten my commute from home to work
-> I’d like to be able to sell my widgets to more cities
-> I’d like to win the Kentucky Derby
+> I'd like to shorten my commute from home to work
+> I'd like to be able to sell my widgets to more cities
+> I'd like to win the Kentucky Derby
 > **Now that you understand the basic problem to be solved (of which there are many solutions including a faster horse), its your job to think of a fundamentally better way to solve it** — e.g., what does a 10x faster horse look like? And one potential solution to that is obviously a car.
 
 ### Feedback Examples
@@ -159,7 +158,7 @@ A salesperson for an organization asking for a paid-tier feature request shall w
 - Sales and product manager schedule 15-minute pre-meeting to share what we know about the customer thus far, so as to not waste time asking questions we already know the answer to. Notes from this pre-meeting are added to the Google document.
 - Sales adds a link to the Google document under the account object as a note.
 
-In the event that a paid customer is willing to pay for us to develop a specific feature, we should still respond as above. It's great that they're willing to pay for it: that means they really need it. However, we will not make a custom version of GitLab; even gitlab.com is running on GitLab Ultimate, and we move faster that way by minimizing technical complexity to determine features to follow after, it’s a trade-off to make. This doesn’t mean that "no" is always going to stay "no." We keep an open mind to improvements.
+In the event that a paid customer is willing to pay for us to develop a specific feature, we should still respond as above. It's great that they're willing to pay for it: that means they really need it. However, we will not make a custom version of GitLab; even gitlab.com is running on GitLab Ultimate, and we move faster that way by minimizing technical complexity to determine features to follow after, it's a trade-off to make. This doesn't mean that "no" is always going to stay "no." We keep an open mind to improvements.
 
 #### Example: Customer needs support configuring a self-managed runner with a SaaS license or is looking for prescriptive advice for setting up GitLab
 
@@ -266,3 +265,157 @@ All Product Managers should ensure they are set up to receive label notification
 
 1. List the [product project's labels](https://gitlab.com/gitlab-com/Product/-/labels)
 2. Subscribe to relevant stage labels
+
+## Guide for Product Managers Engaging with Other Teams
+
+### Product group counterparts
+
+GitLab is designed and developed in a unique way.
+
+Consistent with our value of [Efficiency](/handbook/values/#efficiency)
+the product is developed with [directly responsible individuals](/handbook/people-group/directly-responsible-individuals/) from Product, UX, Quality and Development working together.
+
+| Product Managers | Engineering Managers | UXers | SETs |
+| :--------------: | :------------------: | :---: | :---: |
+| Set [milestone priorities](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) and define what features Engineering works on | Own the definition of done; decide what gets merged into Product. Prioritizes maintenance work | Proactively identify small and large strategic UX needs to aid Product Management prioritization | Own and identify test strategy and requirements to complete the definition of done |
+
+At GitLab, we develop our product for self-managed as well as SaaS-hosted customers. We realize that while we have DRIs there are many stakeholders who must have input, including Engineering, Quality, UX, Product, Security, and Infrastructure. For example, the Security team often has the deeper context of what it takes to run a secure SaaS system. Similarly, the Infrastructure team has insights into what we should build into the product to reduce toil and enable efficient, reliable, performant, and scalable systems.
+
+We call this the [Product Group](/handbook/company/structure/#product-groups) model. It is an extension of the classic quad concept at the leadership level and is currently comprised of Development, Quality, User Experience, Infrastructure, Product, and Security.
+
+The Product Group can be used to facilitate a [global optimization](/handbook/values/#global-optimization), including product-wide [technical debt](/handbook/engineering/workflow/#technical-debt).
+
+### Working with Product Management across the company
+
+There are many counterparts that PMs work with. Here are some best practices for working across the organization.
+
+#### Working with Finance Business Partners
+
+In some cases, Product Managers may have items that incur expenses toward the budget. These can be related to external vendors for research, contractors for development staffing, and infrastructure. The CProdO is the DRI for the product budget and all changes or requests for budget spend must be approved through them.
+
+To request a forward-looking new budget item, open an issue in the Product project using the [Product Budget Request Template](https://gitlab.com/gitlab-com/Product/-/tree/main/.gitlab/issue_templates/Product-Budget-Request.md) and assign it to the CProdO and manager. Budgets are planned annually and quarterly, so approval may not be immediately given because it depends on the timing of budget planning. The CProdO will bring the budget request to the next budget planning session with Finance.
+
+To request approval for an increase in the expected spend for a pre-existing item, open an issue in the Product project using the [Product Budget Request Template](https://gitlab.com/gitlab-com/Product/-/tree/main/.gitlab/issue_templates/Product-Budget-Request.md) assign to the CProdO and tag your manager. The CProdO will review, approve or decline the budget change. The CProdO will then notify the Finance Business Partner of changes for forecast updates.
+
+### Working with Content Marketing
+
+Content marketers and Product Managers can partner together when using a Blog to communicate product changes and engaging the market with thoughtful changes. See the [blog post handbook page](/handbook/marketing/brand-and-product-marketing/content/content-marketing/#blog-post) for guidelines on when and how to start engaging Content Marketing for creating a blog post for a feature.
+
+### Working with Product Marketing (PMM)
+
+Product marketers and managers should be joined at the hip. Just as a feature without documentation
+should not be considered shipped, benefits of GitLab that we're not actively talking about might
+as well not exist.
+
+Product marketers rely on product managers to be guided to what is important and high impact.
+In general, you should:
+
+- always mention the [appropriate PMM](/handbook/product/categories/) on epics and high level issues
+- regularly meet/talk async with the PMM that is aligned with your product area
+- proactively reach out for input when contemplating new features
+- involve PMM as early as possible with work on important changes
+
+{{% include "includes/usecase-competitive-content.md" %}}
+
+### Working with marketing
+
+When working on the release of larger features or new capabilities, it is important the product manager consider various aspects of the go to market plan and  inform or partner with the appropriate stable counterparts for strategic and logistical considerations.
+
+#### Marketing materials
+
+As a PM you're responsible for making sure changes you've shipped are well represented
+throughout GitLab's documentation and marketing materials. This means that on
+release, [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/features.yml) is updated, documentation is merged and deployed, and
+any existing content is updated where necessary.
+
+It's not acceptable to do this after the release. GitLab is very complex, and features
+and functions are easily missed, even those that provide significant value to customers
+(e.g. the many ways you can authenticate with GitLab).
+
+You can recruit the help of the marketing and technical writing team if needed,
+but it's highly recommended to do small updates yourself. This takes less time
+and overhead than communicating what needs to be done to someone else.
+
+##### Pages that read from `features.yml`
+
+It's important to keep [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/features.yml) updated because there are a number of different pages (internal-facing and external-facing) that read from that file. These include:
+
+**External**
+
+- [Pricing](https://about.gitlab.com/pricing/)
+- [Features](https://about.gitlab.com/features/)
+- [Why GitLab Premium?](https://about.gitlab.com/pricing/premium/)
+- [Why GitLab Ultimate?](https://about.gitlab.com/pricing/ultimate)
+- [Feature Comparison](https://about.gitlab.com/pricing/feature-comparison/)
+- [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/)
+- [DevOps Tools Landscape](https://about.gitlab.com/why-gitlab/)
+
+**Internal**
+
+- [SaaS vs. Self-managed](https://about.gitlab.com/features/)
+- [Features by tier](/features/by-paid-tier/)
+
+### Working with User Experience (UX)
+
+The standard for working as a team at GitLab is the [Product Development Workflow](/handbook/product-development-flow/). Product Managers and Product Designers should work together as strategic counterparts to better understand the problem and discover user needs. The Product Designer and the Product Manager will pair to understand the target audience, their challenges when using a particular feature and then designing a solution that helps users solve them.
+
+It's important to remember that User Experience (UX) does not only relate to visual features or interface design. UX is the intangible design of a strategy that brings us to a solution, so it also refers to the experience of writing code, working with .yml files, designing APIs, working with a CLI, etc. All of those functionalities are meant to be read and used by people. Involving a Product Designer into their planning and development can be highly beneficial. A guide to consider is: anytime a person is interacting with something, there is an opportunity for that interaction to be designed.
+
+#### Assessing user workflows
+
+As the GitLab product matures, we know we must make important workflows easier to use through feedback-loop mechanisms as is captured in the "Improve" section of the [Product Development Flow](/handbook/product-development-flow/#outcomes-and-activities-7). We can use the [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/) and [UX scorecards](/handbook/product/ux/ux-scorecards/) as mechanisms to provide insights into how might be able to improve these user workflows.
+
+#### What if there is a conflict with the product direction plan and solution proposal?
+
+For areas with minimal maturity, or low/internal-only adoption, iteration and quickly adapting the product is the priority. In cases where the product experience desired would take longer to implement than required for the current maturity stage, it is advised the Product Manager work with the Product Designer and/or Engineering Manager to scope an iteration plan to ensure the experience is delivered incrementally over time to provide value quickly with quality.
+
+For areas with more adoption, or beyond viable maturity, we recommend using the below escalation path if there is a disagreement on the approach to solve for the product direction and experience for users/customers.
+
+As a team, there may be cases where a proposal exceeds the expected time to market to achieve the optimal customer experience. As this impacts potential business results, product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) of the decision.
+
+As DRIs, it is important to consider the input from other team members and to know when to trust in their experience and judgment. It is advised to use an [opportunity canvas lite](/handbook/product/product-processes/#opportunity-canvas-lite). The PM is expected to compile the canvas lite with inputs from the Product Designer and/or Engineering Manager. The PM then makes a decision after weighing input from the product designer and engineering, as appropriate. The PM should then share the decision, articulating the costs of waiting, and shipping earlier with less polish, as well as why no smaller iteration exists as part of this decision.
+
+In the event that a decision is made to build something that is less polished, has a lesser user experience, or otherwise doesn't live up to our standards of where we want this UI to end up the team should generate follow-up [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux) issues to be addressed in the next upcoming milestone(s).
+
+If a quad member remains concerned and in strong disagreement with the decision made by the PM DRI, the quad member should exercise our [disagree, commit, and disagree value](/handbook/values/#disagree-and-commit), by initiating an [escalation](/handbook/leadership/#effective-escalations) to bring in management layers above into the decision.
+
+Results are the most important aspect to consider for the business and our users. If there is a perceived risk to potentially harm the business financially, reduce customer satisfaction or value, or lead to legal trouble, teammates are empowered to seek an alternative perspective for the product decision. Within the Product Division, we recommend escalating first to the management layer immediately above where the disagreement is happening for input and further escalating to PLT and ultimately the Chief Product Officer.
+
+#### What if your team doesn't have a designer?
+
+Product Designer assignments are listed in the team.yml file. Unfortunately, we are currently unable to assign a dedicated Product Designer for every group. Instead, Product Designers are assigned to the areas of highest business priority and will continue to provide focused support to those priorities throughout the year. Due to the limited capacity, we are also not able to do UX reviews on MRs for groups without a designer.
+
+If there isn't a designer listed for a group, then that team is expected to be self-sufficient in taking responsibility for the design needs of their product area. Product Design does not have the capacity to review complex proposed design solutions or provide design solutions for unsupported groups.
+
+If you have questions or need support you can do so in the following ways:
+
+- PMs who need to create designs can request access to Figma by creating an [Access Request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new). **Note:** We cannot grant an Editor seat by requesting an upgrade within Figma. An access request issue is required.
+- Review and follow the [Pajamas guidelines](https://design.gitlab.com/).
+- If you have a small design question, or the Pajamas guidance is not clear, reach out via the `#ux` or `#ux_coworking` Slack channel.
+- If you have a Community Contribution MR that needs a design review, follow the process for [MR Reviews for Groups without a Designer](/handbook/product/ux/product-designer/mr-reviews/#what-if-a-team-doesnt-have-a-designer).
+
+### Working with Product Management external to the company
+
+Here are some practices for how PMs work with groups outside of GitLab.
+
+#### Working with community contributors
+
+Product managers are the DRI for their group's [product direction](/handbook/product/product-processes/#managing-your-product-direction)
+which must include delivering on our greater company strategy of [dual flywheels](/handbook/company/strategy/#dual-flywheels).
+[Community contributions](https://about.gitlab.com/community/contribute/) are a critical
+part of the product direction.
+To support contributions product managers may consider the following guidelines:
+
+1. Aim to review and respond to community contributions within 4 working days- see [review response SLO](/handbook/engineering/workflow/code-review/#review-response-slo).
+   Contributions for well-defined `~direction` or `%Backlog` issues will be prioritised.
+1. For contributions that impact user experience, following the [contribution guidelines](https://about.gitlab.com/community/contribute/),
+   the Product Designer for the group should review the MR and provide feedback on the MR.
+1. For contributions that are for features we do not want in the product (either because
+   of conflicts with our product direction, poor UX, maintenance concerns, or security reasons)
+   the Product Manager should review the MR and provide feedback on the MR so the contributor
+   understands this feature is not being accepted by GitLab.
+1. If not involved earlier, tag the PM of the group reviewing the MR before merging the MR.
+   This is to ensure that the PM stays informed about changes affecting their area and to
+   allow them communicate the change via a release post, if necessary.
+   Remember to practice our CREDIT values when communicating with contributors.
+   

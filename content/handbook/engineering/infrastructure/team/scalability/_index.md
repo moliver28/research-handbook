@@ -26,25 +26,25 @@ title: "Scalability Group"
 
 The Scalability group is currently formed of two teams:
 
-* [Scalability:Observability](./observability) and
-* [Scalability:Practices](./practices).
+* [Scalability:Observability](observability/) and
+* [Scalability:Practices](practices/).
 
 {{< team-by-manager-slug "rachel-nienaber" >}}
 
 ### Scalability:Observability
 
-The [Observability team](./observability) focuses on observability, forecasting & projection systems that enable development engineering to predict
+The [Observability team](observability/) focuses on observability, forecasting & projection systems that enable development engineering to predict
 system growth for their areas of responsibility.
 
-The following people are members of the [Scalability:Observability team](./observability):
+The following people are members of the [Scalability:Observability team](observability/):
 
 {{< team-by-manager-slug "liam-m" >}}
 
 ### Scalability:Practices
 
-The [Practices team](./practices) focuses on tools and frameworks that enable the stage groups to support their features on our production systems.
+The [Practices team](practices/) focuses on tools and frameworks that enable the stage groups to support their features on our production systems.
 
-The following people are members of the [Scalability:Practices team](./practices):
+The following people are members of the [Scalability:Practices team](practices/):
 
 {{< team-by-manager-slug "kwanyangu" >}}
 
@@ -90,13 +90,13 @@ Each team is responsible for separate indicators. For more information, please v
 
 ## Themes
 
-The broad nature of work undertaken by the Scalability group can make prioritization challenging as it’s tricky to compare some issues like-for-like. For example, how do we compare the benefit of an issue to address a performance concern against an issue that reduces developer toil? To help guide the direction of the group and to inform our prioritization process, we can categorize issues in to the following _themes_, in order of priority:
+The broad nature of work undertaken by the Scalability group can make prioritization challenging as it's tricky to compare some issues like-for-like. For example, how do we compare the benefit of an issue to address a performance concern against an issue that reduces developer toil? To help guide the direction of the group and to inform our prioritization process, we can categorize issues in to the following _themes_, in order of priority:
 
 1. **Critical Saturation Response**. On occasions saturation alerts can unexpectedly occur - for example, when caused by a sudden change in platform usage patterns - and need to be addressed with urgency. We try to avoid working reactively by proactively working on other themes.
 1. **Horizontal Scalability**. The most obvious scaling bottlenecks in our infrastructure are those that can only be scaled _vertically_ instead of _horizontally_. Horizontal scaling brings the benefit of _elasticity_, which increases confidence that we can meet future demand while keeping costs linear - both of these elements are strongly aligned with the vision of the Scalability group.
 1. **Increasing Plaform Capacity**. Delivering foundational project work in the GitLab application and infrastructure to support service capacity needs for GitLab SaaS.
 1. **Scalability Advocacy and Facilitation**. An effective method for the Scalability group to leverage its output is by collaborating closely with other engineering teams to promote scalability best practises. This might include building tools to enable wider engagement in GitLab SaaS operations (e.g. [Stage Dashboards](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/406)), or serving as a point of contact to other teams for scaling questions relating to their own initiatives.
-1. **Eliminating Toil**. We want to make our output as efficient as possible by spending more time on engineering projects and less time on manual, repetitive, or automatable tasks. An effective way of achieving this is by considering how future toil can be avoid when delivering projects. However, inline with our Iteration value, we don’t want to over-optimize and we can't consider all eventualities ahead of time. We should always be mindful of opportunities to reduce toil, which will make us more effective in the long-term.
+1. **Eliminating Toil**. We want to make our output as efficient as possible by spending more time on engineering projects and less time on manual, repetitive, or automatable tasks. An effective way of achieving this is by considering how future toil can be avoid when delivering projects. However, inline with our Iteration value, we don't want to over-optimize and we can't consider all eventualities ahead of time. We should always be mindful of opportunities to reduce toil, which will make us more effective in the long-term.
 
 The above list is not comprehensive, nor does it outline a formal process. We should remain pragmatic when prioritizing work, while using the themes as a guideline.
 
@@ -359,9 +359,9 @@ You can find more detailed information in the links below. If this is not enough
 
 1. [Expand and Contract pattern](https://docs.gitlab.com/ee/development/multi_version_compatibility.html)
 2. [Zero Downtime Updates](https://docs.gitlab.com/ee/update/zero_downtime.html)
-3. [Sidekiq Compatibility across Updates](https://docs.gitlab.com/ee/development/sidekiq_style_guide.html#sidekiq-compatibility-across-updates)
+3. [Sidekiq Compatibility across Updates](https://docs.gitlab.com/ee/development/sidekiq/compatibility_across_updates.html)
 4. [Avoiding downtime in migrations](https://docs.gitlab.com/ee/development/database/avoiding_downtime_in_migrations.html)
-5. [Uploads development documentation](https://docs.gitlab.com/ee/development/uploads.html)
+5. [Uploads development documentation](https://docs.gitlab.com/ee/development/uploads/)
 
 ## Team History
 

@@ -1,19 +1,12 @@
 ---
-
 title: Secure Technical Documentation
 ---
-
-
-
-
-
-
 
 ## Architecture
 
 - [Overview](#overview)
 - [Severity Levels](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/severities.html)
-- [Feedback](./feedback/)(Dismiss, create an issue or a Merge Request)
+- [Feedback](feedback/)(Dismiss, create an issue or a Merge Request)
 
 ## Overview
 
@@ -91,7 +84,7 @@ In addition, with ongoing architecture aimed at reducing persistence to user-int
 
 ## Researches
 
-- [Data model for dependencies information](./data-model-for-dependencies-information/)
+- [Data model for dependencies information](data-model-for-dependencies-information/)
 
 ## Brown bag sessions
 

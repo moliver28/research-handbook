@@ -1,5 +1,4 @@
 ---
-
 title: "IT Engineering - Development"
 description: "This handbook page provides information about software development in the IT Engineering sub-department."
 ---

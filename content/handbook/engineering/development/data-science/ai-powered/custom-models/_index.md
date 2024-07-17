@@ -44,9 +44,9 @@ Issues owned by the Custom Models group should have these labels, as appropriate
 
 - `~"group::custom models"`
 - `~"devops::ai-powered"`
-- `~"section::dev"`
-- `~"category::model personalization"`
-- `~"category::self-hosted model deployment"`
+- `~"section::data science"`
+- `~"Category:Model personalization"`
+- `~"Category:Self-Hosted models"`
 
 In addition, issues should contain the relevant `~type:` and subtype labels.
 
@@ -74,7 +74,7 @@ The [Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/7472416?miles
 
 ### Ready for Development Status
 
-Issues that are ready to be worked on by an engineer are labelled `workflow::ready for development`. Only issues with this label should be assigned to an engineer as a Deliverable. If research is required, the `~spike` label is assigned, but the scope of the spike should be clearly stated in the issue and an outcome might be code written or a refined issue created.
+Issues that are ready to be worked on by an engineer are labeled `workflow::ready for development`. Only issues with this label should be assigned to an engineer as a Deliverable. If research is required, the `~spike` label is assigned, but the scope of the spike should be clearly stated in the issue and an outcome might be code written or a refined issue created.
 
 ### Capacity Planning Spreadsheet
 

@@ -17,7 +17,7 @@ We've developed an issue template available [here](https://gitlab.com/gitlab-com
 
 The basis of our threat modeling is modeled after [PASTA](https://en.wikipedia.org/wiki/Threat_model#P.A.S.T.A.) It should be noted that a full PASTA threat model is usually not required as it involves 7 steps, and in many cases only the steps 4, 5, and 6 are needed. To make it even easier, you can use [STRIDE](https://en.wikipedia.org/wiki/STRIDE_(security)) to help define the threats.
 
-Therefore we've included a beginner-friendly [how-to guide to threat modeling]({{< ref "./howto" >}}) which you should read if you're new to threat modeling. It includes a bit more detail about using STRIDE. If you need additional help, please ping the AppSec team or reach out in the #sec-appsec Slack channel.
+Therefore we've included a beginner-friendly [how-to guide to threat modeling](howto/) which you should read if you're new to threat modeling. It includes a bit more detail about using STRIDE. If you need additional help, please ping the AppSec team or reach out in the #sec-appsec Slack channel.
 
 ### Samples of PASTA Evaluations
 
@@ -59,7 +59,7 @@ There are several other threat modeling frameworks, however others were deemed e
 
 Other threat modeling frameworks examined:
 
-- [STRIDE](https://en.wikipedia.org/wiki/STRIDE_(security)). This has been used by Microsoft, and is primarily focused on threats themselves, and tends to lean toward known/existing threats. As they outgrew STRIDE, they developed [SDL](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) (that runs on Microsoft Windows) that allows them to define templates and evaluate threats. We do not run Windows, nor does our focus involve the existing templates they have designed for it. As a part of the overall development process within Microsoft, it is still more “code-centric” that we need.
+- [STRIDE](https://en.wikipedia.org/wiki/STRIDE_(security)). This has been used by Microsoft, and is primarily focused on threats themselves, and tends to lean toward known/existing threats. As they outgrew STRIDE, they developed [SDL](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) (that runs on Microsoft Windows) that allows them to define templates and evaluate threats. We do not run Windows, nor does our focus involve the existing templates they have designed for it. As a part of the overall development process within Microsoft, it is still more "code-centric" that we need.
 - Evil Personas. The focus of Evil Personas similar to regular Personas, but the emphasis is on threat actors. it does not cover code-centric projects, just perceived threats. Useful, but limited as it assumes a threat is a person or group of people. Most "persona" scenarios are usually built in or added onto other threat models, refer to [this paper on Attack Personas](https://www.cs.ox.ac.uk/files/4007/PID1871807.pdf) for a reference to the more aggressive side of personas in threat modeling.
 - Playing cards. There are several versions of this including [Elevation of Privilege](https://github.com/adamshostack/eop) Extremely useful tool, but better designed for in-person collaborations, and is more aligned with STRIDE in mind. Similar to Attack Trees, it focuses more on the attack end in reference to a chunk of infrastructure or code. This would be a fun thing to do at a future Contribute, but it does not scale well for a Zoom-based culture.
 - [Attack Trees](https://en.wikipedia.org/wiki/Attack_tree). The focus is on attacks only, as a process to map flaws in existing code and systems.
@@ -74,7 +74,7 @@ PASTA has a number of advantages for GitLab over other frameworks:
 - Collaborative
 - Prioritization should define when and what apps to apply the threat model, and be apart of the threat model process itself
 
-PASTA has the advantage in that it can be adopted from code-based scenarios to infrastructure scenarios easily. It can be adapted to cover non-traditional threats, such as bad PR due to an executive’s social media posting or the company’s selling of the GitLab product to a controversial organization. It can even be used to map in incident response scenarios, as it allows for threat reinforcement from threat intel sources including logs, intel services, and even previous incidents.
+PASTA has the advantage in that it can be adopted from code-based scenarios to infrastructure scenarios easily. It can be adapted to cover non-traditional threats, such as bad PR due to an executive's social media posting or the company's selling of the GitLab product to a controversial organization. It can even be used to map in incident response scenarios, as it allows for threat reinforcement from threat intel sources including logs, intel services, and even previous incidents.
 
 ## PASTA Stages
 
@@ -147,11 +147,11 @@ To help with implementing and using the PASTA framework, we can use a three-tier
 
 ### Blind threat model
 
-GitLab’s best practices applied to components of the project.
+GitLab's best practices applied to components of the project.
 
 - Maps key goals of app or service and correlates to clear technical standards for architecture, hardening of server/service, app framework, containers, etc.
 - Best practices per component. For example, TLS settings that are set to a GitLab standard, noting if our own standard is higher or lower than industry best practices.
-- Best practices for coding are applied here as well, the “Sec” part of DevSecOps and our integration of this into CI/CD.
+- Best practices for coding are applied here as well, the "Sec" part of DevSecOps and our integration of this into CI/CD.
 - SAST/DAST policies and scopes. We can "eat our own dogfood" to improve the quality of the changes we implement.
 
 *Applies Stage I & Stage II of PASTA*

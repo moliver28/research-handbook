@@ -1,5 +1,4 @@
 ---
-
 title: Metrics Analysis - Hypothesis and Actions
 description: "How to analyze Support metrics hypotheses"
 ---
@@ -90,7 +89,7 @@ If you suspect a time consuming workflow is causing a dip in performance:
 - Examined theoretical capacity loss by repeating the above caluclation with "actual" close rates.
 - Examined "worst case" capacity loss by assuming 100% of productivity taken by this queue.
 
-##### [2020-09-01: Adding L&R has drawn resources away from the rest of the queues that haven’t been replenished.](https://gitlab.com/gitlab-com/support/metrics/-/issues/5)
+##### [2020-09-01: Adding L&R has drawn resources away from the rest of the queues that haven't been replenished.](https://gitlab.com/gitlab-com/support/metrics/-/issues/5)
 
 **Evidence Gathered:**
 

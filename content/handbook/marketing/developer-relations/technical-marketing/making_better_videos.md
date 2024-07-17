@@ -30,10 +30,10 @@ Before starting to record a video, a few things must be planned out:
 
 * [Why Short-Form Video Needs to Be Part of Your Content Strategy](https://www.entrepreneur.com/article/308684)
 * [How Many of These Video Marketing Mistakes Are You Making?](https://www.entrepreneur.com/article/293275)
-* [If your video doesn’t capture audiences in 10 seconds, you’re losing engagement](https://sociable.co/social-media/video-audiences-engagement/)
+* [If your video doesn't capture audiences in 10 seconds, you're losing engagement](https://sociable.co/social-media/video-audiences-engagement/)
 * [focused on explainer videos](https://www.yumyumvideos.com/short-vs-long-videos-explainer-video-length-wp/), but still generally good info such as:
    > In order to get the most out of your marketing video, always try to follow these guidelines:
-   > * Include your audience’s pain points at the very beginning of your video so as to quickly grab their attention. Make it in an interesting, clear and direct way.
+   > * Include your audience's pain points at the very beginning of your video so as to quickly grab their attention. Make it in an interesting, clear and direct way.
    > * Work on a custom video. This will make a huge difference in terms of engagement and memorability. If you customize the characters, landscapes, and backgrounds of your video, you will set up a strong emotional connection with your viewers (they will feel that the story was specially made for them).
    > * Make a high-quality video. Treat your video with dedication, focus, and detail in every single stage of the video production process.
    > * Give your marketing video the right length. Just for you to know, 160 scripted words in English represents around one minute of video. You will then need 240 words for a 90- second video.

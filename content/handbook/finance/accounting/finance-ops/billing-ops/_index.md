@@ -1,5 +1,4 @@
 ---
-
 title: "Billing Operations"
 ---
 
@@ -39,11 +38,11 @@ Please see the internal [Wiki](https://gitlab.com/gitlab-com/Finance-Division/fi
 - [Order requirements](/handbook/sales/field-operations/order-processing/)
 - [Contacting the Legal team](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable-and-contacting-legal)
 - [Questions about licenses and plans](/handbook/support/internal-support#common-internal-requests---sales-team--customer-success-managers--accounts-receivable)
-- [Zuora Billing Tech Stack Guide]({{< ref "zuora-billing" >}})
+- [Zuora Billing Tech Stack Guide](https://internal.gitlab.com/handbook/finance/accounting/finance-ops/billing-ops/zuora-billing/)
 
 ## Communicating with Billing
 
-Avoid contacting any Billing team members [directly via Slack]({{< ref "communication#avoid-direct-messages" >}}). Please tag `@billing-ops` in the #Finance channel.
+Avoid contacting any Billing team members [directly via Slack](/handbook/communication/#avoid-direct-messages). Please tag `@billing-ops` in the #Finance channel.
 
 - Email: `billing@gitlab.com`
 - Salesforce: `@billing-ops`
@@ -92,7 +91,7 @@ See also: [Business Operations - Salesforce Reference](/handbook/sales/field-ope
 
 ### Zuora
 
-[Zuora](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/staging/doc/architecture#zuora), a leader in the subscription management technology space, provides a platform which allows automation of subscription operations for businesses. We use Zuora's platform at GitLab to integrate with other platforms for billing and CRM, automate subscriptions flows and assist with reporting. The platform is considered the source of truth for many important business objects, like the product catalog, subscriptions, invoices, and more. See the **[Zuora Billing Tech Stack Guide]({{< ref "zuora-billing" >}})** for details regarding Zuora Billing implementation, including the [Zuora Object Model](https://knowledgecenter.zuora.com/BB_Introducing_Z_Business/D_Zuora_Business_Objects_Relationship) and integrations with systems like CustomersDot.
+[Zuora](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/staging/doc/architecture#zuora), a leader in the subscription management technology space, provides a platform which allows automation of subscription operations for businesses. We use Zuora's platform at GitLab to integrate with other platforms for billing and CRM, automate subscriptions flows and assist with reporting. The platform is considered the source of truth for many important business objects, like the product catalog, subscriptions, invoices, and more. See the **[Zuora Billing Tech Stack Guide](https://internal.gitlab.com/handbook/finance/accounting/finance-ops/billing-ops/zuora-billing/)** for details regarding Zuora Billing implementation, including the [Zuora Object Model](https://knowledgecenter.zuora.com/BB_Introducing_Z_Business/D_Zuora_Business_Objects_Relationship) and integrations with systems like CustomersDot.
 
 - **Zuora is used for the following:**
   - Billing of all customer accounts
@@ -102,7 +101,7 @@ See also: [Business Operations - Salesforce Reference](/handbook/sales/field-ope
   - Integrated to Avalara Tax Reporting Software
   - Integrated with Zuora Revenue
 
-> See the **[Zuora Billing Tech Stack Guide]({{< ref "zuora-billing" >}})** for technical implementation details.
+> See the **[Zuora Billing Tech Stack Guide](https://internal.gitlab.com/handbook/finance/accounting/finance-ops/billing-ops/zuora-billing/)** for technical implementation details.
 
 ### Zendesk
 
@@ -122,7 +121,7 @@ See also: [Zendesk](/handbook/marketing/developer-relations/workflows-tools/zend
 1. Click "Manage Purchases"
 1. Click "Download License"
 
-> If you still can’t access your license, please create a support issue [here](/handbook/support/internal-support#regarding-licensing-and-subscriptions).
+> If you still can't access your license, please create a support issue [here](/handbook/support/internal-support#regarding-licensing-and-subscriptions).
 
 </details>
 
@@ -186,7 +185,7 @@ All applicable fees are due and payable as per our terms of service.
 
 Section 6. PAYMENT OF FEES, article 6.7 in our standard terms of service.
 
-> 6.7 Any unpaid Fees are subject to a finance charge of one percent (1.0%) per month, or the maximum permitted by law, whichever is lower, plus all expenses of collection, including reasonable attorneys’ fees. Fees under this Agreement are exclusive of any and all taxes or duties, now or hereafter imposed by any governmental authority, including, but not limited to any national, state or provincial tax, sales tax, value-added tax, property and similar taxes, if any. Fees under this Agreement shall be paid without any withholding or deduction. **In the case of any deduction or withholding requirements, Customer will pay any required withholding itself and will not reduce the amount to be paid to GitLab on account thereof.**
+> 6.7 Any unpaid Fees are subject to a finance charge of one percent (1.0%) per month, or the maximum permitted by law, whichever is lower, plus all expenses of collection, including reasonable attorneys' fees. Fees under this Agreement are exclusive of any and all taxes or duties, now or hereafter imposed by any governmental authority, including, but not limited to any national, state or provincial tax, sales tax, value-added tax, property and similar taxes, if any. Fees under this Agreement shall be paid without any withholding or deduction. **In the case of any deduction or withholding requirements, Customer will pay any required withholding itself and will not reduce the amount to be paid to GitLab on account thereof.**
 
 You can view our GitLab Subscription Agreement [here](/handbook/legal/subscription-agreement/)
 

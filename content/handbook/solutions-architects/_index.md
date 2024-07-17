@@ -1,9 +1,7 @@
 ---
-
 title: Solutions Architects Handbook
 description: "Solutions Architects (SA) are the trusted advisors to GitLab prospects and customers during the presales motion, demonstrating how the GitLab application and GitLab Professional Services address common and unique business requirements"
 ---
-
 
 ## Solutions Architecture Mission
 
@@ -79,7 +77,7 @@ These offerings are delivered each within a specific context of a particular cus
 - **Demonstrations**: Built around the work done within the technical discovery. Demonstrations aim to address at least 3 specific pain points identified during discovery while selling the vision of GitLab's DevSecOps platform approach.
 - **Guided Trials**: Three goals in 30 days through the usage of a GitLab Trial. This can oftentimes be used to replace the need for the more formal Proof of Value.
 - **Proofs of Value**: Technical evaluation with more complexities than a Guided Trial. May last up to 8 weeks.
-- **Technical Close Plans**: An internal strategy used to secure a technical win for a given opportunity. It leverages the Command Plan and also details the customer’s desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks.
+- **Technical Close Plans**: An internal strategy used to secure a technical win for a given opportunity. It leverages the Command Plan and also details the customer's desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks.
 
 ## Changing the Solutions Architects Handbook Content
 

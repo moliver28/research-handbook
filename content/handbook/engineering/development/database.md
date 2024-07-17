@@ -1,13 +1,6 @@
 ---
-
 title: Database Engineering
 ---
-
-
-
-
-
-
 
 This page is dedicated to database application engineering and provides an entry-point for resources on this topic.
 

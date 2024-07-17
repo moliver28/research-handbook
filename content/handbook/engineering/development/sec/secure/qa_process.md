@@ -4,12 +4,6 @@ aliases: /handbook/engineering/development/sec/secure/qa_process.html
 title: Secure QA Process
 ---
 
-
-
-
-
-
-
 ## Everything starts with a Merge Request
 
 We expect and require all contributions to our products to go a merge request with a formal review. As such, we follow the [Merge Request workflow](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html) and [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html) articulated in GitLab's developer documentation. We would, however, like to highlight a few items from these documents and add a few additional considerations for reviewers and authors.

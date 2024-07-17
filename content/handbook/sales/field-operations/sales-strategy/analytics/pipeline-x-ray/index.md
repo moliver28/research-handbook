@@ -1,13 +1,6 @@
 ---
-
 title: "Sales Strategy - Pipeline X-Ray Report"
 ---
-
-
-
-
-
-
 
 ## Pipeline X-Ray dashboard
 

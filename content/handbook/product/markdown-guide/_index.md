@@ -68,7 +68,7 @@ For our [Blog](https://about.gitlab.com/blog/), everything in this guide can be 
 Notes:
 
 - We don't use `h1` headings, as they already are displayed on every page as its title, and we should not apply more than one `h1` per page.
-  > *When you use a top level heading, or an `<h1>`, you’re setting up a semantic relationship between that heading and the remainder of the content on a page, describing what it is about. If you then use a second `<h1>` on the same page, you’re creating some potential confusion, because someone, or a search engine might see that as the ending of the semantic relationship between the content after the first `<h1>` and the start of this new `<h1>`.* [SEO Guide]
+  > *When you use a top level heading, or an `<h1>`, you're setting up a semantic relationship between that heading and the remainder of the content on a page, describing what it is about. If you then use a second `<h1>` on the same page, you're creating some potential confusion, because someone, or a search engine might see that as the ending of the semantic relationship between the content after the first `<h1>` and the start of this new `<h1>`.* [SEO Guide]
 - Always start with `h2` (`##`), and respect the order `h2` &rarr; `h3` &rarr; `h4`. Never skip the hierarchy level, such as `h2` &rarr; `h4`.
   > *The six heading elements, H1 through H6, denote section headings. Although the order and occurrence of headings is not constrained by the HTML DTD, documents **should not skip levels** (for example, from H1 to H3), as converting such documents to other representations is often problematic.* [W3C]
 - Always leave a blank space between the hash `#` and the text next to it, otherwise it won't render properly.
@@ -190,7 +190,7 @@ We'd rather use inline links, such as `[Text to display](link)`, as they are eas
 
 ### Relative links
 
-Use relative links when referring to links found on [about.gitlab.com](https://about.gitlab.com/). For example, a link to our blog handbook should look like this `/handbook/marketing/blog/` and **not** this `https://about.gitlab.com/handbook/marketing/blog/`. Remove everything from the `https` through `about.gitlab.com`, but retain the forward slash after `.com`.
+Use relative links when referring to links found on [about.gitlab.com](https://about.gitlab.com/). For example, a link to our blog handbook should look like this `/handbook/marketing/blog/` and **not** this `https://handbook.gitlab.com/handbook/marketing/blog/`. Remove everything from the `https` through `about.gitlab.com`, but retain the forward slash after `.com`.
 
 Learn more in the [Markdown Guide](/handbook/style-guide/#links).
 
@@ -564,12 +564,6 @@ an automated process.
 
 ```md
 ----
-
-
-
-
-
-
 
 ----
 ```

@@ -56,7 +56,7 @@ to the current and previous two GitLab versions:
   * The merge request executes end-to-end tests via package-and-test pipeline to guarantee the bug fix meets the quality standards.
   * If the package-and-test pipeline fails, a review from a Software Engineer in Test is required.
   * The merge request is merged by a GitLab maintainer in the stable branch associated
-* **Step 1b: Vulnerability fix prepared** - Engineers fix vulnerabilities in the relevant [Security repository]. A fix is considered complete only when it has a [security implementation issue](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#terminology) with the following:
+* **Step 1b: Vulnerability fix prepared** - Engineers fix vulnerabilities in the relevant [Security repository](https://gitlab.com/gitlab-org/security). A fix is considered complete only when it has a [security implementation issue](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#terminology) with the following:
   * All checkboxes checked to show all steps have been completed.
   * An AppSec and Maintainer approved MR targeting the default branch.
   * A backport MR for each intended version. In most cases this will mean 4 MRs to cover each supported version. Each MR must have passing pipelines, required approvals and be assigned to the release bot for processing.
@@ -93,7 +93,7 @@ patch release is needed, the AppSec engineer will work with Release Managers to 
 
 * [Diagram source - internal](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d10e121945_0_53)
 
-* **Step 1: Fix for the high-severity vulnerability is prepared** - Engineers prepare a fix for the vulnerability in the relevant Security repository. A fix is considered complete only when it has a [security implementation issue] with the following:
+* **Step 1: Fix for the high-severity vulnerability is prepared** - Engineers prepare a fix for the vulnerability in the relevant Security repository. A fix is considered complete only when it has a [security implementation issue](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md#security-implementation-issue) with the following:
   * All checkboxes checked to show all steps have been completed.
   * An AppSec and Maintainer approved MR targeting the default branch.
   * A backport MR for each intended version. In most cases this will mean 4 MRs to cover each supported version. Each MR must have passing pipelines, required approvals and be assigned to the release bot for processing.

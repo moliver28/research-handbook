@@ -1,14 +1,7 @@
 ---
-
 title: "Field Team Meetings"
 description: "Overview of the primary meetings for the worldwide GitLab Field team"
 ---
-
-
-
-
-
-
 
 The below page overviews the primary all-hands meetings for the WW Field Team.
 

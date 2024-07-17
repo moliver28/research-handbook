@@ -34,7 +34,7 @@ title: Learning & Development
 ### Principles
 
 1. **Meaningful and relevant content.** We deliver learning solutions that help you reach your professional goals.
-1. **Values aligned.** Our learning solutions reinforce GitLab’s [values]({{< ref "values" >}}) and foster continuous learning and curiosity.
+1. **Values aligned.** Our learning solutions reinforce GitLab's [values](/handbook/values/) and foster continuous learning and curiosity.
 1. **Diverse approaches to learning.** We apply a blended learning model to find solutions to various individual needs.
 1. **Community.** L&D offerings available to the public so that everyone can contribute.
 
@@ -83,7 +83,7 @@ The Learning & Development team has a number of resources to help team members l
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="https://about.gitlab.com/handbook/sales/field-manager-development" class="btn btn-primary" style="width:200px;margin:5px;">Field Manager Development</a>
+    <a href="https://handbook.gitlab.com/handbook/sales/field-manager-development" class="btn btn-primary" style="width:200px;margin:5px;">Field Manager Development</a>
     <a href="{{< ref "speakers" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Learning Speaker Series</a>
     <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Elevate Manager Training</a>
   </div>

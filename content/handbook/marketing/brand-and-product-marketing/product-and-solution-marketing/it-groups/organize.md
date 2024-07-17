@@ -1,5 +1,4 @@
 ---
-
 title: "Organize"
 ---
 ## Overview
@@ -21,7 +20,7 @@ Clearly these titles:
 - **Contributors:** Project Manager, Scrum Master, Product Manager(see note about Product Manager),  Business Analyst (BA)
 - **Managers:**  Program Manager, Portfolio Director
 - **Executives:**  PMO Director, EPMO Director, perhaps VP EPMO or VP Shared Services.
-- *Note: Product Manager* is an emerging role within IT organizations.  We expect that many of the people will migrate from traditional Project Manager roles, however the scope of the role is dramatically broad and will likely also see a wide variety of people filling this role.  For now, we're listing it in this hidden IT Group.  
+- *Note: Product Manager* is an emerging role within IT organizations.  We expect that many of the people will migrate from traditional Project Manager roles, however the scope of the role is dramatically broad and will likely also see a wide variety of people filling this role.  For now, we're listing it in this hidden IT Group.
 
 ### Challenges
 

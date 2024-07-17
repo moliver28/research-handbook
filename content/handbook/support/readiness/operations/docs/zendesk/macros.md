@@ -28,7 +28,7 @@ foremost.
 When your new macro is going to be using managed content, you will first
 need to get the managed content file in the Support managed content project.
 Remember to use the correct filenames for all of this to prevent
-[Pipeline error “No managed content file”](#pipeline-error-no-managed-content-file)
+[Pipeline error "No managed content file"](#pipeline-error-no-managed-content-file)
 in the sync repo project later on.
 
 Only after that has been done should you proceed to the next steps, which will
@@ -88,6 +88,10 @@ following:
 - Sets `active: true` to `active: false` in the file.
 - Set an action of:
   - `Brand` `GitLab`
+- If the macro has a managed content file:
+  - Sets the `contains_managed_content: true` to `contains_managed_content: false`
+    
+*Note:* If the macro has a managed content file, make sure to also deactivate the corresponding managed content file in the [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/macros) by moving it from the `data/active` folder to the `data/inactive` folder.
 
 #### Deleting a deactivated macro
 

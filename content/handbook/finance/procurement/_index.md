@@ -4,7 +4,7 @@ title: The GitLab Procurement Team
 <!-- markdownlint-disable MD051 -->
 ## What is Procurement?
 
-The Procurement team manages GitLab’s [Supplier Lifecycle](#vendor-lifecycle-management) through the process of strategically vetting and selecting vendors, negotiating commercial terms, the purchasing of goods and services, and managing the renewal or vendor offboarding process.
+The Procurement team manages GitLab's [Supplier Lifecycle](#vendor-lifecycle-management) through the process of strategically vetting and selecting vendors, negotiating commercial terms, the purchasing of goods and services, and managing the renewal or vendor offboarding process.
 
 <a href="https://docs.google.com/presentation/d/1p4TVSjwa79zbVs-7iDZ3_YrR8WQgB7jC7ZC_iKyUq3Y/edit#slide=id.g127b84edaab_0_0"><img src="process2.png" alt="Procurement process"></a>
 
@@ -70,7 +70,7 @@ In order for vendors to be paid, they need to complete their onboarding in our s
 
 #### 5. Recurring Vendor Reviews and Management
 
-Procurement will work with you through the Quarterly Procurement & Business Spotlights to review upcoming renewals and cancellations, new spend projects, and identifying [vendor’s segmentation tier:](https://docs.google.com/spreadsheets/d/1tgNYN15VcHwNCeM6_D3ligLiJdYlesvsq3TNEG0VRBI/edit?usp=sharing) Strategic, Niche, Commodity, or Transactional.
+Procurement will work with you through the Quarterly Procurement & Business Spotlights to review upcoming renewals and cancellations, new spend projects, and identifying [vendor's segmentation tier:](https://docs.google.com/spreadsheets/d/1tgNYN15VcHwNCeM6_D3ligLiJdYlesvsq3TNEG0VRBI/edit?usp=sharing) Strategic, Niche, Commodity, or Transactional.
 
 Identifying the Segmentation Tier your supplier(s) falls within helps determine the right vendor management approach, e.g. renew the contract, RFP, business reviews on a recurring cadence, continuous improvement plans, etc.
 
@@ -102,7 +102,7 @@ The following methods will be used to capture cancellations (which include termi
 For each of the above, if a cancellation is desired (which include terminations and/or non-renewals) please follow the "Cancellation Process" outlined below:
 
 1. Submit a **Termination/Non-Renewal Request** through Zip by completing the intake form and providing copies of the existing contract(s) that you are canceling.
-1. Through Zip, Procurement and Legal will work with the requester to provide instructions on how, when, and who should notify the vendor. For most non-renewal notices, the business owner will notify the vendor via Legal’s guidance.
+1. Through Zip, Procurement and Legal will work with the requester to provide instructions on how, when, and who should notify the vendor. For most non-renewal notices, the business owner will notify the vendor via Legal's guidance.
    - Security and Privacy will also be added for awareness and review if data is being shared with the vendor to determine the requirements of returning or deleting the data.
 1. For certain cancellation requests, like Software for example, IT will be included in the Zip workflow to determine and complete the proper deprovisioning and system offboarding requirements. This includes [removal of the system](/handbook/business-technology/tech-stack-applications/#removing-a-system-from-the-tech-stack) from our [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
 1. If necessary, the requester and/or business owner will need to create and execute on a communication plan to notify all or impacted team members of the cancellation.
@@ -148,10 +148,10 @@ Requests can take 5 days to 3+ weeks for processing depending on a number of fac
 1. New or existing vendor
 1. If negotiation is required
 1. Types of data being shared with the vendor and if Security and Privacy need to review
-1. Contract complexity and alignment with GitLab’s [Vendor Terms and Conditions](/handbook/finance/procurement/vendor-guidelines/)
-1. Vendor’s response time and willingness to negotiate
+1. Contract complexity and alignment with GitLab's [Vendor Terms and Conditions](/handbook/finance/procurement/vendor-guidelines/)
+1. Vendor's response time and willingness to negotiate
 
-Each review’s targeted approval time is outlined below, but as mentioned above, this is dependent on many factors and the accuracy and completeness of information provided by the requester. If your request meets any of the additional approval criterias outlined below, please plan accordingly and submit your Zip request allowing each cross-functional team enough time to complete their review. Please follow the [steps outlined for urgent requests](#what-if-i-have-an-urgent-request) that cannot meet the below timeline and have specific and quantifiable impact to the business.
+Each review's targeted approval time is outlined below, but as mentioned above, this is dependent on many factors and the accuracy and completeness of information provided by the requester. If your request meets any of the additional approval criterias outlined below, please plan accordingly and submit your Zip request allowing each cross-functional team enough time to complete their review. Please follow the [steps outlined for urgent requests](#what-if-i-have-an-urgent-request) that cannot meet the below timeline and have specific and quantifiable impact to the business.
 
 #### 1.A. Buyer Review (Procurement): 2 days
 
@@ -162,8 +162,8 @@ Each review’s targeted approval time is outlined below, but as mentioned above
 
 - This is entirely dependent upon the suppliers response time.
 - Once supplier information has been submitted in Zip and the Procurement team sets the vendor up in Coupa, the supplier receives an email from Coupa requesting banking and tax information to facilitate payment.
-- The Procurement team cannot complete this on the supplier’s behalf since we do not know this information. If we did, it would be a violation of SOX Compliance guidelines.
-- If your supplier isn’t onboarded after 2 days, contact your supplier directly requesting they do so ASAP since their contract cannot be reviewed or approved until this is completed. Carbon copy procurement@gitlab.com
+- The Procurement team cannot complete this on the supplier's behalf since we do not know this information. If we did, it would be a violation of SOX Compliance guidelines.
+- If your supplier isn't onboarded after 2 days, contact your supplier directly requesting they do so ASAP since their contract cannot be reviewed or approved until this is completed. Carbon copy procurement@gitlab.com
 
 #### 2.A. FP&A Review: 2 days
 
@@ -264,7 +264,7 @@ If you are unable to plan and have a legitimate reason to escalate a purchase re
     - "Price will increase $45K if not signed by Friday" or "Material negative brand impact if not signed by Friday due to missed PR deadlines" are specific, tangible, business impacts that will be reviewed.
 - Truly urgent and business critical requests will be evaluated, please note these are disruptive to our workflow and our ability to meet SLA's for requests opened on time.
 - We may or may not be able to accommodate your urgent request based on the risk and bandwidth available.
-- When you know you have a critical request with a deadline, enter the request into Zip 1-2 weeks prior to standard approval times to avoid needing escalation. Do this even if the contract isn’t final yet to help expedite the process.
+- When you know you have a critical request with a deadline, enter the request into Zip 1-2 weeks prior to standard approval times to avoid needing escalation. Do this even if the contract isn't final yet to help expedite the process.
 
 ## What are the exceptions to the PO Policy?
 
@@ -314,7 +314,7 @@ Any time GitLab engages with a third party for the procurement of goods and/or s
 
 1. Terms and conditions which are fair and reasonable given the type(s) of products and/or services being procured; and
 1. Adequate obligations on behalf of GitLab vendors to ensure compliance with
-   - GitLab’s Code of Conduct and other company policies,
+   - GitLab's Code of Conduct and other company policies,
    - applicable laws, rules and regulations (including protection of personal data), and
    - the delivery, support and provision of goods and/or services
 
@@ -331,7 +331,7 @@ As GitLab does with its own customers, agreements with third parties include obl
 
 ## Large Internal Events Process
 
-For any large internal events with a total cost greater than $1M, such as SKO, President’s Club, Commit, etc, the following should be completed before any contracts are executed or any work is conducted.
+For any large internal events with a total cost greater than $1M, such as SKO, President's Club, Commit, etc, the following should be completed before any contracts are executed or any work is conducted.
 
 The planning stages for events of this size should be completed at least 18-24 months prior to the actual event. This allows for ample time to get the necessary internal approvals, run any RFPs needed, and book large hotel blocks or buyouts.
 
@@ -345,7 +345,7 @@ The planning stages for events of this size should be completed at least 18-24 m
 
 ### Contract Templates
 
-- [GitLab Vendor Terms and Conditions]({{< ref "./vendor-guidelines" >}})
+- [GitLab Vendor Terms and Conditions](vendor-guidelines/)
 - [Logo Authorization Template](https://drive.google.com/file/d/1Vtq3UHc8lMfIbVFJ3Mc-PZZjb6_CKAvm/view?usp=sharing)
 - [Data Processing Addendum (unlocked for editing)](https://docs.google.com/document/d/1U8jCxpRc21fNu6_VsYxsSSun3G7s4b2Q/edit?usp=share_link&ouid=101595031187349560306&rtpof=true&sd=true)
 - [EU Standard Contractual Clauses](https://drive.google.com/file/d/17I4nirg99UPsrDi28VS1-R0B2FcKTKbz/view?usp=share_link)
@@ -364,11 +364,11 @@ The planning stages for events of this size should be completed at least 18-24 m
 
 #### Other Services
 
-- [Home Office and Supplies]({{< ref "./office-equipment-supplies" >}})
-- [Individual Use Software]({{< ref "./individual-use-software" >}})
+- [Home Office and Supplies](office-equipment-supplies/)
+- [Individual Use Software](individual-use-software/)
 - [RFP and Vendor Selection Process](https://internal.gitlab.com/handbook/finance/procurement/)
-- [Vendor Terms and Conditions]({{< ref "./vendor-guidelines" >}})
+- [Vendor Terms and Conditions](vendor-guidelines/)
 - [Non-Disclosure Agreement (NDA)](/handbook/legal/NDA/#)
-- [Charitable Contributions]({{< ref "./charitable-contributions" >}})
-- [Non-Cost Related Agreements (Including Trials/Demos)]({{< ref "./trial-agreement" >}})
+- [Charitable Contributions](charitable-contributions/)
+- [Non-Cost Related Agreements (Including Trials/Demos)](trial-agreement/)
 <!-- markdownlint-enable MD051 -->

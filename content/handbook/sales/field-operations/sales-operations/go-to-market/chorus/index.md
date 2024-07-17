@@ -1,13 +1,6 @@
 ---
-
 title: "Learn How to Use Chorus.ai"
 ---
-
-
-
-
-
-
 
 Confused about how to use Chorus? Check out the instructions and links below for more information on how to get the most out of this important sales tool.
 
@@ -34,13 +27,13 @@ To comply with GDPR and similar privacy laws, all team members with a Recorder l
 
 - If you are required by a customer to use a different conference platform than Zoom or Google Meet, please follow the instructions on the Static Link Flow slide of the [Call Compliance with Chorus Schedulers deck](https://drive.google.com/file/d/1U7VCxuQk1MtLTZ88XLdQt7y1_VBMYe8d/view?usp=sharing).
 
-- For situations where you are a participant in a meeting and are seeking to record, you may download the [Chorus App for Zoom](https://docs.chorus.ai/hc/en-us/articles/1260803823989-The-Chorus-App-for-Zoom-Meetings). This app allows you to add Chorus to a live call to record the meeting and take notes without leaving Zoom. In order to comply with local privacy laws, you will need to verbally obtain consent from your customer to record before doing so. If the customer does not consent to recording, you may not record the meeting.
+- For situations where you are a participant in a meeting and are seeking to record, you may download the [Chorus App for Zoom](https://university.zoominfo.com/chorus-zoom-integration-made-easy). This app allows you to add Chorus to a live call to record the meeting and take notes without leaving Zoom. In order to comply with local privacy laws, you will need to verbally obtain consent from your customer to record before doing so. If the customer does not consent to recording, you may not record the meeting.
 
   For troubleshooting regarding the Chorus App for Zoom, please follow the steps below:
 
   1. Open Zoom SSO via [Okta](https://gitlab.okta.com/app/UserHome?iss=https%3A%2F%2Fgitlab.okta.com)
   2. Click on Settings then Zoom Apps
-  3. Make sure “Zoom Apps Quick Launch Button” is turned on
+  3. Make sure "Zoom Apps Quick Launch Button" is turned on
   4. Open a Zoom meeting on your desktop app
   5. You should now be able to see Chorus App and utilize the tool
 
@@ -54,7 +47,7 @@ Any action that would result in bypassing the 365 day data retention policy will
 - Downloading recordings
 - Retaining recordings past the 365 day data retention period
 
-**If you have a unique circumstance that will require you to preserve a recording past 365-days, please submit a [Legal Issue - Chorus_Approval template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new) and follow the instructions.  You will not receive automatic reminders regarding calls that will be purged after 365 days so it would be a best practice to submit a Legal Issue for preservation at your earliest convenience.**
+**If you have a unique circumstance that will require you to preserve a recording past 365-days, please submit a [`Legal Issue - Chorus_Approval template`](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new) and follow the instructions.  You will not receive automatic reminders regarding calls that will be purged after 365 days so it would be a best practice to submit a Legal Issue for preservation at your earliest convenience.**
 
 **When requesting approval, please note the following:**
 
@@ -67,7 +60,7 @@ Other notable items:
 - Any time a Chorus link is shared, a password should be required or the link should be set to expire. Each user must complete this action individually.
 - As a best practice, if you need to include a Chorus recording or any type of customer information in an issue, please first mark the issue as `Confidential`.
   - For additional details, please see [this issue](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/operations/-/issues/1560#note_702890753).
-- [Chorus Compliance Resources](https://docs.chorus.ai/hc/en-us/sections/360001251353-Compliance)
+- [Chorus Compliance Resources](https://help.zoominfo.com/s/article/Chorus-Compliance-Center-Explained)
 
 ## What is a Chorus Tracker and How do I Create One?
 
@@ -107,10 +100,9 @@ The banner "Live on Zoom with Chorus.ai" is controlled and set by Zoom, therefor
 ## Chorus.ai Basics
 
 - Update Email Communication Preferences in your [Chorus Personal Settings](https://chorus.ai/settings/personal-settings)
-- [Getting Started with Chorus](https://docs.chorus.ai/hc/en-us/sections/115002365608-Getting-Started-with-Chorus)
-- [Chorus Basics for SDRs and Reps](https://docs.chorus.ai/hc/en-us/sections/360003251593-Chorus-Basics-for-SDRs-BDRs-and-Reps)
-- [Chorus Basics for Managers & Sales Enablement](https://docs.chorus.ai/hc/en-us/sections/115002370787-Chorus-Basics-for-Managers-Sales-Enablement)
-- [What’s the maximum length of a Chorus recorded meeting?](https://docs.chorus.ai/hc/en-us/articles/360045702734-What-s-the-maximum-length-of-a-Chorus-recorded-meeting-)
+- [Getting Started with Chorus](https://university.zoominfo.com/getting-started-with-chorus)
+- [Chorus Set Up Made Easy](https://university.zoominfo.com/chorus-set-up-made-easy)
+- [Chorus Best Practices: Deals & Momentum](https://university.zoominfo.com/chorus-best-practices-deals-momentum)
 
 ## Chorus.ai Resources
 
@@ -119,12 +111,12 @@ The banner "Live on Zoom with Chorus.ai" is controlled and set by Zoom, therefor
   - How to explain why Chorus is there and why it is recording
 - [Security & Compliance](https://www.chorus.ai/trust)
   - Share this with customers as needed
-- [Chorus FAQs](https://docs.chorus.ai/hc/en-us/sections/115002365588-FAQs)
+- [Chorus FAQs](https://help.zoominfo.com/)
 - [Chorus YouTube Channel](https://www.youtube.com/c/Chorus_ai/videos)
 
 ## Chorus.ai Advanced Usage
 
 - [Chorus Release Notes](https://view.highspot.com/viewer/61faa9016e6856ecc10ce41d)
-- [Chorus Integrations](https://docs.chorus.ai/hc/en-us/sections/115002215568-Integrations)
+- [Chorus Integrations](https://help.zoominfo.com/s/article/Overview-of-Chorus-Screen-Share-Providers)
 
 For additional assistance regarding Chorus, please reach out in the #chorus-users Slack channel.

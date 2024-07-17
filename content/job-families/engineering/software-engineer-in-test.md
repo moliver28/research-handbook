@@ -17,7 +17,7 @@ strong engineering principles, and methodical problem-solving skills.
 CI/CD, and load balancing.
 - Have the ability to grow your knowledge of GitLab provisioning and setup tools like Terraform and Ansible.
 - Setup and maintain new GitLab test environments.
-- You’ll work on test automation issues related to the Quality department, the [stage group you're embedded in](/handbook/product/categories/#devops-stages), and the entire GitLab product. The work you’ll do will be [transparent and open to the GitLab community](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Quality)
+- You'll work on test automation issues related to the Quality department, the [stage group you're embedded in](/handbook/product/categories/#devops-stages), and the entire GitLab product. The work you'll do will be [transparent and open to the GitLab community](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Quality)
 - Participate in test pipeline triage rotation and ensure pipeline failures are triaged promptly.
 - Develop working knowledge of the entire GitLab application stack including tests at all levels. (Unit, Integration, and End-to-end).
 - Groom and prune GitLab tests at all levels to ensure optimal coverage and effective deduplication.
@@ -34,12 +34,12 @@ You see distributed systems as a core challenge of good test automation infrastr
 
 - You have a few years of professional experience developing in Ruby or working on a Ruby on Rails application
 - You bring significant experience using Git and its command line
-- You’re comfortable with Selenium-based test automation tools like Capybara
-- You’ve got a working knowledge of Docker
-- You’re interested in growing your knowledge and skills in Test Environment Provisioning and Configuring using technologies like Terraform, Ansible, Kubernetes, GCP, or AWS
+- You're comfortable with Selenium-based test automation tools like Capybara
+- You've got a working knowledge of Docker
+- You're interested in growing your knowledge and skills in Test Environment Provisioning and Configuring using technologies like Terraform, Ansible, Kubernetes, GCP, or AWS
 - You have experience with Continuous Integration systems (e.g., Jenkins, Travis, GitLab)
 - Our [values](/handbook/values/) of collaboration, results, efficiency, diversity, iteration, and transparency resonate with you
-- You’ll thrive in an environment where [self-learning and self-service](/handbook/company/culture/all-remote/self-service/#self-service-and-self-learning-in-onboarding) is encouraged and instilled as a part of our culture
+- You'll thrive in an environment where [self-learning and self-service](/handbook/company/culture/all-remote/self-service/#self-service-and-self-learning-in-onboarding) is encouraged and instilled as a part of our culture
 - Ability to use GitLab
 
 ## Levels
@@ -59,7 +59,7 @@ The Software Engineer in Test is a [grade 6](/handbook/total-rewards/compensatio
 #### Responsibilities
 
 - Quad Planning & Test Coverage
-  - Perform [quad planning](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/quad-planning/) and improve test coverage in collaboration with other Software Engineers in Test
+  - Perform [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) and improve test coverage in collaboration with other Software Engineers in Test
   - Help create test strategy and implement test automation for new and existing features.
   - Identifies gaps in functional test automation, document missing coverage, and add new test automation to improve coverage.
 - Test Stability & Triage
@@ -92,7 +92,7 @@ The Senior Software Engineer in Test is a [grade 7](/handbook/total-rewards/comp
 #### Responsibilities
 
 - Quad Planning & Test Coverage
-  - Lead [Quad planning](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and optimize test coverage.
+  - Lead [Quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and optimize test coverage.
   - Create test strategy and implement test automation for new features.
   - Provide risk analysis and input on test strategy.
   - Identify and communicate must-have test coverage for critical functionality.
@@ -138,7 +138,7 @@ The Staff Software Engineer in Test is a [grade 8](/handbook/total-rewards/compe
 #### Responsibilities
 
 - Test Strategy (Quad Planning) & Test Coverage
-  - Own [quad planning](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and proactively optimize test coverage.
+  - Own [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and proactively optimize test coverage.
   - Coach other SETs and fellow counterpart team members on effective testing strategies and implementation of test automation for new features.
   - Proactively manage the competing priorities and potential collisions of concurrent projects to reduce risk, increase test coverage, and leverage efficiency gains in overlapping testing activities.
   - Identify and design potential new testing practices/tools/frameworks, demonstrate their value, and implement in collaboration with other Software Engineers in Test.

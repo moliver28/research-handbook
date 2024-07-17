@@ -127,14 +127,14 @@ When sending a calendar invite for an in-person meeting at Mission Control, plea
 ### General scheduling guidelines
 
 - For meetings spanning across multiple time zones and with external parties, [Time & Date Calculator](https://www.timeanddate.com/worldclock/meeting.html) can help determine the best time to schedule
-- When scheduling internally with multiple attendee's, please utilize Google [calendars](https://calendar.google.com)[Find a Time feature](https://gsuitetips.com/tips/calendar/find-a-time-in-google-calendar/) to see when GitLab team-members are free to schedule a meeting with. Please be cognizant of people time zones. If in doubt, please reach out to the team member directly in slack
+- When scheduling internally with multiple attendee's, please utilize Google [calendars](https://calendar.google.com)[Find a Time feature](https://support.google.com/calendar/answer/6294878) to see when GitLab team-members are free to schedule a meeting with. Please be cognizant of people time zones. If in doubt, please reach out to the team member directly in slack
 - When researching flights, consider using a tool like [Skyscanner](https://www.skyscanner.com) or [Google Flights](https://www.google.com/flights?hl=en) to explore options for flights
 - Schedule calls in European timezones in the morning (am) Pacific (Daylight) Time and US time zones in the afternoon (pm) Pacific (Daylight) Time
 - Holds on the schedule should be removed at least 60 minutes before the preceding meeting starts. Preferably 24hr in advance of the meeting when possible
 - Meetings should be scheduled for 25 minutes or 50 minutes.  As a general guideline meetings should not be scheduled to the full 30/60 minute mark
 - If the call is with any Google company, use Hangouts instead of Zoom.
 - For meetings at Mission Control and another guest joining via video call: The EBA will schedule an additional ten minutes before the appointment to test the zoom room system.
-- For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled.
+- For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it's scheduled.
 - Make sure to plan travel time (in a separate calendar item, just for the exec) before and after the meeting in case another meeting or call should follow.
 - After each meeting with a potential investor, make sure to update Airtable with the information on these meetings.
 
@@ -161,7 +161,7 @@ Please remember to reach out to the EBA of the executive you need to schedule fo
 1. Must be a speedy meeting
 1. Agenda for the meeting must be complete 24hrs or 1 business day before the meeting and include any links to materials and pre-recorded presentations
    - [Live doc meetings](/handbook/company/culture/all-remote/live-doc-meetings/) provides a great overview of how we use live docs in our meetings.
-   - We do not present in any of our meetings. If you wish to present your material, you can record a presentation in advance and link it in the agenda document. We use synchronous meetings for Q&A. More detail at https://about.gitlab.com/handbook/communication/#few-meetings-with-presentations
+   - We do not present in any of our meetings. If you wish to present your material, you can record a presentation in advance and link it in the agenda document. We use synchronous meetings for Q&A. More detail at https://handbook.gitlab.com/handbook/communication/#few-meetings-with-presentations
 1. Plan to join the meeting on time. We start on time and do not wait for folks to join.
    - As most of our meetings are conducted over zoom, please join with your camera on and with a headset or dedicated microphone whenever possible
 1. The meeting may be recorded or live streamed to GitLab Unfiltered on YouTube, please determine in advance if the meeting should be live streamed or recorded
@@ -229,7 +229,7 @@ More information can be found [here](/job-families/people-group/executive-busine
 1. What is this for?
 1. Electronic signature or physical wet signature?
 1. Who needs to sign? See [Authorization Matrix](/handbook/finance/authorization-matrix/)
-1. Why is this person’s signature required?
+1. Why is this person's signature required?
 1. If a wet signature is required,  is there a specific ink color that should be use?
 1. Is there a specific paper size that is required? For example, Ireland requires A4.
 1. Is Legal required to review and/or stamp approved?

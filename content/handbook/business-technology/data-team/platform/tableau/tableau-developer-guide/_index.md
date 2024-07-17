@@ -1,5 +1,4 @@
 ---
-
 title: "Tableau Developer Guide"
 description: "GitLab's Tableau Developer guide"
 ---

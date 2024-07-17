@@ -15,22 +15,22 @@ Arranged for the GitLab Songbook by Sid and Karen Sijbrandij
 1: Anything you can do we can do better
 1: Two can do anything better than one
 
-2: No We can’t
+2: No We can't
 1: Yes we can
-2: No we can’t
+2: No we can't
 1: Yes we can
-2: No we can’t
+2: No we can't
 1: Yes we can
 1: Yes we can
 
 2: Anything you can be, we can be greater
 2: Sooner or later two are greater than one
 
-1: No we’re not
+1: No we're not
 2: Yes we are
-1: No we’re not
+1: No we're not
 2: Yes we are
-1: No we’re not
+1: No we're not
 2: Yes we are
 2: Yes we are
 
@@ -39,15 +39,15 @@ Arranged for the GitLab Songbook by Sid and Karen Sijbrandij
 2: We like to col -la-bo-rate
 1: Got time for a review?
 2: Sure
-1: Let’s build something new!
+1: Let's build something new!
 
 2: Anywhere we want to go, we can work remotely
 1: We can build value wherever we are
-2: No, we can’t
+2: No, we can't
 1: Yes, we can
-2: No, we can’t
+2: No, we can't
 1: Yes, we can
-2: No, we can’t
+2: No, we can't
 1: Yes, we can
 1: Yes, we can
 Together: Yeeeessss, weeeeee, caaaaan
@@ -59,22 +59,22 @@ Sung to the tune of [Gangsta's Paradise](https://en.wikipedia.org/wiki/Gangsta%2
 
 ```text
 As I code through the valley of the shadow of Release
-I take a look at my lines and realize there’s nothin’ left
-’Cause I’ve been patchin’ and pushin’ so long
+I take a look at my lines and realize there's nothin' left
+'Cause I've been patchin' and pushin' so long
 That even my PM thinks that my mind is gone
-But I ain’t never crossed a bug that didn’t deserve it
-Me be treated like a .9, you know that’s unheard of
-You better watch how you workin’ and where you breakin’
+But I ain't never crossed a bug that didn't deserve it
+Me be treated like a .9, you know that's unheard of
+You better watch how you workin' and where you breakin'
 Or you and your homies might be lined in release posts
 I really hate to trip, but I gotta fix
 As they croak, I see myself in the retro smoke
-Y’all, I’m the kinda G the little homies wanna be like
-On my laptop in the night, Googlin’ tutorials in the streetlight
+Y'all, I'm the kinda G the little homies wanna be like
+On my laptop in the night, Googlin' tutorials in the streetlight
 
-Been spendin’ most their lives
-Livin’ in a developer's paradise
-Been spendin’ most their lives
-Livin’ in a developer's paradise
+Been spendin' most their lives
+Livin' in a developer's paradise
+Been spendin' most their lives
+Livin' in a developer's paradise
 ```
 
 ## 500 Lines
@@ -102,8 +102,8 @@ And when the com-mits, comes in for the work I do
 I'll pass almost every merge request to you
 When I stay home ) oh, you know I'm gonna be
 I'm gonna be the one who takes the kids to school
-And when they get home, well I know I’m gonna be
-I’m gonna be the one who’s waiting there for them
+And when they get home, well I know I'm gonna be
+I'm gonna be the one who's waiting there for them
 
 But I would code 500 lines
 And I would code 500 more
@@ -115,16 +115,16 @@ Read and write, commit, and push and merge then go
 Work Remotely (Work Remotely) Work remotely (Work Remotely)
 Read and write, commit, and push and merge then go
 
-When I’m working, yes I know just where I’ll be
-Remote is where I’ll be, not sitting next to you
+When I'm working, yes I know just where I'll be
+Remote is where I'll be, not sitting next to you
 I can be anywhere, just doing what I do
-I’ll switch to video so I can meet with you
-And Where’s my home? (Where’s my home) anywhere that it can be
+I'll switch to video so I can meet with you
+And Where's my home? (Where's my home) anywhere that it can be
 I'm going to be the one who goes around the world
 And the internet, is to connect you to me
-I’m gonna be the one who iterates with youu
+I'm gonna be the one who iterates with youu
 
-I’m gonna be the one who iteraaaates with you
+I'm gonna be the one who iteraaaates with you
 
 But I would code 500 lines
 And I would code 500 more
@@ -164,9 +164,9 @@ On its disk
 GitLab
 
 You can help with all my code
-You’re the iteration
+You're the iteration
 You bring all my code to life
-You’re the iteration
+You're the iteration
 Wanna have you test it
 I wanna have you deliver it
 Never gonna need any other tool
@@ -187,14 +187,14 @@ I wanna have you deliver it
 Never gonna need any other tool
 
 You can help with all my code
-You’re the iteration
+You're the iteration
 You bring all my code to life
-You’re the iteration
-When you store code ‘til the end of time
+You're the iteration
+When you store code 'til the end of time
 When commit your code
 Always there for you
 GitLab - trust it just like I …
-When you store code ‘til the end of time
+When you store code 'til the end of time
 When commit your code
 Always there for you
 My GitLab
@@ -221,13 +221,13 @@ With pipelines getting tossed
 If not for the scaling of their CI tool
 Their deadlines would be lost. Their deadlines would be lost
 
-The code’s released on the 22nd of each and every month
+The code's released on the 22nd of each and every month
 With CI / CD
 And code review
 Code quality and web hooks
 An issue board
 Portfolios and metrics too
-GitLab’s got it all!
+GitLab's got it all!
 ```
 
 ## Revolution
@@ -240,28 +240,28 @@ You need modern tools and processes
 You talk about evolution, well you know,
 A single platform helps put things at ease
 
-But when you talk about integration, don’t you know that you can count me out
-Don’t you know it’s going to be complex,
-Don’t you know it’s going to be complex,
-Don’t you know it’s going to be complex
-Don’t you know it’s going to be, on time…
+But when you talk about integration, don't you know that you can count me out
+Don't you know it's going to be complex,
+Don't you know it's going to be complex,
+Don't you know it's going to be complex
+Don't you know it's going to be, on time…
 
 You talk about real solutions, well you know,
 A standard platform can make things right
 When you talk about meeting deadlines, well you know
 enhanced collaboration & auto dev ops can make things right
 
-But when you talk about integration, don’t you know that you can count me out
-Don’t you know its going to be complex,
-Don’t you know its going to be complex,
-Don’t you know its going to be complex
+But when you talk about integration, don't you know that you can count me out
+Don't you know its going to be complex,
+Don't you know its going to be complex,
+Don't you know its going to be complex
 
 Verse 3…TBD
 
-Don’t you know with GitLab, its alright
-Don’t you know with GitLab, its on time
-Don’t you know it going to be, its alright…
-Don’t you know its going to be, on time…
+Don't you know with GitLab, its alright
+Don't you know with GitLab, its on time
+Don't you know it going to be, its alright…
+Don't you know its going to be, on time…
 Repeat and fade out
 Rappers delight
 Git pull, git push, check your code in
@@ -276,37 +276,37 @@ Adapted for the GitLab Songbook By REB
 
 ```text
 What will you do when work needs testing
-When your repo’s got your thoughts inside?
-You’ve been typing and coding much too long
-You’ve got to take it for a ride
+When your repo's got your thoughts inside?
+You've been typing and coding much too long
+You've got to take it for a ride
 
-GitLab, the fine CI’s a breeze
+GitLab, the fine CI's a breeze
 GitLab, secure me if you please, GitLab
 Your tools sure do ease my worried mind
 
 Decided to move my big project
 When that old host let me down
 What a great tool, I fell in love with you!
-My productivity’s gone speed-of-sound!
+My productivity's gone speed-of-sound!
 
 GitLab, the whole SDLC
 GitLab, goes end to end for me, GitLab
-It’s the best toolset I could find
+It's the best toolset I could find
 
 I wanted to increase iteration
 To keep me from going insane
-Now when I say, “That merge request’s okay!”
-The next commit’s already on my mind
+Now when I say, "That merge request's okay!"
+The next commit's already on my mind
 
 GitLab, productivity for me
-GitLab, I’m telling my VP, GitLab
+GitLab, I'm telling my VP, GitLab
 It means no more worried minds!
 
-GitLab, It’s got the best CI/CD
+GitLab, It's got the best CI/CD
 GitLab, scanning for security, GitLab
 It means no more worried minds!
 
-GitLab, the core edition’s free!
+GitLab, the core edition's free!
 GitLab it goes end-to-end for thee, GitLab
 It means no more worried minds!
 ```
@@ -320,7 +320,7 @@ Arranged for the GitLab Songbook by REB
 Some think the way to work is in an office
 But oh not I!
 Some think they have to work just where the boss is
-I don’t know why
+I don't know why
 But I, I love to spend my time a winging
 If short or long
 To fly in air with engines singing
@@ -334,13 +334,13 @@ Arranged for the GitLab Songbook by Sid and REB
 
 ```text
 I hear slack pinging late at night
-But it ain’t an announcement it’s just a random conversation
+But it ain't an announcement it's just a random conversation
 Arriving on that 12:30 flight
-My flight is running late I’ll run from gate to gate with no hesitation
+My flight is running late I'll run from gate to gate with no hesitation
 Collecting colleagues along the way
 23 on my flight talking of old summit memories
 Driver turned to me to say
-More GitLabber’s waiting there for you….
+More GitLabber's waiting there for you….
 
 It's gonna take a lot to drag me away from you
 There's nothing that three hundred of us or more could never do
@@ -348,11 +348,11 @@ I bless the rains down in Africa
 Gonna take some time to do the things we never have
 
 With my colleagues talking late at night
-This night will be sleepless but I’m enjoying their company
-Not many hours before it’s light
-I’m sure tomorrow the bus won’t wait for me if I’m not ready
+This night will be sleepless but I'm enjoying their company
+Not many hours before it's light
+I'm sure tomorrow the bus won't wait for me if I'm not ready
 Hoping that I wake in time
-Frightened of paying if I don’t come
+Frightened of paying if I don't come
 
 It's gonna take a lot to drag me away from you
 There's nothing that three hundred of us or more could never do
@@ -419,7 +419,7 @@ Arranged for the GitLab Songbook by David Astor
 
 ```text
 Oompa Loompa Doompa-dee-doo
-I’ve got an special question for you
+I've got an special question for you
 
 Oompa Loompa Doompa-dee-dab
 Pay close attention to learn of GitLab
@@ -427,12 +427,12 @@ Pay close attention to learn of GitLab
 What do you get when you have lots of tools?
 Stumbling and bumbling and looking like fools.
 
-Why don’t you try something a little more fun?
+Why don't you try something a little more fun?
 Plan and code in only one.
-It’s the best solution.
+It's the best solution.
 
 Oompa Loompa Doompa-dee-dee
-On top of all that we’ve got security
+On top of all that we've got security
 
 You will deploy with confidence too
 Like the users of GitLab Doompa-dee-doo!

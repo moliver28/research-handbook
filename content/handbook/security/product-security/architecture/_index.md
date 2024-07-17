@@ -28,7 +28,7 @@ business needs by:
 
 The process is designed with these constraints in mind:
 
-- aligned with our [values]({{< ref "values" >}})
+- aligned with our [values](/handbook/values/)
 - asynchronous
 - [self-service](/handbook/company/culture/all-remote/self-service/) as much as possible
 - avoid being a bottleneck in the software development life cycle
@@ -122,7 +122,7 @@ Broad privileges allow malicious or accidental access to protected resources.
 
 - <https://owasp.org/www-community/Access_Control#principle-of-least-privilege>
 - <https://csrc.nist.gov/glossary/term/least_privilege>
-- <https://about.gitlab.com/handbook/security/access-management-policy.html#principle-of-least-privilege>
+- <https://handbook.gitlab.com/handbook/security/access-management-policy.html#principle-of-least-privilege>
 
 </details>
 
@@ -219,7 +219,7 @@ Make attacks less attractive.
 
 - Avoid complex failure modes, implicit behaviours, unnecessary features
 - Use well-known, tested, and proven components
-- Avoid over-engineering and strive for [MVCs](https://about.gitlab.com/handbook/product/product-principles/#the-minimal-viable-change-mvc) instead
+- Avoid over-engineering and strive for [MVCs](/handbook/product/product-principles/#the-minimal-viable-change-mvc) instead
 
 #### Examples
 
@@ -444,13 +444,13 @@ aka Fail Safe Defaults.
 #### Links
 
 - [RCE when removing metadata with ExifTool](https://gitlab.com/gitlab-org/gitlab/-/issues/327121)
-- [Log4Shell: RCE 0-day exploit found in log4j 2, a popular Java logging package](https://www.lunasec.io/docs/blog/log4j-zero-day/)
+- [Log4Shell: RCE 0-day exploit found in log4j 2, a popular Java logging package](https://en.wikipedia.org/wiki/Log4Shell)
 
 </details>
 
 ## Security Architecture reviews
 
-As part of the [Production Readiness Process](https://about.gitlab.com/handbook/engineering/infrastructure/production/readiness/), it is highly recommended to include a Security
+As part of the [Production Readiness Process](/handbook/engineering/infrastructure/production/readiness/), it is highly recommended to include a Security
 Architecture review.
 
 The Security Architecture review process is detailed in this [page]({{< ref "review." >}}).

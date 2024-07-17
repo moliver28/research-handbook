@@ -188,6 +188,8 @@ The Technical Writing team gets assistance with the `gitlab-docs` project from s
 
 The technical writing team supports a large amount of content.
 
+### Page count
+
 The number of pages in the five primary repositories (GitLab, Omnibus, Charts, Operator, and Runner):
 
 | Date          | # of pages | Increase from previous quarter |
@@ -205,6 +207,14 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 | May 2020      | 1,165      | -           |
 
 **Change between May 2020 and Mar 2024:** 1,291 more pages (a 111% increase)
+
+#### Page count by area of the left nav
+
+In June, 2024, the page count by area of the left navigation:
+
+![img](img/page_count_june2024.png)
+
+### Word count
 
 The number of words in these repositories:
 
@@ -225,6 +235,12 @@ The number of words in these repositories:
 **Change between May 2020 and Mar 2024:** 2,135,452 more words (a 179% increase)
 
 The word count has more than doubled in this timeframe.
+
+#### Word count by area of the left nav
+
+In June, 2024, the word count by area of the left navigation:
+
+![img](img/word_count_june2024.png)
 
 ### Analytics
 
@@ -264,8 +280,8 @@ When taking PTO, Technical Writers:
 1. Send a message in the group Slack channels indicating where to find the available mechanisms. For example:
 
    ```text
-   I’m off for the holidays (202y-mm-dd - 202y-mm-dd). For help with documentation while I'm away, see
-   https://about.gitlab.com/handbook/product/ux/technical-writing/#technical-writer-pto for ways to get help.
+   I'm off for the holidays (202y-mm-dd - 202y-mm-dd). For help with documentation while I'm away, see
+   https://handbook.gitlab.com/handbook/product/ux/technical-writing/#technical-writer-pto for ways to get help.
    For urgent _named time-sensitive task_ matters, ping _named TW_.
    ```
 

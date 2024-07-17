@@ -45,9 +45,9 @@ Consultants can rely on the TeamOps Assessment results to inform their service r
 - Customer profile data (company size, budget, location, languages, etc) will filter consultant recommendations, so every lead is qualified as a match for their target market
 
 Consultants, tools, and advocates for the future of work need industry standards to diagnose adoption gaps and communicate the goals of virtual-first operations and ways of working (handbook-first, async-first, autonomy-first, and results-first).
-= The partners’  clients (flexibility adopters) are struggling with hybrid and distributed working, and not understanding why. Change agents within those organizations aren’t aligned on what needs to be done and in what order.
+= The partners'  clients (flexibility adopters) are struggling with hybrid and distributed working, and not understanding why. Change agents within those organizations aren't aligned on what needs to be done and in what order.
 
-- The credibility of industry partners’ arguments are unfounded. Arguments and cases for change ultimately are based on subjective opinions, private research, and based on personal experience.
+- The credibility of industry partners' arguments are unfounded. Arguments and cases for change ultimately are based on subjective opinions, private research, and based on personal experience.
 - TeamOps has the metrics to diagnose what needs to be done to achieve success and sustainability, and can equip consultants with a prioritized to-do list for change management.
 
 | What's in it for the Partner? | What's in it for GitLab? |

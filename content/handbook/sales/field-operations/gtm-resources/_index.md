@@ -1,15 +1,7 @@
 ---
-
 title: "Go to Market"
 description: "Operations, Procedures, Documentation"
 ---
-
-
-
-
-
-
-
 
 ---
 
@@ -300,9 +292,9 @@ Contact Ownership follows the rules as laid out below. Contact ownership cannot 
 - SMB Accounts (Sales Segment = SMB)
   - AE
 
-AE’s should use the following views to manage their contacts:
+AE's should use the following views to manage their contacts:
 
-- [My MQLs](https://gitlab.my.salesforce.com/003?fcf=00B4M000004oZF7&rolodexIndex=-1&page=1)(showcases any contacts in your name that are in MQL status. You should move these to accepted when you’re working them. Other statuses can be used to showcase you’ve seen the MQL and dispositioned accordingly. These should not stay in MQL status)
+- [My MQLs](https://gitlab.my.salesforce.com/003?fcf=00B4M000004oZF7&rolodexIndex=-1&page=1)(showcases any contacts in your name that are in MQL status. You should move these to accepted when you're working them. Other statuses can be used to showcase you've seen the MQL and dispositioned accordingly. These should not stay in MQL status)
 - [My Contacts w/ new LIM](https://gitlab.my.salesforce.com/003?fcf=00B4M000004taHN&rolodexIndex=-1&page=1)( showcases contacts in other statuses -not MQL - with a new Last Interesting Moment)
 - [My Contacts in Qualifying](https://gitlab.my.salesforce.com/003?fcf=00B4M000004oZFC&rolodexIndex=-1&page=1)(showcases contacts who have been in sequence and then engaged, should help with follow up)
 
@@ -438,12 +430,12 @@ To ensure that we're engaged with those customers who were a part of the Starter
 
 **Process For Tracking EoA Customer Outreach:** You should follow your existing outreach cadence and tracking via SFDC activities.  However, for any/all outreach to EoA customers, you make two important updates in SFDC:
 
-1. Enter the words “Starter”, “Bronze” or “EoA” in some capacity in the Activity Comments
+1. Enter the words "Starter", "Bronze" or "EoA" in some capacity in the Activity Comments
 1. Update the `EoA Sentiment` field on the Account (red, yellow, green - defined in the help text)
 
 **Reporting**:
 
-- All EoA customers can now be tracked in SFDC leveraging the `FY22 On Starter/Bronze` field (if box is checked, they’re an EoA customer).  A full list by segment, region and owner can be found [HERE](https://gitlab.my.salesforce.com/00O4M000004ajNm)
+- All EoA customers can now be tracked in SFDC leveraging the `FY22 On Starter/Bronze` field (if box is checked, they're an EoA customer).  A full list by segment, region and owner can be found [HERE](https://gitlab.my.salesforce.com/00O4M000004ajNm)
 - EoA account list: https://gitlab.my.salesforce.com/00O4M000004ajNm
 - EoA accounts with activity: https://gitlab.my.salesforce.com/00O4M000004ajpR
 
@@ -481,7 +473,7 @@ The following criteria is required for a SDR to submit an opportunity to sales:
 
 **Authority**
 The prospect being met is directly involved in a project or team related to the potential purchase of GitLab within this buying group, either as an evaluator, decision maker, technical buyer, or *influencer.
-*If the “influencer” is not directly involved (i.e. is related to a "decision maker" in another group/division or someone who is not directly tied to the opportunity at hand) the SDR will continue to own the opportunity and will seek to set-up the next meeting with a key contact in the buying group (leaving 0-pending status until date/referral is confirmed), updating the current opportunity with the new directly-involved point of contact in the buying group once it's acquired.
+*If the "influencer" is not directly involved (i.e. is related to a "decision maker" in another group/division or someone who is not directly tied to the opportunity at hand) the SDR will continue to own the opportunity and will seek to set-up the next meeting with a key contact in the buying group (leaving 0-pending status until date/referral is confirmed), updating the current opportunity with the new directly-involved point of contact in the buying group once it's acquired.
 
 **Initiative**
 An initiative the company is working on has been identified and GitLab can potentially help the initiative.
@@ -496,7 +488,7 @@ The following fields have been obtained:
 
 **Timing**
 After the initial qualifying meeting with the account leader/executive, there must be a tangible next step scheduled with the prospect that is set to occur within a *60 day timeframe.
-(*If next step isn’t within a 60 day timeframe, the opportunity remains in stage 0 and in SDR ownership to nurture until the next step is actualized.)
+(*If next step isn't within a 60 day timeframe, the opportunity remains in stage 0 and in SDR ownership to nurture until the next step is actualized.)
 
 ***Sales Development best practice:***
 Ask prospect about their environment, what they develop software for etc. to try build a picture of the company and how we will be able to help them.
@@ -669,16 +661,16 @@ All final IACV (including any won upside IACV) will be attributed to the PARENT 
 A `Professional Services` OPPORTUNITY will be used to cover any integration, consulting, training or other service that a Sales rep will sell to a prospect/client and needs or wants to be invoiced separately.
 To invoice separately a new quote and opportunity must be created.
 
-A full list of professional services can be found [here](/handbook/customer-success/professional-services-engineering/#professional-services-offerings).
+A full list of professional services can be found [here](about.gitlab.com/services/catalog).
 See [Working with Professional Services](/handbook/customer-success/professional-services-engineering/working-with/) for workflow details.
 
 ##### Steps for creating a Professional Services opportunity in SFDC
 
-*Here is [a video](https://drive.google.com/file/d/142csIZyrzIfSJOSJkIAK6d9c1JwTO_Rq/view?usp=sharing) explaining the below process.*
+*Here is [a video](https://gitlab.highspot.com/items/6655fc408e0d8cc5d7a7c166?lfrm=srp.0) explaining the below process.*
 
-1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp).
-1. Click the "New PS Opportunity" button and fill out the following:
-   - OPPORTUNITY Name = will already be set correctly; do not change
+1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp). Note that this must be a standard license or subscription Opportunity. 
+1. Click the "Create Services Opportunity" button (in Lightning, this button is on the dropdown list in the top right of the page) and fill out the following:
+   <!-- - OPPORTUNITY Name = will already be set correctly; do not change
    - Type = do not change it will populate from parent OPPORTUNITY
    - Initial Source = do not change it will populate from parent OPPORTUNITY
    - Close Date = if no timeframe defined input close date on a rolling 9-months.
@@ -686,9 +678,11 @@ See [Working with Professional Services](/handbook/customer-success/professional
    - Professional Services Value (ProServe Value) = enter dollar value, which is defined as the total value of all consulting, training, integration, or other professional services as outlined in the Statement of Work.
    - ACV = **do not populate** an automated workflow will fill this information
    - Amount = **do not populate** an automated workflow will fill this information
-   - Professional Services Description, Project Scope, Task Schedule and Key Assumption fields = these will push to the Statement of Work when a PDF is generated from Zuora.
-   - Verify the `Professional Services` OPPORTUNITY has the *original* OPPORTUNITY in the `Parent Opportunity` field. If this is not a validation rule error will occur while attempting to save the OPPORTUNITY.
-1. Click `Save`
+   - Professional Services Description, Project Scope, Task Schedule and Key Assumption fields = these will push to the Statement of Work when a PDF is generated from Zuora. -->
+   - Close Date 
+   - Stage
+   - Customer Folder URL (this will be auto-populated by a field **on the account object** that needs to be completed)
+1. Click `Next` and you're done! A child Professional Services opportunity will be created once submitted. Also, all of the scoping issue, estimation spreadsheet and proposal template will be automatically created and cross-linked!
 1. To create a quote, see the [Creating Quotes](/handbook/sales/field-operations/sales-operations/deal-desk/#quoting-professional-services) Deal Desk page.
 
 #### How to Share an Opportunity
@@ -722,12 +716,12 @@ The partner record should be converted to their company channel type account.
 The end user record should be converted to the end user standard account type.
 
 Opportunity Name:
-If the partner is an authorized reseller, rename the opportunity with the partner’s nickname in front, then a dash.
+If the partner is an authorized reseller, rename the opportunity with the partner's nickname in front, then a dash.
 For instance; if it is a Perforce deal, the opportunity name should start with P4 - (whatever your opportunity name is)
 This is important for the workflow that solicits updates from the reseller.
 
 Account Name:
-It is important that opportunities using a reseller are created on the END CUSTOMER’s account, and not the reseller’s account.
+It is important that opportunities using a reseller are created on the END CUSTOMER's account, and not the reseller's account.
 The account name on an opportunity is never a reseller.
 Resellers do not buy licenses; they purchase them on the behalf of an end customer.
 For instance, the account name field on an opportunity should never be SHI.
@@ -739,16 +733,16 @@ Deal Registrant:
 The reseller who registered the deal.
 
 Associating Contact Roles:
-After creating the opportunity, click “New” in the contact section to associate contacts with the opportunity.
+After creating the opportunity, click "New" in the contact section to associate contacts with the opportunity.
 
-- The primary contact should always be a contact at the end user’s account and not a contact at the reseller.
+- The primary contact should always be a contact at the end user's account and not a contact at the reseller.
 This is important as resellers come and go, and if we do not capture the contact at the end user account, we will not be able to sell to this account if the reseller ends their relationship with us or with the end account.
 - A reseller contact (say, the sales rep at ReleaseTEAM) can, and should be added to the opportunity with the role of Influencer.
 NOTE: A contact that works for a reseller should never be added to an end user account.
 For instance an employee of SoftwareOne should be a contact of the SoftwareOne account only, and not the Boeing account.
 
 Associating Partners to an Opportunity:
-After creating the opportunity, click “New” in the Partners section to associate the reseller with the opportunity.
+After creating the opportunity, click "New" in the Partners section to associate the reseller with the opportunity.
 
 - You can associate multiple partners with an opportunity if there is more than one reseller involved in the opportunity.
 This is not uncommon for government opportunities, or opportunities where the customer is asking multiple fulfillment houses (like SHI and SoftwareOne) to fulfill the order.
@@ -760,7 +754,7 @@ This is not uncommon for government opportunities, or opportunities where the cu
     - The distributor
 
 Opportunity Team List:
-Add the reseller user to the Opportunity team list with the role of “Reseller” or else they cannot see the opportunity.
+Add the reseller user to the Opportunity team list with the role of "Reseller" or else they cannot see the opportunity.
 
 #### Opportunity Naming Convention
 
@@ -1004,17 +998,17 @@ In order to be in compliance with US Regulations there is a need to screen oppor
 In order to comply with these regulations, opportunities are screened when they are created through a third party application, Visual Compliance.
 Visual Compliance is a dynamic screening tool that constantly compares our account information with those sanctioned parties listed on various Denied Party Lists.
 Visual Compliance will screen new information and will monitor existing information to ensure the integrity and legality of the parties with whom we do business.
-The more **accurate** information in the Account--the better! Partial information may trigger a false ‘hit’ and cause delays.
+The more **accurate** information in the Account--the better! Partial information may trigger a false 'hit' and cause delays.
 Please provide the full company name, company address, country and contact name(s).
 
 If you receive an error referencing export when attempting to update an Account:
-(i) Check if the Visual Compliance Section of the Account says “Pending”-- Wait 15-30 minutes for the system to run its initial check and update.
-(ii) If the Visual Compliance Section of the Account says “Yellow” or“Red”-- The legal team is manually reviewing the Account to ensure compliance. Manual reviews of hits are conducted three (3) times a day.
+(i) Check if the Visual Compliance Section of the Account says "Pending"-- Wait 15-30 minutes for the system to run its initial check and update.
+(ii) If the Visual Compliance Section of the Account says "Yellow" or"Red"-- The legal team is manually reviewing the Account to ensure compliance. Manual reviews of hits are conducted three (3) times a day.
 Changes by Legal will automatically update the Account, although updates may take 15-30 minutes to sync.
 
-- If the status has been updated to “Clear”, the order will process and account functionality will resume.
-- If the status is updated to “Escalate”, there is a concern with either the company itself or there is an attempt to sell in an embargoed country. Escalated orders will not process.
-(iii) If the Account requires immediate attention (i.e., to close a deal), open a Chatter message in the Account and message “@legal”. Upon receipt of a request, the Legal team can review and update in Visual Compliance.
+- If the status has been updated to "Clear", the order will process and account functionality will resume.
+- If the status is updated to "Escalate", there is a concern with either the company itself or there is an attempt to sell in an embargoed country. Escalated orders will not process.
+(iii) If the Account requires immediate attention (i.e., to close a deal), open a Chatter message in the Account and message "@legal". Upon receipt of a request, the Legal team can review and update in Visual Compliance.
 Please understand that if Legal finds a problem, the flag and the account will remain locked down.
 
 ## Types of Accounts

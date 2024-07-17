@@ -25,10 +25,8 @@ Particpants:
 Customer
 ---
 
-
 GitLab
 ---
-
 
 Goals
 *

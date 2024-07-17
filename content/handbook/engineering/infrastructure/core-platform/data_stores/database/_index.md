@@ -24,7 +24,7 @@ The following members of other functional teams are our stable counterparts:
 
 ### Stable Counterparts to other teams
 
-The Database Group is often called upon to provide consulting to other groups. To more efficiently support these requests we have created this [stable counterparts table](./stable.html).
+The Database Group is often called upon to provide consulting to other groups. To more efficiently support these requests we have created this [stable counterparts table](stable.html).
 
 ## Meetings
 

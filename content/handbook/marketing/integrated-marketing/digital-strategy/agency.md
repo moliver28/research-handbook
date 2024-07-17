@@ -1,14 +1,7 @@
 ---
-
 title: "GitLab PMG Team"
 description: "The GitLab Digital Strategy team works directly with our digital agency PMG to execute all paid digital campaigns."
 ---
-
-
-
-
-
-
 
 ## PMG
 
@@ -22,7 +15,7 @@ The [GitLab Digital Strategy team](/handbook/marketing/integrated-marketing/digi
 - Building and executing campaign launches once all materials and direction are received from the GitLab side.
 - Strategically & competitively bidding and negotiating for efficient ad units and sponsorship programs.
 - Continuously optimizing campaigns and programs for more efficient rates and higher lead quality.
-- Aggregating all campaigns into Alli (PMG’s marketing intelligence platform), featuring multiple filters to view performance from audience, asset, segment, team, and regional angles.
+- Aggregating all campaigns into Alli (PMG's marketing intelligence platform), featuring multiple filters to view performance from audience, asset, segment, team, and regional angles.
 - Reviewing overall metrics over time to uncover trends & opportunities, as well as pitching new campaign & placement ideas to uplevel coverage and performance.
 - Setting up all digital spend with channels and vendors to bill directly through PMG, and syncing with GitLab Finance to handle invoicing monthly.
 
@@ -111,7 +104,7 @@ PMG and GitLab meet weekly to review issues from the [milestone triage board](ht
 
 The Digital Marketing and (optional) Marketing Campaigns team members meet with PMG weekly to cover one of the following sessions on a rotating basis:
 
-- Monthly Review: Typically the second week of each month, reviewing the previous month’s full paid digital campaign performance in alignment with MQL & SAO goals, plus discussing  key learnings and areas of opportunity.
+- Monthly Review: Typically the second week of each month, reviewing the previous month's full paid digital campaign performance in alignment with MQL & SAO goals, plus discussing  key learnings and areas of opportunity.
 - Deep Dive: Diving into a specific channel, region, segment, campaign, etc to discuss coverage, metrics and actionable insights.
 - Flex/Working Sessions: Using our weekly meeting to work through key initiatives or upcoming media planning.
 - Brainstorming: Leveraging our learnings & market trends toward improved creative, assets, messaging, audiences, or channel performance.
@@ -120,7 +113,7 @@ The Digital Marketing and (optional) Marketing Campaigns team members meet with 
 
 {: #qbrs}
 
-Digital Demand Gen QBRs are typically held during the 3rd week of February, May, August, and November. PMG presents full performance & analysis of the previous quarter’s digital campaigns, broken down by segment, channel, region, GTM, content, audiences targeting, etc. QBRs usually produce a higher volume of follow-up action item issues based on key learnings.
+Digital Demand Gen QBRs are typically held during the 3rd week of February, May, August, and November. PMG presents full performance & analysis of the previous quarter's digital campaigns, broken down by segment, channel, region, GTM, content, audiences targeting, etc. QBRs usually produce a higher volume of follow-up action item issues based on key learnings.
 
 Revenue Marketing QBRs are scheduled separately from the main Digital Demand Gen QBRs. These reviews focus on campaign performance from the previous quarter for Corporate, Field, and Account Based Marketing teams.
 
@@ -146,15 +139,15 @@ GitLab and PMG triage issues and plan the completion of work in relevant milesto
 PMG initiates & manages Publisher/Sponsorship contracts using the following process:
 
 - Pre-RFP
-  - GitLab and PMG collaborate to confirm the available quarterly budget, targeting guidelines, and GitLab’s content priorities for publisher programs.
+  - GitLab and PMG collaborate to confirm the available quarterly budget, targeting guidelines, and GitLab's content priorities for publisher programs.
 - RFP Process
   - PMG begins the RFP process by contacting multiple vendors that may be a potential fit. (PMG handles all email and phone communication with vendors). Ideally, for any particular initiative - it is best to stick to a maximum of 3 potential partners to look into.
-  - Based on a vendor’s program offerings and targeting capabilities, PMG will evaluate and recommend potential vendors to GitLab.
+  - Based on a vendor's program offerings and targeting capabilities, PMG will evaluate and recommend potential vendors to GitLab.
   - Once GitLab has decided on a recommended vendor(s), PMG will handle contracting the program—vendors bill PMG directly.
 - Campaign Process
   - Once the contract is signed by PMG and the vendor, program deliverables are posted to a new issue by PMG.
   - GitLab will post completed deliverables to the issue and PMG will pass the information along to the vendor.
-  - If the program generates leads, leads will be sent directly from the vendor to GitLab for PII/GDPR reasons. GitLab must ensure that GDPR language is in place when the user downloads GitLab content from the vendor’s site.
+  - If the program generates leads, leads will be sent directly from the vendor to GitLab for PII/GDPR reasons. GitLab must ensure that GDPR language is in place when the user downloads GitLab content from the vendor's site.
   - The designated sender at GitLab will then open a publisher engagement epic to upload lead lists and enable program tracking.
 
 ### Channel Rep Syncs
@@ -176,7 +169,7 @@ Before the beginning of each fiscal year, GitLab and PMG meet to review the Digi
 
 - **[Please refer to this Mural for GitLab's FY23 Paid Digital Campaign structure](https://app.mural.co/t/gitlab2474/m/gitlab2474/1643743560333/b21487a8f639d5981526c20164cad39cb9faca43?sender=uda52d8b28f84e1a3d6af1431).**
 
-Before each upcoming quarter, the teams will meet for [media planning](/handbook/marketing/integrated-marketing/digital-strategy/digital-strategy-management/#digital-campaign-planning-timeline) sessions to determine the coverage mix for our paid digital programs. Given the quarter’s KPI goals as a whole & per segment/region, the media planning’s key topics include the degree of coverage for the following (tiers listed in order of [visualization](https://app.mural.co/t/gitlab2474/m/gitlab2474/1643743560333/b21487a8f639d5981526c20164cad39cb9faca43?sender=uda52d8b28f84e1a3d6af1431):
+Before each upcoming quarter, the teams will meet for [media planning](/handbook/marketing/integrated-marketing/digital-strategy/digital-strategy-management/#digital-campaign-planning-timeline) sessions to determine the coverage mix for our paid digital programs. Given the quarter's KPI goals as a whole & per segment/region, the media planning's key topics include the degree of coverage for the following (tiers listed in order of [visualization](https://app.mural.co/t/gitlab2474/m/gitlab2474/1643743560333/b21487a8f639d5981526c20164cad39cb9faca43?sender=uda52d8b28f84e1a3d6af1431):
 
 - Audience Targeting
   - Segments: Enterprise, Mid-Market, and SMB
@@ -194,7 +187,7 @@ Before each upcoming quarter, the teams will meet for [media planning](/handbook
 - Content
   - eBooks, Whitepapers, Demos, Fireside Chats, etc.
 
-The final asset mix for each budget line item will be recorded in the [Paid Demand Generation Asset Tracker](https://drive.google.com/drive/u/2/folders/16fZrpfzRJzd8k-rs8ApQQZMUIbW_upcp), with each month’s assets separated by tab.
+The final asset mix for each budget line item will be recorded in the [Paid Demand Generation Asset Tracker](https://drive.google.com/drive/u/2/folders/16fZrpfzRJzd8k-rs8ApQQZMUIbW_upcp), with each month's assets separated by tab.
 
 **Intake Process**
 
@@ -213,7 +206,7 @@ Top metrics include CPI (cost per inquiry) and INQ, MQL & SAO conversion rates. 
 
 {: #ancillary-campaigns}
 
-The GitLab Digital Marketing team receives additional funding at various times throughout the fiscal year to support gaps in the pipeline or test & expand on new initiatives. Both teams follow the same intake process outlined above, but since these funds are limited to the month or quarter, additional strategy is required in order to hit the funding’s targets within a short amount of time.
+The GitLab Digital Marketing team receives additional funding at various times throughout the fiscal year to support gaps in the pipeline or test & expand on new initiatives. Both teams follow the same intake process outlined above, but since these funds are limited to the month or quarter, additional strategy is required in order to hit the funding's targets within a short amount of time.
 
 PMG provides pulse checks & tracking toward KPIs more frequently for ancillary campaigns than regular campaigns since their duration is limited to the month or quarter. Once the ancillary campaign has completed, PMG will provide a campaign summary and key insights for future iterations.
 
@@ -242,7 +235,7 @@ KPIs are based on campaign goals, so events will focus on cost per registrations
 
 {: #utms}
 
-The UTM structure is at the core of all of PMG’s reporting. The UTM parameters that the team has chosen are used for all paid digital activations and are tracked using Alli and displayed in the [GitLab-PMG Datastudio dashboard](https://datastudio.google.com/s/qYf0NTtwW0c). PMG uses the following parameters to report on digital performance:
+The UTM structure is at the core of all of PMG's reporting. The UTM parameters that the team has chosen are used for all paid digital activations and are tracked using Alli and displayed in the [GitLab-PMG Datastudio dashboard](https://datastudio.google.com/s/qYf0NTtwW0c). PMG uses the following parameters to report on digital performance:
 
 - utm_medium
 - utm_source
@@ -277,7 +270,7 @@ Creating the utm_content name follows a similar process:
 
 {: #agency-reporting}
 
-Alli is PMG’s marketing intelligence platform created to provide a single view of all your data to then accelerate your business by normalizing your marketing data, automating actions, and activating insights based on your custom goals and needs.
+Alli is PMG's marketing intelligence platform created to provide a single view of all your data to then accelerate your business by normalizing your marketing data, automating actions, and activating insights based on your custom goals and needs.
 
 Alli is used to power the [GitLab-PMG Datastudio dashboard](https://datastudio.google.com/s/qYf0NTtwW0c) that connects platform data with Google360 and Sisense data in one place. The data points we are tracking, but are not limited to:
 

@@ -27,7 +27,7 @@ This group will create processes and policies that are as lean as possible in or
 ### Exit Criteria
 
 1. ✅ Fulfillment of the feature flag [architectural blueprint](https://docs.gitlab.com/ee/architecture/blueprints/feature_flags_development/)
-1. ✅ Completion of all issues labelled with the working group scoped label on [GitLab.org](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=WorkingGroup%3A%3AFeatureFlagUsage) and [GitLab.com](https://gitlab.com/groups/gitlab-com/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=WorkingGroup%3A%3AFeatureFlagUsage)
+1. ✅ Completion of all issues labeled with the working group scoped label on [GitLab.org](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=WorkingGroup%3A%3AFeatureFlagUsage) and [GitLab.com](https://gitlab.com/groups/gitlab-com/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=WorkingGroup%3A%3AFeatureFlagUsage)
 1. ✅ Refinement and assignment of [Feature Flag Training](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/80476d9861756b3a9c8a062267288f36ff6156ca/.gitlab/issue_templates/feature-flag-training.md), and [Feature Flag Monitoring training](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/80476d9861756b3a9c8a062267288f36ff6156ca/.gitlab/issue_templates/monitoring-training.md) for GitLab engineers
 1. ✅ Audit, refine, and communicate the [Feature flags in development of GitLab documentation](https://docs.gitlab.com/ee/development/feature_flags/)
 1. ✅ [Each functional lead is satisfied](https://gitlab.com/gitlab-org/gitlab/-/issues/336142) of the state of the feature flag processes in place in the development of GitLab

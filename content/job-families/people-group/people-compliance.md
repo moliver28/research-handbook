@@ -102,11 +102,11 @@ The Senior People Compliance Program Manager is a [grade 7](/handbook/total-rewa
 - Review and understand legislation in locations where we have legal hiring entities.
 - Proactively address processes to mitigate compliance and operational risk by recommending and prioritizing changes to support the business.
 - Act as subject matter expert on HR compliance and act in an advisory role to People Team centers of excellence, cross-functional stakeholders, and clients.
-- Support queries relating to compliance, audit and due diligence specific projects in issues, slack and MR’s.
+- Support queries relating to compliance, audit and due diligence specific projects in issues, slack and MR's.
 - Act as the main point of contact for the People Tools & Technology team with reporting, data analyses, and personnel information as it relates to compliance.
 - Manage the scope and schedule for assigned compliance projects and programs; conduct compliance audits, analyze results and generate reports for relevant functional areas, and potential policy recommendations.
 - Implement compliance initiatives and templates that can be utilized for initiatives including: document retention policy for team member information, data protection, and annual training on these.
-- Manage the company’s reporting requirements and compliance initiatives, including the Affirmative Action (OFCCP) and EEO-1.
+- Manage the company's reporting requirements and compliance initiatives, including the Affirmative Action (OFCCP) and EEO-1.
 - Collaborate with the People Tech team to ascertain and integrate tools in relation to compliance needs and initiatives, including automation and reporting.
 - Engage with internal legal counsel, vendors, and external professionals and legal counsel as needed.
 - Complete ad-hoc projects, reporting, and tasks.
@@ -151,7 +151,7 @@ The Manager, People Compliance is a [grade 8](/handbook/total-rewards/compensati
 - Ensure oversight and governance of policies and practices globally, including interpreting and applying understanding of corporate policies and practices, employment laws, and other regulations to provide advice, guidance, or clarification for People Compliance inquiries.
 - Investigate best practice and innovative people policies to ensure GitLab is fully prepared and compliant as we scale. Create and implement internal policies related to leave administration, disability support, and more.
 - Act as subject matter expert for the People Tech team with reporting, data analyses, and personnel information as it relates to compliance.
-- Supervise all the company’s mandatory country-specific lawful and required reports and compliance initiatives, including the Affirmative Action (OFCCP) and EEO-1.
+- Supervise all the company's mandatory country-specific lawful and required reports and compliance initiatives, including the Affirmative Action (OFCCP) and EEO-1.
 - Address any gaps in processes or documentation and escalate as necessary.
 - Ensure strong partnerships with internal legal counsel, vendors, and external professionals and legal counsel as needed.
 - Complete ad-hoc projects, reporting, and tasks.

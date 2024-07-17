@@ -1,15 +1,7 @@
 ---
-
 title: "CSM November 2021 Engagement Survey"
 description: "Results and action on the annual GitLab Engagement Survey for Customer Success Managers."
 ---
-
-
-
-
-
-
-
 
 ## Overview
 

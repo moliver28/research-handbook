@@ -97,7 +97,7 @@ When creating a new workflow, please keep the [above guidelines](#basic-guidelin
 There is no specific template for a workflow (except the metadata noted below). Some possible places to start:
 
 1. Use another workflow as a template.
-1. Use the [GitLab documentation structure and template](https://docs.gitlab.com/ee/development/documentation/structure.html).
+1. Use the [GitLab documentation structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html).
 
 #### Metadata
 

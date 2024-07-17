@@ -1,6 +1,5 @@
 ---
 title: "Control Health and Effectiveness Rating (CHER) Procedure"
-controlled_document: true
 ---
 
 ## Purpose

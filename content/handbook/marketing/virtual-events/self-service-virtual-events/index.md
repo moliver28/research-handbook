@@ -1,14 +1,10 @@
 ---
-
 title: Self-Service Virtual Events
 description: An overview of self-service virtual events at GitLab.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
 
 ## Overview
 
@@ -80,7 +76,7 @@ Review GitLab's general [virtual events best practices](/handbook/marketing/virt
 
 ### Self-service virtual event promotion guide
 
-Using personal channels to self-promote your event comes with many benefits: it’s an authentic way for you to build your personal audience, reach people beyond GitLab’s corporate channels, and boosts your credibility online. This page outlines everything that you'll need to promote your own virtual event. `This checklist should take less than 2 hours`.
+Using personal channels to self-promote your event comes with many benefits: it's an authentic way for you to build your personal audience, reach people beyond GitLab's corporate channels, and boosts your credibility online. This page outlines everything that you'll need to promote your own virtual event. `This checklist should take less than 2 hours`.
 
 Please consider reviewing and applying our [GitLab Team Member Social Media Guidelines](/handbook/marketing/team-member-social-media-policy/) prior to promoting your own event. Specifically, review our [GitLab Voice information](/handbook/marketing/team-member-social-media-policy/#gitlab-voice).
 
@@ -96,13 +92,13 @@ Please consider reviewing and applying our [GitLab Team Member Social Media Guid
    * Your event topic is already a hashtag: #DevOps, #security, #RemoteWork, etc. Integrate these into your sentences naturally.
    * Do you have a guest speaker? Talking about a company, person, or brand that would have a Twitter or LinkedIn page? Include the handle (@name) in the Twitter post - and tag the appropriate page on LinkedIn.
 
-* Do’s
+* Do's
   * DO use 1-3 hashtags in your posts, across social channels
-    * Example: I’m so excited to announce that I’ll be speaking about #remote #DevOps at my webcast later this week! Join me and learn how @GitLab can help.
+    * Example: I'm so excited to announce that I'll be speaking about #remote #DevOps at my webcast later this week! Join me and learn how @GitLab can help.
   * DO write in your own voice, be creative, and use emoji
-    * Example: 🗣Everyone is talking about #remote #DevOps and at @GitLab it’s all I work on. 💻 Join me for a webinar to learn how we make it all work.
-* Don’ts
-  * DON’T hashtags the predicate, object, or complements in a sentence unless it’s a direct topic of your event.
+    * Example: 🗣Everyone is talking about #remote #DevOps and at @GitLab it's all I work on. 💻 Join me for a webinar to learn how we make it all work.
+* Don'ts
+  * DON'T hashtags the predicate, object, or complements in a sentence unless it's a direct topic of your event.
     * Example: So #excited to #announce our new #event on #remote #DevOps… #GitLab #Tech #Webcast
 
 1. Top-Level messaging to aid in copy
@@ -128,26 +124,26 @@ The GitLab Canva Virtual Events Promotional Templates are a small series of "bla
 
 #### Getting the word out - Launching your self-service virtual event promotion
 
-Now that you’ve put together the copy and creative needed to promote your event, it’s time to get the word out. Depending on how much time there is until your webcast, you may be able to promote your event more than what we’ve outlined in this section. There are more details below on a more sustained promotion for events with more than 3 days of time between promotion launch and webcast.
+Now that you've put together the copy and creative needed to promote your event, it's time to get the word out. Depending on how much time there is until your webcast, you may be able to promote your event more than what we've outlined in this section. There are more details below on a more sustained promotion for events with more than 3 days of time between promotion launch and webcast.
 
 We recommend doing all of the following:
 
 ##### 1. Share your event on your social media channels
 
-Promote your event on Twitter and LinkedIn. You may also do this on Facebook or other channels, but know that Twitter and LinkedIn are key. Take the copy + creative you made and send them out to your social followers. Be sure to “convert” your @handles from Twitter to tagging people and companies on LinkedIn. While you start with “@” like all social channels, you’ll want to make sure that you select the right person or company on LinkedIn. Here is how to try this out (https://www.linkedin.com/help/linkedin/answer/34936/mention-people-in-your-posts?lang=en).
+Promote your event on Twitter and LinkedIn. You may also do this on Facebook or other channels, but know that Twitter and LinkedIn are key. Take the copy + creative you made and send them out to your social followers. Be sure to "convert" your @handles from Twitter to tagging people and companies on LinkedIn. While you start with "@" like all social channels, you'll want to make sure that you select the right person or company on LinkedIn. Here is how to try this out (https://www.linkedin.com/help/linkedin/answer/34936/mention-people-in-your-posts?lang=en).
 
 ##### 2. Share your social media posts on GitLab Slack Channels related to your topic, Ask for team members to amplify your posts
 
-Building personal credibility and extending reach for your event promotions is a critical part of success. Team members who work in the same space as your topic would be more likely to share on their channels than others. Here’s how to do it while living up to our values around informal communication:
+Building personal credibility and extending reach for your event promotions is a critical part of success. Team members who work in the same space as your topic would be more likely to share on their channels than others. Here's how to do it while living up to our values around informal communication:
 Example: Your webcast is the same from our examples above, about remote DevOps. One of the topics to focus on is `remote work`. In addition to being a hashtag in your social posts, `remote work` is also the topic for a GitLab Slack channel, `remote`. Team members in this channel share stories and opinions on your webcast topic.
 
-After sending out your first social media posts on Twitter and LinkedIn, copy the links to both posts. Here’s how to copy a link to your post on LinkedIn (https://www.linkedin.com/help/linkedin/answer/108024/finding-the-url-for-shared-content?lang=en). Here’s how to copy a link to your tweet on Twitter (https://help.twitter.com/en/using-twitter/tweet-and-moment-url).
+After sending out your first social media posts on Twitter and LinkedIn, copy the links to both posts. Here's how to copy a link to your post on LinkedIn (https://www.linkedin.com/help/linkedin/answer/108024/finding-the-url-for-shared-content?lang=en). Here's how to copy a link to your tweet on Twitter (https://help.twitter.com/en/using-twitter/tweet-and-moment-url).
 
 Take the links to your social media posts and add them to a Slack channel message. Send a variation of this message to the channel:
 
 > Hi Everyone,
 >
-> I’m hosting a webcast on remote DevOps later this week. I would appreciate your support by retweeting or sharing my social posts.
+> I'm hosting a webcast on remote DevOps later this week. I would appreciate your support by retweeting or sharing my social posts.
 >
 > Retweet My Tweet (make this a clickable link to your tweet)
 >
@@ -161,7 +157,7 @@ While sharing on your social media channels and other digital spaces should occu
 
 Are you a part of a tech-focused nonprofit? Do you have former coworkers who would be interested in your webcast? Are you a part of group chats, Facebook or LinkedIn groups, or some other channel where members might be interested in your topic? Share it with them as well.
 
-It’s important to note that you should be aware of sharing practices in your groups - some groups have a strict “no advertising” policy. For all Facebook and LinkedIn groups, consider reviewing any group rules and don’t get in trouble with the moderators.
+It's important to note that you should be aware of sharing practices in your groups - some groups have a strict "no advertising" policy. For all Facebook and LinkedIn groups, consider reviewing any group rules and don't get in trouble with the moderators.
 
 ##### Extra: Add to the events page
 
@@ -169,13 +165,13 @@ Add your virtual event to about.gitlab events page by following [instructions](/
 
 ##### Extra: Specific Twitter options
 
-While we’re not suggesting that you spam your audiences, Twitter is not used in the same way LinkedIn is. On the day of your webcast, consider tweeting a photo of you prepping the webcast, tweeting a “thank you” to everyone that attended, and even consider linking to a recording (if available) for those who could not join live. It’s completely acceptable for a list of tweets on the day of your webcast to include 3-5 tweets. Ultimately, if you have something else to say, say it on Twitter.
+While we're not suggesting that you spam your audiences, Twitter is not used in the same way LinkedIn is. On the day of your webcast, consider tweeting a photo of you prepping the webcast, tweeting a "thank you" to everyone that attended, and even consider linking to a recording (if available) for those who could not join live. It's completely acceptable for a list of tweets on the day of your webcast to include 3-5 tweets. Ultimately, if you have something else to say, say it on Twitter.
 
 ##### Extra: Getting the word out - More than one-day of promotion
 
-If you’re planning a webcast and have more than 3 days between your first day of promotion and the actual webcast, you have time to add additional posts to your promotion.
+If you're planning a webcast and have more than 3 days between your first day of promotion and the actual webcast, you have time to add additional posts to your promotion.
 
-Do not promote your event more than once a day, at most. Remember, this is your network, don’t spam them.
+Do not promote your event more than once a day, at most. Remember, this is your network, don't spam them.
 
 Consider posting about non-webcast or work-related topics between webcast promotional posts.
 
@@ -221,19 +217,19 @@ Make sure these settings are enabled in your personal zoom account settings as n
      * Attendees register once and can choose one or more occurrences to attend - Registrants are presented with checkboxes to select which session they want to attend on the landing page prior to filling out the form.
 
 11. (Optional) You can make the meeting private/ensure only those that registered attend by checking the `Require a meeting password` option  and including the auto generated password in your invite (for events not requiring registration)/confirmation (for events requiring registration). This is useful so only the people you intend to invite attends the meeting and can help prevent hackers from taking over your meeting (Zoom Bombing).
-12. Specify if you want the Host and/or Participant’s video `on` or `off`.
+12. Specify if you want the Host and/or Participant's video `on` or `off`.
 13. Make sure audio is set to `BOTH` telephone and computer audio.
 14. For meeting options configurations:
 15. Check `Enable join before host` option if you want to allow participants to join before the host(s).
 16. **(Recommended)** Check `Mute participants upon entry` to prevent disruption whenever someone joins mid-presentation.
-17. **(Recommended)** Check the `Enable waiting room` option if you’d like to choose some participants to join prior to others . This is useful to allow a final dry run between host and the other presenters right before the event. Activating this is recommended by zoom to prevent [Zoom Bombing](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/).
+17. **(Recommended)** Check the `Enable waiting room` option if you'd like to choose some participants to join prior to others . This is useful to allow a final dry run between host and the other presenters right before the event. Activating this is recommended by zoom to prevent [Zoom Bombing](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/).
 18. Check `Only authenticated users can join` to restrict meeting only to participants that have logged in to zoom using their email address. Activating this is recommended by zoom to prevent [Zoom Bombing](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/) but may impact registration due to its restrictive nature (forcing registrants to sign up for zoom before completing registration).
-19. Check the `Breakout room pre-assign` if you’d like to pre-assign participants to the breakout sessions prior to the meeting. Please note that only participants/hosts with @gitlab email domain can be pre-assigned via the web interface. Participants with non @gitlab email addresses need to have zoom installed in their machine to be pre-assigned, and pre-assigning for this scenario can only be done through a CSV upload.
+19. Check the `Breakout room pre-assign` if you'd like to pre-assign participants to the breakout sessions prior to the meeting. Please note that only participants/hosts with @gitlab email domain can be pre-assigned via the web interface. Participants with non @gitlab email addresses need to have zoom installed in their machine to be pre-assigned, and pre-assigning for this scenario can only be done through a CSV upload.
 20. **(Recommended except for meetings that are private in nature)** Check `Record the meeting automatically` either on your local computer or in the cloud to automatically record the meeting when the host join.
 21. Add alternate host as needed (need to be a GitLab employee). For  presenters that are not a GitLab employee, ask them to register as a regular participant and grant them co-host access during the meeting.
 22. SAVE your meeting.
 23. Once your event is created, scroll to the bottom of your event, click the registration (if it was selected as required), click edit, under `other options`, check the box for `close registration after event date`.
-24. :star2: **(Optional) Pro tip:** If you’d like to save the same  set up for a future meeting `Save your meeting as a Meeting template`.
+24. :star2: **(Optional) Pro tip:** If you'd like to save the same  set up for a future meeting `Save your meeting as a Meeting template`.
 
 **[Recommended for meetings requiring registration] Customize your registration form**
 
@@ -331,7 +327,7 @@ If your video meets the gating criteria, please open the following issues for th
 * [ ] [Pathfactory Track Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-track)
 * [ ] [Marketo Landing Page & Automation Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-mkto-landing-page)
 
-*Note: The 550 min threshold is based on the avg of top 10 videos on gitlab branded youtube channel between 8/11/20 - 8/18/20.*
+*Note: The 550 min threshold is based on the avg of top 10 videos on GitLab branded youtube channel between 8/11/20 - 8/18/20.*
 
 ### Results
 

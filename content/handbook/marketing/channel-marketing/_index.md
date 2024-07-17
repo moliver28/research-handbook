@@ -1,5 +1,4 @@
 ---
-
 title: "Global Channel Marketing"
 description: "Global Channel supports global channel sales objectives and provides support to the GitLab channel partner community and customers."
 ---
@@ -10,11 +9,11 @@ Global Channel Marketing team is a team of professionals whose job is to build m
 
 ## Marketing to the Channel
 
-This team is responsible for the development of channel marketing campaigns that leverage GitLab’s go-to-market campaigns.  We work with partners to help them understand what the campaigns are, how to use them to help drive partner sourced opportunities, how to leverage upcoming GitLab webinars/webcasts to drive conversion and how to generate trials for GitLab that they can nurture with prospects. Part of this program includes a Partner Leadership Summit, which is an in-person event meant to connect our channel partner leadership & GitLab direct leadership to share the GitLab vision and the important part our channel partners play in the success of our business.
+This team is responsible for the development of channel marketing campaigns that leverage GitLab's go-to-market campaigns.  We work with partners to help them understand what the campaigns are, how to use them to help drive partner sourced opportunities, how to leverage upcoming GitLab webinars/webcasts to drive conversion and how to generate trials for GitLab that they can nurture with prospects. Part of this program includes a Partner Leadership Summit, which is an in-person event meant to connect our channel partner leadership & GitLab direct leadership to share the GitLab vision and the important part our channel partners play in the success of our business.
 
 ## Marketing through the Channel
 
-The Global Channel marketing team provides support to partners by creating different campaign assets into leverageable go-to-market programs called Instant Campaigns that partners can easily pick up and run with their customer or prospect lists.  GitLab channel marketing is also responsible for the development, rollout and management of trial enablement programs by which partners can generate trials of GitLab directly from their website, and passing or providing trial leads generated from GitLab’s own website to be worked and converted by partners.
+The Global Channel marketing team provides support to partners by creating different campaign assets into leverageable go-to-market programs called Instant Campaigns that partners can easily pick up and run with their customer or prospect lists.  GitLab channel marketing is also responsible for the development, rollout and management of trial enablement programs by which partners can generate trials of GitLab directly from their website, and passing or providing trial leads generated from GitLab's own website to be worked and converted by partners.
 
 Our Channel Marketing Managers support the channel go-to-market efforts through our [MDF funding and management program](/handbook/resellers/Channel-Program-Guide/MDF/) and are responsible for ensuring they are building a strategic marketing plan with our [marketing-ready partners](https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/new?issuable_template=Channel_Mktg_Ready) ([up-to-date SF report of marketing-ready partners - internal](https://gitlab.my.salesforce.com/00OPL0000003UhV)).
 
@@ -50,13 +49,13 @@ For an in-depth look at the programs and tools we offer our partners, see our [m
 - On a monthly basis, provide marketing content and input to the Global Channel Operations team for use in the global channel communication/newsletter
 - Support GitLab [Analyst Relations](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/) requests for channel program input on MQs, WAVEs, market guides, as needed and with third party channel analysts.
   - Support requests for inclusion in third party publications
-- Support the web team in maintaining GitLab’s marketing website [partner pages](https://about.gitlab.com/partners/)
+- Support the web team in maintaining GitLab's marketing website [partner pages](https://about.gitlab.com/partners/)
 - Working with Sales Ops and Marketing Ops improve attribution and reporting of [partner sourced leads (CQLs), and partner sourced opportunities](/handbook/sales/field-operations/channel-operations/).
 - [Partner Concierge Program](https://gitlab.com/gitlab-com/marketing/demand-generation/fy24-integrated-marketing-planning/-/issues/8#pre-pilot-launch) is starting a pilot program with a list of select partners approved for participation. Partner accepted into the program will have monthly meetings with Program's Manager as well as a customer [content calendar](https://docs.google.com/presentation/d/1vdR-FhJFltPfCijO43L2as-HAlw8zEgUUCk6687CDWg/edit#slide=id.g123a13deda8_0_405) to track all social campaigns scheduled. Participants of the Concierge Program will not be able to participate in the MDF Program.
 
 ## 6 Month Planning Cycle with quarterly reviews: Channel Marketing Managers
 
-The Channel Marketing Managers are responsible for creating channel marketing plans with our marketing-ready channel partners that align to a 6-month planning cycle with quartely reviews. This allows time for our channel partners to properly source resources and staffing for these campaigns.
+The Channel Marketing Managers are responsible for creating channel marketing plans with our marketing-ready channel partners that align to a 6-month planning cycle with quarterly reviews. This allows time for our channel partners to properly source resources and staffing for these campaigns.
 
 - Feb - July - Plans due second week of December
 - August - January - Plans due second week of June
@@ -126,7 +125,7 @@ For more information about Partner Flash/News On Demand and process to become a 
 
 #### Webinars to Channel Partners
 
-Global Channel Marketing hosts various webinars for our partner community.  Our goal is to provide updates and general marketing program news, as well as highlight one to three larger marketing program topics for a deeper dive.  Invitations are sent via our Partner Flash and News on Demand platform.  We target the global list of marketing contacts (those who have chosen a “marketing” role in their profile) as well as those in GitLab Channel roles, including our sales and program operations teams.  Invites are sent 30 days in advance of the event with a follow up at two weeks out and one day prior.  Those who register will receive a reminder email the day before the event. Members of our global channel marketing team attend and speak during the webinar, along with special guests from other GitLab organizations, depending on the topics we are covering.  Thank You and Sorry We Missed You emails will be sent post-event and provide access to webinar recordings, assets and resources.
+Global Channel Marketing hosts various webinars for our partner community.  Our goal is to provide updates and general marketing program news, as well as highlight one to three larger marketing program topics for a deeper dive.  Invitations are sent via our Partner Flash and News on Demand platform.  We target the global list of marketing contacts (those who have chosen a "marketing" role in their profile) as well as those in GitLab Channel roles, including our sales and program operations teams.  Invites are sent 30 days in advance of the event with a follow up at two weeks out and one day prior.  Those who register will receive a reminder email the day before the event. Members of our global channel marketing team attend and speak during the webinar, along with special guests from other GitLab organizations, depending on the topics we are covering.  Thank You and Sorry We Missed You emails will be sent post-event and provide access to webinar recordings, assets and resources.
 
 Visit our [partner portal page](https://partners.gitlab.com/prm/English/c/ptnrmktgwebinars) for registration links for future webinars, access to past recordings, assets and resources.
 
@@ -146,7 +145,7 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
 
 - Demand Generation
       - The objective of these activities is to gain net-new end-user customers for you and GitLab. Examples of eligible activities include seminars, workshops, telemarketing or email marketing campaigns, participation in tradeshows, exhibitions, and direct mail.
-      - Eligible costs may include mailing costs, fulfillment items, lead qualification, distribution, venue costs, food and beverages (excluding alcoholic beverages), speakers’ fees, management costs, and lead capturing costs.
+      - Eligible costs may include mailing costs, fulfillment items, lead qualification, distribution, venue costs, food and beverages (excluding alcoholic beverages), speakers' fees, management costs, and lead capturing costs.
       - GitLab supports a limited number of partners in the selected regions, please check your eligibility with your regional [Partner Account Manager](https://partners.gitlab.com/English/?ReturnUrl=/prm/English/c/marketing-contact-cam) and [Channel Marketing Manager](/handbook/marketing/channel-marketing/#meet-the-team).
 
 - To be considered for funding support you must:
@@ -179,7 +178,7 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
           - `MDF-POP` and use the scoped labels below to work through the approval process:
           - `MDF::POP Pending`: issues created but POP has not yet been received
           - `MDF::POP Approval Needed`: once POP is received change this status to have Samara Souza approve the POP documents submitted
-          - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisiton can be created
+          - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisition can be created
           - `MDF:: POP Completed`: Once all of the steps above are completed, change to this status and close the MDF POP issue
   - Once all sub-issues are completed, close out the epic.
 
@@ -219,12 +218,12 @@ Please work with your Channel Marketing Managers to order your Marketing Kits.
 
 The Partner Concierge Program was created to help support partners to promote campaigns in their social channels by using a through-channel marketing automation platform to empower partners to market to their customers using co-branded campaigns.
 The tool is known as TCMA Demand Generation and it will be known for Partners as the Marketing Center within the Partner Portal.
-Partners will have a monthly meeting with the Program’s Manager and receive a customized content calendar that best suits their needs.
+Partners will have a monthly meeting with the Program's Manager and receive a customized content calendar that best suits their needs.
 In the Marketing Center, Partners will have access to real time reporting.
 
 ### Key Features
 
-Social Syndication - SMARTlink technlogy directs each call to action to the relevant Showcase page that belongs to the partner whose post generated the demand.
+Social Syndication - SMARTlink technology directs each call to action to the relevant Showcase page that belongs to the partner whose post generated the demand.
 Lead Management - gives your partners the ability to manage all the leads generated within the TCMA system via our simple dashboard.
 
 #### How to Participate
@@ -233,7 +232,7 @@ Reach out to partner-marketing@gitlab.com with the subject line: Partner Concier
 
 ## Partner Instant Marketing Campaign
 
-With GitLab Instant Marketing campaign assets, GitLab’s Select and Open partners have access to marketing resources to help them quickly, and easily generate qualified prospects for their sales teams. We’ve developed turnkey, integrated partner campaigns-in-a-box, which we refer to as “Partner Instant Marketing” campaigns, so partners can simply and easily co-brand assets and execute!
+With GitLab Instant Marketing campaign assets, GitLab's Select and Open partners have access to marketing resources to help them quickly, and easily generate qualified prospects for their sales teams. We've developed turnkey, integrated partner campaigns-in-a-box, which we refer to as "Partner Instant Marketing" campaigns, so partners can simply and easily co-brand assets and execute!
 
 These assets leverage GitLab go-to-market motions, such as DevSecOps and Automated Software Delivery, but are modified and expanded (in some cases) for partner use. Campaign assets include: nurture emails, landing pages, short videos, mini-books, social media and paid ads, quick sales guides and sales call scripts. All assets can be found on the GitLab partner portal.
 
@@ -241,21 +240,21 @@ Our modular campaign is designed to be a flexible, self-service model, so partne
 
 Partners and team members may review current campaigns available to partners by logging into the [Marketing Demand Generation section](https://partners.gitlab.com/prm/English/c/marketing-demand-gen) of the partner portal.
 
-## Beyond our Team’s Scope
+## Beyond our Team's Scope
 
 - Custom campaigns: Channel Marketing does not currently have the resources to support individual partner campaigns and events. Please encourage your partners to leverage one of our turnkey, and integrated [Instant Marketing Campaigns](/handbook/marketing/channel-marketing/#partner-instant-marketing-campaign) available on the [Partner Portal](https://partners.gitlab.com/English/).
 - Unique Partner Asset Creation: Channel Marketing is unable to work directly with partners to customize their marketing assets.
 - Event speakers: The Channel Marketing team does not have the resources to help locate GitLab speakers for partner events.
 - Partner Blogs: The Channel Marketing team does not have the resources to craft unique content to support a partner blog or content request.
 - Public Relations: The Channel Marketing team is not responsible for editing or approving blogs or partner press releases. Please see the [Corporate Communications handbook page](/handbook/marketing/corporate-communications/#partner-requests-for-press-release-support) for more information.
-- Sponsored social media posts: partners looking to GitLab to promote partner activities would not route those requests through Channel Marketing.  Instead, CAM’s obtain the partner’s social media channels and [create an issue](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/admin/#open-a-new-issue-to-request-social-coverage) for the Social Media team.  This request should include the partner’s social media information, detailed description of what we are being asked to promote and target dates.
+- Sponsored social media posts: partners looking to GitLab to promote partner activities would not route those requests through Channel Marketing.  Instead, CAM's obtain the partner's social media channels and [create an issue](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/admin/#open-a-new-issue-to-request-social-coverage) for the Social Media team.  This request should include the partner's social media information, detailed description of what we are being asked to promote and target dates.
 - Event attendance: The Channel Marketing team does not own a database of contacts by which to drive attendance to partner specific events nor do we possess the resources to support such requests.
 - [Partner training](/handbook/resellers/training/) is managed and supported by the Channel Partner Training, Certifications, and Enablement team.
 - Partner portal management: [Partner portal administration](/handbook/sales/channel/channel-programs-ops/#partner-portal-administration) is managed by GitLab Channel Program Operations.
 
 ## Meet the Team
 
-- **Samara Souza**: Senior Partner Program Manager, Samara’s focus is on creating new programs for our partners to leverage in their demand generation motions which are the MDF Program, Partner Concierge Program and Swag Program.
+- **Samara Souza**: Senior Partner Program Manager, Samara's focus is on creating new programs for our partners to leverage in their demand generation motions which are the MDF Program, Partner Concierge Program and Swag Program.
 
 - **Daria Polukanina**: Channel Marketing Manager for EMEA.
 Responsible for Planning, and MDF allocation of EMEA Managed Partners. Works closely with PAMs and PTMs  and the Field Marketing Team
@@ -514,7 +513,7 @@ This process requires the following platforms: Allocadia, Marketo, Salesforce, T
 
 [Flow Chart >](https://www.figma.com/file/6LFKq2rQaw16YFhq1zej5d/Sales-Dev---Partner-Sales-Collaboration?type=whiteboard&node-id=0-1&t=GQvBSLo14kJcVzGu-0)
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6LFKq2rQaw16YFhq1zej5d%2FSales-Dev---Partner-Sales-Collaboration%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3Dzu4zZQVPbHpeR8S0-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fboard%2F6LFKq2rQaw16YFhq1zej5d%2FSales-Dev---Partner-Sales-Collaboration%3Fnode-id%3D0-1%26t%3DcNSChb35P9rw0ayz-1" allowfullscreen></iframe>
 
 1. Allocadia - Create the subcategory and line item in Allocadia.
    1. [Create Sales Dev - Partner Campaign Alignment issue (automated when Worked by Sales Dev = True)](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Partner_Sales_BDR_Collaboration_Template.md?ref_type=heads) to communicate how the Sales Dev team is expected to follow up with the campaign.
@@ -667,7 +666,7 @@ Step 3: Export Leads from Salesforce
 1. Once spreadsheet is completed, proceed with [self service list import](/handbook/marketing/marketing-operations/automated-list-import/) instructions.
 1. (no setup needed) Marketo will process.
     1. If there is a `CRM Partner ID` that equals to a Channel Partner Account ID (18),
-        1. Set `Vartopia Partner Account` - if CRM Partner ID is asociated to a Channel Partner.
+        1. Set `Vartopia Partner Account` - if CRM Partner ID is associated to a Channel Partner.
         1. Set `Partner Consent` = `True`
     1. If `CRM Partner ID` equals to a Alliance Partner Account ID (18),
         1. Do nothing.
@@ -728,7 +727,7 @@ The lookup field retrieves the name of the partner account associated with the `
 
 This field records the source type of the partner lead. The biggest driver for this field is to isolate the source type that applies to the recall process including `Owned Event` and `Trial - Enterprise`.
 
-The reason why [`Initial Source`](/handbook/marketing/marketing-operations/#initial-source) isn’t used for this use case is because the field value must equal to `Partner Qualified Lead` to be attributed to and sourced by Partner.
+The reason why [`Initial Source`](/handbook/marketing/marketing-operations/#initial-source) isn't used for this use case is because the field value must equal to `Partner Qualified Lead` to be attributed to and sourced by Partner.
 
 ### Partner Consent
 

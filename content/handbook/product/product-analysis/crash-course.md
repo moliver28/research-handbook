@@ -1,14 +1,6 @@
 ---
-
 title: Crash Course for Product Stage Resources
 ---
-
-
-
-
-
-
-
 
 ## Objectives for this page
 

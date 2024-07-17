@@ -1,16 +1,7 @@
 ---
-
 title: "Data Team Learning and Resources"
 description: "GitLab Data Team Library"
 ---
-
-
-
-
-
-
-
-
 
 ---
 
@@ -25,7 +16,7 @@ description: "GitLab Data Team Library"
 - [The Three Levels of Data Analysis- A Framework for Assessing Data Organization Maturity](https://about.gitlab.com/blog/2019/11/04/three-levels-data-analysis/)
 - [How to Implement DataOps using GitLab](https://www.youtube.com/watch?v=GSEwkL5ZRNs)
 - [Lessons learned managing the GitLab Data team](https://about.gitlab.com/blog/2020/02/10/lessons-learned-as-data-team-manager/)
-- [Views on Vue Podcast with Jacob Schatz and Taylor Murphy](https://devchat.tv/views-on-vue/vov-030-how-we-use-vue-in-data-science-with-jacob-schatz-taylor-murphy-gitlab-team/)
+- [Views on Vue Podcast with Jacob Schatz and Taylor Murphy](https://topenddevs.com/podcasts/views-on-vue/episodes/vov-030-how-we-use-vue-in-data-science-with-jacob-schatz-taylor-murphy-gitlab-team)
 - [How to do DataOps with GitLab - Customer Call](https://chorus.ai/meeting/702422?tab=summary&call=31D048F239B04C28A5E25208A104BFD6) (GitLab Internal)
 - [GitLab for ML - Customer Call](https://chorus.ai/meeting/747939?call=08C9A333A729435CB2954FFDE3556BC0) (GitLab Internal)
 
@@ -33,8 +24,8 @@ description: "GitLab Data Team Library"
 
 - [The AI Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)
 - [Data Meta Metrics](https://caitlinhudon.com/2017/11/14/data-meta-metrics/)
-- [Engineers Shouldn’t Write ETL](https://multithreaded.stitchfix.com/blog/2016/03/16/engineers-shouldnt-write-etl/)
-- [The Startup Founder’s Guide to Analytics](https://thinkgrowth.org/the-startup-founders-guide-to-analytics-1d2176f20ac1)
+- [Engineers Shouldn't Write ETL](https://multithreaded.stitchfix.com/blog/2016/03/16/engineers-shouldnt-write-etl/)
+- [The Startup Founder's Guide to Analytics](https://thinkgrowth.org/the-startup-founders-guide-to-analytics-1d2176f20ac1)
 - [Functional Data Engineering — a modern paradigm for batch data processing](https://medium.com/@maximebeauchemin/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a)
 - [Keep it SQL Stupid, a talk by Connor McArthur of Fishtown Analytics at DataEngConf SF '18 explaining dbt](https://www.youtube.com/watch?v=9VNh11qSfAo)
 - [DevOps for AI](https://www.youtube.com/watch?v=HwZlGQuCTj4)
@@ -43,7 +34,7 @@ description: "GitLab Data Team Library"
 - The Value of Data: [Part 1](https://www.codingvc.com/the-value-of-data-part-1-using-data-as-a-competitive-advantage), [Part 2](https://www.codingvc.com/the-value-of-data-part-2-building-valuable-datasets), [Part 3](https://www.codingvc.com/the-value-of-data-part-3-data-business-models)
 - [Building a Data Practice](https://www.locallyoptimistic.com/post/building-a-data-practice/)
 - [Does my Startup Data Team Need a Data Engineer](https://blog.fishtownanalytics.com/does-my-startup-data-team-need-a-data-engineer-b6f4d68d7da9)
-- [Data Science is different now](https://veekaybee.github.io/2019/02/13/data-science-is-different/) (Note: this is why GitLab doesn't have a Data Scientist yet.)
+- [Data Science is different now](https://vickiboykis.com/2019/02/13/data-science-is-different-now/) (Note: this is why GitLab doesn't have a Data Scientist yet.)
 - [Why You Don't Need Data Scientists](https://medium.com/@kurtcagle/why-you-dont-need-data-scientists-a9654cc9f0e4)
 - [Resources Written by dbt Community Members](https://discourse.getdbt.com/t/resources-written-by-community-members/276)
 - [Is your company too dumb to be data-driven?](https://towardsdatascience.com/is-your-company-too-dumb-to-be-data-driven-696932d597c3)
@@ -62,7 +53,6 @@ description: "GitLab Data Team Library"
 - [Data is Plural](https://tinyletter.com/data-is-plural)
 - [Data Science Roundup Newsletter](http://roundup.fishtownanalytics.com/)
 - [Data Science Weekly](https://www.datascienceweekly.org/)
-- [Lantrns Analytics (Product Analytics)](https://www.lantrns.co/product-analytics-newsletter/)
 - [Music and Tech](https://angelddaz.substack.com)
 - [Normcore Tech](https://vicki.substack.com)
 - [NumLock News](https://numlock.substack.com)
@@ -100,7 +90,7 @@ description: "GitLab Data Team Library"
 - [From Data to Viz](https://www.data-to-viz.com/)
 - [Gravy Anecdote](http://gravyanecdote.com/)
 - [JunkCharts](https://junkcharts.typepad.com/)
-- [Make a Powerful Point](http://makeapowerfulpoint.com/)
+- [Make a Powerful Point](https://makeapowerfulpoint.wordpress.com/)
 - [Makeover Monday](http://www.makeovermonday.co.uk)
 - [Perceptual Edge](https://perceptualedge.com/)
 - [PolicyViz](https://policyviz.com/)
@@ -124,7 +114,7 @@ description: "GitLab Data Team Library"
 - [Prefect](https://prefect-community.slack.com/join/shared_invite/enQtODQ3MTA2MjI4OTgyLTliYjEyYzljNTc2OThlMDE4YmViYzk3NDU4Y2EzMWZiODM0NmU3NjM0NjIyNWY0MGIxOGQzODMxNDMxYWYyOTE)
 - [PyCarolinas](https://pycarolinas.slack.com/join/shared_invite/enQtNjI4NTY0MzM5MDc5LWE2ZjI3YmFkNTAzOTM2NmYyMWUwMmYzZGFkYTY2ZjdkZWFmZDg0YzE0MjQzMzMzMzVhOWUwN2I3MTQwMTllMjY)
 - [R for Data Analysis](https://r-data-team.slack.com)
-- [Software Engineering Daily](http://softwaredaily.herokuapp.com)
+- [Software Engineering Daily](https://softwareengineeringdaily.com/)
 - [The Data School](https://thedataschool.slack.com)
 
 ## Technical Learning Resources

@@ -22,7 +22,7 @@ The alphabetically sorted starter list below spotlights a few of GitLab's many S
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `#company-fyi`                       | Official company announcements, restricted permission levels to ensure high-signal; all GitLab team members are automatically added to this channel.                                                      |
 | `#whats-happening-at-gitlab`         | Open to all team members for unofficial updates which are important and/or useful to **most or all** of GitLab, including reminders, events, project updates, etc.; all GitLab team members are automatically added to this channel. |
-| `#diversity_inclusion_and_belonging` | Stay up to date on GitLab’s latest [Diversity, Inclusion and Belonging](/handbook/company/culture/inclusion/) initiatives and share feedback and thoughts about how we can make our environment even more inclusive.                          |
+| `#diversity_inclusion_and_belonging` | Stay up to date on GitLab's latest [Diversity, Inclusion and Belonging](/handbook/company/culture/inclusion/) initiatives and share feedback and thoughts about how we can make our environment even more inclusive.                          |
 | `#expense-reporting-inquiries`       | For questions pertaining to [expenses](/handbook/finance/spending-company-money/) (e.g. Navan).                                                                                                                                          |
 | `#git-help`                          | Specific questions about using Git in the terminal.                                                                                                                                                                                  |
 | `#is-this-known`                     | Get help in finding existing issues for existing problems.                                                                                                                                                                           |
@@ -31,7 +31,6 @@ The alphabetically sorted starter list below spotlights a few of GitLab's many S
 | `#new_team_members`                  | For new GitLab team members to introduce themselves to the company and for existing team members to share updates with new hires.                                                                                                    |
 | `#new-vacancies`                  | For all GitLab team members to be aware of internal opportunities, as well as all job openings as they are listed. Please review the [referral process](/handbook/hiring/referral-process/) page to find out more about referring someone for a role.                                                                                                   |
 | `#payroll`                           | For questions pertaining to [payroll](/handbook/finance/payroll/) and [contractor invoices](/handbook/finance/payroll/#non-us) (e.g. ADP, etc.).                                                                                     |
-| `#people-connect`                         | For general People Ops questions (e.g. [onboarding](/handbook/people-group/general-onboarding/), [offboarding](/handbook/people-group/offboarding/), [team meetings](/handbook/company/culture/all-remote/meetings/), etc.). Also for anything related to compensation, benefits, or equity. You can also check out the Total Rewards [issue tracker](https://gitlab.com/gitlab-com/people-group/total-rewards/issues) and [handbook page](/handbook/total-rewards/)!                  |
 | `#safe`                            | SAFE                                                                                  |
 | `#security`                            | Security                                                                                  |
 | `#talent-acquisition`                | For questions about [referrals](/handbook/hiring/referral-process/), the [hiring process](/handbook/hiring/), and/or candidate status.                                                                                               |
@@ -45,7 +44,7 @@ There are a lot of general channels, just to name a few:
 
 - **[`#questions`](https://gitlab.slack.com/archives/questions)**: Ask all of GitLab for help with any question you have... and then go document it after you find the answer :)
 - **[`#thanks`](https://gitlab.slack.com/archives/thanks)**: Where GitLab team-members can [say thanks](/handbook/communication/#say-thanks) to those GitLab team-members who did a great job, helped a customer, or helped you! Also where managers recoginze discretionary bonuses for their teams.
-- **[`#office-today`](https://gitlab.slack.com/archives/office-today)**: GitLab is an [all-remote](/handbook/company/culture/all-remote/) organization. Where’s your office today?
+- **[`#office-today`](https://gitlab.slack.com/archives/office-today)**: GitLab is an [all-remote](/handbook/company/culture/all-remote/) organization. Where's your office today?
 - **[`#remote`](https://gitlab.slack.com/archives/travel)**: To share news, thoughts, feedback and anything else pertaining to remote work! Learn more about [GitLab's approach to remote work](/handbook/company/culture/all-remote/)
 - **[`#travel`](https://gitlab.slack.com/archives/travel)**: A place to discuss all things [travel](/handbook/company/culture/all-remote/people/#travelers)
 - **[`#women`](https://gitlab.slack.com/archives/travel)**: Employee resource group for members and allies.
@@ -167,7 +166,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_leipzig`](https://app.slack.com/client/T02592416/CS81KREG3) | NY Times list of places to visit in 2020: https://www.nytimes.com/interactive/2020/travel/places-to-visit.html?place=leipzig |
 | [`#loc_lille`](https://app.slack.com/client/T02592416/CTZ3U5AS1) |  |
 | [`#loc_london-uk`](https://app.slack.com/client/T02592416/C3CEJ4DEZ) | London meetups! |
-| [`#loc_manchester`](https://app.slack.com/client/T02592416/C03E9UXJXDF) | Channel for GitLab team members from Manchester (UK) and it’s surrounding areas |
+| [`#loc_manchester`](https://app.slack.com/client/T02592416/C03E9UXJXDF) | Channel for GitLab team members from Manchester (UK) and it's surrounding areas |
 | [`#loc_mars`](https://app.slack.com/client/T02592416/CSB2ZVA9F) | Being optimistic |
 | [`#loc_melbourne`](https://app.slack.com/client/T02592416/CBE1S2HMH) |  |
 | [`#loc_mexico`](https://app.slack.com/client/T02592416/CEPQ1GBRC) | For people living/visiting Mexico 🇲🇽  |
@@ -276,7 +275,7 @@ In addition to weekly company group calls that bring us together, GitLab has Soc
 - **[`#fitlab`](https://gitlab.slack.com/archives/fitlab)**: Channel to discuss fitness and related topics.
 - **[`#gaming`](https://gitlab.slack.com/archives/gaming)**: Discuss gaming (both tabletop and video). We also have a Discord linked in the topic.
 - **[`#i-made-this`](https://gitlab.slack.com/archives/i-made-this)**: Did you make a thing? Or are you in the process of making a thing? Whatever it is, tell us about it and post a photo!
-- **[`#office-today`](https://gitlab.slack.com/archives/office-today)**: Where’s your office today? Share a photo or use words to describe it.
+- **[`#office-today`](https://gitlab.slack.com/archives/office-today)**: Where's your office today? Share a photo or use words to describe it.
 - **[`#lego`](https://gitlab.slack.com/archives/lego)**: Build, inspire, play. Share your builds and invite your children.
 - **[`#lgbtq`](https://gitlab.slack.com/archives/lgbtq)**: Space for LGBTQ people and allies in GitLab to chat and support each other.
 - **[`#managers`](https://gitlab.slack.com/archives/managers)**: Share ideas, thoughts, and issues on all things to do with being a manager at GitLab.

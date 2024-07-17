@@ -1,14 +1,7 @@
 ---
-
 title: "Content Library"
 description: "The content library is where all your uploaded assets are stored and tagged in PathFactory."
 ---
-
-
-
-
-
-
 
 ## Content Library
 
@@ -16,7 +9,7 @@ The content library is where all your uploaded assets are stored and tagged in P
 
 ### Before uploading content
 
-1. Use the search to determine if it’s already been added. Be thorough, as the asset could also have a different URL. If you try to add a file or URL that's already in the library, the system will tell you it already exists. For example, uploading `https://about.gitlab.com/customers/extra-hop-networks/` and `https://about.gitlab.com/customers/extra-hop-networks` would be considered different URLs and both would be uploaded to the library (note the trailing `/`).
+1. Use the search to determine if it's already been added. Be thorough, as the asset could also have a different URL. If you try to add a file or URL that's already in the library, the system will tell you it already exists. For example, uploading `https://about.gitlab.com/customers/extra-hop-networks/` and `https://about.gitlab.com/customers/extra-hop-networks` would be considered different URLs and both would be uploaded to the library (note the trailing `/`).
 1. Ensure you have the most valuable version of the asset (blog post vs. case study or PDF).
 1. Ensure you have the most recent version of the asset.
 1. Follow the [blog style guide](/handbook/marketing/brand-and-product-marketing/content/editorial-team/).
@@ -76,7 +69,7 @@ Content owners understand how their content should be tagged. Marketing operatio
 
 ### Analyst reports
 
-Expiry dates will not automatically deactive content after expiration. You must manually deactivate the content if it’s past the expiry date. To expire an analyst report from PathFactory, [open an issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=campaigns-expire-analyst) in the Campaigns project using the `campaigns-expire-analyst` issue template.
+Expiry dates will not automatically deactive content after expiration. You must manually deactivate the content if it's past the expiry date. To expire an analyst report from PathFactory, [open an issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=campaigns-expire-analyst) in the Campaigns project using the `campaigns-expire-analyst` issue template.
 
 ### Vimeo links
 
@@ -181,7 +174,7 @@ Unsure what content topics align with your asset? Use the table below as a guide
 | Azure | Content that talks specifically about Microsoft Azure. Likely uses cases are tutorials on using GitLab + Azure cloud or competitive content. | [Competitive analysis page for Azure DevOps](https://about.gitlab.com/blog/2020/07/09/integrating-azure-devops-scm-and-gitlab/) |
 | Bitbucket | | |
 | Checkmarx | | |
-| Cloud native | Content that relates container-based environments. Specifically, technologies are used to develop applications built with services packaged in containers, deployed as microservices and managed on elastic infrastructure through agile DevOps processes and continuous delivery workflows. | [A Cloud Native Transformation](https://about.gitlab.com//webcast/cloud-native-transformation/) |
+| Cloud native | Content that relates container-based environments. Specifically, technologies are used to develop applications built with services packaged in containers, deployed as microservices and managed on elastic infrastructure through agile DevOps processes and continuous delivery workflows. | [A Cloud Native Transformation](https://about.gitlab.com/webcast/cloud-native-transformation/) |
 | Continuous delivery | Content that covers methods and tools for delivering or updating software in smaller increments, resulting in a better end-user experience. Both technical and strategic content may be found. | [Securing the journey to Continuous Delivery](https://about.gitlab.com/blog/2019/10/30/secure-journey-continuous-delivery/) |
 | Continuous integration |  |  |
 | DevOps | Content that relates to DevOps methods, process, culture, and tooling. [Keys to DevOps success with Gene Kim](https://www.youtube.com/watch?v=dbkj0qXQ22A) |  |

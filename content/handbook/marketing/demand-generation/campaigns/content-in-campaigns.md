@@ -1,16 +1,10 @@
 ---
-
 title: Content in Campaigns
 description: Everything you need to know about how we leverage content in marketing campaigns, including ungated content journeys and former gated landing page processes.
 twitter_image: /images/tweets/handbook-marketing.png
 twitter_site: '@gitlab'
 twitter_creator: '@gitlab'
 ---
-
-
-
-
-
 
 ## Overview
 
@@ -93,7 +87,7 @@ If you have any questions on this process, please contact `@aoetama` in the [#ma
 - `utm_asset_type=video`
 - `utm_budget=cmp`
 
-- :nerd: Read about our UTM strategy in [this handbook page](https://about.gitlab.com/handbook/marketing/utm-strategy/).
+- :nerd: Read about our UTM strategy in [this handbook page](/handbook/marketing/utm-strategy/).
 - :link: Build a link with UTMs through this [UTM builder googlesheet](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=2043976569).
 
 ## Pathfactory link: (add when live)

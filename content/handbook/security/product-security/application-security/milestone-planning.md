@@ -63,6 +63,19 @@ Any issue being worked on by an Application Security team member must include:
 - The appropriate `AppSecWorkflow::` label
 - The appropriate Milestone
 
+### Updating issues health
+
+DRIs are responsible for updating [the health of issues](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) they are working on:
+
+- `On track`: well, pretty easy to understand.
+- `Needs attention`: not yet at risk of missing the milestone, but requires attention. DRI should reach out to AppSec Managers to evaluate what can be adjusted to put it back `On track`.
+- `At risk`: will likely not be completed by the end of the milestone, and we will schedule it for the next milestone too.
+
+Updating the issue milestone is required:
+
+- At the middle of the milestone
+- Whenever the DRI knows he won't be able to finish it for the end of the milestone
+
 ### Workflow Labels
 
 | Label | Purpose |
@@ -118,3 +131,13 @@ Sometimes high-priority and/or urgent work comes up after a milestone starts. Wh
 ### Missed milestones
 
 Work planned for a milestone may not be fully finished due to time constraints or planned work being too ambitious. When this happens, attach the `missed::X.Y` label.
+
+### Backlog
+
+Isses that:
+
+- Have unfinished work
+- Are ideas from team members but not yet prioritized
+- Are not planned in any milestone
+
+Should have the milestone set to `AppSec Backlog`.

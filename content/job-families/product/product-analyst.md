@@ -4,13 +4,6 @@ description: "Product Analysts at GitLab have a unique opportunity to improve th
 through data-driven insights and recommendations"
 ---
 
-
-
-
-
-
-
-
 ## Role
 
 Product Analysts at GitLab are curious, highly strategic, and focused on making GitLab better
@@ -25,7 +18,7 @@ experience, advance data acumen across the company, and promote strategic decisi
 data storytelling.
 
 We work in a very unique way at GitLab, where flexibility and independence meet
-a high paced, pragmatic way of working. And everything we do is [in the open](https://about.gitlab.com/handbook/).
+a high paced, pragmatic way of working. And everything we do is [in the open](/handbook/).
 
 We recommend looking at our [about page](/handbook/company/) and at the
 [Product Data Insights handbook](/handbook/product/product-analysis) to get started.

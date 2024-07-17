@@ -32,9 +32,9 @@ To determine how to setup the project, the final question you need to ask
 yourself is "Does this enable support contributions?"
 
 - If it does enable support contributions, refer to
-  [Zendesk Global with contributions](./zendesk_global_with)
+  [Zendesk Global with contributions](zendesk_global_with)
 - If it does not enable support contributions, refer to
-  [Zendesk Global without contributions](./zendesk_global_without)
+  [Zendesk Global without contributions](zendesk_global_without)
 
 ### Is this related to Zendesk US Government?
 
@@ -42,9 +42,9 @@ To determine how to setup the project, the final question you need to ask
 yourself is "Does this enable support contributions?"
 
 - If it does enable support contributions, refer to
-  [Zendesk US Government with contributions](./zendesk_usgov_with)
+  [Zendesk US Government with contributions](zendesk_usgov_with)
 - If it does not enable support contributions, refer to
-  [Zendesk US Government without contributions](./zendesk_usgov_without)
+  [Zendesk US Government without contributions](zendesk_usgov_without)
 
 ## Is this a processor?
 
@@ -56,9 +56,9 @@ To determine how to setup the project, the final question you need to ask
 yourself is "Can all of Support Readiness manage this?"
 
 - If all of Support Readiness can manage it, refer to
-  [Processor (everyone)](./processor_all)
+  [Processor (everyone)](processor_all)
 - If only US citizens can manage it, refer to
-  [Processor (US only)](./processor_us_only)
+  [Processor (US only)](processor_us_only)
 
 ## Is this a form?
 
@@ -69,9 +69,9 @@ To determine how to setup the project, the final question you need to ask
 yourself is "Who is the form open to?"
 
 - If it is open to the public (i.e. anyone can file submissions), refer to
-  [Form (public)](./form_all)
+  [Form (public)](form_all)
 - If it is only for internal use only (i.e. only GitLab team members can file
-  submissions), refer to [Form (internal)](./form_private)
+  submissions), refer to [Form (internal)](form_private)
 
 ## Does this solely interact with Slack?
 
@@ -82,19 +82,19 @@ To determine how to setup the project, the final question you need to ask
 yourself is "Can all of Support Readiness manage this?"
 
 - If all of Support Readiness can manage it, refer to
-  [Slack (everyone)](./slack_all)
-- If only US citizens can manage it, refer to [Slack (US only)](./slack_us_only)
+  [Slack (everyone)](slack_all)
+- If only US citizens can manage it, refer to [Slack (US only)](slack_us_only)
 
 ## Is the project solely an issue tracker?
 
 If what you are doing has the primary purpose of acting as an issue tracker,
 this is the section you want to use.
 
-Refer to [Issue trackers](./issue_trackers).
+Refer to [Issue trackers](issue_trackers).
 
 ## Does nothing on this page fit your situation?
 
-If nothing above has matched, refer to [Everything else](./everything_else)
+If nothing above has matched, refer to [Everything else](everything_else)
 
 ## I like mermaid charts instead
 

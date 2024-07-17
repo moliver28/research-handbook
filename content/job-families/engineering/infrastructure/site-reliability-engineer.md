@@ -67,7 +67,7 @@ GitLab.com is a unique site and brings with it unique challenges: it is the larg
 #### Collaboration and Communication
 
 - Leading and contributing to scope and designs for issues, epics, and OKRs
-- Contributing to the [Handbook](https://about.gitlab.com/handbook/), create and update [runbooks](https://gitlab.com/gitlab-com/runbooks) and [general documentation](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs), and write [blog posts](https://about.gitlab.com/blog/categories/engineering/)
+- Contributing to the [Handbook](/handbook/), create and update [runbooks](https://gitlab.com/gitlab-com/runbooks) and [general documentation](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs), and write [blog posts](https://about.gitlab.com/blog/categories/engineering/)
 - Completing Root Cause Analysis (RCA) investigations and perform readiness reviews
 - Improving team practices through code reviews, handoffs of work and incidents
 
@@ -295,7 +295,7 @@ SRE's with Environment Automation specialization primarily focus on provisioning
 1. Responding to platform emergencies, alerts, and escalations from Customer Support.
 1. Ensure systems exist to manage software life-cycles (e.g. Operating Systems) with a minimum of manual effort.
 1. Develop a fully automated multi-environment observability stack based on the existing SaaS system, and extend it to predict capacity needs based on the usage patterns.
-1. Plan for new service roll-outs, expansion and capacity management of existing services, and work with users to optimise their resource consumption.
+1. Plan for new service roll-outs, expansion and capacity management of existing services, and work with users to optimize their resource consumption.
 
 ### Cloud Efficiency Engineering
 

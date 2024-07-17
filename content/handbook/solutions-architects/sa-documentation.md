@@ -1,9 +1,7 @@
 ---
-
 title: Solutions Architects GitLab Docs Section
 description: "Purpose and contribution process for the GitLab Solutions Documentation section."
 ---
-
 
 ## Purpose
 
@@ -36,7 +34,7 @@ While the solutions area is more flexible to account for solution oriented asset
 | ------------------------------------------------------------ | ------------------ | ------------------------------------------------------------ |
 | Solutions Indexes that point to solutions inside and outside of GitLab. | In Scope           |                                                              |
 | Cloud integration resources - where there may be many points of integrations authored by both companies. | In Scope           |                                                              |
-| Detailed step-by-step tutorials and working code examples that will be maintained. | Out of Scope       | Step-by-Step tutorials stored in a GitLab project, with a single line reference to it’s existence in Solutions documentation |
+| Detailed step-by-step tutorials and working code examples that will be maintained. | Out of Scope       | Step-by-Step tutorials stored in a GitLab project, with a single line reference to it's existence in Solutions documentation |
 | Working code or step-by-step tutorials that are meant to be a one-time contribution to the solution ecosystem. | Out of Scope       | Published as a blog - which carries the expectation that it was working when published, but will age with time. |
 |                                                              |                    |                                                              |
 

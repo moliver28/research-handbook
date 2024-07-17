@@ -49,7 +49,7 @@ In System Preferences, navigate to Keyboard settings and click "Customize Contro
 ### On your macOS menu bar
 
 1. Click on the Apple logo  menu
-1. Click “Lock Screen”
+1. Click "Lock Screen"
 
 Alternatively, you can use the keyboard shortcut `⌃+⌘+Q` (`ctrl+cmd+Q`).
 
@@ -78,7 +78,7 @@ With enabling [Raycast](/handbook/tools-and-tips/other-apps/#raycast) and e.g. r
 
 ## Keeping your Mac awake
 
-There are some great app-based solutions that will keep your Mac awake listed in the [macOS utilities](#macos-utilities) table below, but there’s also a really simple built-in way to do this:
+There are some great app-based solutions that will keep your Mac awake listed in the [macOS utilities](#macos-utilities) table below, but there's also a really simple built-in way to do this:
 
 ```shell
 > caffeinate -dis
@@ -178,9 +178,9 @@ Make sure to join the [#macOS](https://gitlab.slack.com/archives/CDKA4RCE7) Slac
 | System control | [Keeping You Awake (Free & Open Source)](https://github.com/newmarcel/KeepingYouAwake) | Prevents your macOS from entering sleep mode for a predefined duration or as long as it is activated |
 | System control | [Macs Fan Control](https://crystalidea.com/macs-fan-control) | Control fans on macOS computers |
 | System control | [ToothFairy](https://apps.apple.com/us/app/toothfairy/id1191449274) | If clicking on 2 things to connect your AirPods is too much, this makes it a single click |
-| System control | [Muzzle](https://muzzleapp.com/) | A simple macOS app to silence embarrassing notifications while screensharing |
+| System control | [Muzzle](https://muzzleapp.com/) | A simple macOS app to silence embarrassing notifications while screen sharing |
 | System control | [Choosy](https://www.choosyosx.com/) | Granular browser selection. Use Chrome for Google apps, Firefox for YouTube, or Zoom links without a browser redirect|
 | Window manager | [Rectangle](https://rectangleapp.com/) | Move and resize windows in macOS using keyboard shortcuts or snap areas (based on the no longer supported [Spectacle](https://www.spectacleapp.com/) |
-| Window manager | [Divvy](https://mizage.com/divvy/) | Allows you to quickly and efficiently “divvy up” your screen into exact portions and save arrangements to shortcuts and keybinds |
-| Window manager | [Magnet](https://magnet.crowdcafe.com/) | macOS doesn’t tile windows aside from full-screen split, for more options, use Magnet |
+| Window manager | [Divvy](https://mizage.com/divvy/) | Allows you to quickly and efficiently "divvy up" your screen into exact portions and save arrangements to shortcuts and keybinds |
+| Window manager | [Magnet](https://magnet.crowdcafe.com/) | macOS doesn't tile windows aside from full-screen split, for more options, use Magnet |
 | Window manager | [Moom](https://manytricks.com/moom/) | Moom makes window management as easy as clicking a mouse button—or using a keyboard shortcut, if you're one of those types of people. |

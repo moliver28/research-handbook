@@ -1,13 +1,7 @@
 ---
-
 title: Product Principles
 description: "These are core principles we believe world class product organizations exhibit. The goal is to build a PM system that fosters and honors these principles, in a way that works for GitLab."
 ---
-
-
-
-
-
 
 {{% include "includes/product-handbook-links.md" %}}
 
@@ -21,11 +15,11 @@ These are core principles we believe world class product organizations exhibit. 
     - Helpful resource: [Radical Candor](https://www.amazon.com/Radical-Candor-KIM-SCOTT/dp/1509845380/ref=sr_1_3?keywords=radical+candor&qid=1558392325&s=gateway&sr=8-3)
 1. **Always be learning.** Continuously invest in skill development, and have a growth mindset as individuals and as a team.
     - Helpful resource: [Peak](https://www.amazon.com/Peak-Secrets-New-Science-Expertise/dp/0544947223/ref=sr_1_3?keywords=peak&qid=1558392290&s=gateway&sr=8-3)
-1. **You’re not the customer.** Talk to them. It is tempting to assume that we understand our customers, but we are often wrong. We validate our assumptions through qualitative and quantitative customer input.
+1. **You're not the customer.** Talk to them. It is tempting to assume that we understand our customers, but we are often wrong. We validate our assumptions through qualitative and quantitative customer input.
     - Helpful resources: [Inspired](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/ref=sr_1_3?keywords=marty+cagan&qid=1558392207&s=gateway&sr=8-3). [Competing Against Luck](https://www.amazon.com/Competing-Against-Luck-Innovation-Customer/dp/0062435612/ref=sr_1_3?keywords=competing+against+luck&qid=1558392608&s=gateway&sr=8-3). [Get in the Van](https://firstround.com/review/the-power-of-interviewing-customers-the-right-way-from-twitters-ex-vp-product/).
 1. **Start with the problem, not the solution.** It is tempting to dive right into solutioning, but we are often wrong about the underlying problem. A well formed problem statement is the key to a successful project.
-    - Helpful resources: [Love the Problem Not Your Solution](https://blog.leanstack.com/love-the-problem-not-your-solution-65cfbfb1916b). [Great PM’s Don’t Spend Their Time on Solutions](https://www.intercom.com/blog/great-product-managers-dont-spend-time-on-solutions/).
-1. **Prioritize relentlessly.** It is better to do a few things well than many things poorly. We should focus first on what we’re best at and what our customers need most, with a preference for simplicity. Customers will tell us when we’re missing something they need, but they’re unlikely to tell us when we’re overwhelming them with unwanted features.
+    - Helpful resources: [Love the Problem Not Your Solution](https://www.leanfoundry.com/articles/love-the-problem-not-your-solution). [Great PM's Don't Spend Their Time on Solutions](https://www.intercom.com/blog/great-product-managers-dont-spend-time-on-solutions/).
+1. **Prioritize relentlessly.** It is better to do a few things well than many things poorly. We should focus first on what we're best at and what our customers need most, with a preference for simplicity. Customers will tell us when we're missing something they need, but they're unlikely to tell us when we're overwhelming them with unwanted features.
     - Helpful resources: [Essentialism](https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382/ref=sr_1_3?keywords=essentialism&qid=1558392393&s=gateway&sr=8-3). [RICE](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/).
 1. **Assume you are wrong.** Human intuition is often wrong. To fight this, have a hypothesis and try to invalidate it quickly.
     - Helpful resource: [Thinking, Fast & Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/ref=sr_1_3?crid=CT91NU8162ED&keywords=thinking%2C+fast+and+slow&qid=1558392435&s=gateway&sprefix=thinking%2C+fas%2Caps%2C169&sr=8-3)
@@ -85,7 +79,7 @@ whatever feedback tells us, however.)
 
 When considering how to scope a feature for a release, remember that it is ok to ship an "incomplete" feature to customers, assuming that it still offers value, is not broken, does not hurt usability, for UI changes (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)). When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
 
-MVC means reducing the scope so we can ship quickly. It doesn’t mean shipping something that hurts the usability of GitLab. First impressions are important. A feature that does not offer enough value or hinders the user experience may have a negative effect that discourages users from trying that feature again in the future. If there are obvious gaps in your MVC or you can anticipate follow-up requests, consider whether your feature is complete enough to be released to users. If you are unsure whether your feature is complete enough to be an MVC (or if you know your feature is not complete enough to be an MVC and you want to gather additional feedback), you can use approaches such as dogfooding, [beta programs](https://docs.gitlab.com/ee/policy/experiment-beta-support.html), feature flags, and/or user research to help build confidence in your decision. In terms of talking about your feature, it's ok to add a release post item that announces your incomplete feature (making clear that it is an early iteration, and points to the direction for the feature) and follow up in a later release post with a new item when you've completed more of the functionality. As long as you call it cookie dough, not a cookie, it manages user expectations.
+MVC means reducing the scope so we can ship quickly. It doesn't mean shipping something that hurts the usability of GitLab. First impressions are important. A feature that does not offer enough value or hinders the user experience may have a negative effect that discourages users from trying that feature again in the future. If there are obvious gaps in your MVC or you can anticipate follow-up requests, consider whether your feature is complete enough to be released to users. If you are unsure whether your feature is complete enough to be an MVC (or if you know your feature is not complete enough to be an MVC and you want to gather additional feedback), you can use approaches such as dogfooding, [beta programs](https://docs.gitlab.com/ee/policy/experiment-beta-support.html), feature flags, and/or user research to help build confidence in your decision. In terms of talking about your feature, it's ok to add a release post item that announces your incomplete feature (making clear that it is an early iteration, and points to the direction for the feature) and follow up in a later release post with a new item when you've completed more of the functionality. As long as you call it cookie dough, not a cookie, it manages user expectations.
 
 Examples:
 
@@ -104,7 +98,7 @@ Here is a [great video](https://www.youtube.com/watch?v=MwHHErfX9hI) that illust
 
 #### Subtractive thinking
 
-Humans tend to [favor solutions that add features than solutions that remove them, even when removing features is more efficient](https://www.nature.com/articles/d41586-021-00592-0) - great PMs recognize this bias and utilize subtractive thinking to create great user experiences. Customers will tell us when we’re missing something they need, but they’re unlikely to explicitly tell us when we’re overwhelming them with unwanted features. However, we do have evidence that this challenge is already a consideration for us, as reflected consistently in our [System Usability Scale verbatims](/handbook/product/ux/performance-indicators/system-usability-scale/). Here is [an episode on the Hidden Brain podcast](https://hiddenbrain.org/podcast/do-less/) that explores this bias further.
+Humans tend to [favor solutions that add features than solutions that remove them, even when removing features is more efficient](https://www.nature.com/articles/d41586-021-00592-0) - great PMs recognize this bias and utilize subtractive thinking to create great user experiences. Customers will tell us when we're missing something they need, but they're unlikely to explicitly tell us when we're overwhelming them with unwanted features. However, we do have evidence that this challenge is already a consideration for us, as reflected consistently in our [System Usability Scale verbatims](/handbook/product/ux/performance-indicators/system-usability-scale/). Here is [an episode on the Hidden Brain podcast](https://hiddenbrain.org/podcast/do-less/) that explores this bias further.
 
 #### SaaS First
 
@@ -160,7 +154,7 @@ since they may have important user perspectives around your categories.
 
 We have achieved many successes following this approach:
 
-- [Code Quality](https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html) in CI/CD pipelines by embedding [CodeClimate](https://codeclimate.com/)
+- [Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html) in CI/CD pipelines by embedding [CodeClimate](https://codeclimate.com/)
 - [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html) by using the [Unleash](https://github.com/Unleash/unleash) client library
 - [Mobile publishing](https://about.gitlab.com/blog/2019/03/06/ios-publishing-with-gitlab-and-fastlane/) by writing about how to utilize [FastLane](https://fastlane.tools/) with GitLab
 
@@ -206,7 +200,7 @@ in a certain way. A very concrete example of this is the ability to disable pipe
 
 #### Always Allow for Deploying to Production
 
-Sometimes fast deployments are needed to fix a service or application outage that can cost a business money and reputation, we understand time is of the essence in these situations. That’s why we believe giving the team control over this is important in crucial moments of the development lifecycle. Controls that prevent changes from reaching Production are okay as safeguards, but they should be able to be quickly removed or disabled if necessary. When controls are changed in this way, logs or records should be created to support post-mortem analysis and allow for understanding why the control needed to be removed or disabled.
+Sometimes fast deployments are needed to fix a service or application outage that can cost a business money and reputation, we understand time is of the essence in these situations. That's why we believe giving the team control over this is important in crucial moments of the development lifecycle. Controls that prevent changes from reaching Production are okay as safeguards, but they should be able to be quickly removed or disabled if necessary. When controls are changed in this way, logs or records should be created to support post-mortem analysis and allow for understanding why the control needed to be removed or disabled.
 <figure class="video_container"><iframe src="https://www.youtube.com/embed/03ODv1cEO6E"></iframe></figure>
 
 #### Parity between SaaS and Self-managed deployments
@@ -226,8 +220,8 @@ Our [simplicity](/handbook/product/product-principles/#simplicity) and [SaaS/Sel
 - When we need to add capabilities that an admin needs to apply across the entire organization, then we provide them at the organization level.
 - When we need to add capabilities that need to apply across all projects in a group, but not applicable to all groups in an organization, then we provide them at a group level.
 - When we need to add capabilities that need to apply across a specific project, but not all projects in a group, then we provide them at a project level.
-- For capabilities our users want applied to a set of groups, it is tempting to create another aggregation concept for a “set of groups”. We do not consider that until it is available both at the project and group level for a few months. The solution is to implement it for all groups at the organization level or for each group in the set individually.
-- For capabilities our users want applied to a set of projects, it is tempting to create another aggregation concept for a “set of projects”. We do not consider that until it is available both at the project and group level for a few months. The solution is to implement it for all projects at the group level or for each project in the set individually.
+- For capabilities our users want applied to a set of groups, it is tempting to create another aggregation concept for a "set of groups". We do not consider that until it is available both at the project and group level for a few months. The solution is to implement it for all groups at the organization level or for each group in the set individually.
+- For capabilities our users want applied to a set of projects, it is tempting to create another aggregation concept for a "set of projects". We do not consider that until it is available both at the project and group level for a few months. The solution is to implement it for all projects at the group level or for each project in the set individually.
 
 Note: This implies that we will take pains to avoid instance-level features as we expect to move all capabilities from instance to organization over time.
 
@@ -342,15 +336,15 @@ As the GitLab userbase and team members who work on GitLab continue to grow we n
 #### Clarifiying out what a PQL is not
 
 - A PQL is not a user that has only signed up for the product, they have not achieved a qualified status.
-- A PQL is not a trial, a trial is a separate user adoption path. It’s important to note that a user could start a trial and then become a PQL or vice versa.
+- A PQL is not a trial, a trial is a separate user adoption path. It's important to note that a user could start a trial and then become a PQL or vice versa.
 
 #### The future vision of PQLs within the GitLab product
 
 Our goal is to develop a world-class PQL system whereby we monitor product usage to understand and constantly iterate on what constitutes a usage-based PQL and provide a unified intelligent interface in the product where users can submit a hand-raise, start a trial or upgrade touchlessly.
 
-By monitoring product usage, usage PQL volume, SAO rate, and ASP we will be able to work in partnership with marketing and sales to ensure we’re sending high quality leads to the sales team.
+By monitoring product usage, usage PQL volume, SAO rate, and ASP we will be able to work in partnership with marketing and sales to ensure we're sending high quality leads to the sales team.
 
-In the product experience, we will develop an intelligent module for feature discovery moments whereby we help recommend what we believe should be the preferred option for the user whether it’s a hand-raise, trial or touchless upgrade by updating the default CTA based on their usage of the product along with demographic and firmographic data. This experience will be present on both SaaS and self-managed instances for air-gapped instances the CTAs will provide the user with external URLs to visit to complete the associated step. This experience should be able to be deployed by any stage to further their paid adoption rate.
+In the product experience, we will develop an intelligent module for feature discovery moments whereby we help recommend what we believe should be the preferred option for the user whether it's a hand-raise, trial or touchless upgrade by updating the default CTA based on their usage of the product along with demographic and firmographic data. This experience will be present on both SaaS and self-managed instances for air-gapped instances the CTAs will provide the user with external URLs to visit to complete the associated step. This experience should be able to be deployed by any stage to further their paid adoption rate.
 
 ### Drive Product Usage
 
@@ -452,7 +446,7 @@ additional analytics tools. If we do this, we can help make the rest of the
 company successful as well. This means that we should:
 
 - Build and use tools that work for both GitLab.com and self-managed.
-- Start from a question, and build / collect what we need to answer that question. This avoids wasting time with data we don’t need.
+- Start from a question, and build / collect what we need to answer that question. This avoids wasting time with data we don't need.
 - Use and improve existing tools we have inside of GitLab before leaning towards off-the-shelf products.
 - Our customers, sales team and customer success teams all benefit greatly from similar insights into their usage as the product team does. Make things that help all of these people.
 
@@ -659,7 +653,7 @@ For more guidance on the feature naming process, see [naming features](/handbook
 ### Next Generation
 
 While our [big, hairy, audacious goal](https://www.jimcollins.com/concepts/bhag.html) spans all development processes, personas, and use-cases, there are primary targets in each one of these venues.
-When considering prioritization we should first aim to provide complete [maturity](https://about.gitlab.com/direction/maturity/) for developers building cloud native applications in a modern way prior to moving to other development methodologies, personas, and application types.
+When considering prioritization we should first aim to provide complete [maturity](https://about.gitlab.com/direction/#maturity) for developers building cloud native applications in a modern way prior to moving to other development methodologies, personas, and application types.
 
 #### Modern first
 

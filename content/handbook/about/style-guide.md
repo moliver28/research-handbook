@@ -28,7 +28,7 @@ Handbook content currently uses both `Title Case` and `Sentence case` for titles
 
 ### Capitalize brand names
 
-Brand names such as "Apple" and "Slack" are proper nouns, so they should be capitalized, unless a brand name uses unusual capitalization, as in "eBay" and "VMware". If that is the case, then follow the brand's convention.
+Brand names such as "Apple" and "Slack" are proper nouns, so they should be capitalized, unless a brand name uses unusual capitalization, as in "eBay" and "VMWare". If that is the case, then follow the brand's convention.
 
 ### Use kebab case for file and directory names
 
@@ -63,7 +63,7 @@ Files and directories should *never* be given names that differ from the names o
 
 ### Understanding absolute and relative URLs
 
-When you’re adding or editing links in the Handbook (or really, *anywhere* on the marketing site) please keep in mind that root-relative URLs are preferable for our same-site links.
+When you're adding or editing links in the Handbook (or really, *anywhere* on the marketing site) please keep in mind that root-relative URLs are preferable for our same-site links.
 
 Absolute URLs are the ones that look like this:
 

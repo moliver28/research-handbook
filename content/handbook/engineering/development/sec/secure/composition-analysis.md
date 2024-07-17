@@ -55,7 +55,7 @@ To share your time-off:
 
 1. In Slack, find the `Time Off by Deel` application under the `Apps` menu.
 1. Under `Home`, click on `Your Events` to show a dropdown.
-1. Click on ‘Calendar Sync’ under the Settings break.
+1. Click on 'Calendar Sync' under the Settings break.
 1. Click `Add calendar` under `Additional calendars to include?`. Use the calendar ID above.
 
 To visualize the calendar:
@@ -257,7 +257,7 @@ that have impacted composition analysis in the future.
     ```text
     <!--
     Select one of the following severities
-    Ref: https://about.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity
+    Ref: https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity
     -->
     /label ~"severity::1"
     /severity S1
@@ -273,7 +273,7 @@ that have impacted composition analysis in the future.
 
     <!--
     Select one of the following priorities
-    Ref: https://about.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority
+    Ref: https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority
     -->
     /label ~"priority::1"
     /label ~"priority::2"
@@ -301,9 +301,9 @@ detection, resolution, and any other events that you feel are worth highlighting
 
 ### Maintenance triaging process
 
-To help our Product Manager prioritize maintenance issues, the engineering team assigns them a [priority label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority).
+To help our Engineering Manager prioritize maintenance issues, the engineering team assigns them a [priority label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority).
 
-1. Leverage the [Maintenance issues board](https://gitlab.com/groups/gitlab-org/-/boards/2168528?label_name[]=group%3A%3Acomposition%20analysis&label_name[]=type%3A%3Amaintenance).
+1. Leverage the [Maintenance issues board](https://gitlab.com/groups/gitlab-org/-/boards/7658725?label_name[]=group%3A%3Acomposition%20analysis&label_name[]=type%3A%3Amaintenance).
 1. For each open issue that has no Priority label ("Open" column), shortly investigate the issue (< 1h) and comment with your findings. Make sure the correct sub-category label is applied per our [Work type clasification](/handbook/engineering/metrics/#work-type-classification) (e.g. `~maintenance::refactor`).
 
 ### Code review
@@ -373,7 +373,7 @@ The vulnerabilities reported on the currently used version of the scanner are au
 #### Setting up a mirror
 
 1. create a new project in https://gitlab.com/gitlab-org/security-products/dependencies (blank project).
-2. set up the project repository as [a pull mirror](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html#pulling-from-a-remote-repository) of the upstream repository.
+2. set up the project repository as [a pull mirror](https://docs.gitlab.com/ee/user/project/repository/mirror/#pulling-from-a-remote-repository) of the upstream repository.
 3. find the git tag that matches the version currently used by our analyzer (usually represented by the `SCANNER_VERSION` variable in the analyzer's `Dockerfile`). Use exact commit if there is no git tag for the corresponding release we use.
 4. create a branch from that ref following naming convention `VERSION-security-checks` where `VERSION` is the version of the upstream scanner we currently use (e.g. `v6.12.0`).
 5. add a `.gitlab-ci.yml` configuration file to configure all compatible security scans.
@@ -383,6 +383,15 @@ The vulnerabilities reported on the currently used version of the scanner are au
 
 We check for new releases of the upstream scanners on a monthly basis, as part of our [release issue](https://gitlab.com/gitlab-org/security-products/release/-/blob/master/scripts/templates/release_issue.md.erb). When an update is available, a new issue is created using the [update scanner issue template](https://gitlab.com/gitlab-org/security-products/release/-/blob/master/scripts/templates/update_scanner_issue.md.erb) and added to the next milestone.
 
+##### Upstream Tools and Analyzers list
+
+1. [Trivy](https://gitlab.com/gitlab-org/security-products/dependencies/trivy).
+   1. [Container Scanning](https://gitlab.com/gitlab-org/security-products/analyzers/container-scanning/-/blob/master/doc/howto/update-scanners.md)
+   1. [Trivy K8S wrapper](https://gitlab.com/gitlab-org/security-products/analyzers/trivy-k8s-wrapper/-/blob/main/docs/update_scanner.md)
+1. [OpenTofu](https://opentofu.org/)
+   1. [Deployment](https://gitlab.com/gitlab-org/security-products/license-db/deployment)
+1. [OpenTofu component](https://gitlab.com/components/opentofu)
+   1. [Deployment](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/.gitlab-ci.yml#L5)
 Every analyzer relying on an upstream scanner has a "*How to update the upstream Scanner*" section in their readme detailing the process. This includes a verification for possible new security vulnerabilities and a license check which are detailed below.
 
 ##### Security checks when updating an upstream scanner

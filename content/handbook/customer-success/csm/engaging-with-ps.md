@@ -1,15 +1,7 @@
 ---
-
 title: "Engaging with Professional Services"
 description: "Guidelines for CSMs on how best to engage with professional services."
 ---
-
-
-
-
-
-
-
 
 ### CSM Guidelines - Engaging with PS on a customer project
 

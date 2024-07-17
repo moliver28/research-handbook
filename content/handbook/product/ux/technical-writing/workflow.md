@@ -86,7 +86,7 @@ otherwise agreed with the Product Manager and Technical Writer:
 
 - Use the [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html),
   and other resources linked from there, including:
-  - Documentation [Structure and template](https://docs.gitlab.com/ee/development/documentation/structure.html) page.
+  - Documentation [Structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html) page.
   - [Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
   - [Markdown Guide](https://docs.gitlab.com/ee/user/markdown.html).
 - Contact the Technical Writer for the relevant
@@ -129,7 +129,7 @@ must:
 - Ensure the issue contains:
   - Any new or updated feature name.
   - Overview, description, and use cases when applicable (as required by the
-    [documentation structure and template](https://docs.gitlab.com/ee/development/documentation/structure.html).
+    [documentation structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html).
 
 Everyone is encouraged to draft the documentation requirements in the issue.
 However, a Product Manager will:
@@ -453,7 +453,7 @@ To review and triage documentation feedback and improvement issues for your grou
 ## Stage leads (experiment)
 
 {{% alert title="Note" color="primary" %}}
-This section outlines a process that we have not yet used or implemented in the Technical Writing team. We plan to experiment with stage leads in Q1 and Q2 of 2024. This process is subject to change.
+This section outlines a process that we are implementing in the Technical Writing team. We plan to experiment with stage leads in Q1, Q2, and Q3 of FY2025. This process is subject to change.
 {{% /alert %}}
 
 Some Technical Writers are assigned as *stage leads* for a given DevOps stage.
@@ -562,6 +562,7 @@ After adding the `Technical Writing` label, we want to classify the type of effo
 - [`Technical Writing Leadership`](https://gitlab.com/gitlab-org/gitlab/-/labels?subscribed=&search=tech+writing+leadership)
 - [`docs-channel`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&search=docs-channel) - Technical Writers use this label if they pick up an MR or issue from the `#docs` or `#tw-team` Slack channels, or from the roulette, *and* it's outside of their assigned groups. Usage of this label is *optional*.
 - [`docs-localization`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=docs-localization#) - Localization issue, MR, or epic that impacts the workflows of the Technical Writing team or the docs.gitlab.com site and infrastructure. Can be used in combination with `Technical Writing` to show Tech Writing team input into a `docs-localization` item.
+- [`Category:Docs Site`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=Category%3ADocs+Site) - Issues related to the Documentation website infrastructure or code. This is not needed for issues related to the documentation itself. Issues with this label are included on the [Docs Workflow issue board](https://gitlab.com/groups/gitlab-org/-/boards/4340643?label_name[]=Category%3ADocs%20Site).
 
 Depending on the issue or merge request, you may include one or more of the preceding labels with the issue or merge request, depending on its contents. There may be occasions when *none* of the preceding labels apply to the issue or merge request; in that case, having only the `Technical Writing` label is enough.
 

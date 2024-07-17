@@ -21,22 +21,22 @@ Welcome to Accounts Payable, commonly referred to as AP. You should be able to f
 - Invoice Entity and Invoice Currency should be matched to the PO Entity and PO Currency.
 - Ensure to indicate the PO number in the invoice copy. For Non-PO invoice, provide the related department to be charged.
 - Vendors are highly encouraged to directly upload their invoices and match it to their PO using the Coupa Supplier Portal- in the event the vendor is unable to submit invoices via Coupa then they can email PDF copies to ap@gitlab.com.
-- Payment Runs are completed on Thursdays. Invoices that are selected for payment on Thursday must be fully approved and vendors successfully on-boarded by end of day Tuesday of that week to be included in Thursday’s payment run. The payments go out in the following days and may take 1-5 business days to reach the vendor’s bank. This depends on the country, currency and the method of payment chosen.
-- Invoices are paid strictly by the invoice due dates. Any **“Urgent Payment”** requests will be paid in the next available payment run as long as they have been fully approved and the vendor has been successfully on-boarded. **AP cannot accommodate same day payment requests**.
+- Payment Runs are completed on Thursdays. Invoices that are selected for payment on Thursday must be fully approved and vendors successfully on-boarded by end of day Tuesday of that week to be included in Thursday's payment run. The payments go out in the following days and may take 1-5 business days to reach the vendor's bank. This depends on the country, currency and the method of payment chosen.
+- Invoices are paid strictly by the invoice due dates. Any **"Urgent Payment"** requests will be paid in the next available payment run as long as they have been fully approved and the vendor has been successfully on-boarded. **AP cannot accommodate same day payment requests**.
 - Suppliers are to be paid via CoupaPay, ACH or Wire only. AP does not issue check payments.
 - The cutoff for customer refund payments is the 25th of each month. Any customer refund requests received after the 25th will be paid the following month.
 
 ## <i class="fas fa-file-invoice"></i> Accounts Payable Processing
 
-1. Vendor Invoices - These invoices are processed in Coupa either PO Backed or Non PO backed. Vendors must be set up or onboarded in Coupa and invoices must contain all required information like Invoice Number, Invoice Date, Payment Terms, PO Number, Invoice Amount, Currency, and Service Dates/Period to proceed with processing. Quotations, Order Forms, Agreements, Contracts are not valid for invoice processing, only “Invoice” is allowed.
+1. Vendor Invoices - These invoices are processed in Coupa either PO Backed or Non PO backed. Vendors must be set up or onboarded in Coupa and invoices must contain all required information like Invoice Number, Invoice Date, Payment Terms, PO Number, Invoice Amount, Currency, and Service Dates/Period to proceed with processing. Quotations, Order Forms, Agreements, Contracts are not valid for invoice processing, only "Invoice" is allowed.
     - If the invoice doesn't fall under the PO Exception Policy, please ensure the invoice has a corresponding PO before sending it to the AP Team for processing.
     - For PO Backed invoices, kindly ensure that the PO is already approved to proceed with processing and do not attach the invoice in the PO as AP Team will not be able to check/monitor that section.
     - Kindly ensure that the PO has enough balance to process the invoice. Do not provide a PO number that has been fully matched or already closed to the vendor as it may create confusion on both sides.
     - If you need to do a PO Change Request (e.g. to add funds in your current PO), please refer to this [video tutorial](https://www.loom.com/share/c932bc6308fd46939766dee333ca8401) from Procurement Team.
-    - Vendors can process their invoice in their Coupa Supplier Portal using the PO Flip method. On this [link](https://compass.coupa.com/en-us/products/product-documentation/supplier-resources/for-suppliers/coupa-supplier-portal/set-up-the-csp/invoices/create-or-edit-an-invoice) please find **“Create an invoice from a PO”** for the video tutorial.
+    - Vendors can process their invoice in their Coupa Supplier Portal using the PO Flip method. On this [link](https://compass.coupa.com/en-us/products/product-documentation/supplier-resources/for-suppliers/coupa-supplier-portal/set-up-the-csp/invoices/create-or-edit-an-invoice) please find **"Create an invoice from a PO"** for the video tutorial.
     - Vendors can also send their invoices to AP@gitlab.com. PO numbers are required to be reflected on the invoice copy or in the email body to avoid delays in processing.
-    - For Non-PO invoices sent by Gitlab DRI, please indicate the department to be charged instead and the Coupa approver.
-    - If the invoice is received without a PO, the AP Team will reach out to the Gitlab DRI and request to create a PO. Once the PO is created, DRI must email the AP Team for the PO number to proceed with processing.
+    - For Non-PO invoices sent by GitLab DRI, please indicate the department to be charged instead and the Coupa approver.
+    - If the invoice is received without a PO, the AP Team will reach out to the GitLab DRI and request to create a PO. Once the PO is created, DRI must email the AP Team for the PO number to proceed with processing.
     - External Supplier Forms are to be final approved by AP Team so that the vendor will be activated in Coupa, to provide our final approval, the vendor must comply with these two important documents so we can properly check the supplier form in our queue.
         - W9 for US vendors and W8 for NON US vendors
         - Bank details in a signed bank letterhead
@@ -79,7 +79,7 @@ Welcome to Accounts Payable, commonly referred to as AP. You should be able to f
 
 ## <i aria-hidden="true" style="color:rgb(252,109,38); font-size:.85em" class="fas fa-receipt"></i> Coupa Virtual Card
 
-GitLab’s preferred method of payment for suppliers is electronic funds transfer with supplier invoice provided as supporting documentation. In the instances where this option is not available with the supplier, [Virtual Card](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/), which is a temporary credit card, can be used as an alternative payment method.
+GitLab's preferred method of payment for suppliers is electronic funds transfer with supplier invoice provided as supporting documentation. In the instances where this option is not available with the supplier, [Virtual Card](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/), which is a temporary credit card, can be used as an alternative payment method.
 
 ## <i aria-hidden="true" style="color:rgb(252,109,38); font-size:.85em" class="fab fa-gitlab fa-fw"></i> Fedex
 
@@ -90,7 +90,7 @@ GitLab’s preferred method of payment for suppliers is electronic funds transfe
 
 ## <i aria-hidden="true" style="color:rgb(252,109,38); font-size:.85em" class="fab fa-gitlab fa-fw"></i> Global Travel and Expense
 
-- Please review the page on [Spending Company Money](/handbook/finance/spending-company-money/) to ensure that your spend is within GitLab’s [Expense policy](/handbook/finance/expenses/).
+- Please review the page on [Spending Company Money](/handbook/finance/spending-company-money/) to ensure that your spend is within GitLab's [Expense policy](/handbook/finance/expenses/).
 - GitLab utilizes **Navan Travel** for all travel related Flights, Hotels, Train Travel and Vehicle Rental bookings and **Navan Expense** for all Employee reimbursable expenses.
 - It also includes the preparation for **Navan Purchase Card** and **Physical Cards**.
 - [Navan Purchase Card](/handbook/finance/expenses/#6-purchase-cards) - These are virtual cards only utilized by the AP team, and they are used solely for providing new Team Members with a $1,500 USD (or local currency equivalent) stipend for their home office set up upon onboarding.

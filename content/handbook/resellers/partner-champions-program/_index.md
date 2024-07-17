@@ -31,9 +31,9 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 ## Why to become a GitLab Partner Champion?
 
-**- Sales Opportunities:** Get promoted within the GitLab Field Sales organization as a GitLab SME for your organization possibly generating sales leads and new oppty’s.
+**- Sales Opportunities:** Get promoted within the GitLab Field Sales organization as a GitLab SME for your organization possibly generating sales leads and new oppty's.
 
-**- Exclusive Access:** Gain exclusive access via GitLab Beta Program when launched, Partner SA exclusive roadmap updates, and access to GitLab’s internal Stack Overflow instance.
+**- Exclusive Access:** Gain exclusive access via GitLab Beta Program when launched, Partner SA exclusive roadmap updates, and access to GitLab's internal Stack Overflow instance.
 
 **- Community Influence:** Have the opportunity to influence GitLab's product development by providing feedback and insights to GitLab Product Managers invited to Champions calls.
 
@@ -47,7 +47,7 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 ## Who is the Right Candidate for the Program?
 
-**- Adhere to GitLab Values:** Aspire to GitLab [mission](https://about.gitlab.com/company/mission/#mission), uphold our [values](https://about.gitlab.com/handbook/values/), and adhere to our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
+**- Adhere to GitLab Values:** Aspire to GitLab [mission](https://about.gitlab.com/company/mission/#mission), uphold our [values](/handbook/values/), and adhere to our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
 
 **- Passion for GitLab:** Genuine passion for GitLab and a desire to drive practice building within the partner organization.
 

@@ -5,7 +5,7 @@ description: "This page discusses the Internal Hiring Process"
 
 ## Team Member Responsibilities
 
-- Meet with your current manager to discuss the internal opportunity you’d like to pursue prior to submitting your application.
+- Meet with your current manager to discuss the internal opportunity you'd like to pursue prior to submitting your application.
 - Ensure you have met your department specific eligibility requirements:
   - Guidelines for performance eligibility:
     - Team members who are assessed at a Performing or Exceeding Performance level during Talent Assessment are eligible to be considered for another role
@@ -33,21 +33,21 @@ description: "This page discusses the Internal Hiring Process"
   - Review the application as you would with an external candidate and determine if they are qualified for the role. If they are not qualified, please ensure you communicate the decision via email (or slack) and provide clear feedback as to why they are not qualified, and add the hiring manager so they are looped in and can add additional feedback if appropriate.
   - Ensure the internal team members GitLab email is associated with their application. If it is not, then update it as such and notify the team member of the change in email address to ensure all the communication throughout the interview process is directed here.
   - If the internal candidate is considered qualified for the role, reach out to People Connect by submitting a request via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=2e8c3f81478c069067429ee0026d4380).
-    - If they have additional questions, they may reach out to the team member’s current PBP.
+    - If they have additional questions, they may reach out to the team member's current PBP.
 - For promotions through the internal mobility process (upward movement from one job grade to another), tag the department specific People Business Partner in the notes section of Greenhouse to ensure they are aligned before moving forward with the offer. Additionally, confirm that the offer has been approved by the skip-level leader of the new role.
 - Once the Recruiter has confirmed the eligibility status with People Connect, if eligibile, the Recruiter will reach out to the team member to introduce themselves and set expectations around the internal hiring process (which includes ensuring they have notified their current manager). If a team member is not eligible, the Recruiter will send the appropriate decline email template.
 - Recruiter will then continue the process as described in the [Talent Acquisition Process Framework]({{< ref "talent-acquisition-framework" >}}) for all candidates. Recruiter will use identified templates in Greenhouse to communicate with candidates, current managers and hiring managers throughout the internal hiring process.
-- Once it is confirmed that the internal candidate is moving to the offer stage, the Recruiter will connect the team member’s current manager and potential new manager via Slack to:
+- Once it is confirmed that the internal candidate is moving to the offer stage, the Recruiter will connect the team member's current manager and potential new manager via Slack to:
   - Give formal notice that an offer is being created for the team member.
-  - Facilitate a discussion around a transition date that works for both parties. Please note that TA’s involvement is to facilitate this conversation and is not the decision maker. Ultimately, a transition date is something that should be agreed upon between a current manager and hiring manager. A finalized start date will be needed as TA submits an offer for approvals.
+  - Facilitate a discussion around a transition date that works for both parties. Please note that TA's involvement is to facilitate this conversation and is not the decision maker. Ultimately, a transition date is something that should be agreed upon between a current manager and hiring manager. A finalized start date will be needed as TA submits an offer for approvals.
   - Some suggestions for transition timelines include:
     - Aiming for between 4-6 weeks for an official transition date to ensure the team with the backfill has lead time on filling the position
     - A one month 50/50 split between teams to ease into a full time transition. For any moves from Sales Development, please be aware the team requests a 45 day transition period from the date of a verbal offer
 - Please note the following about this process:
   - TA will only start an official backfill process once the internal candidate signs their job change letter.
   - Internal team members should be alerting and receiving support from their current managers prior to formally applying to open roles. Offers at the end of an internal interview process should not come as a surprise to current managers.
-  - TA will not discuss any compensation changes with the team member’s current manager.
-  - TA will not provide updates on interview feedback or progress to a team member’s current manager. This should be discussed between managers and team members during 1:1s.
+  - TA will not discuss any compensation changes with the team member's current manager.
+  - TA will not provide updates on interview feedback or progress to a team member's current manager. This should be discussed between managers and team members during 1:1s.
 
 ### Template for the Recruiter's slack message
 
@@ -56,17 +56,17 @@ Hi XX and XX,
 As you are both aware, XXX has been interviewing for the XXX role and the team is ready to move forward with an offer! I wanted to connect you both as their  current and future managers to cover a few items as we start the offer process:
 
 - What transition date works best for the both of you? The GitLab standard recommendation is between 4-6 weeks (OR 45 days for Sales Development). Please see our handbook page [here](/handbook/people-group/promotions-transfers/#internal-transfer-start-date) for some suggestions on transition timelines.
-- Please discuss any outstanding items that may require XX to stay in their current role longer than 6 weeks as we want to ensure they’ll be able to have a smooth transition between roles.
-- I’d recommend connecting live if you can, but if not, async works and we can use this channel. If you do connect live, please  confirm with me once you’ve done so and agreed on a start date. Once I have that information, I will proceed with the formal offer approvals.  Once they accept the offer (and sign the Job Change Letter), we will be able to move forward with their backfill process. Thanks!
+- Please discuss any outstanding items that may require XX to stay in their current role longer than 6 weeks as we want to ensure they'll be able to have a smooth transition between roles.
+- I'd recommend connecting live if you can, but if not, async works and we can use this channel. If you do connect live, please  confirm with me once you've done so and agreed on a start date. Once I have that information, I will proceed with the formal offer approvals.  Once they accept the offer (and sign the Job Change Letter), we will be able to move forward with their backfill process. Thanks!
 
-- If the hiring team would like to move forward with an offer, the Recruiter will align with People Connect on the team member’s current compensation. The Recruiter will
-  - Reach out to People Connect by submitting a request via HelpLab. In your request details please include that you the candidate has been selected to move forward and that you require their current compensation details. People Connect will only confirm the salary details and any confirmation on equity would need to be verified by the Total Rewards team separately.
-  - Within 48 hours, People-connect will respond and provide annual base compensation details to the Recruiter to utilize for the offer (in partnership with the hiring manager).
+- If the hiring team would like to move forward with an offer, the Recruiter will align with People Connect on the team member's current compensation. The Recruiter will
+  - Reach out to People Connect by submitting a request through HelpLab using the [Internal Movement](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=7b2f4b8d4748069067429ee0026d435f) case template. In your request details please include that you the candidate has been selected to move forward and that you require their current compensation details. People Connect will only confirm the salary details and any confirmation on equity would need to be verified by the Total Rewards team separately.
+  - Within 48 hours, the People Connect team will respond and provide annual base compensation details to the Recruiter to utilize for the offer (in partnership with the hiring manager).
 - Once an internal candidate verbally accepts an offer, the Recruiter will notify CES to get the Job Change Letter (JCL) to the team member.
 
 ## CES Responsibilities
 
-- When scheduling internal team members during the internal hiring process, use the team member’s Google calendar. This allows for a consistent and efficient scheduling process. Internal candidates are notified to:
+- When scheduling internal team members during the internal hiring process, use the team member's Google calendar. This allows for a consistent and efficient scheduling process. Internal candidates are notified to:
   - Block off any times on their calendar when they would prefer not to interview.
   - Have working hours visible on their internal Google Calendar
 - Please follow the scheduling process for executive scheduling
@@ -75,7 +75,7 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
 ## People Connect Responsibilities
 
 - People Connect will handle all eligibility checks for team members applying for an internal opportunity.
-  - For eligibility checks for candidates on the people-connect team please reach out directly to the Director of People Operations.
+  - For eligibility checks for candidates on the People Connect team please reach out directly to the Manager of the People Connect team.
 - Engage People Connect by submitting a request via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=2e8c3f81478c069067429ee0026d4380). People Connect will notify the Recruiter that the eligibility check is completed by replying to the request submitted via HelpLab. Ensure you have met your department specific eligibility requirements:
   - Guidelines for performance eligibility:
     - Team members who are assessed at a Performing or Exceeding Performance level during Talent Assessment are eligible to be considered for another role
@@ -102,7 +102,7 @@ If the team member is not selected for the new role, the current manager should 
 ## Hiring Manager Responsibilities
 
 - Hiring Managers will be notified by Recruiter when an internal team member has applied and has completed the necessary eligibility checks as mentioned above, and they will follow the process outlined in the [Talent Acquisition Process Framework]({{< ref "talent-acquisition-framework" >}}) for all candidates.
-- If a team member moves to offer, the Recruiter will connect the Hiring Manager with the team member’s current manager. Please follow the steps outlined by the Recruiter in their message via Slack (details above).
+- If a team member moves to offer, the Recruiter will connect the Hiring Manager with the team member's current manager. Please follow the steps outlined by the Recruiter in their message via Slack (details above).
 - Hiring Manager will be provided the candidates compensation expectations from the Recruiter (in partnership with People Connect). It is up to the hiring manager to propose a compensation aligned with budget, candidate expectations, and internal pay equality.
 - If internal candidates need to be declined post interviews, it is required that the hiring manager connect with the team member via Zoom to inform them of the decision and provide constructive feedback (an outline providing feedback can be found below).
 

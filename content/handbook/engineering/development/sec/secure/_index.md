@@ -356,7 +356,7 @@ Every new hire will have an assigned [onboarding issue](https://gitlab.com/gitla
 
 Secure largely follows our [Product Development Flow](/handbook/product-development-flow/)
 
-See [Issue Refinement](./workflow/) to learn how we evaluate complexity, level of effort, our implementation plan and assign issue weights.
+See [Issue Refinement](workflow/) to learn how we evaluate complexity, level of effort, our implementation plan and assign issue weights.
 
 #### Shared pool of Frontend work
 
@@ -390,7 +390,7 @@ For a complete guide about developing a new analyzer please refer to our [user d
 
 As our product evolves, the engineering teams are researching ways to achieve new functionality and improve our architecture.
 
-The outcome of this research can be found in our [Technical Documentation](./tech-docs/) section.
+The outcome of this research can be found in our [Technical Documentation](tech-docs/) section.
 
 ### Data Sources
 

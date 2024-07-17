@@ -59,7 +59,7 @@ You can follow along with the team's accomplishments by reading the [latest week
 ### 🤝 [Collaboration](/handbook/values/#collaboration)
 
 * Anything in an issue description is allowed to change. And YOU'RE allowed to do it. Since we have the description history, we can always go back to an old version with negligible effort.  If making a substantial change to the description, provide some explanation to explain why it's changing. **Issue descriptions are documentation, not a single person's opinion**.
-  * Related: try to keep “I”s out of the issues you write, or differentiate your personal opinions/context by adding a disclaimer/bold/italics.  Personal opinions could also be added to the comments section so that others can respond and discuss them. If a description is less personal, it's easier for anyone else to feel like they can improve or refine it.
+  * Related: try to keep "I"s out of the issues you write, or differentiate your personal opinions/context by adding a disclaimer/bold/italics.  Personal opinions could also be added to the comments section so that others can respond and discuss them. If a description is less personal, it's easier for anyone else to feel like they can improve or refine it.
 * It's ok to ask people to do things directly. It may feel uncomfortable, but you have to trust that they can manage their own time and priorities.
   * **"Someone should probably do X."** is a trap. Prefer "Would anyone be willing to do X?" or "Who can take on X?".  Identifying a specific owner for each new task or subtask (write tests, update docs, add a follow-up, etc) will prevent it from getting lost or forgotten.
 * Conversely, it's ok to say no or offer hard limits.
@@ -72,7 +72,7 @@ You can follow along with the team's accomplishments by reading the [latest week
   * If the discussion has gotten off-track, you can't tell what the action item should be, or you don't have an opinion yourself, make the plan up! Then communicate it.
 * It's also ok to express a direct opinion about what you think is best when presenting a set of options.
   * It's way easier to engage with your work if you believe in what you're building. Advocate for it.
-* Sometimes it’s necessary to accept risk to make progress.
+* Sometimes it's necessary to accept risk to make progress.
 
 ### ⏱️ [Efficiency](/handbook/values/#efficiency)
 
@@ -225,10 +225,10 @@ How this differs from past approaches:
 Why we choose this approach:
 
 1. Clear goals. Puts the focus on committing to milestone goals, and whether we're achieving them. Milestone plan is the go-to source of truth for our priorities.
-   1. Bonus: we get better at writing goals (Say), because if we don’t they’ll be hard to assess (Do).
+   1. Bonus: we get better at writing goals (Say), because if we don't they'll be hard to assess (Do).
 1. Accuracy. By zooming out to the epic-level, we gain accuracy. We don't need to label individual issues, they're either part of a deliverable goal / epic, or not.
 1. Usability. By being less granular, we don't need to spend time labeling individual issues. Engineering Managers save time, engineers retain ownership and case-by-case decisions within an established goal/epic.
-1. Easier to reason about. The Say Do ratio is "rounder" (20%, 25%, 33%, 40%, etc), since the number of goals is 3-5. It’s less noisy, and less prone to over-analysis than an issue-based ratio. E.g. what would it mean to go from 77.8% to 73.6% delivered issues? Is it worrisome? Is it ok?
+1. Easier to reason about. The Say Do ratio is "rounder" (20%, 25%, 33%, 40%, etc), since the number of goals is 3-5. It's less noisy, and less prone to over-analysis than an issue-based ratio. E.g. what would it mean to go from 77.8% to 73.6% delivered issues? Is it worrisome? Is it ok?
 1. See [this thread](https://gitlab.com/gitlab-org/monitor/respond/-/issues/217#note_1326514387) for the original context that lead to this approach.
 
 Downsides to this approach:
@@ -272,7 +272,7 @@ The following people are owners of this account and can [grant access](https://z
 
 #### Documentation
 
-For more information on how to use Zoom see theirs [guides](https://marketplace.zoom.us/docs/guides) and [API reference](https://marketplace.zoom.us/docs/api-reference/introduction).
+For more information on how to use Zoom see theirs [guides](https://developers.zoom.us/docs/) and [API reference](https://developers.zoom.us/docs/api/).
 
 ## Labels
 

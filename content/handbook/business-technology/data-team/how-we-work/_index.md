@@ -1,5 +1,4 @@
 ---
-
 title: "Data Team - How We Work"
 description: "GitLab Data Team Workflow"
 ---
@@ -224,7 +223,7 @@ Other tips:
     - For simple changes, it is the MR author who should be responsible for closing the threads. If there is a complex change and the concern has been addressed, either the author or reviewer could resolve the threads if the reviewer approves.
 
 1. Reviewers should have 48 hours to complete a review, so plan ahead with the end of the iteration.
-1. When possible, questions/problems should be discussed with your reviewer before submitting the MR for review. Particularly for large changes, review time is the least efficient time to have to make meaningful changes to code, because you’ve already done most of the work!
+1. When possible, questions/problems should be discussed with your reviewer before submitting the MR for review. Particularly for large changes, review time is the least efficient time to have to make meaningful changes to code, because you've already done most of the work!
 1. Consider bringing the latest commits from the primary branch so the MR is caught up. You can do this quickly by typing `/rebase` into a comment and GitLab will make this happen automatically, barring any merge conflicts.
 
 ##### KPI Development Workflow

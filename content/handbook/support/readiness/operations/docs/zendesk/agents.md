@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/agents"
 ## User fields
 
 For information about user fields, please refer to
-[User Fields](./user-fields.md).
+[User Fields](user-fields.md).
 
 ### Agent Provisioning
 
@@ -21,7 +21,7 @@ is required.
 
 Once one has been received, the process will go as follows:
 
-1. Email `people-connect@gitlab.com` the following:
+1. Submit a general HelpLab request to the People team:
    - Subject: US Citizenship Verification Request
    - Body:
      > Greetings all!

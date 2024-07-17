@@ -26,7 +26,7 @@ The interview process consists of the following stages:
 ### How to submit an application
 
 {{% details summary="External applicants" %}}
-All of our open positions can be found on our [jobs page](https://about.gitlab.com/jobs/all-jobs/). You can view jobs by department and/or location. Click on a job that interests you and select the “Apply Now” button at the top of the page to fill out an application.
+All of our open positions can be found on our [jobs page](https://about.gitlab.com/jobs/all-jobs/). You can view jobs by department and/or location. Click on a job that interests you and select the "Apply Now" button at the top of the page to fill out an application.
 {{% /details %}}
 
 {{% details summary="Internal applicants" %}}
@@ -45,7 +45,7 @@ If you are a [current team member and are interested in applying]({{< ref "promo
 ### Who can apply?
 
 {{% details summary="Equal Opportunity Employer" %}}
-GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, without regard to all legally protected classes, including, but not limited to: race, color, religion, ancestry, sex (including pregnancy, sexual orientation, or gender identity), national origin, age, citizenship, marital status, gender identity, disability and genetic information (including family medical history), and any other status protected by federal, state or local law. GitLab will not discriminate on the basis of disability or veteran status.
+GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab's policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, without regard to all legally protected classes, including, but not limited to: race, color, religion, ancestry, sex (including pregnancy, sexual orientation, or gender identity), national origin, age, citizenship, marital status, gender identity, disability and genetic information (including family medical history), and any other status protected by federal, state or local law. GitLab will not discriminate on the basis of disability or veteran status.
 {{% /details %}}
 
 {{% details summary="No solicitations" %}}
@@ -70,7 +70,7 @@ Check out the ["What to know about a fake job scam impersonating GitLab"](https:
 
 If it is determined that you qualify for continued consideration, the assigned Recruiter will conduct a screening call with you. Calls can last anywhere between 30 and 40 minutes (some specialist roles require more time), depending on the conversation. The Recruiter will wait 5 minutes for you to show up to the appointed video call, which is always shared via email. If you do not show up to the interview, or do not reach out in advance to reschedule, you will be classified as a no show and be disqualified. We will unreject when circumstances beyond your control cause you to miss a scheduled call.
 
-You, the recruiter or the hiring manager can terminate the discussion at any point during the interview if either party determines that it isn’t a fit. Be as transparent and honest as possible and provide feedback.
+You, the recruiter or the hiring manager can terminate the discussion at any point during the interview if either party determines that it isn't a fit. Be as transparent and honest as possible and provide feedback.
 
 Depending on the outcome of the call, the talent acquisition team or manager may either reject or move you to the Team Interview stage.
 
@@ -117,7 +117,7 @@ At GitLab we pride ourselves on ensuring that everyone can contribute. To make c
 Feel free to send an email to your Recruiter to get a status update on where you are in the interview process.
 {{% /details %}}
 
-{{% details summary="Can I have the hiring team’s email addresses so I can send them a note?" %}}
+{{% details summary="Can I have the hiring team's email addresses so I can send them a note?" %}}
 If you'd like to send a note to the hiring team, please send it to your Recruiter and they will forward it on.
 {{% /details %}}
 
@@ -126,7 +126,7 @@ In the event that you are interested in more than one opening, there is no limit
 
 1. You will have to complete a full interview process for each role you apply to, so be mindful of the time commitment for each application you submit.
 1. Due to capacity, the recruiting team will only process 3 of your applications at a time based on which ones you decide to prioritize. Any other applications outside of the 3 will be processed after the prioritized roles's interviews are completed.
-1. In the effort to be as transparent as possible and avoid sending multiple competing GitLab offers, there will be an added step to the process after your final interview where you will discuss with your recruiter which role you’re interested in before any official offer documents can be sent.
+1. In the effort to be as transparent as possible and avoid sending multiple competing GitLab offers, there will be an added step to the process after your final interview where you will discuss with your recruiter which role you're interested in before any official offer documents can be sent.
 1. If you already have interviewed with us, you can apply for a different role again, but please take note that there may be a cooldown period of 6 months or more if it's a similar role, depending on the reason for not moving forward which is communicated by the recruiter.
 
 Example of dual Interview process outline
@@ -136,7 +136,7 @@ Example of dual Interview process outline
 1. Assessment (required for certain roles)
 1. Technical Interview (required for certain roles)
 1. Team Interviews
-1. Discussion with your recruiter on which role you’re interested in
+1. Discussion with your recruiter on which role you're interested in
 1. References
 1. Offer sent for role discussed in step 6 & Background Screen
 
@@ -190,7 +190,7 @@ Depending on your location, a [background screen]({{< ref "people-policies#backg
 
 ## Where does GitLab hire people?
 
-At GitLab, we hire people from all over the world and all walks of life. Diversity, Inclusion & Belonging  is one of our [core values]({{< ref "values" >}}). As an [all-remote company](/handbook/company/culture/all-remote/) we do face challenges with hiring in certain countries. Each country has unique and complex rules, laws, and regulations, that can affect our ability to conduct business, as well as the employability of the citizens and residents of those countries. It unfortunately affects the employability of the citizens and residents of those countries. We are growing and continuously exploring our hiring capabilities in a variety of geographies. At present we are focusing our hiring in countries where we have entities & PEO's (Professional Employer Organization).
+At GitLab, we hire people from all over the world and all walks of life. Diversity, Inclusion & Belonging  is one of our [core values](/handbook/values/). As an [all-remote company](/handbook/company/culture/all-remote/) we do face challenges with hiring in certain countries. Each country has unique and complex rules, laws, and regulations, that can affect our ability to conduct business, as well as the employability of the citizens and residents of those countries. It unfortunately affects the employability of the citizens and residents of those countries. We are growing and continuously exploring our hiring capabilities in a variety of geographies. At present we are focusing our hiring in countries where we have entities & PEO's (Professional Employer Organization).
 
 {{% details summary="Take a look at the countries where we currently hire below." %}}
 
@@ -235,7 +235,7 @@ Note: In countries with a star (*) hiring is limited to only certain roles
 
 ## What's it like to work at GitLab?
 
-Our [mission]({{< ref "mission" >}}) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations on our product]({{< ref "using-gitlab-at-gitlab" >}}) and staying aligned with our [values]({{< ref "values" >}}).
+Our [mission]({{< ref "mission" >}}) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations on our product]({{< ref "using-gitlab-at-gitlab" >}}) and staying aligned with our [values](/handbook/values/).
 
 {{% details summary="Explore the resources below for a deeper understanding of working at GitLab — one of the world's largest all-remote companies" %}}
 

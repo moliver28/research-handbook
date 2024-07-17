@@ -1,5 +1,4 @@
 ---
-
 title: Manager Challenge Alumni
 ---
 

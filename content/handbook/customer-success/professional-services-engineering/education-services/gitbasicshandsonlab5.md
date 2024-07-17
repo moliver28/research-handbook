@@ -47,39 +47,54 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 1. Click the **Create branch** button.
 
-1. In the left-hand navigation pane, click on **Build > Pipelines**. You’ll see an **Auto DevOps** pipeline running on the branch you just created.
+1. In the left-hand navigation pane, click on **Build > Pipelines**. You'll see an **Auto DevOps** pipeline running on the branch you just created.
 
-1. Click on the pipeline’s **running** status icon and note the stages (represented by columns in the pipeline graph) and the jobs that Auto DevOps has created.
+1. Click on the pipeline's **running** status icon and note the stages (represented by columns in the pipeline graph) and the jobs that Auto DevOps has created.
 
    > You may see the `dast` job fail in your pipeline. This job requires additional configurations to scan successfully. See the [documentation](https://docs.gitlab.com/ee/user/application_security/dast/#configuration) to learn more about DAST scan configurations.
 
 ## Task B. Commit a change to trigger a pipeline run
 
-> The most common way to run a pipeline is to commit to a branch in your project’s repository. In this section, you will apply a new commit and view the resulting pipeline.
+> The most common way to run a pipeline is to commit to a branch in your project's repository. In this section, you will apply a new commit and view the resulting pipeline.
 
 1. Navigate to **Code > Repository**.
 
 1. Near the top left of the window, switch to the **new-feature** branch by selecting it in the dropdown that currently says **master**.
 
-1. In the list of repository files, click the `views` directory and then the `index.pug` file.
+1. In the list of repository files, click the `server.js` file.
 
-1. Click **Edit > Edit single file** and modify the last line of `index.pug` to the text below.
+1. Click **Edit > Edit single file** and modify the `get` endpoint as follows:
 
-   ```pug
-   p GitLab welcomes you to #{title}
+   ```js
+      app.get("/", (req, res) => {
+         return res.status(200).send({
+            message: "Hello World from GitLab!",
+         });
+      });
    ```
 
 1. The file should now look like this:
 
-   ```pug
-   extends layout
+   ```js
+   const express = require("express");
+   const app = express();
 
-   block content
-     h1= title
-     p GitLab welcomes you to #{title}
+   const port = process.env.PORT || 5000;
+
+   app.get("/", (req, res) => {
+      return res.status(200).send({
+         message: "Hello World from GitLab!",
+      });
+   });
+
+   app.listen(port, () => {
+      console.log("Listening on " + port);
+   });
+
+   module.exports = app;
    ```
 
-1. For **Commit message**, type `Update welcome message in index.pug`
+1. For **Commit message**, type `Update welcome message in server.js`
 
 1. Leave **Target branch** set to `new-feature`
 
@@ -87,21 +102,37 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 After you commit these changes, a pipeline will run, and the test stage will fail. This is because the test cases no longer match the contents of the index file. To ensure that the tests in our pipeline run successfully, we will also need to update our tests to match the new index file.
 
-1. In the list of repository files, click the `test` directory and then the `test.js` file.
+1. In the list of repository files, click the `test` directory and then the `server.test.js` file.
 
-1. Click **Edit > Edit single file** and modify the line `.expect(/Welcome to Express/, done)` to `.expect(/GitLab welcomes you to Express/, done)`. After completing the edits, your code will look like this:
+1. Click **Edit > Edit single file** and modify the line `assert.equal(res.body.message, 'Hello World!');` to `assert.equal(res.body.message, 'Hello World from GitLab!');`. After completing the edits, your code will look like this:
 
    ```js
    const request = require('supertest');
-   const app = require('../app');
+   const assert = require('assert')
+   const app = require('../server');
 
-   describe('App', function() {
-     it('has the default page', function(done) {
-       request(app)
-       .get('/')
-       .expect(/GitLab welcomes you to Express/, done);
-     });
+   describe('GET /', () => {
+   it('responds responds to the world', async function() {
+      const res = await request(app)
+         .get('/')
+         .set('Accept', 'application/json');
+
+      assert.equal(res.status, 200);
+      assert.equal(res.type, 'application/json');
+      assert.equal(res.body.message, 'Hello World from GitLab!');
+      });
    });
+
+   describe('GET /404', () => {
+      it('responds with a 404', async function() {
+         const res = await request(app)
+            .get('/404')
+            .set('Accept', 'application/json');
+
+         assert.equal(res.status, 404);
+      });
+   });
+
    ```
 
 1. For **Commit message**, type `Update welcome message test`
@@ -120,7 +151,7 @@ After you commit these changes, a pipeline will run, and the test stage will fai
 
 1. Leave all other fields at their default values and click **Create merge request** at the bottom of the page.
 
-1. To mark the merge request ready to merge, click the **Mark as ready** button. This removes `Draft:` from your MR’s title.
+1. To mark the merge request ready to merge, click the **Mark as ready** button. This removes `Draft:` from your MR's title.
 
    > You now have an active merge request for merging the `new-feature` branch into the `master` branch. The page you are on shows the details of that merge request, including the status of the last pipeline that was run on the `new-feature` branch (you might have to refresh the page to see the pipeline status). GitLab will run a new pipeline every time you commit to the `new-feature` branch.
 
@@ -136,11 +167,11 @@ After you commit these changes, a pipeline will run, and the test stage will fai
 
 - The **test** stage, which runs various tests on your application code to ensure it is secure and high quality. A few of the jobs are explained below:
 
-  - The License Compliance scan will scan to detect any new licenses added to the project. Select **Full report** in the License Compliance section to see the scan details. After viewing the report, return to the pipeline.
+  - The Dependency scan will scan to detect any new licenses and dependencies added to the project. Select **Full report** in the License Compliance section to see the scan details. After viewing the report, return to the pipeline.
 
   - The Code Quality scan will scan to detect if the code quality has changed between the main and the merge request code. If any code quality issues exist, they will be flagged in this section.
 
-  - The Security Scanning section will check if any new vulnerabilities have been introduced in the code. Select **View all pipeline findings** in the Security Scanning section to see the scan details.
+  - The SAST, Dependency, Secret Detection, and Container Scan jobs will check if any new vulnerabilities have been introduced in the code. Select **View all pipeline findings** in the Security Scanning section to see the scan details.
 
 - The **dast** stage, which uses a running version of your application to check if there are any known vulnerabilities that it can find by running API calls on your application. Since we did not configure a live environment for the DAST job to scan, we do not need to worry about this job.
 
@@ -150,4 +181,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you’d like to suggest changes to the lab, please submit them via merge request.
+If you'd like to suggest changes to the lab, please submit them via merge request.

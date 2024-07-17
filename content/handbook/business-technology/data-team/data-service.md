@@ -1,16 +1,7 @@
 ---
-
 title: "Data Team Services"
 description: "Data Team Services"
 ---
-
-
-
-
-
-
-
-
 
 ## Special Event On-Call
 

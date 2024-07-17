@@ -3,12 +3,6 @@ aliases: /handbook/engineering/development/processes/Infra-Dev-Escalation
 title: General Information of Development Escalation Process
 ---
 
-
-
-
-
-
-
 ## About This Page
 
 This page outlines the background, goals, success criteria, and implementation detail of infrastructure escalation process and Q&A.
@@ -19,7 +13,7 @@ Historically there have been challenges in consistently maintaining our service 
 
 This issue is not unique to GitLab when business grows fast and the user base and workload on the hosted SaaS increases exponentially. As a result, the business growth requires corresponding changes in how we work so that customers continue experiencing best service by GitLab, which maintains and boosts our business growth momentum.
 
-With that being said and the operation incidents recently, it becomes clear that we’ll strengthen development team’s DevOps practices and stand side by side with the Infrastructure team to keep GitLab.com running smoothly.
+With that being said and the operation incidents recently, it becomes clear that we'll strengthen development team's DevOps practices and stand side by side with the Infrastructure team to keep GitLab.com running smoothly.
 
 ## Process
 
@@ -27,7 +21,7 @@ To resolve GitLab.com issues faster, the development team will establish an on-c
 
 Note that the Infrastructure team keeps playing the first defense role on the frontline as usual, while they will determine if a development escalation will be initiated to get the operational issues resolved faster and more efficiently.
 
-This new process will need development engineers on-call based on a rotation schedule. For more details, please refer to the [**full description of on-call process**](./process.html).
+This new process will need development engineers on-call based on a rotation schedule. For more details, please refer to the [**full description of on-call process**](process.html).
 
 ## Goals
 
@@ -43,7 +37,7 @@ The on-call process was designed with the following goals in mind -
 
 ## Success Criteria
 
-* Meet development’s SLO of timely response to infrastructure escalations.
+* Meet development's SLO of timely response to infrastructure escalations.
 * No on-call engineer is burned out.
 * Planned development work is minimally impacted.
 
@@ -73,7 +67,7 @@ The reasons for doing this:
 
 **A:** No engineer will be asked to work more hours than they currently work. Most of the hours they spend on-call will be days and times they would normally be working anyway. We need approximately 25% of on-call time to be used on days people wouldn't ordinarily be working, but by letting engineers choose when they do so, and not increasing total working hours, the impact of this is hopefully minimized. Engineers can also find substitutes in case of personal emergency.
 
-**Q: Can we make scheduling “smart” and dynamically page the engineer who’s in regular working hours?**
+**Q: Can we make scheduling "smart" and dynamically page the engineer who's in regular working hours?**
 
 **A:** Yes. During regular weekdays we use [Pagerslack](https://gitlab.com/jameslopez/pagerslack) to  page engineers based on who is online in Slack.  During the weekends/holidays we still need the spreadsheet as most do not regularly work on the weekends.
 
@@ -87,9 +81,9 @@ The reasons for doing this:
 
 For weekends and holidays, we currently use a volunteer first model, and unfilled shifts are assigned. We encourage engineers to volunteer for shifts so they have more control over their schedule.
 
-**Q: What if the paged engineer doesn’t carry domain expertise?**
+**Q: What if the paged engineer doesn't carry domain expertise?**
 
-**A:** A layered escalation process was laid out in the process. It is also stated that first response doesn’t mean solution is available right away.
+**A:** A layered escalation process was laid out in the process. It is also stated that first response doesn't mean solution is available right away.
 
 An alternative was reviewed, e.g. having domain experts on-call in a similar way. This will involve more engineers and smaller on-call divisions, which will result in a more frequent shift and more on-call duties per engineer. The tradeoff was made in favor of minimizing on-call duties.
 
@@ -106,7 +100,7 @@ tooling, and this is somewhat removed from product development.
 
 **Q: How do we answer interview candidates when they ask about on-call?**
 
-**A:** Let’s describe the full picture of our incident handling model and tell candidates there are chances development engineers will be on-call and assist resolving GitLab.com operational incidents.
+**A:** Let's describe the full picture of our incident handling model and tell candidates there are chances development engineers will be on-call and assist resolving GitLab.com operational incidents.
 Usually, the infrastructure team plays the first defense role on the frontline. Development engineers will only be called when the infrastructure team determines that development escalation is necessary.
 
 **Q: Will our job description be updated?**
@@ -121,7 +115,7 @@ Usually, the infrastructure team plays the first defense role on the frontline. 
 
 **A:** Yes, we did. It was decided to keep it lightweight with Slack in the first round experiment, because there is work to enhance the chatops bot.
 
-**Q: What are the expectations for my existing work while I’m on-call?**
+**Q: What are the expectations for my existing work while I'm on-call?**
 
 **A:** While on-call the expectation of existing work is that it is effectively suspended.  Managers are required to plan for on-call engineers to be unavailable.  If you are able to make progress because there are no ongoing incidents that is welcomed, but work must stop if an on-call request is made.
 
@@ -129,7 +123,7 @@ Usually, the infrastructure team plays the first defense role on the frontline. 
 
 **A:** Similar to bullet 7 under Guidelines section - Relay Handover, summarize the status and investigations by far, then handover.
 
-**Q: Can Slack only be configured to trigger notification from #infra-escalation out-of-hours, especially during hours of 0400-0700 (APAC) ? I already receive lots of pings out-of-hours but this don’t wake me up currently as I have Do-not-disturb turned on.**
+**Q: Can Slack only be configured to trigger notification from #infra-escalation out-of-hours, especially during hours of 0400-0700 (APAC) ? I already receive lots of pings out-of-hours but this don't wake me up currently as I have Do-not-disturb turned on.**
 
 **A:** It seems notifications can be customized on mobile app, check out [this guide](https://docs.google.com/document/d/1ZxfGZFTrCo4QRCyI-JXLrRFpk6MCxTpSWk2hJeKKyf4/edit?usp=sharing) (Android device)
 
@@ -139,9 +133,9 @@ Mute all other channels but the escalation channel during a specific time period
 
 **A:** On-call work can be considered a deliverable like any other. It doesn't imply working any **extra** hours - but a few hours will be at less desirable times than now. Although no compensation changes are anticipated to account for this, we may consider discretionary rewards for people who exceed expectations when choosing less-desirable hours.
 
-**Q: How will the volume of escalations to the on-call engineer be measured? Have we established thresholds to know when a working group may need to be established to remediate a “hot” set of issues?**
+**Q: How will the volume of escalations to the on-call engineer be measured? Have we established thresholds to know when a working group may need to be established to remediate a "hot" set of issues?**
 
-**A:** Let’s start with hand counting and review the volume at the Infra/Dev meeting.  This can also be added to the board.
+**A:** Let's start with hand counting and review the volume at the Infra/Dev meeting.  This can also be added to the board.
 
 **Q: We are discussing the concept of working hours for new-on-call and having expected shifts, however, this is a departure from non-on-call based on this in the handbook. /handbook/values/#measure-results-not-hours Is this an intentional policy shift?**
 
@@ -155,9 +149,9 @@ Mute all other channels but the escalation channel during a specific time period
 
 **A:**    If you look at the chart of outages as part of the Performance degradation (see above link), you will see outages on the June 5th, July 1st, 3rd.  Had we caught the issues and worked to address them on June 5th we could have prevented July 1st degradation.  July 3rd is half degradation, half attack.  So we would have minimized some level of impact here as well.  The time associated with this degradations is also high (540 minutes for July 1st) and we could have reduced that time as well.
 
-**Q: Isn’t this more about discipline of seeing incidents through to resolution, not just how quickly we respond to them? It feels the on-call process addresses the latter, but not former.**
+**Q: Isn't this more about discipline of seeing incidents through to resolution, not just how quickly we respond to them? It feels the on-call process addresses the latter, but not former.**
 
-**A:** It’s actually both and we are working to address both.  We have also added a Infra/Dev issue board to track concerns to see through to resolution and make sure we have the right priority and severity on them.  It’s likely that oncall escalations will end up with follow on items for [this board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=gitlab.com&label_name[]=infradev). [This page](/handbook/engineering/development/#continuous-delivery-and-infrastructure-collaboration) gives the description.
+**A:** It's actually both and we are working to address both.  We have also added a Infra/Dev issue board to track concerns to see through to resolution and make sure we have the right priority and severity on them.  It's likely that oncall escalations will end up with follow on items for [this board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=gitlab.com&label_name[]=infradev). [This page](/handbook/engineering/development/#continuous-delivery-and-infrastructure-collaboration) gives the description.
 
 **Q: How should the infrastructure member make international phone calls to page engineers?**
 

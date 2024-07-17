@@ -1,16 +1,10 @@
 ---
-
 title: "Digital Production"
 description: GitLab Digital Production
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
-
 
 ## General SLAs for video production
 

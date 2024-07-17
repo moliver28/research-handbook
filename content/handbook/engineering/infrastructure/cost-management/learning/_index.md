@@ -1,17 +1,7 @@
 ---
-
 title: "Learning Resources"
 description: "Learn about the various aspects of Cost Management"
 ---
-
-
-
-
-
-
-
-
-
 
 ---
 

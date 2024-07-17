@@ -14,12 +14,12 @@ title: "Digital SMB + SA Working Group"
 
 ## Business Goal
 
-Define the most effective way to deliver on customer/product technical fit in a “scale way”, and bridge the gap between where we are today and our long-term vision and objectives.
+Define the most effective way to deliver on customer/product technical fit in a "scale way", and bridge the gap between where we are today and our long-term vision and objectives.
 
 ## Exit Criteria
 
 1. Document the current state of SA engagement and core use-cases where SAs are needed in the SMB space, along with the gaps that necessitate that engagement (across technical discovery, demo, technical evaluation). Additionally, document which areas will not be supported by SAs.
-2. Identify the ideal way to address the gaps “in scale” by medium and functional area (e.g. pre-trial evaluation assets, in-product trial set-up guide / self-guided tutorial, community)
+2. Identify the ideal way to address the gaps "in scale" by medium and functional area (e.g. pre-trial evaluation assets, in-product trial set-up guide / self-guided tutorial, community)
 3. Size what resourcing, roadmap, and against what timelines would be required to achieve goal
 4. Deliver recommendation on how to deliver a digital-first customer/product technical fit, along with defined DRI ownership, funding requirements and timelines
 

@@ -1,13 +1,6 @@
 ---
-
 title: GitLab Repositories
 ---
-
-
-
-
-
-
 
 GitLab consists of many subprojects. A curated list of GitLab projects can be found at the [GitLab Engineering projects](/handbook/engineering/projects/) page.
 
@@ -84,7 +77,7 @@ default:
 This:
 
 1. Includes a [`workflow`](https://docs.gitlab.com/ee/ci/yaml/#workflowrules-templates) to create pipelines for MR, `master`, and tags only.
-1. Defines the `gitlab-org` tag to be used by default which corresponds to cost-optimised runners, with no Docker support. Jobs that need Docker support would use the `gitlab-org-docker` tag.
+1. Defines the `gitlab-org` tag to be used by default which corresponds to cost-optimized runners, with no Docker support. Jobs that need Docker support would use the `gitlab-org-docker` tag.
 
 If a job requires the usage of Docker, it needs to be defined only in the context of the specific job with the `gitlab-org-docker` tag:
 

@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab.tv All-Remote Channel Playbook"
 description: All Remote Channel Playbook
 twitter_image: "/images/opengraph/all-remote.jpg"
@@ -7,11 +6,6 @@ twitter_image_alt: "GitLab remote team graphic"
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
-
 
 ## Introduction
 
@@ -74,7 +68,7 @@ Interview videos can feature a 1-on-1 discussion or small group chat with GitLab
 
 Uploading criteria:
 
-- **Title:** Unless the interviewee(s) are very well known, don’t lead with their names. Lead with the title of the discussion. For example, “Common stumbling blocks to going remote: A panel discussion.” This will help the audience find your video based on their interests and let them know what style of video to expect.
+- **Title:** Unless the interviewee(s) are very well known, don't lead with their names. Lead with the title of the discussion. For example, "Common stumbling blocks to going remote: A panel discussion." This will help the audience find your video based on their interests and let them know what style of video to expect.
 - **Description:** Repeat the title of the video followed by the names and titles of the interviewee or panel members and 3-5 sentences explaining the key points of the discussion. Include timestamps if the video is over 10 minutes long.
 - **Call to action (CTA):** Interview/panel style videos should include a link to `https://about.gitlab.com/company/culture/all-remote/` in the video description. Creators may choose to include the verbal CTA to **"Download GitLab's complete Remote Playbook"** at the end of their video.
 - **UTM codes:** Please be sure to add a UTM code to your CTA in the video description when uploading your videos to YouTube. This **required** action is needed to track your video's performance. For videos related to All-Remote, the UTM code should follow this sequence: `?&utm_medium=social&utm_source=youtube&utm_campaign=allremote&utm_content={{video}}`
@@ -92,7 +86,7 @@ All-remote how-to videos will provide viewers with quick, actionable tips on rem
 
 Uploading criteria:
 
-- **Title:** The title of your video should describe exactly what you are showing in the video. For example, “How to submit a merge request on gitlab.com.”
+- **Title:** The title of your video should describe exactly what you are showing in the video. For example, "How to submit a merge request on gitlab.com."
 - **Description:** Repeat the title of the video followed by 3-5 sentences explaining what the viewer is going to learn from the video. If the video is longer than 10 minutes, include timestamps. If the video is referencing a contribution, link to the merge request.
 - **Call to action (CTA):** How-to videos should include a link to `https://about.gitlab.com/company/culture/all-remote/` in the video description. Creators may choose to include the verbal CTA to **Download GitLab's complete Remote Playbook** at the end of their video.
 - **UTM codes:** Please be sure to add a UTM code to your CTA in the video description when uploading your videos to YouTube. This **required** action is needed to track your video's performance. For All Remote-related videos, the UTM code should follow this sequence: `?&utm_medium=social&utm_source=youtube&utm_campaign=allremote&utm_content={{video}}`
@@ -111,7 +105,7 @@ Video contributions that meet the playbook criteria will be uploaded to the GitL
 1. Submit to [GitLab social team](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) for consideration ([DRI](/handbook/people-group/directly-responsible-individuals/) must create issue to enable this step)
 1. Submit to GitLab editorial team for consideration on the blog and/or bi-weekly newsletter (DRI must create issue to enable this step)
 1. Third-party content platforms (e.g. like ITPro.tv, industry blogs, etc.)
-1. Highlighted on GitLab’s weekly “This Week at GitLab” video series
+1. Highlighted on GitLab's weekly "This Week at GitLab" video series
 1. Consideration for featuring in GitLab All-Remote video band
 1. Featured in GitLab event follow up email/s (DRI must create issue to enable this step)
 

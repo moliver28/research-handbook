@@ -58,7 +58,7 @@ Strong team player but self-starter
 - Project management experience & skills
 - Strong technical, analytic, and problem-solving skills
 - Alignment with our values, and willingness to work in accordance with those values
-- Ability to travel if needed and comply with the company’s travel policy
+- Ability to travel if needed and comply with the company's travel policy
 - Demonstrated progressive experience in a related function is required with direct customer advocacy and engagement experience in post-sales or professional services functions
 
 ### Senior Customer Success Architect (CSA)
@@ -76,7 +76,7 @@ Includes all responsibilities of the Intermediate Customer Success Architect (CS
 - Establish a trusted/strategic advisor relationship with each assigned customer and drive continued value of our solution and services
 - Assist and provide expert deployment, operational best practices, and establishing a GitLab Center of Excellence
 - Assist in workshops to help customers leverage the full value of GitLab solution
-- Measure and monitor customers’ achievement of critical and key performance indicators, reporting both internally to GitLab account stakeholders and externally to Customer Sponsors and Executives
+- Measure and monitor customers' achievement of critical and key performance indicators, reporting both internally to GitLab account stakeholders and externally to Customer Sponsors and Executives
 - Translate customer product usage data into actionable advice for customers
 - Establish regular touchpoints with assigned customers per the established SLAs, to review progress against strategic and technical objectives
 
@@ -108,7 +108,7 @@ Includes all responsibilities of the Intermediate and Senior Customer Success Ar
 - Demonstrate leadership in new feature and technology adoption and teaching by providing regular enablement and solution overview sessions and documentation for customers and other GitLab team-members
 - Help drive team expertise and technical thought leadership
 - Maintain deep knowledge of the GitLab platform
-- Clearly communicate and drive adoption of complex technical solutions, with constant attention to promoting “boring solutions”
+- Clearly communicate and drive adoption of complex technical solutions, with constant attention to promoting "boring solutions"
 
 #### Staff CSA Requirements
 

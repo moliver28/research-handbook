@@ -1,6 +1,6 @@
 ---
 title: "Measurement Clarity"
-summary: "Teams exist to deliver results. This is about achieving objectives. TeamOps’ decision-making principles are only useful if you execute and deliver results. **A result is not a one-time event**; rather, delivering a result establishes a new baseline. This allows future iterations to begin. In this way, focusing on execution empowers everyone to contribute to meaningful business outcomes."
+summary: "Teams exist to deliver results. This is about achieving objectives. TeamOps' decision-making principles are only useful if you execute and deliver results. **A result is not a one-time event**; rather, delivering a result establishes a new baseline. This allows future iterations to begin. In this way, focusing on execution empowers everyone to contribute to meaningful business outcomes."
 weight: 4
 canonical_path: "/teamops/measurement-clarity/"
 images:
@@ -36,7 +36,7 @@ Crucially, under TeamOps every functional department shares its KPIs transparent
 
 In Q3-FY23 at GitLab, a company OKR was [Improve user and wider-community engagement](/handbook/company/okrs/fy23-q3/). This is the *initiative* to improve a series of KPIs, a subset of which are documented below:
 
-1. Evolve the resident contributor strategy by conducting 5 customer conversations with current “resident contributors” in seat
+1. Evolve the resident contributor strategy by conducting 5 customer conversations with current "resident contributors" in seat
 1. Certify 1,000 team members and 10,000 wider-community members in TeamOps
 1. Enhance Corporate Processes and Successful Corporate Development Integration & Prospecting
 
@@ -48,9 +48,9 @@ These are documented in a tool that's accessible to the entire organization. Any
 {{% details summary="Change management support for transparent measurements" %}}
 **Quick Start Tips:**
 
-- *Individual:* Confirm that your personal task and project management systems sharing settings are public by default. Inform your team members how and where to access them if they’re ever wondering what you’re working on.
-- *Team:* When starting a new project, define and document the contributions of each team member, and how “success” will be measured both individually and collectively.
-- *Company:* In performance review agendas, add a section to revisit (and update, if needed) each team member’s weekly, monthly, quarterly, and yearly OKRs and KPIs. Specifically discuss and answer the question, “What does productivity look like in this role?”
+- *Individual:* Confirm that your personal task and project management systems sharing settings are public by default. Inform your team members how and where to access them if they're ever wondering what you're working on.
+- *Team:* When starting a new project, define and document the contributions of each team member, and how "success" will be measured both individually and collectively.
+- *Company:* In performance review agendas, add a section to revisit (and update, if needed) each team member's weekly, monthly, quarterly, and yearly OKRs and KPIs. Specifically discuss and answer the question, "What does productivity look like in this role?"
 
 **Recommended TeamOps Partner:** [Lance Robbins](http://lancehrobbins.com/) (consultant)
 {{% /details %}}
@@ -66,7 +66,7 @@ Note that outputs aren't just tangible deliverables. Results include any form of
 {{% details summary="Examples and resources for measure results, not hours" %}}
 **Example:** [Measuring impact of GitLab's 10 year campaign](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5507)
 
-Producing the `10 Years of GitLab` integrated marketing campaign and [associated website](https://about.gitlab.com/ten/) demanded a cross-functional effort. Working group members established a GitLab issue to explicitly define [elements to be tracked and measured](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5507) in order to provide an adequate report of the campaign's overall impact. By focusing on results over hours spent (or if a given team member was online at a certain time, or in a certain office), everyone involved in the project could focus energy on executing the campaign.
+Producing the `10 Years of GitLab` integrated marketing campaign and [associated website](https://web.archive.org/web/20240225183113/https://about.gitlab.com/ten/) demanded a cross-functional effort. Working group members established a GitLab issue to explicitly define [elements to be tracked and measured](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5507) in order to provide an adequate report of the campaign's overall impact. By focusing on results over hours spent (or if a given team member was online at a certain time, or in a certain office), everyone involved in the project could focus energy on executing the campaign.
 
 **Resource:** [Time is Not a Measure of Productivity](https://nesslabs.com/time-is-not-a-measure-of-productivity) (article)
 {{% /details %}}
@@ -74,7 +74,7 @@ Producing the `10 Years of GitLab` integrated marketing campaign and [associated
 {{% details summary="Change management support for measure results, not hours" %}}
 **Quick Start Tips:**
 
-- *Individual:* When writing your daily to do list, note which three tasks are your highest priority, and use the completion of those tasks to measure “a good day’s work.” Consider shedding or delegating any tasks that don’t directly relate to your OKRs.
+- *Individual:* When writing your daily to do list, note which three tasks are your highest priority, and use the completion of those tasks to measure "a good day's work." Consider shedding or delegating any tasks that don't directly relate to your OKRs.
 - *Team:* Confirm that the assigned objectives and key results (OKRs) of each team member are prominently displayed in each project management plan.
 - *Company:* Confirm that your HR or People department is measuring and monitoring presenteeism, and that work location is not being discussed during performance reviews.
 
@@ -101,7 +101,7 @@ Every quarter, GitLab's Workplace team adds new features and enhancements to the
 **Quick Start Tips:**
 
 - *Individual:* When conducting any kind of retrospective discussion, start the conversation with whether or not the Definition of Done was fulfilled (as a baseline for success measurement), then move on to feedback and learnings.
-- *Team:* Create a field in your project management plan template for listing the project’s definition of done.
+- *Team:* Create a field in your project management plan template for listing the project's definition of done.
 - *Company:* When approving OKRs, include a Definition of Done as a minimum requirement for fulfillment, then supplement with more ambitious goals for the team or individual to work toward.
 
 **Recommended TeamOps Partner:** [Lance Robbins](http://lancehrobbins.com/) (consultant)
@@ -124,9 +124,9 @@ As of 2022-12-01, GitLab has [shipped a monthly product release](https://about.g
 {{% details summary="Change management support for prioritize due dates over scope" %}}
 **Quick Start Tips:**
 
-- *Individual:* Whenever a status update or project review conversation indicates that a result is falling behind schedule or that contributing team members feel overwhelmed, immediately ask the question, “What can we do to simplify this result so that we can stay on track?”
+- *Individual:* Whenever a status update or project review conversation indicates that a result is falling behind schedule or that contributing team members feel overwhelmed, immediately ask the question, "What can we do to simplify this result so that we can stay on track?"
 - *Team:* Confirm that the due date of a project is prominently displayed in each project management plan for your team.
-- *Company:* Update your company’s onboarding and continuing education programs to include training about how to produce iterative results.
+- *Company:* Update your company's onboarding and continuing education programs to include training about how to produce iterative results.
 
 **Recommended TeamOps Partner:** [Lance Robbins](http://lancehrobbins.com/) (consultant)
 {{% /details %}}
@@ -141,7 +141,7 @@ Achieving measurement clarity involves more than evaluating *whether* your team 
 - specific
 - documented
 
-Like all information shared on a team practicing TeamOps, the impacts and action items a message triggers shouldn't rely on a recipient's subjective memory or interpretation. Sharing feedback is a great start to improving an individual's future work; sharing it transparently means that the entire team can improve together_
+Like all information shared on a team practicing TeamOps, the impacts and action items a message triggers shouldn't rely on a recipient's subjective memory or interpretation. Sharing feedback is a great start to improving an individual's future work; sharing it transparently means that the entire team can improve together.
 
 To optimize the efficacy of delivered feedback, consider how other TeamOps tenets can support actionability. For example:
 
@@ -163,7 +163,7 @@ At GitLab, our mission that [everyone can contribute] even influences our feedba
 {{% details summary="Change management support for transparent feedback" %}}
 **Quick Start Tips:**
 
-- *Individual:* Commit to sharing sincere compliments and/or constructive criticism with each of your peers at least once a week. (While you’re building the habit, set reminders on your calendar for reminders and accountability.)
+- *Individual:* Commit to sharing sincere compliments and/or constructive criticism with each of your peers at least once a week. (While you're building the habit, set reminders on your calendar for reminders and accountability.)
 - *Team:* Add a section for group feedback into every meeting agenda.
 - *Company:* Create a ritual for company leadership to receive and share feedback on certain projects or tasks, to set a top-down example of healthy feedback dynamics.
 
@@ -177,11 +177,11 @@ In organizations built on information-based operations, team members' collective
 This is why establishing a transparent [cadence](/handbook/company/cadence/) for decision-making activities, informational updates, and feedback opportunities is important for teams practicing TeamOps. A regular cadence sets a *pace* for productivity and creates predictable, comfortable intervals for work. Establishing and documenting a cadence for everything from operational workflows and [due dates](/handbook/teamops/measurement-clarity/#prioritize-due-dates-over-scope)  to company announcements and team meetings can prevent the kinds of distraction and burnout that often result from context switching, distractive research, or individual uncertainty.
 
 {{% details summary="Examples and resources for cadence" %}}
-**Example:** [GitLab’s Quarterly All-Hands Meeting](/handbook/company/gitlab-assembly/)
+**Example:** [GitLab's Quarterly All-Hands Meeting](/handbook/company/gitlab-assembly/)
 
 At the same time each quarter, executive leadership hosts [GitLab Assembly](/handbook/company/gitlab-assembly/)—a company-wide recap of the past quarter's accomplishments, summary of the new quarter's objectives, and an open-floor Q&A for any employee to resolve questions or concerns. Knowing exactly when this meeting will occur, who will be in attendance, and what will be discussed gives GitLab team members full confidence of when they can have direct access to the executive team about company growth.
 
-**Resource:** [How to use a business cadence to promote collaboration](https://www.hydra.cloud/en/resources/blog/how-to-use-a-business-cadence-to-promote-collaboration) (article)
+**Resource:** [How to use a business cadence to promote collaboration](https://web.archive.org/web/20231201100335/https://www.hydra.cloud/en/resources/blog/how-to-use-a-business-cadence-to-promote-collaboration) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for cadence" %}}

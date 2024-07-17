@@ -46,7 +46,7 @@ will result in an empty project being created.
 
 Here you will need to add the initial content. This is going to vary depending
 on the nature of the project itself. Make sure to setup the
-[.gitlab folder and its contents](./gitlab_folder_setup) for the project!
+[.gitlab folder and its contents](gitlab_folder_setup) for the project!
 
 Before leaving the project, you will also want to copy the `Clone with SSH`
 value for the target project. You can find this on the main page of the project
@@ -234,7 +234,7 @@ Add the rest of your code and then add it to the project. Keep in mind you need
 to:
 
 - Make sure to setup the
-  [.gitlab folder and its contents](./gitlab_folder_setup) for the project!
+  [.gitlab folder and its contents](gitlab_folder_setup) for the project!
 - Have CI/CD code for handling submodule updates (triggered via webhook)
 - Have CI/CD code to report when something is out of date (triggers via commit
   to master)

@@ -1,10 +1,8 @@
 ---
-
 title: "Projects"
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/projects/index.html
 ---
-
 
 ## Introduction
 
@@ -33,7 +31,7 @@ All projects are organized in sub-groups on the top level. No projects are allow
 | [use-cases/efficiency](https://gitlab.com/gitlab-da/use-cases/efficiency) | @dnsmichi | Efficiency use cases (CI/CD, container images, workflows, CLI, etc.) |
 | [use-cases/gitlab-api](https://gitlab.com/gitlab-da/use-cases/gitlab-api) | @dnsmichi | GitLab API use cases with libraries and scripts |
 | [use-cases/observability](https://gitlab.com/gitlab-da/use-cases/observability) | @dnsmichi | Observability uses cases and research (OpenTelemetry, eBPF, etc.) |
-| [use-cases/remote-development](https://gitlab.com/gitlab-da/use-cases/remote-development) | @dnsmichi @iganbaruch | Remote development environments and Web IDE use cases |
+| [use-cases/remote-development](https://gitlab.com/gitlab-da/use-cases/remote-development) | @dnsmichi @iganbaruch | Workspaces environments and Web IDE use cases |
 | [use-cases/scientific-research](https://gitlab.com/gitlab-da/use-cases/scientific-research) | @abuango | Scientific research projects and integrations |
 | [workshops](https://gitlab.com/gitlab-da/workshops) | all | Workshop groups and projects provided by the team |
 | [projects](https://gitlab.com/gitlab-da/projects) | @abuango | Production projects maintained by the team. For blog projects and demos, use the specific `use-cases` groups. |
@@ -117,7 +115,7 @@ flowchart TD;
   C --> |No| B
 ```
 
-### Remote Development Workspaces
+### Workspaces
 
 The [remote-development sub group](https://gitlab.com/gitlab-da/use-cases/remote-development) has an agent for Kubernetes installed, which is documented in the [agent-kubernetes-gke](https://gitlab.com/gitlab-da/use-cases/remote-development/agent-kubernetes-gke) project. This includes troubleshooting when the agent becomes unresponsive, and workspaces are not created.
 
@@ -145,7 +143,7 @@ Goal: The coffee chats helps our customers learn how to use GitLab Duo and adopt
 - [Talk: Efficient DevSecOps Workflows with a little help from AI](https://go.gitlab.com/T864XF) - [content epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402)
 - [Organization issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/375)
 
-Maintainer: [Michael Friedrich, @dnsmichi](https://about.gitlab.com/handbook/company/team/#dnsmichi)
+Maintainer: [Michael Friedrich, @dnsmichi](/handbook/company/team/#dnsmichi)
 
 ### CI/CD Adoption
 

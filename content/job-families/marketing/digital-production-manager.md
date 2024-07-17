@@ -30,7 +30,7 @@ The Digital Production Coordinator is a [grade 5](/handbook/total-rewards/compen
 
 ### Requirements
 
-- Bachelor’s Degree or extensive training in broadcast journalism, film & television, or audio/video production
+- Bachelor's Degree or extensive training in broadcast journalism, film & television, or audio/video production
 - 2+ years of production experience and at least 1 year of marketing experience
 - Extremely detail-oriented and organized
 - Excellent writing, communication and time-management skills
@@ -67,7 +67,7 @@ The Digital Producer is a [grade 6](/handbook/total-rewards/compensation/compens
 
 ### Requirements
 
-- Bachelor’s Degree or extensive training in broadcast journalism, film & television, or audio/video production
+- Bachelor's Degree or extensive training in broadcast journalism, film & television, or audio/video production
 - 3+ years of solid video production work experience and at least 1 year of marketing experience
 - Must be a creative self-starter with exceptional multimedia storytelling skills
 - Excellent writing, communication and time-management skills
@@ -104,7 +104,7 @@ The Senior Digital Producer is a [grade 7](/handbook/total-rewards/compensation/
 
 ### Requirements
 
-- Bachelor’s Degree or extensive training in broadcast journalism, film & television, or audio/video production
+- Bachelor's Degree or extensive training in broadcast journalism, film & television, or audio/video production
 - 5+ years of solid work experience in video and audio production and at least 1 year of marketing experience
 - Must be a creative self-starter with exceptional multimedia storytelling skills
 - Excellent communication, writing and time management skills

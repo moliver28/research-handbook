@@ -1,12 +1,11 @@
 ---
-
 title: Support Team Member Time Off
 description: Guidelines for how time off applies to Support team members and what actions need to be taken. Page should not be moved without a Support Global Change Management issue.
 ---
 
 ## Support Team Member Time Off
 
-The Support Team follows [GitLab's paid time off policy](https://about.gitlab.com/handbook/people-group/paid-time-off/).
+The Support Team follows [GitLab's paid time off policy](/handbook/people-group/paid-time-off/).
 We balance that with the need to deliver support to our customers every day.
 This page is intended to provide all Support Team Members with an understanding
 of what we need to do to achieve that balance, making it possible for all to
@@ -195,7 +194,7 @@ If you plan to be out for more than three days, follow the guidance regarding
 Otherwise:
 
 1. Please do your best to resolve any assigned tickets you have in your queue.
-1. Communicate with your customers to let them know the days you’ll be away, and
+1. Communicate with your customers to let them know the days you'll be away, and
    to ask whether they will need help during your absence. Many of our customers
    might be on the same holiday schedule and will be fine with resuming work on
    a ticket when you both return.

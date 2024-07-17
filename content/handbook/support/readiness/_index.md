@@ -65,4 +65,4 @@ used are:
 ## Support Readiness Links
 
 - [Readiness Subgroup](https://gitlab.com/gitlab-com/support/readiness)
-- [Operations Team](./operations)
+- [Operations Team](operations/)

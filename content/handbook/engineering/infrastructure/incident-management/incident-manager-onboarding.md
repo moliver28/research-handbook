@@ -82,23 +82,23 @@ When your on-call shift starts, you will get notification(s) that your shift is 
 
 ### When an incident happens
 
-You are expected to respond to announcements in the [`#incident-management` Slack channel](https://gitlab.slack.com/archives/CB7P5CJS1). Review the [`General guildeines for production incidents`](https://gitlab.com/gitlab-com/runbooks#general-guidelines-for-production-incidents), verify the severity label on the issue, and update it if
+You are expected to respond to announcements in the [`#incident-management` Slack channel](https://gitlab.slack.com/archives/CB7P5CJS1). Review the [`General guidelines for production incidents`](https://gitlab.com/gitlab-com/runbooks#general-guidelines-for-production-incidents), verify the severity label on the issue, and update it if
 neccesary.
 
-When an S1 or S2 happens during a current incident, decide which incident has the highest customer impact and work on that issue. Reach out to infrastructure leadership escalation](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#infrastructure-leadership-escalation)
+When an S1 or S2 happens during a current incident, decide which incident has the highest customer impact and work on that issue. Reach out to infrastructure leadership escalation](/handbook/engineering/infrastructure/incident-management/#infrastructure-leadership-escalation)
 to get help with the lesser customer impact issue.
 
 ### Ending your on-call shift
 
-Before your shift ends, consider what tasks need to be handed over and make sure to proactively communicate them to the next on-call incident manager. This may mean paging the next on-call incident manager (through PagerDuty or the `@incident-managers` Slack handle) and bringing them into an active troubleshooting call, or it may mean providing instructions or context for situations you have handled that have some follow-up action. If there’s a situation that occurred (or is actively happening) during your shift, it’s your responsibility to prepare the next on-call incident manager.
+Before your shift ends, consider what tasks need to be handed over and make sure to proactively communicate them to the next on-call incident manager. This may mean paging the next on-call incident manager (through PagerDuty or the `@incident-managers` Slack handle) and bringing them into an active troubleshooting call, or it may mean providing instructions or context for situations you have handled that have some follow-up action. If there's a situation that occurred (or is actively happening) during your shift, it's your responsibility to prepare the next on-call incident manager.
 
 ### Additional resources
 
-- [Reporting an incident](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#reporting-an-incident)
+- [Reporting an incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident)
 - [IMOC Checklist](https://gitlab.com/gitlab-com/runbooks/-/blob/master/incidents/general_incidents.md#imoc-checklist)
-- [IMOC Responsibilities](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#responsibilities)
+- [IMOC Responsibilities](/handbook/engineering/infrastructure/incident-management/#responsibilities)
 - [Runbook IMOC](https://gitlab.com/gitlab-com/runbooks/-/blob/master/on-call/checklists/imoc.md)
-- [Monitoring](https://about.gitlab.com/handbook/engineering/monitoring/)
+- [Monitoring](/handbook/engineering/monitoring/)
 
 ## Frequently Asked Questions
 

@@ -89,7 +89,7 @@ Distribution ensures the experience of installing and maintaining GitLab is easy
 
 ### Distribution:Build Charter
 
-Build team focus is ensuring GitLab components are tested, current, license compliant, and available for our users’ platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
+Build team focus is ensuring GitLab components are tested, current, license compliant, and available for our users' platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
 
 ### Distribution:Deploy Charter
 
@@ -271,7 +271,7 @@ All work carried out by the Distribution team is public. Some exceptions apply:
 - Work has legal implications - Unless legal details can be omitted from the work.
 
 Some of the team work is carried out on our development server at `dev.gitlab.org`.
-[Infrastructure overview document](https://docs.gitlab.com/omnibus/release/README.html#infrastructure) lists the reasons.
+[Infrastructure overview document](https://docs.gitlab.com/omnibus/release/#infrastructure) lists the reasons.
 
 Unless your work is related to the security, all other work is carried out in projects on `GitLab.com`.
 If you need to submit a sensitive issue, please use confidential issues.

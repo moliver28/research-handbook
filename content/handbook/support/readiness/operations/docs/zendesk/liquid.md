@@ -4,7 +4,6 @@ description: Support Operations documentation page for the Zendesk liquid langua
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/liquid"
 ---
 
-
 ## What is the liquid language
 
 Liquid is an [open-source](https://github.com/Shopify/liquid) template language

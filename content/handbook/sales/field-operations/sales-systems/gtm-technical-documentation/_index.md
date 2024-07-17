@@ -1,5 +1,4 @@
 ---
-
 title: "Go-To-Market Technical Documentation"
 description: "This page is the key GitLab Handbook page for all the technical documentation relating to the main projects and automations that the sales systems has worked on, developed and deployed. It includes a high level business overview as well as technical details revolving around each project's technical lift."
 ---
@@ -562,7 +561,7 @@ Please see our internal [document](https://docs.google.com/document/d/1UaKPTQePA
 
 **Business Process this supports:** Digital Journey - In order to deliver the digital journey enablement series to new customers, we need a way to identify contact roles for certain personas in the business to receive the right material.
 
-**Overview:** For the Commercial and Enterprise markets, we will require identifying the GitLab admins at each Account at the time of Opportunity approval submission. When the “Submit for Approval” button is clicked in the Opportunity, logic will run the check criteria (defined below) on if a GitLab Admin is required and if there is currently one defined. Providing a GitLab Admin is defined by having at least one contact on the Account that has `Role` CONTAIN GitLab Admin. Note: This contact can have other roles defined in this field in addition to GitLab Admin.
+**Overview:** For the Commercial and Enterprise markets, we will require identifying the GitLab admins at each Account at the time of Opportunity approval submission. When the "Submit for Approval" button is clicked in the Opportunity, logic will run the check criteria (defined below) on if a GitLab Admin is required and if there is currently one defined. Providing a GitLab Admin is defined by having at least one contact on the Account that has `Role` CONTAIN GitLab Admin. Note: This contact can have other roles defined in this field in addition to GitLab Admin.
 
 There will be Salesforce validation checks at stages 4+ to ensure at least one `gitlab admin` has been identified to support the account via Digital Programs. At Stages 4+ and deal close and if the criteria below is met, there are two potential results:
 
@@ -765,7 +764,7 @@ Stamped Opp Owner User Role Type
 
 **Logic** -
 
-- When an opportunity is created, the automation stamps the fields depending on user’s  profile attributes
+- When an opportunity is created, the automation stamps the fields depending on user's  profile attributes
 - When `Stamped fields edited by OP` is checked, the flow will not run. Preventing the field updates regardless of when an opportunity owner is changed.
 
 **Logic Locations**

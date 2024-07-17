@@ -173,7 +173,7 @@ proceeding.
 
 After confirming the settings, you will want to create a merge request with the
 desired code. Make sure to setup the
-[.gitlab folder and its contents](./gitlab_folder_setup) for the project!
+[.gitlab folder and its contents](gitlab_folder_setup) for the project!
 
 Once that merge request has been successfully merged into the default branch,
 you are good to move onto the next step.

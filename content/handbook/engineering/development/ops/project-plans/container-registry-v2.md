@@ -1,15 +1,8 @@
 ---
-
 title: Container Registry Metadata Database Self-managed
 description: >-
   Project plan for the rollout of Container Registry Metadata Database to self-managed users.
 ---
-
-
-
-
-
-
 
 ## Weekly Project Plan
 
@@ -185,7 +178,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
 - Completed:
   - Evaluate adding a progress bar and better log presentation for the importer.
   - Engage with users and customers who are running the importer on large registries.
-  - Created [list](https://docs.google.com/spreadsheets/d/1xlYrk33zEH9mazq3px5ex8E4AnwzHa9Z5D6mxsIaORw/edit?usp=sharing) of feature flagged container registry endpoints that exist in Gitlab Rails for .com.
+  - Created [list](https://docs.google.com/spreadsheets/d/1xlYrk33zEH9mazq3px5ex8E4AnwzHa9Z5D6mxsIaORw/edit?usp=sharing) of feature flagged container registry endpoints that exist in GitLab Rails for .com.
 
 ### Milestone 16.7 (November 13, 2023 - December 21, 2023)
 

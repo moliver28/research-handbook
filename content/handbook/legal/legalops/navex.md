@@ -3,11 +3,11 @@ title: "NAVEX Compliance Courses"
 description: "Information about NAVEX compliance training, including processes, course info, and FAQ"
 ---
 
-The information on this page is specific to NAVEXEngage, NAVEX’s online ethics and compliance training solution. To learn more about other compliance courses and resources at GitLab, please visit the [Learning & Development handbook](/handbook/people-group/learning-and-development/compliance-courses/).
+The information on this page is specific to NAVEXEngage, NAVEX's online ethics and compliance training solution. To learn more about other compliance courses and resources at GitLab, please visit the [Learning & Development handbook](/handbook/people-group/learning-and-development/compliance-courses/).
 
 ## Access
 
-All new team members have a task during their onboarding to set up their NAVEX account and complete the assigned courses within 30 days of starting. NAVEX accounts are provisioned automatically on a new hire’s start date via a Workday integration and can only be accessed through Okta.
+All new team members have a task during their onboarding to set up their NAVEX account and complete the assigned courses within 30 days of starting. NAVEX accounts are provisioned automatically on a new hire's start date via a Workday integration and can only be accessed through Okta.
 
 ## Courses
 
@@ -41,7 +41,7 @@ If the course launch button does not work, clear your cache. Also ensure that yo
 If you are experiencing course completion issues, follow these best practices:
 
 - Ensure your internet connection is stable.
-- Don’t leave the course unattended without input (i.e., running in the background).
-- Close out of the course prior to changing networks, docking/undocking computers, locking your computer, stepping away from your computer, or completing other work (use the internal course ‘x’ as opposed to the main window ‘x’).
+- Don't leave the course unattended without input (i.e., running in the background).
+- Close out of the course prior to changing networks, docking/undocking computers, locking your computer, stepping away from your computer, or completing other work (use the internal course 'x' as opposed to the main window 'x').
 
 For questions, reach out in `#compliance-training` on Slack.

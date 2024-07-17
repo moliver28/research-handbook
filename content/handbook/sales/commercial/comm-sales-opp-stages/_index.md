@@ -1,15 +1,7 @@
 ---
-
 title: "Commercial Sales Opportunity Stages"
 description: "Sales stages activities and exit criteria"
 ---
-
-
-
-
-
-
-
 
 ## <i class="fas fa-users fa-fw icon-color font-awesome"></i>Why Are Sales Stages So Important?
 

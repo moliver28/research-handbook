@@ -1,8 +1,6 @@
 ---
-
 title: "Data Science Usecase: Keywords"
 ---
-
 
 ### Keywords for data science
 
@@ -13,7 +11,7 @@ terms are linked to their Wikipedia articles
 - [business intelligence (BI)](https://en.wikipedia.org/wiki/Business_intelligence): analyzing and reporting historical data, like sales statistics and operational metrics, to guide strategic decision-making
 - [data analysis](https://en.wikipedia.org/wiki/Data_analysis): inspecting, cleansing, transforming, and modeling data, with the goal of discovering useful information
 - [data mining](https://en.wikipedia.org/wiki/Data_mining): discovering patterns in data with methods and tools like machine learning, statistics, and database systems
-- [exploratory data analysis (EDA)](https://en.wikipedia.org/wiki/Exploratory_data_analysis): summarizing a dataset’s main characteristics and informing the development of more complex models or logical next steps
+- [exploratory data analysis (EDA)](https://en.wikipedia.org/wiki/Exploratory_data_analysis): summarizing a dataset's main characteristics and informing the development of more complex models or logical next steps
 - [data engineering](https://en.wikipedia.org/wiki/Data_engineering): building infrastructure with which data are gathered, cleaned, stored, and prepped for data science
 - [DataOps](https://en.wikipedia.org/wiki/DataOps): automated, process-oriented methodologies to improve quality and reduce cycle time in data analytics — akin to DevOps for data, [with these key differences](https://medium.com/data-ops/dataops-is-not-just-devops-for-data-6e03083157b7)
 - [artificial intelligence (AI)](https://en.wikipedia.org/wiki/Artificial_intelligence): computer systems that can perform tasks that normally require human intelligence, using human reasoning as a model

@@ -8,7 +8,7 @@ description: >-
 
 ## Intro and Goal
 
-The Category Maturity (CM) Scorecard is a [Summative Evaluation](https://www.nngroup.com/articles/formative-vs-summative-evaluations/) that takes into account the entire experience as defined by a Job to be Done (JTBD), instead of individual improvement(s), which are often measured through [Usability Testing](/handbook/product/ux/ux-research/usability-testing/) (i.e. Solution Validation). This specialized process provides data to help us grade the [maturity of our product](https://about.gitlab.com/direction/maturity/).
+The Category Maturity (CM) Scorecard is a [Summative Evaluation](https://www.nngroup.com/articles/formative-vs-summative-evaluations/) that takes into account the entire experience as defined by a Job to be Done (JTBD), instead of individual improvement(s), which are often measured through [Usability Testing](/handbook/product/ux/ux-research/usability-testing/) (i.e. Solution Validation). This specialized process provides data to help us grade the [maturity of our product](https://about.gitlab.com/direction/#maturity).
 
 The goal of this process is to produce data as objectively as possible given time and resource constraints. For this reason, the process is more rigorous than other UX research methods, and it focuses more on measures and less on thoughts and verbal feedback.
 
@@ -20,7 +20,7 @@ Sometimes the JTBD you need to evaluate occurs over a period of time, such as a 
 
 Occasionally, teams run into situations where they learn something surprising from a CM Scorecard -- for example, even though the score for this single research initiative is high enough to move maturity up, they believe based on the findings that it's not ready, yet. In this case, the Product Manager and Product Designer should use their good judgement about addressing fundamental problems before changing maturity and communicate that decision to stakeholders.
 
-If you have questions, suggestions for improvement, or find this process doesn’t meet the needs of your users or product category, reach out to the [UX Researcher for your group](/handbook/product/categories/).
+If you have questions, suggestions for improvement, or find this process doesn't meet the needs of your users or product category, reach out to the [UX Researcher for your group](/handbook/product/categories/).
 
 Any Category Maturity Scorecard effort should have a corresponding issue created in the GitLab UX Research project. Ensure the label `CM Scorecard` is applied to the issue to aid in tracking UX research efforts.
 
@@ -39,7 +39,7 @@ The below table outlines the requirements for each maturity level:
 | Viable         | Internal users who are dogfooding | **C** (Average). This is the same grading system from the UX Scorecard grading rubric. / The path for the primary JTBD is well established, intentional in design, and clear in the outcome it enables users to reach.                       | Meets 100% of GitLab design standards         | (not required)                        |
 | Minimal        | (not required)                    | **D** (Poor). This is the same grading system from the UX Scorecard grading rubric. / The path for the primary JTBD is established, intentional in design, and nearing a clear outcome for users to reach.                            | Meets at least 80% of GitLab design standards | (not required)                        |
 
-Refer to the [Category Maturity](https://about.gitlab.com/direction/maturity/) page to understand scoring of a Category Maturity Scorecard study.
+Refer to the [Category Maturity](https://about.gitlab.com/direction/#maturity) page to understand scoring of a Category Maturity Scorecard study.
 
 Previously completed Category Maturity Scorecards can be found in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/6930).
 
@@ -74,7 +74,7 @@ During the JTBD creation and validation phases, the Product Designer and Product
 
 To balance expediency with getting a variety of perspectives, we conduct the Category Maturity Scorecard research with five participants from one set of user criteria. If you have multiple user types for your JTBD, it is ideal to recruit 5 from each user type. To keep the study manageable, focus on no more than 2 user types per study. If more than 2 user types are required to accurately measure your JTBD, conduct a separate follow-up study for the remaining user types.
 
-**Example:** A JTBD can be completed by a DevOps Engineer and a Release Manager. In this case, you’d recruit a total of 10 participants: 5 DevOps Engineers and 5 Release Managers
+**Example:** A JTBD can be completed by a DevOps Engineer and a Release Manager. In this case, you'd recruit a total of 10 participants: 5 DevOps Engineers and 5 Release Managers
 
 The recruiting criteria can be based on an existing persona, but needs to be specific enough that it can be turned into a screener survey. A screener survey should then be created in Qualtrics that your prospective participants will fill out to help you determine if they're eligible to participate.
 
@@ -86,18 +86,18 @@ The template survey includes a question asking people if they consent to having 
 
 Testing in a production environment is the best choice because your goal is to evaluate the actual product, not a prototype that may have a slightly different experience.
 
-Once you know what scenario(s) you’ll put your participants through, it’s important to determine the interface you’ll use. Some questions to ask yourself:
+Once you know what scenario(s) you'll put your participants through, it's important to determine the interface you'll use. Some questions to ask yourself:
 
 - **Can your participant use their own GitLab account?** If not, can you set them up with a GitLab.com account and have them use that?
 - **Do you require a self-managed instance?** If yes, do you need to provide one?
 - **Do your scenarios require any external actions?** For example, do you need to display a specific alert, or can a participant complete everything on their own?
 - **Does your scenario require interacting with anything besides a GitLab web-based interface?** Should they receive an email or do they need to use a command-line interface?
 
-It’s important to thoroughly plan how a participant will complete your scenario(s), especially if you answered "yes" to any of the questions above. Involve technical counterparts early in the process if you have any uncertainty about how to enable users to go through your desired flow(s).
+It's important to thoroughly plan how a participant will complete your scenario(s), especially if you answered "yes" to any of the questions above. Involve technical counterparts early in the process if you have any uncertainty about how to enable users to go through your desired flow(s).
 
 If you want help creating a pristine test environment be sure to reach out to the [Demo Systems](/handbook/customer-success/demo-systems/) group on the #demo-systems Slack channel. They can create a demo environment for users and help build any particular parameters needed for your testing environment. Be aware that setting up a test environment for a research study can be time consuming and difficult. Alternately, you can utilitze the [UX Cloud Sandbox](/handbook/product/ux/ux-research/ux-cloud-sandbox/).
 
-If your JTBD interacts with other stage groups’ areas, reach out to them to ensure their part of our product will support your scenario(s).
+If your JTBD interacts with other stage groups' areas, reach out to them to ensure their part of our product will support your scenario(s).
 
 Because this is a summative evaluation of the current experience, all of the available options the participant should need access to must be available in the GitLab instance. When you recruit participants, keep in mind the tools and features they must access to complete the JTBD scenarios.
 
@@ -105,24 +105,24 @@ Because this is a summative evaluation of the current experience, all of the ava
 
 Run through the scenarios yourself after they have been completed. Document what qualifies as successful completion of each scenario for future reference.
 
-Make sure to test these scenarios with coworkers before evaluating with research participants. Ideally, the coworker(s) won’t be familiar with the scenario or have an expert-level understanding. It’s acceptable to coach them a little, using the pilot as a discussion to uncover any problems with your scenarios.
+Make sure to test these scenarios with coworkers before evaluating with research participants. Ideally, the coworker(s) won't be familiar with the scenario or have an expert-level understanding. It's acceptable to coach them a little, using the pilot as a discussion to uncover any problems with your scenarios.
 
-👍 **Defining ‘Success’**
+👍 **Defining 'Success'**
 
 - Successful scenario completion.
-- A single scenario may have several paths to the end goal that result in completion, and thereby a ‘Success’. The team must identify the end goal prior to the study starting so everyone is aligned.
+- A single scenario may have several paths to the end goal that result in completion, and thereby a 'Success'. The team must identify the end goal prior to the study starting so everyone is aligned.
   - *Why is this important?* Identifying and being aligned on the end goal allows the moderator to accurately know what is success/failure, which is critical to know since follow-up questions are dependent on completing the scenario.
-- How the participant ended up at the end goal may not be important for the team to document. If the participant took the long path and felt it was or wasn’t easy, that should be reflected in their score. What matters most is if they ended up at the end goal.
+- How the participant ended up at the end goal may not be important for the team to document. If the participant took the long path and felt it was or wasn't easy, that should be reflected in their score. What matters most is if they ended up at the end goal.
 
-👎 **Defining ‘Failure’**
+👎 **Defining 'Failure'**
 
 - Unable to complete the scenario.
 - A partial completion of the scenario.
 
-**What to do if ‘Failure’ happens during a study**
+**What to do if 'Failure' happens during a study**
 
 - If there is a failure, the team should try their best to understand why it occurred (ex: Was it the way the scenario was phrased? Was the experience confusing? etc.).
-  - *How can this be done?* One way to do this is to go back at the end of the study to have the participant go through that scenario again. This time, you can ask targeted questions to understand why they took the route they took in the experience. (ex: *‘It looks like you clicked on ‘Issues’. Tell me more about why you selected that menu item.’, ‘You felt you completed the scenario at this point. What gave you the confidence that you accomplished the goal of XYZ?’*)
+  - *How can this be done?* One way to do this is to go back at the end of the study to have the participant go through that scenario again. This time, you can ask targeted questions to understand why they took the route they took in the experience. (ex: *'It looks like you clicked on 'Issues'. Tell me more about why you selected that menu item.', 'You felt you completed the scenario at this point. What gave you the confidence that you accomplished the goal of XYZ?'*)
 - When a participant is unable to complete a scenario, their ratings on that scenario are discarded and not accounted for when calculating the CM Scorecard score.
 - If at any point you notice that less than 80% of participants are able to pass a scenario, the study should stop at that most recent participant to conserve resources.
 
@@ -138,7 +138,7 @@ Before participants go through the scenarios, make sure to emphasize that they s
 
 #### The 3 questions we ask
 
-When a participant is successful at completing a scenario, they are then asked 3 questions to help us measure their experience, which we then tie back to category maturity. Note that if a participant failed at completing a scenario, there’s no need to ask them these 3 questions.
+When a participant is successful at completing a scenario, they are then asked 3 questions to help us measure their experience, which we then tie back to category maturity. Note that if a participant failed at completing a scenario, there's no need to ask them these 3 questions.
 
 At the root of how we rate/grade experiences, it arguably comes down to three main elements:
 
@@ -150,7 +150,7 @@ At the root of how we rate/grade experiences, it arguably comes down to three ma
 
 The [Single Ease Question (SEQ)](https://measuringu.com/single-question/) is a newly introduced industry-wide question based on other UX-related questions and measures. This question essentially helps us understand if the scenario was easy or difficult to complete and provides a simple and reliable way of measuring scenario-performance satisfaction. This question is also used for the UX Scorecard formative evaluation approach.
 
-*Q1: “Overall, this scenario was...”*
+*Q1: "Overall, this scenario was..."*
 
 - Extremely easy
 - Easy
@@ -160,9 +160,9 @@ The [Single Ease Question (SEQ)](https://measuringu.com/single-question/) is a n
 
 **Question 2: Satisfaction rating**
 
-Admittedly, the term ‘user experience’ is broad; as it encompasses many components we care about (ex: efficiency, speed, usability, etc) that are completely applicable to how one rates an overall user experience. Because of that, we’re intentionally not defining ‘user experience’ and feel that given our audience, the definition will be collectively understood with a high level of accuracy. This question is also used for the UX Scorecard formative evaluation approach.
+Admittedly, the term 'user experience' is broad; as it encompasses many components we care about (ex: efficiency, speed, usability, etc) that are completely applicable to how one rates an overall user experience. Because of that, we're intentionally not defining 'user experience' and feel that given our audience, the definition will be collectively understood with a high level of accuracy. This question is also used for the UX Scorecard formative evaluation approach.
 
-*Q2: “How would you rate the quality of this experience?”*
+*Q2: "How would you rate the quality of this experience?"*
 
 - Extremely good
 - Good
@@ -184,7 +184,7 @@ The [UMUX Lite](https://measuringu.com/umux-lite/) score is based on the UMUX (U
 - Disagree
 - Strongly disagree
 
-You will need to decide on how to compose your scenario name. Take into consideration the name we use for the category on the [Category Maturity page](https://about.gitlab.com/direction/maturity/). There may be instances where using the scenario name as we use it is not optimal for presenting to a user for getting feedback because it may not be clear enough to them.
+You will need to decide on how to compose your scenario name. Take into consideration the name we use for the category on the [Category Maturity page](https://about.gitlab.com/direction/#maturity). There may be instances where using the scenario name as we use it is not optimal for presenting to a user for getting feedback because it may not be clear enough to them.
 
 #### Zoom and Respondent.io tips
 
@@ -228,13 +228,13 @@ Note: Do not enter in ratings for participants who experienced task failure, as 
 
 For example:
 
-- 4.70 average = ‘A’ CM Scorecard grade = ‘78.9-100’ SUS = Complete
-- 3.93 average = ‘B’ CM Scorecard grade = ‘72.6 - 78.8’ SUS = Competitive
+- 4.70 average = 'A' CM Scorecard grade = '78.9-100' SUS = Complete
+- 3.93 average = 'B' CM Scorecard grade = '72.6 - 78.8' SUS = Competitive
 
-**Minimum % pass rate:** Minimum % pass rates help indicate what percentage of participants must succeed in a scenario to meet a minimum requirement. This also helps indicate what level of scenario failure is acceptable. Scenario failures are important to note and we can’t discount them, so they must be incorporated as part of the criteria to move category maturity levels. If the Minimum % pass rate for any scenario is less than 80% during a study, the study should stop at that most recent participant to conserve resources. In the event this should occur, the category maturity cannot be moved up a level. The team should take those learnings, iterate, and retest when they’re ready again. It’s also recommended that a retrospective take place to learn:
+**Minimum % pass rate:** Minimum % pass rates help indicate what percentage of participants must succeed in a scenario to meet a minimum requirement. This also helps indicate what level of scenario failure is acceptable. Scenario failures are important to note and we can't discount them, so they must be incorporated as part of the criteria to move category maturity levels. If the Minimum % pass rate for any scenario is less than 80% during a study, the study should stop at that most recent participant to conserve resources. In the event this should occur, the category maturity cannot be moved up a level. The team should take those learnings, iterate, and retest when they're ready again. It's also recommended that a retrospective take place to learn:
 
 - What happened?
-- Why weren’t participants able to successfully complete the scenarios?
+- Why weren't participants able to successfully complete the scenarios?
 - What will we do to address this?
 
 **Score interpretation examples:**
@@ -244,10 +244,10 @@ For example:
 
 #### Post-session debriefing
 
-It’s important that the moderator and any stakeholders don’t leave the call when the session concludes. Instead, remove the participant and remain on the call. Use this time for the group to debrief on what they just experienced. The notetaker(s) should take notes on this discussion.
+It's important that the moderator and any stakeholders don't leave the call when the session concludes. Instead, remove the participant and remain on the call. Use this time for the group to debrief on what they just experienced. The notetaker(s) should take notes on this discussion.
 
 - Have each person talk about what they feel were the major findings of the session.
-- Mention any issues with the session or things that should be done differently in future studies. However, do not make changes to how planned sessions are conducted, otherwise the data can’t be compared. For this reason, we suggest running a pilot session to work out any kinks.
+- Mention any issues with the session or things that should be done differently in future studies. However, do not make changes to how planned sessions are conducted, otherwise the data can't be compared. For this reason, we suggest running a pilot session to work out any kinks.
 - Allow anyone to ask any questions about the content covered or otherwise say things they feel need to be said before the session concludes.
 
 #### Resulting data
@@ -262,9 +262,9 @@ The goal for analyzing Category Maturity Scorecard data is to establish a baseli
 
 **To analyze:** Use the [Google Sheet](https://docs.google.com/spreadsheets/d/1w3GZNc11PSZ9sN_2II5SI3fwK4tH9LLSb2bci_o2mWg/copy) to aid in calculating the CM Scorecard score, per scenario. Additionally, look for themes behind the reason why participants scored the way they did.
 
-**To document:** Document and highlight areas for improvement via issues, utilizing the [‘Actionable Insight’ scoped labels](/handbook/product/ux/ux-research/research-insights/#how-to-document-actionable-insights), to make further improvements to the experience.
+**To document:** Document and highlight areas for improvement via issues, utilizing the ['Actionable Insight' scoped labels](/handbook/product/ux/ux-research/research-insights/#how-to-document-actionable-insights), to make further improvements to the experience.
 
-Read the UX Research team’s guide for [documenting insights in Dovetail](/handbook/product/ux/dovetail/#the-ux-research-teams-guide-to-documenting-insights-in-dovetail).
+Read the UX Research team's guide for [documenting insights in Dovetail](/handbook/product/ux/dovetail/#the-ux-research-teams-guide-to-documenting-insights-in-dovetail).
 
 ### Update JTBD data file
 

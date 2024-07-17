@@ -20,7 +20,7 @@ Knowing *where* to search in Kibana is paramount to getting the proper results. 
 
 ![Changing search index](/images/support/kibana_index-selection.jpg)
 
-Indexes closely correlate for the most part with our [log structure](https://docs.gitlab.com/ee/administration/logs.html) in general. Some other frequently used indexes are:
+Indexes closely correlate for the most part with our [log structure](https://docs.gitlab.com/ee/administration/logs/) in general. Some other frequently used indexes are:
 
 - `pubsub-gitaly-inf-gprd-*`
 - `pubsub-pages-inf-gprd-*`

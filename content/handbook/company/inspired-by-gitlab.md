@@ -50,32 +50,32 @@ In this section we list the companies that have been inspired by GitLab with the
    - This all-remote company launched [Twist](https://doist.com/blog/twist-mindful-team-communication/), a team communications app. In a series of [Remote Work Guides](https://twist.com/remote-work-guides), Doist cites GitLab in sharing practices around all-remote [hiring](https://twist.com/remote-work-guides/remote-company-setup) and [management](https://twist.com/remote-work-guides/remote-management), as well as mastering [asynchronous communication](https://twist.com/remote-work-guides/remote-team-communication).
 1. [Joy Labs](https://joylabs.com/)
    - This all-remote company is developing communication software, including [Memo](https://memo.com/). GitLab's intentional approach to [informal communication](/handbook/company/culture/all-remote/informal-communication/) was used in [building Joy Labs' company culture](https://www.linkedin.com/posts/joylabs_informal-communication-activity-6599648936762445824-Jd-6/).
-1. [Veamly](https://veamly.com/)
+1. Veamly
    - Veamly is a remote-first software firm. CEO Emna G. was inspired GitLab's documented approach to [building company culture](/handbook/company/culture/all-remote/building-culture/), and shared elements that she is implementing in a [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) [Pick Your Brain](/handbook/company/culture/all-remote/pick-your-brain/) video.
 1. [ProxyCrawl](https://proxycrawl.com/)
    - At ProxyCrawl we are a completely remote company with employees all around the world working from home, co-working spaces, coffee shops, parks, etc. All our products have been created by our remote team. We have faced many of the issues of a worldwide remote team and GitLab handbook has helped us and inspired us to be a greater team. Special mentions to [communication](/handbook/communication/) and [all-remote](/handbook/company/culture/all-remote/guide/) pages.
 1. [Hubstaff](https://twitter.com/TSell89/status/1329372153595117568)
-   - "The open source GitLab handbook is why I’m a successful remote worker and leader after a 13 year career in education."
+   - "The open source GitLab handbook is why I'm a successful remote worker and leader after a 13 year career in education."
 1. [Clearbit](https://clearbit.com/blog/gitlabs-strategies-remote-first/)
    - "As the COVID headwinds continue to push back against a full reopening, now is a good time for CEOs to embrace remote work — and discover how it can make their teams even more effective."
 1. [Tackle](https://twitter.com/johnjahnke/status/1235183028785360897)
    - "[The GitLab all-remote guide] is an amazing resource when you are working through building a remote company. We use it regularly at Tackle. Thanks GitLab for sharing your guide with the community."
 1. [Gable](https://twitter.com/liza_mash/status/1366906945031049216)
-   - "Remote work thrives most when teams focus on async communication and that’s just what we do, guided by amazing examples from GitLab, Doist, and Buffer. Our team is not expected to answer emails or Slack chats immediately."
+   - "Remote work thrives most when teams focus on async communication and that's just what we do, guided by amazing examples from GitLab, Doist, and Buffer. Our team is not expected to answer emails or Slack chats immediately."
 1. [Botmock](https://twitter.com/ElleForLanguage/status/1360356999897239553)
    - "[GitLab] literally wrote the manifesto on remote work; for this our team will be forever grateful."
 1. [Aimtal](https://twitter.com/meshymind/status/1359527704467562501)
-   - "All of this, especially THIS - 'Remote isn’t the future of work; it’s the future of living.' We're adopting many of GitLab's remote work practices and processes at Aimtal. Many thanks to their team for openly sharing their knowledge and insights!"
+   - "All of this, especially THIS - 'Remote isn't the future of work; it's the future of living.' We're adopting many of GitLab's remote work practices and processes at Aimtal. Many thanks to their team for openly sharing their knowledge and insights!"
 1. [AsyncGo](https://twitter.com/j4yav/status/1339812285473304597)
    - "A company handbook that everyone edits together is such a superpower, and I've never seen anyone do it better than GitLab. It was the very first thing I brought to my next job because it is the foundation for so much other goodness."
 1. [Vowel](https://twitter.com/franciscoferri/status/1346054673686523905)
    - "It's amazing what GitLab, Buffer, and Remote have done for the rest of the world by open sourcing how they operate remotely. I am convinced that in 10 years, we'll look back at these documents as a crucial step in the evolution of Remote Work."
 1. [Mighty](https://twitter.com/Suhail/status/1344662014937812994)
-   - "I’ve stolen this from GitLab, but I think you have to ensure a consistent experience where the people in an office aren’t treated specially and you provide a [remote-first culture](/handbook/company/culture/all-remote/meetings/#avoid-hybrid-calls)."
+   - "I've stolen this from GitLab, but I think you have to ensure a consistent experience where the people in an office aren't treated specially and you provide a [remote-first culture](/handbook/company/culture/all-remote/meetings/#avoid-hybrid-calls)."
 1. [Journal](https://twitter.com/SamDeBrule/status/1372615291889451010)
    - "We couldn't have created the persona without examples from [@gitlab's handbook](/handbook/product/personas/#parker-product-manager)."
 1. [Aula](https://runekvist.substack.com/p/the-remote-work-bible)
-   - "I started out skeptical about remote work. My fears were vague, like ‘You can’t build a strong company culture if you don’t see each other.’ Now, having built a remote company for two years, I’m unlikely to work from an office ever again GitLab’s journey inspired our leap of faith to tear up our London office lease to embrace remote work."
+   - "I started out skeptical about remote work. My fears were vague, like 'You can't build a strong company culture if you don't see each other.' Now, having built a remote company for two years, I'm unlikely to work from an office ever again GitLab's journey inspired our leap of faith to tear up our London office lease to embrace remote work."
 1. [Spark'n](https://twitter.com/Snakecharmer/status/1381059849807556609)
    - "Spending a lot of time processing GitLab's rather amazing remote work manifesto/guidebook for use at Spark'n. Really gel with the 100% remote commit for the modern workplace. It's very now and the future. 💯 Unreal `@darrenmurph` and team. 🙌 "
 1. [LogDNA](https://twitter.com/davesteer/status/1382411551718580228)

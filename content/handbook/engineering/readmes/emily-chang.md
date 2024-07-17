@@ -1,5 +1,4 @@
 ---
-
 title: "Emily Chang's README"
 description: "Personal README page for Emily Chang - Support Engineer (APAC)"
 job: "Support Engineer (APAC)"
@@ -7,9 +6,9 @@ job: "Support Engineer (APAC)"
 
 ## Emily Chang's README
 
-**Emily Chang - Support Engineer (APAC)** This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+**Emily Chang - Support Engineer (APAC)** This page is intended to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
-It’s also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
+It's also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
 
 Please feel free to contribute to this page by opening a merge request.
 
@@ -29,7 +28,7 @@ The [GitLab value](/handbook/values/) that resonates with me the most is [🤝 C
 ## 🤝 How you can help me
 
 - English is not my first language, sometimes I have trouble finding the equivalent English word, so please bear with me, and seek clarifications if needed. In Malaysia, we follow the British English, so the spelling of some words may differ.
-- I agree with [Negative feedback is 1-1](/handbook/values/#negative-feedback-is-1-1), my DM is always open to any corrections, please do not feel shy to [provide feedfback](/handbook/values/#give-feedback-effectively) - good or bad. I'm always eager to learn and improve myself.  
+- I agree with [Negative feedback is 1-1](/handbook/values/#negative-feedback-is-1-1), my DM is always open to any corrections, please do not feel shy to [provide feedfback](/handbook/values/#give-feedback-effectively) - good or bad. I'm always eager to learn and improve myself.
 - I prefer to have a meeting agenda/outline prior to the call so I know roughly what to expect. Not knowing what to expect may sometimes give me stress.
 
 ## 💼 My working style
@@ -40,7 +39,7 @@ The [GitLab value](/handbook/values/) that resonates with me the most is [🤝 C
 
 ## 🤔 What I assume about others
 
-- We both want the best, I’m a huge believer in win-win situations, and I’m willing to compromise.
+- We both want the best, I'm a huge believer in win-win situations, and I'm willing to compromise.
 - If something is wrong, you are comfortable to let me know. If no one says anything, I will assume you are okay with it.
 
 ## 💬 Communicating with me
@@ -49,7 +48,7 @@ The [GitLab value](/handbook/values/) that resonates with me the most is [🤝 C
 - I prefer having meetings on Tuesdays, Wednesdays and Thursdays either in the morning or afternoon, I tend to get a bit sleepy right after lunch so please avoid arranging meetings right after my lunch (I have set lunch times in my Google Calendar).
 - I practise [Focus Fridays](/handbook/communication/#focus-fridays) where I typically spend the morning replying to my assigned tickets and work on non-ticket work like learning and writing my [Weekly Logs](https://gitlab.com/emchang/open-notebook/-/issues?scope=all&state=all&label_name[]=Weekly%20Log%20%F0%9F%93%9D) in the afternoon.
 - I use GitLab To-Do regularly, feel free to ping me on merge requests (MR) or issues.
-- I check my Slack and e-mail throughout my working day. Please note that I have desktop notifications turned off when I’m in a meeting. I have phone notifications turn on for the days I am on-call.
+- I check my Slack and e-mail throughout my working day. Please note that I have desktop notifications turned off when I'm in a meeting. I have phone notifications turn on for the days I am on-call.
 - Slack Channels I visit very often: `#support_gitlab-com`, `#support_self-managed`, `#support_team-chat`, `#support_watercooler`, `#apac`, `#women`, `#allcaps`, `#diversity_inclusion_and_belonging`
 
 ## 💪 Strengths
@@ -59,7 +58,7 @@ The [GitLab value](/handbook/values/) that resonates with me the most is [🤝 C
 
 ## 👎 Weaknesses
 
-- Sometimes, I can be overly optimistic, thus unrealistic. I tend to look for the bright side of things, but I know that it is also good to be prepared for the worst. Please remind me if you’ve noticed this and is affecting my work!
+- Sometimes, I can be overly optimistic, thus unrealistic. I tend to look for the bright side of things, but I know that it is also good to be prepared for the worst. Please remind me if you've noticed this and is affecting my work!
 
 ## 🏡 My Remote Work Setup
 

@@ -2,7 +2,7 @@
 title: IT Security Analyst
 ---
 
-The security analyst plays a vital role in keeping an organization’s proprietary and sensitive information secure. He/she works inter-departmentally to identify and correct flaws in the company’s security systems, solutions, and programs while recommending specific measures that can improve the company’s overall security posture.
+The security analyst plays a vital role in keeping an organization's proprietary and sensitive information secure. He/she works inter-departmentally to identify and correct flaws in the company's security systems, solutions, and programs while recommending specific measures that can improve the company's overall security posture.
 
 This job family reports to the [Director, IT Operations](/job-families/finance/director-it-operations/).
 
@@ -11,7 +11,7 @@ This job family reports to the [Director, IT Operations](/job-families/finance/d
 - Generate reports for IT administrators and business managers to evaluate the efficacy of the security policies in place.
 - Monitoring security access
 - Performing both internal and external security audits
-- Continuously updating the company’s incident response and disaster recovery plans
+- Continuously updating the company's incident response and disaster recovery plans
 
 ## Requirements
 

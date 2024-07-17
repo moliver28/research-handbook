@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab Release Posts"
 description: "Guidelines to create and update release posts"
 ---
@@ -9,10 +8,6 @@ description: "Guidelines to create and update release posts"
 Release posts are [blog posts](https://about.gitlab.com/releases/categories/releases/) that announce changes to the GitLab application. This includes our regular cadence of monthly releases which happen [every month](/handbook/engineering/releases/), and patch/security releases whenever necessary.
 
 Release posts follow a process outlined here, and the templates that are used to create them also highlight what needs to be done, by whom, and when those items are due.
-
-{{% note %}}
-We're evolving our release post process! You can view and share feedback on the latest direction by viewing [Scaling the release post](https://docs.google.com/presentation/d/1_Osx3FrDxT4aqjl-Kc9QXgp30z0Pl1k4tBCv0DlZYkk/edit).
-{{% /note %}}
 
 ## Quick Links
 
@@ -170,7 +165,7 @@ The responsibilities of a technical advisor can be seen in more detail in [Techn
 
 - Completing all the tasks assigned to the Release Post Manager in the Release Post MR template
   - Reminder: If you cannot perform any of the Release Post Manager tasks between Thursday, 1 week before release, and the [release date](/handbook/engineering/releases/) of the month as defined in the [monthly MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md.erb), it is recommended you sign up for another release post. In the case that schedule/circumstances changes after you'd already signed up for the release post, please start a thread in #product in slack and tag `@justin` and `@[name of PLT member who is reviewing this month]`. The name of the PLT member who is reviewing this month can be found on the [release post scheduling page](/handbook/marketing/blog/release-posts/managers/)
-- Working with VP of Product to identify the top feature to highlight on the release post page
+- Identify the top feature to highlight on the release post page and collecting feedback from the VP of Product
 - Creating the What's New MR and working with the VP of Product to identify what to include in [What's New](/handbook/product/gitlab-the-product/index.html#using-whats-new-to-communicate-updates-to-users)
 - Sending out reminders about upcoming due dates
 - Merging the release post MR on the [release date](/handbook/engineering/releases/) and ensuring the release post page goes live
@@ -230,9 +225,9 @@ Please share your feedback by <time datetime="18:00">6 pm UTC (1 pm ET / 10 am P
 
 Currently there are no known issues/adjustments to the content but I know of one deprecation that needs to be added and will happen with my first wave of edits.
 
-Here’s the 13.6 release post MR: `https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/66652`
+Here's the 13.6 release post MR: `https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/66652`
 
-Cc @TW Lead @tech-advisor @PMM @Sid @david
+cc @TW Lead @tech-advisor @PMM
 ```
 
 Other samples for posts include reminders and notices on any items that the Release Post Manager is taking:
@@ -261,7 +256,7 @@ Keeping an eye on the various content reviews (TW, PMM, and Director) for the in
 
 The review and any needed adjustment to the ordering of secondary features due to stakeholder feedback is the responsibility of the Release Post Manager. Secondary features, removals, and upgrade notes are all sorted alphabetically by title, grouped by stage. To affect the sort order of the secondary features, a change to the content block's `title` is required. The Release Post Manager should work with the product managers of the content blocks to make these changes, to ensure accuracy and alignment.
 
-After the Review App for the release post has been generated, the Release Post Manager solicits additional feedback from the CEO and [product leaders](/handbook/product/product-leadership/#product-leadership-team-structure) via Slack in the #release-post channel. Clearly communicate when they can expect to start their review 24 hours in advance; this is especially important when the review must happen over the weekend. A best practice for capturing feedback from Slack is to copy the feedback into the MR comments with checkboxes to ensure each item is addressed. PMs can be tagged there also for easier tracking and follow up. Refer to [this 13.0 MR comment thread](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/48201#note_345230940) for reference.
+After the Review App for the release post has been generated, the Release Post Manager solicits additional feedback from the [product leaders](/handbook/product/product-leadership/#product-leadership-team-structure) via Slack in the #release-post channel.
 
 It is the Release Post Manager's responsibility to make sure all content is completed by the Tuesday of release week, ensuring a one day buffer is left for final error fixes and small improvements.
 
@@ -282,7 +277,7 @@ It is recommended for the Release Post Manager to review all content for quality
 
 ### Release post intro content
 
-The introduction content of the release post (found in `YYYY-MM-DD-gitlab-X-Y-released.html.md`)  is templated to be standard across all release posts, and should not be modified without approval from `@justinfarris`. This file is linked at the top of the release post MR for reference and ease of editing. The Release Post Manager will work with the VP of Product to make sure all primary items are approved and a top feature is designated.
+The introduction content of the release post (found in `YYYY-MM-DD-gitlab-X-Y-released.html.md`)  is templated to be standard across all release posts, and should not be modified without approval from `@justinfarris`. This file is linked at the top of the release post MR for reference and ease of editing. The Release Post Manager will make sure all primary items are approved and a top feature is designated and ask the VP of Product for feedback.
 
 ## PM Contributors
 
@@ -698,8 +693,8 @@ Product Designers [DRIs](/handbook/people-group/directly-responsible-individuals
 
 Product Designers should collaborate on release post items and review:
 
-- **JTBD**: Ensure that the messaging encapsulates how the item supports a user’s [Job to be Done](/handbook/product/ux/jobs-to-be-done/).
-- **MVC messaging**: Articulate any design vision or future iterations if applicable. This is especially important when considering items that are [under construction](/handbook/values/#under-construction), or contribute toward a Category’s maturity.
+- **JTBD**: Ensure that the messaging encapsulates how the item supports a user's [Job to be Done](/handbook/product/ux/jobs-to-be-done/).
+- **MVC messaging**: Articulate any design vision or future iterations if applicable. This is especially important when considering items that are [under construction](/handbook/values/#under-construction), or contribute toward a Category's maturity.
 - **Artifacts**: Validate that UI elements (screenshots, GIFs) included in the post are up to date and reflect all design changes. Ensure that no mocks are used.
 
 ## Engineering Managers
@@ -846,9 +841,20 @@ The most relevant features of the release are included in the post by [product m
 
 The top feature of the release is mentioned right after the MVP section, prior to other primary features. An image or video and documentation links are required. The [TW lead](#tw-lead) will pay close attention to the content of this item, as it is the "headline" feature for the release and it's especially important to get it right.
 
-If you would like a feature to be considered for a `top` feature, reach out to the VP of Product and the Release Post Manager on Slack in #release-post by the Thursday, 1 week before release. Let them know which feature you want considered by linking to the release post item MR.
+The Release Post Manager will select a `top` feature. The following can be used as a guideline on which feature to select:
 
-The Release Post Manager will provide the VPP with a list of all `primary` features in the current release and make a recommendation for the `top` feature. The VPP will make their selection, or if no feedback is provided, the Release Post Manager will choose the `top` feature.
+A `top` feature should:
+
+- Have great user impact.
+- Align to the current FY product investment themes.
+- Cover all deployment types (.com, SM, and Dedicated).
+
+A `top` feature can be:
+
+- Only for paid tiers (premium or ultimate only).
+- Beta, but not [experimental](#experimental-features).
+
+The Release Post Manager will select a `top` feature and ask for feedback from the assigned VP of Product in #release-post together with reviewing the `primary` features. The Release Post Manager should incorparating feedback on any `top` or `primary` features.
 
 To specify the top feature, change `primary` to `top` in the selected feature's release post item `.yml` file:
 
@@ -894,7 +900,7 @@ features:
   primary:
     - name: "Do great things with this feature"
       available_in: [core, premium, ultimate]
-      documentation_link: 'https://docs.gitlab.com/ee/ci/multi_project_pipelines.html#multi-project-pipeline-visualization-premium'
+      documentation_link: 'https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#multi-project-pipelines#multi-project-pipeline-visualization-premium'
       image_url: '/images/topics/multi-project_pipelines.png'
       reporter: bikebilly
       stage: secure
@@ -912,7 +918,7 @@ features:
 
 #### Description
 
-Content of the **description** should adhere to the Marketing editorial team’s
+Content of the **description** should adhere to the Marketing editorial team's
 [style guide](/handbook/marketing/brand-and-product-marketing/content/editorial-team/#blog-style-guide).
 
 Do not include UI navigation instructions in the feature's description. These instructions should be
@@ -930,9 +936,11 @@ Use a short and strong name for all feature names.
 
 #### Feature Availability
 
-Use the following pattern to apply the correct badge to the feature (Free, Premium, Ultimate).
+Use the following pattern to apply the correct badge to the feature (Free, Premium, Ultimate) and to specify any add-ons (Duo Pro, Duo Enterprise).
 
-For the feature availability tier, use `available_in` with:
+##### Subscription tier
+
+For the subscription tier where the feature is available, use `available_in` with:
 
 - For GitLab Free, `[core, premium, ultimate]`
 - For GitLab Premium, `[premium, ultimate]`
@@ -940,7 +948,9 @@ For the feature availability tier, use `available_in` with:
 
   **Important note**: The GitLab Free tier is listed as `core` in the data file. This is intentional and the page templates will apply the proper tier name on the frontend.
 
-For features available on both self-managed and SaaS:
+##### Offering (GitLab.com or self-managed)
+
+For features available on both self-managed and GitLab.com:
 
 - Use `gitlab_com: true`, or do not include `gitlab_com` in the yaml file.
 
@@ -967,6 +977,19 @@ You can also mix the GitLab.com badges with the self-managed badges. However, fo
   - For availability in all tiers on GitLab.com and only Premium and Ultimate tiers on self-managed, use `[free, silver, gold, premium, ultimate]` and set `gitlab_com: false`
   - For availability in the Silver and Gold tiers on GitLab.com and all tiers on self-managed, use `[core, premium, ultimate, silver, gold]` and set `gitlab_com: false`
   - For availability in the Gold tier on GitLab.com and only Premium and Ultimate tiers on self-managed, use `[premium, ultimate, gold]` and set `gitlab_com: false`
+
+##### Add-ons
+
+To specify a subscription add-on, enter text in the `add_ons: [ ]` field.
+Each entry adds a badge. For Duo Pro and Duo Enterprise, specify both. For example:
+
+```yaml
+add_ons: ["Duo Pro", "Duo Enterprise"]
+```
+
+If only Duo Pro applies, use `add_ons: ["Duo Pro"]`.
+
+##### Features behind flags
 
 From time to time a feature may be developed behind a feature flag and made [available slowly](https://docs.gitlab.com/ee/development/feature_flags/#development-type) to larger audiences. If this is the case, do not include the item in the release post unless you are deliberately seeking beta testers. This may result in a feature issue being closed in a milestone earlier than it is announced.
 
@@ -1677,7 +1700,7 @@ The What's New MR will be initiated by the Release Post Manager on the Tuesday o
    1. Before committing the MR, [check the YAML with a validator](https://jsonformatter.org/yaml-validator).
 1. Add the ~"documentation" label.
 1. Apply the affiliated release `milestone` (it's ok if it says "expired") and labels `whats new` and `release post`.
-1. On the Tuesday of release week, when the MR is ready for review, assign `@[name of PLT member who is reviewing this month]` and VP Product `@david` as reviewers and `@mention` them in the MR to complete their review by the Wednesday of release week. The name of the PLT member who is reviewing this month can be found on the [release post scheduling page](/handbook/marketing/blog/release-posts/managers/)
+1. On the Tuesday of release week, when the MR is ready for review, assign `@[name of PLT member who is reviewing this month]` as reviewer and `@mention` them in the MR to complete their review by the Wednesday of release week. The name of the PLT member who is reviewing this month can be found on the [release post scheduling page](/handbook/marketing/blog/release-posts/managers/)
 1. After the release post is live and you have verified the images load locally in GDK by pulling down the What's New branch, have the MR reviewed following our standard [code review process](https://docs.gitlab.com/ee/development/code_review.html) and have it merged by a `maintainer`. It is recommended to communicate directly to the maintainer that the MR is time sensitive to avoid unnecessary delays.
 1. Open a duplicate MR and set the target branch to `X-Y-stable-ee` where `X-Y` aligns with the version released `X.Y`. Assign it to the same maintainer that merged the previous MR. This second MR ensures that any additional releases to version `X.Y` include this "What's New" update. If you have trouble, ask for help in `#mr-buddies` or refer to the [full process for backporting an MR](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/process_new.md#gitlab-project).
 

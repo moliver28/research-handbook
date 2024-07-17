@@ -3,12 +3,6 @@ aliases: /handbook/sales/onboarding/SQS-workshop
 title: "Sales Quick Start (SQS) Workshop"
 ---
 
-
-
-
-
-
-
 ## Sales Quick Start Workshop
 
 - NOTE: The Sales Quick Start (SQS) Workshop is MANDATORY for all new Sales Team Members. If you must cancel for any reason, please be sure to obtain Regional Director approval in writing.
@@ -25,28 +19,6 @@ This [SQS 2024 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 
 ## Sales Quick Start Remote Agenda
 
-### SQS 39 - June 2024
-
-- Workshop times quoted are United States Eastern Daylight Time (New York) (UTC -4)
-
-| DATE | START TIME | END TIME | ACTIVITY | SME ASSIGNED |
-|------|------------|----------|----------|--------------|
-| May 15, 2024 | 10:30a ET | 11:20a ET | Welcome Call | Field Enablement Team |
-| Jun 3, 2024 | 10:30a ET | 10:55a ET | Operational Excellence: Into to Gitlab Field Security | Field Security Team |
-| Jun 3, 2024 | 11:00a ET | 11:50a ET | Solution Focus: Intro to Competition | Marketing Team |
-| Jun 4, 2024 | 10:30a ET | 10:55a ET | Operational Excellence: Intro to GitLab Legal | Legal Team  |
-| Jun 4, 2024 | 11:30a ET | 12:20p ET | Operational Excellence: Working with Marketing + Sales Dev | Makerting Enablement |
-| Jun 5, 2024 | 10:30a ET | 11:20a ET | Customer Focus: Customer Success Management Overview | CS Team  |
-| Jun 6, 2024 | 10:30a ET | 10:55a ET | Intro to Sales Ops + Deal Desk |  RSOE Team  |
-| Jun 6, 2024 | 11:00a ET | 11:50a ET | Customer Focus: Professional Services | Professional Services Team |
-| Jun 7, 2024 | 10:30a ET | 11:50a ET | Intro to Partner Sales | Partner Team |
-| Jun 10, 2024 | 10:00a ET | 12:30p ET | Command of the Message: Essential Questions Exercise | Field Enablement Team |
-| Jun 11, 2024 | 10:00a ET | 12:30p ET | Command of the Message: Value Card Exercise | Field Enablement Team |
-| Jun 12, 2024 | 10:00a ET | 12:30p ET | Command of the Message: Discovery Question Exercise | Field Enablement Team |
-| Jun 13, 2024 | 10:00a ET | 12:30p ET | Command of the Message: Differentiator Exercise | Field Enablement Team  |
-| Jun 17, 2024 | 10:00a ET | 12:30p ET | Command of the Message: Mock Discovery Calls | Mock Customers |
-| Jun 21, 2024 | 10:30a ET | 12:30p ET | Command of the Message: MEDDPPICC  | Field Enablement Team |
-
 ### SQS 40 - July 2024
 
 - Workshop times quoted are United States Eastern Daylight Time (New York) (UTC -4)
@@ -59,7 +31,7 @@ This [SQS 2024 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 | Jul 17, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Discovery Question Exercise | Field Enablement  |
 | Jul 18, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Differentiator Exercise | Field Enablement  |
 | Jul 19, 2024 | 10:00a ET | 10:50a ET | Mock Discovery Call | Mock Customers  |
-| Jul 22, 2024 | 10:00a ET | 10:25a ET | Operational Excellence: Into to Gitlab Field Security | Field Security Team |
+| Jul 22, 2024 | 10:00a ET | 10:25a ET | Operational Excellence: Into to GitLab Field Security | Field Security Team |
 | Jul 22, 2024 | 10:30a ET | 11:50a ET | Command of the Message: MEDDPPICC  | Field Enablement |
 | Jul 23, 2024 | 10:30a ET | 10:55a ET | Operational Excellence: Intro to GitLab Legal | Legal Team |
 | Jul 23, 2024 | 11:00a ET | 11:50a ET | Solution Focus: Intro to Competition | Marketing |

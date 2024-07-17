@@ -4,25 +4,23 @@ title: "GitLab People Connect"
 
 ## <i class="far fa-paper-plane"></i> Connect with Us
 
-GitLab Team Members can now reach out to us at the touch of a button via our #people-connect Slack Channel or by direct messaging the People Connect Bot.
+GitLab Team Members can now reach out to us at the touch of a button via [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab).
 
-If you are external to GitLab but have a question for our team be sure to hit the email button below.
+If you are external to GitLab but have a question for our team be sure to email people-connect@gitlab.com.
 
-<a href="https://gitlab.slack.com/archives/C02360SQQFR" class="btn btn-primary btn-lg"><i class="fa-brands fa-slack"></i> #people-connect</a>
-<a href="https://gitlab.slack.com/app_redirect?app=A023FJVH54M" class="btn btn-primary btn-lg"><i class="fa-brands fa-slack"></i> Direct Message</a>
-<a href="mailto:people-connect@gitlab.com" class="btn btn-primary btn-lg"><i class="fa-solid fa-envelope-open-text"></i> Email</a>
+<a href="https://helplab.gitlab.systems/esc" class="btn btn-primary btn-lg"><i class="fa-brands fa-slack"></i> HelpLab</a>
 
 ### Introduction
 
 People Connect is GitLab's centralized team member support model that provides a single point of contact (SPOC) for all people-related questions and requests - taking the guesswork out of finding answers that may not be immediately apparent in the handbook, while creating space for team members to remain productive and focused on what they do best.
 
-Moving away from a multi-channel support model team members can now route all people-centric questions and requests directly to the People Connect team in one of two ways i.e. via the #people-connect Slack Channel (public) or by messaging the People Connect Bot (private).
+Moving away from a multi-channel support model team members can now route all people-centric questions and requests directly to the People Connect team.
 
 ### Areas of Support
 
-Team Members are encouraged to reach out to People Connect around any topic that could be considered 'employment related' such as compensation, benefits and equity; leave accruals; onboarding processes; bonus nominations; country hiring; relocations; the growth and development benefit; name changes etc.
+Team Members are encouraged to reach out to People Connect around any topic that could be considered 'employment related' such as compensation and benefits; leave accruals; onboarding processes; bonus nominations; country hiring; relocations; name changes etc.
 
-People Connect provides team member support for all of the functional areas within the [People Group](/handbook/people-group/) including Total Rewards; Diversity Inclusion and Belonging; Learning and Development; People Operations; the People Business Partners and Employment Solutions.
+People Connect provides team member support for all of the functional areas within the [People Group](/handbook/people-group/) including Total Rewards; Diversity Inclusion and Belonging; People Operations; the People Business Partners and Global Workforce Management.
 
 Additionally our team of generalists are equally able to support queries and requests that are external but in many ways still related to the People Group such as Expense Reporting (Accounts Payable) and Payroll.
 
@@ -44,20 +42,20 @@ The team collaborates intensively with various internal and external stakeholder
 
 #### Service Desk
 
-Our Service Desk was created by the [People Group Engineering Team](/handbook/people-group/engineering) using or [dogfooding]({{< ref "values#dogfooding" >}}) our own product. You can read more about the **People Connect Bot** [here]({{< ref "people-connect-bot#people-connect-bot" >}})
+HelpLab is a GitLab’s branding of the ServiceNow Platform.
+
+ServiceNow is a SaaS Enterprise Service Management Platform that enables organizations to gain operational efficiencies by centralizing and automating Service Life Cycle Management. Simply put, it’s a Support Ticketing System that will allow us to provide faster and more accurate help so that we maximize the Productivity of our Teammates.
 
 #### Methods of Engagement
 
 | Interaction Type | Communication Mechanism |
 | ----- | ----- |
-| **Public**: Interaction **does not** include Personal Data or Sensitive Information | **#people-connect** |
-| **Private**: Interaction **does** include Personal Data or Sensitive Information | **People Connect Bot (App)** |
+| **Internal**: Inquiry is from a current GitLab team member | [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab). |
+| **External**: Inquiry is from a former GitLab team member or External party | people-connect@gitlab.com |
 
 GitLab remains a [Handbook First]({{< ref "handbook-usage#why-handbook-first" >}}) organization. However, in instances where the answer to a people-related question is not apparent, the next port of call would be People Connect.
 
-In the interests of [knowledge sharing]({{< ref "values#findability" >}}) and [transparency](/handbook/values/#transparency) team members are encouraged to use **#people-connect** [by default]({{< ref "communication#avoid-direct-messages" >}}) when initiating an interaction with the team.
-
-Should the interaction include **personal data or potentially sensitive information** team members **must** direct message the **People Connect Bot** which can be found by searching the 'apps' section of Slack. This can be found at the bottom of the left pane.
+The People Connect email alias is restricted and active GitLab team members will **NOT** be able to email this alias, and should be utilizing [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab) instead. Former team members or External parties should use the People Connect email for queries or requests.
 
 #### What to Expect (SLA)
 
@@ -75,7 +73,7 @@ On occasion team member interactions i.e. ≤ 1% require the direct input of a S
 
 ### Team Member Satisfaction
 
-The People Connect model was compiled with our team members and their experience of GitLabs all-remote workplace in mind - making feedback an important element in ensuring our efforts and iterations are consistently aligned to the broader [company values]({{< ref "values" >}}).
+The People Connect model was compiled with our team members and their experience of GitLabs all-remote workplace in mind - making feedback an important element in ensuring our efforts and iterations are consistently aligned to the broader [company values](/handbook/values/).
 
 At the resolution of each interaction that runs through our Service Desk team members will receive a quick two question 'satisfaction pulse' from the People Connect Bot.
 

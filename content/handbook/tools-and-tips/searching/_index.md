@@ -180,11 +180,11 @@ Your search will open in your chosen browser.
 To search for recorded events in [GitLab Unfiltered via our YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/featured) here are the steps you can follow:
 
 - Open [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/featured)
-- Click on the magnifying icon on the top bar indicating “Search.”
+- Click on the magnifying icon on the top bar indicating "Search."
 - Type in the event you would like to locate a recording for (i.e. AMA, Group Conversation, Product Kickoff Review, Key Reviews, etc).
 - Scroll through the search page to find recorded videos.
-- You can also click on the “[Videos](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos)” tab.
-- Sort by “Date Added (newest)” or “Date Added (oldest).”
+- You can also click on the "[Videos](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos)" tab.
+- Sort by "Date Added (newest)" or "Date Added (oldest)."
 - Locate the recording you need.
 - You can also search recordings grouped in "[Playlists](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/playlists)" that are organized by Departments, teams, or topics.
 

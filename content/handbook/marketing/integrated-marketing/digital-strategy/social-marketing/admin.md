@@ -1,5 +1,4 @@
 ---
-
 title: "Social Media Project Management and Admin"
 description: Workflows, Templates, and more for GitLab Team Members
 twitter_image: "/images/opengraph/handbook/social-marketing/social-handbook-admin-pm.png"
@@ -7,12 +6,6 @@ twitter_image_alt: "GitLab's Social Media Handbook branded image"
 twitter_site: "gitlab"
 twitter_creator: "gitlab"
 ---
-
-
-
-
-
-
 
 ℹ️ This page is the single source of truth for all administrative tasks, templates, and project management needs focused on GitLab brand social channels. If your question is "how?", the answer will be here.
 {:.alert .alert-info .text-justify}
@@ -257,7 +250,7 @@ More on optional labels will be available soon.
 
 <ol>
 <li>Contact the social media team in the #social_media_action Slack channel to discuss the details and thoughts about the giveaway. If it makes sense, we can commit to supporting the giveaway following legal approval in step 2 below.</li>
-<li>Work with the legal team to review and approve the promotional game. <a href="https://about.gitlab.com/handbook/legal/marketing-collaboration/#promotional-games">You can find more info on what legal requires here in the handbook</a>. Alternatively, <a href="https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/sweepstakes_legal_template.md">you can head right to the promotional game review issue template to file an issue for legal approval</a>.</li>
+<li>Work with the legal team to review and approve the promotional game. <a href="https://handbook.gitlab.com/handbook/legal/marketing-collaboration/#promotional-games">You can find more info on what legal requires here in the handbook</a>. Alternatively, <a href="https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/sweepstakes_legal_template.md">you can head right to the promotional game review issue template to file an issue for legal approval</a>.</li>
 <li>Once approved, create an issue and tag the Social Marketing Manager to determine the
 rules of engagement and the Corporate Events Manager for prizes.</li>
 <li>Create and publish an <a href="#officialrules">Official Sweepstakes Rules page</a></li>
@@ -286,7 +279,7 @@ Post-Giveaway </summary>
 <li>Winners must sign an Affidavit of Eligibility &amp; Liability, Indemnity, and Publicity Release. Use the &quot;Affidavit of Eligibility - Sweepstakes&quot; template found on the google drive.</li>
 <li>Announce the winners</li>
 </ol>
-<p><a href="https://about.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/giveaways/">Find out more about the swag giveaways here.</a></p>
+<p><a href="https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/giveaways/">Find out more about the swag giveaways here.</a></p>
 
 </details>
 
@@ -462,7 +455,7 @@ The following code is required when asking for team members or anyone in the wid
  <summary markdown='span'>
 UGC Disclosure </summary>
 
-<pre><code>By submitting this [INSERT WHAT WE<span class="hljs-symbol">'RE</span> ASKING <span class="hljs-keyword">FOR</span> <span class="hljs-keyword">AND</span> <span class="hljs-keyword">WITH</span>; GOOGLE FORM, ETC] <span class="hljs-keyword">with</span> answers <span class="hljs-keyword">or</span> uploading a video response, you are providing perpetual consent <span class="hljs-keyword">to</span> GitLab Inc., its affiliates, subsidiaries, <span class="hljs-keyword">and</span> agents, <span class="hljs-keyword">to</span> <span class="hljs-keyword">use</span> your image, story, <span class="hljs-keyword">and</span> any other submitted materials (“Content”). You will continue <span class="hljs-keyword">to</span> own your original Content.
+<pre><code>By submitting this [INSERT WHAT WE<span class="hljs-symbol">'RE</span> ASKING <span class="hljs-keyword">FOR</span> <span class="hljs-keyword">AND</span> <span class="hljs-keyword">WITH</span>; GOOGLE FORM, ETC] <span class="hljs-keyword">with</span> answers <span class="hljs-keyword">or</span> uploading a video response, you are providing perpetual consent <span class="hljs-keyword">to</span> GitLab Inc., its affiliates, subsidiaries, <span class="hljs-keyword">and</span> agents, <span class="hljs-keyword">to</span> <span class="hljs-keyword">use</span> your image, story, <span class="hljs-keyword">and</span> any other submitted materials ("Content"). You will continue <span class="hljs-keyword">to</span> own your original Content.
 
 You are affirming that
 
@@ -477,9 +470,9 @@ You are giving GitLab a non-exclusive license <span class="hljs-keyword">with</s
 
 By agreeing <span class="hljs-keyword">to</span> these terms, you <span class="hljs-keyword">release</span> GitLab, our employees <span class="hljs-keyword">and</span> officers, <span class="hljs-keyword">and</span> any third-party services that we <span class="hljs-keyword">use</span> <span class="hljs-keyword">to</span> promote your Content from any <span class="hljs-keyword">and</span> <span class="hljs-keyword">all</span> claims, actions <span class="hljs-keyword">or</span> proceedings <span class="hljs-keyword">of</span> any kind, <span class="hljs-keyword">and</span> from any <span class="hljs-keyword">and</span> <span class="hljs-keyword">all</span> damages, losses, costs <span class="hljs-keyword">and</span> expenses, including reasonable attorneys' fees <span class="hljs-keyword">and</span> expenses relating <span class="hljs-keyword">to</span> <span class="hljs-keyword">or</span> arising <span class="hljs-keyword">out</span> <span class="hljs-keyword">of</span> the <span class="hljs-keyword">use</span> <span class="hljs-keyword">of</span> your Content as contemplated by this license.
 
-You may revoke this authorization at any <span class="hljs-built_in">time</span> by notifying [legal@gitlab.com](mailto:legal@gitlab.com) <span class="hljs-keyword">in</span> writing (“Revocation”). Revocation will <span class="hljs-keyword">not</span> affect any actions taken prior <span class="hljs-keyword">to</span> receipt <span class="hljs-keyword">of</span> Revocation.
+You may revoke this authorization at any <span class="hljs-built_in">time</span> by notifying [legal@gitlab.com](mailto:legal@gitlab.com) <span class="hljs-keyword">in</span> writing ("Revocation"). Revocation will <span class="hljs-keyword">not</span> affect any actions taken prior <span class="hljs-keyword">to</span> receipt <span class="hljs-keyword">of</span> Revocation.
 
-<span class="hljs-keyword">If</span> you don’t agree <span class="hljs-keyword">to</span> these terms, no further action <span class="hljs-keyword">is</span> required <span class="hljs-keyword">and</span> you may [INSERT ACTION <span class="hljs-keyword">TO</span> DENY; EG <span class="hljs-keyword">NOT</span> SUBMIT THE FORM]
+<span class="hljs-keyword">If</span> you don't agree <span class="hljs-keyword">to</span> these terms, no further action <span class="hljs-keyword">is</span> required <span class="hljs-keyword">and</span> you may [INSERT ACTION <span class="hljs-keyword">TO</span> DENY; EG <span class="hljs-keyword">NOT</span> SUBMIT THE FORM]
 </code></pre>
 
 </details>

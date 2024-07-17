@@ -1,5 +1,4 @@
 ---
-
 title: "Marketing Team Processes - How We Work"
 description: "This page is meant to house resources and processes for the marketing team."
 ---

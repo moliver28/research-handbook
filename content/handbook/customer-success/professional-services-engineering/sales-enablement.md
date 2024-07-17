@@ -24,23 +24,23 @@ This [sales enablement](/handbook/sales/training/sales-enablement-sessions/) pag
 
 ### What
 
-So you've won a customer's business with a subscription deal to use gitlab, congratulations! Now you can focus on establishing a foundation of trust to grow the relationship. In order for your customer to get the most out of gitlab consider engaging them with professional services.
+So you've won a customer's business with a subscription deal to use gitlab, congratulations! Now you can focus on establishing a foundation of trust to grow the relationship. In order for your customer to get the most out of GitLab consider engaging them with professional services.
 
 Our team can help your customer accelerate their DevOps Transformation by delivering services to improve operational efficiency, accelerate time to market and reduce risk through GitLab product adoption.
 
-We accomplish these by offering [categories of services](/services/) to help ensure the initial gitlab rollout goes smoothly so the end users can get value as fast as possible.
+We accomplish these by offering [categories of services](/services/) to help ensure the initial GitLab rollout goes smoothly so the end users can get value as fast as possible.
 
 #### Migration Services
 
-We offer data and user [migration services](/services/migration/) to enable the customer to come from a variety of legacy systems (both SCM and CI/CD). We work closely with the gitlab import API team and have automation tools to facilitate the migration. We are continuously improving them with every nuanced customer migration service we provide. Read about a customer case study of a recent gitlab self managed to gitlab.com migration experience.
+We offer data and user [migration services](/services/migration/) to enable the customer to come from a variety of legacy systems (both SCM and CI/CD). We work closely with the GitLab import API team and have automation tools to facilitate the migration. We are continuously improving them with every nuanced customer migration service we provide. Read about a customer case study of a recent GitLab self managed to gitlab.com migration experience.
 
 Migration services are always custom-scoped because of the variability of level of effort based on the amount of data and number of users in the source system(s).
 
 #### Implementation Services
 
-When customers choose gitlab self-managed, they typically need help building and configuring their software to meet their non-functional requirements (e.g. Availability, Performance, Security, Disaster Recovery, etc.). Our team of experts maintains a repository Infrastructure-as-Code and automation scripting to facilitate this while leveraging [gitlab reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/) best practices.
+When customers choose GitLab self-managed, they typically need help building and configuring their software to meet their non-functional requirements (e.g. Availability, Performance, Security, Disaster Recovery, etc.). Our team of experts maintains a repository Infrastructure-as-Code and automation scripting to facilitate this while leveraging [gitlab reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/) best practices.
 
-For gitlab.com users, [implementation services](/services/implementation/) focus mostly on how to organize gitlab groups and projects, how to establish role based access control, and other front end strategic decisions that typically need to be made up-front.
+For gitlab.com users, [implementation services](/services/implementation/) focus mostly on how to organize GitLab groups and projects, how to establish role based access control, and other front end strategic decisions that typically need to be made up-front.
 
 The implementation services [Rapid Results](/services/rapid-results/) packages have a standard SKU, but have specific bounds to the large cloud service providers and HA/DR architectural patterns. If your customers' needs fall outside of those bounds, you will need to engage in a [custom-scoping exercise](/handbook/customer-success/professional-services-engineering/selling/#custom-scoped-services).
 
@@ -65,13 +65,13 @@ Advisory Services typically follow a 3-step approach:
 
 #### Customer
 
-- **Faster value realization** - Help the customer setup the gitlab instance and migrate their data and users quickly to accelerate [time to first value](/handbook/customer-success/vision/#time-to-value-kpis). Paired with education services to ensure the users know how to use the newly setup gitlab system is the way to the fastest initial adoption and sets the foundation for future stage adoption.
+- **Faster value realization** - Help the customer setup the GitLab instance and migrate their data and users quickly to accelerate [time to first value](/handbook/customer-success/vision/#time-to-value-kpis). Paired with education services to ensure the users know how to use the newly setup GitLab system is the way to the fastest initial adoption and sets the foundation for future stage adoption.
 - **Improved customer experience** - Establishing best practices up front with our expert recommendations is the path to a great customer experience.
 - **Access to GitLab experts / best practices** - On top of our team of experts, we can reach back to engineering and support to put the full weight of GitLab into solving a customer issue.
 
 #### GitLab
 
-- **Improved retention and expansion** - When customers get started with gitlab on the right foot, they spend less time on debt work (e.g. infrastructure maintenance or ) throughout their subscription period
+- **Improved retention and expansion** - When customers get started with GitLab on the right foot, they spend less time on debt work (e.g. infrastructure maintenance or ) throughout their subscription period
 - **Customer insights and feedback** - The PS Engineer will be working hands-on with the customer team and often gains insightful feedback on the software and customer relationship.
 
 ### How will we deliver?

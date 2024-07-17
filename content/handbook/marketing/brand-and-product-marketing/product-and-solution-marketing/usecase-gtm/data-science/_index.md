@@ -19,7 +19,7 @@ Common challenges in data science are described on the [Data Science with GitLab
 
 To be fleshed out as with [other usecases](/handbook/marketing/use-cases/).
 
-### [Keywords and definitions](./keywords/)
+### [Keywords and definitions](keywords/)
 
 ## Personas
 
@@ -43,7 +43,7 @@ Who are the [buyers](/handbook/product/personas/)
 - Engineering Manager of Data Products, or of Data Infrastructure
 - Director of Data and Analytics, or Chief Data Officer
 
-## [Message House](./message-house/)
+## [Message House](message-house/)
 
 The message house provides a structure to describe and discuss value and differentiators for data science.
 
@@ -53,7 +53,7 @@ The message house provides a structure to describe and discuss value and differe
 
 ## Analyst Coverage
 
-[Media coverage, 20 Feb. of Gartner’s 2020 Magic Quadrant For Data Science And Machine Learning Platforms.](https://www.forbes.com/sites/janakirammsv/2020/02/20/gartners-2020-magic-quadrant-for-data-science-and-machine-learning-platforms-has-many-surprises/#4b57dd763f55)
+[Media coverage, 20 Feb. of Gartner's 2020 Magic Quadrant For Data Science And Machine Learning Platforms.](https://www.forbes.com/sites/janakirammsv/2020/02/20/gartners-2020-magic-quadrant-for-data-science-and-machine-learning-platforms-has-many-surprises/#4b57dd763f55)
 
 Internal to GitLab:
 

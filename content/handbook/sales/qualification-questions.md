@@ -1,14 +1,7 @@
 ---
-
 title: "Sales Discovery and Qualification Questions"
 description: "An effective questioning strategy is critical to engaging customers in dialogue to truly understand their needs, build credibility and trust, and qualify the opportunity"
 ---
-
-
-
-
-
-
 
 An [effective questioning strategy](https://docs.google.com/presentation/d/1caRLqSGNhFAQ9KuRVBaxI9cExOvBQBC4hd36uVfWFvs/edit?usp=sharing) is critical to engaging customers in dialogue that will help you truly understand their needs, build credibility and trust, and qualify the opportunity. Furthermore, effective discovery and needs analysis will be instrumental to your developing a tailored, compelling, customer-centric solution that will increase your chances to win the business and advance the buying decision.
 
@@ -18,7 +11,7 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
 
 ### Goal
 
-- So that we may best understand your organization’s needs and how we can help, what are your long-term goals for modernizing your application development practices to deliver increased value to the business?
+- So that we may best understand your organization's needs and how we can help, what are your long-term goals for modernizing your application development practices to deliver increased value to the business?
 - What are you trying to achieve and why are these goals important?
 - What is  your strategy for increasing the frequency of app deployments? If you were able to do this, what would the impact be to the business?
 - How will you measure success for each of your goals?
@@ -57,19 +50,19 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
 - How would you describe what your group does?
 - How large is your group? (goal: find out who will use GitLab and how large the opportunity could be)
 - How would you describe the projects on which your dev teams are currently working?
-- If you were to rate how modern your organization’s application development practices are on a scale of 1 to 5 (1 being not very modern at all, 5 being best-in-class modern), what would your rating be and why? What would it take to move the rating up?
+- If you were to rate how modern your organization's application development practices are on a scale of 1 to 5 (1 being not very modern at all, 5 being best-in-class modern), what would your rating be and why? What would it take to move the rating up?
 - What tools are you currently using in your DevOps stack (or application development toolchain)?
   - What are you using for issue & bug tracking?
   - What are you using for CI?
   - What are you using for code review?
   - What tool(s) do you leverage for application deployment?
-  - How would you describe your organization’s current and future plans for adoption of the following:
+  - How would you describe your organization's current and future plans for adoption of the following:
     - Containers
     - VMs
     - Microservices
     - Kubernetes
     - What tools do you use for project management?
-- What platforms/clouds are you deploying to?  (AWS/GCP/Azure/VMware/Openshift/other)
+- What platforms/clouds are you deploying to?  (AWS/GCP/Azure/VMWare/Openshift/other)
   - If AWS are you deploying to EC2, ECS, EKS, Fargate, or Lambda
   - If GCP are you deploying to GCE, GKE, App Engine, or Cloud Run
   - If Azure are you deploying to VMs, AKS, Functions
@@ -98,7 +91,7 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
 
 ### Personal Needs
 
-- What’s most important to *you* in accomplishing this objective(s)?
+- What's most important to *you* in accomplishing this objective(s)?
 - What makes you personally so committed to the success of the project?
 - What will it mean to you personally when the project is successful?
 - What are the implications to you personally if it is not successful?
@@ -115,7 +108,7 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
 - How would you describe the decision-making process at your organization?
 - How many individuals or teams are involved in the decision making process?
 - What executive or senior level sponsorship is required?
-- Does each team/group purchase their own solutions or is there a department who does this? If a centralized department, what is that group’s name?
+- Does each team/group purchase their own solutions or is there a department who does this? If a centralized department, what is that group's name?
 - How does high availability rank within your needs and what you are trying to accomplish?
 
 ### Decision Criteria
@@ -150,7 +143,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - **First, ensure you have an intimate understanding of the customer challenges and use cases that each version helps our customers address**
   - See the [Why Premium?](https://about.gitlab.com/pricing/premium/) page
   - See the [Why Ultimate?](https://about.gitlab.com/pricing/ultimate/) page
-- And more importantly, ask effective, open-ended discovery questions and actively listen to your customer’s responses to determine if and how the capabilities of these versions map to the required capabilities they need to deliver desired outcomes for their organization.
+- And more importantly, ask effective, open-ended discovery questions and actively listen to your customer's responses to determine if and how the capabilities of these versions map to the required capabilities they need to deliver desired outcomes for their organization.
 
 ### Discovery Questions for GitLab Premium
 
@@ -165,17 +158,17 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - How important is priority support to your organization?
   - Standard support: Next business day support (response within 24 hours 24x5)
   - Priority support: 4 hour response time for regular business support and 24x7 uptime support with a guaranteed 30 minute response time (best choice for minimizing outages and downtime
-- How confident are you in your team’s ability to roll out GitLab? What would be the impact if you had expert help to assist in guiding, planning, and shaping your deployment and implementation?
+- How confident are you in your team's ability to roll out GitLab? What would be the impact if you had expert help to assist in guiding, planning, and shaping your deployment and implementation?
   - Position how [Customer Success Manager](https://about.gitlab.com/services/customer-success-management/) access can help to mitigate deployment risk, accelerate time to value, and optimize ROI and TCO
 - How do you normally handle software upgrades? Would it be helpful to have GitLab support to help you through the process to ensure there aren't any surprises?
-  - If yes, position GitLab’s *Upgrade Assistance*
+  - If yes, position GitLab's *Upgrade Assistance*
 
 #### Achieve High Availability and Disaster Recovery
 
-- What is your organization’s HA (High Availability) strategy? Do you have one? Why / why not?
-  - If HA support is needed, position Premium’s HA support via our [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/); note: Free offers HA capabilities with self-support vs. expert GitLab support
+- What is your organization's HA (High Availability) strategy? Do you have one? Why / why not?
+  - If HA support is needed, position Premium's HA support via our [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/); note: Free offers HA capabilities with self-support vs. expert GitLab support
 - How does your organization handle [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/index.html)?
-  - GitLab’s Disaster Recovery feature, only available in Premium and Ultimate SKUs, handles fail-over to another data center within minutes
+  - GitLab's Disaster Recovery feature, only available in Premium and Ultimate SKUs, handles fail-over to another data center within minutes
 - Are your development teams centrally located in generally the same vicinity or are they distributed across the world? If distributed, how do you ensure that latency between geographically dispersed developers is minimized?
   - If this is important to the customer, discuss with your SA whether or not [Geographic Replication](https://about.gitlab.com/solutions/geo/) is a required capability
 
@@ -190,7 +183,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - How important is having consistent and standard practices to boost overall developer productivity?
   - [Group and file templates](https://docs.gitlab.com/ee/user/group/#group-file-templates) allow you to share a set of templates for common file types with every project in a group
 - What is your organization doing to simplify and streamline system logon processes for developers? Do you currently use or have plans to use SmartCard authentication?
-  - If yes, highlight Premium’s [Smart Card Authentication](https://docs.gitlab.com/ee/administration/auth/smartcard.html) capabilities
+  - If yes, highlight Premium's [Smart Card Authentication](https://docs.gitlab.com/ee/administration/auth/smartcard.html) capabilities
 
 #### Streamline Project Planning
 
@@ -211,15 +204,15 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
   - [Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/) - Visualize the flow of business initiatives across time in order to plan when future features will ship
 
 - How many tools do you have to use to understand current status? How long does that take? How does that affect your teams?
-  - If this line of questioning reveals challenges in lack of visibility across the DevOps toolchain, position GitLab Premium’s [Operations Dashboard](https://docs.gitlab.com/ee/user/operations_dashboard/index.html#doc-nav) which provides a holistic view of the overall health of an organization's operations
+  - If this line of questioning reveals challenges in lack of visibility across the DevOps toolchain, position GitLab Premium's [Operations Dashboard](https://docs.gitlab.com/ee/user/operations_dashboard/index.html#doc-nav) which provides a holistic view of the overall health of an organization's operations
 - How would you assess your level of confidence in how your organization currently manages software deploys? Are there any risks you wish you could mitigate? If so, what are they and why? GitLab Premium offers a multitude of capabilities to allow organizations to deploy with confidence including the below (see the [Why GitLab Premium? page](https://about.gitlab.com/pricing/premium/) for value descriptions of each of these features)
-  - [Multi Project Pipelines](https://docs.gitlab.com/ee/ci/multi_project_pipelines.html) - Link CI pipelines from multiple projects to deliver integrated solutions
+  - [Multi Project Pipelines](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#multi-project-pipelines) - Link CI pipelines from multiple projects to deliver integrated solutions
   - [Protected Environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html) - Establish controls and limit the access to change specific environments
 
 #### Manage Development
 
 - How do you currently track and manage code reviews and feedback?
-- Describe your current workflow between SCM to CI. When your pipeline fails, what’s the process to remediate?
+- Describe your current workflow between SCM to CI. When your pipeline fails, what's the process to remediate?
 - If you could collaborate at the point of change, how would that affect your productivity?
 - When is your next release? How at risk are you for missing that release? At what point does this escalate to higher management?
 - How do you currently manage auditing and compliance with your existing software development toolchain?
@@ -229,8 +222,8 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
   - [Audit Logs](https://docs.gitlab.com/ee/administration/audit_events.html) - Review changes by user and track access
   - [Auditor users](https://docs.gitlab.com/ee/administration/auditor_users.html) - Read-only access to all projects, groups, and other resources on the GitLab instance
   - [Merge Request Reviews](https://docs.gitlab.com/ee/user/discussions/index.html#merge-request-reviews) - Draft multiple comments in a merge request code review and review/resolve comments together
-  - [Verified Committer](https://docs.gitlab.com/ee/push_rules/push_rules.html#enabling-push-rules) - Ensure only authorized and verified team members are allowed to commit to the project
-  - [Require Signed Commits](https://docs.gitlab.com/ee/push_rules/push_rules.html#enabling-push-rules) - Enforce policy to require signed commits from contributors
+  - [Verified Committer](https://docs.gitlab.com/ee/user/project/repository/push_rules.html#enabling-push-rules) - Ensure only authorized and verified team members are allowed to commit to the project
+  - [Require Signed Commits](https://docs.gitlab.com/ee/user/project/repository/push_rules.html#enabling-push-rules) - Enforce policy to require signed commits from contributors
 
 ### Discovery Questions for GitLab Ultimate
 
@@ -260,7 +253,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 
 #### Project Insights
 
-- How would it affect your organization’s efficiencies to gain insights into things that matter for your projects (e.g. triage hygiene, issues created/closed per a given period, average time for merge requests to be merged, etc.)?
+- How would it affect your organization's efficiencies to gain insights into things that matter for your projects (e.g. triage hygiene, issues created/closed per a given period, average time for merge requests to be merged, etc.)?
   - If this is of interest, position [Project Insights](https://docs.gitlab.com/ee/user/project/insights/)
 
 #### Portfolio Management
@@ -277,7 +270,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 
 #### Other
 
-- Guest users - Guest users don’t count towards the license count
+- Guest users - Guest users don't count towards the license count
 
 ## **ADDITIONAL QUESTIONS IF…**
 

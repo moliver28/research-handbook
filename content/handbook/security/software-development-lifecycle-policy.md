@@ -1,6 +1,5 @@
 ---
 title: "Software Development Lifecycle Policy"
-controlled_document: true
 ---
 
 ## Purpose
@@ -55,7 +54,7 @@ Considerations for design documents are:
 
 - Security: Developers must define how they will keep the application secure. This includes deciding how to protect user data and general application data.
 
-- Programming: Define the project’s tech and tool stack.
+- Programming: Define the project's tech and tool stack.
 
 Design documents must be approved by relevant stakeholders prior to being merged (prototyping).
 
@@ -65,7 +64,7 @@ Software development at GitLab is accomplished using industry standard developme
 
 Software development must be accomplished using GitLab's development platform in a version controlled manner.
 
-[Code review guidelines](https://about.gitlab.com/handbook/engineering/workflow/code-review/) must be adhered to when developing code at GitLab.
+[Code review guidelines](/handbook/engineering/workflow/code-review/) must be adhered to when developing code at GitLab.
 
 Development work must undergo testing and approval prior to deployment to production. This includes configuration changes and other related changes that may not be considered "development" work.
 

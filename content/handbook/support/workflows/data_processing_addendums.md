@@ -1,12 +1,9 @@
 ---
-
 title: Processing Signed Data Processing Addendums (DPAs)
 category: GitLab.com
 subcategory: Legal
 description: "Support Engineering workflow detailing what to do with signed Data Processing Addendums"
 ---
-
-
 
 ## Overview
 
@@ -18,7 +15,7 @@ Data Processing Addendums are available to paid subscribers of GitLab.com throug
 
 1. Locate the customer's Salesforce account. The correct string begins with `001` and can be found: under the Zendesk organization[1], linked in the automatic note posted to a Zendesk ticket[2], or in the **Edit** interface of the CustomersDot[3] ([screenshots](#screenshots) provided below). The URL for the Salesforce account record will look like: `https://gitlab.my.salesforce.com/0014M00001hHV5CQAW`.
 
-1. Under the section “Google Docs, Notes, & Attachments”, click "Attach File" and upload the file to the record.
+1. Under the section "Google Docs, Notes, & Attachments", click "Attach File" and upload the file to the record.
 
 1. Should you be unable to attach the file yourself, please forward it to [legal@gitlab.com](mailto:<legal@gitlab.com>?subject=Signed DPA) with a link to the Salesforce account.
 

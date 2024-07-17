@@ -250,7 +250,7 @@ support.
 
 #### In qualification
 
-The Gitlab distribution team has started qualification of a new release.
+The GitLab distribution team has started qualification of a new release.
 Qualification includes:
 
 - Conforming to API changes where needed

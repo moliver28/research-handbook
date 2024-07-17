@@ -10,7 +10,7 @@ description: "Diversity, Inclusion & Belonging is fundamental to the success of 
 
 Diversity, Inclusion & Belonging is fundamental to the success of GitLab.  We include it in every way possible and in all that we do.  We strive for a transparent environment where all globally dispersed voices are heard and welcomed.  We strive for an environment where people can show up as their full selves each day and can contribute to their best ability.  And with over 100,000 organizations utilizing GitLab across the globe, we strive for a team that is representative of our users.
 
-Diversity complements our other [values]({{< ref "values" >}}), specifically Collaboration, Efficiency and Results.
+Diversity complements our other [values](/handbook/values/), specifically Collaboration, Efficiency and Results.
 And diversity in our leadership [supports innovation](https://www.bcg.com/en-us/publications/2018/how-diverse-leadership-teams-boost-innovation.aspx), [promotes better decision making](https://www.cloverpop.com/hacking-diversity-with-inclusive-decision-making-white-paper) and [improves financial results](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters).
 
 ## GitLab's Diversity Inclusion and Belonging Mission
@@ -53,8 +53,8 @@ Embracing inclusion may increase the **sense of belonging**. Team members become
 
 We believe in empowering team members to get their work done efficiently and collaboratively by establishing clear [DRIs]({{< ref "directly-responsible-individuals" >}}) for all our work. [DRIs do not owe anyone an explanation for their decisions]({{< ref "directly-responsible-individuals#empowering-dris-no-explanation-needed" >}}), but DRIs can still acknowledge input by closing an issue and marking it `Won't Do` or commenting on an issue acknowledging that they have read all the comments.
 
-All team members don't have to agree on the best course of action- we can [disagree, commit, and disagree]({{< ref "values#disagree-and-commit" >}})- but everyone can contribute and it is on the DRI to acknowledge those.
-Some other ways we actively cultivate a sense of Belonging at GitLab include creating and cultivating allies, welcoming family members in the background of a call, and sharing [negative feedback in 1-1 settings]({{< ref "values#negative-feedback-is-1-1" >}}).
+All team members don't have to agree on the best course of action- we can [disagree, commit, and disagree](/handbook/values/#disagree-and-commit)- but everyone can contribute and it is on the DRI to acknowledge those.
+Some other ways we actively cultivate a sense of Belonging at GitLab include creating and cultivating allies, welcoming family members in the background of a call, and sharing [negative feedback in 1-1 settings](/handbook/values/#negative-feedback-is-1-1).
 
 **A good way to look at Diversity, Inclusion & Belonging is:**
 
@@ -71,7 +71,7 @@ Some other ways we actively cultivate a sense of Belonging at GitLab include cre
 
 ### Examples of Select Underrepresented Groups
 
-An underrepresented group describes a subset of a population that holds a smaller percentage within a significant subgroup than the subset holds in the general population. The accepted definition of “underrepresented minorities” from the National Science Foundation and other major research institutions focuses on racial and ethnic groups whose representation in a profession is significantly below their representation in the general population.  Populations whose representation in tech roles has been historically low.  Tech roles are based on Federal Employer Information Report EEO-1 skill designations. At GitLab, this includes all technical roles across the company, such as Engineering & Product.
+An underrepresented group describes a subset of a population that holds a smaller percentage within a significant subgroup than the subset holds in the general population. The accepted definition of "underrepresented minorities" from the National Science Foundation and other major research institutions focuses on racial and ethnic groups whose representation in a profession is significantly below their representation in the general population.  Populations whose representation in tech roles has been historically low.  Tech roles are based on Federal Employer Information Report EEO-1 skill designations. At GitLab, this includes all technical roles across the company, such as Engineering & Product.
 
 At GitLab, we consider the following groups to be *underrepresented groups*:
 
@@ -115,7 +115,7 @@ Source: GitLab's People Analytics Team, WorkDay
 ## Values
 
 Inclusive teams are naturally more engaged, collaborative and innovative.
-We aim to align [our values]({{< ref "values" >}}) to be reflective of our company wide commitment to fostering a diverse and inclusive environment.
+We aim to align [our values](/handbook/values/) to be reflective of our company wide commitment to fostering a diverse and inclusive environment.
 
 In addition, the very nature of our company is to facilitate and foster inclusion.
 We believe in asynchronous communication, we allow flexible work hours. GitLab team members are encouraged to work when and where they are most comfortable.
@@ -126,7 +126,7 @@ The GitLab team is fully distributed across the globe, providing our team the op
 We collaborate professionally and connect personally!
 
 Our unique all-remote team opens our door to everyone.
-Candidates are not limited by geography and we [champion this approach]({{< ref "all-remote" >}}), to the extent that it's possible, for all companies!
+Candidates are not limited by geography and we [champion this approach](/handbook/company/culture/all-remote/), to the extent that it's possible, for all companies!
 
 By having no offices and allowing each GitLab team member to work and live where they are most comfortable, GitLab offers a uniquely inclusive culture.
 
@@ -136,11 +136,11 @@ By having no offices and allowing each GitLab team member to work and live where
 - All-remote enables those who must relocate frequently for family and personal reasons to take their career with them.
 - All-remote allows movement and relocation to physical settings that contribute to an individual's health (e.g. moving to a location with an improved air quality index).
 
-Learn more about GitLab's [all-remote culture]({{< ref "all-remote" >}}).
+Learn more about GitLab's [all-remote culture](/handbook/company/culture/all-remote/).
 
 ## GitLab team member data
 
-Please see our [identity data]({{< ref "identity-data" >}}).
+Please see our [identity data](/handbook/company/culture/inclusion/identity-data/).
 
 ## What we are doing with Diversity, Inclusion & Belonging
 
@@ -152,11 +152,11 @@ This page outlines the process of [DIB Roundtables]({{< ref "dib-roundtables" >}
 
 ### Talent Acquisition initiatives
 
-[This page provides an overview of our Diversity, Inclusion & Belonging Talent Acquisition initiatives]({{< ref "./talent-acquisition-initiatives" >}}).
+[This page provides an overview of our Diversity, Inclusion & Belonging Talent Acquisition initiatives](talent-acquisition-initiatives/).
 
 ### Engineering Initiatives
 
-[This page provides an overview of our Diversity, Inclusion & Belonging Engineering initiatives]({{< ref "./engineering-initiatives" >}})
+[This page provides an overview of our Diversity, Inclusion & Belonging Engineering initiatives](engineering-initiatives/)
 
 ### Sales Initiatives
 
@@ -240,7 +240,7 @@ We list our [Pregnancy & Maternity Care]({{< ref "inc-benefits-us#pregnancy--mat
 
 ### Inclusive language
 
-In our [GitLab Values]({{< ref "values#inclusive-language--pronouns" >}}) we list: 'Use inclusive language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys". And speak about courage instead of [aggression](https://www.huffingtonpost.com/2015/06/02/textio-unitive-bias-software_n_7493624.html). Another example is to avoid terms like "gossip" that have [negative gender connotations](https://inthesetimes.com/article/the-subversive-feminist-power-of-gossip). Also see the note in the [management section of the leadership page]({{< ref "structure#management-group" >}}) to avoid military analogies.
+In our [GitLab Values](/handbook/values/#inclusive-language--pronouns) we list: 'Use inclusive language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys". And speak about courage instead of [aggression](https://www.huffingtonpost.com/2015/06/02/textio-unitive-bias-software_n_7493624.html). Another example is to avoid terms like "gossip" that have [negative gender connotations](https://inthesetimes.com/article/the-subversive-feminist-power-of-gossip). Also see the note in the [management section of the leadership page]({{< ref "structure#management-group" >}}) to avoid military analogies.
 
 - For an additional resource, we also have a presentation on [Inclusive Language](https://docs.google.com/presentation/d/186RK9QqOYxF8BmVS15AOKvwFpt4WglKKDR7cUCeDGkE/edit?usp=sharing)
 
@@ -263,7 +263,7 @@ We have created several TMRGs and welcome interest in creating new ones. Would y
 
 GitLab welcomes military veterans from around the world, as well as military spouses, to learn more about [life at GitLab]({{< ref "culture#life-at-gitlab" >}}) and to apply for [vacancies](https://about.gitlab.com/jobs/). We recognize the values gained from military experience, and we foster an [inclusive atmosphere]({{< ref "building-culture" >}}) to thrive in when returning to civilian life.
 
-Our [all-remote culture]({{< ref "all-remote" >}}) provides an ideal work environment for military veterans and spouses. By empowering team members to live and work where they are most comfortable, veterans and spouses can work in a safe, nurturing environment that they [choose and design](/handbook/company/culture/all-remote/workspace).
+Our [all-remote culture](/handbook/company/culture/all-remote/) provides an ideal work environment for military veterans and spouses. By empowering team members to live and work where they are most comfortable, veterans and spouses can work in a safe, nurturing environment that they [choose and design](/handbook/company/culture/all-remote/workspace).
 
 We encourage military veterans and spouses to [read testimonials](/handbook/company/culture/all-remote/people#military-spouses-and-families) from GitLab team members to understand the benefits of all-remote when [joining the workforce](/handbook/company/culture/all-remote/getting-started) following military service. We are committed to our [Military Leave](/handbook/people-policies/leave-of-absence#military-leave) policy.
 
@@ -307,7 +307,7 @@ The options of this field are:
 
 Above this field, we have a section titled `Veteran Status` that we ask our US-based team members to review and also complete during the onboarding process, if it applies to them and if they so wish. The reason we ask is because it is a legal requirement in the United States for us to request and document this information. We encourage our US-based GitLab team members to self-disclose their Veteran Status in our HRIS without any fear of judgment or negative consequences, but it is always optional. Again, all veteran status data is completely confidential, and only requested for mandatory reporting purposes.
 
-If you are a team member on a GitLab Inc or Federal contract and a disabled veteran you may request a “reasonable accommodation.” A reasonable accommodation is one that allows you to perform your job, and must be provided by GitLab unless doing so would cause GitLab significant difficulty or expense. A reasonable accommodation does not change essential job functions. GitLab can choose the type of reasonable accommodation that will be made available; however, the accommodation must be effective. More information on how to request a reasonable accommodation is available [here](https://www.dol.gov/ofccp/posters/ReasonableAccommodationPocketCard/index.htm). Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you would like an accommodation due to your veteran status.
+If you are a team member on a GitLab Inc or Federal contract and a disabled veteran you may request a "reasonable accommodation." A reasonable accommodation is one that allows you to perform your job, and must be provided by GitLab unless doing so would cause GitLab significant difficulty or expense. A reasonable accommodation does not change essential job functions. GitLab can choose the type of reasonable accommodation that will be made available; however, the accommodation must be effective. More information on how to request a reasonable accommodation is available [here](https://www.dol.gov/ofccp/posters/ReasonableAccommodationPocketCard/index.htm). Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you would like an accommodation due to your veteran status.
 
 ### Diversity, Inclusion & Belonging Training and Learning Opportunities
 
@@ -375,7 +375,7 @@ We encourage organizers of events that are supported through our [GitLab Diversi
   - **Native Hawaiian or Other Pacific Islander** - A person having origins in any of the original people of Hawaii, Guam, Samoa, or other Pacific Islands. Included but not limited to people who reported their race as Fijian, Guamanian, Chamorro, Marshallese, Native Hawaiian, Samoan, Tongan or other Pacific Islander.
   - **Multiracial** - refers to two or more races as described in the listed categories.
   - **White** - A person having origins in any of the original people of Europe, the Middle East, or North Africa. Included but not limited to people who indicate their race as: White, Irish, German, Italian, Lebanese, Arab, Moroccan, or Caucasian.
-- **Ethnicity**: Can be more broadly defined as “large groups of people classed according to common racial, national, tribal, religious, linguistic, or cultural origin or background.”
+- **Ethnicity**: Can be more broadly defined as "large groups of people classed according to common racial, national, tribal, religious, linguistic, or cultural origin or background."
   - For example people who are Black/African Descent can have a variety of ethnicities such as African,  African American, Afro-Caribbean, Afro-Latinx etc. Whilst physical characteristics can be similar there could be cultural differences.
 - **Underrepresented Group** This can be defined as a group whose percentage of the population in a given group is lower than their percentage of the population of country, community, organization or otherwise.
   - An example of this at GitLab is: Women within Senior Leadership is still low compared to Men within Senior Leadership. Which meant that GitLab created the goal of 50% of all senior leadership should be women by December 2021 to address the imbalance within this underrepresented group.
@@ -384,7 +384,7 @@ We encourage organizers of events that are supported through our [GitLab Diversi
 - **Allyship** - Is the state of being an ally, supporting or being a member of  groups or associations of the people you are an ally too. An example of this is someone who does not identify as part of the [LGBTQI+](https://socialprotection-humanrights.org/key-issues/disadvantaged-and-vulnerable-groups/lgbtqi/) community being a part of the TMRG and supporting the endeavors.
 - **Unconscious bias** - Unconscious biases are stereotypes about certain groups of people that individuals form outside their own conscious awareness.
 Nearly all our thoughts and actions are influenced, at least in part, by unconscious impulses. There's no reason bias should be out of scope. Categorizing people based on social and other characteristics is a powerful survival mechanism, as it helps to distinguish friends from foes and make quick "life or death" decisions based on "inner feeling". At the same time this is a fertile ground for growing stereotypes, prejudice, discrimination.
-- **Psychological safety** - is defined by Amy Edmondson as a “shared belief held by members of a team that the team is safe for interpersonal risk taking”.
+- **Psychological safety** - is defined by Amy Edmondson as a "shared belief held by members of a team that the team is safe for interpersonal risk taking".
 It's not about being warm and fuzzy and sharing your feelings. It's about being comfortable admitting when you are wrong or have made a mistake as well as challenging each other for the better.
 
 ## Performance Indicators

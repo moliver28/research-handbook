@@ -1,5 +1,4 @@
 ---
-
 title: "Board of Directors and Corporate Governance"
 ---
 
@@ -189,7 +188,7 @@ This section is updated after every Board Meeting by the Staff EBA to the CFO fo
 
 #### Board Materials
 
-GitLab uses Nasdaq’s Boardvantage (NBV) portal for the electronic dissemination and storage of materials relating to GitLab’s Board Meetings.
+GitLab uses Nasdaq's Boardvantage (NBV) portal for the electronic dissemination and storage of materials relating to GitLab's Board Meetings.
 
 For a more detailed overview of navigating the NBV portal, please click here to view the [Internal Reference Guide](https://docs.google.com/document/d/1O10S3JXA5W_Zj1WlvMWyb3welm4jLAHxrurY493U0IU/edit#heading=h.cyhfykp20l6r).
 
@@ -201,7 +200,7 @@ For a more detailed overview of navigating the NBV portal, please click here to 
         - Each discussion topic has a memo with unlimited exhibits.
         - Finance has unlimited exhibits in the memo.
         - Annual Operating Plan can be a memo or slide deck.
-   - The Administration Session for Board Committee readouts by the Committee Chairperson updating the Board as to the Committee’s activities and highlighting the items requiring Board approval, if any.
+   - The Administration Session for Board Committee readouts by the Committee Chairperson updating the Board as to the Committee's activities and highlighting the items requiring Board approval, if any.
 1. Questions can be asked throughout the meeting. 30 minutes are reserved at the end of the General Session for Q&A / Discussion.
 1. At the conclusion of the General Session the E-Group, Observers, CoS to the CEO, Staff EBA, CEO Shadows depart the zoom meeting and the full Board shall meet for a Closed Session.
 
@@ -219,7 +218,7 @@ Each quarter, [E-Group]({{< ref "structure#e-group" >}}) can choose to invite an
 
 Once the Key Talent Guest has been identified, it is the relevant E-Group team member's responsibility to ensure that managers of this person are aware of the invite. The EBA to the CEO will then confirm that the guest is able to join. If not, the invite will go to the runner up. Once a Key Talent Guest is confirmed, the EBA to the CEO should enter their name in the [Key Talent Board Dinner Guests](#key-talent-board-dinner-guests).
 
-GitLab will cover this person's travel expenses. A person's location will not be considered in the selection criteria though the person's travel must be allowed under GitLab's [travel policies and guidelines]({{< ref "travel#policy-and-guidelines" >}}).
+GitLab will cover this person's travel expenses. A person's location will not be considered in the selection criteria though the person's travel must be allowed under GitLab's [travel policies and guidelines](/handbook/travel/#policy-and-guidelines).
 
 As part of joining the dinner, the Key Talent Guest should come prepared to discuss:
 
@@ -259,7 +258,7 @@ Board Members may request additional time for a deep dive on a specific topic. T
 
 ## Quarterly AMA with the Board
 
-We will have one Board member per quarter conduct an AMA (Ask Me Anything) session with the GitLab team. AMA’s are 25 minutes and live streamed to GitLab Unfiltered on YouTube. These AMA's are scheduled by the Staff EBA to the CEO.
+We will have one Board member per quarter conduct an AMA (Ask Me Anything) session with the GitLab team. AMA's are 25 minutes and live streamed to GitLab Unfiltered on YouTube. These AMA's are scheduled by the Staff EBA to the CEO.
 
 - [David Hornik's AMA](https://www.youtube.com/watch?v=LwZNbF6_PX0%C2%A0)
 

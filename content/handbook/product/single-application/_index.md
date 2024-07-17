@@ -1,10 +1,6 @@
 ---
-
 title: Advantages of a single application
 ---
-
-
-
 
 ## Single application
 
@@ -24,11 +20,11 @@ For example, the experience of one enterprise customer that converted from multi
 - Four-times fewer hours of hands-on keyboard time and four-times fewer tasks for people to do, allowing them to be more productive
 - Five-times fewer different teams requiring to be involved and four-times fewer handoffs between teams, allowing them to be more productive and making the time to value more predictable
 
-[![DevOps GitLab compared with multiple DevOps tools](./devops_single_multiple_tool_comparison.png)](./dataflow.html)
+[![DevOps GitLab compared with multiple DevOps tools](devops_single_multiple_tool_comparison.png)](dataflow.html)
 
 ### How does having one application vs many applications impact the workflow?
 
-[Dataflow and source data](./dataflow.html)
+[Dataflow and source data](dataflow.html)
 
 ### Single authentication
 
@@ -100,7 +96,7 @@ offering plugins for the following reasons:
 1. We think a single application provides a better user experience than a modular approach, as detailed by [this article from Stratechery](https://stratechery.com/2013/clayton-christensen-got-wrong/).
 1. The open source nature of GitLab ensures that we can combine great open source products.
 1. Everyone can contribute to create a feature set that is [more complete than other tools](https://about.gitlab.com/why-gitlab/). We'll focus on making all the parts work well together to create a better user experience.
-1. Because GitLab is open source, the enhancements can become [part of the codebase instead](https://docs.gitlab.com/ee/user/project/integrations/overview.html) of being external. This ensures the automated tests for all
+1. Because GitLab is open source, the enhancements can become [part of the codebase instead](https://docs.gitlab.com/ee/user/project/integrations/) of being external. This ensures the automated tests for all
 functionality are continually run, ensuring that additions keep working. This is in contrast to externally maintained plugins that might not be updated.
 1. Having the enhancements as part of the codebase also
 ensures GitLab can continue to evolve with its additions instead of being bound

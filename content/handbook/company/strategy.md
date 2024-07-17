@@ -29,7 +29,7 @@ As we execute on our strategy, it is important to use our financial targets as g
 
 ### Seed then nurture
 
-Our GitLab product [vision](https://about.gitlab.com/direction/#vision) is to deliver a single application for the entire DevOps lifecycle.  This is a very expansive product vision that requires us to build an enormous amount of product surface area.  Because we want to be efficient with capital, we want to build GitLab as a community. When we are early in a particular area of the product, we will plant seeds by shipping a small [MVC](/handbook/values/#minimal-viable-change-mvc). Shipping functionality that is incomplete to expand the scope sometimes goes against our instincts. However, planting those seeds even in an incomplete state allows others to see our path and contribute. With others contributing, we'll iterate faster and will accelerate the [maturity](https://about.gitlab.com/direction/maturity/) of our offering faster than GitLab could on its own.  We can have a **long tail** of categories that are at a minimal [maturity](https://about.gitlab.com/direction/maturity/) that don't get investment until they show traction. While these come with a [low level of shame](/handbook/values/#low-level-of-shame) they allow the wider community to contribute and people to express interest. It is much more common for people to contribute to categories that already exist and express interest in categories already shipping in the product. A minimal category is the placeholder to channel energy, and it is our responsibility to till the earth with minimal iterations.
+Our GitLab product [vision](https://about.gitlab.com/direction/#vision) is to deliver a single application for the entire DevOps lifecycle.  This is a very expansive product vision that requires us to build an enormous amount of product surface area.  Because we want to be efficient with capital, we want to build GitLab as a community. When we are early in a particular area of the product, we will plant seeds by shipping a small [MVC](/handbook/values/#minimal-viable-change-mvc). Shipping functionality that is incomplete to expand the scope sometimes goes against our instincts. However, planting those seeds even in an incomplete state allows others to see our path and contribute. With others contributing, we'll iterate faster and will accelerate the [maturity](https://about.gitlab.com/direction/#maturity) of our offering faster than GitLab could on its own.  We can have a **long tail** of categories that are at a minimal [maturity](https://about.gitlab.com/direction/#maturity) that don't get investment until they show traction. While these come with a [low level of shame](/handbook/values/#low-level-of-shame) they allow the wider community to contribute and people to express interest. It is much more common for people to contribute to categories that already exist and express interest in categories already shipping in the product. A minimal category is the placeholder to channel energy, and it is our responsibility to till the earth with minimal iterations.
 
 GitLab the product should eventually have depth in every category it offers.  To build out real depth requires a shift in focus, from planting seeds to nurturing the product area to maturity. We should concentrate our nurture investments in the categories that have demonstrated [monthly active usage](/handbook/product/performance-indicators/#structure), revenue contribution, and demonstrated customer demand.  As a product team, we'll be particularly focused on driving monthly active usage at the stage and group level.  This should lead to more Stages per Organization, which is important as each stage added [triples paid conversion](https://about.gitlab.com/direction/#product-strategy)!  We'll also be heavily focused on driving usability, by measuring our [system usability score](/handbook/product/ux/ux-resources/#system-usability-score), which is a measure of the user perception of GitLab's usability.
 
@@ -118,7 +118,7 @@ Legend with links to the relevant metrics:
 
 1. [Wider community contributions Turbo](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release)
 1. [R&D Overall MR Rate](/handbook/engineering/performance-indicators/#rd-overall-mr-rate)
-1. [Stage maturity](https://about.gitlab.com/direction/maturity/) increase
+1. [Stage maturity](https://about.gitlab.com/direction/#maturity) increase
 1. [MAU](/handbook/product/performance-indicators/) increase
 1. [SpO](/handbook/product/performance-indicators/#stages-per-organization-spo) increase Turbo which is only possible in a [single application with multiple stages](/handbook/product/single-application/)
 1. More [Licensed users](/handbook/sales/#licensed-users) is due to an increase in unlicensed users (MAU) and the increase in [SpO](/handbook/product/performance-indicators/#stages-per-organization-spo) leading to a higher conversion from free to paid and a higher gross retention.
@@ -157,9 +157,9 @@ Activity
 
 Positioning and SWOT published in [internal handbook](https://internal.gitlab.com/handbook/company/swot-and-positioning/) with description of strategy process two weeks post offsite
 
-- May 15th eGroup review (Complete)
+- May 15th e-group review (Complete)
 
-eGroup capability gap exercise at eGroup offsite (prework)
+E-group capability gap exercise at e-group offsite (prework)
 
 - Stella
 - Complete: Jun 28th
@@ -170,12 +170,12 @@ Complete capability gap exercise at VP level to bring more input into the group
 - Drafts: July 12th
 - Final: July 19th
 
-Pull together comprehensive view of capabilities from eGroup and VP sessions
+Pull together comprehensive view of capabilities from e-group and VP sessions
 Craig/Dave
 
 - July 24th
 
-eGroup June Virtual Offsite Sessions:
+E-group June Virtual Offsite Sessions:
 
 - Decide on GTM, Ops and Product strategies
 - Decide on top capabilities for investment (feed into LRO)

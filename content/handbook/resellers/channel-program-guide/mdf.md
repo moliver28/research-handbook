@@ -4,10 +4,6 @@ title: "Marketing Development Funds"
 description: "Marketing Development Funds Overview"
 ---
 
-
-
-
-
 ## MDF Program Introduction
 
 GitLab Open and Select partners have access to the proposal-based GitLab Marketing Development Funds (MDF) Program. These funds are intended to support our partners' demand generation efforts.
@@ -17,7 +13,7 @@ GitLab Open and Select partners have access to the proposal-based GitLab Marketi
 #### Demand Generation
 
 - The objective of these activities is to gain net-new end-user customers for you and GitLab. Examples of eligible activities include seminars, workshops, telemarketing or email marketing campaigns, participation in tradeshows, exhibitions, and direct mail.
-- Eligible costs may include mailing costs, fulfillment items, lead qualification, distribution, venue costs, food and beverages (excluding alcoholic beverages), speakers’ fees, management costs, and lead capturing costs.
+- Eligible costs may include mailing costs, fulfillment items, lead qualification, distribution, venue costs, food and beverages (excluding alcoholic beverages), speakers' fees, management costs, and lead capturing costs.
 - GitLab supports a limited number of partners in the selected regions, please check your eligibility with your regional [Channel Account Manager](https://partners.gitlab.com/prm/English/c/marketing-contact-cam) and [Channel Marketing Manager](/handbook/marketing/channel-marketing/#meet-the-team)
 
 #### To be considered for funding support you must
@@ -34,7 +30,7 @@ Proof of performance (POP) includes partner-generated invoice AND at least one o
 | **Eligible Activity** | **Description** | **Proof of Performance** |
 |--------------------|---------------------------|-------------------------------------------------------------|
 | **Collateral Sales Tools** | Printed or web-based material developed to assist in your efforts to promote GitLab solutions (product briefs, data sheets, case studies, etc.). The document must include the GitLab logo. | • Electronic version or hard copy of marketing collateral <br> • Graphic files or digital photos that show the integration of GitLab brand/solutions <br> • eDM/Direct mail |
-| **Events** | Any industry or partner event that you plan to attend to promote or host GitLab solutions. This can be done in collaboration with other vendors that don’t compete with GitLab. Events may also include enablement activities. | •(REQUIRED) Lead list/Attendee list (to include: Company Name, Contact, Title, Email, & Phone. Please use [MDF Lead List template](https://docs.google.com/spreadsheets/d/1CbxYQVZkZXxujpTIwpG3Hj_GKzuoDvpSGYmC1HnIA1Y/edit?usp=sharing)) <br> • Electronic version or hard copy of invitation <br> • Marketing collateral<br> • Photo of display/booth/event <br> • Funded Head (Distribution Only) |
+| **Events** | Any industry or partner event that you plan to attend to promote or host GitLab solutions. This can be done in collaboration with other vendors that don't compete with GitLab. Events may also include enablement activities. | •(REQUIRED) Lead list/Attendee list (to include: Company Name, Contact, Title, Email, & Phone. Please use [MDF Lead List template](https://docs.google.com/spreadsheets/d/1CbxYQVZkZXxujpTIwpG3Hj_GKzuoDvpSGYmC1HnIA1Y/edit?usp=sharing)) <br> • Electronic version or hard copy of invitation <br> • Marketing collateral<br> • Photo of display/booth/event <br> • Funded Head (Distribution Only) |
 | **Partner Sponsorship** | Participation in a partner-led event or activity or third-party event. | • Contract of signed sponsorship <br> • Lead list (to include Company Name, Contact, Title, Email, & Phone. Please use [MDF Lead List template](https://docs.google.com/spreadsheets/d/1CbxYQVZkZXxujpTIwpG3Hj_GKzuoDvpSGYmC1HnIA1Y/edit?usp=sharing)) |
 | **Marketing Materials** | The delivery of co-branded marketing materials (digital or physical) to promote GitLab solutions. Eligible assets include emails, direct mailers and social media posts, and must include the GitLab logo. | • Electronic version or hard copy sample of direct mail, newsletter <br> • Lead list (to include Company Name, Contact, Title, Email, & Phone. Please use [MDF Lead List template](https://docs.google.com/spreadsheets/d/1CbxYQVZkZXxujpTIwpG3Hj_GKzuoDvpSGYmC1HnIA1Y/edit?usp=sharing)) |
 | **Lead Generation/ Telemarketing** | Delivery of co-branded messages via telephone or other mediums to gain net-new customers. The message should focus on GitLab solutions. The contact list should include Company Name, First Name, Last Name, Title, Email, Phone. | • (REQUIRED) Lead list or call list (to include: Company Name, Contact, Title, Email, & Phone. Please use [MDF Lead List template](https://docs.google.com/spreadsheets/d/1CbxYQVZkZXxujpTIwpG3Hj_GKzuoDvpSGYmC1HnIA1Y/edit?usp=sharing)) <br> • Telemarketing script of how GitLab brand or solution were incorporated into the campaign <br> • Itemized call record or campaign metrics <br> • Internal invoice accepted |
@@ -47,7 +43,7 @@ To obtain marketing development funds (MDF), please complete the following steps
 
 ### MDF Request
 
-- Partners can access the MDF Request Form from [the GitLab Partner Portal home page](https://partners.gitlab.com/). Navigate to Marketing and select “MDF Request.” Upon selecting MDF Request, complete the first part of the form to create a fund request. Once completed, click “submit it”.
+- Partners can access the MDF Request Form from [the GitLab Partner Portal home page](https://partners.gitlab.com/). Navigate to Marketing and select "MDF Request." Upon selecting MDF Request, complete the first part of the form to create a fund request. Once completed, click "submit it".
 - Please check this [how-to video](https://www.youtube.com/watch?v=fF1YyrYn_3E) on how to submit an MDF Fund Request.
 - All MDF requests should be submitted at least 10 business days prior to the activity start date
 - You should have a marketing plan in please by working with your designated Channel Marketing Manager & Channel Account Manager and all MDF activities should be agreed to prior to submitting the request form in the portal.
@@ -89,7 +85,7 @@ Instructions on how to accept/reject/reassign a lead or register a deal and subm
 
 For partners who are claiming reimbursement for the **first time** only: <br/>
 
-- A **5 day exception** is added to the 30 days, giving partners a total of 35 days, from the activity end date, to submit their claim. This is in place in order to accommodate Partner’s onboarding process in GitLab's procurement system, [Coupa](/handbook/finance/procurement/coupa-faq/).
+- A **5 day exception** is added to the 30 days, giving partners a total of 35 days, from the activity end date, to submit their claim. This is in place in order to accommodate Partner's onboarding process in GitLab's procurement system, [Coupa](/handbook/finance/procurement/coupa-faq/).
 - GitLab may reach out once to partner, but if no response is received and the 30 or 35 days has commenced, the activity will be canceled and no payment will be made thereafter.
 - GitLab is not responsible for reimbursing partners that submit a request after this 30 days or 35 days for new partners has passed.
 
@@ -101,7 +97,7 @@ For partners who are claiming reimbursement for the **first time** only: <br/>
 - GitLab reserves the right to modify or terminate the MDF Program upon 30-days advance written notice, which is provided on the GitLab Partner Portal. Such modification or termination will not affect prior approved requests for activities that ran before the effective date of the modification or termination, nor will it affect prior approved plans in progress at the time of the change.
 - If claims are not submitted within 30 calendar days following the activity, the funding allotment and/or allocation may be null and void, and you may forfeit any unallocated or unclaimed funds.
 - GitLab will only pay for the claim amount approved, not fees for wire transfer deposit or local currency deposit.
-- Lead lists provided as POP will not be used by GitLab’s Sales team to call or nurture without written permission from the partner, or unless the customer has already engaged directly with GitLab.
+- Lead lists provided as POP will not be used by GitLab's Sales team to call or nurture without written permission from the partner, or unless the customer has already engaged directly with GitLab.
 - You must conduct your business and marketing operations in an ethical manner and in accordance with all applicable United States and international laws, ordinances, codes, and regulations. You may not directly or indirectly make, authorize, offer, or promise to make or give any money, bribe, gift, or anything of value to any person for the purposes of influencing that person or a family member of that person under circumstances where the payment or gift would constitute an illegal payment under the laws of the U.S. or any country.
 - All decisions related to program benefits and eligibility are at the sole discretion of GitLab.
 - Partners eligible for MDF must be a GitLab Channel Partner in good standing, with a valid and current Channel Partner Agreement. Upon termination or expiration of the Channel Agreement, all in-progress MDFs (even if MDF approval has been given) will be forfeited.
@@ -110,7 +106,7 @@ For partners who are claiming reimbursement for the **first time** only: <br/>
 - GitLab reserves the right to audit and verify all MDF claims and request additional documentation at any time. GitLab may deny any MDF claims that it believes, at its sole and absolute discretion, do not conform to these guidelines.
 - If GitLab subsequently denies an MDF claim for good cause after reimbursement, you must immediately return such funding to GitLab.
 - The terms of these MDF guidelines are in addition to the applicable Channel Partner Agreement in place with GitLab; they are valid only when specifically referenced from the applicable Channel Partner Agreement, program guide, or otherwise made available to a channel party by GitLab in writing. All terms not otherwise defined herein have the meaning set forth in the applicable Channel Partner Agreement.
-- You are authorized to use GitLab’s names, marks, logos, and other identifiers as approved in advance in writing, on or in connection with your own marketing and promotion of GitLab products and services. Your use of GitLab logos needs to be solely in accordance with the [GitLab Partner Program Agreement](/handbook/resellers/reseller-agreement/#master-partner-agreement) and any additional trademark guidelines GitLab provides.
+- You are authorized to use GitLab's names, marks, logos, and other identifiers as approved in advance in writing, on or in connection with your own marketing and promotion of GitLab products and services. Your use of GitLab logos needs to be solely in accordance with the [GitLab Partner Program Agreement](/handbook/resellers/reseller-agreement/#master-partner-agreement) and any additional trademark guidelines GitLab provides.
 - It is understood that when MDF are used to fund an event participation where a show booth is part of your event presence, that no branding of a competing vendor is to be used alongside GitLab's brand on that booth.
 
 ### GitLab's internal MDF Process Workflow
@@ -136,7 +132,7 @@ For partners who are claiming reimbursement for the **first time** only: <br/>
 
 - Processing an MDF consists of:
 - Adding the MDF line in Allocadia, with all of its information.
-*We don’t add this in the pre-planning phase because sometimes fund requests may get canceled or the Marketing Activity/event moves to a different date.*
+*We don't add this in the pre-planning phase because sometimes fund requests may get canceled or the Marketing Activity/event moves to a different date.*
 - From Allocadia we open an MDF Epic and two sub-issues List Upload and POP (Proof of Performance).
 - Marketo and Salesforce Campaign are created.
 
@@ -160,7 +156,7 @@ Once a claim is submitted MDF Program Owner receives an automated email.
 
 - All of the files received by the partner are checked. If any documentation is missing or does not fulfill the MDF Guidelines we will reach out to partner.
 - All of the documentation gets uploaded to the POP issue and the label for MDF Program Owner to review and approve.
-- MDF Program Owner checks every POP issue, looking at lead list, invoice and supporting images/pdfs and approves it or tags Channel Marketing Managers if there’s a concern.
+- MDF Program Owner checks every POP issue, looking at lead list, invoice and supporting images/pdfs and approves it or tags Channel Marketing Managers if there's a concern.
 - Once approved, Teri will upload the lead list to the Lead Upload Issue.
 - She will email the invoice to AP.
 - She will note in Zip/Coupa - MDF Reimbursement payment is clear to pay.
@@ -172,11 +168,11 @@ Once a claim is submitted MDF Program Owner receives an automated email.
 
 - CMM to update Allocadia showing the MDF activity as canceled by going to the mdf sub-category panel and selecting `Yes` to the `Campaign Canceled?` dropdown. CMM to also add in `CANCELED` to the event sub-category title and to the `Official Event/Campaign Name` field so the title in the main issue stays updated.
 - CMM to remove any planned/forecasted costs in Allocadia accordingly.
-- CMM to ping the Channel Marketing Programs Manager (CMPM) and staff/DRI's in the main MDF epic to communicate the cancelation and close out the issue.
+- CMM to ping the Channel Marketing Programs Manager (CMPM) and staff/DRI's in the main MDF epic to communicate the cancellation and close out the issue.
 
 ### Channel Marketing Programs Manager Tasks
 
-- The CMPM will comment regarding the cancelation in all open sub-issues and close out the issues.
+- The CMPM will comment regarding the cancellation in all open sub-issues and close out the issues.
 - If applicable, CMPM to delete the Zip req and comment that the MDF has been canceled.
 - If applicable, CMPM to ping procurement and finance in the Coupa req to notify them that the MDF has been canceled.
 - Once all sub-issues are closed, the CMPM will also note the cancellation in the epic and close the epic.
@@ -187,7 +183,7 @@ Once a claim is submitted MDF Program Owner receives an automated email.
 ## FY25 Q2 GitLab Biz Development team to prospect leads from MDF Campaigns
 
 - Exciting offering for our partners who are running MDF campaigns with us in FY25 Q2 (May 1, 2024 - July 31, 2024).
-- At the partners election, GitLab’s in-house prospecting experts(the GitLab BDR team) will work on your behalf to surface joint opportunities from agreed MDF campaigns, allowing you and your teams to focus on the deal progression and beyond.
+- At the partners election, GitLab's in-house prospecting experts(the GitLab BDR team) will work on your behalf to surface joint opportunities from agreed MDF campaigns, allowing you and your teams to focus on the deal progression and beyond.
 - Even though the GitLab BDR team will be working to surface the opportunity for you, you will still be entitled to your pricing and discounts as listed in the [partner portal](https://partners.gitlab.com/English/).
 
 ### The fine print

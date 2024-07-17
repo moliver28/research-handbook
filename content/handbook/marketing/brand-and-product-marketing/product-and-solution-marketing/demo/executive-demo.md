@@ -1,5 +1,4 @@
 ---
-
 title: "Scaled Agile Framework and GitLab"
 description: "The scaled agile framework has evolved to be a common approach for large enterprises adopt agile delivery practices at scale."
 ---
@@ -42,7 +41,7 @@ In order to track groups of related projects and issues, the GitLab epic gives p
 
 #### Milestones
 
-| While milestones at the project level often align to sprints, at the group level, milestones can be created for all the projects and sub-groups within the group.  This way, teams can stay in synch with each other and focus on common release targets. |  ![Milestone burndown chart](https://docs.gitlab.com/ee/user/project/milestones/img/burndown_chart.png)‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾  |
+| While milestones at the project level often align to sprints, at the group level, milestones can be created for all the projects and sub-groups within the group.  This way, teams can stay in synch with each other and focus on common release targets. |  ![Milestone burndown chart](https://docs.gitlab.com/ee/user/project/milestones/img/burndown_chart_v15_3.png)‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾  |
 
 #### Roadmaps
 
@@ -80,7 +79,7 @@ Project **issue board** helps teams to visualize and manage the flow of their wo
 
 ---
 
-### [Program](https://v46.scaledagileframework.com/program-level/)
+### [Program](https://v5.scaledagileframework.com/program-and-solution-kanbans/)
 
 The Program layer of the Scaled Agile model is the Sub Group which contains related project teams.   At this level, Labels and Boards are used to define and manage the Program Increments and the Agile Release Trains
 
@@ -94,7 +93,7 @@ The Program Increment is a smaller time frame than the Agile Release Train, and 
 
 ---
 
-### [Large Solution](https://v46.scaledagileframework.com/large-solution-level/)
+### [Large Solution](https://v5.scaledagileframework.com/large-solution-safe/)
 
 In order to coordinate how multiple dimensions of a complex solution are delivered, the Large Solution layer of the scaled agile framework is designed to facilitate cross project coordination.  In GitLab, a subgroup can enables oversight and coordination of both projects and additional subgroups.
 
@@ -106,7 +105,7 @@ Solution Trains enable cross project collaboration and coordination of work to m
 
 ---
 
-### [Portfolio](https://v46.scaledagileframework.com/portfolio-level/)
+### [Portfolio](https://v5.scaledagileframework.com/portfolio-safe/)
 
 At the top of the Scaled Agile Framework is where portfolio and strategic planning drive decisions about future investments and business objectives.   In GitLab, the Group is able to contain both Projects and Subgroups, to enable reporting, tracking and management of strategic initiatives.
 

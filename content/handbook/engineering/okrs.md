@@ -16,7 +16,7 @@ The source of truth for GitLab OKRs and KRs is [GitLab](https://gitlab.com/gitla
 ### 1. CTO: [Continue to win against GitHub with AI in all we do](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2231)
 
 1. **CTO KR**: [Enhanced Support offering ready for launch in Q3](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2429)
-1. **CTO KR**: [Experimental launch of Remote Development feature used by 10 team members to develop GitLab features](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2430)
+1. **CTO KR**: [Experimental launch of Workspaces feature used by 10 team members to develop GitLab features](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2430)
 1. **CTO KR**: [Create a foundation in support of rapid experimentation](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2432)
 1. **CTO KR**: [48 experimental, 16 beta, and 8 GA AI Assisted features delivered](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2433)
 
@@ -35,12 +35,12 @@ The source of truth for GitLab OKRs and KRs is [GitLab](https://gitlab.com/gitla
 ### 4. CTO: [Continue to build a diverse team of top talent that we retain and grow](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2443)
 
 1. **CTO KR**: [Refine the Engineering promotion process for IC levels (Staff+) to include structured cross functional feedback and allow us to remove gearing ratios without sacrificing rigor](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2444)
-1. **CTO KR**: [Team member check-ins completed with a growth plan in place with a focus on ensuring business continuity throughout FY’24](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2445)
+1. **CTO KR**: [Team member check-ins completed with a growth plan in place with a focus on ensuring business continuity throughout FY'24](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2445)
 1. **CTO KR**: [100% of Managers in Engineering complete the Neurodiversity short course in LevelUp](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2446)
 
 ### 5. CTO: [Engineering efficiency and foundations](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2448)
 
-1. **CTO KR**: [Cells on track to launch in Q4 of FY’25](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2450)
+1. **CTO KR**: [Cells on track to launch in Q4 of FY'25](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2450)
 1. **CTO KR**: [Overall hosting costs reduced by 5% from FY24Q1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2452)
 1. **CTO KR**: [Two horizontal foundational engineering efficiency initiatives funded and on track](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2453)
 1. **CTO KR**: [Master pipeline stability >95% and Merge Request pipeline duration <60 mins](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2454)

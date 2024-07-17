@@ -71,11 +71,11 @@ The project owner is responsible for following the steps below to create the epi
 ## :notepad_spiral: Key Details
 * **Slack channel:** <!-- add slack channel # -->
 * **[Meeting Notes]()** <!-- to be added by Partner Marketing -->
-* **Speaker(s) and Moderator:** <!-- add gitlab handle and company -->
-* **CAM:** <!-- add gitlab handle -->
-* **Partner Marketing DRI:** <!-- add gitlab handle -->
-* **Other GitLab Sponsors:** <!-- add gitlab handle(s) -->
-* **Partner's Marketing Liaison:** <!-- add gitlab handle / name -->
+* **Speaker(s) and Moderator:** <!-- add GitLab handle and company -->
+* **CAM:** <!-- add GitLab handle -->
+* **Partner Marketing DRI:** <!-- add GitLab handle -->
+* **Other GitLab Sponsors:** <!-- add GitLab handle(s) -->
+* **Partner's Marketing Liaison:** <!-- add GitLab handle / name -->
 * **Marketo Program Type:** Webinar (Partner)
 * **Organizer/Webinar hosting:** <!-- add who is hosting the webinar -->
 * **Landing Page/Registration URL:**
@@ -511,7 +511,7 @@ Needs updating to be confernece specific:
 
 #### Test your set up
 
-1. Submit a test lead using your gitlab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email from zoom.
+1. Submit a test lead using your GitLab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email from zoom.
 
 #### Sending follow up emails
 
@@ -537,7 +537,7 @@ Needs updating to be confernece specific:
 12. On the next screen (New Merge Request), add `WIP:` to the beginning of the title and add a quick description (`Add PathFactory link to LP for [webcast name] will suffice`).
 13. If you have merge access, assign Merge Request to yourself. If you don't have merge access, assign Merge Request to Jackie Gragnola or Agnes Oetama. Scroll down, check the box for `Delete source branch when merge request is accepted`.
 14. Click Submit Merge Request.
-15. You’ve now created the Merge Request.
+15. You've now created the Merge Request.
 16. **Login to Marketo.** Go to the webcast program and update the `{{my.ondemandUrl}}` token with the webcast PathFactory link.
 17. Go to the assets folder within your webcast program and update the `On-demand Autoresponder` email with relevant copies related to the webcast.
 18. Navigate to the `Viewed On Demand` Smart campaign within your webcast program.
@@ -737,4 +737,4 @@ OR
 
 Ungated video garners 550 youtube views within the first 7 days of posting.
 
-*Note: The 550 min threshold is based on the avg of top 10 videos on gitlab branded youtube channel between 8/11/20 - 8/18/20.*
+*Note: The 550 min threshold is based on the avg of top 10 videos on GitLab branded youtube channel between 8/11/20 - 8/18/20.*

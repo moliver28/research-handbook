@@ -1,5 +1,4 @@
 ---
-
 title: UTM Strategy
 description: Everything you need to know about our UTM strategy, which enables insights through the connected/resulting Tableau dashboards.
 twitter_image: /images/tweets/handbook-marketing.png
@@ -39,7 +38,7 @@ Adding UTMs to links allows Marketing to identify the source of traffic, form fi
 
 UTM parameters provide three key benefits:
 
-1. Help us understand our customers’ journey through each touchpoint.
+1. Help us understand our customers' journey through each touchpoint.
 2. Provides us with the marketing channel and marketing campaign categorization, plus the landing page the person converted on telling us the offer (webinar, gated content, free trial etc.).
 3. Used in combination, we can better understand what mix of marketing channels, campaigns, and offers produce the best results.
 
@@ -59,7 +58,7 @@ UTMs should **always** be used when linking to:
 
 **When UTMs are NOT Needed:**
 
-* When linking to a non GitLab web property (Eg: Youtube, Linkedin, etc..)
+* When linking to a non GitLab web property (Eg: Youtube, LinkedIn, etc..)
 * Internal links with the same gitlab.com domain. For instance, linking to learn.gitlab.com from an about.gitlab.com webpage. Google Analytics is set up for cross-domain tracking. If UTMs are detected within an internal gitlab.com link, a new session will be counted, and conversion attribution will be overridden by the new UTM parameter values. The original source will not receive proper credit.
 
 ## How to create UTMs

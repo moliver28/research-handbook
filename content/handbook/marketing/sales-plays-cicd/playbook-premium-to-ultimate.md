@@ -1,17 +1,8 @@
 ---
-
 title: "Sales Play: Upsell Premium to Ultimate"
 description: "This page has all the information for the GTM-CICD sales play."
 
 ---
-
-
-
-
-
-
-
-
 
 Note: Think of a sales play as a recipe. If you follow the recipe, we can achieve more predictable, consistent results. And if we find an asset or approach that works best (or flops), then we can tweak the recipe to continuously improve. **If you have improvements to suggest, please contribute comments to [this MR](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/5095) to suggest your edits and upvote on others.
 
@@ -87,7 +78,7 @@ An in-depth view of security pain points and probing questions around them can b
 
 By upgrading from GitLab Premium to GitLab Ultimate, customers may experience one or more of the below benefits:
 
-| Desired Future State (“After Scenarios”) | So What? (“Positive Business Outcomes”)   |
+| Desired Future State ("After Scenarios") | So What? ("Positive Business Outcomes")   |
 | ------------- | ------------- |
 | Greater efficiencies for both security and dev    | less risk and greater velocity of DevOps |
 | Consistent compliance to policy    | less risk of vulnerabilities in production and easier audits |
@@ -110,7 +101,7 @@ To achieve the positive business outcomes highlighted above, what required capab
 
 Note: maybe we use [this link as mvc1](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#discovery-questions) and then change the resource pages to the suggested format?
 
-| Questions to Better Understand the Customer’s needs  | Discovery questions  |
+| Questions to Better Understand the Customer's needs  | Discovery questions  |
 | ------------- | ------------- |
 | current state    | 1. Are you wanting to shift security left? How is that going?<br>2. What security tools are you using today?<br>3. How are you currently securing containers and Kubernetes?|
 | future state    | 1. What if you could simplify your shift-left efforts?<br>2. What challenges do you have with your existing tools and can you predict their cost 2 yrs out?<br>3. Would you like to better protect containers and K8s? |

@@ -1,10 +1,7 @@
 ---
-
 title: "Customer CSAT surveys"
 description: "A deep dive into the CSAT and NPS, how they are defined and calculated."
 ---
-
-
 
 Customer Satisfaction score, or CSAT, are surveys sent directly to primary users on paid Premium and Ultimate accounts to measure satisfaction of a service, product, interaction or experience with GitLab. Each account will receive a CSAT survey no more than twice in a year. We hope to recieve from as many accounts at GitLab as possible, rather than a representative sample of accounts. This enables us to inform all account teams of their portfolio's customer satisfaction.
 
@@ -27,7 +24,7 @@ This survey is performed in two parts; an email is sent to an identified contact
 ### Questions
 
 1. **How satisfied are you with GitLab?**
-2. **How satisfied are you with your teams’ adoption of GitLab?**
+2. **How satisfied are you with your teams' adoption of GitLab?**
 3. **How satisfied are you with your experience working with the GitLab team?**
 4. **How satisfied are you with the business value provided by GitLab?**
 5. **What could we be doing better?**
@@ -70,7 +67,7 @@ The CSSO team is working to make survey results available within Snowflake so th
 
 ##### Scoring Methodology
 
-Each question is scored by dividing the total number of customers who select “Very Satisfied” (5) or “Satisfied” (4) by the total number of responses, then multiplied by 100.
+Each question is scored by dividing the total number of customers who select "Very Satisfied" (5) or "Satisfied" (4) by the total number of responses, then multiplied by 100.
 
 ## NPS, Deprecated Surveys, and other CSAT
 

@@ -1,15 +1,7 @@
 ---
-
 title: "Group Cost Metrics"
 description: "Group Cost Metrics"
 ---
-
-
-
-
-
-
-
 
 ---
 

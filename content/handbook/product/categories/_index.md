@@ -269,12 +269,12 @@ We have boundless [ambition](/handbook/product/product-principles/#how-this-impa
 1. Networking, maybe leveraging some of the [open source standards for networking](https://www.linux.com/news/5-open-source-software-defined-networking-projects-know/) and/or [Terraform networking providers](https://www.terraform.io/docs/providers/type/network-index.html)
 1. Design, we already have [design management](https://gitlab.com/groups/gitlab-org/-/epics/1445) today
 
-Stages are different from the [application types](https://about.gitlab.com/direction/maturity/#application-type-maturity) you can service with GitLab.
+Stages are different from the [application types](https://about.gitlab.com/direction/#maturity) you can service with GitLab.
 
 ## Maturity
 
 Not all categories are at the same level of maturity. Some are just minimal and
-some are lovable. See the [category maturity page](https://about.gitlab.com/direction/maturity/) to see where each
+some are lovable. See the [category maturity page](https://about.gitlab.com/direction/#maturity) to see where each
 category stands.
 
 ## Other functionality
@@ -308,7 +308,7 @@ Maybe we should make our features easier to search to replace the section below.
 - [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/)
 - [GitLab CLI](https://gitlab.com/gitlab-org/cli)
 
-#### [IDE group](/handbook/product/categories/#ide-group/)
+#### [Remote Development group](/handbook/product/categories/#remote-development-group/)
 
 - [GitLab Workflow extension for Visual Studio Code](https://docs.gitlab.com/ee/user/project/repository/vscode.html)
 
@@ -366,7 +366,7 @@ If you encounter an issue falling into a facilitated area:
 
 There are certain product capabilities that are foundational in nature and affect or refer to horizontal components of the architecture that have an impact across functional groups and stages.
 
-These capabilities may refer to "Facilitated Functionality" (see section above) where the mental models are owned by a particular group, while anyone can contribute. However, there may be others that will not have a clear owner because they don’t fall squarely into any particular group’s purview of product categories. Prime examples of this are issues related to the improvement or evolution of foundational components, frameworks and libraries that are used by several or all groups across the organization. Another example could be components created by special task groups in the past that have been since dissolved and that have not required continued development to justify the funding of a dedicated permanent group to maintain them.
+These capabilities may refer to "Facilitated Functionality" (see section above) where the mental models are owned by a particular group, while anyone can contribute. However, there may be others that will not have a clear owner because they don't fall squarely into any particular group's purview of product categories. Prime examples of this are issues related to the improvement or evolution of foundational components, frameworks and libraries that are used by several or all groups across the organization. Another example could be components created by special task groups in the past that have been since dissolved and that have not required continued development to justify the funding of a dedicated permanent group to maintain them.
 
 Whatever the source of the functionality, rather than thinking of these components as "not having an owner", it is important to think of them as being owned by everyone through the lens of shared responsibility. "Shared responsibility" means that every group should be committed and responsible to **contribute** to their continued maintenance, improvement and innovation.
 

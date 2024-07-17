@@ -1,11 +1,11 @@
 ---
 title: Operations Team
-description: Support Operations team is responsible for supporting the day-to-day operations and software systems used by GitLab’s global Technical Support team
+description: Support Operations team is responsible for supporting the day-to-day operations and software systems used by GitLab's global Technical Support team
 canonical_path: "/handbook/support/readiness/operations"
 ---
 
 The Support Readiness - Operations (i.e. Support Ops) team is responsible for
-supporting the day-to-day operations and software systems used by GitLab’s
+supporting the day-to-day operations and software systems used by GitLab's
 global Technical Support team, primarily our Zendesk instance, and integrations
 with internal business processes and tools. The Support Operations Team is
 exclusively responsible for handling Zendesk Support and Explore related

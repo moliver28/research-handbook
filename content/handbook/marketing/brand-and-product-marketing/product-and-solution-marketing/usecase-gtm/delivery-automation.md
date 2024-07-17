@@ -4,13 +4,6 @@ description: "How GitLab approaches the Automated Software Delivery solution inc
 title: "DevSecOps Solution Resource: Automated Software Delivery"
 ---
 
-
-
-
-
-
-
-
 ## Looking for a customer-facing overview of GitLab's Automated Software Delivery Capabilities?
 
 See [Automated Software Delivery](https://about.gitlab.com/solutions/delivery-automation)
@@ -75,10 +68,10 @@ The persona interested in application automation is generally different from the
 
 {: .alert .alert-gitlab-orange}
 
-### Discovery Questions — Current State: Where’s the pain?
+### Discovery Questions — Current State: Where's the pain?
 
-1. **How much of your team’s job is manual?** This should help scope interest. Many teams struggle with little or no automation - resulting in inefficiencies, errors and employee dissatisfaction.  Key areas of manual effort include - unit testing, performance testing, code review, peer reviews, license checks, manual transfer of application images, manual deploy, manual post deploy testing, amongst others.
-1. **How much time is your team spending in configuring, fixing, or maintaining your pipelines compared to doing “real work”?** Managing complex pipelines is a real problem. We find that our customers with complicated toolchains have more difficulty managing complex pipelines and supporting integrations. This usually makes implementing and maintaining CI/CD more expensive than originally planned.
+1. **How much of your team's job is manual?** This should help scope interest. Many teams struggle with little or no automation - resulting in inefficiencies, errors and employee dissatisfaction.  Key areas of manual effort include - unit testing, performance testing, code review, peer reviews, license checks, manual transfer of application images, manual deploy, manual post deploy testing, amongst others.
+1. **How much time is your team spending in configuring, fixing, or maintaining your pipelines compared to doing "real work"?** Managing complex pipelines is a real problem. We find that our customers with complicated toolchains have more difficulty managing complex pipelines and supporting integrations. This usually makes implementing and maintaining CI/CD more expensive than originally planned.
 1. **Are you able to manage both current and latest technologies with your existing toolset?** Moving to cloud or cloud native technologies like Kubernetes requires a different way of operation - their existing toolset may not be built ground up for such transformations and could require hacking a number of fragile integrations together to support.
 1. **Are you able to measure key success metrics for your automation?** Metrics such as Change Lead Time, Deployment Frequency, Mean Time to Resolution, and Change Failure Rate. This will reveal the lack of integration and traceability across various tools being put together to achieve automation.
 1. **Are you able to deploy with confidence?** Are you able to have full visibility into the pipeline from idea to production? Are you able to setup your infra, deploy in phases, test, roll back on error - all from a single application?
@@ -105,9 +98,9 @@ The persona interested in application automation is generally different from the
 
 ### Common benefits  {#common-benefits}
 
-| Desired Future State (“After Scenarios”) | So What? (“Positive Business Outcomes”) |
+| Desired Future State ("After Scenarios") | So What? ("Positive Business Outcomes") |
 | ----------------------------- | -------------------------------- |
-| Faster time to value with automation and standardization of testing, review, packaging, release and deployment  |  Automation to focus on “real work”, less risk, improved employee satisfaction  |
+| Faster time to value with automation and standardization of testing, review, packaging, release and deployment  |  Automation to focus on "real work", less risk, improved employee satisfaction  |
 | Faster mean time to repair with better traceability and deployment options  |  Reduce customer perception issues, downtime, improve retention  |
 | Faster adoption of cloud native technologies  | Cloud native first development along with current deployment targets for more flexibility using a single tool   |
 | Better employee satisfaction  |  Improved automation, removal of manual / repetitive tasks and reduce integration work improves employee satisfaction  |
@@ -116,7 +109,7 @@ The persona interested in application automation is generally different from the
 
 | Required capability  | Customer Metrics |
 | ----------------------------- | -------------------------------- |
-| Test automation, pipeline configuration management  | Automation to focus on “real work”, less risk, improved employee satisfaction  |
+| Test automation, pipeline configuration management  | Automation to focus on "real work", less risk, improved employee satisfaction  |
 | Change control and collaboration  | Reduce customer perception issues, downtime, improve retention  |
 | Safe deployment and roll back  | Cloud native first development along with current deployment targets for more flexibility using a single tool  |
 | Code quality, peer reviews  | Improved automation, removal of manual / repetitive tasks and reduce integration work improves employee satisfaction  |
@@ -152,7 +145,7 @@ GitLab enables you to deliver better software, faster. Unleash team productivity
 
 - **GitLab is one of the easiest platforms to get started with your DevOps journey**
 
-> "It just worked. That was the biggest success because we didn’t have any problems with installing GitLab, with updating it and it was really simple to start for us," [MGA]
+> "It just worked. That was the biggest success because we didn't have any problems with installing GitLab, with updating it and it was really simple to start for us," [MGA]
 
 - **GitLab allows you to start where you are in your journey and reduce other tools as your adoption matures**
 
@@ -172,7 +165,7 @@ GitLab enables you to deliver better software, faster. Unleash team productivity
 
 - **GitLab helps improve developer experience**
 
-> "Developer happiness matters because happy developers simply do better work. You need to keep your developer experience at a high level because that’s the only way you really can deliver value fast. GitLab has played … a significant part in helping us increase our developer experience.” - [Moneyfarm](https://about.gitlab.com/customers/moneyfarm/)
+> "Developer happiness matters because happy developers simply do better work. You need to keep your developer experience at a high level because that's the only way you really can deliver value fast. GitLab has played … a significant part in helping us increase our developer experience." - [Moneyfarm](https://about.gitlab.com/customers/moneyfarm/)
 
 ### Differentiators (How GitLab does Automated Software Delivery better?)
 
@@ -209,9 +202,9 @@ From a competitive comparison for Automated Software Delivery, the following are
 
 | Objection | Response |
 | ----------------------------- | -------------------------------- |
-| *“I don’t need another tool to replace my existing tool”*  | - We can meet you where you are - you don’t need to rip and replace all your existing tools <br> - You can start by supplementing GitLab CI or CD or SCM with your existing toolset of Jira, GitHub, Jenkins etc <br> - Once you find value in the specific area (e.g., SCM, CI, CD, Security, Compliance) - you can expand your use of GitLab to achieve better ROI  |
-| *“I don’t want to be locked into one company for my entire DevOps lifecycle”*  | - Toolchain sprawl is a reality - many customers have stopped benefitting from DevOps due to this <br> - Application & resource integration & management actually hinders how fast the organization can move. <br> - Customers partner with GitLab to accelerate time to market for new products/services, improve efficiencies & reduce security & compliance risks. Walk me through how your priorities align with these outcomes.  |
-| *“Each development team decides what they need”*  | - Allowing each team to decide creates silos of innovation & development. It also significantly limits the impact of your digital transformation. <br> - Each team then also needs to setup, integrate and maintain these integrations. <br> - Describe how this works for you. How many tools have you spent money on as a result?   |
+| *"I don't need another tool to replace my existing tool"*  | - We can meet you where you are - you don't need to rip and replace all your existing tools <br> - You can start by supplementing GitLab CI or CD or SCM with your existing toolset of Jira, GitHub, Jenkins etc <br> - Once you find value in the specific area (e.g., SCM, CI, CD, Security, Compliance) - you can expand your use of GitLab to achieve better ROI  |
+| *"I don't want to be locked into one company for my entire DevOps lifecycle"*  | - Toolchain sprawl is a reality - many customers have stopped benefitting from DevOps due to this <br> - Application & resource integration & management actually hinders how fast the organization can move. <br> - Customers partner with GitLab to accelerate time to market for new products/services, improve efficiencies & reduce security & compliance risks. Walk me through how your priorities align with these outcomes.  |
+| *"Each development team decides what they need"*  | - Allowing each team to decide creates silos of innovation & development. It also significantly limits the impact of your digital transformation. <br> - Each team then also needs to setup, integrate and maintain these integrations. <br> - Describe how this works for you. How many tools have you spent money on as a result?   |
 
 ## Key Value at different tiers  {#tier-value}
 
@@ -229,14 +222,14 @@ For up-to-date and full list of value at Premium, visit [Why Premium](https://ab
   - [Code Review Analytics](https://docs.gitlab.com/ee/user/analytics/code_review_analytics.html) Find bottlenecks in your code review process by understanding how long open merge requests have been in review.
 - **Advanced CI/CD** Build, maintain, deploy, and monitor complex pipelines
   - [CI/CD Pipelines Dashboard](https://docs.gitlab.com/ee/user/operations_dashboard/) Visualize the history and current status of pipelines across projects and groups all in a single dashboard that can be customized for each user.
-  - [Multi-project pipeline graphs](https://docs.gitlab.com/ee/ci/multi_project_pipelines.html) Visualize how pipelines across projects are linked together, including cross project dependencies.
+  - [Multi-project pipeline graphs](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#multi-project-pipelines) Visualize how pipelines across projects are linked together, including cross project dependencies.
   - [Merge Trains](https://docs.gitlab.com/ee/ci/pipelines/merge_trains.html) Reduce pipeline queueing and waiting time with merge trains which allows parallel pipeline execution, with each pipeline building off the merge result of the previous one.
   - [CI/CD for external repo](https://docs.gitlab.com/ee/ci/ci_cd_for_external_repos/) Connect your projects hosted on external services (like GitHub or Bitbucket) and leverage the power of GitLab CI/CD pipelines to build, test, and deploy your applications easily.
 - **Release Controls** Implement controls to ensure teams ship high quality and secure code
   - [Approval rules for code review](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html) Approval rules ensure that the right people review merge requests by specifying eligible approvers and the minimum number of approvals required for a merge request.
   - [Required Merge Request Approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/) Guarantee quality and standards of your code by mandating a set number of necessary approvals and predefine a list of specific approvers.
   - [Merge Request Dependencies](https://docs.gitlab.com/ee/user/project/merge_requests/dependencies.html) Coordinate the order in which merge requests are merged within the same project and/or across different projects.
-  - [Push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html) Reject new code and commits that don't comply with company policy.
+  - [Push rules](https://docs.gitlab.com/ee/user/project/repository/push_rules.html) Reject new code and commits that don't comply with company policy.
 - **Self Managed Reliability** Ensure disaster recovery, high availability and load balancing of your self-managed deployment
   - [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/index.html) Fail over in minutes to another data-center.
   - [Maintenance mode](https://docs.gitlab.com/ee/administration/maintenance_mode/index.html) Maintenance mode allows systems administrators to perform maintenance operations, such as preparing for a scheduled failover, with minimal disruption to end users.
@@ -289,7 +282,7 @@ More case studies here -> Filter by Usecase *CI* or *CD* or *SCM* or *GitOps* to
 - [Part 2 of 3: How infrastructure teams use GitLab and Terraform for GitOps](https://about.gitlab.com/topics/gitops/gitlab-enables-infrastructure-as-code/)
 - [Part 3 of 3: How to deploy to any cloud using GitLab for GitOps](https://about.gitlab.com/topics/gitops/gitops-multicloud-deployments-gitlab/)
 - [GitOps with GitLab: The CI/CD Tunnel](https://about.gitlab.com/blog/2022/01/07/gitops-with-gitlab-using-ci-cd/)
-- [Auto DevOps 101: How we’re making CI/CD easier](https://about.gitlab.com/blog/2019/10/07/auto-devops-explained/)
+- [Auto DevOps 101: How we're making CI/CD easier](https://about.gitlab.com/blog/2019/10/07/auto-devops-explained/)
 - [Progressive Delivery](https://about.gitlab.com/blog/2019/04/19/progressive-delivery-using-review-apps/)
 - [How We Switched to a Continuous Delivery Pipeline in 3 months](https://medium.com/faun/how-we-switch-to-a-continuous-delivery-pipeline-in-3-months-9667b9f65f7a)
 
@@ -347,7 +340,7 @@ GitLab Professional Services help customers become efficient in GitLab quickly. 
 Here are some service offerings you can position with the customer:
 
 1. [GitLab CI/CD Training](https://about.gitlab.com/services/education/gitlab-ci/)
-1. [GitLab with Git Basics Training](https://about.gitlab.com/services/education/gitlab-basics/)
+1. [GitLab with Git Basics Training](https://university.gitlab.com/pages/gitlab-fundamentals-training)
 1. [Data Migration Services](https://about.gitlab.com/services/migration/)
 1. [Dedicated Engineering](https://about.gitlab.com/services/dedicated-engineering/)
 

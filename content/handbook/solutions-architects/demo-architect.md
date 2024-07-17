@@ -1,9 +1,7 @@
 ---
-
 title: "Demo Architect Offerings"
 description: "This guide will outline all of the offerings from the Demo Architect team"
 ---
-
 
 ## Demo Architect Offerings
 
@@ -123,13 +121,13 @@ These demos are meant for anyone in the CS org to use when they get asked a ques
 
 - [Docker App Example](https://gitlab.com/gitlab-learn-labs/webinars/cicd/docker-app-example):This project features a website built from a Docker image and deployed via GitLab CI/CD. The Docker image is built, then it is uploaded to the Container Registry, and the container scanning pulls the built image and conducts scans, then the application is published to GitLab Pages.
 
-- [Merge Trains](https://gitlab.com/gitlab-learn-labs/webinars/cicd/merge-trains): Basic CICD exmaple to show off the power of merge trains
+- [Merge Trains](https://gitlab.com/gitlab-learn-labs/webinars/cicd/merge-trains): Basic CICD example to show off the power of merge trains
 
 - [monorepo](https://gitlab.com/gitlab-learn-labs/webinars/cicd/monorepo): This project is a proof-of-concept for a monorepo application with 3 separate project folders that would like to run pipelines based on which project changes.
 
 - [secure-cicd-demo](https://gitlab.com/gitlab-learn-labs/webinars/cicd/secure-cicd-demo): The purpose of this repository is to demonstrate a CICD flow using a build-up of Binary Authorization Attestations with multiple Attestors
 
-- [sfdx-cicd-demo](https://gitlab.com/gitlab-learn-labs/webinars/cicd/sfdx-cicd-demo): Sample repo used in the webinar https://developer.salesforce.com/event/simplify-ci-cd
+- [sfdx-cicd-demo](https://gitlab.com/gitlab-learn-labs/webinars/cicd/sfdx-cicd-demo): Sample repo used in the webinar <https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ci_package_dev.htm>
 
 - [sfdx-cicd-template](https://gitlab.com/gitlab-learn-labs/webinars/cicd/sfdx-cicd-template): This project contains a fully configured CI pipeline that works with Salesforce DX projects following the package development model.
 You can include a copy of, or import, this project's .yml file in your own project.

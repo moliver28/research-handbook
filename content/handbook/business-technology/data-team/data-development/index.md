@@ -1,15 +1,7 @@
 ---
-
 title: "Data Development"
 description: "This page defines the Data Development lifecycle"
 ---
-
-
-
-
-
-
-
 
 ## Data Development at GitLab
 

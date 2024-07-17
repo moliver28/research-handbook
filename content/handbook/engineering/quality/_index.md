@@ -248,7 +248,7 @@ Quality Engineering will do the following in order to identify the issues to be 
 
 - Review existing customer impacting performance bugs [in our issue tracker](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=performance&label_name%5B%5D=customer&label_name[]=type::bug) and add the ~"bug::performance" label.
 - Review issues raised due to failures in the daily performance tests and identify early warning on performance degradation which have not had customer exposure but poses a risk in the future. Apply the ~"bug::performance" label for these issues as well.
-- Review all issues labelled as ~"bug::transient".
+- Review all issues labeled as ~"bug::transient".
 
 #### Process
 

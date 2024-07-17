@@ -260,6 +260,12 @@ If you're unsure, you can [reach out for help](#need-help).
 
 To the ensure consistency, quality and correctness of the GitLab Handbook we use various linting jobs that run as part of the pipeline. These jobs check that everything is as it should be, and if they detect something is wrong will cause the pipeline to fail.
 
+### Prettier is formatting markdown files
+
+If you have `prettier` set up in VSCode and it is formatting the `.md` files when they are not supposed to, check if you have Prettier set to be your default formatter with `"editor.defaultFormatter": "esbenp.prettier-vscode"` in your user settings.
+
+Additionally, consider using the [Glob Pattern](https://code.visualstudio.com/api/references/vscode-api#GlobPattern) in the extension settings to specify which files to prettify automatically.
+
 ### Links and anchors errors
 
 There is a special linter that validates links and anchors across the handbook. If your change accidentally breaks a link, then the pipeline job will fail with a similar error message.

@@ -4,7 +4,7 @@ title: "Graduating from Sales Onboarding"
 
 ## Graduating from Sales Onboarding
 
-In order to officially “graduate” from Sales Onboarding at GitLab and be awarded the [Sales Quick Start - Core Curriculum badge](https://gitlab.badgr.com/public/badges/4zi-duhsTHG-jtWFYVgGRQ), we have identified a few components that are considered milestones of achievement (many of these must be done concurrently to ensure completion):
+In order to officially "graduate" from Sales Onboarding at GitLab and be awarded the [Sales Quick Start - Core Curriculum badge](https://gitlab.badgr.com/public/badges/4zi-duhsTHG-jtWFYVgGRQ), we have identified a few components that are considered milestones of achievement (many of these must be done concurrently to ensure completion):
 
 ### Sales, Customer Success and SDR Roles
 
@@ -25,7 +25,7 @@ In order to officially “graduate” from Sales Onboarding at GitLab and be awa
   - Operational Excellence: Intro to GitLab Legal - (30 minutes)
   - Customer Focus: Customer Success Management Overview - (50 minutes)
   - Customer Focus: Intro to Professional Services - (50 minutes)
-  - Operational Excellence: Into to Gitlab Field Security - (30 minutes)
+  - Operational Excellence: Into to GitLab Field Security - (30 minutes)
   - Operational Excellence: Working with Sales Dev - (50 minutes)
   - Mock Calls - (4 hours)
 - Complete [1 mock discovery call](https://docs.google.com/document/d/12YiOIVKA6BirVRWRnIO8sd0qfwQOPLfXsUADluJvM3Y/edit?usp=sharing) at the SQS Workshop with a PMM, Manager, or a more experienced SA or CSM

@@ -19,7 +19,7 @@ The Talent Brand Program Manager is a [grade 6](/handbook/total-rewards/compensa
 - Build talent brand programs, operationalize them, and measure their success
 - Collaborate with key stakeholders to develop GitLab's talent brand
 - Monitor our brand presence across key talent-facing channels (jobs site, LinkedIn, Glassdoor, etc.)
-- Evolve GitLab’s talent brand strategy to effectively articulate GitLab’s culture and value proposition to attract top talent
+- Evolve GitLab's talent brand strategy to effectively articulate GitLab's culture and value proposition to attract top talent
 - Provide strategy and support for related programs such as GitLab's diversity, inclusion and belonging
 - Collaborate with internal GitLab teams, particularly Marketing, on key projects (social media, jobs site, events, remote work, PR, internal communications) to ensure consistency in messaging and approach
 - Develop recruitment marketing campaigns to increase awareness of GitLab's talent brand with potential candidates and help the Recruiting team meet hiring plan goals
@@ -47,7 +47,7 @@ The Senior Talent Brand Program Manager reports to the Senior Director of Talent
 
 #### Senior Talent Brand Program Manager Job Grade
 
-The Senior Talent Brand Program Manager is a [grade 7](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Talent Brand Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior Talent Brand Program Manager Responsibilities
 
@@ -55,7 +55,7 @@ The Senior Talent Brand Program Manager is a [grade 7](https://about.gitlab.com/
 - Collaborate with key stakeholders to develop GitLab's talent brand identity
 - Monitor and grow our brand presence across key talent-facing channels (jobs site, LinkedIn, Glassdoor, etc.)
 - Own key relationships with external partners to ensure we are fully utilizing platforms at our disposal to drive value for our talent brand
-- Partner with Sr Director, Talent Brand to evolve GitLab’s talent brand strategy to effectively articulate GitLab’s culture and value proposition to attract top talent
+- Partner with Sr Director, Talent Brand to evolve GitLab's talent brand strategy to effectively articulate GitLab's culture and value proposition to attract top talent
 - Provide strategy and deliver results for related programs such as GitLab's diversity, inclusion and belonging
 - Collaborate with internal GitLab teams, particularly Marketing, on key projects (social media, jobs site, events, remote work, PR, internal communications) to ensure consistency in messaging and approach
 - Develop recruitment marketing campaigns to increase awareness of GitLab's talent brand with potential candidates and help the Recruiting team meet hiring plan goals
@@ -95,7 +95,7 @@ The Progam Manager, Enablement is a [grade 6](/handbook/total-rewards/compensati
 
 - Act as project manager for recruiting operations initiatives
 - Work with Senior Manager, Enablement to develop bespoke reporting for the TA function and analyze recurring metrics
-- Understand end-to-end TA processes and employ a “continuous improvement & iteration” rhythm
+- Understand end-to-end TA processes and employ a "continuous improvement & iteration" rhythm
 - Manage procurement issues and certain external vendor relationships as it pertains to billing, action planning etc
 - Act as subject matter expert on 2+ areas of Enablement work, for example:
   - Own all regular decks for Talent Acquisition team meetings, defining and collating content, and driving the meetings
@@ -131,7 +131,7 @@ The Progam Manager, Enablement is a [grade 7](/handbook/total-rewards/compensati
 - Own and project manage talent acquisition surveys from initiation to execution to analysis
 - Oversee bespoke reporting for the TA function and analyze recurring metrics
 - Work closely with and appropriately message TA updates to team members  across all levels of the company
-- Act as subject matter expert in TA processes and employ a “continuous improvement & iteration” rhythm
+- Act as subject matter expert in TA processes and employ a "continuous improvement & iteration" rhythm
 - Manage some external vendor relationships
 - Act as project owner for Talent Acquisition team meetings
 - Proactively suggest and run teambuilding and incentive programs for the team
@@ -167,7 +167,7 @@ The Manager, Recruiting Operations is a [grade 8](/handbook/total-rewards/compen
 - Partner with finance and our PBP team to ensure that the necessary process flows are built for scale
 - Partner with our Data and Analytics team to build a solid reporting suite for the Head of TA, their leadership team and the hiring manager community
 - Provide coaching to improve performance of team members and drive accountability
-- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
+- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP's
 - Build trusted partnerships within GitLab and externally to collaborate, drive alignment and stay on top of trends
 - Leverage our candidate facing teams to advocate for our employer brand and deliver a world-class experience
 - Help define and leverage data-focused metrics in order to develop and deliver on the goals
@@ -207,7 +207,7 @@ The Senior Manager, Recruiting Operations is a [grade 9](/handbook/total-rewards
 - Partner with our Legal team to ensure our practices and processes are in line with employment laws in locations where we operate
 - Provide coaching to improve performance of team members and drive accountability
 - Onboard, mentor, and grow the careers of all team members in the TA Enablement and Candidate Experience teams
-- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
+- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP's
 - Build trusted partnerships within GitLab and externally to collaborate, drive alignment and stay on top of trends
 - Leverage our candidate facing teams to advocate for our employer brand and deliver a world-class experience
 - Help define and leverage data-focused metrics in order to develop and deliver on the goals
@@ -252,7 +252,7 @@ throughout the employee lifecycle
 - Manage and own external vendors and award-body relationships. Ensuring that we are well
 positioned and intentional about the work with our external partners is a key part of this role
 (Glassdoor, Builtin, LinkedIN, GPTW, Forbes, Fortune etc)
-- Establish a recruiter talent brand “toolkit”
+- Establish a recruiter talent brand "toolkit"
 - Run the talent brand portfolio to allow for both the proactive and reactive work so as to
 maximize opportunities as they arise
 - Partner with the data &amp; analytics function to monitor ROI on initiatives and Talent Community
@@ -295,7 +295,7 @@ The Senior Director Talent Brand is a [grade 11](/handbook/total-rewards/compens
 - Overall responsibility for continuing and building upon the GitLab global talent brand to position us as an employer of choice across all functions
 - Establish the talent value proposition; partnering internally to ensure a consistent experience throughout the employee lifecycle
 - Manage and own external vendors and award-body relationships. Ensuring that we are well positioned and intentional about the work with our external partners is a key part of this role (Glassdoor, Builtin, LinkedIN, GPTW, Forbes, Fortune etc)
-- Establish a recruiter talent brand “toolkit”
+- Establish a recruiter talent brand "toolkit"
 - Run the talent brand portfolio to allow for both the proactive and reactive work so as to maximize opportunities as they arise
 - Partner with the data & analytics function to monitor ROI on initiatives and Talent Community work on an ongoing basis but also apply a data-mindset to all talent branding work that is undertaken
 - Be comfortable building a multi-faceted strategy that aligns our candidate experience expectations with our talent branding strategy.

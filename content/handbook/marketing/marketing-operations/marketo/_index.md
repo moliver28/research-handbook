@@ -83,7 +83,7 @@ Sales Systems refreshes the [SFDC staging environment](/handbook/sales/field-ope
 
 ## Forms
 
-Nearly all the forms on our website (`about.gitlab.com`) are Marketo embedded forms. Marketing Operations is responsible for maintaining existing forms and creating any new forms.
+Use the instructions below with the documentation [here](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/operational-setup-marketo/). Nearly all the forms on our website (`about.gitlab.com`) are Marketo embedded forms. Marketing Operations is responsible for maintaining existing forms and creating any new forms.
 
 We primarily use Global forms, which means the form is used on multiple landing pages and the automation for the form is handled on the individual Marketo programs. If you need fields that are not avaiable on the global forms, you need to request a custom form.
 
@@ -238,7 +238,7 @@ Based on certain criteria, a lead may auto-MQL. Note that any auto-MQL is consid
 |  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests <br> | +100 | 1/day |
 | [PTP Score](https://internal.gitlab.com/handbook/sales/propensity_models/)  |Newly assigned a 4 or 5 score via the Propensity Model alongside being assigned an `A` or `B` ranking via Lead Score Classification.<br> See [Educational deck](https://docs.google.com/presentation/d/1dxSXekzw-SIF1g4pjNf6QGNBUY1L6euggsqqr9BTHUY/edit#slide=id.g1d24c3e4ddd_5_252) or handbook for details <br>  | +100 | 1/90 days |
 | Web Chat - <br>Qualified  |Web chat interaction or meeting scheduled | +100 | 1/day |
-|* Inbound - Med|Inbound form, not above |    +100|1/day|
+|* Inbound - Med|Inbound form, not above and excluding Startup applicants |    +100|1/day|
 
 #### Behavior Scoring
 
@@ -337,7 +337,9 @@ Marketo segmentations are used similar to a smartlist, but they are permanent an
 
 The following segmentations that are approved and live.
 
-<details><summary>[Buyer Personas - Function](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1008A1)</summary>
+<details><summary>Buyer Personas - Function</summary>
+[Segmentation in Marketo](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1008A1)
+
 Based off of guidance on [Buyer Persona page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/#buyer-personas).
 
 - App Dev

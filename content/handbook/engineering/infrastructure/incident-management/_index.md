@@ -1,5 +1,4 @@
 ---
-
 title: Incident Management
 ---
 
@@ -430,7 +429,7 @@ This flow is determined by:
 1. its intended audience,
 1. and timing sensitivity.
 
-Furthermore, avoiding information overload is necessary to keep every stakeholder’s focus.
+Furthermore, avoiding information overload is necessary to keep every stakeholder's focus.
 
 To that end, we will have:
 

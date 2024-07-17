@@ -1,11 +1,8 @@
 ---
-
 title: Working with Support Pods
 category: Handling tickets
 description: How to work with the Support Pods
 ---
-
-
 
 ## What is Support Pods?
 

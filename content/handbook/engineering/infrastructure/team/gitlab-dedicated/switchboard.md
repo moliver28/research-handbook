@@ -36,8 +36,9 @@ To engage with the Switchboard team:
 - Slack channels
   - For Switchboard specific questions, you can find us in [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
   - Our Slack group handle is `@dedicated-switchboard-team`
+  - Issues relevant to the wider Dedicated Group may be raised [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
   - Other teams in Dedicated group have their own work channels for team work discussions:
-    - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
+    - [#g_dedicated-environment-automation-team](https://gitlab.slack.com/archives/C074L0W77V0)
     - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
 
 ## Requesting Access to the Switchboard application
@@ -65,7 +66,7 @@ The outcome of the call is shared in a persistent location (Slack is not persist
 
 `1*` Exceptions to the recording rule are: 1-1 calls, discussions around non-project work, and in cases where parties do not feel comfortable with recording or we cannot record due to the nature of content discussed. However, even with the exceptions, outcome of project related discussions need to be logged in a persistent location, such as the main issue tracker.
 
-### Tracking & Planning Work
+### Tracking, Planning & Delivering Projects
 
 #### Resources
 
@@ -91,6 +92,21 @@ Quarterly planning is owned and driven by the Switchboard EM and PM.
    - Document the associated epics
 4. EM creates a delivery epic for the quarter that will be used in Grand Reviews and updates the epic-summaries bot to reflect this change
 
+#### Directly Responsible Individuals (DRIs)
+
+Each and every project is owned and driven by a Directly Responsible Individual or [DRI](/handbook/people-group/directly-responsible-individuals/).
+Though Switchboard is a cross-functional team the DRI is responsible for delivering the project output including UX design, product decisions, frontend and backend implementation along with any other deliverables, regardless of their expertise.
+For example if the DRI is a backend engineer, while they may not directly implement every issue, they are still responsible for checking progress to ensure other team members have access to the information needed to fulfil the project.
+The DRI will not directly implement every piece of the project but they are responsible for ensuring it is delivered. This involves collaborating with the EM to ensure issues are prioritised within the engineering team, collaborating with the various functions within the team to ensure they have access to the information needed to fulfil the project (UX, frontend, backend, product etc), highlighting possible risks and ensuring alignment across the team.
+
+We use issues to collaborate on ideas and solve problems. Everyone working on issues is responsible for keeping its description (SSoT) up to date with the latest decisions, and to ensure any follow-up resulting work is being tracked. The DRI is responsible for ensuring discussion threads reach a decision.
+DRIs should also drive a [pivot to synchronous discussion](/handbook/company/culture/all-remote/asynchronous/#when-to-pivot-from-asynchronous-to-synchronous) when a thread is not yielding a timely conclusion.
+In the case where the UX design has been agreed upon prior to implementation, the DRI can accelerate the MR review process and reduce the workload on the PM and UX designer by ensuring the MR deliverable matches the design provided in Figma and approving accordingly.
+
+The Epic Refinement process followed by the DRI at the beginning of the project is described below in the [Epic Refinement](#epic-refinement) section.
+The DRI is also responsible for weekly status updates ([further details](/handbook/engineering/infrastructure/platforms/project-management/#projects-are-reviewed-weekly-in-the-grand-review)) and ensuring the epic has a demo link attached (see [Switchboard Demos](#switchboard-demos)).
+The instructions for delivering the final status update and closing an epic can be found [here](/handbook/engineering/infrastructure/platforms/project-management/#when-a-project-is-finished).
+
 #### Epic Refinement
 
 Switchboard team process to refine epics:
@@ -110,7 +126,7 @@ Switchboard team process to refine epics:
    1. Technical documentations can be added to the switchboard project where they currently live under `./docs` directory
 1. EM or DRI labels individual issues as ~"workflow-infra::Triage"
 1. DRI enables issues to be worked on in parallel where possible so that multiple engineers can contribute to a single epic
-1. If the epic involves both Frontend and Backend implementation the issues should be labelled accordingly
+1. If the epic involves both Frontend and Backend implementation the issues should be labeled accordingly
 1. Team members pick up issues and start working on them
 1. Team members use Progress Threads to track progress in individual issues
 1. Team checks in on progress during Switchboard Sync
@@ -124,10 +140,10 @@ Note 1, 2 & 4 can be carried out in parallel
 
 Switchboard team process to refine issues:
 
-1. When an issue is created and ready to be refined it is labelled ~"workflow-infra::Triage"
+1. When an issue is created and ready to be refined it is labeled ~"workflow-infra::Triage"
 1. PM and EM ensure that the `Open` and ~"workflow-infra::Ready" columns are prioritised
 1. Team members look at issues in the `Open` column of the [issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/4498935?label_name[]=team%3A%3ASwitchboard) and ask questions on the issue to drive clarity
-1. When there are no outstanding questions on the issue it can be labelled ~"workflow-infra::Ready" and it will automatically move into the `Ready` column
+1. When there are no outstanding questions on the issue it can be labeled ~"workflow-infra::Ready" and it will automatically move into the `Ready` column
 1. If the issue exposes text to users in any way the `technical writing` label should be added. For example if the issue changes UI text, shows an error message, adds a field etc
 1. If the issue requires Frontend implementation the `frontend` label should be used
 1. DRI enables issues to be worked on in parallel where possible so that multiple engineers can contribute to a single epic
@@ -139,7 +155,7 @@ Switchboard team process to refine issues:
 #### Issue & Epic tracking
 
 1. Engineers use Progress Threads to share progress in an async fashion
-1. At the beginning of the Switchboard Sync the team will check in on epics labelled ~"workflow-infra::In Progress" or ~"workflow-infra::Triage" to ensure due dates are appropriate and highlight any blockers
+1. At the beginning of the Switchboard Sync the team will check in on epics labeled ~"workflow-infra::In Progress" or ~"workflow-infra::Triage" to ensure due dates are appropriate and highlight any blockers
 1. Epic DRIs update the status in the Epic Description every Wednesday in preparation for the [Grand Review](/handbook/engineering/infrastructure/platforms/project-management/#projects-are-reviewed-weekly-in-the-grand-review)
 1. Epic DRIs review the due date weekly. The epic status update should include the DRI's confidence level in the due date and any risks to delivery
 
@@ -195,7 +211,7 @@ As the Switchboard team is currently small, we use an 'Approve and Merge' approa
 
 1. When you're ready to have your merge request reviewed, select one or more [Switchboard reviewers](https://gitlab.com/groups/gitlab-dedicated/switchboard/reviewers/-/group_members).
    - If you're not certain about who to choose, you can use the [reviewer roulette](#reviewer-roulette) to randomly select a reviewer.
-   - If the issue is labelled `technical writing` add the Switchboard technical writer as a reviewer
+   - If the issue is labeled `technical writing` add the Switchboard technical writer as a reviewer
 1. Reviewers will perform a review based on [reviewing a merge request guidelines](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request).
 1. If satisfied, a reviewer will approve and merge unless other reviewers have questions or suggestions that are not addressed.
 1. If the merge request contains the required approvals, the reviewer will trigger a pipeline and set auto-merge.
@@ -207,8 +223,8 @@ In addition to the above when a change is being proposed to the UI the following
 
 **UI changes visible to internal GitLab users:**
 
-1. MR author cc’s PM & UX Designer on the MR but they are not reviewers or blockers of the merge
-1. If they have any suggestions they can be dealt with on the MR or on a later MR at the MR author’s discretion
+1. MR author cc's PM & UX Designer on the MR but they are not reviewers or blockers of the merge
+1. If they have any suggestions they can be dealt with on the MR or on a later MR at the MR author's discretion
 1. Eventually the PM & UX Designer will be reviewers on the internally visible UI updates but our process is not there yet nor is their capacity
 1. If you require help or guidance with the UX or copy please ask **before** implementation begins on the issue
 
@@ -230,7 +246,7 @@ Notes:
 - Switchboard project is configured to use [pipelines for merged results](https://docs.gitlab.com/ee/ci/pipelines/merged_results_pipelines.html) which means that reviewers need to run a pipeline pre-merge to guarantee that updates are compatible with the latest main branch.
 - When reviewing merge requests, reviewers should use the [Conventional Comment labels](https://conventionalcomments.org/#labels) to convey your intent.
   - For the avoidance of doubt `Suggestion:`, `Issue:` and `Chore:` comments are all blocking, unless decorated with a `(non-blocking)` statement.
-- We label merge requests using the [Specialization labels](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/labels/index.md#specialization-labels) found in the [GitLab documentation](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/labels/index.md). MRs should be labelled ~"frontend", ~"backend" or ~"documentation"
+- We label merge requests using the [Specialization labels](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/labels/index.md#specialization-labels) found in the [GitLab documentation](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/labels/index.md). MRs should be labeled ~"frontend", ~"backend" or ~"documentation"
 
 #### Approval guidelines
 
@@ -269,46 +285,54 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 <details><summary>Epic Template</summary>
 
 ```markdown
-### DRI :levitate
+### DRI :levitate:
 - TBC
 
-### Participants :busts_in_silhouette
+### Participants :busts_in_silhouette:
+
+- Frontend Engineer:
+- Backend Engineer:
+- SRE:
+- UX Designer:
+- PM:
+- Technical Writer:
+- EM:
 -
 
-### Problem to solve :thinking
+### Problem to solve :thinking:
 
-### Video Walkthrough from Product :video_camera
+### Video Walkthrough from Product :video_camera:
 
-### Intended users :bust_in_silhouette
+### Intended users :bust_in_silhouette:
 
-### User experience goal :goal
+### User experience goal :goal:
 
 
 <!-- Overview of user experience goal -->
 
-### UX Design Spec :paintbrush
+### UX Design Spec :paintbrush:
 - Figma Link:
 - Dev mode:
 - Any other details
 
-### Proposal :bulb
+### Proposal :bulb:
 
-### Open Questions :question
+### Open Questions :question:
 | Question | Added by | Discussion thread |
 |----------|----------|-------------------|
 |  |  |  |
 
-### Further details :mag
+### Further details :mag:
 
-Dependencies :link:
+### Dependencies :link:
 
-### Permissions and Security :link
+### Permissions and Security :link:
 
-### Documentation :book
+### Documentation :book:
 
 * Publicly Accessible Documentation:
 
-### Epic Kick-Off :ballot_box_with_check
+### Epic Kick-Off :ballot_box_with_check:
 
 * [ ] Video walkthrough from Product outlining expectations
 * [ ] DRI identified
@@ -319,7 +343,7 @@ Dependencies :link:
 * [ ] Issue created to track Documentation requirements
 * [ ] Outstanding Questions captured in threads for resolution
 
-### Roll out Plan :speaker
+### Roll out Plan :speaker:
 <!--
 If visible to external customers please provide the following information:
     - What communication is required ahead of release?
@@ -330,7 +354,7 @@ If visible to external customers please provide the following information:
 -->
 
 
-### Links / references :books
+### Links / references :books:
 
 *
 

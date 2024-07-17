@@ -1,5 +1,4 @@
 ---
-
 title: Collaboration on work items framework
 description: "Collaboration process and documentation for using and contributing to the work items framework"
 ---

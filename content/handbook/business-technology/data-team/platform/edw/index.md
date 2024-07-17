@@ -1,13 +1,6 @@
 ---
-
 title: "Enterprise Data Warehouse"
 ---
-
-
-
-
-
-
 
 ## Enterprise Data Warehouse Overview
 
@@ -378,25 +371,25 @@ The below steps illustrate how to create an `ER Diagram` (Logical & Physical Dat
 <details markdown=1>
 <summary><b>Step 1:</b> Create a blank lucid document from 'Lucidchart app' (should be available via Okta dashboard in case a user is assigned to it).</summary>
 
-![create-lucid-chart.png](./images/create-lucid-chart.png)
+![create-lucid-chart.png](images/create-lucid-chart.png)
 </details>
 
 <details markdown=1>
 <summary> <b>Step 2:</b> Click 'Import Data' that appears below the 'Shape Library' located at the bottom left hand side of the page. </summary>
 
-![import-data.png](./images/import-data.png)
+![import-data.png](images/import-data.png)
 </details>
 
 <details markdown=1>
 <summary><b>Step 3:</b> Select 'Entity Relationship (ERD)' from 'All Data Sources'. And choose 'Import from SQL Database' option from the dropdown list menu of 'Import your Data'.</summary>
 
-![import-sql-database.png](./images/import-sql-database.png)
+![import-sql-database.png](images/import-sql-database.png)
 </details>
 
 <details markdown=1>
 <summary> <b>Step 4:</b>  Select 'MySQL' as the DBMS source to import the data from, to create the ERD.</summary>
 
-![sql-script.png](./images/sql-script.png)
+![sql-script.png](images/sql-script.png)
 </details>
 
 <details markdown=1>
@@ -429,28 +422,28 @@ AND t.TABLE_SCHEMA IN ('COMMON', 'COMMON_PREP')
 <details markdown=1>
 <summary><b>Step 6:</b> Download and export the results/output of the above query from Snowflake in to a csv file.</summary>
 
-![export-results.png](./images/export-results.png)
+![export-results.png](images/export-results.png)
 </details>
 
 <details markdown=1>
 <summary><b>Step 7:</b>  Navigate back to Lucidchart app and select the result.csv file to be uploaded and click 'Import'.</summary>
 
-![import-tables.png](./images/import-tables.png)
+![import-tables.png](images/import-tables.png)
 </details>
 
 <details markdown=1>
 <summary><b>Step 8:</b> All the tables/models from the selected 'table_schema' list will now appear under 'ERD Import'. The schemas can be expanded and scrolled through to view all the tables.</summary>
 
-![schemas.png](./images/schemas.png)
+![schemas.png](images/schemas.png)
 
-![tables.png](./images/tables.png)
+![tables.png](images/tables.png)
 </details>
 
 <details markdown=1>
 <summary><b>Step 9:</b>  The required tables/entities of interest can be dragged on to the canvas and relationships between the entities can be defined from the ribbon to create the ER Diagram. <br>
 Note: The number of fields to be shown for each of the entity can easily be modified from the 'Advanced Options' section thats appears towards the right hand side of the page.</summary>
 
-![ERD.png](./images/ERD.png)
+![ERD.png](images/ERD.png)
 </details> <br>
 
 ## SPECIFIC Schema
