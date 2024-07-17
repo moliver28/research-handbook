@@ -43,7 +43,7 @@ GitLab Team Members are not obligated to join CZ collective health policy. If th
 
 ### Occupational Safety and Health
 
-Due to the [Working Conditions Act](https://www.arboineuropa.nl/en/legislation/wetgeving-in-het-engels/), GitLab contracts an occupational safety and health service. The OSH-service can assist employees who are not able to work because of illness. The contact information for GitLab's designated Occupational Health Service provider is:
+Due to the [Working Conditions Act](https://www.arboned.nl/en/compliance-law/dutch-working-conditions-act/), GitLab contracts an occupational safety and health service. The OSH-service can assist employees who are not able to work because of illness. The contact information for GitLab's designated Occupational Health Service provider is:
 
 **Leuk Personeel, Dorresteinweg 72-08, 3763 LL, Soest, the Netherlands
 
