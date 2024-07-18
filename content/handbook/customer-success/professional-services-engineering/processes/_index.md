@@ -33,13 +33,14 @@ How to initially configure GitLab as a Project Management tool can be found [her
 | PM Term    | GitLab Definition |
 | -------- | ------- |
 | Group  | This is the landing page for Customer the project. The single source of truth of Project Governance.    |
-| Projects | If an engagement has more than one Workstream (or SOW), we will track against more than one Project.    |
+| Projects | If an engagement has more than one Workstream (or SOW), we will track against more than one Project. CO activities will be tracked against the original project (SOW).   |
 | Boards    | Typically organized by labels or scoped labels to keep the team on track together. Sometimes the Gitlab/Customer team works to track against multiple Boards over Projects.    |
 | Epics    | Generally from Workstreams or "Activities" from the SOW.    |
 | Issues    | These are the atomic units of work that roll into the Epic.    |
 | Iterations    | Time-boxed (generally) two-week events, that are reviewed during the Agile ceremonies.      |
 | Milestones    | How we can track against the Project Phase    |
-| Labels    | We use these in a variety of ways, but the most important ones are: </br> <ul><li>To manage progress during delivery using a left-to-right flow</li><li>To manage progress during delivery using a left-to-right flow</li><li>To manage prioritization</li><li>To organize specific sub-categories of work to keep the team organized.</li><li>To manage risk and mitigation</li><li>Weight (size or level of effort of the issue) -See [Good Estimation Techniques](professional-services-delivery-methodology/good-estimation-techniques/_index.md) for assigning weight</li></ul>    |
+| Labels    | We use these in a variety of ways, but the most important ones are: </br> <ul><li>To manage progress during delivery using a left-to-right flow</li><li>To manage prioritization</li><li>To organize specific sub-categories of work to keep the team organized.</li><li>To manage risk and mitigation</li></ul> |
+| Weight | Size or level of effort of the issue. See [Good Estimation Techniques](./professional-services-delivery-methodology/good-estimation-techniques/_index.md) for assigning weight    |
 
 Reference [here](professional-services-delivery-methodology/agile-to-gitlab-terminology/_index.md) for additional clarity around mapping Agile terminology to Gitlab.
 
