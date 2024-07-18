@@ -286,8 +286,9 @@ GitLab is successfully partnering with top cloud and LLM providers, including Am
 
 ### Performance Indicators
 
-- Successful partnerships built created across AWS and GCP
-- Building and executing a partner marketing strategy  
+- Strong and productive relationships with AWS and GCP peers & GTM team
+- Building "better together" messaging for AWS and GCP partnerships
+- Co-creating and executing Hyperscaler co-marketing strategy
 - Meet/exceed assigned quarterly OKRs
 
 ### Career Ladder
