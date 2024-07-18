@@ -35,7 +35,7 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 
 ## The Sales Dev Index
 
-Please follow the table below to quickly find the most relevant place for what you're looking for. You can also use the searching method [explained here](/handbook/tools-and-tips/searching/) to increase your searching capabilities. 
+Please follow the table below to quickly find the most relevant place for what you're looking for. You can also use the searching method [explained here](/handbook/tools-and-tips/searching/) to increase your searching capabilities.
 
 **Our handbook page has contributions from a diverse team. To help you efficienctly find answers, we highly suggest that you `cmnd+F` this page as a best searching practice. Try searching for as many permutations of what you're looking for. For example, if you want to find information on lead scoring search for keywords like `score, scoring, lead, leads, scoring`. Remember that [information retrieval](https://handbook.gitlab.com/teamops/shared-reality/) is a core GitLab value, and a skill that will make a big difference in your careers. If you can't find what you're looking for please reach out to a member of the Sales Dev Ops team and we'll help you find it, or update the handbook to include it!**
 
@@ -1469,7 +1469,7 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
     **No:** Move on to the next step
     **Yes:** Align with the sales [RoE for renewals](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#crediting--splits) and check whether the lead is involved in an upcoming renewal, check in with the Account Executive and your Regional Manager to determine what's the best course of action for this person.
 
-4. Is the Account in "Actively Working" Status 
+4. Is the Account in "Actively Working" Status
 
     **No:** It is worked by the SDR team <br>
     **Yes:** Check for Activity
@@ -1558,7 +1558,7 @@ If the related SDR relays information that was not picked up in the new SDR's re
 
 **Q:** A prospect said they were going to buy through our website (known as a Web Direct). How can I tell if they did? <br>
 **A:** SDRs get credit for opportunities where the SDR had meaningful two way communication with a prospect 60 days before they bought GitLab through our website. The best way to search for a web direct opportunity is to use [this report](https://gitlab.my.salesforce.com/00O4M000004dkX4). First, set the date range to the time you think the prospect would have bought. Next, find the opportunity that is tied to your prospect's account. Then follow the process to request SAO credit.
-Note: Sometimes someone else from your prospect's company actually made the GitLab purchase, leading to the opportunity being related to them instead
+**Note: Sometimes someone else from your prospect's company actually made the GitLab purchase, leading to the opportunity being related to them instead.**
 
 **Q:** How do I request credit for a web direct opportunity? <br>
 **A:** On the opportunity record in Salesforce, compose a new Chatter message that includes the following:
