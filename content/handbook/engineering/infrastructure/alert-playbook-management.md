@@ -6,6 +6,8 @@ title: "Alert Playbook Management"
 
 During an incident, playbooks are vital to the engineer on call (EOC) in resolving an alert. Having all of the salient information laid out in one place saves the EOC time in diagnosing and resolving the incident. It empowers the EOC with a set of standard steps for responding to incidents. Additionally, it can greatly reduce the stress of dealing with an alert when working on an unfamiliar service.
 
+Our current runbooks tend to be more architectural documents or contain many links to unrelated information without much troubleshooting guidance. Moreover, they are primarily service-based runbooks. This means the runbooks are not necessarily useful in determining what an alert means or how to handle it. Our transition to alert-based playbooks will improve initial response times as the information relevant to the alert as well as other contextual information will be immediately available.
+
 ## Expectations
 
 A playboook should use the [playbook template](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/template-alert-playbook.md) and follow the guidence within. The playbook should include the following sections:
