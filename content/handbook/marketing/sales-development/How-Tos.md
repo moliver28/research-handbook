@@ -264,13 +264,13 @@ You must change your email signature [in Terminus](/handbook/marketing/marketing
 1. Next click the menu item for "Email Experiences"
 1. From there you can edit your signature and see a preview of it on the right side of your screen.
 
-## How to follow our FO Outbound Process
+## How to follow our Outbound Process
 
 BDR outbound lead generation is done by prospecting to companies and individuals who could be a great fit for our product. Prospecting is the process of finding and developing new business through searching for potential customers with the end goal of moving these people through the sales funnel until they eventually convert into customers.
 
 BDRs will work closely with their dedicated SAE or AE to choose which accounts move into "Actively Working". Together they will build a strategy for those companies. It is crucial that outreach is very intentional and strategic. When reaching out, we want BDRs to offer value and become a trusted advisor, ensuring a positive impression is left whether there is current demand or not.
 
-The FO Outbound process is split in four phases, which should be followed on a weekly basis to ensure a steady outbound pipeline in alignment with our internal KPIs.
+The Outbound process is split in four phases, which should be followed on a weekly basis to ensure a steady outbound pipeline in alignment with our internal KPIs.
 
 ### Planning Phase (4-5 hours/week)
 
@@ -282,7 +282,12 @@ The main objective you should be focusing at is to measure and plan what activit
 
 **1B. Map your objectives to your data** <br>
 
-Research your territory to identify the true First Order (FO) accounts, ensuring no other subsidiaries have licenses, verifying there hasn't been a lost renewal in the past 180 days, and confirming there are no open opportunities. The goal here is to vet your TAM (Total Addresable Market) so that you can start matching cohorts of accounts with the objectives that you've outlined in the previous step. Indicatively, you can export these accounts to a Google Sheet, or other SSoT of your preference, for tracking since these accounts will be marked as Actively Working at a future step further down the process.
+Research your territory to either:
+
+ 1. Identify the true First Order (FO) accounts, ensuring no other subsidiaries have licenses, verifying there hasn't been a lost renewal in the past 180 days, and confirming there are no open opportunities.
+ 2. Identify Growth opportunities for parent/children/subsidiaries of existing customer accounts. These are accounts that fall within the corporate hierarchy within Salesforce. If a child/subsidiary account is identified via ZoomInfo but not in our system, it can be created and assigned to the hierarchy as well.
+ 
+ The goal here is to vet your TAM (Total Addresable Market) so that you can start matching cohorts of accounts with the objectives that you've outlined in the previous step. These accounts will be marked as Actively Working at a future step further down the process.
 
 Utilizing these accounts, create an outreach strategy and plan for the upcoming month and quarter. This strategy should include considerations such as the number of accounts to include in sequences per week and per month, the quantity of prospects from these accounts to add into sequences weekly, whether you intend to target specific personas, if you plan to employ targeted messaging, whether sequences will be used for high-priority targets, and the messaging approach you will implement. As previously mentioned, knowing your equation is important for your planning here. Please refer to the sheet linked above to determine your exact metrics.
 
