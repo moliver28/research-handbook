@@ -69,9 +69,10 @@ Content to cover in each Key Review:
 1. Attainment against Yearlies/OKRs from the previous quarter. Should include status, learnings, next steps, and any existing dependencies.
 1. Plans for Yearlies/OKRs for the current quarter. Should include status, link to more details (OKRs in GitLab), and any risks/dependencies.
 1. Review of what is working, what is not working, key actions being taken, and what (if any) support is needed. This should include:
-       1. Results and learnings
-       1. Actions being taken now, expected impact, and measurement plan
-       1. (Optional) A highlight of one or two specific discussion topics to discuss or one decision to get alignment on. This helps to focus the conversation on important topics. Any highlighted topics should prioritize topics that need awareness or require coordination with/support from  other teams. This should be a good forum to highlight when things are off track.
+        1. Results and learnings
+        1. Actions being taken now, expected impact, and measurement plan
+        1. (Optional) A highlight of one or two specific discussion topics to discuss or one decision to get alignment on. This helps to focus the conversation on important topics. Any highlighted topics should prioritize topics that need awareness or require coordination with/support from  other teams. This should be a good forum to highlight when things are off track.
+        
 1. Key priorities and objectives for the function within the coming quarter. Should include any concrete goals that should be revisited in the next Key Review.
 1. Key Metrics Update.
 
