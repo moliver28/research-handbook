@@ -1,10 +1,10 @@
 ---
-title: "GitLab Remote Development ADR 100: New agent authorization strategy"
+title: "GitLab Remote Development Workspaces ADR 100: New agent authorization strategy"
 ---
 
 ## Context
 
-A decision was made to drop the legacy agent authorization strategy in favor of the new agent authorization strategy. As covered in [detailed proposal](https://gitlab.com/gitlab-org/remote-development/gitlab-remote-development-docs/-/blob/main/doc/proposal-for-mapping-projects-to-agents.md?ref_type=heads#problems-with-the-current-solution), the current solution has several issues that make it unsuitable for the long-term needs of the GitLab Remote Development feature. The main problems are:
+A decision was made to drop the legacy agent authorization strategy in favor of the new agent authorization strategy. As covered in [detailed proposal](https://gitlab.com/gitlab-org/remote-development/gitlab-remote-development-docs/-/blob/main/doc/proposal-for-mapping-projects-to-agents.md?ref_type=heads#problems-with-the-current-solution), the current solution has several issues that make it unsuitable for the long-term needs of the GitLab Remote Development Workspaces feature. The main problems are:
 
 1. **Limited flexibility**: The legacy agent authorization strategy relies on granting group-level Developer role to potential users. This makes it unsuitable for use in some organisations where users are not granted access at a group level.
 1. **Potential security risks**: The legacy approach allows any user with Developer role within a limited scope to spin up a GitLab Agent and have it be potentially used for workspaces by users with relevant access to the project. Since workspaces contain privileged information such as secrets, more control should be enforced on what GitLab Agents may be select for hosting workspaces within a given scope (for e.g a group) as it is with GitLab CI Runners.
@@ -27,7 +27,7 @@ For more details, on the details of the new authorization strategy, please refer
 
 ## Consequences
 
-Since the new strategy is incompatible with the legacy authorization strategy, this feature will be put behind a feature flag and rolled out gradually. Additionally, in order to provide a smooth user experience during feature rollout, a one-time data migration will take place to create mappings between root groups and remote development cluster agents within these groups. After this migration, for any changes desired to the list of cluster agents available during workspace creation, users will be required to explicitly create/delete mappings.
+Since the new strategy is incompatible with the legacy authorization strategy, this feature will be put behind a feature flag and rolled out gradually. Additionally, in order to provide a smooth user experience during feature rollout, a one-time data migration will take place to create mappings between root groups and workspace cluster agents within these groups. After this migration, for any changes desired to the list of cluster agents available during workspace creation, users will be required to explicitly create/delete mappings.
 
 ## Alternatives
 
