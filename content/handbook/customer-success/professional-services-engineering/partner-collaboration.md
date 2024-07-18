@@ -195,8 +195,7 @@ The Consulting subcontracting Prime Partner SOW includes a work authorization fo
 
 Each week, the Partner will submit their timesheets into our PSA tool by the end of their business day.
 Timesheets are due on the Friday of each week. It is imparative that all timesheets are submitted into the PSA tool weekly by the deadline!
-Month end deadlines for timesheet submissions are posted in the partner slack channels at month end. Reminders are submitted mid-month as we lead up to the month-end deadline.
-Here are details for [time tracking and submission of timesheets](/handbook.gitlab.com/handbook/customer-success/professional-services-engineering/professional-services-operations/#time-tracking)
+Month end deadlines for timesheet submissions are posted in the partner slack channels at month end. Reminders are submitted mid-month as we lead up to the month-end deadline. If there are further questions, please reivew with Project Managers or the Operations team.
 
 **Partner Monthly Invoicing**
 
