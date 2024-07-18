@@ -24,7 +24,7 @@ Here's what to expect:
 
 During 1:1 coaching, you'll practice the following skills and plan to apply them to current accountability challenges on your team:
 
-![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/coaching-for-accountability.png)
+![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/coaching-for-accountability.jpg)
 
 ### Participant Requirements
 

@@ -317,7 +317,7 @@ Tips:
 1. If you aren't sure where meeting attendees are in a Google document, click on their face or initials in the upper-right side of the window. Doing this will cause your cursor to jump to wherever their cursor is in the document.
 1. It can be challenging to coordinate with the other shadow on who is taking notes at any point in time. Consider agreeing with the other shadow to "show your hands" in Zoom to indicate that you are not currently taking notes.
 1. Sometimes people will provide some color or context before providing the main point. Consider listening to the first sentence before documenting to ensure you are capturing main points instead of what they are saying verbatim.
-1. Observe how Sid takes notes as a guide to the level of detail and summarization.
+1. Observe how Sid takes notes as a guide to the level of detail and summarization. Consider reviewing Sid's [agenda formatting recommendations](handbook/leadership/1-1/suggested-agenda-format/)  (not only applicable for 1:1s)
 
 #### Keeping time
 

@@ -13,7 +13,7 @@ Note: this section only discusses items in the offboarding where People Engineer
 
 ```mermaid
 graph TD
-  A[Offboarding is approved in Workday] --> |All offboardings| B
+  A[Offboarding is approved in Workday] --> |All offboardings on last day of Work| B
   A --> |When the offboarding is voluntary| G
   B[Offboarding issue is created, manager is assigned] --> C
   C[Offboarding merge request is created] --> D
@@ -24,7 +24,7 @@ graph TD
 
 > **Voluntary** terminations will be processed within a valid offboarding window for the day, according to the team members current timezone. Please see, the [Scheduled Offboarding Issue Creation](#scheduled-offboarding-issue-creation) section for more.
 >
-> **Involuntary** terminations will be processed as soon as they are fully approved in Workday.
+> **Involuntary** terminations will be processed as soon as they are fully approved in Workday and within the last day of work.
 
 ## Automations
 
@@ -38,7 +38,7 @@ The pipeline is scheduled to run every hour and scan for any recent voluntary of
 
 Every 15 minutes, a pipeline scans Workday for any terminations.
 
-- Involuntary offboardings will be opened as soon as they are available.
+- Involuntary offboardings will be opened as soon as they are available and within the last day of work.
 - Voluntary offboardings will be opened in the respective team members offboarding window for the day. This checks their Slack timezone to find a *local* time to start the offboarding.
   - Monday - Thursday @ 4pm
   - Friday @ 12pm
@@ -46,6 +46,11 @@ Every 15 minutes, a pipeline scans Workday for any terminations.
 For each row matching this criterion, it will perform the same actions as if a People Connect Team member ran manually initiated the offboarding. (see [Manually initiated offboarding issue creation](#manually-initiated-offboarding-issue-creation) and [Offboarding merge request](#offboarding-merge-request) sections).
 
 The manual process is kept as a backup process should the automation fail or for exceptional cases where a team member offboarding cannot be added to the offboarding spreadsheet.
+
+<details>
+  <summary>Automation Overview</summary>
+  <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/982e697f-797d-426e-ac2a-6065b8422460" id="_t~UzrcpTEIj"></iframe></div>
+</details>
 
 ### Manually initiated offboarding issue creation
 

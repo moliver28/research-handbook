@@ -320,9 +320,25 @@ All Kubernetes secrets will be injected using [`external-secrets`](https://githu
 
 See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25076) for discussion.
 
-#### Access to cells
+#### Access to cell infrastructure
 
-This is still [being discussed](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/4625). As much of the underlying infrastructure of a cell is derived from a Dedicated on GCP instance, we expect that any procedure for accessing a cell would be shared (or broadly similar) between the two products.
+Much of the underlying infrastructure of a cell is derived from a Dedicated on GCP instance, and as such the procedure will be broadly shared between the two projects.
+
+We will be using [GCP's PAM (IAM) functionality](https://cloud.google.com/iam/docs/pam-overview) to provide access to GCP resources when required.
+
+There will be no access to any GCP resources by default.
+
+There will be 3 entitlements available for elevating privileges at both the project and organization levels:
+
+| Name         | Requires approval | Purpose                                                                                         |
+|--------------|-------------------|-------------------------------------------------------------------------------------------------|
+| `readonly`   | No                | Read-only access to GCP resources. Does not include access to sensitive resources               |
+| `admin`      | Yes               | Peer-reviewed admin access for SRE access when required for operational work                    |
+| `breakglass` | No                | Breakglass admin access to resources for SRE EOC during incidents when no approver is available |
+
+Elevation of privileges will be logged and audited.
+
+See [this issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/4625) for discussion.
 
 #### Observability
 

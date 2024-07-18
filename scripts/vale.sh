@@ -15,7 +15,7 @@ if [ -n "$MODIFIED_VALE_FILES" ]; then
 elif [ -n "$MODIFIED_MD_FILES" ]; then
   echo "Linting changed files: $MODIFIED_MD_FILES"
   vale --output=.vale/vale-json.tmpl --minAlertLevel suggestion $MODIFIED_MD_FILES > vale-codequality.json
-  vale --minAlertLevel warning --output=.vale/vale.tmpl $MODIFIED_MD_FILES
+  vale --minAlertLevel error --output=.vale/vale.tmpl $MODIFIED_MD_FILES
 else
   echo "No Markdown files to lint."
 fi

@@ -70,6 +70,9 @@
 /handbook/customer-success/csm/segment/cse/webinar-calendar/ https://university.gitlab.com/pages/gitlab-user-webinars 301
 /handbook/customer-success/csm/segment/scale/webinar-calendar/  https://university.gitlab.com/pages/gitlab-user-webinars 301
 
+# Remote Development group/category renames
+/handbook/engineering/architecture/design-documents/remote_development/* /handbook/engineering/architecture/design-documents/workspaces/:splat 301
+
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
 

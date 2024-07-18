@@ -41,7 +41,7 @@ A Key Review should not be cancelled without permission. Permission to cancel or
 Required invitees are members of E-Group, the CoS to the CEO, the EBA to the CFO, and the EBAs to the CEO.
 Optional attendees are other team members as designated by their E-Group leader.
 
-Key Review Meetings may contain MNPI. As materials are limited access, participation is limited. Key Review agendas and recordings should not be shared with anyone not on the invite.
+Key Review Meetings may contain MNPI. As materials are limited access, participation is limited. Key Review agendas and recordings should not be shared with anyone not on the invite. If the Key Review Meeting contains MNPI, verify everyone on the Zoom call is permitted to be exposed to that MNPI and ask those who are not permitted to disconnect - do not share MNPI until confirming that everyone in the meeting should have access to what is being discussed. Key Review meetings that contain MNPI must not be privately livestreamed to GitLab Unfiltered.
 
 If the Key Review meeting will not contain MNPI, it can be privately livestreamed to GitLab Unfiltered.
 
@@ -69,9 +69,10 @@ Content to cover in each Key Review:
 1. Attainment against Yearlies/OKRs from the previous quarter. Should include status, learnings, next steps, and any existing dependencies.
 1. Plans for Yearlies/OKRs for the current quarter. Should include status, link to more details (OKRs in GitLab), and any risks/dependencies.
 1. Review of what is working, what is not working, key actions being taken, and what (if any) support is needed. This should include:
-       1. Results and learnings
-       1. Actions being taken now, expected impact, and measurement plan
-       1. (Optional) A highlight of one or two specific discussion topics to discuss or one decision to get alignment on. This helps to focus the conversation on important topics. Any highlighted topics should prioritize topics that need awareness or require coordination with/support from  other teams. This should be a good forum to highlight when things are off track.
+        1. Results and learnings
+        1. Actions being taken now, expected impact, and measurement plan
+        1. (Optional) A highlight of one or two specific discussion topics to discuss or one decision to get alignment on. This helps to focus the conversation on important topics. Any highlighted topics should prioritize topics that need awareness or require coordination with/support from  other teams. This should be a good forum to highlight when things are off track.
+        
 1. Key priorities and objectives for the function within the coming quarter. Should include any concrete goals that should be revisited in the next Key Review.
 1. Key Metrics Update.
 

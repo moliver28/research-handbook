@@ -27,7 +27,7 @@ Navan Expense is available via Okta. To access the platform:
   - Navan mobile app is compatible with iOS 15 or later.
 - Open the app and select `Sign in with Email`.
 
-![navan-image-20](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/signin.png)
+![navan-image-20](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/signin.jpg)
 
 - Add your GitLab email and click `Continue`.
 
@@ -35,7 +35,7 @@ Navan Expense is available via Okta. To access the platform:
 
 - Select `Sign in with Okta SSO`.
 
-![navan-image-22](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/okta.png)
+![navan-image-22](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/okta.jpg)
 
 **NOTE**: If you have the *TripActions Liquid* app, you can delete it from your device.
 {: .alert .alert-info}

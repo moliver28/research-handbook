@@ -78,7 +78,7 @@ Yes! All 3 live sessions will be recorded. Cohorts will be organized across time
 
 Below, use the infographic and list to understand what resources are available to you as a GitLab team member and how they fit into the Agile Career Framework.
 
-![infographic connecting career agility framework with GitLab resources.](agility-at-gitlab.png)
+![infographic connecting career agility framework with GitLab resources.](agility-at-gitlab.jpg)
 {style="max-width: 50%;"}
 
 | Resource | Details | Integrate It |

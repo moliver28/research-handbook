@@ -256,40 +256,6 @@ Internal projects are set up to track internal time that is not customer project
   - All hours should be tracked against the task for preparation and close out of the training
 - All class hours are to be tracked against the task that gives the name of the training, example is GitLab Basics TRNG Hours
 
-#### Month End Time Tracking Guidelines
-
-Professional Services has a hard close at each month end.
-
-Our agreed schedule with finance is [Monthly/ Quarterly/ Year End Time Lines](https://docs.google.com/spreadsheets/d/15uTHHnmIvWteYGi98BaikOVDtN99MLiVN9su-YlMMLM/edit#gid=0)
-
-- By Noon ET, Time Sheets will need to be submitted on the agreed date with finance
-  - Time would include hours for that day along with an estimate of hours for the final days of the month
-  - If corrections need to be made for the final 3 days of the month, that would be included in the following weeks time sheet
-- By 1 PM ET, Time Sheets will need to be approved by the Project Managers and Coordinators
-- By 6 PM ET, the Operations Teams will have gone through the review process and submit reporting to Finance
-
-Time sheets would be submitted by the team and then approved by the project lead on the cutoff date.  Then an additional project line would be added to finish out the remainder of the week, and follow the normal end of the week process.
-
-Here is an example of a time sheet that has been submitted and approved on a Tuesday, then new lines created for the remainder of the week
-
-![splittimesheet](splittimesheet.png)
-
-#### Month End Revenue and Billing Timelines
-
-Our agreed schedule with finance is [Monthly/ Quarterly/ Year End Time Lines](https://docs.google.com/spreadsheets/d/15uTHHnmIvWteYGi98BaikOVDtN99MLiVN9su-YlMMLM/edit#gid=0)
-
-All timesheets and fixed priced items will be signed off and completed on the monthly and quarterly deadline, then timesheets approvals and reports are submitted the following day.
-
-There is an agreement with revenue if FP items over $10,000 process after the cutoff date and prior to month end, and the billing is complete then the revenue can be processed and accounted for the current month.
-
-#### Quarterly time tracking entry and approval workflow
-
-- All hours are submitted and approved in Kantata on a weekly basis
-- The quarterly hours report is pulled from Kantata and reviewed by the Operations Manager and then provided to the PS Director for review and approval
-- A PS Director will APPROVE the hours, create an issue and attach it to the Time Tracking Epic with the `ManagerCertifiedTimesheet` label
-- The approving manager will submit to the Head of PS, [Sr. Director of Professional Services](/job-families/sales/director-of-professional-services/) for next level approval.  The Head of PS with apply judgement on productive utilization.
-- Head of Professional Services will submit to the Professional Services Finance Partner for final approval.
-
 ### Project Expenses
 
 Refer to this [internal page](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/Onsite-Travel-and-Expenses) for more information on onsite travel and expense processes.

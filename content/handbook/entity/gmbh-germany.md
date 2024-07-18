@@ -3,15 +3,9 @@ title: GitLab GmbH (Germany) information & benefits
 description: GitLab GmbH (Germany) benefits and information specific to Germany-based team members.
 ---
 
-<div class="panel panel-gitlab-orange">
-**This is a Secure Document**
-{: .panel-heading}
-<div class="panel-body">
-
-Per the stated [Roles & Responsibilities](/handbook/entity/gmbh-germany/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
-
-</div>
-</div>
+|**This is a Secure Document**|
+|-----------------------------|
+| Per the stated [Roles & Responsibilities](/handbook/entity/gmbh-germany/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.|
 
 ### Scope
 
@@ -129,9 +123,9 @@ In the unfortunate event of an accident, please find the Group Personal Accident
 
 Accidents at work that are fatal or lead to an inability to work for more than 3 days must be reported within three days of the accident to our Berufsgenossenschaft VBG.
 
-1. If you had an accident, please review the criteria [here](https://www.vbg.de/DE/2_Versicherungsschutz_und_Leistungen/2_Was_ist_versichert/1_Arbeits-_und_Wegeunfaelle/arbeits-_und_wegeunfaelle_node.html;jsessionid=1D2B9247A96790725C91E29C620D9109.live4) to clarify if the accident is insured as a work accident
+1. If you had an accident, please review the criteria by reviewing the [Information panel](https://service.vbg.de/unfaelle-und-berufskrankheiten/unfall-anzeigen) to clarify if the accident is insured as a work accident
 1. If it meets the criteria for a work accident, please fill in [this form](https://drive.google.com/file/d/1oIum7DOjuRBdJPGOzv07cIEEdGHVVEcp/view?usp=sharing) and report your accident to the Absence Management Team by emailing the form to leaves@gitlab.com. Fields 2 and 28 will get completed by the Absence Management Team.
-1. The Absence Management Team will [notify the VBG](https://service.vbg.de/arbeits-und-wegeunfall-berufskrankheit/unfallanzeige) about the accident report and inform the specialist for occupational safety.
+1. The Absence Management Team will [notify the VBG](https://service.vbg.de/unfaelle-und-berufskrankheiten/unfall-anzeigen) about the accident report and inform the specialist for occupational safety.
 
 Further things to note:
 The injured team member has the right to a copy of the accident report and can request the final document by emailing leaves@gitlab.com.
@@ -216,7 +210,7 @@ Team members are entitled to at least 20 vacation days which run concurrently wi
 
 **Family Care Leave and Nursing Leave**
 
-Per the [Family Care Leave Act and the Care Leave Act](https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/f/freistellungen-nach-pflegezg-und-fpfzg.html), in certain cases team members are able to receive partial or full care allowance as a wage replacement benefit. This is granted on request by the long-term care insurance (Pflegeversicherung) of the team member in need of care. Please contact the German citizen hotline for health insurance at (030) 340 60 66-01 or the German Federal Ministry of Health at poststelle (at) bmg.bund.de for more information. Please also review the [Care Guide](https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/5_Publikationen/Pflege/Broschueren/BMG_RG_Pflege_barr.pdf)
+Per the [Family Care Leave Act and the Care Leave Act](https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/leistungen-der-pflegeversicherung/leistungen-im-ueberblick/wie-wird-die-vereinbarkeit-von-pflege-und-beruf-gefoerdert.html), in certain cases team members are able to receive partial or full care allowance as a wage replacement benefit. This is granted on request by the long-term care insurance (Pflegeversicherung) of the team member in need of care. Please contact the German citizen hotline for health insurance at (030) 340 60 66-01 or the German Federal Ministry of Health at poststelle (at) bmg.bund.de for more information. Please also review the [Care Guide](https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/5_Publikationen/Pflege/Broschueren/BMG_RG_Pflege_barr.pdf)
 
 *Eligibility:*
 

@@ -12,7 +12,7 @@ The use of a Windows endpoint requires a specific business reason and an approve
 
 - `#sentinelone` Slack Channel
 - [SentinelOne Setup Guide](/handbook/security/corporate/systems/sentinelone/setup)
-- [SentinelOne Troubleshooting Guide](/handboook/security/corporate/systems/sentinelone/troubleshooting)
+- [SentinelOne Troubleshooting Guide](/handbook/security/corporate/systems/sentinelone/troubleshooting)
 
 ### DRI
 
