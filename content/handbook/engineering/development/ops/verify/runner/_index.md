@@ -278,13 +278,13 @@ Using the [`container-scanners`](https://gitlab.com/gitlab-com/gl-security/appse
 scans all images we produce to highlight CVE vulnerabilities. From those scans, the
 [`vulnmapper`](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper)
 project creates issues in the project that created the vulnerable image, including
-[SLAs](../../../../../security//product-security/vulnerability-management/#remediation-slas) to which we must adhere.
+[SLAs](/handbook/security/product-security/vulnerability-management/sla/) to which we must adhere.
 The Runner team member assigned the `Support & Security Responder` role in the weekly team task should triage and
 review the list of CVEs and address any issues as appropriate:
 
 - `Critical` severity issues should be addressed immediately.
 - `High`, `Medium`, and `Low` severity issues should be addressed in the priority order of the
-  [remediation SLAs](../../../../../security/product-security/vulnerability-management/#remediation-slas).
+  [remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
 
 The procedure for addressing CVE issues is as follows:
 

@@ -190,7 +190,7 @@ See the [Secure sub-department vulnerability management process](/handbook/engin
 
 #### Security Policy
 
-We prioritize findings by their CVSS severities and [SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas), and currently focus on security findings with these severity levels:
+We prioritize findings by their CVSS severities and [SLAs](/handbook/security/product-security/vulnerability-management/sla/), and currently focus on security findings with these severity levels:
 
 - Critical
 - High

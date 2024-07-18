@@ -32,14 +32,14 @@ An overview of both types of patch release and their touchpoints is included bel
 
 ### Planned patch release process
 
-Planned patch releases are driven by the [bug SLO](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) and [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas), they are scheduled twice a month on the Wednesdays before and after the monthly release week. These are best-effort dates and they might
+Planned patch releases are driven by the [bug SLO](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) and [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/), they are scheduled twice a month on the Wednesdays before and after the monthly release week. These are best-effort dates and they might
 be subject to change.
 
 The patch release includes all bug and security fixes ready at the time of the patch release preparation. Bug fixes are
 worked on in the canonical GitLab repositories, while security fixes are worked on in the mirrored GitLab security repositories
 to avoid revealing vulnerabilities before the release.
 
-Security vulnerabilities in GitLab and its dependencies are to be addressed following the [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas).
+Security vulnerabilities in GitLab and its dependencies are to be addressed following the [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
 
 The end-to-end process consists of the following stages:
 
@@ -80,10 +80,10 @@ A patch release has the following phases:
 ### Unplanned critical patch release process
 
 Unplanned critical patch releases are ad-hoc processes used to immediately patch and
-mitigate a high-severity vulnerability in order to meet the [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas).
+mitigate a high-severity vulnerability in order to meet the [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
 
 Following the [GitLab Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html), the vulnerability will be
-fixed in all supported versions following the [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas).
+fixed in all supported versions following the [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
 
 The AppSec team is responsible for assessing the vulnerability and working with development to decide on the best approach to resolve it. If an unplanned critical
 patch release is needed, the AppSec engineer will work with Release Managers to agree on a timeline for the release.
