@@ -35,7 +35,7 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 
 Please follow the table below to quickly find the most relevant place for what you're looking for. You can also use the searching method [explained here](/handbook/tools-and-tips/searching/) to increase your searching capabilities.
 
-**Our handbook page has contributions from a diverse team. To help you efficienctly find answers, we highly suggest that you `cmnd+F` this page as a best searching practice. Try searching for as many permutations of what you're looking for. For example, if you want to find information on lead scoring search for keywords like `score, scoring, lead, leads, scoring`. Remember that [information retrieval](https://handbook.gitlab.com/teamops/shared-reality/) is a core GitLab value, and a skill that will make a big difference in your careers. If you can't find what you're looking for please reach out to a member of the Sales Dev Ops team and we'll help you find it, or update the handbook to include it!**
+**Our handbook page has contributions from a diverse team. To help you efficienctly find answers, we highly suggest that you `cmnd+F` this page as a best searching practice. Try searching for as many permutations of what you're looking for. For example, if you want to find information on lead scoring search for keywords like `score, scoring, lead, leads, scoring`. Remember that [information retrieval](/handbook.gitlab.com/teamops/shared-reality/) is a core GitLab value, and a skill that will make a big difference in your careers. If you can't find what you're looking for please reach out to a member of the Sales Dev Ops team and we'll help you find it, or update the handbook to include it!**
 
 | Page | What you'll find|
 | --------- | ---------- |
@@ -149,7 +149,7 @@ Please follow the table below to quickly find the most relevant place for what y
 | [GitLab Use Cases](https://about.gitlab.com/customers/) | Where we go to reference how we make our customers sucessful |
 | [Sales Dev Onboarding Checklist](https://docs.google.com/spreadsheets/d/1gc7a2E-ziRfjYukSzozDC5M0f2yq-CgBv5GMQgTYHJM/edit?usp=drive_web&ouid=117649236165967789679) | Go-to resource for all training material newcomers will need |
 
-## Our How-Tos for the Inbound and Outbound processes.
+## Our How-Tos for the Inbound and Outbound processes
 
 ### Where to find your leads and accounts
 
