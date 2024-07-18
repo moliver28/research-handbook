@@ -1,3 +1,3 @@
 ---
-title: Fiance Guides
+title: Finance Guides
 ---
