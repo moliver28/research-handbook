@@ -41,7 +41,7 @@ A Key Review should not be cancelled without permission. Permission to cancel or
 Required invitees are members of E-Group, the CoS to the CEO, the EBA to the CFO, and the EBAs to the CEO.
 Optional attendees are other team members as designated by their E-Group leader.
 
-Key Review Meetings may contain MNPI. As materials are limited access, participation is limited. Key Review agendas and recordings should not be shared with anyone not on the invite.
+Key Review Meetings may contain MNPI. As materials are limited access, participation is limited. Key Review agendas and recordings should not be shared with anyone not on the invite. If the Key Review Meeting contains MNPI, verify everyone on the Zoom call is permitted to be exposed to that MNPI and ask those who are not permitted to disconnect - do not share MNPI until confirming that everyone in the meeting should have access to what is being discussed. Key Review meetings that contain MNPI must not be privately livestreamed to GitLab Unfiltered.
 
 If the Key Review meeting will not contain MNPI, it can be privately livestreamed to GitLab Unfiltered.
 
