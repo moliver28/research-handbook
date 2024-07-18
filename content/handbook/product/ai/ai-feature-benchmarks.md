@@ -15,9 +15,13 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 ## Key Principles
 
 - Focus on end-user value and impact
+  - Reason: Ensures that AI features directly address user needs and provide tangible benefits.
 - Evaluate early and often using lightweight methods
+  - Reason: Allows for rapid iteration and course correction, mitigating the risk of investing heavily in features that may not meet user needs.
 - Prioritize real-world usage over academic benchmarks
+  - Reason: Academic benchmarks may not always translate to practical value; real-world usage provides more accurate insights into feature effectiveness.
 - Embrace iteration and continuous improvement
+  - Reason: Acknowledges the evolving nature of AI technology and user needs, allowing for ongoing refinement of features.
 
 ## Potential Evaluation Metrics
 
@@ -43,15 +47,15 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 
 **Benchmark**: Average feedback score of 4 out of 5 or higher
 
-**Measurement**: In-product surveys and feedback forms
+**Measurement**: Centralized AI feedback system integrated across GitLab products
 
-### 4. Accuracy
+### 4. Similarity to Human Output
 
-**Definition**: Correctness of AI-generated outputs compared to human-created ones
+**Definition**: The degree of match between AI-generated outputs and human-created ones for equivalent tasks
 
-**Benchmark**: 90% or higher match with human-created outputs
+**Benchmark**: 90% or higher similarity with human-created outputs
 
-**Measurement**: Automated comparison against ground truth datasets
+**Measurement**: Automated comparison against ground truth datasets created by human experts
 
 ### 5. Impact on Development Velocity (if applicable)
 
