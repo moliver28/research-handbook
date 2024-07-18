@@ -22,6 +22,8 @@ You should now be in **Switchboard**.
 
 During [onboarding](https://docs.gitlab.com/ee/administration/dedicated/#onboarding-to-gitlab-dedicated-using-switchboard), GitLab Dedicated customers get access to Switchboard. Temporary credentials are sent to these customers via email. If these credentials expire, customers may open a Support ticket. Support Engineers should raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues) using [the `request_for_switchboard_help.md` template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_switchboard_help).
 
+Customers with admin access to the Switchboard can [manage access](https://docs.gitlab.com/ee/administration/dedicated/configure_instance.html#add-users-to-an-instance) for their team.
+
 ## Accessing customer configuration
 
 When launching Switchboard, you should default to the `/tenants` page with a list of tenant customers.
