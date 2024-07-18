@@ -177,7 +177,7 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 | Member                               | Ved Prakash       | Staff Data Engineer, Data Science|
 | Member                               | Dylan Griffith    | Principal Engineer, Create |
 | Member                               | Thong Kuah        | Principal Engineer, Data Stores |
-| Member                               |                   ||
+| Member                               | Rick Mar          | Manager, Core Infrastructure |
 
 ### Related Performance Projects
 
