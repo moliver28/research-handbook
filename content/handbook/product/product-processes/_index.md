@@ -2004,75 +2004,6 @@ There are a few different tools PM's can utilize to understand the operational c
 
 ## Roadmaps, Boards, Issues & Epics
 
-### Roadmaps
-
-You should strive to maintain an updated Epic [roadmap](https://docs.gitlab.com/ee/user/group/roadmap/)
-for your group (here's [an example](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=group%3A%3Ageo)). This can take considerable effort but doing so will ensure
-your issues are well organized according to the principles laid out below.  You should also maintain a roadmap in your direction page that serves as the SSOT.  There are additional guidelines in the [Managing Your Product Direction Section](/handbook/product/product-processes/#managing-your-product-direction).
-
-### Boards
-
-As part of our planning process it is important that you maintain a prioritized
-[issue board](https://docs.gitlab.com/ee/user/project/issue_board.html) for your group.
-It's customary to call these boards `STAGE - GROUP - Planning` and to configure them to filter
-to all issues with your group label and with each milestone as a column (here's [an example](https://gitlab.com/groups/gitlab-org/-/boards/1131777?&label_name%5B%5D=group%3A%3Ahealth)).
-
-As the [DRI](/handbook/people-group/directly-responsible-individuals/) for [milestone prioritization](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) it is your responsibility to ensure that all items on your Planning board are scheduled to a milestone#milestones and are prioritized both
-within and across milestones. This means the lowest priority in the current milestone would generally be the top priority in the next milestone.
-
-In this regard your planning exercise is a complete prioritization of the near term issues.
-
-### Feature templates
-
-We have 3 templates PMs can leverage to create issues for features:
-
-1. [Basic proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20basic.md) for minor tasks or technical details for tracking larger issues.
-1. [Lean feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md) and for all feature enhancements that will get proposals and potentially become release post items.
-1. [Feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md) for large new features that may require more information or details and will become release post items.
-
-The goal of these different templates is to provide an efficient way of creating new issues and improve cross team collaboration. When appropriate, these templates may be leveraged for creating epic descriptions as well.
-
-### Epics
-
-Issues related to the same feature should be bundled together into an
-into an [epic](https://docs.gitlab.com/ee/user/group/epics/).
-
-#### Epics for a single iteration
-
-Features may include multiple issues even if we are just targeting an MVC. In
-this case, we should use an epic to collect all of them in one single place.
-This epic should have a start and an end date, and it should not span more than
-3 releases, otherwise we run the risk of having epics drag on indefinitely.
-
-When these issues are finished and closed, we should have successfully achieved the
-epic's goal. A good example of this kind of epic is the first iteration on a new
-feature. Epics representing MVCs should clearly state `MVC` at the end of the
-title and should have a parent epic relationship towards a category strategy or a meta epic.
-
-#### Meta epics for longer term items
-
-We use epics to track many issues related to a specific topic, even if there
-isn't a specific timeline for shipping. These epics should be marked as ~meta, they
-may not have a specific start or end date, and may contain single iteration epics.
-
-This is useful to have an overview of the future so participants and observers can
-understand how the pieces fit together. It can be really useful to understand the
-context of where we think we're going so we can do a good job with the MVC.
-
-Also, it conveys confidence internally and externally that we understand what
-we need to do when the MVC is particularly minimal. But don't get too caught up
-in long-term epics as you risk making proposals too complex, and overrepresenting
-certainty in the solution. Don't work too far in the future; we'll know better
-once we ship something small.
-
-When creating a meta epic, there's a natural tendency to capture it as quickly
-as possible and then move on, but we must always strive to create a more
-specific epic for the first iteration, or the next iteration if something
-already exists. Describing an MVC means that the community can contribute more
-easily. Also, after distilling things down to a first iteration, you might
-realize it's a lot easier than you thought, and prioritize it earlier. You can
-have an MVC without a meta issue. But **you can't have a meta issue without an MVC**.
-
 ### Issues
 
 We use issues to define narrowly scoped items of work to be done. Issues can focus on a variety of different topics: UX problems, implementation requirements, tech debt, bugs, etc. A good guideline for experience-related issues is that they should address no more than one user story. If an issue includes multiple user stories, then it is likely an epic.
@@ -2238,6 +2169,75 @@ issues short and actionable.
 In addition, it's often a good idea to throw away an original plan and
 start fresh. Try to do this more often, even more than you're comfortable with.
 Close the issue and create a new one.
+
+### Feature templates
+
+We have 3 templates PMs can leverage to create issues for features:
+
+1. [Basic proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20basic.md) for minor tasks or technical details for tracking larger issues.
+1. [Lean feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md) and for all feature enhancements that will get proposals and potentially become release post items.
+1. [Feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md) for large new features that may require more information or details and will become release post items.
+
+The goal of these different templates is to provide an efficient way of creating new issues and improve cross team collaboration. When appropriate, these templates may be leveraged for creating epic descriptions as well.
+
+### Epics
+
+Issues related to the same feature should be bundled together into an
+into an [epic](https://docs.gitlab.com/ee/user/group/epics/).
+
+#### Epics for a single iteration
+
+Features may include multiple issues even if we are just targeting an MVC. In
+this case, we should use an epic to collect all of them in one single place.
+This epic should have a start and an end date, and it should not span more than
+3 releases, otherwise we run the risk of having epics drag on indefinitely.
+
+When these issues are finished and closed, we should have successfully achieved the
+epic's goal. A good example of this kind of epic is the first iteration on a new
+feature. Epics representing MVCs should clearly state `MVC` at the end of the
+title and should have a parent epic relationship towards a category strategy or a meta epic.
+
+#### Meta epics for longer term items
+
+We use epics to track many issues related to a specific topic, even if there
+isn't a specific timeline for shipping. These epics should be marked as ~meta, they
+may not have a specific start or end date, and may contain single iteration epics.
+
+This is useful to have an overview of the future so participants and observers can
+understand how the pieces fit together. It can be really useful to understand the
+context of where we think we're going so we can do a good job with the MVC.
+
+Also, it conveys confidence internally and externally that we understand what
+we need to do when the MVC is particularly minimal. But don't get too caught up
+in long-term epics as you risk making proposals too complex, and overrepresenting
+certainty in the solution. Don't work too far in the future; we'll know better
+once we ship something small.
+
+When creating a meta epic, there's a natural tendency to capture it as quickly
+as possible and then move on, but we must always strive to create a more
+specific epic for the first iteration, or the next iteration if something
+already exists. Describing an MVC means that the community can contribute more
+easily. Also, after distilling things down to a first iteration, you might
+realize it's a lot easier than you thought, and prioritize it earlier. You can
+have an MVC without a meta issue. But **you can't have a meta issue without an MVC**.
+
+### Roadmaps
+
+You should strive to maintain an updated Epic [roadmap](https://docs.gitlab.com/ee/user/group/roadmap/)
+for your group (here's [an example](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=group%3A%3Ageo)). This can take considerable effort but doing so will ensure
+your issues are well organized according to the principles laid out below.  You should also maintain a roadmap in your direction page that serves as the SSOT.  There are additional guidelines in the [Managing Your Product Direction Section](/handbook/product/product-processes/#managing-your-product-direction).
+
+### Boards
+
+As part of our planning process it is important that you maintain a prioritized
+[issue board](https://docs.gitlab.com/ee/user/project/issue_board.html) for your group.
+It's customary to call these boards `STAGE - GROUP - Planning` and to configure them to filter
+to all issues with your group label and with each milestone as a column (here's [an example](https://gitlab.com/groups/gitlab-org/-/boards/1131777?&label_name%5B%5D=group%3A%3Ahealth)).
+
+As the [DRI](/handbook/people-group/directly-responsible-individuals/) for [milestone prioritization](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) it is your responsibility to ensure that all items on your Planning board are scheduled to a milestone#milestones and are prioritized both
+within and across milestones. This means the lowest priority in the current milestone would generally be the top priority in the next milestone.
+
+In this regard your planning exercise is a complete prioritization of the near term issues.
 
 ## Life Support PM Expectations
 
