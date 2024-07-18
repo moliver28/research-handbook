@@ -89,10 +89,6 @@ issue description. This can simply be the issue itself, containing a summary
 of the discussion in the description, answers to the questions and links to
 any PoC MRs produced.
 
-#### Historical Capacity
-
-{{% include "includes/engineering/plan/historical-capacity.md" %}}
-
 #### Collaborating to Improve Velocity
 
 As a team we often work on features that require close collaboration. We've identified a list of techniques and characteristics that help projects like this proceed at a pace that is sustainable, predictable, and challenging, yet rewarding. An example of such feature was [Epic Linking](https://gitlab.com/groups/gitlab-org/-/epics/7546).

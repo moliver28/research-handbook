@@ -90,10 +90,6 @@ DRI rotation:
 | Deepika Guliana | 2023-04-10 | 2023-04-21 | |
 | Eulyeon Ko | 2023-04-24 | 2023-05-05 | |
 
-#### Historical Capacity
-
-{{% include "includes/engineering/plan/historical-capacity.md" %}}
-
 ### Collaboration between backend and frontend
 
 #### Using the ~"backend complete" label
