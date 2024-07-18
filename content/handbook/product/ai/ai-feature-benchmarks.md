@@ -104,10 +104,10 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 
 ## Things to Avoid
 
-- Favoring academic benchmarks over real-world usage
+- Over-relying on academic benchmarks that don't reflect real-world usage
 - Spending excessive time on evaluations before validating product-market fit
-- Using complex evaluation frameworks that slow down iteration
-- Neglecting to measure long-term impact on user workflows and productivity
+- Using complex evaluation frameworks or processes that slow down iteration
+- Getting tied up in overly rigid evaluation procedures that hinder agility and rapid improvement
 
 ## Best Practices
 
