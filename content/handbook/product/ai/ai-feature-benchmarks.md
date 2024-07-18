@@ -8,6 +8,7 @@ description: "This page outlines GitLab's benchmarks for measuring the effective
 This page outlines GitLab's standardized benchmarks for evaluating AI features throughout the development lifecycle. These metrics are designed to be approachable for all teams while aligning with industry best practices for AI evaluation.
 
 ## Challenges with evaluating features
+
 - Non-deterministic outputs are difficult to test due to the variance in responses
 - Speed of industry advancements sometimes require reworking features mid-development
 - High quality evaluations require time, focus and attention to detail
@@ -75,7 +76,7 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 
 ### 7. Expert Comparison
 
-**Definition**: Performance of the AI feature compared to [human experts in the same domain](https://handbook.gitlab.com/handbook/product/personas/#list-of-user-personas)
+**Definition**: Performance of the AI feature compared to [human experts in the same domain](../../product/personas/_index.md)
 
 **Benchmark**: AI performance meets or exceeds median expert level
 
