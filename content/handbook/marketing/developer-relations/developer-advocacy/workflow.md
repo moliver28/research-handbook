@@ -9,6 +9,18 @@ aliases:
 
 Welcome to the Developer Advocate team workflow page. Learn how the team works and how to work with the team. We primarily use the [Developer Advocate Meta issue tracker](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues). We own the team label `developer-advocacy` and all of our [other labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&sort=relevance&search=developer+advocacy) which are located at the [gitlab-com](https://gitlab.com/gitlab-com) group level. You can add the labels as necessary to any issue under this group for our team to track.
 
+### Overview Video
+
+The [Workflow overview video](https://www.youtube.com/watch?v=FKw0uGOmcks) showcases the different components of the workflow in detail. The video is internal only due to confidential issues shown in workflows. If you would like to jump to the specific chapters of the video, see the links below.
+
+Video Chapters:
+
+- [Introduction](https://www.youtube.com/watch?v=FKw0uGOmcks&t=0s)
+- [Creating Issues](https://www.youtube.com/watch?v=FKw0uGOmcks&t=50s)
+- [Labels Overview](https://www.youtube.com/watch?v=FKw0uGOmcks&t=750s)
+- [Issue Boards](https://www.youtube.com/watch?v=FKw0uGOmcks&t=1420s)
+- [Issue Triage & DevRel-Bot Rules](https://www.youtube.com/watch?v=FKw0uGOmcks&t=1860s)
+
 ### How the Developer Advocacy Team  work
 
 Every activity of the team is tracked as an issue in the [Developer Advocacy Meta project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues) or in the issue trackers of other teams the team collaborate with. Activities fall into 3 categories Content, Events & Other Activities. To make creation of issues easy, the team use issue templatea pre-populated with relevant placeholders and labels.  Here are the direct links to the Issue templates and their shortlinks.
@@ -26,26 +38,25 @@ Issue boards are the single source of truth for activities of the Developer Advo
 
 | Issue Board |  Shortlink |
 |-------------|-----------|
-| [Content by Assignee](https://gitlab.com/groups/gitlab-com/-/boards/7577841?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy) | `https://go.gitlab.com/da-content-assignees` |
+| [Issues by Assignee](https://gitlab.com/groups/gitlab-com/-/boards/7577841?label_name[]=developer-advocacy) | `https://go.gitlab.com/da-assignees` |
 | [Content by Quarter](https://gitlab.com/groups/gitlab-com/-/boards/7577857?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy) | `https://go.gitlab.com/da-content-quarter` |
-| [Content by Types](https://gitlab.com/groups/gitlab-com/-/boards/7577822?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy) | `https://go.gitlab.com/DA-Type-Content` |
+| [Content by Types](https://gitlab.com/groups/gitlab-com/-/boards/7577822?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy) | `https://go.gitlab.com/da-content-type` |
 | [Events](https://gitlab.com/groups/gitlab-com/-/boards/7577874?label_name[]=developer-advocacy&label_name[]=DA-Type%3A%3AEvents) | `https://go.gitlab.com/da-events` |
+| [Issue Triage Board](https://gitlab.com/groups/gitlab-com/-/boards/7669248?label_name[]=DA-Bot%3A%3ATriage) | `https://go.gitlab.com/da-issue-triage` |
+
+NB: All the Shortlinks on this page can be managed at [https://campaign-manager.gitlab.com/campaigns/view/114](https://campaign-manager.gitlab.com/campaigns/view/114).
 
 ### How to work with the Developer Advocate Team
 
 Opening an issue is the best way to get a conversation started. The `developer-advocacy` label is at the `gitlab-com` group level, which means it can be added to any issue or merge request in the group's structure.
 
-The `developer-advocacy` label is required, other labels are optional. The [DA-Bot](/handbook/marketing/developer-relations/developer-advocacy/projects/#developer-advocacy-bot) or a team member will do the triage and add the necessary labels. To reduce noise in the comments, please add the `DA-Type::Consulting` and the relevant `Consulting` team labels yourself.
+The `developer-advocacy` label is required, other labels are optional. The [DevRel-Bot](/handbook/marketing/developer-relations/developer-advocacy/projects/#developer-advocacy-bot) or a team member will do the triage and add the necessary labels. To reduce noise in the comments, please add the `DA-Type::Consulting` and the relevant `Consulting` team labels yourself.
 
 You can use the [request a Developer Advocate issue template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=developer-advocate-request) to submit a request. It provides a guide to collect the required information to triage the request.
 
 ### CFPs
 
 CFP epics should not be created to avoid clutter on the Roadmap, instead the `CFP` label should be added to the corresponding event's epic. If no related event epic exists, create one and add the CFP issue to it.
-
-### Issue Triage
-
-The [DevRel-Bot](https://gitlab.com/gitlab-da/devrel-bot) uses the [GitLab Triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage) project to ensure appropriate & consistent usage of labels. The Bot also helps to triage issues based on label usage.
 
 ## Labels
 
@@ -55,6 +66,8 @@ The Developer Advocate team workflow is supported by labels, which help determin
 
 | **CFP Labels** | **Description** |
 | ---------- | ----------- |
+| `developer-advocacy` | Used to label issues that are related to the Developer Advocacy team |
+| `DevRel-Influenced` | Used to label issues that are influenced by DevRel, Developer Advocacy in particular. |
 | `DA-Ops` | Used to label issues related to the Developer Advocacy `Ops in DevOps` theme |
 | `DA-Dev` | Used to label issues related to the Developer Advocacy `Dev in DevOps` theme |
 | `DA-k8s` | Used to label issues related to the Developer Advocacy `Kubernetes` theme |
@@ -154,14 +167,6 @@ These labels are automatically assigned by the [DA-Bot](/handbook/marketing/deve
 | `DA-Due::Past` | Issue is past its due date |
 | `DA-Due::Soon` | Issue is due soon |
 
-#### Other Labels
-
-| Label | Use |
-|-------|-----|
-| `DA-Release-Evangelism` | Release Evangelism issues, often auto created and closed by the DA-Bot |
-| `DA-Issue-Type::External` | Issues created by Other teams |
-| `DA-Issue-Type::Internal` | Issues created & owned by the DevEvangelism team |
-
 #### CFP Labels
 
 These labels are used to track workflow of the CFP submissions.
@@ -179,6 +184,55 @@ These labels are used to track workflow of the CFP submissions.
 | `CFP-OSS` | Identifies CFPs that are relevant to the Open Source teams |
 | `CFP-Submitted::{0..7}` | This is used to note the number of submissions that were made for metrics purposes |
 | `CFP-Accepted::{0..7}` | This is used to note the number of acceptances for metrics purposes |
+
+#### Triage Labels
+
+These labels are used by the DevRel bot to identify issues that need a review.
+
+| Label | Use |
+|-------|-----|
+| `DA-Triage::no-due-date` | Issue is missing a due date |
+| `DA-Triage::past-due-date` | Issue is past its due date |
+| `DA-Triage::no-issue-type` | Issue is missing a DA-Type label |
+| `DA-Triage::done-not-closed` | Issue is still open while having a `DA-Status::Done` label |
+| `DA-Triage::onhold-too-long` | Issue is has the `DA-Bot::Hold` label and has not been updated in the past 90 days |
+| `DA-Triage::no-update-60days` | Issue has not been updated in the past 60 days, i.e. 60 days since the last comment. |
+| `DA-Triage::no-consulting-team` | Issue has a `DA-Type::Consulting` label but missing a consulting team label |
+| `DA-Triage::cfp-due-submission` | CFP issue has a `CFP::Open` label and its past submission due date |
+| `DA-Triage::cfp-due-notification` | CFP issue has a `CFP::Submitted` label and its past notification due date |
+| `DA-Triage::cfp-due-presentation` | CFP issue has a `CFP::Accepted` label and its past presentation due date |
+
+#### Other Labels
+
+| Label | Use |
+|-------|-----|
+| `DA-Release-Evangelism` | Release Evangelism issues, often auto created and closed by the DA-Bot |
+| `DA-Issue-Type::External` | Issues created by Other teams |
+| `DA-Issue-Type::Internal` | Issues created & owned by the DevEvangelism team |
+
+### Issue Triage
+
+The [DevRel-Bot](https://gitlab.com/gitlab-da/projects/devrel-bot) uses the [GitLab Triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage) project to ensure appropriate & consistent usage of labels. The Bot also helps to triage issues based on label usage. Here are the current policies used by the Bot:
+
+| Rule Description          | Condition     | Action |
+|---------------|---------------|---------|
+| Issues where DA team member is an assignee outside DA-Meta project i.e. DevRel-Influenced | Assignees include members of the gitlab.com/gitlab-da group, Issues are not in the [developer-advocacy-meta](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta) project and does not have a `developer-advocacy` label | Add `developer-advocacy`,`DA-Bot::Skip`, `DevRel-Influenced` label |
+| Issue by DA team member missing developer-advocacy label | Issue author is a member of the gitlab.com/gitlab-da group and does not have a `developer-advocacy` label | Add `developer-advocacy` label |
+| Issue missing DA-Type label | Issue does not have a `DA-Type` label | Add `DA-Bot::Triage` & `DA-Triage::no-issue-type` label |
+| Content Issue missing DA-Type-Content label | Issue has a `DA-Type::Content` label but missing a `DA-Type-Content` label | Add `DA-Bot::Triage` & `DA-Triage::no-content-type` label |
+| Missing Due Dates | Issue is missing a due date | Add `DA-Bot::Triage` & `DA-Triage::no-due-date` label |
+| Past Due Dates | Issue is past its due date | Add `DA-Bot::Triage` & `DA-Triage::past-due-date` label |
+| Issues On Hold | Issue has the `DA-Bot::Hold` label and has not been updated in the past 90 days | Add `DA-Bot::Triage` & `DA-Triage::onhold-too-long` label |
+| Issues Not Updated | Issue has not been updated in the past 60 days, i.e. 60 days since the last comment. | Add `DA-Bot::Triage` & `DA-Triage::no-update-60days` label |
+| Consulting Issues Missing Consulting Team | Issue has a `DA-Type::Consulting` label but missing a consulting team label | Add `DA-Bot::Triage`, `DA-Bot::Hold` & `DA-Triage::no-consulting-team` label | 
+| Issue is done but still open | Issue has a `DA-Status::Done` label but is still open | Add `DA-Bot::Triage`, `DA-Bot::Hold` & `DA-Triage::done-not-closed` label |
+| Close Old DA-Bot created Issues | Issue is older than 2 weeks and has the `DA-Bot::Auto` label | Close issue |
+| Missing Request Type Label for DA team members | Issue author is a member of the gitlab.com/gitlab-da group, has a `developer-advocacy` label and missing  `DA-Requester-Type::Internal` label | Add `DA-Requester-Type::Internal` label |
+| Missing Request Type Label for non DA team members | Issue author is not a member of the gitlab.com/gitlab-da group, has a `developer-advocacy` label and missing  `DA-Requester-Type::External` label | Add `DA-Requester-Type::External` label |
+| CFP Issues Missing due date | Issue has a `CFP` label but missing a due date | Add `DA-Bot::Triage` & `DA-Triage::no-due-date` label |
+| CFP Past Due date for submission | Issue has a `CFP::Open` label and its past submission due date | Add `DA-Bot::Triage` & `DA-Triage::cfp-due-submission` label |
+| CFP Past Due date for notification | Issue has a `CFP::Submitted` label and its past notification due date | Add `DA-Bot::Triage` & `DA-Triage::cfp-due-notification` label |
+| CFP Past Due date for presentation | Issue has a `CFP::Accepted` label and its past presentation due date | Add `DA-Bot::Triage` & `DA-Triage::cfp-due-presentation` label |
 
 ### CFP Workflow
 
