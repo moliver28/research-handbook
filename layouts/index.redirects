@@ -76,4 +76,5 @@
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
 
-
+# Brand Standards move 2025-01-17
+/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/ https://design.gitlab.com/brand-overview/resources 301
