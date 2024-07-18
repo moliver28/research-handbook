@@ -148,7 +148,7 @@ OKRs do not replace or supersede core team member responsibilities or performanc
 
 ## Who sets OKRs?
 
-Company-level [Yearlies](/handbook/company/yearlies/) guide company-level Objectives and Key Results. At a minimum, each Function should inherit the company-level Yearlies for their Objectives and have 1-3 function level Key Results that supports company Objective and KR attainment each quarter.
+Company-level [Yearlies](/handbook/company/yearlies/) guide company-level Objectives and Key Results. At a minimum, each Function should inherit the company-level Objectives for their function-level Objectives and have 1-3 function level Key Results that supports company Objective and KR attainment each quarter.
 
 Individual functions and teams have discretion around how much they use OKRs beyond the Yearly cascade level.
 
