@@ -32,8 +32,7 @@ An overview of both types of patch release and their touchpoints is included bel
 
 ### Planned patch release process
 
-Planned patch releases are driven by the [bug SLO](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) and [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas), they are scheduled twice a month on
-the second and fourth Wednesdays, around the monthly release week. These are best-effort dates and they might
+Planned patch releases are driven by the [bug SLO](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) and [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas), they are scheduled twice a month on the Wednesdays before and after the monthly release week. These are best-effort dates and they might
 be subject to change.
 
 The patch release includes all bug and security fixes ready at the time of the patch release preparation. Bug fixes are
