@@ -13,7 +13,7 @@ Please see our [company page]({{< ref "company" >}}) for more general informatio
 
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="https://player.vimeo.com/video/947155019" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%"> </iframe>
+  <iframe src="https://player.vimeo.com/video/947155019" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="width: 100%; height: 360px"></iframe>
 </figure>
 <!-- blank line -->
 
