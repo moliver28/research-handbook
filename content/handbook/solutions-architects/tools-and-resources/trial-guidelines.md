@@ -174,3 +174,15 @@ Then follow [these instructions](https://docs.gitlab.com/ee/subscriptions/subscr
 Note: you do not have to add projects in this account to trial Duo Pro features in your IDE. Simply generate a [personal access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) to configure the supported [IDE extension](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/supported_extensions.html). You will be able to use [Code Suggestions](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) and [Duo Chat](https://docs.gitlab.com/ee/user/gitlab_duo_chat/). However, AI features implemented in the UI such as [Repository X-ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray.html) will not be available.   |
 | Self Managed Enterprise Edition Premium | Request a trial via [this online form](https://about.gitlab.com/solutions/gitlab-duo-pro/self-managed-and-gitlab-dedicated-trial/) and follow [these instructions](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#on-self-managed-and-gitlab-dedicated). |
 
+## Learning how to use the platform
+
+No matter if you are using GitLab for the first time or willing to improve your current usage, these resources will help you get started. Learning best practices will help you gain proficiency during your trial:
+
+- Go through the extensive [documentation](https://docs.gitlab.com/) and review the [tutorials](https://docs.gitlab.com/?tab=Tutorials) 
+- [GitLab University](https://university.gitlab.com/): A collection of trainings and certifications (both free and paid) 
+- [GitLab Youtube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg): Find demos, use cases, recorded webinars and more 
+- [The resource page](https://about.gitlab.com/resources/) for reports, ebooks, webcast, etc
+- [GitLab Blog](https://about.gitlab.com/blog/): search for topics of interest including tips, use cases, etc
+- [Join the community](https://about.gitlab.com/community/) and become a member through various programs
+- Ask your questions and find answers from existing GitLab users on the [GitLab Forum ](https://forum.gitlab.com/)
+- If you are already a Premium customer, you can get help from the support team 
