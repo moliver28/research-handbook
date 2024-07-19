@@ -200,22 +200,14 @@ Auxiliary services with a global context - that is, services handling data not s
 The ID field can only be up to 30 characters long due to restrictions imposed by the [Dedicated tenant model](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/tenant-model-schema/-/blob/main/json-schemas/tenant-model.json) and [GCP project naming](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
 This limits us in what kind of metadata we can include in the cell name: for example, we can't include the region name.
 
-With this in mind, cells will use a [ULID](https://github.com/ulid/spec), truncated to 18 characters, as its tenant ID. For example, a single cell's ID might be `01HW6TQSAMAVPGR3N8`. Per the ULID spec, the ID consists of:
+With this in mind, cells will use a [ULID](https://github.com/ulid/spec), truncated to 17 characters, lowercased and prefixed with `c` as its tenant ID. For example, a single cell's ID might be `c01hw6tqsamavpgr3n`.
 
-```plaintext
-ttttttttttrrrrrrrr
-
-where
-t is Timestamp (10 characters)
-r is Randomness (8 characters)
-```
-
-A prettier name prefixed with `cell-` will be used for situations where human readability is preferred, e.g. in the GCP project name. For example, if a cell has the ID of `01HW6TQSAMAVPGR3N8`, its prettified name will be `cell-01HW6TQSAMAVPGR3N8`.
+A prettier name prefixed with `cell-` will be used for situations where human readability is preferred, e.g. in the GCP project name. For example, if a cell has the ID of `c01hw6tqsamavpgr3n`, its prettified name will be `cell-c01hw6tqsamavpgr3n`.
 
 The length of the ID allows for an additional 7 characters which can be used to name additional GCP projects (should they be needed) related to a single cell. For example, if the cell needs additional projects for Runner or Gitaly resources, they can be named like so, while staying within the 30 character limit:
 
-- `cell-01HW6TQSAMAVPGR3N8-rnr123` or `cell-01HW6TQSAMAVPGR3N8-runner`
-- `cell-01HW6TQSAMAVPGR3N8-git594` or `cell-01HW6TQSAMAVPGR3N8-gitaly`
+- `cell-c01hw6tqsamavpgr3n-rnr123` or `cell-c01hw6tqsamavpgr3n-runner`
+- `cell-c01hw6tqsamavpgr3n-git594` or `cell-c01hw6tqsamavpgr3n-gitaly`
 
 See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25065) for discussion.
 
@@ -265,11 +257,11 @@ rectangle "GitLab Cells" <<Organization>> {
       }
 
       frame "Cells" as cells {
-        frame "cell-01HW6TQSAMAVPGR3N8" {
-          component "cell-01HW6TQSAMAVPGR3N8 Project" as project1
+        frame "cell-c01hw6tqsamavpgr3n" {
+          component "cell-c01hw6tqsamavpgr3n Project" as project1
         }
-        frame "cell-01HW6TQSAMG16KSV4N" {
-          component "cell-01HW6TQSAMG16KSV4N Project" as project2
+        frame "cell-c01hw6tqsamg16ksv4" {
+          component "cell-c01hw6tqsamg16ksv4 Project" as project2
         }
       }
 
@@ -286,11 +278,11 @@ rectangle "GitLab Cells" <<Organization>> {
       }
 
       frame "Cells" as cells2 {
-        frame "cell-01HW6TQSAM8ABAGD77" {
-          component "cell-01HW6TQSAM8ABAGD77 Project" as project3
+        frame "cell-c01hw6tqsam8abagd7" {
+          component "cell-c01hw6tqsam8abagd7 Project" as project3
         }
-        frame "cell-01HW6TQSAM4KHNRAYP" {
-          component "cell-01HW6TQSAM4KHNRAYP Project" as project4
+        frame "cell-c01hw6tqsam4khnray" {
+          component "cell-c01hw6tqsam4khnray Project" as project4
         }
       }
 
@@ -396,7 +388,7 @@ cellctl -> instrumentor
 cloud GCP <<gcp>> {
   component Amp as amp
 
-  frame "cell-01HW6TQSAMAVPGR3N8" as cell <<gcp_project>>
+  frame "cell-c01hw6tqsamavpgr3n" as cell <<gcp_project>>
 
   cellmodel .r.> dedicatedmodel
 
