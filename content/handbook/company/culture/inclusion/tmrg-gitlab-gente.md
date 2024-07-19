@@ -7,7 +7,7 @@ Bienvenidos, bem-vinda and welcome to the Gente space! We are a TMRG that was st
 
 [Gente TMRG Overview Slide Deck](https://docs.google.com/presentation/d/1eQIv4Km0bd9ciuJ-hjmuPSRo1TZxH1f7FcUfau7xQB4/edit#slide=id.gb5fc211329_1_0)
 
-[Latinx Project in GitLab](https://gitlab.com/gitlab-com/latinx-tmrg)
+[Gente Project in GitLab](https://gitlab.com/gitlab-com/gente-tmrg)
 
 Slack Channel: `#gente`
 
@@ -23,9 +23,10 @@ To promote advancement, cultural awareness, talent recruitment, retention, and p
 
 ## Leads
 
-- [Pilar Mejia](https://gitlab.com/pmejia)
+- [Pilar Mejia](https://gitlab.com/pmejia) - Lead
 - [Romer Gonzalez](https://gitlab.com/romerg) — Co Lead
-- [Leo Curiel](https://gitlab.com/leocuriel) — Co Lead
+- [Samara Souza](https://gitlab.com/samarasouza) — Co Lead 
+- [Giuliana Lucchesi](https://gitlab.com/glucchesi) — Co Lead 
 
 ## Founding alumni
 
