@@ -7,18 +7,20 @@ description: "CI Catalog - Weekly Project Plan - Pipeline Authoring Group"
 The following page may contain information related to upcoming products, features and functionality. It is important to note that the information presented is for informational purposes only, so please do not rely on the information for purchasing or planning purposes. Just like with all projects, the items mentioned on the page are subject to change or delay, and the development, release, and timing of any products, features or functionality remain at the sole discretion of GitLab Inc.
 {{% /alert %}}
 
+[CI Catalog has been released to General Availability in 17.0.](https://about.gitlab.com/releases/2024/05/16/gitlab-17-0-released/#cicd-catalog-with-components-and-inputs-now-generally-available)
+
 ### Milestone 17.3 (July 13, 2024 - August 9, 2024)
 
 #### Goals
 
 - Allow administrator to [restrict users](https://gitlab.com/groups/gitlab-org/-/epics/14060) from publishing to CI/CD Catalog
-  - Update the pipeline chain to check the policy before publishing the component - [#465271](https://gitlab.com/gitlab-org/gitlab/-/issues/465271)
-  - Add GraphQL mutations and types to policy [#465265](https://gitlab.com/gitlab-org/gitlab/-/issues/465265) (in-dev)
+  - Update the pipeline chain to check the policy before publishing the component - [#465271](https://gitlab.com/gitlab-org/gitlab/-/issues/465271) (in-dev)
+  - Add GraphQL mutations and types to policy [#465265](https://gitlab.com/gitlab-org/gitlab/-/issues/465265) (in-review)
 - Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
-  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783)
+  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-dev)
 - Inputs enhancements
-  - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275)
-  - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375)
+  - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275) (in-dev)
+  - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375) (in-dev)
 
 ### Milestone 17.4 (August 9, 2024 - September 13, 2024)
 
