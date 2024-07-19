@@ -191,14 +191,16 @@ Auto-renewal will fail if:
 Accounts and Subscriptions excluded from auto-renewal:
 
 1. Subscriptions purchased via a Reseller or another Channel partner (where the customer didn't transact with GitLab directly).
-2. Subscriptions for Education, OSS, or Startup (i.e. Community Programs).
-3. Subscriptions with non-standard term (not in 12 month term increments).
-4. Multi-year subscriptions (with term greater than 12 months). This is a temporary measure until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/9591) is done.
-5. Accounts with the following settings in Zuora:
+1. Subscriptions for Education, OSS, or Startup (i.e. Community Programs).
+1. Subscriptions with non-standard term (not in 12 month term increments).
+1. Multi-year subscriptions (with term greater than 12 months). 
+1. Subscriptions with multiple (same) rate plans. This is a temporary measure until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/11916) is done.
+1. Subscriptions with GitLab Duo Pro and GitLab Duo Enterprise products. This is a temporary measure until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/11869) is done.
+1. Accounts with the following settings in Zuora:
    1. `Account.PO Required = Yes` (customer notifies GitLab they have a "no PO, no Pay policy", booking requirement and pre-billing).
-   2. `Account.Portal Required = Yes` (customer notifies GitLab that they require invoices to be manually uploaded to a billing portal, and includes non-PO, PO, contract, or SOW).
-   3. `Account.Support Hold = Yes` (customers are placed on support hold when accounts become >90 days past due without payment commitment).
-   4. `Account.Credit Hold = Yes` (customers are placed on credit hold when any balance is written off to bad debt)
+   1. `Account.Portal Required = Yes` (customer notifies GitLab that they require invoices to be manually uploaded to a billing portal, and includes non-PO, PO, contract, or SOW).
+   1. `Account.Support Hold = Yes` (customers are placed on support hold when accounts become >90 days past due without payment commitment).
+   1. `Account.Credit Hold = Yes` (customers are placed on credit hold when any balance is written off to bad debt)
 
 There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnAutoRenew__c` to `No` for the use cases listed above.
 
