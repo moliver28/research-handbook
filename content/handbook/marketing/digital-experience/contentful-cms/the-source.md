@@ -14,6 +14,10 @@ For in-depth information about Contentful CMS, please visit our [Resource Deep D
 For our [Buyer Experience Site](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/), creating or updating a **The Source page** requires the use of the [📄 The Source](https://app.contentful.com/spaces/xz1dnu24egyd/environments/master/content_types/article/fields) Content Type.
 Each entry in this Content Type functions as a distinct page on the site, complete with its Metadata configuration, Routing configuration, Hero configuration and Content Body with markdown.
 
+Here is [direct link](https://app.contentful.com/spaces/xz1dnu24egyd/environments/master/views/entries?searchText=&contentTypeId=&contentTypeIds=article&displayedFieldIds=contentType&displayedFieldIds=updatedAt&displayedFieldIds=author&order.direction=descending&order.fieldId=updatedAt&filters=) to view all of our source article entries in Contentful.
+
+Click on the article you'd like to edit from that list. You can use also click the "add entry" blue bottom on the top left to create a new article. Select "The Source" content type.
+
 #### Routing configuration
 
 To configure the page's routing, it is essential to declare the `slug` field. The page routes can extend up to three levels being the first level `the-source`, for example, `the-source/level-2/level-3`.
