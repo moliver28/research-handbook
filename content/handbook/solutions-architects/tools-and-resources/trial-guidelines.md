@@ -85,7 +85,7 @@ The Ultimate trial is active for a duration of 30 days and can be requested for 
 
 ### I am new to GitLab
 
-- Head to the[ Trial Landing page](https://about.gitlab.com/free-trial/?hosted=sass) on the website
+- Head to the [Trial Landing page](https://about.gitlab.com/free-trial/?hosted=sass) on the website
 - Choose between [SaaS](https://about.gitlab.com/free-trial/?hosted=sass) or [Self Managed](https://about.gitlab.com/free-trial/?hosted=self-managed) 
 - Follow the instructions to set up your account
 - Choosing Self Managed will require some additional configuration as you will first need to install the instance 
@@ -133,7 +133,6 @@ GitLab provides a [set of security demos](https://gitlab.com/gitlab-org/security
 |--|------|------|
 | Trial in a dedicated account | Focus on the use cases and functionalities to test in an isolated environment, limited to trial participants | Need to import and configure projects. On Self Managed, requires to configure a new instance and runners. |
 | Trial in your existing account | Nothing to configure, test the features within your existing workflow. Value can be seen by all users. | Could create confusion as users not involved in the trial may come across new functionalities associated with an enterprise edition of GitLab if these users are unaware that a trial is taking place. |
-
 
 ### Notes Regarding Trial Licenses
 
@@ -184,7 +183,7 @@ No matter if you are using GitLab for the first time or willing to improve your 
 - [The resource page](https://about.gitlab.com/resources/) for reports, ebooks, webcast, etc
 - [GitLab Blog](https://about.gitlab.com/blog/): search for topics of interest including tips, use cases, etc
 - [Join the community](https://about.gitlab.com/community/) and become a member through various programs
-- Ask your questions and find answers from existing GitLab users on the [GitLab Forum ](https://forum.gitlab.com/)
+- Ask your questions and find answers from existing GitLab users on the [GitLab Forum](https://forum.gitlab.com/)
 - If you are already a Premium customer, you can get help from the support team 
 
 ## What happens once the trial ends? 
