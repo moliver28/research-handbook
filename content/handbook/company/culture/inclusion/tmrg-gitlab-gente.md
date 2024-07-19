@@ -25,8 +25,8 @@ To promote advancement, cultural awareness, talent recruitment, retention, and p
 
 - [Pilar Mejia](https://gitlab.com/pmejia) - Lead
 - [Romer Gonzalez](https://gitlab.com/romerg) — Co Lead
-- [Samara Souza](https://gitlab.com/samarasouza) — Co Lead 
-- [Giuliana Lucchesi](https://gitlab.com/glucchesi) — Co Lead 
+- [Samara Souza](https://gitlab.com/samarasouza) — Co Lead
+- [Giuliana Lucchesi](https://gitlab.com/glucchesi) — Co Lead
 
 ## Founding alumni
 
@@ -37,13 +37,21 @@ To promote advancement, cultural awareness, talent recruitment, retention, and p
 
 - [Josh Lemos](https://gitlab.com/joshlemos)
 
-## Upcoming Events
+## Recurring Events
 
 - Gente TMRG Monthly Call: Monthly on the first Thursday 6:00pm – 6:25pm UTC [Notes](https://docs.google.com/document/d/12dYSDjiVvFt-c6UO9y350pFbrrK5Iq2o/edit)
-- Gente [Reverse AMA](/handbook/communication/ask-me-anything/#reverse-ask-me-anything) with CEO (Every 3-6 months): [Interest Form](https://docs.google.com/forms/d/19wwWuehn0PDtOwGq3Eh83hUbXWEEsawlhCZ4D-ecP_w/viewform?edit_requested=true)
-- `#gente-cafecito` [slack channel donut coffee chats](https://gitlab.slack.com/archives/C04NH46BXQU) (every two weeks)
+
+To get all the Gente events on your calendar, join our Google Group [here](https://groups.google.com/a/gitlab.com/g/latinxtmrg)!
 
 ## Past Events
+
+### Hispanic Heritage Month 2023
+
+{{< youtube "ha8wUCl-XYA" >}}
+
+### Security with GitLab's CISO Josh Lemos
+
+{{< youtube "8dNeE-tboDg" >}}
 
 - Take professional photos even with your cellphone: [Issue](https://gitlab.com/gitlab-com/latinx-tmrg/-/issues/78) [Doc](https://docs.google.com/document/d/14_n0B8Wwk7IMfSO_JLNFEC_ytsEWRWikA0G9Pa8YTyg/edit) [Slides](https://drive.google.com/file/d/1I3bkWFpEAQPPEZMMulolnVypORIJFatl/view)
 - Latinas in Tech Virtual Summit: [Issue](https://gitlab.com/gitlab-com/latinx-tmrg/-/issues/79)
