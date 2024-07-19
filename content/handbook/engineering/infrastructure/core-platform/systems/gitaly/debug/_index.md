@@ -10,8 +10,8 @@ This document is intended for **Gitaly engineers**, to become familiar with GitL
 
 Skim / read the following, focusing on an overview then on Gitaly:
 
-- [Production Architecture](../../../../infrastructure/production/architecture/)
-- [Monitoring](../../../../../engineering/monitoring/#monitoring)
+- [Production Architecture](../../../../production/architecture/)
+- [Monitoring](../../../../../monitoring/#monitoring)
 
 Other useful links:
 
@@ -146,6 +146,16 @@ Kibana (Elastic) Dashboards
 
 - [gstg](https://nonprod-log.gitlab.net/app/r/s/J0jWx)
 - [gprd](https://log.gprd.gitlab.net/app/r/s/XuXAI)
+
+## CPU and memory profiling
+
+[pprof](https://pkg.go.dev/runtime/pprof#hdr-Profiling_a_Go_program) metrics are exported to the [GCP Cloud Profiler](https://cloud.google.com/profiler/docs/about-profiler).
+
+- [gstg](https://console.cloud.google.com/profiler/gitaly/cpu?project=gitlab-gitaly-gstg-164c)
+- [gprd](https://console.cloud.google.com/profiler/gitaly/cpu?project=gitlab-gitaly-gprd-87a9)
+
+Note that Gitaly nodes are distributed across a number of GCP projects. You can use the project dropdown on the top nav bar to
+switch between the various `gitlab-gitaly-gstg-*` and `gitlab-gitaly-gprd-*` projects.
 
 ## Capacity management
 
