@@ -29,19 +29,23 @@ Base type for issue, requirement, test case, incident and task (this list is pla
 
 ### Work Item types
 
-A set of predefined types for different categories of work items. Currently, the available types are:
+A set of predefined types for different categories of work items. These are defined within the `work_item_types` table in the database.
 
-- [Incident](https://docs.gitlab.com/ee/operations/incident_management/incidents.html)
-- [Test case](https://docs.gitlab.com/ee/ci/test_cases/index.html)
-- [Requirement](https://docs.gitlab.com/ee/user/project/requirements/index.html)
-- [Task](https://docs.gitlab.com/ee/user/tasks.html)
-- [OKRs](https://docs.gitlab.com/ee/user/okrs.html)
+#### Work item types in the GitLab product
 
-Work is underway to convert existing objects to Work Item Types or add new ones:
+While the default work item types from above exist in the production database, within the UI of the GitLab product we are in the process of migrating each type from using legacy APIs to work items APIs. In cases where legacy items exist, we also need to migrate data to the issues table, where all work items are stored.
 
-- [Issue](https://gitlab.com/groups/gitlab-org/-/epics/9584)
-- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/9290)
-- [Ticket](https://gitlab.com/groups/gitlab-org/-/epics/10419)
+| Work Item Type                                                   | Status in UI   | Availability in UI                    | Data migration to the issues table needed? | Documentation                                                                        |
+| ---------------------------------------------------------------- | -------------- | ------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------ |
+| [Task](https://gitlab.com/groups/gitlab-org/-/epics/7103)        | Implemented    | Fully available                       | No                                         | [Task](https://docs.gitlab.com/ee/user/tasks.html)                                   |
+| [Objective](https://gitlab.com/groups/gitlab-org/-/epics/9003)   | Implemented    | Fully available behind a feature flag | No                                         | [Objective](https://docs.gitlab.com/ee/user/okrs.html)                               |
+| [Key Result](https://gitlab.com/groups/gitlab-org/-/epics/9003)  | Implemented    | Fully available behind a feature flag | No                                         | [Key Result](https://docs.gitlab.com/ee/user/okrs.html)                              |
+| [Incident](https://gitlab.com/groups/gitlab-org/-/epics/9585)    | Planned        | -                                     | No                                         | [Incident](https://docs.gitlab.com/ee/operations/incident_management/incidents.html) |
+| [Test case](https://gitlab.com/groups/gitlab-org/-/epics/9923)   | Planned        | -                                     | No                                         | [Test case](https://docs.gitlab.com/ee/ci/test_cases/index.html)                     |
+| [Requirement](https://gitlab.com/groups/gitlab-org/-/epics/9923) | Planned        | -                                     | No                                         | [Requirement](https://docs.gitlab.com/ee/user/project/requirements/index.html)       |
+| [Issue](https://gitlab.com/groups/gitlab-org/-/epics/10842)      | In Development | -                                     | No                                         | [Issue](https://gitlab.com/groups/gitlab-org/-/epics/9584)                           |
+| [Epic](https://gitlab.com/groups/gitlab-org/-/epics/9290)        | In Development | -                                     | Yes, in progress                           | [Epic](https://gitlab.com/groups/gitlab-org/-/epics/9290)                            |
+| [Ticket](https://gitlab.com/gitlab-org/gitlab/-/issues/412055)   | Planned        | -                                     | No                                         | [Ticket](https://gitlab.com/groups/gitlab-org/-/epics/10419)                         |
 
 #### Work Item properties
 
