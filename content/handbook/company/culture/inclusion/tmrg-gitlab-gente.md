@@ -53,6 +53,10 @@ To get all the Gente events on your calendar, join our Google Group [here](https
 
 {{< youtube "8dNeE-tboDg" >}}
 
+### GitLab Gente TMRG - Arepas tutorial
+
+{{< youtube "pSEAZaDKvMs" >}}
+
 - Take professional photos even with your cellphone: [Issue](https://gitlab.com/gitlab-com/latinx-tmrg/-/issues/78) [Doc](https://docs.google.com/document/d/14_n0B8Wwk7IMfSO_JLNFEC_ytsEWRWikA0G9Pa8YTyg/edit) [Slides](https://drive.google.com/file/d/1I3bkWFpEAQPPEZMMulolnVypORIJFatl/view)
 - Latinas in Tech Virtual Summit: [Issue](https://gitlab.com/gitlab-com/latinx-tmrg/-/issues/79)
 - Hispanic Heritage Month 2023: [Issue](https://gitlab.com/gitlab-com/latinx-tmrg/-/issues/86)
@@ -85,3 +89,10 @@ Learn more about the Gente community
 - [LTX Fest On-Demand](https://my.ltxconnect.org/ltx-fest-on-demand/) – The largest gathering of Latinx folks in tech, advocacy, and entrepreneurship.
 - Contribute to GitLab by [translating GitLab](https://translate.gitlab.com/) the product to promote inclusivity.
 - [LinkedIn Learning - Leadership in Tech](https://www.linkedin.com/learning/leadership-in-tech/) – Erica Lockheimer successfully rose through the ranks at LinkedIn to become a VP of engineering. In this course, she interviews other leaders—all of whom inspired her own professional journey—about what it takes to carve out a lasting career in the lively, challenging world of tech.
+
+## Learning & Development Resources
+
+1. [Internship for Learning](https://handbook.gitlab.com/handbook/people-group/learning-and-development/internship-for-learning/) - If your manager has coverage, you can spend a percentage of your time working (through an ‘internship’) with another team.
+2. [Growth and Development](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) - Access external resources to develop their career. GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year. Could include Academic Study, 4th Trimester Coaching, Professional Coaching, English Language Courses.
+3. [Mentoring at GitLab](https://handbook.gitlab.com/handbook/people-group/learning-and-development/mentor/) - Mentorship is an opportunity to learn from personal experience, background, and perspective. Mentorship builds trust, provides a safe space to make mistakes, and encourages growth for both the mentor and mentee. Reach out in the `#mentoring` Slack channel with questions or feedback.
+4. [GitLab Company-Wide Mentorship Program](https://handbook.gitlab.com/handbook/people-group/learning-and-development/mentor/company-program/) - Applications are currently closed. Fill out [this](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RSeQSA8gj3_2mcdzZJkKLCsU-be-Ygdw5KfCSVLw/viewform) Google form to be notified of mentorship programs happening in FY24!
