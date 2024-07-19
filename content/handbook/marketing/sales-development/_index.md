@@ -3,7 +3,6 @@ title: Sales Development
 description: "The purpose of this page is to act as the homapage of the sales development org's handbook presence."
 
 ---
-
 Welcome to the Sales Development Organization at GitLab! We are a team designed to drive [results for customers](/handbook/values/#results) through both inbound and outbound strategies. Our structure is designed to maximize efficiency, responsiveness, and creativity in our outreach efforts.
 
 **1. Sales Development Representatives (SDRs) - Inbound Focused**
