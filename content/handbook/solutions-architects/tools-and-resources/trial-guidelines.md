@@ -186,3 +186,11 @@ No matter if you are using GitLab for the first time or willing to improve your 
 - [Join the community](https://about.gitlab.com/community/) and become a member through various programs
 - Ask your questions and find answers from existing GitLab users on the [GitLab Forum ](https://forum.gitlab.com/)
 - If you are already a Premium customer, you can get help from the support team 
+
+## What happens once the trial ends? 
+
+If you are trialing on your Premium SaaS Namespace or Premium Self Managed instance, once the free Ultimate trial expires, the account will downgrade back to Premium.
+
+If you are trialing in a new namespace or instance, the account will downgrade back to the Free tier. No data will be lost, but [paid features will not be accessible anymore](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#subscription-expiry).
+
+If you are satisfied and wish to purchase or upgrade, you can do so [on GitLab.com inside your account](https://docs.gitlab.com/ee/subscriptions/gitlab_com/). For Self Managed, you can [purchase the subscription and receive an activation code.](https://docs.gitlab.com/ee/subscriptions/self_managed/#obtain-a-self-managed-subscription) 
