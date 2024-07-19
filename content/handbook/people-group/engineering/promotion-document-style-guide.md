@@ -29,7 +29,7 @@ The emphasis on quantification over editorialization has a number of benefits fo
    - **Do**:
      - Clare identified and mitigated the risk to hosted environments by engaging with the Scalability and development teams to establish a back-out plan.
    - **Why**: Clear and concise writing makes the document easier to read and understand, reducing the cognitive load on the reader and ensuring that key points are not missed.
-1.  Minimize the use of adjectives and adverbs
+1. Minimize the use of adjectives and adverbs
    - **Don't**:
      - “significantly improved the performance of the most important Plan endpoints”
    - **Do**:
