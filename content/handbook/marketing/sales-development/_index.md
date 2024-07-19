@@ -43,10 +43,10 @@ If you can't find what you're looking for please reach out to a member of the Sa
 
 | Page | What you'll find|
 | --------- | ---------- |
-| [How-Tos Page](/handbook.gitlab.com/handbook/marketing/sales-development/#our-how-tos-for-the-inbound-and-outbound-processes) | Quick information on finding your leads and accounts, actioning your inbound/outbound pipeline, creating Sales Accepted Opportunities (SAOs), and any other main process that you'll work with on your day-to-day. |
-| [RoE, FAQ and KPIs Page](/handbook.gitlab.com/handbook/marketing/sales-development/#frequently-asked-questions-faq-and-rules-of-engagement-roe) | Answers to the most common questions around career progression, rules of engagement, general expectations from the role, opportunity credit, ramping periods, lead routing and compensation. |
+| [How-Tos Page](/handbook/marketing/sales-development/#our-how-tos-for-the-inbound-and-outbound-processes) | Quick information on finding your leads and accounts, actioning your inbound/outbound pipeline, creating Sales Accepted Opportunities (SAOs), and any other main process that you'll work with on your day-to-day. |
+| [RoE, FAQ and KPIs Page](/handbook/marketing/sales-development/#frequently-asked-questions-faq-and-rules-of-engagement-roe) | Answers to the most common questions around career progression, rules of engagement, general expectations from the role, opportunity credit, ramping periods, lead routing and compensation. |
 | [Tanuki Tech Page](/handbook/marketing/sales-development/tanuki-tech/) | Anything related to your ongoing enablement as part of the Sales Dev team. |
-| [The Sales Dev Knowledge Vault](/handbook.gitlab.com/handbook/marketing/sales-development/#our-complementary-resources) | Information and knowledge that can help to improve your skills. Includes managerial-level processes, manager or team member onboarding, and tool walkthroughs. |
+| [The Sales Dev Knowledge Vault](/handbook/marketing/sales-development/#our-complementary-resources) | Information and knowledge that can help to improve your skills. Includes managerial-level processes, manager or team member onboarding, and tool walkthroughs. |
 
 ## How we typically help the teams we work with
 
