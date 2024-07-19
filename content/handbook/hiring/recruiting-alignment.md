@@ -20,7 +20,7 @@ description: "This page is an overview of the search team alignment and the tale
 | G&A/EBA/Marketing (Global Sales Development, FP&A, EBA) | Caroline Rebello |  Michelle Jubrey |
 | G&A/Marketing (Developer Relations, Growth, IT) | Hannah Stewart  | Teranay Dixon |
 | G&A/Marketing (Corporate Communications, Data, Legal, People, Product Marketing) | Jenna VanZutphen  | Sruthy Menon |
-| Engineering, Development | Matt Angell, Chux Ugorji | Alice Crosbie |
+| Engineering, Development | Matt Angell | Alice Crosbie |
 | Engineering, Development | Heather Tarver, Seema Anand, Sara Currie | Teranay Dixon |
 | Engineering, Infrastucture   | Michelle A. Kemp, Aziz Quadri | Alice Crosbie  |
 | Customer Support | Joanna Michniewicz  |  Alice Crosbie |
