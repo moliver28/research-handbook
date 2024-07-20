@@ -25,9 +25,9 @@ Please review the coverage owner closest available per their timezone when decid
 |---------------------------------------------|-------------------------------|---------------------------|----------------------|-------------------|
 | UTC (EMEA Working)                          | 11pm - 3am PT / 2am - 6am ET  | Mihai Conteanu            | Gillian Murphy       | 9am - 1pm EET     |
 | UTC (EMEA Working)                          | 3am - 7am PT / 6am - 10am ET  | Gillian Murphy            | Mihai Conteanu       | 11am - 3pm UK     |
-| UTC (AMER-Morning)                          | 7am - 11am PT / 10am - 2pm ET | Bryce Weatherford           | Jameson Burton    | 10am - 2pm ET     |
+| UTC (AMER-Morning)                          | 7am - 11am PT / 10am - 2pm ET | Bryce Weatherford         | Jameson Burton       | 10am - 2pm ET     |
 | UTC (AMER-Afternoon)                        | 11am - 3pm PT / 2pm - 6pm ET  | Bryce Weatherford         | Jenny Tiemann        | 11am - 3pm PT     |
-| UTC (AMER-Evening)                          | 3pm - 6pm PT / 6pm - 9pm ET   | Bryce Weatherford          | Amy Waller          | 3pm - 6pm PT      |
+| UTC (AMER-Evening)                          | 3pm - 6pm PT / 6pm - 9pm ET   | Bryce Weatherford         | Amy Waller           | 3pm - 6pm PT      |
 
 **Typical Team Timezones:**
 

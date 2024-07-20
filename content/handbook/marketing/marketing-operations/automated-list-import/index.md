@@ -184,6 +184,8 @@ The following data cleanup is required for any list prior to sending it to the M
 
 - Leave `Opt-In` empty if no other option is available
 
+- `Preferred Language` must be listed as a language, not a location. See the table below for common languages.
+
 </details>
 
 | Field Name             | Required                                  | Accepted Values                                                                                                                           | Notes                                                                                                                                                                                                                                                                   |
@@ -198,6 +200,7 @@ The following data cleanup is required for any list prior to sending it to the M
 | Campaign Member Status | Yes                                       | See values [here](#reference-values-for-picklists)                                                                                        | This will determine the status in the Marketo Program                                                                                                                                                                                                                   |
 | Label as Opt-In?       | No                                        | Yes/No or True/False                                                                                                                      | Leave blank if no option is provided                                                                                                                                                                                                                                    |
 | CRM Partner ID         | No                                        | You can find a list of these IDs [here](/handbook/marketing/channel-marketing/partner-campaigns/#partner-crm-ids) | If this import is a part of a joint event with partners, you must include the CRM Partner ID as a column in your list upload. You can find a list of these IDs [here](/handbook/marketing/channel-marketing/partner-campaigns/#partner-crm-ids) |
+| Preferred Language | No | Must be written exactly: French, German, Japanese, Italian, Korean, Spanish, Portuguese. Other languages available [here](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/8945). | Leave blank if value is English or unknown |
 
 ## Reference values for picklists
 

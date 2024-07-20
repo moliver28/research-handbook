@@ -309,7 +309,11 @@ In order to get `Q&A`, `poll` and `survey` data into Marketo from On24, a list u
     - For every poll or survey answer uploaded, be sure to include the question asked.
 1. To start, these will be treated the same as manual list uploads to be completed by MktgOps. Please follow the regular process of sharing the spreadsheet with MktgOps to have them upload via a list upload issue. Soon this will be moved to more of a drag-and-drop process, similar to the [self-service list import process](/handbook/marketing/marketing-operations/automated-list-import/). This page will be updated when that is ready.
 
-#### Field Matching Instructions for Marketing Ops
+#### Q&A Syncing into Salesforce
+
+After an [update from Q2 2024](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/8776#note_1944794265), Workato now automatically pulls Q&A data from On24 into Marketo, giving easier access for those interested in viewing conversations between GitLab staff and attendees from On24 events. 
+
+#### Field Matching Instructions for Marketing Ops (Outdated Upload Instructions)
 
 The smart campaign being used to compile the notes is found here: [Compile On24 fields into Last Event Notes](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC33343C3ZN19). This flow can only be triggered once per hour. The field matching for the upload spreadsheet is as follows:
 
@@ -331,6 +335,22 @@ The On24 Engagement Score is an aggregate of all of the activities that an atten
 ### ON24 FAQ
 
 The campaigns team has started a FAQ document [here](https://docs.google.com/document/d/1UI5EzypN1j6_Gx5xcM8mR2gKFcM9QFxs-OZwkpK0QDU/edit#). *Once it is completed, the text will be added to this page.
+
+### Fields That Sync Between On24 and Marketo
+
+Fields we have set up to directly sync between On24 and Marketo are as follows: 
+
+- First Name
+- Last Name
+- Company
+- Job Title
+- Address
+- City 
+- State
+- Postal Code
+- Country
+- Work Phone 
+- more tbd 
 
 ### Data Removal Requests
 

@@ -111,8 +111,6 @@ The MktgOps team works from issues and issue boards. If you are needing our assi
 
  If you have a bug, error or discrepancy you'd like the team to help and investigate, please use the [bug-request template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=bug_request).
 
-With [Agile Delivery](https://about.gitlab.com/solutions/agile-delivery/) being one of the solutions that GitLab (as a product) addresses, the Marketing Operations team aims to follow many of the agile methodologies.
-
 Please do not reopen issues that have been closed in a previous milestone. If you find that you have additional questions about a closed issue, comment in the issue and ping the marketing ops DRI who worked the issue. The DRI within our team will determine whether an issue needs to be reopened and pulled into a current milestone.
 
 ### OKRs
@@ -120,10 +118,6 @@ Please do not reopen issues that have been closed in a previous milestone. If yo
 To track progress on and provide visibility to team OKRs each quarter, Marketing Operations uses the OKR feature in GitLab to organize our team-wide work. Current Marketing Operations OKRs can be found [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=MktgOps&first_page_size=100).
 
 Check out our [quarterly highlights trackers](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/?sort=created_date&state=all&label_name%5B%5D=mktgops-highlights&first_page_size=20) to learn more about the key results we've accomplished.
-
-### Epics
-
-If an issue includes a weight of 21 or more, that issue may be promoted to an epic in order to properly scope the work across multiple issues. Epics will also be used by our team if it relates to an OKR and requires multiple issues in scope to complete the work. Tool implementations also often are tracked within epics.
 
 ### Labeling
 
@@ -140,7 +134,7 @@ Categories
 
 - `MktgOps - FYI`: Issue is not directly related to operations, no action items for MktgOps but need to be aware of the issue
 - `MktgOps - List Import`: Used for list imports of any kind - event or general/ad hoc (do not also use To Be Triaged scoped label)
-- `Marketo`, `Bizible`, `Demandbase`, `Qualified`, `LinkedIn Sales Navigator`, `Outreach-io`, `PathFactory`,  `ZoomInfo`, `On24`: used to highlight one of our tech stack tools
+- `Marketo`, `Bizible`, `6sensee`, `Qualified`, `LinkedIn Sales Navigator`, `Outreach-io`, `PathFactory`, `ZoomInfo`, `On24`, `Groove`: used to highlight one of our tech stack tools
 - `MktgOps - bug`: A bug issue to be addressed or identified by MktgOps
 - `MktgOps - changelog`: Used to track issues or epics that would need to be logged in the marketing changelog to track major changes across marketing
 - `SMOps/Systems - Changelog`: Used to track changelog issues that will impact Sales Operations or Systems
@@ -161,7 +155,7 @@ Proccess Steps with Sales Systems
 - `MktgOpsPrio::02: In Queue - Mops`: Issues that are ready for prioritization with Sales Systems
 - `MktgOpsPrio::03: In Queue - Systems`: Discussed in prioritization and added to a temporary milestone
 - `MtkgOpsPrio::04: Actioned`: Issue is in current or future milestone, not yet ready for UAT
-- `MktgOpsPrio:: 05: Business Owner UAT`: Issue is in UAT by the business owner, Systems cannot move forward without signoff
+- `MktgOpsPrio::05: Business Owner UAT`: Issue is in UAT by the business owner, Systems cannot move forward without signoff
 - `MtkgOpsPrio::06: Pending Release`: Issue fully tested and approved in staging. Awaiting deploy by systems team
 - `MtkgOpsPrio::07: Complete`: Issue has been deployed into production
 

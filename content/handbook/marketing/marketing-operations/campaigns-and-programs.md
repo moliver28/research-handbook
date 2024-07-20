@@ -239,7 +239,15 @@ This campaign type can be part of a larger Field/Conference/Owned event but we t
 
 This is webcast hosted on an external partner/vendor platform. The status of `Attended On-demand` accounts for GitLab hosted On-Demand and non-GitLab hosted On-demand webcasts. [Read more](/handbook/marketing/virtual-events/external-virtual-events/#overview).
 
-**Bizible:** This is tracked as an _online_ channel if registrants come through a marketo form, otherwise it will be an _offline_ channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
+**Bizible:** This is tracked as an _offline_ channel for both types of touchpoints (TPs) mentioned below.
+
+For Sponsored Webcasts we're creating TPs in two ways:
+
+1. **Registration TPs**, which mimic the TPs created for Owned Events through the online registration method (bizible script on our LPs). However, because for Sponsored Webcasts, we don't own the LP registration, this method is unavailable. Instead, we're replicating these TPs through the Marketo Program membership method.
+
+The Maketo Program membership rule creates a "Registration TP" for all program members housed in Marketo programs that sit in a Marketo folder with the folder's name containing "Sponsored Webcasts". As long as this naming convention is followed, these TPs will be created automatically. The Touchpoint Date for these touchpoints is the `Program Membership Date`.
+
+1. **Responded Status TPs**, which are created based on the [AMM Channel/Sub-Channel Rules for Offline Touchpoints](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit?gid=92970564#gid=92970564)(Rule on row 19) for responded status campaign members only. The TP Date for these TPs is the `Member First Associated Date` in the associated SFDC Campaign. Please see below the campaign statuses for the Sponsored Webcasts campaign type:
 
 | Member Status | Definition | Success |
 | ------------- | ---------- | ------- |

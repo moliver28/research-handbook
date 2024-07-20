@@ -176,12 +176,13 @@ Note on `Agency`: Sometimes 3rd party agencies are used to drive registrations t
 
 #### utm_partnerid
 
-This parameter assigns the lead generated from the activity to the partner that sourced the lead, either from an event or evergreen partner campaign.
+The UTM parameter URL plays a huge part on partner lead routing and reporting. We utilize `utm_partnerid` in the UTM parameter URL to capture the Account ID (18) of the Partner Account, which populates into the `CRM Partner ID`. This process is embedded as a hidden field in all our partner-related Marketo forms. Each page must have the `utm_partnerid` in the URL, otherwise we cannot pass to the partner.
 
-**Find the CRM Partner ID**
-This field is populated with the Salesforce Account ID (18) of Partner Account used for both Channel and Alliance.
-
-For a running list of Channel Partners and their CRM IDs, which is critical to the channel partner lead flow, [click here](https://gitlab.my.salesforce.com/?ec=302&startURL=%2F00O4M000004aSq6), while the CRM Partner ID for Alliance Partners can be found [here](https://gitlab.my.salesforce.com/?ec=302&startURL=%2F00O8X000008mxIb).
+* utm_medium = `partner` (never changes)
+* utm_soure = `partner` (never changes)
+* GTM = `x` (never changes)
+* Partner Name - utm_partnerid is a dropdown show all Channel Partners, and two Alliance Partners (AWS, and GCP). Select the partner you are working with.
+* Fill out the rest of the UTM parameters
 
 ### UTM structure for nurture emails
 

@@ -79,6 +79,12 @@ The following steps must be taken in order for users to access both the 6sense p
 - Insights User: This role has full access to 6sense insights for segments and accounts.
 - Sales User: This role has full access to 6sense insights for segments and accounts.
 
+### 6sense User Seat
+
+We have a limited user seat in 6sense, in order to manage our user seats and provide more seats for new users, we are eliminating inactive users. 
+
+During our user audit review, if the user hasn't logged into either the 6sense platform or the dashboards in Sales in the last 6 monmth, their seat willl be revoked.
+
 ## Training Resources
 
 ### Sales Dev Training Recordings
