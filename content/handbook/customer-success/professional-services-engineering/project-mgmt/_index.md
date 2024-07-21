@@ -23,7 +23,7 @@ Given the close collaboration between the PS Project Management and PS Operation
    * Step 2: EM/Sales defines the roles and personalities of all customer stakeholders
    * Step 3: PSops works with PMO Manager on PM assignment
    * Step 4: PM confirms information & PSops Schedules PSE
-   * Step 5: Introductions - EM/AE
+   * Step 5: [Introductions - EM/AE](https://docs.google.com/document/d/1g8ku5KxKZJwSHgXpldhS_YErELX0K8XOe1qL7jRgx9s/edit)
    * Step 6: Collaboration approach & Onboarding Gathered by PM
    * Step 7: Collaboration Space Preparation - PM
    * Step 8: Conduct Stakeholder Meeting - PM
