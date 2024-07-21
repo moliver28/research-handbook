@@ -154,8 +154,6 @@ Under the Maternity Protection Act, a breastfeeding woman may request time off d
 
 **Parental Leave**
 
-**Parental Leave**:
-
 All team members who are or become parents are entitled to take up to three years of Parental Leave.
 
 Regardless of the length of service, under German law employees may take up to three years of parental leave following the child's birth, adoption or foster care placement. The entitlement is valid until a child reaches the age of three years. A period of up to 24 months may be taken between the child's third birthday and the completion of his or her eighth year of life. The parental leave can be distributed over three time periods, without approval of the employer. Distribution over further periods is possible only with the employer's consent.
@@ -172,11 +170,79 @@ In case a woman takes parental leave subsequently to the child's birth, the peri
 - If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), paid Parental Leave at GitLab will start from the beginning of the Maternity Protection Period and run concurrently with any statutory allowances, if applicable.
 - If you wish to take Parental Leave directly after your Maternity Protection Period ends, you may do so. If eligible, GitLab will pay up to 16 weeks of your total leave (including Maternity Protection), the rest will be unpaid.
 
+**Table for birthing person**
+
+<table style="text-align: center;">
+  <thead>
+    <tr>
+      <th style="text-align: center;">Period / Point in Time</th>
+      <th style="text-align: center;">Beginning of Pregnancy</th>
+      <th style="text-align: center;">Notification to Employer</th>
+      <th style="text-align: center;">Remaining Pregnancy Time</th>
+      <th style="text-align: center;">6 Weeks Before Due Date</th>
+      <th style="text-align: center;">Day of Birth</th>
+      <th style="text-align: center;">8 Weeks After Birth</th>
+      <th style="text-align: center;">Up to 4 Months After Birth</th>
+      <th style="text-align: center;">Up to 12 Months After Birth</th>
+      <th style="text-align: center;">Max. Until Child's 3rd Birthday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">Salary (As per German Law)</td>
+      <td colspan="3" style="background-color: #e6f3ff; text-align: center;">Regular salary</td>
+      <td colspan="3" style="background-color: #ccebff; text-align: center;">Maternity pay</td>
+      <td colspan="3" style="background-color: #ffe6e6; text-align: center;">Parental Leave Pay</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">GitLab Parental Leave</td>
+      <td colspan="6" style="background-color: #e6f3ff; text-align: center;">not applicable</td>
+      <td colspan="2" style="background-color: #ccffcc; text-align: center;">16 weeks of fully paid parental leave</td>
+      <td style="background-color: #ffe6e6; text-align: center;">not applicable</td>
+    </tr>
+  </tbody>
+</table>
+
 **Parental Leave Payment**
 
 - Eligible team members may choose to receive government-funded Parental Leave Pay (Basiselterngeld, ElterngeldPlus or Partnerschaftsbonus). Please note:  Any benefits received will be reduced due to the payments received by GitLab.  If a team member chooses to apply for ElterngeldPlus they should notify leaves@domain, otherwise GitLab will provide 100% of their wages for up to 16 weeks.
   - Parents are generally entitled to a monthly parental allowance paid by the German state for the maximum of in total 14 months. The allowance is granted for the time between the child's birth and completion of the 14th month of life.
   - The total amount of parental allowance months can be split up between the parents or taken by only one parent. The allowance's amount is 67% of the income from employment before childbirth, but at least EUR 300 and a maximum of EUR 1,800. There is no entitlement to parental allowance in the case of foster children. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
+
+**Table for partner of birthing person**
+
+<table style="text-align: center;">
+  <thead>
+    <tr>
+      <th style="text-align: center;">Period / Point in Time</th>
+      <th style="text-align: center;">During Pregnancy</th>
+      <th style="text-align: center;">Day of Birth</th>
+      <th style="text-align: center;">Up to 12 Months After Birth</th>
+      <th style="text-align: center;">Max. Until Child's 3rd Birthday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">Salary (As per German Law)</td>
+      <td colspan="2" style="background-color: #e6f3ff; text-align: center;">Regular salary</td>
+      <td colspan="2" style="background-color: #ffe6e6; text-align: center;">Parental Allowance (if taking Elternzeit) or Regular Salary</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">GitLab Parental Leave</td>
+      <td colspan="2" style="background-color: #e6f3ff; text-align: center;">Regular salary</td>
+      <td style="background-color: #ccffcc; text-align: center;">16 weeks of fully paid parental leave (can be taken flexibly within 12 months after birth)</td>
+      <td style="background-color: #e6f3ff; text-align: center;">Regular salary</td>
+    </tr>
+  </tbody>
+</table>
+
+**Parental Leave and GitLab's Global Policy** 
+
+GitLab GmbH employees in Germany are entitled to both the statutory German parental and meternity leave as well as [GitLab's global 16-week paid parental leave policy](handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). Here's how these policies interact:
+- Maternity Leave: The statutory maternity leave period (minimum 14 weeks for single births) is separate from and precedes both statutory German parental leave  and GitLab's paid parential leave.
+- Parental Leave: When overlapping with statutory paternity leave, GitLab's paid parential leave will substitute for the gaps in paymemnt.
+- No statutory paternity/maternity leave: If the GItLab team member does not apply for any statutory regarding the birth of their offspring, they are till eligble for [GitLab's global 16-week paid parental leave policy](handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
+
 
 **Applying for Parental Leave in Germany**
 
@@ -196,7 +262,7 @@ During Parental leave, employees are statutorily entitled to part-time work (15 
 
 The request must include the start and scope of the reduced working hours.
 
-For expecting fathers, team members will need to apply for a state benefit (Basiselterngeld, ElterngeldPlus or Partnerschaftsbonus). If a team member is [eligible for Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement Parental Leave pay for up to 16 weeks of Parental Leave. Please notify the Absence Management team at `leaves@domain` which state benefit you are applying for and how much you will be receiving so that payroll can process the appropriate supplementary amount. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
+For expecting fathers, team members can apply for a state benefit (Basiselterngeld, ElterngeldPlus or Partnerschaftsbonus). If a team member is [eligible for Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement Parental Leave pay for up to 16 weeks of Parental Leave or pay the team member's full salary for the 16-week Parental Leave, when used prior to the child’s first birthday. Please notify the Absence Management team at `leaves@domain` which state benefit you are applying for and how much you will be receiving so that payroll can process the appropriate supplementary amount. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
 
 https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave
 
