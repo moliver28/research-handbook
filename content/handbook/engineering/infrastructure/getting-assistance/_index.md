@@ -11,7 +11,7 @@ If you are looking for help, and you know what service you need help with - find
 
 If you need help, but you aren't sure who to ask, look through the teams below to see which team is the best fit for your question.
 
-If you have read this whole page and are unsure how to proceed, please ask in the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel. You will be refirected to the appropriate team for help.
+If you have read this whole page and are unsure how to proceed, please ask in the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel. You will be redirected to the appropriate team for help.
 
 We aim to respond to your request within 24 hours. If you raise your request on a Friday, it may only be responded to on Monday.
 
