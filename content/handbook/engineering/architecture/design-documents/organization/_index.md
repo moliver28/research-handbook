@@ -105,7 +105,7 @@ The Organization functionality available in each phase is described below.
 
 ### Organization MVC
 
-#### Organizations on Cells 1.0 (FY24Q2-FY25Q2)
+#### Organizations on Cells 1.0 (FY24Q2-FY25Q4)
 
 The Organization MVC for Cells 1.0 will contain the following functionality:
 
@@ -154,19 +154,19 @@ The Organization MVC for Cells 1.0 will contain the following functionality:
 - To minimize the number of cluster-wide resources, consider refactoring [Standalone resources](https://docs.gitlab.com/ee/api/api_resources.html#standalone-resources) to scope them to an Organization, Group, or Project.
 - Consider refactoring global endpoints (e.g. `/jwt/auth`) to be scoped to an Organization, Group, or Project, unless they are supporting cluster-wide resources.
 
-#### Organizations on Cells 1.5 (FY25Q3-FY25Q3)
+#### Organizations on Cells 1.5 (FY26Q1-FY26Q2)
 
 Organizations in the context of Cells 1.5 will contain the following functionality:
 
 - Organization Users can be part of multiple Organizations using one account. Users are able to navigate between their Organizations using an Organization switcher. Non-Enterprise Users can be removed from or leave an Organization.
 - Organizations are fully isolated. We aim to complete [phase 2 of Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11838), with the goal to implement isolation constraints.
 
-#### Organizations on Cells 2.0 (FY25Q4-FY26Q1)
+#### Organizations on Cells 2.0 (FY26Q3-FY26Q4)
 
 Organizations in the context of Cells 2.0 will contain the following functionality:
 
 - Public visibility. Organizations can now also be `public`, containing both private and public Groups and Projects.
-- [Users can transfer existing top-level Groups into Organizations](https://gitlab.com/groups/gitlab-org/-/epics/11711).
+- [Users can transfer existing top-level Groups between Organizations](https://gitlab.com/groups/gitlab-org/-/epics/11711).
 
 ### Organization Access
 
@@ -185,7 +185,7 @@ Organizations will have an Owner role. Compared to Users, they can perform the f
 | View Organization front page | ✓ | ✓ |
 | View Groups overview | ✓ | ✓ (1) |
 | View Projects overview | ✓ | ✓ (1) |
-| View Users overview | ✓ | ✓ (2) |
+| View Users overview | ✓ |  |
 | View Organization activity page | ✓ | ✓ (1) |
 | Transfer top-level Group into Organization if Owner of both | ✓ |  |
 
