@@ -453,9 +453,6 @@ Circumstances may arise in which a Security deficiency exists that is unavoidabl
 1. **Annual recertification** is required in the event that the risk is unremediated. This will include a new assessment of the vendor or system along with associated approvals.
 1. **Remediation Plan** a 12-month plan must be documented within the issue to define steps to be taken in addressing the risk. Risks can be addressed by remediating or mitigating the deficiency, or by drafting a timeline for off-boarding and replacing the system. Risks being accepted should follow a remediation timeline of 12 months or shorter. The Security Risk team is available to aid in the development of this plan.
 
-Security Notices for externally-hosted systems are drafted and escalated in alignment with the system's [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/). This is to allow for appropriate stakeholder visibility and to minimize business disruption resulting from requisition denial.
-
-
 Deficiencies require different stakeholder input based on the level of risk associated with them. Note that additional levels of approval may be required at the discretion of the Security team. For example, if a "Moderate Risk" system has financial reporting implications, **e-group approval may be required**. IT approval may also be required to promote transparency across the organization.
 
 - **Moderate Risks** are defined as risks that could result in the loss or improper disclosure of (Orange) GitLab data from a limited professional services engagement or individual use software. These risks are reported to the Business Owner for approval. Moderate risk acceptances also require the approval of a VP or greater.
