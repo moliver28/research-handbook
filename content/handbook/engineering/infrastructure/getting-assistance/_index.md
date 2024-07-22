@@ -98,7 +98,7 @@ We can help with:
 
 Contact us in: [#f_gitlab_dedicated](https://gitlab.enterprise.slack.com/archives/C01S0QNSYJ2)
 
-Raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team) using the `Request for Help` template which will add the ~"Dedicated::Request for Help" label.
+Raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team) using the `Request for Help` template which will add the ~"Dedicated::Request for Help" label. For Switchboard requests use the `Request for Switchboard Help` template which will divert your request to the Switchboard team. 
 
 We can help with:
 
