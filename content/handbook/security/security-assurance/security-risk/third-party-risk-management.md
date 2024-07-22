@@ -451,20 +451,16 @@ Circumstances may arise in which a Security deficiency exists that is unavoidabl
 1. **Justification** for moving forward with the vendor in light of the noted deficiencies.
 1. **Approval** of the risk. Note that this may require multiple levels of approval based on the level of risk identified. See below.
 1. **Annual recertification** is required in the event that the risk is unremediated. This will include a new assessment of the vendor or system along with associated approvals.
-1. **Remediation Plan** a 12-month plan must be documented within the issue to define steps to be taken in addressing the risk. Risks can be addressed by remediating or mitigating the deficiency, or by drafting a timeline for off-boarding and replacing the system. Risks being accepted should follow a 12-month remediation timeline. The Security Risk team is available to aid in the development of this plan.
+1. **Remediation Plan** a 12-month plan must be documented within the issue to define steps to be taken in addressing the risk. Risks can be addressed by remediating or mitigating the deficiency, or by drafting a timeline for off-boarding and replacing the system. Risks being accepted should follow a remediation timeline of 12 months or shorter. The Security Risk team is available to aid in the development of this plan.
 
 Security Notices for externally-hosted systems are drafted and escalated in alignment with the system's [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/). This is to allow for appropriate stakeholder visibility and to minimize business disruption resulting from requisition denial.
 
-1. **Tier 4 Systems** - Immaterial in supporting the business. Not eligible for a Security Notice, request is denied.
-1. **Tier 3 Systems** - Used for standard business processes. Business Owner and VP approval required.
-1. **Tier 2 and Tier 1 Systems** - Used for major business functions or capabilities, including the delivery of GitLab SaaS.  Business Owner, VP, and E-Group approval required.
 
-Deficiencies related to Professional Services vendors are reported in alignment with the classification of data shared. IT and/or People Ops should be included as an approver based on the deficiencies identified. Endpoint security deficiencies will be reported to IT, background check deficiencies are reported to People Ops.
+Deficiencies require different stakeholder input based on the level of risk associated with them. Note that additional levels of approval may be required at the discretion of the Security team. For example, if a "Moderate Risk" system has financial reporting implications, **e-group approval may be required**. IT approval may also be required to promote transparency across the organization.
 
-1. **Orange Data:** VP, IT / People Ops
-1. **Red Data:** E-Group, IT / People Ops
-
-In some circumstances, the business may require advance approval of a requisition prior to completion of a security review. In these scenarios, a TPRM Security Notice will be documented and presented for VP approval for Tier 1 - 3 systems. Failure to obtain the requisite materials within a reasonable timeline may result in escalation of the risk to executive leadership. Tier 4 systems are not eligible for advance approval.
+- **Moderate Risks** are defined as risks that could result in the loss or improper disclosure of (Orange) GitLab data from a limited professional services engagement or individual use software. These risks are reported to the Business Owner for approval. Moderate risk acceptances also require the approval of a VP or greater.
+- **High Risks** are defined as risks that could result in the loss or improper disclosure of (Orange) GitLab data from a persistent SaaS provider. These risks are reported to the Business Owner for approval. High risk acceptances also require the approval of a VP or greater.
+- **Very High Risks** are risks that could result in the loss or improper disclosure of higher sensitivity (Red) data belonging to GitLab customers. Due to the higher level of sensitivity and potential impact on GitLab's obligations for securing this data, approvals are required from the Business Owner, their VP, and an appropriate member of the E-Group as determined by the Security Risk team. This is done to ensure appropriate stakeholder visibility and understanding of the risk being undertaken.
 
 Scenarios could exist in which a Security control failure carries Privacy implications that should be communicated to the Business Owner. As such, the Privacy team should be notified prior to finalization of the associated Security Notice.
 
