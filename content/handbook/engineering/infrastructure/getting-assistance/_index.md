@@ -5,7 +5,7 @@ description: "How to get assistance for problems on Production Platforms"
 
 ## GitLab.com
 
-If you need to report an incident - follow the instructions on the [Report An Incident page](../incident-management/#reporting-an-incident).
+If you need to report an incident - follow the instructions on the [Report An Incident page](./incident-management/#reporting-an-incident).
 
 If you are looking for help, and you know what service you need help with - find the owner in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). Check below to see if the team has a specific issue template or tracker for the help you seek or contact them via Slack.
 
@@ -98,7 +98,7 @@ We can help with:
 
 Contact us in: [#f_gitlab_dedicated](https://gitlab.enterprise.slack.com/archives/C01S0QNSYJ2)
 
-Raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team) using the `Request for Help` template which will add the ~"Dedicated::Request for Help" label. For Switchboard requests use the `Request for Switchboard Help` template which will divert your request to the Switchboard team. 
+Raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team) using the `Request for Help` template which will add the ~"Dedicated::Request for Help" label. For Switchboard requests use the `Request for Switchboard Help` template which will divert your request to the Switchboard team.
 
 We can help with:
 
