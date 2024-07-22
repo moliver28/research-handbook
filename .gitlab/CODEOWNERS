@@ -148,6 +148,7 @@
 /content/handbook/engineering/development/fulfillment/fulfillment-platform.md @jameslopez @ofernandez2
 /content/handbook/engineering/development/fulfillment/provision.md @isandin @courtmeddaugh
 /content/handbook/engineering/development/fulfillment/utilization/ @csouthard @alex_martin
+/content/handbook/engineering/development/growth/engineering/ @kniechajewicz
 /content/handbook/engineering/development/ops/ @sgoldstein @cheryl.li @nicolewilliams @crystalpoole
 /content/handbook/engineering/development/ops/deploy/ @nmezzopera
 /content/handbook/engineering/development/ops/monitor/observability.md @nicholasklick @mappelman
@@ -365,7 +366,6 @@
 /content/handbook/marketing/emergency-response.md @akramer @rkohnke @amy.waller
 /content/handbook/marketing/events/ @akramer
 /content/handbook/marketing/growth/ @akramer @gdoud
-/content/handbook/marketing/growth/engineering/ @kniechajewicz
 /content/handbook/marketing/inbound-marketing/ @akramer
 /content/handbook/marketing/inbound-marketing/search-marketing/ @ncregan @hsmith-watson @akramer
 /content/handbook/marketing/inbound-marketing/search-marketing/analytics.md @akramer
