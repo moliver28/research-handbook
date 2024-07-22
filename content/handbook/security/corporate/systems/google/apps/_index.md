@@ -22,6 +22,12 @@ You may be blocked from using an internal Google Apps Script, particularly if it
 1. Select **Save and Continue** (may not need to add any scopes)
 1. Click the **Google Cloud** logo at the top left of the screen and copy your **Project ID**
 1. Now in the Google Doc/Sheet/Slides:
-   1. Select Extensions > Apps scripts
-   1. Select the Settings wheel -> Project settings
-   1. Under Google Cloud Platform (GCP) Project -> choose "Change Project" and paste your Project ID. Then "Set project"
+   1. Select **Extensions > Apps scripts**
+   1. Select the **Settings wheel -> Project settings**
+   1. Under Google Cloud Platform (GCP) Project heading, choose **Change Project** and paste your **Project ID**, then **Set project**
+
+#### Troubleshooting
+
+1. If you continue to get authorization errors after completing the above:
+   1. Open the script editor console and run the script manually
+   1. Manually approve the OAuth access dialogs and authorizations
