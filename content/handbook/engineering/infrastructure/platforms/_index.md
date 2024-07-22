@@ -89,6 +89,8 @@ If you need assistance with a production issue or incident, please see the secti
 
 Queries to the Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution.
 
+The SaaS Platforms group is slowly migrating requests for help to go through the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel which redirects team-members to please engage with the [landing page for getting assistance](./getting-assistance). The purpose is to try to connect team members directly with the SaaS Platforms team that can help with their request rather than answering all questions directly in the channel itself.
+
 #### Meetings
 
 Once per week, we hold a `Platforms leads call` to align on action items related to career development, general direction or answer any ongoing questions that have not been addressed async. The call is cancelled when there are no topics added on the morning of the call.
