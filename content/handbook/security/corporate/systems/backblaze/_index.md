@@ -13,6 +13,13 @@ When Backblaze is installed on a device:
 
 If you have any questions or concerns about the use of Backblaze, please contact the Legal department via email at legal_internal@gitlab.com.
 
-In jurisdictions where Team Members are allowed to use their Company-issued devices for personal use, we highly encourage Team Members to create a folder on their device titled "Personal Folder".  The Personal Folder must be stored as a sub-folder within the Desktop, Documents, or User folders of your laptop in order to be exempt from the creation of the image.  You should store all personal files in this Personal Folder and CorpSec will exercise reasonable efforts to respect the privacy of this Personal Folder.  However, we suggest you avoid storing any highly-sensitive personal files on your Company-issued device, and no company work product or job related documents should be stored in the Personal Folder.  
+In jurisdictions where Team Members are allowed to use their Company-issued devices for personal use, we highly encourage Team Members to create a folder on their device titled "Personal Folder" or "personal-folder".  The Personal Folder must be stored as a sub-folder within the Desktop, Documents, or User folders of your laptop in order to be exempt from the creation of the image.  You should store all personal files in this Personal Folder and CorpSec will exercise reasonable efforts to respect the privacy of this Personal Folder.  However, we suggest you avoid storing any highly-sensitive personal files on your Company-issued device, and no company work product or job related documents should be stored in the Personal Folder.
+
+## Examples of valid personal folder locations
+
+- `/Users/username/Desktop/Personal Folder`
+- `/Users/username/Documents/Personal Folder`
+- `/Users/username/Personal Folder`
+- `/Users/username/personal-folder`
 
 Any Personal Data collected during the creation of the image will be handled in strict compliance with the General Data Protection Regulation (GDPR) and other applicable data privacy laws. Personal Data will be processed based on legitimate interests, compliance with legal obligations, or your consent when necessary. Only the data necessary for the stated purposes will be collected and processed. All Personal Data will be secured against unauthorized access, loss, or destruction.
