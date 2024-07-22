@@ -275,17 +275,52 @@ sequenceDiagram
 
 ### Claim Service
 
+Claim service is only serving on GRPC protocol. No REST API as we have
+for the Classify Service. This is a simplified version of the API Interface.
+
 ```proto
-enum ClaimType {
+message ClaimRecord {
+  enum Bucket {
     Unknown = 0;
     Routes = 1;
+  };
+
+  Bucket bucket = 1;
+  string value = 2;
+}
+
+message ParentRecord {
+  enum ApplicationModel {
+    Unknown = 0;
+    Group = 1;
+    Project = 2;
+    UserNamespace = 3;
+  };
+
+  ApplicationModel model = 1;
+  int64 id = 2;
 };
 
+message OwnerRecord {
+  enum Table {
+    Unknown = 0;
+    routes = 1;
+  }
+
+  Table table = 1;
+  int64 id = 2;
+};
+
+message ClaimDetails {
+  ClaimRecord claim = 1;
+  ParentRecord parent = 2;
+  OwnerRecord owner = 3;
+}
+
 message ClaimInfo {
-    int64 id = 1;
-    ClaimType claim_type = 2;
-    string claim_value = 3;
-    ...
+  int64 id = 1;
+  ClaimDetails details = 2;
+  optional CellInfo cell_info = 3;
 }
 
 service ClaimService {
@@ -297,6 +332,26 @@ service ClaimService {
 
 The purpose of this service is to provide a way to enforce uniqueness (ex. usernames, e-mails,
 tokens) within the cluster.
+
+Cells can claim unique attribute by sending the Claim Details. Where
+each Claim Details consist of 3 main components:
+
+1. **ClaimRecord**: Consists of both the Claim bucket and value. Where
+each value can only be claimed once per bucket. A bucket represents a uniqueness
+scope for the claims. For example an
+route like `gitlab-org/gitlab` can be claimed only once for the bucket
+`routes`. No two similar values can be claimed within the same bucket.
+1. **OwnerRecord**: Represents the database record that owns this claim
+on the Cell side. For example, for the Route `gitlab-org/gitlab` value,
+it will be table `routes` and some `id` that represents the primary key
+of the `route` record that has this value `gitlab-org/gitlab`.
+1. **ParentRecord**: Represents the GitLab object that owns the
+`OwnerRecord`. For example, for Emails claims, they are usually belong
+to `User` objects. While `Route` records can belong to `Group`, `UserNamespace`
+or `Project`.
+
+It's worth noting that the list of the enums is not final, and it can be
+expanded over time.
 
 #### Example usage of Claim Service in Rails
 
