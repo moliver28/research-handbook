@@ -188,7 +188,7 @@ The Senior Product Manager is a [grade 8](/handbook/total-rewards/compensation/c
 
 Beyond the [base requirements](#base-pm-requirements), Senior Product Manager requirements are:
 
-- Indepedently manages and proactively identifies direction updates related to product areas
+- Independently manages and proactively identifies direction updates related to product areas
 - Create annual and quarterly plans to align product group to roadmap deliverables
 - Uses multiple sources of data (qualitatative, quantiative) and proactibvely monitors usage data and metrics to inform product direction
 - Appropriately influence, persuade, and collaborate closely with Product Design, User Research, Product Marketing, Data Analyst team, and Engineering Counterparts to build an ambitious but realistic plan across the stage
