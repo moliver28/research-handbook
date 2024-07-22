@@ -74,3 +74,33 @@ The source language's content must be completed for this to go through. Given th
 #### How do we deal with Marketo Forms?
 
 Right now, each Marketo form ID is unique per every locale. We are looking into a potential solution so that one form holds each locale's content. This is being scoped out in [this issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/3873).
+
+### Global Gateway
+
+The global gateway is crucial for creating a positive first impression by presenting content in users' native languages, fostering trust and ensuring seamless navigation. It enhances user experience by directing them to localized marketing sites and correctly localized product sign-up paths. 
+
+#### Language Selector
+
+The language selector is a feature implemented in the Navigation repository that allows users to choose their preferred language for viewing GitLab. Here' is the [language.service.ts](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation/-/blob/main/src/services/language.service.ts?ref_type=heads)
+
+To display the available languages for a page, the Language Selector makes HTTP requests to check if the current page exists in each of the site's available languages. It sends one request per language, and if the request returns a 404, that language will not be displayed in the Language Selector.
+
+After a user selects a language, the app stores the selection in the user's browser for use by the application's localization logic. We store it in `localStorage` [here](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation/-/blob/main/src/components/Common/language-selector.vue?ref_type=heads#L97).
+
+The language selector is the only place that can update the saved language in the user's browser.
+
+#### Links Localization
+
+Our application includes a [Vue Mixin](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/mixins/live-preview.mixin.ts?ref_type=heads) used across all pages. This Mixin scans each page for links that might be localized.
+
+The Mixin checks the user's browser for their preferred language. If it finds a localized version of a link that exists, the localized version of the preferred language link will be statically generated.
+
+#### Hreflang
+
+We use the Hreflang HTML attribute to specify the language and regional targeting of our localized pages. It signals to search engines the language or regional variation of your content.
+
+We use a [Vue Mixin](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/mixins/localized-href.mixin.ts?ref_type=heads) to generate our hreflang.
+
+#### Common confusing case scenario
+
+A common scenario that might be mistaken for a bug is when a user navigates to a localized page without using the language selector. For example, if the stored language is French (fr) and the user visits a Japanese page, the links inside that Japanese page will still redirect to the French version due to the user's preferred language setting.
