@@ -63,14 +63,23 @@ See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-t
 
 ## Customer Success Groups
 
-### Customer Success Managers
+### Customer Success Teams
 
 - [Customer Success Manager handbook](/handbook/customer-success/csm/)
-- [Commercial CSM handbook](/handbook/customer-success/comm-sales/#customer-success-managers)
+- [Customer Success Engineer handbook](/handbook/customer-success/csm/segment/cse/)
+- [Customer Success Architect handbook](/handbook/customer-success/csm/segment/csa/)
+
+### Customer Success Decision Tree
+
+![CSMAR Decision Tree](/handbook/customer-success/CSMAE_Decision_Tree.pdf)
 
 ### Renewals Managers
 
 - [Renewals Managers handbook](/handbook/customer-success/renewals-managers/home)
+
+### Digital Strategy
+
+- [Digital Strategy handbook](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
 
 ### Demo Systems
 
@@ -96,11 +105,13 @@ As a Customer Sucess team member, it is important to be continuously learning mo
 
 ### Customer Workshops
 
-2021-01 [Skills Exchange Enablement on Customer Workshops](https://www.youtube.com/watch?v=kSbTZgPLKUE&feature=youtu.be)
-
 CSM-Created, Enablement Focus:
 
 - [All CSM-created workshops](/handbook/customer-success/csm/workshops/)
+
+CSE-Created, Enablement Focus:
+
+- [GitLab User Webinars and Labs](https://university.gitlab.com/pages/gitlab-user-webinars)
 
 ### Using Salesforce within Customer Success
 
