@@ -1,5 +1,5 @@
 ---
-title: "Christine Lee README (Sr. Director Marketing Strategy & Analytics)"
+title: "Christine Lee README (VP, Marketing Ops & Analytics)"
 description: "Learn more about working with Christine Lee"
 ---
 
@@ -14,7 +14,7 @@ Please feel free to contribute to this page by opening a merge request.
 - I grew up in Alpharetta, Georgia (a suburb near Atlanta), and went to college at MIT in Cambridge, Massachusetts, where I studied Materials Science & Engineering.
 - I have lived in the San Francisco Bay Area since 2009. It feels like home now, though I still visit my family in Atlanta often.
 - I live in San Jose, CA with my partner Dennis and my two pet bunnies, Cinnabun and Teddy.
-- I currently lead our [Marketing Strategy & Analytics (MS&A)](/handbook/marketing/strategy-performance/) team at GitLab.
+- I currently lead our Marketing Ops & Analytics team at GitLab, which comprises of [Marketing Ops](/handbook/marketing/marketing-operations/), [Marketing Analytics](/handbook/marketing/strategy-performance/), and [Globalization & Localization](/handbook/marketing/localization/).
 
 ## Strengths
 
