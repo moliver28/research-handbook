@@ -180,7 +180,7 @@ The following is a general guide for identifying open source models:
 5. verify that the open source model has not already been proposed and validated for the feature via the Custom Models [supported models documentation](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html#step-1-install-llm-serving-infrastructure) and/or [top level epic for the relevant feature](https://gitlab.com/groups/gitlab-org/-/epics/13069#by-feature-self-hosted-support "Category: Self-Hosted Model Deployment").
 6. if a custom Gitlab dataset already exists representing the identified use-case, follow the steps outlined in "Local Model Baselining and Prompt Development for Self-Hosted Models" for [Local Model Baselining](https://gitlab.com/gitlab-org/gitlab/-/issues/468933#local-model-baselining "Local Model Baselining and Prompt Development for Self-Hosted Models")
 7. examine results of the baseline process for the model against other foundational models (available via dashboards for each feature) and assess viability of the model for the Duo feature.
-   * note that industry benchmarks can only serve as a guide for models to validate, and not a validation itself as OS models scores may be higher on industry benchmarks that Gitlab use-case specific datasets
+   - note that industry benchmarks can only serve as a guide for models to validate, and not a validation itself as OS models scores may be higher on industry benchmarks that Gitlab use-case specific datasets
 
 # Industry Benchmarks
 
