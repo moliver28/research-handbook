@@ -453,7 +453,7 @@ The standard progression of workflow is from top to bottom in the table below:
 | State Label | Description |
 | ----------- | ----------- |
 | ![Triage](img/label-triage.png) | Default label added to issues created. Issues with this label need to be confirmed as work we would consider. If we don't want to consider the issue further, we mark it with `workflow-infra::Cancelled` and close it. If this issue does not need Product validation, and we are ready for implementation, issue is moved to `workflow-infra::Ready`. Otherwise, we move it to the next stage `workflow-infra::Proposal`. |
-| ![Proposal](img/label-proposal.png) | In this stage, proposal is being created and put forward for review with the rest of the team. Issues in this stage are also a part of Product validation workflow. If there are no further questions or blockers, the issue can be moved into "workflow-infra::Ready". |
+| ![Proposal](img/label-proposal.png) | In this stage, proposal is being created and put forward for review with the rest of the team. Issues in this stage are also a part of Product validation workflow. If there are no further questions or blockers, the issue is supposed to be sufficiently refined and ready for implementation and can be moved into `workflow-infra::Ready`. The epics that encapsulate the implementation work for customer facing features must have a Product Manager sign-off before they can be moved to `workflow-infra::Ready` |
 | ![Ready](img/label-ready.png) | The issue is waiting to be picked up for work. |
 | ![In Progress](img/label-in_progress.png) | Issue is assigned to a DRI and work has started. |
 | ![Done](img/label-done.png) | Issue is updated with the outcome of the work that was done, and this label is applied and issue closed. |
