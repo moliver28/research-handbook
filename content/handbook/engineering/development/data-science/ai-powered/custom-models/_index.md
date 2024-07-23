@@ -165,17 +165,17 @@ The following is a general guide for identifying open source models:
 2. research and understand how existing and popular industry benchmarks relate to Duo Feature use-cases
    - update this documentation to add additional industry benchmarks identified for each use case with a description of the benchmark under "[Industry Benchmarks](https://gitlab.com/gitlab-org/gitlab/-/issues/461070#industry-benchmarks "Document how to identify Open Source Models for Duo use cases")"
 3. document the performance of open source models against those identified industry benchmarks
-   * leverage model leaderboards to help identify models and document performance; examples of leaderboards include:
-     * [HuggingFace Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
-     * [HuggingFace Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard)
-     * [HELM Leaderboard](https://crfm.stanford.edu/helm/lite/latest/#/leaderboard)
-     * [CanAICode Leaderboard](https://huggingface.co/spaces/mike-ravkine/can-ai-code-results)
-     * [LMSYS Chatbot Arena Leaderboard](https://chat.lmsys.org/?leaderboard)
-     * [BigCodeBench Leaderboard](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard)
-     * additional resources
-       * https://github.com/underlines/awesome-ml/blob/master/llm-tools.md#leaderboards
-       * https://bellard.org/ts_server/
-   * add additional leaderboards of high utility to this documentation as they are identified
+   - leverage model leaderboards to help identify models and document performance; examples of leaderboards include:
+     - [HuggingFace Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+     - [HuggingFace Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard)
+     - [HELM Leaderboard](https://crfm.stanford.edu/helm/lite/latest/#/leaderboard)
+     - [CanAICode Leaderboard](https://huggingface.co/spaces/mike-ravkine/can-ai-code-results)
+     - [LMSYS Chatbot Arena Leaderboard](https://chat.lmsys.org/?leaderboard)
+     - [BigCodeBench Leaderboard](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard)
+     - additional resources
+       - https://github.com/underlines/awesome-ml/blob/master/llm-tools.md#leaderboards
+       - https://bellard.org/ts_server/
+   - add additional leaderboards of high utility to this documentation as they are identified
 4. document any potential supply-chain or license issues (we prefer [gold or silver](https://blueoakcouncil.org/list)) that would prohibit/limit viability of self-hosting that model for our security-conscious customer base
 5. verify that the open source model has not already been proposed and validated for the feature via the Custom Models [supported models documentation](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html#step-1-install-llm-serving-infrastructure) and/or [top level epic for the relevant feature](https://gitlab.com/groups/gitlab-org/-/epics/13069#by-feature-self-hosted-support "Category: Self-Hosted Model Deployment").
 6. if a custom Gitlab dataset already exists representing the identified use-case, follow the steps outlined in "Local Model Baselining and Prompt Development for Self-Hosted Models" for [Local Model Baselining](https://gitlab.com/gitlab-org/gitlab/-/issues/468933#local-model-baselining "Local Model Baselining and Prompt Development for Self-Hosted Models")
