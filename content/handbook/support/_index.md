@@ -611,7 +611,7 @@ In GitLab Support, we have two mechanisms to organize support engineers as they 
 
 Global groups are organized by managers. Support Pods are engineer-lead. To join or start a Support Pod you can read more below.
 
-*See the [Working with Support Pods page](/handbook/support/workflows/working-with-pods) and [Support Pods project](https://gitlab.com/gitlab-com/support/support-pods).*
+*See the [Support Pods handbook page](/handbook/support/support-pods) and the [Working with Support Pods workflow page](/handbook/support/workflows/working-with-pods).*
 
 ### Improving our processes - 'Active Now' issue board
 
