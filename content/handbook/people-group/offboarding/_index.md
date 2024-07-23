@@ -39,6 +39,10 @@ For any other offboarding questions from active team members please reach out to
 1. **Manager:** In the instance that the resignation details require revision, you may send it back to the team member by clicking `Send Back`.  If you are satisfied with the information, click `Approve`.
 1. **Manager:** Once the details about the team members departure have been finalized schedule time with the team member to plan the [departure announcement](#communicating-departures). Please reach out to your PBP if you need additional guidance.
 
+***Country Specific Requirements for Resignation***
+
+- France: Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com for review of the non-compete clause.
+
 ### Termination
 
 1. **Manager:** Once the resignation has been approved you will receive a prompt in your Workday Inbox to terminate the team member in the system by following the steps documented in the following [job aid](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) alternatively you can do so from within the team members Workday Profile by selecting `Actions` followed by `Job Change` and finally `Terminate Employee`.
