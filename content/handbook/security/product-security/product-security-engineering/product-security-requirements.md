@@ -41,11 +41,11 @@ The expectation is that Product Security Engineering will be responsible for mai
 
 ## Process
 
-When a Product Security team identifies a need that is not satisfied by the current GiLab product or an existing tool, the process below will be followed.
+When a Product Security team identifies a need that is not satisfied by the current GitLab product or an existing tool, the process below will be followed.
 
 ### Planning
 
-- Requesting team submits an issue using [this template](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/new?issuable_template=product%20security%20requirement) in the [Product Security Engineering team repository](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team)
+- Requesting team submits an issue using [this template](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/new?issuable_template=product_security_requirement) in the [Product Security Engineering team repository](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team)
 - The Product Security Engineering team follows their defined refinement workflow, while collaborating with the requesting team to understand the requirements
 - A decision is made as to whether Product Security Engineering should build the solution, if we should wait for a GitLab development team to implement it, or if it should be purchased externally
   - If the decision involves Product Security Engineering action, it will be scheduled into an upcoming Milestone based on priority, urgency, and capacity
