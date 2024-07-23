@@ -192,6 +192,15 @@ If you encounter any problems, such as obtaining a timely response from Developm
    1. If you have updated the GitLab documentation, add the label `documentation::created` and link the merge request.
    1. Otherwise, add the label `documentation::candidate`, and create a GitLab issue to update the relevant documentation.
 
+### How to formally Request Help from the GitLab SaaS Platforms Team
+
+The SaaS Platforms Team in the Infrastructure department are responsible for the operation of GitLab.com and GitLab Dedicated.
+
+If you need operational support:
+1. Visit the [Getting Assistance](../../engineering/infrastructure/getting-assistance/) page.
+2. Find the relevant team or service owner and contact them using the methods described on this page.
+3. If you don't know who to ask, reach out in the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel where you will be redirected to the team who can best assist you.
+
 ### Quick Links and Resources
 
 - [Needs Collaboration view](https://gitlab.zendesk.com/agent/filters/360080204660) in ZenDesk.
