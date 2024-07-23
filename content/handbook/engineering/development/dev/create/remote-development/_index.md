@@ -56,7 +56,7 @@ We highly value user feedback! Please use the epics below to capture feedback an
 - [Web IDE User Feedback & Insights](https://gitlab.com/groups/gitlab-org/-/epics/10543)
 - [Workspaces User Feedback & Insights](https://gitlab.com/groups/gitlab-org/-/epics/12601)
 
-For non-team members, feel free to create issues in these epics if you have general feedback or suggestions. If you have feedback related to existing or ongoing features, please drop a comment in the appropriate epic or issue. See
+For non-team members, feel free to create issues in these epics if you have general feedback or suggestions. If you have feedback related to existing or ongoing features, please drop a comment in the appropriate epic or issue.
 
 ### Group Metrics Dashboards
 
@@ -66,39 +66,19 @@ For non-team members, feel free to create issues in these epics if you have gene
 
 <span id="-team-meetings" data-message="alias anchor for old links"></span>
 
-**❗️Important**: For every meeting, the [Remote Development group's meeting document](https://docs.google.com/document/d/1b-dgL0ElBf_I3pbBUFISTYBG9VN02F1b3TERkAJwJ20/edit#) should be used, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
+**❗️Important**: For every meeting, the [Remote Development group's meeting document](https://docs.google.com/document/d/1b-dgL0ElBf_I3pbBUFISTYBG9VN02F1b3TERkAJwJ20/edit#) should be used apart from High Level Planning which has a document of it's own, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
 
-These are regular meetings in which most team members will participate. Also, please note that sync meeting schedules are flexible and can be moved to accomodate required participants.  Below is our schedule:
+Please note that sync meeting schedules are flexible and can be moved to accomodate required participants. For up to date schedule of all team meetings, please consult the [Group's Calendar](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV92ZGc3bW04NDRuczVrN3JxZGlyMzM0N2YwOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
-#### Quarterly Strategy and OKR Planning Meeting
+The table below briefly outlines the objectives and key details of regular team meetings:
 
-- **When:** Once every quarter.
-- **What:** In this meeting, we will discuss and align our group's strategic goals and objectives. We'll go over our progress on OKRs and define the next steps to achieve them.
-
-#### Think Big Sessions / Optional Sync Call
-
-- **When:** Once a month, on the week when there is no Quarterly Strategy Meeting.
-- **What:** We can use this time for "Think Big" sessions or other optional synchronous calls.
-
-#### Open Office Hours Meeting
-
-- **When:** Every other week, alternating between APAC and AMER friendly times.
-- **What:** This meeting is an open agenda, and if there are no topics, we will cancel the meeting. It's a chance to drop by and have an informal chat with colleagues. The meeting will alternate between APAC and AMER friendly times to cover different regions.
-
-#### Retro Meeting
-
-- **When:** Every fourth Thursday of the month.
-- **What:** In this monthly meeting, we'll go over the feedback from our asynchronous group retro and identify action items and next steps. Our goal is to improve efficiency by learning from our past mistakes and successes.
-
-#### Pre-Iteration Planning Meeting
-
-- **When:** Every Wednesday, alternating between APAC and EMEA time zones.
-- **What:** The goal of the Pre-IPM meeting is for the team leaders to collaborate on preparing all issues which are to be prioritized for the upcoming iteration(s), so they are ready for the wider team to discuss and estimate in the next IPM. For more information, see ["Pre-Iteration Planning Meeting"](#pre-iteration-planning-meeting).
-
-#### Iteration Planning Meeting (IPM)
-
-- **When:** Biweekly on Wednesday, alternating between APAC and EMEA time zones.
-- **What:** In this meeting, we will review the team's backlog and the current iteration status. We'll estimate and prioritize work for the next one or two iterations. The meeting will alternate between APAC and EMEA time zones to accommodate different regions. For more information, see ["Iteration Planning Meeting"](#iteration-planning-meeting-ipm).
+| Meeting Title                       | What                                                                                                                                      |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| High Level Planning                 | Set overall direction and validate higher-priority issues/epics to be worked on in the upcoming releases.                                 |
+| Iteration Planning Meeting (IPM)    | Review backlog and iteration status; estimate and prioritize work for next iterations.                                                    |
+| Remote Development Retro Call       | Review feedback from async retro, identify action items and next steps to improve efficiency.                                             |
+| Engineering Sync                    | Discuss engineering topics and brainstorming. Cancelled if no topics. Alternates APAC/AMER friendly times.                                |
+| Remote Development Pairing          | Pairing sessions for engineers. Cancelled if no topics.                                                                                   |
 
 ## 📦 Group Processes
 
@@ -160,8 +140,8 @@ The Remote Development group has modified parts of the [Plan](/handbook/product-
 The crux of these changes is focused around the following process phases:
 
 1. "High Level Validation and Planning". This is analogous to the [Validation Track in the GitLab Product Flow](/handbook/product-development-flow/#validation-track), because it needs to achieve the same [Validation Goals & Outcomes](/handbook/product-development-flow/#validation-goals--outcomes) before we can start refining and prioritizing issues.
-1. The "Pre-Iteration Planning Meeting", or "Pre-IPM". This is analogous to ["backlog refinement"](/handbook/product-development-flow/#outcomes-and-activities-4) in the standard GitLab product development flow. The goal of the Pre-IPM is to ensure that all issues which are to be prioritized in the upcoming iteration(s) are ready for the wider team to briefly discuss and estimate in the next IPM. See more details in the [Pre-Iteration Planning Meeting](#pre-iteration-planning-meeting) section.
-1. The "Iteration Planning Meeting", or "IPM". This is analogous to the ["Weekly Cycle" in XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) or ["Sprint Planning" in Scrum](https://www.scrum.org/resources/what-is-sprint-planning). See more details in the [Iteration Planning Meeting](#iteration-planning-meeting-ipm) section.
+1. The "Pre-Iteration Planning Meeting", or "Pre-IPM". This is analogous to ["backlog refinement"](/handbook/product-development-flow/#outcomes-and-activities-4) in the standard GitLab product development flow. The goal of the Pre-IPM is to ensure that all issues which are to be prioritized in the upcoming iteration(s) are ready for the wider team to briefly discuss and estimate in the next IPM.
+1. The "Iteration Planning Meeting", or "IPM". This is analogous to the ["Weekly Cycle" in XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) or ["Sprint Planning" in Scrum](https://www.scrum.org/resources/what-is-sprint-planning).
 
 These components allow us to provide realistic velocity-based estimates based on ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) historical velocity analysis.
 
