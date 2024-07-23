@@ -121,7 +121,8 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Handbook MR Data](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/extract/handbook_mrs_extract.py) | Airflow | `handbook` | `handbook` | Multiple | 24h / 24h | No | Tier 2 |
 | [Handbook Git Log Data](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/extract/values_page_extract.py) | Airflow | `handbook` | `handbook` | Multiple | 1w / 1m | No | Tier 2 |
 | Iterable | Fivetran | `iterable` | n/a | Multiple | 24h / 48h | No | Tier 3 |
-| Just Global Campaigns | Snowflake task | `just_global_campaigns` | just_global_campaigns | Marketing | 7d / 14d | No | Tier 3 |
+| Just Global Campaigns | Snowflake task | `just_global_campaigns` | `just_global_campaigns` | Marketing | 7d / 14d | No | Tier 3 |
+| [Kantata](https://developer.kantata.com/tag/Insights-Report-Exports/#operation/get-scheduled-report-export) | Airflow | `kantata` | `kantata` | Customer Success | 24h / 48h | Yes | Tier 3 |
 | [Level Up/Thought Industries](https://api.thoughtindustries.com/#thought-industries-api) | Airflow | `level_up` | `level_up` | People | 24h / 24h | No | Tier 3 |
 | [LinkedIn ads](https://business.linkedin.com/marketing-solutions/ads) | Fivetran | `linkedin_ads` | `n/a` | Marketing | 24h / 48h | No | Tier 3 |
 | [Marketo](https://www.marketo.com/software/marketing-automation/) | Fivetran | `marketo` | x | Marketing | 24h / 24h | No | Tier 2 |
@@ -137,7 +138,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Salesforce](https://www.salesforce.com/) | Stitch | `salesforce_v2_stitch` | `sfdc` | Sales | 6h / 24h | Yes | Tier 1 |
 | [Salesforce Sandbox](https://gitlab--staging.sandbox.my.salesforce.com/)| Stitch | `salesforce_stitch_sandbox_v2` | `TBC` |Sales | 24h / 48h| Yes| Tier 3|
 | SheetLoad | SheetLoad | `sheetload` | `sheetload` | Multiple | 24h / 48h | Yes | Tier 1 |
-| SIRT Alertapp | Snowflake task | `sirt_alertapp` | sirt_alertapp | Engineering | 24h / 48h | No | Tier 3 |
+| SIRT Alertapp | Snowflake task | `sirt_alertapp` | `sirt_alertapp` | Engineering | 24h / 48h | No | Tier 3 |
 | [Snowplow](https://snowplowanalytics.com/) | Snowpipe | `snowplow` | `snowplow` | Product | 15m / 24h | No | Tier 1 |
 | [Tableau Cloud](https://www.tableau.com/products/cloud-bi) | Tableau Prep | `tableau_cloud` | `tableau_cloud` | Data Team | 24h / 24h | No | Tier 3 |
 | [Thanos](https://thanos-query.ops.gitlab.net/graph) | Snowflake Task | `prometheus` | `prometheus` | Engineering | 24 h / x | No | Tier 3 |
