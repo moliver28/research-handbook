@@ -178,7 +178,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 - {{% details summary="Merging candidates" %}}
 - Recruiters should [merge applicant profiles](https://support.greenhouse.io/hc/en-us/articles/115004506466-Merge-candidate-profiles) whenever you see the opportunity and can verify that the candidates are the same. Merging applicant profiles allows you to keep data up to date, and also ensures that you know the full application history of anyone who applies. Aside from Internal candidates who should be merged right before hiring, you can merge candidates at any stage of the process.
-- All of Talent Acquisition has access to merge profiles. Greenhouse will tell you when there's a possible duplicate by placing a red "Duplicate" badge on the candidate's profile. To merge, click the bell icon on the right hand toolbar and click the Manage Duplicate Here button. 
+- All of Talent Acquisition has access to merge profiles. Greenhouse will tell you when there's a possible duplicate by placing a red "Duplicate" badge on the candidate's profile. To merge, click the bell icon on the right hand toolbar and click the Manage Duplicate Here button.
 - Before beginning, please ensure that the profiles are a match for each other by verifying that their emails, phone numbers, and/or resumes are the same. If any of these are a match, you can merge. If they're not, do not merge.
 - When selecting which profile is Primary (right side), consider the following:
 - As a default, the most recent applicant profile should most likely be the Primary one, unless the most recent is a Prospect.
