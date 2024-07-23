@@ -14,6 +14,9 @@ Support Pods introduces some form of specialization now, while being flexible en
 current operational challenges that the Support team faces as we scale to meet GitLab’s increasingly
 complex business and customer needs.
 
+For information on how you can integrate Support Pods into your workflows, visit the
+[Working with Support Pods workflow page](/handbook/support/workflows/working-with-pods).
+
 ## Starting a Support Pod
 
 ### Before starting

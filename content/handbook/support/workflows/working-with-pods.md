@@ -15,9 +15,7 @@ together to work on specific subjects within Zendesk tickets, GitLab.com issues,
 Slack and other mediums for collaboration.
 
 The full Support Pods handbook and a list of active Support Pods can be found in
-the [Support Pods project](https://gitlab.com/gitlab-com/support/support-pods).
-The project is currently private to GitLab team members as some pages may
-contain [sensitive information](/handbook/legal/safe-framework/).
+the [Support Pods handbook page](/handbook/support/support-pods).
 
 ## How do I get involved?
 
