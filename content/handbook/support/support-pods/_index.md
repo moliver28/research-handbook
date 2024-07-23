@@ -1,6 +1,6 @@
 ---
 title: Support Pods
-description: Support Pods
+description: Flexible interest groups to focus on collaboration within Support and across functions
 ---
 
 Support Pods is a flexible framework which any group of team members can use to set up
