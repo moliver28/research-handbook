@@ -41,7 +41,7 @@ For any other offboarding questions from active team members please reach out to
 
 ***Country Specific Requirements for Resignation***
 
-- France: Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com for review of the non-compete clause.
+- France: Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com
 
 ### Termination
 
