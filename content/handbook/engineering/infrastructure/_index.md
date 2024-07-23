@@ -17,7 +17,7 @@ However, it is the responsibility of the Infrastructure Department to drive the 
 
 If you're a GitLab team member and are looking to alert the Infrastructure teams about an availability issue with GitLab.com, please find quick instructions to report an incident here: [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
 
-For all other queries, please see the [getting assistance](getting-assistance) page.
+For all other queries, please see the [getting assistance](/getting-assistance) page.
 
 ## Vision
 
