@@ -160,7 +160,7 @@ We operate using async communication by default. There are times when a sync dis
 
 ## Identification of Open Source Models for GitLab Duo
 
-As new open source models emerge, we will want to consider them for GitLab Duo use-cases. This issue will define and document the process of identifying new models and submitting them for evaluation.
+As new open source models emerge, we will want to consider them for GitLab Duo use-cases. This issue will define and document the process of identifying new models and baselining their performance for Duo features.
 
 The following is a general guide for identifying open source models:
 
