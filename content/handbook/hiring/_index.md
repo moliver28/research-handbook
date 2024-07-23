@@ -183,7 +183,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 - When selecting which profile is Primary (right side), consider the following:
 - As a default, the most recent applicant profile should most likely be the Primary one, unless the most recent is a Prospect.
 - If this is an internal candidate, the most recent profile should always be Primary, but should not be merged until the candidate has accepted their offer to minimize the number of people with access to this information.
-- After merging, check the Activity Feed and Details tabs to see what information was removed from old profiles and ensure that you have the most accurate Recruiter, Coordinator, and Source. This is particularly important for referrals, because we should only be naming someone as the source if they refer _before_ you review the candidates' resume.
+- After merging, check the Activity Feed and Details tabs to see what information was removed from old profiles and ensure that you have the most accurate Recruiter, Coordinator, and Source. This is particularly important for referrals, because we should only be naming someone as the source if they refer *before* you review the candidates' resume.
 - If you have any questions, please contact Enablement because profile merges cannot be undone.
 {{% /details %}}
 
