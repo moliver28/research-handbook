@@ -6,74 +6,116 @@ title: "IT Enterprise Applications"
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> About Us
 
-The **IT Enterprise Applications Team** is responsible for the design, implementation, compliance and operations of specialized applications that are key to the digital transformation by streamlining business processes, improving efficacy and efficiency, and enabling organizational growth
-We are directly responsible for all of GitLab's finance systems and Enterprise Applications Integrations. We build and extend these applications to support the processes of our business partners and rationalize our application landscape to ensure it is optimized for efficiency and spend.
-Our team ensures the availability of these applications and integrations through monitoring and alerting. These internal-facing applications include a multitude of different applications and environments, including Zuora, Adaptive Planning, NetSuite, Navan Expense, etc. We are also responsible for the IT Audit and Compliance function to ensure we pass SOX Audit for our IT General Controls (ITGC).
+The **IT Enterprise Applications** oversees the business technology architecture and systems that power GitLab as a business entity. We ensure that the systems are fit-for-purpose, available, reliable, integrated and secure. 
+We continue to build business aligned technology to run operations, layering integration and automations to support remote work, enhance team member and customer experience, and generate value.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Vision
+### <i class="fas fa-bullseye" id="biz-tech-icons"></i> Our Vision
 
-- Enable end to end business processes within the enterprise applications that seamlessly hand off to each other and ensure it provides a great user experience to our business partners
-- Ensure data integrity between systems and security of that data
-Constantly iterate to simplify and ensure processes are efficient and automated as much as possible.
-- Leverage out of the box best practices as much as possible. We buying and extend applications where we don’t see building them as GitLabs core engineering competency
-- IT Audit and Compliance - Ensuring that all customer / business data is secure and can pass key audits for attestations and compliance with SOX, SOC, etc.
+Be a trusted business partner providing world-class solutions and value.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Strategy
+### <i class="fas fa-bullseye" id="biz-tech-icons"></i> Our Mission
 
-Our department focuses on managing the framework of how GitLab procures, implements, integrates, secures, exports analytics, and supports our [tech stack applications] (https://handbook.gitlab.com/handbook/business-technology/tech-stack-applications/) while providing strategic enablement and integration support for all departments and team members that allows us to scale efficiently, [SAFEly] (https://handbook.gitlab.com/handbook/legal/safe-framework/), and securely.
+Provide a stable, secure, compliant and highly integrated solutions ecosystem to empower business with technology and services that enables productivity to fuel growth of GitLab.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Our Teams
+## <i class="fas fa-rocket" id="biz-tech-icons"></i> Strategic Objectives & Operating Principles
 
-- CRM Systems Services
-- G&A Services
-- Program Management & Strategic Planning
-- Integrations, Automations, & Architecture
-- EntApps Services
-- SOX Compliance
+1. **Breakdown Silos:** As a centralized team we talk to every part of the business. Business partners effectively connect the dots and bring people together to solve business problems.
+2. **Architect & Iterate:** Know where you are going and then work toward the goal in small parts. This is true for finance, analytics or engineering work.
+3. **Be The Solution:** Be empowered to drive change within our team and the company. We want to solve the most interesting problems. This leads to one of the best career experiences of our lives.
+4. **Lead With Data:** Our teams have tier 1 metrics to define success. Create strong business processes and systems that capture data. Use the data to drive optimal business decisions across GitLab.
+5. **GitLab for GitLab:** We keep to our core values and the belief that everyone can contribute, we are committed to dogfooding, actively use, give feedback and contribute to the development of the GitLab our product.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
+## <i class="fas fa-users" id="biz-tech-icons"></i> Our Funtional Structure
 
-### CRM Systems Services
+| [IT PMO](../business-technology/pmo/) | [Architecture, Integrations & Automation](../business-technology/enterprise-applications/integrations/) | [G&A Systems](../business-technology/enterprise-applications/finance-ops/) & [CRM Systems](../business-technology/enterprise-applications/entapps-crm/) | [Services & Operations](../business-technology/enterprise-applications/entapps-services/) |
+| ------ | ------ | ------ | ------ |
+| - IT Strategy & Planning<br>- AOP & Budget Management<br> - Portfolio & Project Management<br> - Business Analysis | - Enterprise & Applications Architecture<br>- Integrations | - Application Management - GTM, L2C, ERP, HCM<br>- Application Engineering<br> - Systems Administration<br> - Data & Application Reporting | - Global Support Services<br>- RPA and AI Operations<br> - Vendor Management<br> - IT Compliance & Governance (SOX & Security Compliance) |
 
-We support the GitLab field organization by providing reliable, scalable, and intuitive technology platforms for everyday use. Primarily working on Salesforce and its related revenue systems, our goal is to constantly deliver value in the form of features to our end users. We also act as the connective tissue between business and technology, gathering requirements from our internal customers, designing the technical specifications and executing on the delivery of the solution.
+## <i class="fas fa-users" id="biz-tech-icons"></i> What do we do?
 
-### G&A Services
+1. **Company-wide Business Technology** - [Tech Stack](../business-technology/tech-stack.md)
 
-We are directly responsible for all of GitLab’s finance systems and Enterprise Applications Integrations. We build and extend these applications to support the processes of our business partners and rationalize our application landscape to ensure it is optimized for efficiency and spend. Our team ensures the availability of these applications and integrations through monitoring and alerting. These internal-facing applications include a multitude of different applications and environments, including, NetSuite, Navan, Zip, Coupa, etc.
+2. **Reference Architecture:** <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/ea55fafd-7979-4319-a3f0-b9f750fcea04" id="jf4WoN9QiA1_"></iframe></div>
 
-### Program Management & Strategic Planning
+3. **Application EcoSystem We Support**
+    - Zuora (CPQ & Billing)
+    - Zuora Revenue
+    - Tesorio
+    - NetSuite
+    - Coupa
+    - Stripe
+    - Navan Travel
+    - Navan Expense
+    - Avalara
+    - Adaptive Planning
+    - Xactly
+    - Mavenlink
+    - DocuSign eSignature
+    - ServiceNow
+    - Tropic
+    - Supplier IO
+    - UI Path
+    - Workato
+    - Salesforce
+    - Ownbackup
 
-We provide a standard approach to project delivery across the IT department by providing full and accurate visibility of IT project status. We also effectively prioritize 
+4. **Services**
+    - IT Strategy and Management
+    - IT Portfolio, Program & Project Management
+    - Enterprise Architecture
+         - Discovery & Research
+         - Application Implementations
+         - Application Engineering
+         - Integrations & Automation
+    - IT Compliance
+         - SOX
+         - Training
+    - Operations
+         - Technical SaaS Production Support
+         - Systems Administration
+         - Release Management
+         - Change Management
+         - Internal Major Incident Management
+         - Business Systems Analysis: Research and evaluate existing and emerging technologies to understand where new systems can be used to achieve organizational objectives and plan for how the organization will utilize systems for its gain in the near- and far-term future. 
+    - Procurement and Technology Acquisition
+         - Vendor & Contract Management 
+         - New Technology Evaluations: Evaluate, negotiate and purchase technology. Set criteria for when, others within the organization can purchase, implement and deploy technology
+    - Digital Transformation: The adoption of digital technologies to innovate and reimplement existing business, talent, and operating models to drive growth, business value, and improved customer experience.
 
-project management resources to support all IT initiatives. Our services consist of resource and capacity planning, “T-shirt” sizing, deployment management and IT portfolio alignment. The PMO team will firm up requirements, use cases, and process flows as we implement systems, enhance them or deliver fixes.
+5. **Services We Support: Finance Systems Service Desk**    
+    - New SKU Request
+         - Open a [New SKU issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) using the CM: Add_New_SKU template or CM: Add_New_PS_SKU for a Professional Services SKU.
+    - Retire SKU Request
+         - Open a [Retire SKU issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) using the CM: Retire_SKU template.
+    - EntApps System Configuration Change
+         - If the system change is a quick change which does not require additional cross-functional alignment, scoping, or testing, and is not an output of a larger project, submit a Change Request.
+         - Open a [Configuration Change issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) using the CM: Configuration Change [Generic] template.
+    - Department Change Request
+         - Open a [Department Change issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new#) using the CM: Department Request template.
+    - EntApps System Incident Log
+         - Open an [Incident issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) using the IM: FinSys Incident template.
+    - Coupa Sandbox Refresh
+         - Open a [Coupa Sandbox Refresh issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) using the Sandbox - Coupa Refresh template.
+    - NetSuite Sandbox Refresh
+         - Open a [NetSuite Sandbox Refresh issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) using the Sandbox - NetSuite Refresh template.
+    - Zuora Central Sandbox Refresh
+         - Open a [Zuora Central Sandbox Refresh issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) using the Sandbox - Zuora Central Refresh template.
 
-### Integrations, Automations and Architecture
+6. **Partnerships & Collaborations with:**
+    - [Security Team](../security/): Conform to the established cybersecurity framework and requirements
+    - IT Operations 
+    - [Data Team](../business-technology/data-team/): Empower and generate business value from our data assets by using the data to drive optimal business decisions across GitLab.
+    - [Procurement Team](../finance/procurement/)  
+    - People Operations Systems Team
 
-Our architecture team manages all of the integrations and automations between Enterprise Applications at GitLab. Focusing on building out failover, redundant and auditable integrations that are constantly monitored. Developing automations to eliminate manual and repetitive tasks along with contributing to improved efficiency, service quality, and overall organizational performance.
+7. **Join Our Team** - [Current Job Openings](https://about.gitlab.com/jobs/all-jobs/#general-administrative)
 
-### Services & Operations
+8. **Contact Us**
+    - **For Technical Support, Service Requests or General Questions:** HelpLab - [IT Break/Fix Request](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=07b1f158979c4610a326158de053affb)
+    - Slack Channels
+        - #[enterprise-apps](https://gitlab.slack.com/archives/CCPG8P3K4)
+        - #[business-technology](https://gitlab.slack.com/archives/C01BLS12V37)
 
-Enterprise Application Services (EAS) provides  horizontal support, operations, administration, governance, risk assessment, and compliance of Enterprise Services. Leveraging the ITIL framework, EAS is responsible for the end-to-end service and application lifecycle management, and promotes operational excellence through Enforcement of IT Policies & Procedure, including Change-, Release-, and Incident Management, while ensuring operating effectiveness through Compliance Reviews.
-
-### SOX Compliance
-
-We are the single point of contact for IT owned applications for ITGCs. We participate in walkthroughs hosted by KPMG or Internal Audit. We support operating effectiveness testing by KPMG and IA. Facilitate ITGC remediations along with onboarding of new applications owned by IT. We facilitate SOX UARs for systems and key reports as well as SOD reviews for key SOX financial applications.
-
-## <i class="fas fa-users" id="biz-tech-icons"></i> How We Operate
-
-| Control Family | Control Mapping |
-| ------ | ------ |
-| Access to Programs and Data | Logical access provisioning requires approval from appropriate personnel. |
-| Access to Programs and Data | Terminated users have their access revoked in a timely manner. |
-| Access to Programs and Data | GitLab access reviews are performed on a quarterly basis; research and corrective action is taken where applicable. |
-| Access to Programs and Data | The ability to add, modify, and delete accounts is limited to appropriate personnel. |
-| Access to Programs and Data | Authentication to in-scope systems is configured in line with the password policy. Exemptions to the policy are formally approved. |
-| Change Management | Access to migrate changes to production is limited to appropriate personnel. |
-| Change Management | Changes are tested and approved by appropriate personnel in accordance with the change management policy. |
-| Computer Operations | Access to modify relevant jobs is restricted to appropriate personnel. |
-| Computer Operations | Jobs are monitored to ensure effective ongoing operation. Issues are researched and resolved in a timely manner. |
-| Computer Operations | Backups are completed according to a predefined system schedule. |
-| Computer Operations | GitLab performs backup restoration or failover tests at least annually to confirm the reliability and integrity of system backups or recovery operations. |
-| Program Development | Significant program changes are tested and known issues are communicated to the relevant stakeholders prior to approval. |
-| Program Development | GitLab validates that data transferred during an applicable program change is complete and accurate. |
-| SOC reports review | SOC reports are reviewed on a periodic basis. |
+9. **Other Reference**
+    - [Quote to Cash Documentation](../business-technology/enterprise-applications/quote-to-cash/)
+    - [Enterprise Application Guides:](../business-technology/enterprise-applications/guides/) GitLab's Enterprise Application Guides for Finance Systems
