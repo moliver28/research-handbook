@@ -37,9 +37,8 @@ Marketing analysis
 
 - Exemplary spoken and written English.
 - Experience in sales and/or marketing teams of B2B software, Open Source software, and the developer tools space is preferred.
-- Experience with marketing automation software a plus.
+- Experience with marketing automation software (Marketo) a plus.
 - Experience with Salesforce CRM software helpful.
-- Familiarity with Git and repositories useful.
 - Proficiency in MS Excel/ Google Sheets.
 - You are team-centric.
 - You're a self starter, willing to read and watch in order to learn.  (Be ready to learn and how to use GitLab and Git).
@@ -47,7 +46,7 @@ Marketing analysis
 
 ### Marketing Operations Manager (Intermediate)
 
-Your job as marketing operations manager is threefold: maintaining, optimizing, and integrating a set of marketing tech stacks, including Marketo and Outreach. You will work closely with business partners across the organization and help impact change and optimization. You will be able to drive key quarterly OKRs.
+Your job as marketing operations manager is threefold: maintaining, optimizing, and integrating a set of marketing tech stacks. You will work closely with business partners across the organization and help impact change and optimization. You will be able to drive key quarterly OKRs.
 
 #### Job Grade
 
@@ -72,17 +71,16 @@ Marketing data examination
 
 - Assist in measuring and investigating the different tools.
 - Assist key business partners in measuring the effectiveness of marketing campaigns and marketing automation programs.
+- Execute project plans, coordinate work streams and dependencies, track and communicate progress, and identify obstacles and ensure they are addressed.
 
 #### Requirements
 
 All of the above requirements and:
 
 - Two plus years of experience in Marketing Operations or related role.
-- Bachelor's degree.  Is your college degree in French foreign politics with a minor in interpretive dance but you've been selling and marketing products since you were 12!  We understand that your degree isn't the only thing that prepares you as a potential job candidate.
-- Experience with modern marketing and sales development solutions such as Salesforce, LeanData, Bizible, ZoomInfo, RingLead, and Marketo.
-- Outreach experience is required.
-- You are obsessed with making customers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness.
-- Be ready to learn how to use GitLab and Git.
+- Bachelor's degree. Is your college degree in French foreign politics with a minor in interpretive dance but you've been selling and marketing products since you were 12!  We understand that your degree isn't the only thing that prepares you as a potential job candidate.
+- Experience with modern marketing and sales development solutions such as Marketo, Traction, Bizible, ZoomInfo, Qualified, Salesforce, and similar tools.
+
 
 ### Senior Marketing Operations Manager
 
@@ -116,7 +114,7 @@ The Staff Marketing Operations Manager is a [grade 8](/handbook/total-rewards/co
 
 #### Justification
 
-The business need for an individual contributor Staff Manager Marketing Operations Manager role is to have a team member with a high level of expertise working with cross-functional groups and to be able to confidently drive facilitation of problem-solving and influence decisions by being a technical/functional knowledge expert that articulates ideas very well. Heavy cross-department collaboration is expected with a greater emphasis on being a thought partner and having a strong problem-solving skillset. This position is needed to help with alignment with our growing stakeholder list across the company that has complex work requirements we need to support but sometimes do not have a dedicated project driver.  In the market, there are over 75 organizations that typically have 3 to 4 staff level team members.
+The business need for an individual contributor Staff Manager Marketing Operations Manager role is to have a team member with a high level of expertise working with cross-functional groups and to be able to confidently drive facilitation of problem-solving and influence decisions by being a technical/functional knowledge expert that articulates ideas very well. Heavy cross-department collaboration is expected with a greater emphasis on being a thought partner and having a strong problem-solving skillset. This position is needed to help with alignment with our growing stakeholder list across the company that has complex work requirements we need to support but sometimes do not have a dedicated project driver.
 
 #### Responsibilities
 
@@ -161,7 +159,6 @@ The business need for an individual contributor Staff Manager Marketing Operatio
 - Collaborate and make proposals across several teams, and helps team members make informed decisions in alignment with strategic plans.
 - Drives formal networks with key decision makers and serves as external spokesperson for the organization.
 - Impact results across teams.
-- Expert in using GitLab.
 
 #### Requirements
 
@@ -228,7 +225,7 @@ The Senior Manager, Marketing Operations is a [grade 9](/handbook/total-rewards/
 - Able to analyze situations and makes tactical decisions involving day-to-day operations of multiple teams. These decisions may encompass more team members and resources and generally at a higher level of risk and complexity than the manager level.
 - Articulates risks and gaps to leadership. When identifying risks, makes a compelling case to senior leaders with options for how to address the anticipated problem.
 - Excellent analytical, problem-solving capability and help the team make sound conclusions.
-- Lead by example. Can drive decision making but can also roll up your sleeves.
+- Lead by example. Can drive decision making, but can also roll up your sleeves.
 - Able to Escalate issues to appropriate levels of authority when decisions or progress are blocked and are able to frame the issue.
 
 #### Career Ladder
@@ -238,7 +235,7 @@ The next step after that would be [Director, Marketing Operations.](/job-familie
 
 ### Director, Marketing Operations
 
-As the Director of Marketing Operations, you will be responsible for leading the team that ensures effective strategy, efficient investment, and accountability across the GitLab marketing department. You will be responsible for ensuring marketing technology is customized to the needs of its users as well as set up to ensure effective data quality. You will also lead process development, budget administration, and marketing analytics.
+As the Director of Marketing Operations, you will be responsible for leading the team that ensures effective strategy, efficient investment, and accountability across the GitLab marketing department. You will be responsible for ensuring marketing technology is customized to the needs of its users as well as set up to ensure effective data quality. You will also lead process development, and budget administration.
 
 #### Job Grade
 
@@ -271,8 +268,6 @@ The Director, Marketing Operations is a grade 10.
 - Demonstrated experience designing an innovative marketing technology stack.
 - Proven experience with change management and organizational transformation.
 - Familiarity with our tech stack is a strong plus.
-- BA or equivalent experience.
-- Leadership at GitLab.
 - Ability to use GitLab.
 
 #### Career Ladder
@@ -303,7 +298,6 @@ The Senior Director, Marketing Operations is a grade 11.
 
 #### Requirements
 
-- 11+ years of experience including:
 - 7+ years of management experience.
 - 10+ experience in the enterprise software industry and SaaS.
 - Excellent leadership presence and can communicate structured thoughts/ideas seamlessly.
@@ -331,9 +325,7 @@ The Senior Director, Marketing Operations is a grade 11.
 #### Performance Indicators for Marketing Operations
 
 - MOPs martech roadmap: consolidate martech where possible, increase user adoption, utilization, and ROI
-- Increase conversation to meetings scheduled rate by 2% (currently 8.7% conversion) via Drift
-- Utilize ABM to further segment audiences on the website to deliver more personalized and relevant messaging
-- Decrease gaps in the current setup and configuration of the Adobe Marketo Measure tool to less than 10%
+- Increase conversion rate from Inquiry > SAO
 
 ### Hiring Process
 
