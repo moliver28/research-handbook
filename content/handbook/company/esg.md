@@ -61,7 +61,7 @@ GitLab’s ESG strategy is driven by our [values](/handbook/values/) and deeply 
 
 The [ESG Team](/handbook/legal/esg/) creates and maintains GitLab’s ESG/sustainability strategy and programs. This includes creating and managing GitLab’s ESG disclosures and public ESG reports, identifying and prioritizing key issues to advance our social and environmental goals, and creating partnerships with nonprofit organizations that support GitLab’s values and mission.
 
-##### ESG Materiality Matrix
+##### ESG Materiality Assessment
 
 Our ESG strategy is informed by an understanding of the ESG topics that matter most to our business and our stakeholders. Completed in December 2022, our ESG materiality assessment included engagement with internal and external stakeholders and a focus on “double materiality,” exploring both topics that have the greatest impact on GitLab’s business, as well as the actual and potential impact of our activities on the environment, society, and our global communities. GitLab senior leadership — including members of the Nominating and Corporate Governance Committee of GitLab’s Board of Directors — were engaged as part of the assessment.
 
@@ -217,8 +217,7 @@ From education to mentorship, sponsorship, and advocacy, GitLab educates its lea
 - **[TMRG Executive Sponsors](/handbook/company/culture/inclusion/erg-guide/#executive-sponsorship)** – VP+ leaders who volunteer to support, advocate, and connect TMRG communities to our shared GitLab mission and vision and E-Group leaders.
 - **[Leadership DIB Council](/handbook/company/culture/inclusion/leadership-dib-council/)** – A strategic group of senior leaders who assist the DIB team in implementing and aligning the strategy to each division’s strategic imperatives.
 - **[Sponsorship](/handbook/company/culture/inclusion/dib-sponsorship/)** – VP+ leaders advocate and provide visibility and guidance to our team members for growth and career advancement.
-- **Equipping Our People Leaders** – Our leadership training ensures that DIB is considered and threaded throughout the team member experience.
-
+**Equipping Our People Leaders** – Our leadership training ensures that DIB is considered and threaded throughout the team member experience.
   - [Elevate – Manager training](/handbook/people-group/learning-and-development/elevate-programs/elevate/)
   - [Elevate+ – Director+ inclusive leadership training](/handbook/people-group/learning-and-development/elevate-programs/elevate+/)
   - [Elevate Applied – Continuous learning for Elevate graduates](/handbook/people-group/learning-and-development/elevate-programs/elevate-applied/)
