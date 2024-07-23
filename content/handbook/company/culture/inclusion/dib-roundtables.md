@@ -68,8 +68,8 @@ A DIB Team Member will set up a time to discuss with the manager the function of
 ### Set the ground rules
 
 - This is a closed session and a safe space.  However if something arises as part of the conversation that needs investigation, the roundtable facilitator will reach out to their [PBP](/handbook/people-group#people-business-partner-alignment-to-division) to discuss.
-- [Assume positive intent]({{< ref "values#assume-positive-intent" >}}), share and express with a higher intent
-- Learning happens through experience; so if someone makes a mistake, [give feedback kindly]({{< ref "values#kindness" >}})
+- [Assume positive intent](/handbook/values/#assume-positive-intent), share and express with a higher intent
+- Learning happens through experience; so if someone makes a mistake, [give feedback kindly](/handbook/values/#kindness)
 - Please avoid multitasking unless there is a true emergency; please give your full attention to the session.
 
 ### Start with Privilege for Sale or Privilege Backpack
@@ -90,13 +90,13 @@ A DIB Team Member will set up a time to discuss with the manager the function of
 ### Roundtable Questions
 
 - What are some of your most important values?
-    - What resonates with you?
-- Share a time when you felt like you were left out or didn’t belong?
-    - What are some of the common threads, behaviors that made you feel like this?
+  - What resonates with you?
+- Share a time when you felt like you were left out or didn't belong?
+  - What are some of the common threads, behaviors that made you feel like this?
 - Share a time where you felt empowered or belonged?
-    - What were the actions/behaviors that led to you feel empowered or that you belonged?
+  - What were the actions/behaviors that led to you feel empowered or that you belonged?
 - What does Diversity, Inclusions and Belonging mean to you?
-    - Why is it important?
+  - Why is it important?
 - What is one thing as a group can we do to make a positive impact on Diversity, Inclusions and Belonging?
 
 Once you have fully completed the roundtable, create a handbook entry on the DIB Roundtable Sharing Page. You can share as much or as little as your would like too about the experience and learnings of the roundtable.

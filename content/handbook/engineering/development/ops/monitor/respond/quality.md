@@ -1,14 +1,6 @@
 ---
-
 title: Group Respond - GitLab End-to-End (E2E) Testing for group Respond
 ---
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -23,11 +15,11 @@ to check whether our application works as expected across the entire software st
 integration of all micro-services, features and components that are supposed to work together to satisfy any
 meaningful and complete user workflow.
 
-
 ### Where are they?
 
 In the [GitLab repository](https://gitlab.com/gitlab-org/gitlab/qa). The E2E tests for this group can
 be found or added at:
+
 - `qa/qa/specs/features/api/8_monitor/`
 - `qa/qa/specs/features/browser_ui/8_monitor/`
 - `qa/qa/specs/features/ee/api/8_monitor/`
@@ -50,12 +42,12 @@ environments.
 
 ## FAQ
 
-#### 1. How to run orchestrated test?
+### 1. How to run orchestrated test?
 
 First you will need to install `gitlab-qa` gem. Navigate to `gitlab/qa/`. Depends on the scenario and if your test is
 for an EE feature or not, but for the benefit of this group, we use `email_notification_for_alert_spec.rb` as example:
 
-```
+```console
 gitlab-qa Test::Integration::SMTP CE qa/specs/features/browser_ui/8_monitor/alert_management/email_notification_for_alert_spec.rb
 ```
 
@@ -64,7 +56,7 @@ of scenario and license, see -
 [What tests can be run?](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#what-tests-can-be-run).
 The entire process will happen inside docker containers. You won't be able to see browser session.
 
-#### 2. How to run instance scenario test?
+### 2. How to run instance scenario test?
 
 `::Instance` scenario are regular tests that don't need special setups. Basically just login as a user and do his things
 against a GitLab instance type of tests. For these you can also use `gitlab-qa` but you don't have to. You will still need
@@ -72,7 +64,7 @@ to be in `gitlab/qa/` and run `$ bundle install` first. Then depends on which en
 
 **GDK**
 
-```
+```text
 QA_GITLAB_URL=http://<your.gdk.hostname>:3000 bundle exec rspec qa/specs/features/path/to/your/spec.rb
 ```
 
@@ -82,7 +74,7 @@ cases or how to config your GDK, see
 
 **Staging or other dotcoms**
 
-```
+```text
 GITLAB_USERNAME="gitlab-qa" GITLAB_PASSWORD=<in 1password> GITLAB_QA_USER_AGENT=<in 1password> QA_GITLAB_URL=https://staging.gitlab.com bundle exec rspec qa/specs/features/path/to/your/spec.rb
 ```
 
@@ -91,7 +83,7 @@ so you need to have chromedriver installed. If the test is quarantined, you will
 the command to ignore this metadata. For list of supported environment variables, see
 [Supported GitLab environment variables](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#supported-gitlab-environment-variables)
 
-#### 3. I triggered the e2e:package-and-test job. Where do I find the tests?
+### 3. I triggered the e2e:package-and-test job. Where do I find the tests?
 
 If you have an MR and want to make sure it is running all the non-quarantined E2E tests to ensure no regression introduced
 anywhere, please trigger the manual `e2e:package-and-test` job under `qa` stage of the pipeline of your MR. After
@@ -102,7 +94,8 @@ pipeline directly. All test jobs will produce artifacts from test execution (log
 **For example:** In this [MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/110829), `e2e:package-and-test` was run and triggered
 a [downstream pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipelines/767219117) that runs all E2E tests. You want to
 inspect why [ee:instance-parallel 3/5](https://gitlab.com/gitlab-org/gitlab/-/jobs/3714070554) failed:
-- First, check the the job log. It contains stacktrace that can be helpful for investigation.
+
+- First, check the job log. It contains stacktrace that can be helpful for investigation.
 - Or in the job's artifacts, under `gitlab-qa-run-*/gitlab-ee-qa-*/qa-test-*/`,  you will find screenshots of where
 the test failed at during execution.
 
@@ -118,7 +111,7 @@ review-app pipeline - that is automatically triggered under `review` stage of yo
 [Example review-app downstream pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipelines/767219112).
 These tests are considered blocking if they fail.
 
-#### 4. How can I find tests results for staging or any other dotcom(s)?
+### 4. How can I find tests results for staging or any other dotcom(s)?
 
 Similar to test pipelines against master or nightly. There are dedicated slack channels that can direct you to the test
 pipelines for that specific environment:
@@ -141,7 +134,7 @@ have a lot of these anyways, it shouldn't be too difficult to track
 - `qa-browser_ui-8_monitor`
 - `ee-qa-browser_ui-8_monitor` - this job will need to be defined when we have any non-orchestrated browser test for EE added in the future.
 
-#### 5. How to find test resources (project, group, user, etc...) for investigation?
+### 5. How to find test resources (project, group, user, etc...) for investigation?
 
 In non-dotcom pipelines, unfortunately all resources are wiped out when the docker container that hosted GitLab instance
 for the pipeline got destroyed. Our only hopes are job logs, screenshots or maybe reproduce locally.
@@ -151,7 +144,7 @@ that can help with the search as well. Worry not, we have a mechanism in place t
 from passing tests. The ones that were created by a failing test will be retained until the Saturday of that week.
 So you should have enough time to investigate what went wrong.
 
-#### 6. What to do if I can't understand what I see?
+### 6. What to do if I can't understand what I see?
 
 Please reach out to [your counterpart SET](/handbook/engineering/quality/#individual-contributors)
 or in the [#quality](https://gitlab.slack.com/archives/C3JJET4Q6) channel. Someone will gladly offer help!

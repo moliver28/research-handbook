@@ -1,8 +1,6 @@
 ---
-
 title: "Deliberate Practice"
 ---
-
 
 They say that practice makes perfect.  While it's true that practice is important to hone one's skills, it's how you actually do that practice that matters.  [Deliberate Practice](https://jamesclear.com/beginners-guide-deliberate-practice) is a particular way of practicing that is persistant and intense.  When one practices deliberately, they are stretching beyond their normal comfort level and they are focusing on a particular piece of their routine or demonstration to work on with a specific goal of improving performance.
 
@@ -76,23 +74,23 @@ The benefits of frequent peer review sessions include:
 1. **Skill Development**: Participating in peer review sessions hones team members' analytical and critical thinking skills. Constructive feedback and discussions contribute to professional growth and development.
 1. **Confidence Boost**: Knowing that the approach and the action plan have undergone rigorous peer review instills confidence in the team's work and gives them assurance when presenting to prospects and customers.
 
-#### Process
+### Process
 
 - Process DRI (rotated monthly or quarterly )
   - Ensures that every session has one or multiple volunteers to present an opportunity for review. If no volunteers are identified, the process DRI is responsible for cancelling the meetong
   - Sends a reminder to team members BEFORE the meeting to ensure they review what has been filled in
 - Presenting SA
   - Creates a copy and fills out the [SA Peer Review template](https://docs.google.com/document/d/1d-2cmSAR-KQ9bGOIMxfWgJFMOad_nSgnsNBCf4pB-0s/edit) document before the session. This should not be a heavy lift preparation and the presenting SA is expected to spend max. 10-15 minutes on this. The document should incude:
-     - High level description of the account and opportunity;
-     - Technical Opportunity Plan; Timeline; Actions already executed or planned;
-     - Links to additional information (SFDC, slide decks, opportunity / strategy / success plans, etc.)
+    - High level description of the account and opportunity;
+    - Technical Opportunity Plan; Timeline; Actions already executed or planned;
+    - Links to additional information (SFDC, slide decks, opportunity / strategy / success plans, etc.)
 - Attending SAs
   - Review meeting notes / template beforehand
   - Ask questions & provide suggestions during the session. E.g.:
     - _Did you consider suggesting Scan Result Policies?_
     - _Your running notes have great info about the tech stack, how were you able to find that?_
 
-#### Choosing the right opportunity
+### Choosing the right opportunity
 
 A good opportunity for a peer review process should meet following requirements:
 

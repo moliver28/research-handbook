@@ -1,5 +1,4 @@
 ---
-
 title: "Acquisition Process: Communications"
 ---
 
@@ -102,17 +101,17 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
     1. Push blog post live (content team)
     1. Notify Nasdaq of upcoming press release (comms team)
     1. Submit release to GlobeNewswire; press release crosses wire with blog post linked within (comms team)
-    1. Post press release on GitLab’s IR site (comms team)
-    1. Post press release on GitLab’s newsroom (comms team)
+    1. Post press release on GitLab's IR site (comms team)
+    1. Post press release on GitLab's newsroom (comms team)
     1. Post internal Slack message to #company-fyi Slack channel (corporate development / people team)
-    1. Publish social posts from GitLab and acquired company’s handles (social team + acquired company leadership)
+    1. Publish social posts from GitLab and acquired company's handles (social team + acquired company leadership)
     1. Issue field communications to team via Slack and upload to HighSpot (field communications team)
     1. Pitch media if outbound media relations are planned (communications team)
-    1. Push banner live on acquired company’s website (DEX in partnership with acquired company)
+    1. Push banner live on acquired company's website (DEX in partnership with acquired company)
     1. Flag/post GitLab e-group social media commentary (social team + e-group members)
     1. Host AMA for EMEA and US East Coast team members (people team in partnership with corporate development and product)
     1. Host second AMA for APJ time zones (people team in partnership with corporate development and product)
     1. Share media coverage recap with stakeholders, including in acquisition working group and e-group channels (comms team)
     1. Reach out to relevant analysts, if appropriate (analyst relations)
-    1. Either port to Gitlab or deactivate acquired company’s social channels, depending on volume of followers (social team)
+    1. Either port to GitLab or deactivate acquired company's social channels, depending on volume of followers (social team)
     1. Retro of announcement and process (corporate development team)

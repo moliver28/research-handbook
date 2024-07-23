@@ -21,11 +21,11 @@ title: "Customer Advisory Boards"
 ### CAB Nomination Process
 
 ***Please reach out to the Product CAB Manager (slack the cab-internal channel) before you nominate a customer for the Product CAB. Typically the customer profile is enterprise level with over 1200 licenses; however we review every nomination on its own merit***
+
 1. SAE's can nominate their customers for CAB membership via the customer contact view in SFDC (Nominate as a Reference tab).
 2. Process outlined [here](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#process-for-nominating-new-reference-customers)
 3. Complete the relevant fields, tick the CAB reference type and the details will be forwarded to the Customer Reference Team for review.
 4. We will revert to the nominator with regards to the membership.
-
 
 ### CAB Membership Criteria
 
@@ -59,7 +59,6 @@ Issue Templates that are activated to manage a CAB sesssion
 
 - [CAB Post Event Planning](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/customer-advisory-board/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=#): post event management and communications template
 
-
 ### CAB-Shared Slack channels
 
 A number of our customers continue the conversation with each other and with our product team in the CAB-Shared Slack channel (#cab-shared). Because our customers are active in this channel, please be aware of content shared. We encourage GitLab team members to join our internal CAB slack channel (#cab-shared-internal) to stay up-to-date with regards to the CAB.
@@ -74,7 +73,8 @@ Please provide as much context about your announcement as possible, specifically
 Find CSM [process](https://docs.google.com/presentation/d/1LPJazgskhQJnqjBYzRlu5dGDVmUbnvfpzfYrPXqXkRY/edit#slide=id.gf25b6c3b0c_2_0) for managing customer feedback from the Product CAB.
 
 **Process**
-1. The Customer Reference Manager (CRM) creates the “CAB CSM Follow up” [issue template](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/customer-advisory-board/-/issues/new?issue%5Bmilestone_id%5D=) in the CAB project and uploads links to the recordings etc
+
+1. The Customer Reference Manager (CRM) creates the "CAB CSM Follow up" [issue template](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/customer-advisory-board/-/issues/new?issue%5Bmilestone_id%5D=) in the CAB project and uploads links to the recordings etc
 2. The CRM tags the CSMs and CSM managers in the issue to review the CAB recordings/ notes and transcripts when their customer has attended the CAB
 3. The CSM create new issues in the Product repo as per [agreed process](/handbook/customer-success/csm/product/) based upon their customer feedback (links to the customer SFDC account as per standard process for reporting)
 4. If the issue already exists please add the CAB label provided and add the customer SFDC record
@@ -84,25 +84,30 @@ Find CSM [process](https://docs.google.com/presentation/d/1LPJazgskhQJnqjBYzRlu5
 ### 2021 Meeting Schedule
 
 ***April 13, 2022***
+
 - 25 customers in attendance
 - Product CAB FY23Q1 [Format](https://docs.google.com/presentation/d/1I-YqjibE3MiLsKSGoiDWN5dWUiA_tsRzINV98LnzldM/edit#slide=id.gd1e684271c_0_0)
 - Customer Sharing - US Technology customer
 
 ***January 12, 2022***
+
 - 19 customers in attendance
 - Product CAB FY22Q4 [Format](https://docs.google.com/presentation/d/12b8dHIbwbcB1NsnMU31kUPNUBHBMh-H3H7LDX6LwqpY/edit#slide=id.g1060494091b_0_0)
 - Customer Sharing - US Technology customer
 
 ***October 6, 2021***
+
 - 17 customers in attendance
 - Product CAB FY22Q3 [Format](https://docs.google.com/presentation/d/1xxxzuNfbNfuUbfL0ulG4Voyhj_5UsjN14Im2XWoEs6g/edit#slide=id.gec5ab9d757_0_67)
 
 ***July 14, 2021***
+
 - 18 customers in attendance
 - Product CAB FY22Q2 [Format](https://docs.google.com/presentation/d/1k930WXX5B0zEq0j9R96foyic8xgjB3cYFJpe0_kVntU/edit#slide=id.p)
 - Customer sharing - US Public Sector customer
 
 ***April 7, 2021***
+
 - 22 customers in attendance
 - [New 2 hour customer driven format launched](https://docs.google.com/presentation/d/1PQaaf-_zkJfKkDXsGoOKLTI_uEnRbfrn6IhkTNdEUE0/edit#slide=id.gc2eec113a6_0_65)
 - Average rating of CAB based on a survey of 18 respondents was 8.9 on a scale of 1-10.
@@ -113,103 +118,121 @@ Find CSM [process](https://docs.google.com/presentation/d/1LPJazgskhQJnqjBYzRlu5
 CAB on hold due to program relaunch in Q1
 
 ***November 4, 2020***
+
 - 19 customers in attendance
 - Ops Product Update and Roadmap
 - Customer sharing - European Multinational conglomerate
 
 ***October 7, 2020***
+
 - 11 customers in attendance
 - Fuzz Testing - update and live demo's
 - Customer sharing - European IT Consultancy
 
 ***September 2, 2020***
+
 - 22 customers in attendance
 - Distribution product update
 - Customer sharing - US Telecom
 
 ***August 5, 2020***
+
 - 15 customers in attendance
 - Global Search product update
 - Customer discussion around Monitoring tool built with GitLab
 
 ***July 1, 2020***
+
 - 14 customers in attendance
 - Secure and Defend update: Acquisition discussion
 - Portfolio Management update and roadmap discussion
 
 ***June 3, 2020***
+
 - 18 customers in attendance
 - Design Management capabilities discussion
 - Conversation around Remote work challenges and successes
 
 ***May 6, 2020***
- - 12 customers in attendance
- - Create: Editor update
- - Customer sharing - U.S. Telecom
+
+- 12 customers in attendance
+- Create: Editor update
+- Customer sharing - U.S. Telecom
 
  ***April 21, 2020***
- - 19 customers in attendance
- - Half-day virtual event
+
+- 19 customers in attendance
+- Half-day virtual event
 
 ***March 4, 2020***
+
 - 10 customers in attendance
 - Analytics overview and update
 - Runners permissions set discussion
 
 ***February 5, 2020***
+
 - 10 customers in attendance
 - Infrastructure as code review
 - Customer sharing - media organization
 
-
-
 ### 2019 Meeting Schedule
 
 **GitLab In-Person CAB Meeting - October 15 & 16, 2019***
+
 - Space Needle
 - Seattle, Washington
 
 ***GitLab Product Roadmap Review - September 4, 2019***
+
 - Member introductions
 - Stage discussion
 - Customer Sharing
 
 ***GitLab Product Roadmap Review - August 7, 2019***
+
 - Member introductions
 - Stage discussion
 - Customer Sharing
 
 ***GitLab Product Roadmap review - July 10, 2019***
+
 - Member introductions -
 - Stage discussion
 - Customer Sharing
 
 ***GitLab Verify direction update - June 5, 2019***
+
 - Member introductions - 11 members in attendance
 - Review of Verify direction
 - Customer Sharing
 
 ***GitLab In-Person CAB Review -May 1, 2019
+
 - Member introductions
 - Review of In-Person Customer meeting
 - Discussion around future of CAB and project to work on together
 
 ***In-Person CAB Meeting- April 18-19, 2019***
+
 - Yankee Stadium
 - Bronx, New York
 - Number of attending customers - 17
 
 ***GitLab Configure review- March 6, 2019***
+
 - Member introductions
 - Customer Sharing
 - Review of Configure
 
 ***GitLab Geo review-February 6, 2019***
+
 - Member introductions
 - Customer Sharing
 - Review of Geo
 
 ***GitLab Manage review - January 9, 2019***
+
 - Member introductions - 11 members in attendance
 - Review and feedback around Manage
 - Customer Sharing
@@ -217,25 +240,28 @@ CAB on hold due to program relaunch in Q1
 ### 2018 Meetings
 
 ***GitLab Release review-December 5, 2018***
+
 - Member introductions
 - Review of Release
 - Year-end check up and member discussion
 
 ***GitLab Create review-November 7, 2018***
+
 - Member introductions
 - Customer Sharing
 - Review of Create
 
 ***GitLab Plan review-October 17, 2018***
+
 - Member introductions- 8 members in attendance
 - Review of Plan Roadmap
 - Customer Sharing
 
 ***Kickoff Meeting-September 5, 2018***
+
 - Member introductions-9 members in attendance
 - Group goals
 - Top DevOps challenges
-
 
 ### GitLab Special Interest Group
 
@@ -250,4 +276,3 @@ We believe that transparency and sharing is a key way to help us all learn and i
 ***Membership:*** Approximately 8-15 users, GitLab Product Manager
 
 The CRM team will track the customers who are part of SIG's in this [tracking sheet](https://docs.google.com/spreadsheets/d/1D6zkG5dm3YQt8NL2Oc4TA8_trOV8XkOTgdGAnCZsw2A/edit#gid=0) and update ReferenceEdge with their details. The management and delivery of the SIG program is driven by the relevant product area.
-

@@ -1,12 +1,11 @@
 ---
-
 title: Support Team Member Time Off
 description: Guidelines for how time off applies to Support team members and what actions need to be taken. Page should not be moved without a Support Global Change Management issue.
 ---
 
 ## Support Team Member Time Off
 
-The Support Team follows [GitLab's paid time off policy](https://about.gitlab.com/handbook/paid-time-off).
+The Support Team follows [GitLab's paid time off policy](/handbook/people-group/paid-time-off/).
 We balance that with the need to deliver support to our customers every day.
 This page is intended to provide all Support Team Members with an understanding
 of what we need to do to achieve that balance, making it possible for all to
@@ -79,7 +78,7 @@ A little thoughtfulness on everybody's part will go a long way toward making it
 possible for everyone to take their desired days off. As you look to plan your
 time off, please:
 
-- ensure you know the [company wide paid time off guidelines](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
+- ensure you know the [company wide paid time off guidelines](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
 - consider a different time off schedule if your [regional capacity calendar](https://gitlab.com/gitlab-com/support/toolbox/support-calendar) shows that on any of the days you would be absent, the regional team would be short by 20% or more of its people
 - check the regional and global calendars for the groups you are part of (SGG/L&R/etc.) and coordinate with your group to ensure we have sufficient cover for days with low availability.\
 (In EMEA, the aim is to have at least 4 engineers (non L&R) per SGG and 3 engineers from L&R working on each normal business day)
@@ -126,10 +125,10 @@ advance, if possible.
 
 #### If your absence will be less than three business days
 
-Is a customer waiting on you? Check with them. If your PTO will prevent a
-timely update, ask the customer whether they would prefer to pause the
-ticket till your return or have someone else step in to work with them.
-If they want to pause, put the ticket on-hold. Otherwise:
+If your PTO will prevent a timely update, ask the customer whether
+they would prefer to pause the ticket with the `on-hold` status or
+have someone else step in.
+For high priority tickets, tend towards a handing over to someone else:
 
 1. Use the [OOO Ticket Summary](https://gitlab.com/search?search=360080271299&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar)
    macro, providing the same information as described in the
@@ -195,7 +194,7 @@ If you plan to be out for more than three days, follow the guidance regarding
 Otherwise:
 
 1. Please do your best to resolve any assigned tickets you have in your queue.
-1. Communicate with your customers to let them know the days you’ll be away, and
+1. Communicate with your customers to let them know the days you'll be away, and
    to ask whether they will need help during your absence. Many of our customers
    might be on the same holiday schedule and will be fine with resuming work on
    a ticket when you both return.
@@ -210,7 +209,7 @@ Otherwise:
 ## General Tips
 
 In addition to the company-wide tips in
-[Communicating Your Time Off](/handbook/paid-time-off/#communicating-your-time-off),
+[Communicating Your Time Off](/handbook/people-group/paid-time-off/#communicating-your-time-off),
 take a look at these tips to increase your ability to disconnect from work,
 truly make the most of your time off, and make it easier to return to work:
 
@@ -249,4 +248,4 @@ Consider setting up a few coffee chats with teammates to simply reconnect with t
 
 Once you have taken the time to catch-up, update your availability using the [Out of Office](/handbook/support/readiness/operations/docs/zendesk/apps/#out-of-office) app in Zendesk showing you are no longer OOO. This is done by navigating to the [app in Zendesk](https://gitlab.zendesk.com/agent/apps/out-of-office) and clicking the `Make available` button on the row with your user information in it.
 
-For more tips, check [returning from pto](/handbook/paid-time-off/#returning-from-pto).
+For more tips, check [returning from pto](/handbook/people-group/paid-time-off/#returning-from-pto).

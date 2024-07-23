@@ -23,6 +23,7 @@ not need development documentation).
 ### Maturity detail by service
 
 Key:
+
 * ✅ Service meets the criteria
 * ❌ Service does not meet the criteria
 * ➖ The criteria is skipped. Some maturity criteria make less sense for some services. For example, an infrastructure-facing service like Patroni is crucial to ops, but not related to our Development department, hence it does not require development guidelines.

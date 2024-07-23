@@ -20,7 +20,7 @@ The People Connect Specialist is a [Grade 5](/handbook/total-rewards/compensatio
 
 - Ensure a positive onboarding experience for new team members by ensuring all aspects of onboarding are completed accurately and timely including communication with new team members.
 - Raise documentation or process gaps as identified to the team.
-- Conduct regular audits of team member data, including missing data points and compensation or bonus payments.  
+- Conduct regular audits of team member data, including missing data points and compensation or bonus payments.
 - Serve as the first line of contact for all team member inquiries via slack and / or email.
 - Process requests for verifications of employment and unemployment claims.
 - Audit onboarding issues to ensure task completion in alignment with applicable deadlines.
@@ -102,11 +102,11 @@ The People Connect Lead is a [Grade 7](/handbook/total-rewards/compensation/comp
 
 The Manager, People Connect reports to the Director, Global People Operations
 
-#### Job Grade
+### Job Grade
 
 The Manager, People Connect is a [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+### Responsibilities
 
 - Onboard, mentor, and grow the careers of all team members.
 - Coach and mentor People Connect team to effectively address team member queries in line with our values.
@@ -120,9 +120,9 @@ The Manager, People Connect is a [Grade 8](/handbook/total-rewards/compensation/
 - Continuously manage and improve both administrative efficiency and team member experiences during onboarding.
 - Partner closely with Managers at GitLab to gain feedback from various teams about onboarding, offboarding and transition issues.
 - Review and report on People Operations and Onboarding metrics, including [OSAT](/handbook/people-group/people-group-metrics/#onboarding-satisfaction-osat) and [Onboarding Task Completion](/handbook/people-group/people-group-metrics/#onboarding-task-completion--x-tbd).
-- Continuously improve offboarding of team members.  
-- Along with the People Business Partners, create efficient people processes and clear hand-offs.  
-- Work closely with payroll, SecOps, and ITOps to continue to improve the administration of offboarding the time it takes to complete.
+- Continuously improve offboarding of team members.
+- Along with the People Business Partners, create efficient people processes and clear hand-offs.
+- Work closely with payroll, SecOps, and IT Ops to continue to improve the administration of offboarding the time it takes to complete.
 - Managing issue triaging and label review/ adding and reviewing contributions to the efficiency of our issue tracker.
 - Drive continued automation and efficiency to enhance the employee experience and maintain our efficiency value.
 - Announcing changes and improvements in the #whats-happening-at-gitlab Slack channel
@@ -132,7 +132,7 @@ The Manager, People Connect is a [Grade 8](/handbook/total-rewards/compensation/
 - Manage vendor renewals and agreements.
 - Partner with Finance Business Partner for budgeting purposes.
 
-#### Requirements
+### Requirements
 
 - Ability to use Greenhouse, Workday, GitLab and Culture Amp
 - The ability to work autonomously and to drive your own performance & development would be important in this role
@@ -155,11 +155,11 @@ The Manager, People Connect is a [Grade 8](/handbook/total-rewards/compensation/
 
 The Senior Manager, People Connect reports to Director, Global People Operations.
 
-#### Job Grade
+### Job Grade
 
 The Senior Manager, People Connect is a [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+### Responsibilities
 
 - Onboard, mentor, and grow the careers of all team members
 - Provide coaching to improve performance of team members and drive accountability
@@ -176,10 +176,10 @@ The Senior Manager, People Connect is a [Grade 9](/handbook/total-rewards/compen
 - Review and report on People Operations and Onboarding metrics, including [OSAT](/handbook/people-group/people-group-metrics/#onboarding-satisfaction-osat) and [Onboarding Task Completion](/handbook/people-group/people-group-metrics/#onboarding-task-completion--x-tbd)
 - Continuous improvement of offboarding for both voluntary and involuntary terms
 - Along with the People Business Partners, create a Terminations playbook to ensure the team can remain async and scale
-- Work closely with payroll, SecOps, and ITOps to continue to improve the administration of offboarding the time it takes to complete
+- Work closely with payroll, SecOps, and IT Ops to continue to improve the administration of offboarding the time it takes to complete
 - Mananging issue traiging and label review/ adding and reviewing contributions to the efficiency of our issue tracker. Provide strategic guidance and coaching on more difficult discussions and collaboration within issues.
 
-#### Requirements
+### Requirements
 
 - Ability to use GitLab
 - The ability to work autonomously and to drive your own performance & development would be important in this role
@@ -202,11 +202,11 @@ The Senior Manager, People Connect is a [Grade 9](/handbook/total-rewards/compen
 
 The Director of Global People Operations reports to the VP, People Operations, Technology and Analytics
 
-#### Job Grade
+### Job Grade
 
 The Director, Global People Operations is a [Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+### Responsibilities
 
 - Lead and manage a growing People Operations team responsible for managing the employee experience throughout the employee lifecycle.
 - Help shape a global People Operations strategy that aligns and moves the business towards continued growth, innovation and improvement.
@@ -214,19 +214,19 @@ The Director, Global People Operations is a [Grade 10](/handbook/total-rewards/c
 - Provide HR support and leadership with respect to day-to-day HR life cycle activities of client groups, including onboarding, offboarding, relocations, and other team member events.
 - Coordinate and support new People program implementations.
 - Create and manage streamlined processes and ensure alignment with key stakeholders inside and outside the People Team (Talent Acquisition Enablement, Payroll, Stock Administration, Finance)
-- Build collaborative relationships across the organization.  
+- Build collaborative relationships across the organization.
 - Drive a progressive, proactive, positive culture, and increase levels of engagement, enablement, and retention.
 - Assist with the maintenance and accuracy of HR data, including data audits.
-- Provide leadership and oversight of People Compliance function, ensuring compliant processes and alignment with local and international employee laws and regulations.  
+- Provide leadership and oversight of People Compliance function, ensuring compliant processes and alignment with local and international employee laws and regulations.
 - Assess/identify HR strategy, policy, or process improvements.
-- Provide leadership and oversight of business expansion solutions, ensuring scalability, forward focused, and meet team member satisfaction requirements.  
+- Provide leadership and oversight of business expansion solutions, ensuring scalability, forward focused, and meet team member satisfaction requirements.
 - Maintain in-depth knowledge of local, global, and federal employment laws; maintain and store records judiciously and securely.
 
-#### Requirements
+### Requirements
 
 - 8+ years of progressive experience in HR roles with a demonstrable track record of building and optimizing processes, systems, and structures.
 - Working knowledge of regulatory and legal requirements related to employment and People Compliance.
-- Working knowledge of business employment solutions and the options available such as utilizing a PEO or hiring contractors.  
+- Working knowledge of business employment solutions and the options available such as utilizing a PEO or hiring contractors.
 - 3-5 years of experience leading people and cross-functional organizations.
 - Demonstrable ability to own, execute and deliver on short- and long-term projects.
 - Strategic and innovative thinker; able to prioritize and use sound judgment and decision-making.
@@ -241,11 +241,11 @@ The Director, Global People Operations is a [Grade 10](/handbook/total-rewards/c
 
 The Senior Director of Global People Operations reports to the VP, People Operations, Technology and Analytics
 
-#### Job Grade
+### Job Grade
 
 The Director, Global People Operations is a [Grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+### Responsibilities
 
 - Lead and manage a growing People Operations team responsible for managing the employee experience throughout the employee lifecycle.
 - Assess, identify, shape and execute a global People Operations strategy that aligns and moves the business towards continued growth, innovation and improvement.
@@ -253,21 +253,21 @@ The Director, Global People Operations is a [Grade 11](/handbook/total-rewards/c
 - Provide leadership, direction, and expertise to ensure standardized practices and documented processes that drive unparalleled team member experiences.  Includes onboarding, offboarding, relocations, and other team member events.
 - Oversee the coordination and execution of People program implementations.
 - Utilizing a system design thinking approach (crafting processes from the outside-in), create and execute an infrastructure roadmap to focus on efficiency and experiences.  Create and manage streamlined processes and ensure alignment with key stakeholders inside and outside the People Team (Talent Acquisition Enablement, Payroll, Stock Administration, Finance)
-- Build and cultivate collaborative relationships across the organization.  
+- Build and cultivate collaborative relationships across the organization.
 - Drive a progressive, proactive, positive culture, and increase levels of engagement, enablement, and retention.
-- Owner of HR data accuracy and data privacy applying global rules where appropriate.  
+- Owner of HR data accuracy and data privacy applying global rules where appropriate.
 - Provide leadership and oversight of People Compliance function, ensuring compliant processes and alignment with local and international employee laws and regulations.  Oversee successful completion of compliance roadmaps and execution plans
-- Provide leadership and oversight of business expansion solutions, ensuring scalability, forward focused, ensuring solutions meet team member satisfaction requirements.  
+- Provide leadership and oversight of business expansion solutions, ensuring scalability, forward focused, ensuring solutions meet team member satisfaction requirements.
 - Maintain in-depth knowledge of local, global, and federal employment laws; maintain and store records judiciously and securely.
-- Create and deliver infrastructure QBR to stakeholder groups as needed.  
+- Create and deliver infrastructure QBR to stakeholder groups as needed.
 
-#### Requirements
+### Requirements
 
 - 10+ years of progressive experience in HR roles with a demonstrable track record of building and optimizing processes, systems, and structures.
 - Expert knowledge of regulatory and legal requirements related to employment and People Compliance.
-- Working knowledge of business employment solutions and the options available such as utilizing a PEO or hiring contractors.  
+- Working knowledge of business employment solutions and the options available such as utilizing a PEO or hiring contractors.
 - 5-7 years of experience leading people and cross-functional organizations.
-- Demonstrable ability to own, execute and deliver on short- and long-term projects using roadmaps and aligning with key stakeholders.  
+- Demonstrable ability to own, execute and deliver on short- and long-term projects using roadmaps and aligning with key stakeholders.
 - Strategic and innovative thinker; able to prioritize and use sound judgment and decision-making.
 - Executive presence with excellent written and oral communication skills.
 - Business insight and high EQ to successfully collaborate with executives and business partners at all levels.

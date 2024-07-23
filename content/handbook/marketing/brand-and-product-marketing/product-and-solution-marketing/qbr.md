@@ -1,13 +1,6 @@
 ---
-
 title: "QBR Support"
 ---
-
-
-
-
-
-
 
 ## Strategic QBR Support
 
@@ -20,7 +13,6 @@ At GitLab, we conduct quarterly business reviews to understand and learn from ou
    - first in a single SM Action Item google doc, and
    - then we create an issue to track the action item using the SM Request Process <link>
 
-
 ### Details  - as a QBR attendee
 
 1. Open the QBR action tracking document
@@ -31,7 +23,6 @@ At GitLab, we conduct quarterly business reviews to understand and learn from ou
 1. Update the title of the issue using the Quick Action  '/title' on line 2.
 1. Write the issue in detail about what, who and why they need support.  (Avoid ambiguous, vague, and non-actionable issues)
 1. After you submit the issue.  Copy the issue link and add it to the Action Item Document.
-
 
 ## QBR Set up
 
@@ -49,9 +40,10 @@ At GitLab, we conduct quarterly business reviews to understand and learn from ou
        1. Create a copy Page 2 (The section for each QBR action items) for EACH QBR Meeting.
        1. Update the Header "Date-Region" to be the specific date and Region.
        1. Add the link to the QBR Notes Document (If it exists yet)
-       1. Add the link to the QBR Slides folder for THIS SPECIFIC QBR.  
+       1. Add the link to the QBR Slides folder for THIS SPECIFIC QBR.
        1. From the QBR Agenda, update the Agenda Outline with the reps names in the order they are presenting.
        1. IF their slides are loaded in the folder, Update their Name to include a link to their specific slide deck.
+
 1. Update the `QBR-Action-Item` [issue template](https://gitlab.com/gitlab-com/marketing/product-marketing/blob/master/.gitlab/issue_templates/QBR-Action-Item.md) in the **Product Marketing** Project
     1. Change the LINK to the Action Items Doc to point to the document you just created
     1. Change the LINK to the Epic to point to this quarter's QBR EPIC

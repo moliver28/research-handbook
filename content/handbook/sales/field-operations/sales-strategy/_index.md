@@ -1,14 +1,7 @@
 ---
-
 title: "Sales Strategy and Analytics Handbook"
 description: "To drive sales success by providing data, reporting, analytics, and actionable insights to leadership across GitLab"
 ---
-
-
-
-
-
-
 
 ## Welcome to the Sales Strategy & Analytics Handbook
 
@@ -36,11 +29,10 @@ The SS&A team is reponsible of maintaining a set of key reports for the Sales or
 
 | Report | Description |
 | ----- | ----- |
-| [Pipeline X-Ray](/handbook/sales/field-operations/sales-strategy/analytics/pipeline-x-ray) | Pipeline coverage & generation by segment, region, order type & sales qualified source for current and future fiscal quarters
+| [Pipeline X-Ray](/handbook/sales/field-operations/sales-strategy/analytics/pipeline-x-ray) | Pipeline coverage & generation by segment, region, order type & sales qualified source for current and future fiscal quarters |
 | [SAE Heatmap](/handbook/sales/field-operations/sales-strategy/analytics/sal-heatmap) | Achievement, coverage and pipeline generation summary by SAE by region |
 
 For detailed explanations on Pipeline Management tools, please visit [here](/handbook/sales/field-operations/sales-strategy/analytics/pipeline-management-tools)
-
 
 ## FY22 Field Planning
 

@@ -1,16 +1,7 @@
 ---
-
 title: "GCP Secrets Integration - Weekly Project Plan"
 description: "GCP Secrets Integration - Weekly Project Plan - Pipeline Security Group"
 ---
-
-
-
-
-
-
-
-# GCP Secrets Integration - Weekly Project Plan
 
 [This project has been released.](https://about.gitlab.com/releases/2024/01/18/gitlab-16-8-released/#gcp-secret-manager-support)
 

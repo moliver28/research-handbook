@@ -1,13 +1,6 @@
 ---
-
 title: "Executive Business Reviews (EBRs)"
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -264,7 +257,7 @@ The CSM Manager will discuss the EBR with the CSM in their next 1:1 after the EB
 ## EBR Enablement
 
 - A SAE/AE can be a great partner in positioning EBRs. For more on the value of EBRs, with customer examples, please watch [this internal EBR enablement session](https://www.youtube.com/watch?v=1CL5YQeC8Fs).
-    - [Objection handing document](https://docs.google.com/document/d/1WzvklnloC22WffVcLYupLy3kqSsEbHNtcj47xrb07As/) referred to in the recording (internal)
+  - [Objection handing document](https://docs.google.com/document/d/1WzvklnloC22WffVcLYupLy3kqSsEbHNtcj47xrb07As/) referred to in the recording (internal)
 - Follow [this link](https://levelup.gitlab.com/courses/tam-executive-business-reviews-elearning) to access the EBR eLearning on Level Up.
 - [Chorus Playlist](https://chorus.ai/playlists/741604) gives you access to the recordings of the best CSM calls. The recordings are continuously updated, so keep this playlist bookmarked for best practices.
 

@@ -27,7 +27,7 @@ This covers searching for more specific information using the Zendesk search
 language. All results are still shown much like those within a
 [basic search](#basic-search).
 
-#### Searching by tag
+### Searching by tag
 
 To search for objects with a specific tag, you would simply use the syntax:
 
@@ -51,7 +51,7 @@ and `sev1`, you'd do:
 
 `tags:"gold sev1"`
 
-#### Searching by status
+### Searching by status
 
 To search by ticket status, you would use the syntax:
 
@@ -80,7 +80,7 @@ You can search for the negation of this by putting a minus in front of it:
 
 `-status:open`
 
-#### Searching by custom organization field
+### Searching by custom organization field
 
 To search by a custom organization field, you use the format:
 
@@ -113,7 +113,7 @@ Searching for organizations with ARR less than 1000:
 You can search for the negation of this by putting a minus in front of any that
 are text-based.
 
-#### Searching by custom user field
+### Searching by custom user field
 
 To search by a custom user field, you use the format:
 
@@ -132,7 +132,7 @@ do:
 You can search for the negation of this by putting a minus in front of any that
 are text-based.
 
-#### Searching by custom ticket field
+### Searching by custom ticket field
 
 To search by a custom user field, you use the format:
 
@@ -146,7 +146,7 @@ field's ID value.
 You can search for the negation of this by putting a minus in front of any that
 are text-based.
 
-#### Searching by satisfaction rating
+### Searching by satisfaction rating
 
 To locate tickets based on satisfaction rating, you would use the format:
 
@@ -163,7 +163,7 @@ The possible values are:
 You can search for the negation of this by putting a minus in front of any that
 are text-based.
 
-## Examples
+### Examples
 
 #### Example 1
 

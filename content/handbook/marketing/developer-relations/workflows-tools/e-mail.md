@@ -1,13 +1,6 @@
 ---
-
 title: "E-mail response workflow"
 ---
-
-
-
-
-
-
 
 ## Overview
 

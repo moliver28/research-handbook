@@ -21,8 +21,8 @@ Our goal is to make our product easy to use, supportive of contributions from th
 - **We support all users from beginners to experts.** We believe that GitLab software should be unintimidating and accessible for a beginner, without oversimplifying important features for advanced users. We stay with users every step of the way to help them learn fast as a beginner and then become an expert over time.
 - **We're building one product, together.** We're highly focused on ensuring that no matter how big our product gets, the entire experience stays cohesive, consistent, and interconnected.
 - **We're humble facilitators of user experience design.** Everyone is a designer; [everyone can contribute](https://docs.gitlab.com/ee/development/ux/). We are not egotistical, moody experts who alone hold the keys to user delight. We encourage Product Managers, Engineers, and the wider GitLab community to contribute to creating an exceptional user experience.
-- **We look for small changes and big impacts.** Sometimes the simplest, most boring solution is what is needed to make users successful. We want our UI to stay out of the user’s way. We work iteratively to make modest but valuable changes that make users more productive, faster, and better at accomplishing their tasks.
-- **We're informed by empathy.** We’re human, and we design for humans, so we strive for understanding, self-awareness, and connection. We are quirky, and we introduce our quirks into designs when appropriate.
+- **We look for small changes and big impacts.** Sometimes the simplest, most boring solution is what is needed to make users successful. We want our UI to stay out of the user's way. We work iteratively to make modest but valuable changes that make users more productive, faster, and better at accomplishing their tasks.
+- **We're informed by empathy.** We're human, and we design for humans, so we strive for understanding, self-awareness, and connection. We are quirky, and we introduce our quirks into designs when appropriate.
 - **When we find problems that are simple to fix, we are empowered to make those changes ourselves.** If a change will take you less than 15 minutes to make (for example, a minor change to our website or microcopy in the product), then start with an MR instead of an issue. By making the change yourself, you are taking immediate action to improve our product, and you might learn a new skill, too! If it seems simple, but you have questions, remember that there are people who can help you with code changes both in the UX department and across the company.
 
 We work closely with the community, and our stable counterparts Product Managers (PM), Frontend engineers (FE), Backend engineers (BE), Quality engineers, and the Brand team. We follow GitLab's shared process referred to as the [Product Development Flow](/handbook/product-development-flow/).
@@ -46,17 +46,17 @@ Every Product Designer is aligned with a PM and is responsible for the same cust
 In the spirit of having stable counterparts, we plan headcount as follows:
 
 - **One Product Designer for every stage group.**
-   - 1:1 ratio of Product Designers to PM (excludes stage groups with no user-facing impact or, in some cases, stage groups with low usage).
-   - 1 Product Designer for 1-3 Frontend engineers; 2 Product Designers for 4-5 Frontend engineers.
+  - 1:1 ratio of Product Designers to PM (excludes stage groups with no user-facing impact or, in some cases, stage groups with low usage).
+  - 1 Product Designer for 1-3 Frontend engineers; 2 Product Designers for 4-5 Frontend engineers.
 - **One Technical Writer for up to three stage groups.**
-   - 1:3 ratio of Technical Writers to stage groups.
-   - Approximately a 1:21 ratio of Technical Writers to Engineers.
+  - 1:3 ratio of Technical Writers to stage groups.
+  - Approximately a 1:21 ratio of Technical Writers to Engineers.
 - **One UX Researcher for up to 5 stage groups.**
-   - 1:5 ratio of UX Researchers to Product Managers.
-   - Approximately a 1:35 ratio of UX Researchers to Engineers.
+  - 1:5 ratio of UX Researchers to Product Managers.
+  - Approximately a 1:35 ratio of UX Researchers to Engineers.
 - **Manager support that's appropriate for the function.**
-   - Approximately a 1:5 ratio of Managers to direct reports for UX Research and Product Design.
-   - Approximately a 1:7 ratio of Managers to direct reports for Technical Writing.
+  - Approximately a 1:5 ratio of Managers to direct reports for UX Research and Product Design.
+  - Approximately a 1:7 ratio of Managers to direct reports for Technical Writing.
 
 ### UX labels
 
@@ -75,18 +75,18 @@ GitLab uses labels to categorize, prioritize, and track work. The following is a
   - `accessibility::low`: The user experience is degraded for users with certain disabilities or using certain assistive technologies, but users can still accomplish tasks.
 - [**learnability** label](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=learnability): Issues that address learnability problems by helping users quickly become familiar with GitLab features.
 - **Scoped workflow labels** from the [Product Development Flow](/handbook/product-development-flow/#validation-phase-1-validation-backlog) should be used to indicate where an issue is in the development lifecycle. Issues can move between workflow labels as many times as necessary, and not all labels will be applicable to every issue. Issues that require UX would use one of these labels as defined in the Product Development Flow:
-    - `workflow::validation backlog`
-    - `workflow::problem validation`
-    - `workflow::design`
-    - `workflow::solution validation`
+  - `workflow::validation backlog`
+  - `workflow::problem validation`
+  - `workflow::design`
+  - `workflow::solution validation`
 - **Pajamas component lifecycle labels** are scoped labels used for creating and updating [Pajamas](https://design.gitlab.com) components. Label usage guidelines can be found in the [Pajamas component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle/).
 - [**UX problem validation** label](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=UX%20problem%20validation): Indicates that the issue requires UX work to validate that the problem is relevant to users. We use this label in addition to the Product Development Flow scoped labels, so that we can track validation efforts over time in our [UX Performance Indicators](/handbook/product/ux/performance-indicators/).
 - [**UX solution validation** label](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=UX%20solution%20validation): Indicates that the issue requires tasks to validate that the proposed solution is technically feasible and meets user needs. We use this label in addition to the Product Development Flow scoped labels, so that we can track validation efforts over time in our [UX Performance Indicators](/handbook/product/ux/performance-indicators/).
 - [**UI polish** label](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=UI+polish): Indicates the issue covers *only* visual improvement(s) to the existing user interface.
 - [**Deferred UX** label](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=deferred+ux): Deferred UX results from the intentional decision to deviate from the UX vision or MVC, which sacrifices the user experience. Deferred UX labeled issues are to be included in subsequent releases. Use this label to indicate that the UX released does not meet:
-   - UX and Pajamas specifications
-   - Usability standards
-   - Feature viability standards
+  - UX and Pajamas specifications
+  - Usability standards
+  - Feature viability standards
 
    This label is applied to any follow-up issues that address a UX gap. It does not apply to the issue or merge request that created the Deferred UX. For example, if the agreed MVC design solution is not fully realized due to release pressures or implementation oversight, that's considered Deferred UX.
 
@@ -105,8 +105,8 @@ GitLab uses labels to categorize, prioritize, and track work. The following is a
 - [**CM scorecard** label](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=CM+scorecard): Indicates the primary issue or epic for the [CM Scorecard](/handbook/product/ux/category-maturity/category-maturity-scorecards/). It is used to easily find current work and track efforts.
 - [**cm-scorecard-rec** label](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=cm-scorecard-rec): Indicates this issue is a recommendation that was a result of a CM Scorecard.
 - [Actionable Insights](/handbook/engineering/ux/ux-research/research-insights/#how-to-document-actionable-insights) document learnings from research that need to be acted on.
-    - [Actionable Insight::Exploration needed](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Actionable%20Insight%3A%3AExploration%20needed): A research insight derived from a UX research study that requires further exploration.
-    - [Actionable Insight::Product change](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Actionable%20Insight%3A%3AProduct%20change): A research insight derived from a UX research study and requires a change to the product experience.
+  - [Actionable Insight::Exploration needed](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Actionable%20Insight%3A%3AExploration%20needed): A research insight derived from a UX research study that requires further exploration.
+  - [Actionable Insight::Product change](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Actionable%20Insight%3A%3AProduct%20change): A research insight derived from a UX research study and requires a change to the product experience.
 - [Type labels](/handbook/engineering/metrics/#work-type-classification): Used to track feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types. See also who are the [DRIs for prioritization](/handbook/product/cross-functional-prioritization/#prioritization-for-feature-maintenance-and-bugs).
 - **Theme labels** can be created to group issues that solve a similar user experience problem but don't have a category. This can be especially useful for a user experience that spans the product. These issues still require a UX label.
 - [**UX: Feature Discovery Improvement**](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=UX%3A++Feature+Discoverability+Improvement): Indicates issue may improve feature discoverability.
@@ -114,17 +114,23 @@ GitLab uses labels to categorize, prioritize, and track work. The following is a
 
 ## UX Calendar
 
-The [UX Calendar](https://calendar.google.com/calendar/embed?src=gitlab.com_9psh26fha3e4mvhlrefusb619k%40group.calendar.google.com) (*internal only*) is the SSOT for our team meetings. You can find the details for the UX weekly calls, UX Showcase, and other team meetings here. These meetings are open to everyone in GitLab. Anyone in the UX department can add events to the Google Calendar. Managers and above can make changes and manage sharing, while ICs can make changes to events. Please reach out in the `#ux_leadership` Slack channel with any questions or requests.
+The [UX Calendar](https://calendar.google.com/calendar/embed?src=gitlab.com_9psh26fha3e4mvhlrefusb619k%40group.calendar.google.com) (*internal only*) is the SSOT for our team meetings. You can find the details for UX calls, UX Forum, and other team meetings here. These meetings are open to everyone in GitLab. Anyone in the UX department can add events to the Google Calendar. Managers and above can make changes and manage sharing, while ICs can make changes to events. Please reach out in the `#ux_leadership` Slack channel with any questions or requests.
 
 ### Retrospectives
 
 After each release, we have a company retrospective call in which we discuss what went well, what went wrong, and what we can improve for the next release.
 
-To understand the specific challenges faced by the UX Department, we hold an async UX retrospective after every milestone. This retro is carried out through a new Issue created for the recent release in the [ux-retrospectives](https://gitlab.com/gl-retrospectives/ux-retrospectives/issues) project. The goal is to evaluate what went well, what didn’t go well, and how we can improve.
+To understand the specific challenges faced by the UX Department, we hold an async UX retrospective after every milestone. This retro is carried out through a new Issue created for the recent release in the [ux-retrospectives](https://gitlab.com/gl-retrospectives/ux-retrospectives/issues) project. The goal is to evaluate what went well, what didn't go well, and how we can improve.
 
-### UX Showcases
+### UX Forum
 
-{{% ux-showcase %}}
+{{% ux-forum %}}
+
+## UX Talent Assessment
+
+In UX, we utilize [performance factor worksheets](https://drive.google.com/drive/folders/1KgmIt7Umm0XH2-74jMBpOl67Yko1t2uK) (**🔒 internal only**) as a way to facilitate talent assessment and growth conversations between manager and their direct reports. These worksheets are available in Google Sheets format and the spreadsheets include tabs for a mid-year and year-end review, as well as a tab to list Achievement, Strengths, and Opportunities throughout the year.
+
+It is strongly encouraged for each team member to have their own worksheet created at the start of the fiscal year so that it can be used as a tool throughout the entire year.
 
 ## Meet some of our team members
 
@@ -138,4 +144,3 @@ To understand the specific challenges faced by the UX Department, we hold an asy
 - [Anne Lasch](https://gitlab.com/alasch/about-anne/-/blob/master/README.md) - Senior UX Researcher
 - [Emily Bauman](https://gitlab.com/emilybauman/about-me/-/blob/master/README.md) - Senior Product Designer
 - [Will Leidheiser](https://gitlab.com/wleidheiser/about-will/-/blob/main/README.md) - Staff UX Researcher
-

@@ -1,16 +1,9 @@
 ---
-
 title: SMB Account Executive
 description: >-
   SMB Account Executive guidelines to assist prospects through their evaluation
   and buying process of GitLab
 ---
-
-
-
-
-
-
 
 ## "You should expect excellence of yourself, teammates, and managers in your role. We will be excellent if we expect it."
 
@@ -164,8 +157,8 @@ Customer success planning should be broken into three categories based off the p
 - Follow the [Commercial Sales standards](/handbook/customer-success/comm-sales/#additional-engagement-guidelines-for-sales) for engaging a Customer Success Manager or Solution Architect into the conversation with a customer or prospect.
 - Consider a [Live Optimization Session](/handbook/sales/commercial/smb/live-optimization/) with a Solutions Architect.
 - If limited on resources, encourage clients to submit questions to the following communities:
-    - Community Forum: https://forum.gitlab.com/
-    - Reddit: https://www.reddit.com/r/gitlab/
+  - Community Forum: https://forum.gitlab.com/
+  - Reddit: https://www.reddit.com/r/gitlab/
 
 ### Compensation
 

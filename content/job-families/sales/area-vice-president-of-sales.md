@@ -1,5 +1,5 @@
 ---
-title: "Area Vice President"
+title: "Area Vice President, Enterprise Sales"
 ---
 
 The Area Vice President is responsible for building and managing a team of Area Sales Managers who are leading teams of Strategic Account Leaders selling GitLab's industry leading single application for the full software development lifecycle.
@@ -10,7 +10,7 @@ The Area Vice President reports into the [VP, Enterprise Sales](/job-families/sa
 
 - Establish and deliver on a strategy to land new customers with a mutual vision for expansion and expand existing accounts with purpose, driving customer success and predictable year over year ARR growth for GitLab.
 - Recruit and develop a top tier, diverse, efficient enterprise sales organization of Area Sales Managers and Strategic Account Leaders
-- Maintain key customer relationships and develop and implement strategies for expanding the company’s customer base
+- Maintain key customer relationships and develop and implement strategies for expanding the company's customer base
 - Provide detailed and accurate sales forecasting
 - Manage overall sales process, set appropriate metrics for sales funnel management
 - Plan and manage at both the strategic and operational levels
@@ -30,7 +30,7 @@ The Area Vice President reports into the [VP, Enterprise Sales](/job-families/sa
 - Polished presentation skills
 - Ability to handle a fast-paced environment and ambitious workload
 - Bachelor degree
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Segment
 
@@ -47,7 +47,7 @@ The Area Vice President reports into the [VP, Enterprise Sales](/job-families/sa
 - Demonstrated progressive second line leadership experience leading teams in strategic sales specific to Public Sector.
 - Proven second line sales management experience with deep domain experience in the Public Sector/Federal vertical, including a history of successfully selling through the Public Sector channel.
 - Must have proven experience leading teams who sell to mission owners, identifying, uncovering, and developing new account opportunities in their territory.
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
 
 ## Performance Indicators
 

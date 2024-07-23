@@ -9,9 +9,11 @@ description: "These are the expected competencies of an Intermediate Backend Eng
 
 **Intermediate Backend Engineers, Engineering Productivity at GitLab are expected to exhibit the following competencies:**
 
+<!-- markdownlint-disable MD051 -->
 - [Leadership Competencies](#leadership-competencies)
 - [Technical Competencies](#technical-competencies)
 - [Values Alignment](#values-alignment)
+<!-- markdownlint-enable MD051 -->
 
 ---
 
@@ -23,7 +25,7 @@ description: "These are the expected competencies of an Intermediate Backend Eng
 
 {{% include "includes/engineering-careers/intermediate-technical-competency.md" %}}
 
-##### Engineering Productivity
+#### Engineering Productivity
 
 This table refers to the responsibility terms that are defined on the [team page](/handbook/engineering/infrastructure/engineering-productivity/index.html#areas-of-responsibility).
 

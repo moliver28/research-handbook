@@ -121,7 +121,7 @@ Thanks,
 
 ---
 
-Underperformance feedback should be included on your [1-1 agenda]({{< ref "suggested-agenda-format" >}}). Helping GitLab team members understand clearly how their performance is below the expected standard expected quickly is very important to foster immediate improvement and continued success.  Managers should be as specific as possible and provide clear examples of where the team member is falling short. Make sure the team member has the opportunity to respond to your concerns  and give them the time to explain their performance.  Keep an open mind, listen actively, and ask open questions when you want to find out more.  When discussing performance, it’s important that the manager and team member are aligned on the expectations moving forward.  It is best practice for the manager to meet with their team member at least once a week to monitor and discuss their performance.be critical.
+Underperformance feedback should be included on your [1-1 agenda]({{< ref "suggested-agenda-format" >}}). Helping GitLab team members understand clearly how their performance is below the expected standard expected quickly is very important to foster immediate improvement and continued success.  Managers should be as specific as possible and provide clear examples of where the team member is falling short. Make sure the team member has the opportunity to respond to your concerns  and give them the time to explain their performance.  Keep an open mind, listen actively, and ask open questions when you want to find out more.  When discussing performance, it's important that the manager and team member are aligned on the expectations moving forward.  It is best practice for the manager to meet with their team member at least once a week to monitor and discuss their performance.be critical.
 
 There may be extenuating circumstances that need to be taken into consideration during the performance management process.  This is an area where the Team Member Relations Team can provide a sounding board or a needed perspective.
 
@@ -131,7 +131,7 @@ In some cases, a Written Performance Letter or Performance Improvement Plan may 
 
 ### Compensation Impact
 
-It is important to note that the team member may not be eligible for compensation increases from the [annual compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/) or the [annual refresh grant program](/handbook/stock-options/#refresh-grants) if they are being actively performance managed.
+It is important to note that the team member may not be eligible for compensation increases from the [annual compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/) or the [annual refresh grant program](/handbook/total-rewards/stock-options/#refresh-grants) if they are being actively performance managed.
 
 ### Internal Applications and Transfers during underperformance remediation
 

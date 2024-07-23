@@ -48,7 +48,7 @@ We will follow our parent department [Engineering](/handbook/engineering/#divers
 ** Create
 *** Code Creation
 *** Code Review
-*** IDE
+*** Remote Development
 *** Editor Extensions
 *** Source Code
 ** Manage & AI Framework
@@ -111,6 +111,7 @@ Development adheres to the company-wide quarterly timeline outlined [here](/hand
 **The Development Department has an additional formal step built in to our promotion process beyond what the company is currently adhering to through our peer review process**. Ahead of the commencement of the [Calibration](/handbook/people-group/promotions-transfers/#calibration) stage of our process, all promotion documents should be peer reviewed by a Senior Manager or Director. The due date to complete the peer review is _before_ the scheduled Calibration session.
 
 FY'23 Calibration sessions:
+
 1. FY23-Q1: January 13, 2022
 2. FY23-Q2: April 7, 2022
 3. FY23-Q3: June 30, 2022
@@ -130,13 +131,19 @@ In order for calibration to be effective it's important that all participants ha
 The calibration agenda will consist of the following for each candidate:
 
 1. General Information
-  - Promotion Doc Peer Reviewer(s)
-  - Link to GitLab Profile
+
+   - Promotion Doc Peer Reviewer(s)
+   - Link to GitLab Profile
+
 1. Core accomplishments (list 2)
 1. Improvement areas (list 2)
-  - The promotion document outlines strengths, but we also want to highlight how we will support a team member's development areas at the next level.
+
+   - The promotion document outlines strengths, but we also want to highlight how we will support a team member's development areas at the next level.
+
 1. Cross-functional Feedback
-  - As our business goals and initiatives become increasingly cross-functional, managers should have a picture of how their team member collaborates effectively within their immediate teams, and with their core cross-functional partners and stakeholders.
+
+   - As our business goals and initiatives become increasingly cross-functional, managers should have a picture of how their team member collaborates effectively within their immediate teams, and with their core cross-functional partners and stakeholders.
+
 1. Questions/feedback?
 
 **Please aim to be concise and crisp in the calibration agenda summary for each candidate**. Leaders are able to reference promotion documents for details, while the calibration agenda summary is meant to be a snapshot of key points to help facilitate discussion and provide an overview for the group.
@@ -147,26 +154,26 @@ In line with our [guidance on feedback](/handbook/people-group/guidance-on-feedb
 
 ### Talent Assessment Process
 
-Talent Assessment Process guidelines specific for the Core Development Department is documented in [this handbook page](./processes/talent-assessment/).
+Talent Assessment Process guidelines specific for the Core Development Department is documented in [this handbook page](processes/talent-assessment/).
 
 ### Annual Compensation Review
 
 The SSOT timeline for the upcoming Annual Compensation Review can be found [here](/handbook/total-rewards/compensation/compensation-review-cycle/#january). Below you will find additional dates specific to the Development department to ensure all levels have time to review as we move through the process.
 
 Phase 1 (cash only):
+
 - January 9-13 @5pm PT - Manager level finalizes comp recommendations
 - January 16-17 @5pm PT - Sr Mgr (or next level; Director in some cases) finalize comp recommendations
 - January 18-19 @5pm PT - VP, Development direct reports (Dir/Sr Dir) finalize comp recommendations
 - January 20-23 @ 5pm PT - VP/PBP finalize comp recommendations
 
 Phase 2 (equity only):
-- February TBD
 
+- February TBD
 
 ### How we hire contractors
 
-
-In [this handbook page](./processes/hiring-contractors.html) we document the process that the development department follows, including planning budget, candidate sourcing, interview process, contracting and onboarding.
+In [this handbook page](processes/hiring-contractors.html) we document the process that the development department follows, including planning budget, candidate sourcing, interview process, contracting and onboarding.
 
 ## How We Work
 
@@ -175,7 +182,7 @@ In [this handbook page](./processes/hiring-contractors.html) we document the pro
 Welcome to GitLab! We are excited for you to join us.
 Here are some curated resources to get you started:
 
-- [Joining as an Engineer](/handbook/developer-onboarding/)
+- [Joining as an Engineer](/handbook/engineering/developer-onboarding/)
 - [Joining as an Engineering Manager](/handbook/engineering/development/onboarding/manager/)
 
 ### Cross-Functional Metrics
@@ -212,7 +219,6 @@ At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#
 1. The development groups who introduce or consume the dependency of concern (e.g. gems, libs, base images, etc.) are responsible for resolving vulnerabilities detected against the dependency.
 2. For business selected vendors that provide base images (RHEL's UBI8 for example), we need to wait for their patches, or need to log Deviation Request (DR) as viable resolutions. The [VulnMapper](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper/-/tree/main), an automation developed by the Threat Management team, can create vendor dependency DRs to a large extent, but there are still cases that DR needs to be reported manually.
 3. The assigned development group can redirect issues if the initial assignment was inaccurate, following the processes for [shared responsibility issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) and/or [Shared responsibility functionality](/handbook/product/categories/#shared-responsibility-functionality).
-
 
 ### Development Headcount planning
 
@@ -297,7 +303,7 @@ Below are tips for developing individual's OKRs:
 
 ## Engineering Allocations and Tracking
 
-[Engineering Allocation](/handbook/engineering/#engineering-allocation) require us to track goals with more diligence and thought.  We need confidence that we’re making correct decisions and executing well to these initiatives. As such, you will see us reviewing these more closely than other initiatives.  We will meet on a cadence to review these initiatives and request additional reporting to support the process.  Possible requests for additional data:
+[Engineering Allocation](/handbook/engineering/#engineering-allocation) require us to track goals with more diligence and thought.  We need confidence that we're making correct decisions and executing well to these initiatives. As such, you will see us reviewing these more closely than other initiatives.  We will meet on a cadence to review these initiatives and request additional reporting to support the process.  Possible requests for additional data:
 
 1. [Demos](/handbook/engineering/demos/)
 1. [GitLab Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/)
@@ -369,7 +375,7 @@ The shared services and components below are extracted from the GitLab [product 
 | NGINX |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
 | Object Storage |  | Centralized with Specific Team |  @lmcandrew | [Scalability::Frameworks](/handbook/engineering/infrastructure/team/scalability/#scalabilityframeworks) |  |
 | Patroni | General except Geo secondary clusters | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
-|  | Geo secondary standby clusters | Centralized with Specific Team | @juan-silva | [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/) |  |
+|  | Geo secondary standby clusters | Centralized with Specific Team | @luciezhao | [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/) |  |
 | PgBouncer |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
 | PostgreSQL | PostgreSQL Framework and Tooling | Centralized with Specific Team | @alexives | [Database](/handbook/engineering/infrastructure/core-platform/data_stores/database/) | Specific to the development portion of PostgreSQL, such as the fundamental architecture, testing utilities, and other productivity tooling |
 |  | GitLab Product Features | Decentralized |  |  | Examples like feature specific schema changes and/or performance tuning, etc. |
@@ -427,10 +433,10 @@ Teams roll up by the org chart hierarchy -
 
 When Development collaborates with Support it provides invaluable insight into how customers are using the product and the challenges they run into. A few tips to make the process efficient:
 
- - Get [access to Zendesk](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) so you view the question and communication from customers.
- - Always write answers in a way that they can be "cut-and-pasted" and sent to a customer.
- - Reference documentation in your responses and make updates to GitLab documentation when needed.
- - Refer to existing issues and epics to reiterate our transparency value and to invite participation from the customer.
+- Get [access to Zendesk](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) so you view the question and communication from customers.
+- Always write answers in a way that they can be "cut-and-pasted" and sent to a customer.
+- Reference documentation in your responses and make updates to GitLab documentation when needed.
+- Refer to existing issues and epics to reiterate our transparency value and to invite participation from the customer.
 - If you are unclear about the support-development collaboration process or workflow then please refer to the handbook page [how to use gitlab.com to request help from the GitLab development team](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team)
 
 ### Incident Management
@@ -444,8 +450,8 @@ These [frequently asked questions](/handbook/engineering/infrastructure/incident
 
 ### Development Escalation Process
 
-- [General information](./processes/Infra-Dev-Escalation/)
-- [Process outline](./processes/Infra-Dev-Escalation/process.html)
+- [General information](processes/Infra-Dev-Escalation/)
+- [Process outline](processes/Infra-Dev-Escalation/process.html)
 
 ### Reducing the impact of far-reaching work
 
@@ -454,6 +460,7 @@ Because our teams are working in separate groups within a single application, th
 An example would be a change to user authentication or login, which might impact seemingly unrelated services, such as project management or viewing an issue.
 
 Far-reaching work is work that has wide-ranging, diffuse implications, and includes changes to areas which will:
+
 1. be utilized by a high percentage of users
 1. impact entire services
 1. touch multiple areas of the application
@@ -461,27 +468,28 @@ Far-reaching work is work that has wide-ranging, diffuse implications, and inclu
 1. potentially impact revenue
 
 If your group, product area, feature, or merge request fits within one of the descriptions above, you must seek to understand your impact and how to reduce it. When releasing far-reaching work, use a [rollout plan](/handbook/engineering/development/processes/rollout-plans). You might additionally need to consider creating a one-off process for those types of changes, such as:
+
 - [Creating a rollout plan procedure](/handbook/engineering/development/processes/rollout-plans)
-   - Consider how to reduce the risk in your rollout plan
-   - Document how to monitor the rollout while in progress
-   - Describe the metrics you will use to determine the success of the rollout
-   - Account for different states of data during rollout, such as cached data or data that was in a previously valid state
+  - Consider how to reduce the risk in your rollout plan
+  - Document how to monitor the rollout while in progress
+  - Describe the metrics you will use to determine the success of the rollout
+  - Account for different states of data during rollout, such as cached data or data that was in a previously valid state
 - Requiring feature flag usage ([example](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/88298))
 - Changing a recommended process to a required process for this change, such as a domain expert review
 - Requesting manual testing of the work before approval
 
-##### Identified areas
+#### Identified areas
 
 Some areas have already been identified that meet the definition above, and may consider altered approaches in their work:
 
 | Area             | Reason                      | Special workflows (if any)                                                                                            |
 | ---------------- | --------------------------- |-----------------------------------------------------------------------------------------------------------------------|
 | Database migrations, tooling, complex queries, metrics | impact to entire application<br/><br/>The database is a critical component where any severe degradation or outage leads to an S1 incident. | [Documentation](https://docs.gitlab.com/ee/development/database_review.html#general-process)                          |
-| Sidekiq changes (adding or removing workers, renaming queues, changing arguments, changing profile of work required)  | impact to multiple services<br/><br/>Sidekiq shards run groups of workers based on their profile of work, eg memory-bound. If a worker fails poorly, it has the potential to halt all work on that shard. | [Documentation](https://docs.gitlab.com/ee/development/sidekiq_style_guide.html#sidekiq-compatibility-across-updates) |
+| Sidekiq changes (adding or removing workers, renaming queues, changing arguments, changing profile of work required)  | impact to multiple services<br/><br/>Sidekiq shards run groups of workers based on their profile of work, eg memory-bound. If a worker fails poorly, it has the potential to halt all work on that shard. | [Documentation](https://docs.gitlab.com/ee/development/sidekiq/compatibility_across_updates.html) |
 | Redis changes    | impact to multiple services<br/><br/>Redis instances are responsible for sets of data that are not grouped by feature category. If one set of data is misconfigured, that Redis instance may fail.  |                                                                                                                       |
 | Package product areas            | high percentage of traffic share |                                                                                                                       |
 | Gitaly product areas             | high percentage of traffic share |                                                                                                                       |
-| [Create: Source Code product areas](/handbook/product/categories/features/#createsource-code-group) | high percentage of traffic share. Special attention should be paid to Protected Branches, CODEOWNERS, MR Approvals, Git LFS, Workhorse and the git over SSH / gitlab-sshd interfaces. Please contact the EM (@sean_carroll) or PM (@tlinz) if you are unsure. |
+| [Create: Source Code product areas](/handbook/product/categories/features/#createsource-code-group) | high percentage of traffic share. Special attention should be paid to Protected Branches, CODEOWNERS, MR Approvals, Git LFS, Workhorse and the git over SSH / gitlab-sshd interfaces. Please contact the EM (@sean_carroll) or PM (@tlinz) if you are unsure. | |
 | Pipeline Execution product areas | high percentage of traffic share  | [Documentation](https://docs.gitlab.com/ee/development/contributing/verify/)                                          |
 | Authentication and Authorization product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/development/sec/govern/authentication-and-authorization#code-review)            |
 | Compliance product areas | potentially have legal, security, or compliance consequences | [Code Review Documentation](/handbook/engineering/development/sec/govern/compliance/#code-review)                     |
@@ -499,7 +507,7 @@ These are the stakeholders:
 
 | Team                                                                                                                                                           | Stake |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
-| [Create:IDE](/handbook/engineering/development/dev/create/ide)                                                                         | Owns the WebIDE ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-web-ide&mode=show&hidden=reviewer))  |
+| [Create:Remote Development](/handbook/engineering/development/dev/create/remote-development)                                                                         | Owns the WebIDE ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-web-ide&mode=show&hidden=reviewer))  |
 | [Editor Extensions](/handbook/engineering/development/dev/create/editor_extensions/)                                                   | Maintains the GitLab Workflow VS Code Extension ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-vscode-extension&mode=show&hidden=reviewer)), [Jetbrains](https://gitlab.com/groups/gitlab-org/-/epics/6349), [Neovim](https://gitlab.com/groups/gitlab-org/-/epics/10739), [Visual Studio](https://gitlab.com/groups/gitlab-org/-/epics/10668) extensions and the [language server](https://gitlab.com/groups/gitlab-org/-/epics/2431). Also contributes with UX improvements for Code Suggestions within GitLab Workflow. |
 | [Enablement:Cloud Connector](/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/) (`@mkaeppler`, `@nmilojevic1`) | AI-Assissted for Self-Managed |
 | [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/)                                                           | Abstraction Layer for GitLab Chat, Code Suggestions and other AI capabilities |
@@ -519,7 +527,7 @@ If development is the DRI or actively participating in a [Customer Account Escal
 - Be careful to not make commitments to customers without first talking to product management and development leaders to confirm the impact that commitment may have on other commitments.
 - The customer will want to know when they can see the benefits of a change. They may not be familiar with GitLab practices for tracking and predicting due dates and milestones. Also, they may not be familiar with our workflows and associated labels nor the predictability of code review timelines, different timelines on releases to GitLab.com compared with releases for self-hosted customers and our use of feature flags.
 
-```
+```markdown
 * Customers often don't rely on asynchronous communication at the level that GitLab does. Educate the customer on our practices and adapt to find a combined asynchronous and synchronous communication method and cadence that works for everyone.
 * Encourage customers to collaborate with us in epics, issues, and merge requests of interest. Keep in mind that they may not have access to ones that are confidential and/or may not be comfortable or able to collaborate with us in this public forum.
 * Consider utilizing Google documents to collaborate with the customer as a backup for collaboration via epics, issues, and merge requests.
@@ -534,7 +542,7 @@ Remind GitLab team members in Slack to update the status of items they are the D
 
 ## Books
 
-Note: books in this section [can be expensed](/handbook/spending-company-money/).
+Note: books in this section [can be expensed](/handbook/finance/spending-company-money/).
 
 Interested in reading this as part of a group? We occasionally self-organize [book](/handbook/leadership/book-clubs/)
 clubs around these books and those listed on our [Leadership page](/handbook/leadership/#books).

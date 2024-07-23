@@ -1,19 +1,8 @@
 ---
-
 title: "Getting Help from Digital Customer Success Programs"
 description: "How to request help from the DCS team and what to expect"
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
-
-
-
-
-
-
-
 
 ## Propose a new program or update an existing one
 
@@ -28,7 +17,6 @@ You may request a potential new program, such as an email series, contribute to 
 1. Fill out as much of the template as possible. Missing information may cause delays.
 
 CS Programs will assign the request. For urgent issues, or questions about the request, make an `@mention` to a Gainsight administrator or ask in the `#cs_ops_and_programs` Slack channel.
-
 
 ### New program timeline
 
@@ -52,7 +40,6 @@ For program update requests, the workflow is as follows:
 1. When SME review is complete, the CS Programs team adds the changes to Gainsight.
 
 In general, at least *1 milestone* is required to update a program. Depending on the size of the change, it may take longer. For example, adding a paragraph or removing a bulleted list from an email is simple, but adding an entirely new email to a series requires a new program to be created due to Gainsight limitations.
-
 
 ## A/B testing and control groups for digital customers
 

@@ -1,6 +1,5 @@
 ---
 title: "System Risk Scoring Procedure"
-controlled_document: true
 ---
 
 ## Purpose
@@ -51,7 +50,7 @@ The system risk score would be calculated thus:
 ```text
 1 + (0.75 * 4) + (0.5 * 1) = 4.50
 ```
-
+<!-- vale handbook.Repetition = NO -->
 That's the base risk risk score plus the weight of high risk observations times the number of high risk observations plus the weight of moderate risk observations times the number of open moderate risk observations.
 
 ###### Example 2
@@ -68,7 +67,7 @@ The system risk score would be calculated thus:
 ```
 
 That's the base risk risk score plus the weight of moderate risk observations times the number of moderate risk observations plus the weight of low risk observations times the number of open low risk observations.
-
+<!-- vale handbook.Repetition = YES -->
 #### System Risk Score Override
 
 To account for edge case scenarios or other extenuating circumstances that may not be modeled appropriately using the outlined System Risk Scoring methodology, the final system risk score can be downgraded (i.e the risk impact to the organization is less) at the discretion of the Security Compliance Senior Director if it is determined that the observation's risk ratings and therefore system risk score does not appropriately reflect the current system risk. The rating cannot be upgraded (i.e the risk impact to the organization is more) to ensure a conservative approach to securing the organization and managing risk.

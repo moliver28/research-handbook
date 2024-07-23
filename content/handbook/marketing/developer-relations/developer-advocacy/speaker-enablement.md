@@ -1,15 +1,8 @@
 ---
-
 title: "Speaker Enablement"
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/speaker-enablement/index.html
 ---
-
-
-
-
-
-
 
 ## Speaker Resources
 
@@ -22,5 +15,3 @@ The Developer Advocate hosts monthly coffee chats where new and experienced spea
 Special sessions will also be organized for prominent conferences like KubeCon to help more people get quality talks created. See the team calendar before for dates.  To learn more, see [speakers lean coffee](/handbook/marketing/corporate-communications/speaking-resources/#speakers-lean-coffee) on the Speakers Resources page.
 
 <iframe src="https://calendar.google.com/calendar/embed?src=gitlab.com_eta7o4tn4btn8h0f8eid5q98ro%40group.calendar.google.com&ctz=Europe%2FAmsterdam" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
-

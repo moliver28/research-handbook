@@ -1,5 +1,4 @@
 ---
-
 title: Collaboration on merge requests experience
 description: "Collaboration process and documentation for contributing to the merge requests experience"
 ---
@@ -10,7 +9,7 @@ description: "Collaboration process and documentation for contributing to the me
 
 Any change to the MR experience is likely to affect the **duration of code review**, even small changes. Reducing the duration of code review is the [primary metric of success of the Code Review group](https://about.gitlab.com/direction/create/code_review/#metrics-of-success). This metric impacts the code quality and velocity of every user of GitLab.
 
-Here in the [Code Review group](/handbook/product/categories/#code-review-group), we deeply care about the MR experience. We're the primary contributor to the MR experience, although many other groups have a stake in it. **Contributions over the years from different parties with no guidance and vision have resulted in a large amount of technical debt and deferred UX**. This page provides that much-needed guidance on how “everyone can contribute” sustainably to the MR experience.
+Here in the [Code Review group](/handbook/product/categories/#code-review-group), we deeply care about the MR experience. We're the primary contributor to the MR experience, although many other groups have a stake in it. **Contributions over the years from different parties with no guidance and vision have resulted in a large amount of technical debt and deferred UX**. This page provides that much-needed guidance on how "everyone can contribute" sustainably to the MR experience.
 
 ## Want to contribute to the MR experience?
 
@@ -26,7 +25,7 @@ If you have questions ask us in [#g_create_code-review](https://gitlab.slack.com
 
 ## Contribution frameworks
 
-Some areas of the MR experience are the focus of impactful or frequent contributions from different groups. For those areas, we need **contribution frameworks**: guidelines on how to plan, design, and build solutions that are coherent and consistent with the current experience, from both user and technical perspectives. Contribution frameworks enable “everyone can contribute” while keeping a high-quality user experience, reducing technical debt and deferred UX, reducing collaboration costs, and increasing velocity.
+Some areas of the MR experience are the focus of impactful or frequent contributions from different groups. For those areas, we need **contribution frameworks**: guidelines on how to plan, design, and build solutions that are coherent and consistent with the current experience, from both user and technical perspectives. Contribution frameworks enable "everyone can contribute" while keeping a high-quality user experience, reducing technical debt and deferred UX, reducing collaboration costs, and increasing velocity.
 
 Depending on the type of contribution your group is trying to make, various checks and information may need to be coordinated with us in the Code Review group. These are not intended to make us the arbiter of what can and can't be contributed, but to ensure broad alignment on a core area to the GitLab experience.
 
@@ -92,8 +91,8 @@ This adds some collaboration overhead, which sometimes is needed, but it can oft
 | ----- | ---------- | ----------------- | ----------- |
 | Design | R | A | Your group is **Responsible** for carrying out the necessary work in this phase, but we're **Accountable** for the outcome — in other words, we approve the outcome. This is because we're ultimately responsible for a coherent and consistent MR experience, not only for our _users_ but also for _other contributors_ that could be impacted by the changes or wish to leverage them in the future. |
 | Solution validation | R | A | Same as the previous phase. |
-| Plan | R,A | C | We help your group break down things and coordinate with other groups (for example, another group could be introducing “conflicting” changes at the same time). |
-| Develop & Test | R | A | Like in the _Design_ phase, we're **Accountable** in this phase as we're also responsible for the _developer_ experience. This should already be the case, as we “default to requests for a maintainer with [domain expertise](https://docs.gitlab.com/ee/development/code_review.html#domain-experts)” (from [Code review guidelines](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-reviewer)). |
+| Plan | R,A | C | We help your group break down things and coordinate with other groups (for example, another group could be introducing "conflicting" changes at the same time). |
+| Develop & Test | R | A | Like in the _Design_ phase, we're **Accountable** in this phase as we're also responsible for the _developer_ experience. This should already be the case, as we "default to requests for a maintainer with [domain expertise](https://docs.gitlab.com/ee/development/code_review.html#domain-experts)" (from [Code review guidelines](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-reviewer)). |
 | Launch | R,A | I |  |
 | Improve | R,A | I |  |
 | **(Optional) Start new contribution framework** | R | A | During or after the product development flow, [if a new contribution framework is needed](#need-for-a-contribution-framework), your group is **Responsible** for starting it. We approve the framework, to ensure that it can be sustainably leveraged by future contributors. |

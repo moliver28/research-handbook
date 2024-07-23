@@ -1,9 +1,6 @@
 ---
-
 title: "Customer Terrain Mapping Engagements"
 ---
-
-# Customer Terrain Mapping Engagements
 
 Customer Terrain Mapping Engagements provide customers with the benefit of GitLab's experience with DevOps methodologies, Git, GitLab, CI, CD and monitoring by brainstorming a high level, first draft discovery of their specific challenges that need to be addressed for success in a scoped area of DevOps (a Terrain). The need for this generally arises when the customer is getting ready to utilize technologies and/or methodologies they are less familiar with.
 
@@ -28,7 +25,7 @@ Customer Terrain Mapping Engagements provide customers with the benefit of GitLa
 
 ### Further Iterations of Customer Terrain Maps
 
-Like anything in the handbook, it is everyone’s responsibility and prerogative to improve these materials through corrections and enhancements. At the same time, Terrain Mapping reflects adherence to specific design principles to deliver the items documented above in Customer Terrain Mapping Design Goals.  For those wishing to make substantial changes or generate entirely new Terrain maps, these design principles are documented here: [Terrain Mapping Overview and Design Principles (GitLab Team Members Only)](https://docs.google.com/document/d/1aphwxd6LwwyfVlqNbbTzLgKyjZEX-jvpmEWEyC4XXQg/edit?usp=sharing)
+Like anything in the handbook, it is everyone's responsibility and prerogative to improve these materials through corrections and enhancements. At the same time, Terrain Mapping reflects adherence to specific design principles to deliver the items documented above in Customer Terrain Mapping Design Goals.  For those wishing to make substantial changes or generate entirely new Terrain maps, these design principles are documented here: [Terrain Mapping Overview and Design Principles (GitLab Team Members Only)](https://docs.google.com/document/d/1aphwxd6LwwyfVlqNbbTzLgKyjZEX-jvpmEWEyC4XXQg/edit?usp=sharing)
 
 ### GitLab Internal Enablement and Preparation Resources
 
@@ -349,7 +346,6 @@ Please be sure to include all the sections when updating or adding Engagements.
 
 8. Timeline
 
-
 ### Terrain Mapping for Customer Internal Developer Enablement for GitLab CI
 
 #### Status: Ready
@@ -475,4 +471,3 @@ Please be sure to include all the sections when updating or adding Engagements.
 ​ None yet
 
 #### Outline: None Yet
-

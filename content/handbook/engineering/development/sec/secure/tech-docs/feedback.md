@@ -1,13 +1,6 @@
 ---
-
 title: Secure Architecture - Feedback (Dismiss, create an issue or a Merge Request)
 ---
-
-
-
-
-
-
 
 ## Overview
 

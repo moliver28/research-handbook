@@ -1,9 +1,9 @@
 ---
-
 title: "Community Discord workflow"
 ---
 
-# Overview
+## Overview
+
 The [GitLab Community Discord](https://discord.gg/gitlab) server is a place to connect with the wider GitLab community, join live streams and pair-coding sessions, share projects, and discuss contributions with other community members. Whether you're new to GitLab and looking for help getting started or an experienced user looking to share your knowledge with others, the server is a place to chat with the community in real-time.
 
 In our community server, you can:
@@ -38,14 +38,14 @@ To keep our community and team members safe, server rule #5 covers keeping quest
 and not allowing unsolicited friend requests or direct messages without consent.
 If you receive a private message you can refer the user to this rule or use the following response:
 
-```
+```markdown
 Please refer to the GitLab Community #rules (https://discord.com/channels/778180511088640070/778194316191465474)
 and remember to use public channels instead of direct messages, thanks!
 
 > 5. All questions should be asked in public so that anyone can answer and everyone can learn from the discussion.
 > This is a community server with volunteers helping one another.
 > Please do not ping specific people to answer your question or send unsolicited friend requests or direct messages without consent.
-> See GitLab’s communication values to Use Public Channels (/handbook/communication/#use-public-channels)
+> See GitLab's communication values to Use Public Channels (/handbook/communication/#use-public-channels)
 > and Be Respectful of Others Time (/handbook/communication/#be-respectful-of-others-time).
 ```
 
@@ -79,7 +79,7 @@ For minor violations of server rules, moderators should remove the message and l
 
 For example:
 
-```
+```markdown
 Your message was removed for violating the following rule in our [GitLab Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct) or GitLab Discord Server:
 
 > (The rule violated)
@@ -89,11 +89,11 @@ Moderators should also leave a note on the member's profile regarding the warnin
 
 To review and add notes to member profile, moderators can use the following shortcuts to interact with Wick Bot:
 
-```
+```markdown
 - Add note: /notes add (it prompts you for a user and a note)
 - List all notes: /notes view
-- List all notes for a user: /notes view user<enter> (it’ll prompt you for the user)
-- View a specific note: /notes view note_id<enter> (it’ll prompt you for the note id, which can be found by listing all notes for a user)
+- List all notes for a user: /notes view user<enter> (it'll prompt you for the user)
+- View a specific note: /notes view note_id<enter> (it'll prompt you for the note id, which can be found by listing all notes for a user)
 ```
 
 #### Tier 2 - Temporary Timeout

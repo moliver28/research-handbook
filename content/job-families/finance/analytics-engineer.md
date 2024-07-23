@@ -22,7 +22,7 @@ As a team member responsible for helping to bridge the gap between business and 
 - Design and develop [dbt](https://www.getdbt.com/) code to extend the Enterprise Dimensional Model
 - Create and maintain architecture and systems documentation in the [Data Team Handbook](/handbook/business-technology/data-team/)
 - Maintain the [Data Catalog](/handbook/business-technology/data-team/data-catalog/), a scalable resource to support Self-Service and Single-source-of-truth analytics
-- Document plans and results in either issue, MRs, the [handbook](https://about.gitlab.com/handbook/), or READMEs following the GitLab tradition of [handbook first!](/handbook/handbook-usage/#why-handbook-first)
+- Document plans and results in either issue, MRs, the [handbook](/handbook/), or READMEs following the GitLab tradition of [handbook first!](/handbook/about/handbook-usage/#why-handbook-first)
 - Implement the [DataOps](https://en.wikipedia.org/wiki/DataOps) philosophy in everything you do
 - Craft code that meets our internal standards for style, maintainability, and best practices (such as the [SQL Style Guide](/handbook/business-technology/data-team/platform/sql-style-guide)) for a high-scale database environment. Maintain and advocate for these standards through code review.
 
@@ -182,13 +182,12 @@ Requirements for the Principal Analytics Engineer extend the Staff Analytics Eng
 
 ## Performance Indicators
 
-- Dimensional Model MRs Per Milestone
-- Handbook Update Frequency
-- % of Data Warehouse queries supported by Enterprise Dimensional Model >= 75%
+Analytics Engineers are evaluated on their contributions to the four [Data Team Impact Dimensions](/handbook/business-technology/data-team/#how-we-measure-impact):
 
-## Career Ladder
-
-We are evaluating the addition of levels beyond the Senior level. Currently, beyond the Senior Analytics Engineer level the next step is to move to the Manager, Data job family.
+- Data Platform Stability
+- Data Quality & Governance
+- Data Adoption
+- Revenue/Efficiency Impact
 
 ## Hiring Process
 

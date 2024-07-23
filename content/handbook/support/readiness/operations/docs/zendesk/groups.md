@@ -17,7 +17,7 @@ As per
 > default group for each team member. All new team members you create will be
 > added to the default group.
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -59,7 +59,7 @@ group in question, click the three vertical dots at the right-hand side of the
 group, and click `Delete`. This will cause a pop-up modal to appear asking you
 to confirm the action. Click red `Delete` button to do so.
 
-## Troubleshooting
+### Troubleshooting
 
 #### Pipeline error "Blank ID"
 
@@ -83,7 +83,7 @@ need to review the error and determine the next steps from there.
 If you are unsure how to proceed, it is best to seek assistance from the wider
 team.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 

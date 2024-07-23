@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab Field QBRs"
 description: "Overview of GitLab's Quarterly Business Review process"
 ---
@@ -7,6 +6,7 @@ description: "Overview of GitLab's Quarterly Business Review process"
 ## Quarterly Business Review (QBR) Overview
 
 QBRs are held during the **first two weeks of every quarter.** The sessions span between 5-7 business days. The goal of these sessions is to:
+
 1. Review team performance and lessons learned from the past quarter
 1. Review customer wins, use cases and insights to repeat "what good looks like"
 1. Review current quarter forecast and plans to meet and exceed sales goals in the coming quarter (and beyond)
@@ -14,6 +14,7 @@ QBRs are held during the **first two weeks of every quarter.** The sessions span
 1. Identify and prioritize specific requests that will help Sales be successful
 
 QBRs are categorized into two types:
+
 1. Quarterly Business Reviews (QBRs) - These sessions are held at the team- / IC-level and are organized by managers.
 1. Field Manager QBRs - These sessions include Field Managers and above and are organized by the QBR planning team. Most of the page below covers the process for Field Manager QBRs.
 
@@ -31,6 +32,7 @@ Field Manager QBRs are typically organized by region and are held starting at th
 See below for a list of QBR sessions by segment.
 
 **ENT Sales QBRs**
+
 1. ENT AMER Geo
    1. East Central
    1. Northeast
@@ -58,12 +60,14 @@ See below for a list of QBR sessions by segment.
    1. ENT APAC
 
 **COMM Sales QBRs**
+
 1. COMM SMB - AMER & EMEA
 1. COMM MM - AMER & EMEA
 1. COMM SMB & MM - APAC
 1. COMM Sales Leadership (Closed Session)
 
 **Channel & Alliances QBRs**
+
 1. Channels & Alliances Program Leadership
    1. Alliances
    1. Programs & Services
@@ -77,6 +81,7 @@ See below for a list of QBR sessions by segment.
    1. AMER Channel
 
 **CS QBRs**
+
 1. CSM Team - AMER & EMEA
 1. CSM Team - APAC
 1. SA Team
@@ -84,9 +89,7 @@ See below for a list of QBR sessions by segment.
 1. Professional Services Team
 1. CS Leadership
 
-
 ![QBR Structure Pyramid](/handbook/sales/qbrs/QBR_Structure_Pyramid.png)
-
 
 ### Field Manager QBR Participation - Virtual
 
@@ -122,6 +125,7 @@ Field Manager QBRs include managers, leadership, and delegates from across the b
    1. Field Security*
 
 **ENT Leadership QBR**
+
 1. Segment Sales VP
 1. Segment Sales VP direct reports (RDs, ASMs, and Inside Sales Managers)
 1. Chief Revenue Officer (CRO) and CRO Chief of Staff (both optional)
@@ -135,6 +139,7 @@ Field Manager QBRs include managers, leadership, and delegates from across the b
 1. Sr. Program Manager, Customer Success Enablement (optional)
 
 **COMM Leadership QBR**
+
 1. Segment Sales VP
 1. Segment Sales VP direct reports (RDs, ASMs)
 1. People Business Partner
@@ -142,6 +147,7 @@ Field Manager QBRs include managers, leadership, and delegates from across the b
 1. Program Managers, COMM Sales Enablement
 
 **CS Leadership QBR**
+
 1. VP Customer Success
 1. VP Customer Success direct reports
 1. Chief Revenue Officer (CRO) and CRO EBA (both optional)
@@ -236,6 +242,7 @@ A: If you are attending as a delegate, please note that it is part of your respo
 **Q: What specific information should the delegate capture?**
 
 A: In order to serve as an active participant in QBRs, there is no need to take verbatim notes during the sessions. Providing a detailed summary of information that is shared is adequate.
+
 1. Make as detailed notes as possible *pertaining to key insights, decisions, asks, action items, or specific improvement requests*. Please include reference to the specific slide in the QBR presentation that pertains to the ask when possible. While the slides will not be shared with the broader team, this information will help key stakeholders easily find the referenced information.
 1. Capture meaningful insights, points or key decisions that come from conversations during the QBR, not information already written in a slide.
 
@@ -249,11 +256,11 @@ A: In order to serve as an active participant in QBRs, there is no need to take 
 
 1. Be very specific in your ask; general asks are not actionable. Asks should be geared towards helping customers & prospects; improving internal processes & productivity.
    1. General topics of asks are: Product enhancement, Process, Pricing, Tooling, Etc.
-1. Business Impact: Explain how the “Ask” will impact the business. Will improve the customer engagement? Will it make the sales team more productive? Will it foster better collaboration amongst internal teams?
+1. Business Impact: Explain how the "Ask" will impact the business. Will improve the customer engagement? Will it make the sales team more productive? Will it foster better collaboration amongst internal teams?
 1. Owner (DRI): Assign the Directly Responsible Individual (DRI) for this ask. The DRI cannot be a Sales Mgr/Leader or Rep.
 1. Requested Due Date: Provide a due date for the request. This will assist with prioritization for the DRIs and internal teams working on the ask.
    1. Bonus: If there is an issue that has been created for your ask, link it in your deck!
-1. The Ask should focus on cross-functional teams. Try to avoid “intra-sales” asks that can be addressed during the quarter as a standard course of business.
+1. The Ask should focus on cross-functional teams. Try to avoid "intra-sales" asks that can be addressed during the quarter as a standard course of business.
 
 ### Intake
 
@@ -267,28 +274,26 @@ A: In order to serve as an active participant in QBRs, there is no need to take 
       1. RDs will present their region's top asks in the COMM Leadership QBR.
       1. ASMs, RDs and COMM Sales VP will review full list of COMM asks and will deliver a final list of prioritized COMM asks no later than the Monday following the COMM Leadership QBR.
 
-
 1. Field Operations will share a list of consolidated QBR asks and next steps for each no later than three weeks following the last QBR.
-1. The DRI for each ask is responsible for creating a new issue related to the QBRR ask OR identifying and updating an existing issue.  
+1. The DRI for each ask is responsible for creating a new issue related to the QBRR ask OR identifying and updating an existing issue.
    1. Leaders/Managers  are encouraged to discuss any asks that were not included in the final list with the requestor in their 1:1 to determine how/if any action should be taken.
    1. NOTE: Reps can/should make asks of Field Ops at any time outside of QBRs using [this template](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues/new?issuable_template=FieldOpsQBR).
 
 ### Execution and Tracking
 
-All new QBR asks are tracked and managed as issues within the DRI's team Project and will include a global `QBR` label and year/quarter specific `FYxx-Qx QBR` label to ensure the asks are categorized appropriately for review.  
-
+All new QBR asks are tracked and managed as issues within the DRI's team Project and will include a global `QBR` label and year/quarter specific `FYxx-Qx QBR` label to ensure the asks are categorized appropriately for review.
 
 ## Sample Field Manager QBR Roll-Out - Virtual
 
 Below is a sample roll-out of the Field Manager QBR planning and execution process that is followed for virtual QBRs. This process is subject to change based on field leadership feedback and priorities. If you have questions, please reach out in #field-enablement-team.
 
-#### 1 month before end of Q4 (each FY)
+### 1 month before end of Q4 (each FY)
 
 1. Field Events, Field EBAs and Field Comms to collaborate and present a tentative schedule of Field Manager QBRs for the following 4 quarters, including a recommendation on which quarters will include virtual vs. in-person QBRs.
    1. Field Comms to socialize to segment VPs for buy-in
    1. Once approved, socialize to all AVPs and RDs for buy-in
 
-#### 5 weeks before Field Manager QBRs are scheduled to start
+### 5 weeks before Field Manager QBRs are scheduled to start
 
 1. Field Events & Field EBAs to finalize initial QBR Schedule, Attendee and Agenda document. (See past documents in the [Field Operatons Google Drive folder](https://drive.google.com/drive/u/0/folders/1Zy1AFhJoHo3_nXCiKU8gtM3a1UBBJu6Y).)
    1. Field Comms will provide a sample agenda for ENT and COMM segments to be used as a reference point for QBR hosts.
@@ -307,7 +312,7 @@ Below is a sample roll-out of the Field Manager QBR planning and execution proce
       1. Please note that RDs/ASMs are not required to select delegates from other teams for their sessions. This is a chance to request a specific team member (ex. a specific SDR manager). If an RD/ASM chooses not to, Field Enablement will work with managers from these teams to select delegates for each session.
    1. Logistical details (i.e. personal Zoom room link)
 
-#### 4 weeks before QBRs are scheduled to start
+### 4 weeks before QBRs are scheduled to start
 
 1. Field EBAs to send out initial QBR calendar hold invites that include the following attendees:
    1. RDs, ASMs, and any other team members for that region - mandatory
@@ -325,7 +330,7 @@ Below is a sample roll-out of the Field Manager QBR planning and execution proce
    1. Inside Sales
 1. Field Operations in coordination with Enablement Program Managers begin working with VPs on QBR deck templates (if applicable).
 
-#### 3 weeks before QBRs are scheduled to start
+### 3 weeks before QBRs are scheduled to start
 
 1. Field Operations in coordination with Enablement Program Managers finalize QBR deck templates with VPs. QBR deck templates distributed to leaders for them to cascade down to their teams.
 1. Sales Ops to create notes spreadsheet and notes documents for each QBR. Notes document to include the following:
@@ -334,7 +339,7 @@ Below is a sample roll-out of the Field Manager QBR planning and execution proce
    1. Link to final QBR schedule
 1. AVPs/RDs/ASMs to populate final QBR schedules in their respective QBR Schedule, Attendee and Agenda document/tab by EOW following the best-practices outlined in their respective Sample Schedule.
 
-#### 2 weeks before QBRs are scheduled to start
+### 2 weeks before QBRs are scheduled to start
 
 1. Further scheduling changes for QBR sessions are discouraged in order to avoid disruptions for attendees.
 1. Field EBAs update existing QBR calendar invites with updated details:
@@ -342,7 +347,7 @@ Below is a sample roll-out of the Field Manager QBR planning and execution proce
    1. Link to notes document
    1. Final schedule in spreadsheet tab
 
-#### 1 week before QBRs are scheduled to start
+### 1 week before QBRs are scheduled to start
 
 1. ASMs/managers encouraged to complete their self-organized, team-level QBR sessions to gather final details for their Field Manager QBR presentations.
 1. Field Comms to create a "Manager Responsibilies" issue outlining the asks/responsibilities for QBR hosts before, during and after the calls and socialize this issue in the QBR Slack channels.
@@ -364,18 +369,17 @@ Below is a sample roll-out of the Field Manager QBR planning and execution proce
 1. Field Ops completes initial review and assignment of consolidated/prioritized QBR asks in an issue. Assigns asks to the appropriate DRIs. Determines which Ops-related asks will be actioned on in the quarterly Cannonball run.
 1. Field Ops collaborates with Field Comms to socialize the consolidated list of QBR asks and next steps.
 
-
 ## Sample Field Manager QBR Roll-Out - In-Person
 
 Below is a sample roll-out of the Field Manager QBR planning and execution process that is followed for in-person QBRs. This process is subject to change based on field leadership feedback and priorities. If you have questions, please reach out in #field-enablement-team.
 
-#### 1 month before end of Q4 (each FY)
+### 1 month before end of Q4 (each FY)
 
 1. Field Events, Field EBAs and Field Comms to collaborate and present a tentative schedule of Field Manager QBRs for the following 4 quarters, including a recommendation on which quarters will include virtual vs. in-person QBRs.
    1. Field Comms to socialize to segment VPs for buy-in
    1. Once approved, socialize to all AVPs and RDs for buy-in
 
-#### 3 months before QBRs are scheduled to start
+### 3 months before QBRs are scheduled to start
 
 1. Field Events to create a workback plan of all key dates and milestones.
 1. Field Comms to create a QBR issue that will be used to share:
@@ -388,7 +392,7 @@ Below is a sample roll-out of the Field Manager QBR planning and execution proce
 1. Field Events & Field EBAs to circulate above document to Field leaders / QBR hosts to ask for input on in-person attendees at their session. All input should be provided by leaders/QBR hosts within two weeks.
 1. CRO Chief of Staff and CRO LT to review list of requested attendees. Once reviewed and approved, the attendee list will be considered final and any additional attendees will be required to go through a formal approval process.
 
-#### 2 months before QBRs are scheduled to start
+### 2 months before QBRs are scheduled to start
 
 1. Field Events to set up a landing page for in-person QBRs that will serve as a SSOT for event details. Collaborate with Field Comms on an FAQ to be included on this page.
 1. Field Comms and Field Events to co-host a "In-Person Field Manager QBR Kickoff Session" sharing event dates, initial event details and upcoming asks.
@@ -396,13 +400,13 @@ Below is a sample roll-out of the Field Manager QBR planning and execution proce
 1. Field Comms to stand up QBR-specific Slack channels to address questions and requests from field managers. All approved QBR attendees will be added. Channel should be monitored by Field Events and EBAs in addition to Comms for full coverage.
 1. In-Person QBR registration opens.
 
-#### 4 weeks before QBRs are scheduled to start
+### 4 weeks before QBRs are scheduled to start
 
 1. Field EBAs to send out final QBR calendar invites to all approved in-person attendees. Separate calendar invites should go out to all virtual attendees with Zoom details.
 1. AVPs/RDs/ASMs to populate final QBR schedules in their respective QBR Schedule, Attendee and Agenda document/tab by EOW following the best-practices outlined in their respective Sample Schedule.
 1. Field Operations in coordination with Enablement Program Managers begin working with VPs on QBR deck templates (if applicable).
 
-#### 3 weeks before QBRs are scheduled to start
+### 3 weeks before QBRs are scheduled to start
 
 1. Field Operations in coordination with Enablement Program Managers finalize QBR deck templates with VPs. QBR deck templates distributed to leaders for them to cascade down to their teams.
 1. Sales Ops to create notes spreadsheet and notes documents for each QBR. Notes document to include the following:
@@ -410,24 +414,24 @@ Below is a sample roll-out of the Field Manager QBR planning and execution proce
    1. Example notes section
    1. Link to final QBR schedule
 
-#### 1 week before QBRs are scheduled to start
+### 1 week before QBRs are scheduled to start
 
 1. ASMs/managers encouraged to complete their self-organized, team-level QBR sessions to gather final details for their Field Manager QBR presentations.
 1. Field Comms to create a "Manager Responsibilies" issue outlining the asks/responsibilities for QBR hosts before, during and after the calls and socialize this issue in the QBR Slack channels.
 1. Field Comms to send a reminder to all QBR delegates regarding the [attendee best-practices](/handbook/sales/qbrs/#best-practices-for-attendees) outlined above in QBR Slack channels.
 
-#### Week(s) of QBRs
+### Week(s) of QBRs
 
 1. The AVP/RD or equivalent will lead the meeting.
 1. Assigned note takers will take QBR notes following the [best practices](/handbook/sales/qbrs/#qbr-note-taking) outlined above.
 1. Field Events & Field EBAs should consistently monitor the QBR Slack channels for questions.
 
-#### 1 week following QBRs
+### 1 week following QBRs
 
 1. Field Comms to create a QBR feedback issue and socialize the link in each QBR Slack channel. Issue will remain open for two weeks after the final QBR session.
 1. Field Ops team begins triaging and actioning on QBR asks. Execute on top-priority asks in a Cannonball run.
 
-#### 3 weeks following QBRs
+### 3 weeks following QBRs
 
 1. Field Ops completes initial review and assignment of consolidated/prioritized QBR asks in an issue. Assigns asks to the appropriate DRIs. Determines which Ops-related asks will be actioned on in the quarterly Cannonball run.
 1. Field Ops collaborates with Field Comms to socialize the consolidated list of QBR asks and next steps.

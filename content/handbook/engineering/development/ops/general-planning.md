@@ -5,9 +5,6 @@ title: General Planning Process - Ops Sub-department
 description: "The general planning process followed by the groups within the Ops Sub-department."
 ---
 
-
-
-
 Groups within the Ops Sub-department follow an async planning process to coordinate planning and discussion between members of the group. This process is related to the general [GitLab Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline) process and adds additional practices we've found useful.
 
 The goals of this process are to ensure we:
@@ -17,7 +14,6 @@ The goals of this process are to ensure we:
 * Efficiently discuss and define the scope of work for development, product design, and quality engineering.
 
 Teams can customize this process to meet needs specific to their team as long as the customizations are documented on their team handbook page.
-
 
 #### 1 month before start of milestone
 
@@ -54,6 +50,7 @@ Teams can customize this process to meet needs specific to their team as long as
 
 Planning issue templates follow a format similar to this. Teams can add additional headings specific to their team.
 
+```markdown
     ### <Section> Planning Board
     <!-- link to your sections planning board -->
 
@@ -77,7 +74,7 @@ Planning issue templates follow a format similar to this. Teams can add addition
 
     ### Scope of Work for Engineering Debt
 
-    <!-- What work of Engineering Debt from the past will Engineering be focused on? 
+    <!-- What work of Engineering Debt from the past will Engineering be focused on?
           - Should be at least 1 Issue per Milestone
           - The more we can handle the better... balance
     -->
@@ -85,10 +82,10 @@ Planning issue templates follow a format similar to this. Teams can add addition
     | Issue | When it should be ready |
     |-------|-------------------------|
     |       |                         |
-    
+
     ### Scope of New Work for UX
 
-    <!-- What new work will UX be focused on? 
+    <!-- What new work will UX be focused on?
           - Design based on research in previous Milestones
           - Research to help inform designs for future Milestones
           - Research to validate previously designed UI
@@ -100,7 +97,7 @@ Planning issue templates follow a format similar to this. Teams can add addition
 
     ### Scope of Work for Deferred UX
 
-    <!-- What work of Deferred UX from the past will UX be focused on? 
+    <!-- What work of Deferred UX from the past will UX be focused on?
           - Should be at least 1 Issue per Milestone
           - The more we can handle the better... balance
     -->
@@ -117,14 +114,14 @@ Planning issue templates follow a format similar to this. Teams can add addition
     |-------|--------------------|--------|
     |       |                    |        |
 
-    /label <!-- add section label here --> ~"Planning Issue" 
+    /label <!-- add section label here --> ~"Planning Issue"
+```
 
 Team Planning Issue Templates:
 
 * [Environments Team Template](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/general/-/blob/master/.gitlab/issue_templates/Planning_Issue.md)
 * [Monitor APM Team Template](https://gitlab.com/gitlab-org/monitor/apm/-/blob/master/.gitlab/issue_templates/planning-issue.md)
 * [Monitor Health Team Template](https://gitlab.com/gitlab-org/monitor/health/-/blob/master/.gitlab/issue_templates/planning-issue.md)
-
 
 #### Planning Issue Board
 

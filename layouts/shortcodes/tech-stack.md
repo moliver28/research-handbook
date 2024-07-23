@@ -1,7 +1,7 @@
-{{- /*  Initialize. */}}
+{{- /*Initialize.*/}}
 {{- $title := "" }}
 
-{{- /* Get params. */}}
+{{- /*Get params.*/}}
 {{- with (.Get 0) }}
   {{- $title = . }}
 {{- else }}
@@ -9,6 +9,7 @@
 {{- end }}
 
 {{- with (index site.Data.public.teach_stack $title) }}
+
 - **Description:** {{ .description }}
 {{- with .provisioner }}
 - **Provisioner:** {{ . }}

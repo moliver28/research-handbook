@@ -34,9 +34,9 @@ graph
 
 - Recommended check-ins with stakeholders/project owner at the following phases, at minimum, to ensure project is on target for achieving project objectives:
 
-    - Requirements Gathering
-    - Modeling & Implementation Plan
-    - Present Model Results and Insights to Stakeholders
+  - Requirements Gathering
+  - Modeling & Implementation Plan
+  - Present Model Results and Insights to Stakeholders
 
 - For defintions of some of the terms used, please refer to [Common Data Science Terms](/handbook/business-technology/data-team/organization/data-science/#common-data-science-terms). For definitions around sizing, please see [T-Shirt Sizing Approach](/handbook/business-technology/data-team/how-we-work/planning/#t-shirt-sizing-approach).
 
@@ -52,15 +52,15 @@ graph
 
 - Schedule kick-off call with stakeholders
 - Questions to be answered during kick-off call
-   - What is the problem statement that is trying to be solved/answered?
-      - This often starts off as very generic question, e.g., *"How can we reduce churn?"*. It is our job to narrow in and clearly understand the population, outcome, and timeframe of the problem statement. For example, are we interested in all churning customers? How is churn defined? And over what period of time?
-      - Push the stakeholders to give as many specifics as possible. This may take several meetings and some data exploration to pin down. In some cases, there may not be clearly established definition and it will be up to the data scientist to create the definition during the EDA Phase.
-   - What do you hope to be able to achieve at the completion of this project?
-      - The intent of this question is to get at how this project can make a meaningful impact to the problem statement. **Data science projects can increase the understanding of a problem statement (e.g. *understanding* churn risks), but they also should have a clear strategy for making *actionable* change to the problem (e.g. *reducing* churn).** If a project is purely about *understanding* then it is probably not an appropriate scope for a data science project.
-      - Some good follow-up questions to this may be: *"How do you envision the outcomes of this project to be used?"; "Who is the intended consumer of outputs from this project?"*
-   - Has any analysis been done previously to try and address this problem/question?
-      - If prior analysis exists, this is a good indication that data exists to answer the question.
-   - Who is the best technical contact to work with on reviewing any prior analyses and data sources?
+  - What is the problem statement that is trying to be solved/answered?
+    - This often starts off as very generic question, e.g., *"How can we reduce churn?"*. It is our job to narrow in and clearly understand the population, outcome, and timeframe of the problem statement. For example, are we interested in all churning customers? How is churn defined? And over what period of time?
+    - Push the stakeholders to give as many specifics as possible. This may take several meetings and some data exploration to pin down. In some cases, there may not be clearly established definition and it will be up to the data scientist to create the definition during the EDA Phase.
+  - What do you hope to be able to achieve at the completion of this project?
+    - The intent of this question is to get at how this project can make a meaningful impact to the problem statement. **Data science projects can increase the understanding of a problem statement (e.g. *understanding* churn risks), but they also should have a clear strategy for making *actionable* change to the problem (e.g. *reducing* churn).** If a project is purely about *understanding* then it is probably not an appropriate scope for a data science project.
+    - Some good follow-up questions to this may be: *"How do you envision the outcomes of this project to be used?"; "Who is the intended consumer of outputs from this project?"*
+  - Has any analysis been done previously to try and address this problem/question?
+    - If prior analysis exists, this is a good indication that data exists to answer the question.
+  - Who is the best technical contact to work with on reviewing any prior analyses and data sources?
 - Schedule a reoccurring meeting cadence with stakeholders. This should probably be more frequent at first (i.e. weekly) and can then move to a less frequent cadence (i.e. every other week) as the project progresses
 
 **Considerations**:
@@ -83,11 +83,11 @@ graph
 - Schedule a call with the DRI of the prior analytics work
 - Understand what data sources were used (and why).
 - Understand what data sources were considered but not used (and why)
-    - Also includes understand if there are any potentially useful data sources were not used (and why)
+  - Also includes understand if there are any potentially useful data sources were not used (and why)
 - Any technical/syntax definitions that should be used for this project.
-    - Links to any relevant code
+  - Links to any relevant code
 - What were the key insights and takeaways from the analysis?
-   - Links to decks and/or documentation
+  - Links to decks and/or documentation
 - If the analysis was repeated today, what would the DRI to different (and why)?
 
 **Considerations**:
@@ -111,15 +111,15 @@ _**Iterative with 3b & 3c***
 **Tasks:**
 
 - Understand if we have data available to measure the intended outcome/target of the project.
-   - This is the most critical element to establish before continuing. If we cannot quantify and measure the outcome, we cannot predict future instances of it.
-   - E.g. Churn requires an examination of historical revenue figures to determine when a customer reduced spend. Therefore, historical snapshots of ARR data would need to exist for a sufficient period in order to build predictions. As a general rule, at least twice the amount of historical data will need to exist as your prediction timeframe. For example, if you are predicting churn in the next 12 months, then at least 24 months of revnue data will need to exist (12 months for your prediction window and 12 months prior to that window to capture predictors/features).
+  - This is the most critical element to establish before continuing. If we cannot quantify and measure the outcome, we cannot predict future instances of it.
+  - E.g. Churn requires an examination of historical revenue figures to determine when a customer reduced spend. Therefore, historical snapshots of ARR data would need to exist for a sufficient period in order to build predictions. As a general rule, at least twice the amount of historical data will need to exist as your prediction timeframe. For example, if you are predicting churn in the next 12 months, then at least 24 months of revnue data will need to exist (12 months for your prediction window and 12 months prior to that window to capture predictors/features).
 - Determine if there are sufficient instances of the outcome/target that would make it reasonable to build a model on.
-   - A *very, very* general rule of thumb: At least 1,000 instances of the outcome/target
+  - A *very, very* general rule of thumb: At least 1,000 instances of the outcome/target
 - Review all relevant data sources that you intend to use for modeling
-   - Do the data sources contain data from the time periods you are interesting in examining?
-   - Do the data sources contain sufficient coverage? That is, are there are lot of missing values or features with largely the same value for every row?
-   - What is the relationship (correlation) between the data and the outcome/target? If the relationship is too strong or too weak, it may not be a good candidate to include in the modeling phase.
-   - Are there are potential risks for [data leakage](https://en.wikipedia.org/wiki/Leakage_(machine_learning)) from the lookback window into the prediction window by using this data source?
+  - Do the data sources contain data from the time periods you are interesting in examining?
+  - Do the data sources contain sufficient coverage? That is, are there are lot of missing values or features with largely the same value for every row?
+  - What is the relationship (correlation) between the data and the outcome/target? If the relationship is too strong or too weak, it may not be a good candidate to include in the modeling phase.
+  - Are there are potential risks for [data leakage](https://en.wikipedia.org/wiki/Leakage_(machine_learning)) from the lookback window into the prediction window by using this data source?
 
 **Considerations**:
 
@@ -131,10 +131,10 @@ _**Iterative with 3b & 3c***
 - Identify possible datasources and determine viability of each source for use in the project
 - Perform exploratory data analysis
 - Review results with stakeholders and collect feedback on appropriateness of:
-   - outcome/target definition
-   - data sources being used, reasons for inclusion/exclusion, and if any additional sources should be considered.
-   - Solicit feedback regarding fields that are being created as potential features of the model. Stakeholders may suggest addition datasources, features, or rollups that are not currently being considered.
-   - This will likely be an iterative process. As you uncover insights, it may unearth additional questions/comments/concerns from stakeholders.
+  - outcome/target definition
+  - data sources being used, reasons for inclusion/exclusion, and if any additional sources should be considered.
+  - Solicit feedback regarding fields that are being created as potential features of the model. Stakeholders may suggest addition datasources, features, or rollups that are not currently being considered.
+  - This will likely be an iterative process. As you uncover insights, it may unearth additional questions/comments/concerns from stakeholders.
 
 ## 3b: Feature Engineering
 
@@ -147,11 +147,11 @@ _**Iterative with 3b & 3c***
 **Tasks:**
 
 - Identify a list of features that will be constructed
-   - Identify which table(s) will be used to construct each feature
+  - Identify which table(s) will be used to construct each feature
 - Construct SQL code to build the model training dataset
-   - Parameterize your code so you can easily change time periods on the fly, and to make it possible to use one query for both training and scoring the model.
-   - Ensure that there is no leakage from your Prediction Window to your Lookback Period. For example, if your Prediction Window is data within the last 90 days, the feature data should only come from data at least 91 days in the past
-   - Ensure that your dataset is aggregated/rolled-up to the appropriate level. For example, if you are making a prediction about accounts, the output of your SQL code should be aggregated at the account level.
+  - Parameterize your code so you can easily change time periods on the fly, and to make it possible to use one query for both training and scoring the model.
+  - Ensure that there is no leakage from your Prediction Window to your Lookback Period. For example, if your Prediction Window is data within the last 90 days, the feature data should only come from data at least 91 days in the past
+  - Ensure that your dataset is aggregated/rolled-up to the appropriate level. For example, if you are making a prediction about accounts, the output of your SQL code should be aggregated at the account level.
 
 **Considerations**:
 
@@ -178,9 +178,9 @@ In the project issue, document the following:
 
 - A clear, concise, and easy to understand project name. E.g. Propensity to Churn
 - Clearly defined and specific outcome/target that is being measured, both in plain English and in syntax. E.g. "Likelihood for a paid account to reduce Annual Reoccuring Revenue (ARR) by at least 10% in the next 12 months". The definition should include the following elements:
-   - Population: e.g. Paid Accounts
-   - Measurable Outcome: e.g. 10% or greater reduction in ARR
-   - Timeframe: e.g. Next 12 Months
+  - Population: e.g. Paid Accounts
+  - Measurable Outcome: e.g. 10% or greater reduction in ARR
+  - Timeframe: e.g. Next 12 Months
 - Data sources to be used and specific date windows
 - *Brief* overview of the modeling process, including algorithmic approaches that will be attempted: e.g. logistic regression, XGBoost, MARs
 - Model Outputs: e.g. A propensity score (0-100%), top 3 local insights for each account, Inspector and Monitoring dashboards.
@@ -206,34 +206,34 @@ In the project issue, document the following:
 **Tasks:**
 
 - Conduct a data gut-check to make sure the data looks proper:
-   - Naming conventions are consistent
-   - Field types look correct (e.g. numeric fields are formatted as numeric)
-   - Distribution/Min/Max/Mean/SD look reasonable
-   - NULLs for features we expect to have nulls
-      - Zero-fills for features we expect to have zero
-   - Coverage: are there features where wthere is not a lot of variation (e.g. mostly zero). If so, you may want to consider creating `_flag` fields for those features instead.
-      - Do you notice any clear distinctions between different subsets of modeling population (e.g. Free vs Paid accounts). If so, it may make sense to split into more than one model if those features are highly predictive of the outcome.
-   - Based on the above analysis, does it make sense to create a different view of the potential features (change to bands/deciles/quartiles/etc)?
+  - Naming conventions are consistent
+  - Field types look correct (e.g. numeric fields are formatted as numeric)
+  - Distribution/Min/Max/Mean/SD look reasonable
+  - NULLs for features we expect to have nulls
+    - Zero-fills for features we expect to have zero
+  - Coverage: are there features where wthere is not a lot of variation (e.g. mostly zero). If so, you may want to consider creating `_flag` fields for those features instead.
+    - Do you notice any clear distinctions between different subsets of modeling population (e.g. Free vs Paid accounts). If so, it may make sense to split into more than one model if those features are highly predictive of the outcome.
+  - Based on the above analysis, does it make sense to create a different view of the potential features (change to bands/deciles/quartiles/etc)?
 
 - Model prep: may include the following components:
-   - Outlier detection
-   - Missing fill
-   - Dummy coding and indicator creation
-   - Removing features due to low variation, multicollinearity, high correlation to the outcome, etc.
-   - Check logic for possible data leakage
-   - The Data Science team has created the [gitlabds](https://pypi.org/project/gitlabds/) python package to assist in many of these data prep tasks. If you're using the [data science jupyter container](https://gitlab.com/gitlab-data/data-science), this package is already installed.
+  - Outlier detection
+  - Missing fill
+  - Dummy coding and indicator creation
+  - Removing features due to low variation, multicollinearity, high correlation to the outcome, etc.
+  - Check logic for possible data leakage
+  - The Data Science team has created the [gitlabds](https://pypi.org/project/gitlabds/) python package to assist in many of these data prep tasks. If you're using the [data science jupyter container](https://gitlab.com/gitlab-data/data-science), this package is already installed.
 - Model iteration
-   - Logging model training runs/experiments. The Data Science team is currently implementing MLFlow to track model training iterations. More details will be shared when it is available
+  - Logging model training runs/experiments. The Data Science team is currently implementing MLFlow to track model training iterations. More details will be shared when it is available
 - Final model candidate selection
 
 **Considerations**:
 
 - If you would like to use the Data Science Team model production process (see Phase 6), your code will need to be able to execute on the [data science jupyter container](https://gitlab.com/gitlab-data/data-science). Therefore, it is recommended that you use this container to train your model.
-   - If your model requires packages that are not installed on the data-science repository, please raise an issue with the Data Science team, and we will add them.
+  - If your model requires packages that are not installed on the data-science repository, please raise an issue with the Data Science team, and we will add them.
 - The Data Science team has a number of tools and resources to assist you in this process. Visit the [Data Science Handbook page](/handbook/business-technology/data-team/organization/data-science/#data-science-tools-at-gitlab) for additional information. These include:
-   - Pre-Configured JupyterLab Container
-   - gitlabds python toolset
-   - Modeling Process Templates
+  - Pre-Configured JupyterLab Container
+  - gitlabds python toolset
+  - Modeling Process Templates
 - Sometimes it's a good idea to build a baseline model that represents the status quo so that there is a tangiable solution to compare the model against.
 
 **Completion Criteria:**
@@ -252,15 +252,15 @@ In the project issue, document the following:
 **Tasks:**
 
 - A presentation should a include the following elements:
-   - Problem statement and how the model is solving for it.
-   - Timeline (where we are in the project)
-   - Data sources used/considered
-   - (Optional) Very high-level methodology
-   - Key features
-   - How we know it's a good model (e.g. performance metrics, lift)
-   - Model limitations
-   - Conclusions
-   - Next steps
+  - Problem statement and how the model is solving for it.
+  - Timeline (where we are in the project)
+  - Data sources used/considered
+  - (Optional) Very high-level methodology
+  - Key features
+  - How we know it's a good model (e.g. performance metrics, lift)
+  - Model limitations
+  - Conclusions
+  - Next steps
 
 **Considerations**:
 
@@ -282,11 +282,11 @@ In the project issue, document the following:
 - Place all your model parameters into a scoring parameters yaml file.
 - Create a new scoring notebook.
 - Create a scoring jupyter notebook (a python script also works)
-   - Create any hard-codes that are necessary. For example, if you performed outliers for training, use those values in your scoring code (as opposed to calculating new outliers on your scoring dataset)
-   - Create dummy codes for any dummy-coded features in your model
-   - Make sure you are completing all the same model prep steps in the scoring score as you did in the training code.
+  - Create any hard-codes that are necessary. For example, if you performed outliers for training, use those values in your scoring code (as opposed to calculating new outliers on your scoring dataset)
+  - Create dummy codes for any dummy-coded features in your model
+  - Make sure you are completing all the same model prep steps in the scoring score as you did in the training code.
 - Once you have your scoring notebook ready, a good way to check for errors is to run your training dataset through it. You should arrive at the same model score descriptives and decile breakdowns as you did in your training code.
-   - If the numbers are not aligning up, it is most likely due to an issue with your scoring code. The best way to check this is to look at the descriptives of the features. Look at the descriptive right before they get scored in the training code and in the scoring code. If one or more features are off, then you have most likely located the issue.
+  - If the numbers are not aligning up, it is most likely due to an issue with your scoring code. The best way to check this is to look at the descriptives of the features. Look at the descriptive right before they get scored in the training code and in the scoring code. If one or more features are off, then you have most likely located the issue.
 - Now you can run your code with your scoring dataset. Be sure update your sql code so it is parameterized to use the most current data available.
 - Examine the model decile distribution of your scored records. They should be roughly equal. If they are wildly off, or if they vary widely in each scoring run, it could be a sign that your model is overfit/underfit and cannot generalize beyond the training dataset.
 - Add .sql file, parameters.yml, model artifacts, and jupyter notebook to a production directory in your repo.
@@ -296,7 +296,7 @@ In the project issue, document the following:
 
 - This step is prone to a lot of human error, so completing the tasks outlined above is helpful to ensure accurate scoring of the model.
 - What is the scoring cadence (Daily/Weekly/Month)? Batch or real-time?
-    - real-time scoring will likely have different technological requirements than batch scoring.
+  - real-time scoring will likely have different technological requirements than batch scoring.
 
 **Completion Criteria:**
 
@@ -336,7 +336,7 @@ In the project issue, document the following:
 - Invite and solicit feedback from everyone involved in the project (stakeholders, contributors, etc.). Specifically, we want to know:
    1. What praise do you have for the group?
    1. What went well with this project?
-   1. What didn’t go well with this project?
+   1. What didn't go well with this project?
    1. What can we improve going forward?
 
 **Considerations**:

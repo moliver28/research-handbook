@@ -1,19 +1,9 @@
 ---
-
 title: "Major League Hacking Fellows"
 description: "Information on the MLHF cohorts working with Digital Experience."
 ---
 
-
-
-
-
-
-  
-
-# Program Information
-
-
+## Program Information
 
 The purpose of this page is to present process guidelines for the Major League Hacking Fellow cohorts (https://fellowship.mlh.io/) that are working with the Digital Experience team. This page is for fellows to find information about their cohort, the Digital Experience team, our projects, and where to ask for help.
 
@@ -31,7 +21,7 @@ The Fall 20022 Cohort working with GitLab will be comprised of 2 engineering fel
 
 At GitLab, the Slippers Design System is a systematic approach to marketing site development You can use the system to manage our marketing component library.
 
-In this project, the MLH fellows will complete several deliverables that will improve the user experience of the Slippers Design System. We will implement new components, iterate on existing components, and use UI components from GitLab’s Pajamas design system to bring consistency across the GitLab application and marketing site.
+In this project, the MLH fellows will complete several deliverables that will improve the user experience of the Slippers Design System. We will implement new components, iterate on existing components, and use UI components from GitLab's Pajamas design system to bring consistency across the GitLab application and marketing site.
 
 #### Stakeholder Information
 
@@ -62,21 +52,21 @@ Follow the README instructions for setting your local development environment.
 
 - Create a GitLab account and [set up SSH keys](https://docs.gitlab.com/ee/user/ssh.html).
 - [https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui)
-- If you don’t know VueJS 2.0, you can get started on this [guide](https://v2.vuejs.org/v2/guide/)
+- If you don't know VueJS 2.0, you can get started on this [guide](https://v2.vuejs.org/v2/guide/)
 - [Slippers Design System walkthough video](https://youtu.be/dphm0TlAqIk)
 
 #### Documentation
 
-- [Read GitLab’s contribution guidelines](https://docs.gitlab.com/ee/development/contributing/index.html) with a special focus on the [Merge Request Workflow](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html)
-- Get familiarized with GitLab’s Slipper Design System by reading the [intro and exploring our Storybook instance](https://gitlab-com.gitlab.io/marketing/digital-experience/slippers-ui/?path=/story/intro--page).
+- [Read GitLab's contribution guidelines](https://docs.gitlab.com/ee/development/contributing/index.html) with a special focus on the [Merge Request Workflow](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html)
+- Get familiarized with GitLab's Slipper Design System by reading the [intro and exploring our Storybook instance](https://gitlab-com.gitlab.io/marketing/digital-experience/slippers-ui/?path=/story/intro--page).
 
 #### Deliverables + Timeline
 
-Please identify and describe the deliverables for your project(s) and the ideal deadline for each. This may include features or issues you would like the fellows to complete by the end of the fellowship. There are two general approaches we’ve seen be successful:
+Please identify and describe the deliverables for your project(s) and the ideal deadline for each. This may include features or issues you would like the fellows to complete by the end of the fellowship. There are two general approaches we've seen be successful:
 
 | **Issue**                                                                                                                               | **Description**                                                                              | **Assignee**                        | **Deadline**   |
 | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------- | -------------- |
-| ✅  [Vertically align dropdown caret](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/194)   | Vertically align dropdown caret                                                              | Seung Yoo                           | October, 17th  | 
+| ✅  [Vertically align dropdown caret](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/194)   | Vertically align dropdown caret                                                              | Seung Yoo                           | October, 17th  |
 | ✅ [Loading components](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/204)                               | Create progress bar and spinner loading components                                                              | Uy Seng (Wei)                       | October, 17th  |
 | ✅ [Address v::deep errors on build on Slippers repo](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/208) | Update v::deep references that are now deprecated                                            | Uy Seng (Wei)                       | October, 17th  |
 | ✅ [Add Slippers variable names next to colors](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/214)       | Add the matching Slippers variable within `_variables.scss` to the table on our color page   | Uy Seng (Wei)                       | October, 17th  |
@@ -92,10 +82,10 @@ Please identify and describe the deliverables for your project(s) and the ideal 
 | ✅ [Update breadcrumb component](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/219) | Update existing breadcrumb component | Uy Seng (Wei) | December 8th |
 | ✅ [Update Top Button name to be Side Button](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/220) | Update name of Top Button component | Seung Yoo | December 8th |
 | ✅ [Update RadioGroup component functionality and states](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/221) | Update existing RadioGroup component | Seung Yoo | December 8th |
-| ✅ [Add checkbox components to Slippers + create new Controls folder](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/222) | Create new component and update folder structure | Uy Seng (Wei) | December 8th | 
+| ✅ [Add checkbox components to Slippers + create new Controls folder](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/222) | Create new component and update folder structure | Uy Seng (Wei) | December 8th |
 | ✅ [Update horizontal rule component color](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/223) | Update HorizontalRule component to use new brand color | Seung Yoo | December 8th |
 | ✅ [Change CustomDropdown component placeholder text](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/235) | Change placeholder text in CustomDropdown story file | Chukwuemeka Mba | December 8th |
-| ✅ [Add mobile styles for Quote typography variables](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/237) | Add new font styles on mobile in variables file and update SlpTypography component | TBD | December 8th
+| ✅ [Add mobile styles for Quote typography variables](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/237) | Add new font styles on mobile in variables file and update SlpTypography component | TBD | December 8th |
 | ✅ [CustomDropdown component MVC2](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/240) | Second iteration to our CustomDropdown component | Chukwuemeka Mba | December 8th |
 | ✅ [Update tooltip component arrow size](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/249) | Implement design feedback from MVC1 review | Chukwuemeka Mba | December 8th |
 | More issues if there's capacity from fellows                                                                                            | TBD                                                                                          | TBD                                 | December 8th |

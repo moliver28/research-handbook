@@ -1,7 +1,7 @@
 ##### Quality
 
 - Quad Planning & Test Coverage
-  - Perform [quad planning](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/quad-planning/) and improve test coverage in collaboration with other Software Engineers in Test
+  - Perform [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) and improve test coverage in collaboration with other Software Engineers in Test
   - Help create test strategy and implement test automation for new and existing features.
   - Identifies gaps in functional test automation, document missing coverage, and add new test automation to improve coverage.
 - Test Stability & Triage

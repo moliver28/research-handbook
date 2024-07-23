@@ -1,14 +1,7 @@
 ---
-
 title: "PathFactory Analytics"
 description: "All roles and permissions have access to reporting functionality in PathFactory."
 ---
-
-
-
-
-
-
 
 ## PathFactory Analytics
 
@@ -20,7 +13,6 @@ All roles and permissions have access to reporting functionality in PathFactory.
 ### Using Safari
 
 If you are using Safari as your preferred browser, ensure `Prevent cross-site tracking` is disabled in your privacy settings. Path Analytics uses Looker which requires external cookies. If this option is enabled, you will not be able to view Path Analytics using Safari.
-
 
 ### Target Track Analytics
 

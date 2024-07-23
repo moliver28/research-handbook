@@ -1,12 +1,9 @@
 ---
-
 title: Name Squatting Policy
 description: "Workflow for releasing a namespace deemed dormant by GitLab's Name-squatting Policy"
 category: GitLab.com
 subcategory: Accounts
 ---
-
-
 
 ### Overview
 
@@ -14,7 +11,7 @@ According to the [statement of support](https://about.gitlab.com/support/gitlab-
 
 **IMPORTANT NOTE:** If you have any situation that is unusual, or does not fall under the workflow below, [open an Issue](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/operations/-/issues/new?issuable_template=General%2BUncategorized) with Security Operations. Describe the situation and request them to review and provide guidance.
 
-**NOTE:** When applying any of the macros ensure to replace the placeholder **“REQUESTEDNAME”** with the namespace requested.
+**NOTE:** When applying any of the macros ensure to replace the placeholder **"REQUESTEDNAME"** with the namespace requested.
 
 ### Workflow
 
@@ -43,7 +40,7 @@ Requester's Ticket:
 
 #### Namespace owner responded
 
-If the namespace owner makes a response (don’t remove my namespace) follow these steps:
+If the namespace owner makes a response (don't remove my namespace) follow these steps:
 
 1. Use the following snippet as the response in the **namespace owner's** ticket and set the ticket to `solved`:
 
@@ -79,7 +76,7 @@ For users, change the owner's username with [Chatops](https://docs.gitlab.com/ee
 If you'd prefer to use admin, or for groups, rename the owner's namespace with these steps:
 
 1. Navigate to the namespace in admin - [users](https://gitlab.com/admin/users) or [groups](https://gitlab.com/admin/groups)
-1. Select “Edit” on the profile.
+1. Select "Edit" on the profile.
 1. Append "_idle" to the username in case of a user, or to the group URL in case of a group.
 1. Add an [Admin note](/handbook/support/workflows/admin_note).
 1. Save changes.

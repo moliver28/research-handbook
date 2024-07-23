@@ -43,7 +43,7 @@ In this lab we will use GitLab to create a project, an issue, and a merge reques
 
 > Merge requests are a core feature of source control with GitLab since they let you make suggestions to update documents in a repository. You can learn more about merge requests in the [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/).
 
-1. On the issue details page, click the the **dropdown arrow** to the right of the **Create merge request** button. This is where you can customize the merge request.
+1. On the issue details page, click the **dropdown arrow** to the right of the **Create merge request** button. This is where you can customize the merge request.
 
 1. Set the **Branch name** to `fix-issue`. Make sure that the **Source** is set to `main`.
 
@@ -87,7 +87,7 @@ In this lab we will use GitLab to create a project, an issue, and a merge reques
 
 After creating the merge request, you now have 3 linked items that all relate one piece of work that you need to do: an issue, a branch, and a merge request. An issue describes the work to be done, a branch contains the changes that address the issue, and a merge request proposes how to incorporate the changes into the `main` code branch.
 
-## Task D. Edit files on a branch using GitLab’s Web IDE
+## Task D. Edit files on a branch using GitLab's Web IDE
 
 > To address the changes required in the issue, you can edit files in your code branch. There are many ways to edit files in a branch. In the last lab, you learned how to edit a file locally. In this lab, you will edit a file online through the Web IDE. The Web IDE is an advanced editor with commit staging. You can use the Web IDE to make changes to multiple files directly from the GitLab UI. You can find out more information in the [documentation](https://docs.gitlab.com/ee/user/project/web_ide/).
 
@@ -112,7 +112,7 @@ After creating the merge request, you now have 3 linked items that all relate on
 ## Task E. Verify changes in a merge request
 
 1. On the merge request page, locate the **Assignee** section in the upper right-hand corner (you might have to click the double arrow at the top right of
-the screen to expand the pane). Ensure the merge request is assigned to yourself. If it is not, click **Assignees > Edit** and click your username from the resulting list. Click **Apply**.
+the screen to expand the pane). Ensure the merge request is assigned to yourself. If it is not, click **Assignees > Edit** and click your username from the resulting list. Click away from the list to apply the change.
 
 1. Click the **Changes** tab directly below the merge request title.
 
@@ -122,7 +122,7 @@ the screen to expand the pane). Ensure the merge request is assigned to yourself
 
    > When you start a review, your comments will only be visible to you until you submit the review.
 
-1. You’d normally add more comments to your review before submitting them all at once, but for this lab just click the **Finish review** button.
+1. You'd normally add more comments to your review before submitting them all at once, but for this lab just click the **Finish review** button.
 
 1. In the resulting dialog, you will see a **Summary comment** textbox. This is an optional field that allows you to add a summary to your review. For this review, add the comment **Added comment to README.md**
 
@@ -140,19 +140,19 @@ the screen to expand the pane). Ensure the merge request is assigned to yourself
 
 ## Task F. Merge the branch and close the merge request
 
-1. Click the the **Overview** tab under the MR title.
+1. Click the **Overview** tab under the MR title.
 
-1. To mark the merge request as ready to merge, click **Mark as ready**. This removes `Draft:` from your MR’s title.
+1. To mark the merge request as ready to merge, click **Mark as ready**. This removes `Draft:` from your MR's title.
 
-   > For this lab, you haven’t specified any approvers for this project. If you had, an **Approve** button would appear in the **View eligible approvers** section.
+   > For this lab, you haven't specified any approvers for this project. If you had, an **Approve** button would appear in the **View eligible approvers** section.
 
 1. Ensure the **Delete source branch** checkbox is enabled, and click the **Merge** button.
 
 1. Navigate back to your project's repository by clicking **Code > Repository** in the left-hand navigation pane.
 
-1. Check what branch you’re on by looking at the dropdown at the top left of the page. Switch to **main** if you’re not already on it by clicking on the branch name, and clicking the `main` branch.
+1. Check what branch you're on by looking at the dropdown at the top left of the page. Switch to **main** if you're not already on it by clicking on the branch name, and clicking the `main` branch.
 
-1. Since the default view of the repository displays the contents of the `README.md` file, it’s easy to verify that the merge added `Edit my README.md file` to the contents of `README.md`.
+1. Since the default view of the repository displays the contents of the `README.md` file, it's easy to verify that the merge added `Edit my README.md file` to the contents of `README.md`.
 
 ## Lab Guide Complete
 
@@ -160,4 +160,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you’d like to suggest changes to the lab, please submit them via merge request.
+If you'd like to suggest changes to the lab, please submit them via merge request.

@@ -1,15 +1,7 @@
 ---
-
 title: Conferences
 description: This page will highlight the benefits of attending conferences
 ---
-
-
-
-
-
-
-
 
 ## Why is it important to attend conferences?
 
@@ -55,7 +47,6 @@ Conferences are a great place to learn about the latest innovations. Attending t
 **GraphQL**
 
 * [GraphQL Summit](https://summit.graphql.com/)
-
 
 ## What are some benefits to presenting at conferences?
 

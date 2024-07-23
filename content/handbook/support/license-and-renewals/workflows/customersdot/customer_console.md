@@ -1,5 +1,4 @@
 ---
-
 title: Customer Console
 category: CustomersDot
 description: Using the customer console for internal requests is only for special cases where the existing tools won't allow us to complete the task at hand.
@@ -15,7 +14,7 @@ Console access is through [Teleport](https://goteleport.com/docs/connect-your-cl
 
 Refer to the [CustomersDot documentation page about Teleport](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#using-teleport-for-db-rails-access) for a full overview of installing and using Teleport to access the production or staging rails console.
 
-#### Production
+### Production
 
 All requests to *production* require approval of the SRE(s) on shift, and you can view your request(s) in `#teleport-requests` in slack.
 
@@ -28,7 +27,7 @@ All requests to *production* require approval of the SRE(s) on shift, and you ca
 1. Afer the request is approved, you will then use Teleport to SSH into the system with `tsh ssh`
 1. Requests generally remain approved for 8-12 hours.  You can resume that session anytime, again using `--request-id`
 
-#### Staging
+### Staging
 
 - No approval is necessary for staging, and access is granted immediately
 - Accessing is the same as it is for production, except your `tsh login` will be approved immediately, and you can move on to `tsh ssh`

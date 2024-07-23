@@ -1,5 +1,4 @@
 ---
-
 title: "Flaky tests management and processes"
 ---
 
@@ -55,7 +54,6 @@ To ensure that our product quality is not negatively affected due to test covera
     Groups can also list all of their [flaky tests](https://gitlab.com/gitlab-org/gitlab/-/issues/?state=opened&label_name%5B%5D=failure%3A%3Aflaky-test&label_name%5B%5D=group%3A%3Axxx) and their [quarantined tests](https://gitlab.com/gitlab-org/gitlab/-/issues/?state=opened&label_name%5B%5D=group%3A%3Axxx&label_name%5B%5D=quarantine) (replace `group::xxx` in the issues list).
 3. The number of quarantined test cases per group is also available as [a dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTFlakytestissues/MonthlyFlakyTestIssues).
 4. Groups are responsible for ensuring stability and coverage of their own tests, by [getting flaky tests back to running](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html#how-to-reproduce-a-flaky-test-locally) or removing them.
-
 
 You can leave any feedback about this process in the [dedicated issue](https://gitlab.com/gitlab-org/quality/engineering-productivity/team/-/issues/447).
 

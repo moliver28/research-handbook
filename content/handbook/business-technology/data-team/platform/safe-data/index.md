@@ -1,16 +1,7 @@
 ---
-
 title: "SAFE Data Guide"
 description: "SAFE Data Guide"
 ---
-
-
-
-
-
-
-
-
 
 ---
 
@@ -35,7 +26,7 @@ General Access Dashboards are available to all GitLab Team members. An Access Re
 
 #### Accessing a SAFE Dashboard
 
-All SAFE dashboards are stored within various team's SAFE folders and permission is managed by the user's access group membership. Access to a single SAFE dashboard provides access to all SAFE Dashboards. Having  access to the SAFE project/folder will result in making the team member a [Designated Insider](/handbook/legal/publiccompanyresources/#sts=Designated%20Insiders) subject to our [Insider Trading Policy](https://drive.google.com/file/d/12H-H43vIf15fWADZDEf3FH2jneMmiLDH/view). Gaining access to a SAFE dashboard (and the space) via membership in the General SAFE Access user group requires:
+All SAFE dashboards are stored within various team's SAFE folders and permission is managed by the user's access group membership. Access to a single SAFE dashboard provides access to all SAFE Dashboards. Having  access to the SAFE project/folder will result in making the team member a [Designated Insider](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) subject to our [Insider Trading Policy](https://drive.google.com/file/d/12H-H43vIf15fWADZDEf3FH2jneMmiLDH/view). Gaining access to a SAFE dashboard (and the space) via membership in the General SAFE Access user group requires:
 
 1. Your immediate manager's approval
 2. Departmental VP (or equivalent) approval

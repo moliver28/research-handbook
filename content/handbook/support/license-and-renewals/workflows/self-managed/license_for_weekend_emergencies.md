@@ -1,5 +1,4 @@
 ---
-
 title: Weekend Emergencies - Self-Managed License Request
 description: "Support process for Self-managed weekend license emergencies"
 category: GitLab Self-Managed licenses

@@ -26,12 +26,8 @@ Below is a set of general, yet not strict, characteristics of companies that are
 
 - Have built features or functionalities which are aligned with GitLab's [long term strategy](https://about.gitlab.com/direction/)
 - Engineers that meet our [standard hiring guidelines](/job-families/engineering/backend-engineer/)
-- Ideally bring a solution which accelerates our maturity in a product category
+- Ideally bring a solution which accelerates our maturity in a product category or fits into the new categories on our roadmap.
 - R&D team size under 30 people
-according to our [category maturity](https://about.gitlab.com/direction/maturity/) or fits into the new categories on our roadmap:
-
-{{< sdlc >}}
-
 - Willing to [reimplement products into GitLab](/handbook/product/single-application/) in Ruby and Go
 - Willing to sunset old customers within 90 days or less, with an option to transition to GitLab. GitLab follows an [open-core model](https://about.gitlab.com/install/ce-or-ee/)
 - Aligned to ship on the first month and iterate quickly
@@ -56,23 +52,24 @@ Acquisitions receive a compensation offer specific to that engagement, which wil
 
 ## What happens to your current company?
 
-1. We follow an **asset purchase** and not a stock purchase in order to limit unexpected liabilities. Please review our [Term Sheet](https://docs.google.com/document/d/1_G2bXxhMe_qXrF8LdZcXwsCcIs1GJAS1-v42U2MV8a4) for additional details.
+1. Our goal is to integrate the acquired technology into GitLab's platform with the team behind it, keeping the team as whole as possible.
+1. We want to focus on integrating the value quickly, thus we don't want to maintain existing services/products outside of GitLab's platform as doing that will hinder the speed of integration.
 
 ## Hear from the founders of our previous acquisitions
 
-**Andrew Newdigate**, “Throughout Gitter's acquisition process, GitLab was an excellent partner. We started the process in mid-December, and by mid-January, the team were onboard and had joined GitLab's summit in Cancún, Mexico. Compared to previous acquisition attempts that we had been through with other companies, the professionalism and focus of the GitLab team was refreshing. It quickly became apparent to me that Sid, Paul and the team at GitLab were interested in striking a fair deal, and were as concerned about the outcome for the Gitter team as my co-founder and I were. In the year-and-half since, GitLab has continued to be a great home for Gitter and I'm incredibly proud to be part of the team.”
+**Andrew Newdigate**, "Throughout Gitter's acquisition process, GitLab was an excellent partner. We started the process in mid-December, and by mid-January, the team were onboard and had joined GitLab's summit in Cancún, Mexico. Compared to previous acquisition attempts that we had been through with other companies, the professionalism and focus of the GitLab team was refreshing. It quickly became apparent to me that Sid, Paul and the team at GitLab were interested in striking a fair deal, and were as concerned about the outcome for the Gitter team as my co-founder and I were. In the year-and-half since, GitLab has continued to be a great home for Gitter and I'm incredibly proud to be part of the team."
 
 **Philippe Lafoucrière**, "When GitHub announced they would provide a Security graph and alerts, we knew we would not be able to compete with them. That meant the end of the story for us and our product. It was time to find a new home for the team. We started discussions with GitLab in November 2017 and officially joined the company in mid-January 2018. The whole process was seamless, with a particular care for the team. Expectations from both sides were discussed, with mutual respect and understanding.
-The founders made themselves available for us at anytime, and we had regular meetings for several months until we all estimated the situation stable enough. Onboarding a whole team at once is a challenge: the peopleops team did everything they could to help and to make them feel comfortable with their new positions. They were happy to continue on the foundations we’ve built over the years while being able to contribute to a greater goal. We managed to identify with the management where we could have the best impact, and provide results as soon as possible.
-I don’t see anything GitLab could have done differently to make this acquisition smoother. The most important value to follow in this kind of event is Trust (because you can only lose it once). GitLab, and especially its CEO, was incredibly clear and respectful during all the process and beyond."
+The founders made themselves available for us at anytime, and we had regular meetings for several months until we all estimated the situation stable enough. Onboarding a whole team at once is a challenge: the peopleops team did everything they could to help and to make them feel comfortable with their new positions. They were happy to continue on the foundations we've built over the years while being able to contribute to a greater goal. We managed to identify with the management where we could have the best impact, and provide results as soon as possible.
+I don't see anything GitLab could have done differently to make this acquisition smoother. The most important value to follow in this kind of event is Trust (because you can only lose it once). GitLab, and especially its CEO, was incredibly clear and respectful during all the process and beyond."
 
 **[Gemnasium: Our GitLab journey](https://about.gitlab.com/blog/2019/04/30/gemnasium-our-gitlab-journey/)**
 
 ## Keys to successful acquisitions
 
-1. Managing people’s expectations and concerns
+1. Managing people's expectations and concerns
 1. Successful integration execution
-1. Maintain a non-biased view on target companies’ value
+1. Maintain a non-biased view on target companies' value
 
 ## Starting an acquisition discussion with GitLab
 

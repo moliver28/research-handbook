@@ -8,7 +8,7 @@ Any Package Hunter related finding can be found on this [dashboard](https://gitl
 
 ## Network Connection Findings
 
-We're going to use [this finding][1] as an example. In this finding,
+We're going to use [this finding](https://gitlab.com/gitlab-org/gitlab/-/security/vulnerabilities/5043319) as an example. In this finding,
 Package Hunter detected that a package opened a network connection.
 
 > 02:24:56.163600570: Notice Disallowed outbound connection destination (command=node scripts/install.js connection=172.17.0.2:36884->52.217.109.44:443 user=root container_id=fb38d63ef02a container_name=some-container-eae8d3ec-a482-441b-8262-78198b46fdfb.tgz image=maldep)
@@ -67,20 +67,14 @@ the alert and that there is no malicious intent.
 
 - If we discover that the package was malicious all along (typosquatting for example),
 [security on-call should be engaged] for further investigation and an MR should be
-opened to replace the package with the legitimate one. Consider [reporting][2]
-the malicious package to the registry operator ([NPM]) or [RubyGems])
+opened to replace the package with the legitimate one. Consider [reporting](https://about.gitlab.com/security/disclosure/#disclosure-guidelines-for-vulnerabilities-in-3rd-party-software)
+the malicious package to the registry operator ([NPM](https://www.npmjs.com/policies/security#reporting-security-problems-to-npm) or [RubyGems](https://guides.rubygems.org/security/#reporting-security-vulnerabilities))
 - If we discover that a legitimate package was compromised,
-[security on-call should be engaged] for further investigation and an MR should be
+[security on-call should be engaged]({{< ref "engaging-security-on-call" >}}) for further investigation and an MR should be
 opened to roll back to a previous version of the package that is known to be secure.
-Consider [reporting][2]  the malicious package to the registry operator ([NPM] or [RubyGems])
+Consider [reporting](https://about.gitlab.com/security/disclosure/#disclosure-guidelines-for-vulnerabilities-in-3rd-party-software)  the malicious package to the registry operator ([NPM](https://www.npmjs.com/policies/security#reporting-security-problems-to-npm) or [RubyGems](https://guides.rubygems.org/security/#reporting-security-vulnerabilities))
 and to the maintainer of the package
 - If we discover that the network connection is used to fetch a legitimate resource,
 we should look into the possibility of self-hosting the resource or verifying its
 integrity during the build process to protect against a potential compromise of
 the external resource
-
-[1]: https://gitlab.com/gitlab-org/gitlab/-/security/vulnerabilities/5043319
-[2]: https://about.gitlab.com/security/disclosure/#disclosure-guidelines-for-vulnerabilities-in-3rd-party-software
-[NPM]: https://www.npmjs.com/policies/security#reporting-security-problems-to-npm
-[RubyGems]: https://guides.rubygems.org/security/#reporting-security-vulnerabilities
-[security on-call should be engaged]: {{< ref "engaging-security-on-call" >}}

@@ -48,7 +48,7 @@ Information regarding growth and development benefits available to GitLab team m
 
 ## Security Internship
 
-For information on the security internship, see the [Internship page]({{< ref "./internship" >}}).
+For information on the security internship, see the [Internship page](internship/).
 
 ## Security Shadow Program
 

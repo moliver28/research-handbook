@@ -1,5 +1,4 @@
 ---
-
 title: "Aligning Work Items To Themes"
 ---
 
@@ -17,13 +16,13 @@ By labeling your issues and epics with themes, all customer requests and their r
 
 - No need to scoure SalesForce to determine the Net ARR impact of a theme.
 - Automatically see a list of all customers linked to a theme, their relative priority, and break down of value by growth and retention.
-- In the future, awesome historical data on the relative customer interest and demand for a given theme.  
+- In the future, awesome historical data on the relative customer interest and demand for a given theme.
 
 ## Process TL;DR
 
 1. **Apply Existing Theme Labels**: Product Managers label their respective issues with one of the available `theme::` scoped labels.
 1. **Create New Theme Labels** - Product Managers can create their own theme labels if one of the existing theme labels does not appropriately speak to the context of the workstream.
-1. **Investment Labels (TBD)** - Product Leadership maintains a list of of `investment::` labels which map to our [Product Investment Themes](https://about.gitlab.com/direction/#fy23-product-investment-themes).
+1. **Investment Labels (TBD)** - Product Leadership maintains a list of `investment::` labels which map to our [Product Investment Themes](https://about.gitlab.com/direction/#fy23-product-investment-themes).
 1. **Map Themes To Product Investments (TBD)** - If applicable, ensure all theme labels map to investment labels.
 1. **Analysis & Reporting** - View customer requested issues aggregated by theme or investment on the [relevant dashboards](/handbook/product/product-processes/customer-issues-prioritization-framework)
 

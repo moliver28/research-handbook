@@ -15,5 +15,29 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 
 ## Stages
 
-* [AI-Powered](./ai-powered/)
-* [ModelOps](./modelops/)
+* [AI-Powered](ai-powered/)
+* [ModelOps](modelops/)
+
+## Career Development
+
+{{% include "includes/engineering/manage-data-science-shared/career-development.md" %}}
+
+## Holiday Gift Exchange (2023)
+
+{{% include "includes/engineering/manage-data-science-shared/holiday-exchange.md" %}}
+
+## Team Days
+
+{{% include "includes/engineering/manage-data-science-shared/team-day.md" %}}
+
+## Meetings
+
+Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). Some regular meetings that take place in Manage are:
+
+| Frequency | Meeting                              | DRI         | Possible topics                                                                                        |
+|-----------|--------------------------------------|-------------|--------------------------------------------------------------------------------------------------------|
+| Every other Thursday | Engineering managers discussion | @m_gill | Ideas, help or resources needed from others, concerns, questions, etc.                                 |
+
+## Links and resources
+
+{{% include "includes/engineering/manage-data-science-shared/shared-links.md" %}}

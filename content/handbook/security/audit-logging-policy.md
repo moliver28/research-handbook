@@ -20,7 +20,7 @@ The audit logging policy applies to all systems within our production environmen
 | System Owners | Definition of individual audit log criteria; Definition and execution of system audit log procedures |
 | Security Management (Code Owners) | Responsible for approving significant changes and exceptions to this policy |
 
-## Procedure
+## Policy
 
 - GitLab shall log and monitor critical information system activity.
 - Logs must be retained for a defined period of time.
@@ -28,11 +28,15 @@ The audit logging policy applies to all systems within our production environmen
 - Access to audit log data must be limited based on the principle of least privilege.
 
 Inline with GitLab's Continuous Monitoring Controls
-System Owners are responsible for determining what constitutes "critical information system activity" in their respective system based on their experience and professional judgement; such activity is then documented either in the handbook or a runbook, whichever is found to be appropriate. Audit logging process must be created and implemented by the department(s) or team(s) responsible for a given system.
+System Owners are responsible for determining what constitutes "critical information system activity" in their respective system based on their experience and professional judgement
+
+Such activity is then documented either in the handbook or a runbook, whichever is found to be appropriate. 
+
+Audit logging process must be created and implemented by the department(s) or team(s) responsible for a given system.
 
 ## Exceptions
 
-Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md" >}}).
+Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

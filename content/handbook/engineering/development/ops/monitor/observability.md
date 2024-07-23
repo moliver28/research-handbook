@@ -76,12 +76,12 @@ We are following the monthly milestone cadence. Work is organized into [epics](h
 Milestone starting date is defined in [gitlab.org group milestones](https://gitlab.com/groups/gitlab-org/-/milestones?search_title=17.0&state=&sort=). It changes every month, according to the [new GitLab release calendar](https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/).
 
 Milestone Planning timeline:
+
 * 10 days before milestone starting date: Planning [draft issue](https://gitlab.com/gitlab-org/opstrace/general/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Planning%20Issue&first_page_size=20) is created by PM/EM, with high level milestone goals.
 * 8 days before milestone starting date: Planning draft is shared with team. Individual contributors recommend epics and issues related to these goals or carried over from previous milestones.
 * 5 days before milestone starting date: Planning is reviewed during team sync meeting.
 * On milestone starting date: Milestone goals and related epics and issues should be finalized and prioritized. All planned work can be seen on the [Planning Board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/3657448) Previous milestone issues are moved to the new milestone or backlog.
 * During the milestone, we analyze progress and reprioritize as needed.
-
 
 ### How to find something to work on?
 
@@ -108,7 +108,7 @@ For SaaS:
 * Ask customer for their top-level group name (example: `gitlab-org` for https://gitlab.com/gitlab-org/)
 * In #production, run the following commands to enable the feature flags for this group (replace `gitlab-org` by the customer's group name):
 
-```
+```text
 /chatops run feature set --group=gitlab-org observability_tracing true
 /chatops run feature set --group=gitlab-org observability_metrics true
 /chatops run feature set --group=gitlab-org observability_logs true
@@ -116,14 +116,13 @@ For SaaS:
 
 To see the list of groups that have been already enabled, you can run the following command:
 
-```
+```text
 /chatops run feature get observability_tracing
 ```
 
 The list returns group IDs and not group names though. To know a group's ID, browse to the group's page ([example](https://gitlab.com/gitlab-org/)), open the "..." menu on the top-right of the page and select "Copy group ID". If you don't have access to the group, ask the customer to do it.
 
 Learn more: see related [feature flag issue](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/2444).
-
 
 For Self-Managed:
 
@@ -146,4 +145,3 @@ For Self-Managed:
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="observability" >}}
 {{< /tableau >}}
-

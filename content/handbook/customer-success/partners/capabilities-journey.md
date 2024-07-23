@@ -4,12 +4,6 @@ title: "Partner Capabilities Journey"
 description: "Suggest a partner journey maturity model for Channel and Systems Integrator partner"
 ---
 
-
-
-
-
-
-
 ## Objective
 
 Create a partner success approach, providing a framework for partners to integrate their DevSecOps practice with the GitLab DevSecOps Platform and our go to market strategy.
@@ -28,9 +22,10 @@ Create a partner success approach, providing a framework for partners to integra
 
 The following capabilities roadmap shows the high-level view of the capabilities that our partners should develop to mature their GitLab practices organized into four (4) stages of maturity.
 
-#### 01 - Onboarding
+### 01 - Onboarding
 
 New partners to GitLab ramping up their capabilities and achieving first-customer orders as quickly as possible.
+
 - Teams are engaged with GitLab Partner Portal and familiar with content
 - Plan to and Learn how to register deals, work through quoting & transaction processes, and accept leads
 - Get sales ready
@@ -47,11 +42,10 @@ New partners to GitLab ramping up their capabilities and achieving first-custome
       - Sales Core (2)
       - SA Core (1)
 
-
-
-#### 02 - Established
+### 02 - Established
 
 Established GitLab partners working with GitLab field account teams to close resale business, deliver GitLab Professional Services projects, and/or GitLab branded training.
+
 - Marketing foundation
   - GitLab incorporated into brand presence
   - Complete Partner Profile for Locator
@@ -67,9 +61,10 @@ Established GitLab partners working with GitLab field account teams to close res
   - Migration solution
 - Architect GitLab into customer DevSecOps workflows
 
-#### 03 - Leading
+### 03 - Leading
 
 Mature GitLab partners sourcing their own customer opportunities, registering new deals, and collaborating with GitLab field sales teams as needed.
+
 - Marketing integration
   - Include GitLab sales and benefits collateral into Partner sales, presales, education tools and processes
   - Joint webinar marketing lead generation activities
@@ -84,9 +79,10 @@ Mature GitLab partners sourcing their own customer opportunities, registering ne
   - Deliver advanced migration solutions
   - Offer Managed Services
 
-#### 04 - Strategic
+### 04 - Strategic
 
 Developing advanced solutions to meet complex customer challenges leveraging the GitLab Platform.
+
 - Creating branded offerings in the market leveraging GitLab solutions
 - Joint development of whitepapers, blog posts, reference architectures
 - Co-marketing / branding campaigns
@@ -97,4 +93,3 @@ Developing advanced solutions to meet complex customer challenges leveraging the
 ## Partner Channel Solutions Architect Activities
 
 To achieve our [Goals](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/tree/partner-journey-maturity-model/-/sites/handbook/source/handbook/customer-success/partners/vision/index.html#goals), the Partner Channel Solutions Architect (CSA) ensures that partners get the most value possible out of their relationship with GitLab through their sales and delivery of GitLab's products and services. CSA's organize their activities to mature GitLab partners quickly in their ability to deliver customer value. See the [Channel SA Engagement Model](/handbook/solutions-architects/processes/channel/) for more details on the role of the Channel SA enabling partners to succeed.
-

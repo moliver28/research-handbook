@@ -35,7 +35,7 @@ It is recognized that there is a trade off with this initiative using the fundam
 
 ### Leadership shadowing
 
-We currently have the [Security Shadow]({{< ref "security-shadow" >}}) programme available to all team members. In addition to that we're also working on a Security Leadership shadowing idea, which would be based around the CEO Shadow model. We'll update this entry as we make progress on it.
+We currently have the [Security Shadow]({{< ref "security-shadow" >}}) program available to all team members. In addition to that we're also working on a Security Leadership shadowing idea, which would be based around the CEO Shadow model. We'll update this entry as we make progress on it.
 
 ### Share what you have learned with other team members
 
@@ -47,11 +47,11 @@ You'll be expected to provide a summary, key take-aways, and any supporting mate
 
 - Create a new project and name it accordingly
 - Provide a markup formatted write-up in the form of a README.md in the project, documenting as much you can, but at least the following:
-    - Name of the training
-    - Date of the training
-    - URLs to the training
-    - Description of the training
-    - Personal impression
+  - Name of the training
+  - Date of the training
+  - URLs to the training
+  - Description of the training
+  - Personal impression
 - Upload as much supporting material to the project as you're allowed to by the authors of the training
 
 #### Show & Tell

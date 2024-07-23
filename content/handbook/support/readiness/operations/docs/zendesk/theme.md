@@ -4,7 +4,7 @@ description: Support Operations documentation page for our Zendesk theme
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/theme"
 ---
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -80,7 +80,7 @@ granted, you are good to merge the changes into the master branch. The changes
 will automatically be populated into both the production and sandbox instances
 on the next deployment date.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 

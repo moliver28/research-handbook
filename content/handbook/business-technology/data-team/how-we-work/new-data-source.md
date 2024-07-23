@@ -1,16 +1,7 @@
 ---
-
 title: "New Data Source"
 description: "How to add a new data source"
 ---
- 
-
-
- 
-
-
-
-
 
 ---
 
@@ -21,14 +12,14 @@ Both the development (assigning resources from the Data Team, from other teams i
 **Please, before request adding a new data source, take the following into account:**
 
 - Is there a valid [business case](/handbook/business-technology/data-team/how-we-work/#data-team-value-calculator)?
-   - Sometimes the business case is to comply with regulatory requirements.
-   - Sometimes the business case is straightforward because value potential is clear above the investment costs.
-   - Most of the time it’s hard to quantify, because either the value is unsure or the costs are unsure. Feel free to have an open and honest discussion with the Data Team. We have the experience and could help with the justification and this does not necessarily need to be a scientific calculation.
+  - Sometimes the business case is to comply with regulatory requirements.
+  - Sometimes the business case is straightforward because value potential is clear above the investment costs.
+  - Most of the time it's hard to quantify, because either the value is unsure or the costs are unsure. Feel free to have an open and honest discussion with the Data Team. We have the experience and could help with the justification and this does not necessarily need to be a scientific calculation.
 - The work is not done when data lands in the data warehouse. The data will 'just' land in the `raw` data layer, and this is not accessible by default for Sisense. Data need to be loaded downstream into the [Enterprise Dimensional Model](/handbook/business-technology/data-team/platform/edw/) (EDM) via dbt. Follow up needs to take place, and will come on top of the process described on this page.
-   - Downstream modelling could be handled by the business team, because we embrace contribution on our data platform. Please note that extensive ([dbt-](/handbook/business-technology/data-team/platform/dbt-guide/), SQL- and data modelling knowledge is needed)
-   - Downstream modelling could be handled by the Data Team, ideally by a [Data Fusion Team](/handbook/business-technology/data-team/organization/#data-fusion-team-organization). Planning needs to take place and priorities are set in line with company priorities. **This falls not within the scope of adding a new data source to the data warehouse**, thus this needs to be arranged subsequently.
-   - If data is extracted in (complex) JSON format, a Data Engineer can support or can flatten the data to a tabular format and load this towards the `PREP` database.
-   - There are 3 ways to follow up on the downstream [data development](/handbook/business-technology/data-team/data-development/).
+  - Downstream modelling could be handled by the business team, because we embrace contribution on our data platform. Please note that extensive ([dbt-](/handbook/business-technology/data-team/platform/dbt-guide/), SQL- and data modelling knowledge is needed)
+  - Downstream modelling could be handled by the Data Team, ideally by a [Data Fusion Team](/handbook/business-technology/data-team/organization/#data-fusion-team-organization). Planning needs to take place and priorities are set in line with company priorities. **This falls not within the scope of adding a new data source to the data warehouse**, thus this needs to be arranged subsequently.
+  - If data is extracted in (complex) JSON format, a Data Engineer can support or can flatten the data to a tabular format and load this towards the `PREP` database.
+  - There are 3 ways to follow up on the downstream [data development](/handbook/business-technology/data-team/data-development/).
 - Adding a new data source to the data warehouse is not an 1 off exercise. As soon as the data is extracted to the data warehouse, on a regular cadence (once week, once a day, multiple times per day, etc..) data will be refreshed. This means something can happen or can go wrong after the implementation. We will need a DRI from the source side (business and technical) to support this process when needed.
 - Data could be used, outside of the EDM. I.e. by a Function Analyst, in the `raw` data layer. Raise an AR to get access to the raw data.
 - When data ends up in the EDM, work is to be performed in Sisense by creating a dashboard. Also for doing this, some technical knowledge is required.
@@ -81,6 +72,45 @@ Data minimisation is not applied on the following levels:
 
 - Rows. We don't apply filtering on rows by default, unless there is a good reason (technical or functional). This is to avoid confusion about which data our data consumers are actually seeing.
 
+##### Data minimisation use case
+
+When you want to do a data minimization and specify one or more columns to the JSON file while loading the data, you can use the procedure [object_insert](https://docs.snowflake.com/en/sql-reference/functions/object_insert). Example for usage:
+
+```sql
+WITH base AS (
+    SELECT try_parse_json('{"id":1,
+                            "name": "ABC"}'
+                                       ) AS json_data)
+SELECT object_insert(json_data,'email','test@gitlab.com')
+  FROM base;
+
+-- {
+--   "email": "test@gitlab.com",
+--   "id": 1,
+--   "name": "ABC"
+-- }
+```
+
+In the situation when you want to discard one or more columns from the JSON file while loading the data, you can use the procedure [object_delete](https://docs.snowflake.com/en/sql-reference/functions/object_delete). Example for using it:
+
+```sql
+WITH base AS (
+    SELECT try_parse_json('{"id":1,
+                            "name": "ABC",
+                            "address":{"add1":"1234",
+                                       "add2":"XYZ",
+                                       "city":"TN",
+                                       "apt": 1 }}'
+                                       ) AS json_data)
+SELECT object_delete(json_data,'id','address')
+  FROM base;
+
+-- {"name": "ABC"}
+
+```
+
+In this situation, you can **exclude** the column that shouldn't be processed for various reasons ([RED data](/handbook/security/data-classification-standard/#red), PII data, no value for the data or other minimization principles).
+
 #### Extraction solution
 
 The Data Team has different instruments available to extract data out of source systems (randomly ordered):
@@ -90,6 +120,8 @@ The Data Team has different instruments available to extract data out of source 
 - Meltano
 - Snowflake data share
 - Stitch
+- [Snowpipe](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-intro)
+- [Snowflake task](https://docs.snowflake.com/en/user-guide/tasks-intro)
 
 The decision for which instrument to use, is **always** based on the combination of:
 
@@ -101,23 +133,29 @@ Its the Data Team that determines which instrument is used. The following decisi
 
 ```mermaid
 graph LR
-   
+
 %%descisions
     api_available{API Available?}
+    data_bucket{Data available in the gcp or s3 bucket?}
     fivetran_connector_available{Fivetran connector viable?}
     stitch_connector_available{Stitch connector viable?}
     data_is_ext_snowflake_sources{Data is in different Snowflake Account}
     singer_option{Singer Tap viable?}
-
+    streaming{Need to low-latency load?}
 %%end solutions
     Custom([Custom development])
     Fivetran([Fivetran])
     Singer([Singer])
     Stitch([Stitch])
     Snowflake_datashare([Snowflake data share])
-
+    Snowpipe([Snowpipe])
+    Snowflake_task([Snowflake task])
 %%flow
-    ds_request[New Request]-->api_available 
+    ds_request[New Request]-->data_bucket
+    data_bucket-->|No|api_available
+    data_bucket-->|Yes|streaming
+    streaming-->|Yes|Snowpipe
+    streaming-->|No|Snowflake_task
     api_available-->|No|data_is_ext_snowflake_sources
     api_available-->|Yes|fivetran_connector_available
     stitch_connector_available-->|Yes|Stitch
@@ -185,8 +223,25 @@ When extracting new data towards Snowflake and the data source is not listed or 
 
 - The team member must state a business case to connect the system to the Data Platform.
 - The team member that requests the connection will perform an analysis of the data and confirm the data that is extracted is not Red data.
-   - For instances where Red data (fields) must be ingested into Snowflake, [masking](/handbook/business-technology/data-team/platform/#data-masking) will be applied upon extraction.
+  - For instances where Red data (fields) must be ingested into Snowflake, [masking](/handbook/business-technology/data-team/platform/#data-masking) will be applied upon extraction.
 - BT/Data VP-level, Legal and Security must sign off to start the implementation.
+
+## Personal data
+
+Extracting [Personal Data](/handbook/legal/privacy/#:~:text=DPIAs%20here.-,Personal%20Data,-Any%20data%2C%20individually) into the Data Platofrm (Snowflake) is allowed, but it will require additional review from our Legal Privacy team and, where applicable, the People Team. When requesting to add a new data source, the team member that requests the upstream system/data source is responsible to indicate if the data source contains personal data and which data elements it concerns. If a team member doesn't have enough knowledge to determine whether certain infomration is Personal Data, they should tag a subject matter expert and, if needed, a data engineer.
+
+Please note that "pseudonymized" data is still Personal Data under privacy legislation.
+
+If the upstream system (data source) contains Personal Data, the Data Team will either:
+
+- exclude the indicated Personal Data elements from the extract if the extract can fulfill the requester's purpose **without retaining** the Personal Data; or
+- obtain Legal Privacy review and approval to action the extraction to and processing of Personal Data in our Data Platform.
+
+### Sensitive Personal Data
+
+Certain Personal Data elements are deemed "sensitive" under various privacy legislation. Sensitive Personal Data generally includes racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data, data related to health, data related to sex life or sexual orientation, criminal offenses, and citizenship/immigraion status.
+
+Privacy legislation prohibits the processing of these types of data elements, except in limited circumstances. If a request is made to extract data that contains sensitive Personal Data, it will generally be denied unless true consent has been obtained to the processing, and Legal Privacy and, where applicable, the People Team, have approved this processing.
 
 ## Monte Carlo observability
 

@@ -1,14 +1,6 @@
 ---
-
 title: "Making Gifs"
 ---
-
-
-
-
-
-
-
 
 Animated gifs are an awesome way of showing of features that need a little more than just an image, either for marketing purposes or explaining a feature in more detail. This page holds all information on the entire process of creating a gif.
 
@@ -137,7 +129,7 @@ Worthy of mentioning:
 
 When you have a series of screenshots as png files, you can use [ImageMagick](/handbook/tools-and-tips/#imagemagick) to convert them to a Gif file. ImageMagick also allows to [resize images](/handbook/tools-and-tips/#resizing-images).
 
-```
+```console
 convert -delay 50 -loop 0 *.png output.gif
 ```
 
@@ -147,7 +139,7 @@ When you upload the Gif file to social media, ensure that the source image resol
 
 The Gif resolution or file size may need resizing for social media uploads, or blog post integrations. Gifsicle supports resizing Gifs in one step. The following example changes the Gif width to 2000px:
 
-```
+```console
 gifsicle --resize 2000x original.gif > original_resized.gif
 ```
 

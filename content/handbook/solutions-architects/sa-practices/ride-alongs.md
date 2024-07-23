@@ -1,9 +1,7 @@
 ---
-
 title: "Solutions Architects (SA) Ride Alongs"
 description: "Ride alongs allow for Solutions Architects to learn from one another through shared customer experiences."
 ---
-
 
 Ride alongs provide Solutions Architects working across segments (SMB, Mid-Market, Enterprise, Public Sector) to participate in calls to learn how Solutions Architects and their customers work through aspects of technical evaluations.  The aim is to create an additional opportunity for collaboration, exploration, and growth.
 

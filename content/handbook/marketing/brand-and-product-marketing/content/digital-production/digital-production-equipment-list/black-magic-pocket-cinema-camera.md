@@ -1,5 +1,4 @@
 ---
-
 title: "Digital Production Equipment List: Equipment Use and Operation"
 description: A guide for use of the Digital Production Equipment.
 twitter_image: '/images/tweets/handbook-marketing.png'
@@ -7,16 +6,11 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-
-
-
-
-
 ## Blackmagic Pocket Cinema
 
 The Blackmagic Pocket Cinema is a camera designed for professional quality video recording. It is used by GitLab employees who require expanded features for recording video or making higher end calls.
 
-#### External Resource
+### External Resource
 
 **[Blackmagic Pocket Cinema Manual](https://www.bhphotovideo.com/lit_files/452872.pdf)**
 
@@ -36,7 +30,7 @@ The Blackmagic Pocket Cinema is a camera designed for professional quality video
 1. Once you've aligned the dots and inserted the lens, **rotate the lens clockwise** until you feel a click.
 1. The lens is now attached to the camera, **remove the cap** on the front of the lens to allow for viewing.
 1. On the side of the lens, ensure that the **autofocus (AF)** feature is turned on.
-2. To remove a lens, hold the **release button** immediately beside the lens mount and twist the lens to the left until it comes free.
+1. To remove a lens, hold the **release button** immediately beside the lens mount and twist the lens to the left until it comes free.
 
 ### Prepare Your SD Card
 
@@ -48,7 +42,7 @@ This proccess will **permanently delete the contents of your SD Card** to prepar
 1. Select **Format SD Card**.
 1. Select **OS X Extended** to prepare your card for use with Apple Products.
 1. Select **Format Sd Card**.
-2. Repeat this process for the other card slot, if necessary.
+1. Repeat this process for the other card slot, if necessary.
 
 Your card is now cleared of footage and ready to use!
 
@@ -79,13 +73,13 @@ This will help you add enchanced color to have a nice look in your webcam presen
 
 ## Connecting Microphones
 
-#### Connecting a 'Shotgun' Microphone
+### Connecting a 'Shotgun' Microphone
 
 1. Connect the provided microphone mount to the top of the camera using the thread.
 1. Slide the Rode Video Microphone into the mount and secure.
 1. Connect the cable to the microphone port located on the left side of the camera.
 
-#### Connecting a Lavalier Microphone
+### Connecting a Lavalier Microphone
 
 The wireless lavalier kit contains a transmittor and a receiver. The transmittor can by identified by the mute switch located on the top.
 
@@ -109,17 +103,17 @@ The wireless lavalier kit contains a transmittor and a receiver. The transmittor
 
  The following settings are best completed when the camera is placed where you intend to record and your subject is in frame, with any lighting or adjustments already in place. The settings can all be easily reached on the LCD Touch Screen. Revise these steps every time you move your camera or adjust your light.
 
-#### 1. Adjust Lens Zoom
+### 1. Adjust Lens Zoom
 
 1. Rotate the middle of the lens to zoom in or out as you frame your subject.
 
-#### 2. Adjust Focus
+### 2. Adjust Focus
 
 1. Using the LCD Touch Screen, touch the face of the subject to set the camera focus.
 
 *Note: If the focus does not adjust, check that the auto focus switch, located on the lens, is set to ON.*
 
-#### 3. Adjust Shutter Angle
+### 3. Adjust Shutter Angle
 
 1. On the LCD Touch Screen, select **Shutter** near the top left of the screen.
 1. Use the touch screen controls to select a shutter angle of **180**.
@@ -127,29 +121,29 @@ The wireless lavalier kit contains a transmittor and a receiver. The transmittor
 
 *Note: If your camera has been adjusted to display shutter speed instead, adjust the setting to **1/50**.*
 
-#### 4. Adjust Iris
+### 4. Adjust Iris
 
  The f-stop adjusts how much light is allowed into the lens.
 
-##### At your Desk
+#### At your Desk
 
 1. On the LCD Touch Screen, select **Iris* near the top left of the screen.
 1. Select the **Auto Exposure** slider.
 1. Select **Shutter + Iris**
 
-##### Away from your Desk
+#### Away from your Desk
 
 1. On the LCD Touch Screen, select **Iris** near the top left of the screen.
 1. Use the touch screen controls to select an iris of **4.0.**.
 
-#### 5. Adjust ISO
+### 5. Adjust ISO
 
 1. With your camera in place and pointed at your subject, look at the Histogram at the bottom left of the LCD Screen. It looks like a horizontal bar with rolling white data. The left represents the darkest parts of your image and the right represents the brightest.
 1. On the LCD Touch Screen, select **ISO** near the top right of the screen.
 1. Adjust the **ISO** while referring to the Histogram. The contents of the histogram will shift right or left. Lower ISO values result in a better image, but require more light.
 1. Continue to adjust the **ISO** until the Histogram shows a decreasing slope on both ends, avoiding a vertical drop off.
 
-#### 6. Adjust White Balance
+### 6. Adjust White Balance
 
 The White Balance settings removes color cast from your image and helps white appear purely, without other hues.
 
@@ -158,12 +152,12 @@ The White Balance settings removes color cast from your image and helps white ap
 1. If you are working with lights you can control, such as the GMV Panel lights, adjust the value at the bottom left to match the setting on the lights. In most cases this will be around 5000.
 1. If you are working with lights you can't control, choose the preset that seems to give you the most authentic image.
 
-#### 7. Adjust Audio Levels
+### 7. Adjust Audio Levels
 
 1. Connect headphones to the camera using the port located on the left side of the camera, towards the top.
 2. Using the LCD Touch Screen, select the audio meters on the lower right side.
 3. Use the headphones to listen for any unwelcome noise in your audio. Common examples are clicking jewelry or watches against a desk or table, fans and vents, kitchen appliances turning on, or outside traffic.
-3. While your subject is speaking confidently, adjust the levels until they very gently enter the yellow portion of the meter. This will record at an appropriate level, while allowing room for futher noise should your subject laugh or exclaim something loudly.
+4. While your subject is speaking confidently, adjust the levels until they very gently enter the yellow portion of the meter. This will record at an appropriate level, while allowing room for futher noise should your subject laugh or exclaim something loudly.
 
 ## Recording with your Blackmagic
 
@@ -188,7 +182,7 @@ The White Balance settings removes color cast from your image and helps white ap
 
 The operation of webcams is plug and play. Connect the webcam to your computer via USB and use the clamp to position the camera on your laptop or monitor. Logitech and Razr webcams include a thread that will allow you to attach it to a tripod, if necessary.
 
-#### Recording Video with a Webcam
+### Recording Video with a Webcam
 
 The simplest way to record with your Webcam is with the QuickTime application.
 
@@ -211,7 +205,7 @@ If you are looking for the Rode Camera Microphone, or the lavalier microphone, p
 
 The Rode Desktop microphone connects to your computer via the supplied USB cable.
 
-#### Basic Operation
+### Basic Operation
 
 1. The microphone features a headphone connection to allow you to monitor your audio levels. The dials are for monitoring purposes only and will not affect the record.
 1. The top dial adjusts the mix between your own voice and the computer audio.
@@ -227,7 +221,7 @@ The Rode Desktop microphone connects to your computer via the supplied USB cable
 
 Elgato lights are packaged with easy-to-follow directions on a cardboard sheet. Please do not throw these out.
 
-#### Setup Instructions
+### Setup Instructions
 
 1. Attach clamp to mounting pole.
 1. Attach Elgato light to the other end. This can be done vertically or horizontally depending on what suits your workspace.
@@ -241,13 +235,13 @@ After setup, Elgato brand lights are controlled entirely via your computer or ph
 
 *Please note: On MacBooks, the Elgato Control Software appears only at the top right corner of the screen. This will occasionally make it appear as if attempting to open the control center via the applications menu did nothing. Click on the icon in the upper right corner to open the controls for the light.*
 
-#### External Resources
+### External Resources
 
 Elgato has a guide to their desk lights [available here](https://help.elgato.com/hc/en-us/articles/360028244011-Key-Light-Quick-Start-Guide).
 
 ## GVM Lights
 
-#### Operation
+### Operation
 
 GVM Panel lights should be operated in CCT mode only. In most cases, it will not be necessary to use any other features.
 
@@ -268,18 +262,15 @@ GVM Panel lights should be operated in CCT mode only. In most cases, it will not
 1. Using the thumb screws on both sides of the mirror, rotate the mirror forward to an angle of about 45 degrees.
 1. Attach the hood over the mirror using the velcro on the side of the mirror to secure. The hood should extend back over the "plate" where you attached the tripod.
 1. Attach your camera to the teleprompter using the thumbscrew. All cameras have a thread on the bottom that will accept the screw.
-1. Slide the camera forward until you are able to pull the hood around the lens, but don’t secure just yet.
+1. Slide the camera forward until you are able to pull the hood around the lens, but don't secure just yet.
 1. Check on the camera that you have an image that you are happy with. When you are content with the image, pull the hood around the lens and pull the threads to gently close it.
 1. Extend the shelf in front of the mirror and place the device you will use to display your script.
 1. Close the shelf to secure.
 
-#### External Resources
+### External Resources
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/PuV1ethLPMI" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 **[User Manual](https://cdn.shopify.com/s/files/1/2489/1934/files/TMP100_-_User_Manual-_Dec_20.pdf?v=1608143109)**
-
-
-

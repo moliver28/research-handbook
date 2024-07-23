@@ -1,13 +1,6 @@
 ---
-
 title: Monitor APM Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## Monitor APM Single-Engineer Group
 
@@ -94,32 +87,36 @@ classDiagram
 
 - **Monitoring** is the ability to understand, and alert on, an applications usage and performance.
 
-- **Observability** (abbreviated as “o11y”) allows you to answer questions about the state of your application by observing data coming from your application.
+- **Observability** (abbreviated as "o11y") allows you to answer questions about the state of your application by observing data coming from your application.
 
 - **Trace** is the relationship between events coming from your system, visualised by using timing data to display the relationships between events.
 
 ### Reading List
 
 Handbook:
+
 - [Product Direction - Monitor](https://about.gitlab.com/direction/monitor/)
 - [Product Direction - Monitor:APM](https://about.gitlab.com/direction/monitor/observability/)
 
 Literature:
+
 - [Google SRE Handbook](https://sre.google/sre-book/table-of-contents/)
 - [Google SRE Workbook](https://sre.google/workbook/table-of-contents/)
 - [The SLO Book, Alex Hidalgo](https://www.alex-hidalgo.com/the-slo-book)
 - [My Philosophy On Alerting, Rob Ewaschuk](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q)
 
 Products:
+
 - [Opstrace: Showcase and ideas for APM](https://docs.google.com/document/d/1pksrG344JyXWcJ9zgKJ6gl6fe6bLGsi6FPEsFrFf078/edit)
 - [Opstrace: Introducing a Datadog-compatible HTTP API](https://opstrace.com/blog/introducing-datadog-compatible-http-api)
 - [Noble9 SLO Platform](https://nobl9.com/platform/)
 
 Community:
+
 - [OpenTelemetry](https://opentelemetry.io/)
 - [OpenSLO](https://openslo.com/)
 
 Internal:
+
 - [Monitor:APM Lessons Learned and Go Forward Strategy (Internal)](https://docs.google.com/presentation/d/1Iw79oaSZg1OVAmubIhXQZOAsKd_snxKUXrLCjSsawzs)
 - [GitLab Service Level Monitoring, V2 (Internal)](https://docs.google.com/document/d/1MwhjrrEAL52DzFR22fnDtjNGTgCayBbJuPI78nt1020)
-

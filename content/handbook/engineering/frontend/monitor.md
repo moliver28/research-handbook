@@ -7,12 +7,9 @@ title: "Frontend Monitor Team"
 
 ## Mission
 
-The Monitor team works on the frontend part of GitLab for the [Monitor stage].
+The Monitor team works on the frontend part of GitLab for the [Monitor stage](https://about.gitlab.com/stages-devops-lifecycle/#monitor).
 
-For more details about the vision for this area of the product, see the [Monitor
-stage] page.
-
-[Monitor stage]: /stages-devops-lifecycle/monitor/
+For more details about the vision for this area of the product, see the [Monitor stage](https://about.gitlab.com/stages-devops-lifecycle/#monitor) page.
 
 ### Team members
 
@@ -24,9 +21,5 @@ stage] page.
 
 ## Useful links
 
-- [Monitor frontend board] - this shows work in the current release
-- [#g_monitor] in Slack
-
-[Monitor frontend board]: https://gitlab.com/groups/gitlab-org/-/boards/815216
-
-[#g_monitor]: https://gitlab.slack.com/archives/g_monitor
+- [Monitor frontend board](https://gitlab.com/groups/gitlab-org/-/boards/815216) - this shows work in the current release
+- [#g_monitor](https://gitlab.slack.com/archives/g_monitor) in Slack

@@ -1,5 +1,4 @@
 ---
-
 title: "James Lopes' README"
 description: "Personal readme page for James Lopes, Support Engineering Manager, GitLab"
 job: "Support Engineering Manager (AMER)"
@@ -51,4 +50,3 @@ I've found there is no one-size-fits-all management style or technique that work
 - I take every new experience as an opportunity to learn something new
 
 - I am good at fixing things
-

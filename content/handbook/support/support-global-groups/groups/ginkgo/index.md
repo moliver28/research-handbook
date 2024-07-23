@@ -1,5 +1,4 @@
 ---
-
 title: Home Page for Support's Ginkgo Group
 description: Home Page for Support's Ginkgo Group
 ---
@@ -15,9 +14,9 @@ description: Home Page for Support's Ginkgo Group
   - As a member of the Ginkgo group, consider [changing your notifications settings](#slack-notifications) to allow for better collaboration.
 - Our Team: [Ginkgo Members](https://gitlab-com.gitlab.io/support/team/sgg.html?search=ginkgo)
 - Aligned Managers:
-   - **AMER** -- Izzy, Aric, Ronnie
-   - **EMEA** -- John, Erika
-   - **APAC** -- no alignment
+  - **AMER** -- Izzy, Aric, Ronnie
+  - **EMEA** -- John, Erika
+- Our gitlab.com nanmespace: https://gitlab.com/gitlab-com/support/sgg-ginkgo
 
 ## Ginkgo workflows and processes
 
@@ -113,5 +112,9 @@ We have dedicated Slack group handles in place that allow us to easily target sp
 - `@spt-ginkgo-amer`
 - `@spt-ginkgo-apac`
 - `@spt-ginkgo-emea`
+
+### Trials
+
+Trials scoped to Ginkgo are recorded as Issues [in the Ginkgo Trials project on GitLab.com.](https://gitlab.com/gitlab-com/support/sgg-ginkgo/trials)
 
 ![multiple tanuki celebrating a party under a ginkgo tree in cartoon style](/handbook/support/support-global-groups/groups/ginkgo/sgg_ginkgo_party.png)

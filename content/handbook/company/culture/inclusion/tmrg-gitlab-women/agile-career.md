@@ -74,11 +74,11 @@ Yes! All 3 live sessions will be recorded. Cohorts will be organized across time
 
 ## Resources
 
-[Marti Konstant](https://www.martikonstant.com/) is the creator of the Agile Career Framework. Her model relates to GitLab [CREDIT values]({{< ref "values" >}}), leaning into iteration as a key component of an agile career.
+[Marti Konstant](https://www.martikonstant.com/) is the creator of the Agile Career Framework. Her model relates to GitLab [CREDIT values](/handbook/values/), leaning into iteration as a key component of an agile career.
 
 Below, use the infographic and list to understand what resources are available to you as a GitLab team member and how they fit into the Agile Career Framework.
 
-![infographic connecting career agility framework with GitLab resources.](agility-at-gitlab.png)
+![infographic connecting career agility framework with GitLab resources.](agility-at-gitlab.jpg)
 {style="max-width: 50%;"}
 
 | Resource | Details | Integrate It |

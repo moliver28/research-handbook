@@ -12,9 +12,11 @@ Please refer to [our general handbook page]({{< ref "_index.md" >}}) to learn mo
 
 ### General Systems
 
-All systems managed by GitLab are in scope for all types of Red Team operations. No prior approval is required to conduct any activity that meets the rules documented on this page.
+Some systems require special approval from GitLab legal before accessing during any type of Red Team operation. GitLab team members can view that list [here](https://internal.gitlab.com/handbook/security/security_operations/red_team/private_roe/).
 
 Third-party systems that are used by GitLab for official business purposes are also considered in scope, but these often require permission from the system owners. This permission will be obtained when necessary.
+
+All other systems managed by GitLab are in scope for all types of Red Team operations.
 
 Team members can request that a system be excluded from our scope by [opening an issue here](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/red-team-operations/-/issues/new).
 
@@ -38,15 +40,21 @@ Please check with your manager to ensure they have no concerns with your partici
 
 ## Stealth Operations
 
-[Stealth Operations]({{< ref "_index.md#stealth-operations" >}}) are conducted without being widely announced. These operations require careful planning. We will use the same [logistics issue template](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/red-team-issue-templates/-/blob/main/.gitlab/issue_templates/02-logistics.md) used for Purple Team operations, but it will only be visible to trusted participants until the operation is disclosed.
+[Stealth Operations]({{< ref "_index.md#stealth-operations" >}}) require careful planning. During the logistics phase, we propose objectives and outline the threats we'll emulate, seeking approvals.
 
-The logistics phase will define detailed rules for each specific operation. The sections below contain general rules that apply to all stealth operations.
+Stealth operations fall into two categories, which use the following planning templates:
+
+- [Campaign-based operations](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/red-team-issue-templates/-/blob/main/.gitlab/issue_templates/02-logistics.md)
+- Continuous operations (link coming soon)
+
+The sections below contain general rules that apply to all stealth operations.
 
 ### Prior Approval
 
 - Approval is required from at least one layer of SIRT leadership. This starts at the SIRT managers and goes up to the CISO.
-- Approval is required from the Senior Manager of Threat Management.
+- Approval is required from the Senior Manager responsible for the Red Team.
 - Approval is required from everyone defined as a "trusted participant" in the logistics phase.
+- Approval is provided as part of the logistics phase of every stealth operation. The scope of the approval is included as part of the logistics issue where approval is recorded.
 
 ### Requests for Disclosure
 
@@ -62,7 +70,7 @@ The logistics phase will define detailed rules for each specific operation. The 
     - The operation is disclosed internally and continues in the open to further validate security controls and detection mechanisms. Incident response is discontinued for known Red Team activities.
     - The entire operation is not disclosed internally, but the trusted participant informs the team that a specific activity or IoC belongs to the Red Team. The systems involved are considered "virtually contained" and the Red Team relinquishes any access to those systems.
     - The operation ceases completely.
-- We should always prioritize the security of the organization and the wellbeing of our team members. There may be times when we need to make a judgement call and answer these questions quickly, outside of the official channels.
+- We should always prioritize the security of the organization and the well-being of our team members. There may be times when we need to make a judgement call and answer these questions quickly, outside of the official channels.
 
 ### Engaging with SIRT
 
@@ -141,7 +149,12 @@ During a [stealth operation](#stealth-operations), the Red Team may:
 - Authenticate as any team member using credential data discovered on any GitLab-managed resource (passwords, access tokens, SSH keys, etc).
 - Attempt to gain access to any resource in GitLab's cloud environments, and use those resources to escalate privileges and move laterally in the cloud.
 - Exploit vulnerabilities and abuse insecure configurations in any system owned and managed by GitLab.
-- Attempt digital social engineering (email, Slack, GitLab issues, etc) and attacks on the software supply chain.
+- Conduct social engineering using techniques like:
+  - Creating fake identities and using them to engage with team members over GitLab-managed channels like email, Slack, Zoom, GitLab.com issues and merge requests, etc.
+  - Creating web sites that appear to be legitimate copies of items in our tech stack, sending the URLs to team members over those GitLab-managed channels, collecting credentials entered into those sites and attempting to re-use them in the legitimate application.
+  - Sending calendar invites and meeting requests over those GitLab-managed channels, and speaking over voice or video call with team members who join those meetings or call the provided numbers.
+- Other forms of social engineering that impersonate GitLab team members, vendors, customers, partners, etc. and are directed towards GitLab owned or managed services such as email, authentication providers, job postings, etc. where the social engineering attempts do not directly target personal devices or services.
+Execute supply-chain related attack techniques like dependency confusion, pipeline injections, and malicious code commits.
 
 If you are a team member at GitLab and suspect you have uncovered a stealth red team operation in the course of your daily work, please first report this to your manager and refer to the "[Is This Red Team?]({{< ref "_index.md/#is-this-the-red-team" >}})" section.
 
@@ -149,8 +162,8 @@ At this time, the Red Team **will not**:
 
 - Attempt to access resources inside a GitLab team member's home (wireless networks, non-GitLab machines, etc).
 - Attempt to access the camera or microphone on any device without explicit permission from its owner.
-- Attempt to socially engineer team members via phone calls.
 - Attempt to socially engineer team members via channels not managed by GitLab (such as social networks, personal email addresses, etc).
+- Directly call or SMS team member's personal phone numbers, except in the case where team members explicitly opt-in and actively provide their contact information on a volunteer basis.
 - Attempt to access the web browsing history of any team member.
 - Attempt to gain access to anything that is not strictly work-related and managed/owned by GitLab.
 
@@ -158,6 +171,6 @@ At this time, the Red Team **will not**:
 
 The Red Team maintains operator logs which include specific details on attack techniques we've conducted, timestamps, source IP addresses, etc. These are included in an operation's final report, but will be redacted to not show specific names of accounts and laptops that may have been compromised.
 
-If a team member's account or laptop is compromised during an operation, the Red Team will share specific details of all related activity with that team member. This will include the operator logs. Red Team will offer to meet with them synchronously to explain these logs, if the team member would like that.
+If a team member's account or laptop is compromised during an operation, the Red Team will share specific details of all related activity with that team member. This will include the operator logs. The Red Team will offer to meet with them synchronously to explain these logs, if the team member would like that.
 
 Besides these manual logs, our activities can be audited using the same capabilities GitLab has to investigate actual malicious activity. For example, any commands we may execute on a "compromised" laptop should be captured and archived by our endpoint detection and response (EDR) software.

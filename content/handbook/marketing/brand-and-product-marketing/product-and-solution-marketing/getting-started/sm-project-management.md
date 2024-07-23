@@ -1,14 +1,6 @@
 ---
-
 title: "Product and Solution Marketing Project Management Overview"
 ---
-
-
-
-
-
-
-
 
 ### Project management overview
 
@@ -24,6 +16,7 @@ In Product and Solution Marketing, we have several processes to manage the work 
 ### Commitment management
 
 We are often asked / requested to work on multiple efforts, across the company.  For example,
+
 - An event, needs booth messaging
 - A campaign, needs positioning/messaging and perhaps a gated white-paper
 - A campaign, needs a customer case study
@@ -45,6 +38,7 @@ Here's a short overview of the process:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cuIHNintg1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The process is simple:
+
 1. Anyone can **[open an SM Support Request Issue](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/new?issuable_template=A-SM-Support-Request)** this link will the *A-SM-Support-Request* template.
 
 1. The Product and Solution Marketing leadership team will review the request(Daily), assign it to the ideal SM Team, prioritize the work and plan how to support your requests.
@@ -54,6 +48,7 @@ The process is simple:
 #### SM Request Process Flow
 
 **Strategic marketing request review and assignment flow** (note: the label `sm_request` indicates a request for Product and Solution Marketing support)
+
 1. **New requests** start with the label `sm_req::new_request`.
 New requests will generally EITHER be assigned to a team and team member or put in the strategic marketing backlog
    1. **Backlog** `sm_req::backlog` for future scheduling, sequencing, and implementation.  *note: add issue to the SM_Backlog milestone for tracking.* **NOTE: Issues in the backlog are NOT yet committed to be done!**
@@ -67,13 +62,12 @@ New requests will generally EITHER be assigned to a team and team member or put 
    1. *declined* `sm_req::declined` - when an issue is in the backlog and it is no longer relevant or does not make sense anymore.  **Close** the issue when you *decline* it.
    1. *canceled* `sm_req::canceled` - when an issue is in the backlog and it is no longer relevant or does not make sense anymore.  **Close** the issue when you *decline* it.
 
-
 1. **Triage Standup**.   15 min standup, where the leadership team reviews **New Requests** to triage them to the most appropriate team.   From there, team leads either move to the backlog or assign for immediate work.
-
 
 #### Managing the request process
 
 GitLab provides several ways to visualize and manage our work:
+
 1. [SM Request Board](https://gitlab.com/gitlab-com/marketing/product-marketing/-/boards/1237365?&label_name[]=sm_request) provides a way to visualize the tracks status of requests grouped by labels.  There are several limitations: - lots of scrolling, no sorting, only one action when dragging.   So - these different views may be more useful:
 1. **List Views**: enable you to view multiple issues in a common status and you can sort, filter, and make mutliple updates to multiple issues in one step.  See the **Edit Issue** button at the top right.
    1. [Strategic NEW REQUEST List View](https://gitlab.com/gitlab-com/marketing/product-marketing/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sm_req%3A%3Anew_request) This view provides a way to see ALL the New Requests in one list for all of Product and Solution Marketing.
@@ -85,6 +79,7 @@ GitLab provides several ways to visualize and manage our work:
    1. [Current Quarter Work in progress](https://gitlab.com/gitlab-com/marketing/product-marketing/-/milestones/4) - this is a **PRIMARY VIEW** to see what we're working on and the progress toward closure for the overall team.  At the end of the quarter, we will create a new milestone for the next quarter **and** move any unfinished issues to the new milestone.  (and potentially label them as being from a previous milestone.)
    1. [Product and Solution Marketing Backlog](https://gitlab.com/gitlab-com/marketing/product-marketing/-/milestones/5) - this is a view of our current backlog which makes it easy to navigate to groups of related issues based on label such as (Priority, team, or usecase)
 1. [**Quick Actions**](https://gitlab.com/help/user/project/quick_actions): - Quick actions are commands that you can enter into a comment on an issue and quickly update the status of the issue.  Through quick actions you can
+
 - add or remove a label
 - assign or unassign the issue to someone
 - add or remove from a milestone
@@ -103,14 +98,11 @@ Quick actions are **very,very** helpful and efficient when you want to make mult
 | **Assigning to a team member** |  `/Label ~"sm_req::assigned" ~"status::wip"` <br> `/Milestone %Q4FY20` <br> `/Assign @<TeamMember>`|
 | **Completing an issue** |  `/Label ~"sm_req::completed"` <br> `/close` |
 
-
-
-
 #### SM Request insights
 
  We are actively working to leverage GitLab insights in order to monitor how the process is working, learn, and improve over time.
 
- - SM Request Overall - the whole processes
+- SM Request Overall - the whole processes
 
 ![SM Request Overall](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-req-overall.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct }
 
@@ -135,9 +127,10 @@ The first time we applied a milestone to regular work was in [Q4-FY20](https://g
 In [Q1-FY21](https://gitlab.com/gitlab-com/marketing/product-marketing/-/milestones/6), we are continuing to use a milestone to track regular work, and as we learn about our patterns and flow, we believe we will be able to increase our velocity and flow.
 
 As of 13 April:
-  - 332 total issues
-  - 173 open and
-  - 159 closed
+
+- 332 total issues
+- 173 open and
+- 159 closed
 
 ![SM Q1FY21 Milestone](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-q1fy21-milestone.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct }
 
@@ -152,13 +145,12 @@ When we have large and complex projects, we manage the work through:
 
 For example the UseCase GTM Project to build out the messaging, demos, comparisons, case studies and proof points for the Use Cases. Here specific the Epic for a given use case is broken down into sub epics, and then issues are created and associated with the correct epic.
 
-
 - An Overall Epic - [UseCase GTM Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/654)
 - and then child Epics for each UseCase - for example:
   - [SCM UseCase Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/655)
   - [CI UseCase Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/661)
 - And then we broke each epic into Months so we could see the associated
-   - [SCM Month 1 Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/665)
+  - [SCM Month 1 Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/665)
 
 ![epic](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/epic.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width90pct }
 
@@ -216,6 +208,7 @@ set the refined label
 Has the value of the feature been assessed based on input from key stakeholders?
 
 **Priority**
+
 - priority::1
 - priority::2
 - priority::3
@@ -234,7 +227,6 @@ At the beginning of the Sprint, DRIs will assign the 'On Track' status to agreed
 
 After each sprint, the team should reflect and document learnings about what worked, what didn't work and how to improve.
 Asynchronously, we will document what we learn in this [retrospective document](https://docs.google.com/document/d/1oEJlMfygihEnyKeE7qit2ABMCALknVlPOZItONgrhfU/edit#) and improve.
-
 
 ### Metrics and KPIs (GitLab Insights)
 
@@ -270,7 +262,6 @@ Through this, we can track our work and improve our balance and focus:
 
 ![pmm insights Details](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/pmm-insights-details.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width90pct }
 
-
 [GitLab Product and Solution Marketing PMM Insights](https://gitlab.com/gitlab-com/marketing/product-marketing/insights/#/pmmCharts)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OMTfPsLa98I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -296,6 +287,7 @@ Over time, we will be establishing guidelines about how we consistently use thes
 ### Example of managing our workflow
 
 Some of us in the team use **GitLab Issue Boards** to manage our workflow. Using the issue board and scoped labels such as `Open`, `To-Do`, `Doing`, `Waiting`, `Closed`, the issue board gives us a visual representation of issues assigned to us.
+
 1. Label `Closed` : Issues that have already been completed and closed
 1. Label `Waiting` : Issues that are waiting for input from other teams
 1. Label `Doing` : Issues that we are currently actively working on

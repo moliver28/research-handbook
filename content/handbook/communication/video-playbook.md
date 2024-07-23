@@ -31,7 +31,7 @@ If you have a lengthy video, perhaps from a meeting recording, please strongly c
 
 *Informal customer testimonials:* These are videos of customer presentations or conversations at events or webcasts.
 
-*Instructional videos:* These videos are meant to educate the viewer to the point where they walk away with some actionable knowledge. Instructional videos go by a variety of different names. But whether you need to make a how-to video or a tutorial, the goal is the same. Unlike other forms of video, an instructional video instructs. Of course, while you don’t want boring videos, the main goal is for viewers to comprehend and learn what you are teaching them.
+*Instructional videos:* These videos are meant to educate the viewer to the point where they walk away with some actionable knowledge. Instructional videos go by a variety of different names. But whether you need to make a how-to video or a tutorial, the goal is the same. Unlike other forms of video, an instructional video instructs. Of course, while you don't want boring videos, the main goal is for viewers to comprehend and learn what you are teaching them.
 
 ### Don't share sensitive data
 

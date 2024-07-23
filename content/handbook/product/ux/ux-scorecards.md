@@ -39,6 +39,7 @@ You can do a [formative evaluation](https://www.nngroup.com/articles/formative-v
 When doing a formative evaluation, do a "light" usability test to observe 3-5 internal or external users, as this provides valuable insights and removes subjectivity. This can be done in about a day, if the scenario you are evaluating is simple to set up in a test project. If your scenario is highly technical and requires complex customizations, plan ahead as it can take a couple of days just to set up an environment for the evaluation.
 
 In every case,
+
 * define the [JTBD](/handbook/product/ux/jobs-to-be-done/) prior to conducting the Scorecard.
 * use our [heuristics](/handbook/product/ux/heuristics/) when evaluating the experience.
 * use the [Grading Rubric](#grading-rubric) to provide an overall measurement that becomes the benchmark score for the experience.
@@ -64,15 +65,15 @@ This is a process intended to help inform the design process and maintain a high
 Below is a recommended step by step process for completing a UX Scorecard. Note that every scorecard is not the same. Product Designers are welcome to adapt the steps to their needs as long as they are as objective as possible and the spirit and outcome remains the same.
 
 1. Create an (or locate the existing) epic that will contain all UX Scorecards for that stage group.
-    > Example: “UX Scorecard - Create:Source Code”
+    > Example: "UX Scorecard - Create:Source Code"
 1. If not already done, add the stage group epic to the [UX Scorecards -- All Evaluations](https://gitlab.com/groups/gitlab-org/-/epics/1714) epic.
 1. Work with your Product Manager to identify the top jobs (in frequency or importance) for users of your stage group. Ideally, you will base this task list on user research (analytics or qualitative findings).
 1. Select one of the top jobs to complete a UX Scorecard.
-1. [Create an experience scoring issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%201), using the template “WIP: UX Scorecard Part 1”, and add it to the stage group epic.
+1. [Create an experience scoring issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%201), using the template "WIP: UX Scorecard Part 1", and add it to the stage group epic.
 
 This issue should have the **UX Scorecard** label. If it's related to an OKR, also apply the **OKR** label for easier tracking.
 
-1. [Create a recommendations issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%202), using the template “WIP: UX Scorecard Part 2”, to be done after the experience scoring.
+1. [Create a recommendations issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%202), using the template "WIP: UX Scorecard Part 2", to be done after the experience scoring.
     1. If you're doing a Heuristic Buddy Evaluation skip this step and continue using the [Heuristic Buddy Scorecard template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/Heuristic%20Buddy%20UX%20Scorecard.md)
 1. Follow the instructions in the templates to complete the scorecard and use the Grading Rubric.
 1. Once you have completed the evaluation and provided your recommendations, remove the "WIP:" prefix from the issue title.

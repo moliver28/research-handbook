@@ -11,7 +11,7 @@ repositories and projects, or can be part of a Disaster Recovery solution.
 
 ### Team members
 
-{{< team-by-manager-slug manager="pjphillips" >}}
+{{< team-by-manager-slug manager="luciezhao" >}}
 
 ### Stable counterparts
 
@@ -32,7 +32,7 @@ as part of a related project. Where this is not possible, we use time around our
 
 Every quarter the engineering team sets [objectives and key results](/handbook/company/okrs/#what-are-okrs). OKRs are managed in GitLab as of FY24-Q1. The following are links to issues lists for Geo's OKRs.
 
-[OKRs FY24-Q1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Ageo&milestone_title=FY24-Q1&first_page_size=100)
+[OKRs FY25-Q2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Ageo&milestone_title=FY25-Q2&first_page_size=20)
 
 ## Geo's Relationship to Disaster Recovery
 
@@ -51,7 +51,7 @@ This section outlines the process and expectations when requesting support from 
 
 ### Before requesting support
 
-Before submitting a request for support, please review Geo's [documentation](https://docs.gitlab.com/ee/administration/geo/), the [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/) docs, the Geo Handbook pages, or search through previous customer issues in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers). The answer to your questions might be found there.
+Before submitting a request for support, please review Geo's [documentation](https://docs.gitlab.com/ee/administration/geo/), the [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/) docs, the [Backup and Restore](https://docs.gitlab.com/ee/administration/backup_restore/) docs, the Geo Handbook pages, or search through previous customer issues in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers). The answer to your questions might be found there.
 
 ### Asking a general question
 
@@ -62,7 +62,11 @@ If you have a general question for which you can't find your answer, then feel f
 We like to use issues when customers need help from the Geo Team. This helps us to prioritize work and make sure that we don't lose history and maintain context when the Slack retention policy activates.
 We ask requestors to create an issue in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers).
 
-Please make sure to use and fill the [support request issue template](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request.md). As the requestor you **only** need to fill the Customer Info and Support Question sections. The Timeline and Retrospective sections will be filled by the Geo team members as they address your request.
+Please make sure to use and fill the [Geo support request issue template](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Geo.md) for Geo related questions and [Backup and Restore support request issue template](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Backup%20and%20Restore.md). As the requestor you **only** need to fill the Customer Info and Support Question sections. The Timeline and Retrospective sections will be filled by the Geo team members as they address your request.
+
+**At minimum Zendesk links and logs are especially important. The issue will not enter our normal triage process if they are missing. If no update has been made on an issue for 2 weeks, they will be auto closed by the EM/PM/Assignee**
+
+We also have a new trial process for this in place, please see [process](/handbook/engineering/infrastructure/core-platform/systems/geo/process/#engineering-customersupport-rotation-process-trial-phase)
 
 If you like, you may assign a priority label to your request. A geo team member or the PM will review this priority assignment during the triage of the issue. Please use the table below as a reference of priority levels and expected response times.
 
@@ -83,6 +87,7 @@ If you like, you may assign a priority label to your request. A geo team member 
 
 - [Geo](https://docs.gitlab.com/ee/administration/geo/index.html)
 - [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/index.html)
+- [Backup and Restore](https://docs.gitlab.com/ee/administration/backup_restore/)
 - [Planned Failover](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/planned_failover.html)
 - [Background Verification](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/background_verification.html)
 - [Geo Glossary](https://docs.gitlab.com/ee/administration/geo/glossary.html)
@@ -93,10 +98,10 @@ If you like, you may assign a priority label to your request. A geo team member 
 
 The following links lead to Geo team lists of issues to help with identifying missing subtype labels. After opening each link, select the desired milestone filter.
 
-- [Issues missing the type label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&not%5Blabel_name%5D%5B%5D=type%3A%3A%2a&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&first_page_size=20)
-- [Features issues missing subtype label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&label_name%5B%5D=type%3A%3Afeature&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&not%5Blabel_name%5D%5B%5D=feature%3A%3A%2a&first_page_size=20)
-- [Maintainance issues missing subtype label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&label_name%5B%5D=type%3A%3Amaintenance&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&not%5Blabel_name%5D%5B%5D=maintenance%3A%3A%2a&first_page_size=20)
-- [Bug issues missing subtype label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&not%5Blabel_name%5D%5B%5D=bug%3A%3A%2a&first_page_size=20)
+- [Issues missing the type label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&amp;not%5Blabel_name%5D%5B%5D=type%3A%3A%2a&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&first_page_size=20)
+- [Features issues missing subtype label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&label_name%5B%5D=type%3A%3Afeature&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&amp;not%5Blabel_name%5D%5B%5D=feature%3A%3A%2a&first_page_size=20)
+- [Maintainance issues missing subtype label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&label_name%5B%5D=type%3A%3Amaintenance&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&amp;not%5Blabel_name%5D%5B%5D=maintenance%3A%3A%2a&first_page_size=20)
+- [Bug issues missing subtype label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&amp;not%5Blabel_name%5D%5B%5D=bug%3A%3A%2a&first_page_size=20)
 
 ### Other Resources
 
@@ -107,11 +112,11 @@ chat channel for questions that don't seem appropriate to use the issue tracker
 for.
 - [Geo YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoY_6FXXVgj7wPE9ZDS4cOw)
 - [Product Support Requests](/handbook/product/product-processes/#product-support-requests)
-- [Geo on staging.gitlab.com](./staging.html)
+- [Geo on staging.gitlab.com](staging.html)
 
 ## Planning and Process
 
-Our planning and build process is recorded on the [process page](./process.html).
+Our planning and build process is recorded on the [process page](process.html).
 
 ## Demos
 

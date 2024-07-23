@@ -1,14 +1,7 @@
 ---
-
 title: "Search Marketing"
 description: "The Search Marketing focuses on growing revenue for GitLab by increasing traffic and improving conversion rates on GitLab's public websites"
 ---
-
-
-
-
-
-
 
 ## Search Marketing
 
@@ -23,11 +16,13 @@ The Search Marketing team focuses on helping grow revenue for GitLab by increasi
 * Slack handle: @Niall Cregan
 
 [**Hanif Smith-Watson**](/handbook/company/team/#hsmith-watson)
+
 * Title: Search Marketing Manager
 * GitLab handle: hsmith-watson
 * Slack handle: @Hanif Smith-Watson
 
 ## Areas we focus
+
 * Organic discovery
   * site health for about.gitlab.com
   * keyword research
@@ -48,23 +43,25 @@ We publish our total conversion rate monthly in dataStudio.
 ## Tools we maintain
 
 * [Google Analytics](https://analytics.google.com/analytics/web/): Google Analytics lets you measure your advertising ROI as well as track your Flash, video, and social networking sites and applications.
-* [Hotjar](https://www.hotjar.com/): Hotjar is a powerful tool that reveals the online behavior and voice of your users. By combining both Analysis and Feedback tools, Hotjar gives you the ‘big picture’ of how to improve your site's user experience and performance/conversion rates.
+* [Hotjar](https://www.hotjar.com/): Hotjar is a powerful tool that reveals the online behavior and voice of your users. By combining both Analysis and Feedback tools, Hotjar gives you the 'big picture' of how to improve your site's user experience and performance/conversion rates.
 * [Google Optimize](https://optimize.google.com/optimize/home/): Google Website Optimizer was a free website optimization tool that helped online marketers and webmasters increase visitor conversion rates and overall visitor satisfaction by continually testing different combinations of website content.
 * [Sitebulb](/handbook/marketing/inbound-marketing/search-marketing/sitebulb/): Sitebulb is a  website auditing tool for search engine optimization.
 
 ### Organic discovery
+
 Most people entering gitlab.com and all sub-domains start their journey on a search engine. Our team's goal is to help them discover the most relevant and accurate match for their query.
 
 We don't engage in any dark patterns to trick people or search engine bots. We focus on improving the technical signals our site sends by limiting broken pages, adding redirects, updating metadata, removing duplicate content, and providing relevant research to teams across GitLab. The rest of this page is devoted to the processes we follow to improve overall organic discovery.
 
 ### SEO slack channel
+
 If you notice something in search and have a question about why it is happening, bring your questions to [#seo-improvement](https://gitlab.slack.com/archives/CPAPAKKA7). The Search Marketing team is active there and happy to investigate search issues.
 
 ### Setting canonical URLs
 
 When search engines crawl multiple versions of a page they see them all as duplicates, unless you set a [canonical version](https://support.google.com/webmasters/answer/139066?hl=en). On about.gitlab.com we use `canonical_path` to add this tag to pages. To add this to a page add `canonical_path` to the frontmatter with the page path. It should look something like this
 
-```
+```yaml
 canonical_path: "/sub-folder/page/"
 ```
 
@@ -80,13 +77,13 @@ However, we should use [Google's guidelines on nofollowing links](https://webmas
 
 Regular website health checks should be performed. These checks are meant to ensure that there are no issues with the website that could cause issues with traffic to the site. These are the following things to check to ensure the health of the site:
 
-- [Google Search Console](https://www.google.com/webmasters/tools/)
-- [Google Analytics](https://analytics.google.com/analytics/web/)
+* [Google Search Console](https://www.google.com/webmasters/tools/)
+* [Google Analytics](https://analytics.google.com/analytics/web/)
 
 Issues to look for in each of these tools:
 
-- **Google Search Console**: Check the dashboard and messages for any important notifications regarding the website. Also check under `Search Traffic` > `Manual Actions` for any URLs that have been identified as spam or harmful content. Forward security warnings to the Abuse team and follow the [DMCA complaint process](/handbook/support/workflows/dmca/) with the support team.
-- **Google Analytics**: Compare organic site traffic from the most previous week compared to the previous week and look for any large fluctuations.
+* **Google Search Console**: Check the dashboard and messages for any important notifications regarding the website. Also check under `Search Traffic` > `Manual Actions` for any URLs that have been identified as spam or harmful content. Forward security warnings to the Abuse team and follow the [DMCA complaint process](/handbook/support/workflows/dmca/) with the support team.
+* **Google Analytics**: Compare organic site traffic from the most previous week compared to the previous week and look for any large fluctuations.
 
 ### Using robots metadata to manage search index
 
@@ -110,9 +107,9 @@ The Digital Marketing Programs team can set up and manage all redirects for abou
 
 To redirect an outdated page, open an issue with the [set up a new redirect template in the Growth Marketing project](https://gitlab.com/gitlab-com/marketing/growth-marketing/growth/issues/new?issuable_template=set-up-a-new-redirect). You'll need to provide the following:
 
-- Old URL that needs to be redirected
-- New URL where users should now be sent
-- Were you able to update existing links to the old URL across about.gitlab.com?
+* Old URL that needs to be redirected
+* New URL where users should now be sent
+* Were you able to update existing links to the old URL across about.gitlab.com?
 
 If you have any questions or concerns regarding your redirect request, ask for help in the [#inbound-mktg](https://gitlab.slack.com/archives/C012U3CASJ2) channel on Slack.
 

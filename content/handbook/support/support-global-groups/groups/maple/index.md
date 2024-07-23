@@ -1,5 +1,4 @@
 ---
-
 title: Home Page for Support's Maple Group
 description: Home Page for Support's Maple Group
 ---
@@ -14,9 +13,9 @@ Introductory text, logos, or whatever the group wants here
 - Our Slack Channel: [spt_gg_maple](https://gitlab.slack.com/archives/C03C9EHQ97V)
 - Our Team: [Maple Members](https://gitlab-com.gitlab.io/support/team/sgg.html?search=maple)
 - Aligned Managers:
-   - **AMER** -- Izzy, Ronnie
-   - **EMEA** -- Rebecca, Tine
-   - **APAC** -- no alignment
+  - **AMER** -- Izzy, Ronnie
+  - **EMEA** -- Rebecca, Tine
+  - **APAC** -- no alignment
 
 ## Maple workflows and processes
 
@@ -103,4 +102,4 @@ The purpose is to facilitate conversations on topics like continuous development
 Scheduled Sync Calls:
 
 - APAC: Every third Thursday of the month at 02:00 UTC
-- EMEA: Every first Wednesday of the month at at 11:00 UTC
+- EMEA: Every first Wednesday of the month at 11:00 UTC

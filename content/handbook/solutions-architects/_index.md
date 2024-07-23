@@ -1,9 +1,7 @@
 ---
-
 title: Solutions Architects Handbook
 description: "Solutions Architects (SA) are the trusted advisors to GitLab prospects and customers during the presales motion, demonstrating how the GitLab application and GitLab Professional Services address common and unique business requirements"
 ---
-
 
 ## Solutions Architecture Mission
 
@@ -67,6 +65,19 @@ Being a Trusted Advisor is referencing a role/skill that a person takes on when 
 > --<cite> [Solution Focus Field Competency](/handbook/sales/training/field-functional-competencies/#solution-focus)
 
 For more information and development see the "Trusted Advisor Skill Development", [Community of Practice](/handbook/customer-success/initiatives/communities-of-practice.html#active-communities-of-practice)
+
+### Key Attributes for Positioning Value
+
+As the DRIs helping position, prepare, and guide a customer's technical evaluation the SA team ensure that GitLab can surface the right points of value to the customer's key stakeholders post technical evaluation.  The following embody GitLab's technical evaluation philosophy and help guide successful technical evaluations.
+
+These offerings are delivered each within a specific context of a particular customer journey.
+
+- **Labs / Workshops**: Closed invite, typically in-person events (or a Zoom meetings) providing an exclusive list of customers (typically 1) access to a lab environment, where SAs provide personalized guidance to the customers as questions arise to help them see the value of what they are not currently paying for.
+- **Technical Discovery**: A deep dive into current practices at the company that aid in helping identify pain points specific to where GitLab can help address needs and work towards a better long-term state.
+- **Demonstrations**: Built around the work done within the technical discovery. Demonstrations aim to address at least 3 specific pain points identified during discovery while selling the vision of GitLab's DevSecOps platform approach.
+- **Guided Trials**: Three goals in 30 days through the usage of a GitLab Trial. This can oftentimes be used to replace the need for the more formal Proof of Value.
+- **Proofs of Value**: Technical evaluation with more complexities than a Guided Trial. May last up to 8 weeks.
+- **Technical Close Plans**: An internal strategy used to secure a technical win for a given opportunity. It leverages the Command Plan and also details the customer's desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks.
 
 ## Changing the Solutions Architects Handbook Content
 

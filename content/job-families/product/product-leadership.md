@@ -116,6 +116,14 @@ The VP of Product Management - CI/CD, Enablement, & SaaS Platforms is the PM DRI
 - [Enablement Section](/handbook/product/categories/#enablement-section) - Systems & Data Stores Stages
 - [SaaS Platforms Section](/handbook/product/categories/#saas-platforms-section) - SaaS Platforms Stage
 
+##### Monetization
+
+The VP of Product Management - Monetization is the PM DRI for the Fulfillment Section, Pricing, and Product Analysis which include:
+
+- [Fulfillment Section](/handbook/product/categories/#fulfillment-section) - Fulfillment Stage
+- [Pricing](/handbook/company/pricing/) - Pricing team
+- [Product Data Insights](/handbook/product/product-analysis/) - Product Data Insights Stage
+
 ### Senior Director of Product Management
 
 This role typically manages 4-6 direct reports, including Product Managers, Group Managers of Product Management, and Directors of Product Management, and reports to the [Chief Product Officer]({{< ref "chief-product-officer" >}}).
@@ -157,14 +165,6 @@ The Senior Director of Product Management - Dev & Analytics is the PM DRI for th
 - [Dev Section](/handbook/product/categories/#dev-section) - Create, Plan, and Manage Stages
 - [Analytics Section](/handbook/product/categories/#analytics-section) - Analyze Stage
 
-##### Monetization
-
-The Senior Director of Product Management - Monetization is the PM DRI for the Fulfillment Section, Pricing, and Product Analysis which include:
-
-- [Fulfillment Section](/handbook/product/categories/#fulfillment-section) - Fulfillment Stage
-- [Pricing](/handbook/company/pricing/) - Pricing team
-- [Product Data Insights](/handbook/product/product-analysis/) - Product Data Insights Stage
-
 #### Senior Director of Product Management - Hiring Process
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process.
@@ -178,19 +178,19 @@ Candidates for this position can generally expect the hiring process to follow t
 - Next, candidates will be invited to schedule a 45 minute Deep Dive interview with a Product Director
 - Finally, candidates may be asked to schedule a 50 minute final interview with our CEO
 
-### Senior Director, Product - Strategy & Operations
+### Chief of Staff, Product
 
-The Senior Director, Product - Strategy & Operations acts as a trusted advisor to the Chief Product Officer (CPO). The Senior Director, Product - Strategy & Operations and the CPO work closely together to get more than twice as much done as the CPO would be able to do alone. This is a unique opportunity to see every aspect of a public company at the CPO level.
+The Chief of Staff, Product acts as a trusted advisor to the Chief Product Officer (CPO). The Chief of Staff, Product and the CPO work closely together to get more than twice as much done as the CPO would be able to do alone. This is a unique opportunity to see every aspect of a public company at the CPO level.
 
-This is a senior leadership role within the Product Leadership team, reporting directly to the CPO, leading the Technical Program Management team who is responsible for driving operational alignment to the product strategy set by the CPO as well as overseeing R&D’s product development operations. For example, the Senior Director, Product - Strategy & Operations will drive the Objective and Key Results (OKR) process for R&D including alignment to GitLab’s [R&D Investment Themes](https://about.gitlab.com/direction/#fy25-rd-investment-themes). Furthermore, the Senior Director, Product - Strategy & Operations will partner with the CPO to prepare content for high visibility meetings including Product Leadership Offsites, E-Group Offsites, and GitLab Board of Directors updates (including both quarterly GitLab Board of Directors meetings and semi-regular asynchronous updates).
+This is a senior leadership role within the Product Leadership team, reporting directly to the CPO, leading the Technical Program Management team who is responsible for driving operational alignment to the product strategy set by the CPO as well as overseeing R&D's product development operations. For example, the Chief of Staff,  Product will drive the Objective and Key Results (OKR) process for R&D including alignment to GitLab's [R&D Investment Themes](https://about.gitlab.com/direction/#fy25-rd-investment-themes). Furthermore, the Chief of Staff, Product will partner with the CPO to prepare content for high visibility meetings including Product Leadership Offsites, E-Group Offsites, and GitLab Board of Directors updates (including both quarterly GitLab Board of Directors meetings and semi-regular asynchronous updates).
 
-A detailed list of the types of projects the Senior Director, Product - Strategy & Operations might work on can be found in the Product Handbook as well as on GitLab’s [Direction](https://about.gitlab.com/direction/#fy25-rd-investment-themes), [Strategy](https://handbook.gitlab.com/handbook/company/strategy/), and [Vision](https://handbook.gitlab.com/handbook/company/vision/) pages.
+A detailed list of the types of projects the Chief of Staff, Product might work on can be found in the Product Handbook as well as on GitLab's [Direction](https://about.gitlab.com/direction/#fy25-rd-investment-themes), [Strategy](/handbook/company/strategy/), and [Vision](/handbook/company/vision/) pages.
 
-#### Senior Director, Product - Strategy & Operations - Job Grade
+#### Chief of Staff - Job Grade
 
-The Senior Director, Product - Strategy & Operations is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Chief of Staff, Product is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Director, Product - Strategy & Operations - Responsibilities
+#### Chief of Staff - Responsibilities
 
 The responsibilities include both directed work that will mostly be triggered by a direction from the CPO as well as leadership work that is self-directed. The mix will shift between the two however long term the work will shift to primarily leadership work.
 
@@ -211,7 +211,7 @@ The responsibilities include both directed work that will mostly be triggered by
 - Enter projects of great complexity at any point (scoping, alignment, execution, etc.) and successfully align key stakeholders and steward them toward results.
 - Lead when projects have limited scoping and asks are abstract.
 - Identify opportunities to improve business efficiency and make changes to improve the business.
-- Serve as a proxy for the CPO by attending meetings in place of the CPO and making decisions on the CPO’s behalf (when applicable).
+- Serve as a proxy for the CPO by attending meetings in place of the CPO and making decisions on the CPO's behalf (when applicable).
 - Act as the communication arm for the CPO with team members and other stakeholders.
 - Act as a sounding board to the CPO for new ideas and initiatives.
 - Prepare ahead of formal and informal Board meetings. Ensure the CPO has up to date information from every function in advance of questions from the board.
@@ -224,7 +224,7 @@ The responsibilities include both directed work that will mostly be triggered by
 - Proven ability to quickly learn new things.
 - Concise written and verbal communication.
 - Strategic and operational work experience in a previous role.
-- Ability to shift working hours to support GitLab’s global Product Division.
+- Ability to shift working hours to support GitLab's global Product Division.
 - Structured about how to prioritize work and time.
 - Able to make a clear business case for proposals.
 - Experience with data analysis.
@@ -239,10 +239,10 @@ The responsibilities include both directed work that will mostly be triggered by
   - Strategy consulting,
   - or Venture capital.
 - 6+ years of people management experience.
-- Master’s degree in Engineering or Business Administration or equivalent experience preferred.
+- Master's degree in Engineering or Business Administration or equivalent experience preferred.
 - Ability to use GitLab.
 
-#### Senior Director, Product - Strategy & Operations - Hiring Process
+#### Chief of Staff - Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 

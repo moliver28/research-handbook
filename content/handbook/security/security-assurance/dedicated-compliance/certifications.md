@@ -44,7 +44,7 @@ Year(s): FY25
 
 Year(s): FY26
 
-- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html):  +Privacy Critera
+- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
 - [ISO/IEC 27001:2022](https://www.iso.org/isoiec-27001-information-security.html) Certification: Recertification
 - [FedRAMP Moderate Authorization](https://www.fedramp.gov/)
 - [Software Bill of Materials internal implementation plan]({{< ref "sbom-plan" >}})
@@ -54,7 +54,7 @@ Under Consideration:
 
 - [ISO/IEC 27701:2019](https://www.iso.org/standard/71670.html)
 - [StateRAMP](https://stateramp.org/)
-- [DoD IL2 Provisional Authorization](https://public.cyber.mil/dccs/dod-cloud-authorization-process/)
+- [DoD IL2 Provisional Authorization](https://public.cyber.mil/dccs/dccs-documents/)
 - [Supply-chain Levels for Software Artifacts (SLSA)](http://slsa.dev/)
 - [NIST SP 800-66 HIPAA Security Rule implementation](https://csrc.nist.gov/publications/detail/sp/800-66/rev-1/final)
 

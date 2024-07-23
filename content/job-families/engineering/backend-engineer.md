@@ -14,32 +14,27 @@ requirements and responsibilities:
 
 <a id="intermediate-requirements"></a>
 
-#### Requirements
+### Requirements
 
 - Significant [professional experience](#professional-experience) with Ruby on Rails **or** [language](#primary-programming-language) required by the [specialty](#specialties)
 - Professional experience with any other technologies that may be required by the [specialty](#specialties)
 - Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment
 - Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose thorough iterative solutions
 - Experience with performance and optimization problems and a demonstrated ability to both diagnose and prevent these problems
-- Comfort working in a highly agile, [intensely iterative][iteration] software development process
+- Comfort working in a highly agile, [intensely iterative](/handbook/values/#iteration) software development process
 - Demonstrated ability to onboard and integrate with an organization long-term
 - Positive and solution-oriented mindset
-- Effective communication skills: [Regularly achieve consensus with peers][collaboration], and clear status updates
+- Effective communication skills: [Regularly achieve consensus with peers](/handbook/values/#collaboration), and clear status updates
 - An inclination towards communication, inclusion, and visibility
 - Experience owning a project from concept to production, including proposal, discussion, and execution.
-- [Self-motivated and self-managing][efficiency], with strong organizational skills.
+- [Self-motivated and self-managing](/handbook/values/#efficiency), with strong organizational skills.
 - Demonstrated ability to work closely with other parts of the organization
-- Share [our values][values], and work in accordance with those values
+- Share [our values](/handbook/values/), and work in accordance with those values
 - Ability to thrive in a fully remote organization
 - Ability to use GitLab
 - Comfort and familiarity with our [code review process](/handbook/engineering/workflow/code-review/)
 
-[iteration]: https://about.gitlab.com/handbook/values/#iteration
-[collaboration]: https://about.gitlab.com/handbook/values/#collaboration
-[efficiency]: https://about.gitlab.com/handbook/values/#efficiency
-[values]: https://about.gitlab.com/handbook/values
-
-#### Nice-to-haves
+### Nice-to-haves
 
 - Experience in a peak performance organization, preferably a tech startup
 - Experience with the GitLab product as a user or contributor
@@ -51,7 +46,7 @@ requirements and responsibilities:
 - Computer science education or equivalent experience
 - Passionate about/experienced with open source and developer tools
 
-#### Responsibilities
+### Responsibilities
 
 - Develop features and improvements to the GitLab product in a secure,
   well-tested, and performant way
@@ -67,7 +62,7 @@ requirements and responsibilities:
 
 ---
 
-#### Professional Experience
+### Professional Experience
 
 At GitLab, due to the pace we're moving, people joining our team will
 be expected to have **significant** professional experience in the
@@ -80,7 +75,7 @@ For context, see this merge request with some [history on this policy](https://g
 
 ---
 
-#### Primary programming language
+### Primary programming language
 
 Some [specialties](#specialties) within GitLab are using primary programming
 languages other than Ruby. These programming languages are defined as being
@@ -89,7 +84,7 @@ to day. The expectation from the specialty is that engineers will have extensive
 experience in this primary programming language as well as some level of
 understanding of Ruby and, Ruby on Rails.
 
-#### Backend Engineer Performance Indicators
+### Backend Engineer Performance Indicators
 
 Backend Engineers have the following job-family performance indicators.
 
@@ -247,7 +242,7 @@ For Managers:
 
 ### Distribution:Build
 
-The Build team closely partners with our greater engineering organization to build and distribute GitLab services. The Build team is tasked with ensuring the components that make up GitLab are up to date, license compliant, and available for our users’ platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
+The Build team closely partners with our greater engineering organization to build and distribute GitLab services. The Build team is tasked with ensuring the components that make up GitLab are up to date, license compliant, and available for our users' platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
 
 Distribution Build engineering regularly interfaces with broader development teams in supporting newly created features. Notably, the Distribution Deploy team is the Build team's biggest internal collaborator, so there is significant team interdependency. The Distribution Build team is involved with diverse projects and tasks that include assisting community packaging efforts.
 
@@ -541,7 +536,7 @@ An ideal engineer candidate -
 
 - Expert of Ruby on Rails.
 - Experience of performance tuning and/or architecture, [Example](https://rubykaigi.org/2018/presentations/tenderlove.html).
-- Experience of memory leak troubleshooting, [Example 1](http://www.be9.io/2015/09/21/memory-leak/), [Example 2](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby).
+- Experience of memory leak troubleshooting, [Example 1](https://web.archive.org/web/20220826233628/http://www.be9.io/2015/09/21/memory-leak/), [Example 2](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby).
 
 Alternatively, some of the following qualifications, may not necessarily be all -
 
@@ -565,7 +560,7 @@ Alternatively, some of the following qualifications, may not necessarily be all 
 
 ### Ecosystem
 
-The Ecosystem team is responsible for seamless integration between GitLab and 3rd party products as well as making GitLab products available on cloud service providers’ marketplaces such as AWS. The team plays a critical role in developing APIs and SDK and expanding GitLab market opportunities.
+The Ecosystem team is responsible for seamless integration between GitLab and 3rd party products as well as making GitLab products available on cloud service providers' marketplaces such as AWS. The team plays a critical role in developing APIs and SDK and expanding GitLab market opportunities.
 
 #### Responsibilities
 
@@ -592,11 +587,11 @@ Gitaly's high-availability storage requires developers who understand distribute
 
 - Participate in architectural discussions and decisions surrounding Gitaly.
 - Design RPC interfaces for the Gitaly service.
-- Scope, estimate and describe tasks to reach the team’s goals.
+- Scope, estimate and describe tasks to reach the team's goals.
 - Develop Gitaly in accordance with the product's goals.
 - Instrument, monitor and profile Gitaly in the production environment.
 - Build dashboards and alerts to monitor the health of your services.
-- Conduct acceptance testing of the features you’ve built.
+- Conduct acceptance testing of the features you've built.
 - Educate all team members on best practices relating to high availability.
 
 #### Requirements
@@ -605,7 +600,7 @@ Gitaly's high-availability storage requires developers who understand distribute
 - Mandatory: proven [professional experience](#professional-experience) writing and testing high-quality code.
 - Mandatory: a good understanding of building instrumented, observable software systems.
 - Highly desirable: proven [professional experience](#professional-experience) writing and testing quality code **in Go**.
-- Highly desirable: a good understanding of git’s internal data structures or experience running git servers.
+- Highly desirable: a good understanding of git's internal data structures or experience running git servers.
 - Highly desirable: experience with gRPC.
 - Highly desirable: willingness to learn Ruby.
 - Highly desirable: experience running highly-available systems in production environments.
@@ -620,16 +615,16 @@ Gitaly uses the open-source Git product under the hood to implement the business
 
 - Participate in architectural discussions and decisions surrounding Git and Gitaly.
 - Participate in the Git community, connect and bridge discussions in the opensource community with GitLab.
-- Scope, estimate and describe tasks to reach the team’s goals.
+- Scope, estimate and describe tasks to reach the team's goals.
 - Develop Git in accordance with both the team's and the community's goals.
 - Adapt Gitaly to make best use of Git, including integrating new features.
-- Conduct acceptance testing of the features you’ve built and integrated.
+- Conduct acceptance testing of the features you've built and integrated.
 - Be a good citizen of the open-source community.
 
 #### Requirements
 
 - Mandatory: a good understanding of building instrumented, observable software systems.
-- Mandatory: a good understanding of git’s code and data structures or experience running git servers.
+- Mandatory: a good understanding of git's code and data structures or experience running git servers.
 - Mandatory: proven [professional experience](#professional-experience) writing and testing quality code **in C**.
 - Mandatory: accepted contributions to the Git project.
 - Highly desirable: proven [professional experience](#professional-experience) writing and testing quality code **in Go**.

@@ -16,7 +16,7 @@ as well our own [areas of responsibility](/handbook/marketing/growth/#product-ow
 
 ## Direction
 
-We work on the issues prioritized by our product teams including running [experiments](/handbook/engineering/development/growth/experimentation/) on GitLab.com.
+We work on the issues prioritized by our product teams including running [experiments](/handbook/marketing/growth/engineering/experimentation/) on GitLab.com.
 More information on priorities can be found on the [Growth direction](/handbook/marketing/growth/) page.
 
 Growth stage teams have Fullstack Engineers.
@@ -33,14 +33,14 @@ Some useful links to see how and what we are working on include:
 - [acquisition](acquisition/) group
 - [activation](activation/) group
 
-Growth teams contribute to a GitLab [experimentation](/handbook/engineering/development/growth/experimentation/) gem to make it easier to run experiments and make data driven product decisions on GitLab.com.
+Growth teams contribute to a GitLab [experimentation](/handbook/marketing/growth/engineering/experimentation/) gem to make it easier to run experiments and make data driven product decisions on GitLab.com.
 
 ## Roadmap
 
 Our current roadmap can be accessed through our quarterly OKR planning issues:
 
-* [FY24 Q3](https://gitlab.com/gitlab-org/gitlab/-/issues/420650)
-* [FY24 Q4](https://gitlab.com/gitlab-org/gitlab/-/issues/428640)
+- [FY24 Q3](https://gitlab.com/gitlab-org/gitlab/-/issues/420650)
+- [FY24 Q4](https://gitlab.com/gitlab-org/gitlab/-/issues/428640)
 
 ## Who Are We?
 
@@ -92,12 +92,20 @@ The Growth stage uses the `~"devops::growth"` label and the following groups for
 | Feature Flags | `~"feature flag"`       | [Feature flags](https://gitlab.com/groups/gitlab-org/-/boards/1725470?&label_name[]=devops%3A%3Agrowth&label_name[]=feature%20flag) |  |
 
 Growth teams work across the GitLab codebase on multiple groups and projects including:
+
 - The [gitlab.com/gitlab-org](https://gitlab.com/gitlab-org/) group
 - [gitlab](https://gitlab.com/gitlab-org/gitlab)
 - [GLEX](https://gitlab.com/gitlab-org/ruby/gems/gitlab-experiment)
 - [customers-gitlab-com](https://gitlab.com/gitlab-org/customers-gitlab-com)
 - The [gitlab.com/gitlab-com](https://gitlab.com/gitlab-com/) group
 - [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
+
+### Issue sequencing
+
+In order to convey Issue implementation order and blocking concepts,
+we leverage the [blocking issue linking feature](https://docs.gitlab.com/ee/user/project/issues/related_issues.html#blocking-issues).
+
+More on the discussion can be seen in https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/752.
 
 ### Issue Refinement And Estimation
 
@@ -108,10 +116,10 @@ The refinement process is driven by [triage bot automations and policies](https:
 ## Refinement Steps
 
 1. Issues are moved from `~"workflow::planning breakdown"` to `~"workflow::refinement"` automatically by the triage bot in order of priority (from top to bottom). The bot will only move issues to refinement if there is room in refinement column, meaning there is less issues than maximum limit for this column. This is first chance for PMs to prioritize issues by moving them higher in the `planning breakdown` column. After the issue is moved to refinement, a dedicated `refinement thread` is created, which acts as a place for discussion and weight estimation.
-     * 💡 Hint: In rare case when an issue has to be expedited, it's possible to move it to refinement manually. This will invoke a reaction from triage bot, which will add `refinement thread` for such issue instantly so the refinement can proceed the same way as with automated path.
+     - 💡 Hint: In rare case when an issue has to be expedited, it's possible to move it to refinement manually. This will invoke a reaction from triage bot, which will add `refinement thread` for such issue instantly so the refinement can proceed the same way as with automated path.
 2. During refinement the team ensures that the issue is well described and requirements are clear. They can use the `refinement thread` to discuss but they should make sure that any changes and decisions made there are also reflected in issue's description. Once each engineer is comfortable with the way the issue is described, they can vote their estimation of weight based on our [guidelines](/handbook/engineering/development/growth/index.html#estimation-guidelines). The voting happens by reacting to the thread with one of few possible weight estimates: 1️⃣ 2️⃣ 3️⃣ 5️⃣ or 🚀.
 3. Each day the triage bot checks all issues in `~"workflow::refinement"` column and if an issue has required minimum number of estimation votes (see `MIN_REACTIONS` constant [here](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/lib/growth_refine_automation_helper.rb?ref_type=heads#L16) for the current setting) it will be moved to `~"workflow::scheduling"`.
-    * 💡 Hint: If there is some problem with the issue and it shouldn't be moved forward even if enough engineers estimate it, ❌ reaction can be added to the thread which will stop the bot from transitioning the issue to `~"workflow::scheduling"` as long as this reaction sticks to the thread. This means that whoever put it is also responsible for removing it once the problem is gone.
+    - 💡 Hint: If there is some problem with the issue and it shouldn't be moved forward even if enough engineers estimate it, ❌ reaction can be added to the thread which will stop the bot from transitioning the issue to `~"workflow::scheduling"` as long as this reaction sticks to the thread. This means that whoever put it is also responsible for removing it once the problem is gone.
 4. Once the issue is in `~"workflow::scheduling"`, it is awaiting final prioritization by PMs - it has to be manually moved to `~"workflow::ready for dev"` depending on the current priorities. This part of the process is PMs responsibility. This allows for additional fine-tuning of priorities and acts as a buffer for our ready for development column.
 
 ## Estimation guidelines
@@ -131,7 +139,38 @@ In planning and estimation, we value [velocity over predictability](/handbook/en
 - If an issue has many unknowns, we can break it into two issues. The first issue is for research, also referred to as a [Spike](https://en.wikipedia.org/wiki/Spike_(software_development)), where we de-risk the unknowns and explore potential solutions. The second issue is for the implementation.
 - If an initial estimate is incorrect and needs to be adjusted, we revise the estimate immediately and inform the Product Manager. The Product Manager and team will decide if a milestone commitment needs to be adjusted.
 
+## Technical exploration ("Spike") guidelines
+
+Occasionally, the team will be asked to dedicate time to exploring or "spiking" a technical solution to a problem or opporunity area deemed a priority by Growth PM. Technical spikes are fundamentally different than our typical work items as the result is more commonly a recommendation on a technical direction or solution (in the form of additional epics and/or issues) rather than code, yet they still require dedicated developer focus and should be accounted for in our development workflows. As such, we've determined the following guidelines and responsibilities for individual Growth Engineers to follow when addressing a techincal spike in our workflow:
+
+Note: As of Q2 FY25, technical spikes will follow the same workflow process as code-based issues - they will enter `~workflow::refinement`, then be scheduled and prioritized for pick up in `~workflow::ready for development`. Active technical spike work will be represented in `~workflow::in dev`. Once outputs are completed, the technical spike issue will be closed and moved to `~workflow::complete`.
+
+**Inputs**
+
+As a technical spike is prioritized and available for pickup in `~workflow::ready for development`, complete the following steps:
+
+- Assign yourself to the technical spike along with the current milestone
+- Connect with the responsible PM to align on a reasonable due date for the technical spike. Duration will be dependent on the subject matter and Growth's familiarity with the topic.
+- Once determined, assign a due date.
+- Review the contents of the technical spike issue body. Add a comment to clarify outstanding questions with the responsible PM. This is a great time to highlight potential needs for cross-collaboration with other teams or code or Product subject matter experts, or other inputs you feel will be important to the technical spike.
+- If possible, add a comment with a proposed plan for how you intend to address the spike and whether any PM checkpoints, etc. would be desired.
+**During the technical spike investigation period**
+
+- Communicate any relevant learnings or discoveries that could impact duration or scope needed for the spike with the responsible PM
+- If you are nearing the assigned due date and will be in need of more time for the investigation, reach out to the responsible PM to align on next steps
+
+**Outputs**
+
+As the technical spike work comes to a completion, complete the following steps to close out the spike process:
+
+- Provide a summary comment with detailed learnings of your investigation and recommended path(s) for the solution in the spike issue. Include an outline of the recommended next step issues and/or epics to be created for the next phase of work.
+- Tag in the responsible PM, EM, and Growth Engineering team (`@gitlab-org/growth/engineering` team) for review.
+- Confirm with the responsible PM that the spike requirements have been met within the alotted duration time.
+- Move the technical spike issue to `~workflow::complete`.
+- Close the technical spike issue.
+
 ### UX
+
 Info on the Growth UX team and how they work can be found on the [Product/Growth page](/handbook/product/growth/#ux).
 
 ### How We Use Issues
@@ -158,7 +197,7 @@ To support [Iteration](/handbook/values/#iteration) Growth engineering:
 
 #### Status Updates
 
-The DRI (assignee) of an issue is encouraged to add an async issue update, particularly for issues labelled `~Deliverable` or `~Stretch`.
+The DRI (assignee) of an issue is encouraged to add an async issue update, particularly for issues labeled `~Deliverable` or `~Stretch`.
 These updates can be added anytime and are useful to highlight when an issue is on track, blocked, or may need to be re-prioritized.
 This helps us maintain [transparency](/handbook/values/#transparency) and our [bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication).
 
@@ -181,11 +220,11 @@ Async issue update
 
 The Growth groups regularly run experiments to test product hypothesis.
 
-- Read about the [experimentation process](./experimentation).
+- Read about the [experimentation process](experimentation/).
 - View the [developer documentation](https://docs.gitlab.com/ee/development/experiment_guide/)
 - View slides for the [Experimentation Workshop](https://docs.google.com/presentation/d/1nmStWChWkYad9K-dced9wS4jS7XLIrHB-WKafc7jrMU/)
 
-GitLab team members are welcome to attend the [Growth Stage Engineering Weekly](#growth-engineering-weekly) meetings
+GitLab team members are welcome to attend the Growth Stage Engineering Weekly meetings
 to connect with growth team members and find out more about running experiments at GitLab.
 
 ### Growth Metrics
@@ -195,13 +234,12 @@ The Growth stage tracks number of experiments deployed as a development metric. 
 New experiments added to the codebase using [experiment feature flags](https://docs.gitlab.com/ee/development/feature_flags/#experiment-type) are tracked until removal.
 Current experiments shows the total number of experiments in the codebase (pending, active, or concluded and ready to be removed).
 
-
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Experimentscadenceandcurrentexperimentsdeployed/Experimentscadenceandcurrentexperimentsdeployed" >}}
 {{< /tableau >}}
 
 #### Growth Section Metrics
 
-Complete list of [Growth Section engineering metrics].
+Complete list of [Growth Section engineering metrics](/handbook/engineering/metrics/growth/).
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "SECTION_LABEL"="growth" >}}
@@ -215,27 +253,17 @@ Complete list of [Growth Section engineering metrics].
 
 On occasion we hold virtual team days or meetings to take a break and participate in fun, social activities with our Growth counterparts.
 
-* [FY23-Q2 2022](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/625)
-* [December 2021](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/522)
-* [April 2021](https://gitlab.com/gitlab-org/growth/product/-/issues/1675)
-* [September 2020](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/175)
-* [May 2020](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/119)
+- [FY23-Q2 2022](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/625)
+- [December 2021](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/522)
+- [April 2021](https://gitlab.com/gitlab-org/growth/product/-/issues/1675)
+- [September 2020](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/175)
+- [May 2020](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/119)
 
 ## Common Links
 
-* [Growth stage]
-* [Growth workflow board]
-* `#s_growth` in [Slack](https://gitlab.slack.com/archives/s_growth) (GitLab internal)
-* [Growth opportunities]
-* [Growth meetings and agendas] (GitLab internal)
-* [GitLab values]
-
-[Experiment idea]: https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experiment%20Idea
-
-[GitLab values]: /handbook/values/
-[Growth stage]: /handbook/engineering/development/growth/
-[Growth workflow board]: https://gitlab.com/groups/gitlab-org/-/boards/4152639
-[Growth opportunities]: https://gitlab.com/gitlab-org/growth/product/-/issues
-[Growth meetings and agendas]: https://drive.google.com/drive/search?q=type:document%20title:%22Growth%20Weekly%22
-[Growth section engineering metrics]: /handbook/engineering/metrics/growth/
-[Growth OKRs]: https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Growth%20Sub-Department&label_name[]=OKR
+- [Growth stage](/handbook/engineering/development/growth/)
+- [Growth workflow board](https://gitlab.com/groups/gitlab-org/-/boards/4152639)
+- `#s_growth` in [Slack](https://gitlab.slack.com/archives/s_growth) (GitLab internal)
+- [Growth opportunities](https://gitlab.com/gitlab-org/growth/product/-/issues)
+- [Growth meetings and agendas](https://drive.google.com/drive/search?q=type:document%20title:%22Growth%20Weekly%22) (GitLab internal)
+- [GitLab values](/handbook/values/)

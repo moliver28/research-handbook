@@ -23,7 +23,7 @@ The Provision project management process inherits from the general Fulfillment [
 
 ### Planning
 
-The milestone planning process is built around [planning issues](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=Planning%20Issue&label_name%5B%5D=group%3A%3Aprovision) for the milestone, these issue outlines what issues will will be worked on in the upcoming milestone, how those issues are prioritized, commentary on how that fits with over arching goals, and how the proposed work fits in the capacity for the next month. The Provision team use [this template](https://gitlab.com/gitlab-org/fulfillment-meta/-/blob/master/.gitlab/issue_templates/provision_planning.md) for it's planning issues.
+The milestone planning process is built around [planning issues](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=Planning%20Issue&label_name%5B%5D=group%3A%3Aprovision) for the milestone, these issue outlines what issues will be worked on in the upcoming milestone, how those issues are prioritized, commentary on how that fits with over arching goals, and how the proposed work fits in the capacity for the next month. The Provision team use [this template](https://gitlab.com/gitlab-org/fulfillment-meta/-/blob/master/.gitlab/issue_templates/provision_planning.md) for it's planning issues.
 
 #### Planning Timeline
 
@@ -38,6 +38,7 @@ The team Engineering Manager and their Product Management counter part are respo
 #### Refinement
 
 The refinement process aims to ensure that all planned work can be completed within the scheduled milestone. During the refinement phase issues are distributed to engineers to answer three questions:
+
 - Are there any open questions that prevent this issue from being marked as `workflow::ready for development`?
 - Are there any design problems that could lead to predictable blockers coming up while implementing this issue?
 - What weight estimate would you give for this issue?
@@ -47,6 +48,7 @@ Clearing foreseeable blockers helps to ensure that all scheduled work can comple
 ### Capacity Planning
 
 The Provision team is primarily a development team, however given the nature of the team's work there are additional operational concerns that routinely take team member's time away from purely development tasks. The main recurring tasks that take team member time are:
+
 - [Monitoring the Provision Tracking System](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/provision_tracking_system/failure_monitoring.md)
 - [Monitoring Sentry for integration related errors](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/process/salesforce_and_zuora_sentry_issue_monitor.md)
 - Triaging licensing issues impacting customers
@@ -64,11 +66,10 @@ In the spirit of [Iteration](/handbook/values/#iteration)and [Collaboration](/ha
 Points of weight delivered by the team on the last milestones. This allows for more accurate estimation of what we can deliver
 in future milestones. Full chart [to be migrated](https://gitlab.com/gitlab-data/tableau/-/issues/685).
 
-
 ## Performance Indicators
 
 {{< engineering/child-dashboards filters="Provision" >}}
 
-##### OKRs
+### OKRs
 
 The Engineering Manager will report on the progress of [OKRs](/handbook/company/okrs/) every two weeks. Current OKRs: [FY22-Q1](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/10680)

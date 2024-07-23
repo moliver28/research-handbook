@@ -1,13 +1,6 @@
 ---
-
 title: "Questions & Techniques for Success Plan Discovery"
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -23,11 +16,11 @@ Asking open-ended questions is the most effective way to get clarity from the cu
 *E* Explain for me...
 *D* Describe for me...
 
-## “Where do we go from here?”
+## "Where do we go from here?"
 
 The most straightforward and open-ended approach to starting a conversation about stage adoption, growth, and strategic objectives is something to the effect of:
 
-> "So I know right now you're using [[use cases](/handbook/use-cases/) in use, such as SCM, CI, etc.] - where can we go from here to maximize your success and value?"
+> "So I know right now you're using [[use cases](/handbook/marketing/use-cases/) in use, such as SCM, CI, etc.] - where can we go from here to maximize your success and value?"
 
 This question creates an opening to explore driving additional value for the customer, with the customer leading.  From here, we can explore with the customer use cases or features they're interested in knowing more about, business problems they could solve using GitLab, or anything else related to GitLab or DevSecOps. This one question also sets you up for more targeted follow-ups.
 
@@ -41,28 +34,28 @@ Instead of asking about GitLab and how GitLab might help them, turn the conversa
 
 When you already have some information in your Success Plan but have identified gaps in your knowledge, you can approach the conversation as a periodic review to make sure everyone is on the same page.
 
-- “I’d like to understand better [item already in success plan or command plan], can you tell me more about the problem and the outcome you’re looking for?”
-- “It’s been a few months since we reviewed the main objectives you have. Can we take a few minutes to go over those and make sure I’m aligned with your current objectives?”
-- “Over the last couple of conversations you mentioned [topic or focus from prior meeting(s)], can we talk some more about that?”
+- "I'd like to understand better [item already in success plan or command plan], can you tell me more about the problem and the outcome you're looking for?"
+- "It's been a few months since we reviewed the main objectives you have. Can we take a few minutes to go over those and make sure I'm aligned with your current objectives?"
+- "Over the last couple of conversations you mentioned [topic or focus from prior meeting(s)], can we talk some more about that?"
 
-Once you’ve opened the conversation, use some other techniques to gather details, and level up to strategic objectives.
+Once you've opened the conversation, use some other techniques to gather details, and level up to strategic objectives.
 
 ## Commiseration/Empathy
 
-If you have a good relationship with your champion, you can appeal to a shared feeling of “we all have a job to do” in explaining that you need to gather some information about how their business operates and what they’re focused on.  This approach works well if suddenly asking goal questions within your standard cadence calls could seem awkward.
+If you have a good relationship with your champion, you can appeal to a shared feeling of "we all have a job to do" in explaining that you need to gather some information about how their business operates and what they're focused on.  This approach works well if suddenly asking goal questions within your standard cadence calls could seem awkward.
 
-- “I have some questions I need to ask so I can fill out some paperwork about what you’re focused on. You know how it goes!”
-- “My manager is telling me I need to fill out some information about my customers - I’m sure you know how that goes - so I have a few questions I’d like to ask.”
+- "I have some questions I need to ask so I can fill out some paperwork about what you're focused on. You know how it goes!"
+- "My manager is telling me I need to fill out some information about my customers - I'm sure you know how that goes - so I have a few questions I'd like to ask."
 
-Once you’ve opened the conversation, use some of the other techniques to gather details and level up to strategic objectives.
+Once you've opened the conversation, use some of the other techniques to gather details and level up to strategic objectives.
 
-## “Day in the Life”
+## "Day in the Life"
 
-Asking about developer or team workflows is a good way to better understand a customer’s current toolchain and SDLC process. This is useful in developing a plan to drive stage adoption, and to ask about pain points, [metrics](/handbook/sales/command-of-the-message/metrics/#connect-metrics-with-positive-business-outcomes), and dig towards business outcomes.
+Asking about developer or team workflows is a good way to better understand a customer's current toolchain and SDLC process. This is useful in developing a plan to drive stage adoption, and to ask about pain points, [metrics](/handbook/sales/command-of-the-message/metrics/#connect-metrics-with-positive-business-outcomes), and dig towards business outcomes.
 
-- “Take me through the workflow of an average developer. What tools are they using? How long does it take for them to go from starting a feature to submitting the merge request?”
-- “What are the bottlenecks you see in your current processes?”
-- “What areas of improvement are you most focused on in your SDLC?”
+- "Take me through the workflow of an average developer. What tools are they using? How long does it take for them to go from starting a feature to submitting the merge request?"
+- "What are the bottlenecks you see in your current processes?"
+- "What areas of improvement are you most focused on in your SDLC?"
 
 ## Metrics Based Questions
 
@@ -85,7 +78,7 @@ Ask the customers the following questions that tie back to [our three Value Driv
    - If not, why not?
    - If yes, how much time and money has this saved for you?
 1. Are there any other metrics that you measure or that you want to measure?
-1. What’s important to you and how can GitLab help measure that?
+1. What's important to you and how can GitLab help measure that?
 
 ## Stage Adoption
 
@@ -148,18 +141,18 @@ We also want to ask about Stage Adoption metrics so that we can tie their GitLab
 
 ## Short/Medium/Long Term Priorities
 
-Asking the customer to rank their team’s main focuses on a timeline makes it easier to prioritize your efforts. It also sets you up for follow-up questions about what is driving those priorities, and how they are related to strategic objectives.
+Asking the customer to rank their team's main focuses on a timeline makes it easier to prioritize your efforts. It also sets you up for follow-up questions about what is driving those priorities, and how they are related to strategic objectives.
 
-- “What are you most focused on for the next [3/6/12/24] months?”
-- “What are your most immediate goals to improve your DevOps processes?”
-- “What are your long-term objectives for your organization’s DevOps and SDLC?”
+- "What are you most focused on for the next [3/6/12/24] months?"
+- "What are your most immediate goals to improve your DevOps processes?"
+- "What are your long-term objectives for your organization's DevOps and SDLC?"
 
 ## Higher Level Priorities
 
-It can be helpful to ask what your champion’s manager or department is focused on, since it can help move you towards strategic objectives.
+It can be helpful to ask what your champion's manager or department is focused on, since it can help move you towards strategic objectives.
 
-- “What are your department’s main objectives for the year?”
-- “What is the highest priority goal that your company has to improve the SDLC/DevOps process? What do you see as the biggest challenge to achieving that goal?”
+- "What are your department's main objectives for the year?"
+- "What is the highest priority goal that your company has to improve the SDLC/DevOps process? What do you see as the biggest challenge to achieving that goal?"
 
 ## Leveling Up from Operational/Technical to Strategic
 
@@ -184,7 +177,7 @@ Here are some questions you can ask to get to the right person:
 
 ## Five Whys
 
-Frequently when talking to our champion or their team, the things they will tell you they’re focused on are operational or technical concerns, but aren’t strategic business outcomes. One technique that can be used is the [5 Whys](https://en.wikipedia.org/wiki/Five_whys). The basic overview of this technique is that when a customer tells you a focus or goal, you can get to the strategic objectives behind this focus why asking "help me better understand why that focus is important?" or something along these lines. On average, asking a "dig deeper" question takes 5 "rounds" as such before you get to the core problem, or in our case strategic initiative.
+Frequently when talking to our champion or their team, the things they will tell you they're focused on are operational or technical concerns, but aren't strategic business outcomes. One technique that can be used is the [5 Whys](https://en.wikipedia.org/wiki/Five_whys). The basic overview of this technique is that when a customer tells you a focus or goal, you can get to the strategic objectives behind this focus why asking "help me better understand why that focus is important?" or something along these lines. On average, asking a "dig deeper" question takes 5 "rounds" as such before you get to the core problem, or in our case strategic initiative.
 
 For example:
 
@@ -212,7 +205,6 @@ By asking additional "why does this matter?" questions after the initial mention
 
 If you'd like to see more examples of how to use the Five Whys framework and what it could look like in practice, take a look at the [Five Whys breakout session from SKO 2021](https://gitlab.edcast.com/insights/breakout-leveling).
 
-
 ## Examples
 
 ### Customer meeting about DORA Metrics with GitLab
@@ -228,7 +220,3 @@ One of our customers has asked to have a meeting to understand what GitLab can o
 - Are there additional tools involved? Which ones?
 - Would API/export CSV from GitLab help display all data in one place?
 - What other metrics you interested in? (i.e., developers' performance, the time between releases, etc.)
-
-
-
-

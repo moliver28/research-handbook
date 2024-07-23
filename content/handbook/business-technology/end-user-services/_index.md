@@ -1,5 +1,4 @@
 ---
-
 title: "End User Services"
 ---
 
@@ -15,7 +14,7 @@ title: "End User Services"
 
 ## <i class="fas fa-info-circle" id="biz-tech-icons"></i> Frequently visited pages
 
-#### Access Requests
+### Access Requests
 
 - For information about the access request policies and security guidelines, please refer to the Security Team's [access request handbook page section](/handbook/security/#access-management-process).
 
@@ -93,7 +92,7 @@ To learn more on how this automation works, check the [IT-Help Slack Issue Creat
 
 ## <i class="fas fa-rocket" id="biz-tech-icons"></i> Mission Statement
 
-#### IT Help
+### IT Help
 
 - IT Help will triage all IT related questions as they arise.
 
@@ -161,7 +160,7 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 
 - IT Analyst EMEA - Eoghan Dunne, edunne-ext@gitlab.com, @edunne-ext
 
-- System Administrator - [Mohammed Al Kobaisy](/handbook/company/team/#malkobaisy), malkobaisy@gitlab.com, @malkobaisy
+- IT Systems Engineer - [Mohammed Al Kobaisy](/handbook/company/team/#malkobaisy), malkobaisy@gitlab.com, @malkobaisy
 
 - Senior IT Systems Engineer -  [Dillon Wheeler](/handbook/company/team/#dillonwheeler), dwheeler@gitlab.com, @dillonwheeler
 

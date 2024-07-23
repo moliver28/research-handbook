@@ -1,14 +1,7 @@
 ---
-
 title: "CSM Quarterly Business Review"
 description: "Instructions for CSM Managers on presenting their QBR decks."
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 

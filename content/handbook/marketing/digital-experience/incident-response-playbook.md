@@ -1,9 +1,7 @@
 ---
-
 title: "Incident Response Matrix"
 description: "A guide for incidents that may occur on the Marketing site"
 ---
-
 
 ## Overview
 
@@ -11,10 +9,9 @@ This page offers insights into incidents occurring on the GitLab marketing site,
 
 At the outset, it's important to note the diverse composition of our marketing site, consisting of multiple projects. While all deployments converge into the same GCP bucket, they employ varying technologies for website generation.
 
-1. The Marketing site is composed of multiple repositories: the [blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog), [www](https://gitlab.com/gitlab-com/www-gitlab-com), [navigation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation), [slippers](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui) and [buyer experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience). 
+1. The Marketing site is composed of multiple repositories: the [blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog), [www](https://gitlab.com/gitlab-com/www-gitlab-com), [navigation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation), [slippers](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui) and [buyer experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience).
 
 1. www-gitlab-com, Buyer Experience, and the Blog generate pages during the build process and upload these artifacts to a single GCP bucket. Upon pipeline execution, all artifacts are consolidated within the `/public` directory on our GCP bucket.
-
 
 ### What level is this incident?
 
@@ -85,18 +82,16 @@ The following are the questions to consider when determining incident severity:
     3. Pacific Timezone (UTC−8):
         1. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
 
-## If there is a critical stop business 
-
-Please text the following in order (numbers are in Slack profiles):
-
-1. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
-1. [Carrie Maynard](https://gitlab.enterprise.slack.com/archives/D03RZD1F2JV)
-
 _Call on the phone if no response within 15 minutes_
 
-## **Coming soon** - PagerDuty + GitLab Incidents
+## PagerDuty
 
-1. Post in the #digital-experience Slack channel and tag @digital-experience.
-2. If there is no response within five minutes, report an incident by typing `/dex incident` anywhere in Slack.
-3. This will create an incident and notify PagerDuty to alert members of the Digital Experience team.
-4. PagerDuty will continuously escalate until contact with a team member has been made.
+In the case of an emergency, Digital Expereince Engineers have the ability to create a pager duty incident and trigger alerts on each others mobile devices. These pager duty incidents can also be triggered by GitLab team members with access to Pager Duty (IT Security, Reliability, SIRT, ect)
+
+To trigger a pager duty incident for the Digital Experince team following these steps:
+
+1. Report an incident by typing `/pd trigger` anywhere in Slack.
+2. Select `about.gitlab.com` as the impacted service
+3. Complete fields - priority, description, Urgency
+4. This will create an incident and notify PagerDuty to alert members of the Digital Experience team.
+5. PagerDuty will continuously escalate until contact with a team member has been made.

@@ -15,7 +15,7 @@ The mission of the generational understanding [TMRG]({{< ref "erg-guide" >}}) is
 
 ## How to Join
 
-- Please sign up for the [Generational Understanding Google Group](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) to be added to the Generational Understanding TMRG. This will ensure you’re added to upcoming TMRG calendar events. It might take up to 24 hours before the calendar events appear on your calendar. If there is an event happening within 24 hours of you joining the Google Group, please post in the [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100) Slack channel to be added manually.
+- Please sign up for the [Generational Understanding Google Group](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) to be added to the Generational Understanding TMRG. This will ensure you're added to upcoming TMRG calendar events. It might take up to 24 hours before the calendar events appear on your calendar. If there is an event happening within 24 hours of you joining the Google Group, please post in the [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100) Slack channel to be added manually.
 - Join the [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100) Slack channel for conversation, announcements, and connecting with other TMRG members. Feel welcome to introduce yourself in the channel when you join!
 
 ## Activities
@@ -77,7 +77,7 @@ Links to interesting handbook pages, articles, books, and training
 - [U.S. Equal Employment Opportunity Commission: Age Discrimination](https://www.eeoc.gov/age-discrimination)
 - [Psychology Today:"Young People Are Just Smarter"](https://www.psychologytoday.com/us/blog/boomers-30/201710/young-people-are-just-smarter)
 - [How to protect yourself from ageist attitudes](https://www.theguardian.com/careers/2017/apr/27/how-to-protect-yourself-from-ageist-attitudes)
-- [How older workers get sidelined in tech](https://www.protocol.com/workplace/ageism-tech-workers)
+- [How older workers get sidelined in tech](https://web.archive.org/web/20240223232547/https://www.protocol.com/workplace/ageism-tech-workers)
 
 ### Training resources
 

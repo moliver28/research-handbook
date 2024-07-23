@@ -1,11 +1,8 @@
 ---
-
 title: Working on a promotion
 category: Support Team
 description: Process for submitting a promotions request
 ---
-
-
 
 ## Overview
 
@@ -39,9 +36,7 @@ the expected competencies for the role as laid out in:
 
 ### Feedback process for promotion to Staff+ roles
 
-Promotion to a Staff role or higher requires completion of a Feedback process in addition to completing a promotion document.  This requires you to nominate 2-3 people who will provide feedback to the promotion approval process in the form of Start, Stop, Continue, and a general statement about their support for your promotion. Familiarise yourself with this process in the [Engineering Promotion Feedback](/handbook/people-group/promotions-transfers/#engineering-promotion-feedback-pilot) section of the handbook.
-
-Work with your manager to determine who these people will be. It is likely that they will need to provide the feedback before your promotion document is complete, as both the promotion document and the feedback summary are typically due for submission at a similar time. The nominee input is based on what they have observed while working with you and is not dependent on your promotion document being in a final state.
+In the FY25-Q1 promotion cycle, a feedback portion was required for Staff+ promotions.  For the FY25-Q3 cycle this has been removed. It may be introduced in a future cycle. For more information, see [FY25 CTO Org promo guidance](/handbook/people-group/promotions-transfers/#fy25-cto-org-promo-guidance).
 
 ## In-Progress Promotion Documents
 

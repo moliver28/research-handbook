@@ -3,15 +3,6 @@ title: Community pairing sessions
 description: Informations and guidelines about community pairing sessions
 ---
 
-
-
-
-
-
-
-
-
-
 ---
 
 ## Community pairing sessions

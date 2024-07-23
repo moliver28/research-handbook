@@ -34,7 +34,6 @@ service_maturity.yml \
 services.yml \
 stages.yml \
 tech_stack.yml \
-ux_showcase.yml \
 "
 
 for file in $data_files; do

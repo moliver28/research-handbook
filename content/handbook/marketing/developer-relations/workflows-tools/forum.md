@@ -1,13 +1,6 @@
 ---
-
 title: "Forum workflow"
 ---
-
-
-
-
-
-
 
 ## Users
 
@@ -41,10 +34,9 @@ If you see a community member volunteering their time to help another community 
 
 ### Flagging Inappropriate Content
 
-If any GitLab team member sees a forum post that is inappropriate, abusive, spam, or a violation of our code of conduct, please flag the post by clicking the flag icon. The post is automatically hidden from public viewing and added to the [moderation](#moderation) queue for review. If the flagging action requires more context or immediate actions, contact [admins](https://forum.gitlab.com/about) in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel. 
+If any GitLab team member sees a forum post that is inappropriate, abusive, spam, or a violation of our code of conduct, please flag the post by clicking the flag icon. The post is automatically hidden from public viewing and added to the [moderation](#moderation) queue for review. If the flagging action requires more context or immediate actions, contact [admins](https://forum.gitlab.com/about) in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel.
 
 If immediate action to hide or redact private information is required, flag the post and then ping one of the [admins](https://forum.gitlab.com/about) in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel.
-
 
 ## Best Practices
 
@@ -86,7 +78,6 @@ When the user account looks suspicious, these tips can help with verification:
 - With admin permissions:
   - On the user profile, open the admin interface. Inspect the user profile's IP address with the Discourse built-in Whois lookup including geo location. When in doubt, use a search engine with `whois <IP address>` and also verify the ASN and its ISP. Sometimes a google search unveils them belonging to a fraud friendly environment, or other insightful details.
 
-
 ### Moderator Specific Permissions
 
 [Click this link to view the Moderator Quick Start guide.](https://forum.gitlab.com/t/read-me-moderator-quick-start-guide/39564)
@@ -126,26 +117,26 @@ Sometimes users will accidentally post private information like license or API k
 
 **Instructions**
 
-If you need to edit a user’s post for whatever reason, please private message the user in the forum letting them know that you have done so, and the reason why.
+If you need to edit a user's post for whatever reason, please private message the user in the forum letting them know that you have done so, and the reason why.
 
 Click the ellipsis in the small grey toolbar on the post > click the pencil icon.
 
 **Instructions For Sending a Private Message**
 
-1. Click the user’s avatar icon, user card will appear
+1. Click the user's avatar icon, user card will appear
 2. Click the `message` button on the user card to draft private message
 
 The edit history diff is only visible to moderators.
 
 ##### Viewing email addresses
 
-For the sake of anonymity, only Forum Moderators can see the email address associated with a forum user’s account.
+For the sake of anonymity, only Forum Moderators can see the email address associated with a forum user's account.
 
 **Instructions*
 
-1. Click the user’s avatar icon, user card will appear
-2. Click the avatar icon on the user card to navigate to the user’s profile
-3. Click the `show` button in the user’s profile
+1. Click the user's avatar icon, user card will appear
+2. Click the avatar icon on the user card to navigate to the user's profile
+3. Click the `show` button in the user's profile
 
 ##### Drafting in/using the private Staff Category
 
@@ -161,7 +152,7 @@ Click the ellipsis in the small grey toolbar on the post > click the trash can i
 
 ##### Moving Posts To a New Thread
 
-It’s not uncommon that moderators will feel the need to move new posts out of old threads, or move posts to their own topic altogether. Please move new posts out of old topics when users try to bring topics a year or older back to life.
+It's not uncommon that moderators will feel the need to move new posts out of old threads, or move posts to their own topic altogether. Please move new posts out of old topics when users try to bring topics a year or older back to life.
 
 **Instructions**
 
@@ -306,7 +297,6 @@ Discourse uses [trust levels](https://meta.discourse.org/t/trust-level-permissio
 - Members with trust level 2 have spent time on the forum, helped users with responses, receive and give likes, and read more about GitLab topics.
 - Trust level 3 as a regular user means becoming a GitLab community evangelist with visiting often, leading the path with helpful responses, engaging with likes and feeling energized.
 - Leaders with trust level 4 have earned their trust by staff team member nomination, helping with questions, engaging with likes, flagging posts to moderators, lending a hand to new users, and overall collaborate closely with GitLab team members.
-
 
 ##### Nomination for Trust Level 4
 

@@ -1,13 +1,6 @@
 ---
-
 title: "Developer Relations: Program Resources"
 ---
-
-
-
-
-
-
 
 ## Contact e-mails
 
@@ -55,6 +48,7 @@ Each e-mail's inbox is also connected to Zendesk for visibility and to enable co
 1. Once the list is generated and initial program email is sent, the Developer Relations DRI for outreach emails will receive access to Marketo and permission to send email campaigns to the above specified list. The Developer Relations DRI will use the initial email as a template to stage and send all future outreach emails.
 
 The following protocols must be follow:
+
 1. Developer Relations program outreach emails will only be sent by the DRI using the initial program email as a template.
 1. Developer Relations program outreach emails will only be sent at a maximum frequency of once a month.
 1. Developer Relations program outreach emails will only contain content relevant **directly** the Developer Relations Program. Content can include: call to action to engage, announcements regarding program requirements or terms, or newsletter type content.

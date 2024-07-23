@@ -29,9 +29,9 @@ Review is **always** required for:
 - External materials which quote, or are written in the name of, the CEO; CFO; CLO; CRO; CTO; VP, Investor Relations; or a member of the [Board of Directors](/handbook/company/team/board-of-directors);
 - Quarterly and year-end earnings reports, and materials which include financial data that has not been publicly disclosed, or a variation previously disclosed financial data;
 - Materials relating to:
-   - Mergers and acquisitions, including spin outs, investments, or acqui-hires;
-   - Executive or other material organizational or management changes; or
-   - The announcement or release of new products material to GitLab.
+  - Mergers and acquisitions, including spin outs, investments, or acqui-hires;
+  - Executive or other material organizational or management changes; or
+  - The announcement or release of new products material to GitLab.
 - Social media posts that include earnings reports, financial data not yet publicly disclosed, a variation of previously disclosed financial data, or items relating to mergers and acquisitions (including spin outs, investments, or acqui-hires), and disclosing material nonpublic informations (e.g., material management changes, material product releases etc.).
 
 ### Excluded from review
@@ -39,10 +39,10 @@ Review is **always** required for:
 This process should never be used for:
 
 - NDAs, contracts, or other commercial agreements which should instead be routed through the [Commercial Legal Team](/handbook/legal/commercial/#how-to-work-with-gitlab-legal-commercial).
-- [AMAs](/handbook/communication/ask-me-anything/), [Key Review](/handbook/key-review/) meetings, and [Group Conversations](/handbook/group-conversations/) streamed or published [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered. However, these recordings should not be streamed or published if they contain material non-public information, confidential information, or are required to be kept SAFE;
+- [AMAs](/handbook/communication/ask-me-anything/), [Key Review](/handbook/company/key-review/) meetings, and [Group Conversations](/handbook/company/group-conversations/) streamed or published [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered. However, these recordings should not be streamed or published if they contain material non-public information, confidential information, or are required to be kept SAFE;
 - External or internal handbook updates;
 - GitLab issues or merge requests; nor
-- Internal or external communications prepared in relation to a contentious issue that undermines a critical attribute of our company’s brand and challenges its reputation or impacts, or has the potential to impact, the safety or wellbeing of our team-members which should instead follow the [GitLab Incident Communications Plan](/handbook/marketing/corporate-communications/incident-communications-plan/).
+- Internal or external communications prepared in relation to a contentious issue that undermines a critical attribute of our company's brand and challenges its reputation or impacts, or has the potential to impact, the safety or well-being of our team-members which should instead follow the [GitLab Incident Communications Plan](/handbook/marketing/corporate-communications/incident-communications-plan/).
 
 The Legal & Corporate Affairs Team will not review materials sent in Slack because [Slack should not be used for obtaining approval](/handbook/communication/#slack); follow this Materials Legal Review Process instead.
 

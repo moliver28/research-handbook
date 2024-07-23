@@ -1,9 +1,7 @@
 ---
-
 title: SA Manager Operating Rhythm
 description: "This page provides an overview on relevant SA Managers processes. The SA Manager role is made up of pillars: Managing the Business and Managing the Team."
 ---
-
 
 View the [SA Handbook homepage](/handbook/solutions-architects/) for additional SA-related handbook pages.
 
@@ -25,7 +23,7 @@ It increases efficiecies towards the achievement of regional goals and objective
 
 ### Deliberate Practice
 
-Deliberate practice allows the team to sharpen their skills and continue delivering deal-winning engagements. The SA Manager needs to support ongoing role play exercises and dry-runs for key accounts. This includes facilitating sessions, helping the team make this a priority, and ensure the team is adhering to key delivery methodologies, including MEDDPPICC and Demo2Win. Important tools include Google Slides, Role Plays, and the [wheel of Names](http://weelofnames.com/).
+Deliberate practice allows the team to sharpen their skills and continue delivering deal-winning engagements. The SA Manager needs to support ongoing role play exercises and dry-runs for key accounts. This includes facilitating sessions, helping the team make this a priority, and ensure the team is adhering to key delivery methodologies, including MEDDPPICC and Demo2Win. Important tools include Google Slides, Role Plays, and the [picker wheel](https://pickerwheel.com/).
 
 ### Regular Syncs with ASM
 
@@ -93,7 +91,7 @@ The quarterly sit down (QSD) structure ([template](https://docs.google.com/docum
 
 This is to be done on a quarterly basis and aims to bring better alignment and more visibility between the direct report and manager.
 
-Each section is to be used to capture what the Direct Report and the Manager have perceived as the Direct Report’s accomplishments, goals, etc… with the intent of sharing these section by section during the QSD. Each area will be read aloud (no screen sharing) which gives the recipient a chance to listen and write down what they hear. Neither is to see the others’ sheet until after the meeting is finished. This conversation format helps surface differences in perception or disagreements and opens useful conversations about future priorities or areas of growth.
+Each section is to be used to capture what the Direct Report and the Manager have perceived as the Direct Report's accomplishments, goals, etc… with the intent of sharing these section by section during the QSD. Each area will be read aloud (no screen sharing) which gives the recipient a chance to listen and write down what they hear. Neither is to see the others' sheet until after the meeting is finished. This conversation format helps surface differences in perception or disagreements and opens useful conversations about future priorities or areas of growth.
 
 At the conclusion of the Quarterly Sit Down, it is valuable to review the gaps between each list and then share the document out in a read-only format with each other.
 
@@ -117,7 +115,7 @@ GitLab has a dedicated #thanks Slack channel where team members are encouraged t
 
 It may be good practice as well to keep a running log of the accomplishments of your team members (e.g. screenshots from the #thanks channel, notes from AEs, ASMs, etc...). An easy way to do this is in a dedicated section of the individual One-on-One documents you keep for each of them or the SA can collect them in their Individual Growth Plan document. Having this information in a consolidated place with assist you greatly come review time or when that team member is ready for promotion.
 
-Recognition can also be realized in the form of [Discretionary Bonuses](/handbook/incentives/#discretionary-bonuses). This is an amazing incentive and benefit that GitLab provides for those team members that are going above and beyond. Once you as a manager receive the nomination in Slack via the Nominator app, make sure you approve or deny based on the [Approval Criteria](/handbook/incentives/#valid-and-invalid-criteria-for-discretionary-bonuses). You will also have an option to update the nomination text at this step. After you approved, there are two more approvals from the 2nd Level Manager and People Team. When your team member is approved for a bonus it is up to you to make the announcement in the #thanks Slack channel. Again, when doing so, please ensure you add the `@sa_leaders` Slack group as part of the message. As a regular part of your meetings with the ASMs you support, ensure that they and their teams know how to log a discretionary bonus should one be warranted.
+Recognition can also be realized in the form of [Discretionary Bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses). This is an amazing incentive and benefit that GitLab provides for those team members that are going above and beyond. Once you as a manager receive the nomination in Slack via the Nominator app, make sure you approve or deny based on the [Approval Criteria](/handbook/total-rewards/incentives/#valid-and-invalid-criteria-for-discretionary-bonuses). You will also have an option to update the nomination text at this step. After you approved, there are two more approvals from the 2nd Level Manager and People Team. When your team member is approved for a bonus it is up to you to make the announcement in the #thanks Slack channel. Again, when doing so, please ensure you add the `@sa_leaders` Slack group as part of the message. As a regular part of your meetings with the ASMs you support, ensure that they and their teams know how to log a discretionary bonus should one be warranted.
 
 ### Team Assessment
 

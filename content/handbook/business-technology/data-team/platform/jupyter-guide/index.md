@@ -1,14 +1,7 @@
 ---
-
 title: "Jupyter Guide"
 description: "Guidance on setting up JupyterLab"
 ---
-
-
-
-
-
-
 
 ---
 See related [repository](https://gitlab.com/gitlab-data/data-science)
@@ -18,7 +11,7 @@ See related [repository](https://gitlab.com/gitlab-data/data-science)
 - Full install of JupyterLab with the most useful extensions pre-installed.
 - Common python DS/ML libraries (pandas, scikit-learn, sci-py, etc.)
 - Natively connected to Snowflake using your dbt credentials. No login required!
-- Git functionality: push and pull to Git repos natively within JupyterLab ([requires ssh credentials](https://docs.gitlab.com/ee/ssh/index.html))
+- Git functionality: push and pull to Git repos natively within JupyterLab ([requires ssh credentials](https://docs.gitlab.com/ee/user/ssh.html))
 - Run any python file or notebook on your computer or in a GitLab repo; the files do not have to be in the data-science container.
 - Linting python code using [black](https://pypi.org/project/black/) natively within Jupyter
 - Need a feature you use but don't see? Let us know on [#bt-data-science](https://gitlab.slack.com/archives/C027285JQ4E)!

@@ -1,8 +1,6 @@
 ---
-
 title: Solutions Architects Processes
 ---
-
 
 ## SA Process Maps
 
@@ -84,10 +82,10 @@ Simplified process description:
 
 - Ensure that PS Opportunity has already been created by SAE / AE in SFDC.
 - If it a standard (non-customized) service from our [full catalog](https://about.gitlab.com/services/catalog/).
-    - SAE / AE to order PS directly from Zuora in SFDC.
+  - SAE / AE to order PS directly from Zuora in SFDC.
 - If standard services do not meet the needs of the customer
-    - Use the [Services Calculator](http://services-calculator.gitlab.io/) to generate an issue and a draft quote.
-    - Iterate on that issue with PS and SAE / AE.
+  - Use the [Services Calculator](http://services-calculator.gitlab.io/) to generate an issue and a draft quote.
+  - Iterate on that issue with PS and SAE / AE.
 
 ## Customer Security Assurance
 
@@ -99,8 +97,8 @@ handbook page.
 - You can start with [Security - GitLab Trust Center](https://about.gitlab.com/security/) in some cases.
 - Encourage customers to use and review [Self-service Information Gathering](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
 - SAs can attempt a first-pass for all security questionnaires if time permits
-    - Do it, it’s fun and educational!
-    - You can also make use of the [GitLab AnswerBase](/handbook/security/security-assurance/field-security/answerbase.html) (200+ pre-answered questions)
+  - Do it, it's fun and educational!
+  - You can also make use of the [GitLab's Trust Center](https://trust.gitlab.com/)
 - Additional requests can be made in [#sec-fieldsecurity](https://gitlab.slack.com/archives/CV5A53V70) Slack Channel.
 - When spending time on a security questionnaire ensure you capture the initial time dedicated via our SA Activity Capture system (troops).
 
@@ -195,8 +193,8 @@ The perceived size of a given opportunity is not always reflective of the amount
 When reaching out to engage SAs during opportunity qualification, discovery, and technical evaluations, please provide the below information. This will enable the SAs to accelerate execution, enable success, and promote consistent and quality opportunity outcomes aligned to the varied Sales roles and adopted strategies. The SAs reserve the right to decline the meeting if the below information is missing/not provided after being asked & if the correct personas are not engaged. We will review the exceptions on a case-by-case basis in case the below information is not provided and/or not qualified.
 
 - Please provide active SFDC opportunity ID
-- Please provide link to the the associated and completed Command Plan
-    - Ensure the Why Now?, Identified Pain, and Champion have been captured
+- Please provide link to the associated and completed Command Plan
+  - Ensure the Why Now?, Identified Pain, and Champion have been captured
 - Any additional opportunity information (i.e. company overview and background, initiatives, desired outcomes, personas, etc.)
 - Ensure that any scheduled or planned customer meetings have been discussed with the SA before customer engagement
   - What are we attempting to accomplish within the scheduled meeting?
@@ -214,7 +212,7 @@ Solution Architects should participate in [technical discovery](#technical-disco
 - Prospect Q&A sessions
 - RFI/RFP completion
 - PoV planning, documentation and execution strategy
-- [Security Audits](https://about.gitlab.comhandbook/security/security-assurance/field-security/customer-security-assessment-process.html)
+- [Security Audits](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html)
 - [SOW Scoping with Professional Services](/handbook/customer-success/professional-services-engineering/selling/)
 
 SA's may also work in tandem with a CSM to support existing customers, especially when expand opportunities exist within the account. And SA's may also have regular touch points smaller customers who do not have a CSM assigned.
@@ -231,7 +229,7 @@ The Solutions Architect, in order to tailor conversations and demos to demonstra
 
 1. **Outcome:**
 
-- What’s in it for the client?
+- What's in it for the client?
 - Why look at a new strategy for software development?
 - What triggered the sudden client interest in GitLab?
 
@@ -385,7 +383,7 @@ There is a 5 day SLA in place to secure SA participation.
 
 ## Request Solutions Support from Product
 
-When a prospect or customer have required capabilities that do not map directly to our product offering, Solutions Architect’s first step is to explore solutions or work-arounds that would satisfy their requirements with our current toolset.
+When a prospect or customer have required capabilities that do not map directly to our product offering, Solutions Architect's first step is to explore solutions or work-arounds that would satisfy their requirements with our current toolset.
 If the SA is unable to determine an approach that works for the prospect, the next best action is to reach out to the Product Manager. To determine what Product Manager is appropriate, review the [Product Categories handbook page](/handbook/product/categories/).
 
 To be efficient as possible, this is the recommended approach:

@@ -9,7 +9,6 @@ description: "The Verify Product Group wants to increase sharing, findability, a
   <iframe src="https://www.youtube.com/embed/9iF9zWAxdH0" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-
 ### Intent of this page
 
 The Verify Product Group wants to increase [sharing](/handbook/values/#share), [findability](/handbook/values/#findability), and encourage [bias for async communication](/handbook/values/#bias-towards-asynchronous-communication). We will use this handbook page as forum for showcasing our team processes while also providing an opportunity to encourage a open discussion between team members on our processes for retrospective.
@@ -48,8 +47,8 @@ The noted DRI still owns decision-making and is still responsible for notifying/
 | Runner SaaS |autoscaler|SaaS Runners (Linux, Windows, macOS) and internal GitLab Runner fleet|Runner PM - Gabriel Engel|Runner EM - Nicole Williams| Infrastructure Mgr. - David Smith|
 |Compute Minutes Management for SaaS runners|RAILS|Changes to compute minutes configuration for customers on GitLab SaaS in the scope of SaaS runners.|SaaS runners PM Gabriel Engel|Runner EM - Nicole Williams|N/A|
 |CI Pipeline Execution and Performance|RAILS|Features and capabilities for running or triggering a pipeline in the GitLab UI.|CI PM |CI EM - Cheryl Li|N/A|
-|CI/CD Queueing GitLab SaaS and Self-Managed|RAILS|CI jobs queueing architecture.| Pipeline Execution PM |Lead engineers: Kamil Trzciński , Grzegorz Bizon, Stan Hu|
-|CI/CD Fair Scheduling GitLab SaaS |RAILS|CI jobs fair scheduling architecture and configuration.|Pipeline Execution PM |Lead engineers: Kamil Trzciński , Grzegorz Bizon, Stan Hu|
+|CI/CD Queueing GitLab SaaS and Self-Managed|RAILS|CI jobs queueing architecture.| Pipeline Execution PM |Lead engineers: Kamil Trzciński , Grzegorz Bizon, Stan Hu| |
+|CI/CD Fair Scheduling GitLab SaaS |RAILS|CI jobs fair scheduling architecture and configuration.|Pipeline Execution PM |Lead engineers: Kamil Trzciński , Grzegorz Bizon, Stan Hu| |
 
 ### Workflow
 
@@ -121,4 +120,4 @@ We want to encourage and support our open source community as nuch as possible. 
 1. Merged MRs from the community in the [Verify Stage](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&label_name[]=devops%3A%3Averify&label_name[]=Community%20contribution)
 1. [MRARR](/handbook/engineering/quality/performance-indicators/#mrarr)
 
-Our process for enabling merge requests from the community can be found on the [Verify Team Page]().
+Our process for enabling merge requests from the community can be found on the Verify Team Page.

@@ -36,6 +36,7 @@ still rely on MLFlow client, having user management handled by GitLab, without n
 deployment.
 
 We should also go beyond, and leverage the DevOps Platform to integrate this feature across the platform:
+
 - How can it enhance User Experience on CI/CD, on Merge Requests, on packaging
 - How can the patterns and components that our users are already used to (cross-reference, comments, descriptions) enhance Experiment Tracking
 - How can we use this to manage the entire lifecycle of models within GitLab
@@ -45,7 +46,6 @@ We should also go beyond, and leverage the DevOps Platform to integrate this fea
 ### Available Futures
 
 Demo as of January 16th:
-
 
 <figure class="video_container">
   <iframe width="600" height="340" src="https://www.youtube.com/embed/uxweU4zT40?controls=0"  frameborder="0" allowfullscreen></iframe>
@@ -86,6 +86,7 @@ Experiment Tracking gives Data Scientists a central place to organize, discover 
 and artifacts, making it easier to keep track of the evolution across time.
 
 Some of the common features seen in Experiment Tracking offerings are:
+
 - Log the parameters used to created a Candidate
 - Log the model metrics of each candidate
 - Log additional metadata for each candidate
@@ -93,6 +94,7 @@ Some of the common features seen in Experiment Tracking offerings are:
 - Being able to search and filter candidates by metric, parameters or metadata
 
 More info:
+
 - [ML Experiment Tracking: What It Is, Why It Matters, and How to Implement It](https://neptune.ai/blog/ml-experiment-tracking)
 - [Experiment Tracking](https://madewithml.com/courses/mlops/experiment-tracking/)
 
@@ -113,9 +115,3 @@ while the Model Registry belongs to the Packaging stage.
 Although with similar names, they do not interact. ML Experiments compare model candidates, based on model metrics computed at
 creation time, while AB testing and experimentation aims com measure the impact of a two or more different variants based on usage
 metrics.
-
-
-
-
-
-

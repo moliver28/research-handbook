@@ -54,7 +54,7 @@ The timeline for each quarter is as follows. A detailed calendar with DRIs and p
 
 ### Four weeks after quarter-end
 
-1. Final draft of each earnings deliverable is shared with the Audit Committee for review & approval. The “Audit Committee - Financial Results & Guidance” meeting should happen at least one week before the earnings call date
+1. Final draft of each earnings deliverable is shared with the Audit Committee for review & approval. The "Audit Committee - Financial Results & Guidance" meeting should happen at least one week before the earnings call date
 
 ### Week leading up to the earnings call
 
@@ -90,4 +90,4 @@ located on our [Investor Relations page](https://ir.gitlab.com/financial-informa
 
 ## Investor Meetings
 
-We conduct investor relations meetings and attend investor conferences in the time period between our earnings release and close of business the Friday 2 weeks before the next quarter ends.
+We conduct investor relations meetings and attend investor conferences in the time period between our earnings release and close of business on the Friday 2 weeks before the end of the quarter.

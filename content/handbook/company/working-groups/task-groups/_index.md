@@ -22,38 +22,38 @@ organizational goals, they differ in structure, scope, and function.
 #### Structure and Scope
 
 - Task Group:
-    - Focuses on a single, well-defined objective.
-    - Composed of subject matter experts collaborating to achieve a specific
+  - Focuses on a single, well-defined objective.
+  - Composed of subject matter experts collaborating to achieve a specific
       goal.
-    - Lean and agile, with minimal hierarchy and bureaucracy.
-    - Ideal for tasks that require rapid, focused execution.
+  - Lean and agile, with minimal hierarchy and bureaucracy.
+  - Ideal for tasks that require rapid, focused execution.
 
 - Working Group:
-    - Address broader, high-impact business goals.
-    - Typically involves more complex and varied functions across the
+  - Address broader, high-impact business goals.
+  - Typically involves more complex and varied functions across the
       organization.
-    - Has defined roles and responsibilities with a broader scope than Task
+  - Has defined roles and responsibilities with a broader scope than Task
       Groups.
-    - Requires an executive sponsor and often involves collaboration across multiple functions.
+  - Requires an executive sponsor and often involves collaboration across multiple functions.
 
 #### When to Use Each
 
 - Use a Task Group when:
-    - The objective is clear-cut and specific.
-    - Speed and efficiency are priorities.
-    - The task requires specialized knowledge from experts.
-    - The organizational overhead of a Working Group can be avoided.
+  - The objective is clear-cut and specific.
+  - Speed and efficiency are priorities.
+  - The task requires specialized knowledge from experts.
+  - The organizational overhead of a Working Group can be avoided.
 
 - Use a Working Group when:
-    - The goal is complex and multifaceted, impacting various parts of the
+  - The goal is complex and multifaceted, impacting various parts of the
       organization.
-    - The project requires collaboration across different functions and teams.
-    - There's a need for a structured approach with clearly defined roles.
-    - The project has strategic importance warranting executive oversight.
+  - The project requires collaboration across different functions and teams.
+  - There's a need for a structured approach with clearly defined roles.
+  - The project has strategic importance warranting executive oversight.
 
 ## Roles and Responsibilities
 
-#### Task Group Directly Responsible Individual (DRI)
+### Task Group Directly Responsible Individual (DRI)
 
 This role is pivotal, with the individual taking full accountability for the
 group's success. They coordinate activites, lead meetings, and ensure the

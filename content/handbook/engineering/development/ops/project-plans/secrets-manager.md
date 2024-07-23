@@ -1,14 +1,7 @@
 ---
-
 title: "Secrets Manager - Weekly Project Plan"
 description: "Secrets Manager - Weekly Project Plan - Pipeline Security Group"
 ---
-
-
-
-
-
-
 
 ## Secrets Manager - Weekly Project Plan
 
@@ -146,7 +139,7 @@ description: "Secrets Manager - Weekly Project Plan - Pipeline Security Group"
 #### Goals
 
 - [https://gitlab.com/gitlab-org/gitlab/-/issues/416701](https://gitlab.com/gitlab-org/gitlab/-/issues/416701) Make adjustments to our backend architecture design based on security feedback.
-- [https://gitlab.com/gitlab-org/gitlab/-/issues/416701](https://gitlab.com/gitlab-org/gitlab/-/issues/416701) Start the [threat model](/handbook/security/threat-modeling/) process.
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/416701](https://gitlab.com/gitlab-org/gitlab/-/issues/416701) Start the [threat model](/handbook/security/product-security/application-security/threat-modeling/) process.
 - [https://gitlab.com/groups/gitlab-org/-/epics/11373](https://gitlab.com/groups/gitlab-org/-/epics/11373) Finalize the frontend issues for the MVC work.
 - [https://gitlab.com/gitlab-org/ux-research/-/issues/2470](https://gitlab.com/gitlab-org/ux-research/-/issues/2470) Report on feedback from interviews.
 
@@ -161,7 +154,7 @@ description: "Secrets Manager - Weekly Project Plan - Pipeline Security Group"
 #### Goals
 
 - [https://gitlab.com/gitlab-org/gitlab/-/issues/416701](https://gitlab.com/gitlab-org/gitlab/-/issues/416701) Finish first draft of backend architecture design.
-- [https://gitlab.com/gitlab-org/gitlab/-/issues/416701](https://gitlab.com/gitlab-org/gitlab/-/issues/416701) Work with appsec to continue the [threat model](/handbook/security/threat-modeling/) process.
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/416701](https://gitlab.com/gitlab-org/gitlab/-/issues/416701) Work with appsec to continue the [threat model](/handbook/security/product-security/application-security/threat-modeling/) process.
 - [https://gitlab.com/groups/gitlab-org/-/epics/11373](https://gitlab.com/groups/gitlab-org/-/epics/11373) Begin working on the first frontend iteration for the MVC.
 - [https://gitlab.com/gitlab-org/ux-research/-/issues/2470](https://gitlab.com/gitlab-org/ux-research/-/issues/2470) Iterate on early designs based on feedback.
 
@@ -174,7 +167,7 @@ description: "Secrets Manager - Weekly Project Plan - Pipeline Security Group"
 
 #### Goals
 
-- [https://gitlab.com/gitlab-org/gitlab/-/issues/416701](https://gitlab.com/gitlab-org/gitlab/-/issues/416701) Complete the [threat model](/handbook/security/threat-modeling/) process.
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/416701](https://gitlab.com/gitlab-org/gitlab/-/issues/416701) Complete the [threat model](/handbook/security/product-security/application-security/threat-modeling/) process.
 - [https://gitlab.com/groups/gitlab-org/-/epics/11373](https://gitlab.com/groups/gitlab-org/-/epics/11373) Create an MR for the first frontend iteration for the MVC.
 - [https://gitlab.com/gitlab-org/ux-research/-/issues/2470](https://gitlab.com/gitlab-org/ux-research/-/issues/2470) Present new design changes.
 
@@ -188,7 +181,7 @@ description: "Secrets Manager - Weekly Project Plan - Pipeline Security Group"
 
 #### Goals
 
-- [https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34) Initialize the [threat model](/handbook/security/threat-modeling/) process.
+- [https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34) Initialize the [threat model](/handbook/security/product-security/application-security/threat-modeling/) process.
 - [https://gitlab.com/gitlab-org/gitlab/-/issues/424452](https://gitlab.com/gitlab-org/gitlab/-/issues/424452) Merge MR which creates feature flag and base page for the frontend.
 - [https://gitlab.com/gitlab-org/ux-research/-/issues/2470](https://gitlab.com/gitlab-org/ux-research/-/issues/2470) Continue receiving assignment 2 feedback.
 
@@ -202,7 +195,7 @@ description: "Secrets Manager - Weekly Project Plan - Pipeline Security Group"
 
 #### Goals
 
-- [https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34) Complete the [threat model](/handbook/security/threat-modeling/) process.
+- [https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34) Complete the [threat model](/handbook/security/product-security/application-security/threat-modeling/) process.
 - [https://gitlab.com/gitlab-org/gitlab/-/issues/424453](https://gitlab.com/gitlab-org/gitlab/-/issues/424453) Create an MR for creating the root Vue component.
 - [https://gitlab.com/gitlab-org/ux-research/-/issues/2470](https://gitlab.com/gitlab-org/ux-research/-/issues/2470) Present feedback findings from assignment 2.
 
@@ -216,7 +209,7 @@ description: "Secrets Manager - Weekly Project Plan - Pipeline Security Group"
 
 #### Goals
 
-- [https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34) Address feedback from the [threat model](/handbook/security/threat-modeling/) process.
+- [https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34) Address feedback from the [threat model](/handbook/security/product-security/application-security/threat-modeling/) process.
 - [https://gitlab.com/gitlab-org/gitlab/-/issues/424453](https://gitlab.com/gitlab-org/gitlab/-/issues/424453) Merge MR for creating the root Vue component.
 - [https://gitlab.com/gitlab-org/ux-research/-/issues/2470](https://gitlab.com/gitlab-org/ux-research/-/issues/2470) Present new design changes.
 
@@ -229,7 +222,7 @@ description: "Secrets Manager - Weekly Project Plan - Pipeline Security Group"
 
 #### Goals
 
-- [https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34) Complete the [threat model](/handbook/security/threat-modeling/) process.
+- [https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/34) Complete the [threat model](/handbook/security/product-security/application-security/threat-modeling/) process.
 - [https://gitlab.com/gitlab-org/gitlab/-/issues/416701](https://gitlab.com/gitlab-org/gitlab/-/issues/416701) Create an MR with updated architecture design based on feedback from threat model.
 - [https://gitlab.com/groups/gitlab-org/-/epics/11776](https://gitlab.com/groups/gitlab-org/-/epics/11776) Begin working on first backend POC for using GCP key management for key storage.
 - [https://gitlab.com/gitlab-org/gitlab/-/issues/424452](https://gitlab.com/gitlab-org/gitlab/-/issues/424452) Merge MR which creates feature flag and base page for the frontend

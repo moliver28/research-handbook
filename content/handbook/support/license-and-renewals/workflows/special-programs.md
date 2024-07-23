@@ -12,7 +12,7 @@ GitLab offers several programs to help introduce GitLab's most powerful features
 
 [The Community Programs team](/handbook/marketing/developer-relations/community-programs/) is the DRI for these programs.
 
-For registered non-profit organizations, GitLab also offers discounts. Contact GitLab's [Environmental, Social, and Governance (ESG) team](/handbook/legal/ESG/#faq) for more information regarding this program.
+For registered non-profit organizations, GitLab also offers discounts. Contact GitLab's [Environmental, Social, and Governance (ESG) team](/handbook/legal/esg/#faq) for more information regarding this program.
 
 Use the relevant workflows below when you receive a ticket about [GitLab for Education](https://about.gitlab.com/solutions/education/), [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/) or [GitLab for Startups](https://about.gitlab.com/solutions/startups/).
 

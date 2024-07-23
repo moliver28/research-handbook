@@ -33,7 +33,7 @@ description: "Learn about GitLab Simplify Groups & Projects Working Group busine
 
  (✅ Done, ✏️ In-progress)
 
-##### [Identify high level vision, MCV, and an iteration plan to solve the problem](https://gitlab.com/gitlab-org/gitlab/-/issues/218333) `=> 100%`
+#### [Identify high level vision, MCV, and an iteration plan to solve the problem](https://gitlab.com/gitlab-org/gitlab/-/issues/218333) `=> 100%`
 
 - **Business viability:** Does the solution work for our business? ✅
 - **Technical feasibility:** Can we build it? ✅

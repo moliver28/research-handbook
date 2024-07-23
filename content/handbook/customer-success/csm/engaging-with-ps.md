@@ -1,15 +1,7 @@
 ---
-
 title: "Engaging with Professional Services"
 description: "Guidelines for CSMs on how best to engage with professional services."
 ---
-
-
-
-
-
-
-
 
 ### CSM Guidelines - Engaging with PS on a customer project
 
@@ -28,4 +20,3 @@ The following outlines the steps/means for a CSM to engage with Professional Ser
 
 1. CSM feeds key information back to the project team such as future licensing deals, upgrades, etc.
 1. CSM keeps up to date with progress via (slack channel, daily standups, weekly status meetings, status reports sent via email, etc.)
-

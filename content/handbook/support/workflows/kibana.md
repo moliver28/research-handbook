@@ -20,7 +20,7 @@ Knowing *where* to search in Kibana is paramount to getting the proper results. 
 
 ![Changing search index](/images/support/kibana_index-selection.jpg)
 
-Indexes closely correlate for the most part with our [log structure](https://docs.gitlab.com/ee/administration/logs.html) in general. Some other frequently used indexes are:
+Indexes closely correlate for the most part with our [log structure](https://docs.gitlab.com/ee/administration/logs/) in general. Some other frequently used indexes are:
 
 - `pubsub-gitaly-inf-gprd-*`
 - `pubsub-pages-inf-gprd-*`
@@ -201,7 +201,10 @@ In the `pubsub-rails-inf-gprd-*` log:
    - `/api/scim/v2/groups/<group name>` when looking at the SCIM requests for a whole group. This path can also be found in the group's SAML settings.
    - `/api/scim/v2/groups/<group name>/Users/<user's SCIM identifier>` when looking at the SCIM requests for a particular user.
 1. Add a positive filter on `json.methhod` for `POST` or `PATCH` (first time provisioning or update/de-provisioning respectivley).
-1. Check `json.params.value` for information.
+1. Add a filter on `json.params.value` to further identify specific actions:
+   - `json.params.value` = `Add` reveals first time provisioning, or account detail changes
+   - `json.params.value` = `Replace` reveals SCIM deprovisioning, happens when a user has been removed from the IdP App/group
+   - `json.params.value` = `<External ID>` reveals any SCIM activity related to the identified External ID.
 
 In cases where the SCIM provisioned account is deleted:
 
@@ -234,8 +237,6 @@ Kibana is not typically used to locate `5XX` errors, but there are times where t
 1. In the search field, type `json.path : "the_path_after_gitlab.com_from_the_URL"`
 1. Choose relevant fields from the sidebar. For a `500` error, you want to filter for `json.status` and choose `is`, then enter `500`.
 1. Continue to use relevant fields from the list on the sidebar to narrow down the search.
-
-It's recommended to apply a **Negative Filter** to the `gitlab_error.log` and `gitlab_access.log` log files. These two generate a large amount of noise and may not be relevant to your search.
 
 See the [500 errors workflow]({{< ref "500_errors" >}}) for more information on searching and finding errors on GitLab.com
 

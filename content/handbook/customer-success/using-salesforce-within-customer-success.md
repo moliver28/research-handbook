@@ -1,13 +1,6 @@
 ---
-
 title: "Using Salesforce within Customer Success"
 ---
-
-
-
-
-
-
 
 - Using Salesforce within Customer Success *(Current)*
 - [Account Onboarding](/handbook/customer-success/csm/onboarding/)
@@ -28,7 +21,7 @@ CSM Sentiment - A field to list the CSM's sense of the [customer's health](/hand
 
 Salesforce operates using a series of objects. Standard objects are objects that are included with Salesforce. Common business objects like Account, Contact, Lead, and Opportunity are all standard objects.
 
-Custom objects are objects that you create to store information that’s specific to your company or industry. For GitLab, we have created four custom objects that are specific to Customer Success. These are POV's and PS Engagements (PSE's). We can link these custom objects to accounts and opportunities, and create automations such as allowing us to auto-populate specific fields and notify users when a task needs to be completed.
+Custom objects are objects that you create to store information that's specific to your company or industry. For GitLab, we have created four custom objects that are specific to Customer Success. These are POV's and PS Engagements (PSE's). We can link these custom objects to accounts and opportunities, and create automations such as allowing us to auto-populate specific fields and notify users when a task needs to be completed.
 
 ### Professional Services Engagements (PSE) objects
 
@@ -43,10 +36,12 @@ In order to track the contacts that are associated with a PSE, we utilize the PS
 #### Fields
 
 **PS Team**
+
 - Owner - the owner or overseer of the project
 - Project Team - the planned team for the project
 
 **PS Info**
+
 - PS Engagement Name - the unique identifier for the project
 - Engagement Type - whether the project is fixed, time based, etc.
 - Opportunity - link to the related PS Opportunity
@@ -54,25 +49,27 @@ In order to track the contacts that are associated with a PSE, we utilize the PS
 - Success Criteria - the pre-defined criteria for what success will look like at the end of this engagement
 - Sertifi EContract - link to the Sertifi contract
 - Status - the current project status
-   - Backlog - new booking, project initiation has not started
-   - On Hold - project is on hold due to the customer
-   - Initiation - in kick off or planning stages
-   - In Progress - the project is being worked on
-   - Closure - waiting for customer signature or finalizing paperwork but the services have been rendered
-   - Completed - the project is 100%, all items have been signed-off, and this PS Engagement object is complete
-   - Cancelled - the project has been cancelled
+  - Backlog - new booking, project initiation has not started
+  - On Hold - project is on hold due to the customer
+  - Initiation - in kick off or planning stages
+  - In Progress - the project is being worked on
+  - Closure - waiting for customer signature or finalizing paperwork but the services have been rendered
+  - Completed - the project is 100%, all items have been signed-off, and this PS Engagement object is complete
+  - Cancelled - the project has been cancelled
 - SOW Link - link to the SOW
 - Collaboration Project - link to the GitLab collaboration project
 - % Complete - the PS engineer's estimate on the project's completion
 - General Notes - free-form text for notes about the project
 
 **Project Tracking**
+
 - Scoped Hours - hours scoped during the SOW
 - Hours Consumed - billable hours consumed to date
 - Remaining Project Hours - Remaining hours of the project
 - Hours Updated Date - the date when Hours Consumed was last updated
 
 **PSE Approval**
+
 - Approved - PS management has signed off that the project can begin
 - Approver - the Salesforce user who ticked the `Approved` box
 - Passive acceptance language in SOW? - does the SOW contain passive acceptance language to complete the SOW?
@@ -81,6 +78,7 @@ In order to track the contacts that are associated with a PSE, we utilize the PS
 - Sign Off Date - the sign off date, whether accepted via email or by executing passive acceptance
 
 **Project Timeline**
+
 - Kick Off Date - the date the project planning and scheduling began
 - Expected Start Date - the anticipated date when the technical portion of the project should begin
 - Expected Completion Date - the anticipated date when the project should be completed
@@ -160,10 +158,10 @@ To log an email in Salesforce:
 Any time you email a customer, bcc your "email to Salesforce address" on the email so that it is tracked within Salesforce.
 
 Three alternatives exist:
+
 1. If you have an [Outreach](/handbook/business-technology/tech-stack/#outreachio) account which is linked to your GitLab email address and your Salesforce account, your emails will automatically sync with Salesforce
 1. If you do not have outreach, then consider the [Salesforce Chrome plugin](/handbook/sales/prospect-engagement-best-practices) to easily log customer-related emails
 1. If you do want to log the email to the customer's timeline in Gainsight, follow the instructions in [this help article](https://support.gainsight.com/SFDC_Edition/Timeline/Admin_Guides/Configure_Email_to_Timeline). This email will be synced back to Salesforce with the daily Gainsight-Salesforce sync.
-
 
 ### Building Reports in Salesforce
 

@@ -1,18 +1,10 @@
 ---
-
 title: "Application Security Market Analysis"
 ---
-
-
-
-
-
-
 
 ## Security Lexicon
 
 A uniform lexicon is important to distinguish the use of 'security' in various contexts.
-
 
 GitLab helps our customers **Secure and Govern** all of the phases of the SDLC Create, Plan, etc.). To deliver secure applications, customers use GitLab Security Controls throughout the SDLC and Security Testing in validation. Eventually, GitLab will enable vulnerability prioritization for planning and Security Monitoring in production.
 
@@ -29,13 +21,14 @@ Check out the [compliance page](https://about.gitlab.com/solutions/compliance/) 
 
 ## Application Security Market Overview
 
-Cyber Security is on a dynamic trajectory. It has been traditionally focused on guarding the perimeter in a defensive approach. Enterprises would start with simple endpoint protection and network security and layer on tools for “Defense in Depth”. Today’s security is much more proactive and predictive combining internal and external data from a variety of sources and applying user behavior analytics and machine learning to identify suspicious activity.
+Cyber Security is on a dynamic trajectory. It has been traditionally focused on guarding the perimeter in a defensive approach. Enterprises would start with simple endpoint protection and network security and layer on tools for "Defense in Depth". Today's security is much more proactive and predictive combining internal and external data from a variety of sources and applying user behavior analytics and machine learning to identify suspicious activity.
 
-Security investments followed a similar trajectory. Traditionally the bulk of the spending has been to protect infrastructure. In 2015, Gartner Analyst, Joseph Feiman, estimated for every $1 spent on application security, $23 was spent in other security. Application Security has only been a mainstream concern for recent years - but that’s changing! There are several dynamics making application security a bigger priority including:
+Security investments followed a similar trajectory. Traditionally the bulk of the spending has been to protect infrastructure. In 2015, Gartner Analyst, Joseph Feiman, estimated for every $1 spent on application security, $23 was spent in other security. Application Security has only been a mainstream concern for recent years - but that's changing! There are several dynamics making application security a bigger priority including:
+
 - Well known and significant application-focused attacks such as Heartbleed.
 - GDPR requires that enterprises assume the risk of the vendors they use. Vulnerabilities that might be present in purchased applications become of more concern.
 - Open source code is becoming a norm. This [451 article](https://drive.google.com/file/d/1T75K9qjBtdRkFdgVy--mrKmFrWXe8cTy/view) explains how one small piece of code can have vast implications when it has a vulnerability that is exploited.
-- With cloud computing, the infrastructure’s security becomes the responsibility of the cloud provider. Enterprises have less perimeter to protect and are focusing more on endpoints and applications.
+- With cloud computing, the infrastructure's security becomes the responsibility of the cloud provider. Enterprises have less perimeter to protect and are focusing more on endpoints and applications.
 - DevOps velocity requires rapid CI/CD. Traditional gated security does not fit this model forcing tradeoffs with security and more agile security processes. This has led to DevSecOps but it is still early.
 
 Enterprises with advanced DevOps and/or Application Security programs are looking for remediation advice as the developer types the code as a means of not only reducing vulnerabilities, but also educating developers by teaching them security best practices real-time.  Fortify and a few other advanced app sec vendors provide this.
@@ -55,7 +48,6 @@ The focus of our competitive view is on **application security testing** (App Se
 The term Application Security Testing includes Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), Dependency Scanning, and Container Scanning. It also includes Interactive Application Security Testing (IAST) and Runtime Application Security Protection (RASP) which GitLab does not yet offer.
 
 The term Software Composition Analysis includes Static Application Security Testing (SAST), Dependency Scanning, Container Scanning, License Compliance, and Code Quality Testing. It often includes a Bill of Materials capability, though that is typically a feature of these others, not a product of its own. Industry analysts, such as Forrester, use SCA to group capabilities. As defined in our [Solutions](/handbook/product/categories/index.html#solutions) we are [intentional in not including SAST and Code Quality](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/26897#note_198503054) in Software Composition Analysis.
-
 
 ## Competitor Scope
 
@@ -78,11 +70,13 @@ The term Software Composition Analysis includes Static Application Security Test
 ## Who uses GitLab secure capabilities?
 
 **Within the MR pipeline report - the Developer**
+
 - delivered immediately to responsible individual
 - clear impact of his or her code changes (not mixed with changes made by others or pre-existing vulns)
 - can fix the security flaw without context change
 
 **Within the Security Dashboard - the Security team**
+
 - project or group view of unresolved vulnerabilities
 - already merged with other code
 - primary responsibility is to manage risk
@@ -90,13 +84,11 @@ The term Software Composition Analysis includes Static Application Security Test
 - long term view
 - cares about mean time to remediation, trends
 
-
 ## Market Segment Overview
 
 Application Security is difficult. It is one of the smallest market segments of cyber security with lowest adoption. This is because it relies on a combination of people, processes and technology much more than network security, endpoint protection, etc. You will find sophisticated programs mostly in enterprises that depend upon custom software for their core business.
 
 ### Companies with sophisticated Application Security programs
-
 
 **Characteristics**
 
@@ -126,7 +118,7 @@ Application Security is difficult. It is one of the smallest market segments of 
 **Characteristics**
 
 - Just starting to focus on Application Security (sweet spot)
-- All sizes of companies - even large F2000’s may lack application security focus
+- All sizes of companies - even large F2000's may lack application security focus
 - May have a Security Operations Center (SOC) with Security Operations Engineers
 - Most security budget is on endpoint security and network security
 - Rely on penetration testing for compliance and app sec
@@ -164,4 +156,4 @@ Application Security is difficult. It is one of the smallest market segments of 
 
 **Value Proposition**
 
-- GitLab can help you check the compliance box for security testing and because it’s integrated with your development processes, there is no incremental effort to do so.
+- GitLab can help you check the compliance box for security testing and because it's integrated with your development processes, there is no incremental effort to do so.

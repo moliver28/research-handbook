@@ -1,5 +1,4 @@
 ---
-
 title: "Zuora Collect module"
 description: "The business process behind the Zuora Collect module"
 ---
@@ -54,27 +53,27 @@ The main user interface of the Collections Window consists of the following tabs
 This is the default tab when you start the Collections Window and contains three sections:
 
 - **Status of Accounts**: Pie chart that shows the distribution of accounts in different statuses (in good standing vs. in collections).
-   - Drill down the data in the pie chart by clicking the part for In Collections. It will display a new pie chart that shows the distribution of accounts in collections by age.
-   - Customize the time periods used in the pie chart by clicking `Edit Parameters` on the top right. Both the time period names (Bucket Name) and the numbers of days are customizable.
-      - After modifying the parameters, the user will need to refresh the page to see the changes in the pie charts.
+  - Drill down the data in the pie chart by clicking the part for In Collections. It will display a new pie chart that shows the distribution of accounts in collections by age.
+  - Customize the time periods used in the pie chart by clicking `Edit Parameters` on the top right. Both the time period names (Bucket Name) and the numbers of days are customizable.
+    - After modifying the parameters, the user will need to refresh the page to see the changes in the pie charts.
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/zLDY4C87e_A" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 - **Collection Accounts Sorted by Age and Balance**: Scatter plot that shows the age and balance distribution of accounts.
-   - A dot in the plot represents an account: Blue dots are accounts that are assigned to the current user.
-   - Hover over a dot to see details including the account name, total invoice balance and assigned agent.
-   - Click on a dot to open the details page of the corresponding account.
+  - A dot in the plot represents an account: Blue dots are accounts that are assigned to the current user.
+  - Hover over a dot to see details including the account name, total invoice balance and assigned agent.
+  - Click on a dot to open the details page of the corresponding account.
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/uzPGDHJfKPk" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 - **Agents**: Displays all agents and the details about the accounts they are responsible for, including the total number of accounts, total accounts balance and numbers of accounts in different statuses.
-   - Click on the name of an agent to open a new page:
-      - The Accounts tab displays the list of accounts that the agent is assigned to.
-      - The Metrics tab includes a pie chart for account balance distribution, a bar chart for account statuses and a bar chart for total balance by accounts.
+  - Click on the name of an agent to open a new page:
+    - The Accounts tab displays the list of accounts that the agent is assigned to.
+    - The Metrics tab includes a pie chart for account balance distribution, a bar chart for account statuses and a bar chart for total balance by accounts.
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/lNmCq7SeDmU" frameborder="0" allowfullscreen="true"> </iframe>
@@ -90,7 +89,7 @@ The Accounts tab displays the accounts in collections based on the system condit
 
 - Click `Edit Conditions` on the top right.
 - In the pop up, modify the number of days overdue and the total invoice amount.
-   - *The balance is in the home currency.*
+  - *The balance is in the home currency.*
 
 > For an account to be considered "in Collections" and populated in the Accounts tab, the total invoice balance must be a positive value greater than the specified number and the days overdue must be greater than the specified number. If either of the two conditions is not met, the account is not considered "In Collections".
 
@@ -178,7 +177,7 @@ To create a follow-up task:
       - Completed: The task has been completed.
       - Closed: The task has not been completed but is no longer relevant.
    - Add a **Description**: Specify a brief description of the task.
-      - It is recommended to include the account, invoice, or payment that’s related to the task.
+      - It is recommended to include the account, invoice, or payment that's related to the task.
    - Select the assignee from **Assign To**: Type at least two letters in a username or email address to trigger the automatic completion feature.
    - Add a **Due date**: The date when the task is due.
       - On the due date, the owner and the assignee of this task will get a notification.
@@ -212,7 +211,7 @@ The UI of Notes consists of four tabs:
 In the Users tab, you can view and manage all users (collection agents) in your organization:
 
 - Change the active status of a user (from active to deactivated or vice versa).
-   - To deactivate the user, deselect Active. To reactivate the user, select Active.
+  - To deactivate the user, deselect Active. To reactivate the user, select Active.
 - Edit the user escalation point by clicking on the menu icon (3 dots on the left) and select Edit.
   - To assign an escalation point for the user, click the drop-down list and type two or more characters from the user name of the intended escalation point.
 
@@ -241,7 +240,7 @@ To export notes in the Notes feature:
 
 ## FAQ
 
-##### How to assign Agents to an account?
+### How to assign Agents to an account?
 >
 > For a video tutorial, click [here](https://youtu.be/1dvwqmOF-io?t=11).
 
@@ -253,7 +252,7 @@ To export notes in the Notes feature:
 1. Click Update to save the settings.
    - Refresh the page to see the changes.
 
-##### How to view the contact details of a particular account?
+### How to view the contact details of a particular account?
 >
 > For a video tutorial, click [here](https://youtu.be/1dvwqmOF-io?t=44).
 
@@ -261,7 +260,7 @@ To export notes in the Notes feature:
 1. Search for the account that you are looking for and open it (by clicking on the account name).
 1. The `View Contact Details`button is on the top right corner of the page.
 
-##### How to update the collection status of a particular account?
+### How to update the collection status of a particular account?
 >
 > For a video tutorial, click [here](https://youtu.be/1dvwqmOF-io?t=57).
 
@@ -270,7 +269,7 @@ To export notes in the Notes feature:
 1. In the `Account Statuses` section, select a status that best represents the current status of the account.
 1. Click `Update` when you are done.
 
-##### How to search for a specific account?
+### How to search for a specific account?
 >
 > For a video tutorial, click [here](https://youtu.be/SUczIKlHs8g?t=46).
 
@@ -278,7 +277,7 @@ To export notes in the Notes feature:
 1. Find the magnifying glass on the top right and type the account name.
    - The list will automatically refresh with the results.
 
-##### How to view the invoice details and payments a particular account in the Collect window?
+### How to view the invoice details and payments a particular account in the Collect window?
 
 There are two ways to view invoice details:
 
@@ -294,7 +293,7 @@ There are two ways to view invoice details:
 1. Search for the invoice that you are looking for.
 1. In the `Critical Invoices` section, click on the invoice number OR on the action icon (the 3 dots on the left) and select `Show` to view the details of the invoice in the Collections window.
 
-##### How to open an invoice in Zuora Billing?
+### How to open an invoice in Zuora Billing?
 
 There are two ways to view invoices:
 
@@ -310,7 +309,7 @@ There are two ways to view invoices:
 1. Search for the invoice that you are looking for.
 1. In the `Critical Invoices` section, click on the action icon (the 3 dots on the left) and select `Show in Billing` to open the Zuora Billing UI in a new tab.
 
-##### How to add comments to an account?
+### How to add comments to an account?
 >
 > For a video tutorial, click [here](https://youtu.be/--ljeeigSjg).
 
@@ -322,7 +321,7 @@ There are two ways to view invoices:
 1. When finished, click on Submit.
    - Comments cannot be edited or deleted by design.
 
-##### How to reply to comments on an account?
+### How to reply to comments on an account?
 >
 > For a video tutorial, click [here](https://youtu.be/--ljeeigSjg?t=49).
 
@@ -335,7 +334,7 @@ There are two ways to view invoices:
 1. When finished, click on Submit.
    - Comments cannot be edited or deleted by design.
 
-##### How to add comments to an invoice?
+### How to add comments to an invoice?
 >
 > For a video tutorial, click [here](https://youtu.be/0YjRbhRur60).
 
@@ -346,7 +345,7 @@ There are two ways to view invoices:
 1. When finished, click on Submit.
    - Comments cannot be edited or deleted by design.
 
-##### How to reply to comments on an invoice?
+### How to reply to comments on an invoice?
 >
 > For a video tutorial, click [here](https://youtu.be/0YjRbhRur60?t=36).
 
@@ -359,15 +358,15 @@ There are two ways to view invoices:
 1. When finished, click on Submit.
    - Comments cannot be edited or deleted by design.
 
-##### How to delete a comment?
+### How to delete a comment?
 
 - Comments cannot be edited or deleted by design.
 
-##### How to edit a comment?
+### How to edit a comment?
 
 - Comments cannot be edited or deleted by design.
 
-##### How to create a follow-up task?
+### How to create a follow-up task?
 >
 > For a video tutorial, click [here](https://youtu.be/zoxbseZeUqs?t=13).
 
@@ -381,7 +380,7 @@ There are two ways to view invoices:
       - Completed: The task has been completed.
       - Closed: The task has not been completed but is no longer relevant.
    - Add a **Description**: Specify a brief description of the task.
-      - It is recommended to include the account, invoice, or payment that’s related to the task.
+      - It is recommended to include the account, invoice, or payment that's related to the task.
    - Select the assignee from **Assign To**: Type at least two letters in a username or email address to trigger the automatic completion feature.
    - Add a **Due date**: The date when the task is due.
       - On the due date, the owner and the assignee of this task will get a notification.
@@ -391,7 +390,7 @@ There are two ways to view invoices:
 1. Click `Create`.
 1. The task is created and displayed in the list of follow-up tasks.
 
-##### How to deactivate a user?
+### How to deactivate a user?
 >
 > For a video tutorial, click [here](https://youtu.be/eKKLCe_CYFE).
 
@@ -404,7 +403,7 @@ There are two ways to view invoices:
    - Comments that were added by the user or follow-up tasks that were already assigned to the user are not affected.<br>
    - A deactivated user is not removed from the list of users but the name of a deactivated user is grayed out.
 
-##### How to reactivate a user?
+### How to reactivate a user?
 >
 > For a video tutorial, click [here](https://youtu.be/wdFSNcQshes).
 
@@ -414,7 +413,7 @@ There are two ways to view invoices:
 1. Select Active.
 1. Click on `Update`.
 
-##### How to add an escalation point to a user?
+### How to add an escalation point to a user?
 >
 > For a video tutorial, click [here](https://youtu.be/32do6ZkBLbY).
 
@@ -424,7 +423,7 @@ There are two ways to view invoices:
 1. Click on the drop-down list and type two or more characters from the user name of the intended escalation point.
 1. Click on `Update`.
 
-##### How to export notes?
+### How to export notes?
 >
 > For a video tutorial, click [here](https://youtu.be/KPK5sHPRQw4).
 

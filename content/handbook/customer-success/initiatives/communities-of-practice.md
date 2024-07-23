@@ -9,7 +9,6 @@ A Community of Practice (CoP) is a self-organized, cross-functional group of *Su
 
 The content and assets are [aggregated into a single group](https://gitlab.com/gitlab-com/customer-success/communities-of-practice) to maximize discoverability. Each Community of Practice has a project which contains a Readme of links and an issue board for discussion.
 
-
 ### Roles and Responsibilities
 
 | Role                  | Responsibility                                                                                                                                                            |
@@ -32,7 +31,7 @@ Anyone can establish or participate in an existing Community of Practice. Below 
 To improve active participation and engagement, a pilot will be launched. This was based on a survey and consultation with several members of the Solutions Architects (SA) team. Some of the findings include:
 
 - People have indicated that they would like to see better relevance to day-to-day work, promotion of activities, and timings in CoP meetings and events.
-- While SA’s are keen on having broader impact at GitLab, they would be further encouraged by better recognition in participating, support from their manager, and links to their own individual professional development.
+- While SA's are keen on having broader impact at GitLab, they would be further encouraged by better recognition in participating, support from their manager, and links to their own individual professional development.
 
 A set of recommendations were formulated that focused on:
 
@@ -58,7 +57,6 @@ Potential key performance indicators include:
 - Participation & attendance
 - CoP member experience
 
-
 #### Current Communities of Practice
 
 | Subject                             | Facilitator (members list in project)                                                                                                                                           |
@@ -71,8 +69,6 @@ Potential key performance indicators include:
 | [OpenShift](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/redhat-openshift-community-of-practice)                  | TBD |
 | [Trusted Advisor Skill Development](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/trusted-advisor-skill-development)   | Lead: [Bart Zhang (@bzhang7)](https://gitlab.com/bzhang7), Co-Leads: [Chester Nwachukwu (@cnwachukwu)](https://gitlab.com/cnwachukwu), [Darwin Sanoy (@DarwinJS)](https://gitlab.com/darwinjs) |
 
-
-
 ### Process
 
 1. Establish a focus topic.
@@ -82,5 +78,3 @@ Potential key performance indicators include:
 5. Create and manage the [README.md](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/project-template/-/blob/master/README.md)
 6. Update this handbook page under the table "Active Communities of Practice."
 7. Setup a slack channel using the `#cp_` prefix, so team members know where to go for help.
-
-

@@ -86,8 +86,7 @@ It consists of two stages:
 Production-Canary is a environment subset or deployment "stage" in the Production environment, sharing most of the same infrastructure as Production. This additional stage is designed to assist us with rolling out new releases to end users in a more controlled fashion, hoping
 to catch issues affecting users in a way that minimises impact.
 
-Information on how to access production-canary, use it, and what services it covers is documented in our [handbook page
-on canary stage environments](/handbook/engineering/infrastructure/environments/canary-stage/).
+Information on how to access production-canary, use it, and what services it covers is documented in our [handbook page on canary stage environments](/handbook/engineering/infrastructure/environments/canary-stage/).
 
 ### Staging
 
@@ -109,8 +108,7 @@ If you need an account to test QA issues assigned to you on Staging, you may alr
 | -------- | -------------- | ------- | ----------- | ---------- | ------------ | ------------------- |
 | Staging-Canary | `gstg-cny` | [staging.gitlab.com](https://staging.gitlab.com/users/sign_in) | Pre-production testing | Frequently | [Pseudonymization of prod](https://en.wikipedia.org/wiki/Pseudonymization) | all engineers |
 
-Staging-Canary is an environment subset or deployment "stage" in the Staging environment, sharing most of the same infrastructure as Staging. This additional stage is designed to assist us with capturing issues arising due to mixed deployments, where we have multiple versions of one or more components of GitLab that share services such as the database. Information on how to access it, use it, and what services it covers is documented in our [handbook page
-on canary stage environments](/handbook/engineering/infrastructure/environments/canary-stage/).
+Staging-Canary is an environment subset or deployment "stage" in the Staging environment, sharing most of the same infrastructure as Staging. This additional stage is designed to assist us with capturing issues arising due to mixed deployments, where we have multiple versions of one or more components of GitLab that share services such as the database. Information on how to access it, use it, and what services it covers is documented in our [handbook page on canary stage environments](/handbook/engineering/infrastructure/environments/canary-stage/).
 
 Staging-Canary deployments precede Staging deployments as described in [releases](/handbook/engineering/releases), with deployments occurring with the same frequency of Staging. It is important to note that there are two sets of blocking `smoke` test suite that are executed on deployment. One set of tests targets Staging-Canary specifically. The other set targets Staging. **Both sets of tests must pass** for the Staging-Canary deployment to succeed. This is designed specifically to help flush out issues that occur from mixed version deployment environments. You can determine which environment tests are failing in by examining the Downstream QA pipelines.
 
@@ -152,7 +150,6 @@ The `release` environment receives and tests every package of the current milest
 | **Name** | **URL** | **Purpose** | **Deploy** | **Database** | **Terminal access** |
 | ---- | --- | ------- | ------ | -------- | --------------- |
 | version | version.gitlab.com | GitLab support testing | AutoDevOps / GKE | GCP CloudSQL | N/A  |
-| license | license.gitlab.com | GitLab support testing | AutoDevOps / GKE | GCP CloudSQL | N/A  |
 | customers | customers.gitlab.com | GitLab support testing | Chef | fixture | SRE and support owner |
 | design | design.gitlab.com | Pajamas / Design website | AutoDevOps / GKE | N/A | N/A  |
 | docs | docs.gitlab.com | GitLab documentation site | GitLab Pages | N/A | N/A SRE |

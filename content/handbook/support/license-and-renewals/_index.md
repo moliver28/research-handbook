@@ -73,7 +73,7 @@ be referred to in the [terminology table](/handbook/support/license-and-renewals
 **Subscription** is a term used to explain the purchase of a specific tier of features for a set
 amount of time. There are two factors that comprise a subscription:
 
-- **SaaS** or **Self-Managed**, which defines where the subscription is ‘applied’.
+- **SaaS** or **Self-Managed**, which defines where the subscription is 'applied'.
 **GitLab Dedicated** is considered as Self-Managed for the purposes of how it is applied.
 - The **Tier**, providing access to different features. This includes **Premium** or **Ultimate**.
 
@@ -96,7 +96,7 @@ are rare and require an internal request and Sales VP approval.
 A **Namespace** is a top-level group where users can collaborate in subgroups and projects, and is
 considered a separate entity from other namespaces. SaaS customers purchase a subscription for a
 namespace, which means the namespace has access to their purchased tier of features, such as
-Premium or Ultimate. For example, company: `“Example Corporation”` has a namespace located
+Premium or Ultimate. For example, company: `"Example Corporation"` has a namespace located
 at: `gitlab.com/example-co`:
 
 - All subgroups (`gitlab.com/example-co/marketing`) and projects
@@ -236,8 +236,8 @@ the APAC region's support hours.
 
 #### Zuora
 
-Zuora is considered the [single source of truth](/handbook/handbook-usage/#single-source-of-truth)
-or [system of record](/handbook/handbook-usage/#system-of-record)
+Zuora is considered the [single source of truth](/handbook/about/handbook-usage/#single-source-of-truth)
+or [system of record](/handbook/about/handbook-usage/#system-of-record)
 for many subscription and renewal-related items, such as product SKUs,
 subscriptions and invoices. See the
 [Transition to Zuora as the SSOT issue](https://gitlab.com/groups/gitlab-org/-/epics/4664)

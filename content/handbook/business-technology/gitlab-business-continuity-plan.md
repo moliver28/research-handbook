@@ -9,7 +9,7 @@ Business Continuity Plan is the process involved in creating a system of prevent
 
 ## Scope
 
-GitLab, by its remote-only nature, is not easily affected by typical causes of business disruption, such as local failures of equipment, power supplies, telecommunications, social unrest, terrorist attacks, fire, or natural disasters. System data from the [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis.html) may be leveraged as part of business continuity planning and testing. Please search the [BIA Data File](https://docs.google.com/spreadsheets/d/1GNrZIaTsQV5Xz2f_yQWPyftgYjKvL6fi4USb1ii4Zow/edit#gid=148367290) by system for more information.  Additionally, the BCP works in conjunction with the [Disaster Recovery Plan (DRP)](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
+GitLab, by its remote-only nature, is not easily affected by typical causes of business disruption, such as local failures of equipment, power supplies, telecommunications, social unrest, terrorist attacks, fire, or natural disasters. System data from the [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis.html) may be leveraged as part of business continuity planning and testing. Additionally, the BCP works in conjunction with the [Disaster Recovery Plan (DRP)](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
 
 ## Roles & Responsibilities
 
@@ -34,7 +34,7 @@ RTO and RPO are two of the most important parameters of a Business Continuity Pl
 
 #### What is a Recovery Point Objective?
 
-Recovery Point Objective (RPO) is the interval of time that might pass during a disruption before the quantity of data lost during that period exceeds the Business Continuity Plan’s maximum allowable threshold.
+Recovery Point Objective (RPO) is the interval of time that might pass during a disruption before the quantity of data lost during that period exceeds the Business Continuity Plan's maximum allowable threshold.
 
 #### What is a Recovery Time Objective?
 
@@ -65,7 +65,7 @@ GitLab.com and customers.gitlab.com are hosted on Google Cloud Platform. Dedicat
 
 1. Unavailability of support staff in case of a customer emergency.
     - Effect: emergency response times are greater than intended.
-    - Solution(s): The team is distributed geographically (except during team get-togethers). Customer emergencies are handled by *any* person who is in the [on-call rotation](/handbook/on-call/). The on-call load is distributed at many levels, service engineers, production engineers, and even developers can be summoned when we have an outage or a customer incident. Emergencies also trigger automatic notifications on our internal chat system, alerting the entire company. There is also an ongoing effort to publish our [runbooks](https://gitlab.com/gitlab-com/runbooks), explaining how we manage our infrastructure and how we deal with outage cases.
+    - Solution(s): The team is distributed geographically (except during team get-togethers). Customer emergencies are handled by *any* person who is in the [on-call rotation](/handbook/engineering/on-call/). The on-call load is distributed at many levels, service engineers, production engineers, and even developers can be summoned when we have an outage or a customer incident. Emergencies also trigger automatic notifications on our internal chat system, alerting the entire company. There is also an ongoing effort to publish our [runbooks](https://gitlab.com/gitlab-com/runbooks), explaining how we manage our infrastructure and how we deal with outage cases.
 
 1. Disruption of service of ZenDesk.
     - Effect: support workflows are disrupted. New tickets cannot be created,
@@ -96,7 +96,7 @@ Disruption of service from TripActions or internal chat tool (Slack).
 
 ### Communication Plan and Role Assignments
 
-When it comes to a disaster, communication is of the essence. A plan is essential because it puts all team-members on the same page and clearly outlines all communication. Documents should all have updated team-member contact information and team-members should understand exactly what their role is, in the days following the triggering of the BC plan. Assignments like setting up workstations, assessing damage, redirecting phones and other tasks will need assignments if you don’t have some sort of technical resource to help you sort through everything.
+When it comes to a disaster, communication is of the essence. A plan is essential because it puts all team-members on the same page and clearly outlines all communication. Documents should all have updated team-member contact information and team-members should understand exactly what their role is, in the days following the triggering of the BC plan. Assignments like setting up workstations, assessing damage, redirecting phones and other tasks will need assignments if you don't have some sort of technical resource to help you sort through everything.
 
 Each GitLab team should be trained and ready to deploy in the event of a disruptive situation requiring plan activation. The plan of action steps, procedures, and guidelines will be documented in their team runbooks page (currently under development) and should be available offline. This should have detailed steps on recovery capabilities, and instructions on how to return the system to normal operations.
 
@@ -104,7 +104,7 @@ More details on this will be covered in the `BC plan - roles & responsibilities 
 
 ### Backup check
 
-[Make sure that backups are performed daily](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html), and include running an additional full local backup on all servers and data in the Business Continuity preparation plan. Run them as far in advance as possible tp ensure that they’re backed up to a location that will not be impacted by the disaster. [Alternate storage provisioning](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html).
+[Make sure that backups are performed daily](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md), and include running an additional full local backup on all servers and data in the Business Continuity preparation plan. Run them as far in advance as possible tp ensure that they're backed up to a location that will not be impacted by the disaster. [Alternate storage provisioning](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
 
 ### Distribute and Verify the Plan / Approval from Senior management
 
@@ -133,7 +133,7 @@ GitLab's first test of the business continuity plan was performed in April 2020 
 
 - To ensure that the current backup facilities and procedures are feasible and compatible to achieve the determined RTO.  Can backup systems withstand a cyberattack.
 - To confirm that your continuity objectives are met (RTO and RPO). Accordingly provide training to the team managers and team members.
-- To evaluate the company’s response to various kinds of disruptive events .. Emergency communication strategy, is it functioning as expected. - How quickly can everyone be informed about an incident.
+- To evaluate the company's response to various kinds of disruptive events .. Emergency communication strategy, is it functioning as expected. - How quickly can everyone be informed about an incident.
 - To identify areas in the plan that need modification. Improve systems and processes based on test findings. And accordingly maintain and update the BC plan.
 
 ### Testing the plan
@@ -158,7 +158,7 @@ Some testing scenarios that can be performed, are given below:
         - Server/drive crash
         - Datacenter outage
     - Data is mission-critical and losing it can have many serious consequences, such as significantly impacting sales and logistics applications.
-    - The goal is to regain access to that data as soon as possible. Restoring backup is the solution. However, who’s responsible for that? What’s the communication plan in this case? What are the priorities? Who needs to be contacted right away? Are there any vendors involved? These and many other questions will be answered during this test.
+    - The goal is to regain access to that data as soon as possible. Restoring backup is the solution. However, who's responsible for that? What's the communication plan in this case? What are the priorities? Who needs to be contacted right away? Are there any vendors involved? These and many other questions will be answered during this test.
 
 1. Data Recovery Testing
 
@@ -174,7 +174,7 @@ Some testing scenarios that can be performed, are given below:
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/#information-security-policy-exception-management-process).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

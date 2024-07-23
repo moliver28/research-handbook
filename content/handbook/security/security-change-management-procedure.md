@@ -1,7 +1,6 @@
 ---
 title: "Security Change Management Procedure"
 description: "Change management procedure for the Security Division."
-controlled_document: true
 ---
 
 ## Purpose
@@ -57,9 +56,9 @@ An emergency change follows the same approval process as [comprehensive](#compre
 
 | Role | Responsibility |
 | ------ | ------ |
-| **[Security Governance]({{< ref "./security-assurance/governance" >}})** | Maintain a security change management procedure to intake and respond to change management activities |
+| **[Security Governance](security-assurance/governance/)** | Maintain a security change management procedure to intake and respond to change management activities |
 | | Maintain Metrics |
-| **[Security Compliance]({{< ref "./security-assurance/security-compliance" >}})** | Provide oversight to ensure changes are being made in accordance with compliance obligations |
+| **[Security Compliance](security-assurance/security-compliance/)** | Provide oversight to ensure changes are being made in accordance with compliance obligations |
 | **Requestor** | Complete the change management issue |
 | | Work with the Technical Owner to document, test, and obtain approval(s) for the change |
 | **Technical Owner** | As defined in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). Review and provide approval prior to the change being implemented |
@@ -121,10 +120,10 @@ The CAB Review is designed to provide leadership oversight and approval of high 
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 
 - [Change Management Policy]({{< ref "change-management-policy." >}})
-- [Controlled Documents Procedure](/handbook/engineering/security/controlled-document-procedure.html)
-- [Controlled Documents Annual Review Program](/handbook/engineering/security/controlled-document-program.html)
+- [Controlled Documents Procedure](/handbook/security/controlled-document-procedure/)
+- [Controlled Documents Annual Review Program](/handbook/security/controlled-document-procedure/#review)

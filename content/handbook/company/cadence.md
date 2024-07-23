@@ -1,5 +1,4 @@
 ---
-
 title: "Cadence"
 description: "Everything in a company happens in a certain cadence. The period of each cadence differs. Learn about the cadences we have at GitLab."
 ---
@@ -83,7 +82,7 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [Strategy](/handbook/company/strategy/)
 1. [3-year product direction strategy](https://about.gitlab.com/direction/#3-year-strategy)
 1. [Long range outlook](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro)
-1. [Restricted stock unit vesting](/handbook/stock-options/#vesting) after cliff of six months is passed
+1. [Restricted stock unit vesting](/handbook/total-rewards/stock-options/#vesting) after cliff of six months is passed
 1. Average retention of team members is around 3 years
 
 ## Year
@@ -103,20 +102,21 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)
 1. [Quarterly Kickoff](/handbook/ceo/office-of-the-ceo/#quarterly-kickoff)
 1. [Earnings activities](/handbook/finance/investor-relations/)
-1. [Key Reviews](/handbook/key-review/)
-1. [Group Conversations](/handbook/group-conversations/)
+1. [Key Reviews](/handbook/company/key-review/)
+1. [Group Conversations](/handbook/company/group-conversations/)
+1. [Quarterly touchpoint meetings](/handbook/company/offsite/#quarterly-touchpoint-meetings)
 
 ## Month
 
 1. [Release](https://about.gitlab.com/releases/)
 1. [Retrospective](/handbook/communication/#kickoffs)
 1. [Most KPIs](/handbook/company/kpis/)
-1. [Monthly touchpoint meetings](/handbook/company/offsite/#monthly-touch-point-meetings)
+1. **Note**: while Key Reviews, E-Group Offsites, and Quarterly Touch Points each happen on a quarterly basis, we aim to space these out throughout the quarter, so we have a set time for business deep dives on a monthly basis.
 
 ## Week
 
 1. [1-1 cadence with reports](/handbook/leadership/1-1/)
-1. [E-Group Weekly](/handbook/e-group-weekly/)
+1. [E-Group Weekly](/handbook/company/e-group-weekly/)
 
 ## Gantt Chart
 

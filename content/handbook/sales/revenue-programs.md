@@ -1,16 +1,7 @@
 ---
-
 title: "Sales Revenue Programs"
 description: "The purpose of GitLab's Revenue Program is to improve the quantity of opportunities and closed business with defined, cross-functional sales motions to ultimately generate more ARR for GitLab."
 ---
-
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -25,6 +16,7 @@ The purpose of GitLab's Revenue Program is to improve the quantity of opportunit
 ### What are Value Plays
 
 A prescribed, structured set of steps or activities that field team members & partners follow to deliver a customer solution (product or suite of products & services that business purchase to solve business problems).  Value plays are solutions to the value drivers that organizations are looking to achieve. Attributes of a good value play include, but are not limited to:
+
 - A defined and manageable list of accounts/prospects
 - An ideal customer profile and targer personas
 - Customer challenges & solution overview
@@ -33,5 +25,3 @@ A prescribed, structured set of steps or activities that field team members & pa
 - GitLab differentiators & proof points
 - Supporting partners and services offerings
 - A call to action or high value offer
-
-

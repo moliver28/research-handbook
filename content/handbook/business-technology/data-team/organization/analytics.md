@@ -18,17 +18,17 @@ Of the [Data Team's Responsibilities](/handbook/business-technology/data-team/#r
 Additionally, the **Data Analytics Team** supports the following responsibilities
 
 - With the **Data Leadership Team**:
-    - Defining and publishing a Data Strategy to help maximize the value of GitLab's Data Assets
-    - Broadcasting regular updates about data deliverables, ongoing initiatives, and upcoming plans
+  - Defining and publishing a Data Strategy to help maximize the value of GitLab's Data Assets
+  - Broadcasting regular updates about data deliverables, ongoing initiatives, and upcoming plans
 - With the [**Data Platform Team**](/handbook/business-technology/data-team/organization/engineering/#data-platform-responsibilities):
-    - Building and maintaining the company's central Enterprise Data Warehouse to support Reporting, Analysis, Dimensional Modeling, and Data Development for all GitLab teams
-    - Developing Data Management features such as master data, reference data, data quality, data catalog, and data publishing
-    - Providing Self-Service Data capabilities to help everyone leverage data and analytics
-    - Helping to define and champion Data Quality practices and programs for GitLab data systems
+  - Building and maintaining the company's central Enterprise Data Warehouse to support Reporting, Analysis, Dimensional Modeling, and Data Development for all GitLab teams
+  - Developing Data Management features such as master data, reference data, data quality, data catalog, and data publishing
+  - Providing Self-Service Data capabilities to help everyone leverage data and analytics
+  - Helping to define and champion Data Quality practices and programs for GitLab data systems
 
 ## Handbook First on the Data Analytics Team
 
-At GitLab we are [Handbook First](/handbook/handbook-usage/#why-handbook-first) and drive this by:
+At GitLab we are [Handbook First](/handbook/about/handbook-usage/#why-handbook-first) and drive this by:
 
 1. Helping our Business Partners (all GitLab team members) update the handbook with the most up-to-date and accurate information.
 1. Reviewing content and ensure that the information in the handbook best represents the data, taking into account data sensitivity and security.

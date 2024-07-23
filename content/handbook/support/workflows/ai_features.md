@@ -1,12 +1,9 @@
 ---
-
 title: AI Workflow
 category: GitLab.com, Self-Managed
 subcategory: AI
 description: "Workflow for ticket related to our AI Features"
 ---
-
-
 
 ## Overview
 
@@ -43,7 +40,7 @@ For both Self-Managed and GitLab.com, impersonating the customer's account is th
 1. Locate the customer's CustomersDot account by searching using the customer's email domain in https://customers.gitlab.com/admin/customer.
 1. Impersonate the CustomersDot account that has a `Subscription` label and check the details for **Duo Pro seats**
 
-  - NOTE: Always check the **start and end date** of the Duo Pro add-on seats
+   - NOTE: Always check the **start and end date** of the Duo Pro add-on seats
 
 Other optional methods are below:
 
@@ -61,7 +58,7 @@ and [Display if a user has Duo Pro seat assigned in Admin page](https://gitlab.c
 
 ## How to check if a customer has a valid GitLab Duo Pro trial
 
-When a customer follows [these steps to start a GitLab Duo Pro trial](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#start-gitlab-duo-pro-trial), they get a 30 day trial for a maximum of 50 seats by default.
+When a customer follows [these steps to start a GitLab Duo Pro trial](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#start-gitlab-duo-pro-trial), they get a 60 day trial for a maximum of 50 seats by default.
 
 ### Self-Managed Duo Pro trials
 
@@ -79,3 +76,15 @@ All GitLab.com Duo Pro trials can be located using this query: https://customers
 1. Locate an order that has plan `saas-gitlab-duo-pro-trial-plan-id`.
 1. If you have GitLab.com Admin access, verify the GitLab group has Duo Pro by [checking the Usage Quotas page](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#for-gitlabcom).
    - **NOTE**: Always check the **start and end date** of the Duo Pro.
+
+### Troubleshooting AI
+
+While we have customer facing [troubleshooting documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/troubleshooting.html), you can also look for more information in Kibana `pubsub-mlops-inf-gprd-*` index. Use one of the following keywords to search:
+
+- `json.jsonPayload.gitlab_host_name`, the value for GitLab.com is `gitlab.com`.
+- `json.jsonPayload.url`, `https://codesuggestions.gitlab.com/` for GitLab Code Suggestion and `https://cloud.gitlab.com/v1/chat/agent` for GitLab Duo chat.
+
+When troubleshooting make sure to get debug logs for [the relevant extension](http://gitlab.com/gitlab-org/editor-extensions).
+You can [get help from Dev section](how-to-get-help.md#list-of-development-sections-and-corresponding-links-to-the-projects-for-requesting-help) using the [Editor Extensions](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/blob/main/.gitlab/issue_templates/SupportRequestTemplate-EditorExtensions.md) or [AI Framework](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/blob/main/.gitlab/issue_templates/SupportRequestTemplate-aiframework.md?ref_type=heads).
+
+Feel free to open issues for how AI team can collaborate with support team in the editor extensions Team issue tracker https://gitlab.com/gitlab-org/editor-extensions/meta/-/issues.

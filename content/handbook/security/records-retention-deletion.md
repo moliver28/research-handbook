@@ -75,7 +75,7 @@ The below retention and secure disposal requirements apply to all GitLab records
 
 ## Exceptions
 
-Exceptions to these requirements will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to these requirements will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

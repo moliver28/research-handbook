@@ -1,5 +1,4 @@
 ---
-
 title: Personal Data Removal Requests
 category: GitLab.com
 subcategory: Legal

@@ -72,7 +72,7 @@ else's.
 ## Code Inspections
 
 One of the powerful and productivity-enhancing features of JetBrains IDEs is
-[Code Inspections](<https://www.jetbrains.com/help/ruby/running-inspections.html>
+[Code Inspections](https://www.jetbrains.com/help/ruby/running-inspections.html)
 
 See more details at [Code Inspection](code-inspection)
 

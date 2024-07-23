@@ -1,5 +1,4 @@
 ---
-
 title: Marketing Analytics
 description: >-
   Marketing Analytics supports the entire Marketing team to
@@ -29,7 +28,6 @@ Marketing Analytics supports the entire Marketing team to develop and execute a 
 **Slack channels**
 
 We can be reached via our own [#mktg-analytics](https://gitlab.slack.com/archives/C01HTAYQBM5) channel, although we also monitor the general [#marketing](https://gitlab.slack.com/archives/C0AKZRSQ5) channel and [#mktgops](https://gitlab.slack.com/archives/mktgops). We attempt to [avoid direct messages](/handbook/communication/#avoid-direct-messages) where possible as it discourages collaboration.
-
 
 ## <i id="biz-tech-icons" class="far fa-life-ring"></i>How to Get Help
 
@@ -75,8 +73,9 @@ Marketing Analytics uses the Fibonnacci sequence when creating [issue weights](h
 We follow a weekly triage schedule and alternate responsibility between the team. You can see who is currently on triage with our shared [Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y185YTczZjgzOWQyOWUyY2U3MDEwYjkyNTJmYzFmY2U2NTYzM2MyMzBiOGQxNzk5NmY4ZDIyODkxOGVlNmM1ZWM5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
 During your rotation, you are expected to:
-  - Triage new issues in our board according to our stakeholder alignment, checking at least twice per day.
-  - Triage or help with new messages in [#mktg-strat-analytics](https://gitlab.slack.com/archives/C01HTAYQBM5)
+
+- Triage new issues in our board according to our stakeholder alignment, checking at least twice per day.
+- Triage or help with new messages in [#mktg-strat-analytics](https://gitlab.slack.com/archives/C01HTAYQBM5)
 
 Dennis is responsible for all web analytics triage.
 
@@ -177,19 +176,17 @@ To give each functional marketing team has a single point of contact for marketi
 - [Marketing Metrics](/handbook/marketing/strategy-performance/marketing-metrics)
 - [Dashboards Page](dashboards)
 
-## <i id="biz-tech-icons" class="fas fa-toolbox"></i>We are the Bussiness Owners Of the Following Applications: 
+## <i id="biz-tech-icons" class="fas fa-toolbox"></i>We are the Bussiness Owners Of the Following Applications
 
 - [Bizible](/handbook/marketing/marketing-operations/bizible/)
 - [Allocadia](/handbook/marketing/strategy-performance/allocadia/)
 - Google Analytics
-
 
 ### Requesting access to an existing tool
 
 To request access to Bizible or Allocadia, [please follow the access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
 
 If you are working with a contractor or consultant that requires access to one of these tools, [please follow the professional services access request process](/handbook/finance/procurement/) as outlined in the procurement handbook.
-
 
 ## Campaigns and Programs
 

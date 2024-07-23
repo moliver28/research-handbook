@@ -1,5 +1,4 @@
 ---
-
 title: "Jane Gianoutsos' README"
 description: "Personal readme page for Jane Gianoutsos, Support Engineering Manager, GitLab"
 job: "Manager, Support Engineering (APAC)"
@@ -9,7 +8,7 @@ job: "Manager, Support Engineering (APAC)"
 
  👣 [Everything is in draft](/handbook/values/#everything-is-in-draft) - that includes this!  I welcome all feedback! You are very welcome to contribute to this page by opening a merge request.*
 
-**Jane Gianoutsos - Manager, Support Engineering (APAC)** This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+**Jane Gianoutsos - Manager, Support Engineering (APAC)** This page is intended to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
 You'll find as you read this I've made a clear decision to be very intentionally vulnerable.  Trust is earned, and I hope to offer you in this a basis for why you might trust me, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.  Come as you are, I take you as you come and hope you will do the same for me.
 
@@ -23,22 +22,19 @@ I'm a serial hobby-ist who loves learning new skills, but once it starts getting
 
 ## About transparency
 
-I wear my heart on my sleeve, I'm very honest about what I struggle with, and I struggle to be as generous with myself about what I'm good (or great!) at.  Meanwhile, I love to encourage others - I'm passionate about the power of words and their impact on us. It's often in encouraging others that I notice I need to pause and take my own advise - thank you for any opportunity for that!
+I wear my heart on my sleeve, I'm very honest about what I struggle with, and I struggle to be generous with myself about what I'm good (or great!) at.  Meanwhile, I love to encourage others - I'm passionate about the power of words and their impact on us. It's often in encouraging others that I notice I need to pause and take my own advise - thank you for any opportunity for that!
 
 Sometimes people think my face says things that I'm not intending! If I look focused and overly serious in a concerning way, and you're wondering why, please ask, it's most likely that I'm trying (and failing) to multitask, or I'm wrestling with some insistent thought going through my mind.
 
 ## About things I'm passionate about
 
-Honoring my opening statement, this is a rough start at expressing my passion for creating and holding space where all people can thrive.  I have a disregulated nervous system and a disability. I am incredibly passionate about neurodiversity and identity and accessibility and belonging.  I don't know what else to say about that yet, but I welcome chatting and learning together.
+Honoring my opening statement, this is a rough start at expressing my passion for creating and holding space where all people can thrive.  I have a disregulated nervous system and a disability. I am incredibly passionate about neurodiversity and identity and accessibility and belonging.  I welcome chatting and learning together.
 
 ## About working together
 
 - What's going on in your life doesn't stop just because you're at work. Please don't feel you can't talk about something because it's 'not work related'. Life is messy, let's work together to make it a little easier.
-
-- I deeply respect your dignity and I count it a privilege that I get to do a little bit of life with you.  
-
+- I deeply respect your dignity and I count it a privilege that I get to do a little bit of life with you.
 - I'm very at ease with emotion, I don't attach shame to tears, some things just need that release, it's incredibly healthy and part of being fully human.
-
 - I'm here to help - I won't always have the answers and I don't expect myself to (just as I don't expect that of you), but even if it feels off-topic, please reach out.
 
 ## What I assume about others
@@ -52,8 +48,8 @@ You can assume the same about me in all instances.
 
 ## About Communicating with me
 
-- I'm not a morning person, I'm usually online around 9:30am NZT, but I tend to avoid meetings for the first 30 minutes to give me time to be a bit more human and clear out overnight messages. I am still available at this time.
-
+- I'm usually online around 9:30am NZT, but I tend to avoid meetings for the first 30 minutes to give me time to be a bit more human and clear out overnight messages. I am still available at this time.
+- For my mental well-being, I seek to finish work by 6pm local time (NZT) to give myself time for family and relaxation. Sometimes this isn't possible due to on-call responsibilities which finish at 8pm or 9pm depending on time of year, but I limit my work activity to those oncall needs after 6pm on those days.
 - I don't like being expected to read between the lines, and I don't expect you to either. Please be as open and direct as you feel comfortable being and if you're struggling with that, let me know and we can work it out together.
 
 ---
@@ -72,7 +68,7 @@ Recent hobbies these have included:
 - acrylic painting (I paint emotions, and my general guideline is "if my husband likes it, I'm not painting in my personal style" - it's a bit of a standing joke in my household!),
 - [calligraphy](https://www.instagram.com/p/BkNIQCjlXBc/),
 - book-binding,
-- [zentangle](https://www.instagram.com/p/BwBNKd3hidH/).  
+- [zentangle](https://www.instagram.com/p/BwBNKd3hidH/).
 - boardgames!
 - Dr Who
 - Reading - fairly eclectic taste, but for escapism: sci-fi and a bit of fantasy
@@ -80,4 +76,3 @@ Recent hobbies these have included:
 Further back hobbies included [crochet](https://www.flickr.com/photos/unplain-jane/albums/72157608410004917), [sewing](https://www.flickr.com/photos/unplain-jane/albums/72157622880198139), [New Zealand Sign Language](https://www.nzsl.nz/) (sadly I've forgotten most of what I learnt),  [photography](https://www.flickr.com/photos/unplain-jane/albums/72157616370056642).
 
 Way back hobbies included horse-riding, singing, playing guitar, Hamilton Community Gospel Choir, softball, Girl Guides (yep, that far back!)
-

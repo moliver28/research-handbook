@@ -1,5 +1,4 @@
 ---
-
 title: MLOps Incubation Engineering Updates & Showcases
 ---
 
@@ -28,9 +27,3 @@ https://youtu.be/BRsU4TGawg8
 ### Previous Updates
 
 [Prior Updates](https://gitlab.com/gitlab-org/incubation-engineering/mlops/meta/-/issues/16)
-
-
-
-
-
-

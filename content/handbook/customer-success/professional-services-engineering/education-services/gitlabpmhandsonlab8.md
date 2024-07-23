@@ -1,5 +1,5 @@
 ---
-title: "GitLab Project Management - Hands-On Lab: Create And Manage A Kanban Board"
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Create And Manage A Kanban Board"
 description: "This Hands-On Guide walks you through creating and managing a Kanban board via issue boards."
 ---
 
@@ -25,19 +25,19 @@ Kanban boards show you the progress of all tickets in your project, as they move
 
 1. Click the **New Epic** button in the top right.
 
-1. Type `Frontend` into the the **Title (required)** field. We will be leaving all the other fields of the epic blank.
+1. Type `Frontend` into the **Title (required)** field. We will be leaving all the other fields of the epic blank.
 
 1. Click **Create epic**.
 
 1. Click the **New Epic** button in the top right.
 
-1. Type `Backend` into the the **Title (required)** field. We will be leaving all the other fields of the epic blank.
+1. Type `Backend` into the **Title (required)** field. We will be leaving all the other fields of the epic blank.
 
 1. Click **Create epic**.
 
 1. Click the **New Epic** button in the top right.
 
-1. Type `QA` into the the **Title (required)** field. We will be leaving all the other fields of the epic blank.
+1. Type `QA` into the **Title (required)** field. We will be leaving all the other fields of the epic blank.
 
 1. Click **Create epic**.
 
@@ -51,7 +51,7 @@ Kanban boards show you the progress of all tickets in your project, as they move
 
 1. Click the **Create from template** option in the top right section.
 
-1. Scroll to the bottom of the built-in templates. Next to **Sample GitLab Project**, click on **Preview** to see see the project in a new tab. It is always important to preview a project before using it as a template.
+1. Scroll to the bottom of the built-in templates. Next to **Sample GitLab Project**, click on **Preview** to see the project in a new tab. It is always important to preview a project before using it as a template.
 
 1. After you have explored the template, return to your previous tab, and click **Use template**.
 

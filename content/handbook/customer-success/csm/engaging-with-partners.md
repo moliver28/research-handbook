@@ -1,11 +1,8 @@
 ---
-
 title: "Engaging with Partners"
 ---
 
 ## Process for Engaging with Partners in [CSM-Assigned](/handbook/customer-success/csm/segment/) Customer Accounts
-
-
 
 ### Pre-Customer Kick-Off or 1st Engagement
 
@@ -21,29 +18,21 @@ title: "Engaging with Partners"
 
    - Determine agreed next steps from the Kick-Off call including agreement with customer of ongoing cadence of engagement
 
-
-
 ### Customer Onboarding
 
 1. [GitLab's process and metrics for successful onboarding can be found here](/handbook/customer-success/csm/onboarding/#time-to-first-value).
 
 1. CSM and Partner are to work together to ensure the best possible experience for the customer, while not impacting key metrics such as Time to Engage and Time to 1st Value wherever possible.
 
-
-
 ### Ongoing Cadence Calls
 
 1. The CSM team follows these [guidelines in holding cadence calls with customers](/handbook/customer-success/csm/cadence-calls/). The CSM is to work with the Partner to align on how they can collaborate in regard to touchpoints with the customer, creating a seamless customer experience
-
-
 
 ### Executive Business Reviews (EBR)
 
 1. The CSM holds an EBR with their customer around month 6 of each contract year, [the process for the EBR can be found here](/handbook/customer-success/csm/ebr/)
 
 1. Prior to setting up any EBR, the CSM is to sync with the partners to determine who will invite the customer, and collaborate on the content taking into account the GitLab template and the strategic initiatives of the partner.
-
-
 
 ### Measuring Customer Health
 

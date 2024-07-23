@@ -30,7 +30,7 @@ In response to a question on whether or not all-remote is infinitely scalable, o
 >
 > A team in one room works really well. A team on one floor probably works OK. A team on multiple floors, you start having some problems. A team across multiple offices, it gets even harder. A team in multiple cities, it gets even harder. A team on multiple continents, that gets super hard. That model breaks down.
 >
-> There's very little benefit to colocation if you're such a big company. While the benefits of remote — [writing down your processes](/handbook/documentation), stimulating cross-company [informal communication](./informal-communication/) — those get much more pronounced at scale.
+> There's very little benefit to colocation if you're such a big company. While the benefits of remote — [writing down your processes](/handbook/product/ux/technical-writing/documentation/), stimulating cross-company [informal communication](informal-communication/) — those get much more pronounced at scale.
 >
 > It's not just that [all-remote] scales. It scales way better. - *GitLab co-founder and CEO Sid Sijbrandij*
 
@@ -45,9 +45,9 @@ What is often lost in pondering the feasibility of all-remote at scale is the in
 
 For a multinational corporation with even two offices, those two offices are remote to each other. While time zones are the bane of our existence at GitLab, they're no less thorny, for example, to an organization with one office in Singapore and another in Dallas.
 
-Reducing headaches related to collaboration across time zones is not a problem which is unique or exclusive to remote. Because all-remote forces a company to lean heavily on [documentation]({{< ref "./management#handbook-goals-and-documentation" >}}) of culture and process from the start, a fully remote organization can adapt to the addition of new team members in new time zones with greater poise.
+Reducing headaches related to collaboration across time zones is not a problem which is unique or exclusive to remote. Because all-remote forces a company to lean heavily on [documentation](management/#handbook-goals-and-documentation) of culture and process from the start, a fully remote organization can adapt to the addition of new team members in new time zones with greater poise.
 
-Too, colocated corporations which do not default to [asynchronous communication]({{< ref "./management#asynchronous" >}}) in one office will likely struggle to operate in this manner when collaborating with colleages in a difference office.
+Too, colocated corporations which do not default to [asynchronous communication](management/#asynchronous) in one office will likely struggle to operate in this manner when collaborating with colleagues in a difference office.
 
 ### Real estate costs
 
@@ -79,9 +79,9 @@ In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRT
 
 > The more widespread an organization is, the less it benefits from being colocated. An all-remote organization will have to adopt the processes you'd use to control an organization at scale.
 >
-> [Writing things down]({{< ref "values#write-things-down" >}}), [recording things](/handbook/marketing/marketing-operations/youtube/), and [working asynchronously]({{< ref "./management#asynchronous" >}}) — we have to master those things early, so they become more prevalent in the organization. Hence, they are easier to scale.
+> [Writing things down](/handbook/values/#write-things-down), [recording things](/handbook/marketing/marketing-operations/youtube/), and [working asynchronously](management/#asynchronous) — we have to master those things early, so they become more prevalent in the organization. Hence, they are easier to scale.
 >
-> For example, we have the best [onboarding process]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}) of any company in the world. It's not perfect — I can see lots of room for improvement — but no other company has [250+ tasks](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md#all-gitlabbers) you need to complete when onboarding.
+> For example, we have the best [onboarding process](learning-and-development/#how-do-you-onboard-new-team-members) of any company in the world. It's not perfect — I can see lots of room for improvement — but no other company has [250+ tasks](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md#all-gitlabbers) you need to complete when onboarding.
 >
 > That's more useful at scale. We just hired 600 people in 2019, and they were all able to benefit from that. — *GitLab co-founder and CEO Sid Sijbrandij*
 
@@ -91,7 +91,7 @@ A rapidly growing firm is able to grow even more quickly as an all-remote team, 
 
 ### Hiring
 
-By opening one's [hiring pipeline to the world]({{< ref "./hiring" >}}), you're able to capture a more diverse array of applicants. You're also able to recruit individuals who may otherwise opt out of the workforce completely, such as stay-at-home parents, caregivers, and military spouses.
+By opening one's [hiring pipeline to the world](hiring/), you're able to capture a more diverse array of applicants. You're also able to recruit individuals who may otherwise opt out of the workforce completely, such as stay-at-home parents, caregivers, and military spouses.
 
 By paying [local rates](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates/), an all-remote company can save money on hiring costs overall and hire more people. By removing the "Are you willing to relocate?" question from the interview process, hiring teams are able to focus on what actually matters: aptitude, drive, passion, empathy, and one's ability to add value to the company.
 
@@ -107,7 +107,7 @@ Conversely, small colocated teams are apt to eschew documentation with the assum
 
 As any team scales, greater depths of organizational knowledge are acquired. Each additional hire brings in added expertise and experience. In a colocated setting, this influx of knowledge takes place, but it is unequally disseminated. Those physically close to the next new person are most likely to reap the benefits, while those in a different office — or even a different floor — will be disadvantaged in gleaning the same insights.
 
-In an all-remote setting, everyone is equidistant in practical terms. When your "office" is a Slack room, there is less friction in reaching out to a new employee to seek advice. This has a profound impact at scale, and contributes to a more [transparent]({{< ref "values#transparency" >}}) work climate.
+In an all-remote setting, everyone is equidistant in practical terms. When your "office" is a Slack room, there is less friction in reaching out to a new employee to seek advice. This has a profound impact at scale, and contributes to a more [transparent](/handbook/values/#transparency) work climate.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

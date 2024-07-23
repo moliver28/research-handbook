@@ -100,7 +100,7 @@ To notify JiHu of an upcoming security release, please simply post a comment in:
 
 GitLab Inc will follow the [documented vulnerability disclosure process](https://about.gitlab.com/security/disclosure/#vulnerability-disclosure) and will not provide detailed information about vulnerabilities directly to JiHu. No information will be shared prior to or during an in-progress security release.
 
-Only after a GitLab [security release](https://about.gitlab.com/handbook/engineering/releases/security-releases/), GitLab Inc may provide JiHu with:
+Only after a GitLab [security release](/handbook/engineering/releases/security-releases/), GitLab Inc may provide JiHu with:
 
 - A link to the public security release blog post
 - A link to the GitLab issue describing the vulnerability, which will remain confidential until 30 days after the release in which the vulnerability was patched
@@ -190,5 +190,5 @@ We differentiate proprietary features for JiHu distributions by including them i
 ## Links
 
 - [GitLab licensed its technology to new independent Chinese company](https://about.gitlab.com/blog/2021/03/18/gitlab-licensed-technology-to-new-independent-chinese-company/)
-- [GitLab licensing technology to independent Chinese company FAQ](/handbook/faq-gitlab-licensing-technology-to-independent-chinese-company/)
+- [GitLab licensing technology to independent Chinese company FAQ](/handbook/company/faq-gitlab-licensing-technology-to-independent-chinese-company/)
 - [China Service Working Group](/handbook/company/working-groups/china-service/)

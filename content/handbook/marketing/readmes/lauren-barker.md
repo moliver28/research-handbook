@@ -29,7 +29,7 @@ To keep notes, we have an ongoing Google document and for topic inspiration, we 
 
 #### Myers-Briggs Personality type
 
-🔗[**“The Protagonist”** (ENFJ-A/ENFJ-T)](https://www.16personalities.com/articles/assertive-protagonist-enfj-a-vs-turbulent-protagonist-enfj-t)
+🔗[**"The Protagonist"** (ENFJ-A/ENFJ-T)](https://www.16personalities.com/articles/assertive-protagonist-enfj-a-vs-turbulent-protagonist-enfj-t)
 
 **Individual traits:**
 
@@ -69,8 +69,8 @@ These are books that have made an impact on me along with a great book on baking
 - 📖 I'm a lifelong learner who values knowledge and teamwork.
 - 🍸 Coffee or wine please.
 
-
 ### How to reach me
+
 In order of my own preferences, but please use whatever channel suits you best:
 
 GitLab TODOs `@laurenbarker`

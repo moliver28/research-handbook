@@ -4,12 +4,12 @@ title: "Delivery Team Metrics"
 description: "The Delivery Team enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com and self-managed customers."
 ---
 
-# Metrics
+## Metrics
 
-[Delivery team] uses Mean Time To Production (MTTP) as an indicator of our speed capabilities
+[Delivery team](../_index.md) uses Mean Time To Production (MTTP) as an indicator of our speed capabilities
 to deploy application changes into production.
 
-- [Performance Indicator]
+- [Performance Indicator](../../performance-indicators/#mean-time-to-production-mttp)
 - **Target: 12 hours.**
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/MTTP" >}}
@@ -49,11 +49,7 @@ end-to-end overview of the various environments and [deployment process](/handbo
 
 ![Deployment SLO apdex](https://gitlab.com/api/v4/projects/430285/jobs/artifacts/master/raw/deployment-slo-apdex.png?job=refresh-delivery-slo-apdex-graph)
 
-Next: Include [Deployment SLO metric as part of our release process]
-
-[Delivery team]: /handbook/engineering/infrastructure/team/delivery/
-[Performance Indicator]: /handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp
-[Deployment SLO metric as part of our release process]: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/533
+Next: Include [Deployment SLO metric as part of our release process](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/533)
 
 ### Release Manager workload metrics
 

@@ -1,19 +1,13 @@
 ---
-
 title: "Cameron Persona snippets"
 ---
-
-
-
-
-
-
 
 ## SDR persona snippets by use case
 
 ### [Cameron (Compliance Manager)](/handbook/product/personas/#cameron-compliance-manager)
 
 **Overview**
+
 - description
 
 #### [VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)

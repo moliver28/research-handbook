@@ -4,15 +4,9 @@ title: "Nikki Roth Silverberg README (Staff Marketing Operations Manager)"
 description: "Learn more about working with Nikki Roth Silverberg"
 ---
 
-
-
-
-
-
-
 ## README: Nikki Roth Silverberg
 
-👋 I’m Nikki! I created this README to help people get to know me better and to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+👋 I'm Nikki! I created this README to help people get to know me better and to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
 Please feel free to contribute to this page by opening a merge request.
 
@@ -28,6 +22,7 @@ Please feel free to contribute to this page by opening a merge request.
 - In early 2023, I was diagnosed with ADHD. It's been an interesting journey to unpack this diagnosis as an adult but ultimately has been a powerful opportunity for self-discovery and development.
 
 ## My Values at Work
+
 - Integrity
 - Autonomy
 - Flexibility
@@ -50,35 +45,35 @@ Please feel free to contribute to this page by opening a merge request.
 ## Growth Opportunities (and how you can help me)
 
 - **Focus**: I am easily excited by new ideas. This can be a strength, but it can also distract me from working on what's most important/impactful.
-    - How you can help me: Please feel free to nudge me about a project if you are not getting what you need from me.
+  - How you can help me: Please feel free to nudge me about a project if you are not getting what you need from me.
 - **Energy Fade**: Similar to my challenges focusing, I often start a new project with a head full of steam, but can lose energy over time.
-    - How you can help me: It helps me to be reminded of why a project is important and what impact it will have. When I lose steam, it can also be helpful to schedule a working session where we re-group synchronously.
+  - How you can help me: It helps me to be reminded of why a project is important and what impact it will have. When I lose steam, it can also be helpful to schedule a working session where we re-group synchronously.
 - **Practicality**: I tend to get stuck thinking about the big picture and can struggle to be concerned with the practical or tactical.
-   - How you can help me: In this situation, it can be really helpful to sync up and talk through what specifically needs to get done to move a project forward.
+  - How you can help me: In this situation, it can be really helpful to sync up and talk through what specifically needs to get done to move a project forward.
 - **Giving Critical Feedback**: I can be hesitant to give critical feedback and prefer to prioritize keeping the peace. I am actively working on this, both personally and professionally.
-   - How you can help me: Ask me for feedback if you're comfortable. Let me know how I did if I give you critical feedback.
+  - How you can help me: Ask me for feedback if you're comfortable. Let me know how I did if I give you critical feedback.
 - **Clarity**: Because of my curiosity and tendency to think deeply, I can sometimes overwhelm and confuse people.
-   - How you can help me: Feel free to ask clarifying questions and/or let me know if something I'm explaining isn't clear.
+  - How you can help me: Feel free to ask clarifying questions and/or let me know if something I'm explaining isn't clear.
 
 ## Working with me
 
 - **What gives me energy**:
-    - Big picture, strategic projects
-    - Organizational leadership and thinking about how we work
-    - Continuous improvement and process improvement
-    - Coaching and helping other people
+  - Big picture, strategic projects
+  - Organizational leadership and thinking about how we work
+  - Continuous improvement and process improvement
+  - Coaching and helping other people
 - **What takes energy**:
-    - Working on things that don't have clearly defines impact or that I don't perceive as important
-    - When I don't understand the purpose behind something
+  - Working on things that don't have clearly defines impact or that I don't perceive as important
+  - When I don't understand the purpose behind something
 - **Availability**:
-    - I typically work from 8:30am/9:00am to 5:00/6:00pm Mountain Time. I am protective of my non-working time and keep Slack/email on `Do Not Disturb` outside of my working hours.
+  - I typically work from 8:30am/9:00am to 5:00/6:00pm Mountain Time. I am protective of my non-working time and keep Slack/email on `Do Not Disturb` outside of my working hours.
 - **Communication and Meeting Preferences:**
-    - I prefer Slack and I try to respond as quickly as possible. I am not as responsive over email as I use it mostly for external communication. If something is truly urgent and I am not available on Slack, please text me.
-    - I manage my daily working with GitLab issues and To-Do’s. If something is time-sensitive or if I am blocking something, I appreciate it if you ping me about it in Slack.
-    - I keep my Google calendar up-to-date.
-    - Especially as someone with ADHD, I really appreciate having a meeting agenda with adequate time to prepare. I check my next day's agendas at the end of every working day and it really helps me if I can prepare in advance.
+  - I prefer Slack and I try to respond as quickly as possible. I am not as responsive over email as I use it mostly for external communication. If something is truly urgent and I am not available on Slack, please text me.
+  - I manage my daily working with GitLab issues and To-Do's. If something is time-sensitive or if I am blocking something, I appreciate it if you ping me about it in Slack.
+  - I keep my Google calendar up-to-date.
+  - Especially as someone with ADHD, I really appreciate having a meeting agenda with adequate time to prepare. I check my next day's agendas at the end of every working day and it really helps me if I can prepare in advance.
 - **Focus Time:**
-    - I try to block off focus time on my calendar at least once per day, Monday-Thursday, and as much of my working day on Fridays as possible. I am flexible with my focus time and understand that sometimes it is the only time for a meeting.
+  - I try to block off focus time on my calendar at least once per day, Monday-Thursday, and as much of my working day on Fridays as possible. I am flexible with my focus time and understand that sometimes it is the only time for a meeting.
 
 ## Personality Tests
 
@@ -105,7 +100,7 @@ Please feel free to contribute to this page by opening a merge request.
 ### Meyers Briggs
 
 - [INFJ-T](https://www.16personalities.com/infj-personality) - Introverted, Intuitive, Feeling, Judging, Turbulent - `Advocate`
-   - Advocates are quiet visionaries, often serving as inspiring and tireless idealists. These rare types are open-minded and imaginative, applying care and creativity.
+  - Advocates are quiet visionaries, often serving as inspiring and tireless idealists. These rare types are open-minded and imaginative, applying care and creativity.
 
 ## Thanks for Reading
 

@@ -6,7 +6,7 @@ title: "LEGACY: Privacy Statement"
 
 ### Introduction
 
-At GitLab, we take the privacy and security of your information seriously. This privacy statement (“Privacy Statement”) will explain how GitLab B.V. and GitLab, Inc. ("GitLab", "we", "our", "us") handle your personal data. "Personal Data," as used in this Privacy Statement, is information that identifies or can reasonably be linked directly or indirectly to an identifiable person. The privacy practices and standards detailed in this Privacy Statement apply to all data subjects globally, unless specifically noted otherwise. In particular, this Privacy Statement will touch on the following sections:
+At GitLab, we take the privacy and security of your information seriously. This privacy statement ("Privacy Statement") will explain how GitLab B.V. and GitLab, Inc. ("GitLab", "we", "our", "us") handle your personal data. "Personal Data," as used in this Privacy Statement, is information that identifies or can reasonably be linked directly or indirectly to an identifiable person. The privacy practices and standards detailed in this Privacy Statement apply to all data subjects globally, unless specifically noted otherwise. In particular, this Privacy Statement will touch on the following sections:
 
 What Personal Data does GitLab collect about me?
 What Personal Data is Not Collected by GitLab?
@@ -63,7 +63,7 @@ We may collect certain Personal Data automatically through your use of the Servi
 
 *Email marketing:* When we send you emails, they may include technology such as a web beacon, that tells us your device type, email client, and whether you have received and opened an email, or clicked on any links contained in the email.
 
-*Buttons, tools, and content from other companies:* The Services may include links or buttons to third-party services such as Facebook and Twitter. We may collect information about your use of these features. In addition, when you see or interact with these buttons, tools, or content, some information from your browser may automatically be sent to the other company. Please read that company’s privacy statement for more information.
+*Buttons, tools, and content from other companies:* The Services may include links or buttons to third-party services such as Facebook and Twitter. We may collect information about your use of these features. In addition, when you see or interact with these buttons, tools, or content, some information from your browser may automatically be sent to the other company. Please read that company's privacy statement for more information.
 
 ### Information from Third-Parties and Partners
 
@@ -163,15 +163,15 @@ You have the right to access, correct, restrict or delete your Personal Data, an
 
 You may exercise your choices and rights as follows:
 
-*To opt out of email marketing:* You may opt-out of email marketing by clicking the “unsubscribe” link located at the bottom of any marketing email you receive or by visiting our [preference center](https://about.gitlab.com/company/preference-center/) and unsubscribing. You may continue to receive transactional email messages about your account and the Service after you have unsubscribed.
+*To opt out of email marketing:* You may opt-out of email marketing by clicking the "unsubscribe" link located at the bottom of any marketing email you receive or by visiting our [preference center](https://about.gitlab.com/company/preference-center/) and unsubscribing. You may continue to receive transactional email messages about your account and the Service after you have unsubscribed.
 
 *To opt-out of Interest-based advertising:* If you wish to opt-out of interest-based advertising, please visit the Cookie Policy to see your options.
 
-*Request a copy of your information:* You may [request a copy of the Personal Data](/handbook/gdpr/) that GitLab has about you.
+*Request a copy of your information:* You may [request a copy of the Personal Data](/handbook/legal/privacy/gdpr/) that GitLab has about you.
 
 *Update your Information:*  If you already have an account, you may access, update, or alter your user profile information by logging into your account and updating profile settings.
 
-*To delete your Account:* If you only want to delete your SaaS account, you may do so by logging into your account and going to the “Delete my Account” option in your profile settings. If your intention is to delete your Personal Data across all systems, including your account, you need to fill out a [Personal Data Request Form](https://support.gitlab.io/account-deletion/) and select "Account Deletion (full)" in the "Request Type" dropdown menu. If your account is tied to a Company that has entered into a commercial relationship with GitLab, you will have to ask your Company administrator to remove your account from that corporate namespace before we can delete it. Once your account is no longer associated with that corporate namespace, GitLab will process your deletion request according to the process stated herein.
+*To delete your Account:* If you only want to delete your SaaS account, you may do so by logging into your account and going to the "Delete my Account" option in your profile settings. If your intention is to delete your Personal Data across all systems, including your account, you need to fill out a [Personal Data Request Form](https://support.gitlab.io/account-deletion/) and select "Account Deletion (full)" in the "Request Type" dropdown menu. If your account is tied to a Company that has entered into a commercial relationship with GitLab, you will have to ask your Company administrator to remove your account from that corporate namespace before we can delete it. Once your account is no longer associated with that corporate namespace, GitLab will process your deletion request according to the process stated herein.
 
 Please note that due to the open source nature of our Services, we may retain limited Personal Data indefinitely in order to provide a transactional history. For example, if you provide your information in connection with a blog post or comment, we may display that information even if you have deleted your account as we do not automatically delete community posts. Also, if you contribute to a public project (not owned by GitLab), and you provide your Personal Data in connection with that contribution, your Personal Data will be embedded and publicly displayed with your contribution, and we will not be able to delete or erase it because doing so would break the project.
 

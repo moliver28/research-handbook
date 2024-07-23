@@ -11,8 +11,8 @@ The Integrations Engineering job family is responsible for ownership and deliver
 
 ## Requirements
 
-- Write well structured, quality code that’s easily maintainable by others.
-- Write code that interacts with various HTTP-based API’s, primarily REST-based.
+- Write well structured, quality code that's easily maintainable by others.
+- Write code that interacts with various HTTP-based API's, primarily REST-based.
 - Understand basics of SQL and relational databases.
 - Proactive doer and communicator.
 - SaaS and B2B experience preferred
@@ -30,14 +30,14 @@ Associate Integration Engineer is a [grade 5](/handbook/total-rewards/compensati
 
 - Design, develop, and maintain integration flows using an array of different platforms, APIs, databases, protocols and data formats.
 - Collaborate and review code with other engineers in architecture & integration engineering to ensure each integration maintains a consistent level of technical standards as set by the team.
-- Work directly with Business Systems Analysts Or PM’s to ensure that the data and the business processes that intersect in the Enterprise Applications ecosystem are as efficient and high fidelity as possible.
+- Work directly with Business Systems Analysts Or PM's to ensure that the data and the business processes that intersect in the Enterprise Applications ecosystem are as efficient and high fidelity as possible.
 
 ### Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 0-2 years application integration experience.
-- Write well structured, quality code that’s easily maintainable by others.
-- Write code that interacts with various HTTP-based API’s, primarily REST-based.
+- Write well structured, quality code that's easily maintainable by others.
+- Write code that interacts with various HTTP-based API's, primarily REST-based.
 - Understand basics of SQL and relational databases.
 - Proactive doer and communicator.
 - SaaS and B2B experience preferred.
@@ -63,7 +63,7 @@ Extends the Associate Integration Engineer responsibilities:
 ### Requirements
 
 - Ability to use GitLab.
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience..
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience..
 - 2+ years of application integration experience.
 - Hands-on experience working with iPaaS tools like Workato, Mulesoft, Boomi, Tray.io etc.
 - Hands-on Integration experience across enterprise systems: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
@@ -91,7 +91,7 @@ Extends the Integration Engineer responsibilities:
 
 ### Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 5+ years of application integration experience.
 - Hands-on experience working with iPaaS tools like Workato, Mulesoft, Boomi, Tray.io etc.
 - Hands-on Integration experience across enterprise systems: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
@@ -197,6 +197,41 @@ Extends the Principal Integration Engineer requirements:
 
 - 12+ years of application integration experience.
 
+## Manager, Robotics Process Automation (RPA)
+
+### Job Grade
+
+Manager, Robotics Process Automation is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) reports to the  Sr Manager or IT Director, Integration Engineering.
+
+### Responsibilities
+
+- Business Operations: Build, maintain, automate manual & repetitive processes to more efficiently deliver for our business partners. All processes should be documented in the handbook.
+- Technical Delivery: Drive end to end delivery processes with minimal guidance.
+- Project Management: Run medium-sized projects that improve our ability to make better data driven insights or make the company more efficient.
+- Communication: Target audience Sr. Manager, Director, Sr. Director and functional VP.
+- Communicate and document technical details clearly to various stakeholders of different technical capabilities (VP of IT, Sales Operations, Software Engineer)
+- Ensure that RPA Automations are designed and implemented as reusable building block in alignment Enterprise Architecture & COE
+
+### Requirements
+
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- 5+ years of Ui Path experience and Strong proficiency in Ui Path Studio, Robots, Orchestrator, Automation Hub and other UI Path products
+- In-depth knowledge of RPA concepts, best practices, design patterns, frameworks & error management
+- Hands-on experience in designing and deploying RPA Solutions with Ui Path.
+- Hands-on Automation experience across enterprise systems: SalesForce, Netsuite, Zuora Billing,Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
+- Experience as UiPath Solution Architect or UiPath Senior Engineer in a mature, large-scale automation center of excellence (COE) Preferred
+- Experience in Agile, CI/CD, DevOps practices and SOX environment
+- Experience in building & enhancing RPA microsoft infrastructure
+- Familiarity with cloud-based technologies, such as AWS, Azure, or Google Cloud Platform
+- Strong proficiency in data querying languages (SQL), programming languages (Python, R), and data visualization tools.
+- Skilled in working with security standards & protocols like SAML,OAuth, etc.
+- Skilled in working with various integration patterns and technologies such as REST, SOAP, JSON, XML, and other data formats
+- Collaborate with peers to write, review, and provide feedback on technical design proposals and participate in and contribute to code/configuration reviews. Partner with Enterprise Apps team for QA to ensure scalable tests, release plans and end user documentation
+- Be a self-starter, and thrive in a fast paced environment, customer centric and have the interpersonal skills necessary to manage business and technology relationships.
+- Exceptional time management and prioritization skills, resilient under pressure, able to meet deadlines and able to work in a constantly changing environment.
+- Exhibit strong security and confidentiality practices with systems that handle sensitive data.
+- Multiple Ui Path certifications highly preferred
+
 ## Manager, Enterprise Architecture & Integration Engineering
 
 ### Job Grade
@@ -233,22 +268,22 @@ Senior Manager, Enterprise Architecture & Integration Engineering is a [grade 9]
 Extends that of the Manger, Enterprise Architecture & Integration Engineering responsibilities:
 
 - Partnerships:
-   - Working with internal and external cross functional teams, business stakeholders, service providers, vendors to design, develop and implement enterprise architecture strategies.
-   - Provides thought leadership and clear technical direction to the team to deliver results and business value.
-   - Analyze existing business processes and data flows to develop system designs, delivery roadmaps and integrations to other systems
+  - Working with internal and external cross functional teams, business stakeholders, service providers, vendors to design, develop and implement enterprise architecture strategies.
+  - Provides thought leadership and clear technical direction to the team to deliver results and business value.
+  - Analyze existing business processes and data flows to develop system designs, delivery roadmaps and integrations to other systems
 - Strategy:
-   - Create secure, scalable and high performance enterprise solutions.
-   - Developing methodologies and processes to ensure compliance to Integrations & Architecture strategies.
-   - Responsible for the high-level design and implementations of integrations across the application eco-system by effectively partnering with business users, application developers and vendors.
+  - Create secure, scalable and high performance enterprise solutions.
+  - Developing methodologies and processes to ensure compliance to Integrations & Architecture strategies.
+  - Responsible for the high-level design and implementations of integrations across the application eco-system by effectively partnering with business users, application developers and vendors.
 - Technical Solutions:
-   - Responsible to develop and maintain current state and future state technology roadmaps aligned with approved IT Investments and approved by Leadership.
-   - Support the transformation of the technology architecture to support the company growth plans, building scalable platform solutions as well as building and customizing best in class software products.
-   - Lead master data management initiatives from the data modeling side. Design and promote the enterprise data model.
-   - Evaluate alternatives and formulates system scope and objectives to create or modify integration services.
-   - Troubleshoots production problems and works to fix issues
+  - Responsible to develop and maintain current state and future state technology roadmaps aligned with approved IT Investments and approved by Leadership.
+  - Support the transformation of the technology architecture to support the company growth plans, building scalable platform solutions as well as building and customizing best in class software products.
+  - Lead master data management initiatives from the data modeling side. Design and promote the enterprise data model.
+  - Evaluate alternatives and formulates system scope and objectives to create or modify integration services.
+  - Troubleshoots production problems and works to fix issues
 - Leadership:
-   - Builds and leads a transformational team that is required to design and execute on key business and technical strategies.
-   - Mentors and coaches the team to foster a culture of continuous learning and collaboration.
+  - Builds and leads a transformational team that is required to design and execute on key business and technical strategies.
+  - Mentors and coaches the team to foster a culture of continuous learning and collaboration.
 
 ### Requirements
 

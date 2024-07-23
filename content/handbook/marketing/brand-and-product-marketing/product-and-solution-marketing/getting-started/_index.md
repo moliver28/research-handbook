@@ -1,18 +1,13 @@
 ---
-
 title: "Product and Solution Marketing On-Boarding and Other How-to's"
 ---
 
-
-
-
-
-
-
 ## Product and Solution Marketing How-to's
+
 - [Group Conversation deck](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/group-conversations/)
 
 ## Product and Solution Marketing General On-Boarding
+
 - [Getting Started 101 - No Tissues with Issues](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/101/)
 - [Getting Started 102 - Working at local speed](/handbook/editing-handbook/)
 - [Getting Started 103 - Maintaining common slides across decks](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/103/)
@@ -36,4 +31,5 @@ title: "Product and Solution Marketing On-Boarding and Other How-to's"
 - [Go to the PMM onboarding page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/core-product-marketing/onboarding) and check out our onboarding guide.
 
 ### Technical marketing
+
 - [Creating a Kubernetes Cluster](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/create-cluster-101/)

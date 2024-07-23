@@ -1,5 +1,4 @@
 ---
-
 title: "Data Science Usecase: Message House"
 ---
 
@@ -12,6 +11,5 @@ We will not have a Positioning Statement for this usecase, at this time. General
 | **Promise** | *(list and describe the positive business outcomes)* |  |  |
 | **Pain points** | *(describe common pain points)* |  |  |
 | **Why GitLab** | *(list specific features that support this value)* |  |  |
-
 
 | **Proof points** | *(list specific analyst reports, case studies, testimonials, etc.)*  |

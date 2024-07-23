@@ -12,14 +12,17 @@ This page is intended for helping find resources during emergencies. If this isn
 ### Non-Emergencies
 
 1. Label your issue to be triaged by the right team:
-  - For operational or configuration issues, label them `~"team::Database Reliability"`
-  - For issues related to the packaged Postgres in Omnibus/Charts, label them `~"group::distribution"`
-  - For application issues, label them for the team responsible for that feature.
-  - If you're not sure, take a look at the guide below for help identifying the right team.
+
+   - For operational or configuration issues, label them `~"team::Database Reliability"`
+   - For issues related to the packaged Postgres in Omnibus/Charts, label them `~"group::distribution"`
+   - For application issues, label them for the team responsible for that feature.
+   - If you're not sure, take a look at the guide below for help identifying the right team.
+
 1. If the issue is blocking or you need to escalate:
-  - For application issues, Post a detailed message in the channel for the team that is responsible for the related feature.
-  - For operational or configuration issues, post in [#g_infra_database_reliability](https://gitlab.enterprise.slack.com/archives/C02K0JTKAHJ) (internal)
-  - For issues related to the packaged Postgres in Omnibus/Charts, post in [#g_distribution](https://gitlab.enterprise.slack.com/archives/C1FCTU4BE) (internal)
+
+   - For application issues, Post a detailed message in the channel for the team that is responsible for the related feature.
+   - For operational or configuration issues, post in [#g_infra_database_reliability](https://gitlab.enterprise.slack.com/archives/C02K0JTKAHJ) (internal)
+   - For issues related to the packaged Postgres in Omnibus/Charts, post in [#g_distribution](https://gitlab.enterprise.slack.com/archives/C1FCTU4BE) (internal)
 
 ### 1. Start
 
@@ -67,7 +70,7 @@ If you need assistance to identify the source, go to [9. Escalating assistance](
 
 If the application (or component a major component ex: Sidekiq) is down or unresponsive due to what you believe to be a database related incident, that's an "All hands on deck".
 
-1. [Activate Development On-Call](/handbook/on-call/#development-team-on-call-rotation). While it may seem unnecessary, many backend developers are familiar enough with the application and database that they should be able to help isolate a source while trying to get database experts involved.
+1. [Activate Development On-Call](/handbook/engineering/on-call/#development-team-on-call-rotation). While it may seem unnecessary, many backend developers are familiar enough with the application and database that they should be able to help isolate a source while trying to get database experts involved.
 1. Reach out in the [#database](https://gitlab.enterprise.slack.com/archives/C3NBYFJ6N), [#g_database](https://gitlab.enterprise.slack.com/archives/CNZ8E900G), and [#g_infra_database_reliability](https://gitlab.enterprise.slack.com/archives/C02K0JTKAHJ) channels (internal) for expert help using the `@db-team` (database capability) or `@dbre` (database reliability) group handles.
 
 ### 6. Determine Migration Source
@@ -107,6 +110,7 @@ Even if the emergency is related to the database or has database words in it, th
 When escalating an emergency, be as specific as possible and provide as many details as possible. Per [communication guidelines](/handbook/communication/#writing-style-guidelines), avoid acronyms whenever possible.
 
 Always include:
+
 - A link to the issue, Sentry error, incident, or Zendesk ticket
 - The text of any error messages
 - Links to any applicable charts
@@ -114,7 +118,7 @@ Always include:
 
 #### For Ongoing Gitlab.com or Dedicated Incidents
 
-1. [Activate Development On-Call](/handbook/on-call/#development-team-on-call-rotation)
+1. [Activate Development On-Call](/handbook/engineering/on-call/#development-team-on-call-rotation)
 1. If development on-call needs additional database expertise, reach out in [#database](https://gitlab.enterprise.slack.com/archives/C3NBYFJ6N)
 1. If there's no response within 15 minutes, or the request is urgent, tag `@db-team` (Application) or `@dbre` (Infrastructure/Operations) in a thread on the original message
 1. If there's no response to the ping within 15 minutes, and the request is urgent, use slack to find the phone number of the Database or DBRE manager and text or call them.

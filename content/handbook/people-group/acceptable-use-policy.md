@@ -26,7 +26,7 @@ This policy applies to all GitLab Team Members, contractors, advisors, and contr
 
 ### Acceptable Use and Security Requirements of Computing Resources at GitLab
 
-GitLab-managed assets are provided to conduct GitLab business, with consideration given for limited personal use subject to any conflicting statements contained in individual employment contracts. Our company uses global electronic communications and resources as routine parts of our business activities. Personal and professional use of GitLab-managed assets are subject to security monitoring and protection, unless prohibited under the local laws of a respective Team Member's jurisdiction. It is essential that electronic resources used to perform company business are protected to ensure that these resources are accessible for business purposes and operated in a cost-effective manner, that our company’s reputation is protected, and that we minimize the potential for legal risk.
+GitLab-managed assets are provided to conduct GitLab business, with consideration given for limited personal use subject to any conflicting statements contained in individual employment contracts. Our company uses global electronic communications and resources as routine parts of our business activities. Personal and professional use of GitLab-managed assets are subject to security monitoring and protection, unless prohibited under the local laws of a respective Team Member's jurisdiction. It is essential that electronic resources used to perform company business are protected to ensure that these resources are accessible for business purposes and operated in a cost-effective manner, that our company's reputation is protected, and that we minimize the potential for legal risk.
 
 Those receiving GitLab-provided assets are responsible for exercising good judgment when using GitLab-managed computers and accessing GitLab-managed data.
 
@@ -34,7 +34,7 @@ As per the [onboarding issue procedures](https://gitlab.com/gitlab-com/people-gr
 
 We are currently using Jamf as our endpoint management solution for Mac laptops. All macOS laptops procured by GitLab will come configured with [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/). GitLab Team Members procuring and expensing Mac Laptops will require [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/) to be installed as part of their [Day 1 Security tasks](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md#day-1-getting-started-accounts-and-paperwork). Upon their discretion, IT Ops may install additional security tools via Jamf.
 
-Linux users must install [SentinelOne](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/edr/#how-do-i-install-the-sentinelone-agent-on-linux) and [DriveStrike](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/) as part of their onboarding process.
+Linux users must install [SentinelOne](https://internal.gitlab.com/handbook/it/endpoint-tools/sentinelone/#how-do-i-install-the-sentinelone-agent-on-linux) and [DriveStrike](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/) as part of their onboarding process.
 
 ### Security and Proprietary Information
 
@@ -42,25 +42,25 @@ All GitLab data is categorized and must be handled in accordance with the [Data 
 
 ### Open source libraries
 
-Open Source libraries are allowed under this policy if its use complies with the pre-approved or approval requirements captured in the [Product Legal Handbook](https://about.gitlab.com/handbook/legal/product/#using-open-source-software).
+Open Source libraries are allowed under this policy if its use complies with the pre-approved or approval requirements captured in the [Product Legal Handbook](/handbook/legal/product/#using-open-source-software).
 
 ### Freeware, Browser Extensions, Add-ons, and Plugins
 
-Individual Use Software (freeware, add-ons and plugins) is permitted, with the exception of unauthorized Google Workspace Integrations. Individual Use Software is subject to retroactive removal at any time by IT, Legal and Security when it is deemed unsafe or insecure.
+Individual Use Software (freeware, add-ons and plugins) is permitted, with the exception of unauthorized Google Workspace Integrations and Chrome Extensions. Individual Use Software is subject to retroactive removal at any time by IT, Legal and Security when it is deemed unsafe or insecure.
 
 Authorized Google Workspace Integrations and other approved Individual Use Software can be found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/) list and are permitted for use subject to any "Notes and Restrictions" for each respective Pre-Approved software offering.
 
 To request approval for new Individual Use Software, please follow the [Individual Use Software](/handbook/finance/procurement/individual-use-software/#how-do-i-submit-a-request-for-new-individual-use-software) request process.
 
 {{% alert title="Note" %}}
-In order to abide by the [SAFE Framework](/handbook/legal/safe-framework/), to preempt third party processing of company data under permissive individual use licensing terms, or to prevent Team Member misuse of certain Third Party Software features, IT, Legal, Privacy and Security will generally err on the side of disallowing exceptions to enterprise level software, particularly if there is an enterprise option already in our [Tech Stack Applications](https://about.gitlab.com/handbook/business-technology/tech-stack-applications/) that achieves a similar purpose.
+In order to abide by the [SAFE Framework](/handbook/legal/safe-framework/), to preempt third party processing of company data under permissive individual use licensing terms, or to prevent Team Member misuse of certain Third Party Software features, IT, Legal, Privacy and Security will generally err on the side of disallowing exceptions to enterprise level software, particularly if there is an enterprise option already in our [Tech Stack Applications](/handbook/business-technology/tech-stack-applications/) that achieves a similar purpose.
 {{% /alert %}}
 
 ### Unacceptable Use
 
 Team Members and contractors may **not** use GitLab-managed resources for activities that are illegal or prohibited under applicable law, no matter the circumstances.
 
-Security requirements for GitLab production and corporate environments and on GitLab-managed assets must not be disabled without security approval via the [Information Security Policy Exception Management Process](/handbook/security/#information-security-policy-exception-management-process).
+Security requirements for GitLab production and corporate environments and on GitLab-managed assets must not be disabled without security approval via the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 #### Unacceptable System and Network Activities
 
@@ -75,7 +75,7 @@ Prohibited system and network activities include, but are not limited to, the fo
 - Using a GitLab computing asset to procure or transmit material that is in violation of sexual harassment policies or that creates a hostile workplace.
 - Making fraudulent offers of products, items, or services originating from any GitLab account.
 - Intentionally accessing data or logging into a computer or account that the Team Member or contractor is not authorized to access, or disrupting network communication, computer processing, or access.
-- Executing any form of network monitoring that intercepts data not intended for the Team Member’s or contractor's computer, except when troubleshooting networking issues for the benefit of GitLab.
+- Executing any form of network monitoring that intercepts data not intended for the Team Member's or contractor's computer, except when troubleshooting networking issues for the benefit of GitLab.
 - Circumventing user authentication or security of any computer host, network, or account used by GitLab.
 - Tunneling between network segments or security zones (e.g., `gprd`, `gstg`, `ops`, `ci`), except when troubleshooting issues for the benefit of GitLab.
 - Given the potential sensitivity of the data contained in screenshot images, the use of tools that capture and share screenshots to hosted sites online is prohibited without the explicit approval of the Security and Legal Departments.  Screenshots should be stored locally or within Google drive folders associated with your GitLab.com account. Access to these drives and files should be managed in accordance with our [Access Management policy](/handbook/security/access-management-policy/), and handled according to our [Data Classification Standard](/handbook/security/data-classification-standard/). Tools such as [Lightshot](https://app.prntscr.com/en/index.html), where upload functionality cannot be disabled and could result in inadvertent uploads, should not be used.
@@ -89,7 +89,7 @@ Forwarding of confidential business emails or documents to personal external ema
 
 > Note: GitLab may retrieve messages from archives and servers without prior notice if GitLab has sufficient reason to do so. If deemed necessary, this investigation will be conducted with the knowledge and approval of the Security, People Business Partners, and Legal Departments.
 
-In addition to following the [Team Member Social Media Policy](/handbook/marketing/team-member-social-media-policy/), when utilizing social media think about the effects of statements that you make. Keep in mind that these transmissions are permanent and easily transferable, and can affect our company’s reputation and relationships with Team Members and customers. When using social media tools like blogs, Facebook, Twitter or wikis, ensure that you do not make comments on behalf of GitLab without proper authorization. Also, you must not disclose our company’s confidential or proprietary information about our business, our suppliers, or our customers.
+In addition to following the [Team Member Social Media Policy](/handbook/marketing/team-member-social-media-policy/), when utilizing social media think about the effects of statements that you make. Keep in mind that these transmissions are permanent and easily transferable, and can affect our company's reputation and relationships with Team Members and customers. When using social media tools like blogs, Facebook, Twitter or wikis, ensure that you do not make comments on behalf of GitLab without proper authorization. Also, you must not disclose our company's confidential or proprietary information about our business, our suppliers, or our customers.
 
 ### Return of GitLab-Owned Assets
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Ben King's README"
 description: "README for Ben King (Support Engineer (APAC))"
 job: "Support Engineer (APAC)"
@@ -11,7 +10,7 @@ This README is designed to give you a bit of background information on me.
 
 ## Related links
 
- - [GitLab profile](https://gitlab.com/benjaminking)
+- [GitLab profile](https://gitlab.com/benjaminking)
 
 ## About me
 
@@ -26,25 +25,25 @@ Here's a bunch of topics I'll be happy to talk about:
 
 ### Games
 
- - 🎲 Board Games. My favourites at the moment are [Catan](https://boardgamegeek.com/boardgame/13/catan), [Ticket to Ride](https://boardgamegeek.com/boardgame/9209/ticket-ride) and [Pandemic](https://boardgamegeek.com/boardgame/30549/pandemic).
- - 🎮 Video Games. I'm a fan of RPG and/or Strategy games, like  [Surviving Mars](https://store.steampowered.com/app/464920/Surviving_Mars/), the [Fallout series](https://en.wikipedia.org/wiki/Fallout_(series)), and usually anything made by [Obsidian Entertainment](https://en.wikipedia.org/wiki/Obsidian_Entertainment).
- - 🏰 Tabletop Games. I have an ever-expanding collection of TTRPG books, including [GURPS](http://www.sjgames.com/gurps/), [Traveller (Mongoose 2nd Edition)](https://www.mongoosepublishing.com/rpgs/new-traveller.html), [D&D 5th Edition](https://dnd.wizards.com/), [Cyberpunk 2020 & Red](https://rtalsoriangames.com/cyberpunk/), [Shadowrun](https://www.shadowruntabletop.com/) and the [Fallout TTRPG](https://www.modiphius.net/pages/falloutrpg).
+- 🎲 Board Games. My favourites at the moment are [Catan](https://boardgamegeek.com/boardgame/13/catan), [Ticket to Ride](https://boardgamegeek.com/boardgame/9209/ticket-ride) and [Pandemic](https://boardgamegeek.com/boardgame/30549/pandemic).
+- 🎮 Video Games. I'm a fan of RPG and/or Strategy games, like  [Surviving Mars](https://store.steampowered.com/app/464920/Surviving_Mars/), the [Fallout series](https://en.wikipedia.org/wiki/Fallout_(series)), and usually anything made by [Obsidian Entertainment](https://en.wikipedia.org/wiki/Obsidian_Entertainment).
+- 🏰 Tabletop Games. I have an ever-expanding collection of TTRPG books, including [GURPS](http://www.sjgames.com/gurps/), [Traveller (Mongoose 2nd Edition)](https://www.mongoosepublishing.com/rpgs/new-traveller.html), [D&D 5th Edition](https://dnd.wizards.com/), [Cyberpunk 2020 & Red](https://rtalsoriangames.com/cyberpunk/), [Shadowrun](https://www.shadowruntabletop.com/) and the [Fallout TTRPG](https://www.modiphius.net/pages/falloutrpg).
 
 ### Books
 
 Favourites include:
 
- - [Foundation Trilogy](https://www.goodreads.com/book/show/46654.The_Foundation_Trilogy) by Isaac Asimov, and the entire *Robot* series.
- - [Mars Trilogy](https://en.wikipedia.org/wiki/Mars_trilogy) by Kim Stanley Robinson
- - [Hyperion Cantos](https://en.wikipedia.org/wiki/Hyperion_Cantos) by Dan Simmons.
+- [Foundation Trilogy](https://www.goodreads.com/book/show/46654.The_Foundation_Trilogy) by Isaac Asimov, and the entire *Robot* series.
+- [Mars Trilogy](https://en.wikipedia.org/wiki/Mars_trilogy) by Kim Stanley Robinson
+- [Hyperion Cantos](https://en.wikipedia.org/wiki/Hyperion_Cantos) by Dan Simmons.
 
 ### Places
 
 These are some places I've visited that I am always keen to talk about:
 
- - [Pittsburgh, Pennsylvania, USA](https://en.wikipedia.org/wiki/Pittsburgh)
- - [Shanghai, China](https://en.wikipedia.org/wiki/Shanghai)
- - [Blue Mountains, NSW, Australia](https://en.wikipedia.org/wiki/Blue_Mountains_(New_South_Wales))
+- [Pittsburgh, Pennsylvania, USA](https://en.wikipedia.org/wiki/Pittsburgh)
+- [Shanghai, China](https://en.wikipedia.org/wiki/Shanghai)
+- [Blue Mountains, NSW, Australia](https://en.wikipedia.org/wiki/Blue_Mountains_(New_South_Wales))
 
 ## My working style
 
@@ -72,4 +71,4 @@ I have experience with a variety of networking concepts, particularly lower leve
 | Microphone | [Audio-Technica AT2005USB](https://audio-technica.com.au/available-now-at2005usb-home-recording-podcasting-live-performance/) |
 | Chair | [AK Racing K7](https://ak-racing.com.au/products/akracing-k7012-gaming-chair-black-blue) |
 | Monitor | [Kogan 34" 144Hz Ultrawide](https://www.kogan.com/au/buy/kogan-34-wqhd-curved-219-ultrawide-144hz-hdr-gaming-monitor-3440-x-1440/) |
-| Headphones | [Sony Noise Cancelling WH1000XM4](https://www.sony.com.au/electronics/headband-headphones/wh-1000xm4)
+| Headphones | [Sony Noise Cancelling WH1000XM4](https://www.sony.com.au/electronics/headband-headphones/wh-1000xm4) |

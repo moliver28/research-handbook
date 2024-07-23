@@ -1,15 +1,11 @@
 ---
-
 title: "Version Control & Collaboration Message House"
 ---
-
-
 
 | **Positioning Statement** | Application development and DevOps is fast and iterative, making it essential that teams can rapidly collaborate and iterate on new features and deliver business value. They must avoid working in silos which creates complex integration conflicts and constantly broken builds. GitLab is a comprehensive Version Control and Collaboration (VC&C) solution to deliver better software faster. A Git-based web repository that aggregates all development milestones and metadata, GitLab enables clear code reviews, asset version control, feedback loops, and powerful branching patterns to streamline software delivery. GitLab helps you deliver faster, more efficiently, and increase compliance. |
 |------------------------|-------------------------------------------------------------------------|
 | **Short Description** | GitLab makes sense of version control and collaboration by a seamless interface to collaborate and coordinate work, review changes, and manage delivery so team members focus on solving problems and shipping value |
 | **Long Description** | Version control coordinates all changes in a software project, effectively tracking changes to source files, designs, and all digital assets required for the project as well as related metadata. Projects without version control and collaboration can easily devolve into an uncontrollable mess of different versions of tonnes of project files, hindering the ability of any software development team to deliver value. GitLab makes SCM easy assembling all critical project files and assets in one seamless interface and delivering it through a single application for the entire software development lifecycle.   |
-
 
 | **Key-Values** | *VISIBILITY*  | *COLLABORATION* | *VELOCITY* |
 |--------------|------------------------------------------------------------------|----------|----------|
@@ -17,10 +13,9 @@ title: "Version Control & Collaboration Message House"
 | **Pain points** | Development teams require a specific project file structure often dictated by the technology, architecture, domain, and goals of the project. Team leads and dev managers struggle to organize projects and teams to meet the company and leadership's expectations the most efficient way. It is not easy to connect the dots | It is difficult to collaborate and share feedback in the appropriate context and make it actionable immediately. At the same time, projects and groups require different levels of access and privileges which in turn result in a complex maze of permissions | Projects can become heavy and bloated over time with tens of thousands of files, versions, and associated metadata history, effectively making future changes and branching complex, error-prone and expensive. Lightweight projects, on the other hand, can be over-engineered easily |
 | **Why GitLab** | GitLab Insights and Compliance Dashboard can aggregate and compose dashboards for Team Leads and Product Managers to capture bottlenecks, apply solutions and foster continuous improvement |  GitLab's Merge Requests and Code Quality provide the perfect canvas to manage all aspects of changing code and project assets, enabling reviews, feedback, and immediate action to improve code  | GitLab Merge Request design, automated merge approvals, issue closing, and more automate tedious tasks and allow developers to focus on shipping features |
 
-
 | Proof points | |
 |--------------|----------|
-| | [Paessler's 90% of QA is self served](https://about.gitlab.com/customers/paessler/) thanks to immediate, contextual feedback
+| | [Paessler's 90% of QA is self served](https://about.gitlab.com/customers/paessler/) thanks to immediate, contextual feedback |
 | | [ESA (European Space Agency)](https://about.gitlab.com/customers/european-space-agency/) had more than 140 groups adopt GitLab |
 | | [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/) Improved from **1 build every two weeks to over a 1000/day** |
 | | [Worldline](https://about.gitlab.com/customers/worldline/) spins source code repos in a matter of seconds |

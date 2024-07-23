@@ -1,14 +1,7 @@
 ---
-
 title: Growth Fast Boot September 2019
 description: "Growth groups met in September 2019 for a fast boot to discuss, plan, and begin implementing a Growth strategy at GitLab"
 ---
-
-
-
-
-
-
 
 The Acquisition, Expansion, Conversion and Retention groups took part in a [Fast Boot](/handbook/engineering/fast-boot/) in September 2019.  [The planning issue](https://gitlab.com/gitlab-org/growth/product/issues/1) contains the proposal for Fast Boot, and this page documents our discussions and outcomes.
 
@@ -37,9 +30,9 @@ The Acquisition, Expansion, Conversion and Retention groups took part in a [Fast
 * Development board labels/process - continue on & follow handbook
 * A/B testing process, artifacts, expectations
 * Each experiment will set confidence level - 95%-99%
-* Test summary written by data analyst in the issue (add a “a/b test complete” label for searching later)
+* Test summary written by data analyst in the issue (add a "a/b test complete" label for searching later)
 
-#### Expectations for working in another teams’ code base
+#### Expectations for working in another teams' code base
 
 * Emphasize that the point is to gather data, not ship production code
 * Challenge:  review process too slow.  Reviewers vs Maintainers.  Only a small number of maintainers.
@@ -54,17 +47,18 @@ Fulfillment owns underlying billing, licensing, and transactional system, as wel
 * Expansion owns the Current customer seat expansion + current customer upgrade ARR growth KPI + the upgrade flow & true-up flow
 * Retention owns the Gross Retention KPI + renewal flow
 
-Growth PM’s will own issues for key flows; engineering leaders will help assign work
+Growth PM's will own issues for key flows; engineering leaders will help assign work
 
-Long Term:  the vision is for the fulfillment team to own the billing and licensing platform, with a set of API’s and SLA’s, so the growth teams can build and curate user experiences on top of them to drive great customer experiences (and resulting KPI’s).
+Long Term:  the vision is for the fulfillment team to own the billing and licensing platform, with a set of API's and SLA's, so the growth teams can build and curate user experiences on top of them to drive great customer experiences (and resulting KPI's).
 
 ### Deep Dives
 
-Teardown/journey map existing flow. Leverage demos, videos, screenshots. Ask “experts” to join remotely to demo and share their pain points/opportunities. Session to be led by the product manager.
+Teardown/journey map existing flow. Leverage demos, videos, screenshots. Ask "experts" to join remotely to demo and share their pain points/opportunities. Session to be led by the product manager.
 
 #### Acquisition Overview
 
 Discussion led by Jensen, PM for Acquisition, topics covered include:
+
 * KPIs and mission for the Acquisition team
 * Initial areas of focus
 * Teardown of the existing experience
@@ -88,20 +82,20 @@ Discussion led by Sam Awezec, PM for Conversion, topics covered include:
 
 Discussion led by Tim Hey, PM for Expansion. Topics covered:
 
-*   Mission
-*   KPIs & Supporting Performance Indicators
-*   Customer facing opportunities
-    *   User Orientation - Users don’t know where to start
-    *   Increase platform confidence and trust - I love my tools and am afraid to switch
-*   Internal opportunities
-    *   Self-Managed usage for upsell process and user workflow
-    *   Self-Managed True-up process and user workflow
+* Mission
+* KPIs & Supporting Performance Indicators
+* Customer facing opportunities
+  * User Orientation - Users don't know where to start
+  * Increase platform confidence and trust - I love my tools and am afraid to switch
+* Internal opportunities
+  * Self-Managed usage for upsell process and user workflow
+  * Self-Managed True-up process and user workflow
 
 [Video](https://www.youtube.com/watch?v=uodOO2RUIbo&feature=youtu.be)
 
 [Slides](https://docs.google.com/presentation/d/13V5vs3o_6ZcipSd6QO4fQYwFxe6r9jqb6zUcJoe-ksY/edit?usp=sharing)
 
-####  Retention Overview
+#### Retention Overview
 
 Discussion led by Mike Karampalas, PM for Retention. Topics covered:
 
@@ -118,7 +112,7 @@ Discussion led by Mike Karampalas, PM for Retention. Topics covered:
 
 [Link to Day 2 Agenda Document](https://docs.google.com/document/d/1wU8jlC7MlmC4HCZmjGDJxjc1DZ5yZDZ-xxVu-08LZLs/edit)
 
-#### Data Deep Dive
+### Data Deep Dive
 
 Discussion led by Eli Kastelein, Growth Data Analyst. Topics covered:
 
@@ -132,11 +126,12 @@ Discussion led by Eli Kastelein, Growth Data Analyst. Topics covered:
 
 [Slides](https://docs.google.com/presentation/d/1mLI0zSMmwwjIug3mfiNfVNbwPCLZkSqwUC4F1uqYf28/)
 
-#### State of Product Intelligence
+### State of Product Intelligence
 
 During this time we walked through Product Intelligence as a team and reviewed where we were headed. The main item we covered was the Vision Page in the handbook and how we need to clearly communicate what product analytics is and where to find more information.
 
 Topics covered (which will also be added to the handbook)
+
 * Vision
 * SMAU -- what it is and how it's managed
 * Dashboards -- what they are, self-serve and how to request one
@@ -146,7 +141,7 @@ Topics covered (which will also be added to the handbook)
 
 [MR under review](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29940#23dfa14c4e3cd4e7facec62ed501fe5adc7bc0ef)
 
-#### A/B Testing Requirements
+### A/B Testing Requirements
 
 [Issue: Implement an A/B testing solution that can measure the impact of Growth experiments](https://gitlab.com/gitlab-org/growth/engineering/issues/5)
 
@@ -162,23 +157,28 @@ At this time the individual Growth teams split into their groups to create and w
 
 ## Fast Boot Outcomes
 
-### Implemented new team names, KPI’s and objectives
+### Implemented new team names, KPI's and objectives
+
 * [Rename Growth Groups](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29704)
 * [Updating growth KPIs on KPI index page](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29726)
 
 ### Streamlined team processes
+
 * [Product/Engineering meeting cadences and deliverables established](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29799)
 * [Product/Engineering workflow established](https://gitlab.com/gitlab-org/growth/discussion/issues/1)
 * [A/B Testing discussion progress](https://gitlab.com/gitlab-org/growth/engineering/issues/44)
 
 ### Create and deliver issues
+
 Acquisition
+
 * [Test simplified user registration page](https://gitlab.com/gitlab-org/growth/engineering/issues/20) + [Design progress](https://gitlab.com/gitlab-org/growth/engineering/issues/20/designs)
 * [Update .com paid signup process](https://gitlab.com/gitlab-org/growth/product/issues/87)
 * [Update trial signup process](https://gitlab.com/gitlab-org/growth/product/issues/88)
 * [Update Self-Managed paid signup process](https://gitlab.com/gitlab-org/growth/product/issues/89)
 
 Expansion
+
 * [License Utilization by Host - Epic](https://gitlab.com/groups/gitlab-org/-/epics/1981)
 * [Add seat differential to host page on version.gitlab.com](https://gitlab.com/gitlab-org/growth/engineering/issues/22)
 * [Add column to the host page of version.gitlab on the host page to show last check date](https://gitlab.com/gitlab-org/growth/engineering/issues/26)
@@ -188,6 +188,7 @@ Expansion
 * [Add column sort functionality to the host page on version.gitlab.com](https://gitlab.com/gitlab-org/growth/engineering/issues/35)
 
 Conversion
+
 * [Adjust in-app pricing page links](https://gitlab.com/gitlab-org/growth/engineering/issues/46)
 * [For free users of GitLab.com add trial options for bronze and silver](https://gitlab.com/gitlab-org/growth/engineering/issues/37)
 * [Add project import to the existing welcome to GitLab page](https://gitlab.com/gitlab-org/growth/engineering/issues/32)
@@ -200,6 +201,7 @@ Conversion
 * [Paid feature upgrade point - feature weights](https://gitlab.com/gitlab-org/growth/product/issues/36)
 
 Retention
+
 * [CustomersDot: change copy on renew page](https://gitlab.com/gitlab-org/growth/engineering/issues/40)
 * [Update the automated Zuora renewals email](https://gitlab.com/gitlab-org/growth/engineering/issues/41)
 * [Link to CustomersDot in renewal banner](https://gitlab.com/gitlab-org/growth/engineering/issues/43)
@@ -210,4 +212,3 @@ Retention
 * [Fix Renewal Emails to Not Come from paul@gtilab.com](https://gitlab.com/gitlab-org/growth/engineering/issues/38)
 * [Consolidate the emails generated by a renewal](https://gitlab.com/gitlab-org/growth/product/issues/84)
 * [WIP: Make Auto Renew the Default](https://gitlab.com/gitlab-org/growth/product/issues/43)
-

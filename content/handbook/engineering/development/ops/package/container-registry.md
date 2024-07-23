@@ -4,8 +4,7 @@ title: Package:Container Registry Group
 
 ## The Team
 
-The Container Registry is part of the GitLab [Package
-stage](/handbook/engineering/development/ops/package/), which integrates with [GitLab's CI/CD product](https://about.gitlab.com/direction/ops/).
+The Container Registry is part of the GitLab [Package stage](/handbook/engineering/development/ops/package/), which integrates with [GitLab's CI/CD product](https://about.gitlab.com/direction/ops/).
 
 ## Who We Are
 
@@ -87,14 +86,16 @@ We measure the value we contribute by using [performance indicator metrics](/han
 
 Here is a list of active projects and initiatives that we are currently working on, along with the corresponding [DRI](/handbook/people-group/directly-responsible-individuals/):
 
-| Project                                                                                                                                        | DRI                                  | Backup DRI                            |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ | ------------------------------------- |
-| [Release container registry with metadata database and online GC for self-managed installs](https://gitlab.com/groups/gitlab-org/-/epics/5521) | {{< member-by-gitlab hswimelar >}}   |                                       |
-| [Storage and limits management for the Container Registry](https://gitlab.com/groups/gitlab-org/-/epics/7225)                                  | {{< member-by-gitlab jdrpereira >}}  | {{< member-by-gitlab suleimiahmed >}} |
-| [Container Registry AMAU: Track usage](https://gitlab.com/groups/gitlab-org/-/epics/8213)                                                      | {{< member-by-gitlab jaime >}}       |                                       |
-| [Allow renaming/moving groups and projects with container repositories](https://gitlab.com/groups/gitlab-org/-/epics/9459)                     | {{< member-by-gitlab suleimiahmed >}}|                                       |
-| [Data transfer visibility for the Container Registry](https://gitlab.com/groups/gitlab-org/-/epics/8732)                                       | {{< member-by-gitlab jdrpereira >}}  |                                       |
-| [Implement auto deployments for the Container Registry](https://gitlab.com/groups/gitlab-org/-/epics/7998)                                     | {{< member-by-gitlab suleimiahmed >}}|                                       |
+| Project                                                                                                                | DRI                                   | Backup DRI                          |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------- |
+| [Release metadata database and online GC for self-managed installs](https://gitlab.com/groups/gitlab-org/-/epics/5521) | {{< member-by-gitlab hswimelar >}}    | {{< member-by-gitlab jaime >}}      |
+| [AMAU usage tracking](https://gitlab.com/groups/gitlab-org/-/epics/8213)                                               | {{< member-by-gitlab jaime >}}        | {{< member-by-gitlab adie.po >}}    |
+| [Allow renaming/moving groups and projects with repositories](https://gitlab.com/groups/gitlab-org/-/epics/9459)       | {{< member-by-gitlab suleimiahmed >}} | {{< member-by-gitlab adie.po >}}    |
+| [Database load balancing](https://gitlab.com/groups/gitlab-org/-/epics/8591)                                           | {{< member-by-gitlab jdrpereira >}}   | {{< member-by-gitlab suleimiahmed >}} |
+| [Confidential](https://gitlab.com/groups/gitlab-org/-/epics/13237)                                                     | {{< member-by-gitlab jaime >}}        | {{< member-by-gitlab jdrpereira >}} |
+| [Database background migrations](https://gitlab.com/groups/gitlab-org/-/epics/13609)                                   | {{< member-by-gitlab suleimiahmed >}} | {{< member-by-gitlab jdrpereira >}} |
+| [Release database dependent features for self-managed installs](https://gitlab.com/groups/gitlab-org/-/epics/12218)    | {{< member-by-gitlab adie.po >}} |  {{< member-by-gitlab hswimelar >}} |
+| [Update user interface](https://gitlab.com/groups/gitlab-org/-/epics/12218)                                            | {{< member-by-gitlab rchanila >}} | {{< member-by-gitlab adie.po >}} |
 
 ## Documentation
 

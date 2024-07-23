@@ -1,10 +1,9 @@
 ---
-
 title: "Contentful CMS Custom Pages"
 description: "Editing and making unique content with Contentful and custom components from Buyer Experience"
 ---
 
-# Custom Pages
+## Custom Pages
 
 The Digital Experience team has successfully integrated an exceptional feature that empowers content editors to effortlessly construct pages for the [Marketing Site](https://about.gitlab.com/).
 This innovative functionality leverages a collection of user-friendly custom components, providing a seamless page-building experience.
@@ -58,6 +57,7 @@ The list below includes all available Content Types that can be utilized in the 
 
 Enhance your content with the [🛠️ Text Block](https://app.contentful.com/spaces/xz1dnu24egyd/environments/master/content_types/textBlock/fields) content type. This versatile option empowers content editors to establish a fundamental header and a markdown text section. Additionally, it offers the flexibility to seamlessly incorporate a CTA, images and videos into your content.
 
+<!-- vale handbook.Repetition = NO -->
 | Text Block Field | Description | Example Value |
 |------------------|-------------|---------------|
 | Internal Name | Name to find the entry within Contentful | N/A |
@@ -67,6 +67,7 @@ Enhance your content with the [🛠️ Text Block](https://app.contentful.com/sp
 | CTA Url | CTA button redirection link | /text-block/ |
 | Image | Optional image from Contentful | N/A |
 | Video URL | Optional external video URL (Youtube, Vimeo) | https://www.youtube.com/embed/8aV5AxJrHDg?si=l1vgM17YlRJHC8T2 |
+<!-- vale handbook.Repetition = YES -->
 
 ##### Visual Representation
 
@@ -107,7 +108,7 @@ The [🛠️ Card Block](https://app.contentful.com/spaces/xz1dnu24egyd/environm
 | Link | Card redirection URL | /card-1/ |
 | Icon | Icon name for the card, the list of icons can be found in [Slippers](https://slippers.gitlab.com/?path=/story/foundations-icons--icons) | devsecops |
 
-##### Visual Representation 
+##### Visual Representation
 
 ![Custom Pages Card Block](/images/handbook/contentful/custom-page-card-block.png)
 
@@ -122,7 +123,7 @@ When utilizing this Content Type, cards are dynamically generated based on the c
 | Number of Columns | Tells the grid how many cards per row should show | 2 |
 | Cards | List of landing grid cards to be used instead of the automatic card generation the component provides | N/A |
 
-If the landing page needs to render specific cards that are not children to the current URL, the card field can be filled with the cards that need to be displayed, this field takes Landing grid Card components which have the following fields: 
+If the landing page needs to render specific cards that are not children to the current URL, the card field can be filled with the cards that need to be displayed, this field takes Landing grid Card components which have the following fields:
 
 | Landing Grid Card Fields | Description | Example Value |
 |---------------------|-------------|---------------|
@@ -138,7 +139,6 @@ If the landing page needs to render specific cards that are not children to the 
 
 The [🛠️ Marketo Form](https://app.contentful.com/spaces/xz1dnu24egyd/content_types/marketoForm/fields) allows users to place a form on the page.
 
-
 | Marketo Form Fields | Description | Example Value |
 |------------|-------------|---------------|
 | Internal Name | Name to find the entry within Contentful | N/A |
@@ -150,13 +150,13 @@ The [🛠️ Marketo Form](https://app.contentful.com/spaces/xz1dnu24egyd/conten
 | Error Message | Message the displays when there is a error with the form | Sorry! Something went wrong. |
 | Required Fields Message | Message the displays in small italic text communicating requried fields | All fields required |
 
-##### Visual Representation 
+##### Visual Representation
 
 ![Marketo Form](/images/handbook/contentful/custom-page-marketo-form.png)
 
 ### Video Walkthrough of building a page
 
-As an example, we built a community page from scratch in the following video. 
+As an example, we built a community page from scratch in the following video.
 
 <!-- blank line -->
 <figure class="video_container">

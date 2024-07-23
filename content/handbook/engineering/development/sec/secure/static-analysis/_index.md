@@ -10,7 +10,6 @@ The Static Analysis group at GitLab is charged with developing the [Static Appli
 
 {{< team-by-departments departments="Secure:Static Analysis BE Team" >}}
 
-
 ## Common Links
 
 - Slack channel: #g_secure-static-analysis
@@ -93,7 +92,7 @@ Work in a calendar month is mixed between the **Current milestone** (which will 
 
 #### Week 4
 
-- **Current milestone:** Retrospective conversation held on the just-completed milestone.
+- **Current milestone:** [Retrospective conversation](/handbook/engineering/development/sec/secure/static-analysis/retrospectives_summary) held on the just-completed milestone.
 - MoSCoW session held to review oldest issues still open.
   - Are the opportunities they describe still relevant?
 
@@ -106,13 +105,15 @@ Product development is a team effort and everyone can contribute.
 We interpret prioritized themes as what we're being asked to deliver; we use the entire group's strengths to break down and refine those themes into implementable solutions.
 
 The planning issue serves multiple purposes:
- - Within the group and stable counterparts, the issue helps us identify and agree on the scope of work we seek to execute in the next milestone.
- - Outside the group, the issue communicates our priorities and what might be delivered during the milestone.
-   - Note: although we seek to deliver on our plans, the planning issue is not itself a _promise_ to deliver a given issue by a certain time.
+
+- Within the group and stable counterparts, the issue helps us identify and agree on the scope of work we seek to execute in the next milestone.
+- Outside the group, the issue communicates our priorities and what might be delivered during the milestone.
+  - Note: although we seek to deliver on our plans, the planning issue is not itself a _promise_ to deliver a given issue by a certain time.
 
 #### Planning issue format
 
 The planning issue includes:
+
 - Prioritized product themes (DRI: Product Manager)
   - Themes are written in priority order, with the most important priority first.
 - Technical writing priorities (DRI: Technical Writing stable counterpart)
@@ -173,7 +174,6 @@ Observability is a critical component to any high-availability system and it is 
 - [Secure::Static Analysis Group Error Budget](https://dashboards.gitlab.net/d/stage-groups-static_analysis/stage-groups-static-analysis-group-dashboard)
 - [SAST Analyzer Registry Traffic](https://log.gprd.gitlab.net/app/dashboards#/view/84aa3f10-89d2-11ec-9dd2-93d354bef8e7?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-24h%2Cto%3Anow)))
 - [SAST Engineering Kibana Dashboard](https://log.gprd.gitlab.net/app/dashboards#/view/1eebd010-9a73-11ec-9dd2-93d354bef8e7)
-
 
 #### Runbooks
 
@@ -282,8 +282,7 @@ When creating issues for vulnerability consider adding the following labels besi
 - ~"type::bug"
 
 When there is a doubt about the severity/priority while creating the issue and severity/priority labels are
-not added. Then [Appsec Escalation
-Engine](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/appsec-escalator#appsec-escalation-engine)
+not added. Then [Appsec Escalation Engine](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/appsec-escalator#appsec-escalation-engine)
 could be leveraged to initiate a discussion with the Appsec team.  This bot monitor issues that are labeled
 ~security and not ~test or ~"type::feature". If severity/priority labels are not present, then labels
 security-sp-label-missing and security-triage-appsec will be added and this issue will be mentioned in the
@@ -293,8 +292,7 @@ will pick up the issue and assign a severity as part of the appsec triage rotati
 ### We Own What We Ship
 
 We are responsible for delivering GitLab's SAST and Secret Detection features, and the analyzers we develop rely heavily upon open source software.
-This means we can be dramatically affected by changes in those software packages. We will check for updates to these packages once per [GitLab
-release](https://about.gitlab.com/releases/). New versions will be scrutinized for the following aspects:
+This means we can be dramatically affected by changes in those software packages. We will check for updates to these packages once per [GitLab release](https://about.gitlab.com/releases/). New versions will be scrutinized for the following aspects:
 
 - Breaking changes
 - New, updated, or removed security rules

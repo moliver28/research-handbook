@@ -1,15 +1,6 @@
 ---
-
 title: "SQL Style Guide"
 description: "A set of conventions and guidelines for writing SQL at GitLab"
----
-
-
-
-
-
-
-
 ---
 
 ## SQL Style Guide
@@ -70,7 +61,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
 - Do not optimize for fewer lines of code, new lines are cheap but [brain time is expensive](https://blog.getdbt.com/write-better-sql-a-defense-of-group-by-1/).
 
-- Familiarize yourself with [the DRY Principal](https://docs.getdbt.com/docs/design-patterns). Leverage CTEs, jinja and macros in dbt, and snippets in Sisense. If you type the same line twice, it needs to be maintained in two places.
+- Familiarize yourself with [the DRY Principal](https://docs.getdbt.com/terms/dry). Leverage CTEs, jinja and macros in dbt, and snippets in Sisense. If you type the same line twice, it needs to be maintained in two places.
 
 - Be consistent. Even if you are not sure of the best way to do something do it the same way throughout your code, it will be easier to read and make changes if they are needed.
 
@@ -207,8 +198,8 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
     LEFT JOIN cost_category
         ON budget_forecast.unique_account_name = cost_category.unique_account_name
 
- 
-    -- vs 
+
+    -- vs
 
     -- Not Preferred
     SELECT
@@ -229,14 +220,14 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
     ```sql
         -- Preferred
-        SELECT 
+        SELECT
             "First_Name_&_" AS first_name,
             ...
 
         -- vs
 
         -- Not Preferred
-        SELECT 
+        SELECT
             FIRST_NAME AS first_name,
             ...
 
@@ -249,7 +240,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
         SELECT
             data_by_row['id']::bigint as id_value
             ...
-        
+
         -- vs
 
         -- Not Preferred
@@ -310,7 +301,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
             specific_column
         FROM other_table
         WHERE specific_column != 'foo'
-        
+
     )
 
     SELECT
@@ -320,7 +311,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
     INNER JOIN important_list
         ON primary_table.column_3 = important_list.specific_column
 
-    -- vs   
+    -- vs
 
     -- Not Preferred
     SELECT
@@ -328,8 +319,8 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
         primary_table.column_2
     FROM primary_table
     WHERE primary_table.column_3 IN (
-        SELECT DISTINCT specific_column 
-        FROM other_table 
+        SELECT DISTINCT specific_column
+        FROM other_table
         WHERE specific_column != 'foo')
 
     ```
@@ -338,17 +329,17 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 - CTEs should be placed at the top of the query.
 - Where performance permits, CTEs should perform a single, logical unit of work.
 - CTE names should be as concise as possible while still being clear.
-    - Avoid long names like `replace_sfdc_account_id_with_master_record_id` and prefer a shorter name with a comment in the CTE. This will help avoid table aliasing in joins.
+  - Avoid long names like `replace_sfdc_account_id_with_master_record_id` and prefer a shorter name with a comment in the CTE. This will help avoid table aliasing in joins.
 - CTEs with confusing or notable logic should be commented in file and documented in dbt docs.
 - CTEs that are duplicated across models should be pulled out into their own models.
 
 ### Data Types
 
 - Use default data types and not aliases. Review the [Snowflake summary of data types](https://docs.snowflake.com/en/sql-reference/intro-summary-data-types.html) for more details. The defaults are:
-    - `NUMBER` instead of `DECIMAL`, `NUMERIC`, `INTEGER`, `BIGINT`, etc.
-    - `FLOAT` instead of `DOUBLE`, `REAL`, etc.
-    - `VARCHAR` instead of `STRING`, `TEXT`, etc.
-    - `TIMESTAMP` instead of `DATETIME`
+  - `NUMBER` instead of `DECIMAL`, `NUMERIC`, `INTEGER`, `BIGINT`, etc.
+  - `FLOAT` instead of `DOUBLE`, `REAL`, etc.
+  - `VARCHAR` instead of `STRING`, `TEXT`, etc.
+  - `TIMESTAMP` instead of `DATETIME`
 
     The exception to this is for timestamps. Prefer `TIMESTAMP` to `TIME`. Note that the default for `TIMESTAMP` is `TIMESTAMP_NTZ` which does not include a time zone.
 
@@ -359,11 +350,11 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
     ```sql
     -- Preferred
-    SELECT 
+    SELECT
         IFF(column_1 = 'foo', column_2,column_3) AS logic_switch,
         ...
 
-    -- vs 
+    -- vs
 
     -- Not Preferred
     SELECT
@@ -378,13 +369,13 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
     ```sql
     -- Preferred
-    SELECT 
+    SELECT
         IFF(amount < 10,TRUE,FALSE) AS is_less_than_ten,
         ...
     -- vs
 
     -- Not Preferred
-    SELECT 
+    SELECT
         (amount < 10) AS is_less_than_ten,
         ...
     ```
@@ -404,10 +395,10 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
         END AS field_type,
         ...
 
-    -- vs 
+    -- vs
 
     -- Not Preferred
-    SELECT 
+    SELECT
         CASE
             WHEN field_id = 1 THEN 'date'
             WHEN field_id = 2 THEN 'integer'
@@ -417,7 +408,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
             WHEN field_id = 6 THEN 'text'
         END AS field_type,
         ...
-    
+
     ```
 
 - Prefer the explicit date function over `date_part`, but prefer `date_part` over `extract`:

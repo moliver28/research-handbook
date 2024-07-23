@@ -1,11 +1,7 @@
 ---
-
-title: "GitLab Certified Trainer"
+title: "GitLab Certified Trainer Program"
 description: "Explore how GitLab Professional Services certifies trainers to validate their readiness to deliver Education Services offerings."
-
 ---
-
-# GitLab Certified Trainer Program
 
 To be able to scale the availability of GitLab learning offerings, [GitLab Professional Education Services](/handbook/customer-success/professional-services-engineering/education-services/) offers certification pathways for individuals who want to deliver GitLab standard instructor-led training (ILT) courses. The program is currently available to GitLab team members as well as selected [GitLab Certified Services Partners](/handbook/resellers/services/). Customers who order the GitLab Train the Trainer option for a standard ILT course can request participation in the program.
 
@@ -20,6 +16,7 @@ GitLab Professional Education Services manages the certification process for all
 **Step 2**: Create a new issue in the namespace provided to you by your GitLab representative using the `certified_subcontractor_candidate` issue template. If you are a partner or customer, contact your GitLab representative to gain access to the namespace or if you need assistance with creating the issue.
 
 **Step 3**: Complete each item listed in the Candidate Tasks section of the issue description. As you work through the tasks, reach out to the training coordinator listed in the issue to schedule your shadowing and evaluation sessions. Here are the key tasks you will need to complete.
+
 - Review the train-the-trainer (T3) resources.
 - Shadow a certified trainer delivering the course to customers
 - Attend a live session and/or review T3 materials asynchronously
@@ -49,12 +46,10 @@ Here are the steps required to obtain GitLab Certified Trainer Certification for
 
 If you are interested in becoming a Certified Trainer, please reach out to your GitLab Account Manager today!
 
-### Footnotes:
+### Footnotes
 
 \+ GitLab will rely on the customer satisfaction scores to verify that certified trainer applicants who deliver courses in non-English languages are performing to expectations.
 
-\* Surveys from students employed by the trainer’s organization will not be included in the calculation of this rating.
+\* Surveys from students employed by the trainer's organization will not be included in the calculation of this rating.
 
 ++ Proof of professional trainer credentials can be one of the following: a resume with at least 1 year of professional training experience, certification/diploma from an external professional educator organization, and/or certified trainer certification from another IT vendor education services organization.
-
-

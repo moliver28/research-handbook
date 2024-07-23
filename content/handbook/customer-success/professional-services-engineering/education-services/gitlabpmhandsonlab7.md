@@ -1,5 +1,5 @@
 ---
-title: "GitLab Project Management - Hands-On Lab: Create And Customize Issue Boards"
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Create And Customize Issue Boards"
 description: "This Hands-On Guide walks you through creating and managing an issue board."
 ---
 > Estimated time to complete: 30 minutes
@@ -68,7 +68,7 @@ In this lab, you will learn how to create a simple issue board.
 
     > Group-level boards will have a similar default board to project-level boards. This group-level issue board shows all issues across the group's subgroups and projects.
 
-1. At the top of the page, click the dropdown next to **Group by** and select **Epic**. The board view should refresh and show a swimlane view of lists grouped by epic.
+1. At the top of the page, click the options toggle directly to the right of the search bar. Toggle **Epic swimlanes** on. The board view should refresh and show a swimlane view of lists grouped by epic.
 
 1. Scroll down to the bottom of the page and expand **Issues with no epic assigned**.
 
@@ -122,7 +122,7 @@ In this lab, you will learn how to create a simple issue board.
 
 1. Refresh the browser tab that contains your new board.
 
-## Task D: Create a new issue for for your board
+## Task D: Create a new issue for your board
 
 1. In the **Priority::High** list, click the **(+)** icon to create a new high-priority issue.
 

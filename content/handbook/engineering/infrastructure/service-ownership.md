@@ -1,14 +1,6 @@
 ---
-
-title: Service Ownership
+title: GitLab Service Ownership Policy
 ---
-
-
-
-
-
-
-# GitLab Service Ownership Policy
 
 ## Purpose
 
@@ -24,9 +16,9 @@ This policy applies specifically to customer-facing services and the underlying 
 
 #### Reliability::General
 
- - Contains all customer-facing services tied to the monolith architecture.
- - Responsibilities include design, development, deployment, and operational stability.
- - Ensuring alignment with organizational standards and meeting service level objectives (SLOs) for customer-facing services.
+- Contains all customer-facing services tied to the monolith architecture.
+- Responsibilities include design, development, deployment, and operational stability.
+- Ensuring alignment with organizational standards and meeting service level objectives (SLOs) for customer-facing services.
 
 #### Reliability::Practices
 
@@ -46,5 +38,3 @@ The Reliability Team maintains responsibility for the underlying infrastructure 
 - Monitoring and observability systems
 
 Collaboration between service owners and development teams in establishing and scaling the underlying infrastructure is vital for ensuring efficient service operations and meeting [availability SLAs](/handbook/engineering/monitoring/#gitlabcom-service-level-availability).
-
-

@@ -10,7 +10,7 @@ aliases:
 This page focuses on how to edit the handbook.
 Please see the [handbook usage page]({{< ref "handbook-usage" >}}) for how and why we use the handbook, and other [docs pages]({{< ref "docs" >}}) for further reference.
 
-This page is intended to be complementary to [Using GitLab at GitLab](/handbook/using-gitlab-at-gitlab/#using-gitlab-competency).
+This page is intended to be complementary to [Using GitLab at GitLab](/handbook/people-group/using-gitlab-at-gitlab/#using-gitlab-competency).
 We suggest you complete the [GitLab 101 Tool Certification](/handbook/people-group/learning-and-development/gitlab-101/) if you haven't already.
 
 **Have your own practical Handbook editing tips? Drop a video below!**
@@ -30,7 +30,7 @@ A typical workflow to edit the handbook:
 
 1. [Use the Web IDE to make changes](https://docs.gitlab.com/ee/user/project/web_ide/#use-the-web-ide).
 1. [Commit changes](https://docs.gitlab.com/ee/user/project/web_ide/#commit-changes).
-1. [Create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html), [assign reviewers](/handbook/handbook-usage/#when-to-get-approval).
+1. [Create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html), [assign reviewers](/handbook/about/handbook-usage/#when-to-get-approval).
 1. [Apply suggestions](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/suggestions.html#apply-suggestions) if any.
 1. Merge once all suggestions are resolved and you have the necessary approvals.
 
@@ -160,6 +160,11 @@ To preview your changes:
 
 The site uses the concept of page bundles, sections, and leaf pages.  A section can have multiple leaf pages, which requires a `_index.md` for the section.  A page bundle is a single page with a group of images, requires an `index.md`.
 
+In general, Handbook URLs should describe their content and be as clean and easy to remember as possible.
+
+Directories (folders) and pages should use lowercase `a-z` and hyphen `-`, except for `_index.md`. Uppercase `A-Z` is allowed but discouraged.
+While Git and Hugo allow any UTF-8 character to be used in the file path, using other characters (such as a space) can cause issues with the pipeline.
+
 Section:
 
 ```plain
@@ -194,12 +199,12 @@ section-dir/
 
 If you delete, rename, or move a page, you can:
 
-1. [update all existing links]({{< ref "practical-handbook-edits.md#find-and-replace-a-string-in-all-matching-files" >}})
-1. [add an alias to redirect]({{< ref "frontmatter.md#aliases" >}})
+1. [update all existing links](practical-handbook-edits.md#find-and-replace-a-string-in-all-matching-files)
+1. [add an alias to redirect](/docs/frontmatter.md#aliases)
 
 ## Editing content from shortcodes
 
-When trying to edit content, you may encounter content that is "built" using shortcodes and data files.
+When trying to edit content, you may encounter content that is "built" using [shortcodes](/docs/shortcodes/) and data files.
 Shortcodes look similar to `{{` `% performance-indicators "ux_department" %` `}}`.
 
 When you encounter content in a shortcode and want to edit it:
@@ -257,6 +262,12 @@ If you're unsure, you can [reach out for help](#need-help).
 
 To the ensure consistency, quality and correctness of the GitLab Handbook we use various linting jobs that run as part of the pipeline. These jobs check that everything is as it should be, and if they detect something is wrong will cause the pipeline to fail.
 
+### Prettier is formatting markdown files
+
+If you have `prettier` set up in VSCode and it is formatting the `.md` files when they are not supposed to, check if you have Prettier set to be your default formatter with `"editor.defaultFormatter": "esbenp.prettier-vscode"` in your user settings.
+
+Additionally, consider using the [Glob Pattern](https://code.visualstudio.com/api/references/vscode-api#GlobPattern) in the extension settings to specify which files to prettify automatically.
+
 ### Links and anchors errors
 
 There is a special linter that validates links and anchors across the handbook. If your change accidentally breaks a link, then the pipeline job will fail with a similar error message.
@@ -266,11 +277,11 @@ There is a special linter that validates links and anchors across the handbook. 
 1. It is a path to the file where the broken link was detected.
     (filepath - `sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/index.html.md`, line number: 87)
 1. It is an error message. An anchor `expense-reimbursement` is defined in the file path from step 1 but does not exist in the file path from step 3.
-1. It is a path where the header `Expense Reimbursement` needs to be defined. (file path - `sites/handbook/source/handbook/spending-company-money/index.html.md`)
+1. It is a path where the header `Expense Reimbursement` needs to be defined. (file path - `sites/handbook/source/handbook/finance/spending-company-money/index.html.md`)
 
 **How to fix the problem**
 
-Double-check that header `Expense Reimbursement` exists in `sites/handbook/source/handbook/spending-company-money/index.html.md`.
+Double-check that header `Expense Reimbursement` exists in `sites/handbook/source/handbook/finance/spending-company-money/index.html.md`.
 
 If it was moved or renamed, then update the link with the anchor to point to the correct location.
 
@@ -290,7 +301,7 @@ is "broken" and pipelines are failing for everyone, the root issue is most likel
 1. There are two ways to fix. Either:
    1. Make the code itself more robust to deal with the types of values it may encounter.
       However, not everyone knows Go and Hugo well enough to do that quickly.
-      If needed, create a "handbook::bug" issue in the handbook repository to document the problem
+      If needed, create a "Handbook::Operations" "type::bug" issue in the handbook repository to document the problem
       after fixing the pipeline issue.
    1. Edit the data file to have values the build won't fail on.
 

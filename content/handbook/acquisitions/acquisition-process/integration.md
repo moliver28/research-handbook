@@ -1,13 +1,6 @@
 ---
-
 title: "Acquisition Integration"
 ---
-
-
-
-
-
-
 
 This is a detailed view of our acquisition integration process. For more information about
 our acquisitions approach visit our [acquisitions process](/handbook/acquisitions/acquisition-process/).
@@ -69,10 +62,21 @@ Examples of areas and tasks, some of which are determined by deal structure and 
 1. Once a milestone has been signed-off, the Corp. Dev. champion will notify the accounting team if there is a consideration payment which needs to be processed
 1. Check-in calls (cadence (e.g., weekly, bi-weekly, monthly, etc.) will be determined on a deal by deal basis) will be scheduled by the PM leading the integration efforts with the following team members:
     1. Product and engineering champions
-    1. Acquisition lead (Corp. Dev. champion)
+    1. Corp. Dev. champion
     1. Main engineer leading the integration efforts from the acquired company
     1. Legal
 1. Changes to milestones - integration milestones are subject to changes as we work towards accomplishing them. As these milestones may have contractual obligations and impact wider product vision ambitions, **any and all** changes to milestone language have to be approved by the three deal champions: corp dev, product and engineering. Changes to milestones may require amending the acquisition agreement, in which case, the appropriate team members and contacts for the target company will be included in such discussions, as necessary. Changes that do not require approval and/or amending the acquisition agreement may be addressed async but in general it is preferred to discuss changes during the regular check-in call noted above.
+
+#### Fastboot
+
+To facilitate an effective, efficient and positive onboarding for the team, a fastboot should be planned within the first month of the team's onboarding to GitLab:
+
+- Purpose:
+  - Build a social connection between both teams
+  - Align both respective teams on the technologies in place, both from GitLab as well as the target
+  - Fully develop the work plan for the integration
+- Budget: will need to be structured as part of the acquisition process prior to the Closing of the deal
+- Format for the fastboot can be found [here](https://docs.google.com/document/d/1UGvusCqAuAMp8rmjf3seDys4yxr-g2vTfvVrGV9F0fA/edit) (GitLab internal-access only)
 
 ### People Integration
 
@@ -96,7 +100,7 @@ The GitLab Field and Marketing organizations have aligned on a go-to-market appr
 
 1. What [**customer value driver(s)**](/handbook/sales/command-of-the-message/#customer-value-drivers) does this acquisition augment and how?
 1. How does this acquisition augment [**GitLab's differentiators**](/handbook/sales/command-of-the-message/#gitlab-differentiators) and/or introduce new ones?
-1. How does this acquisition augment our existing [**customer use cases**](/handbook/use-cases/)?
+1. How does this acquisition augment our existing [**customer use cases**](/handbook/marketing/use-cases/)?
 
 ##### 2. Role-based learning objectives
 

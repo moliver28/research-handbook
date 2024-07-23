@@ -16,6 +16,8 @@ These limits are subject to change without prior notice.
 
 For Gitaly nodes, specific limits can be found under `default_attributes` => `omnibus-gitlab` => `gitlab_rb` => `gitaly` => `concurrency` for the different environments:
 
+<!-- vale handbook.Repetition = NO -->
 - [For production production](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/blob/master/roles/gprd-base-stor-gitaly-common.json)
 - [For canary production](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/blob/master/roles/gprd-base-stor-gitaly-cny.json)
 - [For main stage](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/blob/master/roles/gprd-base-stor-gitaly.json)
+<!-- vale handbook.Repetition = YES -->

@@ -14,11 +14,11 @@ An individual's annual expenditure on Individual Use software should not surpass
 
 If you require an individual use software subscription, please first check the list of [Tech Stack applications](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and the [Pre-Approved Individual Use Software listing](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/).
 
- - If your vendor is listed in the tech stack, please submit an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) using the Individual Bulk Access Request template.
- - If your vendor does not appear in the tech stack, requests must be submitted via [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfWp2lnSKp0gTKBfZxol-YEkTst4gtOYpRJQvnVvDzhcGuxwg/viewform) to ensure appropriate routing.
-   - **Note** that commonly requested Individual Use Software is documented within the [Pre-Approved Individual Use Software and Freeware](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/) listing and is subject to expedited Security approval. This should be requested using the above-linked Google form.
+- If your vendor is listed in the tech stack, please submit an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) using the Individual Bulk Access Request template.
+- If your vendor does not appear in the tech stack, requests must be submitted via [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfWp2lnSKp0gTKBfZxol-YEkTst4gtOYpRJQvnVvDzhcGuxwg/viewform) to ensure appropriate routing.
+  - **Note** that commonly requested Individual Use Software is documented within the [Pre-Approved Individual Use Software and Freeware](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/) listing and is subject to expedited Security approval. This should be requested using the above-linked Google form.
 
-Please consider whether one of our existing vendors may be able to service your needs before pursuing the usage of a new vendor. Where possible it is preferable to add users to existing agreements that have already been screened and approved as this can save GitLab money, decrease GitLab’s threat landscape, and expedite access to the tools you need.
+Please consider whether one of our existing vendors may be able to service your needs before pursuing the usage of a new vendor. Where possible it is preferable to add users to existing agreements that have already been screened and approved as this can save GitLab money, decrease GitLab's threat landscape, and expedite access to the tools you need.
 
 ## What Happens When I Request Individual Use Software?
 

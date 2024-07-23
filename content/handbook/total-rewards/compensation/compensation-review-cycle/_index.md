@@ -10,7 +10,7 @@ If you have any feedback or questions about the compensation review cycle, pleas
 
 ## Annual Compensation Review
 
-The purpose of the Annual Compensation Review is to provide managers with the opportunity to reflect on team members’ accomplishments, measure achievements against goals, and reward for demonstrated performance and growth potential.
+The purpose of the Annual Compensation Review is to provide managers with the opportunity to reflect on team members' accomplishments, measure achievements against goals, and reward for demonstrated performance and growth potential.
 
 Compensation decisions are based on:
 
@@ -56,7 +56,7 @@ Team members on leave will be eligible to receive an annual compensation and/or 
 
 Team members hired after October 31st will be reviewed to ensure their cash compensation does not fall below the minimum of the updated compensation range. Team members may be below the compensation range due to updates to the range for the upcoming year that would include changes to benchmark, location factor, and/or exchange rate, if applicable. If this does occur, the team member will be adjusted to the minimum of the range during the Annual Compensation Review cycle.
 
-Eligibility for review does not guarantee an increase will be awarded. Awards are recommended in alignment with team members’ contributions to the organization (as assessed during Talent Assessment) as is aligned to our pay-for-performance philosophy.
+Eligibility for review does not guarantee an increase will be awarded. Awards are recommended in alignment with team members' contributions to the organization (as assessed during Talent Assessment) as is aligned to our pay-for-performance philosophy.
 
 ### Budget
 
@@ -70,7 +70,7 @@ If you are a manager with other managers reporting to you, you will see your ove
 
 #### Promotion
 
-Promotion budget will be included in the managers’ budget slate, but should only be utilized for FY25Q1 promotions. Managers will be responsible for entering the promotion and new role in the promotion tab, and should recommend a compensation increase aligned with our [promotion compensation guidelines](/handbook/people-group/promotions-transfers/#promotion-compensation-guidelines). The [promotion document](/handbook/people-group/promotions-transfers/#promotion-document) path should be included in the “Promotion Notes” section on the Promotion tab.
+Promotion budget will be included in the managers' budget slate, but should only be utilized for FY25Q1 promotions. Managers will be responsible for entering the promotion and new role in the promotion tab, and should recommend a compensation increase aligned with our [promotion compensation guidelines](/handbook/people-group/promotions-transfers/#promotion-compensation-guidelines). The [promotion document](/handbook/people-group/promotions-transfers/#promotion-document) path should be included in the "Promotion Notes" section on the Promotion tab.
 
 #### Equity
 
@@ -142,21 +142,21 @@ Additional justification is required in the following situations:
 - Increases above guidelines (excluding market adjustments) should have a few sentences on why to assist higher level planners.
 - If a manager would like to allocate an increase to a team member who is paid over the maximum of their range or whose increase will bring them above the maximum of the range, they will need to include a few sentences of justification on why.
 
-Team members who aren’t receiving an increase or their increase is being delayed due to not performing at their current level should have that clearly communicated.
+Team members who aren't receiving an increase or their increase is being delayed due to not performing at their current level should have that clearly communicated.
 
 ### Market Adjustments
 
-The increase based on performance factor should be added to the team member’s market adjustment, if applicable, when recommending the final increase. The market adjustment is required to be allocated to all eligible team members without performance concerns.
+The increase based on performance factor should be added to the team member's market adjustment, if applicable, when recommending the final increase. The market adjustment is required to be allocated to all eligible team members without performance concerns.
 
-Managers of team members receiving a market adjustment have received additional budget to fund their team’s market adjustment.
+Managers of team members receiving a market adjustment have received additional budget to fund their team's market adjustment.
 
 If there are any reasons as to why a team member should not receive the proposed increase to be aligned with market rates in our calculator, please work with your [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) on appropriate next steps.
 
 ### Promotions
 
-Please review the handbook page on [promotions](/handbook/people-group/promotions-transfers) to understand the guidelines and philosophy when allocating an increase. Team members may still receive a performance increase if eligible for a promotion. Managers should review the final increase and salary based on the team member’s performance rating and new role when making the final recommendation.
+Please review the handbook page on [promotions](/handbook/people-group/promotions-transfers) to understand the guidelines and philosophy when allocating an increase. Team members may still receive a performance increase if eligible for a promotion. Managers should review the final increase and salary based on the team member's performance rating and new role when making the final recommendation.
 
-[Promotional RSU grants](/handbook/stock-options/#promotions) will be automatically calculated within the planning grid. Managers *are not* responsible for entering promotion RSU grants as part of entering promotions into Workday, they should only enter cash compensation increases. Grants are subject to approval at the next grant approval date.
+[Promotional RSU grants](/handbook/total-rewards/stock-options/#promotions) will be automatically calculated within the planning grid. Managers *are not* responsible for entering promotion RSU grants as part of entering promotions into Workday, they should only enter cash compensation increases. Grants are subject to approval at the next grant approval date.
 
 ### Equity
 
@@ -172,9 +172,9 @@ In calibrating the equity refresh, we recommend managers to take the following i
 - Unvested Equity Holdings
 - Value Vesting the next fiscal year
 
-When determining which team members to allocate an equity refresh grant, managers should avoid the “peanut-butter approach” and differentiate grant size based on team members’ performance and growth potential, zeroing in on team members with a high impact on the team and company’s results. Managers should ensure Key Talent is well positioned against their refresh range and target an overall participation rate of 70 - 75%.
+When determining which team members to allocate an equity refresh grant, managers should avoid the "peanut-butter approach" and differentiate grant size based on team members' performance and growth potential, zeroing in on team members with a high impact on the team and company's results. Managers should ensure Key Talent is well positioned against their refresh range and target an overall participation rate of 70 - 75%.
 
-The following equity refresh grant *guidelines* are recommended for those receiving a grant based on the team member’s growth potential rating:
+The following equity refresh grant *guidelines* are recommended for those receiving a grant based on the team member's growth potential rating:
 
 - Developing is not funded
 - Growing is targeted between the minimum and midpoint of the range

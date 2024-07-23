@@ -1,5 +1,4 @@
 ---
-
 title: Elevate
 aliases:
 - /handbook/people-group/learning-and-development/elevate/elevate
@@ -7,7 +6,7 @@ aliases:
 
 Managers at GitLab enable our mission that [everyone can contribute]({{< ref "mission" >}}). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
-The handbook provides guidance on GitLab [leadership competencies](/handbook/competencies/#manager-and-leadership-competencies) and principles. Bringing these practices to life requires training and practice. **Elevate**, GitLab's leadership development program, provides opportunity for people leaders to learn to lead at GitLab.
+The handbook provides guidance on GitLab [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies) and principles. Bringing these practices to life requires training and practice. **Elevate**, GitLab's leadership development program, provides opportunity for people leaders to learn to lead at GitLab.
 
 At this time, Elevate is only available for current People Leaders, People Business Partners, and members of the Team Member Relations team.
 
@@ -19,19 +18,19 @@ In FY24, 85% of people leaders will complete Elevate and earn the GitLab Elevate
 
 ## What team members are saying about Elevate
 
-1. `Much more confidence handling things when they go wrong. I react completely differently to situations now. Also I see myself as a manager whereas I didn’t before and felt like I was making it up as I went.`
+1. `Much more confidence handling things when they go wrong. I react completely differently to situations now. Also I see myself as a manager whereas I didn't before and felt like I was making it up as I went.`
 1. `I'm much more comfortable to give feedback using the frameworks we learned during the program. Also feel much more confident about my DNA as a manager by listening to others managers.`
 1. `I now have an actionable set of tools available which helps me navigate any kind of conversation.`
 1. `The different frameworks that were introduced are immensely helpful. I have been relying on them in numerous situations and find it to be really impactful.`
 
 ## What is Elevate
 
-Elevate is a highly interactive, all-remote program where managers will learn with, and from, each other. The goal is to provide a common, well understood leadership framework which demonstrates GitLab [values]({{< ref "values" >}}), [leadership competencies](/handbook/competencies/#manager-and-leadership-competencies), and [mission]({{< ref "mission" >}}).
+Elevate is a highly interactive, all-remote program where managers will learn with, and from, each other. The goal is to provide a common, well understood leadership framework which demonstrates GitLab [values](/handbook/values/), [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies), and [mission]({{< ref "mission" >}}).
 
 In Elevate, participants will:
 
 1. Learn what it means to lead at GitLab
-1. Practice the [Manager & Leadership competencies](/handbook/competencies/#manager-and-leadership-competencies)
+1. Practice the [Manager & Leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies)
 1. Build cross-functional relationships with coaching cohort members
 1. Demonstrate leadership competency by completing the Elevate Leadership Certification
 

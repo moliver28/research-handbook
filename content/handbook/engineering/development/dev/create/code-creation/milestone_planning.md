@@ -21,9 +21,9 @@ Responsibility: The creation of the planning issue is overseen by the engineerin
 - **Issue Assignment**: During the current milestone, each engineer is assigned 1-2 upcoming issues that are likely to be included in the next milestone.
 - **Due Date**: The triage process should be complete at least one week before the end of the current milestone.
 - **Time Management**: Engineers are to dedicate no more than one hour per issue for review and preparation.
-    - **Review Criteria**: Engineers review the title and description of assigned issues to ensure the scope of work is clearly defined.
-    - **Estimation and Comments**: If the issue is well-defined, engineers add an estimate. If additional details are needed, they should leave a comment accordingly.
-    - **Issue Readiness**: Issues that are ready for development receive the "ready for development" label. Issues deemed no longer valid should be closed.
+  - **Review Criteria**: Engineers review the title and description of assigned issues to ensure the scope of work is clearly defined.
+  - **Estimation and Comments**: If the issue is well-defined, engineers add an estimate. If additional details are needed, they should leave a comment accordingly.
+  - **Issue Readiness**: Issues that are ready for development receive the "ready for development" label. Issues deemed no longer valid should be closed.
 
 ## Issues Estimation
 
@@ -35,7 +35,7 @@ A weight of 5 generally indicates the problem is not clear or a solution should 
 
 ## Capacity Planning for the Next Milestone
 
-- **Capacity Review**: When planning the next milestone, the engineering manager evaluates the team's available capacity, taking into account [PTO](/handbook/paid-time-off/) schedules and other commitments.
+- **Capacity Review**: When planning the next milestone, the engineering manager evaluates the team's available capacity, taking into account [PTO](/handbook/people-group/paid-time-off/) schedules and other commitments.
 - **Issue Selection**: The EM selects top-priority issues until the capacity target is met, using the ["Deliverable" label](/handbook/product-development-flow/#required-labels) to mark committed issues.
 
 ## Prioritization and Execution of Work
@@ -50,8 +50,8 @@ A weight of 5 generally indicates the problem is not clear or a solution should 
 ### What to Work on Next
 
 - **Stretch Issues**: After fulfilling deliverable responsibilities and other activities, engineers can use any remaining time to work on Stretch issues. These are lower priority and not expected to be completed within the current iteration cycle but are potential deliverables for the next cycle. Early progress on these issues is considered a bonus.
-- **Other Ideas**: Engineers are encouraged to use spare time to contribute to any work they believe will significantly benefit the product or company. As the [general guidelines state](/handbook/values/#dont-wait), “we recognize that inspiration is perishable, so if you’re enthusiastic about something that generates great results in relatively little time feel free to work on that.” While pursuing such initiatives, engineers should ensure proper issue assignment and consider sharing their work in relevant channels for visibility and collaboration.
-- **Responsibility over Rigidity**: We expect people to be [managers of one](/handbook/values/#efficiency) and prefer [responsibility over rigidity](/handbook/values/#efficiency), so there’s no need to ask for permission if you decide to work on something that’s not on the issue board, but please keep your other responsibilities in mind, and make sure that there is an issue, you are assigned to it, and you share it with the team.
+- **Other Ideas**: Engineers are encouraged to use spare time to contribute to any work they believe will significantly benefit the product or company. As the [general guidelines state](/handbook/values/#dont-wait), "we recognize that inspiration is perishable, so if you're enthusiastic about something that generates great results in relatively little time feel free to work on that." While pursuing such initiatives, engineers should ensure proper issue assignment and consider sharing their work in relevant channels for visibility and collaboration.
+- **Responsibility over Rigidity**: We expect people to be [managers of one](/handbook/values/#efficiency) and prefer [responsibility over rigidity](/handbook/values/#efficiency), so there's no need to ask for permission if you decide to work on something that's not on the issue board, but please keep your other responsibilities in mind, and make sure that there is an issue, you are assigned to it, and you share it with the team.
 
 ## Workflow and Label Management
 

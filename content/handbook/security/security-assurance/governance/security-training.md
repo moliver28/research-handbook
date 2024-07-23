@@ -11,7 +11,7 @@ This page is for all information regarding GitLab security trainings. Security t
 
 ## Security Assurance
 
-The Security Assurance sub department handles security training needs that involve [Field Security]({{< ref "../field-security" >}}), [Security Governance]({{< ref "./_index.md" >}}), [Security Compliance]({{< ref "../security-compliance" >}}) and [Security Risk]({{< ref "../security-risk" >}}).
+The Security Assurance sub department handles security training needs that involve [Field Security]({{< ref "../field-security" >}}), [Security Governance](_index.md), [Security Compliance]({{< ref "../security-compliance" >}}) and [Security Risk]({{< ref "../security-risk" >}}).
 
 For more information on Security Assurance, visit the [Security Assurance]({{< ref "security-assurance" >}}) page.
 
@@ -19,7 +19,7 @@ For more information on Security Assurance, visit the [Security Assurance]({{< r
 
 GitLab team members are probably most familiar with [security awareness training]({{< ref "sec-awareness-training" >}}) which is a handbook first GitLab-customized training + annual policy reviews provided via [ProofPoint](https://gitlab.ws01-securityeducation.com/). GitLab requires all new hires to complete [New Hire security orientation training]({{< ref "sec-awareness-training#when-will-security-awareness-training-occur" >}}) as part of the onboarding process and annual training there after.
 
-GitLab security awareness training has been developed by [GitLab Security](/handbook/security/)'s [Governance Program]({{< ref "./_index.md" >}}). The goal of the training is to:
+GitLab security awareness training has been developed by [GitLab Security](/handbook/security/)'s [Governance Program](_index.md). The goal of the training is to:
 
 1. Make all GitLab team-members aware of the GitLab Security team, and familiarize them with our efforts, team structure, and people.
 1. Make all GitLab team-members aware of the importance of their role in securing GitLab on a daily basis, and to empower them to make the right decisions with security best-practices.
@@ -35,7 +35,7 @@ GitLab security awareness training has been developed by [GitLab Security](/hand
   - [Data Classification]({{< ref "data-classification-standard" >}})
   - [No Red Data on Unapproved Locations](/handbook/people-group/acceptable-use-policy/#security-and-proprietary-information)
 
-#### Training Feedback
+### Training Feedback
 
 You are strongly encouraged to engage the team behind the training and provide feedback, or ask any questions related to the content of the training. You can do that through:
 
@@ -80,7 +80,7 @@ There are a few fundamental differences when creating training material vs non-s
 
 Here are a few examples to help illustrate the point:
 
-- Training content that talks about GitLab's [Red Team](/handbook/security/threat-management/red-team/_index.md) and their approach to how they perform their duties is fine. Details on how a Red Team assessment was performed including examples of data recovered or specific techniques against specific GitLab assets should not be (unless perhaps it has been reviewed and "sanitized" by the Security Department).
+- Training content that talks about GitLab's [Red Team](/handbook/security/security-operations/red-team/) and their approach to how they perform their duties is fine. Details on how a Red Team assessment was performed including examples of data recovered or specific techniques against specific GitLab assets should not be (unless perhaps it has been reviewed and "sanitized" by the Security Department).
 - Security-related content that involves business partnerships, specific customers, certain company initiatives, and other related non-public information cannot be included in publicly accessible training content. A good example would be if GitLab were working with a government agency - the agency itself may have extremely strict rules about what can be made public, and something that is considered public by GitLab's own standards may not be a part of that agency's standards.
 - You *can* have public content that points to internal private content, similar to a handbook entry that contains a link to an internal issue or restricted document. However, you *cannot* quote from that private content within your public content.
 

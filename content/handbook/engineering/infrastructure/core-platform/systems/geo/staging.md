@@ -5,12 +5,6 @@ title: "Geo on staging.gitlab.com"
 description: "Document Geo installation on staging.gitlab.com"
 ---
 
-
-
-
-
-
-
 #### Summary
 
 Geo is fully operational on the staging environment of GitLab.com. This is a major dogfooding effort that allows the team to test and validate new features at scale, catch bugs, and identify performance issues. This is important for our customers because it increases our confidence in any Geo improvements we make.
@@ -79,6 +73,7 @@ In the last week of their rotation, the outgoing person should set up a meeting 
 - are familiar with any current ongoing issues with staging geo
 
 The main goals for this rotation:
+
 - Ensure Geo on staging works.
 - Distribute responsibility for keeping Geo on staging working.
 - Better understand the experience of a customer sysadmin
@@ -117,4 +112,3 @@ The main goals for this rotation:
 | March     | [`@dbalexandre`](https://gitlab.com/dbalexandre) |
 | February  | [`@cat`](https://gitlab.com/cat) |
 | January   | [`@vsizov`](https://gitlab.com/vsizov) |
-

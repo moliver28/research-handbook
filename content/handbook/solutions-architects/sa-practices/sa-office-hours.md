@@ -1,9 +1,7 @@
 ---
-
 title: "Commercial Solutions Architect Office Hours"
 description: "Solutions Architect Office hours to educate and build relationships with Account Executives, Customer Success Managers and Solutions Architecture team"
 ---
-
 
 Office Hours are a collaborative space where AE/CSM/SAs can learn and ask questions to the Commercial Solutions Architecture team.
 

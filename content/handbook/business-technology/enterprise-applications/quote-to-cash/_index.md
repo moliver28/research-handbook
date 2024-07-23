@@ -1,5 +1,4 @@
 ---
-
 title: "Quote to Cash Documentation"
 description: "Enterprise Applications Quote to Cash Documentation"
 ---
@@ -53,19 +52,19 @@ description: "Enterprise Applications Quote to Cash Documentation"
 
 ## Process Flow Diagrams
 
-#### Sales-Assisted: New Subscription
+### Sales-Assisted: New Subscription
 
 <div class="center">
 <div style="width: 720px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:720px; height:480px" src="https://lucid.app/documents/embeddedchart/0f691079-8ee9-4663-84d7-6d03e7f87ed8" id="PNs5p_JZW4yg"></iframe></div>
 </div>
 
-#### Sales-Assisted: Renewal
+### Sales-Assisted: Renewal
 
 <div class="center">
 <div style="width: 720px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:720px; height:480px" src="https://lucid.app/documents/embeddedchart/5243568d-6c04-4c52-a14c-ea3c5bf42ac0" id="gx25Mg96427t"></iframe></div>
 </div>
 
-#### Zero Touch: New Subscription
+### Zero Touch: New Subscription
 
 <div class="center">
 <div style="width: 720px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:720px; height:480px" src="https://lucid.app/documents/embeddedchart/09ac03f9-ae40-4bbd-961c-f64bb44f5b4f" id="KWs5ZPs-THoH"></iframe></div>
@@ -73,9 +72,9 @@ description: "Enterprise Applications Quote to Cash Documentation"
 
 ## Entity Relationship Diagrams
 
-- [Zuora Billing](./entity-relationship-diagrams#zuora-billing)
-- [CustomersDot (Customers Portal)](./entity-relationship-diagrams#customersdot-customer-portal)
-- [GitLab](./entity-relationship-diagrams#gitlab)
+- [Zuora Billing](entity-relationship-diagrams#zuora-billing)
+- [CustomersDot (Customers Portal)](entity-relationship-diagrams#customersdot-customer-portal)
+- [GitLab](entity-relationship-diagrams#gitlab)
 
 ### Quote to Cash Systems Field Mapping
 

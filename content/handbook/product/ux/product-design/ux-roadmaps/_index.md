@@ -45,7 +45,7 @@ Using JTBD to define and drive your work through their incorporation of UX Theme
 <!-- Job map and UX Theme scope examples -->
 ![UX Theme scope example using the job map](UX_Theme_JTBD_Scope.png)
 
-The work done on a theme should keep the scope of the deliverables in mind. If the design cannot be implemented within a reasonable timeframe, then the scope of the theme is likely too large and should be reduced. A good guideline is three milestones to implement a UX Theme; One MVC: (feature: addition) followed by two (feature:enhancements) iterations to successfully implement the designs consecutively. There may be instances where a theme will take fewer iterations or even more if it is a more significant back-end change. It is also recommended to complete the entire UX Theme in consecutive milestones. Skipping theme completion or putting future iterations in a backlog should be avoided and and should only be done when there is no other option to do so. In all cases, it is recommended to collaborate with your team's stable counterparts to reach a viable solution that continues to deliver value.
+The work done on a theme should keep the scope of the deliverables in mind. If the design cannot be implemented within a reasonable timeframe, then the scope of the theme is likely too large and should be reduced. A good guideline is three milestones to implement a UX Theme; One MVC: (feature: addition) followed by two (feature:enhancements) iterations to successfully implement the designs consecutively. There may be instances where a theme will take fewer iterations or even more if it is a more significant back-end change. It is also recommended to complete the entire UX Theme in consecutive milestones. Skipping theme completion or putting future iterations in a backlog should be avoided and should only be done when there is no other option to do so. In all cases, it is recommended to collaborate with your team's stable counterparts to reach a viable solution that continues to deliver value.
 
 ### UX Theme structure
 
@@ -98,7 +98,7 @@ The business objective is why we are working on a theme. Without this informatio
 
 #### Requirements
 
-Requirements are more granular aspects of a theme that help define the scope of the problem and solution area. Typically, requirements are derived from feature issues and research insights used to create the theme. Generally speaking, it is more common to see these items in themes in the (Now {Next:1-3 milestones}, or Next {Next:4-7}) buckets, as the problem areas have been researched, and the problems to solve are more evident than themes scheduled in the future. Requirements will take the form of: “The user needs to be able to {solution agnostic description of the need}.”
+Requirements are more granular aspects of a theme that help define the scope of the problem and solution area. Typically, requirements are derived from feature issues and research insights used to create the theme. Generally speaking, it is more common to see these items in themes in the (Now {Next:1-3 milestones}, or Next {Next:4-7}) buckets, as the problem areas have been researched, and the problems to solve are more evident than themes scheduled in the future. Requirements will take the form of: "The user needs to be able to {solution agnostic description of the need}."
 
 *Note: We are not designing a solution for a specific feature issue; instead, we are designing the entire theme. The individual feature issues within it will be addressed through a planning breakdown session when the UX Theme's vision design has been completed and is now ready to be built via MVC + Iterations.*
 
@@ -122,7 +122,7 @@ Themes should span multiple milestones, allowing designers to have the flexibili
 | Future: {Next 7-13 Milestones} | Workflow:problem validation backlog | Priority:3 | Priority:2 | Medium or Low | Research is required to increase confidence and define the scope | Within 7 milestones | Within 13 milestones |
 | Future+: {Awaiting further demand} | Workflow:problem validation backlog | Priority:4 | Priority:4 | Low | Research is required to increase confidence and define the scope | Within the next 13 milestones | TBD |
 
-These timeframes denote when work will take place and when work will be delivered. Think of this as design and research will be delivered within < timeframe > (e.g., design/research delivered in Now: {Next 1-3 Milestones}). In many cases, it will make sense for a lower confidence theme located in the Next or Future buckets to be worked on in parallel by the group’s UX Researcher and/or the Product Manager to increase the confidence, allowing the theme to move up to the Now bucket for future design work. Just like design should be 2-3 milestones ahead of build, research should be 2-3 milestones ahead of design.
+These timeframes denote when work will take place and when work will be delivered. Think of this as design and research will be delivered within < timeframe > (e.g., design/research delivered in Now: {Next 1-3 Milestones}). In many cases, it will make sense for a lower confidence theme located in the Next or Future buckets to be worked on in parallel by the group's UX Researcher and/or the Product Manager to increase the confidence, allowing the theme to move up to the Now bucket for future design work. Just like design should be 2-3 milestones ahead of build, research should be 2-3 milestones ahead of design.
 
 *Consider this: If you only work on four themes a year and each gets broken down into three MVCs, that equates to delivering UX value to the user every milestone across twelve milestones.*
 
@@ -196,7 +196,7 @@ It is recommended to use GitLab boards to visualize your UX Themes in a roadmap 
 
 ### UX Theme workshop
 
-Creating UX Themes cannot and should not be done in isolation. For themes to be successful, they require buy-in from team members who will be contributing to or consuming the content. It’s best practice and highly recommended to conduct a workshop with the team, including the lead designer, PM, and Design Manager. Engineering counterparts may participate but it is not required. To help facilitate a workshop, a workshop guide has been created that leverages our asynchronous value requiring as little synchronous meeting time as possible; however, to ensure this is a collaborative effort, some synchronous components are necessary.
+Creating UX Themes cannot and should not be done in isolation. For themes to be successful, they require buy-in from team members who will be contributing to or consuming the content. It's best practice and highly recommended to conduct a workshop with the team, including the lead designer, PM, and Design Manager. Engineering counterparts may participate but it is not required. To help facilitate a workshop, a workshop guide has been created that leverages our asynchronous value requiring as little synchronous meeting time as possible; however, to ensure this is a collaborative effort, some synchronous components are necessary.
 
 - [UX Theme workshop guide issue](https://gitlab.com/gitlab-org/gitlab/-/issues/356188)
 - [UX Theme creation Figjam template](https://www.figma.com/file/uu5scvnjO2iaGeaiGLYc5T/UX-Theme-Workshop?type=whiteboard&node-id=0-1&t=O6sGe41SGY9Rac1u-0)
@@ -208,4 +208,3 @@ View the [example theme issue](https://gitlab.com/gitlab-org/gitlab/-/issues/355
 ### Working on items other than UX Themes
 
 UX Themes will not represent all the work that may be needed in a given milestone. Rather, it represents strategically aligned activities that deliver on the strategy of the stage:group. There will be instances where items unrelated to a UX Theme will still need to be worked on. Bugs, Deferred UX, or other usability issues and discrete urgent customer requests fall into this bucket. Themes can be thought of as the strategic design initiatives that are needed to be completed in order to achieve the overarching goal of your main JTBD for your stage:group. While the other issues are for maintaining the experience pertaining to our standards.
-

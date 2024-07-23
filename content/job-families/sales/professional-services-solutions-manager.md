@@ -14,7 +14,7 @@ The Solutions Manager (Intermediate) is a [grade 6](/handbook/total-rewards/comp
 
 #### Solutions Manager (Intermediate) Responsibilities
 
-- Define, scope, and prioritize GitLab’s services and training offerings, including persona and market segmentation analysis, offering definition, scope, and pricing
+- Define, scope, and prioritize GitLab's services and training offerings, including persona and market segmentation analysis, offering definition, scope, and pricing
 - Collaborate with subject matter experts in the field, Product Management & Marketing, and instructional designers (as appropriate) to develop and deliver prioritized global services and training offerings, content, and sales & marketing collateral
 - Ensure services/training delivery model is focused on customer success outcomes while championing quality and efficiency
 - Measure and report on the effectiveness of services and training enablement investments and programs

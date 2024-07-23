@@ -168,7 +168,7 @@ The Director, Procurement is a [grade 11](/handbook/total-rewards/compensation/c
 #### Senior Director, Procurement Responsibilities
 
 - Extends the Director, Procurement responsibilities
-- Creates, communicates, and executes a procurement strategy in support of GitLab’s overall objectives
+- Creates, communicates, and executes a procurement strategy in support of GitLab's overall objectives
 - Owns policies, practices, and systems to support a fast-growth environment while managing risk and improving operational efficiency
 - Develops procurement processes, systems and purchase controls to ensure compliance and develop a communication strategy to bring awareness to the policies
 - Works with external auditors and advisors on audit, accounting and other matters as needed; work cross functionally with business partners to continue to challenge efficiencies in the procurement and negotiation processes
@@ -183,7 +183,7 @@ The Director, Procurement is a [grade 11](/handbook/total-rewards/compensation/c
 - Extends the Director, Procurement requirements
 - At least 10 years of experience in procurement at a technology company
 - At least 5 years managing a procurement team
-- Drive for results. Counted on to deliver goals, constantly pushes self and others to achieve OKR’s.
+- Drive for results. Counted on to deliver goals, constantly pushes self and others to achieve OKR's.
 - Makes good decisions based upon wisdom, experience and judgment based on industry knowledge.
 - Understands broad stakeholder needs, knowledgeable in current and possible future policies, practices, trends, and information affecting his/her business organization.
 - Strong operational skills required to drive consistency and speed in the execution of our procure to pay processes

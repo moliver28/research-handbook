@@ -1,5 +1,4 @@
 ---
-
 title: "The Infrastructure SaaS Platforms Project Management"
 ---
 
@@ -7,7 +6,7 @@ title: "The Infrastructure SaaS Platforms Project Management"
 
 We use GitLab epics and issues to communicate the progress and status of our work.
 The [SaaS Platforms epic](https://gitlab.com/groups/gitlab-com/-/epics/2115) is indexing the top level epic for each team, and links to active OKR's for a given quarter.
-All teams in SaaS Plaforms follow these guidelines so that it is easy for team-members to contribute to different projects if needed.
+All teams in SaaS Platforms follow these guidelines so that it is easy for team-members to contribute to different projects if needed.
 
 ### Projects are reviewed weekly in the Grand Review
 
@@ -16,10 +15,14 @@ All teams in SaaS Plaforms follow these guidelines so that it is easy for team-m
 1. Indicate any project blockers.
 2. Briefly highlight progress since the last update.
 3. Indicate planned next steps, or mitigations required to progress.
+
 This enables other engineers and other managers to have good information about projects in an asynchronous fashion.
 
 Completed epics should remain "Open" with the ~"workflow-infra::In Progress" label.
 Update the status block in the epic description to summarize the project and share the completed status.
+
+We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) to collect the status information into top-level epics for each group.
+This automation runs several times each day, and can be triggered by [running the pipeline listed on the project page](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/pipeline_schedules).
 
 #### When a project is finished
 
@@ -45,7 +48,7 @@ Epics must always have the following sections:
 - Directly responsible individuals (DRI) responsible for the project completion
 - Defined exit criteria
 - Issue admin section to provide the issue priority, labels and epic for quick actions
-- Development Log, containing the previous Status Updates and any other relevant infromation to log
+- Development Log, containing the previous Status Updates and any other relevant information to log
 - Status Update, with the latest status update of the Epic
 - Start date and estimated due date
 
@@ -55,7 +58,7 @@ We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/
 
 #### DRI Section
 
-```
+```markdown
 ### DRI
 
 @user
@@ -66,7 +69,7 @@ We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/
 This section is dynamic and includes people who are currently contributing to the Epic work.
 The DRI and the EM are responsible for updating the list of participants accordingly.
 
-```
+```markdown
 ### Participants
 
 - @participant1
@@ -78,7 +81,7 @@ The DRI and the EM are responsible for updating the list of participants accordi
 
 This section contains the previous Status Updates. At least, it is updated everytime the DRI updates the Status Section.
 
-```
+```markdown
 ### Development Log
 
 <details>
@@ -94,7 +97,7 @@ This section contains the previous Status Updates. At least, it is updated every
 
 #### Status Section
 
-```
+```markdown
 ### Status YYYY-MM-DD
 
 <Updates about the project at the YYYY-MM-DD>
@@ -182,3 +185,22 @@ This is a list of the group issue trackers:
 | Production Engineering | [issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues)|
 | Scalability | [issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues) |
 
+### Triage Ops
+
+For labeling and bot notifications under [gitlab-com/gl-infra](https://gitlab.com/gitlab-com/gl-infra) we use [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage) and the [triage-ops](https://gitlab.com/gitlab-com/gl-infra/triage-ops/) project.
+For labeling, enforcing SLOs, and managing workflow labeling there are common policies that are set uniformly for projects in Infrastructure, Platform.
+For more information and how to add additional policies see [the project README.md](https://gitlab.com/gitlab-com/gl-infra/triage-ops/-/blob/master/README.md?ref_type=heads).
+
+## Retrospectives
+
+At the end of the quarter, or the completion of a large deliverable, teams should perform a retrospective to capture learnings.
+There is no set format for the retrospective though Engineering Managers should be aware of the [GitLab Retrospective Guidelines](/handbook/engineering/management/group-retrospectives/).
+The retrospective DRI identifies a list of actions which they consolidate in the Summary of Actions section in the issue description.
+
+Process to identify actions:
+
+1. Add a comment on each thread with Actions as the title of the comment (H3 level)
+1. Some threads may not require an action, you may want to state this explicitly at the end of the thread for transparency
+1. Below the Actions comment, add a suggestion on an action the team can take
+1. Ping the contributors to get a round of validation on the actions and potential refinement
+1. Create an issue for each action and list them in the Summary of Actions section

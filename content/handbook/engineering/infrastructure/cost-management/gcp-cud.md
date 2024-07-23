@@ -1,29 +1,21 @@
 ---
-
 title: "GCP CUD"
 description: "GCP Committed Use Discounts"
 ---
-
-
-
-
-
-
-
-
-
 
 ---
 
 ### What are Committed Use Discounts in GCP?
 
 Google Committed Use Discounts is a way to reduce your compute rate by committing to a set amount of servers of a certain type and in a certain region for a period of time (1 year or 3 year). You will pay this cost whether you use the servers or not, but at a significantly discounted rate compared to the on-demand server rate. This is the equivalent of reserved instances or compute savings plan in AWS.
+
 - [CUD Description](https://cloud.google.com/compute/docs/instances/signing-up-committed-use-discounts)
 - [CUD Restrictions](https://cloud.google.com/compute/docs/instances/signing-up-committed-use-discounts#restrictions)
 
 #### CUD Dimensions
 
 We can share CUD across projects, but the dimensions CUD are split across are listed below.
+
 - Region
 - Machine Type
 - Cost Type (CPU vs RAM)
@@ -60,8 +52,7 @@ The infra analyst should make sure there are enough Committed CPU Quota to meet 
 #### 5. Reservation Configuration
 
 Reservations for specific node type are configured in our
-[gitlab-com-infrastructure terraform
-repository](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/blob/master/environments/gprd/gcp-reservations.tf).
+[gitlab-com-infrastructure terraform repository](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/blob/master/environments/gprd/gcp-reservations.tf).
 This must be updated to ensure efficient utilization of our CUD's, along with
 the instance choice being used in our infrastructure.
 

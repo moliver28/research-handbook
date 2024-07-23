@@ -1,31 +1,24 @@
 ---
 title: "Professional Services Project Manager"
+description: "GitLab Professional Services Project Managers manage high-complexity projects to successful completion from initiation through delivery to closure. In this role, you will coordinate with cross-functional teams and our global customers to complete distinct projects both on time and within budget. Project Managers need to have substantial experience managing IT and software consulting projects and relying on traditional systems and software development methodologies, as well as practical experience with agile project management methodologies."
 ---
 
 ## Professional Services Job Family Matrix
 
-| PM (Project Manager) |
-| -- |
-| Intermediate - 6 |
-| Senior - 7 |
+| Level | Grade |
+| -- | -- |
+| [Professional Services Project Manager](#professional-services-project-manager) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Professional Services Project Manager](#senior-professional-services-project-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Staff Professional Services Project Manager](#staff-professional-services-project-manager) | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
-## Performance Indicators
+### Professional Services Project Manager
+
+#### Performance Indicators
 
 - Achieve 100% of the global quarterly revenue target
 - Manage customer projects to a successful, on budget, on schedule completion
 - Successfully manage the quarterly revenue forecast (within your pervue) within a 5% margin
-
-## Professional Services Roles at GitLab
-
-### Professional Services Project Manager
-
-#### Professional Services Project Manager Job Grade
-
-The Professional Services Project Manager is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Summary
-
-GitLab Professional Services Project Managers manage high-complexity projects to successful completion from initiation through delivery to closure. In this role, you will coordinate with cross-functional teams and our global customers to complete distinct projects both on time and within budget. Project Managers need to have substantial experience managing IT and software consulting projects and relying on traditional systems and software development methodologies, as well as practical experience with agile project management methodologies.
+- Achieve 70% billable utilization target
 
 #### Professional Services Project Manager Responsibilities
 
@@ -53,17 +46,20 @@ GitLab Professional Services Project Managers manage high-complexity projects to
 - Solid organizational skills, including attention to detail and ability to handle multiple priorities
 - Demonstrated ability to think strategically about business, products, and technical challenges
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ### Senior Professional Services Project Manager
 
-#### Senior Professional Services Project Manager Job Grade
+#### Performance Indicators
 
-The Senior Professionl Services Project Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+- Achieve 100% of the global quarterly revenue target
+- Manage customer projects to a successful, on budget, on schedule completion
+- Successfully manage the quarterly revenue forecast (within your pervue) within a 5% margin
+- Achieve 70% billable utilization target
 
 #### Senior Professional Services Project Manager Responsibilities
 
-All of the responsibilities of an intermeidate Project Manager plus the following:
+All of the responsibilities of a Project Manager plus the following:
 
 - Ability to manage large scale commercial projects and lead executive stakeholder meetings and communications
 - Ability to work cross functionally with GitLab support, engineering, product teams to resolve complex customer problems
@@ -71,9 +67,9 @@ All of the responsibilities of an intermeidate Project Manager plus the followin
 - Summarize key customer projects on a monthly basis; provide quarterly role-up for QBRs
 - Act as an advocate for change and constantly iterate upon the revision/improvement of processes, procedures, and templates
 
-#### Professional Services Project Manager Requirements
+#### Senior Professional Services Project Manager Requirements
 
-All of the requirements of an intermeidate Project Manager plus the following:
+All of the requirements of a Project Manager plus the following:
 
 - Ability to manage and successfully run customer projects like a business:
   - Create consistent and concise exec-level status reporting both internally & externally
@@ -81,16 +77,53 @@ All of the requirements of an intermeidate Project Manager plus the following:
   - Establish strong, trusting relationships with management or other influential roles within the customer's organization
   - Ensure revenue can be recognized immediately following the completion of the work (swiftly execute Change Orders as needed)
 
+### Staff Professional Services Project Manager
+
 #### Performance Indicators
 
 - Achieve 100% of the global quarterly revenue target
-- Manage customer projects to a successful, on budget, on schedule completion
+- Manage customer and internal projects to a successful, on budget, on schedule completion
 - Successfully manage the quarterly revenue forecast (within your pervue) within a 5% margin
+- Achieve 50% billable utilization target
+
+#### Staff Professional Services Project Manager Responsibilities
+
+All of the responsibilities of a Senior Project Manager plus the following:
+
+- Act as the Professional Service Change Management Project Manager
+- Partner with the Manager of Program Delivery as the "Product Owner"
+- Coordinate, track, and manage priorities with stakeholders across PMO, Engagement Management, Delivery - Management, Technical Architect Practice, and Practice Management
+- Oversee and prioritize the Service Offering workflow for new and existing services
+- Ensure timely tracking and reporting for Service Offerings
+- Collect and analyze data from internal retrospectives to track updates needed for Delivery Kits, processes, and methodology
+- Assist in refining and structuring Delivery Kits for "Transformational" Service Offerings
+- Collaborate with the PS Ops team to prioritize and implement process improvements
+- Support the Delivery Management team in tracking measurable and trackable items
+- Foster cross-collaboration within the PS organization to achieve OKRs
+- Maintain the PMO Handbook process and ensure alignment with PS Operations
+- Coordinate with Practice, Delivery, and EM team on updates to the Delivery Methodology
+- Manage, track, and report against the PMO backlog
+
+#### Staff Professional Services Project Manager Requirements
+
+All of the requirements of a Senior Project Manager plus the following:
+
+- Proven project management experience, preferably in a professional services or consulting environment
+- Strong stakeholder management and coordination skills across cross-functional teams
+- Expertise in service offering development, delivery methodologies, and process improvement
+- Proficiency in data analysis and reporting to drive decision-making
+- Excellent communication and collaboration abilities to foster alignment across the organization
+- Knowledge of Agile methodologies, OKR tracking, and iterative development practices
+- Proven ability to ensure adherence to processes and contribution to updates by the PS Ops and PMO teams
+- Experience establish continuity across the PS and other internal organizations
+- Ability to coordinate with the Practice to prioritize PMO items for Project Management tooling updates
+- Experience "dog-fooding" GitLab as a Project Management tool internally and with customers for iteration planning, review, and reporting
 
 ## Career Ladder
 
 - The next steps for individual contributors is to move into:
-  - A Manager role within this Job family or
+  - A Manager role within this job family
+  - A Program Manager job family
   - To a Engagement Manager role
 - The next steps for a Manager, Professional Services would be to move into a Senior Manager within this Job Family or to the [Professional Services Engagement](/job-families/sales/job-professional-services-engagement-manager/) Job Family or the [Director of Professional Services](/job-families/sales/director-of-professional-services) Job Family.
 - The next steps for a Senior Manager, Professional Services would be the [Professional Services Engagement](/job-families/sales/job-professional-services-engagement-manager/) Job Family or the [Director of Professional Services](/job-families/sales/director-of-professional-services) Job Family.

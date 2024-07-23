@@ -34,7 +34,7 @@ Remember to allow everyone to express there opinion and really speak up as to wh
 1. You are able to feel safe in my interactions with police officers.
 1. You are confident that you are paid fairly regardless of your gender
 1. You are able to choose almost any career path that you would like and not have many or any limitations placed upon you
-1. You are able to go to a doctor and getting treatment that doesn’t conflict with your identity
+1. You are able to go to a doctor and getting treatment that doesn't conflict with your identity
 1. Your identity is recognized and taught in the education system
 1. Your intelligence is not questioned due to your accent or the way you speak
 1. You can walk down the street without fear of being sexually assaulted
@@ -42,7 +42,7 @@ Remember to allow everyone to express there opinion and really speak up as to wh
 1. You are able to see people who identify similar to you in executive and leadership positions
 1. You are able to Kiss/hug/be affectionate in public without threat or punishment.
 1. You are free to have a bad day or be in a bad mood without it being blamed on your identity
-1. You are able to go shopping alone knowing that you won’t be followed or harassed by security
+1. You are able to go shopping alone knowing that you won't be followed or harassed by security
 1. You are given the access to the tools/systems/equipment necessary for to succeed in and out of the workplace
 1. You can leave my home knowing that you will have accessibility to transport, shops and buildings
 1. You can be confident that your age is not seen negatively when you apply for a new job
@@ -69,6 +69,6 @@ Once you have fully completed the activity, create a handbook entry on the DIB R
 
 ### For Facilitators
 
- - **Scheduling:** Use Google Calendar's [group scheduling feature](https://drive.google.com/file/d/1fKQSeuNQc08ZRZf68IioKEhH7E07pec-/view?usp=sharing) (`Meet with...`), located to the left of the calendar, to find a time that works for all participants. Schedule a 50 min meeting, or longer, if participants are able and willing.
- - **Preparing for the roundtable:** Create a copy of this suggested [facilitator template](https://docs.google.com/document/d/1BlIYfqtMWIkJUulqZYsgNq5_3bKihdyb5fGOeOpZVxI/edit#) and share it with participants only (do not share with "everyone at GitLab" since the DIB Roundtable is a safe space, with information shared needing to stay just between the group participants). Add in participant's names where relevant in the doc (e.g. `Participant 1's list`).
- - **How to facilitate:** A possible way to facilitate the Privilege for Sale activity is to ask everyone to take a few mins to choose their top 10 in the lists you've prepared for them. When they are finished, ask them to add a `+ Initial` to the group list (e.g. "You are able to feel safe" +N, +P, +D, +S). This will help you visually see which privileges are the most popular and may help you to begin the conversation.
+- **Scheduling:** Use Google Calendar's [group scheduling feature](https://drive.google.com/file/d/1fKQSeuNQc08ZRZf68IioKEhH7E07pec-/view?usp=sharing) (`Meet with...`), located to the left of the calendar, to find a time that works for all participants. Schedule a 50 min meeting, or longer, if participants are able and willing.
+- **Preparing for the roundtable:** Create a copy of this suggested [facilitator template](https://docs.google.com/document/d/1BlIYfqtMWIkJUulqZYsgNq5_3bKihdyb5fGOeOpZVxI/edit#) and share it with participants only (do not share with "everyone at GitLab" since the DIB Roundtable is a safe space, with information shared needing to stay just between the group participants). Add in participant's names where relevant in the doc (e.g. `Participant 1's list`).
+- **How to facilitate:** A possible way to facilitate the Privilege for Sale activity is to ask everyone to take a few mins to choose their top 10 in the lists you've prepared for them. When they are finished, ask them to add a `+ Initial` to the group list (e.g. "You are able to feel safe" +N, +P, +D, +S). This will help you visually see which privileges are the most popular and may help you to begin the conversation.

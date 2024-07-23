@@ -3,13 +3,11 @@ title: "Sales Sponsorship Pilot Program"
 description: "A page for the Sales Sponsorship Pilot Program"
 ---
 
-This pilot program will initially target Black Team Members within the Sales Organization, currently we have no Black Team Members at job grade 9+ within Sales with no representation in leadership positions. We want to ensure that we are addressing this imbalance and creating pathways for Black Team Members to progress effectively at GitLab.
-
-This a pilot program with the view to extending to other underrepresented groups and ultimately GitLab wide.
+In 2023 we conducted a pilot program to address an imbalance of Black Team Members at job grade 9+ within Sales and lack of representation in sales leadership positions. The pilot program was designed to create pathways for Black Team Members to progress effectively at GitLab. We have since extended this program to promote pathways for all Sales team members to progress at GitLab.
 
 ## Mentorship vs Sponsorship
 
-[Harvard Business Review](https://hbr.org/2019/08/a-lack-of-sponsorship-is-keeping-women-from-advancing-into-leadership) defines the difference between sponsors versus mentors: “While a mentor is someone who has knowledge and will share it with you, a sponsor is a person who has power and will use it for you.”
+[Harvard Business Review](https://hbr.org/2019/08/a-lack-of-sponsorship-is-keeping-women-from-advancing-into-leadership) defines the difference between sponsors versus mentors: "While a mentor is someone who has knowledge and will share it with you, a sponsor is a person who has power and will use it for you."
 
 **Mentoring** is defined in our [Mentoring at GitLab handbook page as:](/handbook/people-group/learning-and-development/mentor#what-is-mentoring) Mentor relationships are an opportunity for individuals to learn from someone's personal experience, background, and perspective. These relationships build trust on a team, provide safe space to make mistakes, and encourage both personal and professional development. Mentorship is an opportunity for both the mentor and mentee to develop their leadership and communication skills. Mentorship should be led by the mentee, similar to how 1:1's at GitLab are driven by direct reports.
 
@@ -22,13 +20,13 @@ This a pilot program with the view to extending to other underrepresented groups
 **A sponsor at GitLab is:**
 
 - A Senior Leader at a minimum [job grade 10+]({{< ref "compensation-calculator#job-grades" >}}) and is not the sponsees direct manager.
-    - The senior leader should be a People Manager or Manager of Managers
+  - The senior leader should be a People Manager or Manager of Managers
 - Must have been at GitLab for 6+ months
 - Be able to commit to a 9 month sponsorship program which will include
-    - Sponsor Training
-    - Kick-off calls
-    - Bi-weekly 1-1 with Sponsee
-    - Be able to fully commit and be held accountable for their role within the Sponsorship Program
+  - Sponsor Training
+  - Kick-off calls
+  - Bi-weekly 1-1 with Sponsee
+  - Be able to fully commit and be held accountable for their role within the Sponsorship Program
 
 **As a Sponsor you should be:**
 
@@ -55,7 +53,7 @@ This a pilot program with the view to extending to other underrepresented groups
 **A Sponsee at GitLab will be (Pilot Program Only):**
 
 - Be performing in your role in accordance with your managers expectations, which take into account performance exercises such as 9 box and not on a Performance Improvement Plan
-- Be a part of the underrepresented group the sponsorship program is targeted at. (Black Team Members in Sales)
+- Be a part of the underrepresented group the sponsorship program is targeted at.
 - Be able to commit to 9 months within the program
 - Willing to commit to the overall expectations of the program as outlined throughout the handbook page
 
@@ -82,7 +80,7 @@ This a pilot program with the view to extending to other underrepresented groups
 ### Role of Sponsees Manager
 
 - The manager will support the team member in ensuring that have a Individual Growth Plan (IGP)
-    - As well reassess the IGP at regular intervals during the sponsorship program
+  - As well reassess the IGP at regular intervals during the sponsorship program
 - The manager will regularly check in on the progress of the Sponsorship Program with their report
 - The manager will regularly report on the success of the program to the leadership advocates of the program
 - Participate in a manager of sponsees session
@@ -95,10 +93,10 @@ The program will last 6 months and the Sponsor & Sponsee will be the same person
 
 - An Individual Growth Plan is created in conjunction with your direct manager. The sponsor will add further suggestions throughout the program
 - 1-1 conversation in a cadence agreed upon by the participants.
-    - We suggest a minimum of bi-weekly.
-    - Special projects & Sponsorship activities may mean cadence changes
+  - We suggest a minimum of bi-weekly.
+  - Special projects & Sponsorship activities may mean cadence changes
 - Quarterly All-Hands
-    - This will reinforce the ideals of the sponsorship program and ensure that the relationship is progressing through the phases.
+  - This will reinforce the ideals of the sponsorship program and ensure that the relationship is progressing through the phases.
 - Individual Quarterly Feedback with DIB Team
 - End of Program session with Sponsor
 - Complete Next Step Documentation with Sponsor & Direct Manager to ensure progression continues
@@ -185,7 +183,7 @@ GitLab:
 - Develop program materials => `0%`
 - Sponsorship 1-1 guide => `0%`
 - Next Steps Doc - for End of Program => `0%`
-- Identify first cohort of sponsee’s amongst Black Team Members in Sales => `0%`
+- Identify first cohort of sponsees amongst Team Members in Sales => `0%`
 - What criteria they have for a sponsor => `0%`
 - Identify first cohort of sponsors with the Sales Org => `0%`
 - What expertise they are willing to provide and opportunities they can provide => `0%`

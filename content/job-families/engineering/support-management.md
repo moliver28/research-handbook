@@ -1,6 +1,6 @@
 ---
 title: "Support Management"
-description: "Support Engineering Management at GitLab isn’t your typical management opportunity because of our approach to the function."
+description: "Support Engineering Management at GitLab isn't your typical management opportunity because of our approach to the function."
 canonical_path: "/job-families/engineering/support-management/"
 ---
 
@@ -8,17 +8,17 @@ canonical_path: "/job-families/engineering/support-management/"
 
 GitLab is building an open source, single application for the entire software development lifecycle—from project planning and source code management to CI/CD, monitoring, and security.
 
-Right now, we’re in a period of growth, we’re quickly increasing the size of the [Support team](/handbook/support/), in step with the number of GitLab employees.
+Right now, we're in a period of growth, we're quickly increasing the size of the [Support team](/handbook/support/), in step with the number of GitLab employees.
 
-At GitLab, we live and breathe open source principles. This means our entire [handbook](https://about.gitlab.com/handbook/) is online, and with a few clicks, you can find the details of [future releases](https://about.gitlab.com/direction/#future-releases), check out our [past releases](https://about.gitlab.com/releases/), and see some of the [customers you’d be supporting while working here](https://about.gitlab.com/customers/).
+At GitLab, we live and breathe open source principles. This means our entire [handbook](/handbook/) is online, and with a few clicks, you can find the details of [future releases](https://about.gitlab.com/direction/#future-releases), check out our [past releases](https://about.gitlab.com/releases/), and see some of the [customers you'd be supporting while working here](https://about.gitlab.com/customers/).
 
-Support Engineering Management at GitLab isn’t your typical management opportunity because of our approach to the function. Support is embedded within the Engineering department and truly operates in an environment where Support and Engineering meet. Your team will be interacting with customers daily as they encounter the difficult edge cases of running GitLab in complex environments.
+Support Engineering Management at GitLab isn't your typical management opportunity because of our approach to the function. Support is embedded within the Engineering department and truly operates in an environment where Support and Engineering meet. Your team will be interacting with customers daily as they encounter the difficult edge cases of running GitLab in complex environments.
 
-In the space of a day, our engineers might be doing behind the scenes work of a Linux administrator troubleshooting performance problems by using strace on a particular process, interacting with the Product team to ensure that steps in a bug report are reproducible, or with the Engineering team itself diving deep into our codebase and putting together a merge request to actually fix a customer issue. That’s not all though - they’d equally be invited to improve our documentation, help build out more efficient support processes in our [issue tracker](https://gitlab.com/gitlab-com/support/support-team-meta/issues/) and dive into the cutting edge technologies that will define how we will do work tomorrow.
+In the space of a day, our engineers might be doing behind the scenes work of a Linux administrator troubleshooting performance problems by using strace on a particular process, interacting with the Product team to ensure that steps in a bug report are reproducible, or with the Engineering team itself diving deep into our codebase and putting together a merge request to actually fix a customer issue. That's not all though - they'd equally be invited to improve our documentation, help build out more efficient support processes in our [issue tracker](https://gitlab.com/gitlab-com/support/support-team-meta/issues/) and dive into the cutting edge technologies that will define how we will do work tomorrow.
 
 At GitLab, we hold that [managers should be technically competent and experienced in the subject matter](/handbook/leadership/#no-matrix-organization). So, it would be your job to use your technical expertise to support all of those moving pieces - including stepping into the shoes of a Support Engineer when needs be.
 
-We want to live in a world where [everyone can contribute](/handbook/values/#mission), and as a member of the support team there are no barriers to using your skills to improve the experience of our users, our customers and importantly the folks you’d be supporting as a manager.
+We want to live in a world where [everyone can contribute](/handbook/values/#mission), and as a member of the support team there are no barriers to using your skills to improve the experience of our users, our customers and importantly the folks you'd be supporting as a manager.
 
 ## Support Management Roles
 
@@ -53,7 +53,7 @@ Support Managers also work on things that will make your (and the lives of your 
 
 - Created a tool to [quickly analyze strace output](https://gitlab.com/gitlab-com/support/toolbox/strace-parser)
 - Built and maintained tooling to handle our call scheduling
-- Scripted a [solution to capture the state of a customer’s server](https://gitlab.com/gitlab-com/support/toolbox/gitlabsos) for easier troubleshooting
+- Scripted a [solution to capture the state of a customer's server](https://gitlab.com/gitlab-com/support/toolbox/gitlabsos) for easier troubleshooting
 - Added functionality to [ChatOps](https://docs.gitlab.com/ee/ci/chatops/) to make it easier to identify user accounts on GitLab.com
 - Written a [Chrome Extension to route downloads from Zendesk tickets into organized folders](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router)
 - … and more!
@@ -62,22 +62,22 @@ Support Managers also work on things that will make your (and the lives of your 
 
 - You have an affinity for (and experience with) providing customer support, and making customers happy.
 - You have more than 2 years experience leading Support Engineering teams.
-- You’ve got advanced analytical and problem solving skills.
-- You’ve got a keen eye for forward thinking solutions (Kubernetes, Containers, etc.).
+- You've got advanced analytical and problem solving skills.
+- You've got a keen eye for forward thinking solutions (Kubernetes, Containers, etc.).
 - You enjoy solving many small problems per day.
-- You’ve got 5+ years of support experience.
+- You've got 5+ years of support experience.
 - Within the last 5 years, you have held a role at one company for at least 2 years.
 - You understand DevOps processes and you appreciate the value technologies like Serverless and Kubernetes bring to the software deployment and development process.
-- You’re able to communicate complex technical topics to customers and coworkers of varying technical skill level.
-- You’ve got extensive experience building and scaling teams.
+- You're able to communicate complex technical topics to customers and coworkers of varying technical skill level.
+- You've got extensive experience building and scaling teams.
 - You demonstrate excellent spoken and written English.
-- You’re experienced in creating and implementing new processes and procedures.
-- You’re experienced in writing support content.
-- You’ve got experience leading remote, distributed teams across geographies with a keen focus on employee development and the achievement of desired results.
-- You’ve got extensive experience in leading teams to take ownership and work to manage the entire issue lifecycle, from customer, to development team, to resolution.
-- You’re able to perform complex Linux System Administration tasks.
-- You’ve got experience with web application development using an MVC framework e.g. Rails (Ruby), Django (Python), Laravel (PHP).
-- You’ve got experience with Git and CI/CD.
+- You're experienced in creating and implementing new processes and procedures.
+- You're experienced in writing support content.
+- You've got experience leading remote, distributed teams across geographies with a keen focus on employee development and the achievement of desired results.
+- You've got extensive experience in leading teams to take ownership and work to manage the entire issue lifecycle, from customer, to development team, to resolution.
+- You're able to perform complex Linux System Administration tasks.
+- You've got experience with web application development using an MVC framework e.g. Rails (Ruby), Django (Python), Laravel (PHP).
+- You've got experience with Git and CI/CD.
 - Our [values](/handbook/values/) of collaboration, results, efficiency, diversity, iteration, and transparency resonate with you.
 
 ### Senior Manager, Support Engineering
@@ -181,13 +181,13 @@ Support Management roles have the following spans of control:
 
 ### US Federal Support Manager
 
-Support Managers with verified US Citizenship may join the GitLab US Federal Support Team. This group works through the [US Federal Support portal](https://about.gitlab.com/support/us-federal-support/) to collaborate with Public Sector organizations and United States Government agencies in order to support, maintain, and resolve issues in their GitLab environments.
+Support Managers with verified US Citizenship may join the GitLab US Federal Support Team. This group works through the [US Federal Support portal](https://about.gitlab.com/support/us-government-support/) to collaborate with Public Sector organizations and United States Government agencies in order to support, maintain, and resolve issues in their GitLab environments.
 
 The US Federal Support Portal is unique in that it is the first restricted support instance at GitLab, this provides managers an opportunity to shape the way engineers and customers interact in order to improve the support experience in measurable ways. This instance is also used as a testbed for process change as it is easier to implement and roll out changes on a smaller scale with less impact than attempting to deploy them globally. As GitLab's federal offerings grow, the US Support workflows may serve as a template that can be used to extend federal support to other areas of the globe.
 
 If you look forward to the challenges and opportunities and meet the requirements please apply today!
 
-##### Additional Responsibilities Unique to US Federal Include
+#### Additional Responsibilities Unique to US Federal Include
 
 - Work closely with Public Sector CSM and SAEs in order to adapt to the needs of the unique user base
 - Be responsible for maintaining customer confidentiality and data security when working with cases
@@ -202,20 +202,20 @@ In addition to the above requirements for Global Support Managers, you will need
 
 Director, Support Readiness is a global role responsible for leading a Support Readiness function within the GitLab Customer Support organization.  This role will lead a team of Support Operations managers and individual contributors working closely with Product, Engineering, & Sales teams to ensure that the Customer Support organization is ready to support product releases. This role will manage all aspects of planning and enablement in ensuring that the appropriate Support delivery team is ready to support all existing and new releases across the entire GitLab solution.
 
-This includes overall supportability of the product and Support’s readiness of new releases, which entails development of training plans, assist in building tools as needed as well as preparing and delivering regular Key Reviews.  Working with teams globally, this role will be responsible for enabling the global Support team towards continuous improvement in key Support metrics – Service Levels, SSAT, TTR, staffing model input, etc.
+This includes overall supportability of the product and Support's readiness of new releases, which entails development of training plans, assist in building tools as needed as well as preparing and delivering regular Key Reviews.  Working with teams globally, this role will be responsible for enabling the global Support team towards continuous improvement in key Support metrics – Service Levels, SSAT, TTR, staffing model input, etc.
 
 This role also closely interacts with counterparts in Product, Development, QA, UX, Customer Success and Sales, to clearly understand the upcoming release features and enabling the global delivery teams to ensure customer support has the appropriate knowledge and troubleshooting procedures to minimize time to resolution.
 
-###### Additional Responsibilities for Director of Support Readiness
+#### Additional Responsibilities for Director of Support Readiness
 
 - Manage multiple teams and projects affecting consistent global execution
 - Own the support readiness and operations across all products
 
-## [What it’s like to work here](/handbook/hiring/candidate/faq/) at GitLab
+## [What it's like to work here](/handbook/hiring/candidate/faq/) at GitLab
 
-The [culture](/handbook/company/culture/) here at GitLab is something we’re incredibly proud of. Because GitLabbers are currently located in over 51 different countries, you’ll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you’ll be entitled to vary by the region or country you’re in. However, all GitLabbers are fully remote and receive a "no ask, must tell" paid-time-off policy, where we don’t count the number of days you take off annually. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We’ll also help you set up your [home office environment](/handbook/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
+The [culture](/handbook/company/culture/) here at GitLab is something we're incredibly proud of. Because GitLabbers are currently located in over 51 different countries, you'll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you'll be entitled to vary by the region or country you're in. However, all GitLabbers are fully remote and receive a "no ask, must tell" paid-time-off policy, where we don't count the number of days you take off annually. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We'll also help you set up your [home office environment](/handbook/finance/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/total-rewards/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
 
-Also, every year or so, we’ll invite you to our [Contribute event](https://about.gitlab.com/events/gitlab-contribute/).
+Also, every year or so, we'll invite you to our [Contribute event](https://about.gitlab.com/events/gitlab-contribute/).
 
 ## Hiring Process
 
@@ -234,7 +234,7 @@ Round 1:
 
 - 60 Minute Peer Behavioral Interview (Panel)
 - 90 Minute Technical Interview with a member of the Support team
-  - The Tech Interview will involve live break-fix/bug-fix scenarios as well as customer scenarios.  You will need to have access to a terminal with Bash or similar. You will also need to have an SSH key pair installed locally so you can connect to the server. Windows users must have ‘Git Bash for Windows’ installed prior to the call. If the Tech Interview is not passed, the Behavioral Interview will be canceled.
+  - The Tech Interview will involve live break-fix/bug-fix scenarios as well as customer scenarios.  You will need to have access to a terminal with Bash or similar. You will also need to have an SSH key pair installed locally so you can connect to the server. Windows users must have 'Git Bash for Windows' installed prior to the call. If the Tech Interview is not passed, the Behavioral Interview will be canceled.
 
 Round 2:
 

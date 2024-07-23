@@ -1,17 +1,10 @@
 ---
-
 title: "Tech Stack Applications"
 description: "Instructions for how to access the GitLab tech stack and request updates to it"
 extra_js:
   - libs/vue.min.js
   - tech-stack.js
 ---
-
-
-
-
-
-
 
 ## Definition and Access
 
@@ -48,7 +41,7 @@ There are three main reasons you would want to change our Tech Stack:
 
 - [Adding a new system to the tech stack](#add-new-system-to-the-tech-stack)
 - [Updating the tech stack](#update-tech-stack-information)
-    - This includes updating any of the columns in the tech stack, like Provisioner/Deprovisioner, Business Owner or Technical Owner.
+  - This includes updating any of the columns in the tech stack, like Provisioner/Deprovisioner, Business Owner or Technical Owner.
 - [Removing a system from the tech stack](#removing-a-system-from-the-tech-stack)
 
 ### **What data lives in the Tech Stack?**
@@ -68,7 +61,7 @@ Please ensure that whenever you update the tech stack, you follow the instructio
 | business_owner | Text | The Business Owner is the individual(s) responsible for all budget and decision making around the tool. They should define how the tool is used and by whom. This person(s) usually has login access to the tool as `Owner` but login access isn't necessary in all cases. Please make sure you list individual people in this field, rather than teams. Example: Jane Doe, John Doe | MR Author and contributors |
 | technical_owner | Text | The Technical Owner(s) all the `administrators` of a tool. This includes everyone with the administrative clearance to provision and deprovision access of a tool and/or as the technical expertise needed to manage it. Example: Jane Doe, John Doe. See guidance [above](/handbook/business-technology/tech-stack-applications/#tech-stack-definitions) for instances where a system does not require/have an administrator function | MR Author and contributors |
 | data_classification | Text (Red, Orange, Yellow, Green) or Unknown** | Decided upon by the Security team, please leave as `null` while this process is completed. More information on [Data Classification Standards](/handbook/security/data-classification-standard.html).| Security Risk |
-| authentication_method | Text (Okta SWA, Okta SAML, ID and password, other) or Unknown** | Authentication method used to access the system. It can be [SWA](https://help.okta.com/en/prod/Content/Topics/Apps/Apps_Overview_of_Managing_Apps_and_SSO.htm), [SAML](https://support.okta.com/help/s/article/Beginner-s-Guide-to-SAML?language=en_US) or other such as direct access (email and password login).  | MR Author and contributors |
+| authentication_method | Text (Okta SWA, Okta SAML, ID and password, other) or Unknown** | Authentication method used to access the system. It can be [SWA](https://help.okta.com/en/prod/Content/Topics/Apps/Apps_Overview_of_Managing_Apps_and_SSO.htm), [SAML](https://support.okta.com/help/s/article/okta-saml?language=en_US) or other such as direct access (email and password login).  | MR Author and contributors |
 |critical_systems_tier|Text (Tier 1 Mission Critical, Tier 2 Business Critical, Tier 3 Business Operational, Tier 4 Administrative, TBD) or Unknown**|This field classifies the system based on GitLab's [Critical System Tier Definitions](/handbook/security/security-assurance/security-risk/storm-program/critical-systems.html). The assignment of a critical system tier is dependent on the completion of a [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis.html) (BIA) questionnaire. The Security Risk Team will coordinate the completion of a BIA if it has not yet been completed at the time a system is being added to the Tech Stack.|Security Risk|
 | collected_data | Text or Unknown**  | Data that is collected by the tool | MR Author and contributors |
 | employee_or_customer_facing_app | Text (employee, customer) | If access is limited to GitLab team members, then please add the `employee` word. If access can be granted to external parties, then add `customer` | MR Author and contributors |
@@ -126,7 +119,7 @@ The Legal, IT Compliance, Internal Audit, Security Risk, and Business Systems te
 
 To update any system information listed in the Tech Stack, you must start a merge request in the [tech stack yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). Please use the `tech-stack-update-existing-system.md` template when submitting your MR and follow the instructions in the template. Ensure to update the information following the instructions in the [Tech Stack Data section](/handbook/business-technology/tech-stack-applications/#what-data-lives-in-the-tech-stack).
 
-### [**Removing a system from the Tech Stack**](https://gitlab.com/gitlab-com/business-technology/business-technology/-/issues/new?issuable_template=offboarding_tech_stack)
+### **Removing a system from the Tech Stack**
 
 Occasionally systems listed in our tech stack will be deprecated. If a system is being offboarded (no longer being used and/or being replaced), please create an MR in the [tech stack yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) to remove the entry for the tool (DON'T MERGE IT), and then create [an issue following this template](https://gitlab.com/gitlab-com/business-technology/business-technology/-/issues/new?issuable_template=offboarding_tech_stack). Once the issue has been submitted, link the MR in the comments. The Business Owner will need to work with Legal and IT Compliance to ensure that the data deletion process is being completed as outlined in the vendor contract regarding their process and responsibilities.
 

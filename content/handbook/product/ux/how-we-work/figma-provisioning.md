@@ -50,7 +50,7 @@ Our billing cycle includes quarterly true-ups. Each quarter, admins receive an e
 To audit seats:
 
 1. Review all new seats and ensure each team member (or [guest](https://help.figma.com/hc/en-us/articles/4420557314967-Members-versus-guests#guests)) has an approved access request issue.
-1. Downgrade anyone who shouldn’t have a paid seat.
+1. Downgrade anyone who shouldn't have a paid seat.
 1. Mark your billing group as `Reviewed`.
 
 Once confirmed, the Figma business owner will:

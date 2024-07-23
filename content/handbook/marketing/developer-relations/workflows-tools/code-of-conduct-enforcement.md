@@ -1,13 +1,6 @@
 ---
-
 title: "Code of Conduct Enforcement"
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -48,7 +41,7 @@ Please use these templates to replace public comments that violate the CoC.
 
 You can use this template to move over the original public comment's content to the private issue opened for moderation.
 
-```
+```text
 https://gitlab.com/gitlab-com/<project>/issues/<issue number>#note_239807447
 
 @username
@@ -60,7 +53,7 @@ https://gitlab.com/gitlab-com/<project>/issues/<issue number>#note_239807447
 
 Use this template where the comment is a CoC violation
 
-```
+```markdown
 *This comment has been removed for violating the following rule in our [GitLab Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct), which is against Rule 3 in our [Terms of Service](https://about.gitlab.com/terms/).*
 
 > Trolling, insulting/derogatory comments, and personal or political attacks.
@@ -72,7 +65,7 @@ Use this template where the comment is a CoC violation
 
 Use this template where the comment needs further discussion to understand whether it is a CoC violation. You can discuss it with the other Advocates and ultimately decide whether the comment needs to be moderated or moved back to the original location.
 
-```
+```markdown
 Under Review
 *This comment is currently under review for potential violation of the [GitLab Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct).*
 

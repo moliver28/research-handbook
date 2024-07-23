@@ -1,14 +1,7 @@
 ---
-
 title: "OneTrust"
 description: "OneTrust is privacy, security, and data governance software that marketing uses as our privacy and compliance solution on our websites."
 ---
-
-
-
-
-
-
 
 ## Uses
 
@@ -302,12 +295,12 @@ The OneTrust banner is only visible to new website visitors based on a set of lo
 | Region   | Consent Model | Banner Visibility    | Buttons    | Template | Global Privacy Control |
 |-------|---------------|---------------|------------------|---|---|
 | California, Connecticut   | Opt out       | Not visible          |     | CCPA | Performance and Analytics, Allow Sell or Sharing of PI        |
-| Colorado   | Opt out       | Not visible          |     | GDPR | Performance and Analytics, Targeting and Advertising Cookies
-| US     | Opt out       | Not visible          |       | GDPR |
-| Europe, Colombia, Russia, Liechtenstein, Iceland, Norway, Peru, Quebec, Korea | Opt in        | Visible to new users | Cookie Settings, Accept All Cookies  | GDPR |
-| Brazil, South Africa, Macao, Newfoundland and Labrador, Manitoba, British Columbia, New Brunswick, Ontario, Nunavut, Yukon, Alberta, Prince Edward Island, Nova Scotia, Saskatchewan, Northwest Territories   | Opt out       | Visible to new users | Cookie Settings, Accept All Cookies  | GDPR |
-| France, Spain, United Kingdom     | Opt in        | Visible to new users | Cookie Settings, Reject All, Accept All Cookies | Reject All |
-| Global     | Opt out       | Not visible          |              | GDPR |
+| Colorado   | Opt out       | Not visible          |     | GDPR | Performance and Analytics, Targeting and Advertising Cookies |
+| US     | Opt out       | Not visible          |       | | GDPR |
+| Europe, Colombia, Russia, Liechtenstein, Iceland, Norway, Peru, Quebec, Korea | Opt in        | Visible to new users | Cookie Settings, Accept All Cookies  | | GDPR |
+| Brazil, South Africa, Macao, Newfoundland and Labrador, Manitoba, British Columbia, New Brunswick, Ontario, Nunavut, Yukon, Alberta, Prince Edward Island, Nova Scotia, Saskatchewan, Northwest Territories   | Opt out       | Visible to new users | Cookie Settings, Accept All Cookies  | | GDPR |
+| France, Spain, United Kingdom     | Opt in        | Visible to new users | Cookie Settings, Reject All, Accept All Cookies | Reject All | |
+| Global     | Opt out       | Not visible          |              | | GDPR |
 
 ### Accessing Scripts
 
@@ -363,7 +356,6 @@ To override the `optanon` class and remove the autoblocking feature from certain
 1. Click into each cookie > click Source
 1. Remove the desired script from the cookie's source
 1. Publish the script
-
 
 ### Do Not Sell & Cookie Setting Button
 

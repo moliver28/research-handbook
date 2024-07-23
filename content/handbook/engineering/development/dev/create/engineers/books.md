@@ -1,14 +1,7 @@
 ---
-
 title: "Recommended Books for Engineers"
 description: This page list Recommended Books for Engineers.
 ---
-
-
-
-
-
-
 
 ## What books do we recommend for Engineers?
 
@@ -28,7 +21,6 @@ description: This page list Recommended Books for Engineers.
 - Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones
 - The Power of Habit: Why We Do What We Do in Life and Business
 - Failing Forward
-
 
 ### Diversity Inclusion & Belonging
 

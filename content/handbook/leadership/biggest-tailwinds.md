@@ -23,7 +23,7 @@ We also have a [Mitigating Concerns page](https://internal.gitlab.com/handbook/l
 
 [Lack of Developers](https://stackoverflow.blog/2017/03/09/developer-hiring-trends-2017/)
 
-[Open Source](https://about.gitlab.com/topics/20-years-open-source/)
+[Open Source](https://web.archive.org/web/20230821170744/https://about.gitlab.com/topics/20-years-open-source/)
 
 ## 3. Multicloud
 
@@ -43,7 +43,7 @@ We also have a [Mitigating Concerns page](https://internal.gitlab.com/handbook/l
 
 [All-Remote](/handbook/company/culture/all-remote/)
 
-GitLab's all-remote workforce is significantly more advanced and sophisticated than other forms of organizational design. Our dedication to working [handbook-first](/handbook/company/culture/all-remote/handbook-first/), operating [transparently]({{< ref "values#transparency" >}}), and [usage of GitLab](/handbook/company/culture/all-remote/gitlab-for-remote/) to drive results creates tailwinds for the organization.
+GitLab's all-remote workforce is significantly more advanced and sophisticated than other forms of organizational design. Our dedication to working [handbook-first](/handbook/company/culture/all-remote/handbook-first/), operating [transparently](/handbook/values/#transparency), and [usage of GitLab](/handbook/company/culture/all-remote/gitlab-for-remote/) to drive results creates tailwinds for the organization.
 
 GitLab's adherence to all-remote makes the company an attractive destination for people who are on the [B-team in hybrid-remote firms](/handbook/company/culture/all-remote/hybrid-remote/#all-remote-upgrade), or feel limited by the inflexibility of a fully colocated role.
 

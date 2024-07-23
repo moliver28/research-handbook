@@ -1,8 +1,6 @@
 ---
-
 title: Channel SA Engagement Model
 ---
-
 
 ## Channel Solutions Architecture Engagement Model
 
@@ -12,7 +10,7 @@ Channel SA's ensure that partners get the most value possible out of their relat
 
 To mature Partners through their Partner Journey, CSA's engage in a variety of activities designed to help Partners win deals, and mature their practices.  CSA activities can be seen as contributing to these themes, Align, Enable, and Expand partner value to customer success. The [partner maturity model](/handbook/resellers/services/#partner-capabilities-journey) has more details on the partner journey.
 
-#### Align
+### Align
 
 - Coach partner sales teams through opportunities with customers and help drive them to close through the Partner's sales stages
 - Coach the partner SA on Technical Discovery that will lead to successful outcomes tied to Business Value
@@ -21,7 +19,7 @@ To mature Partners through their Partner Journey, CSA's engage in a variety of a
 - GitLab Technical enablement based on guidance received from the partner
 - Co-develop with the Partner and GitLab CAM a Partner Success Plan
 
-#### Enable
+### Enable
 
 - Identify / Enable GitLab Champions within the Partner to be SME's internally
 - Work with Partner to develop internal lab environments and demo use cases
@@ -32,7 +30,7 @@ To mature Partners through their Partner Journey, CSA's engage in a variety of a
 - Coach partners through their presales activites for the partner led GitLab opportunities.
 - Advocate on support escalations
 
-#### Expand
+### Expand
 
 - Assist to develop and review the partner positioned services and solutions and be the customer advocate for our partners
 - Develop sales plays and solutions between GitLab, Channel Partners, GitLab Alliances Partners
@@ -45,7 +43,7 @@ More details on Channel SA engagement model can be found in this [RACI spreadshe
 
 ### How to Engage a Channel SA
 
-The `#channel-solution-architects` slack channel is monitored by the CSA's globally.  If you do have a specific Partner related topic or question best handled by an SA, reach out to us there.
+The `#partner-solutions-architects` slack channel is monitored by the CSA's globally.  If you do have a specific Partner related topic or question best handled by an SA, reach out to us there.
 
 Regionally the Channel SA's coordinate issues within the following projects:
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Direction - GDK"
 ---
 
@@ -8,7 +7,6 @@ title: "Direction - GDK"
 - [GDK Project](https://gitlab.com/gitlab-org/gitlab-development-kit)
 - [Issue List](https://gitlab.com/gitlab-org/gitlab-development-kit/-/issues)
 - [Epic List](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3AGDK)
-
 
 - Please comment, thumbs-up (or down!), and contribute to the linked issues and
   epics on this category page. Sharing your feedback directly on GitLab.com is

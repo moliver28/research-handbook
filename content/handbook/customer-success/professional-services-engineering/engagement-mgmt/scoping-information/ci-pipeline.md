@@ -1,15 +1,8 @@
 ---
-
 title: "Professional Services EM Scoping - CI/CD Pipeline Migration"
 description: "Describes the process for scoping pipeline migrations from other CI/CD systems to GitLab"
 
 ---
-
-
-
-
-
-
 
 ## General discovery questions to determine customer maturity level
 
@@ -33,7 +26,7 @@ Its helpful to understand the level of maturity that the customer is on as it re
 ## Specific Approaches
 
 1. **Flash Cut** - Migrate all data from Artifactory to GitLab registry including historically built packages and containers. *(Not recommended)*
-2. **Net New** - Update all pipelines to push to and pull from gitlab registry so that all newly built software packages are stored in GitLab in the build/package stage. Then in the deploy stage they are pulled from gitlab registry. Slowly migrate the dependencies that don't often change to gitlab registry. Graudally phase out Artifactory. *(Recommended)*
+2. **Net New** - Update all pipelines to push to and pull from GitLab registry so that all newly built software packages are stored in GitLab in the build/package stage. Then in the deploy stage they are pulled from GitLab registry. Slowly migrate the dependencies that don't often change to GitLab registry. Graudally phase out Artifactory. *(Recommended)*
 
 ## Scoping Questions - Artifactory Migration Opportunity
 
@@ -47,7 +40,7 @@ Its helpful to understand the level of maturity that the customer is on as it re
 
 ## Migrating from Jenkins to GitLab CI
 
-## Specific Approaches
+## Specific Approaches - Jenkins Migration
 
 1. **Flash Cut** - Migrate all data from Jenkins to GitLab CI and update pipeline files at once.
 2. **Net New** - Update all pipeline job definitions to run on the customer GitLab instance using GitLab CI. All job history remains on the legacy system. All historical packages and containers are left on the legacy system and rebuilt on the new GitLab system.
@@ -62,20 +55,6 @@ Its helpful to understand the level of maturity that the customer is on as it re
 | Total number of users? | | 900 | This is a gauge of scale and an indicator of project duration |
 | Total number of repositories? | | 6,400 | This helps us understand cardinality (e.g. how many jobs are associated with each source code project). Its also an indicator of scale of an engagement. |
 | How does Jenkins currently communicate with your SCM? | | A single service account is used for polling the SCM for changes. | If there is a shift in responsibility (from platform team to application team), this tells us whether we should discuss education services on how to configure the GitLab project. |
-| What Jenkins plugins are you using most often? |  | We use the maven plugin extensively. Also some teams use Ant/Gradle plugins. Some usage of .NET SDK too.  | Knowing more about the plugins that support your workflow will help us understand how much time to spend on building workflow proposals to use an approach based on gitlab best practices. |
+| What Jenkins plugins are you using most often? |  | We use the maven plugin extensively. Also some teams use Ant/Gradle plugins. Some usage of .NET SDK too.  | Knowing more about the plugins that support your workflow will help us understand how much time to spend on building workflow proposals to use an approach based on GitLab best practices. |
 | Do you use the branch/source plugin to automate the creation of jenkins folders or jobs?  |  | We don't use the branch/source plugin for automatically creating jenkins jobs on repo creation | This automation is usually something customers want to retain, so we will need special considerations for this kind of approach. |
-| What type of job executors pick up your Jenkins jobs? | | We have a persistently running fleet of virtual machines that are available to run jobs. | This helps us understand the level of effort to port your workflows to use gitlab best practices (leveraging containerized builds). |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| What type of job executors pick up your Jenkins jobs? | | We have a persistently running fleet of virtual machines that are available to run jobs. | This helps us understand the level of effort to port your workflows to use GitLab best practices (leveraging containerized builds). |

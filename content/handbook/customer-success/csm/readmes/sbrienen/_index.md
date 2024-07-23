@@ -1,5 +1,4 @@
 ---
-
 title: "Sander Brienen's README"
 description: "README page for Sander Brienen to give a bit of background and interests"
 job: "Senior Customer Success Manager"

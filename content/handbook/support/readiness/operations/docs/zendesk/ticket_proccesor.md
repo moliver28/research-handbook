@@ -29,7 +29,7 @@ Currently, the ticket processor actions on the following:
 - [Add ticket weighting values to Zendesk tickets](#add-ticket-weighting-values-to-zendesk-tickets)
 - [Automatically redact attachments on closed tickets](#automatically-redact-attachments-on-closed-tickets)
 
-#### Autowork account blocked requests
+### Autowork account blocked requests
 
 This checks the account status of a gitlab.com user. Depending on the status,
 different actions can occur:
@@ -54,13 +54,13 @@ different actions can occur:
   - An internal reply made on the ticket pointing the SE to the next steps to
     follow
 
-#### Autowork account locked requests
+### Autowork account locked requests
 
 This sends a public reply to the user on the ticket stating what they should do,
 sets the ticket's status is set to `Pending`, and the `Ticket Stage` value is
 set to `FRT`.
 
-#### Autowork email suppression requests
+### Autowork email suppression requests
 
 This checks if an email suppression exists within Mailgun. Depending on the
 results of the check, different actions can occur:
@@ -79,7 +79,7 @@ results of the check, different actions can occur:
   - The `Ticket Stage` value is set to `FRT`
   - The ticket's status is set to `Pending`
 
-#### Autowork Namesquatting requests
+### Autowork Namesquatting requests
 
 This checks if a given namespace is eligible for release based on our various
 criteria. The result of the check will determine what acctions occur:
@@ -106,7 +106,7 @@ criteria. The result of the check will determine what acctions occur:
     for immediate release.
   - The `Ticket Stage` value is set to `FRT`
 
-#### Add tags on Zendesk tickets based on comment content
+### Add tags on Zendesk tickets based on comment content
 
 This checks the passed comment (public and made be an agent) for the various
 types of items we would want to tag on the ticket. The current kinds of items
@@ -137,7 +137,7 @@ types of items we would want to tag on the ticket. The current kinds of items
     - `gitlabmtgs.webex.com`
     - `teams.microsoft.com`
 
-#### Add internal comments on Zendesk tickets based on the organization
+### Add internal comments on Zendesk tickets based on the organization
 
 This adds internal notes on a ticket based off information derived from the
 organization the requester of the ticket is a member of. This has the potential
@@ -162,17 +162,17 @@ to make 3 different internal notes:
 If a Support notes file does not exist, this will also create one for the
 organization.
 
-#### Add tags on Zendesk tickets when a STAR is made on them
+### Add tags on Zendesk tickets when a STAR is made on them
 
 This adds the ticket tag `star_submitted` onto the ticket.
 
-#### Add ticket weighting values to Zendesk tickets
+### Add ticket weighting values to Zendesk tickets
 
 This determines the ticket's "weight" based on specific criteria. The criteria
 currently used can be seen within the
 [ticket processor's code](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/processor)
 
-#### Automatically redact attachments on closed tickets
+### Automatically redact attachments on closed tickets
 
 This sends the ticket's ID to the processor, where it then scrapes all comments
 on the ticket. While scraping them, it looks for the following:
@@ -189,7 +189,7 @@ Currently, the ticket processor actions on the following:
 
 - [Automatically redact attachments on closed tickets](#automatically-redact-attachments-on-closed-tickets-1)
 
-#### Automatically redact attachments on closed tickets
+### Automatically redact attachments on closed tickets
 
 This sends the ticket's ID to the processor, where it then scrapes all comments
 on the ticket. While scraping them, it looks for the following:

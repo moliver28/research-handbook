@@ -1,5 +1,4 @@
 ---
-
 title: "Nick Veenhof's README"
 description: "README for Nick Veenhof"
 job: "Director of Contributor Success"
@@ -7,10 +6,10 @@ job: "Director of Contributor Success"
 
 ## Related links
 
- - [GitLab profile](https://gitlab.com/nick_vh)
- - [LinkedIn profile](https://www.linkedin.com/in/nickveenhof/)
- - [Twitter](https://twitter.com/Nick_vh)
- - [Function profile](/job-families/marketing/developer-relations/contributor-success/management/#director-contributor-success)
+- [GitLab profile](https://gitlab.com/nick_vh)
+- [LinkedIn profile](https://www.linkedin.com/in/nickveenhof/)
+- [Twitter](https://twitter.com/Nick_vh)
+- [Function profile](/job-families/marketing/developer-relations/contributor-success/management/#director-contributor-success)
 
 ## About me
 
@@ -27,6 +26,7 @@ for a [coffee chat](/handbook/company/culture/all-remote/informal-communication/
 Here's a bunch of topics I'll be happy to talk about:
 
 ### Tech-stacks / Open Source communities
+
 - Drupal
 - Mautic
 - PHP
@@ -43,10 +43,10 @@ Here's a bunch of topics I'll be happy to talk about:
 These are some places I've lived in for a while, or live in that I am always
 keen to talk about:
 
- - [Boston, USA](https://en.wikipedia.org/wiki/Boston)
- - [Barcelona, Spain](https://en.wikipedia.org/wiki/Barcelona)
- - [Lisbon, Portugal](https://en.wikipedia.org/wiki/Lisbon)
- - [Ghent, Belgium](https://en.wikipedia.org/wiki/Ghent)
+- [Boston, USA](https://en.wikipedia.org/wiki/Boston)
+- [Barcelona, Spain](https://en.wikipedia.org/wiki/Barcelona)
+- [Lisbon, Portugal](https://en.wikipedia.org/wiki/Lisbon)
+- [Ghent, Belgium](https://en.wikipedia.org/wiki/Ghent)
 
 ### Conferences I adore
 
@@ -61,6 +61,7 @@ It's a challenge. Always in for tips!
 ## My working style
 
 I'm here for you. You in my role is a really wide interpretation. This means
+
 - You, as an employee of GitLab
 - You, as a contributor to GitLab
 - You, as a member of our team
@@ -68,7 +69,7 @@ I'm here for you. You in my role is a really wide interpretation. This means
 
 I prefer to deep-dive into an issue so I can get a great understanding of the
 topic at hand. I don't function very well without a deep understanding of the
-technicalities behind the conversation, so please do not withold any information
+technicalities behind the conversation, so please do not withhold any information
 because of the words in my title!
 
 Next to that I like to brainstorm and have direct conversations to dig deeper
@@ -82,6 +83,7 @@ I generally keep Slack & Email open, but it is possible I don't reply instantly.
 For your information, I work with 3 types of todo classifications. So it is
 possible you will receive communication from me a month later asking for a reply
 or your insights to a specific issue.
+
 - To Reply
 - Expect a reply
 - Longer term follow-up

@@ -12,17 +12,17 @@ The Ops Sub-department is composed of development teams working on Verify, Packa
 The following teams comprise the Ops sub-department:
 
 - Verify stage - [handbook](/handbook/engineering/development/ops/verify/)
-    - Pipeline Execution - [handbook](/handbook/engineering/development/ops/verify/pipeline-execution/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/)
-    - Pipeline Authoring - [handbook](/handbook/engineering/development/ops/verify/pipeline-authoring/), jtbd
-    - Pipeline Security - [handbook](/handbook/engineering/development/ops/verify/pipeline-security/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-security/JTBD/)
-    - Runner - [handbook](/handbook/engineering/development/ops/verify/runner/), jtbd
+  - Pipeline Execution - [handbook](/handbook/engineering/development/ops/verify/pipeline-execution/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/)
+  - Pipeline Authoring - [handbook](/handbook/engineering/development/ops/verify/pipeline-authoring/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-authoring/jtbd/)
+  - Runner - [handbook](/handbook/engineering/development/ops/verify/runner/), [jtbd](/handbook/engineering/development/ops/verify/runner/jtbd/)
+  - CI Platform - [handbook](/handbook/engineering/development/ops/verify/ci-platform/)
 - Package stage - [handbook](/handbook/engineering/development/ops/package/), [jtbd](/handbook/engineering/development/ops/package/jtbd/)
-    - Container Registry - [handbook](/handbook/engineering/development/ops/package/container-registry/)
-    - Package Registry - [handbook](/handbook/engineering/development/ops/package/package-registry/)
+  - Container Registry - [handbook](/handbook/engineering/development/ops/package/container-registry/)
+  - Package Registry - [handbook](/handbook/engineering/development/ops/package/package-registry/)
 - Deploy stage
-    - Environments - [handbook](/handbook/engineering/development/ops/deploy/environments/), jtbd
+  - Environments - [handbook](/handbook/engineering/development/ops/deploy/environments/), jtbd
 - Monitor stage
-    - Monitor:Observability - [handbook](/handbook/engineering/development/ops/monitor/observability/), jtbd
+  - Monitor:Observability - [handbook](/handbook/engineering/development/ops/monitor/observability/), jtbd
 
 ## Product Direction
 
@@ -38,13 +38,14 @@ Teams in the Ops Sub-Department map to several Product Sections.  Product direct
 - [#cd-section](https://gitlab.slack.com/archives/C05BTB4CBGQ) - CD Section discussions spanning Deploy Stage
 - [#ops_staff_plus](https://gitlab.slack.com/archives/C0305PJB9JR) - Foster collaboration and technical leadership within Ops section
 - [#doe-ops](https://gitlab.slack.com/archives/CT9CM1VDJ) - Channel for GitLab's Director of Engineering, Ops
-- [🔒ops-staff-confidential](#private) - Channel for reviewing Ops promotion docs or sharing other confidential information.  Please use #doe-ops or other public channels for topics that don’t require confidentiality.
+- 🔒ops-staff-confidential - Channel for reviewing topics for Ops Engineering leaders.  Please use #doe-ops or other public channels for topics that don't require confidentiality.
 
 ## Meetings
 
 ### Zoom Recordings synced to Google Drive
 
 GitLab encourages transparency by default, and when meetings are recorded, they can be automatically synced to Google Drive as highlighted in [the section about how we conduct video calls at GitLab](/handbook/communication/#video-calls). To summarize:
+
 1. Record meetings to the cloud in Zoom, and add the text [REC] anywhere in the meeting title (e.g. Google calendar event)
 1. It will automatically be added to the [GitLab Videos Recorded folder](https://drive.google.com/drive/folders/0APOeuCQrsm4KUk9PVA) on Google Drive, with a naming convention of `youremail-Meeting Title`.
 1. After a meeting ends, Zoom may take some time to process the recording before it is actually available. The sync to Google Drive happens on the hour mark, so if the recording is not available, it may take another hour to be transferred.
@@ -59,7 +60,13 @@ Beginning in March 2023 all Ops teams are **required** to provide at least one s
 
 Team members are encouraged to use these videos to transparently showcase the current state of their projects.  It is not encouraged to spend significant time prepping for these demos or only showcase finished, polished functionality; showing functionality in an incomplete state is encouraged.  Videos may be specifically recorded for this purpose or be excerpts from team meetings, etc.  Some suggested ideas to consider could be related to error budget improvements, performance improvements to current features, refactoring to codebase for future maintainability, etc.
 
-[Ops Engineering Showcase Epic](https://gitlab.com/groups/gitlab-com/-/epics/1157)
+[Ops Engineering Showcases](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/?sort=popularity&state=opened&search=Sub-Dept%20Highlights%20and%20Showcases&first_page_size=20)
+
+#### Recordings
+
+<details markdown="1">
+
+<summary markdown="span">Past Recordings</summary>
 
 #### Quarterly Recordings
 
@@ -96,6 +103,14 @@ Team members are encouraged to use these videos to transparently showcase the cu
 | 2020 | September | [Video](https://www.youtube.com/watch?v=hjHg_aG7Wr0) | [Video](https://www.youtube.com/watch?v=LUIdfAQf1B0) | |
 | 2020 | August | [Video](https://www.youtube.com/watch?v=H47juOWB2F8) | [Video](https://www.youtube.com/watch?v=RABnrVmios0) | |
 
+</details>
+
+#### Hackathons
+
+Hackathons provide a great opportunity for team members to experiment with working on ideas as possible features that can be integrated into GitLab in the future. The intent is to inspire creativity and encourage collaboration amongst those you may not have the opportunity to work with on a regular basis, set aside regular milestone deliverables, and have some fun with tackling different challenges. 
+
+With the IT landscape rapidly changing with explorations in emerging technologies, having Hackathons take place twice a year offers everyone a chance to contribute to different areas of interest.
+
 ## Planning Processes
 
 Planning processes followed by teams in the Sub-department:
@@ -104,7 +119,7 @@ Planning processes followed by teams in the Sub-department:
 
 ### Forced Priority planning/scheduling
 
-Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#forced-prioritization) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work within the appropriate SLO/SLAs where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/PastDueIssueList/d1401498-2050-4321-b0f4-ab51047fbeb1/1909fa14-fdf0-4682-8a07-f02d8c8d4803
+Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#forced-prioritization) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work [within the appropriate SLO/SLAs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/PastDueIssueList/d1401498-2050-4321-b0f4-ab51047fbeb1/1909fa14-fdf0-4682-8a07-f02d8c8d4803
 
 With this in mind, here's a process that groups are encouraged to use and iterate on in the event that they don't have an existing approach or are falling behind on SLA/SLOs.
 
@@ -115,6 +130,31 @@ To be clear, this is not a required process, if your group's approach is working
 1. Have someone in the group assign themselves to work on the issue
 1. Update the issue regularly with progress
 1. Treat blockers with the same *or higher* priority than the original issue
+
+## Sustaining / Non-Sustaining planning exercise
+
+In FY23, each EM in Ops was asked to participate in a [capacity planning exercise that involved evaluating the sustaining vs non-sustaining work](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/125) in their team's backlog. This exercise was also repeated by the [Verify Pipeline teams in FY24](https://gitlab.com/groups/gitlab-org/-/epics/11284) to better understand Engineering capacity needs for each of the Pipeline teams.
+
+Each team created a staffing justification based on the breakdown of sustaining vs non-sustaining issues in their backlog. EMs estimated the number of backend engineers and frontend engineers that would be needed, per quarter, of the given fiscal year to burndown these issues, as ordered by the [prioritization framework](/handbook/product/product-processes/#prioritization-framework) and relevant priority/severity labels.
+
+### Sustaining work
+
+Sustaining work refers to the most important security, availability, scalability and performance, essential for "keeping the lights on" for the feature categories the team supports. Capacity planning for sustaining work was based on meeting the SLO/SLAs of these types of issues.  The labels for sustaining work include, but are not limited to:
+
+- `bug::vulnerability` (note: specifically this label, as an issue with only a `security` label does not make it a security vulnerability)
+- `bug::availability`
+- `bug::performance`
+- `infradev`
+
+### Non-Sustaining work
+
+Non-sustaining effort refers to all other work the teams would work on, including:
+
+- `type::feature`
+- `type::maintenance` (e.g. technical debt that does not impact availability, scalability, performance, etc)
+- all other `type::bug` issues not covered as sustaining work
+- reviewing community contributions
+- responding to customer inquiries / support requests
 
 ## Ops Promotion Process
 
@@ -186,7 +226,7 @@ We have limited capacity in the recruiting team so hiring managers are experimen
 - DRIs are expected to score OKRs on a regular basis, at least monthly, if possible.
 - At the end of the quarter, DRIs can add a retrospective as a comment to reflect on the progress of their KR, in the following format:
 
-```
+```markdown
 **Good**
 - Things that went well...
 
@@ -205,7 +245,6 @@ Key projects will be listed in the table below:
 
 | Project Name                                  | Link to Project Plan                                                                                                                                  | DRI                         | [Tech Leads](/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role)                  |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------| --------------------------- |
-| CI/CD Catalog                                 | [Project plan](/handbook/engineering/development/ops/project-plans/ci-catalog/)                                                                       | Mark Nuzzo                  | Fabio Pitino (transitioning to Laura Montemayor and Avielle Wolfe) |
 | CI Data Partitioning                          | [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/ci-data-partitioning/)                                   | Caroline Simpson            | Marius Bobin                |
 | CI Primary Key Conversion                     | [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/ci-pk-conversion/)                                       | Drew Stachon / Caroline Simpson | Tianwen Chen            |
 | Container Registry v2 Self-Managed            | [Project plan](/handbook/engineering/development/ops/project-plans/container-registry-v2/)                                                            | Crystal Poole               | Hayley Swimelar             |
@@ -220,10 +259,10 @@ Key projects will be listed in the table below:
 
 | Project Name                                  | Link to Project Plan                                                                                                                                  | DRI                       | Tech Leads                | Completed |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------| --------------------------| ------- |
+| CI/CD Catalog                                 | [Project plan](/handbook/engineering/development/ops/project-plans/ci-catalog/)                                                                       | Mark Nuzzo                  | Laura Montemayor and Avielle Wolfe | FY25-Q1 |
 | Merge Train Improvements (Fast-Foward Support)| [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/merge-trains/) | Caroline Simpson | Allison Browne, Hordur Yngvason | FY24-Q4 |
 | O11y Distributed Tracing | [Project plan](/handbook/engineering/development/ops/monitor/observability/#weekly-project-plan) | Nicholas Klick | | FY24-Q4 |
 | GCP Secrets Integration | [Project plan](/handbook/engineering/development/ops/project-plans/gcp-secrets-integration/) | Scott Hampton | Albert Salim | FY24-Q4 |
-
 
 ### Key Project Planning
 
@@ -235,20 +274,20 @@ Since the project plan is stored in the handbook it is easy to track changes in 
 
 Project plans should (roughly) follow this format (from https://www.rubick.com/weekly-project-plans/):
 
-```
+```text
 Weekly project plan template
 
 
 Week of Jan 4th
 
     Single chart shows up in Slack. Data is canned.
-    Schedule risk: we’re validating our list of chart types are all technically feasible. We’ll demo outcome of that investigation.
+    Schedule risk: we're validating our list of chart types are all technically feasible. We'll demo outcome of that investigation.
 
 Week of Jan 11th
 
     Chart data reflects live information, and is functional in Slack chart.
     Additional chart type shows in Slack room, with most basic visual design.
-    We’ve shown to at least one alpha customer for feedback. We start sharing with them every week from here on out.
+    We've shown to at least one alpha customer for feedback. We start sharing with them every week from here on out.
     Jessica is on-call and doing interrupt-driven work for week.
 
 Week of Jan 18th
@@ -259,7 +298,7 @@ Week of Jan 18th
 Week of Jan 25th
 
     Holiday Jan 26th.
-    Charts look great and are thoroughly tested, instrumented. We’ll show usage dashboards.
+    Charts look great and are thoroughly tested, instrumented. We'll show usage dashboards.
     Release end of week.
 
 ```
@@ -267,7 +306,6 @@ Week of Jan 25th
 Updates to the plan should be made weekly, marking weekly items done and making updates based on current information.  Authors should merge updates to their project plans without review/approval.
 
 We expect the use of project plans to reduce the amount of EM reporting by serving as a SSOT for project execution planning.  For example this info no longer needs to be included in async updates (replace with a link to project plan).
-
 
 ### Key Project Review Meetings
 
@@ -288,7 +326,6 @@ The focus of the meeting time will be on topics such as:
     1. Competing priorities
     1. How to unblock and/or accelerate
 1. Recognizing progress and key team member contributions
-
 
 ## Async Updates (No Status In Meetings)
 
@@ -322,7 +359,6 @@ The content of these updates varies by individual and role:
 1. Topics:
     1. Highlights & Accomplishments
     1. Projects & Priorities (progress, blockers, key decisions, etc.)
-
 
 ### To create a weekly async update
 
@@ -364,8 +400,9 @@ and would benefit from additional visibility, please post a link with a short de
 
 ### Supporting Customers on Dedicated instances
 
-When teams are asked to triage support requests for customers on GitLab Dedicated and engineers need access to their logs, a sync can be arranged between the engineer and the assigned Support Engineer for a screensharing session.
+When teams are asked to triage support requests for customers on GitLab Dedicated and engineers need access to their logs, a sync can be arranged between the engineer and the assigned Support Engineer for a screen sharing session.
 However, when further troubleshooting is needed by the engineering team or async collaboration is preferred, follow these steps to request access:
+
 1. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) (AR) and list the engineers who require access.  (Note that EMs can create this issue and provide `Manager Approval` on behalf of the engineers)
 1. Assign the AR to the EM and PM of the [Dedicated group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) for *read-only* log access.
 1. Reference the AR issue in the support tracker issue so that the Support Engineer is aware.

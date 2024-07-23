@@ -5,14 +5,6 @@ title: "Geo and Disaster Recovery - Hierarchy of Agile Work Items"
 description: "How the Geo Team organizes agile work items"
 ---
 
-
-
-
-
-
-
-# Geo Team's Hierarchy of Agile Work Items
-
 This section describes the approach that the Geo team takes to break down the requirements into work-in-progress items that engineers move through the workflow of implementation.
 
 First, we describe general agile work item terminology to create alignment and use common industry vocabulary. We then map these general terms to the specific work item terminology used by GitLab.
@@ -31,7 +23,7 @@ A common breakdown of this hierarchy in general terms is as follows:
 
 We start with the definition of a user story. This is a description of a low granularity piece of functionality or business value that will be delivered to users of the system. It is often expressed in simple terms free of technical jargon or domain-specific terminology, as much as possible.
 
-The point of a user story is that it is as small in scope as possible, while still being a complete piece of functionality. This means that it would be difficult to divide into smaller pieces of work. And if it were to be divided further, at that point it would be difficult to test or feel incomplete from the user’s perspective (i.e. it would provide no actual value on its own).
+The point of a user story is that it is as small in scope as possible, while still being a complete piece of functionality. This means that it would be difficult to divide into smaller pieces of work. And if it were to be divided further, at that point it would be difficult to test or feel incomplete from the user's perspective (i.e. it would provide no actual value on its own).
 
 User Stories should not be confused with the concept of [Minimum Viable Change (MVC)](/handbook/product/product-principles/#the-minimal-viable-change-mvc) at GitLab. An MVC is used to define how much scope of functionality will be delivered by a single iteration of the product, while a user story is a technique or template used to describe individual pieces of business logic in a way that a developer can know when they are done with that part. In this way, an MVC could be composed of multiple user stories.
 
@@ -47,7 +39,7 @@ User Story: As a website visitor, I would like to submit my contact information 
 
 Acceptance Criteria:
 
-- The form is accessible through a “Contact Us” link in the top menu
+- The form is accessible through a "Contact Us" link in the top menu
 - The form loads into its own page
 - The form has 3 fields: Name, Email, Description
 - The description field allows basic text formatting (bold, italic, bullet points)
@@ -55,13 +47,13 @@ Acceptance Criteria:
 - When the user submits the form, an email is sent to admin@website.com with the information submitted.
 - The user receives a confirmation message on the screen that the form was submitted
 
-From this example, we can see how we could attempt to separate each piece of criteria into a separate user story, but it would then not provide full value to a user. For example, accessing a form from a menu item which can’t be submitted would not be very helpful to the user.
+From this example, we can see how we could attempt to separate each piece of criteria into a separate user story, but it would then not provide full value to a user. For example, accessing a form from a menu item which can't be submitted would not be very helpful to the user.
 
 ### Feature
 
 A feature in this context is a grouping element of user stories that share a common goal or a similar theme. This collection of stories would address a higher-level job to be done by users of the system. The feature would have a description in this higher level scope and explain how the individual user stories would work together to meet the feature requirements.
 
-Following our example. A feature could be “Support Requests”, where the contact form is just one user story of various ways that a visitor to the website could request support. Other user stories in this feature could include searching an FAQ or engaging with a Chat Bot or initiating a live chat session with a customer representative.
+Following our example. A feature could be "Support Requests", where the contact form is just one user story of various ways that a visitor to the website could request support. Other user stories in this feature could include searching an FAQ or engaging with a Chat Bot or initiating a live chat session with a customer representative.
 
 ### Epic
 
@@ -99,7 +91,6 @@ This table aims to provide a mapping between the concepts in the hierarchy and t
 | User Story | Issue        |
 | Task       | Tasks *      |
 | Bug        | Issue with label `type::bug` |
-
 
 \* For tasks, there is a couple of options, we can use [task lists](https://docs.gitlab.com/ee/user/markdown.html#task-lists) in the issue description using markdown, or we can create formally [Tasks](https://docs.gitlab.com/ee/user/tasks.html) that are its own work item type in GitLab.
 

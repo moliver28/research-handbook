@@ -1,13 +1,6 @@
 ---
-
 title: "Competitive Intelligence"
 ---
-
-
-
-
-
-
 
 ## Competitive Intelligence at GitLab
 
@@ -32,6 +25,7 @@ The competitive intelligence team brings timely and insightful analysis of compe
 All our comparison assets - pages that compare other vendor products with GitLab are found in the **[DevOps Tools Landscape page](https://about.gitlab.com/devops-tools/)** and the **[DevOps Maturity Comparison chart](https://about.gitlab.com/why-gitlab/)**
 
 These assets have two different purposes:
+
 - The DevOps Tools Landscape visualizes how we consider ourselves in each stage, ranking GitLab compared to the Best In Class competitors for each stage.
 - The DevOps Maturity Comparison Chart visualizes how we compare on a category level to each of the Best In Class competitors in each stage.
 
@@ -51,18 +45,20 @@ If you are not in these teams and require access, reach out to @jkempton on slac
 
 In the spirit of the GitLab values of iteration and collaboration, Crayon is designed to allow GitLab teammates to contribute and develop any and all competitive intelligence, wherever and whenever they encounter it, rather than it being gatekept by just the Competitive Intelligence Team. In that regard, the team are encouraged to update, correct, amend and comment on competitive intelligence news, on competitive cards, and collaborate on competitive boards to ensure everyone has the best and most up-to-date information. Crayon also has a dedicated analyst working behind the scenes to help source and surface competitive intelligence; you may see comments from our analyst within the Crayon tool.
 
-For any questions around how to use the Crayon platform, please use Crayon’s [own FAQ](https://support.crayon.co/hc/en-us) before reaching out to ‘@jkempton’ for any help.
+For any questions around how to use the Crayon platform, please use Crayon's [own FAQ](https://support.crayon.co/hc/en-us) before reaching out to '@jkempton' for any help.
 
-Note also that the “help” functionality on the tool should ONLY be used for questions around the use of the Crayon tool, and not for general questions directed at the GitLab competitive intelligence team (for example, questions like “Can you help with this competitor” should be shared in the ‘#competition’ slack channel, not asked as a question through Crayon)
+Note also that the "help" functionality on the tool should ONLY be used for questions around the use of the Crayon tool, and not for general questions directed at the GitLab competitive intelligence team (for example, questions like "Can you help with this competitor" should be shared in the '#competition' slack channel, not asked as a question through Crayon)
 
 #### How to use Crayon
 
 Any GitLab Sales, Product, Engineering, and Marketing team member can contribute to Crayon including:
+
 - Adding a new competitor card
 - Adding in objection handling questions and resolutions
 - Highlighting a product release or notable competitor change
 
 When adding, removing or amending competitive information to Crayon, please follow the process below:
+
 1. Find the appropriate competitive card to add the content. It's important to evaluate the importance of the information: Does it just impact one competitor? Is it part of a broader theme? Do we need to duplicate the information across to other competitor cards?
 2. Once new content is created, the information will not be updated until it is re-published. Tag @Jkempton in the comments section for the card to confirm what additions/removals have been made, similar to the process of an MR within GitLab.
 3. @jkempton will then review the content changes, edit if appropriate, and re-publish the cards.
@@ -114,22 +110,19 @@ In order to mitigate the risk associated with Win/Loss communications, the follo
 
 | The Clozd business owner, @jkempton, manually sends the contact information to Clozd upon validating the two prior sub-bullets |
 
-
 ## The Comparison Process
 
 At GitLab, anyone can contribute to the Competitive Intelligence process.   We strive to meet the following goals.
 
-1. **Fair**:  For any CI process to be credible it has to be fair.  That's a reason why we use the **[DevOps Category Maturity](https://about.gitlab.com/direction/maturity/)** as a guideline for our comparisons.  This ensures that there's common basis of understanding of each stage in the end to end DevOps lifecycle and it is not a cherry picket set of criteria just to make a vendor look good or bad.
+1. **Fair**:  For any CI process to be credible it has to be fair.  That's a reason why we use the **[DevOps Category Maturity](https://about.gitlab.com/direction/#maturity)** as a guideline for our comparisons.  This ensures that there's common basis of understanding of each stage in the end to end DevOps lifecycle and it is not a cherry picket set of criteria just to make a vendor look good or bad.
 2. **Accurate**: We strive to be as accurate as possible by taking input from websites, product documentation, demo videos, trails where allowed, information from customers, and even competitors.  For example, recently a Product Manager from a competitor reached out to us about a correction to the analysis, which we quickly made.
 3. **Easily consumable**:  We make the information easily consumable by making it available on the website.
-
 
 ## Competitors and Products with overlapping functionality
 
 GitLab exists in an ecosystem of **[DevOps tools](https://about.gitlab.com/why-gitlab/)** and might need to interact with any number of these tools. Many have over-lapping capabilities, but that does not mean that we necessarily directly compete with them. A user would need to patch together multiple solutions from this list in order to get all the functionality that is built-in to GitLab as a **[single application for end-to-end DevOps](https://about.gitlab.com)**.
 
 We tend to include those products also in the DevOps Tools comparison pages so customers have a comprehensive understanding of how we view the full landscape, not necessarily in competitive terms. Refer to this handbook page for more information on [who GitLab competes with](/handbook/product/gitlab-the-product/#who-gitlab-competes-with).
-
 
 ## The Customer's Voice
 
@@ -140,13 +133,11 @@ As always the customer's voice is absolutely critical in this.  Fortunately ther
 
 ## Other comparison sites
 
-Comparison's at a deep level are challenging and time consuming.  We'd like to acknowledge some other sites that have done a sincere and strong effort at comparing DevOps tools.  Some of these are by competitors but in keeping with GitLab values of transparency and to provide our prospects a comprehensive picture - here they are:
+Comparisons at a deep level are challenging and time consuming.  We'd like to acknowledge some other sites that have done a sincere and strong effort at comparing DevOps tools.  Some of these are by competitors but in keeping with GitLab values of transparency and to provide our prospects a comprehensive picture - here they are:
 
-- [CA](https://assessment-tools.ca.com/tools/continuous-delivery-tools/en?embed)
 - [XebiaLabs](https://xebialabs.com/periodic-table-of-devops-tools/)
 - [CNCF](https://landscape.cncf.io/)
 - [Gitea](https://docs.gitea.io/en-us/comparison/).
-
 
 ## Where we are headed
 
@@ -160,6 +151,5 @@ The goal of the Competitive Intelligence team will be to provide a complete set 
 The diagram below captures the overall approach.  The idea is that for each use case-competitor with the exception of the strategy document (hosted in Crayon), all other resources should generally be publicly accessible.  This is in keeping with GitLab value of Transparency.
 
 ![Competitive Framework](compintel-strategy.png)
-
 
 [See the Solutions Marketing page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) for more information.

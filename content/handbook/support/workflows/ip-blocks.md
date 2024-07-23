@@ -27,7 +27,7 @@ You can then drill down from there with positive and negative filters on [fields
 
 ### Checking for Rack Attack Blocks
 
-It can sometimes be unclear if a user has actually been blocked by our end or not. If they've been blocked by [Rack Attack](https://docs.gitlab.com/ee/security/rack_attack.html), we should be able to locate requests in Kibana that were blocked because of it.
+It can sometimes be unclear if a user has actually been blocked by our end or not. If they've been blocked by [Rack Attack](https://docs.gitlab.com/ee/development/application_limits.html#implement-rate-limits-using-rackattack), we should be able to locate requests in Kibana that were blocked because of it.
 
 To do so, enter the IP address into the main search field and set a positive filter on `json.message` for `Rack_Attack`.
 
@@ -170,7 +170,7 @@ In certain cases, when the customer is using a shared user account to run pipeli
 
 ### Handling GitLab.com "Access Denied" errors (CloudFlare Block)
 
-There may be cases where a user is being blocked by CloudFlare and they are not being blocked due to rate limiting. You can typically request a screenshot of the CloudFlare “Access Denied” page or have the customer perform a `curl` with the `-i` flag to retrieve the relevant headers:
+There may be cases where a user is being blocked by CloudFlare and they are not being blocked due to rate limiting. You can typically request a screenshot of the CloudFlare "Access Denied" page or have the customer perform a `curl` with the `-i` flag to retrieve the relevant headers:
 
 ![Access Denied](/handbook/support/workflows/assets/AccessDenied.png)
 
@@ -199,7 +199,7 @@ Note the `HTTP 403` response and `error code 1020`.
 
 Once you obtain this information you should open an issue in our [Reliability tracker](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues) providing the `cf-ray` ID and the timestamp (date) to request that the IP address block be removed. You can also consult the #infrastructure-lounge Slack channel with the open issue for further assistance. Some blocks may happen as a result of a mitigation effort, so you may want to verify that a [contact request](https://gitlab.com/gitlab-com/support/internal-requests/-/issues) is not open on the internal board.
 
-Note that IP addresses may be blocked if they are identified as being from a [current US embargoed country](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information) as per [our Terms of Use](/handbook/legal/subscription-agreement/). Blocks are done automatically through CloudFlare's GeoLocation block methods and cannot be changed. You can [enter an IP address](https://www.maxmind.com/en/geoip2-precision-demo) to determine how it is classified and verify against [the list of countries](/handbook/legal/trade-compliance/). A user can consider [requesting a data correction](https://support.maxmind.com/geoip-data-correction-request/) of their IP address but it is not guaranteed and GitLab has no control over this process.
+Note that IP addresses may be blocked if they are identified as being from a [current US embargoed country](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information) as per [our Terms of Use](/handbook/legal/subscription-agreement/). Blocks are done automatically through CloudFlare's GeoLocation block methods and cannot be changed. You can [enter an IP address](https://www.maxmind.com/en/geoip2-precision-demo) to determine how it is classified and verify against [the list of countries](/handbook/legal/trade-compliance/). A user can consider [requesting a data correction](https://www.maxmind.com/en/geoip-data-correction-request) of their IP address but it is not guaranteed and GitLab has no control over this process.
 
 ## Applying for an exception (Deprecated)
 

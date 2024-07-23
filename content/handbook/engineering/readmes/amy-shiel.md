@@ -1,5 +1,4 @@
 ---
-
 title: "Amy Shiel README"
 description: "Personal readme page for Amy Shiel, Engineering Manager, GitLab"
 job: "Engineering Manager"
@@ -7,9 +6,9 @@ job: "Engineering Manager"
 
 ## Why create a README?
 
-This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+This page is intended to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
-It’s also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
+It's also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
 
 Please feel free to contribute to this page by opening a merge request.
 
@@ -27,9 +26,9 @@ Hi there. My current role is Engineering Manager on the Switchboard Team. We are
 ## My working style
 
 - **Direct Communication**
-  - I value direct communication and feedback. I adopt the principle of [Short Toes](https://handbook.gitlab.com/teamops/everyone-contributes/#short-toes) and expect others to provide feedback where appropriate.
+  - I value direct communication and feedback. I adopt the principle of [Short Toes](/teamops/everyone-contributes/#short-toes) and expect others to provide feedback where appropriate.
 - **Relator**
-  - My prominent Gallup Strength is [Relator](https://www.gallup.com/cliftonstrengths/en/252311/relator-theme.aspx). I enjoy building genuine relationships and working closely with others to achieve outcomes. I am most productive when I understand team members' strengths and can set them up for success.  
+  - My prominent Gallup Strength is [Relator](https://www.gallup.com/cliftonstrengths/en/252311/relator-theme.aspx). I enjoy building genuine relationships and working closely with others to achieve outcomes. I am most productive when I understand team members' strengths and can set them up for success.
 - **Assume Good Intent**
   - We are all working together to achieve outcomes and I assume that each team member does the best they can with the skills and information they have at the time.
 - **Technical Knowledge & Understanding**
@@ -40,4 +39,3 @@ Hi there. My current role is Engineering Manager on the Switchboard Team. We are
 [LinkedIn](https://www.linkedin.com/in/amyshiel/)
 
 [GitLab](https://gitlab.com/ashiel)
-

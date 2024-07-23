@@ -1,5 +1,4 @@
 ---
-
 title: Collaboration on shared feature and experience areas
 description: "Collaboration process and documentation of shared feature areas for product groups"
 ---
@@ -32,11 +31,11 @@ This section is modeled after the engineering handbook version of [ownership of 
 - [Generate a Release from .gitlab-ci.yml](https://docs.gitlab.com/ee/ci/yaml/#release)
 - [Create a GitLab or Jira issue from a vulnerability](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#create-an-issue-for-a-vulnerability)
 - [Create a merge request from an issue](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-new-branch-from-an-issue)
-- [Measure DevOps success via the DORA metrics](https://docs.gitlab.com/ee/api/dora4_project_analytics.html)
+- [Measure DevOps success via the DORA metrics](https://docs.gitlab.com/ee/api/dora/metrics.html)
 - [Create Incidents as an Issue Type](https://docs.gitlab.com/ee/operations/incident_management/manage_incidents.html#from-the-issues-list)
-- [Connect your clusters via the CI/CD Tunnel](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_tunnel.html)
+- [Connect your clusters via the CI/CD Tunnel](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html)
 - [Relate issues and Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html#feature-flag-related-issues)
-- [Run multiple pipelines and project dependencies with multi-project pipelines](https://docs.gitlab.com/ee/ci/pipelines/multi_project_pipelines.html)
+- [Run multiple pipelines and project dependencies with multi-project pipelines](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#multi-project-pipelines)
 - [Enable concurrency control during deployments with Resource Groups](https://docs.gitlab.com/ee/ci/resource_groups/)
 - [Associate job artifacts, or a generic package to a Release](https://docs.gitlab.com/ee/user/project/releases/)
 

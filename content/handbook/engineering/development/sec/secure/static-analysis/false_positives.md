@@ -4,12 +4,6 @@ aliases: /handbook/engineering/development/sec/secure/static-analysis/false_posi
 title: "Static Analysis Group Defined False Positives"
 ---
 
-
-
-
-
-
-
 ## Static Analysis Group Defined False Positives
 
 The table below lists different rule ids and situations in which they can be considered as false positives. The column *Source Project* contains a reference to the project for which the FP finding was produced; column *Origin* refers to the analyzer that produced the FP; columns *CWE* and *ID* show the reported CWE ID and the native vulnerability ID that is used by the analyzer to identify a vulnerability, respectively. The column *False Positive Reason* details why the reported finding can be considered as a false positive.
@@ -22,4 +16,3 @@ The table below lists different rule ids and situations in which they can be con
 | [security-products](https://gitlab.com/gitlab-org/security-products)  |  Gemnasium  | CVE-2020-14040     | CVE-2020-14040   | Vulnerable code found in imported libraries is dead-code and not called during run-time |
 | [security-products](https://gitlab.com/gitlab-org/security-products)  |  Gemnasium  | CVE-2020-29652     | CVE-2020-29652   | Vulnerable code found in imported libraries is dead-code; i.e. not called at run-time |
 | [security-products](https://gitlab.com/gitlab-org/security-products)  |  Gemnasium  | GMS-2019-2     | GMS-2019-2   | YAML content parsed is not user-generated |
-

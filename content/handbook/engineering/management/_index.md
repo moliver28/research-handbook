@@ -18,8 +18,7 @@ This page will serve as a training resource and operational guide for current an
 
 ## General leadership principles
 
-All Engineering Managers should follow the [general leadership
-principles](/handbook/leadership/) set out in the handbook. In particular, it is
+All Engineering Managers should follow the [general leadership principles](/handbook/leadership/) set out in the handbook. In particular, it is
 not uncommon for Engineering Managers to struggle with one or more of the
 following areas, so we recommend you review them carefully and discuss your
 confidence with your manager:
@@ -40,8 +39,8 @@ Each Engineering Manager (EM) is responsible for developing a Backup Plan in the
 | Peer EM Backup (preferably FE / BE pairs) | Senior Team Member | Manager of EM                  |
 | ------ | ------ |  ------ |
 | Participate in the Team Retrospective, highlight items to company-wide retro, read items on call if necessary | Work with PM on Backlog Refinement and Milestone Planning     | Complete Navan Expense Reports |
-| Conduct Synchronous / Asynchronous 1-1’s (if more than 1 week) | New Hire Onboarding | Handle Expense Questions       |
-| Manager Approvals (Access to staging, etc)
+| Conduct Synchronous / Asynchronous 1-1's (if more than 1 week) | New Hire Onboarding | Handle Expense Questions       |
+| Manager Approvals (Access to staging, etc) | | |
 
 Please, consider including timing details. Example: If outage spans last/first week of the milestone, participate in planning the milestone with PM.
 
@@ -62,8 +61,7 @@ work to an extent. However, please keep the following advice in mind:
   task.
 - Focus on where you can add the most value. As mentioned above, you won't add
   value on critical path work, but that doesn't mean you can't add value in
-  other ways. For a great discussion on this, see this article on [How (and why)
-  Should Managers Code](https://medium.com/@johnbarton/how-and-why-should-managers-code-323751799664).
+  other ways. For a great discussion on this, see this article on [How (and why) Should Managers Code](https://medium.com/@johnbarton/how-and-why-should-managers-code-323751799664).
 - Plan to review more than you write. Following from all of this, most of your
   "coding-related work" should be in code review - you add more value reviewing
   code to stay up to date with your team and provide them feedback and guidance.
@@ -111,7 +109,7 @@ Where:
 - Acting or Interim roles are [temporary management positions](/handbook/engineering/career-development/#temporary-management-positions).
 - `Senior` manager roles are introduced when needed, usually related to management [span of control](/handbook/company/structure/#management-group) in the relevant department.
 - Some departments have domain specific role names as well as, or instead of, `Engineering Manager`. Be specific when identifying which manager under Engineering is responsible for certain tasks in order to avoid confusion over the term "EM". For example:
-    - `Support Operations Manager` for Support.
+  - `Support Operations Manager` for Support.
 - Specialty - which is maintained in Workday and [sync'ed to the handbook](/handbook/people-group/engineering/miscellaneous/#team-page-entry-specialty-field) - should generally follow these guidelines:
-    - Should include a `Stage`. Choose the primary stage if the manager covers multiple stages.
-    - For managers who manage individual contributors, include the group (`Stage: Group`). Choose the primary group if the manager covers multiple groups.
+  - Should include a `Stage`. Choose the primary stage if the manager covers multiple stages.
+  - For managers who manage individual contributors, include the group (`Stage: Group`). Choose the primary group if the manager covers multiple groups.

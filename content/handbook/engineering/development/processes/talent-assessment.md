@@ -1,13 +1,6 @@
 ---
-
 title: Development Talent Assessment Process
 ---
-
-
-
-
-
-
 
 ### Talent Assessment Process
 
@@ -44,24 +37,21 @@ As the Talent Assessment impacts compensation, and Acting/Interim periods are no
 
 #### Pre-Calibration Prep Work
 
-
 In addition to the [calibration session pre work](/handbook/people-group/talent-assessment/#calibration-session-pre-work) on the Talent Assessment page, we ask that you complete the following:
 
 1. Directors should conduct sub-department level calibration sessions ahead of the department-wide Development calibration sessions. In addition to calibrating on initial assessments, Directors are responsible for ensuring their respective teams assessments fall within the [expected distribution](/handbook/people-group/talent-assessment/#expected-distribution-performancegrowth-potential-company-wide) ahead of the department-wide calibration session for efficiency.
 
 1. Performance and Growth Potential notes need to be added to the [session agenda doc](https://docs.google.com/document/d/1zrlZSfdNXpSZ09uvDM71KxH42RWBJxa6U1QTCTw05iI/edit#) for each team member at least 3 business days before the synchronous calibration session.
 
-1. Managers should include 2-3 supporting points for each team member for the assessment under each section in the [agenda doc notes](https://docs.google.com/document/d/1zrlZSfdNXpSZ09uvDM71KxH42RWBJxa6U1QTCTw05iI/edit#) to help support the “why” behind the assessment. _Note: The overviews in the agenda document for calibration are meant to provide enough of an overview so peers have an understanding of the "why", while simultaneously not overwhelming with information and decreasing efficiency of the session. Please limit to 2-3 supporting points per team member._
+1. Managers should include 2-3 supporting points for each team member for the assessment under each section in the [agenda doc notes](https://docs.google.com/document/d/1zrlZSfdNXpSZ09uvDM71KxH42RWBJxa6U1QTCTw05iI/edit#) to help support the "why" behind the assessment. _Note: The overviews in the agenda document for calibration are meant to provide enough of an overview so peers have an understanding of the "why", while simultaneously not overwhelming with information and decreasing efficiency of the session. Please limit to 2-3 supporting points per team member._
 
 1. Key Talent assessment need to be completed and added to the session agenda doc at least 3 business days before the live calibration session.
 
-  - If an individual is indicated as Key Talent, an explanation should be added to indicate how this individual qualifies as Key Talent against our [Key Talent definition](/handbook/people-group/talent-assessment/#key-talent). Reminder that the bar for Key Talent is set high, and that Key Talent makes up roughly ~10% of the entire population. In Development, we will be calibrating Key Talent from the Senior Manager level and above [aligned with guidelines](/handbook/people-group/talent-assessment/#process-to-determine-key-talent), meaning that while _everyone in the organization is eligible to be identified as Key Talent_, Senior Managers+ will be calibrating and making these final decisions. The rationale behind this decision is that it is important to have a holistic view of all team members when determining who meets the Key Talent criteria, which is why we require a certain scope when assessing Key Talent in the organization.
+- If an individual is indicated as Key Talent, an explanation should be added to indicate how this individual qualifies as Key Talent against our [Key Talent definition](/handbook/people-group/talent-assessment/#key-talent). Reminder that the bar for Key Talent is set high, and that Key Talent makes up roughly ~10% of the entire population. In Development, we will be calibrating Key Talent from the Senior Manager level and above [aligned with guidelines](/handbook/people-group/talent-assessment/#process-to-determine-key-talent), meaning that while _everyone in the organization is eligible to be identified as Key Talent_, Senior Managers+ will be calibrating and making these final decisions. The rationale behind this decision is that it is important to have a holistic view of all team members when determining who meets the Key Talent criteria, which is why we require a certain scope when assessing Key Talent in the organization.
 
 While calibrations and ultimate determinations will take place at Senior Manager+ level, inital recommendations begin in Workday and sit with team member's direct managers aligned with the [process](/handbook/people-group/talent-assessment/#process-to-determine-key-talent)
 
 1. Every session attendee should review the Performance/Growth Potential assessments and Key Talent overviews for outliers asynchronously ahead of the session to be prepared for live discussion/calibration.
-
-
 
 #### Calibration Session Structure
 
@@ -100,7 +90,6 @@ The calibration schedule below only includes calibration sessions in which depar
 | Session 4 | Director+ (people managers only) + PBP | Principal/Senior Manager level | TBD | APAC/Americas | 1 hour | Expansion |
 | Session 5 | Director+ (people managers only) + PBP | Calibrate Senior Manager level | TBD | EMEA/Americas | 1.5 hours | Core Development |
 | Session 6 | Department leaders and PBP | Calibrate Director/Distinguished level | TBD | EMEA/APAC/Americas | 2 hours | Core Development & Expansion |
-
 
 #### Timeline
 

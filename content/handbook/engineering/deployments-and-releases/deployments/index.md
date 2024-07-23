@@ -19,11 +19,11 @@ GitLab.com receives updates multiple times a day with new deployment branches cu
 - [Source](https://docs.google.com/presentation/d/1YRjA1dYCXNXp06VltDYlik1MdFyzUvaeXKk69mMPcA4/edit?usp=sharing)
 
 Once a new branch is created, only commits that pass the CI tests are eligible for deployments ("green build"). This means that if specs are failing in
-[gitlab-org/gitlab], the deployments cannot progress further.
+[`gitlab-org/gitlab`](https://gitlab.com/gitlab-org/gitlab), the deployments cannot progress further.
 
-Automated tasks in the [release-tools] project are setup to drive the next steps:
+Automated tasks in the [release-tools](https://gitlab.com/gitlab-org/release-tools) project are setup to drive the next steps:
 
-- Twice every hour, a task runs to cherry-pick merge requests labeled with `~"Pick into auto-deploy"` (See [Labels of importance]).
+- Twice every hour, a task runs to cherry-pick merge requests labeled with `~"Pick into auto-deploy"` (See [Labels of importance](#labels-of-importance)).
 - Twice every hour, a task searches for the latest "green build" in the auto-deploy branch.
   - If it finds a commit that has not been previously deployed, it will start the process of creating a new package.
   - If the commit has already been deployed, the task will not take any actions.
@@ -44,12 +44,12 @@ will not be blocked. Migrations will also not be blocked since they are executed
 1. Production checks are performed to asses the health of the environment. If considered to be healthy the pipeline will automatically continue
 1. Deployment to the production environment runs delayed to staging
 Each deployment will trigger a notification in the Slack channel [#announcements](https://gitlab.slack.com/archives/C8PKBH3M5).
-As part of the deployments, a QA issue is created in [release/tasks] issue tracker to inform the people who are
+As part of the deployments, a QA issue is created in [release/tasks](https://gitlab.com/gitlab-org/release/tasks/) issue tracker to inform the people who are
 involved in the process that their change is going through environments
 
 ### Post-deploy migration (PDM) execution
 
-To make GitLab.com packages rollbackable, the [post-deploy migrations] are independent from the GitLab.com deployment process. These migrations
+To make GitLab.com packages rollbackable, the [post-deploy migrations](https://docs.gitlab.com/ee/development/database/post_deployment_migrations.html) are independent from the GitLab.com deployment process. These migrations
 are run in staging and production environments through the post-deploy migration pipeline that is triggered on a daily basis at the discretion of
 the release managers.
 
@@ -63,10 +63,10 @@ When a release manager executes the post-deploy migration pipeline:
 1. QA tests execute against staging
 1. Following a successful QA verification, post-deploy migration scripts run on production.
 
-Details of this pipeline can be found in the [post-deploy migration pipeline documentation].
+Details of this pipeline can be found in the [post-deploy migration pipeline documentation](https://gitlab.com/gitlab-org/release/docs/-/tree/master/general/post_deploy_migration).
 
 To determine if a post-deploy migration has been executed [please see this guide](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/post_deploy_migration/readme.md) for more information.
-If, after 48 hours from the merge of your MR, you already have determined with the guide above that your Post-deploy migration has not yet run, and you have questions, please reach out to Release Managers on the [#releases] channel.
+If, after 48 hours from the merge of your MR, you already have determined with the guide above that your Post-deploy migration has not yet run, and you have questions, please reach out to Release Managers on the [#releases](https://gitlab.slack.com/archives/C0XM5UU6B) channel.
 
 ### Deployment Rollbacks
 
@@ -95,9 +95,10 @@ Example of the Staging environment rollback pipeline:
 ### Deployment blockers
 
 Anyone can **halt or block a deployment to Production** by:
+
 1. Declaring a [incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident)
 1. Applying the `blocks deployments` label. This prevent automated deployments to the Production environment from starting.
-1. Alerting the Release Managers in the [#releases] channel.
+1. Alerting the Release Managers in the [#releases](https://gitlab.slack.com/archives/C0XM5UU6B) channel.
 
 In addition, automated deployments to **any production environment** (including [canary]), are
 halted during the change lock period. Currently, the change lock period is between every **Friday 23:00 UTC and Monday 06:00 UTC** as well as during any [scheduled Production Change periods](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl).
@@ -134,8 +135,11 @@ request is especially urgent. For example:
 - Urgent performance or availability fix that can improve the stability of
 GitLab.com
 
+In case of high-severity bugs, please proceed to [report an incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) to track
+events and response.
+
 If this label is added because a merge request is blocking further deploys,
-consider leaving a note in [#releases] Slack channel to raise awareness of the status.
+consider leaving a note in [#releases](https://gitlab.slack.com/archives/C0XM5UU6B) Slack channel to raise awareness of the status.
 
 **For new features or non-urgent fixes**, the label **should not be used** because
 the new release is only days or hours away.
@@ -146,8 +150,7 @@ Directions on how to know whether a MR is deployed to GitLab.com are in the [rel
 
 ### When will my merge request be deployed?
 
-We currently create an auto-deployment branch at a [specific
-timeline](/handbook/engineering/deployments-and-releases/deployments/#gitlabcom-deployments-process). The current Mean Time To Production time and target can be seen on the [Infrastructure performance indicators page](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp).
+We currently create an auto-deployment branch at a [specific timeline](/handbook/engineering/deployments-and-releases/deployments/#gitlabcom-deployments-process). The current Mean Time To Production time and target can be seen on the [Infrastructure performance indicators page](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp).
 
 For a merge request with [the pick label](/handbook/engineering/deployments-and-releases/deployments/#gitlabcom-pick-label), the
 process is different.
@@ -164,11 +167,11 @@ guide for more information.
 
 ### I found a regression in the QA issue, what do I do next?
 
-If you've found a regression with a potentially high [severity], immediately follow the steps in [Deployment blockers] to halt the deployment.
+If you've found a regression with a potentially high [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity), immediately follow the steps in [Deployment blockers](/handbook/engineering/deployments-and-releases/deployments/#deployment-blockers) to halt the deployment.
 
-If a regression is found in a new feature, and only that feature is affected, follow the directions in the QA issue created in the [release/tasks] project for a regular regression.
+If a regression is found in a new feature, and only that feature is affected, follow the directions in the QA issue created in the [release/tasks](https://gitlab.com/gitlab-org/release/tasks/) project for a regular regression.
 
-For high severity bugs found in the lead up to the [monthly release](/handbook/engineering/releases/) please also alert the Release Managers in [#releases].
+For high severity bugs found in the lead up to the [monthly release](/handbook/engineering/releases/) please also alert the Release Managers in [#releases](https://gitlab.slack.com/archives/C0XM5UU6B).
 
 ## Resources
 
@@ -180,14 +183,3 @@ For high severity bugs found in the lead up to the [monthly release](/handbook/e
 | Delivery group issue tracker | [Link](https://gitlab.com/gitlab-com/gl-infra/delivery/issues) |
 | Release manager schedule | [Link](https://about.gitlab.com/community/release-managers/) |
 | Maintenance Policy | [Link](https://docs.gitlab.com/ee/policy/maintenance.html) |
-
-[canary]: /handbook/engineering#canary-testing
-[gitlab-org/gitlab]: https://gitlab.com/gitlab-org/gitlab
-[release-tools]: https://gitlab.com/gitlab-org/release-tools
-[release/tasks]: https://gitlab.com/gitlab-org/release/tasks/
-[labels of importance]: #labels-of-importance
-[severity]: /handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity
-[#releases]: https://gitlab.slack.com/archives/C0XM5UU6B
-[Deployment blockers]: /handbook/engineering/deployments-and-releases/deployments/#deployment-blockers
-[post-deploy migrations]: https://docs.gitlab.com/ee/development/database/post_deployment_migrations.html
-[post-deploy migration pipeline documentation]: https://gitlab.com/gitlab-org/release/docs/-/tree/master/general/post_deploy_migration

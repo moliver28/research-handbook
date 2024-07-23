@@ -1,5 +1,5 @@
 ---
-title: "GitLab Project Management - Hands-On Lab: Use GitLab Planning Tools"
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Use GitLab Planning Tools"
 description: "This Hands-On Guide walks you through creating epics, iterations, and milestones in GitLab."
 ---
 
@@ -21,7 +21,7 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 1. In the left pane, click **Plan > Roadmap**. Epics and milestones in a group containing a start date or due date can be visualized in a form of a timeline (that is, a Gantt chart). The Roadmap page shows the epics and milestones in a group, one of its subgroups, or a project in one of the groups.
 
-1. On the epic bars, you can see each epic’s title, progress, and completed weight percentage. When you hover over an epic bar, a popover appears with the epic’s title, start date, due date, and weight completed.
+1. On the epic bars, you can see each epic's title, progress, and completed weight percentage. When you hover over an epic bar, a popover appears with the epic's title, start date, due date, and weight completed.
 
 1. You can expand epics that contain child epics to show their child epics in the roadmap. You can select the chevron (v) next to the epic title to expand and collapse the child epics.
 
@@ -137,7 +137,7 @@ You will later assign tasks to the epics and milestones you created, allowing yo
 
 ## Task E. Schedule iterations as team sprints
 
-    > Iterations are mutually exclusive timeboxes intended to track team velocity, while milestones can represent larger, overlapping product goals. You can read more about iterations in the [documentation](https://docs.gitlab.com/ee/user/group/iterations/).
+> Iterations are mutually exclusive timeboxes intended to track team velocity, while milestones can represent larger, overlapping product goals. You can read more about iterations in the [documentation](https://docs.gitlab.com/ee/user/group/iterations/).
 
 1. In your subgroup structure, navigate to **Awesome Inc > Software**.
 
@@ -165,7 +165,7 @@ You will later assign individual tasks to iterations (sprints).
 
 ## Task F. Create a wiki for project documentation
 
-> If you don’t want to keep your documentation in your repository, but you want to keep it in the same project as your code, you can use the wiki GitLab provides in each GitLab project. Every wiki is a separate Git repository, so you can create wiki pages in the web interface, or locally using Git. GitLab wikis support Markdown, Rdoc, AsciiDoc, and Org for content. Wiki pages written in Markdown support all Markdown features, and also provide some wiki-specific behavior for links. You can read more about wikis [here](https://docs.gitlab.com/ee/user/project/wiki/).
+> If you don't want to keep your documentation in your repository, but you want to keep it in the same project as your code, you can use the wiki GitLab provides in each GitLab project. Every wiki is a separate Git repository, so you can create wiki pages in the web interface, or locally using Git. GitLab wikis support Markdown, Rdoc, AsciiDoc, and Org for content. Wiki pages written in Markdown support all Markdown features, and also provide some wiki-specific behavior for links. You can read more about wikis [here](https://docs.gitlab.com/ee/user/project/wiki/).
 
 1. Navigate to your **Family Budget Calculator** project in the **Software > Core** subgroup.
 

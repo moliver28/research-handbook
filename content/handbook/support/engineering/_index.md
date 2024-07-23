@@ -1,12 +1,11 @@
 ---
-
 title: Support Engineer Resources
 description: If you want to learn more about what support engineers do and how they do it, this is the place.
 ---
 
 ### A Day in the Life of a Support Engineer
 
-As a Support Engineer at GitLab, the majority of your time will be focused on helping customers solve problems. This happens mostly through tickets, but can also happen through issues, screensharing calls, and emergencies.
+As a Support Engineer at GitLab, the majority of your time will be focused on helping customers solve problems. This happens mostly through tickets, but can also happen through issues, screen sharing calls, and emergencies.
 
 ### Getting Help
 
@@ -46,7 +45,7 @@ Additionally, if the code change is specifically to improve the team's efficienc
 (such as changes to admin for faster support), then add the `~"Support Efficiency"` label.
 
 We also recommend using weight labels (frontend, backend, docs) to track the effort required for MRs.
-While you can look at how others have labelled their MRs, the most important thing is that you are consistent in applying the labels to your own MRs
+While you can look at how others have labeled their MRs, the most important thing is that you are consistent in applying the labels to your own MRs
 so that you can see which MRs required the most effort and your overall progress.
 The number of MRs and their total weight are included in the [1:1 generator reports](https://gitlab.com/gitlab-com/support/toolbox/1-1-issue-generator).
 
@@ -66,8 +65,10 @@ end of each week with a list of support team contributions merged in the past we
 
 - [ExplainShell](https://explainshell.com/) - Break down a terminal command
 - [Espanso](https://espanso.org/) - Versatile text expander (a.k.a. text replacer or canned response tool)
+  - Be sure to check out the [GitLab Support Espanso package](https://gitlab.com/gitlab-com/support/toolbox/espanso/) for a bunch of ready-to-use expansions!
 - [Insomnia](https://insomnia.rest/) - Build, debug, and test API queries, and generate the code for them
 - [iTerm2](https://iterm2.com/) (macOS) - Terminal emulator with robust theming and customization options
+- [Itsycal](https://www.mowglii.com/itsycal/) (macOS) - Menu bar calendar with more flexibility than the system widget
 - [LanguageTool](https://languagetool.org/) - Free, **offline** grammar, spelling, and style checker
 - [Obsidian](https://obsidian.md/) - Super customizable markdown notetaking app with tons of themes and addons
 - [Raycast](https://www.raycast.com/) (macOS) - Omnibox helper with tons of plugins for emoji, clipboard history, unit conversions, calculations, search, a confetti effect, and more
@@ -81,7 +82,6 @@ end of each week with a list of support team contributions merged in the past we
 - Copy As Markdown - Used to copy the element in current page as markdown format ([Chrome](https://chrome.google.com/webstore/detail/copy-as-markdown/dgoenpnkphkichnohepecnmpmihnabdg?hl=en)/[Firefox](https://addons.mozilla.org/en-US/firefox/addon/copy-as-markdown/))
 - Zendesk Download Router - Automatically routes Zendesk downloads into separate folders by ticket number ([Chrome](https://chrome.google.com/webstore/detail/zendesk-download-router/pgfhacdbkdeppdjgighdeejjfneifkml)/[Firefox](https://addons.mozilla.org/en-GB/firefox/addon/zendesk-download-router/)/[Opera](https://addons.opera.com/en-gb/extensions/details/zendesk-download-router/))
 - GitLab Web Debugger - Aides in identifying the root cause of page load errors on GitLab.com and internal GitLab instances ([Chrome](https://gitlab.com/gitlab-com/gl-infra/gitlab-web-debugger))
-- Zendesk Quicktab - Opens Zendesk tickets in a single browser tab ([Chrome](https://chrome.google.com/webstore/detail/zendesk-quicktab/imgmkpifcfhbfdklogcpdnkohifklebb))
-- Note: Zendesk Quicktab was [removed from the Chrome marketplace in July 2020](https://support.tymeshift.com/hc/en-us/articles/360003993613-Install-Zendesk-Quicktab-Chrome-Extension) while ownership of the extension was in negotiations. Please read the [Zendesk support forum thread](https://support.zendesk.com/hc/en-us/community/posts/360001108948/comments/360012160754) for information on the current state of the extension and installing Zendesk Quicktab from the GitHub project.
+- [Zendesk Quicktab](https://support.zendesk.com/hc/en-us/articles/6443360776346-Installing-the-Quicktab-Google-Chrome-extension) - Opens Zendesk tickets in a single browser tab ([Chrome](https://chrome.google.com/webstore/detail/quicktab-for-zendesk-by-t/hhbimbckgheipimadcknkfogegmpoibj))
 - Calendly Meeting Scheduling Software - ad-hoc meetings, one-click booking ([Chrome](https://chrome.google.com/webstore/detail/calendly-meeting-scheduli/cbhilkcodigmigfbnphipnnmamjfkipp))
-- GitLab Screenshare mode - allows to hide confidential information on your GitLab screen ([Chrome](https://gitlab.com/leipert-projects/gitlab-screenshare-mode#chrome)/[Firefox](https://gitlab.com/leipert-projects/gitlab-screenshare-mode#firefox))
+- GitLab Screen share mode - allows to hide confidential information on your GitLab screen ([Chrome](https://gitlab.com/leipert-projects/gitlab-screen share-mode#chrome)/[Firefox](https://gitlab.com/leipert-projects/gitlab-screen share-mode#firefox))

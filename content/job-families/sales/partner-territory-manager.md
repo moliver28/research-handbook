@@ -2,7 +2,7 @@
 title: "Partner Territory Manager"
 ---
 
-To meet evolving customer needs and to continue GitLab’s growth, partners are an essential component of our future success. Specifically, we need to leverage partners capabilities to implement, support and grow  usage and adoption of the GitLab platform. Partner Territory Managers (PTMs) have a dual function. First, PTMs support GitLab field sales in a specific territory in which they are responsible for ensuring that the right partners contribute to customer success with GitLab on a pre and post sales basis. Second, PTMs manage one or more partner relationships that play a role in the success of their territory. PTMs support their assigned territory by establishing an overall partner strategy, developing  partner pipeline, and facilitating partner sales and services.
+To meet evolving customer needs and to continue GitLab's growth, partners are an essential component of our future success. Specifically, we need to leverage partners capabilities to implement, support and grow  usage and adoption of the GitLab platform. Partner Territory Managers (PTMs) have a dual function. First, PTMs support GitLab field sales in a specific territory in which they are responsible for ensuring that the right partners contribute to customer success with GitLab on a pre and post sales basis. Second, PTMs manage one or more partner relationships that play a role in the success of their territory. PTMs support their assigned territory by establishing an overall partner strategy, developing  partner pipeline, and facilitating partner sales and services.
 
 ## Levels
 
@@ -39,7 +39,7 @@ The Associate Partner Territory Manager is responsible for the following with si
 - Log all joint sales activities and partner engagement activities in Salesforce.
 - Position partner-specific margin and/or incentives accurately and ensure that they are used appropriately.
 - Help ensure that partner quotes and cloud marketplace private offers are prepared correctly.
-- Ensure that all cloud marketplace opportunities are registered and updated in the corresponding cloud partner’s  portal (e.g., AWS ACE or Google Partner Advantage).
+- Ensure that all cloud marketplace opportunities are registered and updated in the corresponding cloud partner's  portal (e.g., AWS ACE or Google Partner Advantage).
 - Escalate critical business issues to partner management.
 - Prepare presentations, territory plans and reports as required.
 - Meet assigned sales targets and objectives for their assigned territory using partner Source (i.e., Deal Registrations), Influence and Co-selling mechanisms.
@@ -49,21 +49,21 @@ The Associate Partner Territory Manager is responsible for the following with si
 **Regional Partner Management**
 
 - Develop and drive the execution of partner revenue programs and initiatives.
-- Evangelize GitLab’s value proposition to the partners they manage.
+- Evangelize GitLab's value proposition to the partners they manage.
 - Manage the day-to-day needs of the partners they manage.
-- Coordinate GitLab team members to meet partner performance objectives and partners’ expectations.
+- Coordinate GitLab team members to meet partner performance objectives and partners' expectations.
 - Monitor partner compliance with GitLab Partner Programs and partner agreements.
 - In collaboration with partner leaders at designated partners, develop a joint partnership strategy and GTM plan that includes investments in:
-    - Practice Development
-    - Co-selling
-    - Sourcing GitLab business, and
-    - Developing industry and cloud-based solutions.
+  - Practice Development
+  - Co-selling
+  - Sourcing GitLab business, and
+  - Developing industry and cloud-based solutions.
 - Participate in the partner planning process that develops mutual performance objectives, financial targets, and critical milestones associated with a productive partner relationship.
 - In collaboration with the Partner Program team, Partner Marketing, etc., identify partner go-to-market (GTM) demand generation activities and/or partner services offerings to grow joint revenue.
 - Stay abreast of competitive products, technologies and industry trends.
 - Adopt partner-related best practices.
 - Represent GitLab at partner events.
-- Attain KPI’s to ensure that the goals of the partner portfolio are met.
+- Attain KPI's to ensure that the goals of the partner portfolio are met.
 - Collaborate with internal stakeholders such as Sales, Solution Architects, Marketing, Services, Partner Programs, Strategy and Operations
 
 #### Associate Requirements
@@ -91,7 +91,7 @@ The Associate Partner Territory Manager is responsible for the following with si
 - Willingness to deepen technical and domain knowledge
 - Results driven
 - Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
-- Ability to travel up to 50% within the assigned territory and comply with the company’s travel policy.
+- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
 
 #### Associate Performance Indicators
 
@@ -122,7 +122,7 @@ The Partner Territory Manager (intermediate) is a [grade 6]({{< ref "compensatio
 - Log all joint sales activities and partner engagement activities in Salesforce.
 - Position partner-specific margin and/or incentives accurately and ensure that they are used appropriately.
 - Help ensure that partner quotes and cloud marketplace private offers are prepared correctly.
-- Ensure that all cloud marketplace opportunities are registered and updated in the corresponding cloud partner’s  portal (e.g., AWS ACE or Google Partner Advantage).
+- Ensure that all cloud marketplace opportunities are registered and updated in the corresponding cloud partner's  portal (e.g., AWS ACE or Google Partner Advantage).
 - Escalate critical business issues to partner management.
 - Prepare presentations, territory plans and reports as required.
 - Meet assigned sales targets and objectives for their assigned territory using partner Source (i.e., Deal Registrations), Influence and Co-selling mechanisms.
@@ -132,21 +132,21 @@ The Partner Territory Manager (intermediate) is a [grade 6]({{< ref "compensatio
 **Regional Partner Management**
 
 - Develop and drive the execution of partner revenue programs and initiatives.
-- Evangelize GitLab’s value proposition to the partners they manage.
+- Evangelize GitLab's value proposition to the partners they manage.
 - Manage the day-to-day needs of the partners they manage.
-- Coordinate GitLab team members to meet partner performance objectives and partners’ expectations.
+- Coordinate GitLab team members to meet partner performance objectives and partners' expectations.
 - Monitor partner compliance with GitLab Partner Programs and partner agreements.
 - In collaboration with partner leaders at designated partners, develop a joint partnership strategy and GTM plan that includes investments in:
-    - Practice Development
-    - Co-selling
-    - Sourcing GitLab business, and
-    - Developing industry and cloud-based solutions.
+  - Practice Development
+  - Co-selling
+  - Sourcing GitLab business, and
+  - Developing industry and cloud-based solutions.
 - Participate in the partner planning process that develops mutual performance objectives, financial targets, and critical milestones associated with a productive partner relationship.
 - In collaboration with the Partner Program team, Partner Marketing, etc., identify partner go-to-market (GTM) demand generation activities and/or partner services offerings to grow joint revenue.
 - Stay abreast of competitive products, technologies and industry trends.
 - Adopt partner-related best practices.
 - Represent GitLab at partner events.
-- Attain KPI’s to ensure that the goals of the partner portfolio are met.
+- Attain KPI's to ensure that the goals of the partner portfolio are met.
 - Collaborate with internal stakeholders such as Sales, Solution Architects, Marketing, Services, Partner Programs, Strategy and Operations.
 
 #### Intermediate Requirements
@@ -188,7 +188,7 @@ The Partner Territory Manager (intermediate) is a [grade 6]({{< ref "compensatio
 - Results driven,
 - Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
 - Strong tolerance for ambiguity; able to focus and execute in a changing environment; ability to make things happen
-- Ability to travel up to 50% within the assigned territory and comply with the company’s travel policy.
+- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
 
 #### Intermediate Performance Indicators
 
@@ -219,7 +219,7 @@ The Senior Partner Territory Manager is responsible for the following with occas
 - Log all joint sales activities and partner engagement activities in Salesforce.
 - Position partner-specific margin and/or incentives accurately and ensure that they are used appropriately.
 - Help ensure that partner quotes and cloud marketplace private offers are prepared correctly.
-- Ensure that all cloud marketplace opportunities are registered and updated in the corresponding cloud partner’s  portal (e.g., AWS ACE or Google Partner Advantage).
+- Ensure that all cloud marketplace opportunities are registered and updated in the corresponding cloud partner's  portal (e.g., AWS ACE or Google Partner Advantage).
 - Escalate critical business issues to partner management.
 - Prepare presentations, territory plans and reports as required.
 - Meet assigned sales targets and objectives for their assigned territory using partner Source (i.e., Deal Registrations), Influence and Co-selling mechanisms.
@@ -229,21 +229,21 @@ The Senior Partner Territory Manager is responsible for the following with occas
 **Regional Partner Management**
 
 - Develop and drive the execution of partner revenue programs and initiatives.
-- Evangelize GitLab’s value proposition to the partners they manage.
+- Evangelize GitLab's value proposition to the partners they manage.
 - Manage the day-to-day needs of the partners they manage.
-- Coordinate GitLab team members to meet partner performance objectives and partners’ expectations.
+- Coordinate GitLab team members to meet partner performance objectives and partners' expectations.
 - In collaboration with partner leaders at designated partners, develop a joint partnership strategy and GTM plan that includes investments in:
-    - Practice Development
-    - Co-selling
-    - Sourcing GitLab business, and
-    - Developing industry and cloud-based solutions.
+  - Practice Development
+  - Co-selling
+  - Sourcing GitLab business, and
+  - Developing industry and cloud-based solutions.
 - Monitor partner compliance with GitLab Partner Programs and partner agreements.
 - Participate in the partner planning process that develops mutual performance objectives, financial targets, and critical milestones associated with a productive partner relationship.
 - In collaboration with the Partner Program team, Partner Marketing, etc., identify partner go-to-market (GTM) demand generation activities and/or partner services offerings to grow joint revenue.
 - Stay abreast of competitive products, technologies and industry trends.
 - Adopt partner-related best practices.
 - Represent GitLab at partner events.
-- Attain KPI’s to ensure that the goals of the partner portfolio are met.
+- Attain KPI's to ensure that the goals of the partner portfolio are met.
 - Collaborate with internal stakeholders such as Sales, Solution Architects, Marketing, Services, Partner Programs, Strategy and Operations.
 
 **Cloud Partnering**
@@ -251,8 +251,8 @@ The Senior Partner Territory Manager is responsible for the following with occas
 - Execution of day-to-day co-selling motion between GitLab field sales and cloud partner field sellers.
 - Position cloud partner incentives accurately and ensure that they are used appropriately.
 - Help ensure that private offers are prepared correctly and that correct marketplace fees are applied.
-- Ensure that all joint opportunities are registered in the corresponding strategic cloud partner’s partner portal.
-- Ensure that all registered joint opportunities are updated within the strategic cloud partner’s partner portal.
+- Ensure that all joint opportunities are registered in the corresponding strategic cloud partner's partner portal.
+- Ensure that all registered joint opportunities are updated within the strategic cloud partner's partner portal.
 - Escalate critical business issues to partner management.
 - Prepare presentations, territory plans and reports as required.
 
@@ -293,7 +293,7 @@ The Senior Partner Territory Manager is responsible for the following with occas
 - Results driven.
 - Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
 - Strong tolerance for ambiguity; able to focus and execute in a changing environment; ability to make things happen.
-- Ability to travel up to 50% within the assigned territory and comply with the company’s travel policy.
+- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
 
 #### Senior Performance Indicators
 
@@ -326,7 +326,7 @@ The Staff Partner Territory Manager is responsible for the following with minima
 - Log all joint sales activities and partner engagement activities in Salesforce.
 - Position partner-specific margin and/or incentives accurately and ensure that they are used appropriately.
 - Help ensure that partner quotes and cloud marketplace private offers are prepared correctly.
-- Ensure that all cloud marketplace opportunities are registered and updated in the corresponding cloud partner’s  portal (e.g., AWS ACE or Google Partner Advantage).
+- Ensure that all cloud marketplace opportunities are registered and updated in the corresponding cloud partner's  portal (e.g., AWS ACE or Google Partner Advantage).
 - Escalate critical business issues to partner management.
 - Prepare presentations, territory plans and reports as required.
 - Meet assigned sales targets and objectives for their assigned territory using partner Source (i.e., Deal Registrations), - Influence and Co-selling mechanisms.
@@ -336,21 +336,21 @@ The Staff Partner Territory Manager is responsible for the following with minima
 **Regional Partner Management**
 
 - Develop and drive the execution of partner revenue programs and initiatives.
-- Evangelize GitLab’s value proposition to the partners they manage.
+- Evangelize GitLab's value proposition to the partners they manage.
 - Manage the day-to-day needs of the partners they manage.
-- Coordinate GitLab team members to meet partner performance objectives and partners’ expectations.
+- Coordinate GitLab team members to meet partner performance objectives and partners' expectations.
 - In collaboration with partner leaders at designated partners, develop a joint partnership strategy and GTM plan that includes investments in:
-    - Practice Development
-    - Co-selling
-    - Sourcing GitLab business, and
-    - Developing industry and cloud-based solutions.
+  - Practice Development
+  - Co-selling
+  - Sourcing GitLab business, and
+  - Developing industry and cloud-based solutions.
 - Monitor partner compliance with GitLab Partner Programs and partner agreements.
 - Participate in the partner planning process that develops mutual performance objectives, financial targets, and critical milestones associated with a productive partner relationship.
 - In collaboration with the Partner Program team, Partner Marketing, etc., identify partner go-to-market (GTM) demand generation activities and/or partner services offerings to grow joint revenue.
 - Stay abreast of competitive products, technologies and industry trends.
 - Adopt partner-related best practices.
 - Represent GitLab at partner events.
-- Attain KPI’s to ensure that the goals of the partner portfolio are met.
+- Attain KPI's to ensure that the goals of the partner portfolio are met.
 - Collaborate with internal stakeholders such as Sales, Solution Architects, Marketing, Services, Partner Programs, Strategy and Operations.
 
 **Cloud Partnering**
@@ -358,8 +358,8 @@ The Staff Partner Territory Manager is responsible for the following with minima
 - Execution of day-to-day co-selling motion between GitLab field sales and cloud partner field sellers.
 - Position cloud partner incentives accurately and ensure that they are used appropriately.
 - Help ensure that private offers are prepared correctly and that correct marketplace fees are applied.
-- Ensure that all joint opportunities are registered in the corresponding strategic cloud partner’s partner portal.
-- Ensure that all registered joint opportunities are updated within the strategic cloud partner’s partner portal.
+- Ensure that all joint opportunities are registered in the corresponding strategic cloud partner's partner portal.
+- Ensure that all registered joint opportunities are updated within the strategic cloud partner's partner portal.
 - Escalate critical business issues to partner management.
 - Prepare presentations, territory plans and reports as required.
 
@@ -398,7 +398,7 @@ Effective communicator with good interpersonal skills and an ability to build st
 - Results driven.
 - Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
 - Strong tolerance for ambiguity; able to focus and execute in a changing environment; ability to make things happen.
-- Ability to travel up to 50% within the assigned territory and comply with the company’s travel policy.
+- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
 
 #### Staff Performance Indicators
 
@@ -436,7 +436,7 @@ The Senior Manager, Partner Territory Management is a [grade 9] ({{< ref "compen
 - Work closely with GitLab regional sales leadership to inform the partner strategies, programs and best practices for a specific business segment.
 - Engage GitLab regional sales leadership, solutions architects and partner marketing teams to ensure awareness and leverage of partners.
 - Foster executive relationships regionally within GitLab sales leaders and partner organizations.
-- Evangelize GitLab’s value proposition to partner organizations within your region.
+- Evangelize GitLab's value proposition to partner organizations within your region.
 - Provide executive support at regional partner marketing events.
 - Oversee partner-led demand generation, pipeline building activities, and related go-to-market planning within the assigned region.
 - Leverage your professional network to maximize relationships with partners.
@@ -488,7 +488,7 @@ The Senior Manager, Partner Territory Management is a [grade 9] ({{< ref "compen
 - Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
 - Strong tolerance for ambiguity; able to focus and execute in a changing environment; ability to make things happen.
 - Experience with managing remote teams.
-- Ability to travel up to 50% within the assigned territory and comply with the company’s travel policy.
+- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
 
 #### Senior Manager Performance Indicators
 
@@ -527,7 +527,7 @@ The {add the role name} is a [grade 10]({{< ref "compensation-calculator#gitlab-
 - Work closely with GitLab sales leadership globally, to inform the partner strategies, programs and best practices throughout GitLab.
 - Engage GitLab sales leadership, solutions architects and partner marketing teams to ensure awareness and leverage of partners.
 - Foster executive relationships across GitLab sales leaders and partner organizations.
-- Evangelize GitLab’s value proposition to partner organizations.
+- Evangelize GitLab's value proposition to partner organizations.
 - Provide executive support at global and regional partner marketing events.
 - Oversee partner-led demand generation, pipeline building activities, and related go-to-market planning within the assigned region.
 - Leverage your extensive, long-standing professional network to maximize relationships with partners.
@@ -579,7 +579,7 @@ The {add the role name} is a [grade 10]({{< ref "compensation-calculator#gitlab-
 - Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
 - Strong tolerance for ambiguity; able to focus and execute in a changing environment; ability to make things happen.
 - Experience with managing remote teams.
-- Ability to travel up to 50% within the assigned territory and comply with the company’s travel policy.
+- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
 
 #### Director Performance Indicators
 

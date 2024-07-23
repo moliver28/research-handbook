@@ -1,5 +1,4 @@
 ---
-
 title: "101 - Creating Kubernetes cluster"
 ---
 
@@ -10,7 +9,7 @@ This is a step by step guide to help you to manually create a Kubernetes cluster
 
 More details [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/)
 
-#### Preparation
+### Preparation
 
 You need a Google Cloud Platform account, GitLab employees will have this. Ensure you are logged in with your GitLab account.
 

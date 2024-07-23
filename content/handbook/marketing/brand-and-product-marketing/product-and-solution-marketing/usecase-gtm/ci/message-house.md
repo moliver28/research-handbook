@@ -1,8 +1,6 @@
 ---
-
 title: "CI Message House"
 ---
-
 
 ### Context
 
@@ -24,6 +22,5 @@ Below, you'll find messaging and positioning focused on the [CI use case](/handb
 | **Promise** | - Bridge the gap between Dev and Ops: no more "throwing things over the wall" halting progress means teams spend their time shipping features that customers love. | - Gain faster feedback and integrate smaller changes frequently to reduce the risk of build-breaking changes. | - Faster time to market and more reliable builds mean value gets into the hands of customers sooner with a high degree of confidence in quality. |
 | **Pain points** | - Manual development work and legacy approval processes that are tedious, time consuming, and unenjoyable for both dev teams and ops teams involved. <br> - Integrating different tools among multiple teams in different parts of the organization efficiently. | - Dealing with delivery bottlenecks, code breaking changes, and things like branch conflicts that are avoidable via effective collaboration. <br> - Visibility into pipelines and ongoing work across the org. | - Committing large chunks of code changes that are harder to detect and fix errors. <br> - Manual testing or maintenance tasks that take away from planned development time/work.  |
 | **Why GitLab** | - GitLab's built-in CI is powerful, yet flexible, enough help Dev and Ops be at their best and work as efficient as possible. Delivering CI as a single application helps to naturally break down development silos and scale safely. | - We embrace transparency and collaboration as core value propositions and weave these principles into everything we do. No one else can say this -- even our proprietary product is shared source. | - GitLab provides modern CI capabilities that "just work" as expected. We practice what we preach to better understand what obstacles customers face so we can provide the best solutions to overcome challenges with CI. We are dedicated to rapid innovation and release new features and capabilities monthly. |
-
 
 | **Proof points** | - [Goldman Sachs:](https://about.gitlab.com/customers/goldman-sachs/) improves from 1 CI feature branch build every two weeks to over a thousand per day. <br> - [Jaguar Land Rover](https://about.gitlab.com/blog/2018/07/23/chris-hill-devops-enterprise-summit-talk/) embraces CI to speed up their software lifecycle. <br> - placeholder |

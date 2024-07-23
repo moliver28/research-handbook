@@ -1,25 +1,20 @@
 ---
-
 title: GitLab Incident Communications Plan
 description: 'Escalations, Processes, and How to Manage Incidents'
 ---
-
-
-
-
-
 
 ### If you need review from the corporate communications team on a potential incident, gather information in an issue or link us to the Slack discussion by message the team in the #corpcomms Slack channel and we'll work with the [Security Communication Manager on Call](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#roles-and-responsibilities-in-a-security-incident) to determine next steps
 
 ## Incident Communication Plan
 
-We use our incident plan and communication escalation process enables the entire organization to understand actions/inactions to take when an incident occurs. Consider it like “tiers”, where when a specific tier is communicated to the team members, all appropriate departments know what actions to take/not take.
+We use our incident plan and communication escalation process enables the entire organization to understand actions/inactions to take when an incident occurs. Consider it like "tiers", where when a specific tier is communicated to the team members, all appropriate departments know what actions to take/not take.
 
 ### What is an Incident?
 
-A contentious issue that undermines a critical attribute of our company’s brand and challenges its reputation. And/or an incident which impacts, or has the potential to impact the safety and wellbeing of our team-members.
+A contentious issue that undermines a critical attribute of our company's brand and challenges its reputation. And/or an incident which impacts, or has the potential to impact the safety and well-being of our team-members.
 
 ### Defining the scope/severity of a potential incident
+
 When determining the need for communication escalation, it is important to first determine what the immediate issue is and determine what caused said issue. After collecting this information, review Tier 1-4 to determine the severity and subsequent action plan
 
 #### Tier 4 - Event
@@ -41,6 +36,7 @@ A Tier 1 escalated incident is a significant reputational or financial risk to t
 ### Tier 2 Process
 
 If a Tier 2 communication escalation arises, please use Slack or a text message to alert:
+
 1. The Head of Corporate Communications and Internal Communications
 1. If the former is unavailable, the Head of Corporate Marketing and CMO
 
@@ -62,7 +58,7 @@ The head of corporate communications will assess the request within 1 HOUR (6amP
 
 ##### Monitor Across Channels with Social Listening (All Tiers)
 
-While monitoring takes place on a regular (if not several times a day) basis across social channels from both the Developer Relations team and the social team, it’s particularly important to monitor channels on a more frequent basis during this time. There is a need to have many instigators (that may be different per channel) and it’s critical to try and understand this information in order to best evaluate the actions to be taken for communication escalation.
+While monitoring takes place on a regular (if not several times a day) basis across social channels from both the Developer Relations team and the social team, it's particularly important to monitor channels on a more frequent basis during this time. There is a need to have many instigators (that may be different per channel) and it's critical to try and understand this information in order to best evaluate the actions to be taken for communication escalation.
 
 Social Listening could take place in the existing GitLab brand health monitor inside of Sprout Social. Because listening is always on (and Sprout backfills data, it is not an immediate need to set up a new topic.
 
@@ -93,7 +89,7 @@ All Slack channels related to the incident should contain a link to the issue an
 
 ##### Create a New Issue For Each Incident
 
-Open a new issue in the corporate marketing project using the [comms-reactive-tier-2-incident-checklist template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/.gitlab/issue_templates/comms-reactive-tier-2-incident-checklist.md). Be sure to confirm that  the issue is marked as confidential, as it pertains to work prior to releasing communications. Use the issue as our project center, assigning to-do’s and accomplishing tasks. Updates including links to external messages from the community should also be added as a comment in the issue, we should look to reduce the volume and locations of chatter on the topic into a singular location, since we will always need to corral several slack threads to the issue.
+Open a new issue in the corporate marketing project using the [comms-reactive-tier-2-incident-checklist template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/.gitlab/issue_templates/comms-reactive-tier-2-incident-checklist.md). Be sure to confirm that  the issue is marked as confidential, as it pertains to work prior to releasing communications. Use the issue as our project center, assigning to-do's and accomplishing tasks. Updates including links to external messages from the community should also be added as a comment in the issue, we should look to reduce the volume and locations of chatter on the topic into a singular location, since we will always need to corral several slack threads to the issue.
 
 Our values guide our actions: [our sense of urgency](/handbook/values/#sense-of-urgency) under Results and our value of not [waiting](/handbook/values/#dont-wait) under Iteration and [RADCIE](/handbook/people-group/directly-responsible-individuals/#radcie) will under our value of Collaboration.
 
@@ -102,22 +98,25 @@ Our values guide our actions: [our sense of urgency](/handbook/values/#sense-of-
 Where possible when dealing with an incident, we want team members to hear about it internally first. Depending on the incident though this may not be possible. However as soon as communication has happened externally we should aim to respond quickly internally - even if it's just to acknowledge we are aware/and are preparing a statement/ or looking into the details of the issue and will update team members as soon as we have more information.
 
 Internal Communications Channel
+
 - #Company-FYI
 - #diversity_inclusion_and_belonging
 - #external-comms
 
 ### Communicating Externally
 
-Centering Communications on GitLab Values + Research - In “[Incorporating Social Media in Risk Communication](https://www.researchgate.net/publication/228129989_A_Work-In-Process_Literature_Review_Incorporating_Social_Media_in_Risk_and_Crisis_Communication),” it’s recommended that we handle communication escalation through:
+Centering Communications on GitLab Values + Research - In "[Incorporating Social Media in Risk Communication](https://www.researchgate.net/publication/228129989_A_Work-In-Process_Literature_Review_Incorporating_Social_Media_in_Risk_and_Crisis_Communication)," it's recommended that we handle communication escalation through:
+
 - [Communicating with honesty](/handbook/values/#transparency), [candor and openness](/handbook/values/#collaboration) while acknowledging risk
 - [Collaborating](/handbook/values/#collaboration) and coordinating with credible sources
 - [Accepting uncertainty and ambiguity](/handbook/values/#accepting-uncertainty)
 - Meeting the needs of the media and remain accessible
 - Communicating with compassion, concern and empathy
 
-A number of these recommendations directly or indirectly align with [GitLab’s Values](/handbook/values/).
+A number of these recommendations directly or indirectly align with [GitLab's Values](/handbook/values/).
 
 Additionally, we need to be sure we:
+
 - Communicate early and often, [as much as necessary](/handbook/values/#iteration)
 - Always use the [GitLab brand voice](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/)
 
@@ -127,29 +126,29 @@ Communications intended to alleviate the incident should be delivered to owned a
 
 Only addressing an incident in a blog post, and telling the community and the media to click a link may work, but that demands moving into our arena first. GitLab should be comfortable with hybrid communications - e.g. updates via blog, but turning the email into a threaded Tweet where the first tweet also includes a link to the blog. Other places to consider posting or adding a link include: GitLab forum, footer of Support and Sales emails, and Help Center docs.
 
-In order to have maximum reach, we’ll need to consider alleviating the incident for the community at every possible step in their journey with GitLab communication (some folks would click the blog link right away, others would follow an issue comment - in both cases we captured a higher reach because we gave both options).
+In order to have maximum reach, we'll need to consider alleviating the incident for the community at every possible step in their journey with GitLab communication (some folks would click the blog link right away, others would follow an issue comment - in both cases we captured a higher reach because we gave both options).
 
 Make messages distinguishable from one another, depending on the audience. Consistency does not need to be homogenous.
 
 The specific makeup of this mix will change depending on the incident.
 
-#### Don’t Over Communicate
+#### Don't Over Communicate
 
-It’s important to use listening (either a tool or manual research) to understand where the incident is emerging. More often than not, most incidents will originate on 1 to 3 channels (HackerNews, Twitter, Reddit, GitLab issue, news article, etc.), and it is entirely possible to manage the incident by communicating on these same channels only.
+It's important to use listening (either a tool or manual research) to understand where the incident is emerging. More often than not, most incidents will originate on 1 to 3 channels (HackerNews, Twitter, Reddit, GitLab issue, news article, etc.), and it is entirely possible to manage the incident by communicating on these same channels only.
 
 If an incident is not properly analyzed, GitLab runs the risk of over communicating and inviting the issue to be more severe.
 
 #### Decide Which Communication Will be the Last to Go Out
 
-At some point on managing an incident, planned external communication is to be thought of as our “last response” to our stakeholders and the greater GitLab community. This is identified when the company feels that we’ve addressed everything we can in the communication, we’ve taken ownership of any mistakes made, and we’ve committed to our stance.
+At some point on managing an incident, planned external communication is to be thought of as our "last response" to our stakeholders and the greater GitLab community. This is identified when the company feels that we've addressed everything we can in the communication, we've taken ownership of any mistakes made, and we've committed to our stance.
 
-Once we’ve identified this last communication, it is best to stop addressing the issue in the public square. No more broadcasts to stakeholders across any other channels. Always direct those with follow up questions to our last communication. In most “small” to “medium” incidents, the last communication may be our first communication.
+Once we've identified this last communication, it is best to stop addressing the issue in the public square. No more broadcasts to stakeholders across any other channels. Always direct those with follow up questions to our last communication. In most "small" to "medium" incidents, the last communication may be our first communication.
 
 #### After the Incident
 
 ##### Determine that the incident is actually over
 
-We’ll know when the heat starts to die down naturally as our inboxes and notifications across channels begins to return to normal levels. However, we shouldn’t go by instinct only. In most cases, we should use a listening tool or review @mentions and non @mentions across channels to quantify the incident being over, e.g. determine that the volume of messages are decreasing and/or sentiment* returning to what we determine is a normal level.
+We'll know when the heat starts to die down naturally as our inboxes and notifications across channels begins to return to normal levels. However, we shouldn't go by instinct only. In most cases, we should use a listening tool or review @mentions and non @mentions across channels to quantify the incident being over, e.g. determine that the volume of messages are decreasing and/or sentiment* returning to what we determine is a normal level.
 
 _*depending on the tool, sentiment analysis can be an inaccurate view of actual sentiment. In some cases, manual tweaking may be necessary to accurately capture._
 
@@ -157,7 +156,7 @@ _*depending on the tool, sentiment analysis can be an inaccurate view of actual 
 
 Once we determine that the incident is over, move to reporting mode. Narrate the story of Why the incident happened, where and when it took place, who was affected by the incident initially and are there any long-term effects, Who was talking about the incident externally, what the team did, and How the incident was resolved and How we can prevent this from happening in the future.
 
-It’s important to include data analysis and “the story” of stakeholders, community members, and GitLab team members. Neither the numbers nor “the story” express the entire picture. Use screenshots of positive and negative feedback from the community.
+It's important to include data analysis and "the story" of stakeholders, community members, and GitLab team members. Neither the numbers nor "the story" express the entire picture. Use screenshots of positive and negative feedback from the community.
 
 Optional: Deliver the retrospective issue  to the entire team after feedback and updates are made, and invite all GitLab team members to a post mortem AMA to discuss more about the incident and invite an open Q&A. Always be sure to close this meeting with a link to the final talking points in the event GitLab team members need to answer this incident in their own conversations.
 
@@ -167,6 +166,6 @@ _(Optional) Public Retrospective_- In the case of a  severe product- or service-
 
 ##### Stick with the Final Talking Points
 
-As discussed when [deciding which communication will be your last](https://docs.google.com/document/d/1evsrRBdkCE03hGrKy4vzAI-P4CR5Muu2x3mLUtZUlDk/edit?ts=5db9e0cd#heading=h.myub55maxnh8), it’s best to finalize your communications and end new talking points. We’re likely to still be asked about the incident even after it’s over.
+As discussed when [deciding which communication will be your last](https://docs.google.com/document/d/1evsrRBdkCE03hGrKy4vzAI-P4CR5Muu2x3mLUtZUlDk/edit?ts=5db9e0cd#heading=h.myub55maxnh8), it's best to finalize your communications and end new talking points. We're likely to still be asked about the incident even after it's over.
 
 It is important to stick to the final talking points and direct everyone to our last communication. If this is a blog, a tweet thread, or a moment in a YouTube video, we should be ready to direct those that ask.

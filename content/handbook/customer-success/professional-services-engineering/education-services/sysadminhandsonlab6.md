@@ -1,6 +1,6 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Manage GitLab Logs"
-description: This Hands-On Guide walks you through managing GitLab logs on a virtual machine."
+description: This Hands-On Guide walks you through managing GitLab logs on a virtual machine.
 ---
 
 > Estimated time to complete: 30 minutes
@@ -15,25 +15,25 @@ The `gitlab-ctl` command allows you to tail all GitLab log files as well as filt
 
 1. From a shell session on your GitLab instance, run the following command to view all active GitLab logs.
 
-```bash
-sudo gitlab-ctl tail
-```
+    ```bash
+    sudo gitlab-ctl tail
+    ```
 
-Amidst all the output, you should notice the command shows the full file path to each log. Most GitLab logs live in `/var/log/gitlab`. (Note: You can type `CTRL-C` to exit the `tail` command.)
+    Amidst all the output, you should notice the command shows the full file path to each log. Most GitLab logs live in `/var/log/gitlab`. (Note: You can type `CTRL-C` to exit the `tail` command.)
 
-2. You can also view GitLab logs by service. Run the following command to view only NGINX logs (i.e. log files in `/var/log/gitlab/nginx`).
+1. You can also view GitLab logs by service. Run the following command to view only NGINX logs (i.e. log files in `/var/log/gitlab/nginx`).
 
-```bash
-sudo gitlab-ctl tail nginx
-```
+    ```bash
+    sudo gitlab-ctl tail nginx
+    ```
 
-You should now see the most recent entries of log files specific to the NGINX web server.
+    You should now see the most recent entries of log files specific to the NGINX web server.
 
-3. Finally, you can drill down to an individual log file.
+1. Finally, you can drill down to an individual log file.
 
-```bash
-sudo gitlab-ctl tail nginx/gitlab_access.log
-```
+    ```bash
+    sudo gitlab-ctl tail nginx/gitlab_access.log
+    ```
 
 ### Task B. Set minimum log levels
 
@@ -41,26 +41,26 @@ Admins are able to set minimum log levels for some GitLab services. Note that on
 
 1. Check the current minimum log levels for GitLab services.
 
-```bash
-sudo grep -n -E 'log_level|logging_level' /etc/gitlab/gitlab.rb
-```
+    ```bash
+    sudo grep -n -E 'log_level|logging_level' /etc/gitlab/gitlab.rb
+    ```
 
-2. Note the line number for `nginx['logging_level']`.
+1. Note the line number for `nginx['error_log_level']`.
 
-3. Change the minimum log level for `nginx`. Replace "1731" with the appropriate line number from the `grep` output in the previous step.
+1. Change the minimum log level for `nginx`. Replace "1731" with the appropriate line number from the `grep` output in the previous step.
 
-```bash
-sudo sed -i '1731s/\"error\"/\"warn\"/' /etc/gitlab/gitlab.rb
-sudo sed -i '1731s/# //' /etc/gitlab/gitlab.rb
-```
+    ```bash
+    sudo sed -i '1731s/\"error\"/\"warn\"/' /etc/gitlab/gitlab.rb
+    sudo sed -i '1731s/# //' /etc/gitlab/gitlab.rb
+    ```
 
-4. Re-run the `grep` command from Step 1 to verify the line was modified as intended.
+1. Re-run the `grep` command from Step 1 to verify the line was modified as intended.
 
-5. Reconfigure to apply the changes.
+1. Reconfigure to apply the changes.
 
-```bash
-sudo gitlab-ctl reconfigure
-```
+    ```bash
+    sudo gitlab-ctl reconfigure
+    ```
 
 ### Task C. Manage log retention
 
@@ -68,49 +68,49 @@ GitLab uses **logrotate** to manage retention of all logs except those managed b
 
 1. Examine default logrotate retention settings.
 
-```bash
-sudo grep -n 'logrotate' /etc/gitlab/gitlab.rb
-```
+    ```bash
+    sudo grep -n 'logrotate' /etc/gitlab/gitlab.rb
+    ```
 
-2. **Optional**: View the default retention settings for the runit-managed logs.
+1. **Optional**: View the default retention settings for the runit-managed logs.
 
-```bash
-sudo grep -n 'svlogd' /etc/gitlab/gitlab.rb
-```
+    ```bash
+    sudo grep -n 'svlogd' /etc/gitlab/gitlab.rb
+    ```
 
-3. It appears logrotate (and svlogd) rotate log files every day, and retain 30 days worth of logs. We can verify this by looking inside the service log directories.
+1. It appears logrotate (and svlogd) rotate log files every day, and retain 30 days worth of logs. We can verify this by looking inside the service log directories.
 
-```bash
-sudo ls /var/log/gitlab/puma
-```
+    ```bash
+    sudo ls /var/log/gitlab/puma
+    ```
 
-Note the gzipped archive files for Puma's stdout and stderr logs from previous days.
+    Note the gzipped archive files for Puma's stdout and stderr logs from previous days.
 
-4. Change logrotate's behavior to rotate log files weekly. As before, modify the line `sed` edits accordingly using the line number from the grep output.
+1. Change logrotate's behavior to rotate log files weekly. As before, modify the line `sed` edits accordingly using the line number from the grep output.
 
-```bash
-sudo sed -i '1234s/daily/weekly/g' /etc/gitlab/gitlab.rb
-sudo sed -i '1234s/# //' /etc/gitlab/gitlab.rb
-```
+    ```bash
+    sudo sed -i '1234s/daily/weekly/g' /etc/gitlab/gitlab.rb
+    sudo sed -i '1234s/# //' /etc/gitlab/gitlab.rb
+    ```
 
-5. Change logrotate's retention period to 1 year of retained log files. As before, modify the line `sed` edits accordingly using the line number from the grep output.
+1. Change logrotate's retention period to 1 year of retained log files. As before, modify the line `sed` edits accordingly using the line number from the grep output.
 
-```bash
-sudo sed -i '1234s/30/52/g' /etc/gitlab/gitlab.rb
-sudo sed -i '1234s/# //' /etc/gitlab/gitlab.rb
-```
+    ```bash
+    sudo sed -i '1234s/30/52/g' /etc/gitlab/gitlab.rb
+    sudo sed -i '1234s/# //' /etc/gitlab/gitlab.rb
+    ```
 
-6. Run the following again to ensure your changes are properly written to `gitlab.rb`.
+1. Run the following again to ensure your changes are properly written to `gitlab.rb`.
 
-```bash
-sudo grep -n 'logrotate' /etc/gitlab/gitlab.rb
-```
+    ```bash
+    sudo grep -n 'logrotate' /etc/gitlab/gitlab.rb
+    ```
 
-7. Reconfigure to apply the changes.
+1. Reconfigure to apply the changes.
 
-```bash
-sudo gitlab-ctl reconfigure
-```
+    ```bash
+    sudo gitlab-ctl reconfigure
+    ```
 
 ### Task D. Change log formatting
 
@@ -140,7 +140,7 @@ Many logs are JSON formatted by default. Admins may wish to configure text forma
 
 1. Run `sudo gitlab-ctl tail gitaly/current` to see the current JSON output for Gitaly logging.
 
-3. Change Gitaly's log format from JSON to text formatting. In your preferred text editor, locate the line `gitaly['configuration]`. Inside this configuration object, you will see a logging configuration similar to below:
+1. Change Gitaly's log format from JSON to text formatting. Ensure you align the line numbers to the correct lines from above.
 
     ```bash
     sudo sed -i '2588s/json/text/' /etc/gitlab/gitlab.rb
@@ -151,9 +151,9 @@ Many logs are JSON formatted by default. Admins may wish to configure text forma
     sudo sed -i '2591s/,/ }/' /etc/gitlab/gitlab.rb
     ```
 
-    > With this sed commands, you are first replacing the JSON format with text. Next, you are removing the comments in front of the format and Gitaly configuration blocks to enable them.
+    > With these sed commands, you are first replacing the JSON format with text. Next, you are removing the comments in front of the format and Gitaly configuration blocks to enable them.
 
-4. Rerun your `grep` command to view your configuration: `sudo grep -n -F "gitaly['configuration']" -A20 /etc/gitlab/gitlab.rb`. The end result will look similar to below:
+1. Rerun your `grep` command to view your configuration: `sudo grep -n -F "gitaly['configuration']" -A20 /etc/gitlab/gitlab.rb`. The end result will look similar to below:
 
 ```bash
 gitaly['configuration'] = {
@@ -167,13 +167,13 @@ gitaly['configuration'] = {
 }}
 ```
 
-5. Reconfigure to apply the change.
+1. Reconfigure to apply the change.
 
 ```bash
 sudo gitlab-ctl reconfigure
 ```
 
-6. Verify the updated formatting.
+1. Verify the updated formatting.
 
 ```bash
 sudo gitlab-ctl tail gitaly/current
@@ -185,7 +185,6 @@ You should see the log output is now text formatted instead of JSON formatted.
 
 You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson).
 
-
 ### Suggestions?
 
-If you’d like to suggest changes to the GitLab System Admin Basics Hands-on Guide, please submit them via merge request.
+If you'd like to suggest changes to the GitLab System Admin Basics Hands-on Guide, please submit them via merge request.

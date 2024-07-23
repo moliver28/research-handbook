@@ -1,15 +1,8 @@
 ---
-
 title: Test Platform On-call Rotation
 description: >-
   The Test Platform Sub-Department has two on-call rotations: pipeline triage (SET-led) and incident management (QEM-led).
 ---
-
-
-
-
-
-
 
 ## Test Platform Sub-Department pipeline triage on-call rotation
 
@@ -73,10 +66,12 @@ This should be planned at least 1 week in advance, including the relevant DRIs [
 NB - For assistance with supporting upgrades outside GitLab's regular business hours, please reach out to Slack channel `#infrastructure-managers`.
 
 Some examples of issues where Test Platform have provided support include:
+
 - [CI Decomposition Rollout](https://ops.gitlab.net/gitlab-com/gl-infra/db-migration/-/blob/ae6240c4bdf94a7774f9ad844dcec26f936a2946/.gitlab/issue_templates/ci_decomposition.md)
 - [PostgreSQL 14 upgrade](https://ops.gitlab.net/gitlab-com/gl-infra/db-migration/-/blob/ae6240c4bdf94a7774f9ad844dcec26f936a2946/.gitlab/issue_templates/pg14_upgrade.md)
 
 If the assigned DRI is unavailable during the planned upgrade, then the assigned DRI is to reach out to find coverage for the day of the planned upgrade.
+
 - For example, if the planned upgrade is scheduled for outside of working hours (i.e., on a Saturday) and the assigned DRI cannot be made available, the assigned DRI is to reach out to the team to find another team member who can be present throughout the planned upgrade.
 
 ## Test Platform Sub-Department incident management on-call rotation
@@ -90,7 +85,5 @@ In the current iteration, incident management activities happen during each team
 - The Engineering Manager should ensure they have joined the Slack channel `#incident-management`.
 - The Engineering Manager should help with monitoring the incident management channel, tracking, directly helping, delegating, and raising awareness of incidents within the Test Platform Sub-Department as appropriate.
 - The current DRI should be clearly noted on the incident issue.
-- If a corrective action is needed, the EM should create an issue and ensure it is labelled with ~'corrective action'.
+- If a corrective action is needed, the EM should create an issue and ensure it is labeled with ~'corrective action'.
 - Everyone in the Test Platform Sub-Department should support the on-call DRI and be available to jump on a Zoom call or offer help if needed.
-
-[DRI]: /handbook/people-group/directly-responsible-individuals/

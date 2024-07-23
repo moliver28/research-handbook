@@ -1,5 +1,4 @@
 ---
-
 title: "Application Security Engineer Handling priority::1/severity::1 Issues"
 ---
 
@@ -10,6 +9,7 @@ Once a potential severity::1/priority::1 issue is made known. The appsec enginee
 ## Triage
 
 1. Triage and verify the issue as you normally would [triage a report]({{< ref "hackerone-process" >}}).
+1. Finalize the CVSS score of the security issue with team member votes on Bug Bounty Council (BBC) thread before engaging the SIRT team. Consider using a sync call or Slack for the discussion due to time sensitivity. Capture the outcome of the discussion in the BBC thread. If a sync call or a Slack discussion was not possible due to AppSec team members in the region being on PTO or timezone issues, trigger the SIRT workflow if 4 hours have passed since the issue was triaged.
 1. To help SecOps quickly determine impact and log analysis, comment in the security issue with the summarized reproduction steps (HTTP Requests, generated log messages, images, etc).
 1. After escalating, do an investigation to try to determine if there are other immediately vulnerable components or other impacts.
 

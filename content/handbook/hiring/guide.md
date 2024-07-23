@@ -1,5 +1,4 @@
 ---
-
 title: "Guide"
 description: "Guide is a program GitLab uses to increase candidate experience by having an easily digestable and enjoyable resource that houses all interview details and relevant handbook pages depending on where the candidate is in the hiring process."
 ---
@@ -61,7 +60,7 @@ DRI: Candidate Experience Team
    - Multiple interviews scheduled - `Multi-Interview Confirmation`
 1. Select Send
 1. To make the chrome extension go away, click on the icon in the upper right corner again
-1. After the Guide is sent, in Greenhouse, select the dropdown where you go to request availability, confirmation, etc. and select the ‘Confirmation Sent’
+1. After the Guide is sent, in Greenhouse, select the dropdown where you go to request availability, confirmation, etc. and select the 'Confirmation Sent'
 
 ### How to send out a Guide to a candidate for a Demo or Technical Interview via Greenhouse
 
@@ -71,12 +70,12 @@ DRI: Candidate Experience Team
 1. Select Preview and Send and ensure the Email template used is `Interview Confirmation- Demo or Technical Interview`
 1. Select Send
 1. To make the chrome extension go away, click on the icon in the upper right corner again
-1. After the Guide is sent, in Greenhouse, select the dropdown where you go to request availability, confirmation, etc. and select the ‘Confirmation Sent’
+1. After the Guide is sent, in Greenhouse, select the dropdown where you go to request availability, confirmation, etc. and select the 'Confirmation Sent'
 
 ### How to send out an updated Guide if there was a change/reschedule
 
 1. If you had to make a change to an interview, whether that is a cancel or reschedule and need to let the candidate know that there have been changes, you will need to resend the Guide.
-1. While in the candidate’s greenhouse profile, click on the Guide extension
-1. Select ‘Resend’
+1. While in the candidate's greenhouse profile, click on the Guide extension
+1. Select 'Resend'
 1. Select the appropriate email template in the dropdown (e.g. New Interviewer, Shadow Added, Updated Interview Confirmation)
-1. Press ‘Send’
+1. Press 'Send'

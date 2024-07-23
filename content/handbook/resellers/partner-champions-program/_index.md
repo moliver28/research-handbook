@@ -31,9 +31,9 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 ## Why to become a GitLab Partner Champion?
 
-**- Sales Opportunities:** Get promoted within the GitLab Field Sales organization as a GitLab SME for your organization possibly generating sales leads and new oppty’s.
+**- Sales Opportunities:** Get promoted within the GitLab Field Sales organization as a GitLab SME for your organization possibly generating sales leads and new oppty's.
 
-**- Exclusive Access:** Gain exclusive access via GitLab Beta Program when launched, Partner SA exclusive roadmap updates, and access to GitLab’s internal Stack Overflow instance.
+**- Exclusive Access:** Gain exclusive access via GitLab Beta Program when launched, Partner SA exclusive roadmap updates, and access to GitLab's internal Stack Overflow instance.
 
 **- Community Influence:** Have the opportunity to influence GitLab's product development by providing feedback and insights to GitLab Product Managers invited to Champions calls.
 
@@ -47,7 +47,7 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 ## Who is the Right Candidate for the Program?
 
-**- Adhere to GitLab Values:** Aspire to GitLab [mission](https://about.gitlab.com/company/mission/#mission), uphold our [values](https://about.gitlab.com/handbook/values/), and adhere to our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
+**- Adhere to GitLab Values:** Aspire to GitLab [mission](https://about.gitlab.com/company/mission/#mission), uphold our [values](/handbook/values/), and adhere to our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
 
 **- Passion for GitLab:** Genuine passion for GitLab and a desire to drive practice building within the partner organization.
 
@@ -78,3 +78,19 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 **- GitLab Publications:** Participate in the GitLab community by contributing at least two artifacts annually, such as blogs, videos, or whitepapers.
 
 **- GitLab Community Support:** When possible attend GitLab Champions regional social events (dinners, meetups, gatherings).
+
+## Internal Champion Approval and Onboarding
+
+### Program Manager
+
+1. Monitor the Champions Nomination form for new applicants
+1. Work with the nominee to create an account on partners.gitlab.com
+1. Request the "GitLab Champion" user field in Impartner be set to "Nominated"
+1. Once approval is granted, notify the Sponsor GitLab SA to begin onboarding the new Champion.
+
+### Sponsor GitLab SA
+
+1. Invite the new Champion via email address to be a `Developer` member of the [https://gitlab.com/gitlab-partners-public/gitlab-champions](https://gitlab.com/gitlab-partners-public/gitlab-champions) group.
+1. Create an [onboarding issue in the champions project](https://gitlab.com/gitlab-partners-public/gitlab-champions/champions/-/issues/new#) for the new Champion with the New_Champion_Onboarding template.
+1. Complete the `GitLab Sponsoring SA Tasks` section of the issue
+1. Work with the new gitLab Champion to complete the `Partner Champion Tasks` section of the issue

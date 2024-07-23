@@ -1,14 +1,7 @@
 ---
-
 title: Release Tools
 description: "Guide to GitLab's tools for new releases"
 ---
-
-
-
-
-
-
 
 ## Introduction
 
@@ -48,7 +41,7 @@ Delivery team for testing purposes (e.g. when testing new functionality). Using
 Release Tools is primarily done through chatops and Slack. For example, to tag
 a self-managed release you'd run:
 
-```
+```text
 /chatops run release tag 42.0.0
 ```
 

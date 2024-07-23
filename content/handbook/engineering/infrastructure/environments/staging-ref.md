@@ -1,14 +1,7 @@
 ---
-
 title: "Staging Ref environment"
 description: "Detailed information about Staging Ref environment"
 ---
-
-
-
-
-
-
 
 ## Staging Ref
 
@@ -102,7 +95,7 @@ After signing in you can proceed using the environment as required. If destructi
 
 #### Admin access
 
-To promote your user to Admin, please sign in as Admin using the `Staging Ref credentials` from 1Password `Engineering` vault. Then navigate to the [Admin Area’s Users page](https://docs.gitlab.com/ee/administration/admin_area.html#administering-users) and edit your user's Access Level.
+To promote your user to Admin, please sign in as Admin using the `Staging Ref credentials` from 1Password `Engineering` vault. Then navigate to the [Admin Area's Users page](https://docs.gitlab.com/ee/administration/admin_area.html#administering-users) and edit your user's Access Level.
 
 Note that Staging Ref environment is shared across all engineers. If you plan to perform changes to GitLab Admin settings, use the [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) Slack channel to communicate changes broadly.
 
@@ -179,12 +172,15 @@ Two users with names `gitlab-qa-saml-sso-user1` and `gitlab-qa-saml-sso-user2` h
 Please note that all credentials and values for fields mentioned below are saved in 1Password Engineering Vault in "Staging Ref credentials" under "User credentials for saml-sso-group Group".
 
 For using SAML SSO, you will need to:
+
 1. As an [admin](#admin-access), create the group at [https://staging-ref.gitlab.com/groups/saml-sso-group](https://staging-ref.gitlab.com/groups/saml-sso-group) if it does not already exist.
 1. [Upgrade the pricing plan](#upgrade-paid-plans) of this group to "Premium".
 1. Visit [https://staging-ref.gitlab.com/groups/saml-sso-group/-/saml](https://staging-ref.gitlab.com/groups/saml-sso-group/-/saml) and:
-  - Check "Enforce SSO-only authentication for web activity for this group"
-  - Update the value of "Identity provider single sign-on URL" to the value saved in 1Password
-  - Update the value of "Certificate fingerprint" to the value saved in 1Password
+
+   - Check "Enforce SSO-only authentication for web activity for this group"
+   - Update the value of "Identity provider single sign-on URL" to the value saved in 1Password
+   - Update the value of "Certificate fingerprint" to the value saved in 1Password
+
 1. Save the changes.
 1. Sign out.
 

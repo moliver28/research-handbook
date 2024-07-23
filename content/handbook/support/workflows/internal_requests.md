@@ -1,11 +1,8 @@
 ---
-
 title: Handling Internal Requests
 description: "Various templates and workflows that should be followed in order to properly handle GitLab.com related requests that Support receives in the internal requests issue tracker"
 category: GitLab.com
 ---
-
-
 
 **NOTE:** If you are a GitLab team member who wants to file an internal request, please see the [Support Internal Requests handbook page](/handbook/support/internal-support/).
 
@@ -143,4 +140,21 @@ If you're not completely sure about the specifics of the script or commands, tes
 
 ## CI Catalog Badge requests
 
-To be actioned by the Support Stable Counterpart for Pipeline Authoring. These requests are used to give certain organizations a "Partner badge" in the CI catalog on GitLab.com, and require and a GitLab.com administrator account to be used with the [upcoming REST API](https://gitlab.com/gitlab-org/gitlab/-/issues/451509) to apply this badge to a namespace.
+[CI Catalog Badge requests](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=CI%20Catalog%20Badge%20Request) are to be actioned by a Support Stable Counterpart for Pipeline Authoring. These requests are used to give certain organizations a "Partner badge" in the CI catalog on GitLab.com. They require a GitLab.com administrator account to execute the [verifiedNamespaceCreate](https://docs.gitlab.com/ee/api/graphql/reference/#mutationverifiednamespacecreate) GraphQL mutation.
+
+1. Open [GraphiQL](https://gitlab.com/-/graphql-explorer) with your GitLab.com administrator account
+1. In the following query, replace `root-level-group` with the namespace and verification level (`GITLAB_PARTNER_MAINTAINED`, `VERIFIED_CREATOR_MAINTAINED`) provided in the internal request:
+
+   ```graphql
+   mutation {
+     verifiedNamespaceCreate(input: { namespacePath: "root-level-group",
+       verificationLevel: GITLAB_PARTNER_MAINTAINED
+       }) {
+       errors
+     }
+   }
+   ```
+
+1. Execute the query via GraphiQL
+   - In case of an error, reach out in [#g_pipeline-authoring](https://gitlab.enterprise.slack.com/archives/C019R5JD44E) for assistance
+1. When closing the internal request as actioned on, ping the requester to let them know the badge was applied

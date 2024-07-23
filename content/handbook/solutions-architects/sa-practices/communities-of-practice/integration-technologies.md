@@ -1,8 +1,6 @@
 ---
-
 title: "Integration Technologies"
 ---
-
 
 This is a collection of best practices collected from working with customers on each stage of the SDLC. This list is not supposed to be exhaustive but provide the SA with a few good pointers when going into a meeting on a specific stage or feature.
 
@@ -14,7 +12,7 @@ This is a collection of best practices collected from working with customers on 
 
 ## Advanced Search with Elasticsearch
 
-Search is a very important aspect in our everyday lives. From using navigation apps to guide us to our restaurants nearby to translating words that are not in our native language, it is crucial that the search functionality is fast, accurate and flexible to allow us to get get the most relevant results possible.
+Search is a very important aspect in our everyday lives. From using navigation apps to guide us to our restaurants nearby to translating words that are not in our native language, it is crucial that the search functionality is fast, accurate and flexible to allow us to get the most relevant results possible.
 
 With integrations with Elasticsearch, we are able to leverage on the [Lucene](https://lucene.apache.org/) library to provide advanced search functionalities for GitLab users.
 
@@ -26,7 +24,7 @@ As the cluster grows, more nodes can be added to the cluster to improve concurre
 
 ### Installation & Integration
 
-The [global search team](https://gitlab.slack.com/archives/C3TMLK465) maintains a [page](https://docs.gitlab.com/ee/integration/elasticsearch.html) on the basic "know-hows" of setting up Elasticsearch and integrating with GitLab.
+The [global search team](https://gitlab.slack.com/archives/C3TMLK465) maintains a [page](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html) on the basic "know-hows" of setting up Elasticsearch and integrating with GitLab.
 
 #### Installation Options
 
@@ -43,7 +41,7 @@ Demo Examples:
 
 **Question: Do you recommend running Elasticsearch on the same host as GitLab?**
 
-**Answer:** No. Elasticsearch will consume memory and file descriptors that is not allocated to the JVM [heap](https://www.elastic.co/guide/en/elasticsearch/reference/current/heap-size.html) (e.g. results caching, aggregations, etc.) As a result, it may result in resource contention of of the various systems resulting in instability of the whole setup.
+**Answer:** No. Elasticsearch will consume memory and file descriptors that is not allocated to the JVM [heap](https://www.elastic.co/guide/en/elasticsearch/reference/current/heap-size.html) (e.g. results caching, aggregations, etc.) As a result, it may result in resource contention of the various systems resulting in instability of the whole setup.
 
 **Question: Are Elasticsearch operations transactional?**
 

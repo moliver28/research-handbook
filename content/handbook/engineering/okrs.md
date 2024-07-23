@@ -3,38 +3,22 @@ aliases: /handbook/engineering/okrs
 title: Engineering OKRs
 ---
 
-
-
-
-
-
-
 Here is the [standard, company-wide process for OKRs](/handbook/company/okrs/). Engineering has some small deviations from (and extensions to) this process.
 
 ## Historical OKRs
 
-
-All of our past OKRs are available to the public [HERE](https://drive.google.com/drive/folders/1DjmchDg__B9uaQShOFDDSA9AA5HNb28c?usp=sharing).
-
+All of our [past OKRs are available internally](https://drive.google.com/drive/search?q=previous%20OKRs).
 
 ## Active OKRs FY24-Q2
 
 The source of truth for GitLab OKRs and KRs is [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=due_date&state=opened&assignee_username%5B%5D=joergheilig&label_name%5B%5D=OKR&milestone_title=FY24-Q2&first_page_size=50). CTO objectives and KRs are aligned to company OKRs on [this page](/handbook/company/okrs/fy24-q2/).
 
-
 ### 1. CTO: [Continue to win against GitHub with AI in all we do](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2231)
 
 1. **CTO KR**: [Enhanced Support offering ready for launch in Q3](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2429)
-1. **CTO KR**: [Experimental launch of Remote Development feature used by 10 team members to develop GitLab features](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2430)
+1. **CTO KR**: [Experimental launch of Workspaces feature used by 10 team members to develop GitLab features](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2430)
 1. **CTO KR**: [Create a foundation in support of rapid experimentation](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2432)
 1. **CTO KR**: [48 experimental, 16 beta, and 8 GA AI Assisted features delivered](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2433)
-
-
-
-
-
-
-
 
 ### 2. CTO: [Reducing churn and contraction](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2434)
 
@@ -43,30 +27,25 @@ The source of truth for GitLab OKRs and KRs is [GitLab](https://gitlab.com/gitla
 1. **CTO KR**: [Triage small fixes from Support, Quality, Sales, UX, Infrastructure for every sprint (shared objective between the above, Development and Product)](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2438)
 1. **CTO KR**: [Execute Pajamas Button Mass Migration for 560 Buttons](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2439)
 
-
 ### 3. CTO: [Make GitLab easier to do business with](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2440)
 
 1. **CTO KR**: [Cloud Licensing is internally enforced pre-sales for every renewal and new deal with <50 exceptions/quarter approved by McB(shared objective between Support and Sales)](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2441)
 1. **CTO KR**: [Reduce unplanned self-managed upgrade stops](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2442)
 
-
-
 ### 4. CTO: [Continue to build a diverse team of top talent that we retain and grow](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2443)
 
 1. **CTO KR**: [Refine the Engineering promotion process for IC levels (Staff+) to include structured cross functional feedback and allow us to remove gearing ratios without sacrificing rigor](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2444)
-1. **CTO KR**: [Team member check-ins completed with a growth plan in place with a focus on ensuring business continuity throughout FY’24](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2445)
+1. **CTO KR**: [Team member check-ins completed with a growth plan in place with a focus on ensuring business continuity throughout FY'24](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2445)
 1. **CTO KR**: [100% of Managers in Engineering complete the Neurodiversity short course in LevelUp](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2446)
-
 
 ### 5. CTO: [Engineering efficiency and foundations](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2448)
 
-1. **CTO KR**: [Cells on track to launch in Q4 of FY’25](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2450)
+1. **CTO KR**: [Cells on track to launch in Q4 of FY'25](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2450)
 1. **CTO KR**: [Overall hosting costs reduced by 5% from FY24Q1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2452)
 1. **CTO KR**: [Two horizontal foundational engineering efficiency initiatives funded and on track](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2453)
 1. **CTO KR**: [Master pipeline stability >95% and Merge Request pipeline duration <60 mins](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2454)
 1. **CTO KR**: [Make the Architecture Evolution Workflow so frictionless that it is used for 80% of new designs that take longer than 4 weeks to implement](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2455)
 1. **CTO KR**: [Rewrite Engineering Principles handbook page to reflect the current needs of the engineering organization better](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2456)
-
 
 ## OKRs that require Product to schedule work
 
@@ -94,17 +73,20 @@ We will use the following guidelines for consistency.
 
 1. Progress percentage is automatically updated based on child objectives or KRs.
 1. For manually updated percentages, ensure to include an explanation of how the percentage is calculated in the OKR description.
-  - The calculation can be simple "% of goal, 30 S2 bugs from <link>".
-  - Consider breaking down project or task KRs. For example, "10% gathering data, 20% analyzing data, 20% summary of data, 20% write proposal, 10% gather feedback, 20% decide and open epic with issues with work required".
+
+   - The calculation can be simple "% of goal, 30 S2 bugs from <link>".
+   - Consider breaking down project or task KRs. For example, "10% gathering data, 20% analyzing data, 20% summary of data, 20% write proposal, 10% gather feedback, 20% decide and open epic with issues with work required".
+
 1. For scoring KRs that apply to a **rate** (for instance, [MR rate](../metrics/#merge-request-rate)), we score them as follows:
-  - Take the initial rate before the quarter. For example, this is 10.
-  - Take the target rate at the end of the quarter. In this example, it is 17.
-  - Subtract initial rate and target rate to determine the target increase: 17 - 10 = 7.
-  - Each month, take that month's rate and calculate our progress towards the target independently. For example:
+
+   - Take the initial rate before the quarter. For example, this is 10.
+   - Take the target rate at the end of the quarter. In this example, it is 17.
+   - Subtract initial rate and target rate to determine the target increase: 17 - 10 = 7.
+   - Each month, take that month's rate and calculate our progress towards the target independently. For example:
       - Month 1: 12. The score is (12 - 10) / 7 = 2 / 7.
       - Month 2: 13. The score is (13 - 10) / 7 = 3 / 7.
       - Month 3: 15. The score is (15 - 10) / 7 = 5 / 7.
-  - Take the score for the month, divide it by three, and add it to the total score. In the above example:
+   - Take the score for the month, divide it by three, and add it to the total score. In the above example:
       - Month 1: 2 / 7 / 3 ~= 9.5%.
       - Month 2: 3 / 7 / 3 ~= 14%. Added to the previous month, the score is now 23.5%.
       - Month 3: 5 / 7 / 3 ~= 24%. Added to the previous months, the final score is 47.5%.

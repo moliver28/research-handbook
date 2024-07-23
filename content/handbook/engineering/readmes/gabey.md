@@ -1,12 +1,10 @@
 ---
-
 title: "README of Gabriel Yoachum"
 description: "Personal readme page for Gabriel Yoachum, Support Engineer, GitLab"
 job: "Support Engineer (EMEA)"
 ---
 
 ## Gabriel's README
-
 
 Hello, I am Gabriel, but you can also call me Gabe.
 
@@ -16,7 +14,6 @@ of those years.
 I'm also and avid cyclist and music lover. I love to cook and travel as much as possible.
 
 I speak English and Spanish and am currently working on picking up Dutch as well.
-
 
 ## Related
 

@@ -1,9 +1,9 @@
 ---
-
 title: DevOps Platform POV Scope and Acceptance
 description: DevOps Platform POV Scope and Acceptance
 ---
 
+Other DevOps Platform Resources: [Lab](https://gitlab.com/gitlab-learn-labs/sample-projects/tanuki-racing) | *Demo* | *Guided Trial* | **POV** | [Education Services](https://about.gitlab.com/services/education/git-fundamentals/) | [Professional Services](https://about.gitlab.com/services/)
 
 The platform value play will provide an overview of the DevOps Platform solution and the pain points it addresses across the enterprise instead of individual stages or silos, outline key quenstions you can ask to assess the customer's needs and identify the relevant aspects of the solution, and offer paths to other discussions of GitLab's value.
 

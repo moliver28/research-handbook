@@ -20,8 +20,7 @@ repositories, and user uploaded files.
 User experience, as well as contributors experience, with our file
 storage has room for significant improvement.
 
-- Initial GitLab setup experience requires creation and setup of [13
-  buckets](https://docs.gitlab.com/ee/administration/object_storage.html#storage-specific-configuration),
+- Initial GitLab setup experience requires creation and setup of [13 buckets](https://docs.gitlab.com/ee/administration/object_storage.html#storage-specific-configuration),
   instead of just 1.
 - Features using file storage require contributors to think about both local
   storage and Object Storage which leads to friction and
@@ -42,8 +41,7 @@ Improve SaaS scalability, reliability and development speed making
 sure object storage is available for every type of upload.
 
 Improve feature adoption for self-managed customers, providing a
-[single bucket
-configuration](https://gitlab.com/gitlab-org/gitlab/-/issues/292958)
+[single bucket configuration](https://gitlab.com/gitlab-org/gitlab/-/issues/292958)
 that works out of the box.
 
 Object storage is a key feature in GitLab that affects engineering
@@ -57,8 +55,7 @@ underlying implementation for shared, distributed, highly-available
 (HA) file storage.
 
 Over time, we have built support for object storage across the
-application, solving specific problems in [multitude of
-iterations](#company-efforts-on-uploads). This has led to increased
+application, solving specific problems in [multitude of iterations](#company-efforts-on-uploads). This has led to increased
 complexity across the board, from development (new features and bug
 fixes) to installation:
 
@@ -73,8 +70,7 @@ fixes) to installation:
   but never enabled globally.
 - Today GitLab supports both local storage and object storage. Local
   storage only works on single box installations or with a NFS, which
-  [we no longer
-  recommend](https://docs.gitlab.com/ee/administration/nfs.html)
+  [we no longer recommend](https://docs.gitlab.com/ee/administration/nfs.html)
   to our users and is no longer in use on GitLab.com.
 - Understanding all the moving parts and the flow is extremely
   complicated: we have CarrierWave, Fog, Golang S3/Azure SDKs, all
@@ -99,8 +95,7 @@ A gem that provides a simple and extremely flexible way to upload files from Rub
 
 A technology we developed to intercept file
 uploads with Workhorse and handle the expensive upload operation in
-Workhorse, where it's cheaper. See our [uploads development
-documentation](https://docs.gitlab.com/ee/development/uploads.html#)
+Workhorse, where it's cheaper. See our [uploads development documentation](https://docs.gitlab.com/ee/development/uploads/#)
 for more details.
 
 ### Kickoff video
@@ -114,22 +109,22 @@ The overarching goal should be to define improvements that can be made with the 
 
 - Document the status quo of Object Storage and classify its use by feature vertical and integration patterns,
   since we know there to be drift between features.
-    - [Categorize existing object storage buckets](https://gitlab.com/gitlab-org/gitlab/-/issues/345282)
-    - [Describe the current state of Object Storage implementation](https://gitlab.com/gitlab-org/gitlab/-/issues/351213)
+  - [Categorize existing object storage buckets](https://gitlab.com/gitlab-org/gitlab/-/issues/345282)
+  - [Describe the current state of Object Storage implementation](https://gitlab.com/gitlab-org/gitlab/-/issues/351213)
 - Outline a path forward by designing a new simplified architecture for Object Storage. Identify high-level steps we need to take for that architecture to be realized.
-    - [Requirements for a the new Object Storage architecture](https://gitlab.com/gitlab-org/gitlab/-/issues/345256)
-    - [Proposal: unified blob storage](https://gitlab.com/gitlab-org/gitlab/-/issues/356035)
-    - [Object Storage: storing attachments without carrierwave](https://gitlab.com/gitlab-org/gitlab/-/issues/348959)
+  - [Requirements for a the new Object Storage architecture](https://gitlab.com/gitlab-org/gitlab/-/issues/345256)
+  - [Proposal: unified blob storage](https://gitlab.com/gitlab-org/gitlab/-/issues/356035)
+  - [Object Storage: storing attachments without carrierwave](https://gitlab.com/gitlab-org/gitlab/-/issues/348959)
 - Prototype individual aspects of the proposed architecture by exploring both new technology such as ActiveStorage, or by reworking
   existing code.
-    - [Document and refactor Workhorse upload routines](https://gitlab.com/gitlab-org/gitlab/-/issues/351657)
-    - [POC: single authorization endpoint](https://gitlab.com/gitlab-org/gitlab/-/issues/351650)
-    - [POC: ActiveStorage experiment](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/79012)
+  - [Document and refactor Workhorse upload routines](https://gitlab.com/gitlab-org/gitlab/-/issues/351657)
+  - [POC: single authorization endpoint](https://gitlab.com/gitlab-org/gitlab/-/issues/351650)
+  - [POC: ActiveStorage experiment](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/79012)
 - Identify features and configuration that should be deprecated to reduce the maintenance complexity.
-    - [Deprecate background upload](https://gitlab.com/gitlab-org/gitlab/-/issues/26600)
-    - [Object Storage: remove background upload](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/734)
-    - [Evaluate deprecation and removal of the Pseudonymizer](https://gitlab.com/gitlab-org/gitlab/-/issues/348400)
-    - [Deprecate and remove Pseudonymizer](https://gitlab.com/gitlab-org/gitlab/-/issues/219952)
+  - [Deprecate background upload](https://gitlab.com/gitlab-org/gitlab/-/issues/26600)
+  - [Object Storage: remove background upload](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/734)
+  - [Evaluate deprecation and removal of the Pseudonymizer](https://gitlab.com/gitlab-org/gitlab/-/issues/348400)
+  - [Deprecate and remove Pseudonymizer](https://gitlab.com/gitlab-org/gitlab/-/issues/219952)
 
 ## Out of scope
 
@@ -149,8 +144,7 @@ implementation and being able to speak a common language.
 
 The working group led an effort to collect and categorize all the
 usages of object storage in the product with the result of building a
-shared understanding of the problem, producing a renewed [Uploads
-Development Guide](https://docs.gitlab.com/ee/development/uploads/), and
+shared understanding of the problem, producing a renewed [Uploads Development Guide](https://docs.gitlab.com/ee/development/uploads/), and
 removing features such as Pseudonomyzer and background uploads.
 
 Consolidating object storage files into a single bucket and removing
@@ -161,8 +155,7 @@ cross-department decisions that do not fit the working group's
 scope. As a first iteration, the working group members addressed how
 to reduce code complexity by focussing on technological challenges.
 
-The creation of the [scalability frameworks
-team](/handbook/engineering/infrastructure/team/scalability/#scalabilityframeworks)
+The creation of the [scalability frameworks team](/handbook/engineering/infrastructure/team/scalability/#scalabilityframeworks)
 during this working group execution provided a perfect partner to give
 continuity to this effort.  Epic
 [gitlab-com/gl-infra&733](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/733)

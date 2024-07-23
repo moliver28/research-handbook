@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab for Startups Program Workflows"
 description: "Details on program-specific workflows related to the GitLab for Startups Program"
 ---
@@ -52,7 +51,7 @@ Here are some common workflows associated with managing the program, including q
 
 ### Review application within Zendesk "Startups" view
 
-Scenario: User did not submit complete application  
+Scenario: User did not submit complete application
 
 In **Zendesk**:
 
@@ -96,7 +95,7 @@ In **Zendesk**:
 Then, in **Salesforce**:
 
 1. Open lead / contact in the Zendesk ticket
-2. Ctrl+F to find "Startups Program Status" 
+2. Ctrl+F to find "Startups Program Status"
 3. Change to "Qualified" Early Y1
 4. Convert the Lead to an Opp
 5. Rename the Opportunity as `Customer Name, Seats, License Type, Startups - Early - Y(1)`

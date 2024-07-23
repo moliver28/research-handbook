@@ -12,7 +12,7 @@ Read more about this role in the [Data Analytics Handbook Page](/handbook/busine
 - Explain trends across data sources, potential opportunities for growth or improvement, and data caveats for descriptive, diagnostic, predictive (including forecasting), and prescriptive data analysis
 - Understand and document the full lifecycle of data in our [Data Catalog](/handbook/business-technology/data-team/data-catalog/) so data can be efficiently integrated, modeled, and analyzed
 - Develop new [Trusted Data Tests](/handbook/business-technology/data-team/platform/dbt-guide/#trusted-data-framework) to expand test coverage for the [Enterprise Data Warehouse](/handbook/business-technology/data-team/platform/edw/)
-- Document every action in either issue/MR templates, the [handbook](https://about.gitlab.com/handbook/), or READMEs so your learnings turn into repeatable actions and then into automation following the GitLab tradition of [handbook first!](/handbook/handbook-usage/#why-handbook-first)
+- Document every action in either issue/MR templates, the [handbook](/handbook/), or READMEs so your learnings turn into repeatable actions and then into automation following the GitLab tradition of [handbook first!](/handbook/about/handbook-usage/#why-handbook-first)
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale database environment. Maintain and advocate for these standards through code review
 - Follow and improve our processes and workflows for maintaining high quality data and reporting while implementing the [DataOps](https://en.wikipedia.org/wiki/DataOps) philosophy in everything you do
 
@@ -126,7 +126,7 @@ The responsibilities of the Senior Data Analyst extend the Data Analyst (Interme
 The requirements of the Senior Data Analyst extend the Data Analyst (Intermediate) role and include:
 
 - 6+ years experience in an analytics role or equivalent experience/training
-- Fluent in all Data Analysis technologies defined in in the [Data Team Platform](/handbook/business-technology/data-team/platform/)
+- Fluent in all Data Analysis technologies defined in the [Data Team Platform](/handbook/business-technology/data-team/platform/)
 - Recognized expert in SQL, Data Visualization and Business Intelligence
 - Own and maintain one or more sections of the [Data Catalog](/handbook/business-technology/data-team/data-catalog/)
 - Own and maintain one or more sections of the [Trusted Data Framework](/handbook/business-technology/data-team/platform/dbt-guide/#trusted-data-framework)  for a specified Trusted Model
@@ -170,7 +170,7 @@ The requirements of the Staff Data Analyst extend the Senior Data Analyst role a
 - Installs, configures, administers, and troubleshoots BI software environments in order to achieve reliable, highly available, well performing systems.
 - Provides direct technical support to BI user community, triages and engages support of appropriate personnel when needed or BI technical support is not sufficient. Performs and streamlines functions such as managing user and system accounts, network rights and access to BI, analytical and related integrated systems.
 - Creates and maintains documentation, standards and policies for the form, structure and attributes of the BI applications and systems.
-- Defines and leads training seminars and other educational activities for the organization’s BI user community.
+- Defines and leads training seminars and other educational activities for the organization's BI user community.
 - Identifies and documents best practices and makes recommendations for standards improvements.
 - Manages user provisioning & permissions
 
@@ -229,7 +229,7 @@ The requirements of the Staff Data Analyst extend the Senior Data Analyst role a
 
 ### People
 
-- Coordinate and support the People function by automating all reports from Greenhouse, BambooHR, and Google Sheets into reporting dashboards.
+- Coordinate and support the People function by automating all reports from Greenhouse, Workday, and Google Sheets into reporting dashboards.
 - Focus on cross-functional analysis to help other departments identify opportunities for improvement within their recruiting, hiring, and retention policies.
 
 ## Performance Indicators (PI)

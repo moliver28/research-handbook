@@ -7,12 +7,12 @@ description: "The GitLab Verify:Pipeline Security Group Handbook page"
 
 We provide security in the software supply chain process, ensuring the right level of visibility to pipelines and jobs. This enables organizations to operate their CI pipelines securely.
 
-Our team is responsible for devliering on the following categories:
+Our team is responsible for delivering on the following categories:
 
 - [Build Artifacts](https://about.gitlab.com/direction/verify/build_artifacts/)
-- [Secrets Management](https://about.gitlab.com/direction/verify/secrets_management/)
+- [Secrets Management](https://about.gitlab.com/direction/govern/secrets_management/)
 
-The current and planned category maturity can be found on the [Maturity page](https://about.gitlab.com/direction/maturity/#verify).
+The current and planned category maturity can be found on the [Maturity page](https://about.gitlab.com/direction/#maturity).
 
 ## Mission
 
@@ -25,7 +25,7 @@ We measure the value we contribute by using a [Product Performance Indicator](/h
 
 ### Error Budgets
 
-As part of the [FY22 SaaS First](https://about.gitlab.com/direction/#saas-first) investment theme and our committment to building a reliable service we use error budgets to track availability and help guide how much investment we make milestone to milestone in reliability. More information is shared on the [Ops Section Performance Indicators (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verify-verifytesting---error-budget-for-gitlabcom).
+As part of the [FY22 SaaS First](https://about.gitlab.com/direction/#saas-first) investment theme and our commitment to building a reliable service we use error budgets to track availability and help guide how much investment we make milestone to milestone in reliability. More information is shared on the [Ops Section Performance Indicators (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verify-verifytesting---error-budget-for-gitlabcom).
 
 ## Team Members
 
@@ -85,7 +85,7 @@ Our active feature flags can be found on the [feature flag dashboard](https://10
 
 #### General planning
 
-Our team does not use [Quad-Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) because we do not have an assigned Software Engineer in Test. Intead we deploy a "tripod" approach where PM, EM, and UX work together to plan at least three milestones worth of work at a high level. During planning, the PM sets the general direction for the team and works with the EM to ensure the team's plans are ambitious, yet achievable based on the team's capacity. This ensures checks and balances during the planning discussions to minimize carryover and ensure engineering priorities are addressed along with feature priories in the roadmap. UX will work with PM to ensure research and design issue are ready in time for implementation. Planning is mostly asynchoronous via the release planning issue (see below), with additional discussion during weekly 1:1 sessions and team meetings as needed. This tripod approach allows us to address dependencies early on and ensure Design and Engineering are aligned on our product roadmap.
+Our team does not use [Quad-Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) because we do not have an assigned Software Engineer in Test. Instead we deploy a "tripod" approach where PM, EM, and UX work together to plan at least three milestones worth of work at a high level. During planning, the PM sets the general direction for the team and works with the EM to ensure the team's plans are ambitious, yet achievable based on the team's capacity. This ensures checks and balances during the planning discussions to minimize carryover and ensure engineering priorities are addressed along with feature priories in the roadmap. UX will work with PM to ensure research and design issue are ready in time for implementation. Planning is mostly asynchronous via the release planning issue (see below), with additional discussion during weekly 1:1 sessions and team meetings as needed. This tripod approach allows us to address dependencies early on and ensure Design and Engineering are aligned on our product roadmap.
 
 #### Release planning issue
 
@@ -105,6 +105,7 @@ The intention of this phased process is to enable agile planning and reduce the 
 #### Issue weight system
 
 An issue weight is determined based on the complexity in the following criteria:
+
 - Code change - How difficult is it to make the required code changes?
 - Interaction and dependency on other teams - How much interaction with other teams are needed?
 - Path to production - What needs to be done to get the code changes safely in production (e.g feature flag, backward compatibility, etc)?
@@ -136,7 +137,7 @@ In the process of refinement we may discover a new feature will require a [bluep
 
 When possible, the assigned team member is encouraged to schedule synchronous time with another developer to pair on the investigation and publishing of the results (Example Technical Investigation issue [gitlab#336617](https://gitlab.com/gitlab-org/gitlab/-/issues/336617)). By default Technical Investigation issues are weighted at a 2 and we timebox them to 3 business days from start to presentation of data. Team members may change this weight and/or time frame at their discretion.
 
-We limit the number of of technical investigation issues assigned in each milestone to two so that we can maintain overall velocity and [MR Rate](../engineering/metrics/#merge-request-rate).
+We limit the number of technical investigation issues assigned in each milestone to two so that we can maintain overall velocity and [MR Rate](../engineering/metrics/#merge-request-rate).
 
 #### Splitting issues
 
@@ -156,7 +157,7 @@ If an issue has several components (e.g. ~frontend, ~backend, or ~documentation)
 
 The [Pipeline Security group Error Budget dashboard](https://dashboards.gitlab.net/d/stage-groups-pipeline_security/stage-groups-pipeline-security-group-dashboard?orgId=1) is used to identify issues that are contributing to the Pipeline Security group's error budget spend.
 
-The engineering manager will review the error budget dashboard weekly to determine whether we're exceeding our budget, determine what (if anything) is contributing to our error budget spend, and create issues addressing root cause for product manager prioritization. Issues created to address error budget spend should be created using appropriate labels and prioritized according to our [technical debt process](#prioritizing-technical-debt). Other issues may be created as a result of the [Ops Section SaaS Reviews](/handbook/product/performance-indicators/#verify-verifytesting---error-budget-for-gitlabcom) and also prioritized using the technical debt process.
+The engineering manager will review the error budget dashboard weekly to determine whether we're exceeding our budget, determine what (if anything) is contributing to our error budget spend, and create issues addressing root cause for product manager prioritization. Issues created to address error budget spend should be created using appropriate labels and prioritized according to our [technical debt process](#prioritizing-technical-debt-and-deferred-ux). Other issues may be created as a result of the [Ops Section SaaS Reviews](/handbook/product/performance-indicators/#verify-verifytesting---error-budget-for-gitlabcom) and also prioritized using the technical debt process.
 
 #### Prioritizing technical debt and deferred UX
 
@@ -205,6 +206,7 @@ Unless specifically mentioned below, the Verify:Pipeline Security group follows 
 Verify:Pipeline Security team members are encouraged to start looking for work starting **_Right to left_** on [our milestone board](https://gitlab.com/groups/gitlab-org/-/boards/364216?label_name[]=group%3A%3Apipeline%20security&milestone_title=Started). This is also known as _"Pulling from the right"_. If there is an issue that a team member can help along on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to if they feel that they can add value and help move the issue along the board.
 
 Specifically this means, in order:
+
 - Doing verification that code has made it to staging, canary, or production
 - Conducting code reviews on issues that are `workflow::in review`
 - Unblocking anyone in the `workflow::in development` column
@@ -248,7 +250,7 @@ For iterations on features behind feature flags, even when the changes won't be 
 
 - **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-12#work-is-like-a-hill).
 - **Needs Attention** - There are concerns, new complexity, or unanswered questions that if left unattended will result in the issue missing its targeted release. Collaboration needed to get back `On Track` within the week.
-   - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
+  - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
 - **At Risk** - The issue in its current state will not make the planned release and immediate action is needed to get it back to `On Track` today.
   - If you are moving an item into this status please consider posting in the [#g_pipeline-security](https://gitlab.slack.com/archives/CPANF553J) channel in slack. Try to include anything that can be done to unstick the item so that it can get back to an `On Track` status in your message.
   - Note: It is possible that there is nothing to be done that can get the item back on track in the current milestone. If that is the case please let your manager know as soon as you are aware of this.
@@ -314,7 +316,6 @@ We want to create a welcoming environment for everyone who is interested in cont
 
 If an issue is being resolved in a merge request that is made by a [community contributor](https://about.gitlab.com/community/contribute/), the engineering manager will assign the associated issue to themselves to keep better track of it. The engineering manager will help to coach the community contributor through the merge request process, or be responsible for delegating that coaching to a team member engineer.
 
-
 ### Labels
 
 #### Category Labels
@@ -323,7 +324,7 @@ The Pipeline Security group supports the product marketing categories described 
 
 | Label                 | |  | | |
 | ----------------------| -------| ----|------------| ---|
-| `Category:Secrets Management` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secrets+Management) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecrets%20Management) | [Direction](https://about.gitlab.com/direction/verify/secrets_management/) | [Documentation](https://docs.gitlab.com/ee/ci/secrets/index.html) |
+| `Category:Secrets Management` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secrets+Management) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecrets%20Management) | [Direction](https://about.gitlab.com/direction/govern/secrets_management/) | [Documentation](https://docs.gitlab.com/ee/ci/secrets/index.html) |
 | `Category:Build Artifacts` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Build+Artifacts) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ABuild%20Artifacts) | [Direction](https://about.gitlab.com/direction/verify/build_artifacts/) | [Documentation](https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html) |
 
 #### Feature Labels
@@ -344,6 +345,7 @@ This synchronous meeting is to discuss anything that is blocking, or notable fro
 #### Async Daily Standups
 
 We use [geekbot](https://geekbot.com/) integrated with Slack for our daily async standup. The purpose of the daily standup meeting is to keep the team informed about what everyone is working on, and to surface blockers so we can eliminate them. The standup bot will run at 10am in the team members local time and ask 2 questions:
+
 1. What will you do today?
 1. Anything blocking your progress?
 

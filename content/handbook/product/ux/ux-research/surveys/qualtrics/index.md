@@ -18,7 +18,7 @@ description: "How to use Qualtrics at GitLab to run surveys"
     - `Collaborate` - Allows you to share your survey with another Qualtrics user so you can edit it and/or analyze the results together.
     - `Spell check` - Supports English (US) only.
     - `Generate test responses` - Generate automated dummy responses for your survey to see what the dataset and report will look like before sending the survey to actual participants.
-    - `Check survey accessibility` - Determine whether your survey is accessible for respondents who use screen readers, and receive suggestions for improving your survey’s accessibility.
+    - `Check survey accessibility` - Determine whether your survey is accessible for respondents who use screen readers, and receive suggestions for improving your survey's accessibility.
     - `Analyze Survey` - Open [ExpertReview's](https://www.qualtrics.com/support/survey-platform/survey-module/survey-checker/quality-iq-functionality/) suggestions for your survey.
     - `Import/export survey` - From/to a QSF, TXT or DOC file.
 1. When you have finished building your survey, `Preview` it to ensure that everything is working the way you expect it to.
@@ -27,6 +27,7 @@ description: "How to use Qualtrics at GitLab to run surveys"
 ## Styling (Look & Feel settings)
 
 The following settings should be applied to your survey:
+
 1. Theme: Blank
 1. Layout: Modern
 1. General
@@ -59,9 +60,9 @@ The following settings should be applied to your survey:
 
 Distributing a survey on social media is a great way to quickly expand your audience, reducing the time and cost of research. However, be aware that **surveys shared on social media are often targeted by bots or fake participants** to submit dozens or hundreds of responses in a short amount of time, [affecting the integrity of the data](https://europepmc.org/article/MED/25846043). **This especially affects surveys with rewards.**
 
-Some bots are more sophisticated than others. For example, basic bots will “speed” through the survey or provide illogical responses to open-ended questions; more sophisticated bots will intentionally take more time to complete the survey or even use language from the survey itself to compose logical responses to open-ended questions.
+Some bots are more sophisticated than others. For example, basic bots will "speed" through the survey or provide illogical responses to open-ended questions; more sophisticated bots will intentionally take more time to complete the survey or even use language from the survey itself to compose logical responses to open-ended questions.
 
-There are [multiple things](/handbook/product/ux/ux-research/surveys/how-to-identify-low-quality-data-when-designing-and-reviewing-your-survey/) you can do to prevent or filter out *most of these responses*. We say “most of these responses” because the only true way to avoid spam in your surveys is to not share them on social media but rather to [send email survey invitations with individual links](https://www.qualtrics.com/support/survey-platform/distributions-module/email-distribution/emails-overview/#UnderstandingTheIndividualLink) that can only be used once, leveraging resources such as [Marketo or the Data Warehouse](/handbook/product/ux/ux-research-coordination/recruitment-methods) to contact targeted sets of GitLab users we have on file.
+There are [multiple things](/handbook/product/ux/ux-research/surveys/how-to-identify-low-quality-data-when-designing-and-reviewing-your-survey/) you can do to prevent or filter out *most of these responses*. We say "most of these responses" because the only true way to avoid spam in your surveys is to not share them on social media but rather to [send email survey invitations with individual links](https://www.qualtrics.com/support/survey-platform/distributions-module/email-distribution/emails-overview/#UnderstandingTheIndividualLink) that can only be used once, leveraging resources such as [Marketo or the Data Warehouse](/handbook/product/ux/ux-research-coordination/recruitment-methods) to contact targeted sets of GitLab users we have on file.
 
 ### Prevent spam responses before sharing the survey
 
@@ -69,8 +70,8 @@ Before sharing your survey, use the following approaches to prevent bots and fak
 
 - Add a [captcha question](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/captcha-verification/) at the beginning of the survey.
 - Enable all [fraud detection features](https://www.qualtrics.com/support/survey-platform/survey-module/survey-checker/fraud-detection/): Prevent multiple submissions, Bot detection, Security scan monitor, and RelevantID.
-- Add a “honeypot” question, a question hidden from humans but “visible” to bots. Some bots will answer this question, allowing you to screen them out or filter out their responses.
-   1. Add an **optional** single-choice question (checkbox) somewhere in your survey. The question and location is not relevant as it will be hidden from humans. For example, “Are you human?” `[ ] Yes`.
+- Add a "honeypot" question, a question hidden from humans but "visible" to bots. Some bots will answer this question, allowing you to screen them out or filter out their responses.
+   1. Add an **optional** single-choice question (checkbox) somewhere in your survey. The question and location is not relevant as it will be hidden from humans. For example, "Are you human?" `[ ] Yes`.
    1. [Add the following JavaScript](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/add-javascript/) to that question, by replacing the existing `Qualtrics.SurveyEngine.addOnload` function:
 
       ```js
@@ -82,7 +83,7 @@ Before sharing your survey, use the following approaches to prevent bots and fak
 
    1. Preview the survey to check that the question is hidden when the page loads.
 - Add a **required** choice question that checks respondent's attention and logic. For example, directly state which answer they should choose or ask which year it is.
-- Add illogical options to multiple-choice questions. For example, in the question “Which of these tools do you use for code review?” add an illogical option like `[ ] Tanuki Code`.
+- Add illogical options to multiple-choice questions. For example, in the question "Which of these tools do you use for code review?" add an illogical option like `[ ] Tanuki Code`.
 - Ask the same **required** question at two separate points of the survey. Try to use a simple multiple-choice question that people can easily answer. For example, their job title or their team size.
 - For all three question types above, if you want to screen out respondents based on their answers, see the **Branching Respondents Out of the Survey** section under the [Screening Out Respondents in the Survey Flow](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/advanced-elements/screen-out-management/#ScreeningOutRespondentsInTheSurveyFlow) section. After adding the survey flow logic described in that section, you can then decide to just [flag those responses](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/advanced-elements/screen-out-management/#FlaggingScreenedOutResponses) for later analysis or [immediately discard them](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/advanced-elements/screen-out-management/#DiscardingScreenedOutResponses).
 
@@ -94,7 +95,7 @@ After closing your survey, its now time to see how much the prevention measures 
 
 - View the [Response Quality](https://www.qualtrics.com/support/survey-platform/data-and-analysis-module/data/response-quality-functionality/#ViewingResponseQuality) report and [filter out responses](https://www.qualtrics.com/support/survey-platform/data-and-analysis-module/data/response-quality-functionality/#FilteringResponsesbyIssue).
 - Check for illogical responses to open-ended questions, if applicable.
-- Check for respondents who complete your survey too quickly. The Response Quality feature attempts to [flag “speeder” responses](https://www.qualtrics.com/support/survey-platform/survey-module/survey-checker/response-quality/#Speeders) but it only works for surveys with at least 100 responses.
+- Check for respondents who complete your survey too quickly. The Response Quality feature attempts to [flag "speeder" responses](https://www.qualtrics.com/support/survey-platform/survey-module/survey-checker/response-quality/#Speeders) but it only works for surveys with at least 100 responses.
 - Check for duplicate email addresses, if applicable. Also pay attention to `@aol.com`, `@yahoo.com`, and `@hotmail.com` email addresses that are frequently used to spam surveys.
 
 ### Embedded data
@@ -158,7 +159,7 @@ When users sign-up to GitLab First Look, we automatically collect the following 
 
 - Something missing from this list? Let Caitlin know and she will get it added!
 - When using an `Embedded Data Value` Qualtrics doesn't automatically auto-complete the value as you begin typing it. The search functionality can also be haphazard. Therefore, ensure you type out the value in full, as it is displayed above.
-- Embedded data fields used to be case-sensitive. For the vast majority of Qualtrics' users, embedded data is no longer case-sensitive, meaning “test” and “Test” would be treated as the same field. However, Qualtrics still advise matching cases as a best practice, as there are a small portion of accounts where this change has not been made.
+- Embedded data fields used to be case-sensitive. For the vast majority of Qualtrics' users, embedded data is no longer case-sensitive, meaning "test" and "Test" would be treated as the same field. However, Qualtrics still advise matching cases as a best practice, as there are a small portion of accounts where this change has not been made.
 - Not all Embedded Data Values were created at the point of GitLab's First Look creation. Therefore, we don't necessarily have completed values for every user. It's also worth noting that some values for users may change over time. For example, someone may change jobs which may impact their job title, organisation and team size. Therefore, there may be some discrepancies in the information we hold about users. We plan to reduce this risk by periodically asking members of GitLab First Look to check and, where necessary, update the information we have on file for them.
 
 ### What to do if your sample size is lower than expected
@@ -166,9 +167,10 @@ When users sign-up to GitLab First Look, we automatically collect the following 
 **Note: These instructions are only applicable to UX Researchers and Research Coordinators.**
 
 There could be a couple of reasons why your sample number is lower than expected:
+
 1. The contact frequency for GitLab First Look has been exhausted. By default, no member of GitLab First Look receives an email more than once a week or four times a month. If this is the case, you will need to either delay sending your survey (you may only need to delay sending your survey by a day - reach out to the UX Research Coordinator for confirmation) or source users outside of the GitLab First Look panel.
-1. There aren’t enough GitLab First Look members that match your sampling criteria.
-1. There’s an error in your sampling criteria.
+1. There aren't enough GitLab First Look members that match your sampling criteria.
+1. There's an error in your sampling criteria.
 
 - For options 2 and 3, navigate to your sample and click `List options`, select `Edit sample` to change your sampling criteria.
 
@@ -222,6 +224,7 @@ UX Research Coordinators occasionally receive requests to remove a contact from 
 UX Research Coordinators, or other team members with Qualtrics Brand Administrator access, must remove contacts on a global level to prevent them from receiving future emails.
 
 To remove a contact from your directory:
+
 1. Log into your Qualtrics account
 1. Click on the Contacts tab on the top right
 1. Click on Directory Contacts
