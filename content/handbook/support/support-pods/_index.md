@@ -17,6 +17,12 @@ complex business and customer needs.
 For information on how you can integrate Support Pods into your workflows, visit the
 [Working with Support Pods workflow page](/handbook/support/workflows/working-with-pods).
 
+## Naming
+
+`Support Pods` is the formal name of this initiative and should be referred to as such in formal
+written or verbal communication. This is to avoid confusion and ambiguity as there are many
+different uses of the word `pod` in the GitLab context.
+
 ## Starting a Support Pod
 
 ### Before starting
@@ -102,6 +108,23 @@ If creating a new channel, consider prefixing your channel with `#spt-pod_`.
 
 If you will be conducting pod specific pairing sessions in the channel, [Pairify](/handbook/support/workflows/pairify/)
 support can be added to the new channel by requesting this in `[#pairify-app](https://gitlab.enterprise.slack.com/archives/C06LG9NBSUX)`.
+
+## Improving Support Pods by identifying and actioning on gaps
+
+To address issues, it will be necessary to identify areas of concern within a Support Pod or
+distribution of expertise.
+
+There are many ways to identify possible gaps or issues. Though the most important part of the
+process is to decide how to take action on them.
+
+This is a non-exhaustive list that leads have completed with success:
+
+1. [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis)
+   - Action: Create issues for "Threats" and "Weaknesses". Assign DRIs to resolve.
+1. Analysis of expertise across SGGs. [Example for Auth](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4920).
+   - Action: May vary, such as invite a base number per SGG to join the Support Pod, or targeted number open traning modules.
+1. Collect list of pain points from Support team members through a chosen method, such as a survey.
+   - Action: Analyze the list for actionable points. Create issues for each, and assign DRIs to resolve.
 
 ## Historical context
 
