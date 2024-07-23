@@ -71,7 +71,7 @@ See more detailed instructions for this process here: <https://gitlab.com/gitlab
 
 #### RubyMine Debugging
 
-**_MOVED: Ths section on debugging the GDK with the RubyMine debugger has been moved to https://handbook.gitlab.com/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/individual-ides/rubymine/#debugging-rails-web**
+**_MOVED: Ths section on debugging the GDK with the RubyMine debugger has been moved to <https://handbook.gitlab.com/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/individual-ides/rubymine/#debugging-rails-web>_**
 
 ## Git Tips
 
@@ -103,14 +103,85 @@ Note there may be more efficient ways of doing this, suggestions are welcome. Al
 Assuming branch is named `branch` and upstream is named `master`:
 
 1. Do a log of all the commits on the branch: `git log master..branch --oneline`
-1. Find the last (latest) commit on the branch. It will be the top one, assume it is `123456`.
-1. Find the first (earliest) commit on the branch. It will be the bottom one, assume it is `abcdef`.
-1. Reset hard to the first commit: `git reset --hard abcdef`
-1. `merge --squash` the last commit: `git merge --squash 123456`
-1. There may be extra changes from the master commits that you don't want. Get rid of them with:
+1. Find the last (latest) commit on the branch. It will be the top one, assume it is `c60ed83`.
+1. Find the commit on the branch which is _IMMEDIATELY BEFORE_ the merge commit.
+   1. You can run `git log --graph --oneline --decorate` on your branch to find the merge commit - the merge commit will likely have a commit message like
+      "resoove merge conflicts".
+   1. Follow the "line" of your branch down and find the commit on your branch _immediately before_ the merge commit.
+   1. Here's an example of what this would look like. In this example, `c36ee33` is the merge commit, and `b48156a` is the commit immediately before it.
+      In a real terminal, the lines will also be different colors, to make this easier to read.
+
+      ```text
+      * c60ed83 (HEAD -> caw-investigate-rebase-conflicts, origin/caw-investigate-rebase-conflicts) chore: fix vue
+      * a5269d6 chore: fix vue
+      * b3941ad chore: fix previous commits
+      *   c36ee33 chore: resolve conflicts
+      |\
+      | *   a13f09e (origin/llb/conditionally-load-legacy-web-ide-scripts) Merge branch 'removeRemoteFromExample' into 'main'
+      | |\
+      | | * a5144c2 chore: Remove "Remote Development" mode from the example app
+      | |/
+      | *   c33f00c Merge branch 'cwoolley-gitlab-main-patch-d6cd' into 'main'
+      | |\
+      | | * fcfb4a1 (origin/cwoolley-gitlab-main-patch-d6cd, cwoolley-gitlab-main-patch-d6cd) chore: Update file Default.md
+      | * |   e97eeec Merge branch 'replaceLogger' into 'main'
+      | |\ \
+      | | * | 8d48c3e chore: Replace console.log reference with actual logger
+      | * | |   60be327 Merge branch 'rename-group-ide-label' into 'main'
+      | |\ \ \
+      | | |_|/
+      | |/| |
+      | | * | 90ac565 chore: Rename group::ide to "group::remote development"
+      | |/ /
+      | * |   0b89422 (origin/365-make-vscode-loglevel-configurable-2, origin/365-make-vscode-loglevel-configurable) Merge branch 'dp-remove-remote-repository' into 'main'
+      | |\ \
+      | | |/
+      | |/|
+      | | * fc374f0 feat: Remove "Configure a Remote Connection" command
+      | |/
+      | *   522f9b9 Merge branch 'updateCommit' into 'main'
+      | |\
+      | | * 9a99045 feat: update copy for committing to new branch
+      | * |   e6a542f Merge branch 'ealcantara/web-ide-development-process-issue-template' into 'main'
+      | |\ \
+      | | |/
+      | |/|
+      | | * a520ee4 (origin/ealcantara/web-ide-development-process-issue-template) chore: Web IDE development process issue template
+      * | | b48156a chore: fix waitForReady
+      * | | 3f4bae3 chore: ran prettier
+      * | | bc990b1 chore: remove with erroneous configType
+      * | | 75ad9f0 chore: fix errors
+      ...
+      ...
+      ```
+
+   1. Copy the SHA of that commit which is _immediately before_ the merge commit. For this example, we'll assume its `b48156a`
+1. Reset hard to the commit before your merge commit: `git reset --hard b48156a`
+1. `merge --squash` the last commit: `git merge --squash c60ed83`
+1. Now, if you run `git log --graph --oneline --decorate` again, you will see that
+   **the merge commit and all the commits after it have been replaced with a single normal, non-merge commit**.
+   Here's an example of what the above log looks like after doing this:
+
+   ```text
+   * b48156a (HEAD -> caw-investigate-rebase-conflicts) chore: fix waitForReady
+   * 3f4bae3 chore: ran prettier
+   * bc990b1 chore: remove with erroneous configType
+   * 75ad9f0 chore: fix errors
+   ...
+   ...
+   ```
+
+1. If there were other merge commits, get rid of them using the same steps.
+1. NOTE: In some cases, after the squash, there may be extra changes from the master commits that you don't want. Get rid of them with:
     1. `git restore --staged .`
     1. `git checkout .`
     1. `git clean -df`
+
+Now, you should be able to use `rebase` and `rebase --interactive` normally on your branch.
+
+If you want to try this out yourself with the above example, you can check out
+[this branch](https://gitlab.com/gitlab-org/gitlab-web-ide/-/tree/caw-investigate-rebase-conflicts?ref_type=heads)
+(just don't push it back to the repo).
 
 ## Working with Issues/MRs
 
@@ -157,4 +228,4 @@ Some frontendmasters workshops related to testing that I want to take after the 
 
 ## Jetbrains IDE Usage
 
-**_MOVED: There is now a dedicated handbook section on JetBrains IDEs: https://handbook.gitlab.com/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/_**
+**_MOVED: There is now a dedicated handbook section on JetBrains IDEs: <https://handbook.gitlab.com/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/>_**
