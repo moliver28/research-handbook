@@ -60,7 +60,7 @@ For example, we should have one SSoT for how to articulate the value of GitLab.
 
 Some competencies are based on job-level and others are based on your role.
 
-Values competencies are defined by job-level. For example, the definition of competency in the GitLab value of iteration and how you demonstrate that competency are different whether you are an Intermediate Product Manager or a Chief Product Officer.
+Values competencies are defined by job-level. For example, the definition of competency in the GitLab value of iteration and how you demonstrate that competency are different whether you are a Product Manager or a Chief Product Officer.
 
 In general, the scope of impact and expected behaviors expands as job level increases.
 

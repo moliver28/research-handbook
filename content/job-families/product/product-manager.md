@@ -118,7 +118,7 @@ It is not sufficient to just know the problems. It is also insufficient to have 
 
 The job families are the single-source-of-truth (SSoT) for our job responsibilities related to career paths. For more information on how GitLab Product Management thinks about the growth and development through these different roles, see the [Career Development Framework](/handbook/product/product-manager-role/product-cdf-competencies/).
 
-### Intermediate Product Manager
+### Product Manager
 
 Product managers are expected to know their product domain and support the processes or ceremonies of planning of product development at GitLab. They are expected to prioritize and manage their products with some guidance from leadership or other product team members and may even have a mentor or Senior Product Manager assigned as a counterpart to support.
 
