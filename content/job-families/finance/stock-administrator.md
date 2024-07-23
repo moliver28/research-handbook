@@ -46,7 +46,7 @@ The Senior Stock Administrator is a [grade 7](/handbook/total-rewards/compensati
 #### Senior Stock Administrator Responsibilities
 
 - Support day-to-day administration of the company's equity programs, including processing new equity awards, exercises, cancellations and repurchases.
-- Maintain data in Carta online database to ensure accuracy of participant information.
+- Maintain data in Equity Edge Online/E*TRADE online database to ensure accuracy of participant information.
 - Respond to employee inquiries regarding equity programs and education while providing excellent service to plan participants at all levels.
 - Collaborate with PeopleOperations, Legal and Payroll teams on equity related items as needed.
 - Prepare reports for internal partners and respond to ad hoc data requests.
@@ -62,7 +62,7 @@ The Senior Stock Administrator is a [grade 7](/handbook/total-rewards/compensati
 - Demonstrates an ability to coordinate multiple projects simultaneously.
 - A seasoned, experienced professional with a full understanding of area of specialization; resolves a wide range of issues in creative ways.
 - Demonstrates further technical development and a track record of project success.
-- 3-5 years of relevant equity administration experience on the Carta platform.
+- 3-5 years of relevant equity administration experience on the Equity Edge Online/E*TRADE platform.
 - Experience with both Option and RSU programs.
 - Familiarity with U.S. federal and state taxation relating to equity compensation.
 - Familiarity with International tax law relating to equity programs.
