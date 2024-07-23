@@ -97,9 +97,8 @@ If you choose to use Slack to collaborate, consider using an existing channel:
 
 If creating a new channel, consider prefixing your channel with `#spt-pod_`.
 
-If you will be conducting pod specific pairing sessions in the channel,
-[Pairify](https://handbook.gitlab.com/handbook/support/workflows/pairify/) support can be added to
-the new channel by requesting this in `[#pairify-app](https://gitlab.enterprise.slack.com/archives/C06LG9NBSUX)`.
+If you will be conducting pod specific pairing sessions in the channel, [Pairify](/handbook/support/workflows/pairify/)
+support can be added to the new channel by requesting this in `[#pairify-app](https://gitlab.enterprise.slack.com/archives/C06LG9NBSUX)`.
 
 ## Historical context
 
