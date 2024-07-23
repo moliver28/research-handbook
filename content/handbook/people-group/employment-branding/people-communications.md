@@ -56,7 +56,7 @@ If asking for communications to lead communications when preparing key messages 
     1. For more complex internal communications requests, we request at least ~7-10 business days advance notice to effectively collaborate together on a communications plan. We will opt to move more methodically depending on the scope and timeliness of the communication.
 1. To expedite this process, you can create an initial communications plan [using this template](https://docs.google.com/document/d/15QN0c6THE2wo_MGkyDi84Dhu3WyiY5p3MJFWfbWUlFQ/edit).
     1. Once you have created the initial communications plan, share it with the People Communications & Engagement team on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with:
-       - Kayla Golden, Senior Program Manager, People Communications & Engagement
+       - Kayla Golden, Manager, People Communications & Engagement
        - Devin Rogozinski, Senior Director, Talent Brand & Engagement
 
 ## People Communications & Engagement channels
