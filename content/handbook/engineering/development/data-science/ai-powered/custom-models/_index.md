@@ -161,7 +161,7 @@ The following is a general guide for identifying open source models:
 
 1. gain a thorough understanding of the Duo Feature to be enabled with open source models and identify use cases required for each feature (an example of use-cases per feature is [here](https://gitlab.com/groups/gitlab-org/-/epics/13760#features-and-open-source-models-for-consideration "Self Hosted Model Deployment - Duo Chat"))
    - document use-cases identified within [each Feature's epic](https://gitlab.com/groups/gitlab-org/-/epics/13069#by-feature-self-hosted-support "Category: Self-Hosted Model Deployment")
-   * note that some use-cases may already be identified as components of the AI Validation pipeline for that or another feature; an example of this is the code generation use-case, which is a component of both Code Suggestions and Duo Chat
+   - note that some use-cases may already be identified as components of the AI Validation pipeline for that or another feature; an example of this is the code generation use-case, which is a component of both Code Suggestions and Duo Chat
 2. research and understand how existing and popular industry benchmarks relate to Duo Feature use-cases
    * update this documentation to add additional industry benchmarks identified for each use case with a description of the benchmark under "[Industry Benchmarks](https://gitlab.com/gitlab-org/gitlab/-/issues/461070#industry-benchmarks "Document how to identify Open Source Models for Duo use cases")"
 3. document the performance of open source models against those identified industry benchmarks
