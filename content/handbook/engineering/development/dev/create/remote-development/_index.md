@@ -1,19 +1,19 @@
 ---
 title: 'Create:Remote Development Group'
 description: >-
-  The Remote Development Group is part of the Create Stage. We focus on multiple categories:
+  The Remote Development Group is part of the Create Stage. We focus on two categories:
   Workspace and the Web IDE.
 ---
 
 ## Overview
 
-The group is part of [Create Stage](/handbook/engineering/development/dev/create/) in the [Dev Sub-department](/handbook/engineering/development/dev/). We focus on multiple [categories](https://about.gitlab.com/direction/create/#categories-in-create): `Workspace` and the `Web IDE`.
+The group is part of [Create Stage](/handbook/engineering/development/dev/create/) in the [Dev Sub-department](/handbook/engineering/development/dev/). We focus on two [categories](https://about.gitlab.com/direction/create/#categories-in-create): `Workspace` and the `Web IDE`.
 
 ### 👌 Group OKRs
 
 <span id="-team-okrs" data-message="alias anchor for old links"></span>
 
-If you're interested in the group's Objectives and Key Results (OKRs), you can find them on [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=group%3A%3Aide&first_page_size=20).
+If you're interested in the group's Objectives and Key Results (OKRs), you can find them on [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=OKR&label_name%5B%5D=group%3A%3Aremote%20development&type%5B%5D=objective&first_page_size=20).
 
 ### 🤴 Group Principles
 
@@ -39,7 +39,7 @@ The following people are permanent members of the Remote Development Engineering
 
 | Category                 | DRI                                     |
 |--------------------------|-----------------------------------------|
-| Workspace       | {{< member-by-name "Vishal Tak" >}}     |
+| Workspace                | {{< member-by-name "Vishal Tak" >}}     |
 | Web IDE                  | {{< member-by-name "Paul Slaughter" >}} |
 
 ### ☎️ How to reach us
@@ -48,6 +48,15 @@ Depending on the context here are the most appropriate ways to reach out to the 
 
 - Slack Channel: [`#g_create_remote_development`](https://gitlab.slack.com/archives/CJS40SLJE)
 - Slack Groups: `@create-remote-development-team` (entire team) and `@create-remote-development-engs` (just engineers)
+
+### 🗣️ Capturing User Feedback
+
+We highly value user feedback! Please use the epics below to capture feedback and insights for the two feature categories:
+
+- [Web IDE User Feedback & Insights](https://gitlab.com/groups/gitlab-org/-/epics/10543)
+- [Workspaces User Feedback & Insights](https://gitlab.com/groups/gitlab-org/-/epics/12601)
+
+For non-team members, feel free to create issues in these epics if you have general feedback or suggestions. If you have feedback related to existing or ongoing features, please drop a comment in the appropriate epic or issue. See
 
 ### Group Metrics Dashboards
 
