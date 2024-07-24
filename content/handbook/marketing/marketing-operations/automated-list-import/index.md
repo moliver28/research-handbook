@@ -55,7 +55,7 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 1. Drop your CSV containing lead data into the folder
 1. An automated process will pick up your CSV and start processing each record in your file, validating the data.
 
-### Step 5 - Go to the `#event_list_upload` slack channel.
+### Step 5 - Go to the `#event_list_upload` slack channel
 
 **When the import finishes processing in Marketo, it will send a slack message with information about:**
 

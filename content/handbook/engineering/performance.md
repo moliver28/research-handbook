@@ -281,7 +281,7 @@ Consider the scenario of a user opening their browser, and surfing to their dash
 
 ### Git Commit Push
 
-First read about the [steps in a web request](#web-request-1) above, then pick up the thread here.
+First read about the [steps in a web request](#web-request) above, then pick up the thread here.
 
 After pushing to a repository, e.g. from the _web UI_:
 
@@ -303,7 +303,7 @@ After pushing to a repository, e.g. from the _web UI_:
 
 ### Web Request
 
-Consider the scenario of a user opening their browser, and surfing to their favorite URL on `GitLab.com`. The steps are described in the section on ["web request"](#web-request-1). In this table, the steps are measured and goals for improvement are set.
+Consider the scenario of a user opening their browser, and surfing to their favorite URL on `GitLab.com`. The steps are described in the section on ["web request"](#web-request). In this table, the steps are measured and goals for improvement are set.
 
 Guide to this table:
 

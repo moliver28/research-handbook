@@ -256,7 +256,7 @@ If your customer engages with emails (sent either from marketing or from yoursel
 
 The following sequence is recommended to progress the customer from awareness and interest in GitLab security capabilities to consideration, agreement of solutions alignment to expected value, and ultimate purchase (pun intended)
 
-#### Meeting 1** - **assess business objectives
+#### Meeting 1 - assess business objectives
 
 Use [Value Discovery](#value-discovery) above along with these recommended assets to determine their business priorities, existing security tools, chief pain points:
 
@@ -275,7 +275,7 @@ Use [Value Discovery](#value-discovery) above along with these recommended asset
 
 **Metric:** Opportunity stage 0 - pending acceptance or stage 1 - Sales Accepted Opp or no opportunity
 
-#### Meeting 2** - **assess security priorities
+#### Meeting 2 - assess security priorities
 
 Based on their business objectives, assess interest in learning more on theses topics then schedule deep dive with your SA. (@cblake and the #s_secure slack channel can help with any questions you may have.) Identify key value driver, champion, and economic buyer.
 
@@ -296,7 +296,7 @@ Based on their business objectives, assess interest in learning more on theses t
 
 **Metric:** Opportunity Stage 1 - Discovery
 
-#### Meeting 3** - **help them see the value
+#### Meeting 3 - help them see the value
 
 Use the provided ROI framework slide to help the customer identify all of his obvious costs, now and most importantly, into the future. Show how GitLab can provide predictable costs as they scale. Make sure it's clear that our greatest value is our all-in-one approach that provides all types of security scans integrated into a united UI for both dev and sec. **Be sure to include the value of this benefit along with tool costs.**
 

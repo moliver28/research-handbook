@@ -78,6 +78,7 @@ While GitLab & PMG communicate mainly through the GitLab Digital Advertising pro
 ## Digital Marketing Meetings {#meetings}
 
 ### Weekly Triage {#triage}
+
 PMG and GitLab meet weekly to review issues from the [milestone triage board](https://gitlab.com/gitlab-com/marketing/digital-advertising/-/boards/2521687) in the Digital Advertising project to determine the current status, blockers and immediate action items needed to advance issues further. Issues are reviewed based on todo labels and moved into the appropriate milestone based on priority and timing of next steps.
 
 ### Weekly GitLab+PMG Meetings {#weekly-meetings}
@@ -175,6 +176,7 @@ The GitLab Digital Marketing team receives additional funding at various times t
 PMG provides pulse checks & tracking toward KPIs more frequently for ancillary campaigns than regular campaigns since their duration is limited to the month or quarter. Once the ancillary campaign has completed, PMG will provide a campaign summary and key insights for future iterations.
 
 ### Field, ABM and Corporate Campaigns {#external-campaigns}
+
 **Intake Process**
 
 1. All departments outside of Digital/Demand Generation must first go through the [Coupa Purchase Order process](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-use-coupa-for-purchasing) in order to start the intake process with PMG.

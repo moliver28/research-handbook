@@ -175,6 +175,7 @@ Sales Plays should be delivered as a handbook page, or as an interactive guide l
 To see the planned Sales Plays, see **column C** in [GTM Motions](/handbook/marketing/plan-fy22/#gtm-motions).
 
 ## Sales enablement to support a Sales Play and/or GTM Campaign {#sales-enablement} <!-- DO NOT CHANGE ANCHOR -->
+
 _The list below includes potential and recommended items to include in a Sales Play. Not all Sales Plays will include the full list, and the Core Team - in collaboration across Marketing and Sales - will determine need and timeline for the items to be included, and may add additional items for which there is an oranized plan to leverage._
 
 **Potential/Recommended supporting sales enablement:**

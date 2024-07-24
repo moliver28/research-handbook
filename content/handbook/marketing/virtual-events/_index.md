@@ -43,6 +43,7 @@ The [external virtual events](https://calendar.google.com/calendar?cid=Z2l0bGFiL
 **DRI adding to external virtual events calendar: Sponsor owner**
 
 ### Planned external virtual events {#calendar-planned-external-virtual-event}
+
 As soon as you create the epic for the sponsored virtual event, add the event to the external virtual events calendar by creating an event on the day the sponsored virtual event will be live.Make sure to also include the link to the epic in the calendar description.
 
 * For sponsored webcast please use the following naming convention `[Hold WC sponsored] Event title` (e.g: `[Hold WC sponsored] Securing your pipeline with GitLab and WhiteSource`).
@@ -51,6 +52,7 @@ As soon as you create the epic for the sponsored virtual event, add the event to
 * For vendor arranged meetings, please use the following naming convention  `[Hold VA sponsored] Vendor Name Region` (e.g: `[Hold VA sponsored] Captive Eight APAC`).
 
 ### Confirmed external virtual events {#calendar-confirmed-external-virtual-event}
+
 Once the sponsorship has been confirmed, go to your calendar event and remove `Hold` from the event title. **Note:** In the spirit of efficiency and to avoid creating multiple calendar invites, please include the epic or issue, add the marketing DRI, any GitLab speakers and/or attendees (SAEs, SAs, etc.), as well as any other team members who would benefit from being included in the calendar invite as this invite will provide a hold for team members participating in the event. The 3rd party sponsor will send out additional event details separately.
 
 * For sponsored webcasts, change the event title to `[WC sponsored] Event title` (e.g: `[WC sponsored] Securing your pipeline with GitLab and WhiteSource`).
@@ -73,6 +75,7 @@ We have developed a [decision tree on FigJam](https://www.figma.com/file/Imb5xNn
 ## Virtual event types {#types}
 
 ### Webcast {#webcast}
+
 This is a GitLab-hosted virtual event with `Webcast` type configuration, which **requires registration** to enable Marketo sync. There are two tech platforms used for webcasts (based on the audience/goal):
 
 * On24 (Campaigns Team): goal is net new customer acquisition, aligned to campaign motions to drive MQLs in target accounts and broader prospect database. Requires registration on On24.
@@ -82,6 +85,7 @@ This is a GitLab-hosted virtual event with `Webcast` type configuration, which *
 [Webcast handbook](/handbook/marketing/virtual-events/webcasts/)
 
 #### Webcast Subcategory - Virtual Hands-on Workshops {#workshops}
+
 Field Marketing runs hands-on workshops virtually. Regardless or not if there will be money spent to advertise these workshops, marketers are to use the webcast event type. A few more points to note:
 
 * Our GitLab demo environment cannot support more than 250 people, therefore we need to be able to cap registration at no more than 400-500 people. The Self-Service option does not allow for registration to be capped. You can require approval, but Zoom doesn't allow customization of the rejection email (and it isn't clear if a rejection email is even sent).
@@ -91,9 +95,11 @@ Field Marketing runs hands-on workshops virtually. Regardless or not if there wi
 For details regarding Virtual Workshops, please visit the [Field Marketing Page](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshops).
 
 ### Virtual Conference {#virtual-conference}
+
 Please work with the Corporate Marketing Events team on planning these large scale events. [Virtual Conference handbook](/handbook/marketing/virtual-events/external-virtual-events/#virtual-conference) This event type is only intended if you need more tracked attendees than is capable with zoom and/ or you need multiple simultaneous tracks. It also allows for a partner expo hall. The tool we have in place allows for a cleaner experience for the end user than switchign between zoom calls. It more mirrors a physical event experience, with a keynote stage, tracks, expo halls and networking options.
 
 ### External virtual events {#external}
+
 Note: these events are not included in the above decision tree as they are not GitLab-hosted events. [External virtual events handbook](/handbook/marketing/virtual-events/external-virtual-events/)
 
 * **Sponsored demand gen webcast:** This is webcast hosted on an external partner/vendor platform (e.g: DevOps.com). The partner/vendor is responsible for driving registration, moderating and hosting the webcast on their platform. Mktg-OPs will be responsible for uploading the list to our database and MPMs will be responsible for sending post-event follow-up emails. *[Link to Marketo program template.](https://app-ab13.marketo.com/#PG5523A1)*
@@ -122,11 +128,13 @@ Note: these events are not included in the above decision tree as they are not G
 ## How to go live? {#going-live}
 
 ### Webcasts {#go-live-webcast}
+
 Currently, only the Campaigns Team team can run GitLab hosted virtual event with `Webcast` type configuration in zoom since this configuration requires a special Zoom license and integration with Marketo. To begin a webcast request, visit the [webcast page](/handbook/marketing/virtual-events/webcasts/) and follow the instructions.
 
 ## How to promote your virtual event? {#promotion}
 
 ### Webcasts {#promotion-webcast}
+
 Below is a summary of the promotion plan for webcasts. MPMs will be responsible for creating all promotion request issues as part of the webcast project management process. The requestor will start with a [virtual event request issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/blob/master/.gitlab/issue_templates/MPM_VirtualEvent_Request.md) and MPMs will create the necessary epic and related issues.
 
 * **Blog merchandising:** 1 post, -30 days prior to live event, DRI = Content team
@@ -181,11 +189,13 @@ Chat announcements allow specific users to send one-way announcements to everyon
 [Using chat announcements](https://support.zoom.us/hc/en-us/articles/360037120072-Using-Chat-Announcements)
 
 #### Q&A {#zoom-questions}
+
 The question & answer (Q&A) feature for webcasts allows attendees to ask questions during the webcast and for the panelists, co-hosts and host to answer their questions. With the public Q&A feature, attendees can answer each other's questions and if enabled, they may also upvote each others questions.
 
 * [Getting started with question & answer](https://support.zoom.us/hc/en-us/articles/203686015-Getting-Started-with-Question-Answer)
 
 #### Polling {#zoom-polling}
+
 You can enable polling in your meeting or virtual event to survey your attendees. See the [prerequisites](/handbook/marketing/virtual-events/self-service-virtual-events/#prerequisites) for how to enable polling.
 
 You can also download the results of your poll - see [reporting](/handbook/marketing/virtual-events/#reporting).
@@ -195,6 +205,7 @@ You can also download the results of your poll - see [reporting](/handbook/marke
 * [3 Ways To Use Polls In Meetings](https://blog.zoom.us/wordpress/2016/09/20/3-ways-to-use-polls-in-meetings/)
 
 #### Networking {#zoom-networking}
+
 There are currently no networking features available in Zoom outside of the participation features listed above. However, there are some creative ways to continue the conversation after your event is over:
 
 * Create a custom Twitter hashtag for your event and encourage participants to join the conversation
@@ -202,9 +213,11 @@ There are currently no networking features available in Zoom outside of the part
 * If you're doing a self-service event, use the breakout rooms to create a more intimate setting for discussion and opportunity for 1:1's
 
 ### Security {#zoom-security}
+
 Please follow the [prerequisites](/handbook/marketing/virtual-events/self-service-virtual-events/#prerequisites) when setting up your virtual event. The [prerequisites](/handbook/marketing/virtual-events/self-service-virtual-events/#prerequisites) include steps for ensuring your virtual event and account are secure.
 
 ### GDPR and privacy compliance {#zoom-compliance}
+
 In order to stay compliant with all regulatory policies as it relates to marketing, please adhere the following guidelines when working with registration or attendee lists and event confirmation emails:
 
 * Password protect sheets for lists (use under GitLab ID only, GitLab only access)
@@ -250,9 +263,11 @@ For attendee lists:
 1. Click `Export`. It exports the list as a .csv file.
 
 ### List uploads {#list-uploads}
+
 If you have a **minimum of 20 leads** to upload from a virtual event, you can utilize the [same list upload process](/handbook/marketing/marketing-operations/list-import/) through marketing operations. Please create an issue in the marketing operations project using the [`event-clean-list-upload.md`](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/event-clean-upload-list.md) issue template and assign it to `@jburton`.
 
 ### Zoom landing page registration source tracking {#zoom-registration}
+
 When driving webcast registration to a Zoom landing page, Zoom registration source tracking can be useful for tracking where the registrants are coming from.
 
 [Registration source tracking on zoom landing page](https://support.zoom.us/hc/en-us/articles/360000315683-Webinar-registration-source-tracking) is only available for MPM run `Webcast` type and not the self-service virtual events `Meeting` type set up.
@@ -260,6 +275,7 @@ When driving webcast registration to a Zoom landing page, Zoom registration sour
 Currently, we do not use Zoom's landing page for webcast registration as MPMs manage the webcast registration process by creating an about.gitlab landing page and integrating form fills to Zoom via Marketo. The Zoom integration tracks sources that drove the registration using UTM parameters. See [full documentation on when and how to use utms](/handbook/marketing/integrated-marketing/digital-strategy/digital-strategy-management/#utms-for-url-tagging-and-tracking).
 
 ### Live streaming {#live-streaming}
+
 Due to current security concerns, live streaming to YouTube from Zoom has been [temporarily shut down](https://gitlab.com/gitlab-com/gl-security/secops/operations/-/issues/871). There is also a security concern regarding Zoom meetings that are [recorded to the cloud](https://gitlab.com/gitlab-com/gl-security/secops/operations/-/issues/833). If you wish to record your virtual event and upload to YouTube later, record to your local machine (not to the cloud) and open an issue in the [digital production project](https://gitlab.com/gitlab-com/marketing/growth-marketing/global-content/digital-production) to have the digital production team review your recording prior to being uploaded to YouTube.
 
 ## Virtual Event Best Practices {#best-practices}

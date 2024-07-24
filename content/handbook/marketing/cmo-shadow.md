@@ -86,12 +86,15 @@ Feel free to schedule a coffee chat with any of the CMO Shadow Alumni. You can r
 ## What to expect during the program {#what-to-expect}
 
 ### Tasks {#tasks}
+
 At times you may be asked your opinion on a topic or you may be asked to do work if it is specifically related to your job.
 
 ### Meetings {#meetings}
+
 You are welcome to come off mute and join the conversation. Ask questions where you see appropriate. If you're more comfortable to dropping a line in chat, meeting attendees will see the note and often times, vocalize your comment and may ask for more insight.
 
 ### Taking Notes {#taking-notes}
+
 Depending on the meeting, you may be asked to take notes for the meeting. Depending on how you work, you may want to take notes of your own. Noting what you thought was interesting about the converation, how you think it impacts your role/team, and any follow-ups you want to personally take as a result of what you heard.
 
 #### Follow activity from the CMO {#follow-cmo-activity}
@@ -102,6 +105,7 @@ Shadows are encouraged to follow the CMO's activity on various platforms to get 
 - In GitLab: This can be seen on the CMO's [GitLab activity log](https://gitlab.com/users/tbarr/activity).
 
 ## Alumni {#alumni}
+
 <!-- Do we want this? -->
 
 | Start date | End date | Name | Title | Takeaways |

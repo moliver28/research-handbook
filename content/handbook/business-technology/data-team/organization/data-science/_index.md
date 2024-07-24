@@ -3,7 +3,7 @@ title: "Data Science Handbook"
 description: "GitLab Data Science Team Handbook"
 ---
 
-{{% alert title="Purpose color="success" %}}
+{{% alert title="Purpose" color="success" %}}
 This page is focused on the operations of GitLab's internal *Data Science Team*. For information about GitLab's Product Data Science Capabilities, please visit [GitLab ModelOps](https://about.gitlab.com/direction/modelops/)
 {{% /alert %}}
 
