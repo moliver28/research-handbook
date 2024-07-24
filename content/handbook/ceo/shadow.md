@@ -630,9 +630,11 @@ Sign up for Twitter notifications (Twitter account required) to follow his every
 
 #### Childcare
 
-Childcare is provided during the active shadowing period and will be reimbursed via an expense report. You must book the childcare yourself and it is advised you reach out far in advance as childcare "drop-ins" can be limited depending on the week. Currently, GitLab doesn't have a ["Backup Care"](https://www.brighthorizons.com/family-solutions/back-up-care) program so you must tell the childcare it is for a "drop-in".
+Childcare is provided during the active shadowing period and will be reimbursed via an expense report. You must book the childcare yourself and it is advised you reach out far in advance as childcare "drop-ins" can be limited depending on the week. Currently, GitLab doesn't have a ["Backup Care"](https://www.brighthorizons.com/family-solutions/back-up-care) program so you must tell the childcare it is for a "drop-in". 
 
 If you're traveling for the CEO Shadow Program, depending on your hotel accommodations, finding a nearby daycare is most convenient. Some childcare facilities will require payment at end-of-day or end-of-week via cash/check only so request an invoice/receipt for expense submission purposes.
+
+Please note that this policy only covers professional childcare facilities or licensed daycare centers. Nannies, babysitters, or informal childcare arrangements are not eligible for reimbursement under this policy.
 
 ### In-person Rotation Expenses
 
