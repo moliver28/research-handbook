@@ -61,7 +61,6 @@ You can log into PlanSource through your Workday profile. There is an integratio
 ## Who To Contact & Claims Escalations
 
 - For a full list of carrier contacts please see the [Benefit Mobile Wallet Card](https://mymobilewalletcard.com/gitlab/)
-- For benefit inquiries and assistance with any claims escalations: WTW Benefits Helpline `877-409-9288` or `GitLab@willistowerswatson.com`
 - For Cigna related questions please use the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing)
 - For support with the PlanSource system: `total-rewards@ gitlab.com`
 - For questions regarding internal policies, etc. 401(k), : `total-rewards@ gitlab.com`
@@ -390,7 +389,7 @@ For out-of-network services: 365 days from Date of Service.
 
 <summary> Kaiser Infertility Services</summary>
 
-Kaiser California is covered for infertility services at 50% co-insurance. Coverage includes services for diagnosis and treatment of infertility. Coverage does not include conception by artificial means (IVF/GIFT/ZIFT/etc). Please check with the WTW Benefits Helpline `877-409-9288` or `GitLab@willistowerswatson.com` for more information.
+Kaiser California is covered for infertility services at 50% co-insurance. Coverage includes services for diagnosis and treatment of infertility. Coverage does not include conception by artificial means (IVF/GIFT/ZIFT/etc). 
 
 Kaiser Hawaii Plan members are covered for an infertility consultation and certain In Vitro Fertilization (IVF) procedures. More information on the Infertility services for Hawaii Kaiser members can be found on the [2024 Hawaii Health Plan](TBD ).
 
