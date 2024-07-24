@@ -138,8 +138,6 @@ GitLab reimburses its team members the yearly Reforge membership fees as long as
   - the study group can be a Reforge study group
 - the GitLab team members in the study group propose process changes and create analytics requests
 
-If you are part of the Product team and are interested in a Reforge membership, we are planning to set up a **team plan** for a discounted rate, see details in https://gitlab.com/gitlab-com/Product/-/issues/5135.
-
 ## General Product Management learning content
 
 [This content is also available in a trackable format in Level Up](https://levelup.gitlab.com/pages/product-management-hub).
