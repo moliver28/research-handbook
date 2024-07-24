@@ -151,6 +151,9 @@ If those demo environments do not suit your needs, you can view our [other demo 
 which are sorted by use case. You can also check out the [CS Shared Demo Library](https://gitlab.com/gitlab-learn-labs/webinars)
 for ready-to-go sales demos created by other solutions architects.
 
+All Developer Advocacy maintained projects are documented [in the projects handbook](/handbook/marketing/developer-relations/developer-advocacy/projects/#organisation-structure).
+Conference-specific demos are maintained in the [gitlab-da/conferences](https://gitlab.com/gitlab-da/conferences) group.
+
 **Note**: Before demoing using these projects you should familiarize yourself with the project and its instructions provided in
 their README. The projects are meant to be cloned and used within your own space.
 
