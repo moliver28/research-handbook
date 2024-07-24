@@ -152,3 +152,117 @@ It is recognised there can always be last-minute, unplanned PTO needs. Please ta
 ## Ad-hoc sync calls
 
 We operate using async communication by default. There are times when a sync discussion can be beneficial and we encourage team members to schedule sync calls with the required team members as needed.
+
+## Identification of Open Source Models for GitLab Duo
+
+As new open source models emerge, we will want to consider them for GitLab Duo use-cases. Here we define and document the process of identifying new models and baselining their performance for Duo features.
+
+The following is a general guide for identifying open source models:
+
+1. gain a thorough understanding of the Duo Feature to be enabled with open source models and identify use cases required for each feature (an example of use-cases per feature is [here](https://gitlab.com/groups/gitlab-org/-/epics/13760#features-and-open-source-models-for-consideration "Self Hosted Model Deployment - Duo Chat"))
+   - document use-cases identified within [each Feature's epic](https://gitlab.com/groups/gitlab-org/-/epics/13069#by-feature-self-hosted-support "Category: Self-Hosted Model Deployment")
+   - note that some use-cases may already be identified as components of the AI Validation pipeline for that or another feature; an example of this is the code generation use-case, which is a component of both Code Suggestions and Duo Chat
+2. research and understand how existing and popular industry benchmarks relate to Duo Feature use-cases
+   - update this documentation to add additional industry benchmarks identified for each use case with a description of the benchmark under "[Industry Benchmarks](https://gitlab.com/gitlab-org/gitlab/-/issues/461070#industry-benchmarks "Document how to identify Open Source Models for Duo use cases")"
+3. document the performance of open source models against those identified industry benchmarks
+   - leverage model leaderboards to help identify models and document performance; examples of leaderboards include:
+     - [HuggingFace Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+     - [HuggingFace Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard)
+     - [HELM Leaderboard](https://crfm.stanford.edu/helm/lite/latest/#/leaderboard)
+     - [CanAICode Leaderboard](https://huggingface.co/spaces/mike-ravkine/can-ai-code-results)
+     - [LMSYS Chatbot Arena Leaderboard](https://chat.lmsys.org/?leaderboard)
+     - [BigCodeBench Leaderboard](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard)
+     - additional resources
+       - https://github.com/underlines/awesome-ml/blob/master/llm-tools.md#leaderboards
+       - https://bellard.org/ts_server/
+   - add additional leaderboards of high utility to this documentation as they are identified
+4. document any potential supply-chain or license issues (we prefer [gold or silver](https://blueoakcouncil.org/list)) that would prohibit/limit viability of self-hosting that model for our security-conscious customer base
+5. verify that the open source model has not already been proposed and validated for the feature via the Custom Models [supported models documentation](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html#step-1-install-llm-serving-infrastructure) and/or [top level epic for the relevant feature](https://gitlab.com/groups/gitlab-org/-/epics/13069#by-feature-self-hosted-support "Category: Self-Hosted Model Deployment").
+6. if a custom Gitlab dataset already exists representing the identified use-case, follow the steps outlined in "Local Model Baselining and Prompt Development for Self-Hosted Models" for [Local Model Baselining](https://gitlab.com/gitlab-org/gitlab/-/issues/468933#local-model-baselining "Local Model Baselining and Prompt Development for Self-Hosted Models")
+7. examine results of the baseline process for the model against other foundational models (available via dashboards for each feature) and assess viability of the model for the Duo feature.
+   - note that industry benchmarks can only serve as a guide for models to validate, and not a validation itself as OS models scores may be higher on industry benchmarks that Gitlab use-case specific datasets
+
+### Industry Benchmarks
+
+<table>
+<tr>
+<th>Duo Feature Supported</th>
+<th>feature / sub-feature</th>
+<th>industry benchmark</th>
+<th>description</th>
+<th>
+
+</th>
+</tr>
+<tr>
+<td>Code Suggestions</td>
+<td>code generation</td>
+<td>MBPP</td>
+<td>The MBPP (Mostly Basic Python Problems) dataset consists of around 1,000 crowd-sourced Python. programming problems, designed to be solvable by entry level programmers, covering programming. fundamentals, standard library functionality, and so on. Each problem consists of a task.</td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td>Code Suggestions</td>
+<td>code completion</td>
+<td>
+
+[BigCodeBench](https://huggingface.co/blog/leaderboard-bigcodebench)
+</td>
+<td>
+
+BigCodeBench contains 1,140 function-level tasks to challenge LLMs to follow instructions and compose multiple function calls as tools from 139 libraries. To evaluate LLMs rigorously, each programming task encompasses 5.6 test cases with an average branch coverage of 99%. Currently, **BigCodeBench is Python-only and cannot be easily extended to other programming languages.** 
+</td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td>Chat</td>
+<td>NLP</td>
+<td>MMLU</td>
+<td>A wide-ranging benchmark suite designed to push LLMs beyond the basics. It features over 15,000 questions across 57 diverse tasks, spanning STEM subjects, humanities, and other areas of knowledge. MMLU aims for a comprehensive evaluation. Questions go beyond simple factual recall – they require reasoning, problem-solving, and an ability to understand specialised topics.</td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td>Chat</td>
+<td>NLP</td>
+<td>SuperGLUE</td>
+<td>
+
+GLUE (General Language Understanding Evaluation) was an early but groundbreaking benchmark suite. SuperGLUE emerged as a response to LLMs quickly outperforming the original GLUE tasks. These benchmarks include tasks like:
+
+Natural Language Inference: Does one sentence imply another?
+
+Sentiment Analysis: Is the attitude in a piece of text positive or negative?
+
+Coreference Resolution: Identifying which words in a text refer to the same thing.
+</td>
+<td>
+
+</td>
+</tr>
+</table>
+## Metrics
+
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="custom models" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="custom models" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="custom models" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="custom models" >}}
+{{< /tableau >}}
+
+<!-- LINKS START -->
+<!-- LINKS END -->
