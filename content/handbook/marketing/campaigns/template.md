@@ -14,7 +14,7 @@ MURAL goes here
 
 ### Campaign Pages & Activities {#campaign-activities}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **See the FY22 Marketing Calendar for upcoming virtual events**
 
@@ -27,28 +27,28 @@ Always On Lead Generation:
 
 ### Persona & Positioning {#persona-positioning}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 - Level:
 - Function:
 
 ### Keyword Research {#keyword-research}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ### Polished Messaging {#polished-messaging}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ## Buyer Journeys, Content & Emails {#content-emails}
 
 ### Prescriptive Buyer Journeys {#buyer-journey}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### Individual Contributor {#buyer-journey-ic}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. Awareness Content:
 1. Consideration Content:
@@ -56,7 +56,7 @@ Always On Lead Generation:
 
 #### Manager {#buyer-journey-manager}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. Awareness Content:
 1. Consideration Content:
@@ -64,17 +64,17 @@ Always On Lead Generation:
 
 ### Marketo Nurture Emails {#nurture-emails}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ### Outreach Emails {#outreach-emails}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ## Behind the Scenes {#research-prep}
 
 ### Campaign Execution Documentation & Resources {#campaign-execution}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ```text
 - [Campaign Epic]()

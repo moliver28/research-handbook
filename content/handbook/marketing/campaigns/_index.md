@@ -178,7 +178,7 @@ Our dashboards are owned and managed by the Marketing Strategy and Performance t
 
 ## FY24 Active and WIP Integrated Campaigns {#upcoming-integrated-campaigns}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 - **[See FY23 Integrated Campaigns here>>](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2851)**
 - **[See FY22 Integrated Campaigns and GTM Motions here >>](/handbook/marketing/plan-fy22/)**
@@ -216,7 +216,7 @@ The below global integrated campaigns are continally optimized by the Marketing 
 
 ### 🚀 Automated Software Delivery Campaign {#cicd}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Shari Rances**
 
@@ -232,13 +232,13 @@ The below global integrated campaigns are continally optimized by the Marketing 
 
 ## Past Integrated Campaigns {#past-integrated-campaigns}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 The below were campaigns run historically, and aligned to overall GTM. They have since been retired in order to run new global campaigns aigned to updated GTM strategies between Sales and Marketing.
 
 ### 🚀 CI/CD (Capability Campaign) {#cicd}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI : Agnes Oetama (interim until Jenny T backfill hired)**
 
@@ -263,7 +263,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🚀 DevOp Platform (Capability Campaign) {#devops-platform}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Indre Kryzeviciene**
 
@@ -285,7 +285,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🚀 DevSecOps (Capability Campaign) {#devsecops-use-case}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Eirini Pan**
 
@@ -304,7 +304,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🚀 GitOps (Capability Campaign) {#gitops-use-case}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Eirini Pan**
 
@@ -322,7 +322,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🚀 GitHub - Light (Competitive Campaign) {#gitops-use-case}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Agnes Oetama**
 
@@ -337,7 +337,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🚀 France CI Localized {#ci-france-localized}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Eirini Pan**
 
@@ -351,7 +351,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🚀 Germany CI Localized {#ci-germany-localized}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Indre Kryzeviciene**
 
@@ -365,7 +365,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🌄 Version Control & Collaboration (VC&C) {#vcc-use-case}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Jenny Tiemann**
 
@@ -379,7 +379,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🌄 Competitive campaign 3.0 {#competitive-campaign-3}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Agnes Oetama**
 
@@ -393,7 +393,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🌄 Increase operational efficiencies {#increase-operational-efficiencies}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Jenny Tiemann**
 
@@ -407,7 +407,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🌄 Deliver better products faster {#deliver-better-products-faster}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Zac Badgley**
 
@@ -421,7 +421,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🌄 Reduce security and compliance risk {#reduce-security-compliance-risk}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Originally Jackie Gragnola, transitioned to Megan Mitchell**
 
@@ -435,7 +435,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🚀 AWS Partner {#aws-partner}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Nout Boctor-Smith**
 
@@ -449,7 +449,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🌄 Operation OctoCat {#operation-octocat}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Jackie Gragnola**
 
@@ -465,7 +465,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🌄 CI Build & Test Auto {#ci-build-test-auto}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Agnes Oetama**
 
@@ -479,7 +479,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🚀 Competitive campaign {#competitive-commit}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Agnes Oetama**
 
@@ -492,7 +492,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ### 🌄 Just Commit {#just-commit}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Jackie Gragnola**
 
@@ -507,7 +507,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 ## Campaign Planning {#campaign-planning}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **There will be an epic for every campaign - created by the Campaign Manager managing the campaign.**
 
@@ -519,7 +519,7 @@ Ideally, campaigns will be agreed at least a quarter in advance to allow for amp
 
 ### Overall Campaign Steps {#campaign-steps}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 - **Campaign need/timing determined by Marketing Leadership and Revenue Programs**
 - **Assign:** Campaign Manager is assigned
@@ -538,13 +538,13 @@ Ideally, campaigns will be agreed at least a quarter in advance to allow for amp
 
 ## Campaign Manager Epic Creation {#epic-creation}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ***The Campaign Manager of the integrated campaign will create the epic with the following structure - details and links to be added up on creation of documents and timeline defined.***
 
 ### Epic Code {#epic-code}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ```markdown
 <!-- Name this epic: Name of Campaign [Integrated Campaign] (i.e. Automated Software Delivery [Integrated Campaign]) -->
@@ -624,11 +624,11 @@ Paid Media:
 
 ## Sales Lead Funnel Cross-Over with All-Remote {#funnel-crossover-all-remote}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ### Diagram of sales lead funnel cross-over with all-remote {#funnel-crossover-all-remote-diagram}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Below is a V1 visual in Mural of the sales lead funnel (pre-opportunity) on the left and the all-remote funnel on the right. Discussion of how and when to "bridge the gap" between the funnels - potentially sharing GitLab audience-targeted offers within All-Remote communications - is included [in this issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2590).
 

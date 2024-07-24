@@ -10,7 +10,7 @@ twitter_creator: "@gitlab"
 
 ## GitLab-Hosted Webcasts Calendar {#calendar}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 <figure>
 <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23B39DDB&amp;ctz=America%2FLos_Angeles&amp;src=Z2l0bGFiLmNvbV9uMnNibXZmMjlqczBzM3BiM2ozaHRwa3FmZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%239E69AF&amp;color=%23009688&amp;title=All%20GitLab%20Virtual%20Events&amp;showCalendars=1" style="border:solid 1px #777" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
@@ -20,7 +20,7 @@ twitter_creator: "@gitlab"
 
 ## Overview {#overview}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 There are four types of GitLab-hosted webcasts and workshops using the Zoom webcast license and On24, with differing DRIs depending on the webcast goal and owner.
 
@@ -30,13 +30,13 @@ There are four types of GitLab-hosted webcasts and workshops using the Zoom webc
 
 ## Campaign Webcasts {#campaign-webcasts}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Campaign webcasts are managed, moderated, and executed by the Campaigns Team in On24, focusing on use case, competitive, and other overarching campaign messaging.
 
 ### Submitting a campaign webcast idea {#campaigns-webcast-idea}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Create a [webcast idea issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=idea-webcast) in the campaigns project.
 
@@ -46,7 +46,7 @@ Create a [webcast idea issue](https://gitlab.com/gitlab-com/marketing/demand-gen
 
 ### Organizing campaign webcast epics and issues {#campaigns-project-management}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * **Confirm Date:** The webcast idea issue (date request issue) must be complete and confirmed before creation of the epic, issues, and workback.
 * **Campaign Webcast Epic:** campaign manager creates webcast epic (using code below)
@@ -100,13 +100,13 @@ Create a [webcast idea issue](https://gitlab.com/gitlab-com/marketing/demand-gen
 
 ## Partner Webcasts {#partner-webcasts}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Partner webcasts are managed and moderated by Partner Marketing, working closely with partner counterparts, with techincal setup (Marketo, SFDC, ON24) by Campaign Managers.
 
 ### Checking On24 webcast calendar for partner webcast dates {#bt-partner-webcasts}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * Before scheduling the ON24 Webcast, please check [ON24 calendar](https://calendar.google.com/calendar/u/0?cid=Y19xdTVqMzRsZ2ZrcmlybmM5aGx1MWRkams0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to make sure there is no overlapping virtual event that has been pre-scheduled
 * If the date and time is feasible and does not over-saturate the calendar, please schedule directly in the ON24 calendar
@@ -115,7 +115,7 @@ Partner webcasts are managed and moderated by Partner Marketing, working closely
 
 ### Organizing GitLab-Hosted Partner Webcast Epics and Issues {#partner-project-management}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * **Confirm Date:** The zoom date request issue (in section above) must be complete and confirmed before creation of the epic, issues, and workback
 * **GitLab-Hosted Partner Webcast Epic:** Partner Marketing DRI creates webcast epic (using code below)
@@ -149,7 +149,7 @@ Partner webcasts are managed and moderated by Partner Marketing, working closely
 
 ### Partner webcast tactical execution steps {#partner-tactical-execution}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 *(Typically we host 2 webcasts per month with GitLab Partners)*
 
@@ -199,13 +199,13 @@ Partner webcasts are managed and moderated by Partner Marketing, working closely
 
 ## Webcasts {#field-abm-webcasts}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * For details on how the Field Marketing team runs Hosted Webcasts, please review [this page](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#webcasts-1).
 
 ## Virtual Workshops {#field-workshops}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Virtual Workshops are managed and moderated by Field Marketing, working closely with Solution Architects and other GitLab team members, with partial technical setup by Campaign Managers.
 
@@ -213,7 +213,7 @@ For details regarding Virtual Workshops, please visit the [Field Marketing Page]
 
 ## Best Practices {#webcast-best-practices}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 `Marketing Programs to review and update against "general virtual events best practices" page`
 
@@ -232,7 +232,7 @@ Review GitLab's general [virtual events best practices](/handbook/marketing/virt
 
 ## Speaker Approval {#webcast-speaker-approval}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Marketing Programs sometimes depend on GitLab's subject matter experts to deliver webcast presentations. However, we must ensure that when we ask a speaker to participate on a webcast that the work is approved. Please use the following guideline when asking a subject matter expert to participate on a webcast.
 
@@ -243,7 +243,7 @@ Marketing Programs sometimes depend on GitLab's subject matter experts to delive
 
 ## Tips for Speakers {#speaker-tips}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Here are some basic tips to help ensure that you have a good experience preparing for and presenting on a webcast.
 
@@ -261,7 +261,7 @@ Try to get a good sleep the night before, and, if the presentation is in the mor
 
 ## Technical Demo Series {#technical-demo-series}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Technical demos are aligned with the GTM Motions and cover a range of topics relevant to leads in consideration & purchase stages.
 Demo series run on a bi-weekly cadence as live or pre-recorded sessions on On24 Platform. Participants have the flexibility to engage in either written or live Q&A sessions.
@@ -273,7 +273,7 @@ Demo series run on a bi-weekly cadence as live or pre-recorded sessions on On24 
 
 ### Technical demo landing pages {#technical-demo-landing-pages}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Technical Demo Series are managed by Marketing Campaign team, in collaboration with DevRel and Solution Architects who deliver the content.
 
@@ -287,15 +287,15 @@ Instructions video on adding/removing the technical demos from landing page are 
 
 ## Logistical Setup {#logistical-setup}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ## Adding your webcasts into the calendar {#add-to-calendar}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ### On24 Webcast Calendar {#bt-calendar}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 [On24 webcast calendar](https://calendar.google.com/calendar/u/1?cid=Y19xdTVqMzRsZ2ZrcmlybmM5aGx1MWRkams0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) is used to log all planned and scheduled On24 webcasts and their related dry runs. **The purpose of the On24 webcast calendar is to avoid scheduling overlapping webcasts and to provide visibility into all On24 webcasts across teams.**
 
@@ -314,7 +314,7 @@ Instructions video on adding/removing the technical demos from landing page are 
 
 ### Zoom Webcast Calendar {#zoom-calendar}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 The Field Marketing team manages the [zoom webcast license calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t), which will be used to log all planned and scheduled Field Marketing hosted webcasts/workshops and their related dry runs. **The purpose of the webcast calendar is to ensure Field Marketers don't schedule overlapping webcasts when using the shared webcast license and to provide executive visibility into all webcasts being hosted.**
 
@@ -331,11 +331,11 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 
 ## On24 Webcasts {#brighttalk}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ### Quick Links {#bt-quick-links}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * [On24 rollout session recording](https://youtu.be/5ioBk6h_dP0)
 * [On24 rollout session slides](https://docs.google.com/presentation/d/1Iyw8XjrkmFpiLvehjqMr4TUSJ4qmjHBFGs0HZ0bZcRI/edit#slide=id.g139e148a631_0_188)
@@ -345,7 +345,7 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 
 ### Types of On24 Webcasts {#bt-types}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * **Live Audio and Video (with Screen Share)**: This option is known as the Video Presenter Bridge. Multiple presenters can present a live webcast event using Webcam, PC Microphone, or Dial-in. Live screen share is also available to presenters if they wish to share their screen during the presentation.
 * **Live Audio (no Screen Share)**: Multiple presenters can present a live event using the telephone. Presenters will dial into the ON24 presenter phone bridge for the live webinar. Live screen share is not available with this event type.
@@ -361,11 +361,11 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 
 ## Zoom Webcasts {#zoom}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ### Step 1: Configure Zoom {#configure-zoom}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 *Note: The webcasts@ zoom license can only be used for a single session at a time. This license is used for all field-marketing-run internally hosted webcasts. Therefore, when a webcast is requested please confirm there is not going to be a conflict between the pre-scheduled sessions - both live and dry-run - using that license by checking the [webcast gcal](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t). Schedule no less than 30min between sessions (before & after) so there is less chance of conflict and allows for a buffer.*
 
@@ -393,11 +393,11 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 
 ### Step 2: Set up the webcast in Marketo/SFDC, and integrate to Zoom {#zoom-mkto-integrate}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### Create program in Marketo - Zoom {#zoom-marketo-program}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. Create the webcast program in Marketo by navigating to either the [Webcast program template](https://app-ab13.marketo.com/#ME5512A1) or the correct template from [Workshop program templates folder](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/MF5975A1)
 1. Right-click the appropriate template, and select "clone"
@@ -409,7 +409,7 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 
 #### Connect the Marketo program to Zoom via launchpoint integration {#zoom-marketo-connect}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. In the Marketo program Summary view, you will see `Event Partner:` with a link that says "not set".
 1. Click on "not set"
@@ -418,7 +418,7 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 
 #### Create campaign in Salesforce - Zoom {#zoom-sfdc-campaign}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. In the Marketo program Summary view, you will see `Salesforce Campaign Sync:` with a link that says "not set".
 1. Click on "not set"
@@ -436,7 +436,7 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 
 ### Step 3.A: Update Marketo Tokens {#zoom-marketo-tokens}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Buckle up! There are a lot of tokens, but for good reason. This is an **advanced practice** and **best practice** within Marketo templates to increase efficiency and speed. Updating these at the top level of the program allows them to cascade through the landing page, emails, automation, and alerts creating a significantly more efficient process of launching new webcasts.
 
@@ -471,14 +471,14 @@ Buckle up! There are a lot of tokens, but for good reason. This is an **advanced
 
 ### Step 3.B: Turn on smart campaigns in Marketo {#zoom-marketo-smart-campaigns}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * Activate the `00 Interesting Moments` campaign.
 * Activate the `01a Registration Flow (single timeslot)` smart campaign.
 
 ### Step 3.C: Create the landing page {#zoom-marketo-lp}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * When you cloned the webcast template, and update the Marketo tokens, your landing page is almost ready to go!
   * Under "Assets" right-click on `Registration Page` and hover over `URL Tools` > `Edit URL Settings`
@@ -488,7 +488,7 @@ Buckle up! There are a lot of tokens, but for good reason. This is an **advanced
 
 #### Adjusting number of speakers in Marketo landing page {#zoom-adjust-speakers}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Less Speakers**
 The speaker module is controlled in the Marketo landing page module. The template is initially set up to support three speakers (note: this is supported in both the My Tokens and the landing page template). If there are less speakers, follow the instructions below:
@@ -530,7 +530,7 @@ If additional assistance is required, please comment in the [#marketing_programs
 
 #### Multiple timeslot webcast - Zoom {#zoom-multiple-timeslots}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 :exclamation: **Note from @aoetama: let's see if we can simplify and remove the "multiple timeslot webcast" section so that there is just instruction on updating the form (or create a new program template in Marketo)**
 
@@ -580,7 +580,7 @@ The Marketo and Zoom launchpoint integration does not currently support recurrin
 
 #### Scheduling a multi-webcast series - Single landing page - Zoom {#zoom-webcast-series}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Note: These instructions are for a multiple webcast series using a single landing page (supporting registration for multiple webcasts with one form submission). If you would like instructions for a single webcast with multiple timeslots and the person can only register for one time, see `Multiple time-slot webcast - Zoom` above.
 
@@ -645,7 +645,7 @@ If you have 3 webcasts, you will have 3 Zoom webcasts and 3 Marketo programs. Ti
 
 ### Webcast invitation - Zoom {#zoom-webcast-invites}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 :exclamation: **Note from @aoetama: we are working on further templatizing these invitations so that copy changes are not needed and tokens take care of these emails.** ([issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/3422))
 
@@ -656,23 +656,23 @@ If you have 3 webcasts, you will have 3 Zoom webcasts and 3 Marketo programs. Ti
 
 ### Step 4: Add the webcast to the /events page {#zoom-add-events-page}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * To add the webcast to the /events page follow this [step by step guide](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents).
 
 ### Step 5: Test your set up {#zoom-testing}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. Submit a test lead using your GitLab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email from zoom.
 
 ### After the LIVE webcast - Zoom {#zoom-after-webcast}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### Converting the webcast to an On-Demand gated asset - Zoom {#zoom-on-demand-switch}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Please Note: Workshops are not converted to on-demand assets.**
 
@@ -733,7 +733,7 @@ If you have 3 webcasts, you will have 3 Zoom webcasts and 3 Marketo programs. Ti
 
 #### Test your follow up emails and set to send - Zoom {#zoom-follow-up-emails}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Note: do not schedule the emails until you have completed the "on demand switch" process (and there is a Pathfactory URL ready to be used)
 
@@ -757,7 +757,7 @@ Note: do not schedule the emails until you have completed the "on demand switch"
 
 #### Rescheduling a webcast - Zoom {#zoom-reschedule}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 In the event you need to change the date of your webcast, please follow the steps outlined below.
 
@@ -780,7 +780,7 @@ In the event you need to change the date of your webcast, please follow the step
 
 #### Canceling a webcast - Zoom {#zoom-cancel}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 In the event you need to cancel your webcast, please follow the steps outlined below.
 
@@ -799,18 +799,18 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 ## ON24 Webcasts {#on24}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ### Quick Links {#0n24-quick-links}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * [ON24 Webcast Login Portal](https://wcc.on24.com/webcast/login)
 * [ON24 Knowledge Centre](https://on24support.force.com/Support/s/knowledge)
 
 ### ON24 Event Types {#on24-types}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * **Live Video (Video and audio with screen share):** traditional live webinar with speakers and Q&A.
   * Pre-event registration takes place
@@ -837,7 +837,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 ### Organizing ON24 webcast epics and issues {#on24-epics-issues}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * **Confirm Date:** The webcast idea issue (date request issue) must be complete and confirmed before creation of the epic, issues, and workback.
 * **Campaign Webcast Epic:** campaign manager creates webcast epic (using code below)
@@ -891,11 +891,11 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 ## ON24 Webcast Setup {#on24-setup}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ### Step 1: Configure ON24 {#configure-on24}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 *Note: ON24 Elite license is used for all field marketing and campaigns internally hosted webcasts. Therefore, when a webcast is requested please confirm there is not going to be a conflict between the pre-scheduled sessions - both live and dry-run - using that license by checking the [webcast gcal](https://calendar.google.com/calendar/u/0?cid=Y19xdTVqMzRsZ2ZrcmlybmM5aGx1MWRkams0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t). Schedule no less than 30min between sessions (before & after) so there is less chance of conflict and allows for a buffer.*
 
@@ -932,11 +932,11 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 ### Step 2: Set up the webcast in Marketo/SFDC and connect to ON24 {#on24-mkto-setup}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### Create program in Marketo - ON24 {#on24-marketo-program}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. Create the webcast program in Marketo by navigating to the [Templates - ON24](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/MF12119A1) and select between webcast and workshop.
 1. Right-click the appropriate template, and select "clone"
@@ -948,7 +948,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 #### Create campaign in Salesforce - ON24 {#on24-sfdc-campaign}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. In the Marketo program Summary view, you will see `Salesforce Campaign Sync:` with a link that says "not set".
 1. Click on "not set"
@@ -966,7 +966,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 #### Connecting On24 Web Events to Marketo Programs {#on24-marketo-connect}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 *After completing the creation of an On24 web event, the next step is to connect the webinar to Marketo. Unlike other tools, the On24 room and Marketo program do not need to be connected via the Event Partner field on the Marketo program. All data transfer is done via the Event ID and smart campaigns.*
 
@@ -997,7 +997,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 ### Step 3.A: Update all other standard Marketo Tokens {#on24-marketo-tokens}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * `{{my.bullet1}}`-`{{my.bullet4}}`- bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
 * `{{my.emailConfirmationButtonCopy}}`  - copy for the email confirmation (when on demand), leave as `Watch now`
@@ -1021,7 +1021,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 ### Step 3.B: Create the landing page {#on24-marketo-lp}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * When you cloned the webcast template, and updated the Marketo tokens, your landing page is almost ready to go!
   * Under "Assets" right-click on `Registration Page` and hover over `URL Tools` > `Edit URL Settings`
@@ -1031,7 +1031,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 ### Schedule your ON24 practice session (Dry Run) {#on24-practice-session}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * Once an event is created, the presenter link becomes active until the live event. It's unnecessary to schedule an additional dry run event.
 * Share the Presenter URL (which can be found in your Event URLs list in ON24 anfter event is created) to dry run participants.
@@ -1042,7 +1042,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 ### Monitoring Simu-live Webcasts {#monitoring-simu-live-webcasts}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * Simu-live webcasts are entirely pre-recorded and will play to a live audience at your chosen date and time. While the presentation plays to the live audience, you may have Q&A moderators log in to monitor the event and answer questions in real-time via text using the Q&A tool. Up to 12 people can log in at a time as Q&A Moderators.
 * Moderators will use the Present URL to log in and have full access to the Q&A, Team Chat, and Attendee Chat and will be able to listen and watch the webcast in the live interface.
@@ -1054,7 +1054,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 ### Monitoring Sim-2-Live Webcasts {#monitoring-sim-2-live-webcasts}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * Sim-2-live webcasts are Simu-live webcasts with the Rollover to Live box checked, providing live time at the end of the recording to address questions. Setup and recording will be the same for both, the differences come when the webcast is playing out live to the audience.
 * Sim-2-live webcasts also start automatically at the chosen start time. And after the pre-recorded portion of the webcast plays out, the system will automatically switch to a live webcast.
@@ -1073,7 +1073,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 ### ON24 Webcast Invitations {#0n24-email-invitations}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. Update emails `Invitation 1 - 2 weeks prior`,  `Invitation 2 - 1 week prior` , and if needed `Invitation 3 - Day before` with relevant copies related to the webcast.
    * *Note: We normally use the same copy for all 3 emails and simply tweak the templated subject lines to sound more like "Reminders".*
@@ -1083,14 +1083,14 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 ### Add the webcast to the /events/ and /resources/ pages {#on24-webpage-listings}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 * To add the webcast to the /events/ page follow this [step by step guide](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents).
 * To add the webcast to the /resources/ page follow this [step by step guide](/https://handbook.gitlab.com/handbook/marketing/demand-generation/campaigns/content-in-campaigns/#add-to-resources-page).
 
 ### ON24 Webcast Testings / QA {#on24-webcast-testing}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Submit a test lead using your GitLab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email from ON24.
 
@@ -1099,7 +1099,7 @@ Submit a test lead using your GitLab email on the LIVE landing page to make sure
 
 ### Switching ON24 Webcasts to On-Demand {#on24-ondemand-switch}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ON24 will automatically convert the video to on-demand in the ON24 platform. The steps below allow us to further leverage the webcast in Pathfactory. If you are going to drive to On24 directly for On-demand viewing (such as for large corporate events), skip to the instructions below starting at `Using On24 for On-Demand Viewing`.
 
@@ -1114,7 +1114,7 @@ ON24 will automatically convert the video to on-demand in the ON24 platform. The
 
 #### Converting the webcast to an On-Demand gated asset - On24 {#zoom-on-demand-switch}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **🤩 NEW! In Marketo:**
 
@@ -1170,7 +1170,7 @@ ON24 will automatically convert the video to on-demand in the ON24 platform. The
 
 ### Using On24 for On-Demand Viewing - Switching to On-Demand {#on24-using-on24-on-demand-switch}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 In most cases, the landing pages for these events are managed by DEX. These instructions assume you are using the same form and the LP is managed by DEX, not in Marketo.
 
@@ -1209,7 +1209,7 @@ In most cases, the landing pages for these events are managed by DEX. These inst
 
 ### Rescheduling an ON24 webcast {#on24-reschedule}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 In the event you need to change the date of your webcast, please follow the steps outlined below.
 
@@ -1224,7 +1224,7 @@ In the event you need to change the date of your webcast, please follow the step
 
 ### Canceling an ON24 Webcast {#on24-cancel}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 The process is very similar to rescheduling.
 

@@ -8,7 +8,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 ### Business Objectives {#business-objectives}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. Connect with the manager of App/Dev, show them the value of GitLab CI
 2. Drive conversion optimization throughout the funnel to increase asset downloads
@@ -16,13 +16,13 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 ### Campaign Visual {#campaign-visual}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ![''](/images/handbook/marketing/marketing-programs/CI-CD_Campaign_Flow.png.png)
 
 ### Campaign Pages & Activities {#campaign-activities}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **[See the FY22 Marketing Calendar for upcoming virtual events >>](https://docs.google.com/spreadsheets/d/1c2V3Aj1l_UT5hEb54nczzinGUxtxswZBhZV8r9eErqM/edit#gid=571560493&fvid=1408681455)**
 
@@ -36,11 +36,11 @@ Always On Lead Generation:
 
 ### Persona & Positioning {#persona-positioning}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### Target Persona 1: Manager of App & Dev {#persona-1}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 - **Level:** Manager
 - **Function:** Dev, App
@@ -67,7 +67,7 @@ Always On Lead Generation:
 
 #### Target Persona 2: Practitioners {#persona-2}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 - **Level:** Practitioner
 - **Function:** Developers, DevOps engineers, Development leads
@@ -95,17 +95,17 @@ Always On Lead Generation:
 
 ### Keyword Research {#keyword-research}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **[See the CI/CD keyword research doc >>](https://docs.google.com/spreadsheets/d/1qUvAOv33guzXgxAgVX6M0kLXRrJQLe_IriiFkg4fjVM/edit?usp=sharing)**
 
 ### Polished Messaging {#polished-messaging}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### Overall {#polished-messaging-overall}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 |  | Polished Messaging |
 | ------ | ------ |
@@ -123,7 +123,7 @@ Always On Lead Generation:
 
 #### Enterprise Segment {#polished-messaging-enterprise}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 |   | Polished Messaging |
 | ------ | ------ |
@@ -142,15 +142,15 @@ Always On Lead Generation:
 
 ## Buyer Journeys, Content & Emails {#content-emails}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ### Prescriptive Buyer Journeys {#buyer-journey}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### Individual Contributor {#buyer-journey-ic}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 | Stage | Asset 1 | Asset 2| Asset 3 |
 | ------ | ------ | -------| -------|
@@ -160,7 +160,7 @@ Always On Lead Generation:
 
 #### Manager {#buyer-journey-manager}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 | Stage | Asset 1 | Asset 2| Asset 3 |
 | ------ | ------ | -------| -------|
@@ -170,13 +170,13 @@ Always On Lead Generation:
 
 ### Marketo Nurture Emails {#nurture-emails}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **[See Marketo Nurture Email Copies >>](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2478#ship-final-copies)**
 
 ### Outreach Emails {#outreach-emails}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### MASTER|Inbound sequence for each region
 
@@ -192,11 +192,11 @@ Always On Lead Generation:
 
 ## Behind the Scenes {#behind-the-scenes}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ### Campaign Execution Documentation & Resources {#campaign-execution}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 - [Campaign Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/741)
 - [Project timeline plan](https://docs.google.com/spreadsheets/d/1a-0P2N8LKxqmMJLKv2ZlUbXXeu7I1dMSfXHWqzl0rg0/edit#gid=1426779885)

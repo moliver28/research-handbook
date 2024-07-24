@@ -25,6 +25,6 @@ twitter_creator: "@gitlab"
 
 ## Reporting {#reporting}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Please see [Demand Generation Reporting Handbook Page](/handbook/marketing/demand-generation/reporting/) for all details related to our reporting and dashboard analysis, as well as deeper dives into opporutnities to optimize and drive results against targets.

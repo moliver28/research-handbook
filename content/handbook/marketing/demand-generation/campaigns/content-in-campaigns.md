@@ -8,7 +8,7 @@ twitter_creator: '@gitlab'
 
 ## Overview {#overview}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 This page documents ways in which content is leveraged in campaigns, including in-house created content, analyst relations content, and downloadable competitive content.
 
@@ -21,7 +21,7 @@ The epic code in each section below outlines the necessary issues to open in ord
 
 ### Types of content in campaigns {#content-types}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 - **Content for use in marketing campaigns:** we leverage the content in our marketing channels (website, email nurture, paid digital, organic social, etc.)
   - [Internal GitLab-created content](/handbook/marketing/demand-generation/campaigns/content-in-campaigns#internal-content): We created and developed the content in house
@@ -31,7 +31,7 @@ The epic code in each section below outlines the necessary issues to open in ord
 
 ## How to pick content for campaigns {#picking-content-for-campaigns}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Search the entire Pathfactory Content Library**
 
@@ -52,13 +52,13 @@ Filter by one or multiple of the following:
 
 ## Internally-Created Content (i.e. eBooks, Guides) {#internal-content}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 The below process should be used for all new content (ebooks, guides, whitepapers, etc.). Creating the epic and related issues is the responsibility of the **Campaign Manager** to make sure that when the content is ready, the teams involved in putting into Pathfactory (MOps) and the teams involved in activating (Campaigns, Digital, ABM) are able to take action immediately.
 
 ### Epic code and issues - Internal GitLab Content {#epic-issues-internal-content}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### [Watch this video overview of the process >>](https://youtu.be/RbQ8Hr6DuQo)
 
@@ -177,7 +177,7 @@ If you have any questions on this process, please contact `@aoetama` in the [#ma
 
 ## Externally-Created Content (i.e. Analyst Relations) {#external-content}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 External content can be sourced from Analyst Relations, partners, and other vendors with whom we work. Some examples would be vendor comparisons (i.e. Gartner/Forrester) or industry/market analyses (i.e. DevOps Institute).
 
@@ -200,7 +200,7 @@ The purpose of the decision matrix is to gather cross-functional feedback whethe
 
 ### Epic code and issues - External Content {#epic-issues-external-content}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### [Watch this video overview of the process >>](https://youtu.be/RbQ8Hr6DuQo)
 
@@ -310,7 +310,7 @@ Adjust list as applicable for each report activation. [Use the workback timeline
 
 ## Adding new content to the Resources page {#add-to-resources-page}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **[Video walkthrough](https://www.youtube.com/watch?v=G8NZV75H7lw) of adding a resource to https://about.gitlab.com/resources/ by using the CMS (Contentful).
 
@@ -401,7 +401,7 @@ If you want to edit other parts of the page the process is similar, just follow 
 
 ## How to extend analyst assets {#extend-analyst-assets}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 At times, we will extend the rights to an asset if it is heavily used by sales or performing in campaigns. In that case the decision is indicated in the [Expiration Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=campaigns-expire-analyst).
 
@@ -409,13 +409,13 @@ Follow the steps outlined [in the Pathfactory Content Library Handbook](/handboo
 
 ## How to retire analyst assets when they expire {#retire-analyst-assets}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 An [Expiration Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=campaigns-expire-analyst) will be opened by the Campaign Manager DRI for each analyst asset, and related to the overarching Epic (with due date for when the asset is set to expire). When the decision is made to expire the asset, the teams involved will check off their respective action items in the issue.
 
 ### Retire Marketo landing page {#retire-marketo-page}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **First you will remove the form from the page and add a "no longer available" message**
 
@@ -433,19 +433,19 @@ An [Expiration Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/
 
 ### Remove from Intelligent Nurture {#remove-intelligent-nurture}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Please follow the process outlined in the [Emails/Nurture Handbook](/handbook/marketing/lifecycle-marketing/emails-nurture).
 
 ### Remove from Pathfactory {#remove-pathfactory}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 Please follow the process outlined in the [Pathfactory Handbook](/handbook/marketing/marketing-operations/pathfactory/content-library/#removing-an-asset-from-the-library).
 
 ### Marketo automation and setup for gated landing page {#steps-gated-landing-pages}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 **!!! REMINDER: We are using ungated content journeys via Pathfactory. This process should only be used for specific scenarios, and used sparingly.**
 
@@ -464,7 +464,7 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
 
 #### Create Marketo program, tokens, and SFDC campaign sync {#steps-gated-mkto-sfdc}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 - Clone the [Marketo Gated Content Template](https://app-ab13.marketo.com/#PG5111A1) and name new program using naming convention (YYYY_Type_AssetName, i.e. 2020_report_GarnterVOC_ARO)
 - Create SFDC program (Program Summary > `Salesforce campaign sync` > click "not set" and choose "Create New" from dropdown) - leave the name as auto-populates, and add the epic url to the description and "Save"
@@ -495,7 +495,7 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
 
 #### Edit registration page and thank you page URLs {#steps-gated-registration-page}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 - Right click the landing page object > "URL Tools" > "Edit URL Settings"
 - Input new Registration Page URL (format: `resources-type-name-of-asset`, i.e. `resources-ebook-ci-best-practices`)
@@ -504,7 +504,7 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
 
 #### Edit "resulting page" from the form submit {#steps-gated-resulting-page}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 - the cloned program will automatically reference the Marketo program template Thank You Page
 - Right click the registration landign page > "Edit Draft"
@@ -515,7 +515,7 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
 
 #### Activate smart campaign(s) {#steps-gated-activate-smart-campaigns}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 - Click to `01 Downloaded Content` smart campaign
 - Click on `Smart List`
@@ -532,7 +532,7 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
 
 #### Update SFDC campaign {#steps-gated-update-sfdc}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 - Navigate to [https://gitlab.my.salesforce.com/701?fcf=00B61000004NY3B&page=1&rolodexIndex=-1] campaigns in Salesforce
 - `Campaign Owner` should be the campaign creator
@@ -545,7 +545,7 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
 
 #### Test live registration page and flows {#steps-gated-testing}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 - Click to the landing page object and click "View Approved Page"
 - Final QA of all copy
@@ -558,7 +558,7 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
 
 ## Potential backup process {#retire-marketo-page}
 
-<!-- DO NOT CHANGE THIS ANCHOR -->$
+<!-- DO NOT CHANGE THIS ANCHOR -->
 
 To be completed by the content owner if Pathfactory access is granted. If no access, please open an issue in Campaigns team based on epic category above.
 
