@@ -3,15 +3,9 @@ title: GitLab Israel Ltd. information & benefits
 description: GitLab Israel Ltd. benefits and information specific to Israel-based team members
 ---
 
-<div class="panel panel-gitlab-orange">
-**This is a Secure Document**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
 Per the stated [Roles & Responsibilities](/handbook/entity/israel-ltd/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
-
-</div>
-</div>
+{{% /panel %}}
 
 This Handbook page is for team members employed by GitLab Israel Ltd. and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
 
