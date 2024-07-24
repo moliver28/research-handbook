@@ -656,8 +656,9 @@ Please reach out to the People Connect Team in the `#people-connect` Slack chann
 1. Add an agenda or relevant content
 1. Under Add Guests, add `GitLab Team Meetings` in addition to anyone else you want invited (if you want the entire company invited please use everyone@).
 
-   **Note:** This will appear like adding a room, which is expected
-   {: .note}
+   {{% note %}}
+   This will appear like adding a room, which is expected
+   {{% /note %}}
 
    ![Adding GitLab Team Meetings](/handbook/tools-and-tips/images/adding-gitlab-team-meetings.png)
 

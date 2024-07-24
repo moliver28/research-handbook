@@ -128,8 +128,9 @@ graph TD
 
 ## Intake Request
 
+{{% alert color="danger" %}}
 Before opening a new intake request with Enterprise Applications, please check the Services We Support section that lists the templates to be used for specific requests.
-{: .alert .alert-danger}
+{{% /alert %}}
 
 To request work to be added to the [Enterprise Applications Roadmap](https://gitlab.com/groups/gitlab-com/business-technology/enterprise-apps/-/roadmap?state=opened&sort=start_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name%5B%5D=BT-Project&progress=WEIGHT&show_progress=true&show_milestones=false&milestones_type=ALL), please open an [intake issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/new?issue%5Bmilestone_id%5D=#) using the "Request" template.
 
@@ -155,8 +156,10 @@ The EntApps Backlog board has 2 lists:
   - If the issue is in the backlog because it is blocked, the ~"BT::Blocked" label must be added to keep the issue open for longer than 30 days.
 
 Both [EntApps Intake](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/boards/2798638?label_name%5B%5D=EntApps%20Intake) and [EntApps Backlog](https://gitlab.com/groups/gitlab-com/-/boards/4710080?label_name[]=BT%3A%3ABacklog) boards are at gitlab.com level so that issues created in other team's projects can appear on the board.
+
+{{% alert color="warning" %}}
 The *~"EntApps Intake"* label is not limited to the Intake project, it can be used in different issues across all gitlab.com.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ## EntApps Milestone Planning
 
@@ -180,8 +183,9 @@ Once the Enterprise Applications Leadership creates the first version of an upco
 
 ### EntApps Milestone Timing
 
+{{% alert color="warning" %}}
 EntApps milestones run for 2 weeks meaning that a request that comes when a milestone is already ongoing, will be placed in the queue and follow the Intake process. If your request is urgent, please open an [intake issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues) and tag @jesssalcido and @broncato in a comment. Enterprise Applications Leadership will work with the requestor to prioritize it and place it in the appropriated milestone.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ![image-1](/handbook/business-technology/enterprise-applications/guides/milestone1.png)
 

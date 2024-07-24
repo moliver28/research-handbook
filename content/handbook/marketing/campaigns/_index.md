@@ -4,9 +4,7 @@ description: "GitLab Marketing Handbook: Integrated Campaigns"
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
-## Integrated Campaigns Overview
-
-{: #integrated-campaigns .gitlab-purple}
+## Integrated Campaigns Overview {#integrated-campaigns}
 
 The goal of a GitLab integrated campaign is to strategically land a cohesive message to a target audience across a variety of channels and offers, dependent on the goals of the campaign. Content types include a combination of blog posts, webinars, whitepapers, reports, videos, case studies, and more. Activation of the campaigns takes place in a number of marketing channels include digital ads, social, paid social, SEO, PR, email, and more.
 
@@ -22,9 +20,7 @@ To understand the thought process behind our FY24 integrated campaigns structure
 
 An integrated campaign is aligned to key go-to-market motions, decided in collaboration between marketing and sales, and built out by a [campaign core team](/handbook/marketing/campaigns/#campaign-core-teams). A [global campaign manager](/handbook/marketing/demand-generation/campaigns/) will lead the effort, working closely with the campaign core team, to develop a [campaign bundle](/handbook/marketing/campaigns/#campaign-bundles) that is then activated by the regional campaign managers [across various channels and tactics](/handbook/marketing/campaigns/#campaign-activation) in conjunction with ABM, Paid Digital, Lifecycle, Field Marketing, SDRs/BDRs, and Channel Partners.
 
-### What is in a campaign bundle?
-
-{: #campaign-bundles}
+### What is in a campaign bundle? {#campaign-bundles}
 
 Think of a **campaign bundle** as the foundational pieces of an integrated campaign. They are used by all teams in marketing and sales to maintain a cohesive message and branding across all tactics and activities aligned to the topical campaign.
 
@@ -46,9 +42,7 @@ To see a visual of campaign bundles, which are then leveraged in activation plan
 - Outreach sequences/templates
 - Enablement sessions
 
-## How are campaign bundles activated?
-
-{: #campaign-activation}
+## How are campaign bundles activated? {#campaign-activation}
 
 Campaign bundles are leveraged by all teams in marketing and sales to drive a cohesive full-funnel approach with aligned personas, positioning, messaging, and branding across all touchpoints and conversations.
 
@@ -71,9 +65,7 @@ Campaign bundles are leveraged by all teams in marketing and sales to drive a co
 - PR
 - Community
 
-### Campaign Core Teams
-
-{: #campaign-core-teams}
+### Campaign Core Teams {#campaign-core-teams}
 
 A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook/marketing/demand-generation/campaigns/) and is comprised of functional DRIs across marketing and revenue programs.
 
@@ -106,10 +98,7 @@ A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook
 - The Core Teams will ensure nothing happens in a vacuum, by proactively integrating corresponding activities across marketing, and including those beyond the core team for input
 - The Core Teams are responsible for clearly communicating plans to all of Marketing ([also see Core Team communication](/handbook/marketing/campaigns/#core-team-communication))
 
-#### Roles & Responsibilities
-
-{: #roles-responsibilities}
-<!-- DO NOT CHANGE ANCHOR -->
+#### Roles & Responsibilities {#roles-responsibilities} <!-- DO NOT CHANGE ANCHOR -->
 
 - **Product Marketing:** Responsible for the Solution GTM Strategy including narrative, messaging, and positioning. DRI for value plays. Marketing DRI for Sales and SDR enablement. DRI for buyer and influencer personas. Responsible for fostering participation of the entire team in the research, positioning, messaging, general strategy.
 - **Marketing Campaigns:** DRI for marketing campaigns. Responsible for the production of lead generation campaigns and rallying relevant teams and team members to deliver integrated marketing plans.
@@ -141,9 +130,7 @@ A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook
 
 </details>
 
-#### Campaign Core Team Communication
-
-{: #core-team-communication}
+#### Campaign Core Team Communication {#core-team-communication}
 
 - **Kickoff in Slack**: Campaign Manager will create a Slack channel for async communication
 - **DRI definition in Slack**: Manager, Campaigns connects with leaders of functional teams to determine functional DRIs
@@ -175,16 +162,13 @@ A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook
 
 *Because of the global nature of the GitLab team, schedules can be difficult to manage to ensure everyone can attend. For the Kickoff Call, the following team members are to be prioritized for attendance (because they are key contributors to the initial deliverables that are dependencies for other teams).*
 
-## How do we measure performance??
+## How do we measure performance?? {#campaign-performance}
 
-{: #campaign-performance .gitlab-purple}
 We leverage multi-touch attribution reporting in Sisense and Tableau to help us understand which campaigns, activities, and channels drive the best results, with a goal of SAO and Pipeline. We review these metrics at a segment/region breakout level, as well as reviewing overall campaign metrics with the campaign core teams to identify optimization opportunities to maximize results.
 
 Our dashboards are owned and managed by the Marketing Strategy and Performance team. [Learn more in the Bizible Handbook >>](/handbook/marketing/marketing-operations/bizible)
 
-## Campaign terminology
-
-{: #campaign-terminology}
+## Campaign terminology {#campaign-terminology}
 
 - **Campaign - When you hear this term used alone, please clarify what type they are referring to (see below). Please speak in specific terms to communicate more clearly.**
 - Integrated Campaign - Organized by marketing campaigns team, collaborating across marketing teams toward a launch date. It incorporates multiple offers and multiple channels.
@@ -192,10 +176,7 @@ Our dashboards are owned and managed by the Marketing Strategy and Performance t
 - Brand Awareness Campaign - Higher-level print and digital marketing efforts organized by the corporate marketing team. These are focused on brand recognition.
 - Salesforce Campaign - An object within Salesforce that represents different types of offers. These are less-so theoretical and more to capture touchpoints of prospects and customers.
 
-## FY24 Active and WIP Integrated Campaigns
-
-{: #upcoming-integrated-campaigns .gitlab-purple}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+## FY24 Active and WIP Integrated Campaigns {#upcoming-integrated-campaigns} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 - **[See FY23 Integrated Campaigns here>>](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2851)**
 - **[See FY22 Integrated Campaigns and GTM Motions here >>](/handbook/marketing/plan-fy22/)**
@@ -231,10 +212,7 @@ The below global integrated campaigns are continally optimized by the Marketing 
 - [FY23 Epic in GitLab](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2868)
 - [FY23 Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2868#memo-campaign-brief)
 
-### 🚀 Automated Software Delivery Campaign
-
-{: #cicd}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🚀 Automated Software Delivery Campaign {#cicd} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Shari Rances**
 
@@ -248,17 +226,11 @@ The below global integrated campaigns are continally optimized by the Marketing 
 - [FY23 Epic in GitLab](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2790)
 - [FY23 Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2790#memo-campaign-brief)
 
-## Past Integrated Campaigns
-
-{: #past-integrated-campaigns .gitlab-purple}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+## Past Integrated Campaigns {#past-integrated-campaigns} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 The below were campaigns run historically, and aligned to overall GTM. They have since been retired in order to run new global campaigns aigned to updated GTM strategies between Sales and Marketing.
 
-### 🚀 CI/CD (Capability Campaign)
-
-{: #cicd}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🚀 CI/CD (Capability Campaign) {#cicd} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI : Agnes Oetama (interim until Jenny T backfill hired)**
 
@@ -281,10 +253,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - Slack: [#gtm-cicd](https://gitlab.slack.com/archives/CVDQL20BA)
 - Campaign UTM = `singleappci`
 
-### 🚀 DevOp Platform (Capability Campaign)
-
-{: #devops-platform}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🚀 DevOp Platform (Capability Campaign) {#devops-platform} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Indre Kryzeviciene**
 
@@ -304,10 +273,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - Slack: [#gtm-devops-platform](https://gitlab.slack.com/archives/C01NLEXE34L)
 - Campaign UTM: `devopsgtm`
 
-### 🚀 DevSecOps (Capability Campaign)
-
-{: #devsecops-use-case}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🚀 DevSecOps (Capability Campaign) {#devsecops-use-case} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Eirini Pan**
 
@@ -324,10 +290,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001df4w?srPos=0&srKp=701)
 - Campaign UTM: `devsecopsusecase`
 
-### 🚀 GitOps (Capability Campaign)
-
-{: #gitops-use-case}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🚀 GitOps (Capability Campaign) {#gitops-use-case} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Eirini Pan**
 
@@ -343,10 +306,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001dgJ9)
 - Campaign UTM: `iacgitops`
 
-### 🚀 GitHub - Light (Competitive Campaign)
-
-{: #gitops-use-case}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🚀 GitHub - Light (Competitive Campaign) {#gitops-use-case} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Agnes Oetama**
 
@@ -359,10 +319,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Design kit](https://www.canva.com/folder/FAFE58Mm_Qk)
 - Campaign UTM: `20211202_GitHubCompetitive`
 
-### 🚀 France CI Localized
-
-{: #ci-france-localized}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🚀 France CI Localized {#ci-france-localized} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Eirini Pan**
 
@@ -374,10 +331,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Slack](https://gitlab.slack.com/archives/C012N4QKYQY)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001dfjQ)
 
-### 🚀 Germany CI Localized
-
-{: #ci-germany-localized}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🚀 Germany CI Localized {#ci-germany-localized} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Indre Kryzeviciene**
 
@@ -389,10 +343,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Slack](https://gitlab.slack.com/archives/C012QLG1NJD)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001dfqW)
 
-### 🌄 Version Control & Collaboration (VC&C)
-
-{: #vcc-use-case}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🌄 Version Control & Collaboration (VC&C) {#vcc-use-case} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Jenny Tiemann**
 
@@ -404,10 +355,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Slack](https://gitlab.slack.com/archives/CVB3AKJNA)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001dfsw)
 
-### 🌄 Competitive campaign 3.0
-
-{: #competitive-campaign-3}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🌄 Competitive campaign 3.0 {#competitive-campaign-3} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager DRI: Agnes Oetama**
 
@@ -419,10 +367,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [SFDC Campaign - Manager >>](https://gitlab.my.salesforce.com/7014M000001ll99?srPos=0&srKp=701)
 - [SFDC Campaign - Practitioner >>](https://gitlab.my.salesforce.com/7014M000001dlvz?srPos=0&srKp=701)
 
-### 🌄 Increase operational efficiencies
-
-{: #increase-operational-efficiencies}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🌄 Increase operational efficiencies {#increase-operational-efficiencies} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Jenny Tiemann**
 
@@ -434,10 +379,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Slack](https://gitlab.slack.com/archives/CCWUCP4MS)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000000CyiL)
 
-### 🌄 Deliver better products faster
-
-{: #deliver-better-products-faster}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🌄 Deliver better products faster {#deliver-better-products-faster} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Zac Badgley**
 
@@ -449,10 +391,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Campaign brief](https://docs.google.com/document/d/1dbEf1YVLPnSpFzSllRE6iNYB-ntjacENRMjUxCt8WFQ/edit)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000000Cyhm?srPos=0&srKp=701)
 
-### 🌄 Reduce security and compliance risk
-
-{: #reduce-security-compliance-risk}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🌄 Reduce security and compliance risk {#reduce-security-compliance-risk} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Originally Jackie Gragnola, transitioned to Megan Mitchell**
 
@@ -464,10 +403,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Campaign brief](https://docs.google.com/document/d/1NzFcUg-8c1eoZ1maHHQu9-ABFfQC65ptihx0Mlyd-64/edit)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000000CyeJ)
 
-### 🚀 AWS Partner
-
-{: #aws-partner}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🚀 AWS Partner {#aws-partner} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Nout Boctor-Smith**
 
@@ -479,10 +415,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Slack](https://gitlab.slack.com/archives/CRTE89C66)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001loj0)
 
-### 🌄 Operation OctoCat
-
-{: #operation-octocat}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🌄 Operation OctoCat {#operation-octocat} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Jackie Gragnola**
 
@@ -496,10 +429,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Campaign brief](https://docs.google.com/document/d/1Mcy_0cwMsTPIxWUXPgoqw9ejsRJxaZBHi4NikYTabDY/edit#heading=h.kf9lglu57c0t)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001lmdK)
 
-### 🌄 CI Build & Test Auto
-
-{: #ci-build-test-auto}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🌄 CI Build & Test Auto {#ci-build-test-auto} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Agnes Oetama**
 
@@ -511,10 +441,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Live landing page](https://about.gitlab.com/resources/ebook-single-app-cicd/)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001lkp9)
 
-### 🚀 Competitive campaign
-
-{: #competitive-commit}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🚀 Competitive campaign {#competitive-commit} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Agnes Oetama**
 
@@ -525,10 +452,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Live landing page](https://about.gitlab.com/resources/ebook-single-app-cicd/)
 - [SFDC Campaign >>](https://gitlab.my.salesforce.com/70161000000VxvJ)
 
-### 🌄 Just Commit
-
-{: #just-commit}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### 🌄 Just Commit {#just-commit} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Campaign Manager: Jackie Gragnola**
 
@@ -541,10 +465,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Meeting recordings >>](https://drive.google.com/drive/u/1/folders/147CtTEPz-fxa0m1bYxZUbOPBik-dkiYV)
 - [Meeting slide deck >>](https://docs.google.com/presentation/d/1i2OzO13v77ACYo1g-_l3zV4NQ_46GX1z7CNWFsbEPrA/edit#slide=id.g153a2ed090_0_63)
 
-## Campaign Planning
-
-{: #campaign-planning .gitlab-purple}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+## Campaign Planning {#campaign-planning} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **There will be an epic for every campaign - created by the Campaign Manager managing the campaign.**
 
@@ -554,10 +475,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 Ideally, campaigns will be agreed at least a quarter in advance to allow for ample planning and execution, prep time with agencies, creative concepting, and communication internally. This is a collaborative effort to deliver a cohesive program.
 
-### Overall Campaign Steps
-
-{: #campaign-steps}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### Overall Campaign Steps {#campaign-steps} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 - **Campaign need/timing determined by Marketing Leadership and Revenue Programs**
 - **Assign:** Campaign Manager is assigned
@@ -574,17 +492,11 @@ Ideally, campaigns will be agreed at least a quarter in advance to allow for amp
 
 [See more in Core Team Communication section >>](/handbook/marketing/campaigns/#core-team-communication)
 
-## Campaign Manager Epic Creation
-
-{: #epic-creation .gitlab-purple}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+## Campaign Manager Epic Creation {#epic-creation} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ***The Campaign Manager of the integrated campaign will create the epic with the following structure - details and links to be added up on creation of documents and timeline defined.***
 
-### Epic Code
-
-{: #epic-code}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### Epic Code {#epic-code} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ```markdown
 <!-- Name this epic: Name of Campaign [Integrated Campaign] (i.e. Automated Software Delivery [Integrated Campaign]) -->
@@ -662,15 +574,9 @@ Paid Media:
 /label ~"dg-campaigns" ~"mktg-demandgen" ~"Content Marketing" ~"Digital Marketing Programs" ~"Product Marketing" ~mktg-website ~design ~"Social Media" ~"Portfolio Marketing" ~"mktg-status::wip"
 ```
 
-## Sales Lead Funnel Cross-Over with All-Remote
+## Sales Lead Funnel Cross-Over with All-Remote {#funnel-crossover-all-remote} <!-- DO NOT CHANGE THIS ANCHOR -->
 
-{: #funnel-crossover-all-remote .gitlab-purple}
-<!-- DO NOT CHANGE THIS ANCHOR -->
-
-### Diagram of sales lead funnel cross-over with all-remote
-
-{: #funnel-crossover-all-remote-diagram}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### Diagram of sales lead funnel cross-over with all-remote {#funnel-crossover-all-remote-diagram} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Below is a V1 visual in Mural of the sales lead funnel (pre-opportunity) on the left and the all-remote funnel on the right. Discussion of how and when to "bridge the gap" between the funnels - potentially sharing GitLab audience-targeted offers within All-Remote communications - is included [in this issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2590).
 

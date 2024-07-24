@@ -29,8 +29,9 @@ See the [list of global labels and tags](/handbook/infrastructure-standards/labe
 
 ## Shutdown after Days (`gl_sandbox_shutdown_after_days`)
 
+{{% alert color="success" %}}
 This label/tag is required. Some Terraform modules will automatically calculate this for you.
-{: .alert .alert-success}
+{{% /alert %}}
 
 ```terraform
 gl_sandbox_shutdown_after_days: '14'
@@ -52,8 +53,9 @@ Our scripts will rescan shutdown resources and **permanently destroy them after 
 
 ## Shutdown resources outside of working hours (`gl_sandbox_shutdown_working_hours`)
 
+{{% alert color="info" %}}
 This label/tag is recommended. Some Terraform modules will automatically calculate this for you. This is for future proofing and may not be fully implemented in this iteration.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ```terraform
 gl_sandbox_shutdown_working_hours: 'true'
@@ -68,8 +70,9 @@ gl_sandbox_shutdown_working_hours: 'true'
 
 ## Expiration Date for Resources to Shutdown (`gl_sandbox_shutdown_date`)
 
+{{% alert color="info" %}}
 This label/tag is optional. Some Terraform modules will automatically calculate this for you.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ```terraform
 gl_sandbox_shutdown_date: '2020-06-30'
