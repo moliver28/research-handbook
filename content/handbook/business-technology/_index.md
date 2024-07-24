@@ -35,9 +35,7 @@ Provide a stable, secure, compliant and highly integrated solutions ecosystem to
 
 1. **Company-wide Business Technology** - [Tech Stack](../business-technology/tech-stack.md)
 
-2. **Reference Architecture:** <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/ea55fafd-7979-4319-a3f0-b9f750fcea04" id="jf4WoN9QiA1_"></iframe></div>
-
-3. **Application EcoSystem We Support**
+2. **Application EcoSystem We Support**
     - Zuora (CPQ & Billing)
     - Zuora Revenue
     - Tesorio
@@ -59,7 +57,7 @@ Provide a stable, secure, compliant and highly integrated solutions ecosystem to
     - Salesforce
     - Ownbackup
 
-4. **Services**
+3. **Services**
     - IT Strategy and Management
     - IT Portfolio, Program & Project Management
     - Enterprise Architecture
@@ -82,7 +80,7 @@ Provide a stable, secure, compliant and highly integrated solutions ecosystem to
          - New Technology Evaluations: Evaluate, negotiate and purchase technology. Set criteria for when, others within the organization can purchase, implement and deploy technology
     - Digital Transformation: The adoption of digital technologies to innovate and reimplement existing business, talent, and operating models to drive growth, business value, and improved customer experience.
 
-5. **Services We Support: Finance Systems Service Desk**    
+4. **Services We Support: Finance Systems Service Desk**    
     - New SKU Request
          - Open a [New SKU issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) using the CM: Add_New_SKU template or CM: Add_New_PS_SKU for a Professional Services SKU.
     - Retire SKU Request
@@ -101,21 +99,21 @@ Provide a stable, secure, compliant and highly integrated solutions ecosystem to
     - Zuora Central Sandbox Refresh
          - Open a [Zuora Central Sandbox Refresh issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) using the Sandbox - Zuora Central Refresh template.
 
-6. **Partnerships & Collaborations with:**
+5. **Partnerships & Collaborations with:**
     - [Security Team](../security/): Conform to the established cybersecurity framework and requirements
     - IT Operations 
     - [Data Team](../business-technology/data-team/): Empower and generate business value from our data assets by using the data to drive optimal business decisions across GitLab.
     - [Procurement Team](../finance/procurement/)  
     - People Operations Systems Team
 
-7. **Join Our Team** - [Current Job Openings](https://about.gitlab.com/jobs/all-jobs/#general-administrative)
+6. **Join Our Team** - [Current Job Openings](https://about.gitlab.com/jobs/all-jobs/#general-administrative)
 
-8. **Contact Us**
+7. **Contact Us**
     - **For Technical Support, Service Requests or General Questions:** HelpLab - [IT Break/Fix Request](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=07b1f158979c4610a326158de053affb)
     - Slack Channels
         - #[enterprise-apps](https://gitlab.slack.com/archives/CCPG8P3K4)
         - #[business-technology](https://gitlab.slack.com/archives/C01BLS12V37)
 
-9. **Other Reference**
+8. **Other Reference**
     - [Quote to Cash Documentation](../business-technology/enterprise-applications/quote-to-cash/)
     - [Enterprise Application Guides:](../business-technology/enterprise-applications/guides/) GitLab's Enterprise Application Guides for Finance Systems
