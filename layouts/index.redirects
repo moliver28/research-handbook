@@ -76,5 +76,8 @@
 /handbook/customer-success/csm/segment/cse/webinar-calendar/ https://university.gitlab.com/pages/gitlab-user-webinars 301
 /handbook/customer-success/csm/segment/scale/webinar-calendar/  https://university.gitlab.com/pages/gitlab-user-webinars 301
 
+# Growth section move from Marketing to Engineering - remove 2024-12-01
+/handbook/marketing/growth/engineering/* /handbook/engineering/development/growth/:splat 301
+
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301

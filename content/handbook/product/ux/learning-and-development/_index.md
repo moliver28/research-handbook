@@ -99,7 +99,7 @@ Managers should add approved growth and development programs to the [department 
 
 ### Handbook
 
-- [Minimum Viable Experiment](/handbook/marketing/growth/engineering/experimentation/#minimum-viable-experiment-mve)
+- [Minimum Viable Experiment](/handbook/engineering/development/growth/experimentation/#minimum-viable-experiment-mve)
 - [How Growth launches experiments](/handbook/product/growth/#how-growth-launches-experiments)
 - [Growth Experiments Knowledge Base](/handbook/marketing/growth/)
 

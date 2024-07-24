@@ -6,7 +6,7 @@ title: Experimentation Design & Analysis
 
 At GitLab, we have a unique approach to experimentation that is built in-house by our incredible development team. The reason we use this approach is to uphold our commitment to our users and customers to protect their privacy. This custom approach leads to some challenges that are not experienced with more commonly used 3rd party experimentation tools. Due to this reality, experimentation at GitLab must be approached with a high level of intentionality and forethought. The purpose of this handbook page is to create some guidelines around experimentation to avoid common errors and to define best practices.
 
-In order to increase our [velocity](/handbook/marketing/growth/engineering/#experiment-cadence)
+In order to increase our [velocity](/handbook/engineering/development/growth/#experiment-cadence)
 while maintaining our ability to learn from experiments, the GitLab Growth stage (including the
 Product Analysis group) is adopting a new framework for designing and analyzing experiments. This
 framework is adapted from the work of data scientist [Danielle Nelson](https://www.linkedin.com/in/daniellevnelson/).
@@ -325,7 +325,7 @@ You can find additional experimentation resources throughout the handbook and Gi
 Here are a few pages to check out:
 
 - [How Growth launches experiments](/handbook/product/growth/#how-growth-launches-experiments)
-- [Growth Engineering Guide to running experiments](/handbook/marketing/growth/engineering/experimentation/)
+- [Growth Engineering Guide to running experiments](/handbook/engineering/development/growth/experimentation/)
 - [GitLab Experiment Guide](https://docs.gitlab.com/ee/development/experiment_guide/)
 - [Experimentation Best Practices](/handbook/business-technology/data-team/experimentation-best-practices/)
 

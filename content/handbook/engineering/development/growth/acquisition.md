@@ -75,6 +75,6 @@ for work in the [build phase](/handbook/product-development-flow/#build-track) o
 
 ## Common Links
 
-- [Growth Stage](/handbook/marketing/growth/engineering/)
+- [Growth Stage](/handbook/engineering/development/growth/)
 - [Acquisition issues](https://gitlab.com/gitlab-org/growth/product/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Aacquisition)
 - `#g_acquisition` in [Slack](https://gitlab.slack.com/archives/g_acquisition) (GitLab internal)
