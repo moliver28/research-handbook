@@ -170,7 +170,7 @@ These items must be triaged continuously throughout the milestone which means th
      - [Issue #3456](link to issue): Description of the issue, current status, and next steps.
 
 #### **Additional Notes**
-  
+
 1. **Any additional context or notes relevant to the next engineer:**
    - Additional Note.
 
@@ -410,6 +410,11 @@ The OCS module is part of the [`gitlab-agent`](https://gitlab.com/gitlab-org/clu
 ### Semver dialects gem
 
 - [semver_dialects](https://gitlab.com/gitlab-org/ruby/gems/semver_dialects)
+
+### CI/CD components
+
+- [Dependency Scanning](https://gitlab.com/components/dependency-scanning)
+- [Container Scanning](https://gitlab.com/components/container-scanning)
 
 ### Upstream scanner mirrors
 
