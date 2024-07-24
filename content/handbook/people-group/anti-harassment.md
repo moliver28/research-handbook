@@ -5,7 +5,7 @@ aliases:
 - /handbook/anti-harassment/
 ---
 
-{{% panel header="**This is a Secure Document**" header-bg="warning" %}}
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
 Per the stated [Roles & Responsibilities](/handbook/people-group/anti-harassment/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
 {{% /panel %}}
 
