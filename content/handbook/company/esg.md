@@ -331,7 +331,7 @@ The GitLab Foundation is an independent nonprofit entity and its operations are 
 
 ### Environment
 
-#### Climate Action and Greenhouse (GHG) Emissions*
+#### Climate Action and Greenhouse (GHG) Emissions
 
 (UN SDG #13)
 
