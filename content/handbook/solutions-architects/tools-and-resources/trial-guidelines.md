@@ -101,7 +101,7 @@ Follow the previous instructions "I am new to GitLab" and create a new group for
 
 To populate the group with project data you can use the following methods:
 
-1. Use copies of your own existing groups/projects
+##### Use copies of your own existing groups/projects
 
 - [Copy Groups and Projects](https://docs.gitlab.com/ee/user/group/import/index.html)
   - When copying from one GitLab.com namespace to another, you must copy all subgroups and projects. This is not recommended for customers with a large number of groups and projects.
@@ -116,7 +116,7 @@ To populate the group with project data you can use the following methods:
   - Any of the above approaches can be combined with mirroring to make sure that branches, tags, and commits are synced
   - Items such as Merge Requests and issues are not synced
 
-1. Use GitLab Security demo projects
+##### Use GitLab Security demo projects
 
 GitLab provides a [set of security demos](https://gitlab.com/gitlab-org/security-products/demos) to show how the various security scans work.
 
