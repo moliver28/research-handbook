@@ -6,17 +6,23 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 ## Campaign Overview {#overview .alert .alert-gitlab-orange}
 
-### Business Objectives {#business-objectives} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Business Objectives {#business-objectives}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 1. Connect with the manager of App/Dev, show them the value of GitLab CI
 2. Drive conversion optimization throughout the funnel to increase asset downloads
 3. Free trials driven by the campaign page
 
-### Campaign Visual {#campaign-visual} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Campaign Visual {#campaign-visual}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 ![''](/images/handbook/marketing/marketing-programs/CI-CD_Campaign_Flow.png.png)
 
-### Campaign Pages & Activities {#campaign-activities} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Campaign Pages & Activities {#campaign-activities}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 **[See the FY22 Marketing Calendar for upcoming virtual events >>](https://docs.google.com/spreadsheets/d/1c2V3Aj1l_UT5hEb54nczzinGUxtxswZBhZV8r9eErqM/edit#gid=571560493&fvid=1408681455)**
 
@@ -28,9 +34,13 @@ Always On Lead Generation:
 
 ## Research & Prep {#research-prep}
 
-### Persona & Positioning {#persona-positioning} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Persona & Positioning {#persona-positioning}
 
-#### Target Persona 1: Manager of App & Dev {#persona-1} <!-- DO NOT CHANGE THIS ANCHOR -->
+<!-- DO NOT CHANGE THIS ANCHOR -->$
+
+#### Target Persona 1: Manager of App & Dev {#persona-1}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 - **Level:** Manager
 - **Function:** Dev, App
@@ -55,7 +65,9 @@ Always On Lead Generation:
   - GitLab enables faster release cycles in batches of small iterations without requiring a complete overhaul of existing development workflows and/or DevOps tools
   - GitLab's built-in CI means less context switching between tools and more time that developers spend writing code. Overall productivity increases
 
-#### Target Persona 2: Practitioners {#persona-2} <!-- DO NOT CHANGE THIS ANCHOR -->
+#### Target Persona 2: Practitioners {#persona-2}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 - **Level:** Practitioner
 - **Function:** Developers, DevOps engineers, Development leads
@@ -81,13 +93,19 @@ Always On Lead Generation:
   - GitLab as a single application provides end-to-end visibility into the SDLC and promotes better, more frequent, collaboration among teams. Errors are caught earlier in the process before they turn into bigger problems.
   - GitLab enables faster release cycles in batches of small iterations without requiring a complete overhaul of existing development workflows and/or DevOps tools
 
-### Keyword Research {#keyword-research} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Keyword Research {#keyword-research}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 **[See the CI/CD keyword research doc >>](https://docs.google.com/spreadsheets/d/1qUvAOv33guzXgxAgVX6M0kLXRrJQLe_IriiFkg4fjVM/edit?usp=sharing)**
 
-### Polished Messaging {#polished-messaging} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Polished Messaging {#polished-messaging}
 
-#### Overall {#polished-messaging-overall} <!-- DO NOT CHANGE THIS ANCHOR -->
+<!-- DO NOT CHANGE THIS ANCHOR -->$
+
+#### Overall {#polished-messaging-overall}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 |  | Polished Messaging |
 | ------ | ------ |
@@ -103,7 +121,9 @@ Always On Lead Generation:
 | |3. Cloud native |
 | **Top-level Keywords**  | `continuous integration`, `ci`, `ci cd pipeline`, `ci process`, `ci tools`, `yaml`, `DevOps` |
 
-#### Enterprise Segment {#polished-messaging-enterprise} <!-- DO NOT CHANGE THIS ANCHOR -->
+#### Enterprise Segment {#polished-messaging-enterprise}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 |   | Polished Messaging |
 | ------ | ------ |
@@ -120,11 +140,17 @@ Always On Lead Generation:
 |  |5. DevOps|
 | **Top-level Keywords**  | `CI`, `continuous integration`, `CI pipelines`, `CI/CD pipelines`, `CD`, `continuous delivery`, `DevSecOps`, `DevOps` |
 
-## Buyer Journeys, Content & Emails {#content-emails} <!-- DO NOT CHANGE THIS ANCHOR -->
+## Buyer Journeys, Content & Emails {#content-emails}
 
-### Prescriptive Buyer Journeys {#buyer-journey} <!-- DO NOT CHANGE THIS ANCHOR -->
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
-#### Individual Contributor {#buyer-journey-ic} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Prescriptive Buyer Journeys {#buyer-journey}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
+
+#### Individual Contributor {#buyer-journey-ic}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 | Stage | Asset 1 | Asset 2| Asset 3 |
 | ------ | ------ | -------| -------|
@@ -132,7 +158,9 @@ Always On Lead Generation:
 | Consideration | [[VIDEO] Getting started with GitLab CI/CD](https://www.youtube.com/watch?v=sIegJaLy2ug&feature=youtu.be) | [[VIDEO] Build and test automation](https://youtu.be/6207TKNGgJs) | [[VIDEO] GitLab for complex CI/CD: Robust, visible pipelines](https://www.youtube.com/watch?v=qy8A7Vp_7_8) |
 | Purchase| [[REFERENCE] Goldman Sachs improves from 1 build every 2 weeks to 1000+ per day](https://about.gitlab.com/customers/goldman-sachs/)| [[REFERENCE] Paessler AG switched from Jenkins to GitLab](https://about.gitlab.com/customers/paessler/)| [[REFERENCE] Hotjar - Time of CI builds decreased by 30%, improved to 2-15 deploys per day, and 50% deployment time saved](https://about.gitlab.com/customers/hotjar/)|
 
-#### Manager {#buyer-journey-manager} <!-- DO NOT CHANGE THIS ANCHOR -->
+#### Manager {#buyer-journey-manager}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 | Stage | Asset 1 | Asset 2| Asset 3 |
 | ------ | ------ | -------| -------|
@@ -140,11 +168,15 @@ Always On Lead Generation:
 | Consideration | [[EBOOK] Benefits of single application CI/CD](https://about.gitlab.com/resources/ebook-single-app-cicd/) | [[REPORT] The Total Economic Impact™ of GitLab](https://about.gitlab.com/resources/report-forrester-tei/) | [[VIDEO] GitLab CI/CD Overview](https://www.youtube.com/watch?v=wsbSvLyC2Z8) |
 | Purchase| [[ANALYST] The 2019 Forrester Wave™: Cloud-Native Continuous Integration Tools](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/4203)| [[REFERENCE] How Jaguar Land Rover embraced CI to speed up builds](https://about.gitlab.com/blog/2018/07/23/chris-hill-devops-enterprise-summit-talk/)| [COMPETITIVE] GitLab vs. Jenkins |
 
-### Marketo Nurture Emails {#nurture-emails} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Marketo Nurture Emails {#nurture-emails}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 **[See Marketo Nurture Email Copies >>](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2478#ship-final-copies)**
 
-### Outreach Emails {#outreach-emails} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Outreach Emails {#outreach-emails}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 #### MASTER|Inbound sequence for each region
 
@@ -158,9 +190,13 @@ Always On Lead Generation:
 - [EMEA](https://app1a.outreach.io/sequences/5395)
 - [APAC](https://app1a.outreach.io/sequences/5396)
 
-## Behind the Scenes {#behind-the-scenes} <!-- DO NOT CHANGE THIS ANCHOR -->
+## Behind the Scenes {#behind-the-scenes}
 
-### Campaign Execution Documentation & Resources {#campaign-execution} <!-- DO NOT CHANGE THIS ANCHOR -->
+<!-- DO NOT CHANGE THIS ANCHOR -->$
+
+### Campaign Execution Documentation & Resources {#campaign-execution}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 - [Campaign Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/741)
 - [Project timeline plan](https://docs.google.com/spreadsheets/d/1a-0P2N8LKxqmMJLKv2ZlUbXXeu7I1dMSfXHWqzl0rg0/edit#gid=1426779885)

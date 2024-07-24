@@ -12,7 +12,9 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 MURAL goes here
 
-### Campaign Pages & Activities {#campaign-activities} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Campaign Pages & Activities {#campaign-activities}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 **See the FY22 Marketing Calendar for upcoming virtual events**
 
@@ -23,38 +25,56 @@ Always On Lead Generation:
 
 ## Research & Prep {:#research-prep}
 
-### Persona & Positioning {#persona-positioning} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Persona & Positioning {#persona-positioning}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 - Level:
 - Function:
 
-### Keyword Research {#keyword-research} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Keyword Research {#keyword-research}
 
-### Polished Messaging {#polished-messaging} <!-- DO NOT CHANGE THIS ANCHOR -->
+<!-- DO NOT CHANGE THIS ANCHOR -->$
+
+### Polished Messaging {#polished-messaging}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 ## Buyer Journeys, Content & Emails {#content-emails}
 
-### Prescriptive Buyer Journeys {#buyer-journey} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Prescriptive Buyer Journeys {#buyer-journey}
 
-#### Individual Contributor {#buyer-journey-ic} <!-- DO NOT CHANGE THIS ANCHOR -->
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
-1. Awareness Content:
-1. Consideration Content:
-1. Decision/Purchase Content:
+#### Individual Contributor {#buyer-journey-ic}
 
-#### Manager {#buyer-journey-manager} <!-- DO NOT CHANGE THIS ANCHOR -->
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 1. Awareness Content:
 1. Consideration Content:
 1. Decision/Purchase Content:
 
-### Marketo Nurture Emails {#nurture-emails} <!-- DO NOT CHANGE THIS ANCHOR -->
+#### Manager {#buyer-journey-manager}
 
-### Outreach Emails {#outreach-emails} <!-- DO NOT CHANGE THIS ANCHOR -->
+<!-- DO NOT CHANGE THIS ANCHOR -->$
+
+1. Awareness Content:
+1. Consideration Content:
+1. Decision/Purchase Content:
+
+### Marketo Nurture Emails {#nurture-emails}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
+
+### Outreach Emails {#outreach-emails}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 ## Behind the Scenes {#research-prep}
 
-### Campaign Execution Documentation & Resources {#campaign-execution} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Campaign Execution Documentation & Resources {#campaign-execution}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 ```text
 - [Campaign Epic]()

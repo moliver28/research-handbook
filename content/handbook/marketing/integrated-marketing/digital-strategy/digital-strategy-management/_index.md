@@ -2,9 +2,13 @@
 title: "Digital Strategy Management"
 ---
 
-## Digital Strategy Team {#digital-marketing-management} <!-- DO NOT CHANGE THIS ANCHOR -->
+## Digital Strategy Team {#digital-marketing-management}
 
-### Goals and Objectives {#goals-objectives} <!-- DO NOT CHANGE THIS ANCHOR -->
+<!-- DO NOT CHANGE THIS ANCHOR -->$
+
+### Goals and Objectives {#goals-objectives}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 **Team Charter:**
 
@@ -61,7 +65,9 @@ The digital marketing manager will need to be briefed on the campaign by the cor
 
 ## Using GitLab: Digital Marketing Project
 
-### Labels {#labels} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Labels {#labels}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 *Note*: Some of the following labels only exist on the [Digital Marketing project](https://gitlab.com/gitlab-com/marketing/demand-generation/digital-marketing) level.
 
@@ -72,14 +78,20 @@ The digital marketing manager will need to be briefed on the campaign by the cor
 * **mktg-demandgen** - Demand Gen general, add since we are part of the Demand Gen team
 * **mktg-digitalmarketing** - Digital Marketing general, issues specific to Digital Marketing only
 
-### Slack channels {#slack} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Slack channels {#slack}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 * `#digital-marketing`: General digital marketing conversation and questions
 * `#integrated-marketing`: For the wider Integrated Marketing team, to share and discuss issues, projects, trainings, and resources that connect the Digital, Campaigns, Field, and Partner Marketing departments.
 
-## Paid Digital Marketing {#paid-digital-marketing} <!-- DO NOT CHANGE THIS ANCHOR -->
+## Paid Digital Marketing {#paid-digital-marketing}
 
-### How does paid digital contribute to GitLab's funnel? {#funnel} <!-- DO NOT CHANGE THIS ANCHOR -->
+<!-- DO NOT CHANGE THIS ANCHOR -->$
+
+### How does paid digital contribute to GitLab's funnel? {#funnel}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 * Top of Funnel (Awareness): Introduce GitLab brand to potential customers with awareness and educational content.
 * Middle of Funnel (Consideration): Nurturing engaged prospects with solutions-based assets, consideration-stage content and events.
@@ -89,7 +101,9 @@ The digital marketing manager will need to be briefed on the campaign by the cor
 
 The Digital Marketing team's strategy & execution ultimately leads to filling pipeline, while closely analyzing down-funnel metrics & results in order to influence & optimize top of funnel strategy in a feedback loop.
 
-### External Agencies {#agency} <!-- DO NOT CHANGE THIS ANCHOR -->
+### External Agencies {#agency}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 We work with external agencies to help support campaign execution including competitive research, media buys, campaign optimization and reporting.  GitLab is responsible for campaign set up and monthly and quarterly read outs to our core planning team members.
 
@@ -130,13 +144,17 @@ Release: Which GitLab teams should have visibility into the campaigns we are run
     Alliances marketing<br>
    MS&P<br>
 
-## Digital Campaign Channels {#campaign-channels} <!-- DO NOT CHANGE THIS ANCHOR -->
+## Digital Campaign Channels {#campaign-channels}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 **(incomplete list)**
 
 Digital Marketing will recommend specific channels based on your campaign goals. The most common type is Paid Social based on robust targeting criteria and successful performance in reach and inquiry volume.
 
-### Channels {#channels} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Channels {#channels}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 * Paid Social
   * LinkedIn  - Sponsored Content Ads, Carousel Ads, InMail/Message Ads, and Conversation Ads
@@ -164,9 +182,13 @@ Digital Marketing will recommend specific channels based on your campaign goals.
   * Microsites
   * Content Syndication
 
-### Channel definitions {#channel-definitions} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Channel definitions {#channel-definitions}
 
-#### **Paid Social** {#paid-social} <!-- DO NOT CHANGE THIS ANCHOR -->
+<!-- DO NOT CHANGE THIS ANCHOR -->$
+
+#### **Paid Social** {#paid-social}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 Paid social ads are sponsored ads that we show on social platforms. The three social media platforms that we primarily advertise on are Facebook/Instagram, LinkedIn (including LinkedIn InMail & Conversation Ads), and Twitter. LinkedIn is our top platform in general due to its firmographic targeting, allowing us to target more effectively toward specific segments & job criteria.
 
@@ -178,7 +200,9 @@ Paid social ads are sponsored ads that we show on social platforms. The three so
   * **Account targeting**: Sponsored ads on targeting speciific accounts or contacts based on a list upload or import from Marketo. LinkedIn is the top channel for this type of marketing based on a +90% account match rate, whereas Facebook and Instagram requires accounts to be manually entered in order to target.
   * **Retargeting**: Re-engage people who have already visited pages on the GitLab website, engaged with GitLab content, or are currently within our nurture. Note: It's necessary to have a large audience for this tactic to be successful due to email match rates within the platforms.
 
-#### **Paid Search** {#paid-search} <!-- DO NOT CHANGE THIS ANCHOR -->
+#### **Paid Search** {#paid-search}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 As people are researching or exploring keywords relevant to GitLab, we used Google AdWords to promote [responsive search ads](https://support.google.com/google-ads/answer/7684791?hl=en) on the Google search engine to drive people to specific GitLab landing pages. We do this by [bidding](https://support.google.com/google-ads/answer/2459326?hl=en) on targeted keywords and phrases based on the assumed intent of the person, triggering the ad relevant to a specific user search query, and leading users to a related landing page that matches that intent.
 
@@ -188,7 +212,9 @@ As people are researching or exploring keywords relevant to GitLab, we used Goog
   * **Targeting**: Paid Search is neither able to target by company size/segments nor by domain or company name. While this channel is best used for brand campaigns, non-brand campaigns also work well for specific research intent.
   * **Retargeting**: Re-engage people who have already visited pages on the GitLab website, engaged with GitLab content, or are currently within our nurture. While the retargeting reach is lower within AdWords compared to Paid Social channels, the user intent & continued research within the audience leads to high conversion rates down-funnel.
 
-#### **Paid Display** {#paid-display} <!-- DO NOT CHANGE THIS ANCHOR -->
+#### **Paid Display** {#paid-display}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 Display ads are banner ads that we mostly run are through the [Google Display Network](https://support.google.com/google-ads/answer/2404190?hl=en) (GDN). GDN will show banner ads on websites that have [Google Adsense](https://support.google.com/adsense/answer/6242051?hl=en) set up on their website. There are no specific websites we show banner ads on - we earn the ad space by bidding on placements based on specific targeting criteria such as demographics, topics, and interests. On occasion, we run banner ads on specific websites through direct buys, but this is handled more in the publisher program.
 
@@ -200,7 +226,9 @@ Display ads are banner ads that we mostly run are through the [Google Display Ne
   * **Prospecting targeting**: Show banner ads to related audiences that are similar to those who have converted on our website. A profile is developed based on people who convert. We would then show banner ads to people that closely match that profile. This method helps drive new traffic to GitLab that may not know about the brand or product.
   * **Retargeting**: Re-engage people who have already visited pages on the GitLab website, engaged with GitLab content, or are currently within our nurture. This tactic can show ads on what seems to be irrelevant websites. However, targeting is based on the engagement of the person, not the context of a website.
 
-#### **Publisher Sponsorships** {#publisher-sponsorships} <!-- DO NOT CHANGE THIS ANCHOR -->
+#### **Publisher Sponsorships** {#publisher-sponsorships}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 Publisher sponsorships are when we engage a specific publisher in order to purchase placement on their web properties. Generally, we make sure the publisher's website(s) and audience closely match the profile of who we want to advertise to before engaging with the publisher. Sponsorships are less turn key than our other programs - while they require longer planning and execution, heavier lifts in content creation, and manual reporting, the long investment results in more qualified leads that are aligned with our goals & target audience.
 
@@ -228,9 +256,13 @@ It is important to work through the digital marketing team for your paid media r
 
 We will also provide insight into asset specific performance and what we should expect from an asset should that differ greatly from the goals that are set.  This should prompt an open and collaborative discussion.
 
-## Finance {#finance} <!-- DO NOT CHANGE THIS ANCHOR -->
+## Finance {#finance}
 
-### Allocadia {#allocadia} <!-- DO NOT CHANGE THIS ANCHOR -->
+<!-- DO NOT CHANGE THIS ANCHOR -->$
+
+### Allocadia {#allocadia}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 Allocadia is the single source of truth for Digital Marketing's planned and forecasted budget throughout the fiscal year.
 
@@ -246,7 +278,9 @@ Each quarter's plan is locked in Allocadia at least 2-3 days before the next qua
 
 Since our budget is originally planned to accommodate our quarterly goals, we need to reconcile spend with Allocadia every month to make sure we are on pace to spend our planned budget. Since budget is strictly fluid within the quarter, Finance will alert Digital Marketing if we are pacing behind budget for a quarter in case we need to redistribute those funds.
 
-### Accruals & Invoices {#accruals-invoices} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Accruals & Invoices {#accruals-invoices}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 Due at least 4-5 business days before the end of the month, Digital Marketing works closely with PMG to prepare accruals (estimated billing amounts) for end of the month. Aside from the core Digital campaigns, PMG will notate which department (such as Field Marketing, ABM, Corporate, etc) is responsible for accrued spend, and Digital Marketing will verify the Allocadia IDs and Coupa POs related to each line item.
 
@@ -254,11 +288,15 @@ Once the month has ended, PMG will update the accruals sheet with actuals (final
 
 For information on the Financial Planning processes & timelines for Digital Marketing, please follow the [Marketing Finance handbook page](/handbook/finance/financial-planning-and-analysis/marketing-finance/).
 
-### Digital Campaign Ad Specs {#specs} <!-- DO NOT CHANGE THIS ANCHOR -->
+### Digital Campaign Ad Specs {#specs}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 Each paid channel has its own unique design specifications, ad copy character limits, and recommendations for their ad types to ensure ads can run at their optimal performance. If you do not yet have creative assets secured for your campaign, the design team can use this section as their guide when producing your creative. The standard requests for paid social images based on PMG recommendations are 1080x1920px, 1080x1080px, and 628x1200px.
 
-#### Paid Social {#social-specs} <!-- DO NOT CHANGE THIS ANCHOR -->
+#### Paid Social {#social-specs}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 * LinkedIn Image (Sponsored Content):
   * Text recommendations
@@ -321,7 +359,9 @@ Each paid channel has its own unique design specifications, ad copy character li
   * Copy: Primary Text: 280 character limit
   * Copy: Headline: 70 character limit
 
-#### Paid Display (Google Display Network) {#display-specs} <!-- DO NOT CHANGE THIS ANCHOR -->
+#### Paid Display (Google Display Network) {#display-specs}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 * Regular Display Ad Sizes
   * 160x600 pixels
@@ -347,14 +387,18 @@ Each paid channel has its own unique design specifications, ad copy character li
   * "Learn More" CTA
   * 4-7 word volume
 
-#### Paid Search {#search-specs} <!-- DO NOT CHANGE THIS ANCHOR -->
+#### Paid Search {#search-specs}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 * Responsive Search Ads
   * Copy: Description: 90 character limit, up to 4 options per ad
   * Copy: Headline: 30 character limit, up to 15 options per ad
   * Copy: Display URL path: 15 character limit, up to 2 per ad
 
-## UTMs for URL tagging and tracking {#utm-tracking} <!-- DO NOT CHANGE THIS ANCHOR -->
+## UTMs for URL tagging and tracking {#utm-tracking}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 All URLs that are promoted on external sites and through email must use UTM URL tagging to increase the data cleanliness in Google Analytics and ensure marketing campaigns are correctly attributed.
 
@@ -375,7 +419,9 @@ UTM construction best practices:
 * **Campaign Content** differentiates ad types.
 * **Campaign Term** identifies keywords used in a campaign
 
-## Opt-Out of Seeing GitLab Digital Ads {#opt-out-ads} <!-- DO NOT CHANGE THIS ANCHOR -->
+## Opt-Out of Seeing GitLab Digital Ads {#opt-out-ads}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 We run digital ads on the following channels:
 

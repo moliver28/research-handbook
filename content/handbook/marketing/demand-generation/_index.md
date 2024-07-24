@@ -23,6 +23,8 @@ twitter_creator: "@gitlab"
 
 [See team members in org chart](https://comp-calculator.gitlab.net/org_chart)
 
-## Reporting {#reporting} <!-- DO NOT CHANGE THIS ANCHOR -->
+## Reporting {#reporting}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->$
 
 Please see [Demand Generation Reporting Handbook Page](/handbook/marketing/demand-generation/reporting/) for all details related to our reporting and dashboard analysis, as well as deeper dives into opporutnities to optimize and drive results against targets.
