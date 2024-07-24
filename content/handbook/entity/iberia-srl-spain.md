@@ -3,15 +3,9 @@ title: "GitLab Iberia s.r.l. (Spain) Information and Benefits"
 description: "Entitity Information for GitLab Iberia s.r.l. Spain Team Members"
 ---
 
-<div class="panel panel-gitlab-orange">
-**This is a Secure Document**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
 Per the stated [Roles & Responsibilities](/handbook/entity/iberia-srl-spain/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
-
-</div>
-</div>
+{{% /panel %}}
 
 Bienvenido! This Handbook is for team members employed by GitLab Iberia s.r.l and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
 

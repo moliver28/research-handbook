@@ -1105,8 +1105,6 @@ Paragraph
 
 ### Heading {#hello}
 
-{: .no_toc}
-
 List:
 
 - {: .class} List item with custom class
@@ -1702,8 +1700,6 @@ Copy the code below and paste to your markdown file (leave a blank line above an
 
 #### Output:
 
-{: .no_toc}
-
 <figure class="video_container">
 <iframe src="https://docs.google.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/pubhtml?widget=true&amp;headers=false"></iframe>
 </figure>
@@ -1725,8 +1721,6 @@ Copy the code below and paste to your markdown file (leave a blank line above an
 ```
 
 #### Output:
-
-{: .no_toc}
 
 <figure class="video_container">
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS_iuMXnp61wlo4amm5nvHr4Ir8VUzisJSBsr7YEL7fKWAiT-9bmehyngtb9TYaFEsFnRokCyIXwsvY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -1775,8 +1769,6 @@ with the rest of the handbook.
 {: .alert .alert-info}
 
 #### Output:
-
-{: .no_toc}
 
 <figure>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/EixD8OUMBX65Jy" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
@@ -1944,7 +1936,5 @@ where you'll be able to see exactly how everything was written to produce the re
 
 
 ## More
-
-{: .no_toc}
 
 Anything else you know of and is not described here? Any new magic? Any trick? Please contribute!
