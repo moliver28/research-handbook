@@ -7,18 +7,14 @@ description: "This page is meant to house resources and processes for the market
 
 ## <i class="fas fa-calendar-check fa-fw color-orange font-awesome"></i> Marketing Calendar
 
-## Adding to the All-Marketing Calendar
+## Adding to the All-Marketing Calendar {#marketing-calendar-inputs} <!-- DO NOT CHANGE ANCHOR -->
 
-{: #marketing-calendar-inputs}
-<!-- DO NOT CHANGE ANCHOR -->
 **Location for inputs: In your [Google Drive](https://drive.google.com/drive/u/1/my-drive), search for (and bookmark) `FY24 All-Marketing Calendar SSoT`.**
 
 This is where all teams will input and categorize planned activities - with filters that align to key pieces of information (GTM Motion, Alliance Partners, Sales Segments, Regions, Language, and more). This will be iterative and everyone should feel open to share their feedback and ideas - [comment in the issue to sare your thoughts!](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/3324)
 
-### Marketing team additions to All-Marketing Calendar
+### Marketing team additions to All-Marketing Calendar {#inputs-marketing-additions} <!-- DO NOT CHANGE ANCHOR -->
 
-{: #inputs-marketing-additions}
-<!-- DO NOT CHANGE ANCHOR -->
 The instructions below are to be followed by marketing team members. Add a row at bottom of [All-Marketing Calendar spreadsheet](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493) or insert in the appropriate date (either way, this will be re-sorted by marketing periodically). If you don't have all the details, don't worry - fill in what you can and work together to outline the information that is valuable for integrating our marketing tactics as a team.
 
 **BASIC DETAILS**
@@ -59,18 +55,14 @@ The instructions below are to be followed by marketing team members. Add a row a
 * **SA/TM Commitment**:  Added by Marketing
 * **Customer Speaker?**: Include if there is a customer speaker for the activity.
 
-## Mockup of All-Marketing Calendar (Future Visualization)
+## Mockup of All-Marketing Calendar (Future Visualization) {#marketing-calendar-mockup} <!-- DO NOT CHANGE ANCHOR -->
 
-{: #marketing-calendar-mockup}
-<!-- DO NOT CHANGE ANCHOR -->
 In the future, the goal is to visualize these inputs in a calendar format with filters (based on columns in the doc) to allow the team to see the plans in Sisense. [View the Basic Mockup in FigJam!](https://www.figma.com/file/wxKZNk0ysJF77hTak9lNBn/Calendar-Mockup_2023-09-14_18-32-00?type=whiteboard&t=S9GSk8jFu3bJ28Iq-1)
 
 Currently, the GoogleDoc has pre-set filter views to help you see plans by Region, Segment, etc. to be added by team members for their respective activities.
 
-## FY23 All-Marketing SSoT Calendar
+## FY23 All-Marketing SSoT Calendar {#fy23-calendar} <!-- DO NOT CHANGE ANCHOR -->
 
-{: #fy23-calendar}
-<!-- DO NOT CHANGE ANCHOR -->
 The marketing team utilizes a [single all-marketing calendar](https://docs.google.com/spreadsheets/d/1ni6gKeWhjtrNppMdYvPESsCRjDbfVdYjTNtUtcNBFGg/edit#gid=571560493) where everyone can contribute, and we can answer key questions (using filters) related to upcoming marketing plans.
 
 Please do not filter the entire doc (although Google Docs is now allowing personal filtering that doesn't affect all other viewers in the doc - need to test this!). Instead, you may use pre-set filter views (click down arrow selector next to the filter icon on the bookmark bar) to see activities grouped by GTM Motion, segment, region, team, funnel stage, partners, and more.
@@ -97,8 +89,6 @@ Marketing Departments collaborate to produce Integrated Campaigns. An Integrated
 
 ### [Active integrated campaigns](/handbook/marketing/campaigns/#active-marketing-campaigns)
 
-{: .no_toc}
-
 **Have a new campaign idea?** [Make a suggestion](/handbook/marketing/campaigns#new-ideas-for-marketing-campaigns-or-events)
 
 ## Project Management Processes
@@ -109,21 +99,15 @@ We cultivate a deep understanding of our own product by using GitLab to manage o
 
 ### Milestones
 
-{: .no_toc}
-
 [The latest recommendations for Milestones](/handbook/marketing/project-management-guidelines/milestones/) from FY21-Q2 Agility Project
 
 #### Weekly Sprints
-
-{: .no_toc}
 
 Within the www-gitlab-com repo (parent repo to Marketing) there are weekly milestones, which some teams use plan a weekly sprint cadence. Each of these sprints begins with "Fri:**" for the Friday upon which that sprint ends, making them [searchable in a list here](https://gitlab.com/groups/gitlab-com/-/milestones?utf8=%E2%9C%93&search_title=fri%3A&state=&sort=).
 
 Each week on Monday, any open MRs and issues still assigned to the previous week's milestone are bulk moved forward to the next week, and the previous milestone is closed out. **This is a manual process currently performed by Danielle.**
 
 ### Groups and projects
-
-{: .no_toc}
 
 [The latest recommendations for Groups and Projects](/handbook/marketing/project-management-guidelines/groups/) from FY21-Q2 Agility Project
 
@@ -149,8 +133,6 @@ Each week on Monday, any open MRs and issues still assigned to the previous week
 
 ### Issues, Milestones, and Epics
 
-{: .no_toc}
-
 [The latest recommendations for Epics](/handbook/marketing/project-management-guidelines/epics/) and [the latest for Issues](/handbook/marketing/project-management-guidelines/issues/) from FY21-Q2 Agility Project
 
 1. Each issue represents a discrete unit of work with a deliverable. For example [1](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/10) [2](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/36) [3](https://gitlab.com/gitlab-com/marketing/general/-/issues/2574)
@@ -163,8 +145,6 @@ Each week on Monday, any open MRs and issues still assigned to the previous week
 1. Roadmaps are used for time-based display of epics with a start and end date. (for example, events and time-based campaigns.)
 
 ### Boards and Labels
-
-{: .no_toc}
 
 [The latest recommendations for Labels](/handbook/marketing/project-management-guidelines/labels/) and [the latest for boards](/handbook/marketing/project-management-guidelines/boards/) from FY21-Q2 Agility Project
 
@@ -190,8 +170,6 @@ Each week on Monday, any open MRs and issues still assigned to the previous week
 
 ### Department Labels
 
-{: .no_toc}
-
 Each Department within Marketing can have "additive" labels - meaning they are used to enhance the tracking and workflows for that respective team. These "additive" labels are used in conjunction with the broader [Marketing labels](#boards-and-labels). The Department label usage is documented on each of the respective handbook pages:
 
 * [Marketing Programs](/handbook/marketing/integrated-marketing/digital-strategy/)
@@ -202,13 +180,9 @@ Each Department within Marketing can have "additive" labels - meaning they are u
 
 ### Default Issue Text
 
-{: .no_toc}
-
 All of the projects within the [Marketing subgroup](https://gitlab.com/gitlab-com/marketing) include **default issue text** to ensure the Department labels are applied consistently and broader adoption of the [global Marketing labels](#boards-and-labels).
 
 #### Using Default Issue Text
-
-{: .no_toc}
 
 When a new issue is opened in *any* project, the issue description will contain a small snippet of text applying that teams' label & Marketing scoped `mktg-status::plan` label.
 
@@ -219,8 +193,6 @@ When a new issue is opened in *any* project, the issue description will contain 
 ![''](/images/handbook/marketing/template_change_message.png)
 
 #### Updating Default Issue Text
-
-{: .no_toc}
 
 The default text is minimal and generic. Any team can make the collective decision to update the text. Access to modify the text may be limited based on group/project permission level, if you do not have access to the `General` settings section, please reach out to `@mktg-ops` via slack.
 *Please note* this is not an issue bot there is no dynamic functionality. The default issue text applies to all issues opened within that project and the text should be broad enough to encompass a roles within that team.
@@ -238,8 +210,6 @@ The default text is minimal and generic. Any team can make the collective decisi
 If you have any issues &/or questions, please reach out to the MktgOps team (`@mktg-ops`) via slack.
 
 ### How it all fits together
-
-{: .no_toc}
 
 Figuring out how where and how to create a board, epic, label can be confusing. The following diagram is a very high level example of how it all fits together. If there are questions please ask in the [#mktgops slack channel](https://gitlab.slack.com/messages/CGL35F20G) (*must be GitLab team member for active link).
 

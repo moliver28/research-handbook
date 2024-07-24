@@ -690,9 +690,7 @@ By focusing on next-generation development flows, personas, and use cases - we b
 
 For example - We first provided the ability to attach Kubernetes Clusters via the Certificate method. After realizing this wasn't optimal for production use cases we added the GitLab Agent for Kubernetes method of cluster attachment. As soon as we were certain that the certificate method was no longer the preferred method we communicated via our docs and in the product that the Agent was the preferred path for current adopters. This should not mean an immediate [deprecation](https://docs.gitlab.com/ee/development/deprecation_guidelines/), but a clear signal that the legacy method will become deprecated once the alternative approach is able to substitute it.
 
-#### Customer Support on all features
-
-{: #support-all-features}
+#### Customer Support on all features {#support-all-features}
 
 We provide customer support to paying customers on all features that are in the tier of their paid license as well as any lower tiers.
 This means a feature in Core, should get customer support in all paid tiers.

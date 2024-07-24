@@ -7,8 +7,6 @@ description: >-
 
 ## "You should expect excellence of yourself, teammates, and managers in your role. We will be excellent if we expect it."
 
-{: .no_toc}
-
 Small and Medium Size Business Account Executives "SMB AE" act as Account Executives and the face of GitLab for SMB prospects and customers. They are the primary point of contact for companies that employ between [1 to 99 employees](/handbook/sales/field-operations/gtm-resources/). These GitLab team members are responsible for working new business in their territory as well as handling the customer journey for new and existing customers. SMB Account Executives will assist prospects through their GitLab evaluation and buying process and will be the customer's point of contact for any renewal and expansion discussions.
 
 ### Reaching the SMB team (internally)

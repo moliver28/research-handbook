@@ -268,8 +268,9 @@ Please note the below steps reference how to manually enter bills into NetSuite.
 
 Coupa is a Procurement and Invoicing Tool. Similarly to purchase requests for goods/services that must be initiated in Coupa, invoices are also created and approved in Coupa.
 
+{{% alert color="warning" %}}
 For all issues created before Coupa Go-Live (Phase I; 2021-06-01 and Phase II; 2021-12-13), the business will not be setting up Purchase Orders for those and the Accounts Payable team will manually enter the related invoices as Non PO-backed.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 Invoices in Coupa can be created via 4 different channels:
 
@@ -298,8 +299,9 @@ However, there will be no details regarding the integration issue. You will need
 
 <br>
 
+{{% alert color="warning" %}}
 For vendors who invoice GitLab for multiple entities, all invoices are separated by subsidiary (due to audit standards). If the vendor onboards for the Coupa Supplier Portal (CSP), the vendor will only see the POs related to those entities, and will need to email the others. If you are a GitLab vendor who invoices for multiple entitites and you have any questions, please reach out to *ap@gitlab.com*.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 #### Approving an Invoice in Coupa
 
