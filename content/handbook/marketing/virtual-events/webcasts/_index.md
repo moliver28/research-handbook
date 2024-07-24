@@ -131,6 +131,7 @@ Partner webcasts are managed and moderated by Partner Marketing, working closely
 ```
 
 ### Partner webcast tactical execution steps {#partner-tactical-execution} <!-- DO NOT CHANGE THIS ANCHOR -->
+
 *(Typically we host 2 webcasts per month with GitLab Partners)*
 
 **Step 1: Creating a GitLab webcast**

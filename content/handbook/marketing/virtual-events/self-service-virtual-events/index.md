@@ -7,6 +7,7 @@ twitter_creator: "@gitlab"
 ---
 
 ## Overview {#overview}
+
 The self-service virtual event type has been deprecated and is no longer in use.
 
 If you would like to host a webcast, please work with either Marketing Campaigns or Field Marketing to determine the right set-up and tracking for your event.
