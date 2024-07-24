@@ -71,7 +71,7 @@ See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-t
 
 ### Customer Success Decision Tree
 
-![CSMAE Decision Tree](/handbook/customer-success/CSMAE Decision Tree.svg)
+![CSMAE Decision Tree](CSMAE_Decision_Tree.svg)
 
 ### Renewals Managers
 
