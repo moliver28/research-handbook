@@ -7,8 +7,9 @@ description: "The Self-Service Team is responsible for delivering a cohesive GTM
 
 ## Welcome to the Self-Service Handbook
 
-**The Self-Service Team is responsible for delivering a cohesive go-to-market (GTM) that enables customers and prospects to self-serve: from discovery and adoption, purchasing, expanding, and managing their GitLab subscription.**
-{: .alert .alert-success}
+{{% alert color="success" %}}
+The Self-Service Team is responsible for delivering a cohesive go-to-market (GTM) that enables customers and prospects to self-serve: from discovery and adoption, purchasing, expanding, and managing their GitLab subscription.
+{{% /alert %}}
 
 ## Self-Service Vision
 
