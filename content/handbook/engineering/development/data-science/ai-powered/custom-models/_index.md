@@ -265,6 +265,4 @@ Coreference Resolution: Identifying which words in a text refer to the same thin
 {{< /tableau >}}
 
 <!-- LINKS START -->
-
-
 <!-- LINKS END -->
