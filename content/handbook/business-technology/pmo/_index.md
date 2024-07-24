@@ -6,7 +6,7 @@ title: "Enterprise Applications - PMO"
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> About Us
 
-We are a global team, focused on building and managing world-class information technology systems and business processes. To learn more about our individual job functions, visit the Program Management, Business Technology family page.
+We are a global team, focused on building and managing world-class information technology systems and business processes. The Enterprise Applications PMO is responsible for portfolio and program management across the EntApps organization. We work closely with the business on both annual and quarterly planning to ensure we understand top business priorities and can plan accordingly. Services include portfolio management, program management, resource management, and project tracking and reporting. To learn more about our individual job functions, visit the Program Management, Business Technology family page.
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team(Org Chart)
 

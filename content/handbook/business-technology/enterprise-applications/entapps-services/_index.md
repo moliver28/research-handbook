@@ -8,7 +8,7 @@ title: IT Enterprise Applications Services
 
 Enterprise Application Services (EAS) provides  horizontal support, operations, administration, governance, risk assessment, and compliance of Enterprise Services. Leveraging the ITIL framework, EAS is responsible for the end-to-end service and application lifecycle management, and promotes operational excellence through IT Policies & Process Governance, including Change-, Release-, and Incident Management, while ensuring operating effectiveness through Compliance Reviews.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Mission
+## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Mission
 
 To provide frictionless, world class, Application Support Experience for the GitLab Team members by providing easy to use Service Management tools, serving as a single point of contact for all Enterprise Applications, mitigating risk through compliance, governance, change and release management. 
 
@@ -27,7 +27,7 @@ To provide frictionless, world class, Application Support Experience for the Git
 - **Rey Manlangit- Associate IT Enterprise Applications Engineer** GitLab handle: [RManlangit](https://gitlab.com/RManlangit) Slack handle: @Rey Manlangit 
 - **Xander Liwanag - Business Technology Service Desk Analyst** GitLab handle: [xliwanag](https://gitlab.com/xliwanag) Slack handle: @Xander Liwanag
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
+## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Our Services
 
 Service Operations
 

@@ -19,7 +19,7 @@ Our team ensures the availability of these applications through monitoring and a
 - Leveraging out of the box best practices as much as possible. We buying and extend applications where we don't see building them as GitLabs core engineering competency
 - IT Audit and Compliance - Ensuring that all customer / business data is secure and can pass key audits for attestations and compliance with SOX, SOC, etc.
 
-## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Our Team (Org Chart)
+## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
 - **Al Champagne - Senior Director, Enterprise Applications** GitLab handle: [achampagne1](https://gitlab.com/achampagne1) Slack handle: Al Champagne
 - **Monali Bhide - Manager, IT Enterprise Applications Engineering** GitLab handle: [monalibhide](https://gitlab.com/monalibhide) Slack handle: @Monali Bhide
@@ -46,15 +46,15 @@ Our team ensures the availability of these applications through monitoring and a
 
 ### How do I submit a request to your team?
 
-## Projects 
+- **Projects** 
 
-For any requests that will span several weeks, have a cross functional impact, and will require a project manager, please reach out to the [PMO team](https://docs.google.com/document/d/1EbIFhOYPTQJs9VoGt0Hfc4pofSlnsAR5ftUlSFEL51g/edit#heading=h.eige4lxq05vw) to get the project on the roadmap and prioritized.
+  - For any requests that will span several weeks, have a cross functional impact, and will require a project manager, please reach out to the [PMO team](../business-technology/pmo/) to get the project on the roadmap and prioritized.
     
-## Operational Enhancements 
+- **Operational Enhancements**
 
-As most issues require a change to our system to comply with SOX, it must be documented through a **CM: Configuration Change**  template linked [here](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new#). For any new requests, please submit an issue through the template. These issues will be evaluated and assigned to the ~BT:Backlog label [here](https://gitlab.com/groups/gitlab-com/-/issues/?sort=created_date&state=opened&label_name%5B%5D=BT%3A%3ABacklog&first_page_size=100)
+  - As most issues require a change to our system to comply with SOX, it must be documented through a **CM: Configuration Change**  template linked [here](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new#). For any new requests, please submit an issue through the template. These issues will be evaluated and assigned to the ~BT:Backlog label [here](https://gitlab.com/groups/gitlab-com/-/issues/?sort=created_date&state=opened&label_name%5B%5D=BT%3A%3ABacklog&first_page_size=100)
 
-## Planning and Milestones
+- **Operational Enhancements**
 
-- Our team works on a 2 week milestone spanning Wednesday - Tuesday. Click [here](https://gitlab.com/groups/gitlab-com/-/milestones?search_title=entapps&state=&sort=) to see a list of our open milestones.
-- At the end of each milestone, any issues that were not started, or are still in progress will get moved to the new milestone. Additionally, new issues in the [backlog](https://gitlab.com/groups/gitlab-com/-/issues/?sort=created_date&state=opened&label_name%5B%5D=BT%3A%3ABacklog&first_page_size=100) will be evaluated to determine the resources required and feasibility of starting it in the new milestone. Please note that any KTLO requests and financially impacting requests will take precedence over any requests that are not critical.
+  - Our team works on a 2 week milestone spanning Wednesday - Tuesday. Click [here](https://gitlab.com/groups/gitlab-com/-/milestones?search_title=entapps&state=&sort=) to see a list of our open milestones.
+  - At the end of each milestone, any issues that were not started, or are still in progress will get moved to the new milestone. Additionally, new issues in the [backlog](https://gitlab.com/groups/gitlab-com/-/issues/?sort=created_date&state=opened&label_name%5B%5D=BT%3A%3ABacklog&first_page_size=100) will be evaluated to determine the resources required and feasibility of starting it in the new milestone. Please note that any KTLO requests and financially impacting requests will take precedence over any requests that are not critical.

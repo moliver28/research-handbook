@@ -6,7 +6,7 @@ description: "The Enterprise Applications CRM Team implements and supports speci
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Mission
+## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Mission
 
 CRM Systems exists to support the GitLab field organization by providing reliable, scalable, and intuitive technology platforms for everyday use. Primarily working on SalesforceCRM and its related Revenue Systems, our goal is to constantly deliver value in the form of features to our end users. We also act as the connective tissue between business and technology, gathering requirements from our internal customers, designing the technical specifications and executing on the delivery of the solution.
 
@@ -23,8 +23,11 @@ CRM Systems exists to support the GitLab field organization by providing reliabl
 - **Mohamed Hussain - Business Systems Administrator** GitLab handle: [Moh.hussain](https://gitlab.com/Moh.hussain) Slack handle: @Mohamed Hussain
 - **Neha Sharma - IT Enterprise Applications Administrator** GitLab handle: [nksharma2](https://gitlab.com/nksharma2) Slack handle: @Neha Sharma
 - **Pooja Chowdary Nayidi - IT Enterprise Applications Administrator** GitLab handle: [pnayidi](https://gitlab.com/pnayidi) Slack handle: @Pooja Chowdary Nayidi
+- **Santhosh Baranidharan - Staff Business Systems Analyst** GitLab handle: [sbaranidharan](https://gitlab.com/sbaranidharan) Slack handle: @Santhosh
 
-## Salesforce.com Change Management Processes and SDLC (Software Development Life Cycle)
+## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Services We Offer
+
+### Salesforce.com Change Management Processes and SDLC (Software Development Life Cycle)
 
 Changes to Salesforce.com come in a variety of formats but all of them will feature the following change managment controls:
 

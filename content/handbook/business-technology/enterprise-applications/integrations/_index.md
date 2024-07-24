@@ -13,19 +13,17 @@ We are the team that designs, builds and maintains the complex ecosystem of inte
 - **Dennis Griffin - Senior Integration Engineer** GitLab handle: [dgriffin4](https://gitlab.com/dgriffin4) Slack handle: Dennis Griffin
 - **Karuna Singh - Integration Engineer** GitLab handle: [Karuna16](https://gitlab.com/Karuna16) Slack handle: @Karuna
 - **Jeff Dunnett- Senior IT Enterprise Applications Engineer** GitLab handle: [jdunnett](https://gitlab.com/jdunnett) Slack handle: @Jeff Dunnett 
-- **Santhosh Baranidharan - Staff Business Systems Analyst** GitLab handle: [sbaranidharan](https://gitlab.com/sbaranidharan) Slack handle: @Santhosh
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 
-System Integrations and APIs
-
-- Connecting System A to System B
-- Understanding APIs and building custom connections between systems
-- Evaluating Native connectors
-- Working through the build vs. buy problem for integrations
-- Understanding compliance requirements for your systems(s)
-- Building custom APIs
-- Building automations and workflows
+- System Integrations and APIs
+  - Connecting System A to System B
+  - Understanding APIs and building custom connections between systems
+  - Evaluating Native connectors
+  - Working through the build vs. buy problem for integrations
+  - Understanding compliance requirements for your systems(s)
+  - Building custom APIs
+  - Building automations and workflows
 
 ## Highly tested and robust data mapping
 
@@ -45,4 +43,4 @@ If you require any slack integration automations and workflows we offer that thr
 
 ## Built in business system connectors
 
-Through our integration with Workato we are able to offer out of the box connectors for many standard business systems. Look through the Workato connectors list{:target="_blank"} for more information on what’s available. If your system isn’t listed on that website please reach out to us as we also regularly build custom connectors for additional systems
+Through our integration with Workato we are able to offer out of the box connectors for many standard business systems. Look through the [Workato connectors list](https://docs.workato.com/connectors.html) for more information on what’s available. If your system isn’t listed on that website please reach out to us as we also regularly build custom connectors for additional systems

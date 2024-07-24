@@ -31,7 +31,7 @@ Provide a stable, secure, compliant and highly integrated solutions ecosystem to
 | ------ | ------ | ------ | ------ |
 | - IT Strategy & Planning<br>- AOP & Budget Management<br> - Portfolio & Project Management<br> - Business Analysis | - Enterprise & Applications Architecture<br>- Integrations | - Application Management - GTM, L2C, ERP, HCM<br>- Application Engineering<br> - Systems Administration<br> - Data & Application Reporting | - Global Support Services<br>- RPA and AI Operations<br> - Vendor Management<br> - IT Compliance & Governance (SOX & Security Compliance) |
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> What do we do?
+## <i class="fas fa-hands-helping" id="biz-tech-icons"></i> What do we do?
 
 1. **Company-wide Business Technology** - [Tech Stack](../business-technology/tech-stack.md)
 
