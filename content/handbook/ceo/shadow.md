@@ -137,8 +137,8 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-08-19 | 2024-08-23 | OPEN | OPEN | REMOTE - PT - limited week (M-W)|
 | 2024-08-26 | 2024-08-30 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | OPEN | REMOTE - PT |
 | 2024-09-02 | 2024-09-06 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
-| 2024-09-09 | 2024-09-13 | OPEN | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
-| 2024-09-16 | 2024-09-20 | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | OPEN | REMOTE - PT |
+| 2024-09-09 | 2024-09-13 | [Francesca Gianfiglio](https://gitlab.com/fgianfiglio) Senior Business Development EMEA | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
+| 2024-09-16 | 2024-09-20 | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | [Francesca Gianfiglio](https://gitlab.com/fgianfiglio) Senior Business Development EMEA | REMOTE - PT |
 | 2024-09-23 | 2024-09-27 | VP-DIRECTS ONLY | VP-DIRECTS ONLY  | In person - San Francisco |
 | 2024-09-30 | 2024-10-04 | OPEN | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | REMOTE - PT |
 | 2024-10-07 | 2024-10-11 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | OPEN | REMOTE - PT |
