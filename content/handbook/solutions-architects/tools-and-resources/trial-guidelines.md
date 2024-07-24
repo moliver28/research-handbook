@@ -131,7 +131,7 @@ GitLab provides a [set of security demos](https://gitlab.com/gitlab-org/security
 
 |  | Pros | Cons |
 |--|------|------|
-| Trial in a dedicated account | Focus on the use cases and functionalities to test in an isolated environment, limited to trial participants | Need to import and configure projects. On Self Managed, requires to configure a new instance and runners. |
+| Trial in a dedicated trial account | Focus on the use cases and functionalities to test in an isolated environment, limited to trial participants | Need to import and configure projects. On Self Managed, requires to configure a new instance and runners. |
 | Trial in your existing account | Nothing to configure, test the features within your existing workflow. Value can be seen by all users. | Could create confusion as users not involved in the trial may come across new functionalities associated with an enterprise edition of GitLab if these users are unaware that a trial is taking place. |
 
 ### Notes Regarding Trial Licenses
