@@ -23,8 +23,6 @@ Who is this sales play for?
 
 ## Who to meet
 
-{: .alert .alert-gitlab-orange}
-
 **Ideal Customer Profile**  - Existing GitLab Premium customers already using CI/CD
 
 * Bonus points for:
@@ -56,8 +54,6 @@ Consider the following questions:
 * Are the capabilities and PBOs that are enabled by GitLab Ultimate important to the customer? Why or why not? How do you know?
 
 ## Value Discovery
-
-{: .alert .alert-gitlab-orange}
 
 ### Common Pains
 
@@ -110,8 +106,6 @@ Note: maybe we use [this link as mvc1](/handbook/marketing/brand-and-product-mar
 Note: if they say they do NOT want to shift left and empower developers to find and fix security flaws, you are probably speaking with a security analyst. Talk to his/her boss, DevOps, or application dev/engineering team.
 
 ## Positioning Value
-
-{: .alert .alert-gitlab-orange}
 
 ### Elevator pitch
 
@@ -187,12 +181,9 @@ GitLab (or a GitLab partner) offers the below services to help accelerate time t
 
 ## Sales Play Tactics {#sales-play-tactics}
 
-{: .alert .alert-gitlab-purple}
-
 These are Sales prescriptive actions to initiate engagement with target audience for Premium to Ultimate upgrade of existing GitLab CI users. **Strategy and actions differ by market segment** with SMB relying on marketing to drive inbound contacts initiated by the customer and ENT/MM primarily using the play to guide conversations initiated by sales.
 
-**Enterprise and Mid-market Accounts**
-{: .alert .alert-gitlab-orange}
+### Enterprise and Mid-market Accounts
 
 **Strategy**
 
@@ -213,8 +204,7 @@ For Enterprise and MM, sales will do active outreach to customers to engage them
 1. [ ] Determine the cadence for progressing to the next step based upon the initial meeting. We recommend sending the next email in the sequence after 7-10 days, even if they didn't respond to the last one sent. The flow is intended to move their thinking along even if they don't call you to discuss each one.
 1. [ ] Repeat with next recommended email until you finish the meeting sequence, get to a POV, or to a sale. If you reach the end of the recommended emails and meetings and don't see progress, please leave feedback in [this issue](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/5095) or in slack at #gtm-ci-cd. Where are you stuck? How can we help?
 
-**Small Business Accounts**
-{: .alert .alert-gitlab-orange}
+### Small Business Accounts
 
 **Strategy**
 
@@ -234,8 +224,6 @@ For SMB customers, we will rely on inbound responses to the marketing-generated 
 1. [ ] Repeat with next recommended email until you get to a POV or sale. If you reach the end of the recommended emails and meetings and don't see progress, please leave feedback in [this issue](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/5095) or in slack at #gtm-ci-cd. Where are you stuck? How can we help?
 
 ### Recommended email sequence and email templates {#recommended-email-sequence-email-templates}
-
-{: .alert .alert-gitlab-orange}
 
 This sequence of recommended emails is intended to move the prospect from interest to POV. Note:
 
@@ -264,14 +252,11 @@ This sequence of recommended emails is intended to move the prospect from intere
 
 ### Meetings to get to value alignment
 
-{: .alert .alert-gitlab-orange}
-
 If your customer engages with emails (sent either from marketing or from yourself), the lead will come to you via email and will it show what asset they clicked on and if they clicked the 'contact us' button. Based upon this insight, and any conversations you may have had, you will want to choose where in this progression is most appropriate to begin.
 
 The following sequence is recommended to progress the customer from awareness and interest in GitLab security capabilities to consideration, agreement of solutions alignment to expected value, and ultimate purchase (pun intended)
 
-**Meeting 1** - **assess business objectives**
-{: .alert .alert-gitlab-purple}
+#### Meeting 1** - **assess business objectives
 
 Use [Value Discovery](#value-discovery) above along with these recommended assets to determine their business priorities, existing security tools, chief pain points:
 
@@ -290,8 +275,7 @@ Use [Value Discovery](#value-discovery) above along with these recommended asset
 
 **Metric:** Opportunity stage 0 - pending acceptance or stage 1 - Sales Accepted Opp or no opportunity
 
-**Meeting 2** - **assess security priorities**
-{: .alert .alert-gitlab-purple}
+#### Meeting 2** - **assess security priorities
 
 Based on their business objectives, assess interest in learning more on theses topics then schedule deep dive with your SA. (@cblake and the #s_secure slack channel can help with any questions you may have.) Identify key value driver, champion, and economic buyer.
 
@@ -312,8 +296,7 @@ Based on their business objectives, assess interest in learning more on theses t
 
 **Metric:** Opportunity Stage 1 - Discovery
 
-**Meeting 3** - **help them see the value**
-{: .alert .alert-gitlab-purple}
+#### Meeting 3** - **help them see the value
 
 Use the provided ROI framework slide to help the customer identify all of his obvious costs, now and most importantly, into the future. Show how GitLab can provide predictable costs as they scale. Make sure it's clear that our greatest value is our all-in-one approach that provides all types of security scans integrated into a united UI for both dev and sec. **Be sure to include the value of this benefit along with tool costs.**
 
@@ -327,8 +310,6 @@ Use the provided ROI framework slide to help the customer identify all of his ob
 **Metric:** Opporunity Stage 2 - Scoping or Stage 3 - Technical Evaluation
 
 ### POV agreement (If POV is requested and necessary)
-
-{: .alert .alert-gitlab-orange}
 
 1. Define POV requirements like this (link to David Astor's SKO preso or Cherry Han's package)
 1. Execute POV. Move requirements met to complete on issue board. Orchestrate collaboration with PMs for any unmet needs. Use #s_secure slack channel or capabiities page to identify the right PM to engage on the POV issues. Get customer to engage with PMs on the issues.
@@ -348,8 +329,6 @@ Will have specific resources under actions above. This is for additional resourc
 * Gartner MQ for AST (expected in May 2021)
 
 ## Measuring progress
-
-{: .alert .alert-gitlab-orange}
 
 Consider these milestones and adjust stages in SDLC as you progress.
 

@@ -216,8 +216,9 @@ Both ordered and unordered lists are very straightforward to produce. There are 
 
 Tip: don't leave blank lines **between the items**, unless you have a reason to do so.
 
-**Important:** always leave a blank line between [Headings](#headings) and the subsequent list! If you don't, the list will not render.
-{: .alert .alert-info}
+{{% alert title="Important" color="info" %}}
+Always leave a blank line between [Headings](#headings) and the subsequent list! If you don't, the list will not render.
+{{% /alert %}}
 
 The [Writing Style Guide](/handbook/communication/#writing-style-guidelines) recommends using [ordered lists](#ordered-lists) when you have multiple items, because `Numbered lists are easier to reference during a discussion over bulleted lists`.
 

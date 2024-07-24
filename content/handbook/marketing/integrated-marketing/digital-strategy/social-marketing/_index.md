@@ -88,11 +88,12 @@ Data analysis to inform future campaigns, slogans, comms, as well as, competitiv
 
 **Organic social is a two way communication system**. It's about community and conversations. We can to appeal to the emotions of our audience through real-time conversations and interactions.
 
+{{% alert color="success" %}}
 We want…
 <br> people to feel good.
 <br> to embrace our community.
 <br> to create excitement for the product.
-{: .alert .alert-success .text-justify}
+{{% /alert %}}
 
 Elevate our brand ⛰ - Increase team member community and sense of belonging. Less is more, particularly when it is executed well and resembles a world class brand.
 

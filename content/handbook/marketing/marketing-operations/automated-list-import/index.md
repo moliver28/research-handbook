@@ -19,8 +19,7 @@ The objective of this process is to reduce the SLA for list imports to a minimum
 
 ## How to use
 
-**Step 1 - Before the import**
-{: .alert .alert-info}
+### Step 1 - Before the import
 
 At time of upload, a program should already exist in `Marketo` . Campaigns are to be created by the campaign owner. For a running list of program templates, go [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#how-to-clone-the-marketo-program).
 
@@ -28,8 +27,7 @@ Make sure that the campaign's `tokens` are filled in, which are found under the 
 
 Please note, the `Last Interesting Moments` and the `My Tokens` associated with them are separate from `Last Event Notes`. Tokens do not communicate with `Last Event Notes` and uploads from other columns in the list upload sheet. To ensure these are loaded correctly please make sure the SFDC campaign and the last event notes are filled out on your import sheet, Columns N and O. This will be explained more in the data cleaning steps below. Again, if this information is left blank it does not mean your import will fail, it will just be missing that infmoration in the leads record.
 
-**Step 2 - Add your lead data to the spreadsheet**
-{: .alert .alert-info}
+### Step 2 - Add your lead data to the spreadsheet
 
 Go to the import template [Google Sheet](https://docs.google.com/spreadsheets/d/143REaMQLyIy7to-CFktL45TTTLZxBQRJUDIOMCA3CVo/edit#gid=257616838) and make a copy of the document. This spreadsheet template allows for quick edits and faster data checks, refer to the [below instructions](#data-cleaning-instructions) for data cleanup advice. It is the responsibility of the person submitting the list to clean the list utilizing the import cleaning template.
 
@@ -40,8 +38,7 @@ Go to the import template [Google Sheet](https://docs.google.com/spreadsheets/d/
 
 </details>
 
-**Step 3 - Download the CSV**
-{: .alert .alert-info}
+### Step 3 - Download the CSV
 
 After you populated your spreadsheet with lead data, Download the leads tab as a `CSV`. Go to `File`>`Download`>`CSV`.
 
@@ -52,15 +49,13 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 
 </details>
 
-**Step 4 - Drop the CSV in the Google Drive folder**
-{: .alert .alert-info}
+### Step 4 - Drop the CSV in the Google Drive folder
 
 1. Go to the [Google Drive folder](https://drive.google.com/drive/folders/1SvDR2KW8_vtPZjJ7WWihA1iOgSJn0_fv?usp=share_link) called `List Import Automation`. If you do not have access to the folder, open an AR request with the Marketing Operations team seeking access to both the `List Import Automation` and the `Report Folder`.
 1. Drop your CSV containing lead data into the folder
 1. An automated process will pick up your CSV and start processing each record in your file, validating the data.
 
-**Step 5 - Go to the `#event_list_upload` slack channel.**
-{: .alert .alert-info}
+### Step 5 - Go to the `#event_list_upload` slack channel.
 
 **When the import finishes processing in Marketo, it will send a slack message with information about:**
 
@@ -81,8 +76,7 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 
 Pubsec field marketers need to use `List Upload Complete - PubSec` label on either list import issue or another event related issue if no list upload issue is made. This is optional for private sector uploads, which use `List Upload Complete - Private Sector`. SDR/BDR/Sales can subscribe to this label to get notifications when the import is complete
 
-**Step 6 - Review the report**
-{: .alert .alert-info}
+### Step 6 - Review the report
 
 1. Congrats! The import is complete. Review the information passed in the slack alert.
 1. If there are failed records, review the report linked in the message. The first column, `Status`, contains useful information regarding the reason a specific lead failed to be imported.
