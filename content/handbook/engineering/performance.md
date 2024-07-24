@@ -118,9 +118,7 @@ If you activate the `runs` toggle you will have annotations with links to all fu
 
 ## Steps
 
-### Web Request
-
-{: #flow-of-web-request}
+### Web Request {#flow-of-web-request}
 
 All items that start with the tachometer (<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>) symbol represent a step in the flow that we _measure_. Wherever possible, the tachometer icon links to the relevant dashboard in our [monitoring](/handbook/engineering/monitoring/). Each step in the listing below links back to its corresponding entry in the [goals table](#web-goals-table).
 
@@ -383,16 +381,12 @@ Timing history for First Byte are listed in the table below (click on the tachom
 | Pipeline: [GitLab CE pipeline 9360254] | [1529](http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/pipelines/9360254/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
 | Repo: [GitLab CE repo](https://gitlab.com/gitlab-org/gitlab-ce/tree/master) | [1076](http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/tree/master/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
 
-### Internal
-
-{: #first-byte-internal}
+### Internal {#first-byte-internal}
 
 To go a little deeper and measure performance of the application & infrastructure without consideration for frontend and network aspects, we look at "transaction timings" [as recorded by Unicorn](#unicorn2various). These timings can be seen on the
 [Rails Controller dashboard](https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller?orgId=1&var-PROMETHEUS_DS=Global&var-environment=gprd&var-stage=main&var-controller=Projects::MergeRequestsController&var-action=show) _per URL that is accessed_ .
 
-## Availability and Performance labels
-
-{: #availability-performance-labels}
+## Availability and Performance labels {#availability-performance-labels}
 
 ### Availability
 

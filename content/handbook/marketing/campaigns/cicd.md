@@ -4,30 +4,19 @@ description: "Everything you need to know about the CI/CD campaign."
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
-## Campaign Overview
+## Campaign Overview {#overview .alert .alert-gitlab-orange}
 
-{: #overview .alert .alert-gitlab-orange}
-
-### Business Objectives
-
-{: #business-objectives}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### Business Objectives {#business-objectives} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. Connect with the manager of App/Dev, show them the value of GitLab CI
 2. Drive conversion optimization throughout the funnel to increase asset downloads
 3. Free trials driven by the campaign page
 
-### Campaign Visual
-
-{: #campaign-visual}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### Campaign Visual {#campaign-visual} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ![''](/images/handbook/marketing/marketing-programs/CI-CD_Campaign_Flow.png.png)
 
-### Campaign Pages & Activities
-
-{: #campaign-activities}
-<!-- DO NOT CHANGE THIS ANCHOR -->
+### Campaign Pages & Activities {#campaign-activities} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **[See the FY22 Marketing Calendar for upcoming virtual events >>](https://docs.google.com/spreadsheets/d/1c2V3Aj1l_UT5hEb54nczzinGUxtxswZBhZV8r9eErqM/edit#gid=571560493&fvid=1408681455)**
 

@@ -7,18 +7,14 @@ description: "This page is meant to house resources and processes for the market
 
 ## <i class="fas fa-calendar-check fa-fw color-orange font-awesome"></i> Marketing Calendar
 
-## Adding to the All-Marketing Calendar
+## Adding to the All-Marketing Calendar {#marketing-calendar-inputs} <!-- DO NOT CHANGE ANCHOR -->
 
-{: #marketing-calendar-inputs}
-<!-- DO NOT CHANGE ANCHOR -->
 **Location for inputs: In your [Google Drive](https://drive.google.com/drive/u/1/my-drive), search for (and bookmark) `FY24 All-Marketing Calendar SSoT`.**
 
 This is where all teams will input and categorize planned activities - with filters that align to key pieces of information (GTM Motion, Alliance Partners, Sales Segments, Regions, Language, and more). This will be iterative and everyone should feel open to share their feedback and ideas - [comment in the issue to sare your thoughts!](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/3324)
 
-### Marketing team additions to All-Marketing Calendar
+### Marketing team additions to All-Marketing Calendar {#inputs-marketing-additions} <!-- DO NOT CHANGE ANCHOR -->
 
-{: #inputs-marketing-additions}
-<!-- DO NOT CHANGE ANCHOR -->
 The instructions below are to be followed by marketing team members. Add a row at bottom of [All-Marketing Calendar spreadsheet](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493) or insert in the appropriate date (either way, this will be re-sorted by marketing periodically). If you don't have all the details, don't worry - fill in what you can and work together to outline the information that is valuable for integrating our marketing tactics as a team.
 
 **BASIC DETAILS**
@@ -59,18 +55,14 @@ The instructions below are to be followed by marketing team members. Add a row a
 * **SA/TM Commitment**:  Added by Marketing
 * **Customer Speaker?**: Include if there is a customer speaker for the activity.
 
-## Mockup of All-Marketing Calendar (Future Visualization)
+## Mockup of All-Marketing Calendar (Future Visualization) {#marketing-calendar-mockup} <!-- DO NOT CHANGE ANCHOR -->
 
-{: #marketing-calendar-mockup}
-<!-- DO NOT CHANGE ANCHOR -->
 In the future, the goal is to visualize these inputs in a calendar format with filters (based on columns in the doc) to allow the team to see the plans in Sisense. [View the Basic Mockup in FigJam!](https://www.figma.com/file/wxKZNk0ysJF77hTak9lNBn/Calendar-Mockup_2023-09-14_18-32-00?type=whiteboard&t=S9GSk8jFu3bJ28Iq-1)
 
 Currently, the GoogleDoc has pre-set filter views to help you see plans by Region, Segment, etc. to be added by team members for their respective activities.
 
-## FY23 All-Marketing SSoT Calendar
+## FY23 All-Marketing SSoT Calendar {#fy23-calendar} <!-- DO NOT CHANGE ANCHOR -->
 
-{: #fy23-calendar}
-<!-- DO NOT CHANGE ANCHOR -->
 The marketing team utilizes a [single all-marketing calendar](https://docs.google.com/spreadsheets/d/1ni6gKeWhjtrNppMdYvPESsCRjDbfVdYjTNtUtcNBFGg/edit#gid=571560493) where everyone can contribute, and we can answer key questions (using filters) related to upcoming marketing plans.
 
 Please do not filter the entire doc (although Google Docs is now allowing personal filtering that doesn't affect all other viewers in the doc - need to test this!). Instead, you may use pre-set filter views (click down arrow selector next to the filter icon on the bookmark bar) to see activities grouped by GTM Motion, segment, region, team, funnel stage, partners, and more.

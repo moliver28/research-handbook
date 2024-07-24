@@ -6,18 +6,14 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-## Overview
-
-{: #overview .gitlab-purple}
+## Overview {#overview}
 The self-service virtual event type has been deprecated and is no longer in use.
 
 If you would like to host a webcast, please work with either Marketing Campaigns or Field Marketing to determine the right set-up and tracking for your event.
 
 Although this event type is no officially available, the details below do provide helpful information related to running an event using Zoom and are provided as a quick reference guide.
 
-## Best Practices
-
-{: #best-practices .gitlab-purple}
+## Best Practices {#best-practices}
 
 This section pulls all the pertinent best practices from the step-by-step instructions into a quickly reviewable format, separated by various stages of the process.
 
