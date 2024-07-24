@@ -1407,7 +1407,7 @@ Here is an [Example MR](https://gitlab.com/gitlab-data/analytics/-/merge_request
 ## Model Efficiency 
 
 A models efficiency is a measure of how well the model uses the Snowflake resources to produce the model.
-At this time is is not a measure of the queries used as we have not found a way to procedurally and
+At this time it is not a measure of the queries used as we have not found a way to procedurally and
 reliably quantify the actions taken within a query.  The efficiency score of a model can be determined
 for each model invocation and is a based on three numbers determined from the queries executed by the model.
 The component numbers are indented to provide a insight into where to investigate when the overall
