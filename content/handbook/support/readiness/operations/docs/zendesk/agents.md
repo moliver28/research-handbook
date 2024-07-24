@@ -21,9 +21,7 @@ is required.
 
 Once one has been received, the process will go as follows:
 
-1. Submit a general HelpLab request to the People team:
-   - Subject: US Citizenship Verification Request
-   - Body:
+1. Submit a HelpLab request by selecting `Background Checks` under the People Team dropdown. On the next page, select `Identity Verification` or `Other` from the dropdown `What type of support do you need?` and use the prompt below to fill out your request:
      > Greetings all!
      >
      > Can you verify if NAME is a US Citizen? They are requesting access to the
