@@ -7,7 +7,7 @@ description: "The Global Search team is focused on bringing world class search f
 
 The Global Search Group focuses on bringing world class search functionality to GitLab.com and self-managed instances.
 
-This page covers processes and information specific to the Global Search group. See also the [Global Search]https://about.gitlab.com/direction/global-search/ and [Code Search](https://about.gitlab.com/direction/global-search/code-search/) direction pages.
+This page covers processes and information specific to the Global Search group. See also the [Global Search](https://about.gitlab.com/direction/global-search/) and [Code Search](https://about.gitlab.com/direction/global-search/code-search/) direction pages.
 
 ## Mission
 
