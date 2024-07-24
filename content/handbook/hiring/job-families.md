@@ -8,7 +8,7 @@ description: "Job families are organized by function at GitLab and we use them t
 
 ### Things to Keep in Mind
 
-1. Before you begin creating a new job family you should check the directory to see if there is an existing job family or a role close to the one you are working to create. Job families should encompass a team, a department, or perhaps a division. If you are confused about when you need to create a new job family and when you should add a new role to an existing one watch [this video](https://www.youtube.com/embed/5EcFz1qNj2E).
+1. Before you begin creating a new job family you should check the directory to see if there is an existing job family or a role close to the one you are working to create. Job families should encompass a team, a department, or perhaps a division. 
     - Sometimes you should just add a level, a specialty or a segment and not create a new job family.
 1. We don't include location requirements for most roles (EMEA, Americas, APAC) in the job family because these can change over time and job families are constant.
 1. We don't include [expertises]({{< ref "structure#expert" >}}), since these are free form.
