@@ -182,7 +182,7 @@ The following is a general guide for identifying open source models:
 7. examine results of the baseline process for the model against other foundational models (available via dashboards for each feature) and assess viability of the model for the Duo feature.
    - note that industry benchmarks can only serve as a guide for models to validate, and not a validation itself as OS models scores may be higher on industry benchmarks that Gitlab use-case specific datasets
 
-# Industry Benchmarks
+### Industry Benchmarks
 
 <table>
 <tr>
