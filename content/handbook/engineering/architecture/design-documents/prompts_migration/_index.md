@@ -221,6 +221,69 @@ For Code Generations, we can use the `prompt` field to pass the additional infor
 - This [PoC](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/1096) demonstrates extending the existing `/v2/code/generations` that uses agents to build and execute the prompt.
 - This [collaboration issue](https://gitlab.com/gitlab-org/gitlab/-/issues/473394) contains more details for using the endpoint.
 
+### Duo Chat Tools
+
+#### Current behavior
+
+Rails receives from AI Gateway the information about which tool to invoke,
+generates a prompt and sends it to AI Gateway.
+
+```mermaid
+sequenceDiagram
+    participant Rails
+    participant AI Gateway
+    participant LLM
+
+    Rails ->> AI Gateway: POST /v2/chat/agent
+    AI Gateway ->> LLM: Creates and sends ReAct Prompt
+    LLM -->> AI Gateway: Responds with the right tool to invoke
+    AI Gateway -->> Rails: Responds with tool to invoke
+
+    Rails ->> AI Gateway: POST /v1/chat/agent with a prompt
+    AI Gateway ->> LLM: Propagates the prompt
+    LLM -->> AI Gateway: Response
+    AI Gateway -->> Rails: Response
+```
+
+#### Proposal
+
+Rails receives from AI Gateway the information about which tool to invoke, sends
+all related data to generate a prompt to AI Gateway. AI Gateway generates a
+prompt and sends a request to LLM.
+
+```mermaid
+sequenceDiagram
+    participant Rails
+    participant AI Gateway
+    participant LLM
+
+    Rails ->> AI Gateway: POST /v2/chat/agent
+    AI Gateway ->> LLM: Creates and sends ReAct Prompt
+    LLM -->> AI Gateway: Responds with the right tool to invoke
+    AI Gateway -->> Rails: Responds with tool to invoke
+
+    Rails ->> AI Gateway: POST /v1/agents/tools/<tool-name> with related data
+    AI Gateway ->> LLM: Create a prompt and send it
+    LLM -->> AI Gateway: Response
+    AI Gateway -->> Rails: Response
+```
+
+When a new version of a prompt is introduced (like
+`ai_gateway/agents/definitions/chat/explain_code/v1`), then `/v1/agents/tools/<tool-name>/<version>` endpoint will be called.
+
+#### PoC
+
+These [Rails](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/160252)
+and [AI Gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/1132) MRs
+demonstrate the execution of a chat tool via agents.
+
+Migrating any other tools comes down to:
+
+- Defining unit primitive and creating a feature flag in
+  [Rails](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/160252/diffs?commit_id=94fe5361f0c9815639b0e0471f68189445c25f80)
+- Adding a prompt in [AI Gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/1132/diffs?commit_id=aaaee478eddeccd4fb51cefc1491ec2ad3b7e36f)
+- Cleaning up the Rails part after the feature flag is enabled
+
 ## Testing and Validation Strategy
 
 Ideally, the migration shouldn't change the prompt or any LLM parameters. That's
