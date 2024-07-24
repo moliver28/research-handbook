@@ -78,7 +78,7 @@ sequenceDiagram
     o ->> t: Merge the request
     o ->> t: Apply changes
     o ->> +t: Reconcile changes
-    t ->> t: Track execution on Merge Request via comment
+    t ->> t: Monitor execution
 
     opt not for deployments
     t ->> +a: prepare
@@ -94,7 +94,7 @@ sequenceDiagram
     t ->> +a: configure
     a -->> -t: ack
 
-    t ->> t: Track execution result on Merge Request via comment
+    t ->> t: Monitor execution result
     deactivate t
     deactivate o
 ```
