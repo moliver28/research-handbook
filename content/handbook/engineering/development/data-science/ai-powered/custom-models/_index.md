@@ -246,8 +246,6 @@ Coreference Resolution: Identifying which words in a text refer to the same thin
 </td>
 </tr>
 </table>
-
-
 ## Metrics
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
