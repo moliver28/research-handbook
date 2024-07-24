@@ -464,14 +464,14 @@ Reminder: France requires contracts to be individually drafted by the Legal team
 
 Always ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 
-## Creating a French Offer
+## Creating a French and Spain Offer
 
-1. You will receive a req to create a French Offer.
+1. You will receive a req to create a French or Spain Offer.
 1. In Greenhouse, click on Job setup, then hiring team, then add Sarah Rogers & Darren Burr to the job granting them the Job Admin: FPA and Legal permissions, then save.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. Send a Slack message to the Legal Team in [Frenchcontracts_CES](https://gitlab.slack.com/archives/C05R0R495L6) requesting assistance with the offer. When making the request in the channel, please indicate the candidate's name and include the link to the GH profile
 1. One of the Legal Team members will respond with the following information:
-    - The GreenHouse Offer Template that you should use (A,B or C)
+    - The GreenHouse Offer Template that you should use
     - The wording that should be added to the template (including information on where the wording should be placed). This wording will be placed as provided by Legal on both the English & French sides in English.
     - If the offer does not include draw language, Legal will confirm which part of the offer template should be removed.
 
@@ -480,9 +480,6 @@ Once this information has been received, please go onto GH and follow the steps 
 1. Click on the settings icon
 1. Select 'Offer Templates' on the left-hand side
 1. Search for the Template as advised by Legal
-    - A: France (35 hour w OTE & draw) [use for ETAM only] CES TO EDIT
-    - B: France (35 hour w OTE & draw) [Cadre ONLY] CES TO EDIT
-    - C: France (218 day w OTE and draw) [Cadre ONLY] CES TO EDIT
 1. Click on the three dots on the right-hand side of the template you will be using and select the 'download' tab
 1. Open the document in Google Docs
 1. Make all the changes as advised by the Legal Team and save the document
