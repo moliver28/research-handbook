@@ -217,10 +217,12 @@ From education to mentorship, sponsorship, and advocacy, GitLab educates its lea
 - **[TMRG Executive Sponsors](/handbook/company/culture/inclusion/erg-guide/#executive-sponsorship)** – VP+ leaders who volunteer to support, advocate, and connect TMRG communities to our shared GitLab mission and vision and E-Group leaders.
 - **[Leadership DIB Council](/handbook/company/culture/inclusion/leadership-dib-council/)** – A strategic group of senior leaders who assist the DIB team in implementing and aligning the strategy to each division’s strategic imperatives.
 - **[Sponsorship](/handbook/company/culture/inclusion/dib-sponsorship/)** – VP+ leaders advocate and provide visibility and guidance to our team members for growth and career advancement.
+
 **Equipping Our People Leaders** – Our leadership training ensures that DIB is considered and threaded throughout the team member experience.
-  - [Elevate – Manager training](/handbook/people-group/learning-and-development/elevate-programs/elevate/)
-  - [Elevate+ – Director+ inclusive leadership training](/handbook/people-group/learning-and-development/elevate-programs/elevate+/)
-  - [Elevate Applied – Continuous learning for Elevate graduates](/handbook/people-group/learning-and-development/elevate-programs/elevate-applied/)
+
+- [Elevate – Manager training](/handbook/people-group/learning-and-development/elevate-programs/elevate/)
+- [Elevate+ – Director+ inclusive leadership training](/handbook/people-group/learning-and-development/elevate-programs/elevate+/)
+- [Elevate Applied – Continuous learning for Elevate graduates](/handbook/people-group/learning-and-development/elevate-programs/elevate-applied/)
 
 ##### Uplifting Our Communities
 
