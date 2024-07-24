@@ -5,15 +5,9 @@ aliases:
 - /handbook/anti-harassment/
 ---
 
-<div class="panel panel-gitlab-orange">
-**This is a Secure Document**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
 Per the stated [Roles & Responsibilities](/handbook/people-group/anti-harassment/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
-
-</div>
-</div>
+{{% /panel %}}
 
 ## Introduction
 
