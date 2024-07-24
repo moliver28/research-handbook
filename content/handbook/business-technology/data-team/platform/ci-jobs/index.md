@@ -276,7 +276,45 @@ Runs the SQLFluff linter on all changed `sql` files within the `transform/snowfl
 
 #### `🚫safe_model_script`
 
-In order to ensure that all [SAFE](/handbook/legal/safe-framework/) data is being stored in appropriate schemas all models that are downstream of [source models with MNPI data](/handbook/business-technology/data-team/how-we-work/new-data-source/#mnpi-data) must either have an exception tag or be in a restricted schema in `PROD`. This CI Job checks for compliance with this state. If your MR fails this job it will likely either need to be audited and verified to be without change MNPI data and have the appropriate exception tags added, or models may need to be migrated to the appropriate restricted schema
+In order to ensure that all [SAFE](/handbook/legal/safe-framework/) data is being stored in appropriate schemas all models that are downstream of [source models with MNPI data](/handbook/business-technology/data-team/how-we-work/new-data-source/#mnpi-data) must either have an exception tag or be in a restricted schema in `PROD`. This CI Job checks for compliance with this state.
+
+<details><summary>how `safe_model_script` works - under the hood</summary>
+
+The CI job is set-up in `snowflake-dbt-ci.yml` and these are the pertinent lines:
+
+```sh
+- dbt --quiet ls $CI_PROFILE_TARGET --models tag:mnpi+
+  --exclude
+    tag:mnpi_exception
+    config.schema:restricted_safe_common_mapping
+    config.schema:some_other_restricted_schema_etc
+    ...
+  --output json > safe_models.json
+- python3 safe_model_check.py
+```
+
+The above has two parts, the `dbt ls` command (the main part), and the python script.
+
+The`dbt ls` does the following:
+
+- It first returns all models tagged with mnpi and all **downstream** models.
+- Then, in the `--exclude` argument, we exclude any *valid* models. Models from the above step are excluded if they meet one of these conditions:
+  - tagged with `mnpi_exception`
+  - within a `restricted` schema
+- Any models that are left need to be fixed by either being placed in a restricted schema, or tagged with 'mnpi_exception'
+
+In the 2nd part, the python script reads in the output from the above 'dbt ls' command. If the output is NOT empty, an exception is raised with a list of failing models.
+
+</details>
+
+##### How to handle script failure
+
+A failure indicates one of two things:
+
+- your model has MNPI data (either directly or as a downstream model)
+  - Fix: move your model to a restricted schema
+- your model does NOT have MNPI data, but is downstream of a model that does have MNPI data
+  - Fix: add `mnpi_exception` tag to the model
 
 #### `🔍macro_name_check`
 
