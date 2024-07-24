@@ -164,7 +164,7 @@ The Team Member portion of the dependent cost will be deducted from their payche
 <details markdown="1">
 <summary>Offboarding GitLab</summary>
 
-Your benefits will cease on the date of termination. You may be able to transfer your coverage to a personal plan through our brokers Willis Tower Watson (WTW). Reach out to WTW to Soportehb@wtwco.com and cc Fernanda.Dallagnese@wtwco.com to receive the guidelines for the plan. 
+Your benefits will cease on the date of termination. You may be able to transfer your coverage to a personal plan through our brokers Willis Tower Watson (WTW). Reach out to WTW to Soportehb@wtwco.com and cc Fernanda.Dallagnese@wtwco.com to receive the guidelines for the plan.
 
 </details>
 

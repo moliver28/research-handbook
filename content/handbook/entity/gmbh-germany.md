@@ -3,9 +3,9 @@ title: GitLab GmbH (Germany) information & benefits
 description: GitLab GmbH (Germany) benefits and information specific to Germany-based team members.
 ---
 
-|**This is a Secure Document**|
-|-----------------------------|
-| Per the stated [Roles & Responsibilities](/handbook/entity/gmbh-germany/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.|
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
+Per the stated [Roles & Responsibilities](/handbook/entity/gmbh-germany/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
+{{% /panel %}}
 
 ### Scope
 
