@@ -1,10 +1,8 @@
 ---
-
 title: Generating NFR (Not For Resale) Licenses
 description: "How to generate a license for NFR license request"
 category: GitLab Self-Managed licenses
 ---
-
 
 ## Overview
 

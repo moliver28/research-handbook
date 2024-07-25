@@ -1,20 +1,11 @@
 ---
-
 title: "Field Manager Development Program"
-description: "The Field Manager Development Program equips managers with a foundational set of skills & practices for effectively managing remote teams across GitLab’s field organization"
+description: "The Field Manager Development Program equips managers with a foundational set of skills & practices for effectively managing remote teams across GitLab's field organization"
 ---
-
-
-
-
-
-
-
-
 
 ## Overview
 
-Manager effectiveness is important to GitLab’s continued ability to attract, develop, and retain key talent and deliver scalable, efficient growth. In response, the Corporate L&D, People, and Field Enablement teams are collaborating to launch this FY22 program to equip managers with a foundational set of skills & practices for effectively managing remote teams across GitLab’s field organization.
+Manager effectiveness is important to GitLab's continued ability to attract, develop, and retain key talent and deliver scalable, efficient growth. In response, the Corporate L&D, People, and Field Enablement teams are collaborating to launch this FY22 program to equip managers with a foundational set of skills & practices for effectively managing remote teams across GitLab's field organization.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x3ZQEy1oE04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

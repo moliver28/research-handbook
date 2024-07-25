@@ -16,7 +16,7 @@ description: Support Global Groups FAQ
    similar situations that have already been reported. As FlexiPods become more
    widespread, they will provide an excellent space for trend detection as well.
 
-#### 2. How does SGG impact people’s sense of belonging to a single global team?
+#### 2. How does SGG impact people's sense of belonging to a single global team?
 
    It can have that undesired impact if we are not diligent at encouraging and
    enabling various opportunities for collaborating outside of a group. A few
@@ -43,7 +43,7 @@ description: Support Global Groups FAQ
 #### 4. Does having per-group Slack channels make it harder to find existing answers in Slack?
 
    This can happen. However, given that Slack purges older posts continuously,
-   we shouldn’t be storing answers to ticket-related technical questions in
+   we shouldn't be storing answers to ticket-related technical questions in
    Slack. Once a conversation in Slack has produced the needed answers, the
    ticket owner should save the information in an internal note in the ticket
    itself. That will allow others to search through ticket history to find
@@ -79,7 +79,7 @@ description: Support Global Groups FAQ
    Yes! Go where your knowledge is needed. Pair with the ticket assignee. Or
    add notes to their tickets to suggest solutions or next steps. If it makes
    more sense to become the assignee on a ticket from another group, do that -
-   just be sure you change the `SGG` field to have your group’s name. FlexiPods
+   just be sure you change the `SGG` field to have your group's name. FlexiPods
    should help with this as well, making it easier for others to find you, and
    for you to find tickets where your skills are needed.
 
@@ -98,7 +98,7 @@ group, see [Bulk editing SGG values]({{< ref "bulk-editing-sgg-values" >}}).
 
 ### 1. How are the number and size of groups determined?
 
-   We based the trial groups’ size on external studies of what range of group
+   We based the trial groups' size on external studies of what range of group
    sizes is most effective, and settled on 14-15 as that would allow for six
    comparably-sized groups in a global deployment. After the trials, feedback
    led us to settle on a higher number of SEs per group, and fewer groups.
@@ -115,7 +115,7 @@ group, see [Bulk editing SGG values]({{< ref "bulk-editing-sgg-values" >}}).
 
 ### 2. What are the criteria for forming groups?
 
-   1. Within each region, we determined each group’s membership by distributing
+   1. Within each region, we determined each group's membership by distributing
       as evenly as we could the following:
       1. Area of focus (SaaS vs. SM)
       1. Senior SEs
@@ -124,8 +124,8 @@ group, see [Bulk editing SGG values]({{< ref "bulk-editing-sgg-values" >}}).
       1. Skill set (CI, Geo, Runner, Elasticsearch, …)
       1. Non-male
 
-      The distribution isn’t even close to perfect, and it can’t be. We think
-      it’s reasonable, though.
+      The distribution isn't even close to perfect, and it can't be. We think
+      it's reasonable, though.
    1. We did not take into account other special roles, such as Support Stable
       Counterparts
 
@@ -148,7 +148,7 @@ group, see [Bulk editing SGG values]({{< ref "bulk-editing-sgg-values" >}}).
 ### 5. What happens when I do switch groups?
 
    1. Open an MR to change your SGG assignment in the [`support-team.yaml` file](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml). This is the SSOT for Zendesk and the [Support Team Page](https://gitlab-com.gitlab.io/support/team/sgg), so it's important to keep this updated.
-   1. Add yourself to the Slack channel of your new SGG – they’re all public, so you can just join.
+   1. Add yourself to the Slack channel of your new SGG – they're all public, so you can just join.
    1. Submit an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=slack_googlegroup_1Passwordgroupvault) to have yourself removed from your old SGG-specific Slack groups (`@spt-sggname` and `@spt-sggname-region`) and added to the new ones.
    1. Update your tickets to the new SGG, using the [bulk edit method](/handbook/support/support-global-groups/bulk-editing-sgg-values).
    1. Have a look at the homepage of your new SGG (all linked from the [SGG handbook page](/handbook/support/support-global-groups/#the-system)) to learn about their established processes – it's probably also a good idea to ask your new colleagues if the information on the homepage is still correct.
@@ -159,7 +159,7 @@ group, see [Bulk editing SGG values]({{< ref "bulk-editing-sgg-values" >}}).
 ### 1. What is SGG trying to improve? (What is the purpose of SGG?)
 
    The essence of the move to SGG was that we wanted to take our team members
-   out of a poorly defined system that didn’t support them well and put them
+   out of a poorly defined system that didn't support them well and put them
    into a new system that would. Feedback from the Support Engineers who
    participated in the SGG Trials indicated consistently that we had been
    successful. They felt less stressed, more comfortable and more happy. They
@@ -207,7 +207,7 @@ whether we're successful in meeting our SLA and other goals.
 
 ## Organization and Leadership
 
-### 1. What is the manager’s role with respect to SGG?
+### 1. What is the manager's role with respect to SGG?
 
 - Managers are available to work with any group that reaches out with
      questions, concerns, requests for guidance, requests for help, etc.
@@ -219,14 +219,14 @@ whether we're successful in meeting our SLA and other goals.
 ### 2. Why are managers not assigned to specific groups within the SGG system?
 
    If we were to assign managers to groups, we would either need to make each
-   group a manager’s team, replacing their current team, or use matrix
+   group a manager's team, replacing their current team, or use matrix
    management. Since GitLab is a no matrix organization, that leaves only the
-   first option, which doesn’t work for several reasons. If each manager took
+   first option, which doesn't work for several reasons. If each manager took
    on the portion of a group in their region: the manager to IC ratio would be
    too high, about 1:6; and each group would have 3 managers, making global
    alignment challenging. Or, if each manager were assigned to a single global
    group: the manager to IC ratio would be far too low, about 1:21; only 5
-   managers would have a group or we’d again have 3 managers per group; and ICs
+   managers would have a group or we'd again have 3 managers per group; and ICs
    would have a manager in another region, which is not something that we
    currently do in Support
 
@@ -238,14 +238,14 @@ whether we're successful in meeting our SLA and other goals.
    the group needs any help, etc. And at any time if a group needs help, the
    managers with availability can step in. In all these ways, managers can
    observe the different successes, struggles and organization of each group and
-   get a bigger picture of how we’re doing.
+   get a bigger picture of how we're doing.
 
 ### 3. Without manager assignment to groups, how will we gain global alignment for future initiatives and changes?
 
    Nothing really changes with respect to gaining global alignment. Managers
    will discuss initiatives and changes with their team members in 1:1s, or team
    meetings, or in whatever forum they use with their team. SGG also opens up a
-   new possibility that we didn’t have before, which is that managers can easily
+   new possibility that we didn't have before, which is that managers can easily
    discuss these things with any or all groups. So it may actually be easier to
    gain global alignment in SGG than it was prior to SGG.
 
@@ -321,14 +321,14 @@ with the rest of Support.
 
 ## Tickets and Views
 
-### 1. Should SEs respond to other SEs’ tickets?
+### 1. Should SEs respond to other SEs' tickets?
 
-   An important part of SGG is increasing collaboration on tickets, and that’s
-   why all of a group’s tickets are visible in the group view and all SEs are
+   An important part of SGG is increasing collaboration on tickets, and that's
+   why all of a group's tickets are visible in the group view and all SEs are
    encouraged to help on any ticket in their group view. This may sound like a
    return to the hot queue model, but there are key differences. First, all
    tickets should be assigned from the moment of the first response. Second, the
-   preferred ways to help on someone else’s ticket are to pair with the assignee,
+   preferred ways to help on someone else's ticket are to pair with the assignee,
    to respond to Slack questions from the assignee, and to add internal notes to
    the ticket. However, if the next response is due, either according to the SLA
    clock or to an expectation set in the ticket, and the assignee is not
@@ -348,18 +348,18 @@ with the rest of Support.
 
 ### 3. What should a group do if all of its SaaS or SM people are absent or dedicated to non-ticket work?
 
-   First, remember that each group is represented in all 3 regions. It’s pretty
+   First, remember that each group is represented in all 3 regions. It's pretty
    unlikely that all 3 regions of a group would be completely absent all of its
    SEs in an Area of Focus. So the first option would be to check in with the
    other regions for help. Secondly, the group could try to see what progress
    it could make on its own. And thirdly the group can ask for help from other
-   groups and from managers. We’re still a single global team. No group will
+   groups and from managers. We're still a single global team. No group will
    ever be left alone.
 
    It is also highly recommended that each group agree on a plan for
    coordinating or at least dealing with planned absences. At a minimum, if the
    group agrees on a single way to keep all of its members informed as to
-   upcoming and current absences, then there won’t be any unpleasant surprises.
+   upcoming and current absences, then there won't be any unpleasant surprises.
 
 ### 4. Will Support FlexiPods work with SGG?
 

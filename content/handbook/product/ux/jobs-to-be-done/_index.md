@@ -64,7 +64,7 @@ Using [Outcomes](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#
 - **Benchmarking:** Evaluate the Main Job and Consumption Job Outcomes to establish a benchmark and assist with prioritization by identifying underserved needs.
 - **Solution Evaluation** Evaluate how your solution improves the targeted Outcome(s), using the established benchmark as reference.
 
-## Jobs Gitlab helps get done
+## Jobs GitLab helps get done
 
 ### Main jobs
 
@@ -119,19 +119,19 @@ title: "Mapping Jobs to be Done (JTBD)"
 description: "How do I create a job map? How do I validate a JTBD?"
 ---
 
-The Main Job is a process that you can sequence chronologically into a Job Map. A Job Map reveals the process of completing the job from the executor’s point of view, not the buyer or customer perspective. The intent is to illustrate what the Job Performer is striving to get done at each stage in executing a job.
+The Main Job is a process that you can sequence chronologically into a Job Map. A Job Map reveals the process of completing the job from the executor's point of view, not the buyer or customer perspective. The intent is to illustrate what the Job Performer is striving to get done at each stage in executing a job.
 
 ## What a Job Map is not
 
 A Job Map is not a customer journey, service blueprint, or workflow diagram. It does not reflect what a person does to discover, learn about, select, buy, and use a product or service. These activities are relevant to the buyer and purchasing process.
 
-It’s also not about mapping tasks or physical activities, but about creating a sequence of smaller goals that make up the Main Job. Ideally, the Job Map will not include any means of performing the job.
+It's also not about mapping tasks or physical activities, but about creating a sequence of smaller goals that make up the Main Job. Ideally, the Job Map will not include any means of performing the job.
 
 ## How to create a Job Map
 
-From your interviews, create a sequence of stages in a visual representation that shows underlying patterns of intent. As you map, think about what the Job Performer’s subgoals are and the phases of intent that unfold as the job gets done. There is a [template in FigJam](https://www.figma.com/file/M8w3pkidNUAUIQrQALifFS/JTBD-Template?type=whiteboard&t=HXmKttyxz1lwX9B8-6) that you can use for this. The template uses the eight standard phases from Tony Ulwick’s [Outcome-Driven Innovation (ODI) method](https://jobs-to-be-done.com/outcome-driven-innovation-odi-is-jobs-to-be-done-theory-in-practice-2944c6ebc40e).
+From your interviews, create a sequence of stages in a visual representation that shows underlying patterns of intent. As you map, think about what the Job Performer's subgoals are and the phases of intent that unfold as the job gets done. There is a [template in FigJam](https://www.figma.com/file/M8w3pkidNUAUIQrQALifFS/JTBD-Template?type=whiteboard&t=HXmKttyxz1lwX9B8-6) that you can use for this. The template uses the eight standard phases from Tony Ulwick's [Outcome-Driven Innovation (ODI) method](https://jobs-to-be-done.com/outcome-driven-innovation-odi-is-jobs-to-be-done-theory-in-practice-2944c6ebc40e).
 
-Each stage should have a purpose and be formulated as a functional job. Avoid including emotional and social aspects in the stage labels, and avoid bringing in adjectives and qualifiers that indicate a need, like “quickly” or “accurately.” Strive to make the stages as universal and stable as possible without reference to the means of execution. Jobs are separate from solutions.
+Each stage should have a purpose and be formulated as a functional job. Avoid including emotional and social aspects in the stage labels, and avoid bringing in adjectives and qualifiers that indicate a need, like "quickly" or "accurately." Strive to make the stages as universal and stable as possible without reference to the means of execution. Jobs are separate from solutions.
 
 Consider these job stages as more of a guideline than a prescriptive model. The point is to remember to cover all types of stages involved in executing the Main Job&mdash;before, during, and after. Modify the names of the stages as needed to describe your particular Main Job, but keep them short (ideally expressed as single-word verbs). The table below reflects some common verbs for each of the stage types in the universal job map.
 
@@ -152,9 +152,9 @@ Consider these job stages as more of a guideline than a prescriptive model. The 
 1. Start with the three large phases of the Main Job: beginning, middle, and end. Arrange the sub-jobs uncovered from your interviews in the appropriate category.
 1. Continue to group the jobs into stages, using the universal stages as a starting point, but changing them as needed. Language is important, so spend time refining it as you go.
 
-You might end up with fewer or more stages than eight. It’s also possible to include a loop for interaction or even a branch in the flow. The diagram you create should stand as a clear model for describing the process of performing the job that everyone in your organization can relate to.
+You might end up with fewer or more stages than eight. It's also possible to include a loop for interaction or even a branch in the flow. The diagram you create should stand as a clear model for describing the process of performing the job that everyone in your organization can relate to.
 
-Ideally, you will validate this job map with Job Performers. Talk through it with them. If the labels and/or divisions between stages need a great deal of explanation or seem to be confusing, rework them until it’s simple enough to be self-explanatory.
+Ideally, you will validate this job map with Job Performers. Talk through it with them. If the labels and/or divisions between stages need a great deal of explanation or seem to be confusing, rework them until it's simple enough to be self-explanatory.
 
 ### Step 2 - Put the job map to use
 
@@ -192,12 +192,12 @@ Our goal is to make products that people want, as well as make people want our p
 
 - **A lens for viewing your products and solutions in terms of the jobs customers are trying to achieve.** Instead of looking at the demographic factors of usage, JTBD focuses on what people seek to achieve in a certain circumstance ([see Clayton Christensen's Milkshake video](https://www.youtube.com/watch?v=sfGtw2C95Ms)).
 - **A way to understand the goals that people want to accomplish.** Achieving those goals amounts to progress in their lives. Jobs are also the needs, motivators, and drivers of behavior: they predict why people behave the way they do. This moves beyond mere correlation and strives to find causality.
-- **A chance to step back from your business and understand the objectives of the people you serve.** To innovate, don’t ask customers about their preferences, but instead understand their underlying needs and motivations.
+- **A chance to step back from your business and understand the objectives of the people you serve.** To innovate, don't ask customers about their preferences, but instead understand their underlying needs and motivations.
 - **A framework for improving collaboration and communication across disciplines and stage groups.** Since JTBD isn't particular to any expertise (for example, product, UX, marketing), it can be used by all of these disciplines to focus team members on the core problem that the business aims to solve for its customers. For example, rather than marketing having personas, UX having user stories, and so on, the company can use JTBD to establish common, high-level definitions that everyone can use.
 
 ## What isn't a JTBD?
 
-- **They are not about your product, service, or brand.** People “hire” products to get a job done. Instead of focusing on your own solution, you must first understand what people want and why that’s important to them.
+- **They are not about your product, service, or brand.** People "hire" products to get a job done. Instead of focusing on your own solution, you must first understand what people want and why that's important to them.
 - **They are not about specific products or particular solutions.** Instead, they focus on the process that people go through to solve a problem.
 - **They are not a replacement for the user persona framework.** The two contrasting viewpoints share similarities without being incompatible. They can be used together to gain a more holistic view of the product and its users. For example, you may want to consider the job statement and process while drafting the workflow of a new feature, but you may want to check specific content on a page suitable for a particular user persona.
 
@@ -226,11 +226,11 @@ Other functions within the job ecosystem to consider include the following:
 - **Audience:** People who consume the output of performing the job
 - **Assistant:** A person who aids and supports the Job Performer in getting the job done
 
-Note that these different roles don’t refer to job titles. Instead, they represent different functional actors within the context of getting a job done.
+Note that these different roles don't refer to job titles. Instead, they represent different functional actors within the context of getting a job done.
 
 ### *What* does the Job Performer want to accomplish (independent of your solution)?
 
-The aim of the Job Performer is not to interact with your company but to get something done. Because they don’t mention solutions or technology, jobs should be as timeless and unchanging as possible. Strive to frame jobs in a way that makes them stable, even as technology changes.
+The aim of the Job Performer is not to interact with your company but to get something done. Because they don't mention solutions or technology, jobs should be as timeless and unchanging as possible. Strive to frame jobs in a way that makes them stable, even as technology changes.
 
 #### Is a Job Performer the same as a User Persona?
 
@@ -244,21 +244,21 @@ While using the JTBD framework, a user's job title or personal details are not a
 
 The process follows Job Performers as they move through different goal stages in order to accomplish their goal.
 
-- Understanding the process of the Job Performer’s intent is key to JTBD.
+- Understanding the process of the Job Performer's intent is key to JTBD.
 - You can illustrate the job in a chronological map using a sequence of stages, such as Beginning, Middle, and End.
 - Each stage can contain multiple user stories. Be careful not to get into the tasks/physical activities just yet.
-- Because the job has to be “done,” be sure to formulate the job in a way that has an end state.
+- Because the job has to be "done," be sure to formulate the job in a way that has an end state.
 - Once you have the sequence, specify the tasks needed to complete each user story.
 
 ### *Why* does the performer act in a certain way? What are their requirements or intended outcomes during the job process?
 
 Why do the Job Performers act the way they do while getting a job done? Their actions might be tied to achieving specific outcomes, such as producing a specific report. Their actions might also be tied to requirements or processes to which they must adhere.
 
-In JTBD, a need is seen in relation to getting the job done. Needs aren’t demands from a solution, but an individual’s requirements for getting a job done. Needs aren’t aspirations, either, which are above the job in terms of abstraction.
+In JTBD, a need is seen in relation to getting the job done. Needs aren't demands from a solution, but an individual's requirements for getting a job done. Needs aren't aspirations, either, which are above the job in terms of abstraction.
 
 Example: If a Main Job is defined as *file taxes*, their need may be to *minimize the time it takes to gather documents or maximize the likelihood of getting a return*.
 
-Example: Expressions like “have financial peace of mind” or “provide for my family” are motivations beyond getting the job. These are important aspects to consider later, but not needs related to reaching the objective of filing taxes.
+Example: Expressions like "have financial peace of mind" or "provide for my family" are motivations beyond getting the job. These are important aspects to consider later, but not needs related to reaching the objective of filing taxes.
 
 ### *When and where* does the job get done?
 

@@ -46,7 +46,7 @@ GitLab PS can and should help our partners be successful in delivering services 
 
 ### Implementation Services
 
-- These services almost always involve actually building the infrastructure and configuring the gitlab components so maintaining a customer-free reference for IaC of configuration Automation tends to be harder
+- These services almost always involve actually building the infrastructure and configuring the GitLab components so maintaining a customer-free reference for IaC of configuration Automation tends to be harder
 - [Proliferate](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/implementation/proliferate) can be used by Partners (Indirect) (project based and staff aug).
 - Partners (Direct) TBD
 - As Partners (Indirect) deliver implementation services projects, they can use [Implementation services discovery deck](https://docs.google.com/presentation/d/1K37wr--H2IT9Kv_c9N99UmkGUovAg6iOLmbcRKeKf10/edit)
@@ -73,13 +73,13 @@ Make sure as you (and/or the partner) is delivering the implementation services,
 If the project requirements exceed the current capacity of the available resources then the professional services team may employ a Consultant to help deliver the project.  The following provides a checklist of items to process before and during the use of a subcontracted resource:
 
 1. Partner Search
-    - Share “sample PS Projects” with viable partners
+    - Share "sample PS Projects" with viable partners
         - [Advisory Project](https://docs.google.com/document/d/1KhADjTUOndaAev3dSLlRgyEJtBIT6wv_rr3aH5hsKKQ/edit?usp=sharing)
         - [Implementation Project](https://docs.google.com/document/d/13Mw-7uSSclfwm6JWcs8UrXM9SunX8ebIeIk-n9q9b6Y/edit?usp=sharing)
         - [Migration Project](https://docs.google.com/document/d/1OuCZqxZvjiPx2S0bFnX8tGgfBFWeg_gdifQWhdtTlAg/edit?usp=sharing)
         - Project Management Project (coming soon)
         - Training Project (coming soon)
-    - Share “PSE Profiles” with viable partners
+    - Share "PSE Profiles" with viable partners
         - Advisory (Profile coming soon)
         - Implementation (Profile coming soon)
         - Migration (Profile coming soon)
@@ -167,33 +167,51 @@ Sr. Channel Solutions Manager is responsible for managing the relationship with 
   - Project Coordinator creates a partner and SOW-specific version of the Partner Invoicing SOW Consulting Funds Tracker within the applicable partner G-Drive folder.
   - Sr. Channel Solutions Manager sends a copy of the fully executed Prime Partner SOW to the partner.
 
-The Project Coordinator reviews the internal capacity first prior to outsourcing to out partners for project delivery. Once it is determined that we need to have a partner staff a project, the PC will tag the partner contact in the partner slack channel with the project information.
+### Partner Scheduling Process
 
-After the Project Coordinator works with the partner lead on an agreed project assignment, the Project Coordinator will send the work authorization form for the partner to review and execute via Docusign.
+The Partner Scheduling Process is as follows:
 
-- Partner responds with candidates and availability
-  - If Engineer is not vetted, go to Step 2
-  - If Engineer is vetted, go to Step 4, activity # 3
-
-The Project Coordinator will track the Work Authorizations against the funding on the Prime Partner SOW.When submitting an update in Zip for our Partner PRIME SOW's, the total agreement amount is $300,000. Once the Partner PRIME PO has been depleted to $60,000, the Project Coordinator assigned to the specific Partner will submit a new purchase order request for $300,000 in Zip.
+1. The Project Coordinator reviews the internal capacity first prior to outsourcing to our partners for project delivery.
+2. Once it is determined that we need to have a partner staff a project, the Project Coordinator will tag the partner lead in the partner slack channel with the project information.
+3. After the Project Coordinator works with the partner lead on an agreed project assignment, the Project Coordinator will send the work authorization form for the partner to review and execute via Docusign.
+4. If the Partner Engineer is not vetted, the Project Coordinator will go through the partner vetting process outlined earlier.
+5. If the Partner Engineer is vetted, the Project Coordinator will proceed and send the work authorization form.
+6. The Project Coordinator will track the Work Authorizations against the funding on the Prime Partner SOW.
 
  **Consulting Work Authorization Form**
 
-The Consulting subcontracting Prime Partner SOW includes a work authorization form. The work authorization form is used to contractually secure a partner trainer for a Consulting delivery. One consulting project should be listed on the Consulting work authorization form.
+The Consulting subcontracting Prime Partner SOW includes a work authorization form. The work authorization form is used to contractually secure a partner engineers and trainers for a Consulting and Training delivery. One Consulting or Training project should be listed on the Consulting or Training Work Authorization form. The PS Operations Team will initiate the work authorization form for the partner.
 
-- PS Ops Team initiates Work Authorization
-  - Director or PS negotiates rate on a per project basis, unless predetermined
-    - Work Authorization include, but not limited to:
-      - Scope
+- Work Authorization include, but not limited to:
+        - Scope
         - Technical requirements
         - Background check/security clearance requirements
         - Hourly rate
         - Billing terms as determined in MSA, MPA or Sub-contracting Agreement
+        - Dates of work completed
         - Travel and expenses (if on site required)
+
+### Time Sheet Submissions
+
+Each week, the Partner will submit their timesheets into our PSA tool by the end of their business day.
+Timesheets are due on the Friday of each week. It is imparative that all timesheets are submitted into the PSA tool weekly by the deadline!
+Month end deadlines for timesheet submissions are posted in the partner slack channels at month end. Reminders are submitted mid-month as we lead up to the month-end deadline. If there are further questions, please reivew with Project Managers or the Operations team.
 
 **Partner Monthly Invoicing**
 
 Each month end, our partners will submit their invoices for time spent on our projects into the Coupa Procurement System. The PC who originally submitted the PO request within the Procurement System will receive an email notification that there is an invoice waiting for approval.
+Invoies should be submitted in Coupa on the first week each month for the previos month. For example, work performed between May 1-31 would be submitted in Coupa on the first week of June. If invoices are not submitted by the 15th of each month, the PS Operations Team will follow up with the Partner lead to ensure the invoices are submitted on time.
+
+Invoices should be submitted in Coupa with the following details:
+
+- Partner Name
+- PO Number
+- Dates of work performed
+- Name of Consultant
+- Name of Project
+- Hours worked
+- Hourly Rate
+- Total
 
 ### Customer Project Onsite Travel
 

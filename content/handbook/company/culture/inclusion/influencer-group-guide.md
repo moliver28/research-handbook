@@ -5,7 +5,7 @@ description: "This document provides team members with the information they need
 
 ### Purpose and Benefits of a DIB Influencer Group
 
-Internal diversity groups are a valuable component of a company’s diversity, inclusion, and belonging strategy because they provide an inclusive and effective mechanism for managing and initiating diversity, inclusion, and belonging programs. Diversity councils/groups successfully integrate the company’s DIB programs with their operations, strategies, missions, and objectives. They provide platforms for assessing the effectiveness of the DIB program, introducing reform, and overseeing DIB. They also demonstrate the company's commitment to DIB.
+Internal diversity groups are a valuable component of a company's diversity, inclusion, and belonging strategy because they provide an inclusive and effective mechanism for managing and initiating diversity, inclusion, and belonging programs. Diversity councils/groups successfully integrate the company's DIB programs with their operations, strategies, missions, and objectives. They provide platforms for assessing the effectiveness of the DIB program, introducing reform, and overseeing DIB. They also demonstrate the company's commitment to DIB.
 
 The Global DIB Influencer Group is an action oriented group that advocates, sponsors and evangelizes DIB initiatives and is a voice for all team members on matters of Diversity, Inclusion & Belonging.
 

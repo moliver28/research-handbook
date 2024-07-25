@@ -24,7 +24,7 @@ App information:
 
 This app uses the Organization field `AM Project ID` to check for an existing
 Account Management project. If it finds it, it will then link to that
-project’s Architecture Diagram.
+project's Architecture Diagram.
 
 **NOTE**: The AM Project ID field is manually populated. To get that added in,
 you would want to submit a Support Ops Project issue.
@@ -68,6 +68,16 @@ App information:
 - Located in the topbar
 - This application was developed in-house and can be found
   [GitLab Search project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/gitlab-search).
+
+## GitLab Duo
+
+This app enables the use of GitLab Duo in Zendesk.
+
+App information:
+
+- Located in the topbar
+- This application was developed in-house and can be found
+  [GitLab duo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/gitlab-duo).
 
 ## Out of Office
 

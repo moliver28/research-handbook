@@ -19,4 +19,4 @@ description: "This Hands-On Guide walks you through the lab exercises in the Dev
 
 ## Suggestions?
 
-If you’d like to suggest changes to the *DevSecOps With GitLab Duo*, please submit them via merge request.
+If you'd like to suggest changes to the *DevSecOps With GitLab Duo*, please submit them via merge request.

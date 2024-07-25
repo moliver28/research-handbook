@@ -1,5 +1,4 @@
 ---
-
 title: Improving Documentation
 description: "Workflow for submitting GitLab documentation improvements from the Support team"
 category: Handling tickets

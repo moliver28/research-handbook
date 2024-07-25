@@ -1,13 +1,7 @@
 ---
-
 title: "Campaigns and Programs"
 description: "Campaigns are used to track efforts of marketing tactics - field events, webcasts, content downloads."
 ---
-
-
-
-
-
 
 ## Campaigns
 
@@ -104,6 +98,8 @@ This program type is used in conjunction with Marketo email programs. This progr
 
 This is used for campaigns that can either be organised through a 3rd party vendor or GitLab, covering both in-person and virtual roundtables. It is a gathering of high level CxO attendees run as an open discussion between the moderator/host, GitLab expert and delegates. There usually aren't any presentations, but instead a discussion where anyone can chime in to speak. The host would prepare questions to lead discussion topics and go around the room asking delegates questions to answer. [Read More](/handbook/marketing/virtual-events/external-virtual-events/#overview).
 
+Program type is included on the smart campaign meant to clear `dietary restriction` related fields. 7 days after an event's program statuses are recorded, the fields are cleared automatically.
+
 **Bizible:** This is tracked as an _offline_ channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
 
 | Member Status | Definition | Success |
@@ -169,6 +165,8 @@ This is used for non-traditional list uploads in which we are looking to a) avoi
 This is an event that we have created, own registration and arrange speaker/venue (example: GitLab Commit or Meetups). Also considered in this grouping would be 3rd party auxiliary events that are added on to a conference sponsorship (i.e a happy hour or VIP dinner at a conference).
 
 **Bizible:** This is tracked as an _online_ and as an _offline_ channel because we manage the registration process through our website. Whenever someone registers, a TP will be created based on that online activity while another  TP is added based on the campaign sync rules, for the campaign members with success statuses.
+
+Program type is included on the smart campaign meant to clear `dietary restriction` related fields. 7 days after an event's program statuses are recorded, the fields are cleared automatically.
 
 | Member Status | Definition | Success |
 | ------------- | ---------- | ------- |
@@ -241,7 +239,15 @@ This campaign type can be part of a larger Field/Conference/Owned event but we t
 
 This is webcast hosted on an external partner/vendor platform. The status of `Attended On-demand` accounts for GitLab hosted On-Demand and non-GitLab hosted On-demand webcasts. [Read more](/handbook/marketing/virtual-events/external-virtual-events/#overview).
 
-**Bizible:** This is tracked as an _online_ channel if registrants come through a marketo form, otherwise it will be an _offline_ channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
+**Bizible:** This is tracked as an _offline_ channel for both types of touchpoints (TPs) mentioned below.
+
+For Sponsored Webcasts we're creating TPs in two ways:
+
+1. **Registration TPs**, which mimic the TPs created for Owned Events through the online registration method (bizible script on our LPs). However, because for Sponsored Webcasts, we don't own the LP registration, this method is unavailable. Instead, we're replicating these TPs through the Marketo Program membership method.
+
+The Maketo Program membership rule creates a "Registration TP" for all program members housed in Marketo programs that sit in a Marketo folder with the folder's name containing "Sponsored Webcasts". As long as this naming convention is followed, these TPs will be created automatically. The Touchpoint Date for these touchpoints is the `Program Membership Date`.
+
+1. **Responded Status TPs**, which are created based on the [AMM Channel/Sub-Channel Rules for Offline Touchpoints](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit?gid=92970564#gid=92970564)(Rule on row 19) for responded status campaign members only. The TP Date for these TPs is the `Member First Associated Date` in the associated SFDC Campaign. Please see below the campaign statuses for the Sponsored Webcasts campaign type:
 
 | Member Status | Definition | Success |
 | ------------- | ---------- | ------- |
@@ -284,6 +290,8 @@ Used for campaigns where a third party vendor is organizing one-to-one meetings 
 
 **Bizible:** This is tracked as an _offline_ Bizible channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
 
+Program type is included on the smart campaign meant to clear `dietary restriction` related fields. 7 days after an event's program statuses are recorded, the fields are cleared automatically.
+
 | Member Status | Definition | Success |
 | ------------- | ---------- | ------- |
 | No Action | default starting position for all records |  |
@@ -321,6 +329,8 @@ An in-person or virtual workshop where the attendees are guided through an agend
 
 For logistical setup and more information, go [here](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshops-1).
 **Bizible:** This is tracked as an _offline_ Bizible channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
+
+Program type is included on the smart campaign meant to clear `dietary restriction` related fields. 7 days after an event's program statuses are recorded, the fields are cleared automatically.
 
 | Member Status | Definition | Success |
 | ------------- | ---------- | ------- |
@@ -1104,21 +1114,21 @@ When someone fills out these forms, they will be automatically added to the [Lan
 ### Create LinkedIn Lead Gen Form in LinkedIn (digital marketing)
 
 - Clone the form template according to the region your campaign is located (AMER, EMEA/APAC). The reason for the different forms is compliance related, so please be sure to use the correct template for the region. If you are setting up all three regions, you will need to use both templates.
-  - Ensure the ‘form name’ includes the utm_campaign exactly as it appears in the table above
+  - Ensure the 'form name' includes the utm_campaign exactly as it appears in the table above
   - Form name should also include the utm_content exactly as listed in the issue
   - Form names in AMER forms also need to include `amer` in the form name
   - Example of correct format
     - _Ex.devopsgtm_amer_guide-to-devops_feb2023_
     - NOTE: If there is a segment specific version, add the segment inside the content name for better tracking. _devopsgtm_amer_guide-to-smb-devops_feb2023..._
-- Fill out ‘offer headline’ and ‘offer details’
-- Update ‘confirmation message’ and `landing page URL`
+- Fill out 'offer headline' and 'offer details'
+- Update 'confirmation message' and `landing page URL`
   - The template has the homepage as a standard landing page URL, but if there is a more appropriate page, update the URL and keep the UTMs the same
 - Update hidden field for `utm_campaign` and `utm_content`
   - This is very important to have the correct campaign naming to ensure the lead data is passed to Marketo
 - Save Form
 - Navigate to the campaign that will be using the new form and edit
 - In `form details` select `download` as the call-to-action and select your new form
-  - Note: If your new asset is launching in multiple regions, confirm you’re adding the correct form to the correct regional campaign
+  - Note: If your new asset is launching in multiple regions, confirm you're adding the correct form to the correct regional campaign
 
 ### Step 1: For new campaigns not listed above, [clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG8361A1)
 
@@ -1190,7 +1200,7 @@ _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
 
 ## Test your Marketo program setup
 
-1. Submit a test registration on the webpage for this campaign. If you need to create a new test record (instead of using your existing email address), you can add a `+` after your username: for example `jdoe+testuser@gitlab.com`. When you run your test, pay attention to if the flow has a "Remove from flow" for gitlab email addresses. If this is the case, you need to either delete that flow step or test with another email address.
+1. Submit a test registration on the webpage for this campaign. If you need to create a new test record (instead of using your existing email address), you can add a `+` after your username: for example `jdoe+testuser@gitlab.com`. When you run your test, pay attention to if the flow has a "Remove from flow" for GitLab email addresses. If this is the case, you need to either delete that flow step or test with another email address.
 1. After the test lead is submitted, go to the Marketo database by clicking `Database` in the Marketo navigation. Then click on `Default` on the left side menu.
 1. Search for the email address you used for your test record and open the test record in the Marketo database. Go to the Activity History and confirm:
      1. The form was submitted
@@ -1301,3 +1311,17 @@ For conferences list loads with more than 5,000 attendees, consider not marking 
 1. Uncheck `Success` box for `Attended` and save
 1. Load the list in with the attended members
 1. Once the list is done processing and campaign members are added, go back into Admin>Tags>Channel>Conference, and recheck the `Success` box for `Attended`
+
+## Instructions: How to collect Dietary Restrictions on event registration and view responses
+
+1. For an owned event (Field Marketing), add `FORM 4286: Owned event with Dietary Restriction` to the LP. Note that we do have other forms that collect this data, for example DevSecOps World Tour forms. Check with MOps if you aren't sure which form to use for your use.
+1. Update Smart Campaign to look for `FORM 4286` in the Registration Processing SC.
+1. Create a smartlist to look for the responses from the form. From the program, click "New", then "New local asset", then "Smart List". Name the smart list "Dietary Requirements". Add the filters `Member of Program` (Program name) & `Dietary Restriction Details` (is not empty).
+1. Next, you need to [create a custom view](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/using-smart-lists/create-and-change-views-for-lists-and-smart-list) in Marketo to see the details. Once you create the view, you will always have it available for selection the dropdown.
+1. Click on the `Dietary Requirements` smart list you created, then go to the People tab.
+1. Click where it says `View: Default`
+1. Select Create View
+1. Name the view Dietary Restrictions and under hidden columns, select `Dietary Restriction Detail` and `Dietary Restrictions: Other`
+1. Click Create
+
+The view you created will be saved for future use, so any time you need to see this specific view in the future, you will click View: Default and select "Dietary Restrictions" from your dropdown (the list is unique to you, so you will have different options than other people). Due to privacy requirements, we are not pushing this information to SFDC, but you can see it in Marketo up until seven days after the event. See details below for creating a report in Marketo to see the responses. The dietary restriction fields will automatically be cleared 7 days after the lead list is loaded.

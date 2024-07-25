@@ -1,12 +1,10 @@
 ---
-
 title: "Angela Piotrowski's README"
 job: "Support Engineering Manager"
 description: Personal readme page for Angela Piotrowski, Support Engineering Manager, GitLab"
 ---
 
-
-Combo of Support Engineering Handbook “[Getting to know you](/handbook/support/managers/getting-to-know-you.html)” and Manager README (strongly inspired by “https://about.gitlab.com/handbook/engineering/readmes/mike-dunninger/”)
+Combo of Support Engineering Handbook "[Getting to know you](/handbook/support/managers/getting-to-know-you.html)" and Manager README (strongly inspired by "https://handbook.gitlab.com/handbook/engineering/readmes/mike-dunninger/")
 
 ### **My Role and Responsibilities**
 
@@ -49,9 +47,9 @@ Combo of Support Engineering Handbook “[Getting to know you](/handbook/support
 
 - Need something from me? Just contact me on Slack, email, or put some time on my calendar.
 - I appreciate when people get to the point quickly instead of working around to it slowly. It's not that I'm in a hurry; I just like to get to the heart of the matter.
-- I appreciate direct communication and feedback, even when it’s negative or potentially difficult. If I don’t know what is wrong (with our relationship, with a customer, with a process, etc) I cannot assist in correcting it.
+- I appreciate direct communication and feedback, even when it's negative or potentially difficult. If I don't know what is wrong (with our relationship, with a customer, with a process, etc) I cannot assist in correcting it.
 - Similarly, I tend to be pretty direct and straightforward. If it's too much for you, please just let me know and I'll do my best to adjust.
-- I seek useful, beneficial change - pretty much never change for the sake of change, and encourage thinking outside of the box. Just because something was always done some way, doesn’t mean it needs to continue to be so.
+- I seek useful, beneficial change - pretty much never change for the sake of change, and encourage thinking outside of the box. Just because something was always done some way, doesn't mean it needs to continue to be so.
 - I want to be the most helpful, useful, supportive manager I can be for each person on my team. So please tell me:
 - what I'm doing well, and should therefore keep doing
 - what I can do better
@@ -102,7 +100,7 @@ I have been happily married to my husband since 2012, and we are looking to welc
   - 3D printing
   - Baking, Cooking, Gardening
 - And video games (in no particular order):
-  - Red Dead Redemption 2, Skyrim, Fallout 4, Stardew Valley, Graveyard Keeper, Rimworld, Don’t Starve, Portal
+  - Red Dead Redemption 2, Skyrim, Fallout 4, Stardew Valley, Graveyard Keeper, Rimworld, Don't Starve, Portal
 
 #### **Professional Background & Interests**
 
@@ -120,8 +118,8 @@ Not certain that I have one any more. I enjoy roles where I am continuously lear
 
 **What do you love to do at work?**
 
-I have a love of spreadsheets and organizational tools. If I can clarify and optimize processes then I’m a happy camper.
+I have a love of spreadsheets and organizational tools. If I can clarify and optimize processes then I'm a happy camper.
 
-**What do you “prefer not to do?”**
+**What do you "prefer not to do?"**
 
 I prefer not to spend my days in meetings. The occasional or required meeting is wonderful, efficient, and a great use of time, and can be great to break up the day, coffee chats are fun, but having 6-8 hour blocks of meetings every day is not my definition of a good time.

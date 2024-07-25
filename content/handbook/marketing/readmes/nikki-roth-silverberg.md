@@ -4,15 +4,9 @@ title: "Nikki Roth Silverberg README (Staff Marketing Operations Manager)"
 description: "Learn more about working with Nikki Roth Silverberg"
 ---
 
-
-
-
-
-
-
 ## README: Nikki Roth Silverberg
 
-👋 I’m Nikki! I created this README to help people get to know me better and to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+👋 I'm Nikki! I created this README to help people get to know me better and to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
 Please feel free to contribute to this page by opening a merge request.
 
@@ -75,7 +69,7 @@ Please feel free to contribute to this page by opening a merge request.
   - I typically work from 8:30am/9:00am to 5:00/6:00pm Mountain Time. I am protective of my non-working time and keep Slack/email on `Do Not Disturb` outside of my working hours.
 - **Communication and Meeting Preferences:**
   - I prefer Slack and I try to respond as quickly as possible. I am not as responsive over email as I use it mostly for external communication. If something is truly urgent and I am not available on Slack, please text me.
-  - I manage my daily working with GitLab issues and To-Do’s. If something is time-sensitive or if I am blocking something, I appreciate it if you ping me about it in Slack.
+  - I manage my daily working with GitLab issues and To-Do's. If something is time-sensitive or if I am blocking something, I appreciate it if you ping me about it in Slack.
   - I keep my Google calendar up-to-date.
   - Especially as someone with ADHD, I really appreciate having a meeting agenda with adequate time to prepare. I check my next day's agendas at the end of every working day and it really helps me if I can prepare in advance.
 - **Focus Time:**

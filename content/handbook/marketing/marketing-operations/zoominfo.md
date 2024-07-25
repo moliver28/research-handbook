@@ -1,14 +1,7 @@
 ---
-
 title: "Zoominfo"
 description: "ZoomInfo is sales intelligence software that provides a database of business and professional contact information."
 ---
-
-
-
-
-
-
 
 ### About ZoomInfo
 
@@ -103,7 +96,7 @@ You can also reach out to the Data Intelligence or Mops teams via Slack at #data
 5. Keep track of split of Marketing and Sales licenses. If we run short on Sales licenses, we can borrow some from marketing with the following message.
 6. Create an issue in the Data Intelligence project on a monthly basis to track the users that were deactivated. The label Mktg Tool Audit and Data Intelligence :: Tech Stack should be userd. This will serve as support for any possible audit.
 
-**To note that:** If the license is borrowed from the marketing team, it can be revoked at any time. Please inform the user: “Greetings! We currently do not have Zoominfo licenses available for field sales. We have assigned you a temporary ZoomInfo license borrowed from the marketing team so you can have access to the platform. Due to limited licenses being available, your license may be revoked if the marketing team needs the license back for one of their team members. If such an instance does arise, you will be notified before the license is revoked and we will work to get you procured a Sales Operations license. Thank you for your understanding.”
+**To note that:** If the license is borrowed from the marketing team, it can be revoked at any time. Please inform the user: "Greetings! We currently do not have Zoominfo licenses available for field sales. We have assigned you a temporary ZoomInfo license borrowed from the marketing team so you can have access to the platform. Due to limited licenses being available, your license may be revoked if the marketing team needs the license back for one of their team members. If such an instance does arise, you will be notified before the license is revoked and we will work to get you procured a Sales Operations license. Thank you for your understanding."
 
 ### Controls
 
@@ -203,10 +196,10 @@ This may be related to the Zoominfo Google Chrome extension. To troubleshoot the
     - Select the three dots in the top right-hand corner of your Chrome browser > choose "Settings"
     - From the Settings page, select "Privacy and Security" > then "Third-party cookies" > then "Allow third-party cookies"
 
-1. Clear your browser’s cache and cookies for all time:
-    - Click the three dots in the top right corner of your Chrome browser > click "More Tools" > then “Clear Browsing Data”
-    - In the pop-up window, select the "Advanced" tab > then Time Range of “All Time”
-    - Select the following two checkboxes called “Cookies and other site data” AND “Cached images and files”
-    - Click “Clear data”
+1. Clear your browser's cache and cookies for all time:
+    - Click the three dots in the top right corner of your Chrome browser > click "More Tools" > then "Clear Browsing Data"
+    - In the pop-up window, select the "Advanced" tab > then Time Range of "All Time"
+    - Select the following two checkboxes called "Cookies and other site data" AND "Cached images and files"
+    - Click "Clear data"
 
 1. Lastly, log back into the ZoomInfo platform first, and then log into the Extension

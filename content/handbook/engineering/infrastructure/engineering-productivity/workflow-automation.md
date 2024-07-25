@@ -48,7 +48,7 @@ Example:
 
 Group G used to belong to stage S, and was responsible for category C. After the structure changes, group G became a part of stage T, and is responsible for category CC. Required actions:
 
-1. Find all resources labelled with Group G, remove `devops::S` and `Category:C`, and add `devops::T` and `Category:CC`
+1. Find all resources labeled with Group G, remove `devops::S` and `Category:C`, and add `devops::T` and `Category:CC`
 
 ### How to Run Label Migrations
 

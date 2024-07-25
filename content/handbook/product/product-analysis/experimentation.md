@@ -6,7 +6,7 @@ title: Experimentation Design & Analysis
 
 At GitLab, we have a unique approach to experimentation that is built in-house by our incredible development team. The reason we use this approach is to uphold our commitment to our users and customers to protect their privacy. This custom approach leads to some challenges that are not experienced with more commonly used 3rd party experimentation tools. Due to this reality, experimentation at GitLab must be approached with a high level of intentionality and forethought. The purpose of this handbook page is to create some guidelines around experimentation to avoid common errors and to define best practices.
 
-In order to increase our [velocity](/handbook/marketing/growth/engineering/#experiment-cadence)
+In order to increase our [velocity](/handbook/engineering/development/growth/#experiment-cadence)
 while maintaining our ability to learn from experiments, the GitLab Growth stage (including the
 Product Analysis group) is adopting a new framework for designing and analyzing experiments. This
 framework is adapted from the work of data scientist [Danielle Nelson](https://www.linkedin.com/in/daniellevnelson/).
@@ -35,13 +35,13 @@ For this documentation, these are the important terms that need to be expounded 
 
 This is the JSON column that will contain any useful identifiers that are used to tie experiments to a specific namespace or project. These identifiers will be used to measure experiment impact on the KPIs and is required for every experiment for analysis. Prior versions of experiment analysis required this data to be parsed manually via SQL in order to utilize the information stored in this column, but the current `experiment_contexts_all` table already parses this data for ease of use.
 
-Context_keys are used in experiment analysis to determine the unique users/projects/namespaces that engage in the various features and/or stages as defined by the experiment analysis. Context_keys can be “sticky” to various identifiers (either user, namespace, project or some combination of user per project or user per namespace) depending on what is needed for the experiment.
+Context_keys are used in experiment analysis to determine the unique users/projects/namespaces that engage in the various features and/or stages as defined by the experiment analysis. Context_keys can be "sticky" to various identifiers (either user, namespace, project or some combination of user per project or user per namespace) depending on what is needed for the experiment.
 
 Examples:
 
-- Assigning context_key to be sticky to a user (1 context key = 1 user), if we’re identifying how many users adopted specific features as a result of an experiment regardless of their namespace or project.
-- Assigning context_key to be sticky to namespaces (1 context key = 1 namespace) , if we’re identifying how many stages were adopted as a result of an experiment regardless of how many users engaged in each stage.
-- Assigning context_key to be sticky per user, per namespace (1 context key = 1 user per namespace) if we’re identifying how many specific users in a namespace adopted specific features as a result of an experiment. This will prevent users who are part of multiple namespaces to have their feature and/or stage adoption from being counted towards all the namespaces they are a part of.
+- Assigning context_key to be sticky to a user (1 context key = 1 user), if we're identifying how many users adopted specific features as a result of an experiment regardless of their namespace or project.
+- Assigning context_key to be sticky to namespaces (1 context key = 1 namespace) , if we're identifying how many stages were adopted as a result of an experiment regardless of how many users engaged in each stage.
+- Assigning context_key to be sticky per user, per namespace (1 context key = 1 user per namespace) if we're identifying how many specific users in a namespace adopted specific features as a result of an experiment. This will prevent users who are part of multiple namespaces to have their feature and/or stage adoption from being counted towards all the namespaces they are a part of.
 
 ### Variant
 
@@ -56,7 +56,7 @@ For successful implementation of a GLEX experiment, events need to contain certa
 |          event_id          | A unique identifier per event that is fired - can be multiple per context key / user as this data is recorded each time an event is fired.                                                                                                                                                                                                                                                                                                                                  |
 |       experiment_name      | The unique title of the experiment being launched. Normally written in `snake_case`. <br><br>**Example:** <br>- billing_in_nav <br>- continuous_onboarding_links                                                                                                                                                                                                                                                                                                            |
 |     experiment_variant     | An identifier that differentiates the unique experiences that are being launched to the population. <br><br>**If experiment is A/B:** <br>- Candidate <br>- Control<br><br>**If experiment is multivariate:** <br>- Control<br>- Variant 1<br>- Variant 2, Variant 3 etc until all variants are identified                                                                                                                                                                  |
-|         context_key        | An identifier that is used to differentiate the unique entities in an experiment. These can be ‘sticky’ or defined at different levels. More documentation on context_keys are outlined above. <br><br>**Example:** <br>1. If you are looking for events per user, assign the context_key per user <br>2. If you are looking for events per namespace, assign the context_key per namespace                                                                                 |
+|         context_key        | An identifier that is used to differentiate the unique entities in an experiment. These can be 'sticky' or defined at different levels. More documentation on context_keys are outlined above. <br><br>**Example:** <br>1. If you are looking for events per user, assign the context_key per user <br>2. If you are looking for events per namespace, assign the context_key per namespace                                                                                 |
 |        event_action        | An identifier that describes the action type for events <br><br>**Example:** <br>- `assignment` events are used to identify when those in the sample have been assigned to the experiment <br>- `click_button` events are used to identify all CTAs in an experiment                                                                                                                                                                                                        |
 |         event_label        | An identifier used alongside the `event_action` to specify which action is being fired. <br><br>**Example:** <br>- If you have a `click_button` event_action, an event_label will specify which `click_button` is being interacted with.                                                                                                                                                                                                                                    |
 |       event_category       | An identifier used for events to specify where in the product the event is being fired. <br><br>**Example:** <br>- A `navbar_top` event category paired with the `click_button` event_action indicates that this event is rendered due to a button click in the top navigation bar.                                                                                                                                                                                         |
@@ -122,7 +122,7 @@ Start with defining the metrics that you will use to determine success in the ex
 
 ##### How to identify success metrics
 
-Here are some questions to help guide the selection of metrics for an experiment. We recommend defining 1 target KPI or what we would use to declare a winner in this experiment, and any other secondary KPIs that you’d like to be included in the analysis:
+Here are some questions to help guide the selection of metrics for an experiment. We recommend defining 1 target KPI or what we would use to declare a winner in this experiment, and any other secondary KPIs that you'd like to be included in the analysis:
 
 1. What is the business question you are trying to answer?
 2. What is the desired effect for this experiment? (More engagement like clicks, page views, stage adoption, or an increase in paid conversion)
@@ -164,7 +164,7 @@ Examples:
 
 #### Experiment types
 
-Identify what kind of experiment you’d like to conduct from the experiments we’ve described below. We’ve also included a questionnaire that will help you decide what desired result you’d like from the experiment: Our experimentation design and analysis framework leverages two different "types" of experiments: **True Randomized Control Trials (True RCTs)** and **Pseudo-Randomized Control Trials (Pseudo-RCTs)**. The two types differ in terms of statistical rigor (including p-value interpretation), which in turn impacts required sample size and experiment duration.
+Identify what kind of experiment you'd like to conduct from the experiments we've described below. We've also included a questionnaire that will help you decide what desired result you'd like from the experiment: Our experimentation design and analysis framework leverages two different "types" of experiments: **True Randomized Control Trials (True RCTs)** and **Pseudo-Randomized Control Trials (Pseudo-RCTs)**. The two types differ in terms of statistical rigor (including p-value interpretation), which in turn impacts required sample size and experiment duration.
 
 **True RCTs are optimized for statistical certainty and pseudo-RCTs are optimized for experiment
 velocity.**
@@ -177,7 +177,7 @@ in a metric. True RCTs are classic "A/B/n Tests". Unfortunately these types of e
 certainty of the learnings come at a price: they tend to require a large sample size and experiment
 duration. If the effect size (minimum change in the metric that would be relevant to detect) is
 small (ex: you want to detect a 1% change), the metric is less prevalent (ex: low conversion rate),
-or the variance in the metric is large (i.e., a “noisy” metric), you need a much larger sample
+or the variance in the metric is large (i.e., a "noisy" metric), you need a much larger sample
 size. In addition, there needs to be extra care taken to ensure that experiments are not colliding.
 
 True RCTs will be developed and evaluated with the industry standard statistical significance level
@@ -203,9 +203,9 @@ means that we should *not* communicate a percent change (ex: 10% increase) becau
 certainty and statistical significance could be misinterpreted. In addition, including the p-value
 (or noting the confidence level) helps to avoid misinterpretation.
 
-- p <= 0.05: experiment **“had an impact”**
+- p <= 0.05: experiment **"had an impact"**
   - Ex: The variant landing page showed a lift in click rate from 40% to 44% (p=0.04).
-- p > 0.05 and p < 0.2: experiment **"had a directional impact"** (or **“might have had an impact”**)
+- p > 0.05 and p < 0.2: experiment **"had a directional impact"** (or **"might have had an impact"**)
   - Ex: The variant landing page showed a directional lift in click rate from 40% to 44% (p=0.11).
 
 ##### Considerations for selecting experiment type
@@ -245,7 +245,7 @@ We will continue to build out a guide on how to select which type of experiment 
     - If you are tracking a conversion rate, specify what the numerator and denominator would be for this calculation.
       - Specify if time should be factored into the conversion rate, such as D7, D14, or D30 conversion.
 
-2. Create an issue for the Product Analysis team using the [“Experiment Analysis Request” template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Experiment%20Analysis%20Request).
+2. Create an issue for the Product Analysis team using the ["Experiment Analysis Request" template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Experiment%20Analysis%20Request).
 
 3. Once the experiment has data in staging (before being launched into production) be sure to let the Product Analysis team know so they can check if the data is coming through.
     You can also use the [Experiment Data Validation](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTPDExperimentEventValidation/GrowthExperimentEventValidationDashboard) dashboard to check your data.
@@ -266,7 +266,7 @@ We will continue to build out a guide on how to select which type of experiment 
 
 2. Link any tracking and/or related-issues to the main experiment issue assigned to Product Analytics
 
-3. Let all stakeholders know when the experiment is available on staging or production and at what percent (if rolling out in phases or in certain percentages of the population of users) it’s currently set at.
+3. Let all stakeholders know when the experiment is available on staging or production and at what percent (if rolling out in phases or in certain percentages of the population of users) it's currently set at.
 
 ### Experimentation guide For Analysts
 
@@ -311,7 +311,7 @@ In this section, we will review some of the most common errors that are made by 
 
 ### Missing events after experiment launch
 
-- This type of error occurs when there isn’t any communication between the product, engineering, or analyst. Events will either be missing or will not contain the identifiers needed to be able to track the performance of the experiment.
+- This type of error occurs when there isn't any communication between the product, engineering, or analyst. Events will either be missing or will not contain the identifiers needed to be able to track the performance of the experiment.
 - Be sure that all events needed for an experiment are documented and communicated to the rest of the team.
 
 ### Cross-contamination of experiment results
@@ -325,7 +325,7 @@ You can find additional experimentation resources throughout the handbook and Gi
 Here are a few pages to check out:
 
 - [How Growth launches experiments](/handbook/product/growth/#how-growth-launches-experiments)
-- [Growth Engineering Guide to running experiments](/handbook/marketing/growth/engineering/experimentation/)
+- [Growth Engineering Guide to running experiments](/handbook/engineering/development/growth/experimentation/)
 - [GitLab Experiment Guide](https://docs.gitlab.com/ee/development/experiment_guide/)
 - [Experimentation Best Practices](/handbook/business-technology/data-team/experimentation-best-practices/)
 

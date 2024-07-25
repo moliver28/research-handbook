@@ -1,5 +1,4 @@
 ---
-
 title: "Simon Street's README"
 description: "Personal readme page for Simon Street, Senior Support Engineer, GitLab"
 job: "Senior Support Engineer (EMEA)"

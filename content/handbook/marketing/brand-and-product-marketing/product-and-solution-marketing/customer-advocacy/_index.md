@@ -1,17 +1,7 @@
 ---
-
-
 title: "Customer Advocacy at GitLab"
 
 ---
-
-
-
-
-
-
-
-
 
 **The Customer Advocacy Team is dedicated to forging evergreen co-marketing relationships with top advocates and enterprise brands that fuel an integrated strategy aligned to pipeline-driving initiatives, threading the customer voice into all GTM motions.**
 
@@ -45,7 +35,7 @@ Each quarter the Customer Advocacy Team proactively partners with Sales and Cust
 
 **Customer Advisory Board → Executive Advisory Board**
 
-The advocacy team has traditionally driven what we know as the “customer advisory board” at GitLab. As we evolve in FY24, we’re breaking out our advisory audiences into a Product Customer Advisory Board and an Executive Advisory Board.
+The advocacy team has traditionally driven what we know as the "customer advisory board" at GitLab. As we evolve in FY24, we're breaking out our advisory audiences into a Product Customer Advisory Board and an Executive Advisory Board.
 
   *For Product CAB questions (now driven by the Product Marketing team) head to #CAB-internal for any questions.*
 
@@ -92,7 +82,7 @@ To formally recognize members of our revenue organization who partner with marke
 To create a general request for the Customer Advocacy team, [open an issue here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/product-marketing) and assign it to Nicole Smith.
 
 **Nominate an advocate**
-This process is evolving. While we’re under construction, please [nominate an advocate here](https://docs.google.com/forms/d/e/1FAIpQLSfdnTB8tzhBxoLYKxOAaMrPOCi4hrJfEfY_W_GHDwDKuUEXpQ/viewform?usp=sf_link), or post in #customer-advocacy-and-references for any questions.
+This process is evolving. While we're under construction, please [nominate an advocate here](https://docs.google.com/forms/d/e/1FAIpQLSfdnTB8tzhBxoLYKxOAaMrPOCi4hrJfEfY_W_GHDwDKuUEXpQ/viewform?usp=sf_link), or post in #customer-advocacy-and-references for any questions.
 
 **Ask a question**
 Find us on Slack at #customer-advocacy-and-references.
@@ -101,7 +91,7 @@ Find us on Slack at #customer-advocacy-and-references.
 
   [**HighSpot**](https://gitlab.highspot.com/spots/636e91aed5e577c7525c583a)
 
-  Visit our Customer Advocacy spot on HighSpot to find all of our existing customer story content and filter based on industry, use case, region, and more! Here you can create a “pitch” and share out your content of choice directly from the platform.
+  Visit our Customer Advocacy spot on HighSpot to find all of our existing customer story content and filter based on industry, use case, region, and more! Here you can create a "pitch" and share out your content of choice directly from the platform.
 
   [**Website**](https://about.gitlab.com/customers/)
 

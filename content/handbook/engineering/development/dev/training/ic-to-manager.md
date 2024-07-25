@@ -1,14 +1,7 @@
 ---
-
 title: Transitioning from Individual Contributor to a Manager
 description: Information and resources for those who want to pursue the management track
 ---
-
-
-
-
-
-
 
 ## Transitioning from IC to a Manager Training Video
 

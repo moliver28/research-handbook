@@ -19,7 +19,7 @@ This information is only externally available to GitLab Partners or Customers as
 
 ### Open to GitLab
 
-This information is open to GitLab but not publicly (handbook) available because of information that can risk the confidentiality, security or privacy of internal company information.  The public availability of this information could pose a significant risk to GitLab or it’s customers.
+This information is open to GitLab but not publicly (handbook) available because of information that can risk the confidentiality, security or privacy of internal company information.  The public availability of this information could pose a significant risk to GitLab or it's customers.
 
 - Vendor Audit Reports
 - Procedures/Runbooks/work instructions containing sesnsitive or personal data

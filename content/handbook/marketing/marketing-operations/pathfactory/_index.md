@@ -1,14 +1,7 @@
 ---
-
 title: "PathFactory"
 description: "PathFactory is an intelligent B2B content experience platform used to create personalized content journeys for your audience."
 ---
-
-
-
-
-
-
 
 ## What is PathFactory?
 
@@ -169,7 +162,7 @@ There are multiple types of PathFactory experiences that you can create under `C
    - Target Tracks - Target Tracks are collections of content that you have selected and organized in order to give your visitors a specific content journey.
    - Recommend Tracks - Recommend Tracks are collections of content specifically selected by you, and which rely on machine-learning to suggest the ideal content to show your prospects based on what they are already viewing.
 1. Explore Pages - Explore Pages allow your visitors to quickly view all content assets in a content track. Each `Explore Page` you create is built on top of an existing `Target` or `Recommend` Content Track.
-1. Website Promoters - Website promoters allow you to harness the power of PathFactory’s content promoters directly on your website. They provide more opportunities for interested parties to find and enter your Content Tracks by connecting eye-catching CTAs to content tracks.
+1. Website Promoters - Website promoters allow you to harness the power of PathFactory's content promoters directly on your website. They provide more opportunities for interested parties to find and enter your Content Tracks by connecting eye-catching CTAs to content tracks.
 
 ## Naming Conventions
 
@@ -406,9 +399,9 @@ To request a new form to use in PathFactory, the form must first exist in Market
 
 ### Capture Tags
 
-A `Capture Tag` is a snippet of code added to a Marketo form code itself. The `Capture Tag` sees the visitor’s email address on submitted form, and sends it to PathFactory. This allows PathFactory to associate the email address of a visitor to their engagement data; the visitor will then be a known visitor rather than anonymous.
+A `Capture Tag` is a snippet of code added to a Marketo form code itself. The `Capture Tag` sees the visitor's email address on submitted form, and sends it to PathFactory. This allows PathFactory to associate the email address of a visitor to their engagement data; the visitor will then be a known visitor rather than anonymous.
 
-We use external forms (added by External URL or Custom HTML generated from Marketo) in PathFactory. The information submitted in the form is sent directly to Marketo. In order for PathFactory to associate the submitted email address with the visitor’s engagement data, you must use a `Capture Tag`. This is what allows PathFactory to identify the individual as a known visitor.
+We use external forms (added by External URL or Custom HTML generated from Marketo) in PathFactory. The information submitted in the form is sent directly to Marketo. In order for PathFactory to associate the submitted email address with the visitor's engagement data, you must use a `Capture Tag`. This is what allows PathFactory to identify the individual as a known visitor.
 
 ## PathFactory Links
 
@@ -419,7 +412,7 @@ We use external forms (added by External URL or Custom HTML generated from Marke
 
 ### Target Track Links
 
-1. Use the `Get Share URL` feature next to the title of the track. `Share links` are to be used in locations such as the website whereas `Email tracking links` are only for use in email. **Note:** If it’s in email, it’s a known audience so don’t gate any assets in the track. Only use `share links` on the web and those tracks _can have_ gated assets within PathFactory.
+1. Use the `Get Share URL` feature next to the title of the track. `Share links` are to be used in locations such as the website whereas `Email tracking links` are only for use in email. **Note:** If it's in email, it's a known audience so don't gate any assets in the track. Only use `share links` on the web and those tracks _can have_ gated assets within PathFactory.
 1. If you want a particular asset to show first, that asset should be located in the first position of the target track.
 
 ### Recommend Track Links
@@ -465,7 +458,7 @@ We use external forms (added by External URL or Custom HTML generated from Marke
 
 ## Custom Query Strings
 
-PathFactory’s custom query string manager allows you to manage and append query strings when sharing a link to a content track or explore page.
+PathFactory's custom query string manager allows you to manage and append query strings when sharing a link to a content track or explore page.
 
 1. Select `Organization Settings` in the dropdown menu in the top right corner.
 1. Select the `Custom Query Strings` tab.
@@ -475,7 +468,7 @@ PathFactory’s custom query string manager allows you to manage and append quer
 
 ## Microsites
 
-PathFactory’s [Microsite Builder](https://nook.pathfactory.com/s/article/microsite-builder) enables marketers to display multiple types of Content Tracks within a custom-designed landing page or multi-page microsite with navigation. Microsites should be used when you want to educate users about a specific topic or topics. Microsites are NOT a catchall nor a replacement for other types of landing pages. If you are unsure whether a Microsite is right for your campaign, please free to reach out in the #mktgops slack channel.
+PathFactory's [Microsite Builder](https://nook.pathfactory.com/s/article/microsite-builder) enables marketers to display multiple types of Content Tracks within a custom-designed landing page or multi-page microsite with navigation. Microsites should be used when you want to educate users about a specific topic or topics. Microsites are NOT a catchall nor a replacement for other types of landing pages. If you are unsure whether a Microsite is right for your campaign, please free to reach out in the #mktgops slack channel.
 
 ### Use Cases
 
@@ -530,15 +523,15 @@ Microsite templates:
 
 ### Explore Page FAQs
 
-**Why can’t I change the background color behind my cover image?**
+**Why can't I change the background color behind my cover image?**
 
 The cover background color only shows when the cover image is set to "Fixed Width." Because of this, the color selection square is only available when "Fixed Width" has been selected.
 
-**I don’t want this header on my Explore page, how do I get rid of it?**
+**I don't want this header on my Explore page, how do I get rid of it?**
 
-The header is applied to an Explore experience from the base content track you chose for the explore page. If you don’t want the header on your explore page, go to the base content track and turn the header off.
+The header is applied to an Explore experience from the base content track you chose for the explore page. If you don't want the header on your explore page, go to the base content track and turn the header off.
 
-**I don’t like the order that my content is arranged on the Explore page; how do I move my content around?**
+**I don't like the order that my content is arranged on the Explore page; how do I move my content around?**
 
 All changes to the content in an explore page has to be done in the base content track that the explore page is built from. This includes the order of your content, so if you want to reorder your content you have to do so in the base content track.
 
@@ -567,7 +560,7 @@ You are able to change the appearance of the following components of a content t
 1. Select the color of the text and the primary color by clicking on the colored boxes.
 1. Change the font of the text by selecting from the drop-down menu. Click the `B` button to bold the text. Click on the `A` buttons to change the text size.
 1. When you are done making changes click `Add Appearance`.
-1. Once you’ve created your `Appearance` groups, you can apply this styling to any of your content tracks. Simply select the appearance group from the drop-down menu under `Experience Settings`.
+1. Once you've created your `Appearance` groups, you can apply this styling to any of your content tracks. Simply select the appearance group from the drop-down menu under `Experience Settings`.
 
 ## PathFactory Localization
 
@@ -702,7 +695,7 @@ The PathFactory Google Chrome Extension will only de-anonymize users who view co
 
 ## Access Protection
 
-[Access protection](https://nook.pathfactory.com/nook/s/article/access-protection) protects content and events so only a select group of people can access it, based on them having a valid email address or email domain based on an _allowed list_. This allows you to share more confidential information with prospects, customers and employees in a content track or a VEX Event without the worry of someone viewing it who shouldn’t be.
+[Access protection](https://nook.pathfactory.com/nook/s/article/access-protection) protects content and events so only a select group of people can access it, based on them having a valid email address or email domain based on an _allowed list_. This allows you to share more confidential information with prospects, customers and employees in a content track or a VEX Event without the worry of someone viewing it who shouldn't be.
 
 ### Set Up Access Protection
 
@@ -720,7 +713,7 @@ The PathFactory Google Chrome Extension will only de-anonymize users who view co
 1. Configure all the messages a user might receive when access protection is applied to a track:
    - **Title:** The title a visitor will see when they try to access a protected track
    - **Email Success Message:** The message a visitor will see when they have entered an email address that is in the list of email address/domains entered in the group
-   - **Email Failed Message:** The message a visitor will see when they enter an email address that doesn’t exist in the group list
+   - **Email Failed Message:** The message a visitor will see when they enter an email address that doesn't exist in the group list
    - **Email Confirmed Message:** The message a visitor will see when they have already gained access to the track and need to go to their email to click the link to access
    - **Email Instruction Message:** The message a visitor will see when they try to access a protected track
    - **Email Body Content:** The message a visitor will get in the email they receive for successfully gaining access to the track

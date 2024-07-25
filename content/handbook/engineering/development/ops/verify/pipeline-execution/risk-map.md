@@ -1,11 +1,6 @@
 ---
-
 title: Pipeline Execution Group - Risk Map
 ---
-
-
-
-
 
 ## Overview
 

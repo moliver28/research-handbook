@@ -1,9 +1,6 @@
 ---
-
 title: "Agile Message House Template"
 ---
-
-
 
 | Positioning Statement: | *(how GitLab fits and is differentiated in the market for this use case)* |
 |------------------------|-------------------------------------------------------------------------|

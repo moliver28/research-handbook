@@ -21,9 +21,9 @@ description: "Most of the content in the product handbook talks about _how_ we d
 **We create products and experiences that customers love and value.**
 
 - **Consistency wins as you scale**. Our organizational goal is to create a Product Manager (PM) system that maximizes the chances of success across new products, new features, and new team members.
-- **We are shipping an experience**, and not just a product. Don’t forget about the links between the product and the website, pricing & packaging, documentation, sales, support, etc.
-- **It’s about our customers and doing a job for them**, not the product itself. Think externally about customer problems, not internally about the technology.
-- **It’s about love AND value**. Will customers value what we are building? We need to make sure what we build helps build and extract customer value.
+- **We are shipping an experience**, and not just a product. Don't forget about the links between the product and the website, pricing & packaging, documentation, sales, support, etc.
+- **It's about our customers and doing a job for them**, not the product itself. Think externally about customer problems, not internally about the technology.
+- **It's about love AND value**. Will customers value what we are building? We need to make sure what we build helps build and extract customer value.
 
 ## Contributing to the Product Handbook
 
@@ -89,7 +89,7 @@ Understand the OKR Process for the GitLab Product Team and review current and pa
 
 ### [**Our Product Leadership Team**](/handbook/product/product-leadership/)
 
-Learn about our Product Leadership Team and learn about them via their personal README’s.
+Learn about our Product Leadership Team and learn about them via their personal README's.
 
 ### Popular Product Resources
 
@@ -107,6 +107,7 @@ Learn about our Product Leadership Team and learn about them via their personal 
 - [**Product Pricing Model**](/handbook/company/pricing/)
 - [**Release Posts**](/handbook/marketing/blog/release-posts/)
 - [**Tiering Guidance for Features**](/handbook/product/tiering-guidance-for-features/#learning-opportunities)
+- [**CPO Shadow Program**](/handbook/product/cpo-shadow-program/)
 
 ### Communicating with the Product Division
 

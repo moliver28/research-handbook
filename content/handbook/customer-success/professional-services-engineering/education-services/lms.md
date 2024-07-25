@@ -1,6 +1,6 @@
 ---
 title: "Thought Industries LMS Tech Stack Guide"
-description: “Tech Stack Guide for Thought Industries Learning Management System"
+description: "Tech Stack Guide for Thought Industries Learning Management System"
 ---
 
 ## Thought Industries LMS Tech Stack Guide

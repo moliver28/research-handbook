@@ -46,10 +46,6 @@ The third item tells us how we've been doing previously. If the trend is downwar
 
 Subtracting the carry over weight (item 2) from our expected capacity (the product of items 1 and 3) should tell us our capacity for the next release.
 
-##### Historical capacity
-
-{{% include "includes/engineering/plan/historical-capacity.md" %}}
-
 #### Issues
 
 Issues have the following lifecycle. The colored circles above each workflow stage represents the emphasis we place on collaborating across the entire lifecycle of an issue; and that disciplines will naturally have differing levels of effort required dependent upon where the issue is in the process. If you have suggestions for improving this illustration, you can leave comments directly on the [whimsical diagram](https://whimsical.com/2KEwLADzCJdDfPAb2CULk4).
@@ -224,14 +220,16 @@ summary and corrective actions. The rotation for upcoming milestones is as follo
 | 16.11 | Kushal Pandya |
 | 17.0 | John Hope |
 | 17.1 | Brandon Labuschagne |
-| 17.2 | Donald Cook |
+| 17.2 | Vladimir Shushlin |
 | 17.3 | Kushal Pandya |
-| 17.4 | Vladimir Shushlin |
+| 17.4 | Donald Cook |
 | 17.5 | John Hope |
-| 17.6 | Brandon Labuschagne |
-| 17.7 | Donald Cook |
-| 17.8 | Kushal Pandya |
-| 17.9 | Vladimir Shushlin |
+| 17.6 | Donald Cook |
+| 17.7 | Kushal Pandya |
+| 17.8 | Vladimir Shushlin |
+| 17.9 | John Hope |
+| 17.10 | Donald Cook |
+| 17.11 | Kushal Pandya |
 
 The role of the DRI is to facilitate a psychologically safe environment where team-members
 feel empowered to give feedback with candour. As such they should refrain from participating
@@ -241,7 +239,7 @@ process itself.
 #### Timeline
 
 - **27th (Previous Month)** A retrospective issue is automatically created for the milestone in progress.
-- **18th** The milestone is **closed** and open issues in the build phase are labelled with ~"missed deliverable".
+- **18th** The milestone is **closed** and open issues in the build phase are labeled with ~"missed deliverable".
 - **21st** The issue description is automatically updated with shipped and missed deliverables and the team are tagged to add feedback.
 - **4th (Next Month)** A final reminder is created automatically in #s_plan for final feedback.
 - **5th (Next Month)** The DRI [concludes the retrospective](#concluding-the-retrospective).
@@ -335,7 +333,6 @@ The first objects built using the work items architecture support the [Parker](/
 Read more about work items
 
 - [Work items architecture](https://docs.gitlab.com/ee/architecture/blueprints/work_items/)
-- [Work items Pajamas documentation](https://design.gitlab.com/objects/work-item)
 - [Work items terminology](https://docs.gitlab.com/ee/development/work_items.html#work-item-terminology)
 
 ##### Terminology
@@ -400,7 +397,7 @@ We use the methods and tools in the [UX Research handbook](/handbook/product/ux/
 
 In addition to these, we're working on gaining an efficiency bonus by using a common screener and building a mini-database of qualified participants aligned to our research needs.
 
-We do a confidence check at different points in the process, particularly before moving a design into the build phase. Sometimes, a design solution is straightforward enough where we’re very confident to move ahead without solution validation. However, there are times when we’re unsure how the design solution will perform in production, thereby resulting in a low level of confidence. When this happens we will do usability testing to build confidence.
+We do a confidence check at different points in the process, particularly before moving a design into the build phase. Sometimes, a design solution is straightforward enough where we're very confident to move ahead without solution validation. However, there are times when we're unsure how the design solution will perform in production, thereby resulting in a low level of confidence. When this happens we will do usability testing to build confidence.
 
 #### UX Paper Cuts
 
@@ -434,16 +431,19 @@ The responsibility of the DRI is simply to collect information and to ensure the
 
 | Issue creation (auto) | DRI |
 |---   | ---       |
-| 2024-05-27 | Donald Cook |
-| 2024-06-03 | Vladimir Shushlin |
-| 2024-06-10 | Kushal Pandya |
-| 2024-06-17 | Donald Cook |
 | 2024-06-24 | Brandon Labuschagne |
 | 2024-07-01 | John Hope |
 | 2024-07-08 | Vladimir Shushlin |
 | 2024-07-15 | Kushal Pandya |
 | 2024-07-22 | John Hope |
-| 2024-07-29 | Brandon Labuschagne |
+| 2024-07-29 | Vladimir Shushlin |
+| 2024-08-05 | Kushal Pandya |
+| 2024-08-12 | Donald Cook |
+| 2024-08-19 | John Hope |
+| 2024-08-26 | Vladimir Shushlin |
+| 2024-09-02 | Kushal Pandya |
+| 2024-09-09 | Donald Cook |
+| 2024-09-16 | John Hope |
 
 #### Links
 
@@ -570,7 +570,7 @@ There are a couple of process-related improvements we'll continue to adopt:
 
 ### Stage Working groups
 
-Like all groups at GitLab, a working group is an arrangement of people from different functions. What makes a working group unique is that it has defined roles and responsibilities, and is tasked with achieving a high-impact business goal fast. A working group disbands when the goal is achieved (defined by exit criteria) so that GitLab doesn’t accrue bureaucracy.
+Like all groups at GitLab, a working group is an arrangement of people from different functions. What makes a working group unique is that it has defined roles and responsibilities, and is tasked with achieving a high-impact business goal fast. A working group disbands when the goal is achieved (defined by exit criteria) so that GitLab doesn't accrue bureaucracy.
 
 Stage Working Groups are focused on initiatives that require collaboration between multiple groups within the stage. The structure of stage working groups is similar to [company-wide working groups](/handbook/company/working-groups/), with DRI and well-defined roles. The initiatives are driven by a stage-level product direction rather than an [Executive Sponsor](/handbook/company/working-groups/#executive-sponsor),
 and can be formed of just Functional Leads and members who participate in fulfilling the exit criteria.
@@ -581,7 +581,7 @@ and can be formed of just Functional Leads and members who participate in fulfil
 
 ### Product Outreach
 
-There can be a gap in understanding between Engineering and Product on a team. We are experimenting with a pilot programme that will allow engineers to spend time in the world of Product, with the goal of greater mutual communication, understanding and collaboration. It helps us work more effectively as a team for better features.
+There can be a gap in understanding between Engineering and Product on a team. We are experimenting with a pilot program that will allow engineers to spend time in the world of Product, with the goal of greater mutual communication, understanding and collaboration. It helps us work more effectively as a team for better features.
 
 #### Product Shadowing schedule
 

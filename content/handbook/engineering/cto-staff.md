@@ -1,13 +1,6 @@
 ---
-
 title: CTO Staff
 ---
-
-
-
-
-
-
 
 ## Engineering All-Hands
 
@@ -86,7 +79,7 @@ Similar to our [CEO Shadow Program](/handbook/ceo/shadow/), this role is a tempo
 
 Examples of "key meetings" are: OKR kickoff, OKR retrospective, key reviews, etc.
 
-Besides this, it’s important to consider the following:
+Besides this, it's important to consider the following:
 
 - Your compensation would remain the same
 - You could live in any region (APAC/EMEA/AMER)
@@ -108,7 +101,7 @@ You are eligible to apply for this rotation if you have been with GitLab for at 
 
 ### Registration process
 
-If you’re interested in the rotation for acting Chief of Staff to the CTO you can register via this [Application form](https://forms.gle/KyfEsQ7nzgFxTxNC8).
+If you're interested in the rotation for acting Chief of Staff to the CTO you can register via this [Application form](https://forms.gle/KyfEsQ7nzgFxTxNC8).
 The registration form is always open. You can [apply now](https://forms.gle/KyfEsQ7nzgFxTxNC8) and indicate which quarter you're interested in.
 
 Responses will be collected by the People Business Partner and CTO.
@@ -117,7 +110,7 @@ Candidates will be selected in the second month of the quarter, so that they hav
 
 The selection process involves coffee chats with the CTO and a VP of one of the Engineering departments.
 
-Candidates who are not selected for the upcoming rotation, but are eligible, will be given priority if they apply to the next quarter’s rotation.
+Candidates who are not selected for the upcoming rotation, but are eligible, will be given priority if they apply to the next quarter's rotation.
 
 ### Rotation history
 

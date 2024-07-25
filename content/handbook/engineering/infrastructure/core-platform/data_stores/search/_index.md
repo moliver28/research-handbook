@@ -1,17 +1,13 @@
 ---
-
 title: Global Search Group
 description: "The Global Search team is focused on bringing world class search functionality to GitLab.com and self-managed instances."
 ---
 
-
-
-
-
-
 ## Vision
 
 The Global Search Group focuses on bringing world class search functionality to GitLab.com and self-managed instances.
+
+This page covers processes and information specific to the Global Search group. See also the [Global Search](https://about.gitlab.com/direction/global-search/) and [Code Search](https://about.gitlab.com/direction/global-search/code-search/) direction pages.
 
 ## Mission
 
@@ -44,7 +40,7 @@ The following members of other functional teams are our stable counterparts:
 
 ## Shared Responsibilities
 
-The Global Search team shares responsibilites with the AI Framework team in the area of [Retrieval Augmented Generation](./rag_ownership_framework.png) (RAG). Specifically, we will collaborate in the data preparation stage and information retrieval stage of the RAG process.
+The Global Search team shares responsibilites with the AI Framework team in the area of [Retrieval Augmented Generation](rag_ownership_framework.png) (RAG). Specifically, we will collaborate in the data preparation stage and information retrieval stage of the RAG process.
 
 ## Meetings
 
@@ -102,7 +98,7 @@ The team has been actively working on enabling Elasticsearch powered Advanced Se
 The two types of operations we detail severity metrics for above are:
 
 - Recall Record, Global: This is the time it takes to recall a record using a globally scoped search of GitLab.com. Records could be entities such as projects, users, groups, etc.
-- Time until inserted record is recallable: This is the elapsed time between adding a new record and having that new record be recallable via a search. This process depends on many underlying technologies such as the [Go indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer), [Sidekiq queues](https://docs.gitlab.com/ee/development/elasticsearch.html#how-does-it-work), and the Elasticsearch database.
+- Time until inserted record is recallable: This is the elapsed time between adding a new record and having that new record be recallable via a search. This process depends on many underlying technologies such as the [Go indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer), [Sidekiq queues](https://docs.gitlab.com/ee/development/advanced_search.html#how-does-it-work), and the Elasticsearch database.
 
 ### Weighting for Search Issues
 
@@ -159,7 +155,7 @@ When onboarding domain experts from other groups to help cover production incide
 
 ### JTBD
 
-We utilize the Jobs to be Done (JTBD) framework to better understand our customers' and users' needs. You can view the current list of our JTBD [here](/handbook/engineering/infrastructure/core-platform/data_stores/search/jtbd/#jobs-to-be-done).
+We utilize the [Jobs to be Done](/handbook/product/ux/jobs-to-be-done/) (JTBD) framework to better understand our customers' and users' needs. You can view the current list of our JTBD [here](/handbook/engineering/infrastructure/core-platform/data_stores/search/jtbd/#jobs-to-be-done).
 
 ### Performance Testing
 
@@ -169,9 +165,10 @@ We are exploring [Rally](https://esrally.readthedocs.io) for performance testing
 
 ### Documentations
 
-- [GitLab Elasticsearch Integration](https://docs.gitlab.com/ee/integration/elasticsearch.html)
+- [GitLab Elasticsearch Integration](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html)
 - [GitLab Advanced Search Development Guidelines](https://docs.gitlab.com/ee/development/advanced_search.html)
 - [GDK Elasticsearch Setup Instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/elasticsearch.md)
+- [GDK Zoekt Setup Instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/zoekt.md)
 
 ### Blog Posts
 

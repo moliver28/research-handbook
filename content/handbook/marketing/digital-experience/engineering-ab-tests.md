@@ -33,7 +33,7 @@ Below are some resources to learn more about feature flags. At a high level, a f
 Our AB tests include two files, the control and the test variant. Both exist on the page in the HTML DOM at the same time, but are hidden by default on page load. The javascript SDK will return which version of the experiment should be shown. For each test, we use the following process:
 
 1. Test Candidates are validated by modelling out the potential lift on an annualized basis.
-1. AB test candidate with the highest annualized lift (lift scoped specifically to the action/improvement we’re measuring) is run as an AB test.
+1. AB test candidate with the highest annualized lift (lift scoped specifically to the action/improvement we're measuring) is run as an AB test.
 1. AB test complete, data analysis on results.
 1. The winner goes live at 100%.
 1. Saves (tests that did not deliver as expected) are documented.
@@ -82,7 +82,7 @@ This can be overridden by optional URL parameters as exhibited in the codepaths 
 
 * Previous solution: `run-experiments.js` from www: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/source/javascripts/run-experiment.js
 * Originally tried to bring this file over and integrate it as a nuxt plugin in this MR: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/merge_requests/224/diffs#8f8555baf29e37a194c0d155b0001e82de21ddbf
-* Our buyer’s experience repository is a JS pre-rendered site with TS support, so this would be a good candidate for interacting with their SDK TS directly: https://docs.launchdarkly.com/sdk/client-side/javascript#getting-started
+* Our buyer's experience repository is a JS pre-rendered site with TS support, so this would be a good candidate for interacting with their SDK TS directly: https://docs.launchdarkly.com/sdk/client-side/javascript#getting-started
 * Initialize client, helper function to evaluate feature flag value: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/plugins/launchdarkly.ts
 * Higher order component with control and experiment slots: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/components/launch-darkly.vue
 

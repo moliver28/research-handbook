@@ -11,7 +11,7 @@ These Guidelines do not apply to discussions of, reference to, competitor produc
 
 "**Screenshots**" when used in these Guidelines means screenshots and screen recordings, wherever obtained, including those taken from publicly-available sources like YouTube videos and competitor or third-party websites, and directly from competitor products themselves.
 
-## Dos and don’ts
+## Dos and don'ts
 
 Do:
 

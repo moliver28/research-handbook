@@ -138,8 +138,8 @@ The Director, Business Technology Program Management is a [grade 10](/handbook/
 
 ### Director, IT Business Technology Program Management Responsibilities
 
-- Build and lead a Program Management function in line with GitLab’s CREDIT and leadership values, including the concept of manager of one.
-- This role will lead, influence, develop a strategy and deliver capabilities to support GitLab’s business technology initiatives
+- Build and lead a Program Management function in line with GitLab's CREDIT and leadership values, including the concept of manager of one.
+- This role will lead, influence, develop a strategy and deliver capabilities to support GitLab's business technology initiatives
 - Develop strong partnerships with functional leaders to drive focus on business objectives and solve business problems
 - Be a trusted partner for executive management to ensure program success
 - Drive teams through the Software engineering experience, SaaS system deployment using Agile and demonstrated analytical and technical skills

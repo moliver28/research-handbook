@@ -14,11 +14,11 @@ Welcome to the People Group handbook! You should be able to find answers to most
 
 The People Group works together to establish a high performance and results driven culture where a diverse and inclusive team can experience a meaningful career.
 
-We support a culture that enables people to do their best work and advance their careers while fully contributing to advancing GitLab’s business results. We hire, promote, and recognize team members who best live our values.
+We support a culture that enables people to do their best work and advance their careers while fully contributing to advancing GitLab's business results. We hire, promote, and recognize team members who best live our values.
 
-The People Group strategy is to set the [foundation for GitLab’s 3 year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) through a focus on attracting and retaining diverse talent, creating a high performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture.
+The People Group strategy is to set the [foundation for GitLab's 3 year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) through a focus on attracting and retaining diverse talent, creating a high performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture.
 
-We’ve published more information about how this vision translates to strategy and OKRs for GitLab team members in this [internal-only presentation](https://docs.google.com/presentation/d/1CIRrqh0aum40L7g4MCMFaTR_mu0jG4gJot8ds6rxUrc/edit#slide=id.g2bff70f3fe6_1_691).
+We've published more information about how this vision translates to strategy and OKRs for GitLab team members in this [internal-only presentation](https://docs.google.com/presentation/d/1CIRrqh0aum40L7g4MCMFaTR_mu0jG4gJot8ds6rxUrc/edit#slide=id.g2bff70f3fe6_1_691).
 
 ## Connect with us
 
@@ -27,7 +27,7 @@ You can also check out pages related to People Group in the section below. If yo
 - [**The People Group**](https://gitlab.com/gitlab-com/people-ops) holds several subprojects to organize the people group; please create an issue in the appropriate subproject or `general` if you're not sure. Please use confidential issues for topics that should only be visible to GitLab team-members. Similarly, if your question can be shared please use a public issue. Tag `@gl-people-connect-team` or `@gl-hiring` so the appropriate team members can follow up.
   - Please note that not all People Group projects can be shared in an issue due to confidentiality. When we cannot be completely transparent, we will share what we can in the issue description, and explain why.
   - [**Employment Issue Tracker**](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates): Only Onboarding, Offboarding and Transition Issue Templates are held in this subproject, and they are created by the People Connect Team only. Interview Training Issues, are held in the [Training project](https://gitlab.com/gitlab-com/people-group/Training) and created by the Talent Acquisition team. Please see the [interviewing page](/handbook/hiring/interviewing/#typical-hiring-timeline) for more info.
-- [**People Connect**](https://app.slack.com/client/T02592416/C02360SQQFR); Please use the `#people-connect` Slack chat channel for questions that do not seem appropriate for the issue tracker - if your question contains personal data or sensitive information we encourage you to direct message the People Connect Team which can be found in the Apps Dropdown within Slack. For access requests regarding Google or Slack groups, please create an issue here: https://gitlab.com/gitlab-com/team-member-epics/access-requests. For questions that relate to Payroll and contractor invoices please direct your question to the `#payroll`, `#expense-reporting-inquiries` and `#finance` channel for Carta. Regarding questions for our recruiting team, including questions relating to access, or anything to do with Greenhouse, referrals, interviewing, or interview training please use the `#talent-acquisition` channel.
+- **People Connect**; Please create a case for the People Connect team with any questions that do not seem appropriate for the issue tracker within [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab) - choosing the applicable template/category applicable. For access requests regarding Google or Slack groups, please create an issue here: https://gitlab.com/gitlab-com/team-member-epics/access-requests. For questions that relate to Payroll, Expenses or Equity, please direct your question to the respective teams in HelpLab. Regarding questions for our recruiting team, including questions relating to access, or anything to do with Greenhouse, referrals, interviewing, or interview training please use the `#talent-acquisition` channel.
 - If you need to discuss something that is confidential/private (including sensitive matters surrounding your team), you can send an email to the Team Member Relations team: teammemberrelations@gitlab.com. Any team member, regardless of location, can use this alias to discuss a private sensitive matter.
 - If you only feel comfortable speaking with one team member, you can ping an individual member of the People Group, as listed on our [Team page](/handbook/company/team/).
 - If you wonder who's available and/or in what time zone specific team members of the People Group are, you can easily check via Google Calendar or the [GitLab Team Page](/handbook/company/team/)
@@ -35,7 +35,7 @@ You can also check out pages related to People Group in the section below. If yo
 
 ## The People Group: [One Team Mosaic Video](https://www.youtube.com/watch?v=5bSij66OSgw)
 
-In general, the People Group is here to support GitLab's [mission](/handbook/company/mission/) by bringing top talent into GitLab, and then enabling team members to make meaningful contributions in alignment with our [values]({{< ref "values" >}}).  Please don't hesitate to [reach out](#how-to-reach-the-right-member-of-the-people-group) with questions or ask for support!
+In general, the People Group is here to support GitLab's [mission](/handbook/company/mission/) by bringing top talent into GitLab, and then enabling team members to make meaningful contributions in alignment with our [values](/handbook/values/).  Please don't hesitate to [reach out](#how-to-reach-the-right-member-of-the-people-group) with questions or ask for support!
 
 The People Group works together as one team, made up of five departments: People Operations, Talent and Engagement, Total Rewards, People Business Partners, and Diversity, Inclusion, and Belonging (DIB).
 
@@ -51,7 +51,7 @@ The People Group works together as one team, made up of five departments: People
 
 ### In Case of Emergency
 
-If team members need emergency support from GitLab's People team, please post in the `#people-connect` Slack channel marked `URGENT`. The [#people-connect]({{< ref "people-connect" >}}) channel is monitored during most working hours and is the centralized support platform for all people-related queries. Please do not include any sensitive or private information in your message in the #people-connect channel. Team members must direct message the People Connect Team to relay any personal data or potentially sensitive information. The People Connect Team which can be found by searching the 'apps' section of Slack. Read more about our [People Connect methods of engagement]({{< ref "people-connect#methods-of-engagement" >}}).
+If team members need emergency support from GitLab's People team, please create a case in [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d). HelpLab is monitored during most working hours and is the centralized support platform for all people-related queries. Read more about our [People Connect methods of engagement]({{< ref "people-connect#methods-of-engagement" >}}).
 
 In critical cases, the [VP, People Operations, Technology & Analytics](/handbook/company/team/#pegan) is contactable 24/7 via their mobile numbers that appear in their Slack profile.
 
@@ -88,11 +88,11 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 | Subgroup | GitLab handle | Email | Slack Group handle/channel | Greenhouse | Issue tracker |
 | -------- | ------------- | ----- | -------------------------- | ---------- | ------------- |
 | [People Business Partners](/handbook/people-group/people-business-partners/) | @gl-peoplepartners, *Please add the `pbp-attention` label to any issue or MR that requires PBP review, collaboration, or feedback* | peoplepartners@ gitlab.com | @peoplepartners | n/a |  |
-| [Total Rewards](https://gitlab.com/gitlab-com/people-group/total-rewards) | @gl-total-rewards | total-rewards@ gitlab.com | #people-connect | n/a |  |
+| [Total Rewards](https://gitlab.com/gitlab-com/people-group/total-rewards) | @gl-total-rewards | total-rewards@ gitlab.com | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b677b7c9474c069067429ee0026d43d1) | n/a |  |
 | [People Compliance Partner](https://gitlab.com/gitlab-com/people-group/compliance) | TBA | TBA | TBA | n/a |  |
-| [People Connect Team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/) | @gl-people-connect-team | people-connect@ gitlab.com | @people-connect-team | n/a |  |
+| [People Connect Team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/) | @gl-people-connect-team | HelpLab | @people-connect-team | n/a |  |
 | [Team Member Relations](https://gitlab.com/gitlab-com/people-group/team-member-relations) | @atisdale-ext | teammemberrelations@gitlab.com | n/a | n/a |  |
-| [Absence Management Team]({{< ref "leave-of-absence" >}}) | @lyndemeiers | leaves@gitlab.com | #people-connect | n/a |  |
+| [Absence Management Team]({{< ref "leave-of-absence" >}}) | @lyndemeiers | leaves@gitlab.com | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c&in_context=true)| n/a |  |
 | [People Group Engineering](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering) | No alias, create issues for People Engineering [here](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) | n/a | #people-ops-eng | n/a |  |
 | [Diversity, Inclusion and Belonging](https://gitlab.com/gitlab-com/diversity-and-inclusion) | No alias yet, @mention the |  |  |  |  |
 | [Diversity, Inclusion and Belonging Partner]({{< ref "diversity-inclusion-partner" >}}) | diversityinclusion@ gitlab.com | n/a | n/a |  | [Diversity, Inclusion and Belonging issue tracker](https://gitlab.com/gitlab-com/diversity-and-inclusion/-/issues) |
@@ -193,7 +193,7 @@ Please review the [frequently requested section]({{< ref "frequent-requests" >}}
 GitLab does not actively search for LinkedIn profiles that have inaccurate information about being a GitLab Team member. However, there are instances where a profile is identified and there is question on whether the person is truly a GitLab team member. Here is the process for flagging a potentially inaccurate profile and the actions that the People Connect Team will do to confirm and potentially report a profile.
 
 - Team members should first check in Slack and/or on the organizational page to determine if the team member is a current GitLab team member.
-- If the team member cannot confirm the profile, team members should reach out to the People Connect Team in the #people-connect Slack channel with the LinkedIn profile in question.
+- If the team member cannot confirm the profile, team members should reach out to the People Connect Team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) with the LinkedIn profile in question.
 - The People Connect Team member will confirm in Workday that they are not/have not been a team member.
 - The People Connect Team member will confirm with talent acquisition to confirm if they have ever been interviewed, made an offer or were declined.
 - The People Connect Team member will reach out to the [Developer Relations team](/handbook/marketing/developer-relations/) to confirm if they are an active wider community member via the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel, using the `@devrel-team` tag.
@@ -242,7 +242,7 @@ If you need support with a specific CultureAmp Survey, please complete this [iss
 - [Offboarding]({{< ref "offboarding" >}})
 - [Celebrations]({{< ref "celebrations" >}})
 - [People Connect](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
-- [People Analytics]({{< ref "./people-ops-tech-analytics/people-analytics/_index.md" >}})
+- [People Analytics](people-ops-tech-analytics/people-analytics/_index.md)
 
 ### Talent Acquisition
 

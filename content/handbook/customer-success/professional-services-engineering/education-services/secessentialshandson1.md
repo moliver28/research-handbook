@@ -7,13 +7,13 @@ description: "This Hands-On Guide walks you through using SAST, Secret Detection
 
 ## Objectives
 
-In this lab you’ll enable SAST, Secret Detection, and DAST scans for a GitLab project.
+In this lab you'll enable SAST, Secret Detection, and DAST scans for a GitLab project.
 
-After the scans run in a CI/CD pipeline, you'll view the results of all 3 scans. You’ll mark a vulnerability for future action, and you’ll dismiss a different vulnerability.
+After the scans run in a CI/CD pipeline, you'll view the results of all 3 scans. You'll mark a vulnerability for future action, and you'll dismiss a different vulnerability.
 
-Finally, you’ll fix a vulnerability on a branch and introduce a new vulnerability on that same branch, so you can view the differences in vulnerabilities between default and non-default branches.
+Finally, you'll fix a vulnerability on a branch and introduce a new vulnerability on that same branch, so you can view the differences in vulnerabilities between default and non-default branches.
 
-Please take time to understand any code that you are asked to copy and paste in any lab. Ask your instructor to explain any code that’s not clear.
+Please take time to understand any code that you are asked to copy and paste in any lab. Ask your instructor to explain any code that's not clear.
 
 ## Task A. Access your Lab Environment
 
@@ -73,7 +73,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
     > The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
 
-1. If your lab environment URL starts with `https://gitlab.com/gitlab-learn-labs/…`, in the **Project URL** field, click the dropdown for the second half of the URL to make sure it’s pointing to a **group name** (starts with `gitlab-learn-labs/*`) and not a **username**. You should create this project inside a group, not directly in your user’s namespace.
+1. If your lab environment URL starts with `https://gitlab.com/gitlab-learn-labs/…`, in the **Project URL** field, click the dropdown for the second half of the URL to make sure it's pointing to a **group name** (starts with `gitlab-learn-labs/*`) and not a **username**. You should create this project inside a group, not directly in your user's namespace.
 
 1. If your group URL starts with `https://ilt.gitlabtraining.cloud/...`, in the **Project URL** field, click the dropdown for the second half of the URL to make sure it's pointing to a **group name** (starts with `training-users/*`) and not a **username**. You should create this project inside a group, not directly in your user's namespace.
 
@@ -259,7 +259,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 > In the last section, you applied SAST to detect vulnerabilities in your source code. In addition to scanning code for vulnerabilities, GitLab can also scan your code for secrets like keys and API tokens. Adding secret detection to your code will prevent leaking sensitive data in your repositories.
 >
-> The Secret Detection job belongs to the **test** stage by default. Since your `.gitlab-ci.yml` already defines that stage, you don’t need to define it again.
+> The Secret Detection job belongs to the **test** stage by default. Since your `.gitlab-ci.yml` already defines that stage, you don't need to define it again.
 
 1. In the Left sidebar, navigate to **Code > Repository**.
 
@@ -313,11 +313,11 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 ## Task G. View the Project Level Vulnerability Report
 
-> Every time you merge code into the main branch, the security pipeline will run and generate a project level vulnerability report that shows all vulnerabilities in *the latest commit to the default branch.* Think of this as the baseline set of vulnerabilities that you’ll compare to vulnerabilities on other branches.
+> Every time you merge code into the main branch, the security pipeline will run and generate a project level vulnerability report that shows all vulnerabilities in *the latest commit to the default branch.* Think of this as the baseline set of vulnerabilities that you'll compare to vulnerabilities on other branches.
 
 1. Navigate to **Secure > Vulnerability Report**.
 
-1. Looking at the **Tool** column in the **Development vulnerabilities table**, you’ll see two critical vulnerabilities detected by the Secret Detection scan you just added.
+1. Looking at the **Tool** column in the **Development vulnerabilities table**, you'll see two critical vulnerabilities detected by the Secret Detection scan you just added.
 
 1. Click on some of vulnerabilities to learn more about them, and to see where they occur in the code.
 
@@ -325,7 +325,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 ## Task H. Confirm the Vulnerability
 
-> When the security scanners find vulnerabilities, you need to keep track of whether they should be fixed or ignored. You do this by setting a vulnerability’s **status**. There are several ways to do so, but in this lab you’ll set status inside the Vulnerability Report.
+> When the security scanners find vulnerabilities, you need to keep track of whether they should be fixed or ignored. You do this by setting a vulnerability's **status**. There are several ways to do so, but in this lab you'll set status inside the Vulnerability Report.
 
 1. There is a vulnerability in the report with the description `RSA private key`. This vulnerability indicates that a RSA private key is written in our repository. By looking at the code, we can confirm that there is an RSA private key in the code.
 
@@ -335,7 +335,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 ## Task I. Create a Branch and Merge Request
 
-> You’ll need a branch and an MR to fix the RSA private key vulnerability.
+> You'll need a branch and an MR to fix the RSA private key vulnerability.
 
 1. Navigate to **Code > Branches**.
 
@@ -347,7 +347,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Click the **Create branch** button.
 
-1. You’ll be returned to the **Files** page for the `fix-rsa` branch. Click the file `main.py`.
+1. You'll be returned to the **Files** page for the `fix-rsa` branch. Click the file `main.py`.
 
 1. In the top right above the code, navigate to **Edit > Edit single file**.
 
@@ -440,7 +440,7 @@ Please take time to understand any code that you are asked to copy and paste in 
       DAST_WEBSITE: https://example.com
     ```
 
-    > Normally you would run DAST against your project's code running in either a review environment or a production environment. Since the code in this project is just a single Python file instead of a deployable web app, you’ll configure DAST to scan an outside web app *that has nothing to do with the code in this project.*
+    > Normally you would run DAST against your project's code running in either a review environment or a production environment. Since the code in this project is just a single Python file instead of a deployable web app, you'll configure DAST to scan an outside web app *that has nothing to do with the code in this project.*
     >
     > A full list of DAST variables can be found in the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dast/browser_based.html#available-cicd-variables">documentation</a>.
 
@@ -481,4 +481,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you’d like to suggest changes to the *GitLab Security Essentials Hands-On Guide*, please submit them via merge request.
+If you'd like to suggest changes to the *GitLab Security Essentials Hands-On Guide*, please submit them via merge request.

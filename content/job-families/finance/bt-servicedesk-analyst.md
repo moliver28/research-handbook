@@ -11,7 +11,7 @@ title: "Business Technology Service Desk"
 - Navigate assigned applications to support common identity related tasks such as account creation, password or mfa reset and other profile related tasks.
 - Provide first level troubleshooting support for business applications.
 - Capture and document troubleshooting steps to help speed up issue resolutino if escalation is necessary.
-- Provide initial training to Gitlab team members for new technology or applications.
+- Provide initial training to GitLab team members for new technology or applications.
 - Use all available support channels to resolve issues including but not limited to phone, web meeting, collaboration tools or remote desktop technology.
 - Perform scheduled tasks in support of compliance or application maintenance activities.
 

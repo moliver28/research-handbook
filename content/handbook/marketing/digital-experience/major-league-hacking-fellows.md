@@ -21,7 +21,7 @@ The Fall 20022 Cohort working with GitLab will be comprised of 2 engineering fel
 
 At GitLab, the Slippers Design System is a systematic approach to marketing site development You can use the system to manage our marketing component library.
 
-In this project, the MLH fellows will complete several deliverables that will improve the user experience of the Slippers Design System. We will implement new components, iterate on existing components, and use UI components from GitLab’s Pajamas design system to bring consistency across the GitLab application and marketing site.
+In this project, the MLH fellows will complete several deliverables that will improve the user experience of the Slippers Design System. We will implement new components, iterate on existing components, and use UI components from GitLab's Pajamas design system to bring consistency across the GitLab application and marketing site.
 
 #### Stakeholder Information
 
@@ -52,17 +52,17 @@ Follow the README instructions for setting your local development environment.
 
 - Create a GitLab account and [set up SSH keys](https://docs.gitlab.com/ee/user/ssh.html).
 - [https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui)
-- If you don’t know VueJS 2.0, you can get started on this [guide](https://v2.vuejs.org/v2/guide/)
+- If you don't know VueJS 2.0, you can get started on this [guide](https://v2.vuejs.org/v2/guide/)
 - [Slippers Design System walkthough video](https://youtu.be/dphm0TlAqIk)
 
 #### Documentation
 
-- [Read GitLab’s contribution guidelines](https://docs.gitlab.com/ee/development/contributing/index.html) with a special focus on the [Merge Request Workflow](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html)
-- Get familiarized with GitLab’s Slipper Design System by reading the [intro and exploring our Storybook instance](https://gitlab-com.gitlab.io/marketing/digital-experience/slippers-ui/?path=/story/intro--page).
+- [Read GitLab's contribution guidelines](https://docs.gitlab.com/ee/development/contributing/index.html) with a special focus on the [Merge Request Workflow](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html)
+- Get familiarized with GitLab's Slipper Design System by reading the [intro and exploring our Storybook instance](https://gitlab-com.gitlab.io/marketing/digital-experience/slippers-ui/?path=/story/intro--page).
 
 #### Deliverables + Timeline
 
-Please identify and describe the deliverables for your project(s) and the ideal deadline for each. This may include features or issues you would like the fellows to complete by the end of the fellowship. There are two general approaches we’ve seen be successful:
+Please identify and describe the deliverables for your project(s) and the ideal deadline for each. This may include features or issues you would like the fellows to complete by the end of the fellowship. There are two general approaches we've seen be successful:
 
 | **Issue**                                                                                                                               | **Description**                                                                              | **Assignee**                        | **Deadline**   |
 | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------- | -------------- |

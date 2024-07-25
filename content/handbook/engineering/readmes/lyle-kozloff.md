@@ -1,5 +1,4 @@
 ---
-
 title: "Lyle Kozloff's README"
 description: "Personal readme page for Lyle Kozloff, Director, Support Engineering, Global Readiness, GitLab"
 job: "Director of Support, Global Readiness"

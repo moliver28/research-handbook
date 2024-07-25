@@ -1,13 +1,6 @@
 ---
-
 title: Secure Engineering Refinement
 ---
-
-
-
-
-
-
 
 ## Overview
 

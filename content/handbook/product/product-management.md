@@ -1,10 +1,4 @@
 ---
-
-title: Product Management 
+title: Product Management
 ---
-
-
-
-
-
 

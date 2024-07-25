@@ -1,5 +1,4 @@
 ---
-
 title: "The Infrastructure SaaS Platforms Project Management"
 ---
 
@@ -191,3 +190,17 @@ This is a list of the group issue trackers:
 For labeling and bot notifications under [gitlab-com/gl-infra](https://gitlab.com/gitlab-com/gl-infra) we use [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage) and the [triage-ops](https://gitlab.com/gitlab-com/gl-infra/triage-ops/) project.
 For labeling, enforcing SLOs, and managing workflow labeling there are common policies that are set uniformly for projects in Infrastructure, Platform.
 For more information and how to add additional policies see [the project README.md](https://gitlab.com/gitlab-com/gl-infra/triage-ops/-/blob/master/README.md?ref_type=heads).
+
+## Retrospectives
+
+At the end of the quarter, or the completion of a large deliverable, teams should perform a retrospective to capture learnings.
+There is no set format for the retrospective though Engineering Managers should be aware of the [GitLab Retrospective Guidelines](/handbook/engineering/management/group-retrospectives/).
+The retrospective DRI identifies a list of actions which they consolidate in the Summary of Actions section in the issue description.
+
+Process to identify actions:
+
+1. Add a comment on each thread with Actions as the title of the comment (H3 level)
+1. Some threads may not require an action, you may want to state this explicitly at the end of the thread for transparency
+1. Below the Actions comment, add a suggestion on an action the team can take
+1. Ping the contributors to get a round of validation on the actions and potential refinement
+1. Create an issue for each action and list them in the Summary of Actions section

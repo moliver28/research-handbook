@@ -14,7 +14,7 @@ The CES team utilizes [GitLab Service Desk](https://about.gitlab.com/stages-devo
   - 2 - Reschedules
   - 3 - Schedule Interviews
   - 4 - Offboarding
-- The CES team utilizes a program called [Guide]({{< ref "./coordinator#using-the-candidate-guide" >}}) to enhance the candidate experience and create a more transparent view into the talent acquisition processes. This program also allows us to rename interview subject lines to make them more candidate-friendly and succinct.
+- The CES team utilizes a program called [Guide](coordinator/#using-the-candidate-guide) to enhance the candidate experience and create a more transparent view into the talent acquisition processes. This program also allows us to rename interview subject lines to make them more candidate-friendly and succinct.
 
 #### How the CES Team will run the Service Desk
 
@@ -25,7 +25,7 @@ The CES team utilizes [GitLab Service Desk](https://about.gitlab.com/stages-devo
    - Close out the window
 1. On the left-side menu bar click Issues
    - This is where all our incoming CES emails will create an issue. You'll get an alert when someone sends an email to the CES email alias. Any "emails" that need to be addressed will be an open issue listed within this project.
-1. Each CES will begin their workday by triaging issues within the Service Desk based on the [identified priority list]({{< ref "./coordinator#best-practices" >}}) by adding the appropriate label to the issue and then will begin working on Level 0 priority requests and so on.
+1. Each CES will begin their workday by triaging issues within the Service Desk based on the [identified priority list](coordinator/#best-practices) by adding the appropriate label to the issue and then will begin working on Level 0 priority requests and so on.
    1. Click on the new Issue
    1. Assign it to yourself on the right-side toolbar
    1. Read the Issue message
@@ -53,14 +53,14 @@ No action is needed by the CES team on this step. For additional information:
   - After the candidate has provided the availability, as an optional step the CES team members can send the Candidate First Touch Email from Greenhouse if there are scheduling challenges and are pausing on sending the Guide for 24 hours.
 - This email is sent to inform the candidates that their interview scheduling is in the process and to ensure better engagement with the candidates.
 - If CES sees an alert to merge applicant profiles, and those profiles are a match (candidates' email address, phone number, or resume matches), they will merge the applicant profiles. Visit [the Candidate Hygiene section of the home page](/handbook/hiring#interview-stages) for instructions.
-- CES will [send interview confirmations via Guide]({{< ref "./coordinator#using-the-candidate-guide" >}})
+- CES will [send interview confirmations via Guide](coordinator/#using-the-candidate-guide)
 - CES will not automatically schedule next interviews based off of scorecards
   - The Recruiter or Hiring Manager will need to follow the same scheduling procedures as above in Greenhouse to request scheduling assistance on the next round of interviews.
   - Any candidates who receive a no or definitely not scorecard should be discussed with the Recruiter and the Hiring Manager before declining.
 
 #### Technical Interview Scheduling
 
-Certain positions require technical interviews (i.e. Ruby on Rails, Golang, Frontend, etc) where candidates are asked to demonstrate their knowledge and skills. Technical interview requests can be identified within the schedule request ticket as recruiters will utilize the following format: “Technical interview, level & coding language pool - 90 mins”.
+Certain positions require technical interviews (i.e. Ruby on Rails, Golang, Frontend, etc) where candidates are asked to demonstrate their knowledge and skills. Technical interview requests can be identified within the schedule request ticket as recruiters will utilize the following format: "Technical interview, level & coding language pool - 90 mins".
 
 **Important to Note:**
 
@@ -76,10 +76,10 @@ To schedule a technical interview, CES should follow the process outlined below:
 - CES will receive two separate tickets to the CES service desk:
   - CES will immediately receive the scheduling request from the recruiter, and;
   - The completed GitLab Username form. This will only come into the service desk once the candidate replies to the email, and the username will automatically be added to the Details tab of the candidate's profile under Details > Other. CES should check that the GL username is valid and ensure that the GL username is in a URL format.
-- Once CES has received and confirmed that the candidate’s GL username is valid, the CES team member can proceed with scheduling the interview in Prelude. Prelude processes can be found [here]({{< ref "prelude" >}}).
-  - Note: when you send the interview invite to the interviewer, select the template ‘Technical Interview with MR’.
+- Once CES has received and confirmed that the candidate's GL username is valid, the CES team member can proceed with scheduling the interview in Prelude. Prelude processes can be found [here]({{< ref "prelude" >}}).
+  - Note: when you send the interview invite to the interviewer, select the template 'Technical Interview with MR'.
 - CES will then open the Guide extension in Greenhouse
-  - Under Guide Process click Team Interview. Then click the interview you just scheduled. You will see a section to “add a description”. CES will insert the appropriate text expander snippet here. This provides the candidate with additional information about what they can expect for their technical interview.
+  - Under Guide Process click Team Interview. Then click the interview you just scheduled. You will see a section to "add a description". CES will insert the appropriate text expander snippet here. This provides the candidate with additional information about what they can expect for their technical interview.
 - CES will proceed with sending the Guide. Guide processes can be found [here](/handbook/hiring/guide).
 
 **No Work Submitted on the MR 24 hours Before Interview?**
@@ -96,7 +96,7 @@ The process below outlines the steps to be followed by the CES team in schedulin
 
 - CES refers to the EBA cheat sheet doc for executive interviewer preferences and contacts the respective EBA with interview details in the #EBA-team-interview-requests channel.
 
-1. CES adds the “Pending EBA label” to the ticket and the link to the EBA slack conversation in the scheduling ticket while awaiting response.
+1. CES adds the "Pending EBA label" to the ticket and the link to the EBA slack conversation in the scheduling ticket while awaiting response.
 
  **Note: Follow up SLA is 24 hours to check for time conflicts delaying scheduling. If the times do not match, CES may contact the candidate
    requesting more availability or suggest some times that works for the interviewer.**
@@ -108,7 +108,7 @@ The process below outlines the steps to be followed by the CES team in schedulin
 1. CES will schedule the interview through Prelude & send the calendar invite to the interviewer. Make sure the invite is always marked private.
 1. CES notifies EBA of scheduled interviews in the original slack message with a check mark emoji and close the ticket.
 
-This process not only applies to executive requisitions, but any reqs or interviews that include executive team members supported by EBAs. Please note that not every executive team member has EBA support and they may be scheduled directly in Prelude following the usual CES scheduling [process]({{< ref "./coordinator#team-interviews" >}}).
+This process not only applies to executive requisitions, but any reqs or interviews that include executive team members supported by EBAs. Please note that not every executive team member has EBA support and they may be scheduled directly in Prelude following the usual CES scheduling [process](coordinator/#team-interviews).
 
 **Note:**
 
@@ -132,7 +132,7 @@ On occasion, candidates may need to interview in person with a team member at Gi
       - Translation Services
       - Use of additional services or assistive technologies
       - Assistance in setting up Closed Captioning for interviews (may not require reimbursement)
-1. CES will send “Candidate Reimbursement” email template from Greenhouse from their own GitLab email address, not ces@gitlab.com. **Note:** these emails will need to stay out of the CES service desk, hence the reason the CES responsible for this process will send from their personal GitLab email.
+1. CES will send "Candidate Reimbursement" email template from Greenhouse from their own GitLab email address, not ces@gitlab.com. **Note:** these emails will need to stay out of the CES service desk, hence the reason the CES responsible for this process will send from their personal GitLab email.
 1. Once the candidate submits the form attached to the email, both CES and AP will be alerted via spreadsheet.
 1. Accounts Payable will then process the candidates reimbursement request and respond to all that it has been completed. Candidates can expect to receive their reimbursement within 1-2 weeks of submission.
 
@@ -147,11 +147,11 @@ Prelude processes can be found [here](/handbook/hiring/prelude).
 When a candidate or an interviewer reaches out to CES via slack / email / Guide chat with a zoom link error, the CES can follow the below steps to create a new zoom link through Prelude in under 2 minutes.
 
 1. Open Prelude, go to the interviews tab, search for the candidates name.
-1. Click on the candidate’s name and interview title. This would open up a smaller tab with a pencil icon on the right hand side.
+1. Click on the candidate's name and interview title. This would open up a smaller tab with a pencil icon on the right hand side.
 1. Once you click on the pencil icon, a new pop up window will appear with the interview details. Delete the zoom link and password from the body of the email and the drop down bar.
-1. Click Add zoom meeting and Choose “other” as a reason for updating this interview.
+1. Click Add zoom meeting and Choose "other" as a reason for updating this interview.
  Apply the changes and send the updated invite. This will send a new calendar invite to the interviewers.
-1. Go to the GH profile; click “ Email Candidate”. Choose the template   - “ Zoom Link Troubleshooting” and send the email to the candidate. The interview details with the new zoom link will be auto populated. Please be sure to delete any other interviews listed in the email other than the one with zoom link error. All this can be done under 2 minutes with practice!!
+1. Go to the GH profile; click " Email Candidate". Choose the template   - " Zoom Link Troubleshooting" and send the email to the candidate. The interview details with the new zoom link will be auto populated. Please be sure to delete any other interviews listed in the email other than the one with zoom link error. All this can be done under 2 minutes with practice!!
 
 #### Resource - Candidate Guide
 
@@ -215,7 +215,7 @@ Background Checks for hires in Japan will need to be conducted *before* the offe
 Global Reference Check Forms will have a question for hires asking if they are located in Japan. If the candidate selects  "Yes", you will need to perform the following steps:
 
 1. CES service desk receives a ticket indicating that the candidate has submitted Reference Check Process Information-Global. CES will note that the candidate has selected "Yes" for the Japan location question. CES will label that ticket with the "Japan BGC" label.
-1. CES will [initiate the background]({{< ref "./coordinator#initiating-a-background-screening-through-greenhouse" >}}) check in the candidates GH profile.
+1. CES will [initiate the background](coordinator/#initiating-a-background-screening-through-greenhouse) check in the candidates GH profile.
 
 CES will then need to track the request to know when the Background check clears and we can move forward with sending the offer. Please follow the following steps:
 
@@ -226,17 +226,17 @@ CES will then need to track the request to know when the Background check clears
 **NYC Location**
 
 USA Reference Check forms only:
-It's important to note that the USA Reference Check form should be sent to the candidate and Step 1 should be completed before presenting a verbal offer. If the candidate selects “Yes” to indicate that they are located in NYC or its 5 boroughs (They will be listed as Brooklyn, Bronx, New York (Manhattan), Queens, or Staten Island), you will need to complete a two-step background screening process:
+It's important to note that the USA Reference Check form should be sent to the candidate and Step 1 should be completed before presenting a verbal offer. If the candidate selects "Yes" to indicate that they are located in NYC or its 5 boroughs (They will be listed as Brooklyn, Bronx, New York (Manhattan), Queens, or Staten Island), you will need to complete a two-step background screening process:
 
 Please note that Long Island is not part of NYC and this process does not apply to residents there.
 
-1. CES service desk receives a ticket indicating that the candidate has submitted Reference Check Process Information - USA form. CES notes that the candidate has selected “Yes” for the NYC location question.
-1. CES will add the text expander snippet **refchecktodo** into the ticket to help guide them through the process. CES will add the “NYC BGC” label.
+1. CES service desk receives a ticket indicating that the candidate has submitted Reference Check Process Information - USA form. CES notes that the candidate has selected "Yes" for the NYC location question.
+1. CES will add the text expander snippet **refchecktodo** into the ticket to help guide them through the process. CES will add the "NYC BGC" label.
 1. CES will go to [https://sterlingcheck.app/dashboard/#/dashboard/](https://sterlingcheck.app/dashboard/#/dashboard/). It is important to use this version of Sterling because it allows us to edit the email template that is delivered with the check.
-   - Select **NYC Step 1** screening package. You will need to fill out the Location of Employment field as San Francisco, and the Projected Salary field with the candidate's salary (this range can be found in the “Approvals” tab of the candidate’s GH profile). Click “next”.
+   - Select **NYC Step 1** screening package. You will need to fill out the Location of Employment field as San Francisco, and the Projected Salary field with the candidate's salary (this range can be found in the "Approvals" tab of the candidate's GH profile). Click "next".
    - On the next page, under "Email Content", in the drop down, select "NYC Step 1" template.
-   - Scroll to the bottom of the page and input the candidate’s full name and email address. Send Invite.
-1. CES will add the “Pending” label and due date on the ticket. Create a follow-up reminder in Greenhouse 1 business day out to check if there is an ETA.
+   - Scroll to the bottom of the page and input the candidate's full name and email address. Send Invite.
+1. CES will add the "Pending" label and due date on the ticket. Create a follow-up reminder in Greenhouse 1 business day out to check if there is an ETA.
    - Once an ETA is set in Sterling, create another follow up reminder in greenhouse for that ETA date. Please note that the results may come in earlier than the ETA.
    - Please contact the Senior Background Check Specialist for any BGC escalations. e.g "Status: Unperformable" or "Status: Consider"
 1. This process has been added due to NYC law, which separates the employment verification from the criminal check. Keep an eye on the status of the Step 1 screening results in Sterling. While we are waiting for Step 1 to be cleared, the recruiter can provide the candidate the verbal offer, begin creating the offer in Greenhouse and going through the approval stages. Recruiters can send the contract request ticket to CES when they are ready, **although, CES *cannot* send a written contract to the candidate until Step 1 has been cleared.**
@@ -253,30 +253,30 @@ Please note that Long Island is not part of NYC and this process does not apply 
 In the form, you will find that candidates are required to disclose whether or not they have any outside work, side projects, Inventions, etc. If they state "none" or "n/a", you can skip this step. If the candidate discloses any information in either the Outside Work section or the PIAA section, CES will take the following steps:
 
 1. CES will visit the [TA Candidate PIAA and Outside Work Disclosure Group](https://gitlab.com/groups/gl-ta-candidate-disclosures)
-1. CES will click “New Project” in the upper right corner of the page
-1. Select “Create from template”
-1. Select “Group (1)” and click on the blue button “Use Template”
+1. CES will click "New Project" in the upper right corner of the page
+1. Select "Create from template"
+1. Select "Group (1)" and click on the blue button "Use Template"
 1. For Project Name - create a title as the Candidate Name
-1. Leave all other fields as is and click “Create Project”
+1. Leave all other fields as is and click "Create Project"
    - NOTE: Once the project is created, you will then be brought to a page where you can create an issue within that project. This is where we will provide all information about the disclosure and loop in HMs, TMR, the Recruiter and Director.
-1. Click on “Issues” on the left side of the page and select “New Issue.”
+1. Click on "Issues" on the left side of the page and select "New Issue."
 1. For Issue Name - create a title using the candidates full name along with the type of disclosure received.
 1. Under the Description drop-down - select piaa_outside work_discussion template
 1. Fill in all pertinent information.
    - Candidate Name along with the Greenhouse Link
    - Copy/Paste the disclosure made by the candidate underneath the CES checkbox
-1. Assign the issue to yourself, and at the bottom, click “Create Issue”
-1. Once the issue is created, click on “Manage” in the left toolbar and select “Members".
-1. Click “Invite Members” - type in HM’s name, Director’s name, and recruiter name; leave them as a Guest and click “Invite” (These will only be invited in at the “issue” level and therefore will only be able to see the issue they are tagged in. They will not have visibility into the other projects created)
+1. Assign the issue to yourself, and at the bottom, click "Create Issue"
+1. Once the issue is created, click on "Manage" in the left toolbar and select "Members".
+1. Click "Invite Members" - type in HM's name, Director's name, and recruiter name; leave them as a Guest and click "Invite" (These will only be invited in at the "issue" level and therefore will only be able to see the issue they are tagged in. They will not have visibility into the other projects created)
    - IMPORTANT NOTE: For ALL disclosures, Director Level approval is ALWAYS required.
 1. Go back into the issue, click Edit and in the info box tag the recruiter, HM & Director, then click save
    - These team members will be notified by email when tagged.
-1. In the Comment section of the issue request participants review the disclosure(s) by using TE snippet “discreview”
+1. In the Comment section of the issue request participants review the disclosure(s) by using TE snippet "discreview"
 1. CES will remove the appropriate label once confirmed approvals are received in the comments.
 1. If Legal review and approval is required, TMR will invite the appropriate Legal member into the issue and request their review
-1. Once fully approved, please add the “Fully Approved” label and close the issue.
-1. Proceed to the candidate's GH profile and select “Email (Candidate’s Name). Select the “Disclosure Confirmation” template, copy/paste the disclosure the candidate made into the blank space, and Send. The email will CC you and the recruiter.
-1. Download the email from your inbox and upload into the “Pre Hire Documents & Changes” folder in the candidate's Workday profile.
+1. Once fully approved, please add the "Fully Approved" label and close the issue.
+1. Proceed to the candidate's GH profile and select "Email (Candidate's Name). Select the "Disclosure Confirmation" template, copy/paste the disclosure the candidate made into the blank space, and Send. The email will CC you and the recruiter.
+1. Download the email from your inbox and upload into the "Pre Hire Documents & Changes" folder in the candidate's Workday profile.
 
 **TMRG Conversations**
 
@@ -300,7 +300,7 @@ When a candidate requests to meet with a TMRG team member via the Reference Chec
 
 As a GitLab team member taking part in these calls, we advise you to start with a short introduction to you and your role here at GitLab. From here, we advise you to let the candidate lead the conversation as the goal is for you to answer their questions and offer insight into how we work.
 
-These calls don’t require you to submit a scorecard in Greenhouse. If a candidate mentions something that you see as a red flag (e.g. they outline a past action of theirs that goes against our values) or shares something that would help us set them up for success, we advise you to share the details of this with the hiring manager for the role they’re interviewing for. It will be the responsibility of the Hiring Manager to review this and decide whether we need to alter the hiring or offer process for the candidate.
+These calls don't require you to submit a scorecard in Greenhouse. If a candidate mentions something that you see as a red flag (e.g. they outline a past action of theirs that goes against our values) or shares something that would help us set them up for success, we advise you to share the details of this with the hiring manager for the role they're interviewing for. It will be the responsibility of the Hiring Manager to review this and decide whether we need to alter the hiring or offer process for the candidate.
 
 ### Send contract
 
@@ -344,11 +344,11 @@ The last part of the Candidate Experience Specialist's responsibilities with a c
 
 The People Connect team has an SLA period of 10 working days to onboard an entity-based team member. In the event of an exception, the minimum notice required for the People Connect team is 5 working days. The People Connect team requires a minimum of 10 working days to successfully onboard a new team member from a PEO.
 
-**PROACTIVE COMMUNICATION**- It's essential that CES promptly notify in the #peopleconnect-ces slack channel when they experience a delay or issues with the contracts generated and mark a team member as hired. In case of start date issues, it's the responsibility of the CES to keep the People Connect team updated by initiating the “Hiring SLA exception request” workflow in the channel. This workflow provides the People Connect team with the necessary information like - the proposed joining date, and reasons for requesting the exception, whether the team member is informed about the impacts of joining on short notice, etc. This information allows the people Connect and IT team to analyze the case, discuss the laptop procurement scenario based on the location, and come to a final decision.
+**PROACTIVE COMMUNICATION**- It's essential that CES promptly notify in the #peopleconnect-ces slack channel when they experience a delay or issues with the contracts generated and mark a team member as hired. In case of start date issues, it's the responsibility of the CES to keep the People Connect team updated by initiating the "Hiring SLA exception request" workflow in the channel. This workflow provides the People Connect team with the necessary information like - the proposed joining date, and reasons for requesting the exception, whether the team member is informed about the impacts of joining on short notice, etc. This information allows the people Connect and IT team to analyze the case, discuss the laptop procurement scenario based on the location, and come to a final decision.
 
 **NEW HIRE EXCEPTIONS** - For any confidential hires that necessitate a public announcement, please inform Alissa Meeks or Melody Patel about the specific scenario. Additionally, loop them in any communication related to the role to keep them in the loop. This will also be considered as an exception.
 
-**VERIFYING GLOBAL HOLIDAYS** - CES should verify whether the proposed start date coincides with a holiday in the new hire’s location. It is the responsibility of the recruiter to check with the Hiring Manager to ensure that the new team member has a support/ onboarding buddy on the first day of onboarding.
+**VERIFYING GLOBAL HOLIDAYS** - CES should verify whether the proposed start date coincides with a holiday in the new hire's location. It is the responsibility of the recruiter to check with the Hiring Manager to ensure that the new team member has a support/ onboarding buddy on the first day of onboarding.
 
 **START DATE EXCEPTION EMAIL FOR URGENT HIRES** - This email seeks a required explanation and business justification for the proposed changes in the start date. The People Connect team will review this on a case-by-case basis. Urgent hires refer to situations where the HM requests an earlier start date than the previously agreed upon one, and the new start date does not adhere to the standard 10 working day SLA period for candidate onboarding. **Important**: an exception will not be made without a minimum of 5 working day notice to the People Connect team.
 
@@ -377,5 +377,5 @@ CES can make changes through a merge request e.g "Removed John Doe from list of 
     - Select the correct job req by ensuring the req#s match (i.e. 7458)
     - Select Job Set up and navigate to the Hiring Team section
     - Please ensure that the hiring manager position has been filled by another team member. If the hiring manager section is empty or still shows the team member who is offboarding, reach out to the CES coordinator listed and advise the CES team member to work with the recruiter to find a replacement hiring manager & update interview plans.
-    - No action is required if the offboarding team member is listed as “Job Admin: Hiring Manager”, for a req title which is “Closed”, “Draft”, or “Template” in it.
+    - No action is required if the offboarding team member is listed as "Job Admin: Hiring Manager", for a req title which is "Closed", "Draft", or "Template" in it.
 1. Once all steps have been completed, navigate to the right hand side of the offboarding issue, remove the "CES: To Do" label, disable notifications, and leave a comment/ notify "Recruiting Ops". (e.g @ destinyreyes ces tasks done)

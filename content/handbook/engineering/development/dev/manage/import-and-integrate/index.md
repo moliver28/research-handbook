@@ -503,7 +503,7 @@ Fixing the top offenders will have the biggest impact on the budget spend.
 Learn more about error budgets with these resources:
 
 - [Error budgets and how they are calculated](/handbook/engineering/error-budgets/)
-- [What Apdex is and how it works](https://docs.gitlab.com/ee/development/application_slis/rails_request_apdex.html)
+- [What Apdex is and how it works](https://docs.gitlab.com/ee/development/application_slis/rails_request.html)
 - [Error budget in Grafana dashboards](https://docs.gitlab.com/ee/development/stage_group_observability/index.html#error-budget)
 - [Feature categorization](https://docs.gitlab.com/ee/development/feature_categorization): our code is attributed to us by `feature_category: :api`, `feature_category: :integrations`, `feature_category: :internationalization`, `feature_category: :importers`, and `feature_category: :webhooks`
 

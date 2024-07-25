@@ -1,15 +1,8 @@
 ---
-
 title: "Professional Services Remote Training Session Setup and Reporting"
 description: "Explore how a GitLab Professional Services team members can setup and deliver a remote training."
 
 ---
-
-
-
-
-
-
 
 ## Professional Services Remote Training Session Setup and Reporting
 
@@ -36,9 +29,9 @@ Professional Services has a shared Zoom account for remote training deliveries t
 
 1. Adjust the date and time.
     - Each course includes two 4-hour sessions. Select the date of the first session
-    - Adjust the start time to the confirmed start time in the customer’s preferred time zone.
+    - Adjust the start time to the confirmed start time in the customer's preferred time zone.
     - Adjust the duration to be 4 hours.
-    - Adjust the time zone to match the customer’s preferred time zone.
+    - Adjust the time zone to match the customer's preferred time zone.
     - As needed adjust the recurrence so that it matches the confirmed date for the second 4-hour session.
 
 1. Leave the settings as-is for Registration, Password, Video, Audio, and Webinar Options.
@@ -49,12 +42,12 @@ Professional Services has a shared Zoom account for remote training deliveries t
 
 ### Adjust the registration page
 
-Zoom templates do not include most of the branding used to set up the original template, so you’ll need to make some adjustments for each webinar you schedule.
+Zoom templates do not include most of the branding used to set up the original template, so you'll need to make some adjustments for each webinar you schedule.
 
 1. Scroll down to the bottom of the page for the webinar you just scheduled and click the **Branding** tab.
 
 1. In the **Title** section click **Edit**.
-    - Change the title to say the name of the training and the customer’s name (for example, “GitLab CI/CD Training for FRB Kansas City”).
+    - Change the title to say the name of the training and the customer's name (for example, "GitLab CI/CD Training for FRB Kansas City").
     - Click **Save**.
 
 1. In the **Speakers** section click **Add a speaker**.

@@ -1,14 +1,7 @@
 ---
-
 title: Iteration Retrospectives
 description: This page describes how we iterate.
 ---
-
-
-
-
-
-
 
 ## How do we iterate?
 

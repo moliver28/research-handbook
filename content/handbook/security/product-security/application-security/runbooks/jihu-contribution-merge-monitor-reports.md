@@ -1,5 +1,4 @@
 ---
-
 title: "JiHu Contribution Merge Monitor Reports"
 ---
 

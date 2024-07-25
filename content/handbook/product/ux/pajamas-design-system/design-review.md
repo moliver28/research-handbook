@@ -54,9 +54,9 @@ We follow the same maintainer guidelines as our Engineering counterparts. Get fa
 
 Three key aspects of that process:
 
-1. **“Maintainer-level” MRs**: Candidates should have specific examples of recent “maintainer-level” MRs. They can work on any kind of MR, but “maintainer-level” ones are the focus of the maintainership. “Maintainer-level” MRs are described in the [Engineering Review Workflow](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer).
+1. **"Maintainer-level" MRs**: Candidates should have specific examples of recent "maintainer-level" MRs. They can work on any kind of MR, but "maintainer-level" ones are the focus of the maintainership. "Maintainer-level" MRs are described in the [Engineering Review Workflow](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer).
 1. **Reviews or contributions**: Contributing MRs also counts. Whether MRs are reviewed or contributed by a candidate, they should consistently make it through reviewer and/or maintainer review without significant required changes.
-1. **Traineeship optional**: The [trainee maintainer program](#trainee-maintainer) (traineeship) supports reviewers in becoming maintainers, but the program is not a requirement. Designers that have been recenly involved in a fair amount of “maintainer-level” MRs can become maintainers without the traineeship. Anyone can nominate oneself (or someone else) for maintainership, following the process described in the [Engineering Review Workflow](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer).
+1. **Traineeship optional**: The [trainee maintainer program](#trainee-maintainer) (traineeship) supports reviewers in becoming maintainers, but the program is not a requirement. Designers that have been recenly involved in a fair amount of "maintainer-level" MRs can become maintainers without the traineeship. Anyone can nominate oneself (or someone else) for maintainership, following the process described in the [Engineering Review Workflow](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer).
 
 #### Trainee maintainer
 
@@ -76,7 +76,7 @@ The traineeship is a long commitment, usually several months, and takes away tim
 
 There are two aspects that play a big part in the duration of the traineeship: the number of hours that are dedicated to it and the number of available MRs for the trainee. When these two aspects oppose each other, the traineeship can take longer than expected:
 
-1. **Many hours, few MRs**: To increase the number of MRs, the trainee can always make their own contributions. Reviewing MRs from others is not the only way to become a maintainer. The trainee must be creative and try to work on “maintainer-level” MRs as much as possible.
+1. **Many hours, few MRs**: To increase the number of MRs, the trainee can always make their own contributions. Reviewing MRs from others is not the only way to become a maintainer. The trainee must be creative and try to work on "maintainer-level" MRs as much as possible.
 1. **Few hours, many MRs**: Trying to review or contribute many MRs in few hours can have a negative effect on quality. The trainee should focus on quality because that is what is evaluated. They should also follow our [review-response Service-level Objective (SLO)](/handbook/engineering/workflow/code-review/#review-response-slo). If the trainee wants to speed up the traineeship, they should talk with their manager to find ways to balance their workload and free up more time for this program.
 
 To help track progress, we encourage trainees to make the traineeship one of their personal OKRs.

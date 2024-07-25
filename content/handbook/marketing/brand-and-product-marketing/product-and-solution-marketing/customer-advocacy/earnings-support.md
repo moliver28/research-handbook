@@ -2,7 +2,7 @@
 title: "Quarterly Earnings Customer References"
 ---
 
-Earnings statement customer reference identification and outreach is a continuous activity that occurs across each new quarter in support of the public earnings package. By identifying customers as part of this process, they enter the referencing “pipeline” to provide valuable proof points for the earnings statement and additional customer story content in the future. For the purposes of the earnings statement, there are two key categories of customer:
+Earnings statement customer reference identification and outreach is a continuous activity that occurs across each new quarter in support of the public earnings package. By identifying customers as part of this process, they enter the referencing "pipeline" to provide valuable proof points for the earnings statement and additional customer story content in the future. For the purposes of the earnings statement, there are two key categories of customer:
 
 ## First Order
 

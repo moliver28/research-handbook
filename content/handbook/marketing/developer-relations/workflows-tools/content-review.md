@@ -1,15 +1,6 @@
 ---
-
 title: "Developer Relations Workflows: Content Review"
 ---
-
-
-
-
-
-
-
-
 
 The Developer Relations team provides ongoing support to a number of stakeholders who create content including Product Marketing, Brand, and numerous Sales teams. In order to ensure the technical accuracy of content being created across GitLab, we conduct regular reviews of top-performing content across GitLab's main public facing content channels, notably [about.gitlab.com](https://about.gitlab.com) and [Highspot](/handbook/sales/field-communications/gitlab-highspot/#faqs).
 
@@ -24,7 +15,7 @@ The checklist for Fix Fridays is as follows:
 1. After you are assigned an item, each team member will be responsible for reviewing their items. These Fix Fridays, however, are intentionally designed to be collaborative so feel free to consult with other team members from across GitLab, as needed. This is a chance to surface issues to our stakeholders, gain a better understanding of our marketing messaging, and deepen our knowledge of GitLab and our customers.
 1. Address feedback following [the steps for providing feedback](/handbook/marketing/developer-relations/workflows-tools/content-review/#providing-feedback) outlined below.
 1. Once you have completed review of your items, please ensure that the tasks created during your review are assigned to the appropriate DRIs to be resolved.
-1. After the review is complete and tasks are assigned, check the corresponding box in the FixFriday issue to show that the review for each item has been completed.  
+1. After the review is complete and tasks are assigned, check the corresponding box in the FixFriday issue to show that the review for each item has been completed.
 
 ### Providing feedback
 
@@ -40,6 +31,6 @@ How to make changes to the content you review:
 
 #### Highspot
 
-1. In a comment on the Fix Friday issue, tag the author or feedback owner for any Highspot page, play or content that needs to be updated in an issue comment which details the proposed change. This will create a TODO for the DRI for that content item.  
-    - If the author or feedback owner does not exist on a smartpage or play, tag the person/people in the “Ask for Help” section (located at the bottom of the page).
+1. In a comment on the Fix Friday issue, tag the author or feedback owner for any Highspot page, play or content that needs to be updated in an issue comment which details the proposed change. This will create a TODO for the DRI for that content item.
+    - If the author or feedback owner does not exist on a smartpage or play, tag the person/people in the "Ask for Help" section (located at the bottom of the page).
     - Alternatively, for a piece of content on Highspot, you can tag the owner or the person who uploaded the file/last updated the file. If that person is not the right DRI to update, they can tag the correct person.

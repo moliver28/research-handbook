@@ -32,7 +32,7 @@ The Director, Incubation Engineering is a [grade 10](/handbook/total-rewards/com
 - Demonstrated success in leading teams of engineers or other technical experts in a fast moving, high growth environment
 - Experience scaling products without compromising on security
 - Broad knowledge of technology trends with a focus on managing innovation / incubation / accelerator teams
-- Diplomatic communication skills with the ability to utilise storytelling and narration to evangelize the Incubation Engineering Department’s story
+- Diplomatic communication skills with the ability to utilise storytelling and narration to evangelize the Incubation Engineering Department's story
 Experience in a variety of stages of the startup lifecycle, from inception to launch
 
 ### VP of Incubation Engineering

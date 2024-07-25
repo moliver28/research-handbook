@@ -1,13 +1,6 @@
 ---
-
 title: "Forum workflow"
 ---
-
-
-
-
-
-
 
 ## Users
 
@@ -124,26 +117,26 @@ Sometimes users will accidentally post private information like license or API k
 
 **Instructions**
 
-If you need to edit a user’s post for whatever reason, please private message the user in the forum letting them know that you have done so, and the reason why.
+If you need to edit a user's post for whatever reason, please private message the user in the forum letting them know that you have done so, and the reason why.
 
 Click the ellipsis in the small grey toolbar on the post > click the pencil icon.
 
 **Instructions For Sending a Private Message**
 
-1. Click the user’s avatar icon, user card will appear
+1. Click the user's avatar icon, user card will appear
 2. Click the `message` button on the user card to draft private message
 
 The edit history diff is only visible to moderators.
 
 ##### Viewing email addresses
 
-For the sake of anonymity, only Forum Moderators can see the email address associated with a forum user’s account.
+For the sake of anonymity, only Forum Moderators can see the email address associated with a forum user's account.
 
 **Instructions*
 
-1. Click the user’s avatar icon, user card will appear
-2. Click the avatar icon on the user card to navigate to the user’s profile
-3. Click the `show` button in the user’s profile
+1. Click the user's avatar icon, user card will appear
+2. Click the avatar icon on the user card to navigate to the user's profile
+3. Click the `show` button in the user's profile
 
 ##### Drafting in/using the private Staff Category
 
@@ -159,7 +152,7 @@ Click the ellipsis in the small grey toolbar on the post > click the trash can i
 
 ##### Moving Posts To a New Thread
 
-It’s not uncommon that moderators will feel the need to move new posts out of old threads, or move posts to their own topic altogether. Please move new posts out of old topics when users try to bring topics a year or older back to life.
+It's not uncommon that moderators will feel the need to move new posts out of old threads, or move posts to their own topic altogether. Please move new posts out of old topics when users try to bring topics a year or older back to life.
 
 **Instructions**
 
@@ -370,7 +363,7 @@ The `Only show overridden` checkbox can be helpful to see modified settings. The
 - Posting: min post/topic title length, do not allow uncategorized topics, post edit time limit, do not show edit history to public, max reply history, newuser max replies/mentions per topic, newuser max links/embedded media/max attachments
 - Email: alternative reply by email addresses
 - Files: authorized extensions, do not download remote images to local, purge deleted uploads grace period days
-- Security: Allow moderators to manage categories and groups, allowed iframes
+- Security: Allow moderators to manage categories and groups, allowed iframes, enforce second factor for staff 
 - Spam: Hide post sensitivity, newuser spam host threshold, max new accounts per registration ip
 - Rate Limits: rate limit new user create post
 - User Preferences: Enable mailing list mode
@@ -427,6 +420,7 @@ To add an Admin:
 1. Go to the [list of forum users](https://forum.gitlab.com/admin/users/list/active)
 1. Use the search box to find the user you want to grant admin permissions to
 1. Click on the user to modify their profile
+1. Verify that the user has `Two-Factor Authentication` enabled. If not, ask them to enable it in `Profile > Preferences > Security > Two-Factor Authentication` as this is a requirement for all [staff members](https://forum.gitlab.com/admin/users/list/staff).
 1. Scroll down to the `Permissions` section
 1. Click on the `Grant Admin` button
 1. An e-mail confirmation will be sent to the Admin that granted the permission (i.e. you). Go to your inbox and click on the link to confirm granting Admin permission to the user
@@ -441,6 +435,7 @@ If you want to add an Moderator:
 1. Go to the [list of forum users](https://forum.gitlab.com/admin/users/list/active)
 1. Use the search box to find the user you want to grant moderator permissions to
 1. Click on the user to modify their profile
+1. Verify that the user has `Two-Factor Authentication` enabled. If not, ask them to enable it in `Profile > Preferences > Security > Two-Factor Authentication` as this is a requirement for all [staff members](https://forum.gitlab.com/admin/users/list/staff).
 1. Scroll down to the `Permissions` section
 1. Click on the `Grant Moderation` button
 1. Immediately the `Permissions` > `Admin?` section on the user's profile admin should read `Yes`

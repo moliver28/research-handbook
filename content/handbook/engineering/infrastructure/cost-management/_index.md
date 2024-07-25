@@ -1,17 +1,7 @@
 ---
-
 title: "Cost Management"
 description: "GitLab Cost Management"
 ---
-
-
-
-
-
-
-
-
-
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Observation Remediation Procedure"
-controlled_document: true
 ---
 
 ## Purpose

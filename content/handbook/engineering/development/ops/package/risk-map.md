@@ -1,13 +1,6 @@
 ---
-
 title: Package Group - Risk Map
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -26,7 +19,7 @@ Utilise the Risk Map as a tool to:
 
 #### Project
 
-The [project](https://gitlab.com/gitlab-org/ci-cd/package-stage/risk-mapping) documents Package's [risks as issues](https://gitlab.com/gitlab-org/ci-cd/package-stage/risk-mapping/-/issues) and its home to the Risk Mapping Tool.  
+The [project](https://gitlab.com/gitlab-org/ci-cd/package-stage/risk-mapping) documents Package's [risks as issues](https://gitlab.com/gitlab-org/ci-cd/package-stage/risk-mapping/-/issues) and its home to the Risk Mapping Tool.
 
 #### Tool
 

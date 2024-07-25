@@ -1,5 +1,4 @@
 ---
-
 title: "Tableau"
 description: "Tableau at GitLab"
 ---

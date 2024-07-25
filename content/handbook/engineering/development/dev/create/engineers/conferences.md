@@ -1,15 +1,7 @@
 ---
-
 title: Conferences
 description: This page will highlight the benefits of attending conferences
 ---
-
-
-
-
-
-
-
 
 ## Why is it important to attend conferences?
 

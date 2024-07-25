@@ -1,13 +1,6 @@
 ---
-
 title: "GitLab Nominations for Community Swag"
 ---
-
-
-
-
-
-
 
 ## Let's Award Contributors Together
 

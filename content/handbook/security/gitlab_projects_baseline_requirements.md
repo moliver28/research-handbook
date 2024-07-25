@@ -72,7 +72,7 @@ Please review thoroughly and ask questions in the `#sec-assurance` slack channel
 
 ## Ongoing Monitoring
 
-Please note that projects that meet the criteria for requiring these baseline configurations may be selected at any point for testing of configurations by the [GitLab Security Compliance team]({{< ref "./security-assurance/security-compliance" >}}) as part of our continuous control monitoring program to make sure we're adhering to the guidance outlined on this page. Please see the [GCF Security Control Lifecycle]({{< ref "security-control-lifecycle" >}}) page for an overview of the program.
+Please note that projects that meet the criteria for requiring these baseline configurations may be selected at any point for testing of configurations by the [GitLab Security Compliance team](security-assurance/security-compliance/) as part of our continuous control monitoring program to make sure we're adhering to the guidance outlined on this page. Please see the [GCF Security Control Lifecycle]({{< ref "security-control-lifecycle" >}}) page for an overview of the program.
 
 ## References
 

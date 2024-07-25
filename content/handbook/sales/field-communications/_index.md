@@ -1,5 +1,4 @@
 ---
-
 title: "Field Communications"
 description: "The Field Communications team is responsible for creating effective, timely, and easily consumable communications with Sales and Customer Success audiences"
 ---
@@ -33,7 +32,7 @@ In order to streamline important announcements and reduce noise for the Field te
 
 The Field Communications team will evaluate each request at the given point in time and tier it appropriately across three criteria:
 
-1. **Impact:** The announcement affects the Field’s current priorities and/or day-to-day work.
+1. **Impact:** The announcement affects the Field's current priorities and/or day-to-day work.
 1. **Relevancy:** The announcement directly affects Field team members ability to perform selling-related job duties.
 1. **Urgency:** The announcement and/or action required is time-bound and/or aligned to a company/CRO OKR.
 
@@ -46,22 +45,22 @@ The Field Communications team will evaluate each request at the given point in t
 **T1**:
 
 1. 1-2 months prior: Heads up in WW Field Manager Call
-2. 2-4 weeks prior: Initiative covered in segment VP’s leadership meeting by leader or Enablement PM
+2. 2-4 weeks prior: Initiative covered in segment VP's leadership meeting by leader or Enablement PM
 3. 2-4 days prior: CRO Leaders provided with announcement copy they share with their managers
 4. 1 day prior: #field-manager message sent
 
 **T2**:
 
-1. 2-4 weeks prior: Initiative covered in segment VP’s leadership meeting by Enablement PM
+1. 2-4 weeks prior: Initiative covered in segment VP's leadership meeting by Enablement PM
 2. 1 day prior: #field-manager message sent
 
 To support the GitLab value of transparency, an overview of each Tier along with practical use cases and communication channels is provided below.
 
 ## Tier 1 Update
 
-This update highly impacts the Field’s current priorities and/or day-to-day work, is highly relevant to all segments of the Field organization and is highly urgent (requiring immediate action and/or focus by a particular date). **These updates are deemed the most important for the Field and will be addressed in all available Field Communication channels/motions**. Field Enablement is likely required, and the [Field Enablement team](/handbook/sales/field-operations/field-enablement/) should be engaged.
+This update highly impacts the Field's current priorities and/or day-to-day work, is highly relevant to all segments of the Field organization and is highly urgent (requiring immediate action and/or focus by a particular date). **These updates are deemed the most important for the Field and will be addressed in all available Field Communication channels/motions**. Field Enablement is likely required, and the [Field Enablement team](/handbook/sales/field-operations/field-enablement/) should be engaged.
 
-**Use Cases**: Major process changes impacting the Field’s day-to-day work and/or selling activities, CRO/CEO/e-group calls-to-action, major pricing and packaging changes, significant new product offerings, company initiatives and/or priorities that affect how GitLab is sold or how the Field interacts with customers.
+**Use Cases**: Major process changes impacting the Field's day-to-day work and/or selling activities, CRO/CEO/e-group calls-to-action, major pricing and packaging changes, significant new product offerings, company initiatives and/or priorities that affect how GitLab is sold or how the Field interacts with customers.
 
 **Considerations**:
 
@@ -70,7 +69,7 @@ This update highly impacts the Field’s current priorities and/or day-to-day wo
 
 ## Tier 2 Update
 
-This update moderately impacts the Field’s current priorities and/or day-to-day work, is relevant to at least two segments of the Field and is highly urgent (requiring immediate action and/or focus by a particular date). Enablement may or may not be required.
+This update moderately impacts the Field's current priorities and/or day-to-day work, is relevant to at least two segments of the Field and is highly urgent (requiring immediate action and/or focus by a particular date). Enablement may or may not be required.
 
 **Use Cases**: Important process changes, CRO/CEO/e-group announcements, important product marketing updates and/or initiatives, important company initiatives and/or priorities, required Field trainings or enablement often attached to a major Field or company initiative.
 
@@ -81,9 +80,9 @@ This update moderately impacts the Field’s current priorities and/or day-to-da
 
 ## Tier 3 Update
 
-This update highly impacts the Field’s current priorities and/or day-to-day work, is highly relevant to all segments of the Field organization and is moderately urgent and requires action in the future. Enablement is typically not required.
+This update highly impacts the Field's current priorities and/or day-to-day work, is highly relevant to all segments of the Field organization and is moderately urgent and requires action in the future. Enablement is typically not required.
 
-**Use Cases**: Process changes that require reps to change a behavior, major competitive intelligence that impacts GitLab’s position in the market, major Channel & Alliance partner updates, major Field organization changes, training or enablement.
+**Use Cases**: Process changes that require reps to change a behavior, major competitive intelligence that impacts GitLab's position in the market, major Channel & Alliance partner updates, major Field organization changes, training or enablement.
 
 **Considerations**:
 
@@ -91,7 +90,7 @@ This update highly impacts the Field’s current priorities and/or day-to-day wo
 
 ## Tier 4 Update
 
-This update moderately impacts the Field’s current priorities and/or day-to-day work, is relevant to at least two segments of the Field and is moderately urgent and requires action in the future. Enablement is not required.
+This update moderately impacts the Field's current priorities and/or day-to-day work, is relevant to at least two segments of the Field and is moderately urgent and requires action in the future. Enablement is not required.
 
 **Use cases**: General updates not related to selling, general requests/survey for feedback*, company/organization announcements
 
@@ -102,13 +101,13 @@ This update moderately impacts the Field’s current priorities and/or day-to-da
 
 ## Tier 5 Update
 
-This update highly impacts the Field’s current priorities and/or day-to-day work, is highly relevant to all segments of the Field organization but does not require immediate attention or focus. This update is considered to be “nice know information” vs. “need to know”.
+This update highly impacts the Field's current priorities and/or day-to-day work, is highly relevant to all segments of the Field organization but does not require immediate attention or focus. This update is considered to be "nice know information" vs. "need to know".
 
 **Use cases**: Minor process changes, new resources and/or Highspot pages to enhance selling activities, customer case studies, GitLab release information
 
 ## Tier 6 Update
 
-This update minimally impacts the Field’s current priorities and/or day-to-day work, is minimally relevant to all segments of the Field organization or at least two segments of the Field but is not time-bound and does not require immediate attention or focus. This update is typically operational in nature and does not require additional enablement.
+This update minimally impacts the Field's current priorities and/or day-to-day work, is minimally relevant to all segments of the Field organization or at least two segments of the Field but is not time-bound and does not require immediate attention or focus. This update is typically operational in nature and does not require additional enablement.
 
 **Use cases**: Operational updates that do not impact day to day workflows (i.e. system field changes, future downtime, etc.).
 
@@ -133,7 +132,7 @@ Once you've reviewed the playbook above and would like to request Field Communic
 
 ### Field Comms Quiet Periods
 
-Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business. Exceptions will be made on a case-by-case basis for urgent announcements that require the Field’s immediate attention (system outage, critical update affecting customers and/or closing business).  The quiet periods for FY25 are as follows:
+Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business. Exceptions will be made on a case-by-case basis for urgent announcements that require the Field's immediate attention (system outage, critical update affecting customers and/or closing business).  The quiet periods for FY25 are as follows:
 
 - Q1-FY25: 2024-04-16 - 2024-04-30
 - Q2-FY25: 2024-07-17 - 2024-07-31

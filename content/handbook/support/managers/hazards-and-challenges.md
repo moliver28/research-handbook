@@ -1,5 +1,4 @@
 ---
-
 title: Support Team hazards and challenges
 description: Hazards, Challenges, and possible solutions to consider to solve them
 ---

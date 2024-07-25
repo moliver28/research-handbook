@@ -172,10 +172,7 @@ Engineering productivity has monthly office hours on the 3rd Wednesday of the mo
 
 ### Meetings
 
-Engineering Productivity has [weekly team meeting](https://docs.google.com/document/d/1yzHuosvykzb_kaldjGP9I6wxpNpMXdNEvEFBkHyZpXs/edit#) in two parts (EMEA / AMER) to allow for all team members to collaborate in times that work for them.
-
-- Part 1 is Tuesdays 11:00 UTC, 04:00 PST
-- Part 2 is Tuesdays 22:00 UTC, 15:00 PST
+Engineering Productivity has [weekly team meeting](https://docs.google.com/document/d/1yzHuosvykzb_kaldjGP9I6wxpNpMXdNEvEFBkHyZpXs/edit#) on Wednesdays 15:00 UTC, 08:00 PST.
 
 ### Communication guidelines
 
@@ -187,12 +184,6 @@ GitLab contributors. The team will follow these guidelines in the spirit of [Git
 ##### Critical pipeline changes
 
 Pipeline changes that have the potential to have an impact on the GitLab.com infrastructure should follow the [Change Management](/handbook/engineering/infrastructure/change-management) process.
-
-Pipeline changes that meet the following criteria must follow the [Criticality 3](/handbook/engineering/infrastructure/change-management/#criticality-3) process:
-
-- update to the [`cache-repo` job](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/ci/cache-repo.gitlab-ci.yml)
-
-These kind of changes [led to production issues in the past](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/3013).
 
 ##### Non-critical pipeline changes
 
@@ -208,7 +199,7 @@ Other pipeline changes will be communicated based on the team's discretion.
 
 #### Automated triage policies
 
-Be sure to give a heads-up to `#development`,`#eng-managers`,`#product`, `#ux` Slack channels
+Be sure to give a heads-up to `#development`, `#eng-managers`, `#product`, `#ux` Slack channels
 and the Engineering week in review when an automation is expected to triage more
 than 50 notifications or change policies that a large stakeholder group use (e.g. team-triage report).
 

@@ -13,16 +13,25 @@ aliases:
 
 ### Team Workflow
 
-- [<i class="far fa-clipboard"></i> Team Workflow](/handbook/marketing/developer-relations/developer-advocacy/workflow/)
+#### Issue Templates
+
+- [<i class="far fa-edit"></i> New Content Issue](https://go.gitlab.com/new-content-issue)
+- [<i class="far fa-edit"></i> New Event Issue](https://go.gitlab.com/new-event-issue)
+- [<i class="far fa-edit"></i> New Activity Issue](https://go.gitlab.com/new-activity-ssue)
 - [<i class="far fa-edit"></i> CFP Issue Template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=cfp)
-- [<i class="far fa-clipboard"></i> Team General Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1565342?&label_name[]=developer-advocacy)
-- [<i class="far fa-clipboard"></i> Team Activity Type Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/3811304?label_name[]=developer-advocacy)
-- [<i class="far fa-clipboard"></i> CFP Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1616902?label_name[]=CFP)
-- [<i class="far fa-calendar-alt"></i> Team Calendar](/handbook/marketing/developer-relations/developer-advocacy/calendar)
-- [<i class="far fa-chart-line"></i> Content Effectiveness](/handbook/marketing/developer-relations/content-effectiveness/)
+
+#### Issue Boards
+
+- [<i class="far fa-clipboard"></i> Team Workflow](/handbook/marketing/developer-relations/developer-advocacy/workflow/)
+- [<i class="far fa-clipboard"></i> Content by Assignee](https://gitlab.com/groups/gitlab-com/-/boards/7577841?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy)
+- [<i class="far fa-clipboard"></i> Content by Quarter](https://gitlab.com/groups/gitlab-com/-/boards/7577857?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy)
+- [<i class="far fa-clipboard"></i> Content by Types](https://gitlab.com/groups/gitlab-com/-/boards/7577822?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy)
+- [<i class="far fa-clipboard"></i> Events](https://gitlab.com/groups/gitlab-com/-/boards/7577874?label_name[]=developer-advocacy&label_name[]=DA-Type%3A%3AEvents)
 
 ### Team Resources
 
+- [<i class="far fa-calendar-alt"></i> Team Calendar](/handbook/marketing/developer-relations/developer-advocacy/calendar)
+- [<i class="far fa-chart-line"></i> Content Effectiveness](/handbook/marketing/developer-relations/content-effectiveness/)
 - [<i class="fas fa-project-diagram"></i> Team Projects](/handbook/marketing/developer-relations/developer-advocacy/projects)
 - [<i class="fas fa-toolbox"></i> Team Tools](/handbook/marketing/developer-relations/developer-advocacy/tools/)
 - [<i class="far fa-object-group"></i> OSS Contributions](/handbook/marketing/developer-relations/developer-advocacy/#oss-contributions)
@@ -52,7 +61,7 @@ Developer relations and developer advocacy is an evolving, complex field.
 Our team focuses on areas aligning with the company's areas of interest including:
 
 - DevSecOps: We want our work to speak to not only developers but all team members involved in the DevSecOps lifecycle to deliver working code to production: Product Managers, software engineers, system and DB administrators, designers, test engineers, security engineers, operations engineers, platform engineers, SREs, development managers and executives, etc.
-- Enterprise: Developers and DevSecOps professionals in the enterprise have special constraints and needs.  Often these are glossed over with easy “throw out your architecture and use this new shiny thing” - we won’t do that, we’ll acknowledge real-world challenges, legacy code, and enterprise constraints and help people solve those problems as well. When applicable, we switch roles into consulting and support.
+- Enterprise: Developers and DevSecOps professionals in the enterprise have special constraints and needs.  Often these are glossed over with easy "throw out your architecture and use this new shiny thing" - we won't do that, we'll acknowledge real-world challenges, legacy code, and enterprise constraints and help people solve those problems as well. When applicable, we switch roles into consulting and support.
 
 ### KPIs
 
@@ -99,6 +108,7 @@ We are members of the [Developer Relations team](/handbook/marketing/developer-r
 | [John Coghlan](/handbook/company/team/#john-coghlan) <br/> Director, Developer Advocacy | Strategy and Planning in Developer Advocacy | English | | | [Website](https://coghlan.me/) |
 | [Michael Friedrich](/handbook/company/team/#dnsmichi) <br/> Senior Developer Advocate | DevSecOps with a focus on AI and CI/CD efficiency | English, German, Austrian | [CI/CD components maintainer](https://gitlab.com/components) | DevSecOps, AI, CI/CD, Observability, Python, Go, C/C++, Rust, Ruby | [Talks](https://dnsmichi.at/talks/), [Portfolio](https://dnsmichi.at/talks/) |
 | [William Arias](/handbook/company/team/#warias) <br/> Senior Developer Advocate | DevSecOps with a focus on AI/ML, Sec and Data | English, Spanish |  | CI/CD, AI/ML, Kubernetes, Security, Python, C |  |
+| [Daniel Helfand](/handbook/company/team/#dhelfand) <br/> Developer Advocate | DevSecOps | English |  | CI/CD, Kubernetes, Go |  |
 
 ## <i class="fa fa-tasks" aria-hidden="true"></i> What we do
 
@@ -132,7 +142,7 @@ Our team regularly engages with the wider GitLab community. We do this organical
 
 The Developer Advocate team is the DRI for questions and strategy on the platforms below:
 
-<!-- This partially duplicates https://about.gitlab.com/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview - when making updates, ensure to keep it in sync. -->
+<!-- This partially duplicates https://handbook.gitlab.com/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview - when making updates, ensure to keep it in sync. -->
 
 | Platform | Description | Workflows |
 |-------------|-------------|-----------|

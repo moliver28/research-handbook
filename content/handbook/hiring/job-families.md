@@ -8,7 +8,7 @@ description: "Job families are organized by function at GitLab and we use them t
 
 ### Things to Keep in Mind
 
-1. Before you begin creating a new job family you should check the directory to see if there is an existing job family or a role close to the one you are working to create. Job families should encompass a team, a department, or perhaps a division. If you are confused about when you need to create a new job family and when you should add a new role to an existing one watch [this video](https://www.youtube.com/embed/5EcFz1qNj2E).
+1. Before you begin creating a new job family you should check the directory to see if there is an existing job family or a role close to the one you are working to create. Job families should encompass a team, a department, or perhaps a division. 
     - Sometimes you should just add a level, a specialty or a segment and not create a new job family.
 1. We don't include location requirements for most roles (EMEA, Americas, APAC) in the job family because these can change over time and job families are constant.
 1. We don't include [expertises]({{< ref "structure#expert" >}}), since these are free form.
@@ -44,7 +44,7 @@ For Grades 10 and above:
 For Grades 9 and below:
 
 1. **Your manager**: Your direct manager is responsible for clarifying the scope of responsibilities and level of roles, checking responsibilities and requirements and ensuring the job family follows the template logic and **has all of the required areas**. Any review after this should be quick so the manager is the gatekeeper.
-1. **Your Department Head**: Your Department Head (typically at the VP level) is responsible for confirming the role is in plan and review of department/division structure and levels. It is highly recommended that the Department Head notifies the EGroup Leader for awarenesss.
+1. **Your Department Head**: Your Department Head (typically at the VP level) is responsible for confirming the role is in plan and review of department/division structure and levels. It is highly recommended that the Department Head notifies the e-group Leader for awarenesss.
 1. **Your People Business Partner** Who will review and typically notify Total Rewards
 1. **Total Rewards**: The Total Rewards Team, `@gl-total-rewards`, is the final approver for job families on the merge request ensuring.:
 
@@ -288,7 +288,7 @@ Here is a brief [walkthrough](https://docs.google.com/presentation/d/1ZNsMLhk5ZB
 1. Delete any unnecessary sections - for example, there may be no `Levels` or `Specialties` at this time, so those sections can be deleted
 1. Update the Commit message with a description of what you are doing
 1. Update Target Branch to an abbreviation of what you did. Note: include dashes between words instead of spaces.
-1. Make sure “Start a new merge request with these changes” box is checked.
+1. Make sure "Start a new merge request with these changes" box is checked.
 1. Click the Commit changes button at the bottom
 1. Check: Delete source branch when merge request is accepted.
 1. Click the Submit merge request button at the bottom
@@ -384,8 +384,8 @@ The following results lead to failure of the pipeline:
 {{< youtube "9EJkgBRUSDA" >}}
 
 - All job families should have performance indicators (PIs).
-- Performance indicators should tell you whether or not you’re doing your job well or correctly. For example, our [Vice President, Investor Relations](/job-families/finance/investor-relations#vice-president-investor-relations) role has performance indicators that compare how we’re being described by analysts to how we describe ourselves.
-- Performance indicators are important because people want to know that they’re contributing.
+- Performance indicators should tell you whether or not you're doing your job well or correctly. For example, our [Vice President, Investor Relations](/job-families/finance/investor-relations#vice-president-investor-relations) role has performance indicators that compare how we're being described by analysts to how we describe ourselves.
+- Performance indicators are important because people want to know that they're contributing.
 - Candidates want to know what success looks like in a role.
 - Team Members want to know how they're being measured for success.
 - Company, functional, or department KPIs are too generic and, thus, not useful as job family performance indicators, only a sub-set of performance indicators are KPIs.

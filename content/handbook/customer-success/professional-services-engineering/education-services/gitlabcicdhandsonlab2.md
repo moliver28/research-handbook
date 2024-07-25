@@ -73,7 +73,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
    > The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
 
-1. In the Project URL field, click the dropdown for the second half of the URL to make sure it’s pointing to a group name (starts with gitlab-learn-labs/*if it is SPT, and training-users/* if it is ILT) and not a username. You should create this project inside a group, not directly in your user’s namespace.
+1. In the Project URL field, click the dropdown for the second half of the URL to make sure it's pointing to a group name (starts with gitlab-learn-labs/*if it is SPT, and training-users/* if it is ILT) and not a username. You should create this project inside a group, not directly in your user's namespace.
 
 1. Under **Visibility Level**, ensure **Private** is selected.
 
@@ -134,25 +134,25 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 This file defines two stages: `build` and `test`. The `build1` job executes during the `build` stage, running all of the commands in `script`. The `test1` job executes during the `test` stage, running all of the commands in `script`.
 
-### Task D. View a Pipeline’s Status, Stages, Jobs, and GitLab Runner
+### Task D. View a Pipeline's Status, Stages, Jobs, and GitLab Runner
 
 > When you commit your `.gitlab-ci.yml` file, a pipeline is created. A pipeline comprises of jobs and stages. In the previous section, you defined two stages: `build` and `test`. Each of these stages contained jobs, which were defined in `script`. In this section, you will view the pipeline created from your `.gitlab-ci.yml` file.
 
 1. In the left navigation pane, click **Build > Pipelines** to see an overview of all pipelines. The top row in the overview shows the pipeline that started a few seconds ago, when you committed `.gitlab-ci.yml`. The status icon at the left of the row should say either **running** or **passed**.
 
-1. Click the status icon of the top row to see the details of the most recent pipeline. You’ll see columns representing the pipeline’s stages, and widgets representing jobs within each stage.
+1. Click the status icon of the top row to see the details of the most recent pipeline. You'll see columns representing the pipeline's stages, and widgets representing jobs within each stage.
 
 > The order of execution for stages generally reads left to right. In this example, the `build` stage is the leftmost column, since it is the first stage to execute.
 
 1. Click each of the two jobs to see the output in a web terminal. Identify the gitlab-runner for each job
 
-   > Hint: it’s listed near the top of each job’s output.
+   > Hint: it's listed near the top of each job's output.
 
 ### Task E. Prepare to Install GitLab Runner Locally
 
 > Jobs are executed by `runners`. If your project is hosted on `GitLab.com`, various SaaS runners are provided to build, test, and deploy your application on different environments. In some cases, you may want to host your own runners. Sections D, E, and F will outline the process of installing and registering a runner on your GitLab instance.
 
-1. Depending on which OS you’re on, run the appropriate command(s):
+1. Depending on which OS you're on, run the appropriate command(s):
 
    * In a **Linux** terminal:
 
@@ -177,7 +177,7 @@ This file defines two stages: `build` and `test`. The `build1` job executes duri
 
 ### Task F. Install the GitLab Runner Binary on your Computer
 
-> This section outlines the steps required to install a GitLab runner on your computer. Follow only the instructions that match the operating system you’re using.
+> This section outlines the steps required to install a GitLab runner on your computer. Follow only the instructions that match the operating system you're using.
 
 #### Linux
 
@@ -286,7 +286,7 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
 > If your runner is registered correctly, you should see an output like this: </br>`gitlab-runner run Executor=shell Token=your-gl-token URL=https://gitlab.com`
 
-1. If you’re on Windows, follow these additional instructions to configure your gitlab-runner to use the right command to start PowerShell:
+1. If you're on Windows, follow these additional instructions to configure your gitlab-runner to use the right command to start PowerShell:
    1. Open `C:\GitLab-Runner\config.toml` in a text editor.
 
    1. Change this line:

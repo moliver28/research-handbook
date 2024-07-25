@@ -18,8 +18,8 @@ This team maps to [Verify](/handbook/product/categories/#verify-stage) DevOps st
 The product strategy and roadmap for the runner product categories are covered on the following direction pages.
 
 - [Runner Core](https://about.gitlab.com/direction/verify/runner_core/)
-- [Runner Fleet](https://about.gitlab.com/direction/verify/runner_fleet)
-- [Runner SaaS](https://about.gitlab.com/direction/verify/runner_saas)
+- [Hosted Runners](https://about.gitlab.com/direction/verify/hosted_runners/)
+- [Fleet Visibility](https://about.gitlab.com/direction/verify/fleet_visibility/)
 
 ## UX strategy
 
@@ -278,13 +278,13 @@ Using the [`container-scanners`](https://gitlab.com/gitlab-com/gl-security/appse
 scans all images we produce to highlight CVE vulnerabilities. From those scans, the
 [`vulnmapper`](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper)
 project creates issues in the project that created the vulnerable image, including
-[SLAs](../../../../../security//product-security/vulnerability-management/#remediation-slas) to which we must adhere.
+[SLAs](/handbook/security/product-security/vulnerability-management/sla/) to which we must adhere.
 The Runner team member assigned the `Support & Security Responder` role in the weekly team task should triage and
 review the list of CVEs and address any issues as appropriate:
 
 - `Critical` severity issues should be addressed immediately.
 - `High`, `Medium`, and `Low` severity issues should be addressed in the priority order of the
-  [remediation SLAs](../../../../../security/product-security/vulnerability-management/#remediation-slas).
+  [remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
 
 The procedure for addressing CVE issues is as follows:
 

@@ -1,15 +1,11 @@
 ---
-
 title: "Customer Success Management Handbook"
 description: "The Customer Success Management team at GitLab is a part of the Customer Success department, acting as trusted advisors to our customers and helping them realize value faster."
 ---
 
-[<button class="btn btn-primary" type="button" style="padding: 15px 30px; font-size: 24px;">Digital</button>](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
-[<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSE</button>](/handbook/customer-success/csm/segment/scale/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM AMER</button>](/handbook/customer-success/csm/segment/amer/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM EMEA</button>](/handbook/customer-success/csm/segment/emea/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM APJ</button>](/handbook/customer-success/csm/segment/apj/)
-[<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSA</button>](/handbook/customer-success/csm/segment/csa/)
 
 ## Mission Statement
 
@@ -246,9 +242,9 @@ To ensure that opportunities are listed with the correct Order Type, [this Sales
 
 Next steps for you:
 
-1. Customize [this SFDC report](https://gitlab.my.salesforce.com/00O4M000004agfP) where “Account Owner = your SAEs”; “CSM = You”
+1. Customize [this SFDC report](https://gitlab.my.salesforce.com/00O4M000004agfP) where "Account Owner = your SAEs"; "CSM = You"
 1. Save report
-1. Subscribe to report when “Record Count Greater Than 0” and Frequency = Weekly (You’ll get a weekly email as a reminder to look at the report)
+1. Subscribe to report when "Record Count Greater Than 0" and Frequency = Weekly (You'll get a weekly email as a reminder to look at the report)
 1. If you find an opp that is tagged incorrectly, chatter (@Sales-Support) in the opportunity and let them know there is a mistake ([example](/handbook/customer-success/csm/#csm-tools))
 
 ## Related pages

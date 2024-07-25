@@ -56,7 +56,7 @@ The Senior Tax Analyst is a [grade 7](/handbook/total-rewards/compensation/compe
 
 #### Senior Tax Analyst Requirements
 
-- Bachelor’s Degree (B.S.) in Accounting, tax or related field.
+- Bachelor's Degree (B.S.) in Accounting, tax or related field.
 - CPA designation desired.
 - Progressive, relevant experience based on tax specialty.
 - Experience with Software and/or SAAS in a high growth environment.
@@ -80,7 +80,7 @@ The Manager, Tax is a [grade 8](/handbook/total-rewards/compensation/compensatio
 
 - Extends that of the Staff Tax Analyst responsibilities
 - Manage a team of analysts
-- Conduct recurring 1:1’s and evaluate team’s performance
+- Conduct recurring 1:1's and evaluate team's performance
 
 #### Manager, Tax Requirements
 
@@ -114,10 +114,10 @@ The Senior Manager, Global tax Accounting and Domestic Tax is a grade 9.
 - Ability to prioritize tasks appropriately, meet deadlines, execute with accuracy and recognize when issues need escalation
 - Strong communication skills (written and verbal) and analytical skills
 - Proficient in Excel, including pivot table and vlookup
-- Responsibilities may require a work schedule that may include working outside of “normal” work hours, in order to meet business demands
+- Responsibilities may require a work schedule that may include working outside of "normal" work hours, in order to meet business demands
 - Experience with ASC 740 is required
 - Preference will be given to candidates with Big 4 experience
-- Bachelor’s degree in Accounting or Business, or an equivalent combination of education and practical experience
+- Bachelor's degree in Accounting or Business, or an equivalent combination of education and practical experience
 - Strong business judgment applied to tax and finance operational activities
 - Demonstrated experience in mentoring and leading a distributed team
 - Leadership experience in a software or global technology company
@@ -192,7 +192,7 @@ The Director, Tax  is a [grade 10](/handbook/total-rewards/compensation/compensa
 
 #### Director, Global Tax Accounting and Domestic Tax Requirements
 
-- Bachelor’s Degree (B.S.) in Accounting. Master’s Degree in Business Taxation preferred.
+- Bachelor's Degree (B.S.) in Accounting. Master's Degree in Business Taxation preferred.
 - JD and/or CPA preferred.
 - Experience with Software and/or SAAS in a high growth environment.
 - Technical understanding of ASC 740, ASC 718, and ASC 805 for global operations
@@ -225,7 +225,7 @@ The Director of International Tax is a job [grade 11](/handbook/total-rewards/co
 - VAT/GST compliance and audits
 - Holds the lead role in new entity setup, working with our legal, finance, and human resources teams
 - Works with our stock-based comp and payroll teams regarding per-country stock based compensation issues
-- Works with our legal and finance teams to hold subsidiary directors’ meetings
+- Works with our legal and finance teams to hold subsidiary directors' meetings
 - Works with our finance and treasury teams to fund international operations
 - Outlines and drafts intercompany agreements
 

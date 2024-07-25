@@ -1,5 +1,4 @@
 ---
-
 title: "Marketing Project Management Guidelines"
 ---
 

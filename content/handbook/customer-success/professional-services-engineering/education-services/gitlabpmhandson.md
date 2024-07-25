@@ -3,7 +3,6 @@ title: "GitLab Agile Portfolio Management - Hands-On Lab Overview"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Agile Portfolio Management course."
 ---
 
-
 ## GitLab Agile Portfolio Management Lab Guides
 
 | Lab Name | Lab Link |

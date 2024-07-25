@@ -139,10 +139,10 @@ all email communications are consistent with our brand voice and style.
 #### Content Marketing Manager (Brand) Responsibilities
 
 - Manage end-to-end development of brand content with internal teams, ensuring all production deliverables are met on-time and within scope on multiple concurrent projects.
-- Create, develop and edit clear and concise messaging across GitLab’s website.
+- Create, develop and edit clear and concise messaging across GitLab's website.
 - Provide copywriting support for customer reference content , including blogs and case studies.
 - Working closely with the go-to-market teams, develop and write email nurtures.
-- Support the content marketing team’s social media distribution strategy.
+- Support the content marketing team's social media distribution strategy.
 - Edit and publish content.
 - Working cross-functionally with Strategic, Corporate and Product Marketing, provide content and copywriting support for brand campaigns.
 
@@ -159,11 +159,11 @@ all email communications are consistent with our brand voice and style.
 
 #### Customer Content Manager Responsibilities
 
-- Own GitLab’s customer content program including identifying GitLab’s strongest use cases, customer profiles, and ROI metrics
-- Champion our customers’ success by amplifying their stories and positioning them as leaders in the industry
-- Partner with GitLab’s Reference Program Manager to identify and track customer content opportunities
+- Own GitLab's customer content program including identifying GitLab's strongest use cases, customer profiles, and ROI metrics
+- Champion our customers' success by amplifying their stories and positioning them as leaders in the industry
+- Partner with GitLab's Reference Program Manager to identify and track customer content opportunities
 - Conduct customer interviews and translate technical conversations into engaging, ROI-driven case studies
-- Partner with GitLab’s Digital Production Manager to create and scale customer video content
+- Partner with GitLab's Digital Production Manager to create and scale customer video content
 - Create and repackage customer content for a variety of channels including web, blog, video, and social
 - Update and improve [about.gitlab.com/customers](https://about.gitlab.com/customers/).
 

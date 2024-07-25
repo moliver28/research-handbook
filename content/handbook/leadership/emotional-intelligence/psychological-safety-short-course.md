@@ -24,7 +24,7 @@ You are free to do both of course, but the content is duplicated across the two 
 
 ### First, what is psychological safety?
 
-*Psychological safety* was defined by Amy Edmondson as a “shared belief held by members of a team that the team is safe for interpersonal risk taking”. It's not about being warm and fuzzy and sharing your feelings. It's about being comfortable admitting when you are wrong or have made a mistake as well as challenging each other for the better. You can view a great video of Susan David explaining this further in the handbook.
+*Psychological safety* was defined by Amy Edmondson as a "shared belief held by members of a team that the team is safe for interpersonal risk taking". It's not about being warm and fuzzy and sharing your feelings. It's about being comfortable admitting when you are wrong or have made a mistake as well as challenging each other for the better. You can view a great video of Susan David explaining this further in the handbook.
 
 Here is an illustration of what a psychologically safe team and what a psychologically unsafe team would look like:
 
@@ -59,7 +59,7 @@ These three great practices will help you really make that push into ensuring th
 
    Higher intent is the practice of recognizing, reevaluating, and reiterating on inclusive practices.
 
-   For example, you are an extrovert and enjoy participating in conversations in meetings, but you recognize that you are not the only voice in the meeting and some haven’t been heard. You use your confidence to encourage and provide space for other ideas.
+   For example, you are an extrovert and enjoy participating in conversations in meetings, but you recognize that you are not the only voice in the meeting and some haven't been heard. You use your confidence to encourage and provide space for other ideas.
 
    This also means acknowledging and apologizing when you get it wrong. People who operate at a higher intent do not use positive intent as a defense but as a learning opportunity.
 1. **Have moral courage** - This is the practice of being brave for ethical and moral reasons, even when it is a risk or inconvenient for you.
@@ -113,11 +113,11 @@ These are specific practices and actions for leaders and future leaders. While n
   - "I interrupt people often when I am excited which can cause frustration and make people feel as though their voice is not heard." This **can be unsafe**.
 - Have you provided your intent? For example:
   - "I want everyone to be aware that when stressful things happen I can shut off and just put my head down. If you notice this and feel I am not being transparent about activities please let me know."
-  - "I am aware that when I am excited I tend to cut people off. Please call me out on this behavior when it happens as I often don’t realize I am doing it."
+  - "I am aware that when I am excited I tend to cut people off. Please call me out on this behavior when it happens as I often don't realize I am doing it."
 - What are your unconscious biases and have you challenged them?
 - Do you consciously evaluate your unconscious biases when communicating?
 - How do you like to receive feedback? Do you give feedback the same way? Does your team know how *you* like to receive feedback, and do you know how *they* prefer feedback?
-- What constitutes psychologically unsafe behavior? Leaders and team members can provide feedback that, for example, isn’t itself psychologically unsafe, but someone may feel that *any* feedback makes them feel unsafe. Challenge your assumptions on whether it is truly unsafe or part of the work.
+- What constitutes psychologically unsafe behavior? Leaders and team members can provide feedback that, for example, isn't itself psychologically unsafe, but someone may feel that *any* feedback makes them feel unsafe. Challenge your assumptions on whether it is truly unsafe or part of the work.
 
 ## Psychological Safety Manager 1:1
 

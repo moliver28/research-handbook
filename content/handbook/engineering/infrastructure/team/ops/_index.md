@@ -15,7 +15,7 @@ The Ops teams vision is to enable service onwers to operate their own services u
 
 There are two areas that are the Ops team primary focus:
 
-1. Incident Management - Ops is responsible for improving the processes Gitlab uses for incident management
+1. Incident Management - Ops is responsible for improving the processes GitLab uses for incident management
 2. Disaster Recovery - Ops is responsible for managing our disaster recovery processes with a particular focus on reducing our RTO
 
 ### Services

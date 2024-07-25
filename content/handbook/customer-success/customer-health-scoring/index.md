@@ -1,22 +1,13 @@
 ---
-
 title: "Customer Health Scoring"
 description: "Customer Account Scoring overview and methodology framework to improve our understanding of the customer's journey and their ROI attainment."
 ---
-
-
-
-
-
-
-
-
 
 ---
 
 ## Vision
 
-The Customer Health Score assists GitLab Account Teams in understanding the customer’s relative health of GitLab adoption and engagement through their lifecycle journeys. This assists expansion and retention efforts through understanding the customer's product adoption, risks, and engagement with GitLab.
+The Customer Health Score assists GitLab Account Teams in understanding the customer's relative health of GitLab adoption and engagement through their lifecycle journeys. This assists expansion and retention efforts through understanding the customer's product adoption, risks, and engagement with GitLab.
 
 ## Direction
 
@@ -26,7 +17,7 @@ As initially laid out in the Account Health Scoring [epic](https://gitlab.com/gr
 
 - >95% of customers have a health score (alighed to [FY24 Yearlies](/handbook/company/yearlies/#fy24-yearlies))
 - Customer health scoring framework has been backtested and validated as effective and beneficial
-- Customer Health is used by CSMs, Sales, Product, and the broader org for assessing a customer’s level of adoption of GitLab the product and their engagement with GitLab the company as a company-level reporting metric
+- Customer Health is used by CSMs, Sales, Product, and the broader org for assessing a customer's level of adoption of GitLab the product and their engagement with GitLab the company as a company-level reporting metric
 
 <br>
 ![Early Warning Segmentation Framework](https://lucid.app/publicSegments/view/1d7cb4c0-392c-41d8-afeb-569fa48440dd/image.png)
@@ -55,9 +46,9 @@ Account Health is an aggregation of key metrics to provide insights to assist wi
 - Adoption journey — identify areas where the customer could be coached on best practices for better utilizing GitLab
 - EBRs and discussion topics — highlight areas of focus for EBRs and customer cadences such as usage reporting
 
-For instance, the customer may have deployed all their subscription licenses but aren’t actively using them; or they may be using them, but all their Support tickets are very negative.
+For instance, the customer may have deployed all their subscription licenses but aren't actively using them; or they may be using them, but all their Support tickets are very negative.
 
-Looking through just one lens provides a limited view. In a happier example, a customer may have deployed most of their licenses, be heavily using all the current tier’s high end features, and achieving positive business outcomes (PBOs). In this case, metrics indicate expansion opportunities. We will need to **PROVE** value to the customer and ourselves:
+Looking through just one lens provides a limited view. In a happier example, a customer may have deployed most of their licenses, be heavily using all the current tier's high end features, and achieving positive business outcomes (PBOs). In this case, metrics indicate expansion opportunities. We will need to **PROVE** value to the customer and ourselves:
 
 **P.R.O.V.E.**
 
@@ -195,9 +186,9 @@ When an account has multiple GitLab instances identified as Production (Instruct
 [Video Instructions](https://youtu.be/N0JUABX88Hg) to update instance data in Gainsight to include only one instance in Product Usage health measure.
 
 1. On the account C360 scroll to the Instance and Namespace Details Section
-2. Scroll right to see the “Included in Health Measure” column
-3. To exclude instances, click the three dots, "Edit", and then select “Opt-Out” in the `Included in Health Measures` to EXCLUDE the instance section. NOTE: Make sure you select “Opt-Out” rather than null, or the system may overwrite your update. Then click Update
-4. To select your **primary** instance for health scoring, click on the three dots, Edit, and click “Included in health Score” then click "Update"
+2. Scroll right to see the "Included in Health Measure" column
+3. To exclude instances, click the three dots, "Edit", and then select "Opt-Out" in the `Included in Health Measures` to EXCLUDE the instance section. NOTE: Make sure you select "Opt-Out" rather than null, or the system may overwrite your update. Then click Update
+4. To select your **primary** instance for health scoring, click on the three dots, Edit, and click "Included in health Score" then click "Update"
 
 **Important notes**:
 
@@ -241,7 +232,7 @@ The Account Health Score does and will include many factors with different weigh
 
 ### Tier-based Product Usage Stats
 
-Evaluates the customer’s usage based on their current tier and feature access.
+Evaluates the customer's usage based on their current tier and feature access.
 
 For example, if a customer is on Premium, we will base their health on Premium-level features to understand their level of adoption. If their health is red or yellow, it signifies risk. If green, it can signify expansion or flat renewal.
 
@@ -257,7 +248,7 @@ The following graph (Early Warning Segmentation Framework) is used to provide a 
 
 ### Starting point
 
-The first approach was a calculation of multiple metrics to create a “black box” approach. This was neither helpful to the end user (CSMs, SAs, sales reps), it was not easy to understand the calculation, the Gainsight logic was inadequate, and was not action-oriented to know *which* aspects of the use case were great and which needed improvement.
+The first approach was a calculation of multiple metrics to create a "black box" approach. This was neither helpful to the end user (CSMs, SAs, sales reps), it was not easy to understand the calculation, the Gainsight logic was inadequate, and was not action-oriented to know *which* aspects of the use case were great and which needed improvement.
 
 ## PROVE Components
 
@@ -265,14 +256,14 @@ The first approach was a calculation of multiple metrics to create a “black bo
 | -------------- | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ------------ |
 | **Product**    | License Activation         | The customer has assigned all licenses                                            | Has the customer deployed their licenses? This is an indicator of seat reduction / expansion                      | License utilization                                          | All              | 100%          |
 | **Product**    | User Engagement            | 73% of users are Monthly Active Users                                         | Are users logging in and using the product?                  | Unique Monthly Active Users / billable_user_count               | All              | 100%; [in progress](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/387)          |
-| **Product**    | Adoption (Use Case)        | Use Case adoption                                            | Is the customer adopting use cases and progressing into “stickier” areas of GitLab? | SCM —> CI —> DevSecOps adoption                              | All              | 100%          |
+| **Product**    | Adoption (Use Case)        | Use Case adoption                                            | Is the customer adopting use cases and progressing into "stickier" areas of GitLab? | SCM —> CI —> DevSecOps adoption                              | All              | 100%          |
 | **Risk**       | CSM Sentiment              | The sentiment as determined by the CSM, if applicable        | What has the CSM determined from cadence calls?              | CSM Sentiment                                                | CSM owned        | 100%         |
 | **Outcomes**   | ROI Success Plan           | Ensure the ROI Success Plan is aligned to customer           | A missing or poorly constructed Success Plan highlights a lack of alignment between GitLab and customer desired outcomes. | Green Success Plans Delivered EBRs                           | CSM owned        | 100%         |
 | **Outcomes**   | Positive Business Outcomes (PBOs) | Completed Success Plan Objectives                            | Failed or missed PBOs can be a sign of distress; successful PBOs can highlight renewal expansion | Successfully completing at least one PBO each year            | CSM owned        | Not started  |
 | **VoC**        | Support - Escalations      | Emergency support tickets                                      | Emergency support tickets can indicate unhappiness or frustration | Measure if there are Emergency support tickets in the last 90 days | All              | 100%  |
 | **VoC**        | Support - Engagement       | Customer sends in tickets                                    | Determining if the customer is engaged with Support          | Retain existing methodology, but tweak to allow more tickets as a good thing | All              | 70%         |
 | **VoC**        | Support - CSAT             | Customer completes CSAT surveys and provides feedback        | Is the customer giving feedback and what are the scores (response + outcomes) | Benchmark a minimum XX% response rate for green health and provide CSAT results to CSM | All              | Not started  |
-| **VoC**        | NPS Surveys                | The customer responds to and provides high scores            | Because surveys are a good indicator of the customer’s perception of the product and company; this can | Survey responses rates + survey scores                       | All              | Not started  |
+| **VoC**        | NPS Surveys                | The customer responds to and provides high scores            | Because surveys are a good indicator of the customer's perception of the product and company; this can | Survey responses rates + survey scores                       | All              | Not started  |
 | **Engagement** | Engagement                 | Recency of CSM cadence call                                  | Lack of customer engagement                                  | Date of last CSM cadence call                                | CSM owned        | 100%         |
 | **Engagement** | Executive Sponsorship      | Are stakeholders aligned and communicating?                  | Lack of alignment and communication can indicate a disconnect between execs and ROI | Recency of aligned stakeholder communication                 | CSM owned        | Not started  |
 | **Engagement** | Events                     | Is the customer attending GitLab events?                     | Event attendance indicates customer engagement, dialogues with team members, and face-to-face interactions | TBD                                                          | All              | Not started  |
@@ -280,7 +271,7 @@ The first approach was a calculation of multiple metrics to create a “black bo
 
 ## Predictive Analytics
 
-Predictive Analytics is not a silver bullet. It will not cure all that ails you. Instead, this methodology is probabilistic and incorporates health measures to correlate the typical journey of “healthy” customers (expand and renew) with “unhealthy” customers (downgrade and churn). For example, a healthy sales pipeline has few pushes (moving the close date) and progressively moves through stages (not stale). Conversely, an opportunity with multiple pushes and stuck in stages for long periods of time is an indicator of risk.
+Predictive Analytics is not a silver bullet. It will not cure all that ails you. Instead, this methodology is probabilistic and incorporates health measures to correlate the typical journey of "healthy" customers (expand and renew) with "unhealthy" customers (downgrade and churn). For example, a healthy sales pipeline has few pushes (moving the close date) and progressively moves through stages (not stale). Conversely, an opportunity with multiple pushes and stuck in stages for long periods of time is an indicator of risk.
 
 | Prediction Type | Model Name | Status | Description |
 | :--: | :--: | :--: | :--: |

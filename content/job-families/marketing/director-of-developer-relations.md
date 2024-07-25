@@ -33,12 +33,12 @@ The Director, Developer Relations is a [grade 10](/handbook/total-rewards/compen
 
 ### Requirements
 
-- You are obsessed with making developers happy. You were a full-time developer in a previous life (*or you’ve been through bootcamps and know how to program and code with the best of ‘em!*), but you prefer to work with the developer community to improve experience and support through education.
-- You have directly managed a team before, perhaps as a manager, senior manager or director. You have built a team before and can’t wait to do it again!
+- You are obsessed with making developers happy. You were a full-time developer in a previous life (*or you've been through bootcamps and know how to program and code with the best of 'em!*), but you prefer to work with the developer community to improve experience and support through education.
+- You have directly managed a team before, perhaps as a manager, senior manager or director. You have built a team before and can't wait to do it again!
 - You have 5+ years of experience leading developer relations or community advocacy programs, preferably open source in nature.
 - You are analytical and data driven in your approach to building and nurturing communities.
 - You know how to run a marketing pipeline and can articulate how to use automation for the evangelist, committer, and student funnel.
-- You are creative. You’ve made people happy with your quirky campaigns.
+- You are creative. You've made people happy with your quirky campaigns.
 - You work with the team to help our community members deliver a great keynotes and write great blog posts.
 - You have experience facilitating sensitive and complex community situations with humility, empathy, judgment, tact, and humor.
 - Bonus points for media training and experience in communicating with journalists, bloggers and other media on a range of technical topics.

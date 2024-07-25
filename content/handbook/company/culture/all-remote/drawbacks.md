@@ -27,11 +27,11 @@ These companies work to ensure that offices are simply [venues to work remotely 
 
 ### Challenge: Onboarding
 
-[Onboarding]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}) can be difficult when you're remote, because it involves [more self-learning]({{< ref "./learning-and-development" >}}) and you're not physically with your new coworkers and fellow new hires.
+[Onboarding](learning-and-development/#how-do-you-onboard-new-team-members) can be difficult when you're remote, because it involves [more self-learning](learning-and-development/) and you're not physically with your new coworkers and fellow new hires.
 
 **Solution**
 
-Learn more about how GitLab [onboards its all-remote team members]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}).
+Learn more about how GitLab [onboards its all-remote team members](learning-and-development/#how-do-you-onboard-new-team-members).
 
 ### Challenge: Loneliness
 
@@ -39,8 +39,8 @@ The first month in a remote role can feel [lonely](https://about.gitlab.com/blog
 
 **Solutions**
 
-- To prevent loneliness, all-remote companies should consider an [intentional structure to informal communications]({{< ref "./informal-communication" >}}).
-- Scheduling [coffee chats]({{< ref "./informal-communication#coffee-chats" >}}), [social calls]({{< ref "./informal-communication#social-calls" >}}), and [incentivizing in-person visits]({{< ref "incentives#visiting-grant" >}}) between team members are several of the ways in which GitLab accomplishes this.
+- To prevent loneliness, all-remote companies should consider an [intentional structure to informal communications](informal-communication/).
+- Scheduling [coffee chats](informal-communication/#coffee-chats), [social calls](informal-communication/#social-calls), and [incentivizing in-person visits]({{< ref "incentives#visiting-grant" >}}) between team members are several of the ways in which GitLab accomplishes this.
 
 ### Challenge: Communication breakdown
 
@@ -49,7 +49,7 @@ Remote settings can cause a breakdown in communication skills if organizations a
 **Solutions**
 
 - All-remote companies should default to asynchronous communication to combat feelings of being left out of important discussions.
-- We welcome all-remote companies to glean from [GitLab's approach to meetings]({{< ref "./meetings" >}}), as well as our [scheduled AMAs, group conversations, and Key Reviews]({{< ref "./learning-and-development#ask-me-anything-ama-group-conversations-and-key-meetings" >}}) that are open to all.
+- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) that are open to all.
 
 ### Challenge: Work/life balance
 
@@ -66,8 +66,8 @@ Team members in different time zones may have to compromise on meeting times.
 
 **Solutions**
 
-- All-remote companies should consider [meetings]({{< ref "./meetings" >}}) as a last resort, instead relying on asynchronous collaboration tools like Google Docs and [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) to facilitate meaningful dialog without time zone concerns.
-- To prevent [pent-up frustration]({{< ref "values#five-dysfunctions" >}}) over working odd hours to facilitate a global call, all-remote companies should consider treating each team member as a [manager of one]({{< ref "values#managers-of-one" >}}). This goes beyond the basic definition of flexibility by empowering team members to structure each day according to the needs at hand. For example, spending more time with family earlier in the day to compensate for a late-night work call.
+- All-remote companies should consider [meetings](meetings/) as a last resort, instead relying on asynchronous collaboration tools like Google Docs and [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) to facilitate meaningful dialog without time zone concerns.
+- To prevent [pent-up frustration](/handbook/values/#five-dysfunctions) over working odd hours to facilitate a global call, all-remote companies should consider treating each team member as a [manager of one](/handbook/values/#managers-of-one). This goes beyond the basic definition of flexibility by empowering team members to structure each day according to the needs at hand. For example, spending more time with family earlier in the day to compensate for a late-night work call.
 
 ### Challenge: Separating work from personal life
 
@@ -75,13 +75,13 @@ It can be hard to separate your personal and work life. It's important to encour
 
 **Solutions**
 
-- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}), to regular [1:1s]({{< ref "1-1" >}}).
-- All-remote companies should consider implementing a [Results value](/handbook/values/#results), where [results (as opposed to hours) are measured]({{< ref "values#measure-results-not-hours" >}}). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
+- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s]({{< ref "1-1" >}}).
+- All-remote companies should consider implementing a [Results value](/handbook/values/#results), where [results (as opposed to hours) are measured](/handbook/values/#measure-results-not-hours). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
 - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout]({{< ref "paid-time-off#recognizing-burnout" >}}), and to be mindful of the last time a team member [took time off from work]({{< ref "paid-time-off#paid-time-off" >}}).
 
 ### Challenge: Time management
 
-Remote work requires you to [manage your own time]({{< ref "values#managers-of-one" >}}) and be self-motivated, disciplined, and [organized](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).
+Remote work requires you to [manage your own time](/handbook/values/#managers-of-one) and be self-motivated, disciplined, and [organized](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).
 
 **Solutions**
 
@@ -107,9 +107,9 @@ Because it's non-traditional, all-remote work sometimes [concerns](https://about
 
 - All-remote companies are welcome to glean from [GitLab's template for keeping investors in the loop](https://about.gitlab.com/blog/2018/10/17/how-we-keep-investors-in-the-loop/).
 - For those in the early stages of fundraising for an all-remote company, here are [30 tips from GitLab co-founder and CEO Sid Sijbrandij](https://about.gitlab.com/blog/2016/10/14/fundraising-tips-ceo/).
-- For even more on this topic, [listen](https://about.gitlab.com/blog/2019/08/16/all-remote-fundraising/) to Sid unpack why venture firms struggle to fund all-remote startups with [Maren Kate](https://www.linkedin.com/in/marenkate), host of the [Remote AF podcast](https://podcasts.apple.com/us/podcast/gitlab-raised-$100m-got-valued-at-over-billion-by-starting/id1467214647?i=1000444691471).
+- For even more on this topic, [listen](https://about.gitlab.com/blog/2019/08/16/all-remote-fundraising/) to Sid unpack why venture firms struggle to fund all-remote startups with [Maren Kate](https://www.linkedin.com/in/marenkate), host of the Remote AF podcast (link no longer available).
 
-> "In the beginning they assess your team, then they assess your product, and then they assess your financials. When it comes to the team, [investors are] super skeptical they will be able to create something with all-remote. Then when it’s about the product they say, ‘Yes, maybe, but what about scaling?’ And then when it’s about the financials you can let the numbers speak for themselves so it’s less of a concern. — *GitLab co-founder and CEO Sid Sijbrandij*
+> "In the beginning they assess your team, then they assess your product, and then they assess your financials. When it comes to the team, [investors are] super skeptical they will be able to create something with all-remote. Then when it's about the product they say, 'Yes, maybe, but what about scaling?' And then when it's about the financials you can let the numbers speak for themselves so it's less of a concern. — *GitLab co-founder and CEO Sid Sijbrandij*
 
 ### Challenge: Compliance
 
@@ -117,16 +117,16 @@ Differences in currency as well as tax, immigration, and labor laws around the w
 
 **Solution**
 
-- While each organization is unique, we welcome other all-remote companies to learn from GitLab's [ever-evolving approach to hiring and remaining compliant across the globe]({{< ref "./hiring" >}}).
+- While each organization is unique, we welcome other all-remote companies to learn from GitLab's [ever-evolving approach to hiring and remaining compliant across the globe](hiring/).
 
 ### Challenge: Company culture
 
-You have to be more intentional about [cultivating](https://about.gitlab.com/blog/2019/06/04/contribute-wrap-up/), [sustaining]({{< ref "./learning-and-development#ask-me-anything-ama-group-conversations-and-key-meetings" >}}), and [documenting]({{< ref "./learning-and-development#the-importance-of-documenting-everything" >}}) your company culture.
+You have to be more intentional about [cultivating](https://about.gitlab.com/blog/2019/06/04/contribute-wrap-up/), [sustaining](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings), and [documenting](learning-and-development/#the-importance-of-documenting-everything) your company culture.
 
 **Solutions**
 
 - While this is an obstacle for all-remote companies, colocated organizations should be deliberate about documenting their culture as well.
-- All-remote organizations should document everything, including [values]({{< ref "values" >}}), and ensure that they are easily accessible to all.
+- All-remote organizations should document everything, including [values](/handbook/values/), and ensure that they are easily accessible to all.
 - GitLab demonstrates this with its [Handbook](/handbook), a living document that is [continually iterated on]({{< ref "about#count-handbook-pages" >}}) by team members. We encourage all-remote organizations to glean from this and develop their own handbook.
 
 ## Remote work challenges and solutions for teams
@@ -139,8 +139,8 @@ A remote role can feel [lonely](https://about.gitlab.com/blog/2018/04/27/remote-
 
 **Solutions**
 
-- Build an [intentional structure for informal communication]({{< ref "./informal-communication" >}}) to help combat loneliness.
-- Schedule regular [coffee chats]({{< ref "./informal-communication#coffee-chats" >}}), [social calls]({{< ref "./informal-communication#social-calls" >}}), and [incentivize in-person visits]({{< ref "incentives#visiting-grant" >}}) between team members to encourage team building and prevent isolation.
+- Build an [intentional structure for informal communication](informal-communication/) to help combat loneliness.
+- Schedule regular [coffee chats](informal-communication/#coffee-chats), [social calls](informal-communication/#social-calls), and [incentivize in-person visits]({{< ref "incentives#visiting-grant" >}}) between team members to encourage team building and prevent isolation.
 
 ### Challenge: Communication
 
@@ -149,7 +149,7 @@ If teams aren't intentional about creating ways for their people to stay connect
 **Solutions**
 
 - Asynchronous communication invites everyone to be a part of important discussions.
-- We welcome all-remote companies to glean from [GitLab's approach to meetings]({{< ref "./meetings" >}}), as well as our [scheduled AMAs, group conversations, and Key Reviews]({{< ref "./learning-and-development#ask-me-anything-ama-group-conversations-and-key-meetings" >}}) that are open to all.
+- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) that are open to all.
 
 ### Challenge: Boundaries
 
@@ -157,18 +157,18 @@ It's not easy to separate work and personal life when working remote. It's impor
 
 **Solutions**
 
-- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}), to regular [1:1s]({{< ref "1-1" >}}).
-- Focus on [results (as opposed to hours worked)]({{< ref "values#measure-results-not-hours" >}}).
+- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s]({{< ref "1-1" >}}).
+- Focus on [results (as opposed to hours worked)](/handbook/values/#measure-results-not-hours).
 - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout]({{< ref "paid-time-off#recognizing-burnout" >}}), and to be mindful of the last time a team member [took time off from work]({{< ref "paid-time-off#paid-time-off" >}}).
-- Remote work requires you to [manage your own time]({{< ref "values#managers-of-one" >}}) and be self-motivated, disciplined, and [organized](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).
+- Remote work requires you to [manage your own time](/handbook/values/#managers-of-one) and be self-motivated, disciplined, and [organized](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).
 
 ## Is working remotely effective?
 
 An all-remote job will best suit [self-motivated people](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/). Some of the top optimizers of remote work are:
 
 - Reduced [interruption stress](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done/) and increased [productivity](https://www.inc.com/brian-de-haaff/3-ways-remote-workers-outperform-office-workers.html).
-- Remote makes it [easier to communicate]({{< ref "./informal-communication" >}}) with difficult colleagues remotely, [reducing distractions](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/) from interpersonal drama or office politics.
-- Flexibility to [choose your working hours]({{< ref "./people#worklife-harmony" >}}) based on when you're [most productive]({{< ref "asynchronous" >}}).
+- Remote makes it [easier to communicate](informal-communication/) with difficult colleagues remotely, [reducing distractions](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/) from interpersonal drama or office politics.
+- Flexibility to [choose your working hours](people/#worklife-harmony) based on when you're [most productive]({{< ref "asynchronous" >}}).
 
 ## Tips for independent remote working
 

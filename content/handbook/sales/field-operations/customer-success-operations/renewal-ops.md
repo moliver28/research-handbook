@@ -1,5 +1,4 @@
 ---
-
 title: "Renewals Operations Team"
 description: "The Renewals Operations Team handbook page covers our mission, strategies, responsibilities, and processes."
 ---
@@ -47,7 +46,7 @@ Head over to [#renewal-ops](https://join.slack.com/share/enQtNDQwMzIxMzIzNzQ2Mi1
 
 Renewal Operations supports the Renewals, Success and Sales Teams: Directors & Area Sales Managers, Renewals Managers, Account Executives, Strategic Account Executives and collaborates with Customer Success Operations, Sales Operations and Sales Strategy.
 
-[**Renewals Team**](/handbook/customer-success/renewals-managers/home/) is Renewal Operations’ direct focus, our primary customers are Renewals leaders; the insights, strategies, and actionable campaigns are built to assist the Renewal Managers and Account Executives with the renewal process.  Renewals Operations provides intelligent insights for the large amount of upcoming renewals managed by Account Teams to allow a more focused approach.
+[**Renewals Team**](/handbook/customer-success/renewals-managers/home/) is Renewal Operations' direct focus, our primary customers are Renewals leaders; the insights, strategies, and actionable campaigns are built to assist the Renewal Managers and Account Executives with the renewal process.  Renewals Operations provides intelligent insights for the large amount of upcoming renewals managed by Account Teams to allow a more focused approach.
 
 **Customer Success Operations** helps organize and collect pertinent product usage, and  customer health data that the Renewal Operations Team uses to identify insights and engagement strategies. For example, creating automated one-to-many campaigns in Gainsight to support product adoption.
 

@@ -42,7 +42,24 @@ If you're a GitLab team member looking for help with a security problem, please 
 
 ### Infrastructure Engineer On-Call
 
-The Infrastructure department's Reliability Engineering teams provide 24x7 on-call coverage for the production environment. For details, please see [incident-management](/handbook/engineering/infrastructure/incident-management/).
+The Infrastructure department's SREs provide 24x7 on-call coverage for the production environment. For details, please see [incident-management](/handbook/engineering/infrastructure/incident-management/).
+
+In addition to incident management responsibilities, the EOC also is responsible for time sensitive interrupt work required to support the production environment that is not owned by another team. This includes:
+
+1. Fulfilling Security Incident Response Team (SIRT) requests
+1. Fulfilling Legal Preservation requests
+1. Reviewing and handling certain change requests (CRs). This includes:
+    1. Reviewing CRs to ensure they do not conflict with any ongoing incidents or investigations
+    1. Executing the CR directly if the author does no thave the required permissions to make the change themselves (such as admin-level changes)
+    1. Support during C1 CRs, such as database upgrades, that may occur on weekends
+1. Handling urgent teleport access requests
+1. Approving an exception for running ChatOps commands when they fail their safety checks
+1. Investigating and fixing buggy/flapping alerts
+1. Removing alerts that are no longer relevant
+1. Collecting production information when requested
+1. Responding to `@sre-oncall` Slack mentions
+1. Assisting Release Managers with deployment problems
+1. Being the DRI for incident reviews
 
 ### Engineering Incident Manager
 
@@ -59,6 +76,14 @@ The Infrastructure department's Reliability Engineering teams provide 24x7 on-ca
 - Engineering managers do monthly shifts as scheduling coordinators.
 - Check out [process description and on-call workflow](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) when escalating GitLab.com operational issue(s).
 - Check out more detail for [general information](/handbook/engineering/development/processes/Infra-Dev-Escalation/) of the escalation process.
+
+### Gitaly Engineer On-Call
+
+**This is currently not active; tentative start date is 2025-01-01.**
+
+- Gitaly team provides an expert oncall rotation via PagerDuty, currently in [pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4).
+- SLO is 15 minutes, during working hours only (which still tends to cover 24h of workdays, given team member distribution).
+- For more details, see the [team page](/handbook/engineering/infrastructure/core-platform/systems/gitaly/#gitaly-oncall-rotation)
 
 ## Security Team On-Call Rotation
 
@@ -81,11 +106,11 @@ The Infrastructure department's Reliability Engineering teams provide 24x7 on-ca
 
 ## Test Platform Team On-Call Rotation
 
-- Test Platform sub-department's on-call do not include work outside GitLab's normal business hours. The process is defined on our [pipeline on-call rotation](https://about.gitlab.com/engineering/infrastructure/test-platform/oncall-rotation) page.
+- Test Platform sub-department's on-call do not include work outside GitLab's normal business hours. The process is defined on our [pipeline on-call rotation](/handbook/engineering/infrastructure/test-platform/oncall-rotation) page.
 - The rotation is on a weekly basis across 3 timezones (APAC, EMEA, AMER) and triage activities happen during each team member's working hours.
 - This on-call rotation is to ensure accurate and stable test pipeline results that directly affects our continuous release process.
-- The list of pipelines which are monitored are defined on our [pipeline](https://about.gitlab.com/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) page.
-- The schedule and roster is defined on our [schedule](https://about.gitlab.com/engineering/infrastructure/test-platform/oncall-rotation/#schedule) page.
+- The list of pipelines which are monitored are defined on our [pipeline](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) page.
+- The schedule and roster is defined on our [schedule](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) page.
 
 ## PagerDuty
 

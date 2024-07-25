@@ -1,17 +1,10 @@
 ---
-
 title: Account Planning
 description: >-
   Account planning helps all AE's and the larger account team elevate
   opportunity-driven conversations into value-based conversations that focus on
   the customer's value drivers.
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -114,7 +107,7 @@ With this understanding, you can begin to formulate a strategy for where and how
 
 Be sure to communicate and socialize the action plan with your account team to ensure alignment and understanding. Schedule periodic check-ins to drive accountability in execution.
 
-Lastly, one of the fundamental benefits of an account plan is to figure out what you don’t know and what you need to learn, so iterating frequently on the plan will help identify and address gaps. This will put you in a much better position to make decisions and take actions which will lead to success.
+Lastly, one of the fundamental benefits of an account plan is to figure out what you don't know and what you need to learn, so iterating frequently on the plan will help identify and address gaps. This will put you in a much better position to make decisions and take actions which will lead to success.
 
 ## Building the Account Plan
 
@@ -132,26 +125,26 @@ Collaborate with your account team to conduct this analysis. Discuss the implica
 
 ### Step 4: Define Strategic Objectives
 
-Based on the information gathered, work with your account team to define a short and a long term ‘vision’ for the account. Even better, do this with your customer (or share your plan and solicit feedback). A good place to start is with a 6 month plan. You can start by asking the customer: “Where do you want to be in the next year as it pertains to your DevSecOps maturity and implementation?” Take that answer and continue to ask the question in different ways to drive to clarity with the customer. Sometimes we might have to push the customer to think about things is a fresh way. Based on this, identify and prioritize 2-3 objectives that will improve your position in and/or understanding of the account and/or that support the customer's strategic business initiatives.
+Based on the information gathered, work with your account team to define a short and a long term 'vision' for the account. Even better, do this with your customer (or share your plan and solicit feedback). A good place to start is with a 6 month plan. You can start by asking the customer: "Where do you want to be in the next year as it pertains to your DevSecOps maturity and implementation?" Take that answer and continue to ask the question in different ways to drive to clarity with the customer. Sometimes we might have to push the customer to think about things is a fresh way. Based on this, identify and prioritize 2-3 objectives that will improve your position in and/or understanding of the account and/or that support the customer's strategic business initiatives.
 
 #### Samples
 
 The one year vision:
-**The Customer says...“In the next year, the business will be …”**
+**The Customer says..."In the next year, the business will be …"**
 
-- “To get there, the business will need to…”
-- “Software development will play the role of…”
-- “Our software teams will need to be able to…”
-- “Our use of GitLab to support this will be…”
-- “To get to that stage with GitLab, we will need to do…”
-- “How we do that, is something … will need to own on our side”
+- "To get there, the business will need to…"
+- "Software development will play the role of…"
+- "Our software teams will need to be able to…"
+- "Our use of GitLab to support this will be…"
+- "To get to that stage with GitLab, we will need to do…"
+- "How we do that, is something … will need to own on our side"
 
 Build out a plan of required capabilities, prioritize them, and then order them.
 Some examples:
 
 - In the next year, the business will be operating in 6 new countries, with 2 new product lines.
 - To get there the business will need to hire new talent, we will need to build the products, we will need to open 6 new regional entities. We will also need to ensure that we are not over-extending the core profit making part of the business.
-- Software development’s role will be: 1) the products will be either fully or partially digital; 2) to launch the new product lines, in the new markets we wish to enter, will require new technical expertise in… AI/robotics/VR etc; 3) dev will need to ensure that the core cash-cow products at least keep their current margins while reducing cost.
+- Software development's role will be: 1) the products will be either fully or partially digital; 2) to launch the new product lines, in the new markets we wish to enter, will require new technical expertise in… AI/robotics/VR etc; 3) dev will need to ensure that the core cash-cow products at least keep their current margins while reducing cost.
 
 ### Step 5: Document and Begin Executing the Action Plan
 
@@ -172,7 +165,7 @@ A quarterly cadence to review and update plans can help to ensure that plans ref
 ### Additional Considerations
 
 - Account plans should be thoughtful, collaborative, and cross-functional with contributions and input from the entire account team including Solutions Architects, Customer Success Managers, Sales Leadership, Renewal Mangagers, Partners, and more
-- Account plans are living documents, and a customer’s business and strategies are always subject to change; share the account plan with the account team regularly to maintain a fresh understanding of the customer's needs and to keep everyone informed and aligned
+- Account plans are living documents, and a customer's business and strategies are always subject to change; share the account plan with the account team regularly to maintain a fresh understanding of the customer's needs and to keep everyone informed and aligned
 - Account reps should use QBRs and/or other recurring meetings such as AE-SA-RM-CSM calls to review progress, update objectives and/or action plans, and align on next steps
 - If you would like to work with your customer to build an account plan, there is a [GoogleSlide Template](https://docs.google.com/spreadsheets/d/1Rqpy6qz9f90GBw4XNn5RyJIZU0ShboraF7LR9gHmQw0/edit?usp=sharing) you can print out and bring to the customer meeting to work on together.
 - Review the below ten reasons why strategic plans fail according to [this Forbes article](https://www.forbes.com/sites/aileron/2011/11/30/10-reasons-why-strategic-plans-fail/) and take proactive steps to avoid these pitfalls

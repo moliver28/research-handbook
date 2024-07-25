@@ -1,5 +1,4 @@
 ---
-
 title: Automated Software Delivery POV Scope and Acceptance
 description: Automated Software Delivery POV Scope and Acceptance
 ---

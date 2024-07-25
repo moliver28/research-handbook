@@ -1,5 +1,4 @@
 ---
-
 title: Customer Console
 category: CustomersDot
 description: Using the customer console for internal requests is only for special cases where the existing tools won't allow us to complete the task at hand.

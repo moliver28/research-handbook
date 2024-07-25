@@ -1,7 +1,7 @@
 ---
 aliases: /handbook/customer-success/professional-services-engineering/SKUs
 title: "PS Standard SKUs"
-description: “Discover GitLab’s Professional Services Standard SKUs”
+description: "Discover GitLab's Professional Services Standard SKUs"
 ---
 
 Some Professional Services Offerings, such as non-customized Education Services courses, Rapid Results implementations, and other out-of-the-box implementation packages can be sold as a standard SKU. Professional Services SKUs can be easily added to an order within Zuora and do not require creation of a custom SOW.

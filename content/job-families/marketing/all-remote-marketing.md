@@ -1,19 +1,19 @@
 ---
 title: "All-Remote Marketing"
-summary: The All-Remote Marketing team holds a unique position on the corporate marketing team to develop and tell the story of GitLab’s remote culture.
+summary: The All-Remote Marketing team holds a unique position on the corporate marketing team to develop and tell the story of GitLab's remote culture.
 ---
 
-The All-Remote Marketing team holds a unique position on the corporate marketing team to develop and tell the story of GitLab’s remote culture. As a pioneer of remote work, this team will tell the story of GitLab’s global remote employees, remote work processes, transparent culture and the movement to remote work that GitLab has created.
+The All-Remote Marketing team holds a unique position on the corporate marketing team to develop and tell the story of GitLab's remote culture. As a pioneer of remote work, this team will tell the story of GitLab's global remote employees, remote work processes, transparent culture and the movement to remote work that GitLab has created.
 
 ## Responsibilities
 
-- Own the story around GitLab’s remote culture and transparent work philosophy that is changing the future of how people work.
-- Create and execute a content strategy and awareness platform to tell GitLab’s story about remote work and transparent culture.
-- Use such tactics as online publishing, social, events, public relations, and partnerships to demonstrate GitLab’s influence on the future of work movement.
+- Own the story around GitLab's remote culture and transparent work philosophy that is changing the future of how people work.
+- Create and execute a content strategy and awareness platform to tell GitLab's story about remote work and transparent culture.
+- Use such tactics as online publishing, social, events, public relations, and partnerships to demonstrate GitLab's influence on the future of work movement.
 - Work with employees around the globe to highlight remote culture stories.
-- Collaborate personally with the CEO to document GitLab’s remote and transparent culture philosophies.
-- Follow the movement to remote work with a journalist’s eye, and cover as appropriate.
-- Plug in to bigger opportunities to drive awareness around GitLab’s remote work culture.
+- Collaborate personally with the CEO to document GitLab's remote and transparent culture philosophies.
+- Follow the movement to remote work with a journalist's eye, and cover as appropriate.
+- Plug in to bigger opportunities to drive awareness around GitLab's remote work culture.
 - Employ an ethnographic storytelling approach to document and share authentic, credible stories from the movement offering insights that can be applied to solve problems throughout the organization and also adopted by others outside of GitLab.
 - Work cross-functionally to develop and share key insights that can be applied across teams and programs: HR (Culture & Recruiting), Product Management and Design (Ethnographic research), Community, Internal Communications, etc.
 
@@ -65,10 +65,10 @@ The All-Remote Evangelist is a [grade 6](/handbook/total-rewards/compensation/co
 
 #### All-Remote Evangelist Responsibilities
 
-- Serve as a spokesperson for GitLab’s all-remote culture.
+- Serve as a spokesperson for GitLab's all-remote culture.
 - Create new all-remote guides in the GitLab handbook.
 - Activate the GitLab team in sharing all-remote content with their networks, increasing our reach to media, academia, analysts, etc.
-- Collaborate with GitLab’s PR agency partners to facilitate and secure media coverage for GitLab’s all-remote culture.
+- Collaborate with GitLab's PR agency partners to facilitate and secure media coverage for GitLab's all-remote culture.
 - Compile quarterly metrics reports to measure our all-remote successes in relation to awareness, newsletter sign-ups, and impact.
 - Manage projects from start to finish.
 

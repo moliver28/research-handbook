@@ -25,10 +25,10 @@ The Reference Program Manager is a [grade 6](/handbook/total-rewards/compensatio
 ### Responsibilities
 
 - Help manage the GitLab worldwide customer reference program, working cross-functionally between sales, customer success, product, and marketing teams to identify, develop, and engage reference customers.
-- Create, grow, and manage a healthy community of reference customers in a way that respects our customer’s time and effort while maximizing the positive impact of their engagement to them, their organization, and GitLab.
-- Create and help create content of various types (written case studies, customer testimonial videos, presentation slides, etc.) based on our customer’s experiences and successes.
+- Create, grow, and manage a healthy community of reference customers in a way that respects our customer's time and effort while maximizing the positive impact of their engagement to them, their organization, and GitLab.
+- Create and help create content of various types (written case studies, customer testimonial videos, presentation slides, etc.) based on our customer's experiences and successes.
 - Serve as a Program Manager for GitLab Customer Advisory Boards (CABs) and similar programs, including but not limited to: developing and managing engaged board membership, planning and facilitating CAB meetings, and reporting on their effectiveness.
-- Activate (ensuring utilization of) reference customer relationships, related content, and interactions to positively impact: sales and marketing activity, product development, the customer’s career, and their organization.
+- Activate (ensuring utilization of) reference customer relationships, related content, and interactions to positively impact: sales and marketing activity, product development, the customer's career, and their organization.
 - Manage high-touch customer reference relationships.
 - Create and maintain in-depth customer profiles and contacts.
 - Stimulate, nurture, and curate review activity on peer review sites and communities like G2, IT Central Station, and Gartner Peer Insights.

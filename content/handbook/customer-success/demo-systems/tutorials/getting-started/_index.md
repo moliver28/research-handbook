@@ -1,14 +1,7 @@
 ---
-
 title: "Getting Started Tutorials"
 description: "The GitLab Demo Systems getting started tutorials provide step-by-step instructions for accessing and using our infrastructure and related business processes."
 ---
-
-
-
-
-
-
 
 ### [Configuring GitLab with group-level Kubernetes cluster](/handbook/customer-success/demo-systems/tutorials/getting-started/configuring-group-cluster)
 

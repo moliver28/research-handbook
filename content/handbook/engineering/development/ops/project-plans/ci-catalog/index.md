@@ -1,5 +1,4 @@
 ---
-
 title: "CI Catalog"
 description: "CI Catalog - Weekly Project Plan - Pipeline Authoring Group"
 ---
@@ -8,44 +7,58 @@ description: "CI Catalog - Weekly Project Plan - Pipeline Authoring Group"
 The following page may contain information related to upcoming products, features and functionality. It is important to note that the information presented is for informational purposes only, so please do not rely on the information for purchasing or planning purposes. Just like with all projects, the items mentioned on the page are subject to change or delay, and the development, release, and timing of any products, features or functionality remain at the sole discretion of GitLab Inc.
 {{% /alert %}}
 
-### Milestone 17.2 (June 15, 2024 - July 12, 2024)
-
-#### Goals
-
-- Index/Details page enhancements
-  - Add illustration in the search result page - [#466412](https://gitlab.com/gitlab-org/gitlab/-/issues/466412)
-  - Add `type` and `description` to InputType for Components tab - [#466669](https://gitlab.com/gitlab-org/gitlab/-/issues/466669)
-- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788) - span multiple milestones
-  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783)
-- Admin [capabilities](https://gitlab.com/groups/gitlab-org/-/epics/12713) in CI/CD Catalog - span multiple milestones
-  - Add ci_component_source_policy JSON schema - [#465264](https://gitlab.com/gitlab-org/gitlab/-/issues/465264)
-- Inputs enhancements
-  - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275)
-  - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375)
+[CI Catalog has been released to General Availability in 17.0.](https://about.gitlab.com/releases/2024/05/16/gitlab-17-0-released/#cicd-catalog-with-components-and-inputs-now-generally-available)
 
 ### Milestone 17.3 (July 13, 2024 - August 9, 2024)
 
 #### Goals
 
-- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788) - span multiple milestones
-- Admin [capabilities](https://gitlab.com/groups/gitlab-org/-/epics/12713) in CI/CD Catalog - span multiple milestones
-- Analytics dashboards/Design Sprint [outcomes](https://gitlab.com/groups/gitlab-org/-/epics/12221) - span multiple milestones
+- Allow administrator to [restrict users](https://gitlab.com/groups/gitlab-org/-/epics/14060) from publishing to CI/CD Catalog
+  - Update the pipeline chain to check the policy before publishing the component - [#465271](https://gitlab.com/gitlab-org/gitlab/-/issues/465271) (in-dev)
+  - Add GraphQL mutations and types to policy [#465265](https://gitlab.com/gitlab-org/gitlab/-/issues/465265) (in-review)
+- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
+  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-dev)
 - Inputs enhancements
-  - POC to demo possibility to use JSON schema to valid entire CI config - [#467380](https://gitlab.com/gitlab-org/gitlab/-/issues/467380)
+  - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275) (in-dev)
+  - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375) (in-dev)
 
 ### Milestone 17.4 (August 9, 2024 - September 13, 2024)
 
 #### Goals
 
-- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788) - span multiple milestones
-- Admin [capabilities](https://gitlab.com/groups/gitlab-org/-/epics/12713) in CI/CD Catalog - span multiple milestones
-- Analytics dashboards/Design Sprint [outcomes](https://gitlab.com/groups/gitlab-org/-/epics/12221) - span multiple milestones
+- Continue with Admin [capabilities](https://gitlab.com/groups/gitlab-org/-/epics/12713) in CI/CD Catalog - span multiple milestones
+  - Ensuring component security in pipelines - [#467927](https://gitlab.com/gitlab-org/gitlab/-/issues/467927)
+- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
+  - `release-cli` to extract and validate metadata - [#442785](https://gitlab.com/gitlab-org/gitlab/-/issues/442785)
+- Index/Details page enhancements
+  - Add illustration in the search result page - [#466412](https://gitlab.com/gitlab-org/gitlab/-/issues/466412)
+- Frontend UX improvements
+  - Add `version` dropdown in details page - [#419114](https://gitlab.com/gitlab-org/gitlab/-/issues/419114)
+  - Add the `by publishing date` option to the sort dropdown in /explore - [#440508](https://gitlab.com/gitlab-org/gitlab/-/issues/440508)
+  - Add improved visualization when the project description is long - [#448385](https://gitlab.com/gitlab-org/gitlab/-/issues/448385)
 
 ### Archive
 
 <details markdown="1">
 
 <summary markdown="span">Past Milestones</summary>
+
+### June to July (Milestone 17.2)
+
+### Milestone 17.2 (June 15, 2024 - July 12, 2024)
+
+#### Goals
+
+- Index/Details page enhancements
+  - Add illustration in the search result page - [#466412](https://gitlab.com/gitlab-org/gitlab/-/issues/466412) (Deferred to `candidate::17.4`)
+  - Add `type` and `description` to InputType for Components tab - [#466669](https://gitlab.com/gitlab-org/gitlab/-/issues/466669) (Complete)
+- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788) - span multiple milestones
+  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (Continuing into `17.3`)
+- Admin [capabilities](https://gitlab.com/groups/gitlab-org/-/epics/12713) in CI/CD Catalog - span multiple milestones
+  - Add ci_component_source_policy JSON schema - [#465264](https://gitlab.com/gitlab-org/gitlab/-/issues/465264) (Complete)
+- Inputs enhancements
+  - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275) (To start in `17.3`)
+  - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375) (Continuing into `17.3`)
 
 ### May to June (Milestone 17.1)
 

@@ -1,9 +1,8 @@
 ---
-
 title: "GitLab Dedicated Architecture"
 ---
 
-![GitLab Dedicated Group logo](./img/dedicated_team_logo.png)
+![GitLab Dedicated Group logo](img/dedicated_team_logo.png)
 
 ## Architecture
 
@@ -11,11 +10,11 @@ This page collects a set of architectural documents and diagrams for GitLab Dedi
 
 ## High level overview
 
-![High level overview diagram for GitLab Dedicated](./img/high-level-diagram.png)
+![High level overview diagram for GitLab Dedicated](img/high-level-diagram.png)
 
 ## Tenant network
 
-![Tenant network diagram for GitLab Dedicated](./img/tenant-network-diagram.png)
+![Tenant network diagram for GitLab Dedicated](img/tenant-network-diagram.png)
 
 ### Gitaly Setup
 
@@ -32,13 +31,13 @@ Note: GitLab Geo is not an "active/active" system. To learn more about how GitLa
 
 ### AWS PrivateLink connection
 
-![AWS PrivateLink diagram for GitLab Dedicated](./img/privatelink-diagram.png)
+![AWS PrivateLink diagram for GitLab Dedicated](img/privatelink-diagram.png)
 
 ## Hosted Runners for GitLab Dedicated
 
 ### Architecture diagram
 
-![Hosted Runners architecture diagram for GitLab Dedicated](./img/hosted-runners-architecture.png)
+![Hosted Runners architecture diagram for GitLab Dedicated](img/hosted-runners-architecture.png)
 
 For more information on how runners are authenticating and executing the job payload, see [Runner Execution Flow](https://docs.gitlab.com/runner#runner-execution-flow).
 

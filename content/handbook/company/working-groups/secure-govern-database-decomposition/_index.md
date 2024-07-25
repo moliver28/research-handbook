@@ -56,8 +56,8 @@ Key results we'd like to achieve within the scope of the working group to ensure
 | Table Partitioning | A table that contains a part of the data of a partitioned table (horizontal slice). ([source](https://www.postgresql.org/docs/12/ddl-partitioning.html))| Partition | |
 | Dataset | A set of tables and their contained data that is contained within a logical database. | | The Secure/Govern Dataset includes all tables related to GitLab's security features, including but not limited to vulnerability and dependency tracking. |
 | Featureset | A set of features associated with some kind of concept within GitLab for ease of reference. | | Core, Secure/Govern |
-| Core | Referred to in terms of Dataset or Featureset, this is information of functionality related to standard Gitlab operations, such as Projects, Namespaces, Users and others.  | | |
-| Secure/Govern | Referred to in terms of Dataset or Featureset, this is information of functionality related to standard Gitlab operations, such as Vulnerabilities, Dependencies (SBOM), Security Findings, Policies and more. | | |
+| Core | Referred to in terms of Dataset or Featureset, this is information of functionality related to standard GitLab operations, such as Projects, Namespaces, Users and others.  | | |
+| Secure/Govern | Referred to in terms of Dataset or Featureset, this is information of functionality related to standard GitLab operations, such as Vulnerabilities, Dependencies (SBOM), Security Findings, Policies and more. | | |
 
 ### Overview
 
@@ -86,7 +86,7 @@ We have the benefit of being able to lean heavily on the prior art and experienc
 
 ### Interdependencies
 
-Secure/Govern Data has a high degree of integration with CI and standard GitLab data, such as Users, Projects and Namespaces. The past CI decomposition has succesfully delinked query interdependency of the associated CI dataset, however, significant effort will be necessary to do the same between the core Gitlab dataset and Govern/Secure functionality.
+Secure/Govern Data has a high degree of integration with CI and standard GitLab data, such as Users, Projects and Namespaces. The past CI decomposition has succesfully delinked query interdependency of the associated CI dataset, however, significant effort will be necessary to do the same between the core GitLab dataset and Govern/Secure functionality.
 
 ### Timeline
 
@@ -99,14 +99,19 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 ### Plan
 
 1. Introduce separate `gitlab_sec` schema
-1. Begin decomposition of foreign keys and cross-database transactions per table, following the loose order of sbom, security, and vulnerability tables
 1. Introduce `gitlab_sec` database connection (defaulting to fallback to using `gitlab_main` database)
+1. In parallel, begin decomposition of foreign keys and cross-database transactions following the loose order of SBOM, Security, and Vulnerability code boundaries. For each slice perform the following breakdown:
+    1. Migrate tables with low referentiality (few foreign keys)
+    1. Migrate tables with higher referentiality (many foreign keys)
+    1. Identify and [allowlist cross-joins](https://docs.gitlab.com/ee/development/database/multiple_databases.html#allowlist-for-existing-cross-database-foreign-keys) to be addressed
+    1. Identify and allowlist cross-database transactions to be addressed
+    1. Remove identified cross-joins and cross-database transactions
 1. Await results of Logical Replication Production test to determine the viability of this as a migration path.
 1. Depending on the results of the production test, formulate a path for the safe migration of the Secure/Govern dataset to a new physical database. These may take the form of the headings below.
 1. Open Change Request to migrate phased tables (step 2) using chosen approach (step 5)
 1. Update [documentation around migrating self-managed instances to multiple databases](https://docs.gitlab.com/ee/administration/postgresql/multiple_databases.html)
 
-#### Proposal A: Logical Replication
+#### Migration Proposal A: Logical Replication
 
 1. Research and test the possiblity of a staged logical replication in which we migrate small subsets of the Secure/Govern featureset at a time, such as SBOM.
     1. If a staged rollout is possible
@@ -128,7 +133,7 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
         6. If successful, globally rollout usage of the decomposed database for the full featureset.
 2. Cleanup legacy data from the GitLab core database.
 
-#### Proposal B: Physical Replication
+#### Migration Proposal B: Physical Replication
 
 1. Determine acceptability of a full downtime for GitLab, or a temporary suspension of use for the entire Secure/Govern featureset to prevent dataloss. (Alternatively, notify users that there will be dataloss related to this featureset after a certain Date and Time)
     1. Begin communicating with customers ahead of time to minimise disatisfaction as a result of this disruption.
@@ -141,7 +146,7 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
     8. Cleanup legacy Secure/Govern data from the GitLab Core database.
     9. Cleanup legacy Core data from the new Secure/Govern database.
 
-#### Proposal C: Application Replication
+#### Migration Proposal C: Application Replication
 
 1. As a staged rollout is possible, identify the highest value feature subset to decompose.
 2. Plan a decomposition strategy to separate only that feature to achieve a production benefit sooner.
@@ -153,13 +158,6 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 8. Begin testing transition of the feature to using the new database instance as it's new write primary.
 9. If successful, globally rollout usage of the decomposed database for the feature.
 10. Repeat for each sufficiently sectionable feature subset until decomposition is completed.
-
-### Work Stream(s) and DRI
-
-#### Decompose the Secure/Govern dataset from the Primary GitLab database
-
-1. Epic/Issue: https://gitlab.com/groups/gitlab-org/-/epics/13043
-1. DRI: Gregory Havenga
 
 ## Roles and Responsibilities
 
@@ -179,7 +177,19 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 | Member                               | Ved Prakash       | Staff Data Engineer, Data Science|
 | Member                               | Dylan Griffith    | Principal Engineer, Create |
 | Member                               | Thong Kuah        | Principal Engineer, Data Stores |
-| Member                               |                   ||
+| Member                               | Rick Mar          | Manager, Core Infrastructure |
+
+### Related Performance Projects
+
+1. [Tuple Reduction](https://gitlab.com/groups/gitlab-org/-/epics/13616)
+   - Brian Williams (DRI)
+   - Fabien Catteau
+   - Michael Becker
+1. [Vulnerability Management Application Limits](https://gitlab.com/groups/gitlab-org/-/epics/13571) and [Vulnerability Management Retention Policy](https://gitlab.com/groups/gitlab-org/-/epics/12229)
+   - Mehmet Emin Inaç (DRI)
+   - Joey Khabie
+1. [Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/13087)
+   - Subashis Chakraborty (DRI)
 
 ## Useful References
 

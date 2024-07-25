@@ -8,7 +8,7 @@ category: Self-managed
 
 [The GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance) (`gpt`) is built and maintained by the GitLab Quality Engineering - Enablement team to provide performance testing of any GitLab instance. The tool has itself been built upon the industry-leading open-source tool [k6](https://k6.io/) and provides numerous tests that are designed to effectively performance test GitLab.
 
-GitLab recommends running GPT against your GitLab environment to get an effective performance test. We do not recommend running on a production instance. Only run on production if it’s really required. If so, then run it at the quietest possible time. Depending on your system environment, the test may take up at least 4 hours.
+GitLab recommends running GPT against your GitLab environment to get an effective performance test. We do not recommend running on a production instance. Only run on production if it's really required. If so, then run it at the quietest possible time. Depending on your system environment, the test may take up at least 4 hours.
 
 **NOTE**: This quick start was written and adopted based on [documentation for `GPT v2` (2.10.0)](https://gitlab.com/gitlab-org/quality/performance/-/blob/2.10.0/docs/README.md). Please always check the [official GitLab Project documentation: GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance/-/blob/main/docs/README.md) for latest changes.
 

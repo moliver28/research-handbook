@@ -3,17 +3,11 @@ title: "Laura Duggan's README"
 description: "Learn more about working with Laura Duggan"
 ---
 
-
-
-
-
-
-
 ## Laura Duggan's README
 
 **Laura Duggan, Senior Frontend Engineer**
 
-This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+This page is intended to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
 Please feel free to contribute to this page by opening a merge request.
 

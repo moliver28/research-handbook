@@ -138,13 +138,13 @@ trans/non-binary identities.
 
 #### Pansexual
 
-Attracted to the person rather than their sex, gender, or gender identity. Pansexual people commonly describe their pattern of attraction as being interested in “[hearts, not parts](https://pairedlife.com/gender-sexuality/Bisexuality-vs-Pansexuality-What-is-the-Difference).”
+Attracted to the person rather than their sex, gender, or gender identity. Pansexual people commonly describe their pattern of attraction as being interested in "[hearts, not parts](https://pairedlife.com/gender-sexuality/Bisexuality-vs-Pansexuality-What-is-the-Difference)."
 
 #### Queer
 
 Often used as a term for someone who is gay, but more recently has become popular as an umbrella term for someone who identifies as anything other than straight/cisgender.
 
-Some people also choose the labels ‘queer’ or ‘fluid’ as a way of expressing themselves by their own personal feelings.
+Some people also choose the labels 'queer' or 'fluid' as a way of expressing themselves by their own personal feelings.
 
 Make sure that you use queer as an *adjective* and not as a noun. Good examples:
 
@@ -159,7 +159,7 @@ QUILTBAG is a comprehensive, newer term that stands for queer and questioning, u
 
 ## Frequently Asked Questions
 
-### What’s the difference between sex and gender?
+### What's the difference between sex and gender?
 
 Sex and gender are often seen as the same thing but in reality, [sex and gender are distinct](https://www.medicalnewstoday.com/articles/232363.php).
 
@@ -167,7 +167,7 @@ Sex can refer to a person's anatomy and physiology, which can include phenotype,
 
 Gender refers to the social norms, emotions, and behaviors that are associated with being female, male, androgynous, or others. Gender traits can vary greatly depending on the time period and cultural context. It's important to remember that gender is not an inherently natural thing, but rather a social construct that varies from society to society.
 
-### What’s the difference between being transgender and being gay?
+### What's the difference between being transgender and being gay?
 
 Transgender is a gender identity while gay is a sexual orientation. They are two different concepts. Someone can be transgender while being straight, gay, bisexual, or another sexual orientation. Similarly, someone can be gay and be cis, trans, genderqueer, or another gender identity.
 
@@ -179,7 +179,7 @@ This FAQ on [bisexual vs pansexual orientations](https://pairedlife.com/gender-s
 
 Bi- and pan- can be very similar so it is ultimately up to the individual as to which they identify as.
 
-### What’s the difference between cross-dressing and being transgender?
+### What's the difference between cross-dressing and being transgender?
 
 Cross-dressing is a specific form of gender expression that involves wearing clothing, accessories, etc. that is traditionally not associated with one's gender. Cross-dressing does not imply anything about a person's gender identity or sexual orientation.
 
@@ -193,7 +193,7 @@ Transgender people can experience a mental illness known as [gender dysphoria]({
 
 This [Vox article on transgender mental health](https://www.vox.com/identities/2016/5/13/17938120/transgender-people-mental-illness-health-care) says it well,
 
-> "The AMA, APA, and other medical experts agree that letting someone transition, which can entail medical treatments like hormone therapy and gender-affirming surgeries, without social stigma is the main treatment for gender dysphoria. In this way, being trans isn’t the medical condition; living as trans is in fact the treatment to the medical condition."
+> "The AMA, APA, and other medical experts agree that letting someone transition, which can entail medical treatments like hormone therapy and gender-affirming surgeries, without social stigma is the main treatment for gender dysphoria. In this way, being trans isn't the medical condition; living as trans is in fact the treatment to the medical condition."
 
 ### Do all people who transition have surgery?
 
@@ -201,7 +201,7 @@ No, not all transgender people desire medical transition such as hormone therapy
 
 As [HRC says well](https://www.hrc.org/resources/transgender-faq),
 
-> "Many transgender people cannot afford medical treatment nor can they access it. In light of these injustices, it is important that civil rights and protections are extended to all transgender people equally, regardless of their medical histories. It’s also critical to continue advocating for full access to health care coverage for transgender people."
+> "Many transgender people cannot afford medical treatment nor can they access it. In light of these injustices, it is important that civil rights and protections are extended to all transgender people equally, regardless of their medical histories. It's also critical to continue advocating for full access to health care coverage for transgender people."
 
 ### How do I know which pronouns to use?
 
@@ -209,7 +209,7 @@ Simple, just ask :)
 
 Asking for someone's pronouns is the same as asking for their name. In the same way that you wouldn't assume what someone's name is and start calling them by a name that wasn't theirs, you shouldn't assume someone's pronouns.
 
-In English, there are [many common pronouns](https://uwm.edu/lgbtrc/support/gender-pronouns/) such as the singular they/them and ze/hir/hirs. To learn more see this [Time article on pronouns](http://time.com/4327915/gender-neutral-pronouns/).
+In English, there are [many common pronouns](https://uwm.edu/lgbtrc/qa_faqs/what-are-some-commonly-used-pronouns/) such as the singular they/them and ze/hir/hirs. To learn more see this [Time article on pronouns](http://time.com/4327915/gender-neutral-pronouns/).
 
 For more information on pronouns, check out [Pronoun Guidance and Information]({{< ref "pronouns" >}}).
 

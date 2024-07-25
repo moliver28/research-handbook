@@ -1,13 +1,6 @@
 ---
-
 title: "Developer Relations Program Management"
 ---
-
-
-
-
-
-
 
 The Developer Relations team works from issues and [issue boards](#developer-relations-issue-boards). If you need our assistance with any project, please open an issue and use one of the [_main program labels_](#developer-relations-labels) anywhere within the GitLab repo.
 
@@ -30,7 +23,7 @@ Please use this template when creating Epics for activities that should appear i
 ```markdown
 <!--  Epic Title Formatting Guide:
 
-Dates should be using ISO dates, see https://about.gitlab.com/handbook/communication/#writing-style-guidelines
+Dates should be using ISO dates, see https://handbook.gitlab.com/handbook/communication/#writing-style-guidelines
 
 Event: Event Name, Location, Date
 Content: Title, Date

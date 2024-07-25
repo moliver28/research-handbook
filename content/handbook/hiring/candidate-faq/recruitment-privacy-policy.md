@@ -63,7 +63,7 @@ If you are located in the European Economic Area (EEA), United Kingdom, or Switz
 
 Your personal data may be processed in the United States, the country where you have applied for a job, or any other country where GitLab or its subcontractors have team members or operations.
 
-GitLab may transfer, store, or process your personal data in a country outside your jurisdiction, including countries outside the European Economic Area (“EEA”), Switzerland, and the United Kingdom. If we transfer personal data from the EEA, Switzerland, or United Kingdom to a country outside it, such as the United States, we will enter into EU standard contractual clauses with the data importer, or take other measures to provide an adequate level of data protection.
+GitLab may transfer, store, or process your personal data in a country outside your jurisdiction, including countries outside the European Economic Area ("EEA"), Switzerland, and the United Kingdom. If we transfer personal data from the EEA, Switzerland, or United Kingdom to a country outside it, such as the United States, we will enter into EU standard contractual clauses with the data importer, or take other measures to provide an adequate level of data protection.
 
 #### Security
 

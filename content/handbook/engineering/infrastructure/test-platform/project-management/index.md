@@ -1,15 +1,7 @@
 ---
-
 title: "Test Platform Project Management"
 description: "Guidelines for project management for the Test Platform Sub-Department at GitLab"
 ---
-
-
-
-
-
-
-
 
 ## Projects
 
@@ -69,7 +61,7 @@ Deprecation of a project is a significant decision and should be based on clear,
 
 - Decline in usage metrics over a sustained period.
 - Lack of relevance to current organizational goals or technology trends.
-- Existence of newer tools or platforms that effectively replace the project’s functionality.
+- Existence of newer tools or platforms that effectively replace the project's functionality.
 
 The process of deprecating a project should be methodical and transparent to all stakeholders:
 
@@ -77,7 +69,7 @@ The process of deprecating a project should be methodical and transparent to all
 - Inform all stakeholders, including project maintainers, users, and dependent teams, about the decision to deprecate.
 - For an established project, ensure all valuable data and documentation are securely [archived](https://docs.gitlab.com/ee/user/project/settings/migrate_projects.html#archive-a-project).
 - Move the archived project in the [test-platform-deprecated](https://gitlab.com/groups/gitlab-org/quality/test-platform-deprecated/-/archived) group.
-- Consider [deleting the project](https://docs.gitlab.com/ee/user/project/working_with_projects.html#delete-a-project) after a three-month window from the archival for established projects. Deletion can be performed immediately for personal and POC projects once the purpose is served.  
+- Consider [deleting the project](https://docs.gitlab.com/ee/user/project/working_with_projects.html#delete-a-project) after a three-month window from the archival for established projects. Deletion can be performed immediately for personal and POC projects once the purpose is served.
 
 ### Reviewers and maintainers
 

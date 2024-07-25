@@ -1,15 +1,7 @@
 ---
-
 title: "Sales Manager Best Practices"
 description: "Successful management includes onboarding, reviewing Command Plans, opportunity coaching, strategic coaching, career development and performance management"
 ---
-
-
-
-
-
-
-
 
 ## Onboarding New Team Members
 
@@ -22,7 +14,7 @@ description: "Successful management includes onboarding, reviewing Command Plans
 
 ## Review Account Plans
 
-- Regularly review account plans with your team. Quarterly reviews of the account plan(s) are recommended. For more information, review the [Account Planning Coaching](/handbook/sales/account-planning/coaching/) page.  
+- Regularly review account plans with your team. Quarterly reviews of the account plan(s) are recommended. For more information, review the [Account Planning Coaching](/handbook/sales/account-planning/coaching/) page.
 
 ## Review Command Plans
 
@@ -37,7 +29,7 @@ description: "Successful management includes onboarding, reviewing Command Plans
 
 - Celebrate your wins and socialize success stories to help with motivation across teams
 - Continue to leverage your fellow managers for feedback and input on what is working well
-- Lead with “Why” in team and 1:1 rep discussions (GitLab has done a good job of explaining “Why” for GitLab organizationally, but managers will want to ensure that daily interactions lead with “Why” for teams and individual reps)
+- Lead with "Why" in team and 1:1 rep discussions (GitLab has done a good job of explaining "Why" for GitLab organizationally, but managers will want to ensure that daily interactions lead with "Why" for teams and individual reps)
 - Enable partner sellers to jointly run deals leveraging Command of the Message and MEDDPPICC
 - Conduct Command of the Message and MEDDPPICC refresh sessions covering 1-2 slides/tools per week
 

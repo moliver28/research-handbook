@@ -1,11 +1,11 @@
 ---
 title: Vice President, Internal Audit
-description: Responsible for overall preparation and execution of a risk-based audit plan to assess, report on, and recommend improvements to the company’s key operational and finance activities and testing of internal controls.
+description: Responsible for overall preparation and execution of a risk-based audit plan to assess, report on, and recommend improvements to the company's key operational and finance activities and testing of internal controls.
 ---
 
-The position is additionally responsible for the Enterprise Risk Management (ERM) control environment and the initial identifying and assisting in documenting existing internal finance and disclosure controls, implementing and documenting new internal controls, and establishing an internal monitoring function to audit the company’s compliance with such internal controls.  Once documented, ownership for and changing internal control procedures will reside in the owner of the control.
+The position is additionally responsible for the Enterprise Risk Management (ERM) control environment and the initial identifying and assisting in documenting existing internal finance and disclosure controls, implementing and documenting new internal controls, and establishing an internal monitoring function to audit the company's compliance with such internal controls.  Once documented, ownership for and changing internal control procedures will reside in the owner of the control.
 
-The ongoing testing and control review, including the ERM environment will be controlled by the Internal audit group.   The position will have a key role in assessing the company’s compliance with the requirements of the Sarbanes-Oxley Act of 2002, along with the PAO organization. The position will be further called on to identify and implement finance department process improvements. Once documented, ownership for and changing internal control procedures will reside in the owner of the control.
+The ongoing testing and control review, including the ERM environment will be controlled by the Internal audit group.   The position will have a key role in assessing the company's compliance with the requirements of the Sarbanes-Oxley Act of 2002, along with the PAO organization. The position will be further called on to identify and implement finance department process improvements. Once documented, ownership for and changing internal control procedures will reside in the owner of the control.
 
 The Vice President, Internal Audit reports directly to the chairman of the audit committee with a dotted line day to day control and administrative reporting relationship with the Chief Finance Officer.
 
@@ -28,7 +28,7 @@ The Vice President, Internal Audit is a [grade #12](/handbook/total-rewards/comp
 - Prepare and update a comprehensive risk-based audit plan in coordination with the Audit Committee for evaluating and testing the effectiveness of controls in place to manage significant risk exposures, ensure the integrity and reliability of information and financial reporting, safeguard company assets, and comply with laws and regulations.
 - Identify and design anti-fraud criteria and controls.
 - Establish procedures and plan for conducting internal control audits for financial risks or operational efficiency.
-- Report findings to senior management and the company’s audit committee.
+- Report findings to senior management and the company's audit committee.
 - Understand the requirements of the Sarbanes-Oxley Act of 2002 (and any related SEC pronouncements) and assist in maintaining processes and functions to help ensure compliance with such requirements, working with the PAO organization.
 - Coordinate activities with external auditors to support their audit and review procedures.
 - Participate in disclosure committee meetings.
@@ -43,7 +43,7 @@ Other duties, as directed by the Audit Committee and/or the Chief Financial Offi
 - Ability to use GitLab
 - Previous management experience; ability to contribute to the career development of staff and a culture of teamwork and adherence to the Culture within GitLab.
 - Comprehensive knowledge of auditing practices, procedures, and principles, sufficient to interpret and analyze complex concepts and apply them in innovative ways. Skills and knowledge should include an extensive understanding of financial, operational, market and credit risk. Should have expert knowledge of generally accepted auditing standards in the US.
-- Capability and desire to evaluate the effectiveness of management in their stewardship of GitLab’s resources and their compliance with established corporate policy and procedures, including corporate governance, code of conduct standards, and business ethics and conduct policy.
+- Capability and desire to evaluate the effectiveness of management in their stewardship of GitLab's resources and their compliance with established corporate policy and procedures, including corporate governance, code of conduct standards, and business ethics and conduct policy.
 - Creative approaches and solutions necessary to solve complex problems.
 - Strong written and verbal communication skills with experience interacting with and presenting to senior management-level personnel.
 - The candidate must have excellent interpersonal skills and will serve as a member of the senior management team.

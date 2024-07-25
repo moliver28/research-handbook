@@ -1,16 +1,7 @@
 ---
-
 title: "dbt Change Workflow"
 description: "GitLab Data dbt Change Workflow"
 ---
-
-
-
-
-
-
-
-
 
 ---
 

@@ -1,10 +1,8 @@
 ---
-
 title: "Projects"
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/projects/index.html
 ---
-
 
 ## Introduction
 
@@ -18,14 +16,30 @@ All projects are organized in sub-groups on the top level. No projects are allow
 
 | Group        | DRI | Description  |
 |--------------|-----|--------------|
-| [playground](https://gitlab.com/gitlab-da/playground) | all | Test projects, simple demo cases, code snippets, etc. without support |
+| [conferences](https://gitlab.com/gitlab-da/conferences) | @fjdiaz | Group for public demos for team members at [conferences, events, meetups, etc.](/handbook/marketing/developer-relations/events/#event-booth-training)  | 
+| [playground](https://gitlab.com/gitlab-da/playground) | all | Test projects, simple demo cases, code snippets, etc. without support. Please move them into the corresponding use-cases groups when linking from a blog post. |
 | [use-cases](https://gitlab.com/gitlab-da/use-cases) | all | Use cases for specific topics for product demos, talks, thought leadership, research |
+| [projects](https://gitlab.com/gitlab-da/projects) | @abuango | Production projects maintained by the team. For blog projects and demos, use the specific `use-cases` groups. |
+| [projects/devrel-bot](https://gitlab.com/gitlab-da/projects/devrel-bot) | @abuango | Issue triage and automation workflows for Developer Advocacy and Developer Relations workflows. |
+| [projects/hide-duo-beta-trial](https://gitlab.com/gitlab-da/projects/hide-duo-beta-trial) | @abuango | Chrome extension to hide Beta/Trial widgets in the GitLab UI. |
+| [projects/discourse-assets](https://gitlab.com/gitlab-da/projects/discourse-assets) | @sugaroverflow @dnsmichi | [GitLab Discourse forum](/handbook/marketing/developer-relations/workflows-tools/forum/) assets and customizations. |
+| [tutorials](https://gitlab.com/gitlab-da/tutorials) | all | |
+| [tutorials/security-and-governance](https://gitlab.com/gitlab-da/tutorials/security-and-governance) | @fjdiaz | This group contains different projects as well as documentation around GitLab's security and governance tools. |
+| [unmaintained](https://gitlab.com/gitlab-da/unmaintained) | - | Projects, tutorials, use cases that are not maintained anymore but kept public for transparency |
+| [workshops](https://gitlab.com/gitlab-da/workshops) | all | Workshop groups and projects provided by the team |
+
+Use cases overview:
+
+| Group        | DRI | Description  |
+|--------------|-----|--------------|
 | [use-cases/ai](https://gitlab.com/gitlab-da/use-cases/ai) | all | [GitLab Duo workflows, coffee chats, learning AI, use cases](https://about.gitlab.com/gitlab-duo/) |
-| [https://gitlab.com/gitlab-da/use-cases/ai/ai-research](https://gitlab.com/gitlab-da/use-cases/ai/ai-research) | @dnsmichi | AI research with local LLMs (Ollama), RAG, AI agents, etc. |
-| [use-cases/ai/ai-workflows](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows) | @dnsmichi | [GitLab Duo](https://about.gitlab.com/gitlab-duo/) prompts and challenges with exercise source code, linked from the [documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html) |
+| [use-cases/ai/ai-applications](https://gitlab.com/gitlab-da/use-cases/ai/ai-applications) | @sugaroverflow | Example applications using GitLab Duo |
+| [use-cases/ai/ai-workflows](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows) | @dnsmichi | [GitLab Duo](https://about.gitlab.com/gitlab-duo/) [prompts](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-prompts) and [challenges](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-challenges) with exercise source code and self-learning modules, linked from the [documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html) |
+| [use-cases/ai/ai-research](https://gitlab.com/gitlab-da/use-cases/ai/ai-research) | @dnsmichi | AI research with local LLMs (`Ollama`), RAG, AI agents, etc. |
+| [use-cases/ai/ai-workshops](https://gitlab.com/gitlab-da/use-cases/ai/ai-workshops) | @dnsmichi | GitLab Duo and AI workshops and live-programming sessions with customers |
 | [use-cases/ai/gitlab-duo-coffee-chat](https://gitlab.com/gitlab-da/use-cases/ai/gitlab-duo-coffee-chat) | @dnsmichi | [GitLab Duo coffee chats](#gitlab-duo-coffee-chat) |
 | [use-cases/ai/learn-with-ai](https://gitlab.com/gitlab-da/use-cases/ai/learn-with-ai) | @dnsmichi @sugaroverflow | Learning a programming language with GitLab Duo (AI), [blog series](https://about.gitlab.com/blog/categories/ai-ml/) |
-| [use-cases/ai/learn-test-ai](https://gitlab.com/gitlab-da/use-cases/ai/test-ai) | all | Test playground for AI and GitLab Duo |
+| [use-cases/ai/test-ai](https://gitlab.com/gitlab-da/use-cases/ai/test-ai) | all | Test playground for AI and GitLab Duo |
 | [use-cases/cicd-components-catalog](https://gitlab.com/gitlab-da/use-cases/cicd-components-catalog) |  @iganbaruch | GitLab CI/CD Components Catalog use cases |
 | [use-cases/code-experiments](https://gitlab.com/gitlab-da/use-cases/code-experiments) |  @warias @csaavedra1  | Code experiments with automation and quality assessments |
 | [use-cases/coverage-reports](https://gitlab.com/gitlab-da/use-cases/coverage-reports) | all | Code coverage reports examples |
@@ -33,13 +47,8 @@ All projects are organized in sub-groups on the top level. No projects are allow
 | [use-cases/efficiency](https://gitlab.com/gitlab-da/use-cases/efficiency) | @dnsmichi | Efficiency use cases (CI/CD, container images, workflows, CLI, etc.) |
 | [use-cases/gitlab-api](https://gitlab.com/gitlab-da/use-cases/gitlab-api) | @dnsmichi | GitLab API use cases with libraries and scripts |
 | [use-cases/observability](https://gitlab.com/gitlab-da/use-cases/observability) | @dnsmichi | Observability uses cases and research (OpenTelemetry, eBPF, etc.) |
-| [use-cases/remote-development](https://gitlab.com/gitlab-da/use-cases/remote-development) | @dnsmichi @iganbaruch | Remote development environments and Web IDE use cases |
+| [use-cases/remote-development](https://gitlab.com/gitlab-da/use-cases/remote-development) | @dnsmichi @iganbaruch | Workspaces environments and Web IDE use cases |
 | [use-cases/scientific-research](https://gitlab.com/gitlab-da/use-cases/scientific-research) | @abuango | Scientific research projects and integrations |
-| [workshops](https://gitlab.com/gitlab-da/workshops) | all | Workshop groups and projects provided by the team |
-| [projects](https://gitlab.com/gitlab-da/projects) | @abuango | Production projects maintained by the team. For blog projects and demos, use the specific `use-cases` groups. |
-| [tutorials](https://gitlab.com/gitlab-da/tutorials) | all | |
-| [tutorials/security-and-governance](https://gitlab.com/gitlab-da/tutorials/security-and-governance) | @fjdiaz | This group contains different projects as well as documentation around GitLab's security and governance tools. |
-| [unmaintained](https://gitlab.com/gitlab-da/unmaintained) | - | Projects, tutorials, use cases that are not maintained anymore but kept public for transparency |
 
 ### Access
 
@@ -117,7 +126,9 @@ flowchart TD;
   C --> |No| B
 ```
 
-### Remote Development Workspaces
+### Workspaces
+
+> Status: Inactive. Kubernetes cluster needs to be re-created.
 
 The [remote-development sub group](https://gitlab.com/gitlab-da/use-cases/remote-development) has an agent for Kubernetes installed, which is documented in the [agent-kubernetes-gke](https://gitlab.com/gitlab-da/use-cases/remote-development/agent-kubernetes-gke) project. This includes troubleshooting when the agent becomes unresponsive, and workspaces are not created.
 
@@ -137,15 +148,53 @@ Assigned resources:
 
 Live learning session with AI-powered workflows throughout the DevSecOps lifecycle, with the help of GitLab Duo. We discuss, explore, research, learn, debug, create product feedback and feature ideas, and discover new features and workflows.
 
-Goal: The coffee chats helps our customers learn how to use GitLab Duo and adopt best practices – by example, making mistakes, trying different routes, and achieving better results and DevSecOps efficiency.
+Goal: The coffee chats help our customers learn how to use GitLab Duo and adopt best practices – by example, making mistakes, trying different routes, and achieving better results and DevSecOps efficiency.
 
-- [GitLab group with projects](https://gitlab.com/gitlab-da/use-cases/ai/gitlab-duo-coffee-chat)
+Maintainer: [Michael Friedrich, @dnsmichi](/handbook/company/team/#dnsmichi)
+
 - [YouTube playlist](https://go.gitlab.com/xReaA1)
+- [GitLab group with projects](https://gitlab.com/gitlab-da/use-cases/ai/gitlab-duo-coffee-chat)
 - [GitLab Duo](https://go.gitlab.com/Z1vBGD)
 - [Talk: Efficient DevSecOps Workflows with a little help from AI](https://go.gitlab.com/T864XF) - [content epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402)
 - [Organization issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/375)
+- [Slide templates and resources](https://docs.google.com/presentation/d/1FBOxe43l4qY8KastAWjblphOLiktNtPjHgFNmNYf0Uw/edit#slide=id.g2a6734f20af_0_0) for recording video editing.
 
-Maintainer: [Michael Friedrich, @dnsmichi](https://about.gitlab.com/handbook/company/team/#dnsmichi)
+The recordings are also linked from the [GitLab Duo Use Cases documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html).
+
+##### Process
+
+1. Define the scope of the session (for example, 30 minutes writing an application, or exploring a new programming language like COBOL). Duo Challenges require staying in the IDE or GitLab UI context only.
+1. Invite guests to collaborate (optional)
+1. Start the Zoom recording, give a short introduction about the goal of the session. When alone, you can also use OBS to record the session.
+1. Start the session, ask Duo Chat how to get started, follow-up with Code Suggestions, etc.
+1. When finished/stopping because time, breath and provide a recap summary of what we learned today.
+1. Export the video.
+1. Take a screenshot from the session (or IDE) that highlights the learning. Add the screenshot to the [slide placeholder](https://docs.google.com/presentation/d/1FBOxe43l4qY8KastAWjblphOLiktNtPjHgFNmNYf0Uw/edit#slide=id.g2b429ab8253_0_23), edit the text with the session details, and again create a slides screenshot. This will serve as a video introduction in Premiere Pro.
+
+Video editing in Adobe Premiere Pro:
+
+1. Create a new project in Adobe Premiere Pro.
+1. Import the recording and intro/outro image assets.
+1. Drag the video into a new sequence.
+1. Add the intro screenshot into the first 3-5 seconds. Right-click > Scale to fit frame size.
+1. Use the razor icon to cut the video after the intro sequence. Select the first part and delete the sequence.
+1. Add an ending screenshot to the last 3-5 seconds. Right-click > Scale to fit the frame size.
+1. Use the razor icon to cut the video before the ending sequence, and remove any silence parts. Select the last part and delete the sequence.
+1. Export the raw video: `File > Export > Media`.
+
+Video upload:
+
+1. Log into [GitLab Unfiltered account on YouTube](https://www.youtube.com/@GitLabUnfiltered/) and upload the video file.
+1. Edit the title of the session: `GitLab Duo Coffee Chat: Challenge - Explain and Refactor COBOL programs` or similar.
+1. Edit the video description with 2-3 sentences of what to expect. Add all docs/blog URLs as `Resources` entry.
+1. Open the video preview in a new window and scroll over the sections. Note the timestamps, and write down a TOC into the video description. The table of content helps viewers to navigate quickly.
+1. Add to `Playlist` - `GitLab Duo Coffee Chat`
+1. Add tags: `gitlab`, `gitlab-duo`, `ai`, `development`, etc.
+1. Publish the video.
+
+Distribution
+
+1. Add the video to the [GitLab Use Case documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html), Highspot, blog posts, social posts, etc.
 
 ### CI/CD Adoption
 

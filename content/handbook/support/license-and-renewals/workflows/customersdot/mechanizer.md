@@ -1,13 +1,8 @@
 ---
-
 title: Mechanizer
 category: CustomersDot
 description: How to use the mechanizer for L&R requests.
 ---
-
-
-
-
 
 ## Overview
 

@@ -192,7 +192,7 @@ Instead of picking up Stretch issues, you may also choose to spend any
 spare time working on anything else that you believe will have a significant
 positive impact on the product or the company in general.
 As the [general guidelines](/handbook/values/) state, "we recognize that inspiration is
-perishable, so if you’re enthusiastic about something that generates great
+perishable, so if you're enthusiastic about something that generates great
 results in relatively little time feel free to work on that."
 
 We expect people to be [managers of one](/handbook/values/#efficiency) and prefer [responsibility over rigidity](/handbook/values/#efficiency),

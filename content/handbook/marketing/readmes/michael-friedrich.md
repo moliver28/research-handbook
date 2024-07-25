@@ -62,7 +62,7 @@ I bring my authentic-self to work every day -- can you spot all easter eggs in [
 - I prefer asynchronous written communication over synchronous calls.
   - GitLab issues, merge requests, and forum topics are preferred over Slack or Discord.
   - I love [low-context communication](/handbook/communication/#top-tips-and-best-practices), providing all necessary context so that everyone can continue when I'm offline or focused on other tasks.
-  - Avoid live screensharing presentations in meetings. Instead, record a walkthrough video, upload it to GitLab Unfiltered on YouTube, and share the resources in advance for the synchronous meeting.
+  - Avoid live screen sharing presentations in meetings. Instead, record a walkthrough video, upload it to GitLab Unfiltered on YouTube, and share the resources in advance for the synchronous meeting.
 - Ask questions in [public Slack channels](/handbook/communication/#use-public-channels), so that everyone can contribute.
   - This helps loop in more team members, subject matter experts, and those responsible for specific areas (DRIs).
   - Please avoid direct messages (DMs) unless it's private feedback or confidential information. I'll respond to DMs with lower priority than public requests.

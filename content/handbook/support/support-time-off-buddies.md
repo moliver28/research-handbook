@@ -1,5 +1,4 @@
 ---
-
 title: Support time off buddy system
 description: Guidelines for leveraging the Support time off buddy system
 ---

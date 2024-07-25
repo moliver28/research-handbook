@@ -9,7 +9,7 @@ At GitLab, team members have access to the [Growth and Development Fund](/handbo
 
 GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) depending on tenure, performance, company need for the learned skill, and available budget. A course/program is considered to be included in the calendar year in which the course/program is paid/reimbursed (which should also be the same calendar year in which it ends). If a course/program ends in December, team members have a grace period until the end of January to claim for Growth & Development reimbursements from the previous calendar year.
 
-Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not “take away” budget from other engineers. Eligibility is managed on an individual basis. Eligibility for the fund is part of each GitLab team member’s Total Rewards package.
+Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not "take away" budget from other engineers. Eligibility is managed on an individual basis. Eligibility for the fund is part of each GitLab team member's Total Rewards package.
 
 The Growth and Development fund is managed by the [Learning and Development team](/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
 
@@ -46,7 +46,7 @@ Cost Tiers Approval:
 
 - Manager Approval (with VP's made aware on the issue): $0-$1,000
 - Manager + VP Approval: $1,000.01 - $5,000
-- Manager + eGroup Approval for any spend $5,000.01 - $10,000 (Apart from Sales, where VPs can approve $5,000.01 - $10,000 spend)
+- Manager + e-group Approval for any spend $5,000.01 - $10,000 (Apart from Sales, where VPs can approve $5,000.01 - $10,000 spend)
 
 Once the manager has approved, there is no further action to be taken by the manager. They can unassign themselves to the issue if they wish.
 
@@ -71,7 +71,7 @@ Growth & Development requests are a reimbursed expense and follow a reimbursemen
 
 As an option, requests over $1,000 USD can take advantage of the split disbursement option designed to help team members carry the financial lift of costly experiences. The split disbursement option allows for 50% of the costs to be reimbursed immediately after payment and the remaining 50% is reimbursed upon completion.
 
-Here’s how this workflow works:
+Here's how this workflow works:
 
 1. After all necessary approvals, the requesting team member pays for the approved G&D experience.
 1. If costs for this G&D experience exceed $1000USD, the team member can submit the proof of payment (via Navan), and the approved GitLab issue to receive a reimbursement of 50% of the total costs.  When submitting in Navan, please state explicitly in the `Description` section of your expense claim that this is for a 50% reimbursement, with a link to your approved G&D issue.
@@ -106,7 +106,7 @@ Please contact [Payroll](mailto:payroll@gitlab.com) for any tax-related question
 
 **Description:** GitLab supports team members who wish to continue their education and growth within their professional career. The fund will cover only the tuition and enrollment related fees. Additional fees related to parking, books, supplies, technology, or administrative charges are not covered as part of the program. Tuition will be validated by receipt showing proof of payment.
 
-The course must be from a credentialed college or university and must be relevant to your career development goals and development. If the education provider does not allow for tuition/payment deferment and this would cause financial strain, you can request to receive 50% of the reimbursement up front and the other 50% upon successful completion of the course/program. The relevance of the classes taken for each semester will be subject to the approval of the manager. The grade must be equivalent to a “B”.
+The course must be from a credentialed college or university and must be relevant to your career development goals and development. If the education provider does not allow for tuition/payment deferment and this would cause financial strain, you can request to receive 50% of the reimbursement up front and the other 50% upon successful completion of the course/program. The relevance of the classes taken for each semester will be subject to the approval of the manager. The grade must be equivalent to a "B".
 
 **Eligibility for Reimbursement:** A final grade report or transcript is required to receive reimbursement. If the opportunity costs more than $1,000, you can expense 50% of the cost up front, and 50% upon completion.
 
@@ -167,7 +167,7 @@ Examples of English Language Courses:
 
 We encourage people to be speakers in conferences. More information for people interested in speaking can be found on our [GitLab Speaker Resources](/handbook/marketing/corporate-communications/speaking-resources/).
 
-**Eligibility for Reimbursement:** Before scheduling any travel or time off to attend a conference, please discuss your request with your manager. The manager will approve the request if the conference is work-related and the timing doesn't interfere with GitLab deliverables. After discussing with your manager, create a [Growth & Development issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#how-to-apply-for-growth-and-development-benefits). Once all required approvals are given on the issue, travel can be scheduled. Please review current [GitLab travel policy]({{< ref "travel" >}}) for the most up-to-date information about booking and planning conference travel.
+**Eligibility for Reimbursement:** Before scheduling any travel or time off to attend a conference, please discuss your request with your manager. The manager will approve the request if the conference is work-related and the timing doesn't interfere with GitLab deliverables. After discussing with your manager, create a [Growth & Development issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#how-to-apply-for-growth-and-development-benefits). Once all required approvals are given on the issue, travel can be scheduled. Please review current [GitLab travel policy](/handbook/travel/) for the most up-to-date information about booking and planning conference travel.
 
 Reimbursement should be applied for after the conference, with proof of attendance submitted as part of the Navan claim. When claiming back travel via Navan, you should add a link to your G&D issue in the description.
 

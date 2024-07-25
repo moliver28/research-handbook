@@ -1,14 +1,6 @@
 ---
-
 title: How the growth section works
 ---
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -104,7 +96,7 @@ Since the Growth section is among the first groups to launch product experiments
 - [Experiment guide for Product managers](https://gitlab.com/gitlab-org/growth/experimentation/-/issues/14)
 - [Experiment ideation Process](https://gitlab.com/gitlab-org/growth/experiment-design-repo/-/issues/1)
 - [Engineering guide for how to run experiment](https://docs.gitlab.com/ee/development/experiment_guide/)
-- [Growth Engieering Handbook page on running experiments](/handbook/marketing/growth/engineering/experimentation/)
+- [Growth Engieering Handbook page on running experiments](/handbook/engineering/development/growth/experimentation/)
 - [A way for GitLab team members to view currently active experiments on GitLab.com](https://gitlab.com/gitlab-org/gitlab/-/issues/262725)
 
 ## How Growth collaborates with other groups
@@ -133,7 +125,7 @@ and - like a contribution coming from the wider community - ultimately own the f
 When the planning issue is created the Product Designer should follow these steps:
 
 - Review the issue boards and the prioritization dashboard (issues should be ordered by priority)
-- Determine whether they agree with the prioritized issues or want to suggest a change. For example, are there any SUS impacting issues we’ve been neglecting?
+- Determine whether they agree with the prioritized issues or want to suggest a change. For example, are there any SUS impacting issues we've been neglecting?
 - Comment in the planning issue to discuss proposed changes.
 - Re-order the board once priority is decided.
 - Ensure that issues have weights.
@@ -144,12 +136,12 @@ Every milestone will have more work than we can commit to. Product designers kno
 
 #### How UX Works
 
-We follow the [Product Designer workflows](/handbook/product/ux/product-designer/) and [UX Researcher workflows](/handbook/product/ux/ux-research/) described in the [Product Design section](/handbook/product/ux/) of the handbook. As Growth designers, we relentlessly measure the impact of our design changes following the [experimentation workflow](/handbook/marketing/growth/engineering/experimentation/). In addition:
+We follow the [Product Designer workflows](/handbook/product/ux/product-designer/) and [UX Researcher workflows](/handbook/product/ux/ux-research/) described in the [Product Design section](/handbook/product/ux/) of the handbook. As Growth designers, we relentlessly measure the impact of our design changes following the [experimentation workflow](/handbook/engineering/development/growth/experimentation/). In addition:
 
 - we have issue boards so we can see what everyone is up to. Refer to issue boards in our planning issues. For example, this is the [template for Acquisition Planning issues](https://gitlab.com/gitlab-org/growth/team-tasks/-/blob/master/.gitlab/issue_templates/growth_acquisition_planning_template.md).
 - we **label** our issues with `UX`, `devops::growth` and `group::`.
 - we will label experiments with `UX problem validation` and `UX solution validation` according to the [UX Research Workflow](/handbook/product/ux/#ux-labels) definitions to indicate the type of learning the experiment achieves. The purpose of these labels is to track [this UX KPI](/handbook/product/ux/performance-indicators/#ux-research-velocity) related to research velocity.
-- we use the [workflow labels](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=workflow%3A%3A) for regular issues and [experiment workflow labels](/handbook/marketing/growth/engineering/#experiment-workflow-labels) for experiment issues.
+- we use the [workflow labels](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=workflow%3A%3A) for regular issues and [experiment workflow labels](/handbook/engineering/development/growth/#experiment-workflow-labels) for experiment issues.
 - we use **milestones** to aid in planning and prioritizing the four growth groups of Acquisition, Conversion, Expansion and Retention.
   - PMs provide an [ICE score for experiments](https://docs.google.com/spreadsheets/d/1yvLW0qM0FpvcBzvtnyFrH6O5kAlV1TEFn0TB8KM-Y1s/edit#gid=0) and by using [priority labels](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels) for other issues.
   - The Product Designer applies the milestone in which they plan to deliver the work (1-2 milestones in advance, or backlog for items that are several months out. For example, if an issue is not doable for a designer in the current milestone, they can add the next milestone to the issue, which will communicate to the PM when the work will be delivered.
@@ -228,7 +220,7 @@ We use this [process](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/2
     - The Growth Product Designer will mention the stage group Product Designer when starting work on a design issue for awareness and to gather background information such as existing constraints, usability problems and existing research. (Growth PMs will communicate in a similar way to Stage PMs)
     - The Growth Product Designer will add the stage group Product Designer to design reviews to get feedback and ensure consistency. Design reviews can be sync or async, for example:
         - Scheduling a recurring monthly sync call.
-        - Creating a document for async catching up ([template](https://docs.google.com/document/d/1r83O5AAo_o46ics-BF6NV_eIr1yR7KkKCarfc8kbFgM/edit?usp=sharing)) and a calendar event to remind everyone involved to share what they’re working on.
+        - Creating a document for async catching up ([template](https://docs.google.com/document/d/1r83O5AAo_o46ics-BF6NV_eIr1yR7KkKCarfc8kbFgM/edit?usp=sharing)) and a calendar event to remind everyone involved to share what they're working on.
     - UX Researchers should share research results with stage groups whenever that research is relevant cross-stage.
 
 #### Contributing to the Learn GitLab project
@@ -249,6 +241,6 @@ In alignment with GitLab's [RADCIE](/handbook/people-group/directly-responsible-
 | Post-Experiment Analysis | Data Team |
 | Post-Experiment Decision | Growth Product/Stage Product/Engineering |
 | Maintenance | Stage Product/Engineering |
-| Alert creation | Growth Product/Engineering : [How to create a Sisense SQL alert](/handbook/marketing/growth/engineering/sisense_alert.html) |
+| Alert creation | Growth Product/Engineering : [How to create a Sisense SQL alert](/handbook/engineering/development/growth/sisense_alert.html) |
 
 It is in the Growth teams purview to run any experiment in any area of the application. Growth's ability to experiment in this manner is designed to further learning potential for the larger GitLab team and support business priorities. When an experiment impacts the area of another product owner/team, Growth informs them following the collaboration model above. Product owners/teams are encouraged to raise concerns and provide further context. Ultimately, Growth determines whether the experiment is deemed a success using data and input from relevant teams. The product owner/team is made aware of the result and next steps.

@@ -1,14 +1,7 @@
 ---
-
 title: "Demo Systems Infrastructure - Kubernetes"
-description: “Discover GitLab’s Kubernetes Cluster Design for different cluster sizes”
+description: "Discover GitLab's Kubernetes Cluster Design for different cluster sizes"
 ---
-
-
-
-
-
-
 
 ## Kubernetes Cluster Design
 

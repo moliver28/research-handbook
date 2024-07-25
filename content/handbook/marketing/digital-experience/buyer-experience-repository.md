@@ -1,15 +1,8 @@
 ---
-
 title: Buyer Experience Repository
 description: >-
   Learn more about the Buyer Experience repository.
 ---
-
-
-
-
-
-
 
 ## Overview
 

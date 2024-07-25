@@ -31,7 +31,7 @@ Anyone can establish or participate in an existing Community of Practice. Below 
 To improve active participation and engagement, a pilot will be launched. This was based on a survey and consultation with several members of the Solutions Architects (SA) team. Some of the findings include:
 
 - People have indicated that they would like to see better relevance to day-to-day work, promotion of activities, and timings in CoP meetings and events.
-- While SA’s are keen on having broader impact at GitLab, they would be further encouraged by better recognition in participating, support from their manager, and links to their own individual professional development.
+- While SA's are keen on having broader impact at GitLab, they would be further encouraged by better recognition in participating, support from their manager, and links to their own individual professional development.
 
 A set of recommendations were formulated that focused on:
 

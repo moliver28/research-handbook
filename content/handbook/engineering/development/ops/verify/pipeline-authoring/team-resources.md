@@ -1,14 +1,7 @@
 ---
-
 title: Pipeline Authoring Group Resources
 description: "The goal of this page is to document resources and recommendations for development patterns in the pipeline authoring group."
 ---
-
-
-
-
-
-
 
 ## Overview
 

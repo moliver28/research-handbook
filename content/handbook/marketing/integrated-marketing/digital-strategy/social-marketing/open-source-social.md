@@ -61,14 +61,14 @@ In the future, many high impact events will cause a 1-3 week pause; there may be
 
 A longer than 48 hour pause does come with an adverse reaction. Campaigns could (and likely will) be impacted negatively because of this recommendation. We may need to consider what it means to continue pausing paid social, blog publishing, etc., or reevaluating the channels and methods of communications (moving from broadcast to 1:1).
 
-### How do we “turn back on”?
+### How do we "turn back on"?
 
-- Keep tabs on and consider what other companies in your space and top brands (Starbucks, Apple, Coca-Cola, McDonald’, etc) are doing and not doing. -- Understanding the landscape helps us to see what others’ are making mistakes on and whether or not it’s “acceptable”
+- Keep tabs on and consider what other companies in your space and top brands (Starbucks, Apple, Coca-Cola, McDonald', etc) are doing and not doing. -- Understanding the landscape helps us to see what others' are making mistakes on and whether or not it's "acceptable"
 - Keep a pulse on the movement -- what are we seeing in real life on social media; our feelings on this are as important as our observations
 - Include diverse perspectives and a diverse set of people in the conversation - invite people from other teams to provide their feedback, especially if your team lacks diversity; this is non-negotiable
 - Input and consideration from leaders that handle external communications
 - (Not so heavy but still important) consider goals and initiatives - it will be easier to pause some campaigns more than others
-- Consider soft-launching - hobble together light posts at a reduced volume to “ramp back up”
+- Consider soft-launching - hobble together light posts at a reduced volume to "ramp back up"
 
 ### Adopt the DRI concept
 

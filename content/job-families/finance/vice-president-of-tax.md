@@ -2,7 +2,7 @@
 title: "Vice President of Tax"
 ---
 
-The Vice President of Tax is responsible for GitLab’s overall tax strategy including all components of compliance, tax planning and accounting for income taxes.  The Vice President of Tax will work with advisors, service providers, GitLab’s auditors, the Audit Committee and other tax professionals in carrying out his or her responsibilities. The Vice President of Tax will regularly report to the Company’s Board of Directors and/or Committees of the Board to update the members on the Company’s tax strategy, practices and exposures.}
+The Vice President of Tax is responsible for GitLab's overall tax strategy including all components of compliance, tax planning and accounting for income taxes.  The Vice President of Tax will work with advisors, service providers, GitLab's auditors, the Audit Committee and other tax professionals in carrying out his or her responsibilities. The Vice President of Tax will regularly report to the Company's Board of Directors and/or Committees of the Board to update the members on the Company's tax strategy, practices and exposures.}
 
 ## Vice President of Tax
 
@@ -14,10 +14,10 @@ The Vice President of Ta} is a [grade #12](/handbook/total-rewards/compensation/
 
 ## Responsibilities
 
-- Responsible for establishing GitLab’s international tax strategy.
+- Responsible for establishing GitLab's international tax strategy.
 - Responsible for overseeing completion of Federal and/local state income tax returns including all related analysis and support.
-- Responsible for all global tax returns for the Company’s operational jurisdictions.
-- Responsible for overseeing GitLab’s VAT, Sales, Use and Property tax functions, including filings, strategies and compliance issues.
+- Responsible for all global tax returns for the Company's operational jurisdictions.
+- Responsible for overseeing GitLab's VAT, Sales, Use and Property tax functions, including filings, strategies and compliance issues.
 - Responsible for oversight of US GAAP and Statutory Audits of international, federal and state income tax and state and local filings, including strategies and compliance
 - Responsible for and oversight over the accounting for income taxes (ASC 740) in the US and International subsidiaries.
 - Primary responsibility for coordination of accounting for income taxes for international subsidiaries with third party vendors.
@@ -31,7 +31,7 @@ The Vice President of Ta} is a [grade #12](/handbook/total-rewards/compensation/
 ## Requirements
 
 - Ability to use GitLab
-- Bachelor’s Degree (B.S.) in Accounting. Master’s Degree preferred.
+- Bachelor's Degree (B.S.) in Accounting. Master's Degree preferred.
 - JD and/or CPA preferred.
 - 10 years of related experience with at least 5 years in a public accounting firm.
 - Experience with Software and/or SAAS in a high growth environment.
@@ -41,7 +41,7 @@ The Vice President of Ta} is a [grade #12](/handbook/total-rewards/compensation/
 
 ## Performance Indicators
 
-- Effective Tax Rate](<https://about.gitlab.com/handbook/tax/performance-indicators/#effective-tax-rate-etr>)
+- Effective Tax Rate](<https://handbook.gitlab.com/handbook/tax/performance-indicators/#effective-tax-rate-etr>)
 - [Budget vs. Actual](/handbook/tax/performance-indicators/#budget-vs-actual)
 - [Audit Adjustments](/handbook/tax/performance-indicators/#audit-adjustments)
 - Effective Tax Compliance and Strategic Outlook}

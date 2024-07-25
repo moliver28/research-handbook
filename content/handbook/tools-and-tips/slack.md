@@ -54,7 +54,7 @@ An example of three spotlight channels approach is below. Slack allows you to or
 ### Sort channels and direct messages with stars
 
 To sort direct messages and channels, open the direct message or channel and click on the star icon.
-For details, see [Star channel or direct message](https://get.slack.help/hc/en-us/articles/201331016-Star-channels-messages-or-files#star-a-channel-or-dm).
+For details, see [Star channel or direct message](https://slack.com/intl/en-gb/help/articles/201331016-Star-channels-and-direct-messages#star-a-channel-or-dm).
 
 ### Channels Access
 
@@ -66,16 +66,16 @@ This is especially the case when third parties could be customers' competitors.
 
 ### Invite
 
-There are [multiple ways](https://get.slack.help/hc/en-us/articles/201980108-Invite-members-to-a-channel) to invite people into a Slack channel.
+There are [multiple ways](https://slack.com/intl/en-gb/help/articles/201980108-Add-people-to-a-channel) to invite people into a Slack channel.
 The easiest way is to use the invite command by typing `/invite @jenny`.
 Avoid inviting people through a mention message.
 E.g. `@jenny` as it can create a message that distracts others.
 
 ### Change Group DMs to Private Channels
 
-If you are in a group direct message with multiple people, you can [change it to a private channel](https://get.slack.help/hc/en-us/articles/217555437-Move-group-DMs-to-a-private-channel), in order to avoid extra pings and allow additional team members to be added or removed to the channel.  In Slack Enterprise Grid, if you start a group DM and then it is converted to a channel, the channel ends up in “all workspaces”. “All workspace” channels have [no retention limit](https://gitlab.com/gitlab-com/it/security/issue-tracker/-/issues/66), which contradicts our policy of [90 day retention](/handbook/communication/#slack). To remediate this, we have a script that will daily move the channels into our main GitLab workspace. If you are in an affected channel, you will receive a message from Slackbot that states:
+If you are in a group direct message with multiple people, you can [change it to a private channel](https://slack.com/intl/en-gb/help/articles/217555437-Convert-a-group-direct-message-to-a-private-channel), in order to avoid extra pings and allow additional team members to be added or removed to the channel.  In Slack Enterprise Grid, if you start a group DM and then it is converted to a channel, the channel ends up in "all workspaces". "All workspace" channels have [no retention limit](https://gitlab.com/gitlab-com/it/security/issue-tracker/-/issues/66), which contradicts our policy of [90 day retention](/handbook/communication/#slack). To remediate this, we have a script that will daily move the channels into our main GitLab workspace. If you are in an affected channel, you will receive a message from Slackbot that states:
 
-`"Slack Owner has removed #<channel> from all other “GitLab” workspaces using the channel management tool. Only people from “GitLab” can access the channel now. Learn more.”`
+`"Slack Owner has removed #<channel> from all other "GitLab" workspaces using the channel management tool. Only people from "GitLab" can access the channel now. Learn more."`
 
 ## Managing noise and creating focus in Slack
 
@@ -106,7 +106,7 @@ You will receive a notification at the specified time.
 
 You can use natural language with the `/remind` command.
 Type `/remind help` to get some tips.
-For full information on Slack reminders [see the Slack help](https://get.slack.help/hc/en-us/articles/208423427-Set-a-reminder).
+For full information on Slack reminders [see the Slack help](https://slack.com/intl/en-gb/help/articles/208423427-Set-a-reminder).
 
 ### Set aside time to work through notifications
 
@@ -124,7 +124,7 @@ For more details on scheduling messages in Slack, please refer to [Slack help](h
 
 Animated images and emoji can add meaning to conversation, but they can also be distracting.
 If you would prefer to have static images and emoji, disable the animation.
-For details, see [Manage animated images and emoji](https://get.slack.help/hc/en-us/articles/228023907-Manage-animated-images-and-emoji).
+For details, see [Manage animated images and emoji](https://slack.com/intl/en-gb/help/articles/228023907-Manage-animated-images-and-emoji).
 
 ## Slack Status
 

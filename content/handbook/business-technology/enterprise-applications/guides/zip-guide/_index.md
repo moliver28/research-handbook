@@ -289,7 +289,7 @@ Settings -> Personal Settings -> Notifications.
 
 If you are the default assignee for your queue, you can view all pending requests for your approval by simply clicking `Dashboard` in the top right, on the Home dashboard page and selecting the `Needs My Approval` tab.
 
-If you are not the default assignee for your queue, you can view all requests awaiting your queue’s approval by clicking `Dashboard` in the top right corner, selecting the `Queues` tab and selecting your queue. All requests in your queues will appear, you can update the `Status` filter if necessary to see previously approved or upcoming requests.
+If you are not the default assignee for your queue, you can view all requests awaiting your queue's approval by clicking `Dashboard` in the top right corner, selecting the `Queues` tab and selecting your queue. All requests in your queues will appear, you can update the `Status` filter if necessary to see previously approved or upcoming requests.
 
 ![zip-image-11](/handbook/business-technology/enterprise-applications/guides/zip-guide/approval-request4.png)
 

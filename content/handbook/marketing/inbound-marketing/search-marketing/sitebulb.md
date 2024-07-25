@@ -1,14 +1,7 @@
 ---
-
 title: "Sitebulb"
 description: "Sitebulb is a website auditing tool for search engine optimization."
 ---
-
-
-
-
-
-
 
 ## About
 

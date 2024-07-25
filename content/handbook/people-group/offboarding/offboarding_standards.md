@@ -28,7 +28,7 @@ Once the termination process has been approved and completed in Workday either b
 
 In alignment with the needs of both People Connect and IT Operations, offboardings will kick off at a specific time, based on a **team members' local timezone** in Slack. For offboardings scheduled for Monday-Thursday, this will be at 1600 hrs / 4:00pm local time, and on Fridays would be opened at 1200 hrs / 12:00pm local time.
 
-**Note:** In instances where team members require deprovisioning initiated outside of these times, team members or their manager should reach out to People Connect via direct message or people-connect@gitlab.com to arrange an alternate time.
+**Note:** In instances where team members require deprovisioning initiated outside of these times, team members or their manager should reach out to People Connect via HelpLab to arrange an alternate time.
 
 Should the effective date fall on a day which People Connect is unable to support e.g. a Family and Friends Day or Global Holiday, People Connect will reach out to the People Business Partner to discuss alternate offboarding options.
 

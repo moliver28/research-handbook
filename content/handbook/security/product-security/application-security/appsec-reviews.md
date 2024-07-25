@@ -183,7 +183,7 @@ Some use cases of this are for epics, milestones, reviewing for a common securit
 
 ### Is security approval required to progress?
 
-No, code changes do *not* require security approval to progress. Non-blocking reviews enables the freedom for our code to [keep shipping]({{< ref "ceo#how-do-we-keep-shipping" >}}) fast, and it closer aligns with our values of [iteration and efficiency](/handbook/values/#iteration). They operate more as guardrails instead of a gate.
+No, code changes do *not* require security approval to progress. Non-blocking reviews enables the freedom for our code to [keep shipping](/handbook/ceo/#how-do-we-keep-shipping) fast, and it closer aligns with our values of [iteration and efficiency](/handbook/values/#iteration). They operate more as guardrails instead of a gate.
 
 ### What should I provide when requesting a security review?
 

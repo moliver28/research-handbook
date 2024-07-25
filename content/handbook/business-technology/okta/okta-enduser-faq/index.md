@@ -80,7 +80,7 @@ A bookmark is a way to save the URL login of an app not currently available to y
 
 ## How do I add a bookmark?
 
-To add a bookmark, go to the "+Add Apps" button on the top right of your dashboard to open a search menu. Search for your app. If no app is found, Okta will display the option to create a bookmark.  Enter the URL of the app and the name of the bookmark you would like displayed. Click ‘Add’ button to create your bookmark.  Click on "Home” at the top of your dashboard to see your new bookmark.
+To add a bookmark, go to the "+Add Apps" button on the top right of your dashboard to open a search menu. Search for your app. If no app is found, Okta will display the option to create a bookmark.  Enter the URL of the app and the name of the bookmark you would like displayed. Click 'Add' button to create your bookmark.  Click on "Home" at the top of your dashboard to see your new bookmark.
 
 ## How do I Search an app if I can't remember which tab I put it on?
 
@@ -90,7 +90,7 @@ At the top of your dashboard, you can find apps in the "Launch App" search bar. 
 
 No, Okta only acts as an integrator to the various apps. The information that the user stores inside of the app, is not accessible by Okta. The usernames and passwords (user credentials) are encrypted using both an industry-­standard encrypted AES and a randomly generated symmetric key.
 
-## What’s the difference between SWA and SAML?
+## What's the difference between SWA and SAML?
 
 **SWA** - A SWA integration provides single sign-on for apps that don't support proprietary federated sign-on methods; it works with any web-based app.  If your SWA app integration is successful, the following happens when end-users click the app chiclet:
 
@@ -100,7 +100,7 @@ No, Okta only acts as an integrator to the various apps. The information that th
 **SAML** - A SAML (Security Assertion Markup Language) integration provides Federated Authentication standards that allow end users one-click access to the app.
 SAML is an XML-based standard for exchanging authentication and authorization data between an identity provider (IdP) such as Okta, and a service provider (SP).
 If your Application supports SAML, then this is a better Authentication Protocol over SWA. When SAML is enabled Okta will be the Authentication provider for the application, also, this Authentication Protocol will give you more control over your users Authentication behavior.
-Okta can authenticate to Cloud Applications using SAML Assertions, a “passwordless” assertion method that is authorised based on a trust decision from Okta based on its authentication policy. This reduces the exposure for credential leakage and eases auditability.
+Okta can authenticate to Cloud Applications using SAML Assertions, a "passwordless" assertion method that is authorised based on a trust decision from Okta based on its authentication policy. This reduces the exposure for credential leakage and eases auditability.
 
 ## How do self-service applications work with Okta?
 
@@ -120,7 +120,7 @@ At GitLab, your GitLab email address is your username. If you've forgotten your 
 
 ## How do I make a safe password?
 
-Okta supports strong passwords through the use of password complexity rules and length, consistent with our password policy. Please follow [GitLab’s Password Policy guidelines](/handbook/security/#gitlab-password-policy-guidelines) to determine the rules.
+Okta supports strong passwords through the use of password complexity rules and length, consistent with our password policy. Please follow [GitLab's Password Policy guidelines](/handbook/security/#gitlab-password-policy-guidelines) to determine the rules.
 
 ## How does Multi-­factor Authentication (MFA) work?
 
@@ -128,15 +128,15 @@ Your user credentials are encrypted using both an industry-­standard encrypted 
 
 ## Why do I have to input my password for some apps and not others?
 
-With Okta you can access your applications through a single, unified dashboard. Access to these applications is delivered through single sign-­on (SSO) technology via either Security Assertion Markup Language (SAML) or Okta’s Secure Web Authentication (SWA) technology.
+With Okta you can access your applications through a single, unified dashboard. Access to these applications is delivered through single sign-­on (SSO) technology via either Security Assertion Markup Language (SAML) or Okta's Secure Web Authentication (SWA) technology.
 
-With SWA, you may need to enter your username and password upon the first use of that application. If an app requires you to make a password change, you should do so within the Okta dashboard. With SAML, Okta automatically passes on access via a token, so you don’t need to manually make a change when the app requires an update.
+With SWA, you may need to enter your username and password upon the first use of that application. If an app requires you to make a password change, you should do so within the Okta dashboard. With SAML, Okta automatically passes on access via a token, so you don't need to manually make a change when the app requires an update.
 
 ## How do I change my password for an app?
 
 To change your password for a specific application, hover your mouse over the app's icon. Click the gear to go to settings, which should open a menu that gives you the option to change your password for that specific application.
 
-If you are not able to update the username and password, contact GitLab Okta support or the ITOps team.
+If you are not able to update the username and password, contact GitLab Okta support or the IT Ops team.
 Can I be confident my password is safe?
 Yes, nobody (including GitLab administrators or IT support) have access or visibility into your password data.
 
@@ -164,15 +164,15 @@ Yes, Okta has been configured such that - it adheres to the GitLab password poli
 
 ## Will users only use 1Password to store Okta credentials? As part of getting set up in Okta, will we move all of our stored creds from 1Password into Okta (and then delete from 1Password)?
 
-For many applications, that’s correct. The goal will be to focus on Logins in 1Password and migrate as many of them (particularly shared passwords!) to Okta. There are other things like Secure Notes that don’t translate, so we won’t be completely getting rid of 1Password for a while.
+For many applications, that's correct. The goal will be to focus on Logins in 1Password and migrate as many of them (particularly shared passwords!) to Okta. There are other things like Secure Notes that don't translate, so we won't be completely getting rid of 1Password for a while.
 
 ## Any app that is already integrated and existing in Okta can be deleted from 1Password?
 
-Yes, once you’ve put the credentials in Okta, you may delete it from 1password.
+Yes, once you've put the credentials in Okta, you may delete it from 1password.
 
 ## Is it acceptable to continue using Google Oauth login for some of the apps (with its own 2FA)?
 
-Yes, this is fine. Our end state will be to use Okta for most/all applications, but in the meantime existing authentication methods are fine. Once we have broader user adoption of Okta, we’ll be taking on migration of some of these apps to use Okta instead of Google OAuth, where this makes the most sense.
+Yes, this is fine. Our end state will be to use Okta for most/all applications, but in the meantime existing authentication methods are fine. Once we have broader user adoption of Okta, we'll be taking on migration of some of these apps to use Okta instead of Google OAuth, where this makes the most sense.
 
 ## Will Okta only be used for work-related credentials?  If so, how will it be enforced?
 
@@ -192,13 +192,13 @@ Okta does not log you out of your applications even though you might be logged o
 
 ## What happens if Okta goes down?
 
-Okta is built on an “Always On” architecture. However, if their services were to go down, you would not be able to log in to your GitLab Okta platform and access your applications via Single Sign‐On. However, some applications might still be accessible through a direct link.
+Okta is built on an "Always On" architecture. However, if their services were to go down, you would not be able to log in to your GitLab Okta platform and access your applications via Single Sign‐On. However, some applications might still be accessible through a direct link.
 When Okta is down, basically GitLab will be down. Any mitigation strategy would enlarge our security surface area.
 
-## Even though it’s rare or unlikely, what is our policy with regard to what employees should do in the event Okta is down? Just wait for it to come back, or is there some backup plan?
+## Even though it's rare or unlikely, what is our policy with regard to what employees should do in the event Okta is down? Just wait for it to come back, or is there some backup plan?
 
 When Okta is down, we are down. Any mitigation strategy would enlarge our security surface area.
-Okta is built on an “Always On” architecture. However, if their services were to go down, you would not be able to log in to your GitLab Okta platform and access your applications via Single Sign‐On. However, some applications might still be accessible through a direct link.
+Okta is built on an "Always On" architecture. However, if their services were to go down, you would not be able to log in to your GitLab Okta platform and access your applications via Single Sign‐On. However, some applications might still be accessible through a direct link.
 
 ## Who do I contact in case of Okta emergencies?
 
@@ -208,7 +208,7 @@ Please reach out to #it_help channel on Slack.
 
 No, this does not exist within Okta.  But this should be something security automation team can help with. There are some automated security notifications already enabled for things like MFA or password changes, as well as connections from new and unrecognised devices. GitLab is able to perform reporting on these based on built-in reporting.
 
-## What are some things Okta won’t be able to do yet?
+## What are some things Okta won't be able to do yet?
 
 Automating access requests is one such thing. Manager approval is not possible with Okta as yet. We are working towards other ways and means to achieve this.
 

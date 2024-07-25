@@ -1,13 +1,6 @@
 ---
-
 title: Team Processes
 ---
-
-
-
-
-
-
 
 ## Issue hygiene
 

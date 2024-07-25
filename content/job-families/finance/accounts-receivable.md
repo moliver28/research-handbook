@@ -174,7 +174,7 @@ The Manager, Accounts Receivable is a [grade 8](/handbook/total-rewards/compensa
 
 #### Manager, Accounts Receivable Requirements
 
-- Bachelor’s degree in Accounting/Finance or equivalent experience
+- Bachelor's degree in Accounting/Finance or equivalent experience
 - 10+ Years of experience in an accounts receivable or collections role
 - 5+ Years experience with Zuora and Salesforce from quote to cash
 - Proven ability to perform strategic planning and set priorities for an accounts receivable department

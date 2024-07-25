@@ -1,14 +1,7 @@
 ---
-
 title: "Quality Engineering Tips and Tricks"
 description: "This page lists a number of tips and tricks we have found useful in day to day Quality Engineering related tasks."
 ---
-
-
-
-
-
-
 
 ## Overview
 

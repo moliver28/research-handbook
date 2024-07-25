@@ -71,7 +71,7 @@ Tell people what you are doing with personal data and why you are doing it so th
 
 ***DPIA*** A Data Protection Impact Assessment is a method to review and document identified privacy compliance risks, as well as evalute higher risks to the rights and freedoms of individuals, including any that pose potential for significant harm. Learn more about GitLab's process for completing DPIAs [here](/handbook/legal/privacy/dpia/).
 
-***Personal Data*** Any data, individually or when combined with other data, that identifies, relates to, describes or is reasonably capable of being associated with or linked to an identifiable natural person (a ‘data subject’), whether directly or indirectly. See also, Sensitive Personal Data.
+***Personal Data*** Any data, individually or when combined with other data, that identifies, relates to, describes or is reasonably capable of being associated with or linked to an identifiable natural person (a 'data subject'), whether directly or indirectly. See also, Sensitive Personal Data.
 
 ***Privacy by Default*** A concept that should be implemented at the product development stage and uses appropriate measures to ensure that, by default, the only personal data processed is what is truly necessary. In practice, this means a user's privacy settings prioritize privacy in their default state.
 

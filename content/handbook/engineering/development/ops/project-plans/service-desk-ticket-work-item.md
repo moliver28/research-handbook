@@ -1,15 +1,8 @@
 ---
-
 title: Service Desk Ticket Work Item
 description: >-
   Project plan for the Service Desk Ticket Work Item project.
 ---
-
-
-
-
-
-
 
 ## Weekly Project Plan
 

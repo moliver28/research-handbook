@@ -12,7 +12,7 @@ description: "The Customer Satisfaction (CSAT) survey is a performance indicator
 
 ### How the Product CSAT survey is run
 
-UX Research determines our Product CSAT score for paid users of GitLab.com, self-managed GitLab, and GitLab Dedicated on a quarterly basis through a survey launched through Qualtrics. A [CSAT template issue](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/Product%20CSAT%20Survey%20(UX%20Research%20only).md) is created by the UX Research DRI at the beginning of each quarter. The issue template contains background information, research goals, and processes on conducting the survey from start to finish. Data is collected over a period of four weeks starting in the beginning of a quarter and the survey stays open until we have met our [data collection goals](/handbook/product/ux/performance-indicators/csat/#sampling-goals). The next two weeks after data collection are used to clean, analyze, and report on the survey responses. All documents created are stored in an [internal only Google Drive within UX Research](https://drive.google.com/drive/u/0/folders/1ia-SJujFRWgOpnBGUdLE6gAWE8ldf0DM). 
+UX Research determines our Product CSAT score for paid users of GitLab.com, self-managed GitLab, and GitLab Dedicated on a quarterly basis through a survey launched through Qualtrics. A [CSAT template issue](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/Product%20CSAT%20Survey%20(UX%20Research%20only).md) is created by the UX Research DRI at the beginning of each quarter. The issue template contains background information, research goals, and processes on conducting the survey from start to finish. Data is collected over a period of four weeks starting in the beginning of a quarter and the survey stays open until we have met our [data collection goals](/handbook/product/ux/performance-indicators/csat/#sampling-goals). The next two weeks after data collection are used to clean, analyze, and report on the survey responses. All documents created are stored in an [internal only Google Drive within UX Research](https://drive.google.com/drive/u/0/folders/1ia-SJujFRWgOpnBGUdLE6gAWE8ldf0DM).
 
 ### Current workflow
 
@@ -43,7 +43,7 @@ At the beginning of each quarter, the UX Research DRI will generate a list of el
 
 ##### Sending an email wave
 
-1. Using the percentages you calculated in the `percentages` tab of the [CSAT user list Google Sheet template](https://docs.google.com/spreadsheets/d/1y9cedI2uoHNaoZ1IgXkH7CB0fecvlg-RGsJp_mihpEI/edit#gid=776912528), determine how many users for each plan type you need to contact for the wave. If it’s the first wave, use the population proportions. If it’s a subsequent wave, use the proportions you calculate based on the responses so far (see next point).
+1. Using the percentages you calculated in the `percentages` tab of the [CSAT user list Google Sheet template](https://docs.google.com/spreadsheets/d/1y9cedI2uoHNaoZ1IgXkH7CB0fecvlg-RGsJp_mihpEI/edit#gid=776912528), determine how many users for each plan type you need to contact for the wave. If it's the first wave, use the population proportions. If it's a subsequent wave, use the proportions you calculate based on the responses so far (see next point).
 2. To calculate your current sample plan proportions, download your survey results from Qualtrics and/or Rally. Calculate the percentage breakdown of plans so far. Then subtract that number from the population percentage and add the result to the population percentage.
 An example with fake numbers:
 

@@ -1,14 +1,7 @@
 ---
-
 title: "Reporting Data Catalog"
 description: "Giltab's Reporting Data Catalog"
 ---
-
-
-
-
-
-
 
 ---
 

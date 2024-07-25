@@ -84,7 +84,7 @@ DevOps Engineers have a deep understanding of their organization's SDLC and prov
 | 3) API                                | An API for all features is required for supporting your customer workflows.       |
 | 4) Storage management                 | Dependencies can build up fast. You need a way to manage storage costs.          |
 | 5) Extensive metadata                 | Dependency metadata is required to validate you are using the correct one.       |
-| 6) Dependency scanning                | Automatically find security vulnerabilities in your dependencies while you’re developing and testing your applications.  |
+| 6) Dependency scanning                | Automatically find security vulnerabilities in your dependencies while you're developing and testing your applications.  |
 | 7) Dependency firewall                | Prevent the introduction of security vulnerabilities from external dependencies  |
 | 8) Virtual registries                 | A collection of local, remote, and other virtual repositories accessed through a single logical URL. This hides the access details of the underlying repositories letting users work with a single, well-known URL.          |
 | 9) High availability                  | A highly available product will ensure your teams stay productive                |

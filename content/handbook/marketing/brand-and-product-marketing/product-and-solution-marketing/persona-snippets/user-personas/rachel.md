@@ -1,13 +1,6 @@
 ---
-
 title: "Rachel Persona snippets"
 ---
-
-
-
-
-
-
 
 ## SDR persona snippets by use case
 

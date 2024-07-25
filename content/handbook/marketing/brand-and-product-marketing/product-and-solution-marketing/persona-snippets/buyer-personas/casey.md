@@ -1,13 +1,6 @@
 ---
-
 title: "Casey Persona snippets"
 ---
-
-
-
-
-
-
 
 ## SDR persona snippets by use case
 

@@ -1,7 +1,6 @@
 ---
 title: "GitLab Token Management Standard"
 description: "This is the GitLab Token Management Standard. It defines approved GitLab token usage, and distribution for the purposes of providing authentication and authorization within various systems and subsystems used by GitLab."
-controlled_document: true
 ---
 
 ## Purpose
@@ -50,7 +49,7 @@ GitLab customers are responsible for managing their own accounts and tokens, sho
 
 ### Token and Account Management
 
-1. Due to the nature of the GitLab application, and the ability of a malicious actor that has access to a GitLab instance to cause damage to information contained in the instance, account type definitions are necessary. A GitLab instance has both privileged and non-privileged accounts within the application. This privilege level is independent of the general system wide account privilege level. GitLab application accounts are of the “Development” account type. To further differentiate within the “Development” account type there are privileged and non-privileged accounts. ((AC-2(a), AC-2(7) `*`).  Roles associated with tokens:
+1. Due to the nature of the GitLab application, and the ability of a malicious actor that has access to a GitLab instance to cause damage to information contained in the instance, account type definitions are necessary. A GitLab instance has both privileged and non-privileged accounts within the application. This privilege level is independent of the general system wide account privilege level. GitLab application accounts are of the "Development" account type. To further differentiate within the "Development" account type there are privileged and non-privileged accounts. ((AC-2(a), AC-2(7) `*`).  Roles associated with tokens:
 | Role | Privilege state |
 | ---- | --------------- |
 | Site Administrator [`**`](#references) | Privileged |

@@ -1,6 +1,6 @@
 ---
 title: "Sales Strategy Projects"
-description: “Discover GitLab’s Sales Strategy team’s methods and goals”
+description: "Discover GitLab's Sales Strategy team's methods and goals"
 ---
 
 The Sales Strategy team is involved in multiple projects in the areas of Analytics, GTM and Field Planning.

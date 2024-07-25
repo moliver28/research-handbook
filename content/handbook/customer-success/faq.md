@@ -1,13 +1,6 @@
 ---
-
 title: "Customer Success' Frequently Asked Questions"
 ---
-
-
-
-
-
-
 
 ## Customer Success FAQ Charter
 
@@ -15,4 +8,4 @@ Team members in Customer Success face questions from customers every day about a
 
 If you ask a question in Slack or another avenue and receive an answer, please add to this page. If the Q&A was in Slack, post the link to the MR in the thread so others can know it's been documented. If you see a question hasn't been documented, please take the [initiative](/handbook/values/#short-toes) to document it and share. [Everyone can contribute](/handbook/company/mission/#mission)!
 
-1.  
+1.

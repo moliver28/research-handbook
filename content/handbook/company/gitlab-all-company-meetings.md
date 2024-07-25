@@ -47,7 +47,7 @@ The Quarterly Kickoff is followed by an AMA hosted by the CEO.
 
 The CEO's Quarterly Kickoff Slides usually cover:
 
-- Recap of GitLab’s [Mission](/handbook/company/mission/)/[Vision](/handbook/company/vision/)/[Strategy](/handbook/company/strategy/) noting any updates made
+- Recap of GitLab's [Mission](/handbook/company/mission/)/[Vision](/handbook/company/vision/)/[Strategy](/handbook/company/strategy/) noting any updates made
 - Review the previous quarters OKRs, scores, and important details
 - Progress for [Yearlies](/handbook/company/yearlies/)
 - Sharing of this new quarters OKRs

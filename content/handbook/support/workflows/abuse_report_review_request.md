@@ -1,5 +1,4 @@
 ---
-
 title: Abuse Report Review Request
 category: GitLab.com
 subcategory: Security

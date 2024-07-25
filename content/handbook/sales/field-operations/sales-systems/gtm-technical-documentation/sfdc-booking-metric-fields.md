@@ -1,13 +1,6 @@
 ---
-
 title: "Booking Metric Technical Documentation"
 ---
-
-
-
-
-
-
 
 ## How to use this documentation
 

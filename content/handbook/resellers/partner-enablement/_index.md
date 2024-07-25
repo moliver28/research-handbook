@@ -68,7 +68,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 - [Positioning GitLab - Handbook Page](/handbook/marketing/positioning-faq/) (Handbook)
   - Review this page to learn about how to position GitLab in the market. (10 min)
 - [GitLab Technical Discovery Guide](/handbook/sales/qualification-questions/#questions-for-selling-gitlab-premium-and-ultimate) (Handbook)
-  - Discovery is a crucial skill for any Solutions Architect (SA).  Here is how GitLab SA’s do their Discovery (10 min)
+  - Discovery is a crucial skill for any Solutions Architect (SA).  Here is how GitLab SA's do their Discovery (10 min)
 - [User Personas](/handbook/product/personas/) (Handbook)
   - These are the persona types that are the primary users of GitLab inside your customer.
 - [Buyer Personas](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) (Handbook)
@@ -76,7 +76,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 
 **Competitive Information**
 
-- [GitLab Maturity Page](https://about.gitlab.com/direction/maturity/) (Web Page)
+- [GitLab Maturity Page](https://about.gitlab.com/direction/#maturity) (Web Page)
   - A very transparent self-assessment of the maturity of each GitLab feature. No direct comparisons with other vendors here.
 - [GitLab Competitive Overviews](https://partners.gitlab.com/prm/English/s/assets?collectionId=56958) (Portal Assets)
   - Have a look at competitive positioning material in the assets library of the Partner site. (login required)
@@ -88,7 +88,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 - [GitLab Partner Demo Delivery Guide](https://gitlab.com/gitlab-partner-demos/delivery-guide) (GitLab Project)
   - A GitLab Project containing all the resources for partners to successfully deliver a 1-hour-long, high-level, technical overview demo of GitLab.  Check out the README for further guidance.
 - [Building Pipelines Episode 011](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db) (Video)
-  - “Effective GitLab Demos.” (40:16)  More resources and helpful hints are provided.  [Register for the Webinar](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db)!
+  - "Effective GitLab Demos." (40:16)  More resources and helpful hints are provided.  [Register for the Webinar](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db)!
 - [GitLab Partner Demos](https://gitlab.com/gitlab-partner-demos) (Project Catalog)
   - Public group containing demo projects developed by the GitLab Partner SA team for use with and by our partners
 - [GitLab POV Handbook Page](/handbook/solutions-architects/tools-and-resources/pov/)

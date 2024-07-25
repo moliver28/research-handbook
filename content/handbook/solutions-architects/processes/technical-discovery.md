@@ -1,8 +1,6 @@
 ---
-
 title: Technical Discovery
 ---
-
 
 ## Key Links
 

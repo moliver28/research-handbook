@@ -1,5 +1,4 @@
 ---
-
 title: 6sense
 description: 6sense is an Account Based Marketing platform that uses a predictive model to identify the right customers at the ideal time
 ---
@@ -80,6 +79,12 @@ The following steps must be taken in order for users to access both the 6sense p
 - Insights User: This role has full access to 6sense insights for segments and accounts.
 - Sales User: This role has full access to 6sense insights for segments and accounts.
 
+### 6sense User Seat
+
+We have a limited user seat in 6sense, in order to manage our user seats and provide more seats for new users, we are eliminating inactive users. 
+
+During our user audit review, if the user hasn't logged into either the 6sense platform or the dashboards in Sales in the last 6 monmth, their seat willl be revoked.
+
 ## Training Resources
 
 ### Sales Dev Training Recordings
@@ -99,13 +104,13 @@ The following steps must be taken in order for users to access both the 6sense p
 With 6Sense, you can use segments to monitor the intent and engagement of target accounts from the Sales Intelligence dashboard in Salesforce.
 
 1. In the Sales Intelligence dashboard, review the `Profile Fit`, `Account Reach` and `Buying Stage` for accounts showing signals for buyer intent.
-2. Under Persona Map, you’ll be able to identify the leads that fit the ideal customer profiles with a strong `Engagement Grade`.
+2. Under Persona Map, you'll be able to identify the leads that fit the ideal customer profiles with a strong `Engagement Grade`.
 3. Select the lead and `add to Outreach`
 4. Outreach will prompt you with Outreach Sequence, pick the sequence you would like to add the lead to.
 
 ### Acquire New Contacts to Outreach Sequence
 
-You can add a segment to an Outreach Sequence directly on the 6Sense Naive Web Application. To do so, you’ll need to create a new orchestration with the criteria: I want to `acquire new contacts` and add them to `an Outreach Sequence`.
+You can add a segment to an Outreach Sequence directly on the 6Sense Naive Web Application. To do so, you'll need to create a new orchestration with the criteria: I want to `acquire new contacts` and add them to `an Outreach Sequence`.
 
 Refer to the [Knowledge Base](https://support.6sense.com/knowledge-base/360062650793-getting-started-with-acquire-new-contacts-to-outreach-sequence/) (you must be logged in to access the knowledge base) for the step to step instructions.
 
@@ -113,7 +118,7 @@ Refer to the [Knowledge Base](https://support.6sense.com/knowledge-base/36006265
 
 Segments drive every use case within 6sense, and consist of groups of accounts created based on user-selected filters, list uploads, or CRM synchronizations. More information about 6sense segments can be found [here](https://support.6sense.com/knowledge-base/360060411613-segments-overview/).
 
-6sense segment names sync to Salesforce via an orchestration. In order for a segment to sync to Salesforce, the segment must be published. If a segment is unpublished, the record of that segment will be removed from Salesforce. This is a good way to keep the 6sense segment name field relevant, however is important to note for historical reporting purposes.  
+6sense segment names sync to Salesforce via an orchestration. In order for a segment to sync to Salesforce, the segment must be published. If a segment is unpublished, the record of that segment will be removed from Salesforce. This is a good way to keep the 6sense segment name field relevant, however is important to note for historical reporting purposes.
 
 ### Publishing Segments
 
@@ -140,7 +145,7 @@ For example:
 ### Tags
 
 {: .no_toc}
-Tags should be used to help organize lists by topic. For example, you may want to use a tag for a large campaign, segment (SMB, MM, etc.), tier, etc.  
+Tags should be used to help organize lists by topic. For example, you may want to use a tag for a large campaign, segment (SMB, MM, etc.), tier, etc.
 
 ### Sales Dev Naming Convention
 
@@ -156,12 +161,12 @@ Sales and Marketing activities performed by your team that engage with the accou
 Activities performed by people from the account that indicate interest in your company or product offerings. This may include activities such as email and ad clicks, form-fills, or web research related to your product.
 
 **Engaged Contacts**
-Generally means that the Account has been participating in MAP / CRM activities such as (email clicks, form fills, CRM Campaign Members which are tied to engagement ie: positive response, attended webinar, etc). So it’s based on taxonomy and then their engagement score is calculated based on how much a contacts/leads from the Account have been participating in those activities.
+Generally means that the Account has been participating in MAP / CRM activities such as (email clicks, form fills, CRM Campaign Members which are tied to engagement ie: positive response, attended webinar, etc). So it's based on taxonomy and then their engagement score is calculated based on how much a contacts/leads from the Account have been participating in those activities.
 
 **6 Qualified Accounts (6QA)**
 Qualified by 6sense, a 6QA is an account that is primed for sales engagement.
 
-Due to increases in intent, profile fit and engagement, a 6QA occurs when an account moves from an earlier buying stage (Target, Awareness or Consideration) to a later buying stage (Decision or Purchase), making them qualified for sales activity. It is marketing’s goal to drive accounts to either inbound or 6QA.
+Due to increases in intent, profile fit and engagement, a 6QA occurs when an account moves from an earlier buying stage (Target, Awareness or Consideration) to a later buying stage (Decision or Purchase), making them qualified for sales activity. It is marketing's goal to drive accounts to either inbound or 6QA.
 
 6QA status is true when 1 AND 2 are met:
 
@@ -170,7 +175,7 @@ Due to increases in intent, profile fit and engagement, a 6QA occurs when an acc
 
 **6sense Account Buying Stage Definitions**
 
-- **Target** - The buyer may not realize a problem exists, but may fit within the seller’s TAM.
+- **Target** - The buyer may not realize a problem exists, but may fit within the seller's TAM.
 - **Awareness** - The buyer realizes they have a problem. The buyer is doing educational research to more clearly understand, frame, and identify their problem.
 - **Consideration** - The buyer defines their problem and researches options to solve it. The buyer is researching all of the available options to solve the defined problem.
 - **Decision** - The buyer chooses a solution. The buyer is narrowing a list of potential vendors to ultimately make a purchase decision.

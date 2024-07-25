@@ -29,7 +29,7 @@ Follow the steps and details for workflows that involve different types of revie
 - Ensure that direct reports to the CMO have reviewed and approved before asking the CMO to review
   - Example: A new product messaging house is developed, and the VP of Product Marketing must sign off first.
   - Example: The marketing handbook front page adds a new strategic vision for events. The VP of Integrated Marketing, and the VP of Product Marketing must sign off first.
-- Please add [CMO’s EBA](/handbook/eba/) as CC into the message and include a [due date](/handbook/communication/#communicating-dates-and-time) until when the review is required.
+- Please add [CMO's EBA](/handbook/eba/) as CC into the message and include a [due date](/handbook/communication/#communicating-dates-and-time) until when the review is required.
   - The CMO's EBA will add a notification to the CMO's calendar to finish the review request on the same day/week.
   - Example: `Urgent review ask because of the new quarter starting in two weeks, requiring the new messaging. Please review by YYYY-MM-DD, 5 PM PT. cc @<EBA name>`
 

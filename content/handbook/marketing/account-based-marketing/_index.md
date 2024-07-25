@@ -1,5 +1,4 @@
 ---
-
 title: Account Based Marketing
 description: Account Based Marketing Handbook
 twitter_image: /images/tweets/handbook-marketing.png
@@ -47,7 +46,7 @@ Our key account list consists of Mid-Market and Enterprise accounts that the sal
 - [Terminus Email Signature Banners](/handbook/marketing/marketing-operations/terminus-email-experiences/): Ads within an email signature that are targeted based on email address domain.
 - [Pathfactory](/handbook/marketing/marketing-operations/pathfactory/):
   - Content tracks: Allow us to bundle assets together (around 5-7) in a "content track" and shared as one link. Instead of sharing multiple links to individual assets, one link provides a curated content experience.
-  - Microsites: PathFactory’s Microsite Builder enables us to display multiple types of Content Tracks within a custom-designed landing page that aligns to our Tier 1 accounts or a Tier 2 cohort of accounts.
+  - Microsites: PathFactory's Microsite Builder enables us to display multiple types of Content Tracks within a custom-designed landing page that aligns to our Tier 1 accounts or a Tier 2 cohort of accounts.
 - [Outreach](/handbook/marketing/marketing-operations/outreach/): The core tool for BDR outbound efforts, ABM will write custom sequences for 1:1 and cohort plays as needed.
 
 ## Communication

@@ -3,7 +3,7 @@ layout: job_family_page
 title: Manager of Professional Services
 ---
 
-The Professional Services Manager contributes to and executes the strategic vision leading service delivery for GitLab’s Professional Services Organization. Reporting to the Vice President of Customer Success, the leader is responsible for developing strategies and operations to deliver best-in-class services (i.e., consulting, implementation and educational services) to help customers accelerate their DevOps transformation. The Manager of Professional Services works to build and scale a services business, in a bold, fast-moving, transparent and values-led organization to enable customer and company success.
+The Professional Services Manager contributes to and executes the strategic vision leading service delivery for GitLab's Professional Services Organization. Reporting to the Vice President of Customer Success, the leader is responsible for developing strategies and operations to deliver best-in-class services (i.e., consulting, implementation and educational services) to help customers accelerate their DevOps transformation. The Manager of Professional Services works to build and scale a services business, in a bold, fast-moving, transparent and values-led organization to enable customer and company success.
 
 ### Job Grades
 
@@ -76,7 +76,7 @@ The Senior Manager, Professional Services reports into the Director, Professiona
 
 ### Responsibilities
 
-- Develop strategic plans to build and evolve GitLab’s product and transformational service offerings
+- Develop strategic plans to build and evolve GitLab's product and transformational service offerings
 - Create service offerings aligned to enterprise and commercial market segments, including value positioning, scope of services, collateral and pricing.
 - Lead delivery of consulting, education and implementation services to our customers, overseeing resource management, project delivery and operational success metrics.
 - Be accountable for services financial goals and metrics, including bookings, revenue, gross margin and utilization.
@@ -93,10 +93,10 @@ The Senior Manager, Professional Services reports into the Director, Professiona
 - Experience managing technical, cross-functional professional services teams (e.g., consulting, implementation, trainers, project managers) and delivery partners
 - Demonstrated experience building and scaling a professional services business with accountability for financial targets
 - Experienced with software development lifecycle (i.e., SDLC), agile, DevOps, software development tools, technologies (e.g., Docker, Kubernetes), and/or cloud platforms (AWS, GCP, Azure)
-- Ability to be an evangelist for GitLab customers and serve according to GitLab’s values
+- Ability to be an evangelist for GitLab customers and serve according to GitLab's values
 - Ability to travel up to 20%
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Senior Director of Professional Services
 

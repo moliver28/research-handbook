@@ -24,10 +24,10 @@ GitLab does not plan to offer life insurance at this time as team members can ac
 Maternity leave should be granted even in the case of miscarriage or stillbirth as follows:
 
 - within 11 weeks into pregnancy: Five days of leave from the date of miscarriage or stillbirth
-- 12-15 weeks into pregnancy: 10 days’ leave from the miscarriage or stillbirth date
-- 16-21 weeks into pregnancy: 30 days’ leave from the miscarriage or stillbirth date
-- 22-27 weeks into pregnancy: 60 days’ leave from the miscarriage or stillbirth date
-- 28+ weeks into pregnancy: 90 days’ leave from the miscarriage or stillbirth date
+- 12-15 weeks into pregnancy: 10 days' leave from the miscarriage or stillbirth date
+- 16-21 weeks into pregnancy: 30 days' leave from the miscarriage or stillbirth date
+- 22-27 weeks into pregnancy: 60 days' leave from the miscarriage or stillbirth date
+- 28+ weeks into pregnancy: 90 days' leave from the miscarriage or stillbirth date
 
 **Paternity Leave:** Team members can take 10 days of Paternity Leave after the delivery date. The Paternity Leave can be used within 90 days after the delivery date and this leave can be used separately, split into a maximum of two periods.
 

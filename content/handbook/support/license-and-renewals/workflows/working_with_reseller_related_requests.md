@@ -1,12 +1,8 @@
 ---
-
 title: Working with reseller related requests
 category: General
 description: This is a guide on how to handle requests involving Reseller.
 ---
-
-
-
 
 ## Overview
 

@@ -1,16 +1,7 @@
 ---
-
 title: "Enterprise Sales"
 description: "The Enterprise Sales department at GitLab focuses on delivering maximum value to strategic and large prospects and customers throughout their entire journey with GitLab."
 ---
-
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -18,14 +9,14 @@ Welcome to the Enterprise Sales handbook page!
 
 The Enterprise Sales department is part of [GitLab Sales](/handbook/sales/#welcome-to-the-sales-team-homepage) and includes both Large and Public Sector sales teams. The sales field in Enterprise is made up of [Major and Strategic Account Executives (MAEs and SAEs)](/job-families/sales/enterprise-account-executive/) who collaborate closely with their [deal team](/handbook/sales/#customer-success) (Inside Sales, Customer Success, Sales Development, Channel & Alliances and more) and work across functions to deliver maximum value to strategic and large prospects and customers throughout their entire journey with GitLab. When thinking about 'what good looks like' in this department, refer to your [job family](/job-families), the [field competencies](/handbook/sales/training/field-functional-competencies/), and our [GitLab values](/handbook/values/).
 
-Besides this page, there are a few bookmarks you’ll want to set that will be your main sources of truth during your everyday work. These are:
+Besides this page, there are a few bookmarks you'll want to set that will be your main sources of truth during your everyday work. These are:
 
-- **[The GitLab Sales handbook page](/handbook/sales/#welcome-to-the-sales-team-homepage):** This page serves as our home base. From here, you can find a wealth of resources that are relevant to the entire sales field. Whether you’re looking for sales order processing info, or wondering how to get executive support, this is where you’ll find what you need.
+- **[The GitLab Sales handbook page](/handbook/sales/#welcome-to-the-sales-team-homepage):** This page serves as our home base. From here, you can find a wealth of resources that are relevant to the entire sales field. Whether you're looking for sales order processing info, or wondering how to get executive support, this is where you'll find what you need.
 - **[Field Slack Channels](/handbook/sales/sales-google-groups/#field-slack-channels):** View and join these Slack channels based on your role and team to stay connected with your peers.
-- **[GitLab Level Up Learning Platform](https://levelup.gitlab.com/learn/dashboard):** You’ll receive access to GitLab Level Up during your first week of onboarding. This learning hub includes training and refresher courses on everything related to Sales at GitLab, including our sales methodology, tools, and sales skills.
+- **[GitLab Level Up Learning Platform](https://levelup.gitlab.com/learn/dashboard):** You'll receive access to GitLab Level Up during your first week of onboarding. This learning hub includes training and refresher courses on everything related to Sales at GitLab, including our sales methodology, tools, and sales skills.
 - **[The Enterprise Sales Google drive](https://drive.google.com/drive/folders/14obWsdpYmaASD186cXyUIA19mk2Id_db?usp=sharing):** You'll use this folder and the [GitLab Sales drive](https://drive.google.com/drive/folders/0BzQII5CcGHkKSFFJWkx3R1lUdGM?resourcekey=0-A23lzowP5l3KyPLQtvxIgA&usp=sharing) to reference and store internal-only resources relevant to your work. You'll find everything from running notes docs for your accounts to planning toolkits and templates for proposals and presentations.
-- **[Enterprise Sales Highspot landing page](https://gitlab.highspot.com/spots/6329c1e293fedc634e196730):** You’ll receive access to Highspot in Okta during your first week of onboarding. It’s where all sales content is stored - whether you’re looking for competitive intelligence, solution selling guidance, templates to use in proposals, or the latest marketing assets.
-- **[The Customer-Ready Shadow Program](/handbook/sales/shadow-program/):** Shadowing customer calls offers a hands-on way to learn how different GitLab roles represent GitLab. We often learn best when we have the opportunity to learn from our peers, practice, and get feedback in an interactive way. It’s also a great way to make new hires feel welcome and a part of our sales culture at GitLab. All sellers in Enterprise Sales participate in the shadow program in some way - whether they shadow or host their peers.
+- **[Enterprise Sales Highspot landing page](https://gitlab.highspot.com/spots/6329c1e293fedc634e196730):** You'll receive access to Highspot in Okta during your first week of onboarding. It's where all sales content is stored - whether you're looking for competitive intelligence, solution selling guidance, templates to use in proposals, or the latest marketing assets.
+- **[The Customer-Ready Shadow Program](/handbook/sales/shadow-program/):** Shadowing customer calls offers a hands-on way to learn how different GitLab roles represent GitLab. We often learn best when we have the opportunity to learn from our peers, practice, and get feedback in an interactive way. It's also a great way to make new hires feel welcome and a part of our sales culture at GitLab. All sellers in Enterprise Sales participate in the shadow program in some way - whether they shadow or host their peers.
 
 ## The Enterprise Seller playbook
 
@@ -43,10 +34,10 @@ As the account lead, your role centers on successfully orchestrating all of the 
 |---------------------------|---------------------|
 |[Channel Account Manager (CAM)](https://partners.gitlab.com/English/directory/):| Understand and map the partner landscape: opportunities and collaborations, suggest partners for onboarding and recruiting, incorporate System Integrators into your plan, view current partners in the [Partner Directory](https://partners.gitlab.com/English/directory/) |
 |[Professional services](/handbook/customer-success/professional-services-engineering/working-with/):| Match the needs of your solution or customer to  training, education, and adoption or deployment support provided by this team. Or bring them in to help you pitch services to your prospects or customers.|
-|[Field marketing](/handbook/marketing/field-marketing/#whats-currently-scheduled-in-my-region) and account-based marketing:| Include this team during strategic planning for your territory, accounts, and pipe generation. And when planning to run & host events or webinars, attend relevant third-party events. Learn what’s scheduled: [GitLab event site](https://about.gitlab.com/events/) , [All marketing activities (internal)](https://docs.google.com/spreadsheets/d/1ni6gKeWhjtrNppMdYvPESsCRjDbfVdYjTNtUtcNBFGg/edit#gid=571560493). Nominate priority accounts for [Account-based marketing (ABM) support](/handbook/marketing/account-based-marketing/abm-campaign-approach/). Slack: #abmteam, #emea_marketing (EMEA), #fieldmarketing (Global)|
+|[Field marketing](/handbook/marketing/field-marketing/#whats-currently-scheduled-in-my-region) and account-based marketing:| Include this team during strategic planning for your territory, accounts, and pipe generation. And when planning to run & host events or webinars, attend relevant third-party events. Learn what's scheduled: [GitLab event site](https://about.gitlab.com/events/) , [All marketing activities (internal)](https://docs.google.com/spreadsheets/d/1ni6gKeWhjtrNppMdYvPESsCRjDbfVdYjTNtUtcNBFGg/edit#gid=571560493). Nominate priority accounts for [Account-based marketing (ABM) support](/handbook/marketing/account-based-marketing/abm-campaign-approach/). Slack: #abmteam, #emea_marketing (EMEA), #fieldmarketing (Global)|
 | Sales leaders and executives | You may need to [provide executive sponsorship of an account](/handbook/sales/field-operations/gtm-resources/#executive-sponsorship-program), [request an e-group member in a meeting](/handbook/eba/#customer-prospect-and-partner-meetings-with-an-e-group-member), or [request that Sid join a meeting](/handbook/eba/ceo-scheduling/#how-to-request-a-meeting-with-ceo) |
-|[Sales operations and deal desk:](/handbook/sales/field-operations/sales-operations/deal-desk/) |For structuring and closing deals, you’ll often work with Deal Desk, especially for non-standard quotes. #sales-support is also the go-to channel for any urgent questions around progressing a deal through our processes. |
-| [GitLab Support](/handbook/support/): | The Support Team serves our customers at different levels depending on what they’ve purchased.|
+|[Sales operations and deal desk:](/handbook/sales/field-operations/sales-operations/deal-desk/) |For structuring and closing deals, you'll often work with Deal Desk, especially for non-standard quotes. #sales-support is also the go-to channel for any urgent questions around progressing a deal through our processes. |
+| [GitLab Support](/handbook/support/): | The Support Team serves our customers at different levels depending on what they've purchased.|
 |[Product team](/handbook/product/categories/): | For strategic deals, it often makes sense to bring in an expert from Product to speak to your customer about the benefits or maturity of features they care about the most. Often times, if something is not yet possible in GitLab, Product has a plan and roadmap for when it will be available. |
 |[Strategic Field Organization](/handbook/solutions-architects/strategic-field-org/)| Or the strategic field team for large engagements that require a high degree of strategic planning - such as DevSecOps transformation, solution recommendations, and advisory for our customer's senior technical leadership in high-value, strategic deals ($400k+).|
 | Compete:| You may also bring in the compete team to help with intelligence or positioning. Use the #competition channel on Slack to collaborate and view important resources in their bookmarks.  |
@@ -56,7 +47,7 @@ As the account lead, your role centers on successfully orchestrating all of the 
 
 Every Strategic Account Executive in Enterprise Sales should have a **territory plan** for how they're approaching their patch.
 
-- The first step is to [create a sales territory plan](https://internal.gitlab.com/handbook/sales/territory-planning/): a collaborative, workable plan for targeting the right customers and implementing goals for income and consistent sales growth over time. It’s usually done annually and updated throughout the year.
+- The first step is to [create a sales territory plan](https://internal.gitlab.com/handbook/sales/territory-planning/): a collaborative, workable plan for targeting the right customers and implementing goals for income and consistent sales growth over time. It's usually done annually and updated throughout the year.
 - Your MVP territory plan will help you prioritize and rank your accounts. We use the **Account Rank** field in Salesforce to mark priority accounts.
 - This is followed by creating [account plans](/handbook/sales/account-planning/) for those accounts. Every priority account identified in your territory plan should have an account plan complete and linked in the Gainsight overview in Salesforce.
 - View the territory planning template and worksheet in [our internal handbook](https://internal.gitlab.com/handbook/sales/territory-planning/). And view the [account planning template here](https://gitlab.highspot.com/items/6369653ef05315a895837bf6?lfrm=isd.1).
@@ -67,9 +58,9 @@ Every Strategic Account Executive in Enterprise Sales should have a **territory 
 
 *View important guidance on the [Sales Prospecting](/handbook/sales/prospecting/) handbook page. The expectation for Enterprise Sellers is that they have 3.5x pipe coverage.*
 
-Generally, surprises - whether in the form of sudden, major deals or sudden, major losses - are a bad thing. We have to strive to create predictable results. At first, this seems like trying to predict the vast unknown. But if you have a strong strategy in place for your pipeline, you’ll be able to see exactly how your year will turn out well before it happens. This means better, more reliable forecasts and less stress for you on whether you’ll meet that target. When forecasting, use the **[Sales Forecasting handbook page](https://internal.gitlab.com/handbook/sales/sales-forecasting/)** and [Clari cheat sheet](https://docs.google.com/presentation/d/1ZvQzFrmmqsJPUIk_FxfTy5X0G59IIWDve0Rfmfw1Wec/edit#slide=id.g133719dda83_2_102) to help you.
+Generally, surprises - whether in the form of sudden, major deals or sudden, major losses - are a bad thing. We have to strive to create predictable results. At first, this seems like trying to predict the vast unknown. But if you have a strong strategy in place for your pipeline, you'll be able to see exactly how your year will turn out well before it happens. This means better, more reliable forecasts and less stress for you on whether you'll meet that target. When forecasting, use the **[Sales Forecasting handbook page](https://internal.gitlab.com/handbook/sales/sales-forecasting/)** and [Clari cheat sheet](https://docs.google.com/presentation/d/1ZvQzFrmmqsJPUIk_FxfTy5X0G59IIWDve0Rfmfw1Wec/edit#slide=id.g133719dda83_2_102) to help you.
 
-**Validate, validate, validate.** Effective qualification is just the first step. As you invest in a prospect, it’s important to continuously validate the opportunity throughout the sales cycle and make sure it can deliver results for you and that we are the effective solution for the prospect.
+**Validate, validate, validate.** Effective qualification is just the first step. As you invest in a prospect, it's important to continuously validate the opportunity throughout the sales cycle and make sure it can deliver results for you and that we are the effective solution for the prospect.
 
 ## Moving a deal through the pipeline
 
@@ -88,16 +79,16 @@ During each stage in the detailed spreadsheet, you'll also see major strategic r
 
 Opp management starts with [effective discovery](/handbook/sales/playbook/discovery/). At GitLab, that means [MEDDPPICC](/handbook/sales/command-of-the-message/command-plan/#meddppicc) and having a complete [Command Plan](/handbook/sales/command-of-the-message/command-plan/) for all $50k+ NARR opportunities.
 
-**Use data to validate your opportunities.** If you’re making big bets because you ‘hope’ a prospect will change their mind it’s a sign that you need to go back to the validation process:
+**Use data to validate your opportunities.** If you're making big bets because you 'hope' a prospect will change their mind it's a sign that you need to go back to the validation process:
 
-- What evidence do you have that this deal is ‘real’?
+- What evidence do you have that this deal is 'real'?
 - What data tells you it will happen this quarter or next?
 - What is not being talked about is usually a sign something is not going as planned. For example, do you know their paper process inside and out? Do you know the potential people on their team that could derail the deal later?
-- Meet with your team and get their help and feedback on validating what’s in your pipeline and hold regular meeting cadences with them to walk through your top prospects.
+- Meet with your team and get their help and feedback on validating what's in your pipeline and hold regular meeting cadences with them to walk through your top prospects.
 
-**Keep your opps squeaky clean:** Pay attention to how long something has been sitting in a specific stage, and close it out when the time is right. For a tech company, the average strategic deal takes 6 months to a year to close. While it’s normal for an opportunity to sit, holding it prevents another team (or other resources) from helping it progress.
+**Keep your opps squeaky clean:** Pay attention to how long something has been sitting in a specific stage, and close it out when the time is right. For a tech company, the average strategic deal takes 6 months to a year to close. While it's normal for an opportunity to sit, holding it prevents another team (or other resources) from helping it progress.
 
-Holding hurts our prospective customers because while they’re sitting there, they aren’t getting any real value from us (and likely to get more value from a competitor). It’s for their benefit that we push deals along or move them to close.
+Holding hurts our prospective customers because while they're sitting there, they aren't getting any real value from us (and likely to get more value from a competitor). It's for their benefit that we push deals along or move them to close.
 
 ## Sales enablement resources
 
@@ -109,7 +100,7 @@ If you want to know more about what's available to help you be successful, reach
 
 ## Quick links to common tools
 
-If you don’t have access to the items below and believe you should, open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request).
+If you don't have access to the items below and believe you should, open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request).
 
 ### **Executing your strategy**
 
@@ -129,7 +120,7 @@ If you don’t have access to the items below and believe you should, open an [A
 - [LinkedIn Sales Navigator](https://www.linkedin.com/business/sales/blog/sales-navigator/what-is-linkedin-sales-navigator) is one of the main prospecting tools we use at GitLab. It features a powerful set of search capabilities, improved visibility into extended networks, and personalized algorithms to help you reach the right decision maker. All SAEs have access to LSN. And view additional videos and tutorials on the [handbook page](/handbook/sales/training/social-selling/).
 - [Account-based marketing (ABM)](/handbook/marketing/account-based-marketing/) uses [DemandBase](/handbook/marketing/account-based-marketing/demandbase/) to develop account-based strategy campaigns, create focused account lists, and push out and measure advertising to targets. You can view this data with them or with your Sales Development Representative (SDR).
 - [Salesforce Inbox](https://www.salesforce.com/products/sales-cloud/features/crm-email-connector/?d=cta-conf-1) is a productivity tool to integrate Salesforce with emails. You may need to request access. View the
-- [Outreach.io](https://university.outreach.io/page/prospector-learning-track) is a tool used to automate emails in the form of sequences. Users can track open rates, click through rates, response rates for various templates and update sequences based on these metrics. Outreach.io also helps to track sales activities such as calls. All emails/calls/tasks that are made through Outreach.io are automatically logged in Salesforce with a corresponding disposition.
+- [Outreach.io](https://university.outreach.io/prospecting-specialist-badge) is a tool used to automate emails in the form of sequences. Users can track open rates, click through rates, response rates for various templates and update sequences based on these metrics. Outreach.io also helps to track sales activities such as calls. All emails/calls/tasks that are made through Outreach.io are automatically logged in Salesforce with a corresponding disposition.
 - [Conversica](/handbook/marketing/marketing-operations/conversica/) is a conversational AI tool that helps enterprise marketing, sales, customer success, and finance teams attract, acquire and grow customers at scale across the customer revenue lifecycle. The AI Assistant works by engaging the prospect in a human-like conversation over email in an effort to further qualify the prospect.
 - [Thnks](https://www.thnks.com/) is a way to send small tokens of appreciation to customers, prospects, or contacts while only needing an email or phone. It's not provided by GitLab at this time, but you can talk to your manager about options for expensing. Remember to abide by [our policies](/handbook/legal/anti-corruption-policy/) around gifts for prospects or customers and check with #legal in Slack if you have questions.
 - [The GitLab Swag store](https://shop.gitlab.com/) is another way to send thanks or share the GitLab spirit with busienss contacts or family. [View our policies on swag here.](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/) Remember to abide by [our policies](/handbook/legal/anti-corruption-policy/) around gifts for prospects or customers and check with #legal in Slack if you have questions. You can also use the #swag channel in Slack to get urgent questions answered.
@@ -142,7 +133,7 @@ If you don’t have access to the items below and believe you should, open an [A
 - [Tableau](https://10az.online.tableau.com/#/site/gitlab/home) is a data visualization tool. Your manager can send you specific dashboards relevant to your team to view.
 - [DemandBase](/handbook/marketing/account-based-marketing/demandbase/) is used by SDRs who can show you relevant data related to your target prospects. It has a wealth of intent and propensity to buy data that is married with account engagement indicators to create a holistic intent mapping for each account.
 - [Datafox](/handbook/business-technology/tech-stack/#datafox) is used to view relevant account information.
-- [LeanData](/handbook/marketing/marketing-operations/leandata/) is automatically pulled into Salesforce as data that you can use to better understand contacts and accounts. You don’t need to request access.
+- [LeanData](/handbook/marketing/marketing-operations/leandata/) is automatically pulled into Salesforce as data that you can use to better understand contacts and accounts. You don't need to request access.
 -[GitLab Propensity Models](https://internal.gitlab.com/handbook/sales/propensity_models/) allow you to dive deep into data provided by our Data Science Team including Propensity to Buy, Propensity to Churn, and Propensity to Expand. You can also find these fields in Salesforce and use them to inform your strategy in your territory.
 
 Looking for information on the Commercial Sales Organization? View the [Commercial Sales Playbook](/handbook/sales/commercial/) here.

@@ -11,11 +11,11 @@ The GitLab Marketing team operates as one team and is organized by the following
 
 ## Marketing Purpose
 
-GitLab is the leading DevSecOps Platform that empowers organizations to deliver quality software faster and more efficiently while strengthening security and compliance. The marketing team’s purpose is to amplify the value of the GitLab platform, authentically and transparently, by putting customers and the community at the center of everything we do.
+GitLab is the leading DevSecOps Platform that empowers organizations to deliver quality software faster and more efficiently while strengthening security and compliance. The marketing team's purpose is to amplify the value of the GitLab platform, authentically and transparently, by putting customers and the community at the center of everything we do.
 
 ## Marketing Alignment
 
-As the GitLab Marketing team puts customers at the center of everything we do, the marketing strategy aligns with the customer journey. The journey’s purpose is to provide a clear and cohesive experience to a prospect/customer from the minute they become **Aware** of GitLab, to **Considering** the platform and **Converting** into a happy customer, and then of course **Expanding** over time and becoming an **Evangelist**.
+As the GitLab Marketing team puts customers at the center of everything we do, the marketing strategy aligns with the customer journey. The journey's purpose is to provide a clear and cohesive experience to a prospect/customer from the minute they become **Aware** of GitLab, to **Considering** the platform and **Converting** into a happy customer, and then of course **Expanding** over time and becoming an **Evangelist**.
 
 ![marketing customer journey](mktgcustomerjourney.png)
 
@@ -50,7 +50,7 @@ How we work as one team aligns with the [GitLab Values](/handbook/values/).
 
 **Diversity, Inclusion and Belonging (DIB)** - With GitLab team members being located across the world, we strive to always keep DIB at the core of everything we do. Like the rest of GitLab, we follow asynchronous meeting principles, welcome diverse perspectives, and as marketers, foster an environment where quirkiness is welcomed.
 
-**Efficiency** - We keep efficiency at the forefront of everything we do. Whether it is bringing in marketing technology to automate menial tasks and foster collaboration, finding ways to save cost, or simply doing the right things to be respectful of others’ time, efficiency drives faster results for marketing.
+**Efficiency** - We keep efficiency at the forefront of everything we do. Whether it is bringing in marketing technology to automate menial tasks and foster collaboration, finding ways to save cost, or simply doing the right things to be respectful of others' time, efficiency drives faster results for marketing.
 
 <a id="meetings"></a>
 
@@ -116,7 +116,7 @@ Please follow the [CMO handbook] for review request workflows, and communication
 
 ### Social Requests
 
-All teams are responsible for requesting social posts themselves. If you are not the DRI on a specific category or campaign and want to request a social post, please reach out to the teams’ point person identified below as a first step. Team Members in these roles reserve the right to say no to your request. If they say yes, coordinate with them to [create a new social request issue](integrated-marketing/digital-strategy/social-marketing/) so that the social team can process the request and schedule the post(s). The point person on the team or a member of the marketing or social teams may adjust copy to ensure consistency in brand voice.
+All teams are responsible for requesting social posts themselves. If you are not the DRI on a specific category or campaign and want to request a social post, please reach out to the teams' point person identified below as a first step. Team Members in these roles reserve the right to say no to your request. If they say yes, coordinate with them to [create a new social request issue](integrated-marketing/digital-strategy/social-marketing/) so that the social team can process the request and schedule the post(s). The point person on the team or a member of the marketing or social teams may adjust copy to ensure consistency in brand voice.
 
 - Events: Jr. Content Editor
 - Release & technical posts/product updates: [Technical writing]
@@ -243,7 +243,7 @@ Recordings of the Marketing Functional Conversations can be found on the [GitLab
 
 ### Brand and Product Marketing
 
-Product and Brand Marketing represents the GitLab story at the brand, solution, product, and technical levels. We accelerate GitLab’s path to market by developing market insights, leadership positioning, messaging, and narratives that elevate our brand, show value in our solution, and fuel demand for our platform. We activate brand ambassadors and customer advocates to show momentum and trust in the market. The team includes Solutions & Product Marketing, Brand Marketing, Design, and Content.
+Product and Brand Marketing represents the GitLab story at the brand, solution, product, and technical levels. We accelerate GitLab's path to market by developing market insights, leadership positioning, messaging, and narratives that elevate our brand, show value in our solution, and fuel demand for our platform. We activate brand ambassadors and customer advocates to show momentum and trust in the market. The team includes Solutions & Product Marketing, Brand Marketing, Design, and Content.
 
 <a href="/handbook/marketing/brand-and-product-marketing/" class="btn btn-primary">Handbook</a>
 
@@ -329,7 +329,7 @@ Handbook Links
 
 ### Corporate Communications
 
-The mission of GitLab’s Corporate Communications team is to amplify GitLab's product, people and partnerships in the media, via social media channels and through award wins. This team is responsible for global public relations (PR), social media, and executive communications (speaking).
+The mission of GitLab's Corporate Communications team is to amplify GitLab's product, people and partnerships in the media, via social media channels and through award wins. This team is responsible for global public relations (PR), social media, and executive communications (speaking).
 
 <a href="/handbook/marketing/corporate-communications/" class="btn btn-primary">Handbook</a>
 

@@ -18,7 +18,7 @@ The Manager Challenge addresses your specific needs to understand the qualities 
 
 ### Leadership Development Award
 
-The program was awarded a Gold Excellence in Leadership Development by the [Brandon Hall Group for the Best Unique and Innovative Leadership Development Program](http://www.brandonhall.com/excellenceawards/excellence-leadership.php?year=2021#BestUniqueorInnovativeLeadershipProgram). Brandon Hall operates the largest and longest running awards in Human Capital Management. The GitLab program was evaluated by a panel of learning and development veterans, senior industry experts, analysts, and executives. L&D is thrilled to have been recognized for this achievement!
+The program was awarded a Gold Excellence in Leadership Development by the [Brandon Hall Group for the Best Unique and Innovative Leadership Development Program](https://brandonhall.com/brandon-hall-group-announces-winners-of-the-excellence-in-technology-awards-for-2021/). Brandon Hall operates the largest and longest running awards in Human Capital Management. The GitLab program was evaluated by a panel of learning and development veterans, senior industry experts, analysts, and executives. L&D is thrilled to have been recognized for this achievement!
 
 ![picture-of-gold-in-leadership-excellence award](Gold-LD-Award-2021-01.png)
 
@@ -188,7 +188,7 @@ The document is intended to be a starting point for managers to document where t
     - All of the challenges will reinforce our values by applying management techniques to lead teams in a remote environment. In the weekly charts above, each day or topic will have a [values competency](/handbook/people-group/competencies/#list) that you can expect to improve upon.
 1. **Is the content in the slides in the Handbook?**
     - Yes! All of the content will be in the Handbook. We are creating Google Slides to visualize the content for the challenges but all of it will live in the handbook.
-1. **What if I can’t attend a Live Learning session or complete a challenge?**
+1. **What if I can't attend a Live Learning session or complete a challenge?**
     - If you miss a challenge or live learning session you can go back and complete the challenge anytime. Each SSOT page for material covered will be linked on this page. The live learning recordings will be on the respective SSOT page (ex. the recording for the Week 3 Coaching live learning will be on the [Coaching page]({{< ref "coaching" >}})).
 1. **What if I am out of the office for part of the program?**
     - As long as you complete the challenge and let the Learning and Development know when you have completed them, it is okay to be out of the office during the program.

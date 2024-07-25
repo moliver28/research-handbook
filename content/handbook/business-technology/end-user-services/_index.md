@@ -1,5 +1,4 @@
 ---
-
 title: "End User Services"
 ---
 
@@ -161,7 +160,7 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 
 - IT Analyst EMEA - Eoghan Dunne, edunne-ext@gitlab.com, @edunne-ext
 
-- System Administrator - [Mohammed Al Kobaisy](/handbook/company/team/#malkobaisy), malkobaisy@gitlab.com, @malkobaisy
+- IT Systems Engineer - [Mohammed Al Kobaisy](/handbook/company/team/#malkobaisy), malkobaisy@gitlab.com, @malkobaisy
 
 - Senior IT Systems Engineer -  [Dillon Wheeler](/handbook/company/team/#dillonwheeler), dwheeler@gitlab.com, @dillonwheeler
 

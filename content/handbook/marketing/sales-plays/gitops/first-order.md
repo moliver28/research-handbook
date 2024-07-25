@@ -1,17 +1,8 @@
 ---
-
 title: "Sales Play: GitOps for First Order"
 description: "This page has all the information for the FO GitOps sales play."
 
 ---
-
-
-
-
-
-
-
-
 
 ### **GitOps Sales Play for FO AEs**
 
@@ -45,7 +36,7 @@ description: "This page has all the information for the FO GitOps sales play."
 
 1. Set up the evaluation with the appropriate internal resources
 1. Do the following before sending out a trial key
-   - Mutually agree upon **success criteria** for the 30-day evaluation period (“If at the end of 30 days, we prove [these criteria], then we will consider this trial a success")
+   - Mutually agree upon **success criteria** for the 30-day evaluation period ("If at the end of 30 days, we prove [these criteria], then we will consider this trial a success")
 
    Success criteria examples:
 
@@ -60,7 +51,7 @@ description: "This page has all the information for the FO GitOps sales play."
 
 ### Part 4: Negotiation / Decision-Making
 
-1. Use the [“How GitLab Does it Better”](/handbook/marketing/sales-plays/gitops/#differentiators-how-gitlab-does-it-better) section as supporting material to build the business case for GitLab (ROI) with the customer in the custom deck for the champion present to the economic buyer.
+1. Use the ["How GitLab Does it Better"](/handbook/marketing/sales-plays/gitops/#differentiators-how-gitlab-does-it-better) section as supporting material to build the business case for GitLab (ROI) with the customer in the custom deck for the champion present to the economic buyer.
 1. Share the [Forrester TEI report](https://drive.google.com/file/d/1Vi3_InvTs8r6cLvC4gR9bBumlWV5TNvY/view)
 1. Use the [Cost Comparison Calculators](https://about.gitlab.com/calculator/) to show the value of using GitLab as a single application over other solutions.
 

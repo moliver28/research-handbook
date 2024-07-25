@@ -24,12 +24,12 @@ Streamline partner systems, processes, and workflows to improve ease of doing bu
 Build, deploy, and manage reliable and effective operational practices that are foundational to how we go to market and adaptable to support our growing and evolving partner business.
 
 **Advisory:**
-Trusted subject matter experts for GitLab’s internal and partner teams, providing daily operational support and guiding best practices and business decisions regarding our partner models.
+Trusted subject matter experts for GitLab's internal and partner teams, providing daily operational support and guiding best practices and business decisions regarding our partner models.
 
 ### How to Contact Us
 
 The **#partner-programs-ops** Slack channel can be leveraged for inquiries. Both the Partner Operations Team and the Channel Programs Team monitor this slack channel.
-If you are reporting a problem or have suggestions, changes, or similar, please open an issue on the [Partner Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?label_name[]=Partner%20Ops) for operational issues, or the [Channel Team’s Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel) for program issues.
+If you are reporting a problem or have suggestions, changes, or similar, please open an issue on the [Partner Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?label_name[]=Partner%20Ops) for operational issues, or the [Channel Team's Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel) for program issues.
 
 ### The Partner Operations Issue Board
 
@@ -72,24 +72,24 @@ Please ensure you have followed the prompts to fill in the selected issue templa
 
 ## Communicating with the Partner Teams via Slack
 
-There are a number of different slack channels to serve the different needs of the organization. Below is a list of the most common channels, as well as their uses, intended audience, and posting permissions. Please refer to this list often to ensure you’re posting information and asking questions to the appropriate channel.
+There are a number of different slack channels to serve the different needs of the organization. Below is a list of the most common channels, as well as their uses, intended audience, and posting permissions. Please refer to this list often to ensure you're posting information and asking questions to the appropriate channel.
 
 | Slack Channel | Description | Topic | Audience | Posting Permissions |
 | ------ | ------ | ------ | ------ | ------ |
 | ~~~partner-fyi~~~ | Updates to the Channel & Sales teams on Channel program, operations, enablement and marketing. Questions from team members should be posted on the #partner-programs-ops or #channel-sales | _blank_ | any | Channel Operations, Channel Programs, Nima Badiey |
-| partner-program-ops | Questions and comments about channel programs and operations | https://about.gitlab.com/handbook/resellers/ and https://about.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
+| partner-program-ops | Questions and comments about channel programs and operations | https://handbook.gitlab.com/handbook/resellers/ and https://handbook.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
 | channel-sales |  Questions and comments about opportunities, partner connections, field engagement, and other channel sales questions |  | any | any |
 | channels-emea | A channel for the EMEA channels team and stakeholders to collaborate |  | any | any |
 | channels-amer | A channel for the AMER channels team and stakeholders can collaborate |  | any | any |
 | pub-sec-channels | A channel for the Pubsec channels team and stakeholders to collaborate |  | any | any |
 | ~~~apac_partners~~~ | A channel for the APAC channels team and stakeholders can collaborate |  | any | any |
 | channel-services | Questions and comments about channel services program, enablement and field engagement |  | any | any |
-| #cloud-aws and #cloud-gcp| A channel for collaboration with the alliances Team | https://about.gitlab.com/handbook/alliances/ | any | any |
-| ~~~alliance_sales_ops~~~ | Questions and comments about alliance operations | https://about.gitlab.com/handbook/alliances/ and https://about.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
+| #cloud-aws and #cloud-gcp| A channel for collaboration with the alliances Team | https://handbook.gitlab.com/handbook/alliances/ | any | any |
+| ~~~alliance_sales_ops~~~ | Questions and comments about alliance operations | https://handbook.gitlab.com/handbook/alliances/ and https://handbook.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
 
 ## Standard Channel Practices
 
-For detailed information on GitLab’s Channel Partner Program, visit the [Channel Partner Handbook](/handbook/resellers/). Partners must be an Authorized GitLab Partner _and have completed one sales certification_ to transact any GitLab products or services. To achieve authorization, partners must have an executed agreement and meet the requirements of the GitLab Partner Program. Only GitLab partners in good standing may sell GitLab products and services unless specifically approved on a case-by-case basis by the GitLab partner program team. Partners must [sign up](https://partners.gitlab.com/) to be authorized.
+For detailed information on GitLab's Channel Partner Program, visit the [Channel Partner Handbook](/handbook/resellers/). Partners must be an Authorized GitLab Partner _and have completed one sales certification_ to transact any GitLab products or services. To achieve authorization, partners must have an executed agreement and meet the requirements of the GitLab Partner Program. Only GitLab partners in good standing may sell GitLab products and services unless specifically approved on a case-by-case basis by the GitLab partner program team. Partners must [sign up](https://partners.gitlab.com/) to be authorized.
 
 ### Policy and Process
 
@@ -121,7 +121,7 @@ More information on billing accounts can be found on the [Billing Operations Han
 
 #### How to Find Partner Billing Records in SFDC and Use for Quoting
 
-The Invoice Owner and Invoice Owner Contact on a partner quote represent the partner’s Billing Account and billing account Contact records, respectively.
+The Invoice Owner and Invoice Owner Contact on a partner quote represent the partner's Billing Account and billing account Contact records, respectively.
 
 **Distributors** - GitLab sellers can access the Billing Account and billing account Contact records [for our distributors here](https://docs.google.com/document/d/1GdXiBtOJm3Kt3aVXRPliEQiZlN0X_uIqU0YNMHZo-VU/edit?usp=sharing).
 
@@ -129,7 +129,7 @@ The Invoice Owner and Invoice Owner Contact on a partner quote represent the par
 
 **Resellers and MSPs** - To find Billing Account and billing account Contact records in SFDC for partners that transact directly with GitLab, first navigate to the Partner Account record.
 
-1. Billing Account - Refer to “Billing Account” in the related list quick links section at the top of the Partner Account record
+1. Billing Account - Refer to "Billing Account" in the related list quick links section at the top of the Partner Account record
 2. Billing Account Contact - Open the partner's Billing Account and locate the `Sold To Work Email` (i.e., their Accounts Payable email address). Search for this email in SFDC to determine if a contact record already exists under the Partner Account record
    - If there **is** an existing contact record for this email on the partner account, use it as the Invoice Owner Contact for your quote
    - If there **is not** an existing contact record for this email on the partner account, create a new contact record for this email address called "[Partner Name] - Accounts Payable" which you can then use as Invoice Owner Contact on the quote
@@ -218,10 +218,10 @@ If a GitLab Sales Rep is working directly with a reseller and needs to quote tha
 GitLab is activating Distributor e-Marketplaces for customers to transact via GitLab authorized resellers. There are specific requirements for partners prior to activating their e-Marketplace capability, including:
 
 - Partner is an authorized GitLab Open or Select partner in good standing.
-- GitLab e-Marketplace page that includes an overview of the partner’s technical expertise and/or services offerings.
-- GitLab review of the draft page, and GitLab’s written (email) approval provided to the Distributor.
+- GitLab e-Marketplace page that includes an overview of the partner's technical expertise and/or services offerings.
+- GitLab review of the draft page, and GitLab's written (email) approval provided to the Distributor.
 
-GitLab reserves the right to pause or deactivate a partner’s e-Marketplace offering if issues arise.
+GitLab reserves the right to pause or deactivate a partner's e-Marketplace offering if issues arise.
 For more information about Distributor e-Marketplaces, partners should [contact their distributor](/handbook/sales/field-operations/channel-operations/#transacting-through-distribution), or their GitLab Channel Manager.
 
 ### Partner Sales FAQ
@@ -235,7 +235,7 @@ Partners and GitLab Sellers frequently ask questions on how to collaborate with 
 
 ### Section I: Partner Sourced Deal Registration
 
-- **DR - Partner**: The reseller partner that ‘submitted’ the Partner Sourced Deal Registration that the GitLab Sales Team subsequently ‘approved’ in the system
+- **DR - Partner**: The reseller partner that 'submitted' the Partner Sourced Deal Registration that the GitLab Sales Team subsequently 'approved' in the system
 - **DR - Partner Deal Type**:
   - _MSP_: The partner purchases _and owns_ the license on behalf of the customer
   - _Resale_: The partner is actually transacting the deal on their paper
@@ -299,7 +299,7 @@ Partners and GitLab Sellers frequently ask questions on how to collaborate with 
 
 ### Legal Requests for Partner Contracts
 
-The process to request the [legal team’s involvement in partner contracts](/handbook/legal/customer-negotiations/#to-request-a-legal-review-for-a-channel-partner-contract) can be found on the legal team’s handbook page. Please note that the process for getting partner contracts signed is different from the [process for any other legal request](/handbook/legal/customer-negotiations/#how-to-reach-legal).
+The process to request the [legal team's involvement in partner contracts](/handbook/legal/customer-negotiations/#to-request-a-legal-review-for-a-channel-partner-contract) can be found on the legal team's handbook page. Please note that the process for getting partner contracts signed is different from the [process for any other legal request](/handbook/legal/customer-negotiations/#how-to-reach-legal).
 
 ## Partner Reporting and Tagging
 
@@ -362,12 +362,12 @@ The Partner Sourced Deal Registration process is the same for commercial and US 
 
 1. Each public sector partner is provided a link to a Google form by either the SAE, ISR, or Channel Manager. This form must be completed in order for a partner to receive Preferred Partner Co-Sell discounts.
 2. When a partner becomes aware of an opportunity, they must fill in the Google form, which will timestamp all of the relevant data to a [Google sheet](https://docs.google.com/spreadsheets/d/1Cd5xEDdfiiyMW81oykv6Gq58nG1kn3Sxz9h7adY1o8U/edit?usp=sharing).
-3. Part of filling out the Google form requires the partner to input the name and email of the SAE with whom they’ve discussed this. When that email address is inputted into the form and the form is submitted, that SAE will receive notification of a Pubsec Co-Sell opportunity.
+3. Part of filling out the Google form requires the partner to input the name and email of the SAE with whom they've discussed this. When that email address is inputted into the form and the form is submitted, that SAE will receive notification of a Pubsec Co-Sell opportunity.
 4. The SAE will then approve or deny the submission based on Handbook guidelines.
    - The business reason for accepting a preferred partner submission must be noted on the Google form.
-   - The SAE’s approval or denial will be time stamped in the Google sheet.
+   - The SAE's approval or denial will be time stamped in the Google sheet.
 5. Once a partner is approved and selected, the 18-digit opportunity ID will be shared with them.
-6. If a partner was previously approved but is now being removed, that SAE can selected the “Removed” option and enter the partner’s email address to notify them
+6. If a partner was previously approved but is now being removed, that SAE can selected the "Removed" option and enter the partner's email address to notify them
 
 All submissions will be recorded and tracked for audit purposes. The chosen preferred partner should match the Resale Partner on the quote with the Partner Co-Sell discount.
 
@@ -396,7 +396,7 @@ The Partner Sourced Deal Registration program rewards partners for bringing net-
 
 Refer to the following sections for step-by-step instructions on how to process each registration type: [Resale](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-resale-opportunities), [MSP](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-msp-opportunities), and [Referral](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-referral-opportunities).
 
-GitLab’s Partner Territory Managers, Sales Reps, and Area Sales Managers collaborate to review and action Partner Sourced Deal Registration submissions. Refer to the [Partner Sourced Deal Registration: How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) section for details on the review and approval process.
+GitLab's Partner Territory Managers, Sales Reps, and Area Sales Managers collaborate to review and action Partner Sourced Deal Registration submissions. Refer to the [Partner Sourced Deal Registration: How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) section for details on the review and approval process.
 
 **The SLA for GitLab to communicate with partners on a Partner Sourced Deal Registration is two business days. There must be contact with the registering partner within two business days, whether it be initial outreach to discuss the registration, a request for more information, approval, or rejection.**
 
@@ -410,13 +410,13 @@ The Partner Portal is hosted by Impartner and has SSO enabled with Vartopia, the
 
 The partner submits a Partner Sourced Deal Registration and then the following occurs:
 
-1. An email is sent to the partner acknowledging that the deal registration has been successfully created and submitted. The registration is also viewable in the deal registration section of the partner’s portal account.
+1. An email is sent to the partner acknowledging that the deal registration has been successfully created and submitted. The registration is also viewable in the deal registration section of the partner's portal account.
 2. The system creates a Registration record on the Registration object in SFDC that includes all the details of the registration.
 3. The system notifies the Partner Operations team to review the registration.
 
 **Partner Operations**
 
-The Partner Operations team reviews the registration after it is submitted by the partner (`DR-Status` = “Submitted”). If there is:
+The Partner Operations team reviews the registration after it is submitted by the partner (`DR-Status` = "Submitted"). If there is:
 
 - _an existing customer account in SFDC_, they will link the account and contact to the registration, assign the appropriate Partner Territory Manager, then submit the registration for Partner Territory Manager approval.
 - _no existing customer account in SFDC_, they will create the account, link the account and contact to the registration, then hold for SFDC to assign the account territory and owner in an overnight update. Partner Operations will assign the appropriate Partner Territory Manager to the registration after customer account assignments are completed by system, then submit the registration for Partner Territory Manager approval.
@@ -425,11 +425,11 @@ The Partner Territory Manager on the registration is automatically assigned as t
 
 **GitLab Partner Territory Manager**
 
-The Partner Territory Manager receives an email notification to review the Partner Sourced Deal Registration once the Partner Oprations Team has actioned the registration and submitted it for approval (`DR-Status` = “Pending Sales Review”). Partner Territory Managers can also view registrations in their list view within the SFDC Registration tab. The Partner Territory Manager is responsible for reviewing the registration and communicating with the applicable GitLab Sales Rep and ASM during this process. The Partner Territory Manager must either approve, reject, or return the registration for additional information after completing their review. If they approve, it will automatically be sent to the appropriate ASM for final review.
+The Partner Territory Manager receives an email notification to review the Partner Sourced Deal Registration once the Partner Oprations Team has actioned the registration and submitted it for approval (`DR-Status` = "Pending Sales Review"). Partner Territory Managers can also view registrations in their list view within the SFDC Registration tab. The Partner Territory Manager is responsible for reviewing the registration and communicating with the applicable GitLab Sales Rep and ASM during this process. The Partner Territory Manager must either approve, reject, or return the registration for additional information after completing their review. If they approve, it will automatically be sent to the appropriate ASM for final review.
 
 **GitLab Area Sales Manager (ASM)**
 
-The GitLab ASM for the opportunity is responsible for final review of any Partner Sourced Deal Registration approved by a Partner Territory Manager, and must either approve, reject, or return the registration for additional information. The ASM receives an email notification to review the registration only if/when the Partner Territory Manager approves (`DR-Status` = “Pending ASM Review”). ASMs can also view registrations in their list view within the SFDC Registration tab.
+The GitLab ASM for the opportunity is responsible for final review of any Partner Sourced Deal Registration approved by a Partner Territory Manager, and must either approve, reject, or return the registration for additional information. The ASM receives an email notification to review the registration only if/when the Partner Territory Manager approves (`DR-Status` = "Pending ASM Review"). ASMs can also view registrations in their list view within the SFDC Registration tab.
 
 ****Alliance and GSI Partners**
 
@@ -439,7 +439,7 @@ The steps below outline how a Partner Sourced Deal Registration is submitted on 
 
 1. The GitLab Partner Territory Manager opens the [Alliance and GSI Partner Sourced Deal Registration](https://docs.google.com/document/d/16wTiDbwBoomUmnu2y4OmAAdC4VpvMIUGL1k4vdSrl2Y/edit?usp=sharing) document and follows the instructions to submit a Registration via the google form.
 1. Partner Operations team uses the data provided in the google form to submit a formal Partner Sourced Deal Registration via Vartopia on behalf of the partner.
-1. The standard Partner Sourced Deal Registration process is then followed beginning with the “Partner” paragraph at the top of this handbook section.
+1. The standard Partner Sourced Deal Registration process is then followed beginning with the "Partner" paragraph at the top of this handbook section.
 
 _Note, Partner Sourced Deal Registration incentives do not apply to alliance partners, as our alliance partner agreements supersede these programmatic incentives._
 
@@ -507,23 +507,23 @@ Follow the steps below to process a Partner Sourced Deal Registration for a resa
    - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Partner Territory Manager to review and action the registration.
 
 1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
-1. Confirm the `Deal Registration Type` is ”Resale” and that the partner provided sufficient detail to proceed with the registration. If registration details are:
+1. Confirm the `Deal Registration Type` is "Resale" and that the partner provided sufficient detail to proceed with the registration. If registration details are:
    - _accurate and complete_, proceed to the next step.
-   - _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select “Returned” in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process.
+   - _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select "Returned" in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process.
     ![16-Returned_Reg](/handbook/sales/field-operations/channel-operations/images/16-Returned_Reg.png)
 1. Discuss the opportunity with the GitLab Sales Rep and ASM and decide to either approve or reject the registration.
 1. Click `Link/Create Opportunity`.
     ![14-Link_Create_Opp_Button](/handbook/sales/field-operations/channel-operations/images/14-Link_Create_Opp_Button.png)
-1. On the “Link/Create Opportunity” page, search for the opportunity in the provided list and/or perform a “Global Search.”
+1. On the "Link/Create Opportunity" page, search for the opportunity in the provided list and/or perform a "Global Search."
    - **If the opportunity already exists** and you plan to:
      - _**Approve**_ the registration, click `Link & Make Primary` next to the opportunity name. You will then be brought back to the deal registration record.
      - _**Reject**_ the registration, click `Link` next to the opportunity name. You will then be brought back to the deal registration record.
-   - **If there is no matching opportunity**, click `Create New`, then choose “Standard” as the Opportunity Record Type. Click “Save” on the opportunity and you will be brought back to the “Link/Create Opportunity” page. Click `Link & Make Primary` and you will be brought back to the deal registration record.
+   - **If there is no matching opportunity**, click `Create New`, then choose "Standard" as the Opportunity Record Type. Click "Save" on the opportunity and you will be brought back to the "Link/Create Opportunity" page. Click `Link & Make Primary` and you will be brought back to the deal registration record.
     ![15-Link_Create_Opp_Screen](/handbook/sales/field-operations/channel-operations/images/15-Link_Create_Opp_Screen.png)
 1. Navigate to the Partner Territory Manager Approvals section of the registration record. If you are going to:
 
-   - **Approve**, select “Approved” in the `PM Approval Status` field, then click `Save` to complete your approval.
-   - **Reject**, select “Denied” in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
+   - **Approve**, select "Approved" in the `PM Approval Status` field, then click `Save` to complete your approval.
+   - **Reject**, select "Denied" in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
      ![17-Approve_Deny_Partner_Manager](/handbook/sales/field-operations/channel-operations/images/17-Approve_Deny_Partner_Manager.png)
 
 1. If you created a new opportunity during this process (see step 6 above), update `Opportunity Owner` to the Sales Rep who owns the customer account using the `Change Opportunity Owner` button on the opportunity.
@@ -559,22 +559,22 @@ Follow the steps below to process a Partner Sourced Deal Registration for an MSP
 1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
 1. Confirm the `Deal Registration Type` is "MSP" and that the partner provided sufficient detail to proceed with the registration. If registration details are:
    - _accurate and complete_, proceed to the next step.
-   - _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select “Returned” in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process.
+   - _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select "Returned" in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process.
     ![16-Returned_Reg](/handbook/sales/field-operations/channel-operations/images/16-Returned_Reg.png)
 1. Discuss the opportunity with the GitLab Sales Rep and ASM and decide to either approve or reject the registration.
 1. Click `Link/Create Opportunity`.
     ![14-Link_Create_Opp_Button](/handbook/sales/field-operations/channel-operations/images/14-Link_Create_Opp_Button.png)
-1. On the “Link/Create Opportunity” page, search for the opportunity in the provided list and/or perform a “Global Search.”
+1. On the "Link/Create Opportunity" page, search for the opportunity in the provided list and/or perform a "Global Search."
    - **If the opportunity already exists** and you plan to:
      - _**Approve**_ the registration, click `Link & Make Primary` next to the opportunity name. You will then be brought back to the deal registration record.
      - _**Reject**_ the registration, click `Link` next to the opportunity name. You will then be brought back to the deal registration record.
-   - **If there is no matching opportunity**, click `Create New`, then choose “Standard” as the Opportunity Record Type. Click “Save” on the opportunity and you will be brought back to the “Link/Create Opportunity” page. Click `Link & Make Primary` and you will be brought back to the deal registration record.
+   - **If there is no matching opportunity**, click `Create New`, then choose "Standard" as the Opportunity Record Type. Click "Save" on the opportunity and you will be brought back to the "Link/Create Opportunity" page. Click `Link & Make Primary` and you will be brought back to the deal registration record.
 
     ![15-Link_Create_Opp_Screen](/handbook/sales/field-operations/channel-operations/images/15-Link_Create_Opp_Screen.png)
 1. Navigate to the Partner Manager Approvals section of the registration record. If you are going to:
 
-   - _**Approve**_, select “Approved” in the `PM Approval Status` field, then click `Save` to complete your approval.
-   - _**Reject**_, select “Denied” in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
+   - _**Approve**_, select "Approved" in the `PM Approval Status` field, then click `Save` to complete your approval.
+   - _**Reject**_, select "Denied" in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
      ![17-Approve_Deny_Partner_Manager](/handbook/sales/field-operations/channel-operations/images/17-Approve_Deny_Partner_Manager.png)
 
 1. Change the `Account Name` field on the opportunity to the partner account. This should **not** be the MSP End User (i.e., customer) account.
@@ -608,22 +608,22 @@ Follow the steps below to process a Partner Sourced Deal Registration for a Refe
    - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Partner Territory Manager to review and action the registration.
 
 1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
-1. Confirm the `Deal Registration Type` is ”Referral” and that the partner provided sufficient detail to proceed with the registration. If registration details are:
+1. Confirm the `Deal Registration Type` is "Referral" and that the partner provided sufficient detail to proceed with the registration. If registration details are:
    - _accurate and complete_, proceed to the next step.
-   - _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select “Returned” in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process.
+   - _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select "Returned" in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process.
     ![16-Returned_Reg](/handbook/sales/field-operations/channel-operations/images/16-Returned_Reg.png)
 1. Discuss the opportunity with the GitLab Sales Rep and ASM and decide to either approve or reject the registration.
 1. Click `Link/Create Opportunity`.
     ![14-Link_Create_Opp_Button](/handbook/sales/field-operations/channel-operations/images/14-Link_Create_Opp_Button.png)
-1. On the “Link/Create Opportunity” page, search for the opportunity in the provided list and/or perform a “Global Search.”
+1. On the "Link/Create Opportunity" page, search for the opportunity in the provided list and/or perform a "Global Search."
    - **If the opportunity already exists** and you plan to:
      - _**Approve**_ the registration, click `Link & Make Primary` next to the opportunity name. You will then be brought back to the deal registration record.
      - _**Reject**_ the registration, click `Link` next to the opportunity name. You will then be brought back to the deal registration record.
-   - **If there is no matching opportunity**, click `Create New`, then choose “Standard” as the Opportunity Record Type. Click “Save” on the opportunity and you will be brought back to the “Link/Create Opportunity” page. Click `Link & Make Primary` and you will be brought back to the deal registration record.
+   - **If there is no matching opportunity**, click `Create New`, then choose "Standard" as the Opportunity Record Type. Click "Save" on the opportunity and you will be brought back to the "Link/Create Opportunity" page. Click `Link & Make Primary` and you will be brought back to the deal registration record.
     ![15-Link_Create_Opp_Screen](/handbook/sales/field-operations/channel-operations/images/15-Link_Create_Opp_Screen.png)
 1. Navigate to the Partner Manager Approvals section of the registration record. If you are going to:
-   - _**Approve**_, select “Approved” in the `PM Approval Status` field, then click `Save` to complete your approval.
-   - _**Reject**_, select “Denied” in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
+   - _**Approve**_, select "Approved" in the `PM Approval Status` field, then click `Save` to complete your approval.
+   - _**Reject**_, select "Denied" in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
     ![17-Approve_Deny_Partner_Manager](/handbook/sales/field-operations/channel-operations/images/17-Approve_Deny_Partner_Manager.png)
 1. If you created a new opportunity during this process (see step 6 above), update `Opportunity Owner` to the Sales Rep who owns the customer account using the `Change Opportunity Owner` button on the opportunity.
     ![19-Change_Opp_Owner_Button](/handbook/sales/field-operations/channel-operations/images/19-Change_Opp_Owner_Button.png)
@@ -655,7 +655,7 @@ Follow the steps below to process a Service Attached Registration for an applica
    - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Partner Territory Manager to review and action the registration.
 
 1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
-1. Confirm the `Program Name` is “Service Attached Registration”, `Services Attach Type` is populated with the relevant service, and that the partner provided sufficient detail to proceed with the registration. If registration details are _accurate and complete_, proceed to the next step. If registration details are _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select “Returned” in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process. **Important to note:**
+1. Confirm the `Program Name` is "Service Attached Registration", `Services Attach Type` is populated with the relevant service, and that the partner provided sufficient detail to proceed with the registration. If registration details are _accurate and complete_, proceed to the next step. If registration details are _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select "Returned" in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process. **Important to note:**
    - There may also be a Resale or Referral Partner Sourced Deal Registration for the license sale. The Resale or Referral registration will populate in the opportunity fields, while the Service Attached registration will only be linked to the opportunity.
    - A Service Attached Registration **must** attach to a license sale opportunity.
    - There should already be an existing license sale opportunity in the system prior to processing approvals on a Service Attached Registration. If there is no existing license opportunity, the Partner Territory Manager should request that the partner submit a Partner Sourced Deal Registration for the license sale. Once the Partner Territory Manager has processed the Partner Sourced Deal Registration, they can attach the Service Attached Registration to the existing opportunity and proceed with approvals.
@@ -663,7 +663,7 @@ Follow the steps below to process a Service Attached Registration for an applica
 1. Discuss the Service Attached registration with the GitLab Sales Rep and ASM and decide to either approve or reject.
 1. Click `Link/Create Opportunity`.
     ![20-Svce_Att_Reg_LinkCreateOpp_Button](/handbook/sales/field-operations/channel-operations/images/20-Svce_Att_Reg_LinkCreateOpp_Button.png)
-1. On the “Link/Create Opportunity” page, search for the opportunity in the provided list and/or perform a “Global Search.”
+1. On the "Link/Create Opportunity" page, search for the opportunity in the provided list and/or perform a "Global Search."
    - **If the opportunity already exists**, click `Link` next to the opportunity name. You will then be brought back to the deal registration record.
    - **If there is no matching opportunity**, and you plan to:
      - _**Approve**_ the registration, click the `Back` button and refer to Step 2 above for next steps.
@@ -672,8 +672,8 @@ Follow the steps below to process a Service Attached Registration for an applica
      ![21-Svce_Att_Reg_LinkCreateOpp_Screen.png](/handbook/sales/field-operations/channel-operations/images/21-Svce_Att_Reg_LinkCreateOpp_Screen.png)
 
 1. Navigate to the Partner Manager Approvals section of the registration record. If you are going to:
-   - _**Approve**_, select “Approved” in the `PM Approval Status` field, then click `Save` to complete your approval.
-   - _**Reject**_, select “Denied” in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
+   - _**Approve**_, select "Approved" in the `PM Approval Status` field, then click `Save` to complete your approval.
+   - _**Reject**_, select "Denied" in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
     ![17-Approve_Deny_Partner_Manager](/handbook/sales/field-operations/channel-operations/images/17-Approve_Deny_Partner_Manager.png)
 
 #### Area Sales Manager (ASM) for final review and action (if approved by Partner Territory Manager)
@@ -691,7 +691,7 @@ Follow the steps below to process a Service Attached Registration for an applica
 
    - A Service Attached registration will **not** populate the Partner Sourced Deal Registration section of an opportunity. Click the related list link at the top of the opportunity to locate the Service Attached registration. This will bring you to a list of any registration attached to the opportunity, including the Service Attached Registration.
    ![10-Reg_Related_Lists](/handbook/sales/field-operations/channel-operations/images/10-Reg_Related_Lists.png)
-   - Alternatively, you can scroll to the “Registrations” section toward the bottom of the opportunity.
+   - Alternatively, you can scroll to the "Registrations" section toward the bottom of the opportunity.
      ![11-Reg_for_Svc_Att](/handbook/sales/field-operations/channel-operations/images/11-Reg_for_Svc_Att.png)
 
 1. The Partner delivers services, either before or after the license sale is completed.
@@ -759,7 +759,7 @@ Follow the steps below to register partner influence on an opportunity:
    - Deliver presentation demo, POC, or RFP response
    - Develop customer strategy that recommends GitLab
    - Advise GitLab account team on customer strategy/use case/pain points
-1. Provide a detailed description of the partner’s influence activities using `Description of Partner Influence`
+1. Provide a detailed description of the partner's influence activities using `Description of Partner Influence`
 1. Do not edit `Opportunity Owner`, `ASM`, `Partner Territory Manager` and `Customer Account`. These will auto-populate upon save
 1. `Save` the Influence Partner Record
     ![Alt text](image-1.png)
@@ -788,13 +788,13 @@ _Please reach out to @Partner Operations via chatter if you have any questions o
 
 ## Channel Approvals
 
-Channel Approvers for opportunities are based on the Opportunity Owner’s User Region. Whenever an approver changes, an [issue must be opened with Sales Systems](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/new?issue%5Bmilestone_id%5D=) to replace the old approver with the new. Current channel approvers can be seen in our [channel approver matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.jxrpmpixprez).
+Channel Approvers for opportunities are based on the Opportunity Owner's User Region. Whenever an approver changes, an [issue must be opened with Sales Systems](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/new?issue%5Bmilestone_id%5D=) to replace the old approver with the new. Current channel approvers can be seen in our [channel approver matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.jxrpmpixprez).
 
 If an approver will not be able to approve opportunities due to PTO or some other reason, they must [assign a delegate](/handbook/sales/field-operations/order-processing/#reassign-quote-approvals) in SFDC to approve opportunities on their behalf.
 
 ## Letters of Authorization
 
-When a partner needs a Letter of Authorization ("LOA"), they must log into the partner portal and request one from the “Letter of Authorization” button along the top of the page. If a partner does not log in to the portal, they will not be able to access this request. This helps ensure that only authorized partners can access the link and request a LOA.
+When a partner needs a Letter of Authorization ("LOA"), they must log into the partner portal and request one from the "Letter of Authorization" button along the top of the page. If a partner does not log in to the portal, they will not be able to access this request. This helps ensure that only authorized partners can access the link and request a LOA.
 
 The partner will be prompted to input basic company information that will auto-fill the LOA. Upon submission, the LOA will automatically be sent to the Partner Operations team for review and confirmation that the entity requesting the LOA is a valid and authorized partner. Once appproved by Partner Operations, the LOA will automatically be sent to the legal team who will approve and initial the LOA before sending it to GitLab's PAO for signature. Once signed, the LOA will be sent directly to the partner via email. The letter is good for one calendar year from the date on the letter.
 
@@ -895,7 +895,7 @@ Partner Support will post a message on the slack channel #partner-fyi to share t
 
 ## SFDC Channel Manager Activity Tracker
 
-The Channel Managers use a [tracking system](https://docs.google.com/presentation/d/1fPJutBp85WPNqf3ErQEk7Xp2042UPupTjmSLUMOmXnE/edit?usp=sharing) in Salesforce to record their sales and marketing activities. This tracker allows them to extract data for sales analysis and goal setting (QBRs, OKRs, [Business Plans](https://docs.google.com/presentation/d/1lSXI1cnJQkv5RFwTEO2-J1FNTs0ykp25WA-orJj-Fok/edit#slide=id.g29a70c6c35_0_68), 1:1s). In addition, it enables the creation of [activity frameworks](https://docs.google.com/presentation/d/15rCXjsOj6r6BFYqWMgST5WB6R_XWJiIqYq2eppUoeDw/edit?usp=sharing) to set engagement standards and further develop relationships with GitLab’s partners. This activity tracker is available to all Channel Managers.
+The Channel Managers use a [tracking system](https://docs.google.com/presentation/d/1fPJutBp85WPNqf3ErQEk7Xp2042UPupTjmSLUMOmXnE/edit?usp=sharing) in Salesforce to record their sales and marketing activities. This tracker allows them to extract data for sales analysis and goal setting (QBRs, OKRs, [Business Plans](https://docs.google.com/presentation/d/1lSXI1cnJQkv5RFwTEO2-J1FNTs0ykp25WA-orJj-Fok/edit#slide=id.g29a70c6c35_0_68), 1:1s). In addition, it enables the creation of [activity frameworks](https://docs.google.com/presentation/d/15rCXjsOj6r6BFYqWMgST5WB6R_XWJiIqYq2eppUoeDw/edit?usp=sharing) to set engagement standards and further develop relationships with GitLab's partners. This activity tracker is available to all Channel Managers.
 
 ## Partner Insights
 
@@ -906,15 +906,15 @@ Channel Managers can:
 - generate their Partner Insights data by accessing this self-service [spreadsheet](https://docs.google.com/spreadsheets/d/1DfwnsWbKSUbY21KIzCh2hZH3cgJZltmjXSsCeObLT58/edit?usp=sharing). Please follow the instructions on the first tab of the spreadsheet to generate a PDF with charts and metrics for your selected partner.
 - create a Partner Insights PowerPoint by accessing this [step-by-step guide](https://docs.google.com/document/d/1XoyxxF8Ni8HpXqj17Tsoyd47zxpFpCCtnXJJ_WrO5aM/edit?usp=sharing).
 
-If you need assistance with accessing the spreadsheet or PowerPoint step-by-step guide, please contact us at [#partner-program-ops](https://gitlab.slack.com/archives/CTM4T5BPF) in Slack. If you have a customized reporting request that’s not on the self-service spreadsheet, [please open an issue on the Partner Operations board](/handbook/sales/field-operations/channel-operations/#the-channel-operations-issue-board).
+If you need assistance with accessing the spreadsheet or PowerPoint step-by-step guide, please contact us at [#partner-program-ops](https://gitlab.slack.com/archives/CTM4T5BPF) in Slack. If you have a customized reporting request that's not on the self-service spreadsheet, [please open an issue on the Partner Operations board](/handbook/sales/field-operations/channel-operations/#the-channel-operations-issue-board).
 
 ## Partner Award Program
 
 The GitLab Partner Awards are awarded on an annual basis. No submissions or applications are solicited; partners are assessed on our published award criteria outlined below.
 
-Results are evaluated on the previous GitLab’s fiscal year, which runs February through January - i.e. FY25 Awards will be evaluated on FY24 data.  All awards must be approved by regional Channel directors and VP of Global Channels and Alliances prior to announcement.
+Results are evaluated on the previous GitLab's fiscal year, which runs February through January - i.e. FY25 Awards will be evaluated on FY24 data.  All awards must be approved by regional Channel directors and VP of Global Channels and Alliances prior to announcement.
 
-Winners receive a physical award, virtual badge for use on the partner’s website and social media, and online promotion by GitLab, which may include a blog post and social media announcements.
+Winners receive a physical award, virtual badge for use on the partner's website and social media, and online promotion by GitLab, which may include a blog post and social media announcements.
 
 **Award Program DRI(s):**
 
@@ -1036,7 +1036,7 @@ If GCP or AWS support a deal and help drive the customer to buy GitLab, but were
 - If a deal is being transacted through the **Google Cloud Marketplace**, use the following values in the quote:
   - Invoice Owner = Google Cloud Marketplace
   - Invoice Owner Contact = Cloud Marketplace Payments
-    _Note: search “Payments” (with quotation marks) for the correct contact to populate in this field)_
+    _Note: search "Payments" (with quotation marks) for the correct contact to populate in this field)_
   - Resale Partner = Google Cloud (Partner)
 - If a deal is being transacted through the **Amazon Web Services Marketplace**, use the following values in the quote:
   - Invoice Owner = Amazon Web Services, Inc.
@@ -1045,7 +1045,7 @@ If GCP or AWS support a deal and help drive the customer to buy GitLab, but were
 
 ### Opportunity Tagging for Carahsoft Distributor Seller of Record (DSOR) AWS Marketplace Transactions
 
-Carahsoft’s DSOR (Distributor Seller of Record) Program is a partner program designed to provide ISV clients a 2-Tier channel enablement in expanding their business growth through the AWS Marketplace. Under the program, Carahsoft would list GitLab's products on AWS Marketplace and drive the private offer selling motion. Carahsoft develops the selling opportunity and authorizes the Consulting Partner within the AWS Marketplace to release a private offer to the customer.
+Carahsoft's DSOR (Distributor Seller of Record) Program is a partner program designed to provide ISV clients a 2-Tier channel enablement in expanding their business growth through the AWS Marketplace. Under the program, Carahsoft would list GitLab's products on AWS Marketplace and drive the private offer selling motion. Carahsoft develops the selling opportunity and authorizes the Consulting Partner within the AWS Marketplace to release a private offer to the customer.
 
 For deals transacting through the Carahsoft DSOR program, the quote should reflect a normal two-tier channel transaction where the `Distributor` = "Carahsoft Technology Corporation" and `Resale Partner` = the reseller working the opportunity. For more information/instructions on quoting two-tier distribution deals, please refer to [this Deal Desk handbook section](/handbook/sales/field-operations/sales-operations/deal-desk/#distributor-quotes).
 

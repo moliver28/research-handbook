@@ -23,8 +23,8 @@ The Manager, Field Communications is a grade [8](/handbook/total-rewards/compens
 - Serve as change management and communication expert for large, cross-functional company projects and initiatives, developing communication plans and enablement materials
 - Develop and manage effective communication strategies that improve transparency and efficiency across the entire Field team and with supporting functions
 - Build relationships with key internal business stakeholders and executives to keep Field Comms processes top-of-mind
-- Lead the planning and execution of multi-channel communications plans supporting key field events including Sales Kick Off, President’s Club and Quarterly Business Reviews
-- Run Field Recognition programs, including the Quarterly Achiever’s Chat, collaborating with the CEO, CRO and FOPS team members to support
+- Lead the planning and execution of multi-channel communications plans supporting key field events including Sales Kick Off, President's Club and Quarterly Business Reviews
+- Run Field Recognition programs, including the Quarterly Achiever's Chat, collaborating with the CEO, CRO and FOPS team members to support
 - Own the Field Communications Cadence, including synchronous All Hands meetings (planning, organizing and prepping executives) and asynchronous communication channels.
 - Spearhead efforts to ensure field communications are aligned with expectations as well as industry-standard rules and regulations
 
@@ -54,7 +54,7 @@ The Senior Manager, Field Communications is a grade [9](/handbook/total-rewards/
 
 - Manage, coach, and develop junior Field Communications and [Field Content](/job-families/sales/program-manager-field-enablement/) [Program Managers](/job-families/sales/program-manager-field-enablement/) team members.
 - Collaborate and iterate directly with CRO and the CRO leadership team to provide strategic communications guidance for key revenue-impacting field initiatives
-- Oversee the management and iteration of GitLab’s Sales content management system, ensuring CRO LT, Field leaders, and Field sellers, plus key stakeholders, are engaged and informed on the platform’s performance/ROI  
+- Oversee the management and iteration of GitLab's Sales content management system, ensuring CRO LT, Field leaders, and Field sellers, plus key stakeholders, are engaged and informed on the platform's performance/ROI
 - Lead sales content and messaging initiatives that support proactive go-to-market activities as well as document internal sales processes for various customer segments and all routes to market
 - Champion efforts to define, maintain, and improve communication and alignment between Go-To-Market functions including Field, Marketing and Product teams. Champion the adoption of the GTM Enablement Framework.
 - Promote and oversee development and management of a cascading Field Comms strategy that begins with CRO LT and Field leaders.
@@ -75,7 +75,7 @@ The Senior Manager, Field Communications is a grade [9](/handbook/total-rewards/
 
 - [Field communication/newsletter open and click-through rates](/handbook/sales/field-communications/field-flash-newsletter/#measurement)
 - Field Comms & Content Pulse Survey response rates
-  - Results from benchmark questions related to the Field’s sentiment around feeling informed and enabled in their roles
+  - Results from benchmark questions related to the Field's sentiment around feeling informed and enabled in their roles
 - Feedback from key stakeholders, including CRO LT and Field Leaders/Managers
 - Adoption metrics from sales asset management system, including recurring usage, average sessions and average time-in-platform
 - ROI metrics from sales asset management system and successfully tying ROI insights to sales content

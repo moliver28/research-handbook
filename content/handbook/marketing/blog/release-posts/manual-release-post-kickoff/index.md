@@ -1,5 +1,4 @@
 ---
-
 title: "Manual Release Post Kickoff"
 description: "Guidelines to for manually kicking off the Release Post"
 ---

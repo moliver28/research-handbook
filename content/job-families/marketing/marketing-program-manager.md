@@ -52,7 +52,7 @@ The Senior Marketing Program Manager is a [grade 7](/handbook/total-rewards/comp
 
 ### Additional Senior Role Requirements
 
-- Bachelor’s degree or foreign equivalent in Business Administration, Marketing, Finance, or related field, and 72 months of relevant experience.
+- Bachelor's degree or foreign equivalent in Business Administration, Marketing, Finance, or related field, and 72 months of relevant experience.
 
 ## Career Ladder
 

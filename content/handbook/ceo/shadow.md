@@ -12,9 +12,9 @@ Unless you're joining the program during one of our [remote rotations](#remote-s
 
 ### Goal
 
-The goal of the CEO Shadow Program is to give team members and [eligible individuals](#eligibility) an overview of all aspects of the [company](/handbook/company/). This transparency enables CEO Shadow participants to better engage and collaborate cross-functionally, as well as better perform [cross-functional optimizations]({{< ref "values#cross-functional-optimization" >}}).
+The goal of the CEO Shadow Program is to give team members and [eligible individuals](#eligibility) an overview of all aspects of the [company](/handbook/company/). This transparency enables CEO Shadow participants to better engage and collaborate cross-functionally, as well as better perform [cross-functional optimizations](/handbook/values/#cross-functional-optimization).
 
-As a CEO Shadow, you'll gain this context through the [meetings you attend](#meetings--events) and while [completing]({{< ref "values#operate-with-a-bias-for-action" >}}) short-term [tasks](#tasks) from across the company.
+As a CEO Shadow, you'll gain this context through the [meetings you attend](#meetings--events) and while [completing](/handbook/values/#operate-with-a-bias-for-action) short-term [tasks](#tasks) from across the company.
 The program also creates opportunities for the CEO to build relationships with team members across the company and to identify challenges and opportunities earlier.
 The shadows will also often connect with one another, developing new cross-functional relationships.
 
@@ -30,7 +30,7 @@ Apart from creating leadership opportunities, the CEO Shadow Program:
 1. Gives feedback immediately to the CEO
 1. Enables the CEO to create immediate change
 
-This is why the program is worth the extra overhead for the CEO and [EBA team]({{< ref eba >}}).
+This is why the program is worth the extra overhead for the CEO and [EBA team](/handbook/eba/).
 
 ### Naming of the program
 
@@ -101,7 +101,7 @@ If you have questions about your individual case, please contact the EBA to the 
 1. Create a merge request to add yourself to the [rotation schedule](#rotation-schedule), assigning yourself.
 1. Add your manager as a reviewer and ask them to approve (**but not to merge**) the merge request.
 1. Once your manager approves the merge request, add your e-group leader as a reviewer and ask them to also approve (**but not to merge**) the merge request.
-1. Once your e-group member approves, add the [Staff Executive Business Admin (EBA) to CEO]({{< ref eba >}}) as a reviewer.
+1. Once your e-group member approves, add the [Staff Executive Business Admin (EBA) to CEO](/handbook/eba/) as a reviewer.
 1. Post in the `#ceo-shadow` channel with a link to the merge request, and `@mention` the Staff EBA in the message.
 
 Please keep in mind when selecting dates that the CEO's schedule is fluid and subject to constant change, which also means that the CEO Shadow rotation is subject to constant change. The posted dates are not guaranteed. We will work with you to reschedule your rotation if a conflict arises.
@@ -129,28 +129,24 @@ For those with regular commitments, look for shorter weeks or timezone variation
 ### Rotation schedule
 
 | Start date | End date | See one | Teach one | Schedule Notes |
-| ---------- | -------- | ------- | --------- | -------------- |
-| 2024-06-24 | 2024-06-27 | NO SHADOW| NO SHADOW | E-GROUP OFFSITE |
-| 2024-07-01 | 2024-07-05 | NO SHADOW | NO SHADOW | CEO OOO |
-| 2024-07-08 | 2024-07-12 | NO SHADOW | NO SHADOW | travel in EMEA |
-| 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | REMOTE - ET |
+| ---------- | -------- | ------- | --------- | -------------- | 
 | 2024-07-22 | 2024-07-26 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | REMOTE - ET |
-| 2024-07-29 | 2024-08-02 | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - PT |
-| 2024-08-05 | 2024-08-09 |  Ivan French - CEO, Sijbrandij Foundation | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | REMOTE - CT - limited week due to MS conference |
+| 2024-07-29 | 2024-08-02 | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - ET |
+| 2024-08-05 | 2024-08-09 |  Ivan French - CEO, Sijbrandij Foundation | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | REMOTE - PT |
 | 2024-08-12 | 2024-08-16 | OPEN | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
 | 2024-08-19 | 2024-08-23 | OPEN | OPEN | REMOTE - PT - limited week (M-W)|
 | 2024-08-26 | 2024-08-30 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | OPEN | REMOTE - PT |
 | 2024-09-02 | 2024-09-06 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
 | 2024-09-09 | 2024-09-13 | OPEN | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
-| 2024-09-16 | 2024-09-20 | OPEN | OPEN | REMOTE - PT |
+| 2024-09-16 | 2024-09-20 | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | OPEN | REMOTE - PT |
 | 2024-09-23 | 2024-09-27 | VP-DIRECTS ONLY | VP-DIRECTS ONLY  | In person - San Francisco |
-| 2024-09-30 | 2024-10-04 | OPEN | OPEN | REMOTE - PT |
+| 2024-09-30 | 2024-10-04 | OPEN | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | REMOTE - PT |
 | 2024-10-07 | 2024-10-11 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | OPEN | REMOTE - PT |
 | 2024-10-14 | 2024-10-18 | OPEN | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT - very limited week due to multiple conferences |
 | 2024-10-21 | 2024-10-25 | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
 | 2024-10-28 | 2024-11-01 | OPEN | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
 
-If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
+If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO](/handbook/eba/#executive-business-administrator-team) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 
 ## Preparing for the Program
 
@@ -203,7 +199,7 @@ Feel free to schedule a coffee chat with any of the CEO Shadow Alumni. You can r
 
 This session is designed to answer any questions you may have about your learnings or observations during your time in the CEO Shadow Program. Should it be useful or complementary to your time as a CEO Shadow, our [Chief Legal Officer (CLO)](/job-families/legal-and-corporate-affairs/chief-legal-officer/) hosts Monthly Shadow Chats.
 
-Please @ mention the CLO's [Sr. EBA]({{< ref "eba#executive-business-administrator-team" >}}) in `#ceo-shadow` should you wish to be added to an upcoming session, or if you would like to schedule a 1:1 coffee chat with the CLO. This option is available to all shadows: past, present, and future.
+Please @ mention the CLO's [Sr. EBA](/handbook/eba/#executive-business-administrator-team) in `#ceo-shadow` should you wish to be added to an upcoming session, or if you would like to schedule a 1:1 coffee chat with the CLO. This option is available to all shadows: past, present, and future.
 
 #### Explore the CEO Shadow project
 
@@ -216,12 +212,12 @@ Review the [CEO's calendar](#ceos-calendar) to get an idea of what your upcoming
 
 #### Review the CEO Handbook
 
-The CEO has a [section in the handbook]({{< ref ceo >}}) that details processes and workflows specific to him as well as his background, communication style, strengths, and flaws. Take time to invest in your relationship with him upfront by reviewing this part of the handbook. Here are some helpful sections:
+The CEO has a [section in the handbook](/handbook/ceo/) that details processes and workflows specific to him as well as his background, communication style, strengths, and flaws. Take time to invest in your relationship with him upfront by reviewing this part of the handbook. Here are some helpful sections:
 
-1. [Communication]({{< ref "ceo#communication" >}})
-1. [Pointers from direct reports]({{< ref "ceo#pointers-from-ceo-direct-reports" >}})
-1. [Strengths]({{< ref "ceo#strengths" >}})
-1. [Flaws]({{< ref "ceo#flaws" >}})
+1. [Communication](/handbook/ceo/#communication)
+1. [Pointers from direct reports](/handbook/ceo/#pointers-from-ceo-direct-reports)
+1. [Strengths](/handbook/ceo/#strengths)
+1. [Flaws](/handbook/ceo/#flaws)
 
 #### Review acronyms
 
@@ -237,7 +233,7 @@ If you're not familiar with some of the business acronyms, take a bit of time to
 
 #### Look for values being lived out
 
-Even in meetings where you are unfamiliar with the subject matter, there is opportunity to learn, document, and shape the evolution of [GitLab's values]({{< ref values >}}). Re-read GitLab's values prior to your CEO Shadow rotation, and be mindful of new and inventive ways that [CREDIT]({{< ref "values#credit" >}}) is lived out during the meetings you attend. You can make a merge request to propose new [operating principles]({{< ref "values#operating-principles" >}}), which substantiate top-level values.
+Even in meetings where you are unfamiliar with the subject matter, there is opportunity to learn, document, and shape the evolution of [GitLab's values]({{< ref values >}}). Re-read GitLab's values prior to your CEO Shadow rotation, and be mindful of new and inventive ways that [CREDIT](/handbook/values/#credit) is lived out during the meetings you attend. You can make a merge request to propose new [operating principles](/handbook/values/#operating-principles), which substantiate top-level values.
 
 ### Remote shadow rotations
 
@@ -251,13 +247,14 @@ For insights on maximizing a remote CEO Shadow rotation, view takeaway recap vid
 
 #### Tips for remote shadows
 
+1. If you're based in a different time zone to the CEO, consider moving your working days in small increments (30 -60 mins) towards CEO's working hours 1-2 weeks prior to the start of your rotation. This will help you be refreshed on the first day and alert for the tasks that will be assigned to you during the programme.
 1. Be sure that you have an [ergonomic workspace](/handbook/company/culture/all-remote/workspace/). You'll be taking lots of notes during meetings, and will want a comfortable setup.
 1. Communicate clearly with your co-shadow about shared tasks since you will not be working together in person.
 1. Consider alternating who leads note-taking from one meeting to the next, which reduces confusion on who writes first and who follows from one event to the next.
 1. Take breaks from your desk when there is a break in the CEO's schedule. It's important to take time to [move around](/handbook/company/culture/all-remote/tips/#dedicate-time-for-health-and-fitness).
 1. Depending on your time zone, working in Pacific Time may be an adjustment to your typical working hours. [Plan ahead,](/handbook/company/culture/all-remote/getting-started/#establish-routine-with-family-and-friends) especially if you're balancing responsibilities with family, pets, roommates, etc.
 1. Consider switching locations in your home or workspace during the CEO's 1:1 meetings. Since you [won't be taking active notes](#meeting-responsibilities) in these calls, this is a good opportunity to change position or scenery intermittently throughout the day.
-1. Particularly in a remote CEO Shadow rotation, life is more available to sidetrack you. It is OK if you need to drop from a meeting to handle tasks at home, from childcare to answering the door, or anything in between. GitLab puts [family and friends first, work second]({{< ref "values#family-and-friends-first-work-second" >}}). If feasible, communicate these instances with your co-shadow, so they can assist with ongoing note-taking/tasks.
+1. Particularly in a remote CEO Shadow rotation, life is more available to sidetrack you. It is OK if you need to drop from a meeting to handle tasks at home, from childcare to answering the door, or anything in between. GitLab puts [family and friends first, work second](/handbook/values/#family-and-friends-first-work-second). If feasible, communicate these instances with your co-shadow, so they can assist with ongoing note-taking/tasks.
 1. Consider taking one or two days off after your rotation. Being a CEO Shadow can be intense. Be aware of [symptoms of burnout](/handbook/people-group/paid-time-off/#recognizing-burnout).
 
 ## What to expect during the program
@@ -295,7 +292,7 @@ Here is the breakdown on when to take notes and do timekeeping:
 
 Assume that you are taking notes in a Google Doc affixed to the meeting invite unless it is explicitly stated not to take notes.
 
-If you're unsure whether or not to take notes, default to take them, ask the CEO before the meeting begins, or ping the [EBAs]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) on Slack via `#ceo-shadow` or `ceo-shadow-private` (depending on the sensitivity of the meeting).
+If you're unsure whether or not to take notes, default to take them, ask the CEO before the meeting begins, or ping the [EBAs](/handbook/eba/#executive-business-administrator-team) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) on Slack via `#ceo-shadow` or `ceo-shadow-private` (depending on the sensitivity of the meeting).
 
 #### Taking notes
 
@@ -305,7 +302,7 @@ The goal of the notes is to collect the main points and outcomes, not a full tra
 
 In many instances, when shadows are taking notes during meetings, the discussion is moving too quickly to fully or accurately capture all of the discussion points. Additionally, the shadows may not be fully aware of the full context of the discussion or familiar with certain terminology being used in the meeting. The meeting notes are also not reviewed nor approved by the meeting attendees. Accordingly, meeting notes should not be the SSOT for any meeting as they may not fully or accurately capture the discussion that was had at the meeting.
 
-**CEO Shadows are required to read [these additional note-taking guidelines](https://docs.google.com/document/d/1vkHile2eHVTEl1S7-qv4eEFDc64ghUSesBfvFNz7qfI/edit).** If a notes document is not already linked, see the [templates available here]({{< ref "eba#meeting-request-requirements" >}}).
+**CEO Shadows are required to read [these additional note-taking guidelines](https://docs.google.com/document/d/1vkHile2eHVTEl1S7-qv4eEFDc64ghUSesBfvFNz7qfI/edit).** If a notes document is not already linked, see the [templates available here](/handbook/eba/#meeting-request-requirements).
 
 CEO Shadows are not always the DRI for notes and everyone can contribute to taking notes when in a meeting.
 
@@ -319,7 +316,7 @@ Tips:
 1. If you aren't sure where meeting attendees are in a Google document, click on their face or initials in the upper-right side of the window. Doing this will cause your cursor to jump to wherever their cursor is in the document.
 1. It can be challenging to coordinate with the other shadow on who is taking notes at any point in time. Consider agreeing with the other shadow to "show your hands" in Zoom to indicate that you are not currently taking notes.
 1. Sometimes people will provide some color or context before providing the main point. Consider listening to the first sentence before documenting to ensure you are capturing main points instead of what they are saying verbatim.
-1. Observe how Sid takes notes as a guide to the level of detail and summarization.
+1. Observe how Sid takes notes as a guide to the level of detail and summarization. Consider reviewing Sid's [agenda formatting recommendations](handbook/leadership/1-1/suggested-agenda-format/)  (not only applicable for 1:1s)
 
 #### Keeping time
 
@@ -328,7 +325,7 @@ Shadows are responsible for being aware of the [current time and providing timek
 **Tips for timekeeping:**
 
 - Decide who. Past shadows have found it helpful for the individual in the second week of the program to commit to keeping time when applicable.
-- Understand meeting length. Use the calendar invite as an indication of how long the meeting should last. Remember, we do [speedy meetings]({{< ref "communication#scheduling-meetings" >}}).
+- Understand meeting length. Use the calendar invite as an indication of how long the meeting should last. Remember, we do [speedy meetings](/handbook/communication/#scheduling-meetings).
 - Shadows should provide a 5-minute and a 1-minute notification. You can write "Time check, 5 minutes" on Zoom chat.
 - **If a meeting is running over the allocated time, unmute and verbally say "we're in overtime".** Don't wait for a break in the conversation.
 
@@ -378,7 +375,7 @@ Also send a private Zoom chat message when the [CEO displays other flawed behavi
 
 #### Share thanks
 
-Share [thanks]({{< ref "communication#say-thanks" >}}) in the `#thanks` Slack channel when it comes from a customer or wider community member in a meeting.
+Share [thanks](/handbook/communication/#say-thanks) in the `#thanks` Slack channel when it comes from a customer or wider community member in a meeting.
 
 #### Positivity scores
 
@@ -436,7 +433,7 @@ A tweet storm is a series of X/Twitter posts usually made as replies in a single
 1. Draft 2-5 tweets for a 30 minute video, and up to 10 tweets for a 1 hour video.
     1. The first tweet should hook the audience, pose a question, or state how GitLab does something different.
     1. Attribute any lines that are not spoken by the CEO.
-    1. Consider [looking at the CEO's social media accounts for tone and style]({{< ref "ceo#connecting-on-social-media" >}}).
+    1. Consider [looking at the CEO's social media accounts for tone and style](/handbook/ceo/#connecting-on-social-media).
     1. Each tweet can contain 280 characters, URLs are counted differently. Make sure to test each tweet with the Twitter web form to tweet.
     1. When you add URLs, use the [card validator](https://cards-dev.twitter.com/validator) to render a preview. This can help to refine the tweet text.
     1. More message tips can be found in the [Developer Advocacy on Social Media handbook](/handbook/marketing/developer-relations/developer-advocacy/social-media/#message-tips).
@@ -535,7 +532,7 @@ Personal meetings will be marked as "busy" on the calendar. Shadows do not atten
 
 #### Earnings Mock Call Webinars
 
-Mock Call webinars for earnings prep differ from other meetings on the CEO calendar. There is a specific panelist link for the CEO, and a participants link for shadows to use for observation. Do not join the mock call using the link in the CEO's calendar. The link to register as a participant will be shared with the shadows in #ceo-shadow-private typically by the day prior. If you do not see the registration link posted, please reach out to the [EBAs]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) on Slack.
+Mock Call webinars for earnings prep differ from other meetings on the CEO calendar. There is a specific panelist link for the CEO, and a participants link for shadows to use for observation. Do not join the mock call using the link in the CEO's calendar. The link to register as a participant will be shared with the shadows in #ceo-shadow-private typically by the day prior. If you do not see the registration link posted, please reach out to the [EBAs](/handbook/eba/#executive-business-administrator-team) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) on Slack.
 
 #### Earnings Call
 
@@ -573,8 +570,7 @@ When introducing yourself in a meeting as the first shadow, say:
 1. I'm NAME.
 1. I normally am a/the TITLE.
 1. This is my first/last week in the two-week CEO Shadow Program.
-1. **For GitLab-related meetings:** The goal of the program is to give participants an overview of the functions at GitLab.
-1. **For Valley meetings (not related to GitLab):** The goal of the program is to give participants an introduction to Silicon Valley discussions.
+1. **For all meetings:** The goal of the program is to give participants an opportunity to gain perspective and learn how to think cross-functionally.
 
 When introducing yourself in a meeting as the second shadow, say:
 
@@ -592,7 +588,7 @@ If Sid records a video to the cloud in a meeting it will eventually end up being
 
 When attending events with the CEO, keep the following in mind:
 
-1. The CEO has outlined his [transport preferences]({{< ref "ceo#transport" >}}).
+1. The CEO has outlined his [transport preferences](/handbook/ceo/#transport).
 1. When traveling to events in the Bay Area by car, the CEO will request the ride sharing service.
 1. When traveling to events on foot, CEO Shadows should take responsibility for navigating to the event.
 1. After a talk or panel, be ready to help the CEO navigate the room, particularly if there is a time-sensitive obligation after the event.
@@ -674,7 +670,7 @@ GitLab co-founder and CEO Sid Sijbrandij [answered questions in a YouTube livest
 
 1. CEOs should not optimize meetings for Shadows. They are learning by being in the room, either in-person or virtual, and it's OK if the Shadow doesn't fully understand everything.
 1. A well-designed CEO Shadow Program shouldn't burden a CEO; in fact, Shadows should actively make a CEO's day easier by assisting with notes and changing relevant portions of the company handbook upon request.
-1. Non-obvious benefits for a CEO (and their organization) include CEO empathy and humanizing a CEO, such that team members are more comfortable contributing input to an executive. Shadow alumni are able to translate real-world examples of [assuming positive intent]({{< ref "values#assume-positive-intent" >}}) from their time in the program to their direct reports, further fortifying company culture.
+1. Non-obvious benefits for a CEO (and their organization) include CEO empathy and humanizing a CEO, such that team members are more comfortable contributing input to an executive. Shadow alumni are able to translate real-world examples of [assuming positive intent](/handbook/values/#assume-positive-intent) from their time in the program to their direct reports, further fortifying company culture.
 1. Ensure that CEO Shadows do not plan to do any of their usual work. Shadows should prepare their team as if they were on vacation. Attempting to shadow the CEO while also maintaining a full workload creates undue stress for the CEO Shadow.
 
 ## Alumni
@@ -835,3 +831,4 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-06-03 | 2024-06-14 | [Christopher Wang](https://gitlab.com/cs.wang) | Sr. Manager Strategy and Enablement (Sales Development) | |
 | 2024-06-10 | 2024-06-14 | [Sacha Guyon](https://gitlab.com/sguyon) | Sr. Product Manager (Observability) | |
 | 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) | Sr Director, ESG | |
+| 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | OPEN | REMOTE - ET |

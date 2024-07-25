@@ -1,9 +1,6 @@
 ---
-
-title: Data Intelligence 
+title: Data Intelligence
 ---
-
-
 
 ## <i class="far fa-newspaper" id="biz-tech-icons"></i> Charter
 

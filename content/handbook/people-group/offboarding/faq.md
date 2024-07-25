@@ -90,7 +90,7 @@ Any final commissions earned up until your last working day will be paid (direct
 
 Please create your final expense report in Navan (for employees), OR, please file any outstanding expenses with your final invoice (for contractors), so these can be reimbursed to you in a timely manner. We ask that you submit these at least one week before your departure date.
 
-### How do I submit reimbursable expenses if I don’t have a GitLab access to Navan?
+### How do I submit reimbursable expenses if I don't have a GitLab access to Navan?
 
 Please follow the process as listed on the Expense Handbook [page](/handbook/finance/expenses/#expense-reimbursement-for-terminated-team-members). For any queries regarding final expenses, please send an email to `ap@gitlab.com`
 
@@ -104,7 +104,7 @@ Please follow the process as listed on the Expense Handbook [page](/handbook/fin
 
 ### When will my benefits coverage end?
 
-Typically, benefits coverage ends at the end of the month during which you leave.
+Typically, benefits coverage ends your last day with GitLab. In the US, medical, dental, and vision coverage will end of the month during which you leave, all other benefits end on your last day. 
 
 ### How will my stock options be managed? What will happen to my stock options if I have been at GitLab less than a year at my date of departure?
 
@@ -112,11 +112,11 @@ All information is on the [Stock Options](/handbook/total-rewards/stock-options/
 
 ### What if I am a designated Insider?
 
-Remider: If you are a Designated Insider, while employed by GitLab, each team member is required to comply with the Insider Trading Policy, which among things, prohibits team members who are in possession of material non-public information (MNPI) from (i) trading in GitLab’s stock or other securities on the basis of that MNPI or (ii) disclosing MNPI to someone else who trades on the basis of such MNPI. The Insider Trading Policy also applies to a team member’s immediate family members and household members. In addition, as a Designated Insider and while employed at GitLab you are required to have pre-clearance before making any transactions in GitLab’s stock or other securities.
+Remider: If you are a Designated Insider, while employed by GitLab, each team member is required to comply with the Insider Trading Policy, which among things, prohibits team members who are in possession of material non-public information (MNPI) from (i) trading in GitLab's stock or other securities on the basis of that MNPI or (ii) disclosing MNPI to someone else who trades on the basis of such MNPI. The Insider Trading Policy also applies to a team member's immediate family members and household members. In addition, as a Designated Insider and while employed at GitLab you are required to have pre-clearance before making any transactions in GitLab's stock or other securities.
 
-After you are officially no longer employed by GitLab, your trading account should be unrestricted. However, we recommend that you consider a 90 day “cooling off” period prior to trading in order to avoid any intentional or accidental violation of applicable securities laws. If, however, you are aware of or in possession of any MNPI when your employment or service relationship with GitLab ends, you may not trade (whether directly or indirectly) in GitLab’s stock or other securities until that MNPI has become public or is no longer material.  It is a violation of applicable securities laws to trade on MNPI.
+After you are officially no longer employed by GitLab, your trading account should be unrestricted. However, we recommend that you consider a 90 day "cooling off" period prior to trading in order to avoid any intentional or accidental violation of applicable securities laws. If, however, you are aware of or in possession of any MNPI when your employment or service relationship with GitLab ends, you may not trade (whether directly or indirectly) in GitLab's stock or other securities until that MNPI has become public or is no longer material.  It is a violation of applicable securities laws to trade on MNPI.
 
-If you decide to trade in GitLab’s stock or other securities prior to the 90th day following the end of your employment or service relationship with GitLab, we suggest that you evaluate whether you have MNPI prior to trading.
+If you decide to trade in GitLab's stock or other securities prior to the 90th day following the end of your employment or service relationship with GitLab, we suggest that you evaluate whether you have MNPI prior to trading.
 
 ### Will my ESPP contributions be reimbursed?
 
@@ -128,7 +128,7 @@ More information can be found in the [Growth and Development](/handbook/total-re
 
 ## USA
 
-If you are a US-based team member, your benefits will cease on last day of the month of your departure. You are eligible for [Consolidated Omnibus Budget Reconciliation Act (“COBRA”)](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-consumer.pdf), the COBRA administrator has been notified and will send out the paperwork to your home address on file. More information on timelines and contact information for our COBRA administrator can be found in the [COBRA section]({{< ref "inc-benefits-us#cobra" >}}).  You may also be eligible under the Patient Protection and Affordable Care Act (“PPACA”) for subsidized health care options via the marketplace. If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month. Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from the Compensation & Benefits team by emailing `total-rewards@ gitlab.com`. If you move, please email `people-connect@ gitlab.com` so that we can keep your address up to date in Workday.
+If you are a US-based team member, your medical, dental, and vision benefits will cease on last day of the month of your departure, all other benefits will cease on your last day. You are eligible for [Consolidated Omnibus Budget Reconciliation Act ("COBRA")](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-consumer.pdf), the COBRA administrator has been notified and will send out the paperwork to your home address on file. More information on timelines and contact information for our COBRA administrator can be found in the [COBRA section]({{< ref "inc-benefits-us#cobra" >}}).  You may also be eligible under the Patient Protection and Affordable Care Act ("PPACA") for subsidized health care options via the marketplace. If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month. Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from the Compensation & Benefits team by emailing `total-rewards@ gitlab.com`. If you move, please email `people-connect@ gitlab.com` so that we can keep your address up to date in Workday.
 
 ### Where can I find my pay stubs?
 
@@ -140,7 +140,9 @@ Contact our 401(k) administrative vendor directly to get more information about 
 
 ### What about my HSA/FSA Account(s)?
 
-All information on HSA/FSA accounts is in the [WEX (Discovery Benefits)]({{< ref "inc-benefits-us#wex-discovery-benefits-health-savings-accounts-and-flexible-spending-accounts" >}}) section of the US Benefits handbook page.
+Please see the [Offbarding FSA Section](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#flexible-spending-account-fsa-plans) of the US Benefits Handbook page for details on how your Medical/Health or Dependent Care FSA will be treated when you leave GitLab.
+
+Please see the [Offboarding HSA Section](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#health-savings-account-hsa) of the US Benefits Handbook page for details on how your Health Savings Account will be treated when you leave GitLab.
 
 ### What about my Supplemental Life Insurance?
 
@@ -148,15 +150,11 @@ Please review our [Cigna Supplemental Life Insurance/AD&D]({{< ref "inc-benefits
 
 ## Canada
 
-If you are a Canada-based team member, your benefits will cease on your last day of work.
+If you are a Canada-based team member, your benefits will cease on your last day of work.  There may be options to convert elements of your benefit plan to individual coverage, without medical questions. Please see the [Offboarding Section](/handbook/total-rewards/benefits/general-and-entity-benefits/canada-corp-benefits/#offboarding-gitlab) of the Canada Benefits Handbook page for more information.
 
-There may be options to convert elements of your benefit plan to individual coverage, without medical questions. You can contact the insurance company (Canada Life), or our brokers (SC Insurance), and plan Admin App (Collage) noted below for more information about your options. These options are typically available for only a limited period of time after your coverage terminates (typically either 30 or 60 days).
+## Spain
 
-Canada Life: call 800.957.9777 and additional information is found [here](https://www.greatwestlife.com/common/contact/phone-directory.html)
-SC Insurance: email `info@scinsurance.ca` or call 416.259.1166.
-Collage: email `benefits.admin@collage.c`o or call 800.651.9632.
-
-If there are any issues that they cannot help with, please contact the Total Rewards team by emailing `total-rewards@gitlab.com`.
+See the [Spain Benefits page of the Handbook](/handbook/entity/iberia-srl-spain/#medical-plans) for details on the possibility of converting your benefits to individual coverage.
 
 ## Other
 

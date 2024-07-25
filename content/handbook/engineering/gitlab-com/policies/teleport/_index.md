@@ -20,7 +20,7 @@ The Teleport Access policy applies to all systems within our production environm
 
 ## Procedure
 
-- Teleport access is managed through [Okta](/handbook/business-technology/okta/) and is provided as part of a role's baseline group assignment or through an [access request](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) with appropriate approval
+- Teleport access is managed through [Okta](/handbook/business-technology/okta/) and is provided as part of a role's baseline group assignment or through an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) with appropriate approval
 - Access reviews are performed on a quarterly basis to ensure that all users are appropriate and have appropriate access levels.
 - Teleport Audit Logs must be retained for a defined period of 1 year
 - Teleport Audit Logs must not be modified and or deleted before the defined time of 1 year

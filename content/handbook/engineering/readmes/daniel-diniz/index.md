@@ -1,5 +1,4 @@
 ---
-
 title: "Daniel Diniz's README"
 job: "Support Engineer"
 ---

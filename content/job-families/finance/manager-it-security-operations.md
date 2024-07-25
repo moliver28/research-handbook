@@ -1,7 +1,7 @@
 ---
 title: Manager, IT Security Operations
 ---
- 
+
 The Manager, IT Security Operations job family leads a team of highly-collaborative and results-oriented IT Security and IT Compliance team members tasked with assessing, identifying gaps, and developing and maturing Security and Compliance processes and policies. The Manager, IT Security Operations is in charge of scaling, increasing performance, providing team leadership and guidance to help evolve the security programs in accordance with strategic objectives, identify and engineer technology initiatives, and develop and enhance defensive measures.
 
 ## Levels
@@ -49,7 +49,7 @@ The Manager, IT Security Operations is a [level 8](/handbook/total-rewards/compe
 - Familiar with compliance and privacy regulations such as PCI, GDPR, CCPA, SOX, and other regulations/standards
 - Leadership skills and the ability to mentor or provide guidance to teams
 - CISSP, CCSP, or other relevant industry security-focused certifications preferred
-- Bachelor’s Degree or equivalent work experience required
+- Bachelor's Degree or equivalent work experience required
 - Share our values, and work in accordance with those values
 - [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab

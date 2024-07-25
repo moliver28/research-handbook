@@ -1,13 +1,6 @@
 ---
-
 title: "CSM Rhythm of Business"
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 

@@ -1,14 +1,7 @@
 ---
-
 title: "Juan Silva's README"
 job: "Fullstack Engineering Manager - Geo"
 ---
-
-
-
-
-
-
 
 ## Juan Silva @ GitLab
 

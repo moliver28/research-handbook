@@ -1,15 +1,8 @@
 ---
-
 title: Project Plans
 description: >-
   Project plans for the Ops Sub-department.
 ---
-
-
-
-
-
-
 
 ## Key projects
 

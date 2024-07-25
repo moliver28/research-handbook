@@ -1,16 +1,9 @@
 ---
-
 title: SMB Account Executive
 description: >-
   SMB Account Executive guidelines to assist prospects through their evaluation
   and buying process of GitLab
 ---
-
-
-
-
-
-
 
 ## "You should expect excellence of yourself, teammates, and managers in your role. We will be excellent if we expect it."
 

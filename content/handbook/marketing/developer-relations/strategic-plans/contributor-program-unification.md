@@ -1,5 +1,4 @@
 ---
-
 title: "Contributor Program Unification & Growth Plan"
 description: "Streamline the different programs that support & grow our Contributor Community within GitLab."
 ---
@@ -29,10 +28,10 @@ Developer Relations is currently responsible for overseeing five programs, each 
 
 | Name of program  | Goal | Benefits & Rewards | Handbook Page |
 |------------------|------|--------------------|---------------|
-| Heroes | Evangelizing GitLab by speaking, demoing, giving talks, writing blogs, … | Invites to GitLab events, Ultimate licenses, Swag | <https://about.gitlab.com/handbook/marketing/developer-relations/evangelist-program/#gitlab-heroes> |
-| Meetup Organizers | Support meetup organizers so that GitLab can be evangelized &  GitLab Heroes have a stage to talk from. | Meetup Expenses, Swag | <https://about.gitlab.com/handbook/marketing/developer-relations/evangelist-program/#meetups> |
-| Code Contributors<br>Hackathon, MVP, 1st MR Merged code contributors | Support & grow the number of code contributors as described in our [company strategy](/handbook/company/strategy/#dual-flywheels) in order for our dual-flywheel to go faster. | Swag | <https://about.gitlab.com/handbook/marketing/developer-relations/contributor-success/> |
-| Leading Organizations | The GitLab Leading Organization program supports this mission by recognizing and incentivizing organizations and individuals who are among our most active contributors. | Consultant Contributor for organizations > 100K ARR, SLO on review time, Legal Advice, Certificate of achievement | <https://about.gitlab.com/handbook/marketing/developer-relations/leading-organizations/> |
+| Heroes | Evangelizing GitLab by speaking, demoing, giving talks, writing blogs, … | Invites to GitLab events, Ultimate licenses, Swag | <https://handbook.gitlab.com/handbook/marketing/developer-relations/evangelist-program/#gitlab-heroes> |
+| Meetup Organizers | Support meetup organizers so that GitLab can be evangelized &  GitLab Heroes have a stage to talk from. | Meetup Expenses, Swag | <https://handbook.gitlab.com/handbook/marketing/developer-relations/evangelist-program/#meetups> |
+| Code Contributors<br>Hackathon, MVP, 1st MR Merged code contributors | Support & grow the number of code contributors as described in our [company strategy](/handbook/company/strategy/#dual-flywheels) in order for our dual-flywheel to go faster. | Swag | <https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success/> |
+| Leading Organizations | The GitLab Leading Organization program supports this mission by recognizing and incentivizing organizations and individuals who are among our most active contributors. | Consultant Contributor for organizations > 100K ARR, SLO on review time, Legal Advice, Certificate of achievement | <https://handbook.gitlab.com/handbook/marketing/developer-relations/leading-organizations/> |
 | Core Team | The mission of the core team is to act as a steward for the wider GitLab community and help GitLab live up to its mission and values. | Limited Slack Access, Developer Role in gitlab-org, Team Page listing, Ultimate license, JetBrains license, GitLab event sponsored access, Swag | <https://about.gitlab.com/community/core-team/> |
 
 ## Gaps
@@ -165,7 +164,7 @@ Note: The points, levels & status can still change.
     - Merged merge requests credited to all code participants, each participant was credited 5 Contribution Points
 
 - A community member validates a bug
-  - Issue Labelled as ~"Issue Validation::<FY*Q*>"
+  - Issue labeled as ~"Issue Validation::<FY*Q*>"
     - Validation credited to participant who commented in issue explaining what they have validated and requested label be applied
 
 - Writing blog posts
@@ -179,7 +178,7 @@ Note: The points, levels & status can still change.
 
 When looking at our total community, we want to cheer for those that spread the word & promote our cause (formerly known as GitLab Heroes & Meetups program), in combination with contributions that happen on GitLab.com. Combining the offline & online contributions in a single program is challenging but necessary.
 
-Similar to “MVP” or other award ceremonies, we will select wider community members on a monthly basis that went above and beyond in community participation. This could go from speakers at large events to moderators in our forum or other activities. Individuals that positively talk about & evangelize GitLab and have a large reach, should be awarded and recognized. This is comparable to the (former) GitLab heroes program. In time, we should strive for automation where possible.
+Similar to "MVP" or other award ceremonies, we will select wider community members on a monthly basis that went above and beyond in community participation. This could go from speakers at large events to moderators in our forum or other activities. Individuals that positively talk about & evangelize GitLab and have a large reach, should be awarded and recognized. This is comparable to the (former) GitLab heroes program. In time, we should strive for automation where possible.
 
 The portal through which we will review this data will be Common Room. Activities reviewed could be, but are not limited to:
 
@@ -195,7 +194,7 @@ The portal through which we will review this data will be Common Room. Activitie
 
 ## Phase 3: Draft - Increase diversity and inclusion of our wider community
 
-Due to the sensitive nature of this phase, we’re looking for feedback on these ideas from multiple angles over at https://gitlab.com/gitlab-org/community-relations/contributor-success/team-task/-/issues/248
+Due to the sensitive nature of this phase, we're looking for feedback on these ideas from multiple angles over at https://gitlab.com/gitlab-org/community-relations/contributor-success/team-task/-/issues/248
 
 ## Phase 4: Address recognition gaps
 
@@ -206,7 +205,7 @@ Award: Organization of the month
 - Includes & combines activity of all users tied to that organization.
 - Highlights GitLab partners or customers that contribute to GitLab publicly
 
-Award: “The Sid Sijbrandij award” - Yearly
+Award: "The Sid Sijbrandij award" - Yearly
 
 - A very special title only a select few can hold. Mostly driven around being going above and beyond while upholding the values of GitLab
 - Sid is presented with a shortlist of 5 contributors & what they achieved
@@ -227,7 +226,7 @@ As contributors start to accumulate points, we need to reward active and recent 
 
 ## Open Questions or further iterations
 
-- Using this point system & having organizations combine their users to more easily “level-up”
+- Using this point system & having organizations combine their users to more easily "level-up"
   - We can start to introduce a public organizational ranking. Leaderboards of both users & organizations can be built, similar to https://www.drupalcontributions.org/ or
   - We are blocked to execute on that and need to solve https://gitlab.com/gitlab-org/gitlab/-/issues/368130 to proceed.
 - Recognizing organizational support for the contributors is critical.
@@ -236,7 +235,7 @@ As contributors start to accumulate points, we need to reward active and recent 
   - Spoke with Honora Duncan and she was very excited about such a possibility.
   - We should bias those that contribute more, similar to the example over at https://www.drupal.org/drupal-services (contribution count is publicly displayed)
 - The system could be tweaked in favor of certain projects in certain months, allowing us to shift focus on certain areas such as AI experiments, Terraform, GitLab CLI, or other ways to slice and dice our contributions automatically and hand our more or fewer rewards to these areas.
-- Do we want a 1:2 ratio between “code contributions” and “non-code contributions”?
-  - Given we have always biased & measured towards code contributions vs others in the past, I think it’s fair to start from that point and learn.
+- Do we want a 1:2 ratio between "code contributions" and "non-code contributions"?
+  - Given we have always biased & measured towards code contributions vs others in the past, I think it's fair to start from that point and learn.
   - It is rather risky to set them as equal from the start, as we do not know what the impact of it will be.
   - Code contributions are per definition positive, harder to assess from comments or other activity.

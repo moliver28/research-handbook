@@ -18,7 +18,7 @@ For a brief video overview of the tools used to monitor Snowplow usage, please c
   - The number of events that successfully reach Snowplow collectors.
   - The number of events that failed to reach Snowplow collectors.
   - The number of backend events that were sent.
-- [AWS CloudWatch dashboard](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards:name=SnowPlow;start=P3D) monitors the state of the events in a processing pipeline. The pipeline starts from Snowplow collectors, goes through to enrichers and pseudonymization, and then up to persistence in an S3 bucket. From S3, the events are imported into the Snowflake Data Warehouse. You must have AWS access rights to view this dashboard. For more information, see [monitoring](https://gitlab.com/gitlab-org/analytics-section/analytics-instrumentation/snowplow-pseudonymization#monitoring) in the Snowplow Events pseudonymization service documentation.
+- [AWS CloudWatch dashboard](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards:name=SnowPlow;start=P3D). You need to log into AWS through Okta before opening the dashboard. It monitors the state of the events in a processing pipeline. The pipeline starts from Snowplow collectors, goes through to enrichers and pseudonymization, and then up to persistence in an S3 bucket. From S3, the events are imported into the Snowflake Data Warehouse.
 - [Snowflake](https://app.snowflake.com/) is where analytics data ends up and can be queried. Basic intro on how to access data in Snowflake in [this video](https://www.youtube.com/watch?v=0RGnh7eErDs)
 
 ### Alerts
@@ -38,7 +38,7 @@ You will be alarmed via a [Monte Carlo alert](https://getmontecarlo.com/monitors
 
 Start with the [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2358326/views) which is based on the raw data ingested from our Snowplow S3 Bucket. Try to answer the following questions:
 
-1. Is the number of bad events unusually high, or is the number of good events lower than usual? If the latter is true, it indicates an unalerted drop in good events, and you should continue with the [good events drop alert](#good-events-drop).
+1. Is the number of bad events unusually high, or is the number of good events lower than usual? If the latter is true, it indicates an unalerted drop in good events, and you should continue with the [good events drop alert](#good-events-volume-drop).
 1. Locate the abbreviated messages which have the most increase in the affected time frame (see [chart](https://10az.online.tableau.com/#/site/gitlab/views/SnowplowEventVolumeDebugging/BadEventmessages?:iid=1)), and are therefore likely to have caused the error.
 1. If the messages start with "Payload with vendor", it's likely triggered by a directory scan by some kind of bot, since Snowplow interprets the first folder in the path as the
      vendor, e.g. for `https://snowplow-collector.com/snowplow` the vendor would be `snowplow`. These errors can be ignored if they don't persist beyond a few days.
@@ -63,11 +63,11 @@ You can use `echo '<base_64_request>' | base64 -D` to decode the request and loo
 
 [This video](https://youtu.be/1GyUera6uH4) shows a debugging session of bad events in Snowplow.
 
-#### Good events drop
+#### Good events volume drop
 
 ##### Symptoms
 
-You will be alarmed via a [Monte Carlo alert](https://getmontecarlo.com/monitors/c16474d8-4660-4be2-9be6-5af3be25bd48) that is sent to `#g_analytics_instrumentation_alerts` Slack channel that the amount of newly received Snowplow events is below a feasible threshhold.
+You will be alarmed via a [Monte Carlo alert](https://getmontecarlo.com/monitors/c16474d8-4660-4be2-9be6-5af3be25bd48) or [Cloud Watch alarm](https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#alarmsV2:alarm/Low+good+events+record+volume)  that is sent to `#g_analytics_instrumentation_alerts` Slack channel that the amount of newly received Snowplow events is below a feasible threshhold.
 
 ##### Locating the problem
 
@@ -85,12 +85,10 @@ While on CloudWatch dashboard set time range to last 4 weeks, to get better pict
 Drop occurring at application layer can be symptom of some issue, but it might be also a result of typical application lifecycle, intended changes done to analytics instrumentation or experiments tracking
 or even a result of a public holiday in some regions of the world with a larger user-base. To verify if there is an underlying problem to solve, you can check following things:
 
-1. Check `about.gitlab.com` website traffic on [Google Analytics](https://analytics.google.com/analytics/web/) to verify if some public holiday might impact overall use of GitLab system
-   1. You may require to open an access request for Google Analytics access first, for example: [access request internal issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/1772)
-1. Plot `select date(dvce_created_tstamp) , event , count(*) from legacy.snowplow_unnested_events_90 where dvce_created_tstamp > '2021-06-15' and dvce_created_tstamp < '2021-07-10' group by 1 , 2 order by 1 , 2` in Snowflake to see what type of events was responsible for drop
-1. Plot `select date(dvce_created_tstamp) ,se_category , count(*) from legacy.snowplow_unnested_events_90 where dvce_created_tstamp > '2021-06-15' and dvce_created_tstamp < '2021-07-31' and event = 'struct' group by  1 , 2 order by  1, 2` what events recorded the biggest drops in suspected category
-1. Check if there was any MR merged that might cause reduction in reported events, pay an attention to ~"analytics instrumentation" and ~"growth experiment" labeled MRs
-1. Check (via [Grafana explore tab](https://dashboards.gitlab.net/explore) ) following Prometheus counters `gitlab_snowplow_events_total`, `gitlab_snowplow_failed_events_total` and `gitlab_snowplow_successful_events_total` to see how many events were fired correctly from GitLab.com. Example query to use `sum(rate(gitlab_snowplow_successful_events_total{env="gprd"}[5m])) / sum(rate(gitlab_snowplow_events_total{env="gprd"}[5m]))` would chart rate at which number of good events rose in comparison to events sent in total. If number drops from 1 it means that problem might be in communication between GitLab and AWS collectors fleet.
+1. Check the [Analytics Instrumentation Grafana dashboard](https://dashboards.gitlab.net/d/product-intelligence-main/product-intelligence-product-intelligence?orgId=1) to see whether there's a drop in successfully sent events.
+1. Check if frontend events are firing correctly and the collectors are reachable by browsing GitLab.com and using the network tab and searching for `snowplow`.
+1. Check requests per second on the [Web Apdex dashboard](https://dashboards.gitlab.net/d/general-service/general3a-service-platform-metrics?orgId=1&from=now-2d&to=now), to see if traffic should be generally considered to behave as normal.
+1. Check if there was any MR merged that might cause reduction in reported events, pay an attention to [~"analytics instrumentation"](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=merged&label_name[]=analytics%20instrumentation) and [~"growth experiment"](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=merged&label_name[]=growth%20experiment) labeled MRs
 1. Check [logs in Kibana](https://log.gprd.gitlab.net/app/discover#) and filter with `{ "query": { "match_phrase": { "json.message": "failed to be reported to collector at" } } }` if there are some failed events logged
 
 We conducted an investigation into an unexpected drop in snowplow events volume.
@@ -98,6 +96,20 @@ We conducted an investigation into an unexpected drop in snowplow events volume.
 GitLab team members can view more information in this confidential issue: `https://gitlab.com/gitlab-org/gitlab/-/issues/335206`
 
 ##### Troubleshooting AWS layer
+
+The AWS layer is maintained by our infrastructure team and configured through a
+[terraform repository](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/main/environments/aws-snowplow).
+
+If it is likely that the AWS layer is responsible for the drop in events then we need help from the SRE on-call.
+[Declare an official incident](https://docs.gitlab.com/ee/operations/incident_management/slack.html#declare-an-incident) with severity S4 and `gitlab` as the project to get their attention.
+
+#### Delay in Snowplow Enrichers
+
+If there is an alert for **Snowplow Raw Good Stream Backing Up**, we receive an email notification. This sometimes happens because Snowplow Enrichers don't scale well enough for the amount of Snowplow events.
+
+If the delay goes over 48 hours, we lose data.
+
+To alert the SRE on-call [declare an official incident](https://docs.gitlab.com/ee/operations/incident_management/slack.html#declare-an-incident) with severity S4 and `gitlab` as the project.
 
 Already conducted investigations:
 
@@ -107,30 +119,6 @@ Already conducted investigations:
 ##### Troubleshooting data warehouse layer
 
 Reach out to [Data team](/handbook/business-technology/data-team/) to ask about current state of data warehouse. On their handbook page there is a [section with contact details](/handbook/business-technology/data-team/#how-to-connect-with-us)
-
-#### Delay in Snowplow Enrichers
-
-If there is an alert for **Snowplow Raw Good Stream Backing Up**, we receive an email notification. This sometimes happens because Snowplow Enrichers don't scale well enough for the amount of Snowplow events.
-
-If the delay goes over 48 hours, we lose data.
-
-##### Contact SRE on-call
-
-Send a message in the [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV) Slack channel using the following template:
-
-```markdown
-Hello team!
-
-We received an alert for [Snowplow Raw Good Stream Backing Up](https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#alarmsV2:alarm/SnowPlow+Raw+Good+Stream+Backing+Up?).
-
-Enrichers are not scalling well for the amount of events we receive.
-
-See the [dashboard](https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards:name=SnowPlow).
-
-Could we get assistance to fix the delay?
-
-Thank you!
-```
 
 ##### Recovering events incorrectly marked as "bad"
 
@@ -164,8 +152,8 @@ Currently we have a few dashboard to monitor and investigate malfunctions:
 
 ### Alerts
 
-You will be alerted by the [Data](https://about.gitlab.com/handbook/business-technology/data-team/) team and their
-[Monte Carlo alerting](https://about.gitlab.com/handbook/business-technology/data-team/platform/monte-carlo/).
+You will be alerted by the [Data](/handbook/business-technology/data-team/) team and their
+[Monte Carlo alerting](/handbook/business-technology/data-team/platform/monte-carlo/).
 
 ### Locating the problem
 
@@ -192,7 +180,7 @@ Check if the files are present in [Google Storage](https://console.cloud.google.
 
 ### Troubleshoot the data warehouse layer
 
-Reach out to the [Data team](https://about.gitlab.com/handbook/business-technology/data-team/) to ask about current state of data warehouse. On their handbook page there is a [section with contact details](https://about.gitlab.com/handbook/business-technology/data-team/#how-to-connect-with-us).
+Reach out to the [Data team](/handbook/business-technology/data-team/) to ask about current state of data warehouse. On their handbook page there is a [section with contact details](/handbook/business-technology/data-team/#how-to-connect-with-us).
 
 ### Troubleshoot integration with Salesforce
 

@@ -1,15 +1,8 @@
 ---
-
 title: "Hacker News"
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/hacker-news/index.html
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -80,7 +73,7 @@ Follow the [formatting options documentation](https://news.ycombinator.com/forma
 
 Remember that your comments are being read by many more folks than the person to whom you are responding. Make sure that the information you share is helpful to them, too. Aim to make your replies valuable to everyone involved in the conversation, not just the person you are replying to. When addressing criticism or negative feedback, it is unlikely to change the mind of someone whose comment or point-of-view is antagonistic or disagreeable but your reply can be valuable to the folks who are simply there to read and learn.
 
-A [comment](https://news.ycombinator.com/item?id=30006193) on Hacker News sums it up well by suggesting to focus on "conveying without convincing". The commenter suggests, "Ensure the facts are made clear and point out disagreements. Share your motivations and reasoning. Ask people to clarify when they say something you don’t understand, or could parse multiple ways. Leave disagreement alone, and don’t press it to change into agreement."
+A [comment](https://news.ycombinator.com/item?id=30006193) on Hacker News sums it up well by suggesting to focus on "conveying without convincing". The commenter suggests, "Ensure the facts are made clear and point out disagreements. Share your motivations and reasoning. Ask people to clarify when they say something you don't understand, or could parse multiple ways. Leave disagreement alone, and don't press it to change into agreement."
 
 ## Blog comments
 
@@ -96,8 +89,8 @@ Blog comments can be easily monitored by filtering forum topics by the [feedback
 - If you comment yourself make sure it is interesting and relevant.
 - Review the Hacker News [Guidelines](https://news.ycombinator.com/newsguidelines.html) and [FAQ](https://news.ycombinator.com/newsfaq.html).
 - Make yourself familiar with [A List of Hacker News's Undocumented Features and Behaviors](https://github.com/minimaxir/hacker-news-undocumented) to understand Hacker News behaviour and moderation rules.
-- Check the tone of your response: Don’t be defensive, but instead share your point of view.
-- Try to teach people something interesting they didn’t know already.
+- Check the tone of your response: Don't be defensive, but instead share your point of view.
+- Try to teach people something interesting they didn't know already.
 - Add value to your post with data points or direct links.
 
 **Note:** You should [review our team member social media policy](/handbook/marketing/team-member-social-media-policy/) before using social media relating to GitLab.

@@ -1,8 +1,7 @@
 ---
-
 title: "Helping Customers Decide to Migrate to SaaS"
 ---
- 
+
 
 
 
@@ -51,7 +50,7 @@ We recommend asking champions some discovery questions during a cadence call to 
    - Are these accessible on SaaS?
    - Are you utilizing the GitLab API to do things that require admin privileges?
    - *If the customer switches to SaaS, they will not be able to use the admin panel OR perform API calls that require admin access.*
-1. Have you completed a security audit of our SaaS solution to ensure it is compliant to your organization’s standards?
+1. Have you completed a security audit of our SaaS solution to ensure it is compliant to your organization's standards?
    - *If the customer answers NO, we recommend their security team performs any required audits in advance to ensure SaaS is compliant with their security requirements.*
 1. What are your access control security requirements?
 1. What are you using for authentication?

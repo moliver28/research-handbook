@@ -1,12 +1,7 @@
 ---
-
 title: Support Hybrid Learning Path Checkpoint
 description: "Checkpoints for new starters who are working through their support hybrid learning path. This is a guide only, progress is not linear."
 ---
-
-
-
-
 
 ## Support Hybrid Model Learning Path Checkpoints
 

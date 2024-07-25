@@ -1,5 +1,4 @@
 ---
-
 title: DevSecOps POV Scope and Acceptance
 description: DevSecOps POV Scope and Acceptance
 ---

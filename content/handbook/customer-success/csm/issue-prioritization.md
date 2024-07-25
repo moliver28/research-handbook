@@ -1,14 +1,7 @@
 ---
-
 title: "Using Issue Prioritization Dashboard as a CSM"
 description: "The key aspects of how Customer Success Managers use Sisense Issue Prioritization Dashboard to drive success for customers."
 ---
-
-
-
-
-
-
 
 The Customer Prioritization Framework is currently an MVC and in its initial pilot phase.** Work in progress can be seen on the [WG:Prioritization Framework issue board](https://gitlab.com/groups/gitlab-com/-/boards/2086332?label_name[]=wg%3Aprioritization%20framework). For any questions or to collaborate, feel reach out to DRI `@gweaver` or join the [ongoing bi-weekly sync](https://docs.google.com/document/d/1oBWNxBSOJKrh3ubHwN5pI8243vBjJ-Y_Cax17A5abII/)
 

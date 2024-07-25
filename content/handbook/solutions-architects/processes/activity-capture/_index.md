@@ -1,11 +1,9 @@
 ---
-
 title: Solutions Architecture Activity Capture
 description: >-
   Solutions Architects record all customer and prospect activity to promote
   transparency and collaboration
 ---
-
 
 Solutions Architects record all customer and prospect activity to promote **transparency** and **collaboration**. By consistently capturing our prospect or customer-facing activity, we can perform analysis for further reporting to establish **efficient** decision making for GitLab's business.
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Product Catalog Guide"
 description: "How to request the creation or modification of a SKU."
 ---

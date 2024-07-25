@@ -1,16 +1,7 @@
 ---
-
 title: "Customer Newsletter"
 Description: The customer newsletter recaps each months release and highlights important information from the field, product and/or marketing.
 ---
-
-
-
-
-
-
-
-
 
 ### Overview
 

@@ -1,14 +1,6 @@
 ---
-
 title: Group Respond - GitLab End-to-End (E2E) Testing for group Respond
 ---
-
-
-
-
-
-
-
 
 ## Overview
 

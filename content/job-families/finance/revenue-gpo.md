@@ -1,6 +1,6 @@
 ---
 title: Revenue GPO Global Process Owner
-description: "The Revenue Global Process Owner (GPO) Team at GitLab forms part of the Revenue Organization. This problem solving, process oriented and outcome based team play a crucial role in systems implementation, automation and enhancement, defining new processes and/or refining existing processes within the Revenue space, providing ASC 606 technical guidance and consultation to the Revenue Accounting Team, liaising with internal audit for Revenue SOX compliance and participating in cross functional projects. 
+description: "The Revenue Global Process Owner (GPO) Team at GitLab forms part of the Revenue Organization. This problem solving, process oriented and outcome based team play a crucial role in systems implementation, automation and enhancement, defining new processes and/or refining existing processes within the Revenue space, providing ASC 606 technical guidance and consultation to the Revenue Accounting Team, liaising with internal audit for Revenue SOX compliance and participating in cross functional projects.
 "
 ---
 
@@ -10,7 +10,7 @@ The Revenue Global Process Owner (GPO) Team at GitLab forms part of the Revenue 
 
 ### Revenue Analyst, GPO
 
-The Revenue Analyst, GPO role will utilize their technical knowledge and expertise to support Gitlab’s systems and processes within the Revenue space. The Revenue Analyst, GPO will report to the Manager, Revenue GPO or above.
+The Revenue Analyst, GPO role will utilize their technical knowledge and expertise to support Gitlab's systems and processes within the Revenue space. The Revenue Analyst, GPO will report to the Manager, Revenue GPO or above.
 
 #### Revenue Analyst, GPO Job Grade
 
@@ -19,7 +19,7 @@ The Revenue Analyst, Revenue GPO is a [grade 6](/handbook/total-rewards/compensa
 #### Revenue Analyst, GPO Responsibilities
 
 - Perform month-end close activities, prepare reconciliations, analysis & reporting.
-- Perform standalone selling price analysis for GitLab’s offerings and document corresponding policies, procedures, and controls.
+- Perform standalone selling price analysis for GitLab's offerings and document corresponding policies, procedures, and controls.
 - Provide ASC 606 technical accounting guidance to the Revenue Accounting Team for non routine transactions.
 - Perform system data collection, help maintain revenue fields in Zuora Billings & identify data stuck in stage in Zuora Revenue.
 - Support ad hoc revenue projects, including systems implementation, automation and enhancements in Zuora Revenue.
@@ -42,7 +42,7 @@ The Revenue Analyst, Revenue GPO is a [grade 6](/handbook/total-rewards/compensa
 
 ### Senior Revenue Analyst, GPO
 
-The Senior Revenue Analyst, GPO role will be a technical and subject matter expert as well as a key contributor to the support of Gitlab’s systems and processes within the Revenue space. The Senior Revenue Analyst, GPO will report to the Manager, Revenue GPO or above.  
+The Senior Revenue Analyst, GPO role will be a technical and subject matter expert as well as a key contributor to the support of Gitlab's systems and processes within the Revenue space. The Senior Revenue Analyst, GPO will report to the Manager, Revenue GPO or above.
 
 #### Senior Revenue Analyst, GPO Job Grade
 
@@ -51,7 +51,7 @@ The Senior Revenue Analyst, GPO is a [grade 7](/handbook/total-rewards/compensat
 #### Senior Revenue Analyst, GPO Responsibilities
 
 - Take a leading role in preparation and review of month-end close activities, prepare reconciliations, analysis & reporting.
-- Take a leading role in preparation and review of standalone selling price analysis for GitLab’s offerings and document corresponding policies, procedures, and controls.
+- Take a leading role in preparation and review of standalone selling price analysis for GitLab's offerings and document corresponding policies, procedures, and controls.
 - Provide ASC 606 subject matter expertise & guidance to the Revenue Accounting Team for non routine transactions
 - Take a leading role in performing and resolving system data collection, help maintain revenue fields in Zuora Billing & identify data stuck in stage in Zuora Revenue.
 - Open & escalate support tickets with Zuora as issues are identified.
@@ -77,7 +77,7 @@ The Senior Revenue Analyst, GPO is a [grade 7](/handbook/total-rewards/compensat
 
 ### Manager, Revenue GPO
 
-The Manager, Revenue GPO role will manage the Revenue GPO Team on a day to day basis while utilizing their extensive technical knowledge and subject matter expertise to support Gitlab’s systems and processes within the Revenue space. The Manager, Revenue GPO will report to the Senior Manager, Revenue GPO or above.
+The Manager, Revenue GPO role will manage the Revenue GPO Team on a day to day basis while utilizing their extensive technical knowledge and subject matter expertise to support Gitlab's systems and processes within the Revenue space. The Manager, Revenue GPO will report to the Senior Manager, Revenue GPO or above.
 
 #### Manager, Revenue GPO Job Grade
 
@@ -113,7 +113,7 @@ The Manager, Revenue GPO is a [grade 8](/handbook/total-rewards/compensation/com
 
 ### Senior Manager, Revenue GPO
 
-The Senior Manager, Revenue GPO role will take the leading and strategic role in managing the Revenue GPO Team while utilizing their extensive technical knowledge and subject matter expertise to support Gitlab’s systems and processes within the Revenue space. The Senior Manager, Revenue GPO will report to the Director, Revenue Accounting or above.
+The Senior Manager, Revenue GPO role will take the leading and strategic role in managing the Revenue GPO Team while utilizing their extensive technical knowledge and subject matter expertise to support Gitlab's systems and processes within the Revenue space. The Senior Manager, Revenue GPO will report to the Director, Revenue Accounting or above.
 
 #### Senior Manager, Revenue GPO Job Grade
 

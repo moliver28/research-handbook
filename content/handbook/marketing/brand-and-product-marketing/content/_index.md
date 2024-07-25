@@ -51,7 +51,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 * **Slack handle**: @Sandra Gittlen
 
-**Our team mandate:** Create _world-class_ content that expands our audience, drives conversions, and tells GitLab’s story—while enabling everyone in the organization to contribute.
+**Our team mandate:** Create _world-class_ content that expands our audience, drives conversions, and tells GitLab's story—while enabling everyone in the organization to contribute.
 
 **How we achieve this:**
 
@@ -87,7 +87,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 In Content Strategy & Ops, we work on all things content—aka, digital collateral that informs and educates our audience, and motivates them to take action. Most importantly, content has a purpose and measurable impact on GitLab goals and/or OKRs.
 
-Our work is all about the words, translating GitLab’s message into external collateral like…
+Our work is all about the words, translating GitLab's message into external collateral like…
 
 * Blog posts
 
@@ -117,7 +117,7 @@ Our work is all about the words, translating GitLab’s message into external co
 
 * And more
 
-To create this content, **our team operates as both an editorial newsroom and internal agency.** As a **newsroom**, we create content around regular “beats” or topics, and independently lead our own projects. As an **internal agency**, we support everyone at GitLab in mainly external-facing content projects. Those projects might look like:
+To create this content, **our team operates as both an editorial newsroom and internal agency.** As a **newsroom**, we create content around regular "beats" or topics, and independently lead our own projects. As an **internal agency**, we support everyone at GitLab in mainly external-facing content projects. Those projects might look like:
 
 * Writing content for GTM campaigns (mostly awareness- and consideration-level ebooks, landing pages, nurture emails, related blog posts and/or articles)
 
@@ -135,7 +135,7 @@ To create this content, **our team operates as both an editorial newsroom and in
 
 While the Content Strategy & Ops team produces a large amount of content, we are by no means the only content creators at GitLab. If you would like to collaborate with us on a content project, read more below!
 
-**We organize our work into two key focus areas: Content Strategy and Content Operations (Ops).** Think about the projects in your current role: some tasks you can complete quickly, or are a regular, expected part of your day-to-day. But other tasks might require detailed planning, longer timelines, multiple stakeholders, and further collaboration. That’s the difference between Content Strategy and Content Ops.
+**We organize our work into two key focus areas: Content Strategy and Content Operations (Ops).** Think about the projects in your current role: some tasks you can complete quickly, or are a regular, expected part of your day-to-day. But other tasks might require detailed planning, longer timelines, multiple stakeholders, and further collaboration. That's the difference between Content Strategy and Content Ops.
 
 ### Content Strategy
 
@@ -145,7 +145,7 @@ While the Content Strategy & Ops team produces a large amount of content, we are
 
 ### Content Ops
 
-[**Content Ops**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops) includes content that’s either part of already-established programs—like current campaigns, customer stories, or optimization of existing content—or “velocity content”, content asks that can be accomplished quickly, with little input or few to no stakeholder reviews. It also includes content benchmarking, measurement, and reporting.
+[**Content Ops**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops) includes content that's either part of already-established programs—like current campaigns, customer stories, or optimization of existing content—or "velocity content", content asks that can be accomplished quickly, with little input or few to no stakeholder reviews. It also includes content benchmarking, measurement, and reporting.
 
 * Velocity Requests
 
@@ -165,11 +165,11 @@ The Content Strategy & Ops team is also responsible for the GitLab Blog. [Check 
 
 ### Requesting support
 
-Whether you have a Content Strategy or Content Ops request, work begins with a conversation as the default. Collaboration ensures your projects have the best outcome and largest positive impact on GitLab’s goals.
+Whether you have a Content Strategy or Content Ops request, work begins with a conversation as the default. Collaboration ensures your projects have the best outcome and largest positive impact on GitLab's goals.
 
 If you know your request falls into either Content Strategy or Content Ops, open a new request in the [Content Strategy project](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-strategy)  or the [Content Ops project](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops) and fill out the corresponding template.
 
-Not sure which bucket your request falls into? [Open a general request in Content Ops and we’ll advise.](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops/-/blob/master/.gitlab/issue_templates/new-content-request.md)
+Not sure which bucket your request falls into? [Open a general request in Content Ops and we'll advise.](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops/-/blob/master/.gitlab/issue_templates/new-content-request.md)
 
 The team will then review all incoming requests in the Content Strategy & Ops project and will schedule accordingly based on the request type, current workload, and priorities.
 
@@ -206,7 +206,7 @@ Visit the blog handbook to learn more about the [blog publishing process](/handb
 
 A whitepaper is a technical and focused topic study intended to educate a prospective buyer during the Consideration or Purchase stages of a campaign. The whitepaper offers a problem and solution instance in a granular, technical tone. The content team member should collaborate closely with their product marketing counterpart when researching and writing the asset so that the content reaches appropriate technical standards for the intended audience.
 
-Any technical GitLab team member is welcome to write a whitepaper and collaborate with the content team. If you’re interested in writing a whitepaper, open an issue in the [Content Strategy project](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-strategy) and describe your idea, or post in the [#content](https://gitlab.slack.com/archives/C2R1NED61) Slack channel. Whitepapers should be related to specific use cases and support campaigns, when possible.
+Any technical GitLab team member is welcome to write a whitepaper and collaborate with the content team. If you're interested in writing a whitepaper, open an issue in the [Content Strategy project](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-strategy) and describe your idea, or post in the [#content](https://gitlab.slack.com/archives/C2R1NED61) Slack channel. Whitepapers should be related to specific use cases and support campaigns, when possible.
 
 **Examples:**
 
@@ -216,7 +216,7 @@ Any technical GitLab team member is welcome to write a whitepaper and collaborat
 
 #### Ebook
 
-An ebook tends to be broader in scope than a whitepaper and provides a clear definition of the topic, along with various industry standard best practices. Ebooks typically provide awareness-level content, but can dive deeper into GitLab if it’s intended for late-stage consumption. Ebooks should be related to specific use cases and support campaigns, when possible.
+An ebook tends to be broader in scope than a whitepaper and provides a clear definition of the topic, along with various industry standard best practices. Ebooks typically provide awareness-level content, but can dive deeper into GitLab if it's intended for late-stage consumption. Ebooks should be related to specific use cases and support campaigns, when possible.
 
 **Content Writer/Strategist workflow**: A Content Strategy & Ops team member develops ebook content with input and review from their product marketing counterpart. More technical or instructive ebooks may require more collaboration with product marketing. Ebooks follow the [internal gated content](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/) asset workflow.
 
@@ -240,7 +240,7 @@ An infographic is an illustrated overview of a topic or process, and is typicall
 
 #### Topic page
 
-A topic page is a high-level explanatory “pillar” page dedicated to a specific topic, such as [version control](/topics/version-control/), [DevSecOps](/topics/devsecops/), or [continuous integration](/topics/ci-cd/). Topic pages should explain what the subject is, why it is important, and explain the basic concepts of the subject. Topic pages should include links to additional related resources, such as blogs, web articles, videos, and case studies, as well as at least one CTA to a gated asset. Other SEO pages also include educational, informational content, designed to support topic pages using keywords and search terms. They are similar to blogs in length, but differ in that they are not dated and the content is evergreen (see [more about blog posts](/handbook/marketing/blog/)).
+A topic page is a high-level explanatory "pillar" page dedicated to a specific topic, such as [version control](/topics/version-control/), [DevSecOps](/topics/devsecops/), or [continuous integration](/topics/ci-cd/). Topic pages should explain what the subject is, why it is important, and explain the basic concepts of the subject. Topic pages should include links to additional related resources, such as blogs, web articles, videos, and case studies, as well as at least one CTA to a gated asset. Other SEO pages also include educational, informational content, designed to support topic pages using keywords and search terms. They are similar to blogs in length, but differ in that they are not dated and the content is evergreen (see [more about blog posts](/handbook/marketing/blog/)).
 
 **Examples:**
 

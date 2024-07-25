@@ -1,5 +1,4 @@
 ---
-
 title: Corporate Communications Resources and Trainings
 description: Trainings for Team Members provided by the Corporate Communications Team
 ---
@@ -11,11 +10,11 @@ More information about additional trainings are coming soon.
 
 ### GitLab Media Training
 
-At GitLab, any team member who speaks to the media on behalf of GitLab must complete the GitLab Media Training as of September 13, 2021. Whether you’ve done media interviews in the past or you’re fairly new to it, you’ll learn some best practices and some guidance specific to speaking about GitLab (both the product and the company). **[Complete the training on Level Up](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-media-training)** where you’ll find the required video training and the slide deck with additional resources you can use as you prepare for your next media interview.
+At GitLab, any team member who speaks to the media on behalf of GitLab must complete the GitLab Media Training as of September 13, 2021. Whether you've done media interviews in the past or you're fairly new to it, you'll learn some best practices and some guidance specific to speaking about GitLab (both the product and the company). **[Complete the training on Level Up](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-media-training)** where you'll find the required video training and the slide deck with additional resources you can use as you prepare for your next media interview.
 
 ### GitLab Speaker Training
 
-At GitLab, any team member who speaks externally (to non-team members) on behalf of GitLab must complete the GitLab Speaker Training as of September 13, 2021. Whether you’ve done a lot of speaking and presentations or you’re just getting started, you’ll learn GitLab’s guidance for speaking and presentations. The training will also cover best practices for topic selection, creating slide decks and talking points, presenting, and nailing the Q&A. **[Complete the training on Level Up](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-speaker-training-2021)** where you’ll find the required video training and the slide deck with additional resources you can use as you prepare for your next external speaking engagement.
+At GitLab, any team member who speaks externally (to non-team members) on behalf of GitLab must complete the GitLab Speaker Training as of September 13, 2021. Whether you've done a lot of speaking and presentations or you're just getting started, you'll learn GitLab's guidance for speaking and presentations. The training will also cover best practices for topic selection, creating slide decks and talking points, presenting, and nailing the Q&A. **[Complete the training on Level Up](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-speaker-training-2021)** where you'll find the required video training and the slide deck with additional resources you can use as you prepare for your next external speaking engagement.
 
 ## Public Relations (PR)/Content Trainings
 
@@ -52,7 +51,7 @@ To obtain a certificate, you will need to complete this [Social Media 101 Knowle
     What is the social media certification?
   </summary>
 
-GitLab’s social media certification will be received by team members who complete the Learning and Development: Let’s Get Social Media Certified training.
+GitLab's social media certification will be received by team members who complete the Learning and Development: Let's Get Social Media Certified training.
 Once you complete the Social Media Assessment you can respond to any GitLab mentions which you feel you can provide value to. Once certified you will feel empowered to talk about GitLab and your work on your own social media channels.
 
 </details>
@@ -71,7 +70,7 @@ This training focuses on enabling team members to supplement their channels with
  How can I get social media certified?
  </summary>
 
-It is not required to be active on social media as a GitLab team member. It is also not required that you speak on behalf of GitLab on social platforms. However, if you do talk about work-related matters that are within your area of job responsibility- you must disclose your affiliation with GitLab. And before you do- you must get certified after taking the L&D: Let’s Get Social Media Certified training.
+It is not required to be active on social media as a GitLab team member. It is also not required that you speak on behalf of GitLab on social platforms. However, if you do talk about work-related matters that are within your area of job responsibility- you must disclose your affiliation with GitLab. And before you do- you must get certified after taking the L&D: Let's Get Social Media Certified training.
 
 </details>
 

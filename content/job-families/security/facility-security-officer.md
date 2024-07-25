@@ -6,7 +6,7 @@ Facility security officers (FSOs) are in charge of managing security in their or
 
 As a member of the Security Team at GitLab, you will be working towards raising the bar on security. We will achieve that by working and collaborating with cross-functional teams and global customers to provide guidance on security best practices.
 
-The [Security Team](https://about.gitlab.com/handbook/security) is responsible for leading and
+The [Security Team](/handbook/security) is responsible for leading and
 implementing the various initiatives that relate to improving GitLab's security.
 
 ## Responsibilities

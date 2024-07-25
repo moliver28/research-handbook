@@ -1,14 +1,7 @@
 ---
-
 title: "Self-Service at GitLab"
 description: "The Self-Service Team is responsible for delivering a cohesive GTM that enables customers and prospects to self-serve: from discovery and adoption, purchasing, expanding, and managing their GitLab subscription"
 ---
-
-
-
-
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
@@ -23,7 +16,7 @@ GitLab engages with customers on their terms, offering seamless self-service opt
 
 We are easy to do business with. Our customers get time back to do what matters most - use GitLab to build the best software possible. And our customer-facing teams get time back to focus on higher value customer interactions, allowing us to accelerate and scale our growth.
 
-We are a showcase of GitLab’s culture. Interacting with us is flexible, asynchronous enabled and transparent.
+We are a showcase of GitLab's culture. Interacting with us is flexible, asynchronous enabled and transparent.
 
 ## Navigating the Self-Service Handbook
 
@@ -51,13 +44,13 @@ We are a showcase of GitLab’s culture. Interacting with us is flexible, asynch
 2. Deliver a best-in-class Self-Service experience
 
    - **Understand our customers**: Use product analytics and customer conversations to understand personas & buying journeys by segment.  Define ideal seamless omnichannel experience for our customers.
-   - **“Always on” customer feedback**:  Collect and summarize customer feedback into a single view.  Quantify feedback to prioritize product & go-to-market changes. (e.g., Top 5 requested self-service feature based on customer survey)
+   - **"Always on" customer feedback**:  Collect and summarize customer feedback into a single view.  Quantify feedback to prioritize product & go-to-market changes. (e.g., Top 5 requested self-service feature based on customer survey)
    - **Flexible self-service engagement models**: Introduce chat for on-demand support that customers can access in-context.  While also creating rich feedback for our product and go-to-market teams.
    - **Product & Data Analytics**: Without human interaction, product analytics will be our window into customer interactions.  It is foundational to self-service.  It will influence the product roadmap, drive interactions and identify issues.
 
 3. Improve go-to-market efficiency, accelerate growth
 
-   - **Self-Service go-to-market models**: Introduce a self-service segment.  Leverage an inbound ‘on-demand’ account team to help customers and feed our backlog.  Grow the self-service channel full stack.
+   - **Self-Service go-to-market models**: Introduce a self-service segment.  Leverage an inbound 'on-demand' account team to help customers and feed our backlog.  Grow the self-service channel full stack.
    - **Self-Service marketing campaigns**: Leverage self-service product analytics to drive high performing marketing campaigns based on specific customer insights. (e.g., abandoned cart campaigns, personalized marketing automation, featured products)
    - **Increase Rep productivity**: Increase self-service adoption in territory.  Minimizing time spent on account management, operational tasks and simple transactions. Introduce new customer engagement models to connect with sales. (e.g., hand raise for sales conversation, schedule a time with a sales rep)
 
@@ -65,7 +58,7 @@ We are a showcase of GitLab’s culture. Interacting with us is flexible, asynch
 
 - **Accelerate Self-Service nARR**: nARR vs. plan > 1
   - This is our north star metric
-- **Efficiency**: growth efficiency >= 1.5 by FY’23
+- **Efficiency**: growth efficiency >= 1.5 by FY'23
 - **Customer Experience**: self-service utilization `target coming soon`
   - What is self-service utilization? % of self-service functionality used by customers
 
@@ -114,12 +107,12 @@ Below is a list of our cross-functional partners and high-level description of h
 | Fulfillment | [Analytics Instrumentation](/handbook/product/analytics-instrumentation-guide/) | The Self-Service Team works with the product intelligence team in cases where our product data set is incomplete (i.e. instrumentation gaps, accessibility, accuracy) when the Self-Service Team team is attempting to answer product questions related to self-service. |
 | Fulfillment | License, Purchase, and Utilization | |
 | Growth | [Product Analysis](/handbook/product/product-analysis/#working-with-us) | Our teams have similar functions as it relates to product analytics (e.g. experiment analysis, product KPI tracking, ad hoc product analyses); however the lens through which we ask questions (product v. self-service) and our stakeholders (PMs v. Self-Service Team/sales) differ. <br> <br> We share knowledge, best practices and output of our analyses across our two teams. |
-| Growth | [Conversion](/handbook/marketing/growth/engineering/) | We partner on experiments related to trial/free to paid self-service conversion. Example: define product qualified lead strategy (PQL) to understand how we can maximize for nARR while emphasizing efficiency through self-service. |
-| [Data](/handbook/business-technology/data-team/) | [GTM Data Fusion & R&D Data Fusion](/handbook/business-technology/data-team/#data-fusion-teams) | Self-Service Team is a [‘spoke’ and works closely with the core data team ‘hub’](/handbook/business-technology/data-team/#how-data-teams-work-together). Self-Service Team digests the aggregated data tables created and maintained by the core data team. Self-Service Team provides input and creates issues for the core team when we have gaps in our data needed for decision making. In the case that analyses become important and repeatable, Self-Service Team works with the core data team to create long term solutions.<br> <br> Self-Service Team partners with the GTM Data Fusion Team on special projects that impact sales and marketing teams as it relates to self-service (e.g. surfacing product insights to sales teams, PTB). |
+| Growth | [Conversion](/handbook/engineering/development/growth/) | We partner on experiments related to trial/free to paid self-service conversion. Example: define product qualified lead strategy (PQL) to understand how we can maximize for nARR while emphasizing efficiency through self-service. |
+| [Data](/handbook/business-technology/data-team/) | [GTM Data Fusion & R&D Data Fusion](/handbook/business-technology/data-team/#data-fusion-teams) | Self-Service Team is a ['spoke' and works closely with the core data team 'hub'](/handbook/business-technology/data-team/#how-data-teams-work-together). Self-Service Team digests the aggregated data tables created and maintained by the core data team. Self-Service Team provides input and creates issues for the core team when we have gaps in our data needed for decision making. In the case that analyses become important and repeatable, Self-Service Team works with the core data team to create long term solutions.<br> <br> Self-Service Team partners with the GTM Data Fusion Team on special projects that impact sales and marketing teams as it relates to self-service (e.g. surfacing product insights to sales teams, PTB). |
 | [Marketing](/handbook/marketing/) |  | |
 | [Sales](/handbook/sales/) |  | |
 | Analytics & Business Insights |  | We divide and conquer as it relates to analyses involving the self-service business: Analytics & Business Insights team primarily focuses on first orders (FO), while the Self-Service Team focuses on growth and account management. We collaborate to ensure we are telling a cohesive self-service story and share findings from analyses. |
-| [Sales Strategy](/handbook/sales/field-operations/sales-strategy/) |  | The Sales Strategy team is responsible for incorporating self-service into their workflow: forecasting calls, monthly key reviews, GTM planning, target setting, and high level reporting. The Self-Service Team analysts are responsible for building self-service specific dashboards, proactively identifying self-service data trends, investigating the ‘why’ behind target attainment, providing self-service experiment read-outs, providing data to influence GTM or product changes, etc. |
+| [Sales Strategy](/handbook/sales/field-operations/sales-strategy/) |  | The Sales Strategy team is responsible for incorporating self-service into their workflow: forecasting calls, monthly key reviews, GTM planning, target setting, and high level reporting. The Self-Service Team analysts are responsible for building self-service specific dashboards, proactively identifying self-service data trends, investigating the 'why' behind target attainment, providing self-service experiment read-outs, providing data to influence GTM or product changes, etc. |
 
 ## Resources & Communications
 

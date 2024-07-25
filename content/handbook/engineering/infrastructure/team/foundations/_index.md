@@ -137,6 +137,11 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
   - [Agenda](https://docs.google.com/document/d/1T5LIBt3RZR5TBLzkmRd08oMwfwiNFAr5ImPD5NP7lOw/edit?usp=sharing)
   - [Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqWfqy6IhKlVDUbk-f9NnmR).
 
+#### Calendar
+
+- We have a internal team calendar for regular team meetings.
+  - To subscribe to the calendar you can use `Other Calendars > Subscribe to calendar` with `c_fbda056c7fecb09a0d0d0801527838384fe862b80f2e36cdc24bca7b0d9d274f@group.calendar.google.com` as the ID.
+
 ### Standup
 
 We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel.

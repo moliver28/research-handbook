@@ -1,5 +1,4 @@
 ---
-
 title: "Set up GitLab CE or EE on Google Kubernetes Engine"
 description: "This tutorial walks through the process of installing GitLab on Google Kubernetes Engine (GKE) including setting up clusters, instructions for both GitLab CE and EE, and how to troubleshoot potential issues during installation."
 ---
@@ -33,9 +32,9 @@ The video below shows installing GitLab on Google Kubernetes Engine (GKE). For t
     - Click `Registrar Setup` to see what name servers to use.
 
 - Disable desktop notifications (on a Mac, top-right corner, option click).
-- Open up new browser window so the audience doesn’t see all your other open tabs.
+- Open up new browser window so the audience doesn't see all your other open tabs.
 - Resize your browser window to something reasonable for sharing. 1280x720 is a good option. [Here](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/720p.scpt)'s a handy AppleScript if you're on a Mac and using Chrome. Add it to your User Scripts folder and show the Script menu in your menu bar, and it'll be really easy to trigger.
-- Consider just sharing web browser window so the audience isn’t distracted by notes or other windows.
+- Consider just sharing web browser window so the audience isn't distracted by notes or other windows.
 - If displaying full-screen, go to 'Displays' settings, Resolution: Scaled, Larger text.
 - Consider opening this page on an iPad that has screen lock disabled.
 
@@ -57,14 +56,14 @@ The video below shows installing GitLab on Google Kubernetes Engine (GKE). For t
 
 ## Set up a container scheduler cluster
 
-We’re going to install everything from scratch and we’ll start by creating a new
+We're going to install everything from scratch and we'll start by creating a new
 container cluster. Today I'm going to use Google Kubernetes Engine.
 
 - [Create cluster](https://console.cloud.google.com/kubernetes/add?project=gitlab-demos) (or open [GKE](https://console.cloud.google.com/kubernetes), pick [`gitlab-demos` project](https://console.cloud.google.com/kubernetes/list?project=gitlab-demos) and click [Create cluster](https://console.cloud.google.com/kubernetes/add?project=gitlab-demos)).
 
 We'll name this cluster `make-sid-dance` and have it created in the us-central
 zone. I will bump up the machine type to have 2 virtual CPUs for performance
-reasons, but I’ll drop it down to 1 node. A real cluster should have 3 or more
+reasons, but I'll drop it down to 1 node. A real cluster should have 3 or more
 nodes for better availability.
 
 - Name the cluster after your domain name (e.g. `make-sid-dance`).
@@ -161,13 +160,13 @@ monitoring. Then there are separate containers for Postgres and Redis and the
 autoscaling GitLab Runner for CI and CD. This is everything you need for the
 DevOps lifecycle on Kubernetes.
 
-While we're waiting: In the next demo, I’ll take you through everything you need
+While we're waiting: In the next demo, I'll take you through everything you need
 to take ideas to production, including chat with Mattermost, issues and issue
 tracking, planning with issue boards, coding with terminal access, committing
 with git version control, merge requests for code review, testing with
 continuous integration, getting peer reviews with live review apps, continuous
 delivery to staging, deploying to production directly from chat, cycle analytics
-to measure how fast you’re going from planning to monitoring, and lastly, Prometheus
+to measure how fast you're going from planning to monitoring, and lastly, Prometheus
 monitoring of your GitLab instance. With GitLab, everything is integrated out of
 the box.
 
@@ -185,7 +184,7 @@ integrations between theirs tools.
 
 - Open a new tab with `gitlab.make-sid-dance.com` (Adjusting the URL to the domain you used for this demo)
 
-Boom, we’ve got a shiny new GitLab installation!
+Boom, we've got a shiny new GitLab installation!
 
 ### Set root password
 

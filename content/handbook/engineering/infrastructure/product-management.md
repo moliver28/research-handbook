@@ -1,13 +1,6 @@
 ---
-
 title: "Infrastructure Product Management"
 ---
-
-
-
-
-
-
 
 ## Responsibilities
 

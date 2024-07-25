@@ -40,7 +40,7 @@ As a thank you for your time, you'll have the opportunity to win 1 of 3 $30 (or 
 ```text
 Hi! We have a study coming up, and I was wondering if you might be interested in participating with us. Based on your response to our survey, you look like a great fit! Sessions are taking place from `[XX-XX]`, and they last about `[XX]` minutes over Zoom (videoconference).
 
-For this round of testing, we’ll be chatting about `[Replace with research subject. Example: What tools you use, what your process is like, etc.]`.
+For this round of testing, we'll be chatting about `[Replace with research subject. Example: What tools you use, what your process is like, etc.]`.
 
 Participants who complete a session will be compensated with a `[Replace with compensation. Example: $60 Amazon gift card, or approximate value in your home currency]`.
 

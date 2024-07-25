@@ -78,7 +78,7 @@ Some dedicated Slack channels:
 
 #### Environments Team Meeting
 
-We have one team meeting each week. The time alternates every week to accommodate APAC/EMEA and EMEA/AMER. The purpose of this meeting is to share information about the ongoing projects. It also contains general announcements that are important for collaboration.
+We have one team meeting each week.The purpose of this meeting is to share information about the ongoing projects. It also contains general announcements that are important for collaboration.
 
 Meeting format:
 
@@ -115,65 +115,22 @@ Sometimes we will encounter issues that need the input of the whole team to be r
 We try to be conscious of sync time and so we expect a maximum of two of these meetings for each milestone.
 A technical discovery meeting consists of:
 
-- 2 Meetings across timezones so that everyone has a fair opportunity to join the sync meeting.
-  - APAC/EMEA
-  - EMEA/AMER
-- The 2 meetings are recorded and share the same agenda.
-- The meetings are announced at least one week before they will be held and each participant must familiarize themselves with the issue that is being investigated prior to attending one of the meetings.
+- One Meeting that everyone has a fair opportunity to join.
+- The meeting is recorded.
+- The meeting is announced at least one week before it will be held and each participant must familiarize themselves with the issue that is being investigated prior to attending.
 - Discussing the topic async in advance in the issue/epic is encouraged.
 - The PM will open the conversation either by describing the use case/scenario or by recording a quick video about it.
-- The meetings are agenda first and everyone is expected to write their comments and questions in the agenda before the first meeting.
+- The meeting is agenda first and everyone is expected to write their comments and questions in the agenda.
 - If the agenda is empty the meeting is cancelled.
 - The conversations in the meeting must be recorded in the same documents as notes.
 - One host is decided for every meeting, and they are responsible to drive the conversation forward.
 - In the last meeting someone is appointed to summarize the conversation either in the original issue or a technical document.
 
-The goal of technical discovery meetings is to come up with a concrete technical proposal for the question at hand. We should not force a proposal, but aim to get there and write the conclusion accordingly with potential follow-ups.
+The goal of technical discovery meeting is to come up with a concrete technical proposal for the question at hand. We should not force a proposal, but aim to get there and write the conclusion accordingly with potential follow-ups.
 
-#### Design Pair Meeting
+#### Milestone Checkup Meeting
 
-Each week the Product Designer hosts a design pairing session with the team on Thursdays at 1:30pm UTC. The goal of the design pairing sessions is to give the team more insight into what Product Design is currently working on, share feedback and questions, as well as give us a space to brainstorm and work together through bigger problems. Anyone is encouraged to propose topics or existing user problems that could use some brainstorming together as a team. A design pairing session consists of:
-
-- [An agenda document](https://docs.google.com/document/d/1osEJL4S2xe7AIgWoInIPoup-A2XuvqSZe5YNMFPTilo/edit?usp=sharing) with the weekly topic prepared the day before.
-- 30 minutes of the call will be dedicated to a design walkthrough or brainstorming session.
-- 20 minutes of the call will be dedicated to a Q&A from the engineering team (previously know as the FE/UX sync).
-- A recording which will be posted to the team's [Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq-lA3_JctMdX0y4um3BGmV).
-
-If there are no topics, the meeting can be cancelled for the week.
-
-#### Engineering Pair Meeting
-
-Due to high distrubtion and full calendars, we can have one of these for as many
-regions for which we have a DRI.
-
-##### AMER
-
-DRI: `@hustewart`
-
-Time: Tuesdays at 6:00pm UTC.
-
-Goal: Solve problems together and build trust/rapport.
-
-[Calendar event](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2xxMm5kOGYwOXB2YzloZTBvZWg4bGhwczQgZ2l0bGFiLmNvbV9rbmFpZmY3YmNwZzNxa3FydWJka2Y0aXYxMEBn&tmsrc=gitlab.com_knaiff7bcpg3qkqrubdkf4iv10%40group.calendar.google.com)
-
-What we'll do:
-
-- Introductions for people who don't know each other.
-- Pick a problem to solve.
-- Pair.
-- Document what we learn.
-
-Feel free to submit a topic beforehand (notes are on calendar event), or simply show up.
-
-All team members are welcome.
-
-##### EMEA/APAC
-
-DRI: `@andrei.zubov`
-
-Time: Every second Tuesday at 8:00am UTC.
-
-[Calendar event](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDIyOG9rNWxhbTU3ZXJoYTVxYmlrcmt2ZW1fMjAyNDAzMjZUMDgwMDAwWiBnaXRsYWIuY29tX2tuYWlmZjdiY3BnM3FrcXJ1YmRrZjRpdjEwQGc&tmsrc=gitlab.com_knaiff7bcpg3qkqrubdkf4iv10%40group.calendar.google.com&scp=ALL)
+Twice a milestone, on Tuesday we hold a milestone check up meeting, where we either check the status of the work in progress issues or plan the next milestone.
 
 ### Team issue tracker
 
@@ -183,7 +140,8 @@ Time: Every second Tuesday at 8:00am UTC.
 
 ### Issue refinement
 
-Every week the [refinement bot](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/refinement) assigns a team member as the refinement DRI, who is responsible for refining **some issues from the top of the `~"workflow::refinement"` list** (the list is prioritised top to bottom) in the [Milestone Board](#milestone-board) **and another issue of their choice** with a ping to the EM and/or PM explaining the reasoning.
+During the Team Sync Meeting the PM will bring 2 to 3 issues that need a refinement DRI. 
+During the meeting a DRI will be chosen who will be responsible for refining the issue. Team members are encouraged to refine issues that they create / stumble upon at any time during their work if they have the bandwidth to do so.
 
 The refinement process is described in the [issue template](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/refinement/-/blob/main/templates/default.erb).
 
@@ -229,6 +187,21 @@ Once a team memeber self-assigns an issue on the Milestone Board, issue labels s
 For Merge Requests, it's up to the author and the project they are contributing to, to decide if they want to use these `~workflow::` labels. It is not required to use them or keep them synced up with the Issue labels.
 
 ### Planning
+
+#### Team Domain Limitations
+
+The Environments team size is currently too smal to fully support the entire scope of our feature categories, to signal our priorities and do meaningful work we maintain a list of Feature Categories where we only do **Critical Maintenance**: 
+
+- Auto DevOps
+- Feature Flags
+- Continuous Delivery
+- Infrastructure as Code
+- Release Orchestration
+
+With **Critical Maintenance** we mean that we will be able to take on only p2/s2 and above Security, Scalability and Availability issues and only p1/s1 bugs otherwise classified, or issues considered impactful to fix by the Product Manager.
+
+Issues falling out of the mentioned types will be marked with `Environments::No-Capacity` label and we will ignore their SLO. 
+While we do not have the capacity to work on them we welcome and will support any community contributions to those issues.
 
 #### Issue Weighting
 
@@ -389,7 +362,7 @@ We aim to achieve 100% `re-prioritized say-do` and at least 80% `say-do`.
 
 ##### Example
 
-- In the milestone 15.11 we have 10 `~Deliverable` issues labelled as such by the 17th of March 2023
+- In the milestone 15.11 we have 10 `~Deliverable` issues labeled as such by the 17th of March 2023
 - Along the way we realise that 5 of those `~Deliverable` issues will not make it, and reasonably before the end of the milestone, we move them to 16.0
 - At the end of the milestone there is an hiccup and of those 5 remaining issues, 1 is not completed.
 
@@ -582,7 +555,7 @@ on what existing testing does and how to develop features for Auto DevOps.
 - [Tips and Troubleshooting](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/kubernetes/tips_and_troubleshooting.md)
 - [Useful Commands](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/kubernetes/useful_commands.md)
 - [How to work with slow connections](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/kubernetes/tips_and_troubleshooting.md#qa)
-- [Enabling premium features for development purposes](https://license.gitlab.com/users/sign_in)
+- [Enabling premium features for development purposes](/handbook/engineering/developer-onboarding/#working-on-gitlab-ee-developer-licenses)
 - [Thanos query for complete Auto DevOps pipelines](https://thanos-query.ops.gitlab.net/graph?g0.range_input=2d&g0.max_source_resolution=0s&g0.expr=sum(increase(auto_devops_pipelines_completed_total%7Benv%3D%22gprd%22%7D%5B6h%5D))%20by%20(status)&g0.tab=0)
 
 ### Shared Cloud Infrastructure

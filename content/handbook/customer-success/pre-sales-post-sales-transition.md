@@ -1,15 +1,8 @@
 ---
-
 title: Transitioning Accounts from Pre-Sales to Post-Sales
 description: >-
   How to effectively transition a customer from the pre-sales engagement to post-sales to ensure the customer is successful.
 ---
-
-
-
-
-
-
 
 As a member of the pre-sales team, closing another successful deal for GitLab, it is important to pave the way for the CSM. A successful CSM introduction is a critical step in the customer lifecycle. An effective CSM introduction will lead to customer excitement about the product and increase the CSM's credibility as they assist the customer through onboarding, implementation, and adoption.
 
@@ -70,7 +63,7 @@ After a CSM is assigned by the manager, the SA should arrange an internal [accou
 
 In preparation for transitioning the account to post-sales, the CSM should schedule a meeting with the entire [account team](/handbook/customer-success/account-team/) to review details about the customer and the success plan. The account team should use the following questions to review details, and define the next steps near-, medium-, and long-term for the customer adoption journey:
 
-- What are the customer’s objectives & measurable success criteria for the next 6-12 months? For each objective discussed, ensure we have answers to the following:
+- What are the customer's objectives & measurable success criteria for the next 6-12 months? For each objective discussed, ensure we have answers to the following:
   - Initiative - What activity are we completing?
   - Business Outcome - What customer-defined result do we need to achieve?
   - Success Criteria - How do we measure success?

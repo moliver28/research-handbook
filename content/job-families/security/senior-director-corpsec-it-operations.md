@@ -28,13 +28,13 @@ The Senior Director, Corporate Security & IT Operations is a [level 11](/handboo
 - Establish seamless processes to onboard, change and offboard resources from IT services
 - Own and maintain Corporate Security & IT Operations applications (Endpoint EDR, Data Security, IAM etc.)
 - Document and enforce new and current IT policies and procedures
-- Measure, monitor, and maintain team’s ability to meet or exceed contact and resolution Service Level Agreements (SLA)
+- Measure, monitor, and maintain team's ability to meet or exceed contact and resolution Service Level Agreements (SLA)
 - Run the IT Service desk, define and manage ticket SLAs, and move towards greater automation (and where appropriate) self-service of tickets
 - Proven ability to successfully recruit, manage, motivate and develop high performing teams
 - Negotiates and influences the opinions and decision making of internal senior leaders on matters of significance to the division.
 - Consistently demonstrates, models and coaches managers and senior managers on GitLab's remote working competencies.
 - Proactively communicates with leadership about progress and outcomes and how strategy and contributions support higher-level priorities and initiatives.
-- Focuses the team’s communication and productivity
+- Focuses the team's communication and productivity
 
 #### Senior Director, IT Corporate Security & Operations Requirements
 

@@ -1,11 +1,8 @@
 ---
-
 title: Working on a promotion
 category: Support Team
 description: Process for submitting a promotions request
 ---
-
-
 
 ## Overview
 

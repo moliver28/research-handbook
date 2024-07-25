@@ -1,8 +1,6 @@
 ---
-
 title: "Enterprise IT Roles"
 ---
-
 
 ## Understanding what drives those to whom we sell
 
@@ -19,14 +17,14 @@ Lack of full metrics and visibility across the entire process.
 
 Related Reading:
 
-- [10 digital transformation success stories](https://www.cio.com/article/3149977/digital-transformation/digital-transformation-examples.html?nsdr=true#tk.cio_rs)
-- [The CIO’s Dilemma: Innovate AND Cut Costs](https://www.cio.com/article/3300871/cloud-computing/the-cio-s-dilemma-innovate-and-cut-costs.html)
-- [Complexity a killer when it comes to digital transformation success](https://www.cio.com/article/3269493/digital-transformation/complexity-a-killer-when-it-comes-to-digital-transformation-success.html) - [5 Big Challenges CIOs face](https://www.mrc-productivity.com/blog/2017/11/5-big-challenges-facing-cios-leaders-2018/)
-- [9 forces shaping the future of IT](https://www.cio.com/article/3206770/it-strategy/9-forces-shaping-the-future-of-it.html?upd=1538513299753)
-- [12 biggest issues IT faces](https://www.cio.com/article/3245772/it-strategy/the-12-biggest-issues-it-faces-today.html)
+- [4 digital transformation success stories](https://www.cio.com/article/236822/digital-transformation-examples.html)
+- [The CIO's Dilemma: Innovate AND Cut Costs](https://www.cio.com/article/222180/the-cio-s-dilemma-innovate-and-cut-costs.html)
+- [Complexity a killer when it comes to digital transformation success](https://www.cio.com/article/228830/complexity-a-killer-when-it-comes-to-digital-transformation-success.html) - [5 Big Challenges CIOs face](https://www.mrc-productivity.com/blog/2017/11/5-big-challenges-facing-cios-leaders-2018/)
+- [9 forces shaping the future of IT](https://www.cio.com/article/230329/9-forces-shaping-the-future-of-it.html)
+- [10 biggest issues IT faces](https://www.cio.com/article/228199/the-12-biggest-issues-it-faces-today.html)
 - [Survey: Compliance Drives IT Security](https://www.cio.com/article/2447696/compliance/survey--compliance-drives-it-security.html)
 - [Financial Services Regulatory Compliance](https://about.gitlab.com/solutions/financial-services-regulatory-compliance/)
-- [Collaboration key to achieving business goals](https://www.cio.com/article/3170784/collaboration/collaboration-key-to-achieving-business-goals.html)
+- [Collaboration key to achieving business goals](https://www.cio.com/article/234280/collaboration-key-to-achieving-business-goals.html)
 
 ### Who cares about what? What pains do they have?
 
@@ -44,7 +42,7 @@ Related Reading:
 
       1. Persona reference: [VP IT video](https://www.youtube.com/watch?v=LUh5eevH3F4), [VP IT Slide Deck](https://docs.google.com/presentation/d/17Ucpgxzt1jSCs83ER4-LdDyEuermpDuriugPNYrz8Rg/)
       1. Value Prop:
-         - GitLab’s single application enables more rapid development (see GitLab stats as an example) to meet time-to-market business challenges.
+         - GitLab's single application enables more rapid development (see GitLab stats as an example) to meet time-to-market business challenges.
          - Unite workflows around a common tool to reduce friction and cost of IT.
          - Reduce or eliminate your costly DevOps tool chain (or avoid this investment in one).
       1. Resources:
@@ -60,7 +58,7 @@ Related Reading:
       1. Value Prop:
          - You no longer must choose between velocity and risk.
            1. With GitLab, you can test ALL of your code, on every commit, automatically
-           1. Because it’s not an incremental cost per app or per user (beyond using GitLab Ultimate for your entire SDLC), you can test every code change, not just critical apps or annual scans.
+           1. Because it's not an incremental cost per app or per user (beyond using GitLab Ultimate for your entire SDLC), you can test every code change, not just critical apps or annual scans.
          - Better leverage your scarce security resources by putting app sec tools, that are meant for the developer, into the hands of the developer, so they may remediate more, earlier than possible with traditional app sec tools. (Enable TRUE shift-left via single application and single source-of-truth.)
            - Improve visibility while at the same time reducing friction between processes and tools used by dev and app sec teams.
       1. Resources:
@@ -73,7 +71,7 @@ Related Reading:
 
       1. Persona reference: [Chief Architect Video](https://www.youtube.com/watch?v=qyELotxsQzY), [Chief Architect slide deck](https://docs.google.com/presentation/d/1KXsozYkimSLlEg3N-sKeN7Muatz_4XimYp-s7_dY1ZM/)
       1. Value Prop:
-         - GitLab’s single application enables more rapid development (see GitLab stats as an example) to meet time-to-market business challenges. It positions your enterprise for maximum flexibility and speed.
+         - GitLab's single application enables more rapid development (see GitLab stats as an example) to meet time-to-market business challenges. It positions your enterprise for maximum flexibility and speed.
          - Unite workflows around a common tool to reduce friction and cost of IT.
          - Reduce or eliminate your costly DevOps tool chain (or avoid this investment in one).
          - Improve visibility while at the same time reducing friction between processes and tools used by development, operations, and application security teams.
@@ -97,8 +95,8 @@ Related Reading:
    **VP Apps/Development/Engineering** - Helping to meet business demand for innovation, updates, and capability. This role is typically bonused/compensated on velocity, time to market and alignment with the business.
 
    1. Value Prop
-      - GitLab’s single application that supports the entire DevOps lifecycle is of significant importance.  The DevOps tool chain crisis is real and there is a lot of ‘bubble gum and duct tape’ going on in and around integrating all these point DevOps tools in order to convey the full story of what’s really happening.
-      - Finding new areas across the SDLC to automate is top of mind to this role.  GitLab’s [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/) will be a competitive differentiator
+      - GitLab's single application that supports the entire DevOps lifecycle is of significant importance.  The DevOps tool chain crisis is real and there is a lot of 'bubble gum and duct tape' going on in and around integrating all these point DevOps tools in order to convey the full story of what's really happening.
+      - Finding new areas across the SDLC to automate is top of mind to this role.  GitLab's [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/) will be a competitive differentiator
    1. There are several critical challenges that application development leaders are facing.
       - [Cycle time - how to improve velocity](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/build/cycle-time/)
       - [How deliver secure Applications](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/build/secure-applications/)
@@ -122,7 +120,7 @@ Related Reading:
    **VP Ops** - Keeping the business running efficiently.  Uptime, recovery are important.  The role is typically bonused/compensated on uptime and SLAs back to the business.
 
    1. Value Prop:
-      - GitLab’s single application that supports the entire DevOps lifecycle is going to be important for this role.  Shifting left monitoring, testing and security earlier in the SDLC is valuable to the VP Ops to reduce the risk of downtime in production.  Auto DevOps will be of interest here as well.
+      - GitLab's single application that supports the entire DevOps lifecycle is going to be important for this role.  Shifting left monitoring, testing and security earlier in the SDLC is valuable to the VP Ops to reduce the risk of downtime in production.  Auto DevOps will be of interest here as well.
    1. Resources:
 
       - [GitLab Pitch Deck](https://docs.google.com/presentation/d/1dVPaGc-TnbUQ2IR7TV0w0ujCrCXymKP4vLf6_FDTgVg/)
@@ -143,7 +141,7 @@ Related Reading:
 
    1. GitLab persona reference: [Director DevOps video](https://www.youtube.com/watch?v=qyELotxsQzY), [Director DevOps slide deck](https://docs.google.com/presentation/d/1x-XUhAXkZxl8ZGe4ze9qcWMmrWITc7es1fYNY_OHQQA/)
    1. Value Prop:
-      - GitLab’s single application enables more rapid development (see GitLab stats as an example) to meet time-to-market business challenges.
+      - GitLab's single application enables more rapid development (see GitLab stats as an example) to meet time-to-market business challenges.
       - Unite workflows around a common tool to reduce friction and cost of IT.
       - Reduce or eliminate your costly DevOps tool chain (or avoid this investment in one).
    1. Resources:

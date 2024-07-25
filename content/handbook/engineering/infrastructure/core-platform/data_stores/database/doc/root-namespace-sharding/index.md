@@ -3,12 +3,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database
 title: Sharding GitLab by top-level namespace
 ---
 
-
-
-
-
-
-
 ## Sharding GitLab by top-level namespace
 
 This document summarizes the idea of sharding GitLab by top-level namespace. It is meant to provide an idea of how product features would have to change with namespace sharding and to highlight the difficulties and complexities we anticipate with this approach, as well as touching on implementation details and known unknowns.

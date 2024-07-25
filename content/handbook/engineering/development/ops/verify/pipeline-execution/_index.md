@@ -227,22 +227,6 @@ The milestone's Front-line Responder will be responsible for following up on suc
 They are not expected to be on-call 24/7 during the milestone.
 At the end of the milestone, any issues that are still ongoing, may be transitioned to the incoming First Responder. If it makes sense for the original team member to continue being the DRI, this can also be done.
 
-#### Refinement Coordinator
-
-This team member will have the following responsibilities for the milestone and will have a small ~Deliverable task:
-
-1. Ensure that all Verify-P* issues are assigned to team members for refinement throughout the milestone. You may assign issues directly to or tag fellow team members for weighting. You may also defer to the EM, ensuring they know there are issues that need to be assigned.
-1. Ensure that the issues in the next milestone's planning issue are weighted
-1. Follow-up with team members if refinement does not appear to be making progress. You may redirect this to the EM if you prefer.
-1. [Optional] Organize and host a weekly refinement swarm meeting where team members can refine issues as a group.
-    1. This is an excellent opportunity to tackle the refinement of some of our more challenging issues and refinement spikes.
-1. Create refinement spike issues for any issues that are identified as too difficult to weight upfront.
-1. Create refinement spike issues for any issues that are identified as too large to complete in a single milestone.
-1. Work on any [refinement spike issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=spike) that have previously been identified or identify the appropriate team member to be the DRI.
-    1. When working on refinement spike issues choose the ones with a Verify-P* label first.
-    1. Ensure that issues identified as too large (weight >= 5) are broken down into smaller pieces that can be addressed within a milestone.
-    1. Collaborate with additional team members as necessary to complete this task.
-
 #### Community Coordinator
 
 This team member will have the following responsibilities for the milestone in addition to their ~Deliverable task:
@@ -253,8 +237,8 @@ This team member will have the following responsibilities for the milestone in a
 
 **Program Paused**
 
-| Milestone | Front-line Responder | Refinement Coordinator | Community Coordinator |
-| --------- | -------------------- | ---------------------- | --------------------- |
+| Milestone | Front-line Responder | Community Coordinator |
+| --------- | -------------------- | --------------------- |
 
 ## Stable Counterparts
 
@@ -320,44 +304,67 @@ The [Pipeline Execution Workflow board](https://gitlab.com/groups/gitlab-org/-/b
 
 Our planning timeline follows the [GitLab Product Development timeline](/handbook/engineering/workflow/#product-development-timeline).
 
-- By the day the milestone starts:
-  - The PM will assign or update `Verify::P*` labels to indicate which issues will be scheduled into upcoming milestones. Verify::P1 indicates a ~Deliverable for the current milestone. Verify::P2 a ~Deliverable for next milestone, and so on.
-  - The PM will request a list of bugs to be added to the `workflow::ready for development` column aligning with the theme for the next upcoming milestone in the planning issue
-  - The [`~needs weight` board](https://gitlab.com/groups/gitlab-org/-/boards/4178322) should be updated by the PM for all issues being considered for future milestones that need weight and apply the `workflow::planning breakdown` label.
-  - The EM and/PM will ensure that the WIP limit is set appropriately on the `workflow::ready for development` column based on the average closed weight of past milestones.
+For information about `Engineering Time` see [Engineering Initiatives](/handbook/engineering/#engineering-initiatives).
 
-- By Wednesday, 15 days before the release day:
-  - The SET/QEM submits a list of `~"type::bug"` issues for the upcoming milestone on the planning issue. The weight for these issues + any `Verify::P1, type::bug` issues should total approximately 40% of the WIP limit for the `~"workflow::ready for development"` column.
-  - The EM submits the list of `~"type::maintenance"` issues for the upcoming milestone on the planning issue. The weight for these issues + any `Verify::P1, type::maintenance` issues should total approximately 40% of the WIP limit for the `~"workflow::ready for development"` column.
-  - The PM will provide the list of `~"type::feature"` issues for the upcoming milestone. The weight for these issues + any `Verify::P1, type::feature` issues should total approximately 20% of the WIP limit for the `~"workflow::ready for development"` column.
+**PM** (with help from **EM** as needed) will curate the [list of `Candidate::x.x` + not `Engineering Time` list](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=candidate%3A%3A17.x&label_name%5B%5D=group%3A%3Apipeline%20execution&not%5Blabel_name%5D%5B%5D=Engineering%20Time&first_page_size=20) to ensure there is a reasonable number of high priority issues to select from at any point. If there are no issues for the milestone you are looking for you may select from a future milestone. 
+
+**EM**  (with help from **PM** as needed) will maintain the [list of `Engineering Time` + `Candidate::x.x`](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=candidate%3A%3A17.x&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=Engineering%20Time&first_page_size=20) issues to ensure there is a reasonable number of high priority issues to select from at any point. If there are no issues for the milestone you are looking for you may select from a future milestone. 
+
+By the Friday 2 weeks before the end of the current milestone each **Engineer** will:
+
+- Ensure the milestone on your current issue reflects the milestone you believe it will be completed based on the latest knowledge
+  - **Note:** Any issues you have in progress that will not be completed in the current milestone can be used in lieu of selecting a new issue as long as the criteria matches
+    - If you are unsure if the issues you have in progress are still a priority check with the EM and PM to verify.
+    - Update the ~Deliverable or ~Stretch label if there is one if necessary
+- Select 1 [`Candidate::x.x` + not `Engineering Time` issue](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=candidate%3A%3A17.x&label_name%5B%5D=group%3A%3Apipeline%20execution&not%5Blabel_name%5D%5B%5D=Engineering%20Time&first_page_size=20) that you will work on in the upcoming milestone. 
+  - Assign yourself
+  - Assure there is a weight set
+  - Set the milestone according to the milestone when you expect the work to complete
+    - If it is not the upcoming milestone, break the issue into multiple issues, one of which can be completed in the upcoming milestone if at all possible.  
+      - Let the EM/PM know you have done this in an issue comment on the original issue so they can ensure the rest of the issues are planned for appropriately.
+  - Add the `Deliverable` label. 
+- Select 1 [`flaky-test` issue](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=failure%3A%3Aflaky-test&first_page_size=20) to fix. 
+  - Do a quick check to see if there are multiple issues that are clearly caused by the same issue, link these as related and/or assign to themselves. 
+  - Set the milestone appropriately to indicate when the test will be fixed. 
+    - If you are unsure of the timeline, you can delay setting the milestone until you are comfortable committing to a milestone. 
+- Select 1 item to weight and refine for [upcoming work](https://gitlab.com/groups/gitlab-org/-/boards/4178322)
+  - Assign this item to yourself. You can unassign it once you have completed the refinement process. 
+    - You may want to add a comment indicating that you are assigning to yourself for refinement purposes only, so there is no confusion. This is entirely optional.
+  - Do not set a milestone on the issue.
+  - If refinement is going to take considerable effort, create a [refinement "~spike" issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Pipeline%20Execution%20Refinement%20Spike) (see also [Spikes](#spikes) and [Steps for Refining and Weighting Issues](#steps-for-refining-and-weighting-issues))
+    - Tag the **EM** in a comment on the spike to let them know you have created this spike.
+    - Use this as your `Engineering Time` item for the milestone.
+- Select 1 item to weight and refine for [community contribution](https://gitlab.com/groups/gitlab-org/-/boards/4178322)
+  - Assign this item to yourself. You can unassign it once you have completed the refinement process. 
+    - You may want to add a comment indicating that you are assigning to yourself for refinement purposes only, so there is no confusion. This is entirely optional.
+  - Do not set a milestone on the issue.
+  - If refinement is going to take considerable effort, create a [refinement "~spike" issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Pipeline%20Execution%20Refinement%20Spike) (see also [Spikes](#spikes) and [Steps for Refining and Weighting Issues](#steps-for-refining-and-weighting-issues))
+    - Tag the **EM** in a comment on the spike to let them know you have created this spike.
+    - Use this as your `Engineering Time` item for the milestone.
+- Select 1 [`Engineering Time` + `Candidate::x.x` issue](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=candidate%3A%3A17.x&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=Engineering%20Time&first_page_size=20) to fix. 
+- Assign yourself
+  - Assure there is a weight set
+  - Set the milestone according to the milestone when you expect the work to complete
+    - If it is not the upcoming milestone, break the issue into multiple issues, one of which can be completed in the upcoming milestone if at all possible.  
+      - Let the EM/PM know you have done this in an issue comment on the original issue so they can ensure the rest of the issues are planned for appropriately.
+  - add the `Deliverable` label or `Stretch` label.  
+- Add a comment to the milestone planning issue to indicate which issues that you have completed this planning work and the issues you have selected. 
+
+Throughout the milestone, if an **Engineer** completes their tasks and has extra capacity:
+
+- checkout [What do I work on next](#what-do-i-work-on-next)
 
 - By the Monday the week the milestone ends:
-  - Planning issue is finalized and PM will tag manager, SET/QEM, Product Design, engineers, and EM for review and feedback.
+  - Planning issue is finalized and **PM** will tag manager, SET/QEM, Product Design, engineers, and EM for review and feedback.
 
 - By the Friday the milestone ends:
-  - Engineers should update the planning issue with any issues that may carry forward.
-  - Based on capacity, engineers will assign themselves to `Verify::P*` [`~needs weight`](https://gitlab.com/groups/gitlab-org/-/boards/4178322) issues to apply weight. Issues should be selected for in order of Verify::P1, Verify::P2, then Verify::P3.
-  - PM completes monthly kick-off video featuring `~direction` and `Verify::P1` issues
+  - **Engineers** should comment on the planning issue with any changes to their planned work.
+  - **PM** completes monthly kick-off video featuring `~direction` and `Deliverable` issues
 
 - By the Monday of release week:
-  - The PM will set `~cicd::active` on any issues in `workflow::ready for development` that could be worked on in the upcoming milestone. The total weight for this column on [the board](https://gitlab.com/groups/gitlab-org/-/boards/3465921) will not exceed 100% of the average shipped milestone's weight. For example, if the team's average closed issues weight for a milestone is 30, the column should not exceed 30 weight.
-    - The EM will ensure that `~Deliverable` is added to any `~Verify::P1` issues
-    - The PM will set the milestone for any `~Verify::P1` issues to the current milestone.
-  - The designated DRI for milestone refining will review the state of issues on the [`~needs weight` board](https://gitlab.com/groups/gitlab-org/-/boards/4178322) to ensure that all issues for future milestones are being weighted and refined by team members.
-    - For any `Verify::P*` issues where team members have not already started the refinement process, the designated DRI will comment on the issue asking a specific team member or team members to start the process.
-  - The EM will work with the PM and engineers to decide what should happen to any unassigned issues. They might be:
-    - Reassigned with agreement from the engineer.
-    - Placed in the `%Backlog`
-    - Moved to a future milestone.
-    - Remain in the current milestone as `~Stretch` goals.
-  - The EM and PM will remove any remaining issues in `workflow::planning breakdown` that do not have a due date requiring them to be completed in that milestone. They can either be moved into a future milestone or the %Backlog depending on team priorities.
-- By the release day:
-  - Each engineer will assign themself to one Verify::P1 issue in the upcoming milestone if they have not already been assigned on by the EM.
-  - The designated DRI for milestone planning will follow-up with engineers for any `~Verify::P1` issues not yet in `workflow::ready for development`.
-- By one week after each monthly release:
-  - Engineers have completed refining the assigned `Verify::P*` issues and move them to `workflow::ready for development` and removing the `needs weight` label. Tagging in the PM and EM for visibility.
+  - The **EM** will ensure that labels are set correctly for any milestone issues
 
-**Note:** The EM and PM may need to modify the team commitments and schedule work for the upcoming milestone as we focus on [Customer Results](/handbook/values/#results) over what we plan.
+**Note:** The **EM** and **PM** may need to modify the team commitments and schedule work for the upcoming milestone as we focus on [Customer Results](/handbook/values/#results) over what we plan.
 
 #### How Engineering Refines Issues
 
@@ -365,7 +372,7 @@ Our planning timeline follows the [GitLab Product Development timeline](/handboo
 
 Engineers are expected to allocate approximately 6 hours each milestone to refine and weight issues on the [`~needs weight` board](https://gitlab.com/groups/gitlab-org/-/boards/4178322).
 
-The purpose of refining an issue is to ensure the problem statement is clear enough to provide a rough effort sizing estimate; the intention is not to provide **solution validation** during refinement. When refining issues, engineers should timebox the activity to no more than 2 hours per issue. If an issue is complex and will require more research, we should track that effort in a refinement "~spike" to ensure we account for it in milestone planning. The "~spike" should be linked as blocking the original issue and outline the outcomes expected and a timebox for the effort should be specified. The original issue should be labelled as "~workflow::blocked".
+The purpose of refining an issue is to ensure the problem statement is clear enough to provide a rough effort sizing estimate; the intention is not to provide **solution validation** during refinement. When refining issues, engineers should timebox the activity to no more than 2 hours per issue. If an issue is complex and will require more research, we should track that effort in a refinement "~spike" to ensure we account for it in milestone planning. The "~spike" should be linked as blocking the original issue and outline the outcomes expected and a timebox for the effort should be specified. The original issue should be labeled as "~workflow::blocked".
 
 Engineering uses the [following handbook guidance for determining weights](#weighting-issues). If any issue needs any additional `~frontend ~backend ~Quality ~UX ~documentation` reviews, they are assigned to the respective individual(s).
 
@@ -400,7 +407,7 @@ Engineers will:
 Because we should not be spending more than 2 hours per issue, we should re-evaluate if more time is needed or if a spike is required based on
 
 1. If the issue is still reproducible on Gitlab.com. If the cause is not obvious, a good first step is to ask the author for clarifications.
-1. If Support engagement is present in the issue. We can tell if the issue is created by a Gitlab team member or if it has the ~customer label.
+1. If Support engagement is present in the issue. We can tell if the issue is created by a GitLab team member or if it has the ~customer label.
 1. If the issue is on Gitlab.com or if it's on a self-managed instance. If this only affects self-managed instance, we can ask for request for help issue instead.
 1. The scope and affect of the issue. If it's only affecting one customer or if it's present for multiple customers
 
@@ -433,9 +440,9 @@ The team makes use of `Verify::P*` labels to indicate priority order of issues. 
 
 | Priority Label | Reason for applying |
 | ---- | ---- |
-| `Verify::P1` | These are issues that we will commit to delivering in the current milestone. |
-| `Verify::P2` | These are issues that we are likely to commit to delivering in the next milestone. |
-| `Verify::P3` | These are issues that are likely to be committed to delivering in the milestone following the next. |
+| `Verify::P1` | These are issues are the highest priority within their `priority::x` grouping. |
+| `Verify::P2` | These are issues are the second highest priority within their `priority::x` grouping. |
+| `Verify::P3` | These are issues are the third highest priority within their `priority::x` grouping. |
 
 ### Workflow
 
@@ -463,7 +470,7 @@ At any point, if an issue becomes blocked, it would be in the `workflow::blocked
 
 `workflow::ready for development` means that an issue has been sufficiently [refined and weighted by Engineering](#how-engineering-refines-issues). Issues in this state that are labeled `cicd::active` are ones that should be worked on in a milestone. When a developer starts working on an issue they should [set the milestone](#setting-the-milestone) to that of the one where the issue will most likely be completed, rather than the one where it is started.
 
-`workflow::awaiting security release` is applied by an engineer after the security issue has passed verification and this label signals that it is ready for production but awaiting the next [monthly security release](https://about.gitlab.com/handbook/engineering/releases/security-releases/). When this label is applied, the issue's milestone should also be updated to the next milestone to align with when the next security release will happen.
+`workflow::awaiting security release` is applied by an engineer after the security issue has passed verification and this label signals that it is ready for production but awaiting the next [monthly security release](/handbook/engineering/releases/security-releases/). When this label is applied, the issue's milestone should also be updated to the next milestone to align with when the next security release will happen.
 
 `workflow::feature-flagged` is applied to an issue that is being enabled through a separate feature flag rollout issue. Once the feature is validated the status is moved to `workflow::complete` and the issue is closed.
 
@@ -473,15 +480,19 @@ More detail on the workflow is available on the [Product-Development Flow](/hand
 
 ### "What do I work on next?"
 
+- check with your team members to see if they need help to complete their committed work. See [Working Right to Left to reduce WIP](#working-right-to-left-to-reduce-wip)
+- check with the EM or PM to see if there are any customer support requests you can help with.
+- consult the lists used in [planning](#planning) to find additional unclaimed items to work on. 
+
 #### What are the priorities for this milestone?
 
 We use a series of labels to indicate the highest priority issues in the milestone.
 
-1. The highest priorities for a given milestone would be issues labelled with `Verify::P1`, `Deliverable`, and `group::pipeline execution` to align with the Theme and Goals of the milestone.
-1. Each milestone will start with 1 issue per engineer, which will be labeled as `Verify::P1`, `Deliverable`, and `group::pipeline execution`. This should account for approximately 30% of the average total milestone weight.
+1. The highest priorities for a given milestone would be issues labeled with `Verify::P1`, `Deliverable`, and `group::pipeline execution` to align with the Theme and Goals of the milestone.
+1. Each milestone will start with 1 issue per engineer, which will be labeled as `Deliverable`, and `group::pipeline execution`. This should account for approximately 30% of the average total milestone weight.
 1. Once all of the `Verify::P1` issues have been picked up and are in `workflow:in dev` or beyond, we have `Verify::P2` and `Verify::P3` to signal issues that are important and will likely become `Verify::P1` issues in later milestones.
 
-Following the  `Verify::P*` priorities, the `ready for development` column on the [Pipeline Execution Workflow issue board](https://gitlab.com/groups/gitlab-org/-/boards/1372896) will be curated, so that each team member can pull items from this column as they choose.
+Following the priorities, the lists used in [planning](#planning) will be curated, so that each team member can pull items from these lists as they choose according to capacity.
 
 ##### Setting the Milestone
 
@@ -489,7 +500,7 @@ When DRIs select issues, they will assign themselves to the issue and also add t
 
 #### Working Right to Left to reduce WIP
 
-Each member of the team can choose which issues to work on during a milestone by assigning the issue to themselves. When the milestone is well underway and we find ourselves looking for work, we default to working **right to left** on the **[issue board](https://gitlab.com/groups/gitlab-org/-/boards/1372896)** by pulling issues in the right-most column. If there is an issue that a team member can help with on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to, if they feel that they can add value and help move the issue along to completion. Additionally, prior to picking up the next issue from the top of the `workflow::ready for development` column, team members should check the [`~needs weight` board](https://gitlab.com/groups/gitlab-org/-/boards/4178322) to ensure everything in the `Verify::P*` columns has been weighted.
+Each member of the team can choose which issues to work on during a milestone by assigning the issue to themselves. When the milestone is well underway and we find ourselves looking for work, we default to working **right to left** on the **[issue board](https://gitlab.com/groups/gitlab-org/-/boards/1372896)** by pulling issues in the right-most column. If there is an issue that a team member can help with on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to, if they feel that they can add value and help move the issue along to completion. Additionally, prior to picking up the next issue from the top of the `workflow::ready for development` column, team members should check the [`~needs weight` board](https://gitlab.com/groups/gitlab-org/-/boards/4178322) to ensure candidates for upcoming milestones have been weighted.
 
 Specifically, this means our work is prioritized in the following order:
 

@@ -1,13 +1,6 @@
 ---
-
 title: "CSM Paid Time Off"
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 

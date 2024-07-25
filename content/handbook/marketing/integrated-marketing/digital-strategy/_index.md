@@ -1,14 +1,7 @@
 ---
-
 title: "Digital Strategy"
 description: "The Digital Strategy team generates new prospects through paid channels by building & managing digital marketing campaigns, testing incremental changes for conversion rate improvement, and tracking campaign performance."
 ---
-
-
-
-
-
-
 
 ## Digital Strategy
 

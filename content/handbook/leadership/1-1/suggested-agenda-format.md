@@ -31,7 +31,7 @@ Give your agenda document these headers:
 
 ## Career development
 
-An important part of career development is feedback, but that’s not all. It also involves training.
+An important part of career development is feedback, but that's not all. It also involves training.
 Please see [our guide on giving career development](/handbook/people-group/guidance-on-feedback/).
 
 ## Vision

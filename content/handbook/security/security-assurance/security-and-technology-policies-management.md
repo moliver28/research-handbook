@@ -1,6 +1,5 @@
 ---
 title: "Security and Technology Policies Management"
-controlled_document: true
 ---
 
 ## Purpose

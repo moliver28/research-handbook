@@ -1,5 +1,4 @@
 ---
-
 title: KPIs
 ---
 
@@ -109,8 +108,8 @@ GitLab team members can access and update all Product performance indicators wit
 ## Satisfaction
 
 We do satisfaction scope on a scale of 1 to 5 how satisfied people are with the experience.
-We don’t use NPS since that cuts off certain scores and we want to preserve fidelity.
-We have the following abbreviation letter before SAT, please don’t use SAT without letter before to specify it:
+We don't use NPS since that cuts off certain scores and we want to preserve fidelity.
+We have the following abbreviation letter before SAT, please don't use SAT without letter before to specify it:
 
 - C = unused since customer is ambiguous (can mean product or support, not all users are customers)
 - E = unused since employee is used by other companies but not by us

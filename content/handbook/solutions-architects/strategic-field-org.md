@@ -1,9 +1,7 @@
 ---
-
 title: Solutions Architects - Strategic Field Organization
 description: "The Strategic Field Organization is a team of Principal Solutions Architects that support global strategic sales opportunities and customers."
 ---
-
 
 ## Solutions Architecture - Strategic Field Organization
 

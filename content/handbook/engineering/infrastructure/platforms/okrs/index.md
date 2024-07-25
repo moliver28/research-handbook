@@ -1,5 +1,4 @@
 ---
-
 title: "The Infrastructure SaaS Platforms OKRs"
 ---
 
@@ -11,9 +10,9 @@ title: "The Infrastructure SaaS Platforms OKRs"
 
 When writing OKRs, the guidance is that:
 
-* Objective is defined as “**What** do you want to achieve?”
-* Key Results is defined as “How will you know **when** you’ve achieved the objective?”
-* As part of a KR, you can also have a sub point - which will likely tie to an epic. This would be an “Initiative”, defined as “**How** are you going to achieve your key result?”
+* Objective is defined as "**What** do you want to achieve?"
+* Key Results is defined as "How will you know **when** you've achieved the objective?"
+* As part of a KR, you can also have a sub point - which will likely tie to an epic. This would be an "Initiative", defined as "**How** are you going to achieve your key result?"
 
 #### Objectives
 

@@ -1,17 +1,7 @@
 ---
-
 title: "GCP CUD"
 description: "GCP Committed Use Discounts"
 ---
-
-
-
-
-
-
-
-
-
 
 ---
 

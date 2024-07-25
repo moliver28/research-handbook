@@ -1,13 +1,6 @@
 ---
-
 title: "Digital Marketing changes of note"
 ---
-
-
-
-
-
-
 
 ## What is a change of note?
 

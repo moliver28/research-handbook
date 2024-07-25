@@ -1,9 +1,7 @@
 ---
-
 title: "GitLab swag program"
 description: "This page outlines the swag program at GitLab."
 ---
-
 
 ## Welcome to the swag handbook
 

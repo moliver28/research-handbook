@@ -224,12 +224,12 @@ Some reviewers find it helpful to track their progress. This is not required, bu
 
 #### After becoming a maintainer
 
-If you’ve become a new maintainer, follow these instructions to request relevant permissions that will allow you to fulfill your role:
+If you've become a new maintainer, follow these instructions to request relevant permissions that will allow you to fulfill your role:
 
-- Join the maintainer’s group channel on Slack: `#frontend_maintainers`, `#backend_maintainers`, etc.
+- Join the maintainer's group channel on Slack: `#frontend_maintainers`, `#backend_maintainers`, etc.
 - Ask the maintainers in your group to invite you to any maintainer-specific meeting if one exists.
 - Request access to the GitLab maintainer group you belong: [frontend](https://gitlab.com/gitlab-org/maintainers/frontend), [backend](https://gitlab.com/gitlab-org/maintainers/rails-backend), or [database](https://gitlab.com/gitlab-org/maintainers/database).
-- Request maintainer permissions on the projects you will act as a maintainer using the [Single Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) issue template. Once you’ve created the issue, request another maintainer to grant you those permissions.
+- Request maintainer permissions on the projects you will act as a maintainer using the [Single Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) issue template. Once you've created the issue, request another maintainer to grant you those permissions.
 
 ### Reviewer mentorship program
 

@@ -1,5 +1,4 @@
 ---
-
 title: Social Marketing Handbook
 description: 'Strategies, Workflows, and Emoji for Social Media at GitLab'
 twitter_image: /images/opengraph/handbook/social-marketing/social-handbook-top.png
@@ -8,12 +7,7 @@ twitter_site: gitlab
 twitter_creator: gitlab
 ---
 
-
-
-
-
-
-📖 **Welcome to the Social Marketing Handbook**. The social marketing team is responsible for the stewardship of the GitLab brand social channels. We’re accountable for the organic editorial calendar and work with partners across the Developer Relations, digital marketing, talent brand, and other teams to orchestrate the social media landscape for GitLab.
+📖 **Welcome to the Social Marketing Handbook**. The social marketing team is responsible for the stewardship of the GitLab brand social channels. We're accountable for the organic editorial calendar and work with partners across the Developer Relations, digital marketing, talent brand, and other teams to orchestrate the social media landscape for GitLab.
 {:.alert .alert-info .text-justify}
 
 ### Social Marketing Handbook Pages
@@ -63,7 +57,7 @@ The Social Marketing Team is working towards a long term strategy that includes 
 
 <details><summary>Brand</summary>
 
-GitLab’s company profiles on core social channels like Twitter and LinkedIn
+GitLab's company profiles on core social channels like Twitter and LinkedIn
 <br> - Calendaring (Copy + Creative)
 <br> - Crisis Response/Mitigation
 <br> - Core reporting and analysis
@@ -74,7 +68,7 @@ GitLab’s company profiles on core social channels like Twitter and LinkedIn
 
 <details><summary>Advocacy</summary>
 
-Enabling GitLab’s team members to publish GitLab-related content on their personal social media channels
+Enabling GitLab's team members to publish GitLab-related content on their personal social media channels
 <br> - Copy + Creative
 <br> - Includes Comms, sales, talent brand
 <br> - Core reporting and analysis
@@ -92,7 +86,7 @@ Data analysis to inform future campaigns, slogans, comms, as well as, competitiv
 
 ## Strategic direction
 
-**Organic social is a two way communication system**. It’s about community and conversations. We can to appeal to the emotions of our audience through real-time conversations and interactions.
+**Organic social is a two way communication system**. It's about community and conversations. We can to appeal to the emotions of our audience through real-time conversations and interactions.
 
 We want…
 <br> people to feel good.
@@ -102,7 +96,7 @@ We want…
 
 Elevate our brand ⛰ - Increase team member community and sense of belonging. Less is more, particularly when it is executed well and resembles a world class brand.
 
-“Inside out culture” 🤝 - Exercising our internal values to our external audiences.
+"Inside out culture" 🤝 - Exercising our internal values to our external audiences.
 
 No hard selling 🥎 - We throw softballs only.
 
@@ -160,7 +154,7 @@ Elevation requires siginficant campaign planning, above years' past. The social 
 | [GitLab Brand Instagram](https://www.instagram.com/gitlab/) |
 | [GitLab Brand GIPHY Channel](https://giphy.com/gitlab) |
 
-GitLab Branded Social Channels include our company [Twitter](https://twitter.com/gitlab), [LinkedIn](https://www.linkedin.com/company/gitlab-com), and [Facebook](https://www.facebook.com/gitlab) which are managed in a more traditional manner. And an [Instagram](https://www.instagram.com/gitlab) channel that takes more of an editorial look at remote life and work at GitLab. This channel is a little less “marketing-y” and more about sharing thoughtful stories by our team members. Our [GIPHY](https://giphy.com/gitlab) account is mainly for new GIF content, which can be tied to larger initiatives.
+GitLab Branded Social Channels include our company [Twitter](https://twitter.com/gitlab), [LinkedIn](https://www.linkedin.com/company/gitlab-com), and [Facebook](https://www.facebook.com/gitlab) which are managed in a more traditional manner. And an [Instagram](https://www.instagram.com/gitlab) channel that takes more of an editorial look at remote life and work at GitLab. This channel is a little less "marketing-y" and more about sharing thoughtful stories by our team members. Our [GIPHY](https://giphy.com/gitlab) account is mainly for new GIF content, which can be tied to larger initiatives.
 
 ## Content Pillars (FY23)
 
@@ -192,7 +186,7 @@ The purpose of GitLab team members participating in 3rd-party events is to bring
 
 ## Sharing blog posts
 
-New blogs are linked in the #content-updates channel, and then our team  uses that as a notification that the blog is ready to schedule and share on social. Sometimes when it’s connected to a campaign or is particularly important, we’ll also get a ping about it in a thread from the original slack message.
+New blogs are linked in the #content-updates channel, and then our team  uses that as a notification that the blog is ready to schedule and share on social. Sometimes when it's connected to a campaign or is particularly important, we'll also get a ping about it in a thread from the original slack message.
 
 If the blog is connected to an integrated campaign, it will be picked up in the social issues and epics for that campaign. If it is a part of a press release/announcement, we'll also be tagged in related issues through the PR workflow.
 
@@ -204,7 +198,7 @@ On a quarterly basis the social media team will identify the best performing blo
 
 In addition to the existing workflow with the release team, we should look to share the news with all of GitLab. Following the scheduling/publishing of our brand posts for the release, add the release post as a story to Bambu/Advocacy by Sprout. Once all links are available to share, respond to the message in #whats-happening Slack channel and also send this message to the channel to for more awareness.
 
-> You can share our release post on social media by either sharing our _LinkedIn_ or _Twitter_ posts or by _sharing your own post via Bambu_. You can also celebrate this month’s MVP, [insert name], by selecting the copy in Bambu that highlights this month’s winner.
+> You can share our release post on social media by either sharing our _LinkedIn_ or _Twitter_ posts or by _sharing your own post via Bambu_. You can also celebrate this month's MVP, [insert name], by selecting the copy in Bambu that highlights this month's winner.
 
 Replace the italicized words above with links to their respective posts.
 
@@ -250,7 +244,7 @@ Our "full capacity" concept is not a requirement. We can and will evolve our cal
 
 Because the wider developer community utilizes [Twitter](https://twitter.com/gitlab) as a platform to celebrate contributions, make feature suggestions, and share industry ideas, GitLab prioritizes this channel. We post to this platform first, and also more frequently.
 
-On Twitter our GitLab community is our first priority. It includes those who contribute to our DevOps platform, our GitLab Heroes, and folks who evangelize the industry. We take time to listen to their feedback, even when it is critical. We make space for fun. Through inside jokes, polls, or simple questions, our Twitter channel provides developers an opportunity to take a break and relate to one another. GitLab’s Twitter community is unique because we focus on engaging with their opinions. And delivering them tailored content they will actually find useful, or inspiring.
+On Twitter our GitLab community is our first priority. It includes those who contribute to our DevOps platform, our GitLab Heroes, and folks who evangelize the industry. We take time to listen to their feedback, even when it is critical. We make space for fun. Through inside jokes, polls, or simple questions, our Twitter channel provides developers an opportunity to take a break and relate to one another. GitLab's Twitter community is unique because we focus on engaging with their opinions. And delivering them tailored content they will actually find useful, or inspiring.
 
 The GitLab Brand Twitter channel is establishing a sense of community through these activities:
 
@@ -259,7 +253,7 @@ The GitLab Brand Twitter channel is establishing a sense of community through th
    Posting frequently
  </summary>
 
-Twitter does not operate like our other GitLab Social Branded Channels. There are no strict frequency limitations on Twitter and we aim to post at a minimum of  3 times a day if not more. Retweets and quote tweets scheduled to the calendar do not reduce our limitation. We see 1:1 interactions as useful, limitless, and should always be added to the calendar if they correlate with a promotion, or simply celebrate a milestone. Every post should take advantage of Sprout’s optimal time feature as we have many followers located across all time zones.
+Twitter does not operate like our other GitLab Social Branded Channels. There are no strict frequency limitations on Twitter and we aim to post at a minimum of  3 times a day if not more. Retweets and quote tweets scheduled to the calendar do not reduce our limitation. We see 1:1 interactions as useful, limitless, and should always be added to the calendar if they correlate with a promotion, or simply celebrate a milestone. Every post should take advantage of Sprout's optimal time feature as we have many followers located across all time zones.
 Do not always select the 3-5 stars optimal time. If there are already 4 posts going out that day select the 1-2 stars optimal time. This will help keep the calendar properly spaced out and ensure we have content publishing throughout the day.
 </details>
 
@@ -268,9 +262,9 @@ Do not always select the 3-5 stars optimal time. If there are already 4 posts go
    Community management
  </summary>
 
-GitLab’s Twitter ecosystem of engagement includes mentions from code contributors, brand personalities, technical evangelists, GitLab Heroes, remote work enthusiasts,  and team members. We prioritize engaging with these audiences because it enables the brand to drive more meaningful interactions through social media. That means we use the Smart Inbox feature to find posts to like, comment, or retweet on a daily basis. We commit to quote tweeting posts when someone shares their #MyFirstMRmerged, a contribution to a project, or excitement about a new feature.
+GitLab's Twitter ecosystem of engagement includes mentions from code contributors, brand personalities, technical evangelists, GitLab Heroes, remote work enthusiasts,  and team members. We prioritize engaging with these audiences because it enables the brand to drive more meaningful interactions through social media. That means we use the Smart Inbox feature to find posts to like, comment, or retweet on a daily basis. We commit to quote tweeting posts when someone shares their #MyFirstMRmerged, a contribution to a project, or excitement about a new feature.
 
-GitLab also participates in periodic giveaways which are launched directly on our Twitter channel. The barrier to entry often includes a social share and tag. Our audience has responded really well to these easy-to-enter giveaways that provide them free passes or swag items. We believe in these 1:1 relationships that we’ve built online. It feels good to give back to our community who makes us a loveable product, and brand.
+GitLab also participates in periodic giveaways which are launched directly on our Twitter channel. The barrier to entry often includes a social share and tag. Our audience has responded really well to these easy-to-enter giveaways that provide them free passes or swag items. We believe in these 1:1 relationships that we've built online. It feels good to give back to our community who makes us a loveable product, and brand.
 </details>
 
 <details>
@@ -278,7 +272,7 @@ GitLab also participates in periodic giveaways which are launched directly on ou
    Storytelling
  </summary>
 
-We’re human. And enable humans to build better software, together. So to share our stories with the world, we don’t just quickly share a piece of content. We develop organic social media campaigns that have our audience and their reactions in mind. We take a corporate blog- and craft it into an editorial campaign. We display real voices through creative imagery. We share relatable experiences, and bring light to specific features that make DevOps- easier. We don’t share headlines- we develop a deeper understanding.
+We're human. And enable humans to build better software, together. So to share our stories with the world, we don't just quickly share a piece of content. We develop organic social media campaigns that have our audience and their reactions in mind. We take a corporate blog- and craft it into an editorial campaign. We display real voices through creative imagery. We share relatable experiences, and bring light to specific features that make DevOps- easier. We don't share headlines- we develop a deeper understanding.
 </details>
 
 <details>
@@ -294,7 +288,7 @@ Creating space to interact with the GitLab community has always been a priority 
    Emoji & GIF use
  </summary>
 
-Our tone of voice on social media is human and friendly. All devs are friends; no matter the tool they use. That’s why we use emoji whenever we can. The overuse of emoji allows us to participate in a universally used language. GitLab believes that everyone can contribute. That’s why being better communicators is crucial for our audience- no message should go misunderstood.
+Our tone of voice on social media is human and friendly. All devs are friends; no matter the tool they use. That's why we use emoji whenever we can. The overuse of emoji allows us to participate in a universally used language. GitLab believes that everyone can contribute. That's why being better communicators is crucial for our audience- no message should go misunderstood.
 
 When the opportunity presents itself, using GIFs in quote tweets, comments, or celebratory posts has proven to increase engagement.
 </details>
@@ -369,7 +363,7 @@ Campaigns that require you to sign up will not see success on this channel, and 
 
 ### Instagram <a name="instagram"></a>
 
-In no way shape or form should our [Instagram](https://www.instagram.com/gitlab) account mirror our other GitLab Branded Social Channels. In fact, it takes more of an editorial approach to it, and is less “marketing-y” and more about building community.
+In no way shape or form should our [Instagram](https://www.instagram.com/gitlab) account mirror our other GitLab Branded Social Channels. In fact, it takes more of an editorial approach to it, and is less "marketing-y" and more about building community.
 
 Since launching the GitLab Brand Instagram channel the Social Media Team committed to posting weekly content driven by a dedicated theme which represents our values, remote work, or life at GitLab.
 

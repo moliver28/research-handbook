@@ -1,14 +1,8 @@
 ---
-
 title: Professional Service Operations
 category: Internal
 description: "Learn about the GitLab Professional Services operations processes and workflows."
 ---
-
-
-
-
-
 
 ## Welcome to GitLab Professional Services Operations
 
@@ -136,13 +130,72 @@ The PM sends out the request for acceptance to the customer and then updates the
 - Update Sign Off received, when acceptance is received or Passive Acceptance is reached and add the PDF email of acceptance to the Milestone
 - Update if Passive Acceptance has been utilized for sign off
 
-![fprevenuerelease](./fprevenuerelease.png)
+![fprevenuerelease](fprevenuerelease.png)
 
 ## Project Coordination- Training
 
+### Train
+
+PSEs or Technical Instructors who deliver GitLab Education Services instructor-led courses can use the following workflow to ensure smooth interactions with customers. In addition, PSEs and Technical Instructors should complete these [GitLab Certified Trainer](/handbook/customer-success/professional-services-engineering/gitlab-certified-trainer-process/) steps for each course they are scheduled to deliver.
+
+#### Preparation steps
+
+1. Professional Services Operations will contact the customer with a "Welcome to Education Services Email" to initiate the training scheduling.  After the training dates and times are confirmed, Professional Services Operations will schedule a training session planning meeting. Trainer participation in this meeting is recommended -- please let the assigned Professional Services Operations team member know if you need the meeting to be rescheduled to ensure your attendance.
+
+1. Professional Services Operations will use these [email communication templates](https://docs.google.com/document/d/1rJ9q9gEzsumRxDhoWEe45u70efmKA0eWNg69WONuCYs/edit?usp=sharing) to ensure communication of the key details with the customer and training participants.
+
+1. During the training planning meeting, be sure to discuss and document all of the event logistics listed in the [Training Event Plan Template](https://docs.google.com/document/d/1huNauyfhFPvLCuo-9T7Ol3FtBDYowYxiP_T5ItP2FN4/edit?usp=sharing). Professional Services Operations will create a draft of the Training Event Plan prior to the meeting and update the document during the training planning meeting.
+   - During the training planning meeting, the course outline and system requirements pages below are useful to use to review training logistics, topics, teleconferencing, and system requirements.
+      - [GitLab with Git Fundamentals course outline](https://university.gitlab.com/pages/gitlab-fundamentals-training)
+      - [GitLab CI/CD course outline](https://university.gitlab.com/pages/ci-cd-training)
+      - [GitLab Agile Portfolio Management course outline](https://university.gitlab.com/pages/agile-training)
+      - [GitLab Security Essentials course outline](https://university.gitlab.com/pages/security-training)
+      - [GitLab System Administration course outline](https://university.gitlab.com/pages/system-admin-training)
+      - [GitLab Duo Principles course outline](https://university.gitlab.com/pages/duo-training)
+      - [System Requirements](https://university.gitlab.com/pages/gitlab-ilt-sysreq)
+
+1. Professional Services Operations will set up a Zoom Meeting or Webinar session for each session using [these set up instructions](/handbook/customer-success/professional-services-engineering/remote-training-session-setup/) and add the registration link(s) to the issue. You will receive an email message with your unique link to join the Zoom Meeting or Webinar session. Make sure to locate the Zoom information within the email message and familiarize yourself with the Zoom functionality. Here is a useful Zoom article for [Managing Attendees and Panelists in a Webinar](https://support.zoom.us/hc/en-us/articles/115004834466-Managing-attendees-and-panelists-in-a-webinar). Depending on your Zoom set up, you may want to log into https://zoom.us, go to Join a Meeting, and enter the meeting ID/webinar ID to start the Zoom session.
+
+1. At least 2 weeks prior to the training session, Professional Services Operations will email the session registration link(s) to the customer, asking them to send the link(s) to each of the employees whom they want to attend the session(s). When each person registers, they will receive an automated confirmation email with a Zoom Meeting or Webinar join link unique to each person, along with a link to add the session to their calendar.
+
+1. Professional Services Operations will advise if a different teleconferencing system is being used for the training and provide additional details for accessing the teleconferencing meeting.
+
+1. Contact the GitLab Education Services team to confirm you have the latest versions of course slides and other materials.
+
+1. Review the train-the-trainer (T3) video for the course you are delivering.
+
+1. Review and follow the [Instructor Pre-Training Checklist](/handbook/customer-success/professional-services-engineering/processes/delivery-checklists/) to ensure that you are properly prepared for your delivery.
+
+1. Review, practice, and use these [PS Remote Training Tips and Tricks](/handbook/customer-success/professional-services-engineering/remote-training-tips/).
+
+1. Complete the GitLab Training Lab set up steps below. Make sure that you review the lab exercises and ensure that the labs are working properly prior to the first day of class.
+
+1. When it's time to join the teleconferencing as a presenter, use the provided information to join the session.
+
+##### Training lab pre-course instructor workflow
+
+PS uses the [GitLab Lab Environment](http://gitlabdemo.com/) as the standard environment for hands-on course lab activities and hands-on certification assessments. Follow these steps to set up your course attendees for lab access.
+
+**1. GitLab lab environment invitation codes**
+
+1. Professional Services Operations will generate the invitation code for your class and provide the invitation code information approximately a week prior to your class start date as part of the instructor friendly reminders post within your Kantata project.
+1. Follow the instructions on the [GitLab Lab Environment Invitation Code Redemption handbook page](/handbook/customer-success/demo-systems/#invitation-code-redemption) to redeem the invitation code and access the lab environment.
+1. For any edits/extensions/etc or any custom redemption rules (different durations than our standards), contact the GitLab Professional Services Operations team for assistance.
+
+**2. Share the invitation code and access instructions with attendees**:
+
+1. On the first day of class, share the invitation code and review the login process with the attendees. Also let them know the expiration date (which is 30 days from the date they generate the login).
+
+#### Training Closeout
+
+1. Review the [Instructor Post-Training Checklist](/handbook/customer-success/professional-services-engineering/processes/delivery-checklists/) to ensure that you have followed all of the steps to close out your training class.
+1. Professional Services Operations will download the attendance report and send a close out email to the customer using an email template located in the [email communication templates](https://docs.google.com/document/d/1rJ9q9gEzsumRxDhoWEe45u70efmKA0eWNg69WONuCYs/edit?usp=sharing).
+
+---
+
 ### Training Planning and Scheduling
 
-Refer to this [internal page](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/home#calendar_spiral-training-operations) for more information.
+Refer to this [internal page](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/home#calendar_spiral-training-operations) for more information on Professional Services Operations' processes.
 
 ---
 
@@ -171,14 +224,14 @@ If there is not confidence that the activities will be complete, then the task d
 
 ### Revenue Release Training Projects
 
-For training projects, revenue is released when training is complete and/or when acceptance is received dependant on the project SOW language.
-If required per the project SOW, the PC sends the request for acceptance to the customer and then updates the Billing/ Revenue Milestone in Kantata
+For training projects, revenue is released when training is complete and/or when acceptance is received dependent on the project SOW language.
+If required per the project SOW, Professional Services Operations sends the request for acceptance to the customer and then updates the Billing/ Revenue Milestone in Kantata
 
 - Update Sign Off Sent, when training is complete or email request is sent
 - Update Sign Off received, when training is complete, acceptance is received, or Passive Acceptance is reached and add the class roster or PDF email of acceptance to the Milestone
 - Update if Passive Acceptance has been utilized for sign off
 
-![trainingrelease](./trainingrelease.png)
+![trainingrelease](trainingrelease.png)
 
 ---
 
@@ -262,40 +315,6 @@ Internal projects are set up to track internal time that is not customer project
   - All hours should be tracked against the task for preparation and close out of the training
 - All class hours are to be tracked against the task that gives the name of the training, example is GitLab Basics TRNG Hours
 
-#### Month End Time Tracking Guidelines
-
-Professional Services has a hard close at each month end.
-
-Our agreed schedule with finance is [Monthly/ Quarterly/ Year End Time Lines](https://docs.google.com/spreadsheets/d/15uTHHnmIvWteYGi98BaikOVDtN99MLiVN9su-YlMMLM/edit#gid=0)
-
-- By Noon ET, Time Sheets will need to be submitted on the agreed date with finance
-  - Time would include hours for that day along with an estimate of hours for the final days of the month
-  - If corrections need to be made for the final 3 days of the month, that would be included in the following weeks time sheet
-- By 1 PM ET, Time Sheets will need to be approved by the Project Managers and Coordinators
-- By 6 PM ET, the Operations Teams will have gone through the review process and submit reporting to Finance
-
-Time sheets would be submitted by the team and then approved by the project lead on the cutoff date.  Then an additional project line would be added to finish out the remainder of the week, and follow the normal end of the week process.
-
-Here is an example of a time sheet that has been submitted and approved on a Tuesday, then new lines created for the remainder of the week
-
-![splittimesheet](./splittimesheet.png)
-
-#### Month End Revenue and Billing Timelines
-
-Our agreed schedule with finance is [Monthly/ Quarterly/ Year End Time Lines](https://docs.google.com/spreadsheets/d/15uTHHnmIvWteYGi98BaikOVDtN99MLiVN9su-YlMMLM/edit#gid=0)
-
-All timesheets and fixed priced items will be signed off and completed on the monthly and quarterly deadline, then timesheets approvals and reports are submitted the following day.
-
-There is an agreement with revenue if FP items over $10,000 process after the cutoff date and prior to month end, and the billing is complete then the revenue can be processed and accounted for the current month.
-
-#### Quarterly time tracking entry and approval workflow
-
-- All hours are submitted and approved in Kantata on a weekly basis
-- The quarterly hours report is pulled from Kantata and reviewed by the Operations Manager and then provided to the PS Director for review and approval
-- A PS Director will APPROVE the hours, create an issue and attach it to the Time Tracking Epic with the `ManagerCertifiedTimesheet` label
-- The approving manager will submit to the Head of PS, [Sr. Director of Professional Services](/job-families/sales/director-of-professional-services/) for next level approval.  The Head of PS with apply judgement on productive utilization.
-- Head of Professional Services will submit to the Professional Services Finance Partner for final approval.
-
 ### Project Expenses
 
 Refer to this [internal page](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/Onsite-Travel-and-Expenses) for more information on onsite travel and expense processes.
@@ -370,19 +389,19 @@ Health Reports provide a weekly snap shot status to PS Management on the overall
   - What is the individual being hires to do
     - GitLab Customer Name- Partner Name- PSE/ PM Name
   - Are any GitLab employees already performing this service?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - Will GitLab provide the individual with the required hardware/ device to complete the work?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - Is this a PS Partners service request?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - Is this an extension?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - Is the intended engagement meant to be over 6 months?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - Would you like Procurement to negotiate?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - What is the estimated spend?
-    - For the most part, answer “no”
+    - For the most part, answer "no"
   - Requisition Information
     - Add Partner Name
     - Description/ Item
@@ -414,8 +433,8 @@ Health Reports provide a weekly snap shot status to PS Management on the overall
 - Go into the Review Cart section and enter the information on the purchase request with the Professional Services Request Form questions already populated and added to the purchase request.
 
 - Notes:
-  - For Consulting, do not specify anyone for the “on behalf of” field. PS Project Coordinator will initiate the new purchase request.
-  - For Training, PS Education Services Manager will initiate a new purchase request and specify the PS Project Coordinator for the “on behalf of” field.
+  - For Consulting, do not specify anyone for the "on behalf of" field. PS Project Coordinator will initiate the new purchase request.
+  - For Training, PS Education Services Manager will initiate a new purchase request and specify the PS Project Coordinator for the "on behalf of" field.
 - General Info section:
   - Description of Purchase- PS Partner Sub Contractor Agreement
   - Add Agreements in the Attachments

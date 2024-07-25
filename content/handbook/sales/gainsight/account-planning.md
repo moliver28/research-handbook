@@ -1,14 +1,7 @@
 ---
-
 title: "Using Gainsight within Sales"
 description: "The key aspects of how Sales uses Gainsight to drive success for customers."
 ---
-
-
-
-
-
-
 
 *For an overview of Gainsight, and information about how to login, please refer to the [Gainsight Overview Page](/handbook/sales/gainsight/).*
 
@@ -48,7 +41,7 @@ This section of the account plan serves to capture any relevant customer informa
 | Account Rank       | Pulled from Salesforce                                                                                                                                                                                                                                    |
 | Account Rank Notes | Link a GoogleDoc, or add any context detailing why the account was ranked the way it was. We should be starting with Rank 1 Accounts.                                                                                                                     |
 | Business Overview  | High level overview of the organization, and any pertinent information that someone would need to know about the organization. This can include information such as key products and services, key customer business priorities, or financial challenges. |
-| Industry Trends    | Is there anything going on in the customer’s industry? New technology or changes that impact the customer’s org?                                                                                                                                          |
+| Industry Trends    | Is there anything going on in the customer's industry? New technology or changes that impact the customer's org?                                                                                                                                          |
 
 #### The Account Snapshot
 
@@ -60,7 +53,7 @@ This section of the account plan serves to capture relevant information about th
 | Current Entitled Solutions      | Information on current subscriptions, adoption rates, and product usage data if it is available.                                                                                                                             |
 | IT/ Digital Strategy            | Where is the customer in their digital transformation journey? What is their strategy for the next 3, 6, 12 months?                                                                                                          |
 | Strategic Partnerships          | Information about partners engaged with the customer (e.g. their cloud provider) and partners involved in this account.                                                                                                      |
-| Goals/ Strategies/ Objectives   | Information about the customer’s pain, and desired positive business outcomes.                                                                                                                                               |
+| Goals/ Strategies/ Objectives   | Information about the customer's pain, and desired positive business outcomes.                                                                                                                                               |
 | Customer High Level Initiatives | What is the customer working on? Do they have any key initiatives we should be aware of?                                                                                                                                     |
 
 #### Go-to-Market Plan
@@ -71,7 +64,7 @@ This section of the account plan serves to capture relevant information about ou
 |-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Overall Account Plan Goals (6, 12, 18 months) | What is your vision for the customer for the next 6 months? What about 12, and 18 months? Has the customer shared their vision/ strategy for the next year with you?                                                                     |
 | GitLab Initiatives                            | Information about any relevant internal initiatives that could impact the customer. For example are there impending pricing changes, or incentives around GitLab Ultimate?                                                               |
-| Threats/ Risks                                | Are you aware of any threats to your customer’s business, to the health of their GitLab adoption, or your plans to expand within the account? For example, are they downsizing? Is Microsoft making a strong play for their CI business? |
+| Threats/ Risks                                | Are you aware of any threats to your customer's business, to the health of their GitLab adoption, or your plans to expand within the account? For example, are they downsizing? Is Microsoft making a strong play for their CI business? |
 | Action Plan                                   | Based on your vision for the next 6, 12, and 18 months, how do you plan to get there? Have you considered the role of yourself, the SDR, the SA, and the CSM?                                                                            |
 
 ### Relationship and Influence Mapping

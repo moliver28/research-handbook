@@ -3,7 +3,6 @@ title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure Containe
 description: "This Hands-On Guide walks you through enabling and using Container Scanning in a GitLab project."
 ---
 
-
 > Estimated time to complete: 15 to 20 minutes
 
 ## Objectives

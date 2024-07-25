@@ -1,5 +1,4 @@
 ---
-
 title: "Executive Sponsorship Program"
 description: "The Executive Sponsorship Program aims to grow our relationships with senior-level buyers and champions at our top customers, expand engagement to promote enterprise-wide platform adoption, and take a customer-centric approach to solving our customers' most challenging business problems."
 ---
@@ -24,14 +23,14 @@ By systematically removing roadblocks and activating all GitLab functions to del
 ### Success goals and measurement
 
 We have three main areas of focus (1) relationship strength, (2) net promoter score, (3) platform adoption.
-Our KPI(s) are **relationship score**, which is based on the influence, sentiment, strength and engagement activity of the account; **net promoter score** based on satisfaction and likelihood to recommend, the number of roadblock removed and 2 public customer references annually; **platform adoption** through number use cases fully adopted, time to value and net ARR Growth.  
+Our KPI(s) are **relationship score**, which is based on the influence, sentiment, strength and engagement activity of the account; **net promoter score** based on satisfaction and likelihood to recommend, the number of roadblock removed and 2 public customer references annually; **platform adoption** through number use cases fully adopted, time to value and net ARR Growth.
 We will measure the success of our KPIs through relationship mapping and account planning (monthly), NPS and qualitative survey feedback (quarterly) and product usage as well as account health and SFDC data.
 
 ### Account & Sponsor Selection Process
 
-Account selection for the Executive Sponsorhip Program will happen annually and focuses on accounts with a combination of high customer strategic value to GitLab, GitLab’s ability to provide high strategic value to the account, as well as account health and propensity to churn.
+Account selection for the Executive Sponsorhip Program will happen annually and focuses on accounts with a combination of high customer strategic value to GitLab, GitLab's ability to provide high strategic value to the account, as well as account health and propensity to churn.
 
-Sponsor selection takes into account the accounts’ strategic, long term needs and pairs them with our sponsors’ capabilities and areas of expertise. We also consider executive compatibility, cultural fit, and pre-existing relationships.
+Sponsor selection takes into account the accounts' strategic, long term needs and pairs them with our sponsors' capabilities and areas of expertise. We also consider executive compatibility, cultural fit, and pre-existing relationships.
 
 Ultimately our aim is to identify the best fit for both parties, and allow our sponsors to really focus on their relationships with their accounts. To that end, we target a maximum of four assigned accounts per Sponsor on an annual basis.
 Once selected, Sponsors are to be engaged for a minimum 1 year commitment to their assigned accounts.

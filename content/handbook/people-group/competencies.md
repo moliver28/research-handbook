@@ -9,7 +9,7 @@ GitLab has competencies as a common framework to learn things. This page is a [S
 
 A competency is defined as a set of skills, knowledge, and behaviors that allow an individual to effectively and efficiently carry out their role. There are three key categories of competencies at GitLab:
 
-- Values Competencies - a common set of behaviors and skills that reflect the organizational [values]({{< ref "values" >}}) needed across the workforce
+- Values Competencies - a common set of behaviors and skills that reflect the organizational [values](/handbook/values/) needed across the workforce
 - Remote Competencies - the skills and knowledge required to perform in an all-remote environment
 - Functional Competencies - the skills, knowledge, and behaviors required to perform at the functional level
 
@@ -41,7 +41,7 @@ For example, we should have one SSoT for how to articulate the value of GitLab.
 1. [Sales enablement sessions](/handbook/sales/training/sales-enablement-sessions/)
 1. [Field enablement](/handbook/sales/field-operations/field-enablement/)
 1. [GitLab Training tracks](https://about.gitlab.com/learn/)
-1. [GitLab University](https://docs.gitlab.com/ee/university/)
+1. [GitLab University](https://university.gitlab.com/)
 1. [Customer Success Skills Exchange Sessions](/handbook/sales/training/customer-success-skills-exchange/)
 1. [Professional services offerings](/handbook/customer-success/professional-services-engineering/framework/#service-offering-framework/)
 1. [Onboarding]({{< ref "general-onboarding" >}}) both general and department specific
@@ -60,7 +60,7 @@ For example, we should have one SSoT for how to articulate the value of GitLab.
 
 Some competencies are based on job-level and others are based on your role.
 
-Values competencies are defined by job-level. For example, the definition of competency in the GitLab value of iteration and how you demonstrate that competency are different whether you are an Intermediate Product Manager or a Chief Product Officer.
+Values competencies are defined by job-level. For example, the definition of competency in the GitLab value of iteration and how you demonstrate that competency are different whether you are a Product Manager or a Chief Product Officer.
 
 In general, the scope of impact and expected behaviors expands as job level increases.
 
@@ -85,19 +85,19 @@ Each of the values and remote work competencies have a knowledge assessment in t
 
 ### Values Competencies
 
-1. [Collaboration]({{< ref "values#collaboration-competency" >}})
-1. [Results]({{< ref "values#results-competency" >}})
-1. [Efficiency]({{< ref "values#efficiency-competency" >}})
-1. [Diversity, Inclusion & Belonging ]({{< ref "values#diversity-inclusion--belonging-competency" >}})
-1. [Iteration]({{< ref "values#iteration-competency" >}})
-1. [Transparency]({{< ref "values#transparency-competency" >}})
+1. [Collaboration](/handbook/values/#collaboration-competency)
+1. [Results](/handbook/values/#results-competency)
+1. [Efficiency](/handbook/values/#efficiency-competency)
+1. [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion--belonging-competency)
+1. [Iteration](/handbook/values/#iteration-competency)
+1. [Transparency](/handbook/values/#transparency-competency)
 
-In addition to the knowledge assessments for each value, you can take this [Knowledge Assessment]({{< ref "values#gitlab-values-knowledge-assessment" >}}) to become certified in the values.
+In addition to the knowledge assessments for each value, you can take this [Knowledge Assessment](/handbook/values/#gitlab-values-knowledge-assessment) to become certified in the values.
 
 ### Remote Work Competencies
 
 1. [Manager of One]({{< ref "leadership#managers-of-one" >}})
-1. [Effective Communication]({{< ref "communication#effective-communication-competency" >}}) : includes Working async: [Why](/handbook/company/culture/all-remote/asynchronous/) and [How]({{< ref "communication" >}}), Well written artifacts, [Single Source of Truth]({{< ref "documentation#documentation-is-the-single-source-of-truth-ssot" >}}) and [Producing video](/handbook/marketing/marketing-operations/youtube/)
+1. [Effective Communication](/handbook/communication/#effective-communication-competency) : includes Working async: [Why](/handbook/company/culture/all-remote/asynchronous/) and [How]({{< ref "communication" >}}), Well written artifacts, [Single Source of Truth]({{< ref "documentation#documentation-is-the-single-source-of-truth-ssot" >}}) and [Producing video](/handbook/marketing/marketing-operations/youtube/)
 1. [Handbook first]({{< ref "handbook-usage#handbook-first-competency" >}})
 1. [Using GitLab]({{< ref "using-gitlab-at-gitlab#using-gitlab-competency" >}})
 

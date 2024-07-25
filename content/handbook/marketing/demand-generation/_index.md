@@ -1,15 +1,10 @@
 ---
-
 title: Demand Generation
 description: "Demand Generation at GitLab, including Marketing Campaigns, Digital Marketing, and Partner & Channel Marketing."
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
 
 ---
 

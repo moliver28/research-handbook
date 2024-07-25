@@ -43,7 +43,7 @@ foremost.
 When your new view is going to be using managed content, you will first need to
 get the managed content file in the Support managed content project. Remember to
 use the correct filenames for all of this to prevent
-[Pipeline error “No managed content file”](#pipeline-error-no-managed-content-file)
+[Pipeline error "No managed content file"](#pipeline-error-no-managed-content-file)
 in the sync repo project later on.
 
 Only after that has been done should you proceed to the next steps, which will

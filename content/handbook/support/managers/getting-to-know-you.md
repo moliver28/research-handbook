@@ -1,5 +1,4 @@
 ---
-
 title: Getting To Know Your Team Members
 description: "Guideline on becoming not just a good manager, but the right manager for each individual member of your Support Engineering team"
 ---
@@ -95,9 +94,9 @@ For those who don't have access to the Google Doc, the text of the template foll
 
 ---
 
-### What’s this all about?
+### What's this all about?
 
-The purpose of this document is to facilitate a conversation between your manager and you about who you are, what you want, and how the two of you can best work together. It should be kept handy so that your manager can refer to it whenever they need to be sure they’re following your guidance on being a great manager for you.
+The purpose of this document is to facilitate a conversation between your manager and you about who you are, what you want, and how the two of you can best work together. It should be kept handy so that your manager can refer to it whenever they need to be sure they're following your guidance on being a great manager for you.
 
 ### Personal Background & Interests
 
@@ -128,7 +127,7 @@ Tell me anything you want me to know about who you are, and NOTHING you think is
 - What brought you here?
 - What is your dream career?
 - What do you love to do at work?
-- What do you “prefer not to do?”
+- What do you "prefer not to do?"
 
 ### Management Tips
 
@@ -139,5 +138,5 @@ Tell me anything you want me to know about who you are, and NOTHING you think is
 - What expectations do you have of yourself?
 - How do you like to be rewarded and recognized?
   - Reward - what types of rewards really mean the most to you? Cash? Personalized gift? Special time off?
-  - Recognition - where do you fall on the spectrum between “love and need public recognition” and “only want private recognition?”
+  - Recognition - where do you fall on the spectrum between "love and need public recognition" and "only want private recognition?"
 - What else do I need to know in order to be a really good manager for you?

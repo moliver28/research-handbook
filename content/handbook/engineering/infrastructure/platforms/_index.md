@@ -1,5 +1,4 @@
 ---
-
 title: "The Infrastructure Platforms Section"
 ---
 
@@ -101,7 +100,7 @@ The Director of Product and Director of Infrastructure for SaaS Platforms conduc
 ##### Infrastructure Platforms Leads Demo
 
 The Infrastructure Platforms Leads Demo is an opportunity for sync discussions between Staff+ IC across the Infrastructure Platforms Group to highlight current ongoing efforts underway in the teams they support.
-All team members are welcome to join the call, but the emphasis is on Staff+ ICs to present and discuss the work they’re focused on, the problems they’re experiencing, and solutions they’re considering.
+All team members are welcome to join the call, but the emphasis is on Staff+ ICs to present and discuss the work they're focused on, the problems they're experiencing, and solutions they're considering.
 
 The call is recorded to the [Infrastructure Platforms Leads Demo Unfiltered Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KpI98ZtrhYrA_gJgYJjnOgl). The agenda can be found in [Google Docs](https://docs.google.com/document/d/1MX__hMUcxEUv2JlRiXySNvFnOPHv7-Uul1_VbzImbKw/edit).
 

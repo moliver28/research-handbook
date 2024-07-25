@@ -24,15 +24,15 @@ The response scale for each question is a 5-point Likert agreement scale:
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | 1 | 2 | 3 | 4 | 5 |
 
-We follow these 10 questions with a single open-ended question that asks, *“What problems or frustrations have you experienced while using GitLab?”*
+We follow these 10 questions with a single open-ended question that asks, *"What problems or frustrations have you experienced while using GitLab?"*
 
 These questions are delivered in survey format to users of the product.
 
 ## SUS and GitLab
 
-We adopted the System Usability Scale at GitLab in FY20-Q1. We deploy the survey bi-quarterly to both our SaaS and Self-Managed users. This has allowed us to understand the overall usability of our product and track changes over time. We’ve begun relying on SUS as a [KPI for the UX Department](/handbook/product/ux/performance-indicators/#system-usability-scale-sus-score) and we have multiple OKR-related efforts underway to try and improve our score.
+We adopted the System Usability Scale at GitLab in FY20-Q1. We deploy the survey bi-quarterly to both our SaaS and Self-Managed users. This has allowed us to understand the overall usability of our product and track changes over time. We've begun relying on SUS as a [KPI for the UX Department](/handbook/product/ux/performance-indicators/#system-usability-scale-sus-score) and we have multiple OKR-related efforts underway to try and improve our score.
 
-With this emphasis, it’s important that SUS is deployed in a rigorous and sustainable manner.
+With this emphasis, it's important that SUS is deployed in a rigorous and sustainable manner.
 
 ## Executing SUS
 
@@ -41,14 +41,14 @@ We track the SUS Survey results in GitLab where there is an epic of the current 
 To ensure that our SUS metric can be reliably and sustainably collected, and that it accurately represents our user population, in FY21-Q4 we developed a new method for collecting SUS with the following requirements:
 
 - **Sustainable:** We can sample a sufficient number of users without exhausting our userbase. A user should not receive a SUS survey invite more than once per year.
-- **Segmentable:** We pre-define the segments of users we care about, and we collect a sufficient number of responses for any segment for which we want to derive a score (but only those predefined segments). If we want to alter the segments we’re targeting, we can modify those in future quarters.
-- **Verified criteria:** We’ll pull that latest data from the data warehouse or Marketo to identify appropriate users, including things like a user’s plan and account age.
+- **Segmentable:** We pre-define the segments of users we care about, and we collect a sufficient number of responses for any segment for which we want to derive a score (but only those predefined segments). If we want to alter the segments we're targeting, we can modify those in future quarters.
+- **Verified criteria:** We'll pull that latest data from the data warehouse or Marketo to identify appropriate users, including things like a user's plan and account age.
 - **Active users:** We can target users who we know have recent experience with the product, including minimum usage within a certain time period or usage of multiple stages.
 - **Randomized:** Other than the criteria we define, we should feel confident the users we invite to respond do not skew in any particular direction, such as geographic location or organization size.
 
 ### Regular participant criteria
 
-- **Recently active:** We use a minimum threshold of 10 product events across at least 2 stages in the previous 30 days. An ‘event’ is an indicator that users are doing something in a certain area of GitLab. This approach has two goals: we’re targeting people who have used multiple stages, and eliminating people with limited exposure to our features and the usability of our experience. It also ensures respondents have recently used GitLab and have a higher likelihood of experiencing recent improvements.
+- **Recently active:** We use a minimum threshold of 10 product events across at least 2 stages in the previous 30 days. An 'event' is an indicator that users are doing something in a certain area of GitLab. This approach has two goals: we're targeting people who have used multiple stages, and eliminating people with limited exposure to our features and the usability of our experience. It also ensures respondents have recently used GitLab and have a higher likelihood of experiencing recent improvements.
 - **Sample size:** For SaaS users we target an ***n* of 200 for each cohort** with a total ***n* of 800**. This allows us to calculate a score with a high degree of confidence.
 
 #### Regular cohorts
@@ -86,9 +86,9 @@ We summarize results and calculate scores for SUS on a fiscal year quarterly bas
 
 ## Calculating SUS scores
 
-SUS is scored on a 0-100 scale. We normalize the scores for each question. For positive-oriented questions, we subtract one from the original score. For negative-oriented questions, we subtract the original score from five. This gives a consistent scale for all responses of 0-4. We then add up the scores for all questions and multiply that sum by 2.5 to get our final score. For example, if the sum of a user’s responses to the ten questions is 30, we’d multiply that sum by 2.5 to get a SUS score of 75.
+SUS is scored on a 0-100 scale. We normalize the scores for each question. For positive-oriented questions, we subtract one from the original score. For negative-oriented questions, we subtract the original score from five. This gives a consistent scale for all responses of 0-4. We then add up the scores for all questions and multiply that sum by 2.5 to get our final score. For example, if the sum of a user's responses to the ten questions is 30, we'd multiply that sum by 2.5 to get a SUS score of 75.
 
-Calculating scores for the individual questions that make up the SUS is not part of the standard process. We do it to gain additional directional insight into how we’re doing with specific aspects of the experience. For example, if the average response for the question about the system being inconsistent is lower than the average, this tells us that inconsistency is a problem we should investigate further.
+Calculating scores for the individual questions that make up the SUS is not part of the standard process. We do it to gain additional directional insight into how we're doing with specific aspects of the experience. For example, if the average response for the question about the system being inconsistent is lower than the average, this tells us that inconsistency is a problem we should investigate further.
 
 Our individual question scores mirror the scale used for the overall SUS score. This allows us to understand how individual questions are performing relative to the overall score. To get this score, we take the normalized single question score and multiply it by 25. For example, if the average response to a single question is 2.5, we then multiply that average by 25 to get a SUS-equivalent score of 62.5.
 
@@ -160,11 +160,11 @@ We include a question at the end of the SUS survey that asks whether respondents
 
 ### We can only cut by the segments we predefine
 
-It’s natural to try and slice survey response data by every facet imaginable to try and find unexpected insights. However, if we don’t have a large enough sample size for that particular slice, we might calculate a score in which we don’t have high confidence, and that could even be misleading. This is why we define the segments we want to understand before we distribute our survey, so we can ensure we hit our quotas and collect a sufficiently large sample for each of those segments. This allows us to have high confidence that a score accurately represents a given segment.
+It's natural to try and slice survey response data by every facet imaginable to try and find unexpected insights. However, if we don't have a large enough sample size for that particular slice, we might calculate a score in which we don't have high confidence, and that could even be misleading. This is why we define the segments we want to understand before we distribute our survey, so we can ensure we hit our quotas and collect a sufficiently large sample for each of those segments. This allows us to have high confidence that a score accurately represents a given segment.
 
 ### SUS is a lagging, incomplete indicator
 
-We deploy SUS on a regular basis, but that doesn’t mean we should expect to see improvements reflected in the score immediately. Once we ship a product change, people first have to experience it in sufficient numbers such that our survey reaches enough of them. This can take different amounts of time depending on the usage of a given feature and is effectively impossible to estimate. We also have no way of knowing what the effect of single product change will be on a user. Something that is a major pain for a large number of users may be a minor annoyance for the person we survey. We shouldn’t expect single enhancements to drive increases in the SUS, but rather, that sustained enhancements over time will lead to improvements to our overall usability, which in turn should increase our SUS score over the long term.
+We deploy SUS on a regular basis, but that doesn't mean we should expect to see improvements reflected in the score immediately. Once we ship a product change, people first have to experience it in sufficient numbers such that our survey reaches enough of them. This can take different amounts of time depending on the usage of a given feature and is effectively impossible to estimate. We also have no way of knowing what the effect of single product change will be on a user. Something that is a major pain for a large number of users may be a minor annoyance for the person we survey. We shouldn't expect single enhancements to drive increases in the SUS, but rather, that sustained enhancements over time will lead to improvements to our overall usability, which in turn should increase our SUS score over the long term.
 
 ## Frequently Asked Questions
 
@@ -178,7 +178,7 @@ A: To calculate a score for a particular segment of users (such as a certain pla
 
 **Q: What is a sufficient sample size to be able to calculate a score for a subset of users?**
 
-A: There isn’t a single answer to this question, as sample size depends on how many people in the overall population fit your criteria. The larger the overall population, the smaller the sample size needs to be as a proportion of that population. You can use a [sample size calculator](https://www.surveymonkey.com/mp/sample-size-calculator/) to estimate your size requirements. Sometimes we can satisfy sample requirements using people we’ve already surveyed if they meet the additional criteria. Other times, we will need to specifically identify and target users to meet our sample requirements.
+A: There isn't a single answer to this question, as sample size depends on how many people in the overall population fit your criteria. The larger the overall population, the smaller the sample size needs to be as a proportion of that population. You can use a [sample size calculator](https://www.surveymonkey.com/mp/sample-size-calculator/) to estimate your size requirements. Sometimes we can satisfy sample requirements using people we've already surveyed if they meet the additional criteria. Other times, we will need to specifically identify and target users to meet our sample requirements.
 
 **Q: How can I find open issues that relate to SUS?**
 

@@ -1,14 +1,6 @@
 ---
-
 title: Crash Course for Product Stage Resources
 ---
-
-
-
-
-
-
-
 
 ## Objectives for this page
 
@@ -642,7 +634,7 @@ Growth owns the free and trial registration and new user onboarding experiences.
 
 **Key handbook pages**
 
-[Overall Growth Section Handbook page for Engineering](/handbook/marketing/growth/engineering/)
+[Overall Growth Section Handbook page for Engineering](/handbook/engineering/development/growth/)
 
 [Growth Direction Page](/handbook/marketing/growth/)
 
@@ -652,6 +644,6 @@ Growth owns the free and trial registration and new user onboarding experiences.
 
 **Team members**
 
-[All team members section of engineering page](/handbook/marketing/growth/engineering/#all-team-members)
+[All team members section of engineering page](/handbook/engineering/development/growth/#all-team-members)
 
 </details>

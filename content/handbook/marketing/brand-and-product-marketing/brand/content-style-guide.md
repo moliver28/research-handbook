@@ -1,5 +1,4 @@
 ---
-
 title: "The GitLab Content Style Guide"
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
@@ -8,7 +7,7 @@ The GitLab content style guide is for everyone who creates content on behalf of 
 
 ## Brand voice
 
-GitLab’s brand voice represents and expresses who we are as a brand. It is a core part of our brand identity, informed by our brand values. Our brand voice should come through clearly and consistently in all of our communications.
+GitLab's brand voice represents and expresses who we are as a brand. It is a core part of our brand identity, informed by our brand values. Our brand voice should come through clearly and consistently in all of our communications.
 
 Maintaining a consistent brand voice helps us:
 
@@ -60,7 +59,7 @@ These guidelines will help you incorporate the GitLab brand voice into your writ
 
 **Examples:**
 
-> - Blog: [GitLab’s 2023 predictions: What’s next for DevSecOps?](https://about.gitlab.com/blog/2023/01/26/whats-next-for-devsecops/)
+> - Blog: [GitLab's 2023 predictions: What's next for DevSecOps?](https://about.gitlab.com/blog/2023/01/26/whats-next-for-devsecops/)
 > - Blog: [What the ML is up with DevSecOps and AI?](https://about.gitlab.com/blog/2023/03/16/what-the-ml-ai/)
 > - Blog: [Building GitLab with GitLab: How GitLab.com inspired Dedicated](https://about.gitlab.com/blog/2023/08/03/building-gitlab-with-gitlabcom-how-gitlab-inspired-dedicated/)
 > - Website: [10 reasons why enterprises choose GitLab](https://about.gitlab.com/why-gitlab/)
@@ -83,7 +82,7 @@ These guidelines will help you incorporate the GitLab brand voice into your writ
 
 **Examples:**
 
-> - Blog: [Quickstart guide for GitLab Remote Development workspaces](https://about.gitlab.com/blog/2023/06/26/quick-start-guide-for-gitlab-workspaces/)
+> - Blog: [Quickstart guide for GitLab Workspaces](https://about.gitlab.com/blog/2023/06/26/quick-start-guide-for-gitlab-workspaces/)
 > - Blog: [The ultimate guide to SBoMs](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/)
 > - Handbook: [CEO handbook page](/handbook/ceo/)
 > - Handbook: [Communication handbook page](/handbook/communication/)
@@ -108,7 +107,7 @@ These guidelines will help you incorporate the GitLab brand voice into your writ
 
 > - Blog: [New pricing for GitLab Premium](https://about.gitlab.com/blog/2023/03/02/gitlab-premium-update/)
 > - Blog: [Upcoming changes to user limits on Free tier of GitLab.com](https://about.gitlab.com/blog/2022/03/24/efficient-free-tier/)
-> - Blog: [GitLab’s first ESG and DIB reports: Here’s what to know](https://about.gitlab.com/blog/2023/07/26/gitlab-first-esg-and-dib-reports/)
+> - Blog: [GitLab's first ESG and DIB reports: Here's what to know](https://about.gitlab.com/blog/2023/07/26/gitlab-first-esg-and-dib-reports/)
 > - Website: [GitLab Duo solution page](https://about.gitlab.com/gitlab-duo/)
 
 ## Style and formatting
@@ -121,9 +120,9 @@ For any style questions not directly addressed below, refer to the [Associated P
 
 When using [acronyms or initialisms](https://www.dailywritingtips.com/acronym-vs-initialism/), ensure that your first mention uses the full term and includes the shortened version in parentheses directly afterwards. From then on you may use the acronym or initialism instead.
 
-If you only use an acronym or initialism once in a piece of content, you probably don’t need it and can simply use the full term instead.
+If you only use an acronym or initialism once in a piece of content, you probably don't need it and can simply use the full term instead.
 
-Only capitalize the words that make up an acronym or initialism if it’s a proper noun.
+Only capitalize the words that make up an acronym or initialism if it's a proper noun.
 
 > ✅ _Dynamic application security testing (DAST)_ examines applications for vulnerabilities like these in deployed environments.
 >
@@ -131,11 +130,11 @@ Only capitalize the words that make up an acronym or initialism if it’s a prop
 
 #### Contractions
 
-We favor contractions (_can’t, didn’t, it’s, we’re_) to sound more human and less formal.
+We favor contractions (_can't, didn't, it's, we're_) to sound more human and less formal.
 
 #### Lists
 
-If a numbered or bulleted list reads as a continuous sentence, don’t capitalize the first letter of each item in the list, and don’t include punctuation at the end of each item.
+If a numbered or bulleted list reads as a continuous sentence, don't capitalize the first letter of each item in the list, and don't include punctuation at the end of each item.
 
 > ✅ GitLab Duo is unique because we:
 >
@@ -161,21 +160,21 @@ Unless referring to someone in particular, use gender-neutral pronouns (_they, t
 
 #### Quotations
 
-Use double quotation marks (“ “) for direct quotes, and single quotation marks (‘ ‘) for a quote within a quote.
+Use double quotation marks (" ") for direct quotes, and single quotation marks (' ') for a quote within a quote.
 
 Include periods and commas inside ending quotation marks.
 
 Any punctuation that is part of the quotation should be included inside of the quotation marks. Any punctuation that is not part of the quotation (aside from periods and commas, as noted above) should be outside of the quotation marks.
 
-> ✅ Recently, an article was published stating, “Software is eating the world.”
+> ✅ Recently, an article was published stating, "Software is eating the world."
 >
-> ✅ What do you think of the claim, “Software is eating the world”?
+> ✅ What do you think of the claim, "Software is eating the world"?
 >
-> ✅ “Do you agree that software is eating the world?” wrote the author.
+> ✅ "Do you agree that software is eating the world?" wrote the author.
 
 When including direct quotations from interviewees in blog posts, use present tense for verbs such as _says_ and _explains_.
 
-> ✅ “Ruby was optimized for the developer, not for running it in production,” says Sid.
+> ✅ "Ruby was optimized for the developer, not for running it in production," says Sid.
 
 The exception would be when quoting from an event that was obviously in the past; in that case use the past tense so the reader is not confused or misled.
 
@@ -191,13 +190,13 @@ Generally, use [active voice](https://www.grammarly.com/blog/active-vs-passive-v
 >
 > ❌ One million merge requests were submitted in March 2019.
 
-There may be limited cases where passive voice is the better option. Use your best judgment in each case, and if you decide to use passive voice, try to be aware of why you’re making that choice.
+There may be limited cases where passive voice is the better option. Use your best judgment in each case, and if you decide to use passive voice, try to be aware of why you're making that choice.
 
 ### Capitalization
 
 #### Brand and publication names
 
-Ensure you style brand names according to the company’s brand guidelines.
+Ensure you style brand names according to the company's brand guidelines.
 
 > ✅ WiFi Tribe, DigitalOcean
 
@@ -227,7 +226,7 @@ Use lowercase for job titles in sentences, regardless of whether they appear bef
 >
 > ❌ John Smith, Director of Engineering, led the project.
 
-Capitalize the title when the person’s name and title appear as a standalone (such as in the lower third of a video, a nametag, or attribution on a pull quote).
+Capitalize the title when the person's name and title appear as a standalone (such as in the lower third of a video, a nametag, or attribution on a pull quote).
 
 > ✅ John Smith, Director of Engineering, XYZ Corporation
 >
@@ -245,17 +244,17 @@ Generally, use sentence case (capitalize only the first word and any proper noun
 
 #### Date formatting
 
-For external-facing content, spell out the month and use a comma before the year. If the sentence continues after the year, also include a comma after the year. When you are only stating the month and the year, you don’t need a comma after the month.
+For external-facing content, spell out the month and use a comma before the year. If the sentence continues after the year, also include a comma after the year. When you are only stating the month and the year, you don't need a comma after the month.
 
 > ✅ Release date: November 16, 2023
 >
 > ✅ On November 16, 2023, we released GitLab 16.6.
 >
-> ✅ We released Gitlab 16.6 in November 2023.
+> ✅ We released GitLab 16.6 in November 2023.
 
 For internal content, use ISO format (_2023-11-16_). In content geared toward a specific region, use the format preferred in that region.
 
-Don’t use rd/st/th after the date, unless the date appears independently from the month (_See you on the 16th_).
+Don't use rd/st/th after the date, unless the date appears independently from the month (_See you on the 16th_).
 
 #### Time formatting
 
@@ -263,13 +262,13 @@ Abbreviate _ante meridiem_ and _post meridiem_ using **a.m.** and **p.m.** (lowe
 
 We default to the 12-hour clock (_9:00 p.m._). However, in content geared toward a specific region, use the format used in that region.
 
-When writing about physical events, use the time zone where the event is taking place. Don’t abbreviate time zones. For virtual events, use UTC.
+When writing about physical events, use the time zone where the event is taking place. Don't abbreviate time zones. For virtual events, use UTC.
 
 ### Punctuation and symbols
 
 #### Ampersands
 
-Use ampersands only where they are part of a company’s name or the title of a publication or official name.
+Use ampersands only where they are part of a company's name or the title of a publication or official name.
 
 Do not use an ampersand as a substitute for _and_ in body copy.
 
@@ -279,9 +278,9 @@ Ampersands may be used sparingly where character counts are very tight, such as 
 
 If a colon is used to introduce a complete sentence (including a question), capitalize the first word after the colon.
 
-> ✅ AI isn’t just another fad: It’s seeing real adoption among practitioners.
+> ✅ AI isn't just another fad: It's seeing real adoption among practitioners.
 >
-> ❌ AI isn’t just another fad: it’s seeing real adoption among practitioners.
+> ❌ AI isn't just another fad: it's seeing real adoption among practitioners.
 >
 > ✅ We aimed to explore several topics: Where are things improving, and where are teams still running into roadblocks?
 >
@@ -291,7 +290,7 @@ If a colon is used to introduce a complete sentence (including a question), capi
 >
 > ❌ One thing stood out in the survey responses: The importance of security.
 
-Always capitalize the first word after a colon in a title, even if it’s not a complete sentence.
+Always capitalize the first word after a colon in a title, even if it's not a complete sentence.
 
 #### Commas
 
@@ -305,7 +304,7 @@ Our default is to use serial (Oxford) commas. In content geared towards a specif
 
 Use an em dash (—) instead of two dashes (--) to set off a distinct thought within a sentence. Place one space on each side of an em dash.
 
-Use an en dash (–) when communicating numeric ranges not preceded by the words _from_ or _between_ (_Join us October 20–25 in San Francisco_). Don’t include a space on either side of the en dash.
+Use an en dash (–) when communicating numeric ranges not preceded by the words _from_ or _between_ (_Join us October 20–25 in San Francisco_). Don't include a space on either side of the en dash.
 
 #### Ellipses
 
@@ -317,7 +316,7 @@ Use a hyphen to connect two or more words that jointly modify another word (_bui
 
 Do not hyphenate the adverb very or adverbs ending in _-ly_ (_fully integrated platform_).
 
-Generally, don’t hyphenate prefixes such as _semi, pre, non, un, sub_, or _multi_ (_multitenant, subtask_). The exception is when the last letter of the prefix is the same as the first letter of the root word (_sub-bucket_).
+Generally, don't hyphenate prefixes such as _semi, pre, non, un, sub_, or _multi_ (_multitenant, subtask_). The exception is when the last letter of the prefix is the same as the first letter of the root word (_sub-bucket_).
 
 Do use a hyphen after a prefix followed by a proper noun and for words beginning with the prefixes _all-, mid-, ex-_ (meaning "former"), and _self-_ (_mid-July, self-managed_).
 
@@ -336,7 +335,7 @@ Use a space between a number and a unit of measurement (_128 GB_).
 Generally, spell out numbers zero through nine. Exceptions include:
 
 - Percentages: Generally, use numerals and a percent sign (%) for percentages, unless starting a sentence.
-- Callout boxes and lists of stats: Use numerals for numbers less than 10 in instances where character counts are limited or when you’d like to emphasize the numbers, such as in a bulleted list of stats, or stat callouts at the top of a case study.
+- Callout boxes and lists of stats: Use numerals for numbers less than 10 in instances where character counts are limited or when you'd like to emphasize the numbers, such as in a bulleted list of stats, or stat callouts at the top of a case study.
 
 Use numerals for 10 and above unless starting a sentence.
 
@@ -344,9 +343,9 @@ Always use numerals when putting a number at the start of a headline (_5 ways AI
 
 #### Large numbers
 
-Numbers with four or more digits should include a comma (_2,000; 100,000_). If you’re writing in a specific context where this might cause confusion (such as for regions that use commas as a decimal separator instead), do what makes the most sense for your audience.
+Numbers with four or more digits should include a comma (_2,000; 100,000_). If you're writing in a specific context where this might cause confusion (such as for regions that use commas as a decimal separator instead), do what makes the most sense for your audience.
 
-Generally, avoid abbreviations for large numbers, such as _k_ (meaning “thousand”) and _M_ or _mil_. Use these abbreviations only where space is very limited, such as a callout box with a tight character limit.
+Generally, avoid abbreviations for large numbers, such as _k_ (meaning "thousand") and _M_ or _mil_. Use these abbreviations only where space is very limited, such as a callout box with a tight character limit.
 
 #### Currencies
 

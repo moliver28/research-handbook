@@ -11,7 +11,7 @@ Can't find what you're looking for? Try the main [People Operations page](/handb
 
 ## Medical
 
-Effective 2023-07-27, all Australian Team members will be eligible to enroll into one of BUPA’s hospital plans and add/mix it with extra coverage options if you prefer. GitLab employees can mix and match (one Hospital plan level and one Extras option) to suit their needs.
+Effective 2023-07-27, all Australian Team members will be eligible to enroll into one of BUPA's hospital plans and add/mix it with extra coverage options if you prefer. GitLab employees can mix and match (one Hospital plan level and one Extras option) to suit their needs.
 
 - [BUPA Hospital Plan Highlights](https://drive.google.com/drive/folders/18kU_lHdKau2xBoKLC_6hAsC7UP43HzZ9?usp=sharing)
   - Gold (Nil, $250, $500, $750)
@@ -19,11 +19,11 @@ Effective 2023-07-27, all Australian Team members will be eligible to enroll int
 - [BUPA Extra Options Highlights](https://drive.google.com/drive/folders/1nV7Z_9p_5uMybo2Hi_SerdcerAWGMud3?usp=sharing)
   - Corporate 60, 70, 80, & 90 Extras Options
 
-The full plan & extra options pdfs are available when reviewing your options on the GitLab BUPA portal (see below “Enrolling” section).
+The full plan & extra options pdfs are available when reviewing your options on the GitLab BUPA portal (see below "Enrolling" section).
 
 ### Waiting Periods
 
-For most services there’s a period of time before coverage for the services on the new policy starts.
+For most services there's a period of time before coverage for the services on the new policy starts.
 
 The following waiting periods apply for hospital cover:
 
@@ -34,36 +34,36 @@ The following waiting periods apply for hospital cover:
 
 The following waiting periods apply for extras cover:
 
-- All 2 & 6 month waiting periods on “Extra” options  are waived for GitLab employees.
+- All 2 & 6 month waiting periods on "Extra" options  are waived for GitLab employees.
 - major dental, root fillings, orthodontics, selected health aids and appliances - 12 months
 - emergency ambulance transport or on-the-spot treatment – one day
 
-Waiting period for pre-existing conditions: 12-month waiting period applies for pre-existing conditions; however, *if a team member has served the waiting period with their previous health provider, they will not need to serve the waiting period when joining GitLab’s medical offering.*
+Waiting period for pre-existing conditions: 12-month waiting period applies for pre-existing conditions; however, *if a team member has served the waiting period with their previous health provider, they will not need to serve the waiting period when joining GitLab's medical offering.*
 
 #### Monthly Plan Premium
 
 GitLab will be covering the monthly premium cost *(up to 350 AUD)* of your elected coverage to cover yourself and dependents (if applicable).
 Please note: In addition to the monthly premium credit (up to 350 AUD), GitLab will also cover any fringe benefit tax associated.
 
-Up to 350 AUD will be applied to your monthly premium rate when going through your enrollment on BUPA’s employer portal. You will be responsible for paying any premiums that may exceed the 350 AUD applied subsidy. *Plan rates can be seen through the [GitLab BUPA employer portal](https://www.bupa.com.au/corporate/gitlab) when reviewing your plan & extra options.*
+Up to 350 AUD will be applied to your monthly premium rate when going through your enrollment on BUPA's employer portal. You will be responsible for paying any premiums that may exceed the 350 AUD applied subsidy. *Plan rates can be seen through the [GitLab BUPA employer portal](https://www.bupa.com.au/corporate/gitlab) when reviewing your plan & extra options.*
 Payment details will be required to complete your enrollment process on BUPA.
 
 #### Enrolling
 
-Starting on 2023-07-27, Australian team members will be able to review their plan options & rates, elect their hospital plan & extra option, and enroll directly on [BUPA’s employer portal](https://www.bupa.com.au/corporate/gitlab) for GitLab.
+Starting on 2023-07-27, Australian team members will be able to review their plan options & rates, elect their hospital plan & extra option, and enroll directly on [BUPA's employer portal](https://www.bupa.com.au/corporate/gitlab) for GitLab.
 
 - https://www.bupa.com.au/corporate/gitlab
-- Click on “Get a quote” and go through the 6 quick registration questions (residency status, single or family coverage, DOB, State, income bracket, contact details).
-- Once you confirm your details, you’ll be able to view your hospital & extra options, plan pdf summaries, extra highlights, and their monthly plan rates (please ensure “paying” is set to “monthly”).
-- Once you “select and proceed” your preferred coverage, click “join now”
-- You’ll then need to complete BUPA’s application process to complete your enrollment: Contact & Medicare details, Rebate application, Payment details, Current health cover information.
+- Click on "Get a quote" and go through the 6 quick registration questions (residency status, single or family coverage, DOB, State, income bracket, contact details).
+- Once you confirm your details, you'll be able to view your hospital & extra options, plan pdf summaries, extra highlights, and their monthly plan rates (please ensure "paying" is set to "monthly").
+- Once you "select and proceed" your preferred coverage, click "join now"
+- You'll then need to complete BUPA's application process to complete your enrollment: Contact & Medicare details, Rebate application, Payment details, Current health cover information.
 
 #### Contact & Support for Enrollment, Plan Questions
 
-If you have any questions on the plan, help enrolling on BUPA’s portal, have any other questions comparing your current plan with BUPA’s offerings - you can reach out to BUPA for direct plan support at *1300-662-074* or utilize their virtual chat support on the portal for basic questions.
+If you have any questions on the plan, help enrolling on BUPA's portal, have any other questions comparing your current plan with BUPA's offerings - you can reach out to BUPA for direct plan support at *1300-662-074* or utilize their virtual chat support on the portal for basic questions.
 
 Additionally, please feel free to reach out to our consultants, WTW, for direct support and assistance on any enrollment, plan, or questions you may have with the medical plan.
-Please email *paul.dervan@wtwco.com* and cc’ *total-rewards@gitlab.com*
+Please email *paul.dervan@wtwco.com* and cc' *total-rewards@gitlab.com*
 
 ### Superannuation
 
@@ -156,19 +156,19 @@ Time in lieu should be requested via [Time Off by Deel]({{< ref "paid-time-off#t
 
 #### Annual Leave
 
-- Full-time team members are entitled to 4 weeks paid annual leave in accordance with the Fair Work Act 2009 (Cth) per year of continuous service.  This amount will be pro-rated for part-time team members by reference to the team member’s ordinary hours of work.
+- Full-time team members are entitled to 4 weeks paid annual leave in accordance with the Fair Work Act 2009 (Cth) per year of continuous service.  This amount will be pro-rated for part-time team members by reference to the team member's ordinary hours of work.
 - Annual leave accrues progressively and accumulates from year to year.
 - This leave runs concurrently with GitLab PTO.  Team members should select `Vacation` in Time Off by Deel to ensure that leave entitlements are properly tracked.  For team members who are not covered by a modern award or enterprise agreement, they may be asked to take a period of paid annual leave if such request is reasonable, such as when a team member has accrued an excessive amount of paid annual leave.
 
-#### Personal/Carer’s Leave
+#### Personal/Carer's Leave
 
-Sick and carer's leave (also known as personal leave or personal / carer's leave) lets an employee take time off to help them deal with personal illness, caring responsibilities and family emergencies. Team members will be entitled to personal/carer’s leave in accordance with the Fair Work Act 2009 (Cth) as varied from time to time.
+Sick and carer's leave (also known as personal leave or personal / carer's leave) lets an employee take time off to help them deal with personal illness, caring responsibilities and family emergencies. Team members will be entitled to personal/carer's leave in accordance with the Fair Work Act 2009 (Cth) as varied from time to time.
 
 **Paid Personal/Carer's Leave:**
 
-Currently team members are entitled to 10 days of paid personal/carer’s leave for each year of continuous service for full-time team members and pro rata for part-time team members based on ordinary hours of work.
+Currently team members are entitled to 10 days of paid personal/carer's leave for each year of continuous service for full-time team members and pro rata for part-time team members based on ordinary hours of work.
 
-- Personal/carer’s leave is cumulative and accrues progressively.
+- Personal/carer's leave is cumulative and accrues progressively.
 - This leave runs concurrently with GitLab's Sick Time policy.
 
 *Eligibility:*
@@ -193,23 +193,23 @@ An immediate family member is a:
 *How to Apply:*
 
 1. Email leaves@gitlab.com at least 1 day prior to the start date (whenever possible)
-    - Include a medical certificate or statutory declaration noting you weren’t able to work because of an illness or injury, or needed to provide care or support to an immediate family or household member (because of an illness, injury, or unexpected emergency affecting the family member).
+    - Include a medical certificate or statutory declaration noting you weren't able to work because of an illness or injury, or needed to provide care or support to an immediate family or household member (because of an illness, injury, or unexpected emergency affecting the family member).
 1. Select `Out Sick` in Time Off by Deel to ensure that leave entitlements are properly tracked.
     - If you wish to take Carer's Leave but don't want to change your Slack status to Out Sick, send your Carer's Leave request to leaves@gitlab.com and the Absence Management team will manually add your leave to Workday and notify payroll.
 
 **Unpaid Carer's Leave:**
 
-All team members are entitled to 2 days unpaid carer’s leave.
+All team members are entitled to 2 days unpaid carer's leave.
 
 *Eligibility:*
 
-Team Members are eligible for 2 days unpaid carer’s leave each time an immediate family member or household member of the employee needs care and support because of:
+Team Members are eligible for 2 days unpaid carer's leave each time an immediate family member or household member of the employee needs care and support because of:
 
 - Illness
 - Injury or
 - An unexpected emergency
 
-Full-time team members can only get unpaid carer’s leave if they don’t have any paid sick / carer’s leave left.
+Full-time team members can only get unpaid carer's leave if they don't have any paid sick / carer's leave left.
 
 An immediate family member is a:
 
@@ -226,7 +226,7 @@ An immediate family member is a:
 
 - A household member is any person who lives with the employee.
 
-Unpaid carer’s leave can be taken:
+Unpaid carer's leave can be taken:
 
 - In 1 continuous period (for example, 2 working days in a row) or,
 - In separate periods as agreed between the employee and employer (for example, 4 half days could be taken in a row).
@@ -234,7 +234,7 @@ Unpaid carer’s leave can be taken:
 *How to Apply:*
 
 1. Email leaves@gitlab.com at least 1 day prior to the start date (whenever possible)
-    - Include a medical certificate or statutory declaration noting you weren’t able to work because of an illness or injury, or needed to provide care or support to an immediate family or household member (because of an illness, injury, or unexpected emergency affecting the member).
+    - Include a medical certificate or statutory declaration noting you weren't able to work because of an illness or injury, or needed to provide care or support to an immediate family or household member (because of an illness, injury, or unexpected emergency affecting the member).
 1. Select `Out Sick` in Time Off by Deel to ensure that leave entitlements are properly tracked.
     - If you wish to take Carer's Leave but don't want to change your Slack status to Out Sick, send your Carer's Leave request to leaves@gitlab.com and the Absence Management team will manually add your leave to Workday and notify payroll.
 
@@ -259,7 +259,7 @@ Unpaid carer’s leave can be taken:
   - [Domestic Violence Resource Centre Victoria](https://www.dvrcv.org.au/help-advice)
   - [JobWatch](https://jobwatch.org.au/)
   - [MensLine Australia](https://mensline.org.au/)
-  - [Men’s Referral Service](https://ntv.org.au/)
+  - [Men's Referral Service](https://ntv.org.au/)
 
 </details>
 
@@ -323,7 +323,7 @@ This leave runs concurrently with GitLab PTO. Team members should select `Bereav
 
 <summary>Jury Duty</summary>
 
-- Team members are entitled to “make-up pay” for the first 10 days of jury selection and jury duty. GitLab will supplement the difference between the amount that the team member has been paid and their ordinary pay to ensure that the team member receives 100% of their salary for the first 10 days of jury duty/selection.
+- Team members are entitled to "make-up pay" for the first 10 days of jury selection and jury duty. GitLab will supplement the difference between the amount that the team member has been paid and their ordinary pay to ensure that the team member receives 100% of their salary for the first 10 days of jury duty/selection.
 - This leave runs concurrently with GitLab PTO. Team members must select `Mandatory Civilian Service` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
 - Team members must notify their manager of the period or expected period of leave as soon as possible and provide evidence showing they attended jury selection or jury duty.
 
@@ -337,14 +337,18 @@ All team members are entitled to up to 12 months of unpaid parental leave if the
 
 **Australian Government Parental Leave Payment**
 
-Team members must pass the [income test](https://www.servicesaustralia.gov.au/meeting-parental-leave-pay-income-test?context=22191) to be eligible for the government's Parental Leave payments.  If a team member is not eligible, GitLab will provide 100% of their wages for up to 16 weeks of leave.
+Team members may be eligible for pay from either or both of the following:
+
+- [Australia's Government Parental Leave Pay Scheme](https://www.fairwork.gov.au/leave/parental-leave/during-parental-leave/payment-during-parental-leave#australian-government-parental-leave-pay)
+- GitLab's Parental Leave
+
+Eligible employees who are the carer of a child born or adopted from 1 July 2024 can get up to 22 weeks’ Parental Leave Pay, which is paid at the National Minimum Wage.  For more information visit [Services Australia – Parental Leave Pay] (https://www.servicesaustralia.gov.au/parental-leave-pay)
 
 - If you are applying for government-funded Parental Leave Pay, you can apply up to 3 months before your child's due date.
 
 **Applying for Parental Leave in Australia**
 
-- To initiate your parental leave, please review this [checklist](https://docs.google.com/document/d/17Nxh0Hg3A44i1HmJp0vQj0jMMzFoIQxy/edit?usp=sharing&ouid=108582647308078356493&rtpof=true&sd=true) to ensure reporting timelines are met.  All written requests for Parental Leave can be sent to leaves@gitlab.com.
-- After submitting your written request for Parental Leave, please enter the dates of your leave into Time Off by Deel by selecting the `Parental Leave` label.
+- To initiate your parental leave, please enter the dates of your leave into Time Off by Deel by selecting the `Parental Leave` label.
 
 **Record-keeping for paid Parental Leave:**
 
@@ -366,15 +370,15 @@ Team members must pass the [income test](https://www.servicesaustralia.gov.au/me
 
 ### Medical
 
-Effective 2024-02-01, GitLab offers Eligible New Zealand Team members a comprehensive medical plan [“Well Being Two”](https://drive.google.com/file/d/17WUPQMvvWka77Khe6_adSOiSbibNY3GC/view) via Southern Cross.
+Effective 2024-02-01, GitLab offers Eligible New Zealand Team members a comprehensive medical plan ["Well Being Two"](https://drive.google.com/file/d/17WUPQMvvWka77Khe6_adSOiSbibNY3GC/view) via Southern Cross.
 
 GitLab covers 100% of the Team Member costs for the plan. Eligible family members can be added to the plan at a significant discount. Eligible Team Members who wish to add their family members to the plan can arrange ongoing direct debit billing directly with Southern Cross.
 
-The plan offers immediate cover for qualifying pre-existing conditions if you sign up within 90 days of the plans commencement date or team member’s start date (whichever is later).
+The plan offers immediate cover for qualifying pre-existing conditions if you sign up within 90 days of the plans commencement date or team member's start date (whichever is later).
 
-Please note this benefit is considered a “Fringe Benefit” and will be subject to Fringe Benefit Tax. The benefit is optional and team members are not required to enroll.
+Please note this benefit is considered a "Fringe Benefit" and will be subject to Fringe Benefit Tax. The benefit is optional and team members are not required to enroll.
 
-GitLab retains the right to replace the provider or policy at any time and is not required to offer this benefit to those that may be ineligible. Any benefits provided under the plan do not impact the Team Member’s or GitLab’s rights to end the employment relationship.
+GitLab retains the right to replace the provider or policy at any time and is not required to offer this benefit to those that may be ineligible. Any benefits provided under the plan do not impact the Team Member's or GitLab's rights to end the employment relationship.
 
 For additional details please refer to the [FAQ](https://drive.google.com/file/d/1Sd2DpIAf7kgl_A5au0VIUYdRuOZ1ZdJx/view?usp=sharing) and [Benefit Summary](https://drive.google.com/file/d/17WUPQMvvWka77Khe6_adSOiSbibNY3GC/view?usp=sharing)
 
@@ -391,7 +395,7 @@ Eligible Team Members and their families can join the plan at any time, but plea
 ### Adding a new-born child
 
 The special pre-existing condition cover concession above is extended to a newborn child if they are
-added to the policy within three months of the child’s birth. Congenital conditions are not covered. Please contact WTW (benefits.nz@willistowerswatson.com) by email to help add members to your policy.
+added to the policy within three months of the child's birth. Congenital conditions are not covered. Please contact WTW (benefits.nz@willistowerswatson.com) by email to help add members to your policy.
 
 ## Medical Plan Administration Details
 
@@ -407,7 +411,7 @@ Total rewards will send a monthly report to WTW with leavers (this process will 
 
 ### Payroll Reporting
 
-Subsidies for Health insurance are considered a non-cash benefit and are therefore subject to “Fringe Benefit Tax” and must be reported as such.
+Subsidies for Health insurance are considered a non-cash benefit and are therefore subject to "Fringe Benefit Tax" and must be reported as such.
 
 The Southern Cross portal will generate reports outlining the benefit. The payroll team will have access to the Southern Cross portal to download these reports as needed.
 
@@ -417,11 +421,11 @@ Southern Cross will load invoices and cover schedules on a monthly basis to the 
 
 ## Annual Leave
 
-Team members are entitled to a minimum of four weeks’ annual leave per year. Annual leave does not expire and can be carried over each year, but GitLab may set expectations on how much annual leave employees may accumulate and may require employees to take entitled leave with 14 days notice. Annual leave runs concurrently with GitLab PTO. Team members must select the `Vacation` option in Time Off by Deel when taking vacation time to ensure that annual leave entitlement is properly tracked.
+Team members are entitled to a minimum of four weeks' annual leave per year. Annual leave does not expire and can be carried over each year, but GitLab may set expectations on how much annual leave employees may accumulate and may require employees to take entitled leave with 14 days notice. Annual leave runs concurrently with GitLab PTO. Team members must select the `Vacation` option in Time Off by Deel when taking vacation time to ensure that annual leave entitlement is properly tracked.
 
 ## On-Call (Engineering-only)
 
-New Zealand employment law requires that work on a formal [Public Holiday](https://www.govt.nz/browse/work/public-holidays-and-work/public-holidays-and-anniversary-dates/), including [on-call](https://www.employment.govt.nz/leave-and-holidays/public-holidays/employees-working-shifts-or-on-call/), is compensated with time-in-lieu. Overtime pay is also required in certain situations, for example: whether the on-call shift fell on a "normal" working day or not, and whether the team member was called to work during their on-call shift. The policy linked above covers for the [time-in-lieu requirement](#on-call-engineering-only) but we do not yet have a set mechanism for handling overtime pay requirements.
+New Zealand employment law requires that work on a formal [Public Holiday](https://www.govt.nz/browse/work/public-holidays-and-work/public-holidays-and-anniversary-dates/), including [on-call](https://www.employment.govt.nz/leave-and-holidays/public-holidays/alternative-holidays), is compensated with time-in-lieu. Overtime pay is also required in certain situations, for example: whether the on-call shift fell on a "normal" working day or not, and whether the team member was called to work during their on-call shift. The policy linked above covers for the [time-in-lieu requirement](#on-call-engineering-only) but we do not yet have a set mechanism for handling overtime pay requirements.
 
 New Zealand-based team members *may not be on-call on a New Zealand Public Holiday*, and must seek/find a replacement for any shifts where they may be indicated as being on call on a Public Holiday. To ensure we remain compliant with local laws we team members to consider local laws when volunteering for/accepting shifts.
 
@@ -429,7 +433,7 @@ The process is as follows:
 
 1. When scheduling we should avoid on-call taking/assigning on-call shifts on Public Holidays. A "Public Holiday" will be deemed as any day included in the official holidays on [this website](https://www.govt.nz/browse/work/public-holidays-and-work/public-holidays-and-anniversary-dates/).
 1. If a team member is assigned for an on-call shift that falls on a Public Holiday, they need to align with their manager and try to find a replacement for that shift.
-If it’s impossible to find a replacement and the team member ends up taking the on-call shift on a Public Holiday, the process to follow is:
+If it's impossible to find a replacement and the team member ends up taking the on-call shift on a Public Holiday, the process to follow is:
 
 - Team member should obtain manager approval for taking the shift.
 - If the team member is not called in to work during their on-call shift, a regular time-in-lieu compensation for the shift should be applied.
@@ -440,7 +444,7 @@ If it’s impossible to find a replacement and the team member ends up taking th
 ## Statutory Sick Leave
 
 - Team members in New Zealand are entitled to 10 days' of statutory sick leave after six months of current continuous employment with GitLab. For each 12 months after meeting the above criteria, each team member gets at least ten days sick leave.
-- If in any year the team member doesn’t meet the criteria, then they don’t get any new sick leave entitlement, but can use their sick leave balance which may have carried over. An employee may re-qualify for sick leave as soon as they meet the criteria.  The maximum amount of sick leave that can be accumulated under the Holidays Act 2003 is 20 days.
+- If in any year the team member doesn't meet the criteria, then they don't get any new sick leave entitlement, but can use their sick leave balance which may have carried over. An employee may re-qualify for sick leave as soon as they meet the criteria.  The maximum amount of sick leave that can be accumulated under the Holidays Act 2003 is 20 days.
 - Sick Leave runs concurrently with GitLab's [Sick Time Policy]({{< ref "paid-time-off#sick-time---taking-and-reporting" >}}).
 
 *How to Apply:*
@@ -466,7 +470,7 @@ If it’s impossible to find a replacement and the team member ends up taking th
 
 **Primary Carer Leave**
 
-- Team members who have been employed for at least six months and become a “Primary Carer” as defined under the Parental Leave and Employment Protection Act 1987 can receive government-funded parental leave pay (Primary Carer Leave).
+- Team members who have been employed for at least six months and become a "Primary Carer" as defined under the Parental Leave and Employment Protection Act 1987 can receive government-funded parental leave pay (Primary Carer Leave).
 - A Primary Carer is either the biological mother OR a person (that is not the biological mother or her spouse/partner) who will take primary responsibility for the care, development, and upbringing of a child under six years old on a permanent basis.
 - Primary Carer Leave can last up to 26 weeks and must be taken in one continuous period.
 - Primary Carer Leave typically starts on the due date or date of birth, but may begin up to 6 weeks earlier if arrangements are made between the team member and manager.
@@ -501,21 +505,6 @@ Partner Leave
 
 ### Other Types of Leave
 
-<details markdown="1">
-
-<summary>Stress Leave</summary>
-
-- A team member with workplace stress that amounts to an illness may take sick leave. The [ordinary conditions for sick leave](#statutory-sick-leave) apply.
-- This leave runs concurrently with GitLab PTO.
-
-*How to Apply:*
-
-- Team members must contact `leaves@gitlab.com` to report their leave.
-  - If the team member has been sick for a period of 3 or more consecutive days, the team member may be asked to provide a medical certificate.
-- To designate and track Stress Leave properly, select as `Out Sick` in Time Off by Deel.
-
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/stress-leave/)
-
 </details>
 
 <details markdown="1">
@@ -541,7 +530,7 @@ For more information related to this policy, please reivew the [Employment New Z
 - Team members are entitled to 2 hours of paid time off to vote in general (parliamentary) elections on polling day if they are registered as an elector of the district and have not had a reasonable opportunity to vote before starting work. GitLab encourages you to [take time off to vote]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}}) or volunteer at the polls.
 - This leave runs concurrently with GitLab PTO. Team members must select `Public Service/Volunteer` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
 
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/election-voting-leave/)
+For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/time-off-to-vote)
 
 </details>
 
@@ -577,7 +566,7 @@ For more information related to this policy, please reivew the [Employment New Z
 
 - This leave may also be taken to support a child who has experienced domestic violence as long as they live with the team member for some of the time.
 - A person is affected by family violence if they are a person against whom any other person is inflicting, or has inflicted family violence, and/or a person with whom there ordinarily or periodically resides a child against whom any other person is inflicting or has inflicted, family violence.
-- Team members may also request [short-term flexible working arrangements](https://www.employment.govt.nz/leave-and-holidays/domestic-violence-leave/short-term-flexible-working/) for up to 2 months.
+- Team members may also request [short-term flexible working arrangements](https://www.employment.govt.nz/leave-and-holidays/family-violence-leave/taking-family-violence-leave#scroll-to-8) for up to 2 months.
 - This leave runs concurrently with GitLab PTO. Team members should notify the Absence Management team (leaves@gitlab.com) if they need to make use of this leave.
 - Team members must designate this time off as `Out Sick` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
 
@@ -587,30 +576,15 @@ For more information regarding this policy, please reivew the [Employment New Ze
 
 <details markdown="1">
 
-<summary>COVID-19 and the workplace</summary>
-
-GitLab and its team members need to work together to protect New Zealand and keep each other safe during the global COVID-19 pandemic. This means that normal obligations to keep in regular contact and to act in good faith are more important than ever.
-
-- This leave runs concurrently with GitLab PTO. Team members must designate this time off as `Out Sick` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
-
-For more information pleave review the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/coronavirus-workplace/leave-and-pay-entitlements-during-covid-19/).
-
-</details>
-
-<details markdown="1">
-
 <summary>Garden Leave</summary>
 
 A GitLab team member may use Garden Leave when they have provided their resignation and a Garden Leave is mutually agreed upon by both the team member and GitLab.  Team members can not be forced to take a Garden Leave, but both the team member and GitLab may find it useful in the following situations:
 
-- The team member has access to commercially sensitive information and is going to be working for a competitor at the end of their notice period. Any limit of trade provision would take effect after the employee’s employment ends.
-However, employers should be aware that if an employee’s employment agreement contains both a garden leave provision and a restraint of trade provision, the period the employee is on garden leave may be taken into consideration in working out whether or not the restraint of trade provision is reasonable (and therefore enforceable). The restraint of trade provision takes effect after the end of the garden leave period.
+- The team member has access to commercially sensitive information and is going to be working for a competitor at the end of their notice period. Any limit of trade provision would take effect after the employee's employment ends.
+However, employers should be aware that if an employee's employment agreement contains both a garden leave provision and a restraint of trade provision, the period the employee is on garden leave may be taken into consideration in working out whether or not the restraint of trade provision is reasonable (and therefore enforceable). The restraint of trade provision takes effect after the end of the garden leave period.
 - Is distracting other team members while they're in their notice period
-- Is being made redundant and the employer is not requiring them to report to work during their notice period so they can look for other job opportunities while they can still say they’re currently employed
+- Is being made redundant and the employer is not requiring them to report to work during their notice period so they can look for other job opportunities while they can still say they're currently employed
 - Has been dismissed on notice and their presence is creating an uncomfortable atmosphere for everyone.
-- Team members must designate this time off as `Vacation` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
-
-For more information pleave review the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/garden-leave/)
 
 </details>
 
@@ -618,7 +592,7 @@ For more information pleave review the [Employment New Zealand website](https://
 
 <summary>Leave Without Pay</summary>
 
-Leave without pay is when GitLab allows an team member time off work when they would otherwise be working, but doesn’t pay them for this time. Leave without pay (LWOP) doesn’t end an team member’s employment, and usually the team member returns to their same position and terms and conditions after taking leave without pay (unless the employee and team member agree otherwise). Leave without pay can affect the employee's annual holidays payment and entitlement in some situations.
+Leave without pay is when GitLab allows an team member time off work when they would otherwise be working, but doesn't pay them for this time. Leave without pay (LWOP) doesn't end an team member's employment, and usually the team member returns to their same position and terms and conditions after taking leave without pay (unless the employee and team member agree otherwise). Leave without pay can affect the employee's annual holidays payment and entitlement in some situations.
 
 - Team members must designate this time off as `Out Sick` in Time Off by Deel.
 

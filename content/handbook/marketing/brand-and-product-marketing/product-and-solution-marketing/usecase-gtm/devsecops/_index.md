@@ -107,7 +107,7 @@ GitLab DevSecOps use case overview
 | ----------------- | ------------- | --------------- |
 | **Detailed and Actionable Scan Results Displayed in MR created from Feature Branch** | GitLab performs security scans like SAST, license compliance, dependency scanning before the code is merged - giving Developers opportunity to identify and fix security vulnerabilities before they context switch to other activities. This improves cycle time and development costs as the time and cost to resolve defects and vulnerabilities exponentially increase the later it is detected in the development cycle | [Gartner - Integrating Security Into the DevSecOps Toolchain](https://www.gartner.com/doc/3975263) explains how Security should be included in the DevSecOps lifecycle in small actionable steps that developers can take action on quickly & integrating into defect tracking workflow to match the pace of security fixes to the pace of development. | [![Security Scans as Displayed in DevSecOps Overview](../../images/youtube_social_icon_red-32x23.png) Security Scans as Displayed in DevSecOps Overview](https://youtu.be/XnYstHObqlA?t=218) |
 | **Block MR based on Security Policy** | Bring Development and Security Teams closer by allowing security teams to apply organizational security policies before hand and review/approve security exceptions before the code is merged | **-**  | [![Merge-Request Approvals as Displayed in DevSecOps Overview](../../images/youtube_social_icon_red-32x23.png) Merge-Request Approvals as Displayed in DevSecOps Overview](https://youtu.be/XnYstHObqlA?t=174) |
-| **Compliance Management** | GitLab makes compliance easier by providing a single source of truth for Dev, Sec and Ops through a single data-store. Everything is audited and for every change, there is a single thread that contains the full audit log of every decision and action - making audit compliance a breeze | The auditor for [Glympse](https://about.gitlab.com/customers/glympse/) observed that the company had remediated security issues faster than any other company that he had worked with before in his 20-year career. Within one sprint, just 2 weeks, Glympse was able to implement security jobs across all of their repositories using GitLab’s CI templates | [![Manage Compliance with GitLab](../../images/youtube_social_icon_red-32x23.png) Manage Compliance with GitLab](https://youtu.be/QV2dIocn-hk) |
+| **Compliance Management** | GitLab makes compliance easier by providing a single source of truth for Dev, Sec and Ops through a single data-store. Everything is audited and for every change, there is a single thread that contains the full audit log of every decision and action - making audit compliance a breeze | The auditor for [Glympse](https://about.gitlab.com/customers/glympse/) observed that the company had remediated security issues faster than any other company that he had worked with before in his 20-year career. Within one sprint, just 2 weeks, Glympse was able to implement security jobs across all of their repositories using GitLab's CI templates | [![Manage Compliance with GitLab](../../images/youtube_social_icon_red-32x23.png) Manage Compliance with GitLab](https://youtu.be/QV2dIocn-hk) |
 | **Coverage-Guided Fuzz Testing** | GitLab provides using contextual information from source code to better inform fuzz tests as well as to help correlate the results of a fuzz testing crash directly to the region of code that was vulnerable. This dramatically improves the cycle time to go from an initial fuzz test to a crash to an update to vulnerable areas. | **-** | [![Finding Bugs with Coverage Guided Fuzz Testing](../../images/youtube_social_icon_red-32x23.png) Finding Bugs with Coverage Guided Fuzz Testing](https://youtu.be/4ROYvNfRZVU) |
 | **Offline Environments** | GitLab provides a variety of scanners to run in offline or limited connectivity environments. This feature enables security vulnerabilities to be detected in code that lies in offline environments. | **-** | [![Running GitLab Security Scans in Limited Connectivity and Offline Environments](../../images/youtube_social_icon_red-32x23.png) Running GitLab Security Scans in Limited Connectivity and Offline Environments](https://youtu.be/FoLmRvTcOAY) |
 
@@ -143,7 +143,7 @@ GitLab DevSecOps use case overview
 
 ## Message House
 
-The [message house](./message-house/) for DevSecOps provides a structure to describe and discuss the value and differentiators for the use case.
+The [message house](message-house/) for DevSecOps provides a structure to describe and discuss the value and differentiators for the use case.
 
 ## Competitive Comparison
 
@@ -191,7 +191,7 @@ In addition, enjoy these benefits of Ultimate:
 - [Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) - visualize security status for projects.
 - [Vulnerability Management](/handbook/security/product-security/vulnerability-management/)
 - [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_scanning_of_cyclonedx_files/) - identify the presence of new software licenses included in your project and track project dependencies. Approve or deny the inclusion of a specific license.
-- [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard/index.html) - See if merge requests were approved, and by whom.
+- [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_center/) - See if merge requests were approved, and by whom.
 
 ## Technology Partnerships
 
@@ -215,9 +215,9 @@ If you or your customer has a third party they'd like to see integrated into Git
 
 ## Discovery Questions
 
-The suggested discovery questions below are meant to help you uncover opportunities when speaking with prospects or customers who are not currently using GitLab for Secure/Protect. They are grouped by topic or entry point. **Don’t try to use them all, just those most relevant to your customer.**  The deeper you can dig into their processes, the more benefits you are likely to show of using GitLab. Feel free to contribute!
+The suggested discovery questions below are meant to help you uncover opportunities when speaking with prospects or customers who are not currently using GitLab for Secure/Protect. They are grouped by topic or entry point. **Don't try to use them all, just those most relevant to your customer.**  The deeper you can dig into their processes, the more benefits you are likely to show of using GitLab. Feel free to contribute!
 
-**Initial probe for direction. Where’s the pain?**
+**Initial probe for direction. Where's the pain?**
 
 Integrating application security testing into Agile DevOps software development is difficult with many potential challenges. Use these 6 questions to probe a bit to see which areas are of most concern, then go deeper on those topics further below.
 
@@ -237,7 +237,7 @@ When speaking with C-levels, ask them about Governance and control challenges.
 - What application security scans are most important to you? (SAST, DAST, IAST, dependency scanning, container scanning, secrets detection, license compliance? Mobile app testing? Fuzz testing?) Would you like to be able to run multiple types of scans for defense in depth? If you are not today, what prevents it?
 - What steps have you taken to enable developers to find and fix vulnerabilities themselves? Are the scan results in the CI pipeline?
 - How valuable would it be if your developers could find and fix more vulnerabilities themselves before the code ever leaves their hands?
-- If you are using a security ‘spell-checker’ to aid developers, how effective is it? Are you still finding vulns with static testing after the code is merged? (the point is this alone is not enough)
+- If you are using a security 'spell-checker' to aid developers, how effective is it? Are you still finding vulns with static testing after the code is merged? (the point is this alone is not enough)
 
 **2. Collaboration /visibility**
 
@@ -257,10 +257,10 @@ When speaking with C-levels, ask them about Governance and control challenges.
 - Are you mostly concerned about the OWASP Top 10. What if you could find the OWASP Top 10 for every code change and free your development workflow by decluttering their tasks to focus on vulns they just created and not technical debt from past efforts to avoid creating new technical debt? Would that help you avoid new technical debt and reduce risk?
 - Do you focus on remediation of critical and high vulnerabilities? How much of your remediation is for medium and low vulns? Did you know that most exploits are against medium risk vulnerabilities? What if you could help developers find and fix each vuln as they are created?
 - What percentage of code are you currently scanning? Are there holes where an attacker could more easily enter and then traverse laterally? How much more would it cost you to scan all of your code?
-- If you are using containers, orchestrators, and/or microservices/API’s, how are you scanning them for vulnerabilities and monitoring them during production?
+- If you are using containers, orchestrators, and/or microservices/API's, how are you scanning them for vulnerabilities and monitoring them during production?
 - What percentage of vulns found that require remediation are actually remediated? How quickly? (Mean time to remediation)
 - Can you see how developers handled vulnerabilities that were found? Would it be valuable to have visibility into vulnerabilities and their risk earlier in the lifecycle? Would this help you with security audits?
-- How much of the security team’s time is spent tracking vulnerabilities, triaging them, and following up to see that they were remediated?
+- How much of the security team's time is spent tracking vulnerabilities, triaging them, and following up to see that they were remediated?
 
 **5. Policy Automation**
 
@@ -301,7 +301,7 @@ Also, how predictable is the cost of these tools? If you find more vulnerabiliti
 
 **If using Snyk, WhiteSource or other point solutions**
 
-- How are you scanning API’s and containers? Are you able to monitor them in production?
+- How are you scanning API's and containers? Are you able to monitor them in production?
 - Are you scanning all of your code? At every commit? Does the developer have all of the information they need for remediation?
 
 **If using GitHub Actions and/or Azure DevOps**
@@ -312,9 +312,9 @@ Also, how predictable is the cost of these tools? If you find more vulnerabiliti
 - Are governance controls as granular as you need them to be?
 - Do you have visibility across all of the tools used in the marketplace to see who changed what, where, and when?
 
-**I can’t justify the cost difference for Ultimate.**
+**I can't justify the cost difference for Ultimate.**
 
-NIST [demonstrated the cost savings](https://www.nist.gov/document/report02-3pdf) from shifting security left back in 2002. How far left are you currently? Hypothetically, if 50% of your vulnerabilities could have been found by the developer and if half those could hypothetically be fixed before the code ever leaves the developer’s hands, what value would that have for your cost and your risk exposure? Let's consider the potential benefit of:
+NIST [demonstrated the cost savings](https://www.nist.gov/document/report02-3pdf) from shifting security left back in 2002. How far left are you currently? Hypothetically, if 50% of your vulnerabilities could have been found by the developer and if half those could hypothetically be fixed before the code ever leaves the developer's hands, what value would that have for your cost and your risk exposure? Let's consider the potential benefit of:
 
 - fewer vulns to prioritize, vet, triage, and track
 - fewer vulns with their associated risk exposure
@@ -446,7 +446,7 @@ The following will link to enablement and training videos and content.
 
 GitLab offers a [variety of pre-packaged and custom services](https://about.gitlab.com/services/) for our customers and partners. The following are service offers specific to this solution. For additional services, see the [full service catalog](https://about.gitlab.com/services/catalog/).
 
-- [DevOps Fundamentals Training](https://about.gitlab.com/services/education/devops-fundamentals/) (all stages of the DevOps lifecycle)
+- [DevOps Fundamentals Training](https://university.gitlab.com/courses/gitlab-devops-fundamentals) (all stages of the DevOps lifecycle)
 - [GitLab CI/CD Training](https://about.gitlab.com/services/education/gitlab-ci/)
 - [Integration Services](https://about.gitlab.com/services/implementation/integration/ )
 

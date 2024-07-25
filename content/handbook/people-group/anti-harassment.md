@@ -5,17 +5,29 @@ aliases:
 - /handbook/anti-harassment/
 ---
 
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
+Per the stated [Roles & Responsibilities](/handbook/people-group/anti-harassment/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
+{{% /panel %}}
+
 ## Introduction
 
-Everyone at GitLab has a responsibility to prevent and stop harassment. Working remotely means that the majority of our interactions are by video call or written communication, such as email or shared documents. The exceptions to this are team summits, attending conferences together, and local team meetups. No matter the method of communication, it is expected that everyone will contribute to an inclusive and collaborative working environment and respect each other at all times. Team member behavior is not limited to internal interactions with each other.  Our Anti-harassment policy applies to GitLab team members interaction with customers, vendors and community members. Should you become aware of or witness any form of harassment or behavior that violates this policy or our [company values]({{< ref "values" >}}), please report the incident directly to the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) immediately for thorough investigation.
+Everyone at GitLab has a responsibility to prevent and stop harassment. Working remotely means that the majority of our interactions are by video call or written communication, such as email or shared documents. The exceptions to this are team summits, attending conferences together, and local team meetups. No matter the method of communication, it is expected that everyone will contribute to an inclusive and collaborative working environment and respect each other at all times. Team member behavior is not limited to internal interactions with each other.  Our Anti-harassment policy applies to GitLab team members interaction with customers, vendors and community members. Should you become aware of or witness any form of harassment or behavior that violates this policy or our [company values](/handbook/values/), please report the incident directly to the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) immediately for thorough investigation.
 
 ## Perspective
 
-GitLab is a San Francisco, California-based start-up that has grown into a global fully distributed team. We strive to ensure our team is fully aligned with GitLab’s no tolerance harassment policy despite their location. We want everyone to feel confident and comfortable communicating concerns. GitLab respects, appreciates, understands and supports every aspect of diversity. We aim to continuously foster a globally aware team.
+GitLab is a San Francisco, California-based start-up that has grown into a global fully distributed team. We strive to ensure our team is fully aligned with GitLab's no tolerance harassment policy despite their location. We want everyone to feel confident and comfortable communicating concerns. GitLab respects, appreciates, understands and supports every aspect of diversity. We aim to continuously foster a globally aware team.
 
 ## Scope
 
 This policy applies to all team members of GitLab, whether contractor or employee, in all locations. There are local labor laws in every country and in the case of the United States, state laws, that must be followed when handling, reporting and investigating incidents of harassment. The People Business Partner team and legal counsel, if required, in each of those countries will be called upon to ensure compliance and the appropriate legal processes and procedures are followed. Specific country requirements for employees (subject to changes in employment law) are listed in the [Country & US State-Specific Requirements](#country--us-state-specific-requirements) section and will be updated regularly. All individual contributors, managers, and leaders will be subject to disciplinary action, up to and including termination, for any act of harassment they commit.
+
+## Roles and Responsibilities
+
+| Role | Responsibility |
+|-----------|-----------|
+| GitLab Team Members | Responsible for following the requirements in these policies |
+| People Ops | Responsible for implementing and executing these policies |
+| Legal & People Ops Management (Code Owners) | Responsible for approving significant changes and exceptions to these policies |
 
 ## Types of Harassment
 
@@ -23,12 +35,12 @@ The following are considered forms of harassment and will not be tolerated by Gi
 
 ### Sexual Harassment
 
-Sexual harassment is considered unwelcome conduct of a sexual nature that is sufficiently persistent or offensive enough to interfere with the receiver’s job performance or create an intimidating, hostile or offensive working environment.
+Sexual harassment is considered unwelcome conduct of a sexual nature that is sufficiently persistent or offensive enough to interfere with the receiver's job performance or create an intimidating, hostile or offensive working environment.
 
 Sexual harassment encompasses a wide range of conduct. Examples of misconduct include, but may not be limited to, the following actions:
 
 1. Physical assaults or the attempt to commit an assault of a sexual nature. This physical conduct can include touching, pinching, patting, grabbing, brushing against or poking another team member's body.
-1. Unwelcome sexual advances, propositions or other sexual comments, such as sexually oriented gestures, noises, remarks, jokes, or comments about a person’s sexuality or sexual experience.
+1. Unwelcome sexual advances, propositions or other sexual comments, such as sexually oriented gestures, noises, remarks, jokes, or comments about a person's sexuality or sexual experience.
 1. Preferential treatment or promises of preferential treatment to a team member for submitting to sexual conduct, including soliciting or attempting to solicit any team member to engage in sexual activity for compensation or reward.
 1. Subjecting, or threats of subjecting a team member to unwelcome sexual attention or conduct or intentionally making performance of the team member's role more difficult because of that team member's sex.
 1. Creating displays, communications, or publications that include content of a sexually offensive nature.
@@ -71,7 +83,7 @@ This does not ensure there will be no consequences. However, it will greatly red
 If a threat is made against you or someone else that makes you or another team member question their safety due to an issue, merge request, email or other work related matters do not hesitate to initiate the following process:
 
 1. Contact local law enforcement. Note the proper number to contact in your locality and whether the emergency, or non-emergency number should be called.
-1. Notify the People Connect Team at `people-connect@gitlab.com` and cc `teammemberrelations@gitlab.com`. A private channel may then be opened with your People Business Partner, People Connect Team member, Team Member Relations, Manager, and the security team helping with the situation.
+1. Notify the People Connect Team via a HelpLab request. A private slack channel may then be opened with your People Business Partner, People Connect Team member, Team Member Relations, Manager, and the security team helping with the situation.
 1. The following steps may be taken based on the threat:
     - Internal threat assessment
     - Temporary accommodation (friends, family, hotel, etc.)
@@ -84,7 +96,7 @@ If a threat is made against you or someone else that makes you or another team m
 ## Reporting Alleged Harassment
 
 1. Any individual who believes they have been the target of harassment of any kind is encouraged to immediately and directly address the harasser, letting them know that their behavior is unwelcome, offensive, and must stop immediately.
-1. If they do not wish to address the harasser directly or the behavior doesn’t cease, they should report the misconduct to the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns) or a [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
+1. If they do not wish to address the harasser directly or the behavior doesn't cease, they should report the misconduct to the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns) or a [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
 1. Once reported, an impartial investigation will be conducted by a People Business Partner or by an independent third party, depending on the severity and circumstances of the complaint.
 1. Individual(s) reporting an incident or pattern of behavior will be asked to provide a written account, including any action(s) causing concern, the dates and times such actions occurred, and the names of anyone involved, including the participants and witnesses. All complaints or concerns of alleged harassment or discrimination will be taken seriously and handled confidentially.
 
@@ -244,7 +256,7 @@ In addition to the prohibitions listed above, team members are prohibited from a
 1. If, following investigation, the complaint is upheld, appropriate disciplinary proceedings will be brought against the alleged harasser up to and including dismissal for gross misconduct. GitLab will work to prevent recurrence of the behavior.
 1. If, following investigation, the complaint is not upheld, then the company will support both the employee and the alleged harasser in rebuilding their working relationship and may consider making arrangements to avoid the employee and the alleged harasser working together.
 1. Where the employee is unhappy with the outcome of the formal investigation, they have the right to appeal against the outcome if they can demonstrate why they believe a particular aspect of the investigation has materially affected the outcome. Appeals must be submitted within 10 working days of receiving the outcome of the complaint.
-1. If an appeal is submitted, the People Business Partner will arrange a meeting to take place with the appeal chair within a reasonable time period. The appeal chair’s decision will be final and there is no further right of appeal. The appeal chair will be independent of the investigation.
+1. If an appeal is submitted, the People Business Partner will arrange a meeting to take place with the appeal chair within a reasonable time period. The appeal chair's decision will be final and there is no further right of appeal. The appeal chair will be independent of the investigation.
 
 ### GitLab Ireland Ltd
 
@@ -252,8 +264,8 @@ In addition to the prohibitions listed above, team members are prohibited from a
 
 The Company is aware of and recognises the effect that bullying, harassment and sexual harassment can have on its team members.
 
-- “Contact Person” – Team Member Relations: teammemberrelations@gitlab.com
-- “Designated Person” - For each formal complaint that is reported through Lighthouse, a Designated Person will be appointed by the Company to deal with the specific issue.
+- "Contact Person" – Team Member Relations: teammemberrelations@gitlab.com
+- "Designated Person" - For each formal complaint that is reported through Lighthouse, a Designated Person will be appointed by the Company to deal with the specific issue.
 
 *Informal Procedure*
 
@@ -269,11 +281,11 @@ The Company is aware of and recognises the effect that bullying, harassment and 
 1. One or more designated members of the People Group (the Designated Person) will be responsible for carrying out an initial investigation into your complaint. The investigator may agree on terms of reference of the investigation with both you and the alleged perpetrator(s) in advance, and you and the alleged perpetrator(s) will be notified of the likely timescale for completion. This initial meeting will take place as soon as reasonably practicable following receipt of your complaint. If the Company considers it appropriate to do so, the Company reserves the right, at its discretion, to appoint or engage an external third party to conduct the investigation.
 1. Where the allegations made are of a severe nature, the Company reserves the right to suspend the alleged perpetrator(s) on full pay pending an investigation.
 1. The investigator will meet you, the alleged perpetrator(s) and any witnesses or other relevant persons on an individual basis to gather information surrounding the allegation. You and the alleged perpetrator(s) may be accompanied to such meeting by a colleague. The Company reserves the right to refuse your chosen representative attendance at the meeting where appropriate. You will be given the opportunity to change your chosen representative.
-1. Every effort will be made to carry out and complete the investigation as quickly as possible and preferably within the agreed timeframe. Once the investigation is complete, the investigator will present a written report to management. Both the complainant and the alleged perpetrator(s) will be informed in writing of the investigator’s report and both parties will be given the opportunity to comment on the report before any action is decided on by the Company.
+1. Every effort will be made to carry out and complete the investigation as quickly as possible and preferably within the agreed timeframe. Once the investigation is complete, the investigator will present a written report to management. Both the complainant and the alleged perpetrator(s) will be informed in writing of the investigator's report and both parties will be given the opportunity to comment on the report before any action is decided on by the Company.
 1. If, on foot of the report, the Company decides that it is appropriate, a People group representative and applicable manager will meet formally with the alleged perpetrator(s) to determine an appropriate course of action. This may include counselling, monitoring, mediation and/or invoking the disciplinary procedure.
 1. If the investigation concludes that based on the evidence, bullying, harassment or sexual harassment may have been perpetrated by an individual who is not a team member of the Company, the Company will decide what appropriate actions should be taken against such individuals including exclusion from Company premises or systems, suspension or termination of service/contract etc.
 1. If the Company decides that the complaint is not well founded, a People group representative and applicable manager will formally meet with the complainant, again to determine an appropriate course of action. It may be that some kind of counselling or mediation session(s) is required between the complainant and the alleged perpetrator(s).
-1. Either party may appeal the findings of an investigation under this procedure by submitting, in writing, within 5 working days of the Company’s decision in respect of the complaint outlining the reasons for the appeal. The appeal will be heard on the points raised and will not involve reinvestigation of the complaint.
+1. Either party may appeal the findings of an investigation under this procedure by submitting, in writing, within 5 working days of the Company's decision in respect of the complaint outlining the reasons for the appeal. The appeal will be heard on the points raised and will not involve reinvestigation of the complaint.
 
 *Mediation*
 
@@ -324,7 +336,7 @@ A team member claiming to be aggrieved by discrimination, harassment, or sexual 
 
 *Time Limitations*
 
-Nothing in this policy precludes any person from filing a formal grievance in accordance with a collective bargaining agreement [if applicable], the [Bureau of Labor and Industries’ Civil Rights Division](https://www.oregon.gov/boli/civil-rights/Pages/default.aspx) 800 NE Oregon St., Suite 1045 Portland, OR 97232, tel: (971) 673-0761, TTY Relay 711, or the Equal Employment Opportunity Commission. Note that Oregon state law requires that any legal action taken on alleged discriminatory conduct (specifically that prohibited by ORS 659A.030, 659A.082 or 659A.112) commence no later than five years after the occurrence of the violation. Other applicable laws may have a shorter time limitation on filing.
+Nothing in this policy precludes any person from filing a formal grievance in accordance with a collective bargaining agreement [if applicable], the [Bureau of Labor and Industries' Civil Rights Division](https://www.oregon.gov/boli/civil-rights/Pages/default.aspx) 800 NE Oregon St., Suite 1045 Portland, OR 97232, tel: (971) 673-0761, TTY Relay 711, or the Equal Employment Opportunity Commission. Note that Oregon state law requires that any legal action taken on alleged discriminatory conduct (specifically that prohibited by ORS 659A.030, 659A.082 or 659A.112) commence no later than five years after the occurrence of the violation. Other applicable laws may have a shorter time limitation on filing.
 
 ### Rhode Island Law Requirements
 
@@ -340,7 +352,7 @@ We are continuously gathering country specific references to review regulation a
 
 - [Equal Employer Opportunity Commission (EEOC)](https://www.eeoc.gov/laws-guidance)
   - Contact [EEOC](https://www.eeoc.gov/employees/charge.cfm): John F. Kennedy Federal Building, 475 Government Center, Boston, MA 02203, , tel:1-800-669-4000 (voice), 1-800-669-6820 (TDD). Complaints must be filed within 300 days of the adverse action.
-- [Society of Human Resource Management (SHRM)](https://www.shrm.org/ResourcesAndTools/legal-and-compliance/employment-law/pages/federal-statutes-regulations-and-guidance.aspx)
+- [Society of Human Resource Management (SHRM)](https://www.shrm.org/topics-tools#verticalTabs-39c94d1460-item-e2208bcacd-tab)
 
 ## Further Guidance (Country-Specific)
 

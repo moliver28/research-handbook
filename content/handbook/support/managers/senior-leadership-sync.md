@@ -1,5 +1,4 @@
 ---
-
 title: Senior Support Leadership Sync
 description: "Weekly Senior Support Leadership Sync meetings"
 ---

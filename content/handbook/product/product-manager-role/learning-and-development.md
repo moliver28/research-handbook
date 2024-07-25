@@ -1,5 +1,4 @@
 ---
-
 title: Product Management Learning and Development
 description: "This page contains links to internal and external resources that Product Managers at GitLab can use to build their skills."
 canonical_path: "/handbook/product/product-manager-role/learning-and-development/"
@@ -139,8 +138,6 @@ GitLab reimburses its team members the yearly Reforge membership fees as long as
   - the study group can be a Reforge study group
 - the GitLab team members in the study group propose process changes and create analytics requests
 
-If you are part of the Product team and are interested in a Reforge membership, we are planning to set up a **team plan** for a discounted rate, see details in https://gitlab.com/gitlab-com/Product/-/issues/5135.
-
 ## General Product Management learning content
 
 [This content is also available in a trackable format in Level Up](https://levelup.gitlab.com/pages/product-management-hub).
@@ -195,12 +192,12 @@ This content is divided into five key competencies for Product Managers.
 
 #### Online courses
 
-- [Continuous Interviewing by Product Talk](https://learn.producttalk.org/p/continuous-interviewing)
+- [Continuous Interviewing by Product Talk](https://learn.producttalk.org/continuous-interviewing)
 
 #### Books
 
-- [Interviewing for Research by Andrew Travers](https://trvrs.co/book/)
-- [Talking to Humans](https://www.amazon.co.uk/Talking-Humans-Success-understanding-customers-ebook/dp/B00NSUEUL4) ([alternate free pdf](https://s3.amazonaws.com/TalkingtoHumans/Talking+to+Humans.pdf))
+- [Interviewing for Research by Andrew Travers](https://www.andrewtravers.co/book/)
+- [Talking to Humans](https://www.amazon.co.uk/Talking-Humans-Success-understanding-customers-ebook/dp/B00NSUEUL4) ([alternate free PDF](https://s3.amazonaws.com/TalkingtoHumans/Talking+to+Humans.pdf))
 - [The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you](https://www.amazon.com/Mom-Test-customers-business-everyone/dp/1492180742)
 - [Interviewing Users: How to Uncover Compelling Insights](https://www.amazon.com/Interviewing-Users-Uncover-Compelling-Insights/dp/193382011X)
 
@@ -210,7 +207,7 @@ This content is divided into five key competencies for Product Managers.
 
 - [GitLab Jobs to be Done (JTBD) Overview](/handbook/product/ux/jobs-to-be-done/)
 - [Clayton Christensen - Understanding the Job](https://www.youtube.com/watch?v=sfGtw2C95Ms) (5 min video)
-- [Know Your Customers’ “Jobs to Be Done”](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done)
+- [Know Your Customers' "Jobs to Be Done"](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done)
 
 #### Deeper dive
 
@@ -258,7 +255,7 @@ This content is divided into five key competencies for Product Managers.
 - [GitLab Growth Team Coffee & Learn Sessions](/handbook/marketing/growth/)
 - [Product Managers: It's Time to Move from Whole Product to Product-led Growth](https://expand.openviewpartners.com/product-managers-its-time-to-move-from-whole-product-to-product-based-go-to-market-304467093357#.1euz7drsb)
 - [10 Statistics Traps in A/B Testing: The Ultimate Guide for Optimizers](https://cxl.com/blog/testing-statistics-mistakes/)
-- [5 Common Threats to Your A/B Test’s Validity](https://instapage.com/blog/validating-ab-tests)
+- [5 Common Threats to Your A/B Test's Validity](https://instapage.com/blog/validating-ab-tests)
 - [Matching Price to Value: 3 Lessons in Monetization from Menlo Ventures](https://www.youtube.com/watch?v=hGUEDKaTFXw) (30 min video)
 
 #### Deeper dive
@@ -269,7 +266,7 @@ This content is divided into five key competencies for Product Managers.
 
 #### Online courses
 
-- [Reforge](https://www.reforge.com/all-programs)
+- [Reforge](https://www.reforge.com/courses)
 
 #### Books
 
@@ -305,7 +302,7 @@ This content is divided into five key competencies for Product Managers.
 - [Steve Krug: Don't Make Me Think](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515)
 - [Sketching User Experiences: The Workbook](https://www.amazon.com/Sketching-User-Experiences-Saul-Greenberg/dp/0123819598)
 - [The User Experience Team of One: A Research and Design Survival Guide](https://www.amazon.com/User-Experience-Team-One-Research/dp/1933820187)
-- [Jeff Gothelf: Lean UX](https://www.amazon.com/Lean-UX-Designing-Great-Products-ebook/dp/B01LYGQ6CH/)
+- [Jeff Gothelf: Lean UX](https://www.amazon.com/Lean-UX-Creating-Great-Products/dp/1098116305/)
 
 <br>
 <br>
@@ -360,7 +357,6 @@ _Please contribute your favorite resources here_
 
 - [The Engineering Manager: The relationship with Product](https://www.theengineeringmanager.com/growth/the-engineering-product-relationship/)
 - [Visha Soni: A Practical Prioritization Approach for Technical Debt](https://productcoalition.com/a-practical-prioritization-approach-for-technical-debt-f1eb31b8e409)
-- [Rajat Harlalka: Why You Should Invest in Relationships With Your Engineering Team](https://www.mindtheproduct.com/why-you-should-invest-in-relationships-with-your-engineering-team/)
 - [PM & EM: Rules of Engagement](https://segment.com/blog/product-manager-engineering-manager-rules-of-engagement/)
 
 #### Deeper dive
@@ -495,7 +491,7 @@ _Please contribute your favorite resources here_
 #### Quick reads and videos
 
 - [Paul Graham: Write Simply](http://paulgraham.com/simply.html)
-- [Mastering communication: a product manager’s superpower](https://miro.com/blog/communication-product-managers-product-school/)
+- [Mastering communication: a product manager's superpower](https://miro.com/blog/communication-product-managers-product-school/)
 - [Connor Murphy on how his team uses a combination of GitLab, Loom, Notion, and Figma to collaborate async between PM, Design, and Engineering](https://www.loom.com/share/17677053ff7d4eeba643eaf194c0b700) (5 min video)
 
 #### Deeper dive
@@ -710,7 +706,7 @@ There are two components to the Product L & D hub:
 
 In order to add content to  [Product Management Learning Hub](https://levelup.gitlab.com/pages/product-management-hub), the content must first be added to and exist on this page. Then, the content is added to Level Up.
 
-If there’s content you want to add to or remove from this library, simply raise an MR and add any of the [product learning evangelists](#product-learning-evangelists) listed below as `Reviewer`. Tell us in the MR whether you're recommending the resources for just the library or if you'd like to see it added to Level Up as well. Details explaining what you value about the content and how you think it's helpful should be added to the description of the MR. Please add `milestone` and labels `product operations` `product handbook` and `prodops:release` to the MR.
+If there's content you want to add to or remove from this library, simply raise an MR and add any of the [product learning evangelists](#product-learning-evangelists) listed below as `Reviewer`. Tell us in the MR whether you're recommending the resources for just the library or if you'd like to see it added to Level Up as well. Details explaining what you value about the content and how you think it's helpful should be added to the description of the MR. Please add `milestone` and labels `product operations` `product handbook` and `prodops:release` to the MR.
 
 ## Product learning evangelists
 

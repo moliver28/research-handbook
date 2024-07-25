@@ -1,5 +1,4 @@
 ---
-
 title: "Blocking end-to-end tests"
 description: "This page describes the process and technical documentation around blocking end-to-end tests at GitLab.
 Blocking tests are executed as a showstopper step in the release pipelines. Blocking tests are executed as a blocking step in MRs but not the deployments."

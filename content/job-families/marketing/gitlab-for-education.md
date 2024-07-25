@@ -1,11 +1,11 @@
 ---
 title: "GitLab for Education - Roles & Responsibilities"
-description: "The GitLab for Education team’s mission is to facilitate and drive the adoption of GitLab at educational institutions around the globe."
+description: "The GitLab for Education team's mission is to facilitate and drive the adoption of GitLab at educational institutions around the globe."
 ---
 
 ## GitLab for Education
 
-The GitLab for Education team’s mission is to facilitate and drive the adoption of GitLab at educational institutions around the globe. We aim to build an engaged community of GitLab evangelists and contributors in the next generation of the workforce and tell the story of how GitLab and DevOps as a  discipline, are advancing and transforming teaching, learning, and scientific research.
+The GitLab for Education team's mission is to facilitate and drive the adoption of GitLab at educational institutions around the globe. We aim to build an engaged community of GitLab evangelists and contributors in the next generation of the workforce and tell the story of how GitLab and DevOps as a  discipline, are advancing and transforming teaching, learning, and scientific research.
 
 ## Levels
 
@@ -23,17 +23,17 @@ The Education Evangelist is a [grade 6](/handbook/total-rewards/compensation/com
 - Execute GitLab for Education Program initiatives and campaigns.
 - Curate content from GitLab for Education Program Members, the wider scientific community,  academic literature, as well existing GitLab content.
 - Create and curate original content to enable faculty, students, and staff to adopt and be successful with GitLab. This includes blog posts, webinars, videos, eLearning, courses, and best practices.
-- Serve as a spokesperson for GitLab’s Education Program.
+- Serve as a spokesperson for GitLab's Education Program.
 - Update and document processes in the GitLab for Education handbook.
 - Activate the GitLab team in sharing GitLab for Education content with their networks, increasing our reach to media, academia, analysts, etc.
-- Collaborate with GitLab’s PR agency partners to facilitate and secure media coverage for GitLab’s campaigns.
+- Collaborate with GitLab's PR agency partners to facilitate and secure media coverage for GitLab's campaigns.
 - Compile quarterly metrics reports to measure our GitLab in Education successes in relation to awareness and impact.
 - Manage projects from start to finish.
 
 #### Education Evangelist Requirements
 
 - 3-5 years experience in technical evangelism, program management, or education.
-- An understanding of GitLab’s and DevOp’s role in Education.
+- An understanding of GitLab's and DevOp's role in Education.
 - Experience in publishing, journalism, content marketing, social, and events. At least 1 year of experience giving talks and developing technical content.
 - Self-directed and work with minimal supervision.
 - Outstanding written and verbal communications skills with the ability to explain and translate complex technology concepts into simple and intuitive communications.
@@ -51,7 +51,7 @@ The Education Program Manager is a [grade 6](/handbook/total-rewards/compensatio
 #### Education Program Manager Responsibilities
 
 - Run and develop the [GitLab for Education](https://about.gitlab.com/solutions/education) program. Increase operational efficiencies and streamline processes.
-- Establish relationships with educational institutions to produce inspirational case studies of their use of GitLab. Showcase Program Member’s success through Case Studies, webinars, blog posts, spotlights, and media campaigns.
+- Establish relationships with educational institutions to produce inspirational case studies of their use of GitLab. Showcase Program Member's success through Case Studies, webinars, blog posts, spotlights, and media campaigns.
 - Build the foundations of a GitLab for Education community and engage with program members.
 - Expand the GitLab for Education program with a learning package to facilitate and incentivize the use of GitLab for Educational purposes.
 - Conduct and publish a survey on the GitLab in Education Program.
@@ -139,11 +139,11 @@ The Director, Education is a [grade 10](/handbook/total-rewards/compensation/com
 - Develop an overall strategy and vision for GitLab and DevOps in Education.
 - Develop and maintain a content roadmap for enabling GitLab in Education Program Members to teach, learn and conduct research with GitLab.
 - Demonstrate thought leadership in Education.
-- Maintain and evolve a standalone digital publication focused on the role DevOps has in Education. Champion GitLab’s prominence therewithin.
+- Maintain and evolve a standalone digital publication focused on the role DevOps has in Education. Champion GitLab's prominence therewithin.
 - Work strategically to build a foundation for DevOps as a discipline by increasing the number of courses, curriculum, and offerings on DevOps.
-- Share and promote scientific research and publications using GitLab into mainstream media through press, articles, podcasts, with the goal of translating science to industry and highlighting GitLab’s capabilities.
+- Share and promote scientific research and publications using GitLab into mainstream media through press, articles, podcasts, with the goal of translating science to industry and highlighting GitLab's capabilities.
 - Champion the importance of DevOps workforce development in higher education.
-- Collaboratively work across Corporate Marketing, Strategic Marketing, Learning and Development, Sales, and Product to tell GitLab in Education’s story.
+- Collaboratively work across Corporate Marketing, Strategic Marketing, Learning and Development, Sales, and Product to tell GitLab in Education's story.
 - Responsible for ideation of all campaign activities, initiatives, OKRs, and reporting on results.
 - Mentor, guide, and grow the careers of all team members.
 - Develop a hiring plan according to the dynamic needs of a rapidly growing organization.

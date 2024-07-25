@@ -1,16 +1,10 @@
 ---
-
 title: Demand Generation Campaigns Team
 description: Demand Generation Campaigns Handbook
 twitter_image: /images/tweets/handbook-marketing.png
 twitter_site: '@gitlab'
 twitter_creator: '@gitlab'
 ---
-
-
-
-
-
 
 ## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Campaigns Team
 
@@ -466,14 +460,14 @@ The campaigns team uses the overall 2-week marketing milestones (format of [Mktg
 {: #demand-gen-dash .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-See reporting on Demand Generation Hanbook Page: [https://about.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#reporting)
+See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#reporting)
 
 ### Key metrics tracked on the Demand Gen Dashboard
 
 {: #dashboard-key-metrics}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-See reporting on Demand Generation Hanbook Page: [https://about.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#reporting)
+See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#reporting)
 
 ### 💡 Questions that the Integrated Campaign dashboards attempt to answer
 
@@ -485,39 +479,39 @@ See reporting on Demand Generation Hanbook Page: [https://about.gitlab.com/handb
 {: #questions-overall}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-See reporting on Demand Generation Hanbook Page: [https://about.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#reporting-questions-overall)
+See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#reporting-questions-overall)
 
 #### By Campaign
 
 {: #questions-by-campaign}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-See reporting on Demand Generation Hanbook Page: [https://about.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#questions-by-campaign)
+See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#questions-by-campaign)
 
 #### Drilling down into the dashboards
 
 {: #dashboard-drilldowns}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-See reporting on Demand Generation Hanbook Page: [https://about.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#dashboard-drilldowns)
+See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#dashboard-drilldowns)
 
 ## Offer-Specific Dashboards
 
 {: #dashboard-by-offer}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-See reporting on Demand Generation Hanbook Page: [https://about.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#dashboard-by-tactic)
+See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#dashboard-by-tactic)
 
 ### Key Metrics tracked on ALL virtual events dashboards
 
 {: #dashboard-virtual-events}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-See reporting on Demand Generation Hanbook Page: [https://about.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#dashboard-virtual-events)
+See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#dashboard-virtual-events)
 
 #### Virtual Events Reporting
 
 {: #reporting-virtual-events}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-See reporting on Demand Generation Hanbook Page: [https://about.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#reporting-virtual-events)
+See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#reporting-virtual-events)

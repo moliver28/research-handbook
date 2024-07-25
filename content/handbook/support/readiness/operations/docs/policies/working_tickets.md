@@ -133,7 +133,7 @@ be:
 1. Clear all cookies and cache on the browser.
 1. Try logging in again to the Support Portal.
 1. If you are still having issues, obtain the following:
-   - the browser’s version
+   - the browser's version
    - the browser's type
    - your operating system (and distro)
    - any other identifying information

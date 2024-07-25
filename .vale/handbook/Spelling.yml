@@ -5,6 +5,7 @@
 #
 # If a word is flagged as a spelling mistake incorrectly, such as a product name,
 # you can submit an MR to update `spelling-exceptions.txt` with the missing word.
+# People's names should not be added.
 # Commands, like `git clone` must use backticks, and must not be added to the
 # exceptions.
 #

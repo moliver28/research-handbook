@@ -1,5 +1,4 @@
 ---
-
 title: "Salesforce Mobile App Users Guide"
 description: "Instructions on where to download and how to login to the Salesforce Mobile App"
 ---
@@ -14,7 +13,7 @@ Below you can find instructions on how to login to the Salesforce mobile app via
   * Salesforce Mobile
     * [Google Play](https://play.google.com/store/apps/details?id=com.salesforce.chatter)
     * [Apple App Store](https://play.google.com/store/apps/details?id=com.salesforce.chatter)
-  * Okta Verify  
+  * Okta Verify
     * [Google Play](https://play.google.com/store/apps/details?id=com.okta.android.auth)
     * [Apple App Store](https://play.google.com/store/apps/details?id=com.okta.android.auth)
 

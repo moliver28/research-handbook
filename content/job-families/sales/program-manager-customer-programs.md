@@ -65,7 +65,7 @@ The Senior Program Manager, Customer Programs is a [Grade 7](/handbook/total-rew
   - Customer Health Scoring
   - Go-to-market (GTM) and/or adoption campaigns, including collaboration with Marketing, Product / Growth, Data Teams, and Sales Operations
   - Processes and playbooks for Solution Architect, Customer Success Manager, Professional Services, and Renewal Managers
-- Own partnership with Product, bringing “voice of customer” to Product teams, including interlock, reporting, metrics, and facilitating customer engagement (e.g., surveys, interviews, etc.)
+- Own partnership with Product, bringing "voice of customer" to Product teams, including interlock, reporting, metrics, and facilitating customer engagement (e.g., surveys, interviews, etc.)
 - Define systems and tools requirements that improve CSM visibility into customer information and overall customer performance
 
 #### Senior Program Manager, Customer Programs Requirements

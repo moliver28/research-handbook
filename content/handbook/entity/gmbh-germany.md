@@ -3,15 +3,29 @@ title: GitLab GmbH (Germany) information & benefits
 description: GitLab GmbH (Germany) benefits and information specific to Germany-based team members.
 ---
 
-Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
+Per the stated [Roles & Responsibilities](/handbook/entity/gmbh-germany/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
+{{% /panel %}}
 
-## Specific to Employees Based in Germany
+### Scope
+
+These standards apply to all GitLab team members hired through GitLab GmbH, which has a registered address at Elsenheimerstraße 7, München 80687, Germany.
+
+### Roles & Responsibilities
+
+| Role  | Responsibility |
+|-----------|-----------|
+| GitLab Team Members | Responsible for understanding and following the requirements in this document |
+| People, Legal, Payroll, Total Rewards, Absence | Responsible for implementing and executing this document |
+| People, Legal, Payroll, Total Rewards, Absence (Code owners) | Responsible for approving changes to this document |
+
+## Germany-Specific Team Member Benefits
 
 Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continously review our benefits design and offerings available through GitLab in Germany.
 
 Join the [#gitlab-germany channel](https://gitlab.slack.com/archives/CCLBN72TW) in Slack for questions.
 
-## Eye Exam and Glasses Reimbursement
+### Eye Exam and Glasses Reimbursement
 
 Under The Occupational Health and Saftey Act, employers must provide computer glasses when medically necessary to perform the job. If an eye exam determines that a team member needs glasses solely and exclusively for VDU (visual display unit i.e. computer screen) use, GitLab will reimburse towards the cost of a basic pair of frames and lenses (i.e. not designer frames) up to 150 Euro.
 
@@ -19,10 +33,10 @@ The team member needs to provide documentation (a prescription) from the opticia
 
 Please submit your prescription to Total Rewards for approval. Once approved, please send your receipts to expensify for reimbursement.
 
-## German Supplemental Pension Plans
+### German Supplemental Pension Plans
 
 GitLab has introduced two supplemental Pension Plans for our Germany Team Members.
-GitLab offers a **Support fund** (*effective 2023-04*, GitLab contributions only) and a **Direct Insurance Pension Plan** (*effective 2023-05*, Team Member contributions with GitLab matching up to 1% via [Allianz](https://www.allianz.de/?gclid=Cj0KCQiA-oqdBhDfARIsAO0TrGFOXdVxBxDl1GdNzweGsEGxNyDBojrXXa_aita6JwWV_fudgFJOhyAaAhspEALw_wcB&AZMEDID=SEM_SE-GG_VT-g_TH-Brand.Gold_KA-perma%7Copen%7CBrandGold_AG-Brand.Gold.Brand_KW-allianz_MT-p_AZ-334946579704_SL-keinSL_EG-Multiple&ef_id=Cj0KCQiA-oqdBhDfARIsAO0TrGFOXdVxBxDl1GdNzweGsEGxNyDBojrXXa_aita6JwWV_fudgFJOhyAaAhspEALw_wcB:G:s&s_kwcid=AL!8161!3!334946579704!p!!g!!allianz&gclsrc=aw.ds)). Please see the below “Plan Design” section for additional plan details.
+GitLab offers a **Support fund** (*effective 2023-04*, GitLab contributions only) and a **Direct Insurance Pension Plan** (*effective 2023-05*, Team Member contributions with GitLab matching up to 1% via [Allianz](https://www.allianz.de/?gclid=Cj0KCQiA-oqdBhDfARIsAO0TrGFOXdVxBxDl1GdNzweGsEGxNyDBojrXXa_aita6JwWV_fudgFJOhyAaAhspEALw_wcB&AZMEDID=SEM_SE-GG_VT-g_TH-Brand.Gold_KA-perma%7Copen%7CBrandGold_AG-Brand.Gold.Brand_KW-allianz_MT-p_AZ-334946579704_SL-keinSL_EG-Multiple&ef_id=Cj0KCQiA-oqdBhDfARIsAO0TrGFOXdVxBxDl1GdNzweGsEGxNyDBojrXXa_aita6JwWV_fudgFJOhyAaAhspEALw_wcB:G:s&s_kwcid=AL!8161!3!334946579704!p!!g!!allianz&gclsrc=aw.ds)). Please see the below "Plan Design" section for additional plan details.
 
 For an overview of the Pension Plan please see the [GitLab German Pension Plan Deck](https://drive.google.com/file/d/1fdZBxhIxE0UJrrxFrIwuaL8AY5miHVRl/view?usp=sharing).
 
@@ -40,7 +54,7 @@ Team members can also email this form directly to WTW  to obtain further support
 
 - **Please note: you can choose to update your elections or enroll in the Direct Insurance Plan at any time throughout the year.** If a team member notifies Total Rewards before the 5th of the month that they want to join or change their Direct Insurance Plan election - their enrollment/changes will be reflected on the 1st of the current month. If they notify TR after the 5th of the month, enrollment/changes will be reflected the 1st of the following month.
 
-- If there are any questions regarding the Direct Insurance plan or specific inquiries on your enrollment - please reach out our Pension Plan designated expert, meinebAV@wtwco.com, who will be able to further support via email or schedule a call/meeting/consultation, cc’ing total-rewards@gitlab.com
+- If there are any questions regarding the Direct Insurance plan or specific inquiries on your enrollment - please reach out our Pension Plan designated expert, meinebAV@wtwco.com, who will be able to further support via email or schedule a call/meeting/consultation, cc'ing total-rewards@gitlab.com
 - Team members can also email this [form](https://drive.google.com/file/d/1YFWOK4Wsh3g8bU4EMVwYvZyfyHqvES1V/view?usp=sharing) directly to WTW (meinebAV@wtwco.com) to obtain a quote for the salary sacrifice on the direct insurance plan.
 - Team Members should expect a contract (for their reference/records) from Allianz via post mail within 8 weeks of enrollment. If a team member does not receive a contract within the first 2 months of enrollment, please contact meinebAV@wtwco.com.
 
@@ -91,7 +105,7 @@ Contributions will cease the month after the team member goes on leave.  – For
 
 ### Team Member Leaving the Company
 
-When a team member leaves the company, Total-Rewards will notify Allianz of the GitLab alumni’s leave date. The alumni can then expect a letter from Allianz with instructions on how to update the insurer of the pension plan from GitLab to the Team Member. Please contact meinebAV@wtwco.com, if you have any questions or may not have received your letter from Allianz.
+When a team member leaves the company, Total-Rewards will notify Allianz of the GitLab alumni's leave date. The alumni can then expect a letter from Allianz with instructions on how to update the insurer of the pension plan from GitLab to the Team Member. Please contact meinebAV@wtwco.com, if you have any questions or may not have received your letter from Allianz.
 
 ## German Social Security System
 
@@ -109,9 +123,9 @@ In the unfortunate event of an accident, please find the Group Personal Accident
 
 Accidents at work that are fatal or lead to an inability to work for more than 3 days must be reported within three days of the accident to our Berufsgenossenschaft VBG.
 
-1. If you had an accident, please review the criteria [here](https://www.vbg.de/DE/2_Versicherungsschutz_und_Leistungen/2_Was_ist_versichert/1_Arbeits-_und_Wegeunfaelle/arbeits-_und_wegeunfaelle_node.html;jsessionid=1D2B9247A96790725C91E29C620D9109.live4) to clarify if the accident is insured as a work accident
+1. If you had an accident, please review the criteria by reviewing the [Information panel](https://service.vbg.de/unfaelle-und-berufskrankheiten/unfall-anzeigen) to clarify if the accident is insured as a work accident
 1. If it meets the criteria for a work accident, please fill in [this form](https://drive.google.com/file/d/1oIum7DOjuRBdJPGOzv07cIEEdGHVVEcp/view?usp=sharing) and report your accident to the Absence Management Team by emailing the form to leaves@gitlab.com. Fields 2 and 28 will get completed by the Absence Management Team.
-1. The Absence Management Team will [notify the VBG](https://service.vbg.de/arbeits-und-wegeunfall-berufskrankheit/unfallanzeige) about the accident report and inform the specialist for occupational safety.
+1. The Absence Management Team will [notify the VBG](https://service.vbg.de/unfaelle-und-berufskrankheiten/unfall-anzeigen) about the accident report and inform the specialist for occupational safety.
 
 Further things to note:
 The injured team member has the right to a copy of the accident report and can request the final document by emailing leaves@gitlab.com.
@@ -144,9 +158,9 @@ Under the Maternity Protection Act, a breastfeeding woman may request time off d
 
 All team members who are or become parents are entitled to take up to three years of Parental Leave.
 
-Regardless of the length of service, under German law employees may take up to three years of parental leave following the child’s birth, adoption or foster care placement. The entitlement is valid until a child reaches the age of three years. A period of up to 24 months may be taken between the child's third birthday and the completion of his or her eighth year of life. The parental leave can be distributed over three time periods, without approval of the employer. Distribution over further periods is possible only with the employer's consent.
+Regardless of the length of service, under German law employees may take up to three years of parental leave following the child's birth, adoption or foster care placement. The entitlement is valid until a child reaches the age of three years. A period of up to 24 months may be taken between the child's third birthday and the completion of his or her eighth year of life. The parental leave can be distributed over three time periods, without approval of the employer. Distribution over further periods is possible only with the employer's consent.
 
-In case a woman takes parental leave subsequently to the child’s birth, the period of maternity leave is credited for the parental leave. For expecting mothers, they may take the Maternity Protection period followed by Parental Leave. GitLab will provide full Parental Leave pay (provided the team member meets the [eligibility criteria](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)) for up to 16 weeks of the total leave (including the Maternity Protection period). The team member may apply for state benefits for the remainder of their Parental Leave.
+In case a woman takes parental leave subsequently to the child's birth, the period of maternity leave is credited for the parental leave. For expecting mothers, they may take the Maternity Protection period followed by Parental Leave. GitLab will provide full Parental Leave pay (provided the team member meets the [eligibility criteria](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)) for up to 16 weeks of the total leave (including the Maternity Protection period). The team member may apply for state benefits for the remainder of their Parental Leave.
 
 **Maternity Leave Payment**
 
@@ -161,8 +175,8 @@ In case a woman takes parental leave subsequently to the child’s birth, the pe
 **Parental Leave Payment**
 
 - Eligible team members may choose to receive government-funded Parental Leave Pay (Basiselterngeld, ElterngeldPlus or Partnerschaftsbonus). Please note:  Any benefits received will be reduced due to the payments received by GitLab.  If a team member chooses to apply for ElterngeldPlus they should notify leaves@domain, otherwise GitLab will provide 100% of their wages for up to 16 weeks.
-  - Parents are generally entitled to a monthly parental allowance paid by the German state for the maximum of in total 14 months. The allowance is granted for the time between the child’s birth and completion of the 14th month of life.
-  - The total amount of parental allowance months can be split up between the parents or taken by only one parent. The allowance’s amount is 67% of the income from employment before childbirth, but at least EUR 300 and a maximum of EUR 1,800. There is no entitlement to parental allowance in the case of foster children. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
+  - Parents are generally entitled to a monthly parental allowance paid by the German state for the maximum of in total 14 months. The allowance is granted for the time between the child's birth and completion of the 14th month of life.
+  - The total amount of parental allowance months can be split up between the parents or taken by only one parent. The allowance's amount is 67% of the income from employment before childbirth, but at least EUR 300 and a maximum of EUR 1,800. There is no entitlement to parental allowance in the case of foster children. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
 
 **Applying for Parental Leave in Germany**
 
@@ -178,7 +192,7 @@ During Parental leave, employees are statutorily entitled to part-time work (15 
 
 - The employer usually employs more than 15 employees, the employment relationship exists for at least six months,
 - The reduction is not opposed by urgent operational reasons, and
-- The employee has submitted the request in writing (wet signature, see above) seven weeks for the period up to the child’s third birthday and 13 weeks for the period between the child’s third birthday and the completion of his or her eighth year of life before the start of the part-time work.
+- The employee has submitted the request in writing (wet signature, see above) seven weeks for the period up to the child's third birthday and 13 weeks for the period between the child's third birthday and the completion of his or her eighth year of life before the start of the part-time work.
 
 The request must include the start and scope of the reduced working hours.
 
@@ -196,7 +210,7 @@ Team members are entitled to at least 20 vacation days which run concurrently wi
 
 **Family Care Leave and Nursing Leave**
 
-Per the [Family Care Leave Act and the Care Leave Act](https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/f/freistellungen-nach-pflegezg-und-fpfzg.html), in certain cases team members are able to receive partial or full care allowance as a wage replacement benefit. This is granted on request by the long-term care insurance (Pflegeversicherung) of the team member in need of care. Please contact the German citizen hotline for health insurance at (030) 340 60 66-01 or the German Federal Ministry of Health at poststelle (at) bmg.bund.de for more information. Please also review the [Care Guide](https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/5_Publikationen/Pflege/Broschueren/BMG_RG_Pflege_barr.pdf)
+Per the [Family Care Leave Act and the Care Leave Act](https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/leistungen-der-pflegeversicherung/leistungen-im-ueberblick/wie-wird-die-vereinbarkeit-von-pflege-und-beruf-gefoerdert.html), in certain cases team members are able to receive partial or full care allowance as a wage replacement benefit. This is granted on request by the long-term care insurance (Pflegeversicherung) of the team member in need of care. Please contact the German citizen hotline for health insurance at (030) 340 60 66-01 or the German Federal Ministry of Health at poststelle (at) bmg.bund.de for more information. Please also review the [Care Guide](https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/5_Publikationen/Pflege/Broschueren/BMG_RG_Pflege_barr.pdf)
 
 *Eligibility:*
 

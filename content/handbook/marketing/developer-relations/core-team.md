@@ -26,7 +26,7 @@ Anyone can open an issue in the [Core Team issue tracker](https://gitlab.com/git
 
 ## Offboarding and stepping down gracefully
 
-If you are no longer able to or interested in serving in the Core Team, you should make an announcement on the `#core` Slack channel. When you step down, you will become a [Core Team Alumni](https://about.gitlab.com/community/core-team/alumni/). Once a Core Team member steps down, GitLab team member(s) will start the off-boarding activities to:
+If you are no longer able to or interested in serving in the Core Team, you should make an announcement on the `#core` Slack channel. When you step down, you will become a [Core Team Alumni](https://about.gitlab.com/community/core-team/). Once a Core Team member steps down, GitLab team member(s) will start the off-boarding activities to:
 
 1. Move the individual from the `team.yml` file to the `alumni.yml` file.
 2. Create an issue in [team-member-epics/employment](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues) using the [`offboarding` template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding_core_team_member.md) and fill out the "Core Team Members" section to remove the individual from GitLab Slack, [the Core Team Group](https://gitlab.com/groups/gitlab-org/gitlab-core-team/community-members/-/group_members), gitlab-org etc.
@@ -101,11 +101,13 @@ details summary * {
 - g_engineering_productivity
 - g_observability
 - g_pipeline-security
+- g_product-planning
 - g_project-management
 - g_runner
 - gck
 - gdk
-- gitpod-gdk
+- gdk-gitpod
+- gdk-workspaces
 - golang
 - is-this-known
 - jetbrains-ide

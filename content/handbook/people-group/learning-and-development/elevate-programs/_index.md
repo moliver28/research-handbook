@@ -1,5 +1,4 @@
 ---
-
 title: Elevate Programs
 aliases:
 - /handbook/people-group/learning-and-development/elevate

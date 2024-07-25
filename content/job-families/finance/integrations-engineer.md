@@ -11,8 +11,8 @@ The Integrations Engineering job family is responsible for ownership and deliver
 
 ## Requirements
 
-- Write well structured, quality code that’s easily maintainable by others.
-- Write code that interacts with various HTTP-based API’s, primarily REST-based.
+- Write well structured, quality code that's easily maintainable by others.
+- Write code that interacts with various HTTP-based API's, primarily REST-based.
 - Understand basics of SQL and relational databases.
 - Proactive doer and communicator.
 - SaaS and B2B experience preferred
@@ -30,14 +30,14 @@ Associate Integration Engineer is a [grade 5](/handbook/total-rewards/compensati
 
 - Design, develop, and maintain integration flows using an array of different platforms, APIs, databases, protocols and data formats.
 - Collaborate and review code with other engineers in architecture & integration engineering to ensure each integration maintains a consistent level of technical standards as set by the team.
-- Work directly with Business Systems Analysts Or PM’s to ensure that the data and the business processes that intersect in the Enterprise Applications ecosystem are as efficient and high fidelity as possible.
+- Work directly with Business Systems Analysts Or PM's to ensure that the data and the business processes that intersect in the Enterprise Applications ecosystem are as efficient and high fidelity as possible.
 
 ### Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 0-2 years application integration experience.
-- Write well structured, quality code that’s easily maintainable by others.
-- Write code that interacts with various HTTP-based API’s, primarily REST-based.
+- Write well structured, quality code that's easily maintainable by others.
+- Write code that interacts with various HTTP-based API's, primarily REST-based.
 - Understand basics of SQL and relational databases.
 - Proactive doer and communicator.
 - SaaS and B2B experience preferred.
@@ -63,7 +63,7 @@ Extends the Associate Integration Engineer responsibilities:
 ### Requirements
 
 - Ability to use GitLab.
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience..
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience..
 - 2+ years of application integration experience.
 - Hands-on experience working with iPaaS tools like Workato, Mulesoft, Boomi, Tray.io etc.
 - Hands-on Integration experience across enterprise systems: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
@@ -91,7 +91,7 @@ Extends the Integration Engineer responsibilities:
 
 ### Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 5+ years of application integration experience.
 - Hands-on experience working with iPaaS tools like Workato, Mulesoft, Boomi, Tray.io etc.
 - Hands-on Integration experience across enterprise systems: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
@@ -214,7 +214,7 @@ Manager, Robotics Process Automation is a [grade 8](/handbook/total-rewards/comp
 
 ### Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 5+ years of Ui Path experience and Strong proficiency in Ui Path Studio, Robots, Orchestrator, Automation Hub and other UI Path products
 - In-depth knowledge of RPA concepts, best practices, design patterns, frameworks & error management
 - Hands-on experience in designing and deploying RPA Solutions with Ui Path.

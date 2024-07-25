@@ -1,10 +1,8 @@
 ---
-
 title: RFI/RFP Process
 description: >-
   Solution Architect Assisted RFI/RFP Process
 ---
-
 
 ## RFI/RFP Process
 
@@ -27,7 +25,7 @@ But more importantly, be sure that there is a product fit. If what is asked for 
 
 Generally, RFx's have a fixed timeline and require input from different functions within GitLab e.g. Solution Architects, Professional Services, Legal, etc.. The DRI (Direct Responsible Individual) is the Strategic Account Executive (SAE) for the Account. A GitLab issue assists in the coordination, task assignment and tracking of the progress. The best place to create the issue is in the Account project, if one exists, or in a central project where such activities are created and tracked. Occasionally, they can be created in an arbitrary personal project space and shared with other team members if no other suitable place can be found. Build an outline in the issue. The outline should include the following things:
 
-1. Any customer’s instructions regarding organization
+1. Any customer's instructions regarding organization
 1. A rational organization of information that will answer all of the questions and requirements
 1. Easy to follow structure for the proposal document
 1. Compliance with all requirements

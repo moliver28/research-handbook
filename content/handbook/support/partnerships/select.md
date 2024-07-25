@@ -1,5 +1,4 @@
 ---
-
 title: Select Partners
 description: "Support specific information for select partners"
 ---

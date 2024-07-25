@@ -1,5 +1,4 @@
 ---
-
 title: Nominator bot
 description: Information on Slack Nominator bot created by the People Engineering team.
 ---

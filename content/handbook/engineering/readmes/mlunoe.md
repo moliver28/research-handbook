@@ -1,14 +1,13 @@
 ---
-
 title: "Michael Lunøe's README"
 job: "Staff Frontend Engineer, Fulfillment:Billing and Subscription Management"
 ---
 
 ## Michael Lunøe README
 
-**Michael Lunøe, Staff Frontend Engineer** This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+**Michael Lunøe, Staff Frontend Engineer** This page is intended to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
-It’s also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
+It's also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
 
 Please feel free to contribute to this page by opening a merge request.
 
@@ -32,7 +31,7 @@ Hi! My name is Michael and I am from Copenhagen, Denmark, where I currently resi
   <figcaption>This photo of me is from a Swedish midsummer folk music celebration, combining multiple things I love; spending time with people, camping, music, dancing, Sweden in the summertime, and getting in touch with nature 🌿</figcaption>
 </figure>
 
-The [iteration](/handbook/values/#iteration) value really resonates with me. I've found the value in chopping tasks up into smaller bite-size and accomplishable pieces, which helps gain the overview of what needs to get done, how far one is from reaching the goal, but also helps re-define the goal as one learns more about the task. Finally, it is the implementation of ”appreciating the journey”, and not only be concerned with the end goal 😊
+The [iteration](/handbook/values/#iteration) value really resonates with me. I've found the value in chopping tasks up into smaller bite-size and accomplishable pieces, which helps gain the overview of what needs to get done, how far one is from reaching the goal, but also helps re-define the goal as one learns more about the task. Finally, it is the implementation of "appreciating the journey", and not only be concerned with the end goal 😊
 
 ## How you can help me + my working style
 

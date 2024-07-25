@@ -1,14 +1,7 @@
 ---
-
 title: "Field Operations Release Schedule"
 description: "Field Operations works to deliver Field Ops changes related to Sales Ops, CS Ops, Channel Ops & Deal Desk (QTC) in a batched, bi-weekly release cadence."
 ---
-
-
-
-
-
-
 
 ## Goals of the Field Ops Release Schedule
 

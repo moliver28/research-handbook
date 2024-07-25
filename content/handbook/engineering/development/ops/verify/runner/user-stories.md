@@ -1,5 +1,4 @@
 ---
-
 title: "Runner Group - User Stories"
 description: "The GitLab Runner Group's user stories."
 ---

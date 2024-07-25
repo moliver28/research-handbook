@@ -4,12 +4,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution
 title: "Distribution Team Demo"
 ---
 
-
-
-
-
-
-
 ## Weekly Demo ##
 
 Distribution team members present demos related to work they've accomplished (or are developing) and share context. Special guests from outside the team also occasionally present to raise awareness and answer questions on specific subjects.

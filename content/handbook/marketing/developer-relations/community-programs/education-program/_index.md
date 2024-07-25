@@ -1,5 +1,4 @@
 ---
-
 title: "Education Program"
 description: "Learn about the GitLab for Education Program and other education-related programs from GitLab's Developer Relations team"
 ---

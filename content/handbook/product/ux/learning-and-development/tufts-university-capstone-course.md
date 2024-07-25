@@ -43,7 +43,7 @@ Do you have a project that has been in the backlog for a while now? It could be 
 - A loosely defined scope so that the students can bring their creativity. The instructor may suggest the students scope it down so they can complete it in the 4 month semester. For example, improving the GitLab CI/CD onboarding flow. This topic provides enough flexibility to go through the entire design process but also allows the students to scope it down to evaluate specific areas of the onboarding flow and target certain users.
 - An opportunity to perform discovery research, design (prototype), and solution validation.
 - Async-first approach.
-  
+
 Each project proposal should include a summary with:
 
 - **A title:** A concise and catchy name for the project. This is one of the first things the students will see when choosing their project for the semester.
@@ -54,7 +54,7 @@ Each project proposal should include a summary with:
 You can use this list of previous projects considered for the Tufts University capstone project to help you get started selecting a project or to help brainstorm ideas.
 
 {{% details summary="Help GitLab increase their community contributions from developers and designers" %}}
-[Open-source](https://www.redhat.com/en/topics/open-source/what-is-open-source) principles are at GitLab’s heart and are one of the reasons why GitLab users love the product. We depend on the [community to contribute](https://about.gitlab.com/community/contribute/) to our product. Yes, that’s right! A developer, or even a designer, could contribute their own code or feature design, and it can end up being added to our product. We want as many community contributions as possible. This project is actually based on [an issue](https://gitlab.com/gitlab-org/gitlab/-/issues/22578) that was brought up by a community contributor. You will focus on understanding how we can improve GitLab to motivate the community to make contributions. You’ll be running research with real users to understand developers’ and designers’ motivations to contribute code or designs. You’ll also create mockups (you can use our [Pajamas UI kit in Figma](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit)) based on what you learn and then validate them with real users.
+[Open-source](https://www.redhat.com/en/topics/open-source/what-is-open-source) principles are at GitLab's heart and are one of the reasons why GitLab users love the product. We depend on the [community to contribute](https://about.gitlab.com/community/contribute/) to our product. Yes, that's right! A developer, or even a designer, could contribute their own code or feature design, and it can end up being added to our product. We want as many community contributions as possible. This project is actually based on [an issue](https://gitlab.com/gitlab-org/gitlab/-/issues/22578) that was brought up by a community contributor. You will focus on understanding how we can improve GitLab to motivate the community to make contributions. You'll be running research with real users to understand developers' and designers' motivations to contribute code or designs. You'll also create mockups (you can use our [Pajamas UI kit in Figma](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit)) based on what you learn and then validate them with real users.
 {{% /details %}}
 
 {{% details summary="How are developers using runners and why are they important to them?" %}}

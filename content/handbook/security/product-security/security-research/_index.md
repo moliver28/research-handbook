@@ -170,7 +170,7 @@ Exit criteria:
 
 - Project plan completed
 
-Once an idea has been validated, the research project can be extended to achieve GitLab-internal adoption and/or integration into GitLab’s products. If the project is extended, a new research proposal should be created and buy-in from stakeholders should be obtained. The expected deliverables should be documented. For example, internal adoption can be achieved by documenting research insights in the handbook or by implementing a software service.
+Once an idea has been validated, the research project can be extended to achieve GitLab-internal adoption and/or integration into GitLab's products. If the project is extended, a new research proposal should be created and buy-in from stakeholders should be obtained. The expected deliverables should be documented. For example, internal adoption can be achieved by documenting research insights in the handbook or by implementing a software service.
 
 Factors to consider when scoping a project for internal adoption or product integration are:
 

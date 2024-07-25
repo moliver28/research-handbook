@@ -1,14 +1,6 @@
 ---
-
 title: "Infrastructure Platforms Tools Index"
 ---
-
-
-
-
-
-
-
 
 ## Tools
 

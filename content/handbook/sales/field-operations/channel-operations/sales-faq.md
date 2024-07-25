@@ -1,12 +1,6 @@
 ---
-
 title: "GitLab Sales FAQ - Selling with Partners"
 ---
-
-
-
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
@@ -19,7 +13,7 @@ This page documents frequently asked questions from our GitLab Sellers on how to
 When should my partner submit a Deal Registration? What opportunities are they able to register?
 </summary>
 
-GitLab has a [Partner Sourced Deal Registration](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration) (DR) program for Resale, MSP, and Referral opportunities. The partner should submit a Partner Sourced DR for an opportunity where they are **bringing net-new business to GitLab**, which can apply to opportunities for new logo, co-term add-on/upsell, or add-on/upsell as part of a renewal. Note, we can only approve one Partner Sourced DR for an opportunity, as only one partner can source a deal. Partners should not submit a Partner Sourced DR if they did not source the opportunity, and will generally receive Co-Sell discounts for these deals. Please refer to GitLab’s [Internal Incentive Guide](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit#heading=h.9e3o7yaxw8mu) for more information on partner program discounts.
+GitLab has a [Partner Sourced Deal Registration](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration) (DR) program for Resale, MSP, and Referral opportunities. The partner should submit a Partner Sourced DR for an opportunity where they are **bringing net-new business to GitLab**, which can apply to opportunities for new logo, co-term add-on/upsell, or add-on/upsell as part of a renewal. Note, we can only approve one Partner Sourced DR for an opportunity, as only one partner can source a deal. Partners should not submit a Partner Sourced DR if they did not source the opportunity, and will generally receive Co-Sell discounts for these deals. Please refer to GitLab's [Internal Incentive Guide](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit#heading=h.9e3o7yaxw8mu) for more information on partner program discounts.
 
 GitLab also has a [Service Attach DR](/handbook/sales/field-operations/channel-operations/#service-attach-opportunities) program which applies to opportunities where partners are selling their own professional services into a customer environment at the time of a GitLab product sale.
 
@@ -30,7 +24,7 @@ GitLab also has a [Service Attach DR](/handbook/sales/field-operations/channel-o
 My partner is unable to log into the Partner Portal to submit a Deal Registration (DR). How can they get access to submit a DR?
 </summary>
 
-If the partner contact has a Partner Portal account but is unable to login, they can [select “Forgot Password”](https://partners.gitlab.com/English/) to reset their password. If they do not have a Partner Portal account, they can [select “Request Portal Access”](https://partners.gitlab.com/English/) to set up an account. Please have the partner contact `partnersupport@gitlab.com` for assistance ​​if they have followed the directions but are still having issues.
+If the partner contact has a Partner Portal account but is unable to login, they can [select "Forgot Password"](https://partners.gitlab.com/English/) to reset their password. If they do not have a Partner Portal account, they can [select "Request Portal Access"](https://partners.gitlab.com/English/) to set up an account. Please have the partner contact `partnersupport@gitlab.com` for assistance ​​if they have followed the directions but are still having issues.
 
 Note, to submit a Deal Registration, the partner must first be an authorized GitLab partner as well as have completed the [required training](/handbook/resellers/channel-working-with-GitLab/#training--certification-requirements-for-transactions-deal-registrations-nfrs-and-letters-of-authorization-loas) in order to be granted access to submit a DR.
 
@@ -47,7 +41,7 @@ Yes, the expired DR can be [extended](/handbook/sales/field-operations/channel-o
 
 <details>
 <summary markdown="span">
-What does it mean when the status of a Deal Registration (DR) is "Returned”?
+What does it mean when the status of a Deal Registration (DR) is "Returned"?
 </summary>
 
 The Channel Account Manager (CAM) assigned to the DR has reviewed and sent it back to the resale partner for additional information/context. Once the resale partner reviews and responds to the CAM's feedback, the CAM will be notified to review and action the updated DR.
@@ -63,11 +57,11 @@ Where can I find Deal Registration (DR) information on an opportunity?
 
 DR information can be found in two areas on the opportunity:
 
-- “Registrations” section in the related list quick links section at the top of the opportunity. This section contains all DRs attached to an opportunity, including approved, expired, rejected, and pending Partner Sourced DRs as well as Service Attach DRs.
+- "Registrations" section in the related list quick links section at the top of the opportunity. This section contains all DRs attached to an opportunity, including approved, expired, rejected, and pending Partner Sourced DRs as well as Service Attach DRs.
 
 ![Opp DR Top Section](/handbook/sales/field-operations/channel-operations/images/opp_top_section.png "Deal Registration Opp")
 
-- “Partner Sourced Deal Registration” section in the body of the opportunity which contains the approved Partner Sourced DR.
+- "Partner Sourced Deal Registration" section in the body of the opportunity which contains the approved Partner Sourced DR.
 
 ![DR Section](/handbook/sales/field-operations/channel-operations/images/dr_section.png "Deal Registration Section in Opp")
 
@@ -78,7 +72,7 @@ DR information can be found in two areas on the opportunity:
 Where can I find information on the partner we quoted on an opportunity?
 </summary>
 
-Please refer to the “Primary Quote Partner Details” section of the opportunity which displays the partner information from the Primary Quote.
+Please refer to the "Primary Quote Partner Details" section of the opportunity which displays the partner information from the Primary Quote.
 
 ![Primary Quote Section](/handbook/sales/field-operations/channel-operations/images/quote_section.png "Primary Quote Section")
 
@@ -99,7 +93,7 @@ SQS on the opportunity will be "Partner Generated" if (i) there is an approved P
 
 <details>
 <summary markdown="span">
-Where can I find information on GitLab’s partner discounts, incentives, and rebate programs?
+Where can I find information on GitLab's partner discounts, incentives, and rebate programs?
 </summary>
 
 Please refer to the [Internal Incentive Guide](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit#heading=h.9e3o7yaxw8mu) which contains information on our partner discounts, incentives, rebate programs and more.
@@ -206,7 +200,7 @@ Please refer to the [Partner Operations handbook](/handbook/sales/field-operatio
 How do I find the `Invoice Owner` and `Invoice Owner Contact` for my partner quote?
 </summary>
 
-The `Invoice Owner` and `Invoice Owner Contact` on a partner quote represent the partner’s Billing Account and billing account Contact records, respectively. Please refer to the [Partner Operations handbook](/handbook/sales/field-operations/channel-operations/#how-to-find-partner-billing-records-in-sfdc-and-use-for-quoting) for details on how to find these records in SFDC and use them for quoting.
+The `Invoice Owner` and `Invoice Owner Contact` on a partner quote represent the partner's Billing Account and billing account Contact records, respectively. Please refer to the [Partner Operations handbook](/handbook/sales/field-operations/channel-operations/#how-to-find-partner-billing-records-in-sfdc-and-use-for-quoting) for details on how to find these records in SFDC and use them for quoting.
 
 </details>
 
@@ -221,10 +215,10 @@ We are not able to quote an unauthorized reseller. Please encourage the reseller
 
 <details>
 <summary markdown="span">
-I am unable to quote a partner as their `Partner Status` is “Prospect”? Why does this partner account have “Prospect” status and how do we update them to Authorized/Active?
+I am unable to quote a partner as their `Partner Status` is "Prospect"? Why does this partner account have "Prospect" status and how do we update them to Authorized/Active?
 </summary>
 
-The partner account is in [“Prospect” status](/handbook/sales/field-operations/channel-operations/#standard-channel-practices) because they have not yet signed our partner agreement and/or completed their required sales training. Please contact the Channel Account Manager that owns the partner account in SFDC to request that they work with the partner to get them authorized.
+The partner account is in ["Prospect" status](/handbook/sales/field-operations/channel-operations/#standard-channel-practices) because they have not yet signed our partner agreement and/or completed their required sales training. Please contact the Channel Account Manager that owns the partner account in SFDC to request that they work with the partner to get them authorized.
 
 </details>
 
@@ -284,10 +278,10 @@ Yes, if the customer provides formal communication through email to confirm they
 
 <details>
 <summary markdown="span">
-The partner requested to add seats to their customer’s instance before the renewal. Does the add-on need to be processed before we can create a renewal quote for the entire subscription?
+The partner requested to add seats to their customer's instance before the renewal. Does the add-on need to be processed before we can create a renewal quote for the entire subscription?
 </summary>
 
-Yes, for the customer’s overall license count to be accurate during the renewal, add-on licenses need to be fully processed before GitLab can generate a renewal quote. Please refer to the [Deal Desk handbook](/handbook/sales/field-operations/sales-operations/deal-desk/#transacting-a-separate-add-on-opportunity-prior-to-renewal) for further guidance.
+Yes, for the customer's overall license count to be accurate during the renewal, add-on licenses need to be fully processed before GitLab can generate a renewal quote. Please refer to the [Deal Desk handbook](/handbook/sales/field-operations/sales-operations/deal-desk/#transacting-a-separate-add-on-opportunity-prior-to-renewal) for further guidance.
 
 </details>
 
@@ -322,7 +316,7 @@ Please refer to the [Deal Desk handbook](/handbook/sales/field-operations/sales-
 
 <details>
 <summary markdown="span">
-I am expecting a PO from the partner on the last day of the quarter. How do I ensure my PO/opportunity submission will count toward GitLab’s current fiscal quarter?
+I am expecting a PO from the partner on the last day of the quarter. How do I ensure my PO/opportunity submission will count toward GitLab's current fiscal quarter?
 </summary>
 
 Please refer to the guidelines listed in the [Sales Order Processing handbook](/handbook/sales/field-operations/order-processing/#end-of-quarter-bookings) regarding end-of-quarter bookings.
@@ -368,7 +362,7 @@ The partner requested that the purchase confirmation email with license/activati
 This can be actioned by either the GitLab Sales Rep or the partner:
 
 - The GitLab Sales Rep can [submit an internal support ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to request that the support team send the purchase confirmation email to the same end user contact.
-- The partner that received the Gitlab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) can [submit a support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be resent to the same end user contact.
+- The partner that received the GitLab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) can [submit a support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be resent to the same end user contact.
 
 </details>
 

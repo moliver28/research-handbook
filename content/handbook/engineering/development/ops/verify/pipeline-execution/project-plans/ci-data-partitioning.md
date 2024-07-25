@@ -1,9 +1,7 @@
 ---
-
 title: "CI Data Partitioning - Weekly Project Plan"
 description: "The CI Data Partitioning Weekly Project Plan - Pipeline Execution Group."
 ---
-
 
 ## CI Data Partitioning - Weekly Project Plan
 

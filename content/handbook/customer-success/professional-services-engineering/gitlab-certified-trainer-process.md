@@ -50,6 +50,6 @@ If you are interested in becoming a Certified Trainer, please reach out to your 
 
 \+ GitLab will rely on the customer satisfaction scores to verify that certified trainer applicants who deliver courses in non-English languages are performing to expectations.
 
-\* Surveys from students employed by the trainer’s organization will not be included in the calculation of this rating.
+\* Surveys from students employed by the trainer's organization will not be included in the calculation of this rating.
 
 ++ Proof of professional trainer credentials can be one of the following: a resume with at least 1 year of professional training experience, certification/diploma from an external professional educator organization, and/or certified trainer certification from another IT vendor education services organization.

@@ -5,12 +5,6 @@ title: "Geo on staging.gitlab.com"
 description: "Document Geo installation on staging.gitlab.com"
 ---
 
-
-
-
-
-
-
 #### Summary
 
 Geo is fully operational on the staging environment of GitLab.com. This is a major dogfooding effort that allows the team to test and validate new features at scale, catch bugs, and identify performance issues. This is important for our customers because it increases our confidence in any Geo improvements we make.

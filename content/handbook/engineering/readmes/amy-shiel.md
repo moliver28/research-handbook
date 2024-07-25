@@ -1,5 +1,4 @@
 ---
-
 title: "Amy Shiel README"
 description: "Personal readme page for Amy Shiel, Engineering Manager, GitLab"
 job: "Engineering Manager"
@@ -7,9 +6,9 @@ job: "Engineering Manager"
 
 ## Why create a README?
 
-This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+This page is intended to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
-It’s also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
+It's also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
 
 Please feel free to contribute to this page by opening a merge request.
 

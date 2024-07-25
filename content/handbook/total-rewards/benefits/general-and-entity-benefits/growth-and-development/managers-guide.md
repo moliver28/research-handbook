@@ -5,7 +5,7 @@ description: A guide for Managers on the Growth and Development Fund
 
 ## Introduction
 
-GitLab’s Growth & Development (G&D) Fund is an investment into continuously expanding skills and capabilities of GitLab team members. As a people leader at GitLab, encouraging use of the Growth and Development Fund is a fantastic way to help develop your team members so that they can achieve their career goals at GitLab. This guide provides information on how and why managers should encourage the use of this opportunity, guidance on appropriate usage, and some tips on utilization.
+GitLab's Growth & Development (G&D) Fund is an investment into continuously expanding skills and capabilities of GitLab team members. As a people leader at GitLab, encouraging use of the Growth and Development Fund is a fantastic way to help develop your team members so that they can achieve their career goals at GitLab. This guide provides information on how and why managers should encourage the use of this opportunity, guidance on appropriate usage, and some tips on utilization.
 
 ### "Fund" vs "Benefit"
 
@@ -46,7 +46,7 @@ When a manager approves a G&D request, they are communicating that the growth ex
 
 1. Manager Approval: $0-$1000
 1. Manager AND VP Approval: $1000.01 - $5000
-1. Manager AND eGroup Approval for any spend beyond $5000
+1. Manager AND e-group Approval for any spend beyond $5000
     1. Sales: $5000+ approval by VP
 
 ### Managers should know what they are approving
@@ -80,7 +80,7 @@ Growth & Development requests are a reimbursed expense and follow a reimbursemen
 
 As an option, requests over $1000 USD can take advantage of the split disbursement option designed to help team members carry the financial lift of costly experiences. The split disbursement option allows for 50% of the costs to be reimbursed immediately after payment and the remaining 50% is reimbursed upon completion.
 
-*Here’s how this workflow works*: 1). After all necessary approvals, the requesting team member pays for approved G&D experience. 2). If costs for this G&D experience exceed $1000USD, the team member can submit the proof of payment (via Navan), and the approved GitLab issue to receive a reimbursement of 50% of the total costs. 3). Upon completion, the team member will submit the proof of completion (certificate, completion email, etc.) along with that same approved issue to receive the remaining 50% of total costs.
+*Here's how this workflow works*: 1). After all necessary approvals, the requesting team member pays for approved G&D experience. 2). If costs for this G&D experience exceed $1000USD, the team member can submit the proof of payment (via Navan), and the approved GitLab issue to receive a reimbursement of 50% of the total costs. 3). Upon completion, the team member will submit the proof of completion (certificate, completion email, etc.) along with that same approved issue to receive the remaining 50% of total costs.
 
 ## Types of opportunities
 
@@ -98,7 +98,7 @@ The G&D Fund is primarily intended for individual use for career growth. It is n
 
 You can still recommend team members utilize the Growth and Development Fund for specific learning opportunities that would improve their performance and further their careers in line with your individual development conversations with team members. E.g. A manager completed a certification that helped them move up in their career, and recommends it to one of their team members with similar career aspirations.
 
-If the department budget isn’t available to put team members through an already identified paid learning opportunity, we recommend engaging the Learning and Development Team using our [Engagement Concierge](/handbook/people-group/engagement-concierge/) program.
+If the department budget isn't available to put team members through an already identified paid learning opportunity, we recommend engaging the Learning and Development Team using our [Engagement Concierge](/handbook/people-group/engagement-concierge/) program.
 
 ### Can I utilize the Growth and Development Fund to help manage underperformance?
 

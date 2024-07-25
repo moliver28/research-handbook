@@ -7,12 +7,12 @@ description: "The GitLab Verify:Pipeline Security Group Handbook page"
 
 We provide security in the software supply chain process, ensuring the right level of visibility to pipelines and jobs. This enables organizations to operate their CI pipelines securely.
 
-Our team is responsible for devliering on the following categories:
+Our team is responsible for delivering on the following categories:
 
 - [Build Artifacts](https://about.gitlab.com/direction/verify/build_artifacts/)
-- [Secrets Management](https://about.gitlab.com/direction/verify/secrets_management/)
+- [Secrets Management](https://about.gitlab.com/direction/govern/secrets_management/)
 
-The current and planned category maturity can be found on the [Maturity page](https://about.gitlab.com/direction/maturity/#verify).
+The current and planned category maturity can be found on the [Maturity page](https://about.gitlab.com/direction/#maturity).
 
 ## Mission
 
@@ -25,7 +25,7 @@ We measure the value we contribute by using a [Product Performance Indicator](/h
 
 ### Error Budgets
 
-As part of the [FY22 SaaS First](https://about.gitlab.com/direction/#saas-first) investment theme and our committment to building a reliable service we use error budgets to track availability and help guide how much investment we make milestone to milestone in reliability. More information is shared on the [Ops Section Performance Indicators (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verify-verifytesting---error-budget-for-gitlabcom).
+As part of the [FY22 SaaS First](https://about.gitlab.com/direction/#saas-first) investment theme and our commitment to building a reliable service we use error budgets to track availability and help guide how much investment we make milestone to milestone in reliability. More information is shared on the [Ops Section Performance Indicators (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verify-verifytesting---error-budget-for-gitlabcom).
 
 ## Team Members
 
@@ -85,7 +85,7 @@ Our active feature flags can be found on the [feature flag dashboard](https://10
 
 #### General planning
 
-Our team does not use [Quad-Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) because we do not have an assigned Software Engineer in Test. Intead we deploy a "tripod" approach where PM, EM, and UX work together to plan at least three milestones worth of work at a high level. During planning, the PM sets the general direction for the team and works with the EM to ensure the team's plans are ambitious, yet achievable based on the team's capacity. This ensures checks and balances during the planning discussions to minimize carryover and ensure engineering priorities are addressed along with feature priories in the roadmap. UX will work with PM to ensure research and design issue are ready in time for implementation. Planning is mostly asynchoronous via the release planning issue (see below), with additional discussion during weekly 1:1 sessions and team meetings as needed. This tripod approach allows us to address dependencies early on and ensure Design and Engineering are aligned on our product roadmap.
+Our team does not use [Quad-Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) because we do not have an assigned Software Engineer in Test. Instead we deploy a "tripod" approach where PM, EM, and UX work together to plan at least three milestones worth of work at a high level. During planning, the PM sets the general direction for the team and works with the EM to ensure the team's plans are ambitious, yet achievable based on the team's capacity. This ensures checks and balances during the planning discussions to minimize carryover and ensure engineering priorities are addressed along with feature priories in the roadmap. UX will work with PM to ensure research and design issue are ready in time for implementation. Planning is mostly asynchronous via the release planning issue (see below), with additional discussion during weekly 1:1 sessions and team meetings as needed. This tripod approach allows us to address dependencies early on and ensure Design and Engineering are aligned on our product roadmap.
 
 #### Release planning issue
 
@@ -324,7 +324,7 @@ The Pipeline Security group supports the product marketing categories described 
 
 | Label                 | |  | | |
 | ----------------------| -------| ----|------------| ---|
-| `Category:Secrets Management` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secrets+Management) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecrets%20Management) | [Direction](https://about.gitlab.com/direction/verify/secrets_management/) | [Documentation](https://docs.gitlab.com/ee/ci/secrets/index.html) |
+| `Category:Secrets Management` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secrets+Management) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecrets%20Management) | [Direction](https://about.gitlab.com/direction/govern/secrets_management/) | [Documentation](https://docs.gitlab.com/ee/ci/secrets/index.html) |
 | `Category:Build Artifacts` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Build+Artifacts) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ABuild%20Artifacts) | [Direction](https://about.gitlab.com/direction/verify/build_artifacts/) | [Documentation](https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html) |
 
 #### Feature Labels

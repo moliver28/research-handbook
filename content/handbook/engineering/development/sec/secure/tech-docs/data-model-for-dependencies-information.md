@@ -1,15 +1,8 @@
 ---
-
 title: "Data model for Dependencies Information"
 description: "This document explores additions to the Security reports and to the database schemas
 that would enable new features for Dependency Scanning and License Scanning."
 ---
-
-
-
-
-
-
 
 ## Overview
 

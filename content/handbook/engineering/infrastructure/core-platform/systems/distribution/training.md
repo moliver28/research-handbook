@@ -5,12 +5,6 @@ title: "Distribution Team Training"
 description: "Distribution Team training overview and videos"
 ---
 
-
-
-
-
-
-
 ## Common links
 
 * [Distribution Team Handbook](/handbook/engineering/infrastructure/core-platform/systems/distribution/)

@@ -1,13 +1,6 @@
 ---
-
 title: Low-Code / No-Code Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## Low-Code / No-Code Single-Engineer Group
 

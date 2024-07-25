@@ -154,7 +154,7 @@ For all details regarding swag, [please see here](/handbook/marketing/channel-ma
 * [ ] [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=mdf-list-upload) - Partner Team creates, assigns to MOps
 * [ ] [Create Proof of Performance Issue](https://gitlab.com/gitlab-com/marketing/partner-marketing//-/issues/new?issuable_template=channel_mdf_pop) - Partner Team creates
 
-/label ~"mktg-status::wip"  ~“Channel Marketing” ~"Channel" ~"MDF"
+/label ~"mktg-status::wip"  ~"Channel Marketing" ~"Channel" ~"MDF"
 /confidential
 ```
 

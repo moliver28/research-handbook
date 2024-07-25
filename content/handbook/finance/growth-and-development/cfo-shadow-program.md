@@ -6,7 +6,7 @@ title: CFO Shadow Program
 
 The CFO Shadow Program is an immersive 1 or 2 week assignment where team members can apply to shadow the CFO. The [70:20:10 model for learning](/handbook/people-group/learning-and-development#70-20-10-model-for-learning-and-development) shows us that most adults gain ~90% of their knowledge through experiential learning. While formal "classroom" style training plays an important role in teaching new concepts, real life experiences are critical to helping adults develop and retain new skills. The CFO Shadow program is a unique growth opportunity for team members who are looking to experience a "day in the life" of a CFO of a publicly traded company, gain greater cross-functional insight, and develop their general business and Finance acumen.
 
-In the spirit of [boring solutions]({{< ref "values#boring-solutions" >}}), the CFO Shadow program mirrors the original [CEO Shadow program](/handbook/ceo/shadow#overview) in many ways, with some customizations.
+In the spirit of [boring solutions](/handbook/values/#boring-solutions), the CFO Shadow program mirrors the original [CEO Shadow program](/handbook/ceo/shadow#overview) in many ways, with some customizations.
 
 ## What to Expect
 
@@ -22,7 +22,7 @@ To benefit the most from the types of meetings that the CFO attends, it's recomm
 
 1. Create a merge request to add yourself to the [rotation schedule](#rotation-schedule)
 1. Assign your manager and ask them to approve (**but not to merge**) the merge request
-1. Once your manager approves the merge request, assign the merge request to the [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}})
+1. Once your manager approves the merge request, assign the merge request to the [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas)
 
 ## Additional Preparation
 
@@ -32,7 +32,7 @@ Participating in the shadow program is a privilege where you will be exposed to 
 
 ### Create an onboarding and offboarding issue
 
- We currently track onboarding and offboarding in the [cfo-shadow](https://gitlab.com/gitlab-com/Finance-Division/cfo-shadow) project.  For questions, reach out to the [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}}) in the `#cfo-shadow` channel
+ We currently track onboarding and offboarding in the [cfo-shadow](https://gitlab.com/gitlab-com/Finance-Division/cfo-shadow) project.  For questions, reach out to the [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas) in the `#cfo-shadow` channel
 
  At this time, we do not have a "See One, Teach One" [rotational rhythm](/handbook/ceo/shadow#rotation-rhythm) in place, but as a CFO shadow you should be prepared to be a buddy to the following quarter's shadow as described in the onboarding issue.
 
@@ -48,7 +48,7 @@ It will be helpful to read more about introductions related to the [CEO Shadow P
 
 ### Review the CFO's calendar
 
-Schedule a call with the CFO's [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}}) to review the CFO's calendar to get an idea of what your upcoming days will be like.
+Schedule a call with the CFO's [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas) to review the CFO's calendar to get an idea of what your upcoming days will be like.
 
 ## During the Program
 
@@ -96,7 +96,7 @@ Shadows are responsible for being aware of the current time and verbally providi
 **Tips for time-keeping:**
 
 - Decide who. Past shadows have found it helpful for the individual in the second week of the program to commit to keeping time when applicable.
-- Understand meeting length. Use the calendar invite as an indication of how long the meeting should last. Remember, we do [speedy meetings]({{< ref "communication#scheduling-meetings" >}}).
+- Understand meeting length. Use the calendar invite as an indication of how long the meeting should last. Remember, we do [speedy meetings](/handbook/communication/#scheduling-meetings).
 - Shadows should provide a 5-minute and a 1-minute notification. You can write "Time check, 5 minutes" on Zoom chat.
 - **If a meeting is running over the allocated time, unmute and verbally say "we're in overtime".** Don't wait for a break in the conversation.
 

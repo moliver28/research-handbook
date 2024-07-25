@@ -112,13 +112,6 @@ deleted. You might need to edit it first to remove rules and persons first.
   - Escalates after 5 min
 - If no one acknowledges, repeat this policy `5` times
 
-### Customer Support SSAT
-
-- [Escalation policy link](https://gitlab.pagerduty.com/escalation_policies#P0DPFUO)
-- Level 1
-  - Notify the following users or schedules
-    - SSAT Reviewing Manager
-
 ### Incident Management - CMOC Rotation
 
 - [Escalation policy link](https://gitlab.pagerduty.com/escalation_policies#PNH1Z1L)

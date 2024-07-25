@@ -62,7 +62,7 @@ Any team member can use the self service instructions below to provision an AWS 
 1. Please refresh your browser window every ~60 seconds until you see that your user account has changed from `Provisioning` to `Active`.
 1. See the instructions below for [Accessing your AWS Account](#accessing-your-aws-account) or [Accessing your GCP Project](#accessing-your-gcp-project).
 
-> You can sign-in with Okta, however please don’t create a Cloud Account unless you intend to provision AWS resources. You can see the [screenshots](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/tree/main/docs/screenshots/) of everything that a user sees.
+> You can sign-in with Okta, however please don't create a Cloud Account unless you intend to provision AWS resources. You can see the [screenshots](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/tree/main/docs/screenshots/) of everything that a user sees.
 
 **Is your current AWS account experience problems?** Please ask for help in `#sandbox-cloud-questions`. If your problems are validated and approved for getting a new AWS account, please use the [New AWS Individual Account Rebuild Request](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_individual_account_rebuild_request) issue template.
 
@@ -150,7 +150,7 @@ In the [HackyStack v1.11 (November 2021) release](https://gitlab.com/gitlab-com/
 - New [GitLab Project templates](https://gitlab.com/gitlab-com/infra-standards/project-templates) with Terraform scaffolding and [easy-to-use Terraform modules](https://gitlab.com/gitlab-com/infra-standards/terraform-modules). We provide the foundation for you to use any of the [Terraform.io Registry providers or modules](https://registry.terraform.io/) with built-in support for the Google Cloud provider.
 - Every GitLab Sandbox Cloud GCP project now has an automatically created GitLab group and a [starter GitLab project with a GitOps Terraform configuration scaffolding](https://gitlab.com/gitlab-com/infra-standards/project-templates/gcp-sandbox-environment-template) with provisioning automation powered by GitLab CI. This allows team members to start deploying resources with Terraform in just a few minutes without dealing with Terraform set up, while complying with security best standards.
 - We will have additional project templates released throughout the coming months that provide pre-configured environments that you can provision with just a few clicks. This includes [Omnibus/Runner/Cluster all-in-one environments](https://gitlab.com/gitlab-com/infra-standards/terraform-modules/gcp/gitlab-omnibus-sandbox-tf-module), Kubernetes cluster environment, etc. We also have the foundation to be able to explore how to support [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit).
-- You can also easily create additional Terraform projects in the Sandbox Cloud UI for different environments or configurations in the same Cloud Account to allow you to isolate your module/resource configuration based on the use case that you’re experimenting with.
+- You can also easily create additional Terraform projects in the Sandbox Cloud UI for different environments or configurations in the same Cloud Account to allow you to isolate your module/resource configuration based on the use case that you're experimenting with.
 
 ### How to Create a Terraform Environment
 
@@ -186,7 +186,7 @@ locals {
 }
 ```
 
-1. Run a new CI pipeline. After the `Plan` job completes, trigger the `Deploy` job. (Notice how you haven’t had to do any configuration).
+1. Run a new CI pipeline. After the `Plan` job completes, trigger the `Deploy` job. (Notice how you haven't had to do any configuration).
 1. Watch the `terraform apply` outputs as your new environment is spun up with a sample Ubuntu virtual machine for testing with. You can add additional Terraform resources as you see fit (see below).
 1. Navigate to the GCP console using the link on [https://gitlabsandbox.cloud](https://gitlabsandbox.cloud) to view the deployed VM. Feel free to connect to the VM via SSH using the `gcloud` command or Cloud Shell.
 1. Run the GitLab CI job for `Destroy` to clean up your resources.
@@ -203,7 +203,7 @@ Currently, deleting an AWS account or GCP project must be performed manually by 
 
 The goal is to create a frictionless approach for technical team members that includes the tagging needed for cost allocation, best practice security configurations, and streamline the provisioning of infrastructure without needing to wait several days or weeks for an access request to be approved and provisioned.
 
-This also reduces the burden on the accounting team that processes expense reports for team members each month. Each team member’s account is now part of consolidated billing.
+This also reduces the burden on the accounting team that processes expense reports for team members each month. Each team member's account is now part of consolidated billing.
 
 ### History
 
@@ -211,7 +211,7 @@ Over the years, our non-production infrastructure resources have grown organical
 
 ### Recent iterations
 
-[Epic 257](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/257) was created to iterate on our processes. In FY21-Q3, we created company-wide [infrastructure standards](/handbook/infrastructure-standards/) which solved the “naming things is hard” problem with [labels, tags, and naming conventions](/handbook/infrastructure-standards/labels-tags/) in our AWS and GCP organization accounts. The infrastructure standards define [realms](/handbook/infrastructure-standards/#gitlab-infrastructure-realms) to create separate security boundary namespaces for different use cases. For our sandbox use cases, we’ve created a [sandbox realm](/handbook/infrastructure-standards/realms/sandbox) for individual users and [department realms](/handbook/infrastructure-standards/labels-tags/#department-realms) for shared collaboration projects, notably the Engineering Development realm which allows each of the [department groups](/handbook/infrastructure-standards/labels-tags/#gitlab-department-group-gl_dept_group) (functional teams) to have a shared AWS account or GCP project for creating infrastructure.
+[Epic 257](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/257) was created to iterate on our processes. In FY21-Q3, we created company-wide [infrastructure standards](/handbook/infrastructure-standards/) which solved the "naming things is hard" problem with [labels, tags, and naming conventions](/handbook/infrastructure-standards/labels-tags/) in our AWS and GCP organization accounts. The infrastructure standards define [realms](/handbook/infrastructure-standards/#gitlab-infrastructure-realms) to create separate security boundary namespaces for different use cases. For our sandbox use cases, we've created a [sandbox realm](/handbook/infrastructure-standards/realms/sandbox) for individual users and [department realms](/handbook/infrastructure-standards/labels-tags/#department-realms) for shared collaboration projects, notably the Engineering Development realm which allows each of the [department groups](/handbook/infrastructure-standards/labels-tags/#gitlab-department-group-gl_dept_group) (functional teams) to have a shared AWS account or GCP project for creating infrastructure.
 
 ### Current iteration
 
@@ -277,13 +277,13 @@ See the issue trackers for the latest up-to-date information.
 
 #### Future Planning Themes
 
-**Phase 4** - Automated provisioning of AWS accounts and GCP projects for each user and team with streamlined/automated access requests (aka “Automate the manufacturing of everyone’s green LEGO board”). This is being achieved with the HackyStack open source project that Jeff is building.
+**Phase 4** - Automated provisioning of AWS accounts and GCP projects for each user and team with streamlined/automated access requests (aka "Automate the manufacturing of everyone's green LEGO board"). This is being achieved with the HackyStack open source project that Jeff is building.
 
-**Phase 4.5** - Migrate everyone’s resources in shared accounts into respective isolated accounts and apply labels/tags for cost management and reporting. See [it-infra#86 Project Playground](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/86) for details.
+**Phase 4.5** - Migrate everyone's resources in shared accounts into respective isolated accounts and apply labels/tags for cost management and reporting. See [it-infra#86 Project Playground](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/86) for details.
 
-**Phase 5** - Curate centralized library of Terraform modules, Ansible roles, Packer images, Docker images, and other scripts that have best practice security standards are used for deploying common infrastructure (aka “Provide everyone a box of LEGO bricks and the tools to deploy them”). Integrate GitLab Environment Toolkit for deploying GitLab in decentralized test environments (user sandboxes, community member environments, etc). This will be open source with the community so partners and customer POCs can take advantage of what we have. This will solve Sid’s request to ensuring we’re all on the same page and using the same library for the millions of GitLab users.
+**Phase 5** - Curate centralized library of Terraform modules, Ansible roles, Packer images, Docker images, and other scripts that have best practice security standards are used for deploying common infrastructure (aka "Provide everyone a box of LEGO bricks and the tools to deploy them"). Integrate GitLab Environment Toolkit for deploying GitLab in decentralized test environments (user sandboxes, community member environments, etc). This will be open source with the community so partners and customer POCs can take advantage of what we have. This will solve Sid's request to ensuring we're all on the same page and using the same library for the millions of GitLab users.
 
-**Phase 6** - Create “easy button” for deploying the library of infrastructure (aka the LEGO kits) into a topology builder.
+**Phase 6** - Create "easy button" for deploying the library of infrastructure (aka the LEGO kits) into a topology builder.
 
 **Product and Revenue Enablement** - Since a lot of provisioning functionality uses GitLab CI/CD and GitOps, we are dogfooding the GitLab product and allows users to manage their infrastructure-as-code in a GitLab repository and extend capabilities with other GitLab features as they see fit.
 

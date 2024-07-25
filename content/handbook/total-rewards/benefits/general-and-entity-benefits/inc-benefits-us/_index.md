@@ -39,7 +39,7 @@ GitLab offers a benefits package that provides health and financial security for
 
 <summary>Archived Plans & Tax Details</summary>
 
-GitLab’s US Benefits Open Enrollment for Calendar Year 2024 took place from 2023-10-30 through 2023-11-13. See the archived US benefits for details on [2024 Open Enrollment](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/22d8c7c59a1eec51678d2a9f27592a6297542ac9/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
+GitLab's US Benefits Open Enrollment for Calendar Year 2024 took place from 2023-10-30 through 2023-11-13. See the archived US benefits for details on [2024 Open Enrollment](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/22d8c7c59a1eec51678d2a9f27592a6297542ac9/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
 
 Team Members can find Archived benefit plans, details, and open enrollment for prior years listed below:
 
@@ -61,10 +61,18 @@ You can log into PlanSource through your Workday profile. There is an integratio
 ## Who To Contact & Claims Escalations
 
 - For a full list of carrier contacts please see the [Benefit Mobile Wallet Card](https://mymobilewalletcard.com/gitlab/)
-- For benefit inquiries and assistance with any claims escalations: WTW Benefits Helpline `877-409-9288` or `GitLab@willistowerswatson.com`
 - For Cigna related questions please use the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing)
 - For support with the PlanSource system: `total-rewards@ gitlab.com`
 - For questions regarding internal policies, etc. 401(k), : `total-rewards@ gitlab.com`
+
+## ID Cards
+
+Cigna has moved from Physical to Digital ID cards. Team members can request a physical medical card on mycigna.com. Please allow up to two weeks for ID cards to generate after completing your enrollment.
+Kaiser cards will be mailed within 3 weeks of submitting your benefit elections.
+
+Cigna: Digital ID cards are available through the myCigna website or the myCigna mobile app.
+
+Kaiser: Digital ID cards are available through the Kaiser website or the Kaiser mobile app.
 
 ## Enrolling in Benefits
 
@@ -99,7 +107,7 @@ Any active, regular, full-time team member working a minimum of 30 hours per wee
 - Your dependent children up until age 26 (including legally adopted and stepchildren), and/or
 - Any dependent child who reaches the limiting age and is incapable of self-support because of a mental or physical disability
 
-Note: If you and an eligible dependent (as defined above) are both employed by GitLab, you may only be covered by GitLab’s coverage once. This also applies to enrolling in either your own supplemental life insurance or supplemental spouse/dependent life insurance through your dependent who is employed by GitLab, but not both.
+Note: If you and an eligible dependent (as defined above) are both employed by GitLab, you may only be covered by GitLab's coverage once. This also applies to enrolling in either your own supplemental life insurance or supplemental spouse/dependent life insurance through your dependent who is employed by GitLab, but not both.
 
 A domestic partnership is an arrangement in which two people live together and are in a committed relationship without being legally married. Domestic partnerships are composed of two people of any gender, which includes male, female, or nonbinary people. If you have recently entered in to a Domestic Partnership, or your Domestic Partner goes through a Qualifying Life Event, you may add them to the GitLab plans as outlined in the instructions below. During the documentation step, you will be asked to fill out and submit a [Domestic Partner Affidavit](https://drive.google.com/file/d/11cV-WXJXu8G626muav2aJvpYS4CMleeE/view?usp=sharing) in to PlanSource. If you are adding your Domestic Partner during New Hire Enrollment or Open Enrollment, there is no need to fill out the Domestic Partnership Affidavit.
 
@@ -151,10 +159,10 @@ If you do not enroll in a plan within your benefits election period, you will au
 GitLab has confirmed that our medical plans are CREDITABLE. page 10 of the [2023 Annual Notice](https://drive.google.com/file/d/1ku6hO8_ckJL49MLqOfFchIq_L4GblksZ/view?usp=sharing) and page 9 of the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) of the If you or your dependents are Medicare eligible or are approaching Medicare eligibility, you will need this notice to confirm your status when enrolling for Medicare Part D. For more information about Medicare prescription drug coverage:
 
 - Visit [www.medicare.gov](https://www.medicare.gov)
-- Call your State Health Insurance Assistance Program (see the [“Medicare & You” handbook](https://www.medicare.gov/medicare-and-you) for their telephone number) for personalized help.
+- Call your State Health Insurance Assistance Program (see the ["Medicare & You" handbook](https://www.medicare.gov/medicare-and-you) for their telephone number) for personalized help.
 - Call 1-800-MEDICARE (1-800-633-4227). TTY users should call 1-877-486-2048.
 
-Please see the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) for all of GitLab’s notices surrounding the Health and Welfare plans & contacts
+Please see the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) for all of GitLab's notices surrounding the Health and Welfare plans & contacts
 
 ### PlanSelect Tool
 
@@ -269,9 +277,9 @@ Potential joiners who do not have a myCigna account yet can search for providers
 Team Members and potential joiners can also reach out to the [Cigna One Guide service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing) to check if their doctors are in-network and walk through the GitLab plans with a Cigna rep.
 
 {{% alert title="Important Note" color="warning" %}}
-As an additional measure to confirm “Contracted Providers” (i.e. In-Network), it’s always a good idea to follow up with Providers directly (phone, email or otherwise) to additionally confirm if a Provider is contracted with Cigna or not and if the type of service is covered. In some instances, the same provider may be covered In-Network for certain types of services, but may be Out-Network for other services.
+As an additional measure to confirm "Contracted Providers" (i.e. In-Network), it's always a good idea to follow up with Providers directly (phone, email or otherwise) to additionally confirm if a Provider is contracted with Cigna or not and if the type of service is covered. In some instances, the same provider may be covered In-Network for certain types of services, but may be Out-Network for other services.
 Provider contracts change and sometimes the contracts change faster than the website maintenance teams for the insurance carriers. It's better to spend time researching and confirming rather than assuming and being stuck with *balance billing* from Out of Network providers.
-*Balance billing* is if the Out of Network provider's charge is $100 and the carrier’s maximum allowed reimbursement (MAR) amount is $70, the provider is within rights to bill you for the remaining $30. A “Cigna Contracted Provider” cannot balance bill Cigna members.
+*Balance billing* is if the Out of Network provider's charge is $100 and the carrier's maximum allowed reimbursement (MAR) amount is $70, the provider is within rights to bill you for the remaining $30. A "Cigna Contracted Provider" cannot balance bill Cigna members.
 {{% /alert %}}
 
 </details>
@@ -381,7 +389,7 @@ For out-of-network services: 365 days from Date of Service.
 
 <summary> Kaiser Infertility Services</summary>
 
-Kaiser California is covered for infertility services at 50% co-insurance. Coverage includes services for diagnosis and treatment of infertility. Coverage does not include conception by artificial means (IVF/GIFT/ZIFT/etc). Please check with the WTW Benefits Helpline `877-409-9288` or `GitLab@willistowerswatson.com` for more information.
+Kaiser California is covered for infertility services at 50% co-insurance. Coverage includes services for diagnosis and treatment of infertility. Coverage does not include conception by artificial means (IVF/GIFT/ZIFT/etc). 
 
 Kaiser Hawaii Plan members are covered for an infertility consultation and certain In Vitro Fertilization (IVF) procedures. More information on the Infertility services for Hawaii Kaiser members can be found on the [2024 Hawaii Health Plan](TBD ).
 
@@ -573,7 +581,7 @@ The company offers a 401(k)  plan in which you may make voluntary pre-tax contri
 
 <summary>Administration of the 401(k) Match:</summary>
 
-1. You are eligible to participate in GitLab’s 401(k) as of your hire date. There is no auto-enrollment. You must actively elect your deductions.
+1. You are eligible to participate in GitLab's 401(k) as of your hire date. There is no auto-enrollment. You must actively elect your deductions.
 1. You will receive an invitation to register for access to your account on Fidelity [NetBenefits](401k.com) who is GitLab's plan recordkeeper.
 1. Any changes to your plan information will be effective within 2 payroll cycles (typically updated within 1 payroll cycle, depending on when the change is made and cut-off changes dates).
 1. Once inside the platform you may elect your annual/pay-period contributions and investments.
@@ -621,7 +629,7 @@ You may now take a loan from your GitLab 401(k) Plan.
 - Loans may be requested online or by calling Fidelity at 800-835-5097 for help to initiate the process online.
 - Payments will be made via ACH from your personal bank account.
 - You can request up to 50% of your vested account balance, or $50,000, whichever is less.
-- An interest rate of Prime + 1% will apply and will be paid to yourself. It’s important to note that loans are repaid with after-tax dollars, meaning you will be “double taxed” on this money – once now, and again at retirement.
+- An interest rate of Prime + 1% will apply and will be paid to yourself. It's important to note that loans are repaid with after-tax dollars, meaning you will be "double taxed" on this money – once now, and again at retirement.
 - Fidelity is available at 800-835-5097 to assist with any additional questions you may have.
 
 </details>
@@ -638,7 +646,7 @@ You may now convert money from your pre-tax source, to the Roth source, all with
 *Questions on the 401(k) Loan or In-Plan Roth Conversion?*
 
 - To process changes or to discuss taking a 401(k) Loan or making an In-Plan Roth Conversion, please directly contact Fidelity's team at 800-835-5097.
-- *If you’d like to speak with an advisor* about the investments in the plan, or about your larger financial picture including tax strategies and retirement planning – please reach out to SageView Advisory Group. [Click here](https://calendly.com/elamb-financial/30min?month=2023-10) to schedule a complimentary financial consultation at your convenience.
+- *If you'd like to speak with an advisor* about the investments in the plan, or about your larger financial picture including tax strategies and retirement planning – please reach out to SageView Advisory Group. [Click here](https://calendly.com/elamb-financial/30min?month=2023-10) to schedule a complimentary financial consultation at your convenience.
 - If you have general questions, please reach out to the Total Rewards Team (total-rewards@gitlab.com).
 
 </details>
@@ -716,7 +724,7 @@ Your HSA account allows you to set aside money on a pre-tax basis to pay for qua
 
 Your HSA contributions go into your account before taxes. The money you save to your HSA lowers your taxable income – so you may pay less in taxes.
 Money in your HSA account earns tax-free interest.
-Any unused HSA funds roll over to the next year.  The money is yours forever. It doesn’t expire.
+Any unused HSA funds roll over to the next year.  The money is yours forever. It doesn't expire.
 You can spend your HSA dollars on eligible health care expenses, or save and invest them for the future.
 Once your HSA account hits a certain balance, you can invest a portion of your HSA balance in mutual funds, stocks and bonds.
 You can use your HSA to save for retirement. At age 65, you can use the funds for any purpose without a penalty. The money you take out to pay for eligible health care expenses continues to be tax free. You also can take money out for other reasons without paying a penalty.
@@ -727,7 +735,7 @@ You can use your HSA to save for retirement. At age 65, you can use the funds fo
 
 <summary>HSA Account Rollover & Administration</summary>
 
-If you would like to transfer your HSA from a previous account, please contact WEX (Discovery) and request a HSA Transfer funds form. On the form you will put your old HSA provider’s account number and any other required personal information. You will then submit the form to WEX (Discovery), and they will get in contact with your old HSA provider and process the transfer of funds. You can reach WEX (Discovery) at 866.451.3399 or `customerservice@discoverybenefits.com`.
+If you would like to transfer your HSA from a previous account, please contact WEX (Discovery) and request a HSA Transfer funds form. On the form you will put your old HSA provider's account number and any other required personal information. You will then submit the form to WEX (Discovery), and they will get in contact with your old HSA provider and process the transfer of funds. You can reach WEX (Discovery) at 866.451.3399 or `customerservice@discoverybenefits.com`.
 
 HSAs roll over completely year-to-year and are 'owned' by the team member. If you leave GitLab and would like to keep your HSA account, GitLab will no longer be responsible for the administration fee. The account holder will become responsible for the $2.50 per month admin fee.
 
@@ -745,6 +753,14 @@ You can also choose to front-load the team member portion of your HSA contributi
 
 </details>
 
+<details markdown="1">
+
+<summary>Health Savings Account and Offboarding GitLab </summary>
+
+Your Health Savings Account and any funds within the account as of your date of termination are yours to keep. You may continue to use the dollars in your account for eligible healthcare expenses at your next employer, and/or allow the money to remain in the account and grow over time. Wex may charge fees to manage your HSA account directly. Please contact WEX (Discovery) at 866.451.3399, via live chat or customerservice@discoverybenefits.com with any questions about your HSA accounts. 
+
+</details>
+
 ### Flexible Spending Account (FSA) Plans
 
 FSAs help you pay for eligible out-of-pocket health care and dependent day care expenses on a pretax basis. You determine your projected expenses for the Plan Year and then elect to set aside a portion of each paycheck into your FSA. FSA contributions can only be updated during open enrollment or through a [qualifying life event (QLE)](#qualifying-life-events).
@@ -752,7 +768,7 @@ FSAs help you pay for eligible out-of-pocket health care and dependent day care 
 There are three types of FSAs that team members may enroll in:
 
 - Medical FSA: Lets you pay for all eligible medical expenses, including dental and vision expenses, as well as over-the-counter medications. Team Members who have an HSA cannot participate in a medical FSA.
-- Dependent Care FSA: restrict eligible expenses to dependent care expenses exclusively. A qualifying ‘dependent’ may be a child under age 13, a disabled spouse, or an older parent in eldercare.
+- Dependent Care FSA: restrict eligible expenses to dependent care expenses exclusively. A qualifying 'dependent' may be a child under age 13, a disabled spouse, or an older parent in eldercare.
 - Limited Purpose FSA: restrict eligible expenses to dental and vision expenses exclusively. Team members with an HSA can participate in a limited purpose FSA.
 
  Per WEX Health, FSA rollover funds are not available for 2024 expenses until 5-15 business days after 2024-03-31 (should be no later than 2024-04-22).
@@ -761,9 +777,15 @@ In 2023 the maximum salary deferral contribution has increased to $3,050 USD, wi
 
 In 2024 the maximum salary deferral contribution has increased to $3,200 USD, with the maximum rollover amount increasing to $$640 USD.
 
-FSAs are employer-owned accounts. If you leave GitLab, your Medical FSA account will be terminated on your date of termination unless you continue this through COBRA. You are able to use your full FSA amounts up to and on your last day, but not afterwards unless you enroll into COBRA. WEX (Discovery) asks that all claims be submitted up to 90 days after termination date. You can enroll into COBRA FSA if you have spent less out of your account than you have contributed to it. If you decide to enroll, you will be required to continue making your monthly contributions on a post-tax status.  For additional information, please reach out to WEX (Discovery) at 866.451.3399 or `customerservice@discoverybenefits.com`. Dependent Care FSAs cannot be continued via COBRA.
+</details>
 
-FSAs (and Dependent Care FSAs) are subject to annual testing by the Internal Revenue Code guidelines to ensure the pre-tax benefits do not disproportionately benefit highly compensated employees. At the end of each plan year, GitLab will work with WTW to conduct the nondiscrimination testing. If a test returns that highly compensated employees benefit, you may not be able to pre-tax the full amount of your election. This can vary each year and is based upon the dollar amount of non-highly compensated employees’ elections.
+<details markdown="1">
+
+<summary> Flexible Spending Accounts and Leaving GitLab </summary>
+
+FSAs are employer-owned accounts. If you leave GitLab Medical FSA account will be terminated on your date of termination unless you continue this through COBRA. You are able to use your full FSA amounts up to and on your last day, but not afterwards unless you enroll into COBRA. WEX (Discovery) requires that all claims be submitted up to 90 days after termination date. You can enroll into COBRA FSA if you have spent less out of your account than you have contributed to it. If you decide to enroll, you will be required to continue making your monthly contributions on a post-tax status. For additional information, please reach out to WEX (Discovery) at 866.451.3399 or customerservice@discoverybenefits.com. 
+
+Dependent Care FSAs cannot be continued via COBRA. You are able to use your dependent care FSA for expenses that occur up to your last day, but not afterwards. Wex requires that all claims be sumbitted up to 90 days after termination date. For additional information, please reach out to WEX (Discovery) at 866.451.3399 or customerservice@discoverybenefits.com. 
 
 </details>
 
@@ -891,7 +913,7 @@ For more details and steps on how to enroll please see the [MetLife Pet Insuranc
 
 ### 529 Savings Plans
 
-Effective 2024, GitLab offers access to 529 plan investments to US team members so that you can use tax-advantaged savings for your child’s future education expenses.
+Effective 2024, GitLab offers access to 529 plan investments to US team members so that you can use tax-advantaged savings for your child's future education expenses.
 
 - Support your financial goals for you and your family
 - ScholarShare 529 Workplace Savings is a direct deposit program that can make it easy for you and them
@@ -916,14 +938,14 @@ GitLab offers a student loan guidance products, tools, and expert consultation s
 GitLab has partnered with Sofi to offer student loan guidance services, discounts & perks, and financial well-being products with SoFi:
 
 - A central location for team members to focus on financial well-being
-- Team members can review SoFi’s “Student Debt Workbook” and take a financial self-assessment to help navigate their student debt
+- Team members can review SoFi's "Student Debt Workbook" and take a financial self-assessment to help navigate their student debt
 - Team members can schedule an appointment with a Sofi Student Loan Specialist to discuss their loans and situation
-- Delivers impactful discounts, preferred pricing, and exclusive offers on SoFi’s award-winning financial products
-- Arm yourself with knowledge on your journey to financial independence with access to Sofi’s financial library, tools, and resources
+- Delivers impactful discounts, preferred pricing, and exclusive offers on SoFi's award-winning financial products
+- Arm yourself with knowledge on your journey to financial independence with access to Sofi's financial library, tools, and resources
 
 Enroll anytime at [SoFi.com/GitLab](sofi.com/gitlab)
 [GitLab SoFi Flyer](https://drive.google.com/file/d/1kKZXeqwY96cHE4QpjrWjONSawwe-rkIf/view?usp=sharing)
-You’re eligible for an exclusive 0.25% rate discount* when you refinance your student loans through SoFi.com/GitLab, plus you could save big by locking in a lower rate.
+You're eligible for an exclusive 0.25% rate discount* when you refinance your student loans through SoFi.com/GitLab, plus you could save big by locking in a lower rate.
 
 Refi with SoFi and you could
 
@@ -943,7 +965,7 @@ PerkSpot is a one-stop shop for thousands of exclusive discounts and in more tha
 - Quick Links – section that allows you to access various resources to locate savings
 - Local offers – allows you to use your location to see all of the discounts near you, wherever you are
 - Interests – ability to select what your interests are and narrow, search
-- Brands review – search for the Brands you’re looking for using the PerkSpot Brands tab and narrowing your discount search
+- Brands review – search for the Brands you're looking for using the PerkSpot Brands tab and narrowing your discount search
 
 You can enroll anytime at
 [gitlab.perkspot.com](https://gitlab.perkspot.com)

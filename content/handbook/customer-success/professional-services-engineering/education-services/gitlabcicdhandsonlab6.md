@@ -3,8 +3,6 @@ title: "GitLab CI/CD - Hands-On Lab: Job Policy Patterns"
 description: "This Hands-On Guide walks you through working with CI/CD jobs with the rules keyword."
 ---
 
-
-
 > Estimate time to complete: 25 - 30 minutes
 
 ## Objectives

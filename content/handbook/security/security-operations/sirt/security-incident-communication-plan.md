@@ -7,11 +7,11 @@ controlled_document: true
 
 ## Purpose
 
-GitLab takes the security of our clients’ information extremely seriously, regardless of whether it’s on GitLab.com or in a self-managed instance. In keeping with GitLab’s [value of transparency](/handbook/values/#transparency) we believe in communicating about security incidents clearly and promptly.
+GitLab takes the security of our clients' information extremely seriously, regardless of whether it's on GitLab.com or in a self-managed instance. In keeping with GitLab's [value of transparency](/handbook/values/#transparency) we believe in communicating about security incidents clearly and promptly.
 
 ## Scope
 
-This communication response plan maps out the who, what, when, and how of GitLab in notifying and engaging with internal stakeholders and external customers on security incidents. **This plan of action covers the strategy and approach for security events which have a ‘high’ or greater impact as outlined in [GitLab’s risk scoring matrix]({{< ref "storm-program#risk-factors-and-risk-scoring" >}}).**
+This communication response plan maps out the who, what, when, and how of GitLab in notifying and engaging with internal stakeholders and external customers on security incidents. **This plan of action covers the strategy and approach for security events which have a 'high' or greater impact as outlined in [GitLab's risk scoring matrix]({{< ref "storm-program#risk-factors-and-risk-scoring" >}}).**
 
 ## Roles & Responsibilities
 
@@ -69,7 +69,7 @@ As security practitioners and incident response engineers, our security assuranc
 
 - Editing and improving first drafts **provided by** `CMOC`
 - Advising on appropriate channels and forms of communication needed
-- Acting as an approval point on final messaging to ensure it’s ready for external use
+- Acting as an approval point on final messaging to ensure it's ready for external use
 - Liaising with PR and corporate communications for additional reviews and/or messaging needs (public/media statements)
 - Deploying the messaging via collaboration with our PR (media statement), Content Marketing (blog post) and Marketing Operations teams (email response)
 - Posting final communications materials to slack channels (`#developer-relations`, `#social_media_action`, `#sales`, `#security-department` and `#customer-success`) for awareness and use.
@@ -128,9 +128,9 @@ Once it has been determined that external response is needed, the SIRT team shou
 
 ## Process for security incident external communications
 
-1. Once we’ve determined that we need to make an external statement or communicate with customers in some way, [open a new issue using the Security incident external response issue template](https://gitlab.com/gitlab-com/gl-security/security-communications/communications/-/blob/master/.gitlab/issue_templates/security-external-incident-or-event-response-template.md). This issue will be used by the `SIMOC/SecCMOC` to track content development, reviews and approvals.
+1. Once we've determined that we need to make an external statement or communicate with customers in some way, [open a new issue using the Security incident external response issue template](https://gitlab.com/gitlab-com/gl-security/security-communications/communications/-/blob/master/.gitlab/issue_templates/security-external-incident-or-event-response-template.md). This issue will be used by the `SIMOC/SecCMOC` to track content development, reviews and approvals.
 1. The new security incident external response issue should be assigned to the `SecCMOC`.
-1. Once all the actions under the “CMOC actions to take upon opening this issue” section are completed and a first draft(s) is/are in place, tag `@heather` into the issue for first review and consult on communications forms/channels (more details below).
+1. Once all the actions under the "CMOC actions to take upon opening this issue" section are completed and a first draft(s) is/are in place, tag `@heather` into the issue for first review and consult on communications forms/channels (more details below).
 
 ## Communications review, approval and deployment process
 
@@ -206,7 +206,7 @@ The communications channels and forms that should be used in an incident or even
 
 ## Preparing and enabling external facing teams
 
-It is important to keep in mind, **any time we are communicating externally, we need to advise our support, customer, social and developer relations teams that we’ll be making external communication about an issue that affects customers and/or the community**.
+It is important to keep in mind, **any time we are communicating externally, we need to advise our support, customer, social and developer relations teams that we'll be making external communication about an issue that affects customers and/or the community**.
 
 For this reason, each incident response (direct email, media statement, blog post, etc) should have accompanying:
 
@@ -219,7 +219,7 @@ For on-going, live site incidents on GitLab.com, updates are provided by the `SI
 
 ## External statements and other public, official communications
 
-Depending on scope, impact or risk associated with the incident, our Corporate Communications and Marketing team may determine that additional outreach is necessary. Any official statements about the security incident would be made by GitLab’s Director of Corporate Communications, VP of Corporate Marketing, CMO or VP of Security.
+Depending on scope, impact or risk associated with the incident, our Corporate Communications and Marketing team may determine that additional outreach is necessary. Any official statements about the security incident would be made by GitLab's Director of Corporate Communications, VP of Corporate Marketing, CMO or VP of Security.
 
 ## Other helpful information
 

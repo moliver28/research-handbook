@@ -1,15 +1,8 @@
 ---
-
 title: "Writing Successful Conference Proposals"
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/writing-cfps/index.html
 ---
-
-
-
-
-
-
 
 Writing good conference proposals is both an art and a science. The science is the details of the technical content. The art is presenting it in a way that appeals to the audience - the conference committee.
 
@@ -25,5 +18,5 @@ Here are some steps to go through when writing a CFP:
 
 ### Helpful links
 
-1. [Lachie’s 7 step guide to writing a winning tech conference CFP](https://medium.com/@LachlanEvenson/lachies-7-step-guide-to-writing-a-winning-tech-conference-cfp-4fa36a0d2672)
+1. [Lachie's 7 step guide to writing a winning tech conference CFP](https://medium.com/@LachlanEvenson/lachies-7-step-guide-to-writing-a-winning-tech-conference-cfp-4fa36a0d2672)
 2. [Make me an offer I can't refuse – Writing an abstracts for a CFP](https://blog.ndcconferences.com/make-me-an-offer-i-cant-refuse-writing-an-abstracts-for-a-cfp/)

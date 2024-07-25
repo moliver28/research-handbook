@@ -1,16 +1,7 @@
 ---
-
 title: "RStudio Guide"
 description: "RStudio Guide"
 ---
-
-
-
-
-
-
-
-
 
 ---
 
@@ -201,7 +192,7 @@ This documentation was creating using RStudio version 2022.07.1.
 - Configure Git by setting your **GitLab user name** and **GitLab email** in RStudio
   - To open the Git prompt go to **Tools** > **Shell** and enter the following:
     - `git config --global user.name 'yourGitHubUsername'`
-    - `git config --global user.email ‘name@provider.com'`
+    - `git config --global user.email 'name@provider.com'`
 - Restart RStudio
 
 ### Part 3: Create an RStudio Project with Git

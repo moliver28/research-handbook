@@ -1,13 +1,6 @@
 ---
-
 title: "Twitter response workflow"
 ---
-
-
-
-
-
-
 
 ## Overview
 

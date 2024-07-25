@@ -68,7 +68,7 @@ We want to make our corner of the internet a little safer, but also be the best 
 
 - To report **abusive** activity, see our [Abuse on GitLab.com page]({{< ref "abuse-on-gitlab-com" >}}).
 - Copyright and Trademark infringements, see our [Intellectual Property on GitLab.com page]({{< ref "intellectual-property-on-gitlab-com" >}}).
-- Frequently Asked Questions, see our [FAQ page]({{< ref "./faq" >}}).
+- Frequently Asked Questions, see our [FAQ page](faq/).
 
 ### Working with GitLab Trust and Safety Team
 
@@ -82,7 +82,7 @@ Feature proposals can be submitted for the following:
 - GitLab [CE](https://about.gitlab.com/install/?version=ce) and;
 - GitLab [EE](https://about.gitlab.com/install/);
 
-You can tag `@gitlab-com/gl-security/security-operations/trust-and-safety` and `@gitlab-org/modelops/anti-abuse` to review the gitlab issue.
+You can tag `@gitlab-com/gl-security/security-operations/trust-and-safety` and `@gitlab-org/modelops/anti-abuse` to review the GitLab issue.
 
 ### GitLab team members can reach Trust and Safety via
 

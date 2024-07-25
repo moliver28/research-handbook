@@ -1,5 +1,4 @@
 ---
-
 title: FY22 Marketing Plan
 description: FY22 Marketing Plan
 twitter_image: /images/tweets/handbook-marketing.png
@@ -7,14 +6,9 @@ twitter_site: '@gitlab'
 twitter_creator: '@gitlab'
 ---
 
-
-
-
-
-
 ## Looking for FY23?
 
-To view the FY23 Marketing Plan, go here: [https://about.gitlab.com/handbook/marketing/plan-fy23/](/handbook/marketing/plan-fy23/)
+To view the FY23 Marketing Plan, go here: [https://handbook.gitlab.com/handbook/marketing/plan-fy23/](/handbook/marketing/plan-fy23/)
 
 ## Overview FY22 Marketing Plan
 
@@ -132,7 +126,7 @@ All FY22 Marketing budgets are loaded into Allocadia. Please refer to the [Alloc
 {: #gtm-motions .gitlab-purple}
 
 <!-- DO NOT CHANGE ANCHOR -->
-Based on discussions with Sales and Marketing leadership, feedback from Product & Product Management leadership and by consulting industry/analyst reports, we recommend that for FY22, our major GTM motions should be focused on **CI/CD**, **DevOps Platform**, and **GitOps**. The overall goal of our GTM motions and sales play initiative is to improve the predictability of attaining our FY22 New and Growth AR goals, and improve our GTM efficiency (e.g. CAC, Cost per SAO/CW). We will do this by concentrating our efforts on the most important GTM motions that align to customer’s main business goals/needs. where GitLab has a distinct competitive advantage and with accounts that have the highest LAM growth potential.
+Based on discussions with Sales and Marketing leadership, feedback from Product & Product Management leadership and by consulting industry/analyst reports, we recommend that for FY22, our major GTM motions should be focused on **CI/CD**, **DevOps Platform**, and **GitOps**. The overall goal of our GTM motions and sales play initiative is to improve the predictability of attaining our FY22 New and Growth AR goals, and improve our GTM efficiency (e.g. CAC, Cost per SAO/CW). We will do this by concentrating our efforts on the most important GTM motions that align to customer's main business goals/needs. where GitLab has a distinct competitive advantage and with accounts that have the highest LAM growth potential.
 
 To view the GTM Motions Googlesheet, please go to your [Google Drive](https://drive.google.com/drive/u/1/my-drive) and search for `GTM Motions FY22 Marketing Plan`.
 

@@ -1,9 +1,11 @@
 ---
 title: "GitLab Iberia s.r.l. (Spain) Information and Benefits"
 description: "Entitity Information for GitLab Iberia s.r.l. Spain Team Members"
-controlled_document: true
 ---
 
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
+Per the stated [Roles & Responsibilities](/handbook/entity/iberia-srl-spain/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
+{{% /panel %}}
 
 Bienvenido! This Handbook is for team members employed by GitLab Iberia s.r.l and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
 
@@ -17,11 +19,11 @@ These standards apply to all GitLab team members hired through GitLab Iberia s.r
 |-----------|-----------|
 | GitLab Team Members | Responsible for understanding and following the requirements in this document |
 | People, Legal, Payroll, Total Rewards, Absence | Responsible for implementing and executing this document |
-| People, Legal, Payroll, Total Rewards, Absence (Code Owners) | Responsible for approving changes to this document |
+| People, Legal, Payroll, Total Rewards, Absence (Code owners) | Responsible for approving changes to this document |
 
 ## Employment Contracts
 
-GitLab’s Team Member contract templates, including for Spain, [will be listed here in due course](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#spain) (for reference only), viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
+GitLab's Team Member contract templates, including for Spain, [will be listed here in due course](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#spain) (for reference only), viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
 
 Contract copies are lodged with the Spanish Labour Inspectorate by the payroll provider (Papaya) as required. Contact nonuspayroll@gitlab.com if you have any queries.
 
@@ -100,6 +102,8 @@ Team members will be expected to fill out a monthly timesheet at the end of each
 
 For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For new hires or any relocations, this information will be in the relevant onboarding/relocation issue/channel.
 
+Timesheets contain 4 columns for logging worked time: **Time In, Time Out, Breaks, and OOO**. Only enter “OOO” in the OOO column for any half or full days that you are Out of Office, whether it is paid or unpaid. **Team members must also accurately log all OOO time into Time Off by Deel and provide sick notes per statutory sick leave guidelines.**
+
 ## Spain-Specific Team Member Benefits
 
 ### Medical Plans
@@ -120,7 +124,7 @@ Please note that Group Medical plan premiums are tax exempt up to €500 per yea
 </details>
 
 <details markdown="1">
-<summary>Medical Plan Enrollment and Life Event Enrollment</summary>
+<summary>Medical Plan Enrollment</summary>
 
 Team Members must enroll in to the plan upon hire.
 The Total Rewards team will share your enrollment details with our brokers at WTW within the first week of their start date. Team Members can expect their AXA welcome package via email within 3 weeks of their start date.
@@ -146,11 +150,21 @@ No waiting periods except for the following procedures:
 
 No medical questionnaire required (pre existing illness will be accepted, except serious illness).
 
-**Life Event Enrollment**
+</details>
+
+<details markdown="1">
+<summary>Life Event Enrollment</summary>
 
 Other than during enrollment, Team Members can add dependents during certain life events such as birth or marriage, with an effective date of the life event. Please fill out the [Life Event Form](https://docs.google.com/forms/d/e/1FAIpQLSd8YRqlEqfvlZgqUFm2fZ8A6JC5hKrm2JlZKInkUl_nQD3nww/viewform?usp=sf_link) to enroll your dependent.
 
 The Team Member portion of the dependent cost will be deducted from their paycheck on a monthly basis. The Benefit in Kind amount will be reported on a monthly basis and team members will be taxed on the value of the benefit.
+
+</details>
+
+<details markdown="1">
+<summary>Offboarding GitLab</summary>
+
+Your benefits will cease on the date of termination. You may be able to transfer your coverage to a personal plan through our brokers Willis Tower Watson (WTW). Reach out to WTW to Soportehb@wtwco.com and cc Fernanda.Dallagnese@wtwco.com to receive the guidelines for the plan.
 
 </details>
 
@@ -178,7 +192,7 @@ The Free cover Limit is 500,000 EUR. If your cover is over the Free Cover Limit,
 <summary>Beneficiary Assignment</summary>
 
 In case of Disability: The beneficiary is the insured herself/himself.
-In case of Death of the insured, the beneficiaries will be those expressly appointed as beneficiaries by the insured or, in case there is no express appointment, as determined in the beneficiary’s general clause settled in the policy:
+In case of Death of the insured, the beneficiaries will be those expressly appointed as beneficiaries by the insured or, in case there is no express appointment, as determined in the beneficiary's general clause settled in the policy:
 
 Spouse not legally separated or divorce under final judgment or legal partner
 Children of the insured in equal shares or their descendants in case of death
@@ -267,11 +281,11 @@ Same-sex couples: both parents are entitled to paid leave. One will have to appl
 In order to be eligible for paid maternity leave, you must make sure to meet the following requirements:
 
 - You must be working for a company, or as a self-employed worker.
-- If you are below 21 years old, you won’t be required to have made contributions to social security before.
+- If you are below 21 years old, you won't be required to have made contributions to social security before.
 - If you are 21 to 26 years old, then you must be making contributions to social security for at least 90 days during the past 7 years, or 180 days during your entire working life.
 - If you are over 26 years old, 180 days during the past 7 years or at least 360 days during your working life.
 
-If you don’t meet this requirement, you can still get your maternity leave and get paid during those 16 weeks. Under certain conditions, you will get a non-contributory pension, which pays approximately 530€ per month. Team Members will need to request your [work-life certificate](https://balcellsgroup.com/employment-history-report/) at the “Tesorería de la Seguridad Social”, which can be requested online.
+If you don't meet this requirement, you can still get your maternity leave and get paid during those 16 weeks. Under certain conditions, you will get a non-contributory pension, which pays approximately 530€ per month. Team Members will need to request your [work-life certificate](https://balcellsgroup.com/employment-history-report/) at the "Tesorería de la Seguridad Social", which can be requested online.
 
 To help plan your leave click: [How Much Exactly Will You Get Paid On Leave](https://balcellsgroup.com/maternity-leave-spain/#How_much_exactly_will_you_get_paid_during_maternity_leave).
 
@@ -285,7 +299,7 @@ During this absence you will still be recognized as contributing to the social s
 
 ### Paternity Leave
 
-Team Members in Spain are eligible for 16 weeks of Paternity leave.  The first six weeks must be taken immediately and consecutively after the child’s birth, whereas the other 10 weeks can be taken non-consecutively during the first 12 months of the baby’s life, which can be extended by one week per child in the case of a multiple birth. An extra week’s leave can also be applied for if the baby is born with a disability or health problems. If the baby is premature or has to be hospitalized for longer than seven days, leave can be extended for up to an additional 13 weeks.
+Team Members in Spain are eligible for 16 weeks of Paternity leave.  The first six weeks must be taken immediately and consecutively after the child's birth, whereas the other 10 weeks can be taken non-consecutively during the first 12 months of the baby's life, which can be extended by one week per child in the case of a multiple birth. An extra week's leave can also be applied for if the baby is born with a disability or health problems. If the baby is premature or has to be hospitalized for longer than seven days, leave can be extended for up to an additional 13 weeks.
 
 This leave must be taken in batches of one week as a minimum, but the weeks can be split over time if desired. The father is also entitled to take unpaid childcare leave until the child is three years old.
 

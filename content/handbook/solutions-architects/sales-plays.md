@@ -1,9 +1,7 @@
 ---
-
 title: Solutions Architect Sales Plays
-description: “Discover GitLab Solutions Architects’ Sales Plays practices”
+description: "Discover GitLab Solutions Architects' Sales Plays practices"
 ---
-
 
 ## Sales Plays for new account & teams(existing customer) lands
 
@@ -69,7 +67,7 @@ Consider the following questions:
     1. Customer presentations & GTM use cases link [here](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#customer-facing-presentations)
     1. [Discovery questions](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#discovery-questions) for GitLab Protect/Secure
     1. Potential [objections](/handbook/marketing/sales-plays-cicd/playbook-premium-to-ultimate/#objection-handling) from prospects/customers
-1. Review how to position gitlab's values & why does gitlab does it better [here](/handbook/marketing/sales-plays-cicd/playbook-premium-to-ultimate/#positioning-value)
+1. Review how to position GitLab's values & why does GitLab does it better [here](/handbook/marketing/sales-plays-cicd/playbook-premium-to-ultimate/#positioning-value)
 
 **Expected Outcome**
 

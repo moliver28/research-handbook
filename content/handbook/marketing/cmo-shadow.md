@@ -1,15 +1,8 @@
 ---
-
 title: CMO Shadow Program
 description: "GitLab Marketing Handbook: CMO Shadow"
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
-
-
-
-
-
-
 
 ## Overview
 

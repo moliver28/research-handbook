@@ -1,18 +1,11 @@
 ---
-
 title: "Field Alerts"
-description: "Field Alerts aim to cut through the noise and capture the Field team’s quick attention on urgent matters that involve a time-sensitive CTA and/or immediate impact on customers."
+description: "Field Alerts aim to cut through the noise and capture the Field team's quick attention on urgent matters that involve a time-sensitive CTA and/or immediate impact on customers."
 ---
-
-
-
-
-
-
 
 ## Overview
 
-Field Alerts are an as-needed Field communication channel used to capture the Field team’s quick attention on urgent matters that involve a time-sensitive CTA and/or immediate impact on customers. Field Alerts allow the communications team to cut through the noise in Slack (where urgent updates can sometimes be lost or delayed) and reach team members directly in email with a format and template that is direct and easy to consume. Field Alerts also allow the communications team to track engagement to determine where follow-ups are required.
+Field Alerts are an as-needed Field communication channel used to capture the Field team's quick attention on urgent matters that involve a time-sensitive CTA and/or immediate impact on customers. Field Alerts allow the communications team to cut through the noise in Slack (where urgent updates can sometimes be lost or delayed) and reach team members directly in email with a format and template that is direct and easy to consume. Field Alerts also allow the communications team to track engagement to determine where follow-ups are required.
 
 ### Scoping
 

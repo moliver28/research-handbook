@@ -1,16 +1,7 @@
 ---
-
 title: "Sales Plays"
 description: "Sales plays are designed to improve the quantity of opportunities and closed business with defined Land and Expand sales motions"
 ---
-
-
-
-
-
-
-
-
 
 ## Why Sales Plays
 

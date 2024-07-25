@@ -1,14 +1,7 @@
 ---
-
 title: "Enterprise Area Sales Manager Handbook"
 description: "Successful management includes onboarding, reviewing Command Plans, opportunity coaching, strategic coaching, career development and performance management"
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -22,7 +15,7 @@ The below detail offers additional guidance on how responsibilities and activiti
 - [**Enterprise Sales update ticker**](https://docs.google.com/document/d/18SfdalBZDQyhnN0X7LwCRQmSfv3iiK59JPuj85f6Zkc/edit): This is updated weekly based on focus areas and key topics for the week. Bookmark it and consistently point your team back to it.
 - [**Sales handbook page**](/handbook/sales/#welcome-to-the-sales-team-homepage): This page has general sales guidance applicable to all roles and segments, including deal and order processing information, customer reference resources, executive sponsorship, and more.
 - [**Enterprise Area Sales Manager playbook**](https://docs.google.com/presentation/d/1HmzgSsau959CSZxEOoXCHdFS9h6a0vvvtDMVsFX57yo/edit?usp=sharing): A 1-pager guide showing the typical operating rhythm that area sales managers use to run their business, manage their teams, and get results. It also includes key reports and dashboards to help you.
-- [**Enterprise Account Executive onboarding journey**](/handbook/sales/onboarding/#learning-journeys): An at-a-glance view of your team member’s first 90 days, and the milestones they should reach during this time.
+- [**Enterprise Account Executive onboarding journey**](/handbook/sales/onboarding/#learning-journeys): An at-a-glance view of your team member's first 90 days, and the milestones they should reach during this time.
 
 ## Strategic sales planning
 
@@ -35,7 +28,7 @@ Strategic sales planning is a key activity every Area Sales Manager (ASM) leads 
 
 ### Territory assignments and GTM planning
 
-This happens annually. In preparation, you’ll look at how those accounts are distributed across your team and validate our goal of having a fairly equitable distribution across your Account Executives (AEs). You’ll recommend territory assignments and quotas and identifying resource requirements to meet and exceed financial targets.
+This happens annually. In preparation, you'll look at how those accounts are distributed across your team and validate our goal of having a fairly equitable distribution across your Account Executives (AEs). You'll recommend territory assignments and quotas and identifying resource requirements to meet and exceed financial targets.
 
 #### Territory planning is a key part of strategic planning
 
@@ -43,11 +36,11 @@ AEs create a new or updated territory plan based on their assignments annually; 
 
 **Every Account Executive in Enterprise Sales should have a territory plan for how they're approaching their patch**, and every ASM should have visibility into it so they can help each AE validate and update their approach. This plan is a high-level, strategic and collaborative plan for targeting the right customers and implementing goals for income and consistent sales growth over time. It includes planning for pipeline generation, partner/channel engagements, and field marketing activities. It's usually followed by the creation of in-depth account plans for prioritized accounts.
 
-While this type of strategic planning is a material up-front time investment, it’s incredibly helpful for an AE in better understanding their territory and is much easier to update and iterate on over time.
+While this type of strategic planning is a material up-front time investment, it's incredibly helpful for an AE in better understanding their territory and is much easier to update and iterate on over time.
 
 #### Account planning
 
-Following a territory plan, a AE has identified and prioritized the accounts they are going to focus on to reach their goals. For their top accounts, each AE should prioritze the ones they’re going to create account plans for and agree with their ASM on the level of detail required. Account planning should occur quarterly, if not more frequently.
+Following a territory plan, a AE has identified and prioritized the accounts they are going to focus on to reach their goals. For their top accounts, each AE should prioritze the ones they're going to create account plans for and agree with their ASM on the level of detail required. Account planning should occur quarterly, if not more frequently.
 
 High-level account plans are often shared using a [strategic account plan template](https://docs.google.com/presentation/d/1AcwkYebTZ9mPfGsKlzd5IvppB_cc8to9z_yUvievSL4/edit?usp=sharing), and can be stored alongside territory plans. Detail and month to month maintenance usually occurs in Gainsight in collaboration with Customer Success Managers (CSMs) for expand accounts that have a CSM assigned. CS team members and AEs can build joint success plans in [Gainsight and use it to view customer product usage and health scoring](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/#quick-links).
 
@@ -73,13 +66,13 @@ Partner reviews are used to make sure the partner plan is aligned with regional 
 - Where and what type of additional partners are needed and why?
 - How do we drive even more alignment and collaboration between key partners and GitLab account teams?
 
-ASMs either host or participate in these depending on who owns the activity (this looks different in different regions and sectors). It’s a best practice have either a bi-weekly or monthly connect with your regional Channel & Alliances team, and support it with a plan of how you'd like to collaborate.
+ASMs either host or participate in these depending on who owns the activity (this looks different in different regions and sectors). It's a best practice have either a bi-weekly or monthly connect with your regional Channel & Alliances team, and support it with a plan of how you'd like to collaborate.
 
 #### Opportunity Reviews
 
 [Opportunity consults](/handbook/sales/command-of-the-message/opportunity-consults/) are deal reviews that focus on helping a sales team member maximize the likelihood of winning and securing the customer's business. They are based on a joint inspection of the "health" of the opportunity's [Command Plan](/handbook/sales/command-of-the-message/command-plan/) and a 2-way dialogue to identify and commit to specific actions that aim to increase the likelihood of success.
 
-**Using the Command Plan in an opportunity consult.** Every key opportunity, especially for key accounts, should have a command plan associated with it. This gives the business visibility into the opportunity, how it’s developing, and highlights where they can support and coach the AE on progressing it forward. Our command plan reviews follow the Command of the Message Sales Methodology, and incorproate MEDDPPICC.
+**Using the Command Plan in an opportunity consult.** Every key opportunity, especially for key accounts, should have a command plan associated with it. This gives the business visibility into the opportunity, how it's developing, and highlights where they can support and coach the AE on progressing it forward. Our command plan reviews follow the Command of the Message Sales Methodology, and incorproate MEDDPPICC.
 
 **Identifying opportunities for a consult.** During monthly forecast calls and weekly 1x1s, the ASM and each AE identify which opportunities would benefit from an opportunity consult and work together to get those scheduled. When possible, the entire account team (AE, SA, CSM, and SDR) participates in these reviews.
 
@@ -124,7 +117,7 @@ Month 2 and Month 3 forecast & pipeline reviews are typically scheduled for 2 ho
 We have detailed guidance on Sales Forecasting, Opportunity Management, and using our tools to review on the [internal handbook page](https://internal.gitlab.com/handbook/sales/sales-forecasting/).  Guide AEs to [the Clari cheat sheet](https://docs.google.com/presentation/d/1ZvQzFrmmqsJPUIk_FxfTy5X0G59IIWDve0Rfmfw1Wec/edit#slide=id.g133719dda83_2_102) and #sales-support Slack channel for additional support.
 
 - **AEs should be empowered to be the CEO of their own territory and manage their business accordingly.** ASMs will need to manage the agenda to ensure the team doesn't get bogged down in too much detail and encourage AEs to focus on the bigger picture. More specifically, even the best AEs will miss their quarterly quota from time to time. What's important is that the AE and ASM are aware of the risk in advance and that there is sufficient pipeline in other quarters to make up for a down quarter.
-- **It’s not a performance review.** ASMs should also continuously reinforce that the dashboards, heat map, and other resources listed below are for the AE's benefit (not management tools) and to help them effectively manage their business.
+- **It's not a performance review.** ASMs should also continuously reinforce that the dashboards, heat map, and other resources listed below are for the AE's benefit (not management tools) and to help them effectively manage their business.
 - **3.5x is the rule of thumb for pipeline.** A general rule of thumb is that a AE has 3.5x their target in pipeline (view the [Prospecting handbook page](/handbook/sales/prospecting/#build-your-strategy) for in-depth guidance). During strategic planning they should identify this number and then work backwards to determine the value they need to deliver every quarter and every month.
 
 ## Coaching team members
@@ -155,7 +148,7 @@ Last but not least, ASMs also assess their teams annually following the [Perform
 
 All team members go through an onboarding journey by segment and role. [View the AE onboarding journey here.](/handbook/sales/onboarding/#learning-journeys). In it, AEs are assigned the following activities:
 
-- Standard GitLab onboarding issue (1-2 weeks): AEs should complete all ‘red dot’ tasks in their onboarding issue, bookmark and organize key resources, and learn about the GitLab product they’re going to be selling
+- Standard GitLab onboarding issue (1-2 weeks): AEs should complete all 'red dot' tasks in their onboarding issue, bookmark and organize key resources, and learn about the GitLab product they're going to be selling
 - Customer Ready Shadow Program: Shadowing can start as soon as they take the 20-minute training in their onboarding issue.
 - Sales Quickstart (async pre-work and 1 week of ): This time should be spread across their first two weeks. This covers general sales methodology, DevOps landscape, MEDDPPICC, our portfolio of products, and our customers, personas, and their pain points.
 - Role-based pathway (4 hours per month for first 90 days): This pathway is divided into bite-sized training they should complete during their first 90 days and guides them around key activities they should be familiar with as a AE. Things like territory planning, pipeline generation, effective discovery.
@@ -164,10 +157,10 @@ ASMs should work with new AEs to develop and monitor progress against their 30/6
 
 ### Key activities for managers during team onboarding
 
-- Support your ramping AE. ASMs should encourage new AEs to complete “red dot” tasks in their general GitLab onboarding issue, bookmark and organize key resources, complete their role-speific onboarding, and prioritize peer-to-peer shadowing of customers calls.
-- Connect the dots. Encourage your new hires to speak up or ask for help when and if they need it. Pair them with an onboarding buddy to support their first 90 days, and point them to the right resource and team when they’re not sure where to find something.
+- Support your ramping AE. ASMs should encourage new AEs to complete "red dot" tasks in their general GitLab onboarding issue, bookmark and organize key resources, complete their role-speific onboarding, and prioritize peer-to-peer shadowing of customers calls.
+- Connect the dots. Encourage your new hires to speak up or ask for help when and if they need it. Pair them with an onboarding buddy to support their first 90 days, and point them to the right resource and team when they're not sure where to find something.
 - Actively support their shadow time with peers. 100% of our new hires recommend customer call shadowing as a key way to onboard fast. Learn about the program, help them prioritize participation, and foster a culture of shadowing within your team.
-- Get familiar with their onboarding journey. Every AE is required to complete role-specific training - this is the content that the majority of AEs need to know to do their everyday jobs. Without it, AEs generally don’t know where to find what they need or who to go to for what.
+- Get familiar with their onboarding journey. Every AE is required to complete role-specific training - this is the content that the majority of AEs need to know to do their everyday jobs. Without it, AEs generally don't know where to find what they need or who to go to for what.
 
 ## Recruiting top talent
 
@@ -192,7 +185,7 @@ Start by encouraging them to create an [Individual Growth Plan](/handbook/people
 
 ## Manager development program
 
-Manager effectiveness is important to GitLab’s continued ability to attract, develop, and retain key talent and deliver scalable, efficient growth. In response, the Corporate L&D, People, and Field Enablement teams collaborated to launch programs to equip managers with a foundational set of skills & practices for effectively managing remote teams across GitLab’s field organization.
+Manager effectiveness is important to GitLab's continued ability to attract, develop, and retain key talent and deliver scalable, efficient growth. In response, the Corporate L&D, People, and Field Enablement teams collaborated to launch programs to equip managers with a foundational set of skills & practices for effectively managing remote teams across GitLab's field organization.
 
 **Manager Challenge:** [The Manager Challenge](/handbook/people-group/learning-and-development/manager-challenge/) addresses your specific needs to understand the qualities of a good leader and to master practical leadership styles that empower you to become a confident people leader. Effective leadership is grounded in your understanding of powerful interpersonal skills that inspire performance, communication, team member retention, and motivation to achieve results.
 

@@ -1,14 +1,7 @@
 ---
-
 title: Training Opportunities
 description: This page describes the training opportunities avaialble.
 ---
-
-
-
-
-
-
 
 ## What training do we recommend for Engineers?
 

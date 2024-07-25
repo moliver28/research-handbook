@@ -21,7 +21,7 @@ In addition to Talent Program execution, this role focuses on providing structur
 - Drives management of key programs assisting with all aspects of projects from business case approval through validation of success metrics
 - Manages interdependencies between projects to ensure optimal efficiency and collaboration
 - Supports the team in navigating change management and/or conflict when necessary
-- Provides regular updates on the program’s progress
+- Provides regular updates on the program's progress
 - Resourceful in problem-solving, proactively manages multiple projects with a keen sense of attention to detail
 - Manages meeting coordination and facilitation by ensuring all logistical aspects are organized and communicated concisely
 - Works closely and cross-functionally with both the PBP team, stakeholders, and Program Managers within other People Group departments
@@ -44,7 +44,7 @@ In addition to Talent Program execution, this role focuses on providing structur
 - Demonstrated ability to work in a fast-paced global environment with substantial attention to detail
 - Comfortable with rapid iterations of project deliverables to meet the evolving needs of the organization
 - Ability to influence and use data to inform recommendations to others
-- Aligns to GitLab’s Values
+- Aligns to GitLab's Values
 - Ability to use GitLab
 
 ## Levels

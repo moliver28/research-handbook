@@ -1,12 +1,6 @@
 ---
-
 title: "Partner FAQ - Selling with GitLab"
 ---
-
-
-
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
@@ -30,7 +24,7 @@ GitLab also has a [Service Attach DR](/handbook/sales/field-operations/channel-o
 I am unable to log into the Partner Portal to submit a Deal Registration (DR). How can I get access and submit a DR?
 </summary>
 
-If you have a Partner Portal account but are unable to login, please [select “Forgot Password”](https://partners.gitlab.com/English/) to reset your password. If you do not have a Partner Portal account, please [select “Request Portal Access”](https://partners.gitlab.com/English/) to set up an account. Please contact `partnersupport@gitlab.com` for assistance ​​if you have followed the directions but are still having issues.
+If you have a Partner Portal account but are unable to login, please [select "Forgot Password"](https://partners.gitlab.com/English/) to reset your password. If you do not have a Partner Portal account, please [select "Request Portal Access"](https://partners.gitlab.com/English/) to set up an account. Please contact `partnersupport@gitlab.com` for assistance ​​if you have followed the directions but are still having issues.
 
 Note, to submit a Deal Registration, you must first be an authorized GitLab partner as well as have completed the [required training](/handbook/resellers/channel-working-with-GitLab/#training--certification-requirements-for-transactions-deal-registrations-nfrs-and-letters-of-authorization-loas) in order to be granted access to submit a DR.
 
@@ -38,7 +32,7 @@ Note, to submit a Deal Registration, you must first be an authorized GitLab part
 
 <details>
 <summary markdown="span">
-What does it mean when the status of a Deal Registration is "Returned”?
+What does it mean when the status of a Deal Registration is "Returned"?
 </summary>
 
 The Channel Account Manager (CAM) assigned to the Deal Registration (DR) has reviewed and sent it back to the resale partner for additional information/context. Once the resale partner reviews and responds to the CAM's feedback, the CAM will be notified to review and action the updated DR.
@@ -51,7 +45,7 @@ The Channel Account Manager (CAM) assigned to the Deal Registration (DR) has rev
 
 <details>
 <summary markdown="span">
-Where can I find information on GitLab’s partner discounts, incentives, and rebate programs?
+Where can I find information on GitLab's partner discounts, incentives, and rebate programs?
 </summary>
 
 Please review the [GitLab Program Discounts and Incentive Guide](https://partners.gitlab.com/prm/English/s/assets?collectionId=49440) in the GitLab Partner Portal which contains information on our partner discounts, incentives, rebate programs and more. You can also refer to the [Partner handbook](/handbook/resellers/channel-working-with-GitLab/#definitions-and-qualifications) for an overview.
@@ -142,12 +136,12 @@ Please let the GitLab Sales team know your customer has an offline/air-gapped en
 
 <details>
 <summary markdown="span">
-My customer’s renewal quote includes true-up seats. What are true-ups and why is the customer charged for these seats at renewal?
+My customer's renewal quote includes true-up seats. What are true-ups and why is the customer charged for these seats at renewal?
 </summary>
 
 The customer purchased a specific number of seats in their original subscription. If the customer adds more users to their GitLab instance than the number they are licensed for during the subscription period, payment for the additional/overage users is required at time of renewal.
 
-Note, “Users over subscription ([Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#users-over-subscription)) / “Seats owed” ([SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#seats-owed)) in the customer’s admin dashboard represent the number of overage users the customer incurred during the subscription term. Please refer the customer to these guides for how to locate their admin dashboard for [Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#view-your-subscription) and [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#view-your-gitlab-saas-subscription) subscriptions.
+Note, "Users over subscription ([Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#users-over-subscription)) / "Seats owed" ([SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#seats-owed)) in the customer's admin dashboard represent the number of overage users the customer incurred during the subscription term. Please refer the customer to these guides for how to locate their admin dashboard for [Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#view-your-subscription) and [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#view-your-gitlab-saas-subscription) subscriptions.
 
 </details>
 
@@ -165,7 +159,7 @@ Please refer the customer to these guides on how to locate their admin dashboard
 Our customer has blocked/deactivated/removed users from their subscription. Will these users count towards billable users/seats currently in use at renewal? How will these users be reflected/charged?
 </summary>
 
-Deactivated, blocked, and removed users don’t count as “Billable Users (Self-Managed) / “Seats currently in use” (SaaS) in the current subscription. However, they may count toward overages in the subscribed seat count which will be charged as true-ups at renewal. Refer to [Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#billable-users) and [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#remove-users-from-your-subscription) subscription documentation for more information.
+Deactivated, blocked, and removed users don't count as "Billable Users (Self-Managed) / "Seats currently in use" (SaaS) in the current subscription. However, they may count toward overages in the subscribed seat count which will be charged as true-ups at renewal. Refer to [Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#billable-users) and [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#remove-users-from-your-subscription) subscription documentation for more information.
 
 </details>
 
@@ -180,7 +174,7 @@ The minimum quantity required to be renewed is the customers "Billable users" (S
 
 <details>
 <summary markdown="span">
-My customer worked with a different reseller for their previous order. Are you able to transfer incumbency (i.e., incumbent partner discounts) to my organization for the customer’s renewal?
+My customer worked with a different reseller for their previous order. Are you able to transfer incumbency (i.e., incumbent partner discounts) to my organization for the customer's renewal?
 </summary>
 
 Yes, if the customer provides formal communication through email to confirm they would like to work with you for this renewal (i.e., the new reseller), we are able to transfer incumbency discounts. Refer to the [Partner Operations handbook](/handbook/sales/field-operations/channel-operations/#incumbency-renewals) for further details.
@@ -192,7 +186,7 @@ Yes, if the customer provides formal communication through email to confirm they
 If my customer wants to add seats to their instance before their renewal, does the add-on need to be processed before I can request a renewal quote for the entire subscription?
 </summary>
 
-Yes, for the customer’s overall license count to be accurate during the renewal, add-on licenses need to be fully processed before GitLab can generate a renewal quote. Refer to the [Deal Desk handbook](/handbook/sales/field-operations/sales-operations/deal-desk/#transacting-a-separate-add-on-opportunity-prior-to-renewal) for further guidance.
+Yes, for the customer's overall license count to be accurate during the renewal, add-on licenses need to be fully processed before GitLab can generate a renewal quote. Refer to the [Deal Desk handbook](/handbook/sales/field-operations/sales-operations/deal-desk/#transacting-a-separate-add-on-opportunity-prior-to-renewal) for further guidance.
 
 </details>
 
@@ -227,7 +221,7 @@ A signed GitLab quote/order form is acceptable in place of a PO as long as the d
 
 <details>
 <summary markdown="span">
-How do I ensure my PO submission will count toward GitLab’s current fiscal quarter?
+How do I ensure my PO submission will count toward GitLab's current fiscal quarter?
 </summary>
 
 Please refer to the guidelines listed in the [Sales Order Processing handbook](/handbook/sales/field-operations/order-processing/#end-of-quarter-bookings) regarding end-of-quarter bookings.

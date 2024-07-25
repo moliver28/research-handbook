@@ -33,7 +33,7 @@ The Senior Manager, Self-Service Sales is a [grade 9](/handbook/total-rewards/co
 
 #### Senior Manager, Self-Service Sales Requirements
 
-- Experience selling to Fortune 500; willingness to “roll up your sleeves” and sell
+- Experience selling to Fortune 500; willingness to "roll up your sleeves" and sell
 - Proven track record of meeting or exceeding performance objectives (revenue targets, pipeline targets, etc.)
 - Strong presentation skills; Executive level communication skills (both written and verbal) and the ability to mentor others
 - Experience leading a front line customer facing team and owning key business performance outcomes.

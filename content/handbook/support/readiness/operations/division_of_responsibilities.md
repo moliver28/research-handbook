@@ -15,7 +15,7 @@ The current division of responsibilities is:
 |                     | [Zendesk US Federal Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                          | @jcolyer         | @lyle            |
 |                     | [FrameAI Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                          | @lyle | @jcolyer          |
 | Account Deletions   | [Form](https://gitlab.com/gitlab-com/support/support-ops/forms/account-deletion)                                                                      | @jcolyer         | @dtragjasi       |
-|                     | [Issues](https://gitlab.com/gitlab-com/gdpr-request/-/issues)                                                                                         | @jcolyer         | @avilla4         |
+|                     | [Issues](https://gitlab.com/gitlab-com/gdpr-request/-/issues)                                                                                         | @avilla4         | @rverschoor      |
 |                     | [Processor](https://gitlab.com/gitlab-com/support/support-ops/other-software/account-deletion-processor)                                              | @jcolyer         | @avilla4         |
 |                     | [Questions](https://gitlab.slack.com/archives/C04357HVCJD)                                                                                            | @jcolyer         | @secole          |
 | Audits              | [1Password](https://gitlab.com/gitlab-com/support/support-ops/support-ops-tools/audits/-/issues)                                                      | @jcolyer         | @lyle            |

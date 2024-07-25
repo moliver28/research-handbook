@@ -1,5 +1,4 @@
 ---
-
 title: Home Page for Support's Ginkgo Group
 description: Home Page for Support's Ginkgo Group
 ---

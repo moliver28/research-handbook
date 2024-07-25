@@ -117,12 +117,12 @@ The Senior Social Media Manager is a [grade 7](/handbook/total-rewards/compensat
 Market Justification
 
 - The Staff Social Media Manager role will provide a high level of expertise in solving complex problems with a strong understanding of integrated marketing campaigns, audience, and paid & organic social media strategy.
-- Additionally, this role will be key in bridging existing gaps between organic social media efforts and more enterprise integrated digital marketing initiatives, helping to shape GitLab’s new digital marketing experience.
+- Additionally, this role will be key in bridging existing gaps between organic social media efforts and more enterprise integrated digital marketing initiatives, helping to shape GitLab's new digital marketing experience.
 - Within public enterprise B2B technology organizations, approximately 1-3 team members exist in similar or the same role(s), particularly as a cross-section between social and digital marketing.
 
-This Staff Social Media Manager role bridges the gap between two functional areas, social media, and digital marketing. The “Manager” designation indicates this role's ability to influence decisions across teams for a candidate who can drive innovation and experimentation beyond social media and their title in a specific department and is considered a problem solver.
+This Staff Social Media Manager role bridges the gap between two functional areas, social media, and digital marketing. The "Manager" designation indicates this role's ability to influence decisions across teams for a candidate who can drive innovation and experimentation beyond social media and their title in a specific department and is considered a problem solver.
 
-Staff Social Media Managers on the Social Media team are prolific and creative social media strategists with experience in digital marketing and customer journey marketing. They define GitLab’s social media marketing strategy and create full-funnel campaign strategies that intersect areas of paid media, content, and sales. They own the delivery and results of associated Social Media deliverables and OKRs and the social media customer journey. They are focused on improving campaign results, productivity, operational efficiency, brand reputation and influencing customer decision making. They collaborate across digital marketing, sales, and content marketing, bridging more traditional organic social media efforts with integrated campaigns and digital marketing.
+Staff Social Media Managers on the Social Media team are prolific and creative social media strategists with experience in digital marketing and customer journey marketing. They define GitLab's social media marketing strategy and create full-funnel campaign strategies that intersect areas of paid media, content, and sales. They own the delivery and results of associated Social Media deliverables and OKRs and the social media customer journey. They are focused on improving campaign results, productivity, operational efficiency, brand reputation and influencing customer decision making. They collaborate across digital marketing, sales, and content marketing, bridging more traditional organic social media efforts with integrated campaigns and digital marketing.
 
 #### Job Grade
 
@@ -130,13 +130,13 @@ The Staff Social Media Manager is a [grade 8](/handbook/total-rewards/compensati
 
 #### Responsibilities
 
-- Defines, implements, and regularly iterates on GitLab’s social media strategies
+- Defines, implements, and regularly iterates on GitLab's social media strategies
 - Leads end-to-end brand-level or product-related social campaigns - including paid social where appropriate
 - Oversees external contributors, including agency vendors
-- Collaborates with the campaigns team on campaign strategy, position, messaging, and customer journey mapping and engagement, ensuring the social team’s contribution
+- Collaborates with the campaigns team on campaign strategy, position, messaging, and customer journey mapping and engagement, ensuring the social team's contribution
 - Performs regular gap analysis to identify areas of success, improvement, and opportunity
 - Directly engages with influencers and media, as needed
-- Identifies and executes “surprise and delight” moments
+- Identifies and executes "surprise and delight" moments
 - Educates team members on social media best practices and manages social media team member engagement program to increase brand awareness
 - Manages daily/weekly/monthly, and quarterly reporting
 
@@ -156,7 +156,7 @@ The Principal Social Media Manager is a [grade 9](/handbook/total-rewards/compen
 #### Responsibilities
 
 - Lead campaigns, positioning, and messaging as the expert on the GitLab brand
-- Integrate GitLab’s brand voice and GitLab’s values into our social media strategy and content
+- Integrate GitLab's brand voice and GitLab's values into our social media strategy and content
 - Ability to act discreetly with non-public information
 - Take ownership of the delivery and results of social media deliverables and OKRs.
 - Strong focus on improving results, productivity, and operational efficiency.
@@ -175,7 +175,7 @@ The Principal Social Media Manager is a [grade 9](/handbook/total-rewards/compen
 
 Adding "Manager," to the front of the job title indicates that this role is a practice and people manager.
 
-Managers in the Social Media team are prolific and creative social media strategists. They define GitLab’s social media strategy and manage a world-class team to expand GitLab's influence, awareness, subscribers, and leads. They own the delivery and results of Social Media deliverables and OKRs. They are focused on improving results, productivity, and operational efficiency. They must also collaborate across departments to accomplish collective goals.
+Managers in the Social Media team are prolific and creative social media strategists. They define GitLab's social media strategy and manage a world-class team to expand GitLab's influence, awareness, subscribers, and leads. They own the delivery and results of Social Media deliverables and OKRs. They are focused on improving results, productivity, and operational efficiency. They must also collaborate across departments to accomplish collective goals.
 
 #### Job Grade
 
@@ -206,7 +206,7 @@ The Manager, Social Media is a [grade 8](/handbook/total-rewards/compensation/co
 
 Adding "Manager," to the front of the job title indicates that this role is a practice and people manager.
 
-Senior Managers in the Social Media team take their role as a people manager and social media expert to the next level. They lead with data and influence. Senior Managers need to balance the "social" and the "media" of social media. They don't just define GitLab’s social media strategy, Senior Managers bring their personal philosophies and practices to teach everyone else on the team.
+Senior Managers in the Social Media team take their role as a people manager and social media expert to the next level. They lead with data and influence. Senior Managers need to balance the "social" and the "media" of social media. They don't just define GitLab's social media strategy, Senior Managers bring their personal philosophies and practices to teach everyone else on the team.
 
 #### Job Grade
 
@@ -215,8 +215,8 @@ The Senior Manager, Social Media is a [grade 9](/handbook/total-rewards/compensa
 #### Responsibilities
 
 - Lead campaigns, positioning, and messaging as the expert on the GitLab brand
-- Integrate GitLab’s brand voice and GitLab’s values into our social media strategy and content
-- Scale, develop, and manage the social media team to expand GitLab’s influence and awareness and engage followers
+- Integrate GitLab's brand voice and GitLab's values into our social media strategy and content
+- Scale, develop, and manage the social media team to expand GitLab's influence and awareness and engage followers
 - Willingness to be a player/coach and to roll up your sleeves
 - Own the delivery and results of social media deliverables and OKRs.
 - Strong focus on improving results, productivity, and operational efficiency.

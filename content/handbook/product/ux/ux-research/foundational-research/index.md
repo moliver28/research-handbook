@@ -10,7 +10,7 @@ This type of research is not necessarily focused on answering questions about th
 
 ## The purpose of doing foundational research
 
-Foundational research focuses on users’ mental models, behaviors, unmet needs, and problem areas. This facilitates a holistic understanding of current and prospective users (who they are, what they believe, how they behave, why they think/feel/act the way they do). By taking an in-depth look at users outside of a single product feature or product area, teams can address more long-term user needs.
+Foundational research focuses on users' mental models, behaviors, unmet needs, and problem areas. This facilitates a holistic understanding of current and prospective users (who they are, what they believe, how they behave, why they think/feel/act the way they do). By taking an in-depth look at users outside of a single product feature or product area, teams can address more long-term user needs.
 
 ## When to conduct foundational research
 
@@ -34,7 +34,7 @@ Foundational research is different because the research outputs have a greater b
 
 ### Foundational research compared to solution validation research
 
-[Solution validation research](/handbook/product/ux/ux-research/solution-validation-and-methods/) assesses how well a product meets users’ needs by examining how users interact with new designs prior to development or the current product. This research is typically done later in the product lifecycle.
+[Solution validation research](/handbook/product/ux/ux-research/solution-validation-and-methods/) assesses how well a product meets users' needs by examining how users interact with new designs prior to development or the current product. This research is typically done later in the product lifecycle.
 
 Alternately, foundational research helps generate new ideas by answering unknown questions about your users. This goes beyond a product, prototype, or experience to provide high-level feedback that reveals opportunities, which can be tackled within future sprints of a product roadmap.
 

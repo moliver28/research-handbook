@@ -1,10 +1,8 @@
 ---
-
 title: GCP Marketplace license
 description: "GCP Marketplace ticket request"
 category: GitLab Self-Managed licenses
 ---
-
 
 ## GCP Marketplace License Overview
 

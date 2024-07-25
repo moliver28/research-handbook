@@ -62,7 +62,7 @@ The Director, Talent Management is a [grade 10](/handbook/total-rewards/compensa
 
 - Partner with our People Business Partner team to evolve our talent assessment and promotion processes
 - At an enterprise-view, build a process to continuously evaluate and report on organizational design themes to ensure that we grow in the most effective way possible (e.g. org shape)
-- Build out our “Talent Preparedness” vision, to ensure that we are ready to build the right skills for the future and the ever evolving technology landscape
+- Build out our "Talent Preparedness" vision, to ensure that we are ready to build the right skills for the future and the ever evolving technology landscape
 - Partnering with our Diversity, Inclusion & Belonging team to ensure that we build all talent programs with DIB involvement from the start.
 - Partnering with our People Connect and Ops teams to ensure that they have the appropriate information to help guide our team member population as appropriate
 - Partnering with Total Rewards to ensure our talent strategy aligns to Pay for Performance philosophy

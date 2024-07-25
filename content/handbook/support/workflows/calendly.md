@@ -1,11 +1,8 @@
 ---
-
 title: Calendly Setup for Support
 category: References
 description: "Workflow for setting up and using Calendly in Support Engineering"
 ---
-
-
 
 **Note**: Always use [single-use Calendly links](#generating-a-single-use-calendly-link) when offering a call with customers.
 
@@ -42,7 +39,7 @@ The above video shows how to set this up, but the general gist is:
 
 You need to be added to the GitLab Support group account to enable the
 Calendly Pro account features, including the ability to add multiple
-["event types"](https://help.calendly.com/hc/en-us/categories/203257248-Customize-Event-Types)
+["event types"](https://help.calendly.com/hc/en-us/articles/14073251046807-How-to-customize-your-event-types)
 for scheduling calls with customers and colleagues as recommended in the
 [suggestions](#suggestions) below.
 
@@ -58,7 +55,7 @@ This access is also included as part of [support onboarding](/handbook/support/#
 
 Calendly 60 minute meetings default to an 'availability Increment' of 60 minutes.
 
-Only slots starting at the top of the hour are offered. If you’ve got 90 minutes available,
+Only slots starting at the top of the hour are offered. If you've got 90 minutes available,
 or a (say) a 14:30-15:30 window available, then reducing the increment to 30 minutes increases your availability.
 
 - Log in and edit the event type
@@ -166,7 +163,9 @@ curl -s -H "Authorization: Bearer <your Calendly API token>" \
 
 This will output something like the following:
 
-> <https://calendly.com/d/m6we-x8r7/support-call-with-me>
+```plaintext
+https://calendly.com/d/m6we-x8r7/support-call-with-me
+```
 
 ### using [httpie](https://github.com/httpie/httpie)
 

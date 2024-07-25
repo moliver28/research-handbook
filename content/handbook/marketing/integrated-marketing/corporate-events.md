@@ -1,5 +1,4 @@
 ---
-
 title: Corporate Event Marketing at GitLab
 description: For corporate event marketing at GitLab
 twitter_image: null
@@ -7,13 +6,6 @@ twitter_image_alt: GitLab's Corporate Marketing Team Handbook
 twitter_site: gitlab
 twitter_creator: gitlab
 ---
-
-
-
-
-
-
-
 
 ## Mission Statement
 
@@ -70,7 +62,7 @@ twitter_creator: gitlab
   <tr>
 </table>
 
-### If you’d like to email us instead, please reach us at
+### If you'd like to email us instead, please reach us at
 
 General Questions: [events at gitlab dot com](mailto:events@gitlab.com)
 
@@ -142,7 +134,7 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 
 ### Process
 
-**Goal:** ensure that GitLab’s presence is widely recognized at all sponsored events.
+**Goal:** ensure that GitLab's presence is widely recognized at all sponsored events.
 
 #### If our sponsorship **does include** speaking session
 
@@ -152,7 +144,7 @@ Once a session topic is chosen, the sponsored events manager will hand off to th
 
 #### If our sponsorship **does not include** speaking session
 
-If our sponsorship does not include a speaking session, the ECM will ensure that our Developer Advocate team has it on their radar via the [FY24 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/) to submit during the event’s open CFP.
+If our sponsorship does not include a speaking session, the ECM will ensure that our Developer Advocate team has it on their radar via the [FY24 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/) to submit during the event's open CFP.
 
 If a session is chosen by an event for a CFP that was submitted, the sponsored events manager will create an issue with all pertinent information provided by the event. They will tag the ECM and all pertinent parties that will assist in creating the presentation into the issue. The sponsored events manager will hand off to the ECM and they will ensure:25 that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
 
@@ -234,9 +226,9 @@ These are estimated numbers that the Corporate Events team uses to account for b
 ### Process
 
 1. Corporate Events Content Manager to identify and communicate the number of lightning talk slots available and deadlines.
-2. The Overall Content DRI will then start the process of identifying the key messaging that we would like portrayed throughout the lightning talks at the booth. They will work with the Partner Lightning Talk DRI and GitLab lightning talk DRI to communicate overall messaging and identify content that we would like to be given at our booth. Once the messaging, lightning talks, and speakers are identified and confirmed, they will fill in the lightning talk schedule in the Sponsored Event’s Main Tracker. All lightning talks must be approved by the Overall Content DRI.
+2. The Overall Content DRI will then start the process of identifying the key messaging that we would like portrayed throughout the lightning talks at the booth. They will work with the Partner Lightning Talk DRI and GitLab lightning talk DRI to communicate overall messaging and identify content that we would like to be given at our booth. Once the messaging, lightning talks, and speakers are identified and confirmed, they will fill in the lightning talk schedule in the Sponsored Event's Main Tracker. All lightning talks must be approved by the Overall Content DRI.
 3. Once content is confirmed and the lightning talk schedule is finalized, content creation can begin. The Corporate Events Content Manager will create an issue for each lightning talk.
-    * For each GitLab lightning talk the Corporate Events Content Manager will provide a GitLab branded slide template for each session. For Partner lightning talks, the partner can create their lightning talk on their own company’s branded template.
+    * For each GitLab lightning talk the Corporate Events Content Manager will provide a GitLab branded slide template for each session. For Partner lightning talks, the partner can create their lightning talk on their own company's branded template.
     * [Issue template for GitLab Lightning Talks](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=event-lightningtalk-gitlab-speaker)
     * [Issue template for Partner Lightning Talks](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=event-lightningtalk-partner-speaker)
 4. Once GitLab content is created, it will then go through the review process which will entail: Overall Content DRI Review, Brand Compliance DRI Review, and Legal Review (only if necessary). Reviewers will leave feedback as comments in the slide presentation to be addressed.
@@ -246,7 +238,7 @@ These are estimated numbers that the Corporate Events team uses to account for b
 ## GitLab DevSecOps World Tour
 
 * DevSecOps World Tour - Planning Epic _coming soon_
-* GitLab DevSecOps World Tour, GitLab’s user conference, is an event that connects you to the ideas, technologies, and people that are driving DevSecOps transformation and is for the technology champions responsible for building, operating and securing applications.
+* GitLab DevSecOps World Tour, GitLab's user conference, is an event that connects you to the ideas, technologies, and people that are driving DevSecOps transformation and is for the technology champions responsible for building, operating and securing applications.
 
 ### Event Execution
 
@@ -435,7 +427,7 @@ For both GitLab-owned and external events, speakers and content DRIs should buil
 * Speak clearly (ideally facing forward without covering your mouth)
 * Avoid acronyms and colloquialisms as much as possible
 * When addressing someone specifically, ask for his/her/their name and confirm pronouns
-* Specify when you’re finished speaking
+* Specify when you're finished speaking
 * For interpreters, always look at and address the participating attendee
 * Repeat questions posted by the audience before responding, especially if there is not a roving microphone available.
 
@@ -504,7 +496,7 @@ The Corporate Events team believes that everyone can contribute to virtual event
 
 Having run several global-focused virtual events, the GitLab team has some [best practices and recommendations to share](https://docs.google.com/document/d/1rPvewsTWm8uqGv-6Wr4-_j4ZmBVjL75fU5_YGV98d24/edit?usp=sharing) with prospective speakers.
 
-## Corporate Events’ Diversity, Inclusion, and Belonging Initiatives
+## Corporate Events' Diversity, Inclusion, and Belonging Initiatives
 
 As part of the event planning and execution process at GitLab, the event lead will ensure that diversity, inclusion, and belonging initiatives are taken into consideration throughout the entire event process.
 
@@ -524,7 +516,7 @@ This includes researching and sourcing for speakers from [underrepresented group
 
 ### Venue/Vendor/Supplier Selection
 
-When working with a vendor or supplier, the team will ensure that the selected venue/vendor/supplier is supportive of GitLab’s DIB values. These may include, but are not limited to the following:
+When working with a vendor or supplier, the team will ensure that the selected venue/vendor/supplier is supportive of GitLab's DIB values. These may include, but are not limited to the following:
 
 * LGBTQIA+, racial, faith/religious, and gender friendly
 * Are able to accommodate accessibility needs or are able to make special arrangements if needed
@@ -546,7 +538,7 @@ When working with a vendor or supplier, the team will ensure that the selected v
 
 ## Environmental Sustainability Initiatives
 
-At GitLab, the Corporate Events team wants to continue to play our part and operate with integrity when we are making decisions. The team is consciously making decisions that help align with the company’s social and environmental efforts.
+At GitLab, the Corporate Events team wants to continue to play our part and operate with integrity when we are making decisions. The team is consciously making decisions that help align with the company's social and environmental efforts.
 
 The Corporate Events team works with our [swag vendor](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/) that sources swag with a goal of 95% of swag is sustainable or eco-friendly or work with companies that have sustainable initiatives. Some categories that the Corporate Events team considers when selecting suppliers are:
 

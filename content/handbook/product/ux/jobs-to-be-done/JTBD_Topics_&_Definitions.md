@@ -44,7 +44,7 @@ The Job Performer is a critical concept referring to the individual undertaking 
 
 ### Main Jobs
 
-The Main Job serves as the central focus for innovation efforts. It represents a goal and has specific criteria. What is the Job Performer trying to get done in the selected Domain? Main Jobs should be timeless and as unchanging as possible. It should be expressed in functional terms, like a utilitarian goal. It’s an act that should be performed and have a clear end state… the “done” part of JTBD. It is not what your company needs to do to deliver a service. Always think in terms of the Job Performer’s perspective. The level of granularity for the Main Job can vary, depending on the innovation's purpose and feasibility.
+The Main Job serves as the central focus for innovation efforts. It represents a goal and has specific criteria. What is the Job Performer trying to get done in the selected Domain? Main Jobs should be timeless and as unchanging as possible. It should be expressed in functional terms, like a utilitarian goal. It's an act that should be performed and have a clear end state… the "done" part of JTBD. It is not what your company needs to do to deliver a service. Always think in terms of the Job Performer's perspective. The level of granularity for the Main Job can vary, depending on the innovation's purpose and feasibility.
 
 Main Jobs follow the [Job Statement](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements) format: [verb] + [object] + [(optional) clarifier]
 

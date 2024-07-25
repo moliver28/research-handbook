@@ -1,5 +1,4 @@
 ---
-
 title: "Coupa Prepaid Automation Process"
 description: "Coupa Prepaid Automation Process (as of 2022-04-01)"
 ---

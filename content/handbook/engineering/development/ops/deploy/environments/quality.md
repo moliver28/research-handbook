@@ -1,13 +1,6 @@
 ---
-
 title: Environments Group - GitLab Quality Assurance End-to-End Testing for the Environments group
 ---
-
-
-
-
-
-
 
 ## Overview
 

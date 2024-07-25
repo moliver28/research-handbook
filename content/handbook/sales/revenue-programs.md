@@ -1,16 +1,7 @@
 ---
-
 title: "Sales Revenue Programs"
 description: "The purpose of GitLab's Revenue Program is to improve the quantity of opportunities and closed business with defined, cross-functional sales motions to ultimately generate more ARR for GitLab."
 ---
-
-
-
-
-
-
-
-
 
 ## Overview
 

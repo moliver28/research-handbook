@@ -100,7 +100,7 @@ Incentivize, attract and retain contributors by providing a compelling value and
 
 #### Contributor career advancement
 
-* **Why:** In Open Source Projects, the contributors’ motivation in addition to solving a bug or adding a missing feature is to get experience and build their CV for career advancement.
+* **Why:** In Open Source Projects, the contributors' motivation in addition to solving a bug or adding a missing feature is to get experience and build their CV for career advancement.
 * **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9077>
 * **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 
@@ -120,7 +120,7 @@ Center diversity, equity, and inclusion within our open source community relatio
 
 #### Track internal DEI group participation
 
-* **Why:** By tracking GitLab participation in DEI groups and initiatives, we can increase our team’s awareness on diversity, equity and inclusion best practices. We can also reach more potential contributors at external groups.
+* **Why:** By tracking GitLab participation in DEI groups and initiatives, we can increase our team's awareness on diversity, equity and inclusion best practices. We can also reach more potential contributors at external groups.
 * **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/)
 
 #### Incentivize contributors at qualifying events

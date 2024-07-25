@@ -48,8 +48,8 @@ Add READ:ME frames when appropriate. Some reasons to add READ:MEs are:
 ## Feedback loops
 
 * Leave feedback in Issues and MRs when possible.
-* Link to the Figma frame when necessary (check “link to selected frame”)
-* Use Figma commenting at your discretion. Ask yourself: Is this an important question that needs to be documented or is it something quick and minor like “this alignment is off, was this intentional?”
+* Link to the Figma frame when necessary (check "link to selected frame")
+* Use Figma commenting at your discretion. Ask yourself: Is this an important question that needs to be documented or is it something quick and minor like "this alignment is off, was this intentional?"
 * If another user wants to edit a frame within an existing file, please duplicate (copy and paste) the existing artboard rather than editing it. This will help preserve various iterations in case we want to go back or reuse a component from a previous iteration later.
 
 ---

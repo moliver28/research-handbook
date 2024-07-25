@@ -34,7 +34,7 @@ Remember to allow everyone to express there opinion and really speak up as to wh
 1. You are able to feel safe in my interactions with police officers.
 1. You are confident that you are paid fairly regardless of your gender
 1. You are able to choose almost any career path that you would like and not have many or any limitations placed upon you
-1. You are able to go to a doctor and getting treatment that doesn’t conflict with your identity
+1. You are able to go to a doctor and getting treatment that doesn't conflict with your identity
 1. Your identity is recognized and taught in the education system
 1. Your intelligence is not questioned due to your accent or the way you speak
 1. You can walk down the street without fear of being sexually assaulted
@@ -42,7 +42,7 @@ Remember to allow everyone to express there opinion and really speak up as to wh
 1. You are able to see people who identify similar to you in executive and leadership positions
 1. You are able to Kiss/hug/be affectionate in public without threat or punishment.
 1. You are free to have a bad day or be in a bad mood without it being blamed on your identity
-1. You are able to go shopping alone knowing that you won’t be followed or harassed by security
+1. You are able to go shopping alone knowing that you won't be followed or harassed by security
 1. You are given the access to the tools/systems/equipment necessary for to succeed in and out of the workplace
 1. You can leave my home knowing that you will have accessibility to transport, shops and buildings
 1. You can be confident that your age is not seen negatively when you apply for a new job

@@ -1,13 +1,6 @@
 ---
-
 title: Application Performance Monitoring Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## About the Application Performance Monitoring (APM) SEG
 

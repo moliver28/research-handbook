@@ -1,11 +1,8 @@
 ---
-
 title: Support Engineering Manager Responsibilities
 description: "Support Engineering Manager Responsibilities"
 category: Support Management
 ---
-
-
 
 ## Introduction
 
@@ -32,7 +29,7 @@ Our primary responsibility in the Support Leadership team is to ensure high qual
 | Help support engineers to resolve tickets accurately and efficiently | Understand GitLab [Support Service Levels](https://about.gitlab.com/support/#gitlab-support-service-levels) and [KPIs](/handbook/support/#how-we-measure-our-performance) |
 |  | Know how we use Zendesk, [Slack](#working-in-slack), and GitLab for ticket management |
 |  | Serve as [Support Manager On-Call](/handbook/support/on-call/) for Customer Emergencies and Escalations |
-|  | Serve as [SSAT Reviewing Manager](/handbook/support/workflows/how-to-respond-to-feedback) for handling Customer Feedback |
+|  | Monitor and [respond to feedback](/handbook/support/workflows/how-to-respond-to-feedback) your Support Engineers receive |
 |  | Know how to use Zendesk Explore to monitor KPIs |
 |  | Work with GitLab Sales, Pricing, Product, and other teams when company initiatives change Support requirements |
 | Help Support Engineers to manage tickets, manage customer expectations, and communicate well | Coach SEs on communication techniques |
@@ -76,7 +73,7 @@ We are equally responsible to ensure our team members are supported in their Git
 |  | Interact with groups to amplify group successes and understand group challenges |
 |  | Encourage and support cross-group collaboration |
 | Serve as a point of escalation to team members | Act as a guide to help progress stagnant SGG initiatives |
-|  | Seek to understand (and be prepared to assist with) the overall health of each group (group wellbeing, collaboration efforts, blockers, capacity issues) |
+|  | Seek to understand (and be prepared to assist with) the overall health of each group (group well-being, collaboration efforts, blockers, capacity issues) |
 |  | Help adjust or redistribute team member priorities based on SGG or individual capacity |
 |  | Communicate clear SGG and/or individual expectations and seek to remove ambiguities |
 |  | Help develop global strategies with team members across SGG groups where it makes sense |

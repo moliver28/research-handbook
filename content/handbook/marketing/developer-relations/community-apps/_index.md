@@ -1,13 +1,6 @@
 ---
-
 title: "GitLab Community Apps"
 ---
-
-
-
-
-
-
 
 ## <i class="" id="overview"></i> GitLab Community Apps Overview
 

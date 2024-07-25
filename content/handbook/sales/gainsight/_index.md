@@ -1,14 +1,7 @@
 ---
-
 title: "Using Gainsight at GitLab"
 description: "The key aspects of using Gainsight at GitLab to drive success for your customer"
 ---
-
-
-
-
-
-
 
 ## What is Gainsight?
 

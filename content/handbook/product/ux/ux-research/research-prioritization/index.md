@@ -5,9 +5,9 @@ description: "How UX Researchers priortize projects"
 
 Working from a prioritized list of research projects is necessary for UX Researchers at GitLab. This page walks through a process for UX Researchers to adopt within their own stages and stage groups to prioritize their research projects.
 
-## Why it’s important to prioritize research projects
+## Why it's important to prioritize research projects
 
-Researchers have limited capacity, so it’s important to make sure they’re spending their time on the most impactful research projects that are best suited for them to address directly. A set of prioritized projects helps the UX Researcher to push back when lower-priority projects surface. Having a prioritized list also helps UX Researchers move quickly on alternate projects as things change throughout the quarter.
+Researchers have limited capacity, so it's important to make sure they're spending their time on the most impactful research projects that are best suited for them to address directly. A set of prioritized projects helps the UX Researcher to push back when lower-priority projects surface. Having a prioritized list also helps UX Researchers move quickly on alternate projects as things change throughout the quarter.
 
 ## Who is responsible for research project prioritization?
 
@@ -82,13 +82,13 @@ The [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1RoT5Y
 | Type     | The type of research the project falls into: foundational, problem validation, solution validation. | Foundational = 3 <br> Problem Validation = 2 <br> Solution Validation = 1 |
 |  Ownership| Can this research be supported someone other than a UX Researcher? | Yes = 3 <br> Somewhat = 2 <br> No = 1|
 | Design Support | Is this project being requested by a Product team with Product Design support? | Not applicable for this research (study created/led by UX Research) = 3 <br> Requesting Product team has Product Designers = 2 <br> Requesting Product team does not have Product Designers = 1 |
-| Complexity | Does this project involve multiple studies or methodologies?   | Yes = 2<br> No = 1<br> I don’t know = 0|
+| Complexity | Does this project involve multiple studies or methodologies?   | Yes = 2<br> No = 1<br> I don't know = 0|
 | Skill Development | Will this support skill development for the team or refine a process if a UX Researcher is involved?   | Yes = 3<br> Somewhat = 2 <br> No = 1|
 | Confidence | What level of confidence or knowledge do you have in the proposed solution or area of focus?  | High = 3 <br> Medium = 2<br> Low = 1|
 | Impact   | What impact does this work aim to have? (UXR impact framework link TBA) | Changes in product strategy / planning = 3<br> Changes to product / design = 2 <br> Knowledge gaps identified / filled = 1 |
 | Users | How much of the user base will this project consider? Consider the entire user base. | All = 3<br> Most = 2<br> Some = 1 |
 | Scope | Does this project align with company, section, stage, or stage group goals?  | Company = 4<br> Section = 3<br> Stage = 2<br> Stage Group = 1 |
-| Alignment | Does this research connect to company yearlies or objectives and key results (OKRs)? Is this research future-looking or foundational? | Company Yearly = 3 <br> Section / Stage / Stage Group OKR = 2 <br> Foundational / Future Directions = 2 <br> Milestone Planning = 1 <br> None = 1 <br> I don’t know = 0 |
+| Alignment | Does this research connect to company yearlies or objectives and key results (OKRs)? Is this research future-looking or foundational? | Company Yearly = 3 <br> Section / Stage / Stage Group OKR = 2 <br> Foundational / Future Directions = 2 <br> Milestone Planning = 1 <br> None = 1 <br> I don't know = 0 |
 | Section or Stage Group | What Section or Stage Group does this project fall under?  | N/A |
 | Timeline | When should this research be completed by?   | N/A |
 
@@ -114,9 +114,9 @@ An output of the Research Priority Calculator includes a Researcher Support Leve
 
 ## How to handle newly identified research projects
 
-It’s normal to identify brand new research projects in an ad-hoc manner after prioritization happens, and you can still fold those new requests into the existing prioritized list. Here’s how to do that:
+It's normal to identify brand new research projects in an ad-hoc manner after prioritization happens, and you can still fold those new requests into the existing prioritized list. Here's how to do that:
 
-1. UX Researcher: Add the new project in the current quarter’s Research Priority Calculator.
+1. UX Researcher: Add the new project in the current quarter's Research Priority Calculator.
 1. UX Researcher + Product: Run through the Research Priority Calculator as outlined above.
 1. UX Researcher + Product: See where the priority and support level lands, and adjust the research planning issue accordingly.
 1. UX Researcher: @ mention the team to provide awareness of the new project and request that they share concerns/support by a certain date. Discuss decisions around trade-offs or timelines to accommodate the new project.
@@ -124,7 +124,7 @@ It’s normal to identify brand new research projects in an ad-hoc manner after 
 
 ## Maintaining the research prioritization issue
 
-Throughout the quarter, the UX Researcher will maintain their research planning issue. This issue will serve as a section’s SSOT for all UX research.
+Throughout the quarter, the UX Researcher will maintain their research planning issue. This issue will serve as a section's SSOT for all UX research.
 
 ## Soliciting feedback on the process
 

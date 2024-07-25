@@ -36,7 +36,7 @@ Note that everyone's needs are different, so consider the following as a list of
 
 - Meet and get to know each other
 - Answer general questions
-- Talk about your “schedule” and how you work every day - walk them through a few example days
+- Talk about your "schedule" and how you work every day - walk them through a few example days
 - Talk about how to use tools like Slack, Navan, etc.
 - Show them some helpful Slack channels
 - Which Slack channels to keep track of daily
@@ -72,4 +72,4 @@ Note that everyone's needs are different, so consider the following as a list of
 
 ### What to do afterwards
 
-- Over the first few months, if you have anything interesting you’re working on that you think they can learn from, ping them and see if they’d like to either pair or shadow you on it.
+- Over the first few months, if you have anything interesting you're working on that you think they can learn from, ping them and see if they'd like to either pair or shadow you on it.

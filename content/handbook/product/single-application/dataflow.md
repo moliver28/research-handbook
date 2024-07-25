@@ -2,9 +2,6 @@
 title: Data flow GitLab vs. multiple applications
 ---
 
-
-
-
 How does having one application vs many applications impact workflow?
 
 The data flows below are based on the experience of one enterprise customer who switched from multiple DevOps tools to GitLab.

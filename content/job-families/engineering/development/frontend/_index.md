@@ -52,14 +52,14 @@ requirements and responsibilities:
 ### Responsibilities
 
 - Develop features and improvements to the GitLab product in a secure, well-tested, and performant way
-- You’ll work with Product Management and other stakeholders (Backend, UX, etc.) to iterate on new features within the GitLab product.
+- You'll work with Product Management and other stakeholders (Backend, UX, etc.) to iterate on new features within the GitLab product.
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
 - Consistently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 - You'll help improve the overall experience of our product through improving the quality of the Frontend features both in your [group](/handbook/product/categories/#hierarchy) and features that benefit other groups.
-- You’ll help identify areas of improvements in the code base, both specific to your [group](/handbook/product/categories/#hierarchy) and outside your group (eg. component library) and help contribute to make it better
-- You’ll learn, collaborate and teach other Frontend Engineers. Everyone can contribute something new to the team regardless of how long they’ve been in the industry.
-- You’ll fix prioritized issues from the issue tracker. These are typically bugs listed in a GitLab issue with an attached severity and priority label.
-- You’ll contribute to and follow our workflow process, alongside the rest of the Frontend Engineers and the GitLab community as a whole.
+- You'll help identify areas of improvements in the code base, both specific to your [group](/handbook/product/categories/#hierarchy) and outside your group (eg. component library) and help contribute to make it better
+- You'll learn, collaborate and teach other Frontend Engineers. Everyone can contribute something new to the team regardless of how long they've been in the industry.
+- You'll fix prioritized issues from the issue tracker. These are typically bugs listed in a GitLab issue with an attached severity and priority label.
+- You'll contribute to and follow our workflow process, alongside the rest of the Frontend Engineers and the GitLab community as a whole.
 
 ### Frontend Engineer Performance Indicators
 
@@ -212,7 +212,7 @@ Move data-driven product decisions forward by working on product analytics initi
 
 ### Ecosystem
 
-The Ecosystem team is responsible for seamless integration between GitLab and 3rd party products as well as making GitLab products available on cloud service providers’ marketplaces such as AWS. The team plays a critical role in developing APIs and SDK and expanding GitLab market opportunities.
+The Ecosystem team is responsible for seamless integration between GitLab and 3rd party products as well as making GitLab products available on cloud service providers' marketplaces such as AWS. The team plays a critical role in developing APIs and SDK and expanding GitLab market opportunities.
 
 ### Distribution
 
@@ -228,13 +228,13 @@ The Global Search team uses Elasticsearch to develop search features that users 
 - [Engineering Handbook](/handbook/engineering/)
 - [Engineering Workflow](/handbook/engineering/workflow/)
 
-## What it’s like to work here at GitLab
+## What it's like to work here at GitLab
 
-The [culture](/handbook/company/culture/) here at GitLab is something we’re incredibly proud of. Because GitLab team-members are currently located in 50+ different countries, you’ll spend your time collaborating with kind, talented, and motivated colleagues from across the globe.
+The [culture](/handbook/company/culture/) here at GitLab is something we're incredibly proud of. Because GitLab team-members are currently located in 50+ different countries, you'll spend your time collaborating with kind, talented, and motivated colleagues from across the globe.
 
-Some of the [benefits](/handbook/total-rewards/benefits/) you’ll be entitled to vary by the region or country you’re in. However, all GitLab team-members are fully remote and receive a "no ask, must tell" paid-time-off policy, where we don’t count the number of days you take off annually. You can work incredibly flexible hours, enabled by our asynchronous approach to [communication](/handbook/communication/).
+Some of the [benefits](/handbook/total-rewards/benefits/) you'll be entitled to vary by the region or country you're in. However, all GitLab team-members are fully remote and receive a "no ask, must tell" paid-time-off policy, where we don't count the number of days you take off annually. You can work incredibly flexible hours, enabled by our asynchronous approach to [communication](/handbook/communication/).
 
-Also, every nine months or so, we’ll invite you to our [Contribute](https://about.gitlab.com/events/gitlab-contribute/) event.
+Also, every nine months or so, we'll invite you to our [Contribute](https://about.gitlab.com/events/gitlab-contribute/) event.
 
 ## Career Ladder
 

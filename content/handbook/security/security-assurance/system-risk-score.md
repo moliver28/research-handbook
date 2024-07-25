@@ -1,6 +1,5 @@
 ---
 title: "System Risk Scoring Procedure"
-controlled_document: true
 ---
 
 ## Purpose

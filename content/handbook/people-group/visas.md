@@ -30,7 +30,7 @@ Please refer to the [Global Travel and Expense Policy Handbook Page](/handbook/f
 
 In some cases when traveling to a conference or summit you might need to arrange a visa to enter that specific country.
 
-Always **check the website of the Embassy of the Country you want to visit** located in your home country. They will have the most updated information on whether or not you need a visa and what is needed for your application. In some instances you can travel under a visa waiver program (e.g. [ESTA](https://esta.cbp.dhs.gov/esta/)) in other cases you might need to arrange a tourist or business visa. Read their website carefully and if you need an invitation letter for your application you can request one following [this process](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested#visa-invitation-letter). If you need any further help with acquiring the needed documents for your application, please reach out in #people-connect or email people-connect@gitlab.com if your query contains sensitive information.
+Always **check the website of the Embassy of the Country you want to visit** located in your home country. They will have the most updated information on whether or not you need a visa and what is needed for your application. In some instances you can travel under a visa waiver program (e.g. [ESTA](https://esta.cbp.dhs.gov/esta/)) in other cases you might need to arrange a tourist or business visa. Read their website carefully and if you need an invitation letter for your application you can request one following [this process](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested#visa-invitation-letter). If you need any further help with acquiring the needed documents for your application, please create a case for the People Connect team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) with the information required.
 
 #### Tips & Tricks for visa arrangements {#visa-tips}
 
@@ -62,7 +62,7 @@ Some of our GitLab team-members in the Netherlands have a "werkvergunning" or wo
 
 Here is a [generally but not authoritative helpful guide](https://www.expatica.com/nl/moving/relocation/leaving-the-netherlands-108416/) on considerations around permit extensions.
 
-The IND (Dutch immigration services) in general take about 4 to 6 weeks’ time to make a decision on the renewal application, but officially they have 90 days to decide.
+The IND (Dutch immigration services) in general take about 4 to 6 weeks' time to make a decision on the renewal application, but officially they have 90 days to decide.
 
 1. Some important notes before you arrange travel / depart to the Netherlands:
 
@@ -82,7 +82,7 @@ The 30% ruling is a mutual application filed by the employee and GitLab BV as th
 
 **The decision from the Dutch Tax Authorities can take up to four months.** Once your 30% ruling is granted, the application will be made retroactively in the payroll administration to your starting date. Read more from the Dutch tax authorities by clicking this [link](https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/individuals/living_and_working/working_in_another_country_temporarily/you_are_coming_to_work_in_the_netherlands/30_facility_for_incoming_employees/).
 
-Here is [an approximate net-salary calculator in The Netherlands](https://relocate.me/net-pay-calculators/the-netherlands) to reckon additional salary payment with 30% ruling.
+Here is [an approximate net-salary calculator in The Netherlands](https://relocate.me/net-pay-calculators/) (choose The Netherlands button) to reckon additional salary payment with 30% ruling.
 
 ### Transferring the 30% Ruling from a Previous Employer
 
@@ -118,11 +118,11 @@ Tenure of less than 1 year at GitLab may be possibly waived as a requirement if:
 - You are a member of an [underrepresented](/handbook/company/culture/inclusion/#definitions) group that is unsafe or in any way mistreated in your country.
 - Violence in your country does not provide a safe environment.
 
-If you meet these requirements, kindly read our [Relocation]({{< ref "relocation" >}}) handbook page, as well as our specific [Netherlands section]({{< ref "relocation#relocating-to-the-netherlands" >}}), to ensure that your request is evaluated and approved following our protocols. **Please email people-connect@gitlab.com if you have any questions.**
+If you meet these requirements, kindly read our [Relocation]({{< ref "relocation" >}}) handbook page, as well as our specific [Netherlands section]({{< ref "relocation#relocating-to-the-netherlands" >}}), to ensure that your request is evaluated and approved following our protocols. **Please reach out to the People Connect team via HelpLab if you have any questions.**
 
 #### Transferring a partner visa to a highly skilled migrant visa
 
-Someone already in the Netherlands on a partner visa can be transferred to their own highly skilled migrant visa in order to not be dependent anymore. The process can take up to three months and is subject to above [eligibility criteria]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) and executive approval. Please email people-connect@gitlab.com to start this process.
+Someone already in the Netherlands on a partner visa can be transferred to their own highly skilled migrant visa in order to not be dependent anymore. The process can take up to three months and is subject to above [eligibility criteria]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) and executive approval. Please reach out to the People Connect team via HelpLab to get this process started.
 
 Tasks for People Connect:
 
@@ -148,7 +148,7 @@ Sid and Marin discuss the history of GitLab's right to immigrate to the Netherla
 
 GitLab may be able to offer employment agreements to highly skilled candidates seeking employment already in Ireland, who apply for, or already hold, a [Critical Skills Employment Permit](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Permit-Types/Critical-Skills-Employment-Permit/), where the relevant role falls into a category listed on the [Critical Skills Occupations List](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Employment-Permit-Eligibility/Highly-Skilled-Eligible-Occupations-List/) or a salary threshold is exceeded.
 
-Please note: GitLab does not cover any costs for the application nor does it guarantee the issuance of the Critical Skills Employment Permit.  The employment agreement offered will include the condition that the candidate will hold the sufficient right to work and if a permit is required that they will be able to obtain the permit.  If the critical skills employment permit application is refused, the employment agreement would be rescinded. Permit holders may apply to the Irish Naturalisation and Immigration Service for permission to reside and work without the requirement for an employment permit upon completion of the Critical Skills Employment Permit’s duration.
+Please note: GitLab does not cover any costs for the application nor does it guarantee the issuance of the Critical Skills Employment Permit.  The employment agreement offered will include the condition that the candidate will hold the sufficient right to work and if a permit is required that they will be able to obtain the permit.  If the critical skills employment permit application is refused, the employment agreement would be rescinded. Permit holders may apply to the Irish Naturalisation and Immigration Service for permission to reside and work without the requirement for an employment permit upon completion of the Critical Skills Employment Permit's duration.
 
 #### The eligibility criteria
 
@@ -203,7 +203,7 @@ The EU Blue Card Germany, is a German residence permit for highly skilled worker
 
 ### Application process
 
-You can apply for an EU Blue Card from the Foreigner’s Office in Germany.  Depending on your current location you may need to obtain an entry visa from your most local German embassy.
+You can apply for an EU Blue Card from the Foreigner's Office in Germany.  Depending on your current location you may need to obtain an entry visa from your most local German embassy.
 
 1. [Apply for a Long-Term Relocation]({{< ref "relocation#how-to-apply-for-a-long-term-relocation" >}}) to Germany, as you will need a German employment agreement for the EU Blue Card application
 1. Set up a visa appointment for employment purposes from the German embassy or consulate
@@ -213,11 +213,11 @@ You can apply for an EU Blue Card from the Foreigner’s Office in Germany.  Dep
 1. Wait for a decision (can take 1 to 3 months for the entry visa).
 1. Travel to Germany: If your visa application is approved, you will receive a visa, allowing you to enter Germany.
 1. Register your [Germany residence](https://www.bmi.bund.de/EN/topics/administrative-reform/registration/registration-node.html#:~:text=Anyone%20who%20moves%20into%20a,the%20person%20providing%20the%20residence.) which you will you need to enroll for [health insurance](https://visaguide.world/international-health-insurance/germany/) (You can choose private or Public), and open a bank account.
-1. Once you have your residence, health insurance and bank account submit your EU Blue Card application at the Ausländerbehörde (German Foreigner’s Authority).
+1. Once you have your residence, health insurance and bank account submit your EU Blue Card application at the Ausländerbehörde (German Foreigner's Authority).
 
 #### Applying for the Blue card when you are already in Germany
 
-If you are already in Germany, and you are offered a position that makes you eligible for a Blue Card, you can apply at the local Ausländerbehörde (German Foreigner’s Authority). You must start the process at least six weeks before your current residence permit expires.
+If you are already in Germany, and you are offered a position that makes you eligible for a Blue Card, you can apply at the local Ausländerbehörde (German Foreigner's Authority). You must start the process at least six weeks before your current residence permit expires.
 
 #### Germany Blue card required documents
 

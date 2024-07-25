@@ -95,7 +95,7 @@ A gem that provides a simple and extremely flexible way to upload files from Rub
 
 A technology we developed to intercept file
 uploads with Workhorse and handle the expensive upload operation in
-Workhorse, where it's cheaper. See our [uploads development documentation](https://docs.gitlab.com/ee/development/uploads.html#)
+Workhorse, where it's cheaper. See our [uploads development documentation](https://docs.gitlab.com/ee/development/uploads/#)
 for more details.
 
 ### Kickoff video

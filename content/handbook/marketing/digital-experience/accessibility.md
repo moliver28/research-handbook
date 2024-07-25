@@ -1,15 +1,8 @@
 ---
-
 title: Accessibility
 description: >-
   Defining Accessibility for the Digital Experience team
 ---
-
-
-
-
-
-
 
 ## Surface accessibility issues on about.gitlab.com
 

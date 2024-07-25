@@ -101,7 +101,7 @@ Our management philosophy regarding the expectations of booking renewals is simp
 
 - **Timely**:
   - It is expected that a renewal opportunity be closed-won or closed-lost by the `subscription renewal date`.
-  - We close-lost opportunities when we have full confidence that the customers will not renew (we don’t use sales automation to close opportunities)
+  - We close-lost opportunities when we have full confidence that the customers will not renew (we don't use sales automation to close opportunities)
 - **Accurate**:
   - *No pushing*: We do not manipulate the close date to influence personal performance metrics (i.e. pushing churning opportunities into the next quarter/year)
   - *No detrimental pulling*: We do not pull opportunities forward into quarters for the purpose of personal performance metric effect if it results in compression (i.e. offering a discount for an early contract reset to improve a quarters performance)

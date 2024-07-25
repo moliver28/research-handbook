@@ -11,7 +11,7 @@ Our goal is to gather relevant visitors from organic search with authoritative p
 
 We live in a world where search is a natural motion. If you want to know when your favorite lunch spot opens, you Google it. When you're stuck on a problem at work, you look for the answer with Google. Trusted domains build brand authority over time and become a preferred destination for their target audience. Stack Overflow answers developer questions and GitHub for specific projects are two great examples of authoritative sites for developers.
 
-It’s our job to help GitLab become an authority on DevOps and the software development lifecycle.
+It's our job to help GitLab become an authority on DevOps and the software development lifecycle.
 
 Optimizing our site to answer questions about our product and market gives us a path to serendipitously meet the needs of our customers, prospects, and potential customers. We will tailor the content of pages to match the different stages of the buyer's journey.
 
@@ -25,15 +25,15 @@ As of November 2020, you can rank our performance in these areas in that order. 
 1. Unbranded search
 1. Product search
 
-Branded search is typically the second optimization segment to send significant traffic, but in GitLab’s case this is where we gain the bulk of our traffic. `GitLab CI` or `GitLab pricing` are a couple of examples of branded search terms where we win traffic in 2020.
+Branded search is typically the second optimization segment to send significant traffic, but in GitLab's case this is where we gain the bulk of our traffic. `GitLab CI` or `GitLab pricing` are a couple of examples of branded search terms where we win traffic in 2020.
 
 ## Challenges we face
 
-about.gitlab.com is a user-generated content site managed by the GitLab team without the traditional controls UGC sites typically employ. We’re working to address this by adding a CMS and other methods of control, and we’ll need to continue to innovate to deliver search optimization as we scale.
+about.gitlab.com is a user-generated content site managed by the GitLab team without the traditional controls UGC sites typically employ. We're working to address this by adding a CMS and other methods of control, and we'll need to continue to innovate to deliver search optimization as we scale.
 
 ## Visitor strategy
 
-Blog visitors don’t convert at the same rate as product page visitors
+Blog visitors don't convert at the same rate as product page visitors
 
 We will help the blog attract visitors and help those visitors discover product pages.
 
@@ -49,16 +49,16 @@ We'll also improve technical SEO on all GitLab websites, starting with about.git
 
 As a small team, we cannot build or maintain every aspect of optimization. GitLab values everyone's contributions, so we will strive to create a culture of SEO to help everyone at GitLab contribute to our success by optimizing our website and SaaS application.
 
-## What we won’t prioritize
+## What we won't prioritize
 
-**We won't build links with large scale outreach.** Our link profile is robust and healthy thanks to our product on gitlab.com, and we don't need to spend our existing resources to grow links. We’ll work to continue growing organic link growth with our Corporate Marketing focus on influencer strategy, but the Growth Marketing team won’t spend any time on large-scale link building.
+**We won't build links with large scale outreach.** Our link profile is robust and healthy thanks to our product on gitlab.com, and we don't need to spend our existing resources to grow links. We'll work to continue growing organic link growth with our Corporate Marketing focus on influencer strategy, but the Growth Marketing team won't spend any time on large-scale link building.
 
-**We won’t use underhanded tactics to win traffic.** GitLab will avoid grayhat or blackhat SEO techniques designed to trick search engines into sending us visitors. We won’t hide content from visitors on page, spam keywords, or other tactics to prioritize short-term growth.
+**We won't use underhanded tactics to win traffic.** GitLab will avoid grayhat or blackhat SEO techniques designed to trick search engines into sending us visitors. We won't hide content from visitors on page, spam keywords, or other tactics to prioritize short-term growth.
 
 ## Measuring success
 
 **Keyword clusters**
-Our goal is to move our target keywords to the top 3 positions as often as possible. We’ll need proper keyword targeting, on-page optimization, and technical optimization across our sites to achieve this goal. We will measure keyword position over time, and our measure of keyword success will focus on the visibility of our keywords by content cluster.
+Our goal is to move our target keywords to the top 3 positions as often as possible. We'll need proper keyword targeting, on-page optimization, and technical optimization across our sites to achieve this goal. We will measure keyword position over time, and our measure of keyword success will focus on the visibility of our keywords by content cluster.
 
 For example, we want to increase the visibility of our CI keywords in [SEMRush](https://www.semrush.com/), a tool for tracking our SEO progress.
 
@@ -66,13 +66,13 @@ For example, we want to increase the visibility of our CI keywords in [SEMRush](
 We want to move the site health for marketing pages on about.gitlab.com above 90%. This excludes the handbook and jobs pages. We will measure our site health with the site audit score from SEMRush.
 
 **Creating a culture of SEO**
-We’ll measure the success of our SEO culture by looking at the site health for the handbook and jobs pages on about.gitlab.com and the overall site health of our SaaS application.
+We'll measure the success of our SEO culture by looking at the site health for the handbook and jobs pages on about.gitlab.com and the overall site health of our SaaS application.
 
-We can use SEMRush site audit tool to measure handbook and jobs pages. We’ll need to consider how to measure success in the application.
+We can use SEMRush site audit tool to measure handbook and jobs pages. We'll need to consider how to measure success in the application.
 
 ## Keyword clusters
 
-### Goal: Expand GitLab’s presence in search results used by our target audiences
+### Goal: Expand GitLab's presence in search results used by our target audiences
 
 We are building keyword families that mirror the focus of Marketing at GitLab. We want to identify terms related to CI, SCM, and DevSecOps to help the content team build pages to raise awareness of our product-related use cases.
 
@@ -112,4 +112,4 @@ No pages should have duplicate titles, descriptions, or on-page content.
 
 ## The next level of GitLab organic growth
 
-Focusing on these strategic goals will help GitLab reach a new level of recognition and authority. Achieving these goals will establish GitLab’s place in the software community, and help us accelerate awareness of our solutions in the DevOps community.
+Focusing on these strategic goals will help GitLab reach a new level of recognition and authority. Achieving these goals will establish GitLab's place in the software community, and help us accelerate awareness of our solutions in the DevOps community.

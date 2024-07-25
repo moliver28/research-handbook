@@ -1,6 +1,5 @@
 ---
-
-Title: "Craig Miskell README"
+title: "Craig Miskell README"
 Description: "Craig Miskell, Staff Site Reliability Engineer, GitLab"
 job: "Staff Site Reliability Engineer"
 ---

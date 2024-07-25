@@ -1,14 +1,7 @@
 ---
-
 title: "Customer case studies"
 description: "The goal of the customer case studies program is to share and market the success of our customers."
 ---
-
-
-
-
-
-
 
 ## Customer case studies program
 
@@ -23,7 +16,7 @@ Examples:
 
 ### Objectives
 
-- Illustrate successful and measurable improvements in the customer’s business
+- Illustrate successful and measurable improvements in the customer's business
 - Show other users how customers are using GitLab
 - Align content so that GitLab solutions reflect the challenges our customers, prospects, and the market requirements
 - Develop and grow organizational relationships: speak at events on our behalf, promote their business

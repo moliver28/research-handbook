@@ -245,10 +245,10 @@ At the start of each new fiscal year, we have a meeting cleanup day to encourage
 With the goals of increasing efficiency and looking at how to make recurring meetings more productive, this practice acts as a reminder to:
 
 1. Cancel meetings or change the frequency if you feel that the current cadence does not add sufficient value
-2. Discuss removing yourself as an attendee with the meeting owner if you don’t feel that you are contributing or supporting business results through participation
+2. Discuss removing yourself as an attendee with the meeting owner if you don't feel that you are contributing or supporting business results through participation
 3. Ask other team members to reexamine how existing meetings are managed
 
-If you’re looking for possible wording to use when taking the actions above, and for more information about the cleanup day, please look at  https://handbook.gitlab.com/handbook/ceo/office-of-the-ceo/#meeting-cleanup-day.
+If you're looking for possible wording to use when taking the actions above, and for more information about the cleanup day, please look at  https://handbook.gitlab.com/handbook/ceo/office-of-the-ceo/#meeting-cleanup-day.
 ```
 
 When cancelling a meeting, a team member can copy and paste this message to send to attendees:

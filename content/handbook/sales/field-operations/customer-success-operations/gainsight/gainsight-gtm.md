@@ -1,17 +1,7 @@
 ---
-
 title: "Gainsight: Go-To-Market Technical Documentation"
 description: "This page is the key GitLab Handbook page for all technical documentation relating to Gainsight, including the different functions of the tool as well as how we utilize each function to accomplish our integration and automation needs."
 ---
-
-
-
-
-
-
-
-
-
 
 ## Gainsight
 

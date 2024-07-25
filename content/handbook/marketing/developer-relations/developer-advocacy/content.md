@@ -5,7 +5,6 @@ aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/content/index.html
 ---
 
-
 ## Content Library
 
 The Developer Advocacy team creates content that can be reused for campaigns. All contents and activities the team participates in are added to the team's technical content plan sheet (search for `Technical Content Plan` in Google Drive) and [epics roadmap](/handbook/marketing/developer-relations/developer-advocacy/workflow/#roadmap-view).
@@ -44,7 +43,7 @@ Click-through demos are product simulation demonstrations that can be used for s
 |-------|------|--------------|
 | [Duo chat](https://tech-marketing.gitlab.io/static-demos/duo-chat.html) | GitLab Duo | 2024-06-19 |
 | [GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/ai-demos.html) | GitLab Duo | 2023-07-23 |
-| [Remote Development](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html) | Dev section, Create | 2023-05-23 |
+| [Workspaces](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html) | Dev section, Create | 2023-05-23 |
 | [Feature Flags](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html) | CD | 2023-06-23 |
 | [CI Overview](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html) | CI | 2023-10-23 |
 
@@ -82,7 +81,7 @@ These talks are maintained throughout FY25:
 
 ### Projects
 
-Source code, demo projects, workshops, tutorials, research, etc. are documented in the [Projects handbook](/handbook/marketing/developer-relations/developer-advocacy/projects/). This includes use cases for GitLab Duo (AI), CI/CD components, DevSecOps and Security, Remote Development, GitLab API, etc.
+Source code, demo projects, workshops, tutorials, research, etc. are documented in the [Projects handbook](/handbook/marketing/developer-relations/developer-advocacy/projects/). This includes use cases for GitLab Duo (AI), CI/CD components, DevSecOps and Security, Workspaces, GitLab API, etc.
 
 ## Content Creation
 

@@ -7,7 +7,7 @@ In 2023 we conducted a pilot program to address an imbalance of Black Team Membe
 
 ## Mentorship vs Sponsorship
 
-[Harvard Business Review](https://hbr.org/2019/08/a-lack-of-sponsorship-is-keeping-women-from-advancing-into-leadership) defines the difference between sponsors versus mentors: “While a mentor is someone who has knowledge and will share it with you, a sponsor is a person who has power and will use it for you.”
+[Harvard Business Review](https://hbr.org/2019/08/a-lack-of-sponsorship-is-keeping-women-from-advancing-into-leadership) defines the difference between sponsors versus mentors: "While a mentor is someone who has knowledge and will share it with you, a sponsor is a person who has power and will use it for you."
 
 **Mentoring** is defined in our [Mentoring at GitLab handbook page as:](/handbook/people-group/learning-and-development/mentor#what-is-mentoring) Mentor relationships are an opportunity for individuals to learn from someone's personal experience, background, and perspective. These relationships build trust on a team, provide safe space to make mistakes, and encourage both personal and professional development. Mentorship is an opportunity for both the mentor and mentee to develop their leadership and communication skills. Mentorship should be led by the mentee, similar to how 1:1's at GitLab are driven by direct reports.
 

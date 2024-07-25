@@ -1,13 +1,6 @@
 ---
-
 title: "Recommended Books for Engineering Managers"
 ---
-
-
-
-
-
-
 
 ## What books do we recommend for Engineering Managers?
 

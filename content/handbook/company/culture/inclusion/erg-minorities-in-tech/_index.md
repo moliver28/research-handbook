@@ -49,7 +49,7 @@ The top four Initiatives for 2020 are:
 
 Mentoring is important for employee retention and growth.  During the 2020 calendar year, MIT is hosting it's first Mentoring Program.
 
-[Learn More]({{< ref "./mentoring" >}})
+[Learn More](mentoring/)
 
 ### Internal Outreach
 

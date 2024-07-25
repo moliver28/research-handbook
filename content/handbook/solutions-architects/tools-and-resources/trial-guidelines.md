@@ -1,11 +1,83 @@
 ---
-
 title: GitLab Trial Guidelines
 description: GitLab Trial Guidelines
 ---
 
+By default, GitLab allows you to trial the entire AI powered DevSecOps platform for free. This gives you full access to nearly all the [Ultimate-tier](https://about.gitlab.com/pricing/ultimate/) and [Duo Pro](https://about.gitlab.com/gitlab-duo/#features) features.
 
-The guidelines here are meant to help prospects and existing GitLab Self-Managed or SaaS customers get started with an Ultimate trial.
+With GitLab, teams can collaborate through the entire Software Development Lifecycle from a single tool, allowing you to develop and deploy more secure software, faster. 
+
+Trialing GitLab will allow you to understand if this solution is the right one for your specific needs and will help you to make an informed decision.
+
+However, the trial period will pass by in the blink of an eye! As the experiment will happen in parallel to your regular activities, it is important to properly scope and prepare. Here are some tips and best practices to maximize the value of your trial.
+
+## Scoping the Trial
+
+A trial is successful when you have been able to use the time allowed to complete your evaluation end-to-end while every decision maker was able to understand if the solution solves their problems, brings value and delivers a return on investment. 
+
+### What are the objectives of the trial?
+
+This is the most important step and will help to ensure an efficient trial. We recommend setting up 3 key goals to validate in 30 days. The goals can be specific problems you are trying to solve, use cases that you want to validate,...
+
+Next, make a list of the features that you will need to configure to support these goals and sort the "must haves" versus "good to haves". 
+
+There are hundreds of features in GitLab, make sure you focus on implementing the ones that support your goals. You can refer to [this list of features per stages of the software development life cycle](https://about.gitlab.com/features/). The rest can be added to the backlog to test at a later stage once the main goals have been evaluated. 
+
+### How will success be measured against these objectives?
+
+Define your success metrics and specific KPIs for each goal.  What does it mean to achieve the goals? How will you know if this goal has been accomplished? 
+
+Make sure you have a baseline to compare to. This is particularly important once you conclude the trial to establish a clear before / after comparison and will be helpful to share with all stakeholders in the decision process.
+
+### What does the decision process look like?
+
+Understand how you will take the decision at the end of the evaluation:
+
+- What information do you need? 
+- How will you present the results? 
+- Who will decide what the next steps are? 
+- What is the exact decision you need to make? Do you merely need to decide to purchase the solution? Or are there other joint decisions such as migrating from existing tools? 
+
+### Who should participate?
+
+Identify all the team members in the organization who should participate in the trial. 
+
+1. Start by designating a project coordinator.
+1. List the people who will need to take part in the final decision making process. Who needs to be an active participant in the trial? Who only needs to view a final report with the findings to take the decision? This list could include:
+   - The budget owners
+   - The impacted team leads and key representatives
+   - C-level sponsor
+1. Identify the people who will be responsible for implementing and setting up the test inside GitLab.
+
+There is no ideal number as it depends on the size of your company and the scope of the evaluation. However, from our experience, it is best to limit the number to a small team (3 to 10 people max)
+At the end of the day, it is important to find a balance:
+
+- With a single person leading the trial, there is a risk of not sufficiently accounting for all users' needs. Other stakeholders involved in the evaluation may have limited access to the results of the trial.
+- With a large team, it can be difficult to coordinate the collection of inputs and feedback, align agendas to organize regular check-ins on the trial process,...
+
+Before getting started, understand the goals and success criteria for each participant. Make sure they all have the information to get started (the goals, the feature list to implement, the documentation,...).
+
+### Which projects should be used for testing?
+
+For larger organizations, the trial will be too short to test across every single project. Therefore, it’s good to limit the scope to a few projects where you will be able to implement all the functionalities to validate your use cases.
+
+The selected projects need to be representative enough for the evaluation. Based on our experience, testing on 1 to 3 projects can provide significant results.
+
+For example, an organization evaluating the security and compliance capabilities of GitLab would benefit from testing on 3 projects: a backend, a front end, and an Infrastructure as Code project.
+
+### How to plan the evaluation?
+
+The evaluation should begin when the participants have the bandwidth to take on the trial alongside their regular activities.
+Defining a schedule is helpful to make sure that the evaluation will complete on time. Here is an example: 
+
+- Week 0:
+  - Kick off meeting
+- Week 1 to week 3:
+  - 15 to 30 min weekly stand up meeting to keep track of the progress, what is still to be evaluated and to alleviate any blockers or highlight shifts in priorities
+- Week 4:
+  - Conclude the evaluation and review the metrics achieved for each goal to measure the success of the trial
+  - Prepare the internal presentation to the final decision makers if they are not part of the trial team
+  - Documenting the whole process with the goals, metrics and weekly progresses will improve collaboration among participants and facilitate the decision process at the end.
 
 ### Requesting a Trial
 
@@ -36,7 +108,7 @@ Customers who choose a self-managed trial will need to install a single node [Om
 
 ### Extending an Existing Trial
 
-All internal requests regarding licensing, subscriptions, trials, and grace period extensions should be filed using [the GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Customers should not be cc’d on Internal Requests.
+All internal requests regarding licensing, subscriptions, trials, and grace period extensions should be filed using [the GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Customers should not be cc'd on Internal Requests.
 
 Once you access the form, enter your email and choose "GitLab L&R Internal Request for Global Customers" or "GitLab L&R Internal Request for US Federal Customers" to renew and extend a trial license.
 

@@ -1,13 +1,6 @@
 ---
-
 title: ⛅🌱 Cloud Seed
 ---
-
-
-
-
-
-
 
 ## ⛅🌱 Cloud Seed
 

@@ -24,7 +24,7 @@ Advisors & allies: Could be you!
 ## Responsibilities of the Group
 
 - Enable GitLab team members to be more successful at the company, and in their long term careers, by educating around use of the GitLab platform, importance of living GitLab values, and understanding complex work relationships.
-- Build community among the TMAG’s members and create an inclusive environment for other employees to join.
+- Build community among the TMAG's members and create an inclusive environment for other employees to join.
 - Educate group members on options for continuous learning, career growth and financial strategies.
 
 ## Benefits

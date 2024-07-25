@@ -1,14 +1,7 @@
 ---
-
 title: 'GitLab Experimentation Best Practices'
 description: "Experimentation allows us to learn and give the right experiences to our Customers, to create better value for Customers and GitLab."
 ---
-
-
-
-
-
-
 
 ## Why Experimentation Best Practices?
 
@@ -19,7 +12,7 @@ For example, here are a couple of commonly made mis-steps while conducting exper
 1. Peeking (article [here](https://gopractice.io/blog/peeking-problem/)): If we do not lock down the testing time period ahead of time, we end up with the peeking problem where we have side effects from checking the results and taking action before the A/B test is over. The more often you look at the intermediate results of the A/B testing with the readiness to make a decision, the higher the probability is that the criterion will show a statistically significant difference when there is none.
     1. 2 peeking cases double the p-value;
     2. 5 peeking sessions increase the p-value by a factor of 3.2;
-2. Simpson’s Paradox: This can occur when we change the test group allocations in a disproportionate manner mid-test-flight. The latent segments in the test groups change their proportions when we change allocation percentages, inserting error into the results. More formally, [Simpson’s Paradox](https://plato.stanford.edu/entries/paradox-simpson/) is a statistical phenomenon where an association between two variables in a population emerges, disappears or reverses when the population is divided into subpopulations.
+2. Simpson's Paradox: This can occur when we change the test group allocations in a disproportionate manner mid-test-flight. The latent segments in the test groups change their proportions when we change allocation percentages, inserting error into the results. More formally, [Simpson's Paradox](https://plato.stanford.edu/entries/paradox-simpson/) is a statistical phenomenon where an association between two variables in a population emerges, disappears or reverses when the population is divided into subpopulations.
 
 To ensure we can maximize the value from our experimentation practices and reduce inaccuracy of decisions at GitLab, we recommend  following best practices across all experiments at GitLab. This document outlines the best practices to adopt at GitLab.
 
@@ -71,14 +64,14 @@ Before launching an experiment:
 ### Experimentation set up plan:  How to setup the test
 
 - Determine the # of variants needed to help answer the business question we want to learn from the experiments (eg: A/B/n or MVT (multivariate) set up)
-- Document the analysis plan including what hypothesis question can and can’t be answered.
+- Document the analysis plan including what hypothesis question can and can't be answered.
 - Define instrumentation needed (the additional tracking data you need on top of what's already available).
   - Specify tracking needs as critical or nice to have so developers can discuss and implement the new tracking based on effort and performance impact.
 - Define the population you are testing on, including segmentation or exclusion criteria
 - Document when you want to run the experiment in **the experiment calendar** and checks for conflicts
 - Define the launch weights and ramp-up plan if experimenting in a critical path or impacts a large user base
   - When ramping for high-risk test in a critical area, go from 1% to 5%/10% and then 50%
-    - Beware of the Simpson’s paradox and only analyze test periods where the weight allocation is proportional and comparable.
+    - Beware of the Simpson's paradox and only analyze test periods where the weight allocation is proportional and comparable.
   - Specify the success criteria for ramping
     - Example: No significant impact to Primary metric, and we could detect a change as small as 5% (i.e. sensitivity)
 
@@ -165,7 +158,7 @@ Before launching an experiment:
 - 1 or 2 days after Go live, verify reporting data for the experiment is valid
   - Check for any skew in population assignment
 - If you launched at 1% weight, take an initial read after 2 or 3 days and set to 5% or 10% weights as per the previously agreed plan.
-  - The 1% experiment’s goal is only to ensure “things don’t break” and not to get a read on the results.
+  - The 1% experiment's goal is only to ensure "things don't break" and not to get a read on the results.
 - If you launched at 5% or 10%, change the weights to 50% as per your initial plan
   - Beware that the customer base could be different on weekdays/weekends, so analyze results in full week increments in case of weekly seasonality and in ful month increments in case of monthly seasonality
   - The above will not apply for the 1% since the 1% test is not intended to get a read impact created by the experimental experience.
@@ -249,4 +242,4 @@ Based on initial feedback and observations on current experiment platform capabi
 
 - **Default Experience:** The experience a participant receives when not allocated to an experiment. This is the same as control experience in most cases.
 - **Experiment calendar:**  A system to show the past, current and upcoming experiments along with population being tested, weights and Experiment duration. This could enable us to plan for conflicts or analyze interactions between interacting experiments.
-- **Sensitivity:** For the given population and it’s metric, what is the minimum change at we could have detected a significant threshold.
+- **Sensitivity:** For the given population and it's metric, what is the minimum change at we could have detected a significant threshold.

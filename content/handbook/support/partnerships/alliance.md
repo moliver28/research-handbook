@@ -1,9 +1,7 @@
 ---
-
 title: Alliance Partners
 description: "Support specific information for alliance partners"
 ---
-
 
 ## Contacting Support
 

@@ -5,12 +5,6 @@ title: "Distribution Team usage of dependencies.io"
 description: "Describes the external GitLab Projects used by the Distribution Team, how to handle MRs from these, and how to maintain dependencies.io for new dependencies."
 ---
 
-
-
-
-
-
-
 ## Common links
 
 * [dependencies.io](https://dependencies.io)

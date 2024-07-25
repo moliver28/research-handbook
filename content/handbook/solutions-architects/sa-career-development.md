@@ -1,11 +1,10 @@
 ---
-aliases: /handbook/solutions-architects/career-development
 title: SA Career Development
 description: >-
   For career development Solution Architects can choose between an individual
   contributor or leadership track
+aliases: /handbook/solutions-architects/career-development/
 ---
-
 
 ## Career Development
 
@@ -18,11 +17,11 @@ Solutions Architecture team members you should review the [GitLab People Group C
 Because of the valuable experience and skills gained while driving customer outcomes, Solutions Architects can move to a variety of technical, sales and leadership roles in GitLab and across industries.
 The diagram below can help you exploring potential evolutions of your career development.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FGbJpPTw3N06rIoDk93HQG9%2FSA-Career-Path%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DpWZgSrpSxzLS5CDh-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fboard%2FGbJpPTw3N06rIoDk93HQG9%2FSA-Career-Path%3Fnode-id%3D0-1%26t%3D3bKqHgWXxzLX3oSk-1" allowfullscreen></iframe>
 
 While maturing a decision or assessing options, the below steps can help you throughout the process:
 
-1. Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to:
+1. Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It's important to:
 
     - Discuss the Career Path you want to explore and your motivation
     - Learn about what involves to be in these roles (for instance, you can read the job description for the roles you are interested in or speak directly with people who are in these roles)
@@ -45,7 +44,7 @@ The Solutions Architecture promotion process augments the [People Group Promotio
 
 1. The Planning stage of the calibration process [here](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline) typically means the SA leaders have completed all the required set of approvals including the VP of Customer Success.
 1. Before the SA Manager starts the [Promotion Approval Process](/handbook/people-group/promotions-transfers/#processing-a-promotion), the manager will inform the Director/VP of Solutions Architecture that the justification document is ready for review, typically during a 1 on 1 weekly meeting.
-    - For Staff and Principal level promotions, the promotion justificaiton document must be completed 2 quarters prior to promotion date and submitted to the Sr Director of SA for review.  The Sr Director of SA will in turn review the justificaiton with the VP of Customer Success.
+    - For Staff and Principal level promotions, the promotion justification document must be completed 2 quarters prior to promotion date and submitted to the Sr Director of SA for review.  The Sr Director of SA will in turn review the justification with the VP of Customer Success.
     - For Staff and Principal level promotions, the promotion candidate's manager will consult with the SA leadership team, typically during a weekly team meeting. This is to ensure continuous calibration for Staff and above-level roles that have lower representation amongst the SA organization.  This must occur 2 quarters before the expected promotion quarter.  For example, for a Q1 promotion, the calibration should occur in Q3 of the prior FY.
     - For Staff level promotions, the promotion candidate's manager will consult with existing Staff and Principal level SAs for peer-level review and feedback while taking detailed notes.
     - For Principal level promotions, the Principal candidates will prepare and present their accomplishments and their vision for improving GitLab and the SA organization to a panel of SA leaders and Principal level SAs after calibration has occurred.
@@ -58,7 +57,7 @@ The Solutions Architecture promotion process augments the [People Group Promotio
 In FY23, GitLab kicked off its first ever Associate Program across Customer Success with the aim to:
 
 - Build the next generation of highly-diverse, well-prepared GitLab Solutions Architects
-- Grow pre-sales engineering skill sets that are focused on GitLab’s product offering, business model and aligned to customer needs
+- Grow pre-sales engineering skill sets that are focused on GitLab's product offering, business model and aligned to customer needs
 - Give existing SAs an opportunity to grow in their careers through having early-in-career SAs to mentor and coach
 
 The program leverages the enablement material that all SAs use in the onboarding process in addition

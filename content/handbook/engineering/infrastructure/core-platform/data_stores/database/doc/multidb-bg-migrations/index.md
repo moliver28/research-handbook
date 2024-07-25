@@ -3,12 +3,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database
 title: Multi-database Background migrations
 ---
 
-
-
-
-
-
-
 ## Background migration design for multiple databases
 
 This is a working document to specify the design of background migration support for multiple databases.

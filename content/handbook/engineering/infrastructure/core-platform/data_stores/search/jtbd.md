@@ -1,14 +1,7 @@
 ---
-
 title: Global Search - JTBD
 description: "The jobs-to-be-done that the Global Search group is solving for."
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -25,4 +18,4 @@ Utilize JTBD and job statements to:
 
 ## Jobs To Be Done
 
-<%= partial("direction/jtbd-list", locals: { stage_key: "Global Search" }) %>
+{{% jtbd "Global Search" %}}

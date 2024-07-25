@@ -45,11 +45,11 @@ Customizing your instance configuration can go a long way to discouraging and re
 
 ### Understand how abuse is reported and managed by self-managed Admins
 
-It’s also key to understand how users can [report abuse from other GitLab users to GitLab self-managed Administrators](https://docs.gitlab.com/ee/user/report_abuse.html), the [actions that self-managed Admins can take against abusers](https://docs.gitlab.com/ee/user/report_abuse.html) and how [abuse reports are managed and resolved by Admins](https://docs.gitlab.com/ee/user/report_abuse.html).
+It's also key to understand how users can [report abuse from other GitLab users to GitLab self-managed Administrators](https://docs.gitlab.com/ee/user/report_abuse.html), the [actions that self-managed Admins can take against abusers](https://docs.gitlab.com/ee/user/report_abuse.html) and how [abuse reports are managed and resolved by Admins](https://docs.gitlab.com/ee/user/report_abuse.html).
 
 ### Rate limits
 
-Finally, if you’re in the midst of spam abuse you can impose [rate limits](https://docs.gitlab.com/ee/security/rate_limits.html) to help respond to the increased loads. You can also [limit rates on issue creation](https://docs.gitlab.com/ee/administration/settings/rate_limit_on_issues_creation.html) and impose [rate limits on User and IPs](https://docs.gitlab.com/ee/administration/settings/user_and_ip_rate_limits.html).
+Finally, if you're in the midst of spam abuse you can impose [rate limits](https://docs.gitlab.com/ee/security/rate_limits.html) to help respond to the increased loads. You can also [limit rates on issue creation](https://docs.gitlab.com/ee/administration/settings/rate_limit_on_issues_creation.html) and impose [rate limits on User and IPs](https://docs.gitlab.com/ee/administration/settings/user_and_ip_rate_limits.html).
 
 ### Suggest an Abuse Prevention Feature
 

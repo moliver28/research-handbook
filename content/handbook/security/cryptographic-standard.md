@@ -1,7 +1,6 @@
 ---
 title: "GitLab Cryptography Standard"
 description: "This is the GitLab Cryptography Standard. It outlined cryptographic choices, including algorithms as well as important settings that may be associated with the algorithms. It applies to GitLab code and well as infrastructure configuration."
-controlled_document: true
 ---
 
 ## Purpose
@@ -37,7 +36,7 @@ This is required for coding best practices as well as client and server configur
 
 While we consider these standards to be a security baseline to improve the overall security of the GitLab product, for compliance and certification efforts we will be using the following general guidelines.
 
-- No non-public cryptographic modules. All cryptographic modules should be open source and well maintained. This is to ensure compliance with the [Bureau of Industry (BIS) and Security's Export Administration Regulations regarding encryption](https://www.bis.doc.gov/index.php/policy-guidance/encryption).
+- No non-public cryptographic modules. All cryptographic modules should be open source and well maintained. This is to ensure compliance with the [Bureau of Industry (BIS) and Security's Export Administration Regulations regarding encryption](https://www.bis.gov/articles/encryption-and-export-administration-regulations-ear).
 - All cryptographic elements should work using cryptographic modules that are [FIPS 140-2](https://csrc.nist.gov/publications/detail/fips/140/2/final) certified. In other words, if the underlying cryptographic module is FIPS 140-2 certified, the code using it should function properly.
 - All cryptographic choices (algorithms, etc) will adhere to [FIPS 140-3](https://csrc.nist.gov/publications/detail/fips/140/3/final) minimum standards (which superseded FIPS 140-2 on 03/22/2019), and keep in mind [NIST SP 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) as well.
 - When possible, choose quantum-resistant algorithms as an effort to help "future proof" cryptographic choices as quantum computing usage becomes more powerful and more mainstream. For more information read the section on quantum cryptography [here](#quantum-cryptography).
@@ -46,7 +45,7 @@ Meeting these standards will help meet objectives such as [FedRAMP compliance](h
 
 ### Cryptographic Modules
 
-For regulatory requirements (such as FIPS), all cryptographic modules must be publicly available (open source) to ensure compliance with the [Bureau of Industry and Security's Export Administration Regulations regarding encryption](https://www.bis.doc.gov/index.php/policy-guidance/encryption). As this compliance meets international standards per the [Wassenaar Arrangement](https://www.wassenaar.org/) this should meet any requirements that might be encountered globally, should the situation arise.
+For regulatory requirements (such as FIPS), all cryptographic modules must be publicly available (open source) to ensure compliance with the [Bureau of Industry and Security's Export Administration Regulations regarding encryption](https://www.bis.gov/articles/encryption-and-export-administration-regulations-ear). As this compliance meets international standards per the [Wassenaar Arrangement](https://www.wassenaar.org/) this should meet any requirements that might be encountered globally, should the situation arise.
 
 The choice of cryptographic modules is important. It is possible that GitLab features that have cryptographic elements could find themselves having to meet stringent module requirements (FedRAMP standards, running in FIPS mode, etc) so adherence to specific modules is highly recommended. This includes the following:
 

@@ -3,7 +3,7 @@ title: "Engineering Management - Quality"
 description: "Engineering Managers in the Quality Department are motivated and experienced leaders who grow our test automation efforts across the entire GitLab ecosystem."
 ---
 
-At GitLab, Quality is everyone's responsibility and the output of the Quality Department is instrumental to GitLab’s success.
+At GitLab, Quality is everyone's responsibility and the output of the Quality Department is instrumental to GitLab's success.
 
 Engineering Managers in the Quality department are motivated and experienced leaders who grow our test automation efforts across the entire GitLab ecosystem.
 They demonstrate a passion for high quality software, strong Engineering principles, and methodical problem solving skills.
@@ -143,7 +143,7 @@ The Director, Quality Engineering is a [grade 10](/handbook/total-rewards/compen
 - Hire world class Engineering Managers and Software Engineers in Test (SETs) for the Quality Engineering sub-department.
 - Publish and socialize the progress of the Quality Engineering sub-department.
 - Drive retrospective and improvements that impacts Quality Engineering.
-- Manage the sub-department’s priorities and define prioritization guidelines for teams in Quality Engineering.
+- Manage the sub-department's priorities and define prioritization guidelines for teams in Quality Engineering.
 - Excellent written and verbal communication skills. Able to convey bottom-line messages to executives at C & VP level.
 - Hold regular skip-level 1:1's with all Software Engineer in Tests (SETs)
 - Help the teams in Quality Engineering grow their skills and experience, ensure that they are happy and productive.
@@ -179,7 +179,7 @@ The VP of Quality is a [grade 12](/handbook/total-rewards/compensation/compensat
 - Ensure that the department recruiting efforts stay in step with the product roadmap and company hiring plan
 - Track, publish and socialize the progress of the department.
 - Drive improvements and process that impacts Quality.
-- Manage the department’s priorities, set guidelines for Quality sub-departments and teams and align them strategically across all of Engineering.
+- Manage the department's priorities, set guidelines for Quality sub-departments and teams and align them strategically across all of Engineering.
 - Work across the company to define and implement mechanisms to bake in Quality and testing earlier in the software development process.
 - Work across the company to improve the efficiency and productivity of community contributions.
 - Work across Engineering to improve the Division's Data Analytics capabilities.

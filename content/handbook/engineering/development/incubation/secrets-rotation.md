@@ -1,13 +1,6 @@
 ---
-
 title: Secrets Rotation Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## Secrets Rotation Single-Engineer Group
 

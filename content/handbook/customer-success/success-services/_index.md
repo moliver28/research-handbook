@@ -1,7 +1,6 @@
 ---
-
 title: Success Services
- 
+
 
 ---
 The Success Services department is part of the [Customer Success](/handbook/customer-success/) function who partners with our customers to deliver value and positive business outcomes throughout their journey with GitLab.
@@ -26,7 +25,7 @@ Education Services included with Success Services encompasses 1day of Instructor
 
 ### Accelerators
 
-Success Services include up to 4 Accelerators, 1 per quarter, that your [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) will deliver.  
+Success Services include up to 4 Accelerators, 1 per quarter, that your [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) will deliver.
 
 > An accelerator is a customized form of enablement that a GitLab CSA will define and deliver to a customer. These accelerators span a quarter and they're mapped to your mutual success plan.
 

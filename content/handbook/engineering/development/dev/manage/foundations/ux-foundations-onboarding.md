@@ -1,5 +1,4 @@
 ---
-
 title: Manage Foundations Team - UX Onboarding
 description: UX onboarding checklist for the Foundations team
 ---

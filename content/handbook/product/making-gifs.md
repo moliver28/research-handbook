@@ -1,14 +1,6 @@
 ---
-
 title: "Making Gifs"
 ---
-
-
-
-
-
-
-
 
 Animated gifs are an awesome way of showing of features that need a little more than just an image, either for marketing purposes or explaining a feature in more detail. This page holds all information on the entire process of creating a gif.
 

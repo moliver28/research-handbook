@@ -22,11 +22,11 @@ Hi! 👋 I'm **Cassiana Gudgenov, People Compliance Partner**
 - I love British comedy and rom coms 😀
 - My favorite GitLab value is [Iteration](/handbook/values/#iteration)
 - My 5 favorite sub-values are:
-  - [Don't wait]({{< ref "values#dont-wait" >}})
-  - [Family and friends first, work second]({{< ref "values#family-and-friends-first-work-second" >}})
-  - [Embracing Neurodiversity]({{< ref "values#embracing-neurodiversity" >}})
-  - [Freedom and Responsibility over Rigidity]({{< ref "values#freedom-and-responsibility-over-rigidity" >}})
-  - [Assume Positive Intent]({{< ref "values#assume-positive-intent" >}})
+  - [Don't wait](/handbook/values/#dont-wait)
+  - [Family and friends first, work second](/handbook/values/#family-and-friends-first-work-second)
+  - [Embracing Neurodiversity](/handbook/values/#embracing-neurodiversity)
+  - [Freedom and Responsibility over Rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity)
+  - [Assume Positive Intent](/handbook/values/#assume-positive-intent)
 
 ### Myers-Briggs / 16 Personalities
 
@@ -54,15 +54,15 @@ People with the S (Supporter) personality type tend to be "calm, patient and res
 
 ## Growth Opportunities
 
-- Sharing negative feedback in a clear, direct way as soon as there’s an issue that needs to be addressed.
+- Sharing negative feedback in a clear, direct way as soon as there's an issue that needs to be addressed.
 - Understanding that some decisions may be unpopular, but are ultimately necessary for the growth of everyone involved. Many times difficult decisions are necessary and beneficial, overall.
 
 ## My Working Style
 
 - I prefer long, uninterrupted windows of time for [deep work](/handbook/company/culture/all-remote/asynchronous/#mental-health). I disable **all*- notifications on my Mac and on my phone. This allows me to focus deeply on one task at a time, which is a more [efficient](/handbook/values/#efficiency) way of working than attempting to [multitask](https://signalvnoise.com/posts/1589-multitasking-is-the-fastest-way-to-mediocrity). In return, I will devote my full attention to your request and respond thoughtfully, with context and passion.
-- Unless specifically mentioned, I don’t expect immediate responses from anyone. I [respect others’ time]({{< ref "communication#be-respectful-of-others-time" >}}) and want you to have the space for a thoughtful response.
-- I embrace [asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/). I prefer variety in my workday [as opposed to routine]({{< ref "values#freedom-and-responsibility-over-rigidity" >}}). I work best when leveraging a [non-linear workday](/handbook/company/culture/all-remote/non-linear-workday/), maximizing daylight hours for being outdoors (if weather permits), hopefully traveling and exploring a new place.
-- I have many strong opinions, but they’re [weakly held](https://blog.codinghorror.com/strong-opinions-weakly-held/). I love finding a new perspective that makes me change my opinion, because it means that I’ve gotten a chance to learn something substantive and new. This also means that I expect my working style will evolve over time.
+- Unless specifically mentioned, I don't expect immediate responses from anyone. I [respect others' time](/handbook/communication/#be-respectful-of-others-time) and want you to have the space for a thoughtful response.
+- I embrace [asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/). I prefer variety in my workday [as opposed to routine](/handbook/values/#freedom-and-responsibility-over-rigidity). I work best when leveraging a [non-linear workday](/handbook/company/culture/all-remote/non-linear-workday/), maximizing daylight hours for being outdoors (if weather permits), hopefully traveling and exploring a new place.
+- I have many strong opinions, but they're [weakly held](https://blog.codinghorror.com/strong-opinions-weakly-held/). I love finding a new perspective that makes me change my opinion, because it means that I've gotten a chance to learn something substantive and new. This also means that I expect my working style will evolve over time.
 - When scheduling a meeting, please share an agenda beforehand (unless it is a coffee chat). I like to be able to come prepared to discuss the topics and have issues/MRs or announcements pulled up for reference.
 - If I have a recommendation backed up by experience or people ops/compliance knowledge, I am happy to speak up.
 - I want to earn your trust. I want to allow you the space to take risks, be vulnerable with me, and also tell me when I could be doing something better. [Psychological safety]({{< ref "psychological-safety" >}}) is extremely important to me.
@@ -81,8 +81,8 @@ People with the S (Supporter) personality type tend to be "calm, patient and res
 
 ## What I Assume about Others
 
-- [Positive intent]({{< ref "values#assume-positive-intent" >}}). 😁
-- You’ll ask for my input and help if it’s needed.
+- [Positive intent](/handbook/values/#assume-positive-intent). 😁
+- You'll ask for my input and help if it's needed.
 - You have more going on than the one thing we're discussing.
-- Work is absolutely not the most important thing in your life. I assume that there are [cherished relationships]({{< ref "values#family-and-friends-first-work-second" >}}) and personal interests that are more important to your happiness, and it’s hard to be happy with your job when work detracts from those things.
+- Work is absolutely not the most important thing in your life. I assume that there are [cherished relationships](/handbook/values/#family-and-friends-first-work-second) and personal interests that are more important to your happiness, and it's hard to be happy with your job when work detracts from those things.
 - Everyone is likely fighting a battle we know nothing about. 💛

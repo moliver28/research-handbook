@@ -1,16 +1,10 @@
 ---
-
 title: Emails Processes
 description: An overview of email processes at GitLab.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
-
 
 ## Overview
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -40,8 +34,8 @@ Due to limited seats, we will be providing 1-2 seats per team on the calendar. P
 Steps to add to the Asana calendar:
 
 * Ensure the label for "email-calendar" is added to your issue.
-* Add labels for the appropriate segmentation: “Global-email”, “EMEA-email”, “AMER-email”, “APAC-email”
-* Add labels for appropriate email type: “operational-email” “non-operational-email”
+* Add labels for the appropriate segmentation: "Global-email", "EMEA-email", "AMER-email", "APAC-email"
+* Add labels for appropriate email type: "operational-email" "non-operational-email"
 * Set email issue due date as the send date
 
 ### Email Request Issue Template
@@ -450,7 +444,7 @@ For the following, you can update 1 issue then drag it down (at least for email 
 8. Upload issue to the campaigns project using the import button. https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/uploads/c644b04f8460d6f1007e731093ff16fc/Screen_Shot_2022-08-11_at_2.10.56_PM.png
 9. Check to make sure your issues uploaded correctly and are in the right epic!
 
-## Adding “add to calendar” links in our emails without using 3rd party tools
+## Adding "add to calendar" links in our emails without using 3rd party tools
 <!-- DO NOT CHANGE THIS ANCHOR -->
 Example:
 
@@ -458,10 +452,10 @@ Example:
 
 **Note:** gmail inboxes a majority of our sends, according to litmus analytics pixel data. Outlook makes up 3-15% of our recipients. This is exactly what Limus did:
 
-It’s virtually impossible to support all the calendar applications available. To help us understand what calendar tools to focus on, we took a look at our Email Analytics data. The most popular email clients our subscribers use are Apple Mail, Gmail, and Outlook. Using this data, we focused our efforts on creating a “add to calendar” button that would be compatible with iCalendar, Google’s calendar, and Outlook’s calendar.
+It's virtually impossible to support all the calendar applications available. To help us understand what calendar tools to focus on, we took a look at our Email Analytics data. The most popular email clients our subscribers use are Apple Mail, Gmail, and Outlook. Using this data, we focused our efforts on creating a "add to calendar" button that would be compatible with iCalendar, Google's calendar, and Outlook's calendar.
 [Learn More Here](https://litmus.com/blog/how-to-create-an-add-to-calendar-link-for-your-emails)
 
-### Steps to manually creating “add to calendar” links in our emails
+### Steps to manually creating "add to calendar" links in our emails
 <!-- DO NOT CHANGE THIS ANCHOR -->
 * Create google calendar link for your events
   * Use this tool to generate your event information: [http://kalinka.tardate.com/](http://kalinka.tardate.com/)
@@ -479,7 +473,7 @@ It’s virtually impossible to support all the calendar applications available. 
 
 * Create ICS file for all other calendars (mostly Outlook and Apple)
   * Marketo can create an ICS file
-  * Add “Calendar File” Token to local tokens section
+  * Add "Calendar File" Token to local tokens section
   * Paste all necessary information (same as above)
   * Add token to the email as follows:
 

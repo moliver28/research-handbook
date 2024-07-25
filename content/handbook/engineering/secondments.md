@@ -1,5 +1,4 @@
 ---
-
 title: "Engineering Secondments"
 description: "Learn about GitLab's secondment program for external engineers."
 ---
@@ -27,7 +26,7 @@ During a secondment, the secondee remains employed by their regular employer, ho
 Currently, this program is still in a pilot phase but the general steps are as follows:
 
 1. An interested engineer reaches out to GitLab to express their interest in the program.
-2. A relevant team at GitLab speaks to the engineer and conducts interviews with the engineer. If a mutual fit is found, GitLab works with the engineer’s employer to formalize a secondment agreement.
+2. A relevant team at GitLab speaks to the engineer and conducts interviews with the engineer. If a mutual fit is found, GitLab works with the engineer's employer to formalize a secondment agreement.
 3. The secondee is onboarded to GitLab and begins work on GitLab projects.
 4. At the end of the secondment, the secondee is offboarded and returns to their regular employer.
 
@@ -49,7 +48,7 @@ Yes, all contributions from the seconded employee will be seen as `community con
 
 The secondee works as part of an engineering team and reports to an Engineering Manager at GitLab.
 
-### I’m working at company ABC and interested in a secondment at GitLab, how do I get started?
+### I'm working at company ABC and interested in a secondment at GitLab, how do I get started?
 
 The first step would be to discuss a secondment with your current employer and see if they would support you taking a secondment. If they are supportive, the next step would be to connect with GitLab to express your interest. Please note, this program is still in a pilot phase.
 
@@ -62,4 +61,4 @@ During a secondment, the secondee would remain employed by their regular employe
 When you can help build the software you use on a day-to-day basis you will be up to twice as efficient afterwards, as proven by [a study at Harvard](https://www.hbs.edu/faculty/Pages/item.aspx?num=54809).
 
 This program allows companies to have their employees learn about software development at GitLab and gain rich in-depth experience using GitLab.
-Today, many employers hire employees that have experience at certain companies or with certain products, but what options exist if your current employee lacks the kind of experience? A secondment at GitLab is a way to grow their career and increase your company’s capabilities.
+Today, many employers hire employees that have experience at certain companies or with certain products, but what options exist if your current employee lacks the kind of experience? A secondment at GitLab is a way to grow their career and increase your company's capabilities.

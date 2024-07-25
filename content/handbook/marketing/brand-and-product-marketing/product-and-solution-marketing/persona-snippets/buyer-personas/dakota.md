@@ -1,13 +1,6 @@
 ---
-
 title: "Dakota Persona snippets"
 ---
-
-
-
-
-
-
 
 ## SDR persona snippets by use case
 
@@ -35,7 +28,7 @@ title: "Dakota Persona snippets"
   - Do you have a plan to standardize on a single CI/CD solution that can orchestrate across the entire SDLC?
 - A strong CI foundation is crucial to success with DevOps initiatives. Is your organization investing to improve CI in the short term or long term?
   - Is there a clearly defined strategy or timeline?
-  - What’s the expectation on your team to support or facilitate this initiative?
+  - What's the expectation on your team to support or facilitate this initiative?
   - Are you going to be onboarding additional teams in the next say, 12 months?
 - ...
 

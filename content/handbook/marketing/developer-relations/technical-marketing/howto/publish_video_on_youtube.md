@@ -16,7 +16,7 @@ title: "Publish a video on YouTube"
 
 1. Login to the GitLab YouTube account where you would like to post a video.
    You should already have permission to do that from your GitLab login.
-   If you don’t and believe that you should then open an access request.
+   If you don't and believe that you should then open an access request.
 
 1. Click on the profile picture and select **YouTube Studio**
 

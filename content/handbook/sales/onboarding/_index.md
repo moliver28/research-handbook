@@ -1,14 +1,7 @@
 ---
-
 title: "Sales Quick Start"
 description: "Sales and Customer Success Onboarding at GitLab is a blended learning experience focused on what new sales/ customer success team members need to know, do, and be able to articulate within their first 30 days or so on the job"
 ---
-
-
-
-
-
-
 
 ## The Goals of Sales Quick Start
 
@@ -58,7 +51,7 @@ For a detailed list of SQS Learning Objectives, please visit [this page](/handbo
 | May 11 - May 19, 2022  | AMER / EMEA | Virtual | [SQS 24 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/1379) |
 | Apr 13 - Apr 21, 2022 | AMER / EMEA | Virtual | [SQS 23 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/1301) |
 | Mar 9 - Mar 18, 2022 | AMER / EMEA | Virtual | [SQS 22 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/1259) |
-| Feb 16 - Feb 25, 2022 | AMER / EMEA | Virtual | [SQS 21 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/1191) |  
+| Feb 16 - Feb 25, 2022 | AMER / EMEA | Virtual | [SQS 21 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/1191) |
 | Jan 12 - Jan 21 2022 | AMER / EMEA | Virtual | [SQS 20 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/1042) |
 | Dec 1 - Dec 10, 2021 | AMER / EMEA | Virtual | [SQS 19 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/953) |
 | Oct 4 - Oct 14, 2021 | AMER / EMEA | Virtual | [SQS 18 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/902) |
@@ -69,13 +62,12 @@ For a detailed list of SQS Learning Objectives, please visit [this page](/handbo
 
 To accelerate ramp time and to support the GitLab values of results, iteration and efficiency, we have optimized the field onboarding program to provide new team members with the core information and essential competencies paired with the day-to-day skills that they need to be successful in their individual role. Learning is combined with specialized on the job training and a more robust shadowing program to ensure that new team members can contextualize and apply what they are learning throughout the entire onboarding journey.
 
-The onboarding program includes individual role-based learning journeys for AEs, SAEs, SAs, CSMs, CAMs, ABDMs and ISRs. Each role-based learning journey is designed based on the unique needs of each segment and includes the following milestones:
+The onboarding program includes individual role-based learning journeys for AEs, SAs, CSMs, CSEs, RMs, SDRs, & BDRs. Each role-based learning journey is designed based on the unique needs of each segment and includes the following milestones:
 
 - Month 1: Understand role and GitLab product (SQS & Pre-work)
-- Month 2: Meet customers
-- Month 3: Become customer-ready certified
-- Month 4: Close first deals
-- Month 5 and Beyond: Continue to develop intermediate and advanced skills
+- Month 2: Become customer-ready certified & meet customers
+- Month 3: Close first deals
+- Month 4 and Beyond: Continue to develop intermediate and advanced skills
 
 ### Learning Journeys
 
@@ -85,7 +77,16 @@ GitLab's role-based learning journeys are based on milestones and enable us to d
 
 ### How To Get Started
 
-Click on a link below to begin your role based journey.
+**Check out the links below to find the specific onboarding handbook page for your role. On these pages you can find additional role based onboarding and shadow program information including learning objectives, manager expectations & graduation requirements.**
+
+- Enterprise Account Executives - [Enterprise Sales Onboarding Handbook](/handbook/sales/shadow-program/)
+- Commercial Account Executives - [Commercial Sales - Onboarding Handbook](/handbook/sales/commercial/enablement/)
+- Renewals Managers: [Renewals Manager (RM) Onboarding Handbook](/handbook/customer-success/renewals-managers/rm-onboarding/)
+- Customer Success: [CSM Onboarding Handbook](/handbook/customer-success/csm/csm-onboarding/)
+- Customer Success: [CSE Onboarding Handbook](/handbook/customer-success/csm/segment/cse/cse-tm-onboarding/)
+- Sales and Business Development - [(SDR) (BDR) Onboarding Handbook](/handbook/marketing/sales-development/tanuki-tech/)
+
+**Click on a link below to begin your role based e-learning journey.**
 
 - Enterprise Strategic Account Executive - [Enterprise Sales Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/enterprise-sales-onboarding-journey)
 - Commercial Account Executive - [Commercial Sales - Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/commercial-sales-onboarding-journey)
@@ -95,12 +96,11 @@ Click on a link below to begin your role based journey.
 - Customer Success Management: [CSE Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding)
 - Sales Development - [Inbound (SDR)](https://university.gitlab.com/pages/sales-development?labels=%5B%22Sales%20Development%22%5D&values=%5B%22Inbound%20(SDR)%22%5D) or [Outbound (BDR)](https://university.gitlab.com/pages/sales-development?labels=%5B%22Sales%20Development%22%5D&values=%5B%22Outbound%20(BDR)%22%5D)
 - Channel - [Channel Sales Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/channel-sales-on-boarding)
-- All Other Roles (Field Ops) - [Sales Quick Start](https://levelup.gitlab.com/learn/course/sales-quick-start)
+- All Other Roles - [Sales Quick Start](https://levelup.gitlab.com/learn/course/sales-quick-start)
 
 ### Role Based Journeys Coming Soon
 
-- Professional Services Engineer
-- Alliances
+- Channel & Alliances
 
 ### Onboarding Program Health Measurement
 

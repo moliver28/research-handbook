@@ -443,7 +443,7 @@ These are the recommended settings. Your mileage may vary.
 1. Scroll down to "Sound & appearance".
 1. Choose settings that ensure you won't miss messages. We recommend:
    1. Select a "Notification sound".
-   1. Check "Bounce Slack’s icon when receiving a notification".
+   1. Check "Bounce Slack's icon when receiving a notification".
 1. Use your preference for the other settings. The "Channel-specific notifications" are particularly helpful to mute noisy channels that you don't need to be interrupted for.
 
 ![screenshot of slack notification settings](notifications-slack-1.png)

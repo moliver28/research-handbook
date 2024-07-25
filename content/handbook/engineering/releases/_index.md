@@ -119,7 +119,7 @@ Overview of the steps involved with creating a patch release:
 
 - [Diagram source](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
 
-Details of the patch release lifecycle can be found on the [patch release section]((/handbook/engineering/releases/patch_releases/#planned-patch-release-process)
+Details of the patch release lifecycle can be found on the [patch release section](/handbook/engineering/releases/patch_releases/)
 
 ### Patch release information dashboard
 
@@ -128,7 +128,7 @@ GitLab team members can view the [internal Grafana dashboard "Release Informatio
 - Active patch release versions (stable version + 2 backport versions)
 - Upcoming patch release date
 - Current status of the patch release
-  - Open: Bug fixes and MRs associated with security issues labelled `security-target` are expected to be included in the next patch release.
+  - Open: Bug fixes and MRs associated with security issues labeled `security-target` are expected to be included in the next patch release.
   - Warning: Signals that teams should get bug and security fixes ready to merge.
   - Closed: Default branch MRs have been merged, no further bug or security fixes will be included.
 
@@ -246,7 +246,7 @@ The different processes are documented here:
 
 ### How can I get a high severity bug fix released?
 
-Any high severity issue should start with an issue labelled with the appropriate bug and severity labels.
+Any high severity issue should start with an issue labeled with the appropriate bug and severity labels.
 
 Depending on the bug details, follow one of the following processes:
 

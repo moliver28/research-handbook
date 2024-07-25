@@ -4,7 +4,7 @@ title: "Database Reliability Engineer"
 
 Database Reliability Engineers (DBRE) are responsible for keeping database systems that support all user-facing services (most notably GitLab.com) and many other GitLab production systems running smoothly 24/7/365. DBREs are a blend of database engineering and administration gearheads and software developers that apply sound engineering principles, operational discipline and mature software development and automation, specializing in databases (PostgreSQL in particular). In that capacity, DBREs are peers to SREs and bring database expertise to the SRE and SAE Infrastructure teams as well as our engineering teams.
 
-GitLab.com is a unique site and it brings unique challenges: it’s the biggest GitLab instance in existence; in fact, it’s one of the largest single-tenancy open-source SaaS sites on the internet. The experience of our team feeds back into other engineering groups within the company, as well as to GitLab customers running self-managed installations
+GitLab.com is a unique site and it brings unique challenges: it's the biggest GitLab instance in existence; in fact, it's one of the largest single-tenancy open-source SaaS sites on the internet. The experience of our team feeds back into other engineering groups within the company, as well as to GitLab customers running self-managed installations
 
 ## As a DBRE you will
 
@@ -101,7 +101,7 @@ The Senior Database Reliability Engineer is a [grade 7](/handbook/total-rewards/
 - Proactively work on the efficiency and capacity planning to set clear requirements and reduce the system resources usage to make GitLab cheaper to run for all our customers.
 - Perform and run blameless RCA's on incidents and outages, relentlessly looking for answers that will prevent the incident from ever happening again.
 - Show ownership of PostgreSQL ecosystem, great plus on ownership of major part of the infrastructure.
-- Deep knowledge in architectural overview, knowledge of engineering practices, ORM’s, caching...
+- Deep knowledge in architectural overview, knowledge of engineering practices, ORM's, caching...
 - Identify parts of the system that do not scale, provide immediate palliative measures and drive long term resolution of these incidents.
 - Identify the SLO (Service Level Objectives) that will align the team to meet the availability and latency objectives.
 - Be constructive, strong initiatives, approach with solutions, think out of the box, able to switch focus or priorities as required.
