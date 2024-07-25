@@ -12,6 +12,7 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 - Non-deterministic outputs are difficult to test due to the variance in responses
 - Speed of industry advancements sometimes require reworking features mid-development
 - High quality evaluations require time, focus and attention to detail
+- Having relevant tests in place to evaluate AI output in an automated way is required for efficient development and improvement. 
 
 ## Key Principles
 
@@ -23,6 +24,9 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
   - Reason: Academic benchmarks may not always translate to practical value; real-world usage provides more accurate insights into feature effectiveness.
 - Embrace iteration and continuous improvement
   - Reason: Acknowledges the evolving nature of AI technology and user needs, allowing for ongoing refinement of features.
+- Embrace automatic testing of AI output
+  - Reason:
+Without such in place efficient development iteration and following up on user feedback is hard to impossible.
 
 ## Potential Evaluation Metrics
 
@@ -46,9 +50,16 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 
 **Definition**: User-reported satisfaction with the AI feature
 
-**Benchmark**: Average feedback score of 4 out of 5 or higher
+**Benchmark**: More than 80% of answers are rated good, i.e. rated 4 or 5 on a scale from 1 to 5
 
-**Measurement**: Centralized AI feedback system integrated across GitLab products
+**Measurement**: User tests such as Duo bashes, where users rate every AI output.
+### 4. Automatic testing as a proxy for User Satisfaction
+
+**Definition**: Automated tests that rate AI output similarly than humans would 
+
+**Benchmark**: More than 80% of answers are rated good, i.e. rated 4 or 5 on a scale from 1 to 5
+
+**Measurement**: Test questions collected from users or derived from other sources and automatically tested via Centralized Evaluation Framework for instance with an LLM judge that rates the answer.
 
 ### 4. Similarity to Human Output
 
@@ -64,7 +75,7 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 
 **Benchmark**: 20% reduction in time from issue creation to merge
 
-**Measurement**: GitLab cycle analytics data
+**Measurement**: GitLab Value Stream Analytics data
 
 ### 6. Safety and Ethical Considerations
 
@@ -81,6 +92,22 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 **Benchmark**: AI performance meets or exceeds median expert level
 
 **Measurement**: Controlled trials comparing AI and expert performance on domain-specific tasks
+
+### 8. Usability
+
+**Definition**
+How easy the AI-powered feature is to learn and use.
+
+**Benchmark**
+Usability eval led by a member of UX.
+
+**Measurement**
+Scoring depends on feature maturity. 
+
+
+
+
+
 
 ## Evaluation Stages
 
@@ -104,14 +131,13 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 
 ## Things to Avoid
 
-- Over-relying on academic benchmarks that don't reflect real-world usage
-- Spending excessive time on evaluations before validating product-market fit
-- Using complex evaluation frameworks or processes that slow down iteration
-- Getting tied up in overly rigid evaluation procedures that hinder agility and rapid improvement
+- Do not assume the LLM will do what you tell it to.
+- Do not assume that manually testing a few AI outputs will be enough to grant production quality AI outputs that satisfy users.
+- Do not assume that you can use user feedback to adjust prompts without automated AI output tests in place. If you do this you will like fix one problem (that the users reported) but may harm another scenario that might have worked previously. 
 
 ## Best Practices
 
-1. Integrate lightweight evaluations throughout the development process
+1. Integrate lightweight automated evaluations throughout the development process
 2. Leverage GitLab's existing analytics and telemetry capabilities
 3. Prioritize user feedback over purely quantitative metrics
 4. Regularly review and update benchmarks as AI capabilities evolve
