@@ -168,7 +168,7 @@ In case a woman takes parental leave subsequently to the child's birth, the peri
   - GitLab may receive reimbursement of these payments from the team member's health insurance carrier. Please provide the Absence Management team at `leaves@domain` with the name of your insurance provider and Versichertennummer (insurance number).
   - The Absence Management team will then send payroll the team member's insurance details.
 - If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), paid Parental Leave at GitLab will start from the beginning of the Maternity Protection Period and run concurrently with any statutory allowances, if applicable.
-- If you wish to take Parental Leave directly after your Maternity Protection Period ends, you may do so. If eligible, GitLab will pay up to 16 weeks of your total leave (including Maternity Protection), the rest will be unpaid.
+- If you wish to take Parental Leave directly after your Maternity Protection Period ends, you may do so. If eligible, GitLab will pay up to 16 weeks of your total leave (not including the Maternity Protection period), the rest will be unpaid.
 
 **Table for birthing person**
 
