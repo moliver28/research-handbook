@@ -171,40 +171,33 @@ In case a woman takes parental leave subsequently to the child's birth, the peri
 
 **Table for birthing person**
 
-<table className="w-full border-collapse">
+<table style="width: 100%; border-collapse: collapse; text-align: center; font-size: 14px;">
   <thead>
     <tr>
-      {[
-      "Period / Point in Time",
-      "Beginning of Pregnancy",
-      "Notification to Employer",
-      "Remaining Pregnancy Time",
-      "6 Weeks Before Due Date",
-      "Day of Birth",
-      "8 Weeks After Birth",
-      "Up to 4 Months After Birth",
-      "Up to 12 Months After Birth",
-      "Max. Until Child's 3rd Birthday"
-      ].map((header, index) => (
-      <th key={index} className="border border-gray-300 p-2 text-center text-sm font-medium">
-        {header}
-      </th>
-      ))}
+      <th style="border: 1px solid #ddd; padding: 8px;">Period / Point in Time</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Beginning of Pregnancy</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Notification to Employer</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Remaining Pregnancy Time</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">6 Weeks Before Due Date</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Day of Birth</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">8 Weeks After Birth</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Up to 4 Months After Birth</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Up to 12 Months After Birth</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Max. Until Child's 3rd Birthday</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td className="border border-gray-300 p-2 text-center text-sm">Salary (As per German Law)</td>
-      <td colSpan={3} className="border border-gray-300 p-2 text-center text-sm bg-blue-100">Regular salary</td>
-      <td colSpan={3} className="border border-gray-300 p-2 text-center text-sm bg-blue-200">Maternity pay</td>
-      <td colSpan={3} className="border border-gray-300 p-2 text-center text-sm bg-red-100">Parental Leave Pay</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Salary (As per German Law)</td>
+      <td colspan="3" style="border: 1px solid #ddd; padding: 8px; background-color: #e6f3ff;">Regular salary</td>
+      <td colspan="3" style="border: 1px solid #ddd; padding: 8px; background-color: #ccebff;">Maternity pay</td>
+      <td colspan="3" style="border: 1px solid #ddd; padding: 8px; background-color: #ffe6e6;">Parental Leave Pay</td>
     </tr>
     <tr>
-      <td className="border border-gray-300 p-2 text-center text-sm">GitLab Parental Leave</td>
-      <td colSpan={6} className="border border-gray-300 p-2 text-center text-sm bg-blue-100">not applicable</td>
-      <td colSpan={2} className="border border-gray-300 p-2 text-center text-sm bg-green-100">16 weeks of fully paid
-        parental leave</td>
-      <td className="border border-gray-300 p-2 text-center text-sm bg-red-100">not applicable</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">GitLab Parental Leave</td>
+      <td colspan="6" style="border: 1px solid #ddd; padding: 8px; background-color: #e6f3ff;">not applicable</td>
+      <td colspan="2" style="border: 1px solid #ddd; padding: 8px; background-color: #ccffcc;">16 weeks of fully paid parental leave</td>
+      <td style="border: 1px solid #ddd; padding: 8px; background-color: #ffe6e6;">not applicable</td>
     </tr>
   </tbody>
 </table>
@@ -217,27 +210,53 @@ In case a woman takes parental leave subsequently to the child's birth, the peri
 
 **Table for partner of birthing person**
 
-<table style="text-align: center;">
+<table style="width: 100%; border-collapse: collapse; text-align: center; font-size: 14px;">
   <thead>
     <tr>
-      <th style="text-align: center;">Period / Point in Time</th>
-      <th style="text-align: center;">During Pregnancy</th>
-      <th style="text-align: center;">Day of Birth</th>
-      <th style="text-align: center;">Up to 12 Months After Birth</th>
-      <th style="text-align: center;">Max. Until Child's 3rd Birthday</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Period / Point in Time</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">During Pregnancy</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Day of Birth</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Up to 12 Months After Birth</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Max. Until Child's 3rd Birthday</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center;">Salary (As per German Law)</td>
-      <td colspan="2" style="background-color: #e6f3ff; text-align: center;">Regular salary</td>
-      <td colspan="2" style="background-color: #ffe6e6; text-align: center;">Parental Allowance (if taking Elternzeit) or Regular Salary</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Salary (As per German Law)</td>
+      <td colspan="2" style="border: 1px solid #ddd; padding: 8px; background-color: #e6f3ff;">Regular salary</td>
+      <td colspan="2" style="border: 1px solid #ddd; padding: 8px; background-color: #ffe6e6;">Parental Allowance (if taking Elternzeit) or Regular Salary</td>
     </tr>
     <tr>
-      <td style="text-align: center;">GitLab Parental Leave</td>
-      <td colspan="2" style="background-color: #e6f3ff; text-align: center;">Regular salary</td>
-      <td style="background-color: #ccffcc; text-align: center;">16 weeks of fully paid parental leave (can be taken flexibly within 12 months after birth)</td>
-      <td style="background-color: #e6f3ff; text-align: center;">Regular salary</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">GitLab Parental Leave</td>
+      <td colspan="2" style="border: 1px solid #ddd; padding: 8px; background-color: #e6f3ff;">Regular salary</td>
+      <td style="border: 1px solid #ddd; padding: 8px; background-color: #ccffcc;">16 weeks of fully paid parental leave (can be taken flexibly within 12 months after birth)</td>
+      <td style="border: 1px solid #ddd; padding: 8px; background-color: #e6f3ff;">Return to work -> Regular salary</td>
+    </tr>
+  </tbody>
+</table>
+
+**Table for adopting persons**
+
+<table style="width: 100%; border-collapse: collapse; text-align: center; font-size: 14px;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px;">Period / Point in Time</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Day of Adoption</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Up to 12 Months After Adoption</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Max. Until Child's 3rd Birthday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">Salary (As per German Law)</td>
+      <td style="border: 1px solid #ddd; padding: 8px; background-color: #e6f3ff;">Regular salary</td>
+      <td colspan="2" style="border: 1px solid #ddd; padding: 8px; background-color: #ffe6e6;">Parental Allowance (if taking Elternzeit) or Regular Salary</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">GitLab Parental Leave</td>
+      <td style="border: 1px solid #ddd; padding: 8px; background-color: #e6f3ff;">Regular salary</td>
+      <td style="border: 1px solid #ddd; padding: 8px; background-color: #ccffcc;">16 weeks of fully paid parental leave (can be taken flexibly within 12 months after adoption)</td>
+      <td style="border: 1px solid #ddd; padding: 8px; background-color: #e6f3ff;">Return to work -> Regular salary</td>
     </tr>
   </tbody>
 </table>
