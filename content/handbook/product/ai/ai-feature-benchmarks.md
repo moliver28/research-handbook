@@ -53,6 +53,7 @@ Without such in place efficient development iteration and following up on user f
 **Benchmark**: More than 80% of answers are rated good, i.e. rated 4 or 5 on a scale from 1 to 5
 
 **Measurement**: User tests such as Duo bashes, where users rate every AI output.
+
 ### 4. Automatic testing as a proxy for User Satisfaction
 
 **Definition**: Automated tests that rate AI output similarly than humans would 
