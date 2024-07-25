@@ -105,11 +105,6 @@ Usability eval led by a member of UX.
 **Measurement**
 Scoring depends on feature maturity. 
 
-
-
-
-
-
 ## Evaluation Stages
 
 ### Prototype / Early Product
