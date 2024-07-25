@@ -128,7 +128,6 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Marketo](https://www.marketo.com/software/marketing-automation/) | Fivetran | `marketo` | x | Marketing | 24h / 24h | No | Tier 2 |
 | Monte Carlo | Snowflake Share | `n/a` | `prep_legacy` | Data | 12h / 24h | No | Tier 3 |
 | [Netsuite](https://www.netsuite.com/portal/home.shtml) | Fivetran | `netsuite_fivetran` | `netsuite` | Finance | 6h / 24h | Yes | Tier 2 |
-| [OCI Reports](https://docs.oracle.com/en-us/iaas/Content/Billing/Concepts/usagereportsoverview.htm) | Airflow | `oci_reports` | `oci_reports` | Engineering | 24h / 48h | No | Tier 3 |
 | [Omamori](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/omamori) | Airflow | `omamori` | `omamori` | Engineering | 1h / 24h | No  | Tier 2 |
 | Pajamas Adoption Scanner | Airflow | `pajamas_adoption_scanner` | `pajamas_adoption_scanner` | Engineering | 24h / 48h | No | Tier 3 |
 | [PMG](https://www.pmg.com/) | x | `pmg` | `pmg` | x | x / x | No | Tier 3 |
