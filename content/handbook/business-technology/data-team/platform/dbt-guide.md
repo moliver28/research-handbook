@@ -317,9 +317,7 @@ Before we start, there are some settings to adjust in your VScode:
   }
   ```
 
-  {{% panel header="**Note**" header-bg="warning" %}}
-  If the code base is updated with new values for these environment variables, you will have to update them in your `settings.json` according to the values of variables located in the `Makefile` at the root of the analytics repository.
-  {{% /panel %}}
+  Note: If the code base is updated with new values for these environment variables, you will have to update them in your `settings.json` according to the values of variables located in the `Makefile` at the root of the analytics repository.
 
 - Edit `DBT_PROFILES_DIR` so that it points to your `~/.dbt/` folder (it seems that path must be relative and pointing to your `~/.dbt` folder, from the `/analytics` folder)
 - Restart VScode and re-open the analytics workspace
