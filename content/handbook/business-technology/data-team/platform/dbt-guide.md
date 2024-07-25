@@ -141,6 +141,29 @@ Recommended workflow for anyone running a Mac system.
 
 We use virtual environments for local dbt development because it ensures that each developer is running exactly the same dbt version with exactly the same dependencies. This minimizes the risk that developers will have different development experiences due to different software versions, and makes it easy to upgrade everyone's software simultaneously. Additionally, because our staging and production environments are containerized, this approach ensures that the same piece of code will execute as predictably as possible across all of our environments.
 
+#### Build Changes Locally
+
+To clone and build all of the changed models in the local development space the same `build_changes` process can be used that is used in the [CI Job](/handbook/business-technology/data-team/platform/ci-jobs/#build_changes).  The primary difference is that instead of a `WAREHOUSE` variable the developer can pass a `TARGET` variable to use a target configured with a different warehouse size.  To run the process, run the `make build-changes` command from within the virtual environment.
+
+```console
+ ~/repos/analytics/transform/snowflake-dbt
+╰─$ make build-changes DOWNSTREAM="+1" FULL_REFRESH="True" TARGET="dev_xl" VARS="key":"value" EXCLUDE="test_model" 
+```
+
+#### SQLFluff linter
+
+We use SQLFluff to enforce [SQL style guide](/handbook/business-technology/data-team/platform/sql-style-guide/) on our code. In addition to the methods for executing the linter found in the documentation, when in the dbt virtual environment the `make lint-models` can be used.  By default the `lint-models` process will lint all changed sql files, but the `MODEL` variable can be used to lint a specif sql file and the `FIX` variable can be used to run the linters fix command that will make changes to the sql file.
+
+```console
+~/repos/analytics/transform/snowflake-dbt
+╰─$ make lint-models 
+sqlfluff lint models/workspaces/workspace_data/mock/data_type_mock_table.sql
+
+~/repos/analytics/transform/snowflake-dbt
+╰─$ make lint-models FIX="True" MODEL="dim_date"  
+sqlfluff fix ./models/common/dimensions_shared/dim_date.sql
+```
+
 #### Cloning models locally
 
 This command enables zero copy cloning using DBT selections syntax to clone entire lineages. This is far faster and more cost-effective than running the models using DBT but do not run any DBT validations. As such, all dbt users are encouraged to use this command to set up your environment.
@@ -249,10 +272,6 @@ dbt specific:
 - `dbt_run_changed` - a function we've added to your computer that only runs models that have changed (this is accessible from within the docker container)
 - `cycle_logs` - a function we've added to your computer to clear out the dbt logs (not accessible from within the docker container)
 - `make dbt-docs` - a command that will spin up a local container to serve you the `dbt` docs in a web-browser, found at `localhost:8081`
-
-##### SQLFluff linter
-
-We use SQLFluff to enforce [SQL style guide](/handbook/business-technology/data-team/platform/sql-style-guide/) on our code. To have the SQLFluff in the DBT venv you will have to rebuild it. The make prepare-dbt or more specifically the pipenv install from within that command will install the correct version of the tool into the venv. If you have done that and it is not working you can try a direct install of version 0.9.3 using the pip installer.
 
 ### VSCode extension: dbt Power User
 
