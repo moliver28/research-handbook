@@ -1,4 +1,4 @@
- ---
+---
 title: "Customer Success Management Handbook"
 description: "The Customer Success Management team at GitLab is a part of the Customer Success department, acting as trusted advisors to our customers and helping them realize value faster."
 ---
