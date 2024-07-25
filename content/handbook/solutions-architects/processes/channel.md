@@ -4,7 +4,7 @@ title: Channel SA Engagement Model
 
 ## Channel Solutions Architecture Engagement Model
 
-GitLab Field Teams can engage a Channel SA when a GitLab Partner is involved in an opportunity and needs presales support, general enablement, or general practice building support.  We work closely with our Channel Account Managers (CAM) who own the business aspects of the partner relationship, and foster relationships at an opportunity level between GitLab Account Managers and the Partner Account teams.
+GitLab Field Teams can engage a Channel SA when a GitLab Partner is involved in an opportunity and needs presales support, general enablement, or general practice building support.  We work closely with our Partner Account Managers (PAM) and Partner Territory Managers (PTM) who own the business aspects of the partner relationship, and foster relationships at an opportunity level between GitLab Account Managers and the Partner Account teams.
 
 Channel SA's ensure that partners get the most value possible out of their relationship with GitLab through their sales and delivery of GitLab's products and services. Channel Solutions Architects (CSA) organize their activities to facilitate partner sales opportunities and mature GitLab partners quickly in their ability to independently deliver customer value.
 
@@ -49,12 +49,12 @@ Regionally the Channel SA's coordinate issues within the following projects:
 
 #### AMER
 
-- https://gitlab.com/gitlab-com/channel/partners/amer/amer-internal
+- https://gitlab.com/gitlab-com/partners/channel/amer/amer-internal
 
 #### APAC
 
-- https://gitlab.com/gitlab-com/channel/partners/apac/apac-internal
+- https://gitlab.com/gitlab-com/partners/channel/apac/apac-internal
 
 #### EMEA
 
-- https://gitlab.com/gitlab-com/channel/partners/emea/emea-internal
+- https://gitlab.com/gitlab-com/partners/channel/emea/emea-internal
