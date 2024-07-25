@@ -8,7 +8,7 @@ The Cross-Functional Prioritization contains three key tenets:
 * Different cross-functional DRIs prioritize each section with anyone is still able to advocate for prioritization changes
 * DRI decisions informed by qualitative and quantitative data, up to and including automatic scheduling of work items based on SLA policies
 
-At the R&D directs level, over the course of the quarter, all product development efforts should calculate to a 60%/40% split with 60% focused on features and usability, 30% focused on evolution and optimization, and 10% focused on bugs and SLA related efforts. This means that each group should define the correct ratio across all three categories based on their Category maturity as well as maintenance needed to continue to meet our security, scalability, reliability, and availability requirements. Each quad will align with their leaders to ensure that R&D achieves its 60%/40% target.
+At the R&D directs level, over the course of the quarter, all product development efforts should calculate to a 60%/40% split with 60% focused on features and usability, 30% focused on evolution, optimization, and general maintenance. This means that each group should define the correct ratio across all three categories based on their Category maturity as well as maintenance needed to continue to meet our security, scalability, reliability, and availability requirements. Each quad will align with their leaders to ensure that R&D achieves its 60%/40% target.
 
 A balance across these components while empowering DRIs will allow GitLab to operate in a way that will allow us to meet (and exceed) revenue goals while maintaining the security, stability, reliability, and availability of our platform.
 
