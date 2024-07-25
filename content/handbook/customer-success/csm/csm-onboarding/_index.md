@@ -72,7 +72,7 @@ As a CSM, in addition to the [SQS learning objectives](/handbook/sales/onboardin
 
 ## Milestones and Onboarding Roadmap
 
-![CSM Onboarding Journey Roadmap](/handbook/customer-success/csm/csm-onboarding/CSM Onboarding Journey Roadmap.png)
+![CSM Onboarding Journey Roadmap](/handbook/customer-success/csm/csm-onboarding/CSM-Onboarding-Journey-Roadmap.png)
 
 ## Expectations for Manager support during onboarding
 
