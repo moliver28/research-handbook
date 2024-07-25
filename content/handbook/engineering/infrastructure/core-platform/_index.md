@@ -225,7 +225,7 @@ To sign up for a month, simply open an MR to the schedule below to add yourself 
 | April |     @bshah11       |  Postgress: [Zero-downtime Postgres Major Version Upgrade](https://postgresconf.org/conferences/2024/program/proposals/zero-downtime-postgres-major-version-upgrade)     | https://youtu.be/lv3otnWBMzY |
 | May   |  @manojmj | Progress: The story of how we leveraged housekeeper, YAML & GitLab Pages to build alignment | https://youtu.be/zUl5dMF5gz0  |
 | June  |           |       |          |
-| July  |     @terrichu     |   Advanced search basics, integration, indexing and search    ||
+| July  |     @terrichu     |   [Advanced search basics, integration, indexing and search](https://docs.google.com/presentation/d/1Fy3pfFIGK_2ZCoB93EksRKhaS7uuNp81I3L5_joWa04/edit?usp=sharing_)    | https://youtu.be/5OXK1isDaks |
 | August | @sxuereb | PromQL Basics, Mimir and our exporters       ||
 | September |  @bshah11     |    TBD  ||
 | October |         |       |          |
