@@ -1426,9 +1426,9 @@ are aggregated for calculation. Once aggregated the following metrics are calcul
 
 $$E_l = min\{\frac{s-S_l}s,0\}$$
 
-- Where $S_l$ is the model Bytes Spilled to Local Storage
-- Where $E_l$ is the model Local Storage Efficiency
-- Where $s$ is the model Bytes Scanned 
+- Where \\(S_l\\) is the model Bytes Spilled to Local Storage
+- Where \\(E_l\\) is the model Local Storage Efficiency
+- Where \\(s\\) is the model Bytes Scanned 
 
 The metric is calculated as the model bytes scanned less the model bytes spilled to local storage divided
 by the model bytes scanned and limited to values between 0 and 1.  This calculation alow for an number
@@ -1438,9 +1438,9 @@ that is independent of other models but still comparable to other models.
 
 $$E_r = min\{\frac{s-S_r}s,0\}$$
 
-- Where $S_r$ is the model Bytes Spilled to Remote Storage
-- Where $E_r$ is the model Remote Storage Efficiency
-- Where $s$ is the model Bytes Scanned
+- Where \\(S_r\\) is the model Bytes Spilled to Remote Storage
+- Where \\(E_r\\) is the model Remote Storage Efficiency
+- Where \\(s\\) is the model Bytes Scanned
 
 The metric is calculated as the model bytes scanned less the model bytes spilled to remote
 storage divided by the model bytes scanned and limited to values between 0 and 1.
@@ -1450,9 +1450,9 @@ This calculation alow for an number that is independent of other models but stil
 
 $$E_p = if\ p\ >\ 1\ then\ min\{\frac{p-S_p}p,0\}\ else\ 1$$
 
-- Where $S_p$ is the model Partitions Scanned
-- Where $E_p$ is the model Partition Scan Efficiency
-- Where $p$ is the model Total Partitions
+- Where \\(S_p\\) is the model Partitions Scanned
+- Where \\(E_p\\) is the model Partition Scan Efficiency
+- Where \\(p\\) is the model Total Partitions
 
 If there is more than one model partition then the metric is calculated as the model total partitions
 less the model partitions scanned divided by the model total partitions and limited to values
@@ -1466,13 +1466,13 @@ the metric as much as possible.
 
 $$E = [(E_l * w_l) + (E_r * w_r) + (E_p * w_p)]*100$$
 
-- Where $E$ is the model Efficiency Score
-- Where $E_p$ is the model Partition Scan Efficiency
-- Where $E_r$ is the model Remote Storage Efficiency
-- Where $E_l$ is the model Local Storage Efficiency
-- Where $w_p$ is the model Partition Scan Efficiency weight
-- Where $w_r$ is the model Remote Storage Efficiency weight
-- Where $w_l$ is the model Local Storage Efficiency weight
+- Where \\(E\\) is the model Efficiency Score
+- Where \\(E_p\\) is the model Partition Scan Efficiency
+- Where \\(E_r\\) is the model Remote Storage Efficiency
+- Where \\(E_l\\) is the model Local Storage Efficiency
+- Where \\(w_p\\) is the model Partition Scan Efficiency weight
+- Where \\(w_r\\) is the model Remote Storage Efficiency weight
+- Where \\(w_l\\) is the model Local Storage Efficiency weight
 
 The compound score is calculated as the weight average of the
 `Local Storage Efficiency`, `Remote Storage Efficiency`, and `Partition Scan Efficiency` metrics.
