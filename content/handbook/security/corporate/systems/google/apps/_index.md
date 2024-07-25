@@ -6,7 +6,7 @@ Effective 2024-06-26, Google Workspace applications that connect via OAuth are b
 
 ### Adding an external OAuth application to Google Workspace
 
-Please create a [app integration issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/new?issuable_template=app_integrations). Once the app integration issue has undergone all necessary reviews and approvals, please [submit a CorpSec issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/news) and link the app integration issue.
+Please create a [app integration issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/new?issuable_template=app_integrations). Once the app integration issue has undergone all necessary reviews and approvals, please [submit a CorpSec issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new) and link the app integration issue.
 
 ### Adding an internal app/app script to Google Workspace
 
