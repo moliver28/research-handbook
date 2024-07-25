@@ -44,14 +44,14 @@ The GitLab SRE team manages upgrades and maintenance for Dedicated customers. Be
     1. A project used by Gitlab Dedicated SRE team to provision, configure and orchestrate a Gitlab Dedicated customer tenant account setup and maintenance 
 3. [Switchboard](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/switchboard)
     1. Tool for GitLab Dedicated customers to manage their tenant environments
-    2. CSM/A's managing GitLab Deidcated customers should request access to switchboard by opening an [access request](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/#requesting-access-to-the-switchboard-application:~:text=Create%20an-,Access%20Request,-specifying)
+    2. CSM/A's managing GitLab Deidcated customers should request access to switchboard by opening an [access request](/engineering/infrastructure/team/gitlab-dedicated/switchboard/#requesting-access-to-the-switchboard-application:~:text=Create%20an-,Access%20Request,-specifying)
 4. [Transistor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/transistor)
     1. Project used by GitLab Dedicated SRE team to provision, configure and orchestrate runners for Dedicated customers. 
 
 ## Support
 
-1. [GitLab Dedicated Support Workflows](https://handbook.gitlab.com/handbook/support/workflows/dedicated/)
-2. [Dedicated Emergency Support](https://handbook.gitlab.com/handbook/support/workflows/customer_emergencies_workflows/#gitlab-dedicated-emergencies)
+1. [GitLab Dedicated Support Workflows](/support/workflows/dedicated/)
+2. [Dedicated Emergency Support](/support/workflows/customer_emergencies_workflows/#gitlab-dedicated-emergencies)
 3. Support Best Practices for the CSM
     1. Customer creates a support ticket, and support will frequently pull in the dedicated team for assistance. This may result in delays in ticket handling. 
     2. CSM should STAR tickets if they pass SLA, are urgent or are not addressed by the next day. 
