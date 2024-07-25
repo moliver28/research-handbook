@@ -236,7 +236,7 @@ In case a woman takes parental leave subsequently to the child's birth, the peri
   </tbody>
 </table>
 
-**Parental Leave and GitLab's Global Policy** 
+**Parental Leave and GitLab's Global Parental Leave Policy** 
 
 GitLab GmbH employees in Germany are entitled to both the statutory German parental and meternity leave as well as [GitLab's global 16-week paid parental leave policy](handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). Here's how these policies interact:
 
