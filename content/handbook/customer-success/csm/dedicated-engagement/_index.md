@@ -13,9 +13,9 @@ Managing GitLab Dedicated customers requires a few addtional guidelines. This pa
 
 - [GitLab Dedicated Offering](https://about.gitlab.com/dedicated/)
 - [GitLab Deidcated Documentation](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/)
-- Internal Handbook: [Engaging with GitLab Dedicated Customers](https://internal.gitlab.com/handbook/customer-success/csm/gitlab-dedicated/)
-- [GitLab Dedicated Support](https://handbook.gitlab.com/handbook/support/workflows/dedicated/)
-- [Category Direction: GitLab Dedicated](https://about.gitlab.com/direction/saas-platforms/dedicated/)
+- Internal Handbook: [Engaging with GitLab Dedicated Customers](/customer-success/csm/gitlab-dedicated/)
+- [GitLab Dedicated Support](/support/workflows/dedicated/)
+- [Category Direction: GitLab Dedicated](/direction/saas-platforms/dedicated/)
 
 ## Onboarding Dedicated Customers
 
@@ -28,7 +28,7 @@ During onboarding, the Dedicated customer is assigned a [codename](https://gitla
 GitLab Dedicated offers slightly different offerings and customization than self-managed or GitLab.com instances, CSMs should understand:
 
 - The [available features](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#available-features) for Dedicated customers
-    - Before pitching a feature to a Dedicated customer, [confirm it is available to them](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features)
+  - Before pitching a feature to a Dedicated customer, [confirm it is available to them](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features)
 - Understand [features that are not available](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-that-are-not-available) for Dedicated customers.
 - GitLab Dedicated runs [one release behind](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#upgrades) the latest GitLab release (See Upgrades and Maintenance for more)
 - Dedicated customers do NOT have access to the [Rails Console](https://docs.gitlab.com/ee/administration/operations/rails_console.html)
@@ -59,16 +59,9 @@ The GitLab SRE team manages upgrades and maintenance for Dedicated customers. Be
     3. The Dedicated SRE team is EMEA based and PM team is in the US.
 
 ## Slack/Help Channels
+
 Do not use customer names in any channels, only refer to customers using their [codename](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3555).
 
 1. #g_dedicated-team
 1. #f_gitlab_dedicated
     1. For questions specifically related to Engineering i.e. if customer has a question on their infrastructure but it isn’t a support ticket, you can start here
-
-
-
-
-
-
-
-
