@@ -107,6 +107,7 @@ Learn about our Product Leadership Team and learn about them via their personal 
 - [**Product Pricing Model**](/handbook/company/pricing/)
 - [**Release Posts**](/handbook/marketing/blog/release-posts/)
 - [**Tiering Guidance for Features**](/handbook/product/tiering-guidance-for-features/#learning-opportunities)
+- [**CPO Shadow Program**](/handbook/product/cpo-shadow-program/)
 
 ### Communicating with the Product Division
 
