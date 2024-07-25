@@ -39,7 +39,7 @@ The following people are permanent members of the Remote Development Engineering
 
 | Category                 | DRI                                     |
 |--------------------------|-----------------------------------------|
-| Workspace                | {{< member-by-name "Vishal Tak" >}}     |
+| Workspaces                | {{< member-by-name "Vishal Tak" >}}     |
 | Web IDE                  | {{< member-by-name "Paul Slaughter" >}} |
 
 ### ☎️ How to reach us
@@ -48,6 +48,16 @@ Depending on the context here are the most appropriate ways to reach out to the 
 
 - Slack Channel: [`#g_create_remote_development`](https://gitlab.slack.com/archives/CJS40SLJE)
 - Slack Groups: `@create-remote-development-team` (entire team) and `@create-remote-development-engs` (just engineers)
+
+### 🗣️ Capturing Customer Engagements
+
+To improve our understanding and traceability of customer needs and to ensure followups action items are systematically done, we want to capture customer engagement notes in a SSoT.
+Please use the confidential issues below to capture all customer engagements for the two feature categories:
+
+- [Web IDE Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/474518)
+- [Workspaces Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/473627)
+
+These epics are meant for internal team members only. If you are a user wanting to provide feedback, see [Capturing User Feedback](#️-capturing-user-feedback).
 
 ### 🗣️ Capturing User Feedback
 
