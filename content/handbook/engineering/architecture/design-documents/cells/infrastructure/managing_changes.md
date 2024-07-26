@@ -76,7 +76,7 @@ sequenceDiagram
     deactivate t
 
     o ->> t: Merge the request
-    o ->> t: Apply changes
+    o ->> t: Apply changes<br/>generate git commit with modified tenant models
     o ->> +t: Reconcile changes
     t ->> t: Monitor execution
 
