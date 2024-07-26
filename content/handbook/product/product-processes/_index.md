@@ -2002,15 +2002,22 @@ There are a few different tools PM's can utilize to understand the operational c
 - Quarterly PCSAT and SUS surveys
 - [Page load performance](../product-processes/#page-load-performance-metrics)
 
-## Roadmaps, Boards, Issues & Epics
+## Using GitLab to plan work
+
+We dogfood GitLab to document product strategy and milestone planning. 
+
+- [Milestones](https://docs.gitlab.com/ee/user/project/milestones/): Align with our [product releases](https://about.gitlab.com/releases/) and are used as our group's planning timeboxes. 
+- [Issues](https://docs.gitlab.com/ee/user/project/issues/): Capture an atomic piece user value.which should able to be delivered within a singe milestone.
+- [Tasks](https://docs.gitlab.com/ee/user/tasks.html) (optional): Decompose an Issue into more detailed implementation steps.
+- [Epics](https://docs.gitlab.com/ee/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete. 
+- [Boards](https://docs.gitlab.com/ee/user/project/issue_board.html): Aid in visualizing work moving through the [product development flow](/handbook/product-development-flow/_index.md) and for milestone planning. 
+- [Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/): Aid in visualizing epics a timeline view.
 
 ### Issues
 
 We use issues to define narrowly scoped items of work to be done. Issues can focus on a variety of different topics: UX problems, implementation requirements, tech debt, bugs, etc. A good guideline for experience-related issues is that they should address no more than one user story. If an issue includes multiple user stories, then it is likely an epic.
 
-In GitLab itself, there are short definitions of [feature](https://gitlab.com/groups/gitlab-org/-/labels/10230929/edit) (internal link) and [bug](https://gitlab.com/groups/gitlab-org/-/labels/2278648/edit) (internal link) which are displayed when hovering over the labels. This page provides context and elaborates on these definitions.
 
-GitLab's [Iteration](/handbook/values/#iteration) value means we often make small improvements to the product. We use this to get feedback on what features are important to people. It is not a bug when GitLab is missing functionality.
 
 #### When to create an issue
 
@@ -2022,7 +2029,6 @@ You should create an issue if:
 
 You should consider **not** creating an issue when:
 
-- It's an iteration on something we haven't built yet.
 - You're planning very far ahead and it's something specific. The further away something is,
 the more vague or encompassing the issue should be. So, for example, create just one issue
 for a distant new feature, rather than several issues that will follow each other.
@@ -2035,28 +2041,19 @@ that you did so. Closing issues to reopen the same issue is generally not a good
 
 1. If you have time, the first thing you should do is search the [GitLab project](https://gitlab.com/gitlab-org/gitlab/issues)
 to see if a similar issue already exists. We shouldn't create duplicates if we can avoid them.
-1. Identify if the issue is about GitLab Community Edition (CE) or GitLab
-Enterprise Edition (EE), although this can easily be changed later.
-1. The title should highlight the wished change (or target state), not the initial problem. If you don't know the wished change yet, then it's ok to have the title reflect the initial problem to solve, but before release the issue title should be updated to reflect the wished change.
-1. The body should clearly state what the current pain point is and why it's important to solve.
-1. The initial issue should be about the problem we are solving. If separate issues are needed for additional research and design work, they will be created by a PM or UX person.
-1. If the body contains too many paragraphs, it can surely be rewritten to be shorter.
-1. Do not use acronyms or abbreviations. Everyone should be able to jump on the
-issue and participate without needing a glossary.
-1. Choose labels which are relevant to the issue. If you are unsure about what
-certain labels are for, check the [labels page](https://gitlab.com/gitlab-org/gitlab/-/labels), and read the
-descriptions. The [issues workflow doc](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/development/contributing/issue_workflow.md)
-provides a breakdown of the label types and how to choose the right label.
-1. Unless you know what you are doing, do not
+1.Use an issue template to capture all the right data elements:
+    - Feature proposal detailed: Intended for larger iterations or larger feature proposals.
+    - Feature proposal lean: Intended for smaller iterations or smaller feature proposals. 
+    - Feature proposal basic: Capture technical tasks or to decompose an epic that has the detailed feature proposal.
+    - Bug: Report undesirable or incorrect behavior.
+1. Do not
     - assign someone to the issue
     - assign a milestone
     - set a due date
     - add weight - weight represents the technical complexity and should be
     defined by our developers
-1. Mention the different stakeholders in the body of your issue. In most product
-related issues, we usually mention the product manager, the design, frontend, and backend managers as appropriate.
-Some teams have [experts](/handbook/company/structure/#expert) or liaisons that can be mentioned instead of the managers.
-Mentioning the people in the body of the issue will trigger the notification mechanisms
+1. Leave a comment for the product manager to triage the issue. 
+Mentioning in an issue comment will trigger the notification mechanisms
 chosen by the people who are mentioned - therefore there is no need to notify
 people in another channel after the issue has been created (Slack, email).
 
@@ -2086,6 +2083,7 @@ Feature issues identify work to support the implementation of a feature and/or r
 - Performance improvements and user interface enhancements improve the experience for end users and should be labeled as `~"type::feature"`.
 - API additions including both REST and GraphQL should also be labeled as `~"type::feature"`.
 - If people care about a missing feature and the solution is clear, the issue should be marked as `~"Seeking community contributions"`.
+- - If the missing feature has been reported by a customers care, the issue should be marked as `~"customer"`.
 
 ##### Bug issues
 
@@ -2106,10 +2104,6 @@ so that we avoid creating uncertainty with customers and colleagues.
 
 When closing an issue for this reason, make sure to update the issue body and leave a comment
 explaining why the issue is being closed. Issues can be reopened if we change our stance on them.
-
-##### Prioritizing older issues
-
-Sometimes, you'll end up prioritizing an issue that was created a significant time ago. When you move these issues into an upcoming milestone, look closely to see if they need to be groomed again, so that they include current information. A good rule is to review any issue you didn't personally create or that has been open longer than 3 months.
 
 ##### When to close an issue
 
@@ -2153,22 +2147,6 @@ If you do want to create a wireframe,you can get access to Figma by submitting a
 If you are struggling for inspiration, you can also paste screenshots of similar
 features in other products.
 
-#### Long-lasting issues
-
-A general guideline is that an issue should only span one release. If we know an
-issue is going to span multiple releases, split it up into multiple issues.
-
-Epic issues are the exception to this rule, but should be kept to a
-minimum and only serve to guide broader subjects, not a single feature
-over multiple releases. This is to make sure we stick to our values of
-the minimally viable change.
-This means that feature issues should be closed after the first iteration
-whenever possible. We'll know more in the future and this keeps any remaining
-issues short and actionable.
-
-In addition, it's often a good idea to throw away an original plan and
-start fresh. Try to do this more often, even more than you're comfortable with.
-Close the issue and create a new one.
 
 ### Feature templates
 
