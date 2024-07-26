@@ -34,15 +34,47 @@ Every quarter, the team commits to [Objectives and Key Results (OKRs)](/handbook
 
 Here is an [Overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/4938) of our current Self-Managed Platform team OKR.
 
-## Projects
+## Primary Projects
 
-* [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)
-* [GitLab Browser Performance Tool](https://gitlab.com/gitlab-org/quality/performance-sitespeed)
-* [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
-* [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)
-* [Performance Docker Images](https://gitlab.com/gitlab-org/quality/performance-images)
-* [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)
-* [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures)
+The Self Managed Platform team own several tools which form a 3-prong trident for Self-Managed Excellence: the [Reference Architectures (RA)](https://docs.gitlab.com/ee/administration/reference_architectures/), the [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit), and the [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance). Together, these tools support our broader strategy of cementing customer confidence and contributing to their ongoing success by ensuring their instances are built to a rigorously tested standard that performs smoothly at scale.
+
+* [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) are officially recommended environment designs for deploying GitLab at scale in production that are tested and maintained by the Reference Architecture group. The group, led by the Self Managed Platform Team, is comprised of various individuals across GitLab disciplines and has the following responsibilities:
+- To test, maintain and update the Reference Architectures - Officially recommended environment designs and guidance for deploying GitLab at scale in production
+- To review any existing or proposed environment designs not already covered in the documentation
+- To assess the need for updates to the Reference Architectures during and after escalations involving performance issues suspected to be caused by environment design.
+* [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) (GET), our provisioning toolkit is a collection of tools to deploy and operate production GitLab instances based on our [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/).
+* [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance) (GPT), our performance testing tool for validation at scale.
+
+```mermaid
+flowchart LR
+  subgraph selfManageExcel["Self-Managed Excellence"]
+    RA("Reference Architectures (RA)")
+    GET["GitLab Environment Toolkit (GET)"]
+    GPT["GitLab Performance Tool (GPT)"]
+  end
+  style selfManageExcel fill:#FFF
+  style RA color:#6b4fbb, stroke:#9370DB
+  style GET color:#6b4fbb, stroke:#9370DB
+  style GPT color:#6b4fbb, stroke:#9370DB
+  click RA "https://docs.gitlab.com/ee/administration/reference_architectures/" _blank
+  click GET "https://gitlab.com/gitlab-org/gitlab-environment-toolkit" _blank
+  click GPT "https://gitlab.com/gitlab-org/quality/performance" _blank
+```
+
+The [Self-Managed Excellence dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2241132/views)
+tracks merge requests and issues metrics for GitLab Environment Toolkit, GitLab Performance Tool and Reference Architectures projects.
+
+## All Projects
+| Name | Description |
+| :---: | :--- |
+| [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures) | Officially recommended environment designs for deploying GitLab at scale in production |
+| [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)   | Provisioning Toolkit |
+| [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance) | Performance testing tool for validation at scale |
+| [Upgrade Tester](https://gitlab.com/gitlab-org/quality/upgrade-tester) | The Upgrade Tester pipeline builds environments using GET that are based on different Reference Architectures. Each pipeline will build an environment, seed it with data and then upgrade and test the environment with each upgrade to either a specified version or the latest nightly package. |
+| [GitLab Browser Performance Tool](https://gitlab.com/gitlab-org/quality/performance-sitespeed)| A sister pipeline to GPT's backend performance pipelines, these pipelines are designed to specifically test web page frontend performance in browsers. |
+| [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)| This Project serves as a LFS data repository for the GitLab Performance Tool |
+| [Performance Docker Images](https://gitlab.com/gitlab-org/quality/performance-images)| Docker builder and registry for GitLab Performance testing |
+| [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)| A testing tool designed to monitor any downtime that occurs during a zero downtime upgrade by continuously performing git operations and sending requests to the readiness?all=1 endpoint. |
 
 ## Working with us
 
@@ -50,7 +82,7 @@ There are occasions where the expertise of the Reference Architecture or Self-Ma
 
 For any requests relating to customer environments, either proposed or existing, they must be raised in the [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures/-/issues/new) project with the appropriate template. Requests should be opened two or more business days before action is needed to ensure the team has time to prepare and we kindly ask for this process to be followed for tracking and capacity reasons. Any requests made outside of this process such as direct asks to join customer calls or projects will be rejected and should instead be directed to Support or Professional Services accordingly.
 
-For issues specifically with the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/issues/new) or [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance/-/issues/new) issues can be raised in each respective project.
+For issues specifically with the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/issues/new) (ie. feature request, bug) or [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance/-/issues/new) (ie. request for help, bug) issues can be raised in each respective project.
 
 For individual questions please reach out to the team via our slack channels.
 
