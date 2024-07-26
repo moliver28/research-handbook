@@ -111,7 +111,7 @@ Continuing with your interview synthesis, return to your Dovetail labels and fil
 Steps:
 
 1. **Start with Stage 1:**
-    - Begin with Stage 1 (e.g., Define) of your Job Map and the first Job Step under it.
+    - Begin with Stage 1 (for example, Define) of your Job Map and the first Job Step under it.
     - Consider any problems, hurdles, pain points, etc., mentioned by your interview participants while performing this step. Reference your Dovetail notes to identify any mentions of how they measure the success of completing their Job.
 1. **Construct Outcome Statements:**
     - For each Job Step under each Job Stage, construct Outcome Statements for the three dimensions mentioned above.
