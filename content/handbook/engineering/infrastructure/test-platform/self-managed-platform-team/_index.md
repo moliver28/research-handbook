@@ -63,8 +63,7 @@ flowchart LR
   click GPT "https://gitlab.com/gitlab-org/quality/performance" _blank
 ```
 
-The [Self-Managed Excellence dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2241132/views)
-tracks merge requests and issues metrics for GitLab Environment Toolkit, GitLab Performance Tool and Reference Architectures projects.
+The [Self-Managed Excellence dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2241132/views) tracks merge requests and issues metrics for GitLab Environment Toolkit, GitLab Performance Tool and Reference Architectures projects.
 
 ## All Projects
 | Name | Description |
