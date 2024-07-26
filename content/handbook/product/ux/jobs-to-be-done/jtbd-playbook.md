@@ -117,7 +117,7 @@ Steps:
     - For each Job Step under each Job Stage, construct Outcome Statements for the three dimensions mentioned above.
     - Continue this process until you have written Outcome Statements for the entire Job Map.
 
-**Note:** Your Job can have between 50-150 Outcome Statements. These statements will be validated through an [Outcome Statement survey](#outcome-survey).
+**Note:** Your Job can have between 50-150 Outcome Statements. These statements will be validated through an [Outcome Statement survey](/handbook/product/UX/jobs-to-be-done/JTBD-Evaluation-Methods#benchmarking-the-domain).
 
 #### Exercise 3: Gather Job Differentiators
 
