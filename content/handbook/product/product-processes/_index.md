@@ -2004,7 +2004,7 @@ There are a few different tools PM's can utilize to understand the operational c
 
 ## Using GitLab to plan work
 
-We dogfood GitLab to document product strategy and milestone planning. 
+We dogfood GitLab to document product strategy and feature requests. 
 
 - [Milestones](https://docs.gitlab.com/ee/user/project/milestones/): Align with our [product releases](https://about.gitlab.com/releases/) and are used as our group's planning timeboxes. 
 - [Issues](https://docs.gitlab.com/ee/user/project/issues/): Capture an atomic piece user value.which should able to be delivered within a singe milestone.
@@ -2027,31 +2027,29 @@ You should create an issue if:
 
 You should consider **not** creating an issue when:
 
-- You're planning very far ahead and it's something specific. The further away something is,
-the more vague or encompassing the issue should be. So, for example, create just one issue
-for a distant new feature, rather than several issues that will follow each other.
-This will reduce the total amount of issues.
+- You're breaking down work very far ahead of implementation. Create broad issues or epics for distant features to minimize the total number of issues and maintain flexibility to iterate on the plan closer to implementation.
 - There is already an existing issue. Even if the quality is low, people might
 have linked to it. Consider rewriting the description instead and leaving a comment
-that you did so. Closing issues to reopen the same issue is generally not a good idea.
+that you did so. 
 
 #### How to submit a new issue
 
-1. If you have time, the first thing you should do is search the [GitLab project](https://gitlab.com/gitlab-org/gitlab/issues)
+1. Search the [GitLab project](https://gitlab.com/gitlab-org/gitlab/issues)
 to see if a similar issue already exists. We shouldn't create duplicates if we can avoid them.
-1.Use an issue template to capture all the right data elements:
+1. Use an issue template to capture all the right data elements:
    - [Basic proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20basic.md) for minor tasks or technical details for tracking larger issues.
    - [Lean feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md) and for all feature enhancements that will get proposals and potentially become release post items.
    - [Feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md) for large new features that may require more information or details and will become release post items.
    - [Bug](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Bug.md) to report undesirable or incorrect behavior.
+1. 
 1. Do not
     - assign someone to the issue
     - assign a milestone
     - set a due date
     - add weight - weight represents the technical complexity and should be
     defined by our developers
-1. Leave a comment for the product manager to triage the issue. 
-Mentioning in an issue comment will trigger the notification mechanisms
+1. Leave a comment and tag the product manager to triage the issue. 
+Mentioning someone in an issue comment will trigger the notification mechanisms
 chosen by the people who are mentioned - therefore there is no need to notify
 people in another channel after the issue has been created (Slack, email).
 
@@ -2081,7 +2079,7 @@ Feature issues identify work to support the implementation of a feature and/or r
 - Performance improvements and user interface enhancements improve the experience for end users and should be labeled as `~"type::feature"`.
 - API additions including both REST and GraphQL should also be labeled as `~"type::feature"`.
 - If people care about a missing feature and the solution is clear, the issue should be marked as `~"Seeking community contributions"`.
-- - If the missing feature has been reported by a customers care, the issue should be marked as `~"customer"`.
+- If the missing feature has been reported by a customers, the issue should be marked as `~"customer"`.
 
 ##### Bug issues
 
@@ -2136,14 +2134,6 @@ Consider using the following template to close an issue:
 > still relevant, we can then reopen it. See /handbook/product/product-processes/#issues
 > for more detail about this policy.
 
-#### Wireframes
-
-When relevant, you can include a wireframe in your issue to illustrate
-what you're thinking about. But you don't need to create wireframes on your own; our UX team has a designer embedded in every stage group who will help you figure out how to solve the problem you're addressing. They should actively participate in your planning processes, so your request won't be a surprise.
-
-If you do want to create a wireframe,you can get access to Figma by submitting an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new).
-If you are struggling for inspiration, you can also paste screenshots of similar
-features in other products.
 
 ### Epics
 
