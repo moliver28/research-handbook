@@ -83,7 +83,9 @@ There are occasions where the expertise of the Reference Architecture or Self-Ma
 
 For any requests relating to customer environments, either proposed or existing, they must be raised in the [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures/-/issues/new) project with the appropriate template. Requests should be opened two or more business days before action is needed to ensure the team has time to prepare and we kindly ask for this process to be followed for tracking and capacity reasons. Any requests made outside of this process such as direct asks to join customer calls or projects will be rejected and should instead be directed to Support or Professional Services accordingly.
 
-For issues specifically with the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/issues/new) (ie. feature request, bug) or [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance/-/issues/new) (ie. request for help, bug) issues can be raised in each respective project.
+For issues specifically with the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/issues/new) (ie. feature request, bug) or [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance/-/issues/new) (ie. request for help, performance testing of a new feature*, bug) issues can be raised in each respective project.
+
+*To request for help with performance testing of a new feature, please create a new issue within the GPT project with the request for help template.
 
 For individual questions please reach out to the team via our slack channels.
 
