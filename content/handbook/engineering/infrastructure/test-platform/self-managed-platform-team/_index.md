@@ -66,6 +66,7 @@ flowchart LR
 The [Self-Managed Excellence dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2241132/views) tracks merge requests and issues metrics for GitLab Environment Toolkit, GitLab Performance Tool and Reference Architectures projects.
 
 ## All Projects
+
 | Name | Description |
 | :---: | :--- |
 | [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures) | Officially recommended environment designs for deploying GitLab at scale in production |
