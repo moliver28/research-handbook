@@ -15,7 +15,6 @@ There are several different ways that the CSE team engages with customers, inclu
 
 1. [Targeted campaigns run from Gainsight](#targeted-campaigns)
 1. [Monthly Webinars and Labs](#monthly-webinars-and-hands-on-labs)
-1. [GitLab Onboarding Cohorts](#cse-onboarding-cohorts)
 1. [Sales Driven CSE Engagement Request](#cse-engagement-request-process)
 
 ### Targeted Campaigns
@@ -91,19 +90,6 @@ Tips and tricks for presenting:
 - go slower than you think you need to through the exercises
 
 After the lab, the CSE Program Manager will send a post-event email with a link to the recording and slide deck.
-
-### CSE Onboarding Cohorts
-
-As a supplement to the [monthly webinars](/handbook/customer-success/csm/segment/cse/webinar-calendar/) presented by the CSM/CSE team, the CSE team also invites net-new eligible customers to participate in a monthly onboardhing cohort.
-
-The onboarding cohort will have a duration of 4 weeks, starting at the beginning of each month, with 90-minute live weekly training led by a Customer Success Engineer. Customers will be grouped with other new GitLab customers during each training. In addition to the weekly hands-on calls, customers will have access to a shared Slack channel monitored by Customer Success Engineers throughout the program to help answer questions and provide best practice guidance.
-
-- Week 1: [Getting Started and Project Management with GitLab](https://docs.google.com/presentation/d/1Aq0DrBv-EGXAP13pX8wD1RepPesNqq1wkjXjMkLaLus/edit?usp=sharing)
-- Week 2: [CI/CD in GitLab](https://docs.google.com/presentation/d/1WDfTfaK7AyPOXAT3HJkKoSODx5YLtxAPhj0Bf-CadNQ/edit?usp=sharing)
-- Week 3: [GitLab Security & Compliance](https://docs.google.com/presentation/d/11kBdYaW7b_2FiZZUOJNp7OQ9qRQzD_LaWiqRJ_YJJtQ/edit?usp=sharing)
-- Week 4: [AI in DevSecOps](https://docs.google.com/presentation/d/1G6uFXNG3U1VD13BM8rj1MZf_VMH99j9R2lFqG_09R2Y/edit?usp=sharing)
-
-All customers participating will complete their training using a sandbox sub-group on gitlab.com [provisioned via gitlabdemo.com](https://gitlabdemo.com/login).
 
 ### CSE Engagement Request Process
 
