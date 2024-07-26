@@ -15,7 +15,7 @@ The "Working with Sales" workflows are essential for delivering exquisite servic
 
 Being guided by these workflows helps GitLab deliver high-quality service, maintain customer satisfaction, and optimize internal processes, ultimately contributing to the company's growth and success. This commitment to excellence is a hallmark of our [high performing teams](https://handbook.gitlab.com/handbook/people-group/learning-and-development/manager-development/high-performing-teams/).
 
-# General 4-Step Workflow Summary:
+## General 4-Step Workflow Summary
 
 Regardless of the account role, each workflow follows a general four-step process designed to ensure exquisite service delivery:
 
@@ -40,19 +40,16 @@ consistent approach to managing customer interactions and internal processes,
 reflecting the standards of our high performing teams.
 
 ## Customer Account Roles
-
 Understanding the different customer account roles is crucial for providing tailored support and ensuring efficient collaboration between Support and Sales teams. Here's an overview of the main account roles:
 
 1. Named Account Owner:
    - Typically assigned to large enterprise customers or strategic accounts
    - These accounts have a dedicated Account Executive or Customer Success Manager
    - Requires a more personalized approach and direct communication with the assigned sales representative
-
 2. AMER|EMEA|APAC SMB Sales User:
    - Represents small and medium-sized businesses in specific geographic regions (Americas, Europe/Middle East/Africa, or Asia-Pacific)
    - Managed by regional SMB sales teams
    - May require coordination with regional sales representatives or SMB advocate teams
-
 3. Other (non-person) Account Owner:
    - Accounts that don't fall into the above categories or have a specific individual assigned
    - May include general or unassigned accounts
@@ -63,7 +60,6 @@ Understanding the different customer account roles is crucial for providing tail
 Each role type has a tailored workflow to ensure that customers receive the most appropriate and efficient support, whether they're a large enterprise with a dedicated account manager, a small business in a specific region, or an account that requires a more generalized approach.
 
 ### 1. Named Account Owner Workflow
-
 1. Respond to the customer on Zendesk:
    - Assign the ticket to yourself
    - Check the "Escalated to sales" box
@@ -86,7 +82,6 @@ Each role type has a tailored workflow to ensure that customers receive the most
    - Use the company organization chart for escalation hierarchy
 
 ### 2. AMER|EMEA|APAC SMB Sales User Workflow
-
 1. Respond to the customer on Zendesk (same as Named Account Owner)
 2. Create a Salesforce case or Chatter the SMB Advocate Team:
    - Follow the process for creating a case
@@ -100,7 +95,6 @@ Each role type has a tailored workflow to ensure that customers receive the most
    - If no SFDC access: Post in the #global-digital-smb_public Slack channel
 
 ### 3. Other (non-person) Account Owner Workflow
-
 1. Respond to the customer on Zendesk (same as Named Account Owner)
 2. Find the person in charge of the sales segment and territory:
    - Mention them in a Chatter comment
@@ -108,16 +102,10 @@ Each role type has a tailored workflow to ensure that customers receive the most
 3. When Sales confirms contact with the customer (same as Named Account Owner)
 4. Escalation procedure (same as Named Account Owner)
 
-
-
 ## Determining whether to pass or NOT pass to Sales
+*Summary*: Deciding whether to pass a customer inquiry to Sales depends on the complexity of the request and whether it requires Sales' expertise. Generally, pass to Sales for complex purchasing scenarios, but handle simpler inquiries and self-service options within Support.
 
-*Summary*: Deciding whether to pass a customer inquiry to Sales depends on the 
-complexity of the request and whether it requires Sales' expertise. Generally, 
-pass to Sales for complex purchasing scenarios, but handle simpler inquiries and 
-self-service options within Support.
-
-### DO NOT pass to Sales:
+### DO NOT pass to Sales
 
 1. Plan Upgrades
     - *Responsibility*: Guide customers to use the upgrade button in the customer portal for SaaS or self-managed plan upgrades.
@@ -162,11 +150,11 @@ process.
 
 The following workflows use the [Pass to Sales Zendesk macro](https://gitlab.zendesk.com/agent/admin/macros/360025924680)
 unless otherwise stated.
-### Pass to Sales:
+### Pass to Sales
 
-1. Alternative payment methods: customer wants to pay via a method that isn't credit card
+1. Alternative payment methods: customer wants to pay with a method that isn't credit card
 2. Sales-assisted purchases requiring order forms: customer had a sales-assisted purchase last year and wants to purchase on an order form (company requires a quote or purchase order)
-3. Reseller-involved purchases:purchase needs to happen via a reseller (reseller or end user contacts us)
+3. Reseller-involved purchases: purchase needs to happen through a reseller (reseller or end user contacts us)
 
 ### Customer wishes to use alternative payment method
 
@@ -180,7 +168,7 @@ unless otherwise stated.
 
 ### Purchase Orders and Quotes
 
-*Summary*: Manage requests for POs, paper quotes, or invoices by locating relevant information and involving Sales.
+*Summary*: Manage requests for POs, paper quotes, or invoices by locating relevant information, and involving Sales.
 
 *Workflow*:
 
@@ -221,12 +209,12 @@ unless otherwise stated.
     1. If neither of the above options is suitable:
         - Chatter Sales with a summary of the customer's request
         - Specify the number of seats needed for the new product
-       - Ask Sales to reach out with a transfer quote
+        - Ask Sales to reach out with a transfer quote
 2. Respond to the customer using the appropriate macro
 
 This workflow ensures that customers are guided through the most appropriate path for their product transfer, whether it's waiting for expiration, exploring refunds, or involving Sales for a more complex transfer process.
 
-### **DOWNGRADE PLAN** to lower paid-tier 
+### **DOWNGRADE PLAN** to lower paid-tier
 
 *Summary*: Handle customer requests to downgrade their plan to a lower paid tier within the same product.
 
