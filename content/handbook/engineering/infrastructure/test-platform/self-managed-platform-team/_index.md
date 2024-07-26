@@ -39,9 +39,11 @@ Here is an [Overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/493
 The Self Managed Platform team own several tools which form a 3-prong trident for Self-Managed Excellence: the [Reference Architectures (RA)](https://docs.gitlab.com/ee/administration/reference_architectures/), the [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit), and the [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance). Together, these tools support our broader strategy of cementing customer confidence and contributing to their ongoing success by ensuring their instances are built to a rigorously tested standard that performs smoothly at scale.
 
 * [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) are officially recommended environment designs for deploying GitLab at scale in production that are tested and maintained by the Reference Architecture group. The group, led by the Self Managed Platform Team, is comprised of various individuals across GitLab disciplines and has the following responsibilities:
+
 - To test, maintain and update the Reference Architectures - Officially recommended environment designs and guidance for deploying GitLab at scale in production
 - To review any existing or proposed environment designs not already covered in the documentation
 - To assess the need for updates to the Reference Architectures during and after escalations involving performance issues suspected to be caused by environment design.
+
 * [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) (GET), our provisioning toolkit is a collection of tools to deploy and operate production GitLab instances based on our [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/).
 * [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance) (GPT), our performance testing tool for validation at scale.
 
