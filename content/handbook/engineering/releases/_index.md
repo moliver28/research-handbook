@@ -102,7 +102,7 @@ Patches that are outside of our [maintenance policy](https://docs.gitlab.com/ee/
 
 ### Patch release cadence
 
-Patch releases are scheduled twice a month on the second and fourth Wednesdays, around the monthly release week. These are best-effort dates and they might be subject to change.
+Patch releases are scheduled twice a month on the Wednesdays before and after the monthly release week. These are best-effort dates and they might be subject to change.
 
 ### Patch release process
 
