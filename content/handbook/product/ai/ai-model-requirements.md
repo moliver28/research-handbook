@@ -36,7 +36,8 @@ Code completion is extremely sensitive to perceived latency as a developer is ac
 
 ##### Current Performance
 
-* P50 average: 700ms
+* P50 average (through monolith): 700ms
+* P50 average (bypassing monolith): 600ms
 
 ##### Streaming Strategy
 
