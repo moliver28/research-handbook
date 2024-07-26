@@ -177,7 +177,7 @@ An Outcome statement is the benchmark by which Job Performers gauge success in a
 
 ### Measuring Outcome statements
 
-When [benchmarking](content/handbook/product/ux/jobs-to-be-done/JTBD-Evaluation-Methods#Benchmarking_the_domain), Outcome statements are measured by importance and satisfaction. Combining these two elements allows teams to understand if they are meeting their user's needs and how they should prioritize their efforts. At this point, Outcomes can also be referenced as **"needs"**, and we can group them into three categories based on Job Performer responses.
+When [benchmarking](content/handbook/product/ux/jobs-to-be-done/JTBD-Evaluation-Methods#benchmarking-the-domain), Outcome statements are measured by importance and satisfaction. Combining these two elements allows teams to understand if they are meeting their user's needs and how they should prioritize their efforts. At this point, Outcomes can also be referenced as **"needs"**, and we can group them into three categories based on Job Performer responses.
 
 #### Overserved Needs
 
