@@ -2017,8 +2017,6 @@ We dogfood GitLab to document product strategy and milestone planning.
 
 We use issues to define narrowly scoped items of work to be done. Issues can focus on a variety of different topics: UX problems, implementation requirements, tech debt, bugs, etc. A good guideline for experience-related issues is that they should address no more than one user story. If an issue includes multiple user stories, then it is likely an epic.
 
-
-
 #### When to create an issue
 
 You should create an issue if:
@@ -2042,10 +2040,10 @@ that you did so. Closing issues to reopen the same issue is generally not a good
 1. If you have time, the first thing you should do is search the [GitLab project](https://gitlab.com/gitlab-org/gitlab/issues)
 to see if a similar issue already exists. We shouldn't create duplicates if we can avoid them.
 1.Use an issue template to capture all the right data elements:
-    - Feature proposal detailed: Intended for larger iterations or larger feature proposals.
-    - Feature proposal lean: Intended for smaller iterations or smaller feature proposals. 
-    - Feature proposal basic: Capture technical tasks or to decompose an epic that has the detailed feature proposal.
-    - Bug: Report undesirable or incorrect behavior.
+   - [Basic proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20basic.md) for minor tasks or technical details for tracking larger issues.
+   - [Lean feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md) and for all feature enhancements that will get proposals and potentially become release post items.
+   - [Feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md) for large new features that may require more information or details and will become release post items.
+    - [Bug](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Bug.md) to report undesirable or incorrect behavior.
 1. Do not
     - assign someone to the issue
     - assign a milestone
@@ -2146,17 +2144,6 @@ what you're thinking about. But you don't need to create wireframes on your own;
 If you do want to create a wireframe,you can get access to Figma by submitting an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new).
 If you are struggling for inspiration, you can also paste screenshots of similar
 features in other products.
-
-
-### Feature templates
-
-We have 3 templates PMs can leverage to create issues for features:
-
-1. [Basic proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20basic.md) for minor tasks or technical details for tracking larger issues.
-1. [Lean feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md) and for all feature enhancements that will get proposals and potentially become release post items.
-1. [Feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md) for large new features that may require more information or details and will become release post items.
-
-The goal of these different templates is to provide an efficient way of creating new issues and improve cross team collaboration. When appropriate, these templates may be leveraged for creating epic descriptions as well.
 
 ### Epics
 
