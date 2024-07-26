@@ -4,132 +4,141 @@ category: General
 description: This page is about working with sales.
 ---
 
-## General workflow
+The "Working with Sales" workflows are essential for delivering exquisite service and maintaining seamless customer hospitality at GitLab. These workflows provide a structured approach for Support team members to handle various customer account scenarios, ensuring efficient and transparent collaboration with the Sales team. By following these workflows, our teams:
 
-### 1. Respond to the customer on Zendesk
+1. Ensure consistent and professional customer interactions, embodying customer hospitality
+2. Maintain clear boundaries between Support and Sales responsibilities
+3. Facilitate efficient escalation processes when necessary
+4. Minimize delays in addressing customer needs, a key aspect of exquisite service
+5. Promote accountability across teams
+6. Support data integrity in our CRM and ticketing systems
 
-1. Assign the ticket to yourself.
-1. Select the appropriate specific workflow to follow (see below).
-1. Check the `Escalated to sales` box and set the ticket status to `Open`.
-1. Set the ticket status to `Pending`.
+Being guided by these workflows helps GitLab deliver high-quality service, maintain customer satisfaction, and optimize internal processes, ultimately contributing to the company's growth and success. This commitment to excellence is a hallmark of our [high performing teams](https://handbook.gitlab.com/handbook/people-group/learning-and-development/manager-development/high-performing-teams/).
 
-#### If the account is owned by `AMER|EMEA|APAC SMB Sales User`
+# General 4-Step Workflow Summary:
 
-Inform the customer that they may email `smallbusiness@gitlab.com` directly to reach the account management team if they choose to.  See below for more information on contacting the SMB team internally when necessary.
+Regardless of the account role, each workflow follows a general four-step process designed to ensure exquisite service delivery:
 
-Alternatively, if the ticket requestor is listed as a contact already in SFDC on the correct account, they can use the [Contact Sales form](https://about.gitlab.com/sales/) on the marketing website to contact the team directly as well
+1. Initial Response: 
+    - Respond to the customer on Zendesk with a focus on customer hospitality
+    - Assign the ticket and update its status
+2. Internal Communication: 
+    - Notify the appropriate Sales team member or group
+    - Provide relevant details about the customer's request
+3. Follow-up:
+    - Monitor the response from Sales
+    - Update the customer on the next steps, maintaining our commitment to exquisite service
+4. Escalation (if necessary):
+    - Follow the defined escalation path if timely action is not taken
+    - Involve higher levels of management as needed
 
-Using either the email address or the form will result in the creation of a Salesforce case.
-***NB:** A Zendesk trigger will prevent a ticket from being set to `Pending` when an agent made an internal note instead of a public comment. It will set the ticket back to `Open` when that happens. So if you check the `Escalated to sales` box and set the ticket status to `Pending`, it will be reverted to status `Open`. Saving a second time as `Pending` will also work.*
+These steps ensure that customer inquiries are handled promptly and with 
+the utmost care, the right internal stakeholders are involved, and there's 
+a clear path for resolution or escalation when required. While the specifics 
+may vary depending on the account role, this general structure provides a 
+consistent approach to managing customer interactions and internal processes, 
+reflecting the standards of our high performing teams.
 
-### 2. Leave a message for the Salesforce `Account Owner` on Chatter with the relevant details
+## Customer Account Roles
 
-#### If the Salesforce account has a named `Account Owner`
+Understanding the different customer account roles is crucial for providing tailored support and ensuring efficient collaboration between Support and Sales teams. Here's an overview of the main account roles:
 
-1. Consider adding the following note in the Chatter message:
+1. Named Account Owner:
+   - Typically assigned to large enterprise customers or strategic accounts
+   - These accounts have a dedicated Account Executive or Customer Success Manager
+   - Requires a more personalized approach and direct communication with the assigned sales representative
 
- > Please note that according to the "Working with Sales workflow" (<https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales/>) we expect a reply from you on this chatter within 24 hours (excluding weekend, Family and Friends Day & global holidays) stating when/if you will contact the customer.
+2. AMER|EMEA|APAC SMB Sales User:
+   - Represents small and medium-sized businesses in specific geographic regions (Americas, Europe/Middle East/Africa, or Asia-Pacific)
+   - Managed by regional SMB sales teams
+   - May require coordination with regional sales representatives or SMB advocate teams
 
-1. Share the link to the Chatter message (right-click on timestamp) in an internal note on the ticket.
+3. Other (non-person) Account Owner:
+   - Accounts that don't fall into the above categories or have a specific individual assigned
+   - May include general or unassigned accounts
+   - Requires identifying the appropriate sales segment and territory owner for escalation
 
-- Note that you can only link to the original Chatter message, not to any of its comments.
+## Workflow by Account Role
 
-1. You may want to check the account owner's Slack status to see if they're
- currently taking time off work.
-1. If reaching out to the account owner on Slack (always on `#support_to_sales_escalation`
- and always *as a courtesy*), link them the Chatter message and ask them to
- respond there.
+Each role type has a tailored workflow to ensure that customers receive the most appropriate and efficient support, whether they're a large enterprise with a dedicated account manager, a small business in a specific region, or an account that requires a more generalized approach.
 
-***NB:** Support should be able to rely on the Salesforce `Account Owner` field to determine who is responsible for the account. If that is incorrect, escalate it **immediately**.*
+### 1. Named Account Owner Workflow
 
-#### If the Salesforce `Account Owner` is `<@AMER|@EMEA|@APAC> SMB Sales User`
+1. Respond to the customer on Zendesk:
+   - Assign the ticket to yourself
+   - Check the "Escalated to sales" box
+   - Set ticket status to "Open", then "Pending"
+   - If the account is owned by AMER|EMEA|APAC SMB Sales User, inform the 
+   customer they may email smallbusiness@gitlab.com directly
+2. Leave a message for the Account Owner on Chatter:
+   - Include relevant details and expected response time (24 hours, excluding 
+   weekends, Family and Friends Day & global holidays)
+   - Share the Chatter message link in an internal ticket note
+   - Consider checking the account owner's Slack status for availability
+3. When Sales confirms contact with the customer:
+   - Update the ticket with the contact person's name
+   - Mention a 2-day follow-up to check if the customer has been contacted
+   - Set ticket status to "Pending"
+4. Escalation procedure (if necessary):
+   - Check account's Salesforce "Activity" section for recent outreach
+   - If no response after 24 hours, mention the account owner's manager in Chatter
+   - Escalate to higher management levels every 24 hours, up to CEO if needed
+   - Use the company organization chart for escalation hierarchy
 
-Customers with an Account Owner of `<@AMER|@EMEA|@APAC> SMB Sales User` are managed by the SMB Advocate Team. They primarily work out of SFDC cases, in alignment with the [Global Digital SMB Sales Model](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#global-digital-smb-sales-model).
+### 2. AMER|EMEA|APAC SMB Sales User Workflow
 
-{{% alert title="IMPORTANT" color="warning" %}}
+1. Respond to the customer on Zendesk (same as Named Account Owner)
+2. Create a Salesforce case or Chatter the SMB Advocate Team:
+   - Follow the process for creating a case
+   - Or, Chatter the @SMB Advocate Team group in Salesforce
+   - If no Salesforce access, post in the #global-digital-smb_public Slack channel
+3. Track case progress:
+   - Monitor "Case Status" and "Case Next Steps" fields
+   - View cases on the SFDC account or via the SFDC Report
+4. Escalation procedure (if necessary):
+   - If you have SFDC access: Ping the case owner in Chatter and mention @SMB Advocate Team
+   - If no SFDC access: Post in the #global-digital-smb_public Slack channel
 
-`Interim Process 2024-02-29`: Case creation can only be performed by the nominated Support Engineers listed [here](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5875#sfdc-case-creators). If you are are not listed as a Case Creator, please handover the ticket to one of the case creators listed, as they will be responsible for manually creating cases using this [process](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team). Tooling enhancement is being developed to automate case creation - follow [issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5039) for updates. {{% /alert %}}
+### 3. Other (non-person) Account Owner Workflow
 
-- Follow this [process](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) to create a case.
-  - Once a case is created, it will be picked up by an SMB Advocate.  Once picked up, the SMB Adovate will drop a note in the Zendesk ticket advising that the request is being actioned.
-  - The case can then be tracked by viewing the `Case Status` field, and `Case Next Steps` field.
-  - Support Cases, and their current status, can be viewed on the SFDC account, or via this [SFDC Report](https://gitlab.my.salesforce.com/00OPL000000toc5).
+1. Respond to the customer on Zendesk (same as Named Account Owner)
+2. Find the person in charge of the sales segment and territory:
+   - Mention them in a Chatter comment
+   - Include request details and Zendesk ticket link
+3. When Sales confirms contact with the customer (same as Named Account Owner)
+4. Escalation procedure (same as Named Account Owner)
 
-##### If the Salesforce `Account Owner` is not a person and is not `<@AMER|@EMEA|@APAC> SMB Sales` User
 
-1. Find the person in charge of the [sales segment](/handbook/sales/field-operations/gtm-resources/#segmentation)
-  and [sales territory](https://internal.gitlab.com/handbook/sales/sales-operations/#territory-management) and mention them in a Chatter comment. In your post, include:
-    - details of the request
-    - the Zendesk ticket link
-1. If anyone you reach out to does not respond within 24 hours (excluding weekend, Family and Friends Day & global holidays):
 
-### 3. When someone from Sales confirms that they'll be in touch with the customer
+## Determining whether to pass or NOT pass to Sales
 
-1. Post an update to the ticket, mentioning:
-    - The name of the person who will be in touch
-    - That we will follow up in 2 business days to check with the customer as to whether they've been contacted by Sales, and that we will escalate at that time if necessary
-1. Set the ticket status to `Pending`.
+*Summary*: Deciding whether to pass a customer inquiry to Sales depends on the 
+complexity of the request and whether it requires Sales' expertise. Generally, 
+pass to Sales for complex purchasing scenarios, but handle simpler inquiries and 
+self-service options within Support.
 
-*(Pro tip: create a personal ticket view where "Escalated to Sales" = checked, to pull these out into their own queue)*
+### DO NOT pass to Sales:
 
-### 4. Escalation procedure
+1. Plan Upgrades
+    - *Responsibility*: Guide customers to use the upgrade button in the customer portal for SaaS or self-managed plan upgrades.
+    - *Rationale*: This is a self-service option that doesn't require Sales involvement.
+2. Unclear Customer Needs
+    - *Responsibility*: Clarify the customer's requirements before considering escalation.
+    - *Rationale*: Ensures efficient use of resources and prevents unnecessary escalations.
+3. Renewal Assistance
+    - *Responsibility*: Assist customers with renewal inquiries if they haven't received a response from Sales.
+    - *Rationale*: Provides timely customer service and may resolve issues without Sales involvement.
+4. Product or Process Questions
+    - *Responsibility*: Answer these queries or route to appropriate Support queue.
+    - *Rationale*: Utilizes Support's expertise and keeps Sales focused on sales-specific tasks.
+5. User Addition After Renewal
+    - *Responsibility*: Direct customers to use the "Add more seats" button in the customer portal.
+    - *Rationale*: Encourages self-service and doesn't require Sales expertise.
+6. Seat Reduction at Renewal
+    - *Responsibility*: Guide customers on the process to reduce seats, including disabling automatic renewal and manual renewal steps.
+    - *Rationale*: This process is standardized and doesn't typically require Sales intervention.
 
-**Before escalating consider checking the "Activity" section of the account's Salesforce page to see if someone has reached out to the customer. If you see activity since your first chatter, consider confirming status with the customer or the sales rep instead of escalating.** To confirm with Sales, just reply to the original chatter asking them whether they reached out. If you see no activity since you started the chatter, escalate as described below.
-
-#### If the Salesforce `Account Owner` is incorrect or unable/unwilling to assist
-
-- Examples of being unable/unwilling to assist:
-  - Account owner no longer works at GitLab.
-  - Account owner says the account is not theirs any more.
-  - Account owner says they have no time to help.
-  - A reasonable amount of time has passed (> 24hrs) with no response
-
-##### If the Salesforce account has a named `Account Owner`
-
-- Mention the person's direct manager in a Chatter comment.
-  - Suggested message text:
-      > Following the "Working with Sales workflow" (<https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales/>) I'm escalating this, as we haven't heard from <account owner\> within the agreed upon time.
-      >
-1. From VP level onwards, mention them in a Slack message in `#support_to_sales_escalation` in addition to a Chatter comment.
-    - Suggested message text in Chatter:
-      > Following the "Working with Sales workflow" (<https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales/>) I'm escalating this, as we haven't heard from <account owner\> nor <account owner's manager\> within the agreed upon time.
-    - Suggested message text in Slack:
-      > Following the "Working with Sales workflow" I'm escalating support ticket <https://gitlab.zendesk.com/agent/tickets/><ticket number\> as we haven't heard from <account owner\> nor <account owner's manager\> within the agreed upon time.
-1. Repeat as necessary every 24 hours and go one step up the reporting line, going all the way up to CEO if necessary.
-    - It is helpful to refer to the [company organization chart](https://comp-calculator.gitlab.net/org_chart)
-   to see who to escalate to.
-
-###### If the Salesforce `Account Owner` is `AMER|EMEA|APAC SMB Sales User`
-
-- If you have SFDC access to the case, and the case has an assigned owner
-  - Ping the case owner in chatter on the case
-  - Mention the `@SMB Advocate Team` in chatter on the case
-- If you do not have SFDC access, or the case is not owned
-  - Post a message in the [**#global-digital-smb_public**](https://gitlab.enterprise.slack.com/archives/C06H72XGQUD) slack channel.
-  - In your post, include:
-    - details of the request
-    - the Zendesk ticket link
-
-## Determining whether **to pass** or **to NOT pass** to Sales
-
-Please see specific workflows below:
-
-Pass to Sales:
-
-- The customer wants to pay via a method that isn't credit card
-- The customer had a sales-assisted purchase last year and wants to purchase on an order form (company requires a quote or purchase order)
-- The purchase needs to happen via a reseller (reseller or end user contacts us)
-
-DO NOT pass to Sales:
-
-- The customer wants to upgrade their SaaS or self-managed plan - they can use the upgrade button in the customers portal.
-- Don't escalate until you understand what the customer needs
-- The customer is trying to reach sales person to renew, but haven't received a response - Instead ask customer what they need assistance with and see if we can assist.
-- The customer asks a product or process question (we can answer this or put in another Support queue most of the time)
-- The customer has renewed, but they didn't add enough users - ask the customer to use the Add more seats button in customers portal.
-- The customer wants to renew for less seats than their current subscription. The customer can renew for a minimum of their current usage or more. If they want to renew for less seats, they have to bring their seat usage down before the renewal, [disable automatic renewal](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#enable-or-disable-automatic-subscription-renewal) and manually renew the subscription (for [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#renew-or-change-a-gitlab-saas-subscription) and [Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-a-subscription)).
-
-NB, Sales does not simply waive trueups, there is an approval process for exceptional cases. Please don't set the expectation that any fees will be waived. When in doubt, ask in Slack for a second opinion.
+*Note*: Sales does not automatically waive true-ups. There's an approval process for exceptional cases. Avoid setting expectations about fee waivers. When in doubt, consult Slack for a second opinion.
 
 ## Support responsibilities regarding True-Up waiver requests
 
@@ -153,63 +162,95 @@ process.
 
 The following workflows use the [Pass to Sales Zendesk macro](https://gitlab.zendesk.com/agent/admin/macros/360025924680)
 unless otherwise stated.
+### Pass to Sales:
+
+1. Alternative payment methods: customer wants to pay via a method that isn't credit card
+2. Sales-assisted purchases requiring order forms: customer had a sales-assisted purchase last year and wants to purchase on an order form (company requires a quote or purchase order)
+3. Reseller-involved purchases:purchase needs to happen via a reseller (reseller or end user contacts us)
 
 ### Customer wishes to use alternative payment method
 
-A customer wishes to pay via method other than credit card
+*Summary*: Handle requests for non-credit card payment methods by confirming details and involving Sales.
 
-Workflow:
+*Workflow*:
 
-- Confirm the paymemt method the customer wishes to use (wire, ACH or check)
-- Chatter Sales and summarise the customer's request, ask for them to reach out
-- Respond to the customer with the appropriate macro
+1. Confirm desired payment method (wire, ACH, or check)
+2. Chatter Sales with request summary and ask for outreach
+3. Respond to customer using appropriate macro
 
 ### Purchase Orders and Quotes
 
-A customer wants to pay and has a PO or requires a paper quote or invoice
+*Summary*: Manage requests for POs, paper quotes, or invoices by locating relevant information and involving Sales.
 
-Workflow:
+*Workflow*:
 
-- Find the existing opportunity or subscription (if renewal)
-- Chatter Sales and summarise the customer's request, ask for them to reach out
-- Respond to the customer with the appropriate macro
+1. Find existing opportunity or subscription (if renewal)
+2. Chatter Sales with request summary and ask for outreach
+3. Respond to customer using appropriate macro
 
-### A reseller (or reseller customer) wants to change their subscription or ask a question
+### Reseller subscription changes or inquiries
 
-A reseller or reseller customer wants to make changes to their subscription or follow up on an order
+*Summary*: Address reseller-related requests - a reseller or reseller customer wants to make changes to their subscription or follow up on an order.
 
-Workflow:
+*Workflow*:
 
-- Confirm the end-user and the reseller, by finding the account in Zuora
-- Chatter Sales and summarise the customer's request, provide the reseller and end-user information, ask for them to reach out
-- Respond to the customer with the appropriate macro
+1. Confirm end-user and reseller details in Zuora
+2. Chatter Sales with request summary, including reseller and end-user information
+3. Respond to customer using appropriate macro
 
 ### Customer seeking a discount
 
-A customer is seeking a discount and their subscription is above the Starter/Bronze tier
+*Summary*: A customer is seeking a discount and their subscription is above the Starter/Bronze tier
 
-Workflow:
+*Workflow*:
 
-- Confirm their tier and the details of the discount requested, if they are not above Starter/Bronze or the discount request is unreasonable (use your discretion), explain that a discount is not available
-- If you are unsure whether a discount should be given, consult with the Account Owner first
-- Chatter Sales and summarise the customer's request, ask for them to reach out if they confirm a discount is possible
-- Respond to the customer with the appropriate macro, set the expectation that a discount is not guaranteed and is at the discretion of the relevant approvers
+1. Confirm tier and discount details
+2. Consult Account Owner if unsure about discount eligibility
+3. Chatter Sales with request summary if discount is possible
+4. Respond to customer, setting appropriate expectations
 
 ### Product transfer between SaaS and Self-Managed
 
-A customer wishes to transfer from SaaS to Self-managed or vice versa
+*Summary*: Guide customers through product transfer options based on their subscription status.
 
-Workflow:
+*Workflow*:
 
-- If the current subscription is close to its end date, advise the customer to let it expire and purchase a new subscription
-- If the current subscription is close to its start date, ask billing if a refund would be possible. If they say yes, seek confirmation from the customer that we can cancel and refund their current subscription so that they can purchase a new subscription with the correct product type
-- If neither of the above is an option, Chatter Sales and summarise the customer's request, specifying how many seats are needed for the new product, ask for them to reach out with a quote for the transfer
-- Respond to the customer with the appropriate macro
+1. Assess subscription timeline:
+    1. For near-expiry subscriptions, advise letting it expire and purchasing new
+    1. For new subscriptions, explore refund possibilities
+    1. If neither of the above options is suitable:
+        - Chatter Sales with a summary of the customer's request
+        - Specify the number of seats needed for the new product
+       - Ask Sales to reach out with a transfer quote
+2. Respond to the customer using the appropriate macro
 
-**DOWNGRADE PLAN** - a customer wishes to downgrade from their current tier to a different tier (same product)
+This workflow ensures that customers are guided through the most appropriate path for their product transfer, whether it's waiting for expiration, exploring refunds, or involving Sales for a more complex transfer process.
 
-Workflow: Ask in Slack for advice on the best solution for the situation you are dealing with.
+### **DOWNGRADE PLAN** to lower paid-tier 
 
-**SaaS - DOWNGRADE PLAN TO FREE**
+*Summary*: Handle customer requests to downgrade their plan to a lower paid tier within the same product.
+
+*Workflow*:
+
+1. Confirm current plan and desired downgrade tier
+2. Check if the downgrade is within the same product (SaaS or Self-Managed)
+3. Verify if the customer is within their renewal period:
+   - If yes, inform them that changes can be made at renewal
+   - If no, proceed with the following steps
+4. Chatter Sales with request summary, including:
+   - Current plan details
+   - Desired downgrade plan
+   - Reason for downgrade (if provided)
+5. Ask Sales to reach out with downgrade options and pricing
+6. Respond to the customer using the appropriate macro:
+   - Acknowledge their downgrade request
+   - Inform them that Sales will contact them with options
+   - Set expectations for response time (typically 1-2 business days)
+7. Set the ticket status to "Pending" and await Sales' confirmation of customer contact
+8. Once Sales confirms, update the ticket and follow up with the customer if necessary.
+
+Note: For complex situations or if unsure about the best approach, ask in Slack for advice on the best solution for the situation you are dealing with.
+
+### **SaaS - DOWNGRADE PLAN TO FREE**
 
 Follow the workflow in the `Downgrading to a free plan` section of the [Handling trials, extensions, and plan changes on GitLab.com](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change) page.
