@@ -289,29 +289,29 @@ The Vice President of Solution Architecture is a job grade [12](/handbook/total-
 
 Specialty responsibilities and requirements may extend or overlay [Level roles](#levels) for a team member who has a specialty role.
 
-### Channel Solutions Architect
+### Partner Solutions Architect
 
-#### Channel Solutions Architect Responsibilities
+#### Partner Solutions Architect Responsibilities
 
 - Since this role deals primarily with partner relationships, any responsibilities in an individual's [Role Level](#levels) that reference customers can also be fulfilled by Partners. If responsibilities appear duplicated, the version in this description has priority due to being more specific to your role.
-- Engage in a technical consultancy role for channel and system integrator partners, providing technical assistance and guidance specific to the selling and service delivery readiness of GitLab Channel partners.
+- Engage in a technical consultancy role for channel, system integrator and technology alliance partners, providing technical assistance and guidance specific to the selling and service delivery readiness of GitLab partners.
 - Create and maintain relationships with external partner leaders that contribute to large Net ARR deals and customer success.
-- In partnership with the channel sales team, formulate and execute a sales, solution and practice strategy to exceed revenue targets through the delivery of solutions & services that drive the adoption of GitLab.
+- In partnership with the partner sales team, formulate and execute a sales, solution and practice strategy to exceed revenue targets through the delivery of solutions & services that drive the adoption of GitLab.
 - Work with Customer Success teams (SA, CSM, Sales) to ensure the partner is acting in good faith and effectively when delivering GitLab services to a customer.
-- Educate channel partners of all sizes on the value proposition of GitLab, and participate in all levels of discussions throughout the organization to ensure our solution is set up for successful deployment.
-- Work on site with strategic channel partners, delivering solutions architecture consulting, technical guidance, knowledge transfer, and earn "trusted advisor status."
+- Educate partners of all sizes on the value proposition of GitLab, and participate in all levels of discussions throughout the organization to ensure our solution is set up for successful deployment.
+- Work on site with strategic partners, delivering solutions architecture consulting, technical guidance, knowledge transfer, and earn "trusted advisor status."
 - Enable the partners to provide technical evaluations via POC/POV ownership, RFP/audit support, and workshop design.
-- Capture and share best-practice knowledge amongst the GitLab community and other channel solutions architects.
+- Capture and share best-practice knowledge amongst the GitLab community and other (partner) solutions architects.
 - Author or otherwise contribute to GitLab customer-facing publications such as whitepapers, blogs, diagrams, reference architectures, or the GitLab Handbook.
 - Build deep relationships with senior technical people within partnerships to enable them to be GitLab advocates.
 - Serve as the partner advocate to other GitLab teams, including Product Development, Sales, and Marketing.
-- Present GitLab platform strategy, concepts, and roadmap to technical leaders within channel partner organizations.
+- Present GitLab platform strategy, concepts, and roadmap to technical leaders within partner organizations.
 
-#### Channel Solutions Architect Requirements
+#### Partner Solutions Architect Requirements
 
 - Extends the Solutions Architect requirements
-- Experience building solutions and professional services through channel partnerships
-- Knowledge of all or most of the following channel services categories in the DevOps space: Consulting, Managed and or Advisory services
+- Experience building solutions and professional services through partnerships
+- Knowledge of all or most of the following services categories in the DevOps space: Consulting, Managed and or Advisory services
 
 ### Alliances Solution Architect
 
