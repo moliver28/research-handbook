@@ -77,8 +77,8 @@ Helpful prompts can be found in the Figjam template [interview guide](https://ww
 If possible, it is recommended to have both a moderator and a notetaker during each interview. This will allow you to create a Job Map for each session and get feedback and verification that you've got it right from the participant in real-time.
 
 1. Use the Figjam space provided for each participant and capture every step the participant mentions, using a sticky. Try to maintain chronological order and don't worry about other aspects of your JTBD, such as Job Stages or Job Statement formatting.
-    - **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards by reviewing your interviews videos in Dovetail. 
-    - As you're reviewing your videos try using the JTBD Gloabl Labels to mark parts of the video when you recognize a JTBD Canvas element.
+    - **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards by reviewing your interviews videos in Dovetail.
+    - As you're reviewing your videos try using the JTBD Global Labels to mark parts of the video when you recognize a JTBD Canvas element.
 1. Once all Job Steps have been discussed, walk through the Job Map with the participant for feedback and verification. Make adjustments as needed.
 1. After the interview, rewrite each Job Step to ensure it is functional and follows [Job Statement format](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-statements).
 
