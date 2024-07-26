@@ -76,6 +76,7 @@ tracks merge requests and issues metrics for GitLab Environment Toolkit, GitLab 
 | [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)| This Project serves as a LFS data repository for the GitLab Performance Tool |
 | [Performance Docker Images](https://gitlab.com/gitlab-org/quality/performance-images)| Docker builder and registry for GitLab Performance testing |
 | [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)| A testing tool designed to monitor any downtime that occurs during a zero downtime upgrade by continuously performing git operations and sending requests to the readiness?all=1 endpoint. |
+| [Self Managed Platform Team Channels Issue Tracker](https://gitlab.com/gitlab-org/quality/quality-enablement-issue-tracker) | The issue tracker project is used to track requests and questions from Self Managed Platform Team Slack channels |
 
 ## Working with us
 
@@ -113,7 +114,7 @@ Stand-up twice per week on Tuesday and Thursday via our teams slack channel
 
 ### Project Management
 
-### Issue Boards
+#### Issue Boards
 
 We track our work on the following issue boards:
 
@@ -121,7 +122,7 @@ We track our work on the following issue boards:
 * [Test Platform: Self-Managed Platform Team Members](https://gitlab.com/groups/gitlab-org/-/boards/978354?label_name%5B%5D=team%3A%3ASelf-Managed%20Platform)
 * [GPT Pipeline Triage](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/boards/7686207?label_name[]=maintenance%3A%3Apipelines&label_name[]=team%3A%3ASelf-Managed%20Platform) 
 
-### Capacity Planning
+#### Capacity Planning
 
 We use a simple issue weighting system for capacity planning, ensuring a
 manageable amount of work for each milestone. We consider both the team's
@@ -135,7 +136,7 @@ becomes more difficult than originally expected, leave a comment indicating why 
 weight was changed, and tag the EM and any assigned DRIs so we can better understand the scope
 and continue to improve.
 
-#### Weights
+##### Weights
 
 To weigh an issue, consider the following important factors:
 
@@ -157,7 +158,7 @@ The following weights are available based on the Fibonacci Series with 8 being t
 
 Anything that would be assigned a weight of 8 or larger should be broken down.
 
-### Status Updates
+#### Status Updates
 
 * By 20:00 UTC / 03:00 PM ET on Fridays DRIs of OKRs to provide a status update in the comment section of the OKR
   * Format for weekly update:
@@ -169,9 +170,34 @@ Anything that would be assigned a weight of 8 or larger should be broken down.
       * Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
 * ASYNC Standup on Tuesdays and Thursdays - Reply to GeekBot questionaire on Slack.
 
-### GPT Pipeline Triage
+#### GPT Pipeline Triage
 
 Self Managed Platform Team members who are currently on Pipeline DRI on call rotation will also monitor the [#qa-performance](https://gitlab.slack.com/archives/CH8J9EG49) slack channel. Open issues to be reviewed can be found in the [GPT pipeline triage board](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/boards/7686207?label_name[]=maintenance%3A%3Apipelines&label_name[]=team%3A%3ASelf-Managed%20Platform).
+
+#### Self Managed Platform Channels Issue Tracker
+
+The issue tracker is used to track requests and questions from Self Managed Platform Team Slack channels - GitLab Environment Toolkit, Reference Architectures and GitLab Performance Tool - to create issues for tracking purposes.
+
+Navigate to [Wiki page](https://gitlab.com/gitlab-org/quality/quality-enablement-issue-tracker/-/wikis/home) for more details how issue tracker project is impletmented.
+
+### Metrics
+
+Reference Architectures
+
+{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/ReferenceArchitectures?:iid=3" >}}
+{{< /tableau >}}
+
+GitLab Environment Toolkit
+
+{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/GitlabEnvironmentToolkit?:iid=3" >}}
+{{< /tableau >}}
+
+GitLab Performance Tool
+
+{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/GitlabPerformanceTool?:iid=3" >}}
+{{< /tableau >}}
+
+[Requests from Slack](https://10az.online.tableau.com/t/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/RequestsFromSlack?:origin=card_share_link&:embed=n)
 
 ## Test Platform process across product sections
 
