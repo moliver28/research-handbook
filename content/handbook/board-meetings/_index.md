@@ -12,7 +12,7 @@ title: "Board of Directors and Corporate Governance"
 ### Audit Committee
 
 - **Chairperson:** Karen Blasing
-- **Members:**  Sunny Bedi
+- **Members:**  Sunny Bedi, Godfrey Sullivan
 - **Management DRI:** Chief Financial Officer
 - **Internal Management Members:** Chief Legal Officer, Chief Executive Officer
 
