@@ -117,6 +117,7 @@ We track our work on the following issue boards:
 
 * [Test Platform: Self-Managed Platform Team Milestones](https://gitlab.com/groups/gitlab-org/-/boards/7333962?label_name[]=team%3A%3ASelf-Managed%20Platform)
 * [Test Platform: Self-Managed Platform Team Members](https://gitlab.com/groups/gitlab-org/-/boards/978354?label_name%5B%5D=team%3A%3ASelf-Managed%20Platform)
+* [GPT Pipeline Triage](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/boards/7686207?label_name[]=maintenance%3A%3Apipelines&label_name[]=team%3A%3ASelf-Managed%20Platform) 
 
 ### Capacity Planning
 
@@ -165,6 +166,10 @@ Anything that would be assigned a weight of 8 or larger should be broken down.
       * Next steps :construction_worker:
       * Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
 * ASYNC Standup on Tuesdays and Thursdays - Reply to GeekBot questionaire on Slack.
+
+### GPT Pipeline Triage
+
+Self Managed Platform Team members who are currently on Pipeline DRI on call rotation will also monitor the [#qa-performance](https://gitlab.slack.com/archives/CH8J9EG49) slack channel. Open issues to be reviewed can be found in the [GPT pipeline triage board](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/boards/7686207?label_name[]=maintenance%3A%3Apipelines&label_name[]=team%3A%3ASelf-Managed%20Platform).
 
 ## Test Platform process across product sections
 
