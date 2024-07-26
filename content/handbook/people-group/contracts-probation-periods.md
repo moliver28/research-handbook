@@ -149,7 +149,6 @@ any inventions or side projects that should be listed on the PIAA.
     - Candidate's role in the outside employment, project, or activity
 1. Approval will follow the process set out for current team members. Any potential conflict of interest must be disclosed to and approved by the Chief Legal Officer in line with the Code of Business Conduct & Ethics.
 1. If the candidate entered No or None CES will continue processing the application.
-1. If the candidate discloses any inventions or side projects that should be listed on the PIAA, CES will notify the People Connect Team by emailing `people-connect@gitlab.com` with the link to the candidate's Greenhouse profile and PDF of the form. The subject line will include the candidate's name. From there, People Connect will follow their process per the [internal handbook](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#piaa). Both teams can reach out to `legal_employment@gitlab.com` for review of the disclosures and specific wording that may need to be added to the PIAA if necessary.
 
 #### Steps as a current team member
 
