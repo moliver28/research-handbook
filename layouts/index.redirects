@@ -79,5 +79,8 @@
 # Growth section move from Marketing to Engineering - remove 2024-12-01
 /handbook/marketing/growth/engineering/* /handbook/engineering/development/growth/:splat 301
 
+# about.gitlab.com handbook guide redirects - remove 2025-07-25
+/handbook/product/markdown-guide/ https://about.gitlab.com/community/markdown-guide-middleman/ 301
+
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
