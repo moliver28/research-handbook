@@ -223,7 +223,7 @@ The Director, Solutions Architects is a [grade 10](/handbook/total-rewards/compe
 - Develop strategies and operations to improve win rates to discovering, articulating, and demonstrating GitLab's solution to deliver on specific customer requirements and desired business outcomes.
 - Identify and lead initiatives and programs to scale the organization and its operations for future growth.
 - Develop processes and metrics and KPIs to improve effectiveness and efficiency of technical evaluations, workshops, demos, and proof-of-concept engagements.
-- Partner with Sales, Channels and Alliances teams to align on overall strategy and priorities and provide support for specific prospects, customers and partners.
+- Partner with Sales and Partner teams to align on overall strategy and priorities and provide support for specific prospects, customers and partners.
 - Develop and foster relationships for key customers at the technical sponsor and executive level.
 - Partner with sales leadership to align with and deliver to regional and account plans, strategies and quarterly goals.
 - Collaborate with Sales and Customer Success to improve engagement models and ensure the appropriate coverage of prospects and customers.
@@ -239,7 +239,7 @@ The Director, Solutions Architects is a [grade 10](/handbook/total-rewards/compe
 - Experience with software development lifecycle processes and tools as well as agile and or DevOps practices
 - Knowledgeable with cloud technologies (e.g., Kubernetes, Docker), application security (SAST, DAST) and or cloud deployment models (AWS, GCP, Azure)
 - Experience selling technical solutions to technical staff, management, and executive stakeholders
-- Proven experience partnering with the broader organization (sales, channel, alliances, product and engineering, marketing and customer success)
+- Proven experience partnering with the broader organization (sales, partners, product and engineering, marketing and customer success)
 - B.S. in Computer Science, Engineering or equivalent experience
 
 ### Senior Director, Solutions Architects
@@ -267,7 +267,7 @@ The Vice President of Solution Architecture is a job grade [12](/handbook/total-
 ### Vice President of SA Responsibilities
 
 - Extends the Sr Director of SA responsibilities
-- Define and deliver strategies and plans to create and influence GitLab's Go-To-Market strategy and plans, including Sales (strategic and velocity), Marketing, Product, and Channel/Alliance.
+- Define and deliver strategies and plans to create and influence GitLab's Go-To-Market strategy and plans, including Sales (strategic and velocity), Marketing, Product, and Partners.
 - Provide strategic guidance with prospect and customer accounts for both account influence and growth
 - Lead new developments and improvements to improve segment-specific sales strategies and methods globally, including direct and partner-led sales.
 - Provide executive sponsorship for strategic accounts
