@@ -118,7 +118,7 @@ Introducing the concept of a quarantine ring, we can temporarily move a tenant f
 
 ## Additional material
 
-- We explored the idea of a [kubernete operator](https://gitlab.com/nolith/ringctl-operator), a [private recorded demo](https://www.youtube.com/watch?v=55glecMYD7k&t=1m) is available.
+- We explored the idea of a [kubernete operator](https://gitlab.com/nolith/ringctl-operator), a [private recorded demo](https://www.youtube.com/watch?v=55glecMYD7k&t=1m) is available. As part of this effort, we realized that we want to focus on human interaction first. The ergonomics of operating the system are more important than the implementation details of the engine itself.
 - Why we are doing this now: [Start Release Engineering at the Beginning](https://sre.google/sre-book/release-engineering/#start-release-engineering-at-the-beginning-8ksKtxCm) Google SRE Book.
 - Properties of a [safe configuration change application](https://sre.google/workbook/configuration-design/#safe-configuration-change-application), Configuration Design and Best Practices by Google.
 - [Impact on the current work](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25601#note_1996861638) due to the lack of a sequencing engine to apply changes.
