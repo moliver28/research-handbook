@@ -14,7 +14,6 @@ The following page may contain information related to upcoming products, feature
 #### Goals
 
 - Allow administrator to [restrict users](https://gitlab.com/groups/gitlab-org/-/epics/14060) from publishing to CI/CD Catalog
-  - Update the pipeline chain to check the policy before publishing the component - [#465271](https://gitlab.com/gitlab-org/gitlab/-/issues/465271) (in-dev)
   - Add GraphQL mutations and types to policy [#465265](https://gitlab.com/gitlab-org/gitlab/-/issues/465265) (in-review)
 - Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
   - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-dev)
@@ -26,16 +25,24 @@ The following page may contain information related to upcoming products, feature
 
 #### Goals
 
-- Continue with Admin [capabilities](https://gitlab.com/groups/gitlab-org/-/epics/12713) in CI/CD Catalog - span multiple milestones
-  - Ensuring component security in pipelines - [#467927](https://gitlab.com/gitlab-org/gitlab/-/issues/467927)
 - Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
   - `release-cli` to extract and validate metadata - [#442785](https://gitlab.com/gitlab-org/gitlab/-/issues/442785)
+  - Add an indicator if the release goes to the catalog - [#438958](https://gitlab.com/gitlab-org/gitlab/-/issues/438958)
 - Index/Details page enhancements
-  - Add illustration in the search result page - [#466412](https://gitlab.com/gitlab-org/gitlab/-/issues/466412)
-- Frontend UX improvements
+  - Add the last_30_day_usage_count field to ComponentType - [#474479](https://gitlab.com/gitlab-org/gitlab/-/issues/474479)
+
+### Milestone 17.5 (September 14, 2024 - October 11, 2024)
+
+#### Goals
+
+- Index/Details page enhancements
   - Add `version` dropdown in details page - [#419114](https://gitlab.com/gitlab-org/gitlab/-/issues/419114)
+  - Better visualization when the project description is long - [#448385](https://gitlab.com/gitlab-org/gitlab/-/issues/448385)
+- Search/Filter enhancements
   - Add the `by publishing date` option to the sort dropdown in /explore - [#440508](https://gitlab.com/gitlab-org/gitlab/-/issues/440508)
-  - Add improved visualization when the project description is long - [#448385](https://gitlab.com/gitlab-org/gitlab/-/issues/448385)
+  - Add an illustration in the search result page - [#466412](https://gitlab.com/gitlab-org/gitlab/-/issues/466412)
+  - Routing projects with a dot - [#468448](https://gitlab.com/gitlab-org/gitlab/-/issues/468448)
+  - Add batch data aggregation for the individual component - [#474482](https://gitlab.com/gitlab-org/gitlab/-/issues/474482)
 
 ### Archive
 
