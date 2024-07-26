@@ -71,7 +71,7 @@ See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-t
 
 ### Customer Success Decision Tree
 
-![CSMAE Decision Tree](CSMAE_Decision_Tree.svg)
+If you want to better understand when a CSA, CSE, or CSM should engage with a customer, please check the Decision Tree [here](https://docs.google.com/presentation/d/1Ot-NwW-2LnZI2I38F9K6mj8SgZhCvrN97xxY1MUxLRw/edit#slide=id.p).
 
 ### Renewals Managers
 
