@@ -99,6 +99,15 @@ sequenceDiagram
     deactivate o
 ```
 
+1. This workflow begins with an SRE invoking `ringctl` asking to upgrade a value of all the tenant models in ring 0.
+1. The tool generated a merge request on `tissue` with a representation of the desired change.
+1. The CI for the merge request generates a preview of the desired changes based on the current state of the main branch. The modified tenant models should be validated using the existing `tenctl` feature.
+1. The merge request should be assigned for review by another SRE.
+1. When the merge request is approved, the engine will put it in its queue.
+1. When it's time to process the changes, the tool will merge the request.
+1. It will apply the described changes to the current tenant models.
+1. It will trigger a reconcile pipeline running the AMP cluster's necessary stages.
+
 While the above diagram focuses on a tenant model change, the same process could be applied for regular merge requests where we want to change other files in the repository, like the pipeline Yaml files.
 
 ### Dealing with incidents
