@@ -6,6 +6,36 @@ description: The Marketing Analytics team at GitLab is responsible for enabling 
 
 ## Levels
 
+### Senior Marketing Analyst (Sales Development), Marketing Analytics
+
+The Senior Marketing Analyst (Sales Development), Marketing Analytics reports to the Director, Marketing Strategy and Performance.
+
+#### Senior Marketing Analyst (Sales Development), Marketing Analytics Job Grade
+
+The Senior Marketing Analyst (Sales Development), Marketing Analytics is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Senior Marketing Analyst (Sales Development), Marketing Analytics Responsibilities
+
+- Develop and maintain Sales Development reporting in Tableau with consistent metrics definitions and excellent user experience (UI/UX).
+- Ability to conduct sophisticated data analysis, and translate data into easily digestible messages, communications, and presentations.
+- Develop and manage Sales Development Monthly Performance Reviews, formulating actionable insights and structuring a concise, clear presentation of findings.
+- Assist with Annual Planning and ad-hoc data analysis based on business questions by Sales Development Leadership.
+- Present results to the executive leadership team.
+- Continuously develop the Marketing Analytics Handbook pages to ensure they represent the current state of our strategy, processes, and operations.
+
+#### Senior Marketing Analyst (Sales Development), Marketing Analytics Requirements
+
+- 2+ years hands on experience in a Sales Dev data analytics role
+- BA/BS degree in a quantitative field
+- Excellent analytical skills, creativity in problem solving, and a keen business sense
+- Experience communicating technical concepts to non-technical team members
+- Excellent SQL, Tableau and Snowflake skills
+- Deep understanding of Salesforce and Marketo data and reporting
+- Ability to thrive in a fully remote organization
+- Share our values, and work in accordance with those values
+- Ability to use GitLab
+- Ability to break-down objectives into two-week delivery milestones and familiarity with - Agile methodologies
+
 ### Manager, Marketing Analytics
 
 The Manager, Marketing Analytics reports to the Director, Marketing Strategy and Performance.
