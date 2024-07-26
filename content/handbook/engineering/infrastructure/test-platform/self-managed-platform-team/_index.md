@@ -71,6 +71,7 @@ tracks merge requests and issues metrics for GitLab Environment Toolkit, GitLab 
 | [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)   | Provisioning Toolkit |
 | [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance) | Performance testing tool for validation at scale |
 | [Upgrade Tester](https://gitlab.com/gitlab-org/quality/upgrade-tester) | The Upgrade Tester pipeline builds environments using GET that are based on different Reference Architectures. Each pipeline will build an environment, seed it with data and then upgrade and test the environment with each upgrade to either a specified version or the latest nightly package. |
+| [Backup and Restore](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/backup-and-restore) | The Backup and Restore pipelines are designed to build environments using GET that are based on different Reference Architectures. Each is designed to run through the backup and restore process and verify the data that has been restored. |
 | [GitLab Browser Performance Tool](https://gitlab.com/gitlab-org/quality/performance-sitespeed)| A sister pipeline to GPT's backend performance pipelines, these pipelines are designed to specifically test web page frontend performance in browsers. |
 | [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)| This Project serves as a LFS data repository for the GitLab Performance Tool |
 | [Performance Docker Images](https://gitlab.com/gitlab-org/quality/performance-images)| Docker builder and registry for GitLab Performance testing |
@@ -104,7 +105,6 @@ Our preference is to work asynchronously, within our projects issues trackers.
 The team does have a set of regular synchronous calls:
 
 * Self-Managed Environment Triage
-* GitLab Environment ToolKit Bi-Weekly Sync
 * 1-1s between the Individual Contributors and Engineering Manager
 
 Stand-up twice per week on Tuesday and Thursday via our teams slack channel
