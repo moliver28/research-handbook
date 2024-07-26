@@ -108,14 +108,92 @@ the customer's needs and streamline the resolution process:
 By following these steps, you ensure a structured approach to ticket handling
 that can save time and enhance customer satisfaction.
 
-## Handling tickets from different regions
+## Ticket transfers
 
-Where possible, respect the customer's specified preferred region for ticket
-handling. Exceptions should be made only under the following conditions:
+GitLab Support defines two different types of ticket transfers:
 
-- If a ticket is close to breaching FRT SLA.
-- The ticket has been escalated/STAR'ed, requiring immediate attention regardless of region.
-- The customer has specifically requested it to be handled outside of region.
+### Rehome definition
+
+A `rehome` is a transfer of a ticket from the region of the SE who delivered
+the first response to the customer's specified preferred region
+
+### Handover definition
+
+A `handover` is a transfer of a ticket to a different SE in **any** region
+for any reason other than regional preference, such as the assignee taking time
+off.
+
+## Ticket rehome (transfer to the preferred region)
+
+Starting on 2024-08-01, GitLab Support uses a single view for all unassigned
+tickets, regardless of region. The tickets in the view are sorted by
+`Ticket Weight` to highlight the highest-priority issues first, and support
+engineers are expected to work from the top of the view down. Given this
+process, support engineers will frequently be taking tickets on which the
+customer has specified a `Preferred region` different from their own.
+
+Since we aim in GitLab Support to align tickets to an accountable region, we use
+the following simple process to handle tickets from different regions:
+
+### First response
+
+When providing the first response to a ticket from a different region, follow
+these guidelines:
+
+1. Introduce yourself and acknowledge the customer's preferred region.
+2. Explain that you're providing initial assistance to ensure a timely response.
+3. Inform the customer that before the end of your workday you will transfer
+   their ticket to their preferred region for continued support **unless they
+   request that you keep it**.
+4. Proceed with all appropriate initial steps to begin addressing the customer's
+   issue.
+
+Watch for an update to this topic and a corresponding message in the SWIR
+indicating that a Zendesk macro has been created to give you sample text to use
+in your first response.
+
+### Initiating a ticket rehome
+
+To initiate a ticket rehome, simply use the `Support::Rehome::Initiate Rehome`
+macro. This macro will:
+
+1. Remove ticket assignment
+1. Apply the `rehome_initiated` tag
+1. Create an internal comment on the ticket that **you will need to edit** in
+   order to indicate the origin and destination regions
+
+### Receiving a ticket rehome
+
+When you take an unassigned ticket from the global view and you see an internal
+comment that states `Rehome initiated from [assignee's region] to [target
+region]`, you should follow these steps to receive that rehome:
+
+1. **Verify Regional Alignment:** If the target region specified is your region,
+   continue. Otherwise, leave the ticket unassigned in the view so that an SE
+   from the target region can take it.
+1. Use the `Support::Rehome::Complete Rehome` macro, which:
+   1. Assigns the ticket to you
+   1. Applies the `rehome_received` tag
+   1. Creates a public response with some initial text for your use
+1. Edit the initial text to use your name where the placeholder is
+1. Proceed with all appropriate initial steps to begin addressing the customer's
+   issue, and replace the `Next Steps Here` placeholder with your full update to
+   the customer
+
+### Keeping an out-of-region ticket
+
+If a customer responds to your initial update on the ticket with an explicit
+request that you keep the ticket rather than transferring it to their preferred
+region, you should follow these steps:
+
+1. Use the `Support::Rehome::Do Not Rehome` macro, which creates a public
+   comment with some initial text for you to use.
+1. Proceed as you would with any other ticket
+
+## Ticket handover (assignee change not related to preferred region)
+
+**This section needs to be updated to describe the handover process in the light
+  of the 2024-08-01 [definition](#handover-definition) of handover.**
 
 ### Preparing a ticket for handover
 
