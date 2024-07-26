@@ -300,15 +300,13 @@ Specialty responsibilities and requirements may extend or overlay [Level roles](
 - In partnership with the partner sales team, formulate and execute a sales, solution and practice strategy to exceed revenue targets through the delivery of solutions & services that drive the adoption of GitLab.
 - Work with Customer Success teams (SA, CSM, Sales) to ensure the partner is acting in good faith and effectively when delivering GitLab services to a customer.
 - Educate partners of all sizes on the value proposition of GitLab, and participate in all levels of discussions throughout the organization to ensure our solution is set up for successful deployment.
-- Work on site with strategic partners, delivering solutions architecture consulting, technical guidance, knowledge transfer, and earn "trusted advisor status."
+- Work on site with strategic partners, delivering solutions architecture consulting, technical guidance, knowledge transfer, and earn "trusted advisor" status.
 - Enable the partners to provide technical evaluations via POC/POV ownership, RFP/audit support, and workshop design.
 - Capture and share best-practice knowledge amongst the GitLab community and other (partner) solutions architects.
 - Author or otherwise contribute to GitLab customer-facing publications such as whitepapers, blogs, diagrams, reference architectures, or the GitLab Handbook.
 - Build deep relationships with senior technical people within partnerships to enable them to be GitLab advocates.
 - Serve as the partner advocate to other GitLab teams, including Product Development, Sales, and Marketing.
-- Present GitLab platform strategy, concepts, and roadmap to technical leaders within partner organizations.
 - As part of internal and external evangelism, communicate, grow and evolve awareness of applicable partner technology, services, success stories, market trends and best practices.
-- Tighten feedback loops from the Field to R&D, Marketing and Customer Success. Proactively break down silos to envision and co-create products with cross-team, cross-company communication and collaboration.
 
 #### Partner Solutions Architect Requirements
 
