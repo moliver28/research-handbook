@@ -98,7 +98,9 @@ A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook
 - The Core Teams will ensure nothing happens in a vacuum, by proactively integrating corresponding activities across marketing, and including those beyond the core team for input
 - The Core Teams are responsible for clearly communicating plans to all of Marketing ([also see Core Team communication](/handbook/marketing/campaigns/#core-team-communication))
 
-#### Roles & Responsibilities {#roles-responsibilities} <!-- DO NOT CHANGE ANCHOR -->
+#### Roles & Responsibilities {#roles-responsibilities}
+
+<!-- DO NOT CHANGE ANCHOR -->
 
 - **Product Marketing:** Responsible for the Solution GTM Strategy including narrative, messaging, and positioning. DRI for value plays. Marketing DRI for Sales and SDR enablement. DRI for buyer and influencer personas. Responsible for fostering participation of the entire team in the research, positioning, messaging, general strategy.
 - **Marketing Campaigns:** DRI for marketing campaigns. Responsible for the production of lead generation campaigns and rallying relevant teams and team members to deliver integrated marketing plans.
