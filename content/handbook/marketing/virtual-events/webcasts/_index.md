@@ -247,15 +247,15 @@ Marketing Programs sometimes depend on GitLab's subject matter experts to delive
 
 Here are some basic tips to help ensure that you have a good experience preparing for and presenting on a webcast.
 
-### Before Committing {#speaker-before-committing .no_toc}
+### Before Committing {#speaker-before-committing}
 
 Ask us any questions you have about the time commitment etc. and what exactly our expectations are. Talk about it with your manager if you're on the fence about your availability, bandwidth, or interest. Make sure you're both on the same page. We want this to be a meaningful professional development exercise for you, not a favor to us that you're lukewarm about — if you feel that way, none of will be able to do our best job. We'll be honest with you, so please do the same for us.
 
-### Before the Dry Run {#speaker-before-dry-run .no_toc}
+### Before the Dry Run {#speaker-before-dry-run}
 
 Select and set up your presentation space. Pick a spot with good wifi, and we recommend setting up an external mic for better audio quality, although this is optional. If you will be presenting from your home, alert your spouse/roommates of the time/date & ask them to be out of the house if necessary. Depending on your preferences and comfort level with public speaking, run through the script several times.
 
-### Before the Presentation {#speaker-before-presentation .no_toc}
+### Before the Presentation {#speaker-before-presentation}
 
 Try to get a good sleep the night before, and, if the presentation is in the morning, wake up early enough to run through your notes at least once. Review our [Positioning FAQ](/handbook/marketing/positioning-faq/), or keep the page handy in case you are asked in the Q&A about how GitLab compares to our competitors.
 
