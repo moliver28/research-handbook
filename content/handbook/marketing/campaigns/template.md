@@ -54,15 +54,10 @@ Always On Lead Generation:
 1. Consideration Content:
 1. Decision/Purchase Content:
 
-<<<<<<< HEAD
 #### Manager {#buyer-journey-manager}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-=======
-#### Manager {#buyer-journey-manager} <!-- DO NOT CHANGE THIS ANCHOR -->
-
->>>>>>> 67d7e798671 (Fixing `{: .alert`)
 1. Awareness Content:
 1. Consideration Content:
 1. Decision/Purchase Content:
