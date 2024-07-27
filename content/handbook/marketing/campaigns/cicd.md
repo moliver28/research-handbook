@@ -4,7 +4,7 @@ description: "Everything you need to know about the CI/CD campaign."
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
-## Campaign Overview {#overview .alert .alert-gitlab-orange}
+## Campaign Overview {#overview}
 
 ### Business Objectives {#business-objectives}
 

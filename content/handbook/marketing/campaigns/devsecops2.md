@@ -4,7 +4,7 @@ description: "Everything you need to know about the DevSecOps Capability campaig
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
-## Campaign Overview {#overview .alert .alert-gitlab-orange}
+## Campaign Overview {#overview}
 
 ### In FY23 DevSecOps Campaign has been refreshed and it is part of [the Security & Compliance Lightning Strike](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3271)
 

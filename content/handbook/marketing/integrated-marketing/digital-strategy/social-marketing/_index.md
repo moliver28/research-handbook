@@ -7,8 +7,9 @@ twitter_site: gitlab
 twitter_creator: gitlab
 ---
 
-📖 **Welcome to the Social Marketing Handbook**. The social marketing team is responsible for the stewardship of the GitLab brand social channels. We're accountable for the organic editorial calendar and work with partners across the Developer Relations, digital marketing, talent brand, and other teams to orchestrate the social media landscape for GitLab.
-{:.alert .alert-info .text-justify}
+{{% alert title="📖 Welcome to the Social Marketing Handbook" color="info" %}}
+The social marketing team is responsible for the stewardship of the GitLab brand social channels. We're accountable for the organic editorial calendar and work with partners across the Developer Relations, digital marketing, talent brand, and other teams to orchestrate the social media landscape for GitLab.
+{{% /alert %}}
 
 ### Social Marketing Handbook Pages
 
@@ -113,11 +114,13 @@ The FY23 content strategy will enable our objectives of engagement and elevation
 
 Because engagement is our principal metric focus, it's important that we consider all social content for engagement opportunities. [Our reporting handbook page defines engagement and engagement rate](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-reporting/#social-media-metric-definitions):
 
-ℹ️ **Engagements** are the number of times that users took action on our posts during the reporting period. This includes likes, retweets, comments, saves, replies, reactions, and shares. Does not include quote retweets.
-{:.alert .alert-info .text-justify}
+{{% alert title="ℹ️ Engagements" color="info" %}}
+Are the number of times that users took action on our posts during the reporting period. This includes likes, retweets, comments, saves, replies, reactions, and shares. Does not include quote retweets.
+{{% /alert %}}
 
-ℹ️ **Engagement Rate** is the number of times during a reporting period that users engaged with our posts as a percentage of impressions. This metric indicates how engaging particular content or campaigns are overall.
-{:.alert .alert-info .text-justify}
+{{% alert title="ℹ️ Engagement Rate" color="info" %}}
+Is the number of times during a reporting period that users engaged with our posts as a percentage of impressions. This metric indicates how engaging particular content or campaigns are overall.
+{{% /alert %}}
 
 **Content for organic social media should inherently be engaging to our audiences. Content should drive users to take an action**: to share/retweet the post, to click an attached link, or to respond and create a two-way conversation with an individual user. Rather than years' past where simple support for linked assets and coverage was provided, we'll need to better understand why the user would want this information and whether or not in commands an action, particularly whether or not it would invite them to respond to us. This puts responses and 1-to-1 conversations of much higher importance than we previously focused on.
 
@@ -127,13 +130,12 @@ To learn more about the specifics of engagement and conversations, [check out ou
 
 Elevate our brand on social by delivering on intentional and properly planned campaigns with cross-functional support to align with overall marketing OKRs. We'll look to polish visuals, write higher quality and shorter copy, and experiment with rich content like Twitter Spaces, livestreaming video, and other formats.
 
-**What elevates our brand?**
-<br>
+{{% alert title="What elevates our brand?" color="info" %}}
 <br> **Results** - we want an increase in engagement as well as the quality of our metrics
 <br> **Emotional connections** - we want to be able to say that we helped members of the community do better
 <br> **Individual connections** - 1-to-1 with the brand and our evangelists, to better develop GitLab champions
 <br> **Polished look and feel** - visuals and copy should resemble other big tech companies, refined and consistent messaging
-{:.alert .alert-info .text-justify}
+{{% /alert %}}
 
 Elevation requires siginficant campaign planning, above years' past. The social team has already begun this work by developing a quarterly brief form and sync meeting program where the team connections with stakeholders across the marketing organization to better plan and understand critical campaigns.
 
@@ -178,8 +180,9 @@ For more info on the Sprout tags for Pillars, [refer to the Reporting Handbook p
 
 Social media can be used as a relationship builder between GitLab and partners, vendors, event organizers, and other third parties. Leveraging GitLab's brand social media channels is a great way to extend these relationships further. However, only GitLab's brand social team has the authority to commit GitLab's brand social media channels for work. Please do not guarantee GitLab brand social media coverage to anyone without consulting and gaining approval from our team first. Our responsibility is to manage both our time as team members and the owned public image of our brand and product. These things are not taken into consideration unless the social team is actively a part of the conversation.
 
+{{% alert color="warning" %}}
 If you have committed GitLab's brand social media channels for social posts or committed the social team's time to projects before consulting with and gaining approval, the social team will reject the commitments.
-{:.alert .alert-warning}
+{{% /alert %}}
 
 ## Sharing 3rd-party events (onsite or virtual) on organic social where a team member is speaking
 

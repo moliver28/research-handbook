@@ -7,8 +7,9 @@ twitter_site: "gitlab"
 twitter_creator: "gitlab"
 ---
 
+{{% alert color="info" %}}
 Reporting on our brand's organic social media efforts is critical in determining if what we're doing is working and understanding our audiences better. This page outline specifics on our reporting, including definitions of metrics.
-{:.alert .alert-info .text-justify}
+{{% /alert %}}
 
 ## Dashboards and Reports
 
