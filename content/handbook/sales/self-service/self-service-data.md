@@ -7,8 +7,9 @@ description: "The Self-Service Data Team is responsible for leveraging data to o
 
 ## Welcome to the Self-Service Data Team Handbook
 
-**The Self-Service Data Team is responsible for leveraging data to optimize for the self-service customer experience and drive nARR growth via sales efficiency. Data insights from this team feed: sales visibility, self-service fulfillment features, and growth/marketing experiments. The Self-Service Data Team also aims to create data tools to help with efficiency, prioritization, and decision making.**
-{: .alert .alert-success}
+{{% alert color="success" %}}
+The Self-Service Data Team is responsible for leveraging data to optimize for the self-service customer experience and drive nARR growth via sales efficiency. Data insights from this team feed: sales visibility, self-service fulfillment features, and growth/marketing experiments. The Self-Service Data Team also aims to create data tools to help with efficiency, prioritization, and decision making.
+{{% /alert %}}
 
 ## Team
 

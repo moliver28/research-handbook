@@ -8,14 +8,12 @@ twitter_creator: '@gitlab'
 
 ## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Campaigns Team
 
-## What our team does
+## What our team does {#goals}
 
-{: #goals .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-### Responsibilities
+### Responsibilities {#responsibilities}
 
-{: #responsibilities}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Global Campaigns Managers are responsible for building integrated marketing campaigns including the strategy, execution and analytics. They work in a cross-functional manner to gain alignmnent with internal stakeholders and inter-departmental dependencies. Building a Global Campaign may consist of the following: Target Audience segementation, campaign journey, asset and content recommendations, marketing message, email nurture, recommeded marketing channels for promotion (both organic and paid), top funnel events (virtual and in-person), and Alliance partnership (Technology Partners).
@@ -24,16 +22,14 @@ Regional campaigns managers are responsible for localizing and activating global
 
 [Read the job family here >>](/job-families/marketing/marketing-campaign-manager/)
 
-### Goals
+### Goals {#goals}
 
-{: #goals}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 The goals for new first-order MQLs and SAOs are derived from workbacks of sales pipeline projections. These differ by segment and geo, and can be discussed internally.
 
-### Demand Generation Key Metrics
+### Demand Generation Key Metrics {#key-metrics}
 
-{: #key-metrics}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 - **North Star Metric:** MQLs (New First-Order Logo)
@@ -41,9 +37,8 @@ The goals for new first-order MQLs and SAOs are derived from workbacks of sales 
 - **Business Impact Metric:** CWA/Spend (closed-won attribution)
 - **Supporting/Activity Metrics:** SAOs, Attributed Pipeline
 
-### OKRs
+### OKRs {#okrs}
 
-{: #okrs}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **OKRs = Objective + Key Result**
@@ -66,9 +61,8 @@ FY23-Q4
 
 </details>
 
-### Meet the Team
+### Meet the Team {#meet-the-team}
 
-{: #meet-the-team}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Agnes Oetama** _Manager, Marketing Campaigns_
@@ -131,9 +125,8 @@ Host monthly enablement sessions on global campaign updates and new LIVE assets
 
 _Each team member contributes to making day-to-day processes more efficient and effective, and will work with marketing operations as well as other relevant teams (including field marketing, content marketing, and product marketing) prior to modification of processes._
 
-## Communication
+## Communication {#communication}
 
-{: #communication .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 In line with GitLab's overall [communication guidelines](/handbook/communication/), campaign managers work through MRs first and issues second (in order to preserve documentation), and our slack channel [#marketing-campaigns](https://gitlab.slack.com/archives/CCWUCP4MS) is used for team updated and quick questions.
@@ -171,9 +164,8 @@ Every 6 months, Regional campaigns managers will conduct a joint planning worksh
 - **By planning session:** Regional campaign manager to pull invite list for each planned event.
 - **During planning session:** Manager/Sr Manager of field marketing & campaign manager reviews invite list. If invite list for a particular planned event is too small, collectively decide if FMM should change the event venue or work with their regional campaign manager on a strategy to grow the invite list via paid or organic channels.
 
-### Meeting Cadence
+### Meeting Cadence {#meeting-cadence}
 
-{: #meeting-cadence}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Most of our team meetings are recorded and can be found [here](https://drive.google.com/drive/u/1/folders/1GDkvqVhimLDnX744eh9YS6_qHhKRafmJ).
@@ -181,9 +173,8 @@ Most of our team meetings are recorded and can be found [here](https://drive.goo
 - Bi-weekly - Campaigns Team Connect Call (every other is AMER/EMEA and EMEA/APAC)
 - Monthly - Marketing All-Hands (all marketing)
 
-### The Handbook
+### The Handbook {#handbook}
 
-{: #handbook}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Is our single source of truth (SSoT) for processes and relevant links
@@ -192,14 +183,12 @@ Is our single source of truth (SSoT) for processes and relevant links
 - Collaborative tactics contain their own handbook pages
 - The handbook will be iterated on as we establish and optimize processes for optimal efficiency
 
-## Project Management
+## Project Management {#project-management}
 
-{: #project-management .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-### Prioritization
+### Prioritization {#prioritization-boards}
 
-{: #prioritization-boards}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. [Campaigns Team - Prioritization](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/2532209?&label_name[]=mktg-demandgen)
@@ -212,14 +201,12 @@ Is our single source of truth (SSoT) for processes and relevant links
    - Minimize the "Low" and "Medium" columns. Your focus should first be on the "Top" and "High" priority issues.
    - Prioritize completion of "Top" priority issues, then "High" priority issues.
 
-### Labels
+### Labels {#labels}
 
-{: #labels}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### Prioritization labels
+#### Prioritization labels {#prioritization-labels}
 
-{: #prioritization-labels}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 - `DG-Priority::Top`: Immediate action needed, aligned to OKRs, GTM motions/sales plays, or segment/region MQL generation. This category will be limited because not everything can be a priority. Timeframe: Immediate action needed.
@@ -228,18 +215,16 @@ Is our single source of truth (SSoT) for processes and relevant links
 - `DG-Priority::Low`: Requests submitted that would be helpful, but can be pushed for higher priority issues. Nice-to-have improvements for campaign team processes. Timeframe: No specific timeline.
 - `DG-Priority::ToBePrioritized`: Requests that have not yet been prioritized by Demand Gen.
 
-#### Team labels
+#### Team labels {#team-labels}
 
-{: #team-labels}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 - `mktg-demandgen`: DRI is in Demand Gen team
 - `dg-campaigns`: DRI is in Campaigns team
 - `dg-request`: Issue requesting Demand Gen support (did not originate from DRI team)
 
-#### Status labels
+#### Status labels {#intake-labels}
 
-{: #intake-labels}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 - `mktg-status::wip`: the issue is assigned and moved into appropriate time-based milestone
@@ -250,9 +235,8 @@ Is our single source of truth (SSoT) for processes and relevant links
 - `mktg-status::plan`: this is used for work that is in an earlier stage of planning and a specific request has not been made (backlog issues)
   - This will likely be used mainly by campaign managers on issues that are not high priority but there is a desire to capture the idea/notes.
 
-#### Campaign Team Issue Templates
+#### Campaign Team Issue Templates {#campaign-issues-templates}
 
-{: #campaign-issues-templates}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 The following issue templates are used by the Campaigns Team to organize their work, with appropriate labels applied for project management.
@@ -276,9 +260,8 @@ The following issue templates are used by the Campaigns Team to organize their w
 - [campaigns-webcast-live-host](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=campaigns-webcast-live-host)
 - [campaigns-webcast-prep](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=campaigns-webcast-prep)
 
-#### Request Issue Templates
+#### Request Issue Templates {#request-issue-templates}
 
-{: #request-issue-templates}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 We ask that teams request work using the following issue templates in the campaigns project. These templates more clearly indicate what information and details are required in order for the request to be triaged.
@@ -301,9 +284,8 @@ Note on timelines: The Campaigns Team is focused on campaign strategy, execution
 - [idea-campaign](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=idea-campaign)
 - [idea-webcast](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=idea-webcast)
 
-#### Fundamental principles of issue requests
+#### Fundamental principles of issue requests {#fundamentals}
 
-{: #fundamentals}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 The following issue templates are used by the campaigns team to organize their work, with appropriate labels applied for project management.
@@ -347,9 +329,8 @@ This will change the status to wip (work in progress), allow quick assignment an
 
 </details>
 
-### Milestones
+### Milestones {#milestones}
 
-{: #milestones}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 The campaigns team uses the overall 2-week marketing milestones (format of [Mktg: YYYY-MM-DD](https://gitlab.com/groups/gitlab-com/-/milestones?utf8=%E2%9C%93&search_title=mktg%3A+&state=&sort=)) to organize, prioritize, and balance campaigns, projects, and requests.
@@ -370,14 +351,12 @@ The campaigns team uses the overall 2-week marketing milestones (format of [Mktg
 - [DG-Backlog:Documentation](https://gitlab.com/groups/gitlab-com/-/milestones/248) - holds issues related to needed documentation (handbook, issues, etc.)
 - [DG-Backlog:General](https://gitlab.com/groups/gitlab-com/-/milestones/256) - holds general issue backlog that don't fit into request, ideas, or documentation/process
 
-### Boards and Lists
+### Boards and Lists {#boards-lists}
 
-{: #boards-lists}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### Boards
+#### Boards {#boards}
 
-{: #boards}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 <b>[Campaigns Team Current Milestone](https://gitlab.com/groups/gitlab-com/-/boards/1884920?milestone_title=%23started&&label_name[]=dg-campaigns)</b> - this board provides a high-level status view of issues in the current milestone by team member.
@@ -407,9 +386,8 @@ The campaigns team uses the overall 2-week marketing milestones (format of [Mktg
 - [Current Milestone by Team Members](https://gitlab.com/groups/gitlab-com/-/boards/1948068?milestone_title=%23started&label_name[]=dg-campaigns)
 - [Upcoming MIlestone by Team Members](https://gitlab.com/groups/gitlab-com/-/boards/1948068?scope=all&label_name[]=dg-campaigns&milestone_title=%23upcoming)
 
-#### Lists
+#### Lists {#lists}
 
-{: #lists}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ##### Issue List Current Mile by Team Member
@@ -428,14 +406,12 @@ The campaigns team uses the overall 2-week marketing milestones (format of [Mktg
 - [Issues in ready-to-build status (campaigns)](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=mktg-status%3A%3Aready-to-build)
 - [Issues in plan status (campaigns)](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=mktg-status%3A%3Aplan)
 
-### Tips & Tricks
+### Tips & Tricks {#tips-tricks}
 
-{: #tips-tricks}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### Creating a MacBook shortcut for repetitive statements
+#### Creating a MacBook shortcut for repetitive statements {#macbook-shortcuts}
 
-{: #macbook-shortcuts}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **Example:** in an issue to update all of MPM, instead of typing out every name, I have added a shortcut in my computer to populate all of the MPMs GitLab handles when I type `asdf + Enter`.
@@ -450,68 +426,58 @@ The campaigns team uses the overall 2-week marketing milestones (format of [Mktg
 - In `Replace` column, add the shortcut that you would type in to populate the repetitive text
 - In `With` column, add the repetitive text that you want to populate when you type in the shortcut
 
-## Reporting
+## Reporting {#reporting}
 
-{: #reporting .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-## Demand Generation Reporting
+## Demand Generation Reporting {#demand-gen-dash}
 
-{: #demand-gen-dash .gitlab-purple}
-<!-- DO NOT CHANGE THIS ANCHOR -->
-
-See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#reporting)
-
-### Key metrics tracked on the Demand Gen Dashboard
-
-{: #dashboard-key-metrics}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#reporting)
 
-### 💡 Questions that the Integrated Campaign dashboards attempt to answer
+### Key metrics tracked on the Demand Gen Dashboard {#dashboard-key-metrics}
 
-{: #dashboard-questions-to-answer}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### Overall (WIP to deliver all)
+See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#reporting)
 
-{: #questions-overall}
+### 💡 Questions that the Integrated Campaign dashboards attempt to answer {#dashboard-questions-to-answer}
+
+<!-- DO NOT CHANGE THIS ANCHOR -->
+
+#### Overall (WIP to deliver all) {#questions-overall}
+
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#reporting-questions-overall)
 
-#### By Campaign
+#### By Campaign {#questions-by-campaign}
 
-{: #questions-by-campaign}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#questions-by-campaign)
 
-#### Drilling down into the dashboards
+#### Drilling down into the dashboards {#dashboard-drilldowns}
 
-{: #dashboard-drilldowns}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#dashboard-drilldowns)
 
-## Offer-Specific Dashboards
+## Offer-Specific Dashboards {#dashboard-by-offer}
 
-{: #dashboard-by-offer}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#dashboard-by-tactic)
 
-### Key Metrics tracked on ALL virtual events dashboards
+### Key Metrics tracked on ALL virtual events dashboards {#dashboard-virtual-events}
 
-{: #dashboard-virtual-events}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#dashboard-virtual-events)
 
-#### Virtual Events Reporting
+#### Virtual Events Reporting {#reporting-virtual-events}
 
-{: #reporting-virtual-events}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 See reporting on Demand Generation Hanbook Page: [https://handbook.gitlab.com/handbook/marketing/demand-generation/#reporting](/handbook/marketing/demand-generation/#reporting-virtual-events)

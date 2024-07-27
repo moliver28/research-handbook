@@ -7,8 +7,9 @@ twitter_site: "gitlab"
 twitter_creator: "gitlab"
 ---
 
+{{% alert color="info" %}}
 Reporting on our brand's organic social media efforts is critical in determining if what we're doing is working and understanding our audiences better. This page outline specifics on our reporting, including definitions of metrics.
-{:.alert .alert-info .text-justify}
+{{% /alert %}}
 
 ## Dashboards and Reports
 
@@ -137,8 +138,9 @@ With social media data, there will always be a set of limitations based on what 
 
 Tag use in Sprout is the core mechanism we use to develop reports on social media performance. This is why it's important to consider using all tags that might be appropriate to use, for every post scheduled. Below, you'll find details on some of our most used tags and tips for using them effectively.
 
+{{% alert color="success" %}}
 All tags, except campaign tags, can be used together and often should be included together. This means you may be using more than one pillar or type tag.
-{: .alert .alert-success}
+{{% /alert %}}
 
 ### Sprout tag use examples
 
@@ -153,8 +155,9 @@ All tags, except campaign tags, can be used together and often should be include
 
 Content Pillar Tags allow the social team to tag the most common identifying item among our posts, the overall purpose or focus of the post. Most pillar tags are associated with other teams the social marketing team works with, as these are the easiest identifiers to connect on. Pillar tags allow us to develop reports for top level focuses to show long term performance at the highest level.
 
+{{% alert color="success" %}}
 These tags are stackable, they can be combined.
-{: .alert .alert-success}
+{{% /alert %}}
 
 - 🏷 Pillar: All Remote
   - _when scheduling any content about GitLab's all remote brand_
@@ -177,8 +180,9 @@ These tags are stackable, they can be combined.
 
 Content Type Tags allow the social team to measure performance by formats. This is important for us to measure how engaging individual types of content are, as well as, whether or not we'd hit other goals.
 
+{{% alert color="success" %}}
 These tags are stackable, they can be combined.
-{: .alert .alert-success}
+{{% /alert %}}
 
 - 🏷 Type: Audio
   - _when scheduling content that contains audio only files, like Twitter Spaces_
@@ -199,8 +203,9 @@ These tags are stackable, they can be combined.
 
 Campaign tag types appear differently in Slack. They have their own section to select a tag when scheduling content. [You can also build a social campaign from start to finish using the Campaign Planner feature, which includes timelines, a brief form, and other details.](https://support.sproutsocial.com/hc/en-us/articles/4404605325325-Sprout-Campaigns#h_01FA3GQZGA3J1AFDQA4B6H95EA) Campaign tags are used based on the campaigns we work on at GitLab and allow for more granular reporting. Rather than relying on performance for all remote content overall, we can target specific events (like REMOTE) or marketing campaigns (like the Remote Work Report).
 
+{{% alert color="danger" %}}
 Campaign tags are not stackable, they cannot be combined. Since only one campaign tag can be used for posts, it's important to keep communication objectives for the post clear and include only one campaign.
-{: .alert .alert-danger}
+{{% /alert %}}
 
 Some existing tags we may use throughout the year are identified below, but new campaign tags will be created according to the campaigns we work on through the year.
 
