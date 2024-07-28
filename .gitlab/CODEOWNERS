@@ -157,15 +157,15 @@
 /content/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @shampton @marknuzzo @nicolewilliams
 /content/handbook/engineering/development/ops/verify/pipeline-authoring/ @marknuzzo
 /content/handbook/engineering/development/ops/verify/pipeline-execution/ @carolinesimpson
-/content/handbook/engineering/development/ops/verify/pipeline-security/ @shampton
 /content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
 /content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
 /content/handbook/engineering/development/sec/ @twoodham @pcalder
-/content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @pcalder @ryaanwells
+/content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @pcalder @ryaanwells @shampton
 /content/handbook/engineering/development/sec/govern/anti-abuse.md @jayswain
 /content/handbook/engineering/development/sec/govern/authentication.md @adil.farrukh
 /content/handbook/engineering/development/sec/govern/authorization.md @jayswain
 /content/handbook/engineering/development/sec/govern/compliance.md @nrosandich
+/content/handbook/engineering/development/sec/govern/pipeline-security/ @shampton
 /content/handbook/engineering/development/sec/govern/security-policies/ @alan
 /content/handbook/engineering/development/sec/govern/threat-insights.md @nmccorrison @ryaanwells
 /content/handbook/engineering/development/sec/secure/ @twoodham
@@ -563,7 +563,7 @@
 /content/handbook/security/corporate/ @smanzuik @ericrubin @dzhu-gl @mbeee
 /content/handbook/security/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/product-security/ @juliedavila
-/content/handbook/security/product-security/infrastructure-security/ @jacobjernigan 
+/content/handbook/security/product-security/infrastructure-security/ @jacobjernigan
 /content/handbook/security/product-security/application-security/ @jritchey
 /content/handbook/security/product-security/architecture/ @plafoucriere
 /content/handbook/security/product-security/security-research/ @estrike
@@ -639,7 +639,7 @@
 /.gitlab/
 
 [handbook-operations] @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
-/.editorconfig 
+/.editorconfig
 /.gitignore
 /.gitlab-ci.yml
 /.markdownlint-cli2.jsonc
