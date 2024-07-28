@@ -61,10 +61,6 @@ The Verify stage is made up of 5 groups:
 
 {{< team-by-manager-role "Engineering Manager(.+)Pipeline Execution" >}}
 
-### Verify:Pipeline Security
-
-{{< team-by-manager-role "Engineering Manager(.+)Pipeline Security" >}}
-
 ### Verify:Runner
 
 {{< team-by-manager-role "Engineering Manager(.+)Runner" >}}
