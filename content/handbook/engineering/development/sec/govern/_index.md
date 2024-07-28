@@ -14,6 +14,7 @@ To support GitLab's product vision through alignment with the [Govern stage](htt
 - [Authentication](authentication/)
 - [Authorization](authorization/) and [Anti-abuse](anti-abuse/)
 - [Compliance](compliance/)
+- [Pipeline Security](pipeline-security/)
 - [Security Policies](security-policies/)
 - [Threat Insights](threat-insights/)
 
@@ -25,6 +26,7 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 - [Authentication](https://about.gitlab.com/direction/govern/authentication/#priorities)
 - [Authorization](https://about.gitlab.com/direction/govern/authorization/#priorities)
 - [Compliance](https://about.gitlab.com/direction/govern/compliance/tactical-priorities.html#priorities)
+- [Pipeline Security](https://about.gitlab.com/direction/govern/pipeline_security/#priorities)
 - [Security Policies](https://about.gitlab.com/direction/govern/security_policies/#priorities)
 - [Threat Insights](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#priorities) ([16.x](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html#priorities))
 
@@ -35,6 +37,7 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 - [Security scanner integration](https://docs.gitlab.com/ee/development/integrations/secure.html)
 - [Secure and Govern terminology](https://docs.gitlab.com/ee/user/application_security/terminology/)
 - [Govern testing priorities](https://about.gitlab.com/direction/govern/testing_priorities.html)
+- [Pipeline Security](https://docs.gitlab.com/ee/ci/pipelines/pipeline_security.html)
 
 ## Sub-department development people leaders
 
@@ -59,6 +62,10 @@ To contact Govern sub-department development people leaders, use the following a
 ### Compliance
 
 {{% team-by-manager-slug manager="nrosandich" team="Engineer(.*)Govern:Compliance" %}}
+
+### Pipeline Security
+
+{{< team-by-manager-role manager="shampton" team="Engineering(.+)Govern:Pipeline Security" >}}
 
 ### Security Policies
 
