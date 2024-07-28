@@ -48,7 +48,6 @@ The Verify stage is made up of 5 groups:
 1. [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
 
 1. [Verify:Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/)
-1. [Verify:Pipeline Security](/handbook/engineering/development/ops/verify/pipeline-security/)
 
 1. [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
 
@@ -91,7 +90,6 @@ A [Job to be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) is a framework,
 * [Verify:Pipeline Execution JTBD](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/)
 * [Verify:Pipeline Authoring JTBD](/handbook/engineering/development/ops/verify/pipeline-authoring/jtbd/)
 * [Verify:Runner JTBD](/handbook/engineering/development/ops/verify/runner/jtbd/)
-* [Verify:Pipeline Security JTBD](/handbook/engineering/development/ops/verify/pipeline-security/JTBD/)
 
 ### Developer Onboarding in Verify
 
