@@ -1,6 +1,7 @@
 ---
-title: "Verify:Pipeline Security Group"
-description: "The GitLab Verify:Pipeline Security Group Handbook page"
+title: "Govern:Pipeline Security Group"
+description: "The GitLab Govern:Pipeline Security Group Handbook page"
+aliases: /handbook/engineering/development/ops/verify/pipeline-security/
 ---
 
 ## Vision
@@ -23,15 +24,11 @@ Our mission is to give organizations features which enable secure pipeline opera
 We measure the value we contribute by using a [Product Performance Indicator](/handbook/product/performance-indicators/). One of the PI process goals is to ensure that, as a product team, we are focused on strategic and operational improvements to improve leading indicators, precursors of future success.
 <!-- Our current PI for the Pipeline Security group is the [GMAU (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verifytesting---gmau---count-of-active-users-engaging-with-the-test-summary-mr-widget). This is a rolling count of unique users who have triggered a pipeline that uploads a test or coverage report. This is not currently instrumented and we are tracking progress of instrumentation in [gitlab&4528](https://gitlab.com/groups/gitlab-org/-/epics/4528). -->
 
-### Error Budgets
-
-As part of the [FY22 SaaS First](https://about.gitlab.com/direction/#saas-first) investment theme and our commitment to building a reliable service we use error budgets to track availability and help guide how much investment we make milestone to milestone in reliability. More information is shared on the [Ops Section Performance Indicators (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verify-verifytesting---error-budget-for-gitlabcom).
-
 ## Team Members
 
-The following people are permanent members of the Verify:Pipeline Security group:
+The following people are permanent members of the Govern:Pipeline Security group:
 
-{{< stable-counterparts role="Verify:Pipeline Security" >}}
+{{< stable-counterparts role="Govern:Pipeline Security" >}}
 
 ## Stable Counterparts
 
@@ -39,7 +36,7 @@ To find our stable counterparts look at the Pipeline Security [product category 
 
 ## JTBD
 
-You can view and contribute to our current list of JTBD and job statements [here](/handbook/engineering/development/ops/verify/pipeline-security/JTBD/#jobs-to-be-done).
+You can view and contribute to our current list of JTBD and job statements [here](/handbook/engineering/development/sec/govern/pipeline-security/JTBD/#jobs-to-be-done).
 
 ## Technologies
 
@@ -50,7 +47,7 @@ Like most GitLab backend teams we spend a lot of time working in Rails on the ma
 - [Issue Tracking Board](https://gitlab.com/groups/gitlab-org/-/boards/364216?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group::pipeline+security)
 - [Issue Backlog](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=group%3A%3Apipeline%20security)
 - [Slack Channel](https://gitlab.slack.com/archives/g_pipeline-security)
-- [Roadmap](https://about.gitlab.com/direction/ops/#verify)
+- [Roadmap](https://about.gitlab.com/direction/ops/#govern)
 - [GitLab Unfiltered YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq53VUOvTk3VdXN79PA0SXT)
 
 ## Our Repositories
@@ -121,7 +118,7 @@ Based on these criteria, an issue can have one of the following weights:
 | 5: Large | Issues that are known to be complex. A solution has been outlined. There are many major edge cases that need to be catered for. Surprises are expected. Extensive coordination with other teams is required. Careful release process needs to be considered. These issues may have potential for adverse performance impact or catastrophic failures. They may also involve more one components (backend, frontend, gitaly, workhorse, runner, etc) or changes the interaction between the components.<br><br>Examples are issues that changes API contracts requiring backward compatibility, requires multiple feature flags to be safely released. It could also be issues where the team does not have any existing expertise or knowledge, or require changes in components that the team does not usually work on. |
 | 8: Unknown | An issue that is weight 8 will not be scheduled and instead should be investigated further in order to be broken down into smaller issues<br><br>Examples are bugs that are not well understood or easily replicated, bugs or features that do not have a suggested solution. |
 
-If the weight of an issue cannot be determined within a day, create a separate [investigation issue](/handbook/engineering/development/ops/verify/pipeline-security/#technical-investigation) for an in-depth investigation.
+If the weight of an issue cannot be determined within a day, create a separate [investigation issue](/handbook/engineering/development/sec/govern/pipeline-security/#technical-investigation) for an in-depth investigation.
 
 #### Design and Development collaboration
 
@@ -157,7 +154,7 @@ If an issue has several components (e.g. ~frontend, ~backend, or ~documentation)
 
 The [Pipeline Security group Error Budget dashboard](https://dashboards.gitlab.net/d/stage-groups-pipeline_security/stage-groups-pipeline-security-group-dashboard?orgId=1) is used to identify issues that are contributing to the Pipeline Security group's error budget spend.
 
-The engineering manager will review the error budget dashboard weekly to determine whether we're exceeding our budget, determine what (if anything) is contributing to our error budget spend, and create issues addressing root cause for product manager prioritization. Issues created to address error budget spend should be created using appropriate labels and prioritized according to our [technical debt process](#prioritizing-technical-debt-and-deferred-ux). Other issues may be created as a result of the [Ops Section SaaS Reviews](/handbook/product/performance-indicators/#verify-verifytesting---error-budget-for-gitlabcom) and also prioritized using the technical debt process.
+The engineering manager will review the error budget dashboard weekly to determine whether we're exceeding our budget, determine what (if anything) is contributing to our error budget spend, and create issues addressing root cause for product manager prioritization. Issues created to address error budget spend should be created using appropriate labels and prioritized according to our [technical debt process](#prioritizing-technical-debt-and-deferred-ux).
 
 #### Prioritizing technical debt and deferred UX
 
@@ -182,7 +179,7 @@ Before the team will accept an issue into a milestone for work it must meet thes
 - Issues labeled with ~"type::feature" include a well stated "why" and customer problem
 - Issues labeled ~"type::bug" include steps to reproduce
 - Designs are in the design tab if needed
-- If the issue will be worked on by Verify:Pipeline Security engineers, it has a [weight](/handbook/engineering/development/dev/create/source-code-be/#weights)
+- If the issue will be worked on by Govern:Pipeline Security engineers, it has a [weight](/handbook/engineering/development/dev/create/source-code-be/#weights)
 - Design proposal satisfies the [UX Definition of Done (DoD)](/handbook/product/ux/stage-group-ux-strategy/ci-cd/#definition-of-done-for-ux-pilot)
 
 #### Definition of Blocked
@@ -199,11 +196,11 @@ During each milestone, we create a [Release Post Checklist](https://gitlab.com/g
 
 ### Workflow
 
-Unless specifically mentioned below, the Verify:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development-flow/), and [UX](/handbook/product/ux/ux-department-workflow/) workflows.
+Unless specifically mentioned below, the Govern:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development-flow/), and [UX](/handbook/product/ux/ux-department-workflow/) workflows.
 
 #### Starting New Work
 
-Verify:Pipeline Security team members are encouraged to start looking for work starting **_Right to left_** on [our milestone board](https://gitlab.com/groups/gitlab-org/-/boards/364216?label_name[]=group%3A%3Apipeline%20security&milestone_title=Started). This is also known as _"Pulling from the right"_. If there is an issue that a team member can help along on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to if they feel that they can add value and help move the issue along the board.
+Govern:Pipeline Security team members are encouraged to start looking for work starting **_Right to left_** on [our milestone board](https://gitlab.com/groups/gitlab-org/-/boards/364216?label_name[]=group%3A%3Apipeline%20security&milestone_title=Started). This is also known as _"Pulling from the right"_. If there is an issue that a team member can help along on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to if they feel that they can add value and help move the issue along the board.
 
 Specifically this means, in order:
 
@@ -234,7 +231,7 @@ If a team member believes a specific issue should be considered a `Deliverable` 
 
 #### Code Review
 
-Code reviews follow the standard process of using the reviewer roulette to choose a reviewer and a maintainer. The roulette is **optional**, so if a merge request contains changes that someone outside our group may not fully understand in depth, it is encouraged that a member of the Verify:Pipeline Security team be chosen for the preliminary review to focus on correctly solving the problem. The intent is to leave this choice to the discretion of the engineer but raise the idea that fellow Verify:Pipeline Security team members will sometimes be best able to understand the implications of the features we are implementing. The maintainer review will then be more focused on quality and code standards.
+Code reviews follow the standard process of using the reviewer roulette to choose a reviewer and a maintainer. The roulette is **optional**, so if a merge request contains changes that someone outside our group may not fully understand in depth, it is encouraged that a member of the Govern:Pipeline Security team be chosen for the preliminary review to focus on correctly solving the problem. The intent is to leave this choice to the discretion of the engineer but raise the idea that fellow Govern:Pipeline Security team members will sometimes be best able to understand the implications of the features we are implementing. The maintainer review will then be more focused on quality and code standards.
 
 We also recommend that team members take some time to review each others merge requests even if they are not assigned to do so, as described in the [GitLab code review process](/handbook/engineering/workflow/code-review/#reviewer). It is not necessary to assign anyone except the initial domain reviewer to your Merge Request. This process augmentation is intended to encourage team members to review Merge Requests that they are not assigned to. As a new team, reviewing each others merge requests allows us to build familiarity with our product area, helps reduce the amount of investigation that needs to be done when implementing features and fixes, and increases our [lottery factor](https://en.wikipedia.org/wiki/Bus_factor). The more review we can do ourselves, the less work the maintainer will have to do to get the merge request into good shape.
 
@@ -302,7 +299,7 @@ Some notes/suggestions:
 
 #### Monitoring changes behind feature flags
 
-In addition to the steps documented for [developing with feature flags at GitLab](https://docs.gitlab.com/ee/development/feature_flags/) Verify:Pipeline Security engineers monitor their changes' impact on infrastructure using dashboards and logs where possible. Because feature flags allow engineers to have complete control over their code in production it also enables them to take ownership of monitoring the impact their changes have against production infrastructure. In order to monitor our changes we use this [helpful selection of dashboards](/handbook/engineering/monitoring/#selection-of-useful-dashboards-from-the-monitoring) and specifically the [Rails controller dashboard](https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller) (Internal Only) for monitoring our changes in production. Metrics we evaluate include latency, throughput, CPU usage, memory usage, and database calls, depending on what our change's expected impact will be and any considerations called out in the issue.
+In addition to the steps documented for [developing with feature flags at GitLab](https://docs.gitlab.com/ee/development/feature_flags/) Govern:Pipeline Security engineers monitor their changes' impact on infrastructure using dashboards and logs where possible. Because feature flags allow engineers to have complete control over their code in production it also enables them to take ownership of monitoring the impact their changes have against production infrastructure. In order to monitor our changes we use this [helpful selection of dashboards](/handbook/engineering/monitoring/#selection-of-useful-dashboards-from-the-monitoring) and specifically the [Rails controller dashboard](https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller) (Internal Only) for monitoring our changes in production. Metrics we evaluate include latency, throughput, CPU usage, memory usage, and database calls, depending on what our change's expected impact will be and any considerations called out in the issue.
 
 The goal of this process is to reduce the time that a change could potentially have on production infrastructure to the smallest possible window. A side benefit of this process is to increase engineer familiarity with our monitoring tools, and develop more experience with predicting the outcomes of changes as they relate to infrastructure metrics.
 
@@ -361,7 +358,3 @@ Instead of waiting until the end of the milestone to add items to the retrospect
 Issues worked on by the Pipeline Security group have a group label of ~"group::pipeline security". Issues that contribute to the verify stage of the DevOps toolchain have the ~"devops::verify" label.
 
 You can tag a team member with `@mention` in the issue if you have someone specific to address. If you need to call the attention of the entire group, you can tag `@gitlab-com/pipeline-security-group` which notifies the entire team.
-
-## Developer Onboarding
-
-Refer to the [Developer Onboarding in Verify](/handbook/engineering/development/ops/verify/#developer-onboarding-in-verify) section.
