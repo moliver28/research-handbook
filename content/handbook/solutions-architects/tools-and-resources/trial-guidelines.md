@@ -79,38 +79,80 @@ Defining a schedule is helpful to make sure that the evaluation will complete on
   - Prepare the internal presentation to the final decision makers if they are not part of the trial team
   - Documenting the whole process with the goals, metrics and weekly progresses will improve collaboration among participants and facilitate the decision process at the end.
 
-### Requesting a Trial
+## Activating the Ultimate trial
 
-Both prospects and existing customers should request an Ultimate trial by going to the [GitLab Trial Landing Page](https://about.gitlab.com/free-trial), choosing SaaS or self-managed, and then following the provided instructions.
+The Ultimate trial is active for a duration of 30 days and can be requested for new GitLab users or existing GitLab customers on a Premium tier, both on GitLab.com and GitLab Self Managed.
+
+### I am new to GitLab
+
+- Head to the [Trial Landing page](https://about.gitlab.com/free-trial/) on the GitLab's marketing website
+- Choose between [SaaS](https://about.gitlab.com/free-trial/?hosted=sass) or [Self Managed](https://about.gitlab.com/free-trial/?hosted=self-managed)
+- Follow the instructions to set up your account
+- Choosing Self Managed will require some additional configuration as you will first need to install the instance 
+- Once the trial is activated, you will gain access to a free Ultimate tier trial
+
+### I already have a company account
+
+There are two options:
+
+#### Create a dedicated trial account
+
+Follow the previous instructions "I am new to GitLab" and create a new group for example "organization-trial".
+
+To populate the group with project data you can use the following methods:
+
+##### Use copies of your own existing groups/projects
+
+- [Copy Groups and Projects](https://docs.gitlab.com/ee/user/group/import/index.html)
+  - When copying from one GitLab.com namespace to another, you must copy all subgroups and projects. This is not recommended for customers with a large number of groups and projects.
+  - Only [these](https://docs.gitlab.com/ee/user/group/import/index.html#migrated-group-items) groups items are migrated, no others
+  - Only [these](https://docs.gitlab.com/ee/user/group/import/index.html#migrated-project-items) project items are migrated. Note these are the same project items that are migrated with file exports (described in the next section)
+- [Migrate Projects using file exports](https://docs.gitlab.com/ee/user/project/settings/import_export.html)
+  - Only [these](https://docs.gitlab.com/ee/user/project/settings/import_export.html#items-that-are-exported) project items are migrated.
+- [Project Forking](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html)
+  - This works like standard forking with a copy of the repository and branches
+  - You will not have access to a lot of the project items that you get with the previous two approaches
+- [Repository Mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/index.html)
+  - Any of the above approaches can be combined with mirroring to make sure that branches, tags, and commits are synced
+  - Items such as Merge Requests and issues are not synced
+
+##### Use GitLab Security demo projects
+
+GitLab provides a [set of security demos](https://gitlab.com/gitlab-org/security-products/demos) to show how the various security scans work.
+
+#### Trial in your existing account
+
+| Subscription type | Process |
+| ----------------- | ------- |
+| SaaS Free | In your account, go to Settings > Billing and request the trial |
+| SaaS Premium | GitLab recently added the possibility to trial Ultimate inside your existing SaaS Premium namespace. For now, there is no self-serve option to activate it. Please contact your Account Executive or [send a request](https://about.gitlab.com/sales/) |
+| Self Managed Community Edition | You first need to follow [these steps](https://docs.gitlab.com/ee/update/#community-to-enterprise-edition) to upgrade your instance to the Enterprise Edition. Then follow the steps from the [trial landing page](https://about.gitlab.com/free-trial/?hosted=self-managed) to get a free trial license key |
+| Self Managed Enterprise Edition Premium | We recommend first making sure you are on the latest version of GitLab Enterprise Edition for an optimal experience of the most recent features. If not, follow [these steps](https://docs.gitlab.com/ee/update/) to upgrade. Once on the latest version, contact your Account Executive or [send a request](https://about.gitlab.com/sales/) to receive a trial license key. |
+
+#### How do I choose?
+
+|  | Pros | Cons |
+|--|------|------|
+| Trial in a dedicated trial account | Focus on the use cases and functionalities to test in an isolated environment, limited to trial participants | Need to import and configure projects. On Self Managed, requires to configure a new instance and runners. |
+| Trial in your existing account | Nothing to configure, test the features within your existing workflow. Value can be seen by all users. | Could create confusion as users not involved in the trial may come across new functionalities associated with an enterprise edition of GitLab if these users are unaware that a trial is taking place. |
 
 ### Notes Regarding Trial Licenses
 
 - If a Premium Trial is required instead of an Ultimate trial, then the customer should request the trial license as defined above. Then the GitLab Account Executive must create a [GitLab Support Internal Request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) (Internal) in order to downgrade the Trial license from Ultimate to Premium. Use either the **GitLab Support Internal Requests for Global customers** or **GitLab Support Internal Requests for Federal customers** request option, then select the **Self-Managed Trial related - Modify an existing Self-managed trial** request type. GitLab Support will create a Premium license and email it to the user.
 
-## Trial Guidelines
-
-### Existing SaaS Customers
-
-A trial license cannot be added to an existing licensed SaaS namespace.  Since some features such as project and group access tokens are not available with a trial license, using a separate trial namespace ensures data integrity of production data and reduces confusion for end users in the production instance.  SaaS customers should create a new namespace for their trial and use one of the options in the next section to populate data into the namespace. To create a new namespace, you should login to gitlab.com and [create a new top-level group](https://docs.gitlab.com/ee/user/group/manage.html#create-a-group).  If your production group name is `ACME123` and you want your trial group to be `ACME123-trial`, then the trial group URL should be `https://gitlab.com/ACME123-trial`, **not** `https://gitlab.com/ACME123/ACME123-trial`.
-
 SaaS trials have the following limitations:
 
-- GitLab shared runners available (with credit card verification) but the number of minutes is limited.  If additional minutes are required, the [GitLab Sales team](https://about.gitlab.com/sales/) can request an increase on the customer's behalf.
+- If you are activating the trial as a new or Free GitLab user, there will be no access to customer support during the trial.
+- GitLab shared runners available (with credit card verification) but the number of minutes is limited.  If additional minutes are required, the [GitLab Sales team](https://about.gitlab.com/sales/) can request an increase on the customer's behalf. Trialing in a dedicated SaaS group will be limited to 400 CI compute minutes per month.
 - Only one [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) is available with a trial license and [Group Access Tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) are not available on a trial license.
 
-### Existing Self-Managed Customers
-
-While self-managed customers are not prevented from trialing a higher tier license on their production instance, it is strongly discouraged.  Adding a higher tier trial license will confuse end users who may not be aware of which features are a trial vs available for ongoing production use.  Using a separate self-managed instance for a trial will prevent this confusion and ensure data integrity of production data is preserved. Alternatively, existing self-managed GitLab customers have the option to trial higher tier features in SaaS.
-
-If a customer decides to activate a trial on an existing instance, they will need to [add the trial license](https://docs.gitlab.com/ee/administration/license_file.html) to their instance.  Once the trial license has expired, the instance will revert back to the non-expired production license.
-
-Customers who choose a self-managed trial will need to install a single node [Omnibus instance](https://docs.gitlab.com/omnibus/) and start the trial there.  After completing the self-managed trial form, they will receive an email with additional instructions for getting starting with the trial.
+If you are an existing Premium customer on GitLab SaaS and trialing Ultimate in your current namespace, the above limitations do not apply.
 
 ### Extending an Existing Trial
 
 All internal requests regarding licensing, subscriptions, trials, and grace period extensions should be filed using [the GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Customers should not be cc'd on Internal Requests.
 
-Once you access the form, enter your email and choose "GitLab L&R Internal Request for Global Customers" or "GitLab L&R Internal Request for US Federal Customers" to renew and extend a trial license.
+Once accessed the form, enter the email and choose "GitLab L&R Internal Request for Global Customers" or "GitLab L&R Internal Request for US Federal Customers" to renew and extend a trial license.
 
 Note you also need to have [Zendesk Light Agent account](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) before you make this request.
 
@@ -119,33 +161,37 @@ References
 - [Support Internal Requests](/handbook/support/internal-support/#internal-requests)
 - [Support Super Form](/handbook/support/readiness/operations/docs/gitlab/support_super_form/)
 
-### Populating your group with project data
+## Trialing GitLab Duo Pro (AI)
 
-- When determining which projects to import into the trial namespace, we recommend considering the following criteria:
-  - Use copies of your own existing groups/projects - see [General Approaches](#general-approaches) below
-  - Use GitLab Security demo projects - GitLab provides a set of [security demos](https://gitlab.com/gitlab-org/security-products/demos) to show how the various security scans work
+The Duo Pro add on can only be purchased by paid Premium and Ultimate customers. The Duo Pro trial is available for up to 60 days.
 
-- Only one [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) is available with a trial license and [Group Access Tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) are not available on a trial license
+New users can trial in GitLab.com after first requesting an Ultimate trial.
+It is not possible to trial Duo Pro in Self Managed instances with Community Edition or Enterprise Edition without a license (Free).
 
-#### General Approaches
+| Subscription type | Process |
+| ----------------- | ------- |
+| I am new to GitLab | Follow the instructions above to create your GitLab.com account and request an Ultimate trial. Then follow [these instructions](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#start-gitlab-duo-pro-trial). |
+| SaaS Premium | Follow these instructions to request a trial and assign the seats. |
+| Self Managed Community Edition / Self Managed Enterprise Edition Free  | To trial Duo Pro, you will need to create a GitLab.com account dedicated to the trial (follow the “I am new to GitLab” instructions). Note: you do not have to add projects in this account to trial Duo Pro features in your IDE. Simply generate a [personal access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) to configure the supported [IDE extension](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/supported_extensions.html). You will be able to use [Code Suggestions](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) and [Duo Chat](https://docs.gitlab.com/ee/user/gitlab_duo_chat/). However, AI features implemented in the UI such as [Repository X-ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray.html) will not be available.   |
+| Self Managed Enterprise Edition Premium | Request a trial using [this online form](https://about.gitlab.com/solutions/gitlab-duo-pro/self-managed-and-gitlab-dedicated-trial/) and follow [these instructions](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#on-self-managed-and-gitlab-dedicated). |
 
-- [Copy Groups and Projects](https://docs.gitlab.com/ee/user/group/import/index.html)
-  - When copying from one GitLab.com namespace to another, you must copy all subgroups and projects.  This is not recommended for customers with a large number of groups and projects.
-  - Only [these](https://docs.gitlab.com/ee/user/group/import/index.html#migrated-group-items) groups items are migrated, no others
-  - Only [these](https://docs.gitlab.com/ee/user/group/import/index.html#migrated-project-items) project items are migrated. Note these are the same project items that are migrated with file exports (described in the next section)
-- [Migrate Projects using file exports](https://docs.gitlab.com/ee/user/project/settings/import_export.html)
-  - Only [these](https://docs.gitlab.com/ee/user/project/settings/import_export.html#items-that-are-exported) project items are migrated. Note these are the same as above even if the lists look a little different.
-- [Project Forking](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html)
-  - This works like standard forking with a copy of the repository and branches
-  - You will not have access to a lot of the project items that you get with the previous two approaches
-- Added strategies
-  - [Repository Mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/index.html)
-    - Any of the above approaches can be combined with mirroring to make sure branches, tags, and commits are synced
-    - Items such as Merge Requests and issues are not synced
-- What to set up
-  - [Autobuild](https://docs.gitlab.com/ee/topics/autodevops/stages.html#auto-build) will use a Dockerfile contained in the project root directory or cloud native build packs to detect the application type and build it
-  - Since some project configurations like CI/CD variables, container and package registries, and tokens, do not get imported some suggestions are as follows
-    - [SAST](https://docs.gitlab.com/ee/user/application_security/sast/), [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/), and [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) can be run without building your project. Simply add them to the CI file and comment out any build / deploy sections if they cannot be set up again
-    - [Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/) - needs an application built into a container and pushed to the container registry, usually created via a build job that precedes the container scanning job, but does not require a deploy job
-  - In order to validate [DAST](https://docs.gitlab.com/ee/user/application_security/dast/) or [web api fuzz testing](https://docs.gitlab.com/ee/user/application_security/api_fuzzing/), you must have a deployed application available to scan.  You might want to [connect a Kubernetes cluster](https://docs.gitlab.com/ee/user/clusters/agent/) to make evaluating these features easier.
-- For customers wanting to evaluate portfolio and project planning, they can view the [GitLab Organization](https://gitlab.com/groups/gitlab-com/) to view the epic list and boards, roadmap, milestones, and other portfolio features.  Note: some features are only available to logged in users.
+## Learning how to use the platform
+
+No matter if you are using GitLab for the first time or willing to improve your current usage, these resources will help you get started. Learning best practices will help you gain proficiency during your trial:
+
+- Go through the extensive [documentation](https://docs.gitlab.com/) and review the [tutorials](https://docs.gitlab.com/?tab=Tutorials)
+- [GitLab University](https://university.gitlab.com/): A collection of trainings and certifications (both free and paid)
+- [GitLab Youtube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg): Find demos, use cases, recorded webinars and more 
+- [The resource page](https://about.gitlab.com/resources/) for reports, ebooks, webcast, etc
+- [GitLab Blog](https://about.gitlab.com/blog/): search for topics of interest including tips, use cases, etc
+- [Join the community](https://about.gitlab.com/community/) and become a member through various programs
+- Ask your questions and find answers from existing GitLab users on the [GitLab Forum](https://forum.gitlab.com/)
+- If you are already a Premium customer, you can get help from the support team
+
+## What happens once the trial ends?
+
+If you are trialing on your Premium SaaS Namespace or Premium Self Managed instance, once the free Ultimate trial expires, the account will downgrade back to Premium.
+
+If you are trialing in a new namespace or instance, the account will downgrade back to the Free tier. No data will be lost, but [paid features will not be accessible anymore](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#subscription-expiry).
+
+If you are satisfied and wish to purchase or upgrade, you can do so [on GitLab.com inside your account](https://docs.gitlab.com/ee/subscriptions/gitlab_com/). For Self Managed, you can [purchase the subscription and receive an activation code.](https://docs.gitlab.com/ee/subscriptions/self_managed/#obtain-a-self-managed-subscription)
