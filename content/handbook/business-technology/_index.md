@@ -25,11 +25,11 @@ Provide a stable, secure, compliant and highly integrated solutions ecosystem to
 4. **Lead With Data:** Our teams have tier 1 metrics to define success. Create strong business processes and systems that capture data. Use the data to drive optimal business decisions across GitLab.
 5. **GitLab for GitLab:** We keep to our core values and the belief that everyone can contribute, we are committed to dogfooding, actively use, give feedback and contribute to the development of the GitLab our product.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Our Funtional Structure
+## <i class="fas fa-users" id="biz-tech-icons"></i> Our Functional Structure
 
 | [IT PMO](../business-technology/pmo/) | [Architecture, Integrations & Automation](../business-technology/enterprise-applications/integrations/) | [G&A Systems](../business-technology/enterprise-applications/finance-ops/) & [CRM Systems](../business-technology/enterprise-applications/entapps-crm/) | [Services & Operations](../business-technology/enterprise-applications/entapps-services/) |
 | ------ | ------ | ------ | ------ |
-| - IT Strategy & Planning<br>- AOP & Budget Management<br> - Portfolio & Project Management<br> - Business Analysis | - Enterprise & Applications Architecture<br>- Integrations | - Application Management - GTM, L2C, ERP, HCM<br>- Application Engineering<br> - Systems Administration<br> - Data & Application Reporting | - Global Support Services<br>- RPA and AI Operations<br> - Vendor Management<br> - IT Compliance & Governance (SOX & Security Compliance) |
+| <li> IT Strategy & Planning</li> <li>AOP & Budget Management</li><li>Portfolio & Project Management</li><li>Business Analysis</li> | <li> Enterprise & Applications Architecture</li> <li>Integrations | <li>Application Management</li><li>GTM, L2C, ERP, HCM</li> <li>Application Engineering</li><li>Systems Administration</li><li>Data & Application Reporting | <li>Global Support Services</li><li> RPA and AI Operations</li><li>Vendor Management</li><li>IT Compliance & Governance (SOX & Security Compliance) |
 
 ## <i class="fas fa-hands-helping" id="biz-tech-icons"></i> What do we do?
 
@@ -100,11 +100,10 @@ Provide a stable, secure, compliant and highly integrated solutions ecosystem to
          - Open a [Zuora Central Sandbox Refresh issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) using the Sandbox - Zuora Central Refresh template.
 
 5. **Partnerships & Collaborations with:**
-    - [Security Team](../security/): Conform to the established cybersecurity framework and requirements
-    - IT Operations 
     - [Data Team](../business-technology/data-team/): Empower and generate business value from our data assets by using the data to drive optimal business decisions across GitLab.
     - [Procurement Team](../finance/procurement/)  
-    - People Operations Systems Team
+    - [People Operations Systems Team](../people-group/people-ops-tech-analytics/)
+    - [Security Team](../security/): Conform to the established cybersecurity framework and requirements
 
 6. **Join Our Team** - [Current Job Openings](https://about.gitlab.com/jobs/all-jobs/#general-administrative)
 
@@ -114,6 +113,6 @@ Provide a stable, secure, compliant and highly integrated solutions ecosystem to
         - #[enterprise-apps](https://gitlab.slack.com/archives/CCPG8P3K4)
         - #[business-technology](https://gitlab.slack.com/archives/C01BLS12V37)
 
-8. **Other Reference**
+8. **Other References**
     - [Quote to Cash Documentation](../business-technology/enterprise-applications/quote-to-cash/)
     - [Enterprise Application Guides:](../business-technology/enterprise-applications/guides/) GitLab's Enterprise Application Guides for Finance Systems
