@@ -31,7 +31,7 @@ System risk scores are based on the number of open observations associated with 
 
 A count of all open observations mapped to the related system is multiplied by the corresponding weight value above and that is added to the base risk of `1`. This results in a decimal value for system risk score. That score will be rounded to 2 decimal places. Because system risk is tied to open observation, the remediation of associated observations will have a direct and immediate impact on the corresponding system risk score. If a high risk observation is partially remediated and some of the risk is mitigated, the related observation risk rating will be adjusted and that will immediately reflect in the system risk score.
 
-This approach takes a "pure count" approach where a score is calculated for a system based on pure count of observations mapped to it in our GRC tool ZenGRC, even if the observation may also be mapped to another system as well (1:many mappings are OK). Observations are also not consolidated for calculation, meaning we do not group multiple observations for one control together into one for purposes of calculating a score if each observation could be treated independently in remediation.
+This approach takes a "pure count" approach where a score is calculated for a system based on pure count of observations mapped to it in our GRC tool, even if the observation may also be mapped to another system as well (1:many mappings are OK). Observations are also not consolidated for calculation, meaning we do not group multiple observations for one control together into one for purposes of calculating a score if each observation could be treated independently in remediation.
 
 ##### Target System Risk Score
 

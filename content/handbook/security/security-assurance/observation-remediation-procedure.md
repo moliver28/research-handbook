@@ -125,13 +125,13 @@ flowchart TD
     B --> C[ELC]
     B --> D(Observation Epic)
     C --> E{Does a Risk<br>already exist?}
-    E --> |Yes| F[Map related Risk in ZenGRC,<br>update into risk info if appropriate]
-    E --> |No| H[Follow ZenGRC Risk<br>Runbook for new risks]
+    E --> |Yes| F[Map related Risk,<br>update into risk info if appropriate]
+    E --> |No| H[Follow Risk<br>Runbook for new risks]
     H --> G(Risk is treated and<br>managed in StORM Program)
     F --> G
     D --> J{Does a Risk<br>already exist?}
-    J --> |Yes| K[Map related Risk in ZenGRC,<br>update into risk info if appropriate]
-    J --> |No| L[Follow ZenGRC Risk<br>Runbook for new risks]
+    J --> |Yes| K[Map related Risk,<br>update into risk info if appropriate]
+    J --> |No| L[Follow Risk<br>Runbook for new risks]
     L --> M(Work with SecComp<br>on Remediation)
     K --> M
 ```
