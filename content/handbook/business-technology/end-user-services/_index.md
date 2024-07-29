@@ -6,10 +6,10 @@ title: "End User Services"
 
 ## <i class="far fa-paper-plane" id="biz-tech-icons"></i> How to reach out to us?
 
-<div class="flex-row" markdown="0" style="height:100px;justify-content:flex-start;">
-  <a href="https://gitlab.com/gitlab-com/it/end-user-services/issues/it-help-issue-tracker/-/issues/new?issuable_template=General_HelpDesk_Request" class="btn btn-purple-inv" style="width:170px;margin:5px;height:100%;display:flex;align-items:center;justify-content:center;">Open an issue</a>
-  <a href="https://gitlab.slack.com/archives/CK4EQH50E" class="btn btn-purple-inv" style="width:170px;margin:5px;height:100%;display: flex;align-items:center;justify-content:center;">#it-help in slack</a>
-  <a href="https://www.worldtimebuddy.com/?pl=1&lid=4143861,4726206,2964574,2158177&h=4143861" class="btn btn-purple-inv" style="width:170px;margin:5px;height:100%;display: flex;align-items:center;justify-content:center;">What timezone are we located in?</a>
+<div class="flex-row" style="display: flex; flex-wrap: wrap; height: auto; justify-content: space-between;">
+  <a href="https://gitlab.com/gitlab-com/it/end-user-services/issues/it-help-issue-tracker/-/issues/new?issuable_template=General_HelpDesk_Request" class="btn btn-purple-inv" style="flex: 1 1 150px; margin: 5px; height: auto; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">Open an issue</a>
+  <a href="https://gitlab.slack.com/archives/CK4EQH50E" class="btn btn-purple-inv" style="flex: 1 1 150px; margin: 5px; height: auto; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">#it-help in slack</a>
+  <a href="https://www.worldtimebuddy.com/?pl=1&lid=4143861,4726206,2964574,2158177&h=4143861" class="btn btn-purple-inv" style="flex: 1 1 150px; margin: 5px; height: auto; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">What timezone are we located in?</a>
 </div>
 
 ## <i class="fas fa-info-circle" id="biz-tech-icons"></i> Frequently visited pages
