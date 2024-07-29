@@ -1,5 +1,6 @@
 ---
 title: "Observation Remediation Procedure"
+description: "This procedure details the remediation process for observations."
 ---
 
 ## Purpose
