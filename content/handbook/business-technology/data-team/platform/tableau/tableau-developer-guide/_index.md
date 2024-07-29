@@ -72,6 +72,23 @@ In the following window, be sure to check the box for 'Embed Credentials'.
 
 </details>
 
+### Workflow for Embedding Your Rolename to Avoid Errors in Published Dashboards
+
+This is the process for ensuring that your rolename is properly embedded into your published dashboards. This has two key steps, and following them in this order can help avoid the following two errors:
+
+1. A user tries to access your published dashboard and is instead met with an error window asking them to login to Snowflake.
+1. Another analyst tries to quickly check your data source in Cloud, to see how it is built or to see how the custom SQL is constructed.
+
+The first place that you get the option to embed your rolename is when you first form a connection to your datasource. It looks like this:
+
+![Connection](images/initial_connection_rolename.png)
+
+If you want other people to be able to access your data source, you need to leave it blank. There is no reason to enter your rolename at this step, you will do it at a later step, so the proper workflow is to leave it blank at this step.
+
+From here, set up your datasource and develop as you would like. Then, when you are ready, publish your workbook/datasource. This is where you will follow the steps from the [start of this section](.../tableau-developer-guide/#connection-types-in-workbooks) for embedding your rolename as you publish the workbook. 
+
+If you forget to embed your rolename at this step, then your users will be asked to sign into Snowflake or otherwise send an error instead of letting them access the dashboard.
+
 ## Embedding in the Handbook
 
 In order for views from workbooks to be embedded and viewable in the handbook, public or internal, the workbook and their data sources must be prepared in a specific way. To be embedded in the public handbook the workbook and relevant datasource must be copied from the [internal GitLab Tableau](https://10az.online.tableau.com/#/site/gitlab) site to the [public GitLab Tableau](https://us-west-2b.online.tableau.com/#/site/gitlabpublic) site. To facilitate correct viewing of embedded views and the synchronization of content to the public site, workbooks must be set up in a specific way and given a specific tag.  Views that are meant to be embedded on the internal site do not need to be in a specific project, but should still meet the set up guidelines.
