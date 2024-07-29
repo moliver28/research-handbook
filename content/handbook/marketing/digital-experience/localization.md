@@ -79,6 +79,8 @@ Right now, each Marketo form ID is unique per every locale. We are looking into 
 
 The global gateway is crucial for creating a positive first impression by presenting content in users' native languages, fostering trust and ensuring seamless navigation. It enhances user experience by directing them to localized marketing sites and correctly localized product sign-up paths. 
 
+Our FY25 goal for the marketing site Global Gateway is to create a more personalized and effective marketing experience for users worldwide, ultimately driving better engagement and business outcomes. We will measure engagement and business outcomes with Google Analytics and Tableau. 
+
 #### Language Selector
 
 The language selector is a feature implemented in the Navigation repository that allows users to choose their preferred language for viewing GitLab. Here' is the [language.service.ts](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation/-/blob/main/src/services/language.service.ts?ref_type=heads)
