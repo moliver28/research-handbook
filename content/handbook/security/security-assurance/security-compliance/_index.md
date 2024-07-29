@@ -55,7 +55,7 @@ Work that overlaps with other teams including Dedicated Compliance can be found 
 
 We also utilize external tooling including:
 
-- ZenGRC: control testing and observations
+- Hyperproof: control testing and observations
 - Authomize: User access review campaigns
 
 ## How we work
