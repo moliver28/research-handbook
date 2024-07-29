@@ -1,5 +1,6 @@
 ---
 title: "System Risk Scoring Procedure"
+description: "This procedure details the process for determining System Risk Score."
 ---
 
 ## Purpose
