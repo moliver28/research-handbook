@@ -2011,7 +2011,7 @@ We dogfood GitLab to document product strategy and feature requests.
 - [Tasks](https://docs.gitlab.com/ee/user/tasks.html) (optional): Decompose an Issue into more detailed implementation steps.
 - [Epics](https://docs.gitlab.com/ee/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete. 
 - [Boards](https://docs.gitlab.com/ee/user/project/issue_board.html): Aid in visualizing work moving through the [product development flow](/handbook/product-development-flow/_index.md) and for milestone planning. 
-- [Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/): Aid in visualizing epics a timeline view.
+- [Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/): Aid in visualizing epics in a timeline view.
 
 ### Issues
 
@@ -2021,7 +2021,7 @@ We use issues to define narrowly scoped items of work to be done. Issues can foc
 
 You should create an issue if:
 
-- There isn't already an issue for what you're intending to write. Search first.
+- There isn't already an issue for what you're intending to write. Search first
 - A feature is mentioned in chat channels like `#product`, `#competition` or elsewhere
 - A customer requests a particular feature
 
@@ -2041,38 +2041,23 @@ to see if a similar issue already exists. We shouldn't create duplicates if we c
    - [Lean feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md) and for all feature enhancements that will get proposals and potentially become release post items.
    - [Feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md) for large new features that may require more information or details and will become release post items.
    - [Bug](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Bug.md) to report undesirable or incorrect behavior.
-1. 
 1. Do not
     - assign someone to the issue
     - assign a milestone
     - set a due date
     - add weight - weight represents the technical complexity and should be
     defined by our developers
+1. Assign labels for [work type classification](/handbook/engineering/metrics/#work-type-classification). 
 1. Leave a comment and tag the product manager to triage the issue. 
 Mentioning someone in an issue comment will trigger the notification mechanisms
 chosen by the people who are mentioned - therefore there is no need to notify
 people in another channel after the issue has been created (Slack, email).
 
-GitLab product issues will often have one of the three [type labels](https://docs.gitlab.com/ee/development/labels/index.html#type-labels) `~"type::bug"`, `~"type::feature"`, or `~"type::maintenance"`. Features can be further clarified as:
-
-- `~feature::addition` - Refers to the first MVC that gives GitLab users a foundation of new capabilities that were previously unavailable. For example, these issues together helped create the first MVC for our Reviewer feature:
-  - [Create a Reviewers sidebar widget](https://gitlab.com/gitlab-org/gitlab/-/issues/237921)
-  - [Show which reviewers have commented on an MR](https://gitlab.com/gitlab-org/gitlab/-/issues/10294)
-  - [Add reviewers to MR form](https://gitlab.com/gitlab-org/gitlab/-/issues/216054)
-  - [Increase MR counter on navbar when user is designated as reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/255102)
-- `~feature::enhancement` - Refers to GitLab user-facing improvements that refine the initial MVC to make it more useful and usable. For example, these issues enhance the existing Reviewer feature:
-  - [Show MRs where user is designated as a Reviewer on the MR list page](https://gitlab.com/gitlab-org/gitlab/-/issues/237922)
-  - [Display which approval rules match a given reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/233736)
-  - [Add Reviewers quick action](https://gitlab.com/gitlab-org/gitlab/-/issues/241244)
-
-There are also other higher precedence labels, as documented by [Engineering Metrics](/handbook/engineering/metrics/#data-classification).
-
-When considering whether an issue is [a missing feature or a bug](/handbook/product/product-processes/#issues), refer to the [definition of an MVC](/handbook/values/#minimal-viable-change-mvc) and [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done) for general guidance that works well in most cases. If in doubt - think from our customer's perspective - not our internal one - focus on whether it is valuable for our customers and should be prioritized. In the long run it won't matter whether we called it a bug or a feature -what would matter is if we focused on the right things to deliver to our users. Remember that bug fixes can be fast and iterative. See an example where the Package team found, researched, designed, implemented, and merged a small fix in 24 hours, while also planning a longer-term fix to follow.
-
 ##### Feature issues
 
 Feature issues identify work to support the implementation of a feature and/or results in an improvement in the user experience.
 
+- When considering whether an issue is [a missing feature or a bug](/handbook/product/product-processes/#issues), refer to the [definition of an MVC](/handbook/values/#minimal-viable-change-mvc) and [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done) for general guidance that works well in most cases.
 - If there is doubt about whether you could expect something to be there or work, it's a missing feature.
 - We iterate to deliver features, so we often don't have functionality that people expect. For this reason, 'people could reasonably expect this functionality' does not make it a bug.
 - Whether the code results in user facing updates or not, if it is part of building the feature it should be labeled as such.
@@ -2092,47 +2077,6 @@ Bug issues report undesirable or incorrect behavior, such as:
 - A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labeled as `~"type::bug"` and `~"bug::vulnerability"`.
 - Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#severity-labels) for classifying a bug as `severity::1`.
 
-#### Issue state
-
-When an issue is open, this signals that we're intending or considering implementing that change.
-It's important to close issues that we're not considering implementing in the near future,
-so that we avoid creating uncertainty with customers and colleagues.
-
-When closing an issue for this reason, make sure to update the issue body and leave a comment
-explaining why the issue is being closed. Issues can be reopened if we change our stance on them.
-
-##### When to close an issue
-
-To clearly communicate to our stakeholders what we are going to do, it's critical that you not only
-provide the positive view (what we will do), but also articulate the negative view (what we will not
-do). While this should be communicated in stage and category strategies,
-it starts with issues:
-
-As a Product Manager you should close issues that are:
-
-1. Duplicated elsewhere.
-1. No longer relevant due to other reasons.
-1. 'Not the next iteration': an iteration on a proposed feature that is unlikely to ship in the next few months.
-1. 'Won't do': An issue that we have [no intention of implementing](https://gitlab.com/gitlab-org/gitlab-ce/issues/12736#note_50662947), because it does not fit within or is antithetical to our [vision](https://about.gitlab.com/direction/#product-vision), it presents a security risk, or other reasons you outline in the issue.
-
-When closing an issue, leave a comment explaining why you're closing the issue, and link
-to anything of relevance (the other duplicate, the original feature that this is an iteration on, etc).
-
-The 'not the next iteration' issues are the most important ones to resolve.
-It is very easy to create a large, comprehensive change with meta issues and lots of improvements,
-but it is essential that we iterate and ship the _minimal viable_ change.
-We have to ship the iteration, wait for it to be used, and ask for feedback.
-As a product manager, you must think about the bigger picture when making a proposal to improve the product.
-It's important to avoid writing this down as a bunch of issues.
-Come up with a direction, but only record the first step.
-This way we can preserve the efficiency of [our value of iteration](/handbook/values/#iteration).
-Closing issues whenever possible is an important part of your job and helps to keep a clear view of what is next.
-Consider using the following template to close an issue:
-
-> Closing this because XXX is something we should do first. When that feature is
-> finished, we can learn from observing it in use. If we learn that this issue is
-> still relevant, we can then reopen it. See /handbook/product/product-processes/#issues
-> for more detail about this policy.
 
 ### Epics
 
@@ -2149,37 +2093,75 @@ This epic should have a start and an end date, and it should not span more than
 When these issues are finished and closed, we should have successfully achieved the
 epic's goal. A good example of this kind of epic is the first iteration on a new
 feature. Epics representing MVCs should clearly state `MVC` at the end of the
-title and should have a parent epic relationship towards a category strategy or a meta epic.
+title and should have a parent epic relationship towards a category strategy or a meta epic. 
+
+### Epics for multiple iterations
+
+Multi-level Epics can be used to track features that will require multiple iterations to fully implement. These epics typically don't have a specific end date, as they represent an ongoing area of development. However, they should still have a clear goal and definition of success.
+
+Some examples of multi-iteration epics include:
+
+- Category strategy epics that outline the long-term vision for a product area
+- Epics for large, complex features that will be built incrementally over time
+
+When creating a multi-iteration epic:
+
+1. Clearly define the overall goal and success criteria
+2. Break down the work into smaller, manageable iterations or phases
+3. Create child epics or issues for each iteration
+4. Regularly review and update the epic as work progresses and priorities change
+
+It's important to balance between having a long-term vision and maintaining flexibility to adapt based on user feedback and changing priorities. Regularly reassess multi-iteration epics to ensure they still align with product strategy and user needs.
 
 #### Meta epics for longer term items
 
-We use epics to track many issues related to a specific topic, even if there
+To categorize issues and epics into themes or longer running items, we recommend using labels. You can also use epics to track many issues related to a specific topic, even if there
 isn't a specific timeline for shipping. These epics should be marked as ~meta, they
-may not have a specific start or end date, and may contain single iteration epics.
+may not have a specific start or end date, and may contain single iteration epics. This approach can be problematic due to epics and issues within a meta epic may need to be re-parented to represent a work breakdown structure and then lose the meta epic relationship. 
 
-This is useful to have an overview of the future so participants and observers can
-understand how the pieces fit together. It can be really useful to understand the
-context of where we think we're going so we can do a good job with the MVC.
+#### Work item state
 
-Also, it conveys confidence internally and externally that we understand what
-we need to do when the MVC is particularly minimal. But don't get too caught up
-in long-term epics as you risk making proposals too complex, and overrepresenting
-certainty in the solution. Don't work too far in the future; we'll know better
-once we ship something small.
+When an issue or epic is open, this signals that we're intending or considering implementing that change.
+It's important to close items that we're not considering implementing in the near future,
+so that we avoid creating uncertainty with customers and colleagues.
 
-When creating a meta epic, there's a natural tendency to capture it as quickly
-as possible and then move on, but we must always strive to create a more
-specific epic for the first iteration, or the next iteration if something
-already exists. Describing an MVC means that the community can contribute more
-easily. Also, after distilling things down to a first iteration, you might
-realize it's a lot easier than you thought, and prioritize it earlier. You can
-have an MVC without a meta issue. But **you can't have a meta issue without an MVC**.
+##### When to close an issue or epic
+
+To clearly communicate to our stakeholders what we are going to do, it's critical that you not only
+provide the positive view (what we will do), but also articulate the negative view (what we will not
+do). While this should be communicated in stage and category strategies,
+it starts with your work items (issues, epics and tasks):
+
+As a Product Manager you should close work items that are:
+
+1. Duplicated elsewhere.
+1. No longer relevant.
+1. 'Not the next iteration': an iteration on a proposed feature that is unlikely to ship in the next year.
+1. 'Won't do': An issue that we have [no intention of implementing](https://gitlab.com/gitlab-org/gitlab-ce/issues/12736#note_50662947), because it does not fit within or is antithetical to our [vision](https://about.gitlab.com/direction/#product-vision), it presents a security risk, or other reasons you outline in the issue.
+
+When closing a work item, leave a comment explaining why you're closing it, and link
+to anything of relevance (the other duplicate, the original feature that this is an iteration on, etc).
+
+The 'not the next iteration' work items are the most important ones to resolve.
+It is very easy to create a large, comprehensive change with meta items and lots of improvements,
+but it is essential that we iterate and ship the _minimal viable_ change.
+We have to ship the iteration, wait for it to be used, and ask for feedback.
+As a product manager, you must think about the bigger picture when making a proposal to improve the product.
+It's important to avoid writing this down as a bunch of work items.
+Come up with a direction, but only record the first step.
+This way we can preserve the efficiency of [our value of iteration](/handbook/values/#iteration).
+Closing work items whenever possible is an important part of your job and helps to keep a clear view of what is next.
+Consider using the following template to close an issue:
+
+> Closing this because XXX is something we should do first. When that feature is
+> finished, we can learn from observing it in use. If we learn that this issue is
+> still relevant, we can then reopen it. See /handbook/product/product-processes/#issues
+> for more detail about this policy.
 
 ### Roadmaps
 
-You should strive to maintain an updated Epic [roadmap](https://docs.gitlab.com/ee/user/group/roadmap/)
-for your group (here's [an example](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=group%3A%3Ageo)). This can take considerable effort but doing so will ensure
-your issues are well organized according to the principles laid out below.  You should also maintain a roadmap in your direction page that serves as the SSOT.  There are additional guidelines in the [Managing Your Product Direction Section](/handbook/product/product-processes/#managing-your-product-direction).
+A [roadmap](https://docs.gitlab.com/ee/user/group/roadmap/)
+for your group can aid in tracking timeline oriented long-running efforts (here's [an example](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=group%3A%3Ageo)). This can help keep work well organized, track progress and surface dependencies.
 
 ### Boards
 
@@ -2190,9 +2172,7 @@ to all issues with your group label and with each milestone as a column (here's 
 
 As the [DRI](/handbook/people-group/directly-responsible-individuals/) for [milestone prioritization](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) it is your responsibility to ensure that all items on your Planning board are scheduled to a milestone#milestones and are prioritized both
 within and across milestones. This means the lowest priority in the current milestone would generally be the top priority in the next milestone.
-
 In this regard your planning exercise is a complete prioritization of the near term issues.
-
 ## Life Support PM Expectations
 
 When performing the role of Life Support PM only the following are expected:
