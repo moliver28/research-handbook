@@ -1772,50 +1772,6 @@ to this paragraph for the person picking this up to follow
 - If GitLab does not have this feature yet, link to the issue you created
 - Finish the thread with a link to the commit and issue
 
-### How and when to reject a feature request
-
-Rejecting a feature request or a merge request is not an easy thing. People can
-feel quite protective of their ideas. They might have invested a lot of time and
-energy in writing those ideas. You can be tempted to accept a feature only to
-avoid hurting the people who thought of it. Even Worse, if you reject an idea too
-harshly, you might discourage other people to contribute, which is something we
-should strive to avoid.
-
-However, as the number of issues and merge requests grows incessantly, we should
-be diligent about rejecting features we are sure will not work out. It's better for
-everyone: for the product team, so we don't maintain a huge backlog of things we
-will never do anyway, and for the users who won't have to wait for our feedback
-indefinitely.
-
-Note: it's fine to not respond to issues that we think have potential until they
-gather momentum.
-
-Feature requests and merge requests can be rejected for the following reasons:
-
-- Not within our scope: the Direction page [lists all the areas](https://about.gitlab.com/direction/#scope)
-where GitLab, the product, won't go. Point the issue's author to this article
-and close the issue.
-- We don't want another setting: whenever we can, we try to avoid having settings.
-Some settings are unavoidable, but most aren't. Ask the user to change how she
-approaches the feature in order to get rid of the setting.
-- Too complex: We want to have a simple, user-friendly product that does complex
-things, not the other way around. Tell the user to take a step back and think
-about the problem to be solved in the first place. Offer directions on
-what could be done instead. If she's not willing to do it, indicate that you will
-have to close the issue/merge request because it will go nowhere.
-- Brings an Enterprise exclusive feature to the Community Edition: this problem
-is already addressed in the [Stewardship page](/handbook/company/stewardship/#contributing-an-existing-ee-feature-to-ce).
-Indicate that we will investigate whether the feature can be ported to the
-Community Edition, discuss it with other teams members and come back to the user
-in a timely fashion.
-- Low priority: sometimes features are interesting but we simply don't have the
-capacity to implement them. In that case, simply tell the truth and indicate that
-we don't have enough resources at our disposal to do it at the moment.
-
-Don't forget to thank the authors for the time and effort taken to submit the
-feature request/merge request. In all cases and without exception, you should be
-nice and polite when interacting with users and customers.
-
 #### Reaching out to specific users or accounts based on GitLab usage
 
 You may want to interview a specific account because they are exhibiting atypical usage patterns or behaviors. In this case, [request Support to contact GitLab.com user(s) on your behalf](../../support/internal-support/#gitlab-changes-and-contacting-users).
@@ -2129,17 +2085,17 @@ so that we avoid creating uncertainty with customers and colleagues.
 To clearly communicate to our stakeholders what we are going to do, it's critical that you not only
 provide the positive view (what we will do), but also articulate the negative view (what we will not
 do). While this should be communicated in stage and category strategies,
-it starts with your work items (issues, epics and tasks):
+it starts with your work items (issues, epics and tasks). Rejecting a feature request or a merge request is not an easy thing. People can feel quite protective of their ideas. They might have invested a lot of time and energy in writing those ideas. You can be tempted to accept a feature only to avoid hurting the people who thought of it. Even Worse, if you reject an idea too harshly, you might discourage other people to contribute, which is something we should strive to avoid.
 
-As a Product Manager you should close work items that are:
+As a Product Manager you should close work items for the following reasons:
 
-1. Duplicated elsewhere.
-1. No longer relevant.
-1. 'Not the next iteration': an iteration on a proposed feature that is unlikely to ship in the next year.
-1. 'Won't do': An issue that we have [no intention of implementing](https://gitlab.com/gitlab-org/gitlab-ce/issues/12736#note_50662947), because it does not fit within or is antithetical to our [vision](https://about.gitlab.com/direction/#product-vision), it presents a security risk, or other reasons you outline in the issue.
-
-When closing a work item, leave a comment explaining why you're closing it, and link
-to anything of relevance (the other duplicate, the original feature that this is an iteration on, etc).
+1. Duplicated elsewhere
+1. Does not fit within or is antithetical to our [vision](https://about.gitlab.com/direction/#product-vision), it presents a security risk, or other reasons you outline in the issue.
+1. Too complex: We want to have a simple, user-friendly product that does complex things, not the other way around. 
+1. We don’t want another setting: whenever we can, we try to avoid having settings. Some settings are unavoidable, but most aren’t.  
+1. Low priority: sometimes features are interesting but we simply don’t have the capacity to implement them. In that case, simply tell the truth and indicate that we don’t have enough resources at our disposal to do it at the moment.
+1. Brings an Enterprise exclusive feature to the Community Edition: this problem is already addressed in the Stewardship page. 
+1. No longer relevant. 
 
 The 'not the next iteration' work items are the most important ones to resolve.
 It is very easy to create a large, comprehensive change with meta items and lots of improvements,
@@ -2150,12 +2106,9 @@ It's important to avoid writing this down as a bunch of work items.
 Come up with a direction, but only record the first step.
 This way we can preserve the efficiency of [our value of iteration](/handbook/values/#iteration).
 Closing work items whenever possible is an important part of your job and helps to keep a clear view of what is next.
-Consider using the following template to close an issue:
 
-> Closing this because XXX is something we should do first. When that feature is
-> finished, we can learn from observing it in use. If we learn that this issue is
-> still relevant, we can then reopen it. See /handbook/product/product-processes/#issues
-> for more detail about this policy.
+When closing a work item, leave a comment explaining why you're closing it, and link
+to anything of relevance (the other duplicate, the original feature that this is an iteration on, etc). Don’t forget to thank the authors for the time and effort taken to submit the feature request/merge request. In all cases and without exception, you should be nice and polite when interacting with users and customers.
 
 ### Roadmaps
 
