@@ -2077,7 +2077,6 @@ Bug issues report undesirable or incorrect behavior, such as:
 - A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labeled as `~"type::bug"` and `~"bug::vulnerability"`.
 - Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#severity-labels) for classifying a bug as `severity::1`.
 
-
 ### Epics
 
 Issues related to the same feature should be bundled together into an
@@ -2173,6 +2172,7 @@ to all issues with your group label and with each milestone as a column (here's 
 As the [DRI](/handbook/people-group/directly-responsible-individuals/) for [milestone prioritization](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) it is your responsibility to ensure that all items on your Planning board are scheduled to a milestone#milestones and are prioritized both
 within and across milestones. This means the lowest priority in the current milestone would generally be the top priority in the next milestone.
 In this regard your planning exercise is a complete prioritization of the near term issues.
+
 ## Life Support PM Expectations
 
 When performing the role of Life Support PM only the following are expected:
