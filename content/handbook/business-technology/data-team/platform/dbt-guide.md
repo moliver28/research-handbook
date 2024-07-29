@@ -1401,15 +1401,11 @@ A model's efficiency is a measure of how well the model uses the Snowflake resou
 
 ### Method
 
-For each model the queries executed are first filtered and aggregated. Only the specific query types
-of `CREATE_VIEW, INSERT, DELETE, CREATE_TABLE_AS_SELECT, MERGE, CREATE_VIEW, SELECT, EXTERNAL_TABLE_REFRESH`
-are considered and the query properties of
-`bytes_scanned, bytes_spilled_to_remote_storage, bytes_spilled_to_local_storage, partitions_total, partitions_scanned`
-are aggregated for calculation. Once aggregated the following metrics are calculated:
+For each model the queries executed are first filtered and aggregated. Only the specific query types of `CREATE_VIEW, INSERT, DELETE, CREATE_TABLE_AS_SELECT, MERGE, CREATE_VIEW, SELECT, EXTERNAL_TABLE_REFRESH` are considered and the query properties of `bytes_scanned, bytes_spilled_to_remote_storage, bytes_spilled_to_local_storage, partitions_total, partitions_scanned` are aggregated for calculation. Once aggregated the following metrics are calculated:
 
 #### Local Storage Efficiency
 
-$$E_l = min\{\frac{s-S_l}s,0\}$$
+\\[E_l = min\{\frac{s-S_l}s,0\}\\]
 
 - Where \\(S_l\\) is the model Bytes Spilled to Local Storage
 - Where \\(E_l\\) is the model Local Storage Efficiency
@@ -1419,18 +1415,17 @@ The metric is calculated as the model bytes scanned less the model bytes spilled
 
 #### Remote Storage Efficiency
 
-$$E_r = min\{\frac{s-S_r}s,0\}$$
+\\[E_r = min\{\frac{s-S_r}s,0\}\\]
 
 - Where \\(S_r\\) is the model Bytes Spilled to Remote Storage
 - Where \\(E_r\\) is the model Remote Storage Efficiency
 - Where \\(s\\) is the model Bytes Scanned
 
-The metric is calculated as the model bytes scanned less the model bytes spilled to remote storage divided by the model bytes scanned and limited to values between 0 and 1.
-This calculation allows for a number that is independent of other models but still comparable to other models.
+The metric is calculated as the model bytes scanned less the model bytes spilled to remote storage divided by the model bytes scanned and limited to values between 0 and 1. This calculation allows for a number that is independent of other models but still comparable to other models.
 
 #### Partition Scan Efficiency
 
-$$E_p = if\ p\ >\ 1\ then\ min\{\frac{p-S_p}p,0\}\ else\ 1$$
+\\[E_p = if\ p\ >\ 1\ then\ min\{\frac{p-S_p}p,0\}\ else\ 1\\]
 
 - Where \\(S_p\\) is the model Partitions Scanned
 - Where \\(E_p\\) is the model Partition Scan Efficiency
@@ -1440,7 +1435,7 @@ If there is more than one model partition then the metric is calculated as the m
 
 #### Efficiency Score
 
-$$E = [(E_l * w_l) + (E_r * w_r) + (E_p * w_p)]*100$$
+\\[E = [(E_l * w_l) + (E_r * w_r) + (E_p * w_p)]*100\\]
 
 - Where \\(E\\) is the model Efficiency Score
 - Where \\(E_p\\) is the model Partition Scan Efficiency
@@ -1454,18 +1449,11 @@ The compound score is calculated as the weighted average of the `Local Storage E
 
 ### Usage
 
-Model efficiency can be looked at for an individual model or for a collection of models.  When looking at a collection of models, it is recommended that efficiency metrics and
-scores be weighted, for example by the total bytes scanned, across the models in the collection.  When the metrics and score are below target values, each metric can indicate an area of exploration to improve the efficiency: `Local Storage Efficiency` and `Remote Storage Efficiency` indicate insufficient memory for the bytes processed by the model and low `Partition Scan Efficiency` indicates that the model may not be set up to prune partitions as part of the needed table scans.
+Model efficiency can be looked at for an individual model or for a collection of models.  When looking at a collection of models, it is recommended that efficiency metrics and scores be weighted, for example by the total bytes scanned, across the models in the collection.  When the metrics and score are below target values, each metric can indicate an area of exploration to improve the efficiency: `Local Storage Efficiency` and `Remote Storage Efficiency` indicate insufficient memory for the bytes processed by the model and low `Partition Scan Efficiency` indicates that the model may not be set up to prune partitions as part of the needed table scans.
 
 ### Reporting
 
-To report on the overall efficiency of dbt models for the organization the
-latest invocation of each model is used and weighted by the total bytes
-scanned.  This method provides a view over time of the changes
-to the aggregate efficiency of all of the models and represents
-a lagging indicator of the effect of changes to models and new models added
-to the collection.  Each metric and score are available in the reporting so
-that the cause of changes can be drilled into and areas of improvement can be identified.
+To report on the overall efficiency of dbt models for the organization the latest invocation of each model is used and weighted by the total bytes scanned.  This method provides a view over time of the changes to the aggregate efficiency of all of the models and represents a lagging indicator of the effect of changes to models and new models added to the collection.  Each metric and score are available in the reporting so that the cause of changes can be drilled into and areas of improvement can be identified.
 
 ## Model Performance
 
