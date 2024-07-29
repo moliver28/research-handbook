@@ -73,8 +73,7 @@ Helpful prompts can be found in the Figjam template [interview guide](https://ww
 It is recommended to have both a moderator and a notetaker during each interview, if possible. The notetaker is responsible for documenting the Job Steps on the JTBD Interview Participant Canvases during the interview. At any point during the interview, show the canvas to the participant to ensure accurate interpretation of their responses.
 
 1. Use the Figjam space provided for each participant and capture every step the participant mentions, using a sticky. Try to maintain chronological order and don't worry about other aspects of your JTBD, such as Job Stages or Job Statement formatting.
-    - **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards by reviewing your interviews videos in Dovetail.
-    - As you're reviewing your videos try using the JTBD Global Labels to mark parts of the video when you recognize a JTBD Canvas element.
+    - **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards by reviewing your interviews videos in Dovetail. As you're reviewing your videos try using the JTBD Global Labels to mark parts of the video when you recognize a JTBD Canvas element.
 1. Once all Job Steps have been discussed, walk through the Job Map with the participant for feedback and verification. Make adjustments as needed.
 1. After the interview, rewrite each Job Step to ensure it is functional and follows [Job Statement format](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-statements).
 
