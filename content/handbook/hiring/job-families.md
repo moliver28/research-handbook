@@ -310,8 +310,8 @@ created starting from the template. There's only a few additions you should do w
 
 ### New Job Family Overview creation
 
-1. Create the page in `/job-families/[department]/[name-of-job-family]/overview, being sure to use only lower case in naming your directory if it doesn't already exist, and add it to the correct department subdirectory.
-1. The file type should be `index.html.haml`.
+1. Create the folder in `/job-families/[department]/[name-of-job-family]/overview`, being sure to use only lower case in naming your directory if it doesn't already exist, and add it to the correct department subdirectory.
+1. The file type should be `_index.md`.
 1. Copy the template and add it to your new file
 1. Update all the places that need updates:
 
