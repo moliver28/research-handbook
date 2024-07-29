@@ -20,7 +20,7 @@ title: "Board of Directors and Corporate Governance"
 
 **Meeting Process**
 
-The Sr EBA to the CFO is the DRI of scheduling the quarterly Audit Committee meeting in conjunction with the Chairperson, Management DRI and their Sr. EBA
+The Staff EBA to the CFO is the DRI of scheduling the quarterly Audit Committee meeting in conjunction with the Chairperson, Management DRI and their Sr. EBA
 
 1. Timing: 2-3 weeks prior to the formal Board of Directors Meeting
 1. Duration: 110min (Q1-Q3) 140min (Q4)
@@ -158,33 +158,33 @@ The Staff EBA to the CEO shall ensure that there are separate calendar invites f
 1. The CFO sends a reminder to the E-Group 3 weeks in advance of the meeting.
 1. The CoS to the CEO shares the CEO Memo with E-Group for comments or edits 8 days prior to the Board Meeting.
 1. The E-Group has the complete presentation materials ready 10 business days prior to the meeting. All materials are submitted to the CLO and CFO for review within 48 hours of receipt.
-1. Once approved by the CLO and the CFO, the CFO authorizes the Corporate Paralegal to upload the materials into Nasdaq Boardvantage (NBV) and attach them to the corresponding NBV Meeting. All presentations and content should be finalized at this time with no further changes. The Corporate Paralegal is responsible for ensuring parity between the NBV Meeting and calendar invite. The Senior EBA to the CFO is responsible for the sharing settings on all materials. Materials should be shared with the E-Group, the Board (not via the @board alias), Board Observers, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping. The deadline for the document upload is 2p PT 7 days before the Board meeting.
-1. The Senior EBA to the CFO is responsible for linking all materials in the agendas for each session of the board meeting. Materials should always be linked in the agenda and shared with the appropriate attendees.
+1. Once approved by the CLO and the CFO, the CFO authorizes the Corporate Paralegal to upload the materials into Nasdaq Boardvantage (NBV) and attach them to the corresponding NBV Meeting. All presentations and content should be finalized at this time with no further changes. The Corporate Paralegal is responsible for ensuring parity between the NBV Meeting and calendar invite. The Staff EBA to the CFO is responsible for the sharing settings on all materials. Materials should be shared with the E-Group, the Board (not via the @board alias), Board Observers, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping. The deadline for the document upload is 2p PT 7 days before the Board meeting.
+1. The Staff EBA to the CFO is responsible for linking all materials in the agendas for each session of the board meeting. Materials should always be linked in the agenda and shared with the appropriate attendees.
 1. 7 days before the meeting, the CFO emails the Board notifying them that the materials are ready for review in NBV and includes any highlights or asks within the email.
-1. The CFO is the DRI for the Administrative deck and will share this with the CLO, the Corporate Paralegal, the Senior EBA to CFO, and the Staff EBA to the CEO at least 1 week before the Board meeting. The Corporate Paralegal will upload the materials into NBV and then the CFO will notify the Board of their availability for review in NBV 4 business days prior to the Board meeting.
-1. The day before the Board meeting, the Senior EBA to the CFO ensures that the Introduction section of the agenda is up to date with the latest attendees and ensures that the agenda document is up to date. Questions from the Board are added directly to the agenda document and are verbalized during the meeting.
+1. The CFO is the DRI for the Administrative deck and will share this with the CLO, the Corporate Paralegal, the Staff EBA to CFO, and the Staff EBA to the CEO at least 1 week before the Board meeting. The Corporate Paralegal will upload the materials into NBV and then the CFO will notify the Board of their availability for review in NBV 4 business days prior to the Board meeting.
+1. The day before the Board meeting, the Staff EBA to the CFO ensures that the Introduction section of the agenda is up to date with the latest attendees and ensures that the agenda document is up to date. Questions from the Board are verbalized during the meeting.
 1. The CFO is responsible for ensuring that the Board meeting runs according to the time allotted.
 1. The CLO is responsible for maintaining the Minutes of the meeting and submitting for Board approval.
 1. The CLO ensures that PDF versions of the materials including presentations, exhibits, approved Minutes, and Administrative materials are securely stored in NBV and on Google Drive labeled with the date of the meeting.
-1. The Senior EBA to the CFO updates the Next Meeting's Timeline section of this page.
+1. The Staff EBA to the CFO updates the Next Meeting's Timeline section of this page.
 1. The E-Group debriefs in the first E-Group Meeting after the Board Meeting.
 
 #### Next Meeting's Timeline
 
 This section is updated after every Board Meeting by the Staff EBA to the CFO for the next Board Meeting.
 
-1. Meeting is scheduled for 2024-06-27.
-1. 2024-05-06 - The Lead Independent Director will reach out to the Board to discuss agenda items.
-1. 2024-05-14 - The Lead Independent Director, CEO, and CFO finalize the agenda. [At least 6 weeks before BoD Meeting]
-1. 2024-06-03 - The CFO adds another reminder to the E-Group during the weekly E-Group call. [A week before pencils down]
-1. 2024-06-13 - The E-Group has the completed all materials by 12pm Pacific time for review by the CLO and CFO. [A week before BoD Meeting materials distribution]
-1. 2024-06-20 - Once approved by the CLO, CFO and CEO, the CFO authorizes the Corporate Paralegal to upload the materials into NBV and attach them to the corresponding NBV Meeting. The CFO then notifies the Board via email that materials are ready for review in NBV 7 days before the meeting. The Staff EBA to the CFO is responsible for sharing settings on all materials linked in the Google doc BOD Agenda. Materials should be shared with the E-Group, the board members, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping.
-1. 2024-06-20 - The Staff EBA to the CFO is responsible for linking all materials in the Google document agendas for each session of the board meeting. Materials should always be linked in the agenda and shared with the appropriate attendees.
-1. 2024-06-20 - The Staff EBA to the CFO ensures that the Introduction and Materials section of the agenda is up to date with the latest attendees and ensures that the agenda document is locked to further questions 24 hours before the meeting is set to begin. Questions can still be raised verbally during the meeting.
-1. 2024-06-27 - Board of Directors Meeting; CFO ensures the meeting runs according to the time allotted.
-1. 2024-07-01 - The CLO ensures that PDF versions of the materials including presentations, exhibits, approved Minutes, and Administrative materials are securely stored in NBV and on Google Drive labeled with the date of the meeting.
-1. 2024-07-01 - The Staff EBA to the CFO updates this section of the Handbook page with the timeline for the next Board meeting in September 2024.
-1. 2024-07-02 - The E-Group debriefs in the first E-Group Meeting after the Board Meeting.
+1. Meeting is scheduled for 2024-09-26.
+1. 2024-08-05 - The Lead Independent Director will reach out to the Board to discuss agenda items.
+1. 2024-08-12 - The Lead Independent Director, CEO, and CFO finalize the agenda. [At least 6 weeks before BoD Meeting] *Date to be confirmed
+1. 2024-09-03 - The CFO adds another reminder to the E-Group during the weekly E-Group call. [A week before pencils down]
+1. 2024-09-12 - The E-Group has completed all materials by 12pm Pacific time for review by the CLO and CFO. [A week before BoD Meeting materials distribution]
+1. 2024-09-19 - Once approved by the CLO, CFO and CEO, the CFO authorizes the Corporate Paralegal to upload the materials into NBV and attach them to the corresponding NBV Meeting. The CFO then notifies the Board via email that materials are ready for review in NBV 7 days before the meeting. The Staff EBA to the CFO is responsible for sharing settings on all materials linked in the Google doc BOD Agenda. Materials should be shared with the E-Group, the board members, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping.
+1. 2024-09-19 - The Staff EBA to the CFO is responsible for linking all materials in the Google document agendas for each session of the board meeting. Materials should always be linked in the agenda and shared with the appropriate attendees.
+1. 2024-09-19 - The Staff EBA to the CFO ensures that the Introduction and Materials section of the agenda is up to date with the latest attendees.
+1. 2024-09-26 - Board of Directors Meeting; CFO ensures the meeting runs according to the time allotted.
+1. 2024-09-30 - The CLO ensures that PDF versions of the materials including presentations, exhibits, approved Minutes, and Administrative materials are securely stored in NBV and on Google Drive labeled with the date of the meeting.
+1. 2024-09-30 - The Staff EBA to the CFO updates this section of the Handbook page with the timeline for the next Board meeting in September 2024.
+1. 2024-10-01 - The E-Group debriefs in the first E-Group Meeting after the Board Meeting.
 
 #### Board Materials
 
