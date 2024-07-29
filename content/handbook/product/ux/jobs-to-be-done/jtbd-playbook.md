@@ -41,7 +41,7 @@ In this exercise, the Product Design DRI will take the information gathered in E
 
 This exercise involves four steps:
 
-1. Copy and organize stickies from exercise 1
+1. Copy and organize stickies from Exercise 1
 1. Identify the most important Job Performer group
 1. Convert tasks into Job Statements
 1. Consider key questions about who, and what.
