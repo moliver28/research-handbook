@@ -12,6 +12,7 @@ aliases:
 ## <i class="fa-solid fa-map-location-dot" style="color: #B197FC;"></i> CSE Content Team Strategy
 
 The main goals of the CSE Content team are to:
+
 - Produce High-Quality, Customer-Aligned Content in support of Customer Sucess Engineering goals
 - Effectively market all content
 - Establish Clear Metrics for data driven analysis
