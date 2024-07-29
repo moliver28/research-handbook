@@ -204,19 +204,13 @@ You can ask questions or get assistance in the <a href="https://gitlab.slack.com
 
 </details>
 
-## Initiatives
+## Initiatives {#initiatives}
 
-{: #initiatives}
-
-### OKRs
-
-{: #okrs}
+### OKRs {#okrs}
 
 You can see our OKRs in the [Business Technology OKR issue tracker](https://gitlab.com/gitlab-com/business-technology/okrs).
 
-### Initiative Codenames
-
-{: #initiative-codenames}
+### Initiative Codenames {#initiative-codenames}
 
 Our department manages technical projects with a lot of depth and/or breadth that may have a very long descriptive title. This is similar to a [confidential project name](/handbook/communication/confidentiality-levels/#project-names), however usually has minimal usage outside the IT department and is only for internal initiatives (in collaboration with security teams) to quickly refer to a project as part of our team's morale since we get excited and rally around codenames.
 
@@ -232,13 +226,9 @@ We use animated movie and theme park references. We are careful to avoid tradema
 | Hercules          | SSO/SCIM migration for tech stack applications                                         |
 | Wristband         | Separate IAM user accounts color-based classifications for contractors, team members, service accounts, elevated admin accounts, etc. |
 
-## Who We Are
+## Who We Are {#who-we-are}
 
-{: #who-we-are}
-
-### Leadership Team
-
-{: #who-leadership}
+### Leadership Team {#who-leadership}
 
 | Name                                                                  | Role                                     | Business Engagement Focus Areas                                     |
 |-----------------------------------------------------------------------|------------------------------------------|---------------------------------------------------------------------|
@@ -248,9 +238,7 @@ We use animated movie and theme park references. We are careful to avoid tradema
 | [Eric Rubin](/handbook/company/team/#ericrubin)        | Senior Manager, IT Security Operations          | Endpoint Security, Okta, Nira                                       |
 | [Derek Isla](/handbook/company/team/#disla)            | Manager, IT Compliance                          | IT Compliance |
 
-### IT Support Team
-
-{: #who-support}
+### IT Support Team {#who-support}
 
 | Name                                                                        | Role                            | Timezone Coverage |
 |-----------------------------------------------------------------------------|---------------------------------|-------------------|
@@ -261,9 +249,7 @@ We use animated movie and theme park references. We are careful to avoid tradema
 | Mic Rohr                                            | IT Helpdesk Analyst             | AMER              |
 | [Max Hirata](/handbook/company/team/#mraetz)                 | IT Helpdesk Analyst             | APAC              |
 
-### Engineering Team
-
-{: #who-engineering}
+### Engineering Team {#who-engineering}
 
 | Name                                                | Role                              | Focus Areas (Specialties)                                    |
 |-----------------------------------------------------|-----------------------------------|--------------------------------------------------------------|
@@ -273,17 +259,13 @@ We use animated movie and theme park references. We are careful to avoid tradema
 | [Mohammed Al Kobaisy](/handbook/company/team/#malkobaisy)    | IT Systems Administrator          | Infrastructure, Operations, Support                                |
 | [Vlad Stoianovici](/handbook/company/team/#vlad)             | Senior IT Site Reliability Engineer | Infrastructure, Operations, Support                        |
 
-### IT Compliance Team
-
-{: #who-it-compliance}
+### IT Compliance Team {#who-it-compliance}
 
 | Name                                                                        | Role                              |
 |-----------------------------------------------------------------------------|-----------------------------------|
 | [Sarah Pang](/handbook/company/team/#arahpang)                                       | Senior IT Compliance Engineer     |
 
-### IT Security Operations Team
-
-{: #who-it-security}
+### IT Security Operations Team {#who-it-security}
 
 | Name                                                                        | Role                              |
 |-----------------------------------------------------------------------------|-----------------------------------|

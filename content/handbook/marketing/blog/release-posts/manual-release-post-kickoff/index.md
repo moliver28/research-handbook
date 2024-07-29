@@ -18,8 +18,6 @@ If the automated pipeline fails, the manual steps below can be done either local
    1. Create a new directory `X_Y` in the `data/release_posts` directory.
    1. Copy [`data/release_posts/unreleased/samples/mvp.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/release_posts/unreleased/samples/mvp.yml) into `data/release_posts/X_Y/mvp.yml`.
 
-{:.alert .alert-info .text-center}
-
 ### Create the release post MR
 
 Create a merge request with the introductory changes *after the previous post has been merged and before the feature freeze date* to make the post available to receive contributions from the team:
@@ -43,8 +41,9 @@ Now that you have created the release post MR, refer to the checklist in the MR 
 
 ### Content assembly: merging release post items (content blocks) to your branch
 
-**Important**: This procedure applies until the 18th, at <time datetime="07:59">7:59 am UTC (18th 2:59 am ET / 17th 11:59 pm PT)</time>. After this time, anyone who wants to include a change in the upcoming release post can either coordinate updates directly on the release post branch with the Release Post Manager or submit it in a separate MR, targeting the `release-X-Y` branch, and assign it to the Release Post Manager to merge. For more information, see our documentation on how to [Develop on a feature branch](https://docs.gitlab.com/ee/gitlab-basics/feature_branch_workflow.html).
-{:.alert .alert-info}
+{{% alert title="Important" color="info" %}}
+This procedure applies until the 18th, at <time datetime="07:59">7:59 am UTC (18th 2:59 am ET / 17th 11:59 pm PT)</time>. After this time, anyone who wants to include a change in the upcoming release post can either coordinate updates directly on the release post branch with the Release Post Manager or submit it in a separate MR, targeting the `release-X-Y` branch, and assign it to the Release Post Manager to merge. For more information, see our documentation on how to [Develop on a feature branch](https://docs.gitlab.com/ee/gitlab-basics/feature_branch_workflow.html).
+{{% /alert %}}
 
 When it is time to assemble the release post, this will be done by moving the
 content block files from `data/release_posts/unreleased` to

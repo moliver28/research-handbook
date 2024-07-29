@@ -838,9 +838,7 @@ A Walk and Talk call is when team members step away from their computers and get
 
 The team members can use Zoom on their mobile device with the audio only function, or call one another from their preferred mobile device. A walk and talk call should be agreed to in advance to ensure that the local weather is compatible for a walk in both locations and that the walk and talk call fits into both team members' schedules. We've created a Slack channel #walk-and-talk-meetings where, if you'd like, you can share pictures from your walking meetings.
 
-#### Release retrospectives and kickoffs
-
-{: #kickoffs}
+#### Release retrospectives and kickoffs {#kickoffs}
 
 After GitLab releases a new version [every month](/handbook/engineering/releases/), we have a
 30-minute call a few days later reflecting on what could have been
@@ -936,7 +934,7 @@ This list offers additional guidance for written communication at GitLab:
 ### Communicating dates and time
 
 1. For external content, refer to the guidance in the [GitLab Content Style Guide](/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#dates-and-times).
-1. {: #iso-dates} For internal content, use ISO dates: `yyyy-mm-dd`
+1. For internal content, use ISO dates: `yyyy-mm-dd`
 1. For months, use `yyyy-mm`, so 2018-01 for January.
 1. Refer to a year with CY18 (never with 2018) and a quarter with CY18-Q1 to prevent confusion with fiscal years and quarters. If the year is obvious from the context it is OK to use Dec 4, but not 12/4.
 1. GitLab operates on a [Fiscal Year](/handbook/finance/#fiscal-year) offset from the calendar year. When referring to a fiscal year or quarter, please use the following abbreviations:

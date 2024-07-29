@@ -6,9 +6,7 @@ controlled_document: true
 
 This document covers architectures that support GitLab.com functions, but are not user facing and are managed by the [Infrastructure teams](../).
 
-## dev.gitlab.org
-
-{: #dev-gitlab-org}
+## dev.gitlab.org {#dev-gitlab-org}
 
 Dev.gitlab.org is a GitLab instance hosted in Azure. The instance is running a vanilla GitLab Community Edition package, from a [nightly build](https://packages.gitlab.com/gitlab/nightly-builds) built from main branch of all GitLab components. The instance is automatically upgraded daily using the cron defined in the [gitlab-server](https://gitlab.com/gitlab-cookbooks/gitlab-server/-/blob/adb75f4574cace07cf75c5c591d30c2107dce685/attributes/default.rb#L105-112) cookbook with a role override set in the [chef-repo](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/blob/381c4de3db52c202de3f5abd6ca02a14c75e5106/roles/dev-gitlab-org.json#L317-319) role (GitLab internal only).
 
@@ -34,9 +32,7 @@ These backups are automatically uploaded to an AWS S3 bucket configured in the s
 
 [Source](https://drive.google.com/file/d/1tG8rxbv7xRxShXdJGQEX1hBzW-mRel6J/view?usp=sharing), GitLab internal use only
 
-## ops.gitlab.net
-
-{: #ops-gitlab-net}
+## ops.gitlab.net {#ops-gitlab-net}
 
 Ops.gitlab.net is a GitLab instance hosted in GCP. The instance is running a vanilla GitLab EE package, from the [official release channel](https://packages.gitlab.com/gitlab/gitlab-ee). The instance is automatically upgraded using the cron defined in the [gitlab-server](https://gitlab.com/gitlab-cookbooks/gitlab-server/-/blob/adb75f4574cace07cf75c5c591d30c2107dce685/attributes/default.rb#L105-112) cookbook with a role override set in the [chef-repo](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/blob/381c4de3db52c202de3f5abd6ca02a14c75e5106/roles/ops-infra-gitlab.json#L276-278) role (GitLab internal only).
 

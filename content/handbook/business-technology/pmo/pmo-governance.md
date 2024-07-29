@@ -51,8 +51,9 @@ A program should have a program DRI who is responsible for building out the prog
 
 A business requirements document (BRD) is the first document to be created by the Program DRI in partnership with the Business Lead in order to start a new program. The BRD is report that explains why the program is being undertaken and details everything the new program requires for success, providing clarity and context for stakeholders.
 
+{{% alert color="warning" %}}
 [Business Requirements Document (BRD) Template](https://docs.google.com/document/d/1qKqFLqgolDPXImhJL7iq4yu2A52iv0Te1ho5q3UBEVg/edit)
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Program charter
 
@@ -87,15 +88,17 @@ All reference points that marks a significant event or a branching decision poin
 
 Every program should have success metrics. These metrics should either demonstrate an increase in revenue or an increase in efficiency that helps reduce cost.
 
+{{% alert color="warning" %}}
 [Project Kickoff Template](https://docs.google.com/presentation/d/1p04S-TpitASMmdLn1fhKB4KewDr0-y9twP52Cel1oIo/edit#slide=id.p1)
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Steering committee
 
 As part of the program charter an executive steering committee should be named. This should include an executive from the sponsoring business organization and an executive from IT. For example in our expense management program we created a steering committee that included the VP IT, VP Controller, VP FieldOps. With this steering committee we cover executives for enablement and front office, back office and then IT.
 
+{{% alert color="warning" %}}
 [Steering Committee Meeting Template](https://docs.google.com/presentation/d/1hKXH1WA9W-1_l66kwDV-rzoisdJ1z04tm15fHlHkOUs/edit#slide=id.p1)
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Core team
 
@@ -113,8 +116,9 @@ The IT Program Manager updates the [Rolly](/handbook/business-technology/pmo/#we
 
 For larger programs, and based on the information from Rolly, the IT Program Manager might create a Status Report to be shared across the program team and is often reviewed during the weekly program status meetings.
 
+{{% alert color="warning" %}}
 [Status Report Template](https://docs.google.com/presentation/d/1FvtL0MHftG33b-6eKO1sVx3vPFKu0DaeVp-GGbLdpcs/edit#slide=id.p1)
-{: .alert .alert-warning}
+{{% /alert %}}
 
 #### Geekbot
 
@@ -137,8 +141,9 @@ The program DRI should establish a clear escalation process so that if a program
 
 There should be a clear program timeline with sprints defined so that we can deliver the program in smaller increments. There should be clarity around key requirement deadlines, delivery milestones, testing timelines so that everyone is clear. The program timeline should consider company holidays, enablement time and consider adding additional time for complex requirements (if needed).
 
+{{% alert color="warning" %}}
 The IT PMO team uses the [GitLab Roadmap](https://docs.gitlab.com/ee/user/group/roadmap/#roadmap) feature to track the progress of each program.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Clear documentation for data model
 
@@ -192,8 +197,9 @@ The sign-off process for each documentation and/or SDLC stage may vary depending
 - Evidencing data management is the most important part of this Program Development process. How can we adequately demonstrate that data in the system is complete and accurate according to our business needs?
 - Show documentation of an enablement plan and that the changes were communicated effectively to the users of the changed system.
 
+{{% alert color="warning" %}}
 [SOX Compliance Template](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/772)
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Enablement plan
 

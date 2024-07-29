@@ -7,8 +7,9 @@ twitter_site: "gitlab"
 twitter_creator: "gitlab"
 ---
 
+{{% alert color="info" %}}
 ℹ️ This page is the single source of truth for all administrative tasks, templates, and project management needs focused on GitLab brand social channels. If your question is "how?", the answer will be here.
-{:.alert .alert-info .text-justify}
+{{% /alert %}}
 
 ## Social Media Project Management
 
@@ -22,8 +23,9 @@ Many requests for social media coverage could sound like one ask, but ultimately
 
 ### Open a new issue to request social coverage
 
+{{% alert color="info" %}}
 ℹ️ For an anything to get promoted on social, **there must be a dedicated social issue**. Most campaigns with multiple activation points also require an epic. Not sure what you need? Message the team in the #social_media_action Slack channel.
-{:.alert .alert-info .text-justify}
+{{% /alert %}}
 
 Head to the [corporate marketing project](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues) and create a new issue with the best template below.
 

@@ -8,8 +8,6 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 ## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand and Product Marketing Handbook
 
-{: .no_toc}
-
 **The Brand and Product Marketing** team's goal is to accelerate GitLab's path to market.
 
 - We tell the GitLab story at the brand, corporate, solution, and product levels.

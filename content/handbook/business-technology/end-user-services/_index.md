@@ -87,8 +87,9 @@ The script scans the IT help Slack channel and performs the following actions:
 - Parses the Slack thread and adds comments to the related GitLab issue.
 - Adds comments from GitLab issue into Slack thread.
 
+{{% alert color="info" %}}
 To learn more on how this automation works, check the [IT-Help Slack Issue Creator wiki](https://gitlab.com/groups/gitlab-com/it/end-user-services/-/wikis/IT-Help-Slack-Issue-Creator/How-To-Use).
-{: .alert .alert-info}
+{{% /alert %}}
 
 ## <i class="fas fa-rocket" id="biz-tech-icons"></i> Mission Statement
 

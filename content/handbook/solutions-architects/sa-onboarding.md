@@ -7,8 +7,9 @@ View the [SA Handbook homepage](/handbook/solutions-architects/) for additional 
 
 ---
 
-⚠️ This information is under active development and is not yet final. This page will be updated on an ongoing basis during this phase.
-{: .alert .alert-warning}
+{{% alert title="⚠️" color="warning" %}}
+This information is under active development and is not yet final. This page will be updated on an ongoing basis during this phase.
+{{% /alert %}}
 
 ## Solutions Architects Onboarding Overview
 

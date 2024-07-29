@@ -49,8 +49,9 @@ Once a license has been provisioned in Salesforce, you will need to perform some
 
 ### SFDC User Connector Job
 
-**Important**: All users in Gainsight are imported from Salesforce, we do not create users directly within Gainsight.
-{: .alert .alert-warning}
+{{% alert title="Important" color="warning" %}}
+All users in Gainsight are imported from Salesforce, we do not create users directly within Gainsight.
+{{% /alert %}}
 
 Gainsight uses the a Connector job to sync users and user information from Salesforce. This job is called `SFDC User Sync` and can be accessed on [this page in Gainsight](https://gitlab.gainsightcloud.com/v1/ui/connectors#/jobs) or by navigating to Administration → Integrations → Connectors 2.0 → Jobs tab.
 
@@ -67,8 +68,9 @@ To confirm that a user has been synced successfully from Salesforce you can sear
 
 If the user has not yet been synced from Salesforce to Gainsight, you can either 1) wait until the next sync job or 2) trigger a manual sync. You can do a manual sync by clicking the 3 dots by the job name → Run Job → Data modified since last sync date and time.
 
-**Note**: the `SFDC User Sync` job will only sync users that are Active in Salesforce. If the user has not yet been created in Salesforce or if they have not been set to Active, the sync will not bring them over to Gainsight.
-{: .alert .alert-warning}
+{{% alert title="Note" color="warning" %}}
+The `SFDC User Sync` job will only sync users that are Active in Salesforce. If the user has not yet been created in Salesforce or if they have not been set to Active, the sync will not bring them over to Gainsight.
+{{% /alert %}}
 
 You can see the logs/details of a specific sync by navigating to Connectors 2.0 → Activities tab. Then find the sync in the list, click the 3 dots, and select Job Activity. From here you can see the number of successful and failed records. You also have the option to download any failed records to see the specific error messages.
 
@@ -94,8 +96,9 @@ Once you have confirmed the user has synced from Salesforce successfully, you wi
    2. Go to the okta-gainsight-users group
    3. Go to Members, then Add Members and use the new user's email address to add them to the group. Once they have been added successfully, they will see a Gainsight tile in Okta (this may take some time to appear).
 
-Note: The most important fields that you should confirm are filled out are the **User Role** field, and for PubSec users the **US PubSec User** field. These fields are used to automatically add the user to the correct Sharing Group (see more details below in the [Data Permissions/Sharing Groups](#data-permissions-and-sharing-groups) section.
-{: .alert .alert-warning}
+{{% alert title="Note" color="warning" %}}
+The most important fields that you should confirm are filled out are the **User Role** field, and for PubSec users the **US PubSec User** field. These fields are used to automatically add the user to the correct Sharing Group (see more details below in the [Data Permissions/Sharing Groups](#data-permissions-and-sharing-groups) section.
+{{% /alert %}}
 
 ## Gainsight Bundles (Permission Sets)
 
@@ -107,8 +110,9 @@ To add a user to a bundle or see a list of users in a bundle, click the 3 dots n
 
 To change access for a specific bundle, click the 3 dots next to the bundle name → Edit.
 
-**Note:** If Gainsight releases a new feature that a specific group of users will need access to, you will probably need to go into each applicable group, navigate to the new feature, and check the box. This will not be done automatically.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+If Gainsight releases a new feature that a specific group of users will need access to, you will probably need to go into each applicable group, navigate to the new feature, and check the box. This will not be done automatically.
+{{% /alert %}}
 
 These are the most used bundles:
 

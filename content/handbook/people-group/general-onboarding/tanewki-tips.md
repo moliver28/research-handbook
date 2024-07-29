@@ -153,10 +153,11 @@ GitLab utitilizes Navan as our team member [expense](/handbook/finance/expenses/
 1. We use Slack as our formal/informal communications tool. This allows us to communicate with our team members, teams and wider company. New to Slack? No problem! This [quick start guide](https://slack.com/intl/en-za/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide) will share all the helpful tips on getting you started.
 1. We do not use the standard operating software and instead have a business account with Google Workspace. We use the [Gmail](https://workspace.google.com/intl/en/products/gmail/) feature to retrieve our emails, we use [Drive](https://workspace.google.com/intl/en/products/drive/) to store all our important documents, and Google [Docs](https://workspace.google.com/intl/en/products/docs/)/[Sheets](https://workspace.google.com/intl/en/products/sheets/) for anything we need to document.
 
+{{% alert color="info" %}}
 <i class="fab fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
 Want to learn more about Onboarding from current team members? View their feedback [here](/handbook/people-group/general-onboarding/onboarding-feedback)!
 &nbsp;&nbsp;<i class="fab fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
-{: .alert .alert-webcast}
+{{% /alert %}}
 
 ## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Frequently Asked Questions
 

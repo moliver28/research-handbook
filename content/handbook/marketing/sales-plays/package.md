@@ -19,8 +19,6 @@ Who is this sales play for?
 
 ## Who to meet
 
-{: .alert .alert-gitlab-orange}
-
 **Ideal Customer Profile**  - GitLab customers looking to consolidate on GitLab and migrate away from JFrog's Artifactory or Sonatype's Nexus.
 
 * Bonus points for:
@@ -48,8 +46,6 @@ Consider the following questions:
 * Are the capabilities that are enabled by GitLab Package important to the customer? Why or why not? How do you know?
 
 ## Value Discovery
-
-{: .alert .alert-gitlab-orange}
 
 ### Common Pains
 

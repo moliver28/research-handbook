@@ -132,7 +132,6 @@ To push a segment to Marketo, you'll need an Add to Audience orchestration. You 
 
 ### Folder Naming Convention
 
-{: .no_toc}
 In order to keep segments and the general platform organized, please use the following folder naming convention:
 
 - `Team Name - FY## Q# - Name of Campaign/Account List`
@@ -144,12 +143,10 @@ For example:
 
 ### Tags
 
-{: .no_toc}
 Tags should be used to help organize lists by topic. For example, you may want to use a tag for a large campaign, segment (SMB, MM, etc.), tier, etc.
 
 ### Sales Dev Naming Convention
 
-{: .no_toc}
 Sales Dev users should name any lists with the same naming convention that is used in Outreach. The naming convention guidance can be found on the [Outreach Handbook Page](/handbook/marketing/marketing-operations/outreach/#sequences).
 
 ## Useful Terms

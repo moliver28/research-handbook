@@ -10,8 +10,6 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 We create positioning and messaging to fuel demand and adoption of GitLab's solutions and products. We develop market and competitive intelligence in order to develop actionable insights on market trends, customer needs, and competitive insights that guide go-to-market and product strategy. We identify, recruit, and activate customer advocates to demonstrate momentum and trust in the market.
 
-{: .no_toc}
-
 ## What does Product and Solution Marketing do?
 
 Our mission is to accelerate GitLab's path to market by developing insights, positioning, and messaging that communicate the value of our platform and solutions.

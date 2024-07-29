@@ -859,9 +859,7 @@ Together with your Engineering Manager, you will have an important role in ensur
 1. It can result in shipping something of value during an iteration rather then delaying everything
 1. It can re-risk unknown unknowns by bringing them to light sooner in the development process
 
-#### Prioritizing for Predictability
-
-{: #prioritize-predictability}
+#### Prioritizing for Predictability {#prioritize-predictability}
 
 As a company we emphasize [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). As a product manager this means
 you focus on prioritizing, not scheduling issues. Your engineering [stable counterparts](/handbook/leadership/#stable-counterparts) are
@@ -886,9 +884,7 @@ These information sources may be useful to help you prioritize.
 - [S3stat](https://www.s3stat.com): GitLab 1Password account
 - [Sentry](https://sentry.gitlab.net): dev.gitlab.org account
 
-### Global Prioritization
-
-{: #prioritize-global}
+### Global Prioritization {#prioritize-global}
 
 Individual product managers must consider, and advocate for [global optimizations](/handbook/values/#results)
 within the teams they are assigned to. If your assigned team requires expertise
@@ -1343,9 +1339,7 @@ Refer to the [Product Development Timeline](/handbook/engineering/workflow/#prod
 for details on how Product works with UX and Engineering to schedule and work on
 issues in upcoming releases.
 
-#### Planning for Future Releases
-
-{: #planning-future-release}
+#### Planning for Future Releases {#planning-future-release}
 
 Product Managers assign milestones to issues to indicate when an issue is likely
 to be scheduled and worked on. As we consider more distant milestones, the certainty of

@@ -38,9 +38,10 @@ When an issue is moved from one list to another on the board, the board basicall
 1. It removes the label, milestone or assignment from the starting list
 2. It adds the label, milestone, or assignment of the list the issue is added to.
 
+{{% alert color="info" %}}
 <i class="fas fa-info-circle" aria-hidden="true" style="color: rgb(49, 112, 143)
 ;"></i> Board lists also sum up the total "weight" of the issues in each list, as a way to estimate the total work in the list.
-{: .alert .alert-info}
+{{% /alert %}}
 
 #### Board hierarchy
 
