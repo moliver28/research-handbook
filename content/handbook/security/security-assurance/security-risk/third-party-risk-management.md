@@ -161,8 +161,8 @@ The following table defines the procedures followed by TPRM engineers for vendor
 |Orange Professional Services | 3rd Party Attest or [SIG Prof Svcs](https://docs.google.com/spreadsheets/d/1xiReZd5heUl5YVFCqPxEfXJIYlqtz_LS/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true)|          N/A|     N/A| N/A|   N/A | N/A|
 |Yellow/Green     | N/A |  N/A |  N/A |     No | N/A  | N/A  |
 
-* *Professional Services vendors utilizing a web-facing application to collect and store GitLab sensitive data are generally treated as an Orange SaaS system.*
-* *TPRM engineers may, at their discretion, require a reduced-scope assessment for Yellow or Green vendors being granted sensitive Google Workspace permissions that wouldn't by nature result in the sharing of sensitive data. This could include privileges to send emails on GitLab team members' behalf.*
+- *Professional Services vendors utilizing a web-facing application to collect and store GitLab sensitive data are generally treated as an Orange SaaS system.*
+- *TPRM engineers may, at their discretion, require a reduced-scope assessment for Yellow or Green vendors being granted sensitive Google Workspace permissions that wouldn't by nature result in the sharing of sensitive data. This could include privileges to send emails on GitLab team members' behalf.*
 
 #### Material Changes
 
