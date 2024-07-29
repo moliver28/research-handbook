@@ -142,7 +142,7 @@ Here is a [document written by a GitLab team member](https://docs.google.com/doc
 
 Sid and Marin discuss the history of GitLab's right to immigrate to the Netherlands.
 
-## Highly Skilled Candidates (Ireland and EU Blue Card Germany processes)
+## Highly Skilled Candidates (Ireland and EU Blue Card processes)
 
 ### Critical Skills Employment Permit Ireland
 
@@ -188,70 +188,15 @@ The processing fee for a Critical Skills Employment Permit is €1,000 (which mu
 
 There is more information [here](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/).
 
-### EU Blue Card Germany
+### EU Blue Card
 
-GitLab may be able to offer employment agreements to selected highly skilled candidates seeking employment already in Germany, who apply for, or already hold a German EU Blue card.
+GitLab may be able to offer employment agreements to selected highly skilled candidates seeking employment in an EU country where GitLab has an entity who apply for, or already hold, an EU Blue card for that country. GitLab may also be able to offer employment agreements to current team members looking to relocate to an EU country where GitLab has an entity who have been [approved for relocation]({{< ref "relocation#how-to-apply-for-a-long-term-relocation" >}}) to such country and are planning to apply for an EU Blue Card.
 
-Please note: GitLab does not cover any costs for the application nor does it guarantee the issuance of the EU Blue card.  The employment agreement offered includes the condition that the candidate will hold the sufficient right to work and if a Blue card is required that they will be able to obtain the Blue Card.  If the Blue Card is denied, the employment agreement would be rescinded.
+Please note: GitLab does not cover any costs for the application nor does it guarantee the issuance of the EU Blue card.  The employment agreement offered includes the condition that the candidate will hold the sufficient right to work and if a Blue Card is required that they will be able to obtain the Blue Card.  If the Blue Card is denied, the employment agreement would be rescinded. GitLab will only consider candidates and team member relocation requests for prospective Blue Card holders in countries where we are currently open for hiring. GitLab will not assist with Blue Card applications beyond providing an employment agreement and any company information needed for the application.
 
-The EU Blue Card Germany, is a German residence permit for highly skilled workers. You can apply for a German Blue Card if you:
-
-- are from a non-EU country
-- hold a recognized academic and professional qualification
-- have at least 5 years of relevant work experience
-- are offered a qualified position meeting the [minimum salary requirements](https://www.schengenvisainfo.com/eu-blue-card/germany/). Please note the salary requirements are subject to change each year.
-
-### Application process
-
-You can apply for an EU Blue Card from the Foreigner's Office in Germany.  Depending on your current location you may need to obtain an entry visa from your most local German embassy.
-
-1. [Apply for a Long-Term Relocation]({{< ref "relocation#how-to-apply-for-a-long-term-relocation" >}}) to Germany, as you will need a German employment agreement for the EU Blue Card application
-1. Set up a visa appointment for employment purposes from the German embassy or consulate
-1. Collect the required documents: your local German embassy will provide a list of required documents which usually includes an employment agreement, validation of academic qualifications, and travel health insurance.
-1. Once you have arrived in Germany you will need to register for residence and obtain either [Public](https://visaguide.world/international-health-insurance/germany/list-of-health-insurance-providers-in-germany/) or private health insurance.
-1 On the date of your appointment, you will be asked to submit your Visa application, provide the visa documents and pay a processing fee.  You may also be asked to participate in an interview.  Please note:  This is only an appointment for an entry visa for employment.  You will still need to apply for the Blue Card after arriving in Germany.
-1. Wait for a decision (can take 1 to 3 months for the entry visa).
-1. Travel to Germany: If your visa application is approved, you will receive a visa, allowing you to enter Germany.
-1. Register your [Germany residence](https://www.bmi.bund.de/EN/topics/administrative-reform/registration/registration-node.html#:~:text=Anyone%20who%20moves%20into%20a,the%20person%20providing%20the%20residence.) which you will you need to enroll for [health insurance](https://visaguide.world/international-health-insurance/germany/) (You can choose private or Public), and open a bank account.
-1. Once you have your residence, health insurance and bank account submit your EU Blue Card application at the Ausländerbehörde (German Foreigner's Authority).
-
-#### Applying for the Blue card when you are already in Germany
-
-If you are already in Germany, and you are offered a position that makes you eligible for a Blue Card, you can apply at the local Ausländerbehörde (German Foreigner's Authority). You must start the process at least six weeks before your current residence permit expires.
-
-#### Germany Blue card required documents
-
-- Valid passport
-- 35mm x 45mm biometric picture
-- Employment agreement
-- Application of residence permit
-- Declaration on the employment relationship. This is required if you need further approval by the Federal Employment Agency.
-- Your residence registration in Germany. When you enter Germany, you have to register your address within the first two weeks. Submit the certificate of registration as proof that you primarily live in Germany
-- Academic qualification, or if required recognition of the qualification by the Central Office for Foreign Education (ZAB)
-- Proof of health insurance (if Public submit your electronic health card along with a confirmation of health insurance, if Private submit the certificate from the insurance company along with proof you have paid your contributions
+The EU Blue Card is a work and residence permit for highly skilled workers who are non-EU citizens. Application requirements may vary by country. As you will need a local employment agreement to complete your Blue Card application, current team members will need to [apply for a Long-Term Relocation]({{< ref "relocation#how-to-apply-for-a-long-term-relocation" >}}) to the country from which you are seeking a Blue Card. It is strongly recommended that you wait for approval for your long-term relocation before beginning your EU Blue Card application.
 
 More detailed links on the process:
 
-- [Schengenvisainfo.com/EU-Blue-Card](https://www.schengenvisainfo.com/eu-blue-card/germany/)
-- [Germany-visa.org](https://www.germany-visa.org/immigration-residence-permit/eu-blue-card-germany/)
+- [Schengenvisainfo.com/EU-Blue-Card](https://www.schengenvisainfo.com/eu-blue-card/)
 - [EU Immigration portal](https://ec.europa.eu/immigration/blue-card/essential-information_en#:~:text=How%20long%20can%20I%20work,which%20has%20issued%20the%20card.)
-
-#### Changing Employer
-
-If there is a change in employer within Germany and the blue card has been held for less than two years then you will need to apply to the immigration service in Germany (LEA). If it has been held for more than two years you are free to change employer without needing to amend the blue card, but the new employment contract must still meet the required threshold for eligibility.
-
-### Right to Immigrate to Germany via Blue card
-
-Everyone that meets the following requirements can request to immigrate and relocate to Germany, but you will also still need to pass the formal visa application process to qualify. The requirements are:
-
-1. When using the [compensation calculator]({{< ref "calculator" >}}) you must meet the salary requirement for [Requirements to receive a Blue Card](https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card)
-
-- The following pay elements are not included in the salary criterion and can't be used to meet the minimum salary requirement: The value of payment made in kind; Uncertain, non-regular pay elements (for example overtime allowances, variable bonus and payments from funds).
-- *Note: This calculation should be based on what GitLab **would** pay the team member in Germany in accordance with the compensation calculator, **not** based on the team member's current salary.*
-
-1. You have been a team member at GitLab for one year.
-1. You are not on a Performance Improvement Plan (PIP).
-
-#### Resources
-
-Our `#gitlab-germany` Slack channel is a good place to ask immigration-related questions.
