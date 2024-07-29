@@ -1,5 +1,6 @@
 ---
 title: "Observation Creation Procedure"
+description: "This procedure details the creation process for observations."
 ---
 
 ## Purpose
