@@ -8,7 +8,6 @@ The playbook will ensure you tackle the right problems at the right time by focu
 
 If this is your first time going through the playbook, it's recommended to review [what JTBD is and the main concepts](/handbook/product/ux/jobs-to-be-done/) before getting started.
 
-We've included a [JTBD Canvas](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1) (FigJam) to help teams collaboratively navigate each step.
 
 #### A Note on Time, Confidence, and Validation
 
