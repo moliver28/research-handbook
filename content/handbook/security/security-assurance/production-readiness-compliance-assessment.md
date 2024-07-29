@@ -1,5 +1,6 @@
 ---
 title: "Production Readiness: Compliance Assessment"
+description: "The Compliance Production Readiness Assessment is a process designed to make it clear what obligations systems owners have for configuring and hardening a system/tool/service in order for GitLab to meet its compliance and regulatory obligations."
 ---
 
 The Compliance Production Readiness Assessment is a process designed to make it clear what obligations systems owners have for configuring and hardening a system/tool/service in order for GitLab to meet its compliance and regulatory obligations.
