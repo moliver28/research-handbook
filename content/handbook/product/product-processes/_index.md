@@ -96,49 +96,9 @@ Finally, issues are the substance of your plan. Ensure you are applying the labe
 
 You can mix Direction epics and issues or just use one or the other. Epics will appear before issues in any lists.
 
-### Top ARR Drivers
-
-Top ARR Drivers list is one of our [Sensing Mechanisms](/handbook/product/product-processes/#sensing-mechanisms) at GitLab that Product Managers review as part of prioritizing their roadmaps.
-
-The Product function at GitLab maintains an ordered list of product improvements that would drive ARR in collaboration with Sales Leadership. The order and methodology for ordering this input is discussed in a monthly meeting and maintained in the `Top ARR Drivers for Sales/CS` GoogleSheet which you can find in our internal GoogleDrive.
-
-In preparation for those monthly meetings, Product Managers assigned to the PM Owner for each Top Driver provide a written update (preferably referenced from a GitLab issue) for GTM teams.
-
 ### Key Performance Indicators (KPIs)
 
 The list of Product KPIs and definitions are [here](/handbook/product/performance-indicators/#key-performance-indicators).
-
-### Product Milestone Creation
-
-When planning, Product Managers plan to GitLab milestones. Here is the process for creating and maintaining them.
-
-**One quarter ahead**, the Product Operations team will create the necessary milestones for the next quarter.
-
-Milestone start and end dates are defined as follows:
-
-> The next milestone `m+1` starts the Saturday prior to the current milestone `m`'s release date and runs through the Friday prior to the milestone `m+1`'s release date.
-
-**Step 1: .org**
-
-1. Confirm the release schedule for the upcoming quarter with Product Operations `@justinfarris`
-1. [Go to GitLab Milestones for .org](https://gitlab.com/groups/gitlab-org/-/milestones)
-1. Click on `New milestone` in the top right
-1. Title the milestone with the `dot` release that makes sense.
-    - Note: We iterate through the `.0` and further for each release with the `.0` release every May.
-1. Set the start date to be the Saturday prior to the previous releases [release date](https://about.gitlab.com/releases/)
-1. Set the end date to be the Friday prior to the third Thursday of the release month
-1. Closing milestones happens in the [Engineering workflow](/handbook/engineering/workflow/#milestone-cleanup)
-
-**Step 2: .com**
-
-1. Ensure that `.com` mirrors the `.org` milestones for consistency in Product, Marketing etc.
-1. Ensure that the relevant milestones are created. [Go to GitLab Milestones for .com](https://gitlab.com/groups/gitlab-com/-/milestones)
-1. Click on `New milestone` in the top right
-1. Title the milestone with the `dot` release that matches `.org`.
-    - Note: We iterate through the `.0` and further for each release with the `.0` release every May.
-1. Set the start date to be the Saturday prior to the previous releases [release date](https://about.gitlab.com/releases/)
-1. Set the end date to be the Friday prior to the third Thursday of the release month
-1. Closing milestones happens in the [Engineering workflow](/handbook/engineering/workflow/#milestone-cleanup)
 
 ### Understanding Milestones and Releases
 
@@ -150,14 +110,6 @@ Milestone start and end dates are defined as follows:
 - [Engineering release definitions](/handbook/engineering/releases/)
 - [Feature flag lifecycle](/handbook/product-development-flow/feature-flag-lifecycle/)
 - [Product Launch process](/handbook/product/product-processes/product-launch)
-
-### Execution
-
-1. Design
-1. Backend development
-1. Frontend development
-1. QA and feature assurance
-1. Deploy
 
 ## Communication
 
@@ -602,12 +554,6 @@ In addition to making the appropriate changes listed above to ensure that the ca
 1. The PM receiving the category initiates a review of the direction page and asks the receiving team EM and designer to review the page as well. This helps the team gain basic understanding immediately.
 1. The PM's together identify DRIs and clarify who owns the communication (It is preferred that questions to help understand the category go to the PM instead of the rest of the quad team members. This allows for the rest of the quad team members to stay focus on their new responsibilities).
 1. Create a recording for broader distribution
-
-### Product support requests
-
-Throughout the customer lifecycle, customer facing teams (Support, Sales, Professional Services, Account Managers, etc.) may need the assistance of a product manager. This can include a detailed discussion of our direction, how to address specific use cases, or gaps in functionality, with an organization.
-
-To ensure these requests can be quickly triaged, easily scheduled, and later tracked, there is a standardized request process based on issues.
 
 ## How to work as a PM
 
@@ -1294,7 +1240,6 @@ We recently [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 ###### Buyer
 
 1. Asking probing questions in sales support meetings
-1. Reviewing [Top ARR Drivers](#top-arr-drivers)
 1. Reviewing Customer Success designated top issues
 1. Reviewing the most requested issues from customers using the [Customer Requested Issues (Product) dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) and the [Customer Issues Prioritization Framework handbook page](/handbook/product/product-processes/customer-issues-prioritization-framework/) for guidance.
 1. Tracking open source projects in the same space as part of your competitive analysis is important as well. You can [evaluate these open source options](#evaluating-open-source-software) not just for interesting features and ideas, but potentially to integrate them in our product
@@ -1322,7 +1267,6 @@ We recently [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 Many of the sensing mechanisms described are directly relevant to individual product managers performing regular product group prioritization. There are also a set of unique sensing mechanisms that act as summaries for [Product Leadership](/handbook/product/product-leadership/).
 
 - Attending [QBRs](/handbook/sales/qbrs/) and consuming QBR summaries/highlights
-- Reviewing [Top ARR Drivers](#top-arr-drivers)
 - Consuming weekly opportunity review highlights
 - Regularly reviewing validation track activities ([example](https://about.gitlab.com/direction/ops/#current-validation-track-initiatives))
 - Quarterly cross-section [direction](#section-and-stage-direction) reviews
