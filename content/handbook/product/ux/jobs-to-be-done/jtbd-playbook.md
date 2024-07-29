@@ -23,10 +23,7 @@ You'll also want to create a copy of our [JTBD Canvas Template](https://www.figm
 
 The first step in the JTBD process is identifying your users and their objectives within your product space. This foundation ensures success in subsequent steps.
 
-### Exercise 1: Define Job Performers
-
-#### Sync Workshop
-
+### Exercise 1: Define Job Performers (sync)
 Gather your team for a one-hour sync workshop. At a minimum, include the Product Design DRI and Product Manager. Adding engineering counterparts and your Section's UX Researcher will provide diverse perspectives. Use a Zoom call and the [FigJam JTBD Template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1) created earlier.
 
 The workshop involves four steps:
