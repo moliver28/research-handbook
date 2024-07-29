@@ -56,6 +56,7 @@ Certain policies are now available [here](/handbook/people-policies/#translation
 - [External Materials Compliance Checklist](https://about.gitlab.com/handbook/legal/external-materials-compliance-checklist/)
 - [Insider Trading Policy FAQs](https://docs.google.com/document/d/1vKFiYuieDQtKmrak-aAB2dTT3B3Q-aU4DtbcRm27X4U/edit)
 - [IP Public Materials Guidelines](https://about.gitlab.com/handbook/legal/ip-public-materials-guidelines/)
+- [Learning Content Accessibility Guidelines](/handbook/legal/ethics-compliance-program/learning-content-accessibility-guidelines/)
 - [Materials Legal Review Process](https://about.gitlab.com/handbook/legal/materials-legal-review-process/)
 - [Trade Controls relating to Russia, Belarus, and Ukraine - Sales](https://docs.google.com/document/d/1oT8fj0z313iYcaVxFBo3MtDm5R2KECYmYbWcGFODHKE/edit)
 - [FAQ](https://docs.google.com/document/d/1oT8fj0z313iYcaVxFBo3MtDm5R2KECYmYbWcGFODHKE/edit)
