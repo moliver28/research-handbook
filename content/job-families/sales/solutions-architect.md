@@ -312,7 +312,7 @@ Specialty responsibilities and requirements may extend or overlay [Level roles](
 - Extends the Solutions Architect requirements
 - Experience building solutions and professional services through partnerships
 - Knowledge of all or most of the following categories in the DevOps space: Consulting, Integration, and or Technical Advisory.
-- Technical background with key partnerships such as AWS, GCP, Azure, VMWare, and Hashicorp. Certification in AWS/GCP/Azure is a plus.
+- Technical background with key partnerships such as AWS, GCP, Red Hat. Certifications from these vendors is a plus.
 
 ### Director, Channel & Alliances Solutions Architects
 
