@@ -148,7 +148,6 @@ For a better understanding of the nuances, take a look at "[6 People Who Prove Y
 ## Remote work communities and networking
 
 ![GitLab collaboration](/images/all-remote/gitlab-collaboration.jpg)
-{: .medium.center}
 
 Staying [connected](events/) with remote workers globally is in many ways much easier than staying connected with peers through in-person networking events. Working remotely forces you to be [intentional about everything](management/), and the same is true for forming and fostering relationships and becoming part of one or more remote work communities.
 

@@ -5,9 +5,9 @@ description: "Manage Snowflake Permissions"
 
 ## Quick Links
 
-[Permifrost Project](https://gitlab.com/gitlab-data/permifrost/){:.btn .btn-purple-inv}
+[Permifrost Project](https://gitlab.com/gitlab-data/permifrost/)
 
-[PyPI](https://pypi.org/project/permifrost/){:.btn .btn-purple-inv}
+[PyPI](https://pypi.org/project/permifrost/)
 
 ## Permifrost
 

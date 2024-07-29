@@ -8,7 +8,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-![GitLab customer path](/images/all-remote/gitlab-customer-path.jpg){: .medium.center}
+![GitLab customer path](/images/all-remote/gitlab-customer-path.jpg)
 
 On this page, we're detailing what life can look and feel like when embracing a non-linear workday, paired with suggestions on catalyzing your imagination to consider possibilities that simply are not possible in a colocated, synchronous workplace.
 

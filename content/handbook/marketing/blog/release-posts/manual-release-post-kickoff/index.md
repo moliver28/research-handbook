@@ -27,7 +27,7 @@ Create a merge request with the introductory changes *after the previous post ha
 1. Confirm that "Delete source branch when merge request is accepted" is selected.
 1. Use the release post template for your MR.
 
-   ![release post MR template](release-post-mr-template.png){:.shadow}
+   ![release post MR template](release-post-mr-template.png)
 
 Now that you have created the release post MR, refer to the checklist in the MR for each action that you need to take and the due dates of each action. Keep in mind the MRs for usability improvements, bugs, and performance improvements have their own checklists to be completed, including a task for the Release Post Manager to merge these MR by the 17th prior to final content assembly.
 

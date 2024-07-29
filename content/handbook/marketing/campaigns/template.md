@@ -23,7 +23,7 @@ Always On Lead Generation:
 - :books: Content |
 - :video_camera: On-Demand Webinar |
 
-## Research & Prep {:#research-prep}
+## Research & Prep {#research-prep}
 
 ### Persona & Positioning {#persona-positioning}
 

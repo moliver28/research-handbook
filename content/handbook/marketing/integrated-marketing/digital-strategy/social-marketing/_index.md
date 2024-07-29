@@ -13,42 +13,42 @@ The social marketing team is responsible for the stewardship of the GitLab brand
 
 ### Social Marketing Handbook Pages
 
-[Admin and Project Management](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/admin/){:.btn .btn-purple-inv}
-[Community Management](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/community-management/){:.btn .btn-purple-inv}
-[Social Reporting](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-reporting/){:.btn .btn-purple-inv}
-[Take a Social Training](/handbook/marketing/corporate-communications/resources-trainings/#social-media-trainings){:.btn .btn-purple-inv}
-[Team Member Social Policy](/handbook/marketing/team-member-social-media-policy/){:.btn .btn-purple-inv}
-[Team Member Advocacy](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/){:.btn .btn-purple-inv}
-[Advocacy Curators](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/){:.btn .btn-purple-inv}
+[Admin and Project Management](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/admin/)
+[Community Management](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/community-management/)
+[Social Reporting](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-reporting/)
+[Take a Social Training](/handbook/marketing/corporate-communications/resources-trainings/#social-media-trainings)
+[Team Member Social Policy](/handbook/marketing/team-member-social-media-policy/)
+[Team Member Advocacy](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/)
+[Advocacy Curators](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/)
 
 ### Contact the Social Marketing Team
 
-[Message us in the #social_media_action Slack Channel](https://app.slack.com/client/T02592416/C01AZ9C8Z4G){:.btn .btn-purple-inv}
+[Message us in the #social_media_action Slack Channel](https://app.slack.com/client/T02592416/C01AZ9C8Z4G)
 
 ### Current Major Project Links
 
 #### Brand Campaigns
 
-[Brand Refresh](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2592){:.btn .btn-purple}
-[GitLab 15](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2591){:.btn .btn-purple}
-[Social Community Contributor](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2590){:.btn .btn-purple}
+[Brand Refresh](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2592)
+[GitLab 15](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2591)
+[Social Community Contributor](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2590)
 
 #### Events
 
-[KubeCon EU 2022](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2564){:.btn .btn-purple}
-[REMOTE by GitLab event 2022](https://gitlab.com/groups/gitlab-com/-/epics/1728){:.btn .btn-purple}
-[GitLab Commit 2022](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2578){:.btn .btn-purple}
-[AWS reInvent 2022](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2589){:.btn .btn-purple}
+[KubeCon EU 2022](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2564)
+[REMOTE by GitLab event 2022](https://gitlab.com/groups/gitlab-com/-/epics/1728)
+[GitLab Commit 2022](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2578)
+[AWS reInvent 2022](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2589)
 
 #### Talent Brand
 
-[FY23 Social Talent Brand](https://gitlab.com/groups/gitlab-com/-/epics/1729){:.btn .btn-purple}
+[FY23 Social Talent Brand](https://gitlab.com/groups/gitlab-com/-/epics/1729)
 
 #### Other Campaigns
 
-[2022 DevSecOps Survey](https://gitlab.com/groups/gitlab-com/-/epics/1730){:.btn .btn-purple}
-[2022 Remote Playbook](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5532){:.btn .btn-purple}
-[2022 Remote Work Report](https://gitlab.com/groups/gitlab-com/marketing/corporate_marketing/-/epics/193){:.btn .btn-purple}
+[2022 DevSecOps Survey](https://gitlab.com/groups/gitlab-com/-/epics/1730)
+[2022 Remote Playbook](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5532)
+[2022 Remote Work Report](https://gitlab.com/groups/gitlab-com/marketing/corporate_marketing/-/epics/193)
 
 ---
 
@@ -104,7 +104,7 @@ No hard selling 🥎 - We throw softballs only.
 
 ## FY23 OKRs
 
-[Check out the FY23 OKR Epic here](https://gitlab.com/groups/gitlab-com/marketing/corporate_marketing/-/epics/184){:.btn .btn-purple-inv}
+[Check out the FY23 OKR Epic here](https://gitlab.com/groups/gitlab-com/marketing/corporate_marketing/-/epics/184)
 
 ## FY23 Content Strategy
 
@@ -139,7 +139,7 @@ Elevate our brand on social by delivering on intentional and properly planned ca
 
 Elevation requires siginficant campaign planning, above years' past. The social team has already begun this work by developing a quarterly brief form and sync meeting program where the team connections with stakeholders across the marketing organization to better plan and understand critical campaigns.
 
-[Social Quarterly Brief Form](https://forms.gle/7J7X28Pm6Ti12Ein9){:.btn .btn-purple-inv}
+[Social Quarterly Brief Form](https://forms.gle/7J7X28Pm6Ti12Ein9)
 
 ### Remember when considering OKRs for organic social media
 
@@ -196,7 +196,7 @@ If the blog is connected to an integrated campaign, it will be picked up in the 
 
 On a quarterly basis the social media team will identify the best performing blogs. The top 2-3 blogs will then be reintroduced and scheduled to publish on GitLab's Brand Social Channels.
 
-[Check out the blog content workflow for social on our admin page](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/admin/#blog-coverage-workflow){:.btn .btn-purple-inv}
+[Check out the blog content workflow for social on our admin page](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/admin/#blog-coverage-workflow)
 
 ## Sharing monthly releases
 

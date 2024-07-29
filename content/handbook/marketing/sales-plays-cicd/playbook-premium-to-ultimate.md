@@ -230,19 +230,19 @@ This sequence of recommended emails is intended to move the prospect from intere
 * Marketing will be sending these emails to SMB targets generate leads.
 * MM and ENT Sales will choose the best email to start with based upon current conversations. Then use the template to send it to the contacts provided and any additional, to generate leads.
 
-1. [Email template 1](https://docs.google.com/document/d/1uqRa9VUqFP0GVvuiqMOczjJOo8-OAd9d2q7pa04Orow/edit?usp=sharing){:target="_blank"}
+1. [Email template 1](https://docs.google.com/document/d/1uqRa9VUqFP0GVvuiqMOczjJOo8-OAd9d2q7pa04Orow/edit?usp=sharing)
 
    Subject: **Interested in speed and security?**
 
    Offer 1: [From DevOps to DevSecOps: Automate your security tests with CI](https://docs.google.com/document/d/1uqRa9VUqFP0GVvuiqMOczjJOo8-OAd9d2q7pa04Orow/edit#bookmark=id.7jua79vyici7)
 
-1. [Email template 2](https://docs.google.com/document/d/1uqRa9VUqFP0GVvuiqMOczjJOo8-OAd9d2q7pa04Orow/edit#bookmark=id.mpc3s9pyes5e){:target="_blank"}
+1. [Email template 2](https://docs.google.com/document/d/1uqRa9VUqFP0GVvuiqMOczjJOo8-OAd9d2q7pa04Orow/edit#bookmark=id.mpc3s9pyes5e)
 
    Subject: **Learn how to deploy to production 6x faster**
 
    Offer 2: [How Chorus uses GitLab to power its development](https://learn.gitlab.com/c/chorus-gitlab?x=h7zzhf&utm_medium=email&utm_source=gmail&utm_campaign=premtoultimatesp&utm_content=choruscasestudy)
 
-1. [Email template 3](https://docs.google.com/document/d/1uqRa9VUqFP0GVvuiqMOczjJOo8-OAd9d2q7pa04Orow/edit#bookmark=id.4dnnwki2f1vq){:target="_blank"}
+1. [Email template 3](https://docs.google.com/document/d/1uqRa9VUqFP0GVvuiqMOczjJOo8-OAd9d2q7pa04Orow/edit#bookmark=id.4dnnwki2f1vq)
 
    Subject: **No more afterthought security**
 

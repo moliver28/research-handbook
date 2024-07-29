@@ -8,13 +8,10 @@ description: "GitLab Cost Management"
 ## Quick Links
 
 [Infrafin Board](https://gitlab.com/groups/gitlab-com/-/boards/1502173?label_name%5B%5D=infrafin)
-{:.btn .btn-purple}
 
 [Cost Management Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/103)
-{:.btn .btn-purple}
 
 [Dashboards](https://app.periscopedata.com/app/gitlab/topic/infrafin/abf4ddd16c954c2d9362f8af28a1be8b)
-{:.btn .btn-purple}
 
 ## Mission
 

@@ -22,7 +22,7 @@ For GitLab Team Members only
 
 ## FY23 focuses
 
-[Check out the FY23 OKR Epic here](https://gitlab.com/groups/gitlab-com/marketing/corporate_marketing/-/epics/184){:.btn .btn-purple-inv}
+[Check out the FY23 OKR Epic here](https://gitlab.com/groups/gitlab-com/marketing/corporate_marketing/-/epics/184)
 
 ### Reporting changes in FY23
 
@@ -110,9 +110,9 @@ We'll wrap each quarter with an issue outlining performance and insights. Please
 
 ### Annual Reporting
 
-[FY22 Performance Review Deck](https://docs.google.com/presentation/d/1_rLCvBP3fz0ttPOteRphOoAEji_LMvT1sfHrUYC91Gw/edit#slide=id.g639141d4c5_0_15){:.btn .btn-purple-inv}
+[FY22 Performance Review Deck](https://docs.google.com/presentation/d/1_rLCvBP3fz0ttPOteRphOoAEji_LMvT1sfHrUYC91Gw/edit#slide=id.g639141d4c5_0_15)
 
-[FY21 Performance Review Deck](https://docs.google.com/presentation/d/1nlnysWmeVShRK4-frKKkKfUdBPz96qBOAkt26RmZmAM/edit?usp=sharing){:.btn .btn-purple-inv}
+[FY21 Performance Review Deck](https://docs.google.com/presentation/d/1nlnysWmeVShRK4-frKKkKfUdBPz96qBOAkt26RmZmAM/edit?usp=sharing)
 
 Annual reports should encompass all consumption methods: Epics, issues, written summaries, a deck, and a recording of the deck with the social team reviewing.
 

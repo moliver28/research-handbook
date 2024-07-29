@@ -7,7 +7,7 @@ twitter_site: gitlab
 twitter_creator: gitlab
 ---
 
-[Login to Bambu via Okta SSO](https://gitlab.getbambu.com/login){:.btn .btn-purple-inv}
+[Login to Bambu via Okta SSO](https://gitlab.getbambu.com/login)
 
 ## Team Member Social Media Advocacy and Enablement
 
