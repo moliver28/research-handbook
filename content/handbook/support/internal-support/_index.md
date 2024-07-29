@@ -267,7 +267,11 @@ A copy of the license email sent to the customer is automatically logged under t
 
 ### Request for a license as a GitLab Team Member
 
-[Open an Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitLab_Team_Member_License_request) using the `GitLab_Team_Member_License_request` template
+File a submission via the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/):
+
+1. Fill in your work email
+2. Select "Request a team member license" 
+3. Select a plan level
 
 ### GitLab.com Billable Members List
 
