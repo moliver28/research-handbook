@@ -91,8 +91,6 @@ After all interviews have been completed, reviewed, and labeled in Dovetail, itâ
     - Move sticky notes into the category that aligns most closely with the timing the performer would complete each step. Remove duplicates along the way.
 1. **Organize Steps:**
     - Organize sticky notes from each category into vertical stacks. These are related steps the Job Performer would complete, moving vertically down the stack (top to bottom) before moving on to the next stacked step.
-1. **Add Stage Names:**
-    - Above each vertical stack, add a sticky with stage names or modes of operation. These should be high-level, single-word verbs that describe the collection of steps below them.
 
 **Note:** There should be at least one Job Step under each of the eight Stages. Job Steps must be listed in the ideal order a Job Performer will follow to get the job done to avoid waste, process iteration, churn, and failure.
 
