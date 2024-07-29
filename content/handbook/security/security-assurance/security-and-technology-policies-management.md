@@ -1,5 +1,6 @@
 ---
 title: "Security and Technology Policies Management"
+description: "This policy is intended to establish requirements for the creation and management of security and technology related policies."
 ---
 
 ## Purpose
