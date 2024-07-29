@@ -50,7 +50,7 @@
 {{- end -}}
     <tr>
         <td>{{ .name }}</td>
-        <td class="text-center"><span class="badge bg-primary">{{- $maturity -}}</span></td>
+        <td class="text-center"><span class="badge bg-primary">NEW {{- $maturity -}}</span></td>
         <td>
         {{- with .marketing_page -}}
         <a href="{{.}}">Marketing Page</a><br>

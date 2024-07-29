@@ -51,7 +51,12 @@ to be fewer categories, or shorter category names, if the aggregate number of
 lines when rendered would exceed 13 lines, when accounting for category names
 to word-wrap, which occurs at approximately 15 characters.
 Categories are maintained in [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml).
-Each category has a corresponding [`Category:<Category>` label](https://docs.gitlab.com/ee/development/labels/index.html#category-labels) under the `gitlab-org` group. Category maturity is managed in the product [Category Maturity Change](/handbook/product/categories/#changing-category-maturity) process
+Each category has a corresponding [`Category:<Category>` label](https://docs.gitlab.com/ee/development/labels/index.html#category-labels) under the `gitlab-org` group.
+
+Category maturity denotes how mature a given category is, ranging from
+Category maturity is managed in the product [Category Maturity Change](/handbook/product/categories/#changing-category-maturity) process
+
+
 1. **Features**: Small, discrete functionalities. e.g. Issue weights. Some
 common features are listed within parentheses to facilitate finding
 responsible PMs by keyword.
@@ -246,6 +251,7 @@ When changing an existing category name, there are some considerations to the or
 We primarily use the [Category Maturity Scorecard](/handbook/product/ux/category-maturity/category-maturity-scorecards) process to determine category maturity.
 
 Typically, category maturity moves up from planned to minimal to viable to complete to lovable. However, maturity can also be downgraded. For example, in cases where we discover a JTBD is not met (see [example](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/74367)), or when we [change the definition of maturity](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/92858), we may choose to move category maturity down.
+Maturity may also be moved to community-led, which is similar to a maintenance mode.
 
 When downgrading product maturity, we adjust our customer's current expectations about our product. This is particularly impactful to our go-to-market team members in customer success and product marketing. We need to do the following to enable alignment between all affected and interested parties:
 
