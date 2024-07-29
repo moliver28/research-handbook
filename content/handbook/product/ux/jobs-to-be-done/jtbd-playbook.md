@@ -48,7 +48,7 @@ This exercise involves four steps:
 
 By following these instructions, you'll systematically convert the raw data from Exercise 1 into clear, actionable Job Statements, which will be used as guides for the next steps in this JTBD process.
 
-## Investigation Interviews, Job Mapping and Outcome Survey Preparation
+## Investigation Interviews, Job Mapping, and Outcome Survey Preparation
 
 The goal of this phase is to understand the Job and the process used for completing it by conducting qualitative interviews with representative Job Performers. The data from these interviews will provide insights into how our product's Job Performers accomplish their tasks and will inform the next steps in building and updating our product.
 
