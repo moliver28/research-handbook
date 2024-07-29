@@ -2196,7 +2196,6 @@ Consider using the following template to close an issue:
 > still relevant, we can then reopen it. See /handbook/product/product-processes/#issues
 > for more detail about this policy.
 
-
 ### Epics
 
 Issues related to the same feature should be bundled together into an
