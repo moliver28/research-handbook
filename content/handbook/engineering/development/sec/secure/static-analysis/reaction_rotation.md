@@ -33,4 +33,4 @@ Periodically, questions are posted in the [section-sec-request-for-help](https:/
 
 #### Slack Questions
 
-Check the [Static Analysis Slack Channel](https://gitlab.enterprise.slack.com/archives/CLA54H7PY) and respond to any questions asked. As with [Requests for Help](#requests-for-help), if the question concerns a bug or feature request, create an issue so that it can be prioritized.
+Check the [Static Analysis Slack Channel](https://gitlab.enterprise.slack.com/archives/CLA54H7PY) and respond to any questions asked or delegate/ping a person that may know the answer. As with [Requests for Help](#requests-for-help), if the question concerns a bug or feature request, create an issue and tag `@gitlab-org/secure/static-analysis/blue`, EM and PM so that it can be prioritized.
