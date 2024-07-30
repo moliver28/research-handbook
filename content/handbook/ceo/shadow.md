@@ -560,7 +560,7 @@ At the conclusion of the call, the CEO Shadows should remove themselves from doc
 
 It's important to set the correct tone, so please stick to the following introductions verbatim.
 
-When attending [Valley meetings](#valley-meetings) please be sure to use the **For Valley meetings** intro. It can cause much confusion if you mention GitLab when Sid is acting in an individual capacity.
+When attending [Valley meetings](#valley-meetings) please be sure to omit the portion about your GitLab title. It can cause much confusion if you mention GitLab when Sid is acting in an individual capacity.
 
 When attending investor meetings, please introduce yourself and hand it off to the next team member by announcing their name.
 
