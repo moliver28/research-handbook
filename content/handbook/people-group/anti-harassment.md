@@ -167,8 +167,7 @@ Serious cases, including any criminal offence.
 - Reported to the Police/Authorities
 
 ## Training & Guidance
-
-Training and guidance on understanding, preventing, and dealing with discrimination and sexual harassment will be provided in Navex to team members during onboarding and at regular intervals thereafter. The specific course edition assigned to any given team member will be determined by [a combinations of factors](https://handbook.gitlab.com/handbook/legal/ethics-compliance-program/#training), including the team members role, geography, and, for managers, the location of their direct reports.
+Training and guidance on understanding, preventing, and dealing with discrimination and sexual harassment will be provided in Navex to team members during onboarding and at regular intervals thereafter. The specific course edition assigned to any given team member will be determined by [a combinations of factors](/handbook/legal/ethics-compliance-program/#training), including the team members role, geography, and, for managers, the location of their direct reports.
 ## Country & US State-Specific Requirements
 
 ### GitLab BV (The Netherlands)
