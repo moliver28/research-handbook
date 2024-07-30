@@ -73,7 +73,7 @@ The framework is powered by a model that consists of several key components:
 - Priority Score
 - Weighted priority score
 
-### Customer Links
+### Customer links
 
 To link an account, opportunity, or support ticket to an issue or epic, [use the feedback template and Salesforce/Zendesk link](/handbook/product/how-to-engage/#a-customer-expressed-interest-in-a-feature) to add a comment to the issue or epic in `gitlab-org` or any project or sub-group within this top-level namespace (ex: `/gitlab-org/gitlab`). For best results, only include one Salesforce or Zendesk link per comment. If you want to "unlink" an account from an issue or epic, simply remove the Salesforce or Zendesk link from the respective comment(s) on the issue or epic.
 
@@ -90,6 +90,10 @@ Supported link types:
 1. If multiple comments or references on an issue link to the same account or opportunity, the most recently updated comment is used.
 1. If an issue is marked as a duplicate of another issue, the GitLab team member will need to add the comment with the link and `~customer priority::` label to the respective open issue.
 1. For completeness sake, `/gitlab-org/...` issues that are referenced in a customer's collaboration project creates an automated link between the account and the issue/epic, but the recommended path to take full advantage of the model is to add a comment directly to the `/gitlab-org/...` issue as `~customer priority::` can't be defined from a collaboration project.
+
+### Theme labels
+
+You can add any number of `~theme:...` labels to issues or epics to enable aggregating priority score grouped by theme labels within the dashboard. Using theme labels is a helpful for tool for segmenting different groups of related customer requested issues. **Note:** Aggregate values are not de-duplicated among all theme labels. For example, if the priority score of Issue A is 100 and it has two theme labels, the value aggregated for each theme label will be 100. 
 
 ### Priority points
 
