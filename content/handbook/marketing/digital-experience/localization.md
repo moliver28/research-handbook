@@ -93,7 +93,7 @@ The language selector is the only place that can update the saved language in th
 
 #### Links Localization
 
-Our application includes a [Vue Mixin](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/mixins/live-preview.mixin.ts?ref_type=heads) used across all pages. This Mixin scans each page for links that might be localized.
+Our application includes a [Vue Mixin](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/mixins/localized-href.mixin.ts?ref_type=headss) used across all pages. This Mixin scans each page for links that might be localized.
 
 The Mixin checks the user's browser for their preferred language. If it finds a localized version of a link that exists, the localized version of the preferred language link will be statically generated.
 
