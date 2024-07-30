@@ -594,16 +594,6 @@ To create the contract:
 1. Once  CES receives confirmation that the candidate has signed the Remote.com contract (can be viewed in portal), they will continue steps as normal - send Welcome Email and [mark the candidate as hired](coordinator/#send-contract). See steps 10-12.
 1. The CES will adjust the 'Accepted' date to match the 'Sent' date.
 
-## Advance Funds process for locations GitLab can not order laptops
-
-There are a handful of countries, listed [here](/handbook/business-technology/end-user-services/onboarding-access-requests/#new-hire-laptop-ordering-process) where new hires will need to procure their own laptop before their start date.
-
-1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Brazil, Costa Rica, Chile template.
-1. This email uses a different Google form than the regular Welcome Email. The new hire will be presented with two options and be asked to select their preference:
-    - Purchase and expense for reimbursement through NAVAN on their first day at GitLab
-    - Request advanced funds to self-procure
-1. IT will receive an issue in their [IT Equipment Order Processing](https://gitlab.com/gitlab-com/it/end-user-services/issues/it-equipment-order-processing/-/issues/?sort=closed_at_desc&state=opened&first_page_size=100) desk with the new hire's selection. If the candidate has requested advanced funds, IT will then tag AP within the issue and provide approval for the laptop purchase. AP will gather the new hire's banking details and release the funds.
-
 ## How to add the New Hire to the Remote platform
 
 1. Log into the [Remote](https://employ.remote.com/dashboard) platform
@@ -698,6 +688,16 @@ If there are any questions, these should be directed to help@remote.com.
 1. Once CES approves the offer, Papaya will extend it to the candidate.
 1. Should there be any questions or amendments that need to be made, depending on their complexity, they could have to be directed to the Local Team (48 hours), then back to the Legal Team (24 hours), before making its way back to us again for reapproval, then issued to the candidate again.
 1. Once the candidate accepts, Papaya will inform us.
+
+## Advance Funds process for locations GitLab can not order laptops
+
+There are a handful of countries, listed [here](/handbook/business-technology/end-user-services/onboarding-access-requests/#new-hire-laptop-ordering-process) where new hires will need to procure their own laptop before their start date.
+
+1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Brazil, Costa Rica, Chile template.
+1. This email uses a different Google form than the regular Welcome Email. The new hire will be presented with two options and be asked to select their preference:
+    - Purchase and expense for reimbursement through NAVAN on their first day at GitLab
+    - Request advanced funds to self-procure
+1. IT will receive an issue in their [IT Equipment Order Processing](https://gitlab.com/gitlab-com/it/end-user-services/issues/it-equipment-order-processing/-/issues/?sort=closed_at_desc&state=opened&first_page_size=100) desk with the new hire's selection. If the candidate has requested advanced funds, IT will then tag AP within the issue and provide approval for the laptop purchase. AP will gather the new hire's banking details and release the funds.
 
 **GitLab and New Hire:**
 
