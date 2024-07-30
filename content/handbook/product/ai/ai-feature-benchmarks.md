@@ -104,7 +104,7 @@ Without such in place efficient development iteration and following up on user f
 How easy the AI-powered feature is to learn and use.
 
 **Benchmark**
-Usability eval led by a member of UX.
+Usability eval led by a member of UX. [See AI usability metric for details](../../product/ux/ux-research/research-in-the-ai-space/AI_usability_metric_chart.png).
 
 **Measurement**
 Scoring depends on feature maturity. 
@@ -147,6 +147,7 @@ Scoring depends on feature maturity.
 
 ## Resources
 
+- [Doing Research in the AI Space](../../product/ux/ux-research/research-in-the-ai-space/index.md)
 - [GitLab AI Strategy](link-to-strategy-doc)
 - [Industry AI Evaluation Standards](link-to-standards)
 - [Setting Up A/B Tests in GitLab](link-to-ab-test-guide)
