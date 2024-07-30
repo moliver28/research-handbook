@@ -96,22 +96,50 @@ The following sections provide an overview of all content assets, and links to f
 
 ### Content Categorisation
 
-1. <i class="fa-brands fa-wpexplorer" style="color: #B197FC;"></i> Exploration
-    - Clarity and simplicity of demonstration and labs.
-    - Accessibility and user-friendliness of content for beginners.
-    - Frequency of updates aligned to GitLab releases.
-    - Breadth of topics covered that introduce GitLabs core functionalities.
-2. <i class="fa-solid fa-group-arrows-rotate" style="color: #B197FC;"></i> Engagement
-    - Depth and technical detail provided in demonstrations and webinars.
-    - Relevance and practicality of labs, focusing on real-world applications.
-    - Level of interaction and feedback mechanisms during webinars and labs.
-    - Integration of user feedback into content updates and improvements.
-3. <i class="fa-solid fa-brain" style="color: #B197FC;"></i> Mastery
-    - Expertise of presenters and depth of technical content.
-    - Innovation and advanced insights into using GitLab effectively in complex scenarios.
-    - Consistency and continuity in advanced topic coverage over time.
-    Evidence of leading-edge practices and cutting-edge use cases.
+1. <i class="fa-brands fa-wpexplorer" style="color: #B197FC;"></i> Sandbox
+    - Simple and clear demonstrations for beginners.
+    - Easy-to-follow labs and tutorials.
+    - Regular updates to align with GitLab's latest features.
+    - Broad coverage of GitLab's core functionalities.
+    - Metrics showing high engagement from new users.
+2. <i class="fa-solid fa-group-arrows-rotate" style="color: #B197FC;"></i> Incubating
+    - Exploration of new or emerging GitLab features and use cases.
+    - Moderate level of technical depth, suitable for intermediate users.
+    - Regular content updates to reflect GitLab's evolving capabilities.
+    - Incorporation of user feedback to refine and improve content.
+    - Metrics showing growing engagement and positive user responses.
+3. <i class="fa-solid fa-brain" style="color: #B197FC;"></i> Graduated
+    - Comprehensive coverage of advanced GitLab features and workflows.
+    - Regular updates to reflect the latest GitLab developments and best practices.
+    - High level of interactivity, including advanced Q&A sessions and expert panels.
+    - Incorporation of real-world case studies and complex problem-solving scenarios.
+    - Metrics showing consistent high engagement and positive feedback from advanced users.
 4. <i class="fa-solid fa-box-archive" style="color: #B197FC;"></i> Archive
+    - Content that is no longer relevant or up-to-date.
+    - Regularly reviewed and removed from active circulation.
+    - May be kept for historical reference or repurposed in the future.
+    - Metrics showing declining engagement or relevance to current GitLab offerings.
+
+### Demos
+
+| Title | Group | Last updated | Contributors | Categorisation |
+|-------|-------|--------------|--------------|----------------|
+| [GitLab CI/CD](https://www.youtube.com/watch?v=ZQBAuf-CTAY) | Verify | 2023-10-13 | | |
+| [GitLab Value Stream Management](https://www.youtube.com/watch?v=bwTsmst06y0) | Plan | 2023-10-13 | | |
+| [GitLab Security](https://www.youtube.com/watch?v=Xm07f2_PuoI) | Secure | 2023-10-13 | | |
+| [GitLab Compliance](https://www.youtube.com/watch?v=0YGVR2HnXmI) | Govern | 2023-10-13 | | |
+| [GitLab AI](https://www.youtube.com/watch?v=Xm07f2_PuoI) | Data Science | 2023-10-13 | | |
+
+### Tutorials
+
+| Title | Group | Last updated | Contributors | Categorisation |
+|-------|-------|--------------|--------------|----------------|
+| [Getting Started with GitLab](https://docs.gitlab.com/ee/tutorials/getting_started.html) | All | 2023-10-13 | | |
+| [CI/CD for Beginners](https://docs.gitlab.com/ee/ci/quick_start/) | Verify | 2023-10-13 | | |
+| [Secure Your Application](https://docs.gitlab.com/ee/user/application_security/) | Secure | 2023-10-13 | | |
+| [Manage Your Code with GitLab](https://docs.gitlab.com/ee/user/project/repository/) | Create | 2023-10-13 | | |
+| [Collaborate with GitLab](https://docs.gitlab.com/ee/user/project/merge_requests/) | Create | 2023-10-13 | | |
+
 
 ### Webinars
 
@@ -177,9 +205,22 @@ The following sections provide an overview of all content assets, and links to f
 
 ## <i class="fa-brands fa-square-gitlab" style="color: #ff9500;"></i> Content Contribution
 
-...
+### Prioritisation
 
-### Content Distribution Workflow
+When prioritising content we consider the following key factors:
+
+1. **Customer Insights:** Content based on direct customer feedback and common pain points to ensure relevance and immediate value.
+2. **Business Alignment:** Content aligned with GitLabs strategic goals and product launches to support broader business objectives.
+3. **Educational Impact:** Content that offers deep educational value and unique insights not widely available elsewhere.
+4. **Demand and Audience:** Evaluate potential interest and audience size using past engagement metrics; prioritise content that can attract a broad audience.
+5. **Expertise and Resources:** Ensure availability of expert speakers and necessary logistical support, including technology and marketing resources.
+6. **Marketing and Enablement:** Opt for content that enhances brand reputation and has the potential to enable our existing customers.
+
+### Suggesting Content
+
+GitLab Team Members can contribute by submitting ideas using the [Content Idea Template](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/new?issuable_template=content-idea-template).
+
+## Content Distribution Workflow
 
 After content has been crafted and published, the next step is distribution. Here are some steps to assist in the process:
 
