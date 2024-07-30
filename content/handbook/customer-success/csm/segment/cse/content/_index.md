@@ -87,13 +87,14 @@ You can search for relevant content and contact the team in the linked content p
 
 The following sections provide an overview of all content assets, and links to find them.
 
-#### Environments/Infrastructure to support Demonstrating Content
+### Environments/Infrastructure to support Demonstrating Content
+
 - Build Your Own - Self service. GCP/AWS [Cloud Sandoxes](handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project)
 - Self-Managed - Shared Omnibus instance [cs.gitlabdemo.cloud](https://cs.gitlabdemo.cloud) (Demo Cloud) with visibility of Admin areas.
 - SaaS - GitLab Licensed Demo Groups [Premium and Ultimate Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitlabCom_Licensed_Demo_Group_Request)
 - [Produce effective demos with OBS Studio](https://docs.google.com/document/d/1kchnm55N8zx8tBBsxilWadGqBndhvb5d4eG9LsSS6DA/edit#heading=h.quzn6r2hna1l)
 
-#### Content Categorisation
+### Content Categorisation
 
 1. <i class="fa-brands fa-wpexplorer" style="color: #B197FC;"></i> Exploration
     - Clarity and simplicity of demonstration and labs.
@@ -111,7 +112,6 @@ The following sections provide an overview of all content assets, and links to f
     - Conistency and continuity in advanced topic coverage over time.
     Evidence of leading-edge practices and cutting-edge use cases.
 4. <i class="fa-solid fa-box-archive" style="color: #B197FC;"></i> Archive
-    
 
 ### Webinars
 
@@ -128,7 +128,7 @@ The following sections provide an overview of all content assets, and links to f
 | [Security and Compliance](https://drive.google.com/file/d/1UK56of57h-BVccZODI5awKTZUnpEq8fF/view?usp=drive_link) | Secure | 2023-10-31 | | |
 | [Jira to GitLab](https://drive.google.com/file/d/1ME_oU5zGtySPoAf8_I-3u5jJZW-kBMSo/view?usp=drive_link) | Verify | 2023-12-18 | | |
 | [GitLab Administration (SaaS)](https://drive.google.com/file/d/1JQYVed7StwOBGEnzmsT7yiDmDfNSkx_a/view?usp=drive_link) | Core Platform | 2023-10-23 | | |
-| [GitLab Runners](https://drive.google.com/file/d/1nxglK5j8D5XsbZTaylN-HbbVJ0gKojJd/view?usp=drive_link) | Verify | 2024-01-17 | |
+| [GitLab Runners](https://drive.google.com/file/d/1nxglK5j8D5XsbZTaylN-HbbVJ0gKojJd/view?usp=drive_link) | Verify | 2024-01-17 | | |
 | [Vulnerability Management Strategies](https://drive.google.com/file/d/1DRhHsgeqRPGpu2NR5726QSGqg6bh7aJS/view?usp=drive_link) | Govern | 2024-05-07 | | |
 | [Seperation of Duties](https://drive.google.com/file/d/16YcUdYDNPP0x0vXzG01OsCODVnYhYe4O/view?usp=drive_link) | Govern | 2024-06-18 | | |
 | [What's New! GitLab 17.0](https://drive.google.com/file/d/11EhjSsgMepd9iZYY9vNz8LFoQPLGVNuS/view?usp=drive_link) | All | 2024-06-04 | | |
