@@ -65,7 +65,7 @@ We have CSA specific processes that go above and beyond the CSM role. It is expe
 2. Kick-off Call
    1. Scheduled via the introduction email for at 1 - 2 weeks out
    2. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around
-   3. Utilize the slide [template](https://docs.google.com/presentation/d/17GG91Cm3dwNnYP6abhnZrt8r2UgBzuhDjaAxLFsXWgw/edit#slide=id.g26fcfeb948b_1_480) (internal)
+   3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal)
    4. Share the .pdf version post call as well as immediate next steps, such as a discovery workshop
    
 ### Logging Accelerator Events
