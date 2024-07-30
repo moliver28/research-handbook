@@ -316,7 +316,7 @@ By the Friday 2 weeks before the end of the current milestone each **Engineer** 
   - **Note:** Any issues you have in progress that will not be completed in the current milestone can be used in lieu of selecting a new issue as long as the criteria matches
     - If you are unsure if the issues you have in progress are still a priority check with the EM and PM to verify.
     - Update the ~Deliverable or ~Stretch label if there is one if necessary
-- Select 1 [`Candidate::x.x` + not `Engineering Time` issue](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=candidate%3A%3A17.x&label_name%5B%5D=group%3A%3Apipeline%20execution&not%5Blabel_name%5D%5B%5D=Engineering%20Time&first_page_size=20) that you will work on in the upcoming milestone. 
+- Select 1 [`Candidate::x.x` + not `Engineering Time` issue](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&not%5Blabel_name%5D%5B%5D=Engineering%20Time&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=candidate%3A%3A17.x&first_page_size=20) that you will work on in the upcoming milestone. 
   - Assign yourself
   - Assure there is a weight set
   - Set the milestone according to the milestone when you expect the work to complete
