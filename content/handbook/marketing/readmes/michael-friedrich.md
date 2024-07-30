@@ -1,6 +1,6 @@
 ---
-title: "Michael 'dnsmichi' Friedrich README (Senior Developer Advocate)"
-description: "Learn more about working with Michael 'dnsmichi' Friedrich, Senior Developer Advocate, GitLab"
+title: "Michael 'dnsmichi' Friedrich README (Staff Developer Advocate)"
+description: "Learn more about working with Michael 'dnsmichi' Friedrich, Staff Developer Advocate, GitLab"
 job: "Developer Advocate"
 ---
 
