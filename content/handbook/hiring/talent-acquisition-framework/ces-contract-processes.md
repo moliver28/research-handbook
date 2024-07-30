@@ -656,6 +656,7 @@ If there are any questions, these should be directed to help@remote.com.
 1. Click on yearly billing cycle and click continue.
 1. You will now be able to review all the candidate and contract details, you are able to edit them should you wish.
 1. Once you have reviewed, and everything is in order, click 'invite now'.
+1. Please select the option to "add this employee to a single employee plan"
 1. Your candidate has been submitted successfully. You are able to see the progress on the Remote homepage.
 
 ## How to add the New Hire to the Papaya platform
