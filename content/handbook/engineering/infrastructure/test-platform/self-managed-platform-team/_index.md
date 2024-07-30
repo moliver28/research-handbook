@@ -199,7 +199,10 @@ GitLab Performance Tool
 {{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/GitlabPerformanceTool?:iid=3" >}}
 {{< /tableau >}}
 
-[Requests from Slack](https://10az.online.tableau.com/t/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/RequestsFromSlack?:origin=card_share_link&:embed=n)
+Requests from Slack
+
+{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/RequestsFromSlack?:iid=3" >}}
+{{< /tableau >}}
 
 ## Test Platform process across product sections
 
