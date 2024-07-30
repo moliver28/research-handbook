@@ -120,27 +120,6 @@ The following sections provide an overview of all content assets, and links to f
     - May be kept for historical reference or repurposed in the future.
     - Metrics showing declining engagement or relevance to current GitLab offerings.
 
-### Demos
-
-| Title | Group | Last updated | Contributors | Categorisation |
-|-------|-------|--------------|--------------|----------------|
-| [GitLab CI/CD](https://www.youtube.com/watch?v=ZQBAuf-CTAY) | Verify | 2023-10-13 | | |
-| [GitLab Value Stream Management](https://www.youtube.com/watch?v=bwTsmst06y0) | Plan | 2023-10-13 | | |
-| [GitLab Security](https://www.youtube.com/watch?v=Xm07f2_PuoI) | Secure | 2023-10-13 | | |
-| [GitLab Compliance](https://www.youtube.com/watch?v=0YGVR2HnXmI) | Govern | 2023-10-13 | | |
-| [GitLab AI](https://www.youtube.com/watch?v=Xm07f2_PuoI) | Data Science | 2023-10-13 | | |
-
-### Tutorials
-
-| Title | Group | Last updated | Contributors | Categorisation |
-|-------|-------|--------------|--------------|----------------|
-| [Getting Started with GitLab](https://docs.gitlab.com/ee/tutorials/getting_started.html) | All | 2023-10-13 | | |
-| [CI/CD for Beginners](https://docs.gitlab.com/ee/ci/quick_start/) | Verify | 2023-10-13 | | |
-| [Secure Your Application](https://docs.gitlab.com/ee/user/application_security/) | Secure | 2023-10-13 | | |
-| [Manage Your Code with GitLab](https://docs.gitlab.com/ee/user/project/repository/) | Create | 2023-10-13 | | |
-| [Collaborate with GitLab](https://docs.gitlab.com/ee/user/project/merge_requests/) | Create | 2023-10-13 | | |
-
-
 ### Webinars
 
 | Title | Group | Last updated | Contributors | Categorisation |
