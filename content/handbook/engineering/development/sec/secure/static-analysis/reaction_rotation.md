@@ -29,7 +29,7 @@ Security Reports to Review:
 
 #### Requests for Help
 
-Periodically, questions are posted in the [section-sec-request-for-help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help) project. During Reaction Rotation, the assigned engineer should review the [Static Analysis Requests for Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues?first_page_size=20&label_name%5B%5D=Help%20group%3A%3Astatic%20analysis&sort=created_date&state=opened) and engage with each issue. If a request for help highlights a bug or feaeture request, create an issue for the bug and close the request for help so that the bug can be prioritized.
+Periodically, questions are posted in the [section-sec-request-for-help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help) project. During Reaction Rotation, the assigned engineer should review the [Static Analysis Requests for Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues?first_page_size=20&label_name%5B%5D=Help%20group%3A%3Astatic%20analysis&sort=created_date&state=opened) and engage with each issue. If a request for help highlights a bug or feature request, create an issue for the bug, close the request for help and tag `@gitlab-org/secure/static-analysis/blue`, EM and PM so that the bug can be prioritized.
 
 #### Slack Questions
 
