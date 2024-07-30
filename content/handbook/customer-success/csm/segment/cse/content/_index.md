@@ -81,7 +81,7 @@ We are members of the [Customer Success Engineering team](/handbook/customer-suc
 
 ## <i class="fa-solid fa-book" style="color: #B197FC;"></i> Content Catalog
 
-The Content team creates content that will be maintained and can be reused for customers to consume. 
+The Content team creates content that will be maintained and can be reused for customers to consume.
 
 You can search for relevant content and contact the team in the linked content projects or in the [#cse-content-team](https://gitlab.enterprise.slack.com/archives/C07EE4FNM9T) Slack channel.
 
@@ -109,7 +109,7 @@ The following sections provide an overview of all content assets, and links to f
 3. <i class="fa-solid fa-brain" style="color: #B197FC;"></i> Mastery
     - Expertise of presenters and depth of technical content.
     - Innovation and advanced insights into using GitLab effectively in complex scenarios.
-    - Conistency and continuity in advanced topic coverage over time.
+    - Consistency and continuity in advanced topic coverage over time.
     Evidence of leading-edge practices and cutting-edge use cases.
 4. <i class="fa-solid fa-box-archive" style="color: #B197FC;"></i> Archive
 
@@ -130,7 +130,7 @@ The following sections provide an overview of all content assets, and links to f
 | [GitLab Administration (SaaS)](https://drive.google.com/file/d/1JQYVed7StwOBGEnzmsT7yiDmDfNSkx_a/view?usp=drive_link) | Core Platform | 2023-10-23 | | |
 | [GitLab Runners](https://drive.google.com/file/d/1nxglK5j8D5XsbZTaylN-HbbVJ0gKojJd/view?usp=drive_link) | Verify | 2024-01-17 | | |
 | [Vulnerability Management Strategies](https://drive.google.com/file/d/1DRhHsgeqRPGpu2NR5726QSGqg6bh7aJS/view?usp=drive_link) | Govern | 2024-05-07 | | |
-| [Seperation of Duties](https://drive.google.com/file/d/16YcUdYDNPP0x0vXzG01OsCODVnYhYe4O/view?usp=drive_link) | Govern | 2024-06-18 | | |
+| [Separation of Duties](https://drive.google.com/file/d/16YcUdYDNPP0x0vXzG01OsCODVnYhYe4O/view?usp=drive_link) | Govern | 2024-06-18 | | |
 | [What's New! GitLab 17.0](https://drive.google.com/file/d/11EhjSsgMepd9iZYY9vNz8LFoQPLGVNuS/view?usp=drive_link) | All | 2024-06-04 | | |
 
 ### Workshops
