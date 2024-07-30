@@ -65,7 +65,7 @@ To contact Govern sub-department development people leaders, use the following a
 
 ### Pipeline Security
 
-{{< team-by-manager-slug manager="shampton" team="Engineer(.+)Govern:Pipeline Security" >}}
+{{< team-by-manager-slug manager="scott-hampton" team="Engineer(.+)Govern:Pipeline Security" >}}
 
 ### Security Policies
 
