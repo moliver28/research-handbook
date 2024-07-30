@@ -36,7 +36,11 @@ Without such in place efficient development iteration and following up on user f
 
 **Benchmark**: 30% reduction in time compared to baseline
 
-**Measurement**: A/B testing comparing AI-assisted vs non-AI workflows
+**Measurement**: 
+
+- Northstar: A/B testing comparing AI-assisted vs non-AI workflows
+- Primary: User surveys to capture perceived time savings
+- Secondary: Analysis of GitLab Value Stream Analytics data for relevant metrics (e.g., cycle time for specific tasks)
 
 ### 2. Adoption Rate
 
@@ -107,19 +111,21 @@ Scoring depends on feature maturity.
 
 ## Evaluation Stages
 
-### Prototype / Early Product
+### Initial Stage: Proof of Concept / Minimum Viable Product
 
 - Focus on rapid user feedback and iteration
 - Use simple yes/no evaluations rather than complex grading
 - Prioritize "thumbs up/down" user reactions
 
-### Pre-Production
+### Ongoing Development and Evaluation (Applicable to all stages: Experiment, Beta, or GA)
+
+#### Local Development
 
 - Implement automated evaluations using ground truth datasets
 - Test tool selection and reasoning capabilities
 - Evaluate end-to-end workflows, not just individual components
 
-### Production
+#### Production Environment
 
 - Monitor real-world usage patterns and edge cases
 - Track user-centric metrics (time saved, tasks completed)
