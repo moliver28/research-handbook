@@ -18,6 +18,8 @@ The TableauConMan tool is developed in house to assist in automating several asp
 - Sync content to the public site
 - Manage groups and group membership on the main site
 
+---
+
 ## User Management
 
 ### Main Site
@@ -36,6 +38,8 @@ For the public site users login directly and do not use Okta.  The number of non
 
 For the sandbox site users login directly and do not use Okta.  The number of non viewer licenses on this site is limited so any active administration on the site should be done with the Analytics Service Account.
 
+---
+
 ## Group Management
 
 ### Main Site
@@ -49,6 +53,8 @@ The groups for the public site are manually maintained.  The general instruction
 ### Sandbox Site
 
 The groups for the sandbox site are manually maintained.  The general instructions found in the groups [runbook](https://gitlab.com/gitlab-data/runbooks/-/tree/main/tableau?ref_type=heads) can be followed to modify groups or group membership.
+
+---
 
 ## Project Structure
 
@@ -64,6 +70,8 @@ The project structure for the public site is maintained manually.  Many processe
 
 The project structure of the sandbox site does not need to be fixed to any specific structure.
 
+---
+
 ## Content Permissions
 
 ### Main Site
@@ -77,6 +85,54 @@ The content permissions for the public site are maintained manually.  Many proce
 ### Sandbox Site
 
 The content permissions of the sandbox site do not need to be fixed to any specific structure.
+
+---
+
+## Content Management
+
+### Main Site
+
+#### Stale and Unsued Content Management
+
+#### 1. Purpose - Content Archival
+
+Unsued workbooks and data sources are moved to the Archive folder to maintain a clean and efficient Tableau Cloud environment. This is an automated process which ensures that only quality, actively used content remains readily accessible, thereby minimizing clutter and enhancing the user experience. Users can quickly find and access high-quality, relevant content without sifting through outdated or unused items. Automating this process ensures consistency and accuracy, saving time and effort for the Tableau Admin team. Manual intervention is minimized, reducing the likelihood of errors.
+
+#### 2. Prerequisites - Automation Script
+
+A Python script is used for this automation which follows specific criteria to identify and archive stale content. Here is a detailed explanation of the stale contentent identification:
+
+1. <b>Workbooks</b> - Stale Criteria: A workbook is considered stale if it has not been created, updated, or viewed in the last 90 days.
+
+2. <b>Data Sources</b> - Stale Criteria: A data source is considered unused if it has no connected workbooks and has not been created or updated in the last 90 days.
+
+    Exclusions and Uniquenss: 
+        
+    - Exclusions: Workbooks and Data sources with the Tableau tag "Do NOT Archive" are excluded from archiving.
+
+    - Renaming for Uniqueness: Before moving a workbook or data source to the "Archive" folder, its name is appended with the owner, parent project, and the current date/time to ensure uniqueness and avoid conflicts.
+
+#### 3. Archival Schedule
+
+This procedure is scheduled to run quarterly, specifically at the end of each quarter. The Tableau Admin team will manually kick off the process, ensuring that the automation runs at the most opportune time and any immediate concerns can be addressed.
+
+#### 4. Exclusion Tag
+
+To prevent critical content from being archived, the business can use the exclusion tag "Do NOT Archive". Any workbooks or data sources with this tag will be skipped during the archiving process. The Data team may periodically review the dashboards with this tag to ensure the exceptions are still warranted. It should be noted that workbooks tagged with "Public" should also be exlcuded.
+
+#### 5. Archive Folder Access
+
+The "Archive" folder has restricted access, meaning that the business cannot view or access its contents directly. This restriction helps in removing archived content from search results, thereby maintaining a clean and efficient environment. If users need access to any archived content, they can reach out to the BI Team via the #data-tableau Slack channel for assistance.
+
+### Public Site
+
+#### Stale and Unsued Content Management
+
+Content archival and management is performed manually on an as need basis.
+
+### Sandbox Site
+
+Content archival and management is performed manually on an as need basis.
 
 ## Connected Applications
 
