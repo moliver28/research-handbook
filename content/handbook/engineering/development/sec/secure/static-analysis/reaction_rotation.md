@@ -16,16 +16,13 @@ The Reaction Rotation role has three main responsibilities:
 
 #### SAST Analyzer Vulnerability Management
 
-The vulnerability report for each active SAST/IaC analyzer should be checked. Critical and High severity vulnerabilities should be addressed whenever possible.
+The vulnerabilities for each SAST/IaC analyzer need to be triaged and addressed.
 
-Security Reports to Review:
-
-- [Semgrep](https://gitlab.com/gitlab-org/security-products/analyzers/semgrep/-/security/vulnerability_report)
-- [SpotBugs](https://gitlab.com/gitlab-org/security-products/analyzers/spotbugs/-/security/vulnerability_report)
-- [KICS](https://gitlab.com/gitlab-org/security-products/analyzers/kics/-/security/vulnerability_report)
-- [Sobelow](https://gitlab.com/gitlab-org/security-products/analyzers/sobelow/-/security/vulnerability_report)
-- [PMD Apex](https://gitlab.com/gitlab-org/security-products/analyzers/pmd-apex/-/security/vulnerability_report)
-- [KubeSec](https://gitlab.com/gitlab-org/security-products/analyzers/kubesec/-/security/vulnerability_report)
+1. Go to the [list of vulnerabilities for SAST/IaC](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date_desc&state=opened&label_name%5B%5D=group%3A%3Astatic%20analysis&label_name%5B%5D=bug%3A%3Avulnerability&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&first_page_size=20)
+1. Go through unassigned, prioritized bugs, by severity
+1. Assign yourself
+1. Fix the bug / determine whether it needs to remain open / provide a workaround, tag EM & PM 
+1. update the issue
 
 #### Requests for Help
 
