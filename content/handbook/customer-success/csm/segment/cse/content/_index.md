@@ -57,8 +57,10 @@ The team's content is distributed in [Highspot](https://gitlab.highspot.com/)...
 
 ### Team Resources
 
-- [<i class="far fa-calendar-alt"></i> Webinar/Workshop Calendar](/handbook/customer-success/csm/segment/cse/webinar-calendar/))
+- [<i class="far fa-calendar-alt"></i> Webinar and Labs Calendar](https://university.gitlab.com/pages/gitlab-user-webinars)
+<!---
 - [<i class="far fa-folder-open"></i> Team Shared Drive](https://drive.google.com/drive/folders/0AAMcKUwu8S06Uk9PVA)
+--->
 
 ### Want to work with the team?
 
@@ -74,7 +76,7 @@ We are members of the [Customer Success Engineering team](/handbook/customer-suc
 | Team member |  Focus areas |
 |-------------|-------------|
 | [James Wormwell](/handbook/company/team/#jwormwell) <br/> Demo Architect |  Content Creation (Demos), Demo Operations, Demo Asset Maintenance |
-| [Nicole Esplin](/handbook/company/team/#nesplin) <br/> Content Strategist | Cross Functional Collaboration, Content Strategy, Marketing/Promotion, Content Operations/Optimisation/Delivery |
+| [Nicole Esplin](/handbook/company/team/#nesplin) <br/> Content Strategist | Cross Functional Collaboration, Content Strategy, Marketing/Promotion, Content Operations/Optimization/Delivery |
 | [Tearyne Almendariz](/handbook/company/team/#talmendariz) <br/> Content Programs Specialist | Content Planning, Backlog Refinement, Content Creation (Non Demos) |
 
 > **Note**: Details articulating what constitutes `Focus areas` can be found [here](https://docs.google.com/spreadsheets/d/1oa8pl4bESeObNVXqlWt3cR3DEOkRRAnIKWz7vzZwjuo/edit?gid=0#gid=0) and will continually be updated as the team evolves and matures.
@@ -94,7 +96,7 @@ The following sections provide an overview of all content assets, and links to f
 - SaaS - GitLab Licensed Demo Groups [Premium and Ultimate Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitlabCom_Licensed_Demo_Group_Request)
 - [Produce effective demos with OBS Studio](https://docs.google.com/document/d/1kchnm55N8zx8tBBsxilWadGqBndhvb5d4eG9LsSS6DA/edit#heading=h.quzn6r2hna1l)
 
-### Content Categorisation
+### Content Categorization
 
 1. <i class="fa-brands fa-wpexplorer" style="color: #B197FC;"></i> Sandbox
     - Simple and clear demonstrations for beginners.
@@ -122,7 +124,7 @@ The following sections provide an overview of all content assets, and links to f
 
 ### Webinars
 
-| Title | Group | Last updated | Contributors | Categorisation |
+| Title | Group | Last updated | Contributors | Categorization |
 |-------|-------|--------------|--------------|----------------|
 | [Holistic Approach to Securing the Development Lifecycle](https://drive.google.com/file/d/11-mPw0aNXcazOMVVVvxEo97meQz1TYMW/view?usp=drive_link) | Secure | 2023-10-13 | | |
 | [Git Basics](https://drive.google.com/file/d/17BvOGiXmWNLYm3MXmIqZ6kAkC0b4cow7/view?usp=drive_link) | Create | 2023-10-13 | | |
@@ -140,19 +142,15 @@ The following sections provide an overview of all content assets, and links to f
 | [Separation of Duties](https://drive.google.com/file/d/16YcUdYDNPP0x0vXzG01OsCODVnYhYe4O/view?usp=drive_link) | Govern | 2024-06-18 | | |
 | [What's New! GitLab 17.0](https://drive.google.com/file/d/11EhjSsgMepd9iZYY9vNz8LFoQPLGVNuS/view?usp=drive_link) | All | 2024-06-04 | | |
 
-### Workshops
+### Labs
 
-| Title | Project | Group | Last updated | Contributors | Categorisation |
+| Title | Project | Group | Last updated | Contributors | Categorization |
 |-------|---------|-------|--------------|--------------|----------------|
 | [AI in DevSecOps](https://docs.google.com/presentation/d/1GdS0MQI53_mxQG-VvPxK2g9AmeJDmm403vSl8zZvy7I/edit?usp=drive_link) | [AI in DevSecOps](https://gitlab.com/gitlab-learn-labs/onboarding-cohort-projects/ai-in-dev-sec-ops/) | Data Science | 2024-04-30 | | |
 | [GitLab CI](https://docs.google.com/presentation/d/1IiRo4KHAgYqmzNiLkNYEatzHo75ax1BNKy-HsHoZW3k/edit?usp=drive_link) | [CICD Adoption Workshop](https://gitlab.com/gitlab-learn-labs/sample-projects/cicd-adoption-workshop) | Verify | 2023-10-23 | | |
 | [GitLab Advanced CI](https://docs.google.com/presentation/d/1g36th6wlPUj9YMHooAr7M0koscEdDAnxJULTu3F93Fg/edit?usp=drive_link) | [Advanced CI Lab](https://gitlab.com/gitlab-learn-labs/onboarding-cohort-projects/advanced-ci-lab/-/tree/main?ref_type=heads) | Package/Verify | 2024-05-10 | | |
 | [CI/CD Adoption for Jenkins Users](https://docs.google.com/presentation/d/1d2u6Ls_ELgEAv8VXMatljVkPydOelUQ3_hsOvUe2k28/edit?usp=drive_link) | [CICD Adoption Workshop](https://gitlab.com/gitlab-learn-labs/sample-projects/cicd-adoption-workshop) | Verify |2024-01-10 | | |
 | [Security and Compliance](https://docs.google.com/presentation/d/1_o1UbmM0u96f9XTpjYBLG3jnHeJuwJAVOrCg7Ri4ti4/edit#slide=id.g2e71b1d1f20_1_598) | [Tanuki Racing Security and Compliance](https://gitlab.com/gitlab-learn-labs/onboarding-cohort-projects/tanuki-racing-security-and-compliance) | Govern/Secure | 2024-06-26 | | |
-
-### YouTube playlists
-
-- [GitLab Demos](https://www.youtube.com/watch?v=ZQBAuf-CTAY&list=PLFGfElNsQthYv5OtNEFoGwd0cAg-55Hdj) on the GitLab YouTube channel.
 
 ## <i class="fa-solid fa-folder-plus" style="color: #B197FC;"></i> Content Creation
 
@@ -166,11 +164,11 @@ The following sections provide an overview of all content assets, and links to f
 - **Visual Impact:** Use high-impact visuals to make a memorable impression quickly.
 - **Call to Action:** End with a clear, compelling call to action that guides the audience on what to do next.
 
-### Lab/Workshops
+### Labs
 
 - **Duration:** 30-120 minutes.
 - **Interactive Elements:** Incorporate hands-on activities that allow participants to use the technology themselves.
-- **Break Down Content:** Structure the workshop into manageable segments that gradually build on each other.
+- **Break Down Content:** Structure the lab into manageable segments that gradually build on each other.
 - **Provide Resources:** Give participants access to additional learning materials, tools, and documentation (Preferably in advance).
 - **Feedback Mechanisms:** Include opportunities for questions and interactions to address specific participant needs and adjust the pace accordingly.
 
@@ -184,7 +182,7 @@ The following sections provide an overview of all content assets, and links to f
 
 ## <i class="fa-brands fa-square-gitlab" style="color: #ff9500;"></i> Content Contribution
 
-### Prioritisation
+### Prioritization
 
 When prioritising content we consider the following key factors:
 
