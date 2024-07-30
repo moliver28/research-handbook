@@ -18,15 +18,21 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 
 - Focus on end-user value and impact
   - Reason: Ensures that AI features directly address user needs and provide tangible benefits.
+  - Example: Instead of optimizing for academic code generation metrics, focus on whether developers can efficiently use and integrate the Code Suggestions in their workflow.
 - Evaluate early and often using lightweight methods
   - Reason: Allows for rapid iteration and course correction, mitigating the risk of investing heavily in features that may not meet user needs.
+  - Example: Conduct weekly user surveys or "Duo bashes" to gather quick feedback on the relevance and usefulness of Code Suggestions in different programming languages and contexts.
 - Prioritize real-world usage over academic benchmarks
   - Reason: Academic benchmarks may not always translate to practical value; real-world usage provides more accurate insights into feature effectiveness.
+  - Example: 
+    - Academic benchmark: Achieving high perplexity scores on code completion tasks.
+    - Real-world expectation: Providing contextually relevant and syntactically correct code suggestions that align with the user's project structure and coding style.
 - Embrace iteration and continuous improvement
   - Reason: Acknowledges the evolving nature of AI technology and user needs, allowing for ongoing refinement of features.
+  - Example: Implement a feedback loop where user acceptance rates of Code Suggestions (measured by Tab presses vs. Esc presses) inform model fine-tuning and improvement of the suggestion algorithm.
 - Embrace automatic testing of AI output
-  - Reason:
-Without such in place efficient development iteration and following up on user feedback is hard to impossible.
+  - Reason: Without such in place, efficient development iteration and following up on user feedback is hard to impossible.
+  - Example: Develop automated tests that evaluate the quality of Code Suggestions against project-specific criteria, such as adherence to coding standards, successful compilation, and passing of existing unit tests.
 
 ## Potential Evaluation Metrics
 
@@ -38,9 +44,14 @@ Without such in place efficient development iteration and following up on user f
 
 **Measurement**: 
 
-- Northstar: A/B testing comparing AI-assisted vs non-AI workflows
-- Primary: User surveys to capture perceived time savings
-- Secondary: Analysis of GitLab Value Stream Analytics data for relevant metrics (e.g., cycle time for specific tasks)
+- Primary: Comparative analysis of AI-assisted vs. non-AI workflows
+  - Example: Compare the time taken to complete a task using Duo features vs. without it, across a representative sample of users and projects.
+  - Note: This is not a strict A/B test but rather a comparison of outcomes between users who opt to use the AI feature and those who don't.
+- Secondary: Trend analysis of relevant DORA metrics
+  - Example: Monitor changes in Deployment Frequency or Lead Time for Changes for projects that have adopted Duo features compared to the overall trend.
+  - This allows for a broader view of impact without requiring strict user assignment to test groups.
+- Tertiary: User self-reported time savings
+  - Example: Periodic surveys asking users to estimate time saved on coding tasks when using Duo features.
 
 ### 2. Adoption Rate
 
@@ -148,6 +159,5 @@ Scoring depends on feature maturity.
 ## Resources
 
 - [Doing Research in the AI Space](../../product/ux/ux-research/research-in-the-ai-space/index.md)
-- [GitLab AI Strategy](link-to-strategy-doc)
-- [Industry AI Evaluation Standards](link-to-standards)
-- [Setting Up A/B Tests in GitLab](link-to-ab-test-guide)
+- [AI Feature Development Playbook](https://gitlab.com/gitlab-org/ai-powered/discussions/-/issues/18)
+- [A/B Testing For AI Features](TBA)
