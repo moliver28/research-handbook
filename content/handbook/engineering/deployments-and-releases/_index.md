@@ -63,7 +63,7 @@ Each week, the current Release Managers walk through the key Delivery Group metr
 
 1. Walkthrough [Auto-Deploy packages dashboard](https://dashboards.gitlab.net/d/delivery-auto_deploy_packages/delivery-auto-deploy-packages-information?orgId=1)
 1. Walkthrough the monthly view of [GitLab: deployment frequency](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency) and [GitLab: lead time](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=lead-time) - note any patterns
-1. Walkthrough of last week's [Deployment Blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1192)
+1. Walkthrough of [Deployment Blockers Dashboard](https://dashboards.gitlab.net/d/delivery-deployment_blockers/delivery3a-deployment-blockers?orgId=1) and last week's [Deployment Blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1192)
 1. Do we need to take action based on the previous week's MTTP?
 
 ## Resources
