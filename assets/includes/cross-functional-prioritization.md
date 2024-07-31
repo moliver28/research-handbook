@@ -5,7 +5,7 @@ The Cross-Functional Prioritization framework exists to give everyone a voice wi
 The Cross-Functional Prioritization contains three key tenets:
 
 * Release slate is divided into three main components: features and usability, evolution and optimization, and bugs including severity-based SLAs
-* Different cross-functional DRIs prioritize each section with anyone is still able to advocate for prioritization changes
+* Cross-functional DRIs are responsible for prioritization in each section, anyone is still able to advocate for prioritization changes
 * DRI decisions informed by qualitative and quantitative data, up to and including automatic scheduling of work items based on SLA policies
 
 At the R&D directs level, over the course of the quarter, all product development efforts should calculate to a 60%/40% split with 60% focused on features and usability, 40% focused on evolution, optimization, and general maintenance. This means that each group should define the correct ratio across all three categories based on their Category maturity as well as maintenance needed to continue to meet our security, scalability, reliability, and availability requirements. Each quad will align with their leaders to ensure that R&D achieves its 60%/40% target.
