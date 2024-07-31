@@ -668,7 +668,7 @@ Follow the steps below to process a Service Attached Registration for an applica
    - **If there is no matching opportunity**, and you plan to:
      - _**Approve**_ the registration, click the `Back` button and refer to Step 2 above for next steps.
      - _**Reject**_ the registration, click the `Back` button and proceed to the next step.
-   - **The opportunity must be less than 6 months old to qualify for the incentive**. If the opportunity is greater than 6 months old, the Partner Territory Manager should reject the registration and work with the partner to see if there is an upcoming licensing opportunity that would qualify for partner services.
+   - **The opportunity must be less than 6 months old to qualify for the incentive. If the Opportunity has already Closed-Won, chatter @Partner Operations to link Services Registration to Closed-won opportunity**. If the opportunity is greater than 6 months old, the Partner Territory Manager should reject the registration and work with the partner to see if there is an upcoming licensing opportunity that would qualify for partner services
      ![21-Svce_Att_Reg_LinkCreateOpp_Screen.png](/handbook/sales/field-operations/channel-operations/images/21-Svce_Att_Reg_LinkCreateOpp_Screen.png)
 
 1. Navigate to the Partner Manager Approvals section of the registration record. If you are going to:
