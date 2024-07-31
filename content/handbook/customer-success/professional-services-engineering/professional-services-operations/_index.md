@@ -133,7 +133,7 @@ The PM is responsible for updating the following for the project milestone in Ka
 - If acceptance is received, attach the email (PDF) of acceptance or the signed [milestone document](https://docs.google.com/document/d/1RiS5TY5484nQuDTW8YMiB-CibVfoni7NJ8IUG2osUD0/edit) to the Milestone
 - If passive acceptance is reached, attach the email (PDF) and the [milestone document](https://docs.google.com/document/d/1RiS5TY5484nQuDTW8YMiB-CibVfoni7NJ8IUG2osUD0/edit) to the Milestone
 
-Please note only the *top level* milestone fields should be updated. The sub activities within the milestone should *not* be updated.
+Please note only the **top level** milestone fields should be updated. The sub activities within the milestone should **not** be updated.
 
 
 ![fprevenuerelease](fprevenuerelease.png)
