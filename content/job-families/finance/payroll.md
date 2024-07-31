@@ -81,6 +81,7 @@ The Payroll Analyst is a [grade 6](/handbook/total-rewards/compensation/compensa
 - Create and/or maintain documentation as it relates to payroll processing, operational procedures, compliance, and other payroll-related matters
 - Ensure the Company is complying with federal, state and local payroll laws and regulations
 - Assist with year-end payroll activities such as but not limited to payroll reconciliations, W-2 review, outstanding tax-related matters, etc.
+- Ensure adherence to SOX controls, maintaining rigorous controls for payroll processes
 - Respond to active and former team members’ inquiries
 
 ### Payroll Analyst, US Requirements
