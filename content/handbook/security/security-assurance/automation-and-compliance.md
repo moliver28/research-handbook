@@ -12,7 +12,7 @@ As part of the Security Assurance sub-department, the Security Assurance Automat
 2. Develop and maintain automated solutions that enhance our security posture, streamline compliance efforts, and provide continuous monitoring of our systems and infrastructure.
 3. Enable security to scale through the discovery and application of compliance automation.
 
-### Key responsibilities of the Security Assurance Automation team include:
+### Key responsibilities of the Security Assurance Automation team include
 
 1. Developing and implementing automated security controls and processes
 2. Creating and maintaining compliance automation tools and scripts
