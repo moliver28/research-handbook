@@ -618,7 +618,7 @@ Kindly note the following when filling in this section:
 1. Other Bonus: Do not include guaranteed draw. If asked, please loop in Marissa. Remote does not currently have enough of an in-depth understanding of our bonus structure to be able to include this information.
 1. Commission: No
 1. Equity Compensation: Do not include.
-1. Number of paid time off days: Select the recommended days as mentioned by Remote
+1. Number of paid time off days: Select the statutory minimum recommended days as mentioned by Remote, if there is an option, select the lowest number (this should be the statutory minimum)
 1. Role Description: Copy/paste the job description within the job family. Make sure you're only including the specific role they have, and you can skip the fillers at the beginning and end.
 1. Training requirement: Leave blank
 1. Supervisor Name: as stated in the offer details in GH
@@ -637,13 +637,13 @@ Kindly note the following when filling in this section:
 | Brazil | Omint Plan (should be added for you) |
 | Italy | Premium |
 | Switzerland | None |
-| Sweden | Standard |
+| Sweden | None |
 
 1. Life Insurance Coverage - For Mexico Hires, Please select "Life/ADD Insurance of 350 MXN (~18 USD)". For more details on benefits for team members who are contracted through Remote. Click [here]({{< ref "remote-com#brazil" >}}).
 If there are any questions, these should be directed to help@remote.com.
 1. Click on the benefits acknowledgement and continue
 1. You be will be on the 'billing cycle' page.
-1. Click on yearly billing cycle and click continue.
+1. Click on monthly billing cycle and click continue.
 1. You will now be able to review all the candidate and contract details, you are able to edit them should you wish.
 1. Once you have reviewed, and everything is in order, click 'invite now'.
 1. Please select the option to "add this employee to a single employee plan"
