@@ -66,6 +66,7 @@ The Payroll Analyst is a [grade 6](/handbook/total-rewards/compensation/compensa
 
 ### Payroll Analyst, US Responsibilities
 
+- Extends the Payroll Specialist responsibilities
 - Process full-cycle US payroll on a semi-monthly cadence for 1,100+ (and growing) exempt and non-exempt team members across 49 states in addition to off-cycle payroll runs (as needed), including but not limited to garnishments, leave of absence payments, bonus/commission payments, severance payments, ESPP election changes, retroactive and prorated salary pay, timecards, etc.  
 - Process stock transactions (e.g. non-qualified stock option exercises, RSUs, ISO/ESPP dispositions) on an almost daily basis
 - Process final payments for terminated team members while complying with state laws
@@ -81,7 +82,6 @@ The Payroll Analyst is a [grade 6](/handbook/total-rewards/compensation/compensa
 - Ensure the Company is complying with federal, state and local payroll laws and regulations
 - Assist with year-end payroll activities such as but not limited to payroll reconciliations, W-2 review, outstanding tax-related matters, etc.
 - Respond to active and former team members’ inquiries
-- Extends the Payroll Specialist responsibilities
 
 ### Payroll Analyst, US Requirements
 
