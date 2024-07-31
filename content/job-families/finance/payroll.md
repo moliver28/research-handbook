@@ -66,27 +66,35 @@ The Payroll Analyst is a [grade 6](/handbook/total-rewards/compensation/compensa
 
 ### Payroll Analyst, US Responsibilities
 
-- Extends the Payroll Specialist Responsibilities
-- Own and process payroll, including tax changes, direct deposits, loan repayments, deductions, retroactive adjustments, prorated payments, bonuses, fringe benefits, special pays, etc.
-- Process 401(k) and benefit changes
-- Responsible for data integration between HRIS and payroll systems
-- Register new state/local/SUI tax withholding account with local tax agency
-- Responsible for Washington and Ohio worker compensation insurance on annual and quarterly basis
-- Ensuring compliance with all compensation and tax regulations
-- Responsible for quarterly tax reconciliations for federal, state, and local
-- Responsible for managing Family leave and Medical leave for states
-- Responsible for month end reports
-- Conduct regular audits on payroll procedures and records
-- Report to management on payroll issues and changes
-- Stay current on state, federal and local payroll and tax laws
-- Support year-end reporting tasks
+- Process full-cycle US payroll on a semi-monthly cadence for 1,100+ (and growing) exempt and non-exempt team members across 49 states in addition to off-cycle payroll runs (as needed), including but not limited to garnishments, leave of absence payments, bonus/commission payments, severance payments, ESPP election changes, retroactive and prorated salary pay, timecards, etc.  
+- Process stock transactions (e.g. non-qualified stock option exercises, RSUs, ISO/ESPP dispositions) on an almost daily basis
+- Process final payments for terminated team members while complying with state laws
+- Apply funding for 401(k) contributions and perform reconciliations
+- Partner with various departments such as Stock Admin, People Operations, Benefits, Accounting, and Internal Audit to achieve cross-functional objectives
+- Responsible for ensuring data integrity across multiple disparate systems (e.g. Workday HCM, ADP Workforce Now, Fidelity)
+- Process benefit deduction changes and ensuring 401(k) elections are updated accordingly
+- Assist with compliance related matters such as but not limited to multi-jurisdiction tax withholdings, garnishments, reconciling payroll data, reviewing timesheets for non-exempt team members, etc.
+- Register for new state and/or local tax jurisdictions
+- Research and resolve tax notices from government agencies
+- Analyze and detect opportunities for improvement and scalable processes and/or best practices
+- Create and/or maintain documentation as it relates to payroll processing, operational procedures, compliance, and other payroll-related matters
+- Ensure the Company is complying with federal, state and local payroll laws and regulations
+- Assist with year-end payroll activities such as but not limited to payroll reconciliations, W-2 review, outstanding tax-related matters, etc.
+- Respond to active and former team members’ inquiries
+- Extends the Payroll Specialist responsibilities
 
 ### Payroll Analyst, US Requirements
 
-- Extends the Payroll Specialist Requirements
-- 3-5 years payroll processing experience
-- Decision-making, problem-solving, and analytical skills
-- Ability to collaborate and establish relationships cross-functionally
+- Extends the Payroll Specialist requirements
+- Bachelor’s degree in Business, Finance, and/or Accounting
+- Minimum of 3 years of relevant and progressive payroll experience in a public tech company
+- ADP Workforce Now experience required; Workday HCM experience is a plus
+- Critical thinking and analytical skills
+- Basic understanding of accounting, taxation, and finance concepts as it relates to payroll
+- Knowledge in California payroll laws and regulations required
+- Proficiency in utilizing Google Suite and Microsoft Excel
+- Exceptional organizational and communication skills
+- Ability to work independently with a team first mentality
 
 ## Payroll Analyst, EMEA/APAC,LATAM
 
