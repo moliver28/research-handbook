@@ -325,6 +325,7 @@ Dev
 devfile
 devfiles
 DevOps
+Devo
 Dhall
 dialogs
 Diffblue
