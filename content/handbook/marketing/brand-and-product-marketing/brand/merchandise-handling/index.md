@@ -8,7 +8,7 @@ This page outlines everything you need to know about the swag program at GitLab.
 
 ### Swag shop 
 
-✨ **Browse the latest GitLab merch in [our swag shop](https://shopgitlab.brilliantmade.com/)!** ✨ 
+✨ **Browse the latest GitLab merch in [our swag shop](https://shop.gitlab.com)!** ✨ 
 
 If you’re buying something for yourself or a friend, you can order directly through the store. 
 
@@ -30,7 +30,7 @@ Purchasing or sending swag on behalf of GitLab? Follow the steps below if you wa
 
 🖐  _**Important note before you proceed:**_ Each team is responsible for their own swag orders. Please ensure that your team or program has the budget to purchase this swag. If you’re unsure, confirm with your manager, ASM, or [Finance Business Partner](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#finance-business-partner-list). 
 
-1. **Check out [the swag shop](https://shopgitlab.brilliantmade.com/)** to browse the latest GitLab merch and determine which items you’d like to order or send to someone.
+1. **Check out [the swag shop](https://shop.gitlab.com)** to browse the latest GitLab merch and determine which items you’d like to order or send to someone.
 1. If you’d prefer to send someone a gift card to shop for themselves, continue to follow this same process. 
 1. The first step is to get internal approval for the order. Open an issue using our [swag order issue template](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-strategy/-/issues/new?issuable_template=swag-order). Follow all instructions in the issue template. 
 1. Submit the issue and be sure you’ve tagged in your manager for the first approval. 
