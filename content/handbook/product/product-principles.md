@@ -276,19 +276,16 @@ This principle is important because unowned product features are unsupervised, a
 
 ### User Experience
 
-Within each stage, the learning curve must be at least comparable to our best-in-class competitors, with clear, cohesive workflows, a highly usable interface, and comprehensive documentation. Product works closely with the [User Experience](/handbook/product/ux/) team to achieve our user experience goals.
+A highly usable interface with cohesive workflows and comprehensive documentation is a must to stay ahead of our best-in-class competitors. Work closely with the individuals in [UX](/handbook/product/ux/) to achieve our user experience goals. The UX team has a high level of expertise in Product Design, Technical Writing, and UX Research. They can help decipher or decide how to simplify or avoid complexity. While our Product Designers [review user interface changes in merge requests](https://docs.gitlab.com/ee/development/contributing/design.html), they are not limited to just the UI. Anything that impacts the user journey is relevant to them.
 
-Below are some general user experience principles we should always keep in mind. Additionally, you can familiarize yourself with the [UX team mission](/handbook/product/ux/how-we-work/#ux-team-mission) and [GitLab's Pajamas design system principles](https://design.gitlab.com/get-started/principles).
+Keep in mind these general user experience principles.
 
-#### Simplicity
+- **Strive for simplicity:** Using GitLab should be easy. Users should think about the applications they are building and the teams they are collaborating with, not how to make our app work. Here's a great read on ["Don't make users think!"](https://www.goodreads.com/book/show/18197267-don-t-make-me-think-revisited?)
+- **Depth over breadth:** A world-class experience requires deep, powerful, useful features. To remain balanced, we must also identify capabilities that can be deprecated so we are adding depth while encouraging [subtractive thinking](handbook/product/product-principles/#subtractive-thinking).
+- **Better than before:** Our [MVC principle](/handbook/product/product-principles/#the-minimal-viable-change-mvc) can bias us towards assuming something must be better than nothing. Instead, we assess if the user experience is better than before by considering its value. Work with a Product Designer to evaluate tradeoffs and minimize [deferred UX](/handbook/engineering/workflow/#deferred-ux).
+- **Timeless design:** The user experience should be relevant both today and years from now, so each release should encapsulate the best experience possible. Ask yourself, "How would we build something if we knew this was the last time a team could touch it?"
 
-Using GitLab should be easy. Users should be thinking about the applications they are building and teams they are collaborating with, not about how to make our app work. [Don't make users think!](https://www.goodreads.com/book/show/18197267-don-t-make-me-think-revisited?)
-
-This sounds obvious, but it can be hard to keep things simple as an application becomes more complex, with more features and more options to cover more use cases and more user types.
-
-The good news is that the product designer assigned to your stage group has a high level of expertise in how to simplify the complex, and how to make decisions about when to add or avoid complexity. Involve product design in all changes that impact the UI.
-
-[![xkcd.com](https://imgs.xkcd.com/comics/app.png)](https://xkcd.com/1174/)
+Additionally, you can familiarize yourself with the [UX team mission](/handbook/product/ux/how-we-work/#ux-team-mission) and [GitLab's Pajamas design system principles](https://design.gitlab.com/get-started/principles).
 
 ### Be Ambitious
 
