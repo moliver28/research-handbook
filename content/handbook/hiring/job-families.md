@@ -4,7 +4,7 @@ description: "Job families are organized by function at GitLab and we use them t
 ---
 
 - Job families are [organized by function in directories in the `content-sites/handbook` repository](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/main/content/job-families).
-- For any questions related to job families, please contact [total rewards]({{< ref "benefits#contact-total-rewards" >}}).
+- For any questions related to job families, please post in #job-family.
 
 ### Things to Keep in Mind
 
@@ -16,6 +16,7 @@ description: "Job families are organized by function at GitLab and we use them t
     - For grade 4 & 5 roles, we avoid listing any kind of prior experience requirements to encourage people with unique career or educational journeys to see themselves in a particular role.
 1. We don't allow them to read like a vacancy. The job family could be used for hiring however they are more often serving as the requirements that team members and managers alike use in conversations around career development and performance management. The verbiage you don't want to use includes phrases like "you will", or "exciting opportunity" or "we're hiring for".
 1. We are continually iterating on job families. Do not search other job families for examples of what good looks like. The templates below and this page are the SSOT for guidance.
+1. Job Families should be consistent with GitLab level expectations. Please refer to the Job Frameworks for guidance on expectations related to Scope and Influence, Complexity and Problem Solving, and Leadership and Communication requirements by level for both Individual Contributors and People Managers.
 1. Team Lead vs people Manager vs function Manager: you should be aware of how GitLab defines these terms. Depending on the needs of the organization, a Team Lead may or may not directly manage people. There are 2 instances where a Team Lead role can be used:
     - Team Lead as an Individual Contributor - in this context, the Team Lead would be responsible for a specific project/s or area of expertise (a Subject Matter Expert), and may partner with others to accomplish the work. The Team Lead can be leveraged as a player/coach, where they have their own individual tasks to complete, but they also mentor, train and coach others on the team. A team lead may also handle escalated or complex cases or projects.
     - Team Lead as a People Manager - in this context, the Team Lead would directly manage a team of people as a first level or entry-level people manager, which means they are directly responsible for hiring, promoting, performance management, or termination of team members. Team Leads can report into Managers, even though they may share the same compensation benchmark.
@@ -30,10 +31,9 @@ For Grades 10 and above:
 
 1. **Your manager**: Your direct manager is responsible for clarifying the scope of responsibilities and level of roles, checking responsibilities and requirements and ensuring the job family follows the template logic and **has all of the required areas**. Any review after this should be quick so the manager is the gatekeeper.
 1. **Your executive leader**: Your executive leader is responsible for confirming the role is in plan and review of department/division structure and levels.
-1. **Your People Business Partner** Who will review and typically notify Total Rewards
+1. **Talent Management**: Talent Management will review for job level expecations and overall content, then typically notify your People Business Partner and Total Rewards
 1. **Total Rewards**: The Total Rewards Team, `@gl-total-rewards`, is the final approver for job families on the merge request ensuring.:
 
-   - There is a business need for the level within the job family.
    - The level is common in the market based on survey data.
    - All components of the job family are populated.
    - A [benchmark]({{< ref "compensation-calculator#new-benchmark" >}}) is set to add to the Compensation Calculator.
@@ -45,10 +45,9 @@ For Grades 9 and below:
 
 1. **Your manager**: Your direct manager is responsible for clarifying the scope of responsibilities and level of roles, checking responsibilities and requirements and ensuring the job family follows the template logic and **has all of the required areas**. Any review after this should be quick so the manager is the gatekeeper.
 1. **Your Department Head**: Your Department Head (typically at the VP level) is responsible for confirming the role is in plan and review of department/division structure and levels. It is highly recommended that the Department Head notifies the e-group Leader for awarenesss.
-1. **Your People Business Partner** Who will review and typically notify Total Rewards
+1. **Talent Management**: Talent Management will review for job level expecations and overall content, then typically notify your People Business Partner and Total Rewards
 1. **Total Rewards**: The Total Rewards Team, `@gl-total-rewards`, is the final approver for job families on the merge request ensuring.:
 
-   - There is a business need for the level within the job family.
    - The level is common in the market based on survey data.
    - All components of the job family are populated.
    - A [benchmark]({{< ref "compensation-calculator#new-benchmark" >}}) is set to add to the Compensation Calculator.
