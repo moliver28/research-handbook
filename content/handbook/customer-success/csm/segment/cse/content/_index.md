@@ -7,30 +7,6 @@ aliases:
 
 ## <i class="fa-solid fa-door-open" style="color: #B197FC;"></i> Welcome to the Customer Success Engineering Content Handbook
 
----
-
-## <i class="fa-solid fa-map-location-dot" style="color: #B197FC;"></i> CSE Content Team Strategy
-
-The main goals of the CSE Content team are to:
-
-- Produce High-Quality, Customer-Aligned Content in support of Customer Sucess Engineering goals
-- Effectively market all content
-- Establish Clear Metrics for data driven analysis
-- Foster Cross-Functional Collaboration
-
-<!---
-### OKRs
-
-### Highspot
-
-The team's content is distributed in [Highspot](https://gitlab.highspot.com/)...
-
-### Product Adoption Initiatives
-
-- [Title](Issue/Epic) (internal).
-- [Title](Issue/Epic) (internal).
---->
-
 ## <i class="fa-solid fa-signs-post" style="color: #B197FC;"></i> QuickLinks
 
 ### Team Workflow
@@ -68,6 +44,28 @@ The team's content is distributed in [Highspot](https://gitlab.highspot.com/)...
 - [<i class="far fa-edit"></i> Raise Content Bug](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/issues/new?issuable_template=bug)
 
 ---
+
+## <i class="fa-solid fa-map-location-dot" style="color: #B197FC;"></i> CSE Content Team Strategy
+
+The main goals of the CSE Content team are to:
+
+- Produce High-Quality, Customer-Aligned Content in support of Customer Sucess Engineering goals, aligned with market needs
+- Effectively market all content
+- Establish Clear Metrics for data driven analysis
+- Foster Cross-Functional Collaboration
+
+<!---
+### OKRs
+
+### Highspot
+
+The team's content is distributed in [Highspot](https://gitlab.highspot.com/)...
+
+### Product Adoption Initiatives
+
+- [Title](Issue/Epic) (internal).
+- [Title](Issue/Epic) (internal).
+--->
 
 ## <i class="fa-solid fa-users" style="color: #B197FC;"></i></i> Team members and focus areas
 
