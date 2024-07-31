@@ -197,6 +197,7 @@ If you encounter any problems, such as obtaining a timely response from Developm
 The SaaS Platforms Team in the Infrastructure department are responsible for the operation of GitLab.com and GitLab Dedicated.
 
 If you need operational support:
+
 1. Visit the [Getting Assistance](../../engineering/infrastructure/getting-assistance/) page.
 2. Find the relevant team or service owner and contact them using the methods described on this page.
 3. If you don't know who to ask, reach out in the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel where you will be redirected to the team who can best assist you.
