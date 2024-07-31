@@ -23,8 +23,6 @@ As part of the Security Assurance sub-department, the Security Assurance Automat
 7. Collaborating with other security teams to identify automation opportunities
 8. Continuously improving and optimizing existing automation solutions
 
-By leveraging automation, we aim to increase efficiency, reduce human error, and ensure consistent application of security controls across our organization. This approach allows us to maintain a strong security posture while supporting the rapid pace of development and innovation at GitLab. 
-
 ### Where and How we work
 
 - See the [Security Assurance Automation Team Page](/handbook/security/security-assurance/governance/security-assurance-automation/)
