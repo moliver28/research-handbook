@@ -332,10 +332,12 @@ The primary course of action here is to create a
 [`deviation request issue`](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues)
 (see
 https://handbook.gitlab.com/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/).
-When creating the issue, be sure to select `operational_requirement_template` as a template and complete the following sections:
+We generally create one deviation request issue per offending software module (e.g. `git-lfs` or `libcurl`). When
+creating the issue, be sure to select `operational_requirement_template` as a template and complete the following
+sections:
 
 - Affected images
-- Vulnerability details
+- Vulnerability details (one row for each relevant CVE report)
 - Relevant `vulnmapper` issues
 - Justification
 
