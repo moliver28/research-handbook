@@ -487,7 +487,7 @@ CURRENT PROCESS VIA COUPA:
 
 ##### Notes
 
-- Epics can not currently be moved so instead we recreate the epic in the new location, move the subordinate issues to the new location and close the original epic as described in *Directions* below.
+- Epics can not currently be moved so instead we recreate the epic in the new location, move the subordinate issues to the new location and close the original epic as described in _Directions_ below.
 - The original and new epics are linked via their issue move audit entries.
 - The directions do not use a [bulk edit](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#bulk-edit-issues-from-a-project) due to [this epic search issue](https://gitlab.com/gitlab-org/gitlab/-/issues/233729).
 
@@ -495,16 +495,16 @@ CURRENT PROCESS VIA COUPA:
 
 - Open the to-be-recreated epic in a browser tab
 - Open the [destination epics list UI](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/ww-consulting/-/epics) in another browser tab
-  - *New Epic*
+  - _New Epic_
     - Title - `Customer Name` Customer Project Epic
     - Description - copy and paste description markdown from the original epic (current in the other browser tab)
-    - *Create epic*
+    - _Create epic_ 
   - Put the url of the new epic in the copy paste buffer for use below
 - For each issue in the to-be-recreated epic:
   - Browse to the issue
     - Use the `/epic <url>` [slash command](https://docs.gitlab.com/ee/user/project/quick_actions.html) to move the issue to the new epic
       - e.g. `/epic https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/ww-consulting/-/epics/2`
-      - To use a slash command, enter the text of the command in the comment interface and apply it with the *Comment* button
+      - To use a slash command, enter the text of the command in the comment interface and apply it with the _Comment_ button
 
 ### Kantata Processes
 
