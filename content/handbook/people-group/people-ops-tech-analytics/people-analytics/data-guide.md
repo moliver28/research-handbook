@@ -173,7 +173,6 @@ Underneath each model is a clean lineage of dimensions and facts that can also b
 |fct_team_member_locality|Fact||Workday|Planned| DBT docs |
 |fct_team_demographic|Fact||Workday|Planned| DBT docs |
 
-
 ### Marts
 
 |Model Name|Table Type|Grain|Status|Documentation|
