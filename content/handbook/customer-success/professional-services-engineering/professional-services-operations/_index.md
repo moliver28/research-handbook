@@ -126,9 +126,15 @@ For T&M projects, revenue is released at each month end. Project hours are submi
 For FP projects, revenue is released when customer acceptance is received or passive acceptance has passed as it pertains to the project SOW language.
 The PM sends out the request for acceptance to the customer and then updates the Billing/ Revenue Milestone in Kantata.  When sending out the acceptance email, the PM should copy the Operations Manager and the assigned Project Coordinator.  When counting the passive acceptance days, day 1 would be the date the notification is sent, from the date sent then business days is calculated for the passive acceptance.
 
-- Update Sign Off Sent, when email request is sent
-- Update Sign Off received, when acceptance is received or Passive Acceptance is reached and add the PDF email of acceptance to the Milestone
-- Update if Passive Acceptance has been utilized for sign off
+ The PM is responsible for updating the following for the project milestone in Kantata:
+ 
+- Update custom field, _Sign Off Sent_, when email request is sent
+- Update custom field, _Sign Off received_, when acceptance is received or Passive Acceptance is reached. and add the PDF email of acceptance to the Milestone
+- Update custom field, _Passive Acceptance Utilized for Sign Off_, if passive acceptance is utilized
+- If acceptance is received, attach the email (PDF) of acceptance or the signed [milestone document](https://docs.google.com/document/d/1RiS5TY5484nQuDTW8YMiB-CibVfoni7NJ8IUG2osUD0/edit) to the Milestone
+- If passive acceptance is reached, attach the email (PDF) and the [milestone document](https://docs.google.com/document/d/1RiS5TY5484nQuDTW8YMiB-CibVfoni7NJ8IUG2osUD0/edit) to the Milestone
+
+Please note only the **top level** milestone fields should be updated. The sub activities within the milestone should **not** be updated.
 
 ![fprevenuerelease](fprevenuerelease.png)
 
@@ -481,7 +487,7 @@ CURRENT PROCESS VIA COUPA:
 
 ##### Notes
 
-- Epics can not currently be moved so instead we recreate the epic in the new location, move the subordinate issues to the new location and close the original epic as described in *Directions* below.
+- Epics can not currently be moved so instead we recreate the epic in the new location, move the subordinate issues to the new location and close the original epic as described in _Directions_ below.
 - The original and new epics are linked via their issue move audit entries.
 - The directions do not use a [bulk edit](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#bulk-edit-issues-from-a-project) due to [this epic search issue](https://gitlab.com/gitlab-org/gitlab/-/issues/233729).
 
@@ -489,16 +495,16 @@ CURRENT PROCESS VIA COUPA:
 
 - Open the to-be-recreated epic in a browser tab
 - Open the [destination epics list UI](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/ww-consulting/-/epics) in another browser tab
-  - *New Epic*
+  - _New Epic_
     - Title - `Customer Name` Customer Project Epic
     - Description - copy and paste description markdown from the original epic (current in the other browser tab)
-    - *Create epic*
+    - _Create epic_ 
   - Put the url of the new epic in the copy paste buffer for use below
 - For each issue in the to-be-recreated epic:
   - Browse to the issue
     - Use the `/epic <url>` [slash command](https://docs.gitlab.com/ee/user/project/quick_actions.html) to move the issue to the new epic
       - e.g. `/epic https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/ww-consulting/-/epics/2`
-      - To use a slash command, enter the text of the command in the comment interface and apply it with the *Comment* button
+      - To use a slash command, enter the text of the command in the comment interface and apply it with the _Comment_ button
 
 ### Kantata Processes
 
