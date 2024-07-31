@@ -37,6 +37,12 @@ Organizations solve the following problems:
 1. Enables centralized control of user profiles. With an Organization-specific user profile, administrators can control the user's role in a company, enforce user emails, or show a graphical indicator that a user is part of the Organization. An example could be adding a "GitLab employee" stamp on comments.
 1. Organizations allows us to better unify the experience on SaaS and self-managed deployments. The Organization admin will have access to instance-equivalent Admin Area settings with most of the configuration controlled at the Organization level. Instance-level workflows like Dashboards can also be shifted to the Organization.
 
+## Decision Log
+
+- 2024-07-21: [Self-managed instances will initially be restricted to one Organization](https://gitlab.com/gitlab-org/gitlab/-/issues/419543#note_2013887114)
+- 2023-05-10: [Billing is not part of the Organization MVC](https://gitlab.com/gitlab-org/gitlab/-/issues/406614#note_1384055365)
+- 2023-05-15: [Organization route setup](https://gitlab.com/gitlab-org/gitlab/-/issues/409913#note_1388679761)
+
 ## Motivation
 
 ### Goals
@@ -149,7 +155,7 @@ The Organization MVC for Cells 1.0 will contain the following functionality:
 - Enterprise Users or verified domains are not required to be used with Organizations.
 - Public visibility of Groups and Projects, or unauthenticated requests are not allowed apart from Cell #1.
 
-##### Open questions
+##### Open Questions
 
 - To minimize the number of cluster-wide resources, consider refactoring [Standalone resources](https://docs.gitlab.com/ee/api/api_resources.html#standalone-resources) to scope them to an Organization, Group, or Project.
 - Consider refactoring global endpoints (e.g. `/jwt/auth`) to be scoped to an Organization, Group, or Project, unless they are supporting cluster-wide resources.
@@ -360,15 +366,6 @@ A force-option to move top-level groups into Organizations may be considered if 
 
 An alternative approach to building Organizations is to convert top-level Groups into Organizations. The main advantage of this approach is that features could be built on top of the Namespace framework and therewith leverage functionality that is already available at the Group level. We would avoid building the same feature multiple times. However, Organizations have been identified as a critical driver of Cells. Due to the urgency of delivering Cells, we decided to opt for the quickest and most straightforward solution to deliver an Organization, which is the lightweight design described above. More details on comparing the two Organization proposals can be found [here](https://gitlab.com/gitlab-org/tenant-scale-group/group-tasks/-/issues/56).
 
-## Frequently Asked Questions
-
-See [Organization: Frequently Asked Questions](organization-faq.md).
-
-## Decision Log
-
-- 2023-05-10: [Billing is not part of the Organization MVC](https://gitlab.com/gitlab-org/gitlab/-/issues/406614#note_1384055365)
-- 2023-05-15: [Organization route setup](https://gitlab.com/gitlab-org/gitlab/-/issues/409913#note_1388679761)
-
 ## Links
 
 - [Organization epic](https://gitlab.com/groups/gitlab-org/-/epics/9265)
@@ -378,3 +375,4 @@ See [Organization: Frequently Asked Questions](organization-faq.md).
 - [Cells epic](https://gitlab.com/groups/gitlab-org/-/epics/7582)
 - [Namespaces](https://docs.gitlab.com/ee/user/namespace/index.html)
 - [Organization Isolation](isolation.md)
+- [Organization: Frequently Asked Questions](organization-faq.md)
