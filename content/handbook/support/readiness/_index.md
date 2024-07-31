@@ -8,8 +8,8 @@ canonical_path: "/handbook/support/readiness/"
 
 The purpose of Support Readiness is to enable GitLab to provide delightful customer experiences by:
 
-- equipping the Customer Support team with the right knowledge, tools and data to optimize productivity and efficiently solve customer problems.
-- equipping our customers and wider GitLab with the right data, knowledge and insights to prevent customer problems before they occur.
+- equipping the Customer Support team with knowledge, tools and data to optimize productivity and efficiently solve customer problems.
+- equipping our customers and wider GitLab with the data, knowledge and insights to prevent customer problems before they occur.
 - delivering delightful experiences to both our own internal and external customers.
 
 *Our purpose statement is re-evaluated as needed, at minimum every 3 years*
@@ -26,7 +26,7 @@ The FY25 Direction for Support Readiness should support and substantiate the ove
 
 ### Team structure and how it supports our ability to achieve results
 
-- Refine team structure and team member roles; check-in with team members to make sure they're in the right "seat" and have the right responsibilities.
+- Refine team structure and team member roles; check-in with team members to make sure they're in a place where they can contribute best and have appropriate responsibilities to facilitate team results.
 - Make strategic hires to help better achieve our purpose and advance us in our direction.
 
 ### Team culture and how it supports our ability to achieve results
