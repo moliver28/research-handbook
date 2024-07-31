@@ -3,17 +3,17 @@ layout: handbook-page-toc
 title: "SAST analyzer rollback to last version in production"
 ---
 
-# Rolling back analyzer to previous minor or patch version
+## Rolling back analyzer to previous minor or patch version
 
 This runbook provides instructions for rolling back an analyzer to a previous version in case of a faulty release. It is intended for engineers responsible for maintaining and troubleshooting issues in an analyzer.
 
 **Note:** This runbook is relevant relvant for analyzers that utilize the [ci-templates](https://gitlab.com/gitlab-org/security-products/ci-templates) by including either [analyzer.yml](https://gitlab.com/gitlab-org/security-products/ci-templates/-/blob/master/includes-dev/analyzer.yml?ref_type=heads), or [docker.yml](https://gitlab.com/gitlab-org/security-products/ci-templates/-/blob/master/includes-dev/docker.yml?ref_type=heads) directly.
 
-## Rollback Procedure
+### Rollback Procedure
 
 First, identify the version of the analyzer where the bug appears. Test a prior version to ensure that the bug does not reproduce. Note any signifcant changes that were made between the two versions and record them in the bug issue. Consult with EM/PM if you are unsure that the rollback is advisable.
 
-### Steps to rollback an analyzer
+#### Steps to rollback an analyzer
 
 1. Navigate to the analyzer that needs to be rolled back
 2. Go to the "Build" tag and select "Pipelines"
@@ -24,13 +24,13 @@ First, identify the version of the analyzer where the bug appears. Test a prior 
 
 **Note:** Once the pipeline finishes, it will automatically update the "latest" and major version image tag to the image built from the chosen tag.
 
-### Important Considerations
+#### Important Considerations
 
 - Only maintainers and owners are able to run pipelines on tags (they are protected)
 - Verify the that known-good version before initiating the rollback
 - Monitor the pipeline progress to confirm successful completion
 
-## Post-Rollback Actions
+### Post-Rollback Actions
 
 After successfully rolling back the analyzer:
 
