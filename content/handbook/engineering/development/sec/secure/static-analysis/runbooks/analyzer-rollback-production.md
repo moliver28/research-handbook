@@ -3,13 +3,11 @@ layout: handbook-page-toc
 title: "SAST analyzer rollback to last version in production"
 ---
 
-
 # Rolling back analyzer to previous minor or patch version
 
 This runbook provides instructions for rolling back an analyzer to a previous version in case of a faulty release. It is intended for engineers responsible for maintaining and troubleshooting issues in an analyzer.
 
 **Note:** This runbook is relevant relvant for analyzers that utilize the [ci-templates](https://gitlab.com/gitlab-org/security-products/ci-templates) by including either [analyzer.yml](https://gitlab.com/gitlab-org/security-products/ci-templates/-/blob/master/includes-dev/analyzer.yml?ref_type=heads), or [docker.yml](https://gitlab.com/gitlab-org/security-products/ci-templates/-/blob/master/includes-dev/docker.yml?ref_type=heads) directly.
-
 
 ## Rollback Procedure
 
@@ -39,4 +37,4 @@ After successfully rolling back the analyzer:
 1. Test that the bug in the rolled back analyzer image in production no longer replicates
 2. Comment on the issue that a rollback has been made
 3. Ask the EM/PM to lower severity now that the bug is no longer in production
-3. Plan for a new release with the bug fix
+4. Plan for a new release with the bug fix
