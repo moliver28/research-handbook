@@ -3,9 +3,60 @@ title: "Visas"
 description: "Information on travel visas, visa letters, and immigration to the Netherlands. "
 ---
 
-## Visas and Sponsorship
+## Visa and Sponsorship Policy
 
 GitLab does **not** offer any form of work or study sponsorship anywhere in the world, other than our specific, internal [Netherlands]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) process and support for highly skilled candidates in *certain* countries, where a candidate is already based in that country. GitLab does **not** offer any form of support to transfer an existing work permit. During the [screening process](/handbook/hiring/interviewing/#what-to-expect-during-an-interview-with-a-recruiter), recruiters will ask applicants if they require any type of sponsorship or support.
+
+For our purposes, visa sponsorship is defined as the requirement that a company or individual support a foreign national’s visa application. Sponsorship may be referred to by different terms depending on the country or visa, but any visa application or approval that is contingent on the company taking on certain obligations is considered synonymous with sponsorship.
+
+### General Work Authorization Guidelines
+
+- GitLab does not support any visa that requires sponsorship. Sponsorship includes anything that requires GitLab to become a registered employer or sponsor, petition the government directly, fill out an application on behalf of a team member, pay an employer fee, or otherwise places a significant compliance obligation or burden on GitLab. 
+- GitLab is willing to provide company information, including contact information, an offer of employment, and an employment verification letter to validate employment to assist with a visa application that is not tied to a particular employer. This would not be considered sponsorship. 
+- GitLab can generally accept dependent visas or other family-based work permits that are not tied to an employer. However, if the individual loses a work permit based on their dependent status (e.g., the spouse who is sponsored by their employer loses their sponsored job), then the individual is no longer authorized to work for GitLab.
+- Please note that if a visa expires (even if it was a visa accepted by GitLab), the individual is not eligible to work immediately upon expiration. If a team member’s work authorization expires, please reach out to People Connect to determine if any possible alternative options exist.
+- The following information is limited to countries with GitLab entities. Alternative visa options may exist in locations where GitLab uses PEOs. As the employer of record, we expect PEOs may have their own policies on what visas they accept and/or assist with.
+- Additional information for People Group members related to work authorization is available [here](https://docs.google.com/document/d/1LnDx1NeDDufo-mGYv-eMYqqaLLkIS0___QgtTXp7otI/edit?usp=sharing). 
+
+### Visas and work permits GitLab may be able to accept
+
+GitLab's acceptance of a visa depends on many factors. The following visas may make a candidate eligible to work at GitLab. The following list is not exhaustive. 
+
+- Australia Employer Nomination Scheme visa (subclass 186)
+- France EU Blue Card
+- Germany EU Blue Card
+- India Employment Visa
+- Ireland Critical Skills Employment Permit
+- Japan Engineer Visa
+- Netherlands Highly Skilled Migrant
+- Netherlands Partner Visa
+- Netherlands EU Blue Card
+- South Korea F5 Permanent Resident Visa
+- Singapore Personalised Employment Pass
+- Singapore Dependent’s Pass
+- Spain EU Blue Card
+- UK Global Talent Visa
+- UK India Young Professionals Scheme Visa
+- UK Ancestry Visa
+- US TN Visa (GitLab is unable to submit Form I-129 on a team member's behalf)
+- US Green Card
+- US H-4 EAD
+- US F-1 CPT/OPT student visa
+
+### Visas and work permits GitLab does not sponsor
+
+The following list is not exhaustive.
+
+- Australia Temporary Skill Shortage Visa
+- Australia Global Talent Employer Sponsored (GTES) Visa
+- Canada CUSMA Visa
+- Japan Highly Skilled Professional Visa
+- South Korea H1 Working Holiday Visa
+- South Korea D7 Dispatch Visa
+- Singapore Employment Pass / S Pass / ONE Pass
+- UK Skilled Worker Visa
+- US H-1B
+- US H-1B1
 
 ## Travel Visas
 
@@ -21,7 +72,7 @@ You can expense (for approved GitLab/company events):
 - Cost of postage
 - Cost of applying for the [30% ruling](#30-ruling-in-the-netherlands)
 
-You can *not* expense relocation costs.
+You can *not* expense relocation costs or costs related to visas for work authorization.
 
 Please note, that GitLab is only able to cover the costs of one VISA attempt. If your VISA request is rejected, team members are free to re-submit at their discretion and any additional costs will be need to be covered by the team member.
 Please refer to the [Global Travel and Expense Policy Handbook Page](/handbook/finance/expenses/#visaspermitscovid-tests) for more information regarding the reimbursement.
