@@ -192,6 +192,10 @@ To learn how we conduct both customer meetings and internal planning meetings, a
 
 [Meeting Shadowing](/handbook/customer-success/csm/csm-onboarding/shadowing/)
 
+## Customer Handover
+
+After you have completed both the general and the role-based onboarding and you feel comfortable with working with customers, you will start the onboarding to your first customer account. In case you are taking over your first customer from another CSM, the [Account Handoff CSM-to-CSM Checklist](/handbook/customer-success/csm/account-handoff/) is a very helpful resource. This handbook page also contains a [list of questions](/handbook/customer-success/csm/account-handoff/#topics-to-cover) that you can answer and afterwards discuss with the current CSM on the account. That way, the handover process will be smoother and you ensure that no important customer topic is forgotten. When preparing for the account handover, take a look at the Google Drive folder for the customer, Gainsight, Salesforce, Zendesk and the corresponding GitLab collaboration project. In Gainsight, it is particularly helpful to go through the timeline and the success plan for the customer to get a quick overview of ongoing topics, initiatives and issues. 
+
 ## CSM Office Hours
 
 We host weekly CSM office hours meetings to help you answer questions in a judgment-free space. You can add your questions to the agenda document linked in the Google Calendar invite and hop on the call to work through questions or learn how to find helpful resources.
