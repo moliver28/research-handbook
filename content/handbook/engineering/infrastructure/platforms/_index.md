@@ -89,7 +89,9 @@ If you need assistance with a production issue or incident, please see the secti
 
 Queries to the Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution.
 
-The SaaS Platforms group is iteratively migrating requests for help to go through the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel which redirects team-members to visit the [landing page for getting assistance](./getting-assistance). The purpose is to try to connect team members directly with the SaaS Platforms team that can help with their request rather than answering all questions directly in the channel itself.
+The SaaS Platforms group is iteratively migrating requests for help to go through the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel which redirects team-members to visit the [landing page for getting assistance](./getting-assistance). The purpose is to try to connect team members directly with the SaaS Platforms team that can help with their request.
+
+The [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel is monitored by SaaS Platforms Engineering Managers and Staff+ engineers who triage any inbound requests. When triaging this channel, one should locate the team who can best answer this question and instruct the requestor to contact that team using the team's preferred contact method. When the requestor is connected to the right team, add a green check emoji to the message. Finally, if needed, update the [getting assistance](./getting-assistance)] page with any changes. 
 
 #### Meetings
 
