@@ -126,9 +126,14 @@ For T&M projects, revenue is released at each month end. Project hours are submi
 For FP projects, revenue is released when customer acceptance is received or passive acceptance has passed as it pertains to the project SOW language.
 The PM sends out the request for acceptance to the customer and then updates the Billing/ Revenue Milestone in Kantata.  When sending out the acceptance email, the PM should copy the Operations Manager and the assigned Project Coordinator.  When counting the passive acceptance days, day 1 would be the date the notification is sent, from the date sent then business days is calculated for the passive acceptance.
 
-- Update Sign Off Sent, when email request is sent
-- Update Sign Off received, when acceptance is received or Passive Acceptance is reached and add the PDF email of acceptance to the Milestone
-- Update if Passive Acceptance has been utilized for sign off
+ The PM is responsible for updating the following for the project milestone in Kantata:
+- Update custom field, _Sign Off Sent_, when email request is sent
+- Update custom field, _Sign Off received_, when acceptance is received or Passive Acceptance is reached. and add the PDF email of acceptance to the Milestone
+- Update custom field, _Passive Acceptance Utilized for Sign Off_, if passive acceptance is utilized
+- If acceptance is received, attach the email (PDF) of acceptance or the signed [milestone document](https://docs.google.com/document/d/1RiS5TY5484nQuDTW8YMiB-CibVfoni7NJ8IUG2osUD0/edit) to the Milestone
+- If passive acceptance is reached, attach the email (PDF) and the [milestone document](https://docs.google.com/document/d/1RiS5TY5484nQuDTW8YMiB-CibVfoni7NJ8IUG2osUD0/edit) to the Milestone
+
+Please note only the **top level** milestone fields should be updated. The sub activities within the milestone should **not** be updated.
 
 ![fprevenuerelease](fprevenuerelease.png)
 
