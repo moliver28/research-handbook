@@ -73,13 +73,14 @@ The team's content is distributed in [Highspot](https://gitlab.highspot.com/)...
 
 We are members of the [Customer Success Engineering team](/handbook/customer-success/csm/segment/cse).
 
-| Team member |  Focus areas |
+| Team member |  Responsibilities |
 |-------------|-------------|
-| [James Wormwell](/handbook/company/team/#jwormwell) <br/> Demo Architect |  Content Creation (Demos), Demo Operations, Demo Asset Maintenance |
-| [Nicole Esplin](/handbook/company/team/#nesplin) <br/> Content Strategist | Cross Functional Collaboration, Content Strategy, Marketing/Promotion, Content Operations/Optimization/Delivery |
-| [Tearyne Almendariz](/handbook/company/team/#talmendariz) <br/> Content Programs Specialist | Content Planning, Backlog Refinement, Content Creation (Non Demos) |
+| [Nicole Esplin](/handbook/company/team/#nesplin) <br/> Content Strategist | Cross Functional Collaboration, Content Strategy, Marketing/Promotion, Content Optimization, Content Delivery |
+| [Tearyne Almendariz](/handbook/company/team/#talmendariz) <br/> Content Architect | Quarterly Planning/Backlog Management, Content Creation (Non Demos), Content Operations |
+| [James Wormwell](/handbook/company/team/#jwormwell) <br/> Demo Architect |  Content Creation (Demos), Demos/Lab Content Creation, Demo Operations, Demo Asset Maintenance |
 
-> **Note**: Details articulating what constitutes `Focus areas` can be found [here](https://docs.google.com/spreadsheets/d/1oa8pl4bESeObNVXqlWt3cR3DEOkRRAnIKWz7vzZwjuo/edit?gid=0#gid=0) and will continually be updated as the team evolves and matures.
+
+> **Note**: Details articulating what constitutes `Responsibilities` can be found [here](https://docs.google.com/spreadsheets/d/1oa8pl4bESeObNVXqlWt3cR3DEOkRRAnIKWz7vzZwjuo/edit?gid=0#gid=0) and will continually be updated as the team evolves and matures.
 
 ## <i class="fa-solid fa-book" style="color: #B197FC;"></i> Content Catalog
 
