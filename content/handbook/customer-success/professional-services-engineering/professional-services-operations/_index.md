@@ -127,6 +127,7 @@ For FP projects, revenue is released when customer acceptance is received or pas
 The PM sends out the request for acceptance to the customer and then updates the Billing/ Revenue Milestone in Kantata.  When sending out the acceptance email, the PM should copy the Operations Manager and the assigned Project Coordinator.  When counting the passive acceptance days, day 1 would be the date the notification is sent, from the date sent then business days is calculated for the passive acceptance.
 
  The PM is responsible for updating the following for the project milestone in Kantata:
+ 
 - Update custom field, _Sign Off Sent_, when email request is sent
 - Update custom field, _Sign Off received_, when acceptance is received or Passive Acceptance is reached. and add the PDF email of acceptance to the Milestone
 - Update custom field, _Passive Acceptance Utilized for Sign Off_, if passive acceptance is utilized
