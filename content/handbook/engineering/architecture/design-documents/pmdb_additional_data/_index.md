@@ -100,7 +100,11 @@ could be useful by GitLab or our customers to make security critical decisions a
 dependencies.
 
 Customers may want to opt into collecting some of this data locally in their instances, where
-additional data could be accessible remotely via an API.
+additional data could be accessible remotely via an API. It should be noted that even now, 
+customers can configure [which data they'd like to clone to their local instances](https://docs.gitlab.com/ee/administration/settings/security_and_compliance.html).
+
+This configuration could be extended to pull down additional data such as project health
+or other information.
 
 <!--
 This section is for explicitly listing the motivation, goals and non-goals of
@@ -120,69 +124,68 @@ problem is not well-defined or design details not yet established.
 
 ### Goals
 
+- Define how much data is "too much data" to be housed in the PMDB and GitLab instances
 - Determine additional architectures that would allow GitLab to collect additional metadata for projects and versions
-- Determine methodologies for allowing customers to select which data they want to pull
 - Determine what types of additional data GitLab wishes to house
 - Make architectural decisions which will easily allow additional data sources in the future to be added
 - Agree and design an architecture which can allow for the above points in a performant manner
 
-
 ### Non-Goals
 
-- TBD
+- Move away from the current PMDB architecture and how data is fed into it.
 
 ## Proposal
 
-- High Level:
-- Design an external API for additional Metadata
-- Design better compression methods where all data could be easily stored on each GitLab instance
-- Design easy method to add additional data types/metadata to be collected
-- 
-<!--
-This is where we get down to the specifics of what the proposal actually is,
-but keep it simple!  This should have enough detail that reviewers can
-understand exactly what you're proposing, but should not include things like
-API designs or implementation. The "Design Details" section below is for the
-real nitty-gritty.
+High Level:
 
-You might want to consider including the pros and cons of the proposed solution so that they can be
-compared with the pros and cons of alternatives.
--->
+- Consider designs for an external API for additional Metadata
+- Consider designs or use better compression methods where all data could be easily stored on each GitLab instance
+- Consider designing another system that could house dependency source code
+- Consider alternative database storage systems that would allow us to easy add additional data types/metadata to be collected
+
+This proposal is many a RFC where we collectively should discuss how we may want to move forward with adding additional data
+to allow a central location for all dependency related metadata. Additionally, where applicable, it may be worth adding more
+systems that augment the PMDB.
 
 ## Design and implementation details
 
-- TBD
-<!--
-This section should contain enough information that the specifics of your
-change are understandable. This may include API specs (though not always
-required) or even code snippets. If there's any ambiguity about HOW your
-proposal will be implemented, this is the place to discuss them.
+### Too much data
 
-If you are not sure how many implementation details you should include in the
-document, the rule of thumb here is to provide enough context for people to
-understand the proposal. As you move forward with the implementation, you may
-need to add more implementation details to the document, as those may become
-an important context for important technical decisions made along the way. A
-document is also a register of such technical decisions. If a technical
-decision requires additional context before it can be made, you probably should
-document this context in a document. If it is a small technical decision that
-can be made in a merge request by an author and a maintainer, you probably do
-not need to document it here. The impact a technical decision will have is
-another helpful information - if a technical decision is very impactful,
-documenting it, along with associated implementation details, is advisable.
+It may be worth first defining how much data is too much data to store in the PMDB and on our customers GitLab instances. We
+will need to look at each feature and estimate how much additional data would be added. For example, dependency graphs between
+dependencies may be too large to store in the PMDB directly. Research spikes should be done to answer these questions for
+each new feature.
 
-If it's helpful to include workflow diagrams or any other related images.
-Diagrams authored in GitLab flavored markdown are preferred. In cases where
-that is not feasible, images should be placed under `images/` in the same
-directory as the `index.md` for the proposal.
--->
+### External API for additional Metadata
 
-## Alternative Solutions
+An external API service would give us the advantage of having a service that new features or services could utilize without
+having to implement any sort of logic internally. By calling out to a service we control we can provide the necessary data directly back to the consumer. 
+This could also allow us to have a front end website similar to Google's [deps.dev](https://deps.dev/). This service could be written in a way that either stores all data directly in memory, reducing costs and complexity. 
 
-- TBD
-<!--
-It might be a good idea to include a list of alternative solutions or paths considered, although it is not required. Include pros and cons for
-each alternative solution/path.
+One option is to store all of the PMDB data directly in memory. As of Aug 1st 2024 storing the 5.9GB of data (on disk) in a very
+simple Go hashmap where the key is a concatenation of: language + package name + lowest version + highest version took up about 7-8GB of memory.
 
-"Do nothing" and its pros and cons could be included in the list too.
--->
+```
+2024/08/01 13:15:41 Total from 5062 files, total records entries: 32,751,865
+2024/08/01 13:15:41 Memory stats: InUse: 7426 MiB HeapAlloc: 7063
+```
+
+* Note: The data is not optimized for storage in any way, we could consider string compression or finding alternative data structures (Trie/prefix trees) to store this data.
+
+Given that machines can easily and rather cheapily (compared to running a database server) run with 32-64GB of memory, it's not infeasible to run this API service 
+with all data directly from memory. Data could be periodicaly loaded from the GCP buckets directly. 
+
+### External Code Repository for dependencies
+
+Some features may take advantage of full source trees of either direct git repositories or uncompressed artifacts. A light-weight UI built ontop of git may allow
+us to store and house dependencies and their individual versions. This would be similiar to what is available at systems like [diffend](https://my.diffend.io/gems/faraday/2.9.1/2.9.2).
+
+Features such as static analysis based reachability analysis could take advantage of having this data housed in a central location and make exploring and developing
+new features much faster.
+
+### Alternative method of storing additional PMDB data
+
+Another option is to investigate alternative data structures such as schemaless graph databases that could allow us to store information in a more loose structure.
+The benefit of using a graph database is that we can quickly iterate on adding new data fields without worrying too much about performance. We could also take
+advantage of the many algorithms to see how data could be correlated or how it is ultimately connected. Once the structure and connections are defined we could 
+then either export it to the current PMDB system, or create indexes in the Graph DB and serve requests directly from it.
