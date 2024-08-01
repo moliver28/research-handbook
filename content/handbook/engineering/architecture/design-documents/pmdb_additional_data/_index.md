@@ -14,56 +14,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!--
-Before you start:
-
-- Copy this file to a sub-directory and call it `_index.md` for it to appear in
-  the design documents list.
-- Remove comment blocks for sections you've filled in.
-  When your document ready for review, all of these comment blocks should be
-  removed.
-
-To get started with a document you can use this template to inform you about
-what you may want to document in it at the beginning. This content will change
-/ evolve as you move forward with the proposal.  You are not constrained by the
-content in this template. If you have a good idea about what should be in your
-document, you can ignore the template, but if you don't know yet what should
-be in it, this template might be handy.
-
-- **Fill out this file as best you can.** At minimum, you should fill in the
-  "Summary", and "Motivation" sections.  These can be brief and may be a copy
-  of issue or epic descriptions if the initiative is already on Product's
-  roadmap.
-- **Create a MR for this document.** Assign it to an Architecture Evolution
-  Coach (i.e. a Principal+ engineer).
-- **Merge early and iterate.** Avoid getting hung up on specific details and
-  instead aim to get the goals of the document clarified and merged quickly.
-  The best way to do this is to just start with the high-level sections and fill
-  out details incrementally in subsequent MRs.
-
-Just because a document is merged does not mean it is complete or approved.
-Any document is a working document and subject to change at any time.
-
-When editing documents, aim for tightly-scoped, single-topic MRs to keep
-discussions focused. If you disagree with what is already in a document, open a
-new MR with suggested changes.
-
-If there are new details that belong in the document, edit the document. Once
-a feature has become "implemented", major changes should get new blueprints.
-
-The canonical place for the latest set of instructions (and the likely source
-of this file) is [here](/content/handbook/engineering/architecture/design-documents/_template.md).
-
-Document statuses you can use:
-
-- "proposed"
-- "accepted"
-- "ongoing"
-- "implemented"
-- "postponed"
-- "rejected"
-
--->
 
 <!-- Design Doucments often contain forward-looking statements -->
 <!-- vale gitlab.FutureTense = NO -->
@@ -79,8 +29,8 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
-The Package Metadata Database (PMDB) (formally [external license DB](https://gitlab.com/groups/gitlab-org/-/epics/8492)) houses both license 
-and advisory data in an external postgresql database hosted in GCP. GitLab is investigating
+The Package Metadata Database (PMDB) (formally [external license DB](https://gitlab.com/groups/gitlab-org/-/epics/8492)) houses both license
+and advisory data in an external PostgreSQL database hosted in GCP. GitLab is investigating
 adding additional package metadata to this database which makes it infeasible to copy or
 export all data directly to customers instances.
 
@@ -94,33 +44,17 @@ package metadata that may or may not be pulled directly to customers instances.
 ## Motivation
 
 The PMDB is a datastore that could benefit by being extended to house additional
-package metadata. This could include other data such as project health (OpenSSF scores), 
-additional links to dependent packages, author information, and any other metadata that 
-could be useful by GitLab or our customers to make security critical decisions about their 
+package metadata. This could include other data such as project health (OpenSSF scores),
+additional links to dependent packages, author information, and any other metadata that
+could be useful by GitLab or our customers to make security critical decisions about their
 dependencies.
 
 Customers may want to opt into collecting some of this data locally in their instances, where
-additional data could be accessible remotely via an API. It should be noted that even now, 
+additional data could be accessible remotely through an API. It should be noted that even now,
 customers can configure [which data they'd like to clone to their local instances](https://docs.gitlab.com/ee/administration/settings/security_and_compliance.html).
 
 This configuration could be extended to pull down additional data such as project health
 or other information.
-
-<!--
-This section is for explicitly listing the motivation, goals and non-goals of
-this document. Describe why the change is important, all the opportunities,
-and the benefits to users.
-
-The motivation section can optionally provide links to issues that demonstrate
-interest in a document within the wider GitLab community. Links to
-documentation for competing products and services is also encouraged in cases
-where they demonstrate clear gaps in the functionality GitLab provides.
-
-For concrete proposals we recommend laying out goals and non-goals explicitly,
-but this section may be framed in terms of problem statements, challenges, or
-opportunities. The latter may be a more suitable framework in cases where the
-problem is not well-defined or design details not yet established.
--->
 
 ### Goals
 
@@ -159,8 +93,9 @@ each new feature.
 ### External API for additional Metadata
 
 An external API service would give us the advantage of having a service that new features or services could utilize without
-having to implement any sort of logic internally. By calling out to a service we control we can provide the necessary data directly back to the consumer. 
-This could also allow us to have a front end website similar to Google's [deps.dev](https://deps.dev/). This service could be written in a way that either stores all data directly in memory, reducing costs and complexity. 
+having to implement any sort of logic internally. By calling out to a service we control we can provide the necessary data directly back to the consumer.
+This could also allow us to have a front end website similar to Google's [deps.dev](https://deps.dev/).
+This service could be written in a way that either stores all data directly in memory, reducing costs and complexity.
 
 One option is to store all of the PMDB data directly in memory. As of Aug 1st 2024 storing the 5.9GB of data (on disk) in a very
 simple Go hashmap where the key is a concatenation of: language + package name + lowest version + highest version took up about 7-8GB of memory.
@@ -173,7 +108,7 @@ simple Go hashmap where the key is a concatenation of: language + package name +
 * Note: The data is not optimized for storage in any way, we could consider string compression or finding alternative data structures (Trie/prefix trees) to store this data.
 
 Given that machines can easily and rather cheapily (compared to running a database server) run with 32-64GB of memory, it's not infeasible to run this API service 
-with all data directly from memory. Data could be periodicaly loaded from the GCP buckets directly. 
+with all data directly from memory. Data could be periodicaly loaded from the GCP buckets directly.
 
 ### External Code Repository for dependencies
 
@@ -187,5 +122,5 @@ new features much faster.
 
 Another option is to investigate alternative data structures such as schemaless graph databases that could allow us to store information in a more loose structure.
 The benefit of using a graph database is that we can quickly iterate on adding new data fields without worrying too much about performance. We could also take
-advantage of the many algorithms to see how data could be correlated or how it is ultimately connected. Once the structure and connections are defined we could 
+advantage of the many algorithms to see how data could be correlated or how it is ultimately connected. Once the structure and connections are defined we could
 then either export it to the current PMDB system, or create indexes in the Graph DB and serve requests directly from it.
