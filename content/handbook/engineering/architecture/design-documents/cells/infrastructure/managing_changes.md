@@ -40,7 +40,7 @@ Finally, as soon as we introduce another ring (phase set C: phase 10), we will n
 
 This blueprint aims to define high-level operation principles for the Cells project infrastructure, focusing on the properties of the desired solution and the UX for the engineers operating it.
 
-Defining implementation details is out of the scope of this document, as well as optimizing the four intrumentor stages (prepare, onboard, provision, configure).
+Defining implementation details is out of the scope of this document, as well as optimizing the four Instrumentor stages (prepare, onboard, provision, configure).
 
 ## Proposal
 
