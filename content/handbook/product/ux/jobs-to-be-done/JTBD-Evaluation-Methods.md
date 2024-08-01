@@ -32,7 +32,7 @@ There are two aspects to screening:
 
 **A note on segmentation** 
 
-To establish segments, we screen on these dimensions;
+To establish segments, we screen on these factors;
 
 - Organization size
 - Sector
