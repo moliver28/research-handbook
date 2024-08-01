@@ -452,8 +452,8 @@ To streamline our workflow and ensure efficient collaboration between the Engine
 
 **Handling High Priority UX Reviews:**
 
-  - If a high-priority task arises that requires a UX review but was not planned during the milestone planning process, it should be discussed with the [Product Design Manager for Sec](/handbook/product/categories/#sec-section).
-  - To accommodate this unexpected work, another task from the original milestone plan will need to be deprioritized or dropped.
+- If a high-priority task arises that requires a UX review but was not planned during the milestone planning process, it should be discussed with the [Product Design Manager for Sec](/handbook/product/categories/#sec-section).
+- To accommodate this unexpected work, another task from the original milestone plan will need to be deprioritized or dropped.
 
 **Exceptions:**
 
