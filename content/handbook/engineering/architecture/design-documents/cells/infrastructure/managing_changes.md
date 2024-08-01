@@ -16,7 +16,7 @@ We must ensure the correct sequencing of "changes" in our Cells environments: de
 
 ### Key Terms
 
-- [Deployment](deployments.md) - The GitLab application and its components are installed into our infrastructure.
+- [Deployment](deployments.md) - The process of installing the GitLab application and its components into our infrastructure.
 - Configuration changes - Changing a field of the tenant model. When the field is `prerelease_version` we call it a deployment.
 - Changes - A deployment, a configuration change, and a merge request targeting the tissue project.
 
