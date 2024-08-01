@@ -59,7 +59,7 @@ or other information.
 ### Goals
 
 - Define how much data is "too much data" to be housed in the PMDB and GitLab instances
-- Determine additional architectures that would allow GitLab to collect additional metadata for projects and versions
+- Determine additional architectures that would allow GitLab to collect additional metadata for packages and versions
 - Determine what types of additional data GitLab wishes to house
 - Make architectural decisions which will easily allow additional data sources in the future to be added
 - Agree and design an architecture which can allow for the above points in a performant manner
