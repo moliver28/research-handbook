@@ -105,7 +105,7 @@ simple Go hashmap where the key is a concatenation of: language + package name +
 2024/08/01 13:15:41 Memory stats: InUse: 7426 MiB HeapAlloc: 7063
 ```
 
-* Note: The data is not optimized for storage in any way, we could consider string compression or finding alternative data structures (Trie/prefix trees) to store this data.
+- Note: The data is not optimized for storage in any way, we could consider string compression or finding alternative data structures (Trie/prefix trees) to store this data.
 
 Given that machines can easily and rather cheapily (compared to running a database server) run with 32-64GB of memory, it's not infeasible to run this API service 
 with all data directly from memory. Data could be periodicaly loaded from the GCP buckets directly.
