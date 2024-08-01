@@ -53,6 +53,63 @@ All the previous quarter OKRs are available [here](https://gitlab.com/gitlab-com
 
 See the [Plan stage page](/handbook/product/categories/#plan-stage) and the [Plan:Project Management backend team page](/handbook/engineering/development/dev/plan/project-management/).
 
+### Milestone Planning
+
+The week after a release of current milestone, planning issue for next milestone is created by automation and is available [here](https://gitlab.com/gitlab-org/plan-stage/product/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=group%3A%3Aproduct%20planning&first_page_size=100).
+Once the issue is created, Product Manager fills out initial information (i.e. broader theme for the milestone, product priorities, deliverable areas, etc.) within the issue description and refines the [Milestone Planning board](https://gitlab.com/gitlab-org/gitlab/-/boards/7695201?not[label_name][]=product%20work&label_name[]=group%3A%3Aproduct%20planning&milestone_title=Started).
+
+Once the milestone candidates are available, Engineering Kick Off Call is scheduled. This call happens once a month on the day after the release is cut for current milestone (i.e. every second Friday of the month). In this call, team members review the proposed list of candidates and slippage from previous milestone that they're already assigned to, and the Milestone Planning board for issues labelled `workflow::planning breakdown` to identify any missing information, blocking dependencies, and ensuring if issues are indeed ready for development. If an issue in the list already has expert/DRI available, then they are required to update the issue to include additional information
+about what needs to be done, and possible hints around approach that an engineer can take while working on the issue. At the end of the meeting, following outcome is expected;
+
+- List of issues we want to work on in the milestone
+- DRIs for those issues who can update it with implementation details
+  - Once issue is updated, workflow label is updated to `workflow::ready for development`
+- Team member bandwidth and availability for the milestone
+
+**Estimation Template**
+
+The following is a guiding mental framework for engineers to consider when contributing to estimates on issues.
+
+```markdown
+### Refinement / Weighting
+
+<!--
+Ready for development means replying yes to the following questions:
+
+- Is this issue sufficiently small enough? If not, break it into smaller issues
+- Is it assigned to the correct domain (e.g. frontend, backend)? If not, break it into two issues for the respective domains
+– Is the issue clear and easy to understand? If not, try asking further clarification questions and update the description once they are received
+
+If more than 2 MRs are needed, consider adding a table like the following to the description (e.g. under `Implementation plan`).
+
+| Description | MR |
+|-|-|
+|||
+
+It will help track the status.
+-->
+
+- [ ] Ready for development
+- [ ] Weight is assigned
+- [ ] Number of MRs listed
+- [ ] Needs testing considerations
+- [ ] Needs documentation updates
+
+**Reasoning:**
+
+<!--
+Add some initial thoughts on how you might break down this issue. A bulleted list is fine.
+
+This will likely require the code changes similar to the following:
+
+- replace the hex driver with a sonic screwdriver
+- rewrite backups to magnetic tape
+- send up semaphore flags to warn others
+
+Links to previous examples. Discussions on prior art. Notice examples of the simplicity/complexity in the proposed designs.
+-->
+```
+
 ### Capacity Planning
 
 {{% include "includes/engineering/plan/capacity-planning.md" %}}
