@@ -132,11 +132,10 @@ At the end of every week, each engineer is expected to provide a quick async iss
 
 /health_status <!-- on_track | needs_attention | at_risk -->
 /label <!-- ~"workflow::blocked" | ~"workflow::refinement" | ~"workflow::ready for development" | ~"workflow::In dev" | ~"workflow::In review" | ~"workflow::verification" -->
-
-<!-- Please apply a :triangular_flag_on_post: emoji to this comment. Fore more information see https://gitlab.com/jayswain/automated-reporting -->
+/react :triangular_flag_on_post:
 ```
 
-We do this to encourage our team to be more async in collaboration and to allow the community and other team members to know the progress of issues that we are actively working on. This also enables us to automatically collate updates across swimlanes, removing some manual process.
+We do this to encourage our team to be more async in collaboration and to allow the community and other team members to know the progress of issues that we are actively working on. This also enables us to [automatically](https://gitlab.com/jayswain/automated-reporting) collate updates across swimlanes, removing some manual process.
 
 ### Support rotation
 
