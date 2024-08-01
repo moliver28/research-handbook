@@ -1480,7 +1480,7 @@ Feedback issues are intended to collect feedback from the wider community and us
 1. A linked confidential issue for Field feedback can be used, if needed, to support the exchange of customer details and feedback
 1. Leverage [internal comments](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note) as needed if customer details are being shared
 
-#### Other Best Practice Considerations
+#### Other best practice considerations
 
 Consider the following to improve iteration:
 
@@ -1559,7 +1559,7 @@ are up-to-date and visible to critical stakeholders:
 - Present changes to your stage strategy, category strategies, and plan to your
 stage group weekly meeting once a month.
 
-### Working with Customers
+### Working with customers
 
 #### Customer meetings
 
@@ -1573,7 +1573,7 @@ As a PM you should facilitate opportunities for your engineering group to hear
 directly from customers too. Try to schedule customer meetings at times that
 are friendly to your group, invite them, and send them the recording and notes.  If you're looking for other ways to engage with customers here is a video on [finding, preparing for, and navigating Customer Calls as a Product Manager at GitLab](https://www.youtube.com/watch?v=HyVR_ybRkCY).
 
-##### Sales Support Meetings
+##### Sales support meetings
 
 **Before the meeting**, ensure the Sales lead on the account has provided you with sufficient
 background documentation to ensure a customer doesn't have to repeat information they've already
@@ -1594,7 +1594,7 @@ This project is private so that detailed and unredacted feedback can be shared i
 - Create or update related issues to publicly document feedback.
 The synthesis of feedback from multiple meetings should happen publicly in an epic or issue.
 
-##### Customer Discovery Meetings
+##### Customer discovery meetings
 
 Customer discovery meetings aren't UX Research. Target them to broad-based needs
 and plan tradeoff discussions, not specific feature review. There are
@@ -1652,7 +1652,7 @@ You can find some additional guidance on conducting Customer Discovery Meetings 
 - [How to Interview Your Customers](https://customerdevlabs.com/2013/11/05/how-i-interview-customers/)
 - [Effective User Interviews](https://www.productmanagerhq.com/2018/08/effective-user-interviews/)
 
-#### Sourcing Customers
+#### Sourcing customers
 
 PMs should also feel free to collect and evaluate customer feedback independently. Looking at [existing](/handbook/product/ux/ux-research/#how-to-find-existing-research)
 research can yield helpful
@@ -1679,6 +1679,7 @@ or join the Field Sales Team Call and the All CS Team Call to present a specific
 question or an issue. Users who've had recent challenges using the product really appreciate PMs taking the time to learn from
 their experience. This establishes that we are willing to listen to users, even if they are not having a great experience.
 This is also a great opportunity to discuss the roadmap and provide context so that users understand what we are going to improve.
+
 The best way to request a chat is through the support ticket; however, you can also click
 on the user that initiated the interaction and their contact information will display on the left hand side panel.
 
@@ -1710,7 +1711,7 @@ to GitLab. You can reach these people at local meetups, conferences or online gr
 you should not try to interview the user on spot, instead organize a separate meeting where nobody will be distracted, and
 both of you can arrive prepared.
 
-#### Customer Advisory Board Meetings
+#### Customer Advisory Board meetings
 
 One specific, recurring opportunity to get direct feedback from highly engaged customers
 is the [GitLab DevOps Customer Advisory Board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#gitlab-devops-customer-advisory-board).
@@ -1744,7 +1745,7 @@ Take this into consideration even when getting feedback or requests from colleag
 As a PM you are ultimately responsible for the quality of the solutions you ship,
 make sure they're the (first iteration of the) best possible solution.
 
-#### GitLab.com In App Messages (Broadcast Messaging)
+#### GitLab.com In App messages (Broadcast Messaging)
 
 Broadcast Messaging is a great tool for acquiring user feedback from within the product. This tool allows for general, one-time, important announcements or for users to be recruited during or after
 interacting with specific workflows within the product. Currently, broadcast messaging can be [targeted by URL](https://www.youtube.com/watch?time_continue=3&v=C4PuRUiQ6WU&feature=emb_logo),
@@ -1752,13 +1753,13 @@ and [user information can be passed](https://www.youtube.com/watch?v=2NKsXgfLhqc
 
 There are two types of Broadcast Messages - banners and notifications. Currently banner notifications also send messages in Git responses, but this is [under review](https://gitlab.com/groups/gitlab-org/-/epics/10643).
 
-**How to use Broadcast Messaging:**
+##### How to use Broadcast Messaging
 
 All broadcast messaging efforts must follow all guidelines in order to be deployed to GitLab.com. Create an issue in the GitLab.com/Product project using the [Broadcast Messaging template](https://gitlab.com/gitlab-com/Product/-/issues/new?issuable_template=PM-in-app-messaging-request) and assign it to `@justinfarris` & `@ampesta` for review. The [In App Messaging board](https://gitlab.com/gitlab-com/Product/-/boards/1889145?label_name%5B%5D=In-App-Messaging) is used to prioritize all messages in queue and in flight.
 
 See [issue template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/PM-in-app-messaging-request.md) for usage guidelines. If the message requires a group to do work (for a banner message for instance) you may want to create an issue in the `gitlab/gitlab-org` project for better visibility.
 
-### Competition Channel
+### Competition channel
 
 When someone posts information in the `#competition` channel that warrants
 creating an issue and/or a change in `features.yml`, follow this
@@ -1824,7 +1825,7 @@ If it is the weekend, and the contact request is urgent as a result of an action
 
 ### Assessing opportunities
 
-#### Opportunity Canvas
+#### Opportunity canvas
 
 One of the primary artifacts of the validation track is the Opportunity Canvas. The Opportunity Canvas introduces a lean product management philosophy to the validation track by quickly iterating on level of confidence, hypotheses, and lessons learned as the document evolves. At completion, it serves as a concise set of knowledge which can be transferred to the relevant issues and epics to aid in understanding user pain, business value, the constraints to a particular problem statement and rationale for prioritization. Just as valuable as a validated Opportunity Canvas is an invalidated one. The tool is also useful for quickly invalidating ideas. A quickly invalidated problem is often **more valuable** than a slowly validated one.
 
@@ -1849,11 +1850,11 @@ Reviewing opportunity canvases with leadership provides you with an opportunity 
 - [Example Opportunity Canvas - Fine Grained Access Control (GoogleDoc)](https://docs.google.com/document/d/1c_FPLZ8W7Gjl0tvZSybEKWvcCzJ3AgxlQNFvwm92IHo/edit#heading=h.4mt5fmtn0ax4)
 - [Example Opportunity Canvas - Error Tracking (Mural)](https://app.mural.co/t/gitlab2474/m/gitlab2474/1568925801645/71e7e6352180a1492a19a3d3ed6f96d48fefd597)
 
-#### Opportunity Canvas Lite
+#### Opportunity canvas lite
 
 Opportunity Canvases are a great assessment for ill-defined or poorly understood problems our customers are experiencing that may result in net new features. As noted previously, opportunity canvases are helpful for existing features, except they are tailored for new feature development which is where the [`Product-Opportunity-Opportunity-Canvas-Lite`](https://gitlab.com/gitlab-com/Product/-/issues/new?issuable_template=Product-Opportunity-Canvas-Lite) issue template delivers. This template offers a lightweight approach to quickly identify the customer problem, business case, and feature plan in a convenient issue. The steps to use the template are outlined in the [Instructions](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Opportunity-Canvas-Lite.md#instructions) section and for clarity, one would create this issue template for an existing feature they are interested in expanding. For example, this template would be great to use if you are evaluating the opportunity to add a third or fourth iteration to an MVC. This issue should leverage already available resources and be used to collate details to then surface to leadership for review. Once you fill out the template, you will assign to the parties identified in the issue and you can always post in the `#product` channel for visibility.
 
-### Analyst Engagement
+### Analyst engagement
 
 Part of being a product manager at GitLab is maintaining engagement with
 analysts, culminating in various analyst reports that are applicable to your
@@ -1884,7 +1885,7 @@ feedback.
 This is a mutual collaboration, so we also want to keep them up to date with the
 new features that we release, and help them to adopt all our own features.
 
-### PCSAT Responder Outreach
+### PCSAT responder outreach
 
 Each quarter we reach out to [Product Customer Satisfaction (PCSAT)](/handbook/product/ux/performance-indicators/csat) survey responders who opted-in to speak with us. This is a fantastic opportunity to build bridges with users and for Product Managers to get direct feedback for their specific product area. If a customer has taken the time to share a verbatim with us and offered to have a conversation, they deserve to be followed up with - especially if that customer is dissatisfied with GitLab.
 
@@ -1902,7 +1903,7 @@ When we speak to users and customers directly during this workflow, we must be m
 
 **Note:** GitLab Customer Success Managers will also follow the process above so please be mindful to coordinate with them if they reach out or if they've already signed up for a user. Users should never be contacted by more than one GitLab team member. Users should never be contacted more than twice if they do not respond to an outreach email.
 
-#### Instructions for Product leaders
+#### Instructions for product leaders
 
 1. Look at the `PCSAT Follow Up Users` Google Sheet that will be shared with you in an issue. Identify any users you think a Group Product Manager or Product Manager from your group would be interested in speaking to. Assign the specific Group Product Manager or Product Manager to reach out to that user by putting their name in the appropriate column. This will also serve as a "hold" on the user and if others are interested they will need to coordinate with this Group Product Manager or Product Manager.
 1. If you think another Group Product Manager or Product Manager in your group or another group would be interested in speaking to the same customer, consider notifying that Group Product Manager or Product Manager for the sake of efficiency.
@@ -1989,7 +1990,7 @@ There are a few different tools PM's can utilize to understand the operational c
 - [Service ping](https://docs.gitlab.com/ee/development/service_ping/)
 - Your Engineering Manager, #infrafin on Slack, and the broader GitLab team
 
-#### Links to Learn more about Infrastructure cost management initiatives
+#### Links to learn more about infrastructure cost management initiatives
 
 - [Infrafin Board Workflow](https://gitlab.com/groups/gitlab-com/-/boards/1502173?label_name%5B%5D=infrafin)
 - [Infrafin Board by Group](https://gitlab.com/groups/gitlab-com/-/boards/2054211?label_name%5B%5D=infrafin)
@@ -2290,7 +2291,7 @@ When considering open source software in build vs. "buy" decisions we utilize th
 - **Velocity** - Is there a high rate of iteration with the software? Are new features or enhancements proposed and completed quickly? Are security patches applied regularly?
 - **Community** - Is there a diverse community contributing to the software? Is the software governed by broader communities or by a singular corporate entity? Do maintainers regularly address feedback from the community?
 
-## Analytics Instrumentation Guide
+## Analytics instrumentation guide
 
 Please see [Analytics Instrumentation Guide](/handbook/product/analytics-instrumentation-guide)
 
@@ -2327,9 +2328,9 @@ The table below will catalog the list of GitLab.com services, the current SLO de
 | Container Registry | Package PM @trizzi | [Apdex](https://en.wikipedia.org/wiki/Apdex) for request latency (time to serve) read requests to the container registry. Thresholds are `satisfied` when under .5 seconds and `tolerated` under 1 second. [Further details available here](https://gitlab.com/gitlab-com/runbooks/-/blob/1aa2d39562705c1d0fbef75242d42ff43a99eb53/metrics-catalog/services/lib/registry-helpers.libsonnet). | [99%](https://gitlab.com/gitlab-com/runbooks/-/blob/1aa2d39562705c1d0fbef75242d42ff43a99eb53/metrics-catalog/services/registry.jsonnet) |  |
 | Package Registry | Package PM @trizzi | Error rate for package read requests to the package registry. The service is available when less than 0.5% of requests return a 5XX error status response. | 99.5% |  |
 
-## Product-Specific People Processes
+## Product-specific people processes
 
-### Annual Compensation Review
+### Annual compensation review
 
 For our upcoming Annnual Compensation Review (ACR) cycle, [this handbook page](/handbook/total-rewards/compensation/compensation-review-cycle) should be referenced as SSOT for content and processes related to the program. The timeline below outlines the Product division specific timeline the division will follow to ensure we have an appropriate amount of time to review compensation recommendations at all levels. Aside from the timeline itself, please reference the [ACR handbook page](/handbook/total-rewards/compensation/compensation-review-cycle) for additional detail and program information.
 
