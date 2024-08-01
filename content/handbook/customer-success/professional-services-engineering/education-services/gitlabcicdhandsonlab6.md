@@ -192,7 +192,7 @@ Your `deploy review` job should be the only job that should be running.
 
 ### Task B3: Running the `deploy staging` Job
 
-1. Open your `.gitlab-ci.yml` file and review the rules specified in the deploy release `rules` section. It will only run when A) The branch name (represented by `$CI_COMMIT_REF_NAME`) is equal to `main`.
+1. Open your `.gitlab-ci.yml` file and review the rules specified in the deploy staging `rules` section. It will only run when A) The branch name (represented by `$CI_COMMIT_REF_NAME`) is equal to `main`.
 
 1. In the top left corner, click on the button that says **Dev**, and set the option to be **main** instead.
 
