@@ -187,6 +187,8 @@ From here, people have options when looking for what's next:
 1. Pick up KTLO work they are interested in or to create a break between other project work
 1. Help out with external requests if the interrupt rotation has higher volume on a given week
 
+We trust everyone to be a [Manager of One](../../../../leadership/_index.md#managers-of-one) - owning not just their own work, but the team's work - taking responsibility to define their own workflow that provides the right balance of work for them to be most impactful to the team.
+
 ### Prioritization of work
 
 We use priority labels to prioritize our work. OKR work is updated to `priority::2` when it is ready to be worked on. As such it is given higher priority than most other work. This means that external requests will be worked in based on their own priority and impact, where only P1 and P2 issues will regularly interrupt OKR work.
