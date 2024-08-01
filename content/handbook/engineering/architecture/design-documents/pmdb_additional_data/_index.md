@@ -100,7 +100,7 @@ This service could be written in a way that either stores all data directly in m
 One option is to store all of the PMDB data directly in memory. As of Aug 1st 2024 storing the 5.9GB of data (on disk) in a very
 simple Go hashmap where the key is a concatenation of: language + package name + lowest version + highest version took up about 7-8GB of memory.
 
-```
+```bash
 2024/08/01 13:15:41 Total from 5062 files, total records entries: 32,751,865
 2024/08/01 13:15:41 Memory stats: InUse: 7426 MiB HeapAlloc: 7063
 ```
