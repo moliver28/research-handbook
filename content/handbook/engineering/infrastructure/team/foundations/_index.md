@@ -167,7 +167,7 @@ We have three buckets of work:
 1. External requests
 1. General operations, also known as Keep the lights on (KTLO)
 
-While we rely on the `workflow-infra::*` labels to denote the current state of any given issue, we relay on the [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583?label_name%5B%5D=Foundations%3A%3ABuild) to understand what specific issues are ready to be picked up.
+While we rely on the `workflow-infra::*` labels to denote the current state of any given issue, we rely on the [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583?label_name%5B%5D=Foundations%3A%3ABuild) to understand what specific issues are ready to be picked up.
 
 In short, anyone on the team can find issues to work on in the Build Board.
 
@@ -179,7 +179,7 @@ Different people are responsible for adding the `Foundations::Build` label to is
 
 - OKRs - DRIs of each OKR uses the `Foundations::Build` label to communicate what the next issues needed to be picked up are.
 - External requests - the Engineering manager will add `Foundations::Build` to issues that need attention. These will also include the `unblocks others` label to make it clear to folks on the interrupt rotation which issues are external requests.
-- KTLO - When we have an OKR related to KTLO, the DRI for that OKR will add the `Foundations::Build` label to related issues. Any team member should feel empowered to add KTLO issues to the board that are important to prioritize for the ongoing maintenance and stability of the platform. 
+- KTLO - These issues will generally be added according to a general combination of due date/priority/severity/weight. Any team member should feel empowered to add KTLO issues to the board when they fit the criteria.
 
 From here, people have options when looking for what's next:
 
