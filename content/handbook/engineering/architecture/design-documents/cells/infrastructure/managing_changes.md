@@ -28,11 +28,13 @@ In the described situation, the pipeline ordering with the `resource_group` feat
 
 In the Cells project, we estimate 6-10 deployments a day, plus configuration changes and other merge requests for the project. While release-tools coordinate deployments without overlapping, the same isn't true for the other two types of changes.
 
+Without tools to automate this task, consider 10 Cells (target for Cells 1.0) and a total of 10 daily changes of any type. We are looking at 100 individual file changes per day. Even if bundled changes in a single merge request per ring, for a total of 10 merge requests, those 100 file changes will still generate merge conflict that should be resolved manually.
+
 Given the nature of the infrastructure stack of the project, bundling a configuration change with a deployment may have dire consequences on that cell.
 
 Moreover, each change applies to an entire ring, and working with regular merge requests may result in new cells getting out of sync as they were not known when the merge request was created.
 
-Finally, as soon as we introduce another ring (phase set C: phase 10), we will need a way to apply the same change without creating a new merge request that will affect the tenant models in another ring.
+Finally, as soon as we introduce another ring (phase set C: phase 10), we will need a way to apply the same change without creating a new merge request that will affect the tenant models in another ring. Having a single merge request tracking a change from Ring 0 outward greatly reduces the amount of toil and improves our ability to track the progress of each change.
 
 ### Goals
 
