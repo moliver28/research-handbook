@@ -191,8 +191,8 @@ What you will need:
 What you will do:
 
 1. **Session 1:** Async ally training and courses. Synchronous meeting to discuss what you have learned.
-    1. [Equality Ally Strategies](https://trailhead.salesforce.com/en/content/learn/modules/workplace_equality_ally_strategies)
-    1. [Cultivate Equality at Work](https://trailhead.salesforce.com/users/stormieseas/trailmixes/cultivating-equality-at-work)
+    1. [Explore Ally Allyship](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals/explore-allyship)
+    1. [Cultivate Equality at Work](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals)
     1. [Communicating with Empathy](https://www.linkedin.com/learning/communicating-with-empathy/empathy-as-a-path-to-productive-conversations?u=2255073)
     1. [Effective Listening](https://www.linkedin.com/learning/improving-your-listening-skills/welcome?autoplay=true&resume=false&u=2255073)
     1. [Building Trust](https://www.linkedin.com/learning/building-trust-6/building-trust?u=2255073)
