@@ -447,8 +447,8 @@ To streamline our workflow and ensure efficient collaboration between the Engine
 
 **UX Review Requirement:**
 
-  - A UX review is required only for work that has been explicitly designed by a Product Designer.
-  - MRs that do not involve work explicitly designed by a Product Designer can be labeled as `UX Tech Debt` and merged without a UX review.
+- A UX review is required only for work that has been explicitly designed by a Product Designer.
+- MRs that do not involve work explicitly designed by a Product Designer can be labeled as `UX Tech Debt` and merged without a UX review.
 
 **Handling High Priority UX Reviews:**
 
