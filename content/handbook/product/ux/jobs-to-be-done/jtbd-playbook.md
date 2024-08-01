@@ -73,7 +73,7 @@ Helpful prompts can be found in the Figjam template [interview guide](https://ww
 It is recommended to have both a moderator and a notetaker during each interview, if possible. The notetaker is responsible for documenting the Job Steps on the JTBD Interview Participant Canvases during the interview. At any point during the interview, show the canvas to the participant to ensure accurate interpretation of their responses.
 
 1. Use the Figjam space provided for each participant and capture every step the participant mentions, using a sticky. Try to maintain chronological order and don't worry about other aspects of your JTBD, such as Job Stages or Job Statement formatting.
-    - **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards by reviewing your interviews videos in Dovetail. As you're reviewing your videos try using the JTBD Global Labels to mark parts of the video when you recognize a JTBD Canvas element.
+    - **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards when reviewing your interviews videos/notes.
 1. Once all Job Steps have been discussed, walk through the Job Map with the participant for feedback and verification. Make adjustments as needed.
     - **Note:** You may skip this step if you do not have a notetaker.
 1. After the interview, rewrite each Job Step to ensure it is functional and follows [Job Statement format](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-statements).
@@ -82,7 +82,7 @@ It is recommended to have both a moderator and a notetaker during each interview
 
 #### Exercise 1: Complete the Job Map
 
-After all interviews have been completed, reviewed, and labeled in Dovetail, it’s time to synthesize them into the final Job Map.
+After all interviews have been completed, it’s time to synthesize them into the final Job Map.
 
 1. **Identify Commonalities:**
     - Look for commonalities among all Job Maps.
@@ -96,7 +96,7 @@ After all interviews have been completed, reviewed, and labeled in Dovetail, it�
 
 #### Exercise 2: Construct Outcome Statements
 
-Continuing with your interview synthesis, return to your Dovetail labels and filter on Outcomes. Use these, along with your Job Map/Steps, to generate [Outcome Statements](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#outcomes) across the three dimensions:
+Continuing with your interview synthesis, return to your interview videos/notes and look for anything that might help you write your Outcome statements. Look for anything that sounds like a pain point, hurdle, or workaround that user has to deal with. Use your videos/notes, along with your Job Map/Steps, to generate [Outcome Statements](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#outcomes) across the three dimensions:
 
 1. **Speed**: Minimize the time it takes + (accomplish something)
 1. **Reliability/Predictability**: Minimize the likelihood that + (something undesirable happens)
@@ -106,7 +106,7 @@ Steps:
 
 1. **Start with Stage 1:**
     - Begin with Stage 1 (for example, Define) of your Job Map and the first Job Step under it.
-    - Consider any problems, hurdles, pain points, etc., mentioned by your interview participants while performing this step. Reference your Dovetail notes to identify any mentions of how they measure the success of completing their Job.
+    - Consider any problems, hurdles, pain points, etc., mentioned by your interview participants while performing this step. Reference your videos/notes to identify any mentions of how they measure the success of completing their Job.
 1. **Construct Outcome Statements:**
     - For each Job Step under each Job Stage, construct Outcome Statements for the three dimensions mentioned above.
     - Continue this process until you have written Outcome Statements for the entire Job Map.
