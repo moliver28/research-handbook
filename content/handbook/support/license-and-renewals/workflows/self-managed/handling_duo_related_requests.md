@@ -30,7 +30,6 @@ category: GitLab Self-Managed licenses
 - Duo requires a cloud activation code is applied to an instance
 - If the customer does not require their instance to use a legacy/offline license, they can generate an activation code for their subscription in the Customers Portal (via their subscription card)
 
-
 #### Duo trial does not immediately begin
 
 - Duo trials are synced to self-managed instances via the daily sync, so it can take up to 24 hours for a Duo trial to apply to a self-managed instance
