@@ -61,7 +61,7 @@ about what needs to be done, and possible hints around approach that an engineer
 
 - List of issues we want to work on in the milestone
 - DRIs for those issues who can update it with implementation details
-    - Once issue is updated, workflow label is updated to `workflow::ready for development`
+  - Once issue is updated, workflow label is updated to `workflow::ready for development`
 - Team member bandwidth and availability for the milestone
 
 **Estimation Template**
