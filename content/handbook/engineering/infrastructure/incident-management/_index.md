@@ -135,7 +135,7 @@ When paged, the Incident Managers have the following responsibilities during a S
 The Incident Manager is the DRI for all of the items listed above, but it is expected that the IM will do it with the support of the EOC or others who are involved with the incident. If an incident runs beyond a scheduled shift, the Incident Manager is responsible for handing over to the incoming IM.
 
 The IM won't be engaged on these tasks unless they are paged, which is why the default is to page them for all Sev1 and Sev2 incidents.
-In other situations, to engage the Incident Manager run `/pd trigger` and choose the `GitLab Production - Incident Manager` as the impacted service.
+In other situations, to engage the Incident Manager run `/pd trigger` and choose the `Incident Manager Oncall` as the impacted service.
 
 ### Incident Manager Coordinator
 
@@ -181,7 +181,7 @@ If any of the following are true, it would be best to engage an Incident Manager
 1. Any unauthorized access to a GitLab.com production system
 1. Two or more S3 or higher incidents to help delegate to other SREs.
 
-To engage with the Incident Manager run `/pd trigger` and choose the `GitLab Production - Incident Manager` as the impacted service. **Please note** that when an incident is upgraded in severity (for example from S3 to S1), PagerDuty does not automatically page the Incident Manager or Communications Manager and this action must be taken manually.
+To engage with the Incident Manager run `/pd trigger` and choose the `Incident Manager Oncall` as the impacted service. **Please note** that when an incident is upgraded in severity (for example from S3 to S1), PagerDuty does not automatically page the Incident Manager or Communications Manager and this action must be taken manually.
 
 ### What happens when there are simultaneous incidents?
 
@@ -242,17 +242,19 @@ During a verified Severity 1 Incident the IM will page for Infrastructure Leader
 Further support is available from the Scalability and Delivery Groups if required. Scalability leadership can be reached
 via PagerDuty [Scalability Escalation](https://gitlab.pagerduty.com/escalation_policies#PDJ160O) (further [details available on their team page](/handbook/engineering/infrastructure/team/scalability/index.html#emergency-escalation-during-s1s2-incidents)). Delivery leadership can be reached via PagerDuty. See the [Release Management Escalation](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation) steps on the Delivery group page.
 
-### How to engage the CMOC?
+### How to engage the EOC, IMOC and CMOC?
 
-If, during an incident, EOC or Incident Manager decide to engage CMOC, they should do that
-by paging the on-call person:
+If during an incident, the EOC, Incident Manager or CMOC need to be engaged, page the on-call person using either of the following steps. This triggers a PagerDuty incident and page the appropriate person based on the **Impacted Service** that you choose. 
 
-- Using the `/pd trigger` command in Slack, then select the "Incident Management - CMOC" service from the modal.
+- Using the `/pd trigger` command in Slack, then select the **Impacted Service** based on the role table below.
 or
-- Directly from PagerDuty in the [Incident Management - CMOC Rotation](https://gitlab.pagerduty.com/escalation_policies#PNH1Z1L)
-schedule in PagerDuty. That can be done by navigating to [Incidents page in PagerDuty](https://gitlab.pagerduty.com/incidents),
-and then creating the new incident while picking **Incident Management - CMOC** as
-**Impacted Service**.
+- Directly from PagerDuty by navigating to [Incidents page in PagerDuty](https://gitlab.pagerduty.com/incidents), create a new incident and select the **Impacted Service** based on the role table below.
+
+| Role | Impacted Service | 
+| ----- | ----- | 
+| EOC | GitLab Production |
+| IMOC | GitLab Production - Incident Manager |
+| CMOC | Incident Management - CMOC |
 
 ### Incidents requiring direct customer interaction
 
