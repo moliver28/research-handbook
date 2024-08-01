@@ -457,7 +457,7 @@ To streamline our workflow and ensure efficient collaboration between the Engine
 
 **Exceptions:**
 
- - These new guidelines do not apply to the Authentication, Authorization, and Pipeline Security groups, which will continue to operate under their current processes.
+- These new guidelines do not apply to the Authentication, Authorization, and Pipeline Security groups, which will continue to operate under their current processes.
 
 ## Working with Customer Support
 
