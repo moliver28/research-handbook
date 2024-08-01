@@ -39,13 +39,15 @@ We have useful dashboards tracking the performance of parts of the application w
 
 ## OKRs
 
+Beginning FY24, we have moved away from Ally.io and have been using GitLab to track OKRs. Please note that the links below are only accessible to GitLab team members.
+
 ### Active Quarter OKRs
 
-As we migrate to using GitLab to track OKRs, the active quarter (FY24-Q1) OKRs will be visible [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&type%5B%5D=objective&label_name%5B%5D=division%3A%3AEngineering&label_name%5B%5D=group%3A%3Aproduct%20planning&milestone_title=Q4&first_page_size=100) and Key Results [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=division%3A%3AEngineering&label_name%5B%5D=group%3A%3Aproduct%20planning&milestone_title=Q4&type%5B%5D=key_result&first_page_size=100).
+The current quarter (FY25-Q3) OKRs are visible [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=group%3A%3Aproduct%20planning&first_page_size=100).
 
 ### Previous Quarter OKRs
 
-FY23-Q4 OKRs were conducted in Ally.io and are no-longer available.
+All the previous quarter OKRs are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=closed&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=group%3A%3Aproduct%20planning&first_page_size=100).
 
 ## Work
 
