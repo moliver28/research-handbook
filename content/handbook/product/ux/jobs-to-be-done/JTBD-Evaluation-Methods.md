@@ -61,7 +61,7 @@ The results of the Outcome survey are scored using the top-two box method, which
 
 Looking at the example data above, we see that (40) or 80% of the total (50) participants find the [Job step] important, and 30% of participants are satisfied with the current [Solution]. We can plot these scores as data points to understand further how this correlates to Needs. To achieve this, we move the decimal (0.8 is now 8, and 0.3 is now 3). Looking at the diagram below, we find that this Outcome is an Underserved need.  
 
-![Needs_Plotting](Needs_Plot.png)
+![Needs_Plotting](../Needs_Plot.png)
 
 ### Design evaluation
 
