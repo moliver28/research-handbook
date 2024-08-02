@@ -173,7 +173,7 @@ An Outcome statement is the benchmark by which Job Performers gauge success in a
 
 💡 Every Job Step and Consumption Job will have three outcome statements, one for each dimension.
 
-![Outcome Mapping](Concepts_Outcome_mapping.png)
+![Outcome Mapping](../Concepts_Outcome_mapping.png)
 
 ### Measuring Outcome statements
 
