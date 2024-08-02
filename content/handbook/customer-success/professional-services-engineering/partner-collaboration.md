@@ -178,7 +178,7 @@ The Partner Scheduling Process is as follows:
 5. If the Partner Engineer is vetted, the Project Coordinator will proceed and send the work authorization form.
 6. The Project Coordinator will track the Work Authorizations against the funding on the Prime Partner SOW.
 
- **Consulting Work Authorization Form**
+### Consulting Work Authorization Form
 
 The Consulting subcontracting Prime Partner SOW includes a work authorization form. The work authorization form is used to contractually secure a partner engineers and trainers for a Consulting and Training delivery. One Consulting or Training project should be listed on the Consulting or Training Work Authorization form. The PS Operations Team will initiate the work authorization form for the partner.
 
@@ -191,13 +191,28 @@ The Consulting subcontracting Prime Partner SOW includes a work authorization fo
         - Dates of work completed
         - Travel and expenses (if on site required)
 
+### Delivery Kits 
+
+Delivery kits are comprehensive packages of resources, tools, and documentation that partners can use to streamline the delivery of GitLab professional services. These kits include:
+
+1. Project templates and checklists
+2. Best practices and guidelines
+3. Technical documentation
+
+Partners have access to [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits). They are encouraged to use these kits as a starting point for their engagements.
+
+Each kit is regularly updated by the GitLab Professional Services team to ensure partners have access to the latest methodologies and tools for successful service delivery.
+
+
+
+
 ### Time Sheet Submissions
 
 Each week, the Partner will submit their timesheets into our PSA tool by the end of their business day.
 Timesheets are due on the Friday of each week. It is imparative that all timesheets are submitted into the PSA tool weekly by the deadline!
 Month end deadlines for timesheet submissions are posted in the partner slack channels at month end. Reminders are submitted mid-month as we lead up to the month-end deadline. If there are further questions, please reivew with Project Managers or the Operations team.
 
-**Partner Monthly Invoicing**
+### Partner Monthly Invoicing
 
 Each month end, our partners will submit their invoices for time spent on our projects into the Coupa Procurement System. The PC who originally submitted the PO request within the Procurement System will receive an email notification that there is an invoice waiting for approval.
 Invoies should be submitted in Coupa on the first week each month for the previos month. For example, work performed between May 1-31 would be submitted in Coupa on the first week of June. If invoices are not submitted by the 15th of each month, the PS Operations Team will follow up with the Partner lead to ensure the invoices are submitted on time.
