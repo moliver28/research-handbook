@@ -11,7 +11,9 @@ If this is your first time going through the playbook, it's recommended to revie
 
 #### A Note on Time, Confidence, and Validation
 
-The playbook completion time varies depending on job complexity, team experience, and the number of Jobs being evaluated. Plan for a quarter to cover all primary Jobs. However, factors can accelerate the process. High domain knowledge might allow confident Jobs Canvas creation without initial interviews (e.g., years of experience, hundreds of user interviews). Conversely, new product areas require Job Performer interviews before defining Jobs, Maps, and Outcomes. **User interviews remain crucial to confirm Jobs and Maps align with user mental models, ensuring accurate Outcome statements**.
+The time required to complete the playbook can vary based on job complexity, team experience, and the size of your domain, which affects the number of Jobs being evaluated. Generally, you should plan for at least 3 months to cover all primary Job Performers' main Jobs.
+
+To ensure confidence in your final results, it is crucial that your deliverables are based on interviews with Job Performers.
 
 ## Getting Started
 
