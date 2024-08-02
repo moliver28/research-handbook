@@ -18,7 +18,7 @@ What does it mean to provide a more accessible learning experience? Simply put, 
 
 Before we discuss content, let’s talk about learning and development platforms. A learning and development platform is the delivery method for course materials and contains the functionality to navigate, read, watch, and interact with the content. A platform that isn’t accessible or lacks certain features is going to create a barrier to some users and may prevent them from fully engaging with the course or absorbing the information that it is meant to convey.
 
-GitLab’s primary learning management system), [LevelUp](https://levelup.gitlab.com/learn/dashboard) (referred to as “GitLab University” externally), is from [Thought Industries](https://www.thoughtindustries.com). Before you consider using a different learning and development platform, do some research to understand whether that platform provides an accessible learning experience. Many companies will also provide an accessibility statement of compliance that outlines their intentions and ways to remedy issues. Some even go further by providing a [Voluntary Product Accessibility Template (VPAT®)](https://www.section508.gov/sell/vpat/) that explains how the related technology satisfies accessibility requirements.
+GitLab’s primary learning management system, [LevelUp](https://levelup.gitlab.com/learn/dashboard) (referred to as “GitLab University” externally), is from [Thought Industries](https://www.thoughtindustries.com). Before you consider using a different learning and development platform, do some research to understand whether that platform provides an accessible learning experience. Many companies will also provide an accessibility statement of compliance that outlines their intentions and ways to remedy issues. Some even go further by providing a [Voluntary Product Accessibility Template (VPAT®)](https://www.section508.gov/sell/vpat/) that explains how the related technology satisfies accessibility requirements.
 
 ## Plain language
 
@@ -37,7 +37,7 @@ People absorb information differently, so we must recognize that language that i
 - Content is edited to address grammar and spelling errors;
 - Headings follow a logical order (using heading levels 1–6) to create a scannable and structured outline for sighted and screen reader users;
 - Headings clearly communicate what users can expect in the section that proceeds; and
-- Calls to action are clear and unambiguous. For example, “Discover more about pipelines“ instead of “Read more.“
+- Calls to action are clear and unambiguous. For example, “Discover more about pipelines“ instead of “Read more“.
 
 Written material is in plain language if your audience can:
 
