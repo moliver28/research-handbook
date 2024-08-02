@@ -127,7 +127,7 @@ The CSE Content team creates, promotes, and distributes content that is focused 
 
 ### Suggesting Content
 
-We are always taking suggestions for new content to enable customers. Please visit our [content idea backlog here](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/boards/7694684) to see if a topic already exists; and you also can [submit an idea for content here using our ideation template](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/new?issuable_template=content-idea-template) if the content piece that you see has not already been suggested.
+We are always taking suggestions for new content to enable customers. Please visit our [content idea backlog here](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/boards/7694684) to see if a topic already exists; and you also can [submit an idea for content here using our ideation template](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/new?issuable_template=content-idea-template) if the content piece that you have in mind has not already been suggested.
 
 Submissions will be reviewed and groomed on a quarterly basis during our backlog review, facilitated by the team's Content Architect. If an idea is chosen for  creation, it will be promoted to an epic in the Customer Success Engineering Group and assigned issues for the creation process associated with that content type. While this is a collaborative process, the Director of the Customer Success Engineering team has the final say on which content will be created each quarter.
 
