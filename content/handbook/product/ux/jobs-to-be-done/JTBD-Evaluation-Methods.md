@@ -57,7 +57,7 @@ You will find everything you need to score your results with this [Outcome scori
 
 The results of the Outcome survey are scored using the top-two box method, which is intened for use in surveys where participants are asked to rate their level of importance and satisfaction across a scale. This is the same method we use for [CSAT](handbook/sales/field-operations/customer-success-operations/cs-ops-programs/nps-csat-scores/#scoring-methodology). Refer to the example below for more details. 
 
-![Top-Two-Example](Top_Two_Box.png)
+![Top-Two-Example](../Top_Two_Box.png)
 
 Looking at the example data above, we see that (40) or 80% of the total (50) participants find the [Job step] important, and 30% of participants are satisfied with the current [Solution]. We can plot these scores as data points to understand further how this correlates to Needs. To achieve this, we move the decimal (0.8 is now 8, and 0.3 is now 3). Looking at the diagram below, we find that this Outcome is an Underserved need.  
 
