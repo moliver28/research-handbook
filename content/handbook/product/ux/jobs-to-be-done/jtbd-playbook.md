@@ -61,7 +61,7 @@ The goal of this phase is to understand the Job and the process used for complet
 
 Recruit 5-10 participants who represent the Job Performer of the Job you're investigating. If there is significant variance in jobs, talk to more participants until clear patterns emerge.
 
-We recommend booking 60-minute interviews and having both a moderator and a notetaker. The notetaker is responsible for documenting the Job Steps on the JTBD Interview Participant Canvases during the interview. At open point during the interview, show the canvas to the participant to ensure accurate interpretation of their responses.
+We recommend booking 60-minute interviews and having both a moderator and a notetaker to assist with Job Map creation and verification.
 
 The goal of the interview is to answer the following questions:
 
