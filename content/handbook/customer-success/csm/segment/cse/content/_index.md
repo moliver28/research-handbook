@@ -124,50 +124,15 @@ The following sections provide an overview of all content assets, and links to f
 | [CI/CD Adoption for Jenkins Users](https://docs.google.com/presentation/d/1d2u6Ls_ELgEAv8VXMatljVkPydOelUQ3_hsOvUe2k28/edit?usp=drive_link) | [CICD Adoption Workshop](https://gitlab.com/gitlab-learn-labs/sample-projects/cicd-adoption-workshop) | Verify |2024-01-10 | | |
 | [Security and Compliance](https://docs.google.com/presentation/d/1_o1UbmM0u96f9XTpjYBLG3jnHeJuwJAVOrCg7Ri4ti4/edit#slide=id.g2e71b1d1f20_1_598) | [Tanuki Racing Security and Compliance](https://gitlab.com/gitlab-learn-labs/onboarding-cohort-projects/tanuki-racing-security-and-compliance) | Govern/Secure | 2024-06-26 | | |
 
-## <i class="fa-solid fa-folder-plus" style="color: #B197FC;"></i> Content Creation
+## <i class="fa-solid fa-folder-plus" style="color: #B197FC;"></i> Content Creation Process
 
-### Guideline and Tips for Creating Great Content
-
-#### Short Form Demos
-
-- **Duration:** Typically 5-10 minutes.
-- **Focus:** Concentrate on one key feature or benefit.
-- **Preparation:** Since time is limited, practice to keep your presentation concise yet informative.
-- **Visual Impact:** Use high-impact visuals to make a memorable impression quickly.
-- **Call to Action:** End with a clear, compelling call to action that guides the audience on what to do next.
-
-### Labs
-
-- **Duration:** 30-120 minutes.
-- **Interactive Elements:** Incorporate hands-on activities that allow participants to use the technology themselves.
-- **Break Down Content:** Structure the lab into manageable segments that gradually build on each other.
-- **Provide Resources:** Give participants access to additional learning materials, tools, and documentation (Preferably in advance).
-- **Feedback Mechanisms:** Include opportunities for questions and interactions to address specific participant needs and adjust the pace accordingly.
-
-### Webinars
-
-- **Duration:** Typically 30-60 minutes.
-- **Engagement Strategies:** Use polls, Q&A sessions, and chat functionalities to keep the audience engaged.
-- **Visual and Verbal Presentation:** Use clear, compelling slides and ensure your verbal presentation is dynamic and engaging.
-- **Rehearse:** Practice with the webinar tools beforehand to manage the presentation smoothly.
-- **Follow-Up:** Provide a recording of the webinar, additional resources, and a way for attendees to ask follow-up questions or give feedback.
-
-## <i class="fa-brands fa-square-gitlab" style="color: #ff9500;"></i> Content Contribution
-
-### Prioritization
-
-When prioritising content we consider the following key factors:
-
-1. **Customer Insights:** Content based on direct customer feedback and common pain points to ensure relevance and immediate value.
-2. **Business Alignment:** Content aligned with GitLabs strategic goals and product launches to support broader business objectives.
-3. **Educational Impact:** Content that offers deep educational value and unique insights not widely available elsewhere.
-4. **Demand and Audience:** Evaluate potential interest and audience size using past engagement metrics; prioritise content that can attract a broad audience.
-5. **Expertise and Resources:** Ensure availability of expert speakers and necessary logistical support, including technology and marketing resources.
-6. **Marketing and Enablement:** Opt for content that enhances brand reputation and has the potential to enable our existing customers.
+The CSE Content team creates, promotes, and distributes content that is focused on customer enablement and adoption of GitLab features, tools, and best practices. The types of content we currently create are **Short Form Demos, Labs, and Webinars**. This content is initially designed for the 1:many audience use by our Customer Success Engineers, but we aspire for the content to be used and adapted to 1:1 customer engagements and other uses within GitLab.
 
 ### Suggesting Content
 
-GitLab Team Members can contribute by submitting ideas using the [Content Idea Template](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/new?issuable_template=content-idea-template).
+You can see our [content idea backlog here](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/boards/7694684), and you can [submit an idea for content here using our ideation template](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/new?issuable_template=content-idea-template).
+
+Submissions will be reviewed and groomed on a quarterly basis during out backlog review, facilitated by the team's Content Architect. If an idea is chosen for content creation, it will be promoted to an epic in the Customer Success Engineering Group and assigned issues for the creation process associated with that content type. While this is a collaborative process, the Director of the Customer Success Engineering team has the final say on which content will be created each quarter.
 
 ## Content Distribution Workflow
 
