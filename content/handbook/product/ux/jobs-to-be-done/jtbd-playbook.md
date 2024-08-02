@@ -15,9 +15,12 @@ The playbook completion time varies depending on job complexity, team experience
 
 ## Getting Started
 
-To get started, create an issue in the [UX Research Project](https://gitlab.com/gitlab-org/ux-research/-/issues) and use the **[discover-jtbd](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/discover-jtbd.md)** issue template. Fill out the issue as best as you can. If you need asistance with getting started reach out to a JTBD Expert by going to [this page](https://about.gitlab.com/company/team/?department=product-design) and search the page for " job to be done expert" using `cmd + F`. Once you have an issue and your team selected, you're ready to roll!
+1. Create an issue in the [UX Research Project](https://gitlab.com/gitlab-org/ux-research/-/issues) and use the **[discover-jtbd](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/discover-jtbd.md)** issue template.
+1. Create a copy of the [JTBD Canvas Template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1). This will help you visualize what you know (or think you know) about a particular Domain area's Job Performers, and to get alignment with your team on all the aspects of your product, your users, their goals, and their needs.
 
-You'll also want to create a copy of our [JTBD Canvas Template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1) that will be used throughout this process. This will help you visualize what you know (or think you know) about a particular Domain area's Job Performers, and to get alignment with your team on all the aspects of your product, your users, their goals, and their needs.
+### Getting help
+
+If you need help at any point when working through the playbook, start by posting in #jtbd or reaching out to your manager.
 
 ## Define Job Performers and Their Jobs
 
