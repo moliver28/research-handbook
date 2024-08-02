@@ -2,9 +2,9 @@
 title: Cell Architecture and Tooling
 status: proposed
 creation-date: "2024-03-22"
-authors: [ "@pguinoiseau", "@jcstephenson", "@ayeung" ]
+authors: ["@pguinoiseau", "@jcstephenson", "@ayeung"]
 coach: ["@sxuereb", "@andrewn"]
-approvers: [ "@product-manager", "@sabrams" ]
+approvers: ["@product-manager", "@sabrams"]
 owning-stage: "~devops::data stores"
 participating-stages: []
 ---
@@ -339,6 +339,12 @@ In general, the lifecycle of observability components for cells will be owned by
 By default, each Dedicated tenant is provisioned with a fully functional Prometheus/Grafana stack. Cells will reuse this stack, with the intention of aggregating metrics so that queries can be run over multiple cells. More information can be found [here](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/engineering/observability/metrics.html).
 
 See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25267) for discussion.
+
+#### Cell Specific Configuration
+
+A single value in the tenant model will used to decide if a tenant is going to
+be a Cell for GitLab.com or a Dedicated Tenant. We'll be using `cell_id`, as
+shown in [ADR: 011](../decisions/011_cell_specific_configuration.md).
 
 ### Tooling
 
