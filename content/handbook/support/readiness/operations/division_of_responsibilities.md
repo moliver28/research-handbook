@@ -39,7 +39,7 @@ The current division of responsibilities is:
 |                     | [L&R Internal Request Processor (Global)](https://gitlab.com/gitlab-com/support/support-ops/other-software/lnr-ir-processor)                          | @jcolyer         | @secole          |
 |                     | [L&R Internal Request Processor (US Federal)](https://gitlab.com/gitlab-com/support/support-ops/other-software/lnr-ir-processor-us-federal)           | @jcolyer         | @secole          |
 |                     | [1-1-issue-generator](https://gitlab.com/gitlab-com/support/toolbox/1-1-issue-generator/)                                                             | @nabeel.bilgrami | @jcolyer         |
-|                     | [support/team page](https://gitlab.com/gitlab-com/support/team)                                                                                       | Everyone         | Everyone         |
+|                     | [support/team page](https://gitlab.com/gitlab-support-readiness/support-team)                                                                         | Everyone         | Everyone         |
 | Pagerduty           | [Management](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty)                                                              | @avilla4         | @jcolyer         |
 |                     | [Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                                             | @jcolyer         | @lyle            |
 |                     | [Workflows](https://gitlab.com/gitlab-com/support/support-ops/other-software/slack-workflows)                                                         | @jcolyer         | @nabeel.bilgrami |
