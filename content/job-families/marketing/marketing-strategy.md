@@ -44,12 +44,14 @@ The Senior Marketing Analyst, Marketing Analytics is a [grade 7](/handbook/total
 #### Senior Marketing Analyst, Marketing Analytics Responsibilities
 
 - Extends that of the Marketing Analyst (Intermediate) responsibilities
-- Ability to conduct sophisticated data analysis, and translate data into easily digestible messages, communications, and presentations.
+- Conducts sophisticated data analysis independently
+- Independently produces and communicates analytical data to key stakeholders through presentations, and messaging to support business goals
 
 #### Senior Marketing Analyst, Marketing Analytics Requirements
 
 - Extends that of the Marketing Analyst (Intermediate) requirements
-- Exellent communication skills
+- Ability to conduct sophisticated data analysis, and translate data into easily digestible messages, communications, and presentations.
+- Exellent communication skills and cross functional collaboration
 - Experience communicating technical concepts to non-technical team members
 
 ## Specialties
