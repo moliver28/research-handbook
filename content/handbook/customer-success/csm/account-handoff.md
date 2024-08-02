@@ -19,7 +19,7 @@ The first step once you are aware of a handoff is for the new CSM to open an [CT
 - Old CSM: Review account handoff handbook page
 - Old CSM: Ensure the success plan and any CTAs are updated, and that the Attributes tab in Gainsight contains links to the collaboration project, meeting notes doc, and triage issue (if applicable)
 - New CSM: Review account handoff handbook page
-- New CSM: Try to answer the handover questions listed below and discuss them together with the OLS CSM in the scheduled handover meeting
+- New CSM: Try to answer the handover questions listed below and discuss them together with the old CSM in the scheduled handover meeting
 - Old CSM: Schedule an internal meeting between the current CSM & new CSM to review account details (collaboration project, success/command plans, meeting notes, EBRs, account history, etc.)
 - Old CSM: Add new CSM to any Slack channels
 - New CSM: Turn on watch notifications for the collaboration project
@@ -29,7 +29,7 @@ The first step once you are aware of a handoff is for the new CSM to open an [CT
 - Old CSM: Assign any open CTAs and the success plan (and its objectives/tasks) to the new CSM
 - Old CSM: Delete the cadence call calendar events (if created internally); or, if the events were created by the customer, reach out to ask that the customer invites the new CSM to the events directly
 - New CSM: Create and send out a new invite for cadence calls, to ensure there is no disruption, as some customers' internal systems do not cooperate with Google Calendar
-- New CSM: Review open/pending support tickets and subscribe to all tickets, which the OLD CSM was watching
+- New CSM: Review open/pending support tickets and subscribe to all tickets, which the old CSM was watching
 - Old CSM: Remove yourself from all support tickets and its CC field
 - New CSM: Schedule additional sync with old CSM if needed; otherwise close this CTA
 
@@ -85,7 +85,7 @@ At Gitlab, we value [Collaboration](/handbook/values/#collaboration). The stance
 
 ### Valuable Questions for the Handover
 
-To ensure a smooth handover and provide clear guidelines for the handover meeting between the NEW and OLD CSM, we have developed a set of handover questions. Initially, these questions should be posed by the new CSM. Subsequently, the OLD CSM should address and answer the outstanding questions during the handover meeting. When answering these questions, it might be helpful to look at the Google Drive folder for the customer, Gainsight, Salesforce, Zendesk and the corresponding collaboration project.
+To ensure a smooth handover and provide clear guidelines for the handover meeting between the new and old CSM, we have developed a set of handover questions. Initially, these questions should be posed by the new CSM. Subsequently, the old CSM should address and answer the outstanding questions during the handover meeting. When answering these questions, it might be helpful to look at the Google Drive folder for the customer, Gainsight, Salesforce, Zendesk and the corresponding collaboration project.
 
 #### Communication / Collaboration
 
