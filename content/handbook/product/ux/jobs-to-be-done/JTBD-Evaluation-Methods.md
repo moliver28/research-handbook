@@ -49,7 +49,7 @@ You may refer to our [sample screener](https://docs.google.com/document/d/1sxhg6
 
 Questions are structured in the survey following a precise method to reduce survey fatigue (see the example below). It is critical that you do not deviate from this or you may risk a low completion rate. 
 
-![Outcome Question structure](JTBD_OutcomeSurvey_Question.png)
+![Outcome Question structure](../JTBD_OutcomeSurvey_Question.png)
 
 ##### Scoring
 
