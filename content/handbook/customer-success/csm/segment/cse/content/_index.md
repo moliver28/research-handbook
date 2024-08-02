@@ -111,8 +111,6 @@ The following sections provide an overview of all content assets, and links to f
 | [Separation of Duties](https://drive.google.com/file/d/16YcUdYDNPP0x0vXzG01OsCODVnYhYe4O/view?usp=drive_link) | Govern        | 2024-06-18   |
 | [What's New! GitLab 17.0](https://drive.google.com/file/d/11EhjSsgMepd9iZYY9vNz8LFoQPLGVNuS/view?usp=drive_link) | All           | 2024-06-04   |
 
-
-
 ### Labs
 
 | Title                                                        | Project                                                      | Group          | Last updated |
@@ -137,7 +135,6 @@ While our goal is to establish a more structured process that we can measure to 
 
 
 ## Content Distribution Workflow
-
 After content has been crafted and published, the next step is distribution. Here are some steps to assist in the process:
 
 ...
