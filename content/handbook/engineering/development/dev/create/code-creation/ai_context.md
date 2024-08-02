@@ -52,7 +52,8 @@ Our mission is to develop a comprehensive context framework that will:
 
 - Context Framework Design Doc - TBD
 - Context Type Inventory - TBD
-- Project Board - TBD
+- [Project Board](https://gitlab.com/groups/gitlab-org/-/boards/7696602?label_name%5B%5D=task%20force::AI%20Context)
+- [Taskfoce RACI Chart](https://docs.google.com/spreadsheets/d/1jRBCm7IYMdN6dDgnGIplKmN9QJE135w5Nb_lBJ_yOaY/edit?gid=1036808851#gid=1036808851) (internal only)
 
 ## Feedback and Contributions
 
