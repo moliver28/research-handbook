@@ -129,9 +129,12 @@ The CSE Content team creates, promotes, and distributes content that is focused 
 
 ### Suggesting Content
 
-You can see our [content idea backlog here](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/boards/7694684), and you can [submit an idea for content here using our ideation template](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/new?issuable_template=content-idea-template).
+We are always taking suggestions for new content to enable customers. Please visit our [content idea backlog here](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/boards/7694684) to see if a topic already exists; and you also can [submit an idea for content here using our ideation template](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/new?issuable_template=content-idea-template) if the content piece that you see has not already been suggested.
 
-Submissions will be reviewed and groomed on a quarterly basis during out backlog review, facilitated by the team's Content Architect. If an idea is chosen for content creation, it will be promoted to an epic in the Customer Success Engineering Group and assigned issues for the creation process associated with that content type. While this is a collaborative process, the Director of the Customer Success Engineering team has the final say on which content will be created each quarter.
+Submissions will be reviewed and groomed on a quarterly basis during our backlog review, facilitated by the team's Content Architect. If an idea is chosen for  creation, it will be promoted to an epic in the Customer Success Engineering Group and assigned issues for the creation process associated with that content type. While this is a collaborative process, the Director of the Customer Success Engineering team has the final say on which content will be created each quarter.
+
+While our goal is to establish a more structured process that we can measure to ensure it delivers value to our customers, CSEs are encouraged to research topics as needed for customer needs or personal growth. CSEs are asked to please discuss any content projects outside of the official CSE Content Team process and workflow directly with their managers. We are working toward a set of quality assurance guidelines and standards which one can use to independently evaluate personal projects that they may want to propose be adapted to a future webinar or lab. 
+
 
 ## Content Distribution Workflow
 
