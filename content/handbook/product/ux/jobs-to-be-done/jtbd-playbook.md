@@ -120,7 +120,7 @@ Steps:
 
 #### Exercise 3: Gather Job Differentiators
 
-In this last exercise, you will gather and refine Job Differentiators from your interviews. These differentiators highlight key factors that make a difference in how the Job Performer completes their Job.
+In this last exercise, you will gather and refine [Job Differentiators](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-differentiators) from your interviews. These differentiators highlight key factors that make a difference in how the Job Performer completes their Job.
 
 1. **Collect Job Differentiators:**
     - Review your interview notes and look for differentiator-like statements that reference any key factors making a difference in job performance.
