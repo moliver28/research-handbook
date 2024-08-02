@@ -67,7 +67,7 @@ The above examples overlap with the [GitLab's SAFE Framework](/handbook/legal/sa
 
 ### What are the risks?
 
-1. **Legal risk:** These are the risks that arise from regulations and laws that govern GitLab or the market in which it operates. This includes content that would compromise a GitLab team member, customer, or user's personal data and/or privacy.
+1. **Legal risk:** These are the risks that arise from regulations and laws that govern GitLab or the market in which it operates. This includes, but is not limited to, content that would compromise a GitLab team member, customer, or user's personal data and/or privacy.
 1. **Morale risk:** Raising GitLab sensitive topics that may be misinterpreted without the opportunity to ask clarifying questions can create risk to team culture and/or morale.
 1. **PR risk:** Remember that anything you document could ultimately be shared/viewed externally. Consider that a discussion in a public MR or issue is a demonstration of our [values](/handbook/values/) to those outside of GitLab who are looking to learn more about how we collaborate.
 
@@ -912,7 +912,7 @@ This list offers additional guidance for written communication at GitLab:
 1. When specifying measurements, please include both Metric and Imperial equivalents.
 1. When mentioning currency amounts that team members may need to convert to their local currency (e.g. benefits, expenses, or bonuses), link those amounts to our [Exchange Rates](/handbook/total-rewards/compensation/#exchange-rates) section (e.g. [500 USD](/handbook/total-rewards/compensation/#exchange-rates)).
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9.
-1. Although we're a San Francisco based company, we're also an internationally diverse one. Please do not refer to team members outside the US as "international". Instead, use "non-US". Please also avoid the use of "offshore/overseas" to refer to non-American continents.
+1. GitLab is an internationally diverse company. US-based team members should not refer to team members outside the US as "international". Instead, use "non-US". Please also avoid the use of "offshore/overseas" to refer to non-American continents.
 1. If you have multiple points in a comment or email, please number them. Numbered lists are easier to reference during a discussion over bulleted lists.
 1. When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the URL available, please include it.
 1. In making URLs, always prefer hyphens to underscores, and always use lowercase.
