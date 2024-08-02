@@ -93,33 +93,35 @@ The following sections provide an overview of all content assets, and links to f
 
 ### Webinars
 
-| Title | Group | Last updated | Contributors | Categorization |
-|-------|-------|--------------|--------------|----------------|
-| [Holistic Approach to Securing the Development Lifecycle](https://drive.google.com/file/d/11-mPw0aNXcazOMVVVvxEo97meQz1TYMW/view?usp=drive_link) | Secure | 2023-10-13 | | |
-| [Git Basics](https://drive.google.com/file/d/17BvOGiXmWNLYm3MXmIqZ6kAkC0b4cow7/view?usp=drive_link) | Create | 2023-10-13 | | |
-| [Intro to GitLab](https://drive.google.com/file/d/14vWu6oCIcWwrkNtcZw_pioC8K3c2hNEt/view?usp=drive_link) | All | 2023-12-07 | | |
-| [Intro to CI/CD](https://drive.google.com/file/d/1V3sH4rTQSMzFfwZpzZgmi9wZJq8vSoMm/view?usp=drive_link) | Verify | 2023-10-13 | | |
-| [Advanced CI/CD](https://drive.google.com/file/d/1GlGg0Q7p7gsAGGWgZ1vj82NZmap7PX3w/view?usp=drive_link) | Verify | 2023-10-23 | | |
-| [AI Powered DevSecOps](https://drive.google.com/file/d/1Y426FrNWLIFl3u40-yXBEdy-D_RM4TAO/view?usp=drive_link) | Data Science | 2024-06-25 | @acuffe | |
-| [Getting Started with DevSecOps Metrics](https://drive.google.com/file/d/1YRBQzNyp1Fdb-kt_PUFk9fYWHpCR7gOz/view?usp=drive_link) | Plan | 2023-10-23 | | |
-| [Continuous Change Management in a Secure Way](https://drive.google.com/file/d/1ctwS4FpaEbrywn_ybZlsZDGLkfdYKe8G/view?usp=drive_link) | Secure | 2023-10-23 | | |
-| [Security and Compliance](https://drive.google.com/file/d/1UK56of57h-BVccZODI5awKTZUnpEq8fF/view?usp=drive_link) | Secure | 2023-10-31 | | |
-| [Jira to GitLab](https://drive.google.com/file/d/1ME_oU5zGtySPoAf8_I-3u5jJZW-kBMSo/view?usp=drive_link) | Verify | 2023-12-18 | | |
-| [GitLab Administration (SaaS)](https://drive.google.com/file/d/1JQYVed7StwOBGEnzmsT7yiDmDfNSkx_a/view?usp=drive_link) | Core Platform | 2023-10-23 | | |
-| [GitLab Runners](https://drive.google.com/file/d/1nxglK5j8D5XsbZTaylN-HbbVJ0gKojJd/view?usp=drive_link) | Verify | 2024-01-17 | | |
-| [Vulnerability Management Strategies](https://drive.google.com/file/d/1DRhHsgeqRPGpu2NR5726QSGqg6bh7aJS/view?usp=drive_link) | Govern | 2024-05-07 | | |
-| [Separation of Duties](https://drive.google.com/file/d/16YcUdYDNPP0x0vXzG01OsCODVnYhYe4O/view?usp=drive_link) | Govern | 2024-06-18 | | |
-| [What's New! GitLab 17.0](https://drive.google.com/file/d/11EhjSsgMepd9iZYY9vNz8LFoQPLGVNuS/view?usp=drive_link) | All | 2024-06-04 | | |
+| Title                                                        | Group         | Last updated |
+| ------------------------------------------------------------ | ------------- | ------------ |
+| [Holistic Approach to Securing the Development Lifecycle](https://drive.google.com/file/d/11-mPw0aNXcazOMVVVvxEo97meQz1TYMW/view?usp=drive_link) | Secure        | 2023-10-13   |
+| [Git Basics](https://drive.google.com/file/d/17BvOGiXmWNLYm3MXmIqZ6kAkC0b4cow7/view?usp=drive_link) | Create        | 2023-10-13   |
+| [Intro to GitLab](https://drive.google.com/file/d/14vWu6oCIcWwrkNtcZw_pioC8K3c2hNEt/view?usp=drive_link) | All           | 2023-12-07   |
+| [Intro to CI/CD](https://drive.google.com/file/d/1V3sH4rTQSMzFfwZpzZgmi9wZJq8vSoMm/view?usp=drive_link) | Verify        | 2023-10-13   |
+| [Advanced CI/CD](https://drive.google.com/file/d/1GlGg0Q7p7gsAGGWgZ1vj82NZmap7PX3w/view?usp=drive_link) | Verify        | 2023-10-23   |
+| [AI Powered DevSecOps](https://drive.google.com/file/d/1Y426FrNWLIFl3u40-yXBEdy-D_RM4TAO/view?usp=drive_link) | Data Science  | 2024-06-25   |
+| [Getting Started with DevSecOps Metrics](https://drive.google.com/file/d/1YRBQzNyp1Fdb-kt_PUFk9fYWHpCR7gOz/view?usp=drive_link) | Plan          | 2023-10-23   |
+| [Continuous Change Management in a Secure Way](https://drive.google.com/file/d/1ctwS4FpaEbrywn_ybZlsZDGLkfdYKe8G/view?usp=drive_link) | Secure        | 2023-10-23   |
+| [Security and Compliance](https://drive.google.com/file/d/1UK56of57h-BVccZODI5awKTZUnpEq8fF/view?usp=drive_link) | Secure        | 2023-10-31   |
+| [Jira to GitLab](https://drive.google.com/file/d/1ME_oU5zGtySPoAf8_I-3u5jJZW-kBMSo/view?usp=drive_link) | Verify        | 2023-12-18   |
+| [GitLab Administration (SaaS)](https://drive.google.com/file/d/1JQYVed7StwOBGEnzmsT7yiDmDfNSkx_a/view?usp=drive_link) | Core Platform | 2023-10-23   |
+| [GitLab Runners](https://drive.google.com/file/d/1nxglK5j8D5XsbZTaylN-HbbVJ0gKojJd/view?usp=drive_link) | Verify        | 2024-01-17   |
+| [Vulnerability Management Strategies](https://drive.google.com/file/d/1DRhHsgeqRPGpu2NR5726QSGqg6bh7aJS/view?usp=drive_link) | Govern        | 2024-05-07   |
+| [Separation of Duties](https://drive.google.com/file/d/16YcUdYDNPP0x0vXzG01OsCODVnYhYe4O/view?usp=drive_link) | Govern        | 2024-06-18   |
+| [What's New! GitLab 17.0](https://drive.google.com/file/d/11EhjSsgMepd9iZYY9vNz8LFoQPLGVNuS/view?usp=drive_link) | All           | 2024-06-04   |
+
+
 
 ### Labs
 
-| Title | Project | Group | Last updated | Contributors | Categorization |
-|-------|---------|-------|--------------|--------------|----------------|
-| [AI in DevSecOps](https://docs.google.com/presentation/d/1GdS0MQI53_mxQG-VvPxK2g9AmeJDmm403vSl8zZvy7I/edit?usp=drive_link) | [AI in DevSecOps](https://gitlab.com/gitlab-learn-labs/onboarding-cohort-projects/ai-in-dev-sec-ops/) | Data Science | 2024-04-30 | | |
-| [GitLab CI](https://docs.google.com/presentation/d/1IiRo4KHAgYqmzNiLkNYEatzHo75ax1BNKy-HsHoZW3k/edit?usp=drive_link) | [CICD Adoption Workshop](https://gitlab.com/gitlab-learn-labs/sample-projects/cicd-adoption-workshop) | Verify | 2023-10-23 | | |
-| [GitLab Advanced CI](https://docs.google.com/presentation/d/1g36th6wlPUj9YMHooAr7M0koscEdDAnxJULTu3F93Fg/edit?usp=drive_link) | [Advanced CI Lab](https://gitlab.com/gitlab-learn-labs/onboarding-cohort-projects/advanced-ci-lab/-/tree/main?ref_type=heads) | Package/Verify | 2024-05-10 | | |
-| [CI/CD Adoption for Jenkins Users](https://docs.google.com/presentation/d/1d2u6Ls_ELgEAv8VXMatljVkPydOelUQ3_hsOvUe2k28/edit?usp=drive_link) | [CICD Adoption Workshop](https://gitlab.com/gitlab-learn-labs/sample-projects/cicd-adoption-workshop) | Verify |2024-01-10 | | |
-| [Security and Compliance](https://docs.google.com/presentation/d/1_o1UbmM0u96f9XTpjYBLG3jnHeJuwJAVOrCg7Ri4ti4/edit#slide=id.g2e71b1d1f20_1_598) | [Tanuki Racing Security and Compliance](https://gitlab.com/gitlab-learn-labs/onboarding-cohort-projects/tanuki-racing-security-and-compliance) | Govern/Secure | 2024-06-26 | | |
+| Title                                                        | Project                                                      | Group          | Last updated |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- | ------------ |
+| [AI in DevSecOps](https://docs.google.com/presentation/d/1GdS0MQI53_mxQG-VvPxK2g9AmeJDmm403vSl8zZvy7I/edit?usp=drive_link) | [AI in DevSecOps](https://gitlab.com/gitlab-learn-labs/onboarding-cohort-projects/ai-in-dev-sec-ops/) | Data Science   | 2024-04-30   |
+| [GitLab CI](https://docs.google.com/presentation/d/1IiRo4KHAgYqmzNiLkNYEatzHo75ax1BNKy-HsHoZW3k/edit?usp=drive_link) | [CICD Adoption Workshop](https://gitlab.com/gitlab-learn-labs/sample-projects/cicd-adoption-workshop) | Verify         | 2023-10-23   |
+| [GitLab Advanced CI](https://docs.google.com/presentation/d/1g36th6wlPUj9YMHooAr7M0koscEdDAnxJULTu3F93Fg/edit?usp=drive_link) | [Advanced CI Lab](https://gitlab.com/gitlab-learn-labs/onboarding-cohort-projects/advanced-ci-lab/-/tree/main?ref_type=heads) | Package/Verify | 2024-05-10   |
+| [CI/CD Adoption for Jenkins Users](https://docs.google.com/presentation/d/1d2u6Ls_ELgEAv8VXMatljVkPydOelUQ3_hsOvUe2k28/edit?usp=drive_link) | [CICD Adoption Workshop](https://gitlab.com/gitlab-learn-labs/sample-projects/cicd-adoption-workshop) | Verify         | 2024-01-10   |
+| [Security and Compliance](https://docs.google.com/presentation/d/1_o1UbmM0u96f9XTpjYBLG3jnHeJuwJAVOrCg7Ri4ti4/edit#slide=id.g2e71b1d1f20_1_598) | [Tanuki Racing Security and Compliance](https://gitlab.com/gitlab-learn-labs/onboarding-cohort-projects/tanuki-racing-security-and-compliance) | Govern/Secure  | 2024-06-26   |
 
 ## <i class="fa-solid fa-folder-plus" style="color: #B197FC;"></i> Content Creation Process
 
