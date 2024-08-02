@@ -34,9 +34,6 @@ aliases:
 ### Team Resources
 
 - [<i class="far fa-calendar-alt"></i> Webinar and Labs Calendar](https://university.gitlab.com/pages/gitlab-user-webinars)
-<!---
-- [<i class="far fa-folder-open"></i> Team Shared Drive](https://drive.google.com/drive/folders/0AAMcKUwu8S06Uk9PVA)
---->
 
 ### Want to work with the team?
 
