@@ -94,32 +94,6 @@ The following sections provide an overview of all content assets, and links to f
 - SaaS - GitLab Licensed Demo Groups [Premium and Ultimate Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitlabCom_Licensed_Demo_Group_Request)
 - [Produce effective demos with OBS Studio](https://docs.google.com/document/d/1kchnm55N8zx8tBBsxilWadGqBndhvb5d4eG9LsSS6DA/edit#heading=h.quzn6r2hna1l)
 
-### Content Categorization
-
-1. <i class="fa-brands fa-wpexplorer" style="color: #B197FC;"></i> Sandbox
-    - Simple and clear demonstrations for beginners.
-    - Easy-to-follow labs and tutorials.
-    - Regular updates to align with GitLab's latest features.
-    - Broad coverage of GitLab's core functionalities.
-    - Metrics showing high engagement from new users.
-2. <i class="fa-solid fa-group-arrows-rotate" style="color: #B197FC;"></i> Incubating
-    - Exploration of new or emerging GitLab features and use cases.
-    - Moderate level of technical depth, suitable for intermediate users.
-    - Regular content updates to reflect GitLab's evolving capabilities.
-    - Incorporation of user feedback to refine and improve content.
-    - Metrics showing growing engagement and positive user responses.
-3. <i class="fa-solid fa-brain" style="color: #B197FC;"></i> Graduated
-    - Comprehensive coverage of advanced GitLab features and workflows.
-    - Regular updates to reflect the latest GitLab developments and best practices.
-    - High level of interactivity, including advanced Q&A sessions and expert panels.
-    - Incorporation of real-world case studies and complex problem-solving scenarios.
-    - Metrics showing consistent high engagement and positive feedback from advanced users.
-4. <i class="fa-solid fa-box-archive" style="color: #B197FC;"></i> Archive
-    - Content that is no longer relevant or up-to-date.
-    - Regularly reviewed and removed from active circulation.
-    - May be kept for historical reference or repurposed in the future.
-    - Metrics showing declining engagement or relevance to current GitLab offerings.
-
 ### Webinars
 
 | Title | Group | Last updated | Contributors | Categorization |
