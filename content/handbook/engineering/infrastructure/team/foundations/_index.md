@@ -171,7 +171,7 @@ While we rely on the `workflow-infra::*` labels to denote the current state of a
 
 In short, anyone on the team can find issues to work on in the Build Board.
 
-When something is prioritized to be worked on, the `Foundations::Build` label is applied so it is included on the board.
+When something is prioritized to be worked on, the `Foundations::Build` label is applied so it is included on the board. With the exception of the external requests, issues being added should be in `workflow-infra::Ready` (clearly defined and [ready](../../platforms/project-management/index.md#workflow-labels) for any team member to pick up).
 
 We want the build board to be relatively small in size so it is easy to traverse and there is no confusion around what needs to be worked on. It can provide some options for people to find work, but also prevent key work from being missed.
 
