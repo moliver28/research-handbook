@@ -140,13 +140,14 @@ the following simple process to handle tickets from different regions:
 When providing the first response to a ticket from a different region, follow
 these guidelines:
 
-1. Introduce yourself and acknowledge the customer's preferred region.
-2. Explain that you're providing initial assistance to ensure a timely response.
-3. Inform the customer that before the end of your workday you will transfer
+1. Introduce yourself and acknowledge the customer's preferred region. (`Support::Out of Region::Cross-region_Preferred region clarify assignment` macro is a good starting point)
+1. Explain that you're providing initial assistance to ensure a timely response.
+1. Proceed with all appropriate initial steps to begin addressing the customer's
+   issue.
+1. Inform the customer that before the end of your workday you will transfer
    their ticket to their preferred region for continued support **unless they
    request that you keep it**.
-4. Proceed with all appropriate initial steps to begin addressing the customer's
-   issue.
+1. If it's the end of your work day and the customer hasn't confirmed the region, move it to the region that they chose when they created the ticket. To do that run the `Support::Rehome::Initiate Rehome` macro.
 
 Watch for an update to this topic and a corresponding message in the SWIR
 indicating that a Zendesk macro has been created to give you sample text to use
@@ -159,8 +160,6 @@ macro. This macro will:
 
 1. Remove ticket assignment
 1. Apply the `rehome_initiated` tag
-1. Create an internal comment on the ticket that **you will need to edit** in
-   order to indicate the origin and destination regions
 
 ### Receiving a ticket rehome
 
