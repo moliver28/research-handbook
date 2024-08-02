@@ -273,6 +273,7 @@ Boosts to scores occur when a special action takes place above the traditional a
 |:-------------:|:-------:|:-----:|:--------:|
 |Re-MQL Score|    Status is Nurture,user takes an activity that increases behaviour score<br>MQL Counter >0    |+20    |    1/month|
 |Visits Key Webpage|`/pricing/`,<br> `/sales`,<br> `/install`,<br> `/features`,<br> `/direction`,<br> `/solutions/startups/`,<br> `/releases/gitlab-com/`    |+25    |1/week    |
+| [6QA identified](/handbook.gitlab.com/handbook/marketing/marketing-operations/6sense/#marketo) | When 6sense's predictive intent data model identifies leads and contacts showing interest in GitLab | +20| 1/ 3 month|
 
 <!--|PF Engagement Booster 2|Engagement Time > 4 minutes|+15|Everytime|
 |PF Engagement Booster 1|Engagement Time >  2 minutes < 4 minutes|+10|Everytime|

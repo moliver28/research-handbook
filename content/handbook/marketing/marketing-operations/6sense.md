@@ -31,6 +31,8 @@ Salesforce users with a 6sense log in can also leverage the 6sense iframe in Sal
 
 Marketo activity is passed to 6sense to inform the predictive models. Marketo form fills and email activity are included in the intent model. Outbound email activity from Marketo is used in the reach model.
 
+Additionally, [Marketo monitors updates](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC53002B2ZN19) to the `6sense Account 6QA Start Date` field, which is used to add 20 `behavior` based points to identified `6QA` leads, with a limit to scoring on `6QA` once every 3 months. Once leads clear the initial filters, they are placed into a 6 day `wait` step before receiving scoring based on `6QA`. This delay allows Marketo to check that a lead has not been labeled `Accepted`, `Qualifying`, `Qualified`, `Disqualified`, `Ineligible` or `Recycle` since the checkbox status initially changed and prevents overscoring based on other lead behaviors, but still allows leads to receive points.
+
 ### Outreach
 
 ### Qualified
