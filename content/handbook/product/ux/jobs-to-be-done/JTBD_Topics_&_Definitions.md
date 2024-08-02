@@ -90,7 +90,7 @@ Related Jobs are often within the same or adjacent Domain. For example, A relate
 
 ## Main Job Hierarchy
 
-![Job Map](JTBD_MainJob_Hierarchy.png)
+![Job Map](../JTBD_MainJob_Hierarchy.png)
 
 ### Job Statements
 
