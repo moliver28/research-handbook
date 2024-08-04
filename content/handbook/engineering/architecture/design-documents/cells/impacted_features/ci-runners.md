@@ -93,7 +93,11 @@ The runner now sends the token in the HTTP headers in all requests with the
 We can pick a design where all runners are always registered and local to a given Cell:
 
 - Each Cell has its own set of instance-wide runners that are updated at its own pace
-- The Project runners can only be linked to Projects from the same Organization, creating strong isolation.
+- The Project runners can only be linked to Projects from the same Organization,
+  creating strong isolation.
+- Some Cells can have no instance runners at all, making sure that any job
+  executed within an Organization will not be by mistake routed to a
+  public runner.
 - In this model the `ci_runners` table is local to the Cell.
 - In this model we would require the above endpoints to be scoped to a Cell in
   some way, or be made routable. It might be via prefixing them, adding additional
@@ -159,6 +163,8 @@ However, this offers a few upsides related to more efficient processing and
 decoupling model: push model and it opens a way to offer stateful
 communication with GitLab runners (ex. gRPC or Websockets).
 
+It may be worth review this idea as an improvement in Cells 1.5 or Cells 2.0.
+
 ## 4. Evaluation
 
 Considering all options it appears that the most promising solution is to:
@@ -174,3 +180,64 @@ allowed by CI runner.
 ## 4.1. Pros
 
 ## 4.2. Cons
+
+## 5. Plan
+
+Having in mind all that was written above, the plan for Cells 1.0
+target is:
+
+1. Use the `Instance-wide are Cell-local` approach.
+
+1. Update the runner token mechanism.
+
+    When existing runner token will be detected, Cells routing service
+    will pass that request to the Cell "0" (the one containing all existing
+    groups and projects). That provides backward compatibility with
+    all already registered runners.
+
+    Cell-registered runners will move to use a JWT as a runner token.
+
+    For the Cells 1.0 target we will make it very simple. We will use an
+    unsigned JWT. Within the JWT payload we will send the existing
+    runner token and the Cell identifier.
+
+    This approach will allow us to move forward slowly using the existing
+    authentication mechanisms, but will be open to future improvements
+    like the one described in the [GitLab Runner Identity design doc](https://gitlab.com/gitlab-org/architecture/gitlab-runner-identity/design-doc).
+
+    On the runner side the token will be stored as a simple string
+    in the existing `config.toml` entry. This will make it backward
+    compatible with the older version of GitLab Runner.
+
+    To easily recognize the new token, we will prefix the JWT string
+    with `glrjwt-` (GitLab Runner JWT).
+
+1. Switch to usage of the JWT token for job token.
+
+    That follow the same idea as for the runner token. Ee will
+    use an unsigned JWT, where the payload will contain the existing
+    job token and the identification of the Cell.
+
+    That makes it possible to improve job request JWT in the future,
+    for example by having a random, dedicated key pair created by the
+    Runner and sent with job request.
+
+    When the old token is detected, Cells routing service will pass that
+    request to the Cell "0". That provides backward compatibility with
+    all already registered runners.
+
+    New tokens would be passed to the Cell pointed by the identifier.
+
+    To easily recognize the new token, we will prefix the JWT string
+    with `gljjwt-` (GitLab Job JWT).
+
+1. Update the [Cells HTTP Router](https://gitlab.com/gitlab-org/cells/http-router)
+   to teach it how to route runner requests using the new token for
+   runner and job made requests.
+
+1. Register a `saas-linux-small-amd64` runner in the
+   first cell introduced for Cells 1.0 target.
+
+    We will use the existing deployment mechanism, basically making it a new
+    shard dedicated for that Cell, but using the Small AMD64 Linux runners
+    configuration.
