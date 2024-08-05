@@ -5,16 +5,6 @@ description: "Find out how to schedule with E-Group members with Executive Busin
 
 Before scheduling with an E-Group member, please be sure to reach out to their perspective EBA with meeting details.
 
-## Scheduling for Chris Weber, Chief Revenue Officer
-
-- All meeting requests routed through the Staff EBA to the CRO, Alexa Schrauth.
-- Prefers "appropriate length" conversations, so short meetings are okay on the calendar.  If a topic only needs 10 mins, book 10 mins instead of 30, etc.
-- Include Meeting Agendas in invites / make sure the team knows to include this with requests for time (excluding coffee chats).
-- Flexible with late evening calls for Asia or Australia - check with him or Staff EBA first.
-- Add pre-emptive blocks in calendar that can be used for meetings or calls.
-- Add pre-emptive blocks in calendar that can be used for catch-up and To-Do items - label these blocks as 'workflow'.
-- For First Order Sourced Thank You Note Requests, please comment with the following [in this issue](https://gitlab.com/gitlab-com/channel/channels/-/issues/625): Partner Name, Exec Sponsor Name, Exec Sponsor Email, Emails of anyone who should be copied on the email, Email Subject, Email Draft [sample email doc](https://docs.google.com/document/d/1cJRBniVQhURxq0VzeE-2wA7ai6wW_vFIwWNTI_KRivY/edit?usp=sharing) and tag @aschrauth
-
 ## Scheduling for Brian Robins, Chief Financial Officer
 
 - All meeting requests should go through the CFO's Staff EBA, Darci Tadich.
@@ -80,13 +70,13 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 - 1:1's should always be rescheduled instead of cancelled unless unavoidable due to OOO/PTO schedules
 - Meetings will be declined if no agenda is added or shared 48 hour priors to the meeting time
 
-## Scheduling for Ashley Kramer, Chief Marketing & Strategy Officer
+## Scheduling for Ashley Kramer, Interim Chief Revenue Officer, and Chief Marketing & Strategy Officer
 
-- To schedule meetings, please coordinate with Ashley's Sr. EBA, Laura Vickerman
+- To schedule meetings, please coordinate with Ashley's Staff EBA, Kato Faylor
 - Priority will be given to customer & E-Group meetings - even last minute.
-- Flexible for early/late calls to support EMEA & APAC, but please check with Sr. EBA first.
+- Flexible for early/late calls to support EMEA & APAC, but please check with Staff EBA first.
 - Prefers "appropriate length" conversations, so short meetings are okay on the calendar (e.g. if a topic only needs 10 mins, book 10 mins instead of 30, etc.).
-- For scheduling questions, please do not tag @Ashley, reach out/tag the Sr. EBA
+- For scheduling questions, please do not tag @Ashley, reach out/tag the Staff EBA
 - Include meeting agendas in invites and/or briefing docs (excluding coffee chats) at least 24 hours in advance.
 
 ## Scheduling for Sabrina Farmer, Chief Technology Officer
