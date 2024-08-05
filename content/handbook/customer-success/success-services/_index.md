@@ -60,10 +60,10 @@ We have CSA specific processes that go above and beyond the CSM role. It is expe
 
 ```mermaid
 graph LR
-    A[Order Form Received] --> B[Welcome Email Sent<br>(24hrs after resources identified)]
-    B --> C[Internal Account Team Handover<br>(within first week)]
-    C --> D[Customer Kick-Off Call<br>(within first 1 to 2 weeks)]
-    D --> E[Accelerator Begins]
+    A[Order Form Received] --> B[<b>Welcome Email Sent</b><br><i>24hrs after resources identified</i>]
+    B --> C[<b>Internal Account Team Handover</b><br><i>within first week</i>]
+    C --> D[<b>Customer Kick-Off Call</b><br><i>within first 1 to 2 weeks</i>]
+    D --> E[<b>Accelerator Begins]
 ```
 
 1. Introduction Email
