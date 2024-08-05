@@ -6,7 +6,7 @@ category: GitLab Self-Managed licenses
 
 ### Customer wants to start a Duo Pro trial
 
-- Direct the customer to [this page](https://about.gitlab.com/solutions/gitlab-duo-pro/sales/)
+- Direct the customer to [this page](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#start-gitlab-duo-pro-trial)
 
 ### Account owner wants to extend a Duo trial
 
