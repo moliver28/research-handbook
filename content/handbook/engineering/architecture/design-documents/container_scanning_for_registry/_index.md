@@ -29,7 +29,7 @@ The primary goal of the Container Scanning for Registry feature is to enhance th
 1. **Automating the Detection Process**: Ensuring that every new image pushed to the GitLab container registry is automatically scanned for vulnerabilities.
 2. **Early Identification of Vulnerabilities**: Detecting and reporting vulnerabilities as soon as they are introduced, minimizing the risk of exploitation.
 3. **Integrating with Existing Workflow**: Seamlessly integrating the scanning process into the existing GitLab CI/CD pipeline, making it a natural part of the development workflow without additional manual intervention.
-3. **Providing Comprehensive Reports**: Offering detailed vulnerability reports that are accessible through GitLab's Secure dashboard.
+4. **Providing Comprehensive Reports**: Offering detailed vulnerability reports that are accessible through GitLab's Secure dashboard.
 
 ## Design and implementation details
 
