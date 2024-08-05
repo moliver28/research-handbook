@@ -1070,18 +1070,29 @@ At times it may be necessary to transfer a [stable-counterpart](/handbook/leader
 ### Planning and Direction
 
 As a PM, you must plan for the near term milestones (more detailed) as well as for the long
-term strategy (more broad), and everything in between. Considered as a spectrum, these form a
-[nearsighted roadmap](https://medium.com/@jobv/the-nearsighted-roadmap-57fa57b5906a).
+term strategy (more broad), and everything in between. 
+You should capture you mid to long term plans on related direction pages.
 This will enable you to efficiently communicate both internally and externally
 how the team is planning to deliver on the [product vision](https://about.gitlab.com/direction/#vision).
 
 #### Communicating dates
 
-Use [calendar year (CY) dates](/handbook/communication/#writing-style-guidelines) for your issues, milestones, and labels to communicate timelines. Fiscal year (FY) does not translate well outside the company and roadmaps and vision pages are intended for external consumption. If you'd like to denote that an issue will be completed within a fiscal quarter use the month or GitLab release number for the last month in the fiscal quarter. E.g. use `12.4 (2018-10-22)` instead of `FY20-Q3`. The issue can always be moved up in date and users/customers will seldom complain when functionality ships earlier than expected.
+As product managers, a core job is to set the correct expectations. We do this typically through discussing our direction and assigning issues to milestones. When you need to communicate specific dates, it's recommended doing it with limited visibility internally or directly to the customers. When you need to communicate specific dates use [calendar year (CY) dates](/handbook/communication/#writing-style-guidelines). Fiscal year (FY) does not translate well outside the company.
 
-#### Planning is indispensable but adjust, iterate, and create value every milestone
+Accordingly, the direction pages are expected to refer to specific issues only for the next 3-4 months. Everything beyond that should discuss the topic, not specific issues.
 
-Creating a thoughtful direction for your section, stage, or category is a useful thought exercise that can help focus efforts, aid in prioritization, and get large groups of people on the same page. But beware of simply executing your long term plan. Our industry is incredibly dynamic, and we learn new things every day that can and should cause us to re-think our long term plans. Stay focused on creating value each and every milestone, and be quick to adjust your longer term plans as you learn more.
+#### Planning is indispensable but adjust, iterate
+
+Creating a thoughtful direction for your section, stage, or category is a useful thought exercise that can help focus efforts, aid in prioritization, and get large groups of people on the same page. But beware of simply executing your long term plan. Our industry is incredibly dynamic, and we learn new things every day that can and should cause us to re-think our long term plans. 
+
+#### Delivery follows discovery
+
+We should ship what brings value to our customers, not what is easy to ship. Stay focused on creating value each and every milestone, and be quick to adjust your longer term plans as you learn more.
+
+1. When working on a larger theme, you should start with validating the end state knowing that it will change as you start shipping features and you learn more from actual usage.
+1. Once the final vision is validated, you should work with your designer and engineering counterparts to break it down to the smallest possible iterations in order to ship value quickly.
+1. You might still prefer to validate the first "milestone" before getting into delivery.
+1. It's totally fine to never ship the initial vision and refine the vision after every iteration. A feature not built is much more valuable than a feature that is built but never used.
 
 #### The Importance of Direction
 
@@ -1101,7 +1112,7 @@ As a Product Manager you can highlight these connections in:
 
 Communicating this connection requires a multi-channel approach. We should strive to [share](/handbook/values/#share) and communication about the connection to our Direction warrants consistent reinforcement.
 
-#### Section and Stage Direction
+##### Section and Stage Direction
 
 Section leaders are responsible for maintaining Direction pages that lay out the strategy and plan for their respective section and stages. The direction pages should include topics outlined in this [template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/templates/product/section_direction_template.html.md), which include:
 
@@ -1113,7 +1124,7 @@ Section leaders are responsible for maintaining Direction pages that lay out the
 - Stages and Categories - brief explanation of the stages that roll up to the section, and links to category direction pages within each stage.
 - What's Next - auto generated roadmap for the next three milestones
 
-#### Category Direction
+##### Category Direction
 
 A category strategy is required which should outline various information about
 the category including overall strategy, what's next, and the competitive landscape. The category strategy
@@ -1177,23 +1188,13 @@ highly encouraged - but not required - for non-marketing categories.
 
 For specifics of how the category strategy page should look, see the [category strategy template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/templates/product/category_strategy_template.html.md).
 
-#### Next three milestones
+#### Planning and OKRs
 
-In order to plan effectively around releases, as a PM you should have 3 months of
-detailed milestones scheduled at all times. The issues contained in these milestones are
-the ones you should be spending the most energy on (fleshing them out, adding
-detail, discussing, etc). These issues will go through a refinement period where
-Product, Engineering, UX, and other parties will discuss the proposal until a
-proper MVC proposal is reached (see
-Content of an MVC for more detail). Most of the communication should happen within the issue
-comments, but some may happen offline (such as via Slack). Ensure that any
-relevant information that arise as part of an offline conversation is added to
-the issue title and issue description. As a PM you must ensure that issues have
-enough detail added to them before they become actionable as part of an
-iteration.
+[GitLab users quarterly OKRs](/handbook/company/okrs/) that cascade into [Product OKRs](/handbook/product/product-okrs/) and product group OKRs. 
+You should have plans for the next three months in terms of driving specific product metrics through discovery and delivery actions.
+You should discuss the product metrics with your manager, your design and engineering counterparts and the actions to reach the results with your design and engineering counterparts.
 
-These next milestones will also help planning for capacity with engineering and
-UX in order to commit to the contents of the next release.
+You can read more about the OKR process at GitLab at the two links shared above.
 
 #### Planning Issue for Milestone
 
@@ -1223,7 +1224,7 @@ generated feedback which could represent buyers or users. For new PMs consider
 these lists as guidance for places to ensure you are plugged in to maintain
 sufficient context.
 
-We recently [conducted a GTM and R&D sensing mechanism survey](https://gitlab.com/gitlab-com/Product/-/issues/1540) to get an understanding of how team members valued the sensing mechanisms listed below. We calculated this value by multiplying their responses (1-5) for how efficient they felt a sensing mechanism was by how their responses (1-4) for how effective they felt the sensing mechanism was. We've ranked the below lists by the average value from all respondents.
+In 2020, we [conducted a GTM and R&D sensing mechanism survey](https://gitlab.com/gitlab-com/Product/-/issues/1540) to get an understanding of how team members valued the sensing mechanisms listed below. We calculated this value by multiplying their responses (1-5) for how efficient they felt a sensing mechanism was by how their responses (1-4) for how effective they felt the sensing mechanism was. We've ranked the below lists by the average value from all respondents.
 
 ##### Sensing Mechanisms by Type
 
@@ -1246,6 +1247,8 @@ We recently [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 1. [Chorus transcriptions](/handbook/business-technology/tech-stack/#chorus) of sales calls and demos ([how to video - private](https://www.youtube.com/watch?v=5LaxjZ31250))
 1. Reviewing Win/Loss reports
 1. Learn about [customer health data](https://www.gainsight.com/) using Gainsight built on salesforce, managed by the Customer Success team
+1. Attending [QBRs](/handbook/sales/qbrs/) and consuming QBR summaries/highlights
+- Speaking directly with users via [PCSAT responder outreach](#pcsat-responder-outreach)
 
 ###### Market
 
@@ -1254,28 +1257,18 @@ We recently [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 1. Monitoring and maintaining the [direction](https://about.gitlab.com/direction/) page for the categories you own
 1. Subscribing to your competitor's blogs to be aware of what they are releasing will help you here
 1. Reviewing relevant [analyst reports](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/#accessing-analyst-reports)
+- Consuming [competitive and market content review](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Competitive-Content.md) highlights
+- Reviewing relevant [analyst reports](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/#accessing-analyst-reports)
+- Meeting with analysts to confirm direction and vision of section and stages
+- Paying regular attention to competitive wins and losses
 
 ###### Internal
 
 1. Leadership [OKRs](/handbook/company/okrs/) set the direction for the company
 1. Each PM should be having regular conversations with their [stage groups stable counterparts](/handbook/product/categories/) to discuss their strategy and plan. Share this discussion with the company via our GitLab Unfiltered [YouTube](/handbook/marketing/marketing-operations/youtube/) channel. PMs should share their next three milestones, year-long plan, strategy, and relevant OKRs (with status) so everyone can contribute feedback.
-
-1. Dialogue with internal customers, and review of the [internal customer](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=internal%20customer) and [rebuild in GitLab](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=rebuild%20in%20GitLab) labels
-
-##### Sensing Mechanism for Product Leaders
-
-Many of the sensing mechanisms described are directly relevant to individual product managers performing regular product group prioritization. There are also a set of unique sensing mechanisms that act as summaries for [Product Leadership](/handbook/product/product-leadership/).
-
-- Attending [QBRs](/handbook/sales/qbrs/) and consuming QBR summaries/highlights
-- Consuming weekly opportunity review highlights
-- Regularly reviewing validation track activities ([example](https://about.gitlab.com/direction/ops/#current-validation-track-initiatives))
+1. Dialogue with internal customers to improve the dogfooding potential of your features
 - Quarterly cross-section [direction](#section-and-stage-direction) reviews
-- Consuming [competitive and market content review](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Competitive-Content.md) highlights
-- Speaking directly with users via [PCSAT responder outreach](#pcsat-responder-outreach)
-- Reviewing relevant [analyst reports](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/#accessing-analyst-reports)
-- Meeting with analysts to confirm direction and vision of section and stages
 - Reviewing [Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/) for trend shifts and changes
-- Paying regular attention to competitive wins and losses
 
 #### Managing Upcoming Releases
 
@@ -1285,8 +1278,19 @@ issues in upcoming releases.
 
 #### Planning for Future Releases {#planning-future-release}
 
-Product Managers assign milestones to issues to indicate when an issue is likely
-to be scheduled and worked on. As we consider more distant milestones, the certainty of
+There are two non-exclusionary ways to plan and communicate work for future releases
+
+##### Planning with boards
+
+As a Product Manager you can maintain prioritization of your groups issues using
+a fully prioritized issue board where the ordering of the issues reflects their priority.
+
+##### Planning with milestones
+
+Product Managers can assign milestones to issues to indicate when an issue is likely
+to be scheduled and worked on. 
+Still, whether an issue can be delivered within a milestone is the decision of the engineering team.
+As we consider more distant milestones, the certainty of
 the scope of their assigned issues and their implementation timelines is increasingly
 vague. In particular, issues may be moved to another project, disassembled, or merged
 with other issues over time as they bounce between different milestones.
@@ -1297,10 +1301,9 @@ as soon as possible to reflect the changed plan. We make sure to do this ahead
 of starting work on a release. Capacity is discussed between the PMs and the
 engineering managers.
 
-In general, closer-to-current-time milestones are assigned to issues that are
-higher priority. It's best to maintain prioritization of your groups issues using
-a fully prioritized issue board. The timing of prioritized items broken across releases
-reflects an approximate product direction, with more distant milestones reflecting increasing uncertainty.
+There are helper labels to signals these plans like `~next::1-3 releases` and its variants.
+
+###### Special milestones
 
 In addition, we have two special milestones: `Backlog` and `Awaiting further demand`.
 Product Managers assign these issues to milestones that they have reviewed and
@@ -1310,14 +1313,15 @@ demand to prioritize the item yet. The best way to demonstrate urgency on
 either of these items is to vote on them and, if possible, add comments
 explaining your use case and why this is important to you.
 
-**Recommendation for when to change 'Awaiting further demand':** Consider the number
-of people who use, not just have access to, the area impacted by the issue. When you
-receive enough feedback to be equal to a percentage of the power users, it is likely
-to consider moving the issue forward. Often public feedback only comes from a small
-percentage of people using or evaluating a feature or product. There needs to be a
-balance between waiting too long and acting too fast. In addition, there may be a
-tendency for more negative feedback than positive feedback, remember that people
-are passionate enough to care about this issue and it should be taken constructively.
+**Recommendation for when to change 'Awaiting further demand':** 
+Always focus on the overall value of the feature. 
+Do you have a good understanding of the user problem? 
+Do you have a good understanding of the impacted user base?
+Was the proposed solution validated?
+Issues with the 'Awaiting further demand' label often mean poorly understood requests that require more information from our users and the market.
+
+Often public feedback only comes from a small percentage of people using or evaluating a feature or product. 
+You should always consider reaching out directly to our users to learn more about their use cases.
 
 **Recommendation when changing a previously planned issue to `Backlog`:** When moving
 a previously planned issue to `Backlog`, especially one planned for within the next release or two,
@@ -1328,28 +1332,33 @@ it is best to concisely explain the rationale behind the change in a comment, so
 the community can understand and potentially respond with additional justification or
 context. It is also encouraged to move the issue to the `Backlog` as soon as it is clear that it will not be scheduled in the near future. This will help with understanding the change, as it will not seem like a last minute change.
 
+Communicating clearly changing priorities might encourage the community to contribute the issue to GitLab.
+
 Again, the milestone of an issue can be changed at any moment, including for both
 of these special milestones.
-
-For a detailed timeline, see [the product development timeline](/handbook/engineering/workflow/#product-development-timeline).
 
 #### Shifting commitment mid-iteration
 
 From time to time, there may be circumstances that change the ability for a team
-to ship the features/issues they committed to at the beginning of the iteration. These steps also apply when an issue is broken into multiple issues.
-When this happens, as a PM you must ensure the impacted issues and their milestones
+to ship the features/issues they committed to at the beginning of the iteration. 
+These steps also apply when an issue is broken into multiple issues.
+When this happens, as a PM you must coordinate with your EM counterpart that
+ the impacted issues and their milestones
 are updated to reflect the new reality (for example, remove `deliverable`
 tag, update `milestone`, etc.). Additionally, notify your manager of the shift.
 
 #### Utilizing our design system to work autonomously
 
 Our [design system](https://design.gitlab.com) provides the means to work
-autonomously, without always needing UX insight and feedback. When problems can
+autonomously, without always needing UX insight, feedback and design. When problems can
 be solved using an already documented paradigm, you don't need to wait for UX
 approval to bring an issue to a reasonable state within a first iteration.
 
 If lingering questions remain, subsequent iterations can address any shortcomings
 the feature might have.
+
+Always consider that with a dedicated product designer, it's much faster and cheaper to iterate on a design than to re-implement it.
+At the same time, not everything needs a design, and the design system is here to support your engineers and you in those cases.
 
 #### Introducing a breaking change in a minor release
 
