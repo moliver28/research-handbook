@@ -18,7 +18,7 @@ Use the API for retrieving EPSS data instead of downloading a ZIP file.
 
 ## Consequences
 
-The API implementation is more elegant and doesn't involve local storage. The ZIP file option's implementation was slightly faster (0.01 min vs 0.05 in the API), but this gap is negligible because PMDB doesn't require real-time processing..
+The API implementation is more elegant and doesn't involve local storage. The ZIP file option's implementation was slightly faster (~0.01 for the ZIP vs ~0.05 for the API), but this gap is negligible because PMDB doesn't require real-time processing..
 The main concern was about rate limits. However, since we haven't seen any documentation about that on the official site, and we have never received an error related to that now or in the past, we assume it is acceptable.
 
 ## Alternatives
