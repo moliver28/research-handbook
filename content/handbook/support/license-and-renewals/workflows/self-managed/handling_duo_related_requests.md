@@ -14,10 +14,10 @@ category: GitLab Self-Managed licenses
 - Instead, an account owner should reach out in the [#duo-pro-trial-requests Slack channel](https://gitlab.enterprise.slack.com/archives/C06JNL6C9BM) using the template in the channel description
 - Duo extensions must be processed as $0 opportunities
 
-### Customer is on an Ultimate-tier trial and wants to trial Duo
+### Self-Managed customer is on an Ultimate-tier trial and wants to trial Duo
 
 - Duo requires cloud licensing to be enabled and SM plan trials are issued via legacy licenses
-- This means that customers cannot trial both at the same time - instead they will need to complete their Ultimate-tier trial before starting a Duo trial separately.
+- This means that SM customers cannot trial both at the same time until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/12727) is completed.
 
 ### A community programs customer wants to trial Duo
 
