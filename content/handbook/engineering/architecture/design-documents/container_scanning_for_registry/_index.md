@@ -14,6 +14,23 @@ toc_hide: true
 
 The [Container Scanning for Registry](https://docs.gitlab.com/ee/user/application_security/container_scanning/#container-scanning-for-registry) feature enables the automatic execution of a container scanning job whenever a new image is pushed to the [GitLab container registry](https://docs.gitlab.com/ee/user/packages/container_registry). This feature helps in identifying vulnerabilities in container images early in the development process.
 
+## Motivation
+
+Container Scanning scans Docker images when they are created during the pipeline. Images are then stored in the GitLab Container Registry, and can be reused by other pipelines and deployment processes as stable images that will land in production.
+
+Security status can change at any time even if there are no code changes, for example if an unknown vulnerability is disclosed to the public.
+
+Developers and security teams need to know the current security status of the images stored in the GitLab Container Registry. When the advisory database is updated, they need to know when new vulnerabilities apply to existing images. Similarly, they also need to know when new vulnerabilities are introduced when a new image is pushed into the registry.
+
+## Goal
+
+The primary goal of the Container Scanning for Registry feature is to enhance the security of containerized applications by automating the scanning process. This involves:
+
+1. **Automating the Detection Process**: Ensuring that every new image pushed to the GitLab container registry is automatically scanned for vulnerabilities.
+2. **Early Identification of Vulnerabilities**: Detecting and reporting vulnerabilities as soon as they are introduced, minimizing the risk of exploitation.
+3. **Integrating with Existing Workflow**: Seamlessly integrating the scanning process into the existing GitLab CI/CD pipeline, making it a natural part of the development workflow without additional manual intervention.
+3. **Providing Comprehensive Reports**: Offering detailed vulnerability reports that are accessible through GitLab's Secure dashboard.
+
 ## Design and implementation details
 
 ### Working
@@ -27,32 +44,32 @@ The [Container Scanning for Registry](https://docs.gitlab.com/ee/user/applicatio
 #### Event Triggering
 
 - **Event Class**: When a new image is pushed to the container registry, an event is fired using the class `ContainerRegistryEvent`. 
-  - **Source Code**: [ContainerRegistryEvent](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/api/container_registry_event.rb)
+  - **Source Code**: [ContainerRegistryEvent](https://gitlab.com/gitlab-org/gitlab/-/blob/415e8c1c144bd3b3fa42637ca93d3aa5fcc1f34d/lib/api/container_registry_event.rb#L5)
 
 #### Image Pushed Event
 
 - **Condition**: If the image tag is a supported tag and the necessary permissions and licenses are present, it publishes another event called `ContainerRegistry::ImagePushedEvent`.
-  - **Source Code**: [ImagePushedEvent](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/lib/ee/gitlab/event_store.rb#L63)
+  - **Source Code**: [ImagePushedEvent](https://gitlab.com/gitlab-org/gitlab/-/blob/415e8c1c144bd3b3fa42637ca93d3aa5fcc1f34d/ee/lib/ee/gitlab/event_store.rb#L63)
 
 #### CI Pipeline Creation
 
 - **Worker**: The `ImagePushedEvent` triggers the `ScanImageWorker`, which schedules a CI pipeline via the `ScanImageService`.
-  - **Source Code**: [ScanImageService](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/services/app_sec/container_scanning/scan_image_service.rb#L28)
+  - **Source Code**: [ScanImageService](https://gitlab.com/gitlab-org/gitlab/-/blob/415e8c1c144bd3b3fa42637ca93d3aa5fcc1f34d/ee/app/services/app_sec/container_scanning/scan_image_service.rb#L28)
 
 #### Container Scanning Tool Configuration
 
 - **Environment Variable**: Based on the CI environment variable `REGISTRY_TRIGGERED: true`, the container scanning tool sets the GitLab property name to `container_scanning_for_registry` in the SBOM (Software Bill of Materials).
-  - **Source Code**: [SBOM Converter](https://gitlab.com/gitlab-org/security-products/analyzers/container-scanning/-/blob/master/lib/gcs/sbom_converter.rb#L14)
+  - **Source Code**: [SBOM Converter](https://gitlab.com/gitlab-org/security-products/analyzers/container-scanning/-/blob/7257a06e4507c77ae50c4926e79142e2689e1fca/lib/gcs/sbom_converter.rb#L14)
 
 #### Report Ingestion
 
 - **Property Check**: During report ingestion, the system checks the property type and sets the `sbom_occurrence.source_type` to `container_scanning_for_registry`.
-  - **Source Code**: [CycloneDX Properties Parser](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/parsers/sbom/cyclonedx_properties.rb#L21)
+  - **Source Code**: [CycloneDX Properties Parser](https://gitlab.com/gitlab-org/gitlab/-/blob/415e8c1c144bd3b3fa42637ca93d3aa5fcc1f34d/lib/gitlab/ci/parsers/sbom/cyclonedx_properties.rb#L21)
 
 #### Vulnerability Creation
 
 - **Report Type**: During the creation of vulnerabilities, the `vulnerability#report_type` is set to `container_scanning_for_registry` based on `sbom_occurrence.source_type`. This report type filter is used by the frontend to distinguish these vulnerabilities from other types.
-  - **Source Code**: [ContainerScanning FindingBuilder](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/lib/gitlab/vulnerability_scanning/container_scanning/finding_builder.rb#L21)
+  - **Source Code**: [ContainerScanning FindingBuilder](https://gitlab.com/gitlab-org/gitlab/-/blob/415e8c1c144bd3b3fa42637ca93d3aa5fcc1f34d/ee/lib/gitlab/vulnerability_scanning/container_scanning/finding_builder.rb#L21)
 
 ## Architecture Diagram
 
