@@ -205,7 +205,7 @@ compared with the pros and cons of alternatives.
 ### Decisions
 
 - [002: Use a new bucket for EPSS data](decisions/002_use_new_bucket.md)
-- [003: Using EPSS API over ZIP File](decisions/003_use_epss_api.md)
+- [003: Use an API over a ZIP File](decisions/003_use_epss_api.md)
 
 ### Important notes
 
