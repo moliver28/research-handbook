@@ -242,7 +242,7 @@ During a verified Severity 1 Incident the IM will page for Infrastructure Leader
 Further support is available from the Scalability and Delivery Groups if required. Scalability leadership can be reached
 via PagerDuty [Scalability Escalation](https://gitlab.pagerduty.com/escalation_policies#PDJ160O) (further [details available on their team page](/handbook/engineering/infrastructure/team/scalability/index.html#emergency-escalation-during-s1s2-incidents)). Delivery leadership can be reached via PagerDuty. See the [Release Management Escalation](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation) steps on the Delivery group page.
 
-### How to engage the EOC, IMOC and CMOC?
+### How to engage the EOC, IM and CMOC?
 
 If during an incident, the EOC, Incident Manager or CMOC need to be engaged, page the on-call person using either of the following steps. This triggers a PagerDuty incident and page the appropriate person based on the **Impacted Service** that you choose. 
 
@@ -253,7 +253,7 @@ or
 | Role | Impacted Service | 
 | ----- | ----- | 
 | EOC | GitLab Production |
-| IMOC | GitLab Production - Incident Manager |
+| IM | Incident Manager Oncall |
 | CMOC | Incident Management - CMOC |
 
 ### Incidents requiring direct customer interaction
