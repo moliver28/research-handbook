@@ -1114,15 +1114,7 @@ Communicating this connection requires a multi-channel approach. We should striv
 
 ##### Section and Stage Direction
 
-Section leaders are responsible for maintaining Direction pages that lay out the strategy and plan for their respective section and stages. The direction pages should include topics outlined in this [template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/templates/product/section_direction_template.html.md), which include:
-
-- Overview - brief summary of the situation, including market size and share, competitive position, level of customer adoption, etc.
-- Challenges - competitive pressure, investment constraints, business performance issues, etc.
-- 3 year strategy - what do you expect the world to look like in three years, and what is our strategic response? Tech changes, market changes, competitive changes, etc.
-- Themes - what are the primary investment themes for your areas? Where do we plan to invest over the next 12 months?
-- One Year Plan - details on specific epics/projects that tie back to investment themes
-- Stages and Categories - brief explanation of the stages that roll up to the section, and links to category direction pages within each stage.
-- What's Next - auto generated roadmap for the next three milestones
+Section leaders are responsible for maintaining Direction pages that lay out the strategy and plan for their respective section and stages. The direction pages should include topics outlined in this [template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/templates/product/section_direction_template.html.md).
 
 ##### Category Direction
 
