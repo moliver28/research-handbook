@@ -1,4 +1,4 @@
-VP, Strategy & Developer Relations 
+#### VP, Strategy & Developer Relations 
 
 The VP, Strategy & Developer Relations is responsible for driving the company’s strategic objectives as well as industry trends related to AI and hyperscalers and to identify, recommend, and evaluate initiatives that will meet GitLabs growth objectives.  Additionally this role is responsible for engaging our customers to co-create with GitLab and encouraging wider community members to contribute to our open-core platform - a major differentiator for GitLab.
 
