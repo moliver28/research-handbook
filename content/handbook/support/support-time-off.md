@@ -148,11 +148,11 @@ For high priority tickets, tend towards a handing over to someone else:
 1. Follow the [OOO Ticket Management](/handbook/support/workflows/ooo-ticket-management)
    process to arrange for others to take care of your tickets in your absence.
 1. To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):
-
    - Update the corresponding `yaml` file for yourself in the [Support Team project](https://gitlab.com/gitlab-com/support/team/-/tree/master/data/agents?ref_type=heads).
    - Change `works_account_deletion: true` to `works_account_deletion: false`
    - Assign the MR to your manager.
    - Make sure to undo this change when you return from OOO.
+1. After coming back, make sure to follow the guidelines for [catching up after a scheduled time off](#catching-up-after-a-scheduled-time-off).
 
 ## How Support Handles Family and Friends Days
 
@@ -248,4 +248,6 @@ Consider setting up a few coffee chats with teammates to simply reconnect with t
 
 Once you have taken the time to catch-up, update your availability using the [Out of Office](/handbook/support/readiness/operations/docs/zendesk/apps/#out-of-office) app in Zendesk showing you are no longer OOO. This is done by navigating to the [app in Zendesk](https://gitlab.zendesk.com/agent/apps/out-of-office) and clicking the `Make available` button on the row with your user information in it.
 
-For more tips, check [returning from pto](/handbook/people-group/paid-time-off/#returning-from-pto).
+If you unassigned some of your tickets before going on PTO, take the time to go through them and check their status. It's good practice to reassign them to yourself if these are either still missing a DRI, or if it appears that you're still the best equipped person to drive it to a solution.
+
+For more tips, check [returning from pto](/handbook/paid-time-off/#returning-from-pto).
