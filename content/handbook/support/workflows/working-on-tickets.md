@@ -374,20 +374,22 @@ support ticket.
 As detailed in the [Support General Policies](https://about.gitlab.com/support/general-policies/#we-handle-each-incident-within-a-single-support-ticket)
 it is GitLab policy to handle each individual incident, problem or issue within
 a single support ticket. If a situation arises where you need to open a new
-ticket on behalf of a customer, you **must** use the Support Portal to ensure
-proper routing and SLA assignment:
+ticket on behalf of a customer, you **must** use the [Create new ticket plugin](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#:~:text=current%20plugins%20are%3A-,Create%20new%20ticket,-Allows%20an%20agent)
+within the [Zendesk Super App](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#zendesk-super-app)
+to ensure proper routing and SLA assignment:
 
-1. Use the Support Portal to [submit a new request](https://support.gitlab.com/hc/en-us/requests/new)
+1. Within a ticket, navigate to the Zendesk Super App and select the Create new
+   ticket plugin.
 1. Select the appropriate form type. This will most likely match the request
    type of the originating ticket.
-1. Enter the customer's details like email address, subject, problem description
-   and other relevant information. Use the customer's existing Zendesk Ticket to
-   obtain the necessary customer information to complete the form.
-1. Submit the ticket using the form.
+1. Enter the customer's details like subject, problem description and other 
+   relevant information. Use the customer's existing Zendesk Ticket to obtain
+   the necessary customer information to complete the form.
+1. Submit the ticket using the `Create Ticket` button.
 
-Once the form is submitted, the portal will not provide the corresponding ticket
-ID. Instead, you can find the ticket in Zendesk under the user or organization
-associated with it.
+Once the new ticket has been submitted, the app will provide you with the
+corresponding ticket ID. You can click the ticket ID to directly navigate
+to the newly created ticket.
 
-If you plan to immediately start working the ticket, please update the SGG
-assignment to match your SGG.
+If you plan to immediately start working the ticket, please assign the ticket to
+yourself.
