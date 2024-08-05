@@ -47,7 +47,7 @@ If the Key Review meeting will not contain MNPI, it can be privately livestreame
 
 Functions that have these quarterly meetings are:
 
-1. Sales (Chris Weber - function DRI)
+1. Sales (Ashley Kramer - interim function DRI)
 1. Marketing & Strategy (Ashley Kramer - function DRI)
 1. People Group (Rob Allen - function DRI)
 1. Finance (Brian Robins - function DRI)
