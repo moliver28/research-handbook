@@ -11,9 +11,7 @@ description: "Most of the content in the product handbook talks about _how_ we d
 
 ## Product Team Functions
 
-- [Product Management](/handbook/product/#product-management)
-- [Product Management Procedures](/handbook/product/product-processes/product-mgt-operations/pm-operating-procedures/)
-- [Product Management Operations](/handbook/product/product-processes/product-mgt-operations/)
+- [Product Management](/handbook/product/product-manager-role/)
 - [User Experience](/handbook/product/ux/)
 
 ## Product Team Mission
