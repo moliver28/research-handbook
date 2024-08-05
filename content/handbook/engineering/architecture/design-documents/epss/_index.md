@@ -204,6 +204,7 @@ compared with the pros and cons of alternatives.
 
 ### Decisions
 
+- [001: Export all EPSS entries](decisions/001_export_all_epss.md)
 - [002: Use a new bucket for EPSS data](decisions/002_use_new_bucket.md)
 
 ### Important notes
