@@ -86,14 +86,6 @@ Our workflow process for our [board](https://gitlab.com/groups/gitlab-org/-/boar
 7. **workflow::verification** ✅: Following a successful code and UX review, the issue should be moved to this list and the "verification" label should be applied.
 8. **workflow::complete** 🎉: Once the issue is verified and confirmed to be working properly, it should be moved to this list, the "complete" label should be applied, and the issue should be closed.
 
-### 📝 Issue Priority
-
-To ensure that our developers are aware of the priority of their work, we [use three labels](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=AIF):
-
-* **AIF-Priority::1**: This label is for issues that are of the highest priority. These issues should be addressed first.
-* **AIF-Priority::2**: This label is for issues that are of medium priority. These issues should be addressed after all Priority 1 issues have been resolved.
-* **AIF-Priority::3**: This label is for issues that are of lower priority. These issues should be addressed after all Priority 1 and Priority 2 issues have been resolved.
-
 ### 🔄 Processes
 
 #### 🗓️ Weekly Process
