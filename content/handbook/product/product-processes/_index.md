@@ -1322,39 +1322,6 @@ the feature might have.
 Always consider that with a dedicated product designer, it's much faster and cheaper to iterate on a design than to re-implement it.
 At the same time, not everything needs a design, and the design system is here to support your engineers and you in those cases.
 
-#### Introducing a breaking change in a minor release
-
-As a product manager, you should carefully consider the costs and benefits when
-planning to introduce a breaking change. Breaking changes may heavily impact existing
-users, and it is your responsibility to minimize the negative effects.
-
-If you want to introduce an urgent breaking change in a minor release (e.g. you
-need to provide support for a new feature that cannot be backward compatible), you
-have to consider how many users will be affected by the change, and whether the change
-can wait until the next major release instead.
-
-If you evaluate that the impact on users is acceptable (e.g., you have evidence
-that the feature is not used significantly), and the change will allow many users
-to benefit of new features or to solve problems, follow this process:
-
-1. Create an issue to discuss the breaking change, describing it in detail including
-the impact and benefits.
-1. Consider if you really need to do a breaking change in a minor. Can you wait
-for the next major release?
-1. Communicate the breaking change as soon as possible, for example:
-
-- Publish a blog post about the upcoming change, with a timeline and a simple way
-to recognize who is affected, and who is not
-- Ask to schedule tweets about the blog post in the `#twitter` Slack channel
-- Ask to reach out customers that may be affected by the change in the
-`#customer-success` and `#sales` Slack channels
-- Mention the problems customers may report and how to address them in the
-`#support_self-managed` and `#support_gitlab-com` Slack channels
-
-1. Throughout this process, think like a customer. Figure out actions that could
-make the breaking change less painful from their point of view.
-1. Always keep the issue up-to-date.
-
 ### Iteration Strategies
 
 Iteration is a core value of GitLab, and product management has a central role to play in it. Iteration should be apparent as we deliver new features in MVCs, but it has implications for discovery too. As solution validation can move much faster than delivery, we should aim to validate features before building them. At this point, the feature validated is likely way bigger than an MVC if we would build it. We should pay special attention as product managers to still aim at iterative delivery after a bigger feature-set got validated, as delivered features provide the final validation. For example, once a direction is validated, we can start the delivery by documentation. As product managers we should aim to iterate as part of solution validation, and while delivering already validated solutions too.
