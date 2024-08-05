@@ -634,27 +634,27 @@ There are additional validation rules that are presently in effect:
 - A **Parent** OPPORTUNITY *cannot* be another `Add-on` OPPORTUNITY
 - All sales-assisted non-portal `Add-on` OPPORTUNITIES **must** have a parent opportunity.
 
-#### Creating an Upside IACV Opportunity
+#### Creating an Upside ARR Opportunity
 
-An `Upside IACV` OPPORTUNITY will inherit information from the *original* OPPORTUNITY.
-The steps to create an `Upside IACV` OPPORTUNITY varies slightly from the instructions above because this type of OPPORTUNITY is created from the OPPORTUNITY **not** from a converted LEAD or CONTACT.
-An `Upside IACV` OPPORTUNITY has a minimal amount of fields as it's only for tracking the potential upside amount.
+An `Upside ARR` OPPORTUNITY will inherit information from the *original* OPPORTUNITY.
+The steps to create an `Upside ARR` OPPORTUNITY varies slightly from the instructions above because this type of OPPORTUNITY is created from the OPPORTUNITY **not** from a converted LEAD or CONTACT.
+An `Upside ARR` OPPORTUNITY has a minimal amount of fields as it's only for tracking the potential upside amount.
 
-This creates a parent-child relationship between the *original* OPPORTUNITY and the `Upside IACV` OPPORTUNITY.
+This creates a parent-child relationship between the *original* OPPORTUNITY and the `Upside ARR` OPPORTUNITY.
 
 1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp).
-1. Click the `Upside IACV` button.
+1. Click the `Upside ARR` button.
 1. **UPDATE** the OPPORTUNITY Name - see the [Opportunity Naming Convention] guidelines
 1. Define:
-   - Close Date = if no timeframe defined input close date on a rolling 9-months.
-   - Amount = the upside value in addition to the Parent OPPORTUNITY value. If Parent OPPORTUNITY amount is $100,000 and total OPPORTUNITY amount potential is $150,000, then the Upside IACV amount is $50,000
+    - Opportunity Type should always be New Business
+    - The Net ARR value of the Upside ARR opportunity should always be the delta between the Most Likely scenario (Main opportunity) and the best possible case . 
+    - The stage and forecast category will always be lower than the ones in the main opportunity
+    - The close date of both opportunities will be the same
+    - The Upside ARR record does not require Next Steps or Command Plan completion as this will be completed on the main record. 
+    - Once the main opportunity is Closed Won or Closed Lost, the Upside ARR record needs to be closed as Duplicate
 1. Click `Save`
 
-When the PARENT OPPORTUNITY is changed to "Closed Won" or "Closed Lost," please update the stage of the UPSIDE IACV OPPORTUNITY to "Duplicate."
-In order to save this change, you must also enter the PARENT OPPORTUNITY name in the "Duplicate Opportunity" field on the UPSIDE IACV OPPORTUNITY.
-
-Note: Upside IACV opportunities exist for tracking purposes only.
-All final IACV (including any won upside IACV) will be attributed to the PARENT OPPORTUNITY.
+All final ARR (including any won upside ARR) will be attributed to the PARENT OPPORTUNITY.
 
 #### Creating a Professional Services Opportunity
 
