@@ -175,12 +175,13 @@ but it also could run inefficiently in production and could have a much bigger i
 
 #### `🏗️🏭build_changes`
 
-This job is designed to work with most dbt changes without user configuration.  It will clone, run, and test the new and changed models referencing the live database, `PROD`, `PREP`, and `RAW`, for any tables that have not been changed based on the most recent version of the [dbt documentation](https://dbt.gitlabdata.com/).  If the job fails it should represent an issue within the code itself and should be addressed by the developer making the changes.
+This job is designed to work with most dbt changes without user configuration. It will clone, run, and test all new and changed models, as well as any models that are between the changed models in the lineage. It references the live databases (`PROD`, `PREP`, and `RAW`) for any tables not included in the selection, in accordance with the most recent version of the [dbt documentation](https://dbt.gitlabdata.com/).  If the job fails it should represent an issue within the code itself and should be addressed by the developer making the changes.
 
 Should the changes made fall outside the default selection of this job, it can be configured in the following ways:
 
 - `WAREHOUSE`: Defaults to `DEV_XL` but will accept `DEV_XS` and `DEV_L` as well.
-- `SELECTION`: Defaults to a list of any changed SQL or CSV files but accepts any valid dbt selection statement.
+- `CONTIGUOUS`: Defaults to `True` but will accept `False` to run only the models that have changed.
+- `SELECTION`: Defaults to a list of any changed SQL or CSV files but accepts any valid dbt selection statement. It overrides any other model selection.
 - `DOWNSTREAM`: Defaults to `None` but will accept the `plus` and `n-plus` operators. Has no impact when overriding the `SELECTION`. See the [documentation](https://docs.getdbt.com/reference/node-selection/graph-operators) for the graph operators for details on what each will do.
 - `FAIL_FAST`: Defaults to `True` but accepts `False` to continue running even if a test fails or a model can not build.  See the [documentation](https://docs.getdbt.com/reference/global-configs/failing-fast) for additional details.
 - `EXCLUDE`: Defaults to `None` but will accept any dbt node selection. See the [documentation](https://docs.getdbt.com/reference/node-selection/exclude) for additional details.
