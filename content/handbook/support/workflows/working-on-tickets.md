@@ -149,10 +149,6 @@ these guidelines:
    request that you keep it**.
 1. If it's the end of your work day and the customer hasn't confirmed the region, move it to the region that they chose when they created the ticket. To do that run the `Support::Rehome::Initiate Rehome` macro.
 
-Watch for an update to this topic and a corresponding message in the SWIR
-indicating that a Zendesk macro has been created to give you sample text to use
-in your first response.
-
 ### Initiating a ticket rehome
 
 To initiate a ticket rehome, simply use the `Support::Rehome::Initiate Rehome`
