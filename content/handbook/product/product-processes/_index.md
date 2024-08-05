@@ -1119,66 +1119,36 @@ Section leaders are responsible for maintaining Direction pages that lay out the
 ##### Category Direction
 
 A category strategy is required which should outline various information about
-the category including overall strategy, what's next, and the competitive landscape. The category strategy
-should be documented in a handbook page, which allows for version control
-of the category strategy as well as the ability to embed video assets. One of the most important
-pieces of information to include in the category strategy is a tangible next step or MVC
-in order to push the category up the category maturity curve.
+the category including overall strategy, status, what's next, and the competitive landscape. 
+The category strategy should be documented in a handbook page, which allows for version control
+of the category strategy as well as the ability to embed video assets. 
+One of the most important pieces of information to include in the category strategy is a tangible next step or MVC
+and a clear description of focus and out-of-focus/maintenance areas.
 
-When creating a category strategy, it's important to focus your time and attention on specific
-actions and future iterations. It's natural to want to spend significant effort predicting the future,
-but [iteration is one of our primary values](/handbook/values/#iteration).
-Your category strategies should contain short paragraphs with lots of references to specific issues.
-[Here](https://about.gitlab.com/direction/release/release_orchestration/) is an example.
+Your category strategies should contain short paragraphs with lots of references to specific epics and issues. 
+Referencing topics, instead of features is encouraged as it's more stable over time.
 
 We use this [category strategy template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/templates/product/category_direction_template.html.md)
 as the outline for creating the handbook pages. If additional headings are needed you are empowered
 to create and populate them in your category strategy. You must keep these categories in sync with `categories.yml` and for
 new categories.
 
-For categories that have already shipped, and that have a marketing
-product page, `categories.yml` should link to the product page, and the product
-page should then have a link to the category strategy (you can see an example for
-GitLab Pages with a Strategy button [here](https://about.gitlab.com/stages-devops-lifecycle/pages/)). You should also link
-to your category strategy from your stage strategy page.
-
 Category direction should be reviewed on a regular basis (at least monthly) by the responsible product
 manager. To indicate the last time a category direction page was reviewed, please ensure pages
 include `Content Last Reviewed: yyyy-mm-dd` at the top of the category content. Update this date with every
 review, even if other content on the direction page has not changed.
 
+You should link to your category strategy from your stage strategy page.
+For categories that have already shipped, and that have a marketing
+product page, `categories.yml` should link to the product page.
+
 Inside of the `categories.yml` file there are dates assigned for either achieved or anticipated maturity achievement. These should be kept inline with communicated dates for achievement and updated as required.
 
 #### Maturity Plans
 
-For each category, we track the improvements required to advance to the next
-level of maturity. These issues are indicated with an epic, and
-the planned feature set should be clearly visible from the corresponding
-category strategy page. e.g.:
+For each category, we recommend tracking the improvements required to advance to the next level of [maturity](https://internal.gitlab.com/handbook/product/investment/maturity/). You are welcome to track maturity plans either with `~maturity::...` labels or maturity issues.
 
-- Stage strategy (page)
-  - Category strategy (page)
-    - Category epic (epic)
-      - Minimal maturity (epic)
-        - Cool Feature/Capability A (epic)
-        - Issue
-        - Issue
-        - Issue
-        - Cool Feature/Capability B
-        - Cool Feature/Capability C
-      - Viable maturity (epic)
-      - ...
-
-The category epic should include:
-
-- A link to the category strategy page, to bridge from issues to the category strategy pages, and to keep the strategy DRY
-- Sub-epics related to the category, to make navigation and discoverability easier for our users by leveraging the epic hierarchy
-- A link to a search query which can be used to find all issues with the category label
-
-Maturity plans adhering to the [maturity framework](https://about.gitlab.com/direction/#maturity) are
-highly encouraged - but not required - for non-marketing categories.
-
-For specifics of how the category strategy page should look, see the [category strategy template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/templates/product/category_strategy_template.html.md).
+Maturity plans are highly encouraged - but not required - for non-marketing categories.
 
 #### Planning and OKRs
 
