@@ -165,7 +165,7 @@ If at any point you would like advice or help finding additional support, [conta
 
 In rare cases, the on-call engineer may experience concurrent emergencies triggered by separate customers. If this happens to you, please remember that you are not alone; you need only take the first step in the following process to ensure proper engagement and resolution of each emergency:
 
-1. **You**: [Contact the on-call Support Manager](/handbook/support/on-call/#paging-the-on-call-manager) to inform them of the new incoming emergency. The Support Manager is responsible for finding an engineer to own the new emergency page.
+1. **You**: [Contact the on-call Support Manager](/handbook/support/on-call/#engaging-the-on-call-manager) to inform them of the new incoming emergency. The Support Manager is responsible for finding an engineer to own the new emergency page.
 1. **Support Manager**: In Slack, ping the regional support group (*e.g.* `@support-team-americas`) and request assistance from anyone who is available to assist with the new incoming emergency case.
 1. **Second Support Engineer**: Acknowledge and resolve the emergency page to indicate that you are assisting the customer with the case.
 
@@ -208,7 +208,7 @@ If this situation arises during the week:
 If this situation arises during the weekend:
 
 - Handle the page as a `high` priority ticket that requires an immediate response. Work with the customer to try to resolve or mitigate the issue before it becomes an emergency.
-- If you are actively engaged with another emergency, [contact the on-call Support Manager](/handbook/support/on-call/#paging-the-on-call-manager) to request assistance. They will assist the customer or work to find another Support Engineer to handle the ticket as a `high` priority that requires an immediate response.
+- If you are actively engaged with another emergency, [contact the on-call Support Manager](/handbook/support/on-call/#engaging-the-on-call-manager) to request assistance. They will assist the customer or work to find another Support Engineer to handle the ticket as a `high` priority that requires an immediate response.
 
 See more examples of [situations that might be emergencies](/handbook/support/workflows/emergency_exception_workflow#examples-of-situations-that-might-or-might-not-qualify-for-an-exception) and [situations that are not emergencies](/handbook/support/workflows/emergency_exception_workflow#situations-that-are-not-emergencies).
 
@@ -310,7 +310,7 @@ Remember to say only things that help the customer and that maintain their confi
 
 If you encounter a SaaS emergency at the weekend that you are unable to progress, then consider checking if the [CMOC engineer on call](https://gitlab.pagerduty.com/escalation_policies#PNH1Z1L) is available to offer any help or guidance.
 
-If you are still stuck *and* are having difficulty finding help, contact the [manager on-call](/handbook/support/on-call/#paging-the-on-call-manager).
+If you are still stuck *and* are having difficulty finding help, contact the [manager on-call](/handbook/support/on-call/#engaging-the-on-call-manager).
 
 ### Triggering a Developer Escalation
 
@@ -428,7 +428,7 @@ If a customer is reporting that behaviour has recently changed, first check [Git
 
 #### Broken functionality due to something specific to the customer
 
-1. [Page the Support Manager on-call](/handbook/support/on-call/#paging-the-on-call-manager) to review the best way to unblock the customer. It may be that you will need someone with .com console access to fully investigate / resolve.
+1. [Page the Support Manager on-call](/handbook/support/on-call/#engaging-the-on-call-manager) to review the best way to unblock the customer. It may be that you will need someone with .com console access to fully investigate / resolve.
 
 #### Broken functionality due to an incident
 
