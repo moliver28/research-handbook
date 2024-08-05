@@ -244,14 +244,14 @@ via PagerDuty [Scalability Escalation](https://gitlab.pagerduty.com/escalation_p
 
 ### How to engage the EOC, IM or CMOC?
 
-If during an incident, the EOC, Incident Manager or CMOC need to be engaged, page the person on-call using one of the following. This triggers a PagerDuty incident and page the appropriate person based on the **Impacted Service** that you select.
+If during an incident, the EOC, Incident Manager or, CMOC need to be engaged, page the person on-call using one of the following. This triggers a PagerDuty incident and page the appropriate person based on the **Impacted Service** that you select.
 
 - Use the `/pd trigger` command in Slack, select the **Impacted Service** based on the role below,
 or
 - Directly from PagerDuty, navigate to [Incidents page in PagerDuty](https://gitlab.pagerduty.com/incidents), create a new incident and select the **Impacted Service** based on the role below.
 
-| Role | Impacted Service | 
-| ----- | ----- | 
+| Role | Impacted Service |
+| ----- | ----- |
 | EOC | GitLab Production |
 | IM | Incident Manager Oncall |
 | CMOC | Incident Management - CMOC |
