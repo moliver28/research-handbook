@@ -66,7 +66,7 @@ Edits made during a zoom call only last for the length of the call, so it should
 
 | **Role** | **Description** | **Who?** |
 | ---- | ----------- | ---- |
-| `EOC` - **Engineer On Call** | The EOC is usually the first person alerted - expectations for the role are in the [Handbook for oncall](/handbook/engineering/on-call/#expectations-for-on-call). The checklist for the EOC is in our [runbooks](https://gitlab.com/gitlab-com/runbooks/blob/master/on-call/checklists/eoc.md). If another party has declared an incident, once the EOC is engaged the EOC owns the incident. The EOC can escalate a page in PagerDuty to engage the Incident Manager and CMOC. | The Reliability Team **Engineer On Call** is generally an SRE and can declare an incident. They are part of the "SRE 8 Hour" on call shift in PagerDuty. |
+| `EOC` - **Engineer On Call** | The EOC is usually the first person alerted - expectations for the role are in the [Handbook for oncall](/handbook/engineering/on-call/#expectations-for-on-call). The checklist for the EOC is in our [runbooks](https://gitlab.com/gitlab-com/runbooks/blob/master/on-call/checklists/eoc.md). If another party has declared an incident, once the EOC is engaged the EOC owns the incident. The EOC can escalate by [engaging the Incident Manager and CMOC](#how-to-engage-the-eoc-im-or-cmoc). | The Reliability Team **Engineer On Call** is generally an SRE and can declare an incident. They are part of the "SRE 8 Hour" on call shift in PagerDuty. |
 | `DRI` - **Directly Responsible Individual** | The DRI is the owner of the incident and is responsible for the coordination of the incident response and will drive the incident to resolution. The DRI should always be the person assigned to the issue. | By default, the `IM` is the DRI for Sev1 and Sev2 externally facing incidents, the EOC is the DRI for all other incidents. The DRI can and should transfer ownership in cases where it makes sense to do so. |
 | `IM` - **Incident Manager** [Information about IM onboarding](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/) | The Incident Manager is engaged when incident resolution requires coordination from multiple parties. The Incident Manager is the tactical leader of the incident response team—not a person performing technical work. The IM checklist is in our [runbooks](https://gitlab.com/gitlab-com/runbooks/-/blob/master/incidents/general_incidents.md#imoc-checklist). The Incident Manager assembles the incident team by engaging individuals with the skills and information required to resolve the incident. | The Incident Manager On Call rotation is in [PagerDuty](https://gitlab.pagerduty.com/schedules#?query=incident%20manager) |
 | `IM Coordinator` - **Incident Manager Coordinator** | The IM Coordinator is responsible for helping to coordinate IM coverage, on-boarding and off-boarding. | A single person dedicated to the role in the Infrastructure department |
@@ -92,7 +92,7 @@ For Sev3 and Sev4 incidents, the EOC is also responsible for [Incident Manager R
 1. If sources outside of our alerting are reporting a problem, and you have not received any alerts, it is still your responsibility to investigate. [Declare a low severity incident](#reporting-an-incident) and investigate from there.
     1. Low severity ([S3/S4](/handbook/engineering/infrastructure/production/#severity)) incidents (and issues) are cheap, and will allow others a means to communicate their experience if they are also experiencing the issue.
     1. **"No alerts" is not the same as "no problem"**
-1. GitLab.com is a complex system. It is ok to not fully understand the underlying issue or its causes. However, if this is the case, as EOC you should page the Incident Manager to find a team member with the appropriate expertise.
+1. GitLab.com is a complex system. It is ok to not fully understand the underlying issue or its causes. However, if this is the case, as EOC you should [page the Incident Manager](#how-to-engage-the-eoc-im-or-cmoc) to find a team member with the appropriate expertise.
     1. Requesting assistance does not mean relinquishing EOC responsibility. The EOC is still responsible for the incident.
     1. The [GitLab Organizational Chart](https://comp-calculator.gitlab.net/org_chart) and the [GitLab Team Page](/handbook/company/team/), which lists areas of expertise for team members, are important tools for finding the right people.
 1. As soon as an [S1/S2](/handbook/engineering/infrastructure/production/#severity) [incident is declared](#report-an-incident-via-slack), join the `The Situation Room Permanent Zoom`. The Zoom link is in the `#incident-management` topic.
@@ -115,7 +115,7 @@ When paged, the Incident Managers have the following responsibilities during a S
 
 1. **In the event of an incident which has been triaged and confirmed as a clear Severity 1 impact:**
     1. Notify Infrastructure Leadership via PagerDuty, by typing `/pd trigger` in Slack. In the "Create New Incident" dialog, select "Infrastructure Leadership" as the Impacted Service with a link to the incident in the Description as well as a reminder that Infrastructure Leadership should follow the [process for Infrastructure Leadership Escalation](/handbook/engineering/infrastructure/incident-management/#infrastructure-leadership-escalation). This notification should happen 24/7.
-    2. In the case of a large scale outage where there is a serious disruption of service, the Incident Manager should check in with Infrastructure Leadership whether a senior member of the Reliability team should be brought into the incident to coordinate and manage recovery efforts. This is to ensure that the person in charge of coordinating multiple parallel recovery efforts has a deeper understanding of what is required to bring services back online.  You can page the Infra/SRE managers by using `/pd trigger` and picking the "Infrastructure Leadership" Service.  You can also add responders to an existing PagerDuty alert via adding the `Infra-SRE Managers Escalation` contact.
+    2. In the case of a large scale outage where there is a serious disruption of service, the Incident Manager should check in with Infrastructure Leadership whether a senior member of the Reliability team should be brought into the incident to coordinate and manage recovery efforts. This is to ensure that the person in charge of coordinating multiple parallel recovery efforts has a deeper understanding of what is required to bring services back online. You can page the Infra/SRE managers by using `/pd trigger` and picking the "Infrastructure Leadership" Service. You can also add responders to an existing PagerDuty alert via adding the `Infra-SRE Managers Escalation` contact.
 1. Consider engaging the release-management team if a code change related issue is identified as a potential cause and we need to explore rollbacks or expedited deployment. This can be done by using their slack handle `release-managers`
 1. Responsible for posting regular status updates in the `Current Status` section of the incident issue description. These updates should summarize the current customer impact of the incident and actions we are taking to mitigate the incident. This is the most important section of the incident issue, it will be referenced to status page updates, and should provide a summary of the incident and impact that can be understood by the wider community.
 1. Ensure that the incident issue has all of the [required labels](#required-labeling) applied.
@@ -135,7 +135,7 @@ When paged, the Incident Managers have the following responsibilities during a S
 The Incident Manager is the DRI for all of the items listed above, but it is expected that the IM will do it with the support of the EOC or others who are involved with the incident. If an incident runs beyond a scheduled shift, the Incident Manager is responsible for handing over to the incoming IM.
 
 The IM won't be engaged on these tasks unless they are paged, which is why the default is to page them for all Sev1 and Sev2 incidents.
-In other situations, to engage the Incident Manager run `/pd trigger` and choose the `Incident Manager Oncall` as the impacted service.
+In other situations, [page the Incident Manager](#how-to-engage-the-eoc-im-or-cmoc) to engage them.
 
 ### Incident Manager Coordinator
 
@@ -181,7 +181,7 @@ If any of the following are true, it would be best to engage an Incident Manager
 1. Any unauthorized access to a GitLab.com production system
 1. Two or more S3 or higher incidents to help delegate to other SREs.
 
-To engage with the Incident Manager run `/pd trigger` and choose the `Incident Manager Oncall` as the impacted service. **Please note** that when an incident is upgraded in severity (for example from S3 to S1), PagerDuty does not automatically page the Incident Manager or Communications Manager and this action must be taken manually.
+**Please note** that when an incident is upgraded in severity (for example from S3 to S1), PagerDuty does not automatically page the Incident Manager or Communications Manager and [they must be paged manually](#how-to-engage-the-eoc-im-or-cmoc).
 
 ### What happens when there are simultaneous incidents?
 
@@ -242,13 +242,13 @@ During a verified Severity 1 Incident the IM will page for Infrastructure Leader
 Further support is available from the Scalability and Delivery Groups if required. Scalability leadership can be reached
 via PagerDuty [Scalability Escalation](https://gitlab.pagerduty.com/escalation_policies#PDJ160O) (further [details available on their team page](/handbook/engineering/infrastructure/team/scalability/index.html#emergency-escalation-during-s1s2-incidents)). Delivery leadership can be reached via PagerDuty. See the [Release Management Escalation](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation) steps on the Delivery group page.
 
-### How to engage the EOC, IM and CMOC?
+### How to engage the EOC, IM or CMOC?
 
-If during an incident, the EOC, Incident Manager or CMOC need to be engaged, page the on-call person using either of the following steps. This triggers a PagerDuty incident and page the appropriate person based on the **Impacted Service** that you choose. 
+If during an incident, the EOC, Incident Manager or CMOC need to be engaged, page the person on-call using one of the following. This triggers a PagerDuty incident and page the appropriate person based on the **Impacted Service** that you select.
 
-- Using the `/pd trigger` command in Slack, then select the **Impacted Service** based on the role table below.
+- Use the `/pd trigger` command in Slack, select the **Impacted Service** based on the role below,
 or
-- Directly from PagerDuty by navigating to [Incidents page in PagerDuty](https://gitlab.pagerduty.com/incidents), create a new incident and select the **Impacted Service** based on the role table below.
+- Directly from PagerDuty, navigate to [Incidents page in PagerDuty](https://gitlab.pagerduty.com/incidents), create a new incident and select the **Impacted Service** based on the role below.
 
 | Role | Impacted Service | 
 | ----- | ----- | 
