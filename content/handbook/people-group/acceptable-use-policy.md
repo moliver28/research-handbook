@@ -127,9 +127,9 @@ The use of removable and external storage devices such as USB flash drives and e
 
 As a reminder, Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams. Please refer to GitLab's [Data Classification Standard](/handbook/security/data-classification-standard/) for further details.
 
-### Use of file sharing services other than Google Drive
+### Use of file sharing services other than GitLab's Google Drive
 
-Creating an account with, or using, a file sharing service other than Google Drive for sharing GitLab-related files with other team members or those external to GitLab is not permitted unless an exception has been granted. To obtain an exception create an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) outlining the business case, and do not proceed until the exception has been granted.
+Creating an account or using for backup/redundancy purpose a file sharing service other than GitLab's Google Drive is prohibited. For sharing GitLab-related files with those external to GitLab, an exception must be granted. To obtain an exception create an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) outlining the business case, and do not proceed until the exception has been granted.
 
 When creating an account with and using a file sharing service other that Google Drive, Team Members must:
 
