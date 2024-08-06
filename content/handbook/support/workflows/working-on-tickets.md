@@ -131,6 +131,8 @@ macro. This macro will:
 1. Remove ticket assignment
 1. Apply the `rehome_initiated` tag
 
+If the ticket is waiting on a customer reply put the ticket into "Pending", if the ticket is waiting on a reply from a support engineer put the ticket into "Open".
+
 ### Receiving a ticket rehome
 
 When you take an unassigned ticket from the global view and you see an internal
@@ -178,7 +180,7 @@ region, you should follow these steps:
 </details>
 
 <details>
-  <summary markdown="span> Working tickets handed over from another region</summary>
+  <summary markdown="span">Working tickets handed over from another region</summary>
 
 1. Update the `Handover Status` text field to reflect the receiving region. For
    example, if you are in the EMEA region, set it to `Handed over to EMEA` to
