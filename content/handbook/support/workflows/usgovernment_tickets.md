@@ -65,20 +65,7 @@ The use of an acronym to discuss an organization is **not permitted** in either 
 
 ## Ticket assignment via round-robin
 
-Tickets are assigned as they come in based on [a round-robin tool built by Support Ops](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/ticket-round-robin). This tool creates a list of available support engineers by taking the total US Government dedicated support engineer list and then removing from that list anyone who has their [gitlab.com status](https://docs.gitlab.com/ee/user/profile/#set-your-current-status) set to one of the below options:
-
-**For out of office:** `OOO`, `PTO`, `Parental Leave`, `Family and Friends`
-
-**For in office, but occupied:** `Training`, `Overburdened`, `Project Deliverable`, `IT Problems`
-
-**Emoji also work** palm_tree, beach, beach_umbrella, beach_with_umbrella, ferris_wheel, thermometer, face_with_thermometer, red_circle, bulb, sun_with_face
-
-### Setting gitlab.com status to avoid ticket assignment when needed
-
-When you are out of the "office" or otherwise unable to handle more tickets, it is important to set your gitlab.com status to one of the above options. Please use the "Clear status after" option to ensure your status does not accidently remain in an unavailable state.
-
-- You can set your status manually from the user interface: <https://docs.gitlab.com/ee/user/profile/#set-your-current-status>.
-- Or you can set it through a script using the API: <https://docs.gitlab.com/ee/api/users.html#set-user-status>.
+During core business hours tickets are assigned as they are created based on a round-robin tool built by Support Ops. This tool creates a list of available support engineers on shift, omitting those who are on PTO per the time off calendar. It then checks each engineer's overall case weighting and assigns the new case to the engineer with the lowest overall weighting.
 
 ### Consolidating assignment for org tickets at the same time
 
