@@ -174,8 +174,20 @@ Before your shift ends, consider what tasks need to be handed over and make sure
 This may mean [engaging the next On-call Support Engineer](#engaging-the-next-on-call-support-engineer) and bringing them into an active troubleshooting call, or it may mean providing instructions or context for situations
 you have handled that have some follow-up action. For example:
 
-- if you're in an active call with a customer and it's time to end your day, page the incoming on-call and make sure they're prepared to provide continuity by giving them an overview of what's been done before and what's next
-  - once you anticipate an active call to spill over into the next shift, try reaching out to the incoming on-call on Slack to make them aware of the upcoming need for a handover – they might not be around already, but it's worth trying and can make it easier for you to end your shift on time
+- If you're in an active call with a customer and it's time to end your day, page the incoming on-call and make sure they're prepared to provide continuity by giving them an overview of what's been done before and what's next
+  - Once you anticipate an active call to spill over into the next shift, try reaching out to the incoming on-call on Slack to make them aware of the upcoming need for a handover – they might not be around already, but it's worth trying and can make it easier for you to end your shift on time
+  - If an emergency has been extended over a long period, consider stopping the call for 30 min to discuss and handover to incoming on-call engineer, and on-call manager.
+  Taking this 30 min handover brake can be very beneficial for the incoming team and the customer as clarity can come from discussing ideas in a low pressure environment.
+   - Advise the customer that the call will be paused, and agree on a time to reconvene. 
+   - During the 30 min brake discuss with the incoming team
+      - What is the problem the customer is facing?
+      - What activities have been performed?
+      - What is the current theory of the source of the issue?
+      - What alternative options have not been considered?
+      - Does this emergency require an escalation?
+      - What are the next steps?
+      - What assumptions have been made, and what has not been considered.
+
 - if a SaaS customer paged in looking for log analysis and we're waiting on the SIRT team, let the incoming on-call know and consider having them send a message in the ticket informing the customer of the handover
 - if a customer is still in a heightened state and is monitoring after an outage and *may* page the on-call engineer, let the incoming on-call know
 - if a SaaS incident ended and we're monitoring the queues for new customer reports, provide the incoming on-call engineer with a list of actions they should take
