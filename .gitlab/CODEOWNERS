@@ -108,22 +108,22 @@
 ^[engineering]
 /content/handbook/engineering/ @sabrinafarmer
 /content/handbook/engineering/cross-functional-prioritization.md @sabrinafarmer @david
-/content/handbook/engineering/developer-onboarding.md @sabrinafarmer @timzallmann @bmarnane
+/content/handbook/engineering/developer-onboarding.md @jeromezng @timzallmann
 /content/handbook/engineering/open-source/ @rymai @meks @nick_vh
 /content/handbook/engineering/on-call.md @jfuentes2 @meks @jscarborough
 /content/handbook/engineering/performance.md @timzallmann
 /content/job-families/engineering/ @sabrinafarmer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
-/content/job-families/engineering/incubation/ @bmarnane @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/engineering/incubation/ @jeromezng @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
 ^[Eng-Architecture]
 /content/handbook/engineering/architecture/ @ayufan @grzesiek @glopezfernandez @andrewn @mappelman @DylanGriffith @theoretick @shekharpatnaik @stanhu @fabiopitino @tkuah @ntepluhina @jessieay @vitallium
 
 ^[Eng-Development-department]
 /content/handbook/engineering/core-development.md @timzallmann @sgoldstein @m_gill @dsatcher
-/content/handbook/engineering/development/ @timzallmann @bmarnane @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
+/content/handbook/engineering/development/ @timzallmann @jeromezng @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
 /content/handbook/engineering/development/analytics/product-analytics.md @timzallmann @dennis @rob.hunt @mwoolf
 /content/handbook/engineering/development/analytics/analytics-instrumentation/ @bastirehm @timzallmann
-/content/handbook/engineering/development/data-science/ @timzallmann @bmarnane @dsatcher @m_gill
+/content/handbook/engineering/development/data-science/ @timzallmann @jeromezng @dsatcher @m_gill
 /content/handbook/engineering/development/data-science/ai-powered/ai-framework @oregand @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
 /content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
@@ -173,9 +173,9 @@
 /content/handbook/engineering/development/sec/secure/composition-analysis.md @thiagocsf @gonzoyumo @fcatteau
 /content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson
 /content/handbook/engineering/development/sec/secure/static-analysis/ @tkopel @rvider
-/content/handbook/engineering/expansion-development.md @bmarnane @jeromezng @pcalder
+/content/handbook/engineering/expansion-development.md @jeromezng @pcalder
 /content/handbook/engineering/frontend/ @timzallmann
-/content/handbook/engineering/workflow/ @timzallmann @bmarnane @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
+/content/handbook/engineering/workflow/ @timzallmann @jeromezng @cdu1 @sgoldstein @dsatcher @m_gill @pcalder
 
 # CODEOWNER approvals are required for Code Review to support dogfooding approvals
 [Eng-CodeReview]
@@ -234,23 +234,22 @@
 /content/handbook/engineering/quality/engineering-analytics.md @meks @lmai1
 
 ^[Eng-Incubation-department]
-/content/handbook/engineering/development/incubation/ @bmarnane
-/content/handbook/engineering/development/incubation/ai-assist.md @bmarnane
-/content/handbook/engineering/development/incubation/airflow.md @bmarnane
-/content/handbook/engineering/development/incubation/breach-and-attack-simulation.md @bmarnane @erran
-/content/handbook/engineering/development/incubation/cloud-seed.md @bmarnane @sri19
-/content/handbook/engineering/development/incubation/jamstack/ @bmarnane
-/content/handbook/engineering/development/incubation/mlops/ @bmarnane @eduardobonet
-/content/handbook/engineering/development/incubation/mobile-devops/ @bmarnane @darbyfrey
-/content/handbook/engineering/development/incubation/no-code.md @bmarnane
-/content/handbook/engineering/development/incubation/okr.md @bmarnane @akotte
-/content/handbook/engineering/development/incubation/real-time-collaboration/ @bmarnane
-/content/handbook/engineering/development/incubation/server-runtime/ @bmarnane
-/content/handbook/engineering/development/incubation/service-desk.md @bmarnane @msaleiko
+/content/handbook/engineering/development/incubation/ @jeromezng
+/content/handbook/engineering/development/incubation/ai-assist.md @jeromezng
+/content/handbook/engineering/development/incubation/airflow.md @jeromezng
+/content/handbook/engineering/development/incubation/breach-and-attack-simulation.md @jeromezng @erran
+/content/handbook/engineering/development/incubation/cloud-seed.md @jeromezng @sri19
+/content/handbook/engineering/development/incubation/jamstack/ @jeromezng
+/content/handbook/engineering/development/incubation/mlops/ @jeromezng @eduardobonet
+/content/handbook/engineering/development/incubation/mobile-devops/ @jeromezng @darbyfrey
+/content/handbook/engineering/development/incubation/no-code.md @jeromezng
+/content/handbook/engineering/development/incubation/okr.md @jeromezng @akotte
+/content/handbook/engineering/development/incubation/real-time-collaboration/ @jeromezng
+/content/handbook/engineering/development/incubation/server-runtime/ @jeromezng
+/content/handbook/engineering/development/incubation/service-desk.md @jeromezng @msaleiko
 
 ^[Engineering-READMEs]
 /content/handbook/engineering/readmes/andras-horvath.md @andrashorvath
-/content/handbook/engineering/readmes/bartek-marnane.md @bmarnane
 /content/handbook/engineering/readmes/ben-king.md @benjaminking
 /content/handbook/engineering/readmes/craig-miskell.md @cmiskell
 /content/handbook/engineering/readmes/emily-chang.md @emchang
