@@ -3,13 +3,12 @@ aliases: /handbook/legal/esg/Team-Member-Sustainability-Guide
 title: "Team Member Sustainability Guide"
 description: "GitLab's Team Member Sustainability Guide for Remote Work"
 ---
-Please contribute your ideas to this guide [here.](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/2072)
 
 ## Introduction
 
-Welcome to the first iteration of GitLab's Team Member Sustainability Guide. As a fully remote workforce without daily commutes or physical offices, we don't have the typical environmental footprint that many other companies have, but that doesn't mean we don't have an environmental impact.
+The GitLab Team Member Sustainability Guide provides guidance for team members to reduce their impact on the global environment. As a fully remote workforce without daily commutes or physical offices, GitLab doesn't have the typical environmental footprint that many other companies have. That doesn't mean we don't have an environmental impact, and this guide helps team members identify ways that they can reduce carbon emissions.
 
-[Climate Action and Greenhouse (GHG) Emissions](/handbook/legal/esg/#esg-materiality-matrix) are key focus areas identified in GitLab's ESG Materiality Assessment. Through our [annual GHG inventory](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions), we measure four emissions sources from our business; purchased goods and services (our suppliers), cloud services, business travel, and **emissions associated with remote work**.
+[Climate Action and Greenhouse Gas (GHG) Emissions](/handbook/legal/esg/#esg-materiality-matrix) are key focus areas identified in GitLab's ESG Materiality Assessment. Through our [annual GHG inventory](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions), we measure four emissions sources from our business; purchased goods and services (our suppliers), cloud services, business travel, and **emissions associated with remote work**.
 
 Working remotely comes with its own sustainability challenges and opportunities. For example, our laptops, monitors and lamps use energy that generates carbon emissions. The meals we eat during our work day generate waste that may end up in a landfill. The purpose of this guide is to provide actionable steps for team members to take at home to reduce individual environmental impact.
 
@@ -20,7 +19,7 @@ We are a global team, and we know there are sustainability initiatives and offer
 ## Electronics
 
 1. Unplug devices at the end of the day. You can save anywhere between $100 and $200 each year by unplugging devices not in use.<sup>1</sup>
-2. Use sleep mode instead of a screensaver. Screensavers may actually use more energy than not using one.<sup>2</sup>
+2. Use sleep mode instead of a screensaver. Screensavers might actually use more energy than not using one.<sup>2</sup>
 3. Repair devices instead of replacing. [ifixit](https://www.ifixit.com/) provides manuals for how to fix a variety of electronic and other household items. For GitLab laptop repairs, follow the [steps listed in the handbook](/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-repair).
 
 ## Lighting
@@ -32,16 +31,16 @@ We are a global team, and we know there are sustainability initiatives and offer
 
 1. Conduct an energy audit - hire a professional or [DIY](https://www.energy.gov/energysaver/do-it-yourself-home-energy-assessments). Energy audits are helpful for better understanding where your home is losing energy and where you should prioritize upgrades/fixes. In the U.S., take advantage of the new [Home Energy Audit Tax Credit](https://www.energystar.gov/about/federal-tax-credits/home-energy-audit), introduced as part of the Inflation Reduction Act. Check out the [full list](https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit) of energy efficiency home improvements that qualify for a tax credit in the U.S. If you aren't based in the U.S., check to see if your municipality offers financial incentives/support related to energy efficiency improvements in your home.
 2. Replace traditional heating systems, such as furnaces, boilers and baseboards with a heat pump. [Heat pumps](https://www.energy.gov/energysaver/heat-pump-systems) are 2-3x more efficient than traditional heating systems.<sup>4</sup>
-3. Turn your thermostat down. You can save as much as 10% a year on heating and cooling by simply turning your thermostat back 7°-10°F for 8 hours a day from its normal setting. <sup>5</sup>
+3. Turn your thermostat down. You can save as much as 10% a year on heating and cooling by simply turning your thermostat back 7°-10°F for 8 hours a day from its normal setting.<sup>5</sup>
 4. Insulate your home. A leaky home is expensive! You can cut your utility bills by $500 - $1,000 just by sealing leaky windows and doors.<sup>6</sup> One easy way to do this is to use weather strips to seal windows and doors to prevent energy leakage. Check out [this guide](https://energysavingtrust.org.uk/energy-at-home/reducing-home-heat-loss/) from Energy Savings Trust for more information on other ways to insulate your home.
-5. Switch to a [tankless water heater](https://carbonswitch.com/tankless-water-heater-buyers-guide/). These are more energy efficient than conventional storage tank water heaters. <sup>7</sup>
+5. Switch to a [tankless water heater](https://carbonswitch.com/tankless-water-heater-buyers-guide/). These are more energy efficient than conventional storage tank water heaters.<sup>7</sup>
 
 ## Waste
 
 1. Reuse. Before throwing something away, consider if you can reuse it at least one more time.
 2. Reduce single use plastics. For example, opt for a reusable water bottle instead of a plastic water bottle. Bring a reusable bag to the grocery store. Swap out plastic food storage bags for reusable ones, like [these](https://www.stasherbag.com/).
-3. Reduce food waste. When food waste ends up in landfills and rots, it generates methane, a greenhouse gas 28x more potent than carbon dioxide. <sup>8</sup>
-4. Compost your food waste instead of throwing it away. Use a countertop compost bin to make it easy to collect food scraps. Take advantage of curbside composting programs if your municipality offers one. If not, research options for compost pick up in your area (this will likely include a fee) or check to see if there's a local composting facility where you can drop off your food scraps. Alternatively, set up your own [composting system at home](https://www.epa.gov/recycle/composting-home).
+3. Reduce food waste. When food waste ends up in landfills and rots, it generates methane, a greenhouse gas 28x more potent than carbon dioxide.<sup>8</sup>
+4. Compost your food waste instead of throwing it away. Use a countertop compost bin to make it easy to collect food scraps. Take advantage of curbside composting programs if your municipality offers one. If not, research options for compost pick up in your area (this will likely include a fee) or check to see if there's a local composting facility where you can drop off your food scraps. Alternatively, set up your own [composting system at home](https://www.epa.gov/recycle/composting-home). If you don't have access to space for traditional composting, explore alternatives like vermiculture.
 5. Recycle. Recycling reduces the amount of waste sent to landfills and reduces greenhouse gas emissions generated by landfill. Before throwing something away, check to see if it's recyclable. Take advantage of curbside recycling programs if your municipality offers one. If not, research options for recycling curbside pick up in your area or check to see if there's a local recycling facility where you can drop off your recyclable materials.
 
 ## Water
@@ -52,6 +51,11 @@ We are a global team, and we know there are sustainability initiatives and offer
 ## Food
 
 1. Reduce your meat and dairy consumption. Animal-based foods have a much higher carbon footprint than planted-based foods. For example, producing a kilogram of beef produces 60 kilograms of greenhouse gasses. In contrast, peas emit just 1 kilogram per kg.<sup>9</sup> Check out [this visualization](https://ourworldindata.org/food-choice-vs-eating-local) that shows GHG emissions from 29 food products — from beef at the top to nuts at the bottom.
+
+## Transportation
+
+1. Use public transit instead of driving or using ride hailing services like Uber or Lyft. If you're part of the GitLab, Inc. entity, check out [Commuter Benefits](../../../total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#commuter-benefits) to learn how to use pre-tax dollars for transit passes.
+2. For inter-city trips, use train or bus transportation instead of flying in order to reduce carbon emissions.<sup>10</sup>
 
 ## Renewable Energy
 
@@ -86,3 +90,4 @@ We are a global team, and we know there are sustainability initiatives and offer
 7. https://www.energy.gov/energysaver/tankless-or-demand-type-water-heaters
 8. https://www.epa.gov/gmi/importance-methane
 9. https://ourworldindata.org/food-choice-vs-eating-local
+10. https://ourworldindata.org/travel-carbon-footprint
