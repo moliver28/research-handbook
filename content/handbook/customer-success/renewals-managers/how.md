@@ -87,10 +87,10 @@ To build and maintain an efficient, fair, and high impact renewals organization,
   - First order business is handled by Account Executives
   - Customer add-ons are identified by Renewals Managers, and primarily managed by Account Executives (exceptions made for timing risk to customers environment; risk to experience)
   - Connected-new opportunities are handled by Account Executive
-- **Renewal opporutnities**
+- **Renewal opportunities**
   - Customer true-ups are handled by Renewal Manager
   - Renewals Managers do not waive true-ups
-- **Channel opporuntities**
+- **Channel opportunities**
   - We respect the incumbency of partners unless a lack of action by the partner puts a customers environment at risk
 - **Opportunity Coverage**
   - Renewals managers primary focus is managing renewal opportunitie `ARR basis` ; coverage for new business and add-on's `growth NetARR` should default to the account executives team
