@@ -461,6 +461,31 @@ Application limits should be enabled by default. If we are considering enabling 
 - **Communicate the limits in the release post** - When the limit is rolled out, make sure to document this change in the next release post.
 - **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests/#contact-request).
 
+### Introducing new data stores
+
+When  considering introducing a new data store, there are quite a few considerations to think through. In general these should be thought through prior to beginning to build features which require it, unless the effort to switch later is very low.
+
+- Is there a SaaS service which can meet our requirements?
+  - Available in the current and upcoming regions offered by our SaaS services ([Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#available-aws-regions),  GitLab.com)
+  - Is it FedRAMP Moderate authorized?
+  - What is the margin impact?
+  - Does it meet our [compliance](https://about.gitlab.com/security/) and privacy requirements?
+  - Does it meet our security and availability SLAs?
+- Is it something that we can run ourselves?
+  - What is the effort to deploy and maintain multiple deployments across our SaaS environments?
+  - Who would be responsible for operating these environments and responding to incidents?
+  - How would we backup, restore, and failover this data store?
+  - Could we operate this within a FedRAMP Moderate environment? Is it FIPS compliant?
+- Is it something our customers can run?
+  - Would we package this in our own Linux packages, Helm chart, or Operators? Who would own contributing and maintaining these components?
+  - Is there a widely available SaaS service that most of our customers could use?
+  - Is Cloud Connector a viable approach given the data stored?
+  - Is there sufficient operational documentation and runbooks such that our customers can successfully manage this if they needed to, perhaps for air-gapped customers?
+  - Is there sufficient training and knowledge for our Support teams to address questions and incidents?
+  - What is the high availability and disaster recovery recommendations?
+  - What size of data store should be included in each of our reference architectures?
+- Should this data store be required for all installations?
+
 ### Cross-stage features
 
 See [this page](/handbook/product/cross-stage-features/) for details on working across stages at GitLab.
