@@ -13,7 +13,7 @@ As a Product Organization, we work to create a flexible yet concise product deve
 
 ### Product Development Flow
 
-Introducing changes requires a number of steps, with some overlap, that should be completed in order. GitLab follows a dual-track [product development flow](/handbook/product-development-flow/) spanning product, engineering, UX, and quality. We [use GitLab to power product development flow](/handbook/product/product-processes/planning-with-gitlab). 
+Introducing changes requires a number of steps, with some overlap, that should be completed in order. GitLab follows a dual-track [product development flow](/handbook/product-development-flow/) spanning product, engineering, UX, and quality. We [use GitLab to power product development flow](/handbook/product/product-processes/planning-with-gitlab). When changes are released, we follow the [release post process](/handbook/marketing/blog/release-posts/#pm-contributors) to communicate externally about new capabilities.
 
 This process should be both up front and on an on-going basis when building features. 
 
@@ -175,72 +175,6 @@ Some **internal** methods for communication include:
 - Recording walkthroughs on Unfiltered and promoting on social accounts
 - Writing a blog about the changes, if they are significant or disruptive
 
-### Release posts
-
-As a PM, you are [accountable](/handbook/marketing/blog/release-posts/#general-contributions)
-for adding new features (under your umbrella) to the monthly release post, respecting the
-guidelines defined in the
-[release posts handbook](/handbook/marketing/blog/release-posts/) and its **due dates**.
-Be sure to go over all the details.
-
-Every month, a PM will take the
-[leadership](/handbook/marketing/blog/release-posts/#authorship)
-of the release post, and will be responsible for delivering it in time.
-
-### Writing release blog posts
-
-For every monthly release, there is a blog post announcing features.
-The blog post should contain everything _exciting_ or _disruptive_.
-We want to help people understand exciting features (which are often new), and increase adoption. In general, release posts should succinctly state the problem to solve, the solution, and how customers benefit from the solution.
-
-Some guidelines to help promote consistency of what is included in the blog post between different Product Managers are below.
-
-Depending on the [maturity level](https://about.gitlab.com/direction/#maturity) of your category should influence what you select for as a release post item.
-
-**Minimal**
-
-- Any new features.
-- Any significant UI additions.
-- Disruptive features that may significantly improve workflows or occasionally introduce unavoidable inconveniences.
-  - We want to anticipate questions and avoid confusion by communicating these changes through the blog post.
-- UX improvements that significantly adjust current workflow should be included.
-- New API only functionality, if many users leverage the API instead or UI.
-- Significant bug fixes.
-- Any deprecations and breaking changes.
-- Smaller tweaks, if interesting, can be included at the bottom of the post.
-
-**Viable**
-
-- Any user facing [direction](/handbook/product/product-processes/#managing-your-product-direction) delivery that is complete.
-- Disruptive features that may significantly improve workflows or occasionally introduce unavoidable inconveniences.
-- We want to anticipate questions and avoid confusion by communicating these changes through the blog post.
-- UX improvements that significantly adjust current workflow should be included.
-- New API only functionality, if many users leverage the API instead or UI.
-- Significant bug fixes.
-- Significant architecture changes that support future direction/maturity.
-- Any deprecations and breaking changes.
-
-**Complete**
-
-- Any user facing [direction](/handbook/product/product-processes/#managing-your-product-direction) related delivery that is complete.
-- UX improvements that significantly adjust current workflow should be included.
-- Significant bug fixes.
-- Any deprecations and breaking changes.
-
-**Loveable**
-
-- Any user facing [direction](/handbook/product/product-processes/#managing-your-product-direction) related delivery that is complete.
-- Significant bug fixes.
-- Any deprecations and breaking changes.
-
-It is recommended to start writing your release post items as a part of your [Kickoff preparation](/handbook/product/product-processes/#prioritization-ahead-of-kickoff).
-To reduce rework, use the headline of the release post as the issue or epic title. The description of the release post can simply be part of the description of the implementing issue.
-Writing the release post early and consistently enables you and your team to [work backwards](https://www.product-frameworks.com/Amazon-Product-Management.html) and have the following benefits:
-
-- Help improve kickoff videos by having customer-centric and result-oriented language in issues.
-- Facilitates crisply communicating goals to all team members, including those not directly involved in development.
-- Help to prevent the stressful mad-dash at the end to complete release posts.
-
 ### Writing to inspire action
 
 As a PM, it is important to remember a [bias towards action](/handbook/values/#bias-for-action) (and other value actions like [sense of urgency](/handbook/values/#sense-of-urgency), [make a proposal](/handbook/values/#make-a-proposal), [boring solutions](/handbook/values/#boring-solutions), [write things down](/handbook/values/#write-things-down), [don't wait](/handbook/values/#dont-wait), [make two way doors decisions](/handbook/values/#make-two-way-door-decisions) and [accepting uncertainty](/handbook/values/#accepting-uncertainty)
@@ -327,14 +261,6 @@ Walk-throughs are typically longer in length as they cover more ground and often
 Examples:
 
 - [Auto DevOps setup and usage walk-through](https://youtu.be/V4NX2j2HQAs)
-
-### Including epics
-
-One situation that can happen is that an epic contains many small issues that don't individually
-meet the bar for the `direction` label, and therefore inclusion in the release post. More rarely, the last
-issue of an MVC that took several releases isn't necessarily a capstone issue on its own. If you find yourself
-in a situation where you have closed an epic during a release, you should also ensure that we communicate that
-as a combined entity in a feature block, even if there is otherwise no single issue to mention.
 
 #### Quickly converting ideas into MVCs
 
