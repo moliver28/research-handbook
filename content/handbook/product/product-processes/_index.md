@@ -991,7 +991,7 @@ At times it may be necessary to transfer a [stable-counterpart](/handbook/leader
 
 As a PM, you must plan for the near term milestones (more detailed) as well as for the long
 term strategy (more broad), and everything in between. 
-You should capture you mid to long term plans on related direction pages.
+While monthly milestone planning is done in GitLab, longer horizon planning (1-3 years) is done in direction pages.
 This will enable you to efficiently communicate both internally and externally
 how the team is planning to deliver on the [product vision](https://about.gitlab.com/direction/#vision).
 
@@ -1094,7 +1094,7 @@ Creating a thoughtful direction for your section, stage, or category is a useful
 
 #### Delivery follows discovery
 
-We should ship what brings value to our customers, not what is easy to ship. Stay focused on creating value each and every milestone, and be quick to adjust your longer term plans as you learn more.
+We should ship what brings value to our customers, not what is easy to ship. Stay focused on creating value each and every milestone, and be quick to adjust your longer term direction as you learn more.
 
 1. When working on a larger theme, you should start with validating the end state knowing that it will change as you start shipping features and you learn more from actual usage.
 1. Once the final vision is validated, you should work with your designer and engineering counterparts to break it down to the smallest possible iterations in order to ship value quickly.
