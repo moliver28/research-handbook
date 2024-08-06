@@ -1386,13 +1386,13 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 
 - We follow the process outlined [here](/handbook/marketing/sales-development/how-tos/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
 
-#### Sequence needs to be a globally applicable
+**1. Sequence needs to be a globally applicable**
 
 - Only sequences that could be used by any team member globally can be added to the Good Collection.
 - If a regionalized sequence can be translated to English, then the English copy of it will be added to the GC while the local variant will be added to the Team Collection.
 - Field Marketing event sequences and any other similar type will not be considered for the Good Collection.
 
-#### Sequence needs to have completed the requirements set out on the issue descrption
+**2. Sequence needs to have completed the requirements set out on the issue descrption** 
 
 - At least 200 people enrolled and/or having completed the sequence on a timely manner.
 - ( Sequence has over 5% reply rate AND No less than 50% negative sentiment rate. ) OR Sequence has over 5% meeting set rate.
@@ -1819,8 +1819,8 @@ In addition to the above, BDR team members are expected to:
 
 | Metric                      | Description                                                            |
 |-----------------------------|------------------------------------------------------------------------|
-| Volume of Actively Working Accounts per Quarter               | 100 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. |
-| Research Quality            | >70% usage of Intent tools on AWA'd accounts, with high propensity to purchase indicators showed. |
+| Volume of Actively Working Accounts per Quarter               | **- Enterprise:** <br> - 75 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. <br> - 65 6QAd accounts per Quarter, per BDR. <br> **- Mid-Market:** <br> - 125 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. <br> - 25 6QA'd accounts per Quarter, per BDR.  |
+| Research Quality            | >80% usage of Intent tools on AWA'd accounts, with high propensity to purchase indicators showed. |
 | Volume of Prospects per Account | 5-10 prospects sequenced per account, whose titles and personas match our ICPs. |
 
 ### PTO and Flexible Working
