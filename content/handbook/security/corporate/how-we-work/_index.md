@@ -152,6 +152,131 @@ Iteration cycles are used by the CorpSec team internally.
 
 Any expectations should be mentioned in the issue description or comments so the work is completed in an iteration cycle that ends before your due date.
 
+## Issue Boards and Lists
+
+### Helpdesk Analysts
+
+- (List) [Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues)
+  - (List) [Baseline Entitlements to Provision](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?sort=created_date&state=opened&label_name%5B%5D=BaselineEntitlementAR&label_name%5B%5D=IT%20System%3A%3ABaseline%20Entitlement&first_page_size=100)
+  - (List) [Team Member Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?sort=created_date&state=opened&label_name%5B%5D=AR-Approval%3A%3AManager%20Approved&label_name%5B%5D=IT%3A%3Ato%20do&first_page_size=100)
+  - (List) [Temporary Service Provider Access Requests](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues/)
+
+### Engineering
+
+- (List) [Inbox Requests (Reviewed Daily)](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?sort=created_date&state=opened&label_name%5B%5D=corpsec-status%3A%3Ainbox&label_name%5B%5D=corpsec-metric%3A%3Ainbox&first_page_size=20)
+- (List) [Day-to-Day Operations Requests](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?sort=created_date&state=opened&or%5Blabel_name%5D%5B%5D=corpsec-metric%3A%3Aar&or%5Blabel_name%5D%5B%5D=corpsec-metric%3A%3Aops&first_page_size=20)
+- (Kanban Board) [Iteration Sprint Issues (by Status)](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards)
+  - (List) [Triage in Progress (reviewed bi-weekly)](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?sort=created_date&state=opened&label_name%5B%5D=corpsec-metric%3A%3Atriage&first_page_size=20)
+  - (List) [Backlog](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?sort=created_date&state=opened&label_name%5B%5D=corpsec-status%3A%3Abacklog&first_page_size=20)
+  - (List) [Scheduled](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?sort=created_date&state=opened&label_name%5B%5D=corpsec-status%3A%3Ascheduled&first_page_size=20)
+  - (List) [Work in Progress (WIP)](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?sort=created_date&state=opened&label_name%5B%5D=corpsec-status%3A%3Awip&first_page_size=20)
+  - (List) [Waiting for Business](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?sort=created_date&state=opened&label_name%5B%5D=corpsec-status%3A%3Awaiting&first_page_size=20)
+  - (List) [Technically Blocked](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?sort=created_date&state=opened&label_name%5B%5D=corpsec-status%3A%3Ablocked&first_page_size=20)
+  - (List) [Final Review](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?sort=created_date&state=opened&label_name%5B%5D=corpsec-status%3A%3Areview&first_page_size=20)
+- (List) See [CorpSec Systems](/handbook/security/corporate/systems) handbook page for links to issues for specific systems.
+- (List) [Issues for Device Trust, Identity, and SaaS Engineering](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?sort=created_date&state=opened&or%5Blabel_name%5D%5B%5D=corpsec-team-saas&or%5Blabel_name%5D%5B%5D=corpsec-team-identity&or%5Blabel_name%5D%5B%5D=corpsec-team-device&first_page_size=20)
+- (List) [Issues for Infrastructure Engineering](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?sort=created_date&state=opened&label_name%5B%5D=corpsec-team-infra&first_page_size=20)
+- (List) [Internal Issues for Code Platform Engineering](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?sort=created_date&state=opened&label_name%5B%5D=corpsec-team-code&first_page_size=20) / [Open Source Issues](https://gitlab.com/groups/provisionesta/-/issues)
+
+### Engineering Team Members
+
+<table>
+<thead>
+<tr>
+<th>Team Member</th>
+<th>CorpSec Issues</th>
+<th>Assigned ARs</th>
+<th>Handbook MRs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://gitlab.com/adamhuss">Adam Huss</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=adamhuss">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=adamhuss">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=adamhuss">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=adamhuss">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=adamhuss">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/cshankgitlab">Clayton Shank</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=cshankgitlab">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=cshankgitlab">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=cshankgitlab">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=cshankgitlab">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=cshankgitlab">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/dzhu-gl">David Zhu</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=dzhu-gl">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=dzhu-gl">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=dzhu-gl">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=dzhu-gl">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=dzhu-gl">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/ericrubin">Eric Rubin</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=ericrubin">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=ericrubin">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=ericrubin">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=ericrubin">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=ericrubin">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/eriklentz">Erik Lentz</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=eriklentz">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=eriklentz">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=eriklentz">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=eriklentz">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=eriklentz">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/jacobdwaters">Jacob Waters</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=jacobdwaters">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=jacobdwaters">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=jacobdwaters">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=jacobdwaters">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=jacobdwaters">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/jeffersonmartin">Jeff Martin</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=jeffersonmartin">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=jeffersonmartin">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=jeffersonmartin">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=jeffersonmartin">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=jeffersonmartin">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/jbisutti-gl">Justin Bisutti</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=jbisutti-gl">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=jbisutti-gl">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=jbisutti-gl">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=jbisutti-gl">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=jbisutti-gl">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/kimwaters">Kim Waters</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=kimwaters">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=kimwaters">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=kimwaters">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=kimwaters">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=kimwaters">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/mwhitaker">Marcus Whitaker</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=mwhitaker">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=mwhitaker">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=mwhitaker">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=mwhitaker">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=mwhitaker">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/mloveless">Mark Loveless</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=mloveless">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=mloveless">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=mloveless">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=mloveless">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=mloveless">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/malkobaisy">Mohammed Al Kobaisy</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=malkobaisy">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=malkobaisy">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=malkobaisy">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=malkobaisy">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=malkobaisy">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/vlad">Vlad Stoianovici</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=vlad">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=vlad">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=vlad">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=vlad">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=vlad">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/zhardie1">Zack Hardie</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=zhardie1">Issues</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=zhardie1">Kanban</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=zhardie1">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=zhardie1">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=zhardie1">Internal</a></td>
+</tr>
+</tbody>
+</table>
+
 ### Time Tracking
 
 When issues are prioritized and scheduled to be worked on, they can optionally have a time estimate added (in hours) using `/estimate {##}h`. This allows the engineer to be a manager of one and work on the issue however they see fit by the iteration end date.
