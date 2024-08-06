@@ -472,8 +472,8 @@
 /content/handbook/people-policies/france-sas/ @cgudgenov @emilyplotkin @pegan @wendybarnes @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[product]
-/content/handbook/product/ @david
-/content/handbook/product/fulfillment-guide.md @ofernandez2
+/content/handbook/product/ @david 
+/content/handbook/product/groups/fulfillment-guide.md @ofernandez2
 /content/handbook/product/product-analysis/engineering/ @ddeng1 @lmai1 @cbraza
 /content/job-families/product/ @david @vkarnes @mflouton @justinfarris @hbenson @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/product/pricing.md @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
