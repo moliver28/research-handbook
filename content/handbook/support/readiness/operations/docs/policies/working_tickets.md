@@ -17,15 +17,6 @@ These go directly to us. Currently, we have 6 problem types:
 - [Support portal questions](#support-portal-questions)
 - [Other](#other)
 
-## Always check if the user is authenticated
-
-When you are the first one reviewing a ticket, you need to check if the user was
-authenticated when the ticket was created (i.e. logged into the support portal).
-If they were not, use the macro
-`Support::Support-Ops::Ticket filed by unauthenticated user` on the ticket. This
-will send a brief message about the current state of the ticket and ask the
-requester to reply back confirming the request and actions therein.
-
 ## First time setup
 
 This is for user's who have not been setup in the support portal previously.
