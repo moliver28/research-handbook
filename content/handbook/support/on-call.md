@@ -177,9 +177,9 @@ you have handled that have some follow-up action. For example:
 - If you're in an active call with a customer and it's time to end your day, page the incoming on-call and make sure they're prepared to provide continuity by giving them an overview of what's been done before and what's next
   - Once you anticipate an active call to spill over into the next shift, try reaching out to the incoming on-call on Slack to make them aware of the upcoming need for a handover – they might not be around already, but it's worth trying and can make it easier for you to end your shift on time
   - If an emergency has been extended over a long period, consider stopping the call for 30 min to discuss and handover to incoming on-call engineer, and on-call manager.
-  Taking this 30 min handover brake can be very beneficial for the incoming team and the customer as clarity can come from discussing ideas in a low pressure environment.
+  Taking this 30 min handover breaks can be very beneficial for the incoming team and the customer as clarity can come from discussing ideas in a low pressure environment.
    - Advise the customer that the call will be paused, and agree on a time to reconvene. 
-   - During the 30 min brake discuss with the incoming team
+   - During the 30 min breaks discuss with the incoming team
       - What is the problem the customer is facing?
       - What activities have been performed?
       - What is the current theory of the source of the issue?
