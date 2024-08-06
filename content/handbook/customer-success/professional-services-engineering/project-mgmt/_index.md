@@ -31,24 +31,9 @@ Given the close collaboration between the PS Project Management and PS Operation
 
 #### Collaboration Space Guidelines
 
-1. Create Project in Gitlab.com using CP (Customer Project requirements) _new steps to CP coming soon_
-   * Create sub group with customer name under [Gitlab Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) if staffed internally or [Gitlab Partner Collaboration Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration) if staffed fully or partially with partners
-   * Create a blank project under your new subgroup with SOW-<sow_number>
-   * Add epics for each activity including labels: "PM::name" "PSD Workflow::Not Started" "SOW-00". Issues will be created at a later stage by the technical team under the right epic
-
-1. The PM to ensure the communiation plan, delivery methodology, scope definitions, time, and budget are aligned as we head into Delivery. All professional services engagements that are successful essentially follow 11 steps, regardless of specific customer framework, process, or SDLC flavor involved. The steps are:
-
-* Identify, document, and conduct an engagement strategy based on the specific customer situation
-* Build awareness and excitement at all levels - regularly communicate status to all relevant parties: executives, buyers, stakeholders
-* Identify MVP pilot project(s) - we always utilize one or more MVPs to prove out our engagement strategy
-* Train the customer development team(s)
-* Develop product backlog and estimates for the engagement
-* Run iterations / sprints producing incremental value
-* Identify metrics - make data centric decisions
-* Gather feedback and improve – adjust the process
-* Mature - Delivery Kits, Runbooks, Tooling
-* Scale across other teams, programs, portfolios - scale in waves
-* Regularly Assess and Refine
+1. We use Gitlab as our primary Project Management tool for Service Deivery with our Customers. We use CP (automation) to convert the SOW activities into trackable issues within Gitlab
+   * A list of our Projects can be found here: [Gitlab Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) if staffed internally or [Gitlab Partner Collaboration Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration) if staffed fully or partially with partners
+   * please follow [this README](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/cpr_gitops/-/blob/main/README.md?ref_type=heads) to get your project setup within Gitlab while we continue to make this step more automated
 
 #### For Consulting Blocks and Dedicated Engineer Projects
 
