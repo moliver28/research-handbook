@@ -166,3 +166,11 @@ Exceptions to this policy must be approved by Security, Legal and PeopleOps Depa
 
 - Parent Policy: [Information Security Policy](/handbook/security)
 - GitLab's [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) applies to all members of the GitLab community
+
+## Unapproved Software
+
+The below software is not approved for use by GitLab employees. Please reach out to #security-corpsec with any questions.
+
+| Software | Rationale |
+| -------  | --------- |
+
