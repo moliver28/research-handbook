@@ -36,7 +36,6 @@
     <thead>
         <tr>
             <th>Name</th>
-            <th>Maturity</th>
             <th>Links</th>
         </tr>
     </thead>
@@ -50,7 +49,6 @@
 {{- end -}}
     <tr>
         <td>{{ .name }}</td>
-        <td class="text-center"><span class="badge bg-primary">{{- $maturity -}}</span></td>
         <td>
         {{- with .marketing_page -}}
         <a href="{{.}}">Marketing Page</a><br>
