@@ -143,8 +143,8 @@ This is a non-exhaustive list that leads have completed with success:
 
 1. [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis)
    - Action: Create issues for "Threats" and "Weaknesses". Assign DRIs to resolve.
-1. Analysis of expertise across SGGs. [Example for Auth](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4920).
-   - Action: May vary, such as invite a base number per SGG to join the Support Pod, or targeted number open traning modules.
+1. Analysis of expertise. [Example for Auth](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4920).
+   - Action: May vary, such as invite a base number to join the Support Pod, or targeted number open traning modules.
 1. Collect list of pain points from Support team members through a chosen method, such as a survey.
    - Action: Analyze the list for actionable points. Create issues for each, and assign DRIs to resolve.
 
