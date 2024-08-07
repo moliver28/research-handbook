@@ -22,9 +22,7 @@ graph TD
   H[Slack message is sent to the departing team member]
 ```
 
-> **Voluntary** terminations will be processed within a valid offboarding window for the day, according to the team members current timezone. Please see, the [Scheduled Offboarding Issue Creation](#scheduled-offboarding-issue-creation) section for more.
->
-> **Involuntary** terminations will be processed as soon as they are fully approved in Workday and within the last day of work.
+> Terminations will be processed within a valid offboarding window for the day, according to the team members current timezone configured in Slack. Please see, the [Scheduled Offboarding Issue Creation](#scheduled-offboarding-issue-creation) section for more.
 
 ## Automations
 
@@ -38,14 +36,16 @@ The pipeline is scheduled to run every hour and scan for any recent voluntary of
 
 Every 15 minutes, a pipeline scans Workday for any terminations.
 
-- Involuntary offboardings will be opened as soon as they are available and within the last day of work.
-- Voluntary offboardings will be opened in the respective team members offboarding window for the day. This checks their Slack timezone to find a *local* time to start the offboarding.
-  - Monday - Thursday @ 4pm
-  - Friday @ 12pm
+Offboardings will be opened in the respective team members offboarding window for the day. This checks their Slack timezone to find a *local* time to start the offboarding.
+
+- Monday - Thursday from 4:00pm to 5:00pm
+- Friday from 12:00pm to 1:00pm
 
 For each row matching this criterion, it will perform the same actions as if a People Connect Team member ran manually initiated the offboarding. (see [Manually initiated offboarding issue creation](#manually-initiated-offboarding-issue-creation) and [Offboarding merge request](#offboarding-merge-request) sections).
 
 The manual process is kept as a backup process should the automation fail or for exceptional cases where a team member offboarding cannot be added to the offboarding spreadsheet.
+
+After the offboarding issue has been created, we send a follow up message to the `#offboardings` Slack channel contianing the team members name, last day of work, and a link to the opened offboarding issue.
 
 <details>
   <summary>Automation Overview</summary>
