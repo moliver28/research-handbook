@@ -47,8 +47,8 @@ Team Members may be eligible for statutory leave and/or protections under their 
 
 - Team members reporting for active duty of more than 31 days may be eligible for up to 6 months of unpaid leave. Eligibility for the full 6 months will be determined by the team members' statutory entitlement in their country as well as the needs of the business. If the leave is needed for more than 6 months, the team member will be offboarded, but is eligible for reinstatement if able to return within the required timeframe.
 - Team members may elect to retain health care coverage benefits for up to 2 years, or to the end of their military service; whichever comes first, but team members will be responsible for making arrangements to pay the full cost of their benefits.
-    - If arrangements are not made or team members do not elect to retain their heath care coverage, benefits will end as of the 31st day of military leave.
-    - Team members are eligible for immediate reinstatement of benefits upon their return to work, with no waiting period applied.
+  - If arrangements are not made or team members do not elect to retain their heath care coverage, benefits will end as of the 31st day of military leave.
+  - Team members are eligible for immediate reinstatement of benefits upon their return to work, with no waiting period applied.
 - Team members will continue to vest stock while on unpaid military leave for up to 6 months.
 
 **Reinstatement**
@@ -60,9 +60,9 @@ To be entitled to reinstatement, the following conditions must have been met:
 - The team member gave the employer notice of the need for military leave,
 - The team member was released under honorable conditions,
 - The team member returned and applied for re-employment within the following time restrictions:
-    - Leaves of less than 31 days: The team member must report to work on the first regularly scheduled work period following the completion of military service; no application is required.
-    - Leaves of more than 31 days but less than 180 days: The team member must apply for reinstatement within 14 days after completion of military service.
-    - Leaves of more than 180 days: The team member must apply for reinstatement no more than 90 days after completion of military service.
+  - Leaves of less than 31 days: The team member must report to work on the first regularly scheduled work period following the completion of military service; no application is required.
+  - Leaves of more than 31 days but less than 180 days: The team member must apply for reinstatement within 14 days after completion of military service.
+  - Leaves of more than 180 days: The team member must apply for reinstatement no more than 90 days after completion of military service.
 
 When team members return from military service, they will be entitled to return to the position they would have attained if they had not been called to serve. This requirement is known as the "escalator principle." The principle means that if the team member would have been promoted except for this leave of absence and if the team member is qualified to take the position now or can become qualified with reasonable efforts by GitLab, then GitLab must consider the team member for the promotion. If the team member is not or cannot become qualified, then GitLab will reinstate the them to the job the they held before the leave of absence or in a position of equivalent seniority, pay and status. In limited situations, if GitLab's circumstances make reinstatement impossible—for example, in light of decreased business or impending layoffs—then GitLab's obligation to reinstate the team member does not apply.
 

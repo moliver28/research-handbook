@@ -16,9 +16,8 @@ Anyone can contribute to the documentation. Follow our [GitLab documentation gui
 
 - A group of [Technical Writers](/job-families/product/technical-writer/).
 - Two [Technical Writing Managers](/job-families/product/technical-writing-manager/).
-- A [Senior Fullstack Engineer, Technical Writing](/job-families/product/ux-fullstack-engineer/).
+- Two [Fullstack Engineers, Technical Writing](/job-families/product/ux-fullstack-engineer/).
 - A [Technical Writing Director](/job-families/product/technical-writing-manager/#director-technical-writing).
-
 
 ## Contact Us
 
@@ -128,14 +127,15 @@ all situations where documentation is required.
 <!--
   To update the table above:
 
-  - For tech writer's name per stage, change data/stages.yml and sites/handbook/includes/stages/tech-writing.html.haml
-  - To turn off a stage, set tw: false in data/stages.yml
+  - For tech writer's name per stage, change https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml and https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/layouts/shortcodes/tech-writing.html
+  - To turn off a stage, set tw: false in https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml
 
 Reference: https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/24952
 -->
 
 {{% alert title="Note" color="primary" %}}
 **If you were directed here from a documentation page's metadata:**
+
 - The metadata doesn't indicate developer ownership, but is meant to direct you to an appropriate technical writer.
 - If you are part of a development group and would like to add metadata to documentation pages, create an issue in [the Technical Writing repository](https://gitlab.com/gitlab-org/technical-writing) for discussion. Additional discussion is in [this issue](https://gitlab.com/gitlab-org/technical-writing/-/issues/547).
 - If the stage is listed as `none`, see if [there is a DRI](#assignments-to-other-projects-and-subjects) or use [roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg30&order=-1&hourFormat24=true&visible=maintainer%7Cdocs).
@@ -156,14 +156,12 @@ For collaboration in other projects and subjects:
 |:----------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
 | The documentation site                                      | {{< member-by-name "Susan Tacker" >}}                                                                                                                              |
 | The documentation site backend (code, automation)                                             | {{< member-by-name "Sarah German" >}}                                                                                                                              |
-| [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content)                                               | {{< member-by-name "Suzanne Selhorn" >}}                                                                                                                              |
-| [Style Guide](#style-guide)                                                                                     | {{< member-by-name "Suzanne Selhorn" >}}                                                                                                                              |
+| [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content)                                               | {{< member-by-name "Fiona Neill" >}}                                                                                                                              |
+| [Style Guide](#style-guide)                                                                                     | {{< member-by-name "Fiona Neill" >}}                                                                                                                              |
+| [Left nav](https://docs.gitlab.com/ee/development/documentation/site_architecture/global_nav.html) (information architecture of docs)                                                                                     | {{< member-by-name "Fiona Neill" >}}                                                                                                                              |
 | [Testing/Vale/markdownlint](#testing)                                                                           | {{< member-by-name "Diana Logan" >}}                                                                                                                                  |
-| [Documentation handbook](/handbook/documentation/)                                                              | {{< member-by-name "Diana Logan" >}}                                                                                                                                  |
-| [Technical Writing handbook](/handbook/engineering/ux/technical-writing/)                                       | {{< member-by-name "Susan Tacker" >}}                                                                                                                                 |
 | [Tutorials](https://docs.gitlab.com/ee/tutorials/)                                                              | {{< member-by-name "Kati Paizee" >}}                                                                                                                                  |
-| [What's new](https://docs.gitlab.com/ee/administration/whats-new.html)                                          | {{< member-by-name "Kati Paizee" >}}                                                                                                                                  |
-| [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit)                            | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Fiona Neill" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
+| [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit)                            | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
 
 ### Content not reviewed by TWs
 
@@ -180,23 +178,21 @@ The Technical Writing team gets assistance with the `gitlab-docs` project from s
 
 | Subject          | Person                                 |
 |:-----------------|:---------------------------------------|
-| Backend reviews  | [Ash McKenzie], [David O'Regan]        |
-| Frontend reviews | [Lukas 'Eipi' Eipert], [David O'Regan] |
-| Support          | [Mike Lockhart]                        |
-
-[Ash McKenzie]: https://gitlab.com/ashmckenzie
-[Lukas 'Eipi' Eipert]: https://gitlab.com/leipert
-[David O'Regan]: https://gitlab.com/oregand
-[Mike Lockhart]: https://gitlab.com/mlockhart
+| Backend reviews  | [Ash McKenzie](https://gitlab.com/ashmckenzie), [David O'Regan](https://gitlab.com/oregand)        |
+| Frontend reviews | [Lukas 'Eipi' Eipert](https://gitlab.com/leipert), [David O'Regan](https://gitlab.com/oregand) |
+| Support          | [Mike Lockhart](https://gitlab.com/mlockhart)                        |
 
 ## Docs site stats
 
 The technical writing team supports a large amount of content.
 
+### Page count
+
 The number of pages in the five primary repositories (GitLab, Omnibus, Charts, Operator, and Runner):
 
 | Date          | # of pages | Increase from previous quarter |
 |---------------|------------| ------------|
+| June 2024     | 2,456      | 6 %         |
 | Mar  2024     | 2,308      | 5 %         |
 | Dec  2023     | 2,201      | 5 %         |
 | Sept 2023     | 2,088      | 8 %         |
@@ -208,12 +204,21 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 | Jan 2022      | 1,562      | -           |
 | May 2020      | 1,165      | -           |
 
-**Change between May 2020 and Mar 2024:** 1,143 more pages (a 98% increase)
+**Change between May 2020 and Mar 2024:** 1,291 more pages (a 111% increase)
+
+#### Page count by area of the left nav
+
+In June, 2024, the page count by area of the left navigation:
+
+![img](img/page_count_june2024.png)
+
+### Word count
 
 The number of words in these repositories:
 
 | Date          | Word count | Increase from previous quarter |
 |---------------|------------| ------------|
+| June 2024     | 3,325,823  | 4 %         |
 | Mar  2024     | 3,183,647  | 6 %         |
 | Dec  2023     | 2,990,400  | 5 %         |
 | Sept 2023     | 2,842,399  | 5 %         |
@@ -225,9 +230,15 @@ The number of words in these repositories:
 | Jan 2022      | 2,017,183  | -           |
 | May 2020      | 1,190,371  | -           |
 
-**Change between May 2020 and Mar 2024:** 1,993,276 more words (a 167% increase)
+**Change between May 2020 and Mar 2024:** 2,135,452 more words (a 179% increase)
 
 The word count has more than doubled in this timeframe.
+
+#### Word count by area of the left nav
+
+In June, 2024, the word count by area of the left navigation:
+
+![img](img/word_count_june2024.png)
 
 ### Analytics
 
@@ -238,7 +249,7 @@ To make or suggest changes to the dashboard, open an issue in the [Marketing Str
 
 ## Technical Writer PTO
 
-When Technical Writers take [paid time off](/handbook/paid-time-off/), the rest of the team provides coverage for them.
+When Technical Writers take [paid time off](/handbook/people-group/paid-time-off/), the rest of the team provides coverage for them.
 These team members may require additional context for requests. Requests are incorporated into the list of stage/group and
 feature priorities for *their* primary groups.
 
@@ -259,7 +270,7 @@ This issue can describe exactly who is providing coverage, for what, and by what
 
 When taking PTO, Technical Writers:
 
-1. Ensure their [out-of-office messaging](/handbook/paid-time-off/#communicating-your-time-off) reflects the available mechanisms for coverage.
+1. Ensure their [out-of-office messaging](/handbook/people-group/paid-time-off/#communicating-your-time-off) reflects the available mechanisms for coverage.
    It's important to keep GitLab.com statuses up-to-date to ensure:
 
    - [Reviewer Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg7&order=-1&visible=maintainer%7Cdocs) can make accurate suggestions.
@@ -267,8 +278,8 @@ When taking PTO, Technical Writers:
 1. Send a message in the group Slack channels indicating where to find the available mechanisms. For example:
 
    ```text
-   I’m off for the holidays (202y-mm-dd - 202y-mm-dd). For help with documentation while I'm away, see
-   https://about.gitlab.com/handbook/product/ux/technical-writing/#technical-writer-pto for ways to get help.
+   I'm off for the holidays (202y-mm-dd - 202y-mm-dd). For help with documentation while I'm away, see
+   https://handbook.gitlab.com/handbook/product/ux/technical-writing/#technical-writer-pto for ways to get help.
    For urgent _named time-sensitive task_ matters, ping _named TW_.
    ```
 

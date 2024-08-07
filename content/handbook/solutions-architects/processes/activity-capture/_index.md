@@ -1,11 +1,9 @@
 ---
-
 title: Solutions Architecture Activity Capture
 description: >-
   Solutions Architects record all customer and prospect activity to promote
   transparency and collaboration
 ---
-
 
 Solutions Architects record all customer and prospect activity to promote **transparency** and **collaboration**. By consistently capturing our prospect or customer-facing activity, we can perform analysis for further reporting to establish **efficient** decision making for GitLab's business.
 
@@ -22,24 +20,24 @@ SA prospect/customer activity is recorded into `Task` objects within Salesforce 
 ### Rattle Setup
 
 - Setup your Rattle account and connect it to Slack, Salesforce, and your Google Calendar.
-    - [Rattle Setup Video](https://www.youtube.com/watch?v=pW_fHzx7h2Y)
-    - If you did not receive an invite to Rattle when you started at GitLab, please submit an Access Request.
+  - [Rattle Setup Video](https://www.youtube.com/watch?v=pW_fHzx7h2Y)
+  - If you did not receive an invite to Rattle when you started at GitLab, please submit an Access Request.
 
 ### Logging an Activity
 
 - There are multiple ways to log your activity with Rattle ([Log an Activity Video](https://www.youtube.com/watch?v=zRxUJSjujUk&feature=youtu.be))
-    - After meetings with a prospect/customers, you will be prompted in the Slack Rattle application to `Log a Call` for the activity (easiest method)
-    - On-demand, type `/rattle-create` in Slack and click on the `Create Task` button
-    - It is required to log the activity against the associated **opportunity** versus at the account level.  This is to ensure accurate reporting and analysis of our engagement models.
+  - After meetings with a prospect/customers, you will be prompted in the Slack Rattle application to `Log a Call` for the activity (easiest method)
+  - On-demand, type `/rattle-create` in Slack and click on the `Create Task` button
+  - It is required to log the activity against the associated **opportunity** versus at the account level.  This is to ensure accurate reporting and analysis of our engagement models.
 - There is a minimal set of fields that are required to be populated, _regardless if Rattle marks them as optional_.
-    - **Related To** - Search for and set this to the Salesforce `Opportunity` associated with the activity.
-    - **Name**  - Please search for and populate the `Name` field with a prospect/customer contact existing in Salesforce that was part of the activity.   <i>`Name` is currently a single select field. Choose any contact that was part of the meeting, if possible. In the future, we may have the ability to select multiple contacts.</i>
-    - **Subject**  - High-level description of the activity. Usually, the subject of the calendar event for this activity is appropriate.
-    - **[SA] Activity Type** - Choose the type(s) of activity for this customer/prospect interaction  (ie. Demo, POV Related, Presentation/Pitch). For description of each activity type, refer to [this page](/handbook/solutions-architects/processes/activity-capture/activity-desc).
-    - **Persona Levels** (Optional if unknown) - Select the customer/prospect participants' levels in this activity. Current options include: `Individual Contributor, Manager/Director, Executive` _Note: Executive should be used for any VP, C-level or the Economic Buyer_
-    - **Persona Functions** (Optional if unknown) - Select the customer/prospect functions represented during the activity (ie. Development, Security, DevOps)
-    - **Description** - Enter a summary of the interaction. Two to three sentences are usually sufficient, but more detail is ok. Try to capture the meeting's intent, how it went (the outcome or customer/prospect sentiment), and any prospect/customer perceived next steps. It is highly encouraged that you provide a link to more detailed notes of your meeting. You can use [Google Docs Bookmarks](https://support.google.com/docs/answer/45893) to do so.
-    - **Customer Interaction Sentiment** - Choose how you feel this meeting went, indenpendently from any other meeting and independently off the status of the overall opportunity sentiment. Options for this field are strictly 'Positive', 'Neutral', and 'Negative'
+  - **Related To** - Search for and set this to the Salesforce `Opportunity` associated with the activity.
+  - **Name**  - Please search for and populate the `Name` field with a prospect/customer contact existing in Salesforce that was part of the activity.   <i>`Name` is currently a single select field. Choose any contact that was part of the meeting, if possible. In the future, we may have the ability to select multiple contacts.</i>
+  - **Subject**  - High-level description of the activity. Usually, the subject of the calendar event for this activity is appropriate.
+  - **[SA] Activity Type** - Choose the type(s) of activity for this customer/prospect interaction  (ie. Demo, POV Related, Presentation/Pitch). For description of each activity type, refer to [this page](/handbook/solutions-architects/processes/activity-capture/activity-desc).
+  - **Persona Levels** (Optional if unknown) - Select the customer/prospect participants' levels in this activity. Current options include: `Individual Contributor, Manager/Director, Executive` _Note: Executive should be used for any VP, C-level or the Economic Buyer_
+  - **Persona Functions** (Optional if unknown) - Select the customer/prospect functions represented during the activity (ie. Development, Security, DevOps)
+  - **Description** - Enter a summary of the interaction. Two to three sentences are usually sufficient, but more detail is ok. Try to capture the meeting's intent, how it went (the outcome or customer/prospect sentiment), and any prospect/customer perceived next steps. It is highly encouraged that you provide a link to more detailed notes of your meeting. You can use [Google Docs Bookmarks](https://support.google.com/docs/answer/45893) to do so.
+  - **Customer Interaction Sentiment** - Choose how you feel this meeting went, indenpendently from any other meeting and independently off the status of the overall opportunity sentiment. Options for this field are strictly 'Positive', 'Neutral', and 'Negative'
 
 #### Activity type description
 
@@ -84,11 +82,11 @@ To assist with the analysis of SA guided technical evaluations by our prospects 
 - **SA Validated Tech Evaluation Close Status** - The close status of the technical evaluation:
 There are two ways to update these fields in Rattle:
 While all of these fields can be updated and changed anytime as an opportunity evolves, the end date and close status should not be populated as a forecast.
-    - On the Rattle `You just had a meeting` notification - select the opportunity by searching in the `Search Salesforce` box. Click the `Update Opportunity` button.
-    - By searching for the opportunity first using `/Rattle <opportunity name>` in Slack and clicking on the `Update Opportunity` button.
-    - **Win** - The technical evaluation has ended, and the prospect or customer agrees the GitLab solution meets their requirements.
-    - **Loss** - The technical evaluation has completed, but the prospect or customer is choosing an alternative solution or not changing their current process due to deficiencies with the evaluated GitLab solution.
-    - **Stalled** - The technical evaluation has not completed, but the customer or prospect is not actively evaluating any solution. As a guideline, this usually means the SA is not working with the prospect or customer on evaluation-related activities for at least two weeks.
+  - On the Rattle `You just had a meeting` notification - select the opportunity by searching in the `Search Salesforce` box. Click the `Update Opportunity` button.
+  - By searching for the opportunity first using `/Rattle <opportunity name>` in Slack and clicking on the `Update Opportunity` button.
+  - **Win** - The technical evaluation has ended, and the prospect or customer agrees the GitLab solution meets their requirements.
+  - **Loss** - The technical evaluation has completed, but the prospect or customer is choosing an alternative solution or not changing their current process due to deficiencies with the evaluated GitLab solution.
+  - **Stalled** - The technical evaluation has not completed, but the customer or prospect is not actively evaluating any solution. As a guideline, this usually means the SA is not working with the prospect or customer on evaluation-related activities for at least two weeks.
 - **SA Validated Tech Evaluation Close Details** - The close details are to include a short 1-2 line description of the Close Status
 
 Whenever an SA engages a prospect/customer who has a specific problem to be addressed or goal to be achieved, and that prospect/customer needs validation that GitLab has the solution, you are encouraged to capture that as a technical evaluation. Similar to how there are some deals without a corresponding SA, there may be deals where a technical evaluation is not performed, and SA involvement is minimal.
@@ -105,11 +103,11 @@ In case that the opportunity has been closed in Salesforce, and you did not have
 Proof of Values are [tracked in salesforce](/handbook/solutions-architects/tools-and-resources/pov/#tracking-a-pov-in-salesforce) but can be created or updated through Rattle by:
 
 - **Create POV**: Clicking on the `Add a Proof of Value` button
-    - on the Rattle `You just had a meeting` notification in slack
-    - after searching for and selecting an opportunity or account first using `/rattle <search>` in Slack
-    - after using `/rattle-create`
+  - on the Rattle `You just had a meeting` notification in slack
+  - after searching for and selecting an opportunity or account first using `/rattle <search>` in Slack
+  - after using `/rattle-create`
 - **Update POV**: Clicking on the `Update a Proof of Value` button
-    - after searching for and selecting a POV first using `/rattle <name of POV>` in Slack
+  - after searching for and selecting a POV first using `/rattle <name of POV>` in Slack
 
 ### Updating Activity Summaries
 

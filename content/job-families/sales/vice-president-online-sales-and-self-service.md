@@ -17,7 +17,7 @@ The VP, Online Sales and Self Service is a [grade 12](/handbook/total-rewards/co
 - Partner closely with Sales, Marketing, Product Management, Fulfillment and Support teams to optimize e-commerce processes to meet broad company objectives.
 - Consolidate self-service business requirements from all segments, channels, and geographies and provide a single business plan and interface for the product teams.
 - Establish and deliver on a strategy to land new customers with a mutual vision for expansion and expand existing accounts with purpose, driving customer success and predictable year-over-year ARR growth for GitLab.
-- Maintain key customer kpi for conversion and self-serve retention programs. Develop and implement strategies for expanding the company’s customer base via self service.
+- Maintain key customer kpi for conversion and self-serve retention programs. Develop and implement strategies for expanding the company's customer base via self service.
 - Build a team of program managers, analysts, sales support specialists and systems designers to define business requirements, test and iterate to fulfill needs of customer  experience.
 - Own both native and overlay quota.
 - Exceed growth and sales efficiency targets.
@@ -27,7 +27,7 @@ The VP, Online Sales and Self Service is a [grade 12](/handbook/total-rewards/co
 
 ## Requirements
 
-- A solid track record of online sales growth and target attainment  
+- A solid track record of online sales growth and target attainment
 - Has specialized knowledge of the Online Sales, Self Service/e-commerce space, and customers
 - Proven second-line management experience with deep domain experience in the Online Sales vertical, including a history of successfully selling through the e-commerce channel
 - Multiple repeatable proof points of recruiting, hiring, developing, and retaining leaders and individual contributors that make up a high performing online sales organization.
@@ -40,7 +40,7 @@ The VP, Online Sales and Self Service is a [grade 12](/handbook/total-rewards/co
 - Polished presentation skills
 - Ability to handle a fast-paced environment and ambitious workload
 - Bachelor degree
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Performance Indicators
 

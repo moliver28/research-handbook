@@ -35,7 +35,7 @@ When AMM creates BAT's, it uses all the BT's associated to any Contact on the ac
 
 | Buyer Touchpoint (BT) | Buyer Attribution Touchpoint (BAT) |
 | ----- | ----- |
-| Relates to the Lead & Contact | Relates to the Contact, Account, and Opportunity Objects
+| Relates to the Lead & Contact | Relates to the Contact, Account, and Opportunity Objects |
 | Does not relate to the Opportunity Object | Does not relate to the Lead Object |
 | Revenue is not associated to a Buyer Touchpoint |    Assigned revenue when NET ARR of Opportunity is set |
 
@@ -87,7 +87,6 @@ Currently the Custom Model has the following weights for each stage (updated Feb
 - **Closed (Lost, Won)** - 29.2%
 - **Middle Touches** - 13.2%
 
-
 ### Online vs. Offline Touchpoints
 
 AMM generates Touchpoints as either online or offline based on how they were created.
@@ -132,7 +131,6 @@ Once a Touchpoint is created, AMM uses a set of predefined [mapping rules](#amm-
 | Sales activity          | Outbound call by SDR                                                                                                                          | CRM Activity (Task or Event) record synced to AMM, through logic on the Activities page in AMM                                                                                                                  | By referencing the Campaign Name assigned on the Activities page        |
 
 AMM has more extensive documentation on how [Touchpoints are generated and mapped](https://docs.marketo.com/display/BIZ/Touchpoint+Generation+and+Mapping).
-
 
 ## AMM Channel and Subchannel Mapping
 
@@ -312,8 +310,8 @@ Training Video:
 
 The review of online touchpoints and of the rules governing the creation of touchpoints based on online activities takes place once per month and includes the following checks:
 
-- Pull a Marketo Measure Touchpoint SFDC report, grouped by channel and monitor for touchpoints associated to “Other” as the channel;
-- Review the Landing Page Raw field data for the “Other” touchpoints and identify if there are new or rogue utm parameters that need to be added to our online rule sheet;
+- Pull a Marketo Measure Touchpoint SFDC report, grouped by channel and monitor for touchpoints associated to "Other" as the channel;
+- Review the Landing Page Raw field data for the "Other" touchpoints and identify if there are new or rogue utm parameters that need to be added to our online rule sheet;
 - Additionally review the [UTM Generator spreadsheet](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=2043976569) which contains the urls that are used in our various online campaigns and make sure any newly added utm parameters are included in the online rules sheet;
 - Finalize all updates to the online touchpoint rules sheet and re-upload it back into Marketo Measure > Online Channels section;
 - Lastly, if the rule changes require any additions/substractions to our Channel/Sub-Channel mapping, make sure to have those included in the Marketo Measure > Create Channels section.

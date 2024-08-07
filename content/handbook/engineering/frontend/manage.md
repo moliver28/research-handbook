@@ -7,12 +7,9 @@ title: "Frontend Manage Team"
 
 ## Mission
 
-The Manage team works on the frontend part of GitLab for the [Manage stage].
+The Manage team works on the frontend part of GitLab for the [Manage stage](https://about.gitlab.com/stages-devops-lifecycle/#manage).
 
-For more details about the vision for this area of the product, see the [Manage
-stage] page.
-
-[Manage stage]: /stages-devops-lifecycle/
+For more details about the vision for this area of the product, see the [Manage stage](https://about.gitlab.com/stages-devops-lifecycle/#manage) page.
 
 ### Team members
 
@@ -24,10 +21,6 @@ stage] page.
 
 ## Useful links
 
-- [Manage frontend assignees board] - this shows the tasks assignees in the current release
-- [Manage frontend tasks board] - this shows the priorities of deliverables
-- [#g_manage] in Slack
-
-[Manage frontend assignees board]: https://gitlab.com/groups/gitlab-org/-/boards/814296
-[Manage frontend tasks board]: https://gitlab.com/groups/gitlab-org/-/boards/810974
-[#g_manage]: https://gitlab.slack.com/archives/g_manage
+- [Manage frontend assignees board](https://gitlab.com/groups/gitlab-org/-/boards/814296) - this shows the tasks assignees in the current release
+- [Manage frontend tasks board](https://gitlab.com/groups/gitlab-org/-/boards/810974) - this shows the priorities of deliverables
+- [#g_manage](https://gitlab.slack.com/archives/g_manage) in Slack

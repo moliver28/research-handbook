@@ -1,5 +1,4 @@
 ---
-
 title: "End User Services"
 ---
 
@@ -7,15 +6,15 @@ title: "End User Services"
 
 ## <i class="far fa-paper-plane" id="biz-tech-icons"></i> How to reach out to us?
 
-<div class="flex-row" markdown="0" style="height:100px;justify-content:flex-start;">
-  <a href="https://gitlab.com/gitlab-com/it/end-user-services/issues/it-help-issue-tracker/-/issues/new?issuable_template=General_HelpDesk_Request" class="btn btn-purple-inv" style="width:170px;margin:5px;height:100%;display:flex;align-items:center;justify-content:center;">Open an issue</a>
-  <a href="https://gitlab.slack.com/archives/CK4EQH50E" class="btn btn-purple-inv" style="width:170px;margin:5px;height:100%;display: flex;align-items:center;justify-content:center;">#it-help in slack</a>
-  <a href="https://www.worldtimebuddy.com/?pl=1&lid=4143861,4726206,2964574,2158177&h=4143861" class="btn btn-purple-inv" style="width:170px;margin:5px;height:100%;display: flex;align-items:center;justify-content:center;">What timezone are we located in?</a>
+<div class="flex-row" style="display: flex; flex-wrap: wrap; height: auto; justify-content: space-between;">
+  <a href="https://gitlab.com/gitlab-com/it/end-user-services/issues/it-help-issue-tracker/-/issues/new?issuable_template=General_HelpDesk_Request" class="btn btn-purple-inv" style="flex: 1 1 150px; margin: 5px; height: auto; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">Open an issue</a>
+  <a href="https://gitlab.slack.com/archives/CK4EQH50E" class="btn btn-purple-inv" style="flex: 1 1 150px; margin: 5px; height: auto; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">#it-help in slack</a>
+  <a href="https://www.worldtimebuddy.com/?pl=1&lid=4143861,4726206,2964574,2158177&h=4143861" class="btn btn-purple-inv" style="flex: 1 1 150px; margin: 5px; height: auto; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">What timezone are we located in?</a>
 </div>
 
 ## <i class="fas fa-info-circle" id="biz-tech-icons"></i> Frequently visited pages
 
-#### Access Requests
+### Access Requests
 
 - For information about the access request policies and security guidelines, please refer to the Security Team's [access request handbook page section](/handbook/security/#access-management-process).
 
@@ -88,12 +87,13 @@ The script scans the IT help Slack channel and performs the following actions:
 - Parses the Slack thread and adds comments to the related GitLab issue.
 - Adds comments from GitLab issue into Slack thread.
 
+{{% alert color="info" %}}
 To learn more on how this automation works, check the [IT-Help Slack Issue Creator wiki](https://gitlab.com/groups/gitlab-com/it/end-user-services/-/wikis/IT-Help-Slack-Issue-Creator/How-To-Use).
-{: .alert .alert-info}
+{{% /alert %}}
 
 ## <i class="fas fa-rocket" id="biz-tech-icons"></i> Mission Statement
 
-#### IT Help
+### IT Help
 
 - IT Help will triage all IT related questions as they arise.
 
@@ -161,7 +161,7 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 
 - IT Analyst EMEA - Eoghan Dunne, edunne-ext@gitlab.com, @edunne-ext
 
-- System Administrator - [Mohammed Al Kobaisy](/handbook/company/team/#malkobaisy), malkobaisy@gitlab.com, @malkobaisy
+- IT Systems Engineer - [Mohammed Al Kobaisy](/handbook/company/team/#malkobaisy), malkobaisy@gitlab.com, @malkobaisy
 
 - Senior IT Systems Engineer -  [Dillon Wheeler](/handbook/company/team/#dillonwheeler), dwheeler@gitlab.com, @dillonwheeler
 

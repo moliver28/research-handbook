@@ -1,5 +1,4 @@
 ---
-
 title: "Sean Carroll's Readme"
 job: "Engineering Manager, Source Code"
 ---

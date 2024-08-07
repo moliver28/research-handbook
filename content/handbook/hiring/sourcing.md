@@ -25,7 +25,7 @@ This person is of interest, but has not interacted with the Talent Acquisition (
 <tr>
 <td>
 
-#### **Sourcing Strategy/Type [Greenhouse](https://support.greenhouse.io/hc/en-us/articles/115003931231-Sourcing-the-basics)**
+### **Sourcing Strategy/Type [Greenhouse](https://support.greenhouse.io/hc/en-us/articles/115003931231-Sourcing-the-basics)**
 
 </td>
 <td>
@@ -68,7 +68,7 @@ This person is of interest, but has not interacted with the Talent Acquisition (
 </tr>
 <tr>
 <td>Referrals</td>
-<td>Prospects that enter a role’s pipeline via a Greenhouse referral submission by a current GitLab team member.</td>
+<td>Prospects that enter a role's pipeline via a Greenhouse referral submission by a current GitLab team member.</td>
 <td>
 
 - Referral
@@ -106,7 +106,7 @@ See Greenhouse for the complete list.
 <td>
 
 - Social Media
-  - Example: someone responding to a LinkedIn post that isn’t a referral or someone actively sourced by a recruiter.
+  - Example: someone responding to a LinkedIn post that isn't a referral or someone actively sourced by a recruiter.
 
 </td>
 </tr>
@@ -132,9 +132,9 @@ Sourcing rate % is a metric that depicts the total number of candidates sourced 
 
 ### The Sourcing Rate % Metric
 
-**What is Sourcing rate %**: Defined as the total number of candidates sourced utilizing a ‘diverse sourcing strategy’ divided by the total number of candidates (passive, applicants and referrals) in a given pipeline. It is one of our key performance indicators for both sourcers and recruiters on the Talent Acquisition team.
+**What is Sourcing rate %**: Defined as the total number of candidates sourced utilizing a 'diverse sourcing strategy' divided by the total number of candidates (passive, applicants and referrals) in a given pipeline. It is one of our key performance indicators for both sourcers and recruiters on the Talent Acquisition team.
 
-**How does it work**: Per the definition above, we are measuring our sourcing strategy and it’s effectiveness in building representation in our pipelines.
+**How does it work**: Per the definition above, we are measuring our sourcing strategy and it's effectiveness in building representation in our pipelines.
 
 ## How to Source Candidates
 
@@ -142,7 +142,7 @@ Sourcing rate % is a metric that depicts the total number of candidates sourced 
 
 At GitLab, we consider each of our recruiter team members on the Talent Acquisition team 'full life cycle' which means, sourcing is a skill and part of the craft in what we do. In order to ensure we are able to bring a snap shot of the total addressable market for each role that we hire against, cultivating a passive pipeline of talent is an essential part of that process. It is also our opportunity to get very intentional when it comes to building representation into our pipelines.
 
-In accordance with our [values](/handbook/company/culture/inclusion/#values) of Diversity, Inclusion and Belonging, and to build teams as diverse as our users, Talent Acquisition provides a collection of sourcing tools [here](https://docs.google.com/spreadsheets/d/1Hs3UVEpgYOJgvV8Nlyb0Cl5P6_8IlAlxeLQeXz64d8Y/edit#gid=2017610662) to expand our hiring teams’ candidate pipelines. If you have any questions on how to implement these resources into your current sourcing strategy or have suggestions for new tools, please reach out to the Talent Acquisition team.
+In accordance with our [values](/handbook/company/culture/inclusion/#values) of Diversity, Inclusion and Belonging, and to build teams as diverse as our users, Talent Acquisition provides a collection of sourcing tools [here](https://docs.google.com/spreadsheets/d/1Hs3UVEpgYOJgvV8Nlyb0Cl5P6_8IlAlxeLQeXz64d8Y/edit#gid=2017610662) to expand our hiring teams' candidate pipelines. If you have any questions on how to implement these resources into your current sourcing strategy or have suggestions for new tools, please reach out to the Talent Acquisition team.
 
 Our strategy to building representative teams is rooted in our top of funnel strategy. At a high level, our approach and expectations for recruiters and sourcers is as follows:
 
@@ -150,10 +150,10 @@ Our strategy to building representative teams is rooted in our top of funnel str
 
 - As a best practice, Recruiters will focus on screening internal candidates, referrals, and sourced candidates for the first 5 business days a req is open.
 
-1. Recruiters run targeted searches leveraging some of our internal resources and sourcing tools (ex: LinkedIn Recruiter, SeekOut, our our CRM)
+1. Recruiters run targeted searches leveraging some of our internal resources and sourcing tools (ex: LinkedIn Recruiter, SeekOut, our CRM)
 1. For each candidate that is sourced in step 2 utilizing a DIB sourcing strategy (ie: leveraging HCBUs in a boolean string, utilizing GraceHopper resume books, etc), apply the appropriate tag.
 
-**IMPORTANT NOTE** These indicators are not assuming or identifying an individual’s gender, race, or ethnicity—we cannot be certain of this information from a search and do not want to make any assumptions without self-identification.
+**IMPORTANT NOTE** These indicators are not assuming or identifying an individual's gender, race, or ethnicity—we cannot be certain of this information from a search and do not want to make any assumptions without self-identification.
 
 Our sourcing rate % is meant to provide a data point to ensure we are taking the appropriate steps, and taking the needed time as a TA team to create a representative top of the funnel. These metrics will not be considered in any hiring decisions. Our sourcing rate % is intended to build more representation into the beginning of the process which we believe will result in more representation at GitLab. We are using coded names in order to further anonymize this information from our hiring teams.
 
@@ -196,32 +196,32 @@ Each quarter, we allocate SeekOut seats strategically through our recruitment te
 
 **How to source our Greenhouse database through LinkedIn**
 
-Simply add all your filters as described above in the LinkedIn Recruiter sourcing section. After setting up your search parameters, add one extra: “In ATS” - here add Greenhouse. This will show you all the people who match your search and are in our database and also have a LinkedIn profile.
+Simply add all your filters as described above in the LinkedIn Recruiter sourcing section. After setting up your search parameters, add one extra: "In ATS" - here add Greenhouse. This will show you all the people who match your search and are in our database and also have a LinkedIn profile.
 
 **Bonus Greenhouse sourcing tip**
 
-You can download several profiles in bulk in an XLS file and you can run your searches in the spreadsheet. For this, click on the blue “Export” button on the top of your search results in the “All candidates” section of a search result tab.
+You can download several profiles in bulk in an XLS file and you can run your searches in the spreadsheet. For this, click on the blue "Export" button on the top of your search results in the "All candidates" section of a search result tab.
 
 #### Greenhouse CRM
 
-In today’s talent market, a CRM enables us to efficiently and quickly engage with talent that opted into learning and potentially growing at GitLab. Learn more about how to use our Greenhouse CRM [here](https://docs.google.com/document/d/16DzE9bsgeflGiRMntncdhMTc6CpHjE5hlQqOnLBQpwo/edit).
+In today's talent market, a CRM enables us to efficiently and quickly engage with talent that opted into learning and potentially growing at GitLab. Learn more about how to use our Greenhouse CRM [here](https://docs.google.com/document/d/16DzE9bsgeflGiRMntncdhMTc6CpHjE5hlQqOnLBQpwo/edit).
 
 #### DIB Enablement
 
 Examples of searches:
 
-1. Use of SeekOut’s gender or race & ethnicity-specific search tools
+1. Use of SeekOut's gender or race & ethnicity-specific search tools
 A list of all HBCUs (Historically Black Colleges and Universities) in the United States
 1. A search of all sororities in the United States
-1. A LinkedIn search including “she” or “her” pronouns
-You cannot search for race or gender on LinkedIn, but you can search for associations. (Examples would be NSBE OR “Black engineer” OR NSMBA OR “Black MBAs” OR AAWIT OR “African American women in technology” OR NAACP OR “Black chamber of commerce” OR “African American chamber”)
+1. A LinkedIn search including "she" or "her" pronouns
+You cannot search for race or gender on LinkedIn, but you can search for associations. (Examples would be NSBE OR "Black engineer" OR NSMBA OR "Black MBAs" OR AAWIT OR "African American women in technology" OR NAACP OR "Black chamber of commerce" OR "African American chamber")
 1. Sourcing Library (available to internal team members only) coming soon
 
 #### Pitch Pages
 
 Pitch Pages are a [Guide]({{< ref "interviewing#guide" >}})-like experience, intended for prospective candidates that have yet to dive into learning about the experience of working at GitLab, or for current candidates who are in the process and interested in learning more. Pitch Pages are a great sourcing tool aimed to help convert a prospect into a true candidate, or to provide more insight about our company for those currently in the process.
 
-To help form a strong and meaningful relationship with both passive and active candidates, Recruiters can leverage a unique Pitch Page built specific to their departments including Sales, Engineering, UX, G&A, Product, or our General Pitch Page. Pitch Pages will highlight GitLab’s achievements, life at GitLab, our values, culture, benefits, and working on a specific team! Recruiters may choose to send the Pitch Page via Inmails, LinkedIn messages or use it in any strategy for sourcing by sharing this [link](https://app.guide.co/p/c462b99a-d4a6-4246-9e5c-e4232c7bd958) with candidates.
+To help form a strong and meaningful relationship with both passive and active candidates, Recruiters can leverage a unique Pitch Page built specific to their departments including Sales, Engineering, UX, G&A, Product, or our General Pitch Page. Pitch Pages will highlight GitLab's achievements, life at GitLab, our values, culture, benefits, and working on a specific team! Recruiters may choose to send the Pitch Page via Inmails, LinkedIn messages or use it in any strategy for sourcing by sharing this [link](https://app.guide.co/p/c462b99a-d4a6-4246-9e5c-e4232c7bd958) with candidates.
 
 The Candidate Experience Team will be the DRI for Pitch Pages. If you have any questions or suggestions please reach out to CES at ces@gitlab.com.
 
@@ -234,7 +234,7 @@ The recommended process of re-contacting candidates:
 
 ### Rehires
 
-If a former GitLab team member is identified by the Hiring Manager, Recruiter, or a current team member as a potential rehire, the Recruiter should contact People Connect directly using the Greenhouse email template titled `Rehire Eligibility Request (send to people-connect@gitlab.com)` before approaching the candidate. People Connect will conduct a review of possible performance concerns or other factors that may have impacted the candidate’s departure from their role at GitLab. People Connect will inform the Recruiter directly if the candidate is eligible for rehire and the recruiter will add a private note of the decision to the candidate's Greenhouse profile (i.e. “eligible for rehire” or “not eligible for rehire”). Note that rehires are not eligible for referral bonuses.
+If a former GitLab team member is identified by the Hiring Manager, Recruiter, or a current team member as a potential rehire, the Recruiter should contact People Connect directly via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) using the Greenhouse email template titled `Rehire Eligibility Request` before approaching the candidate. People Connect will conduct a review of possible performance concerns or other factors that may have impacted the candidate's departure from their role at GitLab. People Connect will inform the Recruiter directly if the candidate is eligible for rehire and the recruiter will add a private note of the decision to the candidate's Greenhouse profile (i.e. "eligible for rehire" or "not eligible for rehire"). Note that rehires are not eligible for referral bonuses.
 
 ### For GitLab Hiring Managers and Team Members
 
@@ -280,7 +280,7 @@ Take a look at the [Content library - life at GitLab](/handbook/people-group/emp
 
 **Upgrading Your LinkedIn Account to Hiring Manager**
 
-Hiring Managers and hiring team members are able to request a **LinkedIn Hiring Manager Seat.** To upgrade your seat, please add your GitLab email to your LinkedIn profile by following this process: {+ Login to Linkedin > click Me > Settings & Privacy > Sign in & security > Email addresses > add your GitLab email address and verify it. +} Next, submit an [Access Request Issue](https://gitlab.com/gl-talent-acquisition/operations/issues/new?issuable_template=LinkedIn%20Access%20Request) using the LinkedIn Access Request template within the [Technology and Insights project](https://gitlab.com/gl-talent-acquisition/operations).
+Hiring Managers and hiring team members are able to request a **LinkedIn Hiring Manager Seat.** To upgrade your seat, please add your GitLab email to your LinkedIn profile by following this process: {+ Login to LinkedIn > click Me > Settings & Privacy > Sign in & security > Email addresses > add your GitLab email address and verify it. +} Next, submit an [Access Request Issue](https://gitlab.com/gl-talent-acquisition/operations/issues/new?issuable_template=LinkedIn%20Access%20Request) using the LinkedIn Access Request template within the [Technology and Insights project](https://gitlab.com/gl-talent-acquisition/operations).
 
 - **A Hiring Manager seat** allows a user to collaborate on projects, where they can share and review profiles and provide feedback on prospective candidates.
 

@@ -2,7 +2,6 @@
 title: Renewals Managers
 ---
 
-
 ![Global Renewals Organiztion](images/GitLab_GR_BLK.gif)
 
 Global Renewals Organization
@@ -10,10 +9,12 @@ Global Renewals Organization
 ---
 
 View the Renewals Manager handbook pages:
+
 - [How We Do It](/handbook/customer-success/renewals-managers/how) - Information about how renewals managers execute on the mission.
 - [What we do](/handbook/customer-success/renewals-managers/what) - Information about what tasks and activities renewals managers perform.
 
 Renewals Managers (more resources)
+
 - Visit the internal handbook [page](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/)
 - Contribute to the Global Renewals Organization issue [board](https://gitlab.com/gitlab-com/customer-success/global-renewals-organization/-/boards/5465302?label_name[]=Global%20Renewals)
 
@@ -36,16 +37,13 @@ Other ways to reach members of the Global Renewals Organization include:
 - Global renewals leadership slack channel: [#global-renewals-leadership] (private, managers wide channel used for updates, questions, best practices)
 - Global renewals organization feedback channel: [#renewals-org-ideas-and-feedback] (public, world-wide feedback channel)
 
-
 ## Mission Statement
 
 To maintain the highest renewal rate in the DevSecOps industry.
 
-
 ## Vision
 
 To be the defining subscription renewals organization among peers in the SaaS industry.
-
 
 ## Values
 
@@ -88,6 +86,7 @@ Our strategy defines how we win in the market we have chosen to compete. It is n
 - Trustworthy SFDC KPIs
 
 *Systems*
+
 - Management dashboards
 - Temp key tracking
 - Churn budgeting and forecasting
@@ -96,4 +95,6 @@ Our strategy defines how we win in the market we have chosen to compete. It is n
 - Renewal forecasting
 - Real time renewals performance tracking
 
+### [RM New Team Member Onboarding](/handbook/customer-success/renewals-managers/rm-onboarding)
 
+As a Renewals Manager (RM), your onboarding experience will be a blended learning experience that includes virtual synchronous meetings, a self-paced role-based learning path on GitLab University, and a hands-on virtual workshop called Sales Quick Start (SQS). Your role based learning path is highlighted in this [role-specific onboarding guide](https://docs.google.com/document/d/1kc5tVFZxQLT5EcworXmeMzVYsXp-6hg6dthFQI8wNcM/edit#heading=h.5sepq0d8u5az). Please make a copy of this document and check off items as you complete them. 

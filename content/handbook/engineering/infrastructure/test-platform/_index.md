@@ -31,7 +31,7 @@ The Test Platform sub-department does this by focusing on:
 
 ## Vision
 
-The Test Platform sub-department vision is to focus on customer satisfaction and enable GitLab to deliver faster and efficiently by supporting Gitlab’s principle of Quality is everyone’s responsibility.
+The Test Platform sub-department vision is to focus on customer satisfaction and enable GitLab to deliver faster and efficiently by supporting Gitlab's principle of Quality is everyone's responsibility.
 
 Integral parts of this vision:
 
@@ -42,21 +42,21 @@ Integral parts of this vision:
 ## Our principles
 
 - **Foster an environment where Quality is Everyone's responsibility.**
-    - We enable product teams by baking quality early into the product development flow process.
-    - We are a sounding-board for our end users by making feedback known to product teams.
-    - We are a champion of good software design, testing practices and bug prevention strategies.
+  - We enable product teams by baking quality early into the product development flow process.
+  - We are a sounding-board for our end users by making feedback known to product teams.
+  - We are a champion of good software design, testing practices and bug prevention strategies.
 - **Improve test coverage and leverage tests at all [levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html).**
-    - We work to ensure that the right tests run at the right places.
-    - We enable product teams' awareness of their test coverage with fast, clear and actionable reporting.
-    - We continuously refine test efficiency, refactor duplicate coverage, and increase stability.
+  - We work to ensure that the right tests run at the right places.
+  - We enable product teams' awareness of their test coverage with fast, clear and actionable reporting.
+  - We continuously refine test efficiency, refactor duplicate coverage, and increase stability.
 - **Make Engineering teams efficient, engaged and productive.**
-    - We build automated solutions to improve workflow efficiency and productivity.
-    - We ensure reliability in our tooling and tests.
-    - We ensure that continuous integration pipelines are efficient, stable with optimal coverage.
+  - We build automated solutions to improve workflow efficiency and productivity.
+  - We ensure reliability in our tooling and tests.
+  - We ensure that continuous integration pipelines are efficient, stable with optimal coverage.
 - **Metrics driven.**
-    - We provide data driven insights into defects, test stability and efficiency.
-    - We ensure the data is actionable and is available transparently to the company and the wider community.
-    - We use data to make informative next steps and continuously improve with metrics-driven optimizations.
+  - We provide data driven insights into defects, test stability and efficiency.
+  - We ensure the data is actionable and is available transparently to the company and the wider community.
+  - We use data to make informative next steps and continuously improve with metrics-driven optimizations.
 
 ## FY25 Direction
 
@@ -152,7 +152,7 @@ Test Platform Engineers are always available to provide technical support and ex
 
 Infrastructure Department structure is documented [here](/handbook/engineering/infrastructure/#organization-structure).
 
-#### Test Platform sub-department structure
+### Test Platform sub-department structure
 
 ```mermaid
 graph TD
@@ -213,11 +213,11 @@ GitLab is an all-remote, timezone distributed company as such we optimize for as
 
 ### Group Conversation
 
-[Group Conversations](/handbook/group-conversations/) take the information from the Key Review (plus any additional topics) and shared with all of GitLab. All Team Members are invited to participate in Group Conversations by adding questions and comments in the Group Conversation Agenda.
+[Group Conversations](/handbook/company/group-conversations/) take the information from the Key Review (plus any additional topics) and shared with all of GitLab. All Team Members are invited to participate in Group Conversations by adding questions and comments in the Group Conversation Agenda.
 
 Coordination of Infrastructure Group Conversation materials and facilitation of the discussion is a rotating role among the managers within the department.
 
-Group Conversation DRI [Schedule](/handbook/group-conversations/#current-schedule).
+Group Conversation DRI [Schedule](/handbook/company/group-conversations/#current-schedule).
 
 ### Week-in-review
 

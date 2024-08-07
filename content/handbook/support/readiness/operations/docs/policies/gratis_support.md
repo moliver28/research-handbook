@@ -39,7 +39,7 @@ graph TD;
   L[Readiness implements the request]
 ```
 
-## Prospects
+### Prospects
 
 **NOTE**: This was formerly called Priority Prospect requests
 
@@ -203,7 +203,7 @@ After doing so, you need to
 [update the previous Gratis Support spreadsheet](#updating-the-previous-gratis-support-spreadsheet)
 for tracking purposes.
 
-## Migration Offerings
+### Migration Offerings
 
 #### Migration offerings - Validation checks
 
@@ -319,7 +319,7 @@ After doing so, you need to
 [update the previous Gratis Support spreadsheet](#updating-the-previous-gratis-support-spreadsheet)
 for tracking purposes.
 
-## Upgrade Offerings
+### Upgrade Offerings
 
 #### Upgrade offerings - Validation checks
 
@@ -421,7 +421,7 @@ After doing so, you need to
 [update the previous Gratis Support spreadsheet](#updating-the-previous-gratis-support-spreadsheet)
 for tracking purposes.
 
-## Former Customers
+### Former Customers
 
 #### Former Customers - Validation checks
 
@@ -529,7 +529,7 @@ After doing so, you need to
 [update the previous Gratis Support spreadsheet](#updating-the-previous-gratis-support-spreadsheet)
 for tracking purposes.
 
-## Extensions
+### Extensions
 
 #### Extensions - Validation checks
 
@@ -580,7 +580,7 @@ Due to the "other" style nature of these, there is not a set process we can
 really follow for these. For these types of requests, please assign them to a
 Support Readiness Manager or Support Readiness Director to work.
 
-## Updating the Current Gratis Support spreadsheet
+### Updating the Current Gratis Support spreadsheet
 
 Regardless of the request type, you will need to update the
 [Current Gratis Support](https://docs.google.com/spreadsheets/d/11p3aBj1LTr-ngk1wxoMlae-UvJ3bOTuQHd48so2ZcXU/edit?usp=sharing)
@@ -689,7 +689,7 @@ Jason's preferred method for this is as follows:
    - Replacing ISSUE_LINK with the issue you are working
    - Replacing YYYY-MM-DD with the date of expiration
 
-## Failed validation check responses
+### Failed validation check responses
 
 Utilize these to comment on a request when a validation check has failed.
 

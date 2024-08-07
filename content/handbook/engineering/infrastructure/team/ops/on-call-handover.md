@@ -1,13 +1,6 @@
 ---
-
 title: "On-call handover"
 ---
-
-
-
-
-
-
 
 ## On-call handover
 

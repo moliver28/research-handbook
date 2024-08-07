@@ -2,7 +2,7 @@
 title: "GitLab Dedicated Group"
 ---
 
-![GitLab Dedicated Group logo](./img/dedicated_team_logo.png)
+![GitLab Dedicated Group logo](img/dedicated_team_logo.png)
 
 ## Mission
 
@@ -35,6 +35,8 @@ The following people are members of the Dedicated:Environment Automation Team:
 
 {{< team-by-manager-slug "o-lluch" >}}
 
+{{< team-by-manager-slug "denhams" >}}
+
 The following people are members of the Dedicated:US Public Sector Services Team:
 
 {{< team-by-manager-slug "sdumesnil" >}}
@@ -53,24 +55,24 @@ To engage with the GitLab Dedicated teams:
 - In case you want to get attention, use a specific team handle as defined in [group hierarchy below](#gitlab-group-hierarchy)
 - Slack channels
   - For GitLab Dedicated specific questions, you can find us in [#f_gitlab_dedicated](https://gitlab.slack.com/archives/C01S0QNSYJ2)
-  - The `@dedicated-envauto-team` Slack group can be used in any internal channel to tag the Environment Automation team.
-  - Engineering teams have their own work channels for team work discussions:
-      - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
-      - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
-      - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
-  - Our [social channel](https://gitlab.slack.com/archives/C03QBGQ3K5W) is accessible to everyone who wants to casually interact with the team
+  - The Dedicated Group internally leverages: [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
+  - Engineering teams within Dedicated have their own work channels for team work discussions:
+    - [#g_dedicated-environment-automation-team](https://gitlab.enterprise.slack.com/archives/C074L0W77V0)
+    - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
+    - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
+  - Our social channel, [#g_dedicated-team-social](https://gitlab.slack.com/archives/C03QBGQ3K5W) is accessible to everyone who wants to casually interact with the team
 
 ### Handling Configuration Changes for Tenant Environments
 
 Customers require the ability to customize the configuration of their Dedicated instance before they are able to use it in a production setting.
-These customizations involve configuration changes to [functionality already supported in Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#available-features) including infra-level settings like IP Allowlists and AWS PrivateLink configuration as well as GitLab application settings that cannot currently be self-served through the admin UI like SAML configuration changes.
+These customizations involve configuration changes to [functionality already supported in Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#available-features) including infra-level settings like IP Allowlists and Cloud-Specific Private Networking configuration as well as GitLab application settings that cannot currently be self-served through the admin UI like SAML configuration changes.
 
 To request functionality that is not currently supported within Dedicated, customers must open a feature request using the [feature request issue template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/.gitlab/issue_templates/feature_request.md). To request functionality for the broader GitLab Application, customers can use the [feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md) template.
 
-While in the long term, customer admins will be able to self-serve configuration changes via the Switchboard customer portal, in the short term, SREs will need to make the change and deploy it to the customer's environment. This process is documented below.
+While in the long term, customer admins will be able to self-serve configuration changes using the Switchboard customer portal, in the short term, SREs will need to make the change and deploy it to the customer's environment. This process is documented below.
 
-- During Onboarding (pre instance handover)
-  - We will make one SRE available to support a new customer as they are onboarding to the platform. The SRE will be available one week prior to the onboarding date (ie the `start date` specified in the customer contract) and make any needed configuration changes to the environment.
+- During Onboarding (before instance handover)
+  - We will make one SRE available to support a new customer as they are onboarding to the platform. The SRE will be available one week prior to the onboarding date (i.e. the `start date` specified in the customer contract) and make any needed configuration changes to the environment.
   - To request a configuration change during onboarding, customers can open a new issue in their shared collaboration project. The PM will take the customer request, create an issue within the Dedicated team project, assign the labels per project workflow, and `@` mention the SRE in question. The SRE will assign the issue to themselves and perform the change.
   - Note, config changes during onboarding cannot be escalated to the Dedicated team as this is still before the contractual start date. See below for more information on our [escalation policy](#escalation-policy).
 - Post-instance handover
@@ -89,13 +91,14 @@ and other times where GitLab Team Member availability is substantially reduced.
 Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs.
 Therefore, we have introduced a mechanism called Production Change Lock (PCL) to GitLab Dedicated.
 
-The GitLab Dedicated Production Change Lock is greatly inspired by the [PCL](https://about.gitlab.com/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl) for GitLab.com,
+The GitLab Dedicated Production Change Lock is greatly inspired by the [PCL](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl) for GitLab.com,
 but there are some differences worth noting.
 
 A PCL is manually enforced once the following requirements are met:
+
 1. A PCL [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3946) describing the PCL period is created.
 2. An MR updating the scheduled PCLs table is approved by the SaaS Platforms Engineering Director
-3. Customer changes via Switchboard are prevented for the duration of the PCL.
+3. Customer changes using Switchboard are prevented for the duration of the PCL.
 
 The following dates are currently scheduled PCLs.
 
@@ -105,11 +108,11 @@ The following dates are currently scheduled PCLs.
 
 Times for the dates without a time specified begin at 09:00 UTC and end the next day at 09:00 UTC.
 
-As opposed to GitLab.com [PCL](https://about.gitlab.com/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl), for GitLab Dedicated we only consider a Hard PCL type.
+As opposed to GitLab.com [PCL](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl), for GitLab Dedicated we only consider a Hard PCL type.
 
 ##### Hard PCL
 
-Hard PCLs include all code deploys and infrastructure changes, including automated maintenance in UAT, Preprod and Production environments, and customer changes via Switchboard. New customers will not be onboarded during Hard PCLs.
+Hard PCLs include all code deploys and infrastructure changes, including automated maintenance in UAT, Preprod and Production environments, and customer changes using Switchboard. New customers will not be onboarded during Hard PCLs.
 
 In case of an active S1/S2 incident, it is at the EOC (Engineer on Call) discretion to make the decision to apply the changes necessary to mitigate or resolve the incident in order to keep service availability.
 Any action during an incident while in a PCL must be associated to an issue and the EOC should inform the GitLab Dedicated engineering Leadership about the action taken.
@@ -137,6 +140,7 @@ Access will only be provided to:
 1. Extensions will need to be approved by the Dedicated Team Engineering Manager or Director and the direct manager of the requesting team member
 
 To gain access, please create:
+
 1. [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). Use `GitLab Dedicated Logs (Production)` as the system.
 1. An issue in the [GitLab Dedicated tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=log_access_rotation) using the `Log rotation access` template.
 
@@ -165,7 +169,7 @@ product fix is merged and when it is deployed to GitLab Dedicated environments d
 In such cases, we should evaluate the impact of the delay and, if justified, use the
 [backport request process](/handbook/engineering/releases/backports/) to request that the product
 fix be backported to a GitLab version that can be deployed to GitLab Dedicated environments in an
-acceptable timeframe.
+acceptable time frame.
 
 ## How we work
 
@@ -183,13 +187,16 @@ Our preference is to work asynchronously, within our project issue tracker as de
 
 The team does have a set of regular synchronous calls:
 
-- `Demo call` - This call is on the agenda once per week. During this call, team members show off their progress, and engage with other team members on topics related to GitLab Dedicated platform. Demo calls are supposed to be rough around the edges and unpolished. In fact, if the demo looks polished, we will discuss whether we are being ambitious enough with our goals
-- `Team call` - During this call, we are sharing important information for team-members day-to-day, as well as project items requiring a sync discussion
+- `Demo call` - This call is scheduled every two weeks, rotating across timezones. During this call, team members show off their progress, and engage with other team members on topics related to GitLab Dedicated platform. Demo calls are supposed to be rough around the edges and unpolished. In fact, if the demo looks polished, we will discuss whether we are being ambitious enough with our goals
+- Teams within Dedicated may have their own `Team Sync`
 - 1-1s between the Individual Contributors and Engineering Managers
 
 The group has a set of regular synchronous calls for PMs and EMs to ensure alignment:
+
 - `GitLab Dedicated Product <> Eng Sync` - This call is weekly on Mondays and Thursdays for PMs and EMs to align
 - `Dedicated Managers Sync` - This call is every two weeks for Dedicated EMs to sync and ensure alignment
+
+It is the organizer's responsibility to ensure these calls can be recorded regardless of whether the organizer is present by [enabling "Alternative Hosts" in Zoom](/handbook/tools-and-tips/zoom/#how-to-allow-recording-when-the-host-is-not-present).
 
 Impromptu Zoom meetings for discussing GitLab Dedicated work between individuals are created as needed.
 It is expected that these meetings are private streamed, or recorded(1*), and then uploaded to [GitLab Unfiltered playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqC5FfUVPyndvLvTWifWbfB).
@@ -208,30 +215,29 @@ The groups cover the following use-cases:
 1. Individual team group membership: `@gitlab-dedicated/environment-automation`, `@gitlab-dedicated/switchboard`, `@gitlab-dedicated/uspubsec`, etc.
     - All permanent team-members of individual teams gain access to their respective GitLab group as part of onboarding
     - Group mention should be used when the information shared is pertinent to the respective team
-1. Individual team GitLab Dedicated groups have two additional subgroups `maintainers` and `reviewers`, e.g.: `@gitlab-dedicated/switchboard/maintainers`
-    - `reviewers` GitLab group access is granted to permanent team-members, external contractors, team-members on borrow and similar. This GitLab group type is used to distinguish users without merge rights. Initial reviews should be requested from this group, using the quick action, e.g. `/assign_reviewer @gitlab-dedicated/switchboard/reviewers`
+1. Individual team GitLab Dedicated groups have two additional subgroups `maintainers` and `reviewers`, for example: `@gitlab-dedicated/switchboard/maintainers`
+    - `reviewers` GitLab group access is granted to permanent team-members, external contractors, team-members on borrow and similar. This GitLab group type is used to distinguish users without merge rights. Initial reviews should be requested from this group, using the quick action, for example `/assign_reviewer @gitlab-dedicated/switchboard/reviewers`
     - `maintainers` GitLab group is granted to permanent team-members only. This group has merge rights, and the group is granted access through [CODEOWNERS approval rules](https://docs.gitlab.com/ee/user/project/codeowners/#code-owners). Team members onboard into the `maintainer` subgroup after meeting the requirements defined in the [Dedicated Maintainer Training](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/.gitlab/issue_templates/maintainer_training.md)(internal only)
 
 ### Project Management
 
 We use epics, issues, and issue/epic boards to organize our work, as they complement each other.
 
-The single source of truth for _all_ GitLab Dedicated work across different functions is the top-level [GitLab Dedicated epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479).
+Please see:
 
-The [GitLab Dedicated epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479) contains a section that tracks the status all ongoing work. The tracker also references cross-functional initiatives that happen outside of R&D.
+1. [SaaS Platforms Project Management](/handbook/engineering/infrastructure/platforms/project-management)
+1. [SaaS Platforms Epic](https://gitlab.com/groups/gitlab-com/-/epics/2115)
+1. [Environment Automation Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479)
+1. [Switchboard Epic (scoped to current quarter)](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1160)
+1. [US Public Sector Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/876)
 
 #### Epic Hierarchy
 
-_The GitLab Dedicated - Limited Availability milestone is completed. The [sub-epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/484) contains all the work completed during Limited Availability._
-
-The [GitLab Dedicated epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479) contains all of the work that is currently in-progress.
-
-We use sub-epics to break larger epics into smaller portions. These sub-epics are also mentioned in the [GitLab Dedicated Roadmap](https://about.gitlab.com/direction/saas-platforms/dedicated/#roadmap) (i.e. Advanced Search epic).
+We use sub-epics to break larger epics into smaller portions.
 
 1. Sub-epics group tasks required to deliver an item mentioned
 1. Sub-epics represent an item from the roadmap and are delivered in a specific phase
 1. Sub-epics can span multiple months, but their end date should match the 'anticipated completion date' of the roadmap phase they are added to.
-
 
 The diagram below shows an example of traversing the complete hierarchy:
 
@@ -257,7 +263,7 @@ _Note_ If you are not seeing the diagram, make sure that you have accepted all c
 
 #### Epic Owners
 
-Each epic has a single DRI who is responsible for delivering the project. DRIs for each epic are listed at the top of the description of each epic per Epic Structure. Epic DRI responsibilities are in [https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-owner-responsibilities](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-ownership)
+Each epic has a single DRI who is responsible for delivering the project. DRIs for each epic are listed at the top of the description of each epic per Epic Structure. Epic DRI responsibilities are in [https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-owner-responsibilities](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-ownership)
 
 1. Engineering epic DRIs can be found within children epics of [GitLab Dedicated epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479).
 
@@ -268,7 +274,6 @@ The DRI needs to:
 1. Work with others to move issues through the boards
 1. Ensure epic meets criteria outlined in [Epic Structure](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-structure)
 1. Provide updates on DRI's epic in epic description according to process outlined in [Status Update Process](/handbook/engineering/infrastructure/team/gitlab-dedicated/#Status-Update-Process) below.
-1. Follow process in [epic roadmap](#epic-roadmap) if epic extends beyond its planned phase.
 
 #### Epic structure
 
@@ -287,41 +292,19 @@ Each epic and child sub-epics must include the following:
 
 1. **Start date** is set to the expected start date, and updated to be the actual start date when the project begins.
 1. **Due date** is set to be the expected end date.
-    1. The due date is set based on [the Roadmap to exit Limited Availability](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap)
     1. The date that a project actually ended is taken from the date that the epic was closed.
 
-Labels are described in the [epic label section](#epic-labels).
+Labels are described in the [epic label section](#epics-labels).
 
 #### Epic boards
 
-Epic boards are used to track the overall status of epics. We use the following epic boards:
-
-1. TBD All epics labeled `team::Environment Automation` with lanes set to scoped `worfklow-infra` labels
-   1. This board allows a complete overview of the entire epic backlog
-1. TBD All epics labeled `team::Environment Automation` with lanes set to scoped `Dedicated LA::phase*` labels
-   1. This board is a visualization of the [the Roadmap to exit Limited Availability](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap)
-1. TBD All epics `team::Environment Automation` and `workflow-infra::in progress` with lanes set to scoped `health` labels
-   1. This board highlights any risks with work in progress items.
-
-#### Epic roadmap
-
-All epics and sub-epics are set with due dates according to the [the Roadmap to exit Limited Availability](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap).
-
-Limited Availability phases end and are closed on the release day of each phase's corresponding month.
-
-Process to close phases:
-
-1. After the release day of each month [Product and Engineering DRIs](/handbook/company/working-groups/gitlab-dedicated/#dedicated-team-dris) work with [Epic DRIs](#epic-owners) to determine any roadmap changes if an epic extends beyond the epic's planned phase from [Limited Availability roadmap](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap). For still-open epics:
-    1. First try and close the epic, ideally by descoping the epic and creating a new epic or issue containing descoped work. Descoped work will be slotted into a future phase.
-    1. If descoping is not possible, then the entire epic should be shifted to a future phase. In this case, the epic should show in every phase of [Limited Availability roadmap](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap) that the epic was worked on. See Establish Availablility Targets in [Phase 1, 2, and 3](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/a40d70a58c2247a160270703fe6953fbb9fd1244/source/direction/saas-platforms/dedicated/index.html.md#environment-automation) as an example.
-1. [PM and EM](/handbook/company/working-groups/gitlab-dedicated/#dedicated-team-dris) then determine roadmap adjustments so that planned work in future phases remains realistic after shifting open work.
-1. Roadmap changes are shared in the next weekly engineering/product sync as part of [status update process](#status-update-process).
+Epic boards are used to track the overall status of epics.
 
 ### Issue boards
 
-Issue boards, such as [Beta Development board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/2874746?label_name[]=Launch%3A%3ABeta) track the progress of all ongoing work.
+Issue boards track the progress of all ongoing work.
 
-On this single board, the goal is to get issues from `workflow-infra::Triage` into the `workflow-infra::Done` state, within a product [launch milestone](#launch-milestone-labels). Each of the workflow labels have a special meaning described in [the workflow labels](#workflow-labels) section.
+On a single board, the goal is to get issues from `workflow-infra::Triage` into the `workflow-infra::Done` state. Each of the workflow labels have a special meaning described in [the workflow labels](#workflow-labels) section.
 
 ### Status Updates
 
@@ -343,7 +326,6 @@ Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI
 1. **Top-Level Epic Status Update** [automation synthesizes updates from status section](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-update-automation) from description of active epics to provide initiative status in the status section in the description of the top-level initiative Epic.
 
 1. **Weekly engineering/product sync at 16:30 UTC on Mondays** Dedicated engineering/product meeting is used to discuss status updates and potential mitigations as necessary.
-    - [After the release day of each month](#epic-roadmap), a summary of the most recently completed phase and any roadmap changes is shared.
 
 1. Status updates will be incorporated into initiative status updates and any initiative reporting in the following week.
 
@@ -366,7 +348,7 @@ Prior to the start of a new quarter, the team will spend time refining the Epic 
 - Link to high-level design
 - Estimated level of complexity
 
-While the above information is being added, the Epic will move from ![Triage](./img/label-triage.png) to ![Proposal](./img/label-proposal.png).  Once the information has been finalized, the Epic will move to ![Ready](./img/label-ready.png).
+While the above information is being added, the Epic will move from ![Triage](img/label-triage.png) to ![Proposal](img/label-proposal.png).  Once the information has been finalized, the Epic will move to ![Ready](img/label-ready.png).
 
 Having this set of refined epics will help us plan for the upcoming quarter and allow engineers to quickly get started on an Epic once it's ready to be picked up during the quarter.
 
@@ -418,7 +400,7 @@ The process can be summarized as:
 
 #### Resolving threads on a merge-request
 
-As the merge request author, please don’t mark discussions resolved until the reviewer has had a chance to respond. In general, if the reviewer has not yet approved the MR, and the thread is non-trivial, don’t mark their comments as resolved, let the reviewer review your response and resolve accordingly during the next round of view. If they have approved the MR, but comments remain unresolved, it's generally fine to resolve comments before merging.
+As the merge request author, please don't mark discussions resolved until the reviewer has had a chance to respond. In general, if the reviewer has not yet approved the MR, and the thread is non-trivial, don't mark their comments as resolved, let the reviewer review your response and resolve accordingly during the next round of view. If they have approved the MR, but comments remain unresolved, it's generally fine to resolve comments before merging.
 
 #### Maintainer training
 
@@ -436,14 +418,14 @@ To reduce the team's cognitive load on having to keep a mental record of all the
 
 1. Open an issue explaining the workaround and to which tenant instances it was applied. Apply the label `workaround::active` to the issue
 1. If there's a long-term fix issue already created, apply the label `corrective action` and link it to the workaround issue
-1. Add a comment in the code describing the workaround and a link to the follow-up issue. e.g. [workaround on pyyaml bug](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor/-/merge_requests/1873/diffs)
+1. Add a comment in the code describing the workaround and a link to the follow-up issue. For example [workaround on pyyaml bug](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor/-/merge_requests/1873/diffs)
 1. If the temporary workaround involves running scripts by the SRE during maintenance windows, we add the actions in the triage-ops' [tooling-upgrade-toil](https://gitlab.com/gitlab-com/gl-infra/triage-ops/-/blob/master/policies/gitlab-dedicated/tooling-upgrade-toil.yml#L55) policy
 
 ### Labels
 
 Commonly used labels are:
 
-1. The team label, `team::Environment Automation`.
+1. The team label, such as `team::Environment Automation`.
 1. Scoped `workflow-infra` labels.
 1. Scoped `component` labels.
 1. Scoped `cloud-provider` labels.
@@ -455,10 +437,10 @@ The `team::Environment Automation` label is used in order to allow for easier fi
 
 Epics and child epics should contain the following labels:
 
-1. A scoped label indicating the phase of the roadmap in which the epic is scheduled to be delivered epic e.g. `Dedicated LA::Phase2`
+1. A label indicating the phase of the roadmap in which the epic is scheduled to be delivered epic, such as `FY25-Q2`
 1. A scoped `workflow-infra` label
 1. All relevant GitLab Dedicated team labels
-1. If the epic is labeled `workflow-infra::in progress`, then a health status label should be applied. (`health::on track`, `health::needs attention`, `health:at risk` by the epic DRI. This label is regularly updated as part of status updates.)
+1. If the epic is labeled `workflow-infra::In Progress`, then a health status label should be applied. (`health::on track`, `health::needs attention`, `health:at risk` by the epic DRI. This label is regularly updated as part of status updates.)
 
 #### Workflow labels
 
@@ -470,27 +452,26 @@ The standard progression of workflow is from top to bottom in the table below:
 
 | State Label | Description |
 | ----------- | ----------- |
-| ![Triage](./img/label-triage.png) | Default label added to issues created. Issues with this label need to be confirmed as work we would consider. If we don't want to consider the issue further, we mark it with `workflow-infra::Cancelled` and close it. If this issue does not need Product validation, and we are ready for implementation, issue is moved to `workflow-infra::Ready`. Otherwise, we move it to the next stage `workflow-infra::Proposal`. |
-| ![Proposal](./img/label-proposal.png) | In this stage, proposal is being created and put forward for review with the rest of the team. Issues in this stage are also a part of Product validation workflow. If there are no further questions or blockers, the issue can be moved into "workflow-infra::Ready". |
-| ![Ready](./img/label-ready.png) | The issue is waiting to be picked up for work. |
-| ![In Progress](./img/label-in_progress.png) | Issue is assigned to a DRI and work has started. |
-| ![Done](./img/label-done.png) | Issue is updated with the outcome of the work that was done, and this label is applied and issue closed. |
+| ![Triage](img/label-triage.png) | Default label added to issues created. Issues with this label need to be confirmed as work we would consider. If we don't want to consider the issue further, we mark it with `workflow-infra::Cancelled` and close it. If this issue does not need Product validation, and we are ready for implementation, issue is moved to `workflow-infra::Ready`. Otherwise, we move it to the next stage `workflow-infra::Proposal`. |
+| ![Proposal](img/label-proposal.png) | In this stage, proposal is being created and put forward for review with the rest of the team. Issues in this stage are also a part of Product validation workflow. If there are no further questions or blockers, the issue is supposed to be sufficiently refined and ready for implementation and can be moved into `workflow-infra::Ready`. The epics that encapsulate the implementation work for customer facing features must have a Product Manager sign-off before they can be moved to `workflow-infra::Ready` |
+| ![Ready](img/label-ready.png) | The issue is waiting to be picked up for work. |
+| ![In Progress](img/label-in_progress.png) | Issue is assigned to a DRI and work has started. |
+| ![Done](img/label-done.png) | Issue is updated with the outcome of the work that was done, and this label is applied and issue closed. |
 
 There are three other workflow labels of importance:
 
 | State Label | Description |
 | ----------- | ----------- |
-| ![Cancelled](./img/label-cancelled.png) | Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed. |
-| ![Stalled](./img/label-stalled.png) | If no update has been provided in an issue for over a week, the issue will get this label. The team Engineering Manager is responsible for reviewing the status of the issue and helping it move along. |
-| ![Blocked](./img/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
+| ![Cancelled](img/label-cancelled.png) | Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed. |
+| ![Stalled](img/label-stalled.png) | If no update has been provided in an issue for over a week, the issue will get this label. The team Engineering Manager is responsible for reviewing the status of the issue and helping it move along. |
+| ![Blocked](img/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
 
 #### Support labels
 
-Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance via the ["request for help"](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index/#gitlab-dedicated).
+Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance using the ["request for help"](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index/#gitlab-dedicated) and the [GitLab docs](https://docs.gitlab.com/).
 
 | State Label | Description |
 | ----------- | ----------- |
-| `support::toreview` | The `support::toreview` label is applied by default to issues created by Support Engineers [formally seeking assistance](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) on behalf of a customer in a ticket. |
 | `support::reviewed` | The `support::reviewed` label is applied when these issues have been reviewed and the review did not directly result in an issue or MR. |
 | `support::reviewed-and-improvement-made` | The `support::reviewed-and-improvement-made` label is applied when an improvement has been made based on a review. Improvements include opened issues or MRs. |
 
@@ -502,28 +483,14 @@ To denote different types of components and services we are working with, we lev
 
 Component labels with their description can be found [by searching prioritized labels](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/labels?subscribed=&search=component).
 
-#### Launch milestone labels
-
-In order to make GitLab Issue board easier to use, we also applied `Launch::` scoped labels, denoting the Product launch milestones defined in [the project readme](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/README.md#timeline). Launch labels indicate the intended milestone during which work can be executed (intention, not guarantee).
-
-**Note:** After the [GitLab Dedicated GA announcement](https://about.gitlab.com/blog/2023/06/15/gitlab-dedicated-available/), the `Launch::` label is no longer useful and we are not using it anymore.
-
-Valid options are one of:
-
-1. `Launch::Beta` - Beta
-1. `Launch::LA` - Limited Availability
-1. `Launch::GA` - General Availability
-
-These labels exist only because filtering by epic in GitLab issue boards does not include issues from sub-epics. We have an option of creating an epic board (listing all epics), or issue board per defined epic, but there is currently no way to centralise all issues within a parent epic's children epics.
-
 #### Cloud Provider labels
 
 These scoped labels are intended to distinguish generic work to everything made for a specific cloud provider.
 
 | Cloud Provider Label | Description |
 | ----------- | ----------- |
-| ![AWS](./img/cloud-provider-aws.png) | Amazon Cloud specific implementation |
-| ![AWS](./img/cloud-provider-gcp.png) | Google Cloud specific implementation |
+| ![AWS](img/cloud-provider-aws.png) | Amazon Cloud specific implementation |
+| ![AWS](img/cloud-provider-gcp.png) | Google Cloud specific implementation |
 
 #### Workaround labels
 
@@ -531,7 +498,133 @@ Scoped workaround labels are intended to track temporary workarounds applied to 
 
 | Workaround label | Description |
 | ----------- | ----------- |
-| ![workaround active](./img/workaround-active.png) | This label is applied to issues describing workarounds applied to tenant instances |
+| ![workaround active](img/workaround-active.png) | This label is applied to issues describing workarounds applied to tenant instances |
+
+### Capacity Planning
+
+We operate a Capacity Planning rotation,
+which switches on a fortnightly basis amongst all on-call SRES,
+with the schedule managed in [PagerDuty](https://gitlab.pagerduty.com/schedules#PAP8TMH).
+While Capacity Planning should not require large effort most weeks,
+in the event of a Capacity Planning shift overlapping with an on-call shift,
+consider swapping your capacity planning shift with another engineer
+to ensure both tasks receive the necessary attention.
+The goal is to give ourselves the best chance of resolving impending saturation events
+_before_ they become a customer-impacting incident
+It is based on statistical modeling and human interpretation,
+and is not expected to be perfect in every situation.
+Do your best,
+and understand that the process is inherently imprecise and fuzzy at the edges.
+
+The Dedicated capacity process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/).
+
+The overall flow of work is to assess any new reported saturation risks,
+and re-review any which are due to be looked at again.
+If there is an apparent risk of saturation,
+initiate further assessment for potential remediation action,
+and actively manage any such ongoing issues that are assigned to you.
+
+At the start of your shift review the
+[handover issue](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Handover)
+from the prior shift and close it when you are up to speed.
+
+At the start of each work week while you are on duty,
+as a high priority task that is second only to active incidents:
+
+1. Review the capacity planning issues that are:
+   1. In the Open column of the [board](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/boards/7536402).
+   1. [Previously assessed](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues/?label_name%5B%5D=violation%3Asaturation) but now and therefore in need of a new look.
+   - Use the labels auto-populated on the issue to help prioritize if necessary.
+     `violation:hard` is more important than `violation:soft`,
+     and `severity::` provides additional signal.
+1. For each saturation issue that is up for review,
+   evaluate the prediction given in the issue:
+   - Check the tips below for suggestions on quickly assessing predictions as false positives;
+     this is a good way to quickly reduce the number of issues requiring more work
+   - If evaluation requires non-trivial investigation over more than a day calendar time,
+     label it `capacity-planning:investigate` and investigate when you have dealt with higher priority capacity planning issues
+   - If you assess that it warrants active action in the near future and is not already `capacity-planning::in-progress`:
+      1. Label it `~capacity-planning:in-progress`,
+      1. Add or update the due date to next week, and
+      1. Create a remediation [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=saturation_risk)
+      - Take into consideration whether we have existing remediation options
+        (e.g performance-based overlays, or entire reference architecture upsizing)
+        or if we will need to add capabilities to handle the particular saturation problem.
+        Err on the side of raising an issue for further discussion;
+        we can always close it and return to monitoring status.
+   - If it's in `capacity-planning::in-progress` check on the remediation issue and ensure it is making progress,
+     and update the due-date to be 1 week in the future.
+     If remediation has completed,
+     move the issue to `capacity-planning::verification`
+     or, if results are already clearly sufficient, close it.
+   - If it is in `capacity-planning::verification`,
+     check if the remediation results can be considered sufficient,
+     and if so close the issue.
+     If not, update the due date to next week for further review.
+   - If the prediction has a wide-range and there is no indication that it will breach any time soon,
+     or the lead time is sufficient that there is no urgency (for example 3+ months for Gitaly disk saturation),
+     label the issue with `~capacity-planning::monitor`
+     and update the due-date to just before the start of the next shift
+     for review by the incoming duty engineer.
+   - If a metric is of a nature (perhaps for reasons specific to Dedicated)
+     that predictions are consistently unusable across all customers for that metric,
+     or if the prediction is plausibly useful but needs tuning:
+      1. Label it `capacity-planning::tune-model`,
+      1. Update the due-date to 2 weeks in the future,
+      1. Work on the tamland
+         [manifest](https://gitlab.com/gitlab-com/runbooks/-/blob/master/reference-architectures/get-hybrid/config/tamland/manifest.json)
+        to exclude or tweak the specific saturation signal.
+         - The [Scalability:Observability](/handbook/engineering/infrastructure/team/scalability/observability/) team
+        can offer advice on the finer details of the tamland configuration.
+1. Check that Tamland is [running](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/pipeline_schedules).
+   The pipeline should run successfuly every day.
+   Investigate and fix any errors or failures.
+1. Check if there are new production tenants not [listed](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/blob/main/tenants.yaml).
+   Update the list as necessary and create corresponding `tenant::` [labels](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/labels?subscribed=&sort=relevance&search=tenant%3A%3A).
+
+When your shift comes to an end,
+create a [handover issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=capacity_planning_handover&issue[title]=Capacity%20Planning%20Triage%20handover%20notes%20YYYY-MM-DD)
+assign it to the incoming duty engineer and populate with any information that the incoming shift should know about.
+Let comments/discussions on the specific issues speak for mundane and routine matters, to be reviewed on their due date, but consider noting:
+
+1. Any metrics that were coming close to being a concern but didn't warrant remediation just yet,
+   or that are in some way unusual
+2. Brief comment on any ongoing remediations.
+   Reassign the remediation implementation issues to the incoming duty engineer,
+   unless you want to finish them up yourself or they are assigned to someone else for specific reasons.
+
+Remember to record updates and status comments on each capacity-planning issue when necessary or useful,
+just like you would on a team issue.
+
+Some tips:
+
+1. Forecasts may take several months to become predictable on new tenants.
+   As long as the literal numbers aren't too high,
+   do not be alarmed if the predicted range is wide and tamland is being overly cautious.
+   Putting into `capacity-planning::monitor` state is a good course of action in this situation
+1. Sometimes Tamland will generate alerts for services whose saturation forecast is generally trending downwards,
+   but which Tamland's confidence interval (the light blue area in prediction graphs) still includes the possibility of saturation.
+   Unless you have specific reasons to suspect a real saturation risk,
+   strongly consider tagging the issue as `capacity-planning::monitor` and moving its due date out by 2+ weeks.
+1. Try to get ahead of obvious gradual growth with enough time to take calm action.
+   For example, 1 month of warning for something like Gitaly or Opensearch disk usage is sufficient to schedule an expansion of the storage volumes during upcoming maintenance windows,
+   not in a hurry in response to a pager alert
+1. For items that need to be monitored it is encouraged to attach the current forecast in the comment;
+   the forecast will likely change in place over the following weeks, and the history can be useful.
+1. Look for the component / alert name in the
+   [Capacity Planning Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-tracker/gitlab-dedicated/-/issues) can be a good source of information,
+   as some recurring saturation forecast share the same or similar causes,
+   or just to gain some insight into how these issues have been investigated and resolved in the past.
+1. Remember that some items may alert across multiple tenants.
+   If possible, treat them as a unit rather than per-tenant,
+   unless the causes and fixes are truly distinct.
+   This is particularly important for false-positives or items needing tuning
+1. Trust your instincts.
+   If it looks concerning, raise a remediation issue; they are free, and can easily be closed again after additional input.
+   If it looks fine it probably is,
+   and even if it isn't then there's a rotating schedule of other engineers in the following weeks who can spot something you missed.
+   This process is designed to get warning of things that are coming when possible,
+   not to be a perfect predictor in all cases.
 
 ### Resources
 
@@ -542,4 +635,3 @@ Resources used by the team to conduct work are described on the [Development Res
 - Name for [`Switchboard` customer portal](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/7#note_591358260) was suggested by @marin after he spent a day trying to figure out which mixing console (Also known as a switchboard/soundboard) to get for amateur music making. He didn't buy anything, but the suggestion was accepted.
 - Name for [`Amp` management cluster](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/31#note_609710775) was suggested by @ccasella, as it is the instance that is "powering" supply of other instances.
 - [Dedicated Group - Year in Review 2023](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3681)
-

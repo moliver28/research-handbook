@@ -40,6 +40,7 @@ From a young age we are often trained to jump to solutions as quickly as possibl
 We can't design in isolation. All the decisions we make are in the context of a broader system. We must zoom in and out between the system and its component parts to do our best work. Unfortunately, humans can only hold 5 (plus/minus 2) pieces of information in working memory at any one time (see [cognitive load](https://www.mindtools.com/pages/article/cognitive-load-theory.htm), [Miller's Law](https://lawsofux.com/millers-law)). Therefore, we need to think at different levels of abstraction to manage this limitation. The ladder of abstraction is a useful mental model to recognise what level of abstraction you are currently working in. You can move up the ladder (more abstract) by asking "why?" or "what does that mean?". You can move down the ladder by asking "how does that work?" or "can you give me an example?".
 
 **Example:**
+
 - Very abstract: *"This is how I commute to work"*
 - Moderately abstract: *"This is my personal transportation device"*
 - Concrete: *"This is a bicycle"*
@@ -47,6 +48,7 @@ We can't design in isolation. All the decisions we make are in the context of a 
 ![img](https://miro.medium.com/max/1024/0*Z4Xl09fXVXepGCGD.png)
 
 **Actions**
+
 - Read "[Up and Down the Ladder of Abstraction](https://medium.com/@tombarrett/up-and-down-the-ladder-of-abstraction-cb73533be751)"
 - Use the "[5 Whys exercise](https://toolbox.hyperisland.com/the-5-whys)" to move up the ladder of abstraction
 - Use sketches and prototypes  to move down the ladder of abstraction
@@ -56,4 +58,3 @@ We can't design in isolation. All the decisions we make are in the context of a 
 - [Salesforce Workdifferently](https://www.salesforce.com/workdifferently/)
 - [Salesforce Workdifferently: An Introduction To The 6 Principles To Work Differently (video)](https://www.salesforce.com/video/3642076/)
 - [IBM enterprise design thinking](https://www.ibm.com/design/thinking/)
-

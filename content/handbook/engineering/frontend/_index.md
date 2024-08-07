@@ -32,7 +32,7 @@ You can reach out to these experts to get help on:
 The frontend group has scheduled weekly calls every Tuesday. Since 2021-06-01, these occur at three staggered, time zone friendly times, repeating every three weeks. During these calls, team members are encouraged to share
 information that may be relevant to share with other members synchronously (Eg. new documentation change, new breaking changes added to `master`).
 
-To help identify possible conflict areas in a release we encourage members to post a link to a comment in an issue that you’re working on that crosses the borders of the domain of your stage group that you feel has the potential of colliding with the work of others.
+To help identify possible conflict areas in a release we encourage members to post a link to a comment in an issue that you're working on that crosses the borders of the domain of your stage group that you feel has the potential of colliding with the work of others.
 
 #### Frontend themed call
 

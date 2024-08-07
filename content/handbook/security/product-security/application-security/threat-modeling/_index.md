@@ -17,7 +17,7 @@ We've developed an issue template available [here](https://gitlab.com/gitlab-com
 
 The basis of our threat modeling is modeled after [PASTA](https://en.wikipedia.org/wiki/Threat_model#P.A.S.T.A.) It should be noted that a full PASTA threat model is usually not required as it involves 7 steps, and in many cases only the steps 4, 5, and 6 are needed. To make it even easier, you can use [STRIDE](https://en.wikipedia.org/wiki/STRIDE_(security)) to help define the threats.
 
-Therefore we've included a beginner-friendly [how-to guide to threat modeling]({{< ref "./howto" >}}) which you should read if you're new to threat modeling. It includes a bit more detail about using STRIDE. If you need additional help, please ping the AppSec team or reach out in the #sec-appsec Slack channel.
+Therefore we've included a beginner-friendly [how-to guide to threat modeling](howto/) which you should read if you're new to threat modeling. It includes a bit more detail about using STRIDE. If you need additional help, please ping the AppSec team or reach out in the #sec-appsec Slack channel.
 
 ### Samples of PASTA Evaluations
 
@@ -29,21 +29,21 @@ More samples will be added later.
 
 The most common use of threat modeling within a tech company like GitLab is our code base. The Security Team has developed a threat modeling "framework" for Engineering with the following in mind:
 
- - Establish a framework that is easy to understand and follow
- - The framework should enhance DevSecOps, and introduce minimal overhead
- - The framework should be based upon an existing framework with an established track record, if possible, as that may be more familiar to current GitLab team members
- - As the Security Team helps with the popular and successful Hackerone bug bounty program, handles compliance needs, and deals with security threats against our assets, having a framework that would allow us to provide "feedback" into the process of analyzing risk is extremely important in helping to determine actual outcomes
- - The framework should be flexible enough that it can be used outside of Engineering by other GitLab teams
+- Establish a framework that is easy to understand and follow
+- The framework should enhance DevSecOps, and introduce minimal overhead
+- The framework should be based upon an existing framework with an established track record, if possible, as that may be more familiar to current GitLab team members
+- As the Security Team helps with the popular and successful Hackerone bug bounty program, handles compliance needs, and deals with security threats against our assets, having a framework that would allow us to provide "feedback" into the process of analyzing risk is extremely important in helping to determine actual outcomes
+- The framework should be flexible enough that it can be used outside of Engineering by other GitLab teams
 
 The purpose of the GitLab Threat Modeling Process is to provide a starting point for future [AppSec Code Reviews]({{< ref "appsec-reviews" >}}). Threat models are based on the conceptual architecture of the application and only utilize code to substantiate findings when possible.
 
 One might ask why we are doing this. Our reasoning involves these important points:
 
- - The Security Team already performs risk analysis and assessments constantly, this gives us a common language
- - A common language allows for better communications between Engineering groups, particularly in an all-remote company that makes use of asynchronous communications
- - When dealing with partners, customers, and contributors, we have a common point of reference we can use for discussion
- - Being a secure company with a mature and robust code base is our goal, and this helps with that effort
- - We already have a large code base - instead of trying to rewrite and re-analyze everything from scratch, threat modeling gives us a tool to evaluate new changes to help mitigate future risks. As we triage security issues or introduce new security-related features, we have a tool that will allow us to work off some of the organization and technical debt associated with security and risk is easier-to-digest pieces.
+- The Security Team already performs risk analysis and assessments constantly, this gives us a common language
+- A common language allows for better communications between Engineering groups, particularly in an all-remote company that makes use of asynchronous communications
+- When dealing with partners, customers, and contributors, we have a common point of reference we can use for discussion
+- Being a secure company with a mature and robust code base is our goal, and this helps with that effort
+- We already have a large code base - instead of trying to rewrite and re-analyze everything from scratch, threat modeling gives us a tool to evaluate new changes to help mitigate future risks. As we triage security issues or introduce new security-related features, we have a tool that will allow us to work off some of the organization and technical debt associated with security and risk is easier-to-digest pieces.
 
 *The overall goal is not to create a rigid structure that must be strictly followed, but an adaptive tool that proactively helps uncover security risks before they occur and even chart out solutions based upon the likelihood of the risk.*
 
@@ -59,22 +59,22 @@ There are several other threat modeling frameworks, however others were deemed e
 
 Other threat modeling frameworks examined:
 
- - [STRIDE](https://en.wikipedia.org/wiki/STRIDE_(security)). This has been used by Microsoft, and is primarily focused on threats themselves, and tends to lean toward known/existing threats. As they outgrew STRIDE, they developed [SDL](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) (that runs on Microsoft Windows) that allows them to define templates and evaluate threats. We do not run Windows, nor does our focus involve the existing templates they have designed for it. As a part of the overall development process within Microsoft, it is still more “code-centric” that we need.
- - Evil Personas. The focus of Evil Personas similar to regular Personas, but the emphasis is on threat actors. it does not cover code-centric projects, just perceived threats. Useful, but limited as it assumes a threat is a person or group of people. Most "persona" scenarios are usually built in or added onto other threat models, refer to [this paper on Attack Personas](https://www.cs.ox.ac.uk/files/4007/PID1871807.pdf) for a reference to the more aggressive side of personas in threat modeling.
- - Playing cards. There are several versions of this including [Elevation of Privilege](https://github.com/adamshostack/eop) Extremely useful tool, but better designed for in-person collaborations, and is more aligned with STRIDE in mind. Similar to Attack Trees, it focuses more on the attack end in reference to a chunk of infrastructure or code. This would be a fun thing to do at a future Contribute, but it does not scale well for a Zoom-based culture.
- - [Attack Trees](https://en.wikipedia.org/wiki/Attack_tree). The focus is on attacks only, as a process to map flaws in existing code and systems.
+- [STRIDE](https://en.wikipedia.org/wiki/STRIDE_(security)). This has been used by Microsoft, and is primarily focused on threats themselves, and tends to lean toward known/existing threats. As they outgrew STRIDE, they developed [SDL](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) (that runs on Microsoft Windows) that allows them to define templates and evaluate threats. We do not run Windows, nor does our focus involve the existing templates they have designed for it. As a part of the overall development process within Microsoft, it is still more "code-centric" that we need.
+- Evil Personas. The focus of Evil Personas similar to regular Personas, but the emphasis is on threat actors. it does not cover code-centric projects, just perceived threats. Useful, but limited as it assumes a threat is a person or group of people. Most "persona" scenarios are usually built in or added onto other threat models, refer to [this paper on Attack Personas](https://www.cs.ox.ac.uk/files/4007/PID1871807.pdf) for a reference to the more aggressive side of personas in threat modeling.
+- Playing cards. There are several versions of this including [Elevation of Privilege](https://github.com/adamshostack/eop) Extremely useful tool, but better designed for in-person collaborations, and is more aligned with STRIDE in mind. Similar to Attack Trees, it focuses more on the attack end in reference to a chunk of infrastructure or code. This would be a fun thing to do at a future Contribute, but it does not scale well for a Zoom-based culture.
+- [Attack Trees](https://en.wikipedia.org/wiki/Attack_tree). The focus is on attacks only, as a process to map flaws in existing code and systems.
 
 PASTA has a number of advantages for GitLab over other frameworks:
 
- - Risk centric - mitigating what matters
- - Evidence-based threat modeling
-    - Harvest threat intel to support threat motives
-    - Leverage threat data to support prior threat patterns
- - Focus on probability of attack, likelihood, inherent risk, impact of compromise
- - Collaborative
- - Prioritization should define when and what apps to apply the threat model, and be apart of the threat model process itself
+- Risk centric - mitigating what matters
+- Evidence-based threat modeling
+  - Harvest threat intel to support threat motives
+  - Leverage threat data to support prior threat patterns
+- Focus on probability of attack, likelihood, inherent risk, impact of compromise
+- Collaborative
+- Prioritization should define when and what apps to apply the threat model, and be apart of the threat model process itself
 
-PASTA has the advantage in that it can be adopted from code-based scenarios to infrastructure scenarios easily. It can be adapted to cover non-traditional threats, such as bad PR due to an executive’s social media posting or the company’s selling of the GitLab product to a controversial organization. It can even be used to map in incident response scenarios, as it allows for threat reinforcement from threat intel sources including logs, intel services, and even previous incidents.
+PASTA has the advantage in that it can be adopted from code-based scenarios to infrastructure scenarios easily. It can be adapted to cover non-traditional threats, such as bad PR due to an executive's social media posting or the company's selling of the GitLab product to a controversial organization. It can even be used to map in incident response scenarios, as it allows for threat reinforcement from threat intel sources including logs, intel services, and even previous incidents.
 
 ## PASTA Stages
 
@@ -84,10 +84,10 @@ There are seven stages to PASTA, here are our definitions. Note that while many 
 
 This helps set the tone for the project or assessment. It considers the following:
 
- - Business objectives. State the business objective of the project. This can be the purpose of the code, the change to the infrastructure, the goal of the marketing campaign, whatever the objective is.
- - Security, Compliance, and Legal requirements. These are both guidelines and limits in a broad sense. For example, the licensing for a proposed third party application should be in order, the privacy policy of the new SaaS application being considered meets muster, or the new code does not require lowering security standards.
- - Business impact analysis. This should include impact to mission and business processes, recovery processes, budget impact, and system resource requirements.
- - Operational impact. This should include impact to existing processes already in use by operational personnel. For example, extra logging could be introduced that might impact interpretation of system events, increase the number of steps for future changes, or alter documented procedures for advanced troubleshooting.
+- Business objectives. State the business objective of the project. This can be the purpose of the code, the change to the infrastructure, the goal of the marketing campaign, whatever the objective is.
+- Security, Compliance, and Legal requirements. These are both guidelines and limits in a broad sense. For example, the licensing for a proposed third party application should be in order, the privacy policy of the new SaaS application being considered meets muster, or the new code does not require lowering security standards.
+- Business impact analysis. This should include impact to mission and business processes, recovery processes, budget impact, and system resource requirements.
+- Operational impact. This should include impact to existing processes already in use by operational personnel. For example, extra logging could be introduced that might impact interpretation of system events, increase the number of steps for future changes, or alter documented procedures for advanced troubleshooting.
 
 ### Stage II - Define technical scope
 
@@ -100,46 +100,46 @@ This does not have to be "tech" per se, but should include project boundaries.
 
 This allows mapping of what is important to what is in scope.
 
- - Identify use cases, define application entry points and trust levels even if they are to remain unchanged as a result of the project.
- - Identify actors, assets, services, roles, and data sources.
- - Document data movement (in motion, at rest) via Data Flow Diagramming. Show trust boundaries, including existing as well as proposed changes.
- - Document all data touched and its classification.
+- Identify use cases, define application entry points and trust levels even if they are to remain unchanged as a result of the project.
+- Identify actors, assets, services, roles, and data sources.
+- Document data movement (in motion, at rest) via Data Flow Diagramming. Show trust boundaries, including existing as well as proposed changes.
+- Document all data touched and its classification.
 
 ### Stage IV - Threat Analysis
 
 This is where we mainly look to document relevant threats and threat patterns to the data we have gathered up until now.
 
- - Probabilistic attack scenario analysis, where any scenario that could happen is at least listed.
- - Regression analysis on security events, where we example events that touch on some of the same or similar components.
- - Threat intel correlation, by taking data from logs, Hackerone reports, incidents, and other sources that can be used to indicate an attack scenario.
+- Probabilistic attack scenario analysis, where any scenario that could happen is at least listed.
+- Regression analysis on security events, where we example events that touch on some of the same or similar components.
+- Threat intel correlation, by taking data from logs, Hackerone reports, incidents, and other sources that can be used to indicate an attack scenario.
 
 ### Stage V - Vulnerability and weakness analysis
 
 This is were we examine the threats, ranking them and assessing their likelihood.
 
- - Examine existing vulnerability reports and issues tracking.
- - Threat to existing vulnerability mapping using threat trees.
- - Design Flaw analysis using use and abuse cases.
- - Scorings (CVSS) and Enumeration (CWE/CVE).
- - Impacted systems, sub-systems, data. Are we adding to or altering something that has a history of exploitation. Is the current state vulnerable, and will this change potentially be influenced by or change that assessment.
+- Examine existing vulnerability reports and issues tracking.
+- Threat to existing vulnerability mapping using threat trees.
+- Design Flaw analysis using use and abuse cases.
+- Scorings (CVSS) and Enumeration (CWE/CVE).
+- Impacted systems, sub-systems, data. Are we adding to or altering something that has a history of exploitation. Is the current state vulnerable, and will this change potentially be influenced by or change that assessment.
 
 ### Stage VI - Attack modeling
 
 We go through the threats and turn them into attacks, by examining the attack surface before and after our proposed changes.
 
- - Attack surface analysis for the impacted components.
- - Attack tree development. This is where something like MITRE ATT&CK can assist.
- - Attack --> Vulnerability --> Exploit analysis using attack trees.
- - Summarize the impact and explain each risk.
+- Attack surface analysis for the impacted components.
+- Attack tree development. This is where something like MITRE ATT&CK can assist.
+- Attack --> Vulnerability --> Exploit analysis using attack trees.
+- Summarize the impact and explain each risk.
 
 ### Stage VII - Risk and Impact Analysis
 
 This covers the development of the rationale for mitigation based upon residual risk.
 
- - Qualify and quantify the business impact.
- - Countermeasure identification and residual impact.
- - Identify risk mitigation strategies. Effectiveness of mitigation(s) vs cost to implement mitigation.
- - Residual benefits, as the implementation of a change to single component as a mitigation effort could mean increased security for other systems that access that component.
+- Qualify and quantify the business impact.
+- Countermeasure identification and residual impact.
+- Identify risk mitigation strategies. Effectiveness of mitigation(s) vs cost to implement mitigation.
+- Residual benefits, as the implementation of a change to single component as a mitigation effort could mean increased security for other systems that access that component.
 
 ## Three Tiered Approach
 
@@ -147,12 +147,12 @@ To help with implementing and using the PASTA framework, we can use a three-tier
 
 ### Blind threat model
 
-GitLab’s best practices applied to components of the project.
+GitLab's best practices applied to components of the project.
 
- - Maps key goals of app or service and correlates to clear technical standards for architecture, hardening of server/service, app framework, containers, etc.
- - Best practices per component. For example, TLS settings that are set to a GitLab standard, noting if our own standard is higher or lower than industry best practices.
- - Best practices for coding are applied here as well, the “Sec” part of DevSecOps and our integration of this into CI/CD.
- - SAST/DAST policies and scopes. We can "eat our own dogfood" to improve the quality of the changes we implement.
+- Maps key goals of app or service and correlates to clear technical standards for architecture, hardening of server/service, app framework, containers, etc.
+- Best practices per component. For example, TLS settings that are set to a GitLab standard, noting if our own standard is higher or lower than industry best practices.
+- Best practices for coding are applied here as well, the "Sec" part of DevSecOps and our integration of this into CI/CD.
+- SAST/DAST policies and scopes. We can "eat our own dogfood" to improve the quality of the changes we implement.
 
 *Applies Stage I & Stage II of PASTA*
 
@@ -160,18 +160,18 @@ GitLab’s best practices applied to components of the project.
 
 Proof of a threat via numerous indicators as opposed to just theory or conjecture.
 
- - Integrate threat log data analysis.
- - Focus on logs that support attack vector with the greatest motives (e.g. TLS MITM vs Injection-based attacks).
- - Correlate threat intel for foreseeing trends of attacks for target applications that are related to project components.
+- Integrate threat log data analysis.
+- Focus on logs that support attack vector with the greatest motives (e.g. TLS MITM vs Injection-based attacks).
+- Correlate threat intel for foreseeing trends of attacks for target applications that are related to project components.
 
 *Applies Stage III, IV, V of PASTA*
 
 ### Full Risk Based Threat Model
 
- - Statistical/probabilistic analysis on threat data & attack effectiveness
- - Consider non-traditional threat vectors
- - This includes threat intel, H1 trends, existing logs
- - Substantiate the threats that are defined with real data
+- Statistical/probabilistic analysis on threat data & attack effectiveness
+- Consider non-traditional threat vectors
+- This includes threat intel, H1 trends, existing logs
+- Substantiate the threats that are defined with real data
 
 *Applies all stages of PASTA*
 
@@ -179,7 +179,7 @@ Proof of a threat via numerous indicators as opposed to just theory or conjectur
 
 Here are some helpful links.
 
- - [Excerpt from a Security Department "Show and Tell" discussing Threat Modeling](https://www.youtube.com/watch?v=bySfiuk5iHg).
- - [Blog post](https://michenriksen.com/blog/drawio-for-threat-modeling/) by [Michael Henriksen](https://www.gitlab.com/mhenriksen) that talks about using Draw.io [available via diagrams.net](https://www.diagrams.net/index.html) to construct diagrams and flowcharts, and using them during threat modeling. Included is a [link](https://github.com/michenriksen/drawio-threatmodeling) to useful libraries for threat model diagrams.
- - In addition to [Elevation of Privilege](https://www.microsoft.com/en-us/download/details.aspx?id=20303) there is also [OWASP Cornucopia](https://owasp.org/www-project-cornucopia/), which leans more towards web-based applications.
- - [MITRE ATT&CK](https://attack.mitre.org/). This is not a framework used for threat modeling per se, but it could be adapted to and mapped to an existing threat modeling framework.
+- [Excerpt from a Security Department "Show and Tell" discussing Threat Modeling](https://www.youtube.com/watch?v=bySfiuk5iHg).
+- [Blog post](https://michenriksen.com/blog/drawio-for-threat-modeling/) by [Michael Henriksen](https://www.gitlab.com/mhenriksen) that talks about using Draw.io [available via diagrams.net](https://www.diagrams.net/index.html) to construct diagrams and flowcharts, and using them during threat modeling. Included is a [link](https://github.com/michenriksen/drawio-threatmodeling) to useful libraries for threat model diagrams.
+- In addition to [Elevation of Privilege](https://www.microsoft.com/en-us/download/details.aspx?id=20303) there is also [OWASP Cornucopia](https://owasp.org/www-project-cornucopia/), which leans more towards web-based applications.
+- [MITRE ATT&CK](https://attack.mitre.org/). This is not a framework used for threat modeling per se, but it could be adapted to and mapped to an existing threat modeling framework.

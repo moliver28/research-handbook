@@ -104,15 +104,15 @@ The Senior Accounts Payable Analyst is a [grade 7](/handbook/total-rewards/compe
 - High degree of attention to detail
 - Strong analytical skills
 
-### Accounts Payable Manager
+### Manager, Accounts Payable
 
-Accounts Payable Manager reports to The [Senior Manager, Accounts Payable](/job-families/finance/accounts-payable/)
+The Manager, Accounts Payable reports to The [Senior Manager, Accounts Payable](/job-families/finance/accounts-payable/)
 
-#### Accounts Payable Manager Job Grade
+#### Manager, Accounts Payable Job Grade
 
-The Accounts Payable Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Manager, Accounts Payable is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Accounts Payable Manager Responsibilities
+#### Manager, Accounts Payable Responsibilities
 
 - Extends that of the Senior Accounts Payable Analyst responsibilities
 - Lead project implementation of AP accounting tools to help automate and streamline
@@ -120,8 +120,9 @@ The Accounts Payable Manager is a [grade 8](/handbook/total-rewards/compensation
 - Establish and enforce proper accounting policies and principles as it pertains to accounts payable
 - Train and support staff and new hires on procure to payment, plus expense life cycle
 - Ensure SOX compliance for AP and expense controls
+- Responsible to supervise activities of accounts payable staff to ensure consistent application of best practice, productivity, and adherence to internal controls for accounts payable compliance
 
-#### Accounts Payable Manager Requirements
+#### Manager, Accounts Payable Requirements
 
 - Extends that of the Senior Accounts Payable Analyst requirements
 - 8+ years of related accounts payable experience is required
@@ -133,7 +134,7 @@ The Accounts Payable Manager is a [grade 8](/handbook/total-rewards/compensation
 
 ### Senior Manager, Accounts Payable
 
-The Senior Manager, Accounts Payable reports to the [Senior Director, Corporate Controller](<https://about.gitlab.com/job-families/finance/corporate-controller/>.
+The Senior Manager, Accounts Payable reports to the [Senior Director, Corporate Controller](/job-families/finance/corporate-controller/).
 
 #### Job Grade
 
@@ -148,6 +149,7 @@ The Senior Manager, Accounts Payable is a [grade 9](/handbook/total-rewards/comp
 - Prepare, review and approve various AP and AP related balance sheet reconciliations
 - Maintain AP metrics, recommend and implement process improvements to improve efficiency and accuracy
 - Ensure SOX compliance for AP controls
+- Responsible to supervise activities of accounts payable staff to ensure consistent application of best practice, productivity, and adherence to internal controls for accounts payable compliance
 
 #### Senior Manager Requirements
 

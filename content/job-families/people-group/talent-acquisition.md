@@ -54,9 +54,9 @@ The Recruiter is a [grade 6](/handbook/total-rewards/compensation/compensation-c
 
 ### Responsibilities
 
-The Intermediate Recruiter creates a positive experience for candidates and hiring teams throughout the recruiting process. They are key contributers to identifying opportunities within GitLab's hiring processes, typically focuses on work within the scope of thier immediate team, and acts on strategic decisions to influence achievement of goals within their team. An Intermediate Recruiter typically holds anywhere from 8 to 15 requisitions per quarter, dependant on the complexity of thier area, and focuses on pipeline building and foundational excellence.
+The Intermediate Recruiter creates a positive experience for candidates and hiring teams throughout the recruiting process. They are key contributors to identifying opportunities within GitLab's hiring processes, typically focuses on work within the scope of their immediate team, and acts on strategic decisions to influence achievement of goals within their team. An Intermediate Recruiter typically holds anywhere from 8 to 15 requisitions per quarter, dependant on the complexity of their area, and focuses on pipeline building and foundational excellence.
 
-- Collaborate with crossfunctional partners and hiring teams to establish effective recruiting strategies
+- Collaborate with cross-functional partners and hiring teams to establish effective recruiting strategies
 - Engage in Full Lifecycle Recruiting, with a focus on developing a balanced candidate source mix (passive, active and referral candidates)
 - Develop and advertise accurate job descriptions to attract a highly qualified candidate pool
 - Utilize talent market insights and research to influence sourcing strategy
@@ -68,7 +68,7 @@ The Intermediate Recruiter creates a positive experience for candidates and hiri
 - Contribute to TA process iteration, with a focus on continuous improvement
 - Employ deep recruiting pipeline knowledge or experience to identify industry best practices and evaluate competitors
 - Promote GitLab values and culture in day-to-day work and in external-facing settings
-- Partner with Talent Brand to deliver engaging employer brand content and ehance networks and partnerships
+- Partner with Talent Brand to deliver engaging employer brand content and enhance networks and partnerships
 
 ### Requirements
 
@@ -76,7 +76,7 @@ The Intermediate Recruiter creates a positive experience for candidates and hiri
 - Proven success in recruiting for positions in competitive global job markets
 - Focused on delivering an excellent candidate experience
 - Ambitious, efficient and stable under tight deadlines and competing priorities
-- Ability to build collaborative crossfunctional relationships across multiple timezones
+- Ability to build collaborative cross-functional relationships across multiple timezones
 - Working knowledge using a candidate tracking system (ideally Greenhouse) and various sourcing tools (including LinkedIn Recruiter)
 - Outstanding written and verbal communication skills
 - Willingness to learn and use software tools including Git and GitLab
@@ -93,11 +93,11 @@ The Senior Recruiter is a [grade 7](/handbook/total-rewards/compensation/compens
 The Senior Recruiter shares the same requirements as the Intermediate Recruiter listed above but also focuses on cross-functional work. Senior Recruiters influence others by modeling GitLab competencies and providing valuable input and sometimes ownership of strategic decisions within the team.
 
 1. Development of advisory relationships with hiring teams and cross functional partners.
-1. Data driven decision making utilizing data to influence the business appropriately and iterate on current proceses.
+1. Data driven decision making utilizing data to influence the business appropriately and iterate on current processes.
 1. Ownership of integration of representative recruitment practices into their and their teams' work.
 1. Execute on research based sourcing strategies for each and every role
 1. Deliver on Key Performance Indicators (ie: Key Metrics) autonomously on a consistent basis.
-1. Through collaboration with the necessary stakeholders, proactively builds team resources and assets to impact the team's ability to have high quality, influencial conversations.
+1. Through collaboration with the necessary stakeholders, proactively builds team resources and assets to impact the team's ability to have high quality, influential conversations.
 
 ### Senior Requirements
 
@@ -105,7 +105,7 @@ The Senior Recruiter shares the same requirements as the Intermediate Recruiter 
 - Proven success in recruiting for positions in competitive global job markets
 - Focused on delivering an excellent candidate experience
 - Ambitious, efficient and stable under tight deadlines and competing priorities
-- Ability to build collaborative crossfunctional relationships across multiple timezones
+- Ability to build collaborative cross-functional relationships across multiple timezones
 - Working knowledge using recruiting tools (ie: an Applicant Tracking System 'ATS', LinkedIn Recruiter, LinkedIn Insights, SeekOut, etc).
 - Outstanding written and verbal communication skills.
 - Growth mindset with a willingness to learn.
@@ -119,22 +119,22 @@ The Principal Recruiter is a [grade 8](/handbook/total-rewards/compensation/comp
 
 ##### Principal Responsibilities
 
-The Principal Recruiter shares the same requirements as the Senior recruiter listed above, but also focuses on work with a broadere impact across departments. Principal Recruiters proactively own strategic decisions and are an extension of the Talent Acquisition leadership team. Principal Recruiters provide technical and functional knowledge to projects that contribute to overall direction across teams. They understand and focus on complex problems that require a deep understand and expertise of multiple sources of data to make recommendations and drive adoption. Principal recruiters are able to autonomously exercise judgement in developing methods and technicals to obtain results with a functional or team wide impact.
+The Principal Recruiter shares the same requirements as the Senior recruiter listed above, but also focuses on work with a broader impact across departments. Principal Recruiters proactively own strategic decisions and are an extension of the Talent Acquisition leadership team. Principal Recruiters provide technical and functional knowledge to projects that contribute to overall direction across teams. They understand and focus on complex problems that require a deep understanding and expertise of multiple sources of data to make recommendations and drive adoption. Principal recruiters are able to autonomously exercise judgement in developing methods and technicals to obtain results with a functional or team wide impact.
 
 1. Leverages business acumen, functional expertise and good judgement when evaluating possible outcomes.
-1. Proficent in autonomously identifying, scoping and executing on high complexity, relevant functional strategic work.
-1. Drives  a strong connection of TA Strategy through individual, team and functional work.
+1. Proficient in autonomously identifying, scoping and executing on high complexity, relevant functional strategic work.
+1. Drives a strong connection of TA Strategy through individual, team and functional work.
 1. Has broad direct relationships with strategic partners that help drive the goals of business forward.
-1. Expert knowledge of GitLab businesses, both in direct and ancillary purview. Has a keen awarness of GitLab's vision, story and long term goals.
-1. Owns and drives the results of key strategic progrommatic work that is of high priority and broadly impacts the Talent Acquisition function.
+1. Expert knowledge of GitLab businesses, both in direct and ancillary purview. Has a keen awareness of GitLab's vision, story and long term goals.
+1. Owns and drives the results of key strategic programmatic work that is of high priority and broadly impacts the Talent Acquisition function.
 
 ### Principal Requirements
 
-- Proven success in recruiting for senior/niche positions in competitive global job markets utilizing robust TA strategic work for each search (ie: building balanced source mix in senior level positions, spearheading intiatives for new ares of talent needs).
+- Proven success in recruiting for senior/niche positions in competitive global job markets utilizing robust TA strategic work for each search (ie: building balanced source mix in senior level positions, spearheading initiatives for new areas of talent needs).
 - Expert storyteller; experienced leveraging talking points to influence and close the most challenging candidates in competitive markets at senior levels.
 - Proactively creates opportunities to mentor, share and uplevel the team in a way that aligns to the overall teams' strategic direction.
 - Experienced driver of strong connections between TA Strategy and individual, team and functional work.
-- Building a broad set direct relationships with strategic partners with the ability to influence without authority that ultimately drives the goals of business forward.
+- Building a broad set of direct relationships with strategic partners with the ability to influence without authority that ultimately drives the goals of business forward.
 
 ### Talent Acquisition Team Segmentation
 
@@ -168,7 +168,7 @@ The Principal Recruiter shares the same requirements as the Senior recruiter lis
 #### Emerging Talent
 
 - Own recruitment for 'Emerging Talent' Program (all internship and grade 5 hiring at GitLab).
-- Act as a business partner with all functions of leadership while also executing on programmatic elements of the Emergin Talent program.
+- Act as a business partner with all functions of leadership while also executing on programmatic elements of the Emerging Talent program.
 
 ## Hiring Process
 
@@ -176,12 +176,12 @@ Candidates for this position can expect the hiring process to follow the order b
 
 - Qualified candidates will be invited to schedule a 30 minute screening call with one of our Recruiters responsible for TA Hiring.
 - Then, candidates will be invited to schedule...
-    - An initial team interview with either a Peer or Hiring Manager (30-45 minutes)
+  - An initial team interview with either a Peer or Hiring Manager (30-45 minutes)
 - Should we continue to move forward, the next phase of the process is a the Team Interview stage. There, a candidate will be invited to schedule...
-    - Peer Interview
-    - TA Leadership Interview
-    - Hiring Manager Interview
-    - Cross Functional Interview
+  - Peer Interview
+  - TA Leadership Interview
+  - Hiring Manager Interview
+  - Cross Functional Interview
 
 As always, the interviews and screening call will be conducted via a video call.
 See more details about our hiring process on the [hiring handbook](/handbook/hiring/).

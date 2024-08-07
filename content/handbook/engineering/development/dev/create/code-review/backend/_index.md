@@ -7,13 +7,9 @@ description: The Create:Code Review BE team is responsible for all backend aspec
 
 Please refer to the category directions for [Code Review Workflow](https://about.gitlab.com/direction/create/code_review_workflow) and [GitLab CLI](https://about.gitlab.com/direction/create/gitlab_cli) for the current strategy and 1 year plan for these products.
 
-[group]: /handbook/product/categories/#code-review-group
-[stage]: /handbook/product/categories/#create-stage
-[lifecycle]: /handbook/product/categories/#devops-stages
-
 ## Core Responsibilities
 
-The Create:Code Review BE team is responsible for all backend aspects of the product categories that fall under the [Code Review group][group] of the [Create stage][stage] of the [DevOps lifecycle][lifecycle]:
+The Create:Code Review BE team is responsible for all backend aspects of the product categories that fall under the [Code Review group](/handbook/product/categories/#code-review-group) of the [Create stage](/handbook/product/categories/#create-stage) of the [DevOps lifecycle](/handbook/product/categories/#devops-stages):
 
 - [Code Review Workflow](https://about.gitlab.com/stages-devops-lifecycle/create/), mainly the [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/) features
 - [GitLab CLI](https://gitlab.com/gitlab-org/cli)
@@ -44,8 +40,8 @@ The following members of other functional teams are our stable counterparts:
 - [Release Board](https://gitlab.com/groups/gitlab-org/-/boards/2159734)
 - [Workflow Board](https://gitlab.com/groups/gitlab-org/-/boards/2365724) (be sure to add a `milestone` filter)
 - [Reliability](https://gitlab.com/gitlab-org/gitlab/-/boards/4227439?not[label_name][]=type%3A%3Afeature&label_name[]=group%3A%3Acode%20review)
-- [Security](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date&state=opened&label_name%5B%5D=security&label_name%5B%5D=group%3A%3Acode%20review&not%5Blabel_name%5D%5B%5D=type%3A%3Afeature)
-- [InfraDev Issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date&state=opened&label_name%5B%5D=infradev&label_name%5B%5D=group%3A%3Acode%20review&not%5Blabel_name%5D%5B%5D=type%3A%3Afeature&not%5Blabel_name%5D%5B%5D=severity%3A%3A4)
+- [Security](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date&state=opened&label_name%5B%5D=security&label_name%5B%5D=group%3A%3Acode%20review&amp;not%5Blabel_name%5D%5B%5D=type%3A%3Afeature)
+- [InfraDev Issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date&state=opened&label_name%5B%5D=infradev&label_name%5B%5D=group%3A%3Acode%20review&amp;not%5Blabel_name%5D%5B%5D=type%3A%3Afeature&amp;not%5Blabel_name%5D%5B%5D=severity%3A%3A4)
 
 ## Metrics and KPIs
 
@@ -55,7 +51,6 @@ You can find our dashboards here:
 
 - [Centralized Engineering Metrics](https://10az.online.tableau.com/#/site/gitlab/views/TopEngineeringMetrics_16989570521080/TopEngineeringMetricsDashboard)
 - [Development Department Performance Indicators](/handbook/engineering/development/performance-indicators/)
-
 
 ## Team OKRs
 
@@ -77,7 +72,7 @@ To contact the Code Review BE team in GitLab, you can use the `@code-review-be` 
 
 ### Meeting Schedule
 
-[Team members](/handbook/engineering/development/dev/create/code-review/backend/#team-members) meet monthly and are encouraged to join in order to to interact with peers, solve technical challenges, and discuss freely with each other. You can check for the next meeting on the [Code Review Group calendar](https://calendar.google.com/calendar/embed?src=c_bt3jpkj6afr7321vpg9ra1191s%40group.calendar.google.com&ctz=America%2FChicago).
+[Team members](/handbook/engineering/development/dev/create/code-review/backend/#team-members) meet monthly and are encouraged to join in order to interact with peers, solve technical challenges, and discuss freely with each other. You can check for the next meeting on the [Code Review Group calendar](https://calendar.google.com/calendar/embed?src=c_bt3jpkj6afr7321vpg9ra1191s%40group.calendar.google.com&ctz=America%2FChicago).
 
 #### Planning
 
@@ -99,6 +94,7 @@ To assign weights to issues in a future milestone, on every 4th of the developme
 #### Follow-up issues
 
 You will begin to collect follow-up issues when you've worked on something in a release but have tasks leftover, such as technical debt, feature flag rollouts or removals, or non-blocking work for the issue. For these, you can address them in at least 2 ways:
+
 - Add an appropriate future milestone to the follow-up issue(s) with a weight and good description on the importance of working this issue
 - Add the issue(s) to the relevant [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Acode%20review&search=planning)
 
@@ -112,7 +108,7 @@ Many issues require work on both the backend and frontend, but the weight of tha
 
 ### What to work on
 
-The primary source for things to work on is the [Code Review backend issue board][issue board]
+The primary source for things to work on is the [Code Review backend issue board](https://gitlab.com/groups/gitlab-org/-/boards/412126?label_name[]=group::code%20review&label_name[]=backend)
 for the current iteration cycle (don't forget to filter by milestone!), which
 lists all of the Deliverable and Stretch issues scheduled for this cycle in
 priority order.
@@ -122,7 +118,7 @@ process], with input from the team, engineering managers, and other stakeholders
 The iteration cycle lasts from the 18th of one month until the 17th of the next,
 and is identified by the GitLab version set to be released.
 
-There is also the [Code Review backend _assignment_ issue board][assignment board]
+There is also the [Code Review backend _assignment_ issue board](https://gitlab.com/groups/gitlab-org/-/boards/2142016)
 (again, don't forget to filter by milestone!), which shows the same Deliverable
 and Stretch issues, now grouped by assignee, with the left-most list listing
 issues not currently assigned to any backend engineer. On each list, the issues
@@ -131,14 +127,13 @@ are again ordered by priority.
 #### What to work on first
 
 Deliverables are considered top priority and are expected to be done by the end
-of the iteration cycle on the 17th, in time for the [monthly release][releases-handbook].
+of the iteration cycle on the 17th, in time for the [monthly release](/handbook/engineering/releases/).
 
 These top priority issues are assigned to engineers on or ahead of the 18th of
 the month, when the iteration cycle is kicked off, and it is their responsibility
 to make a best effort to get them done during that cycle, and to inform their
 engineering manager if anything is standing in the way of their success.
-You can find the issues assigned to you on the [Code Review backend assignment
-issue board][assignment board] (again, don't forget to filter by milestone!).
+You can find the issues assigned to you on the [Code Review backend assignment issue board](https://gitlab.com/groups/gitlab-org/-/boards/2142016) (again, don't forget to filter by milestone!).
 
 Many things can happen during a month that can result in a deliverable
 not actually being completed by the end of a cycle, and while this usually
@@ -154,12 +149,11 @@ finish a deliverable that hasn't been started yet.
 If this outcome cannot be averted and the deliverable ends up missing the
 cycle, it will simply be moved to the next cycle to be finished up, and the
 engineer and engineering manager will have a chance to
-[retrospect](#retrospectives) and learn from what happened.
+retrospect and learn from what happened.
 
 Generally, your deliverables are expected to take up about 75% of the
 time you spend working in a month. The other 25% is set aside for other
-responsibilities (code review, community merge request coaching, [helping
-people out in Slack, participating in discussions in issues][collaboration],
+responsibilities (code review, community merge request coaching, [helping people out in Slack, participating in discussions in issues](/handbook/values/#collaboration),
 etc), as well as urgent issues that come up during the month and need someone
 working on them immediately (regressions, security issues, customer issues, etc).
 
@@ -167,8 +161,8 @@ working on them immediately (regressions, security issues, customer issues, etc)
 
 If you have time to spare after finishing your deliverables and other
 activities, you can spend the remaining time working on Stretch issues, which
-can also be found on the [Code Review backend issue board][issue board] and [Code Review backend
-assignment issue board][assignment board] (again, don't forget to filter by
+can also be found on the [Code Review backend issue board](https://gitlab.com/groups/gitlab-org/-/boards/412126?label_name[]=group::code%20review&label_name[]=backend) and [Code Review backend assignment issue board](https://gitlab.com/groups/gitlab-org/-/boards/2142016)
+(again, don't forget to filter by
 milestone!).
 
 These lower priority issues are _not_ expected to be done by the end of the
@@ -181,8 +175,8 @@ case of technical debt, bugs related to work someone did recently, or issues
 someone started on before but hasn't had a chance to finish yet.
 
 If no Stretch issues are assigned to you yet, you can find new ones to pick up
-in the left-most list of the [Code Review backend assignment issue board][assignment
-board] (again, don't forget to filter by milestone!), which lists all issues
+in the left-most list of the [Code Review backend assignment issue board](https://gitlab.com/groups/gitlab-org/-/boards/2142016)
+(again, don't forget to filter by milestone!), which lists all issues
 not currently assigned to any backend engineer. As the issues are ordered by
 priority, they should be picked up starting at the top. When you assign
 an issue to yourself to indicate you're working on it, it will move to your list
@@ -197,24 +191,15 @@ issue, so that the next engineer who comes around may find it in a better state.
 Instead of picking up Stretch issues, you may also choose to spend any
 spare time working on anything else that you believe will have a significant
 positive impact on the product or the company in general.
-As the [general guidelines] state, "we recognize that inspiration is
-perishable, so if you’re enthusiastic about something that generates great
+As the [general guidelines](/handbook/values/) state, "we recognize that inspiration is
+perishable, so if you're enthusiastic about something that generates great
 results in relatively little time feel free to work on that."
 
-We expect people to be [managers of one][efficiency] and prefer [responsibility
-over rigidity][efficiency], so there's no need to ask for permission if you
+We expect people to be [managers of one](/handbook/values/#efficiency) and prefer [responsibility over rigidity](/handbook/values/#efficiency),
+so there's no need to ask for permission if you
 decide to work on something that's not on the issue board, but please keep your
 other responsibilities in mind, and make sure that there is an issue, you are
-assigned to it, and consider sharing it in [#g_create_code-review].
-
-[product prioritization process]: /handbook/product/product-processes/#how-we-prioritize-work
-[collaboration]: /handbook/values/#collaboration
-[general guidelines]: /handbook/values/
-[efficiency]: /handbook/values/#efficiency
-[#g_create_code-review]: https://gitlab.slack.com/archives/g_create_code-review
-[releases-handbook]: /handbook/engineering/releases/
-[issue board]: https://gitlab.com/groups/gitlab-org/-/boards/412126?label_name[]=group::code%20review&label_name[]=backend
-[assignment board]: https://gitlab.com/groups/gitlab-org/-/boards/2142016
+assigned to it, and consider sharing it in [#g_create_code-review](https://gitlab.slack.com/archives/g_create_code-review).
 
 ### Deep Dives
 

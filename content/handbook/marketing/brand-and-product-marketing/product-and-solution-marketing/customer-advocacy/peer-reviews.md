@@ -1,10 +1,9 @@
 ---
-
 title: "Peer Review Management"
 ---
 ## Peer Review Management
 
-GitLab actively manages its Peer Review presence as part of its Customer Reference Program to maintain its values of Transparency, Collaboration, and Iteration.  By listening, analyzing, and engaging with customers and the GitLab community as a whole via Peer Reviews, GitLab gains a clearer grasp of customer expectations.  Consistent maintenance of our presence on public Peer Review sites allows a current and dynamic understanding of the Voice of the Customer and this in turn helps helps GitLab Customer Success, Product, Marketing, and Sales teams build better products, sell faster and easier, and make customers' lives better.
+GitLab actively manages its Peer Review presence as part of its Customer Reference Program to maintain its values of Transparency, Collaboration, and Iteration.  By listening, analyzing, and engaging with customers and the GitLab community as a whole via Peer Reviews, GitLab gains a clearer grasp of customer expectations.  Consistent maintenance of our presence on public Peer Review sites allows a current and dynamic understanding of the Voice of the Customer and this in turn helps GitLab Customer Success, Product, Marketing, and Sales teams build better products, sell faster and easier, and make customers' lives better.
 
 | [Want access to a Peer Review Asset?](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/peer-reviews/#current-available-quote-assets) | [Requesting Help in an Issue](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/peer-reviews/#requesting-peer-review-help-in-an-issue) |
 | ------ | ------ |
@@ -39,42 +38,48 @@ To curate each review appropriately, we create an issue within GitLab in the Pee
 ### GitLab User Peer Review Request Options
 
 >- How do I interact with Peer Reviews to request assets?
+>>
 >>- Option 1) Place Assets exist:
+>>>
 >>>- Pitch deck
 >>>- Use Case Pages
 >>>- Event Signage
+>>>
 >>- Option 2) Request Form to pull assets
 >>- Option 3) Issue Request for Specific Quote Research
-
+>
 >- Ex. A) I have a Sales deal with a prospect that needs validation, how do I interact with Peer Reviews?
+>>
 >>- In this example, Sales would likely choose from Option 1 or 2, as available assets will support the needs in many cases.  However, in a unique need, feel free to submit a request via an Issue in Product Marketing (See below for specific directions on accessing assets or submitting requests)
-
+>
 >- Ex. B) Competitive Intelligence Department has specific request for Peer Review quote research?
+>>
 >>- In this example, the department needs specific research, and would want to submit a request via an issue. (See below for specific instructions on requesting Quote Asset Research)
 
 ### Current Available Quote Assets
 
 Some GitLab assets expire; please follow the process for *Asset Check-Out* for tracking purposes.
 
-1) Complete and submit the [Peer Review Submission Request Form](https://forms.gle/Mwt6KrpYZ1kuVifh9) indicating which Peer Review(s) you will be downloading
+1. Complete and submit the [Peer Review Submission Request Form](https://forms.gle/Mwt6KrpYZ1kuVifh9) indicating which Peer Review(s) you will be downloading
 
-2) Access the [Peer Review Quote Assets Shared Document](https://docs.google.com/presentation/d/13tHJ1BgABMTwt0gZeP_hZK0B96Ui2FUrMWFVmFtT9Nw/edit?usp=sharing) to download your Quote Asset(s)
+1. Access the [Peer Review Quote Assets Shared Document](https://docs.google.com/presentation/d/13tHJ1BgABMTwt0gZeP_hZK0B96Ui2FUrMWFVmFtT9Nw/edit?usp=sharing) to download your Quote Asset(s)
 
->- please do not copy/save the entire deck, only the relevant slide(s) required for your deck.  This will facilitate later retrieving/expiring the assets.
->- if additional slides are saved that were not on the original submission form, please retroactively submit an additional form with this information.
->- the quotes most be used exactly as provided, with the URL intact
->- if you have a specific request, see the next section
->- for questions, please @jparker in slack
+   - please do not copy/save the entire deck, only the relevant slide(s) required for your deck.  This will facilitate later retrieving/expiring the assets.
+   - if additional slides are saved that were not on the original submission form, please retroactively submit an additional form with this information.
+   - the quotes most be used exactly as provided, with the URL intact
+   - if you have a specific request, see the next section
+   - for questions, please @jparker in slack
 
 ### Requesting Peer Review Help in an Issue
 
 When available assets do not meet requirements, please submit a specific research request using the following process.
 
-1) Submit an issue using the template "peer-review-request" in the [Product Marketing Project](https://gitlab.com/gitlab-com/marketing/product-marketing)
->- Make sure you use leave the labels contained in the template "Customer Reference Program," "Peer Review Request," which will direct it to the appropriate [Customer Reference Program Issue Board](https://gitlab.com/groups/gitlab-com/marketing/-/boards/927283?label_name[]=Customer%20Reference%20Program)
->- assign it to @jlparker
->- please give at least a 5-7 days notice, to give proper lead time
->- if your request is urgent or you have questions, please @jparker in slack
+1. Submit an issue using the template "peer-review-request" in the [Product Marketing Project](https://gitlab.com/gitlab-com/marketing/product-marketing)
+
+   - Make sure you use leave the labels contained in the template "Customer Reference Program," "Peer Review Request," which will direct it to the appropriate [Customer Reference Program Issue Board](https://gitlab.com/groups/gitlab-com/marketing/-/boards/927283?label_name[]=Customer%20Reference%20Program)
+   - assign it to @jlparker
+   - please give at least a 5-7 days notice, to give proper lead time
+   - if your request is urgent or you have questions, please @jparker in slack
 
 ---
 
@@ -85,7 +90,6 @@ When available assets do not meet requirements, please submit a specific researc
 |  **Stage 1: Gather & Build**  | **Stage 2: Distill**  | **Stage 3: Activate** |
 |---|---|---|
 | Bring in new reviews to CMS under Product Marketing project, listed Epics under Marketing; Public Response for each curated review *(Values: Collaboration, Transparency)*; Get Feedback from broader PMM team re:labels and systematic CMS approach, Ruby scripting; PathFactory insights; Develop Quote Assets by Request | Move to New Project; Rework labels for Brevity and Color coding; Add aditional Epics for additional Peer Review Sites; Develop Relationships with additional Peer Review Sites; Create Vision Page, Ruby Scripting, and updated Handbook page based on Feedback | Use key contacts in other departments to funnel functionally derived information from Peer reviews (Customer Success, Product Development); Send information that achieves critical mass through appropraite channels (meetings, issues, presentations) to improve GitLab's service *(Values: Iteration, Collaboration)* |
-
 
 ### Why Curate Reviews?
 
@@ -106,17 +110,21 @@ When available assets do not meet requirements, please submit a specific researc
 ### Downsides to Passive or Inactive Management
 
 #### Passive Management
+
 - Legal risk
->- Needs active management to maintain parameters / gain approvals <br>
->>- Expired quotes still in use violate rules of engagement for certain contracts<br>
->>- Using quotes without contracts in place violate Terms and Conditions for most Peer Review Vendors<br>
->- Misattribution also furthers legal risk<br>
-- Lack of content to accommodate GitLab internal Sales/Marketing requests<br>
->- Specific requests addressed by CMS<br>
->- [Product Keynote - slide 23](https://docs.google.com/presentation/d/1-Y6ZJIRVTw6pbnAOaOqi_ao6uNV0AvPdOChPkiMWY1U/edit#slide=id.g62a4096e57_8_107)<br>
->- Example of Handbooked Peer Review [Customer Quotes](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/)
+
+  - Needs active management to maintain parameters / gain approvals
+  - Expired quotes still in use violate rules of engagement for certain contracts
+  - Using quotes without contracts in place violate Terms and Conditions for most Peer Review Vendors
+
+- Misattribution also furthers legal risk
+- Lack of content to accommodate GitLab internal Sales/Marketing requests
+- Specific requests addressed by CMS
+- [Product Keynote - slide 23](https://docs.google.com/presentation/d/1-Y6ZJIRVTw6pbnAOaOqi_ao6uNV0AvPdOChPkiMWY1U/edit#slide=id.g62a4096e57_8_107)
+- Example of Handbooked Peer Review [Customer Quotes](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/)
 
 #### Inactive Management
+
 - Negative perception by customers
 - Invisible in comparison with engaged competitors
 - Counter to our values of Transparency and Collaboration
@@ -153,12 +161,13 @@ We currently report basic volume [Metrics](https://gitlab.com/gitlab-com/marketi
 As the Peer Review Program matures, we will also report on:
 
 - Asset Metrics
-> - Peer Review Data
+
+  - Peer Review Data
+
 - Utilization Metrics
 - Active usable Quotes
 - Actively managed Peer Review sites / total Peer Review sites available
-> - give appropriate time context (as / of dates) for site management
 
-<div style="background: #f6f6f6; height:377px; position: relative; width:220px; border: solid 1px #ccc;;"> <div id="g2-widg-gitlab-17642"></div> <a onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';" href="https://www.g2.com/products/gitlab/reviews?utm_campaign=widget_embed&amp;utm_medium=riblets&amp;utm_source=read_more" style="display: block; position: absolute; bottom: 6px; left: 0; color: #333; font-size: 10px; font-weight: 600; width: 220px; text-align: center;"> Read more gitlab reviews </a> </div> <script> (function (w) { w._g2load = true; function p(i, s) { i = document.getElementById("g2-widg-gitlab-17642"); s = "https://www.g2.com/products/widget.embed?id=17642&amp;max=4&amp;product_id=gitlab&amp;version=2&amp;wid=1604694773&text_style=text-dark"; i.innerHTML = "<iframe src='" + s + "'width='100%' height='377px' frameBorder=0 scrolling='no'></iframe>"; w._g2load = true; } if (w._g2load) p(); w.addEventListener ? w.addEventListener("load", p, false) : w.attachEvent("onload", p); }(window)); </script>
+  - give appropriate time context (as / of dates) for site management
 
-
+<div style="background: #f6f6f6; height:377px; position: relative; width:220px; border: solid 1px #ccc;;"> <div id="g2-widg-gitlab-17642"></div> <a onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';" href="https://www.g2.com/products/gitlab/reviews?utm_campaign=widget_embed&amp;utm_medium=riblets&amp;utm_source=read_more" style="display: block; position: absolute; bottom: 6px; left: 0; color: #333; font-size: 10px; font-weight: 600; width: 220px; text-align: center;"> Read more GitLab reviews </a> </div> <script> (function (w) { w._g2load = true; function p(i, s) { i = document.getElementById("g2-widg-gitlab-17642"); s = "https://www.g2.com/products/widget.embed?id=17642&amp;max=4&amp;product_id=gitlab&amp;version=2&amp;wid=1604694773&text_style=text-dark"; i.innerHTML = "<iframe src='" + s + "'width='100%' height='377px' frameBorder=0 scrolling='no'></iframe>"; w._g2load = true; } if (w._g2load) p(); w.addEventListener ? w.addEventListener("load", p, false) : w.attachEvent("onload", p); }(window)); </script>

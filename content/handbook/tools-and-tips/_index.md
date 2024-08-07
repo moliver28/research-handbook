@@ -255,7 +255,7 @@ convert input.png \( +clone -background black -shadow 80x20+0+15 \) +swap -backg
 If 2FA stops working unexpectedly (no new phone or computer) it's usually because of improperly configured date & time on either device.
 Make sure that "Automatic Date & Time" is **enabled** on both devices.
 If they're already enabled try toggling them off and on again to force an update.
-If this doesn't work, request that ITOps reset your 2FA setting.
+If this doesn't work, request that IT Ops reset your 2FA setting.
 
 Links for finding the settings:
 
@@ -523,12 +523,12 @@ If you experience any such irregularities, please bring it to the attention of t
 
 ## Slack
 
-There is a lot of information pertaining to Slack, as it is a critical part of GitLab's communication. See the [Slack handbook page]({{< ref "./slack.md" >}}).
+There is a lot of information pertaining to Slack, as it is a critical part of GitLab's communication. See the [Slack handbook page](slack.md).
 
 ## Zoom
 
 There is a lot of information pertaining to Zoom, as it is a critical part of GitLab's
-communication. See the [Zoom handbook page]({{< ref "./zoom.md" >}}).
+communication. See the [Zoom handbook page](zoom.md).
 
 The [Google Calendar](/handbook/tools-and-tips/#google-calendar) invite is the single source of truth for the Zoom link. Avoid linking the Zoom link in Google Document agendas since those may quickly become out of date. If the zoom link changed around the start of the meeting it is OK to have it in there temporarily.
 
@@ -587,6 +587,15 @@ To find the referrals for a certain page, continue from the steps above.
 ### Set your picture in Google
 
 Optional: [Set your picture](https://myaccount.google.com/personal-info) in Google so that your picture will show where you are in a Google document (vs showing just your first intial). This will allow others to more easily follow a discussion when meeting attendees move around in a document.
+
+### Add name pronunciation in Google
+
+Consider adding a phonetic pronunciation of your name and/or a pronunciation recording in your Google profile.
+
+- Click on your profile icon on the top-right of any Google account page (i.e. Google Docs, Google Sheets)
+- Select "Manage your Google account"
+- On the left-hand side panel, select "Personal info" >> on the center of the page, go to "Name & pronunciation"
+- Add a recording or a phonetic pronunciation e.g. Rochana (Rosh-ah-na)
 
 ### Google Calendar
 
@@ -647,8 +656,9 @@ Please reach out to the People Connect Team in the `#people-connect` Slack chann
 1. Add an agenda or relevant content
 1. Under Add Guests, add `GitLab Team Meetings` in addition to anyone else you want invited (if you want the entire company invited please use everyone@).
 
-   **Note:** This will appear like adding a room, which is expected
-   {: .note}
+   {{% note %}}
+   This will appear like adding a room, which is expected
+   {{% /note %}}
 
    ![Adding GitLab Team Meetings](/handbook/tools-and-tips/images/adding-gitlab-team-meetings.png)
 
@@ -761,7 +771,7 @@ This is how we operate, because Google Docs/Apps can only be found and contribut
 
 #### Do not link directly to Google Drive/Apps
 
-Having said that, there is content which doesn’t make sense to be created on the website directly (e.g. large collections of data in tables, spreadsheets for calculations, etc) or for which Google Drive storage makes sense.
+Having said that, there is content which doesn't make sense to be created on the website directly (e.g. large collections of data in tables, spreadsheets for calculations, etc) or for which Google Drive storage makes sense.
 
 When directing folks to these files in Google Drive please include name of the file in the handbook so that team members can search for it in Google Drive. If you link directly to the URL, people from outside the organization can request access, creating workload and the potential for mistakes.
 
@@ -856,13 +866,14 @@ The default setting of showing the previous (older) message is usually preferred
 
 #### Email signature
 
-Set up an [email signature](https://support.google.com/mail/answer/8395) which includes your full name and job title so people can quickly know what you do.
+-Set up an [email signature](https://support.google.com/mail/answer/8395) which includes your full name and job title so people can quickly know who you are and what you do.
+-It is also an option to add your [personal pronouns](/handbook/people-group/pronouns/) to your email signature.
 
 ##### Example
 
 *Note: You can copy and paste the template below to use it in your own signature.*
 
-<span style="font-family: serif;font-size: small;display: block;">John Doe</span>
+<span style="font-family: serif;font-size: small;display: block;">Alex Doe (they/them)</span>
 <span style="color: #999999;font-family: sans-serif;font-size: small;display: block;">Frontend Engineer | GitLab</span>
 
 <img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png" alt="GitLab Logo" width="98" height="37">
@@ -871,12 +882,12 @@ Set up an [email signature](https://support.google.com/mail/answer/8395) which i
 
 If you are employed by our German entity GitLab GmbH, you will need to include some additional company related details after your own signature in emails ([along with other forms of communication listed on the German entity Handbook page]({{< ref "gmbh-germany" >}})) as follows:
 
-<span style="font-family: serif;font-size: small;display: block;">John Doe</span>
+<span style="font-family: serif;font-size: small;display: block;">Alex Doe (they/them)</span>
 <span style="color: #999999;font-family: sans-serif;font-size: small;display: block;">Frontend Engineer | GitLab</span>
 
 <img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png" alt="GitLab Logo" width="98" height="37">
 
-<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen und Craig Adam Mestel</span>
+<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen</span>
 
 #### Add company details to certain company communications if employed by our German entity
 
@@ -896,7 +907,7 @@ If you are sending such a communication, externally, please look at the setting 
 
 If you are employed by our German entity you may have been asked during onboarding to set up your signature wherever it's required to be used and to include these company details, and if you have not been, please do so now, adding these details to the end of your signature:
 
-<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen und Craig Adam Mestel</span>
+<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen</span>
 
 #### Filters
 

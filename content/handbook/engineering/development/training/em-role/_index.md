@@ -1,14 +1,6 @@
 ---
-
 title: Engineering manager role explained
 ---
-
-
-
-
-
-
-
 
 ## Engineering manager role explained
 
@@ -26,8 +18,7 @@ A short article about [What does your manager do all day? What would it mean to 
 In the videos below different team members explained intricacies of the EM role, specifically
 from the perspective of the Engineer and transitioning from the Individual Contributor track to the Management track.
 
-All videos are also available in the audio format [here](https://drive.google.com/drive/folders/1hrayHgzZpzrCd3zC1RrKEFXl3kaheWoK?usp=share_link
-).
+All videos are also available in the audio format [here](https://drive.google.com/drive/folders/1hrayHgzZpzrCd3zC1RrKEFXl3kaheWoK?usp=share_link).
 
 #### Michelle
 

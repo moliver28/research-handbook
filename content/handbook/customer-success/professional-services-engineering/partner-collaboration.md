@@ -1,16 +1,7 @@
 ---
-
 title: "Partner Collaboration"
 description: "Learn how the GitLab Professional Services organization collaborates with Partners."
 ---
-# Partner Collaboration
-
-
-
-
-
-
-
 
 ## Why Partners?
 
@@ -44,18 +35,18 @@ GitLab PS can and should help our partners be successful in delivering services 
 - Access to customer and PS specific Slack channels
 - **Partner Indirect can have access to AWS, Azure, GitLab Demo, etc.**
 - For delivery work on a customer engagement:
-    - Partner Indirect (Staff aug)
-        - Access to all of the delivery journal issues in [PS Plan](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-plan/-/issues_)
-        - Access to the [global practice development](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development)  group with all automation collateral
-    - Partner Indirect (project based)
-        - Specific access to the customer delivery (? need to check with Melani)
-        - Access at the lowest level under [global practice development](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development) to complete the customer project (as appropriate)
+  - Partner Indirect (Staff aug)
+    - Access to all of the delivery journal issues in [PS Plan](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-plan/-/issues_)
+    - Access to the [global practice development](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development)  group with all automation collateral
+  - Partner Indirect (project based)
+    - Specific access to the customer delivery (? need to check with Melani)
+    - Access at the lowest level under [global practice development](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development) to complete the customer project (as appropriate)
 
 ## Collaboration by Type of Service
 
 ### Implementation Services
 
-- These services almost always involve actually building the infrastructure and configuring the gitlab components so maintaining a customer-free reference for IaC of configuration Automation tends to be harder
+- These services almost always involve actually building the infrastructure and configuring the GitLab components so maintaining a customer-free reference for IaC of configuration Automation tends to be harder
 - [Proliferate](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/implementation/proliferate) can be used by Partners (Indirect) (project based and staff aug).
 - Partners (Direct) TBD
 - As Partners (Indirect) deliver implementation services projects, they can use [Implementation services discovery deck](https://docs.google.com/presentation/d/1K37wr--H2IT9Kv_c9N99UmkGUovAg6iOLmbcRKeKf10/edit)
@@ -72,8 +63,8 @@ Make sure as you (and/or the partner) is delivering the implementation services,
 
 - Require discovery sessions to further define the problem space that customer is trying to solve
 - Deliverable(s) for these services is
-    - typically a written recommendation on how to solve the problem
-    - *sometimes* proof of concept code customers can apply to their environment.
+  - typically a written recommendation on how to solve the problem
+  - *sometimes* proof of concept code customers can apply to their environment.
 - All code developed for these services must NOT contain any customer information so we can reuse the project for future customers without reinventing the wheel.
 - [Consulting services](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/consulting) should be built and maintined in the consulting directory of [global practice development](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development)
 
@@ -81,15 +72,14 @@ Make sure as you (and/or the partner) is delivering the implementation services,
 
 If the project requirements exceed the current capacity of the available resources then the professional services team may employ a Consultant to help deliver the project.  The following provides a checklist of items to process before and during the use of a subcontracted resource:
 
-
 1. Partner Search
-    - Share “sample PS Projects” with viable partners
+    - Share "sample PS Projects" with viable partners
         - [Advisory Project](https://docs.google.com/document/d/1KhADjTUOndaAev3dSLlRgyEJtBIT6wv_rr3aH5hsKKQ/edit?usp=sharing)
         - [Implementation Project](https://docs.google.com/document/d/13Mw-7uSSclfwm6JWcs8UrXM9SunX8ebIeIk-n9q9b6Y/edit?usp=sharing)
         - [Migration Project](https://docs.google.com/document/d/1OuCZqxZvjiPx2S0bFnX8tGgfBFWeg_gdifQWhdtTlAg/edit?usp=sharing)
         - Project Management Project (coming soon)
         - Training Project (coming soon)
-    - Share “PSE Profiles” with viable partners
+    - Share "PSE Profiles" with viable partners
         - Advisory (Profile coming soon)
         - Implementation (Profile coming soon)
         - Migration (Profile coming soon)
@@ -146,9 +136,9 @@ If the project requirements exceed the current capacity of the available resourc
 - PS Ops Team sets Consultant up in Kantata
 - PS Ops Team meets with Consultant to [review how to log time](sites/handbook/source/handbook/customer-success/professional-services-engineering/professional-services-operations), etc.
 - PS Ops Team submits Access Request Issues
-    - Requesting access to appropriate technical tools (hardware & software)
-    - Requesting to add Consultant to appropriate slack channel(s)
-    - PS GitLab Project Manager starts the project with the Consultant
+  - Requesting access to appropriate technical tools (hardware & software)
+  - Requesting to add Consultant to appropriate slack channel(s)
+  - PS GitLab Project Manager starts the project with the Consultant
 - PS GitLab Project Manager tracks Consultant hours against SOW
 - PS GitLab Project Manager keeps tabs on total burn vs. project burn to ensure Consultant can complete the project as per the terms of the SOW
 - PS GitLab Project Manager raises risk of Change Order to PS Ops as appropriate
@@ -164,41 +154,77 @@ Sr. Channel Solutions Manager is responsible for managing the relationship with 
 
 **Process**
 
-- Sr. Channel Solutions Manager and Consulting Coordinator verify that there is a fully executed Master Professional Services and Data Processing Agreements in place with the customer. Follow up with the PS Sr. Channel Solutions Manager if necessary.
+- Sr. Channel Solutions Manager and Project Coordinator verify that there is a fully executed Master Professional Services and Data Processing Agreements in place with the customer. Follow up with the PS Sr. Channel Solutions Manager if necessary.
 - After a mutual agreement has been achieved for the partnership, the  Sr. Channel Solutions Manager sends an initial version of the Consulting Subcontracting Prime Partner SOW to the partner for review.
 - If the partner makes redlines to the SOW, then the  Sr. Channel Solutions Manager works with GitLab's Legal team and the partner to receive a mutually agreed SOW.
-- The  Sr. Channel Solutions Manager notifies the Consulting Coordinator of the partner Consulting subcontracting Prime Partner SOW initiation. The Consulting Coordinator will create a new checklist issue to be added to the PC Partner SOW Tracker board for tracking purposes.
-- Upon receiving SOW mutual agreement between GitLab and the partner, the Sr. Channel Solutions Manager submits a legal case to add a legal stamp to the Prime Partner SOW.  
+- The  Sr. Channel Solutions Manager notifies the Project Coordinator of the partner Consulting subcontracting Prime Partner SOW initiation. The Project Coordinator will create a new checklist issue to be added to the PC Partner SOW Tracker board for tracking purposes.
+- Upon receiving SOW mutual agreement between GitLab and the partner, the Sr. Channel Solutions Manager submits a legal case to add a legal stamp to the Prime Partner SOW.
 - After receiving the legal stamped version of the Prime Partner SOW, the Sr Channel Solutions Manager sends it for GitLab and partner signature via DocuSign. Refer to this video for DocuSign basics.
-- After receiving the fully executed SOW, the Consulting Coordinator follows the Zip process steps to submit a request and PO for the Prime Partner SOW.
-- As the Prime Partner SOW is undergoing the signature and approval processes, the Consulting Coordinator will monitor the status and update the checklist issue on the PC Partner SOW Tracker board accordingly.
+- After receiving the fully executed SOW, the Project Coordinator follows the Zip process steps to submit a request and PO for the Prime Partner SOW.
+- As the Prime Partner SOW is undergoing the signature and approval processes, the Project Coordinator will monitor the status and update the checklist issue on the PC Partner SOW Tracker board accordingly.
 - After the SOW, Coupa req and PO are approved:
-  - Consulting Coordinator saves a copy of the fully executed Prime Partner SOW in the partner SFDC account and the applicable partner Google drive folder.
-  - Consulting Coordinator creates a partner and SOW-specific version of the Partner Invoicing SOW Consulting Funds Tracker within the applicable partner G-Drive folder.
- - Sr. Channel Solutions Manager sends a copy of the fully executed Prime Partner SOW to the partner.
+  - Project Coordinator saves a copy of the fully executed Prime Partner SOW in the partner SFDC account and the applicable partner Google drive folder.
+  - Project Coordinator creates a partner and SOW-specific version of the Partner Invoicing SOW Consulting Funds Tracker within the applicable partner G-Drive folder.
+  - Sr. Channel Solutions Manager sends a copy of the fully executed Prime Partner SOW to the partner.
 
- **Consulting Work Authorization Form**
+### Partner Scheduling Process
 
-The Consulting subcontracting Prime Partner SOW includes a work authorization form. The work authorization form is used to contractually secure a partner trainer for a Consulting delivery. One consulting project should be listed on the Consulting work authorization form.
-- PS Ops Team initiates Work Authorization
-    - Director or PS negotiates rate on a per project basis, unless predetermined
-        - Work Authorization include, but not limited to:
-            - Scope
-             - Technical requirements
-             - Background check/security clearance requirements
-             - Hourly rate
-             - Billing terms as determined in MSA, MPA or Sub-contracting Agreement
-             - Travel and expenses (if on site required)
+The Partner Scheduling Process is as follows:
 
-    - PS Ops Team reaches out to list of viable partners looking for a specific role that needs to be staffed for a customer project
-    - Partner responds with candidates and availability
-        - If not vetted, go to Step 2
-        - If vetted, go to Step 4, activity # 3  
+1. The Project Coordinator reviews the internal capacity first prior to outsourcing to our partners for project delivery.
+2. Once it is determined that we need to have a partner staff a project, the Project Coordinator will tag the partner lead in the partner slack channel with the project information.
+3. After the Project Coordinator works with the partner lead on an agreed project assignment, the Project Coordinator will send the work authorization form for the partner to review and execute via Docusign.
+4. If the Partner Engineer is not vetted, the Project Coordinator will go through the partner vetting process outlined earlier.
+5. If the Partner Engineer is vetted, the Project Coordinator will proceed and send the work authorization form.
+6. The Project Coordinator will track the Work Authorizations against the funding on the Prime Partner SOW.
 
-After a Consulting Coordinator works with the partner lead on an agreed project assignment,
-the Consulting Coordinator will send the work authorization form for the partner to review and execute.
-The Consulting Coordinator will track the Work Authorizations against the funding on the Prime Partner SOW.
-  
+### Consulting Work Authorization Form
+
+The Consulting subcontracting Prime Partner SOW includes a work authorization form. The work authorization form is used to contractually secure a partner engineers and trainers for a Consulting and Training delivery. One Consulting or Training project should be listed on the Consulting or Training Work Authorization form. The PS Operations Team will initiate the work authorization form for the partner.
+
+- Work Authorization include, but not limited to:
+        - Scope
+        - Technical requirements
+        - Background check/security clearance requirements
+        - Hourly rate
+        - Billing terms as determined in MSA, MPA or Sub-contracting Agreement
+        - Dates of work completed
+        - Travel and expenses (if on site required)
+
+### Delivery Kits 
+
+Delivery kits are comprehensive packages of resources, tools, and documentation that partners can use to streamline the delivery of GitLab professional services. These kits include:
+
+1. Project templates and checklists
+2. Best practices and guidelines
+3. Technical documentation
+
+Partners have access to [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits). They are encouraged to use these kits as a starting point for their engagements.
+
+Each kit is regularly updated by the GitLab Professional Services team to ensure partners have access to the latest methodologies and tools for successful service delivery.
+
+### Time Sheet Submissions
+
+Each week, the Partner will submit their timesheets into our PSA tool by the end of their business day.
+Timesheets are due on the Friday of each week. It is imparative that all timesheets are submitted into the PSA tool weekly by the deadline!
+Month end deadlines for timesheet submissions are posted in the partner slack channels at month end. Reminders are submitted mid-month as we lead up to the month-end deadline. If there are further questions, please reivew with Project Managers or the Operations team.
+
+### Partner Monthly Invoicing
+
+Each month end, our partners will submit their invoices for time spent on our projects into the Coupa Procurement System. The PC who originally submitted the PO request within the Procurement System will receive an email notification that there is an invoice waiting for approval.
+Invoies should be submitted in Coupa on the first week each month for the previos month. For example, work performed between May 1-31 would be submitted in Coupa on the first week of June. If invoices are not submitted by the 15th of each month, the PS Operations Team will follow up with the Partner lead to ensure the invoices are submitted on time.
+
+Invoices should be submitted in Coupa with the following details:
+
+- Partner Name
+- PO Number
+- Dates of work performed
+- Name of Consultant
+- Name of Project
+- Hours worked
+- Hourly Rate
+- Total
+
 ### Customer Project Onsite Travel
 
 When a GitLab Partner Travels:
@@ -212,7 +238,6 @@ Before making a purchase of any type or booking travel for a customer project, b
 
 Expenses are to be invoiced in the month in which they have incurred
 
-
 ### Partner Offboarding
 
 - PS Project Manager invites Consultant to Project Retrospective meeting (as appropriate)
@@ -220,6 +245,3 @@ Expenses are to be invoiced in the month in which they have incurred
 - Remove the Consultant from the customer project slack channel
 - Remove access to any project specific GitLab tools or development work spaced
 - Ensure Consultant is not working on any other ongoing projects
-
-
-

@@ -220,7 +220,7 @@ Zendesk Global ticket data.
 For when a ticket is closed, it will update the corresponding case to indicate
 it has been closed.
 
-#### Pipeline error '1: No case ID to update'
+### Pipeline error '1: No case ID to update'
 
 This is a silent error, meaning that while it did occur, the code exits with a
 code of 0 (and thus, the pipeline does not actually fail).
@@ -231,7 +231,7 @@ field on the Zendesk ticket was blank.
 As there was no actual case to update, no action is needed here and this can be
 safely ignored.
 
-#### Pipeline error '2: Restforce::ErrorCode::InsufficientAccessOnCrossReferenceEntity'
+### Pipeline error '2: Restforce::ErrorCode::InsufficientAccessOnCrossReferenceEntity'
 
 This is a silent error, meaning that while it did occur, the code exits with a
 code of 0 (and thus, the pipeline does not actually fail).
@@ -245,12 +245,12 @@ did not exist.
 As the actual SFDC account does not exist, no action is needed here and this can
 be safely ignored.
 
-#### Pipeline error '3: Restforce::ErrorCode::UnableToLockRow'
+### Pipeline error '3: Restforce::ErrorCode::UnableToLockRow'
 
 This will cause an actual pipeline failure.
 
 This error indicates that when trying to do a create/update, which requires
-locking a row in SFDC, it was was unable to do so. This usually means something
+locking a row in SFDC, it was unable to do so. This usually means something
 in either the specific reference (i.e. the case) or the parent reference (i.e
 the SFDC account) already had a lock in place that conflicts with the newly
 needed lock.
@@ -267,7 +267,7 @@ it is best to create an issue in our
 to have this investigated further by the team. Make sure to link to the failed
 pipeline!
 
-#### Pipeline error '4: Faraday::ConnectionFailed'
+### Pipeline error '4: Faraday::ConnectionFailed'
 
 This will cause an actual pipeline failure.
 
@@ -286,7 +286,7 @@ it is best to create an issue in our
 to have this investigated further by the team. Make sure to link to the failed
 pipeline!
 
-#### Pipeline error '5: Net::OpenTimeout'
+### Pipeline error '5: Net::OpenTimeout'
 
 This will cause an actual pipeline failure.
 
@@ -313,7 +313,7 @@ process applies to all Zendesk-Salesforce Sync. See
 [standard change management](/handbook/support/readiness/operations/docs/change_management#standard-change-management)
 for more information.
 
-#### Change criticality
+### Change criticality
 
 Due to the nature and impact adding/editing/deleting the Zendesk-Salesforce Sync
 imposes, all issues/MRs related to the Zendesk-Salesforce Sync will be

@@ -67,13 +67,13 @@ Such definition implies a solid reliance on **collaboration** rather than
 authority to *efficiently* and *transparently* drive decisions, engage
 stakeholders, and promote trust across the organization
 
-#### Artifacts: roadmaps and design documents
+### Artifacts: roadmaps and design documents
 
 We strive for **results** and concrete outcomes, which in this case entail
 **roadmaps** and **design documents**. **Roadmaps** are documents that
 aggregate many **Design documents**.
 
-#### Architecture as a practice is everyone's responsibility
+### Architecture as a practice is everyone's responsibility
 
 Architecture at GitLab is not a dedicated role but it is notably engrained in senior
 technical leadership roles, where the roles' levels and their sphere of
@@ -88,5 +88,4 @@ documents that are being used to align team members across multiple iterations.
 
 Following our [Transparency](/handbook/values/#transparency)
 value, our [architecture roadmap](roadmap/) and
-[design documents](https://docs.gitlab.com/ee/architecture) are public.
-
+[design documents](design-documents/) are public.

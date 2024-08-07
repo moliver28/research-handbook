@@ -29,23 +29,23 @@ For matters opened in GitLab Issues that require the Commercial Legal Team's att
 
 ### [Corporate](/handbook/legal/publiccompanyresources/)
 
-The Corporate Team supports the compliance and corporate functions of GitLab, which includes regulatory filings with the U.S. Securities and Exchange Commission, review of internal and external communications with respect to GitLab’s SAFE Framework, review and preparation of board and committee materials, general corporate and governance matters, as well as compliance and corporate governance matters for GitLab’s direct and indirect wholly owned international and domestic subsidiaries.
+The Corporate Team supports the compliance and corporate functions of GitLab, which includes regulatory filings with the U.S. Securities and Exchange Commission, review of internal and external communications with respect to GitLab's SAFE Framework, review and preparation of board and committee materials, general corporate and governance matters, as well as compliance and corporate governance matters for GitLab's direct and indirect wholly owned international and domestic subsidiaries.
 
 ### [Corporate Development](/handbook/acquisitions/)
 
-The Corporate Development Team prospects, pursues and integrates acquisitions to accelerate GitLab’s roadmap and offer better tools to customers more quickly. For information about GitLab’s acquisition strategy and approach, visit the [Acquisitions Handbook](/handbook/acquisitions/).
+The Corporate Development Team prospects, pursues and integrates acquisitions to accelerate GitLab's roadmap and offer better tools to customers more quickly. For information about GitLab's acquisition strategy and approach, visit the [Acquisitions Handbook](/handbook/acquisitions/).
 
 ### [Employment](/handbook/legal/employment-law/)
 
 The Employment Legal Team collaborates with GitLab People Group on a broad range of matters across the entire arc of the employment relationship, from recruiting to onboarding, compensation, performance management, leave management, separation, and where necessary, litigation.
 
-### [Environment, Social, and Governance (ESG)](/handbook/legal/ESG/)
+### [Environment, Social, and Governance (ESG)](/handbook/legal/esg/)
 
-The ESG Team creates and maintains GitLab’s Corporate Sustainability strategy and programs. This includes ESG disclosures and public ESG reporting, identifying and prioritizing key issues to advance GitLab’s social and environmental goals, and creating partnerships with non-profit organizations that support GitLab’s values and mission.
+The ESG Team creates and maintains GitLab's Corporate Sustainability strategy and programs. This includes ESG disclosures and public ESG reporting, identifying and prioritizing key issues to advance GitLab's social and environmental goals, and creating partnerships with non-profit organizations that support GitLab's values and mission.
 
 ### [Operations](/handbook/legal/legalops/)
 
-Legal Operations supports Legal & Corporate Affairs processes with a focus on defining and driving initiatives that improve the team’s efficiency and effectiveness. Operations also includes Legal’s [Procurement](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/) function, which reviews purchases made to ensure adequate terms are present for GitLab.
+Legal Operations supports Legal & Corporate Affairs processes with a focus on defining and driving initiatives that improve the team's efficiency and effectiveness. Operations also includes Legal's [Procurement](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/) function, which reviews purchases made to ensure adequate terms are present for GitLab.
 
 ### [Privacy](/handbook/legal/privacy/), [Product](/handbook/legal/product/), and [Trade Compliance](/handbook/legal/trade-compliance/)
 
@@ -59,7 +59,7 @@ The Risk Management and Dispute Resolution team addresses dispute resolution acr
 
 - [Anti-Corruption Policy](/handbook/legal/anti-corruption-policy/)
 - [Anti-Fraud Policy](/handbook/legal/anti-fraud-policy/)
-- [Anti-Harassment Policy](/handbook/anti-harassment/)
+- [Anti-Harassment Policy](/handbook/people-group/anti-harassment/)
 - [Anti-Retaliation Policy](/handbook/legal/anti-retaliation-policy/)
 - [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
 - [Corporate Communication Policy](/handbook/legal/corporate-communications/)
@@ -100,7 +100,7 @@ A legal hold is the process GitLab uses to preserve all forms of relevant eviden
 ### Freedom of Information Act Requests
 
 {{% details summary="What is a Freedom of Information Act (FOIA) request?" %}}
-The Freedom of Information Act (“FOIA”) provides public access to all United States federal agency records except for those records (or portions of those records) that are protected from disclosure by any of [nine exemptions or three exclusions](https://www.dhs.gov/foia-exemptions) (reasons for which an agency may withhold records from a requestor). Occasionally the records of a federal agency under a FOIA request may include GitLab records in the possession of the agency (i.e. when the agency is a customer of GitLab). In such an event, the federal agency will notify GitLab of the FOIA request and provide GitLab with the documents that the federal agency intends to release in response to the FOIA request. A GitLab legal team member will review the list and content of the documents identified by the federal agency pursuant to the FOIA request and will provide the appropriate response and/or make redactions to those documents, as necessary, prior to their release.
+The Freedom of Information Act ("FOIA") provides public access to all United States federal agency records except for those records (or portions of those records) that are protected from disclosure by any of [nine exemptions or three exclusions](https://www.dhs.gov/foia-exemptions) (reasons for which an agency may withhold records from a requestor). Occasionally the records of a federal agency under a FOIA request may include GitLab records in the possession of the agency (i.e. when the agency is a customer of GitLab). In such an event, the federal agency will notify GitLab of the FOIA request and provide GitLab with the documents that the federal agency intends to release in response to the FOIA request. A GitLab legal team member will review the list and content of the documents identified by the federal agency pursuant to the FOIA request and will provide the appropriate response and/or make redactions to those documents, as necessary, prior to their release.
 
 In the event you receive a notification from a US federal agency pursuant to a FOIA request, indicating that GitLab documents or information have been identified for release by an agency , please immediately forward the request to FOIA@gitlab.com.
 {{% /details %}}
@@ -108,7 +108,7 @@ In the event you receive a notification from a US federal agency pursuant to a F
 ### Foreign Corrupt Practices Act
 
 {{% details summary="What is the Foreign Corrupt Practices Act?" %}}
-The Foreign Corrupt Practices Act (“FCPA”) is a United States federal law that prohibits U.S. citizens and entities from bribing foreign government officials to benefit their business interests. It is not only an invaluable tool to help fight corruption but one to which we must be compliant. As GitLab Inc. is a U.S. incorporated entity, we need to make sure our operations worldwide are compliant with the provisions of the Foreign Corrupt Practices Act. To that end, GitLab requires Team Members to complete an annual online course relating to anti-bribery and corruption at GitLab. In the training, learners will explore improper payments, including facilitation payments and personal safety payments, as well as policies on commercial bribery. The goal of the course is to ensure our Team Members understand what it takes to avoid corruption, especially in high-risk countries, and to ensure GitLab is compliant with legal and regulatory obligations.
+The Foreign Corrupt Practices Act ("FCPA") is a United States federal law that prohibits U.S. citizens and entities from bribing foreign government officials to benefit their business interests. It is not only an invaluable tool to help fight corruption but one to which we must be compliant. As GitLab Inc. is a U.S. incorporated entity, we need to make sure our operations worldwide are compliant with the provisions of the Foreign Corrupt Practices Act. To that end, GitLab requires Team Members to complete an annual online course relating to anti-bribery and corruption at GitLab. In the training, learners will explore improper payments, including facilitation payments and personal safety payments, as well as policies on commercial bribery. The goal of the course is to ensure our Team Members understand what it takes to avoid corruption, especially in high-risk countries, and to ensure GitLab is compliant with legal and regulatory obligations.
 {{% /details %}}
 
 For additional General Legal FAQs, please refer to the [Internal Handbook](https://internal.gitlab.com/handbook/legal-and-compliance/#general-legal-faqs).

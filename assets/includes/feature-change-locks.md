@@ -33,30 +33,30 @@ The following bulleted list provides a suggested timeline starting from incident
 During the FCL, the team(s) exclusive focus is around [reliability work](#scope-of-work-during-fcl), and any feature type of work in-flight has to be paused or re-assigned. Maintainer duties can still be done during this period and should keep other teams moving forward. Explicitly higher priority work such as security and data loss prevention should continue as well. The team(s) must:
 
 - Create a public slack channel called `#fcl-incident-[number]`, with members
-    - The Team's Manager
-    - The Author and their teammates
-    - The Product Manager, the stage's Product leader, and the section's Product leader
-    - All reviewer(s)
-    - All maintainers(s)
-    - Infrastructure Stable counterpart
-    - The chain-of-command from the manager to the VP (Sr Manager, Sr/Director, VP, etc)
+  - The Team's Manager
+  - The Author and their teammates
+  - The Product Manager, the stage's Product leader, and the section's Product leader
+  - All reviewer(s)
+  - All maintainers(s)
+  - Infrastructure Stable counterpart
+  - The chain-of-command from the manager to the VP (Sr Manager, Sr/Director, VP, etc)
 - Create an [FCL issue](https://gitlab.com/gitlab-com/feature-change-locks/-/issues/new?issuable_template=feature-change-lock) in the [FCL Project](https://gitlab.com/gitlab-com/feature-change-locks/) with the information below in the description:
-    - Name the issue: `[Group Name] FCL for Incident ####`
-    - Links to the incident, original change, and slack channel
-    - FCL Timeline
-    - List of work items
+  - Name the issue: `[Group Name] FCL for Incident ####`
+  - Links to the incident, original change, and slack channel
+  - FCL Timeline
+  - List of work items
 - Complete the written Incident Review documentation within the Incident Issue as the first priority after the incident is resolved.  The Incident Review must include completing all fields in the Incident Review section of the incident issue (see [incident issue template](https://gitlab.com/gitlab-com/gl-infra/production/-/blob/master/.gitlab/issue_templates/incident.md)).  The incident issue should serve as the single source of truth for this information, unless a linked confidential issue is required. Completing it should create a common understanding of the problem space and set a shared direction for the work that needs to be completed.
 - See that not only all procedures were followed but also how improvements to procedures could have prevented it
 - A work plan referencing all the Issues, Epics, and/or involved MRs must be created and used to identify the scope of work for the FCL. The work plan itself should be an Issue or Epic.
 - Daily - add an update comment in your FCL issue or epic using the template:
-    - Exec-level summary
-        - Target End Date
-        - Highlights/lowlights
+  - Exec-level summary
+    - Target End Date
+    - Highlights/lowlights
 - Add an agenda item in the [SaaS Availability weekly standup](/handbook/engineering/#saas-availability-weekly-standup) and summarize status each week that the FCL remains open.
 - Hold a synchronous `closing ceremony` upon completing the FCL to review the retrospectives and celebrate the learnings.
-    - All FCL stakeholders and participants shall attend or participate async.  Managers of the groups participating in the FCL, including Sr. EMs and Directors should be invited.
-    - Agenda includes reviewing FCL retrospective notes and sharing learnings about improving code change quality and reducing risk of availability.
-    - Outcome includes [handbook](https://handbook.gitlab.com/handbook/) and [GitLab Docs](https://docs.gitlab.com/ee/) updates where applicable.
+  - All FCL stakeholders and participants shall attend or participate async.  Managers of the groups participating in the FCL, including Sr. EMs and Directors should be invited.
+  - Agenda includes reviewing FCL retrospective notes and sharing learnings about improving code change quality and reducing risk of availability.
+  - Outcome includes [handbook](/handbook/) and [GitLab Docs](https://docs.gitlab.com/ee/) updates where applicable.
 
 ##### Scope of work during FCL
 

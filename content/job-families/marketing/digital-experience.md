@@ -16,7 +16,7 @@ The Digital Experience Analyst  (Intermediate) is a [grade 6](/handbook/total-re
 #### Digital Experience Analyst Responsibilities
 
 - Ensure that GitLab is correctly instrumented to be able to deliver meaningful insights about traffic, conversion, and growth opportunities on our digital properties
-- Own the successful tagging and analytics measurement strategy for GitLab’s digital properties
+- Own the successful tagging and analytics measurement strategy for GitLab's digital properties
 - Maintain and improve analytics tag implementations and data layer for all relevant technologies (Google Analytics, Google Tag Manager)
 - Knowledge of FE web technologies - HTML, CSS and JS to enable confident debugging and use of custom JS in Google Tag Manager
 - Deliver data-driven recommendations around how to increase traffic, conversion, and user experience on `about.gitlab.com`
@@ -84,7 +84,7 @@ The Digital Experience Operations Manager is a [grade 8](/handbook/total-rewards
 
 The Manager, Digital Experience reports to the Director, Digital Experience.
 
-#### Manager, Digital Experience Job Grade
+### Manager, Digital Experience Job Grade
 
 The Manager, Digital Experience is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 

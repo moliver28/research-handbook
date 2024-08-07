@@ -15,4 +15,3 @@ In Q4, we will be working through deprecating many (but not all) of the marketin
 ## Performance Indicators
 
 1. `In Contact`: Defined by having 1 contact at each organization that we could reach out to - with 10k developers. See also [customer lifecycle](/handbook/sales/field-operations/gtm-resources/#customer-lifecycle) and [lead and contact statuses](/handbook/marketing/marketing-operations/#lead-and-contact-statuses) for criteria for _when_ we can reach out to organizations.
-

@@ -73,17 +73,17 @@ the organization in Salesforce), do the following:
 
 One of the people pinged will manually review the item you made the thread on.
 
-#### No tickets created within 120 days
+### No tickets created within 120 days
 
 Check the organization in question for any tickets that have been created within
 the last 120 days. If there are any, this organization should not be deleted.
 
-#### No open opportunities in SFDC
+### No open opportunities in SFDC
 
 Check the SFDC account tied to the organization for any open opportunities. If
 you see any, this organization should not be deleted.
 
-#### No recent chatter indicating renewal
+### No recent chatter indicating renewal
 
 Check the chatter log on the SFDC account tied to the organization for any
 indicators that a renewal is upcoming. If you see any, this organization should

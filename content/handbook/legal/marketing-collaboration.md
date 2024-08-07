@@ -7,19 +7,19 @@ This page is intended to provide educational resources and process guides to Git
 
 ## Brand and Trademark
 
-A trademark is a word, symbol, device, or any combination used to identify and distinguish one's goods or services from others.  It is a form of Intellectual Property and it has value; so much value that using someone else’s trademarks improperly or failing to protect your own can cost companies large amounts of money.
+A trademark is a word, symbol, device, or any combination used to identify and distinguish one's goods or services from others.  It is a form of Intellectual Property and it has value; so much value that using someone else's trademarks improperly or failing to protect your own can cost companies large amounts of money.
 
 There are important things to consider when settling on a name and ensuring we get the most value from our mark as possible.
 
-**Strength:** The ideal trademarks are "fanciful" or "arbitrary." Fanciful is just a nice way of saying “made up”.  This category includes marks like Kodak, Xerox, iPod, Lego, etc.; you know, those words that had absolutely no meaning before they were trademarked.   Arbitrary just means that the name and the product are not generally found together or otherwise related.  For instance, computers and apples generally don’t go together; therefore, Apple has a very strong mark.
+**Strength:** The ideal trademarks are "fanciful" or "arbitrary." Fanciful is just a nice way of saying "made up".  This category includes marks like Kodak, Xerox, iPod, Lego, etc.; you know, those words that had absolutely no meaning before they were trademarked.   Arbitrary just means that the name and the product are not generally found together or otherwise related.  For instance, computers and apples generally don't go together; therefore, Apple has a very strong mark.
 
-**Use:** Unlike patents, in order to protect a trademark – you must use it.  You can’t register it and then let it sit on the shelf until you decide what to do with it.  It must be used AND it must be used in the manner with which you said you would use it. Misusing even a great trademark can make it so common that it can get difficult and expensive to protect.
+**Use:** Unlike patents, in order to protect a trademark – you must use it.  You can't register it and then let it sit on the shelf until you decide what to do with it.  It must be used AND it must be used in the manner with which you said you would use it. Misusing even a great trademark can make it so common that it can get difficult and expensive to protect.
 
-**Market:** A trademark does not prevent everyone else from using that same word.  For example, there is Delta Airline, Delta Dental and Delta faucets.  The key distinction here is likelihood of confusion.  If you see “Delta” on a plane – you know that it is the airline company.  If you see “Delta” on a sink faucet, is there a real likelihood that you would expect frequent flier miles from it? Probably not. So two very different companies can use the same name because most people are smart enough to realize that these are very different companies.
+**Market:** A trademark does not prevent everyone else from using that same word.  For example, there is Delta Airline, Delta Dental and Delta faucets.  The key distinction here is likelihood of confusion.  If you see "Delta" on a plane – you know that it is the airline company.  If you see "Delta" on a sink faucet, is there a real likelihood that you would expect frequent flier miles from it? Probably not. So two very different companies can use the same name because most people are smart enough to realize that these are very different companies.
 
-While you can have the same word for *different* markets, you can’t have different words for similar markets if those different words are similar to a trademarked word (back to that likelihood of confusion standard).
+While you can have the same word for *different* markets, you can't have different words for similar markets if those different words are similar to a trademarked word (back to that likelihood of confusion standard).
 
-**Registration:** Another thing to consider is if I should register the mark.  In some common law countries (such as US, UK, South Africa, Australia, et al), those who use the mark first get protection. (These trademarks are denoted by a  “TM”.) Admittedly, it can get difficult to determine when that first use occurred; so registration in common law countries helps to clear that date issue up.  In any non-common law country, the first to file owns the mark. To set a date certain and own the mark, marks get registered.  If a mark is registered, it gets an “®”.  Whenever you use an R for a mark, you should also state where the mark is registered.
+**Registration:** Another thing to consider is if I should register the mark.  In some common law countries (such as US, UK, South Africa, Australia, et al), those who use the mark first get protection. (These trademarks are denoted by a  "TM".) Admittedly, it can get difficult to determine when that first use occurred; so registration in common law countries helps to clear that date issue up.  In any non-common law country, the first to file owns the mark. To set a date certain and own the mark, marks get registered.  If a mark is registered, it gets an "®".  Whenever you use an R for a mark, you should also state where the mark is registered.
 
 **Cultural Significance:**  Last but not least, cultural sensitivity is critical.  Any attempt to market globally and/or translate trademarks must be met with heightened attention.
 
@@ -34,9 +34,9 @@ While you can have the same word for *different* markets, you can’t have diffe
 
 Like with any conversation, it is critical to be aware of how your words are received in different cultures.
 
-Note: Trademarks aren’t just words.  As mentioned above, trademarks can be symbols, as well, and this catetgory is very broad. Take the following examples -
+Note: Trademarks aren't just words.  As mentioned above, trademarks can be symbols, as well, and this category is very broad. Take the following examples -
 
-- **Colors** Owens Corning trademarked the color pink for insulation. No other company can make insulation that color.  If you ever see insulation that is pink, you know who made it. John Deere trademarked a specific color of green for farm equipment.  McDonald’s has the Golden Arches.
+- **Colors** Owens Corning trademarked the color pink for insulation. No other company can make insulation that color.  If you ever see insulation that is pink, you know who made it. John Deere trademarked a specific color of green for farm equipment.  McDonald's has the Golden Arches.
 - **Sounds**  NBC trademarked the chimes that you hear during intermissions. Intel has a trademarked sound.
 - **Shapes** One of the most famous non-word trademarks is the shape of a Coke bottle.  Once you start getting into how something looks, it is called trade dress. Trade dress is a fancy term for trademarked product presentation.
 
@@ -52,7 +52,7 @@ Marketing owns GitLab's [Brand Guidelines](/handbook/marketing/brand-and-product
        - Company Address
        - Email Address for Notices
        - Legal Contact
-   1. [Contact GitLab Legal](/handbook/legal/#how-to-reach-us) to obtain approval for any **modifcations** the third party requests to the Authorization.
+   1. [Contact GitLab Legal](/handbook/legal/#how-to-reach-us) to obtain approval for any **modifications** the third party requests to the Authorization.
    1. Assign the Authorization for countersignature via DocuSign to an appropriate GitLab team member identified in the [Signature Authorization Matrix](/handbook/finance/authorization-matrix/#authorization-matrix).
 
 ### Third party infringement of GitLab trademarks
@@ -69,9 +69,9 @@ If we suspect that a third party is making unauthorized use of the term **GitLab
 **Some examples of unauthorized use may be found in:**
 
 - **Third party marketing materials or product names:** Unauthorized use in a way that infers that GitLab endorses or sponsors the publisher of the marketing material.
-- **Browser ads (title or copy):** These uses can be reported by the Legal and Corporate Affairs team to the relevant browser operator (e.g. [Google](https://services.google.com/inquiry/aw_tmcomplaint), [Bing](https://about.ads.microsoft.com/en-us/resources/policies/trademark-misuse))
+- **Browser ads (title or copy):** These uses can be reported by the Legal and Corporate Affairs team to the relevant browser operator (e.g. [Google](https://services.google.com/inquiry/aw_tmcomplaint), [Bing](https://about.ads.microsoft.com/en/forms/policies/intellectual-property-complaint-form))
 
-If you’re not a GitLab team member, please share any reports of suspected infringement with us at intellectualproperty@gitlab.com.
+If you're not a GitLab team member, please share any reports of suspected infringement with us at intellectualproperty@gitlab.com.
 
 ### Using Third-party Trademarks
 
@@ -106,7 +106,7 @@ The following explanations will help you fill out the template completely. This 
 
 - **Questions.** The questions you intend to use for a survey or quiz as part of a promotional game must be submitted for review. This is mainly for informational purposes so that Legal can understand more about the promotional game and what rules may apply. It is unlikely that we will "disallow" the questions, but we may have input for wording. The questions will also help us know what language to include in customized rules.
 
-- **Prize Descriptions and Depictions.** Please provide as much information as possible regarding the prize(s) that will be awarded including, for example, the number of prizes, size(s) available, color(s), technical specifications, etc. The rules must clearly describe the prize(s) so that the prize is not subject to interpretation or create confusion.  The brand name of a prize can be used in the description. If an image of the actual prize will be used, it shouldn’t be so prominent that it looks like the prize manufacturer is sponsoring the promotion.
+- **Prize Descriptions and Depictions.** Please provide as much information as possible regarding the prize(s) that will be awarded including, for example, the number of prizes, size(s) available, color(s), technical specifications, etc. The rules must clearly describe the prize(s) so that the prize is not subject to interpretation or create confusion.  The brand name of a prize can be used in the description. If an image of the actual prize will be used, it shouldn't be so prominent that it looks like the prize manufacturer is sponsoring the promotion.
 
 - **Prize Values.** Local law often hinges on the value of the prizes, so it is necessary to know what prizes and how many prizes will be awarded prior to creating rules. Legal may request a change in prizes if the value amount is over a certain threshold and adds significant Legal requirements to the event. This will vary from country to country and sometimes from state to state.  As a rule, prize values should not exceed US$599.00, to avoid U.S. tax form requirements, and the total value of all prizes in a promotion should not exceed US$4,999.00, to avoid registration and bonding requirements in certain U.S. states.
 
@@ -120,7 +120,7 @@ Once your issue description is completely filled out, Legal will review all the 
 
 ### Hosting the Promotional Game Rules
 
-Any promotional game sponsored by GitLab must be accompanied by Official Rules. Once legal has drafted and provided these to you, you will need to [create a new page](/handbook/marketing/digital-experience/website/#creating-new-pages) under the [GitLab Sweepstakes](https://about.gitlab.com/community/sweepstakes/) page and add a link to the [list of Current promotional games](https://about.gitlab.com/community/sweepstakes/#current). Once you have added the rules for your promotional game, link to these from the landing page of your entry form or promotion.
+Any promotional game sponsored by GitLab must be accompanied by Official Rules. Once legal has drafted and provided these to you, you will need to create a new page under the [GitLab Sweepstakes](https://about.gitlab.com/community/sweepstakes/) page and add a link to the [list of Current promotional games](https://about.gitlab.com/community/sweepstakes/#current). Once you have added the rules for your promotional game, link to these from the landing page of your entry form or promotion.
 
 Abbreviated Rules, with a link to the full Official Rules, must be present wherever there's a mention of the promotion or prizes. Abbreviated Rules will be provided by legal.
 
@@ -142,13 +142,13 @@ CAN-SPAM sets forth certain requirements that must be honored when sending out m
 
 **Keep the header honest.**  The reader needs to be able to identify who is sending them messages.  The email address of the sender should properly denote GitLab as the sender of the company material.
 
-**Keep the subject line honest.**  Don’t mislead the reader or otherwise use deceitful or inaccurate subject lines to compel someone to open the email. Be honest, impactful and short.  You can create urgency but, most importantly, create value.  In fact, the more authentic and clear the email, the less likely it is to be marked as spam or junk mail.
+**Keep the subject line honest.**  Don't mislead the reader or otherwise use deceitful or inaccurate subject lines to compel someone to open the email. Be honest, impactful and short.  You can create urgency but, most importantly, create value.  In fact, the more authentic and clear the email, the less likely it is to be marked as spam or junk mail.
 
-**Acknowledge that it is an ad.**  This doesn’t mean that you have to go over the top and begin each Subject Line with “Hello, I am an advertisement.”  It just means that the sender has to know it is marketing material sent by GitLab. Put it in the subject line or put it in the body - just put it somewhere.
+**Acknowledge that it is an ad.**  This doesn't mean that you have to go over the top and begin each Subject Line with "Hello, I am an advertisement."  It just means that the sender has to know it is marketing material sent by GitLab. Put it in the subject line or put it in the body - just put it somewhere.
 
 **Include location**  There needs to be a valid business address listed in the emails.  This helps ensure that the recipient has a clear and legal point of reference to double check the authenticity of the sender.
 
-**Opt-out options are not oppressive.**  When people receive mail that they don’t want, there must be an easy way to unsubscribe from the lists.  And “easy” means my grandmother should be able to figure it out as quickly as my 15-year old nephew.  In some jurisdictions, every email sent after an opt-out is selected may be subject to a fine.
+**Opt-out options are not oppressive.**  When people receive mail that they don't want, there must be an easy way to unsubscribe from the lists.  And "easy" means my grandmother should be able to figure it out as quickly as my 15-year old nephew.  In some jurisdictions, every email sent after an opt-out is selected may be subject to a fine.
 
 **Opt-outs need to be quick.**  Ideally, an opt-out will occur automatically or within a business day or two.  If you take more than ten (10) business days to remove an email from a mailing list, things will get messy quickly.
 
@@ -167,13 +167,13 @@ If you use cookies you must:
 - explain what the cookies will do; and
 - obtain consent to store cookies on devices.
 
-PECR expands the definition of cookies to include “similar technologies” like fingerprinting techniques. Therefore, unless an exemption applies, any use of device fingerprinting requires the provision of clear and comprehensive information as well as the consent of the user or subscriber.
+PECR expands the definition of cookies to include "similar technologies" like fingerprinting techniques. Therefore, unless an exemption applies, any use of device fingerprinting requires the provision of clear and comprehensive information as well as the consent of the user or subscriber.
 
-Consent is not required if the cookie is used: “(a) for the sole purpose of carrying out the transmission of a communication over an electronic communications network; or  (b) where such storage or access is strictly necessary for the provision of an information society service requested by the subscriber or user.”
+Consent is not required if the cookie is used: "(a) for the sole purpose of carrying out the transmission of a communication over an electronic communications network; or  (b) where such storage or access is strictly necessary for the provision of an information society service requested by the subscriber or user."
 
-Please note that cookies for analytics purposes are not “strictly necessary.”
+Please note that cookies for analytics purposes are not "strictly necessary."
 
-PECR applies to any technology that stores or accesses information on the user’s device. This could include, for example, HTML5 local storage, Local Shared Objects and fingerprinting techniques.
+PECR applies to any technology that stores or accesses information on the user's device. This could include, for example, HTML5 local storage, Local Shared Objects and fingerprinting techniques.
 
 Device fingerprinting is a technique that involves combining a set of information elements in order to uniquely identify a particular device. Examples of the information elements that device fingerprinting can single out, link, or infer include (but are not limited to):
 

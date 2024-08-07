@@ -35,10 +35,11 @@ To engage with the GitLab US Public Sector Services team:
 - In case you want to get attention, use a specific team handle as defined in [group hierarchy below](#gitlab-group-hierarchy)
 - Slack channels
   - For GitLab US Public Sector specific questions, you can find us in [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
-      - The `@dedicated-uspubsec-team` Slack group can be used in any internal channel to tag the team.
+    - The `@dedicated-uspubsec-team` Slack group can be used in any internal channel to tag the team.
+  - Issues relevant to the wider Dedicated Group may be raised in [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
   - Other teams in Dedicated group have their own work channels for team work discussions:
-      - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
-      - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
+    - [#g_dedicated-environment-automation-team](https://gitlab.slack.com/archives/C074L0W77V0)
+    - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
 
 ## How we work
 
@@ -55,21 +56,21 @@ Impromptu Zoom meetings for discussing GitLab Dedicated work between individuals
 It is expected that these meetings are private streamed, or recorded(1*), and then uploaded to [GitLab Unfiltered playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqC5FfUVPyndvLvTWifWbfB).
 The outcome of the call is shared in a persistent location (Slack is not persistent). This is especially important as the team grows, because any decisions that are made in the early stage have will be questioned in the later stages when the team is larger.
 
-`1*` Exceptions to the recording rule are: 1-1 calls, discussions around non-project work, and in cases where parties do not feel comfortable with recording or we cannot record due to the nature of content discussed. However, even with the exceptions, outcome of project related discussions need to be logged in a persistent location, such as the main issue tracker.
+`1*` Exceptions to the recording rule are: 1-1 calls, discussions around non-project work, cases where parties do not feel comfortable with recording, or we cannot record due to the nature of content discussed. However, even with the exceptions, outcome of project related discussions need to be logged in a persistent location, such as the main issue tracker.
 
 ### GitLab Group Hierarchy
 
 We use [GitLab Groups](https://docs.gitlab.com/ee/user/group/#groups) to logically organize team-members working on GitLab Dedicated projects.
 The groups cover the following use-cases:
 
-1. GitLab GitLab US Public Sector Services group membership: `@gitlab-dedicated/uspubsec`
+1. GitLab US Public Sector Services group membership: `@gitlab-dedicated/uspubsec`
     - All permanent team-members in any of the GitLab Dedicated teams should gain access to this GitLab group as part of onboarding
     - Group mention should only be used in circumstances where the information shared is pertinent for all team members of GitLab Dedicated group
-2. Individual team GitLab groups have two additional subgroups `maintainers` and `reviewers`, e.g.: `@gitlab-dedicated/uspubsec/maintainers`
-    - `reviewers` GitLab group access is granted to permanent team-members, external contractors, team-members on borrows and similar. This GitLab group type is used to distinguish users without merge rights. Initial reviewes should be requested from this group, using the quick action, e.g. `/assign_reviewer @gitlab-dedicated/uspubsec/reviewers`
-    - `maintainers` GitLab group is granted to permantent team-members only. This group has merge rights, and the group is granted access through [CODEOWNERS approval rules](https://docs.gitlab.com/ee/user/project/codeowners/#code-owners)
+2. Individual team GitLab groups have two additional subgroups `maintainers` and `reviewers`, for example: `@gitlab-dedicated/uspubsec/maintainers`
+    - `reviewers` GitLab group access is granted to permanent team-members, external contractors, team-members on borrows and similar. This GitLab group type is used to distinguish users without merge rights. Initial reviews should be requested from this group, using the quick action, for example. `/assign_reviewer @gitlab-dedicated/uspubsec/reviewers`
+    - `maintainers` GitLab group is granted to permanent team-members only. This group has merge rights, and the group is granted access through [CODEOWNERS approval rules](https://docs.gitlab.com/ee/user/project/codeowners/#code-owners)
 
-Do note that the transition between `reviewers` and `maintainers` groups is still not fully defined, and this will be deifined as the team continues to grow. Currently, the founding team-members with a significant early contribution to the specific codebase and specific topic knowledge have been granted `maintainers` rights.
+Do note that the transition between `reviewers` and `maintainers` groups is still not fully defined, and this will be defined as the team continues to grow. Currently, the founding team-members with a significant early contribution to the specific codebase and specific topic knowledge have been granted `maintainers` rights.
 
 ### Project Management
 
@@ -81,7 +82,7 @@ The single source of truth for _all_ GitLab US Public Sector Services work acros
 
 [Sub-epics](https://docs.gitlab.com/ee/user/group/planning_hierarchy/index.html#hierarchies-with-epics) are created under the top-level epic to logically segment work into an organized list of issues that are targeted towards a specific initiative or project milestone.
 
-When applicable, additional sub-epics may be created within the existing epic hierarchy to further segment issues for project tracking pruposes.
+When applicable, additional sub-epics may be created within the existing epic hierarchy to further segment issues for project tracking purposes.
 
 1. Sub-epics group tasks required to deliver an item mentioned
 2. Sub-epics represent an item from the roadmap and are delivered in a specific phase
@@ -106,6 +107,7 @@ The DRI needs to:
 Each epic and child sub-epics must include the following:
 
 **Description**
+
 1. **DRI** who is responsible for this epic.
 2. **Background**, including a problem statement, to provide context for people looking to understand the epic.
 3. **Exit criteria** for the specific goals of the epic.
@@ -114,10 +116,11 @@ Each epic and child sub-epics must include the following:
     2. This heading is used to auto-generate the status information on the top-level epic.
 
 **Epic meta data**
+
 1. **Start date** is set to the expected start date, and updated to be the actual start date when the project begins.
 2. **Due date** is set to be the expected end date.
 
-Labels are described in the [epic label section](#epic-labels).
+Labels are described in the [epic label section](#epic-structure).
 
 #### Issue boards
 
@@ -134,7 +137,7 @@ Labels are described in the [epic label section](#epic-labels).
 
 ### Execution
 
-The team operates in a kanban fashion. Issues are prioritized in the kanban board and self-assigned. We leverage scoped [worfklow labels](/handbook/engineering/infrastructure/team/gitlab-dedicated/#workflow-labels) to track different stage of work.
+The team operates in a kanban fashion. Issues are prioritized in the kanban board and self-assigned. We leverage scoped [workflow labels](/handbook/engineering/infrastructure/team/gitlab-dedicated/#workflow-labels) to track different stage of work.
 
 ### Status Updates
 

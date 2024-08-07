@@ -24,7 +24,7 @@ description: "These are the expected competencies of an Intermediate Fullstack E
 
 {{% include "includes/engineering_intermediate_technical_competency.md" %}}
 
-##### Contributor Success
+#### Contributor Success
 
 Please refer to [Contributor Success Fullstack Engineer](/job-families/marketing/community-relations/contributor-success/fullstack-engineer/#contributor-success-fullstack-engineer)
 

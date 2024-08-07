@@ -4,8 +4,8 @@ title: "Security Culture Committee"
 
 ## Mission Statement
 
-The security department as a part of GitLab should follow and live up to the GitLab [values]({{< ref "values" >}}) and [mission]({{< ref "mission#mission" >}}).
-The [transparency]({{< ref "values#transparency" >}}) value can be especially difficult for a security department to embrace and embody, as due to the confidentiality of their work, security people tend to be secretive and intransparent by default.
+The security department as a part of GitLab should follow and live up to the GitLab [values](/handbook/values/) and [mission]({{< ref "mission#mission" >}}).
+The [transparency](/handbook/values/#transparency) value can be especially difficult for a security department to embrace and embody, as due to the confidentiality of their work, security people tend to be secretive and intransparent by default.
 
 ### Intent and goals
 
@@ -20,7 +20,7 @@ The committee goals are to:
 - Help drive the mission of being the most transparent security group in the world
 - Provide actionable feedback and direction to the security department, so they may best live up to the GitLab values
 
-The committee should draft the ways to reach these goals for an open, approachable and transparent culture within the security department. The department’s leadership should reinforce those ways by communicating and leading by example. The committee will provide an interface for all team members to express any concerns regarding the culture within the security department.
+The committee should draft the ways to reach these goals for an open, approachable and transparent culture within the security department. The department's leadership should reinforce those ways by communicating and leading by example. The committee will provide an interface for all team members to express any concerns regarding the culture within the security department.
 
 ## Participation
 
@@ -73,6 +73,6 @@ We are tracking our efforts in this issue: https://gitlab.com/gitlab-com/gl-secu
 
 ### Previous Security Committee Formation Documentation
 
-The processes for forming the Security Culture Committee were updated in Spring 2024.
+The processes for forming the Security Culture Committee were updated in [May 2024](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/4886).
 
 Previous documentation on forming the security culture committee and nomination processes can be found [here](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/06e23cbcfada90c2b8ae01d89335efde5c248cd5/content/handbook/security/security-culture.md#formation-process-overview).

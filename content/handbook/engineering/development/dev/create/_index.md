@@ -1,12 +1,10 @@
 ---
-
 title: Create Stage
 description: >-
   The Create Stage is a group of teams including
   Code Creation, Code Review, Editor Extensions,
-  IDE, and Source Code.
+  Remote Development, and Source Code.
 ---
-
 
 ## Hello
 
@@ -18,16 +16,16 @@ description: >-
 | [Create:Code Creation](/handbook/engineering/development/dev/create/code-creation/) | [Matt Nohr](/handbook/company/team/#mnohr) (Fullstack) |
 | [Create:Code Review](/handbook/engineering/development/dev/create/code-review/) | [François Rosé](/handbook/company/team/#francoisrose) (Backend) [André Luís](/handbook/company/team/#andr3) (Frontend) |
 | [Create:Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/) | [Kisha Mavryck Richardson](/handbook/company/team/#kishamavryck) (Fullstack) |
-| [Create:IDE](/handbook/engineering/development/dev/create/ide/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
+| [Create:Remote Development](/handbook/engineering/development/dev/create/remote-development/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) |  [André Luís](/handbook/company/team/#andr3)  |
 
 ## Mission
 
-#### What do we do?
+### What do we do?
 
 The Create Stage supports software development teams accelerate their delivery and reduce cycle times, by improving efficiency and collaboration. Our stage provides tools that support the beginning of the DevOps Life Cycle.
 
-#### Whom do we serve?
+### Whom do we serve?
 
 We build tools for:
 
@@ -37,7 +35,7 @@ We build tools for:
 - Product Managers
 - Product Designers
 
-#### How do we serve them?
+### How do we serve them?
 
 The [Product Vision Handbook Page](https://about.gitlab.com/direction/create/#categories-in-create) provides specific examples for how we serve each type of GitLab user.
 
@@ -81,7 +79,7 @@ The Learning & Development group has also compiled a list of LinkedIn training f
 Each team work in the manner that best meets the needs of their product and their team.
 
 - [Create Engineering Managers](/handbook/engineering/development/dev/create/engineering-managers/)
-- [IDE Team](/handbook/engineering/development/dev/create/ide/#-how-we-work)
+- [Remote Development Team](/handbook/engineering/development/dev/create/remote-development/#-how-we-work)
 - [Code Review Team](/handbook/engineering/development/dev/create/code-review/#work)
 - Source Code Team [Backend](/handbook/engineering/development/dev/create/source-code-be/#work), [Frontend](/handbook/engineering/development/dev/create/code-review/frontend/#work)
 
@@ -115,6 +113,3 @@ Engineering Managers live our [values](/handbook/values/) every day.
 
 - Logs
 - MR Rate
-
-
-

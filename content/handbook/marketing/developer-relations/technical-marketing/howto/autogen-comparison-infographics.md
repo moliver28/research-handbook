@@ -5,6 +5,7 @@ title: "Autogenerating comparison infographics using Figma"
 ## Why
 
 Automatically generating comparison infographics means that the grphic creation is data driven. The value of this is a few things:
+
 * efficiency and quality - it is **far** more efficient and **far** less error prone to auto generate graphics than to have individuals hand creating each graphic
 * scale - hand creation of each graphic does not scale. We are looking at generating over 80 different detailed images based on a lot of data, each one with over 106 touch points.
 * iteration - as the infographic needs evolve being able to auto generate (and re-generate) the graphs means that we can iterate without heavy nearly as heavy a cost
@@ -15,12 +16,12 @@ Automatically generating comparison infographics means that the grphic creation 
    1. Raw Data
       1. Here's the [spreadsheet we are collecting the raw comparison analysis](https://docs.google.com/spreadsheets/d/1Dd1wraHGVM21L942PsYxNj8Czfvq9XO7ysG1Gge5YEk/edit?ts=5f4996cc#gid=90532820) (GitLab viewable only)
       1. Data entry is being done on the `Comparison DATA ENTRY Sheet` tab. **Please DO NOT add or delete columns to this sheet unless at the far right. Doing so will throw off all the other sheets**.
-      1.  Once you've filled in the data on the DATA ENTRY tab, switch over to the `FIGMA_DATA-Focus-Sync` tab. This is the data represented for Figma consumption.
+      1. Once you've filled in the data on the DATA ENTRY tab, switch over to the `FIGMA_DATA-Focus-Sync` tab. This is the data represented for Figma consumption.
       1. For your entries you wish to graph, make sure that
          * there is logo image in the "Logo" row (3), and that the data in the cell is a URL that ends in either `.png` or `.jpg`. If it's anything else then the plugin we are using will go into an endless read loop.
          * The "Competitor" row (2) has the proper name in it. This is the name as it will appear in the infographic. Make sure it has proper capitalization, spacing, etc. If you are doing a lot of them you can copy down from row 1, then run a title-case add-on, and find/replace to ditch "-"s' and "_"s'.
       1. Your data is now ready to go. For each competitor you wish to generate a graph for, copy from the "Competitor" row (2) down to the end of the column of data (currently row 110), and then. . . .
-    1. Staged data
+   1. Staged data
        1. Create a copy of the file [Infographic Autogen – Working File - Template](https://docs.google.com/spreadsheets/d/1f1tsutSVxVIPU4FnYp8jnRIg1XafvXONO3tIBNb_N2A/edit?usp=sharing).
        1. Make sure that your file is **world readable**. This is required for the plugin to work.
        1. Make a copy of the tab `Template-EDIT A COPY` (new tab name doesn't matter, but I use "runX" and increment X).
@@ -42,8 +43,8 @@ Automatically generating comparison infographics means that the grphic creation 
       1. On the new page
          1. Go to the lower left pane and find the object named "competitor-vs-gitlab". Unlock it (icon on the right).
          1. Make as many copies of the whole infograph (the "competitor-vs-gitlab" object) as you need. *hint* there are two pre-setup templates (pages) you can start with instead, with 6 and 12 infographs)
-       1. Your Figma file is ready to import into
-    1. Install the plugin
+      1. Your Figma file is ready to import into
+   1. Install the plugin
        1. This all works via an amazing Figma plugin called [Google Sheets Sync](https://www.figma.com/community/plugin/735770583268406934/Google-Sheets-Sync). <-------- Click on this link from your browser session also logged into FIgma to install it into your Figma instance.
        1. That's that. Not so hard huh?
 1. Run the autogen
@@ -69,9 +70,7 @@ Automatically generating comparison infographics means that the grphic creation 
          1. On Mac, open a Terminal and go into the folder
          1. In the terminal run the command `sips -Z 1081 *.jpg`
          1. This will convert each file to 1081x1080 (LxW)
-       1. Upload the images to wherever you need them to be used
-
-
+      1. Upload the images to wherever you need them to be used
 
 ## Videos
 
@@ -82,4 +81,3 @@ Automatically generating comparison infographics means that the grphic creation 
 
 * [Plugin page](https://www.figma.com/community/plugin/735770583268406934/Google-Sheets-Sync)
 * [Plugin documentation](https://www.figma.com/proto/VtXf9HikcehWB7FJrJmApl/Google-Sheets-Sync-%E2%80%93-Documentation?scaling=min-zoom&node-id=3%3A2)
-

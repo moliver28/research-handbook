@@ -12,14 +12,14 @@ synced directly to the Zendesk instance it is for. Due to the sensitive and
 potentially destructive nature of the "backend" code, this requires Support
 Readiness review for any and all changes.
 
-#### How v1 works
+### How v1 works
 
 **NOTE** This details how it works at the root level. Please see
 [Change Management](../) for more information on how this is actually deployed.
 
 - The repository is scanned for YAML files, containing all needed aspects of the
   item
-- The source (often Zendesk) is scanned for for all items relating to the area
+- The source (often Zendesk) is scanned for all items relating to the area
 - These are compared to determine the creations and updates required for the
   source to align with the repository
 - All creations and updates are made to the source
@@ -40,7 +40,7 @@ maintained separately from the much safer "frontend" code. When using this
 method, Support Readiness review is not required for any changes to the
 "frontend" code.
 
-#### How v2 works
+### How v2 works
 
 **NOTE** This details how it works at the root level. Please see
 [Change Management](../) for more information on how this is actually deployed.
@@ -51,7 +51,7 @@ method, Support Readiness review is not required for any changes to the
     content managed by another team
   - In cases where this occurs, it checks the git submodule to locate the file
     which contains the managed content, putting it into place.
-- The source (often Zendesk) is scanned for for all items relating to the area
+- The source (often Zendesk) is scanned for all items relating to the area
 - These are compared to determine the creations and updates required for the
   source to align with the repository
 - All creations and updates are made to the source

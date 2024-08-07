@@ -1,13 +1,6 @@
 ---
-
 title: "Auxiliary Solution Resource: Continuous Delivery"
 ---
-
-
-
-
-
-
 
 #### Who to contact
 
@@ -19,21 +12,22 @@ title: "Auxiliary Solution Resource: Continuous Delivery"
 
 ## Continuous Delivery
 
-> “Deployment is manual”
-> “Functional tests are manual”
-> “Time consuming or lack of rollback on performance degradation or production errors”
-> “Hard to maintain environment configurations and hard to operate”
-> “No consistency in deployment process”
-> “Manual / hard coded configurations”
-> “No standardized software artifact”
-> “No release management in place”
-> “Too dependent on other teams to get any release done”
+> "Deployment is manual"
+> "Functional tests are manual"
+> "Time consuming or lack of rollback on performance degradation or production errors"
+> "Hard to maintain environment configurations and hard to operate"
+> "No consistency in deployment process"
+> "Manual / hard coded configurations"
+> "No standardized software artifact"
+> "No release management in place"
+> "Too dependent on other teams to get any release done"
 
 If these are the typical problems you face, Continuous Delivery is for you.
 
-Continuous Delivery is the next logical step after continuous integration and it streamlines and automates the application release process to make software delivery repeatable and on demand - from provisioning the infrastructure environment to deploying the tested application software to test/staging or production environments. Organizations practicing continuous delivery are able to plan their release processes and schedules, automate infrastructure and application deployments, manage deployed infrastructure and application resources resources, and analyze metrics to optimise the software delivery process.
+Continuous Delivery is the next logical step after continuous integration and it streamlines and automates the application release process to make software delivery repeatable and on demand - from provisioning the infrastructure environment to deploying the tested application software to test/staging or production environments. Organizations practicing continuous delivery are able to plan their release processes and schedules, automate infrastructure and application deployments, manage deployed infrastructure and application resources resources, and analyze metrics to optimize the software delivery process.
 
 ### Why Continuous Delivery?
+
 - **Consistent & repeatable release process** - lesser manual processes imply the release process is less error prone and hence can be repeatable for every minimal change to the code
 - **Faster time to market** - automation of environment provisioning, software deployment and rapid feedback helps teams to iterate faster and rollback when necessary
 - **Lower risk releases** - by using progressive delivery practices such as advanced deployments: incremental / blue green / canary deployments, review apps, feature flags and a deployment performance feedback loop, organizations are able to validate their software before widespread deployment
@@ -94,9 +88,9 @@ Examples of comparative research for this use case are listed just below. Additi
 | 8) **Multi Platform/Cloud/Integration Support** | The application should be able to play well with multiple clouds, multiple platforms (e.g., Linux, Unix, Windows, container platforms, mainframe, midrange, mobile, specialized), multiple integrations (e.g., CMPs, Registries, Orchestration tools, APM tools, etc) | - Cloud Support (AWS, GCP, Azure, IBM, Oracle, etc) <br/> - Platform Support (Linux, Unix, Windows, container platforms, mainframe, midrange, mobile, specialized) <br/> - Integration Support (CMPs, Registries, Orchestration tools, APM tools) |  |
 | 9) **Governance and Compliance** | The solution should be able to enforce separation of duties, access control, maintain a system of record of changes for compliance purposes, maintain release traceability back to requirements, enforce information security checks and policies | - Separation of duties including role based access control to pipelines and deployment environment <br/> - Credential management <br/> - Approver gates <br/> - Traceability to requirements <br/> - Security checks <br/> - Change logs <br/> - Compliance reports |  |
 | 10) **Analytics and reporting** | The solution should be able to provide analytics and reports to visualize release status & statistics, pipeline status & statistics, deployment status & statistics, environment status & statistics, change reports for compliance | - Release status & statistics like release plan, timeline, status <br/> - Pipeline status & statistics like success, failure rates, pipeline heath <br/> - Deployment status & statistics like deployment frequency, change failure rates (DORA metrics) <br/> - Environment status & statistics like usage, availability, downtime, failure rates <br/> - Change logs, approvers & compliance reports - Release Evidence <br/>  |  |
-| 11) **Enterprise readiness** | The solution should be able to support support enterprise capabilities such as High Availability / Disaster Recovery, secure storage of data, access control | - High Availability, Disaster Recovery <br/> - Secure data storage <br/> - Separation of duties and access control |  |
+| 11) **Enterprise readiness** | The solution should be able to support enterprise capabilities such as High Availability / Disaster Recovery, secure storage of data, access control | - High Availability, Disaster Recovery <br/> - Secure data storage <br/> - Separation of duties and access control |  |
 
-# The GitLab Solution
+## The GitLab Solution
 
 <iframe width="960" height="569" src="https://www.youtube.com/embed/QArt7rqfbqk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -111,14 +105,15 @@ A collection of short demonstrations that show GitLab's CD capabilities.
 | 3) **Environments management (i.e., Operating Environment)** | GitLab leverages partners like Terraform to model and discover hybrid environments. GitLab supports storing these environments and configurations as code, maintaining a system of record of various environments and their configurations as code, snapshot view of the environments in a dashboard and deploying to hybrid infrastructure environments. While you can use GitLab CD to deploy apps almost anywhere, GitLab naturally supports Kubernetes, with a keen sight to improving non-cloud native support | [**Configure stage**](https://about.gitlab.com/stages-devops-lifecycle/configure/): [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/), [Kubernetes Management](https://about.gitlab.com/solutions/kubernetes/), [Runbooks](https://docs.gitlab.com/ee/user/project/clusters/runbooks/), [Infrastructure as Code](https://docs.gitlab.com/ee/user/infrastructure/), [Environments Dashboard](https://docs.gitlab.com/ee/ci/environments/environments_dashboard.html) <br> [Terraform based infrastructure automation](https://about.gitlab.com/webcast/gitops-gitlab-terraform/)| tbd |
 | 4) **Database Provisioning** | GitLab integrates with Terraform to enable model and provision infrastructure, including databases. GitLab enables Infrastructure as code for Terraform - maintaining infrastructure and configurations of environments in source control within GitLab  | [Terraform based infrastructure automation](https://about.gitlab.com/webcast/gitops-gitlab-terraform/), [Infrastructure as code with Terraform and GitLab](https://docs.gitlab.com/ee/user/infrastructure/) | tbd |
 | 5) **Middleware Provisioning** | GitLab integrates with Terraform to enable model and provision infrastructure, including middleware. GitLab enables Infrastructure as code for Terraform - maintaining infrastructure and configurations of environments in source control within GitLab | [Terraform based infrastructure automation](https://about.gitlab.com/webcast/gitops-gitlab-terraform/), [Infrastructure as code with Terraform and GitLab](https://docs.gitlab.com/ee/user/infrastructure/) | tbd |
-| 6) **Application Release Automation & Delivery** | GitLab supports multiple advanced deployment strategies including progressive and incremental delivery. Review apps provide an opportunity to preview web applications before deployment, feature flags allow you to control the audience of features. GitLab CI/CD pipelines can be architected to configure and sequence your pipeline, gitlab-ci.yml file can be used to setup and define pipeline versions. Additionally, perform post deployment monitoring using browser performance testing for web applications and application performance testing using the monitor stage capabilities | [**Release Stage**](https://about.gitlab.com/stages-devops-lifecycle/release/): [Continuous Delivery](https://about.gitlab.com/product/continuous-delivery/), [Review Apps](https://about.gitlab.com/stages-devops-lifecycle/review-apps/), [Advanced Deployments](https://docs.gitlab.com/ee/topics/autodevops/index.html#incremental-rollout-to-production), [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html), [Release Evidence](https://docs.gitlab.com/ee/user/project/releases/#release-evidence), [Secrets Management](https://docs.gitlab.com/ee/integration/vault.html) <br> [**Monitor Stage**](https://about.gitlab.com/stages-devops-lifecycle/monitor/): [Metrics](https://docs.gitlab.com/ee/operations/metrics/), [Logging](https://docs.gitlab.com/ee/user/project/clusters/kubernetes_pod_logs.html), [Tracing](https://docs.gitlab.com/ee/operations/tracing.html), [Error Tracking](https://docs.gitlab.com/ee/operations/error_tracking.html) <br> [**Verify**](https://about.gitlab.com/stages-devops-lifecycle/verify/): [Browser Performance Testing](https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html)  | [![Incremental rollout](../../images/youtube_social_icon_red-32x23.png) Application Release Automation & Delivery](https://youtu.be/ZAYBxLLcZrM) <br> [![Feature Flags](../../images/youtube_social_icon_red-32x23.png) Feature flags](https://youtu.be/_BZDM8LgGzg) |
-| 7) **Resource allocation and management** | Users can utilize GitLab CI and Monitoring capabilities to chart their resource allocation and consumption and setup alerts when thresholds have been met as well as view cost implications of proposed Infrastructure as Code changes in their Merge Request. Native support for this capability is part of the GitLab roadmap | [Cluster Cost Optimization](https://about.gitlab.com/direction/delivery/cluster_cost_management/) [Limiting the number of deployments to a specific resource](https://docs.gitlab.com/ee/ci/yaml/#resource_group) - If multiple jobs belonging to the same resource group are enqueued simultaneously, only one of the jobs is picked by the runner, and the other jobs wait until the resource_group is free.  | tbd |
-| 8) **Multi Platform/Cloud/Integration Support** | GitLab can be installed on AWS, Google Cloud, Azure and can be deployed to multiple clouds including AWS, Google Cloud, Azure, VMware, IBM amongst others. GitLab installations support only Linux based distributions.  | **All Stages**: [GitLab Installation Clouds](https://docs.gitlab.com/ee/install/#install-gitlab-on-cloud-providers) [Cloud Deployment Targets](https://about.gitlab.com/stages-devops-lifecycle/deploy-targets/), [Install Requirements](https://docs.gitlab.com/ee/install/requirements.html), [Integrations](https://docs.gitlab.com/ee/user/project/integrations/overview.html#integrations) | tbd |
-| 9) **Governance and Compliance** | Compliance testing and audit controls are built into GitLab's CI pipelines. | [Compliance at GitLab](https://about.gitlab.com/solutions/compliance/) <br> [Manage Stage](https://about.gitlab.com/stages-devops-lifecycle/): [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html), [Audit Logs](https://docs.gitlab.com/ee/administration/logs.html#audit_jsonlog), [Audit Reports](https://docs.gitlab.com/ee/administration/audit_reports.html), [Compliance Management](https://docs.gitlab.com/ee/administration/compliance.html), [Release Evidence](https://docs.gitlab.com/ee/user/project/releases/#release-evidence) <br> [Secure Stage](https://about.gitlab.com/stages-devops-lifecycle/secure/): [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html), [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/)| tbd |
+| 6) **Application Release Automation & Delivery** | GitLab supports multiple advanced deployment strategies including progressive and incremental delivery. Review apps provide an opportunity to preview web applications before deployment, feature flags allow you to control the audience of features. GitLab CI/CD pipelines can be architected to configure and sequence your pipeline, gitlab-ci.yml file can be used to setup and define pipeline versions. Additionally, perform post deployment monitoring using browser performance testing for web applications and application performance testing using the monitor stage capabilities | [**Release Stage**](https://about.gitlab.com/stages-devops-lifecycle/release/): [Continuous Delivery](https://about.gitlab.com/product/continuous-delivery/), [Review Apps](https://about.gitlab.com/stages-devops-lifecycle/review-apps/), [Advanced Deployments](https://docs.gitlab.com/ee/topics/autodevops/index.html#incremental-rollout-to-production), [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html), [Release Evidence](https://docs.gitlab.com/ee/user/project/releases/#release-evidence), [Secrets Management](https://docs.gitlab.com/ee/integration/vault.html) <br> [**Monitor Stage**](https://about.gitlab.com/stages-devops-lifecycle/monitor/): [Metrics](https://docs.gitlab.com/ee/operations/metrics/), [Logging](https://docs.gitlab.com/ee/administration/logs/), [Tracing](https://docs.gitlab.com/ee/operations/tracing.html), [Error Tracking](https://docs.gitlab.com/ee/operations/error_tracking.html) <br> [**Verify**](https://about.gitlab.com/stages-devops-lifecycle/verify/): [Browser Performance Testing](https://docs.gitlab.com/ee/ci/testing/browser_performance_testing.html)  | [![Incremental rollout](../../images/youtube_social_icon_red-32x23.png) Application Release Automation & Delivery](https://youtu.be/ZAYBxLLcZrM) <br> [![Feature Flags](../../images/youtube_social_icon_red-32x23.png) Feature flags](https://youtu.be/_BZDM8LgGzg) |
+| 7) **Resource allocation and management** | Users can utilize GitLab CI and Monitoring capabilities to chart their resource allocation and consumption and setup alerts when thresholds have been met as well as view cost implications of proposed Infrastructure as Code changes in their Merge Request. Native support for this capability is part of the GitLab roadmap | [Cluster Cost Optimization](https://about.gitlab.com/direction/delivery/#what-we-arent-focused-on-now) [Limiting the number of deployments to a specific resource](https://docs.gitlab.com/ee/ci/yaml/#resource_group) - If multiple jobs belonging to the same resource group are enqueued simultaneously, only one of the jobs is picked by the runner, and the other jobs wait until the resource_group is free.  | tbd |
+| 8) **Multi Platform/Cloud/Integration Support** | GitLab can be installed on AWS, Google Cloud, Azure and can be deployed to multiple clouds including AWS, Google Cloud, Azure, VMWare, IBM amongst others. GitLab installations support only Linux based distributions.  | **All Stages**: [GitLab Installation Clouds](https://docs.gitlab.com/ee/install/#install-gitlab-on-cloud-providers) [Cloud Deployment Targets](https://about.gitlab.com/stages-devops-lifecycle/deploy-targets/), [Install Requirements](https://docs.gitlab.com/ee/install/requirements.html), [Integrations](https://docs.gitlab.com/ee/user/project/integrations/) | tbd |
+| 9) **Governance and Compliance** | Compliance testing and audit controls are built into GitLab's CI pipelines. | [Compliance at GitLab](https://about.gitlab.com/solutions/compliance/) <br> [Manage Stage](https://about.gitlab.com/stages-devops-lifecycle/): [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html), [Audit Logs](https://docs.gitlab.com/ee/administration/logs/#audit_jsonlog), [Audit Reports](https://docs.gitlab.com/ee/administration/audit_reports.html), [Compliance Management](https://docs.gitlab.com/ee/administration/compliance.html), [Release Evidence](https://docs.gitlab.com/ee/user/project/releases/#release-evidence) <br> [Secure Stage](https://about.gitlab.com/stages-devops-lifecycle/secure/): [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html), [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/)| tbd |
 | 10) **Analytics and reporting** | GitLab provides a variety of Executive Insights, Productivity Insights, Operations Insights and Security Insights | **All Stages**: <br> **Executive Insights** DevOps Score, Value Stream Analytics, CI/CD Charts, Roadmaps <br> **Operations Insights**: Operations Dashboard, Environments Dashboard, Environments <br> **Other insights** such as Productivity Insights and Developer Insights are applicable to other usecases| tbd |
 | 11) **Enterprise readiness** | GitLab supports enterprise grade authentication and authorization, access management, audit information, compliance, high availability and disaster recovery, geographic replication for great user experience across locations, large user reference architectures, infrastructure as code amongst others  | **All Stages** particularly [Manage Stage](https://about.gitlab.com/direction/dev/#manage), [Enablement Section](https://about.gitlab.com/direction/enablement/#enablement-section-overview) | tbd |
 
 ## Top Roadmap Items for CD
+
 - [Natively support hypercloud deployments](https://gitlab.com/groups/gitlab-org/-/epics/1804)
 - [Advanced deploys (Blue/green, Canary, Traffic vectoring)](https://gitlab.com/groups/gitlab-org/-/epics/2213)
 - [Streamline AWS Deployments](https://gitlab.com/groups/gitlab-org/-/epics/2351)
@@ -135,21 +130,19 @@ A collection of short demonstrations that show GitLab's CD capabilities.
 
 | Differentiator |  Value  |  Proof Point | Demos |
 |----------|-------------|------|----|
-| 1) **Unified deployment and monitoring strategies** | GitLab provides the ability to visualise what goes into production (via [Review Apps](https://docs.gitlab.com/ee/ci/review_apps/)), what to deploy to production (via [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html)), who to deploy it to (via [Progressive Delivery](https://docs.gitlab.com/ee/ci/environments/incremental_rollouts.html) and deployment strategies like [Canary](https://docs.gitlab.com/ee/user/project/canary_deployments.html)), monitor performance of deployment (via [browser performance testing](https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html), performance monitoring/tracing) and rollback based on performance via [post deployment monitoring](https://gitlab.com/groups/gitlab-org/-/epics/3088), **all from a single application**. | Strong Performer in the [Forrester Wave for Continuous Delivery and Release Automation Q2 2020](https://about.gitlab.com/blog/2020/07/08/forrester-cdra2020/) <br/> - James Governor from RedMonk talking about [GitLab’s focus on Progressive Delivery](https://redmonk.com/jgovernor/2019/07/10/progressive-delivery-at-gitlab/) - GitLab is an interesting case for a couple of key reasons: <br/> a) It has a significant and fast growing enterprise footprint, notably with its CD product. <br/> b) It develops software at high velocity, with a monthly release schedule and a strong bias to shipping, so you can watch improvements in real time. The company ships open source software and has a strong culture of corporate observability. | [![Unified and integrated monitoring and deployment strategies](../../images/youtube_social_icon_red-32x23.png) Unified and integrated monitoring and deployment strategies](https://youtu.be/ihdxpO5rgSc) |
+| 1) **Unified deployment and monitoring strategies** | GitLab provides the ability to visualise what goes into production (via [Review Apps](https://docs.gitlab.com/ee/ci/review_apps/)), what to deploy to production (via [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html)), who to deploy it to (via [Progressive Delivery](https://docs.gitlab.com/ee/ci/environments/incremental_rollouts.html) and deployment strategies like [Canary](https://docs.gitlab.com/ee/user/project/canary_deployments.html)), monitor performance of deployment (via [browser performance testing](https://docs.gitlab.com/ee/ci/testing/browser_performance_testing.html), performance monitoring/tracing) and rollback based on performance via [post deployment monitoring](https://gitlab.com/groups/gitlab-org/-/epics/3088), **all from a single application**. | Strong Performer in the [Forrester Wave for Continuous Delivery and Release Automation Q2 2020](https://about.gitlab.com/blog/2020/07/08/forrester-cdra2020/) <br/> - James Governor from RedMonk talking about [GitLab's focus on Progressive Delivery](https://redmonk.com/jgovernor/2019/07/10/progressive-delivery-at-gitlab/) - GitLab is an interesting case for a couple of key reasons: <br/> a) It has a significant and fast growing enterprise footprint, notably with its CD product. <br/> b) It develops software at high velocity, with a monthly release schedule and a strong bias to shipping, so you can watch improvements in real time. The company ships open source software and has a strong culture of corporate observability. | [![Unified and integrated monitoring and deployment strategies](../../images/youtube_social_icon_red-32x23.png) Unified and integrated monitoring and deployment strategies](https://youtu.be/ihdxpO5rgSc) |
 | 2) **Automated and Integrated Continuous Delivery** |  GitLab [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/index.html) simplifies and accelerates delivery with a complete delivery pipeline out of the box. Simply commit code and GitLab does the rest. GitLab also provides an integrated dashboard that spans across the CI/CD pipeline status and deployment status | - The built-in features of Auto DevOps have made our experience more rewarding and effective - [Daniel B on G2 Peer Reviews](https://www.g2.com/products/gitlab/reviews/gitlab-review-572450)<br/> - It has really helped us to shorten lead time, which has positively affected every single metric we measure - [Chorus.ai](https://about.gitlab.com/customers/chorus/) <br/> - GitLab Auto DevOps also delivered the technology component required for true CI/CD, accelerating product delivery with an end-to-end pipeline out of the box. - [ExtraHop Networks](https://about.gitlab.com/customers/extra-hop-networks/) | [![Automated and integrated Continuous Delivery](../../images/youtube_social_icon_red-32x23.png) Automated and integrated Continuous Delivery](https://youtu.be/blJT8f6ZDH8)  |
 | 3) **Modern Compliance for Continuous Delivery** | GitLab simplifies [compliance](https://docs.gitlab.com/ee/administration/compliance.html#compliance-features) with helping customers **define granular policies** such as who can approve MR, push to production, segregation of duties, release governance etc, **define security policies** such as license compliance, password policies, credential inventories etc, **track adherence to compliance** such as  user actions such as commits, permission changes, approval changes, logins, password changes, release evidence etc - all within a single application which allows **traceability** from deployment all the way back to code changes and requirements | - During a recent audit for SOC2 compliance, the auditors said that Chorus had the fastest auditing process they have seen and most of that is due to the capabilities of GitLab - [Chorus.ai](https://about.gitlab.com/customers/chorus/) <br/> - There is no longer a need for license keys or several different logins, because of the built-in security and compliance. Software is deployed anywhere, which relieves developers localization constraints.| tbd |
 
-## [Message house](./message-house/)
+## [Message house](message-house/)
 
 The message house provides a structure to describe and discuss the value and differentiators for Continuous Delivery with GitLab.
 
 ## Customer Facing Slides
 
-
 <figure class="video_container">
 <iframe src="https://docs.google.com/presentation/d/1bGdjQNfHxmYKYz_ZsrtyhEyXLGlv8UoTavi_aGl3UNc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
-
 
 ### Discovery Questions
 
@@ -233,7 +226,6 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 - **Result:** Athlinks cuts runtime in half with GitLab
 - **Sales Segment:** Enterprise
 
-
 ### Case Studies
 
 #### [Hemmersbach](https://about.gitlab.com/customers/hemmersbach/)
@@ -271,13 +263,11 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 - **Result:** 10 times better success rate with CD than with manual deploys plus 80% time saved moving to CD
 - **Sales Segment:** SMB
 
-
 ### References to help you close
 
 [SFDC Report of referencable Release customers](https://gitlab.my.salesforce.com/a6l4M000000kDwa).  Note: Sales team members should have access to this report. If you do not have access, reach out to the [customer reference team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#which-customer-reference-team-member-should-i-contact) for assistance.
 
 Request reference calls by pressing the "Find Reference Accounts" button at the top of your stage 3 or later opportunity.
-
 
 ## Adoption Guide
 
@@ -326,7 +316,6 @@ The following will link to enablement and training videos and content.
 
 ### Professional Service Offers
 
-
 ## Key Value (at tiers)
 
 ### Core/Free
@@ -335,6 +324,7 @@ The following will link to enablement and training videos and content.
 We are committed to lowering the barriers for organizations embarking on their CI/CD journey. In March 2020, we announced a number of features CD features that are [moving to core](https://about.gitlab.com/blog/2020/03/30/new-features-to-core/).
 
 **Key features with Core/Free:**
+
 - [Package repository](https://docs.gitlab.com/ee/user/packages/): private repository for a variety of package managers
 - Deployment Strategies: support for [canary deployments](https://docs.gitlab.com/ee/user/project/canary_deployments.html), [incremental roll outs](https://docs.gitlab.com/ee/ci/environments/incremental_rollouts.html), [blue green deployments](https://docs.gitlab.com/ee/ci/environments/incremental_rollouts.html#blue-green-deployment) and feature flags to give you confidence in your releases
 - [Deploy boards](https://docs.gitlab.com/ee/user/project/deploy_boards.html): gives a consolidated view of health and status of Kubernetes deployments
@@ -347,16 +337,15 @@ We are committed to lowering the barriers for organizations embarking on their C
 - [ChatOps](https://docs.gitlab.com/ee/ci/chatops/): interact with GitLab via chat services
 - [AutoDevOps](https://docs.gitlab.com/ee/topics/autodevops/): simplify build, test, deploy, monitor of your applications
 
-
-
 ### Premium
 
 **Why choose GitLab Premium for CD?**
 Premium  is ideal for scaling organizations for multi team usage, enabling organizations scale their DevOps delivery with advanced configuration, consistent standards and compliance. Take advantage of enterprise level priority support, including 24/7 uptime support, a named Customer Success Manager (CSM), and upgrade assistance.
 
 **Key features with Premium:**
+
 - [Dependency Proxy](https://docs.gitlab.com/ee/user/packages/dependency_proxy) - local proxy for packages
-- [Multi Project Pipelines](https://docs.gitlab.com/ee/ci/multi_project_pipelines.html)- link CI pipelines from multiple projects.
+- [Multi Project Pipelines](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#multi-project-pipelines)- link CI pipelines from multiple projects.
 - [Operations dashboard](https://docs.gitlab.com/ee/user/operations_dashboard/index.html#doc-nav)- get a holistic view of the overall health of CI/CD pipelines and organization wide operations.
 - [Environments dashboard](https://docs.gitlab.com/ee/ci/environments/environments_dashboard.html) - cross project environment based view to track deployment status
 - [CI/CD for external repositories](https://docs.gitlab.com/ee/ci/ci_cd_for_external_repos/)- connect your external repositories instead of moving your entire existing project(s) to get the benefits of GitLab CI/CD. This feature supports [GitHub](https://docs.gitlab.com/ee/ci/ci_cd_for_external_repos/github_integration.html), [Bitbucket Cloud](https://docs.gitlab.com/ee/ci/ci_cd_for_external_repos/bitbucket_integration.html), and any other Git-based repository.
@@ -367,7 +356,8 @@ Premium  is ideal for scaling organizations for multi team usage, enabling organ
 [Ultimate](https://about.gitlab.com/pricing/ultimate/) is ideal for projects with executive visibility while managing priorities, security, risk, and compliance.
 
 **Key features with Ultimate:**
-- [Compliance dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard) - high level view of project compliance status and merge request approvers
+
+- [Compliance dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_center/) - high level view of project compliance status and merge request approvers
 - [Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/)- analyze Docker images and check for potential security issues.
 - [Dynamic Application Security Testing](https://docs.gitlab.com/ee/user/application_security/dast/)- analyze review applications to identify potential security issues on running web applications before deployment
 
@@ -383,9 +373,11 @@ Check out this introductory video to learn the basics of CI/CD as software devel
 <!-- blank line -->
 
 ### Presentations
+
 - [Why CI/CD?](https://docs.google.com/presentation/d/1OGgk2Tcxbpl7DJaIOzCX4Vqg3dlwfELC3u2jEeCBbDk)
 
 ### Continuous Delivery Videos
+
 - [CI/CD with GitLab](https://youtu.be/1iXFbchozdY)
 - [GitLab for complex CI/CD: Robust, visible pipelines](https://youtu.be/qy8A7Vp_7_8)
 - [How do Runners work?](https://youtu.be/IsthhMm64u8)
@@ -393,18 +385,21 @@ Check out this introductory video to learn the basics of CI/CD as software devel
 - [What is Auto DevOps?](https://www.youtube.com/watch?v=pPRF1HEtQ3s&feature=youtu.be)
 
 ### Integrations Demo Videos
+
 - [Migrating from Jenkins to GitLab](https://youtu.be/RlEVGOpYF5Y)
 - [Using GitLab CI/CD pipelines with GitHub repositories](https://youtu.be/qgl3F2j-1cI)
 
 ### Clickthrough & Live Demos
+
 - [Live Demo: GitLab CI/CD Deep Dive](https://youtu.be/pBe4t1CD8Fc)
 
 ### Blogs and articles
-- [Auto DevOps 101: How we’re making CI/CD easier](https://about.gitlab.com/blog/2019/10/07/auto-devops-explained/)
+
+- [Auto DevOps 101: How we're making CI/CD easier](https://about.gitlab.com/blog/2019/10/07/auto-devops-explained/)
 - [Progressive Delivery](https://about.gitlab.com/blog/2019/04/19/progressive-delivery-using-review-apps/)
 
-
 ### Interesting reads
+
 - [How We Switched to a Continuous Delivery Pipeline in 3 months](https://medium.com/faun/how-we-switch-to-a-continuous-delivery-pipeline-in-3-months-9667b9f65f7a)
 
 ## Buyer's Journey
@@ -413,6 +408,6 @@ Inventory of key pages in the buyer's Journey
 
 | **Awareness** <br> learning about the problem  |  **Consideration** <br> looking for solution ideas  |  **Decision** <br> is this the right solution|
 | ------ | -------- |-------- |
-| [topic page?]()  | [solution page]() | [proof points]() |
-| [landing pages?]() | ?comparisons?  | [comparisons]() |
-| -etc?            |   |  - [product page x]() <br>  - [product page y]() <br>  - [product page z]() |
+| topic page?  | solution page | proof points |
+| landing pages? | ?comparisons?  | comparisons |
+| -etc?            |   |  - product page x <br>  - product page y <br>  - product page z |

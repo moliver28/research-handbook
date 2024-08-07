@@ -1,5 +1,4 @@
 ---
-
 title: "Blocking end-to-end tests"
 description: "This page describes the process and technical documentation around blocking end-to-end tests at GitLab.
 Blocking tests are executed as a showstopper step in the release pipelines. Blocking tests are executed as a blocking step in MRs but not the deployments."
@@ -33,6 +32,8 @@ is run once a week by a schedule named "Weekly reliable, unreliable E2E spec rep
 - A test should ideally not be promoted manually without it being identified in the reliable test report. However, if a
   test has been identified in the reliable test report did not make it to the top 10 number of runs, it can be promoted
   by manually creating an MR.
+- Orchestrated tests are also selected for promotion to blocking even though they do not currently run in the blocking GDK jobs (`gdk-qa-blocking`).
+  This will ensure we have a set of stable orchestrated tests when we make the [orchestrated tests block MRs](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2516)
 
 The flow of promotion to blocking as a decision tree:
 
@@ -131,7 +132,6 @@ process must be followed.
 
 The `:blocking` tag cannot be removed from a test. Such a test can only be quarantined and de-quarantined.
 
-
 ## Execution Command
 
 - **Blocking Tests**: `bin/qa Test::Instance::All http://localhost:3000 -- --tag blocking`
@@ -140,7 +140,6 @@ The `:blocking` tag cannot be removed from a test. Such a test can only be quara
 
 - Executed in MRs and master in `gdk-qa-blocking` jobs for ongoing quality assurance.
 - Also executed in `gdk-qa-blocking-ff-inverse` jobs in MRs that include feature flag changes to validate the tests in both feature flag states.
-
 
 ## Future Iterations
 
@@ -151,4 +150,3 @@ The `:blocking` tag cannot be removed from a test. Such a test can only be quara
 - Once most of the tests have been promoted to the blocking, sunset the `:blocking` tag and make all tests block MRs. At
   this stage, any left over tests that weren't promoted should be
   quarantined. ([Issue link](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2498))
-

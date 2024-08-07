@@ -1,17 +1,7 @@
 ---
-
 title: "Image Guidelines"
 description: "The purpose of this page is to present guidelines for image file formats."
 ---
-
-
-
-
-
-
-
-# Image Guidelines
-
 
 **Please note that deviation from these guidelines will increase production time.**
 
@@ -36,25 +26,25 @@ Our website has a 2MB file size limit. Please plan accordingly when providing im
 ## Logos
 
 * **All logos should be provided in a vector format such as .SVG, .EPS, or .AI. An SVG is preferred.**
-    * *SVG is a web-native format that any modern web browser can read.*
-    * *Vector formats scale cleanly to devices of any size.*
+  * *SVG is a web-native format that any modern web browser can read.*
+  * *Vector formats scale cleanly to devices of any size.*
 * **The SVG should be saved using [presentation atributes](https://css-tricks.com/presentation-attributes-vs-inline-styles/) rather than style attributes.**
-    * *Presentation attributes are easier to work with when building websites.*
+  * *Presentation attributes are easier to work with when building websites.*
 * **All fonts & typography need to be [outlined](https://www.busybeaver.net/how-to-outline-fonts-in-illustrator/)**
-    * *Most users will not have a copy of any fonts used in a logo.*
+  * *Most users will not have a copy of any fonts used in a logo.*
 * **Please provide a monochromatic logo and a color logo.**
-    * *Limiting color palletes is a way to reduce contrast-of-color in order to conserve attention-span.*
-    * *Monochromatic logos are used in most places but we also use color logos in select locations. It helps to have both.*
+  * *Limiting color palletes is a way to reduce contrast-of-color in order to conserve attention-span.*
+  * *Monochromatic logos are used in most places but we also use color logos in select locations. It helps to have both.*
 * **For dimensions, we require a width that is greater than or equal to its height.**
-    * *Ideally an aspect ratio between 1:1 and 2:1 (width:height).*
-    * *This is necessary to ensure that the logos will fit into specific locations on the website.*
+  * *Ideally an aspect ratio between 1:1 and 2:1 (width:height).*
+  * *This is necessary to ensure that the logos will fit into specific locations on the website.*
 * **Artboards should be sized appropriately.**
-    * *If for example a logo were 400px by 200px, please crop the artboard accordingly. Do not leave the logo on an artboard that's 1800px by 2600px.*
+  * *If for example a logo were 400px by 200px, please crop the artboard accordingly. Do not leave the logo on an artboard that's 1800px by 2600px.*
 * **It's preferable (but not required) that logos are [lockups (logo + wordmark)](https://kettlefirecreative.com/logo-terminology-wordmark-brandmark-lettermark-lockup/).**
-    * *For example, the words "Pepsi" with their circle icon, as opposed to just the icon or just the name.*
-    * *Lettermarks might be unrecognizeable without a wordmark. Wordmarks alone can be unintelligible in other languages. Lettermarks can overlap with similar acronyms, potentially complicating internet searches.*
+  * *For example, the words "Pepsi" with their circle icon, as opposed to just the icon or just the name.*
+  * *Lettermarks might be unrecognizeable without a wordmark. Wordmarks alone can be unintelligible in other languages. Lettermarks can overlap with similar acronyms, potentially complicating internet searches.*
 * **It's preferable (but not required) that logos be legible at small sizes.**
-    * *Please be aware that some elements of a logo might be too thin or small to read or discern at small sizes.*
+  * *Please be aware that some elements of a logo might be too thin or small to read or discern at small sizes.*
 
 ## Photos
 

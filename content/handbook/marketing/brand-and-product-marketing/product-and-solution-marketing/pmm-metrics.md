@@ -1,5 +1,4 @@
 ---
-
 title: "PMM Metrics"
 ---
 
@@ -26,7 +25,6 @@ For MVC, we'll start with a handful of exclusive TOP level project labels in the
 | Sales Support  | Specific sales support meetings, slides,  etc   |  pmm::Sales  |
 | Web updates  |  Web content such as: handbook, product page, solution page, blogs, etc  |  pmm::Web  |
 
-
 ### Reporting and Tracking
 
 1. We have a quarterly milestone to track PMM quarterly work.
@@ -36,4 +34,3 @@ For MVC, we'll start with a handful of exclusive TOP level project labels in the
 or
 
 ![bar chart](https://docs.gitlab.com/ee/user/project/insights/img/insights_example_bar_time_series_chart.png)
-

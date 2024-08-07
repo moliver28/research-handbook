@@ -1,26 +1,15 @@
 ---
-
 title: "Group Cost Metrics"
 description: "Group Cost Metrics"
 ---
-
-
-
-
-
-
-
 
 ---
 
 ## Overview
 
 [Group Cost Metrics SSOT](https://app.periscopedata.com/app/gitlab/744908/Group-GCP-Cost-PI's)
-{:.btn .btn-purple}
 
 [How to Engage](/handbook/engineering/infrastructure/cost-management/how-to-engage)
-{:.btn .btn-purple}
-
 
 We maintain a set of base level cost metrics for groups to use in Periscope in this [Dashboard](https://app.periscopedata.com/app/gitlab/744908/Infrafin-Base-Cost-Metric-SSOT---Groups). These are created in conjunction with a strict definition that explains what is and is not included in the metric, so understanding the definition is crucial to understanding the metric itself.
 
@@ -37,8 +26,6 @@ When you would like to use these metrics to create a final KPI, for example taki
 - Include the original metric definition in your newly created charts, or otherwise link back to the source
 - Less than 6 base level cost metrics per group
 
-
 ## Requesting a New Group Level Cost Metric
 
 If you are a PM or just see a need for a new metric to be added, please read the instructions under "I would like to see a new group or service level cost metric" in [How to Engage](/handbook/engineering/infrastructure/cost-management/how-to-engage)
-

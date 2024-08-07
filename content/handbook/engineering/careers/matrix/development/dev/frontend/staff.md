@@ -23,6 +23,7 @@ title: "Dev Career Framework: Staff Frontend Engineer"
 
 {{% include "includes/engineering-careers/staff-technical-competency.md" %}}
 {{% include "includes/engineering-careers/development-staff-technical-competency.md" %}}
+
 - Expert knowledge of frontend programming languages and GitLab's default frontend frameworks
 - Able to identify and drive large architectural changes
 - Able to analyze and contribute back improvements to third-party libraries

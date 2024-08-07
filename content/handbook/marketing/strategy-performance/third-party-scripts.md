@@ -27,6 +27,7 @@ A marketing script, pixel, or tag is a small piece of code embedded on a web pag
 Table last updated: 2024-01-26
 
 ### The Process
+
 To request the placement of a new tag on the website, please first ensure that the platform is listed on [tech_stack.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml), as all platforms must undergo approval by the legal team.
 
 Once the platform has received legal approval, create a new issue under the [Marketing Analytics](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/new) project, utilizing the `/script_onboarding.md` template. Complete the "Script Context" sections to the best of your abilities. The issue will be automatically assigned to @DennisCharukulvanich, who will assess the remaining tasks.

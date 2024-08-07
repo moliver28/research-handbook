@@ -25,7 +25,7 @@ The Director, Field Enablement is a [grade 10](/handbook/total-rewards/compensat
 
 - Demonstrated progressive software sales experience with expertise in DevOps and/or Open Source, preferably in sales enablement or management.
 - Working knowledge of sales training technology and methodologies; demonstrable experience with sales, partner, and customer success enablement concepts, practices, and procedures.
-- Relevant experience preparing, developing, and executing global sales teams’ effectiveness strategies, tactics and action plans for a technology platform.
+- Relevant experience preparing, developing, and executing global sales teams' effectiveness strategies, tactics and action plans for a technology platform.
 - Ability to quickly understand technical concepts and explain them to audiences of varying technical expertise (sales team, customer success team, and channel partners).
 - Experience growing within a small start-up. Strong ability to interact and influence effectively with C-level executives and team members.
 - Exceptional written/verbal communication and presentation skills.
@@ -81,7 +81,7 @@ The Senior Manager, Field Enablement Programs is a global Sales, Partner, Techni
 
 ### Job Grade
 
-The Senior Manager, Field Enablement Programs is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).  
+The Senior Manager, Field Enablement Programs is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -98,7 +98,7 @@ The Senior Manager, Field Enablement Programs is a [grade 9](/handbook/total-rew
 
 -Demonstrated progressive software sales experience with expertise in DevSecOps and/or open source, preferably in sales or technical enablement and management.
 
-- Relevant experience preparing, developing, and executing global revenue teams’ effectiveness strategies, tactics and action plans for a technology platform.
+- Relevant experience preparing, developing, and executing global revenue teams' effectiveness strategies, tactics and action plans for a technology platform.
 - Ability to quickly understand technical concepts and explain them to audiences of varying technical expertise (sales team, customer success team, and channel partners).
 - Working knowledge of enablement technology and methodologies; demonstrable experience with sales, partner, technical, and customer success enablement concepts, practices, and procedures.
 - Experience developing enablement programs for technical and sales audiences, specifically focused on building revenue teams' product knowledge.
@@ -141,7 +141,7 @@ The Manager, Field Enablement Programs is a [grade 8](/handbook/total-rewards/co
 
 - Demonstrated progressive software sales experience with expertise in DevOps and/or Open Source, preferably in sales enablement and management.
 - Working knowledge of sales training technology and methodologies; demonstrable experience with sales, partner, and customer success enablement concepts, practices, and procedures.
-- Relevant experience preparing, developing, and executing global sales teams’ effectiveness strategies, tactics and action plans for a technology platform.
+- Relevant experience preparing, developing, and executing global sales teams' effectiveness strategies, tactics and action plans for a technology platform.
 - Experience growing within a small start-up. Strong ability to interact and influence effectively with VP-level and Director-level executives and team members.
 - Exceptional written/verbal communication and presentation skills.
 - Team player with strong interpersonal skills, skilled at project management and cross-functional collaboration.

@@ -1,13 +1,6 @@
 ---
-
 title: Customer Success Playbooks
 ---
-
-
-
-
-
-
 
 View the [Customer Success homepage](/handbook/customer-success/) for additional Customer Success handbook content.
 

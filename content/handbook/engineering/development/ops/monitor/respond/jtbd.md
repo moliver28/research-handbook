@@ -10,6 +10,7 @@ The goal of this page is to create, share and iterate on the Jobs to be Done (JT
 ## Goals
 
 Utilize JTBD and job statements to:
+
 - Understand our users' motivations.
 - Validate identified use cases and solutions.
 - Continuously test and iterate features to ensure we are meeting our customers' and users' needs.

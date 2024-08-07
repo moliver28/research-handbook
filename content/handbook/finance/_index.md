@@ -11,15 +11,15 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 {.h2}
 
 - [Finance Issues](https://gitlab.com/gitlab-com/finance/issues)
-    - Please use confidential issues for topics that should only be visible to team members at GitLab.
-- [Accounts Payable]({{< ref "./accounts-payable" >}})
-- [Expense Guidelines]({{< ref "./expenses" >}})
+  - Please use confidential issues for topics that should only be visible to team members at GitLab.
+- [Accounts Payable](accounts-payable/)
+- [Expense Guidelines](expenses/)
 - [Operating Metrics]({{< ref "key-review" >}})
-- [Procurement]({{< ref "./procurement" >}})
-- [Sales Comp Plan]({{< ref "./sales-comp-plan" >}})
-- [Signature Authorization Matrix]({{< ref "./authorization-matrix" >}})
-- [Authorization Matrix Policy]({{< ref "./authorization-matrix#authorization-matrix-policy" >}})
-- [Stock Options](/handbook/stock-options/)
+- [Procurement](procurement/)
+- [Sales Comp Plan](sales-comp-plan/)
+- [Signature Authorization Matrix](authorization-matrix/)
+- [Authorization Matrix Policy](authorization-matrix/#authorization-matrix-policy)
+- [Stock Options](/handbook/total-rewards/stock-options/)
 
 ## Forms
 
@@ -35,16 +35,23 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 - **Accounts Receivable** - customer payment/remittance inquiries should be sent to our Accounts Receivable mailbox - *AR@gitlab.com*
 - **Payroll**- inquiries which relate to contractor invoices should be sent to our Payroll mailbox - *nonuspayroll@gitlab.com*.
 
+## CFO Approvals
+
+- Please use the `#cfo-approvals` chat channel in Slack for alerting the CFO to a request for his approval
+- Tag the CFO's Staff EBA in the Slack request for visibility and followup
+- Appropriate Finance team members in the approval flow must approve prior to requesting CFO approval
+- All requests must go through the appropriate approvals process, include a link to the Issue or description and receive all approvals prior to requesting CFO approval
+
 ---
 
 <div class="text-center rounded-3 p-3 display-6 text-primary" style="border: 2px solid #5468ff;"><strong>We <i class="fas fa-heart orange font-awesome" aria-hidden="true"></i> Finance</strong></div>
 
 ## <i aria-hidden="true" class="fas fa-book fa-fw icon-color font-awesome"></i>Finance Handbooks{#finance-handbooks}
 
-- [Accounting]({{< ref "./accounting" >}})
+- [Accounting](accounting/)
 - [Business Technology](/handbook/business-technology/)
-- [Financial Planning & Analysis]({{< ref "./financial-planning-and-analysis" >}})
-- [Investor Relations]({{< ref "./investor-relations" >}}/)
+- [Financial Planning & Analysis](financial-planning-and-analysis/)
+- [Investor Relations](investor-relations//)
 - [Tax](/handbook/tax)
 
 ---
@@ -83,7 +90,7 @@ GitLab's Fiscal Year runs from February 1 to January 31.
 | FY25-Q3 | 2024-08-01 to 2024-10-31 |
 | FY25-Q4 | 2024-11-01 to 2025-01-31 |
 
-Refer to our [writing style guidelines]({{< ref "communication#writing-style-guidelines" >}}) for proper use of date formats.
+Refer to our [writing style guidelines](/handbook/communication/#writing-style-guidelines) for proper use of date formats.
 
 ### Revenue non-committee
 
@@ -100,9 +107,9 @@ Non-US contractors not from Hungary, Italy, Japan, New Zealand, Nigeria, South A
 - submit monthly salary/bonus/commission invoice in BambooHR under Contractor Invoice tab (select the currency based on contract agreement) by the 8th of each month
 - submit expenses through Navan Expense by the 8th of each month
 - the scheduled payment date is the 22nd of each month
-- iiPay will send out remittance advice along with the scheduled payment via your gitlab email address
+- iiPay will send out remittance advice along with the scheduled payment via your GitLab email address
 
-Non-US contractors from Italy, Nigeria, South Africa, Switzerland, and Ukraine will need to send their monthly invoice for salary/bonus/commission and any [expenses](/handbook/spending-company-money/) by the 15th to payroll@gitlab.com.
+Non-US contractors from Italy, Nigeria, South Africa, Switzerland, and Ukraine will need to send their monthly invoice for salary/bonus/commission and any [expenses](/handbook/finance/spending-company-money/) by the 15th to payroll@gitlab.com.
 
 In many cases, VAT will not be payable on transactions between GitLab BV and EU-based
 vendors/contractors, thanks to "Shifted VAT". To make use of this shifted VAT:
@@ -115,8 +122,8 @@ VAT-number of GitLab IT BV (NL860316828B01).
 
 ### Timesheets for Hourly Employees
 
-1. People Ops and Finance will share a private Google Sheet with you where you will log your hours for each day in the “hours” column.
-1. There is a dropdown in the “pay type” column, with the default being Regular. There are also options for Overtime, Vacation, Sick, and Bereavement. Choose the appropriate pay type for your time.
+1. People Ops and Finance will share a private Google Sheet with you where you will log your hours for each day in the "hours" column.
+1. There is a dropdown in the "pay type" column, with the default being Regular. There are also options for Overtime, Vacation, Sick, and Bereavement. Choose the appropriate pay type for your time.
 1. If you work overtime or more hours than agreed upon in your contract, please obtain approval from your manager and forward to Finance before payroll cutoff.
 1. Your timesheet is due one day prior to the submit payroll date, which is outlined for the calendar year on your timesheet.
 
@@ -130,11 +137,11 @@ For example, work to enable a sales partner that will not be incorporated into t
 
 | Function | Name |
 | -------- | ---- |
-| Customer Support | [R&D Finance]({{< ref "./financial-planning-and-analysis/r-and-d-finance" >}}) |
-| R & D | [R&D Finance]({{< ref "./financial-planning-and-analysis/r-and-d-finance" >}}) |
-| Sales | [Sales Finance]({{< ref "./financial-planning-and-analysis/sales-finance" >}}) |
-| Professional Services | [Sales Finance]({{< ref "./financial-planning-and-analysis/sales-finance" >}}) |
-| Marketing | [Marketing Finance]({{< ref "./financial-planning-and-analysis/marketing-finance" >}}) |
+| Customer Support | [R&D Finance](financial-planning-and-analysis/r-and-d-finance/) |
+| R & D | [R&D Finance](financial-planning-and-analysis/r-and-d-finance/) |
+| Sales | [Sales Finance](financial-planning-and-analysis/sales-finance/) |
+| Professional Services | [Sales Finance](financial-planning-and-analysis/sales-finance/) |
+| Marketing | [Marketing Finance](financial-planning-and-analysis/marketing-finance/) |
 | G & A | Ellen Boyd and Jess Smith |
 
 ### Types of Work that the team does

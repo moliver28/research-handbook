@@ -1,51 +1,10 @@
 ---
-
 title: Monitoring of GitLab.com
 ---
 
 ## GitLab.com Service Availability
 
-Service Availability is the percentage of time during which the platform is in an available state. Other states are _degraded_ and _outage_.
-
-Each of the _user facing_ services have two Service Level Indicators (SLI): the [Apdex] score, and the [Error rate].
-The Apdex score is generally a measure of the service performance (latency).
-The Error rate measures the percentage of requests that fail due to an error (usually, a `5XX` status code).
-
-A service is considered available when:
-
-1. The Apdex score of the service is _above_ its Service Level Objective ([SLO]),
-1. _AND_ The error rate is _below_ its Service Level Objective ([SLO]).
-
-An example of available `web` service; within a 5 minute period:
-
-* At least 90% of requests have a latency within their "satisfactory" threshold
-* AND, less than 0.5% of requests return a 5XX error status response.
-
-A service is unavailable, if, for 5 minutes:
-
-* Less than 90% of requests have a latency within their "satisfactory" threshold
-* **OR**, more than 0.5% of requests return a 5XX error status response.
-
-In other words, a service needs to simultaneously meet both of its Service Level Objectives (SLO) targets in order to be considered available. If either target is not met, the service is considered unavailable.
-
-The availability score for a service is then calculated as the percentage of time that it is available. The Availability score for _each_ service combined define the platform Service Availability. This number indicates availability of GitLab.com for a select period of time.
-
-For example, if service becomes unavailable for a 10 minute period, the availability score will be:
-
-* 99.90% for the week (10 070 minutes of availability out of 10 080 minutes in a week)
-* 99.97% for the month (43 190 minutes of availability out of 43 200 minutes in the month)
-
-Finally, the availability metric for GitLab.com is calculated as a weighted average availability over the following services ([weights](https://gitlab.com/gitlab-com/runbooks/blob/master/services/service-catalog.yml) in brackets):
-
-1. `web` (5)
-1. `api` (5)
-1. `git` (5)
-1. `registry` (1)
-1. `ci runners` (0)
-1. `pages` (0)
-1. `sidekiq` (0)
-
-The availability score can be seen on the [SLA dashboard], and the Service Availability target is set as an [Infrastructure key performance indicator][KPI].
+The calculation methodology for GitLab.com Service Availability definition is in [the monitoring policy](/handbook/engineering/gitlab-com/policies/monitoring/).
 
 More details on definitions of outage, and degradation are on the [incident-management page](/handbook/engineering/infrastructure/incident-management/#definition-of-outage-vs-degraded-vs-disruption)
 
@@ -53,6 +12,9 @@ More details on definitions of outage, and degradation are on the [incident-mana
 
 | **Year Month** | **Availability** | **Comments** |
 | ---- | ----------- | ---- |
+| 2024 July | 99.99% |  |
+| 2024 June | 99.99% |  |
+| 2024 May | 100.00% |  |
 | 2024 April | 99.96% | |
 | 2024 March | 100% | |
 | 2024 February | 99.86% | |
@@ -121,8 +83,9 @@ These videos provide examples of how to quickly identify failures, defects, and 
 ### Pingdom Statistics
 
 We use our apdex based measurements to report official availability (see above). However, we also have some public pingdom tests for a representative view of overall performance of GitLab.com. These are available at [https://stats.pingdom.com](http://stats.pingdom.com/81vpf8jyr1h9). Specifically, this has the availability and latency of reaching
-   * a [GitLab.com issue](). For reference, it is the [first gitlab-ce issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/1).
-   * [GitLab.com](https://gitlab.com/) "plain and simple" called the [GitLab public check](http://stats.pingdom.com/81vpf8jyr1h9/4932705/history).
+
+* a GitLab.com issue. For reference, it is the [first gitlab-ce issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/1).
+* [GitLab.com](https://gitlab.com/) "plain and simple" called the [GitLab public check](http://stats.pingdom.com/81vpf8jyr1h9/4932705/history).
 
 ### Main Monitoring Dashboards
 
@@ -174,7 +137,6 @@ The dashboards for stage groups are at a very early stage. All contributions are
 * [GitLab Web Status](https://dashboards.gitlab.net/d/pb3fvC7mk/gitlab-web-status): front end perspective of GitLab. Useful to understand how GitLab.com looks from the user perspective. Use this graph to quickly troubleshoot what part of GitLab is slow.
 * [GitLab Git Status](https://dashboards.gitlab.net/dashboard/db/gitlab-git-status): front end perspective of GitLab ssh access.
 
-
 #### Private Whitebox Monitor
 
 * [Host Stats](https://dashboards.gitlab.net/dashboard/db/host-stats): useful to dive deep into a specific host to understand what is going on with it. Select a host from the dropdown on the top.
@@ -184,22 +146,21 @@ The dashboards for stage groups are at a very early stage. All contributions are
 ## Logs
 
 Network, System, and Application logs are processed, stored, and searched using
-the [ELK stack](https://www.elastic.co/products). We use a [managed
-Elasticsearch cluster on GCP](https://www.elastic.co/gcp) and as such our only
+the [ELK stack](https://www.elastic.co/products). We use a [managed Elasticsearch cluster on GCP](https://www.elastic.co/gcp) and as such our only
 interface to this is through APIs, Kibana and the elastic.co web UI.  For
 monitoring system performance and metrics, Elastic's x-pack monitoring metrics are used. They are sent to a dedicated monitoring cluster. Long-term we intend to switch to Prometheus and Grafana as the preferred
 interface. As it is managed by Elastic they run the VMs and we do not have
 access to them. However, for investigating errors and incidents, raw logs are
-available via [Kibana](https://log.gprd.gitlab.net). Logs are retained in Elasticsearch
-for 7 days.
-
+available via [Kibana](https://log.gprd.gitlab.net).
 Staging logs are available via a separate [Kibana](https://nonprod-log.gitlab.net/) instance.
 
 Kibana dashboards are used to monitor application activity, spam events, transient errors, system and network authentication
 events, security events, etc. Commonly used dashboards are the Abuse, SSH, and Rack Attack dashboards.
 
 One can view how we log our infrastructure as outlined by our
-[runbook](https://gitlab.com/gitlab-com/runbooks/blob/master/howto/logging.md)
+[runbook](https://gitlab.com/gitlab-com/runbooks/blob/master/howto/logging.md).
+
+The policy related to log management can be found in [the monitoring policy].
 
 ### Adding dashboards
 
@@ -234,14 +195,9 @@ We also did a series of deep dives by pairing with the development teams for eac
 ## Instrumenting Ruby to Monitor Performance
 
 Blocks of Ruby code can be "instrumented" to measure performance.
-  * [Documentation of instrumentation](https://docs.gitlab.com/ee/development/service_ping) with more detail on [how to implement this](https://docs.gitlab.com/ee/development/service_ping/metrics_instrumentation.html)
-  * An example of how this is used for GitLab itself, can be found in this [initializer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/initializers/zz_metrics.rb).
 
-[Apdex]: https://en.wikipedia.org/wiki/Apdex
-[Error rate]: https://en.wikipedia.org/wiki/Bit_error_rate
-[SLA dashboard]: https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now%2FM&to=now
-[KPI]: /handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability
-[SLO]: https://en.wikipedia.org/wiki/Service-level_objective
+* [Documentation of instrumentation](https://docs.gitlab.com/ee/development/service_ping) with more detail on [how to implement this](https://docs.gitlab.com/ee/development/service_ping/metrics_instrumentation.html)
+* An example of how this is used for GitLab itself, can be found in this [initializer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/initializers/zz_metrics.rb).
 
 ## Other Tools
 
@@ -249,13 +205,9 @@ Blocks of Ruby code can be "instrumented" to measure performance.
 
 Error tracking service.
 
-* [Documentation][sentry_doc]
-* [How to investigate a 500 error - Sentry / Kibana Demo][demo]
-* [Diagnose Errors on GitLab.com - Searching Sentry][sentry_500]
-
-[sentry_doc]: https://docs.gitlab.com/ee/operations/error_tracking.html
-[sentry_500]: /handbook/support/workflows/500_errors/#searching-sentry
-[demo]: https://youtu.be/o02t3V3vHMs
+* [Documentation](https://docs.gitlab.com/ee/operations/error_tracking.html)
+* [How to investigate a 500 error - Sentry / Kibana Demo](https://youtu.be/o02t3V3vHMs)
+* [Diagnose Errors on GitLab.com - Searching Sentry](/handbook/support/workflows/500_errors/#searching-sentry)
 
 #### Setting sentry alerts for your group
 
@@ -274,10 +226,6 @@ Steps for creating the alerts:
 
 Tool that helps you monitor, analyze and optimize your website speed and performance.
 
-* [Documentation][speed_doc]
-* [GitLab.com Sitespeed Measurement Repository][sitespeed_repo]
-* [How we used sitespeed.io to measure Frontend performance][sitespeed]
-
-[sitespeed]:  https://www.youtube.com/watch?v=6xo01hzW-f4
-[sitespeed_repo]: https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup/
-[speed_doc]: https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html#overview
+* [Documentation](https://docs.gitlab.com/ee/ci/testing/browser_performance_testing.html#overview)
+* [GitLab.com Sitespeed Measurement Repository](https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup/)
+* [How we used sitespeed.io to measure Frontend performance](https://www.youtube.com/watch?v=6xo01hzW-f4)

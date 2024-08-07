@@ -9,6 +9,7 @@ description: "Identify backend bounded contexts composing the GitLab Rails monol
 |-----------------|-----------------|
 | Date Created    | 2023-11-28 |
 | Target End Date | 2024-03-31 |
+| Actual End Date | 2024-05-20 |
 | Slack           | [#wg_bounded_contexts](https://gitlab.enterprise.slack.com/archives/C069VRRN70S) (only accessible from within the company) |
 | Google Doc      | [Agenda doc](https://docs.google.com/document/d/1Ss2lvZHm1ID5CTVQJS3ivM7Nc1FgLaPCBCSm2RDawKI/edit) (only accessible from within the company) |
 
@@ -57,15 +58,11 @@ Members of the working group will:
 
 The working group can be disbanded when:
 
-- We have a published list of identified bounded contexts that acts as a documentation for developers.
-- We have a simple process for creating, deleting and renaming bounded contexts, to allow the codebase evolve over time.
-
-Follow-up from the working group (and not in scope) can be:
-
-- Create or [update](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/51236) a Rubocop Cop to enforce top-level
-  namespaces using the list of identified bounded contexts.
-  A new namespace must be either an existing one or one from the new list.
-  This will help engineers move gradually to the new list of bounded contexts.
+| Exit criteria | Resulting artifact |
+| ------------- | ------------------ |
+| We have a published list of identified bounded contexts that acts as a documentation for developers. | [`config/bounded_contexts.yml`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/bounded_contexts.yml) |
+| We have a simple process for creating, deleting and renaming bounded contexts, to allow the codebase evolve over time. | [Docs updated](https://docs.gitlab.com/ee/development/software_design.html#bounded-contexts) |
+| Bonus: Create a Rubocop Cop to enforce top-level namespaces using the list of identified bounded contexts. | [Rubocop static analyzer added](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/151984) |
 
 ### Details
 
@@ -81,13 +78,13 @@ During the process of mapping the codebase we would need to do:
 - Inside the `lib` directory, distinguish between generic code that should be extracted as gem and domain code that should be namespaced
   the same as code in app. All code related to the same domain should have the exact same namespace. For example, we should not have
   `Ci::` (from app) and `Gitlab::Ci::` (from `lib`).
-    - We will have a special [`platform` category](https://gitlab.com/gitlab-org/gitlab/-/issues/365293#proposal) for code that should be
+  - We will have a special [`platform` category](https://gitlab.com/gitlab-org/gitlab/-/issues/365293#proposal) for code that should be
       extracted as gems and cross-cutting concerns in `app` and `lib` (generic base classes, utility, loggers, framework code, etc.).
 - It's important to focus only on the top-level bounded contexts without getting carried away with renaming nested classes.
   This can be a refactoring activity at the discretion of the team owning this feature, but not in scope of the working group.
 - Identify similar namespaces and the merging strategy. It could be any of the below:
-    - Create a new namespace that represents a larger domain and move the classes in there.
-    - Identify a representative namespace for the bounded context and move all other classes in there.
+  - Create a new namespace that represents a larger domain and move the classes in there.
+  - Identify a representative namespace for the bounded context and move all other classes in there.
 - Distinguish ambiguous namespaces by putting them into separate bounded context.
   When 2 namespaces seem similar but they operate in completely different contexts, move them under the respective bounded context.
 - Identify namespaces that have multiple responsibilities and should be split. In this case classes could go into other namespaces
@@ -112,7 +109,7 @@ For stages still missing participants we will seek support from Engineering lead
 |-----------------------|-----------------------|--------------------------------|
 | Executive Sponsor     | Sam Goldstein         | Director of Engineering, Ops   |
 | Facilitator           | Fabio Pitino          | Principal Engineer, Verify     |
-| Member                | Chad Woolley          | Senior Backend Engineer, Create::IDE (Remote Development) |
+| Member                | Chad Woolley          | Senior Backend Engineer, Create::Remote Development (Workspaces) |
 | Member                | Thong Kuah            | Principal Engineer, Data Stores  |
 | Member                | Lucas Charles         | Principal Engineer, Secure & Govern |
 | Member                | Furkan Ayhan          | Senior Backend Engineer, Verify:Pipeline Authoring |

@@ -31,7 +31,6 @@ Code quality scans allow you to analyze your source code for quality and complex
 
 1. Click `Commit changes`.
 
-
 ### Task B. Configure the .gitlab-ci.yml with Code Quality Scanning
 
 1. In the left navigation pane, click **Code > Repository**.
@@ -64,7 +63,6 @@ Code quality scans allow you to analyze your source code for quality and complex
 1. Set the **Target Branch** to `main`.
 
 1. Click `Commit changes`.
-
 
 ### Task C. View code quality scan results
 
@@ -109,7 +107,6 @@ Code quality scans allow you to analyze your source code for quality and complex
 1. Fix another code quality problem by deleting line 3.
 
 1. Commit these changes with the commit message `Fix code quality problems`
-
 
 ### Task F. Compare the code quality of **branch-A** to the code quality of **main**
 

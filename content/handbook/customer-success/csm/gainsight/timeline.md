@@ -1,14 +1,7 @@
 ---
-
 title: "Using Timeline"
 description: "The Timeline view in Gainsight gives us a chronological overview of our activities with the customer. It's a valuable tool to see our interactions and progression on success efforts over time."
 ---
-
-
-
-
-
-
 
 The Timeline view in Gainsight gives us a chronological overview of our activities with the customer. It's a valuable tool to see our interactions and progression on success efforts over time.
 
@@ -21,7 +14,6 @@ The Timeline view in Gainsight gives us a chronological overview of our activiti
 - **Customer 360 Page**: You can access a specific customer's timeline by navigating to their customer 360 page, then clicking on the Timeline tab at the top. From here you can sort and filter by type, date, etc.
 
 - **CTA View**: When you click on the details of a specific CTA or success plan Objective, there is a Timeline tab. You can add entries from here that will be linked to the CTA. These timeline entries will also appear on the company and global timelines.
-
 
 ## Activity types
 
@@ -79,7 +71,6 @@ Tip: When searching for external attendees, you can use "%%%" as your search pat
 
 *Follow the rest of the steps below*
 
-
 1. Input a subject
 1. Confirm the date (it will default to when you clicked "+ Activity") and time (this does not need to be the exact time of the activity as long as the date is correct) if applicable
 1. Add internal and external attendees (more details on that immediately below) if applicable
@@ -101,17 +92,17 @@ If you would like to see the activity logging process in action, please watch th
 Gainsight Timeline also displays the following Salesforce activities. While these are synced, they do **not** impact CSM health scorecards, `Last Activity Date`, or `Last Timeline Activity` since Salesforce activities are typically sales-related.
 
 - Source:
-   - Opportunities
-   - Accounts
+  - Opportunities
+  - Accounts
 - Type:
-   - Included: `Call`, `Demo`, `Workshop
-   - Purposefully **excluded**: `Email` and `Other`
-      - There are certain email activities classified as `Other` thus why they're excluded (noise to signal)
+  - Included: `Call`, `Demo`, `Workshop`
+  - Purposefully **excluded**: `Email` and `Other`
+    - There are certain email activities classified as `Other` thus why they're excluded (noise to signal)
 
 ### Limitations
 
 - Any Salesforce activity that does **not** have any content in the description
-   - Example: a call with a subject and no body will [fail to sync](https://support.gainsight.com/Gainsight_NXT/Timeline/02Admin_Guides/Integrate_Salesforce_Activities_in_Gainsight_Timeline#Limitations)
+  - Example: a call with a subject and no body will [fail to sync](https://support.gainsight.com/Gainsight_NXT/Timeline/02Admin_Guides/Integrate_Salesforce_Activities_in_Gainsight_Timeline#Limitations)
 
 ## BCCing Emails
 
@@ -127,5 +118,3 @@ BCCing emails to Gainsight is *not* a required step. However, if you want an ema
 1. Emails logged in Gainsight appear in Gainsight and then are synced to Salesforce during the nightly sync
 
 For more information on using emails with Gainsight, see the [Gainsight workflow handbook page](/handbook/customer-success/csm/gainsight/#emails).
-
-

@@ -10,11 +10,11 @@ People Compliance works collaboratively with multiple functional teams throughou
 ## Contact the Compliance Team
 
 - Email
-   - `people-compliance@gitlab.com`
+  - `people-compliance@gitlab.com`
 - Tag us in GitLab
-   - `@gl-peoplecompliance`
-- Slack
-   - The #people-connect Slack channel is the best place for questions relating to our team.
+  - `@gl-peoplecompliance`
+- HelpLab
+  - Please create a case in [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab) for the team to review
 
 ## Defining People Compliance
 

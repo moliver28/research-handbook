@@ -1,7 +1,6 @@
 ---
 title: "Security Change Management Procedure"
 description: "Change management procedure for the Security Division."
-controlled_document: true
 ---
 
 ## Purpose
@@ -38,8 +37,7 @@ Manager - prior to approving the change request, please ensure that the correct 
 
 A comprehensive change is high risk, high impact, or has a more complex procedure, such as a system or application deprecation, a new system or application onboarding, or net-new Production architecture.
 
-- Infrastructure changes are considered comprehensive changes. They require **peer review**, **Impacted Team(s) Management (or Code Owner) approval**, **Technical Owner Approval**, **Change Advisory Board (CAB) Review**, and **Post-Implementation Review**.
-- See the [CAB Review]({{< ref "security-change-management-procedure#cab-review" >}}) section for details on this review process.
+- Infrastructure changes are considered comprehensive changes. They require **peer review**, **Impacted Team(s) Management (or Code Owner) approval**, **Technical Owner Approval**, and **Post-Implementation Review**.
 
 {{% note %}}
 Manager - prior to approving the change request, please ensure that the correct change request template is being used.
@@ -57,9 +55,9 @@ An emergency change follows the same approval process as [comprehensive](#compre
 
 | Role | Responsibility |
 | ------ | ------ |
-| **[Security Governance]({{< ref "./security-assurance/governance" >}})** | Maintain a security change management procedure to intake and respond to change management activities |
+| **[Security Governance](security-assurance/governance/)** | Maintain a security change management procedure to intake and respond to change management activities |
 | | Maintain Metrics |
-| **[Security Compliance]({{< ref "./security-assurance/security-compliance" >}})** | Provide oversight to ensure changes are being made in accordance with compliance obligations |
+| **[Security Compliance](security-assurance/security-compliance/)** | Provide oversight to ensure changes are being made in accordance with compliance obligations |
 | **Requestor** | Complete the change management issue |
 | | Work with the Technical Owner to document, test, and obtain approval(s) for the change |
 | **Technical Owner** | As defined in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). Review and provide approval prior to the change being implemented |
@@ -77,10 +75,9 @@ An emergency change follows the same approval process as [comprehensive](#compre
 | **Post-Implementation Review** | Performed by a peer of the change Requestor and is intended to ensure the change is working as expected after the change has been implemented in Production. | No | Yes | Yes | Yes |
 | **Impacted Team(s) Management/Code Owner approval** | Approval by Management that is responsible for the particular system or application    | No |    Yes |    Yes |    Yes |
 | **Technical Owner Approval** | Approval by the system or application's Technical Owner as defined in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). | No |    No | Yes | Yes |
-| **CAB Review** | Approval by [Security Senior Leadership](https://gitlab.com/gitlab-com/gl-security/security-senior-leadership) on the CAB | No | No | Yes | Yes |
 
 {{% note %}}
-Technical Owner approval is dependent upon the system or application already existing in the tech stack. For new systems or applications that have not yet been assigned a Technical Owner in the tech stack, the CAB review will be sufficient.
+Technical Owner approval is dependent upon the system or application already existing in the tech stack. For new systems or applications that have not yet been assigned a Technical Owner in the tech stack, reach out to the [Security Risk Team](/handbook/security/security-assurance/security-risk/).
 {{% /note %}}
 
 ## Procedure
@@ -112,19 +109,12 @@ If a security change request will impact **all Security Division team members**,
 
 If a security change request will impact **a particular Security Department or individual team members**, please ensure that you communicate the change and its impact in a manner appropriate for those impacted team members.
 
-### CAB Review
-
-The CAB Review is designed to provide leadership oversight and approval of high risk changes, such as [comprehensive](#comprehensive-change) or [emergency](#emergency-change) changes.
-
-- As part of the weekly CISO direct reports sync, Security Division leadership will conduct a CAB Review of any open comprehensive or emergency change requests. The CAB will document its meeting notes in the change management issue as a new comment.
-- A member of the CAB will also add a comment to the open change request issue(s) noting the outcome of their review, along with one of the [CAB labels](https://gitlab.com/gitlab-com/gl-security/security-change-management/-/labels?subscribed=&search=CAB%3A%3A).
-
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 
 - [Change Management Policy]({{< ref "change-management-policy." >}})
-- [Controlled Documents Procedure](/handbook/engineering/security/controlled-document-procedure.html)
-- [Controlled Documents Annual Review Program](/handbook/engineering/security/controlled-document-program.html)
+- [Controlled Documents Procedure](/handbook/security/controlled-document-procedure/)
+- [Controlled Documents Annual Review Program](/handbook/security/controlled-document-procedure/#review)

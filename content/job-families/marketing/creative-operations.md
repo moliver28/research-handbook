@@ -42,7 +42,7 @@ The Senior Creative Operations Manager is a [grade 7](/handbook/total-rewards/co
 - Facilitate timely and clear communication between the design team, marketing stakeholders, and external partners
 - Collaborate with marketing leads to determine priorities, manage key projects and problem solve requests when deadlines or asks are challenging
 - Refine, improve, and scale our creative process to enhance speed and quality of delivery, standardizing processes for cross-discipline and cross-functional collaboration
-- Contribute to quarterly and annual planning, representing the team’s budget, capabilities, capacity and constraints
+- Contribute to quarterly and annual planning, representing the team's budget, capabilities, capacity and constraints
 - Audit our tools, finding efficiency across departments for consolidation, while advocating for adding new tools and resources that add value to the team
 - Establish and document processes and procedures and help centralize resources and assets for ease of access
 - Contribute to the planning of team events and culture-building opportunities

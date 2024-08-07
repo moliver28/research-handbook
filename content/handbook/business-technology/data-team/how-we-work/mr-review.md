@@ -1,17 +1,6 @@
 ---
-
 title: "Merge Request Roles and Responsibilities"
 description: "GitLab Data Team MR responsibilities"
----
-
-
-
-
-
-
-
-
-
 ---
 
 ## <i class="fas fa-users fa-fw color-orange font-awesome" aria-hidden="true"></i>Merge Request Roles and Responsibilities
@@ -32,7 +21,7 @@ The responsibility of a reviewer is
 ### Code owner
 
 Code ownership is a [feature of GitLab](https://gitlab.com/help/user/project/code_owners) that links a project member to specific folders and files in a project. It is meant to answer the questions "who can I ask about this code?" and "who should review changes to this code?".  The goal is to assign 2 or 3 GitLab Team Members (max 4) to a set of folders and files (if possible).
-With not assigning a big group of people to basically all of our code, we hope to define better ownership and drive better code reviews.
+With not assigning a big group of people to basically all of our code, we hope to define better ownership and drive better code reviews. To keep the efficiency we potentially will assign more code owners to Snowflake Workspace schemas since the workspaces are not subject to higher quality code reviews.
 
 A code owner:
 
@@ -93,3 +82,14 @@ If those subjective requirements are satisfied, this is the process to add yours
 ### Merge Request Workflow
 
 Every MR follows the applicable MR template. When a MR is ready for review, assign a code owner for review. When a code owner approves the MR, the MR can be merged by a maintainer. This could be the same person if the code owner is also a maintainer. If not, a maintainer is tagged in the MR, asking for final review and merge.
+
+#### Merge Request approval requirements
+
+Because of quality and [security](/handbook/security/gitlab_projects_baseline_requirements/#mr-approval-rule-configurations) we require every MR to be approved before merged with multiple Team Members involved. By default the CODEOWNER file sets that an approval is needed and by who. But if a file or folder is not present in the CODEOWNER file a MR still can be merged without approval or without other Team Members involvement. To enforce the following 2 settings must be applied on each project within the [GitLab-Data Group](https://gitlab.com/gitlab-data/).
+
+1. `Approvals required` = `1`
+[setting 1](/handbook/business-technology/data-team/how-we-work/sett1.png)
+2. `Prevent approval by author` is `TRUE`
+[setting 2](/handbook/business-technology/data-team/how-we-work/sett2.png)
+
+Note: The `Approvals required` project setting is also a workaround to make the CI variable `$CI_MERGE_REQUEST_APPROVED` work correctly, [see issue](https://gitlab.com/gitlab-data/analytics/-/issues/20383#note_1922395425) for more details.

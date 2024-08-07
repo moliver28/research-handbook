@@ -1,25 +1,11 @@
 ---
-
 title: "How to Engage"
 description: "How to Engage with Infrastructure Analyst"
 ---
 
-
-
-
-
-
-
-
----
-
-## Overview
-
 [Infrafin Board](https://gitlab.com/groups/gitlab-com/-/boards/1502173?label_name%5B%5D=infrafin)
-{:.btn .btn-purple}
 
 [#infrafin slack channel](https://gitlab.slack.com/messages/infrafin/)
-{:.btn .btn-purple}
 
 ## Overview
 

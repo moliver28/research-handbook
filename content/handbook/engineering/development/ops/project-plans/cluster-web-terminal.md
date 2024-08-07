@@ -1,15 +1,8 @@
 ---
-
 title: Cluster Web Terminal
 description: >-
   Project plan for providing customer safe access to their Kubernetes clusters through the UI.
 ---
-
-
-
-
-
-
 
 ## Weekly Project Plan
 
@@ -58,7 +51,6 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/11015](https://gitlab.com/gr
 
 - [-] *forecast*: [https://gitlab.com/gitlab-org/gitlab/-/issues/418264](https://gitlab.com/gitlab-org/gitlab/-/issues/418264) and  [https://gitlab.com/gitlab-org/gitlab/-/issues/418266](https://gitlab.com/gitlab-org/gitlab/-/issues/418266) are completely refined
 - [-] *forecast*: [https://gitlab.com/gitlab-org/gitlab/-/issues/418264](https://gitlab.com/gitlab-org/gitlab/-/issues/418264) and  [https://gitlab.com/gitlab-org/gitlab/-/issues/418266](https://gitlab.com/gitlab-org/gitlab/-/issues/418266) are both picked up and a draft MR is ready
-
 
 #### Week of Oct 02-06
 

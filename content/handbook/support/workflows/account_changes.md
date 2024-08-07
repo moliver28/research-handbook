@@ -1,12 +1,9 @@
 ---
-
 title: Making Changes and Taking Actions on an Account
 category: GitLab.com
 subcategory: Accounts
 description: "Workflow for when and how to make account changes on behalf of a customer"
 ---
-
-
 
 ## Overview
 
@@ -53,6 +50,7 @@ If ownership is verified, then:
 Example cases include:
 
 1. Swapping secondary email with primary email due to primary email being unconfirmed or non-existent. If the requester is a free user, manager approval is needed. Available until [gitlab#416451](https://gitlab.com/gitlab-org/gitlab/-/issues/416451) is implemented.
+1. The user no longer having access to the primary email address also counts as a valid scenario where we can perform an email address swap between the primary email address and the secondary email address as [gitlab#416451](https://gitlab.com/gitlab-org/gitlab/-/issues/416451) prevents the verification code being sent to the secondary email address. Manager approval is needed here too.
 1. Removing an identity tied to the user account. The identity should also be verified in these cases.
 
 ## Releasing an Email Address
@@ -70,7 +68,7 @@ The primary (for paid users only, all users should be able to get a new confirma
 1. Confirm the email address as an unverified secondary email address.
 1. If the ticket was submitted via the ZD form, please perform an email verification.
 1. Once the user has replied to confirm they own the email address, remove the secondary email from the account
-1. Add an Admin Note to the user’s account: `2024-01-30 | removed secondary unverified email address from the account john@xyz.com| https://gitlab.zendesk.com/agent/tickets/`
+1. Add an Admin Note to the user's account: `2024-01-30 | removed secondary unverified email address from the account john@xyz.com| https://gitlab.zendesk.com/agent/tickets/`
 1. Reply to the user saying that their email address is now releasd and they can use it to create a new account.
 1. Comment on this feature request
 
@@ -118,10 +116,10 @@ Until [the issue 412966](https://gitlab.com/gitlab-org/gitlab/-/issues/412966) i
 >
 > Could you please confirm that you would like us to change the enterprise user primary address from example@primary-email.address to example@new-primary-email address ? Replying in this ticket stating you provide permission will be sufficient.
 >
-> [Important notice](https://docs.gitlab.com/ee/user/enterprise_user/#dissociation-of-the-user-from-their-enterprise-group): Changing an enterprise user’s primary email to an email with a non-verified domain automatically disassociates them from their enterprise group. As a result of the change, your organization will **not** be able to manage the user account and GitLab Support will not intervene for any reason.
+> [Important notice](https://docs.gitlab.com/ee/user/enterprise_user/#dissociation-of-the-user-from-their-enterprise-group): Changing an enterprise user's primary email to an email with a non-verified domain automatically disassociates them from their enterprise group. As a result of the change, your organization will **not** be able to manage the user account and GitLab Support will not intervene for any reason.
 
 1. Update the primary email address of the enterprise user(s).
-1. Add an Admin Note to the user’s account(s).
+1. Add an Admin Note to the user's account(s).
 
 ### Request from an enterprise user that may or may not be part of the group
 
@@ -132,17 +130,17 @@ Enterprise users have user accounts that are administered by an organization tha
 > Greetings,
 >
 > Your account is an enterprise user account, [enterprise users cannot modify their primary email address to an email with a non-verified domain](https://docs.gitlab.com/ee/user/enterprise_user/#primary-email-change). An enterprise user can only change their primary email to an email their organization owns as per its verified domains.
-> Updating your primary email address to an email with a non-verified domain will automatically disassociates you from your enterprise group.
+> Updating your primary email address to an email with a non-verified domain will automatically disassociate you from your enterprise group.
 >
 > If you still wish to update your primary email, address please note it will require involvement of a top level group owners. Please let us know if you wish to proceed.
 
-1. If they answer that they wish to procceed, use the [Account Ownership Verification workflow](/handbook/support/workflows/account_verification) to verify ownership.
+1. If they answer that they wish to proceed, use the [Account Ownership Verification workflow](/handbook/support/workflows/account_verification) to verify ownership.
 
 1. Ask manager approval to proceed if the primary email is the only verified email (skip this step if it's an email swap request).
 
 1. If successful, contact Owner:
 
-- Create a new Zendesk ticket with the top level group owner’s email address as the requester (found in admin) by following [this specific workflow to create ticket and user](/handbook/support/readiness/operations/docs/zendesk/tickets/#creating-tickets-for-outbound-requests)
+- Create a new Zendesk ticket with the top level group owner's email address as the requester (found in admin) by following [this specific workflow to create ticket and user](/handbook/support/readiness/operations/docs/zendesk/tickets/#creating-tickets-for-outbound-requests)
 - Apply the macro `General::Outbound Contact Request` that ensure the new ticket routes properly and the end-user we wish to contact receives the correct notification.
 - Copy the snippet below and mark the ticket as `On-hold`:
 
@@ -152,21 +150,21 @@ Enterprise users have user accounts that are administered by an organization tha
 >
 > As you will lose any current and future administration of the user account following this change, we are asking for your permission. Replying in this ticket stating you provide permission will be sufficient.
 
-- Make an internal comment providing a link to the requester’s ticket.
+- Make an internal comment providing a link to the requester's ticket.
 - If the group contains multiples owners, choose one owner (preferably an existing support contact) as the requester and CC the others. Limit to 5 owners if more (you can pick the owners that have the most recent Last activity in the page `https://gitlab.com/groups/<group_name>/-/group_members` or/and the owner(s) that is(are) listed as Source).
 
-1. Requester’s Ticket:
+1. Requester's Ticket:
 
- - Add as an internal comment the ticket created above.
- - Reply to the requester with the snippet below and mark the ticket as `On-hold`.
+   - Add as an internal comment the ticket created above.
+   - Reply to the requester with the snippet below and mark the ticket as `On-hold`.
 
-> Hi,
->
-> Thanks for verifying your account with us. We are now waiting for permission from your organization to release the account by updating your primary email address.
-> We will keep you updated.
+   > Hi,
+   >
+   > Thanks for verifying your account with us. We are now waiting for permission from your organization to release the account by updating your primary email address.
+   > We will keep you updated.
 
 1. If one of the owners approve, update the primary email address of the enterprise user by swapping with a secondary if applicable.
-1. Add an [Admin Note]({{< ref "admin_note.md" >}}) to the user’s account.
+1. Add an [Admin Note]({{< ref "admin_note.md" >}}) to the user's account.
 
 ## Account Ownership Changes
 
@@ -194,7 +192,7 @@ Account Ownership Change Requests are initiated when the sole Owner of a group l
 1. Use the `Support::SaaS::Gitlab.com::Account Ownership Change Request (Self-Service Not Possible)` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Account%20Ownership%20Change%20Request%20(Self-Service%20Not%20Possible).md?ref_type=heads), adding the account owner or account manager in CC if possible.
 1. Once you have received the requested document, verify that all of the necessary information is included. If not, follow up with the requestor to obtain any outstanding information. Once the required information has been obtained, carefully follow the next steps.
 1. Assess the request to verify if the following criteria have been met:
-   1. Self-service options have been suggested and aren’t viable.
+   1. Self-service options have been suggested and aren't viable.
    1. The requested document is completely and correctly populated, and is on appropriate letterhead.
    1. The existing Owner has not been active during the last 90 days.
    1. The requestor is using an email address on the same customer email domain as the existing Owner.

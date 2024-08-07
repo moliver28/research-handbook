@@ -25,9 +25,9 @@ Mitigate future incidents by empowering developers to efficiently work on test c
 
 1. Analyze all high-severity incidents in the past 3 months and list improvement themes needed (e.g. mixed deployments, new staging, load testing, better tests outside unit tests). `=> 100%`
 
-  - [Review package incidents review](https://gitlab.com/gitlab-org/gitlab/-/issues/323340)
-  - [Pipeline Execution/Runner incidents review](https://gitlab.com/gitlab-org/gitlab/-/issues/324364)
-  - [Runner executable E2E environment](https://gitlab.com/gitlab-org/ci-cd/tests/runner-incept)
+   - [Review package incidents review](https://gitlab.com/gitlab-org/gitlab/-/issues/323340)
+   - [Pipeline Execution/Runner incidents review](https://gitlab.com/gitlab-org/gitlab/-/issues/324364)
+   - [Runner executable E2E environment](https://gitlab.com/gitlab-org/ci-cd/tests/runner-incept)
 
 1. Add runner executable E2E test environment `=> 100%`
 1. Add test coverage for high risk runner functionality `=> 100%`
@@ -35,10 +35,10 @@ Mitigate future incidents by empowering developers to efficiently work on test c
 1. Address critical test gaps with new smoke tests for Package group `=> 100%`
 1. Update our process, documentation, on-boarding, and culture going forward. `=> 100%`
 
-  - Create risk map for [PE](/handbook/engineering/development/ops/verify/pipeline-execution/risk-map/), [Runner](/handbook/engineering/development/ops/verify/runner/risk-map/), and [Package](https://gitlab-org.gitlab.io/ci-cd/package-stage/risk-mapping/) `=> 100%`
-  - [Create generalized risk mapping framework](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/83300) `=> 100%`
-  - Create 3 end-to-end overview videos for training `=> 100%`
-  - Train 1 maintainer each for Package, Runner, PE on end-to-end testing `=> 100%`
+   - Create risk map for [PE](/handbook/engineering/development/ops/verify/pipeline-execution/risk-map/), [Runner](/handbook/engineering/development/ops/verify/runner/risk-map/), and [Package](https://gitlab-org.gitlab.io/ci-cd/package-stage/risk-mapping/) `=> 100%`
+   - [Create generalized risk mapping framework](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/83300) `=> 100%`
+   - Create 3 end-to-end overview videos for training `=> 100%`
+   - Train 1 maintainer each for Package, Runner, PE on end-to-end testing `=> 100%`
 
 ### Post working group planned improvements
 

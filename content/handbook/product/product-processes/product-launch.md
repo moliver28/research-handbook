@@ -23,26 +23,26 @@ To launch features into our existing product set and tiers, use [this process](/
 
 1. It constitutes a new product or service (i.e. it is not just functionality that cleanly slots into existing product tiers or existing SKUs)
 1. It is as operationally complex as a new product, service, or SKU; even if not new. (e.g. new packaging, business model, or SKU that requires custom systems configuration or revenue treatment)
-1. It represents a significant enough financial or strategic opportunity to warrant investment of dozens of teams’ effort
+1. It represents a significant enough financial or strategic opportunity to warrant investment of dozens of teams' effort
 1. The process may also be applicable if a product, service, or SKU is associated with a significant external announcement or event and we want to ensure operational excellence
 
-**How do we determine whether it’s ready to start the NPI process?**
+**How do we determine whether it's ready to start the NPI process?**
 
 In order to launch the NPI process, the DRI must communicate:
 
-1. **What** we’re launching: product features & functionality, service entitlements, or something else
-1. **Why** we’re launching: value proposition, strategic value, and scale of financial opportunity (understand that finance will not have built detailed models, but some financial justification must exist)
-1. **Who** we’re targeting: Ideal Customer Profile (ICP) and target market
+1. **What** we're launching: product features & functionality, service entitlements, or something else
+1. **Why** we're launching: value proposition, strategic value, and scale of financial opportunity (understand that finance will not have built detailed models, but some financial justification must exist)
+1. **Who** we're targeting: Ideal Customer Profile (ICP) and target market
 1. **When** we need to launch: any internal (e.g. [Field blackout periods](/handbook/sales/field-communications/), month/quarter/year end financial close, quiet periods, etc.) or external factors that create timing requirements
-1. **That we’re able to launch:** product development is sufficiently far along that it makes sense to start the process, and GTM teams have sufficient bandwidth to do the work in the required timeframe
+1. **That we're able to launch:** product development is sufficiently far along that it makes sense to start the process, and GTM teams have sufficient bandwidth to do the work in the required timeframe
 
-**What happens if a product or service doesn’t meet the criteria?**
+**What happens if a product or service doesn't meet the criteria?**
 
 Possible routes:
 
 1. The SteerCo needs more information → sends the proposal back to the DRI
 1. The SteerCo agrees the product/service is suitable, but teams do not have capacity → problem-solve with DRI & E-Group (prioritize & sequence launches, reallocate resources and/or adjust launch scope)
-1. The SteerCo doesn’t think the product/service is suitable for the NPI process → discuss with DRI & E-Group
+1. The SteerCo doesn't think the product/service is suitable for the NPI process → discuss with DRI & E-Group
 
 ### A Note on NPI Process Updates
 
@@ -52,15 +52,9 @@ We are actively iterating on the NPI process. You can use the [`#npi-process-wor
 
 This phase happens before the NPI process officially launches with cross-functional stakeholders.
 
-### Step 1: Assign a DRI and Program Manager to launch the product/service or SKU
+### Step 1: Write up the details of the product or service
 
-The project should have both a DRI and a Program Manager. **The DRI** drives the feature or service strategy and is the primary business owner. This is the person requesting a new product, service, or SKU. The person is responsible for delivering the initial business plan, and ensuring that the launch meets business goals.
-
-**The Program Manager** coordinates and directs the multiple parallel work streams required by the NPI process. The Program Manager can be assigned from the Product division, or if necessary from the [Office of the CEO](/handbook/ceo/office-of-the-ceo/). The Professional Services team can Program Manage SKU additions or modifications for Professional Services. In some cases, the DRI and the Program Manager may be the same person.
-
-### Step 2: Write up the details of the product or service
-
-The DRI should create a business plan based on an NPI Planning Info Sheet (template not finalized, to be linked once done) to communicate how you’ve defined the specific product or service that is being launched. At this point in the project you may not have all the details - use this resource as a starting point to help you and your stakeholders understand what still needs to be resolved cross-functionally over the course of the project.
+The DRI should create a business plan based on an NPI Planning Info Sheet (template not finalized, to be linked once done) to communicate how you've defined the specific product or service that is being launched. At this point in the project you may not have all the details - use this resource as a starting point to help you and your stakeholders understand what still needs to be resolved cross-functionally over the course of the project.
 
 Ideally at this point you will already know the pricing structure, but if not, a conversation with the Pricing Committee is needed:
 
@@ -69,22 +63,30 @@ Ideally at this point you will already know the pricing structure, but if not, a
 1. Pricing team will conduct required research following our process, and pricing principles. Depending on the complexity of the offer, and potential market size this research could take a couple of weeks, up to a few months to complete.
 1. Pricing team will make a recommendation of what business model the product/service should have (e.g. fixed fee, subscription, consumptive, add-on, new tier), and recommend a price point or range to consider for the offering
 
-### Step 3: Meet with the NPI SteerCo and get alignment on the launch plan
+### Step 2: Meet with the NPI SteerCo and get alignment on the launch plan
 
 The DRI/Business Sponsor and the Program Manager meet with the NPI SteerCo and present the information included in the NPI Planning Info Sheet.
 
 The NPI SteerCo will advise on whether there are available resources to complete the NPI process for your proposed feature or service. In some cases, there may not be sufficient resources to match the prioritization level of a given project. In that case, it is important for the Business Sponsor and the NPI SteerCo to work together to escalate to the E-Group for further direction.
 
+To meet with the SteerCo, reach out to Natalie Pinto or Lee Work who will add you to the next meeting.
+
+### Step 3: Assign a DRI and Program Manager to launch the product/service or SKU
+
+Once approved by the NPI SteerCO, the project should have both a DRI and a Program Manager. **The DRI** drives the feature or service strategy and is the primary business owner. This is the person requesting a new product, service, or SKU. The person is responsible for delivering the initial business plan, and ensuring that the launch meets business goals.
+
+**The Program Manager** coordinates and directs the multiple parallel work streams required by the NPI process. The Program Manager can be assigned from the Product division, or if necessary from the [Office of the CEO](/handbook/ceo/office-of-the-ceo/). The Professional Services team can Program Manage SKU additions or modifications for Professional Services. In some cases, the DRI and the Program Manager may be the same person.
+
 ### Step 4: Communicate the plan to stakeholders
 
-Once the NPI SteerCo has given your project the go-ahead, it’s time to get the rest of the stakeholders aligned. Reminder: there are many steps required to deliver a net new SKU; this isn't a process for processes-sake. We’ve learned through multiple NPI projects that this kind of work can’t be completed efficiently without clear communication and transparency in the process (NPI's might be [limited access](/handbook/communication/confidentiality-levels/#limited-access) in which case, details would not be open to all team members only those that need-to-know).
+Once the NPI SteerCo has given your project the go-ahead, it's time to get the rest of the stakeholders aligned. Reminder: there are many steps required to deliver a net new SKU; this isn't a process for processes-sake. We've learned through multiple NPI projects that this kind of work can't be completed efficiently without clear communication and transparency in the process (NPI's might be [limited access](/handbook/communication/confidentiality-levels/#limited-access) in which case, details would not be open to all team members only those that need-to-know).
 
 The Program Manager should begin coordinating efforts and identifying the relevant stakeholders across the organization. We recommend hosting the following meetings as soon as possible in order to kickoff the project:
 
 1. Stakeholder kickoff (process-focused): Meeting with all NPI stakeholders to launch the process: share overview of timeline, milestones, what success looks like, expected challenges.
 2. Product review (product-focused): Product Manager to present overview to all stakeholder teams. This is a deeper dive than stakeholder kickoff, and more focused on the product. GTM teams use this information for additional due diligence & clarity, and as an input to start developing their own strategies and roadmaps. (e.g. Deal Desk may have questions around usage boundaries, approval processes for non-standard steps, etc.)
 
-These meetings are a chance for the various stakeholders and Subject Matter Experts (SMEs) in the organization to raise risks/issues sooner rather than later. The SME may ask questions that you can’t answer yet; that’s an opportunity for further discussion later in the project. For stakeholders this is a chance to understand what will be expected of them in the coming weeks/months.
+These meetings are a chance for the various stakeholders and Subject Matter Experts (SMEs) in the organization to raise risks/issues sooner rather than later. The SME may ask questions that you can't answer yet; that's an opportunity for further discussion later in the project. For stakeholders this is a chance to understand what will be expected of them in the coming weeks/months.
 
 We acknowledge that synchronous meetings aren't GitLab's ideal way of working, however in cases of complex cross-functional projects it can be challenging to make decisions and keep teams aligned without synchronous check-points. Our suggestion is to approach these meetings as "advised, but optional." The project leads can use their own judgement to decide if a given meeting is necessary for their project and whether it can be optional for some members of the larger team.
 
@@ -123,7 +125,6 @@ Teams should also follow up post-launch with input on customer perspective/feedb
 
 Launching features into our current product set is a well understood [process](/handbook/product/tiering-guidance-for-features/). To launch new product offerings, service offerings or SKUs requires a set of steps that need to be sequenced in a way to ensure product launch is done efficiently and effectively.
 
-
 **Summary of the steps.**
 
 1. Business Sponsor and a program manager should be assigned to launch the product/service or SKU.
@@ -143,6 +144,7 @@ To initiate the work (and proceed to steps 2 to 7) provide a three sentence prop
 **Step 2) The product or service needs to be clearly defined**
 
 A services brief should be drafted. This should include:
+
 1. Details of the service offering (e.g. 24x7 support, emergency support SLAs, PS SOW description, etc)
 1. Description of the market and ideal customer
 1. What the customer gets in terms of entitlement
@@ -150,6 +152,7 @@ A services brief should be drafted. This should include:
 1. Hypotheses of how the product will be priced (e.g. Hourly, fixed fee, subscription)
 
 A product brief: (use [this template](https://docs.google.com/document/d/10FPjeVmvnCWjAc3kTbn0F46R42kUWkQFp1sgK3Z_p3w/edit?usp=sharing))
+
 1. Description of the product.
 1. Description of the market and ideal customer
 1. What features are available today that will be part of the product.
@@ -166,6 +169,7 @@ A product brief: (use [this template](https://docs.google.com/document/d/10FPjeV
 **Step 4) A Operations/ business plan / financial projection should be developed for the product / service**
 
 For a new product or service we should build an operational business plan (this [this template](https://docs.google.com/document/d/1IZfs6iumXrOF0X9Gez3SYGCM6mNQVSHKq6e0cltr7wQ/edit?usp=sharing)). This includes
+
 - Product plan
 - Marketing message and vision
 - Ideal customer profile
@@ -174,11 +178,13 @@ For a new product or service we should build an operational business plan (this 
 - If necessary a infrastructure cost/operating model for the offering
 
 For a new services offering we should also include a:
+
 - Staffing Plan
 - Operational Model
 - Systems changes required to support the new service
 
 Build a financial model
+
 - Topline sales projections
 - Gross Margin projections including hosting/infrastructure costs, support costs, professional services costs, etc
 - Possibly model contribution including other costs such as Sales and Marketing or R&D.
@@ -190,10 +196,10 @@ With the product/services proposal, pricing research, operational plan and busin
 Approvals will follow this matrix.
 
 Once the approval is made the following teams need to be notified that a workstream is kicked off:
+
 - Product offering: Product owners and engineers
 - Services offering: Professional services or support team
 - All offerings: Product Marketing, Legal, Product Fulfillment, IT, Data, FP&A, Billing, Revenue accounting, Tax
-
 
 **Step 6) Product Launch checklist should be created with clear DRIs assigned**
 
@@ -201,6 +207,7 @@ Once the approval is made the following teams need to be notified that a workstr
 - The program manager should fill out the product launch checklist and ensure there are owners for the generic items but also adds custom items.
 
 The following areas may need to be considered in the planning:
+
 1. Marketing Plan including positioning, press, customer references, etc
 1. Product Plan including Beta programs, code complete, launch criteria, data logging, etc
 1. Sales readiness including GTM plan and enablement of field and channel
@@ -218,10 +225,10 @@ The following areas may need to be considered in the planning:
 1. Finance including financial forecast
 1. Investor Relations including investor messaging
 
-
 **Step 7) Execution against Product Launch checklist should happen**
 
 Execute against the plan created above some resources that are helpful are:
+
 - SKU Creation handbook [page](/handbook/business-technology/enterprise-applications/guides/product-catalog/)
 - Premium Pricing [Execution](https://internal.gitlab.com/handbook/product/pricing/archived-projects/matterhorn/) (Team member access only)
 

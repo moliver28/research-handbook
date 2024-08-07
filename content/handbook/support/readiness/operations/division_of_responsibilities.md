@@ -15,7 +15,7 @@ The current division of responsibilities is:
 |                     | [Zendesk US Federal Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                          | @jcolyer         | @lyle            |
 |                     | [FrameAI Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                          | @lyle | @jcolyer          |
 | Account Deletions   | [Form](https://gitlab.com/gitlab-com/support/support-ops/forms/account-deletion)                                                                      | @jcolyer         | @dtragjasi       |
-|                     | [Issues](https://gitlab.com/gitlab-com/gdpr-request/-/issues)                                                                                         | @jcolyer         | @avilla4         |
+|                     | [Issues](https://gitlab.com/gitlab-com/gdpr-request/-/issues)                                                                                         | @avilla4         | @rverschoor      |
 |                     | [Processor](https://gitlab.com/gitlab-com/support/support-ops/other-software/account-deletion-processor)                                              | @jcolyer         | @avilla4         |
 |                     | [Questions](https://gitlab.slack.com/archives/C04357HVCJD)                                                                                            | @jcolyer         | @secole          |
 | Audits              | [1Password](https://gitlab.com/gitlab-com/support/support-ops/support-ops-tools/audits/-/issues)                                                      | @jcolyer         | @lyle            |
@@ -39,10 +39,9 @@ The current division of responsibilities is:
 |                     | [L&R Internal Request Processor (Global)](https://gitlab.com/gitlab-com/support/support-ops/other-software/lnr-ir-processor)                          | @jcolyer         | @secole          |
 |                     | [L&R Internal Request Processor (US Federal)](https://gitlab.com/gitlab-com/support/support-ops/other-software/lnr-ir-processor-us-federal)           | @jcolyer         | @secole          |
 |                     | [1-1-issue-generator](https://gitlab.com/gitlab-com/support/toolbox/1-1-issue-generator/)                                                             | @nabeel.bilgrami | @jcolyer         |
-|                     | [support/team page](https://gitlab.com/gitlab-com/support/team)                                                                                       | Everyone         | Everyone         |
+|                     | [support/team page](https://gitlab.com/gitlab-support-readiness/support-team)                                                                         | Everyone         | Everyone         |
 | Pagerduty           | [Management](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty)                                                              | @avilla4         | @jcolyer         |
 |                     | [Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                                             | @jcolyer         | @lyle            |
-| Slack               | [SGG Slackbot](https://gitlab.com/gitlab-com/support/support-ops/other-software/sgg-slackbot)                                                         | @avilla4         | @jcolyer         |
 |                     | [Workflows](https://gitlab.com/gitlab-com/support/support-ops/other-software/slack-workflows)                                                         | @jcolyer         | @nabeel.bilgrami |
 | Status.io           | [Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                                           | @jcolyer         | @lyle            |
 | Support Ops Project | [Issues](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/)                                                                      | Everyone         | Everyone         |

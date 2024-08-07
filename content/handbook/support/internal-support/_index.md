@@ -1,5 +1,4 @@
 ---
-
 title: Working With GitLab Support
 description: How GitLab team members can work with and best ways to contact Support.
 ---
@@ -19,7 +18,7 @@ Please read the next sections on [GitLab Support's Purpose](#gitlab-supports-pur
 | I want to see tickets | Get a [Light Agent ZenDesk account](#requesting-a-zendesk-light-agent-account). |
 | My customer can't open a ticket (or they get closed)  | Make sure they are a [support contact](https://about.gitlab.com/support/managing-support-contacts/#managing-contacts). Or maybe, [they can't log into ZenDesk](#if-a-customer-cannot-login-to-gitlab-support-zendesk--customer-portal).  |
 | Customer is asking about a ticket | Check the status of the ticket in Zendesk with your Light Agent account. Reach out to the assigned Support Engineer, or add an internal note with the customers ask. If there is a need, you can open a [Support Ticket Attention Requestion (STAR)](#i-want-to-escalate-a-ticket). If no ticket, [open one](#requesting-support-for-customers) .|
-| My customer has [an emergency](https://about.gitlab.com/support/definitions/#Definitions%20of%20Support%20Impact)! | The customer must send a **new** [email](https://internal.gitlab.com/handbook/support/#raising-an-emergency) (internal) to [trigger an emergency](https://about.gitlab.com/support/#how-to-trigger-emergency-support). If not an emergency, you can [STAR it](#i-want-to-escalate-a-ticket). |
+| My customer has [an emergency](https://about.gitlab.com/support/definitions/#Definitions%20of%20Support%20Impact)! | The customer must send a **new** [email](https://internal.gitlab.com/handbook/support/workflows/raising-an-emergency) (internal) to [trigger an emergency](https://about.gitlab.com/support/#how-to-trigger-emergency-support). If not an emergency, you can [STAR it](#i-want-to-escalate-a-ticket). |
 | My customer has a subscription / license issue  | If a [ticket with the customer](#requesting-support-for-customers) is not possible, open [an internal request](#internal-requests).  |
 
 This is not an exhaustive list. For anything else you believe the Support team covers, please check the table of contents or search this page.
@@ -77,7 +76,7 @@ They should select "GitLab.com (SaaS) User Accounts and Login Issues" as the rea
 
 ### If a customer cannot login to GitLab Support Zendesk / customer portal
 
-Customers having difficulty logging into the Zendesk customer portal should first [try our documented troubleshooting steps](https://about.gitlab.com/support/portal/#having-trouble-with-the-support-portal). These steps almost always resolve the difficulty.
+Customers having difficulty logging into the Zendesk customer portal should first [try our documented troubleshooting steps](https://about.gitlab.com/support/portal/#troubleshooting-support-portal-issues). These steps almost always resolve the difficulty.
 
 If those tips do not resolve the problem, you can open an [Internal Request > Other](#internal-requests) on their behalf.
 
@@ -121,7 +120,7 @@ Note that you cannot send public replies to customers with a Light Agent account
 
 ### GitLab plan or license for team members
 
-For GitLab team members, a GitLab license or plan request is done through [Access requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests). Please follow the appropriate handbook instructions, such as the [Incentive instructions](/handbook/incentives/#gitlab-ultimate), or open an issue with the most appropriate template, such as [the License request template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitLab_Team_Member_License_request) for self-managed instances.  Note that a **staging license** requires your GitLab installation be configured to use the [Customers Portal Staging](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab) environment.
+For GitLab team members, a GitLab license or plan request is done through [Access requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests). Please follow the appropriate handbook instructions, such as the [Incentive instructions](/handbook/total-rewards/incentives/#gitlab-ultimate), or open an issue with the most appropriate template, such as [the License request template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitLab_Team_Member_License_request) for self-managed instances.  Note that a **staging license** requires your GitLab installation be configured to use the [Customers Portal Staging](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab) environment.
 
 ### Contacting users about GitLab incidents or changes
 
@@ -268,7 +267,11 @@ A copy of the license email sent to the customer is automatically logged under t
 
 ### Request for a license as a GitLab Team Member
 
-[Open an Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitLab_Team_Member_License_request) using the `GitLab_Team_Member_License_request` template
+File a submission via the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/):
+
+1. Fill in your work email
+2. Select "Request a team member license" 
+3. Select a plan level
 
 ### GitLab.com Billable Members List
 

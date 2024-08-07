@@ -3,7 +3,7 @@ title: "Sponsored Travel"
 description: "Sponsored travel is travel usually to a customer site that is sponsored by the customer or entity usually though contractual services such as statements of work."
 ---
 
-Related [Travel]({{< ref "travel" >}})
+Related [Travel](/handbook/travel/)
 {.h3}
 
 Sponsored travel is travel usually to a customer site that is sponsored by the customer or entity usually though contractual services such as statements of work.  Sponsored travel is billable to the customer or entity for paid services.
@@ -15,7 +15,7 @@ Sponsored travel is travel usually to a customer site that is sponsored by the c
 Travelers are expected to choose lodging that meets the traveler's schedule and business needs. Receipts are required for all lodging.
 
 **Domestic or International Lodging**
-Departments will reimburse travelers for actual expenses up to 100% of the lodging rate for the destination city, as referenced on the [US Government General Services Administration (GSA) website](https://www.gsa.gov/travel/plan-book/per-diem-rates?gsaredirect=portalcategory) for domestic lodging and the [U.S. Department of State website](http://aoprals.state.gov/web920/per_diem.asp) for international lodging.
+Departments will reimburse travelers for actual expenses up to 100% of the lodging rate for the destination city, as referenced on the [US Government General Services Administration (GSA) website](https://www.gsa.gov/travel/plan-book/per-diem-rates?gsaredirect=portalcategory) for domestic lodging and the [U.S. Department of State website](https://aoprals.state.gov/web920/per_diem.asp) for international lodging.
 
 GitLab recognizes there could be some situations where a lodging rate falls outside of GitLab's guidelines. The traveler must obtain pre-approval from the appropriate authorized approver through a [NexTravel](https://www.travelperk.com/) account.  Out of policy lodging must be booked and approved through NexTravel. If the traveler does not obtain prior approval, the department may limit the reimbursement to the GSA per diem rate.
 
@@ -44,7 +44,7 @@ Travelers may request reimbursement for laundry for domestic travel lasting seve
 
 **Meal breakdown for International M&IE rates**
 
-Rates can be found on the [U.S. Department of State M&IE Rates web page](http://aoprals.state.gov/content.asp?content_id=114&menu_id&menu_id=81&menu_id=81).
+Rates can be found on the [U.S. Department of State M&IE Rates web page](https://aoprals.state.gov/content.asp?content_id=114&menu_id&menu_id=81&menu_id=81).
 
 ### Flights and Transportation (Uber or Car Rental)
 
@@ -56,7 +56,7 @@ Planning flights far in advance can help you get cheaper fares when booking. For
 ### Other Travel Recommendations and Policies
 
 1. The company can accommodate custom requests. It is OK to stay longer on your trip. However, the extra days will not be covered by the company or customer.
-1. Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/spending-company-money), especially the part about spending it like it is your own money, still applies for all expenses.
+1. Understand that the guidelines of [Spending Company Money](/handbook/spending-company-money), especially the part about spending it like it is your own money, still applies for all expenses.
 1. Always bring a credit card with you when traveling for company business if you have one.
 1. Hotels will generally expect you to have a physical credit card to present upon check-in. This credit card will be kept on file for the duration of your stay. Even if your lodging was pre-paid by the company, the hotel may still require a card to be on file for "incidentals".
 1. If you incur any work-travel related expenses (on your personal card or a GitLab company card), please make sure to save the original receipt.
@@ -78,5 +78,5 @@ Estimate the airfare and car rental prices by using the search sites and choosin
 
 If it is required to have a fixed contract price for sponsored travel, estimate the cost of other billable expenses such as parking, tolls, transportation to and from airport, internet services in hotel or flights, and other expenses that might be necessary to complete the contract successfully.
 
-For any policy not covered in this policy please refer to [Travel]({{< ref "travel" >}})
+For any policy not covered in this policy please refer to [Travel](/handbook/travel/)
 {.h3}

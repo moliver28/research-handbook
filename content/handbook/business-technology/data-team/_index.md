@@ -1,14 +1,7 @@
 ---
-
 title: "Data Team"
 description: "The GitLab Enterprise Data Team is responsible for empowering every GitLab team member to contribute to the data program and generate business value from our data assets."
 ---
-
-
-
-
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
@@ -115,24 +108,20 @@ Our impact will be measured against 4 dimensions (these metrics will adjust as o
 
 #### Data Adoption
 
-* Data Monthly Active Users (DMAU): DMAU Measures the direct usage of the Data Platform by GitLab Team Members based on usage of the primary analysis tools we provide: Snowflake, Tableau, and Sisense. Over time we will include additional tools such as Jupyter and Data Studio, as well as usage of data pumped into EApps such as Marketo (PQLs), Gainsight (Usage Data), and Salesforce (Propensity Scores). The [DMAU worksheet](https://docs.google.com/spreadsheets/d/1IOzHbIZmUSw3tK8Xj5-zOYzUvj70MNXfo09XCOeOE2g/edit#gid=0) stores the code and historical stats and a visualization of these numbers can be found in the [Data Monthly Active Users](https://10az.online.tableau.com/#/site/gitlab/workbooks/2049753/views) report.
+* Data Monthly Active Users (DMAU): DMAU Measures the direct usage of the Data Platform by GitLab Team Members based on usage of the primary analysis tools we provide: Snowflake and Tableau. Over time we will include additional tools such as Jupyter and Data Studio, as well as usage of data pumped into EApps such as Marketo (PQLs), Gainsight (Usage Data), and Salesforce (Propensity Scores). A visualization of these numbers can be found in the [Data Monthly Active Users](https://10az.online.tableau.com/#/site/gitlab/workbooks/2049753/views) report.
 
-     * Data Monthly Active Users (DMAU) = Unique Sisense Users + Unique Snowflake Users + Unique Tableau Users in a given month
-     * Quarterly Data Monthly Active Users (Q-DMAU) = Unique Sisense Users + Unique Snowflake Users + Unique Tableau Users across all months in a quarter OR sum(months in quarter)/
-     * Note: Users of Sisense, Tableau and Snowflake might be double counted if they access multiple systems. We do not count distinct users across the tools.
-* Tableau adoption health: % of licensed Tableau users still leveraging Sisense
+* Data Monthly Active Users (DMAU) = Unique users of a Data system (i.e. Snowflake, Tableau) in a given month
 * Data Maturity Score: measured annually, evaluates our current data maturity against 8 data capabilities:
-        1. Strategy & Approach
-        2. Culture & leadership
-        3. Metrics & KPIs
-        4. Organization & Skills
-        5. Architecture & Integration
-        6. Governance & Quality
-        7. Deployment & Usage
-        8. Technology & Operations
-
+  1. Strategy & Approach
+  2. Culture & leadership
+  3. Metrics & KPIs
+  4. Organization & Skills
+  5. Architecture & Integration
+  6. Governance & Quality
+  7. Deployment & Usage
+  8. Technology & Operations
 * Number of certified Tableau dashboards
-* % views of certified dashboards
+* % total views from certified dashboards
 
 #### Revenue/Efficiency Impact
 
@@ -214,32 +203,32 @@ You can tag the Data Team in GitLab using:
 * [Data Learning and Resources](/handbook/business-technology/data-team/learning-library/)
 * [Data Programs](/handbook/business-technology/data-team/programs/)
 * [How The Data Team Works](/handbook/business-technology/data-team/how-we-work/)
-    * [Calendar](/handbook/business-technology/data-team/how-we-work/calendar/)
-    * [Data Analytics Team](/handbook/business-technology/data-team/organization/analytics/)
-    * [Data Platform Team](/handbook/business-technology/data-team/organization/engineering/)
-    * [Data Science Team](/handbook/business-technology/data-team/organization/data-science)
-    * [Data Team Principles](/handbook/business-technology/data-team/principles/)
-    * [Data Management](/handbook/business-technology/data-team/data-management/)
-    * [Data Handbook Documentation](/handbook/business-technology/data-team/documentation/)
-    * [Planning Drumbeat](/handbook/business-technology/data-team/how-we-work/planning/)
-    * [Triage](/handbook/business-technology/data-team/how-we-work/triage/)
+  * [Calendar](/handbook/business-technology/data-team/how-we-work/calendar/)
+  * [Data Analytics Team](/handbook/business-technology/data-team/organization/analytics/)
+  * [Data Platform Team](/handbook/business-technology/data-team/organization/engineering/)
+  * [Data Science Team](/handbook/business-technology/data-team/organization/data-science)
+  * [Data Team Principles](/handbook/business-technology/data-team/principles/)
+  * [Data Management](/handbook/business-technology/data-team/data-management/)
+  * [Data Handbook Documentation](/handbook/business-technology/data-team/documentation/)
+  * [Planning Drumbeat](/handbook/business-technology/data-team/how-we-work/planning/)
+  * [Triage](/handbook/business-technology/data-team/how-we-work/triage/)
 * [How The Data Platform Works](/handbook/business-technology/data-team/platform/)
-    * [Data CI Jobs](/handbook/business-technology/data-team/platform/ci-jobs/)
-    * [Data Infrastructure](/handbook/business-technology/data-team/platform/infrastructure/)
-    * [Data Onboarding](/handbook/business-technology/data-team/programs/#data-onboarding)
-
-    * [Data for Product Managers](/handbook/business-technology/data-team/programs/data-for-product-managers/)
-    * [Data Quality](/handbook/business-technology/data-team/data-quality/)
-    * [Data Services](/handbook/business-technology/data-team/data-service/)
-    * [dbt Guide](/handbook/business-technology/data-team/platform/dbt-guide/)
-    * [Enterprise Data Warehouse](/handbook/business-technology/data-team/platform/edw/)
-    * [Jupyter Guide](/handbook/business-technology/data-team/platform/jupyter-guide)
-    * [Meltano Guide](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/)
-    * [Permifrost](/handbook/business-technology/data-team/platform/permifrost/)
-    * [Python Guide](/handbook/business-technology/data-team/platform/python-guide/)
-    * [RStudio Guide](/handbook/business-technology/data-team/platform/rstudio/)
-    * [SQL Style Guide](/handbook/business-technology/data-team/platform/sql-style-guide/)
-    * [Snowplow](/handbook/business-technology/data-team/platform/snowplow/)
-    * [Tableau](/handbook/business-technology/data-team/platform/tableau/)
-    * [Tableau Style Guide](/handbook/business-technology/data-team/platform/tableau-style-guide/)
-    * [Trusted Data Framework](/handbook/business-technology/data-team/platform/dbt-guide/#trusted-data-framework)
+  * [Data CI Jobs](/handbook/business-technology/data-team/platform/ci-jobs/)
+  * [Data Infrastructure](/handbook/business-technology/data-team/platform/infrastructure/)
+  * [Data Onboarding](/handbook/business-technology/data-team/programs/#data-onboarding)
+  * [Internship Experience](/handbook/business-technology/data-team/internship-experience/internship-experience.md)
+  * [Data for Product Managers](/handbook/business-technology/data-team/programs/data-for-product-managers/)
+  * [Data Quality](/handbook/business-technology/data-team/data-quality/)
+  * [Data Services](/handbook/business-technology/data-team/data-service/)
+  * [dbt Guide](/handbook/business-technology/data-team/platform/dbt-guide/)
+  * [Enterprise Data Warehouse](/handbook/business-technology/data-team/platform/edw/)
+  * [Jupyter Guide](/handbook/business-technology/data-team/platform/jupyter-guide)
+  * [Meltano Guide](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/)
+  * [Permifrost](/handbook/business-technology/data-team/platform/permifrost/)
+  * [Python Guide](/handbook/business-technology/data-team/platform/python-guide/)
+  * [RStudio Guide](/handbook/business-technology/data-team/platform/rstudio/)
+  * [SQL Style Guide](/handbook/business-technology/data-team/platform/sql-style-guide/)
+  * [Snowplow](/handbook/business-technology/data-team/platform/snowplow/)
+  * [Tableau](/handbook/business-technology/data-team/platform/tableau/)
+  * [Tableau Style Guide](/handbook/business-technology/data-team/platform/tableau-style-guide/)
+  * [Trusted Data Framework](/handbook/business-technology/data-team/platform/dbt-guide/#trusted-data-framework)

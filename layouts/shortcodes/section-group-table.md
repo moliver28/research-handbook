@@ -1,7 +1,7 @@
-{{- /*  Initialize. */}}
+{{- /*Initialize.*/}}
 {{- $section_group := "" }}
 
-{{- /* Get params. */}}
+{{- /*Get params.*/}}
 {{- with (.Get 0) }}
   {{- $section_group = . }}
 {{- else }}
@@ -59,6 +59,7 @@
     {{ end }}
   {{- end }}
 {{- end }}
+
 #### {{$section_group}}
 
 <table>

@@ -6,7 +6,7 @@ Here we document our efforts of coordinating and facilitating the production of 
 
 Note: These efforts should not be a replacement of technical documentation but an addition.
 
-# How to help?
+## How to help?
 
 There are two main ways you can help.
 
@@ -28,8 +28,6 @@ Remember to assign yourself to the issue you're working on to avoid duplicated e
 - **Where:** [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) (Add to playlist: [Frontend Skillsharing](https://www.youtube.com/playlist?list=PL05JrBw4t0Kps_i2Oc9sd3zrcHfrGj1xW))
 - **How:** Following the No Extra Work rule, record off a Zoom call and upload. Feel free to ask a colleague to join and help you rehearse before recording.
 
-# Videos
+## Videos
 
 <iframe width="900" height="500" src="https://www.youtube.com/embed/videoseries?list=PL05JrBw4t0Kps_i2Oc9sd3zrcHfrGj1xW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-

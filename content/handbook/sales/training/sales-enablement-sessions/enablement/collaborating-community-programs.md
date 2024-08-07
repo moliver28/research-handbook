@@ -1,15 +1,6 @@
 ---
-
 title: Collaborating with Community Programs
 ---
-
-# On this page
-
-
-
-
-
-# Collaborating with Community Programs
 
 ## 🌎 Overview
 
@@ -88,7 +79,7 @@ Important points:
 
 - For applications to the education program, the Community Programs team does not require proof of use case nor do we enforce it. The applying entity agrees to our legal terms—use case included—as described in the Education Program Agreement [Purpose section](/handbook/legal/education-agreement/#2-purpose).
 
-- For applications to the open source program, the Community Programs team requires proof of use case at the time of application (new and renewing) in the form of a screenshot. The applying entity agrees to our legal terms—use case included—as described in the Open Source Program Agreement [2.Purpose & Eligibility Section](/handbook/legal/opensource-agreement/#2-purpose--eligibility). If a SAE/AE has concerns regarding potential violation of the the use case, please contact our team in the #community-programs channel and provide the SFDC opportunity in question.
+- For applications to the open source program, the Community Programs team requires proof of use case at the time of application (new and renewing) in the form of a screenshot. The applying entity agrees to our legal terms—use case included—as described in the Open Source Program Agreement [2.Purpose & Eligibility Section](/handbook/legal/opensource-agreement/#2-purpose--eligibility). If a SAE/AE has concerns regarding potential violation of the use case, please contact our team in the #community-programs channel and provide the SFDC opportunity in question.
 
 - In the case that a community program member no longer meets the program requirements, the Community Programs team works with the sales team to identify a path forward to transition from free to paid.
 

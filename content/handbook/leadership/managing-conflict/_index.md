@@ -4,11 +4,11 @@ title: Managing Conflict
 
 ## Managing conflict
 
-In this section we will review the definition of conflict, the different causes of conflict, review different methods for addressing conflict, steps in the conflict process and some do's and dont's of workplace conflict. Conflict in the workplace is inevitable when you have team members of various backgrounds and different work styles all working towards the same goals and [OKRs](/handbook/company/okrs) (Objectives and Key Results). Conflict should never just be avoided, conflict should be managed and resolved. The first step is for the team members that experience conflict to work to address the situation to work towards a resolution. If a resolution is not possible, the manager should then work with the team members and their assigned [People Business Partner](/handbook/people-group/) to help foster a resolution.
+In this section we will review the definition of conflict, the different causes of conflict, review different methods for addressing conflict, steps in the conflict process, and some do's and dont's of workplace conflict. Conflict in the workplace is inevitable when you have team members of various backgrounds and different work styles all working towards the same goals and [OKRs](/handbook/company/okrs) (Objectives and Key Results). Conflict should never just be avoided, conflict should be managed and resolved. The first step is for the team members that experience conflict to work to address the situation to work towards a resolution. If a resolution is not possible, the manager should then work with the team members and their assigned [People Business Partner](/handbook/people-group/) to help foster a resolution.
 
 ## What is conflict?
 
-Conflict is any situation in which your concerns, desires, perceptions, goals or values differ and clash with other team members. Here are a few examples of potential causes of workplace conflict:
+Conflict is any situation in which your concerns, desires, perceptions, goals, or values differ and clash with other team members. Here are a few examples of potential causes of workplace conflict:
 
 - Personality differences
 - Team member behavior is regarded by some as irritating or annoying
@@ -26,9 +26,9 @@ This method involves managing conflict through unilateral decision making.
 - Primarily used for: Situations that require a quick decision, instances where there is no compromise or debate on making a hard decision.
 - Competing styles: Win-Lose approach, Assertive & Uncooperative and You try to satisfy your own concerns at the other team members expense.
 - Examples:
-    - Imposing or dictating a decision - "Sorry X, but that's my decision as your manager"
-    - Arguing for a conclusion that fits your data - "Our customer survey shows a steady decline.  We need to design the route"
-    - Hard bargaining (making no concessions) - I won't take less than X - Take it or leave it.
+  - Imposing or dictating a decision - "Sorry X, but that's my decision as your manager"
+  - Arguing for a conclusion that fits your data - "Our customer survey shows a steady decline.  We need to design the route"
+  - Hard bargaining (making no concessions) - I won't take less than X - Take it or leave it.
 
 ### Avoiding method
 
@@ -37,9 +37,9 @@ Actively deciding not to manage a conflict.
 - Primarily used for: Unimportant, non-work relates issues, buying time until a resolution can be reached and recognizing issues as symptoms.
 - Avoiding styles: "Lose-Lose" approach, unassertive and uncooperative, evading conflict without trying to satisfy either person's concerns and effective in emotionally charged circumstances.
 - Examples:
-    - Avoiding people you find troublesome - "This doesn't seem to be a good time to discuss this issue with X".
-    - Avoiding issues that are unimportant, complex or perceived threatening - "Maybe. We'll see. Let's move along to the next topic."
-    - Postponing the discussion until later - "Let me check on that and get back to you next week."
+  - Avoiding people you find troublesome - "This doesn't seem to be a good time to discuss this issue with X".
+  - Avoiding issues that are unimportant, complex or perceived threatening - "Maybe. We'll see. Let's move along to the next topic."
+  - Postponing the discussion until later - "Let me check on that and get back to you next week."
 
 ### Accomodating method
 
@@ -48,11 +48,11 @@ Allowing the other side to "win."
 - Primarily used for: Maintaining perspective in a conflict situation, making active decisions on what can be "let go" and maintaining peace and creating goodwill.
 - Accomodating styles: Unassertive & cooperative and you attempt to satisfy the other team members concerns at the expense of your own concerns.
 - Examples:
-    - Doing a favor to help someone - " I can see this is important to you, OK.""
-    - Being persuaded - I didn't think of that, you are right."
-    - Obeying an authority - "I'd do it differently, but it is your call."
-    - Deferring to another's expertise - "You are the experts, I'll trust your judgement.""
-    - Appeasing someone who is threatening - Ok, ok, please calm down."
+  - Doing a favor to help someone - " I can see this is important to you, OK.""
+  - Being persuaded - I didn't think of that, you are right."
+  - Obeying an authority - "I'd do it differently, but it is your call."
+  - Deferring to another's expertise - "You are the experts, I'll trust your judgement.""
+  - Appeasing someone who is threatening - Ok, ok, please calm down."
 
 ### Compromising method
 
@@ -61,9 +61,9 @@ Reaching a resolution with a "win" on both sides.
 - Primarily used for: Resolving issues of moderate to high importance, finding a solution that involves equal power and strong commitment on both sides, situations where a temporay "fix" may be needed and backing up a decision that's been made via the competing or collaborating method.
 - Compromising style: In the middle and you try to find an acceptable settlement that only partially satisfies both team members concerns.
 - Examples:
-    - Soft bargaining or exchanging concessions - "Let's split the difference and settle for X".
-    - Taking turns - "Suppose I do X this time and then you do Y next time."
-    - Moderating your conclusions - "You think X will solve the problem but I think Y will, so perhaps we say X&Y are possible solutions?"
+  - Soft bargaining or exchanging concessions - "Let's split the difference and settle for X".
+  - Taking turns - "Suppose I do X this time and then you do Y next time."
+  - Moderating your conclusions - "You think X will solve the problem but I think Y will, so perhaps we say X&Y are possible solutions?"
 
 ### Collaborating method
 
@@ -72,8 +72,8 @@ Managing conflict through team input.
 - Primarily used for: Gaining support from the team, using different perspectives as an opportunity to learn and improving relationships through collaboration.
 - Collaborating style: Assertive and cooperative and finding a "win-win."
 - Examples:
-    - Reconciling interest through a "win-win" solution - "You need to fund project X but I need to project Y, how can we do both?"
-    - Combining insights into a richer understanding - "You are praising X's technical skills, however I have concerns about their iteration and collaborations skills.  Both are true aren't they?  They have high potential if they can improve on their interpersonal skills."
+  - Reconciling interest through a "win-win" solution - "You need to fund project X but I need to project Y, how can we do both?"
+  - Combining insights into a richer understanding - "You are praising X's technical skills, however I have concerns about their iteration and collaborations skills.  Both are true aren't they?  They have high potential if they can improve on their interpersonal skills."
 
 ## 8 tips for managing conflict
 
@@ -93,7 +93,7 @@ Managing conflict through team input.
 1. **Encourage transparency and inclusion**
     - All team members must feel free to express their opinions in a non judgemental environment.
 1. **Serve as a resource**
-    - Serve as a resource in business decisions to [coach through conflict](#balancing-conflict) and understand a path forward to support [GitLab’s Vision](https://about.gitlab.com/direction/#vision).
+    - Serve as a resource in business decisions to [coach through conflict](#balancing-conflict) and understand a path forward to support [GitLab's Vision](https://about.gitlab.com/direction/#vision).
 
 ## Balancing conflict
 
@@ -112,13 +112,13 @@ Conflict is *constructive* when it:
 - Causes team members to reassess process or actions
 - Increases team member involvement.
 
-If at any time a manager feels the conflict situation has violated our [values]({{< ref "values" >}}) or code of conduct they should [reach out to the PBP](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group) (People Business Partner). Also, if a manager would like to talk through different conflict situations and approaches your PBP is willing to help you work through the best strategies.
+If at any time a manager feels the conflict situation has violated our [values](/handbook/values/) or code of conduct they should [reach out to the PBP](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group) (People Business Partner). Also, if a manager would like to talk through different conflict situations and approaches your PBP is willing to help you work through the best strategies.
 
 ## Conflict Resolution Competency
 
 Managers need to be well versed in managing and facilitating conflict resolution between team members. They can do this by surfacing and clarifying areas of disagreement and by creating an environment where resolution is possible. Conflict resolution is a key component to enabling team members to be successful and reach their potential.
 
-**Skills and behavior of the conflict resolution [manager competency](/handbook/competencies/#list):**
+**Skills and behavior of the conflict resolution [manager competency](/handbook/people-group/competencies/#list):**
 
 - Facilitates conflict resolution between co-workers by surfacing and clarifying areas of disagreement
 - Creates an environment where resolution is possible
@@ -130,8 +130,7 @@ Managers need to be well versed in managing and facilitating conflict resolution
 
 If you are interested in learning about conflict and your role as a manager please review the following articles.
 
-- [Do You Handle Conflict like a Rhinocerso or an Ostrich](https://www.salesforce.com/blog/2015/12/how-to-handle-difficult-conversations.html)
-- [Conflict in the Workplace](https://www.workplaceissues.com/arconflict/)
+- [Do You Handle Conflict like a Rhinoceros or an Ostrich](https://keithrosen.com/2015/04/14/do-you-handle-conflict-like-a-rhinoceros-or-an-ostrich/)
 - [How to deal with employees who do not get along](https://www.insperity.com/blog/employees-who-dont-get-along/)
   [How managers should deal with conflict between two employees](https://www.theladders.com/career-advice/how-managers-should-deal-with-conflict-between-two-employees)
 - [5 Conflict Management Skills For Every Manager](https://lattice.com/library/conflict-management-skills-for-every-manager)

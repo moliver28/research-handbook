@@ -91,12 +91,12 @@ process applies to all 1-1 issue generator changes. See
 [standard change management](/handbook/support/readiness/operations/docs/change_management#standard-change-management)
 for more information.
 
-#### Labels to use
+### Labels to use
 
 For all issues and MRs involving 1-1 issue generator, the label
 `Support-Ops-Category::GitLab Projects` should be used.
 
-#### Change criticality
+### Change criticality
 
 As this is an internal tool with no direct impact, all issues/MRs related to
 1-1 issue generator will be classified as

@@ -5,14 +5,6 @@ title: "Hiring Contractors - Development Department"
 description: "How the development department hires engineers as contractors"
 ---
 
-
-
-
-
-
-
-# Hiring Development Contractors
-
 GitLab normally prefers to hire full-time permanent engineers for its development teams using entities and [PEOs](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity-or-branch). However, there are times when teams will have a need to hire temporary contractors to help with execution.
 
 These are a few examples of situations where a contractor may be required:
@@ -34,7 +26,7 @@ For this, you need to discuss with your sub-department leader the need and justi
 
 When considering the budget, keep in mind that contractors work for salary only. There are no benefits for them. You should also consider if you will hire directly or if you will engage with a hiring agency to find them for you. The fees might be very different in these two scenarios. When working with a recruitment or team augmentation agency you will need to account for hiring fees or other administrative costs charged by the agency.
 
-It is advisable to put together a concise proposal where you outline the objectives you are looking to meet by hiring a contractor, justifying clearly the reasons you can’t use a full-time team member hire to meet the needs. Also include budget and timeline information in the proposal. [Here is one example](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/1020) of an issue that outlines the need and seeks budget approval.
+It is advisable to put together a concise proposal where you outline the objectives you are looking to meet by hiring a contractor, justifying clearly the reasons you can't use a full-time team member hire to meet the needs. Also include budget and timeline information in the proposal. [Here is one example](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/1020) of an issue that outlines the need and seeks budget approval.
 
 Once you agree on the budget with your manager and get approval at the department head level, you can move on to the next phases of the hiring process.
 
@@ -66,8 +58,8 @@ You can read more in the handbook section above, but roughly the steps involved 
 - Obtain (or draft yourself) a Statement of Work (SOW) outlining the work that the contractor will perform for GitLab and the terms and conditions as related to this contract. The SOW should specify the dates, the name of the individual (and/or agency) and the max total fees for the full length of the contract (even if the fees will be paid periodically over the extent of the contract).
 - When creating the SOW, be as specific as possible. Clearly identify the scope of the work, the acceptance criteria and the deliverables. Also consider adding criteria related to how your team works. For example, do you expect the contractor to add daily async updates to their issues or expect merge requests to be under `x` lines? If so, consider adding it to the SOW.
 - Have the contractor or vendor representative sign the SOW.
-- Create a professional services Coupa requisition with all the details and attach the SOW. If you don’t have access to Coupa, you can [request access](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-access-coupa) or ask somebody with access in your group to submit the request for you.
-- Look after the approval flow, optionally pinging individuals if they don’t respond in a timely manner to the request.
+- Create a professional services Coupa requisition with all the details and attach the SOW. If you don't have access to Coupa, you can [request access](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-access-coupa) or ask somebody with access in your group to submit the request for you.
+- Look after the approval flow, optionally pinging individuals if they don't respond in a timely manner to the request.
 
 Once the Coupa requisition is approved, the vendor/contractor will be able to invoice against the budget allocated at regular intervals as per the SOW. When they submit invoices, the Coupa requestor will be notified by Coupa to approve the payment.
 
@@ -77,12 +69,11 @@ With the contracting out of the way, you will want to onboard the new contractor
 
 Generally speaking, you should know that contractors are referred to as Temporary Service Providers. And there is specific documentation in the handbook about their [life cycle](/handbook/business-technology/end-user-services/onboarding-access-requests/temporary-service-providers/), how to create access requests for them and how to onboard and offboard them.
 
-
 As a general guideline you would want them to:
 
-- Learn about GitLab’s values and culture
-- Learn specifics about your team’s process and rituals
-- Learn about your team’s technology stack
+- Learn about GitLab's values and culture
+- Learn specifics about your team's process and rituals
+- Learn about your team's technology stack
 - Provision the necessary access to communication and productivity systems (project membership, ChatOps, Slack channels including `#production`.) For this, you can rely on access requests and asking questions in #it_help
 
 ### Announcements

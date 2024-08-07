@@ -1,5 +1,4 @@
 ---
-
 title: How to Perform CMOC Duties
 category: On-call
 description: "Describes the role and responsibilities for the Incident CMOC rotation in Support Engineering"
@@ -308,16 +307,20 @@ Click the pencil next to `Affected Infrastructure`, check the boxes next to the 
 
 ![Change affected infrastructure](/images/support/cmoc_update_infra.png)
 
-#### Create Zendesk Tag
+#### Zendesk Tag
 
-In order to track tickets submitted through Zendesk that relate to an incident, we need to create a [tag](https://support.zendesk.com/hc/en-us/articles/4408888664474-About-tags). To create a tag:
+In order to track tickets submitted through Zendesk that relate to an incident, a zendesk tag is automatically added to all tickets that mention the incident issue.
+
+The tag is available for use on other tickets. All tags that relate to incidents are in the format `gitlab-com_gl-infra_production_issues_#####` with `#####` being the incident number, which can be found in the incident issue.
+
+For all other internal or confidential incidents (such as security related incidents), a manual tag can be created since we would not be sharing a public link in the public ticket response. To create a manual tag:
 
 1. Create or edit a ticket.
-1. Start typing the name of the new tag in the `Tags` field.
+1. Start typing the name of the new tag in the `Tags` field with a format of `com_incident_###`
 1. Hit `Enter`.
 1. Submit the ticket, either with a response included or not.
 
-The tag will now be available to use on other tickets. All tags that relate to incidents should be in the format `com_incident_####` with `####` being the incident number, which can be found in the incident issue.
+The tag will now be available to use on other tickets.
 
 #### Monitor Zendesk
 

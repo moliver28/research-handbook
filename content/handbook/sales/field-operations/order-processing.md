@@ -1,16 +1,7 @@
 ---
-
 title: "Sales Order Processing"
 description: "This page outlines the Quote to Cash process, starting from account and opportunity creation, quote configuration, approvals, booking requirements and to the ultimate closure of a deal."
 ---
-
-
-
-
-
-
-
-
 
 **Welcome to the Sales Order Processing page!**
 
@@ -20,32 +11,32 @@ This page outlines the Quote to Cash process. Topics include account and opportu
 
 - **Salesforce Reports and Dashboards**
 
-    - [Current Quarter WW Sales Dashboard](https://gitlab.my.salesforce.com/01Z4M0000007H7W)
-    - [Monthly Bookings Report](https://gitlab.my.salesforce.com/00O61000004Ik27)
-    - [Deal Desk Pending Opportunity Approvals Report](https://gitlab.my.salesforce.com/00O4M000004e0Dp)
+  - [Current Quarter WW Sales Dashboard](https://gitlab.my.salesforce.com/01Z4M0000007H7W)
+  - [Monthly Bookings Report](https://gitlab.my.salesforce.com/00O61000004Ik27)
+  - [Deal Desk Pending Opportunity Approvals Report](https://gitlab.my.salesforce.com/00O4M000004e0Dp)
 
 - **Frequently Used Handbook Pages**
 
-    - [Sales Order Processing](/handbook/sales/field-operations/order-processing/)
-    - [How to Work with Legal](/handbook/legal/customer-negotiations/)
-    - [Deal Desk Opportunity Approval Process](/handbook/sales/field-operations/order-processing/#submit-an-opportunity-for-booking)
-    - [Bookings Policy](/handbook/sales/field-operations/order-processing/#bookings-policy)
-    - [Useful Company Information](https://gitlab.com/gitlab-com/finance/wikis/company-information)
-    - [Account Ownership Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement)
-    - [ARR Calculation Guide](/handbook/sales/sales-term-glossary/arr-in-practice/)
-    - [Vendor Setup Form Process](/handbook/sales/field-operations/order-processing/#how-to-process-customer-requested-vendor-setup-forms)
-    - [Security Questionnaire Process](/handbook/security/#process)
-    - [Troubleshooting: True Ups, Licenses + EULAS](/handbook/support/internal-support/#regarding-licensing-and-subscriptions)
-    - [Licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/)
-    - [Legal Authorization Matrix](/handbook/finance/authorization-matrix/)
-    - [Trade Compliance](/handbook/legal/trade-compliance/)
+  - [Sales Order Processing](/handbook/sales/field-operations/order-processing/)
+  - [How to Work with Legal](/handbook/legal/customer-negotiations/)
+  - [Deal Desk Opportunity Approval Process](/handbook/sales/field-operations/order-processing/#submit-an-opportunity-for-booking)
+  - [Bookings Policy](/handbook/sales/field-operations/order-processing/#bookings-policy)
+  - [Useful Company Information](https://gitlab.com/gitlab-com/finance/wikis/company-information)
+  - [Account Ownership Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement)
+  - [ARR Calculation Guide](/handbook/sales/sales-term-glossary/arr-in-practice/)
+  - [Vendor Setup Form Process](/handbook/sales/field-operations/order-processing/#how-to-process-customer-requested-vendor-setup-forms)
+  - [Security Questionnaire Process](/handbook/security/#process)
+  - [Troubleshooting: True Ups, Licenses + EULAS](/handbook/support/internal-support/#regarding-licensing-and-subscriptions)
+  - [Licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/)
+  - [Legal Authorization Matrix](/handbook/finance/authorization-matrix/)
+  - [Trade Compliance](/handbook/legal/trade-compliance/)
 
 - **Other Resources**
 
-    - [Sales Territory Spreadsheet](https://docs.google.com/spreadsheets/d/1PYU8oQJQEPpi8K-SHuqSgPeSpLcWeSQd9FuwKtgD048/edit?ts=5d6ea274#gid=0)
-    - [Quote Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?ts=5d6ea430#heading=h.ag75fqu12pf0)
-    - [Billing FAQs and Useful Tips](https://gitlab.com/gitlab-com/finance/-/wikis/Billing-Team-FAQs-&-Useful-Tips)
-    - [Sample Order Form (Blank)](https://drive.google.com/open?id=1NB5KH7U4cucjiOjUdZrq94mYGzH6jG4f)
+  - [Sales Territory Spreadsheet](https://docs.google.com/spreadsheets/d/1PYU8oQJQEPpi8K-SHuqSgPeSpLcWeSQd9FuwKtgD048/edit?ts=5d6ea274#gid=0)
+  - [Quote Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?ts=5d6ea430#heading=h.ag75fqu12pf0)
+  - [Billing FAQs and Useful Tips](https://gitlab.com/gitlab-com/finance/-/wikis/Billing-Team-FAQs-&-Useful-Tips)
+  - [Sample Order Form (Blank)](https://drive.google.com/open?id=1NB5KH7U4cucjiOjUdZrq94mYGzH6jG4f)
 
 ### **Creating Accounts and Contacts**
 
@@ -155,6 +146,7 @@ Follow the standard process for [quote creation](/handbook/sales/field-operation
 3. Click Generate PDF. A Draft Proposal PDF will be attached to the opportunity in the Notes & Attachments section.
 
 **Important Notes**
+
 - A Draft Proposal PDF is not an Order Form. All quotes must go through the applicable approval process before you can generate an Order Form. Draft Proposals are not guaranteed approval.
 - A Draft Proposal PDF will not be accepted in place of an Order Form under any circumstance.
 
@@ -175,6 +167,7 @@ Specific fields have been added to the Quote object to support SuperSonics Funct
 This section contains a number of fields that show the current state of each SuperSonics feature (Auto-Renewal, Quarterly Subscription Reconciliation, Operational Data). The "Contract" fields show whether the customer is contractually eligible for the related feature. The "Turn On" fields show whether that feature is actually enabled on the subscription.
 
 For customers who are not exempt, the default values will be "Yes" for all fields. For customers who are exempt based on the [Availability Matrix](https://internal.gitlab.com/handbook/product/fulfillment/#feature-availability-matrix), the default values will be "No" for all fields.
+
 - Note: If a customer is exempt from SuperSonics, or has opted out, Legal Language will populate on the Order Form noting that SuperSonics does not apply. In these cases, such language can only be removed or edited by the GitLab Legal Team.
   - For exemptions related to MSAs or partner deals, legal opt-out language will not populate on the Order Form.
 
@@ -206,15 +199,18 @@ The fields in this section enable contractual opt-outs for each SuperSonics feat
 The below process applies to any existing customers with an active subscription who have QSR enabled, and who exceed their billable user count during the subscription term.
 
 **Criteria:**
+
 - Existing customer has an active subscription with QSR enabled.
 - Customer exceeds their subscription amount (Max Users > Seats in Subscription) at any point during the quarter. This amount is "locked in" as the overage quantity for the quarter, "previewed" as invoice amount in Zuora, and stored in the CustomersDot database.
 
 **Timeline:**
+
 - A reconciliation occurs at the end of the first, second, and third quarter of the customer's subscription.
   - For SaaS, group owners receive an email on the reconciliation date. The email communicates the overage seat quantity and expected invoice amount.
   - For Self-Managed, administrators receive an email six days after the reconciliation date. This email communicates the overage seat quantity and expected invoice amount.
 
 **Opportunity Creation:**
+
 - On the date the reconciliation email is sent to the customer warning them of the planned QSR, an open Opportunity is created in Salesforce with the title: "[Account Name] - QSR - [Effective Date]"
   - Amount = Invoice Amount
   - Net ARR = Estimated Based on Invoice Amount
@@ -222,6 +218,7 @@ The below process applies to any existing customers with an active subscription 
   - Close Date = Date of planned closure (7 days from opportunity creation)
 
 **Opportunity Closure:**
+
 - 7 days after opportunity creation,  we perform the reconciliation by committing an amendment to the subscription in Zuora and generating an invoice which is sent to the customer. At this time, in Salesforce:
   - The opportunity becomes Closed Won automatically
   - The night after the opportunity becomes Closed Won, a nightly job will run to create the underlying quote and populate opportunity data fields accurately.
@@ -235,39 +232,57 @@ The below process applies to any existing customers with an active subscription 
 During the Sales process, a customer who would not otherwise be exempt from Auto-Renewal, Quarterly Subscription Reconciliation, Cloud Licensing and/or Operational Data may request to disable one or more of these features. Every opt-out will require approvals, as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). If an opt-out is requested and approved, upon Closed Won the related feature will be disabled for the subscription in question.
 
 **Steps to Request an Opt-Out:**
+
 1. Navigate to the Cloud Licensing Fields section of the quote, and check the box next to the applicable SuperSonics Feature (i.e. Add Auto-Renewal Opt-Out). Click Save.
-  - This action updates the related Zuora fields to "No." The quote now shows a red "Approvals Required" message.
+
+   - This action updates the related Zuora fields to "No." The quote now shows a red "Approvals Required" message.
+
 2. Click "Submit for Approval" to request the necessary approvals for the opt-out.
 3. Once approved, generate a PDF. That PDF will include legal language in the "Notes" section that opts the customer out of the applicable SuperSonics Feature.
-  - Any subsequent Add-Ons will maintain the contractual opt-out.
+
+   - Any subsequent Add-Ons will maintain the contractual opt-out.
 
 #### How To Temporarily Pause Auto-Renewal, Quarterly Subscription Reconciliation, and Operational Data
 
 During the Sales process, there may be a need for Sales to "pause" an upcoming Auto-Renewal or Quarterly Subscription Reconciliation while negotiating with the customer. Every pause will require approvals, as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). If a pause is requested and approved, that feature will be temporarily disabled for the subscription in question until the next renewal occurs. A pause is not possible for Cloud Licensing.
 
 **Steps to Request a Pause:**
+
 1. Navigate to the applicable opportunity in SFDC.
 2. Write a message in chatter explaining why you'd like to pause Auto-Renewal or Quarterly Reconciliation for the subscription. Tag @Sales-Support to request approval. Note that justification will be required.
-  - Example: "@Sales-Support I'd like to request that Auto-Renewal be paused for this subscription. I'm working with the customer on an upsell, and I'd like to ensure we do not auto-renew the subscription at the current user count if negotiations do not end before the renewal date. Please let me know if you have any questions. Thank you!"
+
+   - Example: "@Sales-Support I'd like to request that Auto-Renewal be paused for this subscription. I'm working with the customer on an upsell, and I'd like to ensure we do not auto-renew the subscription at the current user count if negotiations do not end before the renewal date. Please let me know if you have any questions. Thank you!"
+
 3. If approved, Deal Desk will navigate to the Customer Subscription object in SFDC to temporarily disable the related feature. To pause auto-renewal, Deal Desk will check the "Pause Auto-Renewal" box. To pause QSR, Deal Desk will check the "Pause Seat Reconciliation" box. The feature will remain disabled until the next renewal occurs, at which time it will revert to its previous state.
 
 #### Auto-Renewal, Quarterly Subscription Reconciliation, and Operational Data: Frequently Asked Questions
 
 1. **I'm working on a deal. How can I tell if SuperSonics features apply to that deal?**
-  - First, create a quote. After you've saved your quote, check the [Zuora Fields](/handbook/sales/field-operations/order-processing/#supersonics-and-sales-assisted-transactions). If you see "Yes" next to "Turn On Auto-Renewal", "Turn On Quarterly Reconciliation", or "Turn On Operational Data", then that feature applies to your customer. If you see "No" next to these fields, SuperSonics features do not apply to your customer, and Legal opt-out language will be automatically populated on the Order Form.
-2. **I created a quote and legal language has automatically populated in the Notes section of the Order Form. Why did that happen?**
-  - This means that your customer is exempt from one or more SuperSonics features. These SuperSonics features are not available for the deal, and we must place legal opt-out language on the Order Form to make it clear that these features do not apply. Review the [Availability Matrix](https://internal.gitlab.com/handbook/product/fulfillment/#feature-availability-matrix) for more information on exemptions.
-  - Note: This language is not optional and cannot be removed unless the customer opts into SuperSonics. If you would like to discuss such a scenario, tag @Sales-Support in chatter.
-3. **My customer is exempt from SuperSonics, and they have requested edits to the opt-out language on the Order Form. What do I do?**
-  - Please open a [Legal Request](/handbook/sales/field-operations/order-processing/#contact-legal) case to discuss potential edits to the language with the Legal Team.
-4. **How can I tell if Auto-Renewal or Quarterly Subscription Reconciliation are enabled on a subscription?**
-  - Navigate to the SFDC Account, and click on the "Subscriptions" related list. Select the subscription in question, and review the "Auto-Renewal" and "Quarterly Reconciliation" fields. If these are marked "Yes," then these processes apply to the subscription. If these fields are marked "No" or are blank, these processes will not occur for this subscription.
-5. **A QSR opportunity was opened automatically, but my customer was never charged, and the opportunity never closed. What do I do?**
-  - In most cases, if a QSR opportunity is opened but is not closed within 14 days after creation, that means the QSR failed and the opportunity should be closed as Closed Lost.
-6. **My customer did not opt out of Cloud Licensing during the sales process, but now they need a Legacy/Offline license file. How do I get my customer a Legacy/Offline license?**
-  - To provide the customer with a legacy or offline license file, Sales should first collect the necessary approvals as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). Sales should then work with Support Engineering to request that a legacy or offline license be sent to the customer.
-  - To open a Support ticket, click [here](/handbook/support/internal-support/#internal-requests).
-  - To review the Support process, click [here](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing.html#post-sale-exemptions-support).
+
+   - First, create a quote. After you've saved your quote, check the [Zuora Fields](/handbook/sales/field-operations/order-processing/#supersonics-and-sales-assisted-transactions). If you see "Yes" next to "Turn On Auto-Renewal", "Turn On Quarterly Reconciliation", or "Turn On Operational Data", then that feature applies to your customer. If you see "No" next to these fields, SuperSonics features do not apply to your customer, and Legal opt-out language will be automatically populated on the Order Form.
+
+1. **I created a quote and legal language has automatically populated in the Notes section of the Order Form. Why did that happen?**
+
+   - This means that your customer is exempt from one or more SuperSonics features. These SuperSonics features are not available for the deal, and we must place legal opt-out language on the Order Form to make it clear that these features do not apply. Review the [Availability Matrix](https://internal.gitlab.com/handbook/product/fulfillment/#feature-availability-matrix) for more information on exemptions.
+   - Note: This language is not optional and cannot be removed unless the customer opts into SuperSonics. If you would like to discuss such a scenario, tag @Sales-Support in chatter.
+
+1. **My customer is exempt from SuperSonics, and they have requested edits to the opt-out language on the Order Form. What do I do?**
+
+   - Please open a [Legal Request](/handbook/sales/field-operations/order-processing/#contact-legal) case to discuss potential edits to the language with the Legal Team.
+
+1. **How can I tell if Auto-Renewal or Quarterly Subscription Reconciliation are enabled on a subscription?**
+
+   - Navigate to the SFDC Account, and click on the "Subscriptions" related list. Select the subscription in question, and review the "Auto-Renewal" and "Quarterly Reconciliation" fields. If these are marked "Yes," then these processes apply to the subscription. If these fields are marked "No" or are blank, these processes will not occur for this subscription.
+
+1. **A QSR opportunity was opened automatically, but my customer was never charged, and the opportunity never closed. What do I do?**
+
+   - In most cases, if a QSR opportunity is opened but is not closed within 14 days after creation, that means the QSR failed and the opportunity should be closed as Closed Lost.
+
+1. **My customer did not opt out of Cloud Licensing during the sales process, but now they need a Legacy/Offline license file. How do I get my customer a Legacy/Offline license?**
+
+   - To provide the customer with a legacy or offline license file, Sales should first collect the necessary approvals as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). Sales should then work with Support Engineering to request that a legacy or offline license be sent to the customer.
+   - To open a Support ticket, click [here](/handbook/support/internal-support/#internal-requests).
+   - To review the Support process, click [here](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing.html#post-sale-exemptions-support).
 
 #### Resources
 
@@ -278,7 +293,6 @@ The following resources pertaining to the SuperSonics Billing and Subscription M
 - [Field Team FAQ](https://docs.google.com/document/d/1XmaIDggCYespisg1MTXHMVDUnWtdRsDw_brz-ir9RrI/edit#)
 - [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7)
 
-
 ### **Working with Legal**
 
 There are several scenarios where you might need Legal assistance on an opportunity. Thouroughly review the information below. You can also learn more about the team and their scope by [visiting their handbook page](/handbook/legal/) or by checking out these [best practices on how to Collaborate with Legal](/handbook/legal/customer-negotiations/).
@@ -288,6 +302,7 @@ There are several scenarios where you might need Legal assistance on an opportun
 For general questions related to the customer, please open a case with legal.
 f
 Within the Customer Opportunity:
+
 1. Click "Legal Request" (located at the top of Opportunity SFDC layout)
 1. Provide the question in the "NOTES" Section and hit "SAVE"
 1. The information provided will open a "Case", which will automatically be assigned to a Contract Manager / Legal Member
@@ -295,13 +310,14 @@ Within the Customer Opportunity:
 1. Once the question is addressed, the Case will be closed by the Contract Manager.
 1. **NOTE:** If not Opportunity exists yet, please create a $0 to open the Legal Request.
 
-
 <details>
 <summary markdown="span"><b>Customer Vendor Setup Forms and Obtaining Signatures</b></summary>
 
 #### How to process Customer requested "Vendor Setup Forms"
+
 - From time to time a Customer may request that GitLab complete a Vendor Setup document. This is generally required for procurement groups to add a new vendor to their system(s).
 - The Sales Team member is responsible for completing such forms by following the below steps:
+
 1. Complete as much of the form as possible. Much of this information is publicly available in the GitLab handbook. Helpful information can be found on the [Company Information](https://gitlab.com/gitlab-com/finance/wikis/company-information) page and on the final page of any direct order form generated via a Zuora quote;
 1. Engage deal desk (via chatter in SFDC) only for any information that is not available in the GitLab handbook. The Deal Desk team can help point you to the relevant handbook information or team who can assist with the question, but please note that it is the sales rep's responsibility to populate and manage these forms from end to end.
 1. With respect to any legal terms or questions, [open a legal case](/handbook/sales/field-operations/order-processing/#contact-legal) for review and approval;
@@ -314,6 +330,7 @@ Note: Sales Team Members are **NOT** authorized to sign any document, contract a
 All contracts / Agreements that require GitLab countersignature will be digitally stamped by a GitLab Contract Manager or legal representative. This is done to ensure and signify that the document has been reviewed and vetted by GitLab legal, and may be signed.
 
 **Receiving a stamped contract / Agreement**
+
 - Once GitLab and the customer / prospect reach executable terms, the Contract Manager or legal representative will provide a final "Clean" version. This will be in PDF format and include a digital stamp below the GitLab signature line/block which indicates, (i) the name of the GitLab legal member that approved, and (ii) the date of approval.
 - If a final agreement has been reached, the Sales Team Member should ensure the contract / Agreement includes the stamp (mentioned above). If a stamp is not included, please contact the contract manger or legal representative involved on the negotiation. Upon being notified of the need for a digital stamp, the Contract Manager or legal representative will respond and attach promptly.
 - Contracts / Agreement without a digital stamp indicating approval by a GitLab Contract Manager or legal representative will be rejected and not signed.
@@ -324,6 +341,7 @@ The signatory Authorization Matrix can be found here: /handbook/finance/authoriz
 
 **Process for Signature**
 Once negotiations are completed, and the digital stamp has been affixed to the final version of the contract / Agreement:
+
 1. Change the status of the contract, in SFDC, to 'Approved to Sign'; and
 1. [stage the contract](https://support.docusign.com/guides/ndse-user-guide-send-a-document) in DocuSign for signatures;
 1. Send to the Customer and cc' our CFO (Brian Robins).
@@ -337,7 +355,6 @@ To add our SaaS SLA Addendum to an order form, please open a Legal case after al
 
 </details>
 
-
 <details>
 <summary markdown="span"><b>Export Compliance</b></summary>
 
@@ -345,11 +362,11 @@ To add our SaaS SLA Addendum to an order form, please open a Legal case after al
 
 1. Why is Trade Compliance (Export / Import) important
     1. Not complying could be detrimental to the United States and other countries GitLab operates in
-    1. IT’S THE LAW!
+    1. IT'S THE LAW!
     1. Not complying could result in fines or penalties for GitLab and/or GitLab team members
     1. Non-compliance could result in the inability to sell to federal customers, lose the trust of our customers, partners and investors and result in fines or jail time for officers and offenders
 1. For more information see the [Trade Compliance](/handbook/legal/trade-compliance/) handbook page and the [Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) page.
-1. GitLab uses a third party tool called “Visual Compliance” that is connected to our GitLab SalesForce account
+1. GitLab uses a third party tool called "Visual Compliance" that is connected to our GitLab SalesForce account
 1. This tool checks Account information against various databases to ensure no matches, Accounts are checked repeatedly to ensure GitLab's continued compliance
 
 1. VISUAL COMPLIANCE STEPS
@@ -357,24 +374,23 @@ To add our SaaS SLA Addendum to an order form, please open a Legal case after al
     1. The information is automatically reviewed for non-compliance / issues with the Account
     1. If the Account information provides NO MATCHES, Visual Compliance will CLEAR the Account
         1. NOTE: Visual Compliance will update SFDC every 15 minutes
-    1. If the Account information provides a ‘hit’, meaning it matches some element of information from a regulation or restriction, a GitLab legal member will manually review the Account
+    1. If the Account information provides a 'hit', meaning it matches some element of information from a regulation or restriction, a GitLab legal member will manually review the Account
         *NOTE: GitLab legal reviews these accounts at 09:00, 12:00, 5:00 (CENTRAL TIME)
     1. If the Account is approved, the GitLab legal member will CLEAR the Account, and Visual Compliance will update (every 15 minutes)
-        *NOTE: If GitLab legal finds an issue with the Account they will alert the Sales Team to the Account being ‘locked’ and will work to verify next steps.
+        *NOTE: If GitLab legal finds an issue with the Account they will alert the Sales Team to the Account being 'locked' and will work to verify next steps.
 
 1. My Account has been flagged for Export Compliance Review!
     1. Tag Legal in chatter on the associated account. Accounts are reviewed and validated periodically throughout the day. Only the Legal team can unlock accounts flagged for EC review!!
 
 1. WHAT SHOULD SALES DO?
-    1. The more accurate information in the Account--THE BETTER! Meaning, provide the full company name, company address, and contact name(s). Partial information will result in ‘hits’ and delay the process
+    1. The more accurate information in the Account--THE BETTER! Meaning, provide the full company name, company address, and contact name(s). Partial information will result in 'hits' and delay the process
     1. If you receive the below error when attempting to update an Account:
-        *(i) Check if the Visual Compliance Section [of the Account] says “Pending”-- Wait 15-30 minutes for the system to run its initial check and update. However, if Visual Compliance finds a potential ‘hit’ it will be cleared per the below
-        *(ii) If the Visual Compliance Section [of the Account] says  “Yellow” or“Red”-- The legal team is manually reviewing the Account to ensure compliance. This is done three (3) times a day and will automatically update the Account--check back in on the Account during the same day
-        *(iii) If the Account requires immediate action (i.e., to close a deal), open a Chatter message in the Account and message “@legal”--upon receipt the Legal team will immediately review and update in Visual Compliance--change should update in 15-30 minutes
+        *(i) Check if the Visual Compliance Section [of the Account] says "Pending"-- Wait 15-30 minutes for the system to run its initial check and update. However, if Visual Compliance finds a potential 'hit' it will be cleared per the below
+        *(ii) If the Visual Compliance Section [of the Account] says  "Yellow" or"Red"-- The legal team is manually reviewing the Account to ensure compliance. This is done three (3) times a day and will automatically update the Account--check back in on the Account during the same day
+        *(iii) If the Account requires immediate action (i.e., to close a deal), open a Chatter message in the Account and message "@legal"--upon receipt the Legal team will immediately review and update in Visual Compliance--change should update in 15-30 minutes
     1. Once the Visual Compliance Section is updated, all Account functionality will return and you may proceed
 
 </details>
-
 
 <details>
 <summary markdown="span"><b>Creating custom contracts or adding custom terms to quotes</b></summary>
@@ -382,8 +398,10 @@ To add our SaaS SLA Addendum to an order form, please open a Legal case after al
 #### Process for Agreement Terms Negotiations (when applicable) and Contacting Legal
 
 If the Opportunity meets the dollar thresholds:
-  - Greater than $25,000 ARR (USD) Opportunity to review edits on GitLab Agreement template(s)
-  - Greater than $100,000 ARR (USD) Opportunity to review Customer template / agreement version(s)
+
+- Greater than $25,000 ARR (USD) Opportunity to review edits on GitLab Agreement template(s)
+- Greater than $100,000 ARR (USD) Opportunity to review Customer template / agreement version(s)
+
 The Sales Team Member will follow the below workflows to make requests for, (i) editable version(s) of GitLab Templates, (ii) engagement of contract negotiations, and (iii) assistance on general questions related to a Customer / Opportunity.
 
 A presentation overview of the process to engage GitLab Legal can be found [**HERE**](https://docs.google.com/presentation/d/1lesWNvPAFd1B3RuCgKsqQlE85ZEwLuE01QpVAKPhQKw/edit#slide=id.g5d6196cc9d_2_0)
@@ -395,6 +413,7 @@ You may contact Legal directly in Slack via #Legal
 #### Request editable version of GitLab Template
 
 Within the Customer Opportunity:
+
 1. Click "Legal Request" (located at the top of the Opportunity SFDC layout)
 1. For "**Type of Legal Request**" select "**Request for GitLab Agreement Template**"
 1. For "**Type of Contract**" select the Template desired. For example, for a Non-Dislclosure Agreement request, select "NDA"
@@ -403,7 +422,9 @@ Within the Customer Opportunity:
 1. The information provided will open a "Case", which will automatically be assigned to a Contract Manager / Legal Member
 1. The Contract Manager / Legal Member will attach the requested template and tag the requesting Sales Team Member
 1. The Sales Team Member will take the template version and provide to the Customer
-  - NOTE: Sales Team Members are responsible for communication(s) with Customers. This includes providing back GitLab templates and negotiated terms.
+
+   - NOTE: Sales Team Members are responsible for communication(s) with Customers. This includes providing back GitLab templates and negotiated terms.
+
 1. **NOTE:** If not Opportunity exists yet, please create a $0 to open the Legal Request.
 
 **At this time, the Contract Request Case will be marked as "Closed". Follow the below steps to initiate "Contract Review" of the Customer edits.**
@@ -411,16 +432,21 @@ Within the Customer Opportunity:
 #### Request for GitLab review of Customer edits to GitLab Template, OR, Review of Customer Agreement Template
 
 Within the Customer Opportunity:
+
 1. Click "Legal Request" (located at the top of the Opportunity SFDC layout)
 1. For "**Type of Legal Request**" select "Contract Review"
 1. For "**Type of Contract**" select the type of Agreement / Template being negotiated. For example, for a Non-Dislclosure Agreement request, select "NDA"
 1. For "**Contract Source**" select the applicable Agreement / Template Source
-  - For edits to a GitLab Agreement / Template select "**GitLab Contract Template**". NOTE: Be sure the Opportunity size is above $25,000 (USD)
-  - To request GitLab to edit a Customer Agreement / Template select "**Customer Contract Template**". NOTE: Be sure the Opportunity size is above $100,000 (USD)
+
+   - For edits to a GitLab Agreement / Template select "**GitLab Contract Template**". NOTE: Be sure the Opportunity size is above $25,000 (USD)
+   - To request GitLab to edit a Customer Agreement / Template select "**Customer Contract Template**". NOTE: Be sure the Opportunity size is above $100,000 (USD)
+
 1. Add any additional notes that may be helpful for GitLab Contract Manager / Legal and hit "SAVE"
 1. The information provided will open a "Case", which will automatically be assigned to a Contract Manager / Legal Member
 1. The Contract Manager / Legal Member will review the Agreement / Template and attach updated red-lines
-  - The Sales Team member will be alerted (via SFDC Chatter) to the Agreement being updated and ready to be sent to customer
+
+   - The Sales Team member will be alerted (via SFDC Chatter) to the Agreement being updated and ready to be sent to customer
+
 1. If another round of edits are necessary, the Sales Team member will attach the Customer provided red-lines and tag (via SFDC Chatter) the Contract Manager / Legal Member assigned
 1. The same steps will repeat until an executable version is reached. At which point, the Contract Request Case will be closed.
 1. The Sales Team Member will follow the steps found at ["Obtain Signatures"](/handbook/sales/field-operations/order-processing/#how-to-obtain-signatures-for-any-external-contract-or-agreement-including-vendor-forms) and attach the fully executed version to the Customer Account.
@@ -432,22 +458,24 @@ NOTE: The above process may be used to also engage Contract Managers / Legal Mem
 #### Request GitLab Partner Agreement
 
 Within the Customer Opportunity:
+
 1. Click "Legal Request" (located at the top of the Opportunity SFDC layout)
-2. For "**Type of Legal Request**" select "**Request for GitLab Agreement Template**"
-3. For "**Type of Contract**" select "**Other Agreement**"
-4. For "**Contract Source**" select "**GitLab Contract Template**"
-5. Add into the Notes section the, (i) Partner Name, and (ii) Type of Partner (Referral, Reseller, or Distributor) and hit "SAVE"
-6. The information provided will open a "Case", which will automatically be assigned to a Contract Manager / Legal Member
-7. The Contract Manager / Legal Member will attach the requested template and tag the requesting Sales Team Member
-8. The Sales Team Member will update the cover page of the Partner Agreement to include the Partner Information (i.e., Territory, Partner Address...etc)
-9. The Sales Team Member should send (AS A PDF) the Agreement to the Partner. If they require an editable version, they may send the "WORD" form originally provided.
-  - NOTE: Sales Team Members are responsible for communication(s) with Partners. This includes providing back GitLab templates and negotiated terms.
+1. For "**Type of Legal Request**" select "**Request for GitLab Agreement Template**"
+1. For "**Type of Contract**" select "**Other Agreement**"
+1. For "**Contract Source**" select "**GitLab Contract Template**"
+1. Add into the Notes section the, (i) Partner Name, and (ii) Type of Partner (Referral, Reseller, or Distributor) and hit "SAVE"
+1. The information provided will open a "Case", which will automatically be assigned to a Contract Manager / Legal Member
+1. The Contract Manager / Legal Member will attach the requested template and tag the requesting Sales Team Member
+1. The Sales Team Member will update the cover page of the Partner Agreement to include the Partner Information (i.e., Territory, Partner Address...etc)
+1. The Sales Team Member should send (AS A PDF) the Agreement to the Partner. If they require an editable version, they may send the "WORD" form originally provided.
+
+   - NOTE: Sales Team Members are responsible for communication(s) with Partners. This includes providing back GitLab templates and negotiated terms.
+
 1. **NOTE:** If not Opportunity exists yet, please create a $0 to open the Legal Request.
 
 **At this time, the Contract Request Case will be marked as "Closed". Follow the below steps to initiate "Contract Review" of the Partner edits. Please note, ANY DOCUMENT THAT REQUIRES GITLAB SIGNATURE MUST HAVE A GITLAB LEGAL STAMP (SEE OBTAIN SIGNATURE)**
 
 </details>
-
 
 <details>
 <summary markdown="span"><b>Creating legal dashboards or filing executed contracts</b></summary>
@@ -456,7 +484,6 @@ Within the Customer Opportunity:
 
 1. Creating your own Legal Request Dashboard will enable you to see all Open and Closed Legal Requests that have been created.
 1. The steps to do so are highlighted below, and also found in the recording located [here](https://gitlab.zoom.us/rec/share/--dWJbirp39Lf8_fyU7lY_E4D7zvX6a823IY8vtYyk4ReS25B7mI3HrdLUM8PXat)
-
 
 - Step 1:  Search Dashboards and open "Sales Rep_Legal Requests Data Template" and click on "Clone"
 - Step 2:  Click on "Dashboard Properties", title this Dashboard using "Your Name_Legal Request Dashboard, hit SAVE and CLOSE
@@ -483,8 +510,8 @@ Within the Customer Opportunity:
 After both parties have signed the contract, complete these steps:
 
 1. Upload the fully executed pdf to the contract page;
-1. Edit the `Contract Status` field to show “Active”;
-1. Input the ‘Contract Start Date` and fill in the `Contract Term (months)` field, if applicable. The End Date will auto-fill based on the number you enter. Do not put the end date in the Termination Date field.
+1. Edit the `Contract Status` field to show "Active";
+1. Input the `Contract Start Date` and fill in the `Contract Term (months)` field, if applicable. The End Date will auto-fill based on the number you enter. Do not put the end date in the Termination Date field.
 1. Copy and paste the terms that have capture fields from the executed contract into the fields. Then, change the drop-down named "Term Capture" to "Complete". If you run into problems, you can change the field to "Started" and then request help by sending a chatter message at @Contracts.
 
 </details>
@@ -514,8 +541,9 @@ GitLab will not accommodate changes to our standard forms for deals under $25,00
 If GitLab agrees to customized subscription terms with a customer, all quotes, SOWs, POs, etc. must reference those customized terms and *not* the GitLab standard terms listed on our website.
 
 To update the terms of a quote, follow these steps:
-1. Delete the reference in the quote to GitLab’s URL terms.
-1. Replace the reference with the following language - “By accepting this Quote, you and the entity that you represent (collectively, “Customer”) unconditionally agree to be bound by and a party to the GitLab Subscription Agreement signed by Customer and GitLab with an effective date of mm/dd/yyyy.”
+
+1. Delete the reference in the quote to GitLab's URL terms.
+1. Replace the reference with the following language - "By accepting this Quote, you and the entity that you represent (collectively, "Customer") unconditionally agree to be bound by and a party to the GitLab Subscription Agreement signed by Customer and GitLab with an effective date of mm/dd/yyyy."
 1. Insert the effective date of the customized agreement signed by both parties. The effective date should be set forth in the agreement, but if not specifically set forth, use the date the last party signed.
 
 #### Adding Custom Terms to a Quote
@@ -528,7 +556,6 @@ If custom terms need to be added to a quote, notify the Deal Desk team. The team
 <summary markdown="span"><b>Subscription Transfer Agreements</b></summary>
 
 For assistance with a Subscription Transfer Agreement please open a Legal Request. Please provide details as to the Account which purchased the Subscription--Including the original Opportunity--and the updated Account that is requesting to be assigned ownership.
-
 
 </details>
 
@@ -553,13 +580,15 @@ The following is intended as a guide for Opportunity Owners who need to submit a
 #### Standard Quote Approval
 
 Prior to generating a standard (non-draft) quote to deliver to a client or prospect in PDF format, any non-standard elements (discounts, unique payment terms, and other items found in the matrix) must be approved. The following steps outline the process for how to correctly submit a quote for approval. This approval flow follows the criteria in [our approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.ag75fqu12pf0) for approvers.
+
 1. Navigate to the quote that you would like to submit for approval. Ensure that all of the relevant information is filled out on the quote.
 1. Include the `Submitter Comments` on the quote before you submit for discount and terms approval. Please provide as much detail as to why you are requesting discounts or other terms that require approval.
-  - **CRO Deal Approvals:**
-    - When requesting CRO approval for any discount or other non-standard deal element, please fill out the [CRO Deal Approval Template](https://docs.google.com/document/d/1thffIdwcjutUIhLW4tYlc_28O8ylPLB1WiFH98f20ac/edit) and provide a link to your copy within the request.
-    - When requesting approval via the SFDC Quote Object (i.e. clicking Submit for Approval), please link your copy of the CRO Deal Approval Template in the "Submitter Comments" field on the quote.
-    - When requesting approval via SFDC Chatter, please link your copy of the CRO Deal Approval Template in the original chatter request when tagging Chris.
-    - *In all scenarios, please ensure Chris Weber has permission to access the form prior to submitting the quote for approval.*
+
+   - **CRO Deal Approvals:**
+     - When requesting CRO approval for any discount or other non-standard deal element, please fill out the [CRO Deal Approval Template](https://docs.google.com/document/d/1thffIdwcjutUIhLW4tYlc_28O8ylPLB1WiFH98f20ac/edit) and provide a link to your copy within the request.
+     - When requesting approval via the SFDC Quote Object (i.e. clicking Submit for Approval), please link your copy of the CRO Deal Approval Template in the "Submitter Comments" field on the quote.
+     - When requesting approval via SFDC Chatter, please link your copy of the CRO Deal Approval Template in the original chatter request when tagging Jake Bielecki.
+     - *In all scenarios, please ensure Jake Bielecki has permission to access the form prior to submitting the quote for approval.*
 
 1. You will be able to see who the required approvers are on the quote prior to submitting the quote and why they are required.
 1. Click the `Submit for Approval` button on the quote screen.
@@ -587,17 +616,47 @@ The quote approval module and approval workflow outlined above **does not apply 
 
 ### Where do I find the partner's contractual discount?
 
-The quoting system will provide visibility into the correct programmatic partner discount. On the quote object, each line will be stamped with the “Partner Programmatic Discount.” This field is populated by the system, but does not provide any actual discount to the quote. In order to apply the discount to the quote, this amount should be entered into the “Discount %” field on the edit products page. To confirm that the discount is correct, go to the opportunity and look at the Partner Deal Type, and then look at the Partner Engagement. Next, reference the appropriate [Partner Program Discount Table](/handbook/sales/field-operations/channel-operations/#partner-program-discounts). The product, Engagement, and Deal Type will allow you to find the proper discount in the matrix..
-
+The quoting system will provide visibility into the correct programmatic partner discount. On the quote object, each line will be stamped with the "Partner Programmatic Discount." This field is populated by the system, but does not provide any actual discount to the quote. In order to apply the discount to the quote, this amount should be entered into the "Discount %" field on the edit products page. To confirm that the discount is correct, go to the opportunity and look at the Partner Deal Type, and then look at the Partner Engagement. Next, reference the appropriate [Partner Program Discount Table](/handbook/sales/field-operations/channel-operations/#partner-program-discounts). The product, Engagement, and Deal Type will allow you to find the proper discount in the matrix..
 
 ### Service Attach Quote Approval
+
+#### Required EDU Attach (All Segments/Geos)
+
+IF:
+
+1. **Opportunity Record Type** = `Standard`
+2. **Type** = `New Business` OR `Add-on`
+3. **Stamped Opp Owner User Geo** = `AMER`, `EMEA`, `PubSec`
+4. **Booked ARR** BETWEEN `50,000` AND `250,000`
+
+THEN:
+
+Require 1 AND 2 below
+
+1. Include at least qty 12 GitLab Certification Exam Voucher
+2. Include qty 1 Private Instructor Led Trainings.
+
+#### Required EDU Attach (Commercial Segment)
+
+IF:
+
+1. **User Segment** = `Mid-Market`
+2. **Stamped Opp Owner User Geo** = `AMER`, `EMEA`, `PubSec`
+3. **Booked ARR** BETWEEN `20,000` AND `50,000`
+
+THEN:
+
+Require 1 OR 2 below
+
+1. Include at least qty 12 GitLab Certification Exam Voucher
+2. Include qty 1 Private Instructor Led Trainings.
 
 #### Enterprise Service Attach Opportunity Criteria (All Products)
 
 IF:
 
 1. Order Type 2.0 = `1. New - First Order`
-2. Net ARR >=`$20,000`
+2. Net ARR >= `$20,000`
 3. Stamped Sales Segment = `Large`, `PUBSEC`
 4. Stamped Opp Owner User Region = `AMER`, `EMEA`
 
@@ -626,8 +685,8 @@ THEN:
 IF:
 
 1. Order Type 2.0 = `1. New - First Order`
-2. Net ARR >=`$20,000`
-3. Stamped Sales Segment = `Mid-Market``
+2. Net ARR >= `$20,000`
+3. Stamped Sales Segment = `Mid-Market`
 
 THEN:
 
@@ -647,27 +706,29 @@ If an opportunity meets the criteria listed above, but does not meet the Minimum
 #### Service Attach Quote Approval Process
 
 1. Populate the "ProServ Exception Approval Notes" field on the quote with the following information:
-  - What use cases are they adopting?
-  - What specific services were positioned?
-  - Was PS services engagement manager engaged (y/n)?
-  - What was the customer’s reason why they didn’t agree to services?
-  - Other supporting reasons?
-2. Submit the quote for approval by clicking "Submit for Approval" on the quote object.
-3. Approval is required per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.dccvx02huo2y).
-4. If the approvals noted above are obtained, and no other approvals are required, the quote will be approved. If the approvals noted above are obtained, and other approvals are required (discount approvals, payment term approvals, etc.), the quote approval module will automatically enter the existing approval process.
+
+   - What use cases are they adopting?
+   - What specific services were positioned?
+   - Was PS services engagement manager engaged (y/n)?
+   - What was the customer's reason why they didn't agree to services?
+   - Other supporting reasons?
+
+1. Submit the quote for approval by clicking "Submit for Approval" on the quote object.
+1. Approval is required per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.dccvx02huo2y).
+1. If the approvals noted above are obtained, and no other approvals are required, the quote will be approved. If the approvals noted above are obtained, and other approvals are required (discount approvals, payment term approvals, etc.), the quote approval module will automatically enter the existing approval process.
 
 ### Waived True-Ups: Policy and Approval Requirements
 
 **Summary: Waived True-Ups require executive approvals and may negatively impact Net ARR.**
 
 1. Waived True-Ups require written approvals per the [approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?ts=5d6ea430#heading=h.dccvx02huo2y). Approvals should be sought in SFDC Chatter on the related Opportunity.
-2. After approval is obtained, Sales should create the appropriate opportunity and quote. Typically, true up waivers are required after renewal, and thus require an Add-On opportunity with an amend subscription quote. The true up SKU must be added to the same subscription that incurred the overage. On the quote, Sales should apply the appropriate true up SKU and quantity approved to be waived, at a 100% discount. After saving the quote, Sales should tag @Sales-Support to override the quote approval requirement.
-3. Like all GitLab deals, waived true up orders must meet booking requirements as described [here](/handbook/sales/field-operations/order-processing/#opportunity-booking-requirements). In most cases, that means that the customer must sign a $0 Order Form, or issue a $0 PO.
-3. Upon booking the true up waiver opportunity, Order Management will notify @Revenue of the waiver in SFDC chatter.
-4. After being notified, the Revenue team will review the case, and will calculate the amount of the ARR allocation. The Revenue team will then add it to the ARR Allocations Tracker.
-5. After calculating the ARR allocation, the Revenue team will communicate the impact in Chatter. This ARR allocation will be communicated wtihin 3-5 days of the initial notification to the Revenue Team.
-6. When the ARR allocation is communicated in Chatter, Deal Desk will adjust the Net ARR and Booked ARR of the opportunity in accordance with the ARR allocation provided by the Revenue Team.
-7. Please note: L&R Support do not have the ability to waive True-Ups, further information on L&R Support responsibilities regarding True-Ups can be found in the [working with sales support handbook page](/handbook/support/license-and-renewals/workflows/working_with_sales/#support-responsibilities-regarding-true-up-waiver-requests)
+1. After approval is obtained, Sales should create the appropriate opportunity and quote. Typically, true up waivers are required after renewal, and thus require an Add-On opportunity with an amend subscription quote. The true up SKU must be added to the same subscription that incurred the overage. On the quote, Sales should apply the appropriate true up SKU and quantity approved to be waived, at a 100% discount. After saving the quote, Sales should tag @Sales-Support to override the quote approval requirement.
+1. Like all GitLab deals, waived true up orders must meet booking requirements as described [here](/handbook/sales/field-operations/order-processing/#opportunity-booking-requirements). In most cases, that means that the customer must sign a $0 Order Form, or issue a $0 PO.
+1. Upon booking the true up waiver opportunity, Order Management will notify @Revenue of the waiver in SFDC chatter.
+1. After being notified, the Revenue team will review the case, and will calculate the amount of the ARR allocation. The Revenue team will then add it to the ARR Allocations Tracker.
+1. After calculating the ARR allocation, the Revenue team will communicate the impact in Chatter. This ARR allocation will be communicated wtihin 3-5 days of the initial notification to the Revenue Team.
+1. When the ARR allocation is communicated in Chatter, Deal Desk will adjust the Net ARR and Booked ARR of the opportunity in accordance with the ARR allocation provided by the Revenue Team.
+1. Please note: L&R Support do not have the ability to waive True-Ups, further information on L&R Support responsibilities regarding True-Ups can be found in the [working with sales support handbook page](/handbook/support/license-and-renewals/workflows/working_with_sales/#support-responsibilities-regarding-true-up-waiver-requests)
 
 ### How to Request Quote Approval via Chatter
 
@@ -675,73 +736,143 @@ Complex deals require approval via chatter. Use the applicable template below to
 
 **If you are Requesting Approval for New Subscriptions:**
 
-    Proposed Subscription Terms:
+```text
+Proposed Subscription Terms:
 
-    Product Tier:
-    Quantity:
-    List Price/User/Year:
-    Discount:
-    Effective Price/User/Year:
-    TCV:
-    Contract Start Date:
-    Contract End Date:
-    Payment Terms:
-    Non-Standard Contract Terms:
-    Route to Market (Direct/Channel):
+Product Tier:
+Quantity:
+List Price/User/Year:
+Discount:
+Effective Price/User/Year:
+TCV:
+Contract Start Date:
+Contract End Date:
+Payment Terms:
+Non-Standard Contract Terms:
+Route to Market (Direct/Channel):
+```
 
 **If you are Requesting Approval for Add-Ons/Upgrades/Amendments/Renewals:**
 
-    Existing Subscription Terms:
+```text
+Existing Subscription Terms:
 
-    Product Tier:
-    Quantity:
-    List Price/User/Year:
-    Discount:
-    Effective Price/User/Year:
-    TCV:
-    Contract Start Date:
-    Contract End Date:
-    Payment Terms:
-    Non-Standard Contract Terms:
-    Route to Market (Direct/Channel):
+Product Tier:
+Quantity:
+List Price/User/Year:
+Discount:
+Effective Price/User/Year:
+TCV:
+Contract Start Date:
+Contract End Date:
+Payment Terms:
+Non-Standard Contract Terms:
+Route to Market (Direct/Channel):
 
-    Proposed Subscription Terms:
+Proposed Subscription Terms:
 
-    Product Tier:
-    Quantity:
-    List Price/User/Year:
-    Discount:
-    Effective Price/User/Year:
-    TCV:
-    Contract Start Date:
-    Contract End Date:
-    Payment Terms:
-    Non-Standard Contract Terms:
-    Route to Market (Direct/Channel):
+Product Tier:
+Quantity:
+List Price/User/Year:
+Discount:
+Effective Price/User/Year:
+TCV:
+Contract Start Date:
+Contract End Date:
+Payment Terms:
+Non-Standard Contract Terms:
+Route to Market (Direct/Channel):
+```
 
 ### **How to Approve a Quote**
 
-The following is intended as a guide for quote approvers.
+The following is intended as a guide for quote approvers who receive approval requests per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit)
 
-#### Quote Approvers
+#### Where do I approve?
 
-According to [our matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.ag75fqu12pf0) for approvers there are a number of reasons that you may be involved in approving an opportunity. Please make sure that you are familiar with the scenarios that you may be involved with.
+Quote Approval requests will originate from one of two sources: [The quote](/handbook/sales/field-operations/order-processing/#standard-quote-approval), or [Salesforce Chatter](/handbook/sales/field-operations/order-processing/#how-to-request-quote-approval-via-chatter).
 
-- To review how you can approve or reject quotes please watch this [training on youtube](https://youtu.be/T47h4VNTRWU) - Please see the bullet in [Training Videos](#training-videos) on how to access this training video
-- Once a user submits a quote for approval it follows the order of approvers as stated in our approvers matrix
-- You will be notified by an email which contains information about the request, any previous approvers, and a link to the quote.
-- Once you have reviewed the quote you can either approve or reject any quote in one of two ways:
-   1. You can reply directly to the email that you received by following this format when replying to an email:
-        - `APPROVE`, `APPROVED`, `YES`, `REJECT`, `REJECTED`, or `NO` must the first line of the email message. Any other terms in the first line of the reply will result in an error.
-        - You can enter comments, but they must be on the second line of your response.
-        - If you combine the first and second lines into a single line in your response, this will result in an error.
+If the request originates from the quote, you will receive an email alert and a Slack alert. If the request originates from SFDC Chatter, you will receive an email alert. Click [here](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=kix.1p0vwiqmoq15) to learn more about which requests should go through the quote vs. SFDC Chatter. In FY25 we will move away from SFDC Chatter entirely, routing all approvals through the quote.
 
-   1. You can approve or reject the quote directly within salesforce on the bottom of the quote page under `Approval History`
-- If you are going to be unavailable to review and approve quotes (PTO, at a conference etc.) please coordinate with the appropriate team members to ensure that there will still be someone who can review quotes while you are unavailable.
+#### Approval Requests Submitted via Quote "Submit for Approval" Button
+
+Approval requests submitted via [this process](/handbook/sales/field-operations/order-processing/#standard-quote-approval) can be approved one of three ways: (1) via email alert, (2) via Slack alert, or (3) directly in Salesforce.
+
+Once a user submits a quote for approval, it will follow the order of approvers as stated on the quote and in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit). You will be notified by an email and a Slack alert, both of which contain information about the request, and a link to the quote.
+
+##### Approve Directly in Salesforce
+
+- To review how you can approve or reject quotes via email or directly in Salesforce, sign into the GitLab Unfiltered YouTube account and watch this [video](https://youtu.be/T47h4VNTRWU).
+- You can approve or reject a quote directly within Salesforce by accessing the quote and scrolling to the bottom of the page under `Approval History`. Click `Approve` or `Reject` next to your name to take action.
+
+##### Approve via Email
+
+- To review how you can approve or reject quotes via email or directly in Salesforce, sign into the GitLab Unfiltered YouTube account and watch this [video](https://youtu.be/T47h4VNTRWU).
+- Once you have reviewed the quote, you can reply directly to the email. Valid responses are:
+  - `APPROVE`
+  - `APPROVED`
+  - `YES`
+  - `REJECT`
+  - `REJECTED`
+  - `NO`
+- Please note, shortly after the launch of Slack Approvals in May 2024, email approval alerts will be deprecated. An announcement will be sent to Field Managers upon removal of this feature.
+
+##### NEW IN FY25: Approve via Slack
+
+###### How It Works
+
+- Slack Approvals sends quote approval requests from Salesforce right to your Slack via the "Quote Approval Bot." As soon as a submitter clicks "Submit for Approval" on the quote object, the first approver will receive the request. After an approver actions their step, any subsequent approver(s) will receive their request in sequence until the quote is fully approved, or until a user rejects the quote. When it's your turn to approve, you'll be able to approve, reject, add comments, and monitor progression - all right in Slack. Each action writes back to Salesforce and leaves a timestamp - just like we're used to.
+- The Quote Approval Bot's Approval Dashboard conveniently lists all pending approval requests in one location. No more worrying you missed one!
+
+###### Alert Types
+
+Both submitters and approvers will receive alerts via the Quote Approval Bot as each quote navigates the approval workflow.
+
+**Approvers** will receive an Approval Request with key information about the opp and quote, links to Salesforce, and Approve/Reject buttons with comment functionality that writes back to Salesforce. Approvers will also receive Approval Alerts confirming they've approved, Rejection Alerts confirming they've rejected and Recall alerts notifying them when a quote pending their approval has been recalled in Salesforce.
+
+**Submitters** will receive Approval Alerts notifying them when each Approver has approved, Rejection Alerts notifying them that a quote has been rejected, and Final Approvla Alerts notifying them when a quote has been *fully approved* and an Order Form can be generated.
+
+###### FAQ
+
+1. Will I still receive email notifications for quote approvals?
+
+   Yes, you will still receive email notifications initially. Eventually, email notifications will be turned off once all grown accustomed to Slack Approvals.
+
+2. Does this work for chatter approval requests?
+
+   No, chatter approval requests will not be routed through Slack. In FY25 Q2/Q3 we will build all deal approvals into the quote approval tool, which will bring all approval requests into Slack and get us out of chatter. Stay tuned!
+
+3. Can I still approve quotes directly in Salesforce?
+
+   Yes! If you approve directly in Salesforce, you will still receive a Slack alert confirming your approval.
+
+4. Does this require any change in rep behavior?
+
+   No! Submitters will click Submit for Approval on the quote object just as they do today.
+
+5. Does this work on both the desktop app and the mobile app?
+
+   Yes!
+
+6. Do I have to do anything to set it up? Do new hires need to request access?
+
+   No! All Salesforce users will automatically receive this functionality upon go-live, including new users added to Salesforce in the future.
+
+7. Is there any functionality that enables deal-specific discussion directly in Slack?
+
+   At this time, there is no functionality that enables deal-specific discussion directly within the Quote Approval Bot. We've custom built this integration, and will consider such functionality for future iterations.
+
+###### Learn More
+
+Additional resources are available in Highspot. Review the [Slack Approvals slide deck](https://gitlab.highspot.com/items/6644d40fe832298666f32013) for step-by-step instructions, or check out this [video announcement](https://gitlab.highspot.com/items/6644cf1179be967698ca92e2) to see Slack Approvals in action!
+
+#### Approval Requests Submitted via Salesforce Chatter
+
+If you have been tagged to approve a quote via Salesforce Chatter, please clearly communicate your Approval or Rejection, as well as exactly what you are approving or rejecting, in the same Chatter thread where your approval was sought.
 
 #### Reassign Quote Approvals
 
-If you are a quote approver and will be out of office, you will need to notify Deal Desk and set up rerouting of any quote approvals.
+If you are a quote approver and will be out of office, please take action to delegate your quote approvals while you are away. To reroute your approvals, follow the below steps:
 
 1. In Salesforce, navigate to your Profile feed. At the top right of your screen click Your Name > My Profile.
 1. Tag Sales-Support in chatter to notify the Deal Desk team that you will be out of office and tag the individual to whom approvals should be rerouted to, along with the dates that you will be out of office.
@@ -750,8 +881,7 @@ If you are a quote approver and will be out of office, you will need to notify D
      1. Assign your Delegated Approver (the individual to whom your quotes should be rerouted).
      1. Verify with your Delegated Approver that they have set their [SFDC Approval Settings](https://help.salesforce.com/articleView?id=approvals_change_approval_user_pref.htm&type=5) to "If I am an approver" or "Delegated Approver".
 
-Note: If you are a Delegated Approver and are not receiving approval emails, contact sales-support for assistance.
-
+Note: If you are a Delegated Approver and are not receiving approval alerts, contact sales-support for assistance.
 
 #### Approving Multiple Product Tiers on One Quote
 
@@ -775,7 +905,7 @@ If a quote has a <span style="color:green">**green circle**</span> at the top of
 
 The first time you login to DocuSign from SFDC, you will be required to Authorize access and log in. Please follow these steps when prompted:
 
-1. After clicking on the “Send with DocuSign” button, you will be prompted with this screen. Select “Authorize” to continue.
+1. After clicking on the "Send with DocuSign" button, you will be prompted with this screen. Select "Authorize" to continue.
 
       ![DocuSign 1](/handbook/sales/images/docusign1.png)
 
@@ -783,8 +913,8 @@ The first time you login to DocuSign from SFDC, you will be required to Authoriz
 
       ![DocuSign 2](/handbook/sales/images/docusign2.png)
 
-3. Once logged in, click “Accept” to grant access to DocuSign.
-4. On the next screen, click “Allow” to grant DocuSign access to Salesforce.
+3. Once logged in, click "Accept" to grant access to DocuSign.
+4. On the next screen, click "Allow" to grant DocuSign access to Salesforce.
 5. On the final screen, you may be asked to login to Salesforce again. After this access will be granted going forward.
 
 #### How to Send an Order Form to the Customer for Signature via DocuSign
@@ -794,36 +924,45 @@ The first time you login to DocuSign from SFDC, you will be required to Authoriz
 To send a digital copy of an Order Form to the customer via DocuSign:
 
 1. On the Approved quote, Click "Generate Quote PDF", near the top of the page.
-2. Proceed to the related opportunity.
-3. Confirm the PDF has been generated under the “Google Docs, Notes & Attachments” section on the opportunity.
-4. From the Opportunity, select the “Send with DocuSign” button.
+1. Proceed to the related opportunity.
+1. Confirm the PDF has been generated under the "Google Docs, Notes & Attachments" section on the opportunity.
+1. From the Opportunity, select the "Send with DocuSign" button.
 
       ![DocuSign 5](/handbook/sales/images/docusign5.png)
 
-5. Here, a DocuSign window appears with the **most recent** file selected by default.
+1. Here, a DocuSign window appears with the **most recent** file selected by default.
+
 - Preview the document by clicking on the document name.
 - If this is the correct document, click **Next**.
 - If this is NOT the correct document, uncheck the box next to the document, and add the correct file.
-6. To add one or multiple files, select “Add from Salesforce” or “Upload” from your computer:
-- “Add from Salesforce” will allow you to select any Order Form PDF that has been attached to the opportunity.
-  - When selecting a document from “Add from Salesforce” make sure the box is checked to the left of the document so it is added to the envelope.
-- “Upload” will allow you to select any PDF from your computer. NOTE that any document not generated from a quote will require signature tags to be placed manually.
-    - Note: Order Form PDFs generated prior to 2021-06-03 will require the manual placement of signature tags.
-- Make sure to hit “Next” once all the documents have been selected!
-7. Now you must add a **Recipient**:
+
+1. To add one or multiple files, select "Add from Salesforce" or "Upload" from your computer:
+
+- "Add from Salesforce" will allow you to select any Order Form PDF that has been attached to the opportunity.
+  - When selecting a document from "Add from Salesforce" make sure the box is checked to the left of the document so it is added to the envelope.
+- "Upload" will allow you to select any PDF from your computer. NOTE that any document not generated from a quote will require signature tags to be placed manually.
+  - Note: Order Form PDFs generated prior to 2021-06-03 will require the manual placement of signature tags.
+- Make sure to hit "Next" once all the documents have been selected!
+
+1. Now you must add a **Recipient**:
+
 - At minimum, you must add:
   - A Signer
 - Additional Recipients Options:
   - Viewer
   - Receives a Copy
   - Needs to View
-8. Use one of two recommended methods of adding a Recipient:
-- “From Salesforce” - Simply type in the name of a contact in Salesforce. Click Select.
+
+1. Use one of two recommended methods of adding a Recipient:
+
+- "From Salesforce" - Simply type in the name of a contact in Salesforce. Click Select.
   - Note: If a contact on the related SFDC opportunity has the "DocuSign Signer" contact role selected, that contact will automatically display as the signer upon arriving to this step.
-- “By Name & Email” - Enter Full name and email address. Click Select.
-  - Note: When using this option to add a signer, **leave “Role” blank.**
-9. To add a second signer, add a **second recipient.** Ensure the second signer is marked as “Signer 2.”
-10. Recipient Messaging
+- "By Name & Email" - Enter Full name and email address. Click Select.
+  - Note: When using this option to add a signer, **leave "Role" blank.**
+
+1. To add a second signer, add a **second recipient.** Ensure the second signer is marked as "Signer 2."
+1. Recipient Messaging
+
 - After specifying the envelope recipient, **modify the email subject line and enter an optional email message.**
   - By default, the email subject line is prefixed with the words "Please DocuSign:" and will automatically include the name(s) of the file(s) you upload to your envelope.
   - For example, if you upload a file named "Confidentiality Agreement.docx," your subject line defaults to "Please DocuSign: Confidentiality Agreement.docx."
@@ -831,44 +970,50 @@ To send a digital copy of an Order Form to the customer via DocuSign:
   - You can also add an email message to the envelope
   - You can add reminder options if the envelope has not been opened, signed, or view.
   - You can set an envelope expiration date when needed
-11. Click Next.
-12. Send Page
-- **If you are sending the document to one signer:** Review the document to ensure the Signer 1 signature tags are visible on the signature block. These tags are automatically applied to any Order Form PDF generated from the SFDC quote (generated on or after 2021-06-03). When ready, click “Send.
+
+1. Click Next.
+1. Send Page
+
+- **If you are sending the document to one signer:** Review the document to ensure the Signer 1 signature tags are visible on the signature block. These tags are automatically applied to any Order Form PDF generated from the SFDC quote (generated on or after 2021-06-03). When ready, click "Send.
   - Note: Order Forms generated before 2021-06-03 will have legacy signature tags, and will require manual placement of signature tags via the DocuSign tool. Only Order Forms generated with the new DocuSign templates (available starting 2021-06-03) will automatically place the signature tags.
-  - To manually add signature tags on a PDF within the DocuSign tool, select the appropriate signer in the drop down menu on the top left of the screen. Drag and drop the appropriate signature tags from the “Standard Fields” section onto the signature block on the order form.
+  - To manually add signature tags on a PDF within the DocuSign tool, select the appropriate signer in the drop down menu on the top left of the screen. Drag and drop the appropriate signature tags from the "Standard Fields" section onto the signature block on the order form.
   - For each signer, GitLab requires:
     - Signature
     - Date Signed
     - Full Name
     - Title
   - Note: Signature fields can only be added for recipients who need to take action on the document.
-- **If you are sending the document to two signers:** Select the appropriate signer in the drop down menu on the top left of the screen. Drag and drop the appropriate signature tags from the “Standard Fields” section onto the signature block on the order form. Repeat for the second signer.
+- **If you are sending the document to two signers:** Select the appropriate signer in the drop down menu on the top left of the screen. Drag and drop the appropriate signature tags from the "Standard Fields" section onto the signature block on the order form. Repeat for the second signer.
   - For each signer, GitLab requires:
     - Signature
     - Date Signed
     - Full Name
     - Title
   - Note: Signature fields can only be added for recipients who need to take action on the document. Fields are not added for recipients who only need to view or receive a copy of the document.
-13. When Complete, click “Send.”
+
+1. When Complete, click "Send."
 
 #### How do I check if the customer has signed the Order Form via DocuSign?
 
-1. From the Opportunity level in our Salesforce instance, you can view the status of a document by hovering over the “DocuSign Envelope Status.
+1. From the Opportunity level in our Salesforce instance, you can view the status of a document by hovering over the "DocuSign Envelope Status.
 
-      ![DocuSign 6](/handbook/sales/images/docusign6.png)
+    ![DocuSign 6](/handbook/sales/images/docusign6.png)
 
- - Once the document has been sent the status will state “Sent.”
- - Once the document has been signed the status will update to “Completed.”
- - You will receive email notifications to your GitLab email address when the document has been viewed, and when it has been signed.
+    - Once the document has been sent the status will state "Sent."
+    - Once the document has been signed the status will update to "Completed."
+    - You will receive email notifications to your GitLab email address when the document has been viewed, and when it has been signed.
+
 2. **When the document has been fully signed, it will automatically be attached to the opportunity.**
 
 #### Learning Resources
 
 **Internal Resources:**
-- For a visual demo of GitLab’s DocuSign instance, review this [LevelUP Webinar from 2021-05-13](https://youtu.be/Dch4zaUQOeg)
+
+- For a visual demo of GitLab's DocuSign instance, review this [LevelUP Webinar from 2021-05-13](https://youtu.be/Dch4zaUQOeg)
 - Note: If you cannot view the video, make sure you are logged in to GitLab Unfiltered. [You can learn more about how to log in or request access to GitLab Unfiltered here!](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube)
 
 **DocuSign University:**
+
 - [Send Your First Envelope](https://dsu.docebosaas.com/learn/course/620)
 - [Configure Envelopes for Sending](https://dsu.docebosaas.com/learn/course/687/play/1849:2112/configure-envelopes-for-sending)
 - [DocuSign Support Page](https://support.docusign.com/en/home)
@@ -897,7 +1042,6 @@ Please see the general summary presentation of our booking requirements [here](h
 **IMPORTANT NOTE**: At this time, we cannot accept Direct Deals through India. All sales assisted opportunities with customers based in India must go through a reseller or partner. Customers based in India can still purchase online via the customer portal directly.
 
 Review the drop down below related to your order type.
-
 
 <details>
 <summary markdown="span"><b>Overview Booking Requirements for Direct Opportunities<b></summary>
@@ -941,25 +1085,25 @@ For all Direct Deals (Sales Assisted Opportunities) the customer must sign the A
 
 1. An Order Form (which includes a Quote No.) is required in order to confirm products purchased, # of seats, term, and pricing. An Order Form is also needed to confirm the Prospect/Client agrees to the terms and conditions referenced in the Order Form.
 
-  - Discuss with customers / prospects, from on the onset, that signature will be required.
+   - Discuss with customers / prospects, from on the onset, that signature will be required.
 
-  - If the parties agreed to non-standard, negotiated terms, the URL to our standard terms and privacy policy should be deleted and replaced with the following: "This Order Form is governed by the terms and conditions of the [NAME OF AGREEMENT] dated [MM/DD/YYYY] between the parties ("Agreement"). Customer has been deemed to have "Accepted" the terms of this Agreement upon the earlier of, (i) executing this Order Form, (ii) reference of this Order Form Quote No within a purchase order or similar document, or (iii) the use of any GitLab software.
+   - If the parties agreed to non-standard, negotiated terms, the URL to our standard terms and privacy policy should be deleted and replaced with the following: "This Order Form is governed by the terms and conditions of the [NAME OF AGREEMENT] dated [MM/DD/YYYY] between the parties ("Agreement"). Customer has been deemed to have "Accepted" the terms of this Agreement upon the earlier of, (i) executing this Order Form, (ii) reference of this Order Form Quote No within a purchase order or similar document, or (iii) the use of any GitLab software.
 
-  - If an Order Form is executed by the Customer, GitLab review of a submitted purchase order will be minimal, the purchase order must include: a) the correct GitLab entity, b) the Quote No. found within the applicable Order Form, c) payment terms matching the Order Form, and d) line item descriptions that match the Order Form.
+   - If an Order Form is executed by the Customer, GitLab review of a submitted purchase order will be minimal, the purchase order must include: a) the correct GitLab entity, b) the Quote No. found within the applicable Order Form, c) payment terms matching the Order Form, and d) line item descriptions that match the Order Form.
 
 1. In rare circumstances, where a Prospect/Client is unwilling to sign the Order Form, approvals are required from Legal and PAO and the Sales Team Member must attach to the Opportunity:
-    - Reason(s) why the Customer is refusing to execute the Order Form; and
-    - Documentation (i.e., email thread) of the customer refusal
+   - Reason(s) why the Customer is refusing to execute the Order Form; and
+   - Documentation (i.e., email thread) of the customer refusal
 
 1. If the Customer's purchase order **DOES NOT** include any legal or finance terms, as determined and approved by GitLab finance and legal, and includes a) the correct GitLab entity, b) the Quote No. found within the applicable Order Form, c) payment terms matching the Order Form, and d) line item descriptions that match the Order Form (without signature block), GitLab may accept the Order Form and purchase order without changes.
 
 1. If the Customer's purchase order **DOES** include any legal or finance terms, as determined and approved by GitLab finance and legal, the Sales Team Member will be guided to direct the customer to either:
 
-  - Remove all references to such terms found within the purchase order; and/or
+   - Remove all references to such terms found within the purchase order; and/or
 
-  - Insert the following language into the supplied PO: "Notwithstanding any of purchaser's standard terms and conditions set forth or referenced herein, this PO is governed by the GitLab Subscription Agreement, GitLab Professional Services Terms (as applicable) or other such software license and/or services agreement negotiated by the parties"
+   - Insert the following language into the supplied PO: "Notwithstanding any of purchaser's standard terms and conditions set forth or referenced herein, this PO is governed by the GitLab Subscription Agreement, GitLab Professional Services Terms (as applicable) or other such software license and/or services agreement negotiated by the parties"
 
-  - The purchase order in either instance (3&4) must also include: a) the correct GitLab entity, b) the Quote No. found within the applicable Order Form, c) payment terms matching the Order Form, d) line item descriptions that match the Order Form (without signature block)
+   - The purchase order in either instance (3&4) must also include: a) the correct GitLab entity, b) the Quote No. found within the applicable Order Form, c) payment terms matching the Order Form, d) line item descriptions that match the Order Form (without signature block)
 
 1. Direct Deals without an executed Order Form that do not meet the standards listed above (Sections 2-4) will be rejected.
 
@@ -999,13 +1143,13 @@ For all Direct Deals (Sales Assisted Opportunities) the customer must sign the A
 
 An Authorized Reseller, Distributor, or MSP is an approved partner with an active contract with GitLab in place. For opportunities where an any of these partners will purchase and resell to an End User:
 
-1. Authorized Reseller or Distributor must issue a PO that references the GitLab Order Form Quote No. The Authorized Reseller Order Form template OR the Distributor Order Form template must be attached to the opportunity and DOES NOT require Signature from the reseller.  The template includes reference to the executed Agreement between the parties, and in the event there is no executed Agreement, then the Fulfillment Reseller Agreement (located here:https://about.gitlab.com/terms/#reseller) will govern.
+1. Authorized Reseller or Distributor must issue a PO that references the GitLab Order Form Quote No. The Authorized Reseller Order Form template OR the Distributor Order Form template must be attached to the opportunity and DOES NOT require Signature from the reseller.  The template includes reference to the executed Agreement between the parties, and in the event there is no executed Agreement, then the [Fulfillment Reseller Agreement](https://about.gitlab.com/terms/#reseller) will govern.
 1. GitLab will accept the Authorized Reseller or Distributor Order Form without signature, and the Reseller PO, PROVIDED THAT:
    - The Order Form includes the correct reference to the Master Partner Agreement or Authorized Reseller Agreement and other terms; and
    - The PO received is issued to the correct GitLab entity and references the applicable Order Form Quote No. which includes, Quote ID, products, # of users, term, and pricing of the subscription(s).
 1. Clickthrough EULA must be delivered and accepted by the End User. Please attach a Note to the Notes and Attachments section with a confirmation link or email.
 1. The correct quote template must be selected for the relevant route to market. Authorized Reseller, Authorized Distributor, and Managed Service Provider (MSP) templates.
-1. If the End User has previously accepted a EULA, then we can use it as the governing terms with respect to the End User for this purchase.  In such a case go to our [EULA Request Server](https://customers.gitlab.com/admin/eula_request) and find the ```Token``` and ```Accepted At``` from the customer's previous EULA. Then insert the following into the quote: *"By accepting this quote, you, and the entity that you represent (collectively, “Customer”) unconditionally agree to be bound by the terms agreed to in EULA ```Token``` previously accepted on ```Accepted At```."*
+1. If the End User has previously accepted a EULA, then we can use it as the governing terms with respect to the End User for this purchase.  In such a case go to our [EULA Request Server](https://customers.gitlab.com/admin/eula_request) and find the `Token` and `Accepted At` from the customer's previous EULA. Then insert the following into the quote: *"By accepting this quote, you, and the entity that you represent (collectively, "Customer") unconditionally agree to be bound by the terms agreed to in EULA `Token` previously accepted on `Accepted At`."*
 
 </details>
 
@@ -1020,9 +1164,11 @@ Quoting:
 1. Any additional discounts, non-standard payment terms, or other devitation from standard terms will require approval per the approval matrix. Such approvals must be obtained BEFORE applicable terms are relayed to the customer.
 1. Once Order Form PDF is generated, chatter @Sales-Support(Deal Desk) to create Private Offer.
    All Private offer requests must include the following details:
-    AWS Billing ID
-    Customer details- Contact name and email who can accept the private offer
-    AWS Margin
+
+   - AWS Billing ID
+   - Customer details- Contact name and email who can accept the private offer
+   - AWS Margin
+
 1. Order form need not be signed by the customer for AWS deals. By accepting the private offer customer agrees to GitLab's subscription terms.
 1. Note that Net ARR will reflect the net price on the opportunity, after the margin to AWS is taken into account upon booking. Compensation for AWS deals will be channel neutral specifically for the margin to AWS.
 1. Deal desk will send the private offer after it is created and opportunity owner along with ABDM will be notified.
@@ -1086,10 +1232,11 @@ IBM OEM Transactions have a unique process flow, from quoting to opportunity app
 **Opportunity Management (DRI = Sales):**
 
 1. Once informed by IBM of a potential deal, Sales should create an opportunity under the customer account in SFDC.
-  - **The opportunity name should include "(IBM OEM)."**
-  - Add "IBM (OEM)" to the DR - Partner field. Partner Track = Technology, DR - Partner Deal Type = Resale, DR - Partner Engagement = Partner Sourced.
 
-Example Opportunity: https://gitlab.my.salesforce.com/0064M00000ZFzVI
+   - **The opportunity name should include "(IBM OEM)."**
+   - Add "IBM (OEM)" to the DR - Partner field. Partner Track = Technology, DR - Partner Deal Type = Resale, DR - Partner Engagement = Partner Sourced.
+
+[Example Opportunity](https://gitlab.my.salesforce.com/0064M00000ZFzVI)
 
 **Notification, Quoting, and Requirements to Close Deal (DRI = Alliance Operations):**
 
@@ -1101,8 +1248,10 @@ Example Opportunity: https://gitlab.my.salesforce.com/0064M00000ZFzVI
 1. At the time of deal closure, Deal Desk will adjust the Start Date on the Quote and Opportunity to match the transaction date, as evidenced by the date of the IBM email notification.
 2. Note that the IBM (OEM) account is permanently set to silent, and no invoices created will go to IBM.
 3. License keys will NOT be sent automatically upon deal Closure. Instead, a Customer Support Issue must be opened to ensure the license for the deal is delivered to IBM Ecosystem Project Office immediately after deal closure.
-  - Closed Won notifications will be made in the ibm-oem-closed-won Slack channel.
-  - After receiving the Closed Won notification, Alliance Operations should open a [GitLab Support Request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) and use either the **GitLab Support Internal Requests for Global customers** or **GitLab Support Internal Requests for Federal customers** request option, then select the appropriate internal request type, either for SaaS or Self-Managed, to ensure license key delivery.
+
+   - Closed Won notifications will be made in the ibm-oem-closed-won Slack channel.
+   - After receiving the Closed Won notification, Alliance Operations should open a [GitLab Support Request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) and use either the **GitLab Support Internal Requests for Global customers** or **GitLab Support Internal Requests for Federal customers** request option, then select the appropriate internal request type, either for SaaS or Self-Managed, to ensure license key delivery.
+
 4. Billing will create the invoice in Zuora and apply cash once received.
 
 </details>
@@ -1113,11 +1262,12 @@ Example Opportunity: https://gitlab.my.salesforce.com/0064M00000ZFzVI
 Public Sector opportunities have specific requirements that fall outside of the standard opportunity booking process.
 
 A copy of the Distributor PO to GitLab must be attached to the opportunity. The Account Manager or ISR will confirm that all details on the PO match the Quote before submitting the Opportunity for approval.
+
 1. The Distributor PO should be signed.
 2. Period of Performance (POP) dates should align with the existing subscription (if applicable).
 3. The Distributor PO DOES NOT NEED TO REFERENCE THE GITLAB QUOTE NUMBER.
-5. The Distributor Sold To contact must match the contact used on the Quote Object of the opportunity. The Sold To Contact can be listed at the top of the PO **OR** in the Additional Information Section. ISRs will confirm the correct Sold To if necessary.
-7. Distributor's have pre approved Payment terms and do not require additional approval provided the PO does not deviate from standard contract terms.
+4. The Distributor Sold To contact must match the contact used on the Quote Object of the opportunity. The Sold To Contact can be listed at the top of the PO **OR** in the Additional Information Section. ISRs will confirm the correct Sold To if necessary.
+5. Distributor's have pre approved Payment terms and do not require additional approval provided the PO does not deviate from standard contract terms.
 
 After the ISR or Account manager confirms the Distributor PO is correct, a quote object will be created on the opportunity to match the Distributor PO to GitLab.
 
@@ -1135,22 +1285,21 @@ After the ISR or Account manager confirms the Distributor PO is correct, a quote
 Review the [Professional Services handbook page](/handbook/customer-success/professional-services-engineering/#professional-services-handbook) for in-depth information on Professional Services and the [Deal Desk handbook page for the details of PS quote creation](/handbook/sales/field-operations/sales-operations/deal-desk/#quoting-professional-services).
 
 1. If a Professional Services Opportunity only includes any of these off-the-shelf SKUs
-    - Note: Professional Services must be sold on standalone opportunity with the ***Opportunity Record Type*** set to ***Professional Services Only***. They must not be sold on the same opportunity as subscription products. The opportunity should be created by going to the Open or Closed Won license opportunity and clicking on the New PS Opportunity button. This will generate a related PS opp.
-    - A signed copy of the standard SOW is not required, but we can accept it if the customer insists (we love autographs!). The customer will only need to sign the Order Form.
-    - Ensure that you have reviewed the standard SOW with your customer **PRIOR** to booking the opportunity. Everything listed in the SOW is what will be provided, no more, no less, no customizations.
-
+   - Note: Professional Services must be sold on standalone opportunity with the ***Opportunity Record Type*** set to ***Professional Services Only***. They must not be sold on the same opportunity as subscription products. The opportunity should be created by going to the Open or Closed Won license opportunity and clicking on the New PS Opportunity button. This will generate a related PS opp.
+   - A signed copy of the standard SOW is not required, but we can accept it if the customer insists (we love autographs!). The customer will only need to sign the Order Form.
+   - Ensure that you have reviewed the standard SOW with your customer **PRIOR** to booking the opportunity. Everything listed in the SOW is what will be provided, no more, no less, no customizations.
 
 1. If a Professional Services Opportunity will include a custom Statement of Work (SOW) or Change Order (CO) with unique deliverables
-    - Note: Professional Services must be sold on standalone opportunity with the ***Opportunity Record Type*** set to ***Professional Services Only***. They must not be sold on the same opportunity as subscription products. The opportunity should be created by going to the Open or Closed Won license opportunity and clicking on the New PS Opportunity button. This will generate a related PS opp.
-    - A fully signed copy of the SOW or CO is **required**. Please review the process on obtaining signatures, as the SOW will also need to be counter-signed by an authorized signer at GitLab.
-    - Account owners are not approved signers! **ALL** signatures must go through Legal and/or Finance.
-    - A quote needs to be generated, but only for backend billing automation purpsoes. **Do not share quote with customer or reselling partner!**
-        - For Time and Material (T&M) services, the **GitLab Service Package** must be added with the T&M Value from the SOW match the value in the quote line item.
-        - For Fixed Price (FP) services in the SOW, there must be matching SKUs (usually training or certification) in the quote. Review prices to ensure they match between quote and SOW.
-        - If the SOW contains T&M and FP services, two quotes need to be created. T&M should use the **GitLab Service Package** SKU and match the T&M value in the SOW. The FP Quote should use the matching SKUs in the catalog.
-        - DISREGARD ANY DISCOUT APPROVAL REQUIREMENTS. ALL DISCOUNT REQUESTS FOR PROFESSIONAL SERVICES HAPPEN IN SFDC CHATTER.
-    - The order form generated **does not** require a customer signature. The customer will only sign CO/SOW.
-    - Cost of Goods Sold (COGS) spreadsheet must be attached to the opportunity to book. This outlines project costs and expected margins.
+   - Note: Professional Services must be sold on standalone opportunity with the ***Opportunity Record Type*** set to ***Professional Services Only***. They must not be sold on the same opportunity as subscription products. The opportunity should be created by going to the Open or Closed Won license opportunity and clicking on the New PS Opportunity button. This will generate a related PS opp.
+   - A fully signed copy of the SOW or CO is **required**. Please review the process on obtaining signatures, as the SOW will also need to be counter-signed by an authorized signer at GitLab.
+   - Account owners are not approved signers! **ALL** signatures must go through Legal and/or Finance.
+   - A quote needs to be generated, but only for backend billing automation purpsoes. **Do not share quote with customer or reselling partner!**
+     - For Time and Material (T&M) services, the **GitLab Service Package** must be added with the T&M Value from the SOW match the value in the quote line item.
+     - For Fixed Price (FP) services in the SOW, there must be matching SKUs (usually training or certification) in the quote. Review prices to ensure they match between quote and SOW.
+     - If the SOW contains T&M and FP services, two quotes need to be created. T&M should use the **GitLab Service Package** SKU and match the T&M value in the SOW. The FP Quote should use the matching SKUs in the catalog.
+     - DISREGARD ANY DISCOUT APPROVAL REQUIREMENTS. ALL DISCOUNT REQUESTS FOR PROFESSIONAL SERVICES HAPPEN IN SFDC CHATTER.
+   - The order form generated **does not** require a customer signature. The customer will only sign CO/SOW.
+   - Cost of Goods Sold (COGS) spreadsheet must be attached to the opportunity to book. This outlines project costs and expected margins.
 
 **Professional Services Opportunities Only** - If the SOW outlines a split payment schedle, **only one opp is needed to book the order**. We do not use multiple opps with PS opps requiring separate payments.
 
@@ -1179,7 +1328,7 @@ This policy dictates the timing of opportunity closure for all sales-assisted de
 
 - If a renewal is achieved *within 15 days after the Subscription Renewal Date* (Renewal Date), the opportunity will be Closed Won on the date of approval submission.
 - **Renewal opportunities must be Closed Lost if the renewal is not achieved within 15 days after the Subscription Renewal Date (Renewal Date).**
-     - See the [Late Renewal Notification & Auto Close Processes](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/#late-renewal-notification--auto-close-process) section of the handbook for details on how the system automatidally supports the 30 day late renewal policy.
+  - See the [Late Renewal Notification & Auto Close Processes](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/#late-renewal-notification--auto-close-process) section of the handbook for details on how the system automatidally supports the 30 day late renewal policy.
 - If a renewal is achieved *more than 15 days after the Renewal Date, but less than 180 days after the Renewal Date*:
   - The renewal should be recorded on a newly created renewal opportunity. The renewal should be quoted using a [New Subscription quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote). See: [Opportunity Requirements for Return Customers](/handbook/sales/field-operations/gtm-resources/#opportunity-requirements-for-return-customers)
   - The original Closed Lost opportunity will remain as is. A second Closed Lost opportunity will be created and closed with the inverse values of the original, to effectively cancel the original Closed Lost opportunity. This new Closed Lost opportunity will have the same close date as the new Closed Won renewal opportunity. See: [Opportunity Requirements for Return Customers](/handbook/sales/field-operations/gtm-resources/#opportunity-requirements-for-return-customers)
@@ -1187,6 +1336,7 @@ This policy dictates the timing of opportunity closure for all sales-assisted de
   - The transaction should be recorded as a New Business opportunity, using a [New Subscription quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote). The original Closed Lost opportunity will not be reversed.
 
 **Exceptions:**
+
 - Any exceptions to the **Late Renewal Policy** must be **documented in SFDC Chatter and include the following details**:
   - Relevant details about the account/opp seeking a late renewal extension / early booking
   - Why an exception is needed (justification)
@@ -1195,23 +1345,25 @@ This policy dictates the timing of opportunity closure for all sales-assisted de
   - Anticipated (revised) Renewal Close Date
 
 - Once all of the above have been documented in Chatter, please tag @sales-support on the associated opportunity so that [Sales Operations can take the appropriate actions](https://internal.gitlab.com/handbook/sales/sales-operations/#late-renewal-exception-process) to exclude the opportunity from auto closure.
-     - - See the [Late Renewal Notification & Auto Close Processes](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/#steps-to-request-an-exception) section of the handbook for details on how the system automatidally supports late renewal exceptions.
+
+- See the [Late Renewal Notification & Auto Close Processes](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/#steps-to-request-an-exception) section of the handbook for details on how the system automatidally supports late renewal exceptions.
 
 - Any exceptions to the **15-day booking policy** must be **documented in SFDC Chatter and include the following details**:
   - Relevant details about the account/opp seeking early booking
   - Why an exception is needed (justification)
   - Impact to the business (Net ARR or Renewal ARR loss)
-  - **Approval from both** CRO and CFO (or Principal Accounting Officer)
+  - **Approval from both** CRO and CFO (or Chief Accounting Officer, if CFO is not available)
   - Anticipated (revised) Renewal Close Date
   - Tag @Sales-Support and the Sr. Dir., Deal Desk for visibility
 
 - Note: Opportunities approved for invoicing outside of the 15-day booking policy will be booked and invoiced as approved, but the booking will then be moved so that the close date falls within the 15-day bookings policy. For clarity, quota credit and commission will align to the 15 day booking policy even if approvals are obtained to invoice the transaction earlier than 15 days prior to the Quote Start Date.
 
-
 **Do I have to wait to submit my opportunity for approval?**
+
 - All opportunities that meet the [Opportunity Booking Requirements](/handbook/sales/field-operations/order-processing/#opportunity-booking-requirements) listed above should be submitted for approval at the time that the requirements are met. In order to submit the opportunity for approval, the opportunity stage needs to be changed to 6 - Awaiting Signatures, then the Submit for Approval button should be clicked. After that, the opportunity stage changes automatically to 7 - Closing and it will be changed to Closed Won once both Order Management and Billing Ops Teams approved the opportunity.
 
 **My customer is waiting for their license key (self-managed) or provisioning email (SaaS). When will they receive their entitlements?**
+
 - See [How do I know if a License Key was sent to the Customer?](/handbook/sales/field-operations/order-processing/#how-do-i-know-if-a-license-key-was-sent-to-the-customer) below.
 
 #### End of Quarter Bookings
@@ -1231,6 +1383,7 @@ Customer procurement cycles can take time. A start date on a quote may be in the
 2. The opportunity must meet all booking requirements and is still subject to the Bookings Policy.
 
 **Add-On Opportunity**
+
 1. If the Start Date on an Add-On is < 2 weeks in the past, the order will be booked as is.
 2. Add on opportunities with a Start Date > 2 weeks in the past will require a chatter confirmation from the sales team confirming that the customer has had support/access to these users since the Start Date. Deal Desk will tag the opportunity owner directly to confirm the Start Date prior to booking.
 3. The opportunity must meet all booking requirements and is still subject to the Bookings Policy.
@@ -1243,7 +1396,6 @@ Customer procurement cycles can take time. A start date on a quote may be in the
 If customer has lost access for any reason / period of time after the end of the renewal grace period, the opportunity owner/ISR should create a new subscription quote object on the late renewal opportunity.
 3. The opportunity must meet all booking requirements and is still subject to the Bookings Policy.
 
-
 #### Locked Bookings
 
 All Closed Won and Closed Lost opportunities closed in a given month will become locked for editing on the fifth day of the next month. Any requested edits to opportunities closed in a locked accounting period will require review and action by the Manager and Sr. Manager, Sales Operations, Sr. Manager of Deal Desk or the Senior Director, Sales Operations.
@@ -1254,7 +1406,7 @@ Certain customers require that invoices submitted to them include a Purchase Ord
 
 If there is a PO document and customer wants GitLab to add the PO nr to the invoice, we cannot do that without reviewing the PO document (unless there is no PO document issued)
 
-Customer POs should be remitted to PO@gitlab.com (Direct Deals Only)
+Customer POs should be remitted to `PO @ gitlab.com` (Direct Deals Only)
 
 **How can I determine whether a customer requires POs?**
 
@@ -1306,13 +1458,12 @@ If "PO Required" = "YES" and the customer's PO will be provided to GitLab at a f
 
 Note: If an exception is granted and the PO is not received within 10 days, on the 11th day the opportunity will be decommissioned, reversing all credit given for the booking.
 
-
 ### Opportunity Approval Process
 
 When you have reviewed [all opportunity requirements](/handbook/sales/field-operations/order-processing/) and have met all necessary booking requirements, please submit the opportunity for approval.
 
-1. **To submit the opportunity for approval and closure, the Sales Rep should set the opportunity stage to 6-Awaiting Signature and afterwards click on the “Submit for Approval” button on the opportunity level.**
-    - The opportunity page will then display “edit” mode. Click Save.
+1. **To submit the opportunity for approval and closure, the Sales Rep should set the opportunity stage to 6-Awaiting Signature and afterwards click on the "Submit for Approval" button on the opportunity level.**
+    - The opportunity page will then display "edit" mode. Click Save.
 1. At this time, no further action is required from the Account Team. You will be notified by the Order Management team if further information is needed or if the opp is missing required information.
 
 **NOTE** - Orders will be processed as long as the Quote Start Date is within 15 calendar days from date of submission. If the Quote Start Date is more than 15 days out, Order Management will approve and update the close date to the earliest date that the opportunity can be booked. Only on or after that date will the Billing team review the opportunity for final booking. For more information, review the [Bookings Policy](/handbook/sales/field-operations/order-processing/#bookings-policy).
@@ -1336,16 +1487,16 @@ To view the status of an opportunity after it has been submitted for approval, *
 #### Common errors when submitting an opportunity for approval
 
 - Be sure to submit an opportunity for approval *on the opportunity* level, not the quote level.
-- Once submitted, the opportunity’s stage will update to “7- Closing,"" the opportunity record will become locked, and the Approval Status will read "In Progress." No further edits can be made to the opportunity by the field at this time.
-- Recalling Approval:  To unlock the opportunity to make changes, recall the approval submission by scrolling down to Approval History and clicking “Recall Approval Request.” Once you’ve made your changes, resubmit the opportunity for approval. You will receive a confirmation email once the opportunity has been submitted for approval.
+- Once submitted, the opportunity's stage will update to "7- Closing,"" the opportunity record will become locked, and the Approval Status will read "In Progress." No further edits can be made to the opportunity by the field at this time.
+- Recalling Approval:  To unlock the opportunity to make changes, recall the approval submission by scrolling down to Approval History and clicking "Recall Approval Request." Once you've made your changes, resubmit the opportunity for approval. You will receive a confirmation email once the opportunity has been submitted for approval.
 
 #### Deal Desk + Finance Approval Workflow
 
-- **Deal Desk Review** is initiated. It is unnecessary to chatter Sales Ops after you submit an opportunity. A Deal Desk Analyst will assign themselves to review the deal via the “Deal Desk Analyst” opportunity field.
-- **Deal Desk Approval:** If Deal Desk approves the opportunity based on the criteria above, the “Approval Status” field will update to “Deal Desk Approved.” The opportunity will remain in stage “7- Closing,” but will route to the Billing team for Finance approval.
-- **Deal Desk Rejection:** If Deal Desk rejects the opportunity based on the criteria above, the “Approval Status” field will update to “Rejected” and the opportunity will unlock. The opportunity will revert to stage “6- Awaiting Signature.” A rejection email will be sent to the Sales Rep with rejection comments and/or instructions. After taking the appropriate action(s) outlined in the rejection comments, the Sales Rep should re-submit the opportunity for approval.
-- **Finance Approval**: Once Deal Desk has reviewed and approved the transaction, Finance will review. If the opportunity is approved by Finance, the stage will update to “Closed Won” and the deal is officially booked. An approval email will be sent to the opportunity owner and Slack message will appear in the “wins” channel and the "wins-key-deals" channel where applicable.
-- **Finance Rejection:** Once Deal Desk has reviewed and approved the transaction, Finance may reject the opportunity. If Finance rejects the opportunity, the stage will remain in “7- Closing” and both the Sales Rep and Deal Desk Analyst will receive an alert email containing the rejection reason. The Sales Rep should work with the Deal Desk Analyst to rectify the issues that led to Finance rejection. Once the issues are resolved, the Deal Desk Analyst will approve the deal once more to submit it to Finance for final approval.
+- **Deal Desk Review** is initiated. It is unnecessary to chatter Sales Ops after you submit an opportunity. A Deal Desk Analyst will assign themselves to review the deal via the "Deal Desk Analyst" opportunity field.
+- **Deal Desk Approval:** If Deal Desk approves the opportunity based on the criteria above, the "Approval Status" field will update to "Deal Desk Approved." The opportunity will remain in stage "7- Closing," but will route to the Billing team for Finance approval.
+- **Deal Desk Rejection:** If Deal Desk rejects the opportunity based on the criteria above, the "Approval Status" field will update to "Rejected" and the opportunity will unlock. The opportunity will revert to stage "6- Awaiting Signature." A rejection email will be sent to the Sales Rep with rejection comments and/or instructions. After taking the appropriate action(s) outlined in the rejection comments, the Sales Rep should re-submit the opportunity for approval.
+- **Finance Approval**: Once Deal Desk has reviewed and approved the transaction, Finance will review. If the opportunity is approved by Finance, the stage will update to "Closed Won" and the deal is officially booked. An approval email will be sent to the opportunity owner and Slack message will appear in the "wins" channel and the "wins-key-deals" channel where applicable.
+- **Finance Rejection:** Once Deal Desk has reviewed and approved the transaction, Finance may reject the opportunity. If Finance rejects the opportunity, the stage will remain in "7- Closing" and both the Sales Rep and Deal Desk Analyst will receive an alert email containing the rejection reason. The Sales Rep should work with the Deal Desk Analyst to rectify the issues that led to Finance rejection. Once the issues are resolved, the Deal Desk Analyst will approve the deal once more to submit it to Finance for final approval.
 
 ### **Post Sale Information**
 
@@ -1358,6 +1509,7 @@ The opportunity closed! Congrats! Wait... my customer still has questions! Here 
 Licenses (Self-Managed) and Provisioning Details (SaaS) are automatically emailed to the Sold To contact entered on the quote.
 
 Notes on License Timing:
+
 - Self-Managed:
   - For self-managed deals, the license is sent to the customer immediately upon opportunity closure, but the system will not activate until the Quote Start Date.
 - SaaS:
@@ -1419,7 +1571,6 @@ Customer will receive a Renewal notification email for every subscription that t
 
 This is a current system limitation. Renewal emails are sent by Zuora - they are very generic and are not customizable based on subscription state, products purchased or customer account settings. Ideally we would not send a renewal email for a subscription with non-renewable products. The work to improve these emails is being explored in [this Epic](https://gitlab.com/groups/gitlab-org/-/epics/9303).
 
-
 ### Post-Booking Issues
 
 The deal has closed, but the customer has questions, or worse, *problems*. You don't know who to go to, your palms are sweating. Reading this probably isn't helping.
@@ -1448,6 +1599,6 @@ Please check out the support page[/handbook/support/#gitlab-support-service-leve
 
 The support team cannot assist you with:
 
-    * Salesforce updates/Account/Opportunity Management
-    * Quoting - Whether it's a new quote or fixing a true up error, they cannot build quotes
-    * Questions regarding the LicenseApp
+- Salesforce updates/Account/Opportunity Management
+- Quoting - Whether it's a new quote or fixing a true up error, they cannot build quotes
+- Questions regarding the LicenseApp

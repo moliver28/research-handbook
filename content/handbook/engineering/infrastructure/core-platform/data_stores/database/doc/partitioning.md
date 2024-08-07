@@ -3,11 +3,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database
 title: Database Partitioning
 ---
 
-
-
-
-
-
 ## Introducing PostgreSQL table partitioning to GitLab's database
 
 This is a working document to discuss how we are going to introduce table partitioning to GitLab.
@@ -55,17 +50,17 @@ Under the hoods, we rely on trigram indexes for text search. Simplified, there a
 
 Which of these approaches is more efficient depends on data distribution and each of the approaches becomes slow the more data we have.
 
-##### Problem 1: Large trigram index
+#### Problem 1: Large trigram index
 
 In approach 1 we use the global trigram index first. Finding relevant records with "foobar" already takes 2.8s today, even though the query is very low selectivity (it yields <2,000 records) and rather well suited for the trigram index.
 
 The trigram index is global: There is only one GIN index available (per column). This index structure is already 19 GB in size as of today (for `issues.description`).
 
-##### Problem 2: Many issues per group
+#### Problem 2: Many issues per group
 
 In approach 2, we first find all issues in the group we have access to. This uses btree indexes as usual but overall this yields 135k issues. Now we can't use the trigram index anymore to perform the text search but instead have to read all text data into memory and perform a sequential online search. The more issues a group has (and the larger the text size), the longer this approach takes.
 
-##### Table partitioning to the rescue
+#### Table partitioning to the rescue
 
 In this example, table partitioning breaks down the `issues` table into manageable chunks aka partitions: Let's break the table down into 128 partitions using hash partitioning on the top-level namespace. Each partition contains issue records for roughly 1/128 of the total issues. Each top-level namespace, in our example that's `gitlab-org`, has their issue data in exactly one partition.
 
@@ -92,7 +87,7 @@ Moreover, a project is always part of the namespace hierarchy and as such there 
 
 As such, we can consider a project or a namespace as a partitioning key. While most of GitLab's features happen inside a project, there are types of searches that are scoped on a namespace. In our example above, the top-level namespace is the search scope. Hence, the top-level namespace is likely a good partitioning key in general.
 
-##### Partitioning by top-level namespace
+#### Partitioning by top-level namespace
 
 In order to partition a table by their top-level namespace, the table has to contain a reference to the top-level namespace (a `top_level_namespace_id` column). None of the existing tables have this for a good reason: The schema is normalized and the top-level namespace can be figured out through the hierarchy in `namespaces`.
 
@@ -100,7 +95,7 @@ Adding the top-level namespace reference to a table, e.g. `issues` is a form of 
 
 The downside of denormalization is that there may be situations where a mass-update is necessary. In our case, this happens when we move a project to a different top-level namespace. In this case, all the records with a reference to the top-level namespace for the project have to be updated. Without denormalization, we would just update a single reference.
 
-##### Hash partitioning strategy
+#### Hash partitioning strategy
 
 We analyzed how issues distribute across partitions using a hash-based partitioning strategy (by top-level namespace). This is how the number of issues distributes across a set of 128 partitions (find more graphs for [64](https://gitlab.com/abrandl/gitlab-issue-partitioning/-/blob/master/issues_with_64_partitions.png), [256](https://gitlab.com/abrandl/gitlab-issue-partitioning/-/blob/master/issues_with_256_partitions.png) and [512](https://gitlab.com/abrandl/gitlab-issue-partitioning/-/blob/master/issues_with_512_partitions.png) partitions). The red line indicates the desired optimal distribution (1/128 per partition).
 
@@ -110,7 +105,7 @@ We analyzed how issues distribute across partitions using a hash-based partition
 
 This section discusses several topics we already identified that have to be tackled along the way.
 
-##### Support for advanced PostgreSQL features
+#### Support for advanced PostgreSQL features
 
 The way we track the database schema needs to support advanced PostgreSQL features in order to implement partitioning. The currently used `schema.rb` does not support syntax for partitions, triggers and other advanced features we're likely going to need.
 
@@ -118,7 +113,7 @@ This means we're going to replace `schema.rb` with `structure.sql` and transitio
 
 Issue: [Use structure.sql instead of schema.rb](https://gitlab.com/gitlab-org/gitlab/issues/29465)
 
-##### Handling foreign keys to partitioned tables
+#### Handling foreign keys to partitioned tables
 
 PostgreSQL 11 does not support foreign keys referencing partitioned tables. We need to find ways to remove foreign keys from a table and still retain what we use foreign keys for:
 
@@ -134,17 +129,17 @@ Issues:
 * [Referential integrity without foreign keys](https://gitlab.com/gitlab-org/gitlab/issues/201873)
 * [Cascading deletes without foreign keys](https://gitlab.com/gitlab-org/gitlab/issues/201872)
 
-##### Strategy to migrate an existing table into a partitioned table
+#### Strategy to migrate an existing table into a partitioned table
 
 In order to migrate an existing, large table into a partitioned table we have to have an online migration strategy available. It has to migrate a lot of data and copy it over into a partitioned table hierarchy. This strategy has to be transparent to the application, i.e. we can't have a downtime from this. It should happen in the background with minimal impact on the production system.
 
 Issue: [Migration strategy for existing tables](https://gitlab.com/gitlab-org/gitlab/issues/202618)
 
-##### Enhancing the schema to contain the partitioning key
+#### Enhancing the schema to contain the partitioning key
 
 Depending on the choice of partitioning key, we have to enhance the schema of relevant tables to contain the partitioning key. In our example above, we would add the reference to the top-level namespace to the `issues` table. As a consequence, we'll have to implement a background job to update this reference whenever a project is being transferred to another top-level namespace (which is deemed to be a rare event but it potentially affects a lot of records at once).
 
-##### Enforcing the use of partitioning keys
+#### Enforcing the use of partitioning keys
 
 In order to benefit from table partitioning, queries must be formed in a way that they always include the partitioning key. Oftentimes this is an artificial construct which doesn't change the semantics of the query. For example, a filter by `project_id` may semantically be enough and the additional filter on the partitioning key is redundant to that. However, it's important to include the partitioning key so that the query planner can exclude irrelevant partitions.
 
@@ -159,7 +154,7 @@ Results:
 3. For mass-updates of the partitioning key, we might need to implement a background job (see above)
 4. We may want to add a check to make sure we're always adding the partitioning key to queries. Here is an [example](https://gitlab.com/gitlab-org/gitlab/-/commit/653752e94b905d2f6067bd5b5bc18f13c5550a46#072db6104653f6979bd52697fb25e48434b591d1_0_3) with parsing SQL (it may be possible to hook this into ActiveRecord at a higher level, too).
 
-##### Type of partitioning and schema handling for partitions
+#### Type of partitioning and schema handling for partitions
 
 There are different types of table partitioning available in PostgreSQL:
 

@@ -8,8 +8,8 @@ twitter_image: '/images/opengraph/remote-report-2021.png'
 <div class="row mb-5 align-items-center">
     <div class="col">
         <p class="lead">2020 was an unprecedented year with many people working from home. Companies are currently evaluating whether they should re-open their offices, require employees to be in a physical office, have a flexible policy that enables employees to work remotely as often as they like, or pursue a 100% remote work policy.</p>
-        <p class="lead">GitLab’s Remote Work Report captures this seminal moment in history. In the very moment where it became clear that the intersection of work and life would be forever changed through mass proliferation of remote work, these are the trends that defined the turn. 3,900 remote professionals on six continents were surveyed for one of the most comprehensive reports ever created on remote work.</p>
-        <p class="lead">Find out more <a href="{{< ref "all-remote" >}}">about remote work</a> or <a href="https://about.gitlab.com/resources/downloads/remote-work-report-2021.pdf" class="btn btn-primary">Download the Full Report</a>
+        <p class="lead">GitLab's Remote Work Report captures this seminal moment in history. In the very moment where it became clear that the intersection of work and life would be forever changed through mass proliferation of remote work, these are the trends that defined the turn. 3,900 remote professionals on six continents were surveyed for one of the most comprehensive reports ever created on remote work.</p>
+        <p class="lead">Find out more <a href="/handbook/company/culture/all-remote/">about remote work</a> or <a href="https://about.gitlab.com/resources/downloads/remote-work-report-2021.pdf" class="btn btn-primary">Download the Full Report</a>
     </div>
     <div class="col text-center">
         <img src="https://about.gitlab.com/images/remote-work-report/remote-work-report-2021-cover.png" alt="" class="shadow cover-image" style="border: 1px solid rgba(0, 0, 0, 0.08); box-sizing: border-box; border-radius: 4px; padding-left: 0px; box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.08); max-width: 70%;">
@@ -32,7 +32,7 @@ twitter_image: '/images/opengraph/remote-report-2021.png'
 <div class="row  my-5">
     <div class="col">
         <h3 class="h2 my-4">Transparency creates belonging</h3>
-        <p class="lead"><strong>34%</strong> of respondents noted that more transparency from leadership leads to a deeper feeling of connectedness at work, while <strong>38%</strong> noted that more visibility into the work within the organization improved their sense of connection. Creating a sense of belonging within an organization is top of mind for many leaders. There’s an interesting parallel between transparency and belonging. Put simply, it’s easier to feel like part of a team when you can easily see what others are working toward.</p>
+        <p class="lead"><strong>34%</strong> of respondents noted that more transparency from leadership leads to a deeper feeling of connectedness at work, while <strong>38%</strong> noted that more visibility into the work within the organization improved their sense of connection. Creating a sense of belonging within an organization is top of mind for many leaders. There's an interesting parallel between transparency and belonging. Put simply, it's easier to feel like part of a team when you can easily see what others are working toward.</p>
     </div>
     <div class="col">
         <h3 class="h2 my-4">Remote eyes the mainstream</h3>
@@ -48,7 +48,7 @@ twitter_image: '/images/opengraph/remote-report-2021.png'
 </div>
 <div class="row my-5">
     <div class="col">
-        <h3 class="h2 my-4">There’s no putting the genie back in the bottle</h3>
+        <h3 class="h2 my-4">There's no putting the genie back in the bottle</h3>
         <p class="lead"><strong>82%</strong> agreed that remote work is the future of work, with nearly as many (<strong>80%</strong>) saying that they would recommend working remotely to a friend. This is particularly staggering given that crisis-induced work-from-home severely limits the benefits of remote work, and yet, the increased autonomy and loss of commute are powerful agents.</p>
     </div>
     <div class="col">
@@ -76,11 +76,11 @@ twitter_image: '/images/opengraph/remote-report-2021.png'
 <div class="row my-5">
     <div class="col">
         <h3 class="h2 my-4">Next stop: burnout</h3>
-        <p class="lead"><strong>42%</strong> of those surveyed admit that they struggle with maintaining boundaries while working away from the office. Leaders should proactively address this worrying trend by normalizing time away to recharge and prioritizing personal wellbeing in a visible way.</p>
+        <p class="lead"><strong>42%</strong> of those surveyed admit that they struggle with maintaining boundaries while working away from the office. Leaders should proactively address this worrying trend by normalizing time away to recharge and prioritizing personal well-being in a visible way.</p>
     </div>
     <div class="col">
         <h3 class="h2 my-4">Coffee breaks go virtual</h3>
-        <p class="lead">With travel restrictions in place, <strong>33%</strong> of remote workers saw their organizations lean on virtual coffee or tea breaks to foster a sense of community. Pair that with <strong>27%</strong> who cited virtual happy hours, and you’ve got a lot of video-based team building going on.</p>
+        <p class="lead">With travel restrictions in place, <strong>33%</strong> of remote workers saw their organizations lean on virtual coffee or tea breaks to foster a sense of community. Pair that with <strong>27%</strong> who cited virtual happy hours, and you've got a lot of video-based team building going on.</p>
     </div>
 </div>
 <div class="row my-5">
@@ -96,7 +96,7 @@ twitter_image: '/images/opengraph/remote-report-2021.png'
 <div class="row my-5">
     <div class="col">
         <h3 class="h2 my-4">Project background</h3>
-        <p class="lead">This is the second annual Remote Work Report. GitLab’s pre-pandemic, March 2020 report sought to look forward to the future of remote work; we now know that the future of work is distributed. We are no longer asking “if” remote can scale — now, we are seeking to understand how, what the challenges are, and what’s next. This survey set out to ask new questions that will form the basis of global discussions in 2021 and beyond.</p>
+        <p class="lead">This is the second annual Remote Work Report. GitLab's pre-pandemic, March 2020 report sought to look forward to the future of remote work; we now know that the future of work is distributed. We are no longer asking "if" remote can scale — now, we are seeking to understand how, what the challenges are, and what's next. This survey set out to ask new questions that will form the basis of global discussions in 2021 and beyond.</p>
         <p class="lead">Fielding: February 12 - March 10, 2021</p>
         <p  class="lead">Sample: N=3,900</p>
         <ul class="lead">
@@ -117,7 +117,7 @@ twitter_image: '/images/opengraph/remote-report-2021.png'
     <div class="row">
         <div class="col rounded-4 mx-2 text-center p-4" style="background-color: #ffffff;">
             <a href="https://www.dropbox.com/"><img class="my-3" src="https://about.gitlab.com/images/remote-work-report/Dropbox-logo.png" alt="Dropbox" style="max-height: 120px;"></a>
-            <p class="lead" style="text-align: left;">Dropbox is redesigning the way the world works. Back in 2007, making work better for people meant designing a simpler way to keep files in sync. Today, it means designing products that reduce busywork so you can focus on the work that matters. Read how we’re designing for the workplace of tomorrow in our <a href="https://blog.dropbox.com/collections/virtual-first-toolkit">Virtual First Toolkit</a>.</p>
+            <p class="lead" style="text-align: left;">Dropbox is redesigning the way the world works. Back in 2007, making work better for people meant designing a simpler way to keep files in sync. Today, it means designing products that reduce busywork so you can focus on the work that matters. Read how we're designing for the workplace of tomorrow in our <a href="https://blog.dropbox.com/collections/virtual-first-toolkit">Virtual First Toolkit</a>.</p>
         </div>
         <div class="col rounded-4 mx-2 text-center p-4" style="background-color: #ffffff;">
             <a href="https://safetywing.com/"><img class="my-3" src="https://about.gitlab.com/images/remote-work-report/SafetyWing-logo.png" alt="Safety Wing" style="max-height: 120px;"></a>
@@ -125,7 +125,7 @@ twitter_image: '/images/opengraph/remote-report-2021.png'
         </div>
         <div class="col rounded-4 mx-2 text-center p-4" style="background-color: #ffffff;">
             <a href="https://qatalog.com/"><img class="my-3" src="https://about.gitlab.com/images/remote-work-report/Qatalog-logo.svg" alt="Qatalog" style="max-height: 120px;"></a>
-            <p class="lead" style="text-align: left;">A great restructuring is rapidly unfolding in our working lives. The ground beneath us is shifting to a new form of collaboration, where we work wherever and whenever we like. We should have a new way of working that we couldn’t have anticipated, or even imagined, just a few years ago. In pursuit of our mission to connect the world of work and unlock human potential, we’ll remove millions of tiny friction points to make room for craftsmanship and creativity.</p>
+            <p class="lead" style="text-align: left;">A great restructuring is rapidly unfolding in our working lives. The ground beneath us is shifting to a new form of collaboration, where we work wherever and whenever we like. We should have a new way of working that we couldn't have anticipated, or even imagined, just a few years ago. In pursuit of our mission to connect the world of work and unlock human potential, we'll remove millions of tiny friction points to make room for craftsmanship and creativity.</p>
         </div>
     </div>
 </div>
@@ -133,7 +133,7 @@ twitter_image: '/images/opengraph/remote-report-2021.png'
     <div class="row text-center">
         <p class="h3 my-4">Thanks for reading</p>
         <p class="my-2"><a href="https://about.gitlab.com/resources/downloads/remote-work-report-2021.pdf" class="btn btn-lg btn-primary">Download the Full Report</a></p>
-        <p class="h4 my-4">Or <a href="{{< ref "all-remote" >}}">learn more about remote work</a> best practices</p>
+        <p class="h4 my-4">Or <a href="/handbook/company/culture/all-remote/">learn more about remote work</a> best practices</p>
     </div>
 </div>
 {{% include "includes/take-gitlab-for-a-spin.md" %}}

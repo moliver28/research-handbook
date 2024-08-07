@@ -1,16 +1,10 @@
 ---
-
 title: "GitLab.tv Events Channel Playbook"
 description: GitLab.tv Events Channel Playbook
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
-
 
 ## Introduction
 
@@ -52,17 +46,20 @@ Supplementary video assets, such as logos, bumpers, photos, graphics, animations
 ### Go Live
 
 Start with the [Go Live decision tree](/handbook/marketing/virtual-events/#decision-tree) to determine what sort of video, i.e. lightweight virtual event or webcast, you can contribute to the Events channel.
+
 - The event must have some level of marketing support as outlined in the decision tree above to qualify for on the Events channel posting.
 - Going Live does not mean your video will get automatic marketing support and visibility on the channel.
 
 Uploading criteria:
 
-- **Title:** The title of your video should describe exactly what you are showing in the video. For example, “GitLab Commit 2020 Product Roadmap”
+- **Title:** The title of your video should describe exactly what you are showing in the video. For example, "GitLab Commit 2020 Product Roadmap"
 - **Description:** Repeat the title of the video followed by 3-5 sentences explaining what the viewer is going to experience or learn from the video. If the video is longer than 10 minutes, please include timestamps. If the video is referencing a previously approved sharable contribution, please link to the merge request.
 - **Call to action (CTA):** Event videos should include a link to an event and/or campaign associated with the video that is being posted.
 - **UTM codes:** Please be sure to add a UTM code to your CTA in the video description when uploading your videos to YouTube. This **required** action is needed to track your video's performance. For event-related videos, the UTM code should follow this sequence: `?&utm_medium=social&utm_source=youtube&utm_campaign=events&utm_content={{video}}`
+
 1. Right before the question mark at the start of the UTM code, please put the URL to the campaign/landing page to which your CTA is driving, i,e. if this is a video for Commit, the URL added before the question mark should take you to the Commit landing page. For example: `https://about.gitlab.com/events/commit/?&utm_medium=social&utm_source=youtube&utm_campaign=events&utm_content={{video}}`
 2. Please use a URL shortener, like [bit.ly](https://bitly.com/), once you add the campaign URL to the top of the UTM code sequence in order to avoid posting a clunky web address for your CTA.
+
 - **Meta Tags:** Tag your video with the appropriate meta tags, including the keyword of the video. Other tags you might include on a how-to video are: open source, beginner, coding, DevOps, GitLab, events, (whatever event name it is, i.e. Commit, Contribute, etc. both the singular name as well as GitLab Contribute GitLab Commit, etc).
 
 PLEASE NOTE: **We cannot post videos or presentations that we do not have written consent to share. This applies to content from other companies and individuals as well as presentations done by GitLab.** Please contact events@gitlab.com to confirm permissions.
@@ -80,7 +77,7 @@ These are the possible ways you can have your event video promoted through inter
 1. Submit to GitLab social team for consideration (DRI must create issue to enable this step)
 1. Submit to GitLab editorial team for consideration on the blog and/or bi-weekly newsletter (DRI must create issue to enable this step)
 1. Third-party content platforms (e.g. like ITPro.tv, industry blogs, etc.)
-1. Highlighted on GitLab’s weekly “This Week at GitLab” video series (Based on viewership numbers, topic and speaker)
+1. Highlighted on GitLab's weekly "This Week at GitLab" video series (Based on viewership numbers, topic and speaker)
 
 ---
 

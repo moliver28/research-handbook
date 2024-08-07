@@ -1,5 +1,4 @@
 ---
-
 title: "Professional Services Instructional Design and Development"
 description: "Discover how the GitLab Instructional Design and Development team works together."
 ---
@@ -32,7 +31,6 @@ Here are the main labels used for PS instructional development projects.
 - `PS_Content::In Development` - The content item is in the process of being developed by the assigned Instructional Designer.
 - `PS_Content::In Review` - The content item is currently in the review process with our SMEs and stakeholders.
 - `PS_Content::Completed` - The content item has been completed and are published in the handbook/GitLab Learn.
-
 
 ### Have an Idea for a New Training?
 

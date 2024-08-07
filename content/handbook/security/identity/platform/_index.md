@@ -10,20 +10,20 @@ You are viewing a preview of documentation for the future state of GitLab Identi
 ## Identity Platform Architecture
 
 - CI/CD Pipeline
-    - [Manifests Stage](/handbook/security/identity/platform/manifests)
-    - [Auditlog Stage](/handbook/security/identity/platform/auditlog)
-    - Provisioning Stage
-        - [Okta Provisioning](/handbook/security/identity/platform/provisioning/okta)
-        - [Google Groups Provisioning](/handbook/security/identity/platform/provisioning/google)
-        - [GitLab Groups Provisioning](/handbook/security/identity/platform/provisioning/gitlab)
-        - [GitLab Projects Provisioning](/handbook/security/identity/platform/provisioning/gitlab)
+  - [Manifests Stage](/handbook/security/identity/platform/manifests)
+  - [Auditlog Stage](/handbook/security/identity/platform/auditlog)
+  - Provisioning Stage
+    - [Okta Provisioning](/handbook/security/identity/platform/provisioning/okta)
+    - [Google Groups Provisioning](/handbook/security/identity/platform/provisioning/google)
+    - [GitLab Groups Provisioning](/handbook/security/identity/platform/provisioning/gitlab)
+    - [GitLab Projects Provisioning](/handbook/security/identity/platform/provisioning/gitlab)
 - [Access Requests](/handbook/security/identity/access-requests)
 - [Approvals](/handbook/security/identity/approvals)
 - [Access Check (accesschk) Audit](/handbook/security/identity/platform/accesschk)
 - [Terraform GitOps Configuration-as-Code](/handbook/security/identity/gitops)
-    - [AWS Configuration](/handbook/security/identity/gitops/aws)
-    - [GCP Configuration](/handbook/security/identity/gitops/gcp)
-    - [Okta Configuration](/handbook/security/identity/gitops/okta)
+  - [AWS Configuration](/handbook/security/identity/gitops/aws)
+  - [GCP Configuration](/handbook/security/identity/gitops/gcp)
+  - [Okta Configuration](/handbook/security/identity/gitops/okta)
 
 ## User Guides
 
@@ -65,7 +65,7 @@ Our Identity Platform open source projects can be explored at [https://gitlab.co
 
 > Okta User Attribute: `rbac_type`
 
-We have different categories of users (ex. employees, contractors, service accounts, system administrators) that need birthright access to various systems. We use our [access level wristbands](/handbook/it/policies/access-level-wristbands/) color coding to specify each Okta user's type as `blue`, `purple`, `gray`, `brown`, or `black`.
+We have different categories of users (ex. employees, contractors, service accounts, system administrators) that need birthright access to various systems. We use our [access level wristbands](https://internal.gitlab.com/handbook/it/it-self-service/access-level-wristband-colors/) color coding to specify each Okta user's type as `blue`, `purple`, `gray`, `brown`, or `black`.
 
 ### Identity Roles
 
@@ -73,7 +73,7 @@ We have different categories of users (ex. employees, contractors, service accou
 
 An **Identity Role** is a standardized snake case format for the functional team that the user is on or job title, as it relates to access control and permissions.
 
-This is a next generation iteration of a GitLab Identity v2 [job family](https://handbook.gitlab.com/job-families/) and [role-based baseline entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/).
+This is a next generation iteration of a GitLab Identity v2 [job family](/job-families/) and [role-based baseline entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/).
 
 Each role uses a syntax of `{department_slug}_{functional_team_slug}_{specific_role_if_applicable}`. For example, if your department is `Infrastructure`, the RBAC slug is `infra`.
 

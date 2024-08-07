@@ -1,5 +1,5 @@
 ---
-title: "GitLab Project Management - Hands-On Lab: Organize and Manage Issues"
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Organize and Manage Issues"
 description: "This Hands-On Guide walks you through creating metadata for issues, as well as creating a description template in GitLab."
 ---
 
@@ -45,7 +45,7 @@ You can learn more about issues and metadata in the [documentation](https://docs
 
 1. Apply the label **Status::WIP**. Note this replaces the previous **Status::Open** label, since an issue can't simultaneously have multiple labels with the same scope (the "Status::" part of the label).
 
-    > For more information about scoped labels, see the [documentation](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels).
+   > For more information about scoped labels, see the [documentation](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels).
 
 1. In the issue's metadata pane, click **Edit** next to the **Weight** field.
 
@@ -63,9 +63,9 @@ You can learn more about issues and metadata in the [documentation](https://docs
 
 1. To promote this issue to an epic, use the `/promote` quick action in the issue's comment field, then click **Comment**.
 
-    > A **quick action** is a text-based shortcut for common actions that are usually done by selecting buttons or dropdowns in the GitLab user interface. You can enter these commands in the descriptions or comments of issues, epics, merge requests, and commits. For more information about quick actions, click [here](https://docs.gitlab.com/ee/user/project/quick_actions.html).
-
-    > You can also promote an issue to an epic by clicking the **vertical ellipsis** next to the **Edit button**, then clicking **Promote to epic** in the resulting menu.
+   > A **quick action** is a text-based shortcut for common actions that are usually done by selecting buttons or dropdowns in the GitLab user interface. You can enter these commands in the descriptions or comments of issues, epics, merge requests, and commits. For more information about quick actions, click [here](https://docs.gitlab.com/ee/user/project/quick_actions.html).
+   >
+   > You can also promote an issue to an epic by clicking the **vertical ellipsis** next to the **Edit button**, then clicking **Promote to epic** in the resulting menu.
 
 1. After applying the quick action, **Backend services** is now an epic at the **Core** group level. Note that there is no comment that says '/promote', as quick actions do not leave a comment. Using the breadcrumbs at the top of the page, click your **Core** subgroup.
 
@@ -135,29 +135,30 @@ You can learn more about issues and metadata in the [documentation](https://docs
 
 1. For the file's content, paste the following:
 
-    ```markdown
-    ## Instructions
-    Use this issue to capture research that must take place before continued development of a feature.
+   ```markdown
+   ## Instructions
+   Use this issue to capture research that must take place before continued development of a feature.
 
-    ### Summary
-    <!--In 2 sentences or fewer, describe the problem to be solved or the question to be answered.  -->
+   ### Summary
+   <!--In 2 sentences or fewer, describe the problem to be solved or the question to be answered.  -->
 
-    ### Impact Statement
-    <!-- Describe importance of solving the problem. How will it affect the feature or product direction?  -->
+   ### Impact Statement
+   <!-- Describe importance of solving the problem. How will it affect the feature or product direction?  -->
 
-    ### Tasks
-    - [ ] Assign participants and DRI
-    - [ ] Apply appropriate priority and team labels
-    - [ ] Assign to an upcoming product sprint
+   ### Tasks
 
-    /label ~"Status::Open"
-    ```
+   - [ ] Assign participants and DRI
+   - [ ] Apply appropriate priority and team labels
+   - [ ] Assign to an upcoming product sprint
 
-    > Notice that the template is using a quick action to assign a label. Whenever this template is used, a label will automatically be assigned when it is created.
+   /label ~"Status::Open"
+   ```
+
+   > Notice that the template is using a quick action to assign a label. Whenever this template is used, a label will automatically be assigned when it is created.
 
 1. Click **Commit changes**.
 
-    > **Security Warning**: Making direct commits on the main branch without a merge request is not recommended for enterprise level projects.
+   > **Security Warning**: Making direct commits on the main branch without a merge request is not recommended for enterprise level projects.
 
 1. Using the breadcrumbs at the top of the page, navigate back to your **Awesome Inc** group.
 

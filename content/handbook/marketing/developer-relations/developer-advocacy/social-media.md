@@ -1,15 +1,8 @@
 ---
-
 title: "Developer Advocacy on Social Media"
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/social-media/index.html
 ---
-
-
-
-
-
-
 
 ## Introduction
 
@@ -33,7 +26,7 @@ LinkedIn and Twitter are the target platforms. Both platforms have different tar
 
 > Wil Spillane in Slack:
 >
-> Tweets are more fleeting. I think a lot of folks choose to view tweets in reverse chronological order. For LinkedIn, the default is “top” posts and it’s not very visible to many to switch to “recent”. Also, LinkedIn shows posts with recent activity in the recent feed, not just the plain reverse chronological order that Twitter does. So in some ways, LinkedIn posts linger across feeds longer than a tweet.
+> Tweets are more fleeting. I think a lot of folks choose to view tweets in reverse chronological order. For LinkedIn, the default is "top" posts and it's not very visible to many to switch to "recent". Also, LinkedIn shows posts with recent activity in the recent feed, not just the plain reverse chronological order that Twitter does. So in some ways, LinkedIn posts linger across feeds longer than a tweet.
 
 Experimental platforms:
 
@@ -127,15 +120,15 @@ When attending events, networking and connecting to new folks often is a thing. 
 1. Open the LinkedIn mobile app on iOS or Android.
 2. Tap into the search bar.
 
-![LinkedIn iOS app: Search bar](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_01_search_bar.png)
+   ![LinkedIn iOS app: Search bar](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_01_search_bar.png)
 
 3. This action brings up the QR code icon on the right side of the search bar.
 
-![LinkedIn iOS app: Search bar, QR Icon](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_02_search_bar_qr_icon.png)
+   ![LinkedIn iOS app: Search bar, QR Icon](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_02_search_bar_qr_icon.png)
 
 4. Tap on the QR code icon to bring up the QR code to share.
 
-![LinkedIn iOS app: QR Code view](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_03_qr_code_view.png)
+   ![LinkedIn iOS app: QR Code view](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_03_qr_code_view.png)
 
 5. The QR Code view also has a tab to scan other QR codes. If you don't want to grant access to the camera to the LinkedIn app, you can also scan the QR code using your mobile camera and open the LinkedIn app from the scanned profile URL.
 
@@ -263,7 +256,7 @@ This strategy can help amplify impressions and build out thought leadership.
 - Adopt new ideas with live streaming or community coffee chats.
   - Engage community members in discussions.
 
-Example: Chromium build times discussion led to [Self-Managed GitLab with auto-scaling runners](https://twitter.com/dnsmichi/status/1351241954349223944) on Monday. On Wednesday, we decided to try it [live on YouTube](https://twitter.com/dnsmichi/status/1351944765697363974) in the [#everyonecancontribute cafe](https://www.youtube.com/watch?v=isKaBJ4VT24). Max wrote a [blog post](https://fotoallerlei.com/blog/post/2021/13-everyonecancontribute-cafe-autoscaling-gitlab-runners-on-hetzner-cloud/post) afterwards.
+Example: Chromium build times discussion led to [Self-Managed GitLab with auto-scaling runners](https://twitter.com/dnsmichi/status/1351241954349223944) on Monday. On Wednesday, we decided to try it [live on YouTube](https://twitter.com/dnsmichi/status/1351944765697363974) in the [#everyonecancontribute cafe](https://www.youtube.com/watch?v=isKaBJ4VT24). Max wrote a [blog post](https://fotoallerlei.com/blog/2020/autoscaling-gitlab-runners-on-hetzner-cloud/) afterwards.
 
 ### Build your Social Profile
 
@@ -293,7 +286,6 @@ When you find something interesting to be shared with our brand account, please 
 - Corey House: [@housecore](https://twitter.com/housecor) 70k+ (dev, learn)
 - Forrest Brazeal: [@forrestbrazeal](https://twitter.com/forrestbrazeal) (cloud, DevOps, cartoons)
 
-
 ### Thought Leader Efficency Tips
 
 The following tips evolved from @dnsmichi experimenting with thought leadership strategies and efficiency.
@@ -316,7 +308,6 @@ The [August 2022 issue of Michael's opsindev.news newsletter](https://opsindev.n
 
 - [Newsletter text](https://opsindev.news/archive/2022-08-16/): `The first release of Cilium Service Mesh is available following the release of Cilium 1.12. "eBPF-Native When Possible" - Besides the option to remove sidecars, Cilium Service Mesh can perform a variety of service mesh features directly in eBPF to reduce the overhead even further.`
 - [Twitter text](https://twitter.com/dnsmichi/status/1559969314643525632): `The first release of @ciliumproject #ServiceMesh (https://buff.ly/3w89QG2) is available following the release of #Cilium 1.12 (https://buff.ly/3K4xB7B). #eBPF-Native When Possible - perform a variety of service mesh features directly in eBPF to reduce the overhead even further 🚀`
-
 
 ## Social Campaigns
 
@@ -488,7 +479,3 @@ Example tweets for [open-sourcing the registries](https://about.gitlab.com/blog/
 - URL to the release blogpost should be included
 - Mention @gitlab with the @ before the username
 - Use hashtags: `#gitlab #packages #registry`
-
-
-
-

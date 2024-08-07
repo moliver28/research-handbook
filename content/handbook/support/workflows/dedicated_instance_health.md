@@ -1,5 +1,4 @@
 ---
-
 title: GitLab Dedicated Observability and Monitoring (Grafana)
 category: GitLab Dedicated
 description: "GitLab Dedicated Support - Observability and Monitoring"

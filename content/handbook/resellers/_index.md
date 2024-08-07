@@ -1,12 +1,7 @@
 ---
-
 title: "GitLab Channel Partner Program"
 description: "The value of becoming a GitLab channel partner."
 ---
-
-
-
-
 
 ## Welcome to the GitLab Channel Handbook
 
@@ -22,7 +17,7 @@ The GitLab Partner Program supports organizations ranging from value added resel
 
 The right product at the right time. In any given market there are only a few times when the stars align with a product that is creating and leading a category, a product that helps customers redefine what success can look like, and with a robust opportunity for an ecosystem of partners to help customers maximize their ROI in that product.
 
-GitLab represents one of those opportunities. We are still in the early phases of capturing an estimated $40 billion dollar addressable market[^1].  A market that’s evolving from point solutions to a platform and where GitLab offers the most comprehensive offering with proven ROI that partners can monetize by accelerating customers’ successful adoption of GitLab.
+GitLab represents one of those opportunities. We are still in the early phases of capturing an estimated $40 billion dollar addressable market[^1].  A market that's evolving from point solutions to a platform and where GitLab offers the most comprehensive offering with proven ROI that partners can monetize by accelerating customers' successful adoption of GitLab.
 
 From a strategic perspective, the comprehensive GitLab DevSecOps platform can be a driving force in your application modernization, digital transformation, cloud adoption, and even your security & compliance practices.
 
@@ -30,7 +25,7 @@ From a strategic perspective, the comprehensive GitLab DevSecOps platform can be
 
 If you have browsed the GitLab Handbook before or this is your first time, we want to make your experience navigating the Channel Partner Program Handbook as easy as possible.
 
-These pages document our shared team philosophy and processes, while the individual sections contain more detailed information. If you ever need to find your way back to either page or section, you can locate navigation links at the top or bottom of each page or section, as well as helpful Outline links located on the right of each page.  
+These pages document our shared team philosophy and processes, while the individual sections contain more detailed information. If you ever need to find your way back to either page or section, you can locate navigation links at the top or bottom of each page or section, as well as helpful Outline links located on the right of each page.
 
 How to Navigate: To find your way back to the 1st Page [CLICK HERE](/handbook/resellers/).
 

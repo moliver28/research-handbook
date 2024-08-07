@@ -1,5 +1,4 @@
 ---
-
 title: "Ronnie Alfaro's Readme"
 description: "Personal readme page for Ronnie Alfaro, Support Engineering Manager, GitLab"
 job: "Support Engineering Manager"
@@ -8,9 +7,9 @@ job: "Support Engineering Manager"
 
 Hi, I am Ronnie, I am proud to be one of the GitLab Support Engineering Managers.
 
-This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+This page is intended to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
-It’s also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
+It's also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
 
 Please feel free to contribute to this page by opening a merge request.
 
@@ -23,8 +22,6 @@ Please feel free to contribute to this page by opening a merge request.
 * [GitLab Profile](https://gitlab.com/ronniealfaro)
 
 * [Personal Website](https://www.ronniealfaro.com/)
-
-  
 
 ## About me
 
@@ -95,5 +92,3 @@ In my experience getting there is always a different path for everyone,  that's 
 * I don't give up easily, I try, try, try until i learn it, until i can do it.
 
 * I never stop learning, i always believe there is a bit more to know, to learn and to improve.
-
-  

@@ -1,15 +1,6 @@
 ---
-
 title: "Developer Relations Events"
 ---
-
-
-
-
-
-
-
-
 
 Events are a great way for GitLab and the Developer Relations team to connect with customers
 and the wider GitLab community.
@@ -96,11 +87,11 @@ requirements an event must meet for a GitLab speaker to participate.
 The Developer Advocate team holds a pivotal role in generating
 content for events. The content we generate includes:
 
-* Lightning Talks
-* Demos
-* Event Booth Training
-* Event Presentations
-* Code Challenges
+- Lightning Talks
+- Demos
+- Event Booth Training
+- Event Presentations
+- Code Challenges
 
 **Note**: The types of content generated depend on the event being supported.
 
@@ -148,17 +139,20 @@ GitLab.com demos are projects that can be run live at a conference, during sales
 and much more. They allow you to show either the DevSecOps platform as a whole or focus
 on individual components as needed. The available environments are as follows:
 
-* [Simple Notes - The Complete DevSecOps Platform Demo](https://gitlab.com/gitlab-da/tutorials/security-and-governance/devsecops/simply-vulnerable-notes): This demo environment shows various
+- [Simple Notes - The Complete DevSecOps Platform Demo](https://gitlab.com/gitlab-da/tutorials/security-and-governance/devsecops/simply-vulnerable-notes): This demo environment shows various
    aspects of GitLab, from setting up a CICD file, adding templates, running security scans,
    managing vulnerabilities, and much more. It also provides a [full usage tutorial](https://gitlab-da.gitlab.io/tutorials/security-and-governance/devsecops/simply-vulnerable-notes/).
-* [Ask Me Anything - GitLab Duo AI Demo](https://gitlab.com/gitlab-da/use-cases/devsecops-platform/gitlab-vertex-ai/ask-me-anything): This demo environment shows various GitLab
+- [Ask Me Anything - GitLab Duo AI Demo](https://gitlab.com/gitlab-da/use-cases/devsecops-platform/gitlab-vertex-ai/ask-me-anything): This demo environment shows various GitLab
    Duo features from Explaining and Summarizing Code, Issues, and MRs to Suggesting Reviewers and Explaining Vulnerabilities.
-* [GitLab Flow](https://gitlab.com/tech-marketing/sandbox/cd/prodmgr-spring): This demo environment covers the GitLab flow from planning to deployment (including monitoring).
+- [GitLab Flow](https://gitlab.com/tech-marketing/sandbox/cd/prodmgr-spring): This demo environment covers the GitLab flow from planning to deployment (including monitoring).
    GitLab features such as Feature Flags, GA4K, Flux, Kubernetes overview, Compliance Pipelines, Operational container scanning, GitLab Duo, CD are covered.
 
 If those demo environments do not suit your needs, you can view our [other demo projects](https://gitlab.com/gitlab-da/use-cases)
 which are sorted by use case. You can also check out the [CS Shared Demo Library](https://gitlab.com/gitlab-learn-labs/webinars)
 for ready-to-go sales demos created by other solutions architects.
+
+All Developer Advocacy maintained projects are documented [in the projects handbook](/handbook/marketing/developer-relations/developer-advocacy/projects/#organisation-structure).
+Conference-specific demos are maintained in the [gitlab-da/conferences](https://gitlab.com/gitlab-da/conferences) group.
 
 **Note**: Before demoing using these projects you should familiarize yourself with the project and its instructions provided in
 their README. The projects are meant to be cloned and used within your own space.
@@ -170,10 +164,10 @@ They are linear and primarily used to showcase a particular feature, and are a g
 with less experience in delivering demos and in environments where there is limited internet connectivity.
 The available click-through demos are as follows:
 
-* [GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
-* [Remote Development](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
-* [Feature Flags](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
-* [CI Overview](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
+- [GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
+- [Workspaces](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
+- [Feature Flags](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
+- [CI Overview](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
 
 **Note**: To enhance performance and reduce reliance on the event's Wi-Fi network for events,
 it is recommended that you download the click-through demos locally onto the booth laptops.
@@ -280,20 +274,20 @@ and GitLab teams should keep in mind as they plan events and activities.
 
 ## Event organization best practices
 
- * **Tools:** We purposefully think about the tools we are using to engage our audience. For example, some people in the open-source world may not be able to use tools that are proprietary software. Also, some people in certain countries may not be able to use certain tools because of country restrictions. Sending a survey beforehand with different tool options could help identify good tools to use for a specific event.
- * **Time zones:** We try to be as inclusive of as many different time zones as possible. It is recommended to have 4-hour segments to spread out participation. Possible times: 16:00 UTC‒20:00 UTC for EMEA and NORAM, and 02:00 UTC‒06:00 UTC for APAC and India.
- * **Code of Conduct:** We make our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) a requirement at all GitLab events and actively help our community with friction and conflict.
- * **Accessibility:** We advocate for accessibility in all of our events and materials.
- * **Captioning and Interpretation:** Having both captioners and interpreters for online events is important. There are differences between American English and American Sign Language, for example, so captioning alone is not enough. Having a dial-in relay service would work as a "hack" to captions/interpreters, in the worst-case scenario. This depends on whether the blind person has a video phone/captioned phone to access these services.
- * **Share slides beforehand:** One week before your online event, share the slides with attendees so that people who use screen readers can follow along.
- * **Images should have alt text:** This is for screen readers for people who are blind or are visually impaired. Be descriptive with the image. Maybe a few sentences about what the most important content is.
- * **Use proper headings in your editor:** Use your editor's headings so that screen readers understand the organization of the page.
- * **Introduce yourself descriptively when you give a talk:** In talk intros, briefly describe what you look like so that people who are blind or visually impaired can create a mental image of what you look like and associate that image with your voice.
- * **Schedule breaks with the 30:5 rule:** Make sure to have a 5-minute break after each 30 min section.
- * **Describe infographics with audio:** Describe the most important parts of infographics to help with accessibility.
- * **Hybrid events:** Provide a virtual option next to in-person events.
+- **Tools:** We purposefully think about the tools we are using to engage our audience. For example, some people in the open-source world may not be able to use tools that are proprietary software. Also, some people in certain countries may not be able to use certain tools because of country restrictions. Sending a survey beforehand with different tool options could help identify good tools to use for a specific event.
+- **Time zones:** We try to be as inclusive of as many different time zones as possible. It is recommended to have 4-hour segments to spread out participation. Possible times: 16:00 UTC‒20:00 UTC for EMEA and NORAM, and 02:00 UTC‒06:00 UTC for APAC and India.
+- **Code of Conduct:** We make our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) a requirement at all GitLab events and actively help our community with friction and conflict.
+- **Accessibility:** We advocate for accessibility in all of our events and materials.
+- **Captioning and Interpretation:** Having both captioners and interpreters for online events is important. There are differences between American English and American Sign Language, for example, so captioning alone is not enough. Having a dial-in relay service would work as a "hack" to captions/interpreters, in the worst-case scenario. This depends on whether the blind person has a video phone/captioned phone to access these services.
+- **Share slides beforehand:** One week before your online event, share the slides with attendees so that people who use screen readers can follow along.
+- **Images should have alt text:** This is for screen readers for people who are blind or are visually impaired. Be descriptive with the image. Maybe a few sentences about what the most important content is.
+- **Use proper headings in your editor:** Use your editor's headings so that screen readers understand the organization of the page.
+- **Introduce yourself descriptively when you give a talk:** In talk intros, briefly describe what you look like so that people who are blind or visually impaired can create a mental image of what you look like and associate that image with your voice.
+- **Schedule breaks with the 30:5 rule:** Make sure to have a 5-minute break after each 30 min section.
+- **Describe infographics with audio:** Describe the most important parts of infographics to help with accessibility.
+- **Hybrid events:** Provide a virtual option next to in-person events.
 
- ## Additional Resources
+## Additional Resources
 
  Additional information about events can be found on the [Events](/handbook/marketing/events) page of the
  GitLab Handbook. For a list of upcoming GitLab events see the [Events](https://about.gitlab.com/events) page of our website.

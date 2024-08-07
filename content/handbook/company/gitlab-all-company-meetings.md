@@ -22,6 +22,9 @@ Recordings listed in reverse chronological order.
 
 | Date | Recording | AMA Agenda |
 | ------ | ------ | ------ |
+| 2024-05-13 | [FY25-Q2 Quarterly Kickoff](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/video/fy25-q2-quarterly-kickoff) | [AMA](https://docs.google.com/document/d/1nkCd9aPjgEzNkJfk-JPOOfrUwoWqtgDTQTLi-uX5hDU/edit#heading=h.3p4twch2ko0a) |
+| 2024-02-14 | [FY25-Q1 Quarterly Kickoff](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/video/fy25-q1-quarterly-kickoff) | [AMA](https://docs.google.com/document/d/1uY11Swsb7a6re4XM8uJo59n7xRJQ9Q-6nGtlq5MD3Ec/edit#heading=h.8wb0d7km9xiq) |
+| 2023-11-16 | [FY24-Q4 Quarterly Kickoff](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/video/fy24-q4-quarterly-kickoff) | [AMA](https://docs.google.com/document/d/1rlUr-KjjnuF5PgKUYcPcoANYVDpaj0ma_BCMJrC-l3M/edit#heading=h.291m2nxz7c2v) |
 | 2023-10-04 | [FY24-Q3 GitLab Assembly](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/video/fy24-q3-gitlab-assembly) | [AMA](https://docs.google.com/document/d/1gU-kOiEqSPt7mXdWWhYrjtAXr-RQNLYn7mH9BT0wSVU/edit#heading=h.73bvjze4oj3a) |
 | 2023-09-07 | FY24-Q2 Post-earnings internal recap | [AMA](https://docs.google.com/document/d/1Fb5yMM_AblPy2kzxxpMY0JBekfZGnaC-APcFDTulgR8/edit#heading=h.73bvjze4oj3a) |
 | 2023-08-16 | [FY24-Q3 Quarterly Kickoff](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/video/fy24-q3-quarterly-kickoff-ama) | [AMA](https://docs.google.com/document/d/1IEPh3msR76Rs3-nURiI8sIsexEgMgk7OmHko2P4TJaE/edit) |
@@ -38,13 +41,13 @@ Recordings listed in reverse chronological order.
 
 The CEO has a Quarterly Kickoff in the first month of each quarter.
 
-This is a forum to review our long-term goals, recognize progress made in the previous fiscal quarter, recap any significant recent events, and discuss our aims for the upcoming fiscal quarter. Material shared is internal only.
+This is a forum to review our long-term goals, recognize progress made in the previous fiscal quarter, recap any significant recent events, and discuss our aims for the upcoming fiscal quarter. Material shared is internal only on [Level Up](https://university.gitlab.com/learn/dashboard?query=quarterly%20kickoff).
 
 The Quarterly Kickoff is followed by an AMA hosted by the CEO.
 
 The CEO's Quarterly Kickoff Slides usually cover:
 
-- Recap of GitLab’s [Mission](/handbook/company/mission/)/[Vision](/handbook/company/vision/)/[Strategy](/handbook/company/strategy/) noting any updates made
+- Recap of GitLab's [Mission](/handbook/company/mission/)/[Vision](/handbook/company/vision/)/[Strategy](/handbook/company/strategy/) noting any updates made
 - Review the previous quarters OKRs, scores, and important details
 - Progress for [Yearlies](/handbook/company/yearlies/)
 - Sharing of this new quarters OKRs
@@ -98,8 +101,9 @@ The Quarterly Kickoff is an [Office of the CEO](/handbook/ceo/office-of-the-ceo/
 
 ### How to prepare the Slides
 
-**Note:** A member of the Office of the CEO is the DRI for this but we coordinate with Internal Comms, Legal, and the EBA team to get the slides prepared, recorded, shared, and AMA scheduled.
-{: .note}
+{{% note %}}
+A member of the Office of the CEO is the DRI for this but we coordinate with Internal Comms, Legal, and the EBA team to get the slides prepared, recorded, shared, and AMA scheduled.
+{{% /note %}}
 
 - Start by copying the last slide deck. This will form the skeleton
 - Mission/Vision/Strategy may need to be updated to note the differences

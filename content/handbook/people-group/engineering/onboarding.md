@@ -95,7 +95,7 @@ We fetch some other data besides the region as well:
 
 This data is used to populate the email that we then send to them. The email address used to send the email is `onboarding@domain` and is set with a `reply-to: people-connect@domain` as nobody monitors replies to `onboarding@`. The email address is strictly used for automation.
 
-#### Manual Onboarding E-Mail
+### Manual Onboarding E-Mail
 
 If for some reason the e-mail could not be sent, we have added functionality for a People Connect Team member to be able to manually send this by running the `onboardingemail` Slack command.
 
@@ -113,7 +113,7 @@ graph TD
 If changes are required to the onboarding email template, follow these steps to update them:
 
 - Browse to the MJML [page](https://mjml.io/try-it-live/)
-- Open the MJML template [template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/email_templates/onboarding_email.mjml)
+- Open the MJML [template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/email_templates/onboarding_email.mjml)
 - Copy and paste the template file of your choice into MJML website on the left
 - Make the relevant changes and then select `View HTML` on the top left hand side of the website.
 - Copy the HTML version to the HTML template.
@@ -162,7 +162,7 @@ but if there are two, the code will use both to create the issue, if there is ju
 
 The issue will be created in the [AR project](https://gitlab.com/gitlab-com/team-member-epics/access-requests).
 
-The bot will announce in Slack (#peopleops-alerts) the list of people that we were able to
+The bot will announce in Slack (#peopleops-alerts-private) the list of people that we were able to
 create the AR. As well as the list of people (with their role) that we weren't
 able to create the AR for. This way we can connect with the teams so they can add a template for this role.
 
@@ -223,7 +223,7 @@ that they have to complete the anti-harrassment training.
 There's a scheduled pipeline that runs every day that checks for hires that started a week ago.
 For those hires we will look if the incoming
 team member is a people manager. Currently there's no exact field
-on Workday for us to check this. The way we do this is by by looking
+on Workday for us to check this. The way we do this is by looking
 at their job title. If it **starts** with any of the following:
 
 - `Team Lead`

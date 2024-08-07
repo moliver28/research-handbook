@@ -34,7 +34,7 @@ the project developers know the current status of the sync.
 These are setup via several stages that all work together to reflect a complete
 contact management project.
 
-#### Intro stage
+### Intro stage
 
 **NOTE** If the customer is using a gitlab.com subscription, we should only
 accept requests if the requester is an `Owner` on the parent group.
@@ -70,7 +70,7 @@ awk -F',' '{if ($1!="Query"&&$1!=""&&$1!="\"name\"") {print "- name: "$1"\n  ema
 
 This will work the majority of the time and make it a bit easier down the line.
 
-#### Project creation
+### Project creation
 
 For organizations without an existing collaboration project, we create all
 contact management projects within the
@@ -134,12 +134,12 @@ The items to check are:
 After everything looks good to go, make sure to copy the project's ID. You'll
 need it in the next step.
 
-##### For organizations with an existing collaboration project
+#### For organizations with an existing collaboration project
 
 These are a bit trickier and can require a ton of back and forth. For the time
 being, please assign these to a Support Operations Manager to work.
 
-#### Webhook setup
+### Webhook setup
 
 Next, you'll need to setup the webhook for the project. To do this, navigate to
 `Settings > Webhooks` on the project.
@@ -147,30 +147,32 @@ Next, you'll need to setup the webhook for the project. To do this, navigate to
 You then need to create a new webhook using the following information:
 
 - URL:
-  `https://ops.gitlab.net/api/v4/projects/619/ref/master/trigger/pipeline?token=TOKEN&variables[PROJECT_ID]=PROJECT_ID`
-  - Replace TOKEN with the Contact Sync Token found within the Support Ops Vault
+  `https://gitlab.com/api/v4/projects/39250741/ref/master/trigger/pipeline?token=TOKEN&variables[PROJECT_ID]=PROJECT_ID`
+  - Replace TOKEN with the Contact Management Project Token found within the Support Ops Vault
     in 1Password.
   - Replace PROJECT_ID with the project's ID.
 - Click the bubble next to `Mask portions of URL`
   - Put the token value in the text field for `Sensitive portion of URL`
   - Put `TOKEN` in the text field for `How it looks in the UI`
   - Verify the URL preview value now looks like:
-    - `https://ops.gitlab.net/api/v4/projects/619/ref/master/trigger/pipeline?token={TOKEN}&variables[PROJECT_ID]=123456789`
+    - `https://gitlab.com/api/v4/projects/39250741/ref/master/trigger/pipeline?token={TOKEN}&variables[PROJECT_ID]=123456789`
 - Check the box next to `Push events`
   - Select `Wildcard pattern` and enter `master` in the text field
 - Check the box next to `Enable SSL verification`
 
 Once all that is in place, click the blue `Add webhook` button.
 
-#### Organization update
+### Organization update
 
 Next, you will need to update the organization within Zendesk:
 
 - You want to set the `Contact Management Project ID` field to have the project
   ID.
-- You want to set the `CMP Developers` field to have the developers we are going
-  to add to the project. This should be in a markdown list format. An example of
-  this would be:
+- You can, if you want to, set the `CMP Developers` field to have the developers
+  we are going to add to the project. This is not required as the
+  [CMP Dev Sync project](https://gitlab.com/gitlab-support-readiness/zendesk-global/cmp-dev-sync/)
+  will do it automatically on the next run. This should be in a markdown list
+  format. An example of this would be:
 
   ```markdown
   - alice@example.com
@@ -180,7 +182,7 @@ Next, you will need to update the organization within Zendesk:
   - eggbert@example.com
   ```
 
-#### Files setup
+### Files setup
 
 Next, you will add the contact's and add the organization ID to the
 contacts.yaml file of the project.
@@ -197,7 +199,7 @@ contact's email. Both are required, so if you do not know the `NAME_OF_CONTACT`,
 use the `EMAIL_OF_CONTACT` value.
 
 An example of a working and valid contacts.yaml can be found
-[here](https://gitlab.com/support/zd-global-orgs/organization-380989798980/-/blob/master/contacts.yaml).
+[here](https://gitlab.com/support/zd-global-orgs/aaa-jason-test-setup-zzz/-/blob/master/contacts.yaml).
 
 You should ensure the contacts listed matching what the Zendesk organization
 *currently* has in place.
@@ -205,22 +207,20 @@ You should ensure the contacts listed matching what the Zendesk organization
 Once that is all setup, commit the changes to the file (this will kick off a
 sync pipeline on ops.gitlab.net).
 
-#### User invites
+### User invites
 
 Next, you need to invite the user(s) who will maintain the contacts.yaml file.
 You should have a list of who to invite from your previous work in the ticket.
 
 To invite the users, do the following:
 
-1. Click `Project information` on the top-left hand side of the page
-1. Click `Members` on the top-left hand side of the page (under
-   `Project information`)
+1. Select `Manage > Members` from the menu in the left hand side of the page
 1. Click the blue `Invite members` button at the top-right hand side of the page
 1. Enter the email(s) to use under the `Username or email address` text box
 1. Under `Select a role`, select `Developer`
 1. Click the blue `Invite` button on the bottom-right of the modal
 
-#### Final stage
+### Final stage
 
 With all of that done, the final part is to update the ticket using the macro
 `Support::Support Ops::Contact management project setup`.
@@ -241,7 +241,7 @@ not using a contact management sync project).
 
 ## Common troubleshooting
 
-#### Pipeline failed due to "No org found"
+### Pipeline failed due to "No org found"
 
 This occurs when the pipeline was run before the Organization in Zendesk has the
 `Contact Management Project ID` field populated. Due to caching, this error
@@ -251,7 +251,7 @@ To fix this issue, go to the contact management project itself, go to the
 webhooks page, click `Test`, and select `Push events`. This will cause a new
 pipeline to run that should work outside of the caching.
 
-#### Pipeline failed due to "Too many orgs"
+### Pipeline failed due to "Too many orgs"
 
 This means multiple organizations within Zendesk are using the same project ID.
 You will need to determine which organization incorrectly is also using the
@@ -261,7 +261,7 @@ After doing so, you should manually have the webhook trigger by going to the
 webhooks page, click `Test`, and select `Push events`. This will cause a new
 pipeline to run that should work outside of the caching.
 
-#### Pipeline failed due to "Error reading YAML file"
+### Pipeline failed due to "Error reading YAML file"
 
 This means something within the contacts.yaml file of the project is in a bad
 formatting. To rectify this, you will need to do one of the following:
@@ -275,24 +275,24 @@ terms of customer experience.
 If this happens repeatedly to the same customer, consider reaching out to their
 Account Manager regarding it.
 
-#### Pipeline failed due to "Invalid project ID"
+### Pipeline failed due to "Invalid project ID"
 
 This means the `PROJECT_ID` value sent by the webhook is not a valid value. You
 need to go review the webhook you setup and correct it to use the correct value.
 
-#### Pipeline failed due to "Failed to sync contacts"
+### Pipeline failed due to "Failed to sync contacts"
 
 This means the Zendesk API returned a non-200 status code when it tried to add
 users to the organization. You will need to manually troubleshoot why this is
 and rectify the blocking issue.
 
-#### Pipeline failed due to "Failed to remove users"
+### Pipeline failed due to "Failed to remove users"
 
 This means the Zendesk API returned a non-200 status code when it tried to
 remove users to the organization. You will need to manually troubleshoot why
 this is and rectify the blocking issue.
 
-#### Pipeline failed due to "NoMethodError"
+### Pipeline failed due to "NoMethodError"
 
 This means something within the contacts.yaml file of the project is missing
 required information. This can either be because it was left blank or because of
@@ -307,3 +307,15 @@ terms of customer experience.
 
 If this happens repeatedly to the same customer, consider reaching out to their
 Account Manager regarding it.
+
+### Pipeline failed due to "Unable to create user"
+
+This reflects a Zendesk caching issue. It normally is a problem indicating that
+the user *was* created but the response from the creation task didn't render
+properly via the API. You can normally wait 5 or so minutes and then re-run the
+pipeline to resolve this problem. If you continue seeing issues:
+
+- Create the user manually
+- Associate the user to the org manually
+- Wait 5 minutes
+- Run a new sync by triggering the webhook on the project

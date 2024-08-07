@@ -1,5 +1,4 @@
 ---
-
 title: Support Global Groups Training Plan
 description: Support Global Groups Training Plan
 ---

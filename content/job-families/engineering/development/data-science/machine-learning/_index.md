@@ -118,7 +118,7 @@ The Staff level in the Engineering Division is a [grade 8](/handbook/total-rewar
 - Exert influence on the overall objectives and long-range goals of your team.
 - Shepherd the definition and improvement of our internal standards for style, maintainability, and best practices for a high-scale machine learning environment. Maintain and advocate for these standards through code review.
 - Drive innovation on the team with a willingness to experiment and to boldly confront problems of immense complexity and scope.
-- Actively seek out difficult impediments to our efficiency as a team (“technical debt”), propose and implement solutions that will enable the entire team to iterate faster.
+- Actively seek out difficult impediments to our efficiency as a team ("technical debt"), propose and implement solutions that will enable the entire team to iterate faster.
 - Represent GitLab and its values in public communication around broad initiatives, specific projects, and community contributions. Interact with customers and other external stakeholders as a consultant and spokesperson for the work of your team.
 - Provide mentorship for all Engineers on your team to help them grow in their technical responsibilities and remove blockers to their autonomy.
 - Confidently ship large features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.

@@ -1,10 +1,8 @@
 ---
-
 title: Creating a wider community license
 description: "How to create a wider community license"
 category: GitLab Self-Managed licenses
 ---
-
 
 ## Overview
 

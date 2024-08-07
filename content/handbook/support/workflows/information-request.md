@@ -15,7 +15,7 @@ From time to time we may receive subpoenas or other legal requests for informati
 This workflow clarifies how to handle these requests and subsequent workflow related to delivering information if
 our counsel and CISO approve.
 
-*Note:* If a ticket comes in that you believe is Legal related, but is not a subpoena or court order, please check the list of other [legal workflows](/handbook/support/workflows/#Legal).
+*Note:* If a ticket comes in that you believe is Legal related, but is not a subpoena or court order, please check the list of other [legal workflows](/handbook/support/workflows/#legal).
 
 If a subpoena or court order that is not covered by another workflow (e.g. DMCA, GDPR, information request) comes in:
 

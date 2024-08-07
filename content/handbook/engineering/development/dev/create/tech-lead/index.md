@@ -7,7 +7,6 @@ description: The objective of this page is to provide a clear documentation of t
 
 This role is outlined [here](/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role).
 
-
 ## Create Tech Leads
 
 ### Source Code Tech Leads
@@ -35,21 +34,23 @@ This role is outlined [here](/handbook/engineering/ic-leadership/tech-lead/#the-
 | 2024-02-21 | TBD      | TBD                | [VS Code Upgrade process](https://gitlab.com/groups/gitlab-org/-/epics/12951)| [Enrique Alcántara](https://gitlab.com/ealcantara) |
 | 2024-01-13 | TBD      | TBD                | [Workspaces Agent Authorization](https://gitlab.com/groups/gitlab-org/-/epics/12193) | [Hunar Khanna](https://gitlab.com/hkhanna2) |
 
-
 ### Editor Extension Tech Leads
 
 | Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
 |------------|----------|--------------------|-------------------------|------------|
 | 2024-02-01 | TBD      | TBD      | [Cell 1.0](https://gitlab.com/gitlab-org/gitlab/-/issues/434977) | [Tomas Vik](https://gitlab.com/viktomas) |
 
-
 ### Code Creation Tech Leads
 
-| Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead   |
-|------------|----------|--------------------|------------------------|-------------|
-| 2023-11-01 |          |                    | [Code Suggestion RAG](https://gitlab.com/groups/gitlab-org/-/epics/11669) | Mikołaj Wawrzyniak |
-| 2024-01-17 |          |                    | [Decrease Latency](https://gitlab.com/groups/gitlab-org/-/epics/12224)    | Jan Provaznik      |
-| 2024-02-12 |          |                    | [Trigger Logic](https://gitlab.com/groups/gitlab-org/-/epics/12100)       | Sri Rangan         |
+| Epic(s) / Issue(s)                                                                                 | Tech Lead         |
+|----------------------------------------------------------------------------------------------------|-------------------|
+| [Code Completion Models](https://gitlab.com/gitlab-org/gitlab/-/issues/466217)                     | Allen Cook        |
+| [Additional Context using ASTs](https://gitlab.com/groups/gitlab-org/editor-extensions/-/epics/55) | Jan Provaznik     |
+| [X-Ray CI Minutes](https://gitlab.com/groups/gitlab-org/-/epics/14100)                             | Vitali Tatarintev |
+| RAG for Code Completion                                                                            | Allen Cook        |
+| [RAG Integration with Global Search](https://gitlab.com/groups/gitlab-org/-/epics/14106)           | Vitali Tatarintev |
+| [RAG Source Code Embeddings](https://gitlab.com/groups/gitlab-org/-/epics/14107)                   | Jan Provaznik     |
+| [Chat/Code Suggestions Alignment](https://gitlab.com/groups/gitlab-org/-/epics/14104)              | Tian Gao          |
 
 ## How is a Tech Lead different from a Domain Expert
 
@@ -85,13 +86,12 @@ Tech Leads and Domain Experts share similarities and differences. The tables bel
 
 The Tech Lead responsibilites are outlined [here](/handbook/engineering/ic-leadership/tech-lead/#responsibilities-of-a-tech-lead).
 
-
 ## Process
-
 
 ### Determine if the Project needs a Tech Lead
 
 In some projects, having a Tech Lead depends on the team's available capacity. Engineering Managers decide based on the team's Tech Leadership capacity. Use these questions to help evaluate if your project needs a Tech Lead.
+
 1. Is the project technically complex? Does it require a blueprint?
 1. Does it involve multiple technologies or integrations?
 1. Does the project demand unique technical expertise?
@@ -109,5 +109,3 @@ In some projects, having a Tech Lead depends on the team's available capacity. E
 | 1    | Assess project needs                  |
 | 2    | Evaluate Tech Leadership capacity     |
 | 3    | Select a Tech Lead         |
-
-

@@ -29,12 +29,12 @@ Choose the method below that feels most comfortable and have the following infor
   > - Crop image to a perfect square.
   > - Keep maximum dimension under 400 by 400 pixels.
   > - Use the JPEG (`.jpg`) or PNG (`.png`) format.
-  > - Keep the file size below 100k. Minify using something like [tinyjpg.com](https://www.tinyjpg.com).
+  > - Keep the file size below 100k. Minify using something like [tinyjpg.com](https://tinyjpg.com/).
   > - Test image in color and black-and-white (you will add the color version).
   > - The image file should be located in the folder `sites/uncategorized/source/images/team/`
   > - Name file `yournameinlowercase` and add the appropriate file extension.
 - Story about your background and interests. (See other team member profiles for examples.)
-- Add your personal LinkedIn / Twitter / GitLab handles. Make sure to only include your username without any links or `@` in front of them. ie. `LinkedIn: username`. (Some incorrect examples are: `LinkedIn: linkedin.com/in/username`, `LinkedIn: @username`.)
+- Add your personal LinkedIn / Twitter / GitLab handles. Make sure to only include your username without any links or `@` in front of them, such as `LinkedIn: username`. (Some incorrect examples are: `LinkedIn: linkedin.com/in/username`, `LinkedIn: @username`.)
 - A relative link to your role. If your link is `https://handbook.gitlab.com/job-families/engineering/support-engineer/` use `/job-families/engineering/support-engineer/`. Refer to other entries for reference.
 
 ### Method 1: Add your info on GitLab.com using Web IDE
@@ -44,55 +44,55 @@ Choose the method below that feels most comfortable and have the following infor
 1. In that modal, on the bottom, click `Edit this page`
 1. Our web editor will open with your team page entry opened.
 1. Once you have found the file with your name or slug in its title, in the directory `data/team_members/person/FIRST_LETTER_OF_YOUR_FIRST_NAME/` (make sure you are searching within the file you want to edit by clicking on the file first), update your details:
-    - Update your `name` if needed to your `FirstName LastName`or `PreferredName LastName`
-    - `locality` should be left empty
-    - `country` should be set to `Remote`
-    - Verify your `role`
-    - If your position title is incorrect or not filled in, navigate to `job_families.yml` and use `command-F` (macOS) or `ctrl-F` (nix) to search for your job title. You can search for .yml files in the Web IDE using `command-P` (macOS) or `ctrl-P` (nix)
-    - Check that your role links to your job description. If not, add a link. For example, change `<a href="">Solutions Architect</a>` to `<a href="/job-families/sales/solutions-architect/">Solutions Architect</a>`.
-    - Verify `reports_to` lists your manager using the `slug` value from their team page entry
-    - If you are a manager, verify the `reports_to` of your direct reports are referring to your `slug`
-    - If you're currently on a borrow request, add `borrow` and set the `to` and `end_date` keys, e.g.
+   - Update your `name` if needed to your `FirstName LastName`or `PreferredName LastName`
+   - `locality` should be left empty
+   - `country` should be set to `Remote`
+   - Verify your `role`
+   - If your position title is incorrect or not filled in, navigate to `job_families.yml` and use `command-F` (macOS) or `ctrl-F` (nix) to search for your job title. You can search for .yml files in the Web IDE using `command-P` (macOS) or `ctrl-P` (nix)
+   - Check that your role links to your job description. If not, add a link. For example, change `<a href="">Solutions Architect</a>` to `<a href="/job-families/sales/solutions-architect/">Solutions Architect</a>`.
+   - Verify `reports_to` lists your manager using the `slug` value from their team page entry
+   - If you are a manager, verify the `reports_to` of your direct reports are referring to your `slug`
+   - If you're currently on a borrow request, add `borrow` and set the `to` and `end_date` keys, e.g.
 
-    ```yaml
-    borrow:
-      to: ramya-authappan
-      end_date: 2023-09-15
-    ```
+     ```yaml
+     borrow:
+       to: ramya-authappan
+       end_date: 2023-09-15
+     ```
 
-    - Set your current work priorities in the `work_priorities` field, as an array, e.g.
+   - Set your current work priorities in the `work_priorities` field, as an array, e.g.
 
-    ```yaml
-    work_priorities:
-      - Product Analytics
-      - ModelOps
-    ```
+     ```yaml
+     work_priorities:
+       - Product Analytics
+       - ModelOps
+     ```
 
-    - Add the filename of your profile picture, making sure to match letter case. Delete `../gitlab-logo-extra-whitespace.png`, if present. The completed line should look like this: `picture: yournameinlowercase.jpg`.
-    - Add your pronouns
-    - Consider adding `pronunciation` for your full name to help others to pronounce your name correctly (e.g. sid see-brandy for Sid Sijbrandij)
-    - Add your Twitter and GitLab handles without the leading `@`
-    - Ensure your list of `departments` is accurate. Use other team members' as a reference.
-    - Add your [`specialty`](/handbook/company/structure/#specialist)
-    - Add your [`expertise`](/handbook/company/structure/#expert)
-    - Add your own `story`. Use other team members' stories as a reference.
-    - If remote work has [changed your life](/handbook/company/culture/all-remote/people/) in a meaningful way, consider adding your own `remote_story`, using other team members' remote stories as a [reference](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/uploads/8161ceac4523a9f36244f9533960ccbd/remote-story-example.png)
-    - Update any data that was filled in but is incorrect
+   - Add the filename of your profile picture, making sure to match letter case. Delete `../gitlab-logo-extra-whitespace.png`, if present. The completed line should look like this: `picture: yournameinlowercase.jpg`.
+   - Add your pronouns
+   - Consider adding `pronunciation` for your full name to help others to pronounce your name correctly (such as, Sid See-brandy for Sid Sijbrandij)
+   - Add your Twitter and GitLab handles without the leading `@`
+   - Ensure your list of `departments` is accurate. Use other team members' as a reference.
+   - Add your [`specialty`](/handbook/company/structure/#specialist)
+   - Add your [`expertise`](/handbook/company/structure/#expert)
+   - Add your own `story`. Use other team members' stories as a reference.
+   - If remote work has [changed your life](/handbook/company/culture/all-remote/people/) in a meaningful way, consider adding your own `remote_story`, using other team members' remote stories as a [reference](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/uploads/8161ceac4523a9f36244f9533960ccbd/remote-story-example.png)
+   - Update any data that was filled in but is incorrect
 
-    **Important:** Do not use the `tab` character, and respect the spaces between lines to avoid breaking the page format. Referenced file names/extensions are case sensitive, and a file that is not found will cause a pipeline failure. The file should end with an empty newline or it will cause a pipeline failure.
+     **Important:** Do not use the `tab` character, and respect the spaces between lines to avoid breaking the page format. Referenced file names/extensions are case sensitive, and a file that is not found will cause a pipeline failure. The file should end with an empty newline or it will cause a pipeline failure.
 1. To upload your image, ensure that it is prepared according to the [Picture Requirements](/handbook/editing-handbook/#add-yourself-to-the-team-page).
-    1. Navigate to find the `team` folder using the path `sites/uncategorized/source/images/team/`. To do this, you must first notice that you are in a file that is within the `person` folder, which is within the `team_members` folder, which is within the `data` folder. You can close folders by clicking on the ⋁ to the left of the folder name. Once you have closed the `data` folder, you will see the `sites` folder 6 folders down. Open `sites` by clicking the >, then `uncategorized`, then `source`, then `images`, and finally `team`.
-    1. Right click on `team` and choose `Upload`.
-    1. Select the image you want to upload and Open.
-    1. Now you will navigate back to your team page entry. You can do this by either closing the `sites` folder and opening `data`, then `team members`, `person`, and the folder containing you file; or you can notice your file tab on the top bar, and you can click on it to be taken to that file.
-    1. Update your `picture` field to your filename. Delete the content that is this line after the `picture:` that starts with `../gitlab` etc. Make sure to match the letter case of your picture file. The completed line should look like this: `picture: yournameinlowercase.jpg` for example.
+   1. Navigate to find the `team` folder using the path `sites/uncategorized/source/images/team/`. To do this, you must first notice that you are in a file that is within the `person` folder, which is within the `team_members` folder, which is within the `data` folder. You can close folders by clicking on the ⋁ to the left of the folder name. Once you have closed the `data` folder, you will see the `sites` folder 6 folders down. Open `sites` by clicking the >, then `uncategorized`, then `source`, then `images`, and finally `team`.
+   1. Right click on `team` and choose `Upload`.
+   1. Select the image you want to upload and Open.
+   1. Now you will navigate back to your team page entry. You can do this by either closing the `sites` folder and opening `data`, then `team members`, `person`, and the folder containing you file; or you can notice your file tab on the top bar, and you can click on it to be taken to that file.
+   1. Update your `picture` field to your filename. Delete the content that is this line after the `picture:` that starts with `../gitlab` etc. Make sure to match the letter case of your picture file. The completed line should look like this: `picture: yournameinlowercase.jpg` for example.
 1. Once you have finished this, click the `Source Control` icon, as described in point 5 of [Using the new Web IDE to edit the handbook](/handbook/editing-handbook/practical-handbook-edits/#using-the-new-web-ide-to-edit-the-handbook).
 1. Create a title for your MR, and enter it in the box above the `Commit & Push` button. An example title would be `Updating My Team Page Entry`.
 1. Click the `Commit & Push` button.
 1. Click on `Yes Commit to a new branch`.
 1. You will then be in the `New branch name` section. Enter your branch name, in the format of `yourinitials-add-YOURNAME-to-team-page-date` or similar. Example: `plh-add-paulalilyherbert-to-team-page-feb06` and press `Return/Enter`.
 1. Click on `Create MR`. If this message disappears, click on the notification bell icon on the bottom right, and it will bring back the message.
-1. In the Desciption box, explain `Why is this change being made?` as decribed. For this specific MR, you can enter something like: `Adding my information and picture to the team page due to onboarding tasks.`
+1. In the Description box, explain `Why is this change being made?` as described. For this specific MR, you can enter something like: `Adding my information and picture to the team page due to onboarding tasks.`
 1. Scroll down and `Create merge request`.
 1. Review the Author Checklist and check off all applicable tasks. Add your People Connect onboarding team member and Manager as Reviewers. If your manager has a gold triangle symbol with an exclamation mark on their bottom right section of their avatar photo, it means that they do not have merge rights to the team page so you can assign the MR to your People Connect team member if that is the case. If there is no triangle on your manager avatar, you may assign the MR to your manager.
 
@@ -109,14 +109,14 @@ Choose the method below that feels most comfortable and have the following infor
 1. Now you will edit your biographical information. All the bio information displayed on the Team page is pulled from a data file. Click on `data`, and then scroll down to `team_members/person/FIRST_LETTER_OF_YOUR_FIRST_NAME/SLUG_REPLACE.yml` (you are looking for a file that specifies your name or slug).
 1. Click on `edit` on the top right side of your screen.
 1. See point 5 in the above [Method 1: Add your info on GitLab.com using Web IDE](#method-1-add-your-info-on-gitlabcom-using-web-ide) for the list of fields and how to fill them in.
-1. After you add your information, add a comment to your commit and click on “Commit Changes”.
+1. After you add your information, add a comment to your commit and click on "Commit Changes".
 1. Now [Create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) in [GitLab.com](https://gitlab.com/gitlab-com/www-gitlab-com) with the branch that you created by clicking `Create merge request` button.
 
-  - Create a title that describes your changes at a high level.
-  - Add a description of your changes
-  - Assign the merge request to yourself
-  - Make sure the source branch is the one you created `hk-team-page-update-custsupport-feb06` (as an example from above) and the target is `master`
-  - Check the box `delete source branch when merge request is accepted`
+   - Create a title that describes your changes at a high level.
+   - Add a description of your changes
+   - Assign the merge request to yourself
+   - Make sure the source branch is the one you created `hk-team-page-update-custsupport-feb06` (as an example from above) and the target is `master`
+   - Check the box `delete source branch when merge request is accepted`
 
 1. Click `create merge request`  At the upper right of the new page, click `edit` next to `Reviewer` and set your manager as reviewer for this merge request.
 
@@ -133,21 +133,21 @@ Choose the method below that feels most comfortable and have the following infor
 1. See point 5 in the above [Method 1: Add your info on GitLab.com using Web IDE](#method-1-add-your-info-on-gitlabcom-using-web-ide) for the list of fields and how to fill them in.
 1. Save the changes to the file in `data/team_members/person/FIRST_LETTER_OF_YOUR_FIRST_NAME/` that you just edited, and `git add` it.
 1. To see your changes locally:
-    1. Manually run a command to compile the changes you just made into a file that actually populates the team page:
+   1. Manually run a command to compile the changes you just made into a file that actually populates the team page:
 
-       ```bash
-       cd <WWW-GITLAB-COM REPO ROOT>
-       bundle exec rake build:team_yml
-       ```
+      ```bash
+      cd <WWW-GITLAB-COM REPO ROOT>
+      bundle exec rake build:team_yml
+      ```
 
-    1. Start a middleman dev server in the `uncategorized` site:
+   1. Start a middleman development server in the `uncategorized` site:
 
-       ```bash
-       cd sites/uncategorized
-       NO_CONTRACTS=true bundle exec middleman 
-       ```
+      ```bash
+      cd sites/uncategorized
+      NO_CONTRACTS=true bundle exec middleman
+      ```
 
-    1. Open the team page and search for your name `http://localhost:4567/company/team`
+   1. Open the team page and search for your name `http://localhost:4567/company/team`
 1. After validating your changes, commit your changes to the branch of www-gitlab-com that you created in step 4, with a comment *Add FirstName LastName to team page* and push your branch. You may need to set the remote as upstream or you can use `--set-upstream` option and specify remote as upstream.
 1. [Create a Merge Request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) in [GitLab.com](https://gitlab.com/gitlab-com/www-gitlab-com) with the branch that you created and assign your manager as reviewer.
 
@@ -172,4 +172,4 @@ Using what you learned in the [steps above](/handbook/editing-handbook/#add-your
 1. Click on `Yes Commit to a new branch`.
 1. You will then be in the `New branch name` section. Enter your branch name, in the format of `yourinitials-add-YOURNAME-to-team-page-date` or similar. Example: `plh-add-paulalilyherbert-to-team-page-feb06` and press `Return/Enter`.
 1. Click on `Create MR`. If this message disappears, click on the notification bell icon on the bottom right, and it will bring back the message.
-    1. Fill out the merge request details and assign it to your manager for review.
+   1. Fill out the merge request details and assign it to your manager for review.

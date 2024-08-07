@@ -11,7 +11,7 @@ The VP, Enterprise Sales is a [grade 12](/handbook/total-rewards/compensation/co
 
 - Establish and deliver on a strategy to land new customers with a mutual vision for expansion and expand existing accounts with purpose, driving customer success and predictable year over year ARR growth for GitLab.
 - Recruit and develop a top tier, diverse, efficient enterprise sales organization of Area Vice Presidents, Area Sales Managers and Strategic Account Leaders
-- Maintain key customer relationships and develop and implement strategies for expanding the company’s customer base
+- Maintain key customer relationships and develop and implement strategies for expanding the company's customer base
 - Provide detailed and accurate sales forecasting
 - Manage overall sales process, set appropriate metrics for sales funnel management
 - Plan and manage at both the strategic and operational levels
@@ -33,7 +33,7 @@ Multiple repeatable proof points of recruiting, hiring, developing, and retainin
 - Bachelor degree
 - You share our values, and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Territories
 

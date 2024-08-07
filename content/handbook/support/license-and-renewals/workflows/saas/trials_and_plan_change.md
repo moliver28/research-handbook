@@ -1,5 +1,4 @@
 ---
-
 title: Handling trials, extensions and plan changes on GitLab.com
 description: "How to handle GitLab.com subscription trials and plan changes"
 category: GitLab.com subscriptions & purchases
@@ -21,10 +20,10 @@ GitLab.com Premium customers who want to trial SaaS Ultimate have two options to
 
 - As part of the initiative to enable current SaaS Premium customers to trial SaaS Ultimate on their primary namespace, the first iteration implementation now grants L&R Support the capability to temporarily upgrade an existing Premium subscription to an Ultimate trial subscription. To facilitate this process, the customer's Account Executive must use the following instructions:
 
-   - Go to the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/); you must have a [Zendesk Light Agent account](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) to use this form.
-   - Under `What is this request concerning`, select `License and Renewal Related Requests` > `GitLab Support Internal Request for Global Customers`.
-   - In the form that appears, under `What type of GitLab Support Internal Request is this for?`, select `SaaS Trial Related` > `Request an Ultimate trial for a customer using a Premium subscription`.
-   - Fill out the required fields and click Submit request. If you need assistance filling out the form, please ask in the `#support_operations` Slack channel.
+  - Go to the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/); you must have a [Zendesk Light Agent account](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) to use this form.
+  - Under `What is this request concerning`, select `License and Renewal Related Requests` > `GitLab Support Internal Request for Global Customers`.
+  - In the form that appears, under `What type of GitLab Support Internal Request is this for?`, select `SaaS Trial Related` > `Request an Ultimate trial for a customer using a Premium subscription`.
+  - Fill out the required fields and click Submit request. If you need assistance filling out the form, please ask in the `#support_operations` Slack channel.
 
 Once the form has been submitted, the L&R Support Engineer should follow the workflow outlined in the following [video](https://www.youtube.com/watch?v=wJCrh45Ug2Q), which entails:
 
@@ -46,6 +45,14 @@ These namespaces are allowed to start an Ultimate trial over Premium subscriptio
 - For all trials, the renewal start date must align with the end date of the prior subscription term therefore requests for Ultimate trials with the purpose of extending ahead of the renewal date should be denied. It is GitLab policy to align renewal dates with the end of the prior subscription term.
 - GitLab.com Ultimate trials cannot be extended past the 30-day duration.
 - GitLab.com trials are only available for the GitLab Ultimate Subscription plan.
+
+### Requests to workaround GitLab.com trial limitations
+
+GitLab.com trials have [some limitations](https://about.gitlab.com/free-trial/#what-is-included-in-my-free-trial-what-is-excluded), including the use of group access tokens. Some customers may request circumvention of these limitations in cases such as facilitating post-migration checks.
+
+Sales will need to work with Deal Desk using this [workflow](../../../../sales/field-operations/sales-operations/deal-desk#concurrent-subscriptions) to request a temporary Premium or Ultimate subscription which will result in a $0 paid subscription without the trial limitations.
+
+Support should not use the [NFR workflow](#how-to-extend-an-nfr-not-for-resale-saas-trial-using-the-rails-console) to process such request.
 
 ## Extending trials
 

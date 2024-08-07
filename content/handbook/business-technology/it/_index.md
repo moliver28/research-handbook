@@ -75,7 +75,7 @@ The IT Engineering sub-department is focused on designing, developing, and imple
 <br />
 The IT Engineering team implements Okta SSO for our tech stack applications. You can learn more on the <a href="/handbook/business-technology/okta">Okta handbook page</a>.<br />
 <br />
-The IT Support team handles <a href="https://about.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/">access requests</a> for the tech stack applications that IT manages. All access requests are created in the same <a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request">issue tracker</a> project, regardless of which System Owner is responsible for provisioning your user account.<br />
+The IT Support team handles <a href="https://handbook.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/">access requests</a> for the tech stack applications that IT manages. All access requests are created in the same <a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request">issue tracker</a> project, regardless of which System Owner is responsible for provisioning your user account.<br />
 <br />
 The IT Development team also focuses on Identity and Access Management (IAM) and Role-Based Access Control (RBAC) automation. We are developing <a href="/handbook/it/access-manager">GitLab Access Manager (GLAM)</a>, a custom application that will replace access request issues and manual provisioning with a streamlined custom web UI and API integration with most of our tech stack applications for user and role provisioning.<br />
 
@@ -104,7 +104,7 @@ The IT Infrastructure team manages AWS and GCP infrastructure that is not relate
 <br />
 We collaborate with the <a href="/handbook/engineering/infrastructure">Reliability Engineering (SRE)</a> and <a href="/handbook/security/product-security/infrastructure-security/">Infrastructure Security</a> teams to provide Infrastructure Shared Services for all AWS, Azure, and GCP related requests and support across the organization.<br />
 <br />
-We also provide escalation engineering and triage support for the <a href="/handbook/security/security-operations/sirt">Security Incident Response Team ("SIRT")</a> and <a href="/handbook/security/threat-management/red-team">Security Red Team</a> when security anomalies, events, or incidents require AWS/GCP subject matter expertise.<br />
+We also provide escalation engineering and triage support for the <a href="/handbook/security/security-operations/sirt">Security Incident Response Team ("SIRT")</a> and <a href="/handbook/security/security-operations/red-team">Security Red Team</a> when security anomalies, events, or incidents require AWS/GCP subject matter expertise.<br />
 <br />
 Our focus is on organizational policy management, access request provisioning, and services that are outside of the <a href="/handbook/engineering/infrastructure">Reliability Engineering</a> scope of hosting the GitLab.com SaaS service, such as the provisioning of demo/sandbox/test infrastructure for team members.<br />
 <br />
@@ -204,19 +204,13 @@ You can ask questions or get assistance in the <a href="https://gitlab.slack.com
 
 </details>
 
-## Initiatives
+## Initiatives {#initiatives}
 
-{: #initiatives}
-
-### OKRs
-
-{: #okrs}
+### OKRs {#okrs}
 
 You can see our OKRs in the [Business Technology OKR issue tracker](https://gitlab.com/gitlab-com/business-technology/okrs).
 
-### Initiative Codenames
-
-{: #initiative-codenames}
+### Initiative Codenames {#initiative-codenames}
 
 Our department manages technical projects with a lot of depth and/or breadth that may have a very long descriptive title. This is similar to a [confidential project name](/handbook/communication/confidentiality-levels/#project-names), however usually has minimal usage outside the IT department and is only for internal initiatives (in collaboration with security teams) to quickly refer to a project as part of our team's morale since we get excited and rally around codenames.
 
@@ -232,13 +226,9 @@ We use animated movie and theme park references. We are careful to avoid tradema
 | Hercules          | SSO/SCIM migration for tech stack applications                                         |
 | Wristband         | Separate IAM user accounts color-based classifications for contractors, team members, service accounts, elevated admin accounts, etc. |
 
-## Who We Are
+## Who We Are {#who-we-are}
 
-{: #who-we-are}
-
-### Leadership Team
-
-{: #who-leadership}
+### Leadership Team {#who-leadership}
 
 | Name                                                                  | Role                                     | Business Engagement Focus Areas                                     |
 |-----------------------------------------------------------------------|------------------------------------------|---------------------------------------------------------------------|
@@ -248,9 +238,7 @@ We use animated movie and theme park references. We are careful to avoid tradema
 | [Eric Rubin](/handbook/company/team/#ericrubin)        | Senior Manager, IT Security Operations          | Endpoint Security, Okta, Nira                                       |
 | [Derek Isla](/handbook/company/team/#disla)            | Manager, IT Compliance                          | IT Compliance |
 
-### IT Support Team
-
-{: #who-support}
+### IT Support Team {#who-support}
 
 | Name                                                                        | Role                            | Timezone Coverage |
 |-----------------------------------------------------------------------------|---------------------------------|-------------------|
@@ -261,9 +249,7 @@ We use animated movie and theme park references. We are careful to avoid tradema
 | Mic Rohr                                            | IT Helpdesk Analyst             | AMER              |
 | [Max Hirata](/handbook/company/team/#mraetz)                 | IT Helpdesk Analyst             | APAC              |
 
-### Engineering Team
-
-{: #who-engineering}
+### Engineering Team {#who-engineering}
 
 | Name                                                | Role                              | Focus Areas (Specialties)                                    |
 |-----------------------------------------------------|-----------------------------------|--------------------------------------------------------------|
@@ -273,17 +259,13 @@ We use animated movie and theme park references. We are careful to avoid tradema
 | [Mohammed Al Kobaisy](/handbook/company/team/#malkobaisy)    | IT Systems Administrator          | Infrastructure, Operations, Support                                |
 | [Vlad Stoianovici](/handbook/company/team/#vlad)             | Senior IT Site Reliability Engineer | Infrastructure, Operations, Support                        |
 
-### IT Compliance Team
-
-{: #who-it-compliance}
+### IT Compliance Team {#who-it-compliance}
 
 | Name                                                                        | Role                              |
 |-----------------------------------------------------------------------------|-----------------------------------|
 | [Sarah Pang](/handbook/company/team/#arahpang)                                       | Senior IT Compliance Engineer     |
 
-### IT Security Operations Team
-
-{: #who-it-security}
+### IT Security Operations Team {#who-it-security}
 
 | Name                                                                        | Role                              |
 |-----------------------------------------------------------------------------|-----------------------------------|

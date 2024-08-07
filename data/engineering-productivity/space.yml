@@ -1,0 +1,170 @@
+- name: Quarterly Engineering satisfaction survey NPS score
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Score taken from the Quarterly Engineering satisfaction survey
+  target: TBD
+  category: satisfaction
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  urls:
+- name: Team member retention
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: We need to be able to retain talented team members. Retention measures our ability to keep them sticking around at GitLab. Team Member Retention = (1-(Number of Team Members leaving GitLab/Average of the 12 month Total Team Member Headcount)) x 100. GitLab measures team member retention over a rolling 12 month period. This is an internal metric.
+  target: at or above 84%
+  category: satisfaction
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  urls:
+    - https://10az.online.tableau.com/#/site/gitlab/views/N5AttritionDashboard/AttritionDashboard?:iid=1
+- name: Escape Rate
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: This shows the rate that bugs are created. It is the ratio of opened bugs to the number of MRs merged. As an example, an escape rate of 10% indicates that, on average, for every 10 MRs merged we will see 1 bug opened. Looking at the escape rate helps us understand the quality of the MRs we are merging.
+  target: Currently no target is set for this metric. We need to establish a baseline and consider the right balance between velocity and quality.
+  category: performance
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/IssueTypesDetail/EscapeRate
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+  urls:
+    - https://handbook.gitlab.com/handbook/engineering/development/performance-indicators/#escape-rate-over-time
+- name: Flaky Tests
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: TBD
+  target: TBD
+  category: performance
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/GroupBar
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+- name: S1 Bugs
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Number of open S1 bugs over time
+  target: TBD
+  category: performance
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S1OpenBugAgePI
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+- name: MR Rate
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: This is the ratio of product MRs to the number of team members in the group. It’s important because it shows us how productivity of our projects have changed over time. 
+  target: Varies by group
+  category: activity
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DevelopmentEmbeddedDashboard/GroupMRRate
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+- name: Time from hire to first contribution
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: This measures the median time it takes for team members to merge their first contribution to the product.
+  target: TBD
+  category: collaboration
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TimetoFirstContribution/TimetoFirstContribution
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+- name: MR Group Collaboration Count
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: This measures the number of groups involved in an MR.
+  target: TBD
+  category: collaboration
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MRGroupCollaborationCount/MRGroupCollaborationCount
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+- name: Review Time to Merge
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Review Time to Merge (RTTM) tells us on average how long it takes from submitting code for review to being merged.
+  target: At or below 3
+  category: efficiency
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/RTTM/Sheet1
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+- name: Open MR Age (OMA)
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: We want to be more intuitive with calculating how long it takes an MR to merge or close. Open MR Age (OMA) measures the median time of all open MRs as of a specific date. In other words, on any given day, we calculate the number of open MRs and median time in open state for those MRs at that point in time.
+  target: At or below 30
+  category: efficiency
+  health:
+    level: 2
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/OpenMRAgeOMA/Sheet1
+- name: Open Bug Age (OBA)
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Open Bug Age (OBA) measures the total number of days that all bugs are open within a month divided by the number of bugs within that month.
+  target: TBD
+  category: efficiency
+  # dri: <a href="https://gitlab.com/vincywilson">Vincy Wilson</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/OpenBugDashboards/open-median
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+- name: Weekly Merge Frequency
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: This is the weekly number of MRs merged. Hovering over the data points will give the daily frequencies.
+  target: TBD
+  category: efficiency
+  # dri: <a href="https://gitlab.com/vincywilson">Vincy Wilson</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/WeeklyMergeFrequency/WeeklyMergeFrequency
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+

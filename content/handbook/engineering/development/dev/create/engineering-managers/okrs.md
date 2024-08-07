@@ -1,13 +1,6 @@
 ---
-
 title: Objectives & Key Results (OKRs)
 ---
-
-
-
-
-
-
 
 ## Cascading OKRs
 
@@ -46,34 +39,34 @@ All OKRs have the following format:
 **Month 1**
 
 * Week 1 - This week EMs are scoring OKRs from the previous quarter that may not have been scored.
-    * Update the final OKR scores from the previous quarter
-    * Complete the OKR Retrospective from the previous quarter
-    * Close out the previous quarters' OKRs
+  * Update the final OKR scores from the previous quarter
+  * Complete the OKR Retrospective from the previous quarter
+  * Close out the previous quarters' OKRs
 
 * Week 4
-    * Update the current progress (scores)
-    * Update OKRs if business priorities have recently changed or if you realize they are unrealistic
-    * Remove OKRs if business priorities have recently changed
-    * Add new OKRs if business priorities have recently changed
+  * Update the current progress (scores)
+  * Update OKRs if business priorities have recently changed or if you realize they are unrealistic
+  * Remove OKRs if business priorities have recently changed
+  * Add new OKRs if business priorities have recently changed
 
 **Month 2**
 
 * Week 4
-    * Updating current progress (scores)
-    * Update OKRs if business priorities have recently changed or if you realize they are unrealistic
-    * Remove OKRs if business priorities have recently changed
-    * Add new OKRs if business priorities have recently changed
+  * Updating current progress (scores)
+  * Update OKRs if business priorities have recently changed or if you realize they are unrealistic
+  * Remove OKRs if business priorities have recently changed
+  * Add new OKRs if business priorities have recently changed
 
 **Month 3**
 
 * Week 2 - This week EMs will begin identifying organizational KRs that are applicable to their teams including KRs they would like their team to focus on.
 
-    * Begin working on the next quarter's OKRs
+  * Begin working on the next quarter's OKRs
 
 * Week 4 - This week EMs are wrapping up the current OKRs for this quarter as well as finalizing the OKRs for the next quarter.
 
-    * Begin finalizing the OKR score updates for the current quarter
-    * Finalize the next quarter's OKRs.
+  * Begin finalizing the OKR score updates for the current quarter
+  * Finalize the next quarter's OKRs.
 
 ## Guidelines for Writing Effective Key Results
 
@@ -126,7 +119,6 @@ All KRs should have the following labels:
 
 As we close out the quarterly OKRs, the Create Stage Engineering Managers use the following OKR Retrospective format below.
 
-
 **RETROSPECTIVE**
 
 **Good**
@@ -149,6 +141,7 @@ Things that we can do better next time. These can include a suggestion on how to
 **Best**
 
 Things that went really well. Celebrate! How can we do more of this?
+
 * ...
 
 **Feels + Open Questions**
@@ -162,14 +155,3 @@ Emotions, mindsets, areas of confusion, and opportunities to consider.
 * Was the goal harder or easier to achieve than you'd thought when you set it?
 * If we were to rewrite the goal, what would we change?
 * What have we learned that might alter our approach for our next cycle's OKRs?
-
-
-
-
-
-
-
-
-
-
-

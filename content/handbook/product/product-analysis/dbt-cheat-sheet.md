@@ -1,5 +1,4 @@
 ---
-
 title: "dbt Cheat Sheet"
 description: "data build tool (dbt) Cheat Sheet for Functional Analysts"
 ---
@@ -36,8 +35,7 @@ running the onboarding script.
 - `role:` This is your Snowflake role, usually first initial + last name (ex: `JSMITH`)
 - `database:` This is your first initial + last name (ex: `JSMITH`)
 - Set up targets for different sized warehouses (ex: one for `DEV_XS` and one for `DEV_L`)
-  - Note: You should always default to using an XS warehouse. The [example provided in the
-  dbt guide](/handbook/business-technology/data-team/platform/dbt-guide/#example) defaults
+  - Note: You should always default to using an XS warehouse. The [example provided in the dbt guide](/handbook/business-technology/data-team/platform/dbt-guide/#example) defaults
   to an XS warehouse.
 
 ## Setting up development databases in Snowflake
@@ -66,7 +64,7 @@ environment.
 This will clone a single model from the production database into your development database.
 Cloning a single model only takes a few seconds.
 
-```
+```sql
 CREATE OR REPLACE TRANSIENT TABLE {DEV_DATABASE}.{SCHEMA_NAME}.{TABLE_NAME}
 CLONE {PROD_DATABASE}.{SCHEMA_NAME}.{TABLE_NAME}
 ;
@@ -81,7 +79,7 @@ Note: the schema must already exist in your development database in order to clo
 
 <details markdown="1"><summary>How to create a new schema in your development database</summary>
 
-```
+```sql
 CREATE SCHEMA IF NOT EXISTS {DEV_DATABASE}.{SCHEMA_NAME};
 
 --Example
@@ -95,7 +93,7 @@ CREATE SCHEMA IF NOT EXISTS JSMITH_PROD.COMMON;
 This will clone all models in a production schema into a schema in your development database.
 Cloning an entire schema can take several minutes.
 
-```
+```sql
 CREATE OR REPLACE SCHEMA {DEV_DATABASE}.{SCHEMA_NAME}
 CLONE {PROD_DATABASE}.{SCHEMA_NAME}
 ;
@@ -112,7 +110,6 @@ You should always default to using an XS warehouse and be mindful of the costs a
 with running queries using a larger warehouse. See the
 [dbt Guide](/handbook/business-technology/data-team/platform/dbt-guide/#choosing-the-right-snowflake-warehouse-when-running-dbt)
 for guidance on selecting the appropriate warehouse when running dbt.
-{: .alert .alert-info}
 
 ### Running models in dbt
 
@@ -129,7 +126,7 @@ like `+` and `@` to refer to upstream or downstream models
 - You can specify that you want to run the models using a larger warehouse by setting the
 `target` (warehouse connection).
 
-```
+```console
 dbt run --select my_model                       # run my_model
 dbt run --select my_model my_model_2            # run my_model and my_model_2
 dbt run --select my_model+                      # run my_model and all children
@@ -145,7 +142,7 @@ dbt run --select my_model --target dev_l        # run my_model using a L warehou
 Testing models in dbt just requires you to run `dbt test`. `dbt test` uses the same syntax
 (ex: `--select`) as `dbt run`
 
-```
+```console
 dbt test --select my_model # run custom tests on my_model
 ```
 
@@ -153,13 +150,13 @@ dbt test --select my_model # run custom tests on my_model
 
 Once you are running dbt, linting a model can be done with a single command. Please read the
 [SQLFluff section of the SQL Style Guide](/handbook/business-technology/data-team/platform/sql-style-guide/#sqlfluff)
-for instructions on how to install SQLFluff on your local machine and more more details about
+for instructions on how to install SQLFluff on your local machine and more details about
 the linter settings. When you run the linter, the results will be printed in your terminal.
 
 You can also leverage the `fix` command to have the linter apply fixes to rule violations
 (when possible).
 
-```
+```console
 sqlfluff lint models/path/to/file/file-to-lint.sql # lint the file and print results in terminal
 sqlfluff fix models/path/to/file/file-to-lint.sql  # lint the file and apply fixes
 ```
@@ -188,7 +185,7 @@ file *OR* you can use the [`doc` function](https://docs.getdbt.com/reference/dbt
 to reference documentation in a different file. Example schema.yml file
 [here](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart/schema.yml).
 
-```
+```yaml
 models:
 - name: mart_event_valid
   description: '{{ doc("mart_event_valid") }}'
@@ -221,7 +218,7 @@ documentation in schema.yml. Example schema_name.md file [here](https://gitlab.c
 
 To add a new model In the markdown file, add the following:
 
-```
+```markdown
 {% docs model_name %}
 
 Model description here
@@ -231,7 +228,7 @@ Model description here
 
 Then you can reference a definition in this schema.yml using `'{{ doc("model_name") }}'` (example below).
 
-```
+```yaml
 models:
 - name: mart_event_valid
   description: '{{ doc("mart_event_valid") }}'
@@ -248,7 +245,7 @@ once and then reference it multiple times.
 Before adding a new column definition, please check to see if a definition already
 exists. If it is not, then add the following to the markdown file:
 
-```
+```markdown
 {% docs column_name %}
 
 Column definition
@@ -259,7 +256,7 @@ Column definition
 Once the column is defined, you can reference it in schema.yml using `'{{ doc("column_name") }}'`
 (example below)
 
-```
+```yaml
 models:
 - name: mart_event_valid
   description: '{{ doc("mart_event_valid") }}'
@@ -314,127 +311,10 @@ Use this for updates to dbt docs that do not actually change the models
 Please see the [Data Team CI Jobs handbook page](/handbook/business-technology/data-team/platform/ci-jobs/)
 for the most up-to-date information and details about the different CI jobs.
 
-There are 2 different ways to kick off a job, either from the MR's Pipelines page or on a
-specific pipeline page. The screenshots below show an MR's Pipelines page.
-
-Note: You need to wait for a job to finish before running the next one. For example, you
-need to wait until the dependencies are all cloned before you can run the changed model.
-{: .alert .alert-info}
-
-#### Clone dependencies
-
-The first thing you will need to do is clone the dependencies required for your model.
-There are a couple of ways to do this, but the fastest, preferred method is to use
-[⚙️ dbt Run > 🔆⚡️clone_model_dbt_select](/handbook/business-technology/data-team/platform/ci-jobs/#clone_model_dbt_select).
-
-![clone_model_dbt_select on pipelines page](/handbook/product/product-analysis/dbt-cheat-sheet/images/clone_model_dbt_select_on_pipelines_page.png)
-
-⚙️ dbt Run > 🔆⚡️clone_model_dbt_select requires you to pass which models to clone using
-the `DBT_MODELS` variable.
-
-- Key: `DBT_MODELS`
-- Value: `+[changed_model_name]` (this will clone all the specified model and all its parents)
-
-![clone_model_dbt_select variables](/handbook/product/product-analysis/dbt-cheat-sheet/images/clone_model_dbt_select_variables.png)
-
-
-Other options for cloning models are:
-- [❄️ Snowflake > 📈❗️clone_prod_real](/handbook/business-technology/data-team/platform/ci-jobs/#clone_prod_real):
-this job clones *all* of PREP and PROD databases and does not require any configuration/variables
-- [❄️ Snowflake > 📈⚙clone_prod_specific_schema](/handbook/business-technology/data-team/platform/ci-jobs/#clone_prod_specific_schema):
-this job clones the schema provided in the `SCHEMA_NAME` variable
-
-#### Build changed models
-
-Once the dependencies are cloned, you can actually build the model you are changing. To do this,
-use [⚙️ dbt Run > 🏗🛺️run_changed_models_sql](/handbook/business-technology/data-team/platform/ci-jobs/#run_changed_models_sql).
-
-![run_changed_models_sql on pipelines page](/handbook/product/product-analysis/dbt-cheat-sheet/images/run_changed_models_sql_on_pipelines_page.png)
-
-⚙️ dbt Run > 🏗🛺️run_changed_models_sql will run all .sql models in the MR diff where the SQL
-has been edited. Please note that there are actually 3 versions of the `run_changed_models_sql`
-job, each on a different sized warehouse. Select the job that is best suited for your use
-case, keeping in mind the time it will take to run the models and the cost of running a larger
-warehouse.
-
-1. 🏗🛺️run_changed_models_sql runs on a XS warehouse
-1. 🏗️🛺🦖run_changed_models_sql_l runs on a L warehouse
-1. 🏗️🛺🐘run_changed_models_sql_xl runs on a XL warehouse
-
-While there are not any required variables for this CI job, there are 1-2 that will be helpful
-in speeding up the job and testing the upstream/downstream models.
-
-1. All CI jobs are set to run a full refresh, including incremental models. Overwrite this setting
-by passing the variable `REFRESH` with a single space `` as the value. (This satisfies the
-*vast* majority of use cases. It would only be on a MR relating to an incremental model when
-you would not want to pass this variable)
-  - Key: `REFRESH`
-  - Value: `` (just a whitespace)
-2. You can specify that you want to also build models that are upstream or downstream of the
-changed model. Passing the variable `DEPENDENT_TYPE` with a value of `+` will build the
-changed model in addition to all downstream dependencies. (This satisfies the *vast* majority
-of use cases where you need to test upstream/downstream dependencies). See more options/details
-in the [Data team documentation](/handbook/business-technology/data-team/platform/ci-jobs/#run_changed_models_sql)
-  - Key: `DEPENDENT_TYPE`
-  - Value: `+`
-
-![run_changed_models_sql variables](/handbook/product/product-analysis/dbt-cheat-sheet/images/run_changed_models_sql_variables.png)
-
-#### Specify model
-
-Sometimes you need to build a single model when re-running the pipeline or in testing MRs
-that do not change any SQL files (ex: updates to dbt docs). In this case, you want to use
-[⚙️ dbt Run > 🐭specify_model](/handbook/business-technology/data-team/platform/ci-jobs/#specify_model).
-
-![specify_model on pipelines page](/handbook/product/product-analysis/dbt-cheat-sheet/images/specify_model_on_pipelines_page.png)
-
-Like `run_changed_models_sql`, there are different versions of ⚙️ dbt Run > 🐭specify_model,
-each using a different sized warehouse. Again, you should select the job that is best suited
-for your use case, keeping in mind the time it will take to run the models and the cost of
-running a larger warehouse.
-
-1. 🐭specify_model runs on a XS warehouse
-1. 🦖specify_l_model runs on a L warehouse
-1. 🐘specify_xl_model runs on a XL warehouse
-
-This job requires a single variable, `DBT_MODELS` to specify which model you want to build.
-
-- Key: `DBT_MODELS`
-- Value: `[model_name]`
-
-![specify_model variables](/handbook/product/product-analysis/dbt-cheat-sheet/images/specify_model_variables.png)
-
-#### Grant access to MR database
-
-Once the models are rebuilt, you will want to do testing against the new version of the
-models. The CI jobs above clone and build models in a database specific to the MR branch.
-Functional analysts do not automatically gain access to these databases. In order to grant
-access, you need to run [❄️ Snowflake > 🔑grant_clones](/handbook/business-technology/data-team/platform/ci-jobs/#grant_clones).
-
-![grant_clones on pipelines page](/handbook/product/product-analysis/dbt-cheat-sheet/images/grant_clones_on_pipelines_page.png)
-
-{{% panel header="**IMPORTANT**" header-bg="info" %}}
-1. This job only creates grants on existing objects and will not apply to any additional
-models created after the job runs. Be sure to clone and build all required models *before*
-running the job.
-1. This job only creates grants on objects that already exist in PREP or PROD (i.e., existing
-models). If it is a net-new model, you still need to ping a DE to grant access to the new
-model in the MR database.
-{{% /panel %}}
-
-This job requires a single variable, `GRANT_TO_ROLE` to specify the Snowflake role you want
-to grant SELECT access to. Snowflake roles are usually first initial + last name (ex: Jane
-Smith's role would be `JSMITH`). There is an exhaustive list of roles in [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
-
-- Key: `GRANT_TO_ROLE`
-- Value: `[SNOWFLAKE_ROLE]`
-
-![grant_clones variables](/handbook/product/product-analysis/dbt-cheat-sheet/images/grant_clones_variables.png)
-
-Once you have access to the MR database, it will appear in the Snowflake UI. Please note that
-you cannot query the MR database from Sisense, you need to use Snowflake.
-
-![MR database in Snowflake UI](/handbook/product/product-analysis/dbt-cheat-sheet/images/mr_database_in_snowflake_ui.png)
+{{< panel header="**Note**" header-bg="blue" >}}
+You need to wait for a job to finish before running the next one. For example, you
+need to wait until the dependencies are all cloned before you can build the changed model.
+{{< /panel >}}
 
 ### MRs to add new tables or columns to the Postgres/GitLab.com pipeline
 
@@ -452,8 +332,7 @@ Before assigning any reviewers, make sure that you go through the checklist in t
 This will ensure that you completed all required steps before a member of the Data team starts
 reviewing the code.
 
-In the `Auditing` section of the MR template, make sure that all queries refer to the MR branch database. (See
-instructions on how to gain access to the MR database [here](#grant-access-to-mr-database)).
+In the `Auditing` section of the MR template, make sure that all queries refer to the MR branch database.
 Other team members (ex: Analytics Engineers) reviewing the MR will also have access to the
 MR database and that is how they will review and validate the changes.
 

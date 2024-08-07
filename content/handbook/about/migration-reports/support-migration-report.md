@@ -10,9 +10,7 @@ Description: Migration report for moving the handbooks support section
 Please complete the following tasks:
 
 - [x] Review the MR in handbook for the new content
-  - MR Link: [branch 'add-support-to-handbook' set up to track 'origin/add-support-to-handbook'.
-https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/323](
-https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/323)
+  - MR Link: [branch 'add-support-to-handbook' set up to track 'origin/add-support-to-handbook'](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/323)
 - [x] Fix outstanding markdown lint errors
 - [x] Merge MR for `handbook`
 - [x] Review the MR in `www-gitlab-com` for the removal of the old content

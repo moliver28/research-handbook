@@ -1,43 +1,59 @@
 ---
 title: Labels and issue boards
-description: Support Operations policies page for labels and issue boards
+description: Support Readiness policies page for labels and issue boards
 canonical_path: "/handbook/support/readiness/operations/docs/policies/labels_and_issue_boards"
 ---
 
 ## How we use GitLab Labels
 
-The Support Readiness-Operations team uses labels to help us categorize and manage our work.
+The Support Readiness team uses labels to help us categorize and manage our
+work.
 
-We use labels to triage and categorize every issue created under our [Issue Tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project). During issue creation, we use a specific issue template for each area we handle so that we can automatically add group labels and assignees based on our [division of responsibilities](/handbook/support/readiness/operations/division_of_responsibilities/).
+We use labels to triage and categorize every issue we are involved in.
 
-We also use labels to categorize issues created under the [Support Team Meta project](https://gitlab.com/gitlab-com/support/support-team-meta) where Support Readiness involvement is needed.
-
-The table below provides a summary of all labels used by the Support Readiness team, when they're used, as well as a brief description of the intent behind the label.
+During issue creation, we use a specific issue template for each area we handle
+so that we can automatically add group labels and assignees based on our
+[division of responsibilities](/handbook/support/readiness/operations/division_of_responsibilities/).
 
 ## Labels usage and description
 
+### Progress Labels
+
+| Label | Meaning |
+|-------|---------|
+| ![Readiness::Triage](https://img.shields.io/badge/Readiness-Triage-9400d3) | Used to track issues that are to be triaged and need to be qualified as requiring Support Readiness input |
+| ![Readiness::Consulting](https://img.shields.io/badge/Readiness-Consulting-8fbc8f) | Used to track issues that require input and discussion from the Support Readiness team to determine feasibility of potential changes |
+| ![Readiness::Planning](https://img.shields.io/badge/Readiness-Planning-6699cc) | Used to track issues that the Support Readiness team are to undertake. During this stage, required resources will be identified and a schedule will be determined |
+| ![Readiness::Development](https://img.shields.io/badge/Readiness-Development-cc338b) | Used to track issues that involve changes by Support Readiness that undergoing active development |
+| ![Readiness::Deployment](https://img.shields.io/badge/Readiness-Deployment-36454f) | Used to track issues that involve changes by Support Readiness that have been developed and have either been deployed or are awaiting the next deployment cycle |
+| ![Readiness::Validation](https://img.shields.io/badge/Readiness-Validation-e6e6fa) | Used to track issues that involve changes by Support Readiness that have been deployed and are now awaiting review/confirmation that the solution is as expected |
+| ![Readiness::Completed](https://img.shields.io/badge/Readiness-Completed-808080) | Used to track issues that involve changes by Support Readiness. The solution has been successfully developed and validated by the requester and is now complete |
+| ![Readiness::Blocked](https://img.shields.io/badge/Readiness-Blocked-ff0000) | The issues/MRs that are blocked and Support Readiness is not able to actively work on them |
+| ![Readiness::Backlogged](https://img.shields.io/badge/Readiness-Backlogged-34495e) | For issues backlogged by Support Readiness |
+
+### Planning Labels
+
+| Label | Meaning |
+|-------|---------|
+| ![Readiness Priority::Triage](https://img.shields.io/badge/Readiness_Priority-Triage-330066) | Priority has not yet been set |
+| ![Readiness Priority::Next Deployment](https://img.shields.io/badge/Readiness_Priority-Next_Deployment-330066) | It is slated for the next deployment |
+| ![Readiness Priority::Current Quarter](https://img.shields.io/badge/Readiness_Priority-Current_Quarter-330066) | It is slated for a deployment in the current quarter |
+| ![Readiness Priority::Next Quarter](https://img.shields.io/badge/Readiness_Priority-Next_Quarter-330066) | It is slated for a deployment in the next quarter |
+| ![Readiness Priority::This Fiscal Year](https://img.shields.io/badge/Readiness_Priority-This_Fiscal_Year-330066) | It is slated for a deplyoment in the current fiscal year |
+| ![Readiness Priority::Backlogged](https://img.shields.io/badge/Readiness_Priority-Backlogged-330066) | It is slated for the deplyoment in the future beyond the current fiscal year |
+
+### Readiness Specialization Labels
+
+| Label | Meaning |
+|-------|---------|
+| ![Readiness Specialization - Operations](https://img.shields.io/badge/Readiness_Specialization-Operations-330066) | https://handbook.gitlab.com/job-families/engineering/support-readiness-specialist/#operations |
+| ![Readiness Specialization - Training](https://img.shields.io/badge/Readiness_Specialization-Training-330066) | https://handbook.gitlab.com/job-families/engineering/support-readiness-specialist/#training |
+| ![Readiness Specialization - Data Analysis & Services Delivery](https://img.shields.io/badge/Readiness_Specialization-Data_Analysis_&_Services_Delivery-330066) | https://handbook.gitlab.com/job-families/engineering/support-readiness-specialist/#data-analysis--services-delivery |
+
+### Category Labels
+
 | Label | Category | Used in | Description |
 |:-----:|----------|---------|-------------|
-| ~"Readiness::Triage" | Project stage | STM Issues and Issue Tracker Project | Used to track issues that are to be triaged and need to be qualified as requiring Support Readiness input.|
-| ~"Readiness::Consulting" | Project stage | STM Issues and Issue Tracker Project | Used to track issues that require input and discussion from the Support Readiness team to determine feasibility of potential changes. |
-| ~"Readiness::Scoping" | Project stage | STM Issues and Issue Tracker Project | Used to track issues that will require some change by the Support Readiness team. During this stage, Readiness will gather requirements and establish the scope of work to be done.|
-| ~"Readiness::Planning" | Project stage | STM Issues and Issue Tracker Project | Used to track issues that the Support Readiness team are to undertake. During this stage, required resources will be identified and a schedule will be determined. |
-| ~"Readiness::Development" | Project stage | STM Issues and Issue Tracker Project | Used to track issues that involve changes by Support Readiness that undergoing active development. |
-| ~"Readiness::Deployment" | Project stage | STM Issues and Issue Tracker Project | Used to track issues that involve changes by Support Readiness that have been developed and have either been deployed or are awaiting the next deployment cycle. |
-| ~"Readiness::Validation" | Project stage | STM Issues and Issue Tracker Project | Used to track issues that involve changes by Support Readiness that have been deployed and are now awaiting review/confirmation that the solution is as expected |
-| ~"Readiness::Completed" | Project stage | STM Issues and Issue Tracker Project | Used to track issues that involve changes by Support Readiness. The solution has been successfully developed and validated by the requester and is now complete. |
-| ~"SupportOps::To Do" | Progress Label | Issue Tracker Project | Support has not yet begun working the issue/MR |
-| ~"SupportOps::Doing" | Progress Label | Issue Tracker Project | Support Ops is actively working the issue/MR |
-| ~"SupportOps::Completed" | Progress Label | Issue Tracker Project | Support Ops has completed the issue/MR |
-| ~"SupportOps::Blocked" | Progress Label | Issue Tracker Project | Support Ops is blocked from working the issue/MR |
-| ~"SupportOps::Backlog" | Progress Label | Issue Tracker Project | Support Ops has determined the issue/MR is needed, but is not able to prioritize it at this time |
-| ~"SupportOps::Triaged" | Progress Label |  Issue Tracker Project | The ticket has been triaged but still needs a progress label |
-| ~"SupportOps::Needs Attention" | Group Label | Issue Tracker Project | The issue/MR is missing a progress label |
-| ~"Support-Ops-Priority::Urgent" | Priority| Issue Tracker Project | This is a system critical issue. The expected SLO for this is 3 days |
-| ~"Support-Ops-Priority::High" | Priority | Issue Tracker Project | The expected SLO for this is 7 days |
-| ~"Support-Ops-Priority::Normal" | Priority | Issue Tracker Project | The expected SLO for this is 14 days |
-| ~"Support-Ops-Priority::Low" | Priority | Issue Tracker Project | The expected SLO for this is 30 days |
-| ~"Support-Ops-Priority::Missing" | Priority | Issue Tracker Project | It is missing a priority label |
 | ~"Support-Ops-Category::Account Deletions" | Category | Issue Tracker Project | The issue/MR is about Account Deletions |
 | ~"Support-Ops-Category::Agent Signatures" | Category | Issue Tracker Project | The issue/MR is about agent signatures |
 | ~"Support-Ops-Category::Apps" | Category | Issue Tracker Project | The issue/MR is about Zendesk Apps |
@@ -60,24 +76,12 @@ The table below provides a summary of all labels used by the Support Readiness t
 | ~"Support-Ops-Category::Triggers" | Category | Issue Tracker Project | The issue/MR is about Triggers |
 | ~"Support-Ops-Category::Views" | Category | Issue Tracker Project | The issue/MR is about Views |
 | ~"Support-Ops-Category::Zendesk Settings" | Category | Issue Tracker Project | The issue/MR is about Zendesk settings (SLAs, schedules, etc.) |
-| ~"support-ops-change::1" | Change Level | Issue Tracker Project | To signify a Support Ops issue/MR is a change level 1 |
-| ~"support-ops-change::2" | Change Level | Issue Tracker Project | To signify a Support Ops issue/MR is a change level 2 |
-| ~"support-ops-change::3" | Change Level | Issue Tracker Project | To signify a Support Ops issue/MR is a change level 3 |
-| ~"support-ops-change::4" | Change Level | Issue Tracker Project | To signify a Support Ops issue/MR is a change level 4 |
 | ~"Zendesk::Global" | Zendesk Instance | Issue Tracker Project | This relates to the Zendesk Global instance |
 | ~"Zendesk::US-Federal" | Zendesk Instance | Issue Tracker Project | This relates to the Zendesk US Federal instance |
 
-## How we use issue boards
+## Issue Boards
 
-The Readiness [issue board](https://gitlab.com/gitlab-com/support/support-team-meta/-/boards/7261822) is based on the following project labels:
+You can find our issue boards via:
 
-- ~"Readiness::Triage"
-- ~"Readiness::Consulting"
-- ~"Readiness::Scoping"
-- ~"Readiness::Planning"
-- ~"Readiness::Development"
-- ~"Readiness::Deployment"
-- ~"Readiness::Validation"
-- ~"Readiness::Completed"
-
-The issue board allows us to keep track of the various Support Team Meta issues we are involved in and gives an overview of the number of issues we have in each project stage.
+- [Support Readiness - Progress](https://gitlab.com/groups/gitlab-com/support/-/boards/7568554)
+- [Support Readiness - Planning](https://gitlab.com/groups/gitlab-com/support/-/boards/7568559)

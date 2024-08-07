@@ -1,13 +1,6 @@
 ---
-
 title: Server Runtime Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## Introduction
 
@@ -15,7 +8,7 @@ This page provides a comprehensive overview of *Server Runtime* and catalogs rel
 
 ## About Server Runtime
 
-Server Runtime is aimed at engineering a performant, scalable remote development experience & productizing it as a customer offering. When this comes to fruition, we envision being able to bring to bear a remote development experience that is browser and platform agnostic and lets GitLab users build, run and test their code right within the GitLab platform. We see this as a viable product idea to generate revenue for the company & to transform the IDE experience for engineers. Competitors in this space, currently, are GitPod and Codespaces.
+Server Runtime is aimed at engineering a performant, scalable workspace experience & productizing it as a customer offering. When this comes to fruition, we envision being able to bring to bear a workspace experience that is browser and platform agnostic and lets GitLab users build, run and test their code right within the GitLab platform. We see this as a viable product idea to generate revenue for the company & to transform the IDE experience for engineers. Competitors in this space, currently, are GitPod and Codespaces.
 
 Generally, cloud based development environments have the following traits:
 
@@ -60,23 +53,21 @@ The most recent weekly update for the Server Runtime SEG can be found at:
 
 | Date       | Tl;DR;                                                                            | Video                                                                          |
 |------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| 2022-12-23 | GitLab Agent - Making changes to workspace state from the UI and k8s              | [https://youtu.be/nCIusZfxufo](https://youtu.be/nCIusZfxufo){:target="_blank"} |
-| 2022-12-16 | GitLab Agent - A demo of using Python and Jupyter with SR4GA4K                    | [https://youtu.be/lQK_3xTb55U](https://youtu.be/lQK_3xTb55U){:target="_blank"} |
-| 2022-12-12 | GitLab Agent - Rails UI, Authentication, Repository cloning                       | [https://youtu.be/jxHFOeg9gAw](https://youtu.be/jxHFOeg9gAw){:target="_blank"} |
-| 2022-11-29 | GitLab Agent - Started porting server runtime. Support for HTTPS                  | [https://youtu.be/-E8wJZsYnbM](https://youtu.be/-E8wJZsYnbM){:target="_blank"} |
-| 2022-11-16 | Custom Control Plane - Adding Rails UI and connecting to the GDK                  | [https://youtu.be/wyZbbrCBk6A](https://youtu.be/wyZbbrCBk6A){:target="_blank"} |
-| 2022-11-02 | Custom Control Plane - Adding Devfile support, support for SSH authn and authz    | [https://youtu.be/f_jfwh4v_q0](https://youtu.be/f_jfwh4v_q0){:target="_blank"} |
-| 2022-10-26 | Custom Control Plane - Documentation updates, support for GCP DNS, IDE selection  | [https://youtu.be/JIGNEqpdI7k](https://youtu.be/JIGNEqpdI7k){:target="_blank"} |
-| 2022-10-19 | Custom Control Plane - Adding Authentication, opening ports, attaching volumes    | [https://youtu.be/GFM0xK7Hz_I](https://youtu.be/GFM0xK7Hz_I){:target="_blank"} |
-| 2022-10-12 | What is server runtime. Starting work on the custom control plane.                | [https://youtu.be/yrhJo_wUuIM](https://youtu.be/yrhJo_wUuIM){:target="_blank"} |
-
+| 2022-12-23 | GitLab Agent - Making changes to workspace state from the UI and k8s              | [https://youtu.be/nCIusZfxufo](https://youtu.be/nCIusZfxufo) |
+| 2022-12-16 | GitLab Agent - A demo of using Python and Jupyter with SR4GA4K                    | [https://youtu.be/lQK_3xTb55U](https://youtu.be/lQK_3xTb55U) |
+| 2022-12-12 | GitLab Agent - Rails UI, Authentication, Repository cloning                       | [https://youtu.be/jxHFOeg9gAw](https://youtu.be/jxHFOeg9gAw) |
+| 2022-11-29 | GitLab Agent - Started porting server runtime. Support for HTTPS                  | [https://youtu.be/-E8wJZsYnbM](https://youtu.be/-E8wJZsYnbM) |
+| 2022-11-16 | Custom Control Plane - Adding Rails UI and connecting to the GDK                  | [https://youtu.be/wyZbbrCBk6A](https://youtu.be/wyZbbrCBk6A) |
+| 2022-11-02 | Custom Control Plane - Adding Devfile support, support for SSH authn and authz    | [https://youtu.be/f_jfwh4v_q0](https://youtu.be/f_jfwh4v_q0) |
+| 2022-10-26 | Custom Control Plane - Documentation updates, support for GCP DNS, IDE selection  | [https://youtu.be/JIGNEqpdI7k](https://youtu.be/JIGNEqpdI7k) |
+| 2022-10-19 | Custom Control Plane - Adding Authentication, opening ports, attaching volumes    | [https://youtu.be/GFM0xK7Hz_I](https://youtu.be/GFM0xK7Hz_I) |
+| 2022-10-12 | What is server runtime. Starting work on the custom control plane.                | [https://youtu.be/yrhJo_wUuIM](https://youtu.be/yrhJo_wUuIM) |
 
 ## Server Runtime Architecture
 
 ### Overview
 
 ![Server Runtime Architecture](/handbook/engineering/development/incubation/server-runtime/architecture.svg)
-
 
 Server runtime comprises of GitLab and customer managed components. GitLab manages the server side component called **KAS** and an agent, called **Agentk** runs on the customers' cluster/s.
 The Server Runtime is deployed as a module, on both, the server and the client side. AgentK makes outbound connections to KAS from the customer's k8s cluster to fetch updates. It actuates k8s resources pertinent to the runtime, such as deployment, services et cetera based on these updates. Customer hosting GitLab instances will be responsible for managing KAS while for managed GitLab.com accounts this will be managed by GitLab. GitLab can talk to KAS using a gRPC API which is accessed using the kas-gem.
@@ -146,7 +137,6 @@ sequenceDiagram
 
 Coming soon!
 
-
 ### Next steps
 
 1. Enable SSH connections for headless IDE support
@@ -156,8 +146,7 @@ Coming soon!
 ## Product Development Group Affinity
 
 - [Editor](/handbook/product/categories/#editor-group)
-- [Remote Development](https://about.gitlab.com/direction/create/ide/remote_development/)
-
+- [Workspaces](https://about.gitlab.com/direction/create/remote_development/workspaces)
 
 ## Getting started with Server Runtime
 
@@ -187,5 +176,5 @@ bazel run //cmd/agentk -- --kas-address=grpc://127.0.0.1:8150 --token-file="$(pw
 ## Handy links and pages
 
 - [Original Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/329602)
-- [Remote Development Strategy](https://gitlab.com/gitlab-org/gitlab/-/issues/377921)
+- [Workspaces Strategy](https://gitlab.com/gitlab-org/gitlab/-/issues/377921)
 - [Custom Server Runtime Playground Repository](https://gitlab.com/gitlab-org/incubation-engineering/server-runtime/custom-server-runtime-playground)

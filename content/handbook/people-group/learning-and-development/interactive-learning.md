@@ -7,7 +7,7 @@ All elearning courses at GitLab will utilize the Handbook as the Single Source o
 
 ![gitlab-learning-content-diagram](gitlab-learning-content-diagram.png)
 
-All our available learning material can be found on [Level Up](https://levelup.gitlab.com/learn/dashboard). Team members should follow [these important steps](/handbook/marketing/digital-experience/website/#updating-content-on-gitlab-learn) to update this page every time a new course or certification is created.
+All our available learning material can be found on [Level Up](https://levelup.gitlab.com/learn/dashboard).
 
 ## Examples
 
@@ -103,7 +103,7 @@ Guidelines for recording a video for a course:
    - Open your zoom app and click `new meeting`
    - Once the zoom meeting starts, make sure your video is turned on and you are unmuted.
    - Once you are ready, click the `Record` button, then click `Record on this Computer` - This will make the file save to your computer and then you can drag and drop into the designated Google Drive folder
-   - If you are sharing slides during your talk you can use the   `share screen` button as your normally would if sharing your screen in a meeting. Select the one browser that has your slides when selecting which screen to share - do not share your full Desktop as slack or other notifications could pop up in the Full Desktop mode (we don’t want to see any other applications or tabs you have open). Also, please ensure your slides are in `Present` mode and are taking up your full screen .
+   - If you are sharing slides during your talk you can use the   `share screen` button as your normally would if sharing your screen in a meeting. Select the one browser that has your slides when selecting which screen to share - do not share your full Desktop as slack or other notifications could pop up in the Full Desktop mode (we don't want to see any other applications or tabs you have open). Also, please ensure your slides are in `Present` mode and are taking up your full screen .
    - Once you are done recording, you can either hit `Pause` or `Stop` recording or just end the meeting. (Note: We can snip pieces of the video so if you start recording and then not start talking for 30+ seconds, we can snip that from the recording (same for any blank time at the end).
    - The file will take a moment to download.
    - Once it has downloaded, please either send it to the L&D team member that is working on the course or upload it to the appropriate folder for recordings for the course you are assisting with.

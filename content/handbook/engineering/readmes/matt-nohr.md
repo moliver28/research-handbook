@@ -1,14 +1,7 @@
 ---
-
 title: "Matt Nohr's README"
 job: "Engineering Manager, Code Review"
 ---
-
-#
-
-
-
-
 
 ## Matt Nohr's README
 
@@ -33,7 +26,7 @@ This document is a living breathing thing and likely incomplete. I update it fre
 - I believe in the [servant leadership](https://wheniwork.com/blog/the-ultimate-guide-to-the-servant-leadership-model/) model
 - I tend to follow a mindset like: "If you are running, I'll let you run. If you trip, I'll be there to help you back up."
 - I have a [Defender](https://www.16personalities.com/isfjs-at-work) personality
-- I prefer a [bias towards action](/handbook/values/#sts=Bias%20for%20Action).
+- I prefer a [bias towards action](/handbook/values/#sts=bias%20for%20action).
 - I respond well to being asked for help ("Can you help with X?"). I don't respond well to being told what to do ("Do X!")
 - I have worked for Fortune 100 companies and small startups. They each have advantages and disadvantages.
 - I look for small, incremental deliveables and a willingness to work on any task.
@@ -43,8 +36,8 @@ This document is a living breathing thing and likely incomplete. I update it fre
 ### Work Patterns
 
 - I live and work in the [Central Time Zone](https://www.timeanddate.com/time/zones/ct).
-    - Central Standard Time (UTC-6) in the winter
-    - Central Daylight Time (UTC-5) in the summer.
+  - Central Standard Time (UTC-6) in the winter
+  - Central Daylight Time (UTC-5) in the summer.
 - I spend time with my family before school in the mornings and in the evenings, and I am typically not available during these times. I will sometimes break this rule, especially if I have advanced warning.
 - Fridays are reserved for focused aschyrnous work, not meetings in alignment with [GitLab's Focus Fridays](/handbook/communication/#focus-fridays)
 - Even if I am working a bit on weekends, I never expect anyone else to work outside of regular work hours.

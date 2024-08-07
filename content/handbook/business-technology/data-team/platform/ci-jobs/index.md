@@ -1,16 +1,7 @@
 ---
-
 title: "Data Team CI Jobs"
 description: "GitLab Data Team CI Jobs"
 ---
-
-
-
-
-
-
-
-
 
 ---
 
@@ -72,6 +63,12 @@ Run this if you only need a clone of the raw `sheetload` schema in order to test
 
 Run this if you need a clone of any other raw schema in order to test changes or additions. Specify which raw schema to clone with the `SCHEMA_NAME` variable. If the raw clone already exists, this will do nothing.
 
+#### `clone_raw_by_schema`
+
+Clones the entire RAW DB, created due to timeout issues when trying to clone the DB using SF commands.
+
+**NB Due to the size of the DB created by running, only run this when you absolutely have to run through complete platform tests. Likely only applicable for infrastructure upgrades.**
+
 #### `force_clone_both`
 
 Run this if you want to force refresh raw, prod, and prep. This does a full clone of raw, but a shallow clone of `prep` and `prod`.
@@ -80,7 +77,7 @@ Run this if you want to force refresh raw, prod, and prep. This does a full clon
 
 Run this if you'd like to grant access to the copies or clones of `prep` and `prod` for your branch to your role or a role of a business partner. Specify the snowflake role (see [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml)) you'd like to grant access to using the `GRANT_TO_ROLE` variable. This job grants the same `select` permissions as the given role has in `prep` and `prod` for all database objects within the clones of `prep` and `prod`. It does not create any future grants and so **all relevant objects must be built in the clone before you run this job if you want to ensure adequate object grants.**
 
-***Since grants are copied from production database permissions, these grants cannot be run on new models.*** If access is needed to new models, permission can be granted by a Data Engineer after the 🔑 `grant_clones` CI job has completed successfully. Instructions for the Data Engineer can be found in [runbooks/CI_clones](https://gitlab.com/gitlab-data/runbooks/-/tree/main/CI_clones).
+***Since grants are copied from production database permissions, these grants cannot be run on new models.*** If access is needed to new models, permission can be granted by a Data Engineer after the 🔑 `grant_clones` CI job has completed successfully. Ideally a request contains the specific (new) objects or at minimum the schema. There won't be access granted on full databases. Instructions for the Data Engineer can be found in [runbooks/CI_clones](https://gitlab.com/gitlab-data/runbooks/-/tree/main/CI_clones).
 
 **This will be fastest if the Data Engineer is provided with:**
 
@@ -101,28 +98,27 @@ Run this if you want to test a new boneyard sheetload load. This requires the re
 
 Run this if you want to test a new sheetload load. This jobs runs against the clone of `RAW`. Requires the `clone_raw_specific_schema` (parameter `SCHEMA_NAME=SHEETLOAD`) job to have been run.
 
-#### `🛢 saas_pgp_test`
+#### `🛢 gitlab_saas_pgp_test`
 
-This pipeline needs to be executed when doing changes to any of the below manifest files present in path `analytics/extract/postgres_pipeline/manifests`.
+This pipeline needs to be executed when doing changes to any of the below manifest files present in path `analytics/extract/gitlab_saas_postgres_pipeline/manifests`:
 
-- el_saas_customers_scd_db_manifest.yaml
-- el_saas_gitlab_com_ci_db_manifest.yaml
-- el_saas_gitlab_com_ci_scd_db_manifest.yaml
-- el_saas_gitlab_com_db_manifest.yaml
-- el_saas_gitlab_com_scd_db_manifest.yaml
+1. el_saas_customers_scd_db_manifest.yaml
+1. el_gitlab_dotcom_db_manifest.yaml.
+1. el_gitlab_dotcom_scd_db_manifest.yaml
 
-This pipeline requires.
+This pipeline requires following actions:
 
-1. Clone of `TAP_POSTGRES` schema(Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
-2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_com_ci_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_saas_gitlab_com_ci`.
-3. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `bulk_import_entities` in manifest file `el_saas_gitlab_com_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
+1. Clone of `TAP_POSTGRES` schema (Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
+2. Variable `MANIFEST_NAME` (Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_com_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_gitlab_com`.
+3. Variable `DATABASE_TYPE` (Mandatory): The value of the database type(ci ,main, customers). For example if the target table for modification is from `ci` database, the variable passed will be `DATABASE_TYPE`=`ci`.
+4. Variable `TASK_INSTANCE` (Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `bulk_import_entities` in manifest file `el_gitlab_dotcom_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
 
 #### `gitlab_ops_pgp_test`
 
-This pipeline needs to be executed when doing changes to any of the below manifest files present in path `analytics/extract/postgres_pipeline/manifests_decomposed`.
+This pipeline needs to be executed when doing changes to any of the below manifest files present in path `analytics/extract/gitlab_saas_postgres_pipeline/manifests`.
 
-- el_gitlab_ops_db_manifest.yaml
-- el_gitlab_ops_scd_db_manifest.yaml
+1. el_gitlab_ops_db_manifest.yaml
+1. el_gitlab_ops_scd_db_manifest.yaml
 
 **This is separate from the `pgp_test` job because it requires a CloudSQL Proxy to be running in order to connect to the gitlab-ops database.**
 
@@ -130,7 +126,8 @@ This pipeline requires.
 
 1. Clone of `TAP_POSTGRES` schema(Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
 2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_ops_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_gitlab_ops`.
-3. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
+3. Variable `DATABASE_TYPE`(Mandatory): The value of the database type(ops). For example if the modified table was of `ops` database, the variable passed will be `DATABASE_TYPE`=`ops`.
+4. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
 
 ### ⚙️ dbt Run
 
@@ -178,12 +175,13 @@ but it also could run inefficiently in production and could have a much bigger i
 
 #### `🏗️🏭build_changes`
 
-This job is designed to work with most dbt changes without user configuration.  It will clone, run, and test the new and changed models referencing the live database, `PROD`, `PREP`, and `RAW`, for any tables that have not been changed based on the most recent version of the [dbt documentation](https://dbt.gitlabdata.com/).  If the job fails it should represent an issue within the code itself and should be addressed by the developer making the changes.
+This job is designed to work with most dbt changes without user configuration. It will clone, run, and test all new and changed models, as well as any models that are between the changed models in the lineage. It references the live databases (`PROD`, `PREP`, and `RAW`) for any tables not included in the selection, in accordance with the most recent version of the [dbt documentation](https://dbt.gitlabdata.com/).  If the job fails it should represent an issue within the code itself and should be addressed by the developer making the changes.
 
 Should the changes made fall outside the default selection of this job, it can be configured in the following ways:
 
 - `WAREHOUSE`: Defaults to `DEV_XL` but will accept `DEV_XS` and `DEV_L` as well.
-- `SELECTION`: Defaults to a list of any changed SQL or CSV files but accepts any valid dbt selection statement.
+- `CONTIGUOUS`: Defaults to `True` but will accept `False` to run only the models that have changed.
+- `SELECTION`: Defaults to a list of any changed SQL or CSV files but accepts any valid dbt selection statement. It overrides any other model selection.
 - `DOWNSTREAM`: Defaults to `None` but will accept the `plus` and `n-plus` operators. Has no impact when overriding the `SELECTION`. See the [documentation](https://docs.getdbt.com/reference/node-selection/graph-operators) for the graph operators for details on what each will do.
 - `FAIL_FAST`: Defaults to `True` but accepts `False` to continue running even if a test fails or a model can not build.  See the [documentation](https://docs.getdbt.com/reference/global-configs/failing-fast) for additional details.
 - `EXCLUDE`: Defaults to `None` but will accept any dbt node selection. See the [documentation](https://docs.getdbt.com/reference/node-selection/exclude) for additional details.
@@ -279,7 +277,45 @@ Runs the SQLFluff linter on all changed `sql` files within the `transform/snowfl
 
 #### `🚫safe_model_script`
 
-In order to ensure that all [SAFE](/handbook/legal/safe-framework/) data is being stored in appropriate schemas all models that are downstream of [source models with MNPI data](/handbook/business-technology/data-team/how-we-work/new-data-source/#mnpi-data) must either have an exception tag or be in a restricted schema in `PROD`. This CI Job checks for compliance with this state. If your MR fails this job it will likely either need to be audited and verified to be without change MNPI data and have the appropriate exception tags added, or models may need to be migrated to the appropriate restricted schema
+In order to ensure that all [SAFE](/handbook/legal/safe-framework/) data is being stored in appropriate schemas all models that are downstream of [source models with MNPI data](/handbook/business-technology/data-team/how-we-work/new-data-source/#mnpi-data) must either have an exception tag or be in a restricted schema in `PROD`. This CI Job checks for compliance with this state.
+
+<details><summary>how `safe_model_script` works - under the hood</summary>
+
+The CI job is set-up in `snowflake-dbt-ci.yml` and these are the pertinent lines:
+
+```sh
+- dbt --quiet ls $CI_PROFILE_TARGET --models tag:mnpi+
+  --exclude
+    tag:mnpi_exception
+    config.schema:restricted_safe_common_mapping
+    config.schema:some_other_restricted_schema_etc
+    ...
+  --output json > safe_models.json
+- python3 safe_model_check.py
+```
+
+The above has two parts, the `dbt ls` command (the main part), and the python script.
+
+The`dbt ls` does the following:
+
+- It first returns all models tagged with mnpi and all **downstream** models.
+- Then, in the `--exclude` argument, we exclude any *valid* models. Models from the above step are excluded if they meet one of these conditions:
+  - tagged with `mnpi_exception`
+  - within a `restricted` schema
+- Any models that are left need to be fixed by either being placed in a restricted schema, or tagged with 'mnpi_exception'
+
+In the 2nd part, the python script reads in the output from the above 'dbt ls' command. If the output is NOT empty, an exception is raised with a list of failing models.
+
+</details>
+
+##### How to handle script failure
+
+A failure indicates one of two things:
+
+- your model has MNPI data (either directly or as a downstream model)
+  - Fix: move your model to a restricted schema
+- your model does NOT have MNPI data, but is downstream of a model that does have MNPI data
+  - Fix: add `mnpi_exception` tag to the model
 
 #### `🔍macro_name_check`
 
@@ -374,14 +410,11 @@ These are the full list of CI job arguments, all are **OPTIONAL**:
 1. `IS_TEST_RUN`:
     - Defaults to `False`, but accepts `True`.
     - If True, will only **print** the `GRANT` sql statements, but will not run them.
-1. `USERS_TO_ADD`:
-    - Defaults to the usernames **added** to [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads) within the MR.
-    - To override, pass in a string value like so `USERS_TO_ADD: username_to_add1 username_to_add2`
 1. `IS_DEV_DB`:
     - Defaults to `False`, but accepts `True`.
     - If True, will create development databases for each username in `usernames_to_add`.
 
-Note: `USERS_TO_REMOVE` argument is not available for this job because all deactivated users will be removed in Snowflake via separate airflow job.
+Note: `USERS_TO_ADD/USERS_TO_REMOVE` optional arguments are not available for this job to minimize security risks.
 </details>
 
 #### `snowflake_provisioning_roles_yaml`
@@ -433,18 +466,18 @@ Runs automatically when MR is merged or closed. Do not run manually.
 
 All the below run against the Prod DB using the changes provided in the repo. No cloning is needed to run the below.
 
-#### `🧠 all_tests_prod`
+### `🧠 all_tests_prod`
 
 Runs through all tests in the analytics & data tests repo.
 
-#### `💾 data_tests_prod`
+### `💾 data_tests_prod`
 
 Runs through all the data tests in the analytics & data tests repo's.
 
-#### `schema_tests_prod`
+### `schema_tests_prod`
 
 Runs through all the schema tests in the analytics & data tests repo's.
 
-#### `specify_tests_prod`
+### `specify_tests_prod`
 
 Runs specified model tests with the variable `DBT_MODELS`

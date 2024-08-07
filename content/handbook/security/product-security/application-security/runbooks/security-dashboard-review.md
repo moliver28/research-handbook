@@ -36,16 +36,16 @@ For each finding:
 
 - Using the information provided and any additional information, determine if the finding is valid
 - For a valid report:
-    - Change the status to `Confirmed`
-    - Click `Create Issue`
-    - Assign [Priority and Severity labels](/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues) based on the finding rating and the impact on GitLab
-    - Assign a [Due Date]({{< ref "engaging-with-security#due-date-on-security-issues" >}})
-    - add labels (`/label ~` command) corresponding to the [DevOps stage](/handbook/product/categories/#devops-stages) and source group (consult the [Hierarchy](/handbook/product/categories/#hierarchy) for an overview on categories forming the hierarchy)
-    - @-mention product manager of appropriate teams for scheduling and/or the engineering managers if additional engineering feedback is required to complete the triage, based on the [product categories page](/handbook/product/categories/)
-        - If an appropriate engineering team is not immediately apparent, ping an Appsec manager for help identifying the owner
+  - Change the status to `Confirmed`
+  - Click `Create Issue`
+  - Assign [Priority and Severity labels](/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues) based on the finding rating and the impact on GitLab
+  - Assign a [Due Date]({{< ref "engaging-with-security#due-date-on-security-issues" >}})
+  - add labels (`/label ~` command) corresponding to the [DevOps stage](/handbook/product/categories/#devops-stages) and source group (consult the [Hierarchy](/handbook/product/categories/#hierarchy) for an overview on categories forming the hierarchy)
+  - @-mention product manager of appropriate teams for scheduling and/or the engineering managers if additional engineering feedback is required to complete the triage, based on the [product categories page](/handbook/product/categories/)
+    - If an appropriate engineering team is not immediately apparent, ping an Appsec manager for help identifying the owner
 - For an invalid report:
-    - Change the status to `Dismissed`
-    - Leave a comment providing feedback on why the vulnerability is being dismissed. This information can be used by Secure engineers in tuning the findings of the tool and is also useful if we ever wonder why it was dismissed at some point in the future.
+  - Change the status to `Dismissed`
+  - Leave a comment providing feedback on why the vulnerability is being dismissed. This information can be used by Secure engineers in tuning the findings of the tool and is also useful if we ever wonder why it was dismissed at some point in the future.
 
 ## Dependency Updates
 

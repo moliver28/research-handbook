@@ -1,6 +1,5 @@
 ---
 title: "Observation Remediation Procedure"
-controlled_document: true
 ---
 
 ## Purpose
@@ -169,7 +168,7 @@ Defined below are status labels that will aide in the process of managing remedi
 
 Exceptions will be created for observations that breach a mutually agreed upon remediation date, breach in SLA or if the Remediation Owner confirms the observation will not be remediated.
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "../_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

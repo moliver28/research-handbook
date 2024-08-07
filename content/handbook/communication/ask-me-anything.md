@@ -26,7 +26,7 @@ They can be initiated by anyone who wants to schedule an AMA, but are typically 
 
 AMAs do not need to have a host, but there should be a person or people available to answer questions related to the AMA topic.
 
-Occasionally an AMA might be held for a smaller audience. It is encouraged for all AMAs to be open to the full company whenever possible. Occasionally an AMA may not make sense to be sent to the whole company. In those instances, it is still encouraged to add the calendar invitation to the GitLab Team Meetings Calendar as sometimes team members may want to join a call that may not be directly directly applicable to them. Whenever creating an AMA for a smaller group, be sure to invite the team directly in the calendar invite.
+Occasionally an AMA might be held for a smaller audience. It is encouraged for all AMAs to be open to the full company whenever possible. Occasionally an AMA may not make sense to be sent to the whole company. In those instances, it is still encouraged to add the calendar invitation to the GitLab Team Meetings Calendar as sometimes team members may want to join a call that may not be directly applicable to them. Whenever creating an AMA for a smaller group, be sure to invite the team directly in the calendar invite.
 
 ### AMA Kick off (best practices when starting an AMA)
 
@@ -38,10 +38,10 @@ Ensure the following items are added to the AMA agenda and follow these steps to
 
 - The person or people responsible for answering questions should be listed in the AMA agenda and start the AMA by introducing themselves and their roles at GitLab.
 - If a brief explanation about *why* this AMA is being hosted may help the audience understand the purpose for the session, add a first agenda item that adds context and verbalize that point after introducing yourself.
-    - If multiple people will be responding to questions, identify one person to speak about *why* this AMA is being hosted by adding their name to the agenda item.
+  - If multiple people will be responding to questions, identify one person to speak about *why* this AMA is being hosted by adding their name to the agenda item.
 - Information about how and where questions can be asked by the audience should be captured in the AMA agenda.
-    - For most AMAs, questions will be asked in an agenda doc, if this is the case please share that questions can also be asked in the Zoom chat if the agenda doc cannot be accessed.
-    - If sli.do or another platform is being used to ask questions, this should be noted.
+  - For most AMAs, questions will be asked in an agenda doc, if this is the case please share that questions can also be asked in the Zoom chat if the agenda doc cannot be accessed.
+  - If sli.do or another platform is being used to ask questions, this should be noted.
 - If there is additional context the audience should be aware of to fully participate in the AMA or any documents that provide additional information that the audience should know about, it's a good practice to highlight these things up front by adding them as agenda items.
 - After that, onto the first question!
 
@@ -65,7 +65,7 @@ The intention of this is to make sure we're enabling asynchronous communication 
 - The E-Group member or EBA will create an issue (template to follow) tagging the [TMRG Leads](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-their-slack-channels) or a nominated facilitator for a non-tmrg AMA (facilitator group to be determined), a [DIB Team Member](https://gitlab.slack.com/archives/CLLDY3L8P/p1617863963093900), and Stella Treas (Chief of Staff to the CEO)
 - The TMRG Leads will consult with the TMRG membership and accept or reject the request. If accepted the TMRG leads will provide an ideal timeframe for the AMA, ideally within 4 weeks from the date of the request.
 - Once accepted the EBA will provide a series of times that are suitable
-- The E-Group member or EBA will ensure that there is a a Reverse AMA facilitator for the session. (Facilitator Group link to follow)
+- The E-Group member or EBA will ensure that there is a Reverse AMA facilitator for the session. (Facilitator Group link to follow)
 - The EBA will create a calendar invite and Agenda for the agreed time
 
 #### Team Member Initiated

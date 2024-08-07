@@ -17,7 +17,7 @@ The steps to create an escalation policy in Pagerduty are:
 
 1. Login to [pagerduty](https://gitlab.pagerduty.com/)
 1. Hover over `People` and click `Escalation Policies` to go to the
-   [escalation policies page page](https://gitlab.pagerduty.com/escalation_policies)
+   [escalation policies page](https://gitlab.pagerduty.com/escalation_policies)
 1. Click the blue `New Escalation Policy` button on the top-right of the page
 1. Enter a name for your escalation policy
 1. For the description, enter something sensible that makes it clear what it is
@@ -50,7 +50,7 @@ The steps to edit an escalation policy in Pagerduty are:
 
 1. Login to [pagerduty](https://gitlab.pagerduty.com/)
 1. Hover over `People` and click `Escalation Policies` to go to the
-   [escalation policies page page](https://gitlab.pagerduty.com/escalation_policies)
+   [escalation policies page](https://gitlab.pagerduty.com/escalation_policies)
 1. Use the search on the right-hand side of the page to search for the
    escalation policy you wish to edit
 1. Click the blue text of the escalation policy once located
@@ -66,7 +66,7 @@ deleted. You might need to edit it first to remove rules and persons first.
 
 1. Login to [pagerduty](https://gitlab.pagerduty.com/)
 1. Hover over `People` and click `Escalation Policies` to go to the
-   [escalation policies page page](https://gitlab.pagerduty.com/escalation_policies)
+   [escalation policies page](https://gitlab.pagerduty.com/escalation_policies)
 1. Use the search on the right-hand side of the page to search for the
    escalation policy you wish to edit
 1. Click the blue text of the escalation policy once located
@@ -76,7 +76,7 @@ deleted. You might need to edit it first to remove rules and persons first.
 
 ## Current escalation policies used by support
 
-#### Customer Emergency Rotation
+### Customer Emergency Rotation
 
 - [Escalation policy link](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH)
 - Level 1
@@ -97,19 +97,22 @@ deleted. You might need to edit it first to remove rules and persons first.
   - Escalates after 5 min
 - Level 3:
   - Notify the following users or schedules
+    - Support Director Oncall
+  - Escalates after 5 min
+- Level 4:
+  - Notify the following users or schedules
     - Shaun McCann
     - Lee Matos
     - Lyle Kozloff
     - Val Parsons
-
-#### Customer Support SSAT
-
-- [Escalation policy link](https://gitlab.pagerduty.com/escalation_policies#P0DPFUO)
-- Level 1
+  - Escalates after 5 min
+- Level 5:
   - Notify the following users or schedules
-    - SSAT Reviewing Manager
+    - Johnny Scarborough
+  - Escalates after 5 min
+- If no one acknowledges, repeat this policy `5` times
 
-#### Incident Management - CMOC Rotation
+### Incident Management - CMOC Rotation
 
 - [Escalation policy link](https://gitlab.pagerduty.com/escalation_policies#PNH1Z1L)
 - Level 1
@@ -134,7 +137,7 @@ deleted. You might need to edit it first to remove rules and persons first.
     - Lyle Kozloff
     - Val Parsons
 
-#### Incident Management - GDCMOC Rotation
+### Incident Management - GDCMOC Rotation
 
 - [Escalation policy link](https://gitlab.pagerduty.com/escalation_policies#PN032FC)
 - Level 1
@@ -158,7 +161,7 @@ deleted. You might need to edit it first to remove rules and persons first.
     - Lyle Kozloff
     - Val Parsons
 
-#### Support Managers
+### Support Managers
 
 - [Escalation policy link](https://gitlab.pagerduty.com/escalation_policies#PGNLUZ1)
 - Level 1
@@ -167,7 +170,7 @@ deleted. You might need to edit it first to remove rules and persons first.
     - Support Manager - APAC
     - Support Manager - EMEA
 
-#### US Federal Customer Emergency Rotation
+### US Federal Customer Emergency Rotation
 
 - [Escalation policy link](https://gitlab.pagerduty.com/escalation_policies#PNPWBEW)
 - Level 1
@@ -193,12 +196,12 @@ As the Pagerduty changes are unique in deployment, please see
 [Pagerduty change management](/handbook/support/readiness/operations/docs/pagerduty/change_management)
 for more information.
 
-#### Labels to use
+### Labels to use
 
 For all issues and MRs involving Pagerduty fields, the label
 `Support-Ops-Category::Pagerduty` should be used.
 
-#### Change criticality
+### Change criticality
 
 Due to wildly varying nature and impact adding/editing/deleting things in
 Pagerduty can impose, all issues/MRs related to Pagerduty need

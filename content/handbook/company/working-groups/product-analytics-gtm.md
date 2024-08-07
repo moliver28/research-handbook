@@ -41,7 +41,7 @@ For a more extensive resource, see [GTM Product Analytics: Status, Gaps and the 
 
 - ✅  [Deploy License Usage to Salesforce](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/911)
 - ✅ Identify the [top metrics for Create, Verify, Secure](https://gitlab.com/gitlab-com/customer-success/tam/-/issues/293) to drive account adoption and expansion
-- ✏️ Create [Metrics Dictionary for Usage Ping](https://gitlab.com/groups/gitlab-org/-/epics/4174) - [Metrics Dictionary](https://docs.gitlab.com/ee/development/usage_ping/dictionary.html)
+- ✏️ Create [Metrics Dictionary for Usage Ping](https://gitlab.com/groups/gitlab-org/-/epics/4174) - [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html)
 - ✅ [Link usage data with subscription and account data](https://gitlab.com/groups/gitlab-org/-/epics/3602)
 - ✅ [Determine Wave 3 Product Analytics metrics](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues/1681)
 - ✅ [Identify top data quality blockers](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues/1721) - issues have been identified for [Product Analytics](https://gitlab.com/gitlab-com/Product/-/issues/1992) and [Fulfillment](https://gitlab.com/gitlab-com/Product/-/issues/1999)

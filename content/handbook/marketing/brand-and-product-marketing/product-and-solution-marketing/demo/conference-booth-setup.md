@@ -1,5 +1,4 @@
 ---
-
 title: "Conference Booth Setup"
 ---
 
@@ -48,6 +47,7 @@ If you HAVE to play it over streaming, it's also on [YouTube](https://youtu.be/t
 The iPads are meant to be used to start/aid a conversation, as well as to show the click-through demos on. Their advantage is that you can stand next to someone (to the side) and have a personal interaction with them, still with a screen. This is more awkward with a laptop and the need to find a flat surface to put it on.
 
 Here's roughly what we have:
+
 - EMEA - 3 12.9" Pros, logged in using either AppleID `gitlabeventsemea@gmail.com` or `gitlabgitlab@gmail.com`
 - US Corp - 2 12.9" Pros, logged in using AppleID `gitlabconf@gmail.com`
 - TMM - 4 12.9" Pros, logged in using AppleID `gitlabconf@gmail.com`, used for development, and brought by TMM for booth duty
@@ -77,6 +77,7 @@ There are two possible sets of demos that can be used: regular length, shorts
 - [shorts](https://drive.google.com/drive/folders/1NJdvHCaRlaM3--UGNQ1rPlx89i3msO-z?usp=sharing) - For high volume booths. Meant to run no more than 5 minutes, with a quick overview of how we solve a particular use case.
 
 For either set of files:
+
 1. Open Google Drive
 1. login with above Google login
 1. go to one (or both) of the above directories
@@ -93,4 +94,3 @@ For either set of files:
 1. When you are not using the ipad, set it to on of the first two slides (shows competitor mess, or shows GitLab stages)
 1. In off-line mode, presentation mode doesn't work, but you can show the slides still
 1. It can be effective to use iPad pinch/un-pinch to zoom in/out on parts of demo
-

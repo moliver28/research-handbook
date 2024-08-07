@@ -1,5 +1,4 @@
 ---
-
 title: Tanuki Tech
 description: Tanuki Tech (short for Tanuki Instutite of Technology) is the world class sales/technology bootcamp that we are provide for the sales development organization. Use this page to walk through the courses and examinations that you'll be expected to complete as part of your tenure in our organisation.
 
@@ -10,7 +9,9 @@ description: Tanuki Tech (short for Tanuki Instutite of Technology) is the world
 Tanuki Tech (short for "Tanuki Instutite of Technology") is the world class sales/technology bootcamp that we are provide for the sales development organization. Our goal is to powerfully equip our sales development team members to be successful in their current role as well as prepare them for their next role, whatever that may be. **We are doing this because we care about our team members.**
 
 ## Goals
+
 How do we measure success? The specific goals for this program are:
+
 * Increased sales development effectiveness and organizational efficiency (increased quota attainment).
 * Decrease time to value for sales development new hires (we want to equip our new team members to be successful quickly).
 * **Job placement for team members who complete our program.** We want the people that we develop here as part of our sales development program to be abundantly prepared for their next role whether that's in sales, marketing, or somewhere else.
@@ -18,11 +19,12 @@ How do we measure success? The specific goals for this program are:
 The average coding bootcamp here in the United States costs 13.5k and graduates report an average starting salary of 67k (CourseReport 2020). Our goal is to far exceed the job placement and starting salary metrics of our peer institutions, **completely as a free value to our team members as part of being part of this organization.**
 
 ## Guiding Principles
+
 * Enablement should be powerful and effective. If there is something that you feel would help our organization and is currently missing or have suggestions for improvement, let us know.
 * Enablement should be quick and effective. We are not trying to inundate you with information to eat up all of your time. Most courses in our curriculum are designed to take up around two hours including examination.
 * We test often and we test behaviors that apply to your actual job. Research shows that the most effective teachers consistently test more than their peers. **Do not get discouraged if you fail a test; it is better to fail in front of a peer who is trying to help you than in front of a customer.**
 * Classes are generally offered in hybrid format (live and recorded options). Examinations are mostly offered in a written format.
-* All classes are available on demand. Recordings and assets (slides, exams) are listed [here](https://levelup.gitlab.com/) under "Sales Development."
+* All classes are available on demand. Recordings and assets (slides, exams) are listed [here](https://levelup.gitlab.com/pages/sales-development) under "Sales Development."
 
 ## Curriculum
 
@@ -30,12 +32,12 @@ The average coding bootcamp here in the United States costs 13.5k and graduates 
 
 TT100: Introduction to Technology
 > Serves as an introduction to the technology industry and GitLab's space in it. In this course, we will explain fundamental concepts such as applications, operations, and the hybrid cloud. We will also explain why technology has been the main driver of innovation in the twenty-first century.
-> 
+>
 > 3 credit hours
 
 TT101: Introduction to GitLab
 > GitLab is an extremely promising suite of technologies that is broad as well as deep. In this course, we will introduce GitLab and explain why it is such a special piece of technology.
-> 
+>
 > 3 credit hours
 
 TT102: The People of Technology
@@ -185,22 +187,37 @@ Outbound:
 > 5 credit hours
 
 ## Examination
+
 We test for mastery (mastery-based learning) and students will be asked to demonstrate knowledge/skills learned. Students will be asked to repeat examination (or update answers) until mastery is demonstrated and the number of attempts needed is tracked.
 
 To hand in written exams:
+
 * Make a copy of the exam template by clicking an exam link listed. For example see [here](https://docs.google.com/document/d/138nZb8Lz6z6R7xOwGZFkmcTh-QC4ADEFq3aQU3Y1GwM/copy).
 * Rename the generated file appropriately using appropriate syntax. As an example this would be for Ed Bao: `TT100 - Introduction to Technology (Ed Bao)`.
 * Change file [ownership](https://support.google.com/drive/answer/2494892?hl=en&co=GENIE.Platform%3DDesktop) to Christopher Wang and allow some time for grading (one week on average).
 * Note: if your assignment hasn't been graded for over three weeks, we likely made a mistake. Let us know and we'll fix the issue.
 
 ## Enrollment
+
 Coursework will be assigned at the beginning of each quarter. To see your assigned coursework, see [here](https://docs.google.com/spreadsheets/d/1P7QvZ09F8OT7LJTeMRYbu6_Oxjw9UdouaJ5Oeo8SU8k/edit?usp=sharing).
-* To complete coursework virtually, take classes at your on pace on [Level Up](https://levelup.gitlab.com/).
+
+* To complete coursework virtually, take classes at your on pace on [Level Up](https://levelup.gitlab.com/pages/sales-development).
 * Some sessions are offered live. Those that are offered live will be communicated to team members.
 
+## Onboarding
+
+All team members are required to meet certain enablement milestones by the end of their first and third months. To see these requirements, see "Sales Development Leveling" below.
+
+* For links to the Tanuki Tech courses, see [here](https://levelup.gitlab.com/pages/sales-development).
+* For the link to the onboarding checklist, see [here](https://docs.google.com/spreadsheets/d/14YdcHbQizanNRf-emYOdow6UP_Z246pIHo_KIWrrzyU/edit#gid=1023692240).
+* For the link to Inbound (SDR), see [here](https://university.gitlab.com/pages/sales-development?labels=%5B%22Sales%20Development%22%5D&values=%5B%22Inbound%20(SDR)%22%5D).
+* For the link to Outbound (BDR), see [here](https://university.gitlab.com/pages/sales-development?labels=%5B%22Sales%20Development%22%5D&values=%5B%22Outbound%20(BDR)%22%5D).
+
+For Inbound (SDR) and Outbound (BDR), take the quiz at the end to pass.
+
 ## Sales Development Leveling
+
 To qualify for promotions, sales development team members are required to keep up with their quarterly enablement. The following are the current course requirements and are subject to change.
-* Note: in Q1FY2023 we moved to enrollment based on tenure in the organization. Because of this, we have adopted a transition plan from the old system to the new system.
 
 | Tenure         | SDR         | BDR         |
 | -------------- | ----------- | ----------- |
@@ -213,5 +230,6 @@ To qualify for promotions, sales development team members are required to keep u
 To see your current progress, see [here](https://docs.google.com/spreadsheets/d/1P7QvZ09F8OT7LJTeMRYbu6_Oxjw9UdouaJ5Oeo8SU8k/edit?usp=sharing).
 
 ## Tanuki Tech Faculty
+
 * [Christopher Wang](/handbook/company/team/#cs.wang) currently serves as the first dean of Tanuki Tech.
 * [Ed Bao](https://gitlab.com/ebao2) serves as a teaching assistant for Tanuki Tech.

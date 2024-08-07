@@ -7,6 +7,7 @@ title: Secret Detection Group
 The Secret Detection group was split from Static Analysis [on 2024-03-05](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/133169).
 
 The Secret Detection group maintains the following feature categories for customer software repositories:
+
 - [Secret Detection](https://about.gitlab.com/direction/secure/secret-detection/secret-detection/)
 - [Code Quality](https://about.gitlab.com/direction/secure/secret-detection/code_quality/)
 
@@ -32,7 +33,7 @@ The goal of the process is to:
 
 ##### Workflow
 
-The refinement process doesn't concern itself with how issues are picked up to be refined. This is assumed to be done in an earlier process that triages issues from the backlog (whether via the [MoSCoW process](/handbook/engineering/development/sec/secure/static-analysis/#moscow-process) or a similar variant). Normally, before issues are refined, a planning issue is created to select which issues are picked up in an upcoming milestone to be refined and delivered.
+The refinement process doesn't concern itself with how issues are picked up to be refined. This is assumed to be done in an earlier process that triages issues from the backlog (whether via the [MoSCoW process](/handbook/engineering/development/sec/secure/static-analysis/#moscow-process) or a similar variant). Normally, before issues are refined, a planning issue is created to select which issues are picked up in an upcoming milestone to be refined and delivered. This could possibly be done in the Looking Forward section of the planning issue.
 
 This workflow can summarized as follows:
 
@@ -47,7 +48,7 @@ Below is a list of steps followed during the refinement process.
 - The refinement process is kicked off when a planning issue is finalized.
 - A bot or an automated script assigns a number of issues (e.g. 2-3) randomly to each engineer.
 - An engineer is responsible for refining their assigned issues, but could ask for help if needed.
-- Engineers would follow a certain [checklist](handbook/engineering/development/sec/secure/secret_detection/#checklist) to determine if an issue is refined and ready to be picked up.
+- Engineers would follow a certain [checklist](#checklist) to determine if an issue is refined and ready to be picked up.
 - The refinement process is time-boxed (e.g. one week), after which all issues ready for development is picked up.
 - When an engineer completes refining an issue, they pass it on to another engineer (a reviewer) for review.
 - The reviewer should follow the guidelines outlined in the checklist as much as possible:
@@ -60,7 +61,7 @@ Below is a list of steps followed during the refinement process.
 
 The following checklist is to be copied either in the issue description or posted as a comment in the issue being refined. This is used to clarify the refinement and refinement review progress for all interested stakeholders.
 
-```
+```markdown
 **Please copy the list below into the issue you are refining, and check them as you deem appropriate.**
 
 #### Refinement Progress
@@ -90,9 +91,65 @@ If you're assigned this issue to review its refinement, please follow the guidel
 
 ##### Issue Assignmet
 
-We plan to use [`triage-ops`](https://gitlab.com/gitlab-org/quality/triage-ops) bot to assign issues to engineers for refinement. More information will follow here on the exact process as we configure the bot to do so.
+Issues are assigned randomly to engineers using [`triage-ops`](https://gitlab.com/gitlab-org/quality/triage-ops) bot. The process works like follows:
+
+1. Planning issue is created, and a number of issues are selected for the next milestone (marked with labels defined below).
+1. Issues selected are labeled with:
+    1. `~"group::secret detection"`
+    1. `~"workflow::planning breakdown"`
+1. A [scheduled policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/doc/scheduled/index.md) is triggered monthly before the upcoming milestone begins (on 2nd Thursday of a month, or exactly one week before the new milestone starts).
+1. The scheduled operation runs and does the following:
+    1. Pick up issues with the following conditions:
+        1. State: `Opened`
+        1. Labels:
+            1. `~"group::secret detection"`
+            1. `~"workflow::planning breakdown"`
+        1. Weight:
+            1. `None`.
+        1. Milestone:
+            1. Issue has a milestone.
+            1. Issue's milestone title = [`next_milestone`](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/de25e11d0c006551eaece0dcb95c5b5bf8216b90/lib/milestone_helper.rb#L13-15).
+    1. Actions:
+        1. Assigns the issue to a random engineer from the Secure:Secret Detection group.
+        1. Adds the following labels:
+            1. `~"worfklow::refinement"`
+            1. `~"needs weight"`
+        1. Removes the following labels:
+            1. `~"worfklow::planning breakdown"`
+        1. Adds the comment below.
+
+##### Comment
+
+```markdown
+Hi #{secret_detection_engineer}
+
+As a preparation for the upcoming milestone #{milestone.succ}, you have been assigned this issue to refine.
+
+The goal of the process is to:
+
+- Clarify any outstanding questions or concerns.
+- Add a proposal or an implementation plan.
+- Determine if the issue is the smallest iteration possible, and break it down if not.
+- Determine if the issue requires support from other teams.
+- Assign a weight to the issue.
+- Ensure the issue is labeled correctly.
+- Ensure issue is marked as ready to be worked on.
+
+Please check the [steps to follow](/handbook/engineering/development/sec/secure/secret-detection/#steps) and the [checklist](/handbook/engineering/development/sec/secure/secret-detection/#checklist) to use for keeping refinement progress transparent.
+
+If you have any questions, don't hesitate to ask in `#g_secure_secret-detection` channel.
+
+[Bot policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/secret-detection/assign-refinement.yml).
+
+/assign #{secret_detection_engineer}
+```
 
 ### Observability
+
+#### Metrics
+
+The process to add metrics to our projects is documented in our
+[Metrics](metrics/) page.
 
 #### Runbooks
 

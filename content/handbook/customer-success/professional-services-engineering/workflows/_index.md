@@ -22,5 +22,3 @@ title: "Professional Services Engineering Workflows"
 This is an overview of the entire process for a services engagement from discovery of the customer's needs to the sign-off from the customer.
 
 See [Professional Services Business Operations](/handbook/customer-success/professional-services-engineering/workflows/internal/biz-ops)
-
-

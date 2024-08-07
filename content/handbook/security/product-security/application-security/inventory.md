@@ -10,7 +10,7 @@ Keeping track of all these moving parts can not rely only upon our current under
 Automation is a key aspect of our work, and GitLab is no exception.
 
 The AppSec Inventory is a private GitLab project to identify and track all projects, components, and dependencies important to us.
-xtThe project is available at [https://gitlab.com/gitlab-com/gl-security/product-security/inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory)
+The project is available at [https://gitlab.com/gitlab-com/gl-security/product-security/inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory)
 to GitLab team members. The Inventory is built using this [CLI tool](https://gitlab.com/gitlab-com/gl-security/product-security/gib/).
 
 Not all projects are important, and we certainly don't want to monitor projects that are POCs, demos, or tests.
@@ -48,39 +48,26 @@ Rules define actions to take, based on the project categories. These actions are
 
 | Categories | Actions |
 | -------- | ----------- |
-|  All (even if no category is defined) | Download [Dependencies], [Protected Branches], [Approvals], [Approval Rules] |
-| `product`, `library`, `red_data` | Download [CI/CD configuration] |
+|  All (even if no category is defined) | Download [Dependencies], [Protected Branches](https://docs.gitlab.com/ce/api/protected_branches.html), [Approvals](https://docs.gitlab.com/ee/api/merge_request_approvals.html), [Approval Rules](https://docs.gitlab.com/ee/api/merge_request_approvals.html#get-project-level-rules) |
+| `product`, `library`, `red_data` | Download [CI/CD configuration](https://docs.gitlab.com/ee/api/lint.html) |
 | `product`, `secrets_monitoring`  | Download [Vulnerabilities]     |
 
 ### Policies
 
 | Categories | Policies |
 | -------- | ----------- |
-| `red_data`, `product`, `library` | [SAST], [Dependency Scanning], and [Secret Detection] must be enabled |
+| `red_data`, `product`, `library` | [SAST](https://docs.gitlab.com/ee/user/application_security/sast/), [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/), and [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) must be enabled |
 | `red_data`, `product`, `library` | *Default branch* must be `protected` (Allowed to merge: `Maintainers`, Allowed to push: `No one`) |
-| `use_pat`, `website`+`external` | [Dependency Scanning] and [Secret Detection] must be enabled |
-| `website`+`external` + `yellow/orange/red_data` | [DAST] must be enabled. Overall SSL grade must be 'A' or 'A+' |
-| `product` + `container` | [Container Scanning] must be enabled |
+| `use_pat`, `website`+`external` | [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) and [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) must be enabled |
+| `website`+`external` + `yellow/orange/red_data` | [DAST](https://docs.gitlab.com/ee/user/application_security/dast/) must be enabled. Overall SSL grade must be 'A' or 'A+' |
+| `product` + `container` | [Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/) must be enabled |
 | `keep_private` | Project `visibility` must be `private` |
-| `docs` | [Secret Detection] must be enabled |
+| `docs` | [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) must be enabled |
 | `marked_for_deletion` | Project will be deleted |
 | `deprecated` | Project will be archived |
-| all | Projects can't have [`internal`](https://docs.gitlab.com/ee/public_access/public_access.html#internal-projects-and-groups) visibility |
+| all | Projects can't have [`internal`](https://docs.gitlab.com/ee/user/public_access.html#internal-projects-and-groups) visibility |
 | all | *Default branch* must be `protected` |
 | all | [`SECRET_DETECTION_HISTORIC_SCAN`](https://docs.gitlab.com/ee/user/application_security/secret_detection/#full-history-secret-detection) must not be set in the CI/CD configuration |
-
-<!-- Identifiers are used for readability of the tables above -->
-
-[CI/CD configuration]: https://docs.gitlab.com/ee/api/lint.html
-[DAST]: https://docs.gitlab.com/ee/user/application_security/dast/
-[Dependencies]: https://docs.gitlab.com/ee/api/dependencies.html
-[Dependency Scanning]: https://docs.gitlab.com/ee/user/application_security/dependency_scanning/
-[Secret Detection]: https://docs.gitlab.com/ee/user/application_security/secret_detection/
-[SAST]: https://docs.gitlab.com/ee/user/application_security/sast/
-[Container Scanning]: https://docs.gitlab.com/ee/user/application_security/container_scanning/
-[Protected Branches]: https://docs.gitlab.com/ce/api/protected_branches.html
-[Approvals]: https://docs.gitlab.com/ee/api/merge_request_approvals.html
-[Approval Rules]: https://docs.gitlab.com/ee/api/merge_request_approvals.html#get-project-level-rules
 
 These policies are aligned with our [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements/).
 

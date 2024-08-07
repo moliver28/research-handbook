@@ -1,11 +1,8 @@
 ---
-
 title: Handling Requests for More Premium Trial compute minutes
 description: "How to handle requests for more minutes when customer is running Trial Subscription"
 category: License and subscription
 ---
-
-
 
 ##### Overview
 

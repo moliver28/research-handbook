@@ -8,7 +8,7 @@ AppSec manages [a wide range of tasks with a high volume of work](https://gitlab
 
 ### What decisions does this data help us make?
 
-Collecting this data helps inform decisions involving the team's capacity and headcount needs.
+Collecting this data helps inform decisions involving the team's capacity and headcount needs. These metrics are only analyzed in aggregate and are __not__ utilized or referenced for evaluating individual team member performance. They are solely used to understand overall team dynamics and requirements.
 
 ### Where are the charts that are based on this data?
 
@@ -49,6 +49,10 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::HackerAdmin | Indicates the work was associated to HackerOne administration |
 | AppSecWorkType::Operational | Should be used for everything else that's not covered by a label above |
 
+### Work impacted by SIRT incidents
+
+When SIRT incidents happen, this has an impact on our capacity. To evalute that impact, team members should apply the label `ImpactedBySIRTIncidents` to the issue.
+
 #### Who assigns this label and when?
 
 The AppSec Engineer responsible for the task is expected to assign this label to any Issue or MR as soon as they begin interaction.
@@ -59,14 +63,14 @@ The effort classification is an estimate of the level of effort required to reso
 
 ### Table
 
-| Label    | Classification | Description | Estimation Guide | Example |
-| -------- | ------- | ------- | ------- | ------- |
-| AppSecWeight::1 | Trivial | Very little effort required | Immediate or near immediate change to resolve the issue | Trivial documentation update |
-| AppSecWeight::2  | Small | Straight forward change, minimal investigation | ~0.5 - 1 days  | |
-| AppSecWeight::3 | Medium | Some investigation and/or collaboration needed  | ~1-3 days | |
-| AppSecWeight::5 | Large | Signficant investigation and collaboration needed | ~3-5 days | |
-| AppSecWeight::8 | XLarge | Very complex and requires a major portion of the milestone to resolve | ~5-10 days | |
-| AppSecWeight::13 | Needs Refinement | The issue is overly complex and needs to be promoted to an Epic or broken down into smaller issues | N/A | |
+| Label    | Weight | Classification | Description | Estimation Guide | Example |
+| -------- | ------ | ------- | ------- | ------- | ------- |
+| AppSecWeight::trivial | 1 | Trivial | Very little effort required | Immediate or near immediate change to resolve the issue | Trivial documentation update |
+| AppSecWeight::small  | 2 | Small | Straight forward change, minimal investigation | ~0.5 - 1 days  | |
+| AppSecWeight::medium | 3 | Medium | Some investigation and/or collaboration needed  | ~1-3 days | |
+| AppSecWeight::large | 5 | Large | Signficant investigation and collaboration needed | ~3-5 days | |
+| AppSecWeight::XLarge | 8 | XLarge | Very complex and requires a major portion of the milestone to resolve | ~5-10 days | |
+| AppSecWeight::Needs Refinement | 13 | Needs Refinement | The issue is overly complex and needs to be promoted to an Epic or broken down into smaller issues | N/A | |
 
 #### Who assigns this label and when?
 

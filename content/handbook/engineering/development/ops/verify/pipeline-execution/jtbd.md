@@ -16,7 +16,6 @@ Utilize JTBD and job statements to:
 - Create a common language across teams for better collaboration when working on improving the experience for GitLab CI
 - Create a transparent view for our stakeholders into the current and future state of the product.
 
-
 ## JTBD
 
 {{% jtbd "Pipeline Execution" %}}

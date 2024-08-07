@@ -5,13 +5,10 @@ title: Plan:Knowledge Engineering Team
 ## Plan:Knowledge team
 
 The Plan:Knowledge team works on both the backend and frontend parts of
-GitLab's [Knowledge] categories in the [Plan stage].
+GitLab's [Knowledge](/handbook/product/categories/#knowledge-group) categories in the [Plan project](/handbook/engineering/development/dev/plan/).
 
 For more details about the vision for this area of the product, see the
-[Plan stage] page.
-
-[Knowledge]: /handbook/product/categories/#knowledge-group
-[Plan stage]: /handbook/engineering/development/dev/plan/
+[Plan project](/handbook/engineering/development/dev/plan/) page.
 
 ### Team members
 
@@ -108,15 +105,13 @@ Most planning is done asynchronously. Some tools and processes are observed to m
 
 Since issues can only have one milestone attached, the `~"Next Up"` label is used to mark items for the upcoming milestone, regardless of whether they already have a milestone or not. PM and EM should remove this label from any issues prior to the start of planning, then add it to prospective issues and any expected to slip the current milestone during the planning process.
 
-Using this label, it's possible to easily analyze the upcoming milestone. The [Planning Board] mimics the Build Board but is scoped to this label instead of the current milestone. Use it to:
+Using this label, it's possible to easily analyze the upcoming milestone. The [Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/7109724) mimics the Build Board but is scoped to this label instead of the current milestone. Use it to:
 
 - View the current workflow state of all proposed issues.
 - Plan capacity by totalling weight values for each list.
 - Understand blocking relationships that may be resolvable before the milestone starts.
 
 When the new milestone starts, the milestone can be added all issues with the `~"Next Up"` label in a bulk action, and the label itself removed.
-
-[Planning Board]: https://gitlab.com/groups/gitlab-org/-/boards/7109724
 
 ## Workflow
 
@@ -159,33 +154,20 @@ It's encouraged to engage with this team when spiking and planning new work for 
   {{< tableau/filters "GROUP_LABEL"="knowledge" >}}
 {{< /tableau >}}
 
-
-Detailed metrics are available on the [Engineering Metrics page].
-
-[Engineering Metrics page]: https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/
+Detailed metrics are available on the [Engineering Metrics page](/handbook/engineering/metrics/dashboards/).
 
 #### Application Performance
 
 Additional dashboards are available in Grafana that show application performance of parts of the application for which the team is responsible.
 
-- [Stage-Group Dashboard] (including 28-day Error Budget)
-- [Error Budget Detail]
-
-[Stage-Group Dashboard]: https://dashboards.gitlab.net/d/stage-groups-knowledge/stage-groups-knowledge-group-dashboard?orgId=1
-[Error Budget Detail]: https://dashboards.gitlab.net/d/stage-groups-detail-knowledge/stage-groups-knowledge-group-error-budget-detail?orgId=1
+- [Stage-Group Dashboard](https://dashboards.gitlab.net/d/stage-groups-knowledge/stage-groups-knowledge-group-dashboard?orgId=1) (including 28-day Error Budget)
+- [Error Budget Detail](https://dashboards.gitlab.net/d/stage-groups-detail-knowledge/stage-groups-knowledge-group-error-budget-detail?orgId=1)
 
 ## Useful links
 
-- [Plan:Knowledge] - Apply a milestone filter to see work in the current release
-- [#s_plan] in Slack
-- [Recorded meetings][youtube]
-- [Retrospectives][retros]
-- [Group Conversations] (archive; group conversations now happen at a the
-  [section level])
-
-[Plan:Knowledge]: https://gitlab.com/groups/gitlab-org/-/boards/1569369?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Aknowledge
-[#s_plan]: https://gitlab.slack.com/archives/s_plan
-[youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KouWOCpPdlVZmwr3QCqhQ94
-[retros]: https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective
-[Group Conversations]: http://gitlab-org.gitlab.io/group-conversations/plan/
-[section level]: /company/team/structure/#organizational-structure
+- [Plan:Knowledge](https://gitlab.com/groups/gitlab-org/-/boards/1569369?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Aknowledge) - Apply a milestone filter to see work in the current release
+- [#s_plan](https://gitlab.slack.com/archives/s_plan) in Slack
+- [Recorded meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KouWOCpPdlVZmwr3QCqhQ94)
+- [Retrospectives](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective)
+- [Group Conversations](http://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
+  [section level](/handbook/company/team/structure/#organizational-structure))

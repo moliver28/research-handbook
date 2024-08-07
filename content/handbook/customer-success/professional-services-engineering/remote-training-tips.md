@@ -1,14 +1,7 @@
 ---
-
 title: "Remote Training Facilitation Best Practices"
 description: "Find some tips and lessons learned for delivering a successful GitLab remote training ."
 ---
-
-
-
-
-
-
 
 Making the transition from onsite trainer to remote trainer can be a challenge — there's a lot more you need to do to keep people engaged when the distractions of email, slack, browsing, and environment are outside of our direct control. Here are some tips and tricks developed by the GitLab Professional Services team, for presenters facilitating remote training sessions using video conferencing and webinar tools.
 
@@ -16,8 +9,7 @@ Making the transition from onsite trainer to remote trainer can be a challenge �
 
 #### Tip 1: Turn on video for all participants as appropriate
 
-When you can see participants it keeps them accountable for paying attention, and you’ll be able to observe the non-verbal cues indicating a wane in attention. On the other hand, if you have a large number of participants, having everyone's video on at the same time can be distracting -- in that case, you can invite specific participants to turn on their video when they are speaking. Also keep in mind that some participants may not be comfortable with sharing their video -- be sensitive to this and do not make video sharing a requirement.
-
+When you can see participants it keeps them accountable for paying attention, and you'll be able to observe the non-verbal cues indicating a wane in attention. On the other hand, if you have a large number of participants, having everyone's video on at the same time can be distracting -- in that case, you can invite specific participants to turn on their video when they are speaking. Also keep in mind that some participants may not be comfortable with sharing their video -- be sensitive to this and do not make video sharing a requirement.
 
 #### Tip 2: Take frequent breaks
 
@@ -29,7 +21,7 @@ For a session you would normally deliver in 1 day onsite, break it up into two 3
 
 #### Tip 4: Ask frequent questions
 
-At least every 10-15 minutes, ask attendees a question they must respond to. You can ask them as a group and wait for volunteers to answer. But if you’re not getting a variety of attendees participating in providing responses to your questions, your next go-to approach is to randomly call on a participant individually to answer a question. This will motivate everyone to pay attention so that they are prepared when you pick on them. You might also consider employing the "attention getters" meaning smartphones, and have a session manager send questions as text messages to the learners' phones. In this way, the learners have learning collateral with them during and after the class session.
+At least every 10-15 minutes, ask attendees a question they must respond to. You can ask them as a group and wait for volunteers to answer. But if you're not getting a variety of attendees participating in providing responses to your questions, your next go-to approach is to randomly call on a participant individually to answer a question. This will motivate everyone to pay attention so that they are prepared when you pick on them. You might also consider employing the "attention getters" meaning smartphones, and have a session manager send questions as text messages to the learners' phones. In this way, the learners have learning collateral with them during and after the class session.
 
 #### Tip 5: Encourage attendees to ask questions
 
@@ -63,16 +55,16 @@ Here are some of our go-to techniques to encourage remote engagement and collabo
 
 #### Pinning
 
-If your video conferencing software includes “pinning” capabilities, use these to your advantage to increase participant attentiveness.
+If your video conferencing software includes "pinning" capabilities, use these to your advantage to increase participant attentiveness.
 
 - Adjust the settings so that as the presenter your video is always pinned as the main or largest video window during the presentation portions of the session.
-- When you reach Q&A or interactive sections of the session, adjust your video setting again so that the active speaker’s video is always displayed largest.
+- When you reach Q&A or interactive sections of the session, adjust your video setting again so that the active speaker's video is always displayed largest.
 - When calling on specific attendees to answer a question, pin their individual video so that it is the largest one displayed.
-- If your video conferencing software includes “panelist” and “attendee” roles which control who can display video, promote selected attendees to “panelist” so they can turn on their video as they respond to your question live.
+- If your video conferencing software includes "panelist" and "attendee" roles which control who can display video, promote selected attendees to "panelist" so they can turn on their video as they respond to your question live.
 
 #### Polls
 
-If your video conferencing software includes “polling” capabilities, use them to increase engagement and interest.
+If your video conferencing software includes "polling" capabilities, use them to increase engagement and interest.
 
 - Set up polling questions in advance of the session and plan specific points in your session flow to display each question.
 - Introduce each polling question and ask all attendees to participate in responding.
@@ -83,7 +75,7 @@ If your video conferencing software includes “polling” capabilities, use the
 #### Recording
 
 - Record the session and make it available to attendees as well as individuals who registered but were unable to attend the live session.
-- To ensure compliance with privacy laws, if your attendees are not employees of your organization, adjust your recording settings so that attendee video, names, and in-session chat messages are not recorded. During the session avoid using attendees’ full names when calling on participants.
+- To ensure compliance with privacy laws, if your attendees are not employees of your organization, adjust your recording settings so that attendee video, names, and in-session chat messages are not recorded. During the session avoid using attendees' full names when calling on participants.
 - Make the recording available in an asynchronous learning environment to scale availability of the training beyond current registrants and attendees.
 
 #### Chat/Q&A pinning
@@ -92,9 +84,9 @@ Be sure to practice ahead of time with pinning your video conferencing Chat or Q
 
 #### Taking and ending breaks
 
-- When it’s time to take a break, let attendees know what time they need to return.
+- When it's time to take a break, let attendees know what time they need to return.
 - Add a note into your Q&A or Chat tool to indicate you are on a break and what time attendees should return.
-- When the break is finished, ask attendees to use the “raise hand” tool to indicate they are back if you aren’t able to see everyone on video.
+- When the break is finished, ask attendees to use the "raise hand" tool to indicate they are back if you aren't able to see everyone on video.
 
 #### Avoid too much of a good thing
 

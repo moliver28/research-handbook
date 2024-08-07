@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through creating and storing job art
 
 ## Objectives
 
-Artifacts in GitLab are files that that are created in a job, and then passed to other jobs in later stages. An artifact in one stage cannot be passed to a job in the same stage. You can later access and download any artifacts created in a pipeline. For more information, click [here](https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html).
+Artifacts in GitLab are files that are created in a job, and then passed to other jobs in later stages. An artifact in one stage cannot be passed to a job in the same stage. You can later access and download any artifacts created in a pipeline. For more information, click [here](https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html).
 
 In this lab, you will learn how to create an artifact with your `.gitlab-ci.yml` file. After creating the artifact, you will view the artifact in the GitLab UI.
 

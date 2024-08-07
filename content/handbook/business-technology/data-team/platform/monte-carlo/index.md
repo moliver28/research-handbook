@@ -43,7 +43,7 @@ A runbook of how everything is technically set up can be found in the [Monte Car
 
 The gist of it is that there is an Okta Group called `okta-montecarlo-users` that is maintained by the Data team and has the Monte Carlo app assigned to it.
 In order to be able to access Monte Carlo via Okta by default, your user should be part of the `okta-montecarlo-users` group.
-For that you should submit an AR (similar ARs: [Example AR 1]](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/22860), [Example AR 2](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/22878)) and assign it to Rigerta Demiri (@rigerta) or ping the #data channel linking the AR.
+For that you should submit an AR (similar ARs: [Example AR 1](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/22860), [Example AR 2](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/22878)) and assign it to Rigerta Demiri (@rigerta) or ping the #data channel linking the AR.
 
 ## Navigating the UI
 
@@ -101,7 +101,7 @@ The same script has to be run as many times as we have databases to monitor (in 
 Please note this is an exception to our usual permission-handling procedure, where we rely on Permifrost, because observability permissions are an edge-case for Permifrost and not yet supported by the tool.
 There is an ongoing [feature request](https://gitlab.com/gitlab-data/permifrost/-/issues/120) on Permifrost for adding granularity to the way permissions are set, but no solution has been agreed on yet.
 
-#### Muting Monte Carlo alerts for sandbox schema's
+### Muting Monte Carlo alerts for sandbox schema's
 
 Sandbox environments are generally created for the purpose of testing. We normally don't take any actions on them even if any alerts come through in our triage slack channels. For this reason, with the confirmation from stakeholders we mute notifications from within monte carlo for sandbox schemas to avoid getting any alerts from them. To mute a schema, head over to [mute-datasets page](https://getmontecarlo.com/settings/muted-data/datasets).
 

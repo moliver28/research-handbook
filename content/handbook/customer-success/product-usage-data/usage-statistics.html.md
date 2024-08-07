@@ -1,14 +1,7 @@
 ---
-
 title: "GitLab Usage Statistics"
 description: "This page outlines our usage statistics and SFDC instance information."
 ---
-
-
-
-
-
-
 
 ---
 
@@ -26,6 +19,7 @@ You can also access usage statistics on the account object level within Salesfor
 Within the account object, there is a section called "Usage Ping Data", which will contain the same hyperlink as well as a summary of version they are using, active users, historical users, license user count, license utilization % and date data was sent to us.
 
 A few example of how to use Usage Statistics to pull insight and drive action?
+
 - If prospecting into CE users, you can sort by active users to target large CE instances.
 You can see what they are using within GitLab, like issues, CI build, deploys, merge requests, boards, etc.
 You can then target your communications to learn how they are using GitLab internally and educate them on what is possible with EE.
@@ -64,6 +58,7 @@ Make sure to save it under a different name so you don't wipe out the original.
 These fields are also available in SFDC reporting.
 
 A few caveats about this data:
+
 - The hosts are mapped based on organization name, domain, and contact email domains to relate the instances to SFDC accounts as accurately as possible, but we may occasionally create false associations.
 Let the Data & Analytics team know when you find errors or anomalies.
 - Both fields can be blank, but the organization can still be a significant CE user.

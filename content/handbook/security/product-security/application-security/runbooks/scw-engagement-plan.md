@@ -41,7 +41,7 @@ Developer = Backend + Frontend Engineers. See [Org Chart](https://comp-calculato
 ## Engagement Plan
 
 - Integrating Secure Code Warrior into [new hire onboarding template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/department_development.md ) as a checklist item that needs to be finished within the first 3 months of starting at GitLab
-   - An Access Request (AR) would be created automatically requesting the new hire access to Secure Code Warrior and the request would ping the `@gitlab-com/gl-security/product-security/appsec` DL on the AR issue. The AppSec person on triage rotation picks up the AR.
+  - An Access Request (AR) would be created automatically requesting the new hire access to Secure Code Warrior and the request would ping the `@gitlab-com/gl-security/product-security/appsec` DL on the AR issue. The AppSec person on triage rotation picks up the AR.
 - Monthly Slack announcements calling out the top 3 vulnerabilities seen in our last Security Release, announcement to be made by the AppSec Primary for that release (see [Release Managers](https://about.gitlab.com/community/release-managers/)), and, how developers can learn to identify and fix them
 - Integrating Secure Code Warrior with GitLab CI would greatly help drive continuous engagement
 - Kick-off tournament open to all Development engineers at GitLab. Prizes would be given for the top 3 players of the tournament.
@@ -51,52 +51,52 @@ Developer = Backend + Frontend Engineers. See [Org Chart](https://comp-calculato
 **[Trailing, 3 months]** *Integrating Secure Code Warrior into new hire onboarding template as a checklist item that needs to be finished within the first 3 months of starting at GitLab*
 
 - Measure the number of new hires that sign up on Secure Code Warrior
-   - Measure monthly
+  - Measure monthly
 - Measure the number of new hires that finish the SCW onboarding course within 3 months
-   - Measure monthly
+  - Measure monthly
 - Measure how many left the course midway
-   - Measure monthly
+  - Measure monthly
 - For the users who signed up, measure how many hours they spent in the platform
-   - Measure monthly
+  - Measure monthly
 - For the users who signed up, measure how many activities they did in the platform
-   - Measure monthly
+  - Measure monthly
 
 **[Trailing, 1 month]** *Those who sign in to Secure Code Warrior are able to use it successfully*
 
 - Across all users, measure how many hours they spent in the platform
-   - Measure daily, review monthly
+  - Measure daily, review monthly
 - Across all users, measure how many activities they did in the platform
-   - Measure daily, review monthly
+  - Measure daily, review monthly
 
 **[Leading & Trailing]** *Monthly Slack announcements calling out top 3 vulns seen in our last Security Release and how developers can learn to identify and fix them*
 
 - How many people are reacting to the Slack announcement?
-   - Measure when we make the Slack announcement
+  - Measure when we make the Slack announcement
 - Are the number of new people signing up on the platform increasing after the Slack announcement?
-   - Measure when we make the Slack announcement
+  - Measure when we make the Slack announcement
 - Is the existing user engagement increasing after the Slack announcement?
-   - Measure when we make the Slack announcement
+  - Measure when we make the Slack announcement
 - Are developers doing the same challenges from vulnerability areas identified in the Slack message? If not, does the Slack announcement need to be tweaked to encourage more engagement?
-   - Measure when we make the Slack announcement
+  - Measure when we make the Slack announcement
 
 **[Trailing, 1 month]** *Integrating Secure Code Warrior with GitLab CI would greatly help drive continuous engagement*
 
 - How many developers are clicking on the training link on the security issue created by SCW?
-   - Measure monthly
+  - Measure monthly
 - Those clicking on the link, are they completing the training on SCW?
-   - Measure monthly
+  - Measure monthly
 - What feedback are we getting from developers on this integration?
-   - Measure monthly
+  - Measure monthly
 - How should we capture and improve on this feedback?
-   - Measure monthly
+  - Measure monthly
 
 **[Trailing, 6 months]** *Semi-annual tournaments for all developers at GitLab*
 
 - How many developers are signing up for the semi-annual tournament?
-   - Measure semi-annually (during the tournament)
+  - Measure semi-annually (during the tournament)
 - How engaged are the developers on the platform?
-   - Measure semi-annually (during the tournament)
+  - Measure semi-annually (during the tournament)
 - What feedback are we getting from developers on the tournament?
-   - Measure semi-annually (during the tournament)
+  - Measure semi-annually (during the tournament)
 - How should we capture and improve on this feedback?
-   - Measure semi-annually (during the tournament)
+  - Measure semi-annually (during the tournament)

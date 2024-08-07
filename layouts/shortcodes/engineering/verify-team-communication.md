@@ -27,7 +27,6 @@
     <h2>Requires arguments for <code>group-label</code> and <code>group-slug</code></h2>
 {{- end }}
 
-
 The team is globally distributed and separated by many timezones.  This presents some challenges in how we communicate since our work days only overlap by a couple hours.  We have decided as a team to embrace asynchronous communication because scheduling meetings is difficult to coordinate.  We meet as a team one day per week, on Wednesdays for a team meeting and our team's Engineering Managers schedule regular 1-on-1s.
 
 - We are pro-active about asking questions in advance with the understanding that the turnaround on receiving an answer is usually 1-2 working days, subject to one's workload.

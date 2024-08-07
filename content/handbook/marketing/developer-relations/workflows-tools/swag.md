@@ -1,15 +1,6 @@
 ---
-
 title: "Swag: Process & FAQ"
 ---
-
-
-
-
-
-
-
-# Swag
 
 ## Assets
 
@@ -44,7 +35,7 @@ Note: You can also watch a recorded screencast:
 1. Go to the Google Sheet "Developer Relations Swag Coupon Codes & Delivery Tracking".
 1. Go to the tab "One-time Coupon codes"
 1. Add the `Email recipient` to a code of the corresponding price Tier.
-   *  See [Finding Community Member Contact information](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contacting-contributors) how to obtain this information.
+   * See [Finding Community Member Contact information](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contacting-contributors) how to obtain this information.
 1. Select a `Prize` level.
    * First MR Merged
    * Grand Prize (Event result link required)
@@ -123,10 +114,10 @@ There is a possibility to create access for, say, Meetup organizers, to self-ser
 
 ## Additional resources
 
-- [Merchandise handling](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/)
-- [Field Marketing](/handbook/marketing/field-marketing/)
-- [Email templates for sending swag links](/handbook/marketing/developer-relations/contributor-success/community-appreciation/#templates-for-sending-swag-links)
-- [Finding Community Member Contact information](/handbook/marketing/developer-relations/contributor-success/community-appreciation/#finding-community-member-contact-information)
+* [Merchandise handling](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/)
+* [Field Marketing](/handbook/marketing/field-marketing/)
+* [Email templates for sending swag links](/handbook/marketing/developer-relations/contributor-success/community-appreciation/#templates-for-sending-swag-links)
+* [Finding Community Member Contact information](/handbook/marketing/developer-relations/contributor-success/community-appreciation/#finding-community-member-contact-information)
 
 ## FAQ
 
@@ -154,7 +145,7 @@ No, we simplified the historical situation on purpose as it was difficult to und
 Yes. You can request to add custom notecards to kits.
 
 * Boundless needs the verbiage to print on the card
-* Generally 3 x 5” with a GitLab logo on top
+* Generally 3 x 5" with a GitLab logo on top
 
 ### Who can help me with a declaration letter / support with getting Swag items released from customs?
 

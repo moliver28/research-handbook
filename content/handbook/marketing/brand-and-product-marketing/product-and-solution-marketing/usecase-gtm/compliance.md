@@ -1,15 +1,7 @@
 ---
-description: "How GitLab approaches the software compliance solution including messaging and key resources to help marketing and sales."
-
 title: "DevOps Solution Resource: Software Compliance"
+description: "How GitLab approaches the software compliance solution including messaging and key resources to help marketing and sales."
 ---
-
-
-
-
-
-
-
 
 ## Looking for a customer-facing overview of GitLab's Software Compliance capabilities? See the [Compliance Solution](https://about.gitlab.com/solutions/compliance)
 
@@ -17,7 +9,7 @@ title: "DevOps Solution Resource: Software Compliance"
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around DevSecOps.
 
-#### Who to contact
+### Who to contact
 
 |     Product Marketing    |    Developer Advocate    |
 | ------------------------ | ------------------------- |
@@ -42,7 +34,6 @@ Application security testing is still a foundational part of compliance, but now
 - Meet industry regulatory requirements - efficiently and without slowing velocity of development
 - Secure the software supply chain with better end-to-end governance to reduce security and compliance risks
 
-
 ## Personas
 
 ### User Personas
@@ -53,7 +44,6 @@ Application security testing is still a foundational part of compliance, but now
 
 **[Amy the Application Security Engineer](/handbook/product/personas/#amy-application-security-engineer)** may be tasked with automating and reporting on compliance policies so would like them to be simple, efficient, and automated wherever possible. Amy finds it difficult to control which policies are applied within the development process (e.g. CI pipelines) and to keep them from being circumvented. In fact, she may not even know they've been circumvented.
 
-
 ### Buyer Personas
 
 **The CTO or head of DevOps Architecture** is usually the buyer for when compliance is the primary driver.
@@ -63,6 +53,7 @@ The key capability that addresses the CTO's need is [Compliant Pipelines](https:
 **The Security Manager or CISO (Sam's boss)** is usually the buyer for the Ultimate tier when security gets involved.
 
 The key to winning their hearts is to focus on **Simplicity and control**
+
 - Complexity is one of the CISO's chief complaints. Using one tool to provide visibility and control across the entire SDLC is valuable.
 - CISOs likely feel out of control, or at least pressured to be secure amidst evolving threats, high-profile cyber attacks, new compliance concerns, and development tool sprawl. It's hard to manage these software risks.  GitLab's single platform that provides end-to-end simplicity, visibility, and control they need.
 
@@ -80,7 +71,6 @@ Analysts have not identified a market segment for software compliance. They have
 | Security Governance | The solution must automatically apply security policies against code changes to ensure that only appropriate risks are taken. Application vulnerabilities, representing risk, are tracked, managed, and reported. The solution must enable routine assessments of security practices to evaluate for risk, compliance, audit and process improvement opportunities (usually for education purposes). |  Security policy automation, Risk and compliance reporting, Audit reporting, Variety of security metrics and process reporting, Vulnerability database and management | Efficiently monitor, manage and mitigate risk. Ability to identify exceptions and refine policies over time. |
 | Security guardrails (Preventative - Pre CI/CD) | Preventative Application Security uses guardrails to help teams consistently build things that are secure from the start. | Compliant pipelines that cannot be circumvented by a developer, pre-approved code libraries, and auto-discovery that catalogs all third party code. | Prevents creating new vulnerabilities. |
 
-
 ## The GitLab Solution
 
 ## How GitLab Meets the Market Requirements
@@ -91,14 +81,12 @@ GitLab Software Compliance solution overview
    <iframe width="560" height="315" src="https://www.youtube.com/embed/QV2dIocn-hk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </figure>
 
-
-
 | Market Requirements | How GitLab Delivers | GitLab Category | Demos |
 | ------ | ------ | ------ | ------ |
 | Common compliance controls |  GitLab provides [many common controls](https://docs.gitlab.com/ee/administration/compliance.html) throughtout the SDLC, [Audit events](https://docs.gitlab.com/ee/administration/audit_events.html) [Compliance Management](https://about.gitlab.com/direction/govern/compliance/compliance-management/) | Access and Compliance within the Manage stage | |
 | Automated policy enforcement | [Security policies](https://docs.gitlab.com/ee/user/application_security/policies/#policy-management) can be managed in one place while [compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance.html#compliant-workflow-automation) helps admins easily apply compliance policies across projects. | Govern | [![Compliance pipelines](../../images/youtube_social_icon_red-32x23.png) Compliance pipelines](https://www.youtube.com/watch?v=jKA_e_jimoI) |
-| Audit reporting | GitLab tracks [audit events](https://docs.gitlab.com/ee/api/audit_events.html) across the entire SDLC and [report them](https://docs.gitlab.com/ee/administration/audit_reports.html) | Access and Compliance within the Manage stage |
-| Security Governance | Security Policy Automation, [Compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance.html#compliant-workflow-automation), [Security Dashboards](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) and [Vulnerability Reports](https://docs.gitlab.com/ee/user/application_security/vulnerability_report/), [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/), [License compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/) | Govern, Secure |
+| Audit reporting | GitLab tracks [audit events](https://docs.gitlab.com/ee/api/audit_events.html) across the entire SDLC and [report them](https://docs.gitlab.com/ee/administration/audit_reports.html) | Access and Compliance within the Manage stage | |
+| Security Governance | Security Policy Automation, [Compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance.html#compliant-workflow-automation), [Security Dashboards](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) and [Vulnerability Reports](https://docs.gitlab.com/ee/user/application_security/vulnerability_report/), [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/), [License compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/) | Govern, Secure ||
 | Security guardrails (Preventative - Pre CI/CD) | GitLab falls short of providing pre-approved dependencies as some other vendors do, [bill of materials feature](https://docs.gitlab.com/ee/user/application_security/dependency_list/) | Govern, Secure | [![Manage your Application Dependencies with GitLab](../../images/youtube_social_icon_red-32x23.png) Manage your Application Dependencies with GitLab](https://youtu.be/scNS4UuPvLI)|
 
 ## GitLab differentiators
@@ -106,11 +94,10 @@ GitLab Software Compliance solution overview
 | Differentiator | Description |
 | ------ | ------ |
 | Single Application for Entire DevOps Lifecycle | a single application eliminates complex integrations, data chokepoints, and toolchain maintenance, resulting in greater productivity |
-| End-to-End Insight and Visibility | GitLab's common data model enables enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically |
-| Deploy Your Software Anywhere | GitLab is infrastructure-agnostic (supporting GCP, AWS, Azure, OpenShift, VMware, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment |
+| End-to-End Insight and Visibility | GitLab's common data model enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically |
+| Deploy Your Software Anywhere | GitLab is infrastructure-agnostic (supporting GCP, AWS, Azure, OpenShift, VMWare, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment |
 | Leading SCM and CI in One Application | having the backbone of a DevOps toolchain in one application streamlines code review & collaboration (one interface, one user model, one data model) |
 | Built-in Security and Compliance | move security testing earlier in the development lifecycle with out-of-the-box security features (code scanning, dependency scanning, secrets detection, etc.) and automated security testing and audit controls to facilitate policy compliance |
-
 
 ## Top Compliance differentiators
 
@@ -119,7 +106,6 @@ GitLab Software Compliance solution overview
 | **MR approval based on Security Policy** | Bring Development and Security Teams closer by allowing security teams to apply organizational security policies before hand and review/approve security exceptions before the code is merged | [![Merge-Request Approvals as Displayed in DevSecOps Overview](../../images/youtube_social_icon_red-32x23.png) Merge-Request Approvals as Displayed in DevSecOps Overview](https://youtu.be/XnYstHObqlA?t=174) |
 | **Compliance Management** | GitLab makes compliance easier by providing a single source of truth for Dev, Sec and Ops through a single data-store. Everything is audited and for every change, there is a single thread that contains the full audit log of every decision and action - making audit compliance a breeze | [![Manage Compliance with GitLab](../../images/youtube_social_icon_red-32x23.png) Manage Compliance with GitLab](https://youtu.be/QV2dIocn-hk) |
 | **Compliant pipelines** | Admin can choose a compliance framework and apply it to the project. It will override any changes developers make to the pipeline | [Compliant pipelines](https://www.youtube.com/watch?v=jKA_e_jimoI) |
-
 
 ## Message House
 
@@ -155,25 +141,25 @@ See how we compare against other DevOps approaches
 ### Free and Premium
 
 **Key Compliance features with Free/Premium:**
+
 - [Security Approvals in Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html#security-approvals-in-merge-requests) (available in Premium)
 
 In addition, some security scanning is available in the Free tier:
+
 - [Static Application Security Testing](https://docs.gitlab.com/ee/user/application_security/sast/) - check for potential security issues by evaluating static code.
 - [Secrets Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) - avoid exposing secrets and credentials for potential exploit.
 Note: The Free tier does not include providing these results in vulnerability reports and dashboards. Raw findings are provided.
-
 
 ### Ultimate
 
 **Key Compliance features with Ultimate:**
 
 - [Compliant workflows and Compliant pipelines](https://docs.gitlab.com/ee/user/project/settings/index.html#compliance-pipeline-configuration) - projects are assigned a compliance framework and policies are enforced accordingly. This is a key capability for winning compliance opportunities!
-- [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard/index.html) - See if merge requests were approved, and by whom.
+- [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_center/) - See if merge requests were approved, and by whom.
 - Fuzz testing, called out by the 2021 US Executive Order to Improve Cybersecurity
 - [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html) - identify the presence of new software licenses included in your project and track project dependencies. Approve or deny the inclusion of a specific license.
 
 In addition, more security scanners are available, along with Vulnerability management and security dashboard. See the [DevSecOps solution](https://about.gitlab.com/solutions/dev-sec-ops) for details.
-
 
 | Feature / Scenario                                  |    Free   |    Premium  | Ultimate | Product Analytics | Notes                      |
 | --------------------------------------------------- | :-------: | :-------: | :------: | :---------------: | :------------------------- |
@@ -192,7 +178,6 @@ In addition, more security scanners are available, along with Vulnerability mana
 
 The table includes free/community and paid tiers associated with GitLab's self-managed and cloud offering.
 
-
 ## Technology Partnerships
 
 We partner with key industry vendors to extend GitLab's ability to address customer needs and fulfil the market requirements.
@@ -202,9 +187,7 @@ We partner with key industry vendors to extend GitLab's ability to address custo
 
 If you or your customer has a third party they'd like to see integrated into GitLab, send them to the [partner integration page](https://about.gitlab.com/partners/technology-partners/integrate/) for instructions.
 
-
 ## Selling the Software Compliance Solution
-
 
 ## Ideal customer profile
 
@@ -220,34 +203,38 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 | General Software supply chain security concern | non-specific concerns about not becoming a victim | non-specific concerns about not becoming a victim  | non-specific concerns about not becoming a victim |
 | Regulated industry | Strict change control means missed change windows when compliance issues are found late in the process | Strict change control means missed change windows when compliance issues are found late in the process | Strict change control means missed change windows when compliance issues are found late in the process |
 
-
 ## Discovery Questions
 
 ### Current state - where's the pain?
 
 **1. Simplicity**
+
 - How difficult is your compliance/audit process? (time, people, risk)
 - Does it take away time from your developers?
 - Are compliance issues found late in the software development/deployment process resulting in rework?
 
 **2. Visibility**
+
 - Do you have challenges between setting/automating policies and ensuring they were followed?
 - Do you have visibility/traceability into audit events (e.g. access control, reporting, and change logs, etc.)?
 - Can you see who made changes not only to the application code, but also to CI pipelines, configurations, templates, etc?
 - Do you know how often policy exceptions are granted? How difficult is it to evaluate compliance with policies and drift/exceptions?
 
 **3. Control**
+
 - Are you able to ensure that policies are followed and not changed or ignored by developers or others?
 - Is consistency a problem for security and compliance use? Are most projects secured a bit differently every time?
 - If your software development does not comply with regulatory standards, what is the potential cost/risk?
 
 **4. For public sector and regulated industries only**
+
 - Do you often miss change management windows and have to reinitiate the change management process?
 
 **5. Related security questions**
+
 - What percentage of code are you currently scanning? Are there holes where an attacker could more easily enter and then traverse laterally? How much more would it cost you to scan all of your code?
-- If you are using containers, orchestrators, and/or microservices/API’s, how are you scanning them for vulnerabilities and monitoring them during production?
-- How much of the security team’s time is spent tracking vulnerabilities, triaging them, and following up to see that they were remediated?
+- If you are using containers, orchestrators, and/or microservices/API's, how are you scanning them for vulnerabilities and monitoring them during production?
+- How much of the security team's time is spent tracking vulnerabilities, triaging them, and following up to see that they were remediated?
 
 #### Before state and negative consquences
 
@@ -259,8 +246,6 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 | 4. Policies are set but developers and other users can simply turn them off | This opens the door for security and compliance problems, including insider attacks. The lack of control lengthens audit efforts. |
 | 5. Inconsistent pipelines across projects | Every project must be inspected uniquely for compliance. |
 
-
-
 ### Future state - what's the desired state?
 
 - Do you have targets in mind for how long it should take you to audit a project? What would that process look like?
@@ -269,6 +254,7 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 - If you could demonstrate automated controls for compliance, how would that simplify audits?
 
 **For public sector and regulated industries only**
+
 - If you could meet change management windows by having the compliance problems identified and worked out before the change window began, what would that save you in terms of rework? improved velocity?
 
 #### After scenarios and PBOs
@@ -290,28 +276,27 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 | 4. Inherited policies from instance to group to project | time spent setting up and reviewing compliance for individual projects |
 | 5. Reporting of compliance concerns to the developer in the MR | time spent in rework late in the SDLC |
 
-
 ## Overcoming Objections
 
 - **We can't afford to replace our current DevOps tools** - We can meet you where you are and gradually work toward a smaller set of tools. Any tools eliminated is one less place to map and monitor compliance and security policies.
 - **We get by with our current processes** - If you were breached, could you quickly identify potential sources of compromise? What is that worth to you?
 - Others?
 
-
 ## Proof Points - customers
 
 ### Quotes and reviews
 
-
 ### Customer Case Studies
 
 **[Glympse](https://about.gitlab.com/customers/glympse/)**
+
 - **Problem** A complex developer tech stack with over 20 distinct tools that was hard to maintain and manage. Teams spent several hours a week keeping tools running rather than shipping innovation to their app.
 - **Solution:** GitLab Ultimate (SCM, CI, DevSecOps)
 - **Results: ~20 tools consolidated into GitLab and remediated security issues faster than any other company in their Security Auditor's experience.
 - **Sales Segment:** SMB
 
 **[Chorus](https://about.gitlab.com/customers/chorus/)**
+
 - **Problem:** The founders of Chorus built the tool from the beginning using GitLab.
 - **Solution:** GitLab Ultimate (SCM, CI, DevSecOps)
 - **Results:** **6 week production cycles reduced to 1 week** During a recent audit for SOC2 compliance, the auditors said that Chorus had the fastest auditing process they have seen and most of that is due to the capabilities of GitLab.
@@ -336,10 +321,9 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 - Demo: [Manage your application dependencies with GitLab](https://youtu.be/scNS4UuPvLI)
 - eBook: [Guide to Securing your Software Supply Chain](https://learn.gitlab.com/devsecops-aware/software-supply-chain-security-ebook)
 
-
 ### Customer Facing Slides
-- [Continuous Software Compliance](https://docs.google.com/presentation/d/1VR36MFEYzAd2XpITpvIdPrXlAhM0QRKzJ_OihAjVBbc/edit#slide=id.gcf27821480_2_291) solution slides - feedback welcomed as comments in the deck.
 
+- [Continuous Software Compliance](https://docs.google.com/presentation/d/1VR36MFEYzAd2XpITpvIdPrXlAhM0QRKzJ_OihAjVBbc/edit#slide=id.gcf27821480_2_291) solution slides - feedback welcomed as comments in the deck.
 
 ### Additional Documentation Links
 
@@ -358,18 +342,19 @@ The following will link to enablement and training videos and content.
 
 GitLab offers a [variety of pre-packaged and custom services](https://about.gitlab.com/services/) for our customers and partners. The following are service offers specific to this solution. For additional services, see the [full service catalog](https://about.gitlab.com/services/catalog/).
 
-- [DevOps Fundamentals Training](https://about.gitlab.com/services/education/devops-fundamentals/) (all stages of the DevOps lifecycle)
+- [DevOps Fundamentals Training](https://university.gitlab.com/courses/gitlab-devops-fundamentals) (all stages of the DevOps lifecycle)
 - [GitLab CI/CD Training](https://about.gitlab.com/services/education/gitlab-ci/)
 - [Integration Services](https://about.gitlab.com/services/implementation/integration/ )
-
 
 ## Resources
 
 ### Clickthrough & Live Demos
+
 - [All Marketing Click Through Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#click-throughs)
 - [All Marketing Live Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#live-instructions)
 
 ### Roadmap
+
 - [Manage Direction](https://about.gitlab.com/direction/manage/)
 
 ### Technical Resources for Solution Architects - TBD
@@ -377,5 +362,3 @@ GitLab offers a [variety of pre-packaged and custom services](https://about.gitl
 ### Buyer's Journey
 
 [Inventory of key assets](https://docs.google.com/spreadsheets/d/15-yai90Ol7k4D2exHXqHXtFastR6FcE6HABD_GisAl8/edit#gid=0) in the buyer's Journey
-
-

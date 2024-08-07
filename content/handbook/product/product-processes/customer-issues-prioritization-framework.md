@@ -1,13 +1,6 @@
 ---
-
 title: "Customer Issues Prioritization Framework"
 ---
-
-
-
-
-
-
 
 ## Context
 
@@ -23,36 +16,36 @@ The outcomes the framework is aimed at providing:
 
 - [Product Feedback](https://gitlab.com/gitlab-com/Product/-/issues/3546)
 - [Customer Success Feedback](https://gitlab.com/gitlab-com/Product/-/issues/3545)
-- [Sales Feedback](https://gitlab.com/gitlab-com/Product/-/issues/3895)  
+- [Sales Feedback](https://gitlab.com/gitlab-com/Product/-/issues/3895)
 
 ## Use cases this framework was designed to support
 
 ### Product
 
 > "What problems should I prioritize solving that would have the greatest impact on ARR retention and growth?"
-
+>
 > "How can I easily find all of the customers interested in a given issue or all of the issues a given customer cares about?"
-
+>
 > "Where should we consider investing additional resources relative to customer needs?"
-
+>
 > "Which groups are critical to retaining ARR and which are critical to growing ARR?"
-
+>
 > "How can I most easily influence global prioritization of customer related needs across all of Product?"
 
 ### Sales
 
 > "What is the ratio of net new ARR to renewable ARR that is driving product feature requests?"
-
+>
 > "How much existing account ARR is at stake vs. potential new opportunity net ARR?"
-
+>
 > "How can I communicate my prospect's needs such that they are appropriately prioritized in a timely manner?"
 
 ### Customer success
 
 > "How can I easily see and track a list of issues requested by my customers without having to manually compile and maintain a list that requires constantly check-in on when solutions are expectd to be shipped."
-
+>
 > "How can I most efficiently and effectively communicate the relative priorities of my customer's needs to Product?"
-
+>
 > "How can I raise the visibility of, and escalate appropriately, my customer's support tickets?"
 
 ## Quickstart
@@ -60,7 +53,6 @@ The outcomes the framework is aimed at providing:
 1. To view a list of requested issues by customer, stage, CSM, or category, visit the [Customer Requested Issues (Product) dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) and apply the relevant filters.
 1. To add a customer or opportunity to an open issue or epic, follow the process outlined below in ["Customer Links"](/handbook/product/product-processes/customer-issues-prioritization-framework/#customer-links).
 1. Optionally, watch the [walk-through (10m 20s)](https://www.youtube.com/watch?v=ZUxIxp_Pv5k&list=PL05JrBw4t0KrKoeXjf5Bdtapu9Cl3T7gI&index=17&pp=sAQB).
-
 
 ## Framework Inputs and Outputs
 
@@ -81,7 +73,7 @@ The framework is powered by a model that consists of several key components:
 - Priority Score
 - Weighted priority score
 
-### Customer Links
+### Customer links
 
 To link an account, opportunity, or support ticket to an issue or epic, [use the feedback template and Salesforce/Zendesk link](/handbook/product/how-to-engage/#a-customer-expressed-interest-in-a-feature) to add a comment to the issue or epic in `gitlab-org` or any project or sub-group within this top-level namespace (ex: `/gitlab-org/gitlab`). For best results, only include one Salesforce or Zendesk link per comment. If you want to "unlink" an account from an issue or epic, simply remove the Salesforce or Zendesk link from the respective comment(s) on the issue or epic.
 
@@ -98,6 +90,10 @@ Supported link types:
 1. If multiple comments or references on an issue link to the same account or opportunity, the most recently updated comment is used.
 1. If an issue is marked as a duplicate of another issue, the GitLab team member will need to add the comment with the link and `~customer priority::` label to the respective open issue.
 1. For completeness sake, `/gitlab-org/...` issues that are referenced in a customer's collaboration project creates an automated link between the account and the issue/epic, but the recommended path to take full advantage of the model is to add a comment directly to the `/gitlab-org/...` issue as `~customer priority::` can't be defined from a collaboration project.
+
+### Theme labels
+
+You can add any number of `~theme:...` labels to issues or epics to enable aggregating priority score grouped by theme labels within the dashboard. Using theme labels is a helpful for tool for segmenting different groups of related customer requested issues. **Note:** Aggregate values are not de-duplicated among all theme labels. For example, if the priority score of Issue A is 100 and it has two theme labels, the value aggregated for each theme label will be 100. 
 
 ### Priority points
 

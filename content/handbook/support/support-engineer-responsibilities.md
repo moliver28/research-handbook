@@ -306,7 +306,7 @@ There's no goal for this area. You can see how you're doing using the 'Support F
 
 ## Improve GitLab and Support processes (Occasionally)
 
-We continuously evolve and improve our processes. You are encouraged to [update the handbook](/handbook/handbook-usage/) and improve Support processes by contributing to [issues in the Support Meta project](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues).
+We continuously evolve and improve our processes. You are encouraged to [update the handbook](/handbook/about/handbook-usage/) and improve Support processes by contributing to [issues in the Support Meta project](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues).
 
 There's a lot going on. It can be overwhelming if you try to contribute to everything. To help focus and find an area you're interested in look at the [Support Team Epics](https://gitlab.com/groups/gitlab-com/support/-/epics/) where issues are grouped into larger initiatives. Epics have a directly responsible individual's (DRI) name in parentheses after the title. Contact them and speak with your manager if you'd like to help out.
 

@@ -18,7 +18,7 @@ them can result in *very* complex changes being required in the backend. If you
 are not fully comfortable with all the areas of Zendesk, you might want to pair
 with a Fullstack Engineer.
 
-#### Creating a new user field
+### Creating a new user field
 
 **NOTE** Whenever possible, you should aim to create the user field
 *first* in the sync repo and then make any edits to other items that will be
@@ -50,10 +50,10 @@ click the Display name, you can see it in the URL).
 From here, create the merge request in the sync repo project. Keep in mind you
 are likely to need to adjust **many** user field files due to positioning.
 
-#### Updating an existing user field
+### Updating an existing user field
 
 Updating an existing user field is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
 The one caveat is when you are adding new `custom_field_options`, as you will
@@ -61,7 +61,7 @@ not have the ID of this. As such, you will *have* to make the change in Zendesk
 *first* to obtain that value via the API. As such, if you are doing this, it
 needs to be made clear the changes for it will happen *instantly* in production.
 
-#### Deactivating an user field
+### Deactivating an user field
 
 **NOTE** In theory, this is a simple task. In practice, this is a *very*
 wide-reaching change. Often this will require subsequent changes to other areas
@@ -76,7 +76,7 @@ the following:
 - Moves the file from the `data/active` folder to the `data/inactive` folder
 - Sets `active: true` to `active: false` in the file.
 
-#### Deleting a deactivated user field
+### Deleting a deactivated user field
 
 **NOTE** We avoid doing this unless an user field has been deactivated for a
 full year. After that point it can be deleted completely.
@@ -103,37 +103,37 @@ so.
 
 ## Troubleshooting
 
-#### Pipeline error "Blank ID"
+### Pipeline error "Blank ID"
 
 This means the script detected a YAML file within `data/active` or
 `data/inactive` that has an `id` value of blank (or nil). You will need to
 locate the file mentioned in the error and correct that.
 
-#### Pipeline error "Blank position"
+### Pipeline error "Blank position"
 
 This means the script detected a YAML file within `data/active` or
 `data/inactive` that has an `position` value of blank (or nil). You will need to
 locate the file mentioned in the error and correct that.
 
-#### Pipeline error "Blank title"
+### Pipeline error "Blank title"
 
 This means the script detected a YAML file within `data/active` or
 `data/inactive` that has an `title` value of blank (or nil). You will need to
 locate the file mentioned in the error and correct that.
 
-#### Pipeline error "Inactive user field in active folder"
+### Pipeline error "Inactive user field in active folder"
 
 This means the script detected a YAML file within `data/active` that has an
 `active` value of `false`. You will need to locate the file mentioned in the
 error and correct that.
 
-#### Pipeline error "Active user field in inactive folder"
+### Pipeline error "Active user field in inactive folder"
 
 This means the script detected a YAML file within `data/inactive` that has an
 `active` value of anything other than `false`. You will need to locate the file
 mentioned in the error and correct that.
 
-#### Pipeline error "GitLab errors"
+### Pipeline error "GitLab errors"
 
 This is a generic error message that will detail some error that occurred when
 trying to either create or update the tag used on the source project. The exact
@@ -145,11 +145,11 @@ team.
 
 ## Source Projects
 
-#### Zendesk Global
+### Zendesk Global
 
 - [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/users/fields)
 
-#### Zendesk US Government
+### Zendesk US Government
 
 - [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-us-government/users/fields)
 
@@ -187,13 +187,13 @@ To ensure all user fields we utilize are both consistent in nature and
 transparent in their actions, we strive to meet some standards on all user
 fields we work with.
 
-#### Naming standards
+### Naming standards
 
 The title of the user field should be as clear and concise as possible. The
 objective is for the agents working tickets and the Zendesk admins to be able to
 understand what the user field is for and what information it contains.
 
-#### Drop-down standards
+### Drop-down standards
 
 With drop-downs, aim to make the information as clear and concise as possible.
 Lengthy wordings here can render poorly at times in the organization.
@@ -202,7 +202,7 @@ There will be times when you cannot avoid it. In those cases, you'll want to
 double check what it will look like to the end-user and the agent before
 committing the option to production.
 
-#### Tagging standards
+### Tagging standards
 
 Whenever possible, we want tags generated from user fields. The tags should be
 very unique and align with the title of the user field.

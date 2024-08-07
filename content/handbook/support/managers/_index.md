@@ -1,10 +1,7 @@
 ---
-
 title: Support Managers
 description: Support Managers activities and references
 ---
-
-
 
 ## Role and Responsibilities
 
@@ -61,20 +58,20 @@ As a Support Management group we should be aware of the tooling we use to genera
 1. Sisense
 1. Zendesk Explore
 
-#### Sisense
+### Sisense
 
 Sisense is a general purpose visualization tool that is used by the greater company.
 It's extremely powerful with a full SQL interface to our data across functions.
 We work with the data team to generate "Stable" Graphs here. Think, KPIs and greater measures that make sense to report to the larger company.
 As managers, we will not need to edit these reports often, but we should consuming it regularly.
 
-#### Zendesk Explore
+### Zendesk Explore
 
 Zendesk Explore was released to replace Zendesk Insights. We will use this tool
 for quick interactions on new ideas or fact checking Sisense data. Support Managers
 should be ready to work with Explore regularly and be comfortable with the tool.
 
-#### Why two metrics systems?
+### Why two metrics systems?
 
 Sisense is a company wide tool that is extremely powerful which can make it unwieldy.
 Explore gives us an interface that is much easier to navigate and use.

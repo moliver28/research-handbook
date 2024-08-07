@@ -1,22 +1,11 @@
 ---
-
 title: "Data Triage Guide"
 description: "GitLab Data Triage Guide"
 ---
 
-
-
-
-
-
-
-
-
----
-
 ## <i class="fas fa-users fa-fw color-orange font-awesome" aria-hidden="true"></i>Data Triage
 
-#### Enterprise Data Program Triage
+### Enterprise Data Program Triage
 
 GitLab has a robust and vibrant Data Program which includes a Central Data Team and many Functional Analytics Teams. GitLab total team members are growing as well and we need to uplevel our triaging process to keep up with GitLab's growth.
 
@@ -105,20 +94,20 @@ Data triagers are the first responders to requests and problems for the Data Pro
 - The Data Analyst triager is primarily responsible for responding to GitLab team member requests whether via issue, which posts to **#data-triage**, or directly via slack in **#data**.
 - The Functional Analyst triager is primarily responsible for responding to GitLab team member requests via slack in **#data**.
 - The Data Platform triager is responsible for resolving problems with our data platform, which will either be in the **#data-pipelines** and **#data-prom-alerts** slack channels, on the [DE - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) and on the [MonteCarlo Incident page](https://getmontecarlo.com/incidents?include-normalized=false&types=freshness_anomaly%2Cvolume_anomaly%2Cdimension_anomaly%2Cfield_metrics_anomaly%2CDBT_ERRORS%2Cfreshness_sli_rule_breach%2Cvolume_sli_rule_breach%2Csql_rule_breach) (make sure to filter on the `Data Platform` domain in MonteCarlo). Issues created from these errors should use the [DE Triage Errors issue template](https://gitlab.com/gitlab-data/analytics/issues/new?issuable_template=Triage%20Errors%20DE).
-    - During the assigned triage week the Data Platform Team member will focused on (in priority order):
-       - Incoming incidents
-       - [Open incidents](https://gitlab.com/gitlab-data/analytics/-/incidents)
-       - New issues
-       - Open issues on the [Data Platform - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859).
-          - If an open incident or issue is already assigned it is still the triager responsibility to either take that issue or ensure progress is made.
-          - If there is no work to be performed on incidents or issues on the [board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) the triager will work on their regular work assignments.
-    - Involvement from Data Platform Team members who do **not** carry triage responsibilities that week is likely still needed in some cases like:
-       - A standing issue or incident could not be solved by the triager and triager need help from other Data Platform Team members.
-       - Monitoring #data-prom-alerts:
-          - The #data-prom-alerts slack channel is used for the most urgent breaking events, which requires **immediate** action. It is the responsibility of all Data Platform Team members to ensure action is taken in time after office hours of the triager.
-       - Assistance from the Data Platform Team is needed by other GitLab Team members and this is outside of the office hours of the triager.
-    - Monte Carlo incidents are posted in the `#data-pipelines` Slack channel (except schema changes). Because Monte Carlo only initially notifies an incident, checking the Monte Carlo Incident page is needed to avoid missing any incidents. **Schema changes** are filtered out using [this link](https://getmontecarlo.com/incidents?include-normalized=false&types=freshness_anomaly%2Cvolume_anomaly%2Cdimension_anomaly%2Cfield_metrics_anomaly%2CDBT_ERRORS%2Cfreshness_sli_rule_breach%2Cvolume_sli_rule_breach%2Csql_rule_breach), because these don't require action (and are also not reported in the Slack channel). **All Monte Carlo incidents need to be given an appropriate resolution status or linked to an assigned GitLab issue end of day.**
-      - Note: Currently there is a large backlog of unclassified incidents in MonteCarlo. We currently focus only on the last 7 days.
+  - During the assigned triage week the Data Platform Team member will focused on (in priority order):
+    - Incoming incidents
+    - [Open incidents](https://gitlab.com/gitlab-data/analytics/-/incidents)
+    - New issues
+    - Open issues on the [Data Platform - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859).
+      - If an open incident or issue is already assigned it is still the triager responsibility to either take that issue or ensure progress is made.
+      - If there is no work to be performed on incidents or issues on the [board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) the triager will work on their regular work assignments.
+  - Involvement from Data Platform Team members who do **not** carry triage responsibilities that week is likely still needed in some cases like:
+    - A standing issue or incident could not be solved by the triager and triager need help from other Data Platform Team members.
+    - Monitoring #data-prom-alerts:
+      - The #data-prom-alerts slack channel is used for the most urgent breaking events, which requires **immediate** action. It is the responsibility of all Data Platform Team members to ensure action is taken in time after office hours of the triager.
+    - Assistance from the Data Platform Team is needed by other GitLab Team members and this is outside of the office hours of the triager.
+  - Monte Carlo incidents are posted in the `#data-pipelines` Slack channel (except schema changes). Because Monte Carlo only initially notifies an incident, checking the Monte Carlo Incident page is needed to avoid missing any incidents. **Schema changes** are filtered out using [this link](https://getmontecarlo.com/incidents?include-normalized=false&types=freshness_anomaly%2Cvolume_anomaly%2Cdimension_anomaly%2Cfield_metrics_anomaly%2CDBT_ERRORS%2Cfreshness_sli_rule_breach%2Cvolume_sli_rule_breach%2Csql_rule_breach), because these don't require action (and are also not reported in the Slack channel). **All Monte Carlo incidents need to be given an appropriate resolution status or linked to an assigned GitLab issue end of day.**
+    - Note: Currently there is a large backlog of unclassified incidents in MonteCarlo. We currently focus only on the last 7 days.
 - The Analytics Engineer triager is primarily responsible for resolving `dbt-test` and `dbt-run` errors. Issues created from these errors should use the [AE Triage Errors issue template](https://gitlab.com/gitlab-data/analytics/issues/new?issuable_template=Triage%20Errors%20AE).
 - The Tableau triager is primarily responsible for acting as the primary owner of responses to ad hoc questions in the #data-tableau channel (others will continue to pitch in, but the person on triage will be the DRI) and facilitating Tableau Office Hours that week
 
@@ -189,7 +178,7 @@ Depending on the nature and impact of the [incident](/handbook/business-technolo
 
 - Incidents are always given immediate attention.
 - Every incident has a DRI assigned. This is not necessarily the triager/creator of the incident. Due to the nature of asynchronous working at GitLab, the triager/creator is the DRI until another GitLab Team Member is actively contacted/involved.
-   - The [codeownerfile](https://gitlab.com/gitlab-data/analytics/-/blob/master/CODEOWNERS) is the right future*source to find the right DRI for assigning the incident.* Currently the code ownership is not well defined. As part of FY23-Q1 we are planning to have a more strict ownership.
+  - The [codeownerfile](https://gitlab.com/gitlab-data/analytics/-/blob/master/CODEOWNERS) is the right future*source to find the right DRI for assigning the incident.* Currently the code ownership is not well defined. As part of FY23-Q1 we are planning to have a more strict ownership.
 - Every raised incident will be communicated in the `#data` Slack channel, followed by a short description, ETA and link to the incident. The right GitLab Team Members are tagged.
   - A regular (depending on the severity) update is posted in Slack. Sometimes there isn't a new status, don't hesitate to communicate this as well.
   - Timelines should be documented in the [timeline section](https://docs.gitlab.com/ee/operations/incident_management/incident_timeline_events.html) under the incident Subject/Header for use in retrospectives and other investigations.
@@ -206,11 +195,11 @@ Changes to the triage bot policy file should be tested in the MR by running the 
 In order to get better and be more efficient in daily triage, we wrap-up the work by the end of the day. The following information is provided by the Data Analyst each day:
 
 - Time Tracking: Listing down the time spent that day on triage and which activities are performed. The general idea is to gain an understanding on where the workload is, in order to optimize those activities. Please list down the work so it is useful for analysis purposes. I.e:
-   - 2 hours solving data ingestion issue, for source x
-   - 1 hours solving data transformation issue
-   - 1 hour on solving a broken Tableau Dashboard
-   - 1 hour triaging and re-routing (new) issues
-   - 0.5 hour on answering Slack questions
+  - 2 hours solving data ingestion issue, for source x
+  - 1 hours solving data transformation issue
+  - 1 hour on solving a broken Tableau Dashboard
+  - 1 hour triaging and re-routing (new) issues
+  - 0.5 hour on answering Slack questions
 - Groundhog Issues. Issues that occur on a regular basis are annoying and costing us unnecessary time. List down any issue that is popping up time after time. This is in order to find any spots in the current landscape to address.
 
 A triage roundup will take place on a weekly or twice-weekly basis in order for the data leadership team to consolidate triage efforts. Please bear in mind the purpose of the information provided, to make it useful and improve Triage.
@@ -235,29 +224,29 @@ A label `Data Warehouse::Impact Check` is added by the Danger Bot as call to act
 The following actions are performed by Data Team Triager:
 
 - Every merge request (`MR`) will be judged
-   - If `MR` contains the label `group::product intelligence` along with `Data Warehouse::Impact Check`, there are a couple of checks that need to do:
-      - Because a new metric is added or the existing one is altered, the `Data team` should ensure the change will not break the `Service ping` extraction process
-      - Check new metric `SQL` statement from the original `MR` *(a typical example is [gitlab-org/gitlab/merge_requests/75504](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/75504/diffs#78300240169ab9f44b4dc25f6b6dcb56b3b629c7))* and execute it on `Snowflake` - usually, it is just a `SELECT` `SQL` statement
-   - If the changes to the `SQL` file are not causing a break in the operation, the label will be changed to `Data Warehouse::Not Impacted`.
-   - If the changes to the `SQL` file causing a break in the operation:
-      - The Label will be changed to `Data Warehouse::Impacted`
-      - A new issue is opened in the `GitLab Data Team project`, assigned to the correct DRI and linked to the original MR.
-      - Impact will be determined in the issue.
-      - Any MRs will be created to overcome loading issues, downstream dbt processing and Tableau usage.
-         - If impact is beyond data loading, this means the data is used downstream, an Analytics Engineer **must** be included to also determine the business impact of the upstream change.
-      - According to the Merge of the GitLab.com MR, merge will be planned.
-   - If the `MR` does not contains the label `group::product intelligence` and it concerns changes to `SQL` structure:
-      - Check if it will break the operation / data pipeline, following the Determination matrix below.
+  - If `MR` contains the label `group::product intelligence` along with `Data Warehouse::Impact Check`, there are a couple of checks that need to do:
+    - Because a new metric is added or the existing one is altered, the `Data team` should ensure the change will not break the `Service ping` extraction process
+    - Check new metric `SQL` statement from the original `MR` *(a typical example is [gitlab-org/gitlab/merge_requests/75504](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/75504/diffs#78300240169ab9f44b4dc25f6b6dcb56b3b629c7))* and execute it on `Snowflake` - usually, it is just a `SELECT` `SQL` statement
+  - If the changes to the `SQL` file are not causing a break in the operation, the label will be changed to `Data Warehouse::Not Impacted`.
+  - If the changes to the `SQL` file causing a break in the operation:
+    - The Label will be changed to `Data Warehouse::Impacted`
+    - A new issue is opened in the `GitLab Data Team project`, assigned to the correct DRI and linked to the original MR.
+    - Impact will be determined in the issue.
+    - Any MRs will be created to overcome loading issues, downstream dbt processing and Tableau usage.
+      - If impact is beyond data loading, this means the data is used downstream, an Analytics Engineer **must** be included to also determine the business impact of the upstream change.
+    - According to the Merge of the GitLab.com MR, merge will be planned.
+  - If the `MR` does not contains the label `group::product intelligence` and it concerns changes to `SQL` structure:
+    - Check if it will break the operation / data pipeline, following the Determination matrix below.
 
-   - If any `MR` will cause a break in the operation, the label will be changed to `Data Warehouse::Not Impacted`.
-   - If any `MR` will cause a break in the operation:
-      - The Label will be changed to `Data Warehouse::Impacted`
-      - A new issue is opened in the `GitLab Data Team project`, assigned to the correct DRI and linked to the original MR.
-      - Impact will be determined in the issue.
-      - Any MRs will be created to overcome loading issues, downstream dbt processing and Tableau usage.
-         - If impact is beyond data loading, this means the data is used downstream, an Analytics Engineer **must** be included to also determine the business impact of the upstream change.
-      - According to the Merge of the GitLab.com MR, merge will be planned.
-      - All stakeholders will be informed.
+  - If any `MR` will cause a break in the operation, the label will be changed to `Data Warehouse::Not Impacted`.
+  - If any `MR` will cause a break in the operation:
+    - The Label will be changed to `Data Warehouse::Impacted`
+    - A new issue is opened in the `GitLab Data Team project`, assigned to the correct DRI and linked to the original MR.
+    - Impact will be determined in the issue.
+    - Any MRs will be created to overcome loading issues, downstream dbt processing and Tableau usage.
+      - If impact is beyond data loading, this means the data is used downstream, an Analytics Engineer **must** be included to also determine the business impact of the upstream change.
+    - According to the Merge of the GitLab.com MR, merge will be planned.
+    - All stakeholders will be informed.
 
 #### Graphical representation of the process
 

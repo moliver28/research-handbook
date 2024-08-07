@@ -20,32 +20,32 @@ We recorded a training about 1-1s which you can find here:
    1. For example, some managers schedule 1-1s on alternating weeks, with one week for synchronous meetings and the next week for asynchronous meetings. This approach allows for more dedicated focus time and aligns with our priority of emphasizing asynchronous communication.
 1. Create a Google doc as the [agenda](#the-1-1-agenda) and set the sharing settings exclusively between you and the team member. This should not be a public document because performance feedback should be as private as possible.
 1. From [High Output Management](https://getlighthouse.com/blog/high-output-management/) (edited sightly for language):
-    1. “A key point about a one-on-one: it should be regarded as the reports’s meeting, with its agenda and tone set by them ... issues that preoccupy and nag the individual contributor.”
-    1. How often you should have 1-1 meetings: "The answer is the job- or task-relevant maturity of each of your individual contributors. In other words, how much experience does a given report have with the specific task at hand?...the most effective management style instance varies from very close to very loose supervision as a report’s task maturity increases."
+    1. "A key point about a one-on-one: it should be regarded as the reports's meeting, with its agenda and tone set by them ... issues that preoccupy and nag the individual contributor."
+    1. How often you should have 1-1 meetings: "The answer is the job- or task-relevant maturity of each of your individual contributors. In other words, how much experience does a given report have with the specific task at hand?...the most effective management style instance varies from very close to very loose supervision as a report's task maturity increases."
 1. Bill Campbell, executive coach to top executives at Google, had a [suggested approach to the 1-1](https://alearningaday.com/2015/11/29/bill-campbell-style-1-1/). Instead of leaving the conversation open, he required both the manager and the team member to bring a list of 5 things to discuss. At the start of the meeting, they would match lists and talk about whatever is on both lists first. After that, they would spend time on 4 topics – performance on job requirements, relationships with peer teams, leadership and innovation.
 1. If you have negative or positive feedback give it right away rather than waiting for the 1-1. However, make sure bi-directional feedback is given *at least* as often as the 1-1 meeting. The face to face 1-1 is also useful for feedback that the person may be especially sensitive too, or is being given for the second time and needs to be taken more seriously.
-1. It’s important not to push times of the 1-1’s for “more important” tasks. Book them and ensure you always are on time. Similarly, canceling a 1-1 should be a last resort. The exception to this is talent acquisition interviews. If participating in an interview schedule, reschedule the 1:1 with as much advance notice as possible, but prioritize the interview.
+1. It's important not to push times of the 1-1's for "more important" tasks. Book them and ensure you always are on time. Similarly, canceling a 1-1 should be a last resort. The exception to this is talent acquisition interviews. If participating in an interview schedule, reschedule the 1:1 with as much advance notice as possible, but prioritize the interview.
 1. One communication style does not fit all. Some need very direct feedback. Others work better with FYI style information to then come to the conclusion you want them to come to on their own. Others work well with clear goals, but without a clear prescription as to how to reach the goal. Great managers can adapt their style to the report.
 1. It is common to start with a bit of small talk. You can also consider starting with asking how are you as a person?
-1. The end of the meeting is a good time to ask questions people might be hesitant to answer. [People will often reveal their important information at the end of a conversation.](https://leadingstrategicinitiatives.com/2011/07/19/use-the-columbo-question-to-get-strategic-information/) Use this to get information about things that are bothering them about other people in the company, including you as a manager. Ask a question like 'How can I make your life better?' or 'How’s the team and the work with other people?'. Don't put this question on the agenda in advance. Since it is the end of the meeting it might be needed to add it to the agenda to discuss in the next meeting.
+1. The end of the meeting is a good time to ask questions people might be hesitant to answer. [People will often reveal their important information at the end of a conversation.](https://leadingstrategicinitiatives.com/2011/07/19/use-the-columbo-question-to-get-strategic-information/) Use this to get information about things that are bothering them about other people in the company, including you as a manager. Ask a question like 'How can I make your life better?' or 'How's the team and the work with other people?'. Don't put this question on the agenda in advance. Since it is the end of the meeting it might be needed to add it to the agenda to discuss in the next meeting.
 1. Setting and managing expectations is maybe your most important task. Both the managers expectations of the work done by the report and the reports expectations about the work and company.
 1. Reports tend to assume that they must do everything added by the manager, make it clear that they can push back (not a good idea, not worth the time), and redirect (please handle it directly with this person, can you arrange for this). You want to prevent the agenda piling up. The manager will put items on the agenda because it is in the functional area of the report and the manager doesn't want to bypass them. But in case the manager cares about something and the report doesn't it might be preferable for the manager (or an executive assistant) to do the work.
 1. Actively listen to identify what the direct report is saying. The manager should strive to do 20% of the talking while the direct report does 80%.
 1. If you have few items on the agenda from the report try the following questions:
 
-  - Is there anything that needs clarity?
-  - What are you most proud of/excited about?
-  - What can I (your manager) improve on?
-  - Anything you think important that happened since the last 1-1
-  - What are potential troubles you see for the team
-  - What are potential troubles you see for the company
-  - What went well since last week?
-  - What went not so well since last week?
-  - Is there anything I can do to help?
-  - Anything non-work related worth mentioning?
-  - When x happened, what will you do differently next time?
-  - Have you identified any career development opportunities that I can help you with? For example: [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/)
-  - Other great questions to consider can be found in the [Culture Amp Blog: 24 great one-on-one meeting questions](https://www.cultureamp.com/blog/great-one-on-one-meeting-questions/) or in 15Five's [The Great eBook of Employee Questions](https://www.15five.com/ebook/employee-questions/).
+   - Is there anything that needs clarity?
+   - What are you most proud of/excited about?
+   - What can I (your manager) improve on?
+   - Anything you think important that happened since the last 1-1
+   - What are potential troubles you see for the team
+   - What are potential troubles you see for the company
+   - What went well since last week?
+   - What went not so well since last week?
+   - Is there anything I can do to help?
+   - Anything non-work related worth mentioning?
+   - When x happened, what will you do differently next time?
+   - Have you identified any career development opportunities that I can help you with? For example: [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/)
+   - Other great questions to consider can be found in the [Culture Amp Blog: 24 great one-on-one meeting questions](https://www.cultureamp.com/blog/great-one-on-one-meeting-questions/) or in 15Five's [The Great eBook of Employee Questions](https://www.15five.com/ebook/employee-questions/).
 
 1. Consider encouraging direct reports to keep their 1:1 document open in their browser throughout the week. As items come up, they can add them in real time instead of waiting until 30 minutes before the meeting to scramble to fill in the [agenda](/handbook/leadership/1-1/suggested-agenda-format/).
 1. Asking open ended questions is important. "You doing alright?" is a yes/no question. There is no room for an answer unless you dig and prod to get more. Instead asking things like "Tell me how you've been doing since we last talked" leave more room for discussion and result in something both more actionable and results driven. Your goal is not just to know how they are doing, but why they feel that way.
@@ -65,18 +65,18 @@ We recorded a training about career mapping which you can find here:
 
 These discussions should take place once a month and after the [360 Feedback](/handbook/people-group/360-feedback/) meeting has taken place. As a manager of people you play a crucial part in developing careers for your reports. This is for them but you should be able to support this process and help them achieve their goals. This is a join collaboration so prior to the meeting think about what questions to ask, specifically identifying **competencies(c)**, **skill gaps(sg)** and **career objectives (co)**. Adrienne Smith who wrote [increase employee retention with career pathing](https://www.geteverwise.com/human-resources/increase-employee-retention-with-career-pathing/) suggests the following:
 
-1. Which projects are you most proud of that you’ve finished here? (c)
+1. Which projects are you most proud of that you've finished here? (c)
 1. What is your favorite part of your job? (c)
 1. Which projects have you struggled with most in this role? (sg)
-1. What’s your least favorite part of your day-to-day? (sg)
+1. What's your least favorite part of your day-to-day? (sg)
 1. When do you ask for help most often? (sg)
 1. What parts of your role do you want to do more of? Less of? (co)
-1. What don’t you do in your current role that you’d like to? (co)
+1. What don't you do in your current role that you'd like to? (co)
 1. What would you like to learn next? (co)
 
 Once you have established the goals you can then create a [career development plan](/handbook/people-group/learning-and-development/#career-mapping-and-development)
 
-#### Why career development for team members is key to being a great leader
+### Why career development for team members is key to being a great leader
 
 Providing team members with a clear path of advancement within the group, department or division that includes career development opportunities is a win-win-win for team members, managers and GitLab.  Team members who are challenged, engaged and who are actively contributing relevant solutions stay with organizations. An engaged workforce allows the department and divisions to meet their current and future needs for talent and skills and increases performance and decreases regrettable attrition.
 
@@ -84,19 +84,19 @@ Please make sure as a manager you have reviewed the [Career Development Section 
 
 There are many reasons that career development conversations are important. Below are a few examples though there are many more reasons.
 
-#### Increase team productivity and performance
+### Increase team productivity and performance
 
 For managers, having career development conversations offers them a chance to help develop team members which then has an impact on the overall organization.  It's a critical skill for those serious about increasing their teams' productivity and performance.  Development conversations will help the group, department, division and GitLab retain great team members, which at the end of the day also contributes to the manager's own success.
 
-#### Build a bench of high contributors
+### Build a bench of high contributors
 
 On top of increasing performance, these career development conversations allow managers to build a bench of top talent contributor and create a succession pipeline.  This will help reduce worries about losing top talent and who the team can turn to for critical tasks.  Good managers know that if you have a strong bench, you have a lot less to worry about.
 
-#### Be a great leader
+### Be a great leader
 
 When it comes down to, it the best managers or leaders — the ones that team members want to have and are happy continue being part of the team.  These are the managers that take an interest in their team members lives and career.  By learning about what your team members wants, what they strive for and by being able to help them drive to their goals, you will build credibility, trust and respect.  This in turns also contributes to your overall success as a manager.
 
-#### Attract, engage and retain top talent
+### Attract, engage and retain top talent
 
 A managers's job is not to just drive to OKRs and performance.  It is also to attract, engage and retain top talent team members and maximize their contribution to the group, department or division.  If you are interested in your team members aspirations, success and what motivates them, you will attract top talent because people will want to work for you.  Once you get great team members on board, you will need a plan to get them and keep them engaged. Career development can be and should be one of the ways you as a manager invest your time and energy to help drive engagement, performance and results.
 
@@ -174,9 +174,9 @@ Below are several recommended articles regarding career development conversation
 
 ## Key Points
 
-1. **Actively Listen**. Self-assessment is difficult and people often overestimate or underestimate their skillset. Don’t be quick to discount their assessment. Look for common ground and focus on understanding their overall goals.
+1. **Actively Listen**. Self-assessment is difficult and people often overestimate or underestimate their skillset. Don't be quick to discount their assessment. Look for common ground and focus on understanding their overall goals.
 1. **Control**. Maintain control of the conversation to ensure it stays on track. The focus should be on their current skillset and abilities and how to cultivate those for a career path within the company.
-1. **Adaptation**. Adapting your approach to different personality types is key. People that overestimate their skillsets should be given specifics on where they do, and don’t, meet expectations. They may need areas of failing to be pointed out more plainly (but always caringly). Those that underestimate their skillset may need more emphasis on what they are doing right as they tend to focus on the negative. Also, not everyone wants to advance. Some are very happy in the role they are in and want to stay there. That should also be supported. Learn more in our [Learning & Development Handbook](/handbook/people-group/learning-and-development/).
+1. **Adaptation**. Adapting your approach to different personality types is key. People that overestimate their skillsets should be given specifics on where they do, and don't, meet expectations. They may need areas of failing to be pointed out more plainly (but always caringly). Those that underestimate their skillset may need more emphasis on what they are doing right as they tend to focus on the negative. Also, not everyone wants to advance. Some are very happy in the role they are in and want to stay there. That should also be supported. Learn more in our [Learning & Development Handbook](/handbook/people-group/learning-and-development/).
 
 ## Transitioning 1-1s
 
@@ -184,7 +184,7 @@ When taking over management of an existing team member, consider the following g
 
 ### Manager Transition Meeting
 
-In an effort to be [transparent]({{< ref "values#transparency" >}}), managers should consider ensuring that all of the information provided to the future manager by the current manager is done in full view of the team member. This might not work for all team members. You should ask whether the team member will feel comfortable having this conversation openly, and respect their boundaries. When choosing to remain transparent, schedule a transition meeting and follow the [Manager Transition Meeting Agenda](#manager-transition-meeting-agenda-example).
+In an effort to be [transparent](/handbook/values/#transparency), managers should consider ensuring that all of the information provided to the future manager by the current manager is done in full view of the team member. This might not work for all team members. You should ask whether the team member will feel comfortable having this conversation openly, and respect their boundaries. When choosing to remain transparent, schedule a transition meeting and follow the [Manager Transition Meeting Agenda](#manager-transition-meeting-agenda-example).
 
 ### 1-1-1 Transition Schedule
 
@@ -208,7 +208,7 @@ Abrupt 1-1 transitions can threaten a team member's sense of psychological safet
 
 #### Introduction
 
-TEAM MEMBER, in the coming weeks I will transition management support to FUTURE MANAGER. This is an opportunity for you to comment, agree, and disagree with how your performance, feedback, professional goals, growth areas, and 1:1 document content is shared with FUTURE MANAGER. We want to ensure you have a complete picture of the information we share. The goal is to make sure we’re transparent in the transition of your career, how you want to grow, and how I can support you.
+TEAM MEMBER, in the coming weeks I will transition management support to FUTURE MANAGER. This is an opportunity for you to comment, agree, and disagree with how your performance, feedback, professional goals, growth areas, and 1:1 document content is shared with FUTURE MANAGER. We want to ensure you have a complete picture of the information we share. The goal is to make sure we're transparent in the transition of your career, how you want to grow, and how I can support you.
 
 We understand that this meeting format may feel a bit awkward as we will openly discuss your work performance. This is all in the service of the goal to fully support you.
 
@@ -251,13 +251,13 @@ Leadership Engagement Check-Ins, (also known as [Stay Interviews](https://www.fo
 
 ##### Opening
 
-Start the conversation by explaining the purpose of the meeting and why it’s important to you as a manager. An example is below.
+Start the conversation by explaining the purpose of the meeting and why it's important to you as a manager. An example is below.
 
 > "Thanks for taking the time to have this check-in conversation. Team member engagement is very important to me, and this talk is a way to better understand how things are going for you and how I can help to improve your experience at GitLab. I would like to talk with you about the reasons you stay with GitLab so I understand what I can do to make this a great place to work for you."
 
 ##### Questions
 
-It’s important to listen and gather feedback from the team member about how they feel about GitLab in an objective manner:
+It's important to listen and gather feedback from the team member about how they feel about GitLab in an objective manner:
 
 - What do you like most about your job?
 - What do you like least about your job?
@@ -271,12 +271,12 @@ It’s important to listen and gather feedback from the team member about how th
 
 1. **Team member has expressed the desire to stay at GitLab and is engaged**
     - I am so pleased to hear GitLab is a great place for you and really value your input going forward.
-    - In case there’s a change in your feelings I want to make sure you can always speak up, even outside of these engagement check-ins.
+    - In case there's a change in your feelings I want to make sure you can always speak up, even outside of these engagement check-ins.
 1. **Team member expressed both reasons to stay but also reasons for leaving**
     - I really want to thank you for your valuable input and feedback.
     - Summarizing what we have discussed I would love to work on an engagement plan so that we can make sure GitLab is a great place to work for you.
     - Let's follow up in one week and prepare items we can work on to improve your experience at GitLab.
-1. **Team member expressed mostly reasons why they consider leaving and isn’t engaged**
+1. **Team member expressed mostly reasons why they consider leaving and isn't engaged**
     - I really want to thank you for your valuable input and feedback.
     - Looking at your concerns I would love to work on an engagement plan so that we can make sure GitLab becomes a great place to work for you.
     - Let's follow up in one week and prepare items we can work on to improve your experience at GitLab.
@@ -287,7 +287,7 @@ It’s important to listen and gather feedback from the team member about how th
 
 To close the Engagement Check-In, summarize the key points discussed, and work with the team member to develop an engagement plan (if applicable). Be sure to end on a positive note. An example is below.
 
-> "Let me summarize what I heard you say about the reasons you stay at GitLab, as well as reasons you might leave. Then, let’s develop a plan to make this a great place for you to work.
+> "Let me summarize what I heard you say about the reasons you stay at GitLab, as well as reasons you might leave. Then, let's develop a plan to make this a great place for you to work.
 I appreciate you sharing your thoughts with me today. I am committed to doing what I can to make this a great place for you to work."
 
 If, during the Engagement Check-In, issues arise around health, performance, compensation, etc. and you need assistance, please work directly with your manager or your [People Business Partner](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group).

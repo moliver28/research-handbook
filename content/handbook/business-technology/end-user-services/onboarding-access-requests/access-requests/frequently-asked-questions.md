@@ -10,7 +10,7 @@ title: "Access Requests (AR) FAQs"
 
 ## I need access
 
-#### My AR request has been open for a while, how can I get traction on it?
+### My AR request has been open for a while, how can I get traction on it?
 
 1. Review that the access request has been completed according to the [instructions](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests#how-do-i-choose-which-template-to-use) and that you have included the system/vault/group/project you need access to plus the role or permissions needed.
 1. Most access requests need Manager approval so make sure to tag your manager in the AR and ask them to add the ~"AR-Approval::Manager Approved" and ~"ReadyForProvisioning" labels to the issue
@@ -18,7 +18,7 @@ title: "Access Requests (AR) FAQs"
 1. If the provisioner is the IT team, please make sure to add the ~"IT::to do" label to the AR.
 1. If you have followed all the steps above and your access request is still not being worked on, reach out to the team that owns the tools in their Slack channel. You can find the Slack Channel for each team in our [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
 
-#### So you need access to a system or a group/vault?
+### So you need access to a system or a group/vault?
 
 1. Choose a template based on your needs: most people use the [Bulk](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) or [Single Person](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) template.
 1. Do not open an Access Request for anything that is part of a baseline entitlement unless it got missed during onboarding.
@@ -32,7 +32,7 @@ title: "Access Requests (AR) FAQs"
 1. If you need help, please ask IT-Ops in the slack channel #it-help with a link to the issue you need help with.
 1. Only ask for the least amount of access to do the work.
 
-#### Do I need manager approval? Sometimes
+### Do I need manager approval? Sometimes
 
 You don't need manager approval if you are requesting the following:
 
@@ -40,31 +40,31 @@ You don't need manager approval if you are requesting the following:
 1. An internal team member being added to a slack group
 1. Something included in your role based entitlement
 
-#### I need access to the Rails or database production console (grpd)
+### I need access to the Rails or database production console (grpd)
 
 Please use Teleport to request temporary access to either
 [the Rails console](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/teleport/Connect_to_Rails_Console_via_Teleport.md) or
 [the database console](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/teleport/Connect_to_Database_Console_via_Teleport.md).
 
-#### I need access to version.gitlab.com or license.gitlab.com
+### I need access to version.gitlab.com
 
 You might already have it: [Test if you have a dev account.](https://dev.gitlab.org/)
 
 - If you need a dev account, open a [Single Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request).
-- If you have a dev account, go to [license](https://license.gitlab.com/) and [version](https://version.gitlab.com/users/sign_in) and login with GitLab and authorize them to use your credentials.
+- If you have a dev account, go to [version](https://version.gitlab.com/users/sign_in) and login with GitLab and authorize them to use your credentials.
 
-#### I need access to Zendesk as a Light Agent
+### I need access to Zendesk as a Light Agent
 
 You don't need to open an access request for Zendesk light access. [Follow the instructions to get access by email](/handbook/support/internal-support/#viewing-support-tickets)
 
-#### I need to add an email alias, or name change
+### I need to add an email alias, or name change
 
 Please use the [`slack_googlegroup_1password` AR template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=slack_googlegroup_1Passwordgroupvault) for any email alias additions or name changes.
 There are no restrictions on what can be requested, or how many, but please include a short explanation for the addition or change. Some alias requests may be denied if deemed inappropriate or at the discretion of operations.
 
 While this application automation will take place in Okta, "true" system provisioning and deprovisioning will still need to be manually completed within the impacted systems via an Access Change Request.
 
-#### Closing outdated access requests
+### Closing outdated access requests
 
 It is expected that an access request will be completed as soon as possible (30 day's)
 

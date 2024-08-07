@@ -1,15 +1,7 @@
 ---
-
 title: "Blog style guide"
 description: "This handbook page describes the styling, punctuation, spelling, and grammatical guidelines for posts on the GitLab blog."
 ---
-
-
-
-
-
-
-
 
 ## Related pages
 
@@ -138,7 +130,7 @@ less formal.
 
 ## Dates
 
-#### Months
+### Months
 
 Spell out, unless using the full date (see below).
 
@@ -200,9 +192,9 @@ Use double quotation marks for direct quotes, and single quotation marks for a q
 Examples:
 
 > Recently, an article was published stating, "Software is eating the world."
-
+>
 > What do you think of the claim, "Software is eating the world"?
-
+>
 > "Do you agree that software is eating the world?" wrote the author.
 
 ### Tense
@@ -233,62 +225,62 @@ When in doubt, use the "future" styling of a word. So, "internet" is not capital
 How to spell and style commonly used words.
 
 - Agile
-    - A is capitalized when referring to [Agile methodology](https://en.wikipedia.org/wiki/Agile_software_development)
+  - A is capitalized when referring to [Agile methodology](https://en.wikipedia.org/wiki/Agile_software_development)
 - AI-powered DevSecOps platform
-    - *AI-powered* is always hyphenated
-    - *powered* and *platform* are always lowercase in written content (there may be exceptions when the term is used in design and brand assets)
-    - If GitLab precedes the term, *Platform* is capitalized but *powered* is not: GitLab AI-powered DevSecOps Platform
+  - *AI-powered* is always hyphenated
+  - *powered* and *platform* are always lowercase in written content (there may be exceptions when the term is used in design and brand assets)
+  - If GitLab precedes the term, *Platform* is capitalized but *powered* is not: GitLab AI-powered DevSecOps Platform
 - all remote
-    - We refer to GitLab as an all-remote company (not remote friendly, remote first, or remote only)
-    - hyphenated only when appearing before a noun ("GitLab is an all-remote organization"/"GitLab is all remote")
+  - We refer to GitLab as an all-remote company (not remote friendly, remote first, or remote only)
+  - hyphenated only when appearing before a noun ("GitLab is an all-remote organization"/"GitLab is all remote")
 - Board
-    - when in reference to the GitLab Board or Directors or our Board members, Board is capitalized
-    - a board in general does not need to be capitalized
+  - when in reference to the GitLab Board or Directors or our Board members, Board is capitalized
+  - a board in general does not need to be capitalized
 - built-in/built in
-   - always hyphenated when appearing before a noun e.g. "GitLab has built-in CI/CD." Two words when used as a verb e.g. "GitLab comes with CI/CD built in."
+  - always hyphenated when appearing before a noun e.g. "GitLab has built-in CI/CD." Two words when used as a verb e.g. "GitLab comes with CI/CD built in."
 - cloud native
-    - not capitalized, and no hyphen, regardless of how it is used
+  - not capitalized, and no hyphen, regardless of how it is used
 - co-founder
-    - hyphenated, not capitalized
+  - hyphenated, not capitalized
 - continuous delivery, deployment, integration
-    - not capitalized
+  - not capitalized
 - developer
-    - use the abbreviation "dev" sparingly; do not capitalize
+  - use the abbreviation "dev" sparingly; do not capitalize
 - DevOps
-    - D and O always capitalized
+  - D and O always capitalized
 - E-Group
-    - references to E-Group should always include a capital E, hyphen, and a capital G
+  - references to E-Group should always include a capital E, hyphen, and a capital G
 - emoji
-    - use emoji for singular and plural
+  - use emoji for singular and plural
 - Git
-    - always capitalized
+  - always capitalized
 - GitHub
 - GitLab
-    - G and L are always capitalized, even in GitLab.com
+  - G and L are always capitalized, even in GitLab.com
 - internet
-    - not capitalized
+  - not capitalized
 - Kubernetes
-    - always capitalized, never abbreviated to K8s (except on social)
+  - always capitalized, never abbreviated to K8s (except on social)
 - lifecycle
-    - always one word
+  - always one word
 - Master
-    - we no longer use this term to refer to branches...please use *main* instead
+  - we no longer use this term to refer to branches...please use *main* instead
 - multicloud
-    - one word, no hyphen, lowercase m, lowercase c
+  - one word, no hyphen, lowercase m, lowercase c
 - open source
-    - no hyphen, regardless of how it is used
+  - no hyphen, regardless of how it is used
 - operations
-    - use "ops" sparingly; do not capitalize
+  - use "ops" sparingly; do not capitalize
 - plugin
-   - always one word
+  - always one word
 - set up/setup
-    - two words for the verb, one for the noun ("How to set up a Kubernetes cluster"/"Let's walk through the Kubernetes cluster setup process")
+  - two words for the verb, one for the noun ("How to set up a Kubernetes cluster"/"Let's walk through the Kubernetes cluster setup process")
 - sign up/signup
-    - two words for the verb, one for the noun ("Sign up for a GitLab.com account"/"Upon signup, you will be sent a confirmation email")
+  - two words for the verb, one for the noun ("Sign up for a GitLab.com account"/"Upon signup, you will be sent a confirmation email")
 - startup
-    - no hyphen
+  - no hyphen
 - web
-    - not capitalized
+  - not capitalized
 
 ## Editorial review checklist
 
@@ -318,5 +310,3 @@ We have a [checklist for writers in the blog handbook](/handbook/marketing/blog/
 - Does the post adhere to our style guide?
 - Is it written in [American English](#american-english-vs-british-english)?
 - Are all titles and headlines in [sentence case](#case)?
-
-

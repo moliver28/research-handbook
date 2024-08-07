@@ -13,7 +13,7 @@ Anyone on the Recruitment Team can provide sourcing support for talent pools.  T
 
 ### **Step 2: Add prospects to talent pool(s) in Greenhouse CRM**
 
-Talent Acquisition Team members should add potential matches to the appropriate Talent Pool in Greenhouse and make use of the appropriate tags to ensure the ability to easily filter prospects for specific job profiles, locations, etc. By default, all new prospects will land in prospect stage “no stage specified”.
+Talent Acquisition Team members should add potential matches to the appropriate Talent Pool in Greenhouse and make use of the appropriate tags to ensure the ability to easily filter prospects for specific job profiles, locations, etc. By default, all new prospects will land in prospect stage "no stage specified".
 
 You are encouraged to find top talent using a variety of different sourcing avenues, with LinkedIn and GitLab Talent Community being the most used and efficient ones.
 
@@ -22,7 +22,7 @@ While LinkedIn projects can be used, all approached prospects should be added in
 There are multiple ways to add the candidates, as follows:
 
 - [LinkedIn](https://support.greenhouse.io/hc/en-us/articles/204110135-Add-Prospects-to-Greenhouse-via-LinkedIn-RSC-Integration)
-- [Greenhouse plug-in](https://support.greenhouse.io/hc/en-us/articles/201444934-Prospecting-with-Greenhouse-Prospecting-Google-Chrome-Plugin)
+- [Greenhouse plug-in](https://support.greenhouse.io/hc/en-us/articles/8302339682843-Install-the-Greenhouse-Recruiting-Chrome-extension)
 - [Maildrop](https://support.greenhouse.io/hc/en-us/articles/201990630)
 - [Enable LinkedIn Recruiter System Connect (RSC)](https://support.greenhouse.io/hc/en-us/articles/115005678103-Enable-LinkedIn-Recruiter-System-Connect-RSC-) so you can export candidates in one click as prospects
 
@@ -36,9 +36,9 @@ How to add prospects to Talent Pools:
 
 If you are helping source for a talent pool please verify the prospects you find are best qualified before reaching out to them.
 
-The assigned Recruiter(s) to the pool have a 7 day SLA to review prospects in prospect stage “no stage specified”.
+The assigned Recruiter(s) to the pool have a 7 day SLA to review prospects in prospect stage "no stage specified".
 
-- If the prospect is *not qualified*, the Recruiter will select the option to “stop considering as prospect” and provide the talent acquisition team member who added the propsect with feedback on why we are not continuing.
+- If the prospect is *not qualified*, the Recruiter will select the option to "stop considering as prospect" and provide the talent acquisition team member who added the propsect with feedback on why we are not continuing.
 - If the prospect *is qualified*, the assigned Recruiter will change the  prospect stage to "Qualified" and will ask you to engage the prospect
 
 ### **Step 4: Reach Out to Prospects**
@@ -65,21 +65,21 @@ To send out a mass communication to the general Talent Community
 
 ### **Step 5: Convert Prospects to Nurture**
 
-If the prospect responds with interest, the person who found them will collect the prospects email address and will update the prospect stage in Greenhouse from “Contacted” to “Nurture”.
+If the prospect responds with interest, the person who found them will collect the prospects email address and will update the prospect stage in Greenhouse from "Contacted" to "Nurture".
 
 It is **required** we capture the following information in Greenhouse for all prospects converted to the "Nurture" stage.
 
 - [ ] Email Address
 - [ ] Current Resume or PDF of LinkedIn Profile
 - [ ] Locality
-     - Instructions: When making an assumption, default to a higher location factor. **Reminder:** this needs to be updated during the screening call if our assumption was incorrect.
+  - Instructions: When making an assumption, default to a higher location factor. **Reminder:** this needs to be updated during the screening call if our assumption was incorrect.
 
 Keep in mind, Tags can take care of other key pieces of information we may want to include on a prospect's profile.
 
-If the prospect wants to talk with someone at GitLab to learn more about future opportunities, the person who found them will send them the Calendly link of the assigned Recruiter for the Talent Pool so a brief 15-20 "career conversation" call can be set up.  Not all prospects who get moved to “Nurture” have to complete a call.
+If the prospect wants to talk with someone at GitLab to learn more about future opportunities, the person who found them will send them the Calendly link of the assigned Recruiter for the Talent Pool so a brief 15-20 "career conversation" call can be set up.  Not all prospects who get moved to "Nurture" have to complete a call.
 
-The person who completes the "career conversation" call will add brief notes to the prospects profile in Greenhouse and add the tags "Check Activity Feed" and "Had Video Chat" to the prospect's profile. If the person who completes the "career conversation" call considers the prospect to be great overall match to GitLab they will add the “Top Candidate” tag as well. If the prospect should no longer be considered as a prospect after the call, select the option to “stop considering as a prospect”.
+The person who completes the "career conversation" call will add brief notes to the prospects profile in Greenhouse and add the tags "Check Activity Feed" and "Had Video Chat" to the prospect's profile. If the person who completes the "career conversation" call considers the prospect to be great overall match to GitLab they will add the "Top Candidate" tag as well. If the prospect should no longer be considered as a prospect after the call, select the option to "stop considering as a prospect".
 
 ### **Step 6: Nurture Prospects**
 
-Prospects whose prospect stage in Greenhouse is “Nurture” should receive a monthly message from GitLab.
+Prospects whose prospect stage in Greenhouse is "Nurture" should receive a monthly message from GitLab.

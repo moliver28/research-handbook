@@ -1,18 +1,11 @@
 ---
-
 title: Real-time Editing of Issue Descriptions (REID) Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## The Real-time Editing of Issue Descriptions (REID) Single-Engineer Group
 
 Real-time Editing of Issue Descriptions (REID) was a [Single-Engineer Group (SEG)](/handbook/company/structure/#single-engineer-groups)
-investment within GitLab’s [Incubation Engineering Department](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/handbook/engineering/development/incubation).
+investment within GitLab's [Incubation Engineering Department](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/handbook/engineering/development/incubation).
 This SEG effort has ended due to a team member departure, effective March 16, 2023.
 
 ### Vision
@@ -147,6 +140,7 @@ server. Upon reconnection, a client is now able to sync its state with the serve
 Starting a collaborative editing session should be exactly the same as opening and editing an issue today. In case a second user starts to work on an issue, the backend will create a *collaborative editing session* users automatically and makes sure that all changes (deltas) are synced between all participating parties.
 
 Awareness helps us to see who we are collaborating with and how. It helps us answering the following questions:
+
 - Who is online and collaborating with me?
 - Who is actively participating?
 

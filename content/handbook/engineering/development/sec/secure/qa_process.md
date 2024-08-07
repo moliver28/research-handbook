@@ -4,12 +4,6 @@ aliases: /handbook/engineering/development/sec/secure/qa_process.html
 title: Secure QA Process
 ---
 
-
-
-
-
-
-
 ## Everything starts with a Merge Request
 
 We expect and require all contributions to our products to go a merge request with a formal review. As such, we follow the [Merge Request workflow](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html) and [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html) articulated in GitLab's developer documentation. We would, however, like to highlight a few items from these documents and add a few additional considerations for reviewers and authors.
@@ -45,14 +39,13 @@ More information about can be found in the [Security Products test projects repo
 ### Testing on OpenShift
 
 We currently do not have automated tests for OpenShift. If you want to see how a change affects the analyzer behavior on OpenShift,
-you can test it using the [Secure OpenShift Instance](http://gitlab.apps.secure-stage-openshift-test.k8s-ft.win/).
-You can find the credentials to login to this instance in 1Password under the name `Secure Openshift`.
+you can test it by setting up an OpenShift environment by following the [steps listed here](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/745#note_468404882).
 
 If there is not an existing test project for the feature which you would like to test, then it is recommended
 to mirror an existing test repository on GitLab.com. To do this, go to **New Project** -> **Import Project** -> **Repo by URL**
 and paste the Git repository URL of the repository that you would like to mirror. Enable the **Mirror repository**
 checkbox so that updates to the test respository on GitLab.com will be automatically synced to the OpenShift instance.
-Set the project visibility to **public** so that that any links that you leave to these projects on your merge requests
+Set the project visibility to **public** so that any links that you leave to these projects on your merge requests
 are visible to others.
 
 Once you have finished creating the project, go to **CI/CD** -> **Pipelines** and click the **Run Pipeline** button

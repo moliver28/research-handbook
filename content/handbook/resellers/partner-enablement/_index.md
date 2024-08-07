@@ -16,17 +16,17 @@ Rember that some of the links below require you to login to [GitLab's Partner Po
 
 [Building Pipelines GitLab Partner Webinar Series](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db) (Live Webinar & Episode Content Archive)
 
-  - This webinar series is produced exclusively for GitLab Partners.  We discuss various sales and presales-level topics that help you build your sales pipeline with GitLab.
-  - Click the link above to view the archive of previous episode content and be sure to **Register Today**!
+- This webinar series is produced exclusively for GitLab Partners.  We discuss various sales and presales-level topics that help you build your sales pipeline with GitLab.
+- Click the link above to view the archive of previous episode content and be sure to **Register Today**!
 
 **Topical Articles on DevSecOps Concepts**
 
-  - [What is DevOps](https://about.gitlab.com/topics/devops/)
-    - This extensive article goes into detail about DevOps, the culture, tools, and methods for success.  It's worth 15 mins.
-  - [What is a DevOps Platform?](https://about.gitlab.com/topics/devops-platform/)
-    - Great overview article with 10 primary must-have features and 7 things to consider to get the most out of the platform
-  - [DevSecOps Defined](https://about.gitlab.com/topics/devsecops/)
-    - Can your existing governance practices keep pace with modern development methods? Learn how next-generation software requires a new approach to application security.
+- [What is DevOps](https://about.gitlab.com/topics/devops/)
+  - This extensive article goes into detail about DevOps, the culture, tools, and methods for success.  It's worth 15 mins.
+- [What is a DevOps Platform?](https://about.gitlab.com/topics/devops-platform/)
+  - Great overview article with 10 primary must-have features and 7 things to consider to get the most out of the platform
+- [DevSecOps Defined](https://about.gitlab.com/topics/devsecops/)
+  - Can your existing governance practices keep pace with modern development methods? Learn how next-generation software requires a new approach to application security.
 
 ## 1. GitLab Product Overview
 
@@ -34,19 +34,19 @@ Learn what GitLab is, what it offers, and what it does
 
 **Customer Facing Resources**
 
-  - [GitLab Promo Page](https://about.gitlab.com/why-gitlab/) (Web Page)
-    - This is a Why GitLab Page .  It's actually a good elevator pitch!  Check it out.
-  - [GitLab Promo DEMO](https://about.gitlab.com/demo/) (Video)
-    - This video is a bit longer demo video and shows more about using GitLab (3 min)
-  - [Platform Page](https://about.gitlab.com/platform) (Web Page)
-    - Get to know the basic capability set of GitLab here.  Be sure to scroll down to the Solutions GitLab enables and drill into them for more information (20 min read)
-  - [Solutions Page](https://about.gitlab.com/solutions/) (Web Page)
-    - offers a wide variety of ways customers leverage GitLab (20 min read)
+- [GitLab Promo Page](https://about.gitlab.com/why-gitlab/) (Web Page)
+  - This is a Why GitLab Page .  It's actually a good elevator pitch!  Check it out.
+- [GitLab Promo DEMO](https://about.gitlab.com/demo/) (Video)
+  - This video is a bit longer demo video and shows more about using GitLab (3 min)
+- [Platform Page](https://about.gitlab.com/platform) (Web Page)
+  - Get to know the basic capability set of GitLab here.  Be sure to scroll down to the Solutions GitLab enables and drill into them for more information (20 min read)
+- [Solutions Page](https://about.gitlab.com/solutions/) (Web Page)
+  - offers a wide variety of ways customers leverage GitLab (20 min read)
 
 **Additional References for You**
 
-  - [GitLab internal Sales Training Resources](/handbook/sales/training/) (Handbook)
-    - Review this page for all of the sales related training that internal GitLab sellers go through.
+- [GitLab internal Sales Training Resources](/handbook/sales/training/) (Handbook)
+  - Review this page for all of the sales related training that internal GitLab sellers go through.
 
 ## 2. Pitching GitLab and Showcasing a Solution
 
@@ -54,32 +54,32 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 
 **Customer Facing Resources**
 
-  - [Build a Business Case for GitLab](https://about.gitlab.com/get-started/build-business-case/) (Web Page)
-    - Guidance for building a business case for GitLab DevSecOps Platform for a customer buying decision maker (20 min)
-  - [Online ROI calculators](https://about.gitlab.com/calculator/) (Interactive Tool)
-    - Leverage the online ROI calculators, or contact your Partner Account Manager for more sophisticated analysis tools (20 min)
-  - [Why GitLab](https://about.gitlab.com/why-gitlab/) (Web Page)
-    - Get to know the top reasons customers choose GitLab (10 min)
-  - [Customer Case Studies](https://about.gitlab.com/customers/) (Web Page)
-    - Our case studies will give you ideas of why enterprises are choosing GitLab.  Bookmark this for customer justification in deals later. (10 min)
+- [Build a Business Case for GitLab](https://about.gitlab.com/get-started/build-business-case/) (Web Page)
+  - Guidance for building a business case for GitLab DevSecOps Platform for a customer buying decision maker (20 min)
+- [Online ROI calculators](https://about.gitlab.com/calculator/) (Interactive Tool)
+  - Leverage the online ROI calculators, or contact your Partner Account Manager for more sophisticated analysis tools (20 min)
+- [Why GitLab](https://about.gitlab.com/why-gitlab/) (Web Page)
+  - Get to know the top reasons customers choose GitLab (10 min)
+- [Customer Case Studies](https://about.gitlab.com/customers/) (Web Page)
+  - Our case studies will give you ideas of why enterprises are choosing GitLab.  Bookmark this for customer justification in deals later. (10 min)
 
 **Pitching GitLab and Technical Discovery**
 
-  - [Positioning GitLab - Handbook Page](/handbook/positioning-faq/) (Handbook)
-    - Review this page to learn about how to position GitLab in the market. (10 min)
-  - [GitLab Technical Discovery Guide](/handbook/sales/qualification-questions/#questions-for-selling-gitlab-premium-and-ultimate) (Handbook)
-    - Discovery is a crucial skill for any Solutions Architect (SA).  Here is how GitLab SA’s do their Discovery (10 min)
-  - [User Personas](/handbook/product/personas/) (Handbook)
-    - These are the persona types that are the primary users of GitLab inside your customer.
-  - [Buyer Personas](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) (Handbook)
-    - There are different buyer personas to understand when selling a Platform like GitLab.  Which do you value more? (20 min)
+- [Positioning GitLab - Handbook Page](/handbook/marketing/positioning-faq/) (Handbook)
+  - Review this page to learn about how to position GitLab in the market. (10 min)
+- [GitLab Technical Discovery Guide](/handbook/sales/qualification-questions/#questions-for-selling-gitlab-premium-and-ultimate) (Handbook)
+  - Discovery is a crucial skill for any Solutions Architect (SA).  Here is how GitLab SA's do their Discovery (10 min)
+- [User Personas](/handbook/product/personas/) (Handbook)
+  - These are the persona types that are the primary users of GitLab inside your customer.
+- [Buyer Personas](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) (Handbook)
+  - There are different buyer personas to understand when selling a Platform like GitLab.  Which do you value more? (20 min)
 
 **Competitive Information**
 
-  - [GitLab Maturity Page](https://about.gitlab.com/direction/maturity/) (Web Page)
-    - A very transparent self-assessment of the maturity of each GitLab feature. No direct comparisons with other vendors here.
-  - [GitLab Competitive Overviews](https://partners.gitlab.com/prm/English/s/assets?collectionId=56958) (Portal Assets)
-    - Have a look at competitive positioning material in the assets library of the Partner site. (login required)
+- [GitLab Maturity Page](https://about.gitlab.com/direction/#maturity) (Web Page)
+  - A very transparent self-assessment of the maturity of each GitLab feature. No direct comparisons with other vendors here.
+- [GitLab Competitive Overviews](https://partners.gitlab.com/prm/English/s/assets?collectionId=56958) (Portal Assets)
+  - Have a look at competitive positioning material in the assets library of the Partner site. (login required)
 
 **Demo resources to help you showcase the Platform**
 
@@ -88,7 +88,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 - [GitLab Partner Demo Delivery Guide](https://gitlab.com/gitlab-partner-demos/delivery-guide) (GitLab Project)
   - A GitLab Project containing all the resources for partners to successfully deliver a 1-hour-long, high-level, technical overview demo of GitLab.  Check out the README for further guidance.
 - [Building Pipelines Episode 011](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db) (Video)
-  - “Effective GitLab Demos.” (40:16)  More resources and helpful hints are provided.  [Register for the Webinar](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db)!
+  - "Effective GitLab Demos." (40:16)  More resources and helpful hints are provided.  [Register for the Webinar](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db)!
 - [GitLab Partner Demos](https://gitlab.com/gitlab-partner-demos) (Project Catalog)
   - Public group containing demo projects developed by the GitLab Partner SA team for use with and by our partners
 - [GitLab POV Handbook Page](/handbook/solutions-architects/tools-and-resources/pov/)
@@ -104,15 +104,15 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 
 **Additional References for You**
 
-  - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) and [Install Guides](https://docs.gitlab.com/ee/install/) (GitLab Docs)
-    - GitLab has a leading market share in self-managed deployments.  Here are our technical specs and docs for solutioning and installing GitLab instances.  
-  - [High Availability Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#supported-modifications-for-lower-user-counts-ha)
-    - The 3,000 user GitLab reference architecture is the smallest we recommend that achieves High Availability (HA). However, for environments that need to serve fewer users but maintain HA, there are several supported modifications for this architecture to reduce complexity and cost. Any reference architecture above 3000 users is capable of running as a HA workload. For smaller deployments, we (GitLab) recommend to schedule regular backups which provide a recovery point objective (RPO) that the organization can tolerate.
-  - [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
-    - The GitLab Environment Toolkit (GET) is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures. Created and maintained by the GitLab Quality Engineering Enablement team, the Toolkit supports the deployment of GitLab Self-Managed to Hyperscaler and On-Prem target environments.
-    - Review the following GitLab Environment Toolkit's provided examples located [here](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/tree/main/examples?ref_type=heads).
-    - HA is only available for GitLab's enterprise paid tiers. Both Premium and Ultimate licenses of our product will permit the deployment of Highly Available instances of GitLab.
-    - Migration from one instance to another remains the same as if the target system weren't highly available. More here: https://handbook.gitlab.com/handbook/resellers/partner-enablement/partner-migration-services/#from-gitlab-self-managed-to-gitlab-self-managed
+- [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) and [Install Guides](https://docs.gitlab.com/ee/install/) (GitLab Docs)
+  - GitLab has a leading market share in self-managed deployments.  Here are our technical specs and docs for solutioning and installing GitLab instances.  
+- [High Availability Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#supported-modifications-for-lower-user-counts-ha)
+  - The 3,000 user GitLab reference architecture is the smallest we recommend that achieves High Availability (HA). However, for environments that need to serve fewer users but maintain HA, there are several supported modifications for this architecture to reduce complexity and cost. Any reference architecture above 3000 users is capable of running as a HA workload. For smaller deployments, we (GitLab) recommend to schedule regular backups which provide a recovery point objective (RPO) that the organization can tolerate.
+- [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
+  - The GitLab Environment Toolkit (GET) is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures. Created and maintained by the GitLab Quality Engineering Enablement team, the Toolkit supports the deployment of GitLab Self-Managed to Hyperscaler and On-Prem target environments.
+  - Review the following GitLab Environment Toolkit's provided examples located [here](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/tree/main/examples?ref_type=heads).
+  - HA is only available for GitLab's enterprise paid tiers. Both Premium and Ultimate licenses of our product will permit the deployment of Highly Available instances of GitLab.
+  - Migration from one instance to another remains the same as if the target system weren't highly available. More here: https://handbook.gitlab.com/handbook/resellers/partner-enablement/partner-migration-services/#from-gitlab-self-managed-to-gitlab-self-managed
 
 ## 3.  Closing the Deal
 
@@ -120,17 +120,17 @@ Learn how to construct and transact a GitLab deal
 
 **Customer Facing Resources**
 
-  - [Customer Pricing Page](https://about.gitlab.com/pricing/) (Web Page)
-    - This is the public price of the subscription.  Pricing is a simple per-user subscription that is the same whether you are using SaaS or Self Hosted instance.
-  - [Customer Case Studies](https://about.gitlab.com/customers/) (Web Page)
-    - Leverage these for customer justification in deals. (10 min)
+- [Customer Pricing Page](https://about.gitlab.com/pricing/) (Web Page)
+  - This is the public price of the subscription.  Pricing is a simple per-user subscription that is the same whether you are using SaaS or Self Hosted instance.
+- [Customer Case Studies](https://about.gitlab.com/customers/) (Web Page)
+  - Leverage these for customer justification in deals. (10 min)
 
 **Additional References for You**
 
-  - [Partner Program Incentives Guide](https://partners.gitlab.com/prm/English/s/assets?id=350001) (Portal Asset)
-    - Review the GitLab Partner Program guide for more details on reseller transactions. (login required)
-  - [GitLab Price Book](https://partners.gitlab.com/prm/English/s/assets?collectionId=49441) (Portal Asset)
-    - Review the skews and reseller pricing available to you for quoting to your customers. (login required)
+- [Partner Program Incentives Guide](https://partners.gitlab.com/prm/English/s/assets?id=350001) (Portal Asset)
+  - Review the GitLab Partner Program guide for more details on reseller transactions. (login required)
+- [GitLab Price Book](https://partners.gitlab.com/prm/English/s/assets?collectionId=49441) (Portal Asset)
+  - Review the skews and reseller pricing available to you for quoting to your customers. (login required)
 
 ## 4.  Post-sales Implementation and Adoption Journey
 
@@ -138,49 +138,49 @@ Delivery docs and technical guidance for your GitLab practice engineers
 
 **Implementing a GitLab Instance**
 
-  - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
-    - **Read, understand, and follow the guidance given in this reference architecture page.  It's crucially important for long term maintainability of a GitLab instance.**
-  - [GitLab Environment Toolkit GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit#documentation)
-    - [GET getting started video](https://partners.gitlab.com/prm/English/s/assets?id=543232&renderMode=Collection)
-    - **This is the Way... to install GitLab.**  The GitLab Environment Toolkit (GET) is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures.  Built and actively maintained by the Quality Enablement team.
-  - [Other Installation Methods](https://docs.gitlab.com/ee/install/install_methods.html)
-    - Make sure any automation you provide that automatically installs GitLab is installing the Enterprise Edition, and leverages at the core one of these installation methodologies to have a suppored configuration
-  - [Unsupported Designs](https://docs.gitlab.com/ee/administration/reference_architectures/#deviating-from-the-suggested-reference-architectures)
-    - Also review these unsupported configurations to make sure you are in compliance with our support requirements
-  - [Next Implementation Steps After Installation](https://docs.gitlab.com/ee/install/next_steps.html)
-    - Once you have the product installed, here are additional steps to make the installation operationally successful (like backups)
-  - [Upgrading GitLab](https://docs.gitlab.com/ee/update/)
-    - **Upgrades are important to become good at.**  GitLab schedules major releases for May each year, by default.  GitLab releases a minor update on the 3rd Thursday of every month, and has released monthly consistently for more than a decade.  Security patches are released more frequently.
+- [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
+  - **Read, understand, and follow the guidance given in this reference architecture page.  It's crucially important for long term maintainability of a GitLab instance.**
+- [GitLab Environment Toolkit GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit#documentation)
+  - [GET getting started video](https://partners.gitlab.com/prm/English/s/assets?id=543232&renderMode=Collection)
+  - **This is the Way... to install GitLab.**  The GitLab Environment Toolkit (GET) is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures.  Built and actively maintained by the Quality Enablement team.
+- [Other Installation Methods](https://docs.gitlab.com/ee/install/install_methods.html)
+  - Make sure any automation you provide that automatically installs GitLab is installing the Enterprise Edition, and leverages at the core one of these installation methodologies to have a suppored configuration
+- [Unsupported Designs](https://docs.gitlab.com/ee/administration/reference_architectures/#deviating-from-the-suggested-reference-architectures)
+  - Also review these unsupported configurations to make sure you are in compliance with our support requirements
+- [Next Implementation Steps After Installation](https://docs.gitlab.com/ee/install/next_steps.html)
+  - Once you have the product installed, here are additional steps to make the installation operationally successful (like backups)
+- [Upgrading GitLab](https://docs.gitlab.com/ee/update/)
+  - **Upgrades are important to become good at.**  GitLab schedules major releases for May each year, by default.  GitLab releases a minor update on the 3rd Thursday of every month, and has released monthly consistently for more than a decade.  Security patches are released more frequently.
      GitLab.com has updates multiple times per day.
 
 **Implementing GitLab Runners**
 
-  - [GitLab Runner Overview](https://docs.gitlab.com/runner/)
-    - GitLab Runners represent the **largest workload the system generates.**  The Runner is the software that executes all of the CI pipelines.  It's possible to deploy them on fixed infrastructure, or autoscale them (up and down) in a cloud provider.
-  - [GitLab Runner Installation](https://docs.gitlab.com/runner/install/)
-  - [GitLab Runner Advanced Configuration](https://docs.gitlab.com/runner/configuration/)
+- [GitLab Runner Overview](https://docs.gitlab.com/runner/)
+  - GitLab Runners represent the **largest workload the system generates.**  The Runner is the software that executes all of the CI pipelines.  It's possible to deploy them on fixed infrastructure, or autoscale them (up and down) in a cloud provider.
+- [GitLab Runner Installation](https://docs.gitlab.com/runner/install/)
+- [GitLab Runner Advanced Configuration](https://docs.gitlab.com/runner/configuration/)
 
 **GitLab Migrations**
 
-  - [Partner Migration Services](/handbook/resellers/partner-enablement/partner-migration-services/)
-    - This **important page** outlines the migration services methods, tools, restrictions, and services kits available to partners
+- [Partner Migration Services](/handbook/resellers/partner-enablement/partner-migration-services/)
+  - This **important page** outlines the migration services methods, tools, restrictions, and services kits available to partners
 
 **Using and Adopting GitLab Effectively**
 
-  - [Get Started Administering GitLab](https://docs.gitlab.com/ee/administration/get_started.html)
-    - The Platform Team will need to get good at the administrative aspects of using GitLab.  Here is where to start.
-  - [Get Started Using GitLab](https://about.gitlab.com/get-started/enterprise/#using-gitlab) (Web Page)
-    - Beginning with setting up your Organization, Groups, Projects, etc. this page includes links to the primary things customers need to do to get set up and running successfully with GitLab
-  - [Getting Started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/)
-    - Beginning to use GitLab CI effectively is one of the **most important milestones in customer adoption**.
-  - [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/)
-    - The golden path of building, securing, and deploying cloud native application code into production automatically is through GitLab Auto DevOps.  Learn how you can use it, and how you can customize it to your customers' needs.
-  - [Getting Started with Application Security](https://docs.gitlab.com/ee/user/application_security/get-started-security.html)
-    - Shift left and show your customer how to progressively implement an effective application security strategy that makes sense for them
-  - [Getting Started with GitLab Main Page](https://about.gitlab.com/get-started/) (Web Page)
-      - Review the rest of the assets on the Getting Started with GitLab page.
-  - [Using GitLab Tutorials](https://docs.gitlab.com/ee/tutorials/) (GitLab Docs)
-    - These video and web page tutorials are included in the GitLab Docs site.  They are a great starting point for learning or deploying technical capabilities.
+- [Get Started Administering GitLab](https://docs.gitlab.com/ee/administration/get_started.html)
+  - The Platform Team will need to get good at the administrative aspects of using GitLab.  Here is where to start.
+- [Get Started Using GitLab](https://about.gitlab.com/get-started/enterprise/#using-gitlab) (Web Page)
+  - Beginning with setting up your Organization, Groups, Projects, etc. this page includes links to the primary things customers need to do to get set up and running successfully with GitLab
+- [Getting Started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/)
+  - Beginning to use GitLab CI effectively is one of the **most important milestones in customer adoption**.
+- [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/)
+  - The golden path of building, securing, and deploying cloud native application code into production automatically is through GitLab Auto DevOps.  Learn how you can use it, and how you can customize it to your customers' needs.
+- [Getting Started with Application Security](https://docs.gitlab.com/ee/user/application_security/get-started-security.html)
+  - Shift left and show your customer how to progressively implement an effective application security strategy that makes sense for them
+- [Getting Started with GitLab Main Page](https://about.gitlab.com/get-started/) (Web Page)
+  - Review the rest of the assets on the Getting Started with GitLab page.
+- [Using GitLab Tutorials](https://docs.gitlab.com/ee/tutorials/) (GitLab Docs)
+  - These video and web page tutorials are included in the GitLab Docs site.  They are a great starting point for learning or deploying technical capabilities.
 
 **Additional References for You**
 
@@ -227,10 +227,10 @@ Delivery docs and technical guidance for your GitLab practice engineers
 ## 4. Third-Party & Community Tutorials
 
 - GitLab for Beginners:
-    - [Learn GitLab in 3 Hours GitLab Complete Tutorial For Beginners](https://www.youtube.com/watch?v=8aV5AxJrHDg) (~ 3 hrs)
+  - [Learn GitLab in 3 Hours GitLab Complete Tutorial For Beginners](https://www.youtube.com/watch?v=8aV5AxJrHDg) (~ 3 hrs)
 - GitLab Flow:
-    - [GitLab Flow - GitLab Tutorial - Part I](https://www.youtube.com/watch?v=ZJuUz5jWb44) (15:37)
-    - [GitLab Flow - GitLab Tutorial - Part II](https://www.youtube.com/watch?v=K5Ux_m0ccuo&list=RDCMUCxu8xrbPZ-neg3FhMdz4yrA&index=3) (33:00)
+  - [GitLab Flow - GitLab Tutorial - Part I](https://www.youtube.com/watch?v=ZJuUz5jWb44) (15:37)
+  - [GitLab Flow - GitLab Tutorial - Part II](https://www.youtube.com/watch?v=K5Ux_m0ccuo&list=RDCMUCxu8xrbPZ-neg3FhMdz4yrA&index=3) (33:00)
 - GitLab CI/CD:
-    - [GitLab CI/CD - GitLab Runner Introduction - 2022](https://www.youtube.com/watch?v=-CyVpfDQAG0&list=RDCMUCxu8xrbPZ-neg3FhMdz4yrA&index=6)(23:27)
-    - [GitLab CI CD - Install and Configure GitLab Runner on Kubernetes with Helm](https://www.youtube.com/watch?v=0Fes86qtBSc) (29:41)
+  - [GitLab CI/CD - GitLab Runner Introduction - 2022](https://www.youtube.com/watch?v=-CyVpfDQAG0&list=RDCMUCxu8xrbPZ-neg3FhMdz4yrA&index=6)(23:27)
+  - [GitLab CI CD - Install and Configure GitLab Runner on Kubernetes with Helm](https://www.youtube.com/watch?v=0Fes86qtBSc) (29:41)

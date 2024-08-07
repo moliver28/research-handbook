@@ -1,10 +1,7 @@
 ---
-
 title: "Zip End Users Guide"
 description: "Zip End Users Guide"
 ---
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
@@ -12,8 +9,9 @@ description: "Zip End Users Guide"
 
 Zip is an add-on to Coupa that will streamline the approval process to ensure we are gathering all the right information to manage the associated approvals, and get you the services you need as soon as possible. As a result, you will now have visibility into your purchase requests including the ability to see status and current stage of the approval process.
 
-**Note:** Check this [2 Minute Zip Overview Video](https://ziphq.wistia.com/medias/d7isqa87qz) to learn more about Zip and how to submit a purchase request.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+Check this [2 Minute Zip Overview Video](https://ziphq.wistia.com/medias/d7isqa87qz) to learn more about Zip and how to submit a purchase request.
+{{% /alert %}}
 
 ### How to access Zip
 
@@ -21,11 +19,11 @@ To request access to Zip:
 
 1. Open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) for Zip and Coupa using the `Individual_Bulk_Access_Request` template. All users requesting access to Zip also need a Coupa license to manage POs and invoices
 
-   -a)In Step 2, in the *Justification for this access* question, please describe what budget, management approvals, purchase orders and invoices approvals you will manage.
+   - a) In Step 2, in the *Justification for this access* question, please describe what budget, management approvals, purchase orders and invoices approvals you will manage.
 
-   -b)**After the AR is approved, you must review the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and follow the instructions for provisioning (either assign to the provisioner, add the correct labels or both if not clearly stated) to avoid any provisioning delays.**
+   - b) **After the AR is approved, you must review the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and follow the instructions for provisioning (either assign to the provisioner, add the correct labels or both if not clearly stated) to avoid any provisioning delays.**
 
-   -c)If you require immediate Zip/Coupa access, please ping in the `#coupa_help` Slack channel.
+   - c) If you require immediate Zip/Coupa access, please ping in the `#coupa_help` Slack channel.
 
 2. Once you are provisioned access, Login to your [Okta home page](https://gitlab.okta.com/app/UserHome)
 3. Find the `Zip` tile.
@@ -99,16 +97,15 @@ To request access to Zip:
    - Internet
    - Telephone
 10. Travel & Entertainment, Company Events
-
-   - Airfare
-   - Business Meals & Entertainment
-   - Company Functions
-   - Hotels & Lodging
-   - Meals - Company Provided
-   - Parking, Gas, Tolls, Mileage
-   - Taxis, Car Service, Public Transportation
-   - IACV Evangelism Dinner Incentive
-   - Team Building
+    - Airfare
+    - Business Meals & Entertainment
+    - Company Functions
+    - Hotels & Lodging
+    - Meals - Company Provided
+    - Parking, Gas, Tolls, Mileage
+    - Taxis, Car Service, Public Transportation
+    - IACV Evangelism Dinner Incentive
+    - Team Building
 
 ### How to request a new vendor?
 
@@ -127,10 +124,10 @@ If there is an existing purchase order (PO) that needs a change, follow the step
 5. Complete the General Information form. Make sure that you enter the existing `Coupa` purchase order number (starts with #1000....).
 6. Complete the Spend Information form:
 
-   - a\)What is the new total budget you will need for this purchase:
+   - a) What is the new total budget you will need for this purchase:
    - Provide the new final cost, which is the sum of the original purchase order (PO) amount and the additional cost
 
-   - b\)Please enter the line item breakdown:
+   - b) Please enter the line item breakdown:
    - In the 'Line item' section, specify the new final cost.
 
    **If the original PO had more than 1 line items, in the Change Order ZIP request include only line items that should be updated (copy the line item name from the original PO).**
@@ -138,8 +135,9 @@ If there is an existing purchase order (PO) that needs a change, follow the step
 7. Attach supporting documentation from the supplier for the change. This could be a SOW, Change Request, and/or Order Form based on the purchase type.
 8. Submit the Change Request. `Procurement` team will amend the PO in `Coupa` on your behalf.
 
+{{% alert color="info" %}}
 Please note that a change request will require the same approvals as a new request.
-{: .alert .alert-info}
+{{% /alert %}}
 
 **NOTE** Change Request can NOT be submitted to updated the vendor. If the vendor of PO should be updated please contact the Procurement Team in the #procurement slack.
 
@@ -177,8 +175,9 @@ Virtual card requests will go through Zip as a regular purchase request.
 
 ![zip-image-6](/handbook/business-technology/enterprise-applications/guides/zip-guide/submitted-request2.png)
 
-**Note:** See which approvals are complete and which have yet to be completed. Automatic notifications via Slack and email will go out as the request is approved by different parties.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+See which approvals are complete and which have yet to be completed. Automatic notifications via Slack and email will go out as the request is approved by different parties.
+{{% /alert %}}
 
 ### How to check status of a new request?
 
@@ -188,9 +187,9 @@ Virtual card requests will go through Zip as a regular purchase request.
 4. Select a Request you want to check the status on.
 
 - If the Request in ZIP has reached the `Coupa Approval and Execute Contract` node, you can check the status of a Request in Coupa:
-   - Click on the "Create Purchase Requisition" icon on the top left corner of the approval flow
-   - Then, click on "View in Coupa"
-   - You will be redirected to Coupa, where you can check the approval flow and the current approver.
+  - Click on the "Create Purchase Requisition" icon on the top left corner of the approval flow
+  - Then, click on "View in Coupa"
+  - You will be redirected to Coupa, where you can check the approval flow and the current approver.
 
 ![zip-image-status](/handbook/business-technology/enterprise-applications/guides/zip-guide/zip_status.png)
 
@@ -198,13 +197,13 @@ Virtual card requests will go through Zip as a regular purchase request.
 
 1. Login to your [Okta home page.](https://gitlab.okta.com/app/UserHome)
 2. Open ZIP
-3. On the Zip home page click on `Requests on the left side of the page and find your Request.
+3. On the Zip home page click on `Requests` on the left side of the page and find your Request.
 4. On the Request page scroll down to the `Documents` section.
 
 If the contract's title contains the term "Executable," this indicates that it has been reviewed and stamped by the Legal team. This implies that the contract is ready to be routed for signatures if all approvals in Coupa were obtained.
 
-  - If the contract has been fully signed by all relevant parties, its status will be indicated as `Final` and title will contain the term `Signed`.
-  - In cases where the contract is pending signatures, the status will display a fraction such as "0/2" or "1/2," depending on the number of required signatures and the signatures that have already been obtained. For instance, if none of the required signatures have been obtained, the status could be "0/2." If one signature has been obtained out of the two required, the status could be "1/2."
+- If the contract has been fully signed by all relevant parties, its status will be indicated as `Final` and title will contain the term `Signed`.
+- In cases where the contract is pending signatures, the status will display a fraction such as "0/2" or "1/2," depending on the number of required signatures and the signatures that have already been obtained. For instance, if none of the required signatures have been obtained, the status could be "0/2." If one signature has been obtained out of the two required, the status could be "1/2."
 
 ### Legal approval / redlines
 
@@ -281,9 +280,10 @@ Some users identified by Legal, HR, Procurement, Security and Privacy have the o
 
 ![zip-image-8](/handbook/business-technology/enterprise-applications/guides/zip-guide/approval-request7.png)
 
-**Note:** You can set your approval notification preferences (Email and/or Slack) by logging into Zip, clicking:
+{{% alert title="Note" color="info" %}}
+You can set your approval notification preferences (Email and/or Slack) by logging into Zip, clicking:
 Settings -> Personal Settings -> Notifications.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ![zip-image-9](/handbook/business-technology/enterprise-applications/guides/zip-guide/approval-request9.png)
 
@@ -293,7 +293,7 @@ Settings -> Personal Settings -> Notifications.
 
 If you are the default assignee for your queue, you can view all pending requests for your approval by simply clicking `Dashboard` in the top right, on the Home dashboard page and selecting the `Needs My Approval` tab.
 
-If you are not the default assignee for your queue, you can view all requests awaiting your queue’s approval by clicking `Dashboard` in the top right corner, selecting the `Queues` tab and selecting your queue. All requests in your queues will appear, you can update the `Status` filter if necessary to see previously approved or upcoming requests.
+If you are not the default assignee for your queue, you can view all requests awaiting your queue's approval by clicking `Dashboard` in the top right corner, selecting the `Queues` tab and selecting your queue. All requests in your queues will appear, you can update the `Status` filter if necessary to see previously approved or upcoming requests.
 
 ![zip-image-11](/handbook/business-technology/enterprise-applications/guides/zip-guide/approval-request4.png)
 
@@ -312,15 +312,16 @@ Click on the `Documents` tab at the top of any request, to see all the documents
 ## Zip Platform Support
 
 - The **Procurement Team** should be the first point of contact for all **functionality** related questions. Examples are:
-   - Why are we using Zip?
-   - How do I see my requests in Zip / navigate Zip?
-   - Which subsidiary or commodity do I select?
-   - Do I have to use both Zip and Coupa to manage my purchase from request to payment?
-   - How do I submit a virtual card request?
-   - Status of requests
-   - Where do I submit a PO Change Request?
-   - Do I need to submit a new supplier request?
+  - Why are we using Zip?
+  - How do I see my requests in Zip / navigate Zip?
+  - Which subsidiary or commodity do I select?
+  - Do I have to use both Zip and Coupa to manage my purchase from request to payment?
+  - How do I submit a virtual card request?
+  - Status of requests
+  - Where do I submit a PO Change Request?
+  - Do I need to submit a new supplier request?
 - The **Finance System Admins** should be the first point of contact for any **technical** issues and / or questions (eg. Access Requests, problems with login, bugs, etc).
 
-**Note:** To contact the Procurement Team or Finance System Admins, send a message to [#zip-faq](https://gitlab.slack.com/archives/C04K1EJGLT1) with your question.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+To contact the Procurement Team or Finance System Admins, send a message to [#zip-faq](https://gitlab.slack.com/archives/C04K1EJGLT1) with your question.
+{{% /alert %}}

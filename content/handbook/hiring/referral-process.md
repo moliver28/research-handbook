@@ -19,8 +19,8 @@ For process instructions regarding referrals, please visit the [Referral Operati
 
 - The candidate's full name.
 - The role.
-- Please provide a description of how you know the candidate and why they are aligned with the role with GitLab.  
-  
+- Please provide a description of how you know the candidate and why they are aligned with the role with GitLab.
+
 Ensure you inform the person that you are endorsing them and that they allow you to do so.
 
 **Sourcing** - Proactively sourcing candidates and adding them to Greenhouse. These candidates are not referrals as you cannot personally vouch for their work or alignment to our values.
@@ -28,19 +28,19 @@ Ensure you inform the person that you are endorsing them and that they allow you
 A Referral is **not**:
 
 - Someone the Talent Acquisition Team has already sourced, screened, or been in contact with for the same requisition or job family.
-    - This applies to *Prospects* as well as *Candidates*.
+  - This applies to *Prospects* as well as *Candidates*.
 - Someone you **do not** know and **would not** be able to speak about confidently.
 - Someone you sourced or someone who reached out to you regarding a vacancy through social media (LinkedIn, Blind, etc). If someone you have **not** worked with reaches out requesting to be referred, you could respond with the message below. Please adjust the order and content to reflect your own style and tone as needed:
     > *"Thank you for your interest in GitLab. Unfortunately I cannot refer you for the position as we have not had a chance to work together. To ensure we maintain an [inclusive (https://about.gitlab.com/company/culture/inclusion/)](/handbook/company/culture/inclusion/) recruiting process, I cannot influence your application. We would prefer you apply for the position you have in mind directly via our [Jobs page (https://about.gitlab.com/jobs/)](https://about.gitlab.com/jobs/). This will ensure the right GitLab team member reviews your profile!"*
 - Someone who applied via a unique link you shared from Greenhouse on a social site (a.k.a. a `Social Referral`).
-    - While the unique link creation/sharing feature is in the `Add a Referral` section of Greenhouse and reads, *"Share your link with people interested in working at your company
+  - While the unique link creation/sharing feature is in the `Add a Referral` section of Greenhouse and reads, *"Share your link with people interested in working at your company
 Every time someone clicks on your link and applies for a job, your hiring team can track you as a source,"* this is **not** considered a referral because there's **no** way of determining who clicked a link on Twitter from a genuine referral, for example. For that very reason, `Social Referrals` are **ineligible** for the referral bonus. Regardless, the promotion of our vacancies is always appreciated!
 - A former (or "Boomerang") Team Member.
 
 Other Referral clarifications:
 
 - *Contract* or *temporary* roles, including *Internships*, are **not** eligible for Referral Bonuses.
-    - However, if the *Intern* is converted to a *Team Member* for the same/similar role, then the referring Team Member will receive a Referral Bonus per the [referral bonus guidelines]({{< ref "incentives#referral-bonuses" >}}) upon transitioning to the new employment status.
+  - However, if the *Intern* is converted to a *Team Member* for the same/similar role, then the referring Team Member will receive a Referral Bonus per the [referral bonus guidelines]({{< ref "incentives#referral-bonuses" >}}) upon transitioning to the new employment status.
 
 #### Referral Bonus Eligibility
 
@@ -65,7 +65,7 @@ As we continue to scale, so does the volume of referrals we receive. Referrals a
 1. Confirmed they live in a location we can hire in by checking the [Country Hiring Status](https://comp-calculator.gitlab.net/hiring_status/index) page in the Comp Calculator. If the country is **not** listed or is marked as `Not Open for Hiring`, we will have to reject the candidate so unfortunately they cannot be referred.
 1. Communication with the Referral
     - You have informed the person that you are referring them.
-1. Detailed Referral Description
+1. Candidate [referred through Greenhouse](/handbook.gitlab.com/handbook/hiring/referral-process/#submitting-a-referral-in-greenhouse) with a Detailed Referral Description
 
 - *Must complete* required fields, including a comprehensive description of how you know the candidate you are referring and why they are aligned to the role with GitLab. Provide detailed information such as specific qualifications, skills and relevant experiences that make the candidate a strong match for the specific role. The fields are:
     1. How do you know this person?
@@ -102,12 +102,12 @@ To see what positions are available to submit an external candidate for please v
 **Things to note:**
 
 - A referral must be submitted to a **specific requisition** - general referrals are **not** accepted.
-- If you see `CURRENT TEAM MEMBERS ONLY -` before a requisition, please note that that requisition is for **Internal Team Members only**; please do **not** submit a referral.
+- If you see `CURRENT TEAM MEMBERS ONLY -` before a requisition, please note that the requisition is for **Internal Team Members only**; please do **not** submit a referral.
 - Please keep in mind that it is up to the Recruiter and/or Hiring Manager's discretion to move forward with your referral once submitted, based on skill/experience alignment to their role.
 
 #### Referral Statuses
 
-You can stay up-to-date on the status of your referral(s) in the **My Referrals** section of your Greenhouse dashboard. If you have any questions regarding your referral, please send an email to the `referrals@gitlab.com`or post in the #talent-acquisition Slack channel and the relevant Recruiter will DM you. Please note that the Talent Acquisition Team is **unable** to provide candidate-specific feedback to Referrers (i.e you); only to the Candidate themselves. You can expect Referrals to be reviewed by the Hiring Team within **5 business days** of their submission.
+You can stay up-to-date on the status of your referral(s) in the **My Referrals** section of your Greenhouse dashboard. If you have any questions regarding your referral, please send an email to the `referrals@gitlab.com`or post in the #talent-acquisition Slack channel and the relevant Recruiter will DM you. Please note that the Talent Acquisition Team is **unable** to provide candidate-specific feedback to Referrers (i.e you); only to the Candidate themselves at later interview stages according to our typical feedback process. Due to the volume of submissions we receive and to treat all candidates fairly, we are unable to provide feedback on resume submissions; only post-interview. You can expect Referrals to be reviewed by the Hiring Team within **5 business days** of their submission.
 
 Although we place special emphasis on Referrals, we treat Referral interviews the same as we do non-Referrals. Referral interviews should not be more or less demanding than any other interview.
 
@@ -143,22 +143,22 @@ As a way of ensuring a consistent and positive experience with both the candidat
 
 ##### Additional considerations for the talent acquisition team
 
-- Review and action any outstanding candidates in the [Weekly Referral Report.](https://docs.google.com/presentation/d/1RK1HsdHPpdpPJbE0hc6aZrhRJVAw8rBQsRM6NuwviOA/edit#slide=id.g152eafd0392_0_0)
-   1. Pay close attention to those referred candidates sitting in the `Get To Know Us` and `Qualified` stages in the report who haven't been actioned yet.
+- Review and action any outstanding candidates in the [Weekly Referral Report.](https://docs.google.com/spreadsheets/d/18MU7LMql_j3SIbAXvfIN4bmS5ZtAyghSOt_nwOMk_wo/edit#gid=828364844)
+   1. The first tab shows a summary of all referrals in Greenhouse by Recruiter. Pay close attention to referred candidates that have been sitting for 5+ days indicated in yellow, orange and red.
    1. If the candidate is attached to multiple requisitions in Greenhouse then disposition the candidate in Greenhouse using the rejection reason `Moved Forward In Different Role` > click `Reject and Don't Send Email`
 
 #### Common Referral Situations
 
 - Your Referral was referred by someone else.
-    - In the event that your claimed Referral was submitted by someone else, the **first** Team Member to have submit the candidate will be considered their *Referrer*.
-        - In the event of **multiple** *Referrers* claiming ownership on a similar vacancy, it will be up to the *Referrers* to decide how to split the Referral Bonus and inform People Ops of that compromise.
-            - When such a situation arises, a People Ops team member will notify the Referrers and what will need to happen next.
+  - In the event that your claimed Referral was submitted by someone else, the **first** Team Member to have submit the candidate will be considered their *Referrer*.
+    - In the event of **multiple** *Referrers* claiming ownership on a similar vacancy, it will be up to the *Referrers* to decide how to split the Referral Bonus and inform People Ops of that compromise.
+      - When such a situation arises, a People Ops team member will notify the Referrers and what will need to happen next.
 - If you referred the candidate to **dissimilar** vacancy, then you would be named their *Referrer* for that specific vacancy.
 
 - If the Referrer is part of the Hiring Team they'll...
-    - ... recuse themselves from interviewing the candidate and the Hiring Manager will choose a replacement Interviewer.
+  - ... recuse themselves from interviewing the candidate and the Hiring Manager will choose a replacement Interviewer.
 - When a Referral is from a Referring Manager they...
-    - ... may choose to move the candidate on in the interview process, even if the candidate received a "no" from a fellow Interviewer - we **don't** operate on a single-veto basis.
-    - ... will review all information and feedback about the Referral (giving both positive and negative feedback fair consideration) and will make the final hire or no hire decision.
+  - ... may choose to move the candidate on in the interview process, even if the candidate received a "no" from a fellow Interviewer - we **don't** operate on a single-veto basis.
+  - ... will review all information and feedback about the Referral (giving both positive and negative feedback fair consideration) and will make the final hire or no hire decision.
 
 For any additional questions, please post in the #talent-acquisition Slack channel.

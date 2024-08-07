@@ -12,11 +12,11 @@ The Junior Architect is a [grade 5](/handbook/total-rewards/compensation/compens
 
 - Design & architect business systems solutions using an array of different platforms, technologies, APIs, databases, protocols and data formats.
 - Collaborate and review design of business systems with other architects in IT architecture & engineering to ensure a consistent level of technical standards as set by the team.
-- Work directly with Business Systems Analysts Or PM’s to ensure that the data and the business processes that intersect in the Enterprise Applications ecosystem are as efficient and high fidelity as possible.
+- Work directly with Business Systems Analysts Or PM's to ensure that the data and the business processes that intersect in the Enterprise Applications ecosystem are as efficient and high fidelity as possible.
 
 ### Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 0-2 years application architecture experience.
 - Understand basics of SQL and relational databases.
 - Proactive doer and communicator.
@@ -44,7 +44,7 @@ The IT Architect is a [grade 6](/handbook/total-rewards/compensation/compensatio
 
 ### Requirements
 
-- Ability to use GitLabBachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Ability to use GitLabBachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 2+ years of enterprise architecture experience.
 - Working with Visio, Lucid Charts preferred.
 - Enterprise architecture ecosystem experience across enterprise systems: SalesForce, Workato, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
@@ -77,27 +77,27 @@ Extends the IT Architect responsibilities:
 - Application integration technologies and tools.
 - Ability to quickly comprehend the functions and capabilities of new technologies.
 - Preferred Business Systems Specific Skills:
-   - SFDC:
-      - Development experience with advanced Salesforce.com development tools and techniques (e.g. Apex language, Force.com custom development, triggers, controllers, JavaScript, Force.com SOAP and REST APIs, JSON, AngularJS, jQuery, JavaScript, sObjects, SOQL, SOSL, Chatter APIs, outbound messaging, Bootstrap, Lightning Design System (LDS), Lightning Components and Visualforce pages).
-      - Experience with one or more sales cloud technologies i.e. Revenue Cloud, Service Cloud, Data Cloud, Analytics Cloud, etc.
-   - NetSuite:
-      - Good understanding of NetSuite stack and experience with all NetSuite modules (GL, AP, AR, FA, SuiteBilling, Procurement, etc.).
-      - Technical knowledge of SuiteScript, SuiteTalk, SuiteFlow, CSV imports, user provisioning, defining roles, analytics, and scheduling scripts.
-   - Workday:
-      - Strong technical experience with XSLT, XTT, XML and object-oriented development including Java.
-      - Experience with Web Services and APIs (WSDL, SOAP, REST and WS standards).
-   - Zuora Billing & Revenue:
-      - Experience working with Zuora, including experience with the Zuora 360, API and ZOQL.
-      - Experience integrating Zuora with other systems such as Salesforce, Netsuite, and Avalara.
+  - SFDC:
+    - Development experience with advanced Salesforce.com development tools and techniques (e.g. Apex language, Force.com custom development, triggers, controllers, JavaScript, Force.com SOAP and REST APIs, JSON, AngularJS, jQuery, JavaScript, sObjects, SOQL, SOSL, Chatter APIs, outbound messaging, Bootstrap, Lightning Design System (LDS), Lightning Components and Visualforce pages).
+    - Experience with one or more sales cloud technologies i.e. Revenue Cloud, Service Cloud, Data Cloud, Analytics Cloud, etc.
+  - NetSuite:
+    - Good understanding of NetSuite stack and experience with all NetSuite modules (GL, AP, AR, FA, SuiteBilling, Procurement, etc.).
+    - Technical knowledge of SuiteScript, SuiteTalk, SuiteFlow, CSV imports, user provisioning, defining roles, analytics, and scheduling scripts.
+  - Workday:
+    - Strong technical experience with XSLT, XTT, XML and object-oriented development including Java.
+    - Experience with Web Services and APIs (WSDL, SOAP, REST and WS standards).
+  - Zuora Billing & Revenue:
+    - Experience working with Zuora, including experience with the Zuora 360, API and ZOQL.
+    - Experience integrating Zuora with other systems such as Salesforce, Netsuite, and Avalara.
 - Preferred Integration & RPA Specific Skills:
-   - Integration & Automation:
-      - Experience integrating business systems with Workato Platform
-   - RPA:
-      - Experience working and implementing BOTs using Ui Path
+  - Integration & Automation:
+    - Experience integrating business systems with Workato Platform
+  - RPA:
+    - Experience working and implementing BOTs using Ui Path
 
 ### Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 5+ years of enterprise architecture experience.
 - Working with Visio, Lucid Charts or EA tools preferred .
 - Enterprise architecture ecosystem experience across enterprise systems: SalesForce, Workato, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP,Snowflake, Tableau,Big Query, RedShift, Zendesk, eTrade etc..

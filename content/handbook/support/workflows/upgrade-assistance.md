@@ -1,12 +1,9 @@
 ---
-
 title: Upgrade Assistance workflow
 description: "Support team Workflow for providing Upgrade Assistance to customers"
 category: Self-managed
 subcategory: Upgrade Assistance
 ---
-
-
 
 ### Overview
 

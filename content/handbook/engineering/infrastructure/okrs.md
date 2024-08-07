@@ -1,19 +1,11 @@
 ---
-
 title: "Infrastructure OKRs"
 description: "Infrastructure OKRs"
 canonical_path: "/handbook/engineering/infrastructure/okrs/"
 ---
 
-
-
-
-
-
-
-# OKRs
-
 Infrastructure & Quality objectives and KRs are captured on this page.
+
 - KRs at the department level can be captured as OKRs for underlying sub-department or team OKRs.
 - Scoring at the department level is captured on this page
 - The source of truth for KRs objects is in [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=due_date&state=opened&label_name%5B%5D=Department%3A%3AInfrastructure%20%26%20Quality&label_name%5B%5D=OKR&label_name%5B%5D=division%3A%3AEngineering&first_page_size=20).
@@ -57,9 +49,9 @@ Infrastructure & Quality objectives and KRs are captured on this page.
 
 #### 6. **Objective:** Great team => 45%
 
-1. KR: [Incorporate learnings from promotions process into the handbook and get ready for next round]() => 50%
-1. KR: [Nominate department team members for the Engineering Quarterly Achievers recognition program]() => 50%
-1. KR: [Unify Infrastructure & Quality department handbook and project management tools]() => 35% `Needs attention`
+1. KR: Incorporate learnings from promotions process into the handbook and get ready for next round => 50%
+1. KR: Nominate department team members for the Engineering Quarterly Achievers recognition program => 50%
+1. KR: Unify Infrastructure & Quality department handbook and project management tools => 35% `Needs attention`
 
 ### FY24Q2
 
@@ -74,7 +66,7 @@ Infrastructure & Quality objectives and KRs are captured on this page.
 
 1. KR: [Dedicated in General Availability](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2426) => 79%
 1. KR: [Create a foundation in support of rapid experimentation](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2425) => 83%
-1. KR: [Production deployment plan for AI features](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2186) => 90%  
+1. KR: [Production deployment plan for AI features](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2186) => 90%
 
 #### 3. OKR [Reducing churn and contraction](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/1800?iid_path=true) => 84%
 

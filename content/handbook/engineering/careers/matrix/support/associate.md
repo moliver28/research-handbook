@@ -32,7 +32,6 @@ title: "Support Career Framework: Associate Support Engineer"
 - Remain up to date with new product features.
 - Suggest improvements to Support workflows.
 
-
 ### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}

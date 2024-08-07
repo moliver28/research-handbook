@@ -1,13 +1,6 @@
 ---
-
 title: GitLab Repositories
 ---
-
-
-
-
-
-
 
 GitLab consists of many subprojects. A curated list of GitLab projects can be found at the [GitLab Engineering projects](/handbook/engineering/projects/) page.
 
@@ -48,7 +41,7 @@ When creating a new project, please follow these steps:
 
 When changing the settings in an existing repository, it's important to keep [communication](/handbook/engineering/#communication) in mind. In addition to discussing the change in an issue and announcing it in relevant chat channels (e.g., `#development`), consider announcing the change in the [Engineering Week-in-Review document](/handbook/engineering/#communication). This is particularly important for changes to the [GitLab](https://gitlab.com/gitlab-org/gitlab) repository.
 
-#### CI/CD configuration
+### CI/CD configuration
 
 Following is the default `.gitlab-ci.yml` config that all projects under the `gitlab-org` and `gitlab-com` groups should use:
 
@@ -84,7 +77,7 @@ default:
 This:
 
 1. Includes a [`workflow`](https://docs.gitlab.com/ee/ci/yaml/#workflowrules-templates) to create pipelines for MR, `master`, and tags only.
-1. Defines the `gitlab-org` tag to be used by default which corresponds to cost-optimised runners, with no Docker support. Jobs that need Docker support would use the `gitlab-org-docker` tag.
+1. Defines the `gitlab-org` tag to be used by default which corresponds to cost-optimized runners, with no Docker support. Jobs that need Docker support would use the `gitlab-org-docker` tag.
 
 If a job requires the usage of Docker, it needs to be defined only in the context of the specific job with the `gitlab-org-docker` tag:
 
@@ -98,4 +91,4 @@ If a job requires the usage of Windows, SaaS runners on Windows should be used. 
 
 ### Publishing a Project
 
-To publish a project to a package repository, please follow [these directions](/handbook/developer-onboarding/#ruby-gems).
+To publish a project to a package repository, please follow [these directions](/handbook/engineering/developer-onboarding/#ruby-gems).

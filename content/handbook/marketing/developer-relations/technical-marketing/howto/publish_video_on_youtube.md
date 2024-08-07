@@ -16,7 +16,7 @@ title: "Publish a video on YouTube"
 
 1. Login to the GitLab YouTube account where you would like to post a video.
    You should already have permission to do that from your GitLab login.
-   If you don’t and believe that you should then open an access request.
+   If you don't and believe that you should then open an access request.
 
 1. Click on the profile picture and select **YouTube Studio**
 
@@ -38,14 +38,14 @@ title: "Publish a video on YouTube"
 
 1. In the **Details** tab, you can configure various video settings. Among them:
 
-   #### Title
+#### Title
 
    1. The title is one of the first things potential viewers see, so it plays a crucial role in whether they decide to click on your video.
       - The title should clearly describe the content of the video.
       - Keep it brief and to the point.
    1. Title is important for search and, therefore, while developing a title you should consider targeting users that will search for your video and use relevant keywords.
 
-   #### Description
+#### Description
 
    1. The description should clearly lay out the topic and quickly explain what the viewers can expect to learn.
    1. The first couple of lines are crucial as they appear in the search results and above the "show more" fold on the video page.
@@ -56,11 +56,11 @@ title: "Publish a video on YouTube"
    1. Include a call to action (CTA).
    1. Include relevant hashtags at the end of the description for better visibility
 
-   #### Hashtags
+#### Hashtags
 
    Check this document to find out [how to use hashtags on YouTube](https://support.google.com/youtube/answer/6390658?hl=en#:~:text=You%20can%20add%20hashtags%20to,to%20associate%20with%20your%20video)
 
-   ##### Chapters
+##### Chapters
 
    1. If your video is lengthy or covers multiple topics, include timestamps.
    1. By providing well-structured and accurate timestamps, you enhance the user experience, making it easier for viewers to navigate to the content they find most relevant, thereby increasing viewer engagement and satisfaction.
@@ -77,12 +77,12 @@ title: "Publish a video on YouTube"
    1. Make sure they correspond correctly to their segment in the video.
    1. If there are particularly important or popular moments in the video, make sure these are marked with timestamps.
 
-   #### Thumbnail
+#### Thumbnail
 
    1. A thumbnail is important for suggested videos.
    1. Use high-resolution, eye-catching images ensuring the thumbnail is clear and simple, and accurately represents the video content.
 
-   #### Tags
+#### Tags
 
    1. Use relevant, specific keywords in tags that accurately describe your video to make it more discoverable.
    1. While YouTube allows a lot of tags, using too many can dilute their effectiveness. Follow this link for details [about YouTube tags](https://support.google.com/youtube/answer/146402?hl=en).
@@ -102,13 +102,13 @@ title: "Publish a video on YouTube"
 
    ![video elements screen](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/video_elements_screen.png)
 
-   #### Cards
+#### Cards
 
    To promote other videos, channels, playlists, and links during the video we can use **Cards** and configure the time they appear in the video
 
    ![cards screen](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/cards_screen.png)
 
-   #### An end screen
+#### An end screen
 
    View this guide on [how to add an End Screen](/handbook/marketing/developer-relations/technical-marketing/howto/add-ctas-to-learn-videos/)
 

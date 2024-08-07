@@ -22,7 +22,7 @@ As per
 > measured and predictable service. It also provides greater visibility when
 > problems arise.
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -67,7 +67,7 @@ From here, create the merge request in the sync repo project.
 #### Updating an existing SLA
 
 Updating an existing SLA is considerably easier than creating a new one. Simply
-change change the code in the source project and it will occur via the sync
+change the code in the source project and it will occur via the sync
 repo.
 
 #### Deleting a SLA
@@ -94,7 +94,7 @@ click the gear icon to the right of it, and then click `Delete`.
 This will cause a pop-up modal to appear asking you to confirm the action. Click
 the blue `Delete policy` button to do so.
 
-## Troubleshooting
+### Troubleshooting
 
 #### Pipeline error "Blank ID"
 

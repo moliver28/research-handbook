@@ -6,7 +6,7 @@ description: "A lightweight and fun training to improve your user interviewing s
 At GitLab, everyone can contribute, which applies to UX Research, too. Product Managers and Product Designers regularly speak with users to validate the problem spaces and solutions they are working on and gain inspiration for what could come next.
 Asking the right questions and listening actively is crucial in these conversations to get the information you need.
 
-The Interview Carousel is a lightweight, fun way to practice and enhance user interviewing skills for GitLab team members. Everyone can be a great interviewer, however, we are not necessarily born as one. It takes a little bit of practice, and that’s what the Interview Carousel is for.
+The Interview Carousel is a lightweight, fun way to practice and enhance user interviewing skills for GitLab team members. Everyone can be a great interviewer, however, we are not necessarily born as one. It takes a little bit of practice, and that's what the Interview Carousel is for.
 
 ### The setup
 
@@ -14,13 +14,13 @@ The Interview Carousel is a live (remote) event where team members get to speak 
 
 #### Discussion topics
 
-As an Interview Carousel participant, you choose what you'd like to discuss with users. You can bring a prototype or talk about a specific item you are working (or planning to work) on. Alternately, you can simply learn more about that person, their job, and their life. Remember, it’s only 15 minutes per person, which goes by quickly. We aim to match you with users that represent the persona(s) of your stage.
+As an Interview Carousel participant, you choose what you'd like to discuss with users. You can bring a prototype or talk about a specific item you are working (or planning to work) on. Alternately, you can simply learn more about that person, their job, and their life. Remember, it's only 15 minutes per person, which goes by quickly. We aim to match you with users that represent the persona(s) of your stage.
 
 #### How do I prepare?
 
 There is a [20-minute video](https://youtu.be/b03eiIwz2LE) that you must watch before the event that includes tips and tricks on how to be a better interviewer. As you are watching the video, note the 2 or 3 things that you want to focus on and practice during the Interview Carousel.
 
-Make sure to draft a [discussion guide](https://docs.google.com/document/d/1dQ29KkJOZlwrNkxV9z58lR9bNkG2-lSiJPMUpmsiOTw/copy) (internal only) for your session and share it for feedback with the UX Researcher who is hosting the Interview Carousel. This helps to ensure that participants won’t answer the same questions again and again.
+Make sure to draft a [discussion guide](https://docs.google.com/document/d/1dQ29KkJOZlwrNkxV9z58lR9bNkG2-lSiJPMUpmsiOTw/copy) (internal only) for your session and share it for feedback with the UX Researcher who is hosting the Interview Carousel. This helps to ensure that participants won't answer the same questions again and again.
 
 You should set aside about 1 hour to watch the training video and create your discussion guide.
 

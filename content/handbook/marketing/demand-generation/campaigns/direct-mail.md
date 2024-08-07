@@ -1,5 +1,4 @@
 ---
-
 title: "Direct Mail"
 description: "Overview of direct mail programs as a tactic used within marketing campaigns, including account centric campaigns."
 twitter_image: '/images/tweets/handbook-marketing.png'
@@ -8,6 +7,7 @@ twitter_creator: "@gitlab"
 ---
 
 ## Overview
+
 This page focuses on direct mail as a tactic used within marketing campaigns, including account centric campaigns.
 
 If you are interested in running a content syndication campaign, then please reach out to the  Demand Generation team. If you are in Field Marketing, please see [this page](/handbook/marketing/field-marketing/field-marketing-epics/#content-syndication) for Field Marketing epic details.
@@ -26,23 +26,23 @@ The project owner is responsible for following the steps below to create the epi
 
 ### Code for direct mail epic
 
-```
+```markdown
 <--- Name this epic using the following format, then delete this line: Direct Mail - [Vendor] - [3-letter Month] [Date], [Year] --->
 
 ## [Main Issue >>]()
 
 ## [Copy for landing page and emails >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
-## :notepad_spiral: Key Details 
-* **Project Owner:** 
-* **Coordinator:** 
+## :notepad_spiral: Key Details
+* **Project Owner:**
+* **Coordinator:**
 * **Type:** Direct Mail
-* **Campaign Tag:**  
+* **Campaign Tag:**
 * **Sales Segment (choose primary):** `Large, Mid-Market, or SMB`
 * **Sales Region (choose one):** `AMER, EMEA, APAC`
-* **Sales Territory (optional, if specific):** 
+* **Sales Territory (optional, if specific):**
 * **Goal:** `Please be specific on the metric this is meant to impact.`
-* **Budget:** 
+* **Budget:**
 * **Launch Date:**  [MM-DD-YYYY] (this is the date of the first email, everything is in place to execute on this date)
 * [ ] [main salesforce program]()
 * [ ] [main marketo campaign]()
@@ -57,10 +57,9 @@ The project owner is responsible for following the steps below to create the epi
 ## Issue creation
 
 * [ ] [Program Tracking](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-program-tracking)
-* [ ] [List clean and upload issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list) 
-* [ ] [Follow up email issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-followup) 
-* [ ] [Add to nurture issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-add-nurture) 
+* [ ] [List clean and upload issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list)
+* [ ] [Follow up email issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-followup)
+* [ ] [Add to nurture issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-add-nurture)
 
 /label ~"Direct Mail" ~"mktg-status::wip"
 ```
-

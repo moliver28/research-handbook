@@ -156,7 +156,7 @@ The Staff CSM is a job grade [level 9](/handbook/total-rewards/compensation/comp
 
 #### Staff CSM Performance Indicators
 
-- Extends the Customer Success KPIs articulated [here](https://handbook.gitlab.com/job-families/sales/customer-success-management/#performance-indicators)
+- Extends the Customer Success KPIs articulated [here](/job-families/sales/customer-success-management/#performance-indicators)
 - >5m ARR book of business maintained
 - 6 enablement contributions to global CS team per fiscal year
 - 2 Use-case specific or Vertical-specific playbooks created, with global team enabled on them, per year

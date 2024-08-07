@@ -11,7 +11,7 @@ US Government Support has a number of engineers with [verified US Citizenship](#
 After 7 days of a case being in the `pending` state an automation will run that puts the case back into an `open` state. This allows for the agent to either [follow up with the user](#following-up) on the requested actions or move the case to a `solved` state if they believe the issue in the case is resolved.
 
 There are events where customers will request to re-assign a Zendesk case to a co-worker. We handle this using the `Change` option at the top of the ticket by the respondents email.
-The context for this flow is because [CCs are disabled](https://about.gitlab.com/support/us-federal-support/#ccs-are-disabled).
+The context for this flow is because [CCs are disabled](https://about.gitlab.com/support/us-government-support/#ccs-are-disabled).
 
 ## Access limited to US Citizens
 
@@ -26,7 +26,7 @@ For any assistance with log review or confidential information within a ticket i
 Government tickets can be linked publicly, such as in an issue or merge request as the link itself does not reveal any information, just avoid naming the link with any identifiable information. For
     example: `[US Government Internal Ticket](<ticket_link>)`.
 
-When pairing over video chat, be sure you only pair with engineers that have access to the US Government instance and avoid screensharing content from the US Government Support Instance, logs, or other information that is required to be kept confidential.
+When pairing over video chat, be sure you only pair with engineers that have access to the US Government instance and avoid screen sharing content from the US Government Support Instance, logs, or other information that is required to be kept confidential.
 
 When providing links to documentation, it's possible an organization's mail server may strip embedded links prior to delivering the ticket update to the receiver. In order to continue to provide our documentation to customers, consider using an identifier in the reply body, then "footnotes" towards the end of the ticket. For example:
 
@@ -44,7 +44,7 @@ This is the ticket reply body where we are talking docs Title of documentation P
 
 The US Government team has implemented an automated follow up system that checks in with the submitter of a case when the case has been in a `pending` state for 7 days. After 14 consecutive days in a pending state with no replies from the submitter the case will automatically move to a `solved` state.
 
-##### Extending the follow up time
+#### Extending the follow up time
 
 There can be certain situations in which a task may take longer than 7 days for the customer to make changes and provide feedback. If there has been an agreed upon day in the future where the customer has agreed they will update us then an agent may opt to use the `Support::Block Automatic Reopen` macro. This macro will add the `blocked_by` tag and create an internal comment where the agent must fill in the details indicating why the case should remain in pending. The `blocked_by` tag must be manually removed by an agent when the agreed upon date has been reached to resume the standard pending to follow-up workflow. Some best practice suggestions for using the macro are below:
 
@@ -65,20 +65,7 @@ The use of an acronym to discuss an organization is **not permitted** in either 
 
 ## Ticket assignment via round-robin
 
-Tickets are assigned as they come in based on [a round-robin tool built by Support Ops](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/ticket-round-robin). This tool creates a list of available support engineers by taking the total US Government dedicated support engineer list and then removing from that list anyone who has their [gitlab.com status](https://docs.gitlab.com/ee/user/profile/#set-your-current-status) set to one of the below options:
-
-**For out of office:** `OOO`, `PTO`, `Parental Leave`, `Family and Friends`
-
-**For in office, but occupied:** `Training`, `Overburdened`, `Project Deliverable`, `IT Problems`
-
-**Emoji also work** palm_tree, beach, beach_umbrella, beach_with_umbrella, ferris_wheel, thermometer, face_with_thermometer, red_circle, bulb, sun_with_face
-
-### Setting gitlab.com status to avoid ticket assignment when needed
-
-When you are out of the "office" or otherwise unable to handle more tickets, it is important to set your gitlab.com status to one of the above options. Please use the "Clear status after" option to ensure your status does not accidently remain in an unavailable state.
-
-- You can set your status manually from the user interface: <https://docs.gitlab.com/ee/user/profile/#set-your-current-status>.
-- Or you can set it through a script using the API: <https://docs.gitlab.com/ee/api/users.html#set-user-status>.
+During core business hours tickets are assigned as they are created based on a round-robin tool built by Support Ops. This tool creates a list of available support engineers on shift, omitting those who are on PTO per the time off calendar. It then checks each engineer's overall case weighting and assigns the new case to the engineer with the lowest overall weighting.
 
 ### Consolidating assignment for org tickets at the same time
 
@@ -113,7 +100,7 @@ Once the ticket has been marked as solved, the support ops bot will automaticall
 
 ## Checking for access
 
-When discussing cases or issues with others in GitLab it may be difficult to ensure they meet the [access requirements](#access-limited-to-us-citizens) to be allowed to receive confidential or sensitive information via chat, screenshare, or call. The single source of truth is whether or not that person has a US Government Zendesk account, this can be either full or light agent access. The individuals with access have been confirmed by people-ops to be allowed access to this information. The support-ops team has built a handy tool for team members to check whether a person has access to US Government Zendesk. The tool can be accessed by GitLab team members via [this link](https://gitlab-com.gitlab.io/support/support-ops/zendesk-us-federal-project/) please note that it updates weekly on Sundays at 00:00 UTC. If you need verification for someone who was added more recently you can always ask a US Government Support Manager or Support-Ops Manager to validate. If you are not able to find a person's name in this tool the user should be considered ineligible to access the instance and you should refer to the [Communication Guidelines](#communication-guidelines) for steps on how to proceed.
+When discussing cases or issues with others in GitLab it may be difficult to ensure they meet the [access requirements](#access-limited-to-us-citizens) to be allowed to receive confidential or sensitive information via chat, screen share, or call. The single source of truth is whether or not that person has a US Government Zendesk account, this can be either full or light agent access. The individuals with access have been confirmed by people-ops to be allowed access to this information. The support-ops team has built a handy tool for team members to check whether a person has access to US Government Zendesk. The tool can be accessed by GitLab team members via [this link](https://gitlab-com.gitlab.io/support/support-ops/zendesk-us-federal-project/) please note that it updates weekly on Sundays at 00:00 UTC. If you need verification for someone who was added more recently you can always ask a US Government Support Manager or Support-Ops Manager to validate. If you are not able to find a person's name in this tool the user should be considered ineligible to access the instance and you should refer to the [Communication Guidelines](#communication-guidelines) for steps on how to proceed.
 
 ## US Government Support Discovery Calls
 
@@ -138,7 +125,7 @@ The US Government shift engineers are a hybrid role between US Government suppor
 1. Global Support cases in Custom Personal view ([Create the view](#create-the-personal-view-in-global-support))
 1. US Government cases that are breached or soon to breach
 
-#### Create the personal view in Global Support
+### Create the personal view in Global Support
 
 The following will describe how to create the personal view to list cases in Global where US Gov shift engineers can contribute.
 

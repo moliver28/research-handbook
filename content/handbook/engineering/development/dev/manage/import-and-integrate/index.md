@@ -104,15 +104,15 @@ To maintain good label hygiene, please apply the correct labels when creating or
 All issues should have:
 
 - All of our section, stage and group labels:
-    - `~"section::core platform"`
-    - `~"devops::manage"`
-    - `~"group::import and integrate"`
+  - `~"section::core platform"`
+  - `~"devops::manage"`
+  - `~"group::import and integrate"`
 - One or more of the category labels:
-    - `~"Category:API"`
-    - `~"Category:Importers"`
-    - `~"Category:Integrations"`
-    - `~"Category:Internationalization"`
-    - `~"Category:Webhooks"`
+  - `~"Category:API"`
+  - `~"Category:Importers"`
+  - `~"Category:Integrations"`
+  - `~"Category:Internationalization"`
+  - `~"Category:Webhooks"`
 - A [type label](/handbook/engineering/metrics/#work-type-classification)
 - A [workflow label](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development)
 - `~"backend"` or `~"frontend"` if appropriate
@@ -201,16 +201,14 @@ to look:
 Once identified, the engineering manager will apply the `ready for next refinement` label, which will indicate the issues are ready for
 refinement.
 
-The engineering manager will use the [Refinement
-Bot](https://gitlab.com/gitlab-org/manage/import-and-integrate/refinement-bot)
+The engineering manager will use the [Refinement Bot](https://gitlab.com/gitlab-org/manage/import-and-integrate/refinement-bot)
 to generate an issue with all the issues that have been identified for
 refinement.
 
 #### Step 2: Refining Issues
 
 Over the week, each engineer on the team will look at the list of issues
-selected for backlog refinement. [Current backlog refinement
-issues](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&state=opened&label_name%5B%5D=ready%20for%20next%20refinement).
+selected for backlog refinement. [Current backlog refinement issues](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&state=opened&label_name%5B%5D=ready%20for%20next%20refinement).
 
 For each issue, each team member will review the issues and provide the
 following information:
@@ -250,6 +248,7 @@ from PM or UX.
 The group has an existing [threat model](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/GitLab%20Migration.md) to assist in identifying issues that may have security implications, but there are other considerations.
 
 An [Application Security Review](/handbook/security/product-security/application-security/appsec-reviews/) should be requested when the issue or MR might have security implications. These include, but aren't limited to, issues or MRs which:
+
 - falls under the threat model
 - handles binary files (downloading, decompressing, extracting, moving, deleting)
 - modifies or uses file manipulation services
@@ -330,19 +329,13 @@ We have 1 regularly scheduled "Per Milestone" retrospective, and can have ad-hoc
 
 #### Per Milestone
 
-The Import and Integrate group conducts [milestone retrospectives in GitLab
-issues][retros]. These include the engineers, UX, PM, and
+The Import and Integrate group conducts [milestone retrospectives in GitLab issues](https://gitlab.com/gl-retrospectives/manage-stage/import-and-integrate/-/issues). These include the engineers, UX, PM, and
 all stable counterparts who have worked with that team during the milestone.
 
 Participation by our team members is highly encouraged for every milestone.
 
 These are confidential during the initial discussion, then made public in time
-for each month's [GitLab retrospective]. For more information, see [group
-retrospectives].
-
-[retros]: https://gitlab.com/gl-retrospectives/manage-stage/import-and-integrate/-/issues
-[GitLab retrospective]: /handbook/engineering/workflow/#retrospective
-[group retrospectives]: /handbook/engineering/management/group-retrospectives/
+for each month's [GitLab retrospective](/handbook/engineering/workflow/#retrospective). For more information, see [group retrospectives](/handbook/engineering/management/group-retrospectives/).
 
 #### Per Project
 
@@ -364,6 +357,7 @@ Our group works with tech leads to help organize work on different topics and id
 #### Characteristics of a Tech Lead
 
 A tech lead is:
+
 - an individual contributor with additional responsibilities. Every engineer regardless of their seniority is qualified to be a tech lead.
 - a temporary role that is tied to a specific topic/project. We allow the team to have multiple tech leads at the same time for different topics/projects.
 - **not** a manager.
@@ -394,7 +388,6 @@ Below is an overview of topics that are overseen by a tech lead:
 | Congregate | tbd | https://gitlab.com/gitlab-org/gitlab/-/issues/428657 | |
 | GitHub Actions | tbd | https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17652 | |
 |  | | |  |
-
 
 ## Merge request roulette reviews
 
@@ -457,9 +450,9 @@ This is a collection of links for monitoring our features.
 
 ### Grafana dashboards
 
-- [Import and Integrate group dashboard][grafana-dashboard] which contain:
-    - Links to various Kibana logs, filtered to our feature categories
-    - Our [error budget](#error-budget) spend attribution
+- [Import and Integrate group dashboard](https://dashboards.gitlab.net/d/stage-groups-import_and_integrate/stage-groups-import-and-integrate-group-dashboard?orgId=1) which contain:
+  - Links to various Kibana logs, filtered to our feature categories
+  - Our [error budget](#error-budgets) spend attribution
 - [Worker queues](https://dashboards.gitlab.net/d/sidekiq-queue-detail/sidekiq-queue-detail?orgId=1&var-PROMETHEUS_DS=Global&var-environment=gprd&var-stage=main&var-queue=jira_connect:jira_connect_sync_branch) where you can switch queues with the `queue` dropdown
 
 ### Sentry errors
@@ -486,9 +479,9 @@ This is a collection of links for monitoring our features.
 
 ### Error budgets
 
-GitLab uses [error budgets][error-budgets-handbook] to measure the availability and performance of our features.
+GitLab uses [error budgets](/handbook/engineering/error-budgets/) to measure the availability and performance of our features.
 Each engineering group has its own budget spend. The current 28-day spend for the Import and Integrate team
-shows in this [Grafana dashboard][grafana-dashboard].
+shows in this [Grafana dashboard](https://dashboards.gitlab.net/d/stage-groups-import_and_integrate/stage-groups-import-and-integrate-group-dashboard?orgId=1).
 
 Error budget spend happens when either of the following exceeds a certain threshold:
 
@@ -497,7 +490,7 @@ Error budget spend happens when either of the following exceeds a certain thresh
 
 #### Determine the highest-impact fixes
 
-To determine the highest-priority problems in our [Grafana dashboard][grafana-dashboard]:
+To determine the highest-priority problems in our [Grafana dashboard](https://dashboards.gitlab.net/d/stage-groups-import_and_integrate/stage-groups-import-and-integrate-group-dashboard?orgId=1):
 
 1. Go to the **Error budget** panel.
 1. Expand **Budget spend attribution**. The **Budget failures** panel is ordered by top failures.
@@ -509,17 +502,15 @@ Fixing the top offenders will have the biggest impact on the budget spend.
 
 Learn more about error budgets with these resources:
 
-- [Error budgets and how they are calculated][error-budgets-handbook]
-- [What Apdex is and how it works](https://docs.gitlab.com/ee/development/application_slis/rails_request_apdex.html)
+- [Error budgets and how they are calculated](/handbook/engineering/error-budgets/)
+- [What Apdex is and how it works](https://docs.gitlab.com/ee/development/application_slis/rails_request.html)
 - [Error budget in Grafana dashboards](https://docs.gitlab.com/ee/development/stage_group_observability/index.html#error-budget)
 - [Feature categorization](https://docs.gitlab.com/ee/development/feature_categorization): our code is attributed to us by `feature_category: :api`, `feature_category: :integrations`, `feature_category: :internationalization`, `feature_category: :importers`, and `feature_category: :webhooks`
-
-[error-budgets-handbook]: /handbook/engineering/error-budgets/ "Error budgets handbook page"
-[grafana-dashboard]: https://dashboards.gitlab.net/d/stage-groups-import_and_integrate/stage-groups-import-and-integrate-group-dashboard?orgId=1 "Grafana Error Budget Dashboard for Integrations"
 
 ## Links and resources {#links}
 
 {{% include "includes/engineering/manage/shared-links.md" %}}
+
 - [Milestone retrospectives](https://gitlab.com/gl-retrospectives/manage-stage/import-and-integrate/-/issues)
 - Our Slack channels
   - Manage:Import and Integrate [#g_manage_import_and_integrate](https://gitlab.slack.com/archives/C04RDL3MEH5)

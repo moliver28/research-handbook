@@ -1,11 +1,6 @@
 ---
-
 title: Pipeline Execution Group - Risk Map
 ---
-
-
-
-
 
 ## Overview
 
@@ -14,6 +9,7 @@ The goal of this page is to create, share and iterate on the Risk Map for the Pi
 ### Goals
 
 Utilise the Risk Map as a tool to:
+
 - Understand the risks the team faces
 - Increase transparency on mitigation plans
 - Effectively allocate limited resources
@@ -22,6 +18,7 @@ Utilise the Risk Map as a tool to:
 ### General Risk Map
 
 #### Map key
+
 - Impact - what happens if the risk is not mitigated or eliminated
 - Impact level - Rate 1 (LOW) to 5 (HIGH)
 - Probability - Rate 1 (LOW) to 5 (HIGH)

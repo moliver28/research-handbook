@@ -21,7 +21,7 @@ For a Customer Support Representative role we expect:
 - Someone who's been in a previous customer facing role, whether in a technical or non-technical company, and thrives on supporting other people
 - Someone who is able to understand process workflow and communicate via written word and video conferencing
 
-As we evolve our handbook and adopt a career matrix approach, you can read more about a Customer Support Representative on our [Customer Support Representative Career Matrix Page](https://handbook.gitlab.com/handbook/engineering/careers/matrix/support/csr/) which covers more of the details you see in the roles below.
+As we evolve our handbook and adopt a career matrix approach, you can read more about a Customer Support Representative on our [Customer Support Representative Career Matrix Page](/handbook/engineering/careers/matrix/support/csr/) which covers more of the details you see in the roles below.
 
 ## Associate Support Engineer
 
@@ -34,7 +34,7 @@ For an Associate Support Engineer role we expect:
 - Someone who's been in a previous customer facing role, maybe in a technical company, but also maybe outside of tech
 - We expect this person to be early in their career of "technical debugging" - They may have worked support before, but not deep technical troubleshooting.
 
-As we evolve our handbook and adopt a career matrix approach, you can read more about associate engineer on our [Associate Support Engineer Career Matrix Page](https://handbook.gitlab.com/handbook/engineering/careers/matrix/support/associate/) which covers more of the details you see in the roles below.
+As we evolve our handbook and adopt a career matrix approach, you can read more about associate engineer on our [Associate Support Engineer Career Matrix Page](/handbook/engineering/careers/matrix/support/associate/) which covers more of the details you see in the roles below.
 
 ## Support Engineer
 
@@ -59,11 +59,11 @@ As a Support Engineer, you will:
 
 ### Projects you might work on
 
-When you’re not tackling difficult customer challenges, you’ll have a lot of freedom to work on things that will make your life, and the lives of your coworkers, easier. Current and past support engineers have:
+When you're not tackling difficult customer challenges, you'll have a lot of freedom to work on things that will make your life, and the lives of your coworkers, easier. Current and past support engineers have:
 
 - created a tool to [quickly analyze strace output](https://gitlab.com/gitlab-com/support/toolbox/strace-parser)
 - built and maintained tooling to handle our call scheduling
-- scripted a [solution to capture the state of a customer’s server](https://gitlab.com/gitlab-com/support/toolbox/gitlabsos) for easier troubleshooting
+- scripted a [solution to capture the state of a customer's server](https://gitlab.com/gitlab-com/support/toolbox/gitlabsos) for easier troubleshooting
 - added functionality to [ChatOps](https://docs.gitlab.com/ee/ci/chatops/) to make it easier to identify user accounts on GitLab.com
 - written a [Chrome Extension to route downloads from Zendesk tickets into organized folders](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router)
 - … [done even more](https://gitlab.com/gitlab-com/support/toolbox?sort=latest_activity_desc)!
@@ -80,19 +80,19 @@ When you’re not tackling difficult customer challenges, you’ll have a lot of
 
 ### You're a support professional
 
-- you’ve got 2+ years of experience in a support or other service-oriented customer facing role.
+- you've got 2+ years of experience in a support or other service-oriented customer facing role.
 - within the last 5 years, you've worked at one company for at least 2 years.
-- you’re experienced in writing support content.
-- you’re experienced in managing cases throughout the entire support lifecycle from initial customer inquiry to triage and reproduction, writing bug reports for hand off to the development team, and case resolution.
+- you're experienced in writing support content.
+- you're experienced in managing cases throughout the entire support lifecycle from initial customer inquiry to triage and reproduction, writing bug reports for hand off to the development team, and case resolution.
 - you have experience being on-call and can jump into a complex situation and make sense of and communicate clearly to stakeholders what's going on.
 - you're comfortable using support platforms such as ZenDesk and Salesforce.
 
 ### You've got the technical acumen
 
 - you have knowledge of DevOps methodologies and you appreciate the value technologies like Serverless and Kubernetes bring to the software deployment and development process.
-- you’re able to communicate complex technical topics to customers and coworkers of varying technical skill levels.
+- you're able to communicate complex technical topics to customers and coworkers of varying technical skill levels.
 - you have excellent Ruby on Rails knowledge and are fluent on the Rails console, or you're proficient in working with another MVC framework (Django, Laravel or others) and will be able to pick up Rails quickly.
-- you’re experienced with Git and CI/CD.
+- you're experienced with Git and CI/CD.
 - you have excellent Linux systems administration knowledge (LFCE or RHCE equivalent knowledge).
 
 ### You'll be able to thrive at GitLab
@@ -108,12 +108,12 @@ When you’re not tackling difficult customer challenges, you’ll have a lot of
 
 For Support Engineers who are nearing or at Senior Level
 
-### The ASE role
+#### The ASE role
 
 - Prioritize a mix of Self-managed and GitLab.com (SaaS) customers with a higher support offering and resolve their issues via Zendesk tickets, merge requests, email and video conferencing
 - Lead the relationship with up to 5 assigned accounts while also contributing to global tickets
 - Become familiar with customer environments and business - to provide an enhanced support experience
-- Build relationship with customer’s team
+- Build relationship with customer's team
 - Build a relationship with internal field team
 - Be available during timezone business hours (or arrange temporary cover when not available)
 - Take assignment of, own communication for, and progress all non emergency tickets for your Assigned Accounts within SLAs
@@ -124,11 +124,32 @@ For Support Engineers who are nearing or at Senior Level
 - Coordinate with customer to enable successful upgrades
 - Participation in CMOC/CEOC rotations remains unchanged and is expected
 
+#### What is it like to be an ASE?
+
+We asked some questions of our two first ASEs, Harish and Gerardo, to find out about the work life of an ASE. See what they had to say:
+
+- Watch the [whole video](https://www.youtube.com/watch?v=H4352jlI2MQ) (42:28)
+
+OR, Skip to the topics of interest to you:
+
+- [The ASE Role](https://youtu.be/H4352jlI2MQ?t=57)  (0:56)
+- [How Is the ASE Role Different from the SE Role?](https://youtu.be/H4352jlI2MQ?t=113)  (3:00)
+- [Is the Scope of Support Different?](https://youtu.be/H4352jlI2MQ?t=293)  (1:24)
+- [What Is Success for an ASE?](https://youtu.be/H4352jlI2MQ?t=377)  (2:54)
+- [How Will Managers Measure Success?](https://youtu.be/H4352jlI2MQ?t=551)  (1:29)
+- [What Do I Need To Know / How Did I Become an ASE?](https://youtu.be/H4352jlI2MQ?t=640)  (2:30)
+- [What Did You Need to Know?](https://youtu.be/H4352jlI2MQ?t=790)  (5:00)
+- [What Makes for a Good ASE?](https://youtu.be/H4352jlI2MQ?t=1090)  (2:44)
+- [How Do You Balance ASE Work with Normal Queue Work?](https://youtu.be/H4352jlI2MQ?t=1254)  (3:50)
+- [What Do You Like about Being an ASE?](https://youtu.be/H4352jlI2MQ?t=1484)  (5:22)
+- [How Does the Stress Differ Between ASE and SE Roles?](https://youtu.be/H4352jlI2MQ?t=1806)  (3:15)
+- [What Are the Challenges and Dislikes of Being an ASE?](https://youtu.be/H4352jlI2MQ?t=2001)  (9:07)
+
 ### US Government Support Engineer
 
 Support Engineers with verified US Citizenship may join the GitLab US Government Support Team. This group works through the [US Government Support portal](https://about.gitlab.com/support/us-government-support/) to collaborate with Public Sector organizations and United States Government agencies in order to support, maintain, and resolve issues in their GitLab environments.
 
-There are a number of challenges that are unique when it comes to supporting the customer environments that an engineer may encounter in the US Government space. Some of those challenges may include highly sanitized and redacted troubleshooting information, inability to screenshare or provide screenshots, etc. You can learn more about working on tickets in the US Government Support portal [here](/handbook/support/workflows/usgovernment_tickets/). If you look forward to the aforementioned challenges and meet the requirements for US Government Support, apply today!
+There are a number of challenges that are unique when it comes to supporting the customer environments that an engineer may encounter in the US Government space. Some of those challenges may include highly sanitized and redacted troubleshooting information, inability to screen share or provide screenshots, etc. You can learn more about working on tickets in the US Government Support portal [here](/handbook/support/workflows/usgovernment_tickets/). If you look forward to the aforementioned challenges and meet the requirements for US Government Support, apply today!
 
 ### Support Engineer (Shift)
 
@@ -140,11 +161,11 @@ In addition to the above requirements for Global Support Engineers, you will nee
 
 - Valid proof of US Citizenship
 
-### [What it’s like to work here](/handbook/company/culture/#so-thats-what-its-like-to-work-at-gitlab) at GitLab
+### [What it's like to work here](/handbook/company/culture/#so-thats-what-its-like-to-work-at-gitlab) at GitLab
 
-The [culture](/handbook/company/culture/) here at GitLab is something we’re incredibly proud of. Because GitLab team members are currently located in over 60 different countries, you’ll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you’ll be entitled to vary by the region or country you’re in. However, all GitLab team members are fully remote and receive GitLab's [Flexible PTO policy](/handbook/paid-time-off/), where there is no set limit per year on the amount of paid time off a team member can take. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We’ll also help you set up your [home office environment](/handbook/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
+The [culture](/handbook/company/culture/) here at GitLab is something we're incredibly proud of. Because GitLab team members are currently located in over 60 different countries, you'll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you'll be entitled to vary by the region or country you're in. However, all GitLab team members are fully remote and receive GitLab's [Flexible PTO policy](/handbook/people-group/paid-time-off/), where there is no set limit per year on the amount of paid time off a team member can take. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We'll also help you set up your [home office environment](/handbook/finance/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/total-rewards/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
 
-Also, every year or so, we’ll invite you to our [Contribute event](https://about.gitlab.com/events/gitlab-contribute/).
+Also, every year or so, we'll invite you to our [Contribute event](https://about.gitlab.com/events/gitlab-contribute/).
 
 Our hiring process for this Support Engineer position typically follows five stages. The details of this process and the compensation for this role can be found in our [hiring process](#hiring-process).
 
@@ -211,7 +232,7 @@ Candidates for this position can expect the hiring process to follow the order b
 - Technical assessment.
 - 30-minute screening call with a Recruiter.
 - 90-Minute [Technical Interview](/handbook/hiring/interviewing/customer-support-interviewing/#4-90-minute-technical-interview-with-a-member-of-the-support-team) with a member of the Support team.
-    - The Technical Interview will involve live break-fix/bug-fix scenarios as well as customer scenarios. You will need to have access to a terminal with Bash or similar. You will also need to have an SSH key pair installed locally so you can connect to the server. Windows users must have ‘Git Bash for Windows’ installed prior to the call. If the Technical Interview is not passed, the Behavioral Interview will be canceled.
+  - The Technical Interview will involve live break-fix/bug-fix scenarios as well as customer scenarios. You will need to have access to a terminal with Bash or similar. You will also need to have an SSH key pair installed locally so you can connect to the server. Windows users must have 'Git Bash for Windows' installed prior to the call. If the Technical Interview is not passed, the Behavioral Interview will be canceled.
 - (optional) Zoom call with a member of the Support team – an opportunity for you to discuss any questions you might have about the role. This optional call has no influence on our decision, this is meant to help *you* clarify whatever you need to make your decision.
 - 60-Minute Behavioral Panel Interview with a Support Engineering Manager & one other member of the team.
 - 60-Minute Interview with a Senior Manager or Director of Support.

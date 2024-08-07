@@ -16,7 +16,7 @@ Of the [Data Team's Responsibilities](/handbook/business-technology/data-team/#r
 
 ## Handbook First on the Data Platform Team
 
-At GitLab we are [Handbook First](/handbook/handbook-usage/#why-handbook-first). Any changes to our codebase or process should have a handbook MR created before the work is started or concurrently with the MR to change the code.
+At GitLab we are [Handbook First](/handbook/about/handbook-usage/#why-handbook-first). Any changes to our codebase or process should have a handbook MR created before the work is started or concurrently with the MR to change the code.
 
 For example: If we are adding a data source, we would first create the merge request to update our [the extract and load](/handbook/business-technology/data-team/platform/#extract-and-load) and [system diagram](/handbook/business-technology/data-team/platform/infrastructure/#system-diagram) sections of our handbook. This MR can be updated as the change is created and merged along with the change.
 

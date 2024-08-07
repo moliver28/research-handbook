@@ -1,10 +1,8 @@
 ---
-
 title: Troubleshooting and categorising license activation errors
 description: "How to troubleshoot and categorise GitLab license activation errors"
 category: GitLab Self-Managed licenses
 ---
-
 
 Customers may report encountering the following error message when uploading a license to their GitLab Self-Managed instance:
 

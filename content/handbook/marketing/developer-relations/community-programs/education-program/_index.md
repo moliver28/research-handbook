@@ -1,12 +1,11 @@
 ---
-
 title: "Education Program"
 description: "Learn about the GitLab for Education Program and other education-related programs from GitLab's Developer Relations team"
 ---
 
 ## About
 
-GitLab's Education program is part of the [Community Programs](https://handbook.gitlab.com/job-families/marketing/community-programs/) team.
+GitLab's Education program is part of the [Community Programs](/job-families/marketing/community-programs/) team.
 
 On this page, you'll find information about the GitLab for Education Program Team, our vision, our methods, our initiatives, and our program requirements.
 
@@ -16,7 +15,7 @@ Additionally, the Education Program seeks to evangelize the benefits of an all-r
 
 ## How to reach us
 
-* DRI: [@esalvadorp](https://gitlab.com/esalvadorp)
+* DRI: [@Akarsten1](https://gitlab.com/Akarsten1)
 * Email: `education@gitlab.com`
 
 Additionally, see the following Slack channels.
@@ -178,53 +177,53 @@ The GitLab for Education team builds thought leadership, connects with our commu
 We use social media and community engagement to reach stakeholders across the world.
 On social media, we evangelize the following topics:
 
-- Education and learning: Tips from own experience: Workshops, slides, blog posts, videos, etc.
-- Events live tweets / tweet storms: Amplify talks with screenshots and messages.
-- Community best practices and GitLab insights
-- Live demos and lesson plans
+* Education and learning: Tips from own experience: Workshops, slides, blog posts, videos, etc.
+* Events live tweets / tweet storms: Amplify talks with screenshots and messages.
+* Community best practices and GitLab insights
+* Live demos and lesson plans
 
 X/Twitter and LinkedIn are our primary platforms.
 Both platforms have different target audiences and content distribution.
 We are always careful to choose the right platform to accomplish our goals, keeping the following guidelines in mind:
 
-- Keep the message short and appealing. If you have multiple sentences, break them down into a list.
-  - 💡 Use emoji as list markers, this one to learn something.
-  - 🏗 This way users learn what you want to share and build together.
-  - 🔥 Choose the right emoji. This one expresses a fast success for example.
-- Minimize hashtag use. Often a single hashtag is good enough, but too many clutters the message.
-  - `#education` or `#DevOps` can be used, but make sure to only include relevant tags.
-- Too many emoji can hide key messages.
-- Use an appealing screenshot image or funny animated GIF to make people stop when scrolling.
-- Do not start with an `@` character on X/Twitter, this can be hidden as reply and hinder audience reach on X/Twitter. You can add a period at the end, or restructure your sentence to work better with an intro. `Hey @gitlab, how's the new release looking?`
+* Keep the message short and appealing. If you have multiple sentences, break them down into a list.
+  * 💡 Use emoji as list markers, this one to learn something.
+  * 🏗 This way users learn what you want to share and build together.
+  * 🔥 Choose the right emoji. This one expresses a fast success for example.
+* Minimize hashtag use. Often a single hashtag is good enough, but too many clutters the message.
+  * `#education` or `#DevOps` can be used, but make sure to only include relevant tags.
+* Too many emoji can hide key messages.
+* Use an appealing screenshot image or funny animated GIF to make people stop when scrolling.
+* Do not start with an `@` character on X/Twitter, this can be hidden as reply and hinder audience reach on X/Twitter. You can add a period at the end, or restructure your sentence to work better with an intro. `Hey @gitlab, how's the new release looking?`
 
 Education Evangelists strive to become thought leaders on social media platforms.
 We do this with the following guidelines and strategies in mind:
 
-- Attract more active followers and therefore improve impression numbers and engagements.
-  - Users can follow you on LinkedIn, you do not need to accept every invitation. If you plan to extend your business network, ensure that profile details such as private email/phone are not shared with anyone.
-- Help and educate users
-- Analyse profile statistics
-  - The why on the most impressions, top media tweet or most engaging tweets
-- Follow users who share interesting stories
-  - They may follow back, increasing the follower count.
-- Retweet with comment and add your own thoughts or a funny emoji.
-  - Mix this with "normal" retweets.
-- Engage with tweets, like often, add replies and join the discussion.
-  - Say `Thanks for sharing :emoji:` whenever needed
-  - Share positive vibes
-  - Follow the [team member social media policy](/handbook/marketing/team-member-social-media-policy/)
-- Listen to criticism and ignore hate speech.
-- Do not criticize GitLab competitors.
-  - Instead, engage with their communities and learn how to improve.
-- Channel back feedback to product and engineering teams.
-- Adopt new ideas with live streaming or community coffee chats.
-  - Engage community members in discussions.
-  - Tag people and keep the tone ["at the table"](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/)
-- Just as you are more than your work, your social accounts are more than work related. Be yourself and don't be afraid to share your own life to the degree that you're comfortable with.
-- Share your impressions and thoughts on work with `#allremote` and `#remotework`
-- Regularly tweet about daily work. Use the hash tag `#LifeAtGitLab` to share insights and funny moments.
-- Pick outstanding GitLab features from another stage/group and post about them (could be a blog post, screenshot, etc.).
-  - Share praise in Slack with linking the Tweet/LinkedIn URL.
+* Attract more active followers and therefore improve impression numbers and engagements.
+  * Users can follow you on LinkedIn, you do not need to accept every invitation. If you plan to extend your business network, ensure that profile details such as private email/phone are not shared with anyone.
+* Help and educate users
+* Analyse profile statistics
+  * The why on the most impressions, top media tweet or most engaging tweets
+* Follow users who share interesting stories
+  * They may follow back, increasing the follower count.
+* Retweet with comment and add your own thoughts or a funny emoji.
+  * Mix this with "normal" retweets.
+* Engage with tweets, like often, add replies and join the discussion.
+  * Say `Thanks for sharing :emoji:` whenever needed
+  * Share positive vibes
+  * Follow the [team member social media policy](/handbook/marketing/team-member-social-media-policy/)
+* Listen to criticism and ignore hate speech.
+* Do not criticize GitLab competitors.
+  * Instead, engage with their communities and learn how to improve.
+* Channel back feedback to product and engineering teams.
+* Adopt new ideas with live streaming or community coffee chats.
+  * Engage community members in discussions.
+  * Tag people and keep the tone ["at the table"](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/)
+* Just as you are more than your work, your social accounts are more than work related. Be yourself and don't be afraid to share your own life to the degree that you're comfortable with.
+* Share your impressions and thoughts on work with `#allremote` and `#remotework`
+* Regularly tweet about daily work. Use the hash tag `#LifeAtGitLab` to share insights and funny moments.
+* Pick outstanding GitLab features from another stage/group and post about them (could be a blog post, screenshot, etc.).
+  * Share praise in Slack with linking the Tweet/LinkedIn URL.
 
 ### Evangelism on Bambu
 
@@ -236,12 +235,12 @@ Finally, add yourself to the table of known curators on the [curator page.](/han
 
 Types of content that work well for Bambu include:
 
-- Media like podcasts, videos, interviews, and live streams related to the Education program
-- Articles written for the GitLab blog
-- Articles written for dev.to related to education or the education program
-- Articles about the GitLab for Education program or team members
-- Case Studies about University partners
-- GitLab for Education landing pages
+* Media like podcasts, videos, interviews, and live streams related to the Education program
+* Articles written for the GitLab blog
+* Articles written for dev.to related to education or the education program
+* Articles about the GitLab for Education program or team members
+* Case Studies about University partners
+* GitLab for Education landing pages
 
 Bambu is not for announcements, workshop sign ups, or to start new initiatives.
 It's more of a place to show off what's already happened with the team.
@@ -250,7 +249,6 @@ It's more of a place to show off what's already happened with the team.
 
 The Education team uses Twitch as part of its broader community outreach strategy to create a catalogue of presentations, shows, and resources for people looking to learn GitLab or increase their knowledge of the program.
 See the [education program's dedicated workflow page](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/edu-program-workflows.html#producing-content-on-twitch) for complete instructions on hosting Twitch sessions.
-
 
 ### Evangeism with blog posts
 
@@ -278,7 +276,7 @@ Education Evangelists should consider being a part of the [Speakers Bureau.](htt
 
 The booth kit should include current assets like tall vertical banners, a backdrop, and various tools for setting up the booth. Use the following checklist to ensure you're prepared for booth duty.
 
-```
+```text
 [ ] zip ties
 [ ] backdrop
 [ ] side banners
@@ -295,17 +293,17 @@ The venue will provide details on shipping and handling for the booth assets.
 
 **Things to remember:**
 
-- Always use FedEx Express Saver.
-- Use the general FedEx GitLab Account. Do not use the field marketing account.
-- Check the estimated shipping times in order to ensure the package arrives at the proper time. Note that many venues charge per day to hold packages and will only keep them for a set number of days.
+* Always use FedEx Express Saver.
+* Use the general FedEx GitLab Account. Do not use the field marketing account.
+* Check the estimated shipping times in order to ensure the package arrives at the proper time. Note that many venues charge per day to hold packages and will only keep them for a set number of days.
 
 Before the conference begins, create an issue in the Education project [Outreach](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/outreach/-/issues) titled `Name of Conference Location Date` and make it confidential. Assign attendees of the conference to the issue. Inside comments, create several comment threads including Flights, Hotel, Booth Assets, Swag, and any other planning threads as necessary. Use this issue for all planning related to the execution of the conference booth and/or talk or presentation. If there is no booth, still coordinate in the issue with threads relevant to whatever the team has planned for this event.
 
 We try to connect with as many potential program members and current program members as possible at the conference. In order to solidify those connections, we try to send out any emails related to the conference within 2-3 weeks. This includes workshop follow ups as well as a MailJet email if we have access to the attendee emails.
 
-- At each event the EDU team attends and sponsors, gathering names and emails is an important part of our booth work. Using this [form template](https://docs.google.com/forms/d/e/1FAIpQLScE6rE7FN05h1-KQjxfaltZwyAC_n0LvjV5WKmtWUH4Puh0Iw/viewform?usp=sf_link) we gather permission to contact them as well as some other important pieces of information. Depending on the event, we may receive a list of attendees that have opted-in to be contacted.
-- From there, prospects must be added to Salesforce and then added to Outreach. This process involves Marketing Ops and the instructions are available on their [handbook](/handbook/marketing/marketing-operations/list-import/#import-methods-and-their-sla).
-- Follow the instructions to create a copy of the [Google Sheet provided](https://docs.google.com/spreadsheets/d/143REaMQLyIy7to-CFktL45TTTLZxBQRJUDIOMCA3CVo/edit#gid=257616838) for putting your collected information and then create an issue using the [issue template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=event-clean-upload-list).
+* At each event the EDU team attends and sponsors, gathering names and emails is an important part of our booth work. Using this [form template](https://docs.google.com/forms/d/e/1FAIpQLScE6rE7FN05h1-KQjxfaltZwyAC_n0LvjV5WKmtWUH4Puh0Iw/viewform?usp=sf_link) we gather permission to contact them as well as some other important pieces of information. Depending on the event, we may receive a list of attendees that have opted-in to be contacted.
+* From there, prospects must be added to Salesforce and then added to Outreach. This process involves Marketing Ops and the instructions are available on their [handbook](/handbook/marketing/marketing-operations/list-import/#import-methods-and-their-sla).
+* Follow the instructions to create a copy of the [Google Sheet provided](https://docs.google.com/spreadsheets/d/143REaMQLyIy7to-CFktL45TTTLZxBQRJUDIOMCA3CVo/edit#gid=257616838) for putting your collected information and then create an issue using the [issue template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=event-clean-upload-list).
 
 There are several organizations in the education world that are relevant to the audiences that GitLab for Education is looking to reach.
 This includes computer science, information systems, and general research faculty.
@@ -396,5 +394,5 @@ If you wish to record impressions from an official post, request metrics on the 
 
 Impressions are recorded at the end of each month and entered into the sheet:
 
-- **X/Twitter**: Each team member records the total number of X/Twitter Impressions (original content and retweets) from the Analytics Dashboard on Twitter for each month. If GitLab official tweets are reported upon, include these as well.
-- **LinkedIn**: Each team member records the total number of views of posts, articles, and documents for each month. If GitLab official posts are reported upon, include these as well.
+* **X/Twitter**: Each team member records the total number of X/Twitter Impressions (original content and retweets) from the Analytics Dashboard on Twitter for each month. If GitLab official tweets are reported upon, include these as well.
+* **LinkedIn**: Each team member records the total number of views of posts, articles, and documents for each month. If GitLab official posts are reported upon, include these as well.

@@ -1,13 +1,6 @@
 ---
-
 title: "Campaign Manager"
 ---
-
-
-
-
-
-
 
 ## <i class="" id="overview"></i> Managing Campaigns
 
@@ -94,7 +87,6 @@ Click on the "Make Admin" button next to a team member to elevate their privileg
 
 ![Team Member Admin image](/images/handbook/marketing/developer-relations/community-apps/campaign-manager/team_member_admin.png "Team member Admin")
 
-
 ## Campaigns
 
 ### Creating a new campaign
@@ -118,14 +110,12 @@ Click on the "Make Admin" button next to a team member to elevate their privileg
 - The remaining UTM fields are optional but when set, they override defaults of same fields that are set at the team level, with the exception of UTM Content, which prepends the value set at team level. Only a prefix is set for UTM Content at team level and not the full value.
 - Content, Budget & Campaign correspond with `utm_content`, `utm_budget` & `utm_campaign` respectively.
 
-
 ### Deleting a Campaign
 
 ![Delete Campaign image](/images/handbook/marketing/developer-relations/community-apps/campaign-manager/delete_campaign.png "Delete Campaign")
 
 - On a Campaign's page, scroll to the bottom of the page and you'll see the red "Delete Campaign"
 - Deleting a Campaign is irreversible, but as a safe guard, you can only delete a campaign if doesn't have any campaign link.
-
 
 ## Campaign Links
 
@@ -151,7 +141,6 @@ Click on the "Make Admin" button next to a team member to elevate their privileg
 - The form presented is similar to "Create Campaign Link" form shared in the previous section.
 - Click "Update Link" once done.
 
-
 ### Deleting a Campaign link
 
 ![Delete Campaign Link](/images/handbook/marketing/developer-relations/community-apps/campaign-manager/delete_campaign_link.png "Delete Campaign Link")
@@ -159,7 +148,6 @@ Click on the "Make Admin" button next to a team member to elevate their privileg
 - Scroll to the bottom of a Campaign link's page
 - Click on the red "Delete link" button
 - NB: Deleting a link also deletes impressions collected over time!!!
-
 
 ## UTM Tracking
 

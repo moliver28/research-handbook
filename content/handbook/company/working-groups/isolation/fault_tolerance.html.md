@@ -67,6 +67,5 @@ managing configuration and redundancy of these services as well.
 
 That being said, microservices may be worth it if we can clearly define
 the engineering benefit towards maintainability, scalability, and
-reliability.  For example, we've considered introducing a [GitLab CI
-service daemon](https://gitlab.com/gitlab-org/gitlab/issues/19435) that
-can better handle CI queues.
+reliability.  For example, we've considered introducing a [GitLab CI service daemon](https://gitlab.com/gitlab-org/gitlab/issues/19435)
+that can better handle CI queues.

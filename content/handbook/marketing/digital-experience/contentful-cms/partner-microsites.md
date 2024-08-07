@@ -39,7 +39,7 @@ Some of the fields that need to be configured are partner-related. Entering valu
 
 In addition, you can add a `Partner Logo` here. You are able to upload it directly into Contentful or reuse a logo if it has already been added to the [Asset Library](https://app.contentful.com/spaces/xz1dnu24egyd/views/assets). A partner logo will appear in two spots on the page: the top navigation and the footer call-to-action sections. If a logo is not added, only the GitLab logo will appear.
 
-##### Visual Representation
+#### Visual Representation
 
 ![Alt text](/images/handbook/contentful/microsite-partner-logos.png)
 
@@ -55,7 +55,7 @@ The `Navigation CTA Text` and `Navigation CTA Link` are used to add a link to th
 
 _Note:_ For links to an email address, you must add `mailto:` before the email address value. Ex: `mailto:myemail@test.com`. This applies to any other button on the page. In Markdown, that would look like `[Contact us](mailto:myemail@test.com)`.
 
-##### Visual Representation
+#### Visual Representation
 
 ![Alt text](/images/handbook/contentful/microsite-partner-top-navigation.png)
 
@@ -114,7 +114,7 @@ The following tables contain fields necessary to build out the side navigation b
 
 <details><summary>Expand to view Nodes code snippet</summary>
 
-**Note:** This method is being deprecated. Please use the `Child Anchor Links` field instead! 
+**Note:** This method is being deprecated. Please use the `Child Anchor Links` field instead!
 
 ```JSON
 {
@@ -130,9 +130,8 @@ The following tables contain fields necessary to build out the side navigation b
     ]
 }
 ```
+
 </details>
-
-
 
 ##### Visual Representation
 
@@ -157,7 +156,7 @@ If you have entered an image in the Microsite entry's `Partner Logo` field, it w
 | Left Column Buttons (optional)   | You can leave this empty or have up to two buttons.                                                     | Add a `Button` entry here                                                                        |
 | Right Column Taglines (optional) | You can leave this empty or have up to two taglines here. This takes in a Header and Text content entry | Add a `Header and Text` content entry here                                                       |
 
-##### Visual Representation
+#### Visual Representation
 
 <details><summary>Expand to view screenshot</summary>
 
@@ -301,4 +300,3 @@ At this time, these call-out sections take in a **list** of information. The che
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/kALB1thn6ac?si=3GV9LK4v2-L5y9XP" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-

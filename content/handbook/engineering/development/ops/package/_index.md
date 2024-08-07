@@ -10,7 +10,7 @@ Our mission is to create a secure environment where both source code and depende
 allowing you to publish, consume, and discover packages of a large variety of languages and platforms
 all in one place.
 
-For more details about the vision for this product area, see the [product vision] page.
+For more details about the vision for this product area, see the [product vision](https://about.gitlab.com/direction/package/) page.
 
 ## Who We Are
 
@@ -27,12 +27,11 @@ The Package stage is made up of two groups:
 
 {{< team-by-manager-slug manager="crystalpoole" team="Package Registry" >}}
 
-
 ## 📈 Measuring results
 
-In order to better align our effort with our customer's needs we will use the following methodology to measure our results. We believe that our best measure of success and progress is our [product category maturity plan](https://about.gitlab.com/direction/maturity/#package). Progress towards these goals will be measured as follows:
+In order to better align our effort with our customer's needs we will use the following methodology to measure our results. We believe that our best measure of success and progress is our [product category maturity plan](/handbook/product/categories/#package-stage). Progress towards these goals will be measured as follows:
 
-1. The long term product category maturity goals will be split into each stage: [minimal, viable, complete and, loveable](https://about.gitlab.com/direction/maturity/)
+1. The long term product category maturity goals will be split into each stage: [minimal, viable, complete and, loveable](https://about.gitlab.com/direction/#maturity)
 1. For each category's next maturity stage, we'll break down each feature into small iterations and give them [issue weights](/handbook/engineering/development/ops/package/#issue-weighting)
 1. These weighted issues will have the `Package:P1` label applied then be scheduled in upcoming milestones
 1. We'll measure our delivery by the percentage of committed product issues that were completed within a given development phase. Our goal is 100% completion. We track this measurement with a [Say Do Ratio](/handbook/engineering/development/performance-indicators/#say-do-ratios).
@@ -52,14 +51,7 @@ The below epics detail the work required to move each respective category to the
 
 We use quarterly Objectives and Key Results as a tool to help us plan and measure how to achieve Key Performance Indicators (KPIs).
 
-Here is the [standard, company-wide process for OKRs](/handbook/company/okrs/)
-
-<iframe src="https://app.ally.io/public/e4b5sDXtc8Ru0zm" class="dashboard-embed" height="800" width="100%" style="border:none;"> </iframe>
-
-### Performance indicators
-
-We measure the value we contribute by using [performance indicator metrics](/handbook/product/performance-indicators/). The primary metric used for the Package group is the number of monthly active users or GMAU. For more details, please check out the [Ops section's performance indicators](/handbook/product/performance-indicators/).
-
+Here is the [standard, company-wide process for OKRs](/handbook/company/okrs/).  Our quarterly OKRs are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?state=opened&label_name%5B%5D=devops::package).
 
 ### Dashboards
 
@@ -67,10 +59,6 @@ We monitor our features using different dashboards. It is recommended to check t
 
 These dashboards are all internal and can be only accessed by GitLab Team members.
 
-* [Package Registry Dashboard](https://dashboards.gitlab.net/d/stage-groups-package_registry/stage-groups-package-registry-group-dashboard) (Grafana)
-* [Container Registry Dashboard](https://dashboards.gitlab.net/d/stage-groups-container_registry/stage-groups-container-registry-group-dashboard?orgId=1 (Grafana)
-* [Package Registry Error Budgets (7 days)](https://dashboards.gitlab.net/d/stage-groups-detail-package_registry/stage-groups-package-registry-group-error-budget-detail?from=now-7d&to=now&orgId=1) (Grafana)
-* [Container Registry Error Budgets (7 days)](https://dashboards.gitlab.net/d/stage-groups-detail-container_registry/stage-groups-container-registry-group-error-budget-detail?from=now-7d&to=now&orgId=1) (Grafana)
 * [Container Registry](https://log.gprd.gitlab.net/goto/e7b62a23a5a9cdc88aa1de3cdb392758) (Kibana)
 * [Container Registry garbage collection details](https://dashboards.gitlab.net/d/registry-gc/registry-garbage-collection-detail?orgId=1&from=now-30d&to=now&var-PROMETHEUS_DS=Global&var-environment=pre&var-cluster=pre-gitlab-gke&var-stage=main&var-namespace=gitlab&var-Deployment=gitlab-registry) (Grafana)
 * [Cleanup policies for Container Images](https://log.gprd.gitlab.net/goto/b03da1dcaf2ac281994f72687347f40a) (Kibana)
@@ -79,23 +67,41 @@ These dashboards are all internal and can be only accessed by GitLab Team member
 
 ### Error Budget
 
-[Error Budgets](/handbook/engineering/error-budgets/) for stage groups have been established in order to help groups identify and prioritize issues that are impacting customers and infrastructure performance. The [Error Budget dashboard](https://dashboards.gitlab.net/d/stage-groups-package/stage-groups-group-dashboard-package-package?orgId=1) is used to identify issues that are contributing to the Package group's error budget spend.
+[Error Budgets](/handbook/engineering/error-budgets/) for stage groups have been established to help groups identify and prioritize issues that are impacting customers and infrastructure performance. The Error Budget dashboards are used to identify issues that are contributing to the Package group's error budget spend.
 
-The [Package::Package error budget peformance indicator](/handbook/product/performance-indicators/#packagepackage---error-budget-for-gitlabcom) is tracked and updated weekly.
+* [Package Registry Error Budgets (7 days)](https://dashboards.gitlab.net/d/stage-groups-detail-package_registry/stage-groups-package-registry-group-error-budget-detail?from=now-7d&to=now&orgId=1) (Grafana)
+* [Container Registry Error Budgets (7 days)](https://dashboards.gitlab.net/d/stage-groups-detail-container_registry/stage-groups-container-registry-group-error-budget-detail?from=now-7d&to=now&orgId=1) (Grafana)
 
-The engineering manager will review the error budget dashboard weekly to determine whether we're exceeding our budget, determine what (if anything) is contributing to our error budget spend, and create issues addressing root cause for product manager prioritization. Issues created to address error budget spend should be created using appropriate labels as well as the label `Error Budget Improvement` in order to facilitate tracking and measurement.
+At the start of each week the 7-day error budgets for CI groups are posted in the [#ci-section](https://gitlab.enterprise.slack.com/archives/C05B0MER7LM) Slack channel.  If the budget is exceeded, the team will determine what is contributing to our error budget spend and create issues addressing the root cause.  These issues will be prioritized in the milestone as part of the team's `~Engineering Time` budget. Issues created to address error budget spend should be created using appropriate labels as well as `~Error Budget Improvement` to facilitate tracking and measurement.
 
 ### Usage Funnels
 
 We expect to track the journey of users through the following funnel.
 
-[![](https://mermaid.ink/img/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG4gIEFjcXVpc3Rpb24gLS18PiBBY3RpdmF0aW9uXG5cdEFjcXVpc3Rpb24gOiBBcmUgdXNlcnMgYXdhcmUgb2YgdGhlIHByb2R1Y3Qgb3IgZmVhdHVyZSBzZXQ_ICAgIFxuXHRBY3F1aXN0aW9uOiBNZWFzdXJlbWVudCAoVG90YWwgIyBvZiBwcm9qZWN0cyB3aXRoIGF0IGxlYXN0IG9uZSBwYWNrYWdlIGluIHRoZSByZWdpc3RyeSkgXG4gIEFjdGl2YXRpb24gLS18PiBSZXRlbnRpb25cblx0QWN0aXZhdGlvbiA6IEFyZSB1c2VycyBhcHBseWluZyB0aGUgZmVhdHVyZT9cblx0QWN0aXZhdGlvbjogTWVhc3VyZW1lbnQgKCMgb2YgdXNlcnMgcHVibGlzaGluZyBhbmQgaW5zdGFsbGluZyBwYWNrYWdlcyBwZXIgZGF5KSBcdFx0XHRcdFxuICBSZXRlbnRpb24gLS18PiBSZXZlbnVlXG5cdFJldGVudGlvbiA6IEFyZSB1c2VycyBhcHBseWluZyB0aGUgZmVhdHVyZSBvdmVyIHRpbWU_XG5cdFJldGVudGlvbjogTWVhc3VyZW1lbnQgKCMgb2YgcHJvamVjdHMgdGhhdCBoYXZlIHB1Ymxpc2hlZC9pbnN0YWxsZWQgYSBwYWNrYWdlIHZpYSBDSS9DRCBwZXIgZGF5KSBcbiAgUmV2ZW51ZSAtLXw-IFJlZmVycmFsXG5cdFJldmVudWUgOiBBcmUgdXNlcnMgcGF5aW5nIGZvciB0aGUgZmVhdHVyZXM_XG5cdFJldmVudWU6IE1lYXN1cmVtZW50ICgjIHVzZXJzIHB1bGxpbmcgcGFja2FnZXMgdGhyb3VnaCBhIERlcGVuZGVuY3kgUHJveHkpIFxuICBSZWZlcnJhbCAtLXw-IEFjcXVpc3Rpb25cblx0UmVmZXJyYWwgOiBBcmUgdXNlcnMgZW5jb3VyYWdpbmcgb3RoZXJzIHRvIHVzZSB0aGUgZmVhdHVyZT9cblx0UmVmZXJyYWw6IE1lYXN1cmVtZW50ICgjIHByb2plY3RzIHRoYXQgcHVibGlzaCBtb3JlIHRoYW4gMTAgcGFja2FnZXMgcGVyIHdlZWsuKSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0IiwidGhlbWVWYXJpYWJsZXMiOnsiYmFja2dyb3VuZCI6IndoaXRlIiwicHJpbWFyeUNvbG9yIjoiI0VDRUNGRiIsInNlY29uZGFyeUNvbG9yIjoiI2ZmZmZkZSIsInRlcnRpYXJ5Q29sb3IiOiJoc2woODAsIDEwMCUsIDk2LjI3NDUwOTgwMzklKSIsInByaW1hcnlCb3JkZXJDb2xvciI6ImhzbCgyNDAsIDYwJSwgODYuMjc0NTA5ODAzOSUpIiwic2Vjb25kYXJ5Qm9yZGVyQ29sb3IiOiJoc2woNjAsIDYwJSwgODMuNTI5NDExNzY0NyUpIiwidGVydGlhcnlCb3JkZXJDb2xvciI6ImhzbCg4MCwgNjAlLCA4Ni4yNzQ1MDk4MDM5JSkiLCJwcmltYXJ5VGV4dENvbG9yIjoiIzEzMTMwMCIsInNlY29uZGFyeVRleHRDb2xvciI6IiMwMDAwMjEiLCJ0ZXJ0aWFyeVRleHRDb2xvciI6InJnYig5LjUwMDAwMDAwMDEsIDkuNTAwMDAwMDAwMSwgOS41MDAwMDAwMDAxKSIsImxpbmVDb2xvciI6IiMzMzMzMzMiLCJ0ZXh0Q29sb3IiOiIjMzMzIiwibWFpbkJrZyI6IiNFQ0VDRkYiLCJzZWNvbmRCa2ciOiIjZmZmZmRlIiwiYm9yZGVyMSI6IiM5MzcwREIiLCJib3JkZXIyIjoiI2FhYWEzMyIsImFycm93aGVhZENvbG9yIjoiIzMzMzMzMyIsImZvbnRGYW1pbHkiOiJcInRyZWJ1Y2hldCBtc1wiLCB2ZXJkYW5hLCBhcmlhbCIsImZvbnRTaXplIjoiMTZweCIsImxhYmVsQmFja2dyb3VuZCI6IiNlOGU4ZTgiLCJub2RlQmtnIjoiI0VDRUNGRiIsIm5vZGVCb3JkZXIiOiIjOTM3MERCIiwiY2x1c3RlckJrZyI6IiNmZmZmZGUiLCJjbHVzdGVyQm9yZGVyIjoiI2FhYWEzMyIsImRlZmF1bHRMaW5rQ29sb3IiOiIjMzMzMzMzIiwidGl0bGVDb2xvciI6IiMzMzMiLCJlZGdlTGFiZWxCYWNrZ3JvdW5kIjoiI2U4ZThlOCIsImFjdG9yQm9yZGVyIjoiaHNsKDI1OS42MjYxNjgyMjQzLCA1OS43NzY1MzYzMTI4JSwgODcuOTAxOTYwNzg0MyUpIiwiYWN0b3JCa2ciOiIjRUNFQ0ZGIiwiYWN0b3JUZXh0Q29sb3IiOiJibGFjayIsImFjdG9yTGluZUNvbG9yIjoiZ3JleSIsInNpZ25hbENvbG9yIjoiIzMzMyIsInNpZ25hbFRleHRDb2xvciI6IiMzMzMiLCJsYWJlbEJveEJrZ0NvbG9yIjoiI0VDRUNGRiIsImxhYmVsQm94Qm9yZGVyQ29sb3IiOiJoc2woMjU5LjYyNjE2ODIyNDMsIDU5Ljc3NjUzNjMxMjglLCA4Ny45MDE5NjA3ODQzJSkiLCJsYWJlbFRleHRDb2xvciI6ImJsYWNrIiwibG9vcFRleHRDb2xvciI6ImJsYWNrIiwibm90ZUJvcmRlckNvbG9yIjoiI2FhYWEzMyIsIm5vdGVCa2dDb2xvciI6IiNmZmY1YWQiLCJub3RlVGV4dENvbG9yIjoiYmxhY2siLCJhY3RpdmF0aW9uQm9yZGVyQ29sb3IiOiIjNjY2IiwiYWN0aXZhdGlvbkJrZ0NvbG9yIjoiI2Y0ZjRmNCIsInNlcXVlbmNlTnVtYmVyQ29sb3IiOiJ3aGl0ZSIsInNlY3Rpb25Ca2dDb2xvciI6InJnYmEoMTAyLCAxMDIsIDI1NSwgMC40OSkiLCJhbHRTZWN0aW9uQmtnQ29sb3IiOiJ3aGl0ZSIsInNlY3Rpb25Ca2dDb2xvcjIiOiIjZmZmNDAwIiwidGFza0JvcmRlckNvbG9yIjoiIzUzNGZiYyIsInRhc2tCa2dDb2xvciI6IiM4YTkwZGQiLCJ0YXNrVGV4dExpZ2h0Q29sb3IiOiJ3aGl0ZSIsInRhc2tUZXh0Q29sb3IiOiJ3aGl0ZSIsInRhc2tUZXh0RGFya0NvbG9yIjoiYmxhY2siLCJ0YXNrVGV4dE91dHNpZGVDb2xvciI6ImJsYWNrIiwidGFza1RleHRDbGlja2FibGVDb2xvciI6IiMwMDMxNjMiLCJhY3RpdmVUYXNrQm9yZGVyQ29sb3IiOiIjNTM0ZmJjIiwiYWN0aXZlVGFza0JrZ0NvbG9yIjoiI2JmYzdmZiIsImdyaWRDb2xvciI6ImxpZ2h0Z3JleSIsImRvbmVUYXNrQmtnQ29sb3IiOiJsaWdodGdyZXkiLCJkb25lVGFza0JvcmRlckNvbG9yIjoiZ3JleSIsImNyaXRCb3JkZXJDb2xvciI6IiNmZjg4ODgiLCJjcml0QmtnQ29sb3IiOiJyZWQiLCJ0b2RheUxpbmVDb2xvciI6InJlZCIsImxhYmVsQ29sb3IiOiJibGFjayIsImVycm9yQmtnQ29sb3IiOiIjNTUyMjIyIiwiZXJyb3JUZXh0Q29sb3IiOiIjNTUyMjIyIiwiY2xhc3NUZXh0IjoiIzEzMTMwMCIsImZpbGxUeXBlMCI6IiNFQ0VDRkYiLCJmaWxsVHlwZTEiOiIjZmZmZmRlIiwiZmlsbFR5cGUyIjoiaHNsKDMwNCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpIiwiZmlsbFR5cGUzIjoiaHNsKDEyNCwgMTAwJSwgOTMuNTI5NDExNzY0NyUpIiwiZmlsbFR5cGU0IjoiaHNsKDE3NiwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpIiwiZmlsbFR5cGU1IjoiaHNsKC00LCAxMDAlLCA5My41Mjk0MTE3NjQ3JSkiLCJmaWxsVHlwZTYiOiJoc2woOCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpIiwiZmlsbFR5cGU3IjoiaHNsKDE4OCwgMTAwJSwgOTMuNTI5NDExNzY0NyUpIn19LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG4gIEFjcXVpc3Rpb24gLS18PiBBY3RpdmF0aW9uXG5cdEFjcXVpc3Rpb24gOiBBcmUgdXNlcnMgYXdhcmUgb2YgdGhlIHByb2R1Y3Qgb3IgZmVhdHVyZSBzZXQ_ICAgIFxuXHRBY3F1aXN0aW9uOiBNZWFzdXJlbWVudCAoVG90YWwgIyBvZiBwcm9qZWN0cyB3aXRoIGF0IGxlYXN0IG9uZSBwYWNrYWdlIGluIHRoZSByZWdpc3RyeSkgXG4gIEFjdGl2YXRpb24gLS18PiBSZXRlbnRpb25cblx0QWN0aXZhdGlvbiA6IEFyZSB1c2VycyBhcHBseWluZyB0aGUgZmVhdHVyZT9cblx0QWN0aXZhdGlvbjogTWVhc3VyZW1lbnQgKCMgb2YgdXNlcnMgcHVibGlzaGluZyBhbmQgaW5zdGFsbGluZyBwYWNrYWdlcyBwZXIgZGF5KSBcdFx0XHRcdFxuICBSZXRlbnRpb24gLS18PiBSZXZlbnVlXG5cdFJldGVudGlvbiA6IEFyZSB1c2VycyBhcHBseWluZyB0aGUgZmVhdHVyZSBvdmVyIHRpbWU_XG5cdFJldGVudGlvbjogTWVhc3VyZW1lbnQgKCMgb2YgcHJvamVjdHMgdGhhdCBoYXZlIHB1Ymxpc2hlZC9pbnN0YWxsZWQgYSBwYWNrYWdlIHZpYSBDSS9DRCBwZXIgZGF5KSBcbiAgUmV2ZW51ZSAtLXw-IFJlZmVycmFsXG5cdFJldmVudWUgOiBBcmUgdXNlcnMgcGF5aW5nIGZvciB0aGUgZmVhdHVyZXM_XG5cdFJldmVudWU6IE1lYXN1cmVtZW50ICgjIHVzZXJzIHB1bGxpbmcgcGFja2FnZXMgdGhyb3VnaCBhIERlcGVuZGVuY3kgUHJveHkpIFxuICBSZWZlcnJhbCAtLXw-IEFjcXVpc3Rpb25cblx0UmVmZXJyYWwgOiBBcmUgdXNlcnMgZW5jb3VyYWdpbmcgb3RoZXJzIHRvIHVzZSB0aGUgZmVhdHVyZT9cblx0UmVmZXJyYWw6IE1lYXN1cmVtZW50ICgjIHByb2plY3RzIHRoYXQgcHVibGlzaCBtb3JlIHRoYW4gMTAgcGFja2FnZXMgcGVyIHdlZWsuKSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0IiwidGhlbWVWYXJpYWJsZXMiOnsiYmFja2dyb3VuZCI6IndoaXRlIiwicHJpbWFyeUNvbG9yIjoiI0VDRUNGRiIsInNlY29uZGFyeUNvbG9yIjoiI2ZmZmZkZSIsInRlcnRpYXJ5Q29sb3IiOiJoc2woODAsIDEwMCUsIDk2LjI3NDUwOTgwMzklKSIsInByaW1hcnlCb3JkZXJDb2xvciI6ImhzbCgyNDAsIDYwJSwgODYuMjc0NTA5ODAzOSUpIiwic2Vjb25kYXJ5Qm9yZGVyQ29sb3IiOiJoc2woNjAsIDYwJSwgODMuNTI5NDExNzY0NyUpIiwidGVydGlhcnlCb3JkZXJDb2xvciI6ImhzbCg4MCwgNjAlLCA4Ni4yNzQ1MDk4MDM5JSkiLCJwcmltYXJ5VGV4dENvbG9yIjoiIzEzMTMwMCIsInNlY29uZGFyeVRleHRDb2xvciI6IiMwMDAwMjEiLCJ0ZXJ0aWFyeVRleHRDb2xvciI6InJnYig5LjUwMDAwMDAwMDEsIDkuNTAwMDAwMDAwMSwgOS41MDAwMDAwMDAxKSIsImxpbmVDb2xvciI6IiMzMzMzMzMiLCJ0ZXh0Q29sb3IiOiIjMzMzIiwibWFpbkJrZyI6IiNFQ0VDRkYiLCJzZWNvbmRCa2ciOiIjZmZmZmRlIiwiYm9yZGVyMSI6IiM5MzcwREIiLCJib3JkZXIyIjoiI2FhYWEzMyIsImFycm93aGVhZENvbG9yIjoiIzMzMzMzMyIsImZvbnRGYW1pbHkiOiJcInRyZWJ1Y2hldCBtc1wiLCB2ZXJkYW5hLCBhcmlhbCIsImZvbnRTaXplIjoiMTZweCIsImxhYmVsQmFja2dyb3VuZCI6IiNlOGU4ZTgiLCJub2RlQmtnIjoiI0VDRUNGRiIsIm5vZGVCb3JkZXIiOiIjOTM3MERCIiwiY2x1c3RlckJrZyI6IiNmZmZmZGUiLCJjbHVzdGVyQm9yZGVyIjoiI2FhYWEzMyIsImRlZmF1bHRMaW5rQ29sb3IiOiIjMzMzMzMzIiwidGl0bGVDb2xvciI6IiMzMzMiLCJlZGdlTGFiZWxCYWNrZ3JvdW5kIjoiI2U4ZThlOCIsImFjdG9yQm9yZGVyIjoiaHNsKDI1OS42MjYxNjgyMjQzLCA1OS43NzY1MzYzMTI4JSwgODcuOTAxOTYwNzg0MyUpIiwiYWN0b3JCa2ciOiIjRUNFQ0ZGIiwiYWN0b3JUZXh0Q29sb3IiOiJibGFjayIsImFjdG9yTGluZUNvbG9yIjoiZ3JleSIsInNpZ25hbENvbG9yIjoiIzMzMyIsInNpZ25hbFRleHRDb2xvciI6IiMzMzMiLCJsYWJlbEJveEJrZ0NvbG9yIjoiI0VDRUNGRiIsImxhYmVsQm94Qm9yZGVyQ29sb3IiOiJoc2woMjU5LjYyNjE2ODIyNDMsIDU5Ljc3NjUzNjMxMjglLCA4Ny45MDE5NjA3ODQzJSkiLCJsYWJlbFRleHRDb2xvciI6ImJsYWNrIiwibG9vcFRleHRDb2xvciI6ImJsYWNrIiwibm90ZUJvcmRlckNvbG9yIjoiI2FhYWEzMyIsIm5vdGVCa2dDb2xvciI6IiNmZmY1YWQiLCJub3RlVGV4dENvbG9yIjoiYmxhY2siLCJhY3RpdmF0aW9uQm9yZGVyQ29sb3IiOiIjNjY2IiwiYWN0aXZhdGlvbkJrZ0NvbG9yIjoiI2Y0ZjRmNCIsInNlcXVlbmNlTnVtYmVyQ29sb3IiOiJ3aGl0ZSIsInNlY3Rpb25Ca2dDb2xvciI6InJnYmEoMTAyLCAxMDIsIDI1NSwgMC40OSkiLCJhbHRTZWN0aW9uQmtnQ29sb3IiOiJ3aGl0ZSIsInNlY3Rpb25Ca2dDb2xvcjIiOiIjZmZmNDAwIiwidGFza0JvcmRlckNvbG9yIjoiIzUzNGZiYyIsInRhc2tCa2dDb2xvciI6IiM4YTkwZGQiLCJ0YXNrVGV4dExpZ2h0Q29sb3IiOiJ3aGl0ZSIsInRhc2tUZXh0Q29sb3IiOiJ3aGl0ZSIsInRhc2tUZXh0RGFya0NvbG9yIjoiYmxhY2siLCJ0YXNrVGV4dE91dHNpZGVDb2xvciI6ImJsYWNrIiwidGFza1RleHRDbGlja2FibGVDb2xvciI6IiMwMDMxNjMiLCJhY3RpdmVUYXNrQm9yZGVyQ29sb3IiOiIjNTM0ZmJjIiwiYWN0aXZlVGFza0JrZ0NvbG9yIjoiI2JmYzdmZiIsImdyaWRDb2xvciI6ImxpZ2h0Z3JleSIsImRvbmVUYXNrQmtnQ29sb3IiOiJsaWdodGdyZXkiLCJkb25lVGFza0JvcmRlckNvbG9yIjoiZ3JleSIsImNyaXRCb3JkZXJDb2xvciI6IiNmZjg4ODgiLCJjcml0QmtnQ29sb3IiOiJyZWQiLCJ0b2RheUxpbmVDb2xvciI6InJlZCIsImxhYmVsQ29sb3IiOiJibGFjayIsImVycm9yQmtnQ29sb3IiOiIjNTUyMjIyIiwiZXJyb3JUZXh0Q29sb3IiOiIjNTUyMjIyIiwiY2xhc3NUZXh0IjoiIzEzMTMwMCIsImZpbGxUeXBlMCI6IiNFQ0VDRkYiLCJmaWxsVHlwZTEiOiIjZmZmZmRlIiwiZmlsbFR5cGUyIjoiaHNsKDMwNCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpIiwiZmlsbFR5cGUzIjoiaHNsKDEyNCwgMTAwJSwgOTMuNTI5NDExNzY0NyUpIiwiZmlsbFR5cGU0IjoiaHNsKDE3NiwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpIiwiZmlsbFR5cGU1IjoiaHNsKC00LCAxMDAlLCA5My41Mjk0MTE3NjQ3JSkiLCJmaWxsVHlwZTYiOiJoc2woOCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpIiwiZmlsbFR5cGU3IjoiaHNsKDE4OCwgMTAwJSwgOTMuNTI5NDExNzY0NyUpIn19LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
+```mermaid
+classDiagram
+  Acquisition --|> Activation
+  Acquisition : Are users aware of the product or feature set?
+  Acquisition: Measurement (Total # of projects with at least one package in the registry)
+  Activation --|> Retention
+  Activation : Are users applying the feature?
+  Activation: Measurement (# of users publishing and installing packages per day)
+  Retention --|> Revenue
+  Retention : Are users applying the feature over time?
+  Retention: Measurement (# of projects that have published/installed a package via CI/CD per day)
+  Revenue --|> Referral
+  Revenue : Are users paying for the features?
+  Revenue: Measurement (# users pulling packages through a Dependency Proxy)
+  Referral --|> Acquistion
+  Referral : Are users encouraging others to use the feature?
+  Referral: Measurement (# projects that publish more than 10 packages per week.)
+```
 
 Follow along our instrumentation and measurement of Package-related metrics in [gitlab-#2289](https://gitlab.com/groups/gitlab-org/-/epics/2289).
 
 ## Understanding our users
 
-As a team, we are committed to understanding our users needs. We believe the best way to do that is by understanding the reason they hired GitLab, and how those motivations translate into our area of the product. For that, we apply a research-driven approach to [Jobs to Be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) framework of innovation. This method aims to understand why a customer uses and buys a given solution. We apply the [job statement](/handbook/product/ux/jobs-to-be-done/#how-to-write-jtbd) to identify a list of specific, contextual user needs to fulfill their JTBD.  In addition, we regularly evaluate the overall user experience of each JTBD, with [UX Scorecards](/handbook/product/ux/ux-scorecards/), to ensure that we are meeting the needs of our users.
+As a team, we are committed to understanding our users needs. We believe the best way to do that is by understanding the reason they hired GitLab, and how those motivations translate into our area of the product. For that, we apply a research-driven approach to [Jobs to Be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) framework of innovation. This method aims to understand why a customer uses and buys a given solution. We apply the [job statement](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-statements) to identify a list of specific, contextual user needs to fulfill their JTBD.  In addition, we regularly evaluate the overall user experience of each JTBD, with [UX Scorecards](/handbook/product/ux/ux-scorecards/), to ensure that we are meeting the needs of our users.
 
 ### JTBD
 
@@ -114,28 +120,23 @@ The GitLab Container and Package Registry currently handle hundreds of millions 
 
 ### Roles and responsibilities
 
-Our team emphasises ownership by people who have the information required. This means, for example, in the event of some discussion about UX considerations, our Product Designer will have ownership. When we're building features, the Product Manager owns the decision on whether this is a feature that meets our customer needs. Our Engineers own the technical solutions being implemented.
+Our team emphasises ownership by team members who have the information required. This means, for example, in the event of some discussion about UX considerations, our Product Designer will have ownership. When we're building features, the Product Manager owns the decision on whether this is a feature that meets our customer needs. Our Engineers own the technical solutions being implemented.
 
-The process of making sure that there are issues to evaluate and break down is the responsibility of our Product Manager. It is the responsibility of the engineering team to evaluate each issue and make sure it's ready for development (using the `workflow::ready for development` label). It is the responsibility of our Product Designer to evaluate user experience and score our product maturity based on user research. This process will take some time to complete each time we achieve a new maturity stage. [MR Rate](/handbook/engineering/development/performance-indicators/#development-department-mr-rate) will be used as an objective measure of our efficiency, not of alignment with our customer's needs or our organizational goals.
+The process of making sure that there are issues to evaluate and break down is the responsibility of our Product Manager. It is the responsibility of the engineering team to evaluate each issue and make sure it's ready for development (using the `workflow::ready for development` label). It is the responsibility of our Product Designer to evaluate user experience and score our product maturity based on user research. This process will take some time to complete each time we achieve a new maturity stage.
 
 ### Issue boards and projects
 
 Issues for Package group can be found in the following projects:
 
-* [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=group%3A%3Apackage) - any issues for GitLab the product, this means all work and category issues.
-* [gitlab-com/www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&state=opened&label_name[]=group%3A%3Apackage) - issues for any changes in handbook or blog
-* Inside gitlab-org [package-stage/package](https://gitlab.com/gitlab-org/ci-cd/package-stage/package/-/issues) - any issues related to team organization, team styles, how we work, etc.
-* [package-combined-team/team](https://gitlab.com/package-combined-team/team/-/issues) (private) - any issues that don't fit in the previous ones, and for major reasons, example, psychologically safe environment, we want to keep private to just the Package team members. Examples could be issues similar to retrospectives
+* [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=devops%3A%3Apackage) - any issues for GitLab the product, this means all work and category issues.
+* [gitlab-com/www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&state=opened&label_name[]=devops%3A%3Apackagehttps://gitlab.com/groups/gitlab-com/-/issues/?sort=created_date&state=opened&label_name%5B%5D=devops::package) - issues for any changes in handbook or blog
+* Inside gitlab-org [package-stage/package](https://gitlab.com/gitlab-org/ci-cd/package-stage/package/-/issues/) - any issues related to team organization, team styles, how we work, etc.
 
 To plan, visualize and organize better our work, we use the following [issue boards](https://docs.gitlab.com/ee/user/project/issue_board.html#issue-boards):
 
-* [Package:Milestones](https://gitlab.com/groups/gitlab-org/-/boards/1196366?&label_name[]=devops%3A%3Apackage&label_name[]=group%3A%3Apackage) - Issue board showing milestone planning for current and future milestones.
 * [Package:Assignments](https://gitlab.com/groups/gitlab-org/-/boards/1200765?&label_name[]=group%3A%3Apackage) - Issue board organized by assignee to give a snapshot of who is working on what.
-* [Package:Cross-Group Assignments](https://gitlab.com/groups/gitlab-org/-/boards/2470946?label_name[]=package%3Across-group-dependency) - Similar to `Package:Assignments` but for [Cross-Group Dependencies](#cross-group-dependencies).
-* [Package:Bugs](https://gitlab.com/groups/gitlab-org/-/boards/1200744?&label_name[]=type::bug&label_name[]=devops%3A%3Apackage) - Issue board displaying priority and severity of package related bugs.
-* [Package: Validation Track](https://gitlab.com/groups/gitlab-org/-/boards/1397751?&label_name[]=group%3A%3Apackage)
-* [Package:Scheduling](https://gitlab.com/groups/gitlab-org/-/boards/1382732?&label_name[]=devops%3A%3Apackage&label_name[]=group%3A%3Apackage)
 * [Package:Workflow](https://gitlab.com/groups/gitlab-org/-/boards/1284221?label_name[]=group%3A%3Apackage) - Issue board broken down by workflow label to give a snapshot of the status of in-progress issues.
+* [Package:Bugs](https://gitlab.com/groups/gitlab-org/-/boards/1200744?&label_name[]=type::bug&label_name[]=devops%3A%3Apackage) - Issue board displaying priority and severity of package related bugs.
 
 ### Tips and Tricks
 
@@ -145,9 +146,8 @@ We have created a collection of Tips and Tricks for folks working with/around th
 
 | Meeting | Purpose |
 | :-------- | :---- |
-| Biweekly sync (rotate EMEA/APAC) | Share news and information and provide an opportunity for people on the team to escalate concerns. |
-| Retrospective (weekly) | Discuss not only what went well or not but also how we did things and what we can do to improve for next week. |
-| Think BIG (monthly) | Discuss the vision, product roadmap, user research, design, and delivery around the Package solution. |
+| Weekly sync (rotate EMEA/APAC) | Share news and information and provide an opportunity for people on the team to escalate concerns. |
+| Weekly social (weekly) | No agenda.  Talk about interests or play a virtual game. |
 
 ### Retrospectives
 
@@ -161,12 +161,8 @@ where suggestions are lost and no action is taken. Consider the following possib
 
 * [Everything starts with a Merge Request](/handbook/communication/#start-with-a-merge-request)! No matter if it is a small or big change, in the MR, you will have the opportunity to discuss the things you are suggesting with the rest of the team. Add the label `~Retrospective follow-up` and relate the MR to the retrospective issue.
 * For any other follow-up that cannot be resolved through an MR, open an issue in the [Package retrospective issue tracker](https://gitlab.com/gl-retrospectives/package/-/issues) and apply the `~follow-up` label. Assign a due-date to the next month. Link the issue back to the retrospective that prompted the action.
-* Consider bringing some of the [follow-up issues](https://gitlab.com/gl-retrospectives/package/-/issues/?label_name%5B%5D=follow-up) into the weekly retrospective for discussion.
+* Consider bringing some of the [follow-up issues](https://gitlab.com/gl-retrospectives/package/-/issues/?label_name%5B%5D=follow-up) into the weekly sync meeting for discussion.
 * Follow the same process for issues raised during the weekly retrospective.
-
-#### Missed deliverables retrospectives
-
-When issues that we commit to delivering (have the `Deliverable` label) are not delivered in the milestone we commit to, we will hold an asynchronous retrospective on the miss to determine the root cause following the [guidelines outlined in the handbook](/handbook/engineering/root-cause-analysis/). In instances of a single issue, these retrospectives may be quite brief, in scenarios where we miss a larger effort, the root cause analysis will be more detailed. These should be conducted within the first week following the determination that we'll miss the deliverable.
 
 ### Standups
 
@@ -180,16 +176,12 @@ The Geekbot asynchronous standup will be reserved for blocking items and merge a
 
 #### Async Issue Updates
 
-The purpose of daily updates is to inspect progress and adapt upcoming planned work as necessary. In an all-remote culture, we keep the updates asynchronous and put them directly in the issues.
+The purpose of async updates is to communicate progress and allow others to prepare for upcoming work as necessary. In an all-remote culture, we keep the updates asynchronous and put them directly in the issues.
 
-The async daily update communicates the progress and confidence using an issue comment and the milestone health status using the Health Status field in the issue. A daily update may be skipped if there was no progress. It's preferable to update the issue rather than the related merge requests, as those do not provide a view of the overall progress.
-
-When communicating the health status, the options are:
-* `on track` - when the issue is progressing as planned
-* `needs attention` - when the issue requires attention or intervention to keep it on schedule
-* `at risk` - when there is a risk the issue will not be completed according to schedule
+The async update communicates the progress and confidence using an issue comment and the milestone health status. Add a comment in your issue with the title `Async Update` once per week, or when something notable happens with regard to the issue. It's preferable to update the issue rather than the related merge requests.
 
 The async update comment should include:
+
 * what percentage complete the work is, in other words, how much work is done to put all the required MRs in review
 * the confidence of the person that their estimate is correct
 * notes on what was done and/or if review has started
@@ -197,7 +189,9 @@ The async update comment should include:
 
 Example:
 
-```
+```text
+#### Async Update
+
 Complete: 80%
 Confidence: 90%
 Notes: expecting to go into review tomorrow
@@ -208,7 +202,9 @@ Include one entry for each associated MR
 
 Example:
 
-```
+```text
+#### Async Update
+
 Issue status: 20% complete, 75% confident
 
 MR statuses:
@@ -231,6 +227,7 @@ Slackbot has been configured to send reminders to `#s_package`
 The epic updates communicate a high level view of progress and status for quarterly goals using an epic comment. It does not need to have issue or MR level granularity because that is part of each issue updates.
 
 The weekly update comment should include:
+
 * Status: ok, so-so, bad? Is there something blocked in the general effort?
 * How much of the total work is done? How much is remaining? Do we have an ETA?
 * What's your confidence level on the completion percentage?
@@ -240,6 +237,7 @@ The weekly update comment should include:
 ##### Examples
 
 Some good examples of epic updates that cover the above aspects:
+
 * https://gitlab.com/groups/gitlab-org/-/epics/8628#note_1090732793
 * https://gitlab.com/groups/gitlab-org/-/epics/5152#note_1029337901
 
@@ -267,9 +265,9 @@ Issues that we're expecting to work on in the milestone will have the `workflow:
 * Our Product Manager, Product Designer, and Engineering Manager develop a plan for upcoming milestones.
 * The PM creates an issue for milestone planning that includes the goals, priorities and work for the milestone. The milestone planning issues can be found in our [Milestone Planning Epic](https://gitlab.com/groups/gitlab-org/-/epics/3591).
 * Everyone can contribute and collaborate in the milestone issue to propose work, raise concerns and clarify topics.
-* To identify work and their priority, issues are assigned to the milestone and labelled as `Package:P1` or `Package:P2` according to their priority. Our prioritization model can be found below in the section [Priorities](/handbook/engineering/development/ops/package/#milestone-priorities).
+* To identify work and their priority, issues are assigned to the milestone and labeled as `Package:P1` or `Package:P2` according to their priority. Our prioritization model can be found below in the section [Priorities](/handbook/engineering/development/ops/package/#milestone-priorities).
 * Before commiting to the work for the milestone, engineers perform [refinement](/handbook/engineering/development/ops/package/#refinement) and confirm all issues are ready for development.
-* We commit to the `Package:P1` work in the milestone by having an engineer add the `workflow::ready for development` label and then having the engineering manager add the `Deliverable` label. We measure our predictability and commitments with Say/Do ratios.
+* We commit to the `Package:P1` work in the milestone by having an engineer add the `workflow::ready for development` label and then having the engineering manager add the `Deliverable` label.
 
 #### Refinement
 
@@ -283,42 +281,37 @@ The product manager will determine issues that need to be refined by the enginee
 
 To drive refinement, we use a randomly assigned refinement [DRI](/handbook/people-group/directly-responsible-individuals/). The refinement DRI is not necessarily the person completing the refinement tasks, but is responsible for ensuring they are completed within the assigned milestone.
 
-Before the milestone starts:
-* The product manager determines which issues need to be refined by engineers and applies the `workflow::refinement` label
-* Issues needing to be refined are listed on the [milestone planning issue](https://gitlab.com/groups/gitlab-org/-/epics/3591)
-
-When the milestone starts:
-* The product manager, engineering manager, or product designer randomly assigns refinement issues to DRIs.
+Before the milestone starts the engineering manager determines which issues need to be refined by engineers and applies the `workflow::refinement` label.  When the milestone starts the product manager or engineering manager may randomly assigns refinement issues to DRIs.
 
 Before the milestone is finished:
-* The engineers refine each issue with the label `workflow::refinement` from the milestone planning issue
+
+* The engineers refine each issue with the label `workflow::refinement` from the next milestone planning issue
 * When refinement is complete, each issue is moved to `workflow::ready for development`
 
 Refinement guidelines:
 
 * Identify and resolve outstanding questions or discussions.
-    * Does the issue has a clear, updated, and confirmed design associated?
-    * Does the issue contains all the data necessary to start implementation?
+  * Does the issue has a clear, updated, and confirmed design associated?
+  * Does the issue contains all the data necessary to start implementation?
 * Identify missing dependencies.
-    * Is the issue dependent on any other issue in the milestone, or the dependency is explicitly communicated, noted in the description and the issue is linked?
-    * The GraphQL API or the REST API contains all the data necessary to implement the UI?
-    * The GraphQL API or the REST API implements all the necessary filters, sorting, and pagination to implement the UX?
-    * The GraphQL API or the REST API contains all the necessary mutation/actions to implement the UX?
+  * Is the issue dependent on any other issue in the milestone, or the dependency is explicitly communicated, noted in the description and the issue is linked?
+  * The GraphQL API or the REST API contains all the data necessary to implement the UI?
+  * The GraphQL API or the REST API implements all the necessary filters, sorting, and pagination to implement the UX?
+  * The GraphQL API or the REST API contains all the necessary mutation/actions to implement the UX?
 * Raise any questions, concerns, or alternative approaches.
-    * Could this issue be resolved in different ways?
-    * What is the biggest risk?
+  * Could this issue be resolved in different ways?
+  * What is the biggest risk?
 * Involve stable counterparts.
-    * The impact on QA and Feature tests of this issue is clear and, if necessary, the SET stable counterpart is involved in reviewing them?
-    * The impact on security of this issue is clear, and if necessary, a stable counterpart is involved?
+  * The impact on QA and Feature tests of this issue is clear and, if necessary, the SET stable counterpart is involved in reviewing them?
+  * The impact on security of this issue is clear, and if necessary, a stable counterpart is involved?
 * Outline an implementation plan.
-    * What is the smallest thing possible to do?
-    * Should we use a feature flag?
+  * What is the smallest thing possible to do?
+  * Should we use a feature flag?
 * Assign labels.
 * Assign a weight to the issue according to [weighting guidelines](/handbook/engineering/development/ops/package/#issue-weighting).
 * Create any follow-up issues that come out of refinement
 
-
-#### Milestone Priorities
+<!-- #### Milestone Priorities
 
 Throughout the [workflow](/handbook/engineering/development/ops/package/#workflow), issues should be addressed in the following priority order:
 
@@ -326,7 +319,7 @@ Throughout the [workflow](/handbook/engineering/development/ops/package/#workflo
 1. `Package:P1` label: Used to identify high priority issues that should be committed to in a given milestone or scheduled in an upcoming milestone.
 1. `Community Contribution` label: When in the milestone planning, this identifies community contributions we committed to delivering in a given milestone.
 1. `Package:P2` label: Used to stretch goals for a given milestone.
-1. `workflow::refinement` label: These are issues that require [weighting](#issue-weighting), feedback, and scheduling before being moved to `workflow::ready for development`.
+1. `workflow::refinement` label: These are issues that require [weighting](#issue-weighting), feedback, and scheduling before being moved to `workflow::ready for development`. -->
 
 ##### Issue Weighting
 
@@ -344,7 +337,6 @@ Anything larger than 3 should be broken down. Anything with a confidence percent
 Our intention is to break up issues that have a weight greater than 3, either by converting the issue to an epic with sub issues or just separating the work into related issues. An issue weight of 3 should describe something that would take **no more** than 2 weeks to complete.
 
 When starting work on an MR that involves unfamiliar tools/libraries, be sure to update the estimated weight depending on who picks up the issue to reflect the additional time that may be spent learning. For example, a developer who has never worked with GraphQL before may need to spend some additional time learning the library versus a developer who has experience with GraphQL. If the first developer picks up the issue, they should consider raising the weight so it is reflected that it may take longer for them to deliver it.
-
 
 ### Refactoring
 
@@ -401,6 +393,7 @@ Instructions on how to use it can be found [here](/handbook/engineering/developm
 #### Seeding Utilities
 
 We have two utilities we make use of when seeding Container Registries for testing purposes:
+
 * [Container Factory](https://gitlab.com/nmezzopera/container-factory)
 * [Container Registry Cloud Seeder](https://gitlab.com/gitlab-org/ci-cd/package-stage/container-registry-seeder)
 
@@ -413,6 +406,7 @@ This tactic also creates an environment to ask for early review on a WIP merge r
 ### UI or Technical Writing Review
 
 When a merge request needs to be reviewed for the experience or for the copy in the user interface, there are a few suggestions to ensure that the review process is quick and effecient:
+
 * When the MR has a UX or copy review, we suggest initating that part of the review process first to avoid experience changes in the middle of code reviews.
 * A Product Designer will review the UX and UI text, following the [MR review guidelines](/handbook/product/ux/product-designer/mr-reviews/). If there is substantial change, the Product Designer may bring in a Technical Writer for a more thorough copy/content related review.
 * If the Technical Writer is unavailable and the MR is being slowed down, it is possible to [create a follow up issue](https://docs.gitlab.com/ee/development/documentation/workflow.html#post-merge-reviews) for the copy or documentation to be reviewed post-merge. This should be avoided when possible.
@@ -443,9 +437,10 @@ Additionally, the Package team can help set realistic review/merge times based o
 
 Ultimately the aim is to enable community contributor to deliver meaningful work with the least amount of back and forth and minimising the risk of stumbling on a show stopper.
 
-#### Definition
+#### Definition of community contributions
 
 A merge request with the following properties:
+
 1. It impacts features or issues managed by the Package group. This means it has the `devops::package` label
 2. Contributed by anyone in the wider community or at GitLab who isn't part of the Package group
 3. Contributed by a team member who doesn't work in the same functional area (Frontend engineer contributing to Backend code)
@@ -479,6 +474,7 @@ Given the number of community contributions submitted (thank you!), the Package 
 The Package team will add review weight labels to community contributions to try to help understand the required effort and plan capacity. The intention is to help the team better plan for the support of community contributions among other priorities. We'll start with labels for weights of 1, 2, 3, and 5 similar to the weights we use for our issues. The only difference is that a `package-review-weight::5` won't be replaced with an investigation.
 
 Other points to consider for the Package group member:
+
 * The coaching can range from commenting/reviewing the merge request to pair programming through Zoom.
 * Contributing to features managed by the Package group can mean having to use the Enterprise Edition (EE) version of GitLab. This [guideline](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contributing-to-the-gitlab-enterprise-edition-ee) will help with this aspect.
 * Make sure that the merge request size and complexity stay at a reasonable level to ensure a [smooth review process](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#contribution-acceptance-criteria).
@@ -521,7 +517,7 @@ committing to delivering it in a specific time frame.
 
 ### Returning from PTO
 
-It can be overwhelming to come back to work after taking time off. Remember to review the [returning from PTO](/handbook/paid-time-off/#returning-from-pto)
+It can be overwhelming to come back to work after taking time off. Remember to review the [returning from PTO](/handbook/people-group/paid-time-off/#returning-from-pto)
 section of our time-off policy, especially the key points:
 
 * It is OK to take your time to catch up. You can consider blocking your calendar to do so.
@@ -542,7 +538,7 @@ These sessions are applicable to all development specialties (backend, frontend,
 
 #### Process
 
-* While there is no strict frequency requirement, team members are encouraged to hold at least one session per month for the entire team.
+* While there is no strict frequency requirement, team members are encouraged to hold at least one session per quarter for the entire team.
 * To ensure efficiency and engagement, each session should be timeboxed to 30 minutes.
 * Any team member can volunteer to present on a topic of their choice.
 
@@ -562,7 +558,7 @@ When hosting a session, the team member should:
 
 Cross-group dependencies may exist as pre-requisites to deliver Package features or bug fixes. Issues to deliver such dependencies are owned by groups that Package depends on, such as [Delivery](/handbook/engineering/infrastructure/team/delivery/) or [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/).
 
-For discoverability, issues that represent cross-group dependencies should be labeled with `package:cross-group-dependency`. If working on one of these issues, Package engineers should ensure that they are labeled correctly. For visibility, these issues are shown in the [Package:Cross-Group Assignments](https://gitlab.com/groups/gitlab-org/-/boards/2470946?label_name[]=package%3Across-group-dependency) issue board.
+For discoverability, issues that represent cross-group dependencies should be labeled with `package:cross-group-dependency`. If working on one of these issues, Package engineers should ensure that they are labeled correctly.
 
 The product manager should include cross-group dependencies in the milestone planning issue for review, discussion and prioritization.
 
@@ -586,21 +582,16 @@ There are times during the development lifecycle that changes need to be communi
 * If your work will impact rate-limits as in [GitLab-#778](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/778)
 * If you are considering adjusting the existing [Package limits](https://docs.gitlab.com/ee/administration/instance_limits.html#package-registry-limits)
 
-
-
-
 ## Feature Category Details
 
 * [Container Registry](/handbook/engineering/development/ops/package/container-registry)
 
 ## 🔗 Other Useful Links
 
-* [Package backend board]
-* [#s_package] in Slack
-* [Recorded meetings][youtube] - This is where we post all of our team meetings and discussions.
+* [#s_package](https://gitlab.slack.com/archives/s_package) in Slack
+* [Recorded meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KoPiSySNHTfvxC20i0LppMf) - This is where we post all of our team meetings and discussions.
 * [Recorded user research (internal only)](https://www.youtube.com/watch?v=2A-VGtP-RJg&list=PL05JrBw4t0KoPiSySNHTfvxC20i0LppMf&index=1)
-* [Monthly Retrospectives][retros]
-* [Timezones][timezones]
+* [Monthly Retrospectives](https://gitlab.com/gl-retrospectives/package-stage/package/-/issues/)
 * [Package Registry processes](/handbook/engineering/development/ops/package/product/package-registry/)
 * [Package use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/package/)
 * [Package risk map](/handbook/engineering/development/ops/package/risk-map/)
@@ -612,14 +603,15 @@ There are times during the development lifecycle that changes need to be communi
 * [Container Registry documentation](https://docs.gitlab.com/ee/user/packages/container_registry/)
 * [Virtual registry documentation](https://docs.gitlab.com/ee/user/packages/dependency_proxy/)
 
-
 ### Roadmap
+
 * [Package roadmap review - March 2022](https://youtu.be/gsSWEqX4dOA)
 * [Package roadmap review - January 2023](https://youtu.be/O-4kMmQBb34)
 
 ### Demos & Speedruns
 
 #### Package Registry
+
 * [npm registry walk through](https://youtu.be/yvLxtkvsFDA)
 * [Helm Chart repository demo](https://youtu.be/B6K373-pAgw)
 * [GitLab Package Registry + Usage quotas Speedrun](https://youtu.be/5FYMSl-QYg4)
@@ -642,12 +634,14 @@ There are times during the development lifecycle that changes need to be communi
 * [Pull npm packages from your group or sub-group](https://youtu.be/-5Wm61x4Y5k)
 
 #### Container Registry
+
 * [Control access to the container registry](https://youtu.be/UyGEOLp_4E4)
 * [How to remove Docker images using CI/CD (speedrun)](https://youtu.be/jDlFCrH9H7g)
 * [Use the API to delete all tags except *](https://youtu.be/Hi19bKe_xsg)
 * [How to view all of the images and tags in your group](https://youtu.be/9IxoGYnTIaI)
 
 #### Virtual Registries
+
 * [Maven virtual registry MVC demo](https://www.youtube.com/watch?v=9NPTXObsSrE)
 * [Enable TTL policies from within the UI](https://youtu.be/gX2npIF9gCY)
 * [View a list of tags in the cache in the UI](https://youtu.be/uYEY75qz7Jg)
@@ -657,9 +651,11 @@ There are times during the development lifecycle that changes need to be communi
 * [Automatically authenticate using pre-defined environment variables](https://youtu.be/8qhT55e780g)
 
 #### Dependency Firewall
+
 * [POC: Pipelines for packages](https://youtu.be/KCtOC8kLDRQ)
 
 #### Nexus Repository OSS (competitor product)
+
 * [Introduction](https://youtu.be/QOMF2EWC5B8)
 * [Installation](https://youtu.be/lhBJWDLO_IM)
 * [UI overview](https://youtu.be/3Z-TgTrrXDU)
@@ -667,11 +663,3 @@ There are times during the development lifecycle that changes need to be communi
 * [Group repositories](https://youtu.be/js4ibAL7kyk)
 * [Publish to a private repository](https://youtu.be/NNMQ8d-68es)
 * [Closing remarks](https://youtu.be/W8X1eain51c)
-
-
-[product vision]: /direction/package/
-[Package backend board]: https://gitlab.com/groups/gitlab-org/-/boards/892745
-[#s_package]: https://gitlab.slack.com/archives/s_package
-[youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KoPiSySNHTfvxC20i0LppMf
-[retros]: https://gitlab.com/gl-retrospectives/package/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective
-[timezones]: https://timezone.io/team/gitlab-package-team

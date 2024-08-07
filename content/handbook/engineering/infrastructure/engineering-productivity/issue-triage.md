@@ -1,17 +1,9 @@
 ---
-
 title: Issue Triage
 description: "Guidelines for triaging new issues opened on GitLab.com projects"
 ---
 
-
-
-
-
-
-
-
-GitLab believes in [Open Development][open-development], and we encourage the community to file issues and open merge requests for our projects on [GitLab.com](https://gitlab.com/groups/gitlab-org). Their contributions are valuable, and we should handle them as effectively as possible. A central part of this is triage - the process of categorization according to type and severity.
+GitLab believes in [Open Development](https://about.gitlab.com/blog/2015/12/16/improving-open-development-for-everyone/), and we encourage the community to file issues and open merge requests for our projects on [GitLab.com](https://gitlab.com/groups/gitlab-org). Their contributions are valuable, and we should handle them as effectively as possible. A central part of this is triage - the process of categorization according to type and severity.
 
 Any GitLab team-member can triage issues. Keeping the number of un-triaged issues low is essential for maintainability, and is our collective responsibility. Consider triaging a few issues around your other responsibilities, or scheduling some time for it on a regular basis.
 
@@ -93,7 +85,7 @@ Once you've determined a severity for an issue add a note that explains in summa
 | `~"bug::performance"` Browser Rendering <br> ([TBT](https://web.dev/tbt/))[^2] | Above 9000ms to timing out | Between 2000ms and 9000ms | Between 1000ms and 2000ms | Between 300ms and 1000ms | [Enablement Quality Engineering team](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/) |
 | `~bug::ux` User experience problem [&sup3;](#ux) | "I can't figure this out." Users are blocked and/or likely to make risky errors due to poor usability, and are likely to ask for support. | "I can figure out why this is happening, but it's really painful to solve." Users are significantly delayed by the available workaround. | "This still works, but I have to make small changes to my process." Users are self sufficient in completing the task with the workaround, but may be somewhat delayed. |  "There is a small inconvenience or inconsistency." Usability isn't ideal or there is a small cosmetic issue. | [Product Designers](/handbook/product/ux/product-design/) of that Product group |
 | `~"bug::availability"` of GitLab SaaS | See [Availability section](#availability) | See [Availability section](#availability) | See [Availability section](#availability) | See [Availability section](#availability) | |
-| `~"bug::vulnerability"` Security Vulnerability | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) | AppSec team |
+| `~"bug::vulnerability"` Security Vulnerability | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/) | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/) | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/) | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/) | AppSec team |
 | Global Search | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | |
 | `~test` Bugs blocking end-to-end test execution | See [Blocked tests section](#blocked-tests) | See [Blocked tests section](#blocked-tests) | See [Blocked tests section](#blocked-tests) | See [Blocked tests section](#blocked-tests) | [Test Platform Sub-Department](/handbook/engineering/infrastructure/test-platform/) |
 | `~GitLab.com Resource Saturation` Capacity planning warnings | Mean forecast shows Hard SLO breach within 3 months. | | | | Scalability Engineering Manager (who will hand over to EM that owns the resource) |
@@ -105,10 +97,10 @@ This indicates the expected timeline & urgency which is used to measure our SLO 
 
 | **Severity**   | Incident root cause analysis `~corrective action` SLO | `~"type::bug"` resolution SLO | `~"GitLab.com Resource Saturation"` resolution SLO | Security `~vulnerability` SLO |
 |----------------|---------|--------------------------------------------------------------------------------| ----|-----|
-| `~"severity::1"` | 1 week  | The current release + next available deployment to GitLab.com (within 30 days) | Within 2 months | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) |
-| `~"severity::2"` | 30 days | The next release (60 days)                                                   |  | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas)  |
-| `~"severity::3"` | 60 days | Within the next 3 releases (approx one quarter or 90 days) |  | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) |
-| `~"severity::4"` | 90 days | Anything outside the next 3 releases (more than one quarter or 120 days).    |  |  See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas)  |
+| `~"severity::1"` | 1 week  | The current release + next available deployment to GitLab.com (within 30 days) | Within 2 months | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/) |
+| `~"severity::2"` | 30 days | The next release (60 days)                                                   |  | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/)  |
+| `~"severity::3"` | 60 days | Within the next 3 releases (approx one quarter or 90 days) |  | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/) |
+| `~"severity::4"` | 90 days | Anything outside the next 3 releases (more than one quarter or 120 days).    |  |  See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/)  |
 
 #### Examples of severity levels
 
@@ -159,7 +151,7 @@ The presence of these severity labels modifies the standard severity labels(`~"s
 
 (2) - Resolution uses standard work processes, eg. code review. Scheduling is owned by the Product department, within the defined SLO targets.
 
-#### Availability prioritization
+### Availability prioritization
 
 The priority of an availability issue is tied to severity in the following manner:
 
@@ -268,17 +260,15 @@ Severity should be assessed using the following table:
 
 These issues follow the established [severity SLOs for bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
 
-
-
 ## Triaging Issues
 
 Initial triage involves (at a minimum) labelling an issue appropriately, so un-triaged issues can be discovered by searching for issues without any labels.
 
 Follow one of these links:
 
-- [GitLab][issues-query]
-- [GitLab Omnibus][omnibus-issues-query]
-- [GitLab.com Support Tracker][support-issues-query]
+- [GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=None&assignee_id=None)
+- [GitLab Omnibus](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=None&assignee_id=None)
+- [GitLab.com Support Tracker](https://gitlab.com/gitlab-com/support-forum/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=None&assignee_id=None)
 
 Pick an issue, with preference given to the oldest in the list, and evaluate it with a critical eye, bearing the [issue triage practices](#issue-triage-practices) below in mind. Some questions to ask yourself:
 
@@ -347,16 +337,13 @@ Secondary triage happens when the issue has already been assigned to a group and
 1. If you think it falls squarely into another group's product categories, then ping the EM or PM of that other group async in a comment thread on the issue. Explain your reasoning as to why you think it falls under their purview and ask them to take ownership. Please ask and **let them be the one to update** the label when they have seen your comment and agreed that they are better suited to take on the issue.
 1. If you think the issue falls into the shared responsibility category, first consider carefully having your team be the one contributing to the issue and owning it to see it through to completion. However, if you think your team does not have the skill or can not ramp up the necessary knowledge and skills to contribute to the issue in a timely manner, then try to identify other groups who might be better suited (or with whom your group can collaborate to deliver the functionality together). At that point, engage with them in a conversation and coordinate further triage of the issue until it has a clear owner. Alternatively, through this triage process you may collectively decide that the issue is not worth pursuing (e.g. perhaps considering its value vs effort). In this case, make sure to close the issue while providing a clear rationale for the decision.
 
-As you work through the triage, exercise your judgement to decide when it is time to escalate issues to a higher level (i.e. senior management, directors or above) if you and your EM/PM peers can’t agree on the value, severity, priority or group purview of the issue. For now, the method to escalate is flexible and you can choose the right communication channel and modality for the situation.
+As you work through the triage, exercise your judgement to decide when it is time to escalate issues to a higher level (i.e. senior management, directors or above) if you and your EM/PM peers can't agree on the value, severity, priority or group purview of the issue. For now, the method to escalate is flexible and you can choose the right communication channel and modality for the situation.
 
 As the DRI you should consider take additional steps to ensure the continued support of the affected area. This may involve putting forward proposals for the creation of new platform groups that can take the ongoing responsibility and technical strategy for the components in question. This of course does not preclude the need to take immediate action on the issue assigned to your group.
 
 If as a result of the triage process a group is identified as qualified and willing to take ownership on a permanent basis, product and engineering leaders should officially document the type of ownership model and the team in the [shared services components](/handbook/engineering/development/#shared-services-and-components) section of the Development handbook. Multiple groups may permanently share ownership of the same component if deemed appropriate.
 
-
 It is important to keep in mind that throughout this process, as a leader in your group, you are deemed the initial Directly Responsible Individual ([DRI](/handbook/people-group/directly-responsible-individuals/)) until the issue is resolved or someone else agrees to take over. Simply removing your group label without further triage conversations with other groups is not an acceptable or helpful action to take in this process. This aligns with our value of [Results: global optimization](/handbook/values/#global-optimization).
-
-
 
 ### Outdated issues
 
@@ -379,7 +366,7 @@ Use the issue with the better title, description, or more comments and positive 
 
 If the issue is really a support request for help, you can post this message:
 
-```
+```markdown
 Hey {{author}} thanks for reaching out, but it looks like this might be a request for support. The issue tracker is for new bug reports and feature proposals. For support requests we have several resources that you can use to find help and support from the Community, including:
 
 * [Technical Support for Paid Tiers](https://about.gitlab.com/support/)
@@ -454,25 +441,13 @@ any owner of that group for access.
 
 ## Notes
 
-The original issue about these policies is [#17693][17693]. We'll be working to improve the situation from within GitLab itself as time goes on.
+The original issue about these policies is [#17693](https://gitlab.com/gitlab-org/gitlab-ce/issues/17693). We'll be working to improve the situation from within GitLab itself as time goes on.
 
 The following projects, resources, and blog posts were very helpful in crafting these policies:
 
-- [CodeTriage][code-triage]
-- [How to be an open source gardener][open-source-gardener]
-- [Managing the Deluge of Atom Issues][atom-issues]
-- [Handling Large OSS Projects Defensively][handling-big-projects]
-- [My condolences, you’re now the maintainer of a popular open source project][my-condolences]
-- [The Art of Closing][art-of-closing]
-
-[open-development]: /blog/2015/12/16/improving-open-development-for-everyone/
-[issues-query]: https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=None&assignee_id=None
-[omnibus-issues-query]: https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=None&assignee_id=None
-[support-issues-query]: https://gitlab.com/gitlab-com/support-forum/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=None&assignee_id=None
-[17693]: https://gitlab.com/gitlab-org/gitlab-ce/issues/17693
-[code-triage]: https://www.codetriage.com/
-[open-source-gardener]: http://words.steveklabnik.com/how-to-be-an-open-source-gardener
-[atom-issues]: http://blog.atom.io/2016/04/19/managing-the-deluge-of-atom-issues.html
-[handling-big-projects]: http://artsy.github.io/blog/2016/07/03/handling-big-projects/
-[my-condolences]: https://runcommand.io/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/
-[art-of-closing]: https://blog.jessfraz.com/post/the-art-of-closing/
+- [CodeTriage](https://www.codetriage.com/)
+- [How to be an open source gardener](http://words.steveklabnik.com/how-to-be-an-open-source-gardener)
+- [Managing the Deluge of Atom Issues](http://blog.atom.io/2016/04/19/managing-the-deluge-of-atom-issues.html)
+- [Handling Large OSS Projects Defensively](http://artsy.github.io/blog/2016/07/03/handling-big-projects/)
+- [My condolences, you're now the maintainer of a popular open source project](https://runcommand.io/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/)
+- [The Art of Closing](https://blog.jessfraz.com/post/the-art-of-closing/)

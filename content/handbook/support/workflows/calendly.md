@@ -1,11 +1,8 @@
 ---
-
 title: Calendly Setup for Support
 category: References
 description: "Workflow for setting up and using Calendly in Support Engineering"
 ---
-
-
 
 **Note**: Always use [single-use Calendly links](#generating-a-single-use-calendly-link) when offering a call with customers.
 
@@ -42,7 +39,7 @@ The above video shows how to set this up, but the general gist is:
 
 You need to be added to the GitLab Support group account to enable the
 Calendly Pro account features, including the ability to add multiple
-["event types"](https://help.calendly.com/hc/en-us/categories/203257248-Customize-Event-Types)
+["event types"](https://help.calendly.com/hc/en-us/articles/14073251046807-How-to-customize-your-event-types)
 for scheduling calls with customers and colleagues as recommended in the
 [suggestions](#suggestions) below.
 
@@ -58,12 +55,12 @@ This access is also included as part of [support onboarding](/handbook/support/#
 
 Calendly 60 minute meetings default to an 'availability Increment' of 60 minutes.
 
-Only slots starting at the top of the hour are offered. If you’ve got 90 minutes available,
+Only slots starting at the top of the hour are offered. If you've got 90 minutes available,
 or a (say) a 14:30-15:30 window available, then reducing the increment to 30 minutes increases your availability.
 
-- Log in;  edit the event type
-- 'When can people book this event'
-- Select 'Advanced' tab under 'Availability' - change 'Show availability in increments of'
+- Log in and edit the event type
+- Click on `Scheduling settings`
+- Under `Additional options`, select a time interval under `Start time increments`
 
 If you have any other meeting lengths available, consider whether it makes sense to offer different start times.
 You can view your calendly availability using a private/incognito browser session.
@@ -73,8 +70,8 @@ You can view your calendly availability using a private/incognito browser sessio
 If you are temporarily working hours different to your usual schedule, you can update Calendly so that customer calls will be booked during your updated timezone.
 
 1. Log in to Calendly. Click the `Availability` tab (or use [this URL](https://calendly.com/app/availability/schedules)).
-1. In the `Schedule` > `Default Hours` area, use the `TIME ZONE` dropdown to select your updated timezone. Changes are automatically saved.
-1. Set a calendar reminder for yourself, to reset your timezone when your working hours have reverted to usual.
+1. In the `Schedule` > `Working hours` area, use the `Time zone` dropdown to select your updated timezone. Changes are automatically saved.
+1. Set a calendar reminder for yourself to reset your timezone when your working hours have reverted to usual.
 
 ### Set the minimum amount of notice that is required for an event
 
@@ -82,10 +79,9 @@ You can specify scheduling conditions that disallow scheduling events within a c
 of an event start time.
 
 1. Log in and edit the event type
-1. Click `When can people book this event`
-1. Click `Additional rules for your availability`
-1. Under `Scheduling conditions`, select a time interval under `Invitees can't schedule within...`
-1. Click `Save & Close`
+1. Click `Scheduling settings`
+1. Under `Event limits`, select a time interval under `Minimum notice`
+1. Click `Save and close`
 
 ## Support calls in the team calendar
 
@@ -102,22 +98,21 @@ Please [add a **required question**](https://help.calendly.com/hc/en-us/articles
 
 ## Generating a single-use Calendly link
 
-#### using Chrome plug-in / Firefox extension
+### using Chrome plug-in / Firefox extension
 
 Calendly has a
 [Chrome plug-in](https://chrome.google.com/webstore/detail/calendly-meeting-scheduli/cbhilkcodigmigfbnphipnnmamjfkipp)
 and a [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/calendly-meeting-scheduling/)
 that makes it easy to generate a single-use link to send to the customer. After adding it to your browser, look for
-the Calendly icon at the top right in your browser. Sign in to Calendly, then you will see a list of events. You
-probably want to "star" your personal Support Call event to simplify the pop-up window.
-Then simply click on the one-time link icon next to the event of your choice to generate a link you can paste into
+the Calendly icon at the top right in your browser. Sign in to Calendly, then you will see a list of events.
+Then simply click on the `Copy link` icon under the event of your choice to generate a link you can paste into
 your message to the customer.
 
 ![Browser plug-in](../assets/calendly.png)
 
 If you do not want to use a supported browser, you can generate a link from your Calendly home page according to [the Calendly documentation](https://help.calendly.com/hc/en-us/articles/1500001292022-How-to-create-and-share-a-single-use-link-to-a-specific-event).
 
-#### using curl
+### using curl
 
 Set your Calendly API token:
 
@@ -168,9 +163,11 @@ curl -s -H "Authorization: Bearer <your Calendly API token>" \
 
 This will output something like the following:
 
-> <https://calendly.com/d/m6we-x8r7/support-call-with-me>
+```plaintext
+https://calendly.com/d/m6we-x8r7/support-call-with-me
+```
 
-#### using [httpie](https://github.com/httpie/httpie)
+### using [httpie](https://github.com/httpie/httpie)
 
 The following uses the same setup, patterns, and output as above.
 
@@ -210,10 +207,9 @@ Customer Calls should be invitation-only. To do this, ensure all your Customer C
 **NOTE:** If you do not take this action, then anyone can see your Customer Call events on your public Calendly page.
 
 1. Edit any of your events (specifically, the ones that you use for Customer Calls).
-1. Go to `When can people book this event` section.
-1. Click `Additional rules for your availability`.
-1. At the bottom of the section, find the `Secret event` section.
-1. Check the box and save. Check the [Calendly documentation](https://help.calendly.com/hc/en-us/articles/1500004754122-Managing-additional-rules-for-your-availability#make-an-event-secret-0-6) in case of any issues.
+1. Click the **Settings** (**{settings}**) icon in the sidebar on the left side of the page.
+1. Click `Make secret`.
+1. Leave the page. Check the [Calendly documentation](https://help.calendly.com/hc/en-us/articles/1500004754122-Managing-additional-rules-for-your-availability#make-an-event-secret-0-6) in case of any issues.
 
 ## Auto block PagerDuty shifts in Calendly
 
@@ -221,7 +217,7 @@ It is possible to automate the blocking of your PagerDuty shifts in Calendly, so
 
 1. In PagerDuty, navigate to **Your profile > On-Call Shifts > Export > WebCal feed**. Right-click and copy the URL.
 1. Add the PagerDuty calendar to your Google Calendar **Other calendars > + > From URL** and paste the WebCal URL from step 1.
-1. In Calendly, navigate to **Account > Calendar Connections > Configuration > Check for conflicts** and click the **Edit** button.
+1. In Calendly, [navigate](https://calendly.com/app/personal/availability/connected_calendars) to **Account > Calendar Sync > Configuration > Check for conflicts** and click the **Edit** button.
 1. Ensure that the PagerDuty calendar added in step 2 is selected here (it will be listed as "On Call Schedule for *Your Name*", not the name you gave it in Google), and then click the **Update** button. If your calendar does not appear in the list, you can disconnect and reconnect your Google Calendar account from Calendly to refresh the calendar list.
 
 ## Send customers the combined availability suggestions of multiple colleagues

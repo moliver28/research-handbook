@@ -19,11 +19,11 @@ The Program Manager, Customer Programs is a [Grade 6](/handbook/total-rewards/co
 
 - Define, lead, and track strategic and operational programs to successful completion
 - Develop and deliver GTM initiatives to improve the effectiveness and efficiency of sales and adoption capabilities for GitLab prospects and customer with data and analytics, including:
-   - Customer journey development, including handoffs
-   - Lifecycle management processes and playbooks
-   - Digital journey development, content creation and curation, and metrics
-   - Go-to-market (GTM) and/or adoption campaigns, including collaboration with Marketing, Product / Growth, Data Teams, and Sales Operations
-   - Processes and playbooks for Solution Architect, Customer Success Manager, Professional Services, and Renewal Managers
+  - Customer journey development, including handoffs
+  - Lifecycle management processes and playbooks
+  - Digital journey development, content creation and curation, and metrics
+  - Go-to-market (GTM) and/or adoption campaigns, including collaboration with Marketing, Product / Growth, Data Teams, and Sales Operations
+  - Processes and playbooks for Solution Architect, Customer Success Manager, Professional Services, and Renewal Managers
 - Represent CSM and customers in cross functional programs / workstreams focused on customer experience initiatives
 - Translate customer feedback data and survey results into program attributes that drive new customer impact and outcomes
 - Successful execution of Global Customer Success GTM strategy
@@ -57,15 +57,15 @@ The Senior Program Manager, Customer Programs is a [Grade 7](/handbook/total-rew
 
 - Extends that of the Program Manager, Customer Programs Responsibilities
 - Develop and deliver GTM initiatives to improve the effectiveness and efficiency of sales and adoption capabilities for GitLab prospects and customer with data and analytics, including:
-   - Fiscal year planning
-   - Customer escalation and at-risk programs
-   - Customer journey development, including handoffs
-   - Lifecycle management processes and playbooks
-   - Digital journey development, content creation and curation, and metrics
-   - Customer Health Scoring
-   - Go-to-market (GTM) and/or adoption campaigns, including collaboration with Marketing, Product / Growth, Data Teams, and Sales Operations
-   - Processes and playbooks for Solution Architect, Customer Success Manager, Professional Services, and Renewal Managers
-- Own partnership with Product, bringing “voice of customer” to Product teams, including interlock, reporting, metrics, and facilitating customer engagement (e.g., surveys, interviews, etc.)
+  - Fiscal year planning
+  - Customer escalation and at-risk programs
+  - Customer journey development, including handoffs
+  - Lifecycle management processes and playbooks
+  - Digital journey development, content creation and curation, and metrics
+  - Customer Health Scoring
+  - Go-to-market (GTM) and/or adoption campaigns, including collaboration with Marketing, Product / Growth, Data Teams, and Sales Operations
+  - Processes and playbooks for Solution Architect, Customer Success Manager, Professional Services, and Renewal Managers
+- Own partnership with Product, bringing "voice of customer" to Product teams, including interlock, reporting, metrics, and facilitating customer engagement (e.g., surveys, interviews, etc.)
 - Define systems and tools requirements that improve CSM visibility into customer information and overall customer performance
 
 #### Senior Program Manager, Customer Programs Requirements
@@ -145,7 +145,7 @@ The Senior Manager, Digital CS is a [grade 9](/handbook/total-rewards/compensati
 
 ### Digital CS
 
-Digital CS Program Managers focuse on enabling the onboarding-only and digital customer segments. They support and enable our digital only (email, surveys, etc) segment of customers and are are responsible for increasing stickiness and customer satisfaction of this segment along with the other members of the [Customer Success team](/handbook/customer-success/).
+Digital CS Program Managers focuse on enabling the onboarding-only and digital customer segments. They support and enable our digital only (email, surveys, etc) segment of customers and are responsible for increasing stickiness and customer satisfaction of this segment along with the other members of the [Customer Success team](/handbook/customer-success/).
 
 - Extends responsibilities of the Program Manager, Senior, or Staff level
 - Drive collaboration with webinars, Education Services, surveys, and other means for a fully integrated customer experience

@@ -16,6 +16,6 @@ RoleName: "Chief Revenue Officer"
   value proposition, competitive advantage and market positioning
 - [Leadership at GitLab](/handbook/company/structure/#e-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 {{% job-families/sales/performance %}}

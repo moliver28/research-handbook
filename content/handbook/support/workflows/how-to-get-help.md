@@ -12,7 +12,7 @@ When [working on tickets](/handbook/support/workflows/working-on-tickets), colla
 
 If you are stuck on a ticket, the following workflow seeks to help Support Engineers realize and utilize all of the resources available to progress a ticket to resolution. This workflow lists some common resources, you can lean on to get the help you need.
 
-**If you’re stuck on a ticket…..**
+**If you're stuck on a ticket…..**
 
 Identify what's causing you to get stuck. Some examples are:
 
@@ -95,7 +95,7 @@ NO! To drive this point home, here's what our Devs have to say about this:
 
   -- **Lesley Razzaghian**
 
-> _Most are happy to help anytime. My only suggestion is to search docs first. That’s really helpful for devs because we might link you to docs anyway. But then it’s also helpful to know “the docs didn’t address my question”. Or they did but not clearly enough. These conversations give all involved a basis for improving docs once the question is answered._
+> _Most are happy to help anytime. My only suggestion is to search docs first. That's really helpful for devs because we might link you to docs anyway. But then it's also helpful to know "the docs didn't address my question". Or they did but not clearly enough. These conversations give all involved a basis for improving docs once the question is answered._
 
   -- **Drew Blessing**
 
@@ -110,7 +110,7 @@ _Devs love a puzzle, so I'm always keen.[...]_
 
   -- **Charlie Ablett**
 
-> _If both Support and the Customer are confused about what the next steps are, at a minimum it’s an indicator that something is lacking, either in our docs or support processes, and this is an opportunity to improve those areas._
+> _If both Support and the Customer are confused about what the next steps are, at a minimum it's an indicator that something is lacking, either in our docs or support processes, and this is an opportunity to improve those areas._
 
   -- **Chad Woolley**
 
@@ -119,7 +119,7 @@ _Devs love a puzzle, so I'm always keen.[...]_
 The easiest way to determine the correct place for a Support Request for Help issue is to use the docs pages. One possible workflow is as follows:
 
 1. Locate a documentation page for the feature or topic on which you need help.
-1. Scroll down to the bottom of the page and click on either the "Edit this page" link.
+1. Scroll down to the bottom of the page and click on either the "View page source" link.
 1. This will open up the `.md` source file of that docs page, which contains both the `stage` and `group` responsible for it noted on the top.
 1. Now go to the [Product Categories handbook page](/handbook/product/categories/) and search for the Development Section to which the group identified on the previous step belongs to.
 1. Use the table and workflow below to create a Request for Help issue in the project identified above.
@@ -174,6 +174,7 @@ Use the following repositories and resources for identifying similar issues or r
 1. Mention the engineer who is helping or assigned with _every_ comment where you need them to review or respond.
 1. If an issue is moved to another group (through a label change or moving to another project), check the corresponding template for the new group to see who to assign or mention in a comment.
 1. When linking to Kibana, also upload a copy of relevant entries, a screenshot of the graph, etc. as logs rotate out after 7 days. If possible, also link to the relevant Sentry entry.
+1. Many teams do not have access to customer information. So make sure if you are accessing information using elevated access (Such as GitLab.com Admin) that you provide information in the issue directly that may be required to understand the problem.
 
 #### Escalate to unblock a request
 

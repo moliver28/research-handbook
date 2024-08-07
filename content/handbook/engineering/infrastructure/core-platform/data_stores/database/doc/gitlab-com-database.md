@@ -3,12 +3,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database
 title: Working with the GitLab.com database for developers
 ---
 
-
-
-
-
-
-
 ## A developer's guide to working with the GitLab.com database
 
 GitLab.com is powered by a large PostgreSQL database ("the database" in this doc) which is often used as a point of reference in terms of scale - after all, this is the largest installation of GitLab we have access to.
@@ -54,7 +48,7 @@ In order to setup direct access, you will have to configure SSH to use the *bast
 
 This is an example configuration for a user named `joe` (replace this with your gitlab email user) to access psql and Rails consoles in `gprd`:
 
-```
+```text
 # GCP production bastion host
 Host lb-bastion.gprd.gitlab.com
         User                    joe

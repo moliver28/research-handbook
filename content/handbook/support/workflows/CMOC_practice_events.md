@@ -1,11 +1,8 @@
 ---
-
 title: CMOC Practice Events
 category: On-call
 description: "Provides overview of Support Engineering CMOC quarterly practice events and how to run them"
 ---
-
-
 
 ## CMOC Practice Events
 
@@ -17,7 +14,7 @@ The practice events provide an opportunity to practice the activities and proces
 
 ### Outcomes
 
-- Familiarity with tools like Status.io so that in a real emergency they’re not a blocker to communication
+- Familiarity with tools like Status.io so that in a real emergency they're not a blocker to communication
 - Increased familiarity with the CMOC process and confidence in a live event
 - Familiarity with the incident room, Slack #incident-management channel and how communication is formalized between Incident Manager, EOC and CMOC during the course of an incident
 - An opportunity to retrospect and get live feedback from a friendly audience

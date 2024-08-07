@@ -22,14 +22,14 @@ canonical_path: "/company/team/structure/working-groups/product-development-flow
 
 For more details please reference the [product development flow survey slides](https://docs.google.com/presentation/d/1BxUVcoPyjYkR7MOHn1aZGllMCqlH5eb27JKM_bb_uDA/edit#slide=id.g59bfc474c5_2_145).
 
-**Doesn’t Encourage Cross-Functional Collaboration**
+**Doesn't Encourage Cross-Functional Collaboration**
 
 - How can we promote optimal cross-functional involvement in the product development flow (e.g. where would we benefit from having TWs be informed earlier or where can QEs participate earlier)?
-- How can we ensure tracks and phases don’t silo activities and continually encourage cross-functional contribution #everyonecancontribute?
+- How can we ensure tracks and phases don't silo activities and continually encourage cross-functional contribution #everyonecancontribute?
 
 **Too Many Steps**
 
-- How can we reduce the number of “required” steps in the product development flow  without losing key steps needed for convergence points (such as workflow states and release notes aggregation)?
+- How can we reduce the number of "required" steps in the product development flow  without losing key steps needed for convergence points (such as workflow states and release notes aggregation)?
 - How can we better enable teams to work efficiently by providing the right amount of details in tandem with opportunity for personalization for their specific needs (e.g. an activities/outcomes model rather than just a step by step)?
 
 **Too Prescriptive**
@@ -58,7 +58,7 @@ To propose an idea or solution that addresses one of the [defined problems](http
 
 - Contributors will generate MRs and tag the Contributor group '@wg-contributors-pd-flow' for feedback first. [The Facilitator](/handbook/company/working-groups/product-development-flow/#roles-and-responsibilities) and Contributors will then review and align if the MR is merge-able (non-controversial) or if it needs more feedback before the merge
 - Next, [the Facilitator](/handbook/company/working-groups/product-development-flow/#roles-and-responsibilities) or the MR author will tag in specific people and/or tag in the whole Reviewer group (which includes Executive Sponsors) '@wg-reviewers-pd-flow' for feedback before the merge
-   - If unique action is needed from any individual, especially Executive Sponsors, they will be directly pinged. Otherwise, getting pinged as a Reviewer is a standard review/feedback before the merge cycle.
+  - If unique action is needed from any individual, especially Executive Sponsors, they will be directly pinged. Otherwise, getting pinged as a Reviewer is a standard review/feedback before the merge cycle.
 - Our goal is to minimize noise for Reviewers (inclusive of Executive Sponsors) and focus feedback efforts to move forward efficiently. If you want to follow every issue/MR, you're welcome to do so via our [WG board](https://gitlab.com/gitlab-com/www-gitlab-com/-/boards/2012861?label_name[]=wg-product-development-flow)
 
 **NOTE:** Please pay attention to your To-Do list! We'll not hold the train on MRs for more than 24 hours, specially non-controversial ones.
@@ -85,7 +85,7 @@ To propose an idea or solution that addresses one of the [defined problems](http
 **Downstream Process Review**
 
 - Identify any downstream process changes that might need review.
-    - [Quad Planning process](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/9130)
+  - [Quad Planning process](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/9130)
 
 **Matrix and Dashboards**
 

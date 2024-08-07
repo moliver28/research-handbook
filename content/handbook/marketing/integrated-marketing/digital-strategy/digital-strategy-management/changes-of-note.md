@@ -1,13 +1,6 @@
 ---
-
 title: "Digital Marketing changes of note"
 ---
-
-
-
-
-
-
 
 ## What is a change of note?
 
@@ -33,7 +26,7 @@ This page collects those changes so we can quickly triangulate which change caus
 
 17 June 2019 — Removed Rollworks tag.
 
-14 June 2019 — Added Facebook tags to track conversions. 
+14 June 2019 — Added Facebook tags to track conversions.
 
 21 May 2019 — Discovered using `Window Loaded` caused some visitors landing page to record as (not set). Changed Google Pageview tag to fire with DOM Ready to correct problem introduced with Window Loaded, while still recording tags from blog posts.
 

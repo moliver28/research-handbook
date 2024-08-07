@@ -1,8 +1,8 @@
 ---
 title: Talent Acquisition Leadership
 ---
- 
-## Levels
+
+### Levels
 
 #### Associate Recruiting Manager
 

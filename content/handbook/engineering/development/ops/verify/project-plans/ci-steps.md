@@ -1,14 +1,7 @@
 ---
-
 title: CI Steps - Key Project Plan
 description: Weekly Engineering Project plan for CI Steps
 ---
-
-
-
-
-
-
 
 ## Weekly Project Plan
 
@@ -99,8 +92,9 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/11535](https://gitlab.com/gr
 #### Week of 2024-01-02
 
 Discussg parallel tracks of effort (WIP plans and DRIs):
+
 1. Implement GitLab CI Steps support in Rails. This will elevate the "steps in env variable" to a properly supported syntax, including CI Editor support. This also involves collaboration with a Rails Engineer on Pipeline Authoring.
 1. Add more test coverage (unit tests, integration tests, e2e tests (and for each engine)). Up until this point, test coverage is expected to be minimal.
 1. Build support for GitHub Actions in CI Steps (up until this point, only GitLab-based steps will be supported)
 1. Setup publishing workflows for Step Runner and all the officially supported engines and steps. Because users will be referencing our steps directly in their workflows, we need to publish them.
-1. Write clear documentation on how how users should import steps. E.g. which ones need docker, what the recommended use is, etc... I don't think the Component Catalog will be ready to curate these yet, but we can at least have some nice README's when browsing our steps sub-group.
+1. Write clear documentation on how users should import steps. E.g. which ones need docker, what the recommended use is, etc... I don't think the Component Catalog will be ready to curate these yet, but we can at least have some nice README's when browsing our steps sub-group.

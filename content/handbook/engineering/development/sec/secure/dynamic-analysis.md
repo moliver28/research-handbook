@@ -16,7 +16,7 @@ To support the success of GitLab by developing highly usable, hiqh quality tools
 
 - **Unify DAST offerings** - Reduce confusion by removing proxy-based DAST and maturing browser-based DAST by adding active checks and improving performance
 
-- **API Discovery** - API discovery will analyze applications to produce an OpenAPI document describing the web APIs expected behavior. This schema document is then used by API Security testing (formerly called DAST API) to perform security scans.  Automating this will close the gap for customers whose applications include web APIs that haven’t been documented and aren’t being tested today.
+- **API Discovery** - API discovery will analyze applications to produce an OpenAPI document describing the web APIs expected behavior. This schema document is then used by API Security testing (formerly called DAST API) to perform security scans.  Automating this will close the gap for customers whose applications include web APIs that haven't been documented and aren't being tested today.
 
 - **API Security Checks refresh** - Comprehensively review and update API Security Testing checks (rules).  By ensuring we address both the OWASP API Security Top 10:2023 and the OWASP Top 10:2021 (web applications), our customers will be confident in our ability to detect critical risks.
 
@@ -26,7 +26,7 @@ To support the success of GitLab by developing highly usable, hiqh quality tools
 
 The Dynamic Analysis team builds features for our API Security, DAST, and Fuzzing categories.  These features enable our Ultimate customers to incorporate security testing earlier in the development lifecycle for their web applications and APIs. By identifying vulnerabilities earlier in the SDLC, we enable customers to more efficiently reduce the security risks in their web apps and APIs.
 
-Our features identify vulnerabilities in different ways than GitLab’s other security analyzers do, and each tool should be used in tandem with other security analyzers such as SAST, SCA (dependency scanning), and secret detection to provide full coverage.
+Our features identify vulnerabilities in different ways than GitLab's other security analyzers do, and each tool should be used in tandem with other security analyzers such as SAST, SCA (dependency scanning), and secret detection to provide full coverage.
 
 API Security, DAST, and Fuzzing are Ultimate features. Increasing adoption of these features helps improve customer retention, and helps drive revenue for GitLab Ultimate.
 
@@ -50,7 +50,7 @@ API Security, DAST, and Fuzzing are Ultimate features. Increasing adoption of th
 | [GitLab Cov Fuzz](https://gitlab.com/gitlab-org/security-products/analyzers/gitlab-cov-fuzz-src) | Private - GitLab's coverage fuzzing orchestration that integrates fuzzing engines/results with GitLab CI and GitLab Security Dashboard. |
 | [HAR Recorder](https://gitlab.com/gitlab-org/security-products/har-recorder) | A utility to record HAR files based on web traffic. |
 
-##### Open Source Fuzzers
+#### Open Source Fuzzers
 
 | Repo | Purpose |
 | ---- | ------- |
@@ -208,23 +208,33 @@ All product priority-based issues will exist alongside our comprehensive [list o
 
 To complete this mapping, product priority-based issues or epics should be created in `gitlab-org/gitlab` or `gitlab-org` (respectively) with the same title of the priority and the following labels. The `type::feature` label is what distinguishes a product priority from other group epic work.
 
-```
+```text
 /label ~"section::sec"
 /label ~"devops::secure"
 /label ~"group::dynamic analysis"
 /label ~"type::feature"
 ```
 
+#### Milestone Retrospectives
+
+After the completion of any milestone, the planning issue for that milestone is used to capture team retros in the comments. Before the next milestone planning kickoff meeting, each team member should answer the following questions in a comment on that issue:
+
+- 👍 what went well this release?
+- 👎 what didn't go well this release?
+- 📈 what can we improve going forward?
+- 🌟 what praise do you have for the group?
+
 #### Important Links
 
 - [Dynamic Analysis Group Direction Priorities](https://about.gitlab.com/direction/secure/dynamic-analysis/#priorities)
-- [List of all Dynamic Analysis Group Epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST)
+- [List of all Dynamic Analysis Milestone Planning Issues & Retros](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=all&label_name%5B%5D=group%3A%3Adynamic%20analysis&label_name%5B%5D=type%3A%3Aignore&search=%20%F0%9F%93%90&first_page_size=20)
 
-#### Monthly Outputs
+#### Milestone Outputs
 
 - MR to update the group direction with all priorities and targeted releases
-  - Links to polished epics for each product priority
-    - Flush out as many child epics and issues tagged to milestones as possible
+  - Links to polished epics or issues for each product priority
+    - Flush out as many child epics and issues tagged to milestones as possible (or a single blueprinting issue)
+- Team retrospective comments will be reviewed inside of the previous milestone's planning issue
 
 ### Weekly Huddles & Reaction Coordination
 
@@ -291,19 +301,21 @@ The reaction rotation engineer should not:
 
 On any day, each team member should look left and right on our [Dynamic Analysis delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis) before they start developing any new work from the `workflow::ready for development` column, helping to move one issue forward from both directions (2 total). The team follows the workflow states and activities articulated in GitLab's [Product Development Flow](/handbook/product-development-flow/). Looking left involves grabbing an issue from either the `workflow::refinement` or the `workflow::ready for development` columns, whichever has more items, and completing it. Looking right involves grabbing an issue from either the `workflow::in review` or the `workflow::verification` columns, whichever has more items, and completing it. After both issues have been moved to a new column, the team member can start ready work from the `workflow::ready for development`.
 
-The `Look Left & Right Before Dev` strategy ensures that work items aren't getting stuck on our board, that every team member gets a chance to plan, breakdown, and refine issues, and that code reviews and staging/production vefification activities are spread equally across the team. If there is no work to the left, new work can be brought in from our milestone backlog, as defined in our current [Monthly Release Planning](#monthly-release-planning) issue. New work may also be added to the first two columns at any time from sales and support request for help issue, high-priority bugs, and security-related issues.
+The `Look Left & Right Before Dev` strategy ensures that work items aren't getting stuck on our board, that every team member gets a chance to plan, breakdown, and refine issues, and that code reviews and staging/production vefification activities are spread equally across the team. If there is no work to the left, new work can be brought in from our milestone backlog, as defined in our current [Milestone Release Planning](#milestone-release-planning) issue. New work may also be added to the first two columns at any time from sales and support request for help issue, high-priority bugs, and security-related issues.
 
-#### Blueprinting
+#### Blueprinting & Design Docs
 
-When there are too few or no work items in the `workflow::refinement` or the `workflow::ready for development` columns, check the current [Monthly Release Planning](#monthly-release-planning) issue for "Work to Blueprint" issues. Assign yourself as a DRI, and assist in scheduling the necessary meetings with the team to review and help blueprint this work for the next milestone. Attempt to create as many child epics and issues as placeholders for eventual planning, breakdown, and refinement. This is a great time for the team to discuss high-level architectural directions, implementation plans, and needs for accomplishing these priorities throughout the next month. All blueprint issues created should receive the following milestone and labels:
+When there are too few or no work items in the `workflow::refinement` or the `workflow::ready for development` columns, check the current [Milestone Release Planning](#milestone-release-planning) issue for "Work to Blueprint" issues. Assign yourself as a DRI, and assist in scheduling the necessary meetings with the team to review and help blueprint this work for the next milestone. Attempt to create as many child epics and issues as placeholders for eventual planning, breakdown, and refinement. This is a great time for the team to discuss high-level architectural directions, implementation plans, and needs for accomplishing these priorities throughout the next month. All blueprint issues created should receive the following milestone and labels:
 
-```
+```text
 /milestone {from mapping}
 /label ~"section::sec"
 /label ~"devops::secure"
 /label ~"group::dynamic analysis"
 /label `~workflow::planning breakdown`
 ```
+
+If a bluepriting effort is beyond the scope of the Dyanmic Analysis group, affecting multiple teams, consider adding it as a design document using [this process](/handbook/engineering/architecture/workflow/#design-documents). A list of all architecture design documents at GitLab can be found [here](https://docs.gitlab.com/ee/architecture).
 
 #### Issue breakdown
 

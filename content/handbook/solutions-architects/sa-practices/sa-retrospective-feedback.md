@@ -1,8 +1,6 @@
 ---
-
 title: Solution Architecture Retrospective Feedback
 ---
-
 
 The worldwide Solution Architecture team, as a learning organization believes that we can be more successful by receiving feedback. Feedback is a two-way street. It is important that SA management takes the time to provide feedback on a regular basis to their individual team members, but simoultanously GitLab team members should share their feedback with management and peers. During this two-way feedback exchange, it provides SAs insights into their activities working with customers and internal processes as well as the SA management insights into their leadership skills.
 

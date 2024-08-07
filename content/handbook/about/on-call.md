@@ -74,12 +74,12 @@ Please see the [handbook editing page](../editing-handbook/#failing-pipelines) f
 
 ### Managing broken main alerts in #handbook-escalation
 
-All broken CI pipelines for the `main` branch of the `handbook` repo are automatically posted in the Slack channel.
+All broken CI pipelines for the `main` branch of the `handbook` repository are automatically posted in the Slack channel.
 These reports should be investigated and addressed where needed.
 
 Once a report has been looked at, please leave a comment stating the nature of the problem, action taken and add a ✅ reaction to the message to show that it has been handled.
 
-If for some reason there is a large amount of failures resulting in spamming the channel, the error reporting can be turned off in the repo settings: [https://gitlab.com/gitlab-com/content-sites/handbook/-/settings/integrations](https://gitlab.com/gitlab-com/content-sites/handbook/-/settings/integrations)
+If for some reason there is a large amount of failures resulting in spamming the channel, the error reporting can be turned off in the repository settings: [https://gitlab.com/gitlab-com/content-sites/handbook/-/settings/integrations](https://gitlab.com/gitlab-com/content-sites/handbook/-/settings/integrations)
 
 ### Stuck Merge Train
 

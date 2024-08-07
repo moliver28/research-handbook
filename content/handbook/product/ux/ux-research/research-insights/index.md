@@ -22,7 +22,7 @@ There are two types of insights: **Actionable** and **Informative**.
 
 #### Informative insights
 
-Informative insights help us learn about something or someone and don’t result in immediate action. Instead, these insights help build knowledge about our users, industries, competitors, and so on. For example:
+Informative insights help us learn about something or someone and don't result in immediate action. Instead, these insights help build knowledge about our users, industries, competitors, and so on. For example:
 
 > - Most developers who took part in the survey were first introduced to GitLab while they were in school.
 > - Developers use about three other applications in addition to GitLab as part of their jobs.
@@ -39,7 +39,7 @@ Dovetail may be used to document insights that require less explanation and have
 
 Actionable insights **always have a follow-up action** that needs to take place as a result of the research observation or data, and a clear recommendation or action associated with it. An actionable insight both defines the insight and clearly calls out the next step. Here are two different examples:
 
-> - Users weren't able to submit a merge request in the proposed design because they couldn't find the “Submit” button. They expected it to be located at the top of the page. Action: Iterate on the design to relocate the 'Submit' button to the top of the page and retest (link to Issue # XYZ).
+> - Users weren't able to submit a merge request in the proposed design because they couldn't find the "Submit" button. They expected it to be located at the top of the page. Action: Iterate on the design to relocate the 'Submit' button to the top of the page and retest (link to Issue # XYZ).
 > - IT Admins want a way to view all of their teams' activity over time, in 15 min increments. IT Admins are being asked to report on this information as part of a new company policy. Action: Explore the feasibility of such a request (link to Issue # ABC).
 
 When creating an actionable insight issue to propose a change to a feature or product area under use, be cognizant of the wider impact of the changes on the top JTBDs associated with that area. If the data backing the insight does not provide enough confidence in the highlighted problem, take [additional measures to validate it](/handbook/product/ux/jobs-to-be-done/#quick-methods-to-increase-confidence).
@@ -51,7 +51,7 @@ Actionable insights need to be handled differently than informative insights. Ac
 When you document an actionable insight, its three main components are:
 
 1. The insight itself: often the problem, finding, or observation.
-1. The “why”: supporting evidence that supports the insight. Often, it’s describing why the problem is happening, or more details behind the finding or observation.
+1. The "why": supporting evidence that supports the insight. Often, it's describing why the problem is happening, or more details behind the finding or observation.
 1. The action: the next step or action that needs to take place as a result of the research. The action should be clearly defined, achievable, and directly tied back to the insight.
 
 Tips for writing an actionable insight:
@@ -63,8 +63,8 @@ To document actionable insights:
 
 - **Step 1:** If already documented in Dovetail as an insight, preface the actionable insight's title with 'ACTIONABLE:' and clearly describe the next action that needs to be taken. If you are putting insights in a research report instead of Dovetail for your project, skip this step.
 - **Step 2:** Create a unique issue in [GitLab.com/GitLab-org/gitlab](https://gitlab.com/gitlab-org/gitlab/-/issues/new) using the appropriate *Actionable Insight* issue template:
-    - **Actionable Insight - Exploration needed** -  This is an actionable research insight derived from a UX research study. To address this insight, further exploration is required. That might be in the form of follow-up research, design explorations, etc. This issue template includes the `~"Actionable Insight::Exploration needed"` scoped label.
-    - **Actionable Insight - Product change** -  This is an actionable research insight derived from a UX research study. To address this insight, a change to the product experience is required. This issue template includes the `~"Actionable Insight::Product change"` scoped label.  *Note that the `~"SUS::Impacting"` label and a [severity label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) are both required for actionable insights that require product changes.*
+  - **Actionable Insight - Exploration needed** -  This is an actionable research insight derived from a UX research study. To address this insight, further exploration is required. That might be in the form of follow-up research, design explorations, etc. This issue template includes the `~"Actionable Insight::Exploration needed"` scoped label.
+  - **Actionable Insight - Product change** -  This is an actionable research insight derived from a UX research study. To address this insight, a change to the product experience is required. This issue template includes the `~"Actionable Insight::Product change"` scoped label.  *Note that the `~"SUS::Impacting"` label and a [severity label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) are both required for actionable insights that require product changes.*
 
     ![New issue screenshot with issue template](actionable_insight_template_location.png)
 
@@ -79,13 +79,13 @@ If the insight is already documented within an issue, you can add an `~"Actionab
 #### Who creates and manages actionable insights?
 
 Actionable insights are created and managed by the person closest to the research, which is typically the Product Manager, Product Designer, or UX Researcher.
-However, it’s ultimately up to the team to decide who manages actionable insights.
+However, it's ultimately up to the team to decide who manages actionable insights.
 
 #### How to manage actionable insights
 
-All discussions and decisions made about the actionable insight must be documented within the issue, because these issues are tracked as performance indicators. As we track actionable insights over time, it’s important to understand what kinds of decisions we’re making based on user research.
+All discussions and decisions made about the actionable insight must be documented within the issue, because these issues are tracked as performance indicators. As we track actionable insights over time, it's important to understand what kinds of decisions we're making based on user research.
 
-When closing an actionable insight issue, *it’s important to document why it was closed and whether the original action was acted upon.*
+When closing an actionable insight issue, *it's important to document why it was closed and whether the original action was acted upon.*
 
 In some cases, no action will be taken for a number of reasons, such as low priority, too large of an effort, not technically feasible, and so on. Regardless of the reason, document the decisions in the issue when closing it.
 
@@ -106,32 +106,32 @@ We label issues containing insights identified through customer calls differentl
 
 Actionable insights are tracked at GitLab for:
 
-- **Accountability:** If there’s something that needs to be done as a result of conducting research, it should be done. This process helps prevent those actionable insights from getting lost, dismissed, or taking too long to be acted upon.
-- **Measuring research impact:** Presently, it’s difficult to accurately measure the impact of a research project on the product. Tracking actionable insights allows us to refer back to a particular research project, see what actions were identified as a result of the research findings, and determine what action was taken within the product since those actions were identified.
+- **Accountability:** If there's something that needs to be done as a result of conducting research, it should be done. This process helps prevent those actionable insights from getting lost, dismissed, or taking too long to be acted upon.
+- **Measuring research impact:** Presently, it's difficult to accurately measure the impact of a research project on the product. Tracking actionable insights allows us to refer back to a particular research project, see what actions were identified as a result of the research findings, and determine what action was taken within the product since those actions were identified.
 
 The following data is presently being tracked:
 
 - **Number of newly opened and closed actionable insights issues, by quarter**
-   - How many new actionable insight issues were created, per quarter
-   - How many actionable insight issues were closed, per quarter - and why they were closed
+  - How many new actionable insight issues were created, per quarter
+  - How many actionable insight issues were closed, per quarter - and why they were closed
 - **Average number of days it takes for an actionable insight issue to close to completion**
-   - Important to understand how long it's taking to address actionable insights within the product
+  - Important to understand how long it's taking to address actionable insights within the product
 - **Breakdown of all actionable insight issues, to date**
-   - Provides us with an understanding of how many total actionable insights there are, broken down by open and closed statuses
+  - Provides us with an understanding of how many total actionable insights there are, broken down by open and closed statuses
 
 The data for the above can be viewed for each actionable insight scoped label:
 
 - [Actionable insight::Product change](https://app.periscopedata.com/app/gitlab/1076087/Actionable-Insights::Product-Change)
 - [Actionable insight::Exploration needed](https://app.periscopedata.com/app/gitlab/1076091/Actionable-Insights::Exploration-Needed)
 
-Over time, once there's enough data, we might be able to slice this data at the stage/group level to help us understand what is (or isn't) working well. Based on what we learn, we’ll iterate on the approach.
+Over time, once there's enough data, we might be able to slice this data at the stage/group level to help us understand what is (or isn't) working well. Based on what we learn, we'll iterate on the approach.
 
 Future data tracking considerations for actionable insights:
 
 - **Number of total actionable insights currently open, no activity within the issue** (>6 month of no activity)
-   - Total number of actionable insights that have not seen activity in at least a month.  These actionable insights will be followed up to understand why there hasn’t been activity.
+  - Total number of actionable insights that have not seen activity in at least a month.  These actionable insights will be followed up to understand why there hasn't been activity.
 - **Number of total of actionable insights currently open, activity within the issue** (activity <=6 months ago)
-   - Total number of actionable insights that have seen activity within the past month.  It’s implied that these are actively being addressed in some way and not discarded.
+  - Total number of actionable insights that have seen activity within the past month.  It's implied that these are actively being addressed in some way and not discarded.
 
 #### How we document actionable insights as closed
 

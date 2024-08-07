@@ -1,5 +1,4 @@
 ---
-
 title: "LATAM Region Handbook"
 ---
 

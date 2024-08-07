@@ -19,7 +19,7 @@ This information is only externally available to GitLab Partners or Customers as
 
 ### Open to GitLab
 
-This information is open to GitLab but not publicly (handbook) available because of information that can risk the confidentiality, security or privacy of internal company information.  The public availability of this information could pose a significant risk to GitLab or it’s customers.
+This information is open to GitLab but not publicly (handbook) available because of information that can risk the confidentiality, security or privacy of internal company information.  The public availability of this information could pose a significant risk to GitLab or it's customers.
 
 - Vendor Audit Reports
 - Procedures/Runbooks/work instructions containing sesnsitive or personal data
@@ -43,11 +43,11 @@ This information is open to GitLab but not publicly (handbook) available because
 This information is restricted due to confidential data or privacy concerns related to company, customer or individual data that would be significantly damaging if disclosed or otherwise restricted by law or by legal contract.
 
 - Customer contracts / Open to Security Only (and Legal, Sales)
-     - Due to confidential customer data
+  - Due to confidential customer data
 - Open/closed security customer support tickets / Open to (Security, Support)
-     - Due to customer, individual privacy requirements
+  - Due to customer, individual privacy requirements
 - Audit Evidence
-     - Due to the sensitive nature of the data being provided which can include personal data, system data and current risks including open vulnerabilities
+  - Due to the sensitive nature of the data being provided which can include personal data, system data and current risks including open vulnerabilities
 - Legal Holds
 - Work communication (emails, Slack) related to specific topics or team members
 - Risk Register
@@ -56,7 +56,7 @@ This information is restricted due to confidential data or privacy concerns rela
 - Baseline security configurations
 - Vulnerabilities that are unique to the FedRAMP production environment
 - Information related to GitLab.com abusive activity and follow-up activity taken by the Trust & Safety team
-     - Due to customer, individual privacy requirements
-     - Due to the necessity to keep our anti-abuse processes unknown to abusive actors
-- Information about security incidents or investigations that have not yet been marked as closed/resolved by the SIRT
-     - Due to the sensitive nature of security incidents and the information involved (unpatched vulnerabilities, compromised credentials)
+  - Due to customer, individual privacy requirements
+  - Due to the necessity to keep our anti-abuse processes unknown to abusive actors
+- Information about security incidents or investigations that have not yet been marked as closed/resolved by the SIRT, or incidents or investigations that if made more transparent, may be harmful to team members, GitLab, or its customers
+  - Due to the sensitive nature of security incidents and the information involved (unpatched vulnerabilities, compromised credentials)

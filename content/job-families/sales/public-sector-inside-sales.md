@@ -20,10 +20,10 @@ The Public Sector Inside Sales Representative is a [grade 6](/handbook/total-rew
 - Responsible for all renewals of all contracts and upgrades in your territory.
 - Improve and maintain Salesforce structure for accurate sub accounts (groups/programs), opportunities and contacts.
 - Collaborates regionally and globally in developing/enhancing standardized processes, reports, and sales programs that facilitate efficient sales operations, effective sales execution, and improved management insight.  This includes ensuring the GitLab sales handbook is followed and/or modified when necessary.
-- Work with government contract officers to ensure RFQ’s are responded and closed in a timely manner. This would include working with the Public Sector Inside Sales Manager to determine which partners could bring value if we assign them to run with an account.
+- Work with government contract officers to ensure RFQ's are responded and closed in a timely manner. This would include working with the Public Sector Inside Sales Manager to determine which partners could bring value if we assign them to run with an account.
 - Work with Channel Managers to team on call campaigns and quotes for RFQs through distribution.
 - Manage Reseller relationships: Quoting, Lead generation, Renewals, Product and price list updates.
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
 
 #### Public Sector Inside Sales Representative Requirements
 
@@ -93,7 +93,7 @@ The Public Sector Senior Inside Sales Manager, is a [grade 9](/handbook/total-re
 - Manage Reseller relationships: Quoting, Lead generation, Renewals, Product and price list updates,
 - Getting GitLab EE on necessary federal contracts (e.g. NETCENTS)
 - Own documentation for Fips 140.2 documentation, FedRamp Documentation and VPAT updated with UX team
-- Work with Federal contract officers to ensure RFQ’s are responded and closed in a timely manner. This would include determining which partners could bring value if we assign them an account.
+- Work with Federal contract officers to ensure RFQ's are responded and closed in a timely manner. This would include determining which partners could bring value if we assign them an account.
 - Work with sales team and partners to gain success with small implementations at SIs (LMCO, GD, Raytheon, etc) into enterprise level discussions to use GitLab EE for all .gov projects
 - Training/mentoring of team members to ensure open feedback, career development and job satisfaction
 - Improve and maintain Salesforce structure for accurate sub accounts (groups/programs), opportunities and contacts.

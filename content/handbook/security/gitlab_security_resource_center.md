@@ -17,7 +17,7 @@ Our Customer Assurance Package contains documents such as our SOC2 report, ISO 2
 
 ### GitLab's Trust Center
 
-Our [Trust Center](https://about.gitlab.com/security/) outlines the various compliance and assurance credentials that GitLab maintains. This page also contains links to important security, legal & privacy, and availability resources, such as an [overview of our security practices]({{< ref "_index.md#security-practices" >}}), our [Environmental, Social, and Governance strategy](/handbook/legal/ESG/), and our [production architecture](/handbook/engineering/infrastructure/production/architecture/).
+Our [Trust Center](https://about.gitlab.com/security/) outlines the various compliance and assurance credentials that GitLab maintains. This page also contains links to important security, legal & privacy, and availability resources, such as an [overview of our security practices]({{< ref "_index.md#security-practices" >}}), our [Environmental, Social, and Governance strategy](/handbook/legal/esg/), and our [production architecture](/handbook/engineering/infrastructure/production/architecture/).
 
 ## Frequently asked questions
 
@@ -67,14 +67,14 @@ The following links contain frequently asked security, legal & privacy, and avai
 ### Disaster recovery
 
 - [Disaster recovery plan](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md)
-- [Database disaster recovery](/handbook/engineering/infrastructure/database/disaster_recovery.html)
+- [Database disaster recovery](/handbook/engineering/infrastructure/database/disaster-recovery/)
 - [Database overview](/handbook/engineering/infrastructure/database/)
 
 ### Endpoint management
 
 - [Endpoint management at GitLab](https://internal.gitlab.com/handbook/it/endpoint-tools/)
-    - [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/)
-    - [EDR](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/edr/)
+  - [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/)
+  - [EDR](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/edr/)
 - [Use Gitleaks as a pre-commit git hook on laptops]({{< ref "gitleaks" >}})
 
 ### GitLab.com hardening techniques
@@ -100,7 +100,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 - [Logging and monitoring architecture](/handbook/engineering/infrastructure/production/architecture/#monitoring-and-logging)
 - [GitLab audit logging policy]({{< ref "audit-logging-policy" >}})
 - [Log and audit requests process]({{< ref "log_requests" >}})
-- [Infrastructure department KPIs](/handbook/engineering/infrastructure-quality/performance-indicators/#gitlabcom-availability)
+- [Infrastructure department KPIs](/handbook/engineering/infrastructure/performance-indicators/)
 - [Infrastructure production runbooks](https://gitlab.com/gitlab-com/runbooks/)
 
 ### Network security
@@ -118,22 +118,22 @@ The following links contain frequently asked security, legal & privacy, and avai
 ### Security awareness
 
 - [Security training]({{< ref "security-training" >}})
-- [Security awareness training program]({{< ref "./security-assurance/governance/sec-awareness-training" >}})
-- [Security awareness training procedure]({{< ref "./security-assurance/governance/sec-training" >}})
-- [Phishing program]({{< ref "./security-assurance/governance/phishing" >}})
+- [Security awareness training program](security-assurance/governance/sec-awareness-training/)
+- [Security awareness training procedure](security-assurance/governance/sec-training/)
+- [Phishing program](security-assurance/governance/phishing/)
 
 ### Third party risk management
 
-- [Security third party risk management]({{< ref "./security-assurance/security-risk/third-party-risk-management" >}})
+- [Security third party risk management](security-assurance/security-risk/third-party-risk-management/)
 
 ### Threat modeling
 
-- [Threat modeling at GitLab]({{< ref "./product-security/application-security/threat-modeling" >}})
-- [Threat modeling How To Guide]({{< ref "./product-security/application-security/threat-modeling/howto" >}})
-- [Application security threat modeling process]({{< ref "./product-security/application-security/runbooks/threat-modeling" >}})
+- [Threat modeling at GitLab](product-security/application-security/threat-modeling/)
+- [Threat modeling How To Guide](product-security/application-security/threat-modeling/howto/)
+- [Application security threat modeling process](product-security/application-security/runbooks/threat-modeling/)
 
 ### Vulnerability management
 
-- [Vulnerability management standard]({{< ref "./product-security/vulnerability-management" >}})
-- [Application vulnerability management procedure]({{< ref "./product-security/application-security/vulnerability-management" >}})
-- [Infrastructure vulnerability management procedure]({{< ref "./product-security/vulnerability-management/Infrastructure-vulnerability-procedure" >}})
+- [Vulnerability management standard](product-security/vulnerability-management/)
+- [Application vulnerability management procedure](product-security/application-security/vulnerability-management/)
+- [Infrastructure vulnerability management procedure](product-security/vulnerability-management/Infrastructure-vulnerability-procedure/)

@@ -59,7 +59,6 @@ Complete items are removed from the table once the code is in production without
   {{< tableau/filters "GROUP_LABEL"="security policies" >}}
 {{< /tableau >}}
 
-
 ### Workflow
 
 The Security Policies group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).
@@ -83,7 +82,7 @@ We follow these guidelines when submitting MRs for review when the change is wit
 ### Issue Boards
 
 * [Security Policies Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/1754674?milestone_title=Started)
-   * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
+  * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
 * [Security Policies Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/1420731?label_name%5B%5D=group%3A%3Asecurity%20policies)
   * Milestone-centric board primarily used by product management to gauge work in current and upcoming milestones.
 * [Security Policies EM Board](https://gitlab.com/groups/gitlab-org/-/boards/4738985)
@@ -120,7 +119,7 @@ It is advisable to manually trigger the `Package and QA` downstream [E2E](https:
 To manually trigger the QA job:
 
 1. Navigate to the pipelines tab of the MR.
-1. Click the the `>` arrow on the right of the `Stages` and click the `package-and-qa` item.
+1. Click the `>` arrow on the right of the `Stages` and click the `package-and-qa` item.
 
 It's advisable to run the QA job on the latest pipeline at least once during the MR review cycle.
 

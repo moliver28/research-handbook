@@ -1,7 +1,7 @@
 ---
 aliases: /handbook/customer-success/education-services/tech_stack/credly.html
 title: "Credly Tech Stack Guide"
-description: “Tech Stack Guide for Credly Digital Credentialing System"
+description: "Tech Stack Guide for Credly Digital Credentialing System"
 ---
 
 The Tech Stack single source of truth is the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and contains more detail about this app.
@@ -46,7 +46,3 @@ All Dashboards and Reports are a part of the system itself. No separate Sisense 
 ### Support Guides and Step by Step Articles
 
 The [Credly Support page](https://credlyissuer.zendesk.com/hc/en-us) offers a docs website with full articles on processes and step by step guides on using the system.
-
-
-
-

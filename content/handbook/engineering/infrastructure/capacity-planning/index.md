@@ -12,6 +12,8 @@ The forecasting tool generates capacity warnings which are converted to issues a
 
 For GitLab.com capacity planning, a [report is published](https://gitlab-com.gitlab.io/gl-infra/capacity-planning-trackers/gitlab-com/) and any predicted saturation events result in an issue on the [capacity planning issue tracker](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/boards/2816983).
 
+The capacity planning is part of the capacity management policy which can be found on [the monitoring policy page](/content/handbook/engineering/gitlab-com/policies/monitoring/).
+
 ## Tools
 
 We use and develop [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland), which is our capacity forecasting tool.
@@ -71,7 +73,6 @@ Therefore, the recommended practice when including Tamland data is:
 
 1. On public facing projects, turn on confidentiality on issues or comments
 1. Recordings published to GitLab Unfiltered must be labeled *private*
-
 
 ## GitLab.com Capacity Planning
 
@@ -157,12 +158,11 @@ The prioritization framework uses an [Eisenhower Matrix](https://todoist.com/pro
 | **Quadrant 1: Do**<br>*Urgent, Important*<br>Reactive: Non-horizontally scalable resources forecasted to saturate 100% in 90 days.      | **Quadrant 2: Decide**<br>*Less Urgent, Important*<br>Proactive: Non-horizontally scalable resources forecasted to violate hard SLO in 90 days. |
 | **Quadrant 3: Delegate**<br>*Urgent, Less Important*<br>Reactive: Horizontally scalable resources forecasted to saturate 100% in 90 days. | **Quadrant 4: Deny**<br>*Less Urgent, Less Important*<br>Proactive: Horizontally scalable resources forecasted to violate hard SLO in 90 days.  |
 
-
  **Urgent** is based on forecast threshold (e.g. `100% saturation` vs. `hard SLO violation`) and **important** is based on scalable resources (e.g. `non_horizontal` vs. `horizontal`). The following resources are available for prioritization:
 
- * [Quadrant board](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/boards/5273449)
- * [Issues sorted by priority](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/?sort=label_priority&state=opened)
- * [Scoped prioritized labels](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/labels?subscribed=&search=capacity-planning%3A%3Apriority)
+* [Quadrant board](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/boards/5273449)
+* [Issues sorted by priority](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/?sort=label_priority&state=opened)
+* [Scoped prioritized labels](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/labels?subscribed=&search=capacity-planning%3A%3Apriority)
 
 #### Quality Assessment and User Feedback
 
@@ -221,9 +221,9 @@ While capacity planning for GitLab.com is a shared activity, capacity planning f
 
 1. The Dedicated team is responsible for defining saturation metrics Tamland monitors, and to configure tenants for capacity planning.
 1. The Dedicated team runs Tamland inside tenant environments and produces saturation forecasting data.
-1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) team owns the reporting side of capacity planning and makes sure reports and warnings are available.
+1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) owns the reporting side of capacity planning and makes sure reports and warnings are available.
 1. The Dedicated team is responsible for triaging and responding to the forecasts and warnings generated, and applying any insights to Dedicated tenant environments.
-1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) team implements new features and fixes for Tamland to aid the capacity planning process for GitLab Dedicated.
+1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) implements new features and fixes for Tamland to aid the capacity planning process for GitLab Dedicated.
 
 ### Defining saturation metrics and tenants
 

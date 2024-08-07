@@ -24,15 +24,15 @@ Increase engineer productivity by fixing and improving our frontend build toolin
 ## Exit Criteria
 
 - Improve GitLab's development environment.
-    - Reduce the GDK's node process overall memory requirements 30% by improving the webpack/sprockets build process, and put measures in place to track this consumption over time, ensuring it does not grow unchecked. => Reduced by 22% so far
+  - Reduce the GDK's node process overall memory requirements 30% by improving the webpack/sprockets build process, and put measures in place to track this consumption over time, ensuring it does not grow unchecked. => Reduced by 22% so far
 - Improve GitLab's overall frontend performance.
-    - Implement targeted builds for modern and legacy browsers (defined as those which [do and do not support `<script type="module">`](https://jakearchibald.com/2017/es-modules-in-browsers/#nomodule-for-backwards-compatibility) respectively) with only the code transformations and polyfills needed by each target.
-    - Document code-splitting policies and put together a training workshop for frontend engineers and upload to youtube.
-    - Use webpack output stats to drive performance improvements
-        - Determine which webpack output stats should be tracked and monitored (entrypoint bundle sizes, number of entrypoints, initial page load code coverage, duplicate modules across bundles)
-        - Implement measures to track webpack output stats. ([gitlab-ce!31537](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/31537))
-        - Prescribe limits to these metrics, and goals for reducing them.
-        - Put CI jobs in place to warn developers when these increase and enforce best practices.
+  - Implement targeted builds for modern and legacy browsers (defined as those which [do and do not support `<script type="module">`](https://jakearchibald.com/2017/es-modules-in-browsers/#nomodule-for-backwards-compatibility) respectively) with only the code transformations and polyfills needed by each target.
+  - Document code-splitting policies and put together a training workshop for frontend engineers and upload to youtube.
+  - Use webpack output stats to drive performance improvements
+    - Determine which webpack output stats should be tracked and monitored (entrypoint bundle sizes, number of entrypoints, initial page load code coverage, duplicate modules across bundles)
+    - Implement measures to track webpack output stats. ([gitlab-ce!31537](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/31537))
+    - Prescribe limits to these metrics, and goals for reducing them.
+    - Put CI jobs in place to warn developers when these increase and enforce best practices.
 
 ## Conclusion
 

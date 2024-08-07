@@ -2,19 +2,15 @@
 title: Plan:Project Management Team
 aliases:
 - /handbook/engineering/development/dev/plan/project-management/
-- /handbook/engineering/development/dev/plan-project-management/
 ---
 
 ## Plan:Project Management Team
 
 The Plan:Project Management team works on
-GitLab's [Project Management category] in the [Plan stage].
+GitLab's [Project Management category](/handbook/product/categories/#project-management-group) in the [Plan stage](/handbook/engineering/development/dev/plan/).
 
 For more details about the vision for this area of the product, see the
-[Plan stage] page.
-
-[Project Management category]: /handbook/product/categories/#project-management-group
-[Plan stage]: /handbook/engineering/development/dev/plan/
+[Plan stage](/handbook/engineering/development/dev/plan/) page.
 
 ### Team members
 
@@ -35,30 +31,24 @@ We're tracking a number of issues that we believe could cause scalability proble
 | Type | Description | Estimated Timeline for Failure | Resolution Due Date | 12 Month Target | Issue | Status |
 | ---- | ---          | ---                            | ---                | ---    | ---   | ---    |
 | Primary key int4 overflow | `system_note_metadata.id` column is at 50% saturation and must be converted to bigint (int8). | March 2024 - 2025 | 2023-12-22 | Sub-50% | [#424114](https://gitlab.com/gitlab-org/gitlab/-/issues/424114) | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:red;'>Urgent</span> |
-| Redis Primary CPU | Unexpected load on the Shared State Redis instance caused by `SUBSCRIBE`, `UNSUBSCRIBE` and `PUBLISH` commands. | Unknown | November 2023 | [150k Concurrent WebSocket Connections][websockets] at peak | | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
-| Redis Memory | Retention of Action Cable messages in Redis Shared State memory due to high numbers of and/or stalled/hung clients.  | Unknown | November 2023 | [150k Concurrent WebSocket Connections][websockets] at peak | [#326364](https://gitlab.com/gitlab-org/gitlab/-/issues/326364) | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
-| Various | Scaling a combined 'Work Items' table consisting of all current issues, epics, requirements and test cases. | Unknown | November 2023 | [100k Work Items][workitems] created per day| | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
-
-[websockets]: https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11747#action-cable-websockets
+| Redis Primary CPU | Unexpected load on the Shared State Redis instance caused by `SUBSCRIBE`, `UNSUBSCRIBE` and `PUBLISH` commands. | Unknown | November 2023 | [150k Concurrent WebSocket Connections](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11747#action-cable-websockets) at peak | | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
+| Redis Memory | Retention of Action Cable messages in Redis Shared State memory due to high numbers of and/or stalled/hung clients.  | Unknown | November 2023 | [150k Concurrent WebSocket Connections](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11747#action-cable-websockets) at peak | [#326364](https://gitlab.com/gitlab-org/gitlab/-/issues/326364) | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
+| Various | Scaling a combined 'Work Items' table consisting of all current issues, epics, requirements and test cases. | Unknown | November 2023 | [100k Work Items](#work) created per day| | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
 
 Note: Work is ongoing on [migration helpers](https://gitlab.com/gitlab-org/gitlab/-/issues/292874) to mitigate Int4 Primary Key Overflows. These will provide a standard way to resolve these issues.
 
 ## Work
 
-You can see how we work as a stage at the [Plan stage page].
+You can see how we work as a stage at the [Plan stage page](/handbook/product/categories/#plan-stage).
 
 For the backend team specifically, we use the standard GitLab
-[engineering workflow]. To get in touch with the Plan:Project Management
+[engineering workflow](/handbook/engineering/workflow/). To get in touch with the Plan:Project Management
 backend team, it's best to create an issue in the relevant project
-(typically [GitLab CE]) and add the ~"group::project management" label, along
+(typically [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce)) and add the ~"group::project management" label, along
 with any other appropriate labels. Then, feel free to ping the relevant
 Product Manager and/or Engineering Manager as listed above.
 
-For more urgent items, feel free to use [#s_plan] on Slack.
-
-[Plan stage page]: /handbook/product/categories/#plan-stage
-[engineering workflow]: /handbook/engineering/workflow/
-[GitLab CE]: https://gitlab.com/gitlab-org/gitlab-ce
+For more urgent items, feel free to use [#s_plan](https://gitlab.slack.com/archives/s_plan) on Slack.
 
 ### Capacity planning
 
@@ -73,7 +63,7 @@ For more urgent items, feel free to use [#s_plan] on Slack.
 To help drive alignment with our stable counterparts, provide visibility into progress, and breakdown our vision into a series of [MVCs](/handbook/product/product-principles/#the-minimal-viable-change-mvc), we collaborate with Product and UX during [`~workflow::planning breakdown`](/handbook/product-development-flow/#description-4) to refine and organize `~type::feature` deliverables into the following structure:
 
 - Feature (Epic) - Contains all of the necessary vertical feature slices to default the corresponding feature flag to "on". The feature epic will also serve as the location to generate a corresponding Release Post item MR. The feature epic should be scoped to the [minimal amount of functionality that still provides customer value](/handbook/product/product-principles/#the-minimal-viable-change-mvc). Additional scope planned for future enhancements should be stored in follow-on epics.
-  - Spike (Issue) - If we are unable to accurately estimate the effort necessary to implement the feature, we first conduct a [spike](####Spikes)
+  - Spike (Issue) - If we are unable to accurately estimate the effort necessary to implement the feature, we first conduct a [spike](#spikes)
   - UX (Issue) - For larger initiatives, UX creates a separate UX issue that serves as the SSOT for design goals, design drafts, design conversation and critique, and the chosen design direction that will be implemented. [Learn more about UX issues](/handbook/product/ux/stage-group-ux-strategy/plan/plan.html#ux-issue-management-weights-and-capacity-planning).
   - Vertical Feature Slice (Issue) - A subset of the feature that can be completed within a single milestone, tested, and verified within the `plan-stage` group on production.
     - Engineering Tasks (Task - *Optional*) - One or more engineering tasks that need to be completed in order to deliver the vertical feature slice. The scope of a task should generally correlate to a single MR.
@@ -100,11 +90,6 @@ DRI rotation:
 | Deepika Guliana | 2023-04-10 | 2023-04-21 | |
 | Eulyeon Ko | 2023-04-24 | 2023-05-05 | |
 
-
-#### Historical Capacity
-
-{{% include "includes/engineering/plan/historical-capacity.md" %}}
-
 ### Collaboration between backend and frontend
 
 #### Using the ~"backend complete" label
@@ -115,16 +100,28 @@ functionally complete, merged and verified but frontend, or other, work is ongoi
 
 ### Picking something to work on
 
-The [Plan:Project Management Build board] always shows work in the current
-release, with [workflow columns] relevant to implementation. There is an
+The [Plan:Project Management Build board](https://gitlab.com/groups/gitlab-org/-/boards/1285239?label_name[]=backend) always shows work in the current
+release, with [workflow columns](/handbook/product-development-flow/) relevant to implementation. There is an
 additional column to show in-progress community contributions. Filtering it by
 ~backend shows issues for backend engineers to work on.
 
 It's OK to not take the top item if you are not confident you can solve
-it, but please post in [#s_plan] if that's the case, as this probably
+it, but please post in [#s_plan](https://gitlab.slack.com/archives/s_plan) if that's the case, as this probably
 means the issue should be better specified.
 
-[workflow columns]: /handbook/product-development-flow/
+### Queueing Experimentation
+
+As part of our ongoing efforts to improve efficiency, we will experiment with [queuing techniques](https://www.brightball.com/articles/story-points-are-pointless-measure-queues) instead of traditional weight/story points for the [migration of legacy issues to work items project](https://gitlab.com/gitlab-org/gitlab/-/issues/461855). Starting in milestone 17.3, we will:
+
+1. **Refine Required Issues**: Review the [list of required issues for the first MVC](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=work%20items::ga-issues&label_name%5B%5D=work%20items&first_page_size=100).
+
+    - Determine the best way to group bundles of tasks, using issues or epics.
+    - Break down large issues into tasks, aiming for tasks that are small enough to be moved from ~"workflow::in dev" to ~"workflow::in review" within 5 business days.
+
+2. **Prioritize Tasks**: Prioritize the tasks from step 1.
+3. **Update Workflow**: Update the #picking-something-to-work-on section to include the list of tasks, monitoring work in progress to keep it as low as possible.
+
+This will help us manage and report progress more effectively using queue management principles.
 
 #### High Severity Issues
 
@@ -133,18 +130,17 @@ means the issue should be better specified.
 ### Working on unscheduled issues
 
 Everyone at GitLab has the freedom to manage their work as they see fit,
-because [we measure results, not hours][results]. Part of this is the
+because [we measure results, not hours](/handbook/values/#results). Part of this is the
 opportunity to work on items that aren't scheduled as part of the
 regular monthly release. This is mostly a reiteration of items elsewhere
 in the handbook, and it is here to make those explicit:
 
-1. We expect people to be [managers of one][efficiency], and we [use
-   GitLab ourselves][collaboration]. If you see something that you think
-   is important, you can [request for it to be scheduled], or you can
-   [work on a proposal yourself][iteration], as long as you keep your
+1. We expect people to be [managers of one](/handbook/values/#efficiency), and we [use GitLab ourselves](/handbook/values/#collaboration). If you see something that you think
+   is important, you can [request for it to be scheduled](/handbook/engineering/workflow/#requesting-something-to-be-scheduled), or you can
+   [work on a proposal yourself](/handbook/values/#iteration), as long as you keep your
    other tasks in mind.
 1. From time to time, there are events that GitLab team-members can participate
-   in, like the [issue bash]. Anyone is welcome
+   in, like the [issue bash](https://about.gitlab.com/community/issue-bash/). Anyone is welcome
    to participate in these.
 1. If you feel like you want to have some specific time set aside, but
    aren't interested in the topics of an existing event, feel free to
@@ -153,16 +149,8 @@ in the handbook, and it is here to make those explicit:
 When you pick something to work on, please:
 
 1. Follow the standard workflow and assign it to yourself.
-1. Share it in [#s_plan] - if not even more widely (like in #development
+1. Share it in [#s_plan](https://gitlab.slack.com/archives/s_plan) - if not even more widely (like in #development
    or #backend).
-
-[collaboration]: /handbook/values/#collaboration
-[results]: /handbook/values/#results
-[efficiency]: /handbook/values/#efficiency
-[iteration]: /handbook/values/#iteration
-
-[request for it to be scheduled]: /handbook/engineering/workflow/#requesting-something-to-be-scheduled
-[issue bash]: /community/issue-bash/
 
 ### Dashboards
 
@@ -184,16 +172,9 @@ When you pick something to work on, please:
 
 ## Useful links
 
-- [Plan:Project Management Build board] - this shows work in the current release
-- [#s_plan] in Slack
-- [Recorded meetings][youtube]
-- [Retrospectives][retros]
-- [Group Conversations] (archive; group conversations now happen at a the
-  [section level])
-
-[Plan:Project Management Build board]: https://gitlab.com/groups/gitlab-org/-/boards/1285239?label_name[]=backend
-[#s_plan]: https://gitlab.slack.com/archives/s_plan
-[youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0
-[retros]: https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective
-[Group Conversations]: http://gitlab-org.gitlab.io/group-conversations/plan/
-[section level]: /company/team/structure/#organizational-structure
+- [Plan:Project Management Build board](https://gitlab.com/groups/gitlab-org/-/boards/1285239?label_name[]=backend) - this shows work in the current release
+- [#s_plan](https://gitlab.slack.com/archives/s_plan) in Slack
+- [Recorded meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0)
+- [Retrospectives](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective)
+- [Group Conversations](http://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
+  [section level](/company/team/structure/#organizational-structure))

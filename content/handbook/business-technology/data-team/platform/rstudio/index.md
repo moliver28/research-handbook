@@ -1,16 +1,7 @@
 ---
-
 title: "RStudio Guide"
 description: "RStudio Guide"
 ---
-
-
-
-
-
-
-
-
 
 ---
 
@@ -45,16 +36,16 @@ Or you can just go [here](https://posit.co/download/rstudio-desktop/) and follow
 RStudio can connect to various database for production development of models or ad hoc analysis. If you want to connect to Snowflake below are some steps to accomplish this.
 
 1. First you will need install unixODBC using [homebrew](https://brew.sh/). If you have not already installed homebrew on your machine, the website will give you the commands to do so. Once homebrew is installed, unixODBC can be installed using the command:  `brew install unixodbc`
-    - Alternatively, iODBC can be used, but this documentation uses unixODBC as the chosen driver manager.
+   - Alternatively, iODBC can be used, but this documentation uses unixODBC as the chosen driver manager.
 
 1. This will create two configuration files, **odbcinst.ini** and **odbc.ini**.
-    - **odbcinst.ini** holds the ODBC drivers information.
-    - **odbc.ini** holds information required to connect to databases, such as host, username, etc. This is where you set up your DSN for your system.
-    - to see the location of these configuration files, run the command `odbcinst -j`.
+   - **odbcinst.ini** holds the ODBC drivers information.
+   - **odbc.ini** holds information required to connect to databases, such as host, username, etc. This is where you set up your DSN for your system.
+   - to see the location of these configuration files, run the command `odbcinst -j`.
 
 1. Download the latest driver for Snowflake [here](https://sfc-repo.snowflakecomputing.com/odbc/mac64/index.html). You can then follow [these instructions](https://docs.snowflake.com/en/user-guide/odbc-mac.html) to complete the configuration of the driver on your machine.
-    - As many parameters as desired can be entered in the configuration files, such as role, database, warehouse, username, etc. However, these can also be specified in RStudio. Is you choose to set up the configuration files with these details, it may be necessary to set up a DSN for every database/schema used in Snowflake.
-    - Below are examples of how to configure the **odbc.ini** and **odbcinst.ini** files in the user file location.
+   - As many parameters as desired can be entered in the configuration files, such as role, database, warehouse, username, etc. However, these can also be specified in RStudio. Is you choose to set up the configuration files with these details, it may be necessary to set up a DSN for every database/schema used in Snowflake.
+   - Below are examples of how to configure the **odbc.ini** and **odbcinst.ini** files in the user file location.
 
 **odbcinst.ini** (location of file based on output from the `odbcinst -j` command above)
 
@@ -182,9 +173,9 @@ This documentation was creating using RStudio version 2022.07.1.
 - Download and install [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop) (if not already installed).
 - Install [Homebrew](https://brew.sh/) (if not already installed).
 - Install Git
-    - Once Homebrew is installed, open your terminal (Command+Space Bar on Mac to open search bar, and search "Terminal")
-    - Run the command `brew install git` in your terminal
-    - Alternatively, Git can be downloaded [HERE](https://git-scm.com/downloads). Make note of the path you install it to if you use this method.
+  - Once Homebrew is installed, open your terminal (Command+Space Bar on Mac to open search bar, and search "Terminal")
+  - Run the command `brew install git` in your terminal
+  - Alternatively, Git can be downloaded [HERE](https://git-scm.com/downloads). Make note of the path you install it to if you use this method.
 - You will also need to have your GitLab account set up and access to the project you want to clone
 
 ### Part 2: Setting Up Git in RStudio
@@ -192,31 +183,31 @@ This documentation was creating using RStudio version 2022.07.1.
 - Open RStudio and go to **Tools** > **Global Options** > **Git/SVN**
 - Check the box labeled **Enable version control interface for RStudio project**
 - Set the path to the Git executable that you just installed.
-    - If you don't know where Git is installed, access your Terminal and enter command `which git` and hit the **return** key
-    - The path should be something similar to `/usr/bin/git`. (Note: if navigating through Finder, hidden files can be viewed by pressing `Command` + `Shift` + `.`)
+  - If you don't know where Git is installed, access your Terminal and enter command `which git` and hit the **return** key
+  - The path should be something similar to `/usr/bin/git`. (Note: if navigating through Finder, hidden files can be viewed by pressing `Command` + `Shift` + `.`)
 - Create an SSH key by following the instructions under the [Generate an SSH Key Pair](https://docs.gitlab.com/ee/user/ssh.html) section.
-    - ED25519 is recommended
-    - Once complete, add the private key path to the **SSH RSA Key** field
-    - ![Git-SVN](/handbook/business-technology/data-team/platform/rstudio/Git1.png)
+  - ED25519 is recommended
+  - Once complete, add the private key path to the **SSH RSA Key** field
+  - ![Git-SVN](/handbook/business-technology/data-team/platform/rstudio/Git1.png)
 - Configure Git by setting your **GitLab user name** and **GitLab email** in RStudio
-    - To open the Git prompt go to **Tools** > **Shell** and enter the following:
-        - `git config --global user.name 'yourGitHubUsername'`
-        - `git config --global user.email ‘name@provider.com'`
+  - To open the Git prompt go to **Tools** > **Shell** and enter the following:
+    - `git config --global user.name 'yourGitHubUsername'`
+    - `git config --global user.email 'name@provider.com'`
 - Restart RStudio
 
 ### Part 3: Create an RStudio Project with Git
 
 - To create a new project based on a remote Git repository:
-    - Select **File** > **New Project** > **Version Control**
-    - ![Git-Project](/handbook/business-technology/data-team/platform/rstudio/Git2.png)
-    - Choose **Git**, then provide the repository URL:
-        - ![Git-Repo](/handbook/business-technology/data-team/platform/rstudio/Git3.png)
-        - Access the GitLab project you want to clone
-        - Select the **Clone** drop-down button at the top right
-        - Copy the URL for **Clone with HTTPS**
-        - ![Git-Clone](/handbook/business-technology/data-team/platform/rstudio/Git5.png)
-        - Paste this link into the **Repository URL** section in RStudio
-        - Select **Create New Project**
+  - Select **File** > **New Project** > **Version Control**
+  - ![Git-Project](/handbook/business-technology/data-team/platform/rstudio/Git2.png)
+  - Choose **Git**, then provide the repository URL:
+    - ![Git-Repo](/handbook/business-technology/data-team/platform/rstudio/Git3.png)
+    - Access the GitLab project you want to clone
+    - Select the **Clone** drop-down button at the top right
+    - Copy the URL for **Clone with HTTPS**
+    - ![Git-Clone](/handbook/business-technology/data-team/platform/rstudio/Git5.png)
+    - Paste this link into the **Repository URL** section in RStudio
+    - Select **Create New Project**
 - The GitLab Project should now be visible in R Studio
 - [Source](https://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/) for Walkthrough Instructions
 
@@ -224,22 +215,22 @@ This documentation was creating using RStudio version 2022.07.1.
 
 - Error:
 
-    ```console
-    Cloning into 'repo-name'
-    gitlab.com: Permission denied (publickey).
-    fatal: Could not read from remote repository.
+  ```console
+  Cloning into 'repo-name'
+  gitlab.com: Permission denied (publickey).
+  fatal: Could not read from remote repository.
 
-    Please make sure you have the correct access rights and repository exists.
-    ```
+  Please make sure you have the correct access rights and repository exists.
+  ```
 
-  -Solution: This is a known issue in certain versions of RStudio that is working to be resolved. Reinstalling an [older version](https://dailies.rstudio.com/version/2022.02.4+500.pro1/) should resolve the issue ([Source](https://community.rstudio.com/t/git-authentication-error-in-rstudio/145686/2)).
+  - Solution: This is a known issue in certain versions of RStudio that is working to be resolved. Reinstalling an [older version](https://dailies.rstudio.com/version/2022.02.4+500.pro1/) should resolve the issue ([Source](https://community.rstudio.com/t/git-authentication-error-in-rstudio/145686/2)).
 
 ## How to Update a GitLab Project with Updates from R Studio
 
 - Before uploading changes made locally to a GitLab project ensure that you are working with the most current branch by selecting **Pull with Rebase** from the **Git** section in R (Ensure that you are rebasing from the **main** branch)
-    - ![Pull](/handbook/business-technology/data-team/platform/rstudio/Pull.png)
+  - ![Pull](/handbook/business-technology/data-team/platform/rstudio/Pull.png)
 - Once changes are complete and ready to be uploaded select the new branch icon and enter a name for the branch (no spaces allowed). Select **Create**
-    - ![Push](/handbook/business-technology/data-team/platform/rstudio/Push.png)
+  - ![Push](/handbook/business-technology/data-team/platform/rstudio/Push.png)
 - In the **Review Changes** window that opens in R ensure that changes on the left side of the screen are checked for **Staged** and that a commit message is entered on the right side of the screen.
 - Select **Commit**
 - In GitLab, navigate to the project you have made updates to. You should see a merge request that needs to be created and it will have the changes you made in R. Select the relevant reviewers and approvers to merge the changes.
@@ -266,36 +257,36 @@ rm(pkg)
 ### Part 2: Reading Existing Google Sheets
 
 - The `read_sheet()` function will allow you to read an existing spreadsheet
-    - Run the `read_sheet()` command in R pointing to the Spreadsheet URL you want to view
-    - URL example: `googlesheets4::read_sheet("https://docs.google.com/spreadsheets/...")` <br>
+  - Run the `read_sheet()` command in R pointing to the Spreadsheet URL you want to view
+  - URL example: `googlesheets4::read_sheet("https://docs.google.com/spreadsheets/...")` <br>
 - When you first try to access a spreadsheet you will be prompted to enter your account information
-    - Enter `Yes` in RStudio when asked "Is it Ok to cache OAuth access credentials in the folder between R Sessions"
-    - You will then be prompted to log into your Google Account in the browser
-    - Check the box to allow the Tidyverse API Packages to access Google Sheets spreadsheets
-    - A new window will open saying authentication is complete. Close the browser window.
-    - rerun the `read_sheet()` command again to confirm you can see output in R
+  - Enter `Yes` in RStudio when asked "Is it Ok to cache OAuth access credentials in the folder between R Sessions"
+  - You will then be prompted to log into your Google Account in the browser
+  - Check the box to allow the Tidyverse API Packages to access Google Sheets spreadsheets
+  - A new window will open saying authentication is complete. Close the browser window.
+  - rerun the `read_sheet()` command again to confirm you can see output in R
 
 ### Part 3: Writing to Google Sheets
 
 Below are a list of functions that can be used to write data into a Google Sheet with examples.
 
 - **gs4_create()** can create a new spreadsheet and optionally populate initial data
-    - example:
+  - example:
 
     ```r
     (ss <- gs4_create("fluffy-bunny", sheets = list(flowers = head(iris))))
     ```
 
 - **sheet_write()** (over)writes a whole data frame into a tab within a Google Sheet.
-    - example:
+  - example:
 
-  ```r
-  head(mtcars) %>%
-  sheet_write(ss, sheet = "autos")
-  ```
+    ```r
+    head(mtcars) %>%
+    sheet_write(ss, sheet = "autos")
+    ```
 
 - **range_write()** writes/overwrites a data frame into the same range of cells in a Google Sheet. Target sheet must already exist.
-    - example:
+  - example:
 
     ```r
     df <- dataframe
@@ -306,7 +297,7 @@ Below are a list of functions that can be used to write data into a Google Sheet
     ```
 
 - **range_clear()** can be used to clear data from an existing spreadsheet tab
-    - example:
+  - example:
 
     ```r
     df <- dataframe
@@ -317,7 +308,7 @@ Below are a list of functions that can be used to write data into a Google Sheet
     ```
 
 - **sheet_append()** can be used to add rows to an existing tab. NOTE: this function will exclude column headers as a row in the target sheet.
-    - example:
+  - example:
 
     ```r
     df <- dataframe

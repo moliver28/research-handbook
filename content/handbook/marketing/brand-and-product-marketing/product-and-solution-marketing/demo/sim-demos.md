@@ -1,13 +1,6 @@
 ---
-
 title: "Simulation demos"
 ---
-
-
-
-
-
-
 
 ## Summary
 
@@ -54,10 +47,17 @@ Both the legacy click-through demos and the new sim demos are available from the
 
 #### MacOS Catalina
 
-| In MacOs Catalina you will get an error when you open the demo file.  | ![GitLab Project](/images/tech-pmm/errorcatalina.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct } |
-|  To open it,  right click on the demo file -> Open  | ![GitLab Repository](/images/tech-pmm/demofilecatalina.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct } |
-|  A new dialog will appear,  click Open.   | ![GitLab Repository](/images/tech-pmm/dialogopencatalina.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct } |
+In MacOs Catalina you will get an error when you open the demo file.
 
+![GitLab Project](https://about.gitlab.com/images/tech-pmm/errorcatalina.png)
+
+To open it, right click on the demo file -> Open
+
+![GitLab Repository](https://about.gitlab.com/images/tech-pmm/demofilecatalina.png)
+
+A new dialog will appear,  click Open.
+
+![GitLab Repository](https://about.gitlab.com/images/tech-pmm/dialogopencatalina.png)
 
 ## Creating sim demos
 
@@ -70,6 +70,7 @@ Everyone can download [DemoEasel](https://www.demoeasel.com/download) and record
 Demos should highlight the value of the product, it should demonstrate how it solves a market challenge. Focusing on features, no matter how they robust, will not be relevant to the customers if they don't understand how it solves their challenges.
 
 To plan a winning demo
+
 1. Identify a customer challenge and how GitLab solves this challenge.
 1. Define a demo flow that shows how we solve this challenges, and how we do it better than our competitors.
 1. It is recommended to create short demos, up to 20 steps (clicks/screens), demo that you can present in 2 to 5 minutes.
@@ -83,7 +84,7 @@ To plan a winning demo
 1. Use the following script to resize Chrome to the required resolution.
 1. Open Script Editor in your MacBook and paste this script to it
 
-```
+```text
 set theApp to "Google Chrome"
 set appHeight to 1080
 set appWidth to 1920
@@ -104,7 +105,7 @@ set the bounds of the first window to {xAxis, yAxis, appWidth + xAxis, appHeight
 end tell
 ```
 
-7. Run the script. This will resize your browser to 1080*1920. If necessary, you can modify those parameters in the script for different screen resolution.
+1. Run the script. This will resize your browser to 1080*1920. If necessary, you can modify those parameters in the script for different screen resolution.
 
 ### Capture the demo
 
@@ -119,6 +120,7 @@ end tell
 ### Edit and Optimize
 
 Once a demo has been captured we can use DemoEasel's editor to optimize and document it so that others can easily present the demo.
+
 1. Select from the demo list the demo you want to edit, click  **Edit the Demo** button.
 1. The editor provides some basic and advanced capabilities. For starting out, it is essential for you to get familiar with the following items:
    - Red boxes - Make sure all red boxes that automatically added look good, with correct location and size. You can adjust them manually as necessary by dragging them to the right position.
@@ -139,7 +141,8 @@ For customer facing demos or keynotes, it is recommended to use the **simulation
 While everyone can contribute and create sim demos, due to license restrictions, and for keeping consistency of the messages, and ensuring consistent high quality and look and feel, the Developer Advocacy team will review the demos, provide feedback, and then generate the final demo packages for you.
 
 To request the team to review and generate demo packages
-1. Once you created and completed the demo editing, notes and optimization, Go to ‘*Demos*’ folder under your DemoEasel installation folder and locate a folder with the name of your demo (this folder contains
+
+1. Once you created and completed the demo editing, notes and optimization, Go to '*Demos*' folder under your DemoEasel installation folder and locate a folder with the name of your demo (this folder contains
 three files).
 1. Upload the entire folder to [source files](https://drive.google.com/drive/folders/1tbmY1zg9taLSqH-clJSrcuEcwP2rqMfA?usp=sharing). Set access permissions to anyone in GitLab.
 1. Open a [Product and Solution Marketing Request issue](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/new?issuable_template=A-SM-Support-Request).

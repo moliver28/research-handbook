@@ -1,5 +1,4 @@
 ---
-
 title: "Greenhouse"
 description: "Greenhouse is GitLab's ATS (Applicant Tracking System). All Hiring Managers and Interviewers will use Greenhouse to review resumes, provide feedback, communicate with candidates, and more."
 ---
@@ -248,9 +247,9 @@ In some cases, some positions require a timed assessment to be sent to the candi
 1. Enter it as an interview appointment on their schedule.
 1. Schedule an Email with the assessment for the agreed time.
 
-  - Click `Email Candidate`
-  - Select Assessment template or write body and attach Assessment
-  - Select the agreed upon time using `Send Email when` option
+   - Click `Email Candidate`
+   - Select Assessment template or write body and attach Assessment
+   - Select the agreed upon time using `Send Email when` option
 
 1. The time stamp when the candidate sends the assessment back will determine if they sent it back within the agreed timeframe.
 
@@ -285,7 +284,7 @@ Rejected candidates will stay in our talent community and we may revisit them fo
 
 Generally, we will leave a minimum gap of 6-months before reconsidering someone. We will only reconsider candidates who were rejected because they lacked skills or experience.
 
-We will not reconsider candidates who were mismatched with our [values competencies](/handbook/competencies/#values-competencies) and/or our [remote work competencies](/handbook/competencies/#remote-work-competencies).
+We will not reconsider candidates who were mismatched with our [values competencies](/handbook/people-group/competencies/#values-competencies) and/or our [remote work competencies](/handbook/people-group/competencies/#remote-work-competencies).
 
 #### Single-vetos
 
@@ -337,25 +336,21 @@ To create a new offer template or update an existing one in Greenhouse, follow t
 - Enter the name of the Offer template, and include any additional instructions for CES (add initials, checkbox, textbox etc),  then upload the Word document. Click "Save Template".
 - Test the new template by clicking the "Test" button. This will check if all tokens in the document are functioning correctly. If the test is successful, click "OK."
 - If the test fails, indicating one or more tokens are incorrect:
-    - Return to the document to identify and correct the faulty token.
-    - Re-upload the corrected document to Greenhouse.
-    - Notify the Legal team about the incorrect token so they can update their master template.
+  - Return to the document to identify and correct the faulty token.
+  - Re-upload the corrected document to Greenhouse.
+  - Notify the Legal team about the incorrect token so they can update their master template.
 - If replacing an existing template, remove the old template in Greenhouse by clicking the three dots next to it and selecting "Delete."
 
 ### Updating requisition and offer approval flows
 
 This can be done by Enablement only. For instructions, see the [internal handbook](https://internal.gitlab.com/handbook/people-group/talent-acquisition/enablement-team/#greenhouse-admin-instructions) for more information.
 
-##### Approval flows
+#### Approval flows
 
 For **requisition "Job" Approvals**, the approval chain is as follows:
 
-- Total Rewards (1 of 3 required)
-
-For the **Official Job Approval** (a.k.a. *2-Stage Job Approvals*), please list the
-
 - Step 1: Finance Business Partner of the Division/Department (1 of 2-4 required)
-- Step 1=2: Executive or VP of Division/Department (1 required if multiple people are listed)
+- Step 2: Executive or VP of Division/Department (1 required if multiple people are listed)
 
 For **Offer Approvals**, the approval chain is as follows:
 
@@ -396,20 +391,20 @@ The Greenhouse CRM is the entry point for prospective candidates (a.k.a. *Prospe
 
 - When a *Prospect* signs-up for the **Talent Community**, their default source will be `Talent Community`.
 - **Prospect Pool Stages** are as follows:
-    - No Stage Specified
-    - Not Contacted
-    - Nurture
-    - In Discussion
-    - Not Interested
+  - No Stage Specified
+  - Not Contacted
+  - Nurture
+  - In Discussion
+  - Not Interested
 - `Tags` can be used to keep track of *Prospects* just as they are with *Candidates*.
-    - If additional `tags` are needed, please contact [Talent Acquisition Ops])(https://gitlab.com/gl-talent acquisition/operations/-/issues/new).
+  - If additional `tags` are needed, please contact [Talent Acquisition Ops])(https://gitlab.com/gl-talent acquisition/operations/-/issues/new).
 - All *Prospect* communications are tracked in Greenhouse just as they are with *Candidates*.
 - When a Team Member identifies a *Prospect* for a requisition, they'll need to click the `Convert to Candidate` button on the *Prospect's* profile in order to move them to the requisition's active candidate pool.
-    - Doing this will **remove** the *Prospect* from the **Prospect Pool**.
+  - Doing this will **remove** the *Prospect* from the **Prospect Pool**.
 - To claim credit for a CRM-sourced *Candidate*, the Team Member will need to **manually** update the *Candidate's* source and add their name in the `Who Gets Credit` field.
-    - `Details` > `Source & Responsibility` > Source (`Pencil` icon) > `Who Gets Credit` > `Update Source`
+  - `Details` > `Source & Responsibility` > Source (`Pencil` icon) > `Who Gets Credit` > `Update Source`
 - If there are duplicate *Prospect* profiles, they can be merged by an `Admin`. Please tag @Talent Acquisition Operations and Insights within the Greenhouse candidate profile.
-    - `Name` and `Email` are the two fields Greenhouse looks at when suggesting a potential duplicate profile.
+  - `Name` and `Email` are the two fields Greenhouse looks at when suggesting a potential duplicate profile.
 
 ### Greenhouse Inclusion
 

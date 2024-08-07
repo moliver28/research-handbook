@@ -160,9 +160,9 @@ Below we also have some commonly referenced pages:
 
 ## FY25 Direction
 
-GitLab Support’s vision is to deliver a consistent, "delightful" experience to our customers. Our team members will collaborate across all timezones to seamlessly deliver the results our customers care about while continuing to strengthen and scale the team.
+GitLab Support's vision is to deliver a consistent, "delightful" experience to our customers. Our team members will collaborate across all timezones to seamlessly deliver the results our customers care about while continuing to strengthen and scale the team.
 
-The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company’s overall [strategic objectives](/handbook/company/strategy/), specific areas of focus are:
+The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company's overall [strategic objectives](/handbook/company/strategy/), specific areas of focus are:
 
 - [Our ability to achieve business aligned results for our customers](#improving-our-ability-to-achieve-results-for-our-customers)
 - [How our team structure supports that ability](#team-structure-and-how-it-supports-our-ability-to-achieve-results)
@@ -182,14 +182,14 @@ FY24 was a challenging year in many aspects. As the workload and customer expect
 
 ### Team structure and how it supports our ability to achieve results
 
-In FY23 / FY24 we moved towards dividing the team into globally distributed groups of engineers. In FY25 we’ll build on that foundation and extend towards differentiating support offerings to better align with customer requirements. This year, we will:
+In FY23 / FY24 we moved towards dividing the team into globally distributed groups of engineers. In FY25 we'll build on that foundation and extend towards differentiating support offerings to better align with customer requirements. This year, we will:
 
 - Progress enhanced support offerings while partnering more closely with the Customer Success Team to meet our customers' business needs.
 - Improve how we route and address customer tickets to an appropriate expert with a mind for growing individual engineers from just starting their support journey to complete stewardship of the support journey experience.
 
 ### Team culture and how it supports our ability to achieve results
 
-As GitLab grows, Support’s influence within the company as advocates for customers must also grow. We need to continue to strengthen the Values-driven cultural attributes that promote efficient collaboration and results for customers while maintaining GitLab Support as a great place to work. In FY25 we will:
+As GitLab grows, Support's influence within the company as advocates for customers must also grow. We need to continue to strengthen the Values-driven cultural attributes that promote efficient collaboration and results for customers while maintaining GitLab Support as a great place to work. In FY25 we will:
 
 - Build leaders and influencers within GitLab as advocates for customers.
 - Expand our enablement, training, and education to prepare the current and future generations of Support Engineers to meet the needs of our customers.
@@ -213,7 +213,7 @@ Dogfooding is using a piece of GitLab *for its intended purpose*. For example, o
 
 In other words: Dogfooding is using the product in the way that our customers would use it to the end of discovering and solving pain points that they have. Dogfooding supports [customer results](/handbook/values/#customer-results).
 
-At GitLab Support we use Service Desk to process [Personal Data Requests](/handbook/gdpr/), but not for our global support because the customer for Service Desk is primarily small teams soliciting [*bug reports, feature requests, or general feedback*](https://docs.gitlab.com/ee/user/project/service_desk/). Through our use of Service Desk in this smaller setting we've been able to influence product direction towards adding features like [internal notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note).
+At GitLab Support we use Service Desk to process [Personal Data Requests](/handbook/legal/privacy/gdpr/), but not for our global support because the customer for Service Desk is primarily small teams soliciting [*bug reports, feature requests, or general feedback*](https://docs.gitlab.com/ee/user/project/service_desk/). Through our use of Service Desk in this smaller setting we've been able to influence product direction towards adding features like [internal notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note).
 
 We continually evaluate product features for use-cases within Support and provide feedback and feature requests where blockers exist. Support will always prioritize [customer results](/handbook/values/#customer-results) over any other consideration.
 
@@ -344,14 +344,14 @@ The following private channels are permanent fixtures in support. Usage estimate
 
 | Channel | Who is in it | Purpose | How often is it used?  |
 | ---- | ---- | ---- | ---- |
-| `#spt-senior-mgmt` | Senior Managers+ | Used for Senior leadership to discuss and coordinate on sensitive topics / budget / etc. | 3-4 threads per week |
+| `#spt-vp-directors` | Directors+ | Used for Senior leadership to discuss and coordinate on sensitive topics / budget / etc. | 3-4 threads per week |
 | `#spt_managers-internal` | Managers+  | Used for sensitive topics that are applicable to managers that aren't appropriate for public channels | 4-5 threads per week |
 | `#spt_managers-internal-apac` | APAC Managers+ | Used for sensitive topics that are applicable to APAC managers that aren't appropriate for public channels | 3-4 threads per week |
 | `#spt_managers-emea` | EMEA Managers+ | Used for sensitive topics that are applicable to EMEA managers that aren't appropriate for public channels | 4-5 threads per week |
 | `#spt_managers-amer` | AMER Managers+ | Used for sensitive topics that are applicable to AMER managers that aren't appropriate for public channels | 1-2 threads per week |
 | `#spt_hiring-mgmt` | Managers+, Recruiting, Finance | Used for coordinating offers and discussing hiring specifics that can be shared in the public channel | 1-2 threads per week |
 | `#fy23_support_promotions` | Managers+, People Business Partner | Used for coordinating and planning promotions in FY23 | 0 threads per week, mostly informational |
-| `#cto_spt_directors` | CTO, Directors | Used for Directors + CTO to discuss and coordinate on sensitive topics / budget / etc. | 3-4 threads per week |
+| `#spt_leadership_internal` | Managers+, Staff+ | Private version of `#support_leadership`, used for sensitive topics where Staff and Managers are the appropriate audience | rarely used |
 
 Before starting a new private channel, ask yourself *Why **can't** everyone contribute here?* Appropriate answers might be:
 
@@ -550,7 +550,7 @@ Artifacts of approval can include:
   - [How to Work with Tickets](/handbook/support/workflows/working-on-tickets)
   - [How to Submit issues to Product/Development](/handbook/support/workflows/working-with-issues)
   - [How to Submit Code to the GitLab Application](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md)
-  - [How to Submit Docs when working on customer issues](/handbook/documentation) (see 'docs-first methodology')
+  - [How to Submit Docs when working on customer issues](/handbook/product/ux/technical-writing/documentation/) (see 'docs-first methodology')
 - [License & Renewals Workflows](/handbook/support/license-and-renewals/workflows)
 
 ### Slack Workflows
@@ -611,7 +611,7 @@ In GitLab Support, we have two mechanisms to organize support engineers as they 
 
 Global groups are organized by managers. Support Pods are engineer-lead. To join or start a Support Pod you can read more below.
 
-*See the [Working with Support Pods page](/handbook/support/workflows/working-with-pods) and [Support Pods project](https://gitlab.com/gitlab-com/support/support-pods).*
+*See the [Support Pods handbook page](/handbook/support/support-pods) and the [Working with Support Pods workflow page](/handbook/support/workflows/working-with-pods).*
 
 ### Improving our processes - 'Active Now' issue board
 
@@ -654,7 +654,7 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
 - [Support Managers](/handbook/support/managers/)
 - [Support Hiring](/handbook/support/managers/hiring/)
 - [Support Channels](/handbook/support/channels/)
-- [On-Call](/handbook/on-call/)
+- [On-Call](/handbook/engineering/on-call/)
 - [License & Renewals](/handbook/support/license-and-renewals/)
 - [Support Ops](/handbook/support/readiness/operations/)
 - [Advanced Topics](/handbook/support/advanced-topics/)
@@ -662,33 +662,32 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
 ### Documentation
 
 - GitLab
-    - [GitLab.com Status](https://status.gitlab.com/)
-    - [GitLab Releases](https://about.gitlab.com/releases/categories/releases/)
+  - [GitLab.com Status](https://status.gitlab.com/)
+  - [GitLab Releases](https://about.gitlab.com/releases/categories/releases/)
 - Writing docs
-    - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html)
-    - [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
-    - [GitLab Markdown](https://docs.gitlab.com/ee/user/markdown.html)
+  - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html)
+  - [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
+  - [GitLab Markdown](https://docs.gitlab.com/ee/user/markdown.html)
 - Setting up GitLab
-    - [GitLab Architecture Overview](https://docs.gitlab.com/ee/development/architecture.html)
-    - [Requirements](https://docs.gitlab.com/ee/install/requirements.html)
-    - [Installation methods for GitLab](https://about.gitlab.com/install/)
-    - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/raketasks/backup_restore.html)
-    - [Omnibus configuration settings](https://docs.gitlab.com/omnibus/settings/README.html)
-    - [Omnibus Configuration options](https://docs.gitlab.com/omnibus/settings/configuration.html)
-    - [Omnibus Database settings](https://docs.gitlab.com/omnibus/settings/database.html#seed-the-database-fresh-installs-only)
+  - [GitLab Architecture Overview](https://docs.gitlab.com/ee/development/architecture.html)
+  - [Requirements](https://docs.gitlab.com/ee/install/requirements.html)
+  - [Installation methods for GitLab](https://about.gitlab.com/install/)
+  - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/raketasks/backup_restore.html)
+  - [Omnibus configuration settings](https://docs.gitlab.com/omnibus/settings/)
+  - [Omnibus Configuration options](https://docs.gitlab.com/omnibus/settings/configuration.html)
+  - [Omnibus Database settings](https://docs.gitlab.com/omnibus/settings/database.html#seed-the-database-fresh-installs-only)
 - Debugging GitLab
-    - [Log system](https://docs.gitlab.com/ee/administration/logs.html)
-    - [Rake tasks](https://docs.gitlab.com/ee/raketasks/)
-    - [Maintenance Rake Tasks](https://docs.gitlab.com/ee/administration/raketasks/maintenance.html)
-    - [Debugging Tips](https://docs.gitlab.com/ee/administration/troubleshooting/debug.html)
-    - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/ee/administration/index.html#support-team-docs)
-    - [GitLab Rails Console Cheat Sheet](https://docs.gitlab.com/ee/administration/troubleshooting/gitlab_rails_cheat_sheet.html)
+  - [Log system](https://docs.gitlab.com/ee/administration/logs/)
+  - [Rake tasks](https://docs.gitlab.com/ee/raketasks/)
+  - [Maintenance Rake Tasks](https://docs.gitlab.com/ee/administration/raketasks/maintenance.html)
+  - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/ee/administration/index.html#support-team-docs)
+  - [GitLab Rails Console Cheat Sheet](https://docs.gitlab.com/ee/administration/troubleshooting/gitlab_rails_cheat_sheet.html)
 - GitLab features
-    - [Install GitLab Runner](https://docs.gitlab.com/runner/install/)
-    - [GitLab CI example projects](https://gitlab.com/gitlab-examples)
-    - [Elasticsearch](https://docs.gitlab.com/ee/integration/elasticsearch.html)
-    - [Connecting GitLab with a Kubernetes cluster](https://docs.gitlab.com/ee/user/project/clusters/)
+  - [Install GitLab Runner](https://docs.gitlab.com/runner/install/)
+  - [GitLab CI example projects](https://gitlab.com/gitlab-examples)
+  - [Elasticsearch](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html)
+  - [Connecting GitLab with a Kubernetes cluster](https://docs.gitlab.com/ee/user/project/clusters/)
 - Developing GitLab
-    - [GitLab development utilities](https://docs.gitlab.com/ee/development/utilities.html)
-    - [Feature flags](https://docs.gitlab.com/ee/development/feature_flags/index.html)
-    - [What requires downtime?](https://docs.gitlab.com/ee/development/what_requires_downtime.html)
+  - [GitLab development utilities](https://docs.gitlab.com/ee/development/utilities.html)
+  - [Feature flags](https://docs.gitlab.com/ee/development/feature_flags/index.html)
+  - [What requires downtime?](https://docs.gitlab.com/ee/update/with_downtime.html)

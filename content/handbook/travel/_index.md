@@ -8,15 +8,19 @@ Team member safety and security are a top priority for GitLab. If a team member 
 
 **Please note that team member travel is not required unless deemed essential to the role. Please speak to your manager about whether the travel is mandatory and required for your role.**
 
-### Business Travel Emergency Assitance Program with International SOS
+### Trade Compliance Considerations
+
+Although GitLab is an all-remote company that encourages working from anywhere, some places are subject to trade control restrictions. For this reason, team members cannot take company-owned devices to or otherwise work from US-embargoed countries or regions under any circumstances. US-embargoed countries currently include Cuba, Iran, North Korea, and Syria and US-embargoed regions include the Crimea, Donetsk, and Luhansk regions of Ukraine; however, that list is subject to change without notice. Team members also cannot work remotely from Russia or Belarus, which are also subject to various restrictions, without written authorization from Legal.
+
+### Business Travel Emergency Assistance Program with International SOS
 
 In an emergency, International SOS (ISOS) can provide quick medical, safety, and security assistance and services to team members on business travel around the globe.
 
 Your coverage as a GitLab team member is automatic and is year-round. There are several ways to interact with ISOS, depending on your preference:
 
-- Team members can download the [ISOS emergency app](https://www.internationalsos.com/subscriber/assistance-app) — it’s the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address. Please use a unique password and not the same as your existing GitLab credentials.
+- Team members can download the [ISOS emergency app](https://www.internationalsos.com/subscriber/assistance-app) — it's the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address. Please use a unique password and not the same as your existing GitLab credentials.
 Note that this is not a GitLab application and is managed by ISOS. You can read more about the app here.
-- If you have medical, safety, or security questions before or during travel, open the ISOS app and press the Need Assistance button. You will be directed to ISOS’s closest emergency alarm center, where a nurse, doctor, safety, or security expert will assist you.
+- If you have medical, safety, or security questions before or during travel, open the ISOS app and press the Need Assistance button. You will be directed to ISOS's closest emergency alarm center, where a nurse, doctor, safety, or security expert will assist you.
 - If team members prefer not to download the app, we encourage you to follow this [link](https://myportal.internationalsos.com/WebPortal/MyOrganisation) and print or take a picture of the membership card with the emergency contact details. You can save the number in your phone for easy access.
 - Note that International SOS is an optional resource for team members and is only one of the ways you can receive care.
 If you have questions, reach out in the #peopleconnect Slack channel.
@@ -57,7 +61,6 @@ For additional security specifically when traveling through an airport, the foll
 
 - Completely power-off laptops and mobile devices before any security checkpoints. This reduces the risk of attacks that may be conducted against machines in a sleep mode, where the disk encryption is not being actively enforced.
 - Prior to the trip, remove any sensitive data from your local machine that is not absolutely required. Refer to the [Data Classification Standards](/handbook/security/data-classification-standard.html#data-classification-standards) for more information.
-- If you are traveling through an [embargoed country](/handbook/sales/#export-control-classification-and-countries-we-do-not-do-business-in), do not bring any company-owned devices with you. If you must bring one, contact the legal department to discuss.
 - If you are aware of any circumstances with your travel that may present a unique security risk (such as traveling to speciality conferences like Defcon), you may request advice in the [#security-department](https://gitlab.slack.com/archives/CM74JMLTU) Slack channel.
 
 ### Expenses While Traveling

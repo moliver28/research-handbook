@@ -1,31 +1,20 @@
 ---
-
 title: "APJ Customer Success"
 ---
 The APJ Customer Success department is part of the [GitLab Sales](/handbook/sales/) function under the WW Customer Success organisation who partners with our large, mid-market and strategic customers to deliver value throughout their GitLab adoption in the code development lifecycle.
 
 The team can be reached in WW Customer Success [Slack channel](https://gitlab.slack.com/archives/customer-success) (internal only).  Further to that, the APJ Customer Success team also communicates via our [Slack channel](https://gitlab.slack.com/archives/a-team_customer_success) (internal & private only) amongst themselves.
 
-
-
-
-
-
-
-
-
-
 ## Mission Statement
 
 To deliver value to all customers by engaging in a consistent, repeatable, scalable way across defined segments so that customers see the value in their investment with GitLab, and we retain and drive growth within our enterprise customers.
 
 - The mission of the Customer Success Department is to provide these customers with experience in order to:
-    - Accelerate initial customer value
-    - Maximize long-term, sustainable customer value
-    - Improve overall customer satisfaction & referenceability
-    - Maximize the total value of the customer to GitLab
-    - To deliver value to all customers by engaging in a consistent, repeatable, scalable way across defined segments so that customers see the value in their investment with GitLab, and we retain and drive growth within our enterprise customers.
-
+  - Accelerate initial customer value
+  - Maximize long-term, sustainable customer value
+  - Improve overall customer satisfaction & referenceability
+  - Maximize the total value of the customer to GitLab
+  - To deliver value to all customers by engaging in a consistent, repeatable, scalable way across defined segments so that customers see the value in their investment with GitLab, and we retain and drive growth within our enterprise customers.
 
 ## Vision Page
 
@@ -66,6 +55,7 @@ The APJ CS team currently does not follow a strict territory alignment. The only
 Any customer, customer prospect, GitLab Business Partner and/or GitLab Sales representative requiring assistance with GitLab's technology should be directed to the Customer Experience Manager (CEM).
 
 Options to engage with the Customer Experience Manager are:
+
 - Phone call
 - Slack message
 - GitLab Email
@@ -103,7 +93,6 @@ The CS team has also been building out a web-application to visualise the inform
 
 Our open-door policy encourages any discussion point, concern, suggestion, proposal and/or idea to be brought forward in any APJ Customer Success meeting in a positive and open manner.
 
-
 ## Weekly Strategic meeting (all APJ CS team members)
 
 **Objective of the meeting: This is the weekly main meeting where all technical Solutions Architects as well as Customer Success Managers discuss strategy, highlights and lowlights of GitLab Platform related findings. Everyone in APJ Customer Success is encourage to partake in the meeting.**
@@ -125,7 +114,6 @@ The meeting agenda is generally as follows:
 
 The meeting is scheduled regularly and on a weekly basis. The meeting is hosted via Zoom and the Meeting Agenda is shared via gdrive Docs and available internally.
 
-
 ## Bi-Weekly GitLab New Release meeting (all APJ CS team members)
 
 **Objective of the meeting: Since GitLab Product is releasing new software [every month](/handbook/engineering/releases/), the APJ Customer Success team uses the opportunity to demonstrate main new GitLab functions and features to the entire team.**
@@ -145,7 +133,6 @@ The meeting agenda is generally as follows:
 - Document your main finding in the internal bi-weekly GitLab New Release meeting document
 
 The meeting is scheduled regularly and on a bi-weekly basis. The meeting is hosted via Zoom and the Meeting Agenda is shared via gdrive Docs and available internally.
-
 
 ## Bi-Weekly APJ Team Coffee chat (all APJ CS team members welcomed)
 

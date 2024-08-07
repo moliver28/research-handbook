@@ -3,7 +3,7 @@ title: "Senior Manager, Sales Development"
 summary: Oversee a team in the Sales Development organization, help them perform and exceed expectations by training, coaching, and mentoring them to drive impactful results.
 ---
 
-As a Senior Manager of Sales Development at GitLab, you’ll get the opportunity to oversee a team in the Sales Development organization. You’ll help your team perform and exceed expectations by training, coaching, and mentoring them to drive impactful results. You’ll also partner closely with our Marketing and Sales teams to align on integrated campaigns, strategic business initiatives, improve processes, and ultimately generate qualified meetings and pipeline for GitLab’s Sales organization.
+As a Senior Manager of Sales Development at GitLab, you'll get the opportunity to oversee a team in the Sales Development organization. You'll help your team perform and exceed expectations by training, coaching, and mentoring them to drive impactful results. You'll also partner closely with our Marketing and Sales teams to align on integrated campaigns, strategic business initiatives, improve processes, and ultimately generate qualified meetings and pipeline for GitLab's Sales organization.
 
 ## Job Grade
 
@@ -13,9 +13,9 @@ The Senior Manager, Sales Development is a [grade 9](/handbook/total-rewards/com
 
 - Build and train members of the Sales Development team to identify, contact, and create qualified opportunities
 - Help to define performance metrics by which SDRs will be measured
-- Coach SDRs through shadowing, role plays, process improvement, and performance reporting in recurring 1:1’s
+- Coach SDRs through shadowing, role plays, process improvement, and performance reporting in recurring 1:1's
 - Partner with regional managers to develop campaigns that align to their regional goals based on a territory plan
-- Leverage creative marketing and sales tactics to help the SDR team prospect and engage with multiple buyer personas to introduce GitLab’s value
+- Leverage creative marketing and sales tactics to help the SDR team prospect and engage with multiple buyer personas to introduce GitLab's value
 - Manage SDR reports and dashboards to ensure the results they deliver can be easily understood by stakeholders throughout the organization
 - Ensure sales accepted opportunities are sourced in accordance with company targets, and that our sales organization has enough opportunities to work with to be fully productive
 - Iterate on the sales development process, methodology, campaigns, hiring profiles, training and enablement with respect to the GitLab core values
@@ -31,14 +31,14 @@ The Senior Manager, Sales Development is a [grade 9](/handbook/total-rewards/com
 - Attract, retain, and motivate exceptional team memebers
 - Management experience in a high growth environment, preferably in sales development or a similar field
 - The desire to listen and creatively solve problems
-- Is your college degree in French foreign politics with a minor in interpretive dance but you’ve been selling and marketing products since you were 12? Perfect. We know that your college degree isn’t the only thing that prepares you as a potential job candidate.
+- Is your college degree in French foreign politics with a minor in interpretive dance but you've been selling and marketing products since you were 12? Perfect. We know that your college degree isn't the only thing that prepares you as a potential job candidate.
 - A passion for customers and the desire and desire to build authentic relationships
 - Familiarity B2B software, Open Source software, and the developer product space
 - Experience with CRM software (Salesforce preferred)
 - Experience with prospecting tools like Outreach, Drift, DiscoverOrg etc.
 - Passion and curiosity around technology
 - An openness to learning, and using GitLab and Git (we use our own product daily!)
-- Excellent spoken and written English (it’s our company language)
+- Excellent spoken and written English (it's our company language)
 - Travel about 20% for this role
 - The ability to use GitLab
 - Read about our [values](/handbook/values/), and are interested in working in accordance with those values

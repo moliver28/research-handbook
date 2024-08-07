@@ -51,7 +51,7 @@ There are no upcoming sessions planned. If you'd like to earn your Crucial Conve
 | 92% | This course incresaed my confidence in having crucial conversations with team members who are not my manager |
 | 97% | I would recommmend this course to a colleage |
 | 94% | The live session scenarios were relevant to my work at GitLab |
-| 80% | I am interested in in participating in post-training review sessions |
+| 80% | I am interested in participating in post-training review sessions |
 
 ### Reviews
 

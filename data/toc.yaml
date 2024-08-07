@@ -61,15 +61,13 @@
     - name: E-Group Weekly
       url: e-group-weekly
     - name: Environmental, Social, and Governance
-      url: /handbook/esg
+      url: /handbook/company/esg
 - name: Handbook
   icon: fa-solid fa-book
   url: handbook
   links:
   - name: About the Handbook
     url: about
-  - name: Handbook Preferences
-    url: preferences
   - name: Handbook Changelog
     url: changelog
   - name: Handbook Roadmap
@@ -79,15 +77,13 @@
   - name: Handbook Usage
     url: handbook-usage
   - name: Contribution Guide
-    url: docs
-  - name: Practical Handbook Edits
-    url: /handbook/editing-handbook/practical-handbook-edits
-  - name: Edit This Website Locally
-    url: /docs/development
+    url: /docs/development/
+  - name: Editing the handbook
+    url: /handbook/editing-handbook/
   - name: Handbook Style Guide
-    url: /handbook/style-guide
-  - name: Content Websites
-    url: content-websites
+    url: /handbook/about/style-guide/
+  - name: Handbook maintenance
+    url: /handbook/about/maintenance/
 - name: People Group
   icon: fa-solid fa-people-group
   url: /handbook/people-group/
@@ -131,6 +127,8 @@
           url: travel
         - name: Visas
           url: visas
+    - name: Talent Assessment
+      url: /handbook/people-group/talent-assessment
     - name: Team Member Relations Philosophy
       url: /handbook/people-group/team-member-relations#team-member-relations-philosophy
     - name: Total Rewards
@@ -144,8 +142,8 @@
           url: paid-time-off
         - name: Compensation
           url: compensation
-        - name: Stock Options
-          url: /handbook/stock-options
+        - name: Equity Compensation
+          url: /handbook/total-rewards/stock-options
     - name: Tools and Tips
       url: tools-and-tips
       links:
@@ -250,12 +248,9 @@
           url: /handbook/marketing/integrated-marketing/digital-strategy
         - name: Digital Experience
           url: /handbook/marketing/digital-experience
-          links:
-            - name: Marketing Site
-              url: /handbook/marketing/digital-experience/website
     - name: Sales Development
       url: /handbook/marketing/sales-development
-    - name: Marketing Strategy, Ops, & Analytics
+    - name: Marketing Operations and Analytics
       url: /handbook/marketing/marketing-strategy-and-platforms
       links:
         - name: Marketing Operations
@@ -264,14 +259,12 @@
           url: /handbook/marketing/strategy-performance
     - name: Growth
       url: /handbook/marketing/growth
-    - name: Developer Relations & Community
+    - name: Developer Relations
       url: /handbook/marketing/developer-relations
       links:
-      - name: Evangelist Program
-        url: /handbook/marketing/developer-relations/evangelist-program
       - name: Community Programs
         url: /handbook/marketing/developer-relations/community-programs
-      - name: Developer Advocate
+      - name: Developer Advocacy
         url: /handbook/marketing/developer-relations/developer-advocacy
       - name: Contributor Success
         url: /handbook/marketing/developer-relations/contributor-success
@@ -288,10 +281,14 @@
   icon: fa-solid fa-handshake
   url: /handbook/sales
   links:
+  - name: Alliances
+    url: /handbook/alliances
   - name: Commercial
     url: /handbook/sales/commercial
   - name: Customer Success
     url: /handbook/customer-success
+  - name: Customer Success Management
+    url: /handbook/customer-success/csm
   - name: Reseller Channels
     url: /handbook/resellers
   - name: Field Operations
@@ -312,10 +309,8 @@
       url: /handbook/sales/field-operations/sales-systems
   - name: Reporting
     url: /handbook/business-technology/#reporting
-  - name: Customer Success Management
-    url: /handbook/customer-success/csm
-  - name: Alliances
-    url: /handbook/alliances
+  - name: Solutions Architecture
+    url: /handbook/solutions-architects/
 - name: Finance
   icon: fa-solid fa-landmark
   url: /handbook/finance
@@ -343,8 +338,8 @@
     links:
      - name: Sarbanes-Oxley (SOX) Compliance
        url: sarbanes-oxley
-  - name: Stock Options
-    url: /handbook/stock-options
+  - name: Equity Compensation
+    url: /handbook/total-rewards/stock-options
 - name: Product
   icon: fa-solid fa-comments
   url: /handbook/product

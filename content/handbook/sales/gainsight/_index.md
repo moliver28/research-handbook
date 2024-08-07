@@ -1,14 +1,7 @@
 ---
-
 title: "Using Gainsight at GitLab"
 description: "The key aspects of using Gainsight at GitLab to drive success for your customer"
 ---
-
-
-
-
-
-
 
 ## What is Gainsight?
 
@@ -90,6 +83,7 @@ If your receive the error message "SUCCESS_PLAN_OBJECTIVES_UPDATED_FAILED" when 
 #### Account says "TO BE DELETED NO LONGER IN SFDC"
 
 This is because two SFDC accounts were merged into one. What happens is this:
+
 1. Salesforce has 2 records of the same account
 1. SAE/or someone asks SalesOps/Deal Desk to merge
 1. The two Salesforce accounts are merged

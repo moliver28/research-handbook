@@ -125,9 +125,8 @@ To revert the patch, you can edit the deployment to use the original image.
 
 **Note**:
 
-- This process only applies to the Rails application ([the GitLab
-repository](https://gitlab.com/gitlab-org/gitlab)). You will need to patch a different image
-depending on the GitLab component, you want to patch.
+- This process only applies to the Rails application ([the GitLab repository](https://gitlab.com/gitlab-org/gitlab)).
+You will need to patch a different image depending on the GitLab component, you want to patch.
 - This is different with [Patching the Rails code in the `toolbox` pod](https://docs.gitlab.com/charts/troubleshooting/kubernetes_cheat_sheet.html#patching-the-rails-code-in-the-toolbox-pod). Patching rails code directly in the `toolbox`
 pod will not apply the patch to the rails code that is serving the requests to the users.
 - You will need to create a new image with the patch if you upgraded the helm chart to a newer version of GitLab.

@@ -17,9 +17,9 @@ To reach that success, you will need a network of support, templates, tools, and
 
 #### Finding the balance between contributing and managing
 
-Let’s take a closer look at just two of the challenges you might face. The first is finding a balance between contributing and managing.
+Let's take a closer look at just two of the challenges you might face. The first is finding a balance between contributing and managing.
 
-By doing too much of the team’s work yourself, you may deprive team members of the means to improve themselves and make them overly dependent upon you. You also risk facing burnout. One solution is to change the way you contribute to your employees’ efforts. Instead of doing a piece of work for them, ask them to take small iterative steps.
+By doing too much of the team's work yourself, you may deprive team members of the means to improve themselves and make them overly dependent upon you. You also risk facing burnout. One solution is to change the way you contribute to your employees' efforts. Instead of doing a piece of work for them, ask them to take small iterative steps.
 
 For example, a team member has a project but has no idea where to start, so they ask you for help.
 
@@ -29,11 +29,11 @@ You could show them how you would start it, but that could lead to a long-term d
 
 If you have been promoted to a manager role, a second challenge you might face is navigating the complexity of managing your former peers.
 
-The key to making this transition smooth is to be inclusive and communicate with your team and external collaborators. During your first few weeks as a new manager, try to identify a few small decisions you can make fairly quickly, but defer bigger ones until you’ve been in the role longer and have time to gather input from everyone. For example, set up a new schedule and agenda for team meetings, this is a small change but it clearly establishes your role as manager.
+The key to making this transition smooth is to be inclusive and communicate with your team and external collaborators. During your first few weeks as a new manager, try to identify a few small decisions you can make fairly quickly, but defer bigger ones until you've been in the role longer and have time to gather input from everyone. For example, set up a new schedule and agenda for team meetings, this is a small change but it clearly establishes your role as manager.
 
-Also, in the first few weeks, take actions that establish your credibility and indicate how you’ll work as a manager. One of the best ways is to meet with your team, as a group and individually, and share with them your management style or review your Manager [README]({{< ref "leadership#your-individual-readme" >}}). Meeting with the team will help you to identify their motivators so that you can start working with the team to create more informed individual and team goals.
+Also, in the first few weeks, take actions that establish your credibility and indicate how you'll work as a manager. One of the best ways is to meet with your team, as a group and individually, and share with them your management style or review your Manager [README]({{< ref "leadership#your-individual-readme" >}}). Meeting with the team will help you to identify their motivators so that you can start working with the team to create more informed individual and team goals.
 
-During this type of transition, it’s easy to become overly focused on your former peers. Don’t forget to build relationships with your new leader and schedule coffee chats with other stakeholders across the organization.
+During this type of transition, it's easy to become overly focused on your former peers. Don't forget to build relationships with your new leader and schedule coffee chats with other stakeholders across the organization.
 
 #### The "Becoming a GitLab Manager" issue, support, and resources
 
@@ -47,19 +47,19 @@ If you have questions as you work your way through this checklist please ask the
 
 ## Becoming a GitLab Manager Issue Retrospective
 
-An important task is to create a retrospective thread within the Becoming a GitLab Manager issue, so that the team member can log any questions, comments, proposals and more about their issue. Retrospectives are used in many ways at GitLab, like after a GitLab product [release]({{< ref "communication#release-retrospectives-and-kickoffs" >}}) based on the Product [retrospective workflow](/handbook/engineering/workflow/#retrospective). For the Becoming a GitLab Manager issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Feel free to please ask any questions in the [#managers](https://gitlab.slack.com/messages/C5Z55R5J5/details/) Slack channel.
+An important task is to create a retrospective thread within the Becoming a GitLab Manager issue, so that the team member can log any questions, comments, proposals and more about their issue. Retrospectives are used in many ways at GitLab, like after a GitLab product [release](/handbook/communication/#release-retrospectives-and-kickoffs) based on the Product [retrospective workflow](/handbook/engineering/workflow/#retrospective). For the Becoming a GitLab Manager issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Feel free to please ask any questions in the [#managers](https://gitlab.slack.com/messages/C5Z55R5J5/details/) Slack channel.
 
-#### Coaching remote work practices
+### Coaching remote work practices
 
 Do not assume that team members understand good remote work practices. GitLab managers are [expected]({{< ref "structure#management-group" >}}) to [coach]({{< ref "coaching" >}}) their reports to utilize [asyncronous communication](/handbook/company/culture/all-remote/management/#asynchronous), be [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}), design an [optimal workspace](/handbook/company/culture/all-remote/workspace/), and understand the importance of [self-learning and self-service](/handbook/company/culture/all-remote/self-service/).
 
 Leaders should ensure that new remote hires read a [getting started guide](/handbook/company/culture/all-remote/getting-started/), and make themselves available to answer questions throughout one's journey with the company.
 
-#### Create a personalized learning pathway
+### Create a personalized learning pathway
 
 Take a moment to reflect on where you are in this transition. Then use this [google form](https://forms.gle/WUpxZNG2VcYFQLon9) to add your thoughts about the challenges you face, how you plan to overcome them, and what resources you have found helpful so far. The Learning and Development team will review this feedback to personalize your development pathway as a manager at GitLab. This may include developing custom training modules, pairing you with a mentor, or providing you with opportunities to practice skills.
 
-#### Participate in the Elevate program
+### Participate in the Elevate program
 
 [Elevate]({{< ref "elevate-programs" >}}) equips new and existing managers with a set of skills to managing all-remote teams. The program covers foundational management practices. One of the key benefits of the program is networking and social learning. You will learn from other managers and build a sense of community across people leaders at GitLab.
 

@@ -28,7 +28,7 @@ business needs by:
 
 The process is designed with these constraints in mind:
 
-- aligned with our [values]({{< ref "values" >}})
+- aligned with our [values](/handbook/values/)
 - asynchronous
 - [self-service](/handbook/company/culture/all-remote/self-service/) as much as possible
 - avoid being a bottleneck in the software development life cycle
@@ -55,33 +55,25 @@ would impact our security posture. Our security posture is defined by:
 The Application Security team provides guidelines and requirements to follow during all the life
 cycle of source code:
 
-- [AppSec projects policies]
-
-[AppSec projects policies]: {{< ref "../application-security/inventory#policies" >}}
+- [AppSec projects policies](../application-security/inventory#policies)
 
 ### InfraSec
 
 <!-- Using this page until infrasec requirements are in the handbook -->
 
-- [Security Requirements for Development and Deployment]
-
-[Security Requirements for Development and Deployment]: {{< ref "security-development-deployment-requirements" >}}
+- [Security Requirements for Development and Deployment]({{< ref "security-development-deployment-requirements" >}})
 
 ### Compliance
 
-- [GitLab Audit Logging Policy]
-
-[GitLab Audit Logging Policy]: {{< ref "audit-logging-policy" >}}
+- [GitLab Audit Logging Policy]({{< ref "audit-logging-policy" >}})
 
 ### Cryptography
 
-- [Do not roll your own crypto] (also one of our [Security Architecture Principles](#security-architecture-principles)
+- [Do not roll your own crypto]({{< ref "encryption-policy#rolling-your-own-crypto" >}}) (also one of our [Security Architecture Principles](#security-architecture-principles)
 )
 - Reference our [GitLab Cryptography Standard]({{< ref "cryptographic-standard" >}})
 
 <!-- Add FIPS and FedRamp requirements here when available -->
-
-[Do not roll your own crypto]: {{< ref "encryption-policy#rolling-your-own-crypto" >}}
 
 ## Security Architecture Principles
 
@@ -93,11 +85,7 @@ Our principles are based on two simple pillars:
 1. **Network isolation**
 
 They are detailed below with the principles taken from the book Software Systems Architecture (see
-[references](#references)) and this [ACCU 2019 related
-video](https://www.youtube.com/watch?v=YbjoaMN67Hw). These are very close to the [OWASP Security
-Design Principles] but are easier to understand and apply.
-
-[OWASP Security Design Principles]: https://github.com/OWASP/DevGuide/blob/master/02-Design/01-Principles%20of%20Security%20Engineering.md
+[references](#references)) and this [ACCU 2019 related video](https://www.youtube.com/watch?v=YbjoaMN67Hw). These are very close to the [OWASP Security Design Principles](https://github.com/OWASP/DevGuide/blob/master/02-Design/01-Principles%20of%20Security%20Engineering.md) but are easier to understand and apply.
 
 <style>
 .security-architecture-principle {
@@ -134,7 +122,7 @@ Broad privileges allow malicious or accidental access to protected resources.
 
 - <https://owasp.org/www-community/Access_Control#principle-of-least-privilege>
 - <https://csrc.nist.gov/glossary/term/least_privilege>
-- <https://about.gitlab.com/handbook/security/access-management-policy.html#principle-of-least-privilege>
+- <https://handbook.gitlab.com/handbook/security/access-management-policy.html#principle-of-least-privilege>
 
 </details>
 
@@ -163,14 +151,11 @@ Make attacks less attractive.
 #### Examples
 
 - A system/service that only needs to read git commits should not be able to access user data
-- GitLab team members don't have access to billing data, nor anything else [classified red data]
-
-[classified red data]: {{< ref "data-classification-standard" >}}
+- GitLab team members don't have access to billing data, nor anything else [classified red data]({{< ref "data-classification-standard" >}})
 
 #### Links
 
-- [OWASP Access Control
-  Models](https://owasp.org/www-community/Access_Control#access-control-models)
+- [OWASP Access Control Models](https://owasp.org/www-community/Access_Control#access-control-models)
 - <https://en.wikipedia.org/wiki/Compartmentalization_%28information_security%29>
 
 </details>
@@ -207,12 +192,11 @@ Make attacks less attractive.
   application.
 - Downloading 3rd party libraries or scripts at runtime can lead to many security issues, including
   cache poisoning, XSS, and whatnot. Without checking the integrity of the external asset, malicious
-  actors can tamper the files, like this example of [BGP
-  Hijacking](https://medium.com/s2wblog/post-mortem-of-klayswap-incident-through-bgp-hijacking-en-3ed7e33de600)
+  actors can tamper the files, like this example of [BGP Hijacking](https://medium.com/s2wblog/post-mortem-of-klayswap-incident-through-bgp-hijacking-en-3ed7e33de600)
 
 #### Links
 
-- [Zero Trust](/handbook/security/architecture/zero-trust) at GitLab
+- [Zero Trust](/handbook/security/product-security/architecture/zero-trust) at GitLab
 
 </details>
 
@@ -226,21 +210,16 @@ Make attacks less attractive.
 #### Why
 
 - Simple solutions are easier to deploy, maintain, and secure
-- Aligned with our [Iteration] and [Efficiency] values
+- Aligned with our [Iteration](/handbook/values/#iteration) and [Efficiency](/handbook/values/#efficiency) values
 - Security requires understanding of the design
 - Complexity increases exponentially
 - Attack-ability or attack surface of the software is reduced
-
-[Iteration]: {{< ref "values#iteration" >}}
-[Efficiency]: {{< ref "values#efficiency" >}}
 
 #### How
 
 - Avoid complex failure modes, implicit behaviours, unnecessary features
 - Use well-known, tested, and proven components
-- Avoid over-engineering and strive for [MVCs] instead
-
-[MVCs]: https://about.gitlab.com/handbook/product/product-principles/#the-minimal-viable-change-mvc
+- Avoid over-engineering and strive for [MVCs](/handbook/product/product-principles/#the-minimal-viable-change-mvc) instead
 
 #### Examples
 
@@ -251,8 +230,7 @@ Make attacks less attractive.
 #### Links
 
 - [Keep it simple, stupid](https://en.wikipedia.org/wiki/KISS_principle)
-- [Complexity and exponential
-  change](https://nextconf.eu/2020/02/complexity-and-exponential-change/)
+- [Complexity and exponential change](https://nextconf.eu/2020/02/complexity-and-exponential-change/)
 
 </details>
 
@@ -277,9 +255,9 @@ Make attacks less attractive.
 
 #### Examples
 
-- Enable [GuardDuty] in AWS or [Cloud Audit Logs] in GCP to record activity and detect malicious
+- Enable [GuardDuty](https://aws.amazon.com/guardduty/) in AWS or [Cloud Audit Logs](https://cloud.google.com/logging/docs/audit?hl=en) in GCP to record activity and detect malicious
   intent.
-- Leverage [Panther] (for gitlab.com only) to collect, normalize, and analyze logs.
+- Leverage [Panther](/handbook/business-technology/tech-stack/#panther) (for gitlab.com only) to collect, normalize, and analyze logs.
 - Provide notifications to users when:
   - Changes to their accounts
   - New keys generated or added to their accounts
@@ -287,10 +265,6 @@ Make attacks less attractive.
   - Signal passing a threshold (rate limiting in action)
   - Component signature not matching
   - Unauthorized access to sensitive resources
-
-[GuardDuty]: https://aws.amazon.com/guardduty/
-[Cloud Audit Logs]: https://cloud.google.com/logging/docs/audit?hl=en
-[Panther]: /handbook/business-technology/tech-stack/#panther
 
 #### Links
 
@@ -318,8 +292,7 @@ aka Fail Safe Defaults.
 #### Examples
 
 - Do not trust invalid/expired TLS certificates
-- Some components like Grafana come with a [default `admin/admin`
-  user/password](https://grafana.com/docs/grafana/v7.5/administration/configuration/#security).
+- Some components like Grafana come with a [default `admin/admin` user/password](https://grafana.com/docs/grafana/v7.5/administration/configuration/#security).
 - Related to above, some components might fail over to a plain user/password authentication (with
   default credentials) under certain conditions, like a service not reachable.
 - Some frameworks tend to render error pages with details that should not be shared, like hostnames
@@ -341,7 +314,7 @@ aka Fail Safe Defaults.
 #### Why
 
 - Hiding things is difficult, someone is going to find them, accidentally or on purpose
-- We're a very [transparent]({{< ref "values#transparency" >}}) company and are more likely to share
+- We're a very [transparent](/handbook/values/#transparency) company and are more likely to share
   implementation details, sometimes leaking something sensitive.
 - Offboarded employees leave with sensitive knowledge. While tokens can be rotated, we can't ensure
   this knowledge won't leak
@@ -380,12 +353,9 @@ aka Fail Safe Defaults.
 - Don't rely on a single point/layer of security:
   - Secure every level
   - Stop failures at one level propagating
-- [Encrypt data at rest] and [in transit]
+- [Encrypt data at rest]({{< ref "encryption-policy#encryption-at-rest" >}}) and [in transit]({{< ref "encryption-policy#encryption-in-transit" >}})
 - Use vulnerability scanners
 - Close unnecessary ports and disable unused features
-
-[Encrypt data at rest]: {{< ref "encryption-policy#encryption-at-rest" >}}
-[in transit]: {{< ref "encryption-policy#encryption-in-transit" >}}
 
 #### Examples
 
@@ -398,7 +368,7 @@ aka Fail Safe Defaults.
 #### Links
 
 - <https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>
-- [Zero Trust](/handbook/security/architecture/zero-trust) at GitLab
+- [Zero Trust](/handbook/security/product-security/architecture/zero-trust) at GitLab
 
 </details>
 
@@ -450,17 +420,15 @@ aka Fail Safe Defaults.
 
 #### How
 
-- [Threat model]({{< ref "../application-security/threat-modeling" >}}) the system, repeat, iterate.
+- [Threat model](../application-security/threat-modeling) the system, repeat, iterate.
 - Identify central components that
   - share more privileges than the others
   - have more connections to other components
   - are entrypoints (login modules, APIs, ...)
-- Run [Dependency Scanning]
+- Run [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/)
 - Avoid weak ciphers and algorithms
 - Sometimes consider the humans (users) as the weakest link. Phishing is still widely used for a
   good reason
-
-[Dependency Scanning]: https://docs.gitlab.com/ee/user/application_security/dependency_scanning/
 
 #### Examples
 
@@ -471,25 +439,21 @@ aka Fail Safe Defaults.
 - The weakest link could also be a user. Not enforcing strong passwords and MFA could lead to
   sensitive data exposure, but users can also do harmful actions without being aware of it.
 - OS (system) commands often leads to bypassing most, if not all, the security controls of an
-  applicaton. It is a common vector for [RCEs] and should be avoided as much as possible.
-
-[RCEs]: https://en.wikipedia.org/wiki/Arbitrary_code_execution
+  applicaton. It is a common vector for [RCEs](https://en.wikipedia.org/wiki/Arbitrary_code_execution) and should be avoided as much as possible.
 
 #### Links
 
 - [RCE when removing metadata with ExifTool](https://gitlab.com/gitlab-org/gitlab/-/issues/327121)
-- [Log4Shell: RCE 0-day exploit found in log4j 2, a popular Java logging package](https://www.lunasec.io/docs/blog/log4j-zero-day/)
+- [Log4Shell: RCE 0-day exploit found in log4j 2, a popular Java logging package](https://en.wikipedia.org/wiki/Log4Shell)
 
 </details>
 
 ## Security Architecture reviews
 
-As part of the [Production Readiness Process], it is highly recommended to include a Security
+As part of the [Production Readiness Process](/handbook/engineering/infrastructure/production/readiness/), it is highly recommended to include a Security
 Architecture review.
 
 The Security Architecture review process is detailed in this [page]({{< ref "review." >}}).
-
-[Production Readiness Process]: https://about.gitlab.com/handbook/engineering/infrastructure/production/readiness/
 
 ## Measuring results
 
@@ -497,13 +461,8 @@ Security Architecture, by nature, doesn't generate measurable data, apart from t
 architecture diagrams and reviews. While this could be used as a metric, it's only reflecting work
 load, and not achievements. Instead, we are measuring success in terms of maturity.
 
-The [OWASP SAMM] framework is currently used, but this is subject to change (see discussions in this
+The [OWASP SAMM](https://owaspsamm.org/about/) framework is currently used, but this is subject to change (see discussions in this
 [issue](https://gitlab.com/gitlab-com/gl-security/security-department-meta/-/issues/1315)).
-
-We are targeting the Maturity Level 1 for FY23-Q1, and our roadmap is discussed in this
-[issue](https://gitlab.com/gitlab-com/gl-security/security-architecture/general/-/issues/8).
-
-[OWASP SAMM]: https://owaspsamm.org/about/
 
 ## Communication channels
 
@@ -519,7 +478,7 @@ We are targeting the Maturity Level 1 for FY23-Q1, and our roadmap is discussed 
 - [OSA](https://www.opensecurityarchitecture.org/cms/)
 - [NIST CSF](https://www.nist.gov/cyberframework)
 - [CIS Critical Security Controls](https://www.cisecurity.org/controls)
-- [OWASP Cyber Defense Matrix](https://owasp.org/www-project-cyber-defense-matrix/)
+- [Cyber Defense Matrix](https://cyberdefensematrix.com/)
 - [AWS Well Architected Framework](https://aws.amazon.com/architecture/well-architected/)
 - [OWASP Developer Guide Reboot](https://github.com/OWASP/DevGuide)
 - [Google Cloud: Optimize your system design using Architecture Framework Principles](https://cloud.google.com/blog/topics/solutions-how-tos/optimize-your-system-design-using-architecture-framework-principles)

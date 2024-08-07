@@ -9,12 +9,12 @@ The following benefits are provided by [Remote](https://www.remote.com/) and app
 
 All of the benefits listed below are administered and managed by [Remote](https://remote.com/country-explorer/brazil). Queries can be directed to help@remote.com. See [Benefits Guide](https://remote.com/benefits-guide/brazil) for the complete list of benefits offered through Remote.
 
-- 13th Salary - Also known as a 'Christmas Bonus', this payment is an amount equal to one month’s salary which is paid out to employees in two parts in November (by the 20th) and December. The pro-rated 13th-month salary is also due upon termination. The 13th-month payment is a legally mandated benefit and not part of the base salary. During negotiations with candidates, it is important to clearly state what salary is being offered and whether it is inclusive or exclusive of the 13th-month payment. The Christmas Bonus is calculated at 8.33% of the base annual salary
-- Vacations Bonus - Professionals in Brazil are entitled to 30 calendar days of vacation per year after every 12 months of service, and the employee must be paid 1/3rd of a month’s salary as a Vacations bonus. Holiday pay and holiday bonus payments are pro-rated upon termination. The Vacation bonus is calculated at 2.77% of the base annual salary.
+- 13th Salary - Also known as a 'Christmas Bonus', this payment is an amount equal to one month's salary which is paid out to employees in two parts in November (by the 20th) and December. The pro-rated 13th-month salary is also due upon termination. The 13th-month payment is a legally mandated benefit and not part of the base salary. During negotiations with candidates, it is important to clearly state what salary is being offered and whether it is inclusive or exclusive of the 13th-month payment. The Christmas Bonus is calculated at 8.33% of the base annual salary
+- Vacations Bonus - Professionals in Brazil are entitled to 30 calendar days of vacation per year after every 12 months of service, and the employee must be paid 1/3rd of a month's salary as a Vacations bonus. Holiday pay and holiday bonus payments are pro-rated upon termination. The Vacation bonus is calculated at 2.77% of the base annual salary.
 
 ### Medical & Dental
 
-Remote will offer healthcare through Omint all hired from April 2022 onwards. Team members have the option to add dependents to the healthcare plan at an additional cost.
+Remote will offer healthcare through Remote. See [Benefits Guide](https://remote.com/benefits-guide/brazil) for the complete list of benefits offered through Remote. . Team members have the option to add dependents to the healthcare plan at an additional cost.
 
 Team Members hired prior to April 2022 are legacied in to the medical allowance policy. Team Members hired after April 2022 are not eligible for this policy.
 
@@ -49,7 +49,7 @@ Below is the information related to Brazil's statutory leave policies.  Please n
 
 Team Members in Brazil are entitled to a statutory minimum of 30 calendar days of paid annual leave per year (based on employment year) after each 12 months of service. The vacation period is typically taken in one block (or split between 20 days and 10 days).  Team members are eligible for GitLab's PTO policy; which will run concurrently with this Annual Leave policy.
 
-In addition, team members must be paid 1/3rd of a month’s salary as holiday bonus.
+In addition, team members must be paid 1/3rd of a month's salary as holiday bonus.
 
 To ensure all statutory annual leave is tracked appropriately, please enter all requested into Time Off by Deel by selecting the `Vacation` option, at least one month prior to the leave being taken (this is ensure accuracy and reporting for statutory compliance).
 
@@ -104,9 +104,17 @@ Team members in Denmark can also access the [public healthcare system](https://w
 
 Team members can expense up to $250 for eye examination and glasses if they require corrective eyeware to work at a computer screen for extended periods of time. (Login required to see [policy](https://support.remote.com/hc/en-us/articles/20050865403149-Screen-Work-Eye-Examination))
 
+### Eye Examination and Corrective Lenses
+
+Team Members who spend a significant portion of their working hours in front of a screen are entitled to receive an eye and vision examination. This examination should be conducted by either an optician or an ophthalmologist. The employer is responsible for covering the cost of this examination, and every effort should be made to schedule it during regular working hours.
+
+In cases where the Team Member requires corrective eyewear, the employer is obligated to provide, at a minimum, one standard frame with lenses or standard contact lenses at no expense to the Team Member.
+
+Remote has implemented a self-service model to facilitate this process, with a budget allocation of $250 USD to cover frame with lenses or standard contact lenses. This approach allows employees to independently arrange their eye examinations, purchase necessary eyeglasses, and then submit their expenses for reimbursement through the Remote platform.
+
 ### Pension
 
-Remote will directly contribute to a Group Pension Plan (Soderberg & Partners). The team member will contribute 4% of the monthly base salary, with the Employer contributing 8% of the team members monthly base salary. The contribution to the pension savings plan will be paid directly into the pension plan in conjunction with the Employer’s payment of the monthly salary to the team member.
+Remote will directly contribute to a Group Pension Plan (Soderberg & Partners). The team member will contribute 4% of the monthly base salary, with the Employer contributing 8% of the team members monthly base salary. The pension contribution includes both the retirement savings and the associated insurance and administration fees. The contribution to the pension savings plan will be paid directly into the pension plan in conjunction with the Employer’s payment of the monthly salary to the team member.
 
 ### Life Insurance
 
@@ -240,7 +248,7 @@ Below is information related to Sweden's statutory leave policies.  Please note 
 
 ### Holiday Leave
 
-Part-time and full-time employees are entitled to 25 days of paid time off per year. Employers are required to enforce the use of their employees’ vacation time. Employees may roll over vacation days for up to five years, but employers should not let employees fail to take time off.
+Part-time and full-time employees are entitled to 25 days of paid time off per year. Employers are required to enforce the use of their employees' vacation time. Employees may roll over vacation days for up to five years, but employers should not let employees fail to take time off.
 
 ### Sick Leave
 
@@ -248,7 +256,7 @@ Employers in Sweden must compensate employees at 80% of their salary for the fir
 
 ### Parental (föräldraledighet) Leave
 
-Sweden's Parental (föräldraledighet) Leave affords parents 480 days of leave; 390 of these days paid at a rate of 80% of your salary up to a capped limited of 1006 SEK a day.  If you have twins, you are eligible for an additional 180 days.  Parents are encouraged to split these days equally between them.  However, it is possible for one parent to take up to 390 days of the 480 days. To do this the other parent has to ‘transfer’ these days to the other parent.
+Sweden's Parental (föräldraledighet) Leave affords parents 480 days of leave; 390 of these days paid at a rate of 80% of your salary up to a capped limited of 1006 SEK a day.  If you have twins, you are eligible for an additional 180 days.  Parents are encouraged to split these days equally between them.  However, it is possible for one parent to take up to 390 days of the 480 days. To do this the other parent has to 'transfer' these days to the other parent.
 
 #### Eligibility
 
@@ -278,10 +286,10 @@ Under the Remote Technology scheme, the employer and member both pay **5% each t
 
 - Sum insured of the Group Life Cover will be 4 times of the annual salary.
 - The primary protection offered by group life cover is as follows:
-    - Provide for living expenses for surviving dependants
-    - Extinguish debt
-    - Protect the lifestyle of the surviving dependants
-    - Fund for the education costs of the surviving children
+  - Provide for living expenses for surviving dependants
+  - Extinguish debt
+  - Protect the lifestyle of the surviving dependants
+  - Fund for the education costs of the surviving children
 - Upon the death of the member, spouse or child, a benefit payment equal to the amount of the Funeral Cover will be made.
 - The sum assured for this benefit is up to R30,000
 - This benefit is 100% contributed and covered by Remote.
@@ -290,13 +298,13 @@ Under the Remote Technology scheme, the employer and member both pay **5% each t
 
 - The Income Continuation Benefit is designed to provide team member with a payment equal to the income they received before they became disabled or severely ill.
 - Disability refers to injury, illness or disease that has resulted in a member being unable to perform his or her own job based on objective medical criteria.
-- Due to changes in the tax treatment of income protection benefits, the disability income benefit will be calculated on a flat **75% of member salary**, but subject to a maximum of the team members’s net of tax salary or specified rand maximum including any retirement fund waiver benefits.
+- Due to changes in the tax treatment of income protection benefits, the disability income benefit will be calculated on a flat **75% of member salary**, but subject to a maximum of the team members's net of tax salary or specified rand maximum including any retirement fund waiver benefits.
 - The 75% income continuation will come into effect from the **4th month** of the leave.
 - This benefit is 100% contributed and covered by Remote.
 
 ### Disability - Severe Illness
 
-- A severe illness is an illness that affects a person’s lifestyle in such a way that their ability to function normally is altered.
+- A severe illness is an illness that affects a person's lifestyle in such a way that their ability to function normally is altered.
 - Sum assured of this benefit is twice the annual salary of the team member (2 x Annual Salary).
 - Discovery Life provides insurance to cover team member against the impact of a severe illness. The Severe Illness Benefit pays a lump sum if a team member is diagnosed with a covered physiological or anatomical severe illness. The claim payment is proportional to the severity of the illness, with severity levels that have been set to reflect the financial impact of the illness on their lifestyle.
 - The lump sum benefit provides financial assistance to ensure that the team member can maintain their lifestyle after a life-changing event. This could mean having their homes modified to accommodate their injury or illness, or reinvesting the money to replace the monthly income they can no longer earn
@@ -449,7 +457,7 @@ To initiate your maternity leave, submit your time off by selecting the `Parenta
 
 #### Partner/Paternity leave
 
-Since 1 January 2021, new fathers can take two weeks of paid paternity leave (14 days’ daily allowance).
+Since 1 January 2021, new fathers can take two weeks of paid paternity leave (14 days' daily allowance).
 
 If eligible, team members can take up to 16 weeks of time away (in total) per GitLab's [Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).  GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
 
@@ -497,13 +505,13 @@ The family allowance is not paid out automatically, it must be applied for.
 All workers employed in Mexico must be registered with and contribute to the following institutions that deal with different social security insurance benefits:
 
 - Mexican Institute of Social Security (IMSS):
-    - Provides medical services, child day care, accident and sickness compensation, pregnancy benefits and disability pensions
-- National Workers’ Housing Fund Institute (INFONAVIT):
-    - Provides subsidized housing to employees as well as loans, and the Retirement Savings Program (SAR). SAR provides employees with retirement benefits when they reach 65 years of age.
+  - Provides medical services, child day care, accident and sickness compensation, pregnancy benefits and disability pensions
+- National Workers' Housing Fund Institute (INFONAVIT):
+  - Provides subsidized housing to employees as well as loans, and the Retirement Savings Program (SAR). SAR provides employees with retirement benefits when they reach 65 years of age.
 
 Employees in Mexico are covered by the Social Security Law, under IMSS who is responsible for administering social security insurance benefits and the collection of contributions.
 
-- Both the employer and employee are required to contribute to social security, although the employer has the responsibility of withholding the employee’s contribution.
+- Both the employer and employee are required to contribute to social security, although the employer has the responsibility of withholding the employee's contribution.
 - These contributions fund retirement pensions, health and maternity insurance, occupational risk, day-care, disability and life insurance, and unemployment/old age insurance.
 
 ### Medical Benefits
@@ -556,8 +564,8 @@ The vacation premium is an additional cash benefit given to employees for use on
 - $50,000 USD divided by 365 days = $136.99 USD daily pay rate
 - $136.99 USD daily pay rate multiplied by 25% = $34.25 USD
 - $34.25 USD multiplied by 6 vacation days (first year) = $205.50 USD vacation bonus
-- It can be paid right away when the vacation is taken, or as a lump sum upon completing one year of service (or employment ends). It is the employer’s choice which method to use.
-- Unused leave must also be paid when employment ends (in other words, the employee does not ‘forfeit’ unused vacation time)
+- It can be paid right away when the vacation is taken, or as a lump sum upon completing one year of service (or employment ends). It is the employer's choice which method to use.
+- Unused leave must also be paid when employment ends (in other words, the employee does not 'forfeit' unused vacation time)
 
 ### Mexico Statutory Leave Policies
 
@@ -579,7 +587,7 @@ Below is the information related to Mexico's statutory leave policies.  Please n
 
 - 12 weeks of the team member's Maternity Leave will be paid by the Mexican Social Security Institute (MSSI).
 - GitLab Parental Leave Pay Calculations: If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), pay will be supplemented up to 100% minus any MSSI payments received for up to 16 weeks of leave.
-    - For example: if the team member receives  80% of their pay from MSSI payments, Remote will provide the remaining 20% of their pay following the normal payroll calendar.
+  - For example: if the team member receives  80% of their pay from MSSI payments, Remote will provide the remaining 20% of their pay following the normal payroll calendar.
 
 ##### Paternity Leave Payment
 
@@ -591,7 +599,7 @@ To initiate your parental leave, submit your time off by selecting the `Parental
 
 ### Mexico Sick Leave
 
-Team members unable to work because of a nonwork-related injury or illness and who have made payments into the social security system for the four weeks before the condition developed are eligible for paid sick leave through the Social Security Institute. The benefit, which is 60% of an employee’s regular wage, is paid from the fourth day of the illness for up to 52 weeks and maybe extended for another 52 weeks.
+Team members unable to work because of a nonwork-related injury or illness and who have made payments into the social security system for the four weeks before the condition developed are eligible for paid sick leave through the Social Security Institute. The benefit, which is 60% of an employee's regular wage, is paid from the fourth day of the illness for up to 52 weeks and maybe extended for another 52 weeks.
 
 ## Hungary
 
@@ -616,7 +624,7 @@ GitLab does not plan to offer pension benefit at this time as the Hungarian pens
 
 ### Life Insurance
 
-GitLab does not plan to offer life insurance at this time as team members can access the benefits from [Social insurance system](https://tcs.allamkincstar.gov.hu/) if they get ill, injured or have a disability.
+GitLab does not plan to offer life insurance at this time as team members can access the benefits from [Social insurance system](https://www.allamkincstar.gov.hu/) if they get ill, injured or have a disability.
 
 ### Hungary Statutory Leave Policies
 
@@ -689,7 +697,7 @@ Non-birthing parents "fathers" are entitled to 10 days of paid paternity leave f
 
 Employees are entitled to parental leave ranging from four to six months following each new birth into their family, which can be exercised until their child turns six, or 12, if the latter is adopted.
 
-Both leaves can be taken either in full, partially, or split with the other parent and are based on the number of hours in the employee’s contract:
+Both leaves can be taken either in full, partially, or split with the other parent and are based on the number of hours in the employee's contract:
 
 40 hours per week- 4–6 months of full-time leave; 8-12 months of part-time leave (50% of regular working hours); 4 periods of 1 month leave within a 20–month period; 1-2 half days of leave per week within a 20–month period.
 At least 20 hours per week- 4-6 months of full-time leave; 8-12 months of part-time leave (50% of regular working hours)
@@ -699,7 +707,7 @@ Split or partial leave is at the discretion of the employer. To be eligible:
 The parent must be registered with social security at the time of the birth or adoption of the child for at least 12 continuous months
 Salaried employees- must have worked at least 10 hours per week
 Have an employment contract during the leave
-Instead of wages, an allowance is given by the Children’s Future Fund.
+Instead of wages, an allowance is given by the Children's Future Fund.
 
 - If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), pay will be supplemented up to 100% pay (minus any statutory benefits received) for up to 16 weeks.
 
@@ -739,7 +747,7 @@ Below is the information related to Austria's statutory leave policies.  Please 
 
 ### Austria Parental Leave
 
-##### Statutory Maternity Leave
+#### Statutory Maternity Leave
 
 The statutory entitlement for maternity leave (Mutterschaftsurlaub) is 16 weeks. The leave must start **8 weeks prior to the scheduled delivery date**.
 

@@ -70,7 +70,6 @@ You can request a backport by:
 1. Wait for confirmation and approval from the RMs
 1. Communicate to your stakeholders if/when the release is available on our [releases blog](https://about.gitlab.com/releases/categories/releases/)
 
-
 Please note that this is done on a case by case basis and not covered by any of our Maintenance Policies or releases.
 
 ## Backports FAQ
@@ -85,7 +84,7 @@ At GitLab, we backport security fixes and bug fixes according to the [Maintenanc
 
 ### Is that the same as a Patch Release?
 
-No it’s not. Backporting is a catch-all term for any activity that applies updates or patches from a newer version of software to an older version. At GitLab we have a specific [Patch Release process](/handbook/engineering/releases/#patch-releases-overview) that is applied according to the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html). This is one of the release methods we use to ship self-managed, along with the security release and regular monthly release. There is a separate [exception process](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases) for backports that are outside the scope of our maintenance policy and these are delivered on a best effort basis and not guaranteed.
+No it's not. Backporting is a catch-all term for any activity that applies updates or patches from a newer version of software to an older version. At GitLab we have a specific [Patch Release process](/handbook/engineering/releases/#patch-releases-overview) that is applied according to the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html). This is one of the release methods we use to ship self-managed, along with the security release and regular monthly release. There is a separate [exception process](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases) for backports that are outside the scope of our maintenance policy and these are delivered on a best effort basis and not guaranteed.
 
 ### How do I get a backport for my bugfix/security issues?
 
@@ -100,7 +99,6 @@ For anything outside of the maintenance policy, please follow [the exception pro
 Backports require multiple engineers to apply a fix through multiple versions and are time intensive. When reviewing a backport requrest, product managers should consult our [backport policy](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases) to ensure that the backport proposal meets the criteria. Product managers should ensure that the severity, priority, customer impact and the potential risks associated with not backporting are properly documented before approval.
 
 ### Common Backporting Issues and Considerations
-
 
 #### Additional Release Manager and User Capacity
 
@@ -118,4 +116,4 @@ Each backport can create many unwanted side effects within the application envir
 
 #### Additional Security Implications and Vulnerabilities
 
-Backporting is a common technique to address a known bug within the IT environment. At the same time, relying on a legacy codebase introduces other potentially significant security implications for organizations. Relying on old or legacy code could result in introducing weaknesses or vulnerabilities in your environment. These issues affect not only the main application but also all dependent libraries and forked applications to public repositories. It is important to consider how each backport fits within the organization’s overall security strategy, as well as the IT architecture.
+Backporting is a common technique to address a known bug within the IT environment. At the same time, relying on a legacy codebase introduces other potentially significant security implications for organizations. Relying on old or legacy code could result in introducing weaknesses or vulnerabilities in your environment. These issues affect not only the main application but also all dependent libraries and forked applications to public repositories. It is important to consider how each backport fits within the organization's overall security strategy, as well as the IT architecture.

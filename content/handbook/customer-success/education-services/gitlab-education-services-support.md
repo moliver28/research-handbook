@@ -2,15 +2,6 @@
 title: "GitLab Education Services Support Handbook"
 description: "This handbook will detail how to handle support inquiries for the Education Services team and the applicable systems that are used."
 ---
-# GitLab Education Services Support Handbook
-
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -45,7 +36,7 @@ The education services team has limited licenses for ZenDesk full agent- which g
     - If the ticket is not related to Level Up or Education Services and is about general questions around GitLab or Sales, click the **Apply Macro** button, and select the following: **General > Forms > Incorrect Form Used** and click **Submit**
     - If the ticket is regarding a Sales Training or Certification, reach out to the Field Enablement team in the following slack channel: #field-enablement-team and once you receive a resolution, respond to the ticket and close as Solved.
     - If the ticket is regarding a Learning and Development training or Certification such as Remote Foundations, TeamOps, etc, assign the ticket to the appropriate party listed [here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/education-services/-/wikis/Education-Services-Support-Delegates).
-10. The Education Services team only handles the Professional Services- Triage and Professional Services- Paid views, the Learning and Development team owns the Professional Services- Free view.
+9. The Education Services team only handles the Professional Services- Triage and Professional Services- Paid views, the Learning and Development team owns the Professional Services- Free view.
 
 ### Managing the LevelUp Inbox
 

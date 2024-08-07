@@ -22,17 +22,17 @@ The Digital Marketing Manager works under the Demand Generation team and is resp
 
 ## Levels
 
-#### Digital Marketing Manager
+### Digital Marketing Manager
 
-##### Job Grade
+#### Job Grade
 
 The Digital Marketing Manager is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-##### Responsibilities
+#### Responsibilities
 
 - Assist in building and improving paid demand generation campaigns across paid search, paid social, programmatic display, and/or sponsored publisher channels.
 - Help manage paid demand generation strategy to assist in building sales pipeline by driving high quality leads to our Sales team
-- Leverage the customer’s buyer’s journey to architect innovative multi-channel engagement programs that will lead customer prospects through the sales funnel (inquiry through closed-won).
+- Leverage the customer's buyer's journey to architect innovative multi-channel engagement programs that will lead customer prospects through the sales funnel (inquiry through closed-won).
 - Manage budgets and project plans to ensure campaigns launch on due date and meet their objectives
 - Partner with Campaigns team to develop creative, content, and web experiences that follow media best practices that will engage customers throughout their journey
 - Provide campaign support to other parts of the organization (field marketing, corporate, account-based marketing, etc).
@@ -40,7 +40,7 @@ The Digital Marketing Manager is a [grade 6](/handbook/total-rewards/compensatio
 - Partner with Analytics team to establish measurement framework for digital media campaigns that map to the program goals
 - Monitor market trends and competitors to determine marketing opportunities and recommend and take actions to improve visibility of site.
 
-##### Requirements
+#### Requirements
 
 - 3+ years in Digital Marketing or Demand Generation role
 - 3+ years technical/industry experience focused on SEO, SEM, paid social, programmatic display, and/or web conversion rate optimization to improve lead generation, sales pipeline, and revenue.
@@ -49,17 +49,17 @@ The Digital Marketing Manager is a [grade 6](/handbook/total-rewards/compensatio
 - Advanced analytics and reporting experience including advanced knowledge of Excel, Tableau, SQL, and/or similar.
 - Experience in using Salesforce, Marketo (or other marketing automation software) a plus
 
-#### Senior Digital Marketing Manager
+### Senior Digital Marketing Manager
 
-##### Job Grade
+#### Job Grade
 
 The Senior Digital Marketing Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-##### Responsibilities
+#### Responsibilities
 
 - Define our overall paid demand generation strategy across paid search, paid social, programmatic display, and/or sponsored publisher channels
 - Plan quarterly media budgets across various segments and regions in order to help Sales meet their pipeline goals
-- Leverage the customer’s buyer’s journey to architect innovative multi-channel engagement programs that will lead customer prospects from inquiry > MQL > SAO > closed won
+- Leverage the customer's buyer's journey to architect innovative multi-channel engagement programs that will lead customer prospects from inquiry > MQL > SAO > closed won
 - Lead efforts and strategy with our Ad Agency proactively test and improve demand generation campaigns
 - Improve closed-loop reporting and analysis capabilities for all paid demand generation efforts
 - Drive innovation and experimentation in our demand generation programs to improve our demand creation & conversion
@@ -68,7 +68,7 @@ The Senior Digital Marketing Manager is a [grade 7](/handbook/total-rewards/comp
 - Work with inbound marketing teams to build conversion rate optimization strategies around onsite content and strucutre
 - Monitor market trends and competitors to determine marketing opportunities and recommend and take actions to improve visibility of site.
 
-##### Requirements
+#### Requirements
 
 - 5+ years in Digital Marketing or Demand Generation role
 - 5+ years technical/industry experience focused on SEO, SEM, paid social, programmatic display, and/or web conversion rate optimization to improve lead generation, sales pipeline, and revenue.
@@ -77,13 +77,13 @@ The Senior Digital Marketing Manager is a [grade 7](/handbook/total-rewards/comp
 - 1-3 years experience in using Salesforce, Marketo (or other marketing automation software) required
 - Advanced analytics and reporting experience including advanced knowledge of Excel, Tableau, SQL, and/or similar.=
 
-#### Staff, Digital Marketing Programs
+### Staff, Digital Marketing Programs
 
-##### Job Grade
+#### Job Grade
 
 The Staff Digital Marketing Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-##### Responsibilities
+#### Responsibilities
 
 - Define strategic direction and independently lead the execution of the Digital Marketing media budget and oversee our paid search, paid social, programmatic display, and sponsored publisher programs (end-to-end, including finance processes, tracking, and performance reporting)
 - Maximize channel and tactic performance and ensure an efficient return-on-ad-spend (RoAS)
@@ -95,7 +95,7 @@ The Staff Digital Marketing Manager is a [grade 8](/handbook/total-rewards/compe
 - Lead cross-functional efforts to create standardized marketing reporting and dashboards, presenting performance to the marketing department as well as stakeholders throughout the company
 - Ensure GitLab benefits from the latest in digital marketing technologies and best practices, innovating when it will improve program RoAS
 
-##### Requirements
+#### Requirements
 
 - 10+ years in a Digital Marketing role
 - 5+ years of enterprise software marketing experience
@@ -105,15 +105,15 @@ The Staff Digital Marketing Manager is a [grade 8](/handbook/total-rewards/compe
 - Strong technical marketing and advanced digital analytics skills and deep understanding of complex data and reporting to drive strategy and direction
 - Experience in content marketing and website UX optimization are also helpful in this role
 
-#### Manager, Digital Marketing Programs
+### Manager, Digital Marketing Programs
 
 The Manager of Digital Marketing Programs for GitLab should have a background and hands-on experience in all areas of marketing: SEO, SEM, Paid and Organic Social, ABM, Paid sponsorships, and Conversion Rate Optimization. They will have experience managing marketing teams and working with marketing agencies. They should also be able to maintain a budget, use analytics tools, CRM, MAT, and other marketing tools, and have a data-driven approach to marketing. Experience in content marketing and website maintenance are also helpful in this role.
 
-##### Job Grade
+#### Job Grade
 
 The Manager, Digital Marketing is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-##### Responsibilities
+#### Responsibilities
 
 - Administer the Digital Marketing media budget and ensure marketing costs are tracked correctly.
 - Manage, build, and lead a strong team by coaching and developing existing members and closing talent gaps where needed through acquisition of new team members.
@@ -124,7 +124,7 @@ The Manager, Digital Marketing is a [grade 8](/handbook/total-rewards/compensati
 - Oversee our paid search, paid social, programmatic display, and sponsored publisher programs, maximizing for return on marketing spend
 - [Leadership at GitLab](/handbook/company/structure/#management-group)
 
-##### Requirements
+#### Requirements
 
 - 10+ years in a Digital Marketing role
 - 5+ years of enterprise software marketing experience.
@@ -132,13 +132,13 @@ The Manager, Digital Marketing is a [grade 8](/handbook/total-rewards/compensati
 - In-depth industry experience and knowledge in at least one digital marketing or marketing programs specialty.
 - Strong technical marketing and advanced digital analytics skills
 
-#### Director, Digital Strategy
+### Director, Digital Strategy
 
-##### Job Grade
+#### Job Grade
 
 The Director, Digital Strategy is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-##### Responsibilities
+#### Responsibilities
 
 - Lead the global media strategy and planning to drive awareness and acquisition growth across SMB, Mid Market and Enterprise segments
 - Partner with Campaigns, Brand, and ABM teams, as well as agency partners to build programmatic, content syndication and search campaigns
@@ -146,7 +146,7 @@ The Director, Digital Strategy is a [grade 10](/handbook/total-rewards/compensat
 - Accountable for conversion efficiency across multiple personas and creating full-funnel programs, including moving effectively from awareness to consideration stage
 - Guide, mentor and lead a team of digital media strategies and specialists, in addition to managing our important agency relationships
 
-##### Requirements
+#### Requirements
 
 - 12+ years experience in direct response, B2B demand gen and media planning
 - Experience in driving differentiated strategies across multiple segments, including SMB and Enterprise, from trial flows to ABM execution

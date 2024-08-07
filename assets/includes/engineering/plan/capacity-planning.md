@@ -1,5 +1,5 @@
 We use a lightweight system of issue weighting to help with capacity planning,
-with the knowledge that [things take longer than you think]. These weights are
+with the knowledge that [things take longer than you think](https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html). These weights are
 used for capacity planning and the main focus is on making sure the overall sum
 of the weights is reasonable.
 
@@ -22,5 +22,3 @@ Anything larger than 5 should be broken down if possible.
 
 We look at recent releases and upcoming availability to determine the
 weight available for a release.
-
-[things take longer than you think]: https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html

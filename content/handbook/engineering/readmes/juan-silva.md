@@ -1,14 +1,7 @@
 ---
-
 title: "Juan Silva's README"
 job: "Fullstack Engineering Manager - Geo"
 ---
-
-
-
-
-
-
 
 ## Juan Silva @ GitLab
 
@@ -36,7 +29,6 @@ I value commitment and pride in doing good work. I am driven by constant learnin
 - [GitLab Team Profile](/handbook/company/team/#juan-silva)
 - [GitLab User](https://gitlab.com/juan-silva)
 - [Twitter](https://twitter.com/mexicoder)
-
 
 ## My role
 

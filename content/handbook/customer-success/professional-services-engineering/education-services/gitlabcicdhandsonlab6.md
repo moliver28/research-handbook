@@ -3,8 +3,6 @@ title: "GitLab CI/CD - Hands-On Lab: Job Policy Patterns"
 description: "This Hands-On Guide walks you through working with CI/CD jobs with the rules keyword."
 ---
 
-
-
 > Estimate time to complete: 25 - 30 minutes
 
 ## Objectives
@@ -156,7 +154,7 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
 
 1. Click the **New branch** button.
 
-1. Type **Dev** in the **branch name** section, and click **Create branch**
+1. Type **Dev** in the **branch name** section, and click **Create branch**.
 
 1. Click on **Build > Pipelines**.
 
@@ -170,15 +168,15 @@ Your `deploy review` job should be the only job that should be running.
 
 ### Task B2: Running the `deploy release` Job
 
-1. Open your .gitlab-ci.yml file and review the rules specified in the deploy release rules section. It will only run when A) The branch name (represented by `$CI_COMMIT_REF_NAME`) is not equal to main, and B) there is a tag on the branch (represented by `$CI_COMMIT_TAG`)
+1. Open your .gitlab-ci.yml file and review the rules specified in the deploy release rules section. It will only run when A) The branch name (represented by `$CI_COMMIT_REF_NAME`) is not equal to main, and B) there is a tag on the branch that begins with the letter `v` (represented by `$CI_COMMIT_TAG =~ /^v.*/`)
 
-1. We will need to make a tag for this job to run. To make a tag, click on **Code > Tags.**
+1. We will need to make a tag for this job to run. To make a tag, click on **Code > Tags**.
 
 1. Click on the **New tag** button.
 
 1. Type in `v1.0` into the Tag name section.
 
-1. Change the **Create from** option to display Dev instead.
+1. Change the **Create from** option to display `Dev` instead.
 
 1. Click the **Create tag** button.
 
@@ -186,17 +184,15 @@ Your `deploy review` job should be the only job that should be running.
 
 1. Click on the **Run Pipeline** button.
 
-1. Under Run for branch name or tag, make sure **Dev** is selected.
+1. Under Run for branch name or tag, make sure **v1.0** is selected.
 
 1. Click on the **Run Pipeline** button.
 
 1. Your deploy release job should be the only job available. Since the job has been set to manual, it will not run until you explicitly start it. Click on the arrow next to the job to start the job.
 
+### Task B3: Running the `deploy staging` Job
 
-
-### Task B3: Running the `deploy staging` job
-
-1. Open your `.gitlab-ci.yml` file and review the rules specified in the deploy release `rules` section. It will only run when A) The branch name (represented by `$CI_COMMIT_REF_NAME`) is equal to `main`.
+1. Open your `.gitlab-ci.yml` file and review the rules specified in the deploy staging `rules` section. It will only run when A) The branch name (represented by `$CI_COMMIT_REF_NAME`) is equal to `main`.
 
 1. In the top left corner, click on the button that says **Dev**, and set the option to be **main** instead.
 

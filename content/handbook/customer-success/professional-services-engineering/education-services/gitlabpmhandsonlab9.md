@@ -1,5 +1,5 @@
 ---
-title: "GitLab Project Management - Hands-On Lab: Create And Manage A Scrum Board"
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Create And Manage A Scrum Board"
 description: "This Hands-On Guide walks you through creating and managing a Scrum board via an issue board."
 ---
 

@@ -1,14 +1,7 @@
 ---
-
 title: "Field Team Meetings"
 description: "Overview of the primary meetings for the worldwide GitLab Field team"
 ---
-
-
-
-
-
-
 
 The below page overviews the primary all-hands meetings for the WW Field Team.
 
@@ -29,7 +22,7 @@ The high-level cadence of Field all-hands meetings in a given quarter is:
 ### WW Field Manager Call
 
 - **When:** Quarterly in the first month of each quarter. The call is 50 minutes.
-   - The call recording is shared with Japan/APAC managers once available with a CTA to watch the prepared remarks (watching the Q&A is not required). The CRO then leads a dedicated follow-up Japan/APAC Manager Q&A session 1-3 business days after the initial call.
+  - The call recording is shared with Japan/APAC managers once available with a CTA to watch the prepared remarks (watching the Q&A is not required). The CRO then leads a dedicated follow-up Japan/APAC Manager Q&A session 1-3 business days after the initial call.
 - **Who:** All Field Managers (people managers and above in the CRO's organization), People Business Partners supporting the Field, Sales Development Management
 - **What:** The goal of this meeting is to provide manager-specific updates, CTAs and enablement topics, and to give managers a forum to provide feedback and ask questions to senior leaders. The sample call format is:
    1. [5 min] Manager Icebreaker
@@ -56,11 +49,11 @@ For a full overview of the QBR planning and execution process, QBR request track
 
 ### WW Field Org Call
 
-- **When:** Quarterly in the second month of each quarter. Typically on a Monday or Tuesday in the morning PT for 50 minutes.  
-   - The call recording is shared with Japan/APAC team members once available with a CTA to watch the prepared remarks (watching the Q&A is not required). The CRO then leads a dedicated follow-up Japan/APAC Q&A session 1-3 business days after the initial call.
+- **When:** Quarterly in the second month of each quarter. Typically on a Monday or Tuesday in the morning PT for 50 minutes.
+  - The call recording is shared with Japan/APAC team members once available with a CTA to watch the prepared remarks (watching the Q&A is not required). The CRO then leads a dedicated follow-up Japan/APAC Q&A session 1-3 business days after the initial call.
 - **Who:** This meeting includes all members of the CRO organization as well as stakeholders of the Field team from the Marketing, Finance, Legal and People Groups.
-   - If you are in the Field organization and do not have the calendar invite, first confirm that your manager has opened a [role-based access request](/handbook/people-group/engineering/onboarding/#access-request-issue-creation) to add you to your team's Google Group (ex. sales-ent). Field attendance is informed by the sales-all Google Group, which is made up of all team sub-groups. Using this method, the calendar invite will auto-add new team members to the invite once they're added to their group.
-   - If you are not in the Field organization, reach out in #sales-vp to be added to this meeting series,
+  - If you are in the Field organization and do not have the calendar invite, first confirm that your manager has opened a [role-based access request](/handbook/people-group/engineering/onboarding/#access-request-issue-creation) to add you to your team's Google Group (ex. sales-ent). Field attendance is informed by the sales-all Google Group, which is made up of all team sub-groups. Using this method, the calendar invite will auto-add new team members to the invite once they're added to their group.
+  - If you are not in the Field organization, reach out in #sales-vp to be added to this meeting series,
 - **What:** The primary purpose of the call is to drive knowledge-sharing across the Field organization, with an emphasis on CRO and leadership business/organizational updates and Q&A time for Field team members and leadership. The typical format is:
    1. [20-30 min] CRO Organizational Update
       1. High-priority topics/announcements from the CRO and CRO LT
@@ -80,33 +73,37 @@ For a full overview of the QBR planning and execution process, QBR request track
 1. If you cannot join the call, consider reviewing the recorded call, or at minimum, read through the meeting agenda.
 1. If you have feedback on how we can improve the WW Field Org Call, share it in the post-meeting survey provided via Zoom when you log off the call.
 
-
 ## Enablement/Planning/Strategy Meetings
 
 ### Field Enablement Spotlight series
+
 - **When:** Weekly on Thursday at 9am Pacific time, except in the last two weeks of a quarter
 - **Who:** The entire GitLab Field team is invited to this meeting series. The series can be found on the [Field Enablement Google Calendar](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV81bjNnNjBsNTh0aHVtOWFvdnA4aWlzYXYzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 - **What:** The purpose of this series is to enable Field team members on the latest resources and selling tactics. Enablement topics vary weekly. See more on [the handbook page](/handbook/sales/training/sales-enablement-sessions/).
 
 ### Sales Group Conversation
+
 - **When:** Happens once every 8 weeks at 8am Pacific time
 - **Where:** Zoom link varies - please be sure to check the calendar invitation
 - **What:** The CRO Leaders will rotate and provide the company with an update on their business, overall team performance, notable wins, accomplishments, and relevant strategies planned.
 You can view previous updates in the "Group Conversation Sales" (previously "Functional Group Update Sales") folder on the Google Drive.
 
-### Sales Monthly [Key Review](/handbook/key-review/)
+### Sales Monthly [Key Review](/handbook/company/key-review/)
+
 - **When:** Happens once every month
 - **Where:** Zoom link varies - please check the calendar invitation
 - **What:** Michael McBride (CRO) will present to the CEO, CFO, and other company leaders a monthly Sales update.
 
 This update will include the current status of:
-   - Sales KPI's
-   - [OKR's](/handbook/company/okrs/fy21-q3/)
+
+- Sales KPI's
+- [OKR's](/handbook/company/okrs/fy21-q3/)
 
 The meeting will cover:
-   - the quarterly forecast
-   - QTD performance
-   - most recent month's performance
+
+- the quarterly forecast
+- QTD performance
+- most recent month's performance
 
 We will provide key takeaways as to what is on-track (green), needs improvement (yellow), or is of urgent concern (red).
 
@@ -114,7 +111,7 @@ We will review the standard IACV/ARR look back on historical performance, as wel
 
 ### Focus Fridays
 
-The Field team practices Focus Fridays. The goal is to encourage all field team members to clear out their calendars on Fridays as much as possible in hopes that this will help all of us be more efficient, allow space within our weeks for focused work, and reduce potential burnout. Guidance for Focus Fridays includes:  
+The Field team practices Focus Fridays. The goal is to encourage all field team members to clear out their calendars on Fridays as much as possible in hopes that this will help all of us be more efficient, allow space within our weeks for focused work, and reduce potential burnout. Guidance for Focus Fridays includes:
 
 - Cancel or move any standing meetings occurring on Fridays
 - Customer/prospect/partner/external meetings are exceptions

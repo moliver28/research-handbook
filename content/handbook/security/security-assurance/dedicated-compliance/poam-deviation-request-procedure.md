@@ -1,6 +1,5 @@
 ---
 title: "FedRAMP Vulnerability Deviation Request Procedure"
-controlled_document: true
 ---
 
 ## Submit a Request
@@ -13,7 +12,7 @@ Team members working with security vulnerabilities should read this procedure in
 
 ## Purpose
 
-In accordance with expectations set by the FedRAMP Authorization Act and FedRAMP Program Management Office (PMO), GitLab must follow a formal process to track and request approval (risk acceptance) from our sponsoring Agency Authorizing Official (AO) for any vulnerabilities that cannot be [remediated within SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas) due to scenarios described in the Scope section below. These are called vulnerability Deviation Requests (DRs) and are formally reported to our AO every month using [GitLab's Plan of Action & Milestones (POA&M) (internal only)](https://docs.google.com/spreadsheets/d/1Tj3_vqNp34CSIHZsiSI0eM2zdfG574CD/edit?usp=sharing&ouid=107738356047141217629&rtpof=true&sd=true). Deviation requests for risk adjustments (severity downgrades), false positives, and operational requirements require Authorizing Official (AO) approval.
+In accordance with expectations set by the FedRAMP Authorization Act and FedRAMP Program Management Office (PMO), GitLab must follow a formal process to track and request approval (risk acceptance) from our sponsoring Agency Authorizing Official (AO) for any vulnerabilities that cannot be [remediated within SLAs](/handbook/security/product-security/vulnerability-management/sla/) due to scenarios described in the Scope section below. These are called vulnerability Deviation Requests (DRs) and are formally reported to our AO every month using [GitLab's Plan of Action & Milestones (POA&M) (internal only)](https://docs.google.com/spreadsheets/d/1Tj3_vqNp34CSIHZsiSI0eM2zdfG574CD/edit?usp=sharing&ouid=107738356047141217629&rtpof=true&sd=true). Deviation requests for risk adjustments (severity downgrades), false positives, and operational requirements require Authorizing Official (AO) approval.
 
 ## Scope
 
@@ -67,7 +66,7 @@ The following definitions were adopted from the FedRAMP PMO and all 3 have issue
 [Risk adjustments](https://www.fedramp.gov/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.xlsx)
 {.h4}
 
-A reduction in risk compared to the the scanner-detected risk level of a finding. The risk level is typically represented by the severity of a finding, which in turn is informed by the CVSS score of the vulnerability. This adjustment must be justified by existing or new compensating controls which reduce likelihood and/or impact of exploitation on systems or in codebases detected as vulnerable. The difference calculated CVSSv3 score based on vendor advisories or existing mitigations must lower the CVSSv3 score enough to justify a lower risk rating. Risk Adjustment DRs are required for all S1/S2 vulnerabilities in 3rd party/vendor dependencies. Risk Adjustment DRs are not required for S3/S4 vulnerabilities in 3rd party/vendor dependencies.
+A reduction in risk compared to the scanner-detected risk level of a finding. The risk level is typically represented by the severity of a finding, which in turn is informed by the CVSS score of the vulnerability. This adjustment must be justified by existing or new compensating controls which reduce likelihood and/or impact of exploitation on systems or in codebases detected as vulnerable. The difference calculated CVSSv3 score based on vendor advisories or existing mitigations must lower the CVSSv3 score enough to justify a lower risk rating. Risk Adjustment DRs are required for all S1/S2 vulnerabilities in 3rd party/vendor dependencies. Risk Adjustment DRs are not required for S3/S4 vulnerabilities in 3rd party/vendor dependencies.
 For S3/S4 vulnerabilities in 3rd party/vendor dependencies, if they breach SLA while the label `Vulnerability::Vendor Package::Fix Unavailable` presents, from a compliance/reporting perspective that is okay as long as we are monitoring for when a fix does eventually become available. Once a fix is made available as indicated by the label `Vulnerability::Vendor Package::Fix Available`, the remediation SLAs restart from the date the fix is released by the vendor.
 
 - **TEMPORARY GUIDANCE ON VENDOR DEPENDENCY RISK ADJUSTMENT DRs**: Due to significant resource strain involved in processing risk adjustments for vendor dependencies based on vendor advisory information, there are no reporting obligations for GitLab at this time. This process is pending automation to address this constraint, so please do not submit Risk Adjustment DRs for Red Hat vendor dependencies, including UBI images. Please continue to apply the `Vulnerability::Vendor Base Container::Fix Unavailable` label and `Vulnerability::Vendor Package::Fix Unavailable` label as appropriate on the vulnerability issues until the creation of this DR type is automated.

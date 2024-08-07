@@ -8,7 +8,7 @@ This page is intended to help Product Managers at GitLab understand what data is
 
 The user-facing end of GitLab's data stack is comprised of our BI Tool, Tableau which is connected to our Snowflake data warehouse. The [Tableau handbook page](/handbook/business-technology/data-team/platform/tableau/) of the data team handbook has general information about Tableau aimed for a wider GitLab audience.
 
-#### Useful links for Product Managers
+### Useful links for Product Managers
 
 Here are some useful links that we recommend for you to bookmark:
 
@@ -17,29 +17,29 @@ Here are some useful links that we recommend for you to bookmark:
 - [DBT documentation](https://gitlab-data.gitlab.io/analytics/#!/overview) (where most of our models are documented)
 - [Service Ping Metrics Dictionary](https://metrics.gitlab.com/)
 - [Service Ping documentation](https://docs.gitlab.com/ee/development/service_ping/)
-- [Snowplow documentation](https://docs.gitlab.com/ee/development/snowplow/)
+- [Snowplow documentation](/handbook/business-technology/data-team/platform/snowplow/)
 - [Analytics Instrumentation Quick Links](https://about.gitlab.com/direction/analytics/analytics-instrumentation/#quick-links)
 - [Product Data Insights handbook](/handbook/product/product-analysis/)
 
-#### Getting Access
+### Getting Access
 
 - Everybody at GitLab should automatically have view access granted through Okta.
 - To create your own charts + dashboard, you'll need to have a Creator or Explorer license - you can read more about the Tableau license types [here](/handbook/business-technology/data-team/platform/tableau/#capabilities). Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New+Access+Request) asking for the appropriate license type. These access requests can be assigned to a data team manager.
 
-#### The 2 basic building blocks in Tableau are charts and dashboards
+### The 2 basic building blocks in Tableau are charts and dashboards
 
 - Charts are queries to the data warehouse, materialized into visualizations.
 - Dashboards are collections of charts and have a unique URL (like a "page").
 - If you have a Creator or Explorer license, you'll be able to create both of these.
 
-#### How do I know what tables are available?
+### How do I know what tables are available?
 
 - The data team uses a tool called [dbt](https://www.getdbt.com/) for our data transformation layer. A nice feature of dbt is dbt docs, which automatically creates documentation for all of the models in our schema. Our dbt docs instance can be found [here](https://gitlab-data.gitlab.io/analytics/#!/overview).
-    - Tableau will show a list of all tables available for querying when you form a connection to Snowflake in the Data Source pane.
-    - ![''](/handbook/business-technology/data-team/programs/data-for-product-managers/schemas.png)
-    - Table names are always prefixed by their source name. So the table that stores the ngroups table from the gitlab dotcom database is available at `legacy.gitlab_dotcom_groups`
+  - Tableau will show a list of all tables available for querying when you form a connection to Snowflake in the Data Source pane.
+  - ![''](/handbook/business-technology/data-team/programs/data-for-product-managers/schemas.png)
+  - Table names are always prefixed by their source name. So the table that stores the ngroups table from the gitlab dotcom database is available at `legacy.gitlab_dotcom_groups`
 
-##### How can I update or add more information to the dbt docs?
+#### How can I update or add more information to the dbt docs?
 
 You will need to locate the file you wish to update or create in the [gitlab-data analytics project](https://gitlab.com/gitlab-data/analytics). Please be sure to read and follow the [SQL style guide](/handbook/business-technology/data-team/platform/sql-style-guide/) when creating the changes. If you wish to update only the descriptions or information about tables you will be looking for a `schema.yml` file. If you wish to actually change the structure of tables it will be a `*.sql` file.
 
@@ -61,9 +61,9 @@ Next, create a branch and then submit an MR using the `dbt Model Changes` templa
 The first question we on the data team ask product managers is usually "are you interested in knowing this for self-managed or GitLab.com?" Our approach to answering your question differs greatly between the two. Although our self-managed offering has many more active customers, our GitLab.com offering has much more data available to analyze.
 
 - We have three primary data sources that are useful from a product perspective.
-    - **Service Ping** (for Self-Managed and GitLab.com)
-    - **GitLab.com Postgres Database** (for GitLab.com)
-    - **Snowplow** (for GitLab.com)
+  - **Service Ping** (for Self-Managed and GitLab.com)
+  - **GitLab.com Postgres Database** (for GitLab.com)
+  - **Snowplow** (for GitLab.com)
 
 ### Service Ping (Version App)
 
@@ -114,10 +114,10 @@ You can find details about those snippets on the [Product Manager Toolkit](/hand
 
 - Snowplow Analytics is an open-source enterprise event-level analytics platform that enables data collection from multiple platforms for advanced data legacy.
 - GitLab.com currently uses two of these snowplow tracking libraries: JavaScript and Ruby.
-    - With the JS library, we track a lot of front-end activity automatically (All page views, sessions, link clicks, some button clicks, etc.) We also utilize structured events to capture specific events with defined business logic.
+  - With the JS library, we track a lot of front-end activity automatically (All page views, sessions, link clicks, some button clicks, etc.) We also utilize structured events to capture specific events with defined business logic.
 - We do not track `user_id` on any of the snowplow events, making all events functionally anonymous. This severely limits the utility of these events.
 - We have found the [Snowplow Inspector](https://chrome.google.com/webstore/detail/snowplow-inspector/maplkdomeamdlngconidoefjpogkmljm?hl=en) to be very useful in tracing and debugging events being sent through the browser.
-- Snowplow is not sending data from self-managed instances. If they deem it helpful, the instance administrator can [configure their own Snowplow endpoint](https://docs.gitlab.com/ee/development/snowplow/#enable-snowplow-tracking) for the events.
+- Snowplow is not sending data from self-managed instances. If they deem it helpful, the instance administrator can [configure their own Snowplow endpoint](https://docs.gitlab.com/ee/api/settings.html#list-of-settings-that-can-be-accessed-via-api-calls) for the events.
 
 #### What can Product Managers do?
 
@@ -127,7 +127,7 @@ Because Snowplow doesn't rely on Service Ping and is mainly for GitLab SaaS, dat
 
 As mentioned, even though the anonymization of snowplow events is a major limitation, with the fast feedback, it is an effective source of data to measure feature adoption and usage.
 
-We recommend Product Managers and their teams use [Snowplow custom structured events](https://github.com/snowplow/snowplow/wiki/canonical-event-model#customstruct), which are Snowplow's canonical events. We have built [`Tracking`](https://docs.gitlab.com/ee/development/snowplow/implementation.html#snowplow-javascript-frontend-tracking) and [`GitLab::Tracking`](https://docs.gitlab.com/ee/development/snowplow/implementation.html#implement-ruby-backend-tracking), 2 wrappers for Snowplow JavaScript and Ruby Trackers respectively.
+We recommend Product Managers and their teams use [Snowplow custom structured events](https://github.com/snowplow/snowplow/wiki/canonical-event-model#customstruct), which are Snowplow's canonical events. We have built `Tracking` and `GitLab::Tracking`, 2 wrappers for Snowplow JavaScript and Ruby Trackers respectively.
 
 - JavaScript trackers can be used to collect users' frontend action, especially clicks.
 - Ruby trackers can be used to collect any event happening in the backend. For example, we currently use them for monitor:APM. More information in this [issue](https://gitlab.com/gitlab-org/gitlab/issues/121724)
@@ -136,7 +136,7 @@ To get started, use the [Snowplow event tracking template](https://gitlab.com/gi
 
 #### Snowplow structured event taxonomy
 
-Please read our [Snowplow Guide](https://docs.gitlab.com/ee/development/snowplow/index.html#structured-event-taxonomy) for more information around the recommended taxonomy.
+Please read our [Snowplow Guide](/handbook/business-technology/data-team/platform/snowplow/) for more information around the recommended taxonomy.
 
 #### Testing your events
 
@@ -187,7 +187,7 @@ TODO
 
 - [Analytics Instrumentation](https://about.gitlab.com/direction/analytics/analytics-instrumentation/) is part of the product org and is completely separate from the Data team. However, the Data team and the Analytics Instrumentation collaborate closely as Product Analytics Fusion Team.
 - The Analytics Instrumentation team members are the [DRI](/handbook/people-group/directly-responsible-individuals/)s for data collection across both GitLab.com and Self-Managed. They own Service Ping and Snowplow. They are the ones to go to for questions like:
-    - How do I instrument a new statistic for self-managed?
-    - What are the best practices for adding to service ping?
-    - How can I use snowplow to track a frontend interaction on GitLab.com?
-    - Can I utilize snowplow to track events on the server-side?
+  - How do I instrument a new statistic for self-managed?
+  - What are the best practices for adding to service ping?
+  - How can I use snowplow to track a frontend interaction on GitLab.com?
+  - Can I utilize snowplow to track events on the server-side?

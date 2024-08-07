@@ -6,7 +6,6 @@ title: Core Platform Sub-department
 
 Offer enterprise-grade operational experience of GitLab products from streamlined deployment and maintenance, disaster recovery, secure search and discoverability, to high availability, scalability, and performance.
 
-
 ## Mission
 
 Core Platform focuses on improving our capabilities and metrics in the following areas:
@@ -17,9 +16,9 @@ Core Platform focuses on improving our capabilities and metrics in the following
 - [Distribution:Deploy](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-deploy)
 - [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/)
 - [Gitaly](/handbook/engineering/infrastructure/core-platform/systems/gitaly/)
-- [Cloud Connector](/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/)
+- [Cloud Connector](/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/)
 - [Global Search](/handbook/engineering/infrastructure/core-platform/data_stores/search/)
-- [Tenant Scale](/handbook/engineering/infrastructure/core-platform/data_stores/tenant-scale/)
+- [Tenant Scale](/handbook/engineering/infrastructure/core-platform/tenant-scale/)
 
 ## All Team Members
 
@@ -35,7 +34,7 @@ The following people are permanent members of teams that belong to the Core Plat
 
 ### Distribution:Build
 
-{{< team-by-manager-slug manager="sissiyao" team="Build" >}}
+{{< team-by-manager-slug manager="plu8" team="Build" >}}
 
 ### Distribution:Deploy
 
@@ -43,7 +42,7 @@ The following people are permanent members of teams that belong to the Core Plat
 
 ### Geo
 
-{{< team-by-manager-slug manager="juan-silva" >}}
+{{< team-by-manager-slug manager="luciezhao" >}}
 
 ### Gitaly
 
@@ -59,7 +58,7 @@ The following people are permanent members of teams that belong to the Core Plat
 
 ### Tenant Scale
 
-{{< team-by-manager-slug manager="arturo-herrero" >}}
+{{< team-by-manager-slug manager="sissiyao" >}}
 
 ## Stable Counterparts
 
@@ -120,14 +119,14 @@ To address this need, the Core Platform sub-department has established a cross-g
 
 List of frontend collaborations:
 
-| Engineer | Group | Roadmap Item | Milestones | Notes
+| Engineer | Group | Roadmap Item | Milestones | Notes |
 | ------ | ------ | ------ | ------ | ------ |
 | Zack Cuddy | Global Search | [GitLab Chat](https://gitlab.com/groups/gitlab-org/-/epics/10220) | 16.0 | |
 | Zack Cuddy | Tenant Scale | [Migrate user tabs to Vue](https://gitlab.com/groups/gitlab-org/-/epics/9056) | 16.1 | |
 | Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.2 - 16.10 | Part-time |
 | Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.11 - Present | Full-time |
 
-The frontend roadmap items above are broken down into specific epics and issues, and they can also be labelled with `Core Platform-FE` tracked in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board.
+The frontend roadmap items above are broken down into specific epics and issues, and they can also be labeled with `Core Platform-FE` tracked in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board.
 
 ### Increasing Efficiency through Documenting Decisions
 
@@ -165,6 +164,7 @@ To bring the best possible candidate experience and stay competitive, we schedul
    1. Hiring a Staff and above engineer
 
 Additional Guidelines:
+
 1. There must be at least one behavioral style interview that is administered by another IC. This could be another engineer on the team or a Product Manager, for example. Regardless of who conducts this interview, we still want to ensure there are at least 2 scorecards from engineers.
    1. Other teams who would like to adopt this consolidation approach can follow this additional guideline.
 1. When the `Technical Assessment` and `Peer Team Member Interview` are separate, the hiring manager can feel free to determine how many engineers are invited to each interview as long as a minimum of 2 engineers will provide **independent** feedback of technical assessments.
@@ -201,22 +201,53 @@ The Core Platform teams leverage the following software or SaaS services to deli
 | -----    | -----       | -----   | -----      | -----         | -----    |
 | packagecloud.io | [https://packagecloud.io/](https://packagecloud.io/) | Annual | March 30th | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/485), [last renewal PO](https://gitlab.coupahost.com/requisition_headers/618)  |
 | dependencies.io | [https://www.dropseed.io/](https://www.dropseed.io/ ) | Annual | November 1st | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/514) |
-| postgres.ai     | [https://postgres.ai/](https://postgres.ai/)     | Annual  | May 28th          | Database     | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/676) |
+| postgres.ai     | [https://postgres.ai/](https://postgres.ai/)     | Annual  | May 28th          | Database     | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/1310) |
+
+## Lunch and Learns
+
+We hold monthly "lunch and learn" knowledge sharing sessions where Core Platform team members can learn about work happening in other teams and gain experience presenting.
+
+In order to accommodate our globally distributed team, we have the following async/timezone considerations:
+
+- Schedule in a time slot that is convenient for whoever is presenting that month.
+- Share agenda with slide deck, recording, and any other relevant materials at least a couple of days before so that team members can review and add questions/comments ahead of time.
+
+These sessions were [intially proposed and piloted](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/100) in the Data Stores stage and are now expanded to include the entire sub-department.
+
+Sessions are recorded and added to the [Monthly Lunch and Learn YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kr4pV627OR9u26ZXX3JrgSf).
+
+### 2024 Schedule
+
+To sign up for a month, simply open an MR to the schedule below to add yourself and assign `@nhxnguyen` for review.
+
+| Month | Presenter | Topic | Recording |
+| ----  | --------- | ----  | --------- |
+| April |     @bshah11       |  Postgress: [Zero-downtime Postgres Major Version Upgrade](https://postgresconf.org/conferences/2024/program/proposals/zero-downtime-postgres-major-version-upgrade)     | https://youtu.be/lv3otnWBMzY |
+| May   |  @manojmj | Progress: The story of how we leveraged housekeeper, YAML & GitLab Pages to build alignment | https://youtu.be/zUl5dMF5gz0  |
+| June  |           |       |          |
+| July  |     @terrichu     |   [Advanced search basics, integration, indexing and search](https://docs.google.com/presentation/d/1Fy3pfFIGK_2ZCoB93EksRKhaS7uuNp81I3L5_joWa04/edit?usp=sharing_)    | https://youtu.be/5OXK1isDaks |
+| August | @sxuereb | PromQL Basics, Mimir and our exporters       ||
+| September |  @bshah11     |    TBD  ||
+| October |         |       |          |
+| November |        |       |          |
+| December |        |       |          |
 
 ## Internal Opportunities Pilot
 
 At GitLab, we encourage team members to explore their interests in other domains and generally support moves between teams. This helps with team member retention and career development. It can also help the receiving team gain valuable exposure to other parts of the product. However, we don't have a well-defined process to connect interested team members with available opportunities. For example, sometimes we execute borrow requests where specific engineers are requested for assignment and there is no opportunity for other engineers to express interest. We can encourage engineers interested in a move to look at job postings. But there could be other opportunities for temporary assignments or exchanges if we had an overview of interest across the organization.
 
 We are piloting a process within Core Platform to help team members interested in exploring different teams. This process is applicable to temporary assignments, i.e. [Rapid Actions](/handbook/product/product-processes/#rapid-action), [Borrows](/handbook/product/product-processes/#borrow), [Internship](/handbook/people-group/learning-and-development/internship-for-learning/) and mutual interests of a temporary exchange between 2 individuals. Other assignment changes such as [Realignment](/handbook/people-group/promotions-transfers/#realignment-process) and new job openings are out of scope.
+
 1. A team member can express their interest in other domains either to their direct manager or skip-level manager. If there is already a job opening in their area of interest, we can encourage them to apply following the [internal hiring process](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/).
 2. In the Core Platform staff meeting agenda, managers will highlight team members who have expressed interest. Their names will be kept confidential, but we will provide details about what areas they are interested in.
 3. If other managers have a potential opportunity for a given team member, they can connect with the team member's manager or skip-level manager. An opportunity may be a temporary opening such as a borrow request or another team member who may be interested in an exchange. Ultimately, any proposed moves are detailed in an issue with clear terms and reviewed and agreed by the following stakeholders:
    1. Giving team's Product Manager and Engineering Manager
    1. Receiving team's Product Manager and Engineering Manager if they are part of Core Platform
-   2. Director of Product Management and Director of Engineering
+   1. Director of Product Management and Director of Engineering
 
 The following conditions are followed when initiating the process:
+
 1. The applying candidate's last performance rating was `Performing` and there is no ongoing performance concerns at the time of application.
 2. The length of duration is what is defined by the Rapid Action and Borrow requests. For Internship, it is typically [6 weeks to 3 months](/handbook/people-group/learning-and-development/internship-for-learning/#:~:text=How%20long%20does%20an%20internship%20of%20this%20nature%20last%3F).
 3. At any time, the maximum concurrent temporary assignments cannot exceed 2 individuals for the roles within Core Platform. Note that there is no limit to roles for Rapid Actions and Borrows of company priority initiatives.
-4. Other specific requirements of each temporary arrangement, for example a condition of Internship says 'If your manager has coverage, you can spend a percentage of your time working (through an ‘Internship’) with another team.'
+4. Other specific requirements of each temporary arrangement, for example a condition of Internship says 'If your manager has coverage, you can spend a percentage of your time working (through an 'Internship') with another team.'

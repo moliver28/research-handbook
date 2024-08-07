@@ -1,18 +1,16 @@
 ---
-
 title: "Hidden IT Groups"
 ---
 
 ## Hidden IT Groups
 
-### What is a "Hidden IT Group"?  
+### What is a "Hidden IT Group"?
 
-Within IT organizations, you will find there is a formal organization chart, with defined roles and responsibilities.   These often form around functional areas like IT Operations, Application Development, Security or Portfolio Management, or Service Management. There are also hidden and invisible 'groups' that are defined by the traits and characteristics that the people share.  While these groups **might** align to a formal organization in the org chart, they might not.  
+Within IT organizations, you will find there is a formal organization chart, with defined roles and responsibilities.   These often form around functional areas like IT Operations, Application Development, Security or Portfolio Management, or Service Management. There are also hidden and invisible 'groups' that are defined by the traits and characteristics that the people share.  While these groups **might** align to a formal organization in the org chart, they might not.
 
 #### Why are hidden groups relevant
 
 When you consider modern organizations and culture, often we organize into groups that share common values, culture, processes, language, standards, and norms.   Understanding the culture and values of these groups is incredibly important when we try to connect with them and offer solutions to alleviate their pain points.
-
 
 | Trait      | Description              |
 | --------- | ------------------------- |
@@ -29,11 +27,11 @@ When you consider modern organizations and culture, often we organize into group
 In IT, there are several 'hidden groups' that describe groups of people and their shared values and common traits.   While there are many possible 'IT Groups' to explore, the goal here is to offer a simple framework of the most typical and common divisions in order to understand their needs, goals, challenges and language.
 
 ### Groups vs Personas
+
 - Groups are **Not** personas. Rather 'personas' are found inside of different groups.   Think of these IT groups as a collection of different roles and personas.
 - Groups are **Not (necessarily)** Organizations, but many places might have teams defined closely to these 'Group' boundaries.
 
 ![IT Groups 1.0](/images/it-groups-1.0.png)
-
 
 | Hidden IT groups                 | [**Organize**](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/organize)                                                                                                                                                                        | [**Build / Develop**](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/build)                                                                                                                                                                              | [**Test**](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/test)                                                                                                                                                                                       | [**Run**](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/run)                                                                                                                                                                                                                                                           | [**Protect**](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/protect)                                                                                                                                                                                                                                        |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -48,9 +46,6 @@ In IT, there are several 'hidden groups' that describe groups of people and thei
 | **Hidden IT Groups**             | **Organize**                                                                                                                                                                        | **Build / Develop**                                                                                                                                                                              | **Test**                                                                                                                                                                                       | **Ops**                                                                                                                                                                                                                                                           | **Protect**                                                                                                                                                                                                                                        |
 | GitLab  **Stage Mapping** | Manage, Plan                                                                                                                                                                        | Create, part of Verify                                                                                                                                                                           | Verify, part of Plan                                                                                                                                                                           | Package, Release, Configure, Monitor                                                                                                                                                                                                                               | Secure, Protect                                                                                                                                                                                                                                     |
 
-
-
-
 #### - What about DevOps?
 
 DevOps is a movement, bringing teams together to work across their group differences.
@@ -62,8 +57,3 @@ These hidden IT groups relate to one or many stages.  See the above table.
 #### - Are there other 'hidden groups'?
 
 The closer you look at any of these macro groups, you might see 'sub groups' with in them.  For example in the **Run** group, you might discover a *service* faction or an *infrastructure/network* faction.  Or in the **QA/Test** group, you may find *performance testing* and *devtest* factions.
-
-
-
-
-                                                                                                 |

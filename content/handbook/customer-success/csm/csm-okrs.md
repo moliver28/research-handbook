@@ -1,14 +1,7 @@
 ---
-
 title: "CSM OKRs"
 description: "Field guide for CSMs on team OKRs"
 ---
-
-
-
-
-
-
 
 For more information visit GitLabs [Objective and Key Results (OKRs)](/handbook/company/okrs/) page.
 

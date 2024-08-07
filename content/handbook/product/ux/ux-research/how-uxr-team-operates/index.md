@@ -40,23 +40,14 @@ The assigned UX Researchers are the go-to person for their assigned [stage group
 
 | Section: Stage Groups | Assigned UX Researchers |
 |---------|-------------------------------|
-| **Core Platform**: Distribution, Geo, Cloud Connector, Global Search, Tenant Scale <br>**SaaS Platforms**: GitLab Dedicated <br>**CD**: Environments  <br>**Analytics**: Observability | [Will Leidheiser] |
-| **Fulfillment**: Purchase, Utilization, Fulfillment Platform, Billing & Subscription Management, Provision | [Nicholas Hertz] <br> [Anne Lasch] |
-| **Analytics**: Product Intelligence, Product Analytics <br>**ModelOps**: AI Assisted, AI Framework| [Nicholas Hertz] <br> [Anne Lasch] |
-| **Manage**: Import, Foundations | [Karen Li] (interim cover)|
-| **Plan**: Project Management, Product Planning, Optimize, Knowledge | [Danika Teverovsky]|
-| **Secure**: Static Analysis, Dynamic Analysis, Composition Analysis, Vulnerability Research <br> **Govern**: Security Policies, Threat Insights, Compliance, Authentication | [Michael Oliver] |
-| **Create**: Source Code, Editor, Code Review, Code Creation, Editor Extensions | [Ben Leduc-Mills] |
-| **CI**: Pipeline Execution, Pipeline Authoring, Runner, Pipeline Security, Package | [Erika Feldman] |
-
-[Will Leidheiser]: https://gitlab.com/wleidheiser
-[Nicholas Hertz]: https://gitlab.com/NickHertz
-[Michael Oliver]: https://gitlab.com/moliver28
-[Ben Leduc-Mills]: https://gitlab.com/leducmills
-[Erika Feldman]: https://gitlab.com/enf
-[Danika Teverovsky]: https://gitlab.com/dteverovsky
-[Anne Lasch]: https://gitlab.com/alasch
-[Karen Li]: https://gitlab.com/karenyli
+| **Systems**: Distribution, Geo, Cloud Connector <br> **Data Stores**: Global Search, Tenant Scale, Database <br> **SaaS Platforms**: GitLab Dedicated, US Public Sector Services, Delivery <br> **Deploy**: Environments <br> **Monitor**: Observability | [Will Leidheiser](https://gitlab.com/wleidheiser) |
+| **Fulfillment**: Purchase, Utilization, Fulfillment Platform, Billing & Subscription Management, Provision <br>**AI-Powered**: AI Framework, Duo Chat, AI Model Validation | [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Anne Lasch](https://gitlab.com/alasch) |
+| **Monitor**: Product Intelligence, Product Analytics | [Nicholas Hertz](https://gitlab.com/NickHertz) |
+| **Manage**: Import and Integrate, Design System, Personal Productivity, UX Paper Cuts | [Thaina Tavares](https://gitlab.com/thaina.t) |
+| **Plan**: Project Management, Product Planning, Optimize, Knowledge | [Danika Teverovsky](https://gitlab.com/dteverovsky) |
+| **Secure**: Static Analysis, Secret Detection, Dynamic Analysis, Composition Analysis, Vulnerability Research <br> **Govern**: Security Policies, Threat Insights, Compliance, Authentication, Anti-Abuse, Authorization | [Karen Li](https://gitlab.com/karenyli) (interim cover) |
+| **Create**: Source Code, Code Review, IDE, Editor Extensions, Code Creation | [Ben Leduc-Mills](https://gitlab.com/leducmills) |
+| **Verify**: Pipeline Execution, Pipeline Authoring, Runner, Hosted Runners <br> **Package**: Package <br> **Govern**: Pipeline Security | [Erika Feldman](https://gitlab.com/enf) |
 
 ## How UX Researchers work
 
@@ -77,7 +68,8 @@ UX Researchers have the following guidance on how they should be spending their 
 
 - **[<10% Solution Validation](/handbook/product/ux/ux-research/solution-validation-and-methods/)** - This translates to less than 10% of a researcher's time being allocated to assisting Product Designers and Product Design Managers with Solution Validation research. Solution validation research at GitLab is led by Product Designers, with support from Product Design Managers. Occasionally, Product Design Managers may need to escalate queries about solution validation research to UX Researchers for advice and feedback.
 
-      - If capacity allows, UX Researchers can help with conducting solution validation research.
+  - If capacity allows, UX Researchers can help with conducting solution validation research.
+
 Product Managers and Product Designers follow the steps in the [Validation phase 4](/handbook/product-development-flow/#validation-phase-4-solution-validation) when planning and executing solution validation research.
 
 - **[~60% Problem Validation](/handbook/product/ux/ux-research/problem-validation-and-methods/)** - Researchers spend more than half of their time working with Product Managers conducting Problem Validation research, with the long-term goal of investing their time towards training and mentoring.

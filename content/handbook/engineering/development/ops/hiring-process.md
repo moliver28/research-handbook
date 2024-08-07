@@ -1,15 +1,9 @@
 ---
-
 title: Ops Hiring Process
 ---
 
-
-
-
-
-
-
 We are running with some limited capacity in the recruiting team and we are asking hiring managers to cover all steps in the hiring process. Please prioritize your time in the following order when spending time on recruiting:
+
 1. References & Justifications
 2. Filling in scorecards/feedback
 3. Sourcing/Reviewing applications
@@ -80,6 +74,7 @@ In addition to reviewing candidates in the Evergreen req, you may also wish to d
 1. After importing to Greenhouse, edit the profile (under Details tab, there is an edit button) to include the email and any other contact information. This is important because Greenhouse automatically sends an email to the candidate when is moved from prospect to candidate to fill a form which includes the CV to be uploaded there.
 
 **Resources**:
+
 - Mark Deubel's podcast: [Foundations - Sourcing Outreach](https://doobles.podbean.com/e/building-the-foundation-sourcing-outreach-pt1-episode-3/) and [Guest Show - Sourcing outreach](https://doobles.podbean.com/e/guest-show-sourcing-outreach-with-dov-and-mark/)
 - [Talent Acquisition Reach out templates](https://docs.google.com/presentation/d/1ySqgLoYnFUGtb7hdywav6iSb_NBPRhfIs6WZlGne6Ww/edit?usp=sharing) (private)
 - [Ops reach out templates](https://gitlab.com/gitlab-com/ops-sub-department/ops-hiring-process/-/blob/main/outreach-messages.md) (private)
@@ -136,7 +131,7 @@ If you're unable to submit it within that timeframe, please reach out to the Hir
     1. ⭐️ Two "Strong Yes" scorecard ratings minimum.
     1. All must-haves assessed and positive.  These should be checked in the Justification scorecard.  The ratings should reflect the hiring manager's evaluation of the candidate based on all feedback.  They are _not_ an average of scores given by the interview panel.
     1. ✔️ Majority (e.g. 5 out of 8) of  nice-to-haves assessed and positive in Justification.   These should be checked in the Justification scorecard.  The ratings should reflect the hiring manager's evaluation of the candidate based on all feedback.  They are _not_ an average of scores given by the interview panel.
-    1. 👎 Negative scorecards (No, Definitely Not) from interviewers should be explicitly addressed with a brief comment in the Justification.  
+    1. 👎 Negative scorecards (No, Definitely Not) from interviewers should be explicitly addressed with a brief comment in the Justification.
     1. ❌ Any previous GitLab job application rejections must be explicitly addressed in Justification. (Confirm with TA)
     1. 🚩 Any red flag must be explicitly addressed in Justification.
         1. 📃  Each flag should have a corresponding item in the "How do we intend on setting this candidate up for success?" section to explain how the Hiring Manager plans to mitigate the flag.

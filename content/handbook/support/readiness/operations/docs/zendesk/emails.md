@@ -86,12 +86,12 @@ As the Zendesk emails changes are unique in deployment, please see
 [Zendesk emails change management](/handbook/support/readiness/operations/docs/change_management#zendesk-emails-change-management)
 for more information.
 
-#### Labels to use
+### Labels to use
 
 For all issues and MRs involving Zendesk emails, the label
 `Support-Ops-Category::Zendesk Settings` should be used.
 
-#### Change criticality
+### Change criticality
 
 Due to the nature and impact adding/editing/deleting Zendesk emails imposes,
 all issues/MRs related to Zendesk emails will be classified as

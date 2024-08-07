@@ -1,16 +1,7 @@
 ---
-
 title: "Field Enablement"
 description: "The Field Enablement team's mission is to design and deliver effective enablement solutions to field team members and partners that grow expertise and confidence needed to drive efficient, predictable, and scalable growth for GitLab"
 ---
-
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -75,7 +66,6 @@ The Field Enablement and Communications teams track and measure success in three
    1. Were we able to observe an intended behavior? Examples: successful completion of operational tasks, effective message articulation.
    1. Were we able to attain an intended business outcome? Examples: lower ramp time, accelerated deal cycle time, higher volume or quality of pipeline, lower churn/contraction, improved productivity.
 
-
 ## How to Work With Us
 
 When considering how to engage with the Field Enablement team, stakeholders should take into account the following questions:
@@ -91,7 +81,7 @@ The answer to the above questions will dictate how the Enablement team triages r
 
 The **[Field Announcement request issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=field-announcement-request&_gl=1*jp1h94*_ga*NTUxMTYwMTU0LjE2MDIwOTI5Nzc.*_ga_ENFH3X7M5Y*MTY4OTM2ODc3NS4zMjQuMS4xNjg5MzY4OTQ1LjAuMC4w)** gathers requests from DRIs/stakeholders across the business to launch or announce something to the Field team – either the full team or a large segment of it. Segment-specific communications are currently out of scope and will require an [Field Enablement request flow](/handbook/sales/field-operations/field-enablement/#field-enablement-request-issue). **Requesters / DRIs should open an issue using this template to track:**
 
-1. Upcoming projects or initiatives that will impact the Field team’s processes or workflows
+1. Upcoming projects or initiatives that will impact the Field team's processes or workflows
 1. Announcements that teams would like the Field to be aware of (organizational or otherwise)
 1. New resources or tools the Field should know about
 1. Requests for feedback (i.e. surveys) from the Field team
@@ -110,7 +100,7 @@ The **[Field Enablement request issue](https://gitlab.com/gitlab-com/sales-team/
 
 The issue template includes questions and instructions to scope the intended audience(s) for the enablement activities, learning objectives and priority. It also includes questions to determine if Field Communications activities are also required. Please complete the required sections of the issue template in full, providing as much detail as possible. Note that ALL questions must be answered prior to Field Enablement triaging your request.
 
-Once the request has been triaged by Field Enablement program managers (PM), the PM will conduct any additional exploration with the requester/DRI to determine a workback plan.  
+Once the request has been triaged by Field Enablement program managers (PM), the PM will conduct any additional exploration with the requester/DRI to determine a workback plan.
 
 ### GTM Enablement Process
 
@@ -123,7 +113,6 @@ If Field Enablement determines that your initiative requires a GTM Enablement Pr
 ### Connect in Slack
 
 To reach the Field Enablement team on Slack, use #field-enablement-team
-
 
 ## Key Programs
 
@@ -164,46 +153,46 @@ To reach the Field Enablement team on Slack, use #field-enablement-team
 ## Field Enablement groups, projects, and labels
 
 - **Groups**
-    - Use the GitLab.com group for epics that may include issues within and outside the Sales Team group
-    - Use the GitLab Sales Team group for epics that may include issues within and outside the Field Operations group
+  - Use the GitLab.com group for epics that may include issues within and outside the Sales Team group
+  - Use the GitLab Sales Team group for epics that may include issues within and outside the Field Operations group
 - **Projects**
-    - Create issues under the “Enablement” project
+  - Create issues under the "Enablement" project
 - **Labels**
-    - **Team labels**
-        - `field enablement` - issue initially created, used in templates, the starting point for any label that involved Field Enablement
-        - `FieldOps` - label for issues that we want to expose to the VP of Field Operations; these will often mirror issues with the `FE priority::1` label
-    - **Stakeholder/Customer labels**
-        - `FE:CS enablement` - label for Field Enablement issues related to enabling Customer Success (CS) roles
-        - `FE:sales enablement` - label for Field Enablement issues related to enabling Sales roles
-        - `FE:partner enablement` - label for Field Enablement issues related to enabling Partners
-    - **Initiative labels**
-        - `field accreditation` - label for issues related to /handbook/sales/training/field-certification/
-        - `field communications` - label for items that include work by/with the Field Communications team within Field Enablement
-        - `field events` - label for Field Enablement-supported events (e.g. QBRs, SKO, President's Club, etc.)
-        - `force management` - label for issues related to Force Management engagement
-            - `vff` - label for Value Framework Feedback
-            - `vff::new` - starting point for Value Framework feedback
-            - `vff::accepted` - Value Framework feedback that will be actioned on
-            - `vff::deferred` - Value Framework feedback that will be deferred until more information is gathered
-            - `vff::declined` - Value Framework feedback that is declined (no action will be taken)
-        - `lxp` - label for GitLab Learning Experience Platform
-        - `sales onboarding` - label for issues related to sales/field onboarding
-        - `QBR` - requests from Sales QBRs
-        - `FE: Revenue Programs` - label for issues related to Field Enablement-led pipeline growth & acceleration programs
-        - `sales enablement sessions` - label for weekly virtual sales enablement series
-        - `sko` - label for issues related to Sales Kickoff
-        - `status:plan` - used in conjunction with sales enablement sessions to indicate when a session topic has been prioritized but not yet scheduled
-        - `status:scheduled` - used in conjunction with sales enablement sessions to indicate when a session topic has been prioritized and scheduled
-        - `strategy` - plans, methods, or series of maneuvers or stratagems for obtaining specific goals or results
-    - **Status labels**
-        - `FE status::triage` - assigned to new requests before priority status is determined
-        - `FE status::wip` - work in progress that has been accepted and assigned to a DRI
-        - `FE status::backlog` - things in the queue not currently being worked
-    - **Priority labels**
-        - `FE priority::new request` - label for new requests that have not yet been prioritized
-        - `FE priority::1` - work that directly supports an OKR
-        - `FE priority::2` - work that does not directly support an OKR but has a large impact on the field team
-        - `FE priority::3` - work that does not directly support an OKR and has a low to medium impact on the field
+  - **Team labels**
+    - `field enablement` - issue initially created, used in templates, the starting point for any label that involved Field Enablement
+    - `FieldOps` - label for issues that we want to expose to the VP of Field Operations; these will often mirror issues with the `FE priority::1` label
+  - **Stakeholder/Customer labels**
+    - `FE:CS enablement` - label for Field Enablement issues related to enabling Customer Success (CS) roles
+    - `FE:sales enablement` - label for Field Enablement issues related to enabling Sales roles
+    - `FE:partner enablement` - label for Field Enablement issues related to enabling Partners
+  - **Initiative labels**
+    - `field accreditation` - label for issues related to /handbook/sales/training/field-certification/
+    - `field communications` - label for items that include work by/with the Field Communications team within Field Enablement
+    - `field events` - label for Field Enablement-supported events (e.g. QBRs, SKO, President's Club, etc.)
+    - `force management` - label for issues related to Force Management engagement
+      - `vff` - label for Value Framework Feedback
+      - `vff::new` - starting point for Value Framework feedback
+      - `vff::accepted` - Value Framework feedback that will be actioned on
+      - `vff::deferred` - Value Framework feedback that will be deferred until more information is gathered
+      - `vff::declined` - Value Framework feedback that is declined (no action will be taken)
+    - `lxp` - label for GitLab Learning Experience Platform
+    - `sales onboarding` - label for issues related to sales/field onboarding
+    - `QBR` - requests from Sales QBRs
+    - `FE: Revenue Programs` - label for issues related to Field Enablement-led pipeline growth & acceleration programs
+    - `sales enablement sessions` - label for weekly virtual sales enablement series
+    - `sko` - label for issues related to Sales Kickoff
+    - `status:plan` - used in conjunction with sales enablement sessions to indicate when a session topic has been prioritized but not yet scheduled
+    - `status:scheduled` - used in conjunction with sales enablement sessions to indicate when a session topic has been prioritized and scheduled
+    - `strategy` - plans, methods, or series of maneuvers or stratagems for obtaining specific goals or results
+  - **Status labels**
+    - `FE status::triage` - assigned to new requests before priority status is determined
+    - `FE status::wip` - work in progress that has been accepted and assigned to a DRI
+    - `FE status::backlog` - things in the queue not currently being worked
+  - **Priority labels**
+    - `FE priority::new request` - label for new requests that have not yet been prioritized
+    - `FE priority::1` - work that directly supports an OKR
+    - `FE priority::2` - work that does not directly support an OKR but has a large impact on the field team
+    - `FE priority::3` - work that does not directly support an OKR and has a low to medium impact on the field
 
 ## Field Enablement Issue Boards
 

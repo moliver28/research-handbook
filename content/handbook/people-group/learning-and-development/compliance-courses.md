@@ -10,7 +10,7 @@ GitLab has several compliance courses and resources. Explore the chart below to 
 
 | Training     | Tool  | Frequency   |  Responsible Team   |
 |---------|-----------------|------------------|------------------|
-| [Anti-Harassment](/handbook/anti-harassment/)    | WILL Interactive | Onboarding <br> Varies based on Location | Learning & Development |
+| [Anti-Harassment](/handbook/people-group/anti-harassment/)    | WILL Interactive | Onboarding <br> Varies based on Location | Learning & Development |
 | [Security](/handbook/security/#training-delivery)    | KnowBe4 | Onboarding <br> Annually by the end of August | Security |
 | Compliance    | Navex | Annual | Legal |
 
@@ -127,4 +127,4 @@ You can create a free account on the [Compliance Next](https://www.navexglobal.c
 
 One of the most unique aspects of Compliance Next is connecting directly with experts and peers. The platform offers different types of educational resources that you can watch, read, and use—all of which provide the ability to comment and ask questions to compliance professionals and communinity members.
 
-If you have any questions or need further help, please ping people ops in the `#people-connect` channel in slack.
+If you have any questions or need further help, please reach out to the People Connect team via HelpLab.

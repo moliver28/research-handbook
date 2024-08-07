@@ -1,14 +1,7 @@
 ---
-
 title: "Triage Operations"
 description: "Automation and tooling for processing un-triaged issues at GitLab"
 ---
-
-
-
-
-
-
 
 Any GitLab team-member can triage issues. Keeping the number of [un-triaged issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#triaging-issues) low is essential for maintainability, and is our collective responsibility.
 
@@ -146,6 +139,7 @@ This report contains the relevant bugs, feature requests, and Deferred UX issues
 The goal is to achieve [complete-triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage#complete-triage) by the Product Manager, Engineering Manager, UX team member in that area.
 
 The report itself is divided into 4 main parts.
+
 * Feature proposals
 * Deferred UX issues
 * Frontend bugs
@@ -173,7 +167,6 @@ This section contains issues with the `~"type::feature"` label without a milesto
 * Triage actions:
   1. If the issue is a duplicate or irrelevant, close the issue out.
   1. Assign a milestone either to a versioned milestone, `Backlog` or `Awaiting further demand` milestone.
-
 
 ##### Frontend bugs
 
@@ -203,7 +196,7 @@ This section contains bugs which has past our targeted SLO based on the severity
 
 ##### Heatmap for ~customer bugs
 
-This section contains a table displaying the open issues for a group labelled with `~"customer"` and `~"bug"`. There is a breakdown by the assigned severity and priority labels
+This section contains a table displaying the open issues for a group labeled with `~"customer"` and `~"bug"`. There is a breakdown by the assigned severity and priority labels
 
 #### Group level merge requests that may need attention
 
@@ -482,7 +475,7 @@ graph LR
 
 * Automation conditions:
   * MR has the `Community contribution` label set
-  * MR not currently labelled as `Spam`
+  * MR not currently labeled as `Spam`
   * MR content matches phrases associated with inappropriate and abusive activity (More information can be found in the Processor implementation)
 * Automation actions:
   * Posts a note linking to [GitLab Website Terms of Use](/handbook/legal/policies/website-terms-of-use/)
@@ -494,9 +487,9 @@ graph LR
 
 #### Ensure priorities for availability issues
 
-For issues labelled `~"availability"`, the minimal are enforced with the
+For issues labeled `~"availability"`, the minimal are enforced with the
 guidelines at
-<https://about.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability-prioritization>
+<https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability-prioritization>
 
 #### Ensure no deprecated backstage labels are added
 
@@ -766,22 +759,23 @@ The following is the policy for identification and auto-closure of inactive bugs
 
 * If a `~"severity::3"` or `~"severity::4"` `~"type::bug"` issue is inactive for at least 12 months, it will be
 identified as eligible for auto-closure. At this point, the following actions occur:
-    * Application of `~"vintage"` to indicate the issue has been inactive for a year.
-    * Application of `~"stale"` to indicate that it is currently being identified for auto-closure.
-    * Comment by GitLab Bot to the author to check whether the reported bug still persists and to comment accordingly within the next 7 days.
+  * Application of `~"vintage"` to indicate the issue has been inactive for a year.
+  * Application of `~"stale"` to indicate that it is currently being identified for auto-closure.
+  * Comment by GitLab Bot to the author to check whether the reported bug still persists and to comment accordingly within the next 7 days.
 * After 7 days, one of the below mentioned actions happen:
-    * Issues which have not received a comment will be closed and the `~"auto-closed"` is applied.
-    * Issues with a comment from anyone other than the gitlab-bot in the last 7 days are considered active and `~"stale"` is removed
+  * Issues which have not received a comment will be closed and the `~"auto-closed"` is applied.
+  * Issues with a comment from anyone other than the gitlab-bot in the last 7 days are considered active and `~"stale"` is removed
 * Policy: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/stages/hygiene/close-stale-bugs.yml>
 
 #### Prompt for Tier labels on issues
 
-Tier labels should be applied to issues to specify the license tier of feature. This policy prompts the Product Manager for the applied group label to add the license tier label to issues that are scheduled for the current milestone and labelled with `~direction`.
+Tier labels should be applied to issues to specify the license tier of feature. This policy prompts the Product Manager for the applied group label to add the license tier label to issues that are scheduled for the current milestone and labeled with `~direction`.
 
 The possible tier labels to be applied are:
-  * ~"GitLab Free"
-  * ~"GitLab Premium"
-  * ~"GitLab Ultimate"
+
+* ~"GitLab Free"
+* ~"GitLab Premium"
+* ~"GitLab Ultimate"
 
 * Automation conditions:
   * Open issue without tier labels, with group and `~direction` label, in current milestone
@@ -810,7 +804,7 @@ Type labels ensure that issues are present in the [group triage report](#group-l
 Bugs have a severity label that indicates the [SLO for a fix](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity). This automated policy aims to prompt managers about bugs in their group that are approaching the SLO threshold
 
 * Automation conditions:
-  * Open issue labelled `~"type::bug"` and has a `~severity::1` or `~severity::2`
+  * Open issue labeled `~"type::bug"` and has a `~severity::1` or `~severity::2`
   * Time since current severity label was applied and today is over 75% towards the SLO threshold
 * Automation actions:
   * Mention EM and PM on the issue to make them aware of the impending SLO breach
@@ -822,7 +816,7 @@ Bugs have a severity label that indicates the [SLO for a fix](/handbook/engineer
 Issues with the ~infradev label should have a [severity label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity), a [priority label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority), and a milestone set. This automated policy aims to prompt managers about such issues missing one of these attributes.
 
 * Automation conditions:
-  * Open issue labelled `~infradev` and has no severity label, or no priority label, or no milestone set
+  * Open issue labeled `~infradev` and has no severity label, or no priority label, or no milestone set
   * Issue doesn't have the `~"automation:infradev-missing-labels"` set
 * Automation actions:
   * The label `~"automation:infradev-missing-labels"` is applied
@@ -841,7 +835,7 @@ Note:
 Issues with the ~customer and ~type::bug labels should have a [severity label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) set. This automated policy aims to prompt team members to set a severity so that ~customer bugs are triaged in a timely fashion.
 
 * Automation conditions:
-  * Open issue labelled `~customer` and `~type::bug` which has no severity label set
+  * Open issue labeled `~customer` and `~type::bug` which has no severity label set
   * Issue does not have the `~"automation:customer-bug-missing-labels"` set
 * Automation actions:
   * The label `~"automation:customer-bug-missing-labels"` is applied

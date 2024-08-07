@@ -9,6 +9,7 @@ title: "Issues project management guidelines"
 [Issues](https://docs.gitlab.com/ee/user/project/issues/) are a core building block in GitLab that enable collaboration, discussions, planning and tracking of work.
 
 Issues are typically used to
+
 - Support a Discussion on a specific topic
 - Define requirements for a new feature
 - Organize work on a specific deliverable
@@ -33,6 +34,7 @@ Because the issue discussions can be long and flowing, often a best practice is 
 #### Issue Details
 
 There are many detailed parts of an [issue](https://docs.gitlab.com/ee/user/project/issues/), such as:
+
 - [Time tracking](https://docs.gitlab.com/ee/user/project/time_tracking.html)
 - [Weight](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html)
 - [Participants and notifications](https://docs.gitlab.com/ee/user/profile/notifications.html)
@@ -43,12 +45,15 @@ There are many detailed parts of an [issue](https://docs.gitlab.com/ee/user/proj
 - [Zoom meetings](https://docs.gitlab.com/ee/user/project/issues/associate_zoom_meeting.html)
 
 #### Issue templates
+
 In each project, a set of "Issue Templates" can be defined to make it easy to create common issues for different situations or problems. [Learn how to create an issue template](https://docs.gitlab.com/ee/user/project/description_templates.html#create-an-issue-template)
 
 #### Designs and Design Discussions
+
 Issues enable and support discussions on images and designs with [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html#overview).  Design management makes it very useful in reviewing graphics and design work asynchronously.
 
 #### Quick Actions
+
 Issues, Merge Requests and Epics all support the ability to use keyboard shortcuts trigger key actions in the issue, MR or epic.
 
 [Quick Actions](https://docs.gitlab.com/ee/user/project/quick_actions.html) are effectively commands that make it easy and efficient to change an issue such as:
@@ -62,6 +67,7 @@ Issues, Merge Requests and Epics all support the ability to use keyboard shortcu
 and so on.
 
 #### Confidential issues
+
 Issues can be either open or confidential.
 
 Default to public issues, and use the [guidance on non-public communication](/handbook/communication/confidentiality-levels/#not-public) to make a decision when in doubt.
@@ -73,6 +79,7 @@ In the Markdown language that is used to write the description and comments in i
 Realize that `task lists` are a relatively simple list of items that can be 'checked off'.
 
 #### Related Issues and Blocking issues
+
 In order to manage interdependency between issues, it is possible to create several types of relationships between issues:
 
 1. Simple relationships.  Is where one issue is simply related to another issue and there is no interdependency.
@@ -110,9 +117,10 @@ Issue discussions can be lengthy and exhaustive.  As a best practice, update iss
 
 Issues maintain a history of the changes to the descriptions, so update descriptions when it makes sense.
 
+{{% alert color="info" %}}
 <i class="fas fa-info-circle" aria-hidden="true" style="color: rgb(49, 112, 143)
 ;"></i> Tip! Using a header with a clear highlight on the "latest update" can be a quick and clear indication to any viewer what has been last agreed in conversations.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ### Set issue weight
 
@@ -146,5 +154,3 @@ In general, most issue titles should describe a task as a unit of work to be com
 
 - ✔ "Document existing behavior flows on about.gitlab.com" => clearly describes task and expected outcome
 - ✘ "Ultimate users" => does not provide a clear indication on the task or expectations
-
-

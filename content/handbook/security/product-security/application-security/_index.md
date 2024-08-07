@@ -14,19 +14,19 @@ As part of the Product Security department, the application security team's miss
 
 Team members can reach the AppSec team by:
 
-- Asking in `#sec-appsec` or mentioning `@appsec-team` on Slack
-- Mentioning `@gitlab-com/gl-security/product-security/appsec` on GitLab
 - Finding your Stable Counterpart on the [Product sections, stages, groups, and categories](/handbook/product/categories/) page
+- Mentioning `@gitlab-com/gl-security/product-security/appsec` on GitLab
 - Submit an issue in the [AppSec Team repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues)
+- Asking in `#sec-appsec` or mentioning `@appsec-team` on Slack
 - For cross team collaboration improvement opportunities, use [this template for collaboration improvement opportunities](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=cross-team-collaboration-improvement)
 
 ## Application Security Roadmap
 
-Please see the [Product Security Program Strategy document][9].
+Please see the [Product Security Program Strategy document](https://docs.google.com/document/d/1Mba9ZhuVr2qBkvR7AqzNTUFMUTapJqiXkPUqc9Gr8io/edit).
 
 ## Roles & Responsibilities
 
-Please see the [Application Security Job Family page][6].
+Please see the [Application Security Job Family page](/job-families/security/application-security).
 
 ## Useful resources for AppSec engineers
 
@@ -46,25 +46,25 @@ The list above is not exhaustive and is subject to be modified as our processes 
 
 ## Application Security KPIs & Other Metrics in Sisense
 
-- For Embedded KPIs which you filter by section, stage, or group, please [see this page][8].
+- For Embedded KPIs which you filter by section, stage, or group, please [see this page](https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard?:iid=4).
 
 ## General Role Functions
 
 ### Stable Counterparts
 
-Please see the [Application Security Stable Counterparts page][4].
+Please see the [Application Security Stable Counterparts page]({{< ref "stable-counterparts" >}}).
 
 ### Application Security Reviews
 
-Please see the [Application Security Reviews page][1].
+Please see the [Application Security Reviews page]({{< ref "appsec-reviews" >}}).
 
 ### RCAs for Critical Vulnerabilities
 
-Please see the [Root Cause Analysis for Critical Vulnerabilities page][10]
+Please see the [Root Cause Analysis for Critical Vulnerabilities page](/handbook/security/root-cause-analysis)
 
 ## Application Security Engineer Runbooks
 
-Please see the [Application Security Engineer Runbooks page index][5]
+Please see the [Application Security Engineer Runbooks page index](runbooks})
 
 ## Meeting Recordings
 
@@ -75,7 +75,7 @@ The following recordings are available internally only:
 
 ## Backlog reviews
 
-When necessary a backlog review can be initiated, please see the [Vulnerability Management Page][3] for more details.
+When necessary a backlog review can be initiated, please see the [Vulnerability Management Page]({{< ref "vulnerability-management" >}}) for more details.
 
 ## GitLab Secure Tools coverage
 
@@ -91,34 +91,20 @@ Learn more about the [GitLab AppSec Inventory]({{< ref "inventory" >}}).
 
 ## Responding to customer scan review requests
 
-Please see the [Responding to customers security scanners review requests page][15]
+Please see the [Responding to customers security scanners review requests page]({{< ref "responding-customers-scan-review-requests" >}})
 
 ## Reproducible Vulnerabilities
 
-Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities][11].
+Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities]({{< ref "reproducible-vulnerabilities" >}}).
 
 ## Reproducible Builds
 
-Learn how GitLab is implementing [Reproducable Builds][13] for our build processes.
+Learn how GitLab is implementing [Reproducable Builds]({{< ref "reproducible-builds" >}}) for our build processes.
 
 ## Milestone Planning
 
-The GitLab Application Security team plans work based around Milestones, see [this page for a description of that process][14]
+The GitLab Application Security team plans work based around Milestones, see [this page for a description of that process]({{< ref "milestone-planning" >}})
 
 ## Application Security Automation and Monitoring
 
-Please see the [Application Security Automation and Monitoring page][12]
-
-[1]: {{< ref "appsec-reviews" >}}
-[3]: {{< ref "vulnerability-management" >}}
-[4]: {{< ref "stable-counterparts" >}}
-[5]: {{< ref "./runbooks" >}}
-[6]: /job-families/security/application-security
-[8]: https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard?:iid=4
-[9]: https://docs.google.com/document/d/1Mba9ZhuVr2qBkvR7AqzNTUFMUTapJqiXkPUqc9Gr8io/edit
-[10]: /handbook/security/root-cause-analysis
-[11]: {{< ref "reproducible-vulnerabilities" >}}
-[12]: {{< ref "application-security-automation-monitoring" >}}
-[13]: {{< ref "reproducible-builds" >}}
-[14]: {{< ref "milestone-planning" >}}
-[15]: {{< ref "responding-customers-scan-review-requests" >}}
+Please see the [Application Security Automation and Monitoring page]({{< ref "application-security-automation-monitoring" >}})

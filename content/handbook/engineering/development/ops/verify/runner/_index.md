@@ -18,8 +18,8 @@ This team maps to [Verify](/handbook/product/categories/#verify-stage) DevOps st
 The product strategy and roadmap for the runner product categories are covered on the following direction pages.
 
 - [Runner Core](https://about.gitlab.com/direction/verify/runner_core/)
-- [Runner Fleet](https://about.gitlab.com/direction/verify/runner_fleet)
-- [Runner SaaS](https://about.gitlab.com/direction/verify/runner_saas)
+- [Hosted Runners](https://about.gitlab.com/direction/verify/hosted_runners/)
+- [Fleet Visibility](https://about.gitlab.com/direction/verify/fleet_visibility/)
 
 ## UX strategy
 
@@ -40,8 +40,7 @@ The following people are permanent members of the Verify:Runner group:
 
 {{< stable-counterparts role="Verify:Runner" manager-role="Engineering Manager(.*)Verify:Runner" >}}
 
-For a more comprehensive list of counterparts, look at the [runner product
-categtory](/handbook/product/categories/#runner-group)
+For a more comprehensive list of counterparts, look at the [runner product categtory](/handbook/product/categories/#runner-group)
 
 ## Dashboards
 
@@ -137,9 +136,9 @@ We spend a lot of time working in Go which is the language that [GitLab Runner](
 
 ## Common Links
 
- - [Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/5389813?label_name[]=group%3A%3Arunner&milestone_title=Upcoming)
- - [Issue Tracker](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Arunner)
- - [Slack Channel](https://gitlab.slack.com/archives/g_runner)
+- [Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/5389813?label_name[]=group%3A%3Arunner&milestone_title=Upcoming)
+- [Issue Tracker](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Arunner)
+- [Slack Channel](https://gitlab.slack.com/archives/g_runner)
 
 ## How we work
 
@@ -170,6 +169,7 @@ The commitments for the iteration plan are directly related to the capacity of t
 1. At minimum, three business days prior to GitLab's monthly release [kickoff](/handbook/engineering/workflow/#kickoff) livestream, the PM, EM, Quality and UX leads finalize the iteration plan for the upcoming milestone.
 
 As we have a lot of involvement with our stable counterparts and reliability team, we also add a section to our iteration plan to reflect any `blocking` or `relating` issues.
+
 1. The engineering team adds all `blocking` or `related` reliability issues to the iteration plan.
 1. The reliability team reviews these issues and checks feasibility and suggests changes.
 1. The reliability team commits to their issues in the iteration plan as long as:
@@ -241,8 +241,7 @@ This allows the onboarding developer to grow organically over time in their resp
 ### Becoming a maintainer for one of our projects
 
 Although maintainer access is provided from day one for practical purposes,
-we follow the same process [outlined
-here](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer).
+we follow the same process [outlined here](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer).
 Any engineeer inside of the organization is welcome to become a
 maintainer of a project owned by the Runner team.
 
@@ -268,12 +267,118 @@ At GitLab, our release post policy specifies that deprecation notices need to be
 1. The product manager uses the list of issues to create the deprecation notices. Our goal is to start announcing deprecations no later than six cycles before the next major release.
 1. The product manager will continue to include the deprecation notices in all release post entries up to and including the major release where the features will be fully deprecated or removed.
 
+### Managing CVE vulnerability report issues
+
+Managing CVE vulnerability issues is part of GitLab's vulnerability management effort
+([1](https://internal.gitlab.com/handbook/security/threat_management/vulnerability_management/),
+[2](../../../../../security/product-security/vulnerability-management/)), and is an important part of maintaining the
+GitLab FedRAMP certification.
+
+Using the [`container-scanners`](https://gitlab.com/gitlab-com/gl-security/appsec/container-scanners) project, GitLab
+scans all images we produce to highlight CVE vulnerabilities. From those scans, the
+[`vulnmapper`](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper)
+project creates issues in the project that created the vulnerable image, including
+[SLAs](/handbook/security/product-security/vulnerability-management/sla/) to which we must adhere.
+The Runner team member assigned the `Support & Security Responder` role in the weekly team task should triage and
+review the list of CVEs and address any issues as appropriate:
+
+- `Critical` severity issues should be addressed immediately.
+- `High`, `Medium`, and `Low` severity issues should be addressed in the priority order of the
+  [remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
+
+The procedure for addressing CVE issues is as follows:
+
+#### Surfacing active vulnerability reports
+
+- Use one of the following to surface active CVE issues assigned to our team:
+  - [Issue search](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=FedRAMP%3A%3AVulnerability&label_name%5B%5D=group%3A%3Arunner&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AAccepted&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&first_page_size=50)
+  - The [`gitlab-dashboard cves`](https://gitlab.com/avonbertoldi/gitlab-dashboard) command.
+  - The [`cver imageVulns`](https://gitlab.com/gitlab-org/ci-cd/runner-tools/cver.git) command.
+
+     Many issues will reference the same CVE vulnerability report; it's best to group issues for the same vulnerability
+    report and address them together.
+- Focusing on CVE reports in priority order, start with `critical`, `high`, and `medium` severities first and proceed as
+follows:
+  1. For each group of common/related issues, confirm that the associated CVE is still valid. This can be done by
+     scanning the `latest` version of the image(s) identified in the issue(s) with tools such as
+     [`trivy`](https://trivy.dev/) and [`grype`](https://github.com/anchore/grype), and checking whether the CVE
+     referenced in the issue appears in the `trivy` or `grype` scan.
+  1. If the vulnerability is no longer reported in the `trivy` or `grype` scan of the relevant image(s), the issue(s)
+     can be closed. Note that the `cver` internal tool mentioned above largely automates this task, including closing
+     the relevant issues (see the documentation).
+  1. If the vulnerability is **still** present in the relevant image(s), it must be addressed.
+
+Note that issues that reference `ubi-fips` flavors of `gitlab-runner` or `gitlab-runner-helper` images take precedence
+over other image flavors (like `alpine` or `ubuntu`) since the GitLab FedRAMP certification is contingent on `ubi-fips`
+images only.
+
+#### Addressing active vulnerability reports
+
+Vulnerabilities usually appear in one of three flavors (ordered in most to least frequency of occurrence):
+
+- The vulnerability exists in a third-party OS package (like `git` or `git-lfs`).
+- The vulnerability exists in `gitlab-runner` in one of its dependencies.
+- The vulnerability exists in `gitlab-runner` in code we've written.
+
+### Third-party OS packages
+
+In this case, the vulnerability:
+
+- Has not been fixed upstream
+- Has been fixed upstream but an OS package including the fix has not been created and published yet
+- Will not be fixed upstream
+
+The primary course of action here is to create a
+[`deviation request issue`](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues)
+(see
+https://handbook.gitlab.com/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/).
+We generally create one deviation request issue per offending software module (e.g. `git-lfs` or `libcurl`). When
+creating the issue, be sure to select `operational_requirement_template` as a template and complete the following
+sections:
+
+- Affected images
+- Vulnerability details (one row for each relevant CVE report)
+- Relevant `vulnmapper` issues
+- Justification
+
+Once the deviation request issue is created, add:
+
+- A note to all the relevant `gitlab-runner` issues pointing to the deviation request issue
+- The label `FedRAMP::DR Status::Open`
+- The [most relevant label](../../../../../security/product-security/vulnerability-management/labels) from this list:
+
+  - `Vulnerability::Vendor Base Container::Fix Unavailable`
+  - `Vulnerability::Vendor Base Container::Will Not Be Fixed`
+  - `Vulnerability::Vendor Package::Fix Unavailable`
+  - `Vulnerability::Vendor Package::Will Not Be Fixed`
+
+Eventually, a fix in the offending package will make its way to the OS package manager, and then both the
+`gitlab-runner` and deviation request issues can be closed.
+
+### `gitlab-runner` dependencies
+
+The simplest course of action here is to update the dependency to the latest compatible version (or at least a version
+that addresses the vulnerability). Once the MR with the dependency update is merged, the `gitlab-runner` issue can be
+closed.
+
+If the dependency does not address the vulnerability, possible courses of action are:
+
+- If a fork of the dependency that addresses the vulnerability exists, use it with the Go module `replace` directive. In
+this case, be sure to create a task to switch back to the upstream dependency when the vulnerability has been addressed
+there.
+- If possible, consider not using the dependency or replacing it with another similar dependency.
+- Create a [deviation request issue](#third-party-os-packages).
+
+### `gitlab-runner` source
+
+The only course of action here is to fix the vulnerable code. If the fix is not simple and will take time to implement
+(and prevent us from meeting CVE SLAs), it might be necessary to create a [deviation request issue](#third-party-os-packages).
 
 ## Issue Health Status Definitions
 
 - **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-12#work-is-like-a-hill).
 - **Needs Attention** - There are concerns, new complexity, or unanswered questions that if left unattended will result in the issue missing its targeted release. Collaboration needed to get back `On Track` within the week.
-   - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
+  - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
 - **At Risk** - The issue in its current state will not make the planned release and immediate action is needed to get it back to `On Track` today.
   - If you are moving an item into this status please consider posting in a relevant team channel in slack. Try to include anything that can be done to unstick the item so that it can get back to an `On Track` status in your message.
   - Note: It is possible that there is nothing to be done that can get the item back on track in the current milestone. If that is the case please let your manager know as soon as you are aware of this.
@@ -361,4 +466,3 @@ As part of the pre-sales and post-sales engagement, your customer may have in-de
 ## Team Resources
 
 See [dedicated page](/handbook/engineering/development/ops/verify/runner/team-resources/#overview).
-

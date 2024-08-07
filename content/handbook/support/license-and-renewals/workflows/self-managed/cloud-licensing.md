@@ -1,14 +1,12 @@
 ---
-
 title: Cloud licensing and the support exemption process explained
 description: "How to generate a legacy license for a customer who cannot use Cloud Licensing"
 category: GitLab Self-Managed licenses
 ---
 
-
 ## Cloud Licensing Overview
 
-[Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/) allows GitLab customers to activate paid subscription features on self-managed instances using an activation code, rather than managing license files and manually uploading them into their instance. By activating through Cloud Licensing, a customer’s GitLab instance will periodically synchronize [Subscription Data](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-data-that-gitlab-receives) with GitLab.
+[Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/) allows GitLab customers to activate paid subscription features on self-managed instances using an activation code, rather than managing license files and manually uploading them into their instance. By activating through Cloud Licensing, a customer's GitLab instance will periodically synchronize [Subscription Data](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-data-that-gitlab-receives) with GitLab.
 
 In order to further encourage Cloud Licensing, the Strict Cloud Licensing project will include several iterations to encourage customers to use Cloud License activation codes rather than a Legacy License file to activate their self-managed instances. The following [GitLab internal licensing terms page](https://internal.gitlab.com/handbook/product/fulfillment/definitions/#licensing-terms) provides a technical definition of the current three types of licenses (Cloud Licensing, Offline and Legacy) associated with Cloud Licensing.
 
@@ -125,7 +123,7 @@ Refer to the alternative methods below for guidance on different cases.
     - Check the `Subscription Name` in the quote which is at the 4th row of the top section.
     - If it is empty, or does not show up in CustomersDot, find the subscription by locating the customer account using the Sold To contact's email and verifying the subscription seat count matches the quote you opened.
 
-## Support FAQ
+### Support FAQ
 
 #### 1. Which license type should I provide for an approved opt out?
 

@@ -1,14 +1,6 @@
 ---
-
 title: Development Department Learning and Development - Reliability
 ---
-
-
-
-
-
-
-
 
 ## Goal of this training
 
@@ -128,8 +120,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 </figure>
 <!-- blank line -->
 
-[Stage group dashboard documentation](https://docs.gitlab.com/ee/development/stage_group_dashboards.html)
-
+[Stage group dashboard documentation](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/)
 
 ## Error budgets
 <!-- blank line -->
@@ -151,7 +142,6 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 [Feature change locks](/handbook/engineering/#feature-change-locks)
 
 ## Added past due infradev as a KPI
-
 
 <!-- blank line -->
 <figure class="video_container">
@@ -177,4 +167,3 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 * What did you not like that we should improve?
 
 Add your comments in this [feedback issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/12507).
-

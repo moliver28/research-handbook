@@ -69,32 +69,32 @@ The first iteration will only focus on weekdays.
 
 #### Relay Handover
 
-   * Since the dbre who are on call may change frequently, responsibility
+* Since the dbre who are on call may change frequently, responsibility
      for being available rests with them.
-   * In the instance of an ongoing escalation no DBRE should finish
+* In the instance of an ongoing escalation no DBRE should finish
      their on-call duties until they have arranged for and confirmed the DBRE
      taking over from them is present, or they have notified someone who
      is able to arrange a replacement. They do not have to find a
      replacement themselves, but they need confirmation from someone that
      a replacement will be found.
-   * In the instance of an ongoing escalation being handed over to
+* In the instance of an ongoing escalation being handed over to
      another incoming on-call DBRE the current on-call DBRE
      summarize full context of on-going issues, such as but not limited to
-        * Current status
-        * What was attempted
-        * What to explore next if any clue
-        * Anything that helps bring the next on-call dbre up to speed quickly
+  * Current status
+  * What was attempted
+  * What to explore next if any clue
+  * Anything that helps bring the next on-call dbre up to speed quickly
 
      These summary items should be in written format in the following locations:
-        * _Existing_ threads in respective Incident channel
-        * Incident tracking issues
+  * _Existing_ threads in respective Incident channel
+  * Incident tracking issues
 
      This shall be completed at the end of shifts to hand over smoothly.
-   * For current Production incident issues and status, refer to [Production Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1717012?label_name[]=incident) board.
-   * If an incident is ongoing at the time of handover, outgoing DBRE may
+* For current Production incident issues and status, refer to [Production Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1717012?label_name[]=incident) board.
+* If an incident is ongoing at the time of handover, outgoing DBRE may
      prefer to remain on-call for another shift. This is acceptable as long as
      the incoming DBRE agrees
-   * If you were involved in an incident which has been mitigated during your shift, leave a note about your involvement in the incident issue and link to it in the respective incident Slack channel indicating you participated in the issue as an informational hand-off to future on-call DBRE.
+* If you were involved in an incident which has been mitigated during your shift, leave a note about your involvement in the incident issue and link to it in the respective incident Slack channel indicating you participated in the issue as an informational hand-off to future on-call DBRE.
 
 ## Resources
 
@@ -105,8 +105,10 @@ When responding to an Incident, utilize the below procedure as guidelines to fol
 1. Join the Incident Zoom - this can be found bookmarked in the `#incident-management` Slack Channel
 1. Join the appropriate incident slack channel for all communications that are text based - Normally this is `#incident-<ISSUE NUMBER>`
 1. Work with the EOC to determine if a known code path is problematic
-  * Should the knowledge of this be in your domain, continue working with the EOC to troubleshoot the problem
-  * Should this be something you may be unfamiliar with, attempt to determine code ownership by team - Knowing this will enable us to see if we can bring online an Engineer from that team into the Incident
+
+* Should the knowledge of this be in your domain, continue working with the EOC to troubleshoot the problem
+* Should this be something you may be unfamiliar with, attempt to determine code ownership by team - Knowing this will enable us to see if we can bring online an Engineer from that team into the Incident
+
 1. Work with the Incident Manager to ensure that the Incident issue is assigned to the appropriate Engineering Manager - if applicable
 
 ### Shadowing An Incident Triage Session
@@ -120,7 +122,6 @@ Situation Room recordings from previous incidents are available in this [Google 
 ### Shadowing A Whole Shift
 
 To get an idea of what's expected of an on-call DBRE and how often incidents occur it can be helpful to shadow another shift. To do this simply identify and contact the DBRE on-call to let them know you'll be shadowing. During the shift keep an eye on [#incident-management](https://gitlab.slack.com/archives/CB7P5CJS1) for incidents and observe how the DBRE on-call [follows the process](#process-outline) if any arise.
-
 
 ### Tips & Tricks of Troubleshooting
 

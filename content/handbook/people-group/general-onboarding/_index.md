@@ -7,9 +7,9 @@ Onboarding is [incredibly important](/handbook/company/culture/all-remote/onboar
 
 We highly recommend taking at least two full weeks for onboarding and only in week three starting with team specific onboarding and training. Please feel free to participate in your team's work in your first two weeks, but don't feel like you have to contribute heavily.
 
-All onboarding steps are in the [onboarding issue template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) which is owned by the People Connect team. The onboarding process for the new team member is [self-driven and self-learning]({{< ref "values#self-service-and-self-learning" >}}), whilst also remaining as [asynchronous]({{< ref "values#bias-towards-asynchronous-communication" >}}) as possible settling into the remote life at GitLab.
+All onboarding steps are in the [onboarding issue template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) which is owned by the People Connect team. The onboarding process for the new team member is [self-driven and self-learning](/handbook/values/#self-service-and-self-learning), whilst also remaining as [asynchronous](/handbook/values/#bias-towards-asynchronous-communication) as possible settling into the remote life at GitLab.
 
-At GitLab we take great pride in [dogfooding]({{< ref "values#dogfooding" >}}) our own product, that is why all onboarding tasks are completed in a GitLab issue. First of all, what is an issue? You can learn more about what an issue is [here](https://docs.gitlab.com/ee/user/project/issues/).
+At GitLab we take great pride in [dogfooding](/handbook/values/#dogfooding) our own product, that is why all onboarding tasks are completed in a GitLab issue. First of all, what is an issue? You can learn more about what an issue is [here](https://docs.gitlab.com/ee/user/project/issues/).
 
 The People Connect Specialist assigned to the team members specific onboarding will [open](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#onboarding-issue-creation) the onboarding issue at least 4 days prior to the hire date.
 
@@ -57,7 +57,6 @@ General Topics Covered
 By default, all new team members are added to the below Slack channels from day 1 to ensure that they are able to ask any questions or for assistance in the correct channels upfront:
 
 - `#new_team_members` (go say hi and introduce yourself)
-- `#people-connect` (anything relating to People Operations such as onboarding, GitLab Unfiltered channel, etc)
 - `#diversity_inclusion_and_belonging` (connect with other team members to find out more about what we do in Diversity, Inclusion and Belonging)
 - `#it_help` (any IT related support needed, such as issues with laptop, 1Password, Okta, JAMF, etc)
 - `#expense-reporting-inquiries` (need some info on your expenses, what can be expensed, approving expenses, etc)
@@ -70,7 +69,7 @@ By default, all new team members are added to the below Slack channels from day 
 
 ## Managers of New Team Members
 
-An issue is created for new team members at least 4 business days prior to their start date. The Manager and a People Connect Team member will be assigned to this issue. **Managers, People Connect and IT Ops** all have tasks that need to be completed **prior to the start date** to ensure a smooth and successful onboarding process. For questions or help with any of these tasks feel free to reach out in the issue or by adding a question in the `#people-connect` Slack channel.
+An issue is created for new team members at least 4 business days prior to their start date. The Manager and a People Connect Team member will be assigned to this issue. **Managers, People Connect and IT Ops** all have tasks that need to be completed **prior to the start date** to ensure a smooth and successful onboarding process. For questions or help with any of these tasks feel free to reach out in the issue or by creating a request via HelpLab.
 
 ### <i class="fas fa-tasks fa-fw color-orange font-awesome"></i>Compliance
 
@@ -117,7 +116,7 @@ The People team is not involved in the process for hiring, onboarding, or offboa
 
 ### Additional onboarding pages
 
-- [Developer onboarding](/handbook/developer-onboarding/)
+- [Developer onboarding](/handbook/engineering/developer-onboarding/)
 - [GitLab onboarding buddies](/handbook/people-group/general-onboarding/onboarding-buddies)
 - [Merge Request buddies](/handbook/people-group/general-onboarding/mr-buddies)
 - [Onboarding Processes](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/)

@@ -1,9 +1,9 @@
 ---
-
 title: Automated Software Delivery POV Scope and Acceptance
 description: Automated Software Delivery POV Scope and Acceptance
 ---
 
+Other Automated Software Delivery Resources: [Lab](https://gitlab.com/gitlab-learn-labs/sample-projects/tanuki-racing) | *Demo* | *Guided Trial* | **POV** | [Education Services](https://about.gitlab.com/services/education/gitlab-ci/) | [Professional Services](https://about.gitlab.com/services/#acceleration-services)
 
 The Automated Software Delivery solution is identified for organizations who are trying to reduce the complexity and increase the velocity of Continuous Integration (CI) and Continuous Delivery/Deployment (CD) capabilities to deliver better software faster.
 

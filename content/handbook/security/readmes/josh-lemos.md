@@ -1,5 +1,4 @@
 ---
-
 title: "Josh Lemos README"
 job: "CISO"
 ---
@@ -35,6 +34,7 @@ Everything starts with people, without which we would not have organizational le
 - In the quest for continuous improvement I can over index on problems and spend too little time appreciating progress. It is something I coach leaders to do but can fail to take my own advice.
 - While I try to meet people where they are I can misjudge the amount of support an individual wants or needs. If you find yourself wanting more guidance or autonomy feel free to tell me where you want to set those agency boundaries.
 - At times I am quick to identify and advocate for a solution especially in problem areas where I have considerable experience or domain expertise. Feel free to encourage me to spend more time hosting the discussion before deciding on a solution.
+- Trained helplessness drives me crazy and I have little patience for it. Everyone is capable of affecting change. Don't stay blocked!
 
 ## Communication Preferences
 

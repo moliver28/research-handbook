@@ -150,14 +150,6 @@ Business Justification: The staff level requires deep technical and functional k
 - Has good understanding of data security principles
 - Understanding of data encryption protocols
 
-## Performance Indicators (PI)
-
-- [SLO achievement per data source](https://internal.gitlab.com/handbook/it/it-performance-indicators/#slo-achievement-per-data-source)
-- [Infrastructure Cost vs Plan](https://internal.gitlab.com/handbook/it/it-performance-indicators/#infrastructure-cost-vs-plan)
-- [Number of days since last environment audit](https://internal.gitlab.com/handbook/it/it-performance-indicators/#number-of-days-since-last-environment-audit)
-- [Mean Time between Failures (MTBF)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#mean-time-between-failures-mtbf)
-- [Mean Time to Repair (MTTR)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#mean-time-to-repair-mttr)
-
 ### Career Ladder
 
 The next step in the Data Engineer job family is to move to the [Data Management](/job-families/finance/manager-data/) job family.

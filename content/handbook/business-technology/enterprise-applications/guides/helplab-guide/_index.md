@@ -1,12 +1,13 @@
 ---
 title: "HelpLab Information Guide"
+description: "Contains FAQs and instruction guides for Gitlab's ServiceNow implementation."
 ---
 
 ## What is HelpLab
 
-HelpLab is a GitLab’s branding of the ServiceNow Platform.
+HelpLab is a GitLab's branding of the ServiceNow Platform.
 
-[ServiceNow](https://www.servicenow.com/) is a SaaS Enterprise Service Management Platform that enables organizations to gain operational efficiencies by centralizing and automating Service Life Cycle Management. Simply put, it’s a Support Ticketing System that will allow us to provide faster and more accurate help so that we maximize the Productivity of our Teammates.
+[ServiceNow](https://www.servicenow.com/) is a SaaS Enterprise Service Management Platform that enables organizations to gain operational efficiencies by centralizing and automating Service Life Cycle Management. Simply put, it's a Support Ticketing System that will allow us to provide faster and more accurate help so that we maximize the Productivity of our Teammates.
 
 ## Why ServiceNow?
 
@@ -23,9 +24,9 @@ ServiceNow (aka HelpLab) is going to be live on 2024-04-25.
 The following teams are available through HelpLab:
 
 - [People Connect](/handbook/people-group/people-ops-tech-analytics/)
-- [People Technology and Analytics](https://handbook.gitlab.com/job-families/people-group/people-systems-and-analytics/)
+- [People Technology and Analytics](/job-families/people-group/people-systems-and-analytics/)
 - [Team Member Relations](/handbook/people-group/team-member-relations/)
-- [Stock Admin](https://handbook.gitlab.com/job-families/finance/stock-administrator/)
+- [Stock Admin](/job-families/finance/stock-administrator/)
 - [Expenses](/handbook/finance/accounts-payable/)
 - [Payroll (US & Non-US)](https://internal.gitlab.com/handbook/finance/payroll/)
 - [IT services](/handbook/business-technology/end-user-services/)

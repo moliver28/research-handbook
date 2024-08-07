@@ -1,5 +1,5 @@
 ---
-title: "GitLab Project Management - Hands-On Lab: Access The Gitlab Training Environment"
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Access The GitLab Training Environment"
 description: "This Hands-On Guide walks you through accessing the GitLab training environment."
 ---
 
@@ -17,7 +17,7 @@ In this lab, you will access the training lab environment. This environment will
 
 1. Select **Provision Training Environment**.
 
-    > The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs.
+   > The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs.
 
 ### Self-Paced Training
 
@@ -37,9 +37,9 @@ In this lab, you will access the training lab environment. This environment will
 
 1. You will be redirected to a **My Test Group** group that provides a sandbox for you to perform training lab steps in.
 
-    > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
-
-    > If you receive a 404 error when accessing your group, it is likely due to the username input during the lab provisioning. Double check your GitLab username to make sure it is entered correctly.
+   > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
+   >
+   > If you receive a 404 error when accessing your group, it is likely due to the username input during the lab provisioning. Double check your GitLab username to make sure it is entered correctly.
 
 1. From your **My Test Group** training subgroup, click the **New project** button.
 
@@ -55,7 +55,7 @@ In this lab, you will access the training lab environment. This environment will
 
 1. Login with your temporary GitLab Credentials.
 
-    > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
+   > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
 
 ## Suggestions?
 

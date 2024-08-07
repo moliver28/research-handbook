@@ -24,13 +24,13 @@ Below are instructions on how to provision new users within various Sales-owned 
    - Add the SalesOpsAR::Action Needed label
    - Leave the assignee blank
    - CC Amber and Meri as the Provisioning DRIs
-1.  The DRIs will receive an email when a new AR is created
-1.  All will be able to monitor the [Sales Ops Access Request Board](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1959331)proactively.
-1.  When the AR is picked up by the Sales Operations team member, the team member will:
+1. The DRIs will receive an email when a new AR is created
+1. All will be able to monitor the [Sales Ops Access Request Board](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1959331)proactively.
+1. When the AR is picked up by the Sales Operations team member, the team member will:
     - assign the issue to themself
     - add the label SaelsOpsAR::In Progress
-1.  The Assignee should be responsible for working the AR to completion by completing all Sales Operations task items and working the label system accordingly.
-1.  If Assignee is out of office, the rest of the team is responsible for moving the AR forward in a timely fashion and can see ARs in flight by looking at the [Sales Ops Access Request Board](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1959331)proactively.
+1. The Assignee should be responsible for working the AR to completion by completing all Sales Operations task items and working the label system accordingly.
+1. If Assignee is out of office, the rest of the team is responsible for moving the AR forward in a timely fashion and can see ARs in flight by looking at the [Sales Ops Access Request Board](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1959331)proactively.
 
 ### Single Person or Bulk Access Request
 
@@ -39,13 +39,13 @@ Below are instructions on how to provision new users within various Sales-owned 
    - Add the SalesOpsAR::Action Needed label
    - Leave the assignee blank
    - CC Amber and Meri as the Provisioning DRIs
-1.  The DRIs will receive an email when a new AR is created
-1.  All will be able to monitor the [Sales Ops Access Request Board](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1959331)proactively.
-1.  When the AR is picked up by the Sales Operations team member, the team member will:
+1. The DRIs will receive an email when a new AR is created
+1. All will be able to monitor the [Sales Ops Access Request Board](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1959331)proactively.
+1. When the AR is picked up by the Sales Operations team member, the team member will:
     - assign the issue to themself
     - add the label SaelsOpsAR::In Progress
-1.  The Assignee should be responsible for working the AR to completion by completing all Sales Operations task items and working the label system accordingly.
-1.  If Assignee is out of office, the rest of the team is responsible for moving the AR forward in a timely fashion and can see ARs in flight by looking at the [Sales Ops Access Request Board](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1959331)proactively.
+1. The Assignee should be responsible for working the AR to completion by completing all Sales Operations task items and working the label system accordingly.
+1. If Assignee is out of office, the rest of the team is responsible for moving the AR forward in a timely fashion and can see ARs in flight by looking at the [Sales Ops Access Request Board](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1959331)proactively.
 
 ### Chorus
 
@@ -64,4 +64,3 @@ Below are instructions on how to provision new users within various Sales-owned 
 ### Clari
 
 ### SalesForce
-

@@ -1,9 +1,9 @@
 ---
-
 title: DevSecOps POV Scope and Acceptance
 description: DevSecOps POV Scope and Acceptance
 ---
 
+Other DevSecOps Resources: [Lab](https://gitlab.com/gitlab-learn-labs/sample-projects/tanuki-racing) | *Demo* | *Guided Trial* | **POV** | [Education Services](https://about.gitlab.com/services/education/security-essentials/) | [Professional Services](https://about.gitlab.com/services/#acceleration-services)
 
 The DevSecOps solution is identified for organizations  who are trying to "shift left" to find security vulnerabilities earlier within their DevOps methodology but have not been able to achieve the expected results.
 

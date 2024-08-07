@@ -1,28 +1,19 @@
 ---
-
 title: "Learning Resources"
 description: "Learn about the various aspects of Cost Management"
 ---
-
-
-
-
-
-
-
-
-
 
 ---
 
 ## Vendor Specific Learning
 
-[GCP](/handbook/engineering/infrastructure/cost-management/learning/gcp){:.btn .btn-purple}
-[AWS](/handbook/engineering/infrastructure/cost-management/learning/aws){:.btn .btn-purple}
+[GCP](/handbook/engineering/infrastructure/cost-management/learning/gcp)
+[AWS](/handbook/engineering/infrastructure/cost-management/learning/aws)
 
 ### Cloud Cost Buckets
 
 The first thing to understand about infrastructure cost is that you can generally categorize it into a few main areas of focus. The areas are listed below in descending order of how much the bucket contributes to overall infra cost in general for most company's. Cloud Provider services may provide abstractions of these buckets, for instance serverless computing, but at their core each service can still be categorized into one of these 3 buckets of infra spend.
+
 - Compute
   - server running cost, includes cpu/ram cost of the hardware used to run these services.
 - Storage
@@ -40,7 +31,7 @@ There are some basic cloud optimizations that apply to all resources, regardless
 - downsize over-provisioned resources
 - rightsize servers to make most efficient use of their performance characteristics (cpu v ram v storage)
 - prefer using newer instance types
-    - generally newer instance types will have better cost/performance
+  - generally newer instance types will have better cost/performance
 
 ### Storage Optimizations
 
@@ -52,7 +43,6 @@ There are some basic cloud optimizations that apply to all resources, regardless
 - Take the most direct network path
   - traffic sent between providers/continents/regions is the most expensive, avoid this when possible
 - Avoid network hairpinning
-
 
 ## Cost Dimensions
 
@@ -71,6 +61,7 @@ There are generic cost dimensions that apply to all company's, as well as some s
 #### Service
 
 This could also be called a "product", the two are interchangeable, and this can refer to internal or external services.
+
 - Compute Engine / EC2
 - Object Storage / S3
 - GitLab CI
@@ -101,7 +92,6 @@ This could also be called a "product", the two are interchangeable, and this can
 - GitLab Internal
 - SaaS - Premium
 - SaaS - Ultimate
-
 
 ## Resource Links
 

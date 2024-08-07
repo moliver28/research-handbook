@@ -1,5 +1,4 @@
 ---
-
 title: "README of Katrin Leinweber"
 description: "Personal readme page for Katrin Leinweber, Senior Support Engineer, GitLab"
 job: "Senior Support Engineer (EMEA)"

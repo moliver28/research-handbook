@@ -1,13 +1,6 @@
 ---
-
 title: AI Assist Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## About the AI Assist SEG
 

@@ -1,5 +1,4 @@
 ---
-
 title: Customer Success
 description: >-
   The Customer Success department is part of the GitLab Sales function who
@@ -10,25 +9,19 @@ The Customer Success department is part of the [GitLab Sales](/handbook/sales/) 
 
 The team can be reached in [Slack channel](https://gitlab.slack.com/archives/customer-success) (internal only).
 
-
-
-
-
-
-
 ## Mission Statement
 
-To deliver value to all customers by engaging in a consistent, repeatable, scalable way across defined segments so that customers see the value in their investment with GitLab, and we retain and drive growth within our enterprise customers.
+To deliver value to all customers by engaging in a consistent, repeatable, and scalable way across defined segments so that customers see the value in their investment with GitLab, and we retain and drive growth within our enterprise customers.
 
 - The mission of the Customer Success Department is to provide these customers with experience in order to:
-    - Accelerate initial customer value
-    - Maximize long-term, sustainable customer value
-    - Improve overall customer satisfaction & referenceability
-    - Maximize the total value of the customer to GitLab
+  - Accelerate initial customer value
+  - Maximize long-term, sustainable customer value
+  - Improve overall customer satisfaction & referenceability
+  - Maximize the total value of the customer to GitLab
 
 ## Vision Page
 
-The ["Customer Success Vision Page"](/handbook/customer-success/vision/) provides the long-term view of company wide success to which the customer success will be building in partnership with the value centers of the GitLab organization (i.e., Marketing, Sales, Product/Engineering, Support, Finance and IT).
+The ["Customer Success Vision Page"](/handbook/customer-success/vision/) provides the long-term view of company wide success to which the customer success will be building in partnership with the value centers of the GitLab organization (i.e., Marketing, Sales, Product/Engineering, Support, Finance, and IT).
 
 ## Department Initiatives
 
@@ -52,7 +45,7 @@ Ensuring paying customers are successful in their onboarding in order to gain ad
 
 ### Initiative: Usage
 
-Collecting and making use of customer data and insights is key to customer success. It’s important to do more with data and when necessary share back with customers, which in turn helps and encourages our customers to improve and drive adoption.
+Collecting and making use of customer data and insights is key to customer success. It's important to do more with data and when necessary share back with customers, which in turn helps and encourages our customers to improve and drive adoption.
 
 ### Initiative: Performance
 
@@ -64,30 +57,29 @@ See the [Playbooks Page](/handbook/customer-success/playbooks/)
 
 ## Customer Terrain Mapping Engagements
 
-Terrain Mapping discovery engagements provide customers with the benefit of GitLab's experience with DevOps methodologies, Git, GitLab, CI, CD and monitoring by brainstorming a high level, first draft discovery of the elements of a success plan to address various challenges. They are also mapped to professional services that can help with some of the elements identified in the engagement.
+Terrain Mapping discovery engagements provide customers with the benefit of GitLab's experience with DevOps methodologies, Git, GitLab, CI, CD, and monitoring by brainstorming a high level, first draft discovery of the elements of a success plan to address various challenges. They are also mapped to professional services that can help with some of the elements identified in the engagement.
 
 See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-terrain-mapping/)
 
 ## Customer Success Groups
 
-### Solutions Architects
-
-- [Solutions Architects handbook](/handbook/solutions-architects/)
-- [Public Sector Solutions Architects handbook](/handbook/customer-success/public-sector/solutions-architects/)
-
-### Professional Services
-
-- [Professional Services handbook](/handbook/customer-success/professional-services-engineering/)
-
-### Customer Success Managers
+### Customer Success Teams
 
 - [Customer Success Manager handbook](/handbook/customer-success/csm/)
-- [Commercial CSM handbook](/handbook/customer-success/comm-sales/#customer-success-managers)
+- [Customer Success Engineer handbook](/handbook/customer-success/csm/segment/cse/)
+- [Customer Success Architect handbook](/handbook/customer-success/csm/segment/csa/)
+
+### Customer Success Decision Tree
+
+[CSMAE Decision Tree](https://docs.google.com/presentation/d/1Ot-NwW-2LnZI2I38F9K6mj8SgZhCvrN97xxY1MUxLRw) - internal only
 
 ### Renewals Managers
 
 - [Renewals Managers handbook](/handbook/customer-success/renewals-managers/home)
 
+### Digital Strategy
+
+- [Digital Strategy handbook](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
 
 ### Demo Systems
 
@@ -99,7 +91,7 @@ The account team is comprised of the Strategic Account Executive/Account Executi
 
 [More information about the account team](/handbook/customer-success/account-team/)
 
-## Overlap Between Solution Architects and Customer Success Managers
+## Overlap Between Solution Architects and Customer Success Managers or Architects
 
 SA owns 1) pre-sales technical evaluation and relationships prior to the initial sale and 2) tier upgrades and new business units (i.e., connected new) within an existing customer. CSM owns 1) post-sales customer relationship and 2) license upgrades within an existing customer.
 
@@ -109,19 +101,17 @@ SA owns 1) pre-sales technical evaluation and relationships prior to the initial
 
 ### Education and Enablement
 
-As a Solutions Architect, Customer Success Manager, or Professional Services Engineer, it is important to be continuously learning more about our product and related industry topics. The [education and enablement handbook page](/handbook/customer-success/education-enablement/) provides a dashboard of aggregated resources that we encourage you to use to get up to speed.
+As a Customer Sucess team member, it is important to be continuously learning more about our product and related industry topics. The [education and enablement handbook page](/handbook/customer-success/education-enablement/) provides a dashboard of aggregated resources that we encourage you to use to get up to speed.
 
 ### Customer Workshops
-
-2021-01 [Skills Exchange Enablement on Customer Workshops](https://www.youtube.com/watch?v=kSbTZgPLKUE&feature=youtu.be)
 
 CSM-Created, Enablement Focus:
 
 - [All CSM-created workshops](/handbook/customer-success/csm/workshops/)
 
-SA-Created, Hands-On Focus:
+CSE-Created, Enablement Focus:
 
-- [Hands-On Workshops](/handbook/solutions-architects/tools-and-resources/#hands-on-workshops)
+- [GitLab User Webinars and Labs](https://university.gitlab.com/pages/gitlab-user-webinars)
 
 ### Using Salesforce within Customer Success
 
@@ -164,14 +154,14 @@ Customer Success team members maintain a [FAQ](/handbook/customer-success/faq/) 
 
 ### Customer Success resource links outside handbook
 
-- [Solutions Architects Onboarding Bootcamp](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md)
 - [Customer Reference Sheet](https://docs.google.com/a/gitlab.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit?usp=sharing)
 - [Sales Collateral](https://drive.google.com/open?id=0B-ytP5bMib9TaUZQeDRzcE9idVk)
-- [GitLab University](https://docs.gitlab.com/ee/university/)
+- [GitLab University](https://university.gitlab.com/)
 - [Our Support Handbook](/handbook/support/)
 - [Customer Collaboration Project template](https://gitlab.com/gitlab-com/account-management/customer-collaboration-project-template)
-- [Workflow SA Demo Scenarios](https://docs.google.com/document/d/1kSVUNM4u6KI8M9FxoyiUbHEHAHIi34iiY25NhMxLucc/edit) (Internal Only)
 - [GitLab Demo Portal](https://gitlabdemo.com)
+- [Workflow SA Demo Scenarios](https://docs.google.com/document/d/1kSVUNM4u6KI8M9FxoyiUbHEHAHIi34iiY25NhMxLucc/edit) (Internal Only)
+- [SA-Created - Hands-On Workshops](/handbook/solutions-architects/tools-and-resources/#hands-on-workshops)
 
 ### Other Sales Topics
 
@@ -180,9 +170,9 @@ Customer Success team members maintain a [FAQ](/handbook/customer-success/faq/) 
 - [Sales Skills Best Practices](/handbook/sales/training/)
 - [Sales Discovery Questions](/handbook/sales/qualification-questions/)
 - [EE Product Qualification Questions](/handbook/sales/qualification-questions/)
-- [GitLab Positioning](/handbook/positioning-faq/)
+- [GitLab Positioning](/handbook/marketing/positioning-faq/)
 - [FAQ from prospects](/handbook/sales/faq-from-prospects/)
-- [Client Use Cases](/handbook/use-cases/)
+- [Client Use Cases](/handbook/marketing/use-cases/)
 - [Proof of Value Guidelines](/handbook/solutions-architects/tools-and-resources/pov)
 - [Account Planning Template for Large/Strategic Accounts](https://docs.google.com/presentation/d/1yQ6W7I30I4gW5Vi-TURIz8ZxnmL88uksCl0u9oyRrew/edit?ts=58b89146#slide=id.g1c9fcf1d5b_0_24))
 - [Sales Demo](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/)
@@ -194,9 +184,7 @@ Customer Success team members maintain a [FAQ](/handbook/customer-success/faq/) 
 
 Customer Success has a few standing meetings:
 
-- All CS Team Call - Monthly on the first Thursday
-- CS Skills Exchange - every other Wednesday, alternating between 7:30am PST and 11am PST
-- Quarterly Reverse AMA with Sakamoto and Female+ Team Members
+- CS Team Monthly All-Hands - Monthly on the second Wednesday
+- CS Skills Exchange - once or twice Monthly
 
-The different groups within CS also have standing meetings, including meetings for the SAs, PS, and CSMs groups, regional groups, and social calls.
-
+The different groups within CS also have standing meetings, including meetings for the Customer Success teams and Renewal Managers, regional groups, and social calls.

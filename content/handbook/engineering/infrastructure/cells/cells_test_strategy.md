@@ -1,11 +1,11 @@
 ---
-
 title: Test Platform in Cells
 ---
 
 Cells is a project that spans the entirety of GitLab. Instead of recreating feature testing done by the other teams, we will reuse and leverage what exists currently and supplement to fill in gaps.
 
 This approach has the following requirements:
+
 - It must feed back useful information to the engineering teams in an efficient, non burdensome way
 - It must provide good coverage so we have confidence to release
 - It must be easy to add/enhance/change tests
@@ -14,17 +14,18 @@ This approach has the following requirements:
 ## Strategy
 
 The testing strategy for Cells follows our practice of testing at the correct level. The testing will be focused on a couple of efforts:
+
 - Ensuring we have good functional coverage at the appropriate level
-    - Reusing existing testing as much as possible to reduce burden on the teams.
+  - Reusing existing testing as much as possible to reduce burden on the teams.
 - Creating system level E2E tests incrementally to cover boundary conditions
-    - These will be built incrementally as features are built, they will be automated and added to the E2E test suite
-    - These tests will be included in our existing pipelines and run per their cadence (unless a need is raised to run on a separate pipeline)
+  - These will be built incrementally as features are built, they will be automated and added to the E2E test suite
+  - These tests will be included in our existing pipelines and run per their cadence (unless a need is raised to run on a separate pipeline)
 - Non functional testing will also be included
-    - Ensuring we're building with Observability in mind and include the hooks to integrate to our Observability tools
-    - [Migration testing](https://docs.gitlab.com/ee/development/testing_guide/testing_migrations_guide.html), ensuring that the migrations are performant and handle .com scale
-    - Performance testing
-        - [GPT](https://gitlab.com/gitlab-org/quality/performance#gitlab-performance-tool) based tests to check against our reference architectures
-        - Enhancing our existing pipelines to capture performance metrics to Shift Left performance testing and enable devs to have better visibility into performance concerns
+  - Ensuring we're building with Observability in mind and include the hooks to integrate to our Observability tools
+  - [Migration testing](https://docs.gitlab.com/ee/development/testing_guide/testing_migrations_guide.html), ensuring that the migrations are performant and handle .com scale
+  - Performance testing
+    - [GPT](https://gitlab.com/gitlab-org/quality/performance#gitlab-performance-tool) based tests to check against our reference architectures
+    - Enhancing our existing pipelines to capture performance metrics to Shift Left performance testing and enable devs to have better visibility into performance concerns
 
 Viewed as a diagram, this apporach would look like:
 
@@ -62,6 +63,7 @@ The Single Cell level has pretty significant existing coverage due to overlap wi
 #### Multiple Cells
 
 The Multiple Cell level focuses on scenarios that span Cells that do not elevate up to the Router level. This covers features like:
+
 - A user logged into one Cell URL is logged into a second Cell URL
 - Organizations/Groups/Repos that exist on one Cell do not exist on other Cells
 - ...
@@ -89,6 +91,7 @@ Just like our feature testing, performance testing can be done on the [testing l
 ### Unit Testing
 
 At the lowest level, we have several gems included in GitLab that can be used to test performance during development that we can use to get feedback before the code is finalized:
+
 - [derailed_benchmarks](https://github.com/zombocom/derailed_benchmarks)
 - [benchmark-memory](https://github.com/michaelherold/benchmark-memory)
 - [benchmark-ips](https://github.com/evanphx/benchmark-ips)

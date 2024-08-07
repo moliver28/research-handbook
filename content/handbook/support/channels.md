@@ -1,10 +1,7 @@
 ---
-
 title: Support Channels
 description: "Communication channels for GitLab Support"
 ---
-
-
 
 Our [support engineers](/job-families/engineering/support-engineer) handle the channels listed below. They are sorted in order of priority (strictest SLA at top), and as a result, it is possible that channels that appear lower in this list experience longer delays in receiving responses. We are actively [hiring](https://about.gitlab.com/jobs/) more Support Engineers to strengthen the team and provide support to the community.
 
@@ -32,7 +29,7 @@ Refer to [working with Security](/handbook/support/workflows/working_with_securi
 
 When in doubt, please involve the security team. This is really important to reduce the likelihood of a 0-day disclosure.
 
-Issues created from ZenDesk tickets must follow the [security issue triage](https://about.gitlab.com/handbook/engineering/releases/security-releases/) process.
+Issues created from ZenDesk tickets must follow the [security issue triage](/handbook/engineering/releases/security-releases/) process.
 
 Reports that are PGP-encrypted will be handled by the [Security Team](/handbook/security/#external-contact-information).
 

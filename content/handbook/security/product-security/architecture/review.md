@@ -11,19 +11,16 @@ infrastructure, application, people, and processes.
 
 ## Purpose
 
-- Meet [Security and Compliance requirements]
+- Meet [Security and Compliance requirements](_index.md#security-architecture-requirements)
 - Ensure best practices are used
-- Ensure [Security Architecture Principles] are followed
+- Ensure [Security Architecture Principles](_index.md#security-architecture-principles) are followed
 - Ensure identified security threats are mitigated
 - Bring Risk management early in our processes (design, implementation, management)
 - Provide recommendations to minimize damage when a component is compromised
 
-[Security and Compliance requirements]: {{< ref "_index.md#security-architecture-requirements" >}}
-[Security Architecture Principles]: {{< ref "_index.md#security-architecture-principles" >}}
-
 ## When to conduct a Security Architecture review?
 
-The review process is integrated into the broader [Architecture workflow], but can be triggered for:
+The review process is integrated into the broader [Architecture workflow](/handbook/engineering/architecture/workflow/), but can be triggered for:
 
 - New large projects and initiatives
 - New large features
@@ -34,16 +31,13 @@ And more generally:
 
 - Everything built by GitLab, and meant to be deployed in our infrastructure or our customers'
   infrastructure.
-- New or updated architectures processing, storing, or transferring any kind of [RED or ORANGE
-  data]({{< ref "data-classification-standard" >}})
-
-[Architecture workflow]: https://about.gitlab.com/handbook/engineering/architecture/workflow/
+- New or updated architectures processing, storing, or transferring any kind of [RED or ORANGE data]({{< ref "data-classification-standard" >}})
 
 ## How to request a Security Architecture review?
 
 Create an issues in the Security Architecture
 [general](https://gitlab.com/gitlab-com/gl-security/security-architecture/general/) project
-(internal only.
+(internal only).
 
 ## Scope
 
@@ -60,7 +54,7 @@ Create an issues in the Security Architecture
 
 ## Process
 
-The Security Architecture review is conducted by a [Security Architect] who will:
+The Security Architecture review is conducted by a [Security Architect](/job-families/security/security-engineer#security-architect) who will:
 
 - Identity and isolate components
 - Start with external facing ones
@@ -72,8 +66,6 @@ The Security Architecture review is conducted by a [Security Architect] who will
 - Maintain a list of actors
 
 The threats identified can be avoided (different architecture) or mitigated (security controls).
-
-[Security Architect]: /job-families/security/security-engineer#security-architect
 
 ### SMEs
 
@@ -98,5 +90,5 @@ Depending on the type of change being reviewed, the Security Architect can invol
 Report (markdown file should be enough: searchable, collaborative, authoritative, like for threat modeling:
 Validation of the solution:
 
-  - Requirements are met
-  - Risk assessment
+- Requirements are met
+- Risk assessment

@@ -22,7 +22,7 @@ projects aim to identify, quantify, and communicate technical security risks.
 Examples include:
 
 - [Security testing of FOSS applications and dependencies used within GitLab](#gitlab-ecosystem-security-testing)
-- Introduction and practice of [threat modeling](/handbook/security/threat-modeling/)
+- Introduction and practice of [threat modeling](/handbook/security/product-security/application-security/threat-modeling/)
 - Publishing of internal technical risk reports
 
 ### Security Capability Development
@@ -170,7 +170,7 @@ Exit criteria:
 
 - Project plan completed
 
-Once an idea has been validated, the research project can be extended to achieve GitLab-internal adoption and/or integration into GitLab’s products. If the project is extended, a new research proposal should be created and buy-in from stakeholders should be obtained. The expected deliverables should be documented. For example, internal adoption can be achieved by documenting research insights in the handbook or by implementing a software service.
+Once an idea has been validated, the research project can be extended to achieve GitLab-internal adoption and/or integration into GitLab's products. If the project is extended, a new research proposal should be created and buy-in from stakeholders should be obtained. The expected deliverables should be documented. For example, internal adoption can be achieved by documenting research insights in the handbook or by implementing a software service.
 
 Factors to consider when scoping a project for internal adoption or product integration are:
 
@@ -250,6 +250,8 @@ Package Hunter is open source. Head over to the [project](https://gitlab.com/git
 
 We also welcome contributions. If you are interested in participating in the development of Package Hunter, please see our [contribution guide](https://gitlab.com/gitlab-org/security-products/package-hunter/-/blob/main/CONTRIBUTING.md).
 
+The Security Research Team is maintaining a package hunter instance that is used internally at GitLab. The instance is reachable at `https://api.package-hunter-live.sec.gitlab.net` and `https://api.package-hunter.xyz`.
+
 ### GitLab Ecosystem Security Testing
 
 The Security Research team within GitLab conducts security assessments on Open Source Software on a regular basis.
@@ -271,13 +273,13 @@ GitLab relies on a vast amount of Open Source Software, this is not limited to d
 
 In total there are ten projects in four different categories to pick from. The categories are to ensure our work has a broad impact. The projects are chosen and prioritized by the following factors:
 
-- Data access [(red/orange/green)]({{< ref "data-classification-standard#data-classification-levels" >}})
+- Data access [(red/orange/green)](../../data-classification-standard.md#data-classification-levels)
 - GitLab API scopes used (if any)
 - Functionality provided, especially aiming for high-impact features like:
-     - authentication and authorization
-     - file access
-     - up/download handling
-     - handling of secrets
+  - authentication and authorization
+  - file access
+  - up/download handling
+  - handling of secrets
 - Adoption within and beyond GitLab, how widely is the project used?
 
 When a project from this list gets assessed the spot on the list will be filled with another project to always keep the funnel filled.
@@ -286,7 +288,7 @@ When a project from this list gets assessed the spot on the list will be filled 
 
 Every project and relevant artifacts will be documented internally in the  [sec-research](https://gitlab.com/gitlab-com/gl-security/security-research/sec-research/) repository while the project is ongoing. This repository should be the SSOT for any results and will contain the raw artifacts, write-ups and any PoCs if applicable.
 
-Once the project is concluded and any security issues identified are closed, public facing documentation will be published in the [Threat Management tech notes](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/red-team-tech-notes) repository. Where applicable, blog posts containing in-depth technical background on the research will be created in collaboration with the the External Security Communications team.
+Once the project is concluded and any security issues identified are closed, public facing documentation will be published in the [Threat Management tech notes](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/red-team-tech-notes) repository. Where applicable, blog posts containing in-depth technical background on the research will be created in collaboration with the External Security Communications team.
 
 #### Metrics
 
@@ -325,7 +327,7 @@ Vulnerability disclosure can be a delicate process and there is no one-size-fits
 
 For third party software listed in our [tech stack](/handbook/business-technology/tech-stack-applications/) any vulnerability disclosures should be coordinated with the respective owner of the tech stack item. They might have additional contacts on the vendor side, or more context how to implement a temporary mitigation for an identified vulnerability.
 
-Depending on the actual risk and exposure it might be needed to further limit the information around the disclosure. In such cases it is recommended to involve the [SIRT]({{< ref "sirt" >}}).
+Depending on the actual risk and exposure it might be needed to further limit the information around the disclosure. In such cases it is recommended to involve the [SIRT](../application-security/runbooks/working-with-sirt.md).
 
 In all cases the team will follow [GitLab's Disclosure Guidelines for Vulnerabilities in 3rd Party Software](https://about.gitlab.com/security/disclosure/#disclosure-guidelines-for-vulnerabilities-in-3rd-party-software).
 

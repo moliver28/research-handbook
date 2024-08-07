@@ -2,7 +2,7 @@
 title: Director of Customer Success Operations
 ---
 
-The Director of Customer Success Operations Job Family is responsible for defining, leading, and tracking strategic and operational programs and initiatives to improve GitLab’s ability to effectively and efficiently deliver to customer and GitLab objectives. The Customer Operations Team works cross-functionally orchestrating results with Customer Success, Sales, Marketing, Product and Engineering, Support, People Operations, and Finance.  
+The Director of Customer Success Operations Job Family is responsible for defining, leading, and tracking strategic and operational programs and initiatives to improve GitLab's ability to effectively and efficiently deliver to customer and GitLab objectives. The Customer Operations Team works cross-functionally orchestrating results with Customer Success, Sales, Marketing, Product and Engineering, Support, People Operations, and Finance.
 
 ## Levels
 
@@ -25,7 +25,7 @@ The Director Customer Success Operations is a [grade 10](/handbook/total-rewards
   - Digital journey development, content creation and curation, and metrics
   - Processes and playbooks for Solution Architect and Customer Success Manager
 - Internal or customer-related programs and initiatives
-- Own partnership with Product, bringing “voice of customer” to Product teams, including interlock, reporting, metrics, and facilitating customer engagement (e.g., surveys, interviews, etc.)
+- Own partnership with Product, bringing "voice of customer" to Product teams, including interlock, reporting, metrics, and facilitating customer engagement (e.g., surveys, interviews, etc.)
 - Leverage data and analytics to develop, lead, and measure results for GTM sales and adoption-related initiatives, programs, and campaigns
 - Define, develop, and continuously improve GitLab's renewal process through:
   - Renewal segmentation frameworks for efficient management
@@ -39,7 +39,7 @@ The Director Customer Success Operations is a [grade 10](/handbook/total-rewards
 - Experienced leading cross-functional initiatives in mid-sized or large organizations (i.e., 1000+ employees)
 - Experience with defining and leading digital engagement strategies (i.e., digital journey creation, content marketing, etc.)
 - Management experience with a team of at least 5 team members
-- Experience with digital engagement approaches and methods preferred (i.e., Digital Customer Success / “tech touch,” Digital Marketing)
+- Experience with digital engagement approaches and methods preferred (i.e., Digital Customer Success / "tech touch," Digital Marketing)
 - Strong verbal and written skills with a strong ability to articulate and communicate strategies and plans
 - Demonstrated success with cross-functional coordination, including planning, execution tracking, decision making, and OKR management
 - Ability to use GitLab

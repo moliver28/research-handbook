@@ -1,12 +1,6 @@
 ---
-
 title: "AMER CSMs"
 ---
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -18,10 +12,9 @@ CSMs aligned with AMER customers can use this handbook page to help define their
 
 Customer Lifecycle Journey:
 
-<img src="/images/handbook/customer-success/ht-tam-customer-journey.png">
+<img src="/images/handbook/customer-success/ht-tam-customer-journey.png" alt="">
 
 [Source](https://lucid.app/lucidchart/4fcdb329-8367-44e0-a1c4-d1c0fd1c2362/edit?invitationId=inv_ab8b15ca-1360-4f53-ab72-1da8e092b620&page=0_0#)
-
 
 ## CSM Activities
 
@@ -48,7 +41,7 @@ The primary objective in enabling our customers is to get a customer to value qu
 
 ### Expand & Renew
 
-This phase is about going beyond a customer’s primary use cases, into additional adoption/expansion and tier upgrades if applicable. Through ensuring a customer gets to value quickly, understanding a customer’s desired business outcomes, and engaging strategically through touchpoints such as EBRs in addition to cadence calls, a CSM is a trusted advisor to introduce and advocate for the idea of growth. This phase also includes the preparation for upcoming renewals.
+This phase is about going beyond a customer's primary use cases, into additional adoption/expansion and tier upgrades if applicable. Through ensuring a customer gets to value quickly, understanding a customer's desired business outcomes, and engaging strategically through touchpoints such as EBRs in addition to cadence calls, a CSM is a trusted advisor to introduce and advocate for the idea of growth. This phase also includes the preparation for upcoming renewals.
 
 | Description | Metrics |
 |---|---|
@@ -56,12 +49,11 @@ This phase is about going beyond a customer’s primary use cases, into addition
 | Expansion enablement & workshops | - Expansion playbooks completed (QoQ) <br> - Days per playbook completed per stage (QoQ) <br> - Win rate for expansion playbooks (QoQ) |
 | [Renewals](/handbook/customer-success/csm/renewals/) and [health management](/handbook/customer-success/csm/health-score-triage/) | - Renewal rate <br> - Regular CSM Sentiment health score logged |
 
-
 ## Account Engagement Expectations
 
 Beginning FY25, all customers aligned with a CSM are considered Priority 1 and should be reflected as such in Gainsight and in our engagement model. That model is described below.
 
-#### Cadence Frequency
+### Cadence Frequency
 
 CSMs should have weekly or biweekly calls with each of their customers, and should never go more than one month without a call. If a customer is unegaged, they should be marked as [non-engaged](/handbook/customer-success/csm/engagement/Non-engaged-customer-strategies/) and [triaged](/handbook/customer-success/csm/health-score-triage/) appropriately. Even if it ends up being a false positive, we want to act swiftly to ensure any risk is mitigated. CSMs should expect to have 5-7 cadence calls per week, in addition to adhoc calls such as workshops, EBRs, product discussions, etc.
 
@@ -94,4 +86,3 @@ In addition to success planning, where the focus is on building a shared plan be
 CSMs are expected to regularly update Gainsight with health updates on the health of their customers. For red customers, a weekly update is expected, and for green customers a monthly update. Please see [Customer Health Assessment and Management](/handbook/customer-success/csm/health-score-triage/) for full details of how to manage risk.
 
 If a CSM has a customer in an [escalated state](/handbook/customer-success/csm/escalations/), they are to follow the guidance based on escalation severity on how frequently to update the Slack channel.
-

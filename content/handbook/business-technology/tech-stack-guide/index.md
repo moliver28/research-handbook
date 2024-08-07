@@ -130,9 +130,9 @@ Zuora Billing is a key module within the **[Lead to Cash workflow](/handbook/bus
 
 For Zuora Billing, the team uses [Zuora Standard Reports](https://knowledgecenter.zuora.com/Billing/Reporting/AB_Reporting_Quick_Reference/C_Standard_Reports) and the most important reports are:
 
- - ELP Changes
- - Accounts with subscriptions to be canceled in the next 30 days
- - Credit memos over time
+- ELP Changes
+- Accounts with subscriptions to be canceled in the next 30 days
+- Credit memos over time
 
 We also have a collection of Tableau dashboards that include Zuora Data. These dashboards include data from other data sources such as Salesforce.
 

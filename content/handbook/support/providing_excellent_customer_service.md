@@ -175,7 +175,7 @@ Some caveats to bear in mind:
 1. You should add a closure summary if the ticket is a long ongoing ticket where
    multiple suggestions have been provided to the customer throughout the ticket
    lifecycle.
-1. The macro template ‘Closure Summary’ is available in Zendesk to help guide
+1. The macro template 'Closure Summary' is available in Zendesk to help guide
    you with formatting a closure summary, you can modify or remove template
    content as deemed necessary.
 1. You should not feel the need to add a closure summary if the customer has not

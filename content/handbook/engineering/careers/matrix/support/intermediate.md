@@ -17,6 +17,7 @@ title: "Support Career Framework: Intermediate Support Engineer"
 ### Leadership Competencies
 
 {{% include "includes/engineering-careers/intermediate-leadership-competency.md" %}}
+
 - Demonstrates a personal growth mindset by initiating pairings, completing
   learning modules, and building product and troubleshooting knowledge.
 - Understands support KPIs and optimizes personal workflow towards team
@@ -27,6 +28,7 @@ title: "Support Career Framework: Intermediate Support Engineer"
 ### Technical Competencies
 
 {{% include "includes/engineering-careers/intermediate-technical-competency.md" %}}
+
 - Is capable of creating and delivering clear technical replies to customer
   queries in spoken and written English.
 - Uses strong communication techniques to understand customer situations,

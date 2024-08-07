@@ -1,5 +1,4 @@
 ---
-
 title: How to Perform Customer Emergencies Duties
 category: On-call
 description: "Describes the role and responsibilities for Customer Emergencies rotation in Support Engineering"
@@ -520,29 +519,33 @@ The current on-call schedule can be viewed in [PagerDuty](https://gitlab.pagerdu
 
 Customers are permitted to submit emergencies via email or via the emergency form in the US Government support portal.
 
-#### Emergencies outside on-call hours
+### Emergencies outside on-call hours
 
 If a non-24x7 eligible customer submits an emergency case outside the [working hours of Government Support](https://about.gitlab.com/support/us-government-support/#hours-of-operation) the following will occur:
 
 - A slack notification will trigger in the #spt_us-government channel alerting the team to an off hours emergency and indicating follow-up is needed at the start of business hours
 - The `Off hours emergency request` trigger will inform the ticket submitter that it is after hours and give them the option to either create an emergency case in Global support or wait for US Government support to follow-up at the next start of business hours.
 
-##### Responding to after hours emergencies
+#### Responding to after hours emergencies
 
 Team members who are working after the 12x5 hours may opt to provide support for customers who are having a production incident at the engineer's own discretion. When addressing these it is important to ensure the following is clear with the customer:
 
-   - They are not entitled to 24x7 support based on their subscription
-   - Emergency support is being provided as a one off exception based on the engineer's availability and future after hours support is not guaranteed
+- They are not entitled to 24x7 support based on their subscription
+- Emergency support is being provided as a one off exception based on the engineer's availability and future after hours support is not guaranteed
 
 The responding engineer should also add their manager as a follower and indicate in an internal note that after hours support is being provided. This will help ensure the appropriate follow-up occurs with the customer's account team.
 
-#### US Gov Emergencies in Global
+### US Gov Emergencies in Global
 
 US Government customers with 12x5 support packages are permitted to use the global support portal for after hours emergencies if their organization's policies permit interacting and sharing information with non-US citizens. The US Gov support team **cannot confirm or deny** whether a specific case belongs to a user or organization entitled to US Government support. There is no requirement or restriction on who can reply to emergencies filed in the global support portal. If a user asks for a US citizen please remind them they are using the global support portal where US citizenship is not guaranteed and let them know if that is a requirement they should use the US Government Support portal for future communication instead.
 
 ## GitLab Dedicated Emergencies
 
-Emergencies from [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) come through the Customer Emergency On Call rotation. The [GitLab Dedicated Handbook](/handbook/support/workflows/dedicated) has information about [working with logs](/handbook/support/workflows/dedicated_logs) and a section on [escalating emergency issues](/handbook/support/workflows/dedicated#escalating-an-emergency-issue).
+Emergencies from [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) come through the Customer Emergency On Call rotation. The [GitLab Dedicated Handbook](/handbook/support/workflows/dedicated) has information about [working with logs](/handbook/support/workflows/dedicated_logs) and viewing [observability dashboards](/handbook/support/workflows/dedicated_instance_health/).
+
+Consider using the `@spt_focus-dedicated` Slack handle to ping members of the GitLab Support team who focus on GitLab Dedicated for additional assistance.
+
+As appropriate, you can use the section on [escalating emergency issues](/handbook/support/workflows/dedicated#escalating-an-emergency-issue) to engage the Engineer on Call for GitLab Dedicated.
 
 ## Special handling notes
 

@@ -1,13 +1,6 @@
 ---
-
 title: "Account Engagement"
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -20,13 +13,13 @@ Customer Success Managers will typically manage customer engagements via a GitLa
 ### Start a new customer engagement
 
 1. Somewhere between step 3 and step 7 of the customer journey sequence, a Solutions Architect should create a project for the customer in GitLab and include a Professional Services Engineer and Customer Success Manager who are best aligned with the customer account. This typically only applies to Enterprise accounts.
-2. After the Customer Success Manager has been aligned with the account, they will assign themselves to the “Customer Success Manager” field within Salesforce.
+2. After the Customer Success Manager has been aligned with the account, they will assign themselves to the "Customer Success Manager" field within Salesforce.
 3. The Customer Success Manager confirms that a new customer project has been created based on the [Enterprise](https://gitlab.com/gitlab-com/account-management/customer-collaboration-project-template) or the [Commercial](https://gitlab.com/gitlab-com/account-management/commercial/templates/new-customer-project/) Customer Success Plan Template. If it hasn't, they need to create it and work with the Account Executive and/or Solutions Architect to complete it. This may have been done by the SA prior to CSM involvement, but if not the CSM needs to create one.
 4. Follow the steps in the PLEASE-READ-THESE-INSTRUCTIONS.md file.
 
 ### Start a customer upgrade engagement
 
-1. After the Customer Success Manager has been aligned with the account, they will assign themselves to the “Customer Success Manager” field within Salesforce.
+1. After the Customer Success Manager has been aligned with the account, they will assign themselves to the "Customer Success Manager" field within Salesforce.
 1. Provided that the customer is part of the [CSM-Assigned segment](/handbook/customer-success/csm/segment/), confirm that the customer project has been created previously during the customer journey sequence, and if not available create a project for the customer in GitLab and include a Customer Success Manager who is best aligned with the customer account transition. For Commercial accounts, the CSM will determine if it is beneficial to have a customer project.
 1. Verify that the project complies with the [Enterprise](https://gitlab.com/gitlab-com/account-management/customer-collaboration-project-template) or the [Commercial](https://gitlab.com/gitlab-com/account-management/commercial/templates/new-customer-project/) Customer Success Plan Template.
 1. Follow the steps in the PLEASE-READ-THESE-INSTRUCTIONS.md file.
@@ -43,9 +36,11 @@ The "Welcome to GitLab" call will introduce the customer to the Customer Success
 
 1. Make use of the [account management projects](https://gitlab.com/gitlab-com/account-management)  ([Template](https://gitlab.com/gitlab-com/account-management/templates/customer-collaboration-project-template))
 1. Whenever a customer asks a question via email/Slack, kindly prompt them to open a Support ticket or an issue in the collaboration project
-  - Examples of a Support issue: Reporting GitLab downtime, errors or accessibility problems
-  - Examples of a Collaboration Project Issue: General questions about product usage, best practices or recommendations, adoption or integration questions
-1. Show customers the power of GitLab by using GitLab with them (ex: related issues, tracking milestones, threaded conversations, ability to interact directly with GitLab’s product/engineering teams)
+
+   - Examples of a Support issue: Reporting GitLab downtime, errors or accessibility problems
+   - Examples of a Collaboration Project Issue: General questions about product usage, best practices or recommendations, adoption or integration questions
+
+1. Show customers the power of GitLab by using GitLab with them (ex: related issues, tracking milestones, threaded conversations, ability to interact directly with GitLab's product/engineering teams)
 1. Make sure you are responding in a timely manner to customer's open issues. When you are prompt to respond, the customer is more likely to continue using the account management projects
 1. Have discussions in the public issues as much as possible. If there is a question/discussion point that requires interaction with the GitLab Engineering and Product teams, post it in the public issue, as it most likely benefits everyone reading the public issue.
 1. When adding a SFDC link to a public issue, remember to [provide feedback](/handbook/product/how-to-engage/#customer-feature-requests) to the product managers using the [feedback template](/handbook/product/how-to-engage/#feedback-template)
@@ -58,7 +53,7 @@ Occasionally, a GitLab e-group member (VP or C-level) will be meeting with a cus
 1. Work on the prep doc and call resources with your account team.
 1. Be as thorough as possible about your customer's details (e.g. ARR, # of users, tier, renewal date, stages in use)
 1. Ensure you answer the 5 W's (who,what,where,when,why) of the meeting and what should be the outcome of the meeting.
-    - Make sure that we detail both what GitLab wants out of the meeting and what the customer wants out of the meeting. This is a collaborative partnership that benefits both parties.
+   - Make sure that we detail both what GitLab wants out of the meeting and what the customer wants out of the meeting. This is a collaborative partnership that benefits both parties.
 1. Be prepared in advance of what you want the E-Group member to do, say, and ask.
 1. Have an agenda for the call and ensure everyone knows what they're supposed to do (who will speak when and about what).
 1. Add any topics you think the customer may bring up (positive or negative) and advice on how to approach it.
@@ -119,7 +114,7 @@ Customer personas are attributed to individual contacts in Gainsight when viewin
 
 On the Gainsight Attributes section, the CSM can set the priority level per customer with levels 1 or 2, with 1 being the highest. A new CSM-assigned customer coming on to GitLab will default to Pr1 until their onboarding enablement is complete. Pr3 is solely for unmanaged child accounts, and Pr4 is only for our digital customers and not for the CSM-assigned segment, with the exception of the Public Sector that is trialing a CSM-assigned digital customer. Priority definitions vary by CSM segment.
 
-![Post-Sales Customer Segmentation](./img/segmentation.jpg "Post-Sales Customer Segmentation")
+![Post-Sales Customer Segmentation](img/segmentation.jpg "Post-Sales Customer Segmentation")
 
 Why do we use a prioritization system?
 
@@ -131,6 +126,7 @@ Why do we use a prioritization system?
 The `CSM Portfolio` Dashboard is used to help highlight and review each client, including their priority level.
 
 Different geos and teams may have different approaches to prioritization, for example:
+
 - All AMER CSM customers are Priority 1.
 - Scale CSE account prioritization model is TBA.
 
@@ -149,6 +145,7 @@ The templates provided below can be used for certain outreach efforts to custome
 > As you may know, our primary goal is to help you achieve success with our product or service. As your CSM, I am here to be your trusted advisor and advocate, ensuring that you are getting the most out of our product and that you are satisfied with your overall experience.
 >
 > Working with a CSM can provide many benefits, including:
+>
 > - Strategic Guidance: I can provide you with insights and best practices to help you optimize your use of our product and get the most value out of it. We can work together to develop a plan to meet your business goals.
 > - Continuous Improvement: I am constantly monitoring your account to ensure that we are delivering the best possible experience. If there are areas where we can improve, I will work with you to identify and address them.
 > - Proactive Support: I am here to ensure that any issues or concerns you may have are addressed promptly and proactively. My goal is to minimize any disruptions and keep your business running smoothly.
@@ -158,6 +155,6 @@ The templates provided below can be used for certain outreach efforts to custome
 >
 > Thank you for choosing GitLab, and I look forward to working with you to achieve your business goals.
 >
-> Best regards,  
-> `[YOUR NAME]`  
+> Best regards,
+> `[YOUR NAME]`
 > Your GitLab Customer Success Manager

@@ -54,7 +54,7 @@ Ensure maximum operational uptime of mission critical infrastructure and informa
 
 ## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Engaging SIRT
 
-The [SIRT]({{< ref "." >}}) is on-call [24/7/365](/handbook/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}).
+The [SIRT]({{< ref "." >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}).
 
 Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide]({{< ref "secops-oncall" >}}).
 
@@ -64,7 +64,7 @@ As part of the incident management and review process the SIRT maintains a recur
 
 ## Limited Access
 
-Information about security incidents or investigations is considered [limited access]({{< ref "confidentiality-levels#limited-access" >}}) and is not shared with all team members. After being resolved, a determination will be made as to whether or not the incident or investigation issue contains [Materially Non-Public Information (MNPI)](/handbook/product/product-safe-guidance/#materially-non-public-information). Only incidents or investigation issues that do not contain MNPI will be made visible to GitLab team members. More information about how this aligns with [GitLab's value of Transparency]({{< ref "values#transparency" >}}) can be found on the [Transparency by Default page]({{< ref "transparency-by-default" >}}). The workflow for this is:
+Information about security incidents or investigations is considered [limited access]({{< ref "confidentiality-levels#limited-access" >}}) and is not shared with all team members. After being resolved, a determination will be made as to whether or not the incident or investigation issue contains [Materially Non-Public Information (MNPI)](/handbook/product/product-safe-guidance/#materially-non-public-information). Only incidents or investigation issues that do not contain MNPI will be made visible to GitLab team members. More information about how this aligns with [GitLab's value of Transparency](/handbook/values/#transparency) can be found on the [Transparency by Default page]({{< ref "transparency-by-default" >}}). The workflow for this is:
 
 ```mermaid
 graph TD

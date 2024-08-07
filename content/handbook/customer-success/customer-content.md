@@ -1,18 +1,8 @@
 ---
-
 title: "Resources to get started with GitLab"
 description: "A 5-day plan to get started with GitLab"
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
-
-
-
-
-
-
 
 ## Get familiar with GitLab
 

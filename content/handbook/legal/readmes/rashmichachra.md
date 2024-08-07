@@ -6,11 +6,11 @@ title: "Rashmi Chachra's README"
 
 ## Rashmi Pronunciation Hint
 
-A pronunciation hint for `Rashmi`: It’s like when I try to hurry you along and you say: `Rush me don’t rush me.` Easier than it looks, right?
+A pronunciation hint for `Rashmi`: It's like when I try to hurry you along and you say: `Rush me don't rush me.` Easier than it looks, right?
 
 ## My Job
 
-My job is to work with teams across the GitLab landscape on corporate and securities topics. That means I work on, among other matters: (a) acquisitions the company may desire to make; (b) matters related to the company’s stock; (c) external and internal communications; and (d) strategic projects. I also work on corporate governance matters which means that I work with GitLab’s Board of Directors and matters related to GitLab’s direct and indirect subsidiaries.
+My job is to work with teams across the GitLab landscape on corporate and securities topics. That means I work on, among other matters: (a) acquisitions the company may desire to make; (b) matters related to the company's stock; (c) external and internal communications; and (d) strategic projects. I also work on corporate governance matters which means that I work with GitLab's Board of Directors and matters related to GitLab's direct and indirect subsidiaries.
 
 ## How I Work
 
@@ -23,8 +23,8 @@ The absolute fastest and best way to contact me is through Slack. If you would l
 ## Random Facts About Me
 
 1. Mom of two boys that are 10 years apart in age. They are my heart.
-1. I’ve lived in 2 countries, 5 states in the US and the District of Columbia.
-1. I LOVE to travel and I LOVE to see the world through my kids’ eyes. Amazing what they see and what we take for granted.
+1. I've lived in 2 countries, 5 states in the US and the District of Columbia.
+1. I LOVE to travel and I LOVE to see the world through my kids' eyes. Amazing what they see and what we take for granted.
 1. I have a seriously large extended family (over 50 first cousins).
 1. I really enjoy (most of) the Star Trek and Star Wars universes. My husband is an avid fan and I have seen every one of the movies, the series, and many of the spin-offs. Spock is my all time favorite sci-fi character.
 

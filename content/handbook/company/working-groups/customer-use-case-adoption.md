@@ -48,8 +48,8 @@ Included in our [FY 25 Yearlies](https://internal.gitlab.com/handbook/company/ye
 
 - [ ] Improve CI Adoption ARR from 40% to 50% by the end of FY24-Q3
 CI Adoption Initiatives
-    - FY24-Q4: [CI Adoption - Acceleration Proposals to drive CI ARR to 50% by FY24-Q4](https://gitlab.com/groups/gitlab-com/-/epics/2250)
-    - FY24-Q3: [CI Adoption - Acceleration Proposals to drive CI ARR to 50% by FY24-Q3](https://gitlab.com/groups/gitlab-com/-/epics/2225)
+  - FY24-Q4: [CI Adoption - Acceleration Proposals to drive CI ARR to 50% by FY24-Q4](https://gitlab.com/groups/gitlab-com/-/epics/2250)
+  - FY24-Q3: [CI Adoption - Acceleration Proposals to drive CI ARR to 50% by FY24-Q3](https://gitlab.com/groups/gitlab-com/-/epics/2225)
 
 ## Roles and Responsibilities
 
@@ -82,14 +82,14 @@ CI Adoption Initiatives
 ## Multimodal Communication
 
 - Apply the following labels to issues and epics to enable tracking and team wide visibility
-    - `WorkingGroup::UseCaseAdoption`
-    - `UseCase::CI` (CI)
-    - `UseCase::Security` (Security & Compliance)
+  - `WorkingGroup::UseCaseAdoption`
+  - `UseCase::CI` (CI)
+  - `UseCase::Security` (Security & Compliance)
 - Apply the appropriate [Working Group status labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&search=wg-status) for issues or epics
-    - `wg-status::Not Started`
-    - `wg-status::Ready`
-    - `wg-status::In Progress`
-    - `wg-status::Blocked`
-    - `wg-status::Complete`
-    - `wg-status::Cancelled`
+  - `wg-status::Not Started`
+  - `wg-status::Ready`
+  - `wg-status::In Progress`
+  - `wg-status::Blocked`
+  - `wg-status::Complete`
+  - `wg-status::Cancelled`
 - Formalize "asks" of the Working Group by filing an issue against the [Use Case Adoption - Working Group Asks](https://gitlab.com/groups/gitlab-com/-/epics/2232) epic to enable cross-functional visibility, collaboration, and prioritization

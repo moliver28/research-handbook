@@ -3,13 +3,17 @@ title: "Workflows for working with community contributions"
 description: All processes that Contributor Success work with
 ---
 
-# Workflows
+## Workflows
 
 ## Real-time Communications
 
 A GitLab contributor room is available on [Discord](https://discord.gg/gitlab) for people interested in contributing to GitLab. This is open to everyone to join and is a good place for community members to network and help each other.
 
 ## Issues
+
+### Labeling issues for community contributors
+
+See guidance on [seeking wider community contributions](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions) and the [criteria for `quick win` issues](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#criteria-for-quick-win-issues).
 
 ### Community issues workflow manual process
 
@@ -43,6 +47,7 @@ See [Community-related reactive workflow automation](/handbook/engineering/infra
 ## Merge request coaches
 
 [Merge request coaches](/job-families/expert/merge-request-coach/) are available to help contributors with their MRs. This includes:
+
 - Identifying reviewers for the MR.
 - Answering questions from contributors.
 - Educating contributors on the [contribution acceptance criteria](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow#contribution-acceptance-criteria).
@@ -65,8 +70,8 @@ For community contributors to contribute to the [GitLab Enterprise Edition](http
 
 Renewal of this license:
 
-* In the event of active contributions in the previous license cycle, this license can be renewed for a further year.
-* If there have been no active contributions in the previous license cycle, a 90 day renewal can be granted.
+- In the event of active contributions in the previous license cycle, this license can be renewed for a further year.
+- If there have been no active contributions in the previous license cycle, a 90 day renewal can be granted.
 
 Contributors will need to create an request in this project to request their license: [Wider Community Contributor License Request](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/new?issuable_template=contributor_ee_license_request).
 
@@ -111,23 +116,23 @@ Adding a new corporate group under this namespace is as follows:
 
 ### How do I add an organization or a user to an organization?
 
-* Navigate to the [Contributing Org Tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker).
-* Go to the **MRARR Organization** tab.
-* If a user is not listed here, you can add it to the respective row, or add a new
+- Navigate to the [Contributing Org Tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker).
+- Go to the **MRARR Organization** tab.
+- If a user is not listed here, you can add it to the respective row, or add a new
 row at the bottom with the same structure.
 
 ### How do I enable the Leading Organizations program benefits for organizations
 
-* Navigate to the [Contributing Org Tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker).
-* Go to the **Leading Organization** tab.
-* Add the organization to the list with the exact same name as found in the **MRARR Organization** tab.
-* Make sure you enter an entry date & current MR count from the last 3 months so we can look back and understand their performance over time.
+- Navigate to the [Contributing Org Tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker).
+- Go to the **Leading Organization** tab.
+- Add the organization to the list with the exact same name as found in the **MRARR Organization** tab.
+- Make sure you enter an entry date & current MR count from the last 3 months so we can look back and understand their performance over time.
 
 ### How do I stop the Leading Organizations program benefits for organizations
 
-* Navigate to the [Contributing Org Tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker).
-* Go to the **Leading Organization** tab.
-* Enter the exit date next to the respective organization that should no longer receive the benefits.
+- Navigate to the [Contributing Org Tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker).
+- Go to the **Leading Organization** tab.
+- Enter the exit date next to the respective organization that should no longer receive the benefits.
 
 Caution: If an organization reaches the threshold it will be auto-enrolled in the program for receiving the review-time SLO.
 
@@ -139,9 +144,9 @@ See [GitLab MVP Selection Process](/handbook/marketing/developer-relations/contr
 
 The Contributor Success team has been regularly thanking GitLab team members and Wider community members for active participation in Merge Requests. At the moment, this takes the form of:
 
-* A weekly thanks message in the `#thanks` channel in slack - Thanking GitLab team members for participation in `Community Contribution` Merge Requests.
-* A weekly thanks message in the `#thanks` channel in discord - Thanking wider community members for having MRs merged, as well as participating in other's MRs that were merged.
-* A monthly thread on the forum, with the weekly posts from discord crossposted.
+- A weekly thanks message in the `#thanks` channel in slack - Thanking GitLab team members for participation in `Community Contribution` Merge Requests.
+- A weekly thanks message in the `#thanks` channel in discord - Thanking wider community members for having MRs merged, as well as participating in other's MRs that were merged.
+- A monthly thread on the forum, with the weekly posts from discord crossposted.
 
 These messages are generated with the help of a [script](https://gitlab.com/gitlab-org/developer-relations/contributor-success/toolbox) that is being maintained and iterated on by the Contributor Success Team. The script runs on a Monday morning, and injects the messages into the `#contributor-success` channel in slack.
 
@@ -149,19 +154,19 @@ These messages are generated with the help of a [script](https://gitlab.com/gitl
 
 To post the messages:
 
-* Copy the appropriate message from the `#contributor-success` Slack channel into the appropriate `#thanks` channel. The `Scope: GitLab Team mode` message goes to Slack `#thanks` and the `Scope: Wider Community mode` message goes to Discord `#thanks`.
-* Verify the content is applicable to the audience (i.e. the internal message in slack, etc)
-* Validate any automated user handle expansions to verify the correct person and add missing user handles.
-* Send the message!
-* Post the wider community message on the forum, too, under the [Community](https://forum.gitlab.com/c/community/39) category, with the addition of a crosslink to the Discord post.
-    * If this is the first post since a release, open a new topic with the title: `GitLab x.xx Release Community Thanks` and use the tag `thanks`.
-    * Otherwise, add a new message on the existing thread.
-* Update the assignee of the tracking issues and due dates.
+- Copy the appropriate message from the `#contributor-success` Slack channel into the appropriate `#thanks` channel. The `Scope: GitLab Team mode` message goes to Slack `#thanks` and the `Scope: Wider Community mode` message goes to Discord `#thanks`.
+- Verify the content is applicable to the audience (i.e. the internal message in slack, etc)
+- Validate any automated user handle expansions to verify the correct person and add missing user handles.
+- Send the message!
+- Post the wider community message on the forum, too, under the [Community](https://forum.gitlab.com/c/community/39) category, with the addition of a crosslink to the Discord post.
+  - If this is the first post since a release, open a new topic with the title: `GitLab x.xx Release Community Thanks` and use the tag `thanks`.
+  - Otherwise, add a new message on the existing thread.
+- Update the assignee of the tracking issues and due dates.
 
 Tracking issues:
 
-* [Internal Weekly message](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/85)
-* [Wider Community message](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/186)
+- [Internal Weekly message](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/85)
+- [Wider Community message](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/186)
 
 ### Manual execution
 
@@ -243,6 +248,7 @@ All the community office hour calls should be added to the [Developer Advocacy c
 #### How to organize a community office hour call
 
 **Preparation**
+
 - Once you have a finalized date and time, add it to:
   - the [meetup.com group](https://www.meetup.com/gitlab-virtual-meetups/) (meetup.com account available at your GitLab's 1Password vault)
   - the [developer advocacy calendar](/handbook/marketing/developer-relations/developer-advocacy/#-team-calendar)
@@ -252,12 +258,14 @@ All the community office hour calls should be added to the [Developer Advocacy c
 - The day before the call, post reminders on Discord
 
 **Running the call**
+
 - Ask for everyone's permission to live stream the call. Then press the Live Stream on YouTube button in Zoom to begin streaming.
 - Enable close captioning in zoom for accessibility.
 - Once the call starts, do a round of introductions asking the question: "what brought you to this call". This will help you adjust the call to the community's needs and, answer any questions/meet their expectations.
 - Keep detailed meeting minutes
 
 **After the call**
+
 - Add the youtube video to the "office hour calls" playlist
 - Post a recap and the video recording on Discord
 
@@ -266,18 +274,17 @@ All the community office hour calls should be added to the [Developer Advocacy c
 To encourage contribution to priority issues on an on-going basis (and not just during Hackathons), we will maintain a list of up to 5 priority issues for each [product stage](/handbook/product/categories/) and prizes will be given to wider community members who have MRs merged for these issues. These issues will have the label [`Community challenge`](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=Community+challenge) and more details such as prizes, assignment of these issues, etc.
 
 ### Community Newsletter
+
 We run a [Community Newsletter](/handbook/marketing/developer-relations/developer-advocacy/#community-newsletter) to share developer-focused content, alert community members about upcoming events, and keep contributors engaged. The focus of the newsletter is on driving contributions and engagement. It will not be used to generate or nurture leads and allow us to connect with and share our community's contributions.
-
-#### Issues for new contributors
-
-To highlight issues that would be good for new contributors, you can add a [label `quick win`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=quick%20win&first_page_size=50). It is strongly recommended that these issues have mentor(s) listed so that the new contributor knows who they can get help from while they work on the issue.
 
 ## Supporting the Wider Community Contributors
 
 ### Unblocking wider community contributions
+
 Following GitLab's mission that [Everyone can contribute](/handbook/company/mission/#contribute-with-gitlab), the Contributor Success team helps unblock wider community contributors and move contributions forward. Sometimes other teams at GitLab do not have the capacity to support community contributions, but this should not stop the community from contributing.
 
 These 10 GitLab values support efforts to unblock the wider community and push forward:
+
 1. [Do it yourself](/handbook/values/#do-it-yourself)
 1. [Short toes](/handbook/values/#short-toes)
 1. [Collaboration is not consensus](/handbook/values/#collaboration-is-not-consensus)
@@ -291,15 +298,27 @@ These 10 GitLab values support efforts to unblock the wider community and push f
 
 ### Seeking wider community contributions
 
-GitLab team members seeking help can reach out to the wider community for contributions. It is suggested to start with smaller issues that have a clear implementation plan before moving on to bigger project requests.
+GitLab team members seeking help can reach out to the wider community for contributions. It is suggested to start with smaller `quick win` issues that have a clear implementation plan before moving on to bigger project requests.
 
-- Add a `quick win` label to the issue.
-- Add a clear implementation plan to the issue description.
+- Add a `quick win` label to the issue by following the [criteria for `quick win` issues](#criteria-for-quick-win-issues).
 - Share the issue on the GitLab Community Discord in the [#contribute channel](https://discord.com/channels/778180511088640070/997442331202564176).
 - If a community contributor expresses interest, assign them to the issue.
 - Follow up with the community contributor to see if they need help.
 
+### Criteria for `quick win` issues
+
+GitLab guides the wider community to search for issues with the `quick win` label when looking to contribute. These issues are intended to be straightforward for community contributors and quick enough to complete while still learning the contribution process. This follows [GitLab's mission](/handbook/company/mission/#mission) to enable everyone to contribute and to support our first-time contributors onboarding with the community. The [GitLab Bot](https://gitlab.com/gitlab-bot) helps to maintain this criteria and will remove the `quick win` label when an issue does not meet the requirements.
+
+- The issue description must include an `## Implementation plan` second-level heading, containing guidance to help contributors get started.
+This section can be very brief or offer possible actions to resolve the issue.
+- The issue must be assigned a weight between 0-3.
+Issue weights should approximate the complexity and effort required.
+Do not relate weight to time estimates.
+- Consider including a GitLab team member or experienced community contributor as a contact person
+for contributors to ask questions or get mentorship.
+
 ### First-time contributors
+
 The first-time contributors can be identified after each release in the [First time contributors MRs dashboard](https://gitlab.biterg.io/app/kibana#/dashboard/df97f810-f397-11e8-8fe1-b354a33b38be).
 
 Every time a contributor is opening a merge request to a GitLab namespace for the first time, the label "~1st contribution" is automatically applied to the merge request.
@@ -309,6 +328,7 @@ Once the merge request is reviewed and merged, the contributor can apply for the
 Contributor Success team members can use the [outreach email/message template](/handbook/marketing/developer-relations/contributor-success/templates/email-templates) when sending the link for the first-time contributor gift.
 
 ### Working with the Core Team
+
 More information on the [Core Team](https://about.gitlab.com/community/core-team/) is available in the [Core Team handbook page](/handbook/marketing/developer-relations/core-team/).
 
 ### For contributors who don't own a credit card
@@ -321,11 +341,9 @@ Wider community members may run out of monthly compute minutes, or run into othe
 
 The solution is to work from the [GitLab community forks](https://gitlab.com/gitlab-community/meta#about).
 
-### Community outreach
+### Contacting contributors
 
-#### Contacting contributors
-
-To be respectful to the contributor's privacy, we will only contact data that is publicly available to reach out to them.
+To be respectful to the contributor's privacy, we will only use contact data that is publicly available to reach out to them.
 
 Here are some ways to reach out to contributors to e.g. distribute Hackathon prizes or MVP swag:
 
@@ -338,11 +356,100 @@ If you need assistance finding a contributor's email address please see [Finding
 
 Once you've found out the best way to contact them, you can choose to use a mention, e-mail or Twitter for instance.
 
-#### Contributor blog post series
+### Contributor blog post series
 
 Goal is to publish a regular blog post featuring contributors from the community.  The format will be a [casual Q&A with a community member](https://about.gitlab.com/blog/2018/08/08/contributor-post-vitaliy/) and will be posted on the [GitLab blog page](https://about.gitlab.com/blog/).
 
 When developing a blog post, follow the [blog guidelines](/handbook/marketing/blog/).
+
+## Contributor outreach campaigns
+
+Outreach campaigns help us reconnect with past contributors to GitLab who have stopped
+or users who have expressed interest in contributing but have not started.
+When reaching out, we plant trees in the [GitLab forest](https://tree-nation.com/profile/gitlab)
+in their name to recognize their past and/or potential future contributions.
+
+### Outreach goals
+
+The Contributor Success team experimented with different criteria and messages to create a repeatable
+outreach campaign with three goals:
+
+1. Maximize community members opening new merge requests
+1. Minimize time commitment from Contributor Success to run the campaign
+1. Prevent outreach campaigns from being a nuisance or appearing like marketing spam
+
+### Candidate criteria for return contributors
+
+- 0 opened merge requests in the last 3 months
+- Must have merged 2 or more merge requests in the last 12 months
+- Has not previously been contacted in an outreach campaign
+
+### Candidate criteria for new contributors
+
+- Requested and received access to the community forks at least 1 month ago
+- No merged merge requests in their history
+- Has not previously been contacted in an outreach campaign
+
+### Tracking Results
+
+Outreach campaign results are tracked in the [Outreach resuts spreadsheet](https://docs.google.com/spreadsheets/d/1oAkJsYoeRmcYevacWb_PK339C1F-wi-cfy4p7F7BlSg/edit?usp=sharing)
+and reported in the [Report on all outreach campaigns issue](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/517).
+
+#### Results for return contributor campaigns
+
+| Outreach campaign    | Criteria         | Total outreach users | Returned users | User return rate | Merged MR | Opened MR | Closed MR |
+|----------------------|------------------|----------------------|----------------|------------------|-----------|-----------|-----------|
+| December 2023        | 6 months idle    | 49                   | 7              | 14.29%           | 11        | 0         | 2         |
+| January 2024         | 3 months idle    | 124                  | 12             | 9.68%            | 15        | 2         | 2         |
+| April 2024           | 3 months idle    | 40                   | 5              | 12.50%           | 12        | 1         | 1         |
+
+#### Results for new contributor campaigns
+
+| Outreach campaign    | Criteria         | Total outreach users | Returned users | User return rate | Merged MR | Opened MR | Closed MR |
+|----------------------|------------------|----------------------|----------------|------------------|-----------|-----------|-----------|
+| April 2024           | 0 contributions  | 274                  | 6              | 2.19%            | 4         | 2         | 1         |
+
+#### Observations on results
+
+- To date, the return contributor campaigns has been a success with an average user return rate of 11%, 24 returned contributors, and 38 merged merge requests.
+- The April experiment with a new contributor campaign was less successful with a 2% contribution rate.
+  - This campaign did not have a time restriction on how long ago users requested community forks access and likely many users had lost interest in getting started.
+  - It is expected that return contributors would be more successful than new contributors in opening a merge request.
+- In addition to opened and merged merge request results, we observed user engagement in the issues, onboarding task completion, and apreciation of the tree planting.
+- Many contributors will not have the availability to make a merge request within 1 month of the outreach to appear in these results. The campaign might be a positive reminder of the opportunity to contribute at a later time.
+
+### Outreach campaign scheduling
+
+Outreach campaigns are targeted to run every 3 months but should coincide with an announcement that might entice contributors.
+For example, announcing an upcoming hackathon or a new contributing feature like GDK-in-a-box.
+
+### Outreach campaign workflow
+
+#### Review candidate pool
+
+The Contributor Success team reviews the candidate pool to remove:
+
+- Any known GitLab team members with either a GitLab account or a personal account
+- Longstanding contributors who have lapsed but should be contacted separately outside of the campaign (e.g. Core members, former MVPs, GitLab Heroes, etc.)
+- Any known community members who have had code of conduct violations, expressed they do not want to be contacted,
+or expressed they do not want to contribute to GitLab
+
+#### Create issues and plant trees
+
+- Use the temporary branch [`temp-outreach-path` in the reward engine project](https://gitlab.com/gitlab-org/developer-relations/contributor-success/reward-engine/-/tree/temp-outreach-patch?ref_type=heads)
+- Paste candidate usernames into the `recipients` variable in [the `RewardIssuer` module](https://gitlab.com/gitlab-org/developer-relations/contributor-success/reward-engine/-/blob/temp-outreach-patch/lib/reward_issuer/gitlab.rb?ref_type=heads)
+- Run `bundle exec bin/reward_engine`
+- Use a personal access token so the outreach message comes from a real team member instead of a bot
+
+#### Responding and closing outreach issues
+
+- Answer any questions or acknowledge feedback in the outreach issues
+- Close outreach issues after 2 month period with a closing message encouraging the contributor to reopen the issue and reach out if they would like support
+
+### Potential iterations
+
+- Reduce the manual review step with automation by checking candidates against role criteria or list of candidates to exclude
+- Thank users who contribute after the outreach campaign in their respective issues which might give opportunity for them to share why they came back
 
 ## Recognition for contributors
 
@@ -354,9 +461,9 @@ From time to time, a wider community member will submit a particularly outstandi
 
 In order to recognize regular contributors, the list of top contributors for each calendar year will be published in the [Top Annual Contributors page](https://about.gitlab.com/community/top-annual-contributors/). There will be three categories of top contributors:
 
-*  SuperStar: more than 75 MRs merged
-*  Star: between 11 and 75 MRs merged
-*  Enthusiast: between 5 and 10 MRs merged
+- SuperStar: more than 75 MRs merged
+- Star: between 11 and 75 MRs merged
+- Enthusiast: between 5 and 10 MRs merged
 
 Customized GitLab merchandise will be created for these contributors and will be available on Printfection. For GitLab team members, you can follow the steps below to get the awards to the wider community members.
 
@@ -372,7 +479,7 @@ In an effort to understand, support, and empower the GitLab code contributor com
 
 These lifecycle segments are assigned on an individual user level. For organizational recognition, see [Leading Organizations](/handbook/marketing/developer-relations/leading-organizations/).
 
-| Contributor Experience level | MRs merged
+| Contributor Experience level | MRs merged |
 | ------ | ------ |
 | Level 0 | 0 MRs |
 | Level 1 | 1 - 3 MRs |
@@ -380,7 +487,7 @@ These lifecycle segments are assigned on an individual user level. For organizat
 | Level 3 | 26 - 75 MRs |
 | Level 4 | 75+ MRs |
 
-| Contributor Status | MRs merged | Timeframe
+| Contributor Status | MRs merged | Timeframe |
 | ------ | ------ | ------ |
 | Casual contributor | < 10 MRs | Last 6 months |
 | Regular contributor | 10+ MRs | Last 6 months |
@@ -396,6 +503,7 @@ The goal is to increase code contributors across all segments (except the inacti
 Note: this is currently a working list of all locations where we can currently gather contributor metrics. It is not *yet* the final set of metrics we will be using to monitor the success of the contributor program with.
 
 ### Tableau dashboards
+
 Internally, GitLab uses [Tableau](/handbook/business-technology/data-team/platform/tableau/) for tracking down the performance of various KPIs. Below you can find a list of community-related dashboards.
 
 | Dashboard | Description |
@@ -404,9 +512,11 @@ Internally, GitLab uses [Tableau](/handbook/business-technology/data-team/platfo
 | [MRARR Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/MRARRDashboard_17055242209630/MRARRDashboard) | Metrics associated to contributing organizations who are also a customer of GitLab |
 
 ### GitLab.com
+
 You can also directly query data from `Merge Requests` pages for projects (e.g. CE, EE, Omnibus, Shell, etc.) on gitlab.com and apply appropriate filters for milestone, labels, etc. Some of the examples are listed in the metrics table below.
 
 ### Number of Contributors
+
 In the past we often mentioned 2,000+ contributors in the GitLab community (GitLab team members + wider community) as you can see in [this example](https://about.gitlab.com/blog/2018/08/13/join-the-gitlab-community/). However, this only included contributors to CE and EE projects based on the old [https://contributors.gitlab.com](https://web.archive.org/web/20190619012814/http://contributors.gitlab.com/) page.
 
 If you include other GitLab projects, the total number of contributors is much larger.

@@ -15,7 +15,7 @@ Feature development epics are listed in [team priorities](https://about.gitlab.c
 - Title
   - Add 'BE' or 'FE' into the title to signify backend and frontend. The labels would signify this as well, but adding this to the title makes it easier to spot
 - Milestone
-  - The feature flag rollout issue’s milestone is the milestone in which we plan to release the feature. Any issue above the feature flag rollout issue should have a milestone <= the feature flag rollout issue milestone
+  - The feature flag rollout issue's milestone is the milestone in which we plan to release the feature. Any issue above the feature flag rollout issue should have a milestone <= the feature flag rollout issue milestone
 - Workflow label
   - Needs to be kept up to date so that users/PMs know the status of the epic and can plan their work appropriately (e.g. if all the issues have a label of ~workflow::refinement halfway through the milestone, then the epic probably won't be released that milestone).
 - Order of issues in the "Child issues and epics" list
@@ -30,7 +30,7 @@ Feature development epics are listed in [team priorities](https://about.gitlab.c
 ### Follow-up work
 
 - When additional work is identified that is not required for a release of a feature, a separate follow-up/improvements epic should be created and the issues should be added to it
-    - This additional epic should not go into the priorities list for the group as not all of the issues may be important enough to schedule for a specific milestone. Instead the issues should be prioritized individually
+  - This additional epic should not go into the priorities list for the group as not all of the issues may be important enough to schedule for a specific milestone. Instead the issues should be prioritized individually
 - When we close the feature flag rollout issue, which happens when the feature flag has been defaulted on and the feature flag cleanup issue has been created (per the rollout issue template), we close the feature epic and move any remaining issues to the follow-up/improvement epic
 
 ### Bugs

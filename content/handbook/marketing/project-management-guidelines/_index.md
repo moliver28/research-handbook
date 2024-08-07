@@ -1,12 +1,10 @@
 ---
-
 title: "Marketing Project Management Guidelines"
 ---
 
 {{< include "includes/wip-notice.md" >}}
 
 ### Sub Pages
-
 
 1. Organization - [Groups and Projects](/handbook/marketing/project-management-guidelines/groups/)
 2. [Labels](/handbook/marketing/project-management-guidelines/labels/)
@@ -16,7 +14,7 @@ title: "Marketing Project Management Guidelines"
 6. [Issues](/handbook/marketing/project-management-guidelines/issues/)
 7. [Boards](/handbook/marketing/project-management-guidelines/boards/)
 
-# <i class="fas fa-toolbox fa-fw color-orange font-awesome"></i> Marketing Project Management Guidelines
+## <i class="fas fa-toolbox fa-fw color-orange font-awesome"></i> Marketing Project Management Guidelines
 
 Marketing uses GitLab for agile project management including [groups](https://docs.gitlab.com/ee/user/group/), [projects](https://docs.gitlab.com/ee/user/project/), [epics](https://docs.gitlab.com/ee/user/group/epics/), [roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/), [issues](https://docs.gitlab.com/ee/user/project/issues/), [labels](https://docs.gitlab.com/ee/user/project/labels.html), and [boards](https://docs.gitlab.com/ee/user/project/issue_board.html). Read through the documentation on each of these GitLab features if you are unfamiliar.
 
@@ -25,10 +23,8 @@ Marketing uses GitLab for agile project management including [groups](https://do
 Marketing Departments collaborate to produce Integrated Campaigns. An Integrated Campaign is a communication effort that includes several campaign tactics such as blog posts, emails, events, advertisements, content on about.gitlab.com, videos, case studies, whitepapers, surveys, social outreach, and webcasts. An Integrated Campaign will have a campaign theme that summarizes the message we are communicating to our market.
 
 ### [Active integrated campaigns](/handbook/marketing/campaigns/#active-marketing-campaigns)
-{: .no_toc}
 
 **Have a new campaign idea?** [Make a suggestion](/handbook/marketing/campaigns#new-ideas-for-marketing-campaigns-or-events)
-
 
 ## Project Management Processes
 
@@ -37,19 +33,16 @@ We cultivate a deep understanding of our own product by using GitLab to manage o
 [The latest Project Management recommendations can be found here](/handbook/marketing/project-management-guidelines) from FY21-Q2 Agility Project
 
 ### Milestones
-{: .no_toc}
 
 [The latest recommendations for Milestones](/handbook/marketing/project-management-guidelines/milestones/) from FY21-Q2 Agility Project
 
 #### Weekly Sprints
-{: .no_toc}
 
 Within the www-gitlab-com repo (parent repo to Marketing) there are weekly milestones, which some teams use plan a weekly sprint cadence. Each of these sprints begins with "Fri:**" for the Friday upon which that sprint ends, making them [searchable in a list here](https://gitlab.com/groups/gitlab-com/-/milestones?utf8=%E2%9C%93&search_title=fri%3A&state=&sort=).
 
 Each week on Monday, any open MRs and issues still assigned to the previous week's milestone are bulk moved forward to the next week, and the previous milestone is closed out. **This is a manual process currently performed by Danielle.**
 
 ### Groups and projects
-{: .no_toc}
 
 [The latest recommendations for Groups and Projects](/handbook/marketing/project-management-guidelines/groups/) from FY21-Q2 Agility Project
 
@@ -74,7 +67,6 @@ Each week on Monday, any open MRs and issues still assigned to the previous week
 1. Issues should be logged in the team project ultimately responsible for completing requested work. (i.e. If SDR needs list uploaded -> issue created in Marketing Operations project).
 
 ### Issues, Milestones, and Epics
-{: .no_toc}
 
 [The latest recommendations for Epics](/handbook/marketing/project-management-guidelines/epics/) and [the latest for Issues](/handbook/marketing/project-management-guidelines/issues/) from FY21-Q2 Agility Project
 
@@ -88,7 +80,6 @@ Each week on Monday, any open MRs and issues still assigned to the previous week
 1. Roadmaps are used for time-based display of epics with a start and end date. (for example, events and time-based campaigns.)
 
 ### Boards and Labels
-{: .no_toc}
 
 [The latest recommendations for Labels](/handbook/marketing/project-management-guidelines/labels/) and [the latest for boards](/handbook/marketing/project-management-guidelines/boards/) from FY21-Q2 Agility Project
 
@@ -113,7 +104,6 @@ Each week on Monday, any open MRs and issues still assigned to the previous week
 1. **Don't duplicate status labels at the project level.** Use group labels (at the Marketing Group level) as much as possible.
 
 ### Department Labels
-{: .no_toc}
 
 Each Department within Marketing can have "additive" labels - meaning they are used to enhance the tracking and workflows for that respective team. These "additive" labels are used in conjunction with the broader [Marketing labels](#boards-and-labels). The Department label usage is documented on each of the respective handbook pages:
 
@@ -124,23 +114,20 @@ Each Department within Marketing can have "additive" labels - meaning they are u
 - [Account Based Marketing](/handbook/marketing/account-based-marketing/)
 
 ### Default Issue Text
-{: .no_toc}
 
 All of the projects within the [Marketing subgroup](https://gitlab.com/gitlab-com/marketing) include **default issue text** to ensure the Department labels are applied consistently and broader adoption of the [global Marketing labels](#boards-and-labels).
 
 #### Using Default Issue Text
-{: .no_toc}
 
 When a new issue is opened in _any_ project, the issue description will contain a small snippet of text applying that teams' label & Marketing scoped `mktg-status::plan` label.
 
-![](/images/handbook/marketing/example_default_issue_text.png)
+![''](/images/handbook/marketing/example_default_issue_text.png)
 
 - If a template is chosen, a message will appear confirming you want to change the text w/in the issue description, click `Apply Template` and continue as normal
 
-![](/images/handbook/marketing/template_change_message.png)
+![''](/images/handbook/marketing/template_change_message.png)
 
 #### Updating Default Issue Text
-{: .no_toc}
 
 The default text is minimal and generic. Any team can make the collective decision to update the text. Access to modify the text may be limited based on group/project permission level, if you do not have access to the `General` settings section, please reach out to `@mktg-ops` via slack.
 _Please note_ this is not an issue bot there is no dynamic functionality. The default issue text applies to all issues opened within that project and the text should be broad enough to encompass a roles within that team.
@@ -158,10 +145,7 @@ _Please note_ this is not an issue bot there is no dynamic functionality. The de
 If you have any issues &/or questions, please reach out to the MktgOps team (`@mktg-ops`) via slack.
 
 ### How it all fits together
-{: .no_toc}
 
 Figuring out how where and how to create a board, epic, label can be confusing. The following diagram is a very high level example of how it all fits together. If there are questions please ask in the [#mktgops slack channel](https://gitlab.slack.com/messages/CGL35F20G) (*must be GitLab team member for active link).
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vRNvAJ7LoK-6nvbOGEX-T5-tRD7PK3dU4OVbfBWwr6orNwnEo4LJBSCDCenfDfFcQwSTeOWFDS8FE15/pub?w=1056&amp;h=1344">
-
-
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRNvAJ7LoK-6nvbOGEX-T5-tRD7PK3dU4OVbfBWwr6orNwnEo4LJBSCDCenfDfFcQwSTeOWFDS8FE15/pub?w=1056&amp;h=1344" alt="">

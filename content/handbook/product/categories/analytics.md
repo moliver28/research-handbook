@@ -23,13 +23,13 @@ Here are the individuals who work as part of one of the Analytics Section groups
 The section is covered by groups from teams across two primary departments, Engineering and Product. Teams and team members from those departments have their own handbook pages linked below.
 
 - Engineering
-   - [Development](/handbook/engineering/development/)
-      - [Analytics Instrumentation](/handbook/engineering/development/analytics/analytics-instrumentation/)
-      - Product Analytics
-   - [UX](/handbook/product/ux/#team-structure)
-   - [Quality](/handbook/engineering/quality/#quality-engineering-structure)
+  - [Development](/handbook/engineering/development/)
+    - [Analytics Instrumentation](/handbook/engineering/development/analytics/analytics-instrumentation/)
+    - Product Analytics
+  - [UX](/handbook/product/ux/#team-structure)
+  - [Quality](/handbook/engineering/quality/#quality-engineering-structure)
 - Product
-   - TBD
+  - TBD
 
 ## Investment Allocation
 

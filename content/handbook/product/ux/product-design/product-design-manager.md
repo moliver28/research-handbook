@@ -20,9 +20,9 @@ Utilizing these issues will help us understand the frequency and duration of bor
 
 We conduct an annual team skills analysis based on a [process recommended by Nielsen-Norman](https://www.nngroup.com/articles/skill-mapping/).
 
-This allows us to see our strengths as a team and to identify team trainings that would benefit a large portion of the team, help us identify strengths we'd like to add when hiring new team members, and inform individual team member's growth plans. It can also act as a resource for matching mentors and/or design pairs.
+The primary goal of the skills analysis is to inform individual team member's growth plans. Secondary benefits are that it allows us to see our strengths as a team, helps to identify team trainings that would benefit a large portion of the team, helps us identify strengths we'd like to add when hiring new team members and can also act as a resource for matching mentors and/or design pairs.
 
-#### How to conduct the team assessment
+### How to conduct the team assessment
 
 1. Make a copy of the [GitLab Team Skills Matrix (private to GitLab)](https://docs.google.com/spreadsheets/d/1MZsalURuFy60mNCBlzkQ2hhPSWsuSXtjJ-NlFac7jCA/edit?usp=sharing).
 1. Review the template to make sure it makes sense for your team. Do consider changes carefully and discuss with other managers. We want to be able to have consistency so we can view them across multiple design teams.
@@ -32,8 +32,7 @@ This allows us to see our strengths as a team and to identify team trainings tha
 1. Review with your team member. You may suggest adjustments based on your observations, but ultimately this is a self-assessment.
 1. Share the results in an issue -[Example Issue](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1674).
 1. To follow up on the results, the team members and their manager can identify opportunities to fill gaps where team members said they want to improve.
-1. Share with other UX leaders.
-
+1. Repeat in Q1 on a yearly cadence.
 
 ## Team Member Updates
 

@@ -27,11 +27,11 @@ We collaborate with tax to review actual tax expenses, forecast tax provision fo
 - **2022-05-10**: FP&A locks forecast and shares with Tax a full GAAP PTI forecast, including the forecasts for the non-GAAP entity-level P&L, stock-based compensation expense, and other GLs including depreciation, amortization, capital additions, etc.
 - **2022-05-13**: Tax shares preliminary quarterly tax provision forecast with FP&A
 - **2022-05-16**: Tax provision meeting with CFO, where Tax discusses a range of topics, including but not limited to: projected vs actual income tax expense and ETR, cash tax paid, tax attributes, tax reserves, and the final provision forecast. Corporate FP&A will use the final provision forecast communicated in this meeting in preparing the guidance.
-    - Notes:
-        - Typically, FP&A will lock the forecast 48 hours after the books have closed. Tax will have at least 48 hours (2 days) to provide a preliminary provision forecast.
-        - In the **second month of each quarter**, FP&A will share the latest locked forecast with Tax on Day 9 (or 48 hours after the books have closed, whichever is sooner) every month. Providing the latest forecast with Tax enables the team to update their tax models for the full year provision. The following is an example of such timeline for Month 2 of Q1-FY23 (using the 2+10 Forecast):
-        - **2022-04-15**: Accounting closes books and consolidations occurs
-        - **2022-04-18**: FP&A locks forecast and shares with Tax a full GAAP PTI forecast, including the forecasts for the non-GAAP entity-level P&L, stock-based compensation expense, and other GLs including depreciation, amortization, capital additions, etc.
+  - Notes:
+    - Typically, FP&A will lock the forecast 48 hours after the books have closed. Tax will have at least 48 hours (2 days) to provide a preliminary provision forecast.
+    - In the **second month of each quarter**, FP&A will share the latest locked forecast with Tax on Day 9 (or 48 hours after the books have closed, whichever is sooner) every month. Providing the latest forecast with Tax enables the team to update their tax models for the full year provision. The following is an example of such timeline for Month 2 of Q1-FY23 (using the 2+10 Forecast):
+    - **2022-04-15**: Accounting closes books and consolidations occurs
+    - **2022-04-18**: FP&A locks forecast and shares with Tax a full GAAP PTI forecast, including the forecasts for the non-GAAP entity-level P&L, stock-based compensation expense, and other GLs including depreciation, amortization, capital additions, etc.
 - Close timelines can be found in GitLab Issues created by the Accounting team to increase transparency and efficiency across teams as part of close. The Q1-FY23 close timeline can be found at the issue here.
 
 ### Revenue Accounting Partnerships
@@ -64,9 +64,9 @@ We collaborate with tax to review actual tax expenses, forecast tax provision fo
 
 ### Talent & Total Rewards Partnership
 
-- We collaborate with Total Rewards to align on budget and actuals for the Annual Compensation Review, promotions and benefits programs. We analyze scenarios in alignment with their team’s strategic programs and benefits roadmap.  We collaborate in the Slack channel #fpa-total-rewards and have a weekly recurring meeting.
+- We collaborate with Total Rewards to align on budget and actuals for the Annual Compensation Review, promotions and benefits programs. We analyze scenarios in alignment with their team's strategic programs and benefits roadmap.  We collaborate in the Slack channel #fpa-total-rewards and have a weekly recurring meeting.
 - More details on how the [Compensation Program Budget]({{< ref "compensation-review-cycle#compensation-program-budget" >}}) is determined can be found in the total rewards handbook.
-- As part of the annual planning process, FP&A helps to draft the next year’s executive/director bonus plan structure as it relates to key performance metrics, payouts structure, acceleration milestones, etc. The Chief Financial Officer and the Chief People Officer will approve the bonus structure prior to Compensation Committee review. The deliverable for the Compensation Committee is a slide deck illustrating payment structure, milestone, and attainment various scenarios.
+- As part of the annual planning process, FP&A helps to draft the next year's executive/director bonus plan structure as it relates to key performance metrics, payouts structure, acceleration milestones, etc. The Chief Financial Officer and the Chief People Officer will approve the bonus structure prior to Compensation Committee review. The deliverable for the Compensation Committee is a slide deck illustrating payment structure, milestone, and attainment various scenarios.
 - We further collaborate with Total Rewards regarding in-year executive/director bonus attainment/payout. We provide Total Rewards with quarterly forecasts for estimated executive/director bonus in preparation for Compensation Committee meetings. The deliverable to the Total Rewards team is a summary slide(s) detailing attainment in each key metric.
 - We assist Total Rewards with modeling for equity, including sizing equity pool sizes for the Employee Stock Purchase Plan and Equity Compensation.
 - We collaborate regarding the above via the **#fpa-totalrewards** Slack channel.

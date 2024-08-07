@@ -24,7 +24,7 @@ description: "These are the expected competencies of a Staff Fullstack Engineer,
 
 {{% include "includes/engineering_staff_technical_competency.md" %}}
 
-##### Contributor Success
+#### Contributor Success
 
 Please refer to [Staff Contributor Success Fullstack Engineer](/job-families/marketing/community-relations/contributor-success/fullstack-engineer/#staff-contributor-success-fullstack-engineer)
 

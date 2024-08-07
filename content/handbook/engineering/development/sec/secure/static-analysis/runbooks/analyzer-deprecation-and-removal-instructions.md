@@ -43,7 +43,6 @@ An example of a previous SAST analyzer deprecation notice is [the notice from 14
 The Product Manager and Engineering Manager for SAST are responsible for publishing this announcement.
 Engineers implementing an analyzer removal are responsible for adhering to the stated scope of the change notice, and informing the PM/EM of any important changes to how customers will be affected by the change.
 
-
 ### Analyzer Removal
 
 #### 1. Remove analyzer from documentation
@@ -60,7 +59,7 @@ All analyzers that are no longer supported should be listed in the [end-of-suppo
 
 To further communicate that an analyzer is no longer supported, the following header should be added to its `README.md`.
 
-```
+```text
 [Maintenance Notice](link-to-removal-notice):
 This analyzer is currently in terminal maintenance mode. No new major versions will be released.
 

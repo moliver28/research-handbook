@@ -1,5 +1,4 @@
 ---
-
 title: "CI Catalog"
 description: "CI Catalog - Weekly Project Plan - Pipeline Authoring Group"
 ---
@@ -8,15 +7,87 @@ description: "CI Catalog - Weekly Project Plan - Pipeline Authoring Group"
 The following page may contain information related to upcoming products, features and functionality. It is important to note that the information presented is for informational purposes only, so please do not rely on the information for purchasing or planning purposes. Just like with all projects, the items mentioned on the page are subject to change or delay, and the development, release, and timing of any products, features or functionality remain at the sole discretion of GitLab Inc.
 {{% /alert %}}
 
-## CI Catalog - Weekly Project Plan
+[CI Catalog has been released to General Availability in 17.0.](https://about.gitlab.com/releases/2024/05/16/gitlab-17-0-released/#cicd-catalog-with-components-and-inputs-now-generally-available)
 
-CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https://gitlab.com/groups/gitlab-org/-/epics/12153)
+### Milestone 17.3 (July 13, 2024 - August 9, 2024)
 
-### Overall GA progress
+#### Goals
 
-- Go-To GA [dashboard](https://epic-dashboard-gitlab-org-tenant-scale-group-4aecf10d1d02154641.gitlab.io/epic_12153)
+- Allow administrator to [restrict users](https://gitlab.com/groups/gitlab-org/-/epics/14060) from publishing to CI/CD Catalog
+  - Add GraphQL mutations and types to policy [#465265](https://gitlab.com/gitlab-org/gitlab/-/issues/465265) (blocked by outcome of POC)
+- Inputs enhancements
+  - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275) (in-dev)
+  - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375) (in-dev)
 
-### Milestone 17.0 (April 13, 2024 - May 10, 2024)
+### Milestone 17.4 (August 9, 2024 - September 13, 2024)
+
+#### Goals
+
+- Visibility into where components are used - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14027)
+  - Create fields to return project list where components were used in a pipeline - [#466575](https://gitlab.com/gitlab-org/gitlab/-/issues/466575) 
+- Security & Compliance workflow for CI Catalog (Multi milestone effort)
+  - Allow administrator to restrict users from publishing to Catalog - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14060)
+  - Allow administrator to restrict usage of 3rd party components - [#441102](https://gitlab.com/gitlab-org/gitlab/-/issues/441102)
+- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
+  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-dev)
+  - `release-cli` to extract and validate metadata - [#442785](https://gitlab.com/gitlab-org/gitlab/-/issues/442785)
+  - Add an indicator if the release goes to the catalog - [#438958](https://gitlab.com/gitlab-org/gitlab/-/issues/438958)
+- Index/Details page enhancements
+  - Add the last_30_day_usage_count field to ComponentType - [#474479](https://gitlab.com/gitlab-org/gitlab/-/issues/474479)
+
+### Milestone 17.5 (September 14, 2024 - October 11, 2024)
+
+#### Goals
+
+- Index/Details page enhancements
+  - Add `version` dropdown in details page - [#419114](https://gitlab.com/gitlab-org/gitlab/-/issues/419114)
+  - Better visualization when the project description is long - [#448385](https://gitlab.com/gitlab-org/gitlab/-/issues/448385)
+- Search/Filter enhancements
+  - Add the `by publishing date` option to the sort dropdown in /explore - [#440508](https://gitlab.com/gitlab-org/gitlab/-/issues/440508)
+  - Add an illustration in the search result page - [#466412](https://gitlab.com/gitlab-org/gitlab/-/issues/466412)
+  - Routing projects with a dot - [#468448](https://gitlab.com/gitlab-org/gitlab/-/issues/468448)
+  - Add batch data aggregation for the individual component - [#474482](https://gitlab.com/gitlab-org/gitlab/-/issues/474482)
+
+### Archive
+
+<details markdown="1">
+
+<summary markdown="span">Past Milestones</summary>
+
+### June to July (Milestone 17.2)
+
+### Milestone 17.2 (June 15, 2024 - July 12, 2024)
+
+#### Goals
+
+- Index/Details page enhancements
+  - Add illustration in the search result page - [#466412](https://gitlab.com/gitlab-org/gitlab/-/issues/466412) (Deferred to `candidate::17.4`)
+  - Add `type` and `description` to InputType for Components tab - [#466669](https://gitlab.com/gitlab-org/gitlab/-/issues/466669) (Complete)
+- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788) - span multiple milestones
+  - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (Continuing into `17.3`)
+- Admin [capabilities](https://gitlab.com/groups/gitlab-org/-/epics/12713) in CI/CD Catalog - span multiple milestones
+  - Add ci_component_source_policy JSON schema - [#465264](https://gitlab.com/gitlab-org/gitlab/-/issues/465264) (Complete)
+- Inputs enhancements
+  - Allow interpolation to use local context data - [#438275](https://gitlab.com/gitlab-org/gitlab/-/issues/438275) (To start in `17.3`)
+  - POC to create JSON schema SSOT for `spec` keyword - [#467375](https://gitlab.com/gitlab-org/gitlab/-/issues/467375) (Continuing into `17.3`)
+
+### May to June (Milestone 17.1)
+
+### Milestone 17.1 (May 11, 2024 - June 14, 2024)
+
+#### Goals
+
+- [Create API to support future requests for badge additions](https://gitlab.com/gitlab-org/gitlab/-/issues/451509) (Complete)
+- [How to use components from different Cells](https://gitlab.com/gitlab-org/gitlab/-/issues/456843) (In Progress)
+  - From recent [conversation](https://gitlab.com/gitlab-org/gitlab/-/issues/442195#note_1917201790), determining if CI Catalog support can be deferred to Cells 1.5 at the moment.
+- Post-GA follow-ups/technical debt
+  - [Exclude pre-release from catalog, latest tag, and shorthand fetching](https://gitlab.com/gitlab-org/gitlab/-/issues/460873) (Complete)
+  - [Add sorting option for prerelease for semver concern](https://gitlab.com/gitlab-org/gitlab/-/issues/441266) (On Hold)
+  - [Remove ignore rule on inputs and path for catalog_resource_components](https://gitlab.com/gitlab-org/gitlab/-/issues/455431) (Complete)
+  - GA follow-ups from "Create CI component usage record when component is included in pipeline" - [1](https://gitlab.com/gitlab-org/gitlab/-/issues/460776) (Complete) and [2](https://gitlab.com/gitlab-org/gitlab/-/issues/460490) (Complete)
+- Tableau component usage visualization work - [1](https://gitlab.com/gitlab-org/gitlab/-/issues/452545) (Complete) and [2](https://gitlab.com/gitlab-org/gitlab/-/issues/454912) (Complete)
+
+### April to May (Milestone 17.0)
 
 All deliverables for CI Catalog GA are now complete.
 
@@ -33,39 +104,6 @@ All deliverables for CI Catalog GA are now complete.
   - [Allow service object to create `VerifiedNamespace` record](https://gitlab.com/gitlab-org/gitlab/-/issues/451507) (Complete)
   - [Create API to support future requests for badge additions](https://gitlab.com/gitlab-org/gitlab/-/issues/451509)
   - NOTE: Initial badge load has been initiated via [request](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17746)
-
-### Milestone 17.1 (May 11, 2024 - June 14, 2024)
-
-#### Goals
-
-- Post-GA prioritized follow-up [work](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&label_name[]=candidate%3A%3A17.1&label_name[]=Category%3AComponent%20Catalog)
-- [Support loading components in batches](https://gitlab.com/gitlab-org/gitlab/-/issues/402993)
-
-### Milestone 17.2 (June 15, 2024 - July 12, 2024)
-
-#### Goals
-
-- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788) - span multiple milestones
-- Admin [capabilities](https://gitlab.com/groups/gitlab-org/-/epics/12713) in CI/CD Catalog - span multiple milestones
-  - [Allow administrators to restrict users from publishing a component to a catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/423015)
-- Analytics dashboards/Design Sprint [outcomes](https://gitlab.com/groups/gitlab-org/-/epics/12221) - span multiple milestones
-- Start Post-GA implementation work
-  - [Update include syntax with a variable](https://gitlab.com/gitlab-org/gitlab/-/issues/446050)
-  - [Allow interpolation to use local context data](https://gitlab.com/gitlab-org/gitlab/-/issues/438275)
-
-### Milestone 17.3 (July 13, 2024 - August 9, 2024)
-
-#### Goals
-
-- Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788) - span multiple milestones
-- Admin [capabilities](https://gitlab.com/groups/gitlab-org/-/epics/12713) in CI/CD Catalog - span multiple milestones
-- Analytics dashboards/Design Sprint [outcomes](https://gitlab.com/groups/gitlab-org/-/epics/12221) - span multiple milestones
-
-### Archive
-
-<details markdown="1">
-
-<summary markdown="span">Past Milestones</summary>
 
 ### March to April (Milestone 16.11)
 
@@ -143,7 +181,6 @@ All deliverables for CI Catalog GA are now complete.
 - Add [components](https://gitlab.com/gitlab-org/gitlab/-/issues/424967) tab to the catalog details page
   - BE/FE collaboration needed before [feature flag](https://gitlab.com/gitlab-org/gitlab/-/issues/426443) can be rolled out.
 - Move inputs to GA ready by completing [text interpolation for arrays and !reference](https://gitlab.com/gitlab-org/gitlab/-/issues/433002).
-
 
 ### November to December (Milestone 16.7)
 
@@ -257,8 +294,8 @@ All deliverables for CI Catalog GA are now complete.
 #### Team Capacity
 
 - .5 Backend Engineers
-    - Due to %16.4 `security` priorities, the weekly goals list will be shorter due to our focus there.
-    - Working on [https://gitlab.com/gitlab-org/gitlab/-/issues/423456](https://gitlab.com/gitlab-org/gitlab/-/issues/423456) for feature addition for `needs: parallel: matrix` enhancements.
+  - Due to %16.4 `security` priorities, the weekly goals list will be shorter due to our focus there.
+  - Working on [https://gitlab.com/gitlab-org/gitlab/-/issues/423456](https://gitlab.com/gitlab-org/gitlab/-/issues/423456) for feature addition for `needs: parallel: matrix` enhancements.
 
 #### Goals
 
@@ -269,8 +306,8 @@ All deliverables for CI Catalog GA are now complete.
 #### Team Capacity
 
 - 1.5 Backend Engineers
-    - Due to %16.4 `security` priorities, the weekly goals list will be shorter due to our focus there.
-    - Working on [https://gitlab.com/gitlab-org/gitlab/-/issues/423456](https://gitlab.com/gitlab-org/gitlab/-/issues/423456) for feature addition for `needs: parallel: matrix` enhancements.
+  - Due to %16.4 `security` priorities, the weekly goals list will be shorter due to our focus there.
+  - Working on [https://gitlab.com/gitlab-org/gitlab/-/issues/423456](https://gitlab.com/gitlab-org/gitlab/-/issues/423456) for feature addition for `needs: parallel: matrix` enhancements.
 
 #### Goals
 

@@ -28,7 +28,7 @@ The Billing Operations Analyst, GPO is a [grade 6](/handbook/total-rewards/compe
 #### Billing Operations Analyst, GPO Requirements
 
 - Bachelor degree or equivalent experience (Accounting, Business, Finance or equivalent degree preferred)
-- 1-2 years of relevant experience with with a public company
+- 1-2 years of relevant experience with a public company
 - Experience working with Zuora Billing
 - Proficient with excel and google sheets
 - Ability to work effectively as part of a team and cross functionally to support a variety of complex projects

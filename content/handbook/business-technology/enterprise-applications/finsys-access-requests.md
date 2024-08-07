@@ -1,13 +1,7 @@
 ---
-
 title: Finance Systems Access Requests
 description: Finance Systems Access Requests
 ---
-
-
-
-
-
 
 ## <i class="fas fa-book" id="biz-tech-icons"></i> Access Requests
 
@@ -31,9 +25,9 @@ This applies to the following systems:
 On top of the [GitLab Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) process, the team will perform the following:
 
 - Ensure/Clarify access being requested is specific to the system being requested.
-    - Example: Instead of `Needs read only access to Netsuite`, the team will clarify with the requester that they are asking for the `Custom Auditor (read only)` role in Netsuite.
-    - See matrix [here](/handbook/business-technology/enterprise-applications/finsys-access-requests/#-system-specific-access-request-requirements) for System specific requirements.
-- Seek Business Owner’s approval of the exact role and/or permission being requested, according to who is listed in the [Tech Stack.](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) This includes [baseline entitlement(s).](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/)
+  - Example: Instead of `Needs read only access to Netsuite`, the team will clarify with the requester that they are asking for the `Custom Auditor (read only)` role in Netsuite.
+  - See matrix [here](/handbook/business-technology/enterprise-applications/finsys-access-requests/#-system-specific-access-request-requirements) for System specific requirements.
+- Seek Business Owner's approval of the exact role and/or permission being requested, according to who is listed in the [Tech Stack.](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) This includes [baseline entitlement(s).](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/)
 - Once approved, the team will provision the user in the system and add to the corresponding Okta Google group (if necessary).
 - Once provisioned, the team will take a screenshot of the user record in the system with a timestamp and attach it to the issue and then close.
 
@@ -42,16 +36,16 @@ On top of the [GitLab Access Request](/handbook/business-technology/end-user-ser
 ### Definition of Done
 
 - An AR is only considered `Done` from the FinSys perspective when it has the following:
-    - Clear system specific roles and permissions being requested
-    - Manager AND Business Owner Approver
-    - Screenshot with timestamp of provisioned user record
+  - Clear system specific roles and permissions being requested
+  - Manager AND Business Owner Approver
+  - Screenshot with timestamp of provisioned user record
 
 ## System Specific Access Request Requirements
 
 | System            | AR Requirements                        | Notes             |
 |-------------------|----------------------------------------|-------------------|
 | Adaptive Insights | AR should explicitly list:              |James Shen (Sr. Director of FP&A) should approve every single AI AR.                    |
-|                   | **Permissions Set (one):**             |AI is set up with various ‘Levels’ which essentially corresponds to our Departments, so most users should not/will not have access to all the levels, since AI houses a lot of confidential data.|
+|                   | **Permissions Set (one):**             |AI is set up with various 'Levels' which essentially corresponds to our Departments, so most users should not/will not have access to all the levels, since AI houses a lot of confidential data.|
 |                   | - Administrative                       |                   |
 |                   | - Analysis                             |                   |
 |                   | - Editable Sheet Access Only           |                   |

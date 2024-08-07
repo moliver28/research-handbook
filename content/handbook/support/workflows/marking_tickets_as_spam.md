@@ -1,11 +1,8 @@
 ---
-
 title: Marking tickets as spam in Zendesk
 description: "Workflow for marking Zendesk tickets as spam or unsolicited email"
 category: Zendesk
 ---
-
-
 
 ### Marking tickets as spam in Zendesk
 

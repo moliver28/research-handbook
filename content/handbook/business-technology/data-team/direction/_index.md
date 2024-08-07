@@ -1,21 +1,12 @@
 ---
-
 title: "Data Team Direction"
----
-
-
-
-
-
-
-
 ---
 
 `This page contains forward-looking content and may not accurately reflect current-state or planned feature sets or capabilities.`
 
 ## Strategy
 
-As an important step towards achieving our [mission](/handbook/business-technology/data-team/#mission), meeting our [responsibilities](/handbook/business-technology/data-team/#responsibilities), and helping GitLab [become a successful public company](/handbook/being-a-public-company/), we are creating an Enterprise Data Platform (EDP), a single unified data and analytics stack, along with a broad suite of Data Programs such as Self-Serve Data and Data Quality. The EDP will power GitLab's KPIs, cross-functional reporting and analysis, and in general, allow all team members to make better decisions with trusted data. Over time, the EDP will further accelerate GitLab's analytics capabilities with features such as data publishing and products - enriched and aggregated data integrated into business systems or into the GitLab product for use by our customers. This acceleration happens through the development of "Data Flywheels", much like GitLab's [Open Core and Development Spend](/handbook/company/strategy/#dual-flywheels) flywheels.
+As an important step towards achieving our [mission](/handbook/business-technology/data-team/#mission), meeting our [responsibilities](/handbook/business-technology/data-team/#responsibilities), and helping GitLab [become a successful public company](/handbook/company/being-a-public-company/), we are creating an Enterprise Data Platform (EDP), a single unified data and analytics stack, along with a broad suite of Data Programs such as Self-Serve Data and Data Quality. The EDP will power GitLab's KPIs, cross-functional reporting and analysis, and in general, allow all team members to make better decisions with trusted data. Over time, the EDP will further accelerate GitLab's analytics capabilities with features such as data publishing and products - enriched and aggregated data integrated into business systems or into the GitLab product for use by our customers. This acceleration happens through the development of "Data Flywheels", much like GitLab's [Open Core and Development Spend](/handbook/company/strategy/#dual-flywheels) flywheels.
 
 ### 1) Customer Centricity
 
@@ -63,7 +54,7 @@ It is used to identify target state requirements to support [GitLab's Company St
 | Level                                                                                   | Characteristics                                                                                                                                                                        | Benefits                                                                                              |
 | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | (5)Optimized                                                                         | Real-time complex analysis embedded in products, shape actions and perceptions; data analytics is a strategic differentiator.                                                           | New data products, improved decision ROI, data driven recommendations embedded in the experiences of customers.                                                              |
-| (4)Managed                                                                           | Data influencing all aspects of the business, data science” insight into what is likely to happen, widespread and effortless analytics production, enterprise data quality and governance is a critical enabler.                                            | Reliable customer lifetime value, expansion & churn prediction, product embedded analytics.            |
+| (4)Managed                                                                           | Data influencing all aspects of the business, data science" insight into what is likely to happen, widespread and effortless analytics production, enterprise data quality and governance is a critical enabler.                                            | Reliable customer lifetime value, expansion & churn prediction, product embedded analytics.            |
 | (3)Proactive                                                                            | Widespread & effortless drillable analysis, Drillable cross-functional scorecards, dashboards, enterprise data ecosystem.                                                               | Customer 360 & health score, predictable & trusted data reporting, robust self-service & data @ scale, enterprise data quality and governance established. |
 | **(2)Reactive** | Operational automated reports and dashboards, reliable and validated data with automated tests, mixture of manual and automated integration, core integrated data with some data silos. | Trusted data, self-service data, key performance indicators, stable platform for expansion, implementation of some data quality initiatives [Reference Solution](/handbook/business-technology/data-team/direction/reference/).            |
 | (1)Aware                                                                         | Static lists and reports, highly focused on history/lagging - last 30/90/365 days, unpredictable velocity, no systematic approach to data analysis and data management, data silos, very basic data quality controls.                             | Historical tabular reports, data visualization.                                                        |

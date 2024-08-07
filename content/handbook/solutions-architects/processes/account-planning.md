@@ -1,12 +1,10 @@
 ---
-
 title: Account Planning for Solutions Architects
 ---
 
-
 ## Account Planning in Gainsight Overview
 
-[Account planning](/handbook/sales/account-planning/) helps the Strategic Account Leaders (SAE) and the Solutions Architects (SA) develop a plan to elevate opportunity-driven conversations into value-based conversations that focus on the customer's value drivers. This is is a critical step is helping the team evaluate the customer's organization and work more strategically across the territory. Gainsight is a the tool for SAEs, SAs, and Customer Success Managers (CSMs) to manage the account planning process. Since it sits within SalesForce, it provides a comprehensive view of your customers, allows you to understand trends and risks, and empowers you to execute a strategy to help you win deals.
+[Account planning](/handbook/sales/account-planning/) helps the Strategic Account Leaders (SAE) and the Solutions Architects (SA) develop a plan to elevate opportunity-driven conversations into value-based conversations that focus on the customer's value drivers. This is a critical step is helping the team evaluate the customer's organization and work more strategically across the territory. Gainsight is a the tool for SAEs, SAs, and Customer Success Managers (CSMs) to manage the account planning process. Since it sits within SalesForce, it provides a comprehensive view of your customers, allows you to understand trends and risks, and empowers you to execute a strategy to help you win deals.
 
 ## Accessing Gainsight
 
@@ -36,8 +34,8 @@ It is important to note that Gainsight brings the entire account team onto a sin
 - The Techincal Win Plan is still part of the SAEs account plan and SAs don't have to create anything new.
 - SAs should be DRIs on the technical activities for new lands.
 - SAs should own technical activities on account expansions where CSMs are not engaged.
-- SAs should collaborate with the CSMs on account expansions where deemed necessary especially where there’s a need for tier upgrade and  onboarding of new teams.
-- SAs are not the DRIs of a customer’s initial account plan. By the time the opportunity reaches the Account Planning stage, basic account details should have been entered into Salesforce. Thus, the main purpose of completing the Account Profile section of the account plan,should be to capture important details about the customer or prospect, including information about the organization's business, strategic objectives, goals, motivations, competitive landscape, pertinent technology stack details, etc. The account profile should be all about the customer (not GitLab).
+- SAs should collaborate with the CSMs on account expansions where deemed necessary especially where there's a need for tier upgrade and  onboarding of new teams.
+- SAs are not the DRIs of a customer's initial account plan. By the time the opportunity reaches the Account Planning stage, basic account details should have been entered into Salesforce. Thus, the main purpose of completing the Account Profile section of the account plan,should be to capture important details about the customer or prospect, including information about the organization's business, strategic objectives, goals, motivations, competitive landscape, pertinent technology stack details, etc. The account profile should be all about the customer (not GitLab).
 
 ## FAQs
 

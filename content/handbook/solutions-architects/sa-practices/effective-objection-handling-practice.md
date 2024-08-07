@@ -1,8 +1,6 @@
 ---
-
 title: Effective Objection Handling Practice
 ---
-
 
 Effective Objection handling skill is critical to becoming a trusted advisor in our respective sales/customer success roles. Objection handling means responding to the customer in a way that changes their mind or alleviate their concerns. Objections typically fall into these [categories](http://changingminds.org/disciplines/sales/objection/objection_types.htm).
 
@@ -11,19 +9,19 @@ Effective Objection handling skill is critical to becoming a trusted advisor in 
 The Objection Handling Process can be broken down into the following steps:
 
 - **Listen**
-    - Active listening is a key part of effective objection handling. Use methods like nodding and physically showing interest.
-    - This is our chance to do more discovery & learn as much as about the customer as possible.
+  - Active listening is a key part of effective objection handling. Use methods like nodding and physically showing interest.
+  - This is our chance to do more discovery & learn as much as about the customer as possible.
 - **Question**
-    - Ask [questions](http://changingminds.org/techniques/questioning/questioning.htm) if it makes sense, generally we find open ended questions are the best way to retrieve information. This not only shows you are interested in them, but it also gives you more information with which to make the sale.
-    - As you question them, watch carefully for body language that gives you more information about what they are thinking and feeling.
-    - You might also use the "tip the bucket technique" to see if they more objections that can be answered.
+  - Ask [questions](http://changingminds.org/techniques/questioning/questioning.htm) if it makes sense, generally we find open ended questions are the best way to retrieve information. This not only shows you are interested in them, but it also gives you more information with which to make the sale.
+  - As you question them, watch carefully for body language that gives you more information about what they are thinking and feeling.
+  - You might also use the "[tip the bucket technique](http://changingminds.org/disciplines/sales/objection/tip_the_bucket.htm)" to see if there are more objections that can be answered.
 - **Think**
-    - Take a pause to think & figure out which [technique](http://changingminds.org/disciplines/sales/objection/objection_handling.htm) is the best for their objection. You will see that these techniques will become second nature with practice.
+  - Take a pause to think & figure out which [technique](http://changingminds.org/disciplines/sales/objection/objection_handling.htm) is the best for their objection. You will see that these techniques will become second nature with practice.
 - **Handle**
-    - Handle the objection in an appropriate time frame using the techniques above or however way you like.
-    - You are under no obligation to try and force-fit a method where it is unlikely to work.
+  - Handle the objection in an appropriate time frame using the techniques above or however way you like.
+  - You are under no obligation to try and force-fit a method where it is unlikely to work.
 - **Check**
-    - Finally, check to find out whether your objection-handling worked! Ask if you have answered their question. Ask if there are any more concerns. As necessary, handle outstanding objections.
+  - Finally, check to find out whether your objection-handling worked! Ask if you have answered their question. Ask if there are any more concerns. As necessary, handle outstanding objections.
 
 Then go for the close using any of these [closing techniques](http://changingminds.org/disciplines/sales/closing/closing_techniques.htm).
 
@@ -115,10 +113,10 @@ Please note it's suggested to have these meetings weekly, biweekly so handling o
 
 ### More resources
 
-- <span class="colour" style="color:rgb(0, 0, 0)">SA handbook </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>resource</u></span>](/handbook/solutions-architects/sa-practices/effective-objection-handling-practice/)<span class="colour" style="color:rgb(0, 0, 0)"> for objection handling & “how to” facilitate additional exercises</span>
+- <span class="colour" style="color:rgb(0, 0, 0)">SA handbook </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>resource</u></span>](/handbook/solutions-architects/sa-practices/effective-objection-handling-practice/)<span class="colour" style="color:rgb(0, 0, 0)"> for objection handling & "how to" facilitate additional exercises</span>
 - <span class="colour" style="color:rgb(0, 0, 0)">LinkedIn Learning </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>course</u></span>](https://www.linkedin.com/learning/sales-handling-objections/the-buyer-and-seller-relationship?u=2255073)
 - <span class="colour" style="color:rgb(0, 0, 0)">Potential Objections to </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>Ultimate sales plays</u></span>](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#potential-objections)
 - <span class="colour" style="color:rgb(0, 0, 0)">Additional Objection handling </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>techniques</u></span>](https://docs.google.com/presentation/d/1mLnmgQ5hqTzcwk3Vjh0BEIdx9SYgORV-2g7zPKmFKFc/edit#slide=id.g9e2080204d_0_0)<span class="colour" style="color:rgb(0, 0, 255)"> </span><span class="colour" style="color:rgb(0, 0, 0)">for secure & protect customer (SKO 2021) </span>
 - <span class="colour" style="color:rgb(0, 0, 0)">7 Steps to Handling Objections: </span>[<span class="colour" style="color:rgb(95, 95, 95)"><u>https://www.youtube.com/watch?v=DBpLFAS2s3w</u></span>](https://www.youtube.com/watch?v=DBpLFAS2s3w)
 - <span class="colour" style="color:rgb(0, 0, 0)">Changing Minds </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>Objection Handling Techniques</u></span>](http://changingminds.org/disciplines/sales/objection/objection_handling.htm)
-- <span class="colour" style="color:rgb(0, 0, 0)">Solution Architect’s </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>O’reilly playlist</u></span>](https://learning.oreilly.com/playlists/e2e7811d-9032-4b9d-9890-c41d6c29c8be/)<span class="colour" style="color:rgb(0, 0, 0)"> (objection handling)</span>
+- <span class="colour" style="color:rgb(0, 0, 0)">Solution Architect's </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>O'reilly playlist</u></span>](https://learning.oreilly.com/playlists/e2e7811d-9032-4b9d-9890-c41d6c29c8be/)<span class="colour" style="color:rgb(0, 0, 0)"> (objection handling)</span>

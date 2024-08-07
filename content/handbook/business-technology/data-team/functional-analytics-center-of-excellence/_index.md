@@ -1,17 +1,17 @@
 ---
-
 title: "Functional Analytics Center of Excellence"
 description: "The FACE is a cross-functional group of functional analytics teams that aim to make our teams more efficient by solving and validating shared data questions which results in cohesive measurement approaches across teams."
 ---
 
 ## Welcome to the FACE of Data Handbook
 
-**The FACE (functional analytics center of excellence) is a cross-functional group of functional analytics teams that aim to make our teams more efficient by solving and validating shared data questions which results in cohesive measurement approaches across teams.**
-{: .alert .alert-success}
+{{% alert color="success" %}}
+The FACE (functional analytics center of excellence) is a cross-functional group of functional analytics teams that aim to make our teams more efficient by solving and validating shared data questions which results in cohesive measurement approaches across teams.
+{{% /alert %}}
 
 ## Context
 
-The [central data team](/handbook/business-technology/data-team/) serves as the hub for all of our [“spoke” functional analytical teams](/handbook/business-technology/data-team/#how-data-works-at-gitlab); however, we have an opportunity to establish spokes between the spokes. Enter: the creation of the functional analytics center of excellence (FACE).
+The [central data team](/handbook/business-technology/data-team/) serves as the hub for all of our ["spoke" functional analytical teams](/handbook/business-technology/data-team/#how-data-works-at-gitlab); however, we have an opportunity to establish spokes between the spokes. Enter: the creation of the functional analytics center of excellence (FACE).
 
 ## FACE Teams: what functional analytics teams are participating?
 
@@ -40,7 +40,7 @@ The [central data team](/handbook/business-technology/data-team/) serves as the 
 - **Subject Matter Expert Lookup**: we will develop a documented list of people and their associated areas of expertise. SME's will also be able to document their source of truth resources (eg snippets, dashboards, reports).
 - **Quarterly Projects**: we will propose and pick cross-functional projects for us to work on quarterly. This will make us all more efficient by assigning 1 DRI with 2 or more code reviewers.
 - **Peer Review + Assumptions Approval**: as a part of the quarterly projects, we will establish a code peer review and assumptions approval process that will ensure we will all be enthusiastic adopters of the ultimate output.
-- **Code Repo**: after a project has gone through the peer review and assumptions approval process, we will commit it to a repo that any data person can leverage in their work.
+- **Code Repo**: after a project has gone through the peer review and assumptions approval process, we will commit it to a repository that any data person can leverage in their work.
 
 ## Examples: what are the types problems the FACE tackles?
 
@@ -59,7 +59,7 @@ In line with our [Collaboration](/handbook/values/#collaboration) value, **Turn 
 
 1. Work does not need to be completed or in a finished state to be presented.
 2. Slides are not always necessary, unless that is easier for the presenter to share their thoughts.
-3. Active participation during sessions is what we’re striving for. Questions at the time of presentation can be very helpful for all, especially the presenter.
+3. Active participation during sessions is what we're striving for. Questions at the time of presentation can be very helpful for all, especially the presenter.
 
 **Note**: Goal is not to solve the problems we have in the meeting, rather to discuss and share ideas and thoughts. For deep discussions, follow-up meetings should be scheduled with interested Team Members.
 

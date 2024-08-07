@@ -8,7 +8,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/org-fields"
 
 Organization fields are custom items on organizations that we control.
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -54,7 +54,7 @@ positioning.
 #### Updating an existing organization field
 
 Updating an existing organization field is considerably easier than creating a
-new one. Simply change change the code in the source project and it will occur
+new one. Simply change the code in the source project and it will occur
 via the sync repo.
 
 The one caveat is when you are adding new `custom_field_options`, as you will
@@ -102,7 +102,7 @@ Display name (to open the organization field editor). You will then click the
 cause a pop-up modal to appear asking you to confirm the action. Click the red
 `Delete` button to do so.
 
-## Troubleshooting
+### Troubleshooting
 
 #### Pipeline error "Blank ID"
 
@@ -144,7 +144,7 @@ need to review the error and determine the next steps from there.
 If you are unsure how to proceed, it is best to seek assistance from the wider
 team.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 
@@ -182,7 +182,7 @@ see are:
   checkbox organization field type)
 - Field validation - the regex formula to use for the organization field
 
-## Organization field standards
+### Organization field standards
 
 To ensure all organization fields we utilize are both consistent in nature and
 transparent in their actions, we strive to meet some standards on all

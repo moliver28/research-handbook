@@ -1,5 +1,4 @@
 ---
-
 title: "Aleesha Dawson's README"
 description: "This page is Aleesha Dawson's readme and is intended to be helpful when interacting with her."
 job: "Senior Customer Success Management, US Public Sector"
@@ -29,7 +28,6 @@ All that changed at GitLab. Since coming here, I have started initiatives to try
 - I believe in creating efficient processes, working as a team rather than as an individual contribution.
 - I earned the nickname "Cheddar Bob" during SKO in February 2023 because of my transparency and willingness to always speak up. (Read about what it means to be a "Cheddar Bob" or one of the other "C"s [here](https://www.fastcompany.com/90607514/the-4-types-of-personalities-leaders-need-in-their-inner-circle).)
 
-
 ## Weaknesses
 
 I am certainly not without my flaws. Many of them stem from being a perfectionist and a "Cheddar Bob". I promise you I am not trying to spin a strength into a weakness. It is the side effects from those traits that become my biggest weaknesses.
@@ -39,8 +37,7 @@ I am certainly not without my flaws. Many of them stem from being a perfectionis
 
 If you notice me falling into either of these traps, feel free to call me out on it. I am not trying to silence others; I am just passionate. Sometimes it takes me a long time to realize what I am doing it, so I need help refocusing.
 
-
-#### Related Links
+### Related Links
 
 - [LinkedIn](https://www.linkedin.com/in/aleesha-moran/)
 - [GitLab](https://gitlab.com/adawson-gitlab)

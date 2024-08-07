@@ -27,13 +27,13 @@ CI/CD is a continuous method of software development, where you continuously bui
 
     Some common statuses you can see are:
 
-    **Succeeded**: The job has successfully completed.
+    **Passed**: The job has successfully completed.
 
     **Running**: The job is actively processing.
 
     **Created**: The job is waiting on other jobs to complete before it can run, but it is ready to run.
 
-    **Failed**: The job has not succeeded due to an exception. This does not necessarily mean that the entire pipeline will fail.
+    **Failed**: The job has not passed due to an exception. This does not necessarily mean that the entire pipeline will fail.
 
 1. Click on any of the running pipeline statuses in the leftmost column to view that pipeline's graph. The graph is a visual representation of the order of stages in a pipeline, as well as the statuses of the jobs in a stage. By default, all jobs in a stage must succeed in order for the next stage to run.
 
@@ -41,7 +41,7 @@ CI/CD is a continuous method of software development, where you continuously bui
 
 1. Review the names of the pipeline's stages. The name of a stage can be whatever you want it to be. The order of the stages will be determined by the `.gitlab-ci.yml` file.
 
-1. Click on the name of a job with either a **Succeeded** or a **Running** status to see the output from the jobs.
+1. Click on the name of a job with either a **Passed** or a **Running** status to see the output from the jobs.
 
     > Each job runs in an environment independent of all other jobs.
 

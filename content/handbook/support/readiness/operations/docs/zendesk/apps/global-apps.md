@@ -18,6 +18,16 @@ App information:
   available in the
   [Zendesk Marketplace](https://www.zendesk.com/apps/support/advanced-search/).
 
+## GitLab Duo
+
+This app enables the use of GitLab Duo in Zendesk.
+
+App information:
+
+- Located in the topbar
+- This application was developed in-house and can be found
+  [GitLab duo project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/gitlab-duo).
+
 ## GitLab Reminders App
 
 <sup>*Introduced via [support-team-meta#3036](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3036)*</sup>
@@ -40,6 +50,17 @@ App information:
 - Located in the navbar
 - This application was developed in-house and can be found
   [GitLab Reminders App project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/reminders-app).
+
+## GitLab Search
+
+This app lets you use the gitlab.com API to search for issues/merge requests
+within Zendesk.
+
+App information:
+
+- Located in the topbar
+- This application was developed in-house and can be found
+  [GitLab Search project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/gitlab-search).
 
 ## GitLab Super App
 
@@ -128,7 +149,7 @@ App information:
 - This applicate was developed in-house and can be found at
   [Notification app project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/notification-app)
 
-#### Current events that trigger the app
+### Current events that trigger the app
 
 The following events will send data to the app for notification processing:
 
@@ -138,7 +159,7 @@ The following events will send data to the app for notification processing:
 - Emergency ticket created
 - Escalated ticket created
 
-#### User settings
+### User settings
 
 The current user settings, which will determine what notifications you will (and
 will not) recieve are:
@@ -197,7 +218,7 @@ will not) recieve are:
 For information on editing your personal user settings, please see
 [Zendesk's documentation](https://support.zendesk.com/hc/en-us/articles/4408819930906-Editing-your-personal-settings-in-Zendesk-Chat-Support-accounts#topic_gfh_rqm_4fb).
 
-#### Future iterations
+### Future iterations
 
 This app is slated to grow consistently with new forms of notifications. Keep an eye on
 [Support Readiness milestones](https://gitlab.com/groups/gitlab-com/support/support-ops/-/milestones?search_title=Support+Ops+Deployment&state=&sort=),
@@ -259,7 +280,7 @@ App information:
 - This application was developed by Unbabel and is available in the
   [Zendesk Marketplace](https://www.zendesk.com/apps/support/unbabel-for-zendesk-support/).
 
-#### Configuring Unbabel in Zendesk
+### Configuring Unbabel in Zendesk
 
 Every Agent profile in Zendesk needs to be individually configured so that only
 tickets submitted in the [supported languages](https://about.gitlab.com/support/portal/#language-support) are translated.
@@ -276,7 +297,7 @@ You can also do the configuration manually by following these steps.
    ![Languages](/images/support/Unbabel_Languages_New.png)
 1. When you are finished, click the Save button.
 
-#### Replying with a Translation
+### Replying with a Translation
 
 To request a translation automatically, simply reply as you normally would as
 an internal note with the #unbabel hashtag included at the top of your content.
@@ -305,7 +326,7 @@ incorrectly set the ticket status as **Open**. You must do this with an *empty
 comment* (remove any `#unbabel` added by the plugin, before you Submit as
 Pending).
 
-#### Excluding Text from Translation
+### Excluding Text from Translation
 
 The highlighted code can be skipped for translation by adding 3 brackets around
 the text:
@@ -317,7 +338,7 @@ the text:
 The above can also be used to protect sensitive information from a human
 translator when sending a translation request.
 
-#### Disabling Unbabel in a Specific Ticket
+### Disabling Unbabel in a Specific Ticket
 
 Sometimes Unbabel is triggered if a customer's signature was written in a
 language that requires translation but the customer replies in English, and the
@@ -330,14 +351,14 @@ this specific ticket:
 
 From now on, Unbabel will not be triggered in this ticket.
 
-#### Help with Translation
+### Help with Translation
 
 If for some reason you have difficulty in understanding the automated
 translation, an actual human intervention can actually be requested. Simply
-click the link `Can’t understand the translation?` in the Unbabel app box and
+click the link `Can't understand the translation?` in the Unbabel app box and
 this will send your response for translation to Unbabel editors.
 
-#### Best Practices for Unbabel
+### Best Practices for Unbabel
 
 As indicated in the training session, please keep in mind of the following best
 practices when writing a response for translation.
@@ -358,7 +379,7 @@ practices when writing a response for translation.
   - It is likely that the response you are sending may be lost in translation,
     for example the word `pass` would differ to a `boarding pass`.
 
-#### Zendesk Triggers
+### Zendesk Triggers
 
 Unbabel relies on two Zendesk triggers to work properly. These should *never*
 be changed, as it can cause significant problems.

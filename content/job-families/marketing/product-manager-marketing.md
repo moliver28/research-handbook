@@ -58,7 +58,7 @@ The Product Manager - Marketing (Intermediate) is a [grade 8](/handbook/total-re
 
 The Senior Product Manager reports to the Director, Digital Experience.
 
-##### Job Grade
+#### Job Grade
 
 The Senior Product Manager is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 

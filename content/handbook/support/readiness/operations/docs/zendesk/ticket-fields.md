@@ -13,7 +13,7 @@ metadata. Typically, there are two types of ticket fields:
 - System ticket fields - ones pre-built into Zendesk
 - Custom ticket fields - ones built by us into Zendesk
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -57,7 +57,7 @@ From here, create the merge request in the sync repo project.
 #### Updating an existing ticket field
 
 Updating an existing ticket form is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
 The one caveat is when you are adding new `custom_field_options`, as you will
@@ -106,7 +106,7 @@ at the top-right of the page and click `Delete`. This will cause a pop-up modal
 to appear asking you to confirm the action. Click the red `Delete` button to do
 so.
 
-## Troubleshooting
+### Troubleshooting
 
 #### Pipeline error "Blank ID"
 
@@ -148,17 +148,17 @@ need to review the error and determine the next steps from there.
 If you are unsure how to proceed, it is best to seek assistance from the wider
 team.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 
-- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/tickets/forms-and-fields)
+- [Sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/forms-and-fields)
 
 #### Zendesk US Government
 
-- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-us-government/tickets/forms-and-fields)
+- [Sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/tickets/forms-and-fields)
 
-## Types of ticket fields
+### Types of ticket fields
 
 There are several types of ticket fields, however the only ones we use are as
 follows:
@@ -175,7 +175,7 @@ follows:
 | Decimal      | A textbox allowing for decimal type numbers                           |
 | Regex        | A textbox allowing for strings only matching a specific regex formula |
 
-## Ticket field options
+### Ticket field options
 
 While the exact options vary from type to type, the options you will generally
 see are:
@@ -202,7 +202,7 @@ see are:
   checkbox ticket field type)
 - Field validation - the regex formula to use for the ticket field
 
-## Ticket field standards
+### Ticket field standards
 
 To ensure all ticket fields we utilize are both consistent in nature and
 transparent in their actions, we strive to meet some standards on all

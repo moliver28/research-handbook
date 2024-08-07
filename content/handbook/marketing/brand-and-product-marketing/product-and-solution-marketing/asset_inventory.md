@@ -91,7 +91,7 @@ Accepted field descriptions are (fields in bold are required):
    date_published*:                    (month and year content first published. In iso-date format. eg 2020-05)
    last_changed                        (date the asset was last changed)
    gitlab_release:                     (major.minor GitLab release # the asset is built about/on. eg 12.10)
-   use_case*:                          (use case the asset focuses on. [Derived from customer use case page](/handbook/use-cases/). Acceptable values are:   )
+   use_case*:                          (use case the asset focuses on. [Derived from customer use case page](/handbook/marketing/use-cases/). Acceptable values are:   )
       - vcc
       - ci
       - cd

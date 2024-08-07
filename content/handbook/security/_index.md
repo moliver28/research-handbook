@@ -2,7 +2,6 @@
 title: Security at GitLab
 ---
 
-
 ## <i class="fas fa-rocket" id="biz-tech-icons"></i> Security Vision and Mission
 
 Our vision is to transparently lead the world to secure outcomes.
@@ -10,7 +9,7 @@ Our vision is to transparently lead the world to secure outcomes.
 Our mission is to enable everyone to innovate and succeed on a safe, secure, and trusted DevSecOps platform. This will be achieved through 5 security operating principles:
 
 1. Accelerate business success with a focus on:
-   - Prioritize ‘boring’, iterative solutions that minimize risk
+   - Prioritize 'boring', iterative solutions that minimize risk
    - Find ways to say Yes
    - Understand goals before recommending solutions
    - Use GitLab first
@@ -21,7 +20,7 @@ Our mission is to enable everyone to innovate and succeed on a safe, secure, and
    - Reusable or repeatable over singular solutions
 1. Transparency with a focus on:
    - Responsible protection of MNPI (material non-public information)
-   - Evangelize [dogfooding]({{< ref "values#dogfooding" >}}) of GitLab publicly
+   - Evangelize [dogfooding](/handbook/values/#dogfooding) of GitLab publicly
    - Lead with metrics
    - Balance security with usefulness
 1. Risk Reduction with a focus on:
@@ -48,50 +47,50 @@ To reflect this, we have structured the Security Division around four key tenets
   <tr>
     <th class="text-center">
         <i class="fas fa-bullseye i-bt"></i>
-        <h5><a href="{{< ref "./product-security" >}}">Product Security</a></h5>
+        <h5><a href="product-security/">Product Security</a></h5>
     </th>
     <th class="text-center">
         <i class="fas fa-shield-alt i-bt"></i>
-        <h5><a href="{{< ref "./security-operations" >}}">Security Operations</a></h5>
+        <h5><a href="security-operations/">Security Operations</a></h5>
     </th>
     <th class="text-center">
         <i class="fas fa-bullseye i-bt"></i>
-        <h5><a href="{{< ref "./threat-management" >}}">Threat Management</a></h5>
+        <h5><a href="threat-management/">Threat Management</a></h5>
     </th>
     <th class="text-center">
         <i class="fas fa-hands-helping i-bt"></i>
-        <h5><a href="{{< ref "./security-assurance" >}}">Security Assurance</a></h5>
+        <h5><a href="security-assurance/">Security Assurance</a></h5>
     </th>
   </tr>
   <tr>
       <td>
         <ul>
-            <li><a href="{{< ref "./product-security/application-security" >}}">Application Security</a></li>
-            <li><a href="{{< ref "./product-security/infrastructure-security" >}}">Infrastructure Security</a></li>
-            <li><a href="{{< ref "./product-security/security-research" >}}">Security Research</a></li>
-            <li><a href="{{< ref "./product-security/vulnerability-management" >}}">Security Threat & Vulnerability Management</a></li>
+            <li><a href="product-security/application-security/">Application Security</a></li>
+            <li><a href="product-security/infrastructure-security/">Infrastructure Security</a></li>
+            <li><a href="product-security/security-research/">Security Research</a></li>
+            <li><a href="product-security/vulnerability-management/">Security Threat & Vulnerability Management</a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="{{< ref "./security-operations/sirt" >}}">Security Incident Response Team (SIRT)</a></li>
-            <li><a href="{{< ref "./security-operations/trustandsafety" >}}">Trust and Safety</a></li>
-            <li><a href="{{< ref "./security-operations/security-logging" >}}">Security Logging</a></li>
-            <li><a href="{{< ref "./security-operations/red-team" >}}">Red Team</a></li>
+            <li><a href="security-operations/sirt/">Security Incident Response Team (SIRT)</a></li>
+            <li><a href="security-operations/trustandsafety/">Trust and Safety</a></li>
+            <li><a href="security-operations/security-logging/">Security Logging</a></li>
+            <li><a href="security-operations/red-team/">Red Team</a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="{{< ref "./threat-management/identity" >}}">Identity Engineering, Infra, and Ops</a></li>
+            <li><a href="threat-management/identity/">Identity Engineering, Infra, and Ops</a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="{{< ref "./security-assurance/field-security" >}}">Field Security</a></li>
-            <li><a href="{{< ref "./security-assurance/security-compliance" >}}">Security Compliance, Commercial</a></li>
-            <li><a href="{{< ref "./security-assurance/dedicated-compliance" >}}">Security Compliance, Dedicated Markets</a></li>
-            <li><a href="{{< ref "./security-assurance/governance" >}}">Security Governance</a></li>
-            <li><a href="{{< ref "./security-assurance/security-risk" >}}">Security Risk</a></li>
+            <li><a href="security-assurance/field-security/">Field Security</a></li>
+            <li><a href="security-assurance/security-compliance/">Security Compliance, Commercial</a></li>
+            <li><a href="security-assurance/dedicated-compliance/">Security Compliance, Dedicated Markets</a></li>
+            <li><a href="security-assurance/governance/">Security Governance</a></li>
+            <li><a href="security-assurance/security-risk/">Security Risk</a></li>
         </ul>
       </td>
   </tr>
@@ -101,7 +100,7 @@ To reflect this, we have structured the Security Division around four key tenets
 
 The [Product Security Department]({{< ref "product-security" >}}) is primarily focused on Securing the Product. This reflects the Security Division's current efforts to be involved in the Application development and Release cycle for Security Releases, Infrastructure Security, and our HackerOne bug bounty program.
 
-The term “Product” is interpreted broadly and includes the GitLab application itself and all other integrations and code that is developed internally to support the GitLab application for the multi-tenant SaaS. Our responsibility is to ensure all aspects of GitLab that are exposed to customers or that host customer data are held to the highest security standards, and to be proactive and responsive to ensure world-class security in anything GitLab offers.
+The term "Product" is interpreted broadly and includes the GitLab application itself and all other integrations and code that is developed internally to support the GitLab application for the multi-tenant SaaS. Our responsibility is to ensure all aspects of GitLab that are exposed to customers or that host customer data are held to the highest security standards, and to be proactive and responsive to ensure world-class security in anything GitLab offers.
 
 #### Protect the Company - The Security Operations Department
 
@@ -134,7 +133,7 @@ Security Program Management is responsible for complete overview and driving sec
 
 ### Product development
 
-In keeping with our [core values]({{< ref "values" >}}) and the belief that [everyone can contribute]({{< ref "mission#everyone-can-contribute" >}}), the Security Division is committed to [dogfooding]({{< ref "values#dogfooding" >}}) and contributing to the development of the GitLab product.
+In keeping with our [core values](/handbook/values/) and the belief that [everyone can contribute]({{< ref "mission#everyone-can-contribute" >}}), the Security Division is committed to [dogfooding](/handbook/values/#dogfooding) and contributing to the development of the GitLab product.
 
 ---
 
@@ -148,10 +147,10 @@ For information regarding GitLab's [HackerOne bug bounty program]({{< ref "hacke
 
 If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}).  Examples include, but are not limited to:
 
- - Lost or stolen devices
- - Leaked credentials
- - Endpoint compromise or infection
- - Exposure of sensitive GitLab data
+- Lost or stolen devices
+- Leaked credentials
+- Endpoint compromise or infection
+- Exposure of sensitive GitLab data
 
 GitLab provides a `panic@gitlab.com` email address for team members to use in situations when Slack is inaccessible and immediate security response is required.
 
@@ -167,24 +166,24 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
 - [@gitlab-com/gl-security/security-managers](https://gitlab.com/gitlab-com/gl-security/security-managers) is used for @'mentioning all managers in the Security Division
 - [Security Division Meta](https://gitlab.com/gitlab-com/gl-security/security-department-meta/) is for Security Division initiatives, `~meta` and backend tasks, and catch all for anything not covered by other projects
 - [Security Assurance (@gitlab-com/gl-security/security-assurance)](https://gitlab.com/gitlab-com/gl-security/security-assurance)
-    - [@gitlab-com/gl-security/security-assurance/sec-compliance](https://gitlab.com/gitlab-com/gl-security/compliance)
-    - [@gitlab-com/gl-security/security-assurance/field-security-team](https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team)
-    - [@gitlab-com/gl-security/security-assurance/security-risk-team](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team)
-    - [@gitlab-com/gl-security/security-assurance/governance](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance)
+  - [@gitlab-com/gl-security/security-assurance/sec-compliance](https://gitlab.com/gitlab-com/gl-security/compliance)
+  - [@gitlab-com/gl-security/security-assurance/field-security-team](https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team)
+  - [@gitlab-com/gl-security/security-assurance/security-risk-team](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team)
+  - [@gitlab-com/gl-security/security-assurance/governance](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance)
 - [Product Security (@gitlab-com/gl-security/product-security)](https://gitlab.com/gitlab-com/gl-security/product-security/)
-    - [Product Security Meta](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta) For department wide management and planning issues.
-    - [@gitlab-com/gl-security/product-security/appsec](https://gitlab.com/gitlab-com/gl-security/product-security/appsec) is the primary group for @'mentioning the Application Security team.
+  - [Product Security Meta](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta) For department wide management and planning issues.
+  - [@gitlab-com/gl-security/product-security/appsec](https://gitlab.com/gitlab-com/gl-security/product-security/appsec) is the primary group for @'mentioning the Application Security team.
 - [Security Operations (@gitlab-com/gl-security/security-operations)](https://gitlab.com/gitlab-com/gl-security/security-operations) Security Operations Department
-    - [@gitlab-com/gl-security/security-operations/sirt](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt) is the primary group for @'mentioning the Security Incident Response Team (SIRT).
-        - [SIRT (private)](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/operations) for SIRT issues.
-    - [@gitlab-com/gl-security/security-operations/trust-and-safety](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety) is the primary group for @'mentioning the Trust & Safety team.
+  - [@gitlab-com/gl-security/security-operations/sirt](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt) is the primary group for @'mentioning the Security Incident Response Team (SIRT).
+    - [SIRT (private)](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/operations) for SIRT issues.
+  - [@gitlab-com/gl-security/security-operations/trust-and-safety](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety) is the primary group for @'mentioning the Trust & Safety team.
 - Security Threat Management
-    - Identity and Access Management
-        - [@gitlab-com/gl-security/identity/infra](https://gitlab.com/gitlab-com/gl-security/identity/infra)
-        - [@gitlab-com/gl-security/identity/ops](https://gitlab.com/gitlab-com/gl-security/identity/ops)
-    - [@gitlab-com/gl-security/threatmanagement/redteam](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam)
-    - [@gitlab-com/gl-security/security-research](https://gitlab.com/gitlab-com/gl-security/security-research)
-    - [@gitlab-com/gl-security/threatmanagement/vulnerability-management](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management)
+  - Identity and Access Management
+    - [@gitlab-com/gl-security/identity/infra](https://gitlab.com/gitlab-com/gl-security/identity/infra)
+    - [@gitlab-com/gl-security/identity/ops](https://gitlab.com/gitlab-com/gl-security/identity/ops)
+  - [@gitlab-com/gl-security/threatmanagement/redteam](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam)
+  - [@gitlab-com/gl-security/security-research](https://gitlab.com/gitlab-com/gl-security/security-research)
+  - [@gitlab-com/gl-security/threatmanagement/vulnerability-management](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management)
 
 #### Slack Channels
 
@@ -227,9 +226,9 @@ The following best practices will help ensure tokens are handled appropriately a
 
 #### Receive notification of security releases
 
-- To receive security release blog notifications delivered to your inbox, visit our [contact us](/handbook/company/contact/) page.
+- To receive security release blog notifications delivered to your inbox, visit our [contact us](https://about.gitlab.com/company/contact/) page.
 - To receive release notifications via RSS, subscribe to our [security release RSS feed](https://about.gitlab.com/security-releases.xml) or our [RSS feed for all releases](https://about.gitlab.com/all-releases.xml).
-- For additional information regarding security releases, please visit the Delivery Team's [security releases](https://about.gitlab.com/handbook/engineering/releases/security-releases/) page.
+- For additional information regarding security releases, please visit the Delivery Team's [security releases](/handbook/engineering/releases/security-releases/) page.
 
 ### <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> Resources
 
@@ -251,7 +250,7 @@ We welcome GitLab team members to join meetings that are on our shared [Security
 
 #### Other Frequently Used GitLab.com Projects
 
-Security crosses many teams in the company, so you will find `~security` labelled
+Security crosses many teams in the company, so you will find `~security` labeled
 issues across all GitLab projects, especially:
 
 - [gitlab-foss](https://gitlab.com/gitlab-org/gitlab-foss/issues/)
@@ -271,13 +270,13 @@ When opening issues, please follow the [Creating New Security Issues]({{% ref "e
 - For GitLab.com, we have developed a [Google Cloud Platform (GCP) Security Guidelines Policy](https://docs.google.com/document/d/1BBTWC5OpIqrva7DqH4nkjYUmNZ3UFbc6erqV89P_N-o/edit?usp=sharing) document, which outlines recommended best practices, and is enforced through
 our security automation initiatives.
 - GitLab Security Tanuki for use on security release blogs, social media and security related swag as appropriate:
-    - [Web-RGB](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_deprecated/gitlab-brand-assets/gitlab-logo-files/gitlab-security-logo/web-rgb)
-    - [Print-CMYK](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_deprecated/gitlab-brand-assets/gitlab-logo-files/gitlab-security-logo/print-cmyk)
-    - and one [exclusively for stickers](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/design/_deprecated/gitlab-brand-assets/gitlab-logo-files/gitlab-security-logo/print-cmyk/pdf/sticker/gitlab-security-icon-diecut-sticker-3x2_78in.pdf).
+  - [Web-RGB](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_deprecated/gitlab-brand-assets/gitlab-logo-files/gitlab-security-logo/web-rgb)
+  - [Print-CMYK](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_deprecated/gitlab-brand-assets/gitlab-logo-files/gitlab-security-logo/print-cmyk)
+  - and one [exclusively for stickers](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/design/_deprecated/gitlab-brand-assets/gitlab-logo-files/gitlab-security-logo/print-cmyk/pdf/sticker/gitlab-security-icon-diecut-sticker-3x2_78in.pdf).
 - [Security READMEs](/handbook/security/readmes/)
 - [Working in Security](/handbook/security/working-in-security.md)
 - [Contributing to GitLab the product as a Security team member]({{< ref "contributing-to-gitlab-the-product" >}})
-- [Threat Modeling]({{< ref "./product-security/application-security/threat-modeling" >}})
+- [Threat Modeling](product-security/application-security/threat-modeling/)
 
 #### AI in Security Learning Group
 

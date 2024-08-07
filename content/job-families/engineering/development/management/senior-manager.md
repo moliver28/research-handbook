@@ -45,7 +45,7 @@ with fullstack teams (frontend, backend, and fullstack engineers), and/or Engine
 - Technical credibility: Past experience as a product engineer and leading teams thereof
 - Management credibility: Significant past experience as an engineering manager
 - Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Demonstrated successful partnership with stable counterparts
 - Exemplify [diversity, inclusion, and belonging](/handbook/values/#diversity-inclusion) in leadership

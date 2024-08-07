@@ -1,19 +1,13 @@
 ---
-
 title: Create a Jenkins Pipeline
-description: “Discover how to create a Jenkins Pipeline page with GitLab’s Jenkins integration”
+description: "Discover how to create a Jenkins Pipeline page with GitLab's Jenkins integration"
 ---
-
-
-
-
-
 
 ## Overview
 
 > **Deprecation Notice:** This tutorial is out-of-date and is only preserved for educational purposes. These steps no longer work on the GitLab Demo Systems.
 
-GitLab’s Jenkins integration allows you to trigger a Jenkins build when you push code to a repository, or when a merge request is created. Additionally, it shows the pipeline status on merge requests widgets and on the project’s home page.
+GitLab's Jenkins integration allows you to trigger a Jenkins build when you push code to a repository, or when a merge request is created. Additionally, it shows the pipeline status on merge requests widgets and on the project's home page.
 
 This tutorial shows you how to create a project with a `Jenkinsfile`, configure a project on the Jenkins server, configure the GitLab Jenkins integration plugin, enable the integration on your GitLab project, and perform a commit to show how pipelines are integrated between GitLab and Jenkins.
 
@@ -45,7 +39,7 @@ Note: a `Jenkinsfile` will only be used if you create a pipeline job. You can sk
 
 If you're using your own project, you will need to create a new file named `Jenkinsfile` (without a file extension) in the root level of your project where your README file is.
 
-```
+```text
 /app/
   ...
 .gitignore
@@ -55,7 +49,7 @@ README.md
 
 As a starting point, you can use an example that shows a few basic Jenkins stages that will report status back to GitLab. Note: this Jenkinsfile does not actually perform a build or test, it just shows where the specific commands for build and test should go, using an `echo`.
 
-```
+```json
 pipeline {
     agent any
     stages {
@@ -128,7 +122,7 @@ Keep in mind that this is a shared environment and it is best practice create a 
 Keep in mind that since you're inside a folder, this item will be created in this folder and not at the top-level. It's easy to make this mistake so please be conscientious of this to avoid cluttering up the dashboard with uncategorized projects.
 1. In the **Enter an item name** field, type in the hyphenated URL name (slug) of your GitLab project.
 
-```
+```text
 Example
 tutorial-app-jenkins-pipeline
 ```
@@ -148,7 +142,7 @@ tutorial-app-jenkins-pipeline
 
 1. Below the GitHub project checkbox, locate the **Project url** field copy/paste or type the URL of your GitLab project.
 
-```
+```text
 Example
 https://gitlab-core.us.gitlabdemo.cloud/demosys-users/jeffersonmartin/tutorial-app-jenkins-pipeline
 ```
@@ -159,7 +153,7 @@ https://gitlab-core.us.gitlabdemo.cloud/demosys-users/jeffersonmartin/tutorial-a
 1. Select the **Git** radio checkbox.
 1. In the expanded section, locate the **Repository URL** field and copy/paste the GitLab project URL (same URL as step 2).
 
-```
+```text
 Example
 https://gitlab-core.us.gitlabdemo.cloud/demosys-users/jeffersonmartin/tutorial-app-jenkins-pipeline
 ```
@@ -176,7 +170,7 @@ https://gitlab-core.us.gitlabdemo.cloud/demosys-users/jeffersonmartin/tutorial-a
 1. In the **Name** field, type in `origin`.
 1. In the **Refspec** field, type in the following. This is directly from the documentation and is not customized for the demo environment.
 
-```
+```text
 +refs/heads/*:refs/remotes/origin/* +refs/merge-requests/*/head:refs/remotes/origin/merge-requests/*
 ```
 
@@ -197,7 +191,7 @@ https://gitlab-core.us.gitlabdemo.cloud/demosys-users/jeffersonmartin/tutorial-a
 
 1. Below the GitHub project checkbox, locate the **Project url** field copy/paste or type the URL of your GitLab project.
 
-```
+```text
 Example
 https://gitlab-core.us.gitlabdemo.cloud/demosys-users/jeffersonmartin/tutorial-app-jenkins-pipeline
 ```
@@ -210,7 +204,7 @@ https://gitlab-core.us.gitlabdemo.cloud/demosys-users/jeffersonmartin/tutorial-a
 1. For SCM, choose `Git`
 1. In the expanded section, locate the **Repository URL** field and copy/paste the GitLab project URL (same URL as step 2).
 
-```
+```text
 Example
 https://gitlab-core.us.gitlabdemo.cloud/demosys-users/jeffersonmartin/tutorial-app-jenkins-pipeline
 ```
@@ -266,13 +260,13 @@ If you still have your GitLab project in a different browser tab or window, you 
 1. Locate the **Active** checkbox and select to enable it.
 1. In the **Jenkins URL** field, enter the Jenkins server base URL.
 
-```
+```text
 https://jenkins.us.gitlabdemo.cloud
 ```
 
 1. In the **Project name** field, enter your folder name and Jenkins project name using `{foldername}/{projectname}` notation.
 
-```
+```text
 Example
 jeffersonmartin/tutorial-app-jenkins-pipeline
 ```

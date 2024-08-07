@@ -51,7 +51,7 @@ Backend Engineers at GitLab work on our product. This includes both the open sou
 - Computer science education or equivalent experience
 - Passionate about/experienced with open source and developer tools
 
-#### Professional Experience
+### Professional Experience
 
 At GitLab, due to the pace we're moving, people joining our team will be expected to have **significant** professional experience in the
 [primary programming language](#primary-programming-language) of the specialty that they'll be joining.
@@ -61,7 +61,7 @@ For context, see this merge request with some [history on this policy](https://g
 
 ---
 
-#### Primary programming language
+### Primary programming language
 
 Some specialties within GitLab are using primary programming languages other than Ruby.
 These programming languages are defined as being primary in terms of an engineer's experience and what they'll be writing day to day.

@@ -1,14 +1,7 @@
 ---
-
 title: "Git Guide for Blog Contributors"
 description: "A guide for working with Git, terminal, and the www-gitlab-com repository"
 ---
-
-
-
-
-
-
 
 ## General Tips
 
@@ -29,11 +22,11 @@ To start, make sure you're on the correct feature branch with `git checkout 0000
 
 #### Add, change, update files in the repository
 
-In Terminal → run `git status` [enter] to see all of the files you’ve modified. `Git add .` [enter] will stage all of these files (and any you created) for a commit.
+In Terminal → run `git status` [enter] to see all of the files you've modified. `Git add .` [enter] will stage all of these files (and any you created) for a commit.
 
-Next we need to add a commit message with `git commit -m “[descriptive message goes here]”` [enter].
+Next we need to add a commit message with `git commit -m "[descriptive message goes here]"` [enter].
 
-Now we’re ready to push your local changes to `0000-branch-name` using `git push origin 0000-branch-name` [enter].
+Now we're ready to push your local changes to `0000-branch-name` using `git push origin 0000-branch-name` [enter].
 
 #### Commit Early and Often
 
@@ -42,7 +35,7 @@ Run `git pull` [enter] on occasion to make sure you have the most recent changes
 
 ### Static Site Editor Developer Tips
 
-There is a handy resource the Static Site Editor group has put together for [Git Tips here](/handbook/engineering/development/dev/create/ide/developer-cheatsheet/#git-tips).
+There is a handy resource the Static Site Editor group has put together for [Git Tips here](/handbook/engineering/development/dev/create/remote-development/developer-cheatsheet/#git-tips).
 
 ## Getting Recent Changes From Main
 
@@ -50,7 +43,7 @@ There is a handy resource the Static Site Editor group has put together for [Git
 
 Use a merge workflow for feature branches where MULTIPLE PEOPLE ARE WORKING ON THEM. Use the built-in [squash and merge](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html) functionality when merging an MR to ensure only clean, atomic, squashed commits make it to master.
 
-```
+```console
 git checkout 0000-branch-name
 git fetch
 git merge origin/master
@@ -63,7 +56,7 @@ If you are working on a merge request for some time and have committed a lot of 
 
 To rebase, run these commands in the terminal:
 
-```
+```console
 git checkout 0000-branch-name
 git fetch
 git rebase origin/master
@@ -74,7 +67,7 @@ git push origin  0000-branch-name
 
 ### Official GitLab Documentation
 
-Here is the [official documentation on merge request conflict resolution](https://docs.gitlab.com/ee/user/project/merge_requests/resolve_conflicts.html) in GitLab.
+Here is the [official documentation on merge request conflict resolution](https://docs.gitlab.com/ee/user/project/merge_requests/conflicts.html) in GitLab.
 
 Here's a great blog post on [resolving merge conflicts from the GitLab UI](https://about.gitlab.com/blog/2016/09/06/resolving-merge-conflicts-from-the-gitlab-ui/).
 
@@ -82,7 +75,7 @@ Here's a great blog post on [resolving merge conflicts from the GitLab UI](https
 
 If you have not made any changes to your local branch and are getting a conflict message from origin, just reset your local branch to be exactly like origin. WARNING: If you have made changes to your blog post, those changes will be lost!
 
-```
+```console
 git fetch
 git checkout 0000-branch-name
 git reset -hard  origin/0000-branch-name
@@ -93,11 +86,13 @@ git reset -hard  origin/0000-branch-name
 ### Slack Channels
 
 If you're having problems with Git, reach out in the following Slack channels =)
+
 - [#git-help](https://app.slack.com/client/T02592416/C1E21S2LD)
 - [#mr-buddies](https://app.slack.com/client/T02592416/CLM8K5LF4)
 
 ### Existing Resources
 
 Here are some existing resources from GitLab for Git.
-- [Developer Cheatsheet, Engineering Handbook](/handbook/engineering/development/dev/create/ide/developer-cheatsheet/)
+
+- [Developer Cheatsheet, Engineering Handbook](/handbook/engineering/development/dev/create/remote-development/developer-cheatsheet/)
 - [Git Cheat Sheet for Press](/images/press/git-cheat-sheet.pdf)

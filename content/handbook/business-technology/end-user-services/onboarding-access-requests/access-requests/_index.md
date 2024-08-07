@@ -20,7 +20,7 @@ If you have any access requests related questions, please reach out to #it_help 
 
 ## How do I choose which template to use?
 
-#### Individual or Bulk Access Request
+### Individual or Bulk Access Request
 
 *You can use [this template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) to request access for individuals or multiple people, as long as all the people are requesting access to the same systems. Create multiple issues using this same template if multiple people require access to different systems. When access is being requested for multiple people who report to different managers but are part of the same department or division, approval can be obtained by the manager at the highest level; that is, the Director, Vice President, or Executive of the department or division.*
 
@@ -36,7 +36,7 @@ Title the issue `Full Name, System(s), Role` using the details of the person req
 
 1. Remove or add lines for the systems you need access to. **Make sure to follow the format from the template (also included below)**. Be as specific as possible with the access you are requesting by adding the role, vault, group, channel or project you are requesting access to.
 1. If administrative access is being granted, add the label admin-access. Request the least amount of access you need as per the [least privilege review](/handbook/security/access-management-policy.html#principle-of-least-privilege) and explain why you need access in the rationale section.
-1. If the request involves access to systems owned by the Infrastructure team (according to the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml), mention @gitlab-com/gl-infra/managers and ask them to approve by adding the ~InfrastructureApproved label.
+1. If the request involves access to systems owned by the Infrastructure team (according to the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml), mention `@gitlab-com/gl-infra/managers` and ask them to approve by adding the ~InfrastructureApproved label.
 
    ```text
    - [ ] System name: Which vault, which group, which channel, which project, which role?
@@ -66,7 +66,7 @@ Title the issue `Full Name, System(s), Role` using the details of the person req
 
 ---
 
-#### Shared Account Access Request
+### Shared Account Access Request
 
 {{% panel header="**Instructions**" header-bg="success" %}}
 **Prior to submitting this Issue Request**
@@ -74,7 +74,7 @@ Title the issue `Full Name, System(s), Role` using the details of the person req
 1. Please review our [Access Control Policy and Procedures](/handbook/security/#access-control-policy-and-procedures) to ensure that your request is in line with GitLab's policies and procedures. If after review you feel that a shared account is still needed, complete submit the issue using the template. **Note that systems with PCI data is not allowed shared accounts.**
 1. Please note that shared account request(s) will need to be reviewed and approved by IT Ops and the listed Tech Stack Owner.
 **An [Exception Request](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/compliance/issues/new?issuable_template=Exception%20Request) will need to be logged for each user you are requesting to be added.** Note that with an Exception Request the maximum exception length is 90 days (365 days for device exceptions only).
-After the Exception Length, you will be required to submit another Exception Request for review and approval.**If the exception request is not logged, reviewed, and approved for an extension, note that the Shared Account will be disabled.** Please refer to our [Information Security Policy Exception](/handbook/security/#information-security-policy-exception-management-process) handbook page for more information.
+After the Exception Length, you will be required to submit another Exception Request for review and approval.**If the exception request is not logged, reviewed, and approved for an extension, note that the Shared Account will be disabled.** Please refer to our [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions) handbook page for more information.
 
 **Instructions on how to submit this issue request**
 
@@ -87,7 +87,7 @@ After the Exception Length, you will be required to submit another Exception Req
 1. Close the issue when it's complete.
 {{% /panel %}}
 
-##### Instructions and Guidance for IT for Shared Accounts
+#### Instructions and Guidance for IT for Shared Accounts
 
 1. Review the Shared Account Access Request and ensure that there is an [Exception Request](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/compliance/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Exception%20Request) for each user that is being added to the shared account. Review the Exception Request and document in the Access Request issue the Exception Length. Ensure that the Exception Request has been reviewed and approved by Security prior to adding your approval or setting up the shared account.
 1. All shared accounts must be managed via Okta. If 1password must be used (okta not technically possible), this needs to be outlined in the Access Request.
@@ -98,7 +98,7 @@ After the Exception Length, you will be required to submit another Exception Req
 
 ---
 
-#### Access Change Request
+### Access Change Request
 
 Access Change Requests are logged when a team member no longer requires access to a currently provisioned system or no longer requires the same level of access (downgraded access from admin to user etc).
 Refer to [`For Total Rewards Analysts: Processing Promotions & Compensation Changes`](/handbook/people-group/promotions-transfers/) section of the GitLab handbook for additional information.
@@ -111,7 +111,7 @@ Refer to [Okta Application Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-
 What this means is:
 
 1. A GitLab Team member gets transferred to a different role.
-1. The team member's profile in BambooHR is changed.
+1. The team member's profile in Workday is changed.
 1. This profile change automatically triggers a change in the team member's Okta profile accordingly.
 1. This, in turn, results in the team member getting assigned to new applications based on their new department and role.
 1. Simultaneously all old applications that are not relevant to their new role get revoked/unassigned.
@@ -121,7 +121,7 @@ While this application automation will take place in Okta, "true" system provisi
 
 ---
 
-#### Slack, Google Groups, 1Password Vaults or Groups Access Requests
+### Slack, Google Groups, 1Password Vaults or Groups Access Requests
 
 *You can use [this template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=slack_googlegroup_1Passwordgroupvault) to request access for individuals or multiple people, as long as all the people are requesting access to the same systems. Create multiple issues using this same template if multiple people require access to different systems. When access is being requested for multiple people who report to different managers but are part of the same department or division, approval can be obtained by the manager at the highest level; that is, the Director, Vice President, or Executive of the department or division.*
 
@@ -139,7 +139,7 @@ While this application automation will take place in Okta, "true" system provisi
 
 ---
 
-#### Name Change Request
+### Name Change Request
 
 *You can use [this template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/Name_change_request.md) when your name changes.*
 
@@ -153,7 +153,7 @@ While this application automation will take place in Okta, "true" system provisi
 
 ## Working on Access Requests
 
-##### Department Access Request Boards
+### Department Access Request Boards
 
 - If you need additional labels or have suggestions for improving the process until we can fully automate, please [open an issue](https://gitlab.com/gitlab-com/it/end-user-services/issues/it-help-issue-tracker/-/issues/new).
 - ARs are auto-assigned and auto-labeled when possible by department. In some cases, there are multiple provisioners per tool. If a template cannot be auto-assigned, Business Technology will provide a board where the provisioners can review their department's issues by label (ie `dept::to do`. It is up to the department to manage the workflow on who works the issues to completion.

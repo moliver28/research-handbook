@@ -3,8 +3,9 @@ title: "Data Science Handbook"
 description: "GitLab Data Science Team Handbook"
 ---
 
-**PURPOSE: This page is focused on the operations of GitLab's internal *Data Science Team*. For information about GitLab's Product Data Science Capabilities, please visit [GitLab ModelOps](https://about.gitlab.com/direction/modelops/)**
-{: .alert .alert-success}
+{{% alert title="Purpose" color="success" %}}
+This page is focused on the operations of GitLab's internal *Data Science Team*. For information about GitLab's Product Data Science Capabilities, please visit [GitLab ModelOps](https://about.gitlab.com/direction/modelops/)
+{{% /alert %}}
 
 `Last Updated At: 2023-12-22`
 
@@ -14,7 +15,7 @@ The mission of the Data Science Team is to facilitate ***making better decisions
 
 ## Handbook First
 
-At GitLab we are [Handbook First](/handbook/handbook-usage/#why-handbook-first) and promote this concept by ensuring the data science team page remains updated with the most accurate information regarding data science objectives, processes, and projects. We also strive to keep the handbook updated with useful resources and our data science toolset.
+At GitLab we are [Handbook First](/handbook/about/handbook-usage/#why-handbook-first) and promote this concept by ensuring the data science team page remains updated with the most accurate information regarding data science objectives, processes, and projects. We also strive to keep the handbook updated with useful resources and our data science toolset.
 
 ## Learning About Data Science
 
@@ -33,9 +34,9 @@ AMAs:
 - 2021-09-15 AMA [Recording](https://youtu.be/wRbNExL0hv8), [Presentation](https://docs.google.com/presentation/d/1Y-V6bZ5w8Ms5yfMiuYCYZs9ald7Q5MxydYhSh9DWwwQ/edit#slide=id.g540caf0310_0_0),
 - 2021-12-09 AMA [Recording](http://www.youtube.com/watch?v=46NEQDAz18I), [Presentation](https://docs.google.com/presentation/d/1aUIi52AW798KjmvexPIQ1AcXRKLcWlYd6yW-EW6Zqlo/edit#slide=id.g540caf0310_0_0)
 
-**Want to Learn More?
-[Become a Data Science Champion](/handbook/business-technology/data-team/direction/data-champion/), [visit Slack #bt-data-science](https://gitlab.slack.com/archives/C027285JQ4E), [watch a Data Team video](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI). We want to hear from you!**
-{: .alert .alert-success}
+{{% alert title="Want to Learn More?" color="success" %}}
+[Become a Data Science Champion](/handbook/business-technology/data-team/direction/data-champion/), [visit Slack #bt-data-science](https://gitlab.slack.com/archives/C027285JQ4E), [watch a Data Team video](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI). We want to hear from you!
+{{% /alert %}}
 
 ### Common Data Science Terms
 
@@ -118,7 +119,7 @@ To request a new Data Science project, please fill out the [Opportunity Canvas](
 
 **Maturity**
 
-Maturity of data science projects is similar to the [GitLab product maturity model](https://about.gitlab.com/direction/maturity/):
+Maturity of data science projects is similar to the [GitLab product maturity model](https://about.gitlab.com/direction/#maturity):
 
 - **Unplanned**: Not implemented, and not yet on our roadmap.
 - **Planned**: Not implemented, but on our roadmap; executive sponsor attached to project.
@@ -135,13 +136,13 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
 - Slack Channel (internal only): [#data-propensity-projects](https://gitlab.slack.com/archives/C02172C5KH7)
 - Repositories (internal only): [Propensity to Expand](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-expand)
 - Read-outs (internal only):
-   - [Exec Summary](https://docs.google.com/presentation/d/1Aaf2HzFYrYDPgrZKDHxS9gzep4LHGMlwF5SxYs-her0/edit#slide=id.gf528ae95ed_0_0)
-   - [Sales GTM](https://docs.google.com/presentation/d/1F_XSJrhemIbaffhvwx0byQ1mUvdo4X1ZcGsBa7VgVnU/edit#slide=id.g123a13deda8_0_405)
+  - [Exec Summary](https://docs.google.com/presentation/d/1Aaf2HzFYrYDPgrZKDHxS9gzep4LHGMlwF5SxYs-her0/edit#slide=id.gf528ae95ed_0_0)
+  - [Sales GTM](https://docs.google.com/presentation/d/1F_XSJrhemIbaffhvwx0byQ1mUvdo4X1ZcGsBa7VgVnU/edit#slide=id.g123a13deda8_0_405)
 - Dashboards (internal only):
-   - [PtE Inspector](https://10az.online.tableau.com/#/site/gitlab/workbooks/2344783)
-   - [PtE Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2146809)
+  - [PtE Inspector](https://10az.online.tableau.com/#/site/gitlab/workbooks/2344783)
+  - [PtE Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2146809)
 - Data sources: Product usage: SaaS & Self-Managed - paid tiers; Product stage usage: SaaS & Self-Managed - paid tiers; Salesforce (account, opportunities, events, tasks); Zuora (billing); Bizible (marketing); Firmographics; ZenDesk (help tickets); prior expansion type (product change, seat licenses), amount, and time lapse; account health scores
-   - Future sources: Buyer personas attached to opportunities
+  - Future sources: Buyer personas attached to opportunities
 
 ### Loss Prevention
 
@@ -150,22 +151,22 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
 - Plans for next iteration: Churn forecasting (in progress, Q2), Downtier Measure (Q3), PtC refresh (Q4)
 - Slack Channel (internal only): [#data-propensity-projects](https://gitlab.slack.com/archives/C02172C5KH7)
 - Repositories (internal only):
-   - [Propensity to Contract](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-contract-and-churn)
-   - [Propensity to Downtier](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-downtier)
-   - [Churn Forecasting](https://gitlab.com/gitlab-data/data-science-projects/churn-forecasting)
+  - [Propensity to Contract](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-contract-and-churn)
+  - [Propensity to Downtier](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-downtier)
+  - [Churn Forecasting](https://gitlab.com/gitlab-data/data-science-projects/churn-forecasting)
 - Read-outs (internal only):
-   - [PtC slide deck](https://docs.google.com/presentation/d/1Gd-GhHhWHHc1N8zJtLGKtNF4W2T9d82Sv_fZ_j2236U/edit#slide=id.g29a70c6c35_0_68)
-   - [Downtier Executive Read Out](https://docs.google.com/presentation/d/1kcTPP5NKnqTKnOTm2HGSSVsYP3x6TdeKGxv28U702yo/edit#slide=id.g1b861242c79_0_522)
-   - [Downtier Read Out](https://docs.google.com/presentation/d/13xcuQE6G3alvHoklWvmDm-MOIb0V7QhckgXCd5IHHuc/edit#slide=id.g123a13deda8_0_405)
-   - [Sales Leadership Readout - PtC for June - Aug 2022](https://docs.google.com/presentation/d/1eTG6U3EaxXK06P2-IsFUzwfesJKtDNZJQ37qKJYi-vM/edit#slide=id.g17b7d66f003_0_11)
-   - [Sales Leadership Readout - PtC for Sep 2022 - Mar 2023](https://docs.google.com/presentation/d/1waIKnjnL6lA1UKH-Fc2BYdOw6gtjiBKkmlyl6F8YFEw/edit#slide=id.g218452df868_0_1099)
-   - [Churn Forecasting - July 2023](https://docs.google.com/presentation/d/1hiukpYHzopsTWH0CWnS_2uah9G2TLq_JOMojQz4mZao/edit#slide=id.g25880664535_2_278)
+  - [PtC slide deck](https://docs.google.com/presentation/d/1Gd-GhHhWHHc1N8zJtLGKtNF4W2T9d82Sv_fZ_j2236U/edit#slide=id.g29a70c6c35_0_68)
+  - [Downtier Executive Read Out](https://docs.google.com/presentation/d/1kcTPP5NKnqTKnOTm2HGSSVsYP3x6TdeKGxv28U702yo/edit#slide=id.g1b861242c79_0_522)
+  - [Downtier Read Out](https://docs.google.com/presentation/d/13xcuQE6G3alvHoklWvmDm-MOIb0V7QhckgXCd5IHHuc/edit#slide=id.g123a13deda8_0_405)
+  - [Sales Leadership Readout - PtC for June - Aug 2022](https://docs.google.com/presentation/d/1eTG6U3EaxXK06P2-IsFUzwfesJKtDNZJQ37qKJYi-vM/edit#slide=id.g17b7d66f003_0_11)
+  - [Sales Leadership Readout - PtC for Sep 2022 - Mar 2023](https://docs.google.com/presentation/d/1waIKnjnL6lA1UKH-Fc2BYdOw6gtjiBKkmlyl6F8YFEw/edit#slide=id.g218452df868_0_1099)
+  - [Churn Forecasting - July 2023](https://docs.google.com/presentation/d/1hiukpYHzopsTWH0CWnS_2uah9G2TLq_JOMojQz4mZao/edit#slide=id.g25880664535_2_278)
 - Dashboards (internal only):
-   - [PtC Inspector](https://10az.online.tableau.com/t/gitlab/views/PtCInspector/About)
-   - [PtC Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2163169)
-   - [Health of Ultimate Accounts Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2272458)
+  - [PtC Inspector](https://10az.online.tableau.com/t/gitlab/views/PtCInspector/About)
+  - [PtC Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2163169)
+  - [Health of Ultimate Accounts Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2272458)
 - Data sources:  Product usage: SaaS & Self-Managed - paid tiers; Product stage usage: SaaS & Self-Managed - paid tiers; Salesforce (account, opportunities, events, tasks); Zuora (billing); Bizible (marketing); ZenDesk (help tickets); Firmographics, account health fields; security score
-   - Future sources: # of answered emails, ratio sent/answered emails, sales activity (Gainsight)
+  - Future sources: # of answered emails, ratio sent/answered emails, sales activity (Gainsight)
 
 ### Conversion
 
@@ -175,10 +176,10 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
 - Slack Channel (internal only): [#data-propensity-projects](https://gitlab.slack.com/archives/C02172C5KH7)
 - Repositories (internal only): [Propensity to Purchase](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-purchase)
 - Read-outs (internal only):
-   - [SaaS Trials Model Readout](https://docs.google.com/presentation/d/1EyS9Wq6F0qlQwt5sj7x8VnSSGD1vIy3AcSpMGddZdbk/edit?usp=sharing)
-   - [SaaS Free Namespaces Readout](https://docs.google.com/presentation/d/1UNfthItOOfT3L4v5PkZh4z4hVPKdCcn8aQg_raVflxg/edit#slide=id.g12e25a29994_0_0)
+  - [SaaS Trials Model Readout](https://docs.google.com/presentation/d/1EyS9Wq6F0qlQwt5sj7x8VnSSGD1vIy3AcSpMGddZdbk/edit?usp=sharing)
+  - [SaaS Free Namespaces Readout](https://docs.google.com/presentation/d/1UNfthItOOfT3L4v5PkZh4z4hVPKdCcn8aQg_raVflxg/edit#slide=id.g12e25a29994_0_0)
 - Data sources: Product usage: SaaS Only - free tiers; Product stage usage and adoption: SaaS Only - Free Tiers; Registration; Namespace metadata; User-level
-   - Future sources: Self-managed usage data
+  - Future sources: Self-managed usage data
 
 ### Product Research
 
@@ -188,9 +189,9 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
 - Slack Channel (internal only): [#namespace-segmentation](https://app.slack.com/client/T02592416/C0341FPNB1C)
 - Repositories (internal only): [Namespace Segmentation](https://gitlab.com/gitlab-data/data-science-projects/namespace-segmentation)
 - Read-outs (internal only):
-   - [Namespace Segmentation Deck](https://docs.google.com/presentation/d/1Pmm0g1mUquBR6P_aguGkOiGBVqO1ZtDzIyRrbR-r9jA/edit#slide=id.g29a70c6c35_0_68)
+  - [Namespace Segmentation Deck](https://docs.google.com/presentation/d/1Pmm0g1mUquBR6P_aguGkOiGBVqO1ZtDzIyRrbR-r9jA/edit#slide=id.g29a70c6c35_0_68)
 - Data sources: Product usage: SaaS & Self Managed - free and paid tiers; Product stage usage: SaaS & Self Managed - free and paid tiers; Salesforce (account); Zuora (billing); Bizible (marketing)
-   - Future sources: # of consecutive days of product/stage usage
+  - Future sources: # of consecutive days of product/stage usage
 
 ## Project Structure
 

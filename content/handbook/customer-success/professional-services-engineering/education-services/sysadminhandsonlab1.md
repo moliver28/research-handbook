@@ -36,8 +36,10 @@ Before you get started, complete the following:
 1. Use your assigned IP address and SSH key file to log in to the server that will host your GitLab Omnibus install:
 
     ```bash
-    ssh -i <keyfile_name> ec2-user@<vm_ip_address>
+    ssh -i <keyfile_name> root@<vm_ip_address>
     ```
+
+    >If you encounter an error like: `WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!`, you may need to reset your SSH known hosts. To do this, run the command `ssh-keygen -R <vm_ip_address>`
 
 1. Press <kbd>Enter</kbd>.
 
@@ -50,8 +52,12 @@ Before you get started, complete the following:
 1. Install Postfix so GitLab can send notification emails by using the command below:
 
     ```bash
-    sudo dnf install -y curl policycoreutils perl postfix
+    sudo apt-get install -y curl policycoreutils perl postfix
     ```
+
+1. If you receive a Postfix Configuration Dialog when running this command, first select `Ok` by pressing the right arrow key to highlight the choice, and then pressing **Enter**. On the next page, select `No configuration` using the up and down arrow keys, then press <kbd>Enter</kbd>.
+
+    > For a production system, you can use this configuration to be able to configure your email settings with postfix. This will allow you to send emails from GitLab.
 
 1. Start and enable Postfix using the `systemctl enable` and the `systemctl start` commands:
 
@@ -65,19 +71,19 @@ Before you get started, complete the following:
 1. Add the GitLab install repository via the `curl` command:
 
     ```bash
-    curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
+    curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
     ```
 
-1. Install the GitLab package using the command below. Use your training system's assigned public IP address in lieu of a fully qualified domain name. Make sure not to include in the <> symbols.
+1. Install the GitLab package using the command below. Use your training system's assigned public IP address in lieu of a fully qualified domain name. Make sure not to include the <> symbols.
 
     ```bash
-    sudo EXTERNAL_URL="http://<your_assigned_public_ip>" dnf install -y gitlab-ee
+    sudo EXTERNAL_URL="http://<your_assigned_public_ip>" apt-get install -y gitlab-ee
     ```
 
     > This step may take a few minutes to complete.
     > For this example, we added `http://` to the front of the URL. For this set of labs, we are using the `http` protocol. If you are installing GitLab in a production environment, it is recommended to use `https://` to use the `https` protocol.
 
-### Task D. Log in and reset password
+### Task D. Login and reset password
 
 1. During installation, a password is randomly generated and stored for 24 hours in `/etc/gitlab/initial_root_password`. To view the generated password, use the command below:
 
@@ -99,7 +105,7 @@ Before you get started, complete the following:
 
 8. Complete the remaining fields with a new, permanent password of your choosing.
 
-9. Click **Save password** to save the changes. You will need to re-sign in with your new password.
+9. Click **Save password** to save the changes. You will be logged out, and will need to sign in again with your new password.
 
 ## Lab Guide Complete
 
@@ -107,6 +113,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ### Suggestions?
 
-If you’d like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.
-
-
+If you'd like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.

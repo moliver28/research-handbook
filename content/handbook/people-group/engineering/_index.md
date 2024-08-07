@@ -27,7 +27,6 @@ Quick navigation to some of our other pages.
 | [Nominator Bot](/handbook/people-group/engineering/nominatorbot) | Information regarding our custom Slack app, how to use it, FAQ's, and engineer guides. |
 | [Offboarding](/handbook/people-group/engineering/offboarding) | Our `offboarding` automation flow and everything you may need to know regarding this. |
 | [Onboarding](/handbook/people-group/engineering/onboarding) | Our `onboarding` automation flow and everything you may need to know regarding this. |
-| [People Connect Bot](/handbook/people-group/engineering/people-connect-bot) | Information regarding our custom Slack app for our Service Desk integration. |
 | [Internal Handbook](/handbook/people-group/engineering/pops-internal-handbook) | Our People Group Engineering internal handbook. |
 | [Slack Integrations](/handbook/people-group/engineering/slack-integrations) | Information on some of our slack integrations like birthday announcments, PTO, etc. |
 | [Miscellaneous](/handbook/people-group/engineering/miscellaneous) | Some extra information regarding PTO, sensitive data, accruals, and more. |
@@ -39,7 +38,7 @@ or tools ([like BambooHR](/handbook/people-group#using-bamboohr)) or anything re
 [creating an issue](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-group-engineering/-/issues/new)
 in the People Group Engineering project. All issues are reviewed and prioritised to a specific team through our [kanban board](https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/boards/2641488). If you require general support with MR's, kindly collaborate with all of GitLab team members in [`#mr-buddies`](https://gitlab.slack.com/archives/CLM8K5LF4) in slack.
 
-If you are looking for help regarding general inquiries such as: payroll, paid time off, benefits, etc. Please reach out to our People Connect team in their slack channel, [`#people-connect`](https://gitlab.slack.com/archives/C02360SQQFR).
+If you are looking for help regarding general inquiries such as: payroll, paid time off, benefits, etc. Please reach out to our People Connect team via HelpLab.
 
 ### Report bugs
 
@@ -157,7 +156,6 @@ We've build several automations and tools to support our People Group. In the fo
 - [Compensation Calculator](https://gitlab.com/gitlab-com/people-group/peopleops-eng/compensation-calculator/)
 - [Inclusive Language Check on Job Families](/handbook/hiring/job-families/#inclusive-language-check)
 - [People Ops Internal Handbook]({{< ref "pops-internal-handbook" >}})
-- [People Connect Bot]({{< ref "people-connect-bot" >}})
 
 ### Uncategorized
 

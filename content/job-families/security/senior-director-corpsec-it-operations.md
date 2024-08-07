@@ -8,7 +8,7 @@ The Corporate Security & IT Operations Job Family leads a team of highly-collabo
 
 ### Senior Director, Corporate Security & IT Operations
 
-The Director, Corporate Security & IT Operations reports to the [CISO](https://handbook.gitlab.com/job-families/chief-information-security-officer/)
+The Director, Corporate Security & IT Operations reports to the [CISO](/job-families/chief-information-security-officer/)
 
 #### Senior Director, Corporate Security & IT Operations Job Grade
 
@@ -28,13 +28,13 @@ The Senior Director, Corporate Security & IT Operations is a [level 11](/handboo
 - Establish seamless processes to onboard, change and offboard resources from IT services
 - Own and maintain Corporate Security & IT Operations applications (Endpoint EDR, Data Security, IAM etc.)
 - Document and enforce new and current IT policies and procedures
-- Measure, monitor, and maintain team’s ability to meet or exceed contact and resolution Service Level Agreements (SLA)
+- Measure, monitor, and maintain team's ability to meet or exceed contact and resolution Service Level Agreements (SLA)
 - Run the IT Service desk, define and manage ticket SLAs, and move towards greater automation (and where appropriate) self-service of tickets
 - Proven ability to successfully recruit, manage, motivate and develop high performing teams
 - Negotiates and influences the opinions and decision making of internal senior leaders on matters of significance to the division.
 - Consistently demonstrates, models and coaches managers and senior managers on GitLab's remote working competencies.
 - Proactively communicates with leadership about progress and outcomes and how strategy and contributions support higher-level priorities and initiatives.
-- Focuses the team’s communication and productivity
+- Focuses the team's communication and productivity
 
 #### Senior Director, IT Corporate Security & Operations Requirements
 
@@ -46,7 +46,7 @@ The Senior Director, Corporate Security & IT Operations is a [level 11](/handboo
 - Knowlege of data security and data inventory and governance practices.
 - Experience partnering with internal information security and compliance teams. SOX experience is a plus.
 - Team building experience. Past experience managing a global support team.
-- Experience working on a fleet of MacOS and ChromeOS endpoints  
+- Experience working on a fleet of MacOS and ChromeOS endpoints
 - Proven ability to effectively lead and meet business objectives in a global, collaborative and high performance work environment.
 - Experience securing SaaS applications and secure baselining in a shared responsibility model
 - Change management knowledge and ability to operate effectively in fast-paced environment.

@@ -42,7 +42,6 @@ Because this group works on components of the application that have a [far-reach
 1. If a feature flag is used then a feature flag [rollout plan](/handbook/engineering/development/processes/rollout-plans/) will be created. Support (`#support_gitlab-com`) will also be [notified](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md?plain=1#L94) if necessary.
 1. Compliance related merge requests require a review by a [Compliance Engineer](https://gitlab.com/groups/gitlab-org/govern/compliance/engineering/-/group_members?with_inherited_permissions=exclude). This is guarded by using the `CODEOWNERS` feature of GitLab.
 
-
 ### Working on ad hoc work and questions
 
 From time to time, there will be ad hoc work and questions that arise, such as Slack questions, questions in Issues, Error Budget investigations, etc. All Compliance group members are encouraged to watch these mediums and engage.
@@ -94,8 +93,7 @@ opportunity to work on items that aren't scheduled as part of the
 regular monthly release. This is mostly a reiteration of items elsewhere
 in the handbook, and it is here to make those explicit:
 
-1. We expect people to be [managers of one](/handbook/values/#managers-of-one), and we [use
-   GitLab ourselves](/handbook/values/#dogfooding). If you see something that you think
+1. We expect people to be [managers of one](/handbook/values/#managers-of-one), and we [use GitLab ourselves](/handbook/values/#dogfooding). If you see something that you think
    is important, you can request for it to be scheduled, or you can
    [work on a proposal yourself](/handbook/values/#dont-wait), _as long as you keep your
    other priorities in mind_.
@@ -140,7 +138,7 @@ We plan in monthly cycles in accordance with our [Product Development Timeline](
 - From there, we are able to select a ratio of the top issues to be planned for the milestone by using our [cross-functional issue board](https://gitlab.com/groups/gitlab-org/-/boards/4657720?milestone_title=15.4&label_name[]=group%3A%3Acompliance). Our target ratio is to plan 60% features, 30% maintenance, and 10% bugs per milestone. The data below helps us understand our overall cross-functional status.
 - Each area will include a 20% stretch target of issues. EG capacity 40W x 60% features = 24W + 20% = ~28W
 - With a list now determined, Milestones and label `workflow::ready for development` can be added to this work, ready for the Milestone to start.
-- Engineering Manager will comment and add label to the the assigned issues with clear expectations for the Milestone using one of four scoped label types:
+- Engineering Manager will comment and add label to the assigned issues with clear expectations for the Milestone using one of four scoped label types:
   - `goal::planning` - full implementation plan created and if needed reviewed and approved
   - `goal::development` - development has begun and either has in dev or in review workflow
   - `goal::complete` - development complete and issue verified
@@ -160,6 +158,19 @@ Our priorities should follow [overall guidance for Product](/handbook/product/pr
 | priority::2 | **High**: important issues that have significant positive impact to the business or technical debt. Important, but not time-critical or blocking others.  | ~75% |
 | priority::3 | **Normal**: incremental improvements to existing features. These are important iterations, but deemed non-critical. | ~50% |
 | priority::4 | **Low**: stretch issues that are acceptable to postpone into a future release. | ~25% |
+
+### Weekly Progress Updates
+
+- Engineering manager (EM): Posts a comment on the current planning issue on the first day of the week, to prompt team members to update.
+  - Format: | NUMBER | EPIC | GOAL | [DRI](/handbook/people-group/directly-responsible-individuals/) |
+- Implementing team member: Posts a short update (1-2 sentences) in comment thread on each item where you are the directly responsible individual (DRI). The update should be in reference to the milestone goal set out during planning. If there is nothing to report omit the item or use "see previous update"
+
+Intention of this is to:
+
+- Have a reference for verbal weekly updates during the Compliance Weekly meetings.
+- Document the weekly update for reporting.
+- Remove the on-the-spot/ad-hoc nature of the weekly updates.
+- Not be a personal performance indicator. The DRI is not necessarily the only individual working on an effort, and there may always be a change in priorities or other factors such as personal time off (PTO) or individuals being out of office (OOO).
 
 ## During Milestone
 
@@ -191,7 +202,7 @@ While individual groups are free to use as many stages in the [Product Developme
 
 ### Discovery/Refinement
 
-**The end goal is defined,** where all direct stakeholders says “yes, this is ready for development”. Some issues get there quickly, some require a few passes back and forth to figure out.
+**The end goal is defined,** where all direct stakeholders says "yes, this is ready for development". Some issues get there quickly, some require a few passes back and forth to figure out.
 
 The goal is for engineers to have buy-in and feel connected to the roadmap. By having engineering included earlier on, the process can be much more natural and smooth. To do so, engineering managers, engineers, and designers can be pinged directly from the issue.
 
@@ -308,7 +319,7 @@ The verification process is also about sharing knowledge of development between 
 
 In cases where verification in staging or production is unfeasible, the [staging-ref environment](/handbook/engineering/infrastructure/environments/staging-ref/) may be used. For complex setups, the DRI for the MR should work with a domain expert to ensure verification steps are clear and correct.
 
-In some cases it may be appropriate for the MR author to to verify the change themselves, for example feature flag rollout or monitoring a background migration. In these cases, the author should add the `verified-by-author` label to the issue to prevent the triage bot from assigning another team member, and the author should add a comment in the issue explaining why they are verifying the issue themselves.
+In some cases it may be appropriate for the MR author to verify the change themselves, for example feature flag rollout or monitoring a background migration. In these cases, the author should add the `verified-by-author` label to the issue to prevent the triage bot from assigning another team member, and the author should add a comment in the issue explaining why they are verifying the issue themselves.
 
 ##### Handling Discoveries of Issues
 
@@ -356,10 +367,9 @@ Meetings that are not 1:1s or covering confidential topics should be added to th
 
 All meetings should have an agenda prepared at least 12 hours in advance. If this is not the case, you are not obligated to attend the meeting. Consider meetings canceled if they do not have an agenda by the start time of the meeting.
 
-
 ## Planning for PTO
 
-We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
 
 ## Group Shared Calendar
 

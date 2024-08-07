@@ -1,15 +1,8 @@
 ---
-
 title: Mid-Market First Order
 description: >-
   Mid-Market First Order processes for prospecting, managing, and cultivating accounts.
 ---
-
-
-
-
-
-
 
 ## Mid Market Key Accounts First Order Mission Statement
 
@@ -24,11 +17,11 @@ We uphold GitLab brand integrity though our outreach, and we collaborate to ensu
 ### Account Research
 
 This part will help you with:
+
 1. Becoming effective in Account Research
 2. Prioritizing the right accounts
 3. Finding new greenfield accounts
 4. Building a monthly target account strategy
-
 
 #### SalesForce existing accounts
 
@@ -66,7 +59,6 @@ This report filters by 6 main categories:
 5. Monday and Fridays are best used for Account research, adding new accounts, import new contacts and enroll in sequence
 6. Tuesday, Wednesday, Thursday are best used for Outbound Sequence Activities
 
-
 ## First Order Skills and Skills Development
 
 ### First Meeting
@@ -86,7 +78,7 @@ This report filters by 6 main categories:
 
 1. A Paid POC promotes a shorter sales cycle as the financial investment is significantly lower and the allocated resources required from the customer to get started are much smaller. It mitigates any perceived risk prospects have to get started.
 1. It typically enables our champion to get started as soon as possible as they will not need budget approval since the investment is typically below the approval threshold.
-1. It doesn’t restrict customers to a 1 month trial which many find limiting and therefore postpone initiating it.
+1. It doesn't restrict customers to a 1 month trial which many find limiting and therefore postpone initiating it.
 1. It gives customers much needed time to explore the GitLab features and formulate a concise and robust ROI to make internal justification of a wide team adoption easier.
 1. It provides the customer with a GitLab Account Manager.
 1. It provides them with [Priority Support](https://about.gitlab.com/support/).
@@ -95,14 +87,13 @@ This report filters by 6 main categories:
 
 ### Discovery
 
-
 ### FORC Calls
 
-1. First Order Reviewed Call (‘FORC’) pronounced Force are Chorus calls First Order AEs review on behalf of their peers to provide feedback and encourage collaboration and skill development.
+1. First Order Reviewed Call ('FORC') pronounced Force are Chorus calls First Order AEs review on behalf of their peers to provide feedback and encourage collaboration and skill development.
 1. Ideally, AEs should review 1-2 calls per week per AE.
 1. The AE should send the call to someone transatlantic to review for early AM local time.
 1. The AE who wishes their call to be reviewed should name 1-2 concrete things they were working on during that call and send the Chorus link. Examples include, two lane selling, active listening, price negotiation, GitLab pitch, back of napkin ROI etc.
-1. The reviewer should review the call they receive and log their notes in SFDC under the opportunity using the following format “FORC for Company Name” so that we can report on them.
+1. The reviewer should review the call they receive and log their notes in SFDC under the opportunity using the following format "FORC for Company Name" so that we can report on them.
 
 ## Working Cross-Functionally
 
@@ -111,7 +102,7 @@ This report filters by 6 main categories:
 Collaboration with Field Marketing helps to speed up outbound efforts by changing cold engagements into warmer contacts and help to speed up conversations for pipeline building.
 
 1. Understand who is the Field Marketing Manager that is responsible for the events in your region
-1. Join the Bi-weekly Field Marketing calls where the Field Marketing Manager gives updates about the upcoming events in your territory. If you’re not aware who this is, reach out to your team members that can add you to these calls
+1. Join the Bi-weekly Field Marketing calls where the Field Marketing Manager gives updates about the upcoming events in your territory. If you're not aware who this is, reach out to your team members that can add you to these calls
 1. Participate in events - Remote or In-Person. This is a great way to make yourself a trusted face for GitLab in your territory community. Be proactive yourself in participation. The more you participate the more Field Marketing will include you. You can even become a speaker if you have aspirations to do this.
 1. Be on top of events that Field Marketing organizes which are tailored for Executives. These events give you a door into directly speaking with decision makers.
 1. Use events for prospecting purposes. When you know there is an event coming up that is of interest to your contact at a target account - provide value and drive attendance to the event.
@@ -120,30 +111,30 @@ Collaboration with Field Marketing helps to speed up outbound efforts by changin
 
 ### SDR/BDR Team
 
-The BDR and SDR team are responsible for pre-qualifying leads and setting meetings (IQM’s) for the First Order team. [BDR’s](/handbook/marketing/sales-development/#sales-development-representatives-sdrs---inbound-focused)  are focused on outbound while [SDR’s](/handbook/marketing/sales-development/#sales-development-representatives-sdrs---inbound-focused) are responsible for the inbound lead flow. It’s important to understand how to collaborate with both teams:
+The BDR and SDR team are responsible for pre-qualifying leads and setting meetings (IQM's) for the First Order team. [BDR's](/handbook/marketing/sales-development/#sales-development-representatives-sdrs---inbound-focused)  are focused on outbound while [SDR's](/handbook/marketing/sales-development/#sales-development-representatives-sdrs---inbound-focused) are responsible for the inbound lead flow. It's important to understand how to collaborate with both teams:
 
 #### BDR's
 
 1. Get yourself familiar with the [outbound responsibilities](/handbook/marketing/sales-development/#outbound-workflow) of the BDR team and their way of working
 1. Set up time with your aligned BDR and discuss expectations before starting to work together. Discuss how the BDR can help you succeed and understand how you can help the BDR to succeed.
 1. Schedule a weekly or bi-weekly cadence with your BDR to strategize outbound efforts for your territory. During this meeting discuss:
-    - Which accounts to go after and why. Select X number of accounts that match with what BDR’s are expected to go after per week
-    - Strategy to go into these accounts. Which persona’s to target and which messaging to use. Discuss an approach before reaching out
+    - Which accounts to go after and why. Select X number of accounts that match with what BDR's are expected to go after per week
+    - Strategy to go into these accounts. Which persona's to target and which messaging to use. Discuss an approach before reaching out
     - What has been uncovered about the accounts during the outbound efforts
-    - What are the next steps we’re going to take based on the gathered information?
-    - Results: How many IQM’s booked last week / last 2 weeks or what kind of golden information has been uncovered?
-1. First Order reps and BDR’s are both going outbound into accounts. Make sure it’s always visible to both parties who work which accounts. This is [the report](https://www.google.com/url?q=https://gitlab.my.salesforce.com/00O4M000004aiUw?dbw%3D1&sa=D&source=docs&ust=1651508616369703&usg=AOvVaw3BUuFQ4ju9byXYL_MoRsow) BDR’s use to track the accounts they actively work on. For First Order we currently track this in a spreadsheet you can create yourself
+    - What are the next steps we're going to take based on the gathered information?
+    - Results: How many IQM's booked last week / last 2 weeks or what kind of golden information has been uncovered?
+1. First Order reps and BDR's are both going outbound into accounts. Make sure it's always visible to both parties who work which accounts. This is [the report](https://www.google.com/url?q=https://gitlab.my.salesforce.com/00O4M000004aiUw?dbw%3D1&sa=D&source=docs&ust=1651508616369703&usg=AOvVaw3BUuFQ4ju9byXYL_MoRsow) BDR's use to track the accounts they actively work on. For First Order we currently track this in a spreadsheet you can create yourself
 1. Make sure both parties always check historical outbound efforts done in an account to prevent spamming outreach before reaching out
-1. Understand that the way of working from the BDR organization is different from the First Order cadence but both align on call heavy outreach. BDR’s have different outreach sequences in place than the First Order team but both heavily focus on calls
+1. Understand that the way of working from the BDR organization is different from the First Order cadence but both align on call heavy outreach. BDR's have different outreach sequences in place than the First Order team but both heavily focus on calls
 1. Consistency is key. Make sure you meet with your BDR and discuss results, progress strategy every week or bi-weekly. From there set the next steps.
 
 ### SDR's
 
 1. Get yourself familiar with the [inbound responsibilities](/handbook/marketing/sales-development/#bdr-and-sdr-inbound-workflow--process) of the SDR team and their way of working
 1. FO AEs are not meant to be working leads. This is why it is critical to be aware of incoming leads your SDRs are receiving for your territory and work effectively and together to drive conversations with leads
-2. The SDR team works round-robin which means you will work with all the SDR’s in your region. It’s recommended to set up a coffee chat with all of them so you know which SDR’s you’re going to collaborate with
-3. SDR’s don’t have visibility into accounts that are important to you. That’s why it’s recommended to create visibility into the leads that are coming in for your own territory.
-4. If there is an incoming lead that is part of a high priority account chatter the assigned SDR on Salesforce to pick up the lead with high priority. You can ask the SDR Manager of your region to share a report that shows all incoming leads per Quarter and add filters to the report so it is set for only your territory. Team members or FO Manager can help with this
+1. The SDR team works round-robin which means you will work with all the SDR's in your region. It's recommended to set up a coffee chat with all of them so you know which SDR's you're going to collaborate with
+1. SDR's don't have visibility into accounts that are important to you. That's why it's recommended to create visibility into the leads that are coming in for your own territory.
+1. If there is an incoming lead that is part of a high priority account chatter the assigned SDR on Salesforce to pick up the lead with high priority. You can ask the SDR Manager of your region to share a report that shows all incoming leads per Quarter and add filters to the report so it is set for only your territory. Team members or FO Manager can help with this
 
 ### Channel
 
@@ -159,12 +150,12 @@ Working with local partners can speed up your sales cycles, increase the overall
 1. Prepare a list of prospect accounts you want to outbound (ideally Rank 1 or 1,5 accounts) and share with your preferred partners to see how they can help with prospecting. Partners may have worked with top tier accounts in the past and can provide warm introductions or they can help us with prospecting as some have their own GitLab dedicated BDR teams.
     1. Work together with your channel manager to help partners arrange webinars, workshops etc.
     1. Promote partners webinars by creating [Outreach Sequences](https://app1a.outreach.io/sequences/7941) to share with prospects.
-    1. If you don’t have any contacts on SFDC that you can invite, use a LinkedIn Sequence to invite fresh prospects to webinars.
+    1. If you don't have any contacts on SFDC that you can invite, use a LinkedIn Sequence to invite fresh prospects to webinars.
 
 #### **Working on opportunities with Partners**
 
 1. Familiarize yourself with the GitLab [Partner Program Discount Details](https://docs.google.com/document/d/1lMQHlSMEJQCH1HJnr-MdeVozZ9HJI0oVPmfbPWbJkyw/edit)
-1. If a Channel Manager assigns a Deal Registration to your name, ask them to introduce you to the partner, if you don’t already have a relationship with them.
+1. If a Channel Manager assigns a Deal Registration to your name, ask them to introduce you to the partner, if you don't already have a relationship with them.
 1. Set up a short call with the Partner who registered the opportunity to find out details about the opportunity (use case,pain points, timeline etc). This will help you complete the Command Plan.
 1. For opportunities where you introduce a partner as a reseller to the prospect, a co-sell discount will apply. All partners can resell opportunities and they can often do this in the local currency and with more flexible payment terms which is something to consider if your prospect brings up these objections.
 
@@ -181,7 +172,7 @@ The Alliances team can assist with connecting you to the Alliance Partner sales 
 
 1. Get yourself familiar with the [Alliances](https://gitlab-com.gitlab.io/alliances/alliances-internal/) team, what they do and how they can help
 1. Select a list of your top 10 accounts where you know they are using one of our Alliances Partners
-1. Schedule time with the Alliances Manager in your region and bring up that you’d like to be introduced to the Partner representative from the 10 selected accounts. To get in contact with the right Alliances Manager post a new message to the #cloud-aws or #cloud-gcp Slack channel with a brief description of the request. The alliance team member(s) managing the partnership will follow-up with next steps
+1. Schedule time with the Alliances Manager in your region and bring up that you'd like to be introduced to the Partner representative from the 10 selected accounts. To get in contact with the right Alliances Manager post a new message to the #cloud-aws or #cloud-gcp Slack channel with a brief description of the request. The alliance team member(s) managing the partnership will follow-up with next steps
 1. The Alliances Manager is responsible for bringing you in contact with the dedicated customer teams from the Partner (AWS, GCP etc) and set up the meetings
 1. Leverage Alliances help you to break into new accounts where there is already a warm relationship with the Alliances Partner who can help to warm introduce you to the right people in the company
 1. Make sure you understand what the benefit for the Alliances Partner is to introduce you. Always make sure you understand how we can help them and the customer and align your GitLab proposal to this.
@@ -219,4 +210,3 @@ The Alliances team can assist with connecting you to the Alliance Partner sales 
 1. What is the most efficient way of prospecting? What tools are being used to find potential clients?
 1. What are good call notes / next steps?
 1. How does GitLab handle discount requests? What is the guidline?
-

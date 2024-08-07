@@ -43,13 +43,14 @@ During triage additional labels should be added to indicate what part of the pro
 ### Resources
 
 Issues for triaging can be identified using the following criteria:
-  * They have no milestone
-  * They have no assignee
-  * They do **not** have any of the following labels applied:
-    * `awaiting feedback`
-    * `for scheduling`
-    * `maintainer-discussion`
-    * `needs investigation`
+
+* They have no milestone
+* They have no assignee
+* They do **not** have any of the following labels applied:
+  * `awaiting feedback`
+  * `for scheduling`
+  * `maintainer-discussion`
+  * `needs investigation`
 
 Such issues can be listed using the [issues filter](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&assignee_id=None&milestone_title=None&not[label_name][]=For%20Scheduling&not[label_name][]=awaiting%20feedback&not[label_name][]=maintainer-discussion)
 
@@ -66,8 +67,7 @@ triage duty can be summarized as follows
 1. We follow the policy of closing an issue if it has been 14 days since
    `awaiting feedback` label was added and no response was received from
    submitter. Check out the issue list with `awaiting feedback` label for such
-   issues and close them with the ["for issues with no reply"
-   response](#for-issues-with-no-reply).
+   issues and close them with the ["for issues with no reply" response](#for-issues-with-no-reply).
 1. Check out the issues to be triaged and assign [appropriate labels](#label-glossary) to them.
    While it is normal for some issues to demand a bit of research to get to the
    bottom, do keep in mind issue triaging need not end up in issue resolution.
@@ -83,11 +83,9 @@ triage duty can be summarized as follows
 1. If an issue doesn't deal with the code base or work flow of the project
   but is more of a request for help for
    installing/configuring/troubleshooting a GitLab instance, close the issue
-   using the ["problems not related to package installation and
-   configuration" response](#for-problems-not-related-to-the-gitlab-codebases).
+   using the ["problems not related to package installation and configuration" response](#for-problems-not-related-to-the-gitlab-codebases).
 1. If an issue doesn't have all necessary information to successfully triage the
-   issue, request the information using the ["issues that lack enough
-   information" response](#for-issues-that-lack-enough-information) and
+   issue, request the information using the ["issues that lack enough information" response](#for-issues-that-lack-enough-information) and
    add the `awaiting feedback` label.
 1. If an issue couldn't be triaged in reasonable time, add the `needs investigation`
    label to it.
@@ -125,10 +123,6 @@ triage duty can be summarized as follows
    you think something should be changed regarding the process. Also, create a
    similar header for the next presenter as an agenda item for the next week's
    meeting in the meeting doc.
-1. Close the meta issue.
-1. Create a new meta issue for the next team member on triage duty, and assign
-   them to it. The issue title should be `Issue triage rotation week of <starting
-   date>`. Use the `Triage` template to fill in the description.
 
 #### Response templates
 
@@ -138,7 +132,7 @@ Copy and paste into issues where appropriate
 
 If someone is asking for support in our projects, point them to the correct place to look
 
-```
+```text
 We are sorry you are having troubles. The provided issue description seems to indicate that the problem is not related to this project. Commonly this indicates other troubles such as network connectivity or filesystem permissions.
 
 For this reason, I will close this issue and recommend checking out [how to get further help](https://about.gitlab.com/get-help/) on the GitLab website.
@@ -150,7 +144,7 @@ For this reason, I will close this issue and recommend checking out [how to get 
 
 If someone is asking for help with a bug that seems related to GitLab code other than Omnibus
 
-```
+```text
 We are sorry you are having troubles. The provided issue description seems to indicate that the problem is not related to Omnibus.
 
 For this reason, we are moving this report to a more appropriate issue queue.  Please review the bug templates for the new project in case they require additional information to help diagnose the problem.
@@ -162,7 +156,7 @@ We also recommend checking out [how to get further help](https://about.gitlab.co
 
 If someone opened a ticket without enough information, make sure they use the `Bug` template, and fill it in
 
-```
+```text
 We can't reproduce the issue with the information you provided here.
 
 Can you please use our `Bug` template to help gather more details?
@@ -180,7 +174,7 @@ Can you please use our `Bug` template to help gather more details?
 
 If an issue has been labeled `awaiting feedback` for two weeks, and we haven't received a response, it can be closed
 
-```
+```text
 We haven't heard back from you, so we're going to go ahead and close the issue.
 
 If you're still experiencing the problem, please re-open the issue and provide the requested information.
@@ -192,7 +186,7 @@ If you're still experiencing the problem, please re-open the issue and provide t
 
 If an issue was closed for no reply and someone comments who is not the original reporter, we ask them to open a new issue. Be sure to tag the contributor who made the comment.
 
-```
+```text
 Thank you for letting us know about your issue COMMENTOR. Unfortunately, this issue was already closed. Please [open a new issue](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/new?issue) following the ***BUG*** template and mark this closed issue as related.
 ```
 
@@ -200,7 +194,7 @@ Thank you for letting us know about your issue COMMENTOR. Unfortunately, this is
 
 If an issue appears to need review directly by a project maintainer to ascertain relevance,
 
-```
+```text
 I'm going to ask that this issue be reviewed by the project maintainers directly.
 This is so that we can make the most accurate decision regarding further work and viability.
 /label ~maintainer-discussion

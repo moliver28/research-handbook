@@ -1,5 +1,5 @@
 ---
-title: "GitLab Project Management - Hands-On Lab: Create And Manage A Waterfall Board"
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Create And Manage A Waterfall Board"
 description: "This Hands-On Guide walks you through creating and managing a Waterfall board via issue boards."
 ---
 

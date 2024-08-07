@@ -1,20 +1,11 @@
 ---
-
 title: SMB Account Executive
 description: >-
   SMB Account Executive guidelines to assist prospects through their evaluation
   and buying process of GitLab
 ---
 
-
-
-
-
-
-
 ## "You should expect excellence of yourself, teammates, and managers in your role. We will be excellent if we expect it."
-
-{: .no_toc}
 
 Small and Medium Size Business Account Executives "SMB AE" act as Account Executives and the face of GitLab for SMB prospects and customers. They are the primary point of contact for companies that employ between [1 to 99 employees](/handbook/sales/field-operations/gtm-resources/). These GitLab team members are responsible for working new business in their territory as well as handling the customer journey for new and existing customers. SMB Account Executives will assist prospects through their GitLab evaluation and buying process and will be the customer's point of contact for any renewal and expansion discussions.
 
@@ -164,8 +155,8 @@ Customer success planning should be broken into three categories based off the p
 - Follow the [Commercial Sales standards](/handbook/customer-success/comm-sales/#additional-engagement-guidelines-for-sales) for engaging a Customer Success Manager or Solution Architect into the conversation with a customer or prospect.
 - Consider a [Live Optimization Session](/handbook/sales/commercial/smb/live-optimization/) with a Solutions Architect.
 - If limited on resources, encourage clients to submit questions to the following communities:
-    - Community Forum: https://forum.gitlab.com/
-    - Reddit: https://www.reddit.com/r/gitlab/
+  - Community Forum: https://forum.gitlab.com/
+  - Reddit: https://www.reddit.com/r/gitlab/
 
 ### Compensation
 

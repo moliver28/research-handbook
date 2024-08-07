@@ -265,7 +265,7 @@ The Senior Director, Sales Operations is a [grade 11](/handbook/total-rewards/co
 - Support the channel sales team on Tier 1 issues including SFDC account management, opportunity assistance, and portal account creations
 - Document and create knowledge repository for first-tier channel ops support
 - Create and implement reporting and dashboards for the channel organization that focuses on improving efficiency, effectiveness, and productivity
-- Support ad hoc reporting requests to support projects and company OKR’s
+- Support ad hoc reporting requests to support projects and company OKR's
 - Manage the operational aspect of newly created partner accounts and assignments/reassignments
 - Assist in monthly comp reporting and clean up
 - Identify opportunities for process automation and optimization, with a focus on scalability and driving significant growth
@@ -317,7 +317,7 @@ The Senior Director, Sales Operations is a [grade 11](/handbook/total-rewards/co
 - Develop methods, processes, systems and tools to appropriately support our channel efforts within our segmentation models: enterprise, mid-market and SMB
 - Drive cross-functional programs and initiatives to support scaling of the business and integrate the channel processes with teams throughout GitLab (e.g., sales, marketing, product)
 - Manage all channel incentive programs and ensure adherence to policies
-- Assist in the development and rollout of channel enablement practices to improve our reseller’s effectiveness and efficiency and provide increased channel insights through data, automation, and product analytics
+- Assist in the development and rollout of channel enablement practices to improve our reseller's effectiveness and efficiency and provide increased channel insights through data, automation, and product analytics
 - Create and coordinate key reporting for GitLab leadership team, partnering with the Customer Success analyst to provide reporting on customer adoption, sentiment and advocacy and business results (i.e., forecasts, renew, expand, churn)
 - Act as liaison to channel enablement to drive training and enablement priorities, content and methods
 
@@ -369,9 +369,9 @@ The Senior Director, Sales Operations is a [grade 11](/handbook/total-rewards/co
 
 - Extends that of the Manager, Sales Operations
 - Demonstrated progressive relevant experience and an understanding of sales and or channel operations
-- Must have experience with QTC process, tools, and automation (API’s)
+- Must have experience with QTC process, tools, and automation (API's)
 - Partner Portal experience preferred
-- Responsible for managing all active Partner Operations team projects and system enhancements for Channels, Alliances, and OEM’s
+- Responsible for managing all active Partner Operations team projects and system enhancements for Channels, Alliances, and OEM's
 - Take lead in documenting the requirements and process to improve efficiencies for the sales systems team so they can build and implement new features
 - Ensure the current processes accurately reflect and support the published Partner Program
 - Assist in implementing new tools and/or applications that focuses on improving efficiency, effectiveness, and productivity

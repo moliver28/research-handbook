@@ -1,16 +1,9 @@
 ---
-
 title: "Join the Speakers Bureau"
 description: "The Speakers Bureau is a group of GitLab team members and members of the wider GitLab community who are available to participate in events and deliver talks."
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/speakers-bureau/index.html
 ---
-
-
-
-
-
-
 
 ## What is the Speakers Bureau?
 
@@ -37,7 +30,8 @@ Once you have the above items, follow these steps to add yourself to create your
 1. For community members: if prompted, click `Fork` to create a Fork of the repo which will allow you to make changes and submit a Merge Request.
 1. You should see the `speakers.yml` file open in your browser.
 1. Copy and paste the entry below and enter your information into each of the blank fields. Remove the commented lines (starting with `#`) when not used.
-```
+
+```yaml
 # Example Entry
 - name: Ada Lovelace          # Your full name
   region: North America       # One of North America, Central America, South America, Europe, Asia, Africa, Oceania
@@ -68,6 +62,7 @@ Once you have the above items, follow these steps to add yourself to create your
 #    - title: Foo
 #      link: https://
 ```
+
 1. Once you have finished adding your information, click the `Source Control` menu on the left.
 1. Add a commit message, for example `Add @me to the speakers bureau` and click on the `Commit & Push` button.
 1. When asked to create a new branch, select `yes` and press `Enter` to confirm.
@@ -79,14 +74,15 @@ Once you have the above items, follow these steps to add yourself to create your
 The practical handbook edits handbook provides a [step-by-step tutorial for using the Web IDE](/handbook/editing-handbook/practical-handbook-edits/#using-the-web-ide-to-edit-the-handbook).
 
 ### Linting
+
 When adding yourself to the Speakers Bureau, you may get a linting error in the build.  If that happens, ensure that the following requirements are met:
 
-* Unique `name`: Your name must be unique - if you have the same name as another speaker add your middle inital or other identifiers
-* Unique `gitlab`: You must put your unique GitLab.com username in this field
-* Unique `twitter`: You must put your unique Twitter username in this field
-* Headshot: You must place your headshot in the `source/images/speakers` and reference it just by file name in the `picture` field.
-* Valid `region`: Make sure your `region` field is one the allowed regions.  See [speakers_requirements.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/speakers_requirements.yml#L1) for a list of the allowed regions.
-* Valid `topics`:  Make sure your `topics` field only contains allowed topics.  See [speakers_requirements.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/speakers_requirements.yml#L10) for a list of the allowed topics.
+- Unique `name`: Your name must be unique - if you have the same name as another speaker add your middle inital or other identifiers
+- Unique `gitlab`: You must put your unique GitLab.com username in this field
+- Unique `twitter`: You must put your unique Twitter username in this field
+- Headshot: You must place your headshot in the `source/images/speakers` and reference it just by file name in the `picture` field.
+- Valid `region`: Make sure your `region` field is one the allowed regions.  See [speakers_requirements.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/speakers_requirements.yml#L1) for a list of the allowed regions.
+- Valid `topics`:  Make sure your `topics` field only contains allowed topics.  See [speakers_requirements.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/speakers_requirements.yml#L10) for a list of the allowed topics.
 
 > To find the linters in the `www-gitlab-com` repository, search for the `lint:speakers_yml` namespace.
 
@@ -97,4 +93,3 @@ The Developer Advocate team provides support to new and experienced speakers whe
 ## Speaking at Events
 
 For resources for GitLab team members who are planning on attending events or speaking at conferences, see [Speaker Resources](/handbook/marketing/corporate-communications/speaking-resources/).
-

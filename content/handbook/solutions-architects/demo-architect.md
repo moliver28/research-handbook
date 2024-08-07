@@ -1,9 +1,7 @@
 ---
-
 title: "Demo Architect Offerings"
 description: "This guide will outline all of the offerings from the Demo Architect team"
 ---
-
 
 ## Demo Architect Offerings
 
@@ -23,46 +21,71 @@ Workshops are meant to be offered in 3 hour sessions (with a few exceptions) gen
 
 The content in this section is typically updated at least 1 month after each release, with smaller updates provided before and after a workshop is ran.
 
-- GitLab Security & Compliance Workshop
-    - [Slides](https://drive.google.com/drive/folders/1kWp97Whuf-OH_1wSq9DpcQbSUPZtYhfA)
-    - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/security-and-compliance-workshop)
-    - What does it sell/cover: Ultimate heavy. The majority of this workshop is showing how to run Security scans in your pipelines & then enforcing compliance based off of the results.
-    - Instruqt?: No
-- GitLab DevSecOps Workshop
-    - [Slides](https://drive.google.com/drive/folders/1kWp97Whuf-OH_1wSq9DpcQbSUPZtYhfA)
-    - [Content](https://play.instruqt.com/gitlab/tracks/devsecops-workshop)
-    - What does it sell/cover: Ultimate heavy. This workshop is basically the Security & Compliance workshop minus the compliance plus deploying out a live application. 99% of the time it makes more sense to just run the Security & Compliance workshop.
-    - Instruqt?: Yes
-- GitLab Adv CICD Workshop
-    - [Slides](https://drive.google.com/drive/folders/1JyA-_8ymrG5axRWas2ZHX1k5mT4dubqn)
-    - [Content](https://play.instruqt.com/gitlab/tracks/advanced-cicd)
-    - What does it sell/cover: Good for premium or ultimate. This workshop takes advanced topics (like DAGS, Includes, Needs, ETC) and presents them in basic ways. The goal is for someone new to CICD to get something out of the workshop and for experts to see how they can apply what they have learned to advanced features.
-    - Instruqt?: Yes
-- GitLab AI Workshop
-    - [Slides](https://drive.google.com/drive/folders/1OsGp7HyrPO3tC0OFxtVHuD_kEiP_6dzY)
-    - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/ai-workshop)
-    - What does it sell/cover: Ultimate heavy. Think of this workshop as a code suggestions workshop that also shows the students how to enable every other AI feature and test it out on their own. Always run this earlier in the week so that students have time to go back and see features like Suggested Reviewers.
-    - Instruqt?: No
-- GitLab Basics Workshop
-    - [Slides](https://drive.google.com/drive/folders/11ETvCDMUMp7pNlZdkLXaCU71nOprTjLa)
-    - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/gitlab-basics-issues)
-    - What does it sell/cover: Any Tier. We just focus on the basics of GitLab and the fact that it is one platform that ties many things together without taking a deep dive into any specific topic.
-    - Instruqt?: No
-- GitLab PM Workshop
-    - [Slides](https://drive.google.com/drive/folders/1Hi8aeh2oDQpCkvKTamss06Vw85S4aKim)
-    - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/pm-workshop-issues)
-    - What does it sell/cover: Good for Premium or Ultimate. Focuses only only the planning stage, so make sure that the students you have coming are not expecting a technical workshop.
-    - Instruqt?: No
-- GitOps Workshop (Temporarily Paused, reach out to Logan Stucker with questions)
-    - [Slides](https://drive.google.com/drive/folders/1xFxULChxjLmiQYjIENKNpbiifhhDfvo2)
-    - [Content](https://play.instruqt.com/gitlab/tracks/gitlab-gitops-workshop)
-    - What does it sell/cover: Good for both premium and ultimate. Real benefit of this workshop is that it will set students up for how to use the agent for IAC or deploying an application. In the future we will be a deep dive into Flux as well.
-    - Instruqt?: Yes
-- X to GitLab Workshop ( GitHub, Bitbucket, etc.)
-    - [Slides](https://drive.google.com/drive/folders/1L_kd6QudSWcvAKDM-h6oPvvC6LiNj_ER)
-    - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects)
-    - What does it sell/cover: This can be many different topics but typically is GitHub or Bitbucket. The goal here is to take people new to GitLab and show them how easy it is to swap platforms and what they are missing.
-    - Instruqt?: Maybe
+#### GitLab Security & Compliance Workshop
+
+- [Slides](https://drive.google.com/drive/folders/1kWp97Whuf-OH_1wSq9DpcQbSUPZtYhfA)
+- [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/security-and-compliance-workshop)
+- What does it sell/cover: Ultimate heavy. The majority of this workshop is showing how to run Security scans in your pipelines & then enforcing compliance based off of the results.
+- Extra Infrastructure Required?: No
+- Other Security & Compliance Resources: **Lab** | Demo | Guided Trial | [POV](/handbook/solutions-architects/tools-and-resources/pov/compliance/) | *Education Services* | *Professional Services*
+
+#### GitLab DevSecOps Workshop
+
+- [Slides](https://drive.google.com/drive/folders/1kWp97Whuf-OH_1wSq9DpcQbSUPZtYhfA)
+- [Content](https://play.instruqt.com/gitlab/tracks/devsecops-workshop)
+- What does it sell/cover: Ultimate heavy. This workshop is basically the Security & Compliance workshop minus the compliance plus deploying out a live application. 99% of the time it makes more sense to just run the Security & Compliance workshop.
+- Cloud Infrastructure Required?: Yes
+- Other DevSecOps Resources: **Lab** | Demo | Guided Trial | [POV](/handbook/solutions-architects/tools-and-resources/pov/devsecops/) | *Education Services* | *Professional Services*
+
+#### GitLab Advanced CI/CD Workshop
+
+- [Slides](https://drive.google.com/drive/folders/1JyA-_8ymrG5axRWas2ZHX1k5mT4dubqn)
+- [Content](https://play.instruqt.com/gitlab/tracks/advanced-cicd)
+- What does it sell/cover: Good for premium or ultimate. This workshop takes advanced topics (like DAGS, Includes, Needs, ETC) and presents them in basic ways. The goal is for someone new to CICD to get something out of the workshop and for experts to see how they can apply what they have learned to advanced features.
+- Cloud Infrastructure Required?: Yes
+- Other Advanced CI/CD Resources: **Lab** | *Demo* | *Guided Trial* | [POV](/handbook/solutions-architects/tools-and-resources/pov/automation/) | *Education Services* | *Professional Services*
+
+#### GitLab AI Workshop
+
+- [Slides](https://drive.google.com/drive/folders/1OsGp7HyrPO3tC0OFxtVHuD_kEiP_6dzY)
+- [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/ai-workshop)
+- What does it sell/cover: Ultimate heavy. Think of this workshop as a code suggestions workshop that also shows the students how to enable every other AI feature and test it out on their own. Always run this earlier in the week so that students have time to go back and see features like Suggested Reviewers.
+- Cloud Infrastructure Required?: No
+- Other AI Resources: **Lab** | Demo | Guided Trial | [POV](/handbook/solutions-architects/tools-and-resources/pov/ai/) | *Education Services* | *Professional Services*
+
+#### GitLab Basics Workshop
+
+- [Slides](https://drive.google.com/drive/folders/11ETvCDMUMp7pNlZdkLXaCU71nOprTjLa)
+- [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/gitlab-basics-issues)
+- What does it sell/cover: Any Tier. We just focus on the basics of GitLab and the fact that it is one platform that ties many things together without taking a deep dive into any specific topic.
+- Cloud Infrastructure Required?: No
+- Other Basics Resources: **Lab** | Demo | Guided Trial | [POV](/handbook/solutions-architects/tools-and-resources/pov/platform/) | *Education Services* | *Professional Services*
+
+#### GitLab PM Workshop
+
+- [Slides](https://drive.google.com/drive/folders/1Hi8aeh2oDQpCkvKTamss06Vw85S4aKim)
+- [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/pm-workshop-issues)
+- What does it sell/cover: Good for Premium or Ultimate. Focuses only on the planning stage, so make sure that the students you have coming are not expecting a technical workshop.
+- Cloud Infrastructure Required?: No
+- Other PM Resources: **Lab** | Demo | Guided Trial | *POV* | *Education Services* | *Professional Services*
+
+#### GitOps Workshop
+
+*Temporarily Paused, reach out to Logan Stucker with questions*
+
+- [Slides](https://drive.google.com/drive/folders/1xFxULChxjLmiQYjIENKNpbiifhhDfvo2)
+- [Content](https://play.instruqt.com/gitlab/tracks/gitlab-gitops-workshop)
+- What does it sell/cover: Good for both premium and ultimate. Real benefit of this workshop is that it will set students up for how to use the agent for IAC or deploying an application. In the future we will be a deep dive into Flux as well.
+- Cloud Infrastructure Required?: Yes
+
+#### X to GitLab Workshop
+
+*( GitHub, Bitbucket, etc.)*
+
+- [Slides](https://drive.google.com/drive/folders/1L_kd6QudSWcvAKDM-h6oPvvC6LiNj_ER)
+- [Content](https://gitlab.com/gitlab-learn-labs/sample-projects)
+- What does it sell/cover: This can be many different topics but typically is GitHub or Bitbucket. The goal here is to take people new to GitLab and show them how easy it is to swap platforms and what they are missing.
+- Cloud Infrastructure Required?: Maybe
 
 ### Labs/hands-on Content
 
@@ -78,17 +101,17 @@ The goal of labs is to provide SA/CSM/CSEs with the ability to put on hands-on d
 
 These demos are meant for anyone in the CS org to use when they get asked a question like "Hey can you show us how child pipelines work?" and instead of going out and re inventing the wheel you have a catalogue of ready to go applications that cover the topic. The idea is that anyone can contribute, and it is up to the contributor to keep the content up to date and provide a decent script or recording to help you present the topic. Watch the CS & SA slack channels at the start of the month as well when we will announce the project of the month.
 
-#### [AI](https://gitlab.com/gitlab-learn-labs/webinars/ai)
+### [AI](https://gitlab.com/gitlab-learn-labs/webinars/ai)
 
 - [Code Suggestions Python Demo](https://gitlab.com/gitlab-learn-labs/webinars/ai/code-suggestions-python-demo): This demo takes the basic Simply Simple Notes application and shows how you can use code suggestions to quickly finish a restful API and rewrite an insecure application
 
 - [GitLab Duo Java Demo](https://gitlab.com/gitlab-learn-labs/webinars/ai/just-a-web-app-gitlab-duo): This demo takes the simple application and shows how you can use the full potential of GitLab Duo to quickly remediate vulnerabilities and generate code faster.
 
-#### [Analytics](https://gitlab.com/gitlab-learn-labs/webinars/analytics)
+### [Analytics](https://gitlab.com/gitlab-learn-labs/webinars/analytics)
 
 - [DORA Metrics Demo](https://gitlab.com/gitlab-learn-labs/webinars/analytics/dora-metrics-demo): This demo is meant to show how you can take advantage of the built in DORA metrics that GitLab collects as well as the VSA dashboard
 
-#### [CICD](https://gitlab.com/gitlab-learn-labs/webinars/cicd)
+### [CICD](https://gitlab.com/gitlab-learn-labs/webinars/cicd)
 
 - [child-project](https://gitlab.com/gitlab-learn-labs/webinars/cicd/child-project): This is just a child pipeline used in the CICD-Samples project. Does not have alot of use outside of being included in that demo.
 
@@ -98,23 +121,23 @@ These demos are meant for anyone in the CS org to use when they get asked a ques
 
 - [Docker App Example](https://gitlab.com/gitlab-learn-labs/webinars/cicd/docker-app-example):This project features a website built from a Docker image and deployed via GitLab CI/CD. The Docker image is built, then it is uploaded to the Container Registry, and the container scanning pulls the built image and conducts scans, then the application is published to GitLab Pages.
 
-- [Merge Trains](https://gitlab.com/gitlab-learn-labs/webinars/cicd/merge-trains): Basic CICD exmaple to show off the power of merge trains
+- [Merge Trains](https://gitlab.com/gitlab-learn-labs/webinars/cicd/merge-trains): Basic CICD example to show off the power of merge trains
 
 - [monorepo](https://gitlab.com/gitlab-learn-labs/webinars/cicd/monorepo): This project is a proof-of-concept for a monorepo application with 3 separate project folders that would like to run pipelines based on which project changes.
 
 - [secure-cicd-demo](https://gitlab.com/gitlab-learn-labs/webinars/cicd/secure-cicd-demo): The purpose of this repository is to demonstrate a CICD flow using a build-up of Binary Authorization Attestations with multiple Attestors
 
-- [sfdx-cicd-demo](https://gitlab.com/gitlab-learn-labs/webinars/cicd/sfdx-cicd-demo): Sample repo used in the webinar https://developer.salesforce.com/event/simplify-ci-cd
+- [sfdx-cicd-demo](https://gitlab.com/gitlab-learn-labs/webinars/cicd/sfdx-cicd-demo): Sample repo used in the webinar <https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ci_package_dev.htm>
 
 - [sfdx-cicd-template](https://gitlab.com/gitlab-learn-labs/webinars/cicd/sfdx-cicd-template): This project contains a fully configured CI pipeline that works with Salesforce DX projects following the package development model.
 You can include a copy of, or import, this project's .yml file in your own project.
 For a quick start example, please refer to sfdx/sfdx-project-template.
 
-#### [GitHub Competitive Demos](https://gitlab.com/gitlab-learn-labs/webinars/github-competitive-demos)
+### [GitHub Competitive Demos](https://gitlab.com/gitlab-learn-labs/webinars/github-competitive-demos)
 
 More to come soon!
 
-#### [Infrastructure](https://gitlab.com/gitlab-learn-labs/webinars/infrastructure)
+### [Infrastructure](https://gitlab.com/gitlab-learn-labs/webinars/infrastructure)
 
 - [Automatic Labeler](https://gitlab.com/gitlab-learn-labs/webinars/infrastructure/automatic-labeler): Interacts with the label and api tester projects to run as a nightly script that applies all of the compliance framework labels to each project. Good demo to look at if someone is curious about using GitLab CICD to interact with the GitLab API.
 
@@ -153,7 +176,7 @@ This project creates a GitOps pipeline to perform init, validate, build, and dep
 
 - [terraform-multi-env](https://gitlab.com/gitlab-learn-labs/webinars/infrastructure/terraform-multi-env): This project is a proof-of-concept for a single project with 3 separate environment folders that would like to run pipelines based on which environment folder changes.
 
-#### [Project Management](https://gitlab.com/gitlab-learn-labs/webinars/project-management)
+### [Project Management](https://gitlab.com/gitlab-learn-labs/webinars/project-management)
 
 - [Agile Demo](https://gitlab.com/gitlab-learn-labs/webinars/project-management/agile-demo): Group of a number of projects that show you how to use GitLab plan features with multiple projects in an agile way.
 
@@ -161,7 +184,7 @@ This project creates a GitOps pipeline to perform init, validate, build, and dep
 
 - [spring-sample](https://gitlab.com/gitlab-learn-labs/webinars/project-management/spring-sample): This demo walks you through how to show off the gitlab integration with Jira and even provides steps on how to spin up your own free jira instance.
 
-#### [Security](https://gitlab.com/gitlab-learn-labs/webinars/security)
+### [Security](https://gitlab.com/gitlab-learn-labs/webinars/security)
 
 - [API DAST Security Scanner](https://gitlab.com/gitlab-learn-labs/webinars/security/api-dast-security-scanner): DAST security scanners for graphql, har, openapi, postman, and soap
 
@@ -181,7 +204,7 @@ This project creates a GitOps pipeline to perform init, validate, build, and dep
 
 - [Tanuki Trust](https://gitlab.com/gitlab-learn-labs/webinars/tanuki-enterprises): Large scale project great for not just showing off PM but also security and CICD. Fantastic for any customer that wants to see the full layout of what their group on gitlab.com may be
 
-#### [Shared CS Infrastructure](https://gitlab.com/gitlab-learn-labs/webinars/demo-engineering-shared-infra)
+### [Shared CS Infrastructure](https://gitlab.com/gitlab-learn-labs/webinars/demo-engineering-shared-infra)
 
 CS team members are constantly spending time re-inventing the wheel and spinning up infrastructure that their teammates have already done. The goal with this shared infrastructure is to eliminate that time waste allowing CS team members to focus on the integrations themselves instead of just how to get it to work. To get access you just have to fill out an access form for each project. Also feel free to fill out an enhancement form if you notice that the application is missing something you were hoping to show off (like a grafana plugin). Don't see a project you were hoping to use? Just create an issue on the [Dev Issue Board](https://gitlab.com/gitlab-learn-labs/webinars/dev-issue-board/-/issues) and one of the SAs will pick up the task. Please note that there are two different types of infra, the first being applications that are easy to spin up without a high cost. Others like Snyk, Auth0 etc we will instead provide readmes on how to use their free cloud tiers or work around to give the demo but there are no plans to spin these up ourselves.
 
@@ -194,6 +217,6 @@ CS team members are constantly spending time re-inventing the wheel and spinning
 - Azure
 - Jira
 
-#### [Live Talk/Keynote Resources](https://gitlab.com/gitlab-learn-labs/webinars/live-presentation-talk-tracks)
+### [Live Talk/Keynote Resources](https://gitlab.com/gitlab-learn-labs/webinars/live-presentation-talk-tracks)
 
 This group is full of slide decks and talk track you can take advantage of to give keynotes or public talks at various conferences. Often times these come with recordings as well so you can see what has worked for other employees in the past. These are not meant to be demo recordings, but rather talks around concepts and values of the GitLab product.

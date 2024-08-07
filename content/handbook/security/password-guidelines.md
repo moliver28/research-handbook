@@ -4,14 +4,14 @@ title: GitLab Password Guidelines
 <!-- markdownlint-disable MD051 -->
 ## Passwords at GitLab
 
-Passwords are one of the primary mechanisms that protect GitLab information systems and other resources from unauthorized use. GitLab's [password standard]({{< ref "password-standard" >}}) is based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html).
+Passwords are one of the primary mechanisms that protect GitLab information systems and other resources from unauthorized use. GitLab's [password standard](password-standard.md) is based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html).
 The password standard sets the requirements for constructing secure passwords and ensuring proper password management. GitLab utilizes 1Password for password management.
 
 ## 1Password
 
 1Password is a password manager that can be used in two different ways - as a standalone application (by purchasing a standalone license) or as a hosted service (by subscribing). GitLab uses 1Password for Business which is a hosted service.
 
-**Important:** Any personal Passwords stored in your GitLab vault will be inaccessible upon separation with GitLab. Please use the complimentry 1Passsword Families membership subscription that comes with your business account to store any personal passwords. This account will stay with you even in the event that you stop working with GitLab.
+**Important:** Any personal Passwords stored in your GitLab vault will be inaccessible upon separation with GitLab. Please use the complimentary 1Passsword Families membership subscription that comes with your business account to store any personal passwords. This account will stay with you even in the event that you stop working with GitLab.
  For more information on how to redeem your free subscription, please follow the steps outlined in [this article](https://support.1password.com/link-family/).
 
 Ideally you memorize one strong password - hence the name - and let 1Password generate and manage strong, unique passwords
@@ -66,8 +66,8 @@ users about password breaches and other security problems on the websites they
 have saved in 1Password Teams, so users can take action. This is not something
 account administrators can review for team members, so it is up to you to enable!
 Enable Watchtower by going to your 1Password app and then to **Preferences > Watchtower**.
-1. Use the ["Security Audit"](https://i.agilebits.com/dt/Blank_Skitch_Document_18FB0234.png)
-functionality of 1Password to meet the [password standard]({{< ref "password-standard" >}}).
+1. Use the "Security Audit"
+functionality of 1Password to meet the [password standard](password-standard.md).
 It will report reused passwords, weak passwords, accounts that
 are missing 2-factor authorization, and so forth that can then be fixed.
 1. Do not copy passwords from inside a 1Password vault to a personal password
@@ -101,12 +101,12 @@ account up to one of the native apps.
 
 #### Adding the GitLab team to a 1Password app
 
-This guide will cover setting up the [macOS app]. It's their lead platform and is
+This guide will cover setting up the [macOS app](https://agilebits.com/downloads). It's their lead platform and is
 the most up-to-date. These instructions may or may not work for the Windows
 version. If you use 1Password 6 without a 1Password.com account, make note of
 [this](#updating-1password-to-support-the-teams-feature).
 
-1. Download and install the 1Password [macOS app].
+1. Download and install the 1Password [macOS app](https://agilebits.com/downloads).
 1. Launch the app.
 1. Click "Sign in to your 1Password account" button. If there is no such button
 please follow the instructions for [updating 1Password](#updating-1password-to-support-the-teams-feature).
@@ -144,7 +144,7 @@ may have access to others.
 #### Shared Vault Etiquette
 
 1. In general, 1Password items should be self-documenting. This is especially important for items in team vaults such as those to which a team member gains access once part of the GitLab team or they are granted access via their baseline entitlements issue. Always make sure the `title`, `username`, and `notes` fields are meaningful.
-1. Deleting items is fine as they are kept in the "recently deleted" tab indefinetely. It's also fine to leave them in their respective vault but delete the account on the system associated with the item. In the second case, and in order to prevent confusing team members, edit the title (e.g. `[Deleted on 2024-02-14]`) to reflect the purposeful deletion of the account and explain briefly who and why removed it in the notes.
+1. Deleting items is fine as they are kept in the "recently deleted" tab indefinitely. It's also fine to leave them in their respective vault but delete the account on the system associated with the item. In the second case, and in order to prevent confusing team members, edit the title (e.g. `[Deleted on 2024-02-14]`) to reflect the purposeful deletion of the account and explain briefly who and why removed it in the notes.
 
 #### Vaults
 
@@ -236,7 +236,7 @@ Example for configuring [glab](https://gitlab.com/gitlab-org/cli) with 1Password
 The environment variable name goes before the equals sign, and the path to the secret in 1Password goes after.
 You can store multiple variable secret pairs per file when you need to use
 secrets together.
-The paths can be obtained by viewing the credential in th 1Password GUI, clicking the dropdown menu and selecting "Copy Secret Reference".
+The paths can be obtained by viewing the credential in the 1Password GUI, clicking the dropdown menu and selecting "Copy Secret Reference".
 
 ```sh
 ## format is op://vault-name/item-name/[section-name/]field-name
@@ -263,7 +263,7 @@ op run --env-file=$HOME/.gitlab-pat.env -- glab api version
 Where the process is interactive or has dynamic output (progress bars, etc) you may need to disable masking to make the display work correctly. You can do this by adding `--no-masking`
 
 Manually adding `op run` every time for common tasks is cumbersome, so check out
-the [tools and tips]({{< ref "../tools-and-tips/onepassword-cli" >}}) section for more more user-friendly configurations.
+the [tools and tips](../tools-and-tips/onepassword-cli.md) section for more user-friendly configurations.
 
 ### Several accounts and unlocking the app
 
@@ -287,7 +287,7 @@ which you can share with up to 5 family members.
 
 ### Two factor authentication and time-based one time passwords
 
-As stated in the [GitLab Password Standards]({{< ref "password-standard" >}}), the usage of 2FA is mandatory for all GitLab team members. **Users without 2FA enabled that are stale for over 30 days will be blocked/suspended until resolved. This improves the security posture for both the user and GitLab.** If any systems provide an option to use SMS text as a second factor, this is highly discouraged. Phone company security can be easily subverted by attackers allowing them to take over a phone account.
+As stated in the [GitLab Password Standards](password-standard.md), the usage of 2FA is mandatory for all GitLab team members. **Users without 2FA enabled that are stale for over 30 days will be blocked/suspended until resolved. This improves the security posture for both the user and GitLab.** If any systems provide an option to use SMS text as a second factor, this is highly discouraged. Phone company security can be easily subverted by attackers allowing them to take over a phone account.
 
 Okta is configured such that it only supports the use of WebAuthn. 1Password TOTP should only be used when WebAuthn is unavailable.
 
@@ -326,9 +326,7 @@ To enable TOTP for a saved account:
 
 Please refer to demo video [1password TOTP setup](https://support.1password.com/one-time-passwords/)
 
-Please refer to the [1Password blog] for more information on how TOTP works.
-
-[1Password blog]: https://blog.agilebits.com/2015/01/26/totp-for-1password-users/
+Please refer to the [1Password blog](https://blog.agilebits.com/2015/01/26/totp-for-1password-users/) for more information on how TOTP works.
 
 If scanning the QR code using the "transparent window" with the 1Password Mac
 app fails on a recent macOS, please consider using the 1Password iOS app instead.
@@ -338,7 +336,7 @@ If unsure which mechanism to use, we require using WebAuthn (when possible) as a
 
 Follow this [guideline](https://gizmodo.com/how-to-easily-switch-your-two-factor-security-to-a-new-1821808681) when getting a new mobile device, if you are using Google Authenticator as a TOTP mechanism.
 
-There may be cases where TOTP might be used with a non-GitLab account. If you have any questions and need to speak with the Security Team, you can contact [Security]({{< ref "_index.md#-contacting-the-team" >}})
+There may be cases where TOTP might be used with a non-GitLab account. If you have any questions and need to speak with the Security Team, you can contact [Security](_index.md#-contacting-the-team)
 
 ### Passkeys
 
@@ -405,10 +403,7 @@ Once you have enabled Travel Mode open 1Password on each device you will be taki
 with you so that it can sync with 1Password.com and remove any vaults that cannot
 be used while traveling.
 
-For more information on Travel Mode and how it works, see the [AgileBits blog].
-
-[agilebits blog]: https://blog.agilebits.com/2017/05/18/introducing-travel-mode-protect-your-data-when-crossing-borders/
-[macOS app]: https://agilebits.com/downloads
+For more information on Travel Mode and how it works, see the [AgileBits blog](https://blog.agilebits.com/2017/05/18/introducing-travel-mode-protect-your-data-when-crossing-borders/).
 
 ### Securing Docker Registry User Credentials
 

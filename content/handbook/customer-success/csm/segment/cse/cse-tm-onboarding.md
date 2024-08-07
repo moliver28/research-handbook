@@ -1,17 +1,11 @@
 ---
-
-title: "CSE New Team Member Onboarding"
+title: "CSE Team Member Onboarding"
 aliases:
 - /handbook/customer-success/csm/segment/cse/cse-tm-onboarding/
 - /handbook/customer-success/csm/segment/scale/cse-tm-onboarding/
 ---
 
-
-
-
-
-
-View the [CSME Handbook homepage](/handbook/customer-success/csm/) for additional CSME-related handbook pages.
+View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
 ---
 **Overview**
@@ -25,6 +19,7 @@ Your role based learning path is highlighted in this [role-specific onboarding g
 As a CSE, in addition to the [SQS learning objectives](/handbook/sales/onboarding/sqs-learning-objectives/), your onboarding is intended to fulfill the following learning objectives:
 
 *Module 1: CSE at GitLab and Call Shadowing*
+
 - Demonstrate understanding of GitLab Basics
 - Express the Customer Success Vision
 - Describe the role of CSE
@@ -33,6 +28,7 @@ As a CSE, in addition to the [SQS learning objectives](/handbook/sales/onboardin
 - Demonstrate ability to set up a GitLab demo environment
 
 *Module 2: CSE Deep Dive*
+
 - Describe the rhythm of business for a CSE
 - Demonstrate comprehensive understanding of CI/CD
 - Apply understanding of CI/CD
@@ -40,6 +36,7 @@ As a CSE, in addition to the [SQS learning objectives](/handbook/sales/onboardin
 - Demonstrate customer readiness by completing role play exercise
 
 *Module 3: Technical Deep Dive*
+
 - Explain best practices for customer onboarding
 - Examine reference architecture
 - Demonstrate comprehensive understanding of GitLab Agile Project Management
@@ -47,15 +44,17 @@ As a CSE, in addition to the [SQS learning objectives](/handbook/sales/onboardin
 - Demonstrate customer readiness by completing role play exercise
 
 *Module 4: CSE Best Practices*
+
 - Formulate comprehensive understanding of the DevSecOps adoption
 - Identify how to request and track CSE engagement
 - Differentiate rules of engagement for the CSE and other account team members (i.e., AEs, SAs, CSMs, etc)
 - Apply use of Gainsight
-- Demonstrate comprehensive understanding of Gitlab Security
+- Demonstrate comprehensive understanding of GitLab Security
 - Complete certification GitLab Security Specialist
 - Demonstrate customer readiness by completing role play exercise
 
 *Module 5: CSE Onboarding Conclusion*
+
 - Explain CSE Escalations
 - Identify recommended CSE meeting workflow
 - Discuss customer readiness with your manager
@@ -71,6 +70,7 @@ As a CSE, in addition to the [SQS learning objectives](/handbook/sales/onboardin
 Your manager will be there to support you during your onboarding journey. Beyond the expectations laid out for your manager in your onboarding issue, they will be providing you with the following support:
 
 *Month 1*
+
 - Schedule recurring 1:1s and check in calls
 - Provide guidance on who the new hire should schedule coffee chats with during their onboarding journey
 - Review and discuss company policies
@@ -85,8 +85,9 @@ Your manager will be there to support you during your onboarding journey. Beyond
 - Identify skills to be mastered and resources available to accomplish learning objectives
 
 *Month 2*
+
 - Check in regularly with your new hire
-  - Ask them if they are experiencing any challenges with GitLab’s asynchronous culture
+  - Ask them if they are experiencing any challenges with GitLab's asynchronous culture
   - Discuss any general concerns
 - Share constructive feedback on role plays that were completed during the onboarding learning path
 - Ensure onboarding milestones are met and that new hire is completing required courses and certifications
@@ -94,6 +95,7 @@ Your manager will be there to support you during your onboarding journey. Beyond
 - Discuss best practices and rules of engagement for CSEs
 
 *Month 3*
+
 - Decide on a regular cadence for 1:1 calls
 - Prep your new hire for taking over assigned customers/accounts
 - Consider shadowing some customer calls and provide feedback as needed
@@ -101,6 +103,7 @@ Your manager will be there to support you during your onboarding journey. Beyond
 - Discuss how their performance will be formally evaluated
 
 *Beyond 3 months*
+
 - Provide regular feedback on performance
 - Partner with employee to develop an individual growth plan for goals they want to achieve in the coming year
 - Discuss the following topics at length in the coming months by providing an overview of the topic, why is it important to customer / GitLab / CSE, what does good look like, what are some common pitfalls, and how success is measured:
@@ -114,18 +117,21 @@ Your manager will be there to support you during your onboarding journey. Beyond
 **Expectations for Buddy Support during Onboarding**
 
 *Month 1*
+
 - Nurture a welcoming environment for the new hire
-- Establish a recurring 1:1 meeting to check in on the new hire’s progress on onboarding activities
+- Establish a recurring 1:1 meeting to check in on the new hire's progress on onboarding activities
 - Provide assistance with any barriers or difficulty understanding concepts covered in the onboarding learning path and SQS
 - Connect the new hire with members of the broad team to build a network
 - Share helpful tips and resources that are beneficial during their onboarding and beyond
 
 *Month 2*
+
 - Provide opportunities for new hire to shadow you on calls as defined in the [shadow criteria](https://docs.google.com/document/d/1jY0YnL7whNVVK_VeoxRPjn-Iloj8_Su_3YOx0X1bKtw/edit#heading=h.1g07abmamci3) and assist with note taking
   - Debrief on calls and discuss feedback
-- Align with new hire’s manager on ways you can provide support
+- Align with new hire's manager on ways you can provide support
 
 *Month 3*
+
 - Co-lead calls with the new hire until they are ready to take over customer interactions independently
   - Share constructive feedback
 - Inform new hire on how you can support them beyond their onboarding journey
@@ -139,7 +145,7 @@ In order to be considered as having graduated from your CSE onboarding journey, 
 - Completed your role based learning path on GitLab University
 - Attained the following certificates:
   - GitLab Certified Git Associate
-  - Gitlab Certified CI/CD Associate
+  - GitLab Certified CI/CD Associate
   - GitLab Certified Project Management Associate
   - GitLab Certified Security Specialist
 - Completed role play activities and discussed feedback with your manager /  onboarding buddy
