@@ -8,10 +8,11 @@ To maintain healthy environments, there are several maintenance tasks we must
 do. While the aim is to always automate these, some cannot be automated and
 must be done manually from time to time.
 
-## Fix tickets stuck in the void
+## Fix bad task ticket
 
-When tickets find themselves in a void, they will not show up properly within
-our views. As these have fallen into an unroutable state, we need to fix this.
+This locates Task type tickets that have a Due Date set before the current time.
+Any tickets found in this state have their due date removed and are set to the
+type of Question.
 
 This is currently done via automation using the Maintenance Tasks projects.
 It runs every hour at the 30 minute mark.
@@ -19,6 +20,7 @@ It runs every hour at the 30 minute mark.
 Applicable instance:
 
 - Zendesk Global
+- Zendesk US Government
 
 ## Permanently delete deleted users
 
