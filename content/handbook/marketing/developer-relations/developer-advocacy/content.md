@@ -55,10 +55,11 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 
 | Title | Area | Last updated | DRI |
 |-------|------|--------------|-----|
+| [Duo Enterprise](https://gitlab.navattic.com/duo-enterprise) | GitLab Duo | 2024-07-28 | @iganbaruch |
 | [Value Stream Management](https://gitlab.navattic.com/vsm) | DevSecOps Platform | 2024-06-25 | @iganbaruch |
 | [Interactive infographic](https://tech-marketing.gitlab.io/static-demos/gitlab-infographic.html) | DevSecOps Platform | 2024-03-24 | @iganbaruch |
 | [Resolving vulnerabilities with GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/pt-explain-vulnerability.html) | GitLab Duo | 2024-02-24 | @iganbaruch |
-| [CI/CD Catalog beta](https://gitlab.navattic.com/cicd-catalog) | CI/CD | 2024-01-24 | @iganbaruch |
+| [CI/CD Catalog](https://gitlab.navattic.com/cicd-catalog) | CI/CD | 2024-01-24 | @iganbaruch |
 | [Integrating security to the pipeline](https://gitlab.navattic.com/gitlab-scans) | DevSecOps | 2024-01-24 | @iganbaruch |
 | [Code Suggestions](https://gitlab.navattic.com/code-suggestions) | GitLab Duo | 2024-01-24 | @iganbaruch |
 

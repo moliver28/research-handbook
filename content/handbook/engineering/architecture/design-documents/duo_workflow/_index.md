@@ -633,17 +633,67 @@ updates stream in.
 Given that the user may be running the Duo Workflow Executor locally which may
 be seeing some of the state as it happens it might be reasonable to want to
 just live render the in-memory state of the running workflow process. We may
-choose this optional deliberately for latency reasons but we need to be careful
+choose this option deliberately for latency reasons, but we need to be careful
 to architect the frontend and Duo Workflow Executor as completely decoupled
 because they will not always be running together. For example users may trigger
 a workflow locally which runs in GitLab CI or they may be using the web UI to
 interact with and re-run a workflow that was initiated locally.
 
 As such we will generally prefer not to have direct interaction between the UI
-and Executor but instead all communication should be happening via GitLab. Any
-exceptions to this might be considered case by case but we'll need clear API
-boundaries which allow the functionality to easily be changed to consume from
+and Executor, but instead all communication should be happening via GitLab. Any
+exceptions to this might be considered case by case, but we'll need clear API
+boundaries to allow the functionality to easily be changed to consume from
 GitLab for the reasons described.
+
+### States
+
+UI states are going to be driven by the server to ensure consistency and no race condition between UI state changes and API responses. This will simplify keeping data and action in sync. All possible workflow states can be seen in the [WorflowStatusEnum](https://gitlab.com/gitlab-org/duo-workflow/duo-workflow-service/-/blob/main/duo_workflow_service/entities/state.py?ref_type=heads#L23). 
+
+#### New
+
+The first UI state is when the user needs to submit a goal. This is only a client-side concern and does not translate to any server-side state.
+
+#### Not started / created
+
+After starting a workflow with a user defined goal, a Workflow is created which translates to LangGraph creating an empty checkpoint. On the API side, the workflow will be created with the `NOT_STARTED` state, which means that a goal has been sent, but not plan has been returned from LangGraph yet. This is the point where the client needs to start subscribing to `DuoWorkflowEvent`.
+
+#### Planning
+
+Once in planning, we need to start streaming Workflow responses back to the client. We are getting the `checkpoint` field from the `DuoWorkflowEvent` subscrition which is a JsonString that represents LangGraph raw response. For the first iteration, the client will rely solely on this JSON string to get all new data and drive the UI, which mean that we needto parse the JSON and account for possible parsing errors. It also mean having a very tight coupling between the UI and LangGraph, so this parsing should be abstracted away in its own functionality so that it can be easily removed.
+
+**Important:** For the first iteration, there is no way to stop or pause a Workflow and this mean that once the goal has been submitted, we will not render any button or UI interactions. The UI will "move on its own" where for example, once the `PLANNING` phase is over, we will automatically open the `EXECUTING` panel and start rendering the right information. Users do not need to confirm or interact and the Workflow should reach its final state on its own.
+
+#### Executing
+
+What should drive the progress bar is the subscription to `workflowEventsUpdated` and getting checkpoints streamed back to the client so that we know what progress was made in the execution and what step is currently being executed. This is where the user watches steps and progress being made.
+
+#### Completed
+
+Once all of the events are done streaming, the API should return the `COMPLETED` state and we can show the finished screen.
+
+#### Future iterations
+
+As of writing this documentation, there are no `PENDING` state as this is currently not planned for the first version of the Workflow, but it's worth keeping in mind for future iterations. This mean that the user cannot pause execution and/or we cannot have users interact during execution. The Workflow will eventually be interactable and these interactions should be added to this documentation.
+
+### Checkpoints
+
+Checkpoints are built on the server-side and serve as a way to resume execution from certain points. There are some interactions between checkpoints and the UI that are foundational to the experience. Checkpoint should:
+
+- Be streamed to the client for real time update
+- Contain the current state
+- Contain the current step being executed
+
+#### Ability to load workflow from checkpoints
+
+If a Workflow cannot reach the `COMPLETED` state before it stops executing, then the user should have the ability to start again only from the latest checkpoint. From a UI perspective, this mean that we need to support multiple workflow because otherwise we cannot know which workflow currently exists. This should be doable by fetching `duoWorkflowWorkflows` and rendering all existing workflows. For the IDEs, this mean rendering existing workflows in the sidebar. 
+
+Then when selecting a workflow, fetch information about the current workflow with **how to fetch an existing workflow**. Here is what should happen based on states:
+
+- `NONE`: The user will not have any state preserved, meaning that any goal typed out, but not submitted will not be kept.
+- `NOT STARTED`: resends the initial request to generate a plan and shows the loading state
+- `PLANNING`: loading the workflow should show existing proposed plan.
+- `EXECUTING`: Resume from the right step. In future iterations. the Workflow should probably be "stopped/paused" and then the user could resume. For this added functionality, we need the `PENDING` state to exists.
+- `COMPLETED`: Show the result of the workflow after its completion.
 
 ## Duo Workflow Agent's tools
 

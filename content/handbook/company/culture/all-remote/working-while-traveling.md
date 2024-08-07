@@ -79,7 +79,7 @@ For those looking for a somewhat more stable version of the continual road trip,
 
 {{% cardpane %}}
 {{% card footer="Working at GitLab Commit London 2019" %}}
-![Working at GitLab Commit London 2019](/images/all-remote/gitlab-commit-london-coworking-2019.jpg){: .shadow.medium.center}
+![Working at GitLab Commit London 2019](/images/all-remote/gitlab-commit-london-coworking-2019.jpg)
 {{% /card %}}
 {{% /cardpane %}}
 

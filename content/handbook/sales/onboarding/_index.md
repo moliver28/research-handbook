@@ -79,23 +79,21 @@ GitLab's role-based learning journeys are based on milestones and enable us to d
 
 **Check out the links below to find the specific onboarding handbook page for your role. On these pages you can find additional role based onboarding and shadow program information including learning objectives, manager expectations & graduation requirements.**
 
-- Enterprise Account Executives - [Enterprise Sales Onboarding Handbook](/handbook/sales/shadow-program/)
-- Commercial Account Executives - [Commercial Sales - Onboarding Handbook](/handbook/sales/commercial/enablement/)
-- Renewals Managers: [Renewals Manager (RM) Onboarding Handbook](/handbook/customer-success/renewals-managers/rm-onboarding/)
+- Enterprise & Commercial Account Executives - [Sales Onboarding (Shadow Program) Handbook](/handbook/sales/shadow-program/)
+- Renewals Managers: [RM Onboarding Handbook](/handbook/customer-success/renewals-managers/rm-onboarding/)
 - Customer Success: [CSM Onboarding Handbook](/handbook/customer-success/csm/csm-onboarding/)
 - Customer Success: [CSE Onboarding Handbook](/handbook/customer-success/csm/segment/cse/cse-tm-onboarding/)
-- Sales and Business Development - [(SDR) (BDR) Onboarding Handbook](/handbook/marketing/sales-development/tanuki-tech/)
+- Solutions Architects: [SA Onboarding Handbook](/handbook/solutions-architects/sa-onboarding/)
+- Sales and Business Development - [SDR & BDR Onboarding (Tanuki Tech) Handbook](/handbook/marketing/sales-development/tanuki-tech/)
 
 **Click on a link below to begin your role based e-learning journey.**
 
-- Enterprise Strategic Account Executive - [Enterprise Sales Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/enterprise-sales-onboarding-journey)
-- Commercial Account Executive - [Commercial Sales - Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/commercial-sales-onboarding-journey)
+- Enterprise & Commercial Account Executives - [Sales (AE) Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/enterprise-sales-onboarding-journey)
 - Renewals Manager: [Renewals Manager (RM) Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/learning-path/renewals-manager-onboarding-journey)
 - Solutions Architect - [Solutions Architect (SA) Onboarding Journey](https://university.gitlab.com/learn/learning-path/solutions-architect-sa-onboarding-journey)
-- Customer Success Management: [CSM Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/technical-account-manager-tam-onboarding)
-- Customer Success Management: [CSE Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding)
+- Customer Success Management: [(CSM) Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/technical-account-manager-tam-onboarding)
+- Customer Success Management: [(CSE) Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding)
 - Sales Development - [Inbound (SDR)](https://university.gitlab.com/pages/sales-development?labels=%5B%22Sales%20Development%22%5D&values=%5B%22Inbound%20(SDR)%22%5D) or [Outbound (BDR)](https://university.gitlab.com/pages/sales-development?labels=%5B%22Sales%20Development%22%5D&values=%5B%22Outbound%20(BDR)%22%5D)
-- Channel - [Channel Sales Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/channel-sales-on-boarding)
 - All Other Roles - [Sales Quick Start](https://levelup.gitlab.com/learn/course/sales-quick-start)
 
 ### Role Based Journeys Coming Soon

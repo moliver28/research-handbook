@@ -164,7 +164,7 @@ The responsibilities of a technical advisor can be seen in more detail in [Techn
 ### Critical path tasks
 
 - Completing all the tasks assigned to the Release Post Manager in the Release Post MR template
-  - Reminder: If you cannot perform any of the Release Post Manager tasks between Thursday, 1 week before release, and the [release date](/handbook/engineering/releases/) of the month as defined in the [monthly MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md.erb), it is recommended you sign up for another release post. In the case that schedule/circumstances changes after you'd already signed up for the release post, please start a thread in #product in slack and tag `@justin` and `@[name of PLT member who is reviewing this month]`. The name of the PLT member who is reviewing this month can be found on the [release post scheduling page](/handbook/marketing/blog/release-posts/managers/)
+  - Reminder: If you cannot perform any of the Release Post Manager tasks between Thursday, 1 week before release, and the [release date](/handbook/engineering/releases/) of the month as defined in the [monthly MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md.erb), it is recommended you sign up for another release post. In the case that schedule/circumstances changes after you'd already signed up for the release post, please start a thread in #product in slack and tag `@[name of PLT member who is reviewing this month]`. The name of the PLT member who is reviewing this month can be found on the [release post scheduling page](/handbook/marketing/blog/release-posts/managers/)
 - Identify the top feature to highlight on the release post page and collecting feedback from the VP of Product
 - Creating the What's New MR and working with the VP of Product to identify what to include in [What's New](/handbook/product/gitlab-the-product/index.html#using-whats-new-to-communicate-updates-to-users)
 - Sending out reminders about upcoming due dates
@@ -465,7 +465,7 @@ As noted in the [Release Post Item template](https://gitlab.com/gitlab-com/www-g
 - Ensure that titles use sentence case with feature and product names in capital case.
 
 Write the description of every feature as you do to regular blog posts. Please write according to
-the [Markdown guide](/handbook/product/markdown-guide/).
+the [Markdown guide](https://about.gitlab.com/community/markdown-guide-middleman/).
 
 {{% alert title="⚠️ Important" color="info" %}}
 Make sure to merge `master` into the release post branch **before
@@ -1111,7 +1111,7 @@ Always wrap links in single quotes (`'https://example.com'`). Multiple links are
 
 - `description: |`: add the feature's description in this entry.
 Make sure your cursor is in the line below the pipeline symbol `|` intended once.
-All `description` fields fully support [Markdown](/handbook/product/markdown-guide/), the only thing you need to be worried about is respecting the indentation.
+All `description` fields fully support [Markdown](https://about.gitlab.com/community/markdown-guide-middleman/), the only thing you need to be worried about is respecting the indentation.
 
 ### Cover image license
 
@@ -1339,7 +1339,7 @@ Product Operations initiates breaking changes communications when they're assign
 
 ## Adding content
 
-For entries that support Markdown, use regular [Markdown Kramdown](/handbook/product/markdown-guide/), as we use for all blog posts and webpages on about.GitLab.com.
+For entries that support Markdown, use regular [Markdown Kramdown](https://about.gitlab.com/community/markdown-guide-middleman/), as we use for all blog posts and webpages on about.GitLab.com.
 
 ### Illustrations
 

@@ -543,8 +543,8 @@ Our innovation and impact will slow down if we need to maintain two separate pro
 The majority of work in any role applies to both ways of delivery GitLab, self-managed and .com.
 
 1. We have a functionally organized company, the functions need to as mutually exclusive as possible to be efficient, .com overlaps with a small part of many functions.
-1. Having .com specific people will increase the pressure to get to two codebases, that can be a big hindrance: "splitting development between two codebases and having one for cloud and one for on-prem is what doomed them", and "they split cloud and on-prem early on and it was a 10-year headache with the OP folks feeling left in line to jump in the pool but never could.  While cloud pushed daily/weekly with ease, OP was *easily* 6-mo behind leaving customers frustrated"
-1. The [reasons .com customers churned](https://drive.google.com/file/d/1QhGrofKbiUIJSv7ZI524FshoKnS-6y-P/edit) were all things that occur in both self-managed and .com
+1. Having .com specific people will increase the pressure to get to two codebases, that can be a big hindrance: "splitting development between two codebases and having one for cloud and one for on-prem is what doomed them", and "they split cloud and on-prem early on and it was a 10-year headache with the OP folks feeling left in line to jump in the pool but never could.  While cloud pushed daily/weekly with ease, OP was *easily* 6-mo behind leaving customers frustrated".
+1. The reasons .com customers churned were all things that occur in both self-managed and .com.
 1. Improvements we can make in user growth might be informed by .com specific data but can be implemented for both delivery mechanisms.
 
 #### Exception: Product Management Senior Leader

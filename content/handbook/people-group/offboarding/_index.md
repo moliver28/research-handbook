@@ -39,9 +39,15 @@ For any other offboarding questions from active team members please reach out to
 1. **Manager:** In the instance that the resignation details require revision, you may send it back to the team member by clicking `Send Back`.  If you are satisfied with the information, click `Approve`.
 1. **Manager:** Once the details about the team members departure have been finalized schedule time with the team member to plan the [departure announcement](#communicating-departures). Please reach out to your PBP if you need additional guidance.
 
-***Country Specific Requirements for Resignation***
+#### ***Country Specific Requirements for Resignation***
 
-- France: Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com
+##### France 
+
+Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com.
+
+##### Singapore
+
+Team Members located in Singapore who are resigning and are **not** Singapore citizens need to complete a Letter of Undertaking [document](https://docs.google.com/document/d/1l4Iq6atvXzq6Gt_DdiWfv3DwvshTOoEYZv8baMq_HKo/edit?usp=sharing) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) in order to process this with the local provider/partner. Please download or make a copy of the document in order to complete.
 
 ### Termination
 

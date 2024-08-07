@@ -13,13 +13,13 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Aug 1 | Duo Enterprise Revenue Play Enablement  | Marketing |
-| Aug 8  | New Forrester TEI Report | Marketing |
-| Aug 15  | Gong User Training | RSOE Team |
-| Aug 22  | Groove User Training  | RSOE Team |
+| Aug 1 | **No Session**  | N/A  |
+| Aug 8  | Duo Enterprise Launch Updates & Key Dates | Marketing |
+| Aug 15  | Duo Enterprise Revenue Play & Accreditation | Marketing |
+| Aug 22  | Gartner MQ Overview  | Marketing |
 | Aug 29  | Renewals Manager Overview  |  Renewals Team |
 | Sep 5  | Field Dashboards Overview  | RSOE Team |
-| Sep 12  |  TBD     |       |
+| Sep 12  |  GitLab Click-through Demos & Product Tours    |  SA Team     |
 | Sep 19  | FY25-Q3 - Professional Services Update | Professional Services Team |
 | Sep 26  | FY25-Q3 - Analyst Relations Update | Analyst Relations Team |
 | Oct 3  |  FY25-Q3 - Competitive Update | Marketing |

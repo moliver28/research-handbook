@@ -79,8 +79,6 @@ graph TB
 
 ### Who to meet  {#who-to-meet}
 
-{: .alert .alert-gitlab-orange}
-
 The persona interested in GitOps is in general different from your development or engineering organizations. They are most often from the operations, systems, infrastructure, platform and cloud side of the organization.
 
 | | Typical Roles | Typical Titles |
@@ -91,8 +89,6 @@ The persona interested in GitOps is in general different from your development o
 More details [here](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/#personas)
 
 ### Keywords to listen for  {#keywords}
-
-{: .alert .alert-gitlab-orange}
 
 | Infrastructure as code | GitOps | Infrastructure automation |
 | Configuration as code | Policy as code | Approvals for infrastructure changes |
@@ -116,8 +112,6 @@ Marketing is running a related demand gen campaign.
 - A series of virtual events are scheduled throughout FY22, targeting new and existing Inquiries. Schedule of upcoming Infrastructure Automation/GitOps GTM related virtual events can be found in the [FY22 All-Marketing Calendar SSoT](https://docs.google.com/spreadsheets/d/1c2V3Aj1l_UT5hEb54nczzinGUxtxswZBhZV8r9eErqM/edit#gid=571560493&fvid=1570851636)
 
 ### Value discovery {#value-discovery}
-
-{: .alert .alert-gitlab-orange}
 
 ### Common Pains  {#common-pains}
 
@@ -152,8 +146,6 @@ More questions [here](/handbook/marketing/brand-and-product-marketing/product-an
 | Rollback |  Lower mean time to repair - can roll back to working definition of infra before troubleshooting |
 
 ## Positioning value  {#positioning-value}
-
-{: .alert .alert-gitlab-orange}
 
 ### Elevator pitch
 
@@ -193,8 +185,6 @@ Typical questions:
 Detailed list of Q&A [here](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/#objection-handling)
 
 ## Sales Play Tactics {#sales-tactics}
-
-{: .alert .alert-gitlab-orange}
 
 ### SAEs and AEs  {#sals-aes}
 
@@ -291,8 +281,6 @@ How to identify if you need to have a GitOps conversation with a lead?
 ## Resources {#resources}
 
 ### Recommended Email templates {#email-templates}
-
-{: .alert .alert-gitlab-orange}
 
 Here are a few recommended email templates you can use based on the stage of the customers journey.
 

@@ -122,14 +122,6 @@ All material in the handbook is considered training and we build [handbook first
 
 {{< youtube "G57Wtt7M_no" >}}
 
-### Learning & Development Team Meetings
-
-| Meeting Type | Cadence/Time | Description |
-| ------ | ------ | ------ |
-| 1:1 | Weekly meeting/40-45 minutes | <br> - 1:1 meeting between direct report and manager of L&D team. <br> - Topics covered include: task management, career development, performance management, blockers, project updates, brainstorming, coaching, etc. <br> - During the meeting, if their is an item that requires broader team collaboration it will be added to the bi-weekly team meeting. |
-| L&D Team Meeting | Weekly meeting/25 minutes | <br> - Strategic items that have been brought up during 1:1 meetings that impact the team as a whole. <br> - The meetings will cover items that are strategic in nature that require discussion, brainstorming, collaboration, and synthesis with the team |
-| L&D Quarterly Strategic Meeting | Quarterly/90 minutes to 2 hours | <br> - Review what was acheived in the quarter, what wasn't, and lessons learned <br> - Team members will present plans on what they are focused on for the next quarter <br> - Review team morale, team dynamics, learner satisfaction, long term impact, and alignment with Peope Group goals. |
-
 ### L&D team sprints
 
 The L&D team uses GitLab issue boards to track priorities, organize collaboration, and set due dates based on three-week sprints.
@@ -178,6 +170,16 @@ The L&D team freqently uses the following tools for creating and communicating l
 
 ## Developing Learning Content
 
+### Learning Content Accessibility Guidelines
+
+In July 2024, GitLab published the first iteration of our [Learning Content Accessibility Guidelines](handbook/legal/ethics-compliance-program/learning-content-accessibility-guidelines/).
+
+We ask that team members who create both internal and external learning content:
+
+- Familiarize themselves with these guidelines
+- Apply these guidelines when creating learning content for internal and external use, when applicable
+- Revisit existing learning content you have created, to consider whether any updates are appropriate
+
 ### Top Five Training Content Development Principles
 
 1. **Know Your Audience** - Analyze and assess the course audience. Ensure that all audience needs are accounted for at every level in the organization you are delivering the training too.
@@ -212,12 +214,6 @@ Add learning objectives to the beginning of the content to state a clear trainin
 - By the end of the session, team members will be able to describe the steps taken to address underperformance
 - Team members will be able to apply the GROW coaching model framework to coaching sessions with members of their team
 - After learning about the high-performance team-building model, team members will be able to determine the steps needed to reach high performance.
-
-### Instructional Design 101
-
-The Learning & Development, [Field Enablement](/handbook/sales/field-operations/field-enablement/), and [Professional Services](/handbook/customer-success/professional-services-engineering/) teams hosted an Instructional Design 101 session on 2020-10-28 to better understand concepts of adult learning theory and instructional design. Check out the video to learn how to apply instructional design to learning content.
-
-{{< youtube "Be8oRHp0E84" >}}
 
 ### Learning Components - Definitions
 

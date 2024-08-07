@@ -52,6 +52,7 @@ Please see [our guide on giving career development](/handbook/people-group/guida
         - `REVIEW` - there is a Merge Request (MR) or document that can be approved, the MR should not be a Work In Progress (WIP)
         - `HELP` - if you need help with anything.
         - `THINK` - if the person who did not put it on the agenda wants time to think about it and discuss it next meeting.
+        - `SING` - if added, the person who added it leads a singalong with all willing participants in the meeting.
     1. Ready to remove
         - `FYI` - informational, can be removed outside of the meeting by the person who did not put it on the agenda (the audience for the FYI).
         - `DONE` - to be removed by the person who put it on the agenda, only set after any related MR has been merged

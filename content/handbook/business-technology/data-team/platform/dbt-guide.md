@@ -117,9 +117,7 @@ use a larger warehouse. You want to retry the build, but this time you want dbt 
 `dbt run --models @{model_name} --target dev_l`, which tells dbt to use the warehouse you specified in the `dev_l` target in your `profiles.yml` file. After a few minutes, the build
 completes and you start checking your work.
 
-#### Venv Workflow
-
-{: #Venv-workflow}
+#### Venv Workflow {#Venv-workflow}
 
 Recommended workflow for anyone running a Mac system.
 
@@ -216,9 +214,7 @@ We are actively transitioning to the new `clone-dbt-select-local-user-noscript` 
   - `make DBT_MODELS="<dbt_selector>" clone-dbt-select-local-branch`
   - eg. `make DBT_MODELS="+dim_subscription" clone-dbt-select-local-branch`
 
-### Docker Workflow
-
-{: #docker-workflow}
+### Docker Workflow {#docker-workflow}
 
 The below is the recommended workflow primarily for users running Linux as the venv workflow has fewer prerequisites and is considerably faster.
 
@@ -321,9 +317,7 @@ Before we start, there are some settings to adjust in your VScode:
   }
   ```
 
-  {{% panel header="**Note**" header-bg="warning" %}}
-  If the code base is updated with new values for these environment variables, you will have to update them in your `settings.json` according to the values of variables located in the `Makefile` at the root of the analytics repository.
-  {{% /panel %}}
+  Note: If the code base is updated with new values for these environment variables, you will have to update them in your `settings.json` according to the values of variables located in the `Makefile` at the root of the analytics repository.
 
 - Edit `DBT_PROFILES_DIR` so that it points to your `~/.dbt/` folder (it seems that path must be relative and pointing to your `~/.dbt` folder, from the `/analytics` folder)
 - Restart VScode and re-open the analytics workspace
@@ -759,9 +753,7 @@ In our dbt project we make use of the [dbt-utils package](https://github.com/dbt
 - [star](https://github.com/dbt-labs/dbt-utils?tab=readme-ov-file#star-source) - This macro pulls all the columns from a table excluding the columns listed in the except argument
 - [surrogate_key](https://github.com/dbt-labs/dbt-utils?tab=readme-ov-file#generate_surrogate_key-source) - This macro takes a list of field names and returns a hash of the values to generate a unique key
 
-### Seeds
-
-{: #seeds}
+### Seeds {#seeds}
 
 Seeds are a way to load data from csv files into our data warehouse ([dbt documentation](https://docs.getdbt.com/docs/building-a-dbt-project/seeds/)).
 Because these csv files are located in our dbt repository, they are version controlled and code reviewable.
@@ -1239,9 +1231,7 @@ Data extraction is loading data from the source system to Snowflake data warehou
 
 Data transformation is downstream transformation via dbt for Dimensions, Facts, Marts and reports models.
 
-### Snapshots
-
-{: #snapshots}
+### Snapshots {#snapshots}
 
 dbt snapshots are
 

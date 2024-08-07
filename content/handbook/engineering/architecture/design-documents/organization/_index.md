@@ -37,6 +37,12 @@ Organizations solve the following problems:
 1. Enables centralized control of user profiles. With an Organization-specific user profile, administrators can control the user's role in a company, enforce user emails, or show a graphical indicator that a user is part of the Organization. An example could be adding a "GitLab employee" stamp on comments.
 1. Organizations allows us to better unify the experience on SaaS and self-managed deployments. The Organization admin will have access to instance-equivalent Admin Area settings with most of the configuration controlled at the Organization level. Instance-level workflows like Dashboards can also be shifted to the Organization.
 
+## Decision Log
+
+- 2024-07-21: [Self-managed instances will initially be restricted to one Organization](https://gitlab.com/gitlab-org/gitlab/-/issues/419543#note_2013887114)
+- 2023-05-10: [Billing is not part of the Organization MVC](https://gitlab.com/gitlab-org/gitlab/-/issues/406614#note_1384055365)
+- 2023-05-15: [Organization route setup](https://gitlab.com/gitlab-org/gitlab/-/issues/409913#note_1388679761)
+
 ## Motivation
 
 ### Goals
@@ -149,7 +155,7 @@ The Organization MVC for Cells 1.0 will contain the following functionality:
 - Enterprise Users or verified domains are not required to be used with Organizations.
 - Public visibility of Groups and Projects, or unauthenticated requests are not allowed apart from Cell #1.
 
-##### Open questions
+##### Open Questions
 
 - To minimize the number of cluster-wide resources, consider refactoring [Standalone resources](https://docs.gitlab.com/ee/api/api_resources.html#standalone-resources) to scope them to an Organization, Group, or Project.
 - Consider refactoring global endpoints (e.g. `/jwt/auth`) to be scoped to an Organization, Group, or Project, unless they are supporting cluster-wide resources.
@@ -160,13 +166,13 @@ Organizations in the context of Cells 1.5 will contain the following functionali
 
 - Organization Users can be part of multiple Organizations using one account. Users are able to navigate between their Organizations using an Organization switcher. Non-Enterprise Users can be removed from or leave an Organization.
 - Organizations are fully isolated. We aim to complete [phase 2 of Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11838), with the goal to implement isolation constraints.
+- Users can transfer existing top-level Groups into Organizations.
 
 #### Organizations on Cells 2.0 (FY26Q3-FY26Q4)
 
 Organizations in the context of Cells 2.0 will contain the following functionality:
 
 - Public visibility. Organizations can now also be `public`, containing both private and public Groups and Projects.
-- [Users can transfer existing top-level Groups between Organizations](https://gitlab.com/groups/gitlab-org/-/epics/11711).
 
 ### Organization Access
 
@@ -254,37 +260,111 @@ After the initial rollout of Organizations, the following functionality will be 
 1. Compliance frameworks.
 1. [Support the agent for Kubernetes sharing at the Organization level](https://gitlab.com/gitlab-org/gitlab/-/issues/382731).
 
+## Organization Development
+
+Below is a high level development roadmap for Organizations.
+The project is complicated and requires coordination across many engineering teams.
+In response to this, the roadmap has been broken into the following broad phases.
+Phases after the backend essentials phase can overlap depending on capacity and release dependencies.
+
+```mermaid
+gantt
+    dateFormat  YYYY-MM-DD
+    axisFormat  X
+    todayMarker off
+
+    %% Dates are for illustration purposes only.
+    Default Organization : done, do1, 2024-07-01, 5d
+    Organization Backend Essentials : active, be, after do1, 5d
+    Cells 1.0 : milestone, 2024-07-11,
+    Organization Product Feature : pf, after be, 30d
+    Addressing Tech Debt : td, 2024-07-14, 27d
+    Extend Product Features : 2024-07-18, 23d
+    Cells 1.5 : milestone, 2024-07-21,
+    Cells 2.0 : milestone, 2024-07-31,
+```
+
+### Default Organization
+
+We have seeded the database with a "default organization" that has an `ID` of `1`.
+This is a catch all Organization that contains all existing entities.
+[Work is in progress](https://gitlab.com/groups/gitlab-org/-/epics/13678) to link as many tables as possible directly or indirectly to an Organization.
+These associations will group all entities underneath an Organization, which is a pre-requisite to scaling Organizations across Cells.
+Note that not all tables fit within an Organization.
+
+### [Organization backend essentials](https://gitlab.com/groups/gitlab-org/-/epics/14111)
+
+This is foundational work to integrate the Organization at low levels of the code base.
+
+- All tables with an `organization_id` foreign key are defined with not null foreign key constraints.
+- All code paths are writing the correct `organization_id` value and are not relying on a default value.
+
+This stage will be completed by Cells 1.0 and must be completed before the next phases listed below.
+
+### Organization Product Feature
+
+This phase formally introduces the Organization UI so that basic Organization features are available:
+
+- Organization [front page](https://gitlab.com/groups/gitlab-org/-/epics/11187)
+- Organization user overview
+- Organization [group](https://gitlab.com/groups/gitlab-org/-/epics/11188) and [project](https://gitlab.com/groups/gitlab-org/-/epics/11189) overview
+- [Display of the current organization](https://gitlab.com/groups/gitlab-org/-/epics/11190).
+
+This work will be required by Cells 1.5.
+We expect that these pages will allow other teams to add features more easily to Organizations.
+After this stage, there will be additional enhancements to the Organization UI.
+
+### Addressing Tech Debt
+
+This phase will complete the migration of critical product features to the Organization level.
+
+In order to release Cells 1.0, some product features will exist in a transient "workaround" state.
+For example, some tables (such as application settings) may simply be "mirrored" to release Cells 1.0.
+This stage will address the development of workarounds to permanent solutions.
+
+### Extend Product Features
+
+Product teams that were not already asked to move their features in a previous phase can begin to add functionality to Organizations.
+
+Some Organization level requests we are aware of are listed in #post-mvc-iterations.
+
 ## Organization Rollout
 
 We propose the following steps to successfully roll out Organizations:
 
-- Phase 1: Rollout
-  - Organizations will be rolled out using the concept of a `default Organization`. All existing top-level groups on GitLab.com are already part of this `default Organization`. The Organization UI is feature flagged and can be enabled for a specific set of users initially, and the global user pool at the end of this phase. This way, users will already become familiar with the concept of an Organization and the Organization UI. No features would be impacted by enabling the `default Organization`. See issue [#418225](https://gitlab.com/gitlab-org/gitlab/-/issues/418225) for more details.
-- Phase 2: Temporary onboarding changes
-  - New customers can create new Organizations from scratch. Top-level Groups cannot be migrated yet into a new Organization, so all content must be newly created in an Organization.
-- Phase 3: Migration of existing customers
-  - GitLab, the organization, will be one of the first entities to migrate into a separate Organization. We move all top-level Groups that belong to GitLab into the new GitLab Organization, including the `gitLab-org` and `gitLab-com` top-level Groups. See issue [#418228](https://gitlab.com/gitlab-org/gitlab/-/issues/418228) for more details.
-  - Once top-level Group transfer from the default Organization to another Organization becomes available, existing customers can create their own Organization and migrate their top-level Groups into it. Creation of an Organization remains optional.
-- Phase 4: Permanent onboarding changes
-  - All new customers will only have the option to start their journey by creating a new Organization.
-- Phase 5: Targeted efforts
-  - Organizations are promoted, e.g. via a banner message, targeted conversations with large customers via the CSMs. Creating a separate Organization will remain a voluntary action.
-  - We increase the value proposition of the Organization, for instance by moving billing to the Organization level to provide incentives for more customers to move to a separate Organization. Adoption will be monitored.
+### Cells 1.0
 
-A force-option will only be considered if the we do not achieve the load distribution we are aiming for with Cells.
+- User is confined to one Organization within one Cell.
+- Gitlab.com will have two Cells.
+  - One with the default Organization (public) that holds every existing top-level group except for the internal customer group.
+  - Another with an internal customer Organization (private) holding the internal customer group.
+- Self managed will have one hidden `default Organization`.
+- An Organization UI will not be visible to external users, except by enabling a set of feature flags. The internal customer group will have the feature flag enabled and use the Organization UI.
+
+### Cells 1.5
+
+- New private Organizations can be created on GitLab.com
+- Users can switch between Organizations.
+- Gitlab.com users can migrate top-level groups to a new Organization.
+- An Organization UI will be visible, including:
+  - Drop down Organization switcher.
+  - Organization management pages.
+  - Some Organization level features.
+- Organizations are promoted, e.g. via a banner message, targeted conversations with large customers via the CSMs.
+
+### Cells 2.0
+
+- Organizations can be public on GitLab.com
+- Organizations can move between Cells.
+- Gitlab entities have migrated off the primary Cell and onto the secondary Cell.
+
+### Post Cells 2.0
+
+A force-option to move top-level groups into Organizations may be considered if we do not achieve the load distribution we are aiming for with Cells.
 
 ## Alternative Solutions
 
 An alternative approach to building Organizations is to convert top-level Groups into Organizations. The main advantage of this approach is that features could be built on top of the Namespace framework and therewith leverage functionality that is already available at the Group level. We would avoid building the same feature multiple times. However, Organizations have been identified as a critical driver of Cells. Due to the urgency of delivering Cells, we decided to opt for the quickest and most straightforward solution to deliver an Organization, which is the lightweight design described above. More details on comparing the two Organization proposals can be found [here](https://gitlab.com/gitlab-org/tenant-scale-group/group-tasks/-/issues/56).
-
-## Frequently Asked Questions
-
-See [Organization: Frequently Asked Questions](organization-faq.md).
-
-## Decision Log
-
-- 2023-05-10: [Billing is not part of the Organization MVC](https://gitlab.com/gitlab-org/gitlab/-/issues/406614#note_1384055365)
-- 2023-05-15: [Organization route setup](https://gitlab.com/gitlab-org/gitlab/-/issues/409913#note_1388679761)
 
 ## Links
 
@@ -295,3 +375,4 @@ See [Organization: Frequently Asked Questions](organization-faq.md).
 - [Cells epic](https://gitlab.com/groups/gitlab-org/-/epics/7582)
 - [Namespaces](https://docs.gitlab.com/ee/user/namespace/index.html)
 - [Organization Isolation](isolation.md)
+- [Organization: Frequently Asked Questions](organization-faq.md)

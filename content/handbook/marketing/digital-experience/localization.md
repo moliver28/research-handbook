@@ -79,6 +79,8 @@ Right now, each Marketo form ID is unique per every locale. We are looking into 
 
 The global gateway is crucial for creating a positive first impression by presenting content in users' native languages, fostering trust and ensuring seamless navigation. It enhances user experience by directing them to localized marketing sites and correctly localized product sign-up paths. 
 
+Our FY25 goal for the marketing site Global Gateway is to create a more personalized and effective marketing experience for users worldwide, ultimately driving better engagement and business outcomes. We will measure engagement and business outcomes with Google Analytics and Tableau. 
+
 #### Language Selector
 
 The language selector is a feature implemented in the Navigation repository that allows users to choose their preferred language for viewing GitLab. Here' is the [language.service.ts](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation/-/blob/main/src/services/language.service.ts?ref_type=heads)
@@ -91,7 +93,7 @@ The language selector is the only place that can update the saved language in th
 
 #### Links Localization
 
-Our application includes a [Vue Mixin](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/mixins/live-preview.mixin.ts?ref_type=heads) used across all pages. This Mixin scans each page for links that might be localized.
+Our application includes a [Vue Mixin](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/mixins/localized-href.mixin.ts?ref_type=headss) used across all pages. This Mixin scans each page for links that might be localized.
 
 The Mixin checks the user's browser for their preferred language. If it finds a localized version of a link that exists, the localized version of the preferred language link will be statically generated.
 

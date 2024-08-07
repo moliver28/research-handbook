@@ -89,7 +89,6 @@ See the [Pajamas maintainer ratio dashboard (internal)](https://10az.online.tabl
 
 | Project                                | Trainee                                       | Support Maintainer                                 |
 | -------------------------------------- | --------------------------------------------- | -------------------------------------------------- |
-| Pajamas Design System (Figma)          | [Katie Macoy](https://gitlab.com/katiemacoy)  | [Dan Mizzi-Harris](https://gitlab.com/danmh)       |
-| Pajamas Design System (Figma) - PAUSED | [Michael Le](https://gitlab.com/mle)          | [Jeremy Elder](https://gitlab.com/jeldergl)       |
+| Pajamas Design System (Figma) - PAUSED | [Michael Le](https://gitlab.com/mle)          | [Jeremy Elder](https://gitlab.com/jeldergl)        |
 | Pajamas Design System (UX)             | [Dan Mizzi-Harris](https://gitlab.com/danmh)  | [Amelia Bauerly](https://gitlab.com/ameliabauerly) |
-| Pajamas Design System (UX) - PAUSED    | [Austin Regnery](https://gitlab.com/aregnery) | [Amelia Bauerly](https://gitlab.com/ameliabauerly) |
+| Pajamas Design System (UX)    | [Austin Regnery](https://gitlab.com/aregnery) | [Amelia Bauerly](https://gitlab.com/ameliabauerly) |

@@ -364,7 +364,7 @@ Instead, we should take the following steps:
 1. Build a second email and create a description of what was changed in the name i.e "Subject line test version" (or even saying the test)
 2. Add it as a random sample in the send controller as shown in the flow below (use 50% for 2 versions, or split between 100% for more versions):
 
-    ![email-ab-test](/handbook/marketing/lifecycle-marketing/emails-nurture/image-4.png){: .medium.center}
+    ![email-ab-test](/handbook/marketing/lifecycle-marketing/emails-nurture/image-4.png)
 
 3. Monitor results on an email report
 4. Document results on [A/B testing tracker](https://docs.google.com/spreadsheets/d/1BaGJbiYIG8187nnXXy2tvNtJyKXLV4CenCAZMYJbmeI/edit#gid=2079991889)

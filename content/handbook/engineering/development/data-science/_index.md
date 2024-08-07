@@ -22,10 +22,6 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 
 {{% include "includes/engineering/manage-data-science-shared/career-development.md" %}}
 
-## Holiday Gift Exchange (2023)
-
-{{% include "includes/engineering/manage-data-science-shared/holiday-exchange.md" %}}
-
 ## Team Days
 
 {{% include "includes/engineering/manage-data-science-shared/team-day.md" %}}

@@ -68,7 +68,7 @@ Creating a nice look when recording with a green screen requires soft, even ligh
           - It is highly recommended to use diffusion sheets with pins as an excellent way to soften the light and create a more even look. You can use the pins to clip the diffusion sheet to the doors of the panel light.
       - To light your subject, place the final panel light behind your camera, raised nearly to the ceiling. It can be directed at your subject (using diffusion) or, in some cases, simply faced towards the ceiling and turned to full intensity.
 
-![Green Screen set up diagram](/images/digital-production/green-screen-setup_mvc1.png){: .shadow.medium.center}
+![Green Screen set up diagram](/images/digital-production/green-screen-setup_mvc1.png)
 
 <sub>
 1. Subject

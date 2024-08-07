@@ -1,3 +1,4 @@
+<!-- vale off -->
 <!-- Before proceeding, please check if you need to apply a specific MR description template from the dropdown menu above next to `Description` (e.g. blog post, website bug report). -->
 
 ## Why is this change being made?
@@ -8,7 +9,7 @@
 
 **Please verify the check list and ensure to tick them off before the MR is merged.**
 
-- [ ] Confirmed that this update should be in the internal handbook rather than public handbook, per the [SAFE framework](safe-framework)
+- [ ] Confirmed whether this update should be in the internal handbook rather than this public handbook, per the [SAFE framework](safe-framework)
 - [ ] Provided a concise title for this [Merge Request (MR)][mr]
 - [ ] Added a description to this MR explaining the reasons for the proposed change, per [**say why, not just what**][say-why-not-just-what]
   - Copy/paste the Slack conversation to document it for later, or upload screenshots. Verify that no confidential data is added, and the content is [SAFE][SAFE]

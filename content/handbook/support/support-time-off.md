@@ -40,8 +40,6 @@ team calendar.
    1. After your personal calendar is linked, click 'Add calendar' under
    'Additional calendars to include?'. The 'Support - Time Off' calendar ID is
    `gitlab.com_as6a088eo3mrvbo57n5kddmgdg@group.calendar.google.com`
-   1. Continue to link the calendars for your SGG and your SGG region, under 'Additional calendars to include?'. The calendar links are in the list below. The ID is the string following `https://calendar.google.com/calendar/u/0/embed?src=`.
-
 1. Verify the following calendars are shared with you. These are shared with the Support Team Google Group:
    1. [Support OOO - AMER](https://calendar.google.com/calendar/u/0/embed?src=c_rt0g4ptj1nut4045lcgsm21chg@group.calendar.google.com)
    1. [Support OOO - APAC](https://calendar.google.com/calendar/embed?src=c_408bhp8a8j579lqr99j552u21s%40group.calendar.google.com)
@@ -49,21 +47,11 @@ team calendar.
 
 1. If you regularly handle L&R tickets, please subscribe to the global L&R calendar and relevant L&R regional calendar.
 
-1. Add the calendars for your SGG and your SGG region, to your own calendar.
-   1. Click on the Calendar URL link (below) for your SGG calendar. This will open the calendar.
-   1. On the bottom right hand corner of your screen, click on the `Add to Calendar` button
-   1. Repeat for your SGG region calendar
-
-##### SGG / L&R Calendar links
+##### L&R and USGov Calendar links
 
 | Group |        |        |        |
 | ----- | ------ | ------ | ------ |
 | [L&R](https://calendar.google.com/calendar/u/0/embed?src=c_200f3afcbd9d0e18cbd80f00163ea7ca84e08bf857bdafc2bcad4202fed64f3e@group.calendar.google.com) | [APAC](https://calendar.google.com/calendar/u/0/embed?src=c_6d683f9a00d982d28055c0ef986561adc1aacf57570b7285a14ec79c31fd5f89@group.calendar.google.com) | [EMEA](https://calendar.google.com/calendar/u/0/embed?src=c_a849778a4950b23ce10953fa4f98d49e3abdc0aa57e88d448a27d87c6286ad0d@group.calendar.google.com) | [AMER](https://calendar.google.com/calendar/u/0/embed?src=c_55ea946dce89e101efa9d377ae355a201cc96b8d91079ada092cd2d9d821d602@group.calendar.google.com) |
-| [Baobab](https://calendar.google.com/calendar/u/0/embed?src=c_cd8ab158f223036b3fb2664d4d50909e8b7eb17e1d58005c7df78c91c4b1a66d@group.calendar.google.com) | [APAC](https://calendar.google.com/calendar/u/0/embed?src=c_28d2e03fbb15ec559fbcb72ed6a209cd6f24105d5f1323c24349d4105858c9eb@group.calendar.google.com) | [EMEA](https://calendar.google.com/calendar/u/0/embed?src=c_41a30ad6e82030ce88642d27f3eb8aa05ed097d9d5d48fc05ab1f5b045b0ff4a@group.calendar.google.com) | [AMER](https://calendar.google.com/calendar/u/0/embed?src=c_c1cc09c0a895122bf20f3880d69e85ae593c62dbbc1f386f6441272dc98036f4@group.calendar.google.com) |
-| [Ginkgo](https://calendar.google.com/calendar/u/0/embed?src=c_df36f948d613f53bc54e808b8325cc7f390906d7dd83981f7c6720b5e1f74ee5@group.calendar.google.com) | [APAC](https://calendar.google.com/calendar/u/0/embed?src=c_5aee30435e223ee08ca3ac1b9716813b9573ed0658fcf75c50f2ec493643af96@group.calendar.google.com) | [EMEA](https://calendar.google.com/calendar/u/0/embed?src=c_a545646a434f60a94f4d2084f5f0ea941fa54dce736e0909554573aa6896179f@group.calendar.google.com) | [AMER](https://calendar.google.com/calendar/u/0/embed?src=c_1b3eeb218f3cfb9cbaff23050cb1c6bae87d786224850b01a4fd6af65014146d@group.calendar.google.com) |
-| [Kapok](https://calendar.google.com/calendar/u/0/embed?src=c_f5ba7f8e8d044db55024a76dac7dc2382ae4ae344245f709af4e39263abdfa69@group.calendar.google.com) | [APAC](https://calendar.google.com/calendar/u/0/embed?src=c_376d033527fa45e61a727e1bad77e6116c54789394b7d0e894e26145349bd5ad@group.calendar.google.com) | [EMEA](https://calendar.google.com/calendar/u/0/embed?src=c_bcb16ffff54860eed1c5e2f0c7b73bb5d8f2ef919e54959baf5f43526ddb8cef@group.calendar.google.com) | [AMER](https://calendar.google.com/calendar/u/0/embed?src=c_af21a0d750da1cfbec05f4c23a7b1aedb729174310d3b1678af467202c8adab8@group.calendar.google.com) |
-| [Maple](https://calendar.google.com/calendar/u/0/embed?src=c_9267f798a9ed00f9341979d21fe5a765ba474727bd1734e5e21a341880ab8cef@group.calendar.google.com) | [APAC](https://calendar.google.com/calendar/u/0/embed?src=c_166c8a69af9b7cc7f50d17d27c953f00675beb597f46e1317f5dbb863d85e0ba@group.calendar.google.com) | [EMEA](https://calendar.google.com/calendar/u/0/embed?src=c_c86311c4b592a35fe5f598fdab42facd800c646d4615e7c6af6b230e230f3469@group.calendar.google.com) | [AMER](https://calendar.google.com/calendar/u/0/embed?src=c_dafae2e5f43c29027e2f1192fcc4c6c4f653f0c3670f016ab4275c903bf2ac4e@group.calendar.google.com) |
-| [Pine](https://calendar.google.com/calendar/u/0/embed?src=c_cef7cdb1565aed8160b68d5fb227a0d8458c114254bc0cf6341477ff376069f1@group.calendar.google.com) | [APAC](https://calendar.google.com/calendar/u/0/embed?src=c_7e8a93a17189fc9b38bf5e3a3cc172a6dbe1df0b353f76a3ba94d7c01e436b99@group.calendar.google.com) | [EMEA](https://calendar.google.com/calendar/u/0/embed?src=c_6e35e330542a169789e51bf78fd181794124a2779b8c5ea31000802bf44de431@group.calendar.google.com) | [AMER](https://calendar.google.com/calendar/u/0/embed?src=c_5fccfa58dd768e2e6bb3159596b503cab508cab65907721c9c786b1ea50622d7@group.calendar.google.com) |
 | US Gov | [Daytime](https://calendar.google.com/calendar/u/0?cid=Y182Y2JlZTA4ZmFiOWFjYTI2NzE4YjQ5ODFmOWI5YTk0MDNlNzEyNTRjZmYyZTE5NTc0MjBjN2RhODgwYzg2M2IzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) | [Evenings](https://calendar.google.com/calendar/u/0?cid=Y182MzFiMDNkNGRhYmI3NWZmNjczMDNmMTUwNjZmNTRlYzhhMTE2ZWYzNGE5ZDA4Zjg5YTE1NDJlYzA5YTM5ZjgyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) | [Overnight](https://calendar.google.com/calendar/u/0?cid=Y19hYjlhNzM0ODJmNGM3MDE1NzI0N2EzNTEwYmQxMjdiZWE3ZTExYmUzZWQzN2IzN2FlNThiMjNhOTNhOWI3MjQ3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) |
 
 ##### Manager Calendar Links
@@ -80,8 +68,7 @@ time off, please:
 
 - ensure you know the [company wide paid time off guidelines](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
 - consider a different time off schedule if your [regional capacity calendar](https://gitlab.com/gitlab-com/support/toolbox/support-calendar) shows that on any of the days you would be absent, the regional team would be short by 20% or more of its people
-- check the regional and global calendars for the groups you are part of (SGG/L&R/etc.) and coordinate with your group to ensure we have sufficient cover for days with low availability.\
-(In EMEA, the aim is to have at least 4 engineers (non L&R) per SGG and 3 engineers from L&R working on each normal business day)
+- check the regional calendar and coordinate with your manager to ensure we have sufficient cover for days with low availability.
 - schedule your time off as far in advance as you can, especially for days that
   may be popular, are [holidays](#how-support-handles-holidays), or that are particularly important to you
 - don't lock yourself into nonrefundable travel itineraries before you've taken
@@ -118,11 +105,6 @@ this section is meant to provide guidance for you to think critically about
 what is required to ensure continued excellent support for each customer with
 whom you're working on a ticket.
 
-Regardless of the length of your planned absence, notify your group of the
-upcoming absence by posting a message in your group's
-[Slack channel](/handbook/support/support-global-groups/#slack) a week in
-advance, if possible.
-
 #### If your absence will be less than three business days
 
 If your PTO will prevent a timely update, ask the customer whether
@@ -134,8 +116,6 @@ For high priority tickets, tend towards a handing over to someone else:
    macro, providing the same information as described in the
    [Workflow](/handbook/support/workflows/ooo-ticket-management#workflow)
    topic of the `OOO Ticket Management` page.
-1. Notify your group of the list of tickets that need responses during your
-   absence and ask for volunteers to take responsibility for those.
 
 #### If your absence is three or more business days
 
@@ -148,11 +128,11 @@ For high priority tickets, tend towards a handing over to someone else:
 1. Follow the [OOO Ticket Management](/handbook/support/workflows/ooo-ticket-management)
    process to arrange for others to take care of your tickets in your absence.
 1. To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):
-
    - Update the corresponding `yaml` file for yourself in the [Support Team project](https://gitlab.com/gitlab-com/support/team/-/tree/master/data/agents?ref_type=heads).
    - Change `works_account_deletion: true` to `works_account_deletion: false`
    - Assign the MR to your manager.
    - Make sure to undo this change when you return from OOO.
+1. After coming back, make sure to follow the guidelines for [catching up after a scheduled time off](#catching-up-after-a-scheduled-time-off).
 
 ## How Support Handles Family and Friends Days
 
@@ -239,7 +219,6 @@ that happened while you were away:
 - [Support Week in Review (SWIR)](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/-/issues/?sort=created_date&state=closed&label_name%5B%5D=SWIR%3A%3ADigest&first_page_size=20)
 
 - Slack channels:
-  - Your [group's channel](/handbook/support/support-global-groups/#slack)
   - [#company-fyi](https://gitlab.slack.com/archives/C010XFJFTHN)
   - [#company-fyi-private](https://gitlab.slack.com/archives/C02E7JGBU4E)
   - [#whats-happening-at-gitlab](https://gitlab.slack.com/archives/C0259241C)
@@ -248,4 +227,6 @@ Consider setting up a few coffee chats with teammates to simply reconnect with t
 
 Once you have taken the time to catch-up, update your availability using the [Out of Office](/handbook/support/readiness/operations/docs/zendesk/apps/#out-of-office) app in Zendesk showing you are no longer OOO. This is done by navigating to the [app in Zendesk](https://gitlab.zendesk.com/agent/apps/out-of-office) and clicking the `Make available` button on the row with your user information in it.
 
-For more tips, check [returning from pto](/handbook/people-group/paid-time-off/#returning-from-pto).
+If you unassigned some of your tickets before going on PTO, take the time to go through them and check their status. It's good practice to reassign them to yourself if these are either still missing a DRI, or if it appears that you're still the best equipped person to drive it to a solution.
+
+For more tips, check [returning from pto](/handbook/paid-time-off/#returning-from-pto).

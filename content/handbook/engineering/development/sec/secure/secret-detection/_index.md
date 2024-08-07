@@ -146,6 +146,11 @@ If you have any questions, don't hesitate to ask in `#g_secure_secret-detection`
 
 ### Observability
 
+#### Metrics
+
+The process to add metrics to our projects is documented in our
+[Metrics](metrics/) page.
+
 #### Runbooks
 
 The process for monitoring, responding to, and mitigating incidents is documented within our [Secret Detection Runbooks](runbooks/) page.

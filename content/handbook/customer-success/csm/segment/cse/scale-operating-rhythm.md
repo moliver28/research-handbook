@@ -25,7 +25,7 @@ Customer Success Operations and CS leaders determine, based on various GitLab he
 - 90 day low license utilization
 - CI product coach
 
-  Existing campaign email drafts can be found in the [Automated CSE Campaigns Content google doc](https://docs.google.com/document/d/1Db6y_i2gPQrPnJkJpAAbfFKQtw4c5VgSFJcHKDG-4hk/edit?usp=sharing).  The email campaigns get sent to a target group based on geo and ARR and typically contain the calendly link for the specific CSE working with that segment.
+  Existing campaign email drafts can be found in the [Automated CSE Campaigns Content google doc](https://docs.google.com/document/d/1Db6y_i2gPQrPnJkJpAAbfFKQtw4c5VgSFJcHKDG-4hk/edit?usp=sharing).  The email campaigns get sent to a target group based on geo and ARR and typically contain the Calendly link for the specific CSE working with that segment.
 
 ### Monthly Webinars and Hands On Labs
 
@@ -63,7 +63,7 @@ Here is a quick video guide on how to host the webinar, including steps for shar
 
 The upcoming month's hands-on labs are added to an issue in the [Customer Success Operations Project](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/?label_name%5B%5D=CSOps%20-%20Scale) (separate from the webinar schedule) and the CSE team is asked to sign up as Presenter or Q&A support.
 
-The presenter for a lab needs to register the hands-on lab at least one week before the lab date.  Instructions for how to register the lab can be found in [How to Register Hands-on Labs](https://docs.google.com/document/d/1GEmAXlOqxOzHHpFZRbLWIJoX92v-peXQl5bd4daVekQ/edit?usp=sharing).  A registration code will then be created for the lab manually by the Demo Architect Partner assigned to the CSE team on the Admin section of gitlabdemo.com.  Lab attendees will use the registration code at the beginning of the lab to have lab credentials and a subgroup created to use for the hands-on exercises, [provisioned via gitlabdemo.com](https://gitlabdemo.com/login).  Each slide deck has detailed instructions for the attendees that the host will guide them through to create the subgroup and access it.
+The presenter for a lab needs to register the hands-on lab at least one week before the lab date.  Instructions for how to register the lab can be found in [How to Register Hands-on Labs](https://docs.google.com/document/d/1GEmAXlOqxOzHHpFZRbLWIJoX92v-peXQl5bd4daVekQ/edit?usp=sharing).  A registration code will then be created for the lab manually by the Demo Architect Partner assigned to the CSE team on the Admin section of gitlabdemo.com.  Lab attendees will use the registration code at the beginning of the lab to have lab credentials and a subgroup created to use for the hands-on exercises, [provisioned through gitlabdemo.com](https://gitlabdemo.com/login).  Each slide deck has detailed instructions for the attendees that the host will guide them through to create the subgroup and access it.
 
 Before the event, the host should make a copy of the appropriate [master slide deck](https://drive.google.com/drive/folders/1h-I2J_J4MlgBmjfwxpdGiyVM0vIVW9vY?usp=drive_link) and store it in the [2. Global Onboarding Labs -> Decks -> Delivered decks folder](https://drive.google.com/drive/folders/1SYuAOlR9YqLSS3I9qebW8aKyRYx2Yv8I?usp=drive_link), with the Title: `<Lab Name> - <Region> - Date`.  In the lab deck, change the registration codes to match the current lab, and add their name and profile picture to the presenter slide.
 
@@ -91,6 +91,10 @@ Tips and tricks for presenting:
 
 After the lab, the CSE Program Manager will send a post-event email with a link to the recording and slide deck.
 
+#### Reporting an Issue with Content
+
+When reporting a problem, use the `Bug` template in the [Content project](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content), then fill out as much of the information as possible.
+
 ### CSE Engagement Request Process
 
 Account owners (AEs, SAEs, Renewals Managers) working with customers that [qualify](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) for CSE may find that their customer would benefit from a CSE engagement outside of the [normal operating rhythm during the customer lifecycle](/handbook/customer-success/csm/segment/cse/#customer-lifecycle) (programmatic call invitations from Gainsight, manual outreach by CSE in Outreach, Office Hours and Webinars). In these cases, it is best to submit ad-hoc engagement requests through Salesforce. You can submit a case for a CSE to engage with you on an account by clicking on "CSE Help" at the top of the Salesforce account page chatter (click "Show Feed" to open it first ). This will help to qualify the engagement and help the CSE prepare for a productive conversation with the customer.
@@ -114,7 +118,7 @@ NOTE: Unless specified otherwise, CSEs will automatically reach out to the conta
 - For more information about the scope and qualifications for CSE engagement, refer to the following links:
   - [CSE: Qualifications/Scope Document for CSE Engagement](https://docs.google.com/document/d/1UVUPVTpEd3uYN8X1a_-LgB0GVY3fW6Y-S8sXfh-W65M/edit#)
   - [CSE Workflow - Process](https://docs.google.com/document/d/14hgdDN9JYVQLcuwGFfvryWDeXeWUpHLZv7RAUH7oers/edit#heading=h.vs4fplqboev)
-  - [CSE highspot page](https://gitlab.highspot.com/items/662a8dc9f635929082a95ca8?lfrm=shp.4)
+  - [CSE Highspot page](https://gitlab.highspot.com/items/662a8dc9f635929082a95ca8?lfrm=shp.4)
 
 #### Tracking Ad-Hoc CSE Engagements in Gainsight (CSEs only)
 
@@ -144,8 +148,8 @@ Escalations ought to be used sparingly and only for the larger accounts in our s
 
 There are two types of escalations: support escalations and account escalations.
 
-1. Support escalations are for existing tickets causing a very high business impact for the customer and is raising their temperature very high. The escalation process can bring attention to the issue and raise its priority within support. Following the defined process for a support ticket escalation noted on [this page](/handbook/support/internal-support/support-ticket-attention-requests.html#submitting-a-support-ticket-attention-request-star--starring-a-ticket) is sufficient.
-1. Account escalations may or may not relate to a support ticket. It could be relevant to an open issue for a product bug or a feature request. It's useful when the customer communicates a highly-impactful problem relevant to e.g. an open issue that is blocking a critical use case and causing them to evaluate other vendors for non-GitLab solutions and is thus posing a churn or contraction risk for GitLab.
+1. Support escalations are for existing tickets causing a very high business impact for the customer and is raising their temperature very high. The escalation process can bring attention to the issue and raise its priority within support. Following the defined process for a support ticket escalation noted on [the Support ticket attention requests page](/handbook/support/internal-support/support-ticket-attention-requests.html#submitting-a-support-ticket-attention-request-star--starring-a-ticket) is sufficient.
+1. Account escalations may or may not relate to a support ticket. It could be relevant to an open issue for a product bug or a feature request. It's useful when the customer communicates a highly-impactful problem relevant to, for example an open issue that is blocking a critical use case and causing them to evaluate other vendors for non-GitLab solutions and is thus posing a churn or contraction risk for GitLab.
 
 ### Meeting Workflow
 
@@ -153,7 +157,7 @@ Meetings are integral to interfacing with customers; whether we are joining a ca
 
 1. Meet with the AE, if possible, prior to call to get more relevant context around customer's wants, needs and other particular details.
 1. Create a [Notes](https://docs.google.com/document/u/0/d/159Bxv_H7Ds9QoGsmFW7c7Zoq5nqugAChN_a7XuKUeLs/edit) document
-   1. Prepare some goto questions tailored around what information you may have gathered from researching the customer or speaking with the AE. Include any relevant customer concerns, states, tech stack, etc (usually derived from AE custom deck or AE directly)
+   1. Prepare some go to questions tailored around what information you may have gathered from researching the customer or speaking with the AE. Include any relevant customer concerns, states, tech stack, etc (usually derived from AE custom deck or AE directly)
 1. Create a [Slide Deck](https://docs.google.com/presentation/u/0/d/1bGvo9EOz-pa-hsPi6xmguuL20L5e5XNfDVaFYeHZWdc/edit).
 1. Ensure Notes and Slide Deck are in the [Customers & Prospects](https://drive.google.com/open?id=0B-ytP5bMib9Ta25aSi13Q25GY1U&resourcekey=0-MBirIe2vWyQXYi8cJEkH2Q) under appropriate Company name.
 1. Ensure that the Zoom/Chorus link is correct in the meeting invite.

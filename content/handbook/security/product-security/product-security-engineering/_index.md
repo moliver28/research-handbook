@@ -203,6 +203,8 @@ These tooling handover epics will:
 
 In order to keep track of the high-level requirements to fully deprecate a custom tool, we create issues specifically to track the sunsetting of that tool. This is done using the [sunsetting template](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/new?issuable_template=sunsetting) in the Product Security Engineering team repository.
 
+Once a particular sunsetting requirement has been fulfilled, the Product Security Engineering team needs to close the relevant sunsetting issue in the Product Security Engineering team repository.
+
 ### Step-by-step processs
 
 When beginning work to implement custom tooling into the product, we take the following actions:
@@ -227,6 +229,11 @@ Once we have identified the functionality and components for this tool, we:
   - Do they have any concerns about the functionality, from a product/engineering/maintenance perspective?
   - What is the agreed upon definition of done, and at what point would it make sense to hand this work over to their team?
   - What would they like to see from us in order to ensure a smooth handover?
+
+After we have finished a contribution related to a custom tooling integration, we need to:
+
+- Update the sunsetting roadmap to indicate that a particular task or phase has been completed
+- If appropriate, close the relevant sunsetting issue
 
 ## Milestone Planning
 

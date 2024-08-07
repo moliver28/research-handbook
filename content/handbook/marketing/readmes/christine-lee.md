@@ -68,7 +68,7 @@ Please feel free to contribute to this page by opening a merge request.
 
 - [Full results here](https://drive.google.com/file/d/1Km4ZXepxGFLtksmL-vx6L_wMDPzcmig9/view?usp=sharing). I lead with Executing themes (purple = executing, orange = influencing, blue = relationship building, green = strategic thinking)
 
-![Clifton StrengthsFinder Results](/images/handbook/clee-clifton.png){: .medium}
+![Clifton StrengthsFinder Results](/images/handbook/clee-clifton.png)
 
 - My top 5 strengths are:
   - Individualization - People who are especially talented in the Individualization theme are intrigued with the unique qualities of each person. They have a gift for figuring out how people who are different can work together productively.
@@ -82,7 +82,7 @@ Please feel free to contribute to this page by opening a merge request.
 - [Full results here](https://drive.google.com/file/d/16B7Sadw5K9gHO8vVuk2WTfAFDR7Ob5Yt/view?usp=sharing)
 - Abundant in Examine, effortless in Execute, deliberate in Explore and Excite.
 
-![Simpli5 Results](/images/handbook/clee-simpli5.png){: .small}
+![Simpli5 Results](/images/handbook/clee-simpli5.png)
 
 ### Meyers Briggs
 

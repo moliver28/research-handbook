@@ -444,23 +444,21 @@ Below is a collection of links leading to status pages of several listed MktgOps
 Click to see dropdown list of available status page URLs.
 </summary>
 
-- 6sense
-- Traction
+- [Asana](https://status.asana.com/)
 - [Marketo/Marketo Measure (formerly Bizible)](https://status.adobe.com/products/503491)
 - [Qualified](https://status.qualified.com/)
 - [LinkedIn Sales Navigator](https://www.linkedin-apistatus.com/)
 - [Outreach.io](https://status.outreach.io/)
 - [PathFactory](https://status.pathfactory.com/)
-- RingLead
 - [Terminus Email Experiences](https://status.terminus.com/)
 - [ZoomInfo](https://status.zoominfo.com/)
-- Vartopia - Lead Sharing Module
 - [Allocadia](https://support.allocadia.com/hc/en-us/sections/115001724228-System-Maintenance-Alerts)
-- Hopin
 - [Iterable](https://status.iterable.com/)
 - [Litmus](https://status.litmus.com/)
 - [On24](https://on24.my.site.com/Support/s/platform-status)
-- [Typeform](https://status.typeform.com/)
+- [OneTrust](https://status.onetrust.com/)
+- [Hightouch](https://status.hightouch.io/)
+- [Groove](https://status.groovehq.com/)
 
 </details>
 

@@ -983,7 +983,7 @@ It is critical that any reference to asset number in the upload or send from the
 
 ### Step 7: Test the new asset in your Content Syndication programs
 
-Follow the instructions in Step 6 above to test the new asset. Focus specifically on the `Add to SFDC Campaign` and `Interesting Moments` to QA a new asset.
+Follow the instructions in [Step 6 above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-6-test-lead-flow-into-your-content-syndication-programs) to test the new asset. Focus specifically on the `Add to SFDC Campaign` and `Interesting Moments` to QA a new asset.
 
 ## Integrate DAP Closed Loop Feedback
 
@@ -1323,5 +1323,6 @@ For conferences list loads with more than 5,000 attendees, consider not marking 
 1. Select Create View
 1. Name the view Dietary Restrictions and under hidden columns, select `Dietary Restriction Detail` and `Dietary Restrictions: Other`
 1. Click Create
+1. Note that you can follow the same steps above if you need to view Physical Accommodation requests in a Marketo report. The fields for this are `Physical Assistance Needs` and `Physical Assistance Detail`.
 
-The view you created will be saved for future use, so any time you need to see this specific view in the future, you will click View: Default and select "Dietary Restrictions" from your dropdown (the list is unique to you, so you will have different options than other people). Due to privacy requirements, we are not pushing this information to SFDC, but you can see it in Marketo up until seven days after the event. See details below for creating a report in Marketo to see the responses. The dietary restriction fields will automatically be cleared 7 days after the lead list is loaded.
+The view you created will be saved for future use, so any time you need to see this specific view in the future, you will click View: Default and select "Dietary Restrictions" from your dropdown (the list is unique to you, so you will have different options than other people). Due to privacy requirements, we are not pushing this information to SFDC, but you can see it in Marketo up until seven days after the event. The dietary restriction fields will automatically be cleared 7 days after the lead list is loaded.

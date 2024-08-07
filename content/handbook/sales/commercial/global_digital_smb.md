@@ -191,49 +191,78 @@ The Required 10 acts a to do list which should be followed by all Advocates when
 Case: Status
 
 - Should be set to In Progress, (then Closed - Resolved/ Duplicate/ Unresponsive once worked).
+
 Case: Owner
+
 - Should always be set to the Advocate working the case.  Cases can be moved in rare circumstances i.e the end user wishes to converse in a language that you do not speak, but another Advocate does.
+
+- If a case needs to go back to the queue, the user should be set to SMB Sales Team, and the Status set to Open.
+
 Case: Contact
-- Advocate to add/ update the main contact, as the case is being worked
+
+- Advocate to add/ update the main contact, as the case is being worked.  If a lead exists on the case, it must be converted to a Contact before the case is closed out.
+- A case cannot be set to Closed Resolved unless a Contact is attached to the case. 
 
 ### Managing
 
 Case: Next Steps & Date
 
 - To act in the same fashion as Opp: Next Steps. Field is mandatory.
+- Format must be; Date, Advocate Initials, What the Next Step is
+- - 2024-07-12 MS Send quote to customer
+
 Account: GitLab Admin added
+
 - Only for cases related to an opportunity
 - Must be added in order to move opp to closed won.
+
 Opp: Close Date
+
 - Only for cases related to an opportunity
-- To help with forecasting
+- To help with forecasting.  Must not be in the past. 
+
 Opp: Renewal Risk Category
+
 - Only for cases related to an opportunity
 - To help with forecasting
+
 Contact/ Account: Activity
+
 - Must be logged via Outreach on the Contact
 
 ### Closing
 
 Case: Resolution Action
 
-- Should always be populated when closing out a case
+- Mandatory when closing out a case.
+
 Opp: Status
+
 - Only for cases related to an opportunity
+
 - To mimic the case i.e if the case is closed, the opp should be closed won or lost
-Case: Feedback (Optional)
-- A place where an Advocate can share feedback pertaining to the case itself, or the customers use case
+
+Case: Feedback
+
+- A place where an Advocate can share feedback pertaining to the case itself, or the customers use case.  This is mandatory.  If there is no Feedback to share, NA should be entered in this field. Next Steps and general comments should not be listed in this field - feedback only.
+- - e.g Customer Feedback : “thank you for helping me resolve my problem very quickly”
 
 ## Case Closure Criteria
 
 Closed - Resolved
 
-- The Advocate was able to address the customers' concern/ transact the renewal.
+- The Advocate was able to address the customers' concern/ transact the renewal, and no further action is needed.  A case cannot be marked as Closed - Resolved if the Next Steps Date is in the future, and/ or the Contact field on the case is blank.
+
 Closed - Duplicate
+
 - An Advocate has already addressed the customer's concern via a similar case.
+
 Closed - Unresponsive
+
 - After 15 days of trying to contact the end user, no response have been received.
+
 Closed - N/A
+
 - All other scenarios.
 
 ## Use Case Specifics

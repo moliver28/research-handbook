@@ -36,8 +36,6 @@ Cloud transformation and application modernization is a key CIO initiative for 2
 
 ### Who to meet / Ideal Customer Profile {#who-to-meet}
 
-{: .alert .alert-gitlab-orange}
-
 The persona interested in application automation is generally different from the persona interested in infrastructure automation and continuous delivery. Application automation interest comes from development or engineering organizations while infrastructure automation and continuous delivery interest comes from the operations, systems, infrastructure, platform and cloud side of the organization.
 
 | | Enterprise | Mid Market | SMB |
@@ -51,8 +49,6 @@ The persona interested in application automation is generally different from the
 
 ### Keywords to listen for  {#keywords}
 
-{: .alert .alert-gitlab-orange}
-
 - Manual efforts
   - including Manual builds, Manual code reviews, Manual peer reviews, Manual testing, manual deployments, manual infrastructure configurations, amongst others.
 - Employee dissatisfaction
@@ -65,8 +61,6 @@ The persona interested in application automation is generally different from the
 - Application Modernization
 
 ### Value discovery {#value-discovery}
-
-{: .alert .alert-gitlab-orange}
 
 ### Discovery Questions — Current State: Where's the pain?
 
@@ -130,8 +124,6 @@ These value statements are used to measure of GitLab Adoption by the customer an
 | Value Stream analytics | How many users went to the VSA page in the last 28 days | - VSA helps businesses identify and target waste and inefficiencies, and take action to optimize those workstreams to deliver the highest possible velocity of value. <br> - GitLab's one platform approach ensures a single platform, workspace and data model which creates a shared view of actionable insights, of your end to end software delivery lifecycle |
 
 ## Positioning value  {#positioning-value}
-
-{: .alert .alert-gitlab-orange}
 
 ### Elevator pitch
 
@@ -208,8 +200,6 @@ From a competitive comparison for Automated Software Delivery, the following are
 
 ## Key Value at different tiers  {#tier-value}
 
-{: .alert .alert-gitlab-orange}
-
 ### Value at Premium
 
 As organizations get started and grow in their automation journey, GitLab Premium offers Faster Code Reviews, Advanced CI/CD, Release Controls and Self-managed reliability with expert support to enhance team productivity and collaboration. GitLab Premium adds enterprise level features like priority support, upgrade assistance and a technical account managers (for eligible accounts).
@@ -242,8 +232,6 @@ Most of the value of the Automated Software Delivery Solution is available to cu
 For up-to-date list of value at Ultimate, visit [Why Premium](https://about.gitlab.com/pricing/ultimate/).
 
 ## Resources {#resources}
-
-{: .alert .alert-gitlab-orange}
 
 ### Related Pages  {#resource-page}
 

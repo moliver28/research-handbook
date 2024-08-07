@@ -53,15 +53,15 @@ The most recent weekly update for the Server Runtime SEG can be found at:
 
 | Date       | Tl;DR;                                                                            | Video                                                                          |
 |------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| 2022-12-23 | GitLab Agent - Making changes to workspace state from the UI and k8s              | [https://youtu.be/nCIusZfxufo](https://youtu.be/nCIusZfxufo){:target="_blank"} |
-| 2022-12-16 | GitLab Agent - A demo of using Python and Jupyter with SR4GA4K                    | [https://youtu.be/lQK_3xTb55U](https://youtu.be/lQK_3xTb55U){:target="_blank"} |
-| 2022-12-12 | GitLab Agent - Rails UI, Authentication, Repository cloning                       | [https://youtu.be/jxHFOeg9gAw](https://youtu.be/jxHFOeg9gAw){:target="_blank"} |
-| 2022-11-29 | GitLab Agent - Started porting server runtime. Support for HTTPS                  | [https://youtu.be/-E8wJZsYnbM](https://youtu.be/-E8wJZsYnbM){:target="_blank"} |
-| 2022-11-16 | Custom Control Plane - Adding Rails UI and connecting to the GDK                  | [https://youtu.be/wyZbbrCBk6A](https://youtu.be/wyZbbrCBk6A){:target="_blank"} |
-| 2022-11-02 | Custom Control Plane - Adding Devfile support, support for SSH authn and authz    | [https://youtu.be/f_jfwh4v_q0](https://youtu.be/f_jfwh4v_q0){:target="_blank"} |
-| 2022-10-26 | Custom Control Plane - Documentation updates, support for GCP DNS, IDE selection  | [https://youtu.be/JIGNEqpdI7k](https://youtu.be/JIGNEqpdI7k){:target="_blank"} |
-| 2022-10-19 | Custom Control Plane - Adding Authentication, opening ports, attaching volumes    | [https://youtu.be/GFM0xK7Hz_I](https://youtu.be/GFM0xK7Hz_I){:target="_blank"} |
-| 2022-10-12 | What is server runtime. Starting work on the custom control plane.                | [https://youtu.be/yrhJo_wUuIM](https://youtu.be/yrhJo_wUuIM){:target="_blank"} |
+| 2022-12-23 | GitLab Agent - Making changes to workspace state from the UI and k8s              | [https://youtu.be/nCIusZfxufo](https://youtu.be/nCIusZfxufo) |
+| 2022-12-16 | GitLab Agent - A demo of using Python and Jupyter with SR4GA4K                    | [https://youtu.be/lQK_3xTb55U](https://youtu.be/lQK_3xTb55U) |
+| 2022-12-12 | GitLab Agent - Rails UI, Authentication, Repository cloning                       | [https://youtu.be/jxHFOeg9gAw](https://youtu.be/jxHFOeg9gAw) |
+| 2022-11-29 | GitLab Agent - Started porting server runtime. Support for HTTPS                  | [https://youtu.be/-E8wJZsYnbM](https://youtu.be/-E8wJZsYnbM) |
+| 2022-11-16 | Custom Control Plane - Adding Rails UI and connecting to the GDK                  | [https://youtu.be/wyZbbrCBk6A](https://youtu.be/wyZbbrCBk6A) |
+| 2022-11-02 | Custom Control Plane - Adding Devfile support, support for SSH authn and authz    | [https://youtu.be/f_jfwh4v_q0](https://youtu.be/f_jfwh4v_q0) |
+| 2022-10-26 | Custom Control Plane - Documentation updates, support for GCP DNS, IDE selection  | [https://youtu.be/JIGNEqpdI7k](https://youtu.be/JIGNEqpdI7k) |
+| 2022-10-19 | Custom Control Plane - Adding Authentication, opening ports, attaching volumes    | [https://youtu.be/GFM0xK7Hz_I](https://youtu.be/GFM0xK7Hz_I) |
+| 2022-10-12 | What is server runtime. Starting work on the custom control plane.                | [https://youtu.be/yrhJo_wUuIM](https://youtu.be/yrhJo_wUuIM) |
 
 ## Server Runtime Architecture
 

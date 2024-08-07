@@ -52,10 +52,8 @@ Options
 This is a right floated image with copy to the left of it.
 
 ![Hero Type 1](/images/handbook/growth-marketing/marketo-page-template/hero-type1.jpg)
-{:.image-box}
 
 ![Hero Type 1 w/ purple background](/images/handbook/growth-marketing/marketo-page-template/hero-type1-purple.jpg)
-{:.image-box}
 
 Options
 
@@ -68,7 +66,6 @@ Options
 This is a full width image with copy overlayed on top of it.
 
 ![Hero Type 2](/images/handbook/growth-marketing/marketo-page-template/hero-type2.jpg)
-{:.image-box}
 
 Options
 
@@ -81,13 +78,10 @@ Options
 This is where the form is located.
 
 ![2column form before](/images/handbook/growth-marketing/marketo-page-template/2column-form-before.jpg)
-{:.image-box}
 
 ![2column form after](/images/handbook/growth-marketing/marketo-page-template/2column-form-after-submit.jpg)
-{:.image-box}
 
 ![2column no sidebar](/images/handbook/growth-marketing/marketo-page-template/2column-no-sidebar.jpg)
-{:.image-box}
 
 Options
 
@@ -110,7 +104,6 @@ Options
 This module is for a brief list of speakers as would be seen on a webcast or event. This section requires particular formatting to appear correctly.
 
 ![Speaker list](/images/handbook/growth-marketing/marketo-page-template/speaker-list.jpg)
-{:.image-box}
 
 Options
 
@@ -140,7 +133,6 @@ This is a flexible empty box for anything additional that doesn't fit into anoth
 In general it's a good idea to target this messaging subject matter and logos towards your audience.
 
 ![Trust module](/images/handbook/growth-marketing/marketo-page-template/trust.jpg)
-{:.image-box}
 
 Options
 
@@ -154,7 +146,6 @@ Options
 Similar to the bottom section of [this example landing page](https://about.gitlab.com/blog/2019/11/26/migrating-from-jenkins/).
 
 ![Statistics list](/images/handbook/growth-marketing/marketo-page-template/stats-list.jpg)
-{:.image-box}
 
 Options
 
@@ -179,7 +170,6 @@ Bulleted list
 This module is meant to explain to individuals that we have more content they might want to look at and it's worth filling out the form.
 
 ![Value box](/images/handbook/growth-marketing/marketo-page-template/value-box-default.jpg)
-{:.image-box}
 
 Options
 
@@ -191,7 +181,6 @@ Options
   * Hidden
 
 ![Value box](/images/handbook/growth-marketing/marketo-page-template/value-box.jpg)
-{:.image-box}
 
 * Value box examples
   * This box can be used to toggle specific examples of content we want to showcase that are tailored to the audience. In most cases we want this to be hidden and show the default above instead.
@@ -205,7 +194,6 @@ Options
 Currently we encourage this module to remain off by default. There may be situations where you want to add a CTA outside of the landing page scope such as "Free Trial", "Learn more", or something like that. In that case, you would enable this module's visibility.
 
 ![Final CTA](/images/handbook/growth-marketing/marketo-page-template/final-cta.jpg)
-{:.image-box}
 
 Options
 

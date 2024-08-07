@@ -191,6 +191,60 @@ The Director, Enterprise Applications is a [grade 10](/handbook/total-rewards/co
 - Relevant business/industry acumen with the ability to quickly and thoroughly understand business priorities, operations, and IT enablement potential.
 - Ability to use GitLab.
 
+## Director, Enterprise Architecture and Applications
+
+The Director, Enterprise Architecture and Applications, reports to the VP, IT and leads a team of highly-collaborative and results-oriented IT staff tasked with delivering global, high value IT applications across the company. The Director has the skills, experience, drive and passion to ensure that GitLab has the appropriate IT enterprise architecture and applications to achieve/exceed corporate objectives; to ensure business alignment with team members and sponsors; and to anticipate the needs of the business and scale the team to stay ahead of the curve. 
+This role requires a seasoned leader with extensive experience in managing, directing and optimizing ERP, CRM, and ITSM systems to ensure seamless integration, superior performance, and alignment with the company’s strategic goals. This position is a key role as we embark on a transformative journey to enhance our business operations through the strategic implementation and management of advanced business systems. This position has deep technical skills in SaaS applications and can drive the roadmap and architecture across the Enterprise Applications tech stack. 
+This function challenges the status quo; thrives and is successful in a dynamic environment. This team member must be motivated and successful at mentoring by building and sustaining professional relationships at all levels of an organization. The Director has well-honed problem solving and decision making skills, is agile and adaptable, and can effectively manage change. This function is both strategic and tactical, can influence adoption, is results oriented, and has a strong client service orientation. The Director has the reputation for raising the bar in terms of quality and execution.
+
+### Job Grade
+
+The Director, Enterprise Architecture and Applications is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the VP, IT
+
+### Responsibilities
+
+Strategy:
+
+- Drive operational excellence while leveraging KPI’s to measure the success/value of the IT Applications team. Comfortable establishing a culture of measurement and the ability to identify, define, and implement and execute key metrics across the IT organization
+- Strategic and operational IT Application ownership for the following areas: Finance, HR, Legal, Sales, Marketing, Support, and Security 
+- Help drive discussion and improvements to develop and manage the plan of record for the IT Applications portfolio; while driving culture of delivery to commitments
+- The Director is expected to identify critical areas of improvement, offer recommended solutions, and drive execution of those solutions
+- Create secure, scalable and high performance enterprise solutions.
+- Developing methodologies and processes to ensure compliance to Integrations & Architecture strategies.
+- Responsible for the high-level design and implementations of integrations across the application eco-system by effectively partnering with business users, application developers and vendors.
+Technical Solutions:
+- Responsible to develop and maintain current state and future state technology roadmaps aligned with approved IT Investments and approved by Leadership.
+- Support the transformation of the technology architecture to support the company growth plans, building scalable platform solutions as well as building and customizing best in class software products.
+- Lead master data management initiatives from the data modeling side. Design and promote the enterprise data model.
+- Evaluate alternatives and formulates system scope and objectives to create or modify integration services.
+- Troubleshoots production problems and works to fix issues
+Partnerships:
+- Drive executive level communication / support for the IT Applications strategy
+- Partner with key business sponsors / executive stakeholders to deliver high value IT solutions
+- Develop and maintain relationships with client organizations to ensure their IT Application expectations are being met and priorities are set at the appropriate level.
+- Working with internal and external cross functional teams, business stakeholders, service providers, vendors to design, develop and implement enterprise architecture strategies.
+- Provides thought leadership and clear technical direction to the team to deliver results and business value.
+- Analyze existing business processes and data flows to develop system designs, delivery roadmaps and integrations to other systems
+
+### Requirements
+
+- 10-15 years’ experience in IT, with 7+ years’ experience leading and managing an IT organization or Applications group at a fast growing high technology company.
+- 8-10 years of Enterprise Architect experience.
+- Excellent change management skills and ability to operate effectively in a fast-paced environment.
+- Experience with SaaS based solutions and cloud architectures.
+- Demonstrated experience managing and integrating multiple Enterprise Business Platforms such as eCommerce, CRM and ERP (Salesforce, Zuora Billing, Zuora Revenue, Netsuite, Workday, ServiceNow,  Marketo) and the like.
+- Hands-on experience working with iPaaS tools like Workato, Mulesoft, Boomi, Tray.io etc.
+- Successfully integrated applications and automated business processes resulting in measurable productivity or efficiency gains.
+- Demonstrated ability to successfully lead and develop global applications organization in collaboration with overall IT strategy.
+- Demonstrated strength in contract negotiations, vendor management, and capacity planning in a fast growth environment.
+- Expertise in IT compliance (SOX, FedRamp, GDPR etc) and information security.
+- Current on business applications, trends in IT and experience evaluating/implementing new innovative IT solutions
+- A process-oriented individual, with substantial project management skills, who has the flexibility to thrive in a fast-paced, dynamic organization.
+- Candidate must have proven ability to consistently and collaboratively resolve issues, mitigate roadblocks, and meet all financial and management goals on time. Will be a self-starter who maps own direction to succeed.
+- Excellent team management, coaching, and mentoring skills, including the ability to coach and manage other IT Managers and Senior Managers
+- Must be comfortable with ambiguity and fast change with an ability to adapt quickly and easily.
+- Relevant business/industry acumen with the ability to quickly and thoroughly understand business priorities, operations, and IT enablement potential.
+
 ## Senior Director, Enterprise Applications
 
 The Senior Director, Enterprise Applications, reports to the VP of Information Technology, and leads a team of highly-collaborative and results-oriented IT staff tasked with delivering global, high value IT applications across the company. The Senior Director has the skills, experience, drive and passion to ensure that GitLab has the appropriate IT applications to achieve/exceed corporate objectives; to ensure business alignment with executive team members and sponsors; and to anticipate the needs of the business and scale the team to stay ahead of the curve. This function challenges the status quo; thrives and is successful in a dynamic environment.

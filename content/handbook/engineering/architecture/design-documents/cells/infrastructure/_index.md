@@ -376,11 +376,7 @@ It will take into consideration our necessity to [adequately test auto-deploy pa
 the speed of a full production rollout for security fixes,
 and the protection from outages or bugs of our users.
 
-Where we'll eventually use rings for:
-
-1. [Deployments](deployments.md#ring-deployment).
-1. Roll out configuration changes.
-1. Feature flag rollouts.
+Where we'll eventually use rings for [managing all the changes](managing_changes.md) in the Cells environments.
 
 #### Staging
 

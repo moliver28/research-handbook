@@ -26,3 +26,34 @@ Asana will be rolled out across the entire Marketing Org, excluding Sales Develo
 The Marketing Ops team started implementation on 2024-07-12. There is an ongoing project in [Asana](https://app.asana.com/0/1207801099246898/1207801099246898) that we will be working off of.
 
 We will be starting with the teams that can benefit the most and have the most impact first, and will continue to roll out from there.
+
+## Managing Work in Asana
+
+### Tasks
+
+Asana is most useful when individuals can contribute ideas and move action items forward. Tasks are the foundational work items within Asana. Task names should be specific, clear, and action-based. Use a verb where possible. For example, instead of titling a task “Blog post,” title it “Write [title] blog post” and create a second task called “Publish [title] blog post.”
+
+#### Tasks Descriptions
+
+A task description should give the assignee all the necessary information to complete the task. Here are some tips:
+
+- Link to relevant work in the task description by `@mentioning` related people and hyperlinking relevant tasks, projects, or messages.
+- Add links and attachments to include external work, centralizing information.
+- Mark a task as dependent upon another, so teammates start that task when the prior task is completed.
+- Use rich text in task descriptions to clarify your message with formatted text and lists.
+
+#### Using Subtasks
+
+When you assign a subtask, be sure the assignee has enough context from the parent task or within the subtask description. Avoid burying subtasks under too many layers. You can always convert subtasks to tasks.
+
+### Projects
+
+#### Creating and naming new projects
+
+Projects allow you to organize all tasks related to a specific initiative, goal, or significant work in one place. Similar to tasks, anyone can create a project.
+
+Give projects a concise name and keep the name consistent with our naming convention. **Naming convention details to be added.**
+
+#### Project Templates
+
+Create a custom template or use an Asana created template to standardize common workflows and projects. Templates help get projects off to a quick start and ensure you haven’t missed any vital steps.
