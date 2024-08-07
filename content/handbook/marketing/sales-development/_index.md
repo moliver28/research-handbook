@@ -65,16 +65,16 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | **Main Channel - (Global VP - JB Larramendy)**       | [`#sales_dev_global`](https://gitlab.slack.com/messages/C2V1KLY0Z) |
 | **Announcements - (SDR Ops/Enablement - Chris Wang)**| [`#sales_dev_fyi`](https://app.slack.com/client/T02592416/C011P828JRL) |
 | **All - AMER (Manager - Brian Tabbert)**            | [`#amer_sales_dev`](https://gitlab.enterprise.slack.com/archives/C06J0U9EC8L) |
-| **SDR AMER (Manager - Josh Downey)**              | [`#sdr_amer_inbound`](https://gitlab.enterprise.slack.com/archives/C02EBM1FN00) |
+| **SDR AMER (Manager - Jonathan Rivat)**              | [`#sdr_amer_inbound`](https://gitlab.enterprise.slack.com/archives/C02EBM1FN00) |
 | **BDR COMM AMER MM (Manager - Christie Park)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
 | **BDR ENTG AMER WEST & LATAM (Manager - Charlotte Platt)** | [`#bdr_entg_amer_west_latam`](https://gitlab.enterprise.slack.com/archives/C04R8DN5H8R) |
-| **BDR ENTG AMER EAST (Manager - Shamit Paul)**       | [`#bdr_entg_amer_east`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
+| **BDR ENTG AMER EAST (Manager - Brian Tabbert)**       | [`#bdr_entg_amer_east`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
 | **BDR PUBSEC (Manager - Josh Downey)**          | [`#bdr_amer_pubsec`](https://gitlab.enterprise.slack.com/archives/C04R54N159P)|
 | **All - EMEA (Manager - Elsje Smart)**                                      | [`#sdr_emea`](https://gitlab.slack.com/messages/CCULKLB71) |
 | **SDR EMEA - (Manager - Jonathan Rivat)**             | [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0L) |
 | **BDR COMM EMEA MM - (Manager - Fintan Harrington)**     | [`#bdr_comm_emea_mm`](https://gitlab.slack.com/archives/C04NA4BQP54) |
 | **BDR ENTG EMEA DACH - (Manager - Christopher Allenfort)** | [`#bdr_entg_emea_dach`](https://gitlab.slack.com/archives/C04NP4VC449) |
-| **BDR ENTG EMEA NEUR META - (Manager - Miguel Nunes)** | [`#bdr_entg_emea_neur_meta`](https://gitlab.slack.com/archives/C04N) |
+| **BDR ENTG EMEA NEUR META - (Manager - Fintan Harrington)** | [`#bdr_entg_emea_neur_meta`](https://gitlab.slack.com/archives/C04N) |
 | **BDR ENTG EMEA SEUR - (Manager - Tati Fernandez)**   | [`#bdr_entg_emea_seur`](https://gitlab.slack.com/archives/C04NE65S6AE) |
 | **SDR APJ - (Manager - Robin Falkowski)**             | [`#apj_sales_dev`](https://gitlab.slack.com/archives/C031T0L) |
 | **BDR ENTG APJ - (Manager - Robin Falkowski)**          | [`#apj_sales_dev`](https://gitlab.enterprise.slack.com/archives/C031EGFR5UK) |
