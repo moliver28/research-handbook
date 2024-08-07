@@ -464,15 +464,15 @@ GROUP BY 1;
 
 ### fct_team_member_absence
 
-This table contains team members' absence information. Sensitive columns are masked using [dynamic masking](/handbook/business-technology/data-team/platform/#dynamic-masking) and the fields are only visible by team members with the **analyst_people** role assigned in Snowflake. This table is a [Type 2 SCD](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots)
+This table contains team members' absence information. Sensitive columns are masked using [dynamic masking](/handbook/business-technology/data-team/platform/#dynamic-masking) and the fields are only visible by team members with the **analyst_people** role assigned in Snowflake. This table is a [Type 0 SCD](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots)
 
 The table includes information from **Time Off By Deel**, . The grain of this table is one row per `team member ID` per `pto_uuid` and `absence_date` combination.
 
 ### mart_team_member_absence
 
-This table is a derived mart from `fct_team_member_absence` and `dim_team_member`. Sensitive columns are masked and only visible by team members with the `analyst_people` role assigned in Snowflake. This table will be a replacement of the workspace table `wk_pto`.
+This table is a derived mart from `fct_team_member_absence` and `dim_team_member`. Sensitive columns are masked and only visible by team members with the `analyst_people` role assigned in Snowflake. This table will be a replacement of the workspace table `wk_pto`.This table is a [hybrid SCD (Type 0 + Type 2)](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots).
 
- The grain of this table is one row per `team member ID` per `pto_uuid` and `absence_date` combination.
+ The grain of this table is one row per `team member ID` per `pto_uuid` and `absence_date` combination. 
 
 <details>
 <summary markdown="span">Query - Absence days for an employee by quarter for the year 2024</summary>
