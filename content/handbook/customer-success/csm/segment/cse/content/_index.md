@@ -74,7 +74,7 @@ We are members of the [Customer Success Engineering team](/handbook/customer-suc
 | [Tearyne Almendariz](/handbook/company/team/#talmendariz) <br/> Content Architect | Quarterly Planning/Backlog Management, Content Creation (Non Demos), Content Operations |
 | [James Wormwell](/handbook/company/team/#jwormwell) <br/> Demo Architect |  Content Creation (Demos), Demos/Lab Content Creation, Demo Operations, Demo Asset Maintenance |
 
-> **Note**: Details articulating what constitutes `Responsibilities` can be found [here](https://docs.google.com/spreadsheets/d/1oa8pl4bESeObNVXqlWt3cR3DEOkRRAnIKWz7vzZwjuo/edit?gid=0#gid=0) and will continually be updated as the team evolves and matures.
+> **Note**: Details articulating what constitutes `Responsibilities` can be found [here](https://docs.google.com/spreadsheets/d/1oa8pl4bESeObNVXqlWt3cR3DEOkRRAnIKWz7vzZwjuo/edit?gid=0#gid=0) (internal) and will continually be updated as the team evolves and matures.
 
 ## <i class="fa-solid fa-book" style="color: #B197FC;"></i> Content Catalog
 
@@ -87,9 +87,9 @@ The following sections provide an overview of all content assets, and links to f
 ### Environments/Infrastructure to support Demonstrating Content
 
 - Build Your Own - Self service. GCP/AWS [Cloud Sandoxes](handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project)
-- Self-Managed - Shared Omnibus instance [cs.gitlabdemo.cloud](https://cs.gitlabdemo.cloud) (Demo Cloud) with visibility of Admin areas.
-- SaaS - GitLab Licensed Demo Groups [Premium and Ultimate Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitlabCom_Licensed_Demo_Group_Request)
-- [Produce effective demos with OBS Studio](https://docs.google.com/document/d/1kchnm55N8zx8tBBsxilWadGqBndhvb5d4eG9LsSS6DA/edit#heading=h.quzn6r2hna1l)
+- Self-Managed - Shared Omnibus instance [cs.gitlabdemo.cloud](https://cs.gitlabdemo.cloud) (internal) with visibility of Admin areas.
+- SaaS - GitLab Licensed Demo Groups [Premium and Ultimate Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitlabCom_Licensed_Demo_Group_Request) (internal)
+- [Produce effective demos with OBS Studio](https://docs.google.com/document/d/1kchnm55N8zx8tBBsxilWadGqBndhvb5d4eG9LsSS6DA/edit#heading=h.quzn6r2hna1l) (internal)
 
 ### Webinars
 
@@ -110,6 +110,10 @@ The following sections provide an overview of all content assets, and links to f
 | [Vulnerability Management Strategies](https://drive.google.com/file/d/1DRhHsgeqRPGpu2NR5726QSGqg6bh7aJS/view?usp=drive_link) | Govern        | 2024-05-07   |
 | [Separation of Duties](https://drive.google.com/file/d/16YcUdYDNPP0x0vXzG01OsCODVnYhYe4O/view?usp=drive_link) | Govern        | 2024-06-18   |
 | [What's New! GitLab 17.0](https://drive.google.com/file/d/11EhjSsgMepd9iZYY9vNz8LFoQPLGVNuS/view?usp=drive_link) | All           | 2024-06-04   |
+| [CI/CD Components](https://drive.google.com/file/d/1mSj3YhvTu5llgRzqRMZ0Lk08KlFLlhp4/view?usp=drive_link) | Create           | 2024-07-11   |
+| [DAST API and Security Testing](https://drive.google.com/file/d/1G8XeiaQDpGQAyd1gwLsYmaf-tp3N4p91/view?usp=drive_link) | Secure           | 2024-07-12   |
+
+> **Note**: Recordings are stored in the [Webinar Master Recordings folder](https://drive.google.com/drive/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3?usp=drive_link) (internal)
 
 ### Labs
 
