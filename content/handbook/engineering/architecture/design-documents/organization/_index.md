@@ -150,10 +150,11 @@ The Organization MVC for Cells 1.0 will contain the following functionality:
   1. Cell #1 sets a cookie indicating the associated Cell and redirects the user.
   1. The router routes the request to the correct Cell based on the cookie.
   1. Cell X authenticates the user
-- Audit events are not available as there is an ongoing discussion related to a ClickHouse migration.
 - Billing stays at top-level Group.
 - Enterprise Users or verified domains are not required to be used with Organizations.
 - Public visibility of Groups and Projects, or unauthenticated requests are not allowed apart from Cell #1.
+
+A list of features not supported in Cells 1.0 is available in the [Cells 1.0 blueprint](/handbook/engineering/architecture/design-documents/cells/iterations/cells-1.0/#features-on-gitlabcom-that-are-not-supported-on-cells).
 
 ##### Open Questions
 
