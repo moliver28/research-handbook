@@ -12,6 +12,14 @@ When we go **back and forth three times,** we jump on a [synchronous video call]
 
 We communicate respectfully and professionally at all times.
 
+## Staying Informed and Informing Others at GitLab
+
+The [People Communications & Engagement team](https://handbook.gitlab.com/handbook/people-group/employment-branding/people-communications/) is excited to provide a clear picture of how team members can best stay informed and inform others at GitLab, so we have created [this resource](https://docs.google.com/presentation/d/1clHlg5nbrm-KrqyvdlasqbYSZXEvfr5Zg6qq0UGDhq0/edit#slide=id.g1d8d828ce6f_2_95).
+
+Utilizing our handbook content, this guide provides a digestible and high-level overview of how to keep in the loop of what’s happening across the company, including need-to-know and nice-to-know communications, as well as how to create those communications yourself.
+
+This guide will help all team members, whether newly-onboarded or longer-tenured, feel that, while there are many differnet channels for communication, staying informed at GitLab is manageable. It is also a great resource for creating communications that engage team members and align with our internal voice.
+
 ## Effective & responsible communication guidelines
 
 1. **Assume [Positive Intent](/handbook/values/#collaboration).** Always begin with a position of positivity and grace.
