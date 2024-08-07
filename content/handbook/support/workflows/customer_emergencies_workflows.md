@@ -271,7 +271,7 @@ As soon as the customer incident is resolved, mark the emergency ticket as solve
    1. Let customer know in the ticket description that follow-up work will continue in this ticket.
    1. Add an internal comment linking to the (closed) emergency ticket.
    1. Add an internal comment in the emergency ticket, linking to this ticket as the follow-up ticket.
-   1. The new ticket will now be picked up by the round robin automation and assigned to an SGG, like any other ticket. Optionally, an engineer involved in the emergency can take ownership of the ticket instead.
+   1. Optionally, an engineer involved in the emergency can take ownership of the ticket.
 
 Why do follow up work in another ticket?
 

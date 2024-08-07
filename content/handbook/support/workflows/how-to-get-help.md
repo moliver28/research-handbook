@@ -24,17 +24,6 @@ Then consider these options to help unblock you. And remember that
 [escalating to unblock](/handbook/values/#escalate-to-unblock)
 is an operating principle of Results.
 
-#### Ask in your SGG
-
-Ask in [your group's Slack channel](/handbook/support/support-global-groups/#slack) for help. You might get all the help you
-   need in responses right there, or you might open up the group's Zoom room
-   for an impromptu pairing session to work on the ticket. And remember:
-
-   1. Be sure to provide a link to the ticket
-   1. Be specific about the help you need
-      - For example: "Kubernetes Runner help needed: user is running into X
-        error, logs are saying Y, and we've tried Z. What else could it be?"
-
 #### Bring the ticket before a group of peers
 
 Other Support Engineers are a great resource to help out with tickets. To get help from peers, you can try one or more of the following:
@@ -46,9 +35,6 @@ Other Support Engineers are a great resource to help out with tickets. To get he
     - Senior Support Office Hours (varying times)
 1. Ask for help in one of the broader
    [Support Slack channels](/handbook/support/#slack).
-1. Initiate a [Branch Out session](/handbook/support/support-global-groups/branch-out-sessions)
-   - This is like a crush session, with the specific intention of helping 1 or 2
-     groups with FRTs
 
 #### Expand to Support Pods and other subject matter experts
 
