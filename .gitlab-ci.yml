@@ -90,10 +90,10 @@ variables:
 
   ### TOOLING ###
   # Specify versions of tools used in pipelines
-  HUGO_VERSION: '0.128.0'
+  HUGO_VERSION: '0.131.0'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
   MARKDOWNLINT_VERSION: '0.13.0'
-  VALE_VERSION: '3.6.0'
+  VALE_VERSION: '3.7.0'
 
   ### CACHE DEPENDENCIES ###
   GOPATH: $CI_PROJECT_DIR/.GOPATH
