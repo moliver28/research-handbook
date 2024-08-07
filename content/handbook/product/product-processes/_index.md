@@ -96,10 +96,6 @@ Finally, issues are the substance of your plan. Ensure you are applying the labe
 
 You can mix Direction epics and issues or just use one or the other. Epics will appear before issues in any lists.
 
-### Key Performance Indicators (KPIs)
-
-The list of Product KPIs and definitions are [here](/handbook/product/performance-indicators/#key-performance-indicators).
-
 ### Understanding Milestones and Releases
 
 - [Interpreting release dates](/handbook/product/interpreting-release-dates.html) clarifies how product teams use milestones and labels to indicate the likelihood of feature delivery within certain time frames.
