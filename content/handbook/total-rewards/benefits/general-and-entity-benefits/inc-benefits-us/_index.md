@@ -622,6 +622,9 @@ Please see the [Fidelity Roth 401(k) contributions, after-tax contributions, and
 
 Please also see our [webinar with SageView](https://drive.google.com/file/d/1u0LrgJFh3-_lQ-vgXlI2CBbnKJ0t7eX6/view?usp=sharing) on how this 401(k) feature works, the benefits of using the feature, and considerations team members should be aware of before participating.  
 
+Team Members should take note that the 401(k) after-tax deductions takes priority over ESPP contributions. 
+Team Members should calculate their after-tax contributions carefully to ensure that they have enough funds for ESSP contributions, should they wish to participate in both features. 
+
 </details>
 
 <details markdown="1">
