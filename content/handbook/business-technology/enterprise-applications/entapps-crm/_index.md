@@ -10,20 +10,7 @@ description: "The Enterprise Applications CRM Team implements and supports speci
 
 CRM Systems exists to support the GitLab field organization by providing reliable, scalable, and intuitive technology platforms for everyday use. Primarily working on SalesforceCRM and its related Revenue Systems, our goal is to constantly deliver value in the form of features to our end users. We also act as the connective tissue between business and technology, gathering requirements from our internal customers, designing the technical specifications and executing on the delivery of the solution.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
-
-- **Leslie Mendonca - Director, CRM Systems** GitLab handle: [lmendonca2](https://gitlab.com/lmendonca2) Slack handle: Leslie Mendonca
-- **Sheela Viswanathan - Senior Manager, Business Systems Administrator** GitLab handle: [sheelaviswanathan] (https://gitlab.com/sheelaviswanathan) Slack handle: @sheela viswanathan
-- **Brian Wong - Senior Finance Systems Administrator** GitLab handle: [brianmwong](https://gitlab.com/brianmwong) Slack handle: @Brian Wong
-- **Kiran B - Senior IT Enterprise Applications Engineer** GitLab handle: [kiranbsalesforce] (https://gitlab.com/kiranbsalesforce) Slack handle: @Kiran
-- **Obbu Sekhar - Senior IT Enterprise Applications Engineer** GitLab handle: [sekharobbu](https://gitlab.com/sekharobbu) Slack handle: @osekhar
-- **Tai Schuller - Staff IT Enterprise Applications Engineer** GitLab handle: [tschuller](https://gitlab.com/tschuller) Slack handle: @Tai Schuller
-- **Analissa Moreno - IT Enterprise Applications Engineer** GitLab handle: [ana-moreno](https://gitlab.com/ana-moreno) Slack handle: Ana Moreno
-- **Brett Latham - Senior Business Systems Administrator** GitLab handle: [Dlatham](https://gitlab.com/Dlatham) Slack handle: @Brett Latham
-- **Mohamed Hussain - Business Systems Administrator** GitLab handle: [Moh.hussain](https://gitlab.com/Moh.hussain) Slack handle: @Mohamed Hussain
-- **Neha Sharma - IT Enterprise Applications Administrator** GitLab handle: [nksharma2](https://gitlab.com/nksharma2) Slack handle: @Neha Sharma
-- **Pooja Chowdary Nayidi - IT Enterprise Applications Administrator** GitLab handle: [pnayidi](https://gitlab.com/pnayidi) Slack handle: @Pooja Chowdary Nayidi
-- **Santhosh Baranidharan - Staff Business Systems Analyst** GitLab handle: [sbaranidharan](https://gitlab.com/sbaranidharan) Slack handle: @Santhosh
+## <i class="fas fa-users" id="biz-tech-icons"></i> [Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/entapps-crm/)
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Services We Offer
 
