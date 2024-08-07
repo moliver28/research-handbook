@@ -1,8 +1,5 @@
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2024-07-10 | Taurie Davis         | Tim Noah               | Austin Regnery         | Graham Bachelder       |
-| 2024-07-24 | Rayana Verissimo     | Mike Nichols           | Gina Doyle             |                        |
-| 2024-08-07 | Jacki Bauer          | Michael Fangman        | Ian Gloude             |                        |
 | 2024-08-21 | Justin Mandell       | Chad Lavimoniere       | Dan Mizzi-Harris       | Ilonah Pelaez          |
 | 2024-09-04 | Chris Micek          | Lina Fowler            | Becka Lippert          | Marcin Sędłak-Jakubowski and Lorena Ciutacu |
 | 2024-09-18 | Andy Volpe           | Nick Leonard           | Camellia X Yang        |                        |
