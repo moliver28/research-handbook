@@ -7,7 +7,7 @@
 | 2024-09-04 | Chris Micek          | Lina Fowler            | Becka Lippert          | Marcin Sędłak-Jakubowski and Lorena Ciutacu |
 | 2024-09-18 | Andy Volpe           | Nick Leonard           | Camellia X Yang        |                        |
 | 2024-10-02 | Rayana Verissimo     | Sunjung Park           | Annabel Gray           | Nick Brandt            |
-| 2024-10-16 | Paul Wright          | Emily Bauman           | Divya Alagarsamy       |                        |
+| 2024-10-16 | Paul Wright          | Emily Bauman           | Veethika Mishra       |                        |
 | 2024-10-30 | Taurie Davis         | Jeremy Elder           | Taylor Vanderhelm      | Katie Macoy            |
 | 2024-11-06 | APAC                 | Alex Fracazo           | Bonnie Tsang           |                        |
 | 2024-11-27 | Marcel van Remmerden | Tim Noah               | Veethika Mishra        | Pedro Moreira da Silva |
