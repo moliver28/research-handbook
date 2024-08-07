@@ -86,6 +86,8 @@ The GiveLab Champions are team members who are passionate about giving back to t
 
 GiveLab Champions self-identify to participate in the voluntary Champions group, managed by the ESG team. The GiveLab Champions help activate the GiveLab signature program (launching Fall of 2024), but also work to organize and promote volunteer opportunities year-round.
 
+We invite interested team members to join our Champions slack channel #givelab-champions.
+
 **The importance of GiveLab Champions**
 
 GiveLab Champions help team members build trust through social connections, build connections within their communities, and help GitLab provide meaningful opportunities for team members to give back. The GiveLab Champions ensure global voices are heard and relevant causes are represented based on where team members live. GiveLab Champions help to make GitLab a better place to work.
