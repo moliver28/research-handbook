@@ -3,6 +3,8 @@ title: Evaluation Methods
 description:
 ---
 
+>⚠️ **This framework is undergoing evaluation in a [pilot program](https://gitlab.com/gitlab-org/gitlab/-/iss️ues/477045)** ⚠️
+
 If Jobs-to-be-Done is the theory, then Outcome-Driven Innovation is the practice.
 
 ## Continous Evaluation
@@ -25,12 +27,12 @@ You will find everything you need to get started in the [Qualtrics template](htt
 
 ##### Screening
 
-There are two aspects to screening: 
+There are two aspects to screening:
 
 - Ensuring a representative sample: Screen out participants who do not perform the Jobs in the survey
 - Identify segments: Gain deeper insights into customer needs and behaviors across different groups
 
-**A note on segmentation** 
+**A note on segmentation**
 
 To establish segments, we screen on these factors;
 
@@ -43,11 +45,11 @@ The goal is to receive a minimum of **50** responses per segment. In some cases,
 
 💡 Note: Remember to recruit both GitLab and non-GitLab users.
 
-You may refer to our [sample screener](https://docs.google.com/document/d/1sxhg6d3VPg0sxlUULgYPehnHXVvwx_lm2y5Xv9wn4sY/edit?usp=sharing) if you need more guidance. 
+You may refer to our [sample screener](https://docs.google.com/document/d/1sxhg6d3VPg0sxlUULgYPehnHXVvwx_lm2y5Xv9wn4sY/edit?usp=sharing) if you need more guidance.
 
 ##### Question Structure
 
-Questions are structured in the survey following a precise method to reduce survey fatigue (see the example below). It is critical that you do not deviate from this or you may risk a low completion rate. 
+Questions are structured in the survey following a precise method to reduce survey fatigue (see the example below). It is critical that you do not deviate from this or you may risk a low completion rate.
 
 ![Outcome Question structure](../JTBD_OutcomeSurvey_Question.png)
 
@@ -55,11 +57,11 @@ Questions are structured in the survey following a precise method to reduce surv
 
 You will find everything you need to score your results with this [Outcome scoring](https://docs.google.com/spreadsheets/d/109GZqTYPpOLpHLj-gwV_ldMFwIKa9MaaLPyLJ4kdoQs/edit?usp=sharing) template.
 
-The results of the Outcome survey are scored using the top-two box method, which is intened for use in surveys where participants are asked to rate their level of importance and satisfaction across a scale. This is the same method we use for [CSAT](handbook/sales/field-operations/customer-success-operations/cs-ops-programs/nps-csat-scores/#scoring-methodology). Refer to the example below for more details. 
+The results of the Outcome survey are scored using the top-two box method, which is intened for use in surveys where participants are asked to rate their level of importance and satisfaction across a scale. This is the same method we use for [CSAT](handbook/sales/field-operations/customer-success-operations/cs-ops-programs/nps-csat-scores/#scoring-methodology). Refer to the example below for more details.
 
 ![Top-Two-Example](../Top_Two_Box.png)
 
-Looking at the example data above, we see that (40) or 80% of the total (50) participants find the [Job step] important, and 30% of participants are satisfied with the current [Solution]. We can plot these scores as data points to understand further how this correlates to Needs. To achieve this, we move the decimal (0.8 is now 8, and 0.3 is now 3). Looking at the diagram below, we find that this Outcome is an Underserved need.  
+Looking at the example data above, we see that (40) or 80% of the total (50) participants find the [Job step] important, and 30% of participants are satisfied with the current [Solution]. We can plot these scores as data points to understand further how this correlates to Needs. To achieve this, we move the decimal (0.8 is now 8, and 0.3 is now 3). Looking at the diagram below, we find that this Outcome is an Underserved need.
 
 ![Needs_Plotting](../Needs_Plot.png)
 
@@ -71,16 +73,16 @@ With an established benchmark, evaluating the design is a much simpler process. 
 
 The three dimensions—speed, Reliability / Predictability, and Efficiency—directly correlate with GitLab's UX Heuristics. Due to this alignment, it is not necessary to evaluate designs for each of these elements independently. Instead, using this framework, the ideal scenario for Job Performers involves **instant task completion**, **100% predictability**, and **0% efficiency loss**. Such perfection facilitates progress and fulfills needs.
 
-| UX Hueristic | Speed | Reliability / Predictability | Efficiency | 
-| --------- | ------------- | ---------------------- | ------------------ | 
-| Visibility of system status | — | ✅ | — | 
+| UX Hueristic | Speed | Reliability / Predictability | Efficiency |
+| --------- | ------------- | ---------------------- | ------------------ |
+| Visibility of system status | — | ✅ | — |
 | Flexibility and efficiency of use | — | — | ✅ |
-| User control and freedom | — | ✅ | ✅ | 
+| User control and freedom | — | ✅ | ✅ |
 | Error Recovery | —| ✅ | ✅ |
 | Real-time user interface | ✅ | — |✅ |
-| A tool the whole team can use | — | — | ✅ | 
+| A tool the whole team can use | — | — | ✅ |
 | Minimal setup required | ✅ | — | ✅ |
 | Documentation is easy to use | — | — | ✅ |
 | Features communicate the problem being solved and value to a new user | ✅ |✅  | ✅ |
-| Features / workflows have clear calls to action | — | ✅ | ✅ | 
-| Tasks are easy to learn and/or have setup support / guidance | — | ✅ | ✅| 
+| Features / workflows have clear calls to action | — | ✅ | ✅ |
+| Tasks are easy to learn and/or have setup support / guidance | — | ✅ | ✅|

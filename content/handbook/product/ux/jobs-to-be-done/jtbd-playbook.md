@@ -4,10 +4,11 @@ description: >-
   The JTBD playbook is a comprehensive, step-by-step guide to help teams effectively apply the JTBD framework. It guides you from initial assumptions to prioritized user desired outcomes, providing a solid foundation and collaborative research tools.
 ---
 
+>⚠️ **This framework is undergoing evaluation in a [pilot program](https://gitlab.com/gitlab-org/gitlab/-/iss️ues/477045)** ⚠️ 
+
 The playbook will ensure you tackle the right problems at the right time by focusing on the critical question: **What outcomes are you trying to influence?**.
 
 If this is your first time going through the playbook, it's recommended to review [what JTBD is and the main concepts](/handbook/product/ux/jobs-to-be-done/) before getting started.
-
 
 #### A Note on Time, Confidence, and Validation
 
@@ -29,6 +30,7 @@ If you need help at any point when working through the playbook, start by postin
 The first step in the JTBD process is identifying your users and their objectives within your product space. This foundation ensures success in subsequent steps.
 
 ### Exercise 1: Define Job Performers (sync)
+
 Gather your team for a one-hour sync workshop. At a minimum, include the Product Design DRI and Product Manager. Adding engineering counterparts and your Section's UX Researcher will provide diverse perspectives. Use a Zoom call and the [FigJam JTBD Template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1) created earlier.
 
 The workshop involves four steps:

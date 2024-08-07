@@ -3,6 +3,8 @@ title: Jobs to be Done at GitLab
 description: JTBD is a practical framework for understanding customers' desired outcomes.
 ---
 
+>⚠️ **This framework is undergoing evaluation in a [pilot program](https://gitlab.com/gitlab-org/gitlab/-/iss️ues/477045)** ⚠️
+
 We use Jobs-to-be-Done (JTBD) to achieve a deeper understanding of our customers and the underlying job they're trying to accomplish. Though JTBD can be applied in various ways, we use our own interpretation that fits our design process. We leverage the framework for "categorizing, defining, capturing, and organizing customers' needs, and tying customer-defined performance metrics (in the form of desired outcome statements) to the JTBD" (Ulrick).
 
 At it's core, we focus on asking: **What outcome are you trying to influence?**
