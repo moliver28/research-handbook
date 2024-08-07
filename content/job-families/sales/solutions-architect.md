@@ -12,7 +12,7 @@ To learn more, see the [Solutions Architect handbook](/handbook/solutions-archit
 
 ## Responsibilities and Requirements
 
-Level role responsibilities and requirements may be extended or overlayed by [Specialty SA Roles](#specialties) when they also apply to a team member.
+Level role responsibilities and requirements may be extended or overlaid by [Specialty SA Roles](#specialties) when they also apply to a team member.
 
 ### Performance Indicators
 
