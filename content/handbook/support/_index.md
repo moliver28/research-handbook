@@ -131,12 +131,12 @@ At various times it's easy to over-optimize on one of the pillars to solve a pro
 The [Single Source of Truth](/handbook/company/culture/all-remote/remote-work-glossary/#single-source-of-truth-ssot)
 for information about Support Team Members - everything from email address and
 personal interests to product skills and group memberships - is the
-[support-team.yaml file](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml).
-The [Support Team Home Page](https://gitlab-com.gitlab.io/support/team/) is
+[support-team project](https://gitlab.com/gitlab-support-readiness/support-team).
+The [Support Team Home Page](https://gitlab-support-readiness.gitlab.io/support-team/) is
 built from the information in that file. Many other Support tools and
 automations make use of it also. See the
-[Support team entry page](https://gitlab.com/gitlab-com/support/team/-/wikis/Support-team-entry)
-of the [Support Team wiki](https://gitlab.com/gitlab-com/support/team/-/wikis/home)
+[Support team entry page](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/Support-team-entry)
+of the [Support Team wiki](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/home)
 for details of the structure of the file.
 
 Information for and about the different parts of the Support Team can be found in the following sections of the Support Handbook:
@@ -597,7 +597,7 @@ Providing information by reacting to a message with a specific emoji.
 
 After getting promoted, make sure to update your title in:
 
-- our [Support team page](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml), and the change would be reflected in Zendesk
+- our [Support team page](https://gitlab.com/gitlab-support-readiness/support-team), and the change would be reflected in Zendesk
 - the company team page following the same steps in [Add yourself to the Team Page](/handbook/editing-handbook/#add-yourself-to-the-team-page)
 
 Consider updating the title on Slack and on Zoom, following the guidelines in [Zoom name format](#zoom-name-format).

@@ -66,7 +66,7 @@ Go to the [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/3600623
     - Have you paired with this Support Engineer on the ticket previously?
     - Is this ticket a follow up of another ticket? Who was the previous assignee?
     - Does the customer in question have an Assigned Support Engineer?
-    - Is there a [subject matter expert](https://gitlab-com.gitlab.io/support/team/skills-by-subject) for the topic in the ticket?
+    - Is there a [subject matter expert](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html) for the topic in the ticket?
     - Is there a [support stable counterpart](../support-stable-counterparts.md) for the topic in the ticket?
     - To your knowledge, is there another Support Engineer that has a close working relationship with the customer?
     - Do you have any insights on whether another Support Engineer might be interested on the topic of the ticket?

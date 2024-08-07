@@ -28,7 +28,7 @@ If the customer has not provided a plan, or it lacks the detail we need to suppo
 1. The user provided information must include all of the [required information](https://about.gitlab.com/support/scheduling-upgrade-assistance/#what-information-do-i-need-to-schedule-upgrade-assistance).
     - If there is missing, incomplete, or erroneous information the ticket assignee should highlight the deficiencies and provide any insight that may be helpful to correcting them to the user.
     - The ticket assignee may opt to use the `Upgrade Request Missing Info` macro in Zendesk to request for missing information.
-1. (Optional) When the required information has been collected, the assignee can reach out to any of the folks with an `Upgrade` or `Upgrade Assistance` focus on the [Skills by Subject](https://gitlab-com.gitlab.io/support/team/skills-by-subject) page to pair or offer insight asynchronously.
+1. (Optional) When the required information has been collected, the assignee can reach out to any of the folks with an `Upgrade` or `Upgrade Assistance` focus on the [Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html) page to pair or offer insight asynchronously.
 Based on the region, consult one of the following trackers to determine who to ask.
     - [AMER Upgrade Assistance Request Tracker](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3789)
     - [EMEA Upgrade Assistance Request Tracker](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3562) (deprecated, Check within your SGG)

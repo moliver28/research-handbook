@@ -70,7 +70,7 @@ Your responsibilities are as follows:
 1. Triage and investigate customer tickets and Internal Requests that are announced in the `#support_ticket-attention-requests` Slack channel.
 1. Establish ownership and assignment for starred tickets.
 
-You can use [Support Team Skills by Subject](https://gitlab-com.gitlab.io/support/team/skills-by-subject) to find appropriate engineers to assign.
+You can use [Support Team Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html) to find appropriate engineers to assign.
 
 A very high percentage of starred tickets involve licenses and renewals. For guidance in handling these, please see the [Workflow for handling Plan/License Ticket Attention Requests](/handbook/support/license-and-renewals/workflows/managers_working_with_extensions).
 
