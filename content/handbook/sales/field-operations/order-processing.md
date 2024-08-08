@@ -1502,7 +1502,7 @@ To view the status of an opportunity after it has been submitted for approval, *
 
 The opportunity closed! Congrats! Wait... my customer still has questions! Here are some of the most common questions that come up after an opportunity has closed... and how to resolve them.
 
-**[CustomersDot Access and Use handbook page](/handbook/product/fulfillment-guide/#customersdot-admin-panel)**
+**[CustomersDot Access and Use handbook page](/handbook/product/groups/fulfillment-guide/#customersdot-admin-panel)**
 
 #### How do I know if a License Key was sent to the Customer?
 

@@ -84,3 +84,9 @@
 
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
+
+# Product handbook restructure - remove 2025-08-08
+/handbook/product/fulfillment-guide/* /handbook/product/groups/fulfillment-guide/:splat 301
+/handbook/product/project-management/* /handbook/product/groups/project-management/:splat 301
+/handbook/product/product-analysis/* /handbook/product/groups/product-analysis/:splat 301
+
