@@ -11,7 +11,7 @@ description: "Most of the content in the product handbook talks about _how_ we d
 
 ## Product Team Functions
 
-- [Product Management](/handbook/product/product-manager-role/)
+- [Product Management](/handbook/product/product-management/)
 - [User Experience](/handbook/product/ux/)
 
 ## Product Team Mission
