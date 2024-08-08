@@ -759,8 +759,9 @@ Seeds are a way to load data from csv files into our data warehouse ([dbt docume
 Because these csv files are located in our dbt repository, they are version controlled and code reviewable.
 This method is appropriate for loading static data which changes infrequently.
 A csv file that's up to ~1k lines long and less than a few kilobytes is probably a good candidate for use with the `dbt seed` command.
+A seed file should be placed in the project folder that corresponds to the functional team that has ownership of the information found therein.  This folder structure also corresponds to a schema in the `PREP` database so that the data can easy be used in further development.
 
-#### Organizing columns
+### Organizing columns
 
 When writing a base model, columns should have some logical ordering to them.
 We encourage these 4 basic groupings:
