@@ -21,7 +21,7 @@ GitLab's Global Travel & Expense Policy is meant to provide guidance to all Team
 - Read, understand and adhere to GitLab's Global Travel & Expense policy.
 - Team Members are also expected to inform their direct manager of all business trip plans prior to booking to ensure that the proposed trip is within their departmental budget. Team Members must receive Manager approval for any proposed business critical trips.
 - Submit all expenses timely. All Team Members should submit expenses by the end of the fiscal quarter in which the expense was incurred. GitLab's fiscal quarter end dates are January 31, April 30, July 31, October 31.
-- Follow-up with your manager or the AP team if they haven't approved your expense report.
+- Follow-up with your manager or the [AP team] if they haven't approved your expense report.
 
 **Managers and/or Budget Owners**:
 
@@ -103,7 +103,7 @@ All business related flights need to be booked through Navan, and will be paid b
   - Domestic: At least 14 days in advance
   - International: At least 21 days in advance
 
-The airfare policy in Navan is set up as a "Dynamic Policy" which calculates a fair market price for every search based on travel dates and destinations. Any purchases that are over 20% of the Dynamic Policy will be flagged for further review by your manager. Also note that anything booked outside of Navan will flag as "Out of Policy", and will need to be reviewed by your manager and the AP team.
+The airfare policy in Navan is set up as a "Dynamic Policy" which calculates a fair market price for every search based on travel dates and destinations. Any purchases that are over 20% of the Dynamic Policy will be flagged for further review by your manager. Also note that anything booked outside of Navan will flag as "Out of Policy", and will need to be reviewed by your manager and the [AP team].
 
 #### Class of Service
 
@@ -147,7 +147,7 @@ The airfare policy in Navan is set up as a "Dynamic Policy" which calculates a f
 ### Car Rental
 
 - Rental Cars are reimbursable and should be booked through Navan, up to the intermediate car class, with a 7 day booking lead time. Rental Cars are reimbursable and should be booked through Navan, up to the intermediate car class, with a 7 day booking lead time.
-- Please note that anything booked outside of Navan will flag as "Out of Policy", and will need to be reviewed by your manager and the AP team.
+- Please note that anything booked outside of Navan will flag as "Out of Policy", and will need to be reviewed by your manager and the [AP team].
 - Navan Confirmation should be attached to the claim along with the Car Rental Receipt.
 - Team Members can claim gas expenses but not mileage, when renting a car.
 - Fuel at $300 limit per day.
@@ -179,7 +179,7 @@ In the event of an accident resulting in damage to the rental car, the Non-US re
 
 ### Hotels
 
-- To be booked in Navan. When booked outside Navan - approval required by Manager and AP Admin.
+- To be booked in Navan. When booked outside Navan - approval required by Manager and AP Admin (contact [AP team]).
 - When you book Hotels through Navan Travel, the costs will need to be charged to a personal credit card.
 - For business related bookings, you can submit the costs for reimbursement via the Navan Expense reimbursement tool.
 - Please attach the Navan Reservation email confirmation to the claim.
@@ -187,7 +187,7 @@ In the event of an accident resulting in damage to the rental car, the Non-US re
 - However, the lodging policy in Navan is set up as a “Dynamic Policy” which calculates a fair market price for every search based on travel dates and destinations. This allows for some room in price in case the $300 USD limit is really not applicable to that area. And similar to airfare, any purchases that are over 20% of the Dynamic Policy will be flagged for further review by your manager.
 - Always choose the refundable room booking unless the only available option is a non refundable room.
 - The exception is the Corporate Events hotel room blocks organized by the internal team or if the conference hotel room block has better pricing than Navan.
-- The hotel room block's pricing is generally within the bounds of the $300USD/night and in the event it is over that amount, please contact the AP team for an exception to be granted.
+- The hotel room block's pricing is generally within the bounds of the $300USD/night and in the event it is over that amount, please contact the [AP team] for an exception to be granted.
 - Conference hotel room blocks or Corporate Events organized blocks will still need to be charged to a personal credit card and then submitted for reimbursement via Navan Expense.
 - Always bring a credit card with you when traveling for company business if you have one. Hotels will generally expect you to have a physical credit card to present upon check-in. This credit card will be kept on file for the duration of your stay. Even if your lodging was pre-paid by the company or by using a company credit card, the Hotel may still require a card to be on file for "incidentals".
 
@@ -243,12 +243,12 @@ In the event of an accident resulting in damage to the rental car, the Non-US re
 
 ### Train
 
-- The Train policy in Navan is set up as a "Dynamic Policy" which calculates a fair market price for every search based on travel dates and destinations. Any purchases that are over 20% of the Dynamic Policy will be flagged for further review by your manager.  Also note that anything booked outside of Navan will flag as "Out of Policy", and will need to be reviewed by your manager and the AP team.
+- The Train policy in Navan is set up as a "Dynamic Policy" which calculates a fair market price for every search based on travel dates and destinations. Any purchases that are over 20% of the Dynamic Policy will be flagged for further review by your manager.  Also note that anything booked outside of Navan will flag as "Out of Policy", and will need to be reviewed by your manager and the [AP team].
 - Trains booked through Navan will be paid by GitLab travel card.
 - Train rides must be standard cabin class with a 14 day booking lead time.
 - If you travel more than 3 train trips (6 segments) per quarter, and they are over 5 hours in duration; we will allow you to upgrade one class on the train.
 - Yearly or Monthly Rail Discount cards are not reimbursable.
-- Please note that anything booked outside of Navan will flag as "Out of Policy", and will need to be reviewed by your manager and the AP team.
+- Please note that anything booked outside of Navan will flag as "Out of Policy", and will need to be reviewed by your manager and the [AP team].
 - If booked within Navan and is flagged as "Out of Policy", please also refer to the "Booking shows Out of Policy" section below.
 
 {{% panel header="**Coding**" header-bg="green" %}}
@@ -402,7 +402,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - The cost of the gifts and flowers provided to GitLab Team Members will be allocated to the senders departmental budget. The allowable cost for gifts is up to $125 USD (including shipping) per gift.
 - If you would like to buy holiday gifts for your team, these need to be done personally and should not be expensed.
 - People Managers are to use their own personal card for expense reimbursement. People Managers will need to be sure to use Team `EmployeeGiftsFlowers` and the account 6028 in Navan Expense for the expense.
-- For further questions regarding expensing of gifts and flowers, please reach out to the AP team via the #expense-reporting-inquiries Slack channel or through email (expenses@gitlab.com).
+- For further questions regarding expensing of gifts and flowers, please reach out to the [AP team] via the #expense-reporting-inquiries Slack channel or through email (expenses@gitlab.com).
 
 {{% panel header="**Coding**" header-bg="green" %}}
 
@@ -705,4 +705,6 @@ This relates To Laptop Advances only - If more information is required please em
 
 ### Expense Reimbursement for Terminated Team Members
 
-If a team member whom you manage has left GitLab and comes to you with final expenses that are valid for reimbursement, please verify that they were not already processed in Navan and then contact Accounts Payable. You must submit valid receipts and a completed copy of the [Expense Reimbursement template](https://docs.google.com/spreadsheets/d/1TiSbp1C3-7WERqDanfBKTxdm5VevQ5QDOAiI_GaizBg/edit#gid=1450348181) along with your approval. Please note that we may also ask the terminated team member to provide valid banking details in order to process the payment to them. AP will do their best to process and pay the reimbursement to the individual within 1 week.
+If a team member whom you manage has left GitLab and comes to you with final expenses that are valid for reimbursement, please verify that they were not already processed in Navan and then contact Accounts Payable. You must submit valid receipts and a completed copy of the [Expense Reimbursement template](https://docs.google.com/spreadsheets/d/1TiSbp1C3-7WERqDanfBKTxdm5VevQ5QDOAiI_GaizBg/edit#gid=1450348181) along with your approval. Please note that we may also ask the terminated team member to provide valid banking details in order to process the payment to them. [AP team] will do their best to process and pay the reimbursement to the individual within 1 week.
+
+[AP team]: mailto:expenses@gitlab.com
