@@ -29,15 +29,22 @@ Employ the following workflows for:
 
  Choosing Tickets:
 
-- Work from the top of `The Global Support Ticket View`. Tickets are sorted by `Ticket Weight` to prioritize the highest-impact tickets first. Tickets receive additional weight as they progress through their FRT and NRT life-cycles, ensuring that soon to breach tickets do not remain low in the view.  When everyone aims to start from the top of the of the queue, it supports our ability to achieve our SLAs.
-- Tickets with a preferred region that aligns to your region you can take and keep assignment of.  For other regions,  work them by putting out a quality first response, then follow the guidelines for [rehoming tickets](#ticket-rehome-transfer-to-the-preferred-region) to transfer them to the customers stated preferred region. (NOTE: APAC may also maintain assignment of low priority tickets with a preferred region of AMER.)
-- Both FRT and NRT tickets that do not have an assignee are presented in this view. Consider assigning tickets with a status of `open` or `pending` and a preferred region that aligns to your region. These all need owners within the preferred region on the same day they are rehomed from other regions. Refer to the [receiving a ticket rehome](#receiving-a-ticket-rehome) section of this page for guidelines on working these tickets.
+- Work from the top of `The Global Support Ticket View`. Tickets are sorted by `Ticket Weight` to prioritize the highest-impact tickets first. Tickets receive additional weight as they progress through their FRT and NRT life-cycles, ensuring that soon to breach tickets do not remain low in the view.  When everyone aims to start from the top of the queue, it supports our ability to achieve our SLAs.
+- Take and keep assignment of tickets that have your region as the preferred one.
+  For tickets with other preferred regions, work them by putting out a quality
+  first response. Then follow the guidelines for
+  [rehoming tickets](#ticket-rehome-transfer-to-the-preferred-region) to transfer
+  them to the customers' stated preferred region. (NOTE: APAC may also maintain
+  assignment of low priority tickets with a preferred region of AMER.)
+- Both FRT and NRT tickets that do not have an assignee are presented in this view.
+  Consider assigning tickets that have a status of `open` or `pending` and that
+  have your region as the preferred one. These all need owners within the preferred region on the same day they are rehomed from other regions. Refer to the [receiving a ticket rehome](#receiving-a-ticket-rehome) section of this page for guidelines on working these tickets.
 
  Assigning Tickets:
 
 - Assign tickets to yourself using the "Take It" button and update status to
      `Open` or `Pending`.
-- Please Note that the SLA clock continues to run until you've sent a public
+- Please note that the SLA clock continues to run until you've sent a public
       response to the user.
 
 ## Managing ticket load
