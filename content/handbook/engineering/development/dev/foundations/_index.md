@@ -12,12 +12,8 @@ In the mean-time, check out our groups' pages below.
 ## Teams
 
 - [Foundations:Design System](design-system)
+- [Foundations:Import and Integrate](import-and-integrate)
 - [Foundations:Personal Productivity](personal-productivity)
-
-## What do we work on?
-
-- [Design System](design-system/#what-do-we-work-on)
-- [Personal Productivity](personal-productivity/#what-do-we-work-on)
 
 ## Metrics
 
