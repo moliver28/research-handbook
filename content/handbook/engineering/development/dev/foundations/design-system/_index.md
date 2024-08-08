@@ -1,13 +1,11 @@
 ---
-title: Design System Team
-description: The Design System team is responsible for work relating to our design system, Pajamas.
+title: Design System Engineering Team
+description: The Design System Engineering team is responsible for work relating to our design system, Pajamas.
 ---
 
 ## About
 
 We're the Design System team and we are part of the [Foundations Stage](/handbook/product/categories/#foundations-stage).
-
-This page is the shared team page for our Engineers, Product Designers, and Product Manager!
 
 We hope it's a good entry point to learn more about who we are and what we do.
 

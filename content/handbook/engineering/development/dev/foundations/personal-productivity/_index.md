@@ -1,13 +1,11 @@
 ---
-title: Personal Productivity Team
-description: The Personal Productivity team is responsible for work relating to cross-stage features such as navigation, settings, and notifications.
+title: Personal Productivity Engineering Team
+description: The Personal Productivity Engineering team is responsible for work relating to cross-stage features such as navigation, settings, and notifications.
 ---
 
 ## About
 
 We're the Personal Productivity team and we are part of the [Foundations Stage](/handbook/product/categories/#foundations-stage).
-
-This page is the shared team page for our Engineers, Product Designers, and Product Manager!
 
 We hope it's a good entry point to learn more about who we are and what we do.
 
