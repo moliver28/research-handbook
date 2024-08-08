@@ -14,7 +14,7 @@ canonical_path: "/company/team/structure/working-groups/secure-govern-database-d
 | End Date        |  |
 | Slack           | [#wg_secure-govern-database-decomposition](https://gitlab.slack.com/archives/C01NB475VDF) (only accessible from within the company) |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/16JxSsh7AleszlsXU8h0Xevk5nZ-if7YJtRPjpwgqhn4/edit) (only accessible from within the company) |
-| Issue Board     |              |
+| Issue Board     | [Epic Dashboard list](https://epic-dashboard-gitlab-org-tenant-scale-group-4aecf10d1d02154641.gitlab.io/epic_13043#only-open) |
 | Meeting Cadence | Weekly on Mondays. Recorded. EMEA and APAC options. |
 
 ### Exit Criteria
@@ -50,7 +50,8 @@ Key results we'd like to achieve within the scope of the working group to ensure
 | Logical Replication | Replication of data using the built-in Postgres replication processes to transfer WAL via a PUB-SUB model | | |
 | Physical Replication | Replication of data by copying the actual files on the written disk to a new Phsyical Database.| | |
 | Application Replication | Replication of data to a separate database by the configuration of replication routines in GitLab itself. | | |
-| Schema |A database schema is a namespace that contains named database objects such as tables, views, indexes, data types, functions, stored procedures and operators.| | |
+| DB Schema | A SQL database schema is a namespace that contains named database objects such as tables, views, indexes, data types, functions, stored procedures and operators, [see docs](https://www.postgresql.org/docs/current/ddl-schemas.html) | | |
+| GitLab DB Schema | An application-level table classification schema that abstracts away the underlying database connection, [see docs](https://docs.gitlab.com/ee/development/database/multiple_databases.html#gitlab-schema) | | |
 | Server | A database server is a physical or virtual system running an operating system that is running one or more database instances. | Physical Database | |
 | Table | A database table is a collection of tuples having a common data structure (the same number of attributes, in the same order, having the same name and type per position) ([source](https://www.postgresql.org/docs/13/glossary.html#GLOSSARY-TABLE)) | | |
 | Table Partitioning | A table that contains a part of the data of a partitioned table (horizontal slice). ([source](https://www.postgresql.org/docs/12/ddl-partitioning.html))| Partition | |
@@ -71,8 +72,7 @@ We have the benefit of being able to lean heavily on the prior art and experienc
 
 ### Benefits
 
-1. Reduce write pressure on the GitLab.com primary Write database.
-    1. Especially if achieved before Cells 2.0
+1. Reduce write pressure on the GitLab.com primary Write database in advance of Cells 1.5
 2. Improve stability of GitLab operations, by isolating the primary database from Secure/Govern feature pressure
 3. General performance improvement for both the Core and Secure/Govern feature sets due to seperation of concerns.
 4. Improve iteration speed of Secure/Govern feature development without significant concern for compromising stability of the platform.
@@ -90,11 +90,9 @@ Secure/Govern Data has a high degree of integration with CI and standard GitLab 
 
 ### Timeline
 
-Awaiting further detail from testing to determine a timeline..
+While application-level decomposition is ongoing, we are awaiting further detail from [database logical replication testing](https://gitlab.com/gitlab-com/gl-infra/dbre/-/issues/95) to determine feasibility of a gradual or single-phase rollout to Gitlab.com.
 
-Ideal situation would be to provide meaningful reduction in WAL pressure on the primary database prior to May 2025 through a gradual decomposition effort.
-
-If gradual decomposition is not possible, then we would pursue decomposition with the intention to reduce pressure on the primary Database before the rollout of Cells 2.0.
+If gradual decomposition is not possible, then we would pursue decomposition with the intention to reduce pressure on the primary Database through a single downtime or maintenance event before the rollout of Cells 2.0, estimated at May 2025.
 
 ### Plan
 
@@ -105,10 +103,10 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
     1. Migrate tables with higher referentiality (many foreign keys)
     1. Identify and [allowlist cross-joins](https://docs.gitlab.com/ee/development/database/multiple_databases.html#allowlist-for-existing-cross-database-foreign-keys) to be addressed
     1. Identify and allowlist cross-database transactions to be addressed
-    1. Remove identified cross-joins and cross-database transactions
-1. Await results of Logical Replication Production test to determine the viability of this as a migration path.
+    1. Remove previously identified cross-joins and cross-database transactions allowances
+1. Await results of [Logical Replication Production test](https://gitlab.com/gitlab-com/gl-infra/dbre/-/issues/95) to determine the viability of [this as a migration path](#migration-proposal-a-logical-replication).
 1. Depending on the results of the production test, formulate a path for the safe migration of the Secure/Govern dataset to a new physical database. These may take the form of the headings below.
-1. Open Change Request to migrate phased tables (step 2) using chosen approach (step 5)
+1. Open Change Request to migrate tables using either (A) a phased approach mirroring code boundary slices above or (B) a single replication event for all tables in scope of decomposition
 1. Update [documentation around migrating self-managed instances to multiple databases](https://docs.gitlab.com/ee/administration/postgresql/multiple_databases.html)
 
 #### Migration Proposal A: Logical Replication
@@ -196,6 +194,7 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 | Reference | Description |
 | ---       | ---         |
 | [Link](https://gitlab.com/gitlab-org/omnibus-gitlab/-/blob/master/doc/architecture/multiple_database_support/index.md) | Proposal for support levels for multiple databases in GitLab deployment architecture.  |
+| [Link](https://epic-dashboard-gitlab-org-tenant-scale-group-4aecf10d1d02154641.gitlab.io/epic_13043) | Epic dashboard for tracking outstanding work towards completion of decomposition |
 
 ## Thanks
 
