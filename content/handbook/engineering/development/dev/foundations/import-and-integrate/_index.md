@@ -1,10 +1,11 @@
 ---
-title: "Manage Import and Integrate Group"
+title: Import and Integrate Group
+description: The Import and Integrate facilitates migrations, third-party integrations, and API use.
 ---
 
 ## About
 
-The Import and Integrate group is a part of the [Manage Stage](/handbook/product/categories/#manage-stage).
+The Import and Integrate group is a part of the [Foundations Stage](/handbook/product/categories/#foundations-stage).
 The group supports the product
 
 - by migrating between GitLab instances and from other providers
