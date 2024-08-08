@@ -136,10 +136,10 @@
 /content/handbook/engineering/development/dev/create/editor-extensions.md @dashaadu @kisha.mavryck
 /content/handbook/engineering/development/dev/create/remote-development/ @adebayo_a
 /content/handbook/engineering/development/dev/manage/ @wortschi @m_gill @mksionek
-/content/handbook/engineering/development/dev/foundations/ @samdbeckham
+/content/handbook/engineering/development/dev/foundations/ @m_gill @samdbeckham @wortschi
 /content/handbook/engineering/development/dev/foundations/design-system @samdbeckham
+/content/handbook/engineering/development/dev/foundations/import-and-integrate/ @wortschi
 /content/handbook/engineering/development/dev/foundations/personal-productivity @samdbeckham
-/content/handbook/engineering/development/dev/manage/import-and-integrate/ @wortschi
 /content/handbook/engineering/development/dev/plan/ @donaldcook @timzallmann @johnhope @kushalpandya @blabuschagne @vshushlin
 /content/handbook/engineering/development/dev/plan/knowledge.md @vshushlin
 /content/handbook/engineering/development/dev/plan/optimize.md @blabuschagne
