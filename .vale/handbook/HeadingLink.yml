@@ -8,7 +8,7 @@
 #
 # For a list of all options, see https://vale.sh/docs/topics/styles/
 extends: existence
-message: "Do not have links in headings: '%s' "
+message: "Do not have links in headings."
 level: error
 ignorecase: true
 nonword: true
