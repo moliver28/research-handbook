@@ -73,9 +73,9 @@ Learn about GitLab as a product, including what does it mean to be a single appl
 
 Understand the roles and responsibilities of product managers.
 
-### [**Being a Product Manager at GitLab**](/handbook/product/product-manager-role)
+### [**Being a Product Manager at GitLab**](/handbook/product/product-management)
 
-Want to know more on what being a Product Manager at GitLab is like? Checkout our [Product Manager Role](/handbook/product/product-manager-role/) guide for helpful information like our Career Development Framework and learning/development resources.
+Want to know more on what being a Product Manager at GitLab is like? Checkout our [Product Management](/handbook/product/product-management/) guide for helpful information like our Career Development Framework and learning/development resources.
 
 ### [**Product Performance Indicators**](/handbook/product/performance-indicators/)
 
@@ -89,10 +89,9 @@ Understand the OKR Process for the GitLab Product Team and review current and pa
 
 Learn about our Product Leadership Team and learn about them via their personal README's.
 
-
 ### Communicating with the Product Division
 
-Below are team emails and handles that can be used for different departments and sub-departments in the Product Division. These groups are used for internal communication and the `@mention` can only be used by project members. Please remember that tagging `@mention` on issues will generate in-product [to-do items](https://docs.gitlab.com/ee/user/todos.html) and email notifications to **all** team members in that project, so use it only when you need to communicate with the entire team. For communication specifically for product managers, please leverage [How to Engage](/handbook/product/how-to-engage/).
+Below are team emails and handles that can be used for different departments and sub-departments in the Product Division. These groups are used for internal communication and the `@mention` can only be used by project members. Please remember that tagging `@mention` on issues will generate in-product [to-do items](https://docs.gitlab.com/ee/user/todos.html) and email notifications to **all** team members in that project, so use it only when you need to communicate with the entire team. For communication specifically for product managers, please leverage [How to Engage](/handbook/product/product-management/how-to-engage/).
 
 - `@gl-product-leadership` tags all group managers, directors and VPs in the Product Division
 - `@gl-product-plt` tags all direct reports to the VP Product in the Product Division
