@@ -112,7 +112,7 @@ If you have `gcloud` or `kubectl` set up locally, then follow [Connect from your
 1. Hover over **Exec** to reveal a sub menu
 1. Click **toolbox**
 1. A Cloud Shell should start up
-1. Edit the command `kubectl exec gitlab-toolbox-5955db475c-ng2xr -c toolbox -- ls` to execute the `bash` command with the [interactive and TTY options](https://docs.docker.com/engine/reference/commandline/container_exec/). It should look like `kubectl exec -it gitlab-toolbox-5955db475c-ng2xr -- bash` (the toolbox will have a different suffix).
+1. Edit the command `kubectl exec -it gitlab-toolbox-5955db475c-ng2xr -- bash` (the toolbox will have a different suffix) to execute the `bash` command with the [interactive and TTY options](https://docs.docker.com/engine/reference/commandline/container_exec/).
 1. At this point, you should be logged in to the toolbox pod. For Rails console, run `gitlab-rails console`.
 1. See [Kubernetes cheat sheet](https://docs.gitlab.com/charts/troubleshooting/kubernetes_cheat_sheet.html#gitlab-specific-kubernetes-information) for more
 
