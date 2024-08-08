@@ -65,7 +65,7 @@ For a detailed view on how we do Product Development, read up on our established
 
 To learn how the GitLab product and our Teams are organized review our Product Categorization section.
 
-### [**About the GitLab Product**](/handbook/product/categories/gitlab-the-product)
+### [**About the GitLab Product**](/handbook/product/categories/gitlab-the-product/)
 
 Learn about GitLab as a product, including what does it mean to be a single application, our subscription tiers and pricing model, and the basics of permissions in the platform.
 
@@ -73,7 +73,7 @@ Learn about GitLab as a product, including what does it mean to be a single appl
 
 Understand the roles and responsibilities of product managers.
 
-### [**Being a Product Manager at GitLab**](/handbook/product/product-management)
+### [**Being a Product Manager at GitLab**](/handbook/product/product-management/)
 
 Want to know more on what being a Product Manager at GitLab is like? Checkout our [Product Management](/handbook/product/product-management/) guide for helpful information like our Career Development Framework and learning/development resources.
 
