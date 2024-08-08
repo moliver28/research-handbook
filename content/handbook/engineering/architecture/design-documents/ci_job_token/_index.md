@@ -90,6 +90,12 @@ community members.
 A good summary is probably at least a paragraph in length.
 -->
 
+This document outlines a proposal on how to reduce the access that a
+[`CI_JOB_TOKEN`][1] has in the context for a CI job. This proposal identifies a
+series of stages to limit the duration and scope of these tokens through a
+series of phases to allow generating tokens with the least privilege necessary
+to adequately perform its' desired function.
+
 ## Motivation
 
 <!--
@@ -108,6 +114,15 @@ opportunities. The latter may be a more suitable framework in cases where the
 problem is not well-defined or design details not yet established.
 -->
 
+Today, when a CI job runs it is provided with a [`CI_JOB_TOKEN`][1] that can be
+used by the job to interact with other GitLab resources. This token is generated
+on behalf of the user that triggered the CI pipeline, effectively giving the CI
+job full the same level of access as the user.
+
+This is a problem because it allows for token theft (i.e. `$ echo $CI_JOB_TOKEN`)
+allowing a bad actor to make use of another users access for the duration of the
+job that the token was generated for.
+
 ### Goals
 
 <!--
@@ -118,6 +133,13 @@ List the specific goals / opportunities of the document.
 - What are other less tangible opportunities here?
 -->
 
+This proposal attempts to decouple the access that a [`CI_JOB_TOKEN`][1] has
+away from a specific user to an entity with less access.
+
+- Decouple `CI_JOB_TOKEN` from a [`human` user account][9].
+- Propose a plan towards allowing the configuration of granular permissions for `CI_JOB_TOKEN`
+- Reduce the access that is available to the `CI_JOB_TOKEN`.
+
 ### Non-Goals
 
 <!--
@@ -126,6 +148,15 @@ optional.
 
 - What is out of scope for this document?
 -->
+
+- Auditing of token usage and generation
+- Changing the format of a token (i.e. [JWT][4])
+- Creation of a [Secure Token Service][7]
+- OAuth2 specific integration or compatibility
+- Reducing the duration of access of a [`CI_JOB_TOKEN`][1]
+- Unify the [PAT scopes][8] with the existing [custom abilities][6]
+- Unifying the many different [types of tokens][3] into a single authoritative token
+- [Removal of the runner registration token][2]
 
 ## Proposal
 
@@ -136,9 +167,20 @@ understand exactly what you're proposing, but should not include things like
 API designs or implementation. The "Design Details" section below is for the
 real nitty-gritty.
 
-You might want to consider including the pros and cons of the proposed solution so that they can be
-compared with the pros and cons of alternatives.
+You might want to consider including the pros and cons of the proposed solution
+so that they can be compared with the pros and cons of alternatives.
 -->
+
+Instead of creating a [`CI_JOB_TOKEN`][1] that is bound to the user that
+triggered the CI pipeline we will generate a [`CI_JOB_TOKEN`][1] bound to a
+specific type of `User` record with a custom `user_type` field. In other words,
+we will use a service account or CI job runner specific account. This custom
+`User` will have limited permissions based on the [Custom Role][5] that it is
+bound to.
+
+At this time, it is uncertain if we will need to manage CI Job specific
+[custom abilities][6] that cannot be assigned to regular user accounts.
+
 
 ## Design and implementation details
 
@@ -170,8 +212,23 @@ directory as the `index.md` for the proposal.
 ## Alternative Solutions
 
 <!--
-It might be a good idea to include a list of alternative solutions or paths considered, although it is not required. Include pros and cons for
-each alternative solution/path.
+It might be a good idea to include a list of alternative solutions or paths
+considered, although it is not required. Include pros and cons for each
+alternative solution/path.
 
 "Do nothing" and its pros and cons could be included in the list too.
 -->
+
+* Build a [Security Token Service][7]
+* Migrating to the [GitLab OAuth2 provider][10]
+
+[1]: https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html
+[2]: https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/runner_tokens/
+[3]: https://docs.gitlab.com/ee/security/token_overview.html
+[4]: https://datatracker.ietf.org/doc/html/rfc7519
+[5]: https://docs.gitlab.com/ee/user/custom_roles/abilities.html
+[6]: https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/config/custom_abilities
+[7]: https://datatracker.ietf.org/doc/html/rfc8693
+[8]: https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#personal-access-token-scopes
+[9]: https://gitlab.com/gitlab-org/gitlab/-/blob/4633bdb43e637c60f80c4dd1ee8cf92f2e0739e7/app/models/concerns/has_user_type.rb#L7
+[10]: https://docs.gitlab.com/ee/api/oauth2.html
