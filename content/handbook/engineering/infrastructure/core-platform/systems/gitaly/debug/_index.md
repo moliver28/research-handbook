@@ -140,6 +140,27 @@ To find the top 10 User, Project, Client by Duration calling that method:
 grep PostUploadPackWithSidechannel var/log/gitlab/gitaly/current | ~/bin/fast-stats --interval 60m top
 ```
 
+### git
+
+Snoop on Gitaly Git commands.
+
+1. Stop Gitaly
+1. Rename gitaly-git process `find /opt/gitlab/embedded/bin/gitaly-git-v* -exec mv {} {}_orig \;`
+1. Create wrapper script for each git version. Make sure you replace `opt/gitlab/embedded/bin/gitaly-git-vX.XX_orig` on the scrip with the right version.
+
+```shell
+#!/bin/bash
+GIT="/opt/gitlab/embedded/bin/gitaly-git-vX.XX_orig"
+FILE="/tmp/gitaly-$(date +%Y-%m-%d@%H:%M)"
+echo -e "\n$(date) $PPID $@\n" >> $FILE
+exec $GIT "$@" | tee -a $FILE
+echo -e "\n--------------\n" >> $FILE
+
+```
+
+1. Make scripts executable `find /opt/gitlab/embedded/bin/gitaly-git-v* -exec chmod 777 {} \;`
+1. Start Gitaly
+
 ## Log analysis
 
 Kibana (Elastic) Dashboards
