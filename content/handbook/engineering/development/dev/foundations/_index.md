@@ -23,7 +23,6 @@ We hope it's a good entry point to learn more about who we are and what we do.
 
 ## Metrics
 
-
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "STAGE_LABEL"="foundations" >}}
 {{< /tableau >}}
