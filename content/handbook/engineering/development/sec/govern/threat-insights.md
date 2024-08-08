@@ -36,22 +36,22 @@ The following members of other functional teams are our stable counterparts, and
 
 ### Performance and Optimization
 
-- DRI: {{< member-by-gitlab "nmccorrison" >}}
-- [Priorities](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#performance-and-optimization)
+* DRI: {{< member-by-gitlab "nmccorrison" >}}
+* [Priorities](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#performance-and-optimization)
 
 {{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "Quintasan" "subashis">}}
 
 ### Projects
 
-- DRI: {{< member-by-gitlab "ryaanwells" >}}
-- [Priorities](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#vulnerability-management)
+* DRI: {{< member-by-gitlab "ryaanwells" >}}
+* [Priorities](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#vulnerability-management)
 
 {{< member-and-role-by-gitlab "bala.kumar" "lorenzvanherwaarden" "Quintasan" "svedova" >}}
 
 ### AI
 
-- DRI: {{< member-by-gitlab "sming-gitlab" >}}
-- [Priorities](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#ai)
+* DRI: {{< member-by-gitlab "sming-gitlab" >}}
+* [Priorities](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#ai)
 
 {{< member-and-role-by-gitlab "dpisek" "darbyfrey" "alexbuijs" >}}
 
