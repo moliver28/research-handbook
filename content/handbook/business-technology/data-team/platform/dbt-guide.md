@@ -760,7 +760,9 @@ Because these csv files are located in our dbt repository, they are version cont
 This method is appropriate for loading static data which changes infrequently.
 A csv file that's up to ~1k lines long and less than a few kilobytes is probably a good candidate for use with the `dbt seed` command.
 
-#### Organizing columns
+Add details of seed ownership and locaion.
+
+### Organizing columns
 
 When writing a base model, columns should have some logical ordering to them.
 We encourage these 4 basic groupings:
