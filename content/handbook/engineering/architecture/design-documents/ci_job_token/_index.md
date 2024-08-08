@@ -8,7 +8,7 @@ creation-date: "2024-08-08"
 authors: [ "@mokhax" ]
 coaches: [ ]
 dris: [ "@jrandazzo", "@jayswain" ]
-owning-stage: "~devops::govern"
+owning-stage: "~govern::authorization"
 participating-stages: []
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
@@ -65,7 +65,7 @@ Document statuses you can use:
 
 -->
 
-<!-- Design Doucments often contain forward-looking statements -->
+<!-- Design Documents often contain forward-looking statements -->
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
