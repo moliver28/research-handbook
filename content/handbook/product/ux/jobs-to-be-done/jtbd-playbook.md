@@ -8,7 +8,7 @@ description: >-
 
 The playbook will ensure you tackle the right problems at the right time by focusing on the critical question: **What outcomes are you trying to influence?**.
 
-If this is your first time going through the playbook, it's recommended to review [what JTBD is and the main concepts](/handbook/product/ux/jobs-to-be-done/) before getting started.
+If this is your first time using the playbook, it's recommended to review [what JTBD is and its main concepts](/handbook/product/ux/jobs-to-be-done/) before getting started. Having a solid understanding of JTBD principles is extremely beneficial before you begin developing your domain's Jobs.
 
 #### A Note on Time, Confidence, and Validation
 
@@ -19,7 +19,7 @@ To ensure confidence in your final results, it is crucial that your deliverables
 ## Getting Started
 
 1. Create an issue in the [UX Research Project](https://gitlab.com/gitlab-org/ux-research/-/issues) and use the **[discover-jtbd](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/discover-jtbd.md)** issue template.
-1. Create a copy of the [JTBD Canvas Template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1). This will help you visualize what you know (or think you know) about a particular Domain area's Job Performers, and to get alignment with your team on all the aspects of your product, your users, their goals, and their needs.
+1. Create a copy of the [JTBD Canvas Template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1). This will help you develop what you know (or think you know) about a particular Domain area's Job Performers, and to get alignment with your team on all the aspects of your product, your users, their goals, and their needs.
 
 ### Getting help
 
@@ -28,6 +28,8 @@ If you need help at any point when working through the playbook, start by postin
 ## Define Job Performers and Their Jobs
 
 The first step in the JTBD process is identifying your users and their objectives within your product space. This foundation ensures success in subsequent steps.
+
+**Benefits:** When you've completed this step, you'll gain a clear understanding of your primary, secondary, and possibly tertiary Job Performers, along with the main goals (Jobs) they're trying to accomplish within your domain area. This can be used to help prioritize design efforts, and create more targeted and effective solutions.
 
 ### Exercise 1: Define Job Performers (sync)
 
@@ -58,6 +60,8 @@ By following these instructions, you'll systematically convert the raw data from
 ## Investigation Interviews, Job Mapping, and Outcome Survey Preparation
 
 The goal of this phase is to understand the Job and the process used for completing it by conducting qualitative interviews with representative Job Performers. The data from these interviews will provide insights into how our product's Job Performers accomplish their tasks and will inform the next steps in building and updating our product.
+
+**Benefits:** When you've completed this step, you'll have a detailed understanding of the Job Performers' processes, pain points, and needs. This will enable you to create accurate Job Maps and prepare effective Outcomes for your Outcome survey. This data can then be used to ensure that your product roadmap is guided by real user insights and focused on addressing the most critical aspects of their Jobs.
 
 ### Step 1: Conduct Interviews and Verify Their Job Maps
 
