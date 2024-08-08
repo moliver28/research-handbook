@@ -426,9 +426,9 @@ This section contains information we are not ready to delete just yet. The funct
 
 <summary>We have turned off the functionality to create Coupa purchase requests from the Allocadia details panel. We are working with Zip, the new procurment tool, to explore an integration between Allocadia & Zip to create similiar functionality that is described below.</summary>
 
-### [Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/)
+### Coupa
 
-Via an integration of Allocadia and Coupa, Marketers are able to create a Coupa Request from within Allocadia. This is a one way push of data from Allocadia into Coupa, so if you make any changes within the Coupa request, please note it will not be updated automatically within Allocadia. Video walk through of how to create a Coupa requisition directly from Allocadia can be found [here](https://youtu.be/XroayEye3kY).
+Via an integration of Allocadia and [Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/), Marketers are able to create a Coupa Request from within Allocadia. This is a one way push of data from Allocadia into Coupa, so if you make any changes within the Coupa request, please note it will not be updated automatically within Allocadia. Video walk through of how to create a Coupa requisition directly from Allocadia can be found [here](https://youtu.be/XroayEye3kY).
 
 #### Prerequisites and Notes
 

@@ -8,7 +8,9 @@ title: "Architecture & Integrations"
 
 We are the team that designs, builds and maintains the complex ecosystem of integrations and automations that exist in our Enterprise Applications ecosystem. We do this via the use of a hybrid integrations platform. We also fill a governance role in the organization for system integrations and real-time data flow by applying [standards and conventions](handbook.gitlab.com/handbook/business-technology/enterprise-applications/integrations/) for all of our Enterprise Application systems and integrations.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i>[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/enterprise-applications-integrations/)
+## <i class="fas fa-users" id="biz-tech-icons"></i>Our Team (Org Chart)
+
+[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/enterprise-applications-integrations/)
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 

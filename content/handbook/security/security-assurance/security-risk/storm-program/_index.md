@@ -181,7 +181,7 @@ For each risk identified, a formal risk response decision is made to determine h
 
 The risk object in the GRC application will be updated to reflect the agreed upon risk response. If "Remediate the Risk" is selected, the Risk Owner will execute a Risk Treatment Plan. The documented plan and status of the risk treatment will be captured within the GRC application as well. See below for more information about risk response options.
 
-#### Monitor (nothing beyond expected [iteration](/handbook/values/#iteration))
+#### Monitor (nothing beyond expected iteration)
 
 In the cases where a risk owner has concluded that a risk is within [tolerance](#translating-gitlabs-security-risk-appetite-to-risk-tolerance), no additional action is required besides ensuring that the StORM Program DRI agrees with the treatment option.
 

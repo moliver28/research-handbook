@@ -388,7 +388,9 @@ as well as our [Channel Partner Technical Presales Enablement](/handbook/reselle
 
 ### Working with GitLab - Distributors
 
-#### [**Transacting Through Distribution**](/handbook/sales/field-operations/channel-operations/#transacting-through-distribution)
+#### Transacting Through Distribution
+
+[**Transacting Through Distribution**](/handbook/sales/field-operations/channel-operations/#transacting-through-distribution)
 
 ##### **Why Does GitLab Leverage Distribution?**
 

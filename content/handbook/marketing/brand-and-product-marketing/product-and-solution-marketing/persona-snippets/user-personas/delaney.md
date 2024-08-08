@@ -4,13 +4,17 @@ title: "Delaney Persona snippets"
 
 ## SDR persona snippets by use case
 
-### [Delaney (Development Team Lead)](/handbook/product/personas/#delaney-development-team-lead)
+### Delaney (Development Team Lead)
+
+[Delaney (Development Team Lead)](/handbook/product/personas/#delaney-development-team-lead)
 
 **Overview**
 
 - description
 
-#### [VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)
+#### VC&C use case
+
+[VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)
 
 ##### SDR Discovery Questions
 
@@ -20,7 +24,9 @@ title: "Delaney Persona snippets"
 
 - ...
 
-#### [CI use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#personas)
+#### CI use case
+
+[CI use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#personas)
 
 ##### SDR Discovery Questions
 
@@ -37,7 +43,9 @@ title: "Delaney Persona snippets"
 - GitLab allows you to easily onboard new teams using a more stable solution that's built with modern development best practices in mind. See how GitLab can help you properly support them while scaling CI/CD automation across the organization.
 - ...
 
-#### [CD use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/#personas)
+#### CD use case
+
+[CD use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/#personas)
 
 ##### SDR Discovery Questions
 
@@ -47,7 +55,9 @@ title: "Delaney Persona snippets"
 
 - ...
 
-#### [DevSecOps use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#personas)
+#### DevSecOps use case
+
+[DevSecOps use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#personas)
 
 ##### SDR Discovery Questions
 

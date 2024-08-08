@@ -1,7 +1,7 @@
 ---
-# Warning: handbook.InclusionGender
+# Warning: handbook.InclusiveLanguage
 #
-# Suggests alternatives for words that are gender-specific.
+# Suggests alternatives for non-inclusive language.
 #
 # For a list of all options, see https://vale.sh/docs/topics/styles/
 extends: substitution
@@ -10,9 +10,14 @@ link: https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.
 level: warning
 ignorecase: true
 swap:
+  blacklist(?:ed|ing|s)?: denylist
+  dummy: placeholder, sample, fake
+  (?:he|she): they
+  hers: their
+  his: their
   mankind: humanity, people
   manpower: GitLab team members
-  he: they
-  his: their
-  she: they
-  hers: their
+  master: primary, main
+  sanity (?:check|test): check for completeness
+  slave: secondary
+  whitelist(?:ed|ing|s)?: allowlist

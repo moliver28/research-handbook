@@ -12,7 +12,9 @@ In relation to the [FY21-22 Segment Marketing Plan](https://docs.google.com/pres
 
 ## Key documents {#key-documents}
 
-### [Epic: Prescriptive Persona-Based Buyer Journeys](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1530)
+### Epic: Prescriptive Persona-Based Buyer Journeys
+
+[Epic: Prescriptive Persona-Based Buyer Journeys](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1530)
 
 ### Meeting recordings {#meeting-recordings}
 

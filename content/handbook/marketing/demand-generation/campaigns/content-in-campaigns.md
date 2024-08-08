@@ -60,7 +60,9 @@ The below process should be used for all new content (ebooks, guides, whitepaper
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### [Watch this video overview of the process >>](https://youtu.be/RbQ8Hr6DuQo)
+#### Watch this video overview of the process
+
+[Watch this video overview of the process >>](https://youtu.be/RbQ8Hr6DuQo)
 
 If you have any questions on this process, please contact `@aoetama` in the [#marketing-campaigns](https://gitlab.slack.com/archives/CCWUCP4MS) Slack channel. This process has been iterated since 2018 for efficiency and to fit all teams' project management practices, and is meant to continually updated as needed!
 
@@ -202,7 +204,9 @@ The purpose of the decision matrix is to gather cross-functional feedback whethe
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### [Watch this video overview of the process >>](https://youtu.be/RbQ8Hr6DuQo)
+#### Watch this video overview of the process
+
+[Watch this video overview of the process >>](https://youtu.be/RbQ8Hr6DuQo)
 
 If you have any questions on this process, please contact `@aoetama` in the [#marketing-campaigns](https://gitlab.slack.com/archives/CCWUCP4MS) Slack channel. This process has been iterated since 2018 for efficiency and to fit all teams' project management practices, and is meant to continually updated as needed!
 

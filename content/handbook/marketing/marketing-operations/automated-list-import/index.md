@@ -15,7 +15,9 @@ The objective of this process is to reduce the SLA for list imports to a minimum
 1. Each record is added to the Marketo program according to the program status specified in the import file.
 1. At the end, a slack alert is sent on the #event_list_upload channel with a report containing information regarding created, updated and failed leads.
 
-#### [Video Explanation of list upload process](https://drive.google.com/file/d/1Wp3yYLZAPeBJs9J7wIBF3R8wFaGN0SF3/view?usp=share_link)
+#### Video Explanation of list upload process
+
+[Video Explanation of list upload process](https://drive.google.com/file/d/1Wp3yYLZAPeBJs9J7wIBF3R8wFaGN0SF3/view?usp=share_link) (internal)
 
 ## How to use
 

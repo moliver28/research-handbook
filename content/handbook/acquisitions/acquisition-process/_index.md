@@ -180,9 +180,9 @@ The process is comprised of five key stages:
             1. Link to final version of APA
 1. The Corporate Development Champion will coordinate the signing and closing of the deal
 
-### [Integration](/handbook/acquisitions/acquisition-process/integration/)
+### Integration
 
-The Corporate Development team is responsible for overseeing and facilitating the post-closing integration, working closely with Legal, Product, Engineering, People, Finance, and other GitLab divisions as appropriate. The DRI is the Senior Director Corporate Development.
+The Corporate Development team is responsible for overseeing and facilitating the post-closing [integration](/handbook/acquisitions/acquisition-process/integration/), working closely with Legal, Product, Engineering, People, Finance, and other GitLab divisions as appropriate. The DRI is the Senior Director Corporate Development.
 
 The integration process is outlined in our [acquisition integration page](/handbook/acquisitions/acquisition-process/integration/).
 

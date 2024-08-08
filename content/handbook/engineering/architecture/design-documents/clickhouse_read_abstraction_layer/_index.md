@@ -189,7 +189,9 @@ Every abstraction layer comes at the cost of limited API compared to direct acce
 
 #### Open - Source solutions
 
-##### 1. [Cube.dev](https://cube.dev/)
+##### 1. Cube.dev
+
+[Cube.dev](https://cube.dev/)
 
 **Evaluation**
 
@@ -224,7 +226,9 @@ to gather first hand experience there was a conversation held with @mwoolf with 
 
 There is also a [recording](https://youtu.be/iBPTCrvOBBs) of that conversation available.
 
-##### 2. [ClickHouse FDW](https://github.com/ildus/clickhouse_fdw)
+##### 2. ClickHouse FDW
+
+[ClickHouse FDW](https://github.com/ildus/clickhouse_fdw)
 
 **Evaluation**
 
@@ -250,7 +254,9 @@ Could be a viable option to easily introduce ClickHouse as a drop-in replacement
 
 **Comment**
 
-##### 3. [Clickhouse::Activerecord](https://github.com/PNixx/clickhouse-activerecord)
+##### 3. Clickhouse::Activerecord
+
+[Clickhouse::Activerecord](https://github.com/PNixx/clickhouse-activerecord)
 
 **Evaluation**
 
@@ -271,7 +277,9 @@ Could be a viable option to easily introduce ClickHouse as a drop-in replacement
 
 **Comment**
 
-##### 4. [Metriql](https://metriql.com/)
+##### 4. Metriql
+
+[Metriql](https://metriql.com/)
 
 **Evaluation**
 

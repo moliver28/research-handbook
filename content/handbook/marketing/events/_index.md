@@ -130,11 +130,11 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
 * Event Budget:
 * Allocadia ID: `enter ID`
 
-## [Copy for landing page and emails >>]() - [template](https://docs.google.com/document/d/1_ek6A9fFPxHzPDTGs24oKM-5J5eQPLQ5CIgD0zu7_uI/edit#heading=h.6vgpxnyb4dh1)
+## [Copy for landing page and emails >>]() - template: https://docs.google.com/document/d/1_ek6A9fFPxHzPDTGs24oKM-5J5eQPLQ5CIgD0zu7_uI/edit#heading=h.6vgpxnyb4dh1
 
 * Alliances/Partner Marketing involved - (if yes, must designate a DRI)
 * Will this event include use of Marketing Development Funds (MDFs)? YES/NO
-   * [Requesting MDF Funds](<a href="https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/channel-marketing/#requesting-mdf-funds"</a>)
+   * Requesting MDF Funds: `https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/channel-marketing/#requesting-mdf-funds`
 
 ## Issues to be created
 
@@ -720,7 +720,9 @@ Field Marketing utilizes the [QR Code Generator](https://login.qr-code-generator
 
 Corporate Events utilizes [QR Code Generator](https://www.qr-code-generator.com/) to create specific QR Codes to track how many people are visiting CTA weblinks. We  promote through different pieces of collateral passed out at the booth and signage we have created promoting registration for an on-site ancillary or virtual event. Other use cases such as people scanning to attend onsite virtual activities such as coding challenges or UX surveys.
 
-#### Login for the [QR Code Generator](https://www.qr-code-generator.com/)
+#### Login for the QR Code Generator
+
+[QR Code Generator](https://www.qr-code-generator.com/)
 
 Both Field Marketing and Corporate Events utilize the same login found in the Marketing 1pass vault under `QR Code Generator - Field Marketing and Corporate Events`.
 
@@ -894,7 +896,7 @@ At GitLab owned events we will sometimes host 10 minute lightning meetings with 
 - There is no agenda for the 10 min meeting. The DRI for the meetings should quickly research the company via SFDC (if you don't have the SFDC app on your phone, this is a great use case for why it's useful!) gather as much info as quickly possible and relay this info to the CXO. As an example, if there is an enterprise customer next in-line to meet with CXO, let the CXO know. Short brief info, as you won't have much time to relay this info.
 - Notes should be taken by the DRI or a designated delegate in the room so the CXO can focus on the meeting. These notes should be added within 48 hours to the person record in SFDC by the DRI note taker. If any next steps were discussed and an action was assigned to someone not in the room, be sure to tag the person who was assigned!
 
-## How to add events to [about.gitlab.com/events](https://about.gitlab.com/events/)
+## How to add events to `about.gitlab.com/events`
 
 In an effort to publicly share where people can find GitLab for virtual events and events in-person throughout the world, we have created [about.gitlab.com/events](https://about.gitlab.com/events). This page is to be updated by the person responsible for the event. This page is now managed through [Contentful](/handbook/marketing/digital-experience/contentful-cms/). To add your event to the page or make any changes to existing events, please see the instructions [here](/handbook/marketing/digital-experience/contentful-cms/editing-content/#adding-an-event-to-the-events-page).
 

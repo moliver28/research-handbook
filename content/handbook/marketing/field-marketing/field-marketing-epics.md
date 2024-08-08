@@ -10,7 +10,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -53,7 +53,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -95,7 +95,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -138,7 +138,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -168,7 +168,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## [Landing Page]() - `to be added when live`
 
@@ -203,7 +203,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## [Landing Page]() - `to be added when live`
 
@@ -239,7 +239,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## [Landing Page]() - `to be added when live`
 
@@ -275,7 +275,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## [Landing Page]() - `to be added when live`
 
@@ -313,7 +313,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -345,7 +345,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## [Landing Page]() - `to be added when live`
 
@@ -380,7 +380,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Key Details
 * **Field Marketing Manager:**
@@ -410,11 +410,11 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 
 ## [Main Issue]()
 
-## [Dry Run Agenda]() - [template](https://docs.google.com/document/d/1ePmUc0ZUgO4aip8i3hjkROh2hKIO3WuQ7h0aSl0IsZA/edit)
+## [Dry Run Agenda]() - template: https://docs.google.com/document/d/1ePmUc0ZUgO4aip8i3hjkROh2hKIO3WuQ7h0aSl0IsZA/edit
 
 ## [Landing Page]() - `to be added when live`
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 *If creating copy for a new or customized workshop that is not utilizing one of the existing workshops' copy, please make a clone of the template above and create a new copy doc to link above. If utilizing copy for one of our existing workshops below, please check the appropriate workshop copy doc and delete the rest. Once epic is created, FMC to ping `@lfstucker` in the epic to review and approve workshop copy within a 3 day SLA. Once copy is approved, FMC can triage asset sub-issues. If any copy is adjusted, please ping `@krogel` in the epic to adjust Marketo templates as well.*
 
@@ -471,9 +471,9 @@ Utilize the [Workshop/Webcast SLA Workback Schedule](https://docs.google.com/spr
 
 ## [Main Issue]()
 
-## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy Document]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
-## [Dry Run Agenda]() - [template](https://docs.google.com/document/d/1vrdOEV4fbl5bzYpqQcCFnMN6QjuCIc0nRfilP3IvCfM/edit#heading=h.qv152nkfuvce)
+## [Dry Run Agenda]() - template: https://docs.google.com/document/d/1vrdOEV4fbl5bzYpqQcCFnMN6QjuCIc0nRfilP3IvCfM/edit#heading=h.qv152nkfuvce
 
 ## [Landing Page]() - `to be added when live`
 

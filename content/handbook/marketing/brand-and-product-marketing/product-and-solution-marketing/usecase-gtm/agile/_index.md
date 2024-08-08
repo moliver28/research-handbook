@@ -130,12 +130,16 @@ With GitLab's unique capability to connect every phase of the Software Developme
 
 User personas and their key motivations for using GitLab for Agile planning include:
 
-#### [Parker the Product Manager](/handbook/product/personas/#parker-product-manager)
+#### Parker the Product Manager
+
+[Parker the Product Manager](/handbook/product/personas/#parker-product-manager)
 
 - PMs coordinate feature development and project success, along with general workload. Abilities to monitor progress through commits and the review app, and to validate those changes and provide feedback, are key to their success.
 - Over time, changes generate valuable statistical insight for PMs to assess progress with product development and other projects.
 
-#### [Delaney the Development Team Lead](/handbook/product/personas/#delaney-development-team-lead)
+#### Delaney the Development Team Lead
+
+[Delaney the Development Team Lead](/handbook/product/personas/#delaney-development-team-lead)
 
 - Like PMs, Team Leads need to understand their team's capacity to assign upcoming tasks and meet goals on time.
 
@@ -152,7 +156,9 @@ In consideration: personas from an Agile Planning perspective might include and 
 
 Purchasing for Integrated Agile Planning may not require executive involvement, with one possible exception being the influence of the [VP Application Development](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/).
 
-#### [Erin the Application Development Executive (VP, etc.)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/)
+#### Erin the Application Development Executive (VP, etc.)
+
+[Erin the Application Development Executive (VP, etc.)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/)
 
 - Erin is a strategic leader focused on business challenges and the big picture.
 - Erin's top goal is predictable business results.

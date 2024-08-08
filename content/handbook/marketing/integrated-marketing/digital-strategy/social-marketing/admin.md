@@ -199,7 +199,9 @@ Frontmatter requires a merge, therefore, you'll need to include this as a step i
 
 UTMs are used to track traffic sources & reach of posts/links. All posts that contain GitLab-owned URLs must contain a UTM parameter.
 
-### [Organic Social Media UTM Creating Sheet](https://docs.google.com/spreadsheets/d/1RJiPE11ZdFpP7R4vSx3PQPX5V2mr2SCYS39bYLsJEvY/edit?usp=sharing)
+### Organic Social Media UTM Creating Sheet
+
+[Organic Social Media UTM Creating Sheet](https://docs.google.com/spreadsheets/d/1RJiPE11ZdFpP7R4vSx3PQPX5V2mr2SCYS39bYLsJEvY/edit?usp=sharing) (internal)
 
 [The social team manages their own social media UTM tracking sheet. Viewable to all parties, this sheet is managed only by the social media team.](https://docs.google.com/spreadsheets/d/1RJiPE11ZdFpP7R4vSx3PQPX5V2mr2SCYS39bYLsJEvY/edit?usp=sharing)
 
@@ -424,7 +426,9 @@ With the availability to post to a channel, respond to users, or edit company in
 
 #### Field Marketing team access to LinkedIn events feature
 
-##### 🔗 [View the field marketing LinkedIn admin for events quick training video on private Unfiltered channel](https://youtu.be/VxVxdjeRkps)
+##### 🔗 View the field marketing LinkedIn admin for events quick training video
+
+[View the field marketing LinkedIn admin for events quick training video on private Unfiltered channel](https://youtu.be/VxVxdjeRkps)
 
 The field marketing team is enabled to use the GitLab brand LinkedIn channel to create events, so that GitLab is seen as the event organizer. If you need to connect with who the field marketing LinkedIn events admin is, please message the social team in the #social_media_action Slack channel.
 

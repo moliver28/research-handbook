@@ -43,7 +43,7 @@ At a high level, the Release post schedule is:
 - **TW Reviewers** finish review of Features, Deprecations, Removals, Upgrades, and Extras
 - **PMMs, Product Design Managers, Product Designers, and PM Leaders** do optional reviews of release post item MRs
 - **EMs**:
-  - Merge feature release post item MRs if the underlying code was merged *before* the Thursday, 1 week before release
+  - Merge feature release post item MRs if the underlying code was merged by the Thursday, 1 week before release
   - Merge feature release post item MRs if manually verified to be in the release
     - MRs can be manually verified using the `/chatops run release check <MR URL> <RELEASE>` chatops command
 - **TW Reviewers** merge deprecation and removal MRs
@@ -401,17 +401,17 @@ To enable Engineering Managers to merge their feature blocks as soon as an issue
 
 After content block MRs are merged, they can be viewed on the [Preview page](https://about.gitlab.com/releases/gitlab-com/) and should be updated/edited via MRs to master up until the **final merge deadline of the Thursday, 1 week before release**. Starting on the Monday of release week, content block MRs should be viewed in the Review app of the release post branch after **final content assembly**, and updated/edited on the release post branch by coordinating with the Release Post Manager. From the [release date](/handbook/engineering/releases/) forward you should view the content blocks [on the blog](https://about.gitlab.com/releases/categories/releases/). It's important to check this page after the content block MR is merged because this page is LIVE to users and should be error free.
 
-### Adding, editing, or removing merged content blocks during [release week](/handbook/engineering/releases/) {#adding-editing-removing-before-release-date}
+### Adding, editing, or removing merged content blocks during release week {#adding-editing-removing-before-release-date}
 
-After the content assembly starts on the Monday of release week and before the end of Tuesday of release week, adding any new or removing any merged release post items **must be coordinated with the Release Post Manager**.
+After the content assembly starts on the Monday of [release week](/handbook/engineering/releases/) and before the end of Tuesday of release week, adding any new or removing any merged release post items **must be coordinated with the Release Post Manager**.
 
 This is necessary to allow them to assess the impact on the release post and coordinate any necessary adjustments with the release post team (Tech Writer, PM, etc.). Failure to do so might result in your changes not being picked into the release post.
 
 Before pinging the Release Post Manager, ask yourself if your content absolutely needs to be part of the current release post. At end-of-day on the Tuesday of release week, no late content blocks will be accepted.
 
-#### Requesting a late addition during [release week](/handbook/engineering/releases/) {#requesting-late-addition-before-release-date}
+#### Requesting a late addition during release week {#requesting-late-addition-before-release-date}
 
-- Ping the Release Post Manager (RPM) in `#release-post` to request adding a new late addition for the release post, and wait for the RPM to give confirmation to proceed. New late additions are release post items that were created after content assembly has already run. The Release Post Manager will do their best to accommodate the request, but it is not guaranteed.
+- Ping the Release Post Manager (RPM) in `#release-post` to request adding a new late addition for the [release post](/handbook/engineering/releases/), and wait for the RPM to give confirmation to proceed. New late additions are release post items that were created after content assembly has already run. The Release Post Manager will do their best to accommodate the request, but it is not guaranteed.
 - If the RPM approves the late addition, then PM and RPM will proceed by:
   - PM edits the release post item MR and updates the target branch to be on the release post `release-X-Y` branch.
   - PM [rebases](https://docs.gitlab.com/ee/topics/git/git_rebase.html#rebase-from-the-gitlab-ui) the release post item MR on top of `release-X-Y` branch.
@@ -429,9 +429,9 @@ Before pinging the Release Post Manager, ask yourself if your content absolutely
 - Either the Release Post Manager or the PM, with approval from the Release Post Manager, will remove YAML and image files from the `release X-Y` branch.
 - The PM will remove the feature from `features.yml` on master.
 
-### Adding, editing, or removing merged content blocks after the [release date](/handbook/engineering/releases/) {#adding-editing-removing-after-release-date}
+### Adding, editing, or removing merged content blocks after the release date {#adding-editing-removing-after-release-date}
 
-You can make changes to the release post after it's live to make edits to feature content blocks.
+You can make changes to the [release post](/handbook/engineering/releases/) after it's live to make edits to feature content blocks.
 
 To edit a content block:
 

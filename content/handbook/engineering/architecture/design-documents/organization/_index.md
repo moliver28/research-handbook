@@ -293,7 +293,9 @@ This is a catch all Organization that contains all existing entities.
 These associations will group all entities underneath an Organization, which is a pre-requisite to scaling Organizations across Cells.
 Note that not all tables fit within an Organization.
 
-### [Organization backend essentials](https://gitlab.com/groups/gitlab-org/-/epics/14111)
+### Organization backend essentials
+
+[Organization backend essentials](https://gitlab.com/groups/gitlab-org/-/epics/14111)
 
 This is foundational work to integrate the Organization at low levels of the code base.
 

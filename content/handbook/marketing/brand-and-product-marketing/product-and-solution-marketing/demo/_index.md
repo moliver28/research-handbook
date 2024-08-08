@@ -243,15 +243,21 @@ Click-through demos can be run in multiple ways:
 
 ## Live (instructions)
 
-## [Planning to Monitoring (formerly i2p)](i2p/)
+## Planning to Monitoring (formerly i2p)
+
+[Planning to Monitoring (formerly i2p)](i2p/)
 
 Highlights GitLab's single platform for the complete DevOps lifecycle, from idea to production, through issues, planning, merge request, CI/CD, and monitoring.
 
-## [CI/CD Deep Dive](cicd-deep/)
+## CI/CD Deep Dive
+
+[CI/CD Deep Dive](cicd-deep/)
 
 Provides a more in-depth look at GitLab CI/CD pipelines.
 
-## [Integration Demos](integrations/)
+## Integration Demos
+
+[Integration Demos](integrations/)
 
 Demonstrations which highlight integrations between GitLab and common tools such as Jira issues and Jenkins pipelines.
 

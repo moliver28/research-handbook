@@ -30,7 +30,9 @@ The working group will also seek to iterate on how GitLab can further scale *eve
 
 #### Deliverables & Expected Outcomes
 
-##### Complete the initial iteration of [Engineering Gearing Ratios for ICs above the Staff-level](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/59465) MR
+##### Complete the initial iteration of Engineering Gearing Ratios for ICs above the Staff-level
+
+[MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/59465)
 
 1. Consolidate feedback from the MR process and document key themes, axioms, or other structures helpful in implementing further changes
 1. Identify and communicate next phase(s) for iteration and further feedback

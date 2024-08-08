@@ -262,9 +262,9 @@ If you are a team member who intends to decline a meeting, the [asynchronous com
 
 Meeting Cleanup Day is intentionally near the start of the new fiscal year. The Office of the CEO will launch this initiative annually a week in advance through posting in the `#whats-happening-at-gitlab` Slack channel, and by re-posting a reminder at 00:00 UTC on cleanup day. Office of the CEO (or CoS) will repost in the `#managers` channel for visibility.
 
-## Program managing [JiHu](https://about.gitlab.com/pricing/faq-jihu/)
+## Program managing JiHu
 
-A member of the Office of the CEO is the DRI within GitLab for the success of GitLab's partnership with JiHu. Coordination with JiHu requires engagement from multiple functions within GitLab. The Office of the CEO ensures that the appropriate folks are engaged at the right times and that GitLab provides appropriate support to this separate entity.
+A member of the Office of the CEO is the DRI within GitLab for the success of GitLab's partnership with [JiHu](https://about.gitlab.com/pricing/faq-jihu/). Coordination with JiHu requires engagement from multiple functions within GitLab. The Office of the CEO ensures that the appropriate folks are engaged at the right times and that GitLab provides appropriate support to this separate entity.
 
 For example, this member ensures that there is an aligned process among relevant GitLab functions after a customer requests to [transit to JiHu](https://about.gitlab.com/pricing/faq-jihu/#customer-details):
 

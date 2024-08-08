@@ -282,9 +282,13 @@ category stands.
 This list of other functionality so you can easily find the team that owns it.
 Maybe we should make our features easier to search to replace the section below.
 
-### Other functionality in [Plan](/handbook/product/categories/#plan-stage) stage
+### Other functionality in Plan stage
 
-#### [Project Management group](/handbook/product/categories/#project-management-group)
+[Plan](/handbook/product/categories/#plan-stage) stage
+
+#### Project Management group
+
+[Project Management group](/handbook/product/categories/#project-management-group)
 
 - assignees
 - milestones
@@ -296,41 +300,61 @@ Maybe we should make our features easier to search to replace the section below.
 - to-do list
 - Real-time features (excluding [real-time collaboration](/handbook/engineering/development/incubation/real-time-collaboration/))
 
-#### [Knowlege group](/handbook/product/categories/#knowledge-group)
+#### Knowlege group
+
+[Knowlege group](/handbook/product/categories/#knowledge-group)
 
 - markdown functionality
 - rich text editor
 
-### Other functionality in [Create](/handbook/product/categories/#create-stage) stage
+### Other functionality in Create stage
 
-#### [Code Review group](/handbook/product/categories/#code-review-group)
+[Create](/handbook/product/categories/#create-stage) stage
+
+#### Code Review group
+
+[Code Review group](/handbook/product/categories/#code-review-group)
 
 - [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/)
 - [GitLab CLI](https://gitlab.com/gitlab-org/cli)
 
-#### [Remote Development group](/handbook/product/categories/#remote-development-group/)
+#### Remote Development group
+
+[Remote Development group](/handbook/product/categories/#remote-development-group/)
 
 - [GitLab Workflow extension for Visual Studio Code](https://docs.gitlab.com/ee/user/project/repository/vscode.html)
 
 ### Other functionality in Verify
 
-#### [CI Group](#ci-group)
+#### CI Group
+
+[CI Group](#ci-group)
 
 - [CI Abuse Response](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11678)
 
-#### [Pipeline Authoring Group](#pipeline-authoring-group)
+#### Pipeline Authoring Group
+
+[Pipeline Authoring Group](#pipeline-authoring-group)
 
 - [CI/CD Template Management and Contributions](https://docs.gitlab.com/ee/development/cicd/templates.html)
 
-### Other functionality in [Monitor stage](/handbook/product/categories/#monitor-stage)
+### Other functionality in Monitor stage
 
-### Other functionality in [Manage](/handbook/product/categories/#manage-stage) stage
+[Monitor stage](/handbook/product/categories/#monitor-stage)
 
-### Other functionality in [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
+### Other functionality in Manage stage
+
+[Manage](/handbook/product/categories/#manage-stage) stage
+
+### Other functionality in Engineering Productivity
+
+[Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
 
 - [GDK](/handbook/engineering/infrastructure/engineering-productivity/gdk/)
 
-### Other functionality in [Test Platform](/handbook/engineering/infrastructure/test-platform/)
+### Other functionality in Test Platform
+
+[Test Platform](/handbook/engineering/infrastructure/test-platform/)
 
 - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
 - [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
@@ -340,9 +364,13 @@ Maybe we should make our features easier to search to replace the section below.
 
 Internal Customers: [Gitaly](/handbook/engineering/infrastructure/#gitalycluster-group), [Core Platform section](/handbook/engineering/infrastructure/#core-platform-section), [SaaS Platforms section](/handbook/engineering/infrastructure/#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
 
-### Other functionality in [Analytics](/handbook/product/categories/#analytics-stage)
+### Other functionality in Analytics
 
-#### [Product Analytics group](/handbook/product/categories/#product-analytics-group)
+[Analytics](/handbook/product/categories/#analytics-stage)
+
+#### Product Analytics group
+
+[Product Analytics group](/handbook/product/categories/#product-analytics-group)
 
 - [Analytics Dashboards](https://docs.gitlab.com/ee/user/product_analytics/#product-analytics-dashboards) - used by many groups to add visualizations or provide pre-configured dashboards to users
 

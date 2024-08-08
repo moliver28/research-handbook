@@ -4,13 +4,17 @@ title: "Sacha Persona snippets"
 
 ## SDR persona snippets by use case
 
-### [Sasha (Software Developer)](/handbook/product/personas/#sasha-software-developer)
+### Sasha (Software Developer)
+
+[Sasha (Software Developer)](/handbook/product/personas/#sasha-software-developer)
 
 **Overview**
 
 - description
 
-#### [VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)
+#### VC&C use case
+
+[VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)
 
 ##### SDR Discovery Questions
 
@@ -20,7 +24,9 @@ title: "Sacha Persona snippets"
 
 - ...
 
-#### [CI use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#personas)
+#### CI use case
+
+[CI use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#personas)
 
 ##### SDR Discovery Questions
 
@@ -38,7 +44,9 @@ title: "Sacha Persona snippets"
 - With the leading SCM + CI in a single application, GitLab allows you to work fast and consistently deliver high quality code.
 - A complete platform for automating each step of your SDLC, GitLab CI enables you to spend more time writing code, innovating, and creating lovable features that end up providing value to your customers
 
-#### [CD use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/#personas)
+#### CD use case
+
+[CD use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/#personas)
 
 ##### SDR Discovery Questions
 
@@ -48,7 +56,9 @@ title: "Sacha Persona snippets"
 
 - ...
 
-#### [DevSecOps use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#personas)
+#### DevSecOps use case
+
+[DevSecOps use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#personas)
 
 ##### SDR Discovery Questions
 

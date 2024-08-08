@@ -113,7 +113,9 @@ The following are books suggested by GitLab team members in the [#women Slack ch
 
 ## Past Events
 
-### Talking Confidently about your Accomplishments - Live Speaker Series with [Michelle Carrizosa](https://www.michellecarrizosa.com/)
+### Talking Confidently about your Accomplishments - Live Speaker Series with Michelle Carrizosa
+
+- [Michelle Carrizosa](https://www.michellecarrizosa.com/)
 
 {{< youtube "nXvTiBfEz-c" >}}
 

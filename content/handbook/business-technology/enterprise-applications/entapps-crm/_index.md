@@ -10,7 +10,9 @@ description: "The Enterprise Applications CRM Team implements and supports speci
 
 CRM Systems exists to support the GitLab field organization by providing reliable, scalable, and intuitive technology platforms for everyday use. Primarily working on SalesforceCRM and its related Revenue Systems, our goal is to constantly deliver value in the form of features to our end users. We also act as the connective tissue between business and technology, gathering requirements from our internal customers, designing the technical specifications and executing on the delivery of the solution.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> [Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/entapps-crm/)
+## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
+
+[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/entapps-crm/)
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Services We Offer
 
@@ -265,7 +267,9 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
 | Sheela Viswanathan - Senior Manager, Sales Systems  |Al Champagne - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
 
-#### [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label :- Once the issue has been deployed, the issue should be tagged with one of the following deploy label following the [SDLC - Software Development Life Cycle](/handbook/sales/field-operations/sales-systems/#salesforcecom-change-management-processes-and-sdlc-software-development-life-cycle) by the sales systems team member assigned to the issue
+#### [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label
+
+Once the issue has been deployed, the issue should be tagged with one of the following deploy label following the [SDLC - Software Development Life Cycle](/handbook/sales/field-operations/sales-systems/#salesforcecom-change-management-processes-and-sdlc-software-development-life-cycle) by the sales systems team member assigned to the issue
 
 - SalesSystems::Deployed - 0 - No Changes
 - SalesSystems::Deployed - 1 - Settings Change

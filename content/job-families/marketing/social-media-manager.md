@@ -21,9 +21,9 @@ Social Media at GitLab focuses on understanding people who make up the GitLab co
 
 The world's most renowned brands are perceived to be larger than life. As GitLab scales to new heights, the Social Media team prioritizes opportunities for brand-level storytelling initiatives. By sharing our company values, perspectives on remote work, or leaning into our product's features, we'll help users understand how they feel about GitLab overall.
 
-### You must share our [values](/handbook/values/) and work under those values
+### You must share our values and work under those values
 
-*A sample of how GitLab's core values show up in Social Media:*
+*A sample of how GitLab's core [values](/handbook/values/) show up in Social Media:*
 
 #### 🤝 Collaboration
 

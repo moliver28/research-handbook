@@ -19,7 +19,9 @@ Our team ensures the availability of these applications through monitoring and a
 - Leveraging out of the box best practices as much as possible. We buying and extend applications where we don't see building them as GitLabs core engineering competency
 - IT Audit and Compliance - Ensuring that all customer / business data is secure and can pass key audits for attestations and compliance with SOX, SOC, etc.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> [Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/finance-ops/)
+## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
+
+[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/finance-ops/)
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Services We Offer
 
