@@ -43,7 +43,7 @@ At a high level, the Release post schedule is:
 - **TW Reviewers** finish review of Features, Deprecations, Removals, Upgrades, and Extras
 - **PMMs, Product Design Managers, Product Designers, and PM Leaders** do optional reviews of release post item MRs
 - **EMs**:
-  - Merge feature release post item MRs if the underlying code was merged *before* the Thursday, 1 week before release
+  - Merge feature release post item MRs if the underlying code was merged by the Thursday, 1 week before release
   - Merge feature release post item MRs if manually verified to be in the release
     - MRs can be manually verified using the `/chatops run release check <MR URL> <RELEASE>` chatops command
 - **TW Reviewers** merge deprecation and removal MRs
