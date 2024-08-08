@@ -221,11 +221,11 @@ It is critical to be intentional when organizing a self-service data environment
 - fct_and dim_ models should be materialized as tables to improve query performance.
 - Before implementing the current dimensional modeling structure, we used a [different data modeling approach](/handbook/business-technology/data-team/platform/dbt-guide/#model-structure). This structure still exists in our Legacy schema, while some of it has been migrated to the newer methodology. Look at the [Use This Not That](https://docs.google.com/spreadsheets/d/1yr-J4ztkyl9vmJ6Euj58gczDLTIss7xIher5SV-1VDY/edit?usp=sharing) mapping to determine which new Kimball model replaces the legacy model.
 
-## Schemas
+### Schemas
 
 The `Common` schemas contain the Enterprise Dimensional Model. Each schema has a specific purpose in the Architecture as described below.
 
-### Common Prep
+#### Common Prep
 
 The Common Prep Schema has 6 primary use cases at this time. The use cases are as follows:
 
@@ -246,15 +246,15 @@ In order to keep the `COMMON_PREP` schema streamlined and without unnecessary re
 
 1. Prefer to not make a model in the `COMMON_PREP` schema that is only for the sake of following the same pattern of having Prep models. For example, if a dimension table is built in the `COMMON` schema and is only built by doing a `SELECT *` from the table in the `COMMON_PREP` schema, then it may be the case that the Prep model is not needed and we can build that model directly in the `COMMON` schema.
 
-### Common Mapping
+#### Common Mapping
 
 Mapping/look-up(map_) tables to support dimension tables should be created in the `common_mapping` schema.
 
-### Common
+#### Common
 
 The Common schema is where all of the facts and dimensions that compose the Enterprise Dimensional Model are stored. The Common schema contains a variety of different types of dimensions and facts that create multiple star schemas. The models in this schema are robust and provide the basis for analyzing GitLab's businesses processes. The `Common Mart` schema contains materializations of the star schemas stored in the `Common` schema that provide the Analyst and BI Developer with easy to use and query data marts. What follows is a summary of the different types of facts and dimensions that are available in the Common Schema.
 
-#### Conformed Dimensions
+##### Conformed Dimensions
 
 Conformed Dimensions serve as the basis for a series of interlocking stars.
 
@@ -264,7 +264,7 @@ Conformed Dimensions serve as the basis for a series of interlocking stars.
 1. Kimball refers to the set of conformed dimensions as the conformance bus.
 1. Reuse of Common Dimensions allows for reports that combine subject areas.
 
-#### Local Dimensions
+##### Local Dimensions
 
 Local dimensions serve as the basis for analyzing one star.
 
@@ -272,11 +272,11 @@ Local dimensions serve as the basis for analyzing one star.
 1. These local dimensions can be useful if we do not want to store the attributes on the single fact table as degenerate dimensions. In that case, we can promote those dimensional attributes to a stand-alone, local dimension table.
 1. An example is [dim_instances](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_instances) that contains statistical data for instances from Service ping and is specifically used in Product Usage models like [mart_monthly_product_usage](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.mart_monthly_product_usage).
 
-#### Atomic Facts
+##### Atomic Facts
 
 Facts are the things being measured in a process. The terms `measurement` or `metric` are often used instead of fact to describe what is happening in the model. The Atomic Facts are modeled at the lowest level of the process they are measuring. They do not filter out any data and include all the rows that have been generated from the process the Atomic Fact table is describing. The documentation for the models would include details about the fact table being an atomic one or a derived one.
 
-#### Derived Facts
+##### Derived Facts
 
 Derived Facts are built on top of the Atomic Facts. The Derived Fact directly references the Atomic Fact thereby creating an auditable, traceable lineage. The documentation for the models would include details about the fact table being an atomic one or a derived one. There are several use cases for building a Derived Fact table:
 
@@ -284,11 +284,11 @@ Derived Facts are built on top of the Atomic Facts. The Derived Fact directly re
 1. Precompute and aggregate commonly used aggregations of data. This is particular useful with semi-additive and non-additive measurements. For example, semi-additive metrics such as ratios cannot be summed across different aggregation grains and it is necessary to recompute the ratio at each grain. In this case, creating a Derived Fact would help insure that all Analysts and BI Developers get the same answer for the ratio analysis. Another example is with measures that are semi-additive balances such as ARR, Retention, or a Balance Sheet account balance. In those cases, creating Derived Facts that precompute answers at the required grains would help insure that all Analysts and BI Developers get the same answer for the analyses.
 1. Create `Drill Across Facts` that connect two or more facts together through Conformed Dimensions and store as a Derived Fact table. In this process, separate select statements are issued to each fact in the project and includes the Conformed Dimensions the facts have in Common. The results are combined using a Full Outer Join on the Conformed Dimensions included in the select statement results.
 
-#### Bridge Tables
+##### Bridge Tables
 
 Bridge(bdg_) tables should reside in the `common` schema. These tables act as intermediate tables to resolve many-to-many relationships between two tables.
 
-### Common Mart
+#### Common Mart
 
 Marts are a combination of dimensions and facts that are joined together and used by business entities for insights and analytics. They are often grouped by business units such as marketing, finance, product, and sales. When a model is in this directory, it communicates to business stakeholders that the data is cleanly modelled and is ready for querying.
 
@@ -297,7 +297,7 @@ Below are some guidelines to follow when building marts:
 1. Following the naming convention for fact and dimension tables, all marts should start with the prefix `mart_`.
 1. Marts should not be built on top of other marts and should be built using FCT and DIM tables.
 
-#### Scaffold Tables
+##### Scaffold Tables
 
 Scaffold tables provide a foundational structure between desired fact tables ensuring that all potential combinations of dimensions are represented in visualizations and analyses, even if some combinations are absent in any of the primary fact tables. This is particularly valuable in tools like Tableau which may necessitate a full dataset for relationships. Here, scaffold tables act as a template or blueprint that the corresponding fact tables can join to.
 
@@ -446,7 +446,7 @@ Note: The number of fields to be shown for each of the entity can easily be modi
 ![ERD.png](images/ERD.png)
 </details> <br>
 
-## SPECIFIC Schema
+## Specific Schema
 
 More details coming soon...
 
