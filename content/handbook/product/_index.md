@@ -51,7 +51,7 @@ It is your responsibility to communicate with relevant team members about your m
 
 ## Product Management
 
-- If you'd like to collaborate with product management see [where to reach product managers](/handbook/product/product-management/#where-to-reach-product-managers).
+If you'd like to collaborate with product management see [How to Engage](/handbook/product/product-management/#how-to-engage-product-managers) guide.
 
 ### [**Product Principles**](/handbook/product/product-principles/)
 
