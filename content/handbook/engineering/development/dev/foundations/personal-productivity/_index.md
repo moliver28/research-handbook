@@ -45,23 +45,7 @@ We use a Fibonacci scale and in terms of complexity, we use [this table](https:/
 - **8 - Extra Large.** This is going to take some time and research and probably more than one engineer to complete within the milestone. At this size, we should be looking at how we can split this into smaller issues/tasks.
 - **13+ - Ludicrous!** This issue is far too complex, large, or under-defined. Anything with a weight of this size should go back to `~workflow::refinement` to be refined and split into more manageable chunks.
 
-## Fifth week of focus
-
-With our [release schedule](/handbook/engineering/workflow/#product-development-timeline) our milestones are either four or five weeks long.
-To make planning more predictable and encourage experimentation, we treat the fifth week of any longer milestone as a week of focus.
-During this week, our engineers are encouraged to work on a project of their own choosing.
-It could be starting a proof-of-concept, learning a new skill, burning down neglected issues, writing a blog post, or something else.
-The only requirement is that it contributes to the team, or their personal development.
-
-We trialed this as an [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5528) in December 2023 and it was a great success.
-
-The five week milestones occur at these places in 2024.
-All other milestones are four weeks long:
-
-- February 9 to March 15, 2024
-- May 10 to June 14, 2024
-- August 9 to September 13, 2024
-- October 11 to November 15, 2024
+{{% include "../_fifth_week_of_focus.erb" %}}
 
 ## Metrics
 
