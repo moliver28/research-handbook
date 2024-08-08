@@ -1,29 +1,33 @@
 ---
-title: "TMRG - Generational Understanding"
-description: "We are the Generational Understanding Resource Group (TMRG) founded in the summer of 2020. Learn more!"
+title: "TMAG - Generational Understanding"
+description: "We are the Generational Understanding Resource Group (TMAG) founded in the summer of 2020. Learn more!"
 ---
 
 ## Mission
 
-The mission of the generational understanding [TMRG]({{< ref "erg-guide" >}}) is to ensure that team members of all ages feel they have a safe space to communicate, unite and share issues that are reflective of their experience while at GitLab, and to explicitly foster more sharing of wisdom across generations. We encourage a work culture where GitLab team members of all ages are valued, empowered, and given opportunities to develop and contribute to their full potential. This culture will be a competitive advantage for GitLab, as it helps GitLab become a thought leader on this topic. It will leverage the wisdom of all team members, as it helps identify ongoing patterns as well as best practices for mentoring.
+The mission of the generational understanding [TMAG]({{< ref "erg-guide" >}}) is to ensure that team members of all ages feel they have a safe space to communicate, unite and share issues that are reflective of their experience while at GitLab, and to explicitly foster more sharing of wisdom across generations. We encourage a work culture where GitLab team members of all ages are valued, empowered, and given opportunities to develop and contribute to their full potential. This culture will be a competitive advantage for GitLab, as it helps GitLab become a thought leader on this topic. It will leverage the wisdom of all team members, as it helps identify ongoing patterns as well as best practices for mentoring.
 
 ## Lead(s)
 
 - [Miles Russell](https://gitlab.com/mdrussell) - from earlier 1/3 of current workplace generations.
 - [Terri Chu](https://gitlab.com/terrichu) - from middle 1/3 of current workplace generations.
-- [Darwin Sanoy](https://gitlab.com/DarwinJS) - from later 1/3 of current workplace generations.
 
 ## How to Join
 
-- Please sign up for the [Generational Understanding Google Group](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) to be added to the Generational Understanding TMRG. This will ensure you're added to upcoming TMRG calendar events. It might take up to 24 hours before the calendar events appear on your calendar. If there is an event happening within 24 hours of you joining the Google Group, please post in the [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100) Slack channel to be added manually.
-- Join the [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100) Slack channel for conversation, announcements, and connecting with other TMRG members. Feel welcome to introduce yourself in the channel when you join!
+- Please sign up for the [Generational Understanding Google Group](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) to be added to the Generational Understanding TMAG. This will ensure you're added to upcoming TMAG calendar events. It might take up to 24 hours before the calendar events appear on your calendar. If there is an event happening within 24 hours of you joining the Google Group, please post in the [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100) Slack channel to be added manually.
+- Join the [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100) Slack channel for conversation, announcements, and connecting with other TMAG members. Feel welcome to introduce yourself in the channel when you join!
 
 ## Activities
 
 ### Recurring Activities
 
-- Tri-Weekly Group Meeting
-  - [Agenda](https://docs.google.com/document/d/1h81q60KnCJFsATKjZKOFglBmgkv8TlGrKY8punX2SEg/edit#heading=h.hypr6mscnzqs)
+- Monthly Group Meeting - [Agenda](https://docs.google.com/document/d/1h81q60KnCJFsATKjZKOFglBmgkv8TlGrKY8punX2SEg/edit#heading=h.hypr6mscnzqs)
+
+In the monthly call we'll divide our time into three parts:
+
+1. **Discussion topics**: Ahead of the call, we'll identify a discussion topic focusing on challenges and opportunities arising from different generations working together. During the call, everyone is welcomed to participate in the discussion or just sit in and soak up the atmosphere. The goal here is to create a forum for team members from different generations to collaborate in a safe and welcoming space. If you have an idea for topics, please add them [here](https://gitlab.com/gitlab-com/generational-understanding-tmrg/-/issues/19)!
+1. **Open issues**: We'll take time to review new and lingering open [issues](https://gitlab.com/gitlab-com/generational-understanding-tmrg/-/issues/?sort=created_date&state=opened&first_page_size=100) related to the TMAG.
+1. **Questions/free form discussion**: We don't want to leave any ideas or discussion on the table, so we'll reserve time to ensure folks can share and ask questions as needed.
 
 ### As Needed Activities
 
@@ -36,8 +40,6 @@ The mission of the generational understanding [TMRG]({{< ref "erg-guide" >}}) is
 Join our Film Discussion. In this iteration, we're watching the film "Duty Free". About the film:
 
 > After a 75 year-old immigrant mother gets fired without cause from her lifelong job as a hotel housekeeper, her son takes her on a bucket-list adventure to reclaim her life. As she struggles to find work, he documents a journey that uncovers the economic insecurity shaping not only her future, but that of an entire generation.
-
-The film discussion will take place at the next TMRG meeting on 07/06/2021. Add yourself to the Film Discussion issue linked above and join us for the Zoom discussion or contribution asynchronously through the issue.
 
 #### [Book Club - Wisdom at Work](https://gitlab.com/gitlab-com/book-clubs/-/issues/13)
 
@@ -65,7 +67,7 @@ Links to interesting handbook pages, articles, books, and training
 
 ### Handbook
 
-- [Speaking with TMRG members in the hiring process]({{< ref "talent-acquisition-initiatives#speaking-with-tmrg-members-in-the-hiring-process" >}})
+- [Speaking with TMAG members in the hiring process]({{< ref "talent-acquisition-initiatives#speaking-with-tmrg-members-in-the-hiring-process" >}})
 - [Team member identity data]({{< ref "identity-data#age-distribution" >}})
 - [Lack of dates on resume]({{< ref "talent-acquisition-initiatives#lack-of-dates-on-your-resume" >}})
 
@@ -92,4 +94,4 @@ Links to interesting handbook pages, articles, books, and training
 
 ### Videos
 
-- [An overview of the GitLab Generational Understanding TMRG](https://www.youtube.com/watch?v=6eke5700KWc)
+- [An overview of the GitLab Generational Understanding TMAG](https://www.youtube.com/watch?v=6eke5700KWc)
