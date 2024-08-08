@@ -347,9 +347,9 @@
   - name: Release posts
     url: /handbook/marketing/blog/release-posts
   - name: About the GitLab Product
-    url: /handbook/product/gitlab-the-product
+    url: /handbook/product/categories/gitlab-the-product
   - name: Being a Product Manager at GitLab
-    url: /handbook/product/product-manager-role
+    url: /handbook/product/product-management
   - name: Product Principles
     url: /handbook/product/product-principles
   - name: Product Processes
