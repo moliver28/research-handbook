@@ -25,7 +25,6 @@ It is then up to the PM to weigh all these inputs and decide on a prioritization
 
 Please see the [Product Categories](/handbook/product/categories/) to know which product manager handles which category.
 
-
 ## How do I share feedback?
 
 Generally speaking, all product feedback should be provided via issues. For detailed overview of how to create an issue, please [read this section on the process](/handbook/product/product-processes/#issues). If you have any product-related questions, comments, input, or otherwise, the Product Manager is the primary person you should talk to, *if creating an issue does not suffice*.
