@@ -5,7 +5,7 @@ title: 'EPSS Support ADR 003: Use EPSS API over ZIP file'
 
 ## Context
 
-The EPSS Feeder in PMDB retrieves data from https://www.first.org/epss/data_stats and publishes it via GCP's Pub/Sub. Two options were considered for this retrieval:
+The EPSS Feeder in PMDB retrieves data from [the EPSS source](https://www.first.org/epss/data_stats) and publishes it via GCP's Pub/Sub. Two options were considered for this retrieval:
 
 1. Downloading a ZIP file containing EPSS data.
 2. Using the API to fetch data directly.
