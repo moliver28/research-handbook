@@ -131,8 +131,8 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ------- | --------- | -------------- | 
 | 2024-08-05 | 2024-08-09 |  Ivan French - CEO, Sijbrandij Foundation | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | REMOTE - PT |
-| 2024-08-12 | 2024-08-16 | OPEN | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
-| 2024-08-19 | 2024-08-23 | OPEN | OPEN | REMOTE - PT - limited week (M-W)|
+| 2024-08-12 | 2024-08-16 | [Emily Plotkin](https://gitlab.com/emilyplotkin) - Senior Director, Legal - Employment | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
+| 2024-08-19 | 2024-08-23 | OPEN | [Emily Plotkin](https://gitlab.com/emilyplotkin) - Senior Director, Legal - Employment | REMOTE - PT - limited week (M-W)|
 | 2024-08-26 | 2024-08-30 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | OPEN | REMOTE - PT |
 | 2024-09-02 | 2024-09-06 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
 | 2024-09-09 | 2024-09-13 | OPEN | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |

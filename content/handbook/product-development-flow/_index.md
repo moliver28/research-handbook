@@ -184,6 +184,8 @@ To start the Design phase, the Product Designer or Product Manager applies the `
 
 After identifying one or more potential solutions that meet business requirements and are technically feasible, the Product Manager and Product Designer must ensure that we have confidence that the proposed solution will meet the user's needs and expectations. This confidence can be obtained from work performed during the design phase and supplemented with additional research (including user interviews, usability testing, or solution validation). If necessary, this phase will launch a Solution Validation issue within the [GitLab UX Research project](https://gitlab.com/gitlab-org/ux-research) which will walk the team through research to validate their proposed solution(s).
 
+In addition, any [non-functional requirements](/handbook/product/product-processes/#non-functional-requirements) for the feature need to be considered and documented. These include such things as evaluating whether or not [application limits](/handbook/product/product-processes/#introducing-application-limits) need to be introduced, or any [considerations around data storage](/handbook/product/product-processes/#considerations-around-data-storage) should be evaluated. Defining these non-functional requirements up front ensures we are considering scalability and the long-term success of the feature. Sensible default values should be identified at this stage which align with the long-term vision for the feature.
+
 To start the Solution Validation phase, the Product Designer or Product Manager applies the `workflow::solution validation` label to an existing issue.
 
 #### Outcomes and Activities

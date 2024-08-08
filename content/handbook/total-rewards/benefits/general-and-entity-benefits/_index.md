@@ -84,7 +84,7 @@ GitLab offers resources related to [Financial Wellness]({{< ref "financial-welln
 
 ## Paid Time Off
 
-GitLab has a "Flexible PTO policy" [time off policy]({{< ref "paid-time-off" >}}) per 25 consecutive calendar days off.
+GitLab has a "Flexible PTO policy" [time off policy]({{< ref "paid-time-off" >}}) applicable to vacations up to 25 consecutive calendar days off.
 
 ## Growth and Development Fund
 

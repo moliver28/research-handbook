@@ -1,8 +1,17 @@
-VP, Strategy & Developer Relations 
+---
+title: "Vice President of Strategy & Developer Relations"
+description: "Job description fo the Vice President of Strategy & Developer Relations."
+---
 
-The VP, Strategy & Developer Relations is responsible for driving the company’s strategic objectives as well as industry trends related to AI and hyperscalers and to identify, recommend, and evaluate initiatives that will meet GitLabs growth objectives.  Additionally this role is responsible for engaging our customers to co-create with GitLab and encouraging wider community members to contribute to our open-core platform - a major differentiator for GitLab.
+The VP, Strategy & Developer Relations is responsible for driving the company’s strategic objectives as well as industry trends related to AI and hyperscalers and to identify, recommend, and evaluate initiatives that will meet GitLabs growth objectives. Additionally this role is responsible for engaging our customers to co-create with GitLab and encouraging wider community members to contribute to our open-core platform - a major differentiator for GitLab.
 
-### Strategy 
+#### Job Grade
+
+The VP, Strategy & Developer Relations is a grade 12. (https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+
+## Responsibilities
+
+**Strategy** 
 
 - Drive the company’s strategic objectives as well as industry trends related to AI (GTM) / hyperscalers to identify, recommend and execute on initiatives that meet the company’s growth objectives.
 - Meet with customers to validate the strategies and iterate as needed
@@ -17,7 +26,7 @@ The VP, Strategy & Developer Relations is responsible for driving the company’
 - Proactively drive what thought leadership is needed and collaborate with field CTOs, Corporate Communications, Product Marketing
 - Lead and/or be a key participant in special projects and fill in the gaps wherever needed.
 
-### Developer Advocacy
+**Developer Advocacy**
 
 - Drive the early adopters program to get early customer feedback on features being released and work with product on iteration as needed
 - Define the strategy for our future GitLab community/forums and measure its activity and engagement
@@ -26,7 +35,7 @@ The VP, Strategy & Developer Relations is responsible for driving the company’
 - Manage and build a team of technical marketers, evangelists, community builders and maintainers, marketing program owners and technical content specialists.
 - Own the community, content and marketing programs needed to meet the goals of having a vibrant active and engaged community and increasing code contributions.
 
-### Requirements
+## Requirements
 
 - A visionary strategist and scaler, adept at connecting the dots between vision, the innovations and the infrastructure required to achieve it.
 - Big cloud experience - understanding their services and how they operate
@@ -43,10 +52,25 @@ The VP, Strategy & Developer Relations is responsible for driving the company’
 - You have experience leading a team in developer relations or community advocacy programs, preferably open source in nature.
 - You know how to use a marketing funnel to drive results and outcomes.
 
-## Job Grade
-
-The VP, Strategy & Developer Relations is a grade 12. (https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
-
 ## Career Ladder
 
 The career ladder for this role is not yet defined.
+
+## Performance Indicators
+
+## Hiring Process
+
+Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
+Additional details about our process can be found on our [hiring page](/handbook/hiring/).
+
+Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#conducting-a-screening-call) with one of our Global Recruiters.
+
+- A 45 minute interview with Chief Marketing Officer
+- A 30 minute interview with Senior Director of Strategic Marketing
+- A 30 minute interview with Senior Director of Corporate Marketing
+- A 30 minute interview with Marketing People Business Partner
+- Successful candidates will subsequently be made an offer via email
+
+## Relevant Links
+
+- [Marketing Handbook](/handbook/marketing/)

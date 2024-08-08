@@ -33,7 +33,7 @@ different uses of the word `pod` in the GitLab context.
 | [CI/CD](https://gitlab.com/gitlab-com/support/support-pods/-/blob/main/CI/CD/Readme.md) | [#spt_pod_cicd](https://gitlab.enterprise.slack.com/archives/C04DHQ91WJE) | <ul><li>{{< member-by-name "Manuel Grabowski" >}}</li></ul> |
 | [Code Contributions](https://gitlab.com/gitlab-com/support/support-pods/-/blob/main/Code%20Contributions/README.md) | [#spt_pod_code-contributions](https://gitlab.enterprise.slack.com/archives/C05DUHAG3EY) | <ul><li>{{< member-by-name "Anton Smith" >}}</li><li>{{< member-by-name "Manuel Grabowski" >}}</li></ul> |
 | [Database](https://gitlab.com/gitlab-com/support/support-pods/-/blob/main/Database/README.md) | [#spt_pod_database](https://gitlab.enterprise.slack.com/archives/C05K0R2830A) | <ul><li>{{< member-by-name "Ben Prescott" >}}</li></ul> |
-| [Geo](https://gitlab.com/gitlab-com/support/support-pods/-/blob/main/Geo/README.md) | [#spt_pod_geo](https://app.slack.com/client/T02592416/C03D96JF4LD) | <ul><li>{{< member-by-name "Ronald van Zon" >}}</li><li>{{< member-by-name "Anton Smith" >}}</li></ul> |
+| [Geo](https://gitlab.com/gitlab-com/support/support-pods/-/blob/main/Geo/README.md) | [#spt_pod_geo](https://app.slack.com/client/T02592416/C03D96JF4LD) | <ul><li>{{< member-by-name "Ronald van Zon" >}}</li><li>{{< member-by-name "Anton Smith" >}}</li><li>{{< member-by-name "Keelan Lang" >}}</li></ul> |
 | [GET](https://gitlab.com/gitlab-com/support/support-pods/-/blob/main/GET/README.md) | [#spt_pod_get](https://app.slack.com/client/T02592416/C05NL747NMD) | <ul><li>{{< member-by-name "Lewis Brown" >}}</li></ul> |
 | [Git and Gitaly](https://gitlab.com/gitlab-com/support/support-pods/-/blob/main/Git%20and%20Gitaly/README.md) | [#spt_pod_git](https://gitlab.enterprise.slack.com/archives/C04D5FUADAM) | <ul><li>{{< member-by-name "Jessie Lee" >}}</li></ul> |
 | [GitLab Dedicated](https://gitlab.com/gitlab-com/support/support-pods/-/blob/main/GitLab%20Dedicated/README.md) | [#spt_pod_dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) | <ul><li>{{< member-by-name "Brie Carranza" >}}</li><li>{{< member-by-name "Armin Hergenhan" >}}</li><li>{{< member-by-name "Wade Jenkins" >}}</li><li>{{< member-by-name "Daphne Kua" >}}</li><li>{{< member-by-name "Wei-Meng Lee" >}}</li></ul> |
@@ -143,8 +143,8 @@ This is a non-exhaustive list that leads have completed with success:
 
 1. [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis)
    - Action: Create issues for "Threats" and "Weaknesses". Assign DRIs to resolve.
-1. Analysis of expertise across SGGs. [Example for Auth](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4920).
-   - Action: May vary, such as invite a base number per SGG to join the Support Pod, or targeted number open traning modules.
+1. Analysis of expertise. [Example for Auth](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4920).
+   - Action: May vary, such as invite a base number to join the Support Pod, or targeted number open traning modules.
 1. Collect list of pain points from Support team members through a chosen method, such as a survey.
    - Action: Analyze the list for actionable points. Create issues for each, and assign DRIs to resolve.
 

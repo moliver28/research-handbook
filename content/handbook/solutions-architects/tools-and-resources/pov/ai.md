@@ -14,6 +14,9 @@ We need to proactively identify languages, testing questions and teams with them
 - Proactive testing scenario
 - Time boxed hands on POV with active guidance throughout
 - Conduct a pre survey before the POV and post survey after the POV to gauge the success
+- Verify which IDEs and versions will be used for the POV
+- Prior to the POV, host office hours to assist in installing the GitLab Duo plugin in IDEs
+- Create a collaboration project to keep track of issues and resolutions during office hours
 - Kick-off the POV with a workshop for a headstart. The schedule could be the following, for a 2-hour session
   - 5 min - welcome participants
   - 5 min - introduction

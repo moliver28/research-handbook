@@ -54,7 +54,7 @@ Note that everyone's needs are different, so consider the following as a list of
   - Walk them through Zendesk and how to use it
   - Answer any questions they have about the [ticket workflow handbook pages](/handbook/support/workflows/)
   - Walk through your own process for choosing and answering tickets
-  - Talk about [setting salutations in signature](https://gitlab.com/gitlab-com/support/team/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&search=salutation)
+  - Talk about [setting salutations in signature](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/Support-team-entry/Zendesk#zendesk-hash-object)
   - Show them how to create a ticket pairing issue
   - While trying to help them feel comfortable, we also want new SEs to develop the [low level of shame](/handbook/values/#low-level-of-shame) value by going out of their comfort zone. Stress that there are no stupid questions (maybe share the most recent "silly question" that you asked) and encourage them to ask questions in different public Slack channels
   - Have them setup pairings with different subject matter experts when they feel stuck on a topic

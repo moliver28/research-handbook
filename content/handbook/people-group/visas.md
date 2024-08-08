@@ -243,11 +243,109 @@ There is more information [here](https://enterprise.gov.ie/en/what-we-do/workpla
 
 GitLab may be able to offer employment agreements to selected highly skilled candidates seeking employment in an EU country where GitLab has an entity who apply for, or already hold, an EU Blue card for that country. GitLab may also be able to offer employment agreements to current team members looking to relocate to an EU country where GitLab has an entity who have been [approved for relocation]({{< ref "relocation#how-to-apply-for-a-long-term-relocation" >}}) to such country and are planning to apply for an EU Blue Card.
 
-Please note: GitLab does not cover any costs for the application nor does it guarantee the issuance of the EU Blue card.  The employment agreement offered includes the condition that the candidate will hold the sufficient right to work and if a Blue Card is required that they will be able to obtain the Blue Card.  If the Blue Card is denied, the employment agreement would be rescinded. GitLab will only consider candidates and team member relocation requests for prospective Blue Card holders in countries where we are currently open for hiring. GitLab will not assist with Blue Card applications beyond providing an employment agreement and any company information needed for the application.
+Please note: GitLab does not cover any costs for the application nor does it guarantee the issuance of the EU Blue card. The employment agreement offered includes the condition that the candidate will hold the sufficient right to work and if a Blue Card is required that they will be able to obtain the Blue Card. If the Blue Card is denied, the employment agreement would be rescinded. GitLab will only consider candidates and team member relocation requests for prospective Blue Card holders in countries where we are currently open for hiring. GitLab will not assist with Blue Card applications beyond providing an employment agreement and any company information needed for the application.
 
-The EU Blue Card is a work and residence permit for highly skilled workers who are non-EU citizens. Application requirements may vary by country. As you will need a local employment agreement to complete your Blue Card application, current team members will need to [apply for a Long-Term Relocation]({{< ref "relocation#how-to-apply-for-a-long-term-relocation" >}}) to the country from which you are seeking a Blue Card. It is strongly recommended that you wait for approval for your long-term relocation before beginning your EU Blue Card application.
+The EU Blue Card is a work and residence permit for highly skilled workers who are non-EU citizens and meet the country-specific salary threshold. Blue Cards are employer-specific but may be transferred by giving proper notice to the immigration authorities. Application requirements may vary by country. As you will need a local employment agreement to complete your Blue Card application, current team members will need to [apply for a Long-Term Relocation]({{< ref "relocation#how-to-apply-for-a-long-term-relocation" >}}) to the country from which you are seeking a Blue Card. It is strongly recommended that you wait for approval for your long-term relocation before beginning your EU Blue Card application.
+
+If a candidate is interested in employment at GitLab in a country where they require a Blue Card for work authorization, GitLab may move forward with their candidacy under the following circumstances:
+
+- The candidate understands that GitLab will not assist with their Blue Card application or any associated fees. GitLab can only provide company information and a signed employment agreement. GitLab will not adjust offered compensation in order to meet Blue Card salary minimum requirements.
+- The candidate understands that their employment in that country is contingent upon them securing proper work authorization before they begin working for GitLab. If their authorization is denied or lapses during the term of employment, they will be required to immediately cease working and GitLab will not be able to assist with pursuing a new work permit or sponsorship.
+- Their employment agreement includes wording stating that their employment in that country is contingent upon them securing proper work authorization and if such authorization is denied or lapses the offer is rescinded.
+- The hiring manager understands all of the above and acknowledges the risk that this candidate may not end up being authorized to work for GitLab, or that their visa may expire during the term of their employment and they will be unable to continue working. In the event that a visa is denied or expires GitLab will not be able to make any exceptions to the visa and sponsorship policy for any team members or candidates.
 
 More detailed links on the process:
 
 - [Schengenvisainfo.com/EU-Blue-Card](https://www.schengenvisainfo.com/eu-blue-card/)
 - [EU Immigration portal](https://ec.europa.eu/immigration/blue-card/essential-information_en#:~:text=How%20long%20can%20I%20work,which%20has%20issued%20the%20card.)
+
+### Other visas GitLab may be able to accept
+
+GitLab’s acceptance of a visa depends on many factors. The following visas may make a candidate eligible to work at GitLab. The following list is not exhaustive.
+
+#### Australia Employer Nomination Scheme visa (subclass 186)
+
+This is an employer-sponsored permanent resident visa. GitLab cannot support a new application for this visa, but may be able to hire a candidate who (1) has been granted this visa while working at a former employer, and (2) worked at that employer for at least 2 years after the visa was granted. This visa is valid for 5 years and cannot be renewed, but the visa holder is able to apply for permanent residency or citizenship upon expiration. Candidates and hiring managers must be aware that if the subclass 186 visa expires without securing a new form of work authorization the team member will need to stop working immediately upon expiration and GitLab will not be able to assist with or sponsor new work authorization.
+
+#### India Employment Visa
+
+Grants work rights for the duration of an employment relationship and does not require employer sponsorship. GitLab can assist with providing a local employment agreement and a copy of the company registration for the application, but will not apply for the visa on a team member’s behalf. Valid for up to one year and may be extended for up to five years. When hiring candidates who hold a this visa, emphasize that GitLab will not be able to assist with sponsorship of a new pass once their visa expires. Hiring managers should also understand that a candidate will only be able to work for GitLab until their visa expires and GitLab will not be able to make exceptions to our sponsorship policy at that time.
+
+#### Japan Engineer Visa
+
+GitLab can provide company information for this visa application. The employee is responsible for their own application and all fees associated with the visa. May be valid for 1 year, 3 years, or 5 years depending on the visa approval, and may be extended/renewed.
+
+#### Netherlands Partner Visa
+
+Sponsored by partner, no employer involvement required. This visa is valid for up to 5 years depending on the sponsoring partner’s citizenship or work permit status. When hiring candidates who hold a this visa, emphasize that GitLab will not be able to assist with sponsorship of a new pass once their visa expires. Hiring managers should also understand that a candidate will only be able to work for GitLab until their visa expires and GitLab will not be able to make exceptions to our sponsorship policy at that time.
+
+#### Korea F5 Permanent Resident Visa
+
+Long-term visa that does not require employer sponsorship. Typically valid indefinitely.
+
+#### Singapore Personalised Employment Pass
+
+This is a visa for high earners that does not require sponsorship. Valid for 3 years and cannot be renewed. When hiring candidates who hold a PEP, emphasize that GitLab will not be able to assist with sponsorship of a new pass once their PEP expires. Hiring managers should also understand that a candidate will only be able to work for GitLab until their PEP expires and GitLab will not be able to make exceptions to our sponsorship policy at that time.
+
+#### Singapore Dependent’s Pass
+
+Does not require employer sponsorship (requires sponsorship by spouse’s employer). Typically valid for 2 years and may be renewed.
+
+#### UK Global Talent Visa
+
+This visa is for people who are considered leaders in various fields and does not require employer sponsorship. GitLab can likely employ anyone who has been awarded this visa but is unable to provide support with visa applications or fees. This visa is valid for five years and may be renewed.
+
+#### UK India Young Professionals Scheme Visa
+
+Grants full work rights without employer obligations. Valid for up to 24 months. When hiring candidates who hold a this visa, emphasize that GitLab will not be able to assist with sponsorship of a new pass once their visa expires. Hiring managers should also understand that a candidate will only be able to work for GitLab until their visa expires and GitLab will not be able to make exceptions to our sponsorship policy at that time.
+
+#### UK Ancestry Visa/British National (Overseas) Visa
+
+Grants full work rights without employer obligations. Valid for up to 5 years. When hiring candidates who hold a this visa, emphasize that GitLab will not be able to assist with sponsorship of a new pass once their visa expires. Hiring managers should also understand that a candidate will only be able to work for GitLab until their visa expires and GitLab will not be able to make exceptions to our sponsorship policy at that time.
+
+#### USA TN Visa (USMCA)
+
+This visa is available to Canadian or Mexican nationals in eligible roles. TN Visas are tied to a specific employer but do not place compliance obligations on the employer and so are not typically considered “sponsored.” GitLab will not submit the Form I-129 application on a candidate or employee’s behalf–they will need to submit their visa application at a Port of Entry instead. GitLab will only assist with providing company information and an employment contract or letter of employment. A candidate working at another company on a TN Visa will need to wait for their visa transfer to GitLab to be approved before they are eligible to start working for GitLab in the US. A TN visa must be renewed every 3 years and can be renewed an indefinite number of times.
+
+For candidates: When a candidate discloses they’ll need a TN Visa to work at GitLab, it is important to let them know that GitLab will not submit the Form I-129 application on their behalf. GitLab can provide a letter of support once the job offer is signed, and they will need to submit their visa application at a Port of Entry if they are Canadian or a US Embassy or Consulate if they are Mexican (no need to ask which they are, always provide the information for both countries of origin). Note that it may take a couple months for a visa application to be reviewed and approved, so it is also important to set expectations with the hiring manager and take that into consideration when choosing a start date. Employers are permitted to set a date by which a new hire must be eligible to begin work, and you may point out that the employment agreement is contingent upon having and maintaining work authorization (typically section 10 or 11), and that an offer may be rescinded if they are not authorized for work at GitLab by the prescribed date.
+
+#### USA Green Card
+
+Not actually a visa, candidates with a Green Card are permanent residents and are eligible to work in the US without sponsorship. As long as someone has already been issued a Green Card they are able to start working for GitLab in the US. We will not sponsor new Green Cards or transfer Green Card applications that are still pending. If a candidate says they have a pending I-140, that means their Green Card application is still in process, and they will both require sponsorship for the continued Green Card application and for whatever visa they are currently working under (a pending I-140 or Green Card application does not grant work authorization). We would not be able to hire someone at the I-140 stage, but they will be eligible to work at GitLab once they have received their Green Card.
+
+#### USA H-4 EAD
+
+This visa grants full work rights and is sponsored by the visa holder’s spouse’s employer when the spouse has an H-1B. There is a risk that if the H1-B holder’s employment ends and they do not find a new job within 60 days, their partner will also lose their H-4 EAD. Team members with this visa and their hiring managers should understand that if in the future they end up losing this work authorization they will be required to stop working for GitLab and we will not be able to sponsor them for a new visa.
+
+#### USA F-1 CPT/OPT Student Visa
+
+F-1 is a visa for students studying at universities in the US in undergraduate or graduate programs. An F-1 visa holder may be approved for Curricular Practical Training (CPT) and/or Optional Practical Training (OPT) which grants them work authorization in the US in addition to their study rights as long as the role is related to their field of study. F-1 holders approved for CPT may work as interns, and if the internship takes place while classes are in session they are allowed to work a maximum of 20 hours per week (they may work more than 20 hours per week if the internship takes place during a class break). F-1 holders with OPT approval may work full-time after graduation and must work a minimum of 20 hours per week. OPT work rights are initially granted for one year, but visa holders with a STEM degree may apply for a two year extension (for a total of three years of OPT work authorization). GitLab can hire F-1 visa holders but should make it clear that when their work authorization expires we will be unable to sponsor them for a new visa and we will be required to terminate their employment if their work authorization lapses. Hiring managers should also understand that we will not be able to make exceptions to our sponsorship policy in these situations. Typically OPT holders will need assistance filling out paperwork that includes company information and details of their job and performance and must be signed by a company authorized signatory.
+
+#### USA J-2 Visa
+
+This visa grants full work rights and is sponsored by the visa holder’s spouse’s J-1 visa exchange program, and does not place any obligations on GitLab. However, there is a risk that if something happens to the spouse’s J-1 visa their partner will also lose their J-2. Candidates with this visa and their hiring managers should understand that if in the future they end up losing this work authorization they will be required to stop working for GitLab and we will not be able to sponsor them for a new visa.
+
+## How to talk to candidates about work authorization
+
+Employers are obligated to ensure their employees are legally authorized to work in the country where they are hired. It is okay, and even expected, to talk about work authorization with candidates to ensure that they understand what support GitLab is able to offer.
+
+Do:
+
+- Ask all candidates the following two questions:
+  - Are you legally authorized to work for GitLab in [country of hire]?
+    - If yes, no further information needed. Please keep a written record of this answer in candidate notes so that if conflicting information arises in the future we know that this question was previously addressed with the candidate.  
+    - If no or any other answer is given, please let them know about our Visa Sponsorship policy and state that we’re required to ensure that all new hires are authorized to work at GitLab at the time of hire. If they are unable to secure work authorization by the proposed start date without our sponsorship or other assistance with securing such authorization, we will not be able to move forward with their application. If they state that they’ll need a certain type of visa that they do not currently hold (like a TN or Blue Card) in order to secure work authorization, please consult the preceding section or reach out to People Connect via HelpLab to confirm that it is a visa we can accept.
+  - Will you now or in the future require sponsorship for an employment visa?
+    - If yes, please point them to our Visa Sponsorship policy and let them know that we will not be able to sponsor their work visa. If they are unable to secure authorization to work at GitLab without sponsorship then we will not be able to move forward with their application.
+    - If no, no further information is needed. Please keep a written record of this answer in candidate notes so that if conflicting information arises in the future we know that this question was previously addressed with the candidate. Even if a person answers no, you should still tell them about GitLab’s sponsorship policy.
+    - If the answer is anything else, like they mention needing to apply for a certain type of visa, please let them know about our Visa Sponsorship policy and consult this page for more information on that visa type.
+- Tell all candidates that they must be currently authorized to work in the country of hire on a full-time basis.
+- Tell all candidates that GitLab will not sponsor work visas.
+- Consult this document or People Connect for more context if a candidate offers information about the type of visa or work permit they are currently on without you asking. Some countries prohibit employers from making hiring decisions on the basis of visa type as long as the person is authorized to work without sponsorship, so it’s important to ensure that this information is used only to confirm that this is a visa we can support without issue.
+- If you are concerned that visas or sponsorship may be an issue for a candidate, we are required to wait until after the candidate has accepted a job offer to ask for further details about their visa type and expiration date. 
+
+Don’t: 
+
+- Treat a candidate differently based on your perception/guess that they may have or may need a visa or work permit for their location.
+- Ask a candidate if they have a visa or what type of visa they have. If a candidate mentions having a visa you may reiterate that Gitlab does not sponsor work visas and confirm that they do not require sponsorship in order to work for GitLab.
+- Ask a candidate about their nationality or citizenship status. If a candidate offers this information do not ask follow-up questions, do not include it in their candidate notes, and do not take it into consideration when deciding whether to move forward with their candidacy.

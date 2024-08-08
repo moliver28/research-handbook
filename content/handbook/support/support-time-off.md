@@ -128,7 +128,8 @@ For high priority tickets, tend towards a handing over to someone else:
 1. Follow the [OOO Ticket Management](/handbook/support/workflows/ooo-ticket-management)
    process to arrange for others to take care of your tickets in your absence.
 1. To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):
-   - Update the corresponding `yaml` file for yourself in the [Support Team project](https://gitlab.com/gitlab-com/support/team/-/tree/master/data/agents?ref_type=heads).
+
+   - Update the corresponding `yaml` file for yourself in the [Support Team project](https://gitlab.com/gitlab-support-readiness/support-team/-/tree/master/data/agents).
    - Change `works_account_deletion: true` to `works_account_deletion: false`
    - Assign the MR to your manager.
    - Make sure to undo this change when you return from OOO.
