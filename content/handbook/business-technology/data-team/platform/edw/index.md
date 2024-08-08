@@ -448,7 +448,11 @@ Note: The number of fields to be shown for each of the entity can easily be modi
 
 ## Specific Schema
 
-More details coming soon...
+The `SPECIFIC` schema is to be used for tables that perform a reporting function and act as a source of truth but do not conform to the dimensional modeling structure of the Enterprise Dimensional Model.
+
+### Reference
+
+Reference tables should be direct views of raw source data that are needed for reporting with out further transformation.  Reference tables should not be used to build additional tables on as there will be a table upstream in the `RAW` or `PREP` database that will provide better lineage documentation for further transformations.  Reference tables should always be created as a view with now additional transformation or filtering and should be prefixed with `ref_`.
 
 ## Entitlement
 
