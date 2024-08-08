@@ -24,6 +24,21 @@ Check out our [jobs page](https://about.gitlab.com/jobs/) for current openings.
 
 ## Planning
 
+### Priority labels
+
+We use `~Knowledge::P1/P2/P3` labels to indicate issue priority within the `~workflow::*` steps and milestones.
+
+- Product Manager is the DRI for these labels, but everybody on the team can assign/adjust them.
+- Before the milestone starts, the PM and EM will review the priorities for all issues included in that milestone. It's expected that:
+      - 40% of issues have `~Knowledge::P1`
+      - 30% of issues have `~Knowledge::P2`
+      - 30% of issues have `~Knowledge::P3`, and those issues can't be `~Deliverable`'s
+- We also use these labels outside of milestones to keep track of our highest priorities.
+- If anyone on the team wants an issue to be scheduled, they should add the appropriate priority label.
+- We don't have a dedicated `P4` label, not having `~Knowledge::P*` label is equivalent to `~Knowledge::P4`.
+- When issues are moved to another `~workflow::*` stage, it's likely that the priority will be changed.
+- `~Knowledge::P*` labels are completely different from `~priority::*` labels that are used only for bugs.
+
 ### Picking something to work on
 
 The team [build board](https://gitlab.com/groups/gitlab-org/-/boards/5454834) always shows
