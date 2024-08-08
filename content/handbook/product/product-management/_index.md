@@ -1,19 +1,10 @@
 ---
-title: How to Engage with Product Management
+title: GitLab Product Management
 ---
 
-This document describes how to engage with the product management team.
+This document describes what Product Management does, where, when, and how to engage with the product management team.
 
-## Where to reach Product Managers
-
-- **[Public Issue Tracker (for Product)](https://gitlab.com/gitlab-com/Product/issues)**; please use confidential issues for topics that should only be visible to team members at GitLab.
-- **[Chat channel](https://gitlab.slack.com/archives/product)**; please use the `#product` chat channel for questions that don't seem appropriate for the issue tracker.
-
-## Which Product Manager should I contact?
-
-Please see the [Product Categories](/handbook/product/categories/) to know which product manager handles which category.
-
-## What does Product do?
+## What does Product Management do?
 
 At GitLab, the PMs lead their specialization. That is, the Create PM decides what the Create group works on, for which release, and makes sure this furthers our goals. This includes bugs, features, and architectural changes.
 
@@ -25,7 +16,18 @@ In the same vein, PMs are required to ask for feedback from the stakeholder on p
 
 It is then up to the PM to weigh all these inputs and decide on a prioritization. It is to be expected that they are the best equipped to make this prioritization, while also keeping in mind all goals of GitLab.
 
-## How do I share feedback?
+## How to engage Product Managers
+
+### Where to reach Product Managers
+
+- **[Public Issue Tracker (for Product)](https://gitlab.com/gitlab-com/Product/issues)**; please use confidential issues for topics that should only be visible to team members at GitLab.
+- **[Chat channel](https://gitlab.slack.com/archives/product)**; please use the `#product` chat channel for questions that don't seem appropriate for the issue tracker.
+
+### Which Product Manager should I contact?
+
+Please see the [Product Categories](/handbook/product/categories/) to know which product manager handles which category.
+
+### How do I share feedback?
 
 Generally speaking, all product feedback should be provided via issues. For detailed overview of how to create an issue, please [read this section on the process](/handbook/product/product-processes/#issues). If you have any product-related questions, comments, input, or otherwise, the Product Manager is the primary person you should talk to, *if creating an issue does not suffice*.
 
@@ -33,7 +35,7 @@ Creating an issue includes, but is not limited to, features, bugs, and other cha
 
 All feedback must follow the [GitLab Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/). Failure to do so will result in the issues or comment being deleted.
 
-### Customer feature requests
+#### Customer feature requests
 
 If a customer has a feature request that doesn't already exist, refer to the [process to create an issue](/handbook/product/product-processes/#issues) in the [gitlab-org issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues) and choose the [Feature Proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Proposal%20-%20lean) template, following the instructions and providing as much information as possible. Once you've created the issue,  make sure to add the appropriate labels for the [product stage and/or group](/handbook/product/categories/) (e.g `~"devops::plan"`) if known and add a comment tagging the appropriate Product Manager. If an issue already exists, make a comment on the issue with their information and use case.
 
