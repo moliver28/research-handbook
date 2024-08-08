@@ -1,19 +1,10 @@
 ---
-title: How to Engage with Product Management
+title: GitLab Product Management
 ---
 
-This document describes how to engage with the product management team.
+This document describes what Product Management does, where, when, and how to engage with the product management team.
 
-## Where to reach Product Managers
-
-- **[Public Issue Tracker (for Product)](https://gitlab.com/gitlab-com/Product/issues)**; please use confidential issues for topics that should only be visible to team members at GitLab.
-- **[Chat channel](https://gitlab.slack.com/archives/product)**; please use the `#product` chat channel for questions that don't seem appropriate for the issue tracker.
-
-## Which Product Manager should I contact?
-
-Please see the [Product Categories](/handbook/product/categories/) to know which product manager handles which category.
-
-## What does Product do?
+## What does Product Management do?
 
 At GitLab, the PMs lead their specialization. That is, the Create PM decides what the Create group works on, for which release, and makes sure this furthers our goals. This includes bugs, features, and architectural changes.
 
@@ -24,6 +15,15 @@ In general terms, if you require something to happen with the product or if you 
 In the same vein, PMs are required to ask for feedback from the stakeholder on particular changes. If a change will affect GitLab.com and its maintenance, a PM should proactively reach out to infrastructure engineers to help with the scope, design, and decisions regarding this change.
 
 It is then up to the PM to weigh all these inputs and decide on a prioritization. It is to be expected that they are the best equipped to make this prioritization, while also keeping in mind all goals of GitLab.
+
+## Where to reach Product Managers
+
+- **[Public Issue Tracker (for Product)](https://gitlab.com/gitlab-com/Product/issues)**; please use confidential issues for topics that should only be visible to team members at GitLab.
+- **[Chat channel](https://gitlab.slack.com/archives/product)**; please use the `#product` chat channel for questions that don't seem appropriate for the issue tracker.
+
+## Which Product Manager should I contact?
+
+Please see the [Product Categories](/handbook/product/categories/) to know which product manager handles which category.
 
 ## How do I share feedback?
 
