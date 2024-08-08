@@ -153,13 +153,13 @@ Thanks to merged results pipelines, authors no longer have to rebase their branc
 
 If developers don't want to deploy main every time, they can create a production branch. Rather than using a script or doing it manually, teams can use automation or have a specific branch that triggers a [production deploy](https://docs.gitlab.com/ee/ci/yaml/#environment).
 
-## 6. [Tags](https://docs.gitlab.com/ee/user/project/repository/tags/) are set by the user, not by CI
+## 6. Tags are set by the user, not by CI
 
-Developers should use tags so that the CI will perform an action rather than having the CI change the repository. 
+Developers should use [tags](https://docs.gitlab.com/ee/user/project/repository/tags/) so that the CI will perform an action rather than having the CI change the repository. 
 
-## 7. [Releases](https://docs.gitlab.com/ee/user/project/releases/) are based on tags
+## 7. Releases are based on tags
 
-Each tag should create a new release. This practice ensures a clean, efficient development environment.
+Each tag should create a new [release](https://docs.gitlab.com/ee/user/project/releases/). This practice ensures a clean, efficient development environment.
 
 ## 8. Pushed commits are never rebased
 
@@ -200,9 +200,9 @@ Continuous integration helps developers deploy faster and get feedback sooner. U
 * [Teams-GitLab integration](https://docs.gitlab.com/ee/user/project/integrations/microsoft_teams.html) to send critical notifications like
   * Prod/Pre-prod deployment failure
 
-## 16. [Protected Branches](https://docs.gitlab.com/ee/user/project/protected_branches.html)
+## 16. Protected Branches
 
-A protected branch controls:
+A [protected branch](https://docs.gitlab.com/ee/user/project/protected_branches.html) controls:
 
 * Which users can merge into the branch.
 * Which users can push to the branch.
@@ -212,17 +212,17 @@ A protected branch controls:
 
 The [default branch](https://docs.gitlab.com/ee/user/project/repository/branches/default.html) for your repository is protected by default.
 
-## 17. [Environment Branching strategies](https://docs.gitlab.com/ee/topics/gitlab_flow.html#environment-branches-with-gitlab-flow)
+## 17. Environment Branching strategies
 
-It might be a good idea to have an environment that is automatically updated to the staging branch. Only, in this case, the name of this environment might differ from the branch name. Suppose you have a staging environment, a pre-production environment, and a production environment:
+It might be a good idea to have an [environment](https://docs.gitlab.com/ee/topics/gitlab_flow.html#environment-branches-with-gitlab-flow) that is automatically updated to the staging branch. Only, in this case, the name of this environment might differ from the branch name. Suppose you have a staging environment, a pre-production environment, and a production environment:
 
 ![GitLab Flow](gitlab-flow.png){width="356" height="340"}
 
 In this case, deploy the staging branch to your staging environment. To deploy to pre-production, create a merge request from the staging branch to the pre-prod branch. Go live by merging the pre-prod branch into the production branch. This workflow, where commits only flow downstream, ensures that everything is tested in all environments. 
 
-## 18. [Compliance frameworks](https://docs.gitlab.com/ee/user/group/compliance_frameworks.html)
+## 18. Compliance frameworks
 
-It is important for compliance teams to be confident that their controls and requirements are set up correctly, but also that they stay set up correctly. To obtain this confidence, compliance pipelines can be configured.
+It is important for compliance teams to be confident that their controls and requirements are set up correctly, but also that they stay set up correctly. To obtain this confidence, [compliance pipelines](https://docs.gitlab.com/ee/user/group/compliance_frameworks.html) can be configured.
 
 A compliance officer will be responsible for creating and enforcing the usage of a pipeline. We can ensure that a developer cannot change a running pipeline. This is a task that can only be performed by a compliance officer, ensuring only compliant code can be pushed without approval.
 
@@ -263,7 +263,9 @@ You can use the report to:
 
 The Compliance Report can be accessed in the top-level group by going to Security & Compliance \> Compliance Report.
 
-## 21. Implementation of Correct [User Permissions and Roles](https://docs.gitlab.com/ee/user/permissions.html) will have below Positive effects over the entire DevOps lifecycle in GitLab
+## 21. Implementation of Correct User Permissions and Roles will have below Positive effects over the entire DevOps lifecycle in GitLab
+
+[User Permissions and Roles](https://docs.gitlab.com/ee/user/permissions.html)
 
 * Restricting Developers 
   * To take major decisions like changing Security Policies

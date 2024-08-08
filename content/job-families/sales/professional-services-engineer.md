@@ -23,7 +23,9 @@ Professional Services Engineers are expected to be able to interface not only wi
 
 At GitLab, due to the pace at which we are moving, people joining our team in an associate role will be expected to have some professional experience in the primary engineering tools of the specialty that they'll be joining. For Professional Services Engineers, this means exposure or work experience using IaC/CaC technologies on one or more of the main cloud providers, as well as experience deploying, maintaining, and administering a GitLab instance.
 
-### [Field Functional Competencies](/handbook/sales/training/field-functional-competencies/)
+### Field Functional Competencies
+
+- [Field Functional Competencies](/handbook/sales/training/field-functional-competencies/)
 
 As members of the GitLab field organization, Professional Services Engineers will be expected to exhibit behaviors consistent with these metrics.
 

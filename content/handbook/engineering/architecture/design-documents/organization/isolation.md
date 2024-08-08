@@ -78,7 +78,9 @@ We can also use these sharding keys to help us decide whether:
 
 ## Detailed steps
 
-### [Organization Isolation - Phase 1](https://gitlab.com/groups/gitlab-org/-/epics/11837) [Status: Completed]
+### Organization Isolation - Phase 1
+
+[Organization Isolation - Phase 1](https://gitlab.com/groups/gitlab-org/-/epics/11837) [Status: Completed]
 
 1. Implement developer facing documentation explaining the requirement to add these sharding keys and how they should choose.
 1. Add a way to declare a sharding key in `db/docs` and automatically populate it for all tables that already have a sharding key
@@ -91,7 +93,9 @@ We can also use these sharding keys to help us decide whether:
 1. Fan out issues to other teams to manually populate the remaining "desired
    sharding key"
 
-### [Organization Isolation - Phase 1.5](https://gitlab.com/groups/gitlab-org/-/epics/13678) - [Status: In Progress]
+### Organization Isolation - Phase 1.5
+
+[Organization Isolation - Phase 1.5](https://gitlab.com/groups/gitlab-org/-/epics/13678) - [Status: In Progress]
 
 1. Start manually creating then automating the creation of backfill migrations for
    tables to populate sharding keys from "desired sharding key".
@@ -102,7 +106,9 @@ We can also use these sharding keys to help us decide whether:
       and automate creating issues for all the sharding keys that can't be
       automatically inferred
 
-### [Organization Isolation - Phase 2](https://gitlab.com/groups/gitlab-org/-/epics/11838) - [Status: Pending]
+### Organization Isolation - Phase 2
+
+[Organization Isolation - Phase 2](https://gitlab.com/groups/gitlab-org/-/epics/11838) - [Status: Pending]
 
 1. Once all tables have sharding keys we ship an
    evolved version of the
@@ -114,7 +120,9 @@ We can also use these sharding keys to help us decide whether:
 1. Validate that all existing sharding key columns on all Cell-local tables can reliably be assumed to be the sharding key. This requires assigning issues to teams to confirm that these columns aren't used for some other purpose that would actually not be suitable.
 1. We allow customers to create new Organizations without the option to migrate namespaces into them. All namespaces need to be newly created in their new Organization.
 
-### [Organization Isolation - Phase 3](https://gitlab.com/groups/gitlab-org/-/epics/11839) - [Status: Pending]
+### Organization Isolation - Phase 3
+
+[Organization Isolation - Phase 3](https://gitlab.com/groups/gitlab-org/-/epics/11839) - [Status: Pending]
 
 1. Implement new functionality in GitLab similar to the [POC](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/131968), which allows a namespace owner to see if their namespace is fully isolated.
 1. Implement functionality that allows namespace owners to migrate an existing namespace from one Organization to another. Most likely this will be existing customers that want to migrate their namespace out of the default Organization into a newly created Organization. Only isolated namespaces as implemented in the previous step will be allowed to move.

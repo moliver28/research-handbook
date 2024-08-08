@@ -38,37 +38,37 @@ Continuous Delivery is the next logical step after continuous integration and it
 
 The typical **user personas** for this use case are:
 
-#### [DevOps Engineer](/handbook/product/personas/), Devon
+#### DevOps Engineer, Devon
 
-The DevOps engineer is the stable counterpart for the Developer to aid with support of the infrastructure, environment and integrations necessary for the developer to deploy their code to test/staging or production environments.
+The [DevOps engineer](/handbook/product/personas/) is the stable counterpart for the Developer to aid with support of the infrastructure, environment and integrations necessary for the developer to deploy their code to test/staging or production environments.
 
-#### [Systems Administrator](/handbook/product/personas/#sidney-systems-administrator), Sidney
+#### Systems Administrator, Sidney
 
-The Systems administrator is the infrastructure expert - who contributes to modeling, maintaining and scaling the test/staging and production environments - including physical, virtual or cloud infrastructure and the application infrastructure like databases and middleware.
+The [Systems administrator](/handbook/product/personas/#sidney-systems-administrator) is the infrastructure expert - who contributes to modeling, maintaining and scaling the test/staging and production environments - including physical, virtual or cloud infrastructure and the application infrastructure like databases and middleware.
 
-#### [Release Manager](/handbook/product/personas/#rachel-release-manager), Rachel
+#### Release Manager, Rachel
 
-The release manager has a central role in release planning, scheduling, identifying dependencies and resources to ensure that the release is timely. The release manager helps automating the release process.
+The [release manager](/handbook/product/personas/#rachel-release-manager) has a central role in release planning, scheduling, identifying dependencies and resources to ensure that the release is timely. The release manager helps automating the release process.
 
-#### [Platform Engineer](/handbook/product/personas/#priyanka-platform-engineer), Priyanka
+#### Platform Engineer, Priyanka
 
-The platform engineer is a specialist in modern platforms and aims to empower developers to provision, deploy and decommission tiered environments in a self service manner.
+The [platform engineer](/handbook/product/personas/#priyanka-platform-engineer) is a specialist in modern platforms and aims to empower developers to provision, deploy and decommission tiered environments in a self service manner.
 
-#### [Application Operations](/handbook/product/personas/#allison-application-ops), Allison
+#### Application Operations, Allison
 
-The operations specialist ensures that the deployed application is available and performing to the required performance parameters.
+The [operations specialist](/handbook/product/personas/#allison-application-ops) ensures that the deployed application is available and performing to the required performance parameters.
 
 ### Buyer Personas
 
 The typical **buyer personas** for this use case are:
 
-#### [Infrastructure Engineering Director](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/), Kennedy
+#### Infrastructure Engineering Director, Kennedy
 
-The Infrastructure Engineering Director is responsible for building and scaling highly available environments. He/She frequently has the agenda of Cloud initiatives and Cost Optimization in the organization.
+The [Infrastructure Engineering Director](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) is responsible for building and scaling highly available environments. He/She frequently has the agenda of Cloud initiatives and Cost Optimization in the organization.
 
-#### [Release and Change Management Director](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/), Casey
+#### Release and Change Management Director, Casey
 
-The Release and Change Management Director is responsible for managing complex releases from concept to delivery. The CIO may be the final decision maker or buyer, but the Release and Change Management Director has significant influence in the buying process.
+The [Release and Change Management Director](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) is responsible for managing complex releases from concept to delivery. The CIO may be the final decision maker or buyer, but the Release and Change Management Director has significant influence in the buying process.
 
 ## Industry Analyst Resources
 
@@ -134,9 +134,9 @@ A collection of short demonstrations that show GitLab's CD capabilities.
 | 2) **Automated and Integrated Continuous Delivery** |  GitLab [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/index.html) simplifies and accelerates delivery with a complete delivery pipeline out of the box. Simply commit code and GitLab does the rest. GitLab also provides an integrated dashboard that spans across the CI/CD pipeline status and deployment status | - The built-in features of Auto DevOps have made our experience more rewarding and effective - [Daniel B on G2 Peer Reviews](https://www.g2.com/products/gitlab/reviews/gitlab-review-572450)<br/> - It has really helped us to shorten lead time, which has positively affected every single metric we measure - [Chorus.ai](https://about.gitlab.com/customers/chorus/) <br/> - GitLab Auto DevOps also delivered the technology component required for true CI/CD, accelerating product delivery with an end-to-end pipeline out of the box. - [ExtraHop Networks](https://about.gitlab.com/customers/extra-hop-networks/) | [![Automated and integrated Continuous Delivery](../../images/youtube_social_icon_red-32x23.png) Automated and integrated Continuous Delivery](https://youtu.be/blJT8f6ZDH8)  |
 | 3) **Modern Compliance for Continuous Delivery** | GitLab simplifies [compliance](https://docs.gitlab.com/ee/administration/compliance.html#compliance-features) with helping customers **define granular policies** such as who can approve MR, push to production, segregation of duties, release governance etc, **define security policies** such as license compliance, password policies, credential inventories etc, **track adherence to compliance** such as  user actions such as commits, permission changes, approval changes, logins, password changes, release evidence etc - all within a single application which allows **traceability** from deployment all the way back to code changes and requirements | - During a recent audit for SOC2 compliance, the auditors said that Chorus had the fastest auditing process they have seen and most of that is due to the capabilities of GitLab - [Chorus.ai](https://about.gitlab.com/customers/chorus/) <br/> - There is no longer a need for license keys or several different logins, because of the built-in security and compliance. Software is deployed anywhere, which relieves developers localization constraints.| tbd |
 
-## [Message house](message-house/)
+## Message house
 
-The message house provides a structure to describe and discuss the value and differentiators for Continuous Delivery with GitLab.
+The [message house](message-house/) provides a structure to describe and discuss the value and differentiators for Continuous Delivery with GitLab.
 
 ## Customer Facing Slides
 
@@ -211,7 +211,9 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 
 ### Blogs
 
-#### [Wag!](https://about.gitlab.com/blog/2019/01/16/wag-labs-blog-post/)
+#### Wag
+
+[Wag!](https://about.gitlab.com/blog/2019/01/16/wag-labs-blog-post/)
 
 - **Problem:** Slow, fragile and manual release process impacted developer efficiency
 - **Solution:** GitLab Premium (CI/CD)
@@ -219,7 +221,9 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 - **Sales Segment:** SMB
 - **Safe Deployments** (https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/51235)
 
-#### [Athlinks](https://about.gitlab.com/blog/2019/12/17/athlinks-cuts-runtime-in-half-with-giltab/)
+#### Athlinksx
+
+[Athlinks](https://about.gitlab.com/blog/2019/12/17/athlinks-cuts-runtime-in-half-with-giltab/)
 
 - **Problem:** Complex toolchain that hindered deploy times and disempowered developers
 - **Solution:** GitLab Ultimate (SCM,CI,CD) and Terraform
@@ -228,30 +232,32 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 
 ### Case Studies
 
-#### [Hemmersbach](https://about.gitlab.com/customers/hemmersbach/)
+#### Hemmersbach
 
-- **Problem** Hemmersbach was burdened by multiple tools and communication inefficiencies, resulting in slow production builds and manual processes
+- **Problem** [Hemmersbach](https://about.gitlab.com/customers/hemmersbach/) was burdened by multiple tools and communication inefficiencies, resulting in slow production builds and manual processes
 - **Solution:** GitLab Ultimate (CI/CD)
 - **Result:** Having all of the collaboration capabilities under one umbrella has enabled unprecedented deployment speed (up to 30 automated daily deploys)
 - **Sales Segment:** Enterprise
 
-#### [BI Worldwide](https://about.gitlab.com/customers/bi_worldwide/)
+#### BI Worldwide
 
-- **Problem** BI Worldwide was looking for a way to increase collaboration and efficiency in its developer environment and to reduce toolchain complexity
+- **Problem** [BI Worldwide](https://about.gitlab.com/customers/bi_worldwide/) was looking for a way to increase collaboration and efficiency in its developer environment and to reduce toolchain complexity
 - **Solution:** GitLab Ultimate (SCM/CI/CD)
 - **Result:** Deployments increased to 10 times daily
 - **Sales Segment:** Enterprise
 
-#### [Glympse](https://about.gitlab.com/customers/glympse/)
+#### Glympse
+
+[Glympse](https://about.gitlab.com/customers/glympse/)
 
 - **Problem** A complex developer tech stack with over 20 distinct tools that was hard to maintain and impeded innovation
 - **Solution:** GitLab Ultimate (SCM/CI/CD)
 - **Result:** 8 times faster deploys (from 4 hours to less than 30 minutes)
 - **Sales Segment:** Enterprise
 
-#### [KnowBe4](https://about.gitlab.com/customers/knowbe4/)
+#### KnowBe4
 
-- **Problem** KnowBe4 was looking for a tool to keep code in-house and that offered the capabilities of several tools in one
+- **Problem** [KnowBe4](https://about.gitlab.com/customers/knowbe4/) was looking for a tool to keep code in-house and that offered the capabilities of several tools in one
 - **Solution:** GitLab Ultimate (CI/CD) and AWS
 - **Result:** 5+ production deploys per day for any given application plus 20+ development environment deploys per day
 - **Sales Segment:** Enterprise

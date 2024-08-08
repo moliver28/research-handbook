@@ -58,7 +58,7 @@ Create a [webcast idea issue](https://gitlab.com/gitlab-com/marketing/demand-gen
 > Naming convention: [Webcast Title] - [3-letter Month] [Date], [Year]
 > Start Date = date epic opened, Due Date = webcast date
 
-## [GANTT >>]() - [owner to copy from this template](https://docs.google.com/spreadsheets/d/1A4c2OodEAsOlN4Ek-rBiLlwkdF0AvX5YBiY4mhkZd-M/edit#gid=666473040)
+## [GANTT >>]() - owner to copy from this template: https://docs.google.com/spreadsheets/d/1A4c2OodEAsOlN4Ek-rBiLlwkdF0AvX5YBiY4mhkZd-M/edit#gid=666473040
 
 ## [Landing Page >>]() - `to be added when live`
 
@@ -127,7 +127,7 @@ Partner webcasts are managed and moderated by Partner Marketing, working closely
 > Naming convention: [Webcast Title] - [3-letter Month] [Date], [Year]
 > Start Date = date epic opened, Due Date = webcast date
 
-## [GANTT >>]() - [owner to copy from this template](https://docs.google.com/spreadsheets/d/1A4c2OodEAsOlN4Ek-rBiLlwkdF0AvX5YBiY4mhkZd-M/edit#gid=1597899784)
+## [GANTT >>]() - owner to copy from this template: https://docs.google.com/spreadsheets/d/1A4c2OodEAsOlN4Ek-rBiLlwkdF0AvX5YBiY4mhkZd-M/edit#gid=1597899784
 
 ## [Landing Page >>]() - `to be added when live`
 
@@ -849,7 +849,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 ```markdown
 <!-- Naming convention: [Webcast Title] - [3-letter Month] [Date], [Year] -->
 
-## [GANTT >>]() - [owner to copy from this template](https://docs.google.com/spreadsheets/d/1A4c2OodEAsOlN4Ek-rBiLlwkdF0AvX5YBiY4mhkZd-M/edit#gid=666473040)
+## [GANTT >>]() - owner to copy from this template: https://docs.google.com/spreadsheets/d/1A4c2OodEAsOlN4Ek-rBiLlwkdF0AvX5YBiY4mhkZd-M/edit#gid=666473040
 
 ## [Landing Page >>]() - `to be added when live`
 

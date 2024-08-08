@@ -95,7 +95,9 @@ The project owner is responsible for following the steps below to create the epi
 
 ## :books: Tasks and Issues Created and Linked to Epic
 
-## If GitLab is hosting, follow [Webcast process in handbook](/handbook/marketing/virtual-events/webcasts/#partner-webcasts)
+## If GitLab is hosting
+
+Follow [Webcast process in handbook](/handbook/marketing/virtual-events/webcasts/#partner-webcasts)
 
 ## General Checklist
 - [ ] Make sure partner is adhering to the GitLab Branding guides and logo usage
@@ -162,7 +164,7 @@ The project owner is responsible for following the steps below to create the epi
 
 ## [Main Issue >>]()
 
-## [Copy document >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy document >>]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## :notepad_spiral: Key Details
 * **Project Owner:**
@@ -249,7 +251,7 @@ The project owner is responsible for following the steps below to create the epi
 
 ## [Main Issue >>]()
 
-## [Copy document >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy document >>]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## :notepad_spiral: Key Details
 * **Corp Events/Field Marketing Manager/Requester:**
@@ -362,7 +364,7 @@ Add the team label to indicate the team running the event (Example: Field Market
 
 ## [Landing Page >>]() - `to be added when live`
 
-## [Copy for landing page and emails >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy for landing page and emails >>]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Event Details
 * `place details from the event issue here`
@@ -561,7 +563,7 @@ The project owner is responsible for following the steps below to create the epi
 
 ## [Main Issue >>]()
 
-## [Copy document >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy document >>]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## :notepad_spiral: Key Details
 * **Project Owner/Field Marketing Manager:**
@@ -629,7 +631,7 @@ The project owner is responsible for following the steps below to create the epi
 
 ## [Main Issue >>]()
 
-## [Copy document >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy document >>]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## :notepad_spiral: Key Details
 * **Project Owner:**

@@ -34,13 +34,15 @@ status: proposed
   We should try to use this tooling as much as possible, if there are things we don't agree with we should try [disagree, commit, and disagree](../../../../values/#disagree-commit-and-disagree) to improve a single tool.
   It is ok to start with tooling that has shortcomings, an iterative approach leads to _one_ mature product instead of two.
 
-## Glossary/[Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html)
+## Glossary/Ubiquitous Language
+
+[Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html)
 
 - `Provision`: When we create a new Cell. Example: We _provisioned_ Cell 5, which is a brand new Cell.
 - `Deploy`: When we change the running code inside of an existing Cell. Example: We _deployed_ the new auto-deploy version on GitLab.com.
   - [Blueprint](deployments.md)
 - `Configuration change`: When we change any configuration on the application or infrastructure. Example: We did a _configuration change_ on labels added to VMs.
-- `Tenant`: A GitLab instance provisioned through GitLab Dedicated tooling ([Instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor)). A Tenant can be _either_ a GitLab Dedicated Customer Instance, _or_ a Cell Instance. 
+- `Tenant`: A GitLab instance provisioned through GitLab Dedicated tooling ([Instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor)). A Tenant can be _either_ a GitLab Dedicated Customer Instance, _or_ a Cell Instance.
 - `Cell`: A Tenant provisioned to be a part of GitLab.com where multiple customers are served through a single Tenant.
 - `Ring`: A collection of Cells grouped as single deployment stage target. Example: Cells in Ring 2 will deploy changes after Cells in Ring 1.
 - `Cluster`: A collection of Cells, and the existing GitLab.com infrastructure. Example: We need to change the version of Registry in the Cluster.

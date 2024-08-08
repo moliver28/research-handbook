@@ -40,9 +40,13 @@ Examples of how we engage with analysts include:
   - Remove them from the appropriate use case profile(s)
   - Notify the product management and product marketing teams
 
-## [How We Conduct Industry Analyst Briefings](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ar-briefings/)
+## How We Conduct Industry Analyst Briefings
 
-## [How We Conduct Industry Analyst Inquiries](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ar-inquiry/)
+[How We Conduct Industry Analyst Briefings](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ar-briefings/)
+
+## How We Conduct Industry Analyst Inquiries
+
+[How We Conduct Industry Analyst Inquiries](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ar-inquiry/)
 
 ## How we incorporate Use Cases into our industry analyst interactions
 

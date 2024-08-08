@@ -841,7 +841,9 @@ You must keep the same Asset number for existing assets, otherwise the existing 
   - Update `Region` and `Subregion`
 - Associate this campaign to the appropriate [parent campaign](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=365937335).
 
-### Step 2: [Clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG15954A1)
+### Step 2: Clone this program
+
+[Clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG15954A1)
 
 ContentSynd_Region_Vendor_DAP_Assets_Populated:
 This is the recommended template. Note that this program has the asset titles and types pre-populated. If you want a version without the asset tokens populated (not recommended only because it requires more set-up work), clone [ContentSynd_Region_Vendor](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG15661A1). You will still need to add the SFDC campaign tokens in both versions.
@@ -1130,7 +1132,9 @@ When someone fills out these forms, they will be automatically added to the [Lan
 - In `form details` select `download` as the call-to-action and select your new form
   - Note: If your new asset is launching in multiple regions, confirm you're adding the correct form to the correct regional campaign
 
-### Step 1: For new campaigns not listed above, [clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG8361A1)
+### Step 1: For new campaigns not listed above
+
+[clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG8361A1)
 
 - Use format `YYYY_Social_[Name]_[parameter]_LinkedIn Lead Gen`
 - Campaign parameter must be one of the [GTM campaign parameters](/handbook/marketing/utm-strategy/#utm-campaign) (usually used as utm_campaign - ex. `devopsgtm` or `autosd`). The Salesforce campaign name must include the campaign parameter for the responses to roll up to the correct campaign on the Sisense dashboards.

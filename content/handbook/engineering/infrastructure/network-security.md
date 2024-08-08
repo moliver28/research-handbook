@@ -33,13 +33,21 @@ GitLab's network architecture is available to both internal and external users a
 - [Cloudflare Statuspage](https://www.cloudflarestatus.com/)
 - [Run a traceroute from the Cloudflare network](https://ops.gitlab.net/gitlab-com/gl-infra/cloudflare-traceroute)
 
-### [On-Call Reference](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloudflare/oncall.md)
+### On-Call Reference
 
-### [False Positive Triage Process](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloudflare/troubleshooting.md#false-positive-triage-process)
+[On-Call Reference](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloudflare/oncall.md)
 
-### [Change Workflow](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/10993)
+### False Positive Triage Process
 
-### When to use a Page Rule vs WAF Rules vs [cf_allowlists](https://ops.gitlab.net/gitlab-com/gl-infra/terraform-modules/cf_allowlists) **internal-only**
+[False Positive Triage Process](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloudflare/troubleshooting.md#false-positive-triage-process)
+
+### Change Workflow
+
+[Change Workflow](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/10993)
+
+### When to use a Page Rule vs WAF Rules vs cf_allowlists
+
+[cf_allowlists](https://ops.gitlab.net/gitlab-com/gl-infra/terraform-modules/cf_allowlists) **internal-only**
 
 Whatever it is, create an issue [**in the Firewall tracker**](https://gitlab.com/gitlab-com/gl-infra/cloudflare-firewall/-/issues) first and link it to the relevant issues. This firewall tracker is used to keep track of existing rules. This applies to all rules, regardless of how they are managed.
 
@@ -143,7 +151,9 @@ If you'd like to watch a more detailed video about its inner workings, you can
 view [this demonstration video](https://youtu.be/vTKyf-PS7Lo) which goes into
 much more detail.
 
-### [How Page Rules work](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/10989)
+### How Page Rules work
+
+[How Page Rules work](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/10989)
 
 ### General Information
 

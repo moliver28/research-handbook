@@ -95,6 +95,6 @@ Our strategy defines how we win in the market we have chosen to compete. It is n
 - Renewal forecasting
 - Real time renewals performance tracking
 
-### [RM New Team Member Onboarding](/handbook/customer-success/renewals-managers/rm-onboarding)
+### RM New Team Member Onboarding
 
-As a Renewals Manager (RM), your onboarding experience will be a blended learning experience that includes virtual synchronous meetings, a self-paced role-based learning path on GitLab University, and a hands-on virtual workshop called Sales Quick Start (SQS). Your role based learning path is highlighted in this [role-specific onboarding guide](https://docs.google.com/document/d/1kc5tVFZxQLT5EcworXmeMzVYsXp-6hg6dthFQI8wNcM/edit#heading=h.5sepq0d8u5az). Please make a copy of this document and check off items as you complete them. 
+As a [Renewals Manager (RM), your onboarding](/handbook/customer-success/renewals-managers/rm-onboarding) experience will be a blended learning experience that includes virtual synchronous meetings, a self-paced role-based learning path on GitLab University, and a hands-on virtual workshop called Sales Quick Start (SQS). Your role based learning path is highlighted in this [role-specific onboarding guide](https://docs.google.com/document/d/1kc5tVFZxQLT5EcworXmeMzVYsXp-6hg6dthFQI8wNcM/edit#heading=h.5sepq0d8u5az). Please make a copy of this document and check off items as you complete them.

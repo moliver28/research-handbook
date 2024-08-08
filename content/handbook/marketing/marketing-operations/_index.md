@@ -354,7 +354,9 @@ Discovery research is a way to learn more about our users. Our users are members
 
 Insights from Discovery research calls will be used to inform the Marketing Operations strategic planning and roadmapping.
 
-## <i class="fas fa-file-import" id="biz-tech-icons"></i> [List Imports](/handbook/marketing/marketing-operations/list-import)
+## <i class="fas fa-file-import" id="biz-tech-icons"></i> List Imports
+
+[List Imports](/handbook/marketing/marketing-operations/list-import)
 
 ## <i class="fas fa-toolbox" id="biz-tech-icons"></i> Marketing Technology Stack
 

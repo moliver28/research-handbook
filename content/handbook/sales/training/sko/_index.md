@@ -20,13 +20,10 @@ We will achieve this by creating an event that is:
 
 ---
 
-## [Sales Kickoff 2023](/handbook/sales/training/SKO/2023)
-
-## [Sales Kickoff 2022](/handbook/sales/training/SKO/2022)
-
-## [Sales Kickoff 2021](/handbook/sales/training/SKO/2021)
-
-## [Sales Kickoff 2020](/handbook/sales/training/SKO/2020)
+- [Sales Kickoff 2023](/handbook/sales/training/SKO/2023)
+- [Sales Kickoff 2022](/handbook/sales/training/SKO/2022)
+- [Sales Kickoff 2021](/handbook/sales/training/SKO/2021)
+- [Sales Kickoff 2020](/handbook/sales/training/SKO/2020)
 
 ---
 

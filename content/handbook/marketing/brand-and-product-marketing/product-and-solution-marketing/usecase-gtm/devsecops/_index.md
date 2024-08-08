@@ -3,9 +3,9 @@ title: "DevOps Solution Resource: DevSecOps"
 description: "How GitLab approaches the DevSecOps solution including messaging and key resources to help marketing and sales."
 ---
 
-## Looking for a customer-facing overview of GitLab's DevSecOps capabilities? See the [DevSecOps Solution](https://about.gitlab.com/solutions/dev-sec-ops)
+**Looking for a customer-facing overview of GitLab's DevSecOps capabilities? See the [DevSecOps Solution](https://about.gitlab.com/solutions/dev-sec-ops)**
 
-## GitLab field teams refer to this [Security and Governance highspot page](https://gitlab.highspot.com/items/61f415455b20d8eb224750a3) for latest information
+**GitLab field teams refer to this [Security and Governance highspot page](https://gitlab.highspot.com/items/61f415455b20d8eb224750a3) for latest information**
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around DevSecOps.
 

@@ -172,7 +172,9 @@ See [Data Team Internships](/handbook/business-technology/data-team/organization
 
 ## Analytics Engineering
 
-### [Analytics Engineering Job Family](/job-families/finance/analytics-engineer)
+### Analytics Engineering Job Family
+
+[Analytics Engineering Job Family](/job-families/finance/analytics-engineer)
 
 ```mermaid
   graph LR;
@@ -230,14 +232,14 @@ The reason is that from the technology side we don't know the business and from 
 
 Note: TTT will **not** search for business opportunities to use any tool feature. TTT has to understand business opportunities and translate this into what software could bring to the table.
 
-A single TTT consists of minimum 2 and maximum 3 GitLab Team Members with different roles. There are no requirements in which team a Team Member is part  of(so this could be outside of the central Data Team as well) as long as the TTT meets the expectations described below. 
+A single TTT consists of minimum 2 and maximum 3 GitLab Team Members with different roles. There are no requirements in which team a Team Member is part  of(so this could be outside of the central Data Team as well) as long as the TTT meets the expectations described below.
 
 | Tool / Technology | Tandem |
 | ----------------- | ------ |
 | Snowflake         | t.b.d. |
 | Monte Carlo       | t.b.d. |
 | dbt               | t.b.d. |
-| Tableau           | t.b.d. | 
+| Tableau           | t.b.d. |
 
 ### What do we expect from TTT
 

@@ -33,7 +33,9 @@ Whole department roadmap view of all [tracks](#tracks).
 
 ## Tracks
 
-## [Coverage track](https://gitlab.com/groups/gitlab-org/-/epics/1459) ([roadmap view](https://gitlab.com/groups/gitlab-org/-/epics/1459#roadmap))
+## Coverage track (roadmap view)
+
+[Coverage track](https://gitlab.com/groups/gitlab-org/-/epics/1459) ([roadmap view](https://gitlab.com/groups/gitlab-org/-/epics/1459#roadmap))
 
 Work to improve the overall test coverage.
 
@@ -101,7 +103,9 @@ Test planning process.
 1. Bake in test planning as part of feature planning process.
 1. Iterate and come up with a shorter version of the [10 min ACC framework](https://testing.googleblog.com/2011/09/10-minute-test-plan.html).
 
-## [Efficiency track](https://gitlab.com/groups/gitlab-org/-/epics/1460) ([roadmap view](https://gitlab.com/groups/gitlab-org/-/epics/1460#roadmap))
+## Efficiency track (roadmap view)
+
+[Efficiency track](https://gitlab.com/groups/gitlab-org/-/epics/1460) ([roadmap view](https://gitlab.com/groups/gitlab-org/-/epics/1460#roadmap))
 
 Work that increases our efficiency and productivity.
 
@@ -164,7 +168,9 @@ Work that will allow us to debug tests more easily. Includes better reporting an
 1. Standard Page Object method names for click navigation.
 1. TBD
 
-## [Triage track](https://gitlab.com/groups/gitlab-org/-/epics/1461) ([roadmap view](https://gitlab.com/groups/gitlab-org/-/epics/1461#roadmap))
+## Triage track (roadmap view)
+
+[Triage track](https://gitlab.com/groups/gitlab-org/-/epics/1461) ([roadmap view](https://gitlab.com/groups/gitlab-org/-/epics/1461#roadmap))
 
 Work that will help us triage issues and merge requests more efficiently.
 
@@ -191,7 +197,9 @@ Work that will help us triage issues and merge requests more efficiently.
 
    * Investigate integrating [https://gitlab.com/tromika/gitlab-issues-label-classification](https://gitlab.com/tromika/gitlab-issues-label-classification) with GitLab Insights.
 
-## [Measure track](https://gitlab.com/groups/gitlab-org/-/epics/1462) ([roadmap view](https://gitlab.com/groups/gitlab-org/-/epics/1462#roadmap))
+## Measure track (roadmap view)
+
+[Measure track](https://gitlab.com/groups/gitlab-org/-/epics/1462) ([roadmap view](https://gitlab.com/groups/gitlab-org/-/epics/1462#roadmap))
 
 Work involving metrics that will allow us to make good data-driven decisions and report them to stakeholders early.
 
@@ -211,7 +219,9 @@ Work involving metrics that will allow us to make good data-driven decisions and
 1. Mean time to resolve `priority::1` and `priority::2` defects.
 1. New issue first triage
 
-## [Releases track](https://gitlab.com/groups/gitlab-org/-/epics/1463) ([roadmap view](https://gitlab.com/groups/gitlab-org/-/epics/1463#roadmap))
+## Releases track (roadmap view)
+
+[Releases track](https://gitlab.com/groups/gitlab-org/-/epics/1463) ([roadmap view](https://gitlab.com/groups/gitlab-org/-/epics/1463#roadmap))
 
 Work that helps in validating the release process.
 

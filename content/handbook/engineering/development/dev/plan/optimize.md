@@ -4,7 +4,7 @@ title: "Optimize Group"
 
 ## Plan:Optimize
 
-### [Optimize FY24 direction and goals](https://gitlab.com/groups/gitlab-org/-/epics/9882#fy24-goals)
+**[Optimize FY24 direction and goals](https://gitlab.com/groups/gitlab-org/-/epics/9882#fy24-goals)**
 
 ### How we work
 

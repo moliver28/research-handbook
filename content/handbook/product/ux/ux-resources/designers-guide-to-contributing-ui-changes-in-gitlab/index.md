@@ -97,19 +97,25 @@ If you're viewing [Storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/stor
 
 ## Video walkthroughs
 
-### [Contributing to GitLab (Designer Edition!)](https://www.youtube.com/embed/SSo97VwVn4Y&feature=youtu.be) by [Annabel Dunstone Gray](https://gitlab.com/annabeldunstone)
+### Contributing to GitLab (Designer Edition!) by Annabel Dunstone Gray
+
+[Contributing to GitLab (Designer Edition!)](https://www.youtube.com/embed/SSo97VwVn4Y&feature=youtu.be) by [Annabel Dunstone Gray](https://gitlab.com/annabeldunstone)
 
 {{< youtube "SSo97VwVn4Y" >}}
 
 ---
 
-### [How to Make UI text changes in GitLab (Designer Edition)](https://www.youtube.com/embed/AEv3XFw0xJQ&feature=youtu.be) by [`@jj-ramirez`](https://gitlab.com/jj-ramirez)
+### How to Make UI text changes in GitLab (Designer Edition) by `@jj-ramirez`
+
+[How to Make UI text changes in GitLab (Designer Edition)](https://www.youtube.com/embed/AEv3XFw0xJQ&feature=youtu.be) by [`@jj-ramirez`](https://gitlab.com/jj-ramirez)
 
 {{< youtube "AEv3XFw0xJQ" >}}
 
 ---
 
-### [Updating a deprecated button](https://www.youtube.com/embed/AEv3XFw0xJQ&feature=youtu.be) by [`@aregnery`](https://gitlab.com/aregnery)
+### Updating a deprecated button by `@aregnery`
+
+[Updating a deprecated button](https://www.youtube.com/embed/AEv3XFw0xJQ&feature=youtu.be) by [`@aregnery`](https://gitlab.com/aregnery)
 
 {{< youtube "dqazqqwvnOs" >}}
 

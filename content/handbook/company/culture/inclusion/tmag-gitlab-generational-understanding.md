@@ -35,15 +35,15 @@ In the monthly call we'll divide our time into three parts:
 
 ### Past Activities
 
-#### [Film Discussion - Duty Free](https://gitlab.com/gitlab-com/book-clubs/-/issues/26)
+#### Film Discussion - Duty Free
 
-Join our Film Discussion. In this iteration, we're watching the film "Duty Free". About the film:
+Join our [Film Discussion](https://gitlab.com/gitlab-com/book-clubs/-/issues/26). In this iteration, we're watching the film "Duty Free". About the film:
 
 > After a 75 year-old immigrant mother gets fired without cause from her lifelong job as a hotel housekeeper, her son takes her on a bucket-list adventure to reclaim her life. As she struggles to find work, he documents a journey that uncovers the economic insecurity shaping not only her future, but that of an entire generation.
 
-#### [Book Club - Wisdom at Work](https://gitlab.com/gitlab-com/book-clubs/-/issues/13)
+#### Book Club - Wisdom at Work
 
-Join our Book Club! In this iteration, we're discussing the book "Wisdom at Work: The Making of a Modern Elder" by Chip Conley. The book is self-described as:
+Join our [Book Club](https://gitlab.com/gitlab-com/book-clubs/-/issues/13)! In this iteration, we're discussing the book "Wisdom at Work: The Making of a Modern Elder" by Chip Conley. The book is self-described as:
 
 > Part manifesto and part playbook, Wisdom@Work ignites an urgent conversation about ageism in the workplace, calling on us to treat age as we would other type of diversity. In the process, Conley liberates the term "elder" from the stigma of "elderly," and inspires us to embrace wisdom as a path to growing whole, not old. Whether you've been forced to make a mid-career change, are choosing to work past retirement age, or are struggling to keep up with the millennials rising up the ranks, Wisdom@Work will help you write your next chapter.
 

@@ -2,9 +2,9 @@
 title: "DevOps Solution Resource: DevOps Platform"
 ---
 
-## Looking for a customer-facing overview of GitLab's DevOps Platform? See the [DevOps Platform Solution](https://about.gitlab.com/solutions/devops-platform/)
+**Looking for a customer-facing overview of GitLab's DevOps Platform? See the [DevOps Platform Solution](https://about.gitlab.com/solutions/devops-platform/)**
 
-## GitLab field teams refer to this [DevSecOps Platform highspot page](https://gitlab.highspot.com/items/61f3f3d9fdce42ebbdf04f17) for latest information
+**GitLab field teams refer to this [DevSecOps Platform highspot page](https://gitlab.highspot.com/items/61f3f3d9fdce42ebbdf04f17) for latest information**
 
 The page below is intended to align GitLab's sales and marketing efforts with a single source of truth for our go-to-market efforts around the benefits of a single DevOps Platform.
 
@@ -253,9 +253,9 @@ GitLab offers a [variety of pre-packaged and custom services](https://about.gitl
 - [All Marketing Click Through Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#click-throughs)
 - [All Marketing Live Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#live-instructions)
 
-### [Message House](message-house/)
+### Message House
 
-*The message house provides a structure to describe and discuss value and differentiators for the value play.*
+*The [message house](message-house/) provides a structure to describe and discuss value and differentiators for the value play.*
 
 ## Technical Resources for Solution Architects
 

@@ -59,58 +59,58 @@ Companies that excel at source code management create high quality code while in
 
 Being the entry point to GitLab means that many user personas find utility and a solution to their problem in Source Code Management. Let's go through the list of power user personas and describe briefly their key motivations to use Source Code Management in GitLab:
 
-#### [Parker the Product Manager](/handbook/product/personas/#parker-product-manager)
+#### Parker the Product Manager
 
-- PMs coordinate feature development and project success among other things. The ability to monitor progress through commits, review app and validate those changes and provide feedback is key to they success of their role
+- [PMs](/handbook/product/personas/#parker-product-manager) coordinate feature development and project success among other things. The ability to monitor progress through commits, review app and validate those changes and provide feedback is key to they success of their role
 - These changes, in time will generate valuable statistical insight for the PM to assess accurately development efforts of planned new features
 
-#### [Delaney the Development Team Lead](/handbook/product/personas/#delaney-development-team-lead)
+#### Delaney the Development Team Lead
 
-- Just like the PM, Team Leads need also to understand their team's capacity to assign upcoming tasks to meet goals on time accordingly
+- Just like the PM, [Team Leads](/handbook/product/personas/#delaney-development-team-lead) need also to understand their team's capacity to assign upcoming tasks to meet goals on time accordingly
 - Approval workflows in Code Review allows them to become faster real team work enablers
 
-#### [Sasha the Software Developer](/handbook/product/personas/#sasha-software-developer)
+#### Sasha the Software Developer
 
-- Sasha takes advantage of both Command Line Tools and GitLab's GUI to have complete control of every commit he does to complete his tasks
+- [Sasha](/handbook/product/personas/#sasha-software-developer) takes advantage of both Command Line Tools and GitLab's GUI to have complete control of every commit he does to complete his tasks
 - Even when scope changes, a frequent hurdle and a source of frustration, branching, merging and conflict resolution will be performed in Source Code Management and will trigger CI for fast resolution
 
-#### [Devon the DevOps Engineer](/handbook/product/personas/)
+#### Devon the DevOps Engineer
 
-- All information relevant to the role's goals is congregated in Source Code Management to take action on it. Time to resolution and, in general, any other key metric in DevOps is measured and its performance tracked in Source Code Management
+- All information relevant to [the role's](/handbook/product/personas/) goals is congregated in Source Code Management to take action on it. Time to resolution and, in general, any other key metric in DevOps is measured and its performance tracked in Source Code Management
 - Any improvement applied to the development process will reflect in Source Code Management's interfaces, whether its the Merge Requests or Issues.
 
-### [Cameron the Compliance Manger](/handbook/product/personas/#cameron-compliance-manager)
+### Cameron the Compliance Manger
 
-- Cameron needs to all the company's development processes are compliant. Given the amount of data that a software development and delivery lifecycle produces, he finds it difficult to find, aggregate, and report on all of the necessary data for audit purposes
+- [Cameron](/handbook/product/personas/#cameron-compliance-manager) needs to all the company's development processes are compliant. Given the amount of data that a software development and delivery lifecycle produces, he finds it difficult to find, aggregate, and report on all of the necessary data for audit purposes
 - He needs the information to be available quickly and easily so he can reduce the time and disruption involved in the evidence collection process
 
-### [Presely the Product Designer](/handbook/product/personas/#presley-product-designer)
+### Presely the Product Designer
 
-- Presley is responsible for understanding user needs and product requirements to create and iterate on design proposals to solve user needs
+- [Presley](/handbook/product/personas/#presley-product-designer) is responsible for understanding user needs and product requirements to create and iterate on design proposals to solve user needs
 - He would like to have clear, up-to-date requirements that he can reliably refer back to throughout the design process
 
-### [Sydney the Systems Administrator](/handbook/product/personas/#sidney-systems-administrator)
+### Sydney the Systems Administrator
 
-- She is in charge of making tools such as GitLab available and accessible to everyone.
+- [Sydney](/handbook/product/personas/#sidney-systems-administrator) is in charge of making tools such as GitLab available and accessible to everyone.
 - She needs to undertand in depth the provision and scalability of the infrastructure to provide the company with a solid, fault tolerant instance of the platform.
 
 ### Buyer Personas
 
 Source Code Management purchasing typically do not require executive involvement. It is usually acquired and installed via our freemium offering without procurement or IT's approval. This process is commonly known as shadow IT and its a great opportunity for us to eventually become a paid for service. When the upgrade is required the [VP of IT](https://docs.google.com/presentation/d/17Ucpgxzt1jSCs83ER4-LdDyEuermpDuriugPNYrz8Rg/) is the most frequent decision maker. The influence of the [VP Application Development](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) is notable too to the owner of the budget.
 
-#### [Alex the Application Development Manager](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/)
+#### Alex the Application Development Manager
 
-- Highly technical, and only one step removed from an individual contributor.
+- [Alex](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) is highly technical, and only one step removed from an individual contributor.
 - Managing his budget and ensuring that his team has the right skills and overall team engagement.
 
-#### [Dakota the Application Development Director](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/)
+#### Dakota the Application Development Director
 
-- Dakota is a key IT leader who manages and leads several teams of developers supporting a specific set of business applications. She has both technical and business skills and as a manager she's focused on delivering business innovation.
+- [Dakota](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) is a key IT leader who manages and leads several teams of developers supporting a specific set of business applications. She has both technical and business skills and as a manager she's focused on delivering business innovation.
 - She balances her time between strategic planning with her business partners, and also resolving organizational issues and roadblocks her teams are facing. She develops organizational strategies and plans to secure budget and resources for her team.
 
-#### [Erin the Application Development Executive (VP, etc.)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/)
+#### Erin the Application Development Executive (VP, etc.)
 
-- Erin is a strategic leader focused on business challenges and the big picture.
+- [Erin](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) is a strategic leader focused on business challenges and the big picture.
 - Her top goal is predictable Business Results
 
 ## Industry Analyst Resources
@@ -155,9 +155,9 @@ Market Requirements is a collection of capabilites we recognize are present in t
 
 ---
 
-## [Message House](message-house/)
+## Message House
 
-A message house contains all the pieces of content that will clearly convey GitLab's values and differentiators in each touch point with prospects and clients. Each touchpoint should be worth their while and should also be relevant in their relationship with GitLab in order to move the needle in their decision-making process. In other words, every single item of the message house is in context with each persona, connect with their intents, resonates with their inflection points (value drivers) and provides an easy narrative of the SCM use case to lay out next steps and make progress.
+A [message house](message-house/) contains all the pieces of content that will clearly convey GitLab's values and differentiators in each touch point with prospects and clients. Each touchpoint should be worth their while and should also be relevant in their relationship with GitLab in order to move the needle in their decision-making process. In other words, every single item of the message house is in context with each persona, connect with their intents, resonates with their inflection points (value drivers) and provides an easy narrative of the SCM use case to lay out next steps and make progress.
 
 The message house for the use case provides a structure to describe and discuss the value and differentiators for the use case.
 

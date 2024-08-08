@@ -416,7 +416,9 @@ To get an idea of [what's expected](#expectation) of an on-call engineer and how
 
 If you have questions about the process, please reach out to `#dev-oncall` in Slack or to the [DRI](#development-on-call-dri) directly.
 
-### Pagerslack statistics ([Tableau](https://10az.online.tableau.com/#/site/gitlab/workbooks/2225419/views))
+### Pagerslack statistics
+
+[Tableau](https://10az.online.tableau.com/#/site/gitlab/workbooks/2225419/views)
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/PagerslackStats/ofEscalationsperMonth" >}}
 {{< /tableau >}}

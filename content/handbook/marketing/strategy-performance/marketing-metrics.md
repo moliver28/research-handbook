@@ -449,11 +449,15 @@ Note: There is a current transition to move towards the [Territory Success Plann
 
 ## Dashboard Review Videos
 
-### [Marketing Metrics](https://app.periscopedata.com/app/gitlab/798262/TD---Marketing-Metrics)
+### Marketing Metrics
+
+[Marketing Metrics](https://app.periscopedata.com/app/gitlab/798262/TD---Marketing-Metrics)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7cT_IsyWrus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### [SDR Metrics](https://app.periscopedata.com/app/gitlab/641469/SDR-Metrics)
+### SDR Metrics
+
+[SDR Metrics](https://app.periscopedata.com/app/gitlab/641469/SDR-Metrics)
 
 [Video Walkthrough](https://www.youtube.com/watch?v=ygeZvKvU9uc) (Private Video)
 

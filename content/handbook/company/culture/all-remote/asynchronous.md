@@ -139,7 +139,7 @@ However, doing async communication well requires significant intentionality. Whe
 
 This level of thoughtfulness often produces communications that are clear, complete, delivered with kindness, and that create productive results.
 
-This also means that communicating asynchronously takes more time and planning, and requires specific tools. When it comes to async communication, there is [as much to unlearn as there is to learn](/handbook/hiring/candidate/faq/).
+This also means that communicating asynchronously takes more time and planning, and requires specific tools. When it comes to async communication, there is [as much to unlearn as there is to learn](/handbook/hiring/candidate-faq/).
 
 The investment of time and strategy is worth it: communicating well asynchronously creates major improvements in efficiency, and supports strong collaboration and teamwork.
 

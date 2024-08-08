@@ -456,7 +456,9 @@ Other boards where previous requests are tracked:
 
 Following a similar process to Milestone Retrospectives, we employ [Iteration Retrospectives](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/82623) on a quarterly basis.
 
-#### [May 2021](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/234)
+#### May 2021
+
+[May 2021](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/234)
 
 **Key Takeaways**
 

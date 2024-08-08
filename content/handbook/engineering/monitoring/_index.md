@@ -103,7 +103,9 @@ We have 3 prometheus clusters: main prometheus, prometheus-db, and prometheus-ap
 
 [Thanos Query](https://thanos-query.ops.gitlab.net) can be used to query metrics aggregated across Prometheus clusters.
 
-#### [Monitoring Infrastructure](https://dashboards.gitlab.net)
+#### Monitoring Infrastructure
+
+[Monitoring Infrastructure](https://dashboards.gitlab.net)
 
 * Private GitLab account is required to access
 * Highly Available setup

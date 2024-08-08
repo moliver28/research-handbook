@@ -282,7 +282,9 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 - [Executive Search]({{< ref "executive-search" >}})
 
-### [**Emerging Talent**]({{< ref "emerging-talent" >}})
+### Emerging Talent
+
+**[Emerging Talent](emerging-talent.md)**
 
 - [Associate Engineer Developmnet](/handbook/hiring/associate-engineer-development/)
 
