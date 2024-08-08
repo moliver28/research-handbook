@@ -8,9 +8,8 @@ Generally, the entire organization will be applied to the product function with 
 
 Other related infromation to People Processes include:
 
-- [Product Management Roles](/handbook/product/product-manager-role)
+- [Product Management Role](/handbook/product-management/product-manager-role)
 - [Product Management Leadership](/handbook/product/product-leadership)
-- [Product Manger Responsibilities](/handbook/product/product-manager-responsibilities)
 
 For any questions or updates, please assign `gl-product-leadership`.
 
