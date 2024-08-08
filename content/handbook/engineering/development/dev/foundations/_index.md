@@ -6,20 +6,18 @@ description: The Foundations stage deals with cross functional work from the des
 ## About
 
 We're the Foundations stage!
-
-We hope it's a good entry point to learn more about who we are and what we do.
+We're new here, and are building out this page so there's not much to see here.
+In the mean-time, check out our groups' pages below.
 
 ## Teams
 
-<!-- TODO: Get teams and their mangers -->
+- [Foundations:Design System](design-system)
+- [Foundations:Personal Productivity](personal-productivity)
 
 ## What do we work on?
 
-<!-- TODO: Get this from product pages -->
-
-## How do we work?
-
-### Communication
+- [Design System](design-system/#what-do-we-work-on)
+- [Personal Productivity](personal-productivity/#what-do-we-work-on)
 
 ## Metrics
 
