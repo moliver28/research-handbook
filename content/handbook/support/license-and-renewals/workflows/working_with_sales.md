@@ -192,11 +192,11 @@ Workflow:
 
 ### Customer seeking a discount
 
-A customer is seeking a discount and their subscription is above the Starter/Bronze tier
+A customer is seeking a discount and their subscription is above the Starter tier
 
 Workflow:
 
-- Confirm their tier and the details of the discount requested, if they are not above Starter/Bronze or the discount request is unreasonable (use your discretion), explain that a discount is not available
+- Confirm their tier and the details of the discount requested, if they are not above Starter or the discount request is unreasonable (use your discretion), explain that a discount is not available
 - If you are unsure whether a discount should be given, consult with the Account Owner first
 - Chatter Sales and summarise the customer's request, ask for them to reach out if they confirm a discount is possible
 - Respond to the customer with the appropriate macro, set the expectation that a discount is not guaranteed and is at the discretion of the relevant approvers
