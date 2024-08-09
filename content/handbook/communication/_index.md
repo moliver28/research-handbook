@@ -12,7 +12,7 @@ When we go **back and forth three times,** we jump on a [synchronous video call]
 
 We communicate respectfully and professionally at all times.
 
-## Effective & responsible communication guidelines
+## Effective & Responsible Communication Guidelines
 
 1. **Assume [Positive Intent](/handbook/values/#collaboration).** Always begin with a position of positivity and grace.
 1. **Kindness Matters.** You are looking at a screen, but you are really talking to a person. If you wouldn't say it to a person's face, do not send it to them in a text message.
