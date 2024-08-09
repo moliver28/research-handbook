@@ -615,7 +615,11 @@ For technical debt which might span, or fall in gaps between groups they should 
 
 ## Deferred UX
 
+<<<<<<< Updated upstream
 Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `Deferred UX` to address the UX gap in subsequent releases.
+=======
+Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `Deferred UX` to address the UX gap in subsequent releases.
+>>>>>>> Stashed changes
 
 For the same reasons as technical debt, we don't want Deferred UX to grow faster than our code base.
 

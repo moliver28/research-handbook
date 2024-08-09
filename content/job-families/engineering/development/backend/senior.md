@@ -208,7 +208,11 @@ CI/CD Backend Engineers are primarily tasked with improving the Continuous Integ
 
 - Provide value to the user and communicate such with product managers,
 - Introduce features that work at scale and in untrusting environments,
+<<<<<<< Updated upstream
 - Always focus on defining and shipping [the Minimal Viable Change](/handbook/product/product-).
+=======
+- Always focus on defining and shipping [the Minimal Viable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
+>>>>>>> Stashed changes
 
 We, as a team, cover end-to-end integration of CI/CD in GitLab, with components being written in Rails and Go. We work on a scale of processing a few million of CI/CD jobs on GitLab.com monthly. CI/CD engineering is interlaced with a number of teams across GitLab. We build new features by following our [direction](https://about.gitlab.com/direction/#ci--cd). Currently, we focus on providing a deep integration of Kubernetes with GitLab:
 

@@ -26,7 +26,11 @@ engineering practice.
 
 ## Iteration
 
+<<<<<<< Updated upstream
 We always push ourselves to be iterative and make the [minimal viable change](/handbook/product/product-)
+=======
+We always push ourselves to be iterative and make the [minimal viable change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc)
+>>>>>>> Stashed changes
 that is on the direct path to achiving our goals.
 
 For complex initiatives we are using the [Architecture Design Workflow](/handbook/engineering/architecture/workflow/)

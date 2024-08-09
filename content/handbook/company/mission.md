@@ -47,7 +47,11 @@ That is why we sponsor initiatives such as Rails Girls.
 There are a few significant, but often overlooked, nuances of the **enabling everyone to contribute to GitLab, the application** mantra:
 
 - While collaboration is a core value of GitLab, over collaborating tends to involve team members unnecessarily, leading to consensus-based decision making, and ultimately slowing the pace of improvement in the GitLab application. Consider [doing it yourself](/handbook/values/#collaboration), creating a merge request, and facilitating a discussion on the solution.
+<<<<<<< Updated upstream
 - For valuable features in line with our product philosophy, that do not yet exist within the application, don't worry about UX having a world class design before shipping. While we must be good stewards of maintaining a quality product, we also believe in rapid iteration to add polish and depth after an [MVC](/handbook/product/product-) is created.
+=======
+- For valuable features in line with our product philosophy, that do not yet exist within the application, don't worry about UX having a world class design before shipping. While we must be good stewards of maintaining a quality product, we also believe in rapid iteration to add polish and depth after an [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) is created.
+>>>>>>> Stashed changes
 - Prefer creating merge requests ahead of issues in order to suggest a tangible change to facilitate collaboration, driving conversation to the recommended implementation.
 - Contributors should feel free to create what they need in GitLab. If quality engineering requires charting features, for example, which would normally be implemented out of another team, they should feel empowered to prioritize their own time to focus on this aspect of the application.
 - GitLab maintainers, developers, and Product Managers should be viewed as coaches for contributions, independent of source. While there are contributions that may not get merged as-is (such as copy/paste of EE code into the CE code base or features that aren't aligned with product philosophy), the goal is to coach contributors to contribute in ways that are cohesive to the rest of the application.

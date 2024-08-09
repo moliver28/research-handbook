@@ -20,7 +20,11 @@ Specific Remediations raised during the discussion:
 
 1. Undertake [maintenance tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/440373) to reduce complexity of semgrep & sast-rules release.
 
+<<<<<<< Updated upstream
 1. Apply strict review processes for implementation plans, and refer to the [MVC principle](/handbook/product/product-) more frequently
+=======
+1. Apply strict review processes for implementation plans, and refer to the [MVC principle](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) more frequently
+>>>>>>> Stashed changes
 
 ### 17.1
 

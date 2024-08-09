@@ -122,7 +122,11 @@ If the weight of an issue cannot be determined within a day, create a separate [
 
 #### Design and Development collaboration
 
+<<<<<<< Updated upstream
 When issues require a design proposal, we follow the [Product Development Flow](/handbook/product-development-flow/). Design and development should work together from the start to ensure the issue follows our [MVC guidelines](/handbook/product/product-), while still providing value and a usable experience.
+=======
+When issues require a design proposal, we follow the [Product Development Flow](/handbook/product-development-flow/). Design and development should work together from the start to ensure the issue follows our [MVC guidelines](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), while still providing value and a usable experience.
+>>>>>>> Stashed changes
 
 To maintain a SSOT, the same issue should be used for design and development. This creates less duplicated work for both teams. Product designers should use the [UX Definition of Done](/handbook/product/ux/stage-group-ux-strategy/ci-cd/#ux-definition-of-done-ux-dod) template to clearly state where the issue stands in the product development flow. An example of this in practice is https://gitlab.com/gitlab-org/gitlab/-/issues/33418/.
 
