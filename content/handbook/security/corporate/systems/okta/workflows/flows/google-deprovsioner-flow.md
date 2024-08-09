@@ -93,7 +93,6 @@ Google Offboard uses a combination of pre-built 3rd party connectors and custom 
 - Custom Google Drive
 - Custom Google Calendar
 
-
 ### Tables
 
  OWF does not provide native database support, so tables are used at this time to store relevant logs.
