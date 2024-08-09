@@ -83,6 +83,23 @@ A bot asks every team member autoamtically the following questions at the beginn
 - **What Impediments did you have in the last week? Which impediments do you anticipate this week?**: This is important information for other stakeholders, to understand where a team member might need support.
 - **Which Priorities do you have for the current week?**: This should be the most important things you want to achieve during the week.
 
+### Retrospective
+
+We believe that continuously evolving and improving the way we work is crucial to delivering good outcomes. Traditionally, retrospectives are used to facilitate this improvement.
+Due to our geographical distribution we cannot run typical sync retrospectives that include everyone.
+We've also found that completely async retrospectives only see limited participation and discussion.
+
+We're currently trialing a mixed retrospective format, we're team members pair on filling in the retro issue. The process is as follows:
+
+1. Every milestone the [async-retrospective project](https://gitlab.com/gitlab-org/async-retrospectives) automatically creates an
+   issue in the [analytics-instrumentation retro project](https://gitlab.com/gl-retrospectives/analytics-instrumentation/-/issues) which contains a list of retro questions.
+1. Every 2nd week a [donut Slackbot](https://www.donut.com/) will pair up all team members in random groups of two.
+1. Every group of two should pair on filling out the retro issue for the current milestone together within that week:
+   1. This should happen ideally through a sync meeting or alternatively via Slack.
+   1. Focus on the what happened the last two weeks, since the last pairing.
+   1. Pairing should involve taking the time to think through the questions, talking about the answers with your pair and coming up with action items based on the identified problems.
+   1. Expect an overall time commitment of 30 minutes to an hour for the bi-weekly pairing.
+
 ### Workflow
 
 Our team use the following workflow stages defined in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary):
