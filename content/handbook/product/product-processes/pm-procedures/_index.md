@@ -34,7 +34,7 @@ For every scenario above, we also need to ensure that the Engineering Metrics da
 The label change affects both Issues and Merge Requests. The Stage and Group labels power the visualization and metrics in the [Quality](https://quality-dashboard.gitlap.com/groups/gitlab-org) and [GitLab Insights](https://gitlab.com/groups/gitlab-org/-/insights) dashboards.
 Please create a new issue in the [Triage Ops](https://gitlab.com/gitlab-org/quality/triage-ops) with the template [`label-change.md`](https://gitlab.com/gitlab-org/quality/triage-ops/blob/master/.gitlab/issue_templates/label-change.md).
 
-##### Creating new Groups
+#### Creating new Groups
 
 As the group(s) working on a Stage grow in size, a new Group may need to be formed so group sizes remain manageable. For example, today
 there is a single group for `Manage`, but new groups were created for `control` and `framework`.
@@ -127,7 +127,7 @@ At times it may be necessary to transfer a [stable-counterpart](/handbook/leader
 1. Assign the issue to those who are DRIs or have tasks related to the realignment
 1. Once the issue has gotten approval from leadership and impacted parties have been made aware of the reallocation of team members, move the issue to a public repository (such as [Product](https://gitlab.com/gitlab-com/Product), [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com), or a project specific to your team) in accordance with our [Transparency](/handbook/values/#transparency) value, making these changes transparent to all team members.
 
-##### When a Product Manager inherits an existing category from another product manager
+#### When a Product Manager inherits an existing category from another product manager
 
 In addition to making the appropriate changes listed above to ensure that the category is reflected as part of the right group, stage and section, the following steps are also important.
 

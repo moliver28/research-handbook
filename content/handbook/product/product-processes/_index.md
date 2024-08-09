@@ -209,6 +209,7 @@ See [this page](/handbook/product/cross-stage-features/) for details on working 
 ### Stages, Groups, and Categories
 
 [Stages, groups, and categories](/handbook/product/product-processes/#stages-groups-and-categories) serve as a common framework for organizing and communicating the scope of GitLab.
+
 ## How to work as a PM
 
 If you follow the principles and workflow above, you won't be writing long, detailed
