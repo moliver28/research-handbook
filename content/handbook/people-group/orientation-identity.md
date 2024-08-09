@@ -219,7 +219,7 @@ Quickly apologize, correct yourself and move on. Don't make a big deal out of it
 
 ### Can someone be fired for being transgender, gay, etc.?
 
-The answer to this question, unfortunately, largely depends on where you are in the world. At GitLab, you will not get fired for any of the following reasons, no matter where you are:
+At GitLab, you will not get fired for any of the following reasons, no matter where you are:
 
 Race, color, religion, national origin, sex (including pregnancy), age, disability, HIV status, sexual orientation, gender identity, marital status, past or present military service, or any other status protected by the laws or regulations in the locations where we operate.
 

@@ -205,7 +205,6 @@ Codey
 Cognito
 Coinbase
 colocate
-colocate
 colocated
 colocating
 colocation
@@ -325,6 +324,7 @@ Dev
 devfile
 devfiles
 DevOps
+Devo
 Dhall
 dialogs
 Diffblue
@@ -1074,7 +1074,6 @@ shortcodename
 shortcodes
 Sidekiq
 Sigstore
-Sijbrandij
 Silverlight
 Sisense
 Sitespeed
@@ -1092,6 +1091,7 @@ smartcards
 SMEs
 snake_case
 snake_cased
+Snapcraft
 snapshotting
 Snowplow
 Snyk
@@ -1116,6 +1116,7 @@ SSGs
 Stackdriver
 Stackprof
 stacktrace
+stageless
 starrer
 starrers
 Stickermule

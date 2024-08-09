@@ -293,10 +293,27 @@ Tableau Cloud leverages GitLab's existing technology investments and integrates 
 
 | **Primary / Backup** | **User** |  Designated Support Contact with Tableau Support |
 | ------- |------- | ------- |
-| Primary | `@ttnguyen28` | Yes |
-| Primary | `TBD` | Yes |
-| Backup  | `@snalamaru`  | Yes |
+| Primary | `@nscoville` | Yes |
+| Backup  | `@annie-analyst` | Yes |
 | Backup  | `@pempey`  | Yes |
+| Backup  | `@nmcavinue`  | Yes |
+
+### Tableau Unused Content Archival Policy and Process
+
+To maintain an efficient, clean, and user-friendly Tableau environment an automated archival process has been implemented. This policy outlines the procedure for archiving unused and inactive content within our Tableau GitLab Cloud environment. Tableau GitLab Public and Sandbox are excluded from this policy. 
+
+Scope of Archiving:
+
+90+ days unused workbooks and data sources are archived and made inaccessible by search or via direct links. Archived items can be retrieved upon request to the BI team. The archival process is automated and ocurs on the 15th of each month by moving content to the `Admin Archive` Folder.
+
+Archival Exclusions:
+
+1. Workbooks and dependent data sources published to Tableau GitLab Public.
+1. Items for which the owner has requested retention, indicated by the Tableau tag `Do NOT Archive`.
+1. Content stored in Personal Folders will not be archived, as it is only viewable by the owner and does not clutter the environment.
+
+Archival Contact:
+For questions or requests regarding archived content, please reach out to the BI team. Click [here](.../handbook/business-technology/data-team/platform/tableau/tableau-admin-guide/#stale-and-unsued-content-management) for  administrative archival documentation.
 
 ### Permissions
 

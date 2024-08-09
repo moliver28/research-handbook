@@ -21,8 +21,20 @@ This enables other engineers and other managers to have good information about p
 Completed epics should remain "Open" with the ~"workflow-infra::In Progress" label.
 Update the status block in the epic description to summarize the project and share the completed status.
 
-We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) to collect the status information into top-level epics for each group.
+We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) to collect the status information into top-level epics for each group, and to gather status updates from epic notes.
 This automation runs several times each day, and can be triggered by [running the pipeline listed on the project page](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/pipeline_schedules).
+
+#### Status updates on project epics
+
+Comments are automatically generated on project epics to report status.
+To enable this functionality, please ensure the following:
+
+1. `status_note_summaries: "Wednesday"` is set on [teams.libsonnet](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/master/teams/lib/teams.libsonnet). If it is not already set, add the `status_note_summaries:` item for your team and run `make generate` in the project repository.
+2. In the sub-epic that is collecting status updates, ensure the tags `<!-- STATUS NOTE START --><!-- STATUS NOTE END -->` is in the description.
+
+Once enabled, on every Wednesday a note will be left on the epic that will `@` mention the DRI for a status update with instructions.
+The DRI then is responsible for adding a status update by editing the note to provide an update.
+Periodically, the status update in the note will be promoted to the description of the epic.
 
 #### When a project is finished
 
@@ -77,31 +89,10 @@ The DRI and the EM are responsible for updating the list of participants accordi
 - @participantN
 ```
 
-#### Development Log
-
-This section contains the previous Status Updates. At least, it is updated everytime the DRI updates the Status Section.
-
-```markdown
-### Development Log
-
-<details>
-
-<details>
-<summary>(Previous) Status YYYY-MM-DD</summary>
-
-
-</details>
-
-</details>
-```
-
 #### Status Section
 
-```markdown
-### Status YYYY-MM-DD
-
-<Updates about the project at the YYYY-MM-DD>
-```
+The status section is generated automatically on sub-epics.
+See the section on [status updates on project epics](#status-updates-on-project-epics) for more info.
 
 ### Should this be an issue or an epic?
 

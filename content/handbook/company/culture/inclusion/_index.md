@@ -144,11 +144,11 @@ Please see our [identity data](/handbook/company/culture/inclusion/identity-data
 
 ## What we are doing with Diversity, Inclusion & Belonging
 
-### [Diversity Inclusion & Belonging Roundtables]({{< ref "dib-roundtables" >}})
+### Diversity Inclusion & Belonging Roundtables
 
-A DIB roundtable is a great way to build deeper connections with team members and develop safe spaces to discuss DIB related issues. The DIB roundtable will ask team members to share stories and anecdotes as well as challenge team members to think about how they personally and collectively can positively impact DIB.
+A [DIB roundtable](dib-roundtables.md) is a great way to build deeper connections with team members and develop safe spaces to discuss DIB related issues. The DIB roundtable will ask team members to share stories and anecdotes as well as challenge team members to think about how they personally and collectively can positively impact DIB.
 
-This page outlines the process of [DIB Roundtables]({{< ref "dib-roundtables" >}}). These can be self-organized or organized by the DIB Team.
+This page outlines the process of [DIB Roundtables](dib-roundtables.md). These can be self-organized or organized by the DIB Team.
 
 ### Talent Acquisition initiatives
 

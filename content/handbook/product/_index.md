@@ -11,9 +11,7 @@ description: "Most of the content in the product handbook talks about _how_ we d
 
 ## Product Team Functions
 
-- [Product Management](/handbook/product/#product-management)
-- [Product Management Procedures](/handbook/product/product-processes/product-mgt-operations/pm-operating-procedures/)
-- [Product Management Operations](/handbook/product/product-processes/product-mgt-operations/)
+- [Product Management](/handbook/product/product-management/)
 - [User Experience](/handbook/product/ux/)
 
 ## Product Team Mission
@@ -53,65 +51,47 @@ It is your responsibility to communicate with relevant team members about your m
 
 ## Product Management
 
-- If you'd like to collaborate with product management see the [How to Engage](/handbook/product/how-to-engage/) guide.
+If you'd like to collaborate with product management see [How to Engage](/handbook/product/product-management/#how-to-engage-product-managers) guide.
 
-### [**Product Principles**](/handbook/product/product-principles/)
+### **Product Principles**
 
-The Product Principles section is where you can learn about our strategy and philosophy regarding product development here at GitLab.
+The [Product Principles](/handbook/product/product-principles/) section is where you can learn about our strategy and philosophy regarding product development here at GitLab.
 
-### [**Product Processes**](/handbook/product/product-processes/)
+### **Product Processes**
 
-For a detailed view on how we do Product Development, read up on our established Product Processes.
+For a detailed view on how we do Product Development, read up on our established [Product Processes](/handbook/product/product-processes/).
 
-### [**Product sections, stages, groups, and categories**](/handbook/product/categories/)
+### **Product sections, stages, groups, and categories**
 
-To learn how the GitLab product and our Teams are organized review our Product Categorization section.
+To learn how the GitLab product and our Teams are organized review our [Product Categorization section](/handbook/product/categories/).
 
-### [**About the GitLab Product**](/handbook/product/gitlab-the-product)
+### [**About the GitLab Product**
 
-Learn about GitLab as a product, including what does it mean to be a single application, our subscription tiers and pricing model, and the basics of permissions in the platform.
+Learn about [GitLab as a product](/handbook/product/categories/gitlab-the-product), including what does it mean to be a single application, our subscription tiers and pricing model, and the basics of permissions in the platform.
 
-### [**Product Manager Responsibilities**](/job-families/product/product-manager)
+### **Product Manager Responsibilities**
 
-Understand the roles and responsibilities of product managers.
+Understand the [roles and responsibilities of product managers](/job-families/product/product-manager).
 
-### [**Being a Product Manager at GitLab**](/handbook/product/product-manager-role)
+### **Being a Product Manager at GitLab**
 
-Want to know more on what being a Product Manager at GitLab is like? Checkout our [Product Manager Role](/handbook/product/product-manager-role/) guide for helpful information like our Career Development Framework and learning/development resources.
+Want to know more on what being a Product Manager at GitLab is like? Checkout our [Product Management](/handbook/product/product-management/) guide for helpful information like our Career Development Framework and learning/development resources.
 
-### [**Product Performance Indicators**](/handbook/product/performance-indicators/)
+### **Product Performance Indicators**
 
-Learn how we measure success in Product via our Product KPIs, which are tracked in our [Product project](https://gitlab.com/gitlab-com/Product). For best practices and guidance on how to add instrumentation for features please review our [Analytics Instrumentation workflow](/handbook/product/performance-indicators/#analytics-instrumentation-workflow).
+Learn how we measure success in Product via our [Product KPIs](/handbook/product/performance-indicators/), which are tracked in our [Product project](https://gitlab.com/gitlab-com/Product). For best practices and guidance on how to add instrumentation for features please review our [Analytics Instrumentation workflow](/handbook/product/performance-indicators/#analytics-instrumentation-workflow).
 
-### [**Product OKRs**](/handbook/product/product-okrs/)
+### **Product OKRs**
 
-Understand the OKR Process for the GitLab Product Team and review current and past OKRs.
+Understand the OKR Process for the GitLab Product Team and review [current and past OKRs](/handbook/product/product-processes/product-okrs/).
 
-### [**Our Product Leadership Team**](/handbook/product/product-leadership/)
+### **Our Product Leadership Team**
 
-Learn about our Product Leadership Team and learn about them via their personal README's.
-
-### Popular Product Resources
-
-- [**Data for Product Managers**](/handbook/business-technology/data-team/programs/data-for-product-managers/)
-- [**Internal Product Handbook**](https://internal.gitlab.com/handbook/product/) (must access through OKTA)
-- [**Learning and Development for Product Management**](/handbook/product/product-manager-role/learning-and-development/)
-- [**Product Budgeting Process**](/handbook/product-development-flow/product-development-budgeting/)
-- [**Product Development Flow**](/handbook/product-development-flow/)
-- [**Product Development Timeline**](/handbook/engineering/workflow/#product-development-timeline)
-- [**Analytics Instrumentation Guide**](/handbook/product/analytics-instrumentation-guide/)
-- [**Product Management CDF and competencies**](/handbook/product/product-manager-role/product-CDF-competencies/)
-- [**Product Manager Onboarding**](/handbook/product/product-manager-role/#product-manager-onboarding)
-- [**Product Manager Responsibilities**](/handbook/product/product-manager-responsibilities/)
-- [**Product Manager SAFE (legal) Guidance**](/handbook/product/product-safe-guidance/)
-- [**Product Pricing Model**](/handbook/company/pricing/)
-- [**Release Posts**](/handbook/marketing/blog/release-posts/)
-- [**Tiering Guidance for Features**](/handbook/product/tiering-guidance-for-features/#learning-opportunities)
-- [**CPO Shadow Program**](/handbook/product/cpo-shadow-program/)
+Learn about [our Product Leadership Team](/handbook/product/product-leadership/) and learn about them via their personal README's.
 
 ### Communicating with the Product Division
 
-Below are team emails and handles that can be used for different departments and sub-departments in the Product Division. These groups are used for internal communication and the `@mention` can only be used by project members. Please remember that tagging `@mention` on issues will generate in-product [to-do items](https://docs.gitlab.com/ee/user/todos.html) and email notifications to **all** team members in that project, so use it only when you need to communicate with the entire team. For communication specifically for product managers, please leverage [How to Engage](/handbook/product/how-to-engage/).
+Below are team emails and handles that can be used for different departments and sub-departments in the Product Division. These groups are used for internal communication and the `@mention` can only be used by project members. Please remember that tagging `@mention` on issues will generate in-product [to-do items](https://docs.gitlab.com/ee/user/todos.html) and email notifications to **all** team members in that project, so use it only when you need to communicate with the entire team. For communication specifically for product managers, please leverage [How to Engage](/handbook/product/product-management/how-to-engage/).
 
 - `@gl-product-leadership` tags all group managers, directors and VPs in the Product Division
 - `@gl-product-plt` tags all direct reports to the VP Product in the Product Division

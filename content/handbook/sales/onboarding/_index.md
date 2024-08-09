@@ -80,10 +80,10 @@ GitLab's role-based learning journeys are based on milestones and enable us to d
 **Check out the links below to find the specific onboarding handbook page for your role. On these pages you can find additional role based onboarding and shadow program information including learning objectives, manager expectations & graduation requirements.**
 
 - Enterprise & Commercial Account Executives - [Sales Onboarding (Shadow Program) Handbook](/handbook/sales/shadow-program/)
-- Renewals Managers: [Renewals Manager (RM) Onboarding Handbook](/handbook/customer-success/renewals-managers/rm-onboarding/)
+- Renewals Managers: [RM Onboarding Handbook](/handbook/customer-success/renewals-managers/rm-onboarding/)
 - Customer Success: [CSM Onboarding Handbook](/handbook/customer-success/csm/csm-onboarding/)
 - Customer Success: [CSE Onboarding Handbook](/handbook/customer-success/csm/segment/cse/cse-tm-onboarding/)
-- Solutions Architects: [SA Onboarding (Ride Along) Handbook](/handbook/solutions-architects/sa-practices/ride-alongs/)
+- Solutions Architects: [SA Onboarding Handbook](/handbook/solutions-architects/sa-onboarding/)
 - Sales and Business Development - [SDR & BDR Onboarding (Tanuki Tech) Handbook](/handbook/marketing/sales-development/tanuki-tech/)
 
 **Click on a link below to begin your role based e-learning journey.**

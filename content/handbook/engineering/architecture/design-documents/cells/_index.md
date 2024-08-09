@@ -2,9 +2,9 @@
 title: Cells
 status: ongoing
 creation-date: "2022-09-07"
-authors: [ "@ayufan", "@fzimmer", "@DylanGriffith", "@lohrc", "@tkuah" ]
+authors: ["@ayufan", "@fzimmer", "@DylanGriffith", "@lohrc", "@tkuah"]
 coach: "@ayufan"
-approvers: [ "@lohrc" ]
+approvers: ["@lohrc"]
 owning-stage: "~devops::data stores"
 participating-stages: []
 toc_hide: true
@@ -365,6 +365,7 @@ The Tenant Scale team sees an opportunity to use GitLab Dedicated as a base for 
 - [ADR-008: Cluster wide unique database sequences](decisions/008_database_sequences.md)
 - [ADR-009: Initial Cell Sizes](decisions/009_cell_initial_sizing.md)
 - [ADR-010: HTTP Router uses static rules and HTTP-based caching mechanism](decisions/010_http_router_rules_and_cache.md)
+- [ADR-011: Cell Specific Configuration](decisions/011_cell_specific_configuration.md)
 
 ## Links
 

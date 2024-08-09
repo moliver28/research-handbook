@@ -12,7 +12,7 @@ When we go **back and forth three times,** we jump on a [synchronous video call]
 
 We communicate respectfully and professionally at all times.
 
-## Effective & responsible communication guidelines
+## Effective & Responsible Communication Guidelines
 
 1. **Assume [Positive Intent](/handbook/values/#collaboration).** Always begin with a position of positivity and grace.
 1. **Kindness Matters.** You are looking at a screen, but you are really talking to a person. If you wouldn't say it to a person's face, do not send it to them in a text message.
@@ -67,7 +67,7 @@ The above examples overlap with the [GitLab's SAFE Framework](/handbook/legal/sa
 
 ### What are the risks?
 
-1. **Legal risk:** These are the risks that arise from regulations and laws that govern GitLab or the market in which it operates. This includes content that would compromise a GitLab team member, customer, or user's personal data and/or privacy.
+1. **Legal risk:** These are the risks that arise from regulations and laws that govern GitLab or the market in which it operates. This includes, but is not limited to, content that would compromise a GitLab team member, customer, or user's personal data and/or privacy.
 1. **Morale risk:** Raising GitLab sensitive topics that may be misinterpreted without the opportunity to ask clarifying questions can create risk to team culture and/or morale.
 1. **PR risk:** Remember that anything you document could ultimately be shared/viewed externally. Consider that a discussion in a public MR or issue is a demonstration of our [values](/handbook/values/) to those outside of GitLab who are looking to learn more about how we collaborate.
 
@@ -838,9 +838,7 @@ A Walk and Talk call is when team members step away from their computers and get
 
 The team members can use Zoom on their mobile device with the audio only function, or call one another from their preferred mobile device. A walk and talk call should be agreed to in advance to ensure that the local weather is compatible for a walk in both locations and that the walk and talk call fits into both team members' schedules. We've created a Slack channel #walk-and-talk-meetings where, if you'd like, you can share pictures from your walking meetings.
 
-#### Release retrospectives and kickoffs
-
-{: #kickoffs}
+#### Release retrospectives and kickoffs {#kickoffs}
 
 After GitLab releases a new version [every month](/handbook/engineering/releases/), we have a
 30-minute call a few days later reflecting on what could have been
@@ -914,7 +912,7 @@ This list offers additional guidance for written communication at GitLab:
 1. When specifying measurements, please include both Metric and Imperial equivalents.
 1. When mentioning currency amounts that team members may need to convert to their local currency (e.g. benefits, expenses, or bonuses), link those amounts to our [Exchange Rates](/handbook/total-rewards/compensation/#exchange-rates) section (e.g. [500 USD](/handbook/total-rewards/compensation/#exchange-rates)).
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9.
-1. Although we're a San Francisco based company, we're also an internationally diverse one. Please do not refer to team members outside the US as "international". Instead, use "non-US". Please also avoid the use of "offshore/overseas" to refer to non-American continents.
+1. GitLab is an internationally diverse company. US-based team members should not refer to team members outside the US as "international". Instead, use "non-US". Please also avoid the use of "offshore/overseas" to refer to non-American continents.
 1. If you have multiple points in a comment or email, please number them. Numbered lists are easier to reference during a discussion over bulleted lists.
 1. When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the URL available, please include it.
 1. In making URLs, always prefer hyphens to underscores, and always use lowercase.
@@ -936,7 +934,7 @@ This list offers additional guidance for written communication at GitLab:
 ### Communicating dates and time
 
 1. For external content, refer to the guidance in the [GitLab Content Style Guide](/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#dates-and-times).
-1. {: #iso-dates} For internal content, use ISO dates: `yyyy-mm-dd`
+1. For internal content, use ISO dates: `yyyy-mm-dd`
 1. For months, use `yyyy-mm`, so 2018-01 for January.
 1. Refer to a year with CY18 (never with 2018) and a quarter with CY18-Q1 to prevent confusion with fiscal years and quarters. If the year is obvious from the context it is OK to use Dec 4, but not 12/4.
 1. GitLab operates on a [Fiscal Year](/handbook/finance/#fiscal-year) offset from the calendar year. When referring to a fiscal year or quarter, please use the following abbreviations:

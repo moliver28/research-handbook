@@ -146,8 +146,6 @@ The contract phase is unique based upon the team member's relocation. The differ
 1. Once the People Connect Team member has updated Workday, they will then reach out to another People Connect team member to audit the updated entry
 1. Once the team member updates their address in Workday, the People Connect Team member [approves the address change](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/#home-contact-changes---workday-inbox)
 
-1. If there is a sales commission change: Add the details to the [Final Sales OTE](https://docs.google.com/spreadsheets/d/1lyGxlNAdY4PLMKR31Zw46i7jpb8qfMovMJBUql8PfjE/edit#gid=1320059142) sheet under the 'Changes' tab
-
 ##### Tasks for the Team Member
 
 1. [Update your address](https://docs.google.com/document/d/1NiNKWd-H9FTnYkmsWWi79-DGDSUCiWMfwFaGQPRnj14/edit) in the Contact tab in your Workday profile. Your [address will then get approved](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/#home-contact-changes---workday-inbox) by the People Connect Team member team.

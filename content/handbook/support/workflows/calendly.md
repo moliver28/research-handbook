@@ -167,9 +167,9 @@ This will output something like the following:
 https://calendly.com/d/m6we-x8r7/support-call-with-me
 ```
 
-### using [httpie](https://github.com/httpie/httpie)
+### using `httpie`
 
-The following uses the same setup, patterns, and output as above.
+The following uses the same setup, patterns, and output as above with [`httpie`](https://github.com/httpie/httpie).
 
 Get your personal URI:
 

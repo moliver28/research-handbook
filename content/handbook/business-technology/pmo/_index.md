@@ -8,46 +8,9 @@ title: "Enterprise Applications - PMO"
 
 We are a global team, focused on building and managing world-class information technology systems and business processes. The Enterprise Applications PMO is responsible for portfolio and program management across the EntApps organization. We work closely with the business on both annual and quarterly planning to ensure we understand top business priorities and can plan accordingly. Services include portfolio management, program management, resource management, and project tracking and reporting. To learn more about our individual job functions, visit the Program Management, Business Technology family page.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team(Org Chart)
+## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
-- **Al Champagne - Senior Director, Enterprise Applications** 
-GitLab handle: [achampagne1](https://gitlab.com/achampagne1) 
-Slack handle: Al Champagne
-- **Barbara Roncato - Manager, IT Program Management**
-GitLab handle: [@broncato](https://gitlab.com/broncato)
-Slack handle: `@barbara`
-Location and Timezone: Portugal, WEST/GMT+1
-LinkedIn Profile: [roncatobarbara](https://www.linkedin.com/in/roncatobarbara/)
-- **Caroline Swanson - Senior IT Program Manager**
-GitLab handle: [@caroline.swanson](https://gitlab.com/caroline.swanson)
-Slack handle: `@Caroline Swanson`
-Location and Timezone: USA, MDT/MST
-LinkedIn Profile: [caroline-smoke-swanson-pmp-a869b685](https://www.linkedin.com/in/caroline-smoke-swanson-pmp-a869b685/)
-- **Kayoko Cooper - Business Systems Analyst**
-GitLab handle: [@kayokocooper](https://gitlab.com/kayokocooper)
-Slack handle: `@Kayoko Cooper` <br>
-Location and Timezone: USA, EDT/EST
-LinkedIn Profile: [kayoko-cooper-a1063522](https://www.linkedin.com/in/kayoko-cooper-a1063522/)
-- **Kristina Koceban - Senior Business Systems Analyst**
-GitLab handle: [@kkoceban](https://gitlab.com/kkoceban)
-Slack handle: `@Kristina`
-Location and Timezone: Ireland, WEST/GMT+1
-LinkedIn Profile: [kristinakoceban](https://www.linkedin.com/in/kristinakoceban/)
-- **Nico Sandoval - Business Systems Analyst**
-GitLab handle: [@nicosando](https://gitlab.com/nicosando)
-Slack handle: `@Nico Sandoval` <br>
-Location and Timezone: USA, EDT/EST
-LinkedIn Profile: [nicolas-sandoval-331900b3](https://www.linkedin.com/in/nicolas-sandoval-331900b3/)
-- **Analucia Ocampo - Business Technology Program Manager**
-GitLab handle: [@aocampo2](https://gitlab.com/aocampo2)
-Slack handle: `@Analucia` <br>
-Location and Timezone: USA, EDT/ES
-LinkedIn Profile: [/analuciaocampocsp/](https://www.linkedin.com/in/analuciaocampocsp/)
-- **Vikas Jha - Business Systems Analyst**
-GitLab handle: [@vjha_144](https://gitlab.com/vjha_144)
-Slack handle: `@vjha` <br>
-Location and Timezone: India / GMT+5:30
-LinkedIn Profile: [/vikas-jha/](https://www.linkedin.com/in/vikas-jha/) 
+[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/pmo/)
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 

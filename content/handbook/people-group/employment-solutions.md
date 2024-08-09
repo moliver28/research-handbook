@@ -94,7 +94,7 @@ Note: In countries with a star (*) hiring is limited to only certain roles, more
 |  Switzerland * | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        CHF       |           Y           |          Y         |           Y           |
 |    Sweden *    | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        SEK       |           Y           |          Y         |           Y           |
 
-This table reflects the countries in which we have utilize PEO's but are currently NOT open for hiring:
+This table reflects the countries in which we have utilized PEO's but are currently NOT open for hiring:
 
 | Country        | Agreement Type(s)    | Hiring Partner | Entity to invoice (for AP only) | Pay Frequency | Paid By | Currency Paid in | Workday Profile (Y/N) | Employer of Record | Open for hiring (Y/N) |
 |----------------|----------------------|----------------|---------------------------------|---------------|---------|------------------|-----------------------|--------------------|-----------------------|

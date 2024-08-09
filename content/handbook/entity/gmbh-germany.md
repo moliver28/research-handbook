@@ -19,6 +19,14 @@ These standards apply to all GitLab team members hired through GitLab GmbH, whic
 | People, Legal, Payroll, Total Rewards, Absence | Responsible for implementing and executing this document |
 | People, Legal, Payroll, Total Rewards, Absence (Code owners) | Responsible for approving changes to this document |
 
+## Works council
+
+GitLab GmbH has a works council (Betriebsrat). The works council serves the primary functions of balancing the fundamental rights of employer and employees, and ensuring participation and co-determination, as works councils must be consulted about specific issues and have the right to make proposals to management.
+
+For any questions, please contact `DE-workscouncil@gitlab.com`. Please refer to our
+[internal handbook](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/germany/)
+for more information on how the works council operates.
+
 ## Germany-Specific Team Member Benefits
 
 Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continously review our benefits design and offerings available through GitLab in Germany.

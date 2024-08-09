@@ -44,9 +44,9 @@ FMMs should work with Large & MM sales teams to determine these cities.
 
 ## GitLab Owned Field Events
 
-### [GitLab Connect](https://www.youtube.com/watch?v=aKwpNKoI4uU)
+### GitLab Connect
 
-GitLab Connect is a full or half day event with both customers and prospects in attendance sharing stories & lessons learned about GitLab. SAE's will be responsible for asking customers to speak and Marketing, through a combination of SDR outreach, database and ad geotargeting will drive attendance to the event. If you would like to propose a GitLab Connect in your city, please follow [these instructions](/handbook/marketing/events/#suggesting-an-event) for requesting an event. Interested in seeing a GitLab Connect in action? [Check it out.](https://www.youtube.com/watch?v=aKwpNKoI4uU)
+[GitLab Connect](https://www.youtube.com/watch?v=aKwpNKoI4uU) is a full or half day event with both customers and prospects in attendance sharing stories & lessons learned about GitLab. SAE's will be responsible for asking customers to speak and Marketing, through a combination of SDR outreach, database and ad geotargeting will drive attendance to the event. If you would like to propose a GitLab Connect in your city, please follow [these instructions](/handbook/marketing/events/#suggesting-an-event) for requesting an event. Interested in seeing a GitLab Connect in action? [Check it out.](https://www.youtube.com/watch?v=aKwpNKoI4uU)
 
 ### Field Marketing Owned Virtual Events
 
@@ -103,9 +103,9 @@ When working in GitLab issues and epics, please remember that due to GitLab's va
 
 For more information regarding confidentiality levels and compliancy, please visit [this handbook page](/handbook/communication/confidentiality-levels/).
 
-## [Global Field Marketing Vendor Feedback](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4736)
+## Global Field Marketing Vendor Feedback
 
-This feedback epic/spreadsheet is only open to GitLab team members. FMMs and managers to keep details in this spreadsheet regarding both positive and negative experiences with various event vendors for team reference.
+[This feedback epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4736)/spreadsheet is only open to GitLab team members. FMMs and managers to keep details in this spreadsheet regarding both positive and negative experiences with various event vendors for team reference.
 
 ## Field Marketing Campaign Issue Templates, Epic Codes and Progression Status
 
@@ -766,11 +766,11 @@ The Field Marketing team utilizes the Field Marketing Fedex Account for shipping
 
 The AMER Field Marketing team utilizes [Grubhub](https://www.grubhub.com/) and [Pizzatime](https://pizzatime.xyz/) for all virtual events with a food and beverage component. Both vendors offer a wide range of food and beverage options to fit the needs of your virtual event best.
 
-### [Grubhub](https://www.grubhub.com/)
+### Grubhub
 
 #### When to use Grubhub
 
-Grubhub will be utilized for smaller, owned, and partner events that will host executive-level registrants. Cost per person to be between $35-$50.
+[Grubhub](https://www.grubhub.com/) will be utilized for smaller, owned, and partner events that will host executive-level registrants. Cost per person to be between $35-$50.
 
 It is important to note that Grubhub will be utilized for *post-event meal credit distribution*. The FMM is responsible for taking account of registrants who attend in the first 30 minutes of the event. The FMM will utilize the list of attended registrants to upload to Grubhub prior to the conclusion of the event.
 
@@ -964,11 +964,11 @@ There could be a few reasons. Check to make sure all the below items are address
 
 </details>
 
-### [Pizzatime](https://pizzatime.xyz/)
+### Pizzatime
 
 #### When to use Pizzatime
 
-Pizzatime will be utilized for larger, virtual-owned events that will host mid to executive-level registrants. Cost per person to be between $20-$40.
+[Pizzatime](https://pizzatime.xyz/) will be utilized for larger, virtual-owned events that will host mid to executive-level registrants. Cost per person to be between $20-$40.
 
 It is important to note that Pizzatime will be utilized for *pre-event meal credit distribution*.
 
@@ -1066,9 +1066,9 @@ To find out what upcoming events GitLab will be involved in please visit our [Ev
 
 For details on how we handle events please visit the [GitLab Event Information](/handbook/marketing/events/) page.
 
-## [AMER Field Marketing Event Tracker for Sales](https://docs.google.com/spreadsheets/d/1-McecmJ7MVgdmVrjzBdrxrx6CfJ6U0dqnMILBNl67j0/edit#gid=0)
+## AMER Field Marketing Event Tracker for Sales
 
-It is the responsibility of each field marketing manager to ensure that this tracker is up to date with all AMER Field Marketing initiatives. Sales should consider this spreadsheet live and current daily.
+It is the responsibility of each field marketing manager to ensure that [this tracker](https://docs.google.com/spreadsheets/d/1-McecmJ7MVgdmVrjzBdrxrx6CfJ6U0dqnMILBNl67j0/edit#gid=0) is up to date with all AMER Field Marketing initiatives. Sales should consider this spreadsheet live and current daily.
 
 ## Google Calendar links
 
@@ -1082,9 +1082,9 @@ If you prefer to see the events in an actual calendar view please refer to the f
 
 If you are interested in requesting Field Marketing's support for a particular in-person or virtual event or tactic, please follow the process listed on our [Events Page](/handbook/marketing/events/#suggesting-an-event).
 
-## [Field Marketing planning](https://drive.google.com/drive/folders/1xtePKOl4RSINaPPr3InQNisYTQyOJ5JE)
+## Field Marketing planning
 
-It is our goal to have planning for each qtr completed four (4) weeks before the next quarter starts. At this time, we have the following time line set for regional plans:
+It is our goal to have [planning](https://drive.google.com/drive/folders/1xtePKOl4RSINaPPr3InQNisYTQyOJ5JE) for each qtr completed four (4) weeks before the next quarter starts. At this time, we have the following time line set for regional plans:
 
 - Q1 plan is due Jan 13
 - Q2 plan is due April 3
@@ -1125,7 +1125,7 @@ This deck should also be used to present the regional plans to the sales teams.
 
 In an effort to share the regional marketing team's plans with the rest of the marketing team, the below steps will be followed:
 
-### [Marketing SSoT calendar](/handbook/marketing/#marketing-calendar)
+### Marketing SSoT calendar
 
 Within two days of the quarterly plan being [locked by Finance](/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) in Allocadia, the Regional Managers will download the teams' plans from Allocadia and will upload to the shared [marketing calendar](/handbook/marketing/#marketing-calendar).
 
@@ -1139,11 +1139,11 @@ After the initial pull, the regional marketers are responsible for adding any ne
 
 If an event is created after this quarterly transfer, the event DRI is responsible for adding the event to the SSoT calendar. Please see the [rescheduling or cancellation guidelines](/handbook/marketing/field-marketing/#rescheduling-or-cancelling-events) for additional details regarding changes or cancellations to existing events.
 
-#### [AMER SSoT](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit#gid=222941017)
+#### AMER SSoT
 
-In the AMER region, managers are responsible for the [Marketing SSoT above](/handbook/marketing/field-marketing/#marketing-ssot-calendarhandbookmarketingmarketing-calendar), but also the AMER SSoT [here](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit#gid=222941017).
+In the AMER region, managers are responsible for the [Marketing SSoT above](/handbook/marketing/field-marketing/#marketing-ssot-calendarhandbookmarketingmarketing-calendar), but also the AMER SSoT [here](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit#gid=222941017) (internal).
 
-Within two days of the quarterly plan being [locked by Finance](/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) in Allocadia, the AMER Regional Manager will download the team's plans from Allocadia and will upload to the [AMER SSoT](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit#gid=222941017)).
+Within two days of the quarterly plan being [locked by Finance](/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) in Allocadia, the AMER Regional Manager will download the team's plans from Allocadia and will upload to the [AMER SSoT](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit#gid=222941017) (internal).
 
 After the initial pull, the regional marketers are responsible for adding all details not included in the pull, any new tactics for the quarter that weren't pulled from Allocadia, and also moving completed tactics to the `Completed Events - Results` tab and providing all retrospective information required.
 
@@ -1352,7 +1352,9 @@ We are committed to providing opportunities for discussion, education and commun
 - Series of 2-3 speakers (one GitLab and 1-2 customers)
 - AMA or Panel
 
-### [Sample Agenda/Example Slide Deck](https://docs.google.com/presentation/d/1hwU1nt8wb8ADtj9JFq-zTg1bbZNf3L5H/edit?usp=sharing&ouid=114806938780598580840&rtpof=true&sd=true)
+### Sample Agenda/Example Slide Deck
+
+[Sample Agenda/Example Slide Deck](https://docs.google.com/presentation/d/1hwU1nt8wb8ADtj9JFq-zTg1bbZNf3L5H/edit?usp=sharing&ouid=114806938780598580840&rtpof=true&sd=true)
 
 ### GitLab Forum
 

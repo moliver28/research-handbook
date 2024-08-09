@@ -33,7 +33,9 @@ You can also check out pages related to People Group in the section below. If yo
 - If you wonder who's available and/or in what time zone specific team members of the People Group are, you can easily check via Google Calendar or the [GitLab Team Page](/handbook/company/team/)
 - If you need help with any technical items, for example, 2FA, please ask in `#it_help`. The channel topic explains how to create an issue. For urgent matters you can mention `@it-ops-team`.
 
-## The People Group: [One Team Mosaic Video](https://www.youtube.com/watch?v=5bSij66OSgw)
+## The People Group: One Team Mosaic Video
+
+[One Team Mosaic Video](https://www.youtube.com/watch?v=5bSij66OSgw)
 
 In general, the People Group is here to support GitLab's [mission](/handbook/company/mission/) by bringing top talent into GitLab, and then enabling team members to make meaningful contributions in alignment with our [values](/handbook/values/).  Please don't hesitate to [reach out](#how-to-reach-the-right-member-of-the-people-group) with questions or ask for support!
 

@@ -171,9 +171,7 @@ Top questions from suddenly or newly-remote companies
    </ol>
 </details>
 
-### Key Points to Cover
-
-{: #foundational-presentation-areas}
+### Key Points to Cover {#foundational-presentation-areas}
 
 Regardless of the nuance in the request, here are the foundational areas that should be covered. Be sure to describe how GitLab implements these tactics using [low-context communication](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication), leaning on examples and detail such that a non-GitLab company can envision how such a tactic could be useful in their own organization.
 
@@ -260,7 +258,7 @@ Anyone in the world (yes, this includes those who are not employed by GitLab) ma
 
 ## How does a company create their own handbook?
 
-![GitLab all-remote team](https://about.gitlab.com/images/all-remote/gitlab-com-all-remote-v4-dark-1280x270.png){: .shadow.medium.center}
+![GitLab all-remote team](https://about.gitlab.com/images/all-remote/gitlab-com-all-remote-v4-dark-1280x270.png)
 
 Learn more in GitLab's [Handbook-First Documentation guide](/handbook/company/culture/all-remote/handbook-first/#tools-for-building-a-handbook) about how GitLab (the company) uses GitLab (the product) to build and maintain its handbook, as well as tools and tips for other companies who wish to start their own.
 
@@ -283,7 +281,7 @@ See below for an A/B comparison of how an inward-facing GitLab *handbook* page i
 
 ## Design and illustration assets
 
-![GitLab all-remote team](https://about.gitlab.com/images/all-remote/GitLab-All-Remote-Zoom-Team-Tanuki.jpg){: .shadow.medium.center}
+![GitLab all-remote team](https://about.gitlab.com/images/all-remote/GitLab-All-Remote-Zoom-Team-Tanuki.jpg)
 
 GitLab's [Brand and Digital Design](/handbook/marketing/digital-experience/) team are building out images and illustrations to visualize all-remote.
 
@@ -351,7 +349,7 @@ The audience we aim to reach with our all-remote and workplace initiatives is bo
 
 ## Key Messages for All-Remote and Workplace
 
-![GitLab all-remote computer](https://about.gitlab.com/images/all-remote/GitLab-All-Remote-Learning-Computer.jpg){: .shadow.medium.center}
+![GitLab all-remote computer](https://about.gitlab.com/images/all-remote/GitLab-All-Remote-Learning-Computer.jpg)
 
 ### GitLab: The Remote Strategy
 
@@ -402,7 +400,7 @@ Field Marketing will look up account ownership in SFDC (Salesforce.com) and make
 
 ## Channels
 
-![GitLab all-remote illustration](https://about.gitlab.com/images/all-remote/gitlab-all-remote-v1-opengraph-social-1200x630.jpg){: .shadow.medium.center}
+![GitLab all-remote illustration](https://about.gitlab.com/images/all-remote/gitlab-all-remote-v1-opengraph-social-1200x630.jpg)
 
 ### Web
 

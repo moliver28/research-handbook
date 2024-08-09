@@ -26,7 +26,7 @@ This policy applies to all GitLab Team Members, contractors, advisors, and contr
 
 ### Acceptable Use and Security Requirements of Computing Resources at GitLab
 
-GitLab-managed assets are provided to conduct GitLab business, with consideration given for limited personal use subject to any conflicting statements contained in individual employment contracts. Our company uses global electronic communications and resources as routine parts of our business activities. Personal and professional use of GitLab-managed assets are subject to security monitoring and protection, unless prohibited under the local laws of a respective Team Member's jurisdiction. It is essential that electronic resources used to perform company business are protected to ensure that these resources are accessible for business purposes and operated in a cost-effective manner, that our company's reputation is protected, and that we minimize the potential for legal risk.
+GitLab-managed assets are provided to conduct GitLab business, with consideration given for limited personal use subject to any conflicting statements contained in any individual employment contracts or agreements. Our company uses global electronic communications and resources as routine parts of our business activities. Personal and professional use of GitLab-managed assets are subject to security monitoring and protection, unless prohibited under the local laws of a respective Team Member's jurisdiction. It is essential that electronic resources used to perform company business are protected to ensure that these resources are accessible for business purposes and operated in a cost-effective manner, that our company's reputation is protected, and that we minimize the potential for legal risk.
 
 Those receiving GitLab-provided assets are responsible for exercising good judgment when using GitLab-managed computers and accessing GitLab-managed data.
 
@@ -127,9 +127,9 @@ The use of removable and external storage devices such as USB flash drives and e
 
 As a reminder, Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams. Please refer to GitLab's [Data Classification Standard](/handbook/security/data-classification-standard/) for further details.
 
-### Use of file sharing services other than Google Drive
+### Use of file sharing services other than GitLab's Google Drive
 
-Creating an account with, or using, a file sharing service other than Google Drive for sharing GitLab-related files with other team members or those external to GitLab is not permitted unless an exception has been granted. To obtain an exception create an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) outlining the business case, and do not proceed until the exception has been granted.
+Creating an account or using for backup/redundancy purpose a file sharing service other than GitLab's Google Drive is prohibited. For sharing GitLab-related files with those external to GitLab, an exception must be granted. To obtain an exception create an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) outlining the business case, and do not proceed until the exception has been granted.
 
 When creating an account with and using a file sharing service other that Google Drive, Team Members must:
 

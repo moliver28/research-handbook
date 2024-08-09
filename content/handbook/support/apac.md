@@ -287,7 +287,7 @@ each financial quarter.
 
 ## Daily Bot in the #support_licensing-subscription slack channel
 
-There is a daily bot that follows the SGG bot format and tags all APAC Support
+There is a daily bot that tags all APAC Support
 engineers who have a Focus `name: License and Renewals` listed in their [Support Team Page](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml) entry.
 
 Example Support Team Bot post:

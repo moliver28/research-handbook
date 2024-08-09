@@ -43,7 +43,7 @@ A runbook of how everything is technically set up can be found in the [Monte Car
 
 The gist of it is that there is an Okta Group called `okta-montecarlo-users` that is maintained by the Data team and has the Monte Carlo app assigned to it.
 In order to be able to access Monte Carlo via Okta by default, your user should be part of the `okta-montecarlo-users` group.
-For that you should submit an AR (similar ARs: [Example AR 1]](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/22860), [Example AR 2](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/22878)) and assign it to Rigerta Demiri (@rigerta) or ping the #data channel linking the AR.
+For that you should submit an AR (similar ARs: [Example AR 1](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/22860), [Example AR 2](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/22878)) and assign it to Rigerta Demiri (@rigerta) or ping the #data channel linking the AR.
 
 ## Navigating the UI
 

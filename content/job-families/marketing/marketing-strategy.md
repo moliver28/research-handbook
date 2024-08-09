@@ -6,35 +6,67 @@ description: The Marketing Analytics team at GitLab is responsible for enabling 
 
 ## Levels
 
-### Senior Marketing Analyst (Sales Development), Marketing Analytics
+### Marketing Analyst (Intermediate), Marketing Analytics
 
-The Senior Marketing Analyst (Sales Development), Marketing Analytics reports to the Director, Marketing Strategy and Performance.
+The Marketing Analyst (Intermediate), Marketing Analytics reports to the Director, Marketing Analytics.
 
-#### Senior Marketing Analyst (Sales Development), Marketing Analytics Job Grade
+#### Marketing Analytics Analyst (Intermediate), Marketing Analytics Job Grade
 
-The Senior Marketing Analyst (Sales Development), Marketing Analytics is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Marketing Analytics Analyst (Intermediate) is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Marketing Analyst (Sales Development), Marketing Analytics Responsibilities
+#### Marketing Analyst (Intermediate), Marketing Analytics Responsibilities
 
-- Develop and maintain Sales Development reporting in Tableau with consistent metrics definitions and excellent user experience (UI/UX).
-- Ability to conduct sophisticated data analysis, and translate data into easily digestible messages, communications, and presentations.
-- Develop and manage Sales Development Monthly Performance Reviews, formulating actionable insights and structuring a concise, clear presentation of findings.
-- Assist with Annual Planning and ad-hoc data analysis based on business questions by Sales Development Leadership.
+- Develop and maintain Marketing reporting in Tableau with consistent metrics definitions and excellent user experience (UI/UX).
+- Assist with Annual Planning and ad-hoc data analysis based on business questions by Marketing Leadership.
 - Present results to the executive leadership team.
 - Continuously develop the Marketing Analytics Handbook pages to ensure they represent the current state of our strategy, processes, and operations.
 
-#### Senior Marketing Analyst (Sales Development), Marketing Analytics Requirements
+#### Marketing Analyst (Intermediate), Marketing Analytics Requirements
 
-- 2+ years hands on experience in a Sales Dev data analytics role
 - BA/BS degree in a quantitative field
 - Excellent analytical skills, creativity in problem solving, and a keen business sense
-- Experience communicating technical concepts to non-technical team members
-- Excellent SQL, Tableau and Snowflake skills
+- Strong SQL, Tableau and Snowflake skills
+- Experinece with Google Analytics, Tag Manager and web analytics data
 - Deep understanding of Salesforce and Marketo data and reporting
 - Ability to thrive in a fully remote organization
 - Share our values, and work in accordance with those values
-- Ability to use GitLab
+- Familiarity with GitLab or similar tool
 - Ability to break-down objectives into two-week delivery milestones and familiarity with - Agile methodologies
+
+### Senior Marketing Analyst, Marketing Analytics
+
+The Senior Marketing Analyst, Marketing Analytics reports to the Director, Marketing Analytics.
+
+#### Senior Marketing Analyst, Marketing Analytics Job Grade
+
+The Senior Marketing Analyst, Marketing Analytics is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Senior Marketing Analyst, Marketing Analytics Responsibilities
+
+- Extends that of the Marketing Analyst (Intermediate) responsibilities
+- Ability to conduct sophisticated data analysis, and translate data into easily digestible messages, communications, and presentations.
+
+#### Senior Marketing Analyst, Marketing Analytics Requirements
+
+- Extends that of the Marketing Analyst (Intermediate) requirements
+- Exellent communication skills
+- Experience communicating technical concepts to non-technical team members
+
+## Specialties
+
+### Sales Development Analytics
+
+Data analytsis focused on the Sales Development organization and its key metrics.
+
+#### Senior Marketing Analyst (Sales Development), Marketing Analytics Requirements
+
+- Extends that of the Senior Marketing Analyst responsibilities
+- Develop and maintain Sales Development reporting in Tableau with consistent metrics definitions and excellent user experience (UI/UX).
+
+#### Senior Marketing Analyst (Sales Development), Marketing Analytics Responsibilities
+
+- Extends that of the Senior Marketing Analyst responsibilities
+- Hands on experience in a Sales Dev data analytics role
 
 ### Manager, Marketing Analytics
 

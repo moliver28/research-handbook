@@ -132,6 +132,12 @@ Please read the [Content](/handbook/marketing/developer-relations/developer-advo
 
 The Developer Advocate team plays a key role in supporting events. We work closely alongside [Corporate Event Marketing](/handbook/marketing/integrated-marketing/corporate-events/) to provide strategic content and assistance for both corporate and third-party sponsored events. This collaboration ensures the success and seamless execution of various gatherings. To learn more please refer to the [Events page](/handbook/marketing/developer-relations/events/).
 
+### Consultancy
+
+Developer Advocates serve as consultants and subject matter experts (SMEs), leveraging their expertise and experience to support teams and customers with product features, new SKUs, and other topics.
+
+Please read the [Consultancy](/handbook/marketing/developer-relations/developer-advocacy/consultancy/) handbook to learn more about consultancy requests, decision matrix, and examples with GitLab Duo / AI adoption.
+
 ### Spokespersons
 
 Developer Advocates are subject matter experts (SMEs) in their focus areas, and collaborate with the [Corporate Communications team](/handbook/marketing/corporate-communications/) to provide media coverage in the form of interviews, podcasts, content by-lines, etc. Developer Advocates are [GitLab spokespersons](/handbook/marketing/corporate-communications/#spokesperson-criteria) and are required to take relevant training as determined by the [Corporate Communications team](/handbook/marketing/corporate-communications/).

@@ -65,11 +65,11 @@ Docker is a platform commonly used by developers to build container applications
       image:
         name: gcr.io/kaniko-project/executor:v1.14.0-debug
         entrypoint: [""]
-    script:
-      - /kaniko/executor
-        --context "${CI_PROJECT_DIR}"
-        --dockerfile "${CI_PROJECT_DIR}/Dockerfile"
-        --destination "${CI_REGISTRY_IMAGE}:${CI_COMMIT_TAG}"
+      script:
+        - /kaniko/executor
+          --context "${CI_PROJECT_DIR}"
+          --dockerfile "${CI_PROJECT_DIR}/Dockerfile"
+          --destination "${CI_REGISTRY_IMAGE}:${CI_COMMIT_TAG}"
     ```
 
 1. In the **Commit message** field, type `Add "build image" job definition`, ensure the **Target Branch** is set to `main`, and click **Commit changes**.

@@ -65,16 +65,15 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | **Main Channel - (Global VP - JB Larramendy)**       | [`#sales_dev_global`](https://gitlab.slack.com/messages/C2V1KLY0Z) |
 | **Announcements - (SDR Ops/Enablement - Chris Wang)**| [`#sales_dev_fyi`](https://app.slack.com/client/T02592416/C011P828JRL) |
 | **All - AMER (Manager - Brian Tabbert)**            | [`#amer_sales_dev`](https://gitlab.enterprise.slack.com/archives/C06J0U9EC8L) |
-| **SDR AMER (Manager - Josh Downey)**              | [`#sdr_amer_inbound`](https://gitlab.enterprise.slack.com/archives/C02EBM1FN00) |
+| **SDR AMER and EMEA (Manager - Jonathan Rivat)**              | [`#sdr_amer_emea_inbound`](https://gitlab.enterprise.slack.com/archives/C077J5ANZ0T) |
 | **BDR COMM AMER MM (Manager - Christie Park)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
 | **BDR ENTG AMER WEST & LATAM (Manager - Charlotte Platt)** | [`#bdr_entg_amer_west_latam`](https://gitlab.enterprise.slack.com/archives/C04R8DN5H8R) |
-| **BDR ENTG AMER EAST (Manager - Shamit Paul)**       | [`#bdr_entg_amer_east`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
+| **BDR ENTG AMER EAST (Manager - Brian Tabbert)**       | [`#bdr_entg_amer_east`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
 | **BDR PUBSEC (Manager - Josh Downey)**          | [`#bdr_amer_pubsec`](https://gitlab.enterprise.slack.com/archives/C04R54N159P)|
 | **All - EMEA (Manager - Elsje Smart)**                                      | [`#sdr_emea`](https://gitlab.slack.com/messages/CCULKLB71) |
-| **SDR EMEA - (Manager - Jonathan Rivat)**             | [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0L) |
 | **BDR COMM EMEA MM - (Manager - Fintan Harrington)**     | [`#bdr_comm_emea_mm`](https://gitlab.slack.com/archives/C04NA4BQP54) |
 | **BDR ENTG EMEA DACH - (Manager - Christopher Allenfort)** | [`#bdr_entg_emea_dach`](https://gitlab.slack.com/archives/C04NP4VC449) |
-| **BDR ENTG EMEA NEUR META - (Manager - Miguel Nunes)** | [`#bdr_entg_emea_neur_meta`](https://gitlab.slack.com/archives/C04N) |
+| **BDR ENTG EMEA NEUR META - (Manager - Fintan Harrington)** | [`#bdr_entg_emea_neur_meta`](https://gitlab.slack.com/archives/C04N) |
 | **BDR ENTG EMEA SEUR - (Manager - Tati Fernandez)**   | [`#bdr_entg_emea_seur`](https://gitlab.slack.com/archives/C04NE65S6AE) |
 | **SDR APJ - (Manager - Robin Falkowski)**             | [`#apj_sales_dev`](https://gitlab.slack.com/archives/C031T0L) |
 | **BDR ENTG APJ - (Manager - Robin Falkowski)**          | [`#apj_sales_dev`](https://gitlab.enterprise.slack.com/archives/C031EGFR5UK) |
@@ -94,21 +93,18 @@ If you can't find what you're looking for please reach out to a member of the Sa
 
 ## Our SFDC Dashboards
 
+Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can also review [the additional guidance here](/handbook/marketing/sales-development/#11-account-and-lead-level-dashboard-coaching-guidance) on how to best use them.
+
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
-| [1:1 Dashboards - Leads: PUBSEC](https://gitlab.my.salesforce.com/01Z8X000000u7Vy)   | 1:1 dashboard for leads in the PUBSEC segment.          |
-| [1:1 Dashboards - Leads: COMM APJ](https://gitlab.my.salesforce.com/01ZPL000000YXw1) | 1:1 dashboard for leads in the APJ Commercial segment.       |
-| [1:1 Dashboard - Leads: ENTG APJ](https://gitlab.my.salesforce.com/01Z8X000000u7Vt) | 1:1 dashboard for leads in the APJ Enterprise segment. |
-| [1:1 Dashboards - Leads: ENTG EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Vo) | 1:1 dashboard for leads in the ENTG EMEA segment.       |
-| [1:1 Dashboards - Leads: ENTG AMER/LATAM](https://gitlab.my.salesforce.com/01Z8X000000u7W8) | 1:1 dashboard for leads in the ENTG AMER/LATAM segment.  |
-| [1:1 Dashboards - Leads: COMM EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Q5)  | 1:1 dashboard for leads in the COMM EMEA segment.       |
-| [1:1 Dashboards - Leads: COMM AMER](https://gitlab.my.salesforce.com/01ZPL000000YXRN)  | 1:1 dashboard for leads in the COMM AMER segment.       |
+| [1:1 Report - Tableau Self-Managed Instances Database](https://10az.online.tableau.com/#/site/gitlab/views/FreetoPaidCockpitSSAOfficial/FreeSelf-ManagedInstances?%3Aiid=1) | 1:1 Dashboard that breaks down our database in terms of Self-Managed Free Instances.    |
+| [1:1 Report - Tableau Inbound Lead Database](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficial/InboundInterestFeed-ProspectLevel?:iid=1) | 1:1 Dashboard that breaks down our database in terms of inbound and existing leads.    |
 | [1:1 Dashboards - Accounts: EMEA COMM](https://gitlab.my.salesforce.com/01Z8X000000u7O4) | 1:1 dashboard for accounts in the EMEA COMM segment.    |
-| [1:1 Dashboards - Accounts: AMER COMM](https://gitlab.my.salesforce.com/01ZPL000000YXPl?) | 1:1 dashboard for accounts in the AMER COMM segment.    |
-| [1:1 Dashboards - Accounts: ENG AMER/LATAM](https://gitlab.my.salesforce.com/01Z8X000000u7Ww) | 1:1 dashboard for accounts in the ENG AMER/LATAM segment. |
-| [1:1 Dashboards - Accounts: COMM APJ](https://gitlab.my.salesforce.com/01ZPL000000YXxd)   | 1:1 dashboard for accounts in the Commercial APJ segment.     |
-| [1:1 Dashboards - Accounts: ENTG APJ](https://gitlab.my.salesforce.com/01Z8X000000u7Wm) | 1:1 dashboard for accounts in the ENTG APJ segment. |
-| [1:1 Dashboards - Accounts: ENTG EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Wr)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
+| [1:1 Dashboards - Accounts: AMER COMM](https://gitlab.my.salesforce.com/01ZPL000001I5n3) | 1:1 dashboard for accounts in the AMER COMM segment.    |
+| [1:1 Dashboards - Accounts: ENTG AMER/LATAM](https://gitlab.my.salesforce.com/01ZPL000001I6Ub) | 1:1 dashboard for accounts in the ENG AMER/LATAM segment. |
+| [1:1 Dashboards - Accounts: COMM/ENTG APJ](https://gitlab.my.salesforce.com/01ZPL000001I5qH)   | 1:1 dashboard for accounts in the Commercial and Enterprise APJ segment.     |
+| [1:1 Dashboards - Accounts: ENTG EMEA](https://gitlab.my.salesforce.com/01ZPL000001I77J)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
+| [1:1 Dashboards - Accounts: ENTG AMER](https://gitlab.my.salesforce.com/01ZPL000001I6Ub)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: PUBSEC](https://gitlab.my.salesforce.com/01Z8X000000u7Wh)     | 1:1 dashboard for accounts in the PUBSEC segment.       |
 | [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed in the SDR team.   |
 | [Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
@@ -610,7 +606,7 @@ At this point, the opportunity will be in your ownership but you can not have yo
 
 **When will it be credited as an SAO?**
 
-After the AE/SAL meets with the prospect to verify and supplement qualification criteria, they will move the opportunity into Stage 1 Discovery. The AE/SAL is expected to move the opportunity into the correct stage within 48 hours of the meeting reflected in the "Next Step" date field.
+After the AE/SAL meets with the prospect to verify and supplement qualification criteria, they will move the opportunity into Stage 1 Discovery. The AE/SAL is expected to move the opportunity into the correct stage within 48 hours of the meeting reflected in the "Next Step" date field. The opportunity close date defaults to the last day of the quarter, however it's good practice to set the date at least 90 days out from creation date.
 
 If an opportunity has incorrect data after it has moved into Stage 1 - Discovery, please Chatter your manager about the required changes, they will then Chatter someone from Sales Dev Operations (Ramona, Panos, Ed) once final changes are agreed upon. No one else from Sales Dev can edit opportunities once they are in Stage 1, so please try and ensure you have all the information on the opportunity before you ask the AE/SAL to accept it.
 
@@ -1166,6 +1162,26 @@ To help structure your usage of the above, you can follow the steps below during
 | Take note of any discrepancies or points of feedback from the team, either transcribe them to 1:1s for individual conversations or to the SDR Issue board for org-wide improvements | Enables you to filter between discrepancies that are caused because of a team member's lack of diligence that should be improved upon by the individual OR for discrepancies that were caused by an org-wide operational shortcoming that should be improved upon on a global scale. |
 | Set realistic expectations with the team about adherance to org KPIs and set a review mechanism to go over them on a reccuring basis | Helps maintain a repeatable structure of accountability for your entire team |
 
+#### 1:1 Account and Lead Level Dashboard Coaching guidance
+
+The table below can help with structuring how you perceive and action the 1:1 Dashboards we have on SFDC and Tableau, the below connect to the [KPI page here.](/handbook/marketing/sales-development/#outbound-account-management) and the videos [here](https://drive.google.com/file/d/1mOUGPVqhogmT0-mmqyhtiVKs4wmdHEZ_/view?usp=sharing) and [here](https://drive.google.com/file/d/1L3a6-vpG562rY0u4Yve4d_y1148MIvNG/view?usp=sharing) are two quick compelementary resources to walk you through how we use the dashboards.
+
+| Dashboard | Component | Expectation/Action | Coaching Opportunity | 
+| ------ | ------- | ------- | ------- | 
+| 1:1 Accounts Dashboard | 0. Queued Accounts | These accounts are to be cleared on a weekly basis by being moved to AWA status or by leaving a clear chatter note as feedback on why the account was not added to a prospecting pipeline. This should include datapoints from intent tools or another other SSoT as supporting evidence.  | Carefully vetting and working accounts that are queued by the Sales team will lead to better collaboration, and mutual accountability. Not only are we expected to timely review these accounts but to keep our counterparts accountable to their account ranking by providing data-driven feedback. | 
+| 1:1 Accounts Dashboard | 1. Review Existing Pipeline | These accounts are currently in the team member's name. The total volume should not be over 125 for Mid-Market BDRs and 75 for Enterprise BDRs. As a priority these should be reviewed weekly and action should be taken accordingly to remove or update these accounts. |  When clicking into the report the team member can screen all the datapoints that can help them gauge the status of their accounts at a glance. Activity and Research fields can be combined with intent datapoints to quickly see which accounts should be reviewed further manually. |
+| 1:1 Accounts Dashboard | 2. Research Accounts to be Recycled | These reports are nearing their automated recycle date, which by default is two months after their actively started work date. This report acts as a fallback report to the report above. A BDR should have already reviewed these accounts as part of their actively working account screen done in the previous step. This report will act as a second reminder. | In theory an outbound account will have received at least 30 days worth of outreach since most sequences we use have at least a 30 day cadence. It's fine to leave an account in a team member's pipeline until it's removed automatically in hopes of getting some inbound MQLs assigned to the BDR. Regardless, there's a business decision to be made about whether expecting inbound MQLs is a sound strategy, based on the team members quota attainment and overall pipeline at the moment, and whether replacing the about to be expired for another account is a better route. | 
+| 1:1 Accounts Dashboard | 3. Re-evaluate newly added flagged accounts | These accounts were recently added to a team member's pipeline but at least one of our intent tools flags it as a weak account in terms of intent data. | In the spirit of hyper-targeted results, this account should be empty since all tools we have should agree that this account is good enough to be added to the team member's pipeline. If there are any accounts flagged it is wise to review them and ensure that they should indeed remain with the team member's pipeline. | 
+| 1:1 Account Dashboard | 4. Check past opportunities for potential use | These are past opportunities that could be reviewed for re-engagement. | Closed: Lost opportunity re-engagement is one of the best converting sources of pipeline for our team. After having reviewed the pressing reports in the first three steps above, the quickest review to make to gauge some low-hanging fruit is this report. |
+| 1:1 Account Dashboard | 5, 6 and 7. Assess high priority individuals | These three reports show individuals that connect to actively working accounts in the team member's pipeline. These should be reviewed and any relevant next steps or actions should be made on the account-level bdr notes. | These three reports show individuals with high intent data, engagement in marketing campaigns or recent with interesting moments. While it's not necessary that there has to be action on the specific individuals, their behavior can give significant queues into the current situation within an account. |
+| 1:1 Account Dashboard | 8, 9, 10, 11 and 12. Review High Intent Accounts. | These reports split not-AWA accounts in a few different buckets. While there will be significant overlap, having multiple reports help prioritize how a team member can review their account list for new accounts to add to their pipeline. These reports should be reviewed weekly and the majority of AWA accounts should be sourced from one of these. | These reports all reference our intent based tools, existing RoE around pursuit accounts and should guide the decision-making of team members. Referencing these as a first step should create a lot of internal efficiencies in researching accounts. | 
+| 1:1 Account Dashboard | 13. Consider AE-ranked accounts. | This report visualises accounts as per the ranking that the sales team manually gave them. They should be reviewed after the team member has reviewed intent-based tools. | The Sales team does not have access to the same data as us so their manual research can be used a good fallback report to cross-reference against the reports in the previous steps. | 
+| 1:1 Account Dashboard | 14 and 15. Review individuals from not actively worked accounts | These reports show individuals from non-actively worked accounts that either have been part of a marketing campaign, or show strong intent signals. | These individuals should be approcah as an indication that the account as a whole should be investigated for outbounding. |
+| 1:1 Account Dashboard | 16. Review individuals in flight. | This report shows a breakdown of prospects currently on a sequence. Should be reviewed for any further actions to be taken. | Consider whether adding more individuals to a sequence for a particular account might make sense, or whether the individuals from the top prospect accounts should be getting additional outreach outside of the sequence steps. | 
+| 1:1 Account Dashboard | 17. Consider past Actively Worked Accounts. | As a final check, this report should accounts that were previously outbounded for the territory, do any of them make sense in terms of re-engagement? | Outbound efforts typically take a long time to convert an account, and reviewing new intent data is a great practice to maintaing a good re-engagememt pipeline. | 
+| Tableau Dashboard | Inbound Interest Dashboard | This dashboard is an intuitive way for BDRs to manually screen their database. It should be used as a complementary resource to the account-level dashboards above. | While the account-level dashboards are pre-made, and there to guide the thinking of team members in terms of account research, this Tableau dashboard allows a team member more flexibility into sorting through the database. They can use the filters to replicate the permutations of the account level reports in any way that they please. |
+| Tableau Self-Dashboard | Self-Managed Instances Dashboard | This dashboard allows BDRs to track and manage instances that are self-deployed by prospects or clients. | It helps BDRs understand how self-managed instances are performing and identify any potential opportunities to convert them into fully managed accounts or upsell additional services. | 
+
 #### General Sales Development Leadership Resources
 
 | Resource | Purpose |
@@ -1373,13 +1389,13 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 
 - We follow the process outlined [here](/handbook/marketing/sales-development/how-tos/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
 
-#### Sequence needs to be a globally applicable
+**1. Sequence needs to be a globally applicable**
 
 - Only sequences that could be used by any team member globally can be added to the Good Collection.
 - If a regionalized sequence can be translated to English, then the English copy of it will be added to the GC while the local variant will be added to the Team Collection.
 - Field Marketing event sequences and any other similar type will not be considered for the Good Collection.
 
-#### Sequence needs to have completed the requirements set out on the issue descrption
+**2. Sequence needs to have completed the requirements set out on the issue descrption** 
 
 - At least 200 people enrolled and/or having completed the sequence on a timely manner.
 - ( Sequence has over 5% reply rate AND No less than 50% negative sentiment rate. ) OR Sequence has over 5% meeting set rate.
@@ -1806,8 +1822,8 @@ In addition to the above, BDR team members are expected to:
 
 | Metric                      | Description                                                            |
 |-----------------------------|------------------------------------------------------------------------|
-| Volume of Actively Working Accounts per Quarter               | 100 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. |
-| Research Quality            | >70% usage of Intent tools on AWA'd accounts, with high propensity to purchase indicators showed. |
+| Volume of Actively Working Accounts per Quarter               | **- Enterprise:** <br> - 75 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. <br> - 65 6QAd accounts per Quarter, per BDR. <br> **- Mid-Market:** <br> - 125 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. <br> - 25 6QA'd accounts per Quarter, per BDR.  |
+| Research Quality            | >80% usage of Intent tools on AWA'd accounts, with high propensity to purchase indicators showed. |
 | Volume of Prospects per Account | 5-10 prospects sequenced per account, whose titles and personas match our ICPs. |
 
 ### PTO and Flexible Working

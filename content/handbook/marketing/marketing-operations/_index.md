@@ -354,7 +354,9 @@ Discovery research is a way to learn more about our users. Our users are members
 
 Insights from Discovery research calls will be used to inform the Marketing Operations strategic planning and roadmapping.
 
-## <i class="fas fa-file-import" id="biz-tech-icons"></i> [List Imports](/handbook/marketing/marketing-operations/list-import)
+## <i class="fas fa-file-import" id="biz-tech-icons"></i> List Imports
+
+[List Imports](/handbook/marketing/marketing-operations/list-import)
 
 ## <i class="fas fa-toolbox" id="biz-tech-icons"></i> Marketing Technology Stack
 
@@ -444,23 +446,21 @@ Below is a collection of links leading to status pages of several listed MktgOps
 Click to see dropdown list of available status page URLs.
 </summary>
 
-- 6sense
-- Traction
+- [Asana](https://status.asana.com/)
 - [Marketo/Marketo Measure (formerly Bizible)](https://status.adobe.com/products/503491)
 - [Qualified](https://status.qualified.com/)
 - [LinkedIn Sales Navigator](https://www.linkedin-apistatus.com/)
 - [Outreach.io](https://status.outreach.io/)
 - [PathFactory](https://status.pathfactory.com/)
-- RingLead
 - [Terminus Email Experiences](https://status.terminus.com/)
 - [ZoomInfo](https://status.zoominfo.com/)
-- Vartopia - Lead Sharing Module
 - [Allocadia](https://support.allocadia.com/hc/en-us/sections/115001724228-System-Maintenance-Alerts)
-- Hopin
 - [Iterable](https://status.iterable.com/)
 - [Litmus](https://status.litmus.com/)
 - [On24](https://on24.my.site.com/Support/s/platform-status)
-- [Typeform](https://status.typeform.com/)
+- [OneTrust](https://status.onetrust.com/)
+- [Hightouch](https://status.hightouch.io/)
+- [Groove](https://status.groovehq.com/)
 
 </details>
 

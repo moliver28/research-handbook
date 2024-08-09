@@ -122,9 +122,9 @@ Commit to [active and effective listening](/handbook/communication/#effective-li
 </figure>
 <!-- blank line -->
 
-#### Master [Command of the Message](/handbook/sales/command-of-the-message)
+#### Master Command of the Message
 
-Command of the Message is a proven, value-based sales messaging methodology from Force Management that allows GitLab sales team members to effectively uncover customer needs and articulate value and differentiation. Leverage the below resources to ensure you are confident in the methodology and the GitLab-tailored sales resources created to help you be successful and delight your customers.
+[Command of the Message](/handbook/sales/command-of-the-message) is a proven, value-based sales messaging methodology from Force Management that allows GitLab sales team members to effectively uncover customer needs and articulate value and differentiation. Leverage the below resources to ensure you are confident in the methodology and the GitLab-tailored sales resources created to help you be successful and delight your customers.
 
 - [Command of the Message Handbook page](/handbook/sales/command-of-the-message)
 - [Command of the Message e-learning module](https://gitlab.edcast.com/insights/ECL-20f0f2ac-0d50-4384-b473-63cc6d3bb48d) (90 minutes) (GitLab internal with protected IP from Force Management)

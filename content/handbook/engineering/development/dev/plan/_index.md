@@ -447,9 +447,9 @@ The responsibility of the DRI is simply to collect information and to ensure the
 
 #### Links
 
-- [Current Weekly Digests](https://gitlab.com/gitlab-org/plan/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=weekly%20update&first_page_size=20)
-- [Closed Weekly Digests](https://gitlab.com/gitlab-org/plan/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
-- [Issue Template](https://gitlab.com/gitlab-org/plan/-/blob/master/.gitlab/issue_templates/plan-weekly-digest.md)
+- [Current Weekly Digests](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/?sort=created_date&state=opened&label_name%5B%5D=weekly%20update&first_page_size=20)
+- [Closed Weekly Digests](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/?sort=created_date&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
+- [Issue Template](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/blob/master/.gitlab/issue_templates/plan-weekly-digest.md)
 
 ### Meetings
 

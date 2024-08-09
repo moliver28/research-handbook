@@ -538,6 +538,37 @@ the potential to stop a deployment from reaching production.
 Further testing strategy is being discussed in
 [&10563](https://gitlab.com/groups/gitlab-org/-/epics/10563).
 
+### Self-hosted deployment of AI Gateway
+
+Customers within self-hosted environments can also deploy a self-hosted 
+version of AIGW, enabling usage of Duo features even within airgapped 
+solutions, including those requiring FedRAMP compliance. This approach 
+allows us to serve sophisticated customers capable of managing their 
+own LLM infrastructure, providing them with more control and flexibility. 
+Instructions on how to setup AIGW on self-managed are found in 
+our [docs](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html).
+
+While this adds another component to be installed, the alternative would be
+to implement a model interface in the monolith. This presents serveral 
+challenges, including:
+
+- Need to reimplement in Ruby all libraries that exist in Python for LLM handling 
+- Duplicate codebases and maintainance 
+- Lack of feature parity between self-hosted and `.com`
+- Difficult logging and tracing for self-hosted customers
+
+Relying on AI Gateway for both self-hosted and `.com` environments on the other hand
+centralizes the infrastructure challenges and solution when dealing with interfacing 
+with LLMs.
+
+#### AI Gateway and GitLab version matching
+
+Customers need a clear indication of which AIGW version is compatible to their GitLab instance. 
+Since AI Gateway deploument is not managed by Omnibus/GNG, we achieve this by providing image tags 
+for each GitLab version: an AIGW image with TAG `gitlab-17.2-ee` is compatible with GitLab version `17.2-ee`.
+
+[More discussion on versioning](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/issues/579)
+
 ## Alternative solutions
 
 Alternative solutions were discussed in
@@ -553,7 +584,6 @@ Alternative solutions were discussed in
 AI Gateway aim is to become the primary method for the monolith to **access** machine learning models across all usages of GitLab and create a consistent user journey when developing AI-backed features. To do so, these goal is split down into three categories:
 
 - Centralized Access Through AI Gateway
-- Self Managed AI Gateway
 - Unit Primitives
 
 ### Centralized Access Through AI Gateway
@@ -577,12 +607,6 @@ In the next iteration, we plan to decompose the Chat primitive into multiple pri
 The introduction of Unit Primitives will simplify the management of AI features and provide a more granular control over the functionalities exposed through the AI Gateway. This will also pave the way for future work on supporting user-deployed models and locally hosted models.
 
 For more details on how to implement and integrate unit primitives, refer to the [Cloud Connector documentation](https://docs.gitlab.com/ee/development/cloud_connector/index.html).
-
-### Self Managed AI Gateway
-
-Self-managed instances can either use GitLab-hosted AI Gateway or have their own AI Gateway if they want to use self-deployed models, with Runway likely being the deployment method. This means part of our work will be to ensure that the AI Gateway can be deployed in a self-managed environment. This work will go hand-in-hand with the work to support locally hosted models (local inference) in support of GitLab AI features.
-
-- [Self Managed AI Gateway](https://gitlab.com/groups/gitlab-org/-/epics/13162)
 
 ## Other components in the AI stack
 

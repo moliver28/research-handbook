@@ -3,9 +3,12 @@ title: "Customer Success Management Handbook"
 description: "The Customer Success Management team at GitLab is a part of the Customer Success department, acting as trusted advisors to our customers and helping them realize value faster."
 ---
 
+## Customer Success Segments
+
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM AMER</button>](/handbook/customer-success/csm/segment/amer/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM EMEA</button>](/handbook/customer-success/csm/segment/emea/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM APJ</button>](/handbook/customer-success/csm/segment/apj/)
+[<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSE</button>](/handbook/customer-success/csm/segment/cse/)
 
 ## Mission Statement
 
@@ -257,7 +260,7 @@ Next steps for you:
 - [Customer Success Vision](/handbook/customer-success/vision/)
 - [GitLab Positioning](/handbook/marketing/positioning-faq/)
 - [Product Stages and the POCs for each](/handbook/product/categories/#devops-stages)
-- [How to Provide Feedback to Product](/handbook/product/how-to-engage/#feedback-template)
+- [How to Provide Feedback to Product](/handbook/product/product-management/#feedback-template)
 - [Sales handbook](/handbook/sales/)
 - [Support handbook](/handbook/support/)
 - [Workshops and Lunch-and-Learn slides](https://drive.google.com/drive/folders/1qAymFTiXFEk-lRSNreIhaZ6Z62fdo_y2)

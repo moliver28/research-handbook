@@ -58,11 +58,6 @@ The reactions in this table are mutually exclusive - Pairify will only process t
 
 | Emoji                                                                           | Shortcode        | Description                                           |
 |---------------------------------------------------------------------------------|------------------|-------------------------------------------------------|
-| ![Baobab emoji](../assets/pairify_baobab.png "Baobab emoji")                    | `:baobab:`       | Adds the `SGG::Baobab` label to the pairing issue     |
-| ![Ginkgo emoji](../assets/pairify_ginkgoleaf.png "Ginkgo emoji")                | `:ginkgoleaf:`   | Adds the `SGG::Ginkgo` label to the pairing issue     |
-| ![Kapok emoji](../assets/pairify_kapok.png "Kapok emoji")                       | `:kapok:`        | Adds the `SGG::Kapok` label to the pairing issue      |
-| ![Maple emoji](../assets/pairify_maple_leaf.png "Maple emoji")                  | `:maple_leaf:`   | Adds the `SGG::Maple` label to the pairing issue      |
-| ![Pine emoji](../assets/pairify_pine.png "Pine emoji")                          | `:pine:`         | Adds the `SGG::Pine` label to the pairing issue       |
 | ![Crush emoji](../assets/pairify_crush.png "Crush emoji")                       | `:crush:`        | Adds the `crush` label to the pairing issue           |
 | ![Office hours emoji](../assets/pairify_office-hours.png "Office hours emoji")  | `:office-hours:` | Adds the `office hours` label to the pairing issue    |
 
@@ -73,10 +68,10 @@ To ensure these reactions are picked up by Pairify, you should add these reactio
 Pairify can be used in the following Slack channels:
 
 - [`#spt_pairing`](https://gitlab.enterprise.slack.com/archives/C03UW0HPBGD)
+- [`#spt_amer`](https://gitlab.enterprise.slack.com/archives/C07EYM9NNE4)
 - [`#spt_us-government`](https://gitlab.enterprise.slack.com/archives/C03RTN3JEJ2)
 - [`#support_team-chat`](https://gitlab.enterprise.slack.com/archives/CCBJYEWAW)
 - [Support Pod](https://gitlab.com/gitlab-com/support/support-pods) channels
-- [Support Global Group](/handbook/support/support-global-groups/) channels
 
 ## Troubleshooting
 

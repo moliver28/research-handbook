@@ -77,6 +77,8 @@ See more detailed instructions for this process here: <https://gitlab.com/gitlab
 
 ### Rebasing
 
+#### Interactive Rebasing
+
 - Use of interactive rebasing (`git rebase -i master`) and message cleanup via `reword`/`fixup` are worth learning more about if you are unfamiliar with them.
 - Interactive rebasing tip:
   - This process will let you separate "interactive rebasing" against the `merge-base` (the common ancestor of your branch `HEAD` and the upstream branch `master`) from the possibility of "conflict resolution" when rebasing against the latest upstream `master`.
@@ -84,6 +86,29 @@ See more detailed instructions for this process here: <https://gitlab.com/gitlab
   - Optionally `git push --force-with-lease` (Or just wait until after the next step to push if you don't want to trigger an extra unnecessary build)
   - Then, do a `git rebase master`, to rebase against the latest master, and resolve any conflicts against your cleaned-up, interactively-rebased branch.
   - `git push --force-with-lease` (force-with-lease ensures nobody else has pushed to the branch since you last pulled)
+
+#### Using the --onto option for rebasing stacked MRs
+
+If you have multiple MRs which are "stacked" on each other, the `--onto` option is very useful and can help avoid unnecessary rebase conflicts.
+
+Assume this situation:
+
+1. `first` MR and branch is based off of the `master` (`main`) branch, and has some commits.
+1. `second` MR and branch is based off of the `first` branch, and has some commits.
+1. `first` branch has been rebased off of `master`.
+1. This means that the `first` branch's commit's SHAs have changed, and thus the SHAs for those commits in the `second` branch are outdated.  
+
+This is where `--onto` comes in handy. If you simply tried to rebase `second` directly on to of `first`, you would get a lot of confusing rebase conflicts that didn't make sense, because the "history" or state of the `first` branch has changed compared to what the `second` branch currently knows about.
+
+But there's a way to avoid these confusing and unnecessary conflicts: You take ONLY the commits that are part of the `second` branch, and rebase them ONTO the current state of the `first` branch, using the `--onto` option.
+
+Here's how:
+
+1. `git checkout second`
+1. `git log second` and copy the SHA of the commit that USED to be the latest commit on the `first` branch. For example, `abcdef`
+    - NOTE: If you have ensured that there is only a single commit on the `second` branch (via regular interactive rebase and `fixup` as explained above), then you can also just use `head^` instead of getting the specific SHA.
+1. Rebase "relative" to that commit, "onto" the `first` branch: `git rebase abcdef --onto first`, or if `second` only has one commit, use `git rebase head^ --onto first`
+1. Continue on with the rebase as normal. You may still get some legitimate conflicts you have to resolve if `first` has changed some of the same lines as `second`, but no confusing/unnecessary conflicts due to the `second` branch's "outdated history" of `first`, because you've ignored it with `--onto`.
 
 ### Git References
 

@@ -150,6 +150,7 @@ Note: As of Q2 FY25, technical spikes will follow the same workflow process as c
 As a technical spike is prioritized and available for pickup in `~workflow::ready for development`, complete the following steps:
 
 - Assign yourself to the technical spike along with the current milestone
+- If not already added, add the ~spike label to the issue. 
 - Connect with the responsible PM to align on a reasonable due date for the technical spike. Duration will be dependent on the subject matter and Growth's familiarity with the topic.
 - Once determined, assign a due date.
 - Review the contents of the technical spike issue body. Add a comment to clarify outstanding questions with the responsible PM. This is a great time to highlight potential needs for cross-collaboration with other teams or code or Product subject matter experts, or other inputs you feel will be important to the technical spike.

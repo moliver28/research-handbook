@@ -8,8 +8,6 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 ## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand Handbook
 
-{: .no_toc}
-
 The GitLab Brand team is made up of two teams that partner closely to bring our brand to life: the Brand Strategy team and the Brand Creative team.
 The Brand Strategy team is a group of brand strategists and marketers responsible for creating awareness, trust, and affinity for the GitLab brand.
 The Brand Creative team includes art directors, designers, illustrators, and video producers responsible for delivering creative designs and experiences that elevate our brand and fuel demand.

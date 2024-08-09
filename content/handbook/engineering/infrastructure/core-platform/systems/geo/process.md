@@ -46,7 +46,7 @@ Three boards are used to monitor this process
 #### Plan
 
 We use the [Kanban Plan board](https://gitlab.com/groups/gitlab-org/-/boards/1181258)
-to triage issues that are not yet planned for a milestone. Issues in this board are labeled "geo::planning".
+to triage issues that are not yet planned for a milestone. Issues in this board are labeled "group::geo" and use the workflow labels "workflow::validation backlog", "workflow::problem validation", "workflow::design", "workflow::solution validation",  "workflow::planning breakdown" and "workflow::scheduling".
 
 The Product Manager(PM) owns this board and uses it to advance issues through to becoming feasible Epics. When work leaves this
 board, it is in a fit state for the engineering team to implement the issue.
@@ -92,6 +92,9 @@ When they are satisfied that they have a reasonable solution including an estima
 for discussion and feedback. Planning is transparent anyway, but this serves to notify the team that the new work items are ready
 for development.
 
+For issues that include a feature that uses a Feature Flag (FF), we follow the feature flag [lifecycle doc](/handbook/product-development-flow/feature-flag-lifecycle/#development).
+The original issue should remain open and blocked on the FF rollout issue until the rollout issue is closed, in case the rollout does not go as planned.
+
 #### Schedule
 
 On an ongoing basis, the PM and EM will meet to discuss the work that is currently active, and queue prepared items for development.
@@ -112,7 +115,7 @@ The outcome of these scheduling activities are reflected in an [Outlook Issue](h
 #### Build
 
 We use the [Kanban Build board](https://gitlab.com/groups/gitlab-org/-/boards/1181257)
-to look at issues that have the `geo::active` label in combination with the `group::geo` label.
+to look at issues that have the `%Started` milestone in combination with the `group::geo` label.
 
 The Engineering Manager(EM) owns this board and uses it to facilitate building out the Epics and issues that the team have decided
 are ready for development.

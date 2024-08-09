@@ -449,6 +449,8 @@ New vendors unable to meet our minimum security requirements may be denied by Se
 
 Existing vendors not meeting our minimum security standards may require documentation of an offboarding plan or a remediation plan agreed upon by the vendor prior to requisition approval. The Security Notice will be routed for approval as documented below.
 
+TPRM does not maintain a listing of denied third parties as their environments are subject to change and may mature to meet our requirements. Previous assessment outcomes are documented and available upon request.
+
 #### Accepting the Risk
 
 Circumstances may arise in which business requirements necessitate moving forward with a vendor. In these scenarios the Business Owner and other relevant stakeholders **may elect to accept the documented risk as not to negatively impact business operations.** Security Risk will provide their opinion regarding whether or not this is warranted based upon the information available. If the Business Owner decides to move forward with the vendor in light of the reported deficiencies, they are responsible for completion of the below items:

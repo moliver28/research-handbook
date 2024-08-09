@@ -273,7 +273,7 @@ in this table:
 | INITIAL_OFFERING  | The product from which they are migrating      | `SM`, `DotCom`                   |
 | ENDING_OFFERING   | The product to which they are migrating        | `SM`, `DotCom`                   |
 | SM_TAG            | The self-managed tag the organization is using | `starter`, `premium`, `ultimate` |
-| DOTCOM_TAG        | The gitlab.com tag the organization is using   | `bronze`, `silver`, `gold`       |
+| DOTCOM_TAG        | The gitlab.com tag the organization is using   | `silver`, `gold`                 |
 | ISSUE_LINK        | The issue you are working                      |                                  |
 
 The information needed for the above values should be determined from the issue

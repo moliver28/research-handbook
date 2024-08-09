@@ -178,7 +178,7 @@ Consider also using the [Giphy](https://slack.com/help/articles/204714258-Giphy-
 
 {{% cardpane %}}
 {{% card footer="GitLab marketing talent show" %}}
-![GitLab marketing talent show](/images/all-remote/gitlab-marketing-talent-show.jpg){: .shadow.medium.center}
+![GitLab marketing talent show](/images/all-remote/gitlab-marketing-talent-show.jpg)
 {{% /card %}}
 {{% /cardpane %}}
 
@@ -357,7 +357,7 @@ Hosting an [AMA](learning-and-development/#ask-me-anything-ama-group-conversatio
 
 {{% cardpane %}}
 {{% card footer="A bit of Airplane! fun on Halloween" %}}
-![A bit of Airplane! fun on Halloween](/images/all-remote/GitLab-Halloween-2019-Costume-Zoom-Call.jpg){: .shadow.medium.center}
+![A bit of Airplane! fun on Halloween](/images/all-remote/GitLab-Halloween-2019-Costume-Zoom-Call.jpg)
 {{% /card %}}
 {{% /cardpane %}}
 
@@ -378,7 +378,7 @@ You can now bring peers or colleagues into online game shows through platforms l
 
 {{% cardpane %}}
 {{% card footer="Cheers to a fantastic team" %}}
-![Cheers to a fantastic team](/images/all-remote/gitlab-zoom-happy-hour.jpg){: .shadow.medium.center}
+![Cheers to a fantastic team](/images/all-remote/gitlab-zoom-happy-hour.jpg)
 {{% /card %}}
 {{% /cardpane %}}
 
@@ -392,7 +392,7 @@ Sharing a meal is a powerful way to connect as humans, particularly when you ope
 
 {{% cardpane %}}
 {{% card footer="Virtual scavenger hunt at GitLab" %}}
-![Virtual scavenger hunt](/images/blogimages/cs-scavenger-hunt/hugo.jpg){: .shadow.medium.center}
+![Virtual scavenger hunt](/images/blogimages/cs-scavenger-hunt/hugo.jpg)
 {{% /card %}}
 {{% /cardpane %}}
 

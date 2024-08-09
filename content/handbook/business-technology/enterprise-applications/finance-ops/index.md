@@ -21,12 +21,7 @@ Our team ensures the availability of these applications through monitoring and a
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
-- **Al Champagne - Senior Director, Enterprise Applications** GitLab handle: [achampagne1](https://gitlab.com/achampagne1) Slack handle: Al Champagne
-- **Monali Bhide - Manager, IT Enterprise Applications Engineering** GitLab handle: [monalibhide](https://gitlab.com/monalibhide) Slack handle: @Monali Bhide
-- **Chavit Casabar- IT Enterprise Applications Administrator** GitLab handle: [ccasabar](https://gitlab.com/ccasabar) Slack handle: @Chavit Casabar 
-- **Renz Santos - IT Enterprise Applications Administrator** GitLab handle: [renzsantos](https://gitlab.com/renzsantos) Slack handle: @Renz Santos
-- **Arif Willis-Browne - Senior IT Enterprise Applications Engineer** GitLab handle: [awb88](https://gitlab.com/awb88) Slack handle: @Arif Willis-Browne 
-- **Wendy Lam - Staff Finance Systems Administrator** GitLab handle: [wlam](https://gitlab.com/wlam) Slack handle: @wlam
+[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/finance-ops/)
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Services We Offer
 

@@ -32,7 +32,6 @@ important to those working within Zendesk:
 | `sub_consumption_cicd_minutes` | Consumption | The organization has purchased CI/CD minutes |
 | `sub_consumption_eap`          | Consumption | The organization has purchased the Enterprise Agile Planning addon |
 | `sub_consumption_storage`      | Consumption | The organization has storage |
-| `sub_dotcom_bronze`            | Standard    | The organization has a GitLab.com Bronze subscription |
 | `sub_dotcom_premium`           | Priority    | The organization has a GitLab.com Premium subscription |
 | `sub_dotcom_ultimate`          | Priority    | The organization has a GitLab.com Ultimate subscription |
 | `sub_edu`                      | None        | The organization has a EDU community subscription |
@@ -78,7 +77,6 @@ important to those working within Zendesk:
 | `sub_consumption_cicd_minutes` | The organization has a CI/CD minutes purchase |
 | `sub_consumption_eap`          | The organization has an Agile Planning addon |
 | `sub_consumption_storage`      | The organization has a storage purchase |
-| `sub_dotcom_bronze`            | The organization has a gitlab.com Bronze subscription |
 | `sub_dotcom_premium`           | The organization has a gitlab.com Premium subscription |
 | `sub_dotcom_ultimate`          | The organization has a gitlab.com Ultimate subscription |
 | `sub_edu`                      | The organization has an EDU community subscription |
@@ -778,7 +776,6 @@ So an example:
 | `sub_consumption_cicd_minutes` | None        | The organization has purchased CI/CD minutes |
 | `sub_consumption_eap`          | None        | The organization has purchased the Enterprise Agile Planning addon |
 | `sub_consumption_storage`      | None        | The organization has storage |
-| `sub_dotcom_bronze`            | None        | The organization has a GitLab.com Bronze subscription |
 | `sub_dotcom_premium`           | None        | The organization has a GitLab.com Premium subscription |
 | `sub_dotcom_ultimate`          | None        | The organization has a GitLab.com Ultimate subscription |
 | `sub_edu`                      | None        | The organization has a EDU community subscription |
@@ -824,7 +821,6 @@ So an example:
 | `sub_consumption_cicd_minutes` | The organization has a CI/CD minutes purchase |
 | `sub_consumption_eap`          | The organization has an Agile Planning addon |
 | `sub_consumption_storage`      | The organization has a storage purchase |
-| `sub_dotcom_bronze`            | The organization has a gitlab.com Bronze subscription |
 | `sub_dotcom_premium`           | The organization has a gitlab.com Premium subscription |
 | `sub_dotcom_ultimate`          | The organization has a gitlab.com Ultimate subscription |
 | `sub_edu`                      | The organization has an EDU community subscription |

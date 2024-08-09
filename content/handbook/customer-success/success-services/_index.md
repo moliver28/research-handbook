@@ -58,16 +58,29 @@ We have CSA specific processes that go above and beyond the CSM role. It is expe
 
 ### SPS Customer Onboarding
 
-1. Introduction Email
-   1. Utilize [this internal email](https://docs.google.com/document/d/1eDj4zSzuHega_wvZrWMkOC9TAWMWs_bjVwnn7GeJzzY/edit) and customize to your customer's needs
-   2. The first priority is getting the kick-off call locked in so that you can review the program and get in front of the customer
+```mermaid
+graph LR
+    A[Order Form Received] --> B[<b>Welcome Email Sent</b><br><i>24hrs after resources identified</i>]
+    B --> C[<b>Internal Account Team Handover</b><br><i>within first week</i>]
+    C --> D[<b>Customer Kick-Off Call</b><br><i>within first 1 to 2 weeks</i>]
+    D --> E[<b>Accelerator Begins]
+```
 
-2. Kick-off Call
-   1. Scheduled via the introduction email for at 1 - 2 weeks out
-   2. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around
-   3. Utilize the slide [template](https://docs.google.com/presentation/d/17GG91Cm3dwNnYP6abhnZrt8r2UgBzuhDjaAxLFsXWgw/edit#slide=id.g26fcfeb948b_1_480) (internal)
+1. Introduction Email
+   1. This email will be sent within 24hrs of both CSA and ASE resources being identified and as close as possible to Order Form being received from Customer.
+   2. Utilize [this internal email](https://docs.google.com/document/d/1eDj4zSzuHega_wvZrWMkOC9TAWMWs_bjVwnn7GeJzzY/edit) and customize to your customer's needs
+   3. The first priority is getting the kick-off call locked in so that you can review the program and get in front of the customer
+
+2. Internal Kick-off Call
+   1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around
+   2. Customer Objectives identified prior to the Order Form being signed are to be documented by CSA and shared with account team
+
+3. Customer Kick-off Call
+   1. This will be scheduled within the first week of the agreement, subject to customer availability.
+   2. If customer is not available in first week for a formal kick-off, both ASE and CSA should begin work async and will start any needed conversations via email.
+   3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal)
    4. Share the .pdf version post call as well as immediate next steps, such as a discovery workshop
-   
+    
 ### Logging Accelerator Events
 
 In order to keep track of key deliverables in the Accelerator process, CSAs need to log these events in Gainsight. This will allow reporting and a complete account timeline within Gainsight.

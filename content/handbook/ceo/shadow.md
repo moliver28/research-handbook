@@ -130,18 +130,17 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ------- | --------- | -------------- | 
-| 2024-07-29 | 2024-08-02 | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - ET |
 | 2024-08-05 | 2024-08-09 |  Ivan French - CEO, Sijbrandij Foundation | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | REMOTE - PT |
-| 2024-08-12 | 2024-08-16 | OPEN | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
-| 2024-08-19 | 2024-08-23 | OPEN | OPEN | REMOTE - PT - limited week (M-W)|
+| 2024-08-12 | 2024-08-16 | [Emily Plotkin](https://gitlab.com/emilyplotkin) - Senior Director, Legal - Employment | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
+| 2024-08-19 | 2024-08-23 | OPEN | [Emily Plotkin](https://gitlab.com/emilyplotkin) - Senior Director, Legal - Employment | REMOTE - PT - limited week (M-W)|
 | 2024-08-26 | 2024-08-30 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | OPEN | REMOTE - PT |
 | 2024-09-02 | 2024-09-06 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
 | 2024-09-09 | 2024-09-13 | OPEN | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
 | 2024-09-16 | 2024-09-20 | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | OPEN | REMOTE - PT |
 | 2024-09-23 | 2024-09-27 | VP-DIRECTS ONLY | VP-DIRECTS ONLY  | In person - San Francisco |
-| 2024-09-30 | 2024-10-04 | OPEN | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | REMOTE - PT |
-| 2024-10-07 | 2024-10-11 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | OPEN | REMOTE - PT |
-| 2024-10-14 | 2024-10-18 | OPEN | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT - very limited week due to multiple conferences |
+| 2024-09-30 | 2024-10-04 | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | REMOTE - PT |
+| 2024-10-07 | 2024-10-11 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | REMOTE - PT |
+| 2024-10-14 | 2024-10-18 | OPEN| [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT - very limited week due to multiple conferences |
 | 2024-10-21 | 2024-10-25 | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
 | 2024-10-28 | 2024-11-01 | OPEN | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
 
@@ -560,7 +559,7 @@ At the conclusion of the call, the CEO Shadows should remove themselves from doc
 
 It's important to set the correct tone, so please stick to the following introductions verbatim.
 
-When attending [Valley meetings](#valley-meetings) please be sure to use the **For Valley meetings** intro. It can cause much confusion if you mention GitLab when Sid is acting in an individual capacity.
+When attending [Valley meetings](#valley-meetings) please be sure to omit the portion about your GitLab title. It can cause much confusion if you mention GitLab when Sid is acting in an individual capacity.
 
 When attending investor meetings, please introduce yourself and hand it off to the next team member by announcing their name.
 
@@ -830,4 +829,5 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-06-03 | 2024-06-14 | [Christopher Wang](https://gitlab.com/cs.wang) | Sr. Manager Strategy and Enablement (Sales Development) | |
 | 2024-06-10 | 2024-06-14 | [Sacha Guyon](https://gitlab.com/sguyon) | Sr. Product Manager (Observability) | |
 | 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) | Sr Director, ESG | |
-| 2024-07-15 | 2024-07-26 |  [Kristine Setschin](https://gitlab.com/KSetschin) | - Senior Manager Regional Marketing, EMEA | |
+| 2024-07-15 | 2024-07-26 |  [Kristine Setschin](https://gitlab.com/KSetschin) | Senior Manager Regional Marketing, EMEA | |
+| 2024-06-22 | 2024-08-02 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) | Backend Engineer | |

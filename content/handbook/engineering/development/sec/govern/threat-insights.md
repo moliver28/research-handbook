@@ -34,19 +34,25 @@ The following members of other functional teams are our stable counterparts, and
 
 {{% stable-counterparts role="Threat Insights" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
 
-### [Performance and Optimization](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#technical-debt-and-deprecations)
+### Performance and Optimization
+
+[Performance and Optimization](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#technical-debt-and-deprecations)
 
 DRI: {{< member-by-gitlab "nmccorrison" >}}
 
 {{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "Quintasan" "subashis">}}
 
-### [Projects](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#vulnerability-management)
+### Projects
+
+[Projects](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#vulnerability-management)
 
 DRI: {{< member-by-gitlab "ryaanwells" >}}
 
 {{< member-and-role-by-gitlab "bala.kumar" "lorenzvanherwaarden" "Quintasan" "svedova" >}}
 
-### [AI](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#ai)
+### AI
+
+[AI](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#ai)
 
 DRI: {{< member-by-gitlab "sming-gitlab" >}}
 

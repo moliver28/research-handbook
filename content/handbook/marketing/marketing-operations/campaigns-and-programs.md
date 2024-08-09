@@ -841,7 +841,9 @@ You must keep the same Asset number for existing assets, otherwise the existing 
   - Update `Region` and `Subregion`
 - Associate this campaign to the appropriate [parent campaign](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=365937335).
 
-### Step 2: [Clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG15954A1)
+### Step 2: Clone this program
+
+[Clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG15954A1)
 
 ContentSynd_Region_Vendor_DAP_Assets_Populated:
 This is the recommended template. Note that this program has the asset titles and types pre-populated. If you want a version without the asset tokens populated (not recommended only because it requires more set-up work), clone [ContentSynd_Region_Vendor](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG15661A1). You will still need to add the SFDC campaign tokens in both versions.
@@ -983,7 +985,7 @@ It is critical that any reference to asset number in the upload or send from the
 
 ### Step 7: Test the new asset in your Content Syndication programs
 
-Follow the instructions in Step 6 above to test the new asset. Focus specifically on the `Add to SFDC Campaign` and `Interesting Moments` to QA a new asset.
+Follow the instructions in [Step 6 above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-6-test-lead-flow-into-your-content-syndication-programs) to test the new asset. Focus specifically on the `Add to SFDC Campaign` and `Interesting Moments` to QA a new asset.
 
 ## Integrate DAP Closed Loop Feedback
 
@@ -1130,7 +1132,9 @@ When someone fills out these forms, they will be automatically added to the [Lan
 - In `form details` select `download` as the call-to-action and select your new form
   - Note: If your new asset is launching in multiple regions, confirm you're adding the correct form to the correct regional campaign
 
-### Step 1: For new campaigns not listed above, [clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG8361A1)
+### Step 1: For new campaigns not listed above
+
+[clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG8361A1)
 
 - Use format `YYYY_Social_[Name]_[parameter]_LinkedIn Lead Gen`
 - Campaign parameter must be one of the [GTM campaign parameters](/handbook/marketing/utm-strategy/#utm-campaign) (usually used as utm_campaign - ex. `devopsgtm` or `autosd`). The Salesforce campaign name must include the campaign parameter for the responses to roll up to the correct campaign on the Sisense dashboards.
@@ -1323,5 +1327,6 @@ For conferences list loads with more than 5,000 attendees, consider not marking 
 1. Select Create View
 1. Name the view Dietary Restrictions and under hidden columns, select `Dietary Restriction Detail` and `Dietary Restrictions: Other`
 1. Click Create
+1. Note that you can follow the same steps above if you need to view Physical Accommodation requests in a Marketo report. The fields for this are `Physical Assistance Needs` and `Physical Assistance Detail`.
 
-The view you created will be saved for future use, so any time you need to see this specific view in the future, you will click View: Default and select "Dietary Restrictions" from your dropdown (the list is unique to you, so you will have different options than other people). Due to privacy requirements, we are not pushing this information to SFDC, but you can see it in Marketo up until seven days after the event. See details below for creating a report in Marketo to see the responses. The dietary restriction fields will automatically be cleared 7 days after the lead list is loaded.
+The view you created will be saved for future use, so any time you need to see this specific view in the future, you will click View: Default and select "Dietary Restrictions" from your dropdown (the list is unique to you, so you will have different options than other people). Due to privacy requirements, we are not pushing this information to SFDC, but you can see it in Marketo up until seven days after the event. The dietary restriction fields will automatically be cleared 7 days after the lead list is loaded.

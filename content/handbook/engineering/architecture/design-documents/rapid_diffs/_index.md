@@ -193,7 +193,25 @@ To achieve the separation of concerns, we should distinguish between static and 
 - Everything that is static should always be rendered on the server.
 - Everything dynamic should be enhanced on the client.
 
-As an example: a highlighted diff line doesn't change with user input, so we should consider rendering it on the server.
+Data that should be coming with the page:
+
+- Static diff file metadata: viewer type, added and removed lines, etc.
+- Edit permissions
+
+Data that should be served through additional requests:
+
+- Discussions
+- File browser tree
+- Line expansion HTML
+- Full file HTML
+- Code quality
+- Code coverage
+- Everything else
+
+We should return HTML for line expansion and view full file features.
+Other requests should return normalized data in JSON format.
+
+Code suggestion feature should use the existing HTML of the diff, similar to the current implementation.
 
 #### Performance optimizations
 

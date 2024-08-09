@@ -27,6 +27,12 @@ The Package stage is made up of two groups:
 
 {{< team-by-manager-slug manager="crystalpoole" team="Package Registry" >}}
 
+### Stable Counterparts
+
+The following members of other functional teams are our stable counterparts:
+
+{{< stable-counterparts manager="crystalpoole" role="[,&] Package" >}}
+
 ## 📈 Measuring results
 
 In order to better align our effort with our customer's needs we will use the following methodology to measure our results. We believe that our best measure of success and progress is our [product category maturity plan](/handbook/product/categories/#package-stage). Progress towards these goals will be measured as follows:

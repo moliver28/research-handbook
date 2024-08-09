@@ -114,7 +114,7 @@ To discuss a macro (but not actually action on anything), use a support-team-met
 ### Support Team page requests
 
 For changes to the support team page, you would file an issue in the
-[support/team issue tracker](https://gitlab.com/gitlab-com/support/team/-/issues/new).
+[support-team-meta issue tracker](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new).
 
 Once the issue is created, Support Operations will work the issue. They may
 create new issues or move the original request as needed.
@@ -182,7 +182,7 @@ graph TD;
   OpsWorksIssue["Support Ops works issue from there, making new ones as needed"];
   ZendeskMacros["Create an issue in the macros project"];
   ZendeskUsGovernment["Create an issue in the zendesk-us-government project"];
-  SupportTeam["Create an issue in the support/team project"];
+  SupportTeam["Create an issue in the support-team project"];
 ```
 
 ### Helpful links
@@ -195,5 +195,4 @@ graph TD;
 - [macros issue tracker](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/issues/new)
 - [zendesk-us-government issue tracker](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/-/issues/new)
 - [zendesk-us-government macros issue template](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/-/issues/new?issuable_template=Macros)
-- [support/team issue tracker](https://gitlab.com/gitlab-com/support/team/-/issues/new)
 - [support-ops-project issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)

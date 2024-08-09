@@ -26,6 +26,10 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 
 {{% include "includes/engineering/manage-data-science-shared/team-day.md" %}}
 
+## Say/Do Ratio
+
+{{% include "includes/engineering/manage-data-science-shared/say-do-ratio.md" %}}
+
 ## Meetings
 
 Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). Some regular meetings that take place in Manage are:

@@ -2,9 +2,7 @@
 title: "Plan:Project Management"
 ---
 
-### Plan: Project Management
-
-{: #welcome}
+### Plan: Project Management {#welcome}
 
 [View all team members and stable counterparts](/handbook/product/categories/#project-management-group)
 

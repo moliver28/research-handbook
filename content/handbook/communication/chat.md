@@ -36,9 +36,7 @@ The alphabetically sorted starter list below spotlights a few of GitLab's many S
 | `#talent-acquisition`                | For questions about [referrals](/handbook/hiring/referral-process/), the [hiring process](/handbook/hiring/), and/or candidate status.                                                                                               |
 | `#team-member-updates`               | To stay updated on transitions/promotions, new GitLab team members joining, work anniversaries, etc.                                                                                                                                 |
 
-### General Channels
-
-{: #random-room}
+### General Channels {#random-room}
 
 There are a lot of general channels, just to name a few:
 

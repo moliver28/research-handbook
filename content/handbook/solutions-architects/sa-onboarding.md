@@ -7,8 +7,9 @@ View the [SA Handbook homepage](/handbook/solutions-architects/) for additional 
 
 ---
 
-⚠️ This information is under active development and is not yet final. This page will be updated on an ongoing basis during this phase.
-{: .alert .alert-warning}
+{{% alert title="⚠️" color="warning" %}}
+This information is under active development and is not yet final. This page will be updated on an ongoing basis during this phase.
+{{% /alert %}}
 
 ## Solutions Architects Onboarding Overview
 
@@ -104,7 +105,7 @@ In addition to the SQS learning objectives, your onboarding is intended to fulfi
 
 ## Milestones and Onboarding Roadmap 
 
-![SA Onboarding Journey Roadmap](/handbook/solutions-architects/SA Career Path - 29th Feb.png)
+![SA Onboarding Journey Roadmap](/handbook/solutions-architects/SA-Onboarding-Journey-Roadmap.png)
 
 ## Expectations for Manager Support during Onboarding 
 
