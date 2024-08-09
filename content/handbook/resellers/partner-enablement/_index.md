@@ -14,6 +14,8 @@ Rember that some of the links below require you to login to [GitLab's Partner Po
 
 ## Foundational Knowledge
 
+[GitLab Quick Start for New GitLab.com Customers](handbook/customer-success/customer-onboarding/)provides a great primer on the basics of GitLab.com, Namespaces, Groups, Projects, Members and the GitLab Customer Portal.
+
 [Building Pipelines GitLab Partner Webinar Series](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db) (Live Webinar & Episode Content Archive)
 
 - This webinar series is produced exclusively for GitLab Partners.  We discuss various sales and presales-level topics that help you build your sales pipeline with GitLab.
