@@ -100,7 +100,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 - [Ultimate GitOps Workshop](https://guided-explorations.gitlab.io/workshops/gitlab-for-eks/) (Workshop Guide)
   - Leverage GitLab K8s agent to deploy to EKS.
 - [Guided Explorations](https://gitlab.com/guided-explorations) (Project Catalog)
-  - Contains Joint Reference Architectures, Patterns, and Working Examples for integrating GitLab with Alliance and Technology solutions.
+  - Contains Joint Reference Architectures, Patterns and Working Examples for integrating GitLab with Alliance and Technology solutions.
 - [CI Samples Demo](https://gitlab.com/gitlab-learn-labs/webinars/cicd/cicd-samples)
   - CI functions samples for quick demos
 
@@ -111,8 +111,8 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 - [High Availability Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#supported-modifications-for-lower-user-counts-ha)
   - The 3,000 user GitLab reference architecture is the smallest we recommend that achieves High Availability (HA). However, for environments that need to serve fewer users but maintain HA, there are several supported modifications for this architecture to reduce complexity and cost. Any reference architecture above 3000 users is capable of running as a HA workload. For smaller deployments, we (GitLab) recommend to schedule regular backups which provide a recovery point objective (RPO) that the organization can tolerate.
 - [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
-  - The GitLab Environment Toolkit (GET) is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures. Created and maintained by the GitLab Quality Engineering Enablement team, the Toolkit supports the deployment of GitLab Self-Managed to Hyperscaler and On-Prem target environments.
-  - Review the following GitLab Environment Toolkit's provided examples located [here](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/tree/main/examples?ref_type=heads).
+  - The GitLab Environment Toolkit (GET) is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures. Created and maintained by the GitLab Quality Engineering Enablement team, the Toolkit supports the deployment of GitLab Self-Managed to hyperscaler and On-Prem target environments.
+  - Review the following GitLab Environment Toolkit's provided examples located [GET Toolkit Reference architecture Examples]](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/tree/main/examples?ref_type=heads).
   - HA is only available for GitLab's enterprise paid tiers. Both Premium and Ultimate licenses of our product will permit the deployment of Highly Available instances of GitLab.
   - Migration from one instance to another remains the same as if the target system weren't highly available. More here: https://handbook.gitlab.com/handbook/resellers/partner-enablement/partner-migration-services/#from-gitlab-self-managed-to-gitlab-self-managed
 
@@ -146,7 +146,7 @@ Delivery docs and technical guidance for your GitLab practice engineers
   - [GET getting started video](https://partners.gitlab.com/prm/English/s/assets?id=543232&renderMode=Collection)
   - **This is the Way... to install GitLab.**  The GitLab Environment Toolkit (GET) is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures.  Built and actively maintained by the Quality Enablement team.
 - [Other Installation Methods](https://docs.gitlab.com/ee/install/install_methods.html)
-  - Make sure any automation you provide that automatically installs GitLab is installing the Enterprise Edition, and leverages at the core one of these installation methodologies to have a suppored configuration
+  - Make sure any automation you provide that automatically installs GitLab is installing the Enterprise Edition, and leverages at the core one of these installation methodologies to have a supported configuration
 - [Unsupported Designs](https://docs.gitlab.com/ee/administration/reference_architectures/#deviating-from-the-suggested-reference-architectures)
   - Also review these unsupported configurations to make sure you are in compliance with our support requirements
 - [Next Implementation Steps After Installation](https://docs.gitlab.com/ee/install/next_steps.html)
@@ -187,7 +187,7 @@ Delivery docs and technical guidance for your GitLab practice engineers
 **Additional References for You**
 
 - [Service Kits](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) (Portal Assets)
-  - We have developed service kits for you including sample Statements of Work (SOWs) and Levl of Effort (LOEs).
+  - We have developed service kits for you including sample Statements of Work (SOWs) and Level of Effort (LOEs).
 - [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) (Portal Assets)
   - These delivery kits are what our internal PS teams use for customer projects.  Go grab what you need!
 
@@ -216,11 +216,11 @@ Delivery docs and technical guidance for your GitLab practice engineers
 - [GitLab Blog](https://about.gitlab.com/blog/)
   - Various content about GitLab. Mostly technical stuff, but not exclusively. Subscribing to the newsletter can be useful.
 - [Release Overview Website](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features)
-  - A fairly unknown tool that can help with understanding the changes in each GitLab version. (Source code of the website is [here](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/what-is-new-since).) Important features of this website to pay extra attention to:
+  - A fairly unknown tool that can help with understanding the changes in each GitLab version. ([Source code of the website](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/what-is-new-since).) Important features of this website to pay extra attention to:
     - [CVEs by version](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=cves): easily keep track of security vulnerabilities in each GitLab version.
     - [Upgrade path](https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/): a handy tool which can list the steps of upgrading self-managed GitLab from version X to version Y.
 - [Deprecations by version](https://docs.gitlab.com/ee/update/deprecations.html)
-  - same data as [this page](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=deprecations) of the Release Overview website, just in a different format.
+  - same data as [this Deprecations by Version page](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=deprecations) of the Release Overview website, just in a different format.
 - [GitLab Releases Blog](https://about.gitlab.com/releases/categories/releases/)
   - The same information as the Release Overview website, but in nicely formatted blog posts, ready to share with customers.
 - [The GitLab Project](https://gitlab.com/gitlab-org/gitlab)
