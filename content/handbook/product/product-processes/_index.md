@@ -597,7 +597,7 @@ You should use the `~direction` label together with category and section labels 
 Product Direction items (i.e., with the label) should be direction-level items that move the strategy forward meaningfully. This is up to the PM to set the bar for, but there should be a clear step forward with real user value. 
 
 It's important to note here that your plan _is not_ simply a list of new features and innovation. 
-Those are included for sure, but so are issues related to all of your [sensing mechanisms](/handbook/product/product-processes/#sensing-mechanisms). 
+Those are included for sure, but so are issues related to all of your [sensing mechanisms](/handbook/product/product-processes/sensing-mechanisms/). 
 A category upgrade from minimal to viable or delivery of a top customer issue (for example) can contribute to your plan just as much as a brilliant new innovative feature can. It's up to PMs to balance this through a coherent longer-term strategy. 
 Conversely, in a broad sense anything could move the plan forward in a general way. 
 

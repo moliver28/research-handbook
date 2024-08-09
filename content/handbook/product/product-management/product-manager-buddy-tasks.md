@@ -43,7 +43,7 @@ draft: true
 1. [ ] - Add a reminder for once a week to ask what they couldn't get an answer on this week, how to get them unstuck for the first 6 weeks.
 1. [ ] - Ask them after a few days if they got their team page MR merged.
 1. [ ] - Tips / Tricks for sensing mechanisms
-    - There is a good breakdown of sensing mechanism in the [handbook](/handbook/product/product-processes/#sensing-mechanisms). Some other things I have found useful are;
+    - There is a good breakdown of sensing mechanism in the [handbook](/handbook/product/product-processes/sensing-mechanisms/). Some other things I have found useful are;
     - Go other places customers/user are like the [GitLab forum](https://forum.gitlab.com/) and Discord, [Reddit](https://www.reddit.com/r/gitlab/) and [HackerNews](https://news.ycombinator.com/news) are just a few.
     - Issues - It is good practice to review new issues assigned to your group that may get missed by the weekly triage issues. There can be good conversation to be had discussing problems/desired outcomes with users within a day or two of them creating an issue.
     - Slack - Adding keywords to your [Slack alerts](https://slack.com/help/articles/4412437167251-Get-notified-about-topics-you-care-about) like your category name, competitor names, etc. is a good way to stay on top of issues bubbling up, potential customers, etc. in channels you are joined.
