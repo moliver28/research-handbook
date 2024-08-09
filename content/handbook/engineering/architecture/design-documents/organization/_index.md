@@ -212,6 +212,10 @@ There are situations that might require intervention by an Instance Admin, for i
 When that is the case, actions taken by the Instance Admin overrule actions of the Organization Owner.
 For instance, the Instance Admin can ban or delete a User on behalf of the Organization Owner.
 
+### Settings in Organizations
+
+See [Organization: Settings](organization-settings.md).
+
 ### Routing
 
 Today only Users, Projects, Namespaces and container images are considered routable entities which require global uniqueness on `https://gitlab.com/<path>/-/`.
