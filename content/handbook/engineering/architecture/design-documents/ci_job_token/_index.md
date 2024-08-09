@@ -209,12 +209,23 @@ that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
 
+This problem can be broken down into the following categories:
+
+1. Token Creation
+  * To inject a new token that has limited scope we will need to hook into how we create tokens for jobs.
+1. Token Enforcement/Lookup
+  * Any changes to the token creation may have an impact on how we lookup and
+    enforce the authorization on the token. We will probably need to update the [`api_guard`][14]
+
 ### Option 1: Generate an OAuth Access Token for each CI Job
 
-With this option we could generate a OAuth App (`Doorkeeper::Application`) for
-each project and use that to generate an OAuth compatible Access Token for the
-for a service account user that is part of a custom role with custom permissions
-defined.
+With this option we could generate an OAuth App (`Doorkeeper::Application`) for
+each project and use that application to generate an OAuth Access Token for a
+service account user that is associated with of a custom role containing custom
+permissions. This option utilizes the existing custom roles and OAuth
+functionality and provides an extension point for API's outside of the
+`gitlab-rails` monolith to be able to look up the claims associated with a
+`CI_JOB_TOKEN` by making an API call to the `GET /oauth/token/info` endpoint.
 
 Pros:
 
@@ -226,6 +237,9 @@ Pros:
 Cons:
 
 * Doesn't fully conform to the [OAuth Token Exchange Protocol][7].
+* This will create a new record in the `oauth_access_tokens` for each job. (This will have a significant database impact)
+* This may require the creation of a new user record for every project that has CI enabled.
+* This may require the creation of a new `oauth_applications` record for each project that has CI enabled.
 
 ```ruby
 module Ci
@@ -266,8 +280,20 @@ Sequence Diagram
    | CI::Build |  | TokenAuthenticatable |  | TokenAuthenticatableStrategies::Base |
    -------------   -----------------------   ---------------------------------------
          |                    |                 |
-         |--> #ensure_token ->|--> .fabricate ->|
+         |--> #ensure_token ->|
+         |                    |
+         |                    |--> .fabricate ->|
+         |                                      |
+         |<-- #create_oauth_access_token     <--|
 ```
+
+#### Unknowns
+
+1. How many projects do we have?
+1. Which team owns the following relations:
+  * `oauth_applications`
+  * `oauth_access_tokens`
+1. How does this impact the Cells work?
 
 ## Alternative Solutions
 
@@ -295,3 +321,4 @@ alternative solution/path.
 [11]: https://gitlab.com/gitlab-org/gitlab/-/blob/22e3d6c41c1e6472d4ba665232634c827af20083/app/models/concerns/token_authenticatable_strategies/base.rb#L84-96
 [12]: https://gitlab.com/gitlab-org/gitlab/-/blob/e79ca748658b7d34fc36c32e15091d2cac12f256/app/models/concerns/token_authenticatable_strategies/base.rb#L133
 [13]: https://gitlab.com/gitlab-org/gitlab/-/blob/e79ca748658b7d34fc36c32e15091d2cac12f256/app/models/ci/build.rb#L305
+[14]: https://gitlab.com/gitlab-org/gitlab/-/blob/6d1f895398aa08f2398bb0775ebc88dd23526f26/lib/api/api_guard.rb#L69-81
