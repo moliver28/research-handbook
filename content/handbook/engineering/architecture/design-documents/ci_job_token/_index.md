@@ -155,7 +155,7 @@ optional.
 - OAuth2 specific integration or compatibility
 - Reducing the duration of access of a [`CI_JOB_TOKEN`][1]
 - Unify the [PAT scopes][8] with the existing [custom abilities][6]
-- Unifying the many different [types of tokens][3] into a single authoritative token
+- Unifying the many different [types of tokens][3] into a single [authoritative token][10]
 - [Removal of the runner registration token][2]
 
 ## Proposal
