@@ -75,7 +75,7 @@ For groups that have two or more categories, but not _all_ categories in a stage
 
 If you want to refer to a group in context of their stage you can write that as "Stage:Group". This can be useful in email signatures, job titles, and other communications. E.g. "Monitor:Health" rather than "Monitor Health" or "Monitor, Health."
 
-When naming a new stage, group, or category, you should search the handbook and main marketing website to look for other naming conflicts which could confuse customers or employees. Uniqueness is preferred if possible to help drive clarity and reduce confusion. See additional [product feature naming guidelines](/handbook/product/gitlab-the-product/#factors-in-picking-a-name) as well.
+When naming a new stage, group, or category, you should search the handbook and main marketing website to look for other naming conflicts which could confuse customers or employees. Uniqueness is preferred if possible to help drive clarity and reduce confusion. See additional [product feature naming guidelines](/handbook/product/categories/gitlab-the-product/#factors-in-picking-a-name) as well.
 
 ### More Details
 
