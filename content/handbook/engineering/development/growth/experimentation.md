@@ -138,7 +138,7 @@ As we build and improve our experimentation platform and increase our ability to
 Given these invalidated or inconclusive experiments will be rolled back there is an advantage in ensuring experiments are as small and iterative as possible.
 
 With this in mind, there are advantages to considering developing a Minimum Viable Experiment (MVE).
-Much like the concept of [Minimum Viable Change (MVC)](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), the goal of an MVE is to look for the smallest hypothesis to test, the simplest design for testing that hypothesis, the quickest implementation of the design, the least amount of data to be collected in order to verify the hypothesis, and so on.
+Much like the concept of [Minimum Viable Change (MVC)](/handbook/product/product-), the goal of an MVE is to look for the smallest hypothesis to test, the simplest design for testing that hypothesis, the quickest implementation of the design, the least amount of data to be collected in order to verify the hypothesis, and so on.
 
 So, what might an MVE look like in practice?
 Matej Latin shares an example of [a so-called "painted door" test](https://crstanier.medium.com/a-product-managers-guide-to-painted-door-tests-a1a5de33b473) in his blog post, ["Small experiments, significant results and learnings"](https://about.gitlab.com/blog/2021/04/07/small-experiments-significant-results-and-learnings/#do-non-admin-users-want-to-invite-their-team-members).

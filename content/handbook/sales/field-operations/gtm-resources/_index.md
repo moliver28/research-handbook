@@ -47,7 +47,7 @@ description: "Operations, Procedures, Documentation"
 | IQM | Initial Qualifying Meeting |
 | LATAM | Latin America (includes all of Central & South America) |
 | MQL | Marketo Qualified Lead - an inquiry that has been qualified through systematic means (e.g. through demographic/firmographic/behavior lead scoring) |
-| MVC | [Minimal Viable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) (not Model View Controller) |
+| MVC | [Minimal Viable Change](/handbook/product/product-) (not Model View Controller) |
 | NCSA | North, Central, South America (legacy region being phased out) |
 | NORAM | North America |
 | Qualified Lead | A lead a Business Development Rep or Sales Development Rep has qualified, converted to an opportunity and assigned to a Sales Representative (Stage `0-Pending Acceptance`) |

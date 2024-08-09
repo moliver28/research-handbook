@@ -219,7 +219,7 @@ Make attacks less attractive.
 
 - Avoid complex failure modes, implicit behaviours, unnecessary features
 - Use well-known, tested, and proven components
-- Avoid over-engineering and strive for [MVCs](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) instead
+- Avoid over-engineering and strive for [MVCs](/handbook/product/product-) instead
 
 #### Examples
 
