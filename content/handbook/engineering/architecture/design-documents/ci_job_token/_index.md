@@ -209,6 +209,66 @@ that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
 
+### Option 1: Generate an OAuth Access Token for each CI Job
+
+With this option we could generate a OAuth App (`Doorkeeper::Application`) for
+each project and use that to generate an OAuth compatible Access Token for the
+for a service account user that is part of a custom role with custom permissions
+defined.
+
+Pros:
+
+* Injects a `CI_JOB_TOKEN` that is scoped to a specific user.
+* The `CI_JOB_TOKEN` is an access token that is compatible with our OAuth Provider.
+  * This creates an extension point to allow all GitLab Resource Servers to
+    begin performing authz checks using an OAuth compatible token.
+
+Cons:
+
+* Doesn't fully conform to the [OAuth Token Exchange Protocol][7].
+
+```ruby
+module Ci
+  class Build < Ci::Processable
+    # ...
+    add_authentication_token_field :token,
+      encrypted: :required,
+      token_generator: ->(build) { build.create_oauth_access_token }, # provide :token_generator
+      format_with_prefix: :prefix_and_partition_for_token
+
+    def create_oauth_access_token
+      application = project.ci_oauth_application # refers to an internal OAuth App that is generated for each project when CI is enabled.
+      user = project.ci_user                     # refers to a specific service account for running CI jobs
+
+      OauthAccessToken.create!(
+        application_id: application.id,
+        expires_in: 2.hours,                     # default to max timeout for pipeline
+        resource_owner_id: user.id,
+        token: Doorkeeper::OAuth::Helpers::UniqueToken.generate,
+        scopes: application.scopes.to_s          # list the minimal scopes necessary to connect to the API
+      )
+    end
+  end
+end
+```
+
+To accomplish this we will need to:
+
+1. Hook into the `CI::Build` state machine when transitioning to a [pending state][13].
+1. Create a new [token generator][12].
+1. Create a new [token authenticatable strategy][11].
+1. Create a [service account][9] user for each project.
+
+Sequence Diagram
+
+```plaintext
+   -------------   -----------------------   ---------------------------------------
+   | CI::Build |  | TokenAuthenticatable |  | TokenAuthenticatableStrategies::Base |
+   -------------   -----------------------   ---------------------------------------
+         |                    |                 |
+         |--> #ensure_token ->|--> .fabricate ->|
+```
+
 ## Alternative Solutions
 
 <!--
@@ -232,3 +292,6 @@ alternative solution/path.
 [8]: https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#personal-access-token-scopes
 [9]: https://gitlab.com/gitlab-org/gitlab/-/blob/4633bdb43e637c60f80c4dd1ee8cf92f2e0739e7/app/models/concerns/has_user_type.rb#L7
 [10]: https://docs.gitlab.com/ee/api/oauth2.html
+[11]: https://gitlab.com/gitlab-org/gitlab/-/blob/22e3d6c41c1e6472d4ba665232634c827af20083/app/models/concerns/token_authenticatable_strategies/base.rb#L84-96
+[12]: https://gitlab.com/gitlab-org/gitlab/-/blob/e79ca748658b7d34fc36c32e15091d2cac12f256/app/models/concerns/token_authenticatable_strategies/base.rb#L133
+[13]: https://gitlab.com/gitlab-org/gitlab/-/blob/e79ca748658b7d34fc36c32e15091d2cac12f256/app/models/ci/build.rb#L305
