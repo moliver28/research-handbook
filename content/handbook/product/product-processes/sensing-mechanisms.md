@@ -1,6 +1,6 @@
 ---
 title: Sensing Mechanisms
-___
+---
 
 ## What are sensing mechanisms?
 
