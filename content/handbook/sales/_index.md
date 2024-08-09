@@ -57,7 +57,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | **Marketing Resources** | **Strategic Marketing** | **Product Resources** |  |
 | ------ | ------ | ------ | ------ |
 | [Marketing](/handbook/marketing/) | [Strategic Marketing Handbook](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) | [Product Team Handbook](/handbook/product/) |  |
-| [Sales Development Handbook](/handbook/marketing/sales-development/) | [Product Marketing Manager Assignments](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#which-product-marketing-manager-should-i-contact) | [Engaging Product Management](/handbook/product/how-to-engage/) |  |
+| [Sales Development Handbook](/handbook/marketing/sales-development/) | [Product Marketing Manager Assignments](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#which-product-marketing-manager-should-i-contact) | [Engaging Product Management](/handbook/product/product-management/#how-to-engage-product-managers) |  |
 | [GitLab Value Proposition](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/messaging/#gitlab-value-proposition) | [Customer-Facing Presentations](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#customer-facing-presentations) | [Asking Questions/Giving Feedback on a Feature](/handbook/product/categories/#devops-stages) | |
 | [Lead and Contact Statuses](/handbook/marketing/marketing-operations/#lead-and-contact-statuses) |[Print Collateral](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#print-collateral) | [Product Categories](/handbook/product/categories/) |  |
 | [Inbound Lead Generation](/handbook/marketing/sales-development/#inbound-lead-generation) | [Sales Collateral Google Drive](https://drive.google.com/open?id=0B-ytP5bMib9TaUZQeDRzcE9idVk) | [Features by Group](/handbook/product/categories/features/) |  |
@@ -167,7 +167,7 @@ We work with the Product team to help drive the [GitLab Direction](https://about
 
 When you hear of feedback or you personally have feedback, you are encouraged to comment within the issue, if one exists, or create your own issue on our [Issue Tracker](https://gitlab.com/gitlab-org/gitlab/-/issues).
 
-When you have an organization that is interested in a feature and you have commented in the issue and added a link to the account in Salesforce, please follow the [process outlined on the Product Handbook](/handbook/product/how-to-engage/#examples-a-customer-has-a-feature-request) to arrange a call with the product manager and account to further discuss the feature request.
+When you have an organization that is interested in a feature and you have commented in the issue and added a link to the account in Salesforce, please follow the [process outlined on the Product Handbook](/handbook/product/product-management/#examples-a-customer-has-a-feature-request) to arrange a call with the product manager and account to further discuss the feature request.
 
 If a client has a question or suggestion about a particular part of the product, find out which individual on the Product team you need to speak by looking under [DevOps Stages](/handbook/product/categories/#devops-stages) on the Product stages, groups, and categories page.
 

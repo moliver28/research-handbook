@@ -260,7 +260,7 @@ Next steps for you:
 - [Customer Success Vision](/handbook/customer-success/vision/)
 - [GitLab Positioning](/handbook/marketing/positioning-faq/)
 - [Product Stages and the POCs for each](/handbook/product/categories/#devops-stages)
-- [How to Provide Feedback to Product](/handbook/product/how-to-engage/#feedback-template)
+- [How to Provide Feedback to Product](/handbook/product/product-management/#feedback-template)
 - [Sales handbook](/handbook/sales/)
 - [Support handbook](/handbook/support/)
 - [Workshops and Lunch-and-Learn slides](https://drive.google.com/drive/folders/1qAymFTiXFEk-lRSNreIhaZ6Z62fdo_y2)

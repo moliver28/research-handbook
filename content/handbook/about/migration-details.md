@@ -1317,7 +1317,7 @@ product/product-leadership/index.html.md.erb
 product/product-manager-responsibilities/index.html.md.erb
 product/tiering-guidance-for-features/index.html.md.erb
 product/performance-indicators/index.html.md.erb
-product/how-to-engage/index.html.md
+product/product-management/index.html.md
 product/packaging-and-pricing/gitlab-for-campuses/index.html.md
 product/product-safe-guidance/index.html.md.erb
 product/works-by-default/index.html.md.erb

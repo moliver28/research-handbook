@@ -240,7 +240,7 @@ New team members often struggle to find the right set of slack channels to parti
 
 For all product management related questions, a CSM should review our handbook page at [following location](/handbook/product/categories/features/) to identify the right channel for the topic they are looking to learn more. Those team channels should be asked if there is no documentation available for the problem/question and also if the CSM did not find an issue that already discusses this question.
 
-A great resource to learn how to engage with GitLab product is [available in the product handbook here](/handbook/product/how-to-engage/)
+A great resource to learn how to engage with GitLab product is [available in the product handbook here](/handbook/product/product-management/#how-to-engage-product-managers)
 
 ## Handbook Pages and Resources
 
