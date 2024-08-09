@@ -209,8 +209,6 @@ See [this page](/handbook/product/cross-stage-features/) for details on working 
 ### Stages, Groups, and Categories
 
 [Stages, groups, and categories](/handbook/product/product-processes/#stages-groups-and-categories) serve as a common framework for organizing and communicating the scope of GitLab.
-
-
 ## How to work as a PM
 
 If you follow the principles and workflow above, you won't be writing long, detailed
@@ -243,7 +241,7 @@ Please also note the corresponding [Engineering handbook section](/handbook/engi
 
 #### Prioritization sessions
 
-To help PMs plan, stage group stable counterparts can participate in prioritization sessions. They serve mainly as an [internal sensing mechanism](#internal) for PMs to make more informed prioritization decisions for different planning horizons. Usually, teams focus on the _product releases_ horizon, but can also focus on the _FY themes_ or _strategy_ horizons. This group exercise also boosts team morale, improves communication and empathy, and broadens individual's perspectives. Besides, it can be a more informal and joyful way of connecting the team and discussing work.
+To help PMs plan, stage group stable counterparts can participate in prioritization sessions. They serve mainly as an [internal sensing mechanism](/handbook/product/product-processes/sensing-mechanisms/#internal/) for PMs to make more informed prioritization decisions for different planning horizons. Usually, teams focus on the _product releases_ horizon, but can also focus on the _FY themes_ or _strategy_ horizons. This group exercise also boosts team morale, improves communication and empathy, and broadens individual's perspectives. Besides, it can be a more informal and joyful way of connecting the team and discussing work.
 
 The output of these sessions is a [priority matrix](https://www.nngroup.com/articles/prioritization-matrices/) that shows the relative priority of a set of items based on two weighted criteria. Generally, the criteria are _importance_ and _feasibility_, each one visualized as an axis of the matrix. You can change the criteria depending on the planning horizon or goals. To better understand how the sessions work, see an example [mural](https://app.mural.co/t/gitlab2474/m/gitlab2474/1644233739498/018f4f87c17c9a8e7ecf1d8ce2834a72c4d8e34b) and [session recording](https://youtu.be/xgeXUEzOpUY).
 
@@ -1023,7 +1021,7 @@ directly mention users in issues to engage async. In popular issues you can just
 
 **Customer Issues Prioritization Dashboards:** The [customer issues prioritization framework](/handbook/product/product-processes/customer-issues-prioritization-framework) aggregates customer data with the issues and epics that they have requested. When [viewing the dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views), double click on the issue or epic of interest within the "priority score by noteable" table then scroll down to "QA Table - User request weighting by customer" to see the specific customers that are interested in the issue or epic.
 
-**GitLab.com Broadcast Messages** Broadcast Messaging is a great tool for acquiring customer feedback from within the product. You can leverage [this workflow](#gitlabcom-in-app-messages-broadcast-messaging) to use broadcast messaging.
+**GitLab.com Broadcast Messages** Broadcast Messaging is a great tool for acquiring customer feedback from within the product. You can leverage [this workflow](/handbook/product/product-processes/pm-procedures/#gitlabcom-in-app-messages-broadcast-messaging) to use broadcast messaging.
 
 **GitLab Sales and Customer Success** You can ask for help in [Slack customer success channel](https://gitlab.slack.com/archives/C5D346V08/p1583438272202100/)
 or join the Field Sales Team Call and the All CS Team Call to present a specific request via the Zoom call.

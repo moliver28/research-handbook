@@ -1,6 +1,6 @@
 ---
 title: Product Procedures 
-___
+---
 
 ## Overview 
 
@@ -262,4 +262,3 @@ It is recommended that with a scope reassignment, the product groups align on wh
 #### How are scope reassignments, borrows, and realignments different?
 
 A scope reassignment is different from a borrow and realignment because team structure is not changing, instead the items the product groups are working on change. Additionally, borrows are to be used temporarily (less than six months) and realignments are permanent. In the case of a scope reassignment, a product group would maintain its long term charter and vision/investment level, although for up to one year will work on another product area's scope. The reason for a scope reassignment is to reduce the toil of changing managers and team structures while still activating on strategic efforts requiring more headcount.
-

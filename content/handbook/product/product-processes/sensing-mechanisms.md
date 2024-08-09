@@ -6,7 +6,7 @@ ___
 
 Our ability to iterate quickly is a measure of our efficiency, but our effectiveness
 is just as critical. As a product manager you are critical to us not just working correctly,
-but working on the correct things. You do that by [prioritizing appropriately](#prioritization). Your
+but working on the correct things. You do that by [prioritizing appropriately](/handbook/product/product-processes/#prioritization/). Your
 prioritization decisions will be enhanced if you maintain a sufficient understanding of the
 context in which you make them.
 
@@ -36,16 +36,16 @@ In 2020, we [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 1. Asking probing questions in sales support meetings
 1. Reviewing Customer Success designated top issues
 1. Reviewing the most requested issues from customers using the [Customer Requested Issues (Product) dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) and the [Customer Issues Prioritization Framework handbook page](/handbook/product/product-processes/customer-issues-prioritization-framework/) for guidance.
-1. Tracking open source projects in the same space as part of your competitive analysis is important as well. You can [evaluate these open source options](#evaluating-open-source-software) not just for interesting features and ideas, but potentially to integrate them in our product
+1. Tracking open source projects in the same space as part of your competitive analysis is important as well. You can [evaluate these open source options](/handbook/product/product-processes/#evaluating-open-source-software/) not just for interesting features and ideas, but potentially to integrate them in our product
 1. [Chorus transcriptions](/handbook/business-technology/tech-stack/#chorus) of sales calls and demos ([how to video - private](https://www.youtube.com/watch?v=5LaxjZ31250))
 1. Reviewing Win/Loss reports
 1. Learn about [customer health data](https://www.gainsight.com/) using Gainsight built on salesforce, managed by the Customer Success team
 1. Attending [QBRs](/handbook/sales/qbrs/) and consuming QBR summaries/highlights
-1. Speaking directly with users via [PCSAT responder outreach](#pcsat-responder-outreach)
+1. Speaking directly with users via [PCSAT responder outreach](/handbook/product/product-processes/#pcsat-responder-outreach)
 
 ### Market
 
-1. Maintaining [competitive](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/) and [market assessments](#analyst-engagement). Checkout this [great video](https://www.youtube.com/watch?v=Um9teDD6jt8&feature=youtu.be&t=300) discussing competitive analysis for Product Managers at Product League with GitLab's Orit Golowinski.
+1. Maintaining [competitive](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/) and [market assessments](/handbook/product/product-processes/#analyst-engagement/). Checkout this [great video](https://www.youtube.com/watch?v=Um9teDD6jt8&feature=youtu.be&t=300) discussing competitive analysis for Product Managers at Product League with GitLab's Orit Golowinski.
 1. Monitoring and maintaining missing [features](https://about.gitlab.com/features/) in your category epics (competitive landscape section)
 1. Monitoring and maintaining the [direction](https://about.gitlab.com/direction/) page for the categories you own
 1. Subscribing to your competitor's blogs to be aware of what they are releasing will help you here
@@ -60,5 +60,5 @@ In 2020, we [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 1. Leadership [OKRs](/handbook/company/okrs/) set the direction for the company
 1. Each PM should be having regular conversations with their [stage groups stable counterparts](/handbook/product/categories/) to discuss their strategy and plan. Share this discussion with the company via our GitLab Unfiltered [YouTube](/handbook/marketing/marketing-operations/youtube/) channel. PMs should share their next three milestones, year-long plan, strategy, and relevant OKRs (with status) so everyone can contribute feedback.
 1. Dialogue with internal customers to improve the dogfooding potential of your features
-1. Quarterly cross-section [direction](#section-and-stage-direction) reviews
+1. Quarterly cross-section [direction](/handbook/product/product-processes/#section-and-stage-direction/) reviews
 1. Reviewing [Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/) for trend shifts and changes
