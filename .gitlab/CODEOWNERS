@@ -667,7 +667,6 @@
 
 ## This section is for policies that Security Governance manages and aren't Controlled Documents. This should remain near the Controlled Documents section.
 [Security and Technologies Policies]
-/content/handbook/security/security-assurance/security-and-technology-policies-management.md @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/software-development-lifecycle-policy.md @jlongo_gitlab @joshlemos @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 
 ## This section is for SOX related documents.
