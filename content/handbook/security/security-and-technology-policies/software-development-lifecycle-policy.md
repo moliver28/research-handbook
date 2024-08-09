@@ -1,5 +1,7 @@
 ---
 title: "Software Development Lifecycle Policy"
+aliases:
+- /handbook/security/software-development-lifecycle-policy
 ---
 
 ## Purpose

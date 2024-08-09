@@ -1,5 +1,7 @@
 ---
 title: "Penetration Testing Policy"
+aliases:
+- /handbook/security/penetration-testing-policy/
 ---
 
 A penetration test is a process to identify security vulnerabilities in an application or infrastructure in order to evaluate the security of the system.

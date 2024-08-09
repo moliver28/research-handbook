@@ -1,6 +1,8 @@
 ---
 title: "Access Management Policy"
 controlled_document: true
+aliases:
+- /handbook/security/access-management-policy
 ---
 
 ## Purpose

@@ -1,6 +1,8 @@
 ---
 title: "GitLab Audit Logging Policy"
 controlled_document: true
+aliases:
+- /handbook/security/audit-logging-policy/
 ---
 
 ## Purpose

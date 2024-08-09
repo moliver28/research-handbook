@@ -1,6 +1,8 @@
 ---
 title: "Change Management Policy"
 controlled_document: true
+aliases:
+- /handbook/securitychange-management-policy
 ---
 
 ## Purpose
