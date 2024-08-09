@@ -148,7 +148,6 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Xactly](https://www.xactlycorp.com) | Meltano | `tap_xactly` | N/A | Sales | 24h / N/A | Yes | Tier 2 |
 | [Zendesk](https://www.zendesk.com/) | Meltano | `tap_zendesk` | `zendesk` | Support | 24h / 48h | No | Tier 2 |
 | [Zendesk Community Relations](https://www.zendesk.com/) | Meltano | `tap_zendesk_community_relations` | `zendesk_community_relations` | Support | 6h / 24h | No | Tier 2 |
-| ZenGRC | Meltano | `tap_gengrc` | N/A | Engineering | 8h / 16h | Yes | Tier 3 |
 | [Zoom](https://zoom.us/) | Meltano | `tap_zoom` | N/A | People | 24h / N/A | No | Tier 3 |
 | [Zuora](https://www.zuora.com/) | Stitch | `zuora_stitch` | `zuora` | Finance | 6h / 24h | Yes | Tier 1 |
 | [Zuora API Sandbox](https://www.zuora.com) | Stitch | `zuora_api_sandbox_stitch` | `Legacy` | Finance | 24h / 24h | Yes | Tier 3 |

@@ -1,10 +1,11 @@
 ---
 title: "Control Health and Effectiveness Rating (CHER) Procedure"
+description: "Control Health and Effectiveness Ratings (CHER) determine a GitLab Security Control's overall control health and effectiveness."
 ---
 
 ## Purpose
 
-Control Health and Effectiveness Ratings (CHER) determine a [GitLab Security Controls]({{< ref "sec-controls" >}}) overall control health and effectiveness.
+Control Health and Effectiveness Ratings (CHER) determine a [GitLab Security Control's]({{< ref "sec-controls" >}}) overall control health and effectiveness.
 
 ## Scope
 

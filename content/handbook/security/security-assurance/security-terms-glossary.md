@@ -1,5 +1,6 @@
 ---
 title: "Security Terms Glossary"
+description: "A glossary of common Security Terms that may be encountered in Security Assurance documentation."
 ---
 
 ## Overview
