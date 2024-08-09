@@ -91,7 +91,7 @@ Learn about [our Product Leadership Team](/handbook/product/product-leadership/)
 
 ### Communicating with the Product Division
 
-Below are team emails and handles that can be used for different departments and sub-departments in the Product Division. These groups are used for internal communication and the `@mention` can only be used by project members. Please remember that tagging `@mention` on issues will generate in-product [to-do items](https://docs.gitlab.com/ee/user/todos.html) and email notifications to **all** team members in that project, so use it only when you need to communicate with the entire team. For communication specifically for product managers, please leverage [How to Engage](/handbook/product/product-management/how-to-engage/).
+Below are team emails and handles that can be used for different departments and sub-departments in the Product Division. These groups are used for internal communication and the `@mention` can only be used by project members. Please remember that tagging `@mention` on issues will generate in-product [to-do items](https://docs.gitlab.com/ee/user/todos.html) and email notifications to **all** team members in that project, so use it only when you need to communicate with the entire team. For communication specifically for product managers, please leverage [How to Engage](/handbook/product/product-management/how-to-engage-product-managers/).
 
 - `@gl-product-leadership` tags all group managers, directors and VPs in the Product Division
 - `@gl-product-plt` tags all direct reports to the VP Product in the Product Division
