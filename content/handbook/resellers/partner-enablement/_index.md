@@ -6,15 +6,15 @@ title: "Partner Technical Presales Enablement"
 
 In this section of the Partner Programs Handbook we review assets and enablement from the perspective of GitLab Partners' Technical constituencies.
 
-Beyond our Partners Handbook pages, you will find sales guides, use cases, training materials, and program guides reviewed below and hosted and updated in our [GitLab Partner Portal](https://partners.gitlab.com/). The materials should be a great place to start effectively selling, serving and hitting your number with GitLab.
+Beyond our Partners Handbook pages you will find sales guides, use cases, training materials, and program guides reviewed below. Additional partner-specific content is hosted in our [GitLab Partner Portal](https://partners.gitlab.com/). The materials should be a great place to start effectively selling, serving and hitting your number with GitLab.
 
-Rember that some of the links below require you to login to [GitLab's Partner Portal](https://partners.gitlab.com/) first. If you haven't already, [here is where you register for portal access](https://partners.gitlab.com/English/).
+Remember that some of the links below require you to login to [GitLab's Partner Portal](https://partners.gitlab.com/) first. If you haven't already, [here is where you register for portal access](https://partners.gitlab.com/English/).
 
 ## Presales and Technical Enablement Resources
 
 ## Foundational Knowledge
 
-[GitLab Quick Start for New GitLab.com Customers](handbook/customer-success/customer-onboarding/)provides a great primer on the basics of GitLab.com, Namespaces, Groups, Projects, Members and the GitLab Customer Portal.
+[GitLab Quick Start for New GitLab.com Customers](handbook/customer-success/customer-onboarding/)provides a great primer on the basics of GitLab.com, Namespaces, Groups, Projects, Members, and the GitLab Customer Portal.
 
 [Building Pipelines GitLab Partner Webinar Series](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db) (Live Webinar & Episode Content Archive)
 
@@ -24,7 +24,7 @@ Rember that some of the links below require you to login to [GitLab's Partner Po
 **Topical Articles on DevSecOps Concepts**
 
 - [What is DevOps](https://about.gitlab.com/topics/devops/)
-  - This extensive article goes into detail about DevOps, the culture, tools, and methods for success.  It's worth 15 mins.
+  - This extensive article goes into detail about DevOps, the culture, tools, and methods for success.  It's worth 15 minutes.
 - [What is a DevOps Platform?](https://about.gitlab.com/topics/devops-platform/)
   - Great overview article with 10 primary must-have features and 7 things to consider to get the most out of the platform
 - [DevSecOps Defined](https://about.gitlab.com/topics/devsecops/)
@@ -86,7 +86,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 **Demo resources to help you showcase the Platform**
 
 - [Start a Free Trial](https://gitlab.com/-/trials/new) (Web Page)
-  - Here is the generic link to start a free trial of GitLab SaaS on GitLab.com. This is an increasingly popular option. Plese refer to [this page of the Partner Portal](https://partners.gitlab.com/prm/English/c/marketing-free-trial) for details about how to set up a customized affiliate link to tag new trials to your partnership.
+  - Here is the generic link to start a free trial of GitLab SaaS on GitLab.com. This is an increasingly popular option. Please refer to [this page of the Partner Portal](https://partners.gitlab.com/prm/English/c/marketing-free-trial) for details about how to set up a customized affiliate link to tag new trials to your partnership.
 - [GitLab Partner Demo Delivery Guide](https://gitlab.com/gitlab-partner-demos/delivery-guide) (GitLab Project)
   - A GitLab Project containing all the resources for partners to successfully deliver a 1-hour-long, high-level, technical overview demo of GitLab.  Check out the README for further guidance.
 - [Building Pipelines Episode 011](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db) (Video)
@@ -94,7 +94,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 - [GitLab Partner Demos](https://gitlab.com/gitlab-partner-demos) (Project Catalog)
   - Public group containing demo projects developed by the GitLab Partner SA team for use with and by our partners
 - [GitLab POV Handbook Page](/handbook/solutions-architects/tools-and-resources/pov/)
-  - This handbook page is a great resource and link aggregation point for resources to conduct POVs
+  - This handbook page is a great resource and link aggregation point for resources to conduct Proof Of Values (POVs).
 - [The GitLab Demo Page](/handbook/solutions-architects/demonstrations/) (Handbook)
   - Good reference material for general purpose demos the same way GitLab SA's do it.
 - [Ultimate GitOps Workshop](https://guided-explorations.gitlab.io/workshops/gitlab-for-eks/) (Workshop Guide)
