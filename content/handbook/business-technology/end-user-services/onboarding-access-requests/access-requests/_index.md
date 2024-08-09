@@ -121,9 +121,9 @@ While this application automation will take place in Okta, "true" system provisi
 
 ---
 
-### Slack, Google Groups, 1Password Vaults or Groups Access Requests
+### Google Groups, 1Password Vaults or Groups Access Requests
 
-*You can use [this template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=slack_googlegroup_1Passwordgroupvault) to request access for individuals or multiple people, as long as all the people are requesting access to the same systems. Create multiple issues using this same template if multiple people require access to different systems. When access is being requested for multiple people who report to different managers but are part of the same department or division, approval can be obtained by the manager at the highest level; that is, the Director, Vice President, or Executive of the department or division.*
+*You can use [this template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=googlegroup_1Passwordgroupvault) to request access for individuals or multiple people, as long as all the people are requesting access to the same systems. Create multiple issues using this same template if multiple people require access to different systems. When access is being requested for multiple people who report to different managers but are part of the same department or division, approval can be obtained by the manager at the highest level; that is, the Director, Vice President, or Executive of the department or division.*
 
 {{% panel header="**Instructions**" header-bg="success" %}}
 
@@ -131,11 +131,15 @@ While this application automation will take place in Okta, "true" system provisi
 1. **Remove or add rows** for the access you need.
 1. Assign to your manager to get approval by label **if** this request is for (they must apply labels `AR-Approval::Manager Approved` and `ReadyForProvisioning`:
    - access to a 1Password vault or group
-   - admin access
-   - access to a slack group for a non-internal person, including shared Slack channels
-   - Please note if a non-internal person has been removed from a slack channel and is requesting access again they will need a new access request and manager approval
+   - access to a Google Group
 1. **Close** the issue when it's complete.
 {{% /panel %}}
+
+---
+
+### Slack External Members Access Requests
+
+*Please use [this template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=slack_external_members_invitation_request) to request access for external individuals or multiple being invited to our Slack Workspace. Approval can be obtained by the manager at the highest level; that is, the Director, Vice President, Chief of Staff, or Executive of the department or division. 
 
 ---
 
