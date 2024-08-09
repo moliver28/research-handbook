@@ -26,7 +26,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (CProdO) |
 | [Product](/handbook/product/) | **Jennifer Garcia**<br>EBA | Justin Farris (VP of Product Management)<br>Angela Pesta (VP UX)|
 | [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (Sr Director of Product Management)<br>Steve Evangelista (Sr. Dir of Product, Dev & Analytics) |
-| [Sales](/handbook/sales/) | **Alexa Schrauth**<br>Staff EBA | Chris Weber (CRO) |
+| [Sales](/handbook/sales/) | **Alexa Schrauth**<br>Staff EBA | Ashley Kramer (Interim CRO) |
 | [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education) |
 | [Sales](/handbook/sales/) | **Janice Parker**<br> EBA | Craig Nielsen (VP of APJ Sales) |
 | [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Jake Bielecki (VP of Field Operations) <br> Nick Cayou (VP of WW Channels & Alliances) |
@@ -82,7 +82,7 @@ Please contact the @sales-eba-team with any questions.
 
 ### External Events & Speaking Engagement
 
-1. If you have a request for a member of E-Group to attend and speak at an event (keynote, panel, fireside chat, etc.), please fill out the [Executive External Event Brief](https://docs.google.com/document/d/1qMCw9gGTAdk3YW-AW2W_eCYXMGcNYyaq_wN0giSf-yk/edit) with the key information and email to the EBA supporting the Executive with your request. The EBA will review, provide feedback, and gain approval accordingly and confirm directly with you. If the request involves the CEO, please follow the process outlined here. The EBA to the CEO will gain approval from the function head of the requestor on whether the CEO will attend or not. Whether a new talk needs to be prepared or an existing one can be adjusted to the audience should be a part of the decision whether or not to participate in the event.
+1. If you have a request for a member of E-Group to attend and speak at an event (keynote, panel, fireside chat, etc.), please fill out the [Executive External Event Brief](hhttps://docs.google.com/document/d/1NenjhIXssbADtfO4GeHvph1K2B01HL00qWQF2iaMMiA/edit?usp=sharing) with the key information and email to the EBA supporting the Executive with your request. The EBA will review, provide feedback, and gain approval accordingly and confirm directly with you. If the request involves the CEO, please follow the process outlined here. The EBA to the CEO will gain approval from the function head of the requestor on whether the CEO will attend or not. Whether a new talk needs to be prepared or an existing one can be adjusted to the audience should be a part of the decision whether or not to participate in the event.
 1. [In-Person Event Meeting Template](https://docs.google.com/spreadsheets/d/1IKUD9rYgqyiZ8QLYgKurzgwAljI-U9YunvQdPk--wIo/edit#gid=643328991)
 
 ### Interview Requests with Executives
