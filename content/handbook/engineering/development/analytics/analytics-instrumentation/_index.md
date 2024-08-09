@@ -216,22 +216,22 @@ We orient our planning around the code-cut off as the last day of the milestone
 
 #### Milestone Capacity
 
-Our milestone capacity tells us how many issue weights we can expect to complete in a given milestone. To estimate this we calculate the average daily weight completed by an engineer per day across the previous two milestones. This is multiplied with the actual working days available to us in a given milestone.
+Our milestone capacity tells us how many issue weights we can expect to complete in a given milestone. To estimate this we calculate the average daily weight completed by an engineer per day across the previous three milestones. This is multiplied with the actual working days available to us in a given milestone.
 
-**Previous Two Milestones:**
+**Previous Three Milestones:**
 
-- **Total weights completed:** 120 weights
-- **Available work days:** 40 days * 5 engineers = 200 days
-- **Actual work days:** 200 days - 20 days off = 180 days
-- **Average weight per engineer/day:** 120 weights / 180 days = 0,67 weights/day
+- **Total weights completed:** 140 weights
+- **Available work days:** 60 days * 5 engineers = 300 days
+- **Actual work days:** 300 days - 20 days off = 280 days
+- **Average weight per engineer/day:** 140 weights / 280 days = 0,5 weights/day
 
 **Next Milestone:**
 
-- **Available work days:** 21 days * 5 engineers = 105 days
-- **Actual work days:** 105 days - 10 days off = 95 actual days
-- **Maximum capacity:** 95 days * 0,67 weights/day = 64 weights
+- **Available work days:** 20 days * 5 engineers = 100 days
+- **Actual work days:** 100 days - 10 days off = 90 actual days
+- **Maximum capacity:** 90 days * 0,5 weights/day = 45 weights
 
-In this example, the next milestone's capacity is 64 weights for the whole team. Keep in mind that neither estimations nor this calculation are an exact science. The capacity planning is supposed to help the EM and PM set realistic expectations around deliverables inside and outside time. We do not expect to hit the exact amount of predicted weights.
+In this example, the next milestone's capacity is 0,5 weights for the whole team. Keep in mind that neither estimations nor this calculation are an exact science. The capacity planning is supposed to help the EM and PM set realistic expectations around deliverables inside and outside time. We do not expect to hit the exact amount of predicted weights.
 
 #### Milestone Commitment
 
