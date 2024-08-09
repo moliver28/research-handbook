@@ -1923,22 +1923,6 @@ Testing a new set of pages requires just 2 steps:
 
 Assign both MR's to a maintainer. After they are merged, the stage's Grafana dashboard will be automatically updated. A [video walkthrough](https://youtu.be/sGdzWKzMKpY) is available as well.
 
-## GitLab.com Service Level Objectives
-
-Product Management is the DRI for defining and ensuring the attainment of the Service Level Objectives for GitLab. The defined SLO for any service on GitLab SaaS must be achievable technically, and so the final SLO targets must be agreed upon by the engineering and SRE teams. Additionally, expertise to deliver on the target SLO's rests with the engineering and SRE teams.
-
-As we continue to invest in our [SaaS first strategy](https://about.gitlab.com/direction/#saas-first), we must define and measure service levels from the customer's perspective. Therefore, product management is responsible for understanding the customer and market dynamics, the cost and value impact of SLO targets. The plan is to continue to mature this process and provide a repeatable framework for analyzing the inputs into an SLO target.
-
-The table below will catalog the list of GitLab.com services, the current SLO definition, and the product management DRI. The SLO targets below are subject to change per the direction of the DRI.
-
-### Services and PM DRI's
-
-| GitLab.com Service | Product Management DRI | SLO Apdex Definition | SLO Apdex Target | SLO Goal |
-| :----------------: | :--------------------: | :------------------: | :--------------: | :------: |
-| CI Runners | Verify-Runner PM @deastman | The service level indicators used to calculate the Runner Apdex score are (1) the job polling operations from runners via the workhouse HTTP interface and (2) the shared runner queues on GitLab.com, i.e. the % of CI jobs that are picked by for servicing by a GitLab SaaS Shared Runner within 60 seconds | [99.95%](https://gitlab.com/gitlab-com/runbooks/-/blob/1aa2d39562705c1d0fbef75242d42ff43a99eb53/metrics-catalog/services/ci-runners.jsonnet) | The goal for FY22 Q3 is to maintain a monthly SLO score of 99.95% or higher. |
-| Container Registry | Package PM @trizzi | [Apdex](https://en.wikipedia.org/wiki/Apdex) for request latency (time to serve) read requests to the container registry. Thresholds are `satisfied` when under .5 seconds and `tolerated` under 1 second. [Further details available here](https://gitlab.com/gitlab-com/runbooks/-/blob/1aa2d39562705c1d0fbef75242d42ff43a99eb53/metrics-catalog/services/lib/registry-helpers.libsonnet). | [99%](https://gitlab.com/gitlab-com/runbooks/-/blob/1aa2d39562705c1d0fbef75242d42ff43a99eb53/metrics-catalog/services/registry.jsonnet) |  |
-| Package Registry | Package PM @trizzi | Error rate for package read requests to the package registry. The service is available when less than 0.5% of requests return a 5XX error status response. | 99.5% |  |
-
 ## Product-specific people processes
 
 ### Annual compensation review
