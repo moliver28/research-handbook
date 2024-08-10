@@ -59,7 +59,7 @@ If a customer expresses interest by simply mentioning an issue number or e.g. "a
 
 The Product Manager is responsible for figuring all of this out, but being one step ahead of them will speed things up.
 
-If a customer is a member of our Product [Customer Advisory Board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/CAB/), the CSM should add two labels: `~CAB Takeaway` and `~CAB Takeaway Qx FY20xx` to the issue.
+If a customer is a member of our Product [Customer Advisory Board](/handbook/product/product-advisory-board/), the CSM should add two labels: `~CAB Takeaway` and `~CAB Takeaway Qx FY20xx` to the issue.
 
 It is highly recommended to use the feedback template below to make this easier.
 
