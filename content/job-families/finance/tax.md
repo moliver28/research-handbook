@@ -10,6 +10,7 @@ title: "Tax"
 | Director, Tax(Domestic/International) | Level 10 |
 | Sr. Manager, Tax (Domestic/International) | Level 9 |
 | Manager, Tax (Domestic/International) | Level 8 |
+| Multinational Tax Manager | Level 8 |
 | Sr Analyst | Level 7 |
 | Analyst | Level 6 |
 | Jr Analyst | Level 5 |
@@ -68,6 +69,40 @@ The Senior Tax Analyst is a [grade 7](/handbook/total-rewards/compensation/compe
 - Discretion and respect for confidential information
 - Ability to use GitLab
 
+### Multinational Tax Manager
+
+The Multinational Tax Manager reports to the Sr. Director, Multinational Tax.
+
+#### Multinational Tax Manager Job Grade
+
+The Multinational Tax Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Multinational Tax Manager Responsibilities
+
+ - Prepare and review E&P calculations, Subpart F, FDII, BEAT, and GILTI inclusions, foreign tax credit and similar calculations for tax compliance and annual/quarterly provision purposes.
+ - Prepare and review foreign tax provisions for 15 foreign entities, including current tax provision and deferred tax.
+ - Manage external tax service providers efficiently to meet compliance obligations, optimizing balance between internal and external resourcing.
+ - Assist with the development and implementation of tax planning strategies that align with business objectives through collaboration with internal stakeholders.
+ - Research and understand potential tax legislation and participate in modeling different scenarios.
+ - Write tax technical and non-technical tax research and compliance memos.
+ - Keep current on developments in global tax that may affect our business, including monitoring and analyzing tax legislation.
+ - Engage and assist in special projects, including establishment of new legal entities, and other corporate initiatives, as needed.
+ - Engage and assist with M&A, including acquisition structuring and integration.
+ - Work closely with Treasury and Accounting to manage intercompany funding requirements, including leverage planning, cash contributions, and repatriation strategies.
+
+ #### Multinational Tax Manager Requirements
+
+ - Bachelor’s degree in Accounting or Juris Doctorate (JD)
+ - CPA, Master’s degree, and/or JD in Tax or Accounting a plus
+ - International US Corporate Tax experience (5-8 years)
+ - Strong oral and written communication skills
+ - Excellent organizational/analytical skills required
+ - Solid PC skills with a working knowledge of Google Suite, Slack, NetSuite, and Excel
+ - Understanding of US GAAP Income Tax Accounting (ASC740)
+ - Intermediate expertise in international tax concepts
+ - Strong work ethic and able to partner in a team-oriented environment
+ - Organized and flexible - ability to manage multiple projects/assignments, while meeting deadlines
+
 ### Manager, Tax
 
 The Manager, Tax reports to the Director, Tax.
@@ -123,15 +158,15 @@ The Senior Manager, Global tax Accounting and Domestic Tax is a grade 9.
 - Leadership experience in a software or global technology company
 - Proven strategic and tactical vision to lead a high performing team
 
-#### Senior Manager, International Tax (Non US)
+#### Senior Manager, Multinational Tax (Non US)
 
-The Senior Manager, International Tax (Non US) reports to the Director, International Tax.
+The Senior Manager, Multinational Tax (Non US) reports to the Director, Multinational Tax.
 
 #### Job Grade
 
-The Senior Manager, International Tax (Non US) is a job [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Manager, Multinational Tax (Non US) is a job [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Manager, International Tax Responsibilities
+#### Senior Manager, Multinational Tax Responsibilities
 
 - Models and joins in planning for our economic ownership of IP
 - Assists international team with CFC tax basis, earnings and profits, Subpart F, BEAT, GILTI and FDII calculations
@@ -152,9 +187,9 @@ The Senior Manager, International Tax (Non US) is a job [grade 9](/handbook/tota
 - Billing by local entities
 - Intercompany transfers
 
-#### Senior Manager, International Tax (Non US) Requirements
+#### Senior Manager, Multinational Tax (Non US) Requirements
 
-The Senior Manager, International Tax (Non US) will have Big-4 or comparable multinational company experience. Specifically, the candidate will have demonstrable, progressive experience in:
+The Senior Manager, Multinational Tax (Non US) will have Big-4 or comparable multinational company experience. Specifically, the candidate will have demonstrable, progressive experience in:
 
 - Transfer pricing and functional analysis
 - CBC reporting
@@ -173,7 +208,7 @@ The Directors, Tax report to the [VP, Tax](/job-families/finance/vice-president-
 
 #### Director, Global Tax Accounting and Domestic Tax Job Grade
 
-The Director, Tax  is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Director, Global Tax Accounting and Domestic Tax is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Director, Global Tax Accounting and Domestic Tax Responsibilities
 
@@ -205,13 +240,13 @@ The Director, Tax  is a [grade 10](/handbook/total-rewards/compensation/compensa
 - Experience with NetSuite, SalesForce, Zuora, Coupa, GSuite and Avalara are plusses.
 - Ability to use GitLab
 
-### Director of International Tax
+### Director of Multinational Tax
 
 #### Job Grade
 
-The Director of International Tax is a job [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Director of Multinational Tax is a job [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Director of International Tax Responsibilities
+#### Director of Multinational Tax Responsibilities
 
 - Plans for, models, and operationalizes our economic ownership of IP
 - Maintains CFC tax basis, earnings and profits and Subpart F calculations
@@ -229,7 +264,7 @@ The Director of International Tax is a job [grade 11](/handbook/total-rewards/co
 - Works with our finance and treasury teams to fund international operations
 - Outlines and drafts intercompany agreements
 
-#### Director of International Tax Requirements
+#### Director of Multinational Tax Requirements
 
 - The candidate will have Big-4 or comparable US-based multinational company experience. Specifically, the candidate will have demonstrable, progressive experience in:
 - Transfer pricing and functional analysis
@@ -257,7 +292,7 @@ The Director of International Tax will have a BS/BA in Accounting or Finance wit
 - Assist with the resolution of all state notices relating to US indirect tax
 - 3+ years indirect tax experience with multiple states and local jurisdictions preferred.
 
-### International
+### Multinational
 
 - Primary focus on international tax
 - Working knowledge of multiple International tax areas
