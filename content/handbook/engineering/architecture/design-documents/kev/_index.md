@@ -105,9 +105,11 @@ flow is:
 1. PMDB infrastructure runs the KEV feeder daily in order to pull, process and
    publish KEV data.
 1. The advisory-processor receives the KEV data and stores them to the PMDB DB.
-1. PMDB exports KEV data as part of the advisories data to an existing advisory bucket.
+1. PMDB exports KEV data as part of the advisories data to an existing advisory
+   bucket.
 1. GitLab instances pull advisory data from the bucket.
-    - Create a new boolean column in rails DB `pm_advisories` table to store KEV status.
+    - Create a new boolean column in rails DB `pm_advisories` table to store KEV
+      status.
 1. GitLab instances expose KEV status through GraphQL API and present data in
    vulnerability report and details pages.
 
@@ -123,6 +125,43 @@ flowchart LR
 ```
 
 ## Design and implementation details
+
+### Decisions
+
+### Important note
+
+- Though the KEV catalog is updated with new entries, the status of exploited
+  vulnerabilities rarely changes. However, [vulnerabilities can be removed from
+  the catalog](https://www.cisa.gov/news-events/alerts/2023/12/01/cisa-removes-one-known-exploited-vulnerability-catalog#:~:text=CISA%20Removes%20One%20Known%20Exploited%20Vulnerability%20From%20Catalog,-Release%20Date&text=As%20a%20result%20of%20this,816L%20Remote%20Code%20Execution%20Vulnerability),
+  and CISA doesn't guarantee immutability here. Therefore, we should support
+  this edge case as well.
+
+### PMDB
+
+- Create a new KEV table
+  in [PMDB](https://gitlab.com/gitlab-org/security-products/license-db) with an
+  advisory identifier. This includes changing
+  the [schema](https://gitlab.com/gitlab-org/security-products/license-db/schema)
+  and any necessary migrations.
+- Ingest KEV data into this new PMDB table. Make sure to remove advisories that
+  do not exist in the JSON and have been removed from the catalog.
+- Export KEV data as part of the advisories.
+- Add new pubsub topics to deployment to be used by PMDB components, using
+  existing terraform modules.
+
+### GitLab Rails backend
+
+- Create column in the pm_advisories table in rails backend to hold the KEV
+  status.
+- Configure Rails sync to ingest KEV status and save to the new column.
+- Include KEV status attribute in GraphQL API Occurrence objects.
+
+### GitLab UI
+
+- Add KEV status to vulnerability report page.
+- Add KEV status to vulnerability details page.
+- Allow filtering by KEV status.
+- Allow creating policies based on KEV status.
 
 ## Glossary
 
