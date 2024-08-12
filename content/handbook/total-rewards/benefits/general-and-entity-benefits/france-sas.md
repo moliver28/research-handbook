@@ -104,6 +104,12 @@ If an extension is needed, team members must notify GitLab as soon as possible (
 
 For more information, read about the [sick time policies and procedures in France](https://ec.europa.eu/social/main.jsp?catId=1110&langId=en&intPageId=4535).
 
+## Additional Leave Types
+
+### Family Care Leave
+
+Team members in France are entitled to take up to 3 days of family care leave each year, or 5 days if the child is under 12 months old. These days are generally considered unpaid unless the team member is eligible for GitLab's Sick Time policy; which will run concurrently. If you would like to request Family Care Leave please contact the Absence Management Team (leaves@domain). Team members must include a medical certificate, regardless of the leave duration, along with their request.
+
 ## Tracking Working Hours
 
 - Team members located in France are required to track their working hours and time away from work in Mihi as applicable and the working time policies and processes at GitLab France are set out in detail [here](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/) for our team members (*_accessible internally only_).
