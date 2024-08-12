@@ -21,7 +21,6 @@ toc_hide: true
 {{< design-document-header >}}
 
 ## Summary
-
 [KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) is a catalog
 maintained by [CISA](https://www.cisa.gov) that identifies vulnerabilities
 actively exploited in the wild.
@@ -51,7 +50,6 @@ C -->|Pull| D[GitLab Instance]
 ```
 
 ## Motivation
-
 The classic approach to vulnerability prioritization is using severity based on
 CVSS.
 This approach provides some guidance, but is too unrefined - more than half of
@@ -72,31 +70,25 @@ often follow federal cybersecurity guidance, making it relevant to a wider
 audience.
 
 ### Goals
-
 - Enable users to use KEV data on GitLab as another metric for their
   vulnerability prioritization efforts.
 - Enable compliance tracking for BOD 22-01, supporting FCEB agencies and other
   entities in monitoring and remediating KEV catalog vulnerabilities.
 
 #### Phase 1 (MVC)
-
 - Enable access to KEV status through GraphQL API.
 
 #### Phase 2
-
 - Show KEV information in vulnerability report and details pages.
 
 #### Phase 3
-
 - Allow filtering vulnerabilities based on KEV status.
 - Allow creating policies based on KEV status.
 
 ### Non-Goals
-
 - Dictate priority to users based on EPSS (or any other metric).
 
 ## Proposal
-
 Support KEV on the GitLab platform.
 
 Following the discussions in
@@ -110,8 +102,8 @@ flow is:
 1. PMDB exports KEV data as part of the advisories data to an existing advisory
    bucket.
 1. GitLab instances pull advisory data from the bucket.
-    - Create a new boolean column in rails DB `pm_advisories` table to store KEV
-      status.
+  - Create a new boolean column in rails DB `pm_advisories` table to store KEV
+  status.
 1. GitLab instances expose KEV status through GraphQL API and present data in
    vulnerability report and details pages.
 
@@ -131,7 +123,6 @@ flowchart LR
 ### Decisions
 
 ### Important note
-
 - Though the KEV catalog is updated with new entries, the status of exploited
   vulnerabilities rarely changes. However, [vulnerabilities can be removed from
   the catalog](https://www.cisa.gov/news-events/alerts/2023/12/01/cisa-removes-one-known-exploited-vulnerability-catalog#:~:text=CISA%20Removes%20One%20Known%20Exploited%20Vulnerability%20From%20Catalog,-Release%20Date&text=As%20a%20result%20of%20this,816L%20Remote%20Code%20Execution%20Vulnerability),
@@ -170,18 +161,17 @@ flowchart LR
 - **PMDB** (Package metadata database, also known as License DB): PMDB is a
   standalone service (and not solely a database), outside of the Rails
   application, that gathers, stores and exports packages metadata for GitLab
-  instances to consume.
-  See [complete documentation](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/docs/DESIGN.md?ref_type=heads).
+  instances to consume. See [complete documentation](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/docs/DESIGN.md?ref_type=heads).
   PMDB components include:
-    - **Feeder**: a scheduled job called by the PMDB deployment to publish data
-      from the relevant sources to pub/sub messages consumed by PMDB processors.
-    - **Advisory processor**: Runs as a Cloud Run instance and consumes messages
-      published by the advisory feeder containing advisory related data and
-      stores them to the PMDB database.
-    - **PMDB database**: a PostgreSQL instance storing license and advisory
-      data.
-    - **Exporter**: exports license/advisory data from the PMDB database to
-      public GCP buckets.
+  - **Feeder**: a scheduled job called by the PMDB deployment to publish data
+    from the relevant sources to pub/sub messages consumed by PMDB processors.
+  - **Advisory processor**: Runs as a Cloud Run instance and consumes messages
+    published by the advisory feeder containing advisory related data and
+    stores them to the PMDB database.
+  - **PMDB database**: a PostgreSQL instance storing license and advisory
+    data.
+  - **Exporter**: exports license/advisory data from the PMDB database to
+    public GCP buckets.
 - **GitLab database**: the database used by GitLab instances.
 - **CVE** (Common Vulnerabilities and Exposures): a list of publicly known
   information-security vulnerabilities. "A CVE" usually refers to a specific
