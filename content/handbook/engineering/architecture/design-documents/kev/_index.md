@@ -21,6 +21,7 @@ toc_hide: true
 {{< design-document-header >}}
 
 ## Summary
+
 [KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) is a catalog
 maintained by [CISA](https://www.cisa.gov) that identifies vulnerabilities
 actively exploited in the wild.
@@ -50,6 +51,7 @@ C -->|Pull| D[GitLab Instance]
 ```
 
 ## Motivation
+
 The classic approach to vulnerability prioritization is using severity based on
 CVSS.
 This approach provides some guidance, but is too unrefined - more than half of
@@ -70,25 +72,31 @@ often follow federal cybersecurity guidance, making it relevant to a wider
 audience.
 
 ### Goals
+
 - Enable users to use KEV data on GitLab as another metric for their
   vulnerability prioritization efforts.
 - Enable compliance tracking for BOD 22-01, supporting FCEB agencies and other
   entities in monitoring and remediating KEV catalog vulnerabilities.
 
 #### Phase 1 (MVC)
+
 - Enable access to KEV status through GraphQL API.
 
 #### Phase 2
+
 - Show KEV information in vulnerability report and details pages.
 
 #### Phase 3
+
 - Allow filtering vulnerabilities based on KEV status.
 - Allow creating policies based on KEV status.
 
 ### Non-Goals
+
 - Dictate priority to users based on EPSS (or any other metric).
 
 ## Proposal
+
 Support KEV on the GitLab platform.
 
 Following the discussions in
@@ -123,6 +131,7 @@ flowchart LR
 ### Decisions
 
 ### Important note
+
 - Though the KEV catalog is updated with new entries, the status of exploited
   vulnerabilities rarely changes. However, [vulnerabilities can be removed from
   the catalog](https://www.cisa.gov/news-events/alerts/2023/12/01/cisa-removes-one-known-exploited-vulnerability-catalog#:~:text=CISA%20Removes%20One%20Known%20Exploited%20Vulnerability%20From%20Catalog,-Release%20Date&text=As%20a%20result%20of%20this,816L%20Remote%20Code%20Execution%20Vulnerability),
