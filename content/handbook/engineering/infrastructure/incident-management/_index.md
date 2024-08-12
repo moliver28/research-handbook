@@ -144,7 +144,7 @@ In other situations, [page the Incident Manager](#how-to-engage-the-eoc-im-or-cm
    - The schedule is updated by creating an MR that updates [im_locals.tf](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/pagerduty/im_locals.tf?ref_type=heads).
      A single MR is created for all users that need updating. They will be assigned to the appropriate shift and the `start_date` will be set to the beginning of the second full month after the current day.
      For example, if the current day is Jan 5, the `start_date` will be make to go into effect during the first week of March.
-1. An announcement will be posted in [`#imoc_general`](https://gitlab.slack.com/archives/C01NY82EJF6) indicating that the schedule has been modified with a link to the MR and a brief overview of who was added or removed.
+1. An announcement will be posted in [`#im-general`](https://gitlab.slack.com/archives/C01NY82EJF6) indicating that the schedule has been modified with a link to the MR and a brief overview of who was added or removed.
 1. All issues on the [IM onboarding/offboarding board](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/boards/5078854?label_name%5B%5D=IM) need to be reviewed once a month for overdue due dates.
    If any issues are overdue, the coordinator will need to check in with the author to see if they need more time or support to finish their on-boarding.
 
@@ -189,7 +189,7 @@ Occasionally we encounter multiple incidents at the same time. Sometimes a singl
 
 When there are multiple incidents and you decide that additional incident manager help is required, take these actions:
 
-1. Post a slack message in #imoc_general as well as #incident-management asking for additional Incident Manager help.
+1. Post a slack message in #im-general as well as #incident-management asking for additional Incident Manager help.
 1. If your ask is not addressed via slack, escalate to  [Infastructure Leadership](https://gitlab.pagerduty.com/service-directory/PJKOEIS) in PagerDuty.
 
 If a second incident zoom is desired, choose which incident will move to the new zoom and create a new meeting in zoom.  Be sure to edit the channel topic of the incident slack channel to indicate the correct zoom link.
@@ -267,7 +267,7 @@ Due to the overhead involved and the risk of detracting from impact mitigation e
 
 Implementing a direct customer interaction call for an incident is to be initiated by the current Incident Manager by taking these steps:
 
-1. Identify a second Incident Manager who will be dedicated to the customer call. If not already available in the incident, announce the need in #imoc_general with a message like `/here A second incident manager is required for a customer interaction call for XXX`.
+1. Identify a second Incident Manager who will be dedicated to the customer call. If not already available in the incident, announce the need in #im-general with a message like `/here A second incident manager is required for a customer interaction call for XXX`.
 1. Page the [Infrastructure Leadership pagerduty rotation](https://gitlab.pagerduty.com/schedules#PBSMJH2) for additional assistance and awareness.
 1. Identify a Customer Success Manager who will act as the primary CSM and also be dedicated to the customer call. If this role is not clear, also refer to Infrastructure Leadership for assistance.
 1. Request that both of these additional roles join the main incident to come up to speed on the incident history and current status. If necessary to preserve focus on mitigation, this information sharing may be done in another Zoom meeting (which could then also be used for the customer conversation)
