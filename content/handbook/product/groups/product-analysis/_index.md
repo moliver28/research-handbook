@@ -26,9 +26,11 @@ each analyst is assigned to one or more sections or teams to support.
 | Name | Title | Product Section or Team |
 | --- | --- | --- |
 | [Carolyn Braza](/handbook/company/team/#cbraza) | [Senior Manager, Product Data Insights](/job-families/product/product-analyst/#senior-manager-product-data-insights) | [Analytics](/handbook/product/categories/#analytics-section) |
+| [Dani Deng](/handbook/company/team/#ddeng1) | [Product Analyst](/job-families/product/product-analyst/#product-analyst-intermediate) | [Growth](/handbook/product/categories/#growth-section), [Engineering](/handbook/engineering/) |
 | [Nicole Hervas](/handbook/company/team/#nhervas) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [CI](/handbook/product/categories/#ci-section), [CD](/handbook/product/categories/#cd-section) |
-| [Emma Neuberger](/handbook/company/team/#eneuberger) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Growth](/handbook/product/categories/#growth-section), [Core Platform](/handbook/product/categories/#core-platform-section), [SaaS Platforms](/handbook/product/categories/#saas-platforms-section) |
-| [Matthew Petersen](/handbook/company/team/#matthewpetersen) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Dev](/handbook/product/categories/#dev-section), [Data Science](/handbook/product/categories/#data-science-section) |
+| [Lily Mai](/handbook/company/team/#lmai1) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Data Science](/handbook/product/categories/#data-science-section), [Engineering](/handbook/engineering/) |
+| [Emma Neuberger](/handbook/company/team/#eneuberger) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Core Platform](/handbook/product/categories/#core-platform-section), [SaaS Platforms](/handbook/product/categories/#saas-platforms-section) |
+| [Matthew Petersen](/handbook/company/team/#matthewpetersen) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Dev](/handbook/product/categories/#dev-section)  |
 | [Dave Peterson](/handbook/company/team/#dpeterson1) | [Staff Product Analyst](/job-families/product/product-analyst/#staff-product-analyst) | [Sec](/handbook/product/categories/#sec-section) |
 | [Neil Raisinghani](/handbook/company/team/#nraisinghani) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Fulfillment](/handbook/product/categories/#fulfillment-section), [Pricing](https://internal.gitlab.com/handbook/product/pricing/) |
 
