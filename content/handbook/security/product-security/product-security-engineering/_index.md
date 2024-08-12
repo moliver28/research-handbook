@@ -101,6 +101,7 @@ Below is a step-by-step process for team members to walk through when refining b
     1. Consider timeboxing this effort
     1. If needed, consider applying the `~workflow::solution validation` label and engaging with the relevant product, engineering, or security teams to determine if the proposed solution addresses the requirements
 1. Add a [weight](/handbook/security/product-security/product-security-engineering/#weights) based on how much effort this will take to accomplish
+1. Consider adding a [priority](/handbook/security/product-security/product-security-engineering/#priorities) label to indicate the relative importance of the issue within our backlog
 1. Add the `~workflow::ready for development` label to indicate that the issue has been refined
 
 ### Weights
@@ -119,6 +120,16 @@ These weights we use are:
 | 5 | Large, will take a major portion of the milestone to finish |
 
 Anything larger than 5 should be broken down if possible.
+
+### Priorities
+
+We use priority labels to provide the team and other contributors with an approximate timeline for when we intend to address issues.
+
+| Label | Meaning |
+| --- | --- |
+| ~"ProdSecEngPriority::1" | This issue requires immediate attention and should be worked on as soon as possible. Typically, it is added to the next milestone or addressed during the current one if a team member has extra capacity. |
+| ~"ProdSecEngPriority::2" | This issue is essential but can wait for a few milestones. |
+| ~"ProdSecEngPriority::3" | This issue is a nice-to-have, but we do not commit to a specific timeline. |
 
 ### Choosing what to work on
 
