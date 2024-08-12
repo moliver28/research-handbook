@@ -2,7 +2,7 @@
 title: Compliance Frameworks
 status: ongoing
 creation-date: "2024-07-08"
-authors: [ "@nrosandich" ]
+authors: [ "@nrosandich", "@huzaifaiftikhar1" ]
 coach: "@theoretick"
 approvers: [  ]
 owning-stage: "~govern::compliance"
@@ -80,6 +80,12 @@ This is currently achieved through compliance events ([Audit events](https://doc
 
 ### Decisions
 
+- [001: Deprecate Compliance Pipelines](decisions/001_deprecate_compliance_pipelines.md)
+- [002: Scope Policies through Compliance Frameworks](decisions/002_scope_policies_through_compliance_frameworks.md)
+- [003: Multiple Compliance Frameworks](decisions/003_multiple_compliance_frameworks.md)
+- [004: Compliance Adherence Checks](decisions/004_compliance_adherence_checks.md)
+- [005: Custom Adherence Report](decisions/005_custom_adherence_report.md)
+
 ### Design Details
 
 ### Implementation Details
@@ -90,4 +96,4 @@ This is currently achieved through compliance events ([Audit events](https://doc
 
 ### FAQ
 
-- 
+-
