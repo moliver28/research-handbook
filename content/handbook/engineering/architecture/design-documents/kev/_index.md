@@ -62,13 +62,17 @@ efforts on the most immediate threats and reduce overall remediation workload.
 By adding KEV data to the information presented to users, we deliver these
 benefits to the GitLab platform, enabling more effective and efficient
 vulnerability management.
-Additionally, federal civilian executive branch (FCEB) agencies must address
-vulnerabilities in the KEV catalog under BOD 22-01.
-While this directive doesn't apply to other government levels or private
-industry, they often follow federal cybersecurity guidance, making it relevant
-to a wider audience.
+Additionally, FCEB (federal civilian executive branch) agencies must address
+vulnerabilities in the KEV catalog
+under [BOD 22-01](https://www.cisa.gov/news-events/directives/bod-22-01-reducing-significant-risk-known-exploited-vulnerabilities).
+While this directive doesn't apply to other government levels or industry, they
+often follow federal cybersecurity guidance, making it relevant to a wider
+audience.
 
 ### Goals
+
+- Enable users to use KEV data on GitLab as another metric for their vulnerability prioritization efforts.
+- Enable compliance tracking for BOD 22-01, supporting FCEB agencies and other entities in monitoring and remediating KEV catalog vulnerabilities.
 
 #### Phase 1 (MVC)
 
