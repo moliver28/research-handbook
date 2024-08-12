@@ -17,4 +17,4 @@ Use the links below to navigate to each Elevate program. Here is a useful guide 
 
 #### Elevate Feedback Loop
 
-To remain ahead of the curve, GitLab Talent teams will utilize HPT (High Performing Teams) workshop data, Elevate program feedback, engagement survey data, and direct input from executive leadership to continuously up-level program content. Just as GitLab integrates customer insights into product development, the same holds true for Elevate design and future iterations. Similar product [sensing mechanisms](/handbook/product/product-processes/#sensing-mechanisms) are used to guide continuous program improvement.
+To remain ahead of the curve, GitLab Talent teams will utilize HPT (High Performing Teams) workshop data, Elevate program feedback, engagement survey data, and direct input from executive leadership to continuously up-level program content. Just as GitLab integrates customer insights into product development, the same holds true for Elevate design and future iterations. Similar product [sensing mechanisms](/handbook/product/product-processes/sensing-mechanisms/) are used to guide continuous program improvement.
