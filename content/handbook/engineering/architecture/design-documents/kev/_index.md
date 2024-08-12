@@ -95,6 +95,33 @@ audience.
 
 ## Proposal
 
+Support KEV on the GitLab platform.
+
+Following the discussions in
+the [KEV epic](https://gitlab.com/groups/gitlab-org/-/epics/11912), the proposed
+flow is:
+
+1. PMDB database is extended with a new table to store KEV data.
+1. PMDB infrastructure runs the KEV feeder daily in order to pull, process and
+   publish KEV data.
+1. The advisory-processor receives the KEV data and stores them to the PMDB DB.
+1. PMDB exports KEV data as part of the advisories data to an existing advisory bucket.
+1. GitLab instances pull advisory data from the bucket.
+    - Create a new boolean column in rails DB `pm_advisories` table to store KEV status.
+1. GitLab instances expose KEV status through GraphQL API and present data in
+   vulnerability report and details pages.
+
+```mermaid
+flowchart LR
+    AF[Feeder] -->|pulls| A[KEV Source]
+    AF -->|publishes| AP[Advisory Processor]
+    AP -->|stores| DD[PMDB database]
+    E[Exporter] -->|loads|DD
+    E --> |exports| B[Public Advisory Bucket]
+    GitLab[GitLab instance] --> |syncs| B
+    GitLab --> |stores| GitLabDB
+```
+
 ## Design and implementation details
 
 ## Glossary
