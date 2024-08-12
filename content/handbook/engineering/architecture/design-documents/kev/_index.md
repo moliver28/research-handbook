@@ -9,7 +9,7 @@ authors: [ "@onaaman" ]
 coaches: [ "@username" ]
 dris: [ "@product-manager", "@engineering-manager" ]
 owning-stage: "~devops::<stage>"
-participating-stages: []
+participating-stages: [ ]
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
 ---
@@ -20,29 +20,53 @@ toc_hide: true
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}
 
-
 ## Summary
 
-[KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) is a catalog maintained by [CISA]((https://www.cisa.gov/)) that identifies vulnerabilities actively exploited in the wild.
-KEV support in GitLab aims to enhance vulnerability prioritization and remediation efforts by highlighting these high-risk vulnerabilities.
-The KEV support requirements are outlined in [the KEV epic](https://gitlab.com/groups/gitlab-org/-/epics/11912). This document focuses on the technical implementation of KEV support.
+[KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) is a catalog
+maintained by [CISA]((https://www.cisa.gov/)) that identifies vulnerabilities
+actively exploited in the wild.
+KEV support in GitLab aims to enhance vulnerability prioritization and
+remediation efforts by highlighting these high-risk vulnerabilities.
+The KEV support requirements are outlined
+in [the KEV epic](https://gitlab.com/groups/gitlab-org/-/epics/11912). This
+document focuses on the technical implementation of KEV support.
 
-KEV data will be sourced from the CISA KEV catalog, which is available as a JSON file on the CISA website. This file is regularly updated by CISA and can be downloaded and processed to extract the latest KEV information.
-The goal is to make KEV information accessible through the GitLab GraphQL API, visible on vulnerability report and details pages, and usable for filtering and policy setting.
-The implementation will leverage the existing Package Metadata Database (PMDB, also known as license-db) infrastructure for advisory pull-and-enrichment, The flow is as follows:
+KEV data will be sourced from the CISA KEV catalog, which is
+available [as a JSON
+file on the CISA website](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json).
+This file is regularly updated by CISA and can be
+downloaded and processed to extract the latest KEV information.
+The goal is to make KEV information accessible through the GitLab GraphQL API,
+visible on vulnerability report and details pages, and usable for filtering and
+policy setting.
+The implementation will leverage the existing Package Metadata Database (PMDB,
+also known as license-db) infrastructure for advisory pull-and-enrichment, The
+flow is as follows:
 
-**TODO** - ADD FLOW HERE
-
+flowchart LR
+A[KEV Data] -->|Pull| B[PMDB]
+B -->|Process and export| C[Bucket]
+C -->|Pull| D[GitLab Instance]
 
 ## Motivation
 
-The classic approach to vulnerability prioritization is using severity based on CVSS.
-This approach provides some guidance, but is too unrefined— more than half of all published CVEs have a high or critical score.
-Other metrics need to be employed to reduce remediation fatigue and help developers prioritize their work better. KEV provides a focused list of vulnerabilities that are actively exploited in the wild.
-Combined with existing prioritization methods, KEV helps to focus remediation efforts on the most immediate threats and reduce overall remediation workload.
-By adding KEV data to the information presented to users, we deliver these benefits to the GitLab platform, enabling more effective and efficient vulnerability management.
-Additionally, federal civilian executive branch (FCEB) agencies must address vulnerabilities in the KEV catalog under BOD 22-01.
-While this directive doesn't apply to other government levels or private industry, they often follow federal cybersecurity guidance, making it relevant to a wider audience.
+The classic approach to vulnerability prioritization is using severity based on
+CVSS.
+This approach provides some guidance, but is too unrefined - more than half of
+all published CVEs have a high or critical score.
+Other metrics need to be employed to reduce remediation fatigue and help
+developers prioritize their work better. KEV provides a focused list of
+vulnerabilities that are actively exploited in the wild.
+Combined with existing prioritization methods, KEV helps to focus remediation
+efforts on the most immediate threats and reduce overall remediation workload.
+By adding KEV data to the information presented to users, we deliver these
+benefits to the GitLab platform, enabling more effective and efficient
+vulnerability management.
+Additionally, federal civilian executive branch (FCEB) agencies must address
+vulnerabilities in the KEV catalog under BOD 22-01.
+While this directive doesn't apply to other government levels or private
+industry, they often follow federal cybersecurity guidance, making it relevant
+to a wider audience.
 
 ### Goals
 
@@ -62,7 +86,6 @@ While this directive doesn't apply to other government levels or private industr
 ### Non-Goals
 
 - Dictate priority to users based on EPSS (or any other metric).
-
 
 ## Proposal
 
@@ -104,16 +127,29 @@ that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
 
-
 ## Glossary
 
-- **PMDB** (Package metadata database, also known as License DB): PMDB is a standalone service (and not solely a database), outside of the Rails application, that gathers, stores and exports packages metadata for GitLab instances to consume. See [complete documentation](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/docs/DESIGN.md?ref_type=heads). PMDB components include:
-    - **Feeder**: a scheduled job called by the PMDB deployment to publish data from the relevant sources to pub/sub messages consumed by PMDB processors.
-    - **Advisory processor**: Runs as a Cloud Run instance and consumes messages published by the advisory feeder containing advisory related data and stores them to the PMDB database.
-    - **PMDB database**: a PostgreSQL instance storing license and advisory data.
-    - **Exporter**: exports license/advisory data from the PMDB database to public GCP buckets.
+- **PMDB** (Package metadata database, also known as License DB): PMDB is a
+  standalone service (and not solely a database), outside of the Rails
+  application, that gathers, stores and exports packages metadata for GitLab
+  instances to consume.
+  See [complete documentation](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/docs/DESIGN.md?ref_type=heads).
+  PMDB components include:
+    - **Feeder**: a scheduled job called by the PMDB deployment to publish data
+      from the relevant sources to pub/sub messages consumed by PMDB processors.
+    - **Advisory processor**: Runs as a Cloud Run instance and consumes messages
+      published by the advisory feeder containing advisory related data and
+      stores them to the PMDB database.
+    - **PMDB database**: a PostgreSQL instance storing license and advisory
+      data.
+    - **Exporter**: exports license/advisory data from the PMDB database to
+      public GCP buckets.
 - **GitLab database**: the database used by GitLab instances.
-- **CVE** (Common Vulnerabilities and Exposures): a list of publicly known information-security vulnerabilities. "A CVE" usually refers to a specific vulnerability and its CVE ID.
-- **CISA** (Cybersecurity and Infrastructure Security Agency) is a U.S. agency focused on cybersecurity and infrastructure protection.
-- **KEV** (Known Exploited Vulnerabilities): a catalog of actively exploited vulnerabilities maintained by CISA
+- **CVE** (Common Vulnerabilities and Exposures): a list of publicly known
+  information-security vulnerabilities. "A CVE" usually refers to a specific
+  vulnerability and its CVE ID.
+- **CISA** (Cybersecurity and Infrastructure Security Agency) is a U.S. agency
+  focused on cybersecurity and infrastructure protection.
+- **KEV** (Known Exploited Vulnerabilities): a catalog of actively exploited
+  vulnerabilities maintained by CISA
 
