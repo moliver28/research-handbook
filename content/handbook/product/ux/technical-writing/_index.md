@@ -303,6 +303,9 @@ that need to be regularly completed:
 
 Schedule for Docs project maintenance tasks:
 
+- November, 2024: {{< member-by-name "Marcin Sędłak-Jakubowski" >}}
+- October, 2024: {{< member-by-name "Russell Dickenson" >}}
+- September, 2024: {{< member-by-name "Marcel Amirault" >}}
 - August, 2024: {{< member-by-name "Jon Glassman" >}}
 - July, 2024: {{< member-by-name "Ashraf Khamis" >}}
 - June, 2024: {{< member-by-name "Evan Read" >}}
@@ -313,9 +316,6 @@ Schedule for Docs project maintenance tasks:
 - January, 2024: {{< member-by-name "Phillip Wells" >}}
 - December, 2023: {{< member-by-name "Achilleas Pipinellis" >}}
 - November, 2023: {{< member-by-name "Marcin Sędłak-Jakubowski" >}}
-- October, 2023: {{< member-by-name "Russell Dickenson" >}}
-- September, 2023: {{< member-by-name "Evan Read" >}}
-- August, 2023: {{< member-by-name "Kati Paizee" >}}
 
 ## Reviews
 
