@@ -5,6 +5,8 @@ title: "MLOps Jobs to Be Done"
 description: "What are the problems users want MLOps to solve?"
 ---
 
+NOTE: The MLOps Incubation Engineering project has become the MLOps team. These pages are left fir historical purposes, but are not actively maintained. Please refer to the [MLOps team page](/handbook/engineering/development/data-science/modelops/mlops) for updated information.
+
 ## What is this
 
 To better contextualize our efforts on MLOps Incubation Engineering, we are defining a list of [Jobs To Be Done](/handbook/product/ux/jobs-to-be-done/) - the objectives our users are trying to accomplish in MLOps. We will anchor these JTBD to the [stage](https://about.gitlab.com/stages-devops-lifecycle/) they belong to, and each MLOps exploration will try to address one or more of these JTBD.
