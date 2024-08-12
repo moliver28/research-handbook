@@ -87,6 +87,6 @@ GitLab's official brand guidelines can be found at [design.gitlab.com](https://d
 
 ## Logo and trademark usage
 
-GitLab's official logo files can be found and downloaded in the [press kit](/press/press-kit/).
+GitLab's official logo files can be found and downloaded in the [press kit](https://about.gitlab.com/press/press-kit/).
 
 Refer to GitLab's [trademark guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/) for details on how our trademarks can and can't be used.
