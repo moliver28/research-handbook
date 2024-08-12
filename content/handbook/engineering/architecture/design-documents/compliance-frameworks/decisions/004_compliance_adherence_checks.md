@@ -3,6 +3,7 @@ title: "Compliance Frameworks ADR 004: Compliance Adherence Checks"
 ---
 
 ## Context
+
 We need to offer compliance tools to enable our customers to know if they adhere to certain rules, standards,
 regulations, and guidelines. For this we need to create compliance adherence checks within GitLab that can be related
 to the software development standards in the industry.
@@ -70,6 +71,7 @@ create or update the result of this compliance adherence check for the given pro
 1. The decision was made to use sidekiq workers for creating results of compliance adherence checks for a project.
 1. The database table for storing the results is `project_compliance_standards_adherence` and has the following
 schema:
+
     ```mermaid
     classDiagram
         class project_compliance_standards_adherence
@@ -82,6 +84,7 @@ schema:
         project_compliance_standards_adherence : status smallint
         project_compliance_standards_adherence : standard smallint
     ```
+
 1. `check_name` is Enum and contains values like "prevent_approval_by_merge_request_author",
 "prevent_approval_by_merge_request_committers", "at_least_two_approvals", etc.
 1. `standard` column contains the name of the standard to which the check belong to, like SOC2, GitLab standard, etc.

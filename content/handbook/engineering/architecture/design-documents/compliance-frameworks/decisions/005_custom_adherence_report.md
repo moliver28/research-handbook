@@ -37,6 +37,7 @@ associate the YAML with that compliance framework.
 1. We would create a Standards Editor similar to [Policy Editor](https://docs.gitlab.com/ee/user/application_security/policies/#policy-editor)
 easily allowing users to modify the configuration from the UI.
 1. The YAML would be used for saving the requirements and checks configuration. An example YAML:
+
     ```yaml
     requirements:
     - name: Code safeguards enabled
@@ -50,6 +51,7 @@ easily allowing users to modify the configuration from the UI.
        - multi_factor_auth_enabled
        - organizations_email_domain
    ```
+
 1. The checks would be a list of Enums that and denotes one of the compliance adherence checks supported by GitLab.
 1. Once the configuration is saved and applied to a compliance framework, we would only display the results of the
 selected compliance adherence checks for the projects with those compliance frameworks.
@@ -72,6 +74,7 @@ this requirement.
 1. We would translate this configuration into a JSON and store it in the `jsonb` column named `requirements` within
 the compliance frameworks table.
 1. An example JSON:
+
     ```json
     [{
       "name": "Code safeguards enabled",
@@ -90,6 +93,7 @@ the compliance frameworks table.
       ]
     }]
     ```
+
 1. Similar to the previous approach, we would only display the results of compliance adherence checks for the projects
 that have compliance frameworks applied with valid `requirements` configuration.
 1. This approach had certain advantages:
@@ -107,6 +111,7 @@ that have compliance frameworks applied with valid `requirements` configuration.
 
 1. In this approach we planned to store the configuration in new database tables to prevent issues with JSON columns.
 1. The compliance requirements and compliance checks would be stored in individual tables with the following schema:
+
     ```mermaid
         classDiagram
     class namespaces {
@@ -170,6 +175,7 @@ that have compliance frameworks applied with valid `requirements` configuration.
     namespaces <-- compliance_management_frameworks : belongs_to
     projects <-- project_compliance_standards_adherence : belongs_to
     ```
+
 1. In the next iteration we would also allow importing and exporting the compliance adherence report configuration.
 
 ## Decision
