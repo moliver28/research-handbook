@@ -189,7 +189,7 @@
   - "[Snowplow](https://about.gitlab.com/handbook/business-technology/data-team/platform/snowplow/) is a dynamic site for web event analytics"
   - "[Google Analytics](/handbook/tools-and-tips/#google-analytics) is a static site for receiving data from `about.gitlab.com` and `docs.gitlab.com`"
   - "Database events is using the database records of GitLab.com to look at how people are using the application."
-  - "Product Usage Data is [data collected](https://about.gitlab.com/handbook/product/analytics-instrumentation-guide/#collection-framework) on the customer's account to be used within GTM tools such as Salesforce, Marketo, or Gainsight to improve retention and expansion"
+  - "Product Usage Data is [data collected](https://about.gitlab.com/handbook/product/product-processes/analytics-instrumentation-guide/#collection-framework) on the customer's account to be used within GTM tools such as Salesforce, Marketo, or Gainsight to improve retention and expansion"
   reason: Avoid this word since it has the connotation of third-party analytics. It also is too broad so use something more specific.
   exclude_from_exports: false
 

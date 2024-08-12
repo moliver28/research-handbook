@@ -121,5 +121,5 @@ The collection and use of operational data will governed in accordance with the 
 - [Customer Use Cases and Stage Mapping](https://docs.google.com/presentation/d/1bC_TdQO917hLbj4jfdkhtP0l7w8p1SKEK9vVjga5Wec/edit#slide=id.g7fe53431a5_0_33) (internal document)
 - [Product Usage in Gainsight FAQ Guide](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/)
 - [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html)
-- [Analytics Instrumentation Overview](/handbook/product/analytics-instrumentation-guide/) (details on operational data)
+- [Analytics Instrumentation Overview](/handbook/product/product-processes/analytics-instrumentation-guide/) (details on operational data)
 - [Email Marketing Data Mart](/handbook/business-technology/data-team/data-catalog/email-data-mart/)
