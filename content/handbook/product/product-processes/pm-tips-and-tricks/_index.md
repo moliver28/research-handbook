@@ -2,7 +2,7 @@
 title: Product Management Tips and Tricks
 ---
 
-# Overview 
+## Overview 
 
 This section of the handbook is a collection of product management processes that can leveraged in your practice as product management. Some of these are best practices and suggestions that are not required in your day to as product manager, while others are highly recommended workflows that are tried and true paths leading to successful results. These are sourced by our Product Management Department and regularly reviewed by our Director+ Product Management leaders. 
 
