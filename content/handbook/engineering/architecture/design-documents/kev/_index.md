@@ -71,8 +71,10 @@ audience.
 
 ### Goals
 
-- Enable users to use KEV data on GitLab as another metric for their vulnerability prioritization efforts.
-- Enable compliance tracking for BOD 22-01, supporting FCEB agencies and other entities in monitoring and remediating KEV catalog vulnerabilities.
+- Enable users to use KEV data on GitLab as another metric for their
+  vulnerability prioritization efforts.
+- Enable compliance tracking for BOD 22-01, supporting FCEB agencies and other
+  entities in monitoring and remediating KEV catalog vulnerabilities.
 
 #### Phase 1 (MVC)
 
@@ -93,43 +95,7 @@ audience.
 
 ## Proposal
 
-<!--
-This is where we get down to the specifics of what the proposal actually is,
-but keep it simple!  This should have enough detail that reviewers can
-understand exactly what you're proposing, but should not include things like
-API designs or implementation. The "Design Details" section below is for the
-real nitty-gritty.
-
-You might want to consider including the pros and cons of the proposed solution so that they can be
-compared with the pros and cons of alternatives.
--->
-
 ## Design and implementation details
-
-<!--
-This section should contain enough information that the specifics of your
-change are understandable. This may include API specs (though not always
-required) or even code snippets. If there's any ambiguity about HOW your
-proposal will be implemented, this is the place to discuss them.
-
-If you are not sure how many implementation details you should include in the
-document, the rule of thumb here is to provide enough context for people to
-understand the proposal. As you move forward with the implementation, you may
-need to add more implementation details to the document, as those may become
-an important context for important technical decisions made along the way. A
-document is also a register of such technical decisions. If a technical
-decision requires additional context before it can be made, you probably should
-document this context in a document. If it is a small technical decision that
-can be made in a merge request by an author and a maintainer, you probably do
-not need to document it here. The impact a technical decision will have is
-another helpful information - if a technical decision is very impactful,
-documenting it, along with associated implementation details, is advisable.
-
-If it's helpful to include workflow diagrams or any other related images.
-Diagrams authored in GitLab flavored markdown are preferred. In cases where
-that is not feasible, images should be placed under `images/` in the same
-directory as the `index.md` for the proposal.
--->
 
 ## Glossary
 
