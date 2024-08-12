@@ -23,7 +23,7 @@ toc_hide: true
 ## Summary
 
 [KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) is a catalog
-maintained by [CISA]((https://www.cisa.gov/)) that identifies vulnerabilities
+maintained by [CISA](https://www.cisa.gov) that identifies vulnerabilities
 actively exploited in the wild.
 KEV support in GitLab aims to enhance vulnerability prioritization and
 remediation efforts by highlighting these high-risk vulnerabilities.
@@ -43,10 +43,12 @@ The implementation will leverage the existing Package Metadata Database (PMDB,
 also known as license-db) infrastructure for advisory pull-and-enrichment, The
 flow is as follows:
 
+```mermaid
 flowchart LR
 A[KEV Data] -->|Pull| B[PMDB]
 B -->|Process and export| C[Bucket]
 C -->|Pull| D[GitLab Instance]
+```
 
 ## Motivation
 
