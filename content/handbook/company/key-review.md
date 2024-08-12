@@ -73,3 +73,19 @@ We encourage each group to conform to this simple [company-wide template](https:
      1. OKR for non-Yearly OKRs, if relevant
 1. **Upcoming OKR goals:** mapped as appropriate to Yearlies
 1. **Other additional topics:** topics not covered by slides above, and relevant to the organization
+
+### **Important notes:**
+
+1. Key Reviews are the primary forum for synchronously getting alignment and dependency commitments on function-level OKRs.
+1. Before every Key Review, Key Review leads should update OKRs to capture progress from the previous quarter [Maintaining the status of OKRs](/company/okrs/#maintaining-the-status-of-okrs). As the Key Reviews often falls deep into the first month of the quarter, this update can include updates up until the date of the meeting.
+1. A document will be linked from the calendar invite for participants to log questions or comments for discussion and to any additional track decisions & action items.
+1. Every department KPI should be covered. This can be in the presentation and/or links to the handbook.
+1. Wherever possible, the KPI or KR being reviewed should be compared to Plan, Target, or industry benchmark.
+1. There is no presentation; the meeting is purely Q&A. Of course, people can ask to talk them through a slide. If you want to present, please [post a YouTube video](/marketing/marketing-operations/youtube/) and link that from the slide deck, agenda, and/or Slack.
+1. The EBA to the CFO is responsible for coordinating a central submission document 5 business days in advance of the meeting and posting in the [#key-review](https://gitlab.slack.com/archives/CPQT0TRFX) Slack channel.
+1. All Key Review material, including videos, should be posted 5 days in advance in the [#key-review](https://gitlab.slack.com/archives/CPQT0TRFX) Slack channel.
+1. The agenda document should include a presentation link that is accessible to all team members on the invite, as well as a Q&A section.
+1. If the Key Review does not contain MNPI or [not public](/communication/confidentiality-levels/#not-public) information, it should be privately streamed to YouTube Unfiltered in alignment with GitLab’s [value of transparency](/values/#transparency). If the Key Review contains MNPI, it should not be streamed, but can be recorded and shared in a [limited access](/communication/confidentiality-levels/#limited-access) manner by including the link in the restricted Key Review agenda doc.
+1. Should private streaming be unavailable, the recording should be uploaded to the GitLab Unfiltered [Key Reviews Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrlBfo0IBmV0BwJcPN59swi) on YouTube if it does not contain MNPI or [not public](/communication/confidentiality-levels/#not-public) information. It is the DRI’s or their EBA’s responsibility to ensure that the video, if not containing MNPI or [not public](/communication/confidentiality-levels/#not-public) information, is uploaded to GitLab Unfiltered with the correct visibility (private or public). If it contains MNPI, then the recording can be shared in a limited access manner.
+1. If the function DRI is not available to attend their Key Review, the function DRI can designate a person or people from their leadership team to provide updates, share views, and cascade information.
+1. Repetition in recognizing what is working or not working each Key Review is okay as repetition can be an organizational tool for teaching people what’s important amidst all the noise.
