@@ -109,9 +109,12 @@ flow is:
 1. The advisory-processor receives the KEV data and stores them to the PMDB DB.
 1. PMDB exports KEV data as part of the advisories data to an existing advisory
    bucket.
+
 1. GitLab instances pull advisory data from the bucket.
+
   - Create a new boolean column in rails DB `pm_advisories` table to store KEV
-  status.
+    status.
+
 1. GitLab instances expose KEV status through GraphQL API and present data in
    vulnerability report and details pages.
 
@@ -170,17 +173,18 @@ flowchart LR
 - **PMDB** (Package metadata database, also known as License DB): PMDB is a
   standalone service (and not solely a database), outside of the Rails
   application, that gathers, stores and exports packages metadata for GitLab
-  instances to consume. See [complete documentation](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/docs/DESIGN.md?ref_type=heads).
+  instances to consume.
+  See [complete documentation](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/docs/DESIGN.md?ref_type=heads).
   PMDB components include:
-  - **Feeder**: a scheduled job called by the PMDB deployment to publish data
-    from the relevant sources to pub/sub messages consumed by PMDB processors.
-  - **Advisory processor**: Runs as a Cloud Run instance and consumes messages
-    published by the advisory feeder containing advisory related data and
-    stores them to the PMDB database.
-  - **PMDB database**: a PostgreSQL instance storing license and advisory
-    data.
-  - **Exporter**: exports license/advisory data from the PMDB database to
-    public GCP buckets.
+    - **Feeder**: a scheduled job called by the PMDB deployment to publish data
+      from the relevant sources to pub/sub messages consumed by PMDB processors.
+    - **Advisory processor**: Runs as a Cloud Run instance and consumes messages
+      published by the advisory feeder containing advisory related data and
+      stores them to the PMDB database.
+    - **PMDB database**: a PostgreSQL instance storing license and advisory
+      data.
+    - **Exporter**: exports license/advisory data from the PMDB database to
+      public GCP buckets.
 - **GitLab database**: the database used by GitLab instances.
 - **CVE** (Common Vulnerabilities and Exposures): a list of publicly known
   information-security vulnerabilities. "A CVE" usually refers to a specific
@@ -189,4 +193,3 @@ flowchart LR
   focused on cybersecurity and infrastructure protection.
 - **KEV** (Known Exploited Vulnerabilities): a catalog of actively exploited
   vulnerabilities maintained by CISA
-
