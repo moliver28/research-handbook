@@ -118,9 +118,8 @@ Status: In progress
 - Calibrations & Workday input by Director+: 2024-06-24 to 2024-07-10
 - PBP & E-Group leader approvals: 2024-07-12
 - Workday Approvals: 2024-07-16 to 2024-07-18
-- Communication: 2024-07-24 to 2024-08-01
+- Communication: 2024-07-24 to 2024-08-01 (after fully approved in Workday)
 - Effective date for promotions: 2024-08-01
-- Communication: After fully approved in Workday
 - After communicating 1:1 with individuals **on or after 2023-07-24**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
 ## Planning
@@ -510,7 +509,7 @@ Note: There are no changes that are made in Workday for acting roles. To track a
 
 A person "acting" in the role is someone who occupies a role temporarily and will move back to their original role. "Acting" in a role may be to experiment with the role to determine if it fits an individual's career development path goals, or may be filling in for a vacant role while we hire someone to fill the role permanently. While interim is only applicable to the Engineering division, acting is used across GitLab.
 
-*Interviews are not required role Acting roles as they generally do not end in promotion, nor are direct reports in Workday generally moved to Acting managers.* The process for selecting someone for an acting position is:
+*Interviews are not required for Acting roles as they generally do not end in promotion, nor are direct reports in Workday generally moved to Acting managers.* The process for selecting someone for an acting position is:
 
 - Upcoming Acting roles will be discussed during staff meetings.
 - Leadership can gather interest from their team members for the upcoming acting roles.
