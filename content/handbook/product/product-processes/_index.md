@@ -917,15 +917,7 @@ stage group weekly meeting once a month.
 
 #### Customer meetings
 
-It's important to get direct feedback from our customers on things we've built,
-are building, or should be building. Some opportunities to do that will arise during
-[sales support meetings](#sales-support-meetings). As a PM you should also have dedicated
-[customer discovery meetings](#customer-discovery-meetings) or [continuous interviews](/handbook/product/product-processes/continuous-interviewing) with customers and prospects
-to better understand their pain points.
-
-As a PM you should facilitate opportunities for your engineering group to hear
-directly from customers too. Try to schedule customer meetings at times that
-are friendly to your group, invite them, and send them the recording and notes.  If you're looking for other ways to engage with customers here is a video on [finding, preparing for, and navigating Customer Calls as a Product Manager at GitLab](https://www.youtube.com/watch?v=HyVR_ybRkCY).
+It's important to get direct feedback from our customers on things we've built, are building, or should be building. Some opportunities to do that will arise during [sales support meetings](#sales-support-meetings). As a PM you should also have dedicated[customer discovery meetings](#customer-discovery-meetings) or [continuous interviews](/handbook/product/product-processes/continuous-interviewing) with customers and prospects to better understand their pain points. As a PM you should facilitate opportunities for your engineering group to hear directly from customers too. Try to schedule customer meetings at times that are friendly to your group, invite them, and send them the recording and notes.  If you're looking for other ways to engage with customers here is a video on [finding, preparing for, and navigating Customer Calls as a Product Manager at GitLab](https://www.youtube.com/watch?v=HyVR_ybRkCY).
 
 ##### Sales support meetings
 
@@ -1416,15 +1408,3 @@ Testing a new set of pages requires just 2 steps:
 1. Open the relevant stage's [grafonnet dashboard file](https://gitlab.com/gitlab-com/runbooks/-/tree/master/dashboards/product). Find the section corresponding to the desired group, and add an additional call to `productCommon.pageDetail`. The call arguments are `Chart Title`, `Alias` from above, and the tested `URL`. Ensure the JSON formatting is correct, the easiest way is to simply copy/paste from another line. A sample MR is available [here](https://gitlab.com/gitlab-com/runbooks/-/merge_requests/2719/diffs).
 
 Assign both MR's to a maintainer. After they are merged, the stage's Grafana dashboard will be automatically updated. A [video walkthrough](https://youtu.be/sGdzWKzMKpY) is available as well.
-
-## Product-specific people processes
-
-### Annual compensation review
-
-For our upcoming Annual Compensation Review (ACR) cycle, [this handbook page](/handbook/total-rewards/compensation/compensation-review-cycle) should be referenced as SSOT for content and processes related to the program. The timeline below outlines the Product division specific timeline the division will follow to ensure we have an appropriate amount of time to review compensation recommendations at all levels. Aside from the timeline itself, please reference the [ACR handbook page](/handbook/total-rewards/compensation/compensation-review-cycle) for additional detail and program information.
-
-- **2024-01-16 @ 5pm PT**: Due date for Managers and Senior Managers to submit slates in Workday
-- **2024-01-22 @ 5pm PT**: Due date for Directors to submit slates in Workday
-- **2024-01-26 @ 5pm PT**: Due date for Senior Directors and VPs to submit slates in Workday
-
-If managers would like to embed additional due dates or touch points within their teams they are free to do so on a team-by-team basis, as long as the overarching due dates are adhered to. Please reach out to your manager or People Business Partner if you have additional questions.
