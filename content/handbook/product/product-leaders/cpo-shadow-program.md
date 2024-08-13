@@ -1,7 +1,6 @@
 ---
 
 title: CPO Shadow Program
-aliases: /handbook/product/cpo-shadow-program
 ---
 
 {{% include "includes/product-handbook-links.md" %}}

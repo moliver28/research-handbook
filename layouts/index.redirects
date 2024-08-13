@@ -94,6 +94,21 @@
 /handbook/product/product-okrs/* /handbook/product/product-processes/product-okrs/:splat 301
 /handbook/product/single-application/* /handbook/product/groups/categories/gitlab-the-product/single-application/:splat 301
 /handbook/product/product-manager-role/* /handbook/product/product-management/:splat 301
+/handbook/product/gitlab-the-product /handbook/product/categories/gitlab-the-product/ 301
+/handbook/product/growth/ /handbook/product/groups/growth/ 301
+/handbook/product/categories/analytics/ /handbook/product/groups/analytics/ 301
+/handbook/product/cpo-shadow-program/ /handbook/product/product-leaders/cpo-shadow-program/ 301
+/handbook/product/product-leadership/ /handbook/product/product-leaders/product-leadership/ 301
+/handbook/product/internship/ /handbook/product/product-management/internship/ 301
+/handbook/product/product-manager-role/ /handbook/product/product-management/product-manager-role/ 301
+/handbook/product/analytics-instrumentation-guide/ /handbook/product/product-processes/analytics-instrumentation-guide/ 301
+/handbook/product/analytics-instrumentation-guide/service-usage-data-commitment/ /handbook/product/product-processes/analytics-instrumentation-guide/service-usage-data-commitment/ 301
+/handbook/product/product-processes/operating-cadences/board-deck-prep/ /handbook/product/product-processes/board-deck-prep/ 301
+/handbook/product/cross-functional-prioritization/ /handbook/product/product-processes/cross-functional-prioritization/ 301
+/handbook/product/making-gifs/ /handbook/product/product-processes/making-gifs/ 301
+/handbook/product/milestones/ /handbook/product/product-processes/milestones/ 301
+/handbook/product/product-safe-guidance/ /handbook/product/product-processes/product-safe-guidance/ 301
+/handbook/product/packaging-and-pricing/tiering-guidance-for-features/ /handbook/product/product-processes/tiering-guidance-for-features/ 301
 
 # Manage/Foundations restructure - Remove 2024-09-01
 /handbook/engineering/development/dev/manage/import-and-integrate/ /handbook/engineering/development/dev/foundations/import-and-integrate/ 301

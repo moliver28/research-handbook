@@ -2,7 +2,6 @@
 title: Product Team Board Meeting Prep
 description: >-
   This is the process for quarterly board meeting prep, specific to the Product / R&D Org. This process is revisited on a quarterly basis and aligns with the [broader company process](/handbook/board-meetings/#board-and-committee-composition). Feedback always welcome!
-aliases: /handbook/product/product-processes/operating-cadences/board-deck-prep
 ---
 
 ## High Level Timeline
