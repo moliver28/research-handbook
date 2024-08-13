@@ -217,15 +217,55 @@ This problem can be broken down into the following categories:
   * Any changes to the token creation may have an impact on how we lookup and
     enforce the authorization on the token. We will probably need to update the [`api_guard`][14]
 
-### Option 1: Generate an OAuth Access Token for each CI Job
+### Stage 1: Attach a Service Account to each `Ci::Build`
 
-With this option we could generate an OAuth App (`Doorkeeper::Application`) for
-each project and use that application to generate an OAuth Access Token for a
-service account user that is associated with of a custom role containing custom
-permissions. This option utilizes the existing custom roles and OAuth
-functionality and provides an extension point for API's outside of the
-`gitlab-rails` monolith to be able to look up the claims associated with a
-`CI_JOB_TOKEN` by making an API call to the `GET /oauth/token/info` endpoint.
+This option changes the user that is associated with each `Ci::Build` record to
+use a service account that can be attached to a custom role with custom permissions.
+
+```diff
+diff --git a/lib/gitlab/ci/pipeline/chain/build.rb b/lib/gitlab/ci/pipeline/chain/build.rb
+index 6feb693221b5..ef8688dfd6ef 100644
+--- a/lib/gitlab/ci/pipeline/chain/build.rb
++++ b/lib/gitlab/ci/pipeline/chain/build.rb
+@@ -16,7 +16,7 @@ def perform!
+               target_sha: @command.target_sha,
+               tag: @command.tag_exists?,
+               trigger_requests: Array(@command.trigger_request),
+-              user: @command.current_user,
++              user: user_for(@command),
+               pipeline_schedule: @command.schedule,
+               merge_request: @command.merge_request,
+               external_pull_request: @command.external_pull_request,
+@@ -26,6 +26,18 @@ def perform!
+           def break?
+             @pipeline.errors.any?
+           end
++
++          def user_for(command)
++            Feature.enabled?(:use_ci_user_account, command.project) ? current_user : service_user
++          end
++
++          def current_user
++            @command.current_user
++          end
++
++          def service_user
++            # TODO:: discover the service account to use for this build
++          end
+         end
+       end
+     end
+```
+
+### Stage N: Generate an OAuth Access Token for each CI Job
+
+With this option we would generate an OAuth App (`Doorkeeper::Application`) and
+use that application to generate an OAuth Access Token for a service account
+user that is associated with of a custom role containing custom permissions.
+This option utilizes the existing custom roles and OAuth functionality and
+provides an extension point for API's outside of the `gitlab-rails` monolith
+to be able to look up the claims associated with a `CI_JOB_TOKEN` by making an
+API call to the `GET /oauth/token/info` endpoint.
 
 Pros:
 
@@ -307,46 +347,6 @@ alternative solution/path.
 
 * Build a [Security Token Service][7]
 * Migrating to the [GitLab OAuth2 provider][10]
-
-### Option 2: Attach a Service Account to each `Ci::Build`
-
-This option changes the user that is associated with each `Ci::Build` record to
-a service account that can be attached to a custom role with custom permissions.
-
-```diff
-diff --git a/lib/gitlab/ci/pipeline/chain/build.rb b/lib/gitlab/ci/pipeline/chain/build.rb
-index 6feb693221b5..ef8688dfd6ef 100644
---- a/lib/gitlab/ci/pipeline/chain/build.rb
-+++ b/lib/gitlab/ci/pipeline/chain/build.rb
-@@ -16,7 +16,7 @@ def perform!
-               target_sha: @command.target_sha,
-               tag: @command.tag_exists?,
-               trigger_requests: Array(@command.trigger_request),
--              user: @command.current_user,
-+              user: user_for(@command),
-               pipeline_schedule: @command.schedule,
-               merge_request: @command.merge_request,
-               external_pull_request: @command.external_pull_request,
-@@ -26,6 +26,18 @@ def perform!
-           def break?
-             @pipeline.errors.any?
-           end
-+
-+          def user_for(command)
-+            Feature.enabled?(:use_ci_user_account, command.project) ? current_user : service_user
-+          end
-+
-+          def current_user
-+            @command.current_user
-+          end
-+
-+          def service_user
-+            # TODO:: discover the service account to use for this build
-+          end
-         end
-       end
-     end
-```
 
 [1]: https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html
 [2]: https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/runner_tokens/
