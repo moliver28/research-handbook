@@ -640,9 +640,12 @@
 ## Please keep the required handbook sections near the end, with the exception of fallback items, such as `handbook` and `Job Families`
 ##
 [CODEOWNERS] @gitlab-com/office-of-the-ceo @gitlab-com/content-sites @gitlab-com/egroup
-/.gitlab/
+/.gitlab/CODEOWNERS
 
 [handbook-operations] @gitlab-com/content-sites @gitlab-com/content-sites/handbook-tools @gitlab-com/egroup
+/.gitlab/merge_request_templates/
+/.gitlab/issue_templates/
+/.gitlab/route-map.yml
 /.editorconfig
 /.gitignore
 /.gitlab-ci.yml
