@@ -1,5 +1,6 @@
 ---
 title: Product Internship - Best Practices
+aliases: /handbook/product/internship
 ---
 
 This document describes best practices for [internship for learning](/handbook/people-group/learning-and-development/internship-for-learning/) with Product.

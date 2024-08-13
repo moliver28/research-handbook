@@ -1,5 +1,6 @@
 ---
 title: GitLab the Product
+aliases: /handbook/product/gitlab-the-product
 ---
 
 {{% include "includes/product-handbook-links.md" %}}
