@@ -1,5 +1,6 @@
 ---
 title: Product Manager SAFE Guidance
+aliases: handbook/product/product-safe-guidance
 ---
 
 ## Overview
