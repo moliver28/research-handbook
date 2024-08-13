@@ -4,7 +4,7 @@ title: "Compliance Frameworks ADR 005: Custom Adherence Report"
 
 ## Context
 
-We delivered [compliance standards adherence report](https://gitlab.com/groups/gitlab-org/-/epics/11052) MVC. This was
+We delivered [compliance standards adherence report MVC](../compliance_standards_adherence_dashboard_mvc.md).This was
 well received by our customers, however, we received feedbacks around the possibility of customising the compliance
 adherence dashboard. The existing compliance standards adherence report displays all the compliance adherence checks
 that are currently supported and displays the compliance status of all the projects within that group. Currently, users
@@ -22,7 +22,11 @@ checks together as per their need. For example: A requirement could be "Code saf
 1. Compliance Check: They belong to a compliance requirement and denotes one of the compliance adherence checks
 supported by GitLab product.
 
-We thought of the following approaches to implement custom compliance adherence report:
+We thought of the following approaches to implement custom compliance adherence report
+
+1. [Using YAML for storing compliance adherence configuration](#using-yaml-for-storing-compliance-adherence-configuration)
+2. [Storing the compliance adherence configuration in database as JSON](#storing-the-compliance-adherence-configuration-in-database-as-json)
+3. [Storing the compliance adherence configuration in database as relational data](#storing-the-compliance-adherence-configuration-in-database-as-relational-data) (selected approach)
 
 ### Using YAML for storing compliance adherence configuration
 
@@ -172,10 +176,18 @@ that have compliance frameworks applied with valid `requirements` configuration.
     projects --> namespaces : belongs_to
     namespaces --> compliance_management_frameworks : has_many
     namespaces <-- compliance_management_frameworks : belongs_to
+    projects --> project_compliance_standards_adherence : has_many
     projects <-- project_compliance_standards_adherence : belongs_to
     ```
 
-1. In the next iteration we would also allow importing and exporting the compliance adherence report configuration.
+1. We have dropped the `standard` column from the `project_compliance_standards_adherence` since we don't want to
+associate compliance adherence checks with a standard anymore, therefore, allowing the users to customise and group
+checks as per their requirements.
+1. Similar to the previous approaches, we would still be storing results for all the compliance adherence checks for
+ultimate projects, irrespective of the frameworks applied to that project, however, we would only display the results
+of compliance adherence checks for the projects that have compliance frameworks applied with requirements configured
+at the compliance standards adherence dashboard.
+1. In the next iteration we would also allow importing and exporting the compliance adherence report configurations.
 
 ## Decision
 
