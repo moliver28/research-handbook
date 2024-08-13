@@ -6,7 +6,7 @@ title: "Compliance Frameworks ADR 004: Compliance Adherence Checks"
 
 We need to offer compliance tools to enable our customers to know if they adhere to certain rules, standards,
 regulations, and guidelines. For this we need to create compliance adherence checks within GitLab that can be related
-to the software development standards in the industry.
+to the software development standards, frameworks, regulations or laws in the industry.
 
 ## Approach
 
@@ -16,8 +16,8 @@ We thought of the following approaches for creating the concept of compliance ad
 
 1. In this approach we planned to directly use the existing Audit Events that are stored in the database as compliance
 adherence checks.
-1. As an example, consider that a setting like Merge Request Approval Settings to prevent approval by merge request
-author is enabled. This means that we have ensured that a merge request author cannot approve their own merge request.
+1. As an example, consider that Merge Request Approval Settings to prevent approval by merge request author is enabled.
+This means that we have ensured that a merge request author cannot approve their own merge request.
 1. On the compliance standards adherence dashboard, we planned to directly fetch the last audit event related to that
 compliance check and would display the compliance status accordingly.
 1. To further understand this, let us assume that we have a compliance check called "Prevent approval by merge request
@@ -82,12 +82,10 @@ schema:
         project_compliance_standards_adherence : namespace_id bigint
         project_compliance_standards_adherence : check_name smallint
         project_compliance_standards_adherence : status smallint
-        project_compliance_standards_adherence : standard smallint
     ```
 
 1. `check_name` is Enum and contains values like "prevent_approval_by_merge_request_author",
 "prevent_approval_by_merge_request_committers", "at_least_two_approvals", etc.
-1. `standard` column contains the name of the standard to which the check belong to, like SOC2, GitLab standard, etc.
 1. `status` can have values "success" or "fail" denoting the status of that compliance adherence check for a project.
 1. This table is used to display the status of compliance adherence checks for projects on the compliance
 adherence dashboard.

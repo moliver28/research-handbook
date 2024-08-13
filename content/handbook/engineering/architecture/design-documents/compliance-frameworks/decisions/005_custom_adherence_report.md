@@ -159,7 +159,6 @@ that have compliance frameworks applied with valid `requirements` configuration.
         updated_at: timestamp
         project_id: bigint
         namespace_id: bigint
-        standard: smallint
         check_name: smallint
         status: smallint
     }
