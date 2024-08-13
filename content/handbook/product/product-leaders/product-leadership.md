@@ -1,6 +1,6 @@
 ---
 title: Product Leadership
-aliases: handbook/product/product-leadership
+aliases: /handbook/product/product-leadership
 ---
 
 {{% include "includes/product-handbook-links.md" %}}

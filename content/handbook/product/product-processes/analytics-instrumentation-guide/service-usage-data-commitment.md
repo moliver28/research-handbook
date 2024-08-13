@@ -1,6 +1,6 @@
 ---
 title: Our Commitment to Individual User Privacy in relation to Service Usage Data
-aliases: handbook/product/analytics-instrumentation-guide/service-usage-data-commitment
+aliases: /handbook/product/analytics-instrumentation-guide/service-usage-data-commitment
 ---
 
 ## Our Commitment to Individual User Privacy in relation to Service Usage Data

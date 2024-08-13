@@ -1,6 +1,6 @@
 ---
 title: How the growth section works
-aliases: handbook/product/growth
+aliases: /handbook/product/growth
 ---
 
 ## Overview

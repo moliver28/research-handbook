@@ -1,6 +1,6 @@
 ---
 title: Tiering Strategy & Guidance for Product Managers
-aliases: handbook/product/packaging-and-pricing/tiering-guidance-for-features
+aliases: /handbook/product/packaging-and-pricing/tiering-guidance-for-features
 ---
 
 On this page
