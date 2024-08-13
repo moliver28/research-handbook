@@ -92,7 +92,7 @@
 /handbook/product/categories/verify/* /handbook/product/groups/verify/:splat 301
 /handbook/product/how-to-engage/* /handbook/product/product-management/#how-to-engage-product-managers 301
 /handbook/product/product-okrs/* /handbook/product/product-processes/product-okrs/:splat 301
-/handbook/product/single-application/* /handbook/product/groups/categories/gitlab-the-product/:splat 301
+/handbook/product/single-application/* /handbook/product/groups/categories/gitlab-the-product/single-application/:splat 301
 /handbook/product/product-manager-role/* /handbook/product/product-management/:splat 301
 
 # Manage/Foundations restructure - Remove 2024-09-01
