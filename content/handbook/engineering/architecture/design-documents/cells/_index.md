@@ -231,6 +231,7 @@ This section links all different technical proposals that are being evaluated.
   - Planned: Indexing Service
 - [Feature Flags](feature_flags.md)
 - [Cluster wide unique sequences](unique_sequences.md)
+- [Routable Tokens](routable_tokens.md)
 
 ## Impacted features
 
