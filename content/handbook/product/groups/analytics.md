@@ -1,5 +1,6 @@
 ---
 title: "Analytics Section"
+aliases: handbook/product/categories/analytics
 ---
 
 ## What we cover

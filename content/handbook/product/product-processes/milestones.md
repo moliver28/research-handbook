@@ -1,5 +1,6 @@
 ---
 title: "Product Milestones"
+aliases: handbook/product/milestones
 ---
 
 When planning, Product Managers plan to GitLab milestones. Here is the process for creating and maintaining them.
