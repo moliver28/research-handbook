@@ -308,6 +308,46 @@ alternative solution/path.
 * Build a [Security Token Service][7]
 * Migrating to the [GitLab OAuth2 provider][10]
 
+### Option 2: Attach a Service Account to each `Ci::Build`
+
+This option changes the user that is associated with each `Ci::Build` record to
+a service account that can be attached to a custom role with custom permissions.
+
+```diff
+diff --git a/lib/gitlab/ci/pipeline/chain/build.rb b/lib/gitlab/ci/pipeline/chain/build.rb
+index 6feb693221b5..ef8688dfd6ef 100644
+--- a/lib/gitlab/ci/pipeline/chain/build.rb
++++ b/lib/gitlab/ci/pipeline/chain/build.rb
+@@ -16,7 +16,7 @@ def perform!
+               target_sha: @command.target_sha,
+               tag: @command.tag_exists?,
+               trigger_requests: Array(@command.trigger_request),
+-              user: @command.current_user,
++              user: user_for(@command),
+               pipeline_schedule: @command.schedule,
+               merge_request: @command.merge_request,
+               external_pull_request: @command.external_pull_request,
+@@ -26,6 +26,18 @@ def perform!
+           def break?
+             @pipeline.errors.any?
+           end
++
++          def user_for(command)
++            Feature.enabled?(:use_ci_user_acount, command.project) ? current_user : service_user
++          end
++
++          def current_user
++            @command.current_user
++          end
++
++          def service_user
++            # TODO:: discover the service account to use for this build
++          end
+         end
+       end
+     end
+```
+
 [1]: https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html
 [2]: https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/runner_tokens/
 [3]: https://docs.gitlab.com/ee/security/token_overview.html
