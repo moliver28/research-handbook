@@ -46,6 +46,7 @@ This section links all different technical proposals that are being evaluated.
 - [Cluster wide unique sequences](unique_sequences.md)
 - [Cells: Infrastructure](./infrastructure/_index.md)
 - [Organization migration](migration.md)
+- [Routable Tokens](routable_tokens.md)
 
 ## Impacted features
 
