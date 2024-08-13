@@ -700,8 +700,7 @@
 /content/handbook/security/isms.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/password-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/physical-security-standard-for-company-assets.md @joshlemos @jlongo_gitlab @juliedavila @plafoucriere @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/product-security/vulnerability-management/ @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/product-security/vulnerability-management/encryption-policy.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/product-security/vulnerability-management/_index.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/records-retention-deletion.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/governance/sec-training.md @cynthiamiller @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-compliance/access-reviews.md @cynthiamiller @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
