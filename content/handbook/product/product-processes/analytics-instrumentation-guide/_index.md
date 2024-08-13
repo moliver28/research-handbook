@@ -1,5 +1,6 @@
 ---
 title: Analytics Instrumentation Guide
+aliases: /handbook/product/analytics-instrumentation-guide
 ---
 
 ## Analytics Instrumentation Overview

@@ -17,7 +17,7 @@ If this page serves it's purpose, Product Analysts should be able to visit this 
 
 - Need to quickly learn how a certain Stage/Group feature works? [GitLab Docs](https://docs.gitlab.com/)
 
-- [Metrics dictionary](https://metrics.gitlab.com/) contains metrics and events collected in Service Ping and Snowplow. For more information visit the dedicated [Analytics Instrumentation Guide](/handbook/product/analytics-instrumentation-guide/#metrics-dictionary).
+- [Metrics dictionary](https://metrics.gitlab.com/) contains metrics and events collected in Service Ping and Snowplow. For more information visit the dedicated [Analytics Instrumentation Guide](/handbook/product/product-processes/analytics-instrumentation-guide/#metrics-dictionary).
 
 - [Features by Group handbook page](/handbook/product/categories/features/#planproject-management-group) contains a tabular breakdown of features included in each Stage Group by Core, Premium or Ultimate categories.
 

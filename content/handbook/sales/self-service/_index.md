@@ -105,7 +105,7 @@ Below is a list of our cross-functional partners and high-level description of h
 
 |  **Team** | **Sub-Team** | **How We Partner** |
 | :--------------- | :----------------- | :----------------- |
-| Fulfillment | [Analytics Instrumentation](/handbook/product/analytics-instrumentation-guide/) | The Self-Service Team works with the product intelligence team in cases where our product data set is incomplete (i.e. instrumentation gaps, accessibility, accuracy) when the Self-Service Team team is attempting to answer product questions related to self-service. |
+| Fulfillment | [Analytics Instrumentation](/handbook/product/product-processes/analytics-instrumentation-guide/) | The Self-Service Team works with the product intelligence team in cases where our product data set is incomplete (i.e. instrumentation gaps, accessibility, accuracy) when the Self-Service Team team is attempting to answer product questions related to self-service. |
 | Fulfillment | License, Purchase, and Utilization | |
 | Growth | [Product Analysis](/handbook/product/product-analysis/#working-with-us) | Our teams have similar functions as it relates to product analytics (e.g. experiment analysis, product KPI tracking, ad hoc product analyses); however the lens through which we ask questions (product v. self-service) and our stakeholders (PMs v. Self-Service Team/sales) differ. <br> <br> We share knowledge, best practices and output of our analyses across our two teams. |
 | Growth | [Conversion](/handbook/engineering/development/growth/) | We partner on experiments related to trial/free to paid self-service conversion. Example: define product qualified lead strategy (PQL) to understand how we can maximize for nARR while emphasizing efficiency through self-service. |

@@ -114,7 +114,7 @@ should satisfy this inequality:
 Despite its minimal form, the change
 
 - Always requires documentation.
-- Must track usage from day 1, if the feature has a meaningful impact. You can find more information on how we think about monitoring feature engagement in our [Analytics Instrumentation Guide](/handbook/product/analytics-instrumentation-guide)
+- Must track usage from day 1, if the feature has a meaningful impact. You can find more information on how we think about monitoring feature engagement in our [Analytics Instrumentation Guide](/handbook/product/product-processes/analytics-instrumentation-guide)
 
 [![xkcd.com](https://imgs.xkcd.com/comics/optimization.png)](https://xkcd.com/1691/)
 
@@ -1344,7 +1344,7 @@ When considering open source software in build vs. "buy" decisions we utilize th
 
 ## Analytics instrumentation guide
 
-Please see [Analytics Instrumentation Guide](/handbook/product/analytics-instrumentation-guide)
+Please see [Analytics Instrumentation Guide](/handbook/product/product-processes/analytics-instrumentation-guide)
 
 ## Post Launch Instrumentation Guide
 
