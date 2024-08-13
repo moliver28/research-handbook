@@ -19,6 +19,10 @@ Release posts follow a process outlined here, and the templates that are used to
 
 At a high level, the Release post schedule is:
 
+### Monday, 4 weeks before release
+
+If there is no release post manager assigned for the upcoming release, the assigned PLT member for the release is responsible for sourcing a product manager to fill the role according to our [fair scheduling principle](/handbook/marketing/blog/release-posts/#release-post-manager).
+
 ### Monday, 3 weeks before release
 
 - Through **automation**, the [Release Post Process Kickoff Tasks](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules) run in a scheduled pipeline invoking the `bin/rake release_post:start` rake task. ([pipeline configuration](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab-ci.yml#L280-288); [rake task](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/lib/tasks/release_post.rake#L9))
@@ -63,7 +67,7 @@ MRs added after the Thursday, 1 week before release should target the `release-x
 - **Release Post Manager and Technical Writer** perform final reviews
   - Changes after <time datetime="16:00">4 pm UTC (11 am ET / 8 am PT)</time> on the Monday of release week will be done via the `release-X-Y` branch and are subject to approval by the Release Post Manager.
   - The TW Lead verifies the deprecations and removals links in the release post
-  - RPM create a [What's New](/handbook/product/gitlab-the-product/index.html#using-whats-new-to-communicate-updates-to-users) MR
+  - RPM create a [What's New](/handbook/marketing/blog/release-posts/#creating-an-mr-for-whats-new-entries) MR
 
 {{% note %}}
 The Monday through Tuesday of release week can fall on vacations or holidays. PMs should designate who to respond to time-sensitive inquiries should they be unreachable. Release Post Managers are empowered to make decisions and [display bias for action](/handbook/values/#bias-for-action) if they haven't received a response by EOD on the Tuesday of release week.
@@ -294,6 +298,7 @@ The [Instructions](#release-post-item-instructions) below apply up to the Monday
 ### Key dates
 
 - During kickoff preparation, or when planning for the upcoming milestone: consider creating the release posts early to enable the team to [work backwards](https://www.product-frameworks.com/Amazon-Product-Management.html)
+- **Monday, four weeks before the release - DRIs Identified**: Release post manager, technical writer, technical advisor, and product marketing manager DRIs identified and added to the [schedule](/handbook/marketing/blog/release-posts/managers/) 
 - **Thursday, three weeks before the release - Drafted**: ready for review by Product Marketing, Tech Writer, and PM Group Manager or PM Director
 - **Monday through Thursday the week before the release - Reviewed**: reviewed by all required stakeholders, content revised as needed and ready to be merged
 - **Thursday, 1 week before release - Merged**: release post item MR merged by the Engineering Manager if feature has been merged
