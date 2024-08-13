@@ -71,6 +71,8 @@ Edits made during a zoom call only last for the length of the call, so it should
 | `IM` - **Incident Manager** [Information about IM onboarding](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/) | The Incident Manager is engaged when incident resolution requires coordination from multiple parties. The Incident Manager is the tactical leader of the incident response team—not a person performing technical work. The IM checklist is in our [runbooks](https://gitlab.com/gitlab-com/runbooks/-/blob/master/incidents/general_incidents.md#imoc-checklist). The Incident Manager assembles the incident team by engaging individuals with the skills and information required to resolve the incident. | The Incident Manager On Call rotation is in [PagerDuty](https://gitlab.pagerduty.com/schedules#?query=incident%20manager) |
 | `IM Coordinator` - **Incident Manager Coordinator** | The IM Coordinator is responsible for helping to coordinate IM coverage, on-boarding and off-boarding. | A single person dedicated to the role in the Infrastructure department |
 | `CMOC` - Incident **Communications Manager On Call** | The CMOC disseminates information internally to stakeholders and externally to customers across multiple media (e.g. GitLab issues, status.gitlab.com, etc.). | The **Communications Manager** is generally member of the support team at GitLab. Notifications to the `Incident Management - CMOC` service in PagerDuty will go to the rotations setup for CMOC. |
+| `Infrastructure Leader` | The Infrastructure Leader is part of the Infrastructure Leadership rotation that handles escalations for high severity incidents. | A Staff+ or EM in the Infrastructure, Platform department. |
+| `Infrastructure Liaison` | The Infrastructure Liaison is someone who speaks on behalf of the department to the e-team for severity 1 incidents. | A [grade 10+](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) member of Infrastructure. |
 
 These definitions imply several on-call rotations for the different roles. Note that not all incidents include engagement from Incident Managers or Communication Managers.
 
@@ -162,7 +164,60 @@ During an incident, the CMOC will:
 1. Notify GitLab stakeholders (customer success and community team) of current incident and reference where to find further information. Provide additional update when the incident is mitigated.
 1. Given GitLab's directive to [err on the side of declaring incidents early and often](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack), it is important for the Communications Manager not to make public communications without first confirming with the Engineer on Call and Incident Manager that the incident has significant external customer impact. Rushing to communicate incidents before understanding impact can lead to a public perception of reliability impacts that may not be accurate, because we regularly declare an incident at Severity 1 or 2 initially and then downgrade it one or even two levels once the scope of customer impact is more clearly understood.
 
+### Infrastructure Leader
+
+To page the Incident Leader directly, run `/pd trigger` and choose the `Infrastructure Leader` as the impacted service.
+
+The Infrastructure Leadership is on the escalation path for both Engineer On Call (EOC) and Incident Manager (IM).
+This is not a substitute or replacement for the active Incident Manager (unless the current IM is unavailable).
+
+They will be paged in the following circumstances:
+
+1. If IM is unable to respond to a page within 15 minutes.
+1. If there are multiple ongoing incidents that is overloading the EOC, or if coordination is required among multiple SREs, the Infrastructure Leader can be paged to help coordinate recovery and bring in additional help if needed.
+
+When paged, the Infrastructure Leader will:
+
+1. Join the incident call
+1. Ask the EOC if help is needed from additional SREs.
+1. Ask the IM to ensure they are able to fulfill their duties.
+1. Be the primary technical point of contact for the IM/CMOC to ensure the EOC can focus completely on remediation.
+
+### Infrastructure Liaison
+
+To page the Incident Leader directly, run `/pd trigger` and choose the `Infrastructure Liaison` as the impacted service.
+
+During a verified Severity 1 Incident the IM will page the Infrastructure Liaison.
+This is not a substitute or replacement for the active Incident Manager.
+
+When paged, the Infrastructure Liaison will:
+
+1. Make an overall evaluation of the incident and further validation of Severity.
+1. Assist with further support from other teams, including those outside of Engineering (as appropriate)
+1. Post a notice to e-group slack channel. This notice does not have to be expedited, but should occur once there is a solid understanding of user impact as well as the overall situation and current response activities.  The e-group notice should be in this format
+
+```markdown
+:s1: **Incident on GitLab.com**
+**— Summary —**
+(include high level summary)
+**— Customer Impact —**
+(describe the impact to users including which service/access methods and what percentage of users)
+**— Current Response —**
+(bullet list of actions)
+**— Production Issue —**
+ Main incident: (link to the incident)
+ Slack Channel: (link to incident slack channel)
+```
+
+1. After posting the notice, continue to engage with the incident as needed and also post updates to a thread of the e-group notification when there are material/significant updates.
+
 ## References
+
+### Other escalations
+
+Further support is available from the Scalability and Delivery Groups if required.
+Scalability leadership can be reached via PagerDuty [Scalability Escalation](https://gitlab.pagerduty.com/escalation_policies#PDJ160O) (further [details available on their team page](/handbook/engineering/infrastructure/team/scalability/index.html#emergency-escalation-during-s1s2-incidents)).
+Delivery leadership can be reached via PagerDuty. See the [Release Management Escalation](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation) steps on the Delivery group page.
 
 ### Incident Mitigation Methods - EOC/Incident Manager
 
@@ -190,7 +245,7 @@ Occasionally we encounter multiple incidents at the same time. Sometimes a singl
 When there are multiple incidents and you decide that additional incident manager help is required, take these actions:
 
 1. Post a slack message in #im-general as well as #incident-management asking for additional Incident Manager help.
-1. If your ask is not addressed via slack, escalate to  [Infastructure Leadership](https://gitlab.pagerduty.com/service-directory/PJKOEIS) in PagerDuty.
+1. If your ask is not addressed via slack, escalate to  [Infrastructure Leadership](https://gitlab.pagerduty.com/service-directory/PJKOEIS) in PagerDuty.
 
 If a second incident zoom is desired, choose which incident will move to the new zoom and create a new meeting in zoom.  Be sure to edit the channel topic of the incident slack channel to indicate the correct zoom link.
 
@@ -215,32 +270,6 @@ Example:
 ```
 
 If the EOC does not respond because they are unavailable, you should escalate the incident using the PagerDuty application, which will alert Infrastructure Engineering leadership.
-
-### Infrastructure Leadership Escalation
-
-During a verified Severity 1 Incident the IM will page for Infrastructure Leadership.  This is not a substitute or replacement for the active Incident Manager. The Infrastructure Leadership responsibilities include:
-
-1. Overall evaluation of the incident and further validation of Severity.
-1. Assistance with further support from other teams, including those outside of Engineering (as appropriate)
-1. Posting a notice to e-group slack channel. This notice does not have to be expedited, but should occur once there is a solid understanding of user impact as well as the overall situation and current response activities.  The e-group notice should be in this format
-
-```markdown
-:s1: **Incident on GitLab.com**
-**— Summary —**
-(include high level summary)
-**— Customer Impact —**
-(describe the impact to users including which service/access methods and what percentage of users)
-**— Current Response —**
-(bullet list of actions)
-**— Production Issue —**
- Main incident: (link to the incident)
- Slack Channel: (link to incident slack channel)
-```
-
-1. After posting the notice, continue to engage with the incident as needed and also post updates to a thread of the e-group notification when there are material/significant updates.
-
-Further support is available from the Scalability and Delivery Groups if required. Scalability leadership can be reached
-via PagerDuty [Scalability Escalation](https://gitlab.pagerduty.com/escalation_policies#PDJ160O) (further [details available on their team page](/handbook/engineering/infrastructure/team/scalability/index.html#emergency-escalation-during-s1s2-incidents)). Delivery leadership can be reached via PagerDuty. See the [Release Management Escalation](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation) steps on the Delivery group page.
 
 ### How to engage the EOC, IM or CMOC?
 
@@ -507,7 +536,7 @@ There are four data classification levels defined in GitLab's [Data Classificati
 
 The Incident Manager should exercise caution and their best judgement, in general we prefer to use internal notes instead of marking an entire issue confidential if possible.
 A couple lines of non-descript log data may not represent a data security concern, but a larger set of log, query, or other data must have more restrictive access.
-If assistance is required follow the [Infrastructure Leadership Escalation process](#infrastructure-leadership-escalation).
+If assistance is required follow the [Infrastructure Liaison Escalation process](#infrastructure-liaison).
 
 ## Incident Workflow
 
