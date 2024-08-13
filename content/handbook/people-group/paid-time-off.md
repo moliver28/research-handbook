@@ -22,10 +22,6 @@ If you are taking Parental Leave, please see our [Parental Leave Policy](/handbo
 
 ## A GitLab Team Member's Guide to Time Off
 
-A support engineer remarked that "In the 3 months I've been at GitLab, I've taken more time off than the last 2 years at my previous job."
-
-Another great example of taking time off is a GitLab team member taking a day to do some spring cleaning. Vacations don't have to be trips to exotic places, but instead could be taking some time for oneself at home.
-
 If you are taking Parental Leave, please see our [Parental Leave Policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 Paid time off is in addition to any [official public holidays](#holidays) that apply to the country where you live, and [Friends and Family days]({{< ref "family-and-friends-day" >}}). When accounting for in [Time Off by Deel](#time-off-by-deel), please use the label `Public Holiday` or `Friends and Family`. This helps us to ensure that all of our Team Members are meeting at least the [Statutory Vacation Requirements](#statutory-vacation-requirements).

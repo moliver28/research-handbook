@@ -70,6 +70,7 @@ Pairify can be used in the following Slack channels:
 - [`#spt_pairing`](https://gitlab.enterprise.slack.com/archives/C03UW0HPBGD)
 - [`#spt_amer`](https://gitlab.enterprise.slack.com/archives/C07EYM9NNE4)
 - [`#spt_us-government`](https://gitlab.enterprise.slack.com/archives/C03RTN3JEJ2)
+- [`#spt_us-gov-evening-overnight`](https://gitlab.enterprise.slack.com/archives/C06C3DBT72L)
 - [`#support_team-chat`](https://gitlab.enterprise.slack.com/archives/CCBJYEWAW)
 - [Support Pod](https://gitlab.com/gitlab-com/support/support-pods) channels
 

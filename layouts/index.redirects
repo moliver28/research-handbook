@@ -94,3 +94,7 @@
 /handbook/product/product-okrs/* /handbook/product/product-processes/product-okrs/:splat 301
 /handbook/product/single-application/* /handbook/product/groups/categories/gitlab-the-product/:splat 301
 /handbook/product/product-manager-role/* /handbook/product/product-management/:splat 301
+
+# Manage/Foundations restructure - Remove 2024-09-01
+/handbook/engineering/development/dev/manage/import-and-integrate/ /handbook/engineering/development/dev/foundations/import-and-integrate/ 301
+/handbook/engineering/development/dev/manage/foundations/ /handbook/engineering/development/dev/foundations/ 301

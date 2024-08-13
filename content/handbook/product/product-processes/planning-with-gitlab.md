@@ -45,7 +45,7 @@ to see if a similar issue already exists. We shouldn't create duplicates if we c
     - set a due date
     - add weight - weight represents the technical complexity and should be
     defined by our developers
-1. Assign labels for [work type classification](/handbook/engineering/metrics/#work-type-classification). 
+1. Assign labels for [work type classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification). 
 1. Leave a comment and tag the product manager to triage the issue. 
 Mentioning someone in an issue comment will trigger the notification mechanisms
 chosen by the people who are mentioned - therefore there is no need to notify
@@ -55,7 +55,7 @@ people in another channel after the issue has been created (Slack, email).
 
 Feature issues identify work to support the implementation of a feature and/or results in an improvement in the user experience.
 
-- When considering whether an issue is [a missing feature or a bug](/handbook/product/product-processes/#issues), refer to the [definition of an MVC](/handbook/values/#minimal-viable-change-mvc) and [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done) for general guidance that works well in most cases.
+- When considering whether an issue is [a missing feature or a bug](/handbook/product/product-processes/planning-with-gitlab/#issues), refer to the [definition of an MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) and [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done) for general guidance that works well in most cases.
 - If there is doubt about whether you could expect something to be there or work, it's a missing feature.
 - We iterate to deliver features, so we often don't have functionality that people expect. For this reason, 'people could reasonably expect this functionality' does not make it a bug.
 - Whether the code results in user facing updates or not, if it is part of building the feature it should be labeled as such.
@@ -73,7 +73,7 @@ Bug issues report undesirable or incorrect behavior, such as:
 - Part of GitLab not working according to the documentation or a universal expectation.
 - Functionality inadvertently being broken, or changed from how it is supposed to work. This is also a [regression](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#regression-issues).
 - A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labeled as `~"type::bug"` and `~"bug::vulnerability"`.
-- Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#severity-labels) for classifying a bug as `severity::1`.
+- Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) for classifying a bug as `severity::1`.
 
 ### Epics
 
@@ -109,6 +109,8 @@ When creating a multi-iteration epic:
 4. Regularly review and update the epic as work progresses and priorities change
 
 It's important to balance between having a long-term vision and maintaining flexibility to adapt based on user feedback and changing priorities. Regularly reassess multi-iteration epics to ensure they still align with product strategy and user needs.
+
+We try to avoid creating epics for time frames as reaching a certain date shouldn't be considered an exit criteria for feature development. Instead scope epics for product features with a clear user experience goal in mind.
 
 #### Meta epics for longer term items
 
@@ -162,8 +164,8 @@ for your group can aid in tracking timeline oriented long-running efforts (here'
 As part of our planning process it is important that you maintain a prioritized
 [issue board](https://docs.gitlab.com/ee/user/project/issue_board.html) for your group.
 It's customary to call these boards `STAGE - GROUP - Planning` and to configure them to filter
-to all issues with your group label and with each milestone as a column (here's [an example](https://gitlab.com/groups/gitlab-org/-/boards/1131777?&label_name%5B%5D=group%3A%3Ahealth)).
+to all issues with your group label and with each milestone as a column (here's [an example](https://gitlab.com/groups/gitlab-org/-/boards/4873470?label_name[]=group%3A%3Aproduct%20planning)).
 
-As the [DRI](/handbook/people-group/directly-responsible-individuals/) for [milestone prioritization](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) it is your responsibility to ensure that all items on your Planning board are scheduled to a milestone#milestones and are prioritized both
+As the [DRI](/handbook/people-group/directly-responsible-individuals/) for [milestone prioritization](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone) it is your responsibility to ensure that all items on your Planning board are scheduled to a milestone#milestones and are prioritized both
 within and across milestones. This means the lowest priority in the current milestone would generally be the top priority in the next milestone.
 In this regard your planning exercise is a complete prioritization of the near term issues.

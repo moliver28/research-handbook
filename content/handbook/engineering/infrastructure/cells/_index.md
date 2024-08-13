@@ -210,12 +210,6 @@ DRI of Expansion Software Development
 **PM DRI**
 
 </td>
-
-<td>
-
-**TPM DRI**
-
-</td>
 </tr>
 
 <tr>
@@ -228,11 +222,6 @@ DRI of Expansion Software Development
 <td>
 
 [Josh Lambert](https://gitlab.com/joshlambert)
-
-</td>
-<td>
-
-[Ethan Guo](https://gitlab.com/yanguo1)
 
 </td>
 </tr>
@@ -249,11 +238,6 @@ DRI of Expansion Software Development
 [Christina Lohr](https://gitlab.com/lohrc)
 
 </td>
-<td>
-
-[Ethan Guo](https://gitlab.com/yanguo1)
-
-</td>
 </tr>
 
 <tr>
@@ -266,11 +250,6 @@ DRI of Expansion Software Development
 <td>
 
 [Josh Lambert](https://gitlab.com/joshlambert)
-
-</td>
-<td>
-
-[Ethan Guo](https://gitlab.com/yanguo1)
 
 </td>
 </tr>
@@ -287,11 +266,6 @@ DRI of Expansion Software Development
 [Christina Lohr](https://gitlab.com/lohrc)
 
 </td>
-<td>
-
-[Ethan Guo](https://gitlab.com/yanguo1)
-
-</td>
 </tr>
 <tr>
 
@@ -304,11 +278,6 @@ DRI of Expansion Software Development
 <td>
 
 [Christina Lohr](https://gitlab.com/lohrc)
-
-</td>
-<td>
-
-[Ethan Guo](https://gitlab.com/yanguo1)
 
 </td>
 </tr>
@@ -326,11 +295,6 @@ DRI of Expansion Software Development
 [Christina Lohr](https://gitlab.com/lohrc)
 
 </td>
-<td>
-
-[Ethan Guo](https://gitlab.com/yanguo1)
-
-</td>
 </tr>
 
 <tr>
@@ -343,11 +307,6 @@ DRI of Expansion Software Development
 <td>
 
 [Sam Wiskow](https://gitlab.com/swiskow)
-
-</td>
-<td>
-
-[Ethan Guo](https://gitlab.com/yanguo1)
 
 </td>
 </tr>
@@ -364,11 +323,6 @@ DRI of Expansion Software Development
 [Josh Lambert](https://gitlab.com/joshlambert)
 
 </td>
-<td>
-
-[Ethan Guo](https://gitlab.com/yanguo1)
-
-</td>
 </tr>
 <tr>
 
@@ -383,11 +337,6 @@ DRI of Expansion Software Development
 [Josh Lambert](https://gitlab.com/joshlambert)
 
 </td>
-<td>
-
-[Ethan Guo](https://gitlab.com/yanguo1)
-
-</td>
 </tr>
 
 <tr>
@@ -400,11 +349,6 @@ DRI of Expansion Software Development
 <td>
 
 [Christina Lohr](https://gitlab.com/lohrc)
-
-</td>
-<td>
-
-[Ethan Guo](https://gitlab.com/yanguo1)
 
 </td>
 </tr>

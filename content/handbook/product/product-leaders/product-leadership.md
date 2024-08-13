@@ -115,7 +115,7 @@ PM.
 - Work through your PMs as your path to success, rather than focusing on individual
 achievement. We have a culture of empowering individual PMs, not centralizing
 authority, and need to continue to reinforce that as we grow.
-- Help your PMs understand who [important internal and external customers](/handbook/product/product-processes/#sensing-mechanisms)
+- Help your PMs understand who [important internal and external customers](/handbook/product/product-processes/sensing-mechanisms/)
 are for them, ensuring that there's a productive ongoing dialogue with feedback
 coming in and then features being adopted internally. [Internal customers](/handbook/values/#dogfooding)
 should have at least a monthly check-in, with the internal customer section
