@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Essentials - Hands-On Lab: Static Application Security Testing (SAST)"
+title: "GitLab with Git Fundamentals - Hands-On Lab: Static Application Security Testing (SAST)"
 description: "This Hands-On Guide walks you through setting up a SAST job to track security flaws in code."
 ---
 

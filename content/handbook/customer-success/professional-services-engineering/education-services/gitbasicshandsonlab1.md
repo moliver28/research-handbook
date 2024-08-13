@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Essentials - Hands-On Lab: Create a project and issue"
+title: "GitLab with Git Fundamentals - Hands-On Lab: Create a project and issue"
 description: "This Hands-On Guide walks you through creating projects, issues, labels, as well as using quick actions."
 ---
 

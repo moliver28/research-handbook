@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Essentials - Hands-on Lab: Build a .gitlab-ci.yml file"
+title: "GitLab with Git Fundamentals - Hands-on Lab: Build a .gitlab-ci.yml file"
 description: "This Hands-On Guide walks you through creating and running a CI/CD pipeline via a .gitlab-ci.yml file."
 ---
 

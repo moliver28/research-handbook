@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Essentials - Hands-On Lab: Use GitLab To Merge Code"
+title: "GitLab with Git Fundamentals - Hands-On Lab: Use GitLab To Merge Code"
 description: "This Hands-On Guide walks you through creating projects, issues, and merge requests."
 ---
 
