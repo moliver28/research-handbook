@@ -118,6 +118,7 @@ Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can
 | [Regional Sales Dev Results Dashboard](https://gitlab.my.salesforce.com/01ZPL0000010KuD) | A regional dashboard that breaks down attainment into teams. |
 | [Last Q's attainment Dashboard](https://gitlab.my.salesforce.com/01ZPL000000uZKr) | A bird's-eye view of last Quarter's attainment per region. |
 | [6Sense 6QA Automation Dashboard](https://gitlab.my.salesforce.com/01ZPL000000kAPN) | This dashboard visualizes all the accounts that were automatically imported to SFDC via our 6Sense Automation. |
+| [Global SDR Ops Dashboard](https://gitlab.my.salesforce.com/01ZPL000001KPuX) | This dashboard shows all of the important activities and opportunities related to the global SDR teams. |
 
 ## The pages we frequently use
 
