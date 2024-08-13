@@ -333,7 +333,7 @@ index 6feb693221b5..ef8688dfd6ef 100644
            end
 +
 +          def user_for(command)
-+            Feature.enabled?(:use_ci_user_acount, command.project) ? current_user : service_user
++            Feature.enabled?(:use_ci_user_account, command.project) ? current_user : service_user
 +          end
 +
 +          def current_user
