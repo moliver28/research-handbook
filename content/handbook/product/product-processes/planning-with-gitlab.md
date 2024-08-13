@@ -110,6 +110,8 @@ When creating a multi-iteration epic:
 
 It's important to balance between having a long-term vision and maintaining flexibility to adapt based on user feedback and changing priorities. Regularly reassess multi-iteration epics to ensure they still align with product strategy and user needs.
 
+We try to avoid creating epics for time frames as reaching a certain date shouldn't be considered an exit criteria for feature development. Instead scope epics for product features with a clear user experience goal in mind.
+
 #### Meta epics for longer term items
 
 To categorize issues and epics into themes or longer running items, we recommend using labels. You can also use epics to track many issues related to a specific topic, even if there
