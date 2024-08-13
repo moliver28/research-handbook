@@ -35,7 +35,7 @@ We will follow our parent department [Engineering](/handbook/engineering/#divers
 The development team is responsible for developing products in the following categories:
 
 - [Sec](/handbook/engineering/development/sec/)
-- [Data Science](/handbook/engineering/development/data-science/)
+- [Govern](/handbook/engineering/development/govern/)
 - [Fulfillment](/handbook/engineering/development/fulfillment/)
 
 ## Team Members
