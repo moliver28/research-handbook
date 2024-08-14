@@ -17,19 +17,6 @@ toc_hide: true
 <!--
 Before you start:
 
-- Copy this file to a sub-directory and call it `_index.md` for it to appear in
-  the design documents list.
-- Remove comment blocks for sections you've filled in.
-  When your document ready for review, all of these comment blocks should be
-  removed.
-
-To get started with a document you can use this template to inform you about
-what you may want to document in it at the beginning. This content will change
-/ evolve as you move forward with the proposal.  You are not constrained by the
-content in this template. If you have a good idea about what should be in your
-document, you can ignore the template, but if you don't know yet what should
-be in it, this template might be handy.
-
 - **Fill out this file as best you can.** At minimum, you should fill in the
   "Summary", and "Motivation" sections.  These can be brief and may be a copy
   of issue or epic descriptions if the initiative is already on Product's
@@ -62,66 +49,34 @@ Document statuses you can use:
 - "implemented"
 - "postponed"
 - "rejected"
-
 -->
 
 <!-- Design Documents often contain forward-looking statements -->
 <!-- vale gitlab.FutureTense = NO -->
 
-<!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}
-
-<!--
-Don't add a h1 headline. It'll be added automatically from the title front matter attribute.
-
-For long pages, consider creating a table of contents.
--->
 
 ## Summary
 
-<!--
-This section is very important, because very often it is the only section that
-will be read by team members. We sometimes call it an "Executive summary",
-because executives usually don't have time to read entire document like this.
-Focus on writing this section in a way that anyone can understand what it says,
-the audience here is everyone: executives, product managers, engineers, wider
-community members.
-
-A good summary is probably at least a paragraph in length.
--->
-
 This document outlines a proposal on how to reduce the access that a
-[`CI_JOB_TOKEN`][1] has in the context for a CI job. This proposal identifies a
-series of stages to limit the duration and scope of these tokens through a
-series of phases to allow generating tokens with the least privilege necessary
-to adequately perform its' desired function.
+[`CI_JOB_TOKEN`][1] has in the context for a CI job. Today, this token has the
+save level of access as the user that initiated the pipeline and that violates
+the [principle of least privilege][17].
+
+The proposal in this document outlines several stages of development to work
+towards reducing the scope and access of this token.
 
 ## Motivation
 
-<!--
-This section is for explicitly listing the motivation, goals and non-goals of
-this document. Describe why the change is important, all the opportunities,
-and the benefits to users.
-
-The motivation section can optionally provide links to issues that demonstrate
-interest in a document within the wider GitLab community. Links to
-documentation for competing products and services is also encouraged in cases
-where they demonstrate clear gaps in the functionality GitLab provides.
-
-For concrete proposals we recommend laying out goals and non-goals explicitly,
-but this section may be framed in terms of problem statements, challenges, or
-opportunities. The latter may be a more suitable framework in cases where the
-problem is not well-defined or design details not yet established.
--->
-
-Today, when a CI job runs it is provided with a [`CI_JOB_TOKEN`][1] that can be
+Today, when a CI job runs, it is provided with a [`CI_JOB_TOKEN`][1] that can be
 used by the job to interact with other GitLab resources. This token is generated
-on behalf of the user that triggered the CI pipeline, effectively giving the CI
-job full the same level of access as the user.
+on behalf of the user who triggered the CI pipeline, effectively granting the CI
+job the same level of access as the user.
 
-This is a problem because it allows for token theft (i.e. `$ echo $CI_JOB_TOKEN`)
-allowing a bad actor to make use of another users access for the duration of the
-job that the token was generated for.
+This poses a problem because it allows for token theft
+(e.g. `$ echo $CI_JOB_TOKEN`), enabling a malicious actor to exploit another
+user's access for the duration of the job for which the token was generated.
+
 
 ### Goals
 
@@ -136,18 +91,11 @@ List the specific goals / opportunities of the document.
 This proposal attempts to decouple the access that a [`CI_JOB_TOKEN`][1] has
 away from a specific user to an entity with less access.
 
-- Decouple `CI_JOB_TOKEN` from a [`human` user account][9].
-- Propose a plan towards allowing the configuration of granular permissions for `CI_JOB_TOKEN`
-- Reduce the access that is available to the `CI_JOB_TOKEN`.
+- Decouple [`CI_JOB_TOKEN`][1] from the [user][9] that triggered the pipeline.
+- Apply the [PoLP][17] to each [`CI_JOB_TOKEN`][1]
+- Provide a mechanism for the configuration of permissions for each CI Job
 
 ### Non-Goals
-
-<!--
-Listing non-goals helps to focus discussion and make progress. This section is
-optional.
-
-- What is out of scope for this document?
--->
 
 - Auditing of token usage and generation
 - Changing the format of a token (i.e. [JWT][4])
@@ -155,32 +103,19 @@ optional.
 - OAuth2 specific integration or compatibility
 - Reducing the duration of access of a [`CI_JOB_TOKEN`][1]
 - Unify the [PAT scopes][8] with the existing [custom abilities][6]
-- Unifying the many different [types of tokens][3] into a single [authoritative token][10]
+- Unifying the [types of tokens][3] into a single [authoritative token][10]
 - [Removal of the runner registration token][2]
 
 ## Proposal
 
-<!--
-This is where we get down to the specifics of what the proposal actually is,
-but keep it simple!  This should have enough detail that reviewers can
-understand exactly what you're proposing, but should not include things like
-API designs or implementation. The "Design Details" section below is for the
-real nitty-gritty.
-
-You might want to consider including the pros and cons of the proposed solution
-so that they can be compared with the pros and cons of alternatives.
--->
-
 Instead of creating a [`CI_JOB_TOKEN`][1] that is bound to the user that
 triggered the CI pipeline we will generate a [`CI_JOB_TOKEN`][1] bound to a
-specific type of `User` record with a custom `user_type` field. In other words,
-we will use a service account or CI job runner specific account. This custom
-`User` will have limited permissions based on the [Custom Role][5] that it is
-bound to.
+separate entity. This entity will be a specific account for use by CI jobs.
+This custom `User` will have limited permissions bound by the Role that it is
+assigned. This role can be one of the [standard roles][18] or a [custom role][5].
 
 At this time, it is uncertain if we will need to manage CI Job specific
 [custom abilities][6] that cannot be assigned to regular user accounts.
-
 
 ## Design and implementation details
 
@@ -211,16 +146,22 @@ directory as the `index.md` for the proposal.
 
 This problem can be broken down into the following categories:
 
-1. Token Creation
-  * To inject a new token that has limited scope we will need to hook into how we create tokens for jobs.
+1. Token Creation:
+  * To inject a new token that has limited scope we may need to hook into how we create tokens for jobs.
 1. Token Enforcement/Lookup
   * Any changes to the token creation may have an impact on how we lookup and
-    enforce the authorization on the token. We will probably need to update the [`api_guard`][14]
+    enforce the authorization of the given token. We may need to update the [`api_guard`][14]
 
 ### Stage 1: Run jobs using a specific User Account
 
-This step allows project owners to invite a new user to a project with
-specific permissions via a [Custom Role][5].
+Today, project owners are able to invite a user to a project with specific
+permissions via a [Custom Role][5]. We will use this mechanism to bind a
+specific account to all CI Jobs within a project using a convention for looking
+up the user account. This allows for fast feedback to identify gaps in the
+current custom permissions that we offer today.
+
+This immediate and temporary solution will make it possible to reduce the access
+that is currently available vai a [`CI_JOB_TOKEN`][1].
 
 When a new build is created we will search for a specific user account using
 a convention to search for the user. If this user account is found we will
@@ -229,10 +170,13 @@ whatever permissions that this account has been given.
 
 An example of how to do this can be found in [this MR][15].
 
-The convention will search for a user with a direct project membership that has
-a username matching the pattern of `<project-name>-ci_user`. If a user can be
-found that matches this pattern then this user will be used as the security
-principal for the generation of the `CI_JOB_TOKEN`.
+The convention for searching for a user is the following:
+
+1. The user must be a direct member of the project
+1. The username must match the pattern of `<project-name>-ci_user`.
+
+When a user is found matching this pattern then that user will be used as the
+security principal for the generation of the [`CI_JOB_TOKEN`][1].
 
 Example:
 
@@ -360,3 +304,5 @@ alternative solution/path.
 [14]: https://gitlab.com/gitlab-org/gitlab/-/blob/6d1f895398aa08f2398bb0775ebc88dd23526f26/lib/api/api_guard.rb#L69-81
 [15]: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/162599
 [16]: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/162333
+[17]: https://csrc.nist.gov/glossary/term/least_privilege
+[18]: https://docs.gitlab.com/ee/user/permissions.html#roles
