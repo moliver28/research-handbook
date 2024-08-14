@@ -51,7 +51,7 @@ different uses of the word `pod` in the GitLab context.
 
 - Decide what activities your Support Pod will cover.
 - Have at least three team members commit to participate in Support Pod activities.
-- Determine who will be leading or co-leading the Support Pod.
+- Determine the [Support Pod leads](#responsibilities-of-support-pod-leads).
 
 ### Starting it up
 
@@ -72,7 +72,11 @@ different uses of the word `pod` in the GitLab context.
 Each Support Pod should have at least one lead, who will be responsible for defining its purpose,
 and driving progress towards achieving that purpose.
 
-The Support Pod lead or co-leads are responsible for the following, and more:
+Support Pod leads are different from [Support Stable Counterparts](/handbook/support/support-stable-counterparts/) (SSC).
+SSCs focus on working with engineering product groups; Support Pod leads focus on working with the support team.
+Often, it makes sense for an SSC to also serve as a lead for a corresponding pod, if one exists.
+
+The Support Pod leads are responsible for:
 
 - Recruiting team members who can and are willing to help with Support Pod activities.
 - Organizing collaboration within the Support Pod, and with team members in the wider GitLab
