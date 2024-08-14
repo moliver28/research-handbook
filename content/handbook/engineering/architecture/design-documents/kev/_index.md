@@ -6,7 +6,7 @@ title: KEV Support
 status: proposed
 creation-date: "2024-08-11"
 authors: [ "@onaaman" ]
-coaches: [ "@username" ]
+coaches: [ "@theoretick" ]
 dris: [ "@product-manager", "@engineering-manager" ]
 owning-stage: "~devops::<stage>"
 participating-stages: [ ]
@@ -24,7 +24,7 @@ toc_hide: true
 
 [KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) is a catalog
 maintained by [CISA](https://www.cisa.gov) that identifies vulnerabilities
-actively exploited in the wild.
+that have been actively exploited in the wild.
 KEV support in GitLab aims to enhance vulnerability prioritization and
 remediation efforts by highlighting these high-risk vulnerabilities.
 The KEV support requirements are outlined
@@ -64,6 +64,7 @@ efforts on the most immediate threats and reduce overall remediation workload.
 By adding KEV data to the information presented to users, we deliver these
 benefits to the GitLab platform, enabling more effective and efficient
 vulnerability management.
+
 Additionally, FCEB (federal civilian executive branch) agencies must address
 vulnerabilities in the KEV catalog
 under [BOD 22-01](https://www.cisa.gov/news-events/directives/bod-22-01-reducing-significant-risk-known-exploited-vulnerabilities).
@@ -93,7 +94,7 @@ audience.
 
 ### Non-Goals
 
-- Dictate priority to users based on EPSS (or any other metric).
+- Dictate priority to users based on KEV (or any other metric).
 
 ## Proposal
 
