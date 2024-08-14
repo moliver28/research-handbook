@@ -6,7 +6,7 @@ authors: [ "@mokhax" ]
 coaches: [ ]
 dris: [ "@jrandazzo", "@jayswain" ]
 owning-stage: "~govern::authorization"
-participating-stages: []
+participating-stages: [ "~devops::verify" ]
 toc_hide: true
 ---
 
