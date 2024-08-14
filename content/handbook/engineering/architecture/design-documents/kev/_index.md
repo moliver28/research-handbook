@@ -94,7 +94,7 @@ audience.
 
 ### Non-Goals
 
-- Dictate priority to users based on EPSS (or any other metric).
+- Dictate priority to users based on KEV (or any other metric).
 
 ## Proposal
 
