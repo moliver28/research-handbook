@@ -39,7 +39,7 @@ The goal is to make KEV information accessible through the GitLab GraphQL API,
 visible on vulnerability report and details pages, and usable for filtering and
 policy setting.
 The implementation will leverage the existing Package Metadata Database (PMDB,
-also known as license-db) infrastructure for advisory pull-and-enrichment, The
+also known as license-db) infrastructure for advisory pull-and-enrichment. The
 flow is as follows:
 
 ```mermaid
