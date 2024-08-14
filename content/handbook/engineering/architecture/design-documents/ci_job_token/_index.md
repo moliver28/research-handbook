@@ -130,15 +130,15 @@ end
 
 Pros:
 
-* It is a straightforward solution.
-* It allows for fast feedback to help identify gaps in our custom permissions.
-* It can be used today.
+- It is a straightforward solution.
+- It allows for fast feedback to help identify gaps in our custom permissions.
+- It can be used today.
 
 Cons:
 
-* This occupies a licensed seat.
-* It is not intuitive.
-* This artificially increases the number of registered users in the product metrics.
+- This occupies a licensed seat.
+- It is not intuitive.
+- This artificially increases the number of registered users in the product metrics.
 
 ### Stage 2: Use a Service Account
 
@@ -172,12 +172,12 @@ end
 
 Pros:
 
-* Does not occupy a licensed seat
+- Does not occupy a licensed seat
 
 Cons:
 
-* This creates a user record for every project.
-* This may add complexity to the UI to apply a role to a service account.
+- This creates a user record for every project.
+- This may add complexity to the UI to apply a role to a service account.
 
 ### Stage 3: Use an OAuth Access Token
 
@@ -226,16 +226,16 @@ module Ci
 
 Pros:
 
-* The `CI_JOB_TOKEN` is an access token that is compatible with our OAuth Provider.
-* This creates an extension point that is standards compatible for better
+- The [`CI_JOB_TOKEN`][1] is an access token that is compatible with our OAuth Provider.
+- This creates an extension point that is standards compatible for better
   interoperability between internal and external services.
 
 Cons:
 
-* Doesn't fully conform to the [OAuth Token Exchange Protocol][7].
-* This will create a new record in the `oauth_access_tokens` for each job. (This will have a significant database impact)
-* This may require the creation of a new user record for every project that has CI enabled.
-* This may require the creation of a new `oauth_applications` record for each project that has CI enabled.
+- Doesn't fully conform to the [OAuth Token Exchange Protocol][7].
+- This will create a new record in the `oauth_access_tokens` for each job. (This will have a significant database impact)
+- This may require the creation of a new user record for every project that has CI enabled.
+- This may require the creation of a new `oauth_applications` record for each project that has CI enabled.
 
 ### Stage 4: Declarative permissions
 
@@ -262,16 +262,23 @@ permissions:
 
 ## Alternative Solutions
 
-* Build a [Security Token Service][7]
-  * Pros: Standards compliant solution
-  * Cons: Additional up front effort and maintenance is required before we can
+- Build a [Security Token Service][7]
+  - Pros: Standards compliant solution
+  - Cons: Additional up front effort and maintenance is required before we can
     realize any value.
-* Migrating to the [GitLab OAuth2 provider][10]
-  * Pros: Standards compliant solution
-  * Cons: More effort is required up front before any value can be realized
-* Do nothing
-  * Pros: No work required
-  * Cons: See the Motivation section of this document for details
+- Migrating to the [GitLab OAuth2 provider][10]
+  - Pros: Standards compliant solution
+  - Cons: More effort is required up front before any value can be realized
+- Do nothing
+  - Pros: No work required
+  - Cons: See the Motivation section of this document for details
+
+## Additional Information
+
+- [Token Generation][11]
+- [Token Generation Option][12]
+- [Token Generation Entry Point][13]
+- [User Discovery][14]
 
 [1]: https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html
 [2]: https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/runner_tokens/
