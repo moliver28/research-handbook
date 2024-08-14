@@ -70,7 +70,7 @@ For more information and development see the "Trusted Advisor Skill Development"
 
 As the DRIs helping position, prepare, and guide a customer's technical evaluation the SA team ensure that GitLab can surface the right points of value to the customer's key stakeholders post technical evaluation.  The following embody GitLab's technical evaluation philosophy and help guide successful technical evaluations.
 
-These offerings are delivered each within a specific context of a particular customer journey.
+These offerings are delivered each within a specific context of a particular customer journey. 
 
 - **Labs / Workshops**: Closed invite, typically in-person events (or a Zoom meetings) providing an exclusive list of customers (typically 1) access to a lab environment, where SAs provide personalized guidance to the customers as questions arise to help them see the value of what they are not currently paying for.
 - **Technical Discovery**: A deep dive into current practices at the company that aid in helping identify pain points specific to where GitLab can help address needs and work towards a better long-term state.
