@@ -4,7 +4,7 @@ title: "Compliance Standards Adherence Dashboard MVC"
 
 ## Context
 
-We recently released [compliance standards adherence dashboard MVC](https://gitlab.com/groups/gitlab-org/-/epics/11052) MVC.
+We recently released [compliance standards adherence dashboard](https://gitlab.com/groups/gitlab-org/-/epics/11052) MVC.
 In this iteration we introduced the concept of standard and checks. In the initial iteration we started with
 [GitLab](#gitlab-standard) and [SOC 2](#soc-2-standard) standards.
 
@@ -28,7 +28,7 @@ The SOC 2 standard consists of one check:
 the background.
 1. These workers are invoked whenever a project is added, or an associated project or group setting is changed. The
 scan is run on that project to update the standards adherence for that project.
-1. We planned to store the results of these adherence checks in a database table with the following schema:
+1. We planned to store the results of these checks in a database table with the following schema:
 
     ```mermaid
         classDiagram

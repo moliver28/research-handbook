@@ -4,11 +4,11 @@ title: "Compliance Frameworks ADR 005: Custom Adherence Report"
 
 ## Context
 
-We delivered [compliance standards adherence report MVC](../compliance_standards_adherence_dashboard_mvc.md).This was
+We delivered [compliance standards adherence report MVC](../compliance_standards_adherence_dashboard_mvc.md). This was
 well received by our customers, however, we received feedbacks around the possibility of customising the compliance
-adherence dashboard. The existing compliance standards adherence report displays all the compliance adherence checks
-that are currently supported and displays the compliance status of all the projects within that group. Currently, users
-cannot configure this behaviour.
+adherence dashboard. The existing compliance standards adherence report displays all the checks that are currently
+supported and displays the compliance status of all the projects within that group. Currently, users cannot configure
+this behaviour.
 
 ## Approach
 
@@ -16,11 +16,10 @@ To allow customising the compliance standards adherence report we plan to introd
 requirements and compliance checks.
 
 1. Compliance Requirement: A compliance framework can have multiple compliance requirements. These requirements can
-have multiple compliance checks associated to it. Requirement allows the users to club multiple compliance adherence
-checks together as per their need. For example: A requirement could be "Code safeguards" and it can contain the
-"At least two approvers" and "Prevent authors as approvers" compliance checks.
-1. Compliance Check: They belong to a compliance requirement and denotes one of the compliance adherence checks
-supported by GitLab product.
+have multiple checks associated to it. Requirement allows the users to club multiple checks together as per their need.
+For example: A requirement could be "Code safeguards" and it can contain the "At least two approvers" and
+"Prevent authors as approvers" checks.
+1. Compliance Check: They belong to a compliance requirement and denotes one of the checks supported by GitLab product.
 
 We thought of the following approaches to implement custom compliance adherence report
 
@@ -56,9 +55,9 @@ easily allowing users to modify the configuration from the UI.
        - organizations_email_domain
    ```
 
-1. The checks would be a list of Enums that and denotes one of the compliance adherence checks supported by GitLab.
+1. The checks would be a list of Enums that and denotes one of the checks supported by GitLab.
 1. Once the configuration is saved and applied to a compliance framework, we would only display the results of the
-selected compliance adherence checks for the projects with those compliance frameworks.
+selected checks for the projects with those compliance frameworks.
 1. We would not display the compliance adherence status for projects that don't have a compliance framework applied.
 1. This approach had certain advantages:
    1. Compliance configurations stored as code, easier to share and reuse it.
@@ -73,8 +72,8 @@ selected compliance adherence checks for the projects with those compliance fram
 
 1. In this approach we planned to store the compliance adherence report configuration as a JSON column in the
 compliance frameworks table.
-1. We would create a UI for creating requirements within compliance frameworks and also adding compliance checks to
-this requirement.
+1. We would create a UI for creating requirements within compliance frameworks and also adding checks to this
+requirement.
 1. We would translate this configuration into a JSON and store it in the `jsonb` column named `requirements` within
 the compliance frameworks table.
 1. An example JSON:
@@ -98,8 +97,8 @@ the compliance frameworks table.
     }]
     ```
 
-1. Similar to the previous approach, we would only display the results of compliance adherence checks for the projects
-that have compliance frameworks applied with valid `requirements` configuration.
+1. Similar to the previous approach, we would only display the results of checks for the projects that have compliance
+frameworks applied with valid `requirements` configuration.
 1. This approach had certain advantages:
    1. This gives a UI friendly approach.
    1. No need for setting up special projects and understand complex YAML configurations.
@@ -114,7 +113,7 @@ that have compliance frameworks applied with valid `requirements` configuration.
 ### Storing the compliance adherence configuration in database as relational data
 
 1. In this approach we planned to store the configuration in new database tables to prevent issues with JSON columns.
-1. The compliance requirements and compliance checks would be stored in individual tables with the following schema:
+1. The compliance requirements and checks would be stored in individual tables with the following schema:
 
     ```mermaid
         classDiagram
@@ -181,12 +180,12 @@ that have compliance frameworks applied with valid `requirements` configuration.
     ```
 
 1. We have dropped the `standard` column from the `project_compliance_standards_adherence` since we don't want to
-associate compliance adherence checks with a standard anymore, therefore, allowing the users to customise and group
-checks as per their requirements.
+associate checks with a standard anymore, therefore, allowing the users to customise and group checks as per their
+requirements.
 1. Similar to the previous approaches, we would still be storing results for all the compliance adherence checks for
 ultimate projects, irrespective of the frameworks applied to that project, however, we would only display the results
-of compliance adherence checks for the projects that have compliance frameworks applied with requirements configured
-at the compliance standards adherence dashboard.
+of checks for the projects that have compliance frameworks applied with requirements configured at the compliance
+standards adherence dashboard.
 1. In the next iteration we would also allow importing and exporting the compliance adherence report configurations.
 
 ## Decision
