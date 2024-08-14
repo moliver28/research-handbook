@@ -42,20 +42,18 @@ which the token was generated.
 
 This proposal attempts to decouple the access that a `CI_JOB_TOKEN` has away from a specific user to an entity with less access.
 
-- Decouple `CI_JOB_TOKEN` from the user that triggered the pipeline.
-- Apply the PoLP to each `CI_JOB_TOKEN`
-- Provide a mechanism for the configuration of permissions for each CI Job
+- We want to decouple the `CI_JOB_TOKEN` from the user that triggered the pipeline.
+- We want to reduce the access available to the `CI_JOB_TOKEN`
+- We want to provide a way to configure permissions for each CI Pipeline
 
 ### Non-Goals
 
-- Auditing of token usage and generation
-- Changing the format of a token (for example [JWT](https://datatracker.ietf.org/doc/html/rfc7519))
-- Creation of a [Security Token Service](https://datatracker.ietf.org/doc/html/rfc8693)
-- OAuth2 specific integration or compatibility
-- Reducing the duration of access of a `CI_JOB_TOKEN`
-- Unify the [PAT scopes](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#personal-access-token-scopes) with the existing [custom abilities](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/config/custom_abilities)
-- Unifying the [types of tokens](https://docs.gitlab.com/ee/security/token_overview.html) into a single authoritative token
-- [Removal of the runner registration token](../runner_tokens/)
+- We will not add auditing of token usage and generation
+- We will not change the token format (for example [JWT](https://datatracker.ietf.org/doc/html/rfc7519))
+- We will not create a [Security Token Service](https://datatracker.ietf.org/doc/html/rfc8693)
+- We will not focus on reducing the duration of access of a `CI_JOB_TOKEN`
+- We will not unify the [PAT scopes](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#personal-access-token-scopes) with the existing [custom abilities](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/config/custom_abilities)
+- We will not unify the [types of tokens](https://docs.gitlab.com/ee/security/token_overview.html) into a single authoritative token
 
 ## Proposal
 
