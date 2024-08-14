@@ -210,6 +210,40 @@ Goal: Help customers with CI/CD components for DevSecOps Efficiency. Learn best 
 
 Maintainers: [Michael Friedrich, @dnsmichi](https://about.gitlab.com/company/team/#dnsmichi), [Itzik Gan Baruch, @iganbaruch](https://about.gitlab.com/company/team/#iganbaruch)
 
+### LinkedIn Lives in Collaboration with the Social team
+
+GitLab hosts a monthly LinkedIn Live broadcast, generally on the fourth Thursday of every month, to highlight our monthly release, and share product updates and thought leadership. Each broadcast features GitLab team members and special guests to discuss the latest in AI-powered software development. This is a collaborative project between [Developer Advocacy](/handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/) and the [Social Media](/handbook.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) teams. 
+
+Episodes generally run for 30 minutes and feature 4-5 panelists and a moderator to discuss a predetermined topic or product update. In certain instances, the conversations are pre-recorded.
+
+| Episode Title                                                                 | Views   | Month   |
+|-------------------------------------------------------------------------------|---------|---------|
+| [GitLab 16.11](https://www.linkedin.com/events/7191139444916146176/comments/) | 5.6K    | 2024/04 |
+| [GitLab 17.0](https://www.linkedin.com/feed/update/urn:li:activity:7198692684436250626) | 6.8K    | 2024/05 |
+| [GitLab 17 Release event recap](https://www.linkedin.com/video/live/urn:li:ugcPost:7212131667262492673/) | 7.3K    | 2024/06 |
+| [Harnessing AI: GitLab’s Insights & Innovations](https://www.linkedin.com/events/7219699059933020163/analytics/) | 6.3K    | 2024/07 |
+
+#### Information for Panelists
+
+**Before the Broadcast/Recording** 
+
+- You will be added to a temporary Slack channel with the social media team and other panelists to discuss the agenda, logistics, and promotion.
+- You will be asked to be available for a 30-minute walkthrough before the recording/broadcast to do a tech check, walk through the talking points, and meet the other panelists.
+- You will be added as a speaker to the LinkedIn event page so your network is notified that you will be going live on LinkedIn. 
+- Please help us promote the event by sharing any LinkedIn posts promoting the event with your network.
+
+**During the Broadcast/Recording** 
+
+- Please confirm you have a strong wifi signal and are in a well-lit area that is free from distractions. 
+  - Ideally, use a virtual background.
+- If you have GitLab swag, please wear it! 
+- Use a headset as your microphone.
+
+**After the Broadcast**
+
+- Please engage with people who commented on the broadcast.
+- Please re-share the event video with your network.
+
 ## Learning Collections
 
 ### Our Work Environments
