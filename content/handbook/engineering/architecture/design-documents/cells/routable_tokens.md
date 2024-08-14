@@ -8,7 +8,7 @@ status: proposed
 This document describes design goals and architecture of Routable Tokens
 used by Cells.
 
-## Goals
+## Purpose
 
 GitLab uses machine generated tokens extensively to provide a various way to
 authenticate users, or provide a project specific tokens. Some of the, but not all
@@ -17,6 +17,24 @@ include: [REST API Authentication](https://docs.gitlab.com/ee/api/rest/#authenti
 [HTTP Routing Service](http_routing_service.md) does require that tokens are routable,
 so we can make decision based on a token itself which Cell is the correct one to
 authenticate the token.
+
+## Goals
+
+This documents tries to describe the following goals:
+
+- Routable tokens to be decode by HTTP Router
+- Capture and describe usage of existing tokens
+- Define support for many encryption keys
+- Define the pattern allowing online encryption keys rotation
+- Deprecate and remove legacy encryption keys, or legacy strategies
+- Unify storing of secrets and tokens
+- Move away from `attr-encrypted` to use a single secrets framework
+- Introduce transit/shared key to be used with Org Mover
+
+## Non-goals
+
+This document is not meant to re-asses the need for the secrets,
+their lifecycle or how they are managed by the application.
 
 ### Tokens and cookies
 
@@ -363,6 +381,12 @@ production:
 
 ## Questions
 
+1. Application has a number of existing tokens generated in an old way. What happens with the legacy tokens?
+
+This document assumes that tokens have expiry date set. It means that over-time most of tokens will be rotated
+by the user. For tokens that cannot this document assumes that: they will be tied always to Cell 1, and as such
+migrating organization to Cell 2 will imply that all tokens used by organization are rotated first before
+they can be migrated. This to be happen by the organization itself.
 
 ## References
 
