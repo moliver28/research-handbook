@@ -148,6 +148,28 @@ User bound to each CI job. Project Owners will be able to assign a role to this
 Service Account. If the project has an Ultimate license, the service account can
 be assigned a [custom role][5]; otherwise, a [standard role][18] can be selected.
 
+Below is a snippet of code that summarizes the idea.
+
+```ruby
+module Users
+  class Internal
+    class << self
+      def ci_bot
+        email_pattern = "ci-bot%s@#{Settings.gitlab.host}"
+
+        unique_internal(User.where(user_type: :ci_bot), 'GitLab-CI', email_pattern) do |u|
+          u.bio = 'The bot for GitLab CI'
+          u.name = 'Continuous Integration'
+          u.avatar = bot_avatar(image: 'ci-bot.png')
+          u.confirmed_at = Time.zone.now
+          u.private_profile = true
+        end
+      end
+    end
+  end
+end
+```
+
 Pros:
 
 * Does not occupy a licensed seat
