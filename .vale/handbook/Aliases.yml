@@ -1,0 +1,13 @@
+---
+# Warning: handbook.Aliases
+#
+# Checks whether there is an alias.
+#
+# For a list of all options, see https://vale.sh/docs/topics/styles/
+extends: existence
+message: "Only use an alias if the redirect is permanent. If so, please add a 'note:'."
+link: https://handbook.gitlab.com/docs/frontmatter/#aliases
+level: warning
+scope: raw
+tokens:
+  - '^aliases:'
