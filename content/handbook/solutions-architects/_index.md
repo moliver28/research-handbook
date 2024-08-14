@@ -28,7 +28,7 @@ Our Field SA's also engage proactively with existing GitLab customer to provide 
 
 The [Strategic Field Organization](/handbook/solutions-architects/strategic-field-org/) is a team of [Principal Solutions Architects](/job-families/sales/solutions-architect/#principal-solutions-architect-responsibilities) that support global strategic sales opportunities and customers. This team collaborates with the regional account teams to work together on large engagements that require a higher degree of strategic planning, consulting, executive-level technical leadership, and internal GitLab cross-departmental collaboration.
 
-### Partner Solutions Architects
+### Ecosystem Solutions Architects
 
 [Ecosystem Solutions Architects](/job-families/sales/solutions-architect/#specialties) are the trusted advisors to our strategic alliances partners, professional services partners, and channel resellers. The focus of this team is to develop relationships and provide technical assistance and leadership to drive joint GTM strategies. This team helps grow and strengthen the partner ecosystem by building new capabilities and growing GitLab revenue together with partners.
 
