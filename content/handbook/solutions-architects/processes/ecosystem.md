@@ -2,6 +2,12 @@
 title: Ecosystem SA Engagement Model
 ---
 
+## Engaging an Ecosystem Solutions Architect
+
+To request the assistance of an ESA, reach out to the team in the **#ecosystem-solutions-architects** internal slack channel.  @Mention any of the team to create a thread of 1:1 interaction.  By leveraging this single work queue, we can easily cover for each other and create tracking issues from this channel.  Don’t be surprised if we “move” DMs over to this public channel.
+
+For issues, the ESA team will leverage the **~Partner-SA**, **~Partner Region-AMER|APAC|EMEA**, and **Partner-Acct-<Name>** labels.
+
 ## Ecosystem Solutions Architect: Role & Responsibilities
 
 The Ecosystem Team’s north star is GitLab NetARR.  ESAs will support the Ecosystem Sales Managers (ESM) whose main responsibility is to work with field account teams to achieve their revenue goals leveraging partners to scale the quantity, value, and strategic relevance of deals.  
@@ -26,7 +32,7 @@ Get personal. We don’t “enable partners.”  We develop champions.  Share an
 
 ### TODO Working with Services Partners
 
-### TODO MBO Guidelines
+### MBO Guidelines
 
 The charter of the Global Ecosystem Team is to develop an ecosystem of partners that can scale the number and size of GitLab opportunities, engage with our customers to ensure rapid and widespread adoption of GitLab licenses, and create GTM solutions that drive mutual revenue growth for GitLab and our partners.  This indirect path to GitLab revenue establishes a need to have an objectives based compensation model for the entire Global Ecosystem Team and ESAs.
 

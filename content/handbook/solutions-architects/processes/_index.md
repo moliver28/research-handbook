@@ -309,11 +309,10 @@ APAC SAs are aligned regionally into regions such as ANZ, SEA (South-East Asia),
 
 The Ecosystem SA (ESA) team is global. The Ecosystem SA's are aligned variously with global and regional partners of all types based on the team member's experience and needs of the region.  Working alongside Ecosystem Sales Managers (ESM) in each region, Ecosystem SAs focus on developing Partner relationships as opposed to direct Customer relationships.  Ecosystems SAs do participate in direct customer engagments when the Partner needs support in the sales cycle and their account team is not ready to involve GitLab sales teams.  Ecosystem SAs will seek to document all customer interactions and as quickly as possible hand off to Field SAs to drive the opportunity with the partner and customer.  Ecosystem SAs can provide backup to the Field SA community in support of a Partner aligned opportunities.
 
-Most Opportunity based enagement should start with the ESM and they should identify the appropriate Ecosystem SA to engage.   The ESM for every account is listed in the SFDC customer account record.  The ESA for a partner account is listed in the SFDC partner account record.  If no ESA is listed reach out to the Ecosystem Sales Manager for assistance.
+Most Opportunity based enagement should start with the ESM and they should identify the appropriate Ecosystem SA to engage.  The ESM for every account is listed in the SFDC customer account record.  The ESA for a partner account is listed in the SFDC partner account record.  If no ESA is listed reach out to the Ecosystem Sales Manager for assistance.
 
-To request the assistance of an ESA, reach out to the team in the **#ecosystem-solutions-architects** internal slack channel.  @Mention any of the team to create a thread of 1:1 interaction.  By leveraging this single work queue, we can easily cover for each other and create tracking issues from this channel.  Don’t be surprised if we “move” DMs over to this public channel.
+See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem#Engaging-an-Ecosystem-SolutionsArchitect) handbook page.
 
-For issues, the ESA team will leverage the **~Partner-SA**, **~Partner Region-AMER|APAC|EMEA**, and **Partner-Acct-<Name>** labels.
 
 ### Subject Matter Expert Engagement Model
 
