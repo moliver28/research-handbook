@@ -135,12 +135,37 @@ The convention for searching for a user is as follows:
 When a user is found matching this pattern, that user will be used as the
 security principal for generating the [`CI_JOB_TOKEN`][1].
 
-An example of how to implement this can be found in [this MR][15].
+An example of how to implement this can be found in [this MR][15]. Below is a
+snippet of code that summarizes the idea.
+
+```ruby
+module Gitlab
+  module Ci
+    module Pipeline
+      module Chain
+        class Build < Chain::Base
+          def perform!
+            @pipeline.assign_attributes(user: ci_user)
+          end
+
+          private
+
+          def ci_user
+            conventional_username = "#{@command.project.name}-ci_user"
+            @command.project.users.find_by(username: conventional_username) || current_user
+          end
+        end
+      end
+    end
+  end
+end
+```
 
 Pros:
 
-* This is a straightforward solution.
+* It is a straightforward solution.
 * It allows for fast feedback to help identify gaps in our custom permissions.
+* It can be used today.
 
 Cons:
 
@@ -156,16 +181,59 @@ User bound to each CI job. Project Owners will be able to assign a role to this
 Service Account. If the project has an Ultimate license, the service account can
 be assigned a [custom role][5]; otherwise, a [standard role][18] can be selected.
 
+Pros:
+
+* Does not occupy a licensed seat
+
+Cons:
+
+* This creates a user record for every project.
+* This may add complexity to the UI to apply a role to a service account.
+
 ### Stage 3: Use an OAuth Access Token
 
-In this stage of development, we will create and register a trusted OAuth app
+In this stage, we will create and register a trusted OAuth app
 (`Doorkeeper::Application`) and use it to generate OAuth access tokens on behalf
 of the service account defined in stage 2. This approach will leverage our
 existing OAuth implementation and provide an extension point for any API outside
 of the [monolith][20] to verify the claims associated with a [`CI_JOB_TOKEN`][1]
 by making an API call to the [token introspection endpoint][21].
 
-A proof of concept can be found in [this MR][16].
+An example of how to implement this can be found in [this MR][16]. Below is a
+snippet of code that summarizes the idea.
+
+```ruby
+module Ci
+  class Build < Ci::Processable
+    add_authentication_token_field :token,
+      encrypted: :required,
+      token_generator: ->(build) { build.create_oauth_access_token },
+      format_with_prefix: :prefix_and_partition_for_token
+
+    private
+
+    def oauth_application
+      Doorkeeper::Application.find_or_create_by!(
+        name: 'GitLab CI',
+        redirect_uri: Gitlab::Routing.url_helpers.root_url,
+        scopes: [:api],
+        trusted: true,
+        confidential: false
+      )
+    end
+
+    def create_oauth_access_token
+      application = oauth_application
+
+      OauthAccessToken.create!(
+        application_id: application.id,
+        expires_in: 2.hours,                     # default to max timeout for pipeline
+        resource_owner_id: user&.id,             # this is the service account
+        token: Doorkeeper::OAuth::Helpers::UniqueToken.generate,
+        scopes: application.scopes.to_s
+      ).token
+    end
+```
 
 Pros:
 
@@ -188,7 +256,6 @@ using a declarative syntax in the [`.gitlab-ci.yml`][22] file.
 The exact syntax for defining these permissions is yet to be determined, but the
 goal of this stage is to enable the specification of different permissions for
 different jobs within the same pipeline.
-
 
 ## Alternative Solutions
 
