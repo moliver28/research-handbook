@@ -32,7 +32,7 @@ The Tax Analyst (Intermediate) is a [grade 6](/handbook/total-rewards/compensati
 
 ### Senior Tax Analyst
 
-The Senior Tax Analyst resorts to the Manager, Tax.
+The Senior Tax Analyst reports to the Manager, Tax.
 
 #### Senior Tax Analyst Job Grade
 
