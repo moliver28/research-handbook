@@ -6,7 +6,7 @@ title: KEV Support
 status: proposed
 creation-date: "2024-08-11"
 authors: [ "@onaaman" ]
-coaches: [ "@username" ]
+coaches: [ "@theoretick" ]
 dris: [ "@product-manager", "@engineering-manager" ]
 owning-stage: "~devops::<stage>"
 participating-stages: [ ]
