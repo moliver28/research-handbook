@@ -6,7 +6,10 @@ title: "Channel Partner Migration Services"
 
 GitLab encourages our GitLab Partners to engage in and lead technical services such as migrating to GitLab. This page overviews different data sources that can be transferred to various GitLab destinations. For deeper technical understanding, engineers should enroll and learn from the GitLab University [GitLab Certified Migration Services Specialist Learning Path.](https://university.gitlab.com/learning-paths/gitlab-certified-migration-services-specialist-learning-path)
 
-See [Import and Migrate Groups and Projects](https://docs.gitlab.com/ee/user/project/import/) for a short technical overview of available paths to importing or migrating to GitLab.
+If you prefer consuming content in an audiovisual format and you are a GitLab Partner at the same time, you can watch the following videos in what a bunch of GitLab Ecosystem Solutions Architects discuss the content of this Handbook page and **more**:
+
+1. [GitLab Partner Migration Services Knowledge Transfer 1/2](https://partners.gitlab.com/prm/English/s/assets?collectionId=49986&id=706296&renderMode=Collection)
+2. [GitLab Partner Migration Services Knowledge Transfer 2/2](https://partners.gitlab.com/prm/English/s/assets?collectionId=49986&id=706300&renderMode=Collection)
 
 ## Common migration steps for GitLab Partners
 
@@ -29,11 +32,13 @@ Communicating clearly [What are a customer's obligations and responsibilities pr
 
 To migrate projects from systems other than GitLab, please review the list of [Supported import sources](https://docs.gitlab.com/ee/user/project/import/#supported-import-sources) and [Other Import Sources](https://docs.gitlab.com/ee/user/project/import/#other-import-sources) (anchor link on the same page).
 
-Migrating pipelines from other systems, [like Jenkins](https://docs.gitlab.com/ee/ci/migration/jenkins.html), is a value-added manual development process. We encourage our partners to scope by understanding the number of pipelines, current pipeline performance, [environmental variables](https://docs.gitlab.com/ee/ci/variables/), and secrets used. Partners find a time and materials style contract helpful when consulting on developing pipelines between other source systems and [GitLab's pipeline syntax.](https://docs.gitlab.com/ee/ci/)
+Migrating pipelines from other systems, [like Jenkins](https://docs.gitlab.com/ee/ci/migration/jenkins.html), is a value-added **manual** development process. There are automated tools for such migrations out there, but there's none officially supported by GitLab. We encourage our partners to scope by understanding the number of pipelines, current pipeline performance, [environmental variables](https://docs.gitlab.com/ee/ci/variables/), and secrets used. Partners find a time and materials style contract helpful when consulting on developing pipelines between other source systems and [GitLab's pipeline syntax.](https://docs.gitlab.com/ee/ci/)
 
 ## From GitLab self-managed to GitLab self-managed
 
 The best way to migrate from one self-managed GitLab server to another is to perform a [full backup](https://docs.gitlab.com/ee/administration/backup_restore/) at the source instance and then a restore at the target instance. Step-by-step directions are available on our [Migrate to a new server](https://docs.gitlab.com/ee/administration/backup_restore/migrate_to_new_server.html) docs page.
+
+Please note that this migration method only works if [the source and target instances have the exact same version](https://docs.gitlab.com/ee/administration/backup_restore/restore_gitlab.html#the-destination-gitlab-instance-must-have-the-exact-same-version). If it's not the case for your customer's environments (typically it's the source system which lags behind), then our [Upgrade Path tool](https://docs.gitlab.com/ee/update/index.html#upgrade-path-tool) can help with planning the necessary upgrades on the source system. (Make sure to do a full backup **BEFORE** the upgrades!)
 
 ## Air-gapped environments
 
