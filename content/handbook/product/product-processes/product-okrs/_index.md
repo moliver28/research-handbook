@@ -10,7 +10,7 @@ For an overview of our overall approach to OKRs, as well as any company-wide OKR
 
 ### General timeline and process
 
-![General timeline and process ](/handbook/product/product-okrs/prod-okr-timeline.png)
+![General timeline and process ](/handbook/product/product-processes/product-okrs/prod-okr-timeline.png)
 
 ### Guidance on timeline and process
 
