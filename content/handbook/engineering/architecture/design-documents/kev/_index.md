@@ -112,7 +112,7 @@ flow is:
 
 1. GitLab instances pull advisory data from the bucket.
 
-  - Create a new boolean column in rails DB `pm_advisories` table to store KEV
+- Create a new boolean column in rails DB `pm_advisories` table to store KEV
     status.
 
 1. GitLab instances expose KEV status through GraphQL API and present data in
@@ -176,14 +176,14 @@ flowchart LR
   instances to consume.
   See [complete documentation](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/docs/DESIGN.md?ref_type=heads).
   PMDB components include:
-    - **Feeder**: a scheduled job called by the PMDB deployment to publish data
+  - **Feeder**: a scheduled job called by the PMDB deployment to publish data
       from the relevant sources to pub/sub messages consumed by PMDB processors.
-    - **Advisory processor**: Runs as a Cloud Run instance and consumes messages
+  - **Advisory processor**: Runs as a Cloud Run instance and consumes messages
       published by the advisory feeder containing advisory related data and
       stores them to the PMDB database.
-    - **PMDB database**: a PostgreSQL instance storing license and advisory
+  - **PMDB database**: a PostgreSQL instance storing license and advisory
       data.
-    - **Exporter**: exports license/advisory data from the PMDB database to
+  - **Exporter**: exports license/advisory data from the PMDB database to
       public GCP buckets.
 - **GitLab database**: the database used by GitLab instances.
 - **CVE** (Common Vulnerabilities and Exposures): a list of publicly known
