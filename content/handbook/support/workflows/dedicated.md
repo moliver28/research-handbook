@@ -201,3 +201,7 @@ For example:
 ```bash
 curl -k -vvv -A"GitLabSupport012345" "https://tenant.gitlab-dedicated.com/users/sign_in"
 ```
+
+#### Readiness and liveness probes get 503 error
+
+A non-200 response on the `/-/readiness` and `/-/liveness` probes is an internal signal to the Kubernetes infrastructure, and not an indicator of failure of the system. See comment in [#4890](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/4890#note_1903631878)
