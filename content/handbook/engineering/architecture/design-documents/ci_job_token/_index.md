@@ -40,24 +40,28 @@ Document statuses you can use:
 
 ## Summary
 
-This document outlines a proposal on how to reduce the access that a
-[`CI_JOB_TOKEN`][1] has in the context for a CI job. Today, this token has the
-save level of access as the user that initiated the pipeline and that violates
-the [principle of least privilege][17].
+GitLab CI is a Continuous Integration platform widely used to run various jobs,
+builds, and pipelines.
 
-The proposal in this document outlines several stages of development to work
-towards reducing the scope and access of this token.
+Each CI job is provided with a [security token][1] that allows it to interact
+with other GitLab APIs to accomplish a task. Currently, this token has the same
+level of access as the user who triggered the pipeline, which violates the
+[principle of least privilege (PoLP)][17].
+
+This proposal outlines the stages of development needed to reduce the access
+granted by this token in order to adhere to the principle of least privilege,
+while delivering incremental value along the way.
 
 ## Motivation
 
-Today, when a CI job runs, it is provided with a [`CI_JOB_TOKEN`][1] that can be
-used by the job to interact with other GitLab resources. This token is generated
+Currently, when a CI job runs, it is provided with a [`CI_JOB_TOKEN`][1], which
+the job can use to interact with other GitLab resources. This token is generated
 on behalf of the user who triggered the CI pipeline, effectively granting the CI
 job the same level of access as the user.
 
-This poses a problem because it allows for token theft
-(e.g. `$ echo $CI_JOB_TOKEN`), enabling a malicious actor to exploit another
-user's access for the duration of the job for which the token was generated.
+This poses a security risk, as it allows for token theft, enabling a malicious
+actor to exploit the access of another user for the duration of the job for
+which the token was generated.
 
 ### Goals
 
