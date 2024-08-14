@@ -17,29 +17,11 @@ toc_hide: true
 <!--
 Before you start:
 
-- **Fill out this file as best you can.** At minimum, you should fill in the
-  "Summary", and "Motivation" sections.  These can be brief and may be a copy
-  of issue or epic descriptions if the initiative is already on Product's
-  roadmap.
-- **Create a MR for this document.** Assign it to an Architecture Evolution
-  Coach (i.e. a Principal+ engineer).
+- **Create a MR for this document.** Assign it to an Architecture Evolution Coach (i.e. a Principal+ engineer).
 - **Merge early and iterate.** Avoid getting hung up on specific details and
   instead aim to get the goals of the document clarified and merged quickly.
   The best way to do this is to just start with the high-level sections and fill
   out details incrementally in subsequent MRs.
-
-Just because a document is merged does not mean it is complete or approved.
-Any document is a working document and subject to change at any time.
-
-When editing documents, aim for tightly-scoped, single-topic MRs to keep
-discussions focused. If you disagree with what is already in a document, open a
-new MR with suggested changes.
-
-If there are new details that belong in the document, edit the document. Once
-a feature has become "implemented", major changes should get new blueprints.
-
-The canonical place for the latest set of instructions (and the likely source
-of this file) is [here](/content/handbook/engineering/architecture/design-documents/_template.md).
 
 Document statuses you can use:
 
@@ -76,7 +58,6 @@ job the same level of access as the user.
 This poses a problem because it allows for token theft
 (e.g. `$ echo $CI_JOB_TOKEN`), enabling a malicious actor to exploit another
 user's access for the duration of the job for which the token was generated.
-
 
 ### Goals
 
@@ -184,35 +165,52 @@ Example:
 1. Register a new user account with the username of `<project-name>-ci_user`. (e.g. `my-project-ci_user`)
 1. Go to `Project > Manage > Members` and add the new user with a base role of `Guest`
 
+Pros:
+
+* This is a boring solution
+* This allows for fast feedback to help identify gaps in our custom permissions
+
+Cons:
+
+* This takes up a licensed seat
+* This is not intuitive
+* This artifically increases the # of registered users in the product metrics
+
 ### Stage 2: Attach a Service Account to each `Ci::Build`
 
-In this stage we will create a specific Service Account for each project. This
-service account will be used as the User to bind to each Build. Project Owners
-will be able to assign a role to this Service Account. If the project has an
-Ultimate license then this service account can be assigned to a [Custom Role][5].
+At this stage we will replace the conventional lookup of a user with a dedicated
+[Service Account][19] for each project. This service account will be used as the
+User to bind to each CI Job. Project Owners will be able to assign a role to
+this Service Account. If the project has an Ultimate license then this service
+account can be assigned to a [custom role][5] otherwise they will be able to
+choose one of the [standard roles][18].
 
 ### Stage 3: Define permissions via `.gitlab-ci.yml`
 
 At this stage, we will add support for defining permissions for each Job via a
 declarative syntax in the `.gitlab-ci.yml` file.
 
+The syntax for defining these permissions still needs to be defined but the
+purpose of this stage is to allow for the specification of different permissions
+for different jobs within the same pipeline.
+
 ### Stage N: Generate an OAuth Access Token for each CI Job
 
-With this option we would generate an OAuth App (`Doorkeeper::Application`) and
-use that application to generate an OAuth Access Token for the service account
-defined in stage 2. This option utilizes the existing custom roles and OAuth
-functionality and provides an extension point for API's outside of the
-`gitlab-rails` monolith to be able to look up the claims associated with a
-`CI_JOB_TOKEN` by making an API call to the `GET /oauth/token/info` endpoint.
+At this stage of development we will create and register a trusted OAuth App
+(`Doorkeeper::Application`) and use that application to generate an OAuth Access
+Tokens on behalf of the service account defined in stage 2. This option will
+utilize our existing OAuth implementation and will provide an extension point
+for any API outside of the [monolith][20] to be able to check the claims
+associated with a given [`CI_JOB_TOKEN`][1] by making an API call to the
+[token introspection endpoint][21].
 
 A proof of concept can be found in [this MR][16].
 
 Pros:
 
-* Injects a `CI_JOB_TOKEN` that is scoped to a specific user.
 * The `CI_JOB_TOKEN` is an access token that is compatible with our OAuth Provider.
-  * This creates an extension point to allow all GitLab Resource Servers to
-    begin performing authz checks using an OAuth compatible token.
+* This creates an extension point that is standards compatible for better
+  interoperability between internal and external services.
 
 Cons:
 
@@ -277,16 +275,16 @@ Sequence Diagram
 
 ## Alternative Solutions
 
-<!--
-It might be a good idea to include a list of alternative solutions or paths
-considered, although it is not required. Include pros and cons for each
-alternative solution/path.
-
-"Do nothing" and its pros and cons could be included in the list too.
--->
-
 * Build a [Security Token Service][7]
+  * Pros: Standards compliant solution
+  * Cons: Additional up front effort and maintenance is required before we can
+    realize any value.
 * Migrating to the [GitLab OAuth2 provider][10]
+  * Pros: Standards compliant solution
+  * Cons: More effort is required up front before any value can be realized
+* Do nothing
+  * Pros: No work required
+  * Cons: See the Motivation section of this document for details
 
 [1]: https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html
 [2]: https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/runner_tokens/
@@ -306,3 +304,6 @@ alternative solution/path.
 [16]: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/162333
 [17]: https://csrc.nist.gov/glossary/term/least_privilege
 [18]: https://docs.gitlab.com/ee/user/permissions.html#roles
+[19]: https://gitlab.com/gitlab-org/gitlab/-/blob/fe97111040fd82e283a0ac0034ed832cb592ba35/app/models/concerns/has_user_type.rb#L20
+[20]: https://gitlab.com/gitlab-org/gitlab
+[21]: https://docs.gitlab.com/ee/api/oauth2.html#retrieve-the-token-information
