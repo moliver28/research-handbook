@@ -64,6 +64,7 @@ efforts on the most immediate threats and reduce overall remediation workload.
 By adding KEV data to the information presented to users, we deliver these
 benefits to the GitLab platform, enabling more effective and efficient
 vulnerability management.
+
 Additionally, FCEB (federal civilian executive branch) agencies must address
 vulnerabilities in the KEV catalog
 under [BOD 22-01](https://www.cisa.gov/news-events/directives/bod-22-01-reducing-significant-risk-known-exploited-vulnerabilities).
