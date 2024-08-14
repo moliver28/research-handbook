@@ -496,15 +496,15 @@ The Remote Development Group collates all video recordings related to the group 
 Automations should be set up via [triage-ops](https://gitlab.com/gitlab-org/quality/triage-ops/) if possible.
 
 Other more complex automations may be set up in the
-[Workspace Team Automation project](https://gitlab.com/gitlab-org/remote-development/remote-development-team-automation).
+[Remote Development Team Automation project](https://gitlab.com/gitlab-org/remote-development/remote-development-team-automation).
 
-### Automations for Workspace Workflow
+### Automations for Group Workflow
 
-Ideally we should automate as much of the [Workspace Planning Process](#-remote-development-planning-process) workflow as possible.
+Ideally we should automate as much of the [Remote Development Planning Process](#-remote-development-planning-process) workflow as possible.
 
 We have the following automation goals for this Workflow. Unless otherwise noted, these rules are all defined in the [triage-ops `policies/groups/gitlab-org/ide/remote-development-workflow.yml` config files](https://gitlab.com/gitlab-org/quality/triage-ops/-/tree/master/policies/groups/gitlab-org/remote-development).
 
-TODO: None of these are set up for the Web IDE category and `webide-workflow::*` labels yet - there is [an issue for this](https://gitlab.com/gitlab-org/gitlab/-/issues/452218).
+TODO: None of these are set up yet for the Web IDE category and `webide-workflow::*` labels yet - there is [an issue for this](https://gitlab.com/gitlab-org/gitlab/-/issues/452218). These need to be set up, and the references to "`workspace`" in the table below should be updated accordingly to also include "`webide`".
 
 | ID | Goal | Automation | Link(s) to implementation |
 | --- | --- | --- | --- |

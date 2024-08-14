@@ -52,6 +52,10 @@
 /handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure.html /handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure/ 301
 /handbook/legal/privacy/us-state-privacy-disclosure/ https://about.gitlab.com/privacy/us-state-privacy-rights-and-disclosures/ 301
 
+# Manage/Foundations restructure - Remove 2024-09-01
+/handbook/engineering/development/dev/manage/import-and-integrate/ /handbook/engineering/development/dev/foundations/import-and-integrate/ 301
+/handbook/engineering/development/dev/manage/foundations/ /handbook/engineering/development/dev/foundations/ 301
+
 # Old redirect pre-migration - remove 2024-12-01
 /handbook/finance/accounting/prepaid/ https://internal.gitlab.com/handbook/finance/accounting/prepaid/ 301
 /handbook/finance/accounting/finance-ops/accounts-receivable/ https://internal.gitlab.com/handbook/finance/accounting/finance-ops/accounts-receivable/ 301
@@ -62,37 +66,35 @@
 /handbook/finance/financial-planning-and-analysis/sales-finance/ https://internal.gitlab.com/handbook/finance/finance-planning-and-analysis/sales-finance/ 301
 /handbook/finance/timekeeping/frequently-asked-questions/ https://internal.gitlab.com/handbook/finance/payroll/timekeeping/frequently-asked-questions/ 301
 
-# Brand Standards - remove 2025-01-17
-/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/* https://design.gitlab.com/brand-overview/resources 301
-
-# Remote Development group/category renames - remove 2025-01-17
-/handbook/engineering/architecture/design-documents/remote_development/* /handbook/engineering/architecture/design-documents/workspaces/:splat 301
-
-# Solutions Architecture Handbook Moved - remove 2025-06-01
-/handbook/customer-success/solutions-architects/* /handbook/solutions-architects/:splat 301
-/handbook/customer-success/solutions-architects/ /handbook/solutions-architects/ 301
-
-# Webinar redirects - remove 2025-05-01
-/handbook/customer-success/csm/segment/cse/webinar-calendar/ https://university.gitlab.com/pages/gitlab-user-webinars 301
-/handbook/customer-success/csm/segment/scale/webinar-calendar/  https://university.gitlab.com/pages/gitlab-user-webinars 301
-
 # Growth section move from Marketing to Engineering - remove 2024-12-01
 /handbook/marketing/growth/engineering/* /handbook/engineering/development/growth/:splat 301
 
-# about.gitlab.com handbook guide redirects - remove 2025-07-25
-/handbook/product/markdown-guide/ https://about.gitlab.com/community/markdown-guide-middleman/ 301
+# Moved frontmatter page - remove 2024-12-01
+/handbook/editing-handbook/frontmatter/ https://handbook.gitlab.com/docs/frontmatter/
 
-# Handbook doesn't use .html style page locations so repoint these
-/*.html /:splat/ 301
-
-# Product handbook restructure - remove 2025-08-08
+# Product handbook restructure - remove 2024-12-08
 /handbook/product/fulfillment-guide/* /handbook/product/groups/fulfillment-guide/:splat 301
 /handbook/product/project-management/* /handbook/product/groups/project-management/:splat 301
 /handbook/product/product-analysis/* /handbook/product/groups/product-analysis/:splat 301
 /handbook/product/categories/verify/* /handbook/product/groups/verify/:splat 301
 /handbook/product/how-to-engage/* /handbook/product/product-management/#how-to-engage-product-managers 301
 
-# Manage/Foundations restructure - Remove 2024-09-01
-/handbook/engineering/development/dev/manage/import-and-integrate/ /handbook/engineering/development/dev/foundations/import-and-integrate/ 301
-/handbook/engineering/development/dev/manage/foundations/ /handbook/engineering/development/dev/foundations/ 301
+# Remote Development group/category renames - remove 2024-12-17
+/handbook/engineering/architecture/design-documents/remote_development/* /handbook/engineering/architecture/design-documents/workspaces/:splat 301
 
+# Solutions Architecture Handbook Moved - remove 2025-01-01
+/handbook/customer-success/solutions-architects/* /handbook/solutions-architects/:splat 301
+/handbook/customer-success/solutions-architects/ /handbook/solutions-architects/ 301
+
+# Brand Standards - remove 2025-01-17
+/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/* https://design.gitlab.com/brand-overview/resources 301
+
+# Webinar redirects - remove 2025-05-01
+/handbook/customer-success/csm/segment/cse/webinar-calendar/ https://university.gitlab.com/pages/gitlab-user-webinars 301
+/handbook/customer-success/csm/segment/scale/webinar-calendar/  https://university.gitlab.com/pages/gitlab-user-webinars 301
+
+# about.gitlab.com handbook guide redirects - remove 2025-07-25
+/handbook/product/markdown-guide/ https://about.gitlab.com/community/markdown-guide-middleman/ 301
+
+# Handbook doesn't use .html style page locations so repoint these
+/*.html /:splat/ 301

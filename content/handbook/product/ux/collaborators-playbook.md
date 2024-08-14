@@ -13,7 +13,7 @@ This page acts as a quick reference of mental models for sync and async collabor
 
 ### 2 steps forward, 1 step back design
 
-At GitLab we ship using the [Minimal Viable Change](/handbook/product/product-principles/#the-minimal-viable-change-mvc) (MVC). Designing in this context can often be confusing for newcomers because it's important to consider the big picture as well as the steps for how we get there. To deal with this dichotomy, we design by initially thinking about the mid to long-term vision and then reducing the scope of the experience (in a lovable way) to make implementation quicker. In other words, we design by taking 2 steps forward and 1 step back.
+At GitLab we ship using the [Minimal Viable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) (MVC). Designing in this context can often be confusing for newcomers because it's important to consider the big picture as well as the steps for how we get there. To deal with this dichotomy, we design by initially thinking about the mid to long-term vision and then reducing the scope of the experience (in a lovable way) to make implementation quicker. In other words, we design by taking 2 steps forward and 1 step back.
 
 **Actions**
 

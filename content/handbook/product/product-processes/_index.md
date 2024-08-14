@@ -14,7 +14,7 @@ As a Product Organization, we work to create a flexible yet concise product deve
 ### Product Development Flow
 
 Introducing changes requires a number of steps, with some overlap, that should be completed in order. GitLab follows a dual-track [product development flow](/handbook/product-development-flow/) spanning product, engineering, UX, and quality. We [use GitLab to power product development flow](/handbook/product/product-processes/planning-with-gitlab). When changes are released, we follow the [release post process](/handbook/marketing/blog/release-posts/#pm-contributors) to communicate externally about new capabilities.
-
+principles/#the-minimal-viable-change-mv
 This process should be both up front and on an on-going basis when building features. 
 
 ### The Importance of Direction
@@ -53,70 +53,135 @@ When communicating change or a request for action to the entire product function
 | Two | Request for action from all PMs | Post in `#product` and mention `@gl-product-pm` in MR/issue with specific action instructions. |
 | Three | Confirmation of understanding | Post in `#product` and mention `@gl-product-pm`; checkbox for each `@gl-product-pm` member in an MR/issue description to confirm; assign MR/issue to all `@gl-product-pm` members |
 
-#### Quickly converting ideas into MVCs
+### Internal and external evangelization
 
-There is a certain failure case for MVC issues that product managers need to
-be aware of and actively work to prevent. Because we don't have infinite capacity
-to work on everything and good ideas are always coming in, it's possible (if
-the PM is not watching closely) for issues with good ideas to slowly but inevitably
-decay into something that is difficult to understand and move forward with.
+Before shipping a new or updated feature, you are responsible for championing
+it, both internally and externally. When something is released, the
+following teams need to be aware of it as they will all need to do something
+about it:
 
-As more and more comments are added, the issue slowly morphs from idea to idea
-without any direction from a product manager. Then, it becomes difficult to ever
-make complete sense of it again without losing some important context. It's
-also nearly impossible for someone who wants to make a community contribution
-to understand what the direction is. In other words, it becomes an undefined blob of ideas.
+- Marketing: depending on the importance of the feature, we need the help of
+marketing to promote this feature on our different communication channels.
+- Sales: sales needs to know what's new or changed in the product so they can
+have better arguments to convince new or existing customers during their sales
+process.
+- Support: as they are in constant contact with our users and customers,
+support should know exactly how our products work.
 
-To prevent this, it is the product manager's responsibility to quickly determine whether an open-ended issue aligns with our business model and is broadly useful. If the answer to those questions is "yes," then we must turn it into something actionable, deliverable, and truly MVC as quickly as possible. If the answer is "no," then we must close the issue to [maintain our backlog's hygiene](https://www.huffpost.com/entry/how-to-maintain-your-prod_b_9920692?guccounter=1).
+You can promote your work in several ways:
 
-The guidance for product managers is to never let an idea issue persist
-longer than three months without having been converted into a clear MVC.
-If this has not happened, you should ask yourself why this is the case: Is the
-idea overly broad? Is there no clear immediate deliverable? Is it just not
-important enough to spend time on? These are all signals that should be acted
-on without delay, before the issue degrades to the point that it becomes
-unusable without significant rework.
+- start with documenting what will be released and share this documentation with
+the different teams
+- schedule meetings, if you think it's important, with the teams listed above.
 
-In practice, if the original issue was really broad and still contains great
-ideas, then simply converting it into an MVC that gets closed when it ships
-could be a disservice, because you lose valuable context when it's time to improve
-the MVC. In this case, consider creating a new issue for the MVC, so that it
-is crisp and concise, and leave the original issue as a post-MVC meta item.
+When referencing issues in written communication using just the issue number `#123456` and a link is not [low-context communication](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication). Instead use the title of the issue and the link or the issue number and description of the problem that issue will solve:
 
-#### Crafting an MVC
+- Good: `We will next be working on [Detect and display code coverage reports on MR](https://gitlab.com/gitlab-org/gitlab/-/issues/21549)`. OR `We will next be working on [gitlab#21549](https://gitlab.com/gitlab-org/gitlab/-/issues/21549) which will help developers view code coverage reports directly in GitLab instead of losing context by looking in another tool while reviewing an MR`.
+- Avoid: `We will next be working on #21549.`.
 
-Here are some guidelines to follow when exploring an MVC:
+In order to support [findability](/handbook/values/#findability) and to clearly [articulate when we change our minds](/handbook/values/#articulate-when-you-change-your-mind) especially when it comes to product direction, category changes, shifts in investment themes, or priorities for engineering, Product Managers must evangelize these changes in multi-modal communication channels to ensure our users and customers aware.
 
-- The issue should be based off of the standard [Feature Proposal](https://gitlab.com/gitlab-org/gitlab/issues/new?issuable_template=Feature%20proposal%20-%20detailed) issue template.
-- The issue should be the smallest iteration we can create to address the problem.
-- The MVC should be buildable in one iteration.
-- If the issue generates a lot of discussion, make sure that the issue
-description always reflects the latest decisions at the current point in time.
-- Feel free to edit the issue description without keeping a history of the
-previous content, as long as it reflects the latest decisions. If you really
-want to, you can copy old content into the discussion thread for posterity.
-- It's not shipped until it's documented, no matter what the change is.
+Some **internal** methods for communication include:
 
-![mvc.png](/handbook/product/mvc.png)
+- Sharing the updates various product-based Slack channels such as: `#product`, `#s_`, `#g_`, or `#f_` Slack channels
+- Cross-posting changes in direction or categories into #customer-success and if they impact [use cases](/handbook/marketing/use-cases/) tag `@cs-leadership` for awareness
+- Recording a quick video and sharing with Customer Success that discusses direction updates. Use sync meetings [as needed](/handbook/company/culture/all-remote/asynchronous/#when-to-start-synchronous-first) to facilitate efficient communication.
+- [Collaborate with the Field Communications team](/handbook/sales/field-communications/#field-communications-playbook) to determine if a larger internal communications plan/approach is necessary for the Field (Sales, Customer Success, Channel & Alliances) team.
+- Aggregating and sharing highlights of monthly direction page updates at the Section-level across the organization
 
-Virtually every new feature must be maintained forever (the standard for sunsetting a
-feature is very high). Creating a new feature means that GitLab has to continually manage the
-costs of maintaining that feature. Making small changes with quick feedback loops reduces the risk
-of introducing a new feature where the value doesn't justify the long-term costs.
+**External** channels for consideration linking direction pages to:
 
-A new feature also adds a tax on the user experience due to additional complexity in the product.
-Make sure that the benefits gained by users from the new feature more than cover the tax incurred,
-accounting for how frequently the new feature will be used. In particular, the new feature
-should satisfy this inequality:
+- Twitter, LinkedIn, or other social accounts
+- Sharing outreach emails via account teams
+- Recording walkthroughs on Unfiltered and promoting on social accounts
+- Writing a blog about the changes, if they are significant or disruptive
 
-`(benefits * frequency) / (tax * (1-frequency)) > 1`
+### Writing to inspire action
 
-Despite its minimal form, the change
+As a PM, it is important to remember a [bias towards action](/handbook/values/#bias-for-action) (and other value actions like [sense of urgency](/handbook/values/#sense-of-urgency), [make a proposal](/handbook/values/#make-a-proposal), [boring solutions](/handbook/values/#boring-solutions), [write things down](/handbook/values/#write-things-down), [don't wait](/handbook/values/#dont-wait), [make two way doors decisions](/handbook/values/#make-two-way-door-decisions) and [accepting uncertainty](/handbook/values/#accepting-uncertainty)
+which enables PMs to drive an async discussion to being action oriented. Every time you write a comment or create an issue ask yourself: Will this allow us to take an action and move us forward?
 
-- Always requires documentation.
-- Must track usage from day 1, if the feature has a meaningful impact. You can find more information on how we think about monitoring feature engagement in our [Analytics Instrumentation Guide](/handbook/product/analytics-instrumentation-guide)
+### Writing about features
 
-[![xkcd.com](https://imgs.xkcd.com/comics/optimization.png)](https://xkcd.com/1691/)
+As PMs we need to constantly write about the features and upgrades we ship: in a blog post,
+internally to promote something, and in emails sent to customers. There are some
+guidelines that one should take into account when writing about features,
+the most important being a clear communication of the problem we're solving for users.
+
+When writing about a feature, make sure to cover [these messaging guidelines](/handbook/marketing/blog/release-posts/#messaging-review)
+which help produce clear internal and external
+messaging. Please also keep in mind that we should avoid using acronyms that others my not recognize, such as "MVC" for Minimal Viable Change. For more guidance you can visit our [writing style guidelines](/handbook/communication/#writing-style-guidelines).
+
+Let's highlight the messaging guidelines mentioned above with a concrete example, Preventing Secrets in your repositories,
+that [we shipped in 8.12](https://about.gitlab.com/releases/2016/09/22/gitlab-8-12-released/#preventing-secrets-in-your-repositories-ee).
+
+- Start with the context. Explain what the current situation is without the
+feature. Describe the pain points and connect back to our [Value Drivers](/handbook/marketing/#go-to-market-value-drivers-and-customer-use-cases) (in this case `Reduce Security and Compliance Risk`).
+
+> It's a bad idea to commit secrets (such as keys and certificates) to your
+> repositories: they'll be cloned to the machines of anyone that has access to the
+> repository. If just a single one is insecure, the information will be
+> compromised. Unfortunately, it can happen quite easily. You write
+> `git commit -am 'quickfix' && git push` and suddenly you've committed files that
+> were meant to stay local!
+
+- Explain what we've shipped to fix this problem.
+
+> GitLab now has a new push rule that will prevent commits with secrets from entering the repository.
+
+- Describe how to use the feature in simple terms.
+
+> Just check the checkbox in the repository settings, under push rules and
+> GitLab will prevent common unsafe files such as .pem and .key from being committed.
+
+- Point to the documentation and any other relevant links (previous posts, etc).
+
+Here are some additional examples of well written release blog posts for inspiration:
+
+- [Issue Board Work In Progress Limits](https://about.gitlab.com/releases/2020/02/22/gitlab-12-8-released/#issue-board-work-in-progress-limits)
+- [Parent-Child Pipelines](https://about.gitlab.com/releases/2020/01/22/gitlab-12-7-released/#parent-child-pipelines)
+- [Drag-and-drop Design badges](https://about.gitlab.com/releases/2020/02/22/gitlab-12-8-released/#drag-and-drop-design-badges)
+- [Render charts in GitLab issues using a Grafana URL](https://about.gitlab.com/releases/2019/11/22/gitlab-12-5-released/)
+
+### Recording videos to showcase features
+
+In addition to the written medium, video is an important medium that caters to the different goals you are trying to accomplish and learning styles of your audience.
+Depending on the type of video you are recording, there are some guidelines to keep in mind.
+
+As our documentation guidelines [actively encourage](https://docs.gitlab.com/ee/development/documentation/styleguide/#videos) linking video content,
+please consider following the [Documentation Style Guide section on language](https://docs.gitlab.com/ee/development/documentation/styleguide/#language),
+and working with your technical writing team to include links to your speed runs, walk-throughs and demos at relevant locations in the product documentation.
+
+#### Using GIFs
+
+Animated gifs are an awesome way of showing of features that need a little more than just an image, either for marketing purposes or explaining a feature in more detail. Checkout our guide to [Making Gifs](/handbook/product/making-gifs/)!
+
+#### Speed Run
+
+Speed runs are informal videos meant to focus on a single workflow and the experience for performing that workflow. It should not require much planning and is typically short in duration (less than 5 min.). This video type is meant to inform and not necessarily to influence buyers.
+
+Examples:
+
+- [GitLab Unfiltered Speed Runs Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqSF4RAEzwC0qCBrM85OP7r)
+- [Remove docker images via CI/CD speed run](https://youtu.be/jDlFCrH9H7g)
+
+#### Demo
+
+Demos are scripted recordings meant to influence buyers. Generally has higher production value and typically involves both a slide-style presentation and/or live screen-sharing. Duration varies depending on the topics being covered.
+
+Examples:
+
+- [GitLab for the Enterprise Demo](https://youtu.be/aIYLxMXQiLI)
+
+#### Walk-through
+
+Product walk-throughs are informal videos meant primarily for an internal audience as a recorded, visual form of product critique. Walk-throughs typically focus on the user experience across categories and workflows within a Product Manager's [product scope](/handbook/product/categories/). There are particular benefits to walk-throughs which span [product hierarchy](/handbook/product/categories/#hierarchy) boundaries (multi-category, multi-stage, multi-section) as they help highlight disjointed experiences across our single-application.
+
+Walk-throughs are typically longer in length as they cover more ground and often involve some "live" troubleshooting and are best performed with no planning. Use the [Product walk-through issue template](https://gitlab.com/gitlab-com/Product/issues/new?issuable_template=Product-Walk-Through) when creating a walk-through.
+
+Examples:
+
+- [Auto DevOps setup and usage walk-through](https://youtu.be/V4NX2j2HQAs)
 
 ### QA Release Candidates on staging and elsewhere
 
@@ -917,15 +982,7 @@ stage group weekly meeting once a month.
 
 #### Customer meetings
 
-It's important to get direct feedback from our customers on things we've built,
-are building, or should be building. Some opportunities to do that will arise during
-[sales support meetings](#sales-support-meetings). As a PM you should also have dedicated
-[customer discovery meetings](#customer-discovery-meetings) or [continuous interviews](/handbook/product/product-processes/continuous-interviewing) with customers and prospects
-to better understand their pain points.
-
-As a PM you should facilitate opportunities for your engineering group to hear
-directly from customers too. Try to schedule customer meetings at times that
-are friendly to your group, invite them, and send them the recording and notes.  If you're looking for other ways to engage with customers here is a video on [finding, preparing for, and navigating Customer Calls as a Product Manager at GitLab](https://www.youtube.com/watch?v=HyVR_ybRkCY).
+It's important to get direct feedback from our customers on things we've built, are building, or should be building. Some opportunities to do that will arise during [sales support meetings](#sales-support-meetings). As a PM you should also have dedicated[customer discovery meetings](#customer-discovery-meetings) or [continuous interviews](/handbook/product/product-processes/continuous-interviewing) with customers and prospects to better understand their pain points. As a PM you should facilitate opportunities for your engineering group to hear directly from customers too. Try to schedule customer meetings at times that are friendly to your group, invite them, and send them the recording and notes.  If you're looking for other ways to engage with customers here is a video on [finding, preparing for, and navigating Customer Calls as a Product Manager at GitLab](https://www.youtube.com/watch?v=HyVR_ybRkCY).
 
 ##### Sales support meetings
 
@@ -1416,15 +1473,3 @@ Testing a new set of pages requires just 2 steps:
 1. Open the relevant stage's [grafonnet dashboard file](https://gitlab.com/gitlab-com/runbooks/-/tree/master/dashboards/product). Find the section corresponding to the desired group, and add an additional call to `productCommon.pageDetail`. The call arguments are `Chart Title`, `Alias` from above, and the tested `URL`. Ensure the JSON formatting is correct, the easiest way is to simply copy/paste from another line. A sample MR is available [here](https://gitlab.com/gitlab-com/runbooks/-/merge_requests/2719/diffs).
 
 Assign both MR's to a maintainer. After they are merged, the stage's Grafana dashboard will be automatically updated. A [video walkthrough](https://youtu.be/sGdzWKzMKpY) is available as well.
-
-## Product-specific people processes
-
-### Annual compensation review
-
-For our upcoming Annual Compensation Review (ACR) cycle, [this handbook page](/handbook/total-rewards/compensation/compensation-review-cycle) should be referenced as SSOT for content and processes related to the program. The timeline below outlines the Product division specific timeline the division will follow to ensure we have an appropriate amount of time to review compensation recommendations at all levels. Aside from the timeline itself, please reference the [ACR handbook page](/handbook/total-rewards/compensation/compensation-review-cycle) for additional detail and program information.
-
-- **2024-01-16 @ 5pm PT**: Due date for Managers and Senior Managers to submit slates in Workday
-- **2024-01-22 @ 5pm PT**: Due date for Directors to submit slates in Workday
-- **2024-01-26 @ 5pm PT**: Due date for Senior Directors and VPs to submit slates in Workday
-
-If managers would like to embed additional due dates or touch points within their teams they are free to do so on a team-by-team basis, as long as the overarching due dates are adhered to. Please reach out to your manager or People Business Partner if you have additional questions.

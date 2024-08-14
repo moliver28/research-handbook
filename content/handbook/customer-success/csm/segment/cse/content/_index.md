@@ -9,7 +9,7 @@ aliases:
 
 ## <i class="fa-solid fa-signs-post" style="color: #B197FC;"></i> QuickLinks
 
-### Team Workflow
+### Team Workflows, Planning and Collaboration
 
 <!---
 #### Issue Templates
@@ -20,12 +20,10 @@ aliases:
 
 #### Issue Boards
 
-- [<i class="far fa-clipboard"></i> Team Workflow](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/boards/7672022?group_by=epic)
-- [<i class="far fa-clipboard"></i> Content by Milestone](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/boards/7672054?group_by=epic)
-<!---
-- [<i class="far fa-clipboard"></i> Content by Assignee](https://gitlab.com/groups/gitlab-com/-/boards/7577841?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy)
-- [<i class="far fa-clipboard"></i> Content by Types](https://gitlab.com/groups/gitlab-com/-/boards/7577822?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy)
---->
+- [<i class="far fa-clipboard"></i> Content Development](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/boards/7697122?label_name[]=content-idea&group_by=epic)
+- [<i class="far fa-clipboard"></i> Content Idea Backlog](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/boards/7694684?label_name[]=content-idea)
+- [<i class="far fa-clipboard"></i> Program Development](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/boards/7672022?group_by=epic)
+- [<i class="far fa-clipboard"></i> Release Management](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/boards/7672054?group_by=epic)
 
 ### Roadmap
 

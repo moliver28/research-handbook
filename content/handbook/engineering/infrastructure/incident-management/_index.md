@@ -70,6 +70,7 @@ Edits made during a zoom call only last for the length of the call, so it should
 | `DRI` - **Directly Responsible Individual** | The DRI is the owner of the incident and is responsible for the coordination of the incident response and will drive the incident to resolution. The DRI should always be the person assigned to the issue. | By default, the `IM` is the DRI for Sev1 and Sev2 externally facing incidents, the EOC is the DRI for all other incidents. The DRI can and should transfer ownership in cases where it makes sense to do so. |
 | `IM` - **Incident Manager** [Information about IM onboarding](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/) | The Incident Manager is engaged when incident resolution requires coordination from multiple parties. The Incident Manager is the tactical leader of the incident response team—not a person performing technical work. The IM checklist is in our [runbooks](https://gitlab.com/gitlab-com/runbooks/-/blob/master/incidents/general_incidents.md#imoc-checklist). The Incident Manager assembles the incident team by engaging individuals with the skills and information required to resolve the incident. | The Incident Manager On Call rotation is in [PagerDuty](https://gitlab.pagerduty.com/schedules#?query=incident%20manager) |
 | `IM Coordinator` - **Incident Manager Coordinator** | The IM Coordinator is responsible for helping to coordinate IM coverage, on-boarding and off-boarding. | A single person dedicated to the role in the Infrastructure department |
+| `EOC Coordinator` - **Engineer on-call Coordinator** | The EOC Coordinator is responsible for maintaining EOC quality of life and confidence. | A single person dedicated to the role in the Infrastructure department |
 | `CMOC` - Incident **Communications Manager On Call** | The CMOC disseminates information internally to stakeholders and externally to customers across multiple media (e.g. GitLab issues, status.gitlab.com, etc.). | The **Communications Manager** is generally member of the support team at GitLab. Notifications to the `Incident Management - CMOC` service in PagerDuty will go to the rotations setup for CMOC. |
 | `Infrastructure Leader` | The Infrastructure Leader is part of the Infrastructure Leadership rotation that handles escalations for high severity incidents. | A Staff+ or EM in the Infrastructure, Platform department. |
 | `Infrastructure Liaison` | The Infrastructure Liaison is someone who speaks on behalf of the department to the e-team for severity 1 incidents. | A [grade 10+](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) member of Infrastructure. |
@@ -149,6 +150,19 @@ In other situations, [page the Incident Manager](#how-to-engage-the-eoc-im-or-cm
 1. An announcement will be posted in [`#im-general`](https://gitlab.slack.com/archives/C01NY82EJF6) indicating that the schedule has been modified with a link to the MR and a brief overview of who was added or removed.
 1. All issues on the [IM onboarding/offboarding board](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/boards/5078854?label_name%5B%5D=IM) need to be reviewed once a month for overdue due dates.
    If any issues are overdue, the coordinator will need to check in with the author to see if they need more time or support to finish their on-boarding.
+
+### Engineer on-call Coordinator
+
+The EOC Coordinator is focused on improving SRE on-call quality of life and setting up processes to keep on-call engineers across the entire company operating at a high level of confidence.
+
+Responsibilities of this role:
+
+1. Identifying gaps in process and tooling that help EOC increase QoL, capture via PI.
+2. Coordinating regular training and workshops.
+3. Enabling knowledge transfer between SREs as a follow up to incident reviews and notable incidents.
+4. Facilitate larger changes regarding incident management through coordination and priority setting with other teams inside of SaaS Platforms.
+
+The EOC Coordinator will work closely with the Ops Team on core on-call and incident management concerns, and engage other teams across the organization as needed.
 
 ### Communications Manager on Call (CMOC) Responsibilities
 

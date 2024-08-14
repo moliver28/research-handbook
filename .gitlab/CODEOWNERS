@@ -132,7 +132,7 @@
 /content/handbook/engineering/development/database.md @alexives
 /content/handbook/engineering/development/dev/ @timzallmann
 /content/handbook/engineering/development/dev/create/ @dsatcher
-/content/handbook/engineering/development/dev/create/code-creation/ @mnohr
+/content/handbook/engineering/development/dev/create/code-creation/ @mnohr @jordanjanes
 /content/handbook/engineering/development/dev/create/editor-extensions.md @dashaadu @kisha.mavryck
 /content/handbook/engineering/development/dev/create/remote-development/ @adebayo_a
 /content/handbook/engineering/development/dev/manage/ @wortschi @m_gill @mksionek
@@ -537,7 +537,7 @@
 /content/handbook/sales/playbook/ @emelier @kshirazi
 /content/handbook/sales/prospecting.md @emelier @akramer @kshirazi
 /content/handbook/sales/public-sector.md @james_harrison
-/content/handbook/sales/qbrs/ @ashahrazad1 @azaglul @shannonthompson @monicaj
+/content/handbook/sales/qbrs/ @ashahrazad1 @shannonthompson @monicaj
 /content/handbook/sales/qualification-questions.md @akramer
 /content/handbook/sales/readmes/ @akramer
 /content/handbook/sales/revenue-programs.md @dsteer
@@ -700,8 +700,7 @@
 /content/handbook/security/isms.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/password-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/physical-security-standard-for-company-assets.md @joshlemos @jlongo_gitlab @juliedavila @plafoucriere @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/product-security/vulnerability-management/ @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/product-security/vulnerability-management/encryption-policy.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/product-security/vulnerability-management/_index.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/records-retention-deletion.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/governance/sec-training.md @cynthiamiller @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-compliance/access-reviews.md @cynthiamiller @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites

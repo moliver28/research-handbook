@@ -2,18 +2,18 @@
 title: Fullstack Engineer, Technical Writing
 ---
 
-Fullstack engineers work across the front- and backend of the GitLab documentation site to improve the user experience.
+ A Fullstack Engineer, Technical Writing works across the front- and backend of the GitLab documentation site to improve the user experience.
 
 ## Responsibilities
 
-- Develop features and improvements to the documentation site in a secure, well-tested, and performant way.
-- Analyze and interpret highly complex data to arrive at actionable recommendations.
-- Collaborate with the Technical Writing Director and other stakeholders (e.g. UX) to maintain a high bar for quality in a fast-paced, iterative environment.
-- Advocate for improvements to site quality, security, and performance.
-- Solve technical problems of high scope and complexity.
-- Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
-- Represent GitLab and its values in public communication around specific projects and community contributions.
-- Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
+- Develops features and improvements to the documentation site in a secure, well-tested, and performant way.
+- Analyzes and interprets highly complex data to arrive at actionable recommendations.
+- Collaborates with the Technical Writing Director and other stakeholders (e.g. UX) to maintain a high bar for quality in a fast-paced, iterative environment.
+- Advocates for improvements to site quality, security, and performance.
+- Solves technical problems of high scope and complexity.
+- Crafts code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintains and advocates for these standards through code review.
+- Represents GitLab and its values in public communication around specific projects and community contributions.
+- Confidently ships small features and improvements with minimal guidance and support from other team members. Collaborates with the team on larger projects.
 
 ## Requirements
 
@@ -50,24 +50,24 @@ Fullstack engineers work across the front- and backend of the GitLab documentati
 
 ## Levels
 
-### Senior UX Fullstack Engineer
+### Senior Fullstack Engineer, Technical Writing
 
 The Senior Fullstack Engineer reports to the [Director, Technical Writing](/job-families/product/technical-writing-manager/#director-technical-writing).
 
-#### Senior UX Fullstack Engineer Job Grade
+#### Senior Fullstack Engineer, Technical Writing Job Grade
 
-The Senior UX Fullstack Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Fullstack Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior UX Fullstack Engineer Responsibilities
+#### Senior Fullstack Engineer, Technical Writing Responsibilities
 
-- Extends the responsibilities and requirements of the [Fullstack Engineer](/job-families/engineering/development/fullstack/)
-- Reports into a team member of the User Experience team.
-- Performs enhancements to the look-and-feel of the documentation website.
+- Extends the responsibilities and requirements of the [Fullstack Engineer, Technical Writing](/job-families/product/ux-fullstack-engineer/)
+- Reports to the Director, Technical Writing.
+- Suggests and performs enhancements to the look-and-feel of the documentation website.
 - Helps support the Technical Writing team by answering team member questions and triaging/responding to issues.
-- Coordinates with various stakeholders regarding site content or structure changes
-- Maintain and improve the CI/CD pipelines, build processes, and review environments
-- Improve content-authoring experience and tooling
-- Perform and/or coordinate/delegate resolution of any other docs site issues related to infrastructure, code, architecture, projects, security, CI/CD, builds, deployments, upgrades, performance, scalability, metrics, monitoring, etc
+- Coordinates with various stakeholders regarding site content or structure changes.
+- Maintains and improves the CI/CD pipelines, build processes, and review environments.
+- Improves content-authoring experience and tooling.
+- Performs and/or coordinates/delegates resolution of any other docs site issues related to infrastructure, code, architecture, projects, security, CI/CD, builds, deployments, upgrades, performance, scalability, metrics, monitoring, etc.
 
 #### Performance Indicators
 

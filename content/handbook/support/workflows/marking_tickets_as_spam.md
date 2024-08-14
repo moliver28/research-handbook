@@ -18,4 +18,6 @@ submit tickets or access our Service Desk anymore. If you are unsure this measur
 **Alternative method:** open the ticket and select [Spam macro](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/Unsorted/Spam.yaml) in the list of macros.
 It will add a tag and solve the ticket once applied. The CSAT survey won't be sent for tickets with this tag.
 
+Note: When the `Spam macro` is applied, the Zendesk ticket will not automatically refresh. To ensure that the ticket as been correctly marked as spam, please refresh the Zendesk ticket. If the ticket results in a 404 error, it means it has been successfully marked as spam.
+
 For more details about spam in Zendesk, see the issue [Managing Spam Tickets](https://gitlab.com/gitlab-com/support/support-team-meta/issues/1775).
