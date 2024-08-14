@@ -177,15 +177,15 @@ flowchart LR
   instances to consume.
   See [complete documentation](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/docs/DESIGN.md?ref_type=heads).
   PMDB components include:
-    - **Feeder**: a scheduled job called by the PMDB deployment to publish data
-      from the relevant sources to pub/sub messages consumed by PMDB processors.
-    - **Advisory processor**: Runs as a Cloud Run instance and consumes messages
-      published by the advisory feeder containing advisory related data and
-      stores them to the PMDB database.
-    - **PMDB database**: a PostgreSQL instance storing license and advisory
-      data.
-    - **Exporter**: exports license/advisory data from the PMDB database to
-      public GCP buckets.
+  - **Feeder**: a scheduled job called by the PMDB deployment to publish data
+  from the relevant sources to pub/sub messages consumed by PMDB processors.
+  - **Advisory processor**: Runs as a Cloud Run instance and consumes messages
+    published by the advisory feeder containing advisory related data and
+    stores them to the PMDB database.
+  - **PMDB database**: a PostgreSQL instance storing license and advisory
+    data.
+  - **Exporter**: exports license/advisory data from the PMDB database to
+    public GCP buckets.
 - **GitLab database**: the database used by GitLab instances.
 - **CVE** (Common Vulnerabilities and Exposures): a list of publicly known
   information-security vulnerabilities. "A CVE" usually refers to a specific
