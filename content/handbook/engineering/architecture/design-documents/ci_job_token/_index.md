@@ -104,7 +104,14 @@ At this time, it is uncertain whether we will need to manage CI job-specific
 
 ## Design and implementation details
 
-### Stage 1: Run jobs using a specific User Account
+The following stages are outlined below:
+
+1. Use a User Account
+1. Use a Service Account
+1. Use an OAuth Access Token
+1. Declarative permissions per job
+
+### Stage 1: Use a User Account
 
 Currently, project owners can invite a user to a project with specific
 permissions using a [Custom Role][5]. We will leverage this mechanism to bind a
@@ -120,8 +127,6 @@ on a naming convention. If the user account is found, it will be attached to
 the build, thereby restricting the [`CI_JOB_TOKEN`][1] to the permissions
 assigned to that account.
 
-An example of how to implement this can be found in [this MR][15].
-
 The convention for searching for a user is as follows:
 
 1. The user must be a direct member of the project.
@@ -130,24 +135,20 @@ The convention for searching for a user is as follows:
 When a user is found matching this pattern, that user will be used as the
 security principal for generating the [`CI_JOB_TOKEN`][1].
 
-Example:
-
-1. Create a project (e.g. `my-project`)
-1. Register a new user account with the username of `<project-name>-ci_user`. (e.g. `my-project-ci_user`)
-1. Go to `Project > Manage > Members` and add the new user with a base role of `Guest`
+An example of how to implement this can be found in [this MR][15].
 
 Pros:
 
-* This is a boring solution
-* This allows for fast feedback to help identify gaps in our custom permissions
+* This is a straightforward solution.
+* It allows for fast feedback to help identify gaps in our custom permissions.
 
 Cons:
 
-* This takes up a licensed seat
-* This is not intuitive
-* This artifically increases the # of registered users in the product metrics
+* This occupies a licensed seat.
+* It is not intuitive.
+* This artificially increases the number of registered users in the product metrics.
 
-### Stage 2: Attach a Service Account to each `Ci::Build`
+### Stage 2: Use a Service Account
 
 In this stage, we will replace the conventional user lookup with a dedicated
 [Service Account][19] for each project. This service account will be used as the
@@ -155,16 +156,7 @@ User bound to each CI job. Project Owners will be able to assign a role to this
 Service Account. If the project has an Ultimate license, the service account can
 be assigned a [custom role][5]; otherwise, a [standard role][18] can be selected.
 
-### Stage 3: Define permissions via `.gitlab-ci.yml`
-
-In this stage, we will introduce support for defining permissions for each job
-using a declarative syntax in the [`.gitlab-ci.yml`][22] file.
-
-The exact syntax for defining these permissions is yet to be determined, but the
-goal of this stage is to enable the specification of different permissions for
-different jobs within the same pipeline.
-
-### Stage N: Generate an OAuth Access Token for each CI Job
+### Stage 3: Use an OAuth Access Token
 
 In this stage of development, we will create and register a trusted OAuth app
 (`Doorkeeper::Application`) and use it to generate OAuth access tokens on behalf
@@ -188,59 +180,15 @@ Cons:
 * This may require the creation of a new user record for every project that has CI enabled.
 * This may require the creation of a new `oauth_applications` record for each project that has CI enabled.
 
-```ruby
-module Ci
-  class Build < Ci::Processable
-    # ...
-    add_authentication_token_field :token,
-      encrypted: :required,
-      token_generator: ->(build) { build.create_oauth_access_token }, # provide :token_generator
-      format_with_prefix: :prefix_and_partition_for_token
+### Stage 4: Declarative permissions per job
 
-    def create_oauth_access_token
-      application = project.ci_oauth_application # refers to an internal OAuth App that is generated for each project when CI is enabled.
-      user = project.ci_user                     # refers to a specific service account for running CI jobs
+In this stage, we will introduce support for defining permissions for each job
+using a declarative syntax in the [`.gitlab-ci.yml`][22] file.
 
-      OauthAccessToken.create!(
-        application_id: application.id,
-        expires_in: 2.hours,                     # default to max timeout for pipeline
-        resource_owner_id: user.id,
-        token: Doorkeeper::OAuth::Helpers::UniqueToken.generate,
-        scopes: application.scopes.to_s          # list the minimal scopes necessary to connect to the API
-      )
-    end
-  end
-end
-```
+The exact syntax for defining these permissions is yet to be determined, but the
+goal of this stage is to enable the specification of different permissions for
+different jobs within the same pipeline.
 
-To accomplish this we will need to:
-
-1. Hook into the `CI::Build` state machine when transitioning to a [pending state][13].
-1. Create a new [token generator][12].
-1. Create a new [token authenticatable strategy][11].
-1. Create a [service account][9] user for each project.
-
-Sequence Diagram
-
-```plaintext
-   -------------   -----------------------   ---------------------------------------
-   | CI::Build |  | TokenAuthenticatable |  | TokenAuthenticatableStrategies::Base |
-   -------------   -----------------------   ---------------------------------------
-         |                    |                 |
-         |--> #ensure_token ->|
-         |                    |
-         |                    |--> .fabricate ->|
-         |                                      |
-         |<-- #create_oauth_access_token     <--|
-```
-
-#### Unknowns
-
-1. How many projects do we have?
-1. Which team owns the following relations:
-  * `oauth_applications`
-  * `oauth_access_tokens`
-1. How does this impact the Cells work?
 
 ## Alternative Solutions
 
