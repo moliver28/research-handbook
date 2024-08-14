@@ -10,11 +10,9 @@ This policy relates to the types of leaves that GitLab offers and the guidelines
 
 ## Paid Time Off
 
-Time away from work can be extremely helpful for maintaining a [healthy work/life balance](/handbook/company/culture/all-remote/people/#worklife-harmony). GitLab encourages managers and [leadership]({{< ref "leadership" >}}) to set the example by taking time off when needed, and ensuring their reports do the same.
+Time away from work can help team members in maintaining a [healthy work/life balance](/handbook/company/culture/all-remote/people/#worklife-harmony). GitLab encourages managers and [leadership]({{< ref "leadership" >}}) to set the example by taking time off when needed, and ensuring their reports do the same.
 
-Taking time off is not a selfish behavior. Not only is time away from work aligned with GitLab's operating principle [Family and friends first, work second](/handbook/values/#family-and-friends-first-work-second), but it is vital to maintaining [mental health](/handbook/company/culture/all-remote/mental-health/). It is also a core part of the creative process.
-
-It is important to take time off to recharge batteries and refresh the mind so you can come back to GitLab with renewed energy and be prepared to do your best work ever!
+Time away from work is aligned with GitLab's operating principle [Family and friends first, work second](/handbook/values/#family-and-friends-first-work-second). It is also supports [mental health](/handbook/company/culture/all-remote/mental-health/). 
 
 This page is written with a focus on vacation. The below recommendations on communicating your time off apply to time off for all reasons where possible and avoid concerns of health, safety, or job abandonment. GitLab offers a Flexible PTO Policy, but team members are not allowed to substitute PTO for sick time. If taking time off for medical needs or sick time, whether physical or mental, please follow our [Sick Time Policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting).
 
@@ -34,7 +32,7 @@ Time off by Deel should not be used if working but working asynchronously. Inste
 
 1. As of 2022-05-01, we've created a Flexible PTO policy to better outline communication expectations for team members and managers. This means that:
     - Our move to a Flexible PTO policy means that as long as you have coordinated with your manager about your planned time off and made a coverage plan, you are free to take PTO. There continues to be no set limit per year on the amount of PTO a team member can take.
-    - You are required to coordinate with your manager about your planned PTO at least twice as many days in advance as the total number of days that you plan to take off. For example, if you plan to take 3 days off, you are required to coordinate with your manager a minimum of 6 business days before. Please inform your manager of your PTO plans as soon as possible to allow for appropriate planning.
+    - You are required to coordinate with your manager about your planned PTO at least as many weeks in advance as the total number of days that you plan to take off. For example, if you plan to take 3 days off, you are required to coordinate with your manager a minimum of 3 weeks before. Please inform your manager of your PTO plans as soon as possible to allow for appropriate planning.
     - Once you have discussed with your manager, please coordinate with your team before taking time off, especially during popular or official holidays, so that we can ensure business continuity. We want to ensure we have adequate coverage and avoid situations where all/most of the team is taking time off at the same time. Some departments have specific windows during the quarter where the team's presence is critical to accomplishing key results. Check out your departments' handbook page for more information if applicable.
     - What we care about are your results, not how long you work, but we require managers to ensure that appropriate coverage is in place for their team. This requires managers to assess all PTO against team deliverables.
     - Note that your manager is required to ensure that your PTO does not impact business results disproportionately and as such may request that you modify your dates when necessary.
