@@ -1,8 +1,5 @@
 ---
-# This is the title of your design document. Keep it short, simple, and descriptive. A
-# good title can help communicate what the design document is and should be considered
-# as part of any review.
-title: Granular CI Job Token
+title: Low-Privilege CI Job Tokens
 status: proposed
 creation-date: "2024-08-08"
 authors: [ "@mokhax" ]
@@ -10,32 +7,10 @@ coaches: [ ]
 dris: [ "@jrandazzo", "@jayswain" ]
 owning-stage: "~govern::authorization"
 participating-stages: []
-# Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
 ---
 
-<!--
-Before you start:
-
-- **Create a MR for this document.** Assign it to an Architecture Evolution Coach (i.e. a Principal+ engineer).
-- **Merge early and iterate.** Avoid getting hung up on specific details and
-  instead aim to get the goals of the document clarified and merged quickly.
-  The best way to do this is to just start with the high-level sections and fill
-  out details incrementally in subsequent MRs.
-
-Document statuses you can use:
-
-- "proposed"
-- "accepted"
-- "ongoing"
-- "implemented"
-- "postponed"
-- "rejected"
--->
-
-<!-- Design Documents often contain forward-looking statements -->
 <!-- vale gitlab.FutureTense = NO -->
-
 {{< design-document-header >}}
 
 ## Summary
@@ -65,14 +40,6 @@ which the token was generated.
 
 ### Goals
 
-<!--
-List the specific goals / opportunities of the document.
-
-- What is it trying to achieve?
-- How will we know that this has succeeded?
-- What are other less tangible opportunities here?
--->
-
 This proposal attempts to decouple the access that a [`CI_JOB_TOKEN`][1] has
 away from a specific user to an entity with less access.
 
@@ -84,7 +51,7 @@ away from a specific user to an entity with less access.
 
 - Auditing of token usage and generation
 - Changing the format of a token (e.g. [JWT][4])
-- Creation of a [Secure Token Service][7]
+- Creation of a [Security Token Service][7]
 - OAuth2 specific integration or compatibility
 - Reducing the duration of access of a [`CI_JOB_TOKEN`][1]
 - Unify the [PAT scopes][8] with the existing [custom abilities][6]
