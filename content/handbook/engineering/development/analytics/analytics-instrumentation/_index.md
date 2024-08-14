@@ -253,7 +253,7 @@ If both estimations agree, the engineer who did the second estimation should add
 Estimating includes adding a "Proposed Solution" to the issue if none is documented yet or the estimation brings up a different one than originally documented.
 Spikes are exempted from this as discovering solutions is their main point and we default spike issues to a weight of 8.
 
-In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-viable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over-optimizing. We aim for 70% predictability instead of 90%.
+In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-valuable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over-optimizing. We aim for 70% predictability instead of 90%.
 
 If an issue has many unknowns where it's unclear if it's a 1 or a 5, we will be cautious and estimate high (5).
 
@@ -337,7 +337,7 @@ In case the issue is not created for the [GitLab project](https://gitlab.com/git
 
 ### Ratio of issues to MRs
 
-The ratio of issues to MRs is at the responsible engineer's discretion. MRs should follow the [MVC principle](/handbook/values/#minimal-viable-change-mvc).
+The ratio of issues to MRs is at the responsible engineer's discretion. MRs should follow the [MVC principle](/handbook/values/#minimal-valuable-change-mvc).
 If it is evident in advance that an issue will require more than 2 MRs we should evaluate whether we can split the issue further to document the split of the work more clearly.
 
 ### Merge request labels

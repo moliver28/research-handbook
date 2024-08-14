@@ -48,7 +48,7 @@ GitLab's use of [onboarding buddies is well documented]({{< ref "onboarding-budd
 
 1. An onboarding buddy asked a new hire what [feedback](effective-communication/#feedback-is-a-gift) she had after two weeks of onboarding.
 1. She responded with feedback that the process felt siloed, and lacked the sense of community she had experienced prior. She referenced onboarding in a colocated space, where all new hires in a given week were forced to be in the same physical setting regardless of what department they would go on to serve in. This created a sense of belonging — that they were all in this thing together.
-1. In discussing a remote solution to this, it was determined that a merge request should be put forth to encourage new hires (announced within the `#new_team_members` Slack channel) to organize an optional group call with each other for those who prefer a more social new hire orientation experience. This may not be a comprehensive solution, but it is a [minimal viable change](/handbook/values/#minimal-viable-change-mvc) which can be bolstered in future [iterations](/handbook/values/#iteration).
+1. In discussing a remote solution to this, it was determined that a merge request should be put forth to encourage new hires (announced within the `#new_team_members` Slack channel) to organize an optional group call with each other for those who prefer a more social new hire orientation experience. This may not be a comprehensive solution, but it is a [minimal viable change](/handbook/values/#minimal-valuable-change-mvc) which can be bolstered in future [iterations](/handbook/values/#iteration).
 1. In turn, [this merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29045) was produced and merged into [Onboarding Buddy Responsibilities]({{< ref "onboarding-buddies#buddy-responsibilities" >}}), creating a path for a more social onboarding experience for every successive wave of new team members.
 
 ## Paying it forward
@@ -61,7 +61,7 @@ The ideal response to learning a new answer at GitLab is to document said answer
 1. [Write things down](/handbook/values/#write-things-down)
 1. [Be respectful of others' time](/handbook/values/#be-respectful-of-others-time)
 1. [Responsibility over rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity)
-1. [Move fast by shipping the minimal viable change](/handbook/values/#move-fast-by-shipping-the-minimal-viable-change)
+1. [Move fast by shipping the minimal valuable change](/handbook/values/#move-fast-by-shipping-the-minimal-valuable-change)
 1. [Ambitious](/handbook/values/#ambitious)
 1. [Ownership](/handbook/values/#ownership)
 1. [Sense of urgency](/handbook/values/#sense-of-urgency)

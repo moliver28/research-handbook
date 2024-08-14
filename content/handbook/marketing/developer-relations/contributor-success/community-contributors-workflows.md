@@ -292,7 +292,7 @@ These 10 GitLab values support efforts to unblock the wider community and push f
 1. [Disagree, commit, and disagree](/handbook/values/#disagree-and-commit)
 1. [Escalate to unblock](/handbook/values/#escalate-to-unblock)
 1. [Cleanup over sign-up](/handbook/values/#cleanup-over-sign-off)
-1. [Minimal viable change](/handbook/values/#minimal-viable-change-mvc)
+1. [Minimal viable change](/handbook/values/#minimal-valuable-change-mvc)
 1. [Everything is in draft](/handbook/values/#everything-is-in-draft)
 1. [Make two-way door decisions](/handbook/values/#make-two-way-door-decisions)
 
