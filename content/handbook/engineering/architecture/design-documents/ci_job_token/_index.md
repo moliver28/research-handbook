@@ -83,7 +83,7 @@ away from a specific user to an entity with less access.
 ### Non-Goals
 
 - Auditing of token usage and generation
-- Changing the format of a token (i.e. [JWT][4])
+- Changing the format of a token (e.g. [JWT][4])
 - Creation of a [Secure Token Service][7]
 - OAuth2 specific integration or compatibility
 - Reducing the duration of access of a [`CI_JOB_TOKEN`][1]
@@ -93,75 +93,42 @@ away from a specific user to an entity with less access.
 
 ## Proposal
 
-Instead of creating a [`CI_JOB_TOKEN`][1] that is bound to the user that
-triggered the CI pipeline we will generate a [`CI_JOB_TOKEN`][1] bound to a
-separate entity. This entity will be a specific account for use by CI jobs.
-This custom `User` will have limited permissions bound by the Role that it is
-assigned. This role can be one of the [standard roles][18] or a [custom role][5].
+Instead of generating a [`CI_JOB_TOKEN`][1] bound to the user who triggered the
+CI pipeline, we will generate a [`CI_JOB_TOKEN`][1] bound to a separate entity.
+This entity will be a specific account designated for use by CI jobs. This
+custom User will have limited permissions defined by the assigned Role, which
+can be one of the [standard roles][18] or a [custom role][5].
 
-At this time, it is uncertain if we will need to manage CI Job specific
+At this time, it is uncertain whether we will need to manage CI job-specific
 [custom abilities][6] that cannot be assigned to regular user accounts.
 
 ## Design and implementation details
 
-<!--
-This section should contain enough information that the specifics of your
-change are understandable. This may include API specs (though not always
-required) or even code snippets. If there's any ambiguity about HOW your
-proposal will be implemented, this is the place to discuss them.
-
-If you are not sure how many implementation details you should include in the
-document, the rule of thumb here is to provide enough context for people to
-understand the proposal. As you move forward with the implementation, you may
-need to add more implementation details to the document, as those may become
-an important context for important technical decisions made along the way. A
-document is also a register of such technical decisions. If a technical
-decision requires additional context before it can be made, you probably should
-document this context in a document. If it is a small technical decision that
-can be made in a merge request by an author and a maintainer, you probably do
-not need to document it here. The impact a technical decision will have is
-another helpful information - if a technical decision is very impactful,
-documenting it, along with associated implementation details, is advisable.
-
-If it's helpful to include workflow diagrams or any other related images.
-Diagrams authored in GitLab flavored markdown are preferred. In cases where
-that is not feasible, images should be placed under `images/` in the same
-directory as the `index.md` for the proposal.
--->
-
-This problem can be broken down into the following categories:
-
-1. Token Creation:
-  * To inject a new token that has limited scope we may need to hook into how we create tokens for jobs.
-1. Token Enforcement/Lookup
-  * Any changes to the token creation may have an impact on how we lookup and
-    enforce the authorization of the given token. We may need to update the [`api_guard`][14]
-
 ### Stage 1: Run jobs using a specific User Account
 
-Today, project owners are able to invite a user to a project with specific
-permissions via a [Custom Role][5]. We will use this mechanism to bind a
-specific account to all CI Jobs within a project using a convention for looking
-up the user account. This allows for fast feedback to identify gaps in the
-current custom permissions that we offer today.
+Currently, project owners can invite a user to a project with specific
+permissions using a [Custom Role][5]. We will leverage this mechanism to bind a
+specific account to all CI jobs within a project by using a convention for
+looking up the user account. This approach allows for quick feedback to identify
+gaps in the existing custom permissions.
 
-This immediate and temporary solution will make it possible to reduce the access
-that is currently available vai a [`CI_JOB_TOKEN`][1].
+This immediate and temporary solution will help reduce the access currently
+granted via the [`CI_JOB_TOKEN`][1].
 
-When a new build is created we will search for a specific user account using
-a convention to search for the user. If this user account is found we will
-attach the user to the build so that the `CI_JOB_TOKEN` will be restricted to
-whatever permissions that this account has been given.
+When a new build is created, we will search for a specific user account based
+on a naming convention. If the user account is found, it will be attached to
+the build, thereby restricting the [`CI_JOB_TOKEN`][1] to the permissions
+assigned to that account.
 
-An example of how to do this can be found in [this MR][15].
+An example of how to implement this can be found in [this MR][15].
 
-The convention for searching for a user is the following:
+The convention for searching for a user is as follows:
 
-1. The user must be a direct member of the project
-1. The username must match the pattern of `<project-name>-ci_user`.
+1. The user must be a direct member of the project.
+1. The username must match the pattern `<project-name>-ci_user`.
 
-When a user is found matching this pattern then that user will be used as the
-security principal for the generation of the [`CI_JOB_TOKEN`][1].
+When a user is found matching this pattern, that user will be used as the
+security principal for generating the [`CI_JOB_TOKEN`][1].
 
 Example:
 
@@ -182,31 +149,29 @@ Cons:
 
 ### Stage 2: Attach a Service Account to each `Ci::Build`
 
-At this stage we will replace the conventional lookup of a user with a dedicated
+In this stage, we will replace the conventional user lookup with a dedicated
 [Service Account][19] for each project. This service account will be used as the
-User to bind to each CI Job. Project Owners will be able to assign a role to
-this Service Account. If the project has an Ultimate license then this service
-account can be assigned to a [custom role][5] otherwise they will be able to
-choose one of the [standard roles][18].
+User bound to each CI job. Project Owners will be able to assign a role to this
+Service Account. If the project has an Ultimate license, the service account can
+be assigned a [custom role][5]; otherwise, a [standard role][18] can be selected.
 
 ### Stage 3: Define permissions via `.gitlab-ci.yml`
 
-At this stage, we will add support for defining permissions for each Job via a
-declarative syntax in the `.gitlab-ci.yml` file.
+In this stage, we will introduce support for defining permissions for each job
+using a declarative syntax in the [`.gitlab-ci.yml`][22] file.
 
-The syntax for defining these permissions still needs to be defined but the
-purpose of this stage is to allow for the specification of different permissions
-for different jobs within the same pipeline.
+The exact syntax for defining these permissions is yet to be determined, but the
+goal of this stage is to enable the specification of different permissions for
+different jobs within the same pipeline.
 
 ### Stage N: Generate an OAuth Access Token for each CI Job
 
-At this stage of development we will create and register a trusted OAuth App
-(`Doorkeeper::Application`) and use that application to generate an OAuth Access
-Tokens on behalf of the service account defined in stage 2. This option will
-utilize our existing OAuth implementation and will provide an extension point
-for any API outside of the [monolith][20] to be able to check the claims
-associated with a given [`CI_JOB_TOKEN`][1] by making an API call to the
-[token introspection endpoint][21].
+In this stage of development, we will create and register a trusted OAuth app
+(`Doorkeeper::Application`) and use it to generate OAuth access tokens on behalf
+of the service account defined in stage 2. This approach will leverage our
+existing OAuth implementation and provide an extension point for any API outside
+of the [monolith][20] to verify the claims associated with a [`CI_JOB_TOKEN`][1]
+by making an API call to the [token introspection endpoint][21].
 
 A proof of concept can be found in [this MR][16].
 
@@ -311,3 +276,4 @@ Sequence Diagram
 [19]: https://gitlab.com/gitlab-org/gitlab/-/blob/fe97111040fd82e283a0ac0034ed832cb592ba35/app/models/concerns/has_user_type.rb#L20
 [20]: https://gitlab.com/gitlab-org/gitlab
 [21]: https://docs.gitlab.com/ee/api/oauth2.html#retrieve-the-token-information
+[22]: https://docs.gitlab.com/ee/ci/yaml/
