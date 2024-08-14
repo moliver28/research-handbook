@@ -142,14 +142,18 @@ Cons:
 ### Stage 2: Use a Service Account
 
 In this stage, we will replace the conventional user lookup with a dedicated
-[Service Account](https://gitlab.com/gitlab-org/gitlab/-/blob/fe97111040fd82e283a0ac0034ed832cb592ba35/app/models/concerns/has_user_type.rb#L20) for each project. This service account will be used as the
-User bound to each CI job. Project Owners will be able to assign a role to this
-Service Account. If the project has an Ultimate license, the service account can
-be assigned a custom role; otherwise, a standard role can be selected.
+[Service Account](https://gitlab.com/gitlab-org/gitlab/-/blob/fe97111040fd82e283a0ac0034ed832cb592ba35/app/models/concerns/has_user_type.rb#L20).
+This service account will be used as the User bound to each CI job. Project
+Owners will be able to assign a role to this Service Account. If the project
+has an Ultimate license, the service account can be assigned a custom role;
+otherwise, a standard role can be selected.
 
 Below is a snippet of code that summarizes the idea.
 
 ```ruby
+# This example assumes a single bot account for the instance that can have a
+# different role assigned for any project in the instance
+
 module Users
   class Internal
     class << self
