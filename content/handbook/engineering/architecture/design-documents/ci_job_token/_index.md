@@ -217,55 +217,51 @@ This problem can be broken down into the following categories:
   * Any changes to the token creation may have an impact on how we lookup and
     enforce the authorization on the token. We will probably need to update the [`api_guard`][14]
 
-### Stage 1: Attach a Service Account to each `Ci::Build`
+### Stage 1: Run jobs using a specific User Account
 
-This option changes the user that is associated with each `Ci::Build` record to
-use a service account that can be attached to a custom role with custom permissions.
+This step allows project owners to invite a new user to a project with
+specific permissions via a [Custom Role][5].
 
-```diff
-diff --git a/lib/gitlab/ci/pipeline/chain/build.rb b/lib/gitlab/ci/pipeline/chain/build.rb
-index 6feb693221b5..ef8688dfd6ef 100644
---- a/lib/gitlab/ci/pipeline/chain/build.rb
-+++ b/lib/gitlab/ci/pipeline/chain/build.rb
-@@ -16,7 +16,7 @@ def perform!
-               target_sha: @command.target_sha,
-               tag: @command.tag_exists?,
-               trigger_requests: Array(@command.trigger_request),
--              user: @command.current_user,
-+              user: user_for(@command),
-               pipeline_schedule: @command.schedule,
-               merge_request: @command.merge_request,
-               external_pull_request: @command.external_pull_request,
-@@ -26,6 +26,18 @@ def perform!
-           def break?
-             @pipeline.errors.any?
-           end
-+
-+          def user_for(command)
-+            Feature.enabled?(:use_ci_user_account, command.project) ? current_user : service_user
-+          end
-+
-+          def current_user
-+            @command.current_user
-+          end
-+
-+          def service_user
-+            # TODO:: discover the service account to use for this build
-+          end
-         end
-       end
-     end
-```
+When a new build is created we will search for a specific user account using
+a convention to search for the user. If this user account is found we will
+attach the user to the build so that the `CI_JOB_TOKEN` will be restricted to
+whatever permissions that this account has been given.
+
+An example of how to do this can be found in [this MR][15].
+
+The convention will search for a user with a direct project membership that has
+a username matching the pattern of `<project-name>-ci_user`. If a user can be
+found that matches this pattern then this user will be used as the security
+principal for the generation of the `CI_JOB_TOKEN`.
+
+Example:
+
+1. Create a project (e.g. `my-project`)
+1. Register a new user account with the username of `<project-name>-ci_user`. (e.g. `my-project-ci_user`)
+1. Go to `Project > Manage > Members` and add the new user with a base role of `Guest`
+
+### Stage 2: Attach a Service Account to each `Ci::Build`
+
+In this stage we will create a specific Service Account for each project. This
+service account will be used as the User to bind to each Build. Project Owners
+will be able to assign a role to this Service Account. If the project has an
+Ultimate license then this service account can be assigned to a [Custom Role][5].
+
+### Stage 3: Define permissions via `.gitlab-ci.yml`
+
+At this stage, we will add support for defining permissions for each Job via a
+declarative syntax in the `.gitlab-ci.yml` file.
 
 ### Stage N: Generate an OAuth Access Token for each CI Job
 
 With this option we would generate an OAuth App (`Doorkeeper::Application`) and
-use that application to generate an OAuth Access Token for a service account
-user that is associated with of a custom role containing custom permissions.
-This option utilizes the existing custom roles and OAuth functionality and
-provides an extension point for API's outside of the `gitlab-rails` monolith
-to be able to look up the claims associated with a `CI_JOB_TOKEN` by making an
-API call to the `GET /oauth/token/info` endpoint.
+use that application to generate an OAuth Access Token for the service account
+defined in stage 2. This option utilizes the existing custom roles and OAuth
+functionality and provides an extension point for API's outside of the
+`gitlab-rails` monolith to be able to look up the claims associated with a
+`CI_JOB_TOKEN` by making an API call to the `GET /oauth/token/info` endpoint.
+
+A proof of concept can be found in [this MR][16].
 
 Pros:
 
@@ -362,3 +358,5 @@ alternative solution/path.
 [12]: https://gitlab.com/gitlab-org/gitlab/-/blob/e79ca748658b7d34fc36c32e15091d2cac12f256/app/models/concerns/token_authenticatable_strategies/base.rb#L133
 [13]: https://gitlab.com/gitlab-org/gitlab/-/blob/e79ca748658b7d34fc36c32e15091d2cac12f256/app/models/ci/build.rb#L305
 [14]: https://gitlab.com/gitlab-org/gitlab/-/blob/6d1f895398aa08f2398bb0775ebc88dd23526f26/lib/api/api_guard.rb#L69-81
+[15]: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/162599
+[16]: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/162333
