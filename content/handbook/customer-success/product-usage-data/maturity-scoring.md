@@ -1,16 +1,7 @@
 ---
-
 title: "Use Case Adoption Scoring"
 description: "An overview of Adoption Scoring, how it is calculated, and how CSMs can use the information with customers in their conversations."
 ---
-
-
-
-
-
-
-
-
 
 *For an overview of Gainsight, and information about how to login, please refer to the [Gainsight Overview Page](/handbook/sales/gainsight/).*
 
@@ -28,7 +19,7 @@ By looking at the Adoption scores, the CSM will gain an understanding of the cus
 
 **Timeframe: 2-3 Months**
 
-The first step in the process of building a Use Case adoption score starts with identifying Lighthouse metrics that can gauge a customer’s level of performance and adoption for a given use case. To capture the breadth of use case adoption, we rely on Leading Indicators that capture weekly/monthly usage of key features within a use case to accurately measure the maturity of a customer's adoption.
+The first step in the process of building a Use Case adoption score starts with identifying Lighthouse metrics that can gauge a customer's level of performance and adoption for a given use case. To capture the breadth of use case adoption, we rely on Leading Indicators that capture weekly/monthly usage of key features within a use case to accurately measure the maturity of a customer's adoption.
 
 Product Management, Data, and Customer Success teams play a big role in identifying use case adoption specific metrics. Product Marketing works with Product Managers to identify Adoption Recommendations for each use case which can be viewed on the respective Use Case Resource Pages. After identifying key metrics, the respective Product team taken on the responsibility of instrumenting said metrics (if they do not exist already), after which we move on to identifying a denominator to normalize the metric (i.e. `Git Operations - User L28D` / by `Billable Users` = `Git Operation Utilization %`).
 
@@ -213,7 +204,7 @@ The following metrics are used to determine a customer's SCM Adoption Score:
 **Overview:**
 <br>
 
-With each of our CSM/A managed customers we track the primary reasons for lack of adoption of CI and Security Use Cases as these are critical for unlocking broader platform value. With the reasons tracked systematically we are then able to make a more concerted effort in building content and programs around each reason. As a CSM/A at Gitlab, it is expected that for every customer managed we have this reason populated and updated as needed (Security reasons are only needed for Ultimate customers). It should then be kept in mind when developing and executing against the customer’s Success Plan.
+With each of our CSM/A managed customers we track the primary reasons for lack of adoption of CI and Security Use Cases as these are critical for unlocking broader platform value. With the reasons tracked systematically we are then able to make a more concerted effort in building content and programs around each reason. As a CSM/A at Gitlab, it is expected that for every customer managed we have this reason populated and updated as needed (Security reasons are only needed for Ultimate customers). It should then be kept in mind when developing and executing against the customer's Success Plan.
 <br>
 
 **How to Track:**

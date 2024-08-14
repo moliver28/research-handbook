@@ -1,5 +1,4 @@
 ---
-
 title: "Field Functional Competencies"
 description: "GitLab field functional competencies define the critical skills, behaviors, and attitudes that GitLab field team members must demonstrate to successfully deliver desired outcomes. They provide a common language and consistent expectations for what good looks like for the GitLab field organization."
 ---
@@ -8,13 +7,13 @@ description: "GitLab field functional competencies define the critical skills, b
 
 ## What are Field Functional Competencies?
 
-GitLab field functional competencies provide a common language and consistent expectations for “what good looks like” for the GitLab field organization (inclusive of Sales and Customer Success roles). They are intended to complement [GitLab’s values](/handbook/values/) and are comprised of specific behaviors that GitLab team members in a field role need to demonstrate consistently to be successful. These critical field skills and behaviors are not meant to be role or job-specific (as each role or job may have additional unique requirements), and how each competency is expressed or demonstrated may vary by role (e.g. by technical depth, engagement in different stages of the customer journey, team-specific expectations, etc.).
+GitLab field functional competencies provide a common language and consistent expectations for "what good looks like" for the GitLab field organization (inclusive of Sales and Customer Success roles). They are intended to complement [GitLab's values](/handbook/values/) and are comprised of specific behaviors that GitLab team members in a field role need to demonstrate consistently to be successful. These critical field skills and behaviors are not meant to be role or job-specific (as each role or job may have additional unique requirements), and how each competency is expressed or demonstrated may vary by role (e.g. by technical depth, engagement in different stages of the customer journey, team-specific expectations, etc.).
 
 More specifically, functional competencies help to:
 
 - Guide the growth and development opportunities available for GitLab field team members
 - Build organizational capabilities when adopted and practiced across the field organization
-- Reinforce behavior that is consistent with GitLab’s values and culture
+- Reinforce behavior that is consistent with GitLab's values and culture
 - Enable GitLab field team members to build productive relationships and generate positive results
 
 There are three primary competencies for the field organization: **Customer Focus**, **Solution Focus**, and **Operational Excellence**. Please refer to the tables below to learn more or download and print the [**GitLab Field Functional Competencies one pager**](https://drive.google.com/file/d/1Q0honXXQg76ewRz07zcvQ_ChLo4BpVoD/view?usp=sharing).
@@ -54,7 +53,7 @@ To drive efficiency, field team members should leverage the tools and processes 
 
 ## Proficiency Levels
 
-Competency proficiency rating levels align with GitLab’s enterprise-wide performance categories:
+Competency proficiency rating levels align with GitLab's enterprise-wide performance categories:
 
 - [Developing](/handbook/people-group/talent-assessment/#developing)
 - [Performing](/handbook/people-group/talent-assessment/#performing)

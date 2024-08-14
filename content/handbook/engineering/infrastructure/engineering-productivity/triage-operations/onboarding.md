@@ -1,14 +1,7 @@
 ---
-
 title: "Issue Triage Onboarding"
 description: "Onboarding guidelines for Issue Triaging team"
 ---
-
-
-
-
-
-
 
 ---
 

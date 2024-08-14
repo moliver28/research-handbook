@@ -1,5 +1,4 @@
 ---
-
 title: Digital Experience Handbook
 description: >-
   Learn more about the Digital Experience purpose, vision, mission, objective
@@ -35,7 +34,7 @@ We take a customer-centric approach to educating prospects on how GitLab enables
 
 ## Scope
 
-Our team leads the GitLab's digital marketing platform, or simply the “Marketing Site" refers to `https://about.gitlab.com`.
+Our team leads the GitLab's digital marketing platform, or simply the "Marketing Site" refers to `https://about.gitlab.com`.
 **We own the following repositories:**
 
 - [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience)
@@ -217,9 +216,9 @@ Iteration boards are meant to give an overview of what the team is working on, a
 
 At the start of an iteration, all issues will have the dex-status::todo label. As issues are worked on, the dex-status label will need to be updated. This can be done by dragging (on your individual board) between columns, or manually changing the dex-status label on the issue.
 
-**What if I wasn’t able to complete my iteration board?**
+**What if I wasn't able to complete my iteration board?**
 
-Don’t stress, weight points are estimates, unforeseen events happen. Any carryover can be added to the next iteration.
+Don't stress, weight points are estimates, unforeseen events happen. Any carryover can be added to the next iteration.
 
 **What if I complete my iteration board early?**
 
@@ -234,11 +233,11 @@ A few options for when an individual's iteration board is complete:
 
 **What is a weight point?**
 
-A weight point is a unit of measurement that’s used to develop a rough estimate of the work required to complete an issue. 1 weight point is measured as .5 days.
+A weight point is a unit of measurement that's used to develop a rough estimate of the work required to complete an issue. 1 weight point is measured as .5 days.
 
 **How many weight points should an issue be?**
 
-The suggested task duration is between 2-4 weight points (1-2 days). There will be exceptions, but it’s recommended to break issues into smaller units of work. Small units of work allow for quicker review cycles, and facilitates collaboration.
+The suggested task duration is between 2-4 weight points (1-2 days). There will be exceptions, but it's recommended to break issues into smaller units of work. Small units of work allow for quicker review cycles, and facilitates collaboration.
 
 **How many weight points should be completed per iteration for engineers?**
 
@@ -246,19 +245,19 @@ Engineers are expected to complete 12 or more weight points per iteration which 
 
 ### Issues
 
-**What should I do if I’m assigned new issues mid-iteration?**
+**What should I do if I'm assigned new issues mid-iteration?**
 
-Generally if an issue is added mid-iteration, it's high priority. It’s recommended to work with your team to remove the same amount of weight points from your iteration to make room. These removed issues should go back in the backlog.
+Generally if an issue is added mid-iteration, it's high priority. It's recommended to work with your team to remove the same amount of weight points from your iteration to make room. These removed issues should go back in the backlog.
 
 **Do I need to add any labels?**
 
 Before entering an iteration, an issue should already be refined with the proper labels. The only label that changes is the [dex-status](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/labels?subscribed=&search=dex-status) label (as the issue moves from start to finish).
 
-**What if I’m assigned an issue that I can’t close due to content/data gathering?**
+**What if I'm assigned an issue that I can't close due to content/data gathering?**
 
-Unfortunately there will always be edge case issues that cannot be resolved in an iteration To mitigate the amount of carryover, it’s recommended to break the issue into smaller chunks
+Unfortunately there will always be edge case issues that cannot be resolved in an iteration To mitigate the amount of carryover, it's recommended to break the issue into smaller chunks
 
-Example A: If an issue is open while waiting on content/assets, it’s best to create a content/asset gathering issue and close the original issue.
+Example A: If an issue is open while waiting on content/assets, it's best to create a content/asset gathering issue and close the original issue.
 
 Example B: An issue is open while gathering data from an AB test, it may be best to create an issue to start the information gathering, and an issue to analyze the data at the end.
 
@@ -302,7 +301,7 @@ The structure of Repository Health Day is as follows:
 1. Each team member will submit a single merge request to the [Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui), [Navigation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation), or [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) repository by the end of repository health day.
 1. This merge request will be related to an issue from any partner or group within GitLab.
 
-By allowing our team members to contribute to the health of our repositories for a day, we can contribute low-effort, high-impact solutions that will drive results for our team, partners, and the entire marketing site. This will enable Digital Experience team members to use their strengths to efficiently drive results for https://about.gitlab.com/. We’re all good at different things and come from different backgrounds. Let’s use that to our advantage to build a better tech stack that is inclusive of the team members that use it everyday.
+By allowing our team members to contribute to the health of our repositories for a day, we can contribute low-effort, high-impact solutions that will drive results for our team, partners, and the entire marketing site. This will enable Digital Experience team members to use their strengths to efficiently drive results for https://about.gitlab.com/. We're all good at different things and come from different backgrounds. Let's use that to our advantage to build a better tech stack that is inclusive of the team members that use it everyday.
 
 ## Analytics
 
@@ -315,12 +314,12 @@ For any Digital Experience analytics request, please create an issue within the 
 #### SMB
 
 1. Contact a Sales Development Manager ([Josh Downey](https://gitlab.com/joshdowney)) or Director, Sales Development ([Brian Tabbert](https://gitlab.com/btabbert)).
-2. Let them know what team you’re from and that you’d like to shadow a few sales calls to observe real GitLab prospects talking to our Sales team to learn [insert what you’re trying to learn here. Example: what the common topics potential customers want to discuss with our Sales team are.]
-3. Inform the Sales Development Manager or Director, Sales Development how many shadows you’d like to do and a rough timeline for when you’d like to do them.
+2. Let them know what team you're from and that you'd like to shadow a few sales calls to observe real GitLab prospects talking to our Sales team to learn [insert what you're trying to learn here. Example: what the common topics potential customers want to discuss with our Sales team are.]
+3. Inform the Sales Development Manager or Director, Sales Development how many shadows you'd like to do and a rough timeline for when you'd like to do them.
 4. The Sales Development Manager or Director, Sales Development will inform their Sales Development Reps (SDRs), and they will add you to relevant, upcoming Discovery calls with an Account Executive (AE).
 5. Accept the invite and review any supplied material when you add it to your calendar.
 6. When joining the call, remember:
-    1. You’re there to observe. If asked to introduce yourself, come off mute and do so, then go back on mute and let the Sales team do what they do.
+    1. You're there to observe. If asked to introduce yourself, come off mute and do so, then go back on mute and let the Sales team do what they do.
     2. Keep your camera on.
     3. Have a notes doc prepared and take notes on your observations and insights.
 7. After the call, review your notes, and synthesize and create action items.
@@ -423,7 +422,7 @@ The deletion of BE files is handled in the same WWW delete job by [pulling the l
     <ul>
       <li>You can use the <a href="https://www.figma.com/file/nWIOpmuMp7RZXmfTj6ujAF/Slippers_foundations?node-id=1280%3A62">Blocks section in Slippers</a> to "shop" for blocks and plan your content to work with designs that already exist.</li>
       <li>This youtube video shows <a href="https://www.youtube.com/watch?v=HbnxXE4PT_s">how to navigate the Slippers Figma file</a> and how a content doc can work with the blocks.</li>
-      <li>Not sure what a "block" is? You can read about that and more on our <a href="https://about.gitlab.com/handbook/marketing/digital-experience/digital-definitions/#blocks">Digital Definitions</a> handbook page.</li>
+      <li>Not sure what a "block" is? You can read about that and more on our <a href="https://handbook.gitlab.com/handbook/marketing/digital-experience/digital-definitions/#blocks">Digital Definitions</a> handbook page.</li>
     </ul>
     <li>Provide the content in the layout of the existing block or page template</li>
     <ul>
@@ -435,7 +434,7 @@ The deletion of BE files is handled in the same WWW delete job by [pulling the l
 <details>
     <summary>Image Requirements</summary>
     <ul>
-      <li>See <a href="https://about.gitlab.com/handbook/marketing/digital-experience/image-guidelines/">image guidelines</a> for specs</li>
+      <li>See <a href="https://handbook.gitlab.com/handbook/marketing/digital-experience/image-guidelines/">image guidelines</a> for specs</li>
     </ul>
 </details>
 <details>

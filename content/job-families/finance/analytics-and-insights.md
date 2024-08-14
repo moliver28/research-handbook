@@ -5,10 +5,10 @@ The Analytics and Insights job family is responsible for providing data driven i
 
 ## Responsibilities
 
-- Business Partnership: Own stakeholder relationships regarding either business strategy, corporate metric forecasting, go to market, product strategy, pricing strategy and functional strategy needed to answer GitLab’s hardest questions.
+- Business Partnership: Own stakeholder relationships regarding either business strategy, corporate metric forecasting, go to market, product strategy, pricing strategy and functional strategy needed to answer GitLab's hardest questions.
 - Data Subject Matter Expert.
 - Partner with executive team members to provide data driven decision support using your analytical, process and business acumen.
-- Highly skilled in being able to provide analysis and scientific data to answer GitLab’s toughest analytical questions.
+- Highly skilled in being able to provide analysis and scientific data to answer GitLab's toughest analytical questions.
 - Communication: Prepare and review visualizations of all types of data to promote internal understanding of your team's insights. Expert influencer to our executive team. Clearly articulate insights.
 - Data Science Modeling: Design, implement and apply analytics techniques (e.g., optimization, machine learning, experimentation, mathematical modeling) using analytical tools and programming languages (e.g., R, Python, SAS). Be comfortable with a boring solution such as a heuristic when it helps drive the insight.
 - Data Driven Insights and Analysis: Summarize key data driven insights to members of the executive team to drive better outcomes, an increase in revenue or decrease in cost. Provide insights across the company.

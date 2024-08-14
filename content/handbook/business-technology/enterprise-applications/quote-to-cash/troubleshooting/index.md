@@ -1,13 +1,6 @@
 ---
-
 title: "Troubleshooting: True Ups, Licenses + EULAs"
 ---
-
-
-
-
-
-
 
 ## Important Links Internal
 
@@ -32,7 +25,7 @@ Make sure to save these credentials as distinct from your regular GitLab credent
 ## Important Links for Customers and Prospects
 
 - Resources for Prospects who are trialing and need direction
-  - [Get started with GitLab](https://docs.gitlab.com/ee/intro/)
+  - [Get started with GitLab](https://docs.gitlab.com/)
   - [GitLab epics](https://docs.gitlab.com/ee/user/group/epics/)
 - [Instructions on how to renew self-managed](https://about.gitlab.com/pricing/licensing-faq/#how-do-i-renew-my-subscription)
 - [Customer Facing: Licensing, Renewing, and Subscription FAQ](https://about.gitlab.com/pricing/licensing-faq/)
@@ -65,7 +58,7 @@ The customer is always free to renew for as many users as they would like, even 
 If a customer is having issues obtaining the number of licenses needed to purchase, you can [request a screenshot](/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/#how-to-ask-the-customer-for-a-screenshot-needed-for-users-over-license-with-self-managed) from them or else access their usage ping data through the [version application](https://version.gitlab.com/).
 If there is no data available through usage ping, we can conclude that the usage ping has been disabled in the instance, and you will need to obtain this information manually.
 
-#### Customer Question: Why is there a discrepancy between “Maximum Users” and “Users” on the admin dashboard? (self-managed)
+#### Customer Question: Why is there a discrepancy between "Maximum Users" and "Users" on the admin dashboard? (self-managed)
 
 Everyday during the subscription, the instance records the Active User count for the day.
 
@@ -77,7 +70,7 @@ The following users *do not* count as billable Active Users:
 - Blocked users
 - Deactivated users
 
-The “Maximum Users” count in the instance refers to this running list of active user counts and displays the maximum value.
+The "Maximum Users" count in the instance refers to this running list of active user counts and displays the maximum value.
 
 #### Customer Question: How do I purchase more user seats for a self-managed instance of GitLab?
 
@@ -114,7 +107,7 @@ Communicate to the customer
 To help me provide better support for your renewal I'll need some more information, could you please provide a screenshot following the below instructions?
 
 1. Navigate to Admin Area
-1. Click `License` as it's shown [here](https://docs.gitlab.com/ee/administration/img/license_details.png) and send it to me
+1. Click `License` as it's described [here](https://docs.gitlab.com/ee/administration/license_file.html#view-license-details-and-history) and send it to me
    - For GitLab.com
 1. Navigate to group settings
 1. Navigate to billing
@@ -169,7 +162,7 @@ For Trial Licenses:
     - Scroll down to `duplicate license`
     - Type in the correct number of users
     - Check the box indicating this is a trial
-    - Select the plan: make sure the `starts at` and `expires at` reflect the accurate dates for the trial *because we cannot retract a license* if you accidentally make the expiration date for a year from now they’ll have free access for a year
+    - Select the plan: make sure the `starts at` and `expires at` reflect the accurate dates for the trial *because we cannot retract a license* if you accidentally make the expiration date for a year from now they'll have free access for a year
     - Add notes
     - Click `Create License`
 5. The license will automatically be sent to the email you enter, and you can also download the license from that screen and send as an attachment to prospect directly.
@@ -185,7 +178,7 @@ Generate License to Amend a True Up Problem (not for trial)
     - Scroll down to `duplicate license`
     - Type in the correct number of users or true-ups
     - Make sure the `starts at` and `expires at` dates are not changed
-    - Add notes to give reference as to why you’re amending the license along with the name of the manager who approved the true-up adjustment
+    - Add notes to give reference as to why you're amending the license along with the name of the manager who approved the true-up adjustment
     - Click `Create License`
 5. The license will automatically be sent to the email on file, and you can also download the license from that screen and send as an attachment to prospect directly.
 
@@ -284,7 +277,7 @@ In case above method does not solves then ask the customer to open a Support tic
 ### Customer Question: Where can I track how many compute minutes I've used?
 
 For individuals on GitLab.com, go to the user settings and at the bottom you see `pipeline quotas` where it shows the usage.
-Group settings have a similar page, but they’ll see `Usage Quotas`.
+Group settings have a similar page, but they'll see `Usage Quotas`.
 
 ### Customer Question: I bought a subscription for my personal account, how can I apply it to my group?
 
@@ -306,7 +299,7 @@ Note, if there are more users associated with the group (including its subgroups
 
 ### How do I upgrade a customer?
 
-1. Navigate to customer’s account in [Salesforce](https://login.salesforce.com/).
+1. Navigate to customer's account in [Salesforce](https://login.salesforce.com/).
 1. Navigate to `opportunities` and click into most recent purchase: should be `renewal` or `new business`, *not add-on*
 1. From the opportunity view, navigate and click `New Add On Opportunity`
    - This will create a new oppty for your upgrade

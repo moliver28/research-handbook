@@ -8,7 +8,7 @@ twitter_creator: "@gitlab"
 
 ## Setting Up to Record Video at your Desk
 
-The instructions will reference specific gear, but you might decide to substitue or add different items based on your needs. This should be read as a framework and not a rulebook.
+The instructions will reference specific gear, but you might decide to substitute or add different items based on your needs. This should be read as a framework and not a rulebook.
 
 ## Equipment Checklist
 
@@ -16,10 +16,10 @@ The instructions will reference specific gear, but you might decide to substitue
 
 #### Professional Camera
 
-- Blackmagic Pocket Cinema (High Level Camera) - [Example](https://www.bhphotovideo.com/c/product/1560510-REG/blackmagic_design_pocket_cinema_camera_4k.html)
-- Camera Lens - [Example](https://www.bhphotovideo.com/c/product/1540746-REG/olympus_v314090bu000_m_zuiko_digital_ed_12_45mm.html)
-- Mount for Microphone - [Example](https://docs.google.com/spreadsheets/d/1rKwZwP7hvYSqm3BL4wPmVNDQtYkXPSX3SfUElBIhX38/edit#gid=1367060180)
-- HDMI Cable - [Example](https://www.bhphotovideo.com/c/product/751037-REG/Pearstone_hda_115_Standard_Series_HDMI_to.html) *(To connect your camera to your capture card or monitor, to allow you to see your image while you're standing in position.)*
+- Blackmagic Pocket Cinema (High Level Camera) - [Example: Blackmagic Design Pocket Cinema Camera 4K](https://www.bhphotovideo.com/c/product/1401512-REG/blackmagic_design_pocket_cinema_camera_4k.html)
+- Camera Lens - [Example: Olympus M.Zuiko Digital ED 12-45mm f/4 PRO Lens](https://www.bhphotovideo.com/c/product/1540746-REG/olympus_v314090bu000_m_zuiko_digital_ed_12_45mm.html)
+- Mount for Microphone - [Example](https://docs.google.com/spreadsheets/d/1rKwZwP7hvYSqm3BL4wPmVNDQtYkXPSX3SfUElBIhX38/edit#gid=1367060180) (internal)
+- HDMI Cable - [Example: Pearstone High-Speed HDMI Cable with Ethernet](https://www.bhphotovideo.com/c/product/751037-REG/Pearstone_hda_115_Standard_Series_HDMI_to.html) *(To connect your camera to your capture card or monitor, to allow you to see your image while you're standing in position.)*
 
 OR
 

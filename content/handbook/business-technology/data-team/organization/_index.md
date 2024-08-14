@@ -1,16 +1,7 @@
 ---
-
 title: "Data Team Organization"
 description: "GitLab Data Team Organization"
 ---
-
-
-
-
-
-
-
-
 
 ---
 
@@ -181,7 +172,9 @@ See [Data Team Internships](/handbook/business-technology/data-team/organization
 
 ## Analytics Engineering
 
-### [Analytics Engineering Job Family](/job-families/finance/analytics-engineer)
+### Analytics Engineering Job Family
+
+[Analytics Engineering Job Family](/job-families/finance/analytics-engineer)
 
 ```mermaid
   graph LR;
@@ -230,3 +223,27 @@ See [Data Team Internships](/handbook/business-technology/data-team/organization
 | Complete People, Data, and Manager Onboarding | Meet everyone on the team and business data champions | Complete a Team Assessment | Draft a people development Roadmap |
 | Understand the current setup of the data platform | Work on [OKR assignments](/handbook/business-technology/data-team/direction/#quarterly-objectives) and map them to the data platform | Lead discussions with Users/Stakeholders on initiatives and OKRs | Draft a program development Roadmap (Process Improvements /Future State) |
 | Add a new page to the handbook | Make regular contributions to the handbook spanning your area of management | Become DRI for major portions of the Data Handbook | System/Application Change Control Management of one or more modules |
+
+## Tool Technology Tandem
+
+Tool Technology Tandems (TTT) are supporting to get the maximum value out of business opportunities we have in the Data Program. TTT are experts in a specific (software) tool or technology to support business opportunities or challenges we have by leveraging the tool or technology to the maximum. Although this is not the goal, we want to get the maximum value out of our technology stack. At the moment we see that we are not leveraging our technology stack to the maximum, where there are useful features or opportunities in our technology that could support in fulfilling business opportunities.
+
+The reason is that from the technology side we don't know the business and from the business side we don't know the technology. The TTT will bridge this gap by understanding the needs and bring this together in a technological way. We expect from TTT to do consulting, guiding and educating.
+
+Note: TTT will **not** search for business opportunities to use any tool feature. TTT has to understand business opportunities and translate this into what software could bring to the table.
+
+A single TTT consists of minimum 2 and maximum 3 GitLab Team Members with different roles. There are no requirements in which team a Team Member is part  of(so this could be outside of the central Data Team as well) as long as the TTT meets the expectations described below.
+
+| Tool / Technology | Tandem |
+| ----------------- | ------ |
+| Snowflake         | t.b.d. |
+| Monte Carlo       | t.b.d. |
+| dbt               | t.b.d. |
+| Tableau           | t.b.d. |
+
+### What do we expect from TTT
+
+- We expect TTT to get in touch with our business partners and all functions that contribute to the data program or work with our Data Platform, to understand their challenges.
+- We expect TTT to get up to date with the latest in their area. They understand the full capabilities of the tool / technology, have regular touchpoints with the respective vendor and have a good understanding of the latest released features.
+- TTT will guide and educate our business partners.
+- TTT will initiate [design-spikes](/handbook/business-technology/data-team/how-we-work/#design-spike) for quarterly [planning](/handbook/business-technology/data-team/how-we-work/planning/).

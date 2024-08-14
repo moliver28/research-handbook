@@ -1,6 +1,6 @@
 ---
 title: "Observation Remediation Procedure"
-controlled_document: true
+description: "This procedure details the remediation process for observations."
 ---
 
 ## Purpose
@@ -58,7 +58,7 @@ It is the responsibility of the Observation Manager to determine if an open obse
 - legacy GCF controls
 - process or application changes
 
-If an observation is confirmed Ignored or Invalid, the associated risk rating of that observation can be changed. See the [Observation Risk Rating Adjustment](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/-/blob/master/runbooks/2_Remediation%20and%20Closeout.md#moving-to-ignoreinvaild-in-zengrc) runbook for further details.
+If an observation is confirmed Ignored or Invalid, the associated risk rating of that observation can be changed. See the [Observation Risk Rating Adjustment](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management/-/blob/master/runbooks/2_Remediation%20and%20Closeout.md#updating-risk-rating) runbook for further details.
 
 ### Root Cause Observation Epics
 
@@ -125,13 +125,13 @@ flowchart TD
     B --> C[ELC]
     B --> D(Observation Epic)
     C --> E{Does a Risk<br>already exist?}
-    E --> |Yes| F[Map related Risk in ZenGRC,<br>update into risk info if appropriate]
-    E --> |No| H[Follow ZenGRC Risk<br>Runbook for new risks]
+    E --> |Yes| F[Map related Risk,<br>update into risk info if appropriate]
+    E --> |No| H[Follow Risk<br>Runbook for new risks]
     H --> G(Risk is treated and<br>managed in StORM Program)
     F --> G
     D --> J{Does a Risk<br>already exist?}
-    J --> |Yes| K[Map related Risk in ZenGRC,<br>update into risk info if appropriate]
-    J --> |No| L[Follow ZenGRC Risk<br>Runbook for new risks]
+    J --> |Yes| K[Map related Risk,<br>update into risk info if appropriate]
+    J --> |No| L[Follow Risk<br>Runbook for new risks]
     L --> M(Work with SecComp<br>on Remediation)
     K --> M
 ```

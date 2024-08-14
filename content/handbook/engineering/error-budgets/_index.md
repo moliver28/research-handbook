@@ -161,11 +161,11 @@ Details on what contributed to the budget spend can be further found by examinin
 
 ## Budget spend (by stage group)
 
-There is [an example available](error-budget-by-stage-group-example.html) with a more detailed look at how this is built.
+There is [an example available](error-budget-by-stage-group-example.md) with a more detailed look at how this is built.
 
 The current [28 day](/handbook/business-technology/data-team/programs/data-for-product-managers/#usage_ping_metric_count-snippet) budget spend can be found on each [stage group dashboard](https://dashboards.gitlab.net/dashboards/f/stage-groups/stage-groups). Feature categories for that stage group are rolled up to a single value.
 
-Stage groups can use their dashboards to explore the cause of their budget spend. The process to investigate the budget spend is described in [the developer documentation](https://docs.gitlab.com/ee/development/stage_group_dashboards.html#check-where-budget-is-being-spent)
+Stage groups can use their dashboards to explore the cause of their budget spend. The process to investigate the budget spend is described in [the developer documentation](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/stage_group_dashboard.html)
 
 The formula for calculating availability:
 

@@ -32,15 +32,14 @@ An overview of both types of patch release and their touchpoints is included bel
 
 ### Planned patch release process
 
-Planned patch releases are driven by the [bug SLO](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) and [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas), they are scheduled twice a month on
-the second and fourth Wednesdays, around the monthly release week. These are best-effort dates and they might
+Planned patch releases are driven by the [bug SLO](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) and [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/), they are scheduled twice a month on the Wednesdays before and after the monthly release week. These are best-effort dates and they might
 be subject to change.
 
 The patch release includes all bug and security fixes ready at the time of the patch release preparation. Bug fixes are
 worked on in the canonical GitLab repositories, while security fixes are worked on in the mirrored GitLab security repositories
 to avoid revealing vulnerabilities before the release.
 
-Security vulnerabilities in GitLab and its dependencies are to be addressed following the [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas).
+Security vulnerabilities in GitLab and its dependencies are to be addressed following the [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
 
 The end-to-end process consists of the following stages:
 
@@ -56,7 +55,7 @@ to the current and previous two GitLab versions:
   * The merge request executes end-to-end tests via package-and-test pipeline to guarantee the bug fix meets the quality standards.
   * If the package-and-test pipeline fails, a review from a Software Engineer in Test is required.
   * The merge request is merged by a GitLab maintainer in the stable branch associated
-* **Step 1b: Vulnerability fix prepared** - Engineers fix vulnerabilities in the relevant [Security repository]. A fix is considered complete only when it has a [security implementation issue](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#terminology) with the following:
+* **Step 1b: Vulnerability fix prepared** - Engineers fix vulnerabilities in the relevant [Security repository](https://gitlab.com/gitlab-org/security). A fix is considered complete only when it has a [security implementation issue](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#terminology) with the following:
   * All checkboxes checked to show all steps have been completed.
   * An AppSec and Maintainer approved MR targeting the default branch.
   * A backport MR for each intended version. In most cases this will mean 4 MRs to cover each supported version. Each MR must have passing pipelines, required approvals and be assigned to the release bot for processing.
@@ -81,10 +80,10 @@ A patch release has the following phases:
 ### Unplanned critical patch release process
 
 Unplanned critical patch releases are ad-hoc processes used to immediately patch and
-mitigate a high-severity vulnerability in order to meet the [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas).
+mitigate a high-severity vulnerability in order to meet the [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
 
 Following the [GitLab Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html), the vulnerability will be
-fixed in all supported versions following the [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas).
+fixed in all supported versions following the [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
 
 The AppSec team is responsible for assessing the vulnerability and working with development to decide on the best approach to resolve it. If an unplanned critical
 patch release is needed, the AppSec engineer will work with Release Managers to agree on a timeline for the release.
@@ -93,7 +92,7 @@ patch release is needed, the AppSec engineer will work with Release Managers to 
 
 * [Diagram source - internal](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d10e121945_0_53)
 
-* **Step 1: Fix for the high-severity vulnerability is prepared** - Engineers prepare a fix for the vulnerability in the relevant Security repository. A fix is considered complete only when it has a [security implementation issue] with the following:
+* **Step 1: Fix for the high-severity vulnerability is prepared** - Engineers prepare a fix for the vulnerability in the relevant Security repository. A fix is considered complete only when it has a [security implementation issue](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md#security-implementation-issue) with the following:
   * All checkboxes checked to show all steps have been completed.
   * An AppSec and Maintainer approved MR targeting the default branch.
   * A backport MR for each intended version. In most cases this will mean 4 MRs to cover each supported version. Each MR must have passing pipelines, required approvals and be assigned to the release bot for processing.

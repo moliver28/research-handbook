@@ -1,13 +1,6 @@
 ---
-
 title: "Executive Business Reviews (EBRs)"
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -94,8 +87,9 @@ It may be beneficial, or even necessary, to follow up on this discussion in othe
 
 Getting an EBR scheduled can be one of the more challenging aspects of EBR prep since it requires coordination of schedules for several people across both GitLab and the customer's organization. As such, it is imperative to start this process as early as possible and keep focus on it until a date & time are agreed on.
 
+{{% alert color="purple" %}}
 The EBR is not considered scheduled until calendar invites are sent & confirmed by at least the key participants. The CSM keeps track of scheduling efforts and drives this until participant attendance is confirmed.
-{: .alert .alert-gitlab-purple}
+{{% /alert %}}
 
 #### EBR length
 
@@ -114,8 +108,9 @@ Once the EBR is scheduled, the CSM (or others if agreed during the meeting) will
 - What involvement/role you would like the person to have in the EBR
 - Next steps & timeline for EBR prep the person should be aware of, including subsequent planning meetings
 
+{{% alert color="purple" %}}
 As you move into planning the EBR, ensure that every GitLab participant has an active, clearly defined role in [delivery](#delivery). Take advantage of the opportunity to align leaders on both sides and strengthen the partnership by asking them to drive certain parts of the discussion.
-{: .alert .alert-gitlab-purple}
+{{% /alert %}}
 
 #### In-person considerations
 
@@ -138,8 +133,9 @@ The important thing is to conduct an EBR with a focus on strategy and objectives
 
 [Review the guidance on shortening an EBR](#tips-for-shortening-an-ebr) to consolidate your program for a cadence call EBR.
 
+{{% alert color="purple" %}}
 While an EBR is a specific motion, we should naturally treat all [cadence calls](/handbook/customer-success/csm/cadence-calls/) as a "mini EBR" to enthrall our key contacts, continue demonstrating GitLab's value, and entice the customer to learn more and engage more readily with a full EBR.
-{: .alert .alert-gitlab-purple}
+{{% /alert %}}
 
 ### Planning & assembly
 
@@ -149,8 +145,9 @@ Use the [GitLab EBR template](#resources--materials) to create your slide deck. 
 
 The customer's [success plan](#success-planning) forms the basis of the EBR. Think of the success plan as the blueprint for the EBR content. A well-formed success plan provides the key information you need to discuss customer strategy, objectives & goals, accomplishments, progress on current initiatives, and roadmap for the future.
 
+{{% alert color="purple" %}}
 Throughout the process we should align with the customer on discussion points and details, and ensure we are highlighting their accomplishments as part of the messaging. While the CSM is the [DRI](/handbook/people-group/directly-responsible-individuals/#what-is-a-directly-responsible-individual) for the EBR, it is a collaborative effort between the CSM, the other account team members, *and the customer*. **There should be no surprises in the content of the EBR for anyone involved.**
-{: .alert .alert-gitlab-purple}
+{{% /alert %}}
 
 If you plan to discuss product information, ensure you align with the right GitLab team members for that discussion as early as possible. This may include a [Product Manager](/handbook/product/categories/#devops-stages), [Customer Success Engineer](/handbook/customer-success/csm/cse/), [Solutions Architect](/handbook/solutions-architects/), or other subject matter experts. Give these team members ample time to align on the plan and prepare their portion of the EBR program.
 
@@ -178,8 +175,9 @@ Throughout the [development of the EBR](#planning--assembly) the CSM & account t
 
 If any portion of the EBR is to be delivered by a person on the customer side, they should be present at this meeting and leave with alignment on this delivery.
 
+{{% alert color="warning" %}}
 Only minor changes should happen at this stage, and the result of this meeting should be alignment between GitLab & the customer on how the EBR will be delivered.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Final internal review & prep
 
@@ -189,8 +187,9 @@ All GitLab participants in the EBR meet for a final review of the EBR's content,
 - Overall goals for the EBR
 - Customer participants and their expectations
 
+{{% alert color="orange" %}}
 Once this meeting is over, the EBR content is locked in and should not be changed.
-{: .alert .alert-gitlab-orange}
+{{% /alert %}}
 
 ### Send agenda & event details
 
@@ -200,8 +199,9 @@ Before the actual [EBR delivery](#delivery), the CSM sends an email to all parti
 - Logistical details (location, timing, etc.)
 - Additional relevant details (areas of focus for discussion, follow-on sessions planned for the day if applicable, etc.)
 
+{{% alert color="danger" %}}
 This information is sent **no less than one week prior to the date of EBR delivery.**
-{: .alert .alert-danger}
+{{% /alert %}}
 
 ### Delivery
 
@@ -250,8 +250,9 @@ There will be several action items, follow-ups, and next steps defined both from
 
 The CSM is responsible for ensuring that all follow-ups are completed by the person responsible for each item. These should be completed in a timely manner, as soon as possible after the EBR.
 
+{{% alert color="danger" %}}
 Initial steps on follow-up items should be completed no more than one week following the EBR.
-{: .alert .alert-danger}
+{{% /alert %}}
 
 ### Success planning
 

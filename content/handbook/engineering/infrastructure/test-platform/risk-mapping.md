@@ -1,14 +1,7 @@
 ---
-
 title: "Risk Mapping"
 description: "Developing a strategic approach to risk and mitigation planning."
 ---
-
-
-
-
-
-
 
 The Quality Engineering Sub-Department helps facilitate the risk mapping process.
 This requires the participation of Product Management, Development, UX, and the Quality team to develop a strategic approach to risk and mitigation planning.

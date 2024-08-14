@@ -22,7 +22,7 @@ The Technical Instructional Designer is responsible for designing and developing
 
 ## Requirements
 
-- Bachelor’s degree required; Master’s Degree in Instructional Development, Training Education/Communication is preferred
+- Bachelor's degree required; Master's Degree in Instructional Development, Training Education/Communication is preferred
 - Demonstrated progressive related work experience in B2B SaaS customer, partner, and/or sales training instructional design (or equivalent combination of transferable experience and education)
 - Deep experience designing and developing learning programs across delivery mediums and content types (mobile learning, e-learning, video, gamification, virtual learning, live simulation, and live classroom)
 - Proven experience designing and developing scalable, engaging, online training is a must

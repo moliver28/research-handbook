@@ -2,10 +2,8 @@
 title: Web Application Penetration Testing Process
 
 description: >
-   Web Application Penetration Testing (WAPT) is a systematic process of probing web applications to identify security vulnerabilities that could be exploited by attackers. This guide outlines a detailed WAPT process, including methods, tools, and security controls. 
+   Web Application Penetration Testing (WAPT) is a systematic process of probing web applications to identify security vulnerabilities that could be exploited by attackers. This guide outlines a detailed WAPT process, including methods, tools, and security controls.
 ---
-
-
 
 ## 2. Pre-engagement
 

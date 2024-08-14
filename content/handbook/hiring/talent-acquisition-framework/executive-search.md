@@ -82,7 +82,7 @@ The Talent DRI will then take the lead on next steps in the recruitment process.
 
 **Intake Meeting**
 
-The intake meeting will be subsequently scheduled between the Talent DRI, external search partner (if applicable) Hiring DRI and core search group. EBAs to the Hiring DRI and executive shadows may also be in attendance at the Hiring DRI’s discretion.
+The intake meeting will be subsequently scheduled between the Talent DRI, external search partner (if applicable) Hiring DRI and core search group. EBAs to the Hiring DRI and executive shadows may also be in attendance at the Hiring DRI's discretion.
 
 Ahead of the intake meeting, the Talent DRI will conduct baseline research, to include:
 
@@ -126,7 +126,7 @@ Once a role has been identified as eligible for an external search vendor and bu
 If a hiring manager wishes to use an external executive search vendor that is not currently on our approved vendor list, the process is:
 
 1. If after discussion between the Director, Executive Search, Talent DRI and Hiring DRI, it is determined that there is no suitable approved vendor available for the search, a new vendor may be considered.
-1. The Director, Executive Search will set up an informational call with the potential vendor, Talent DRI and Hiring DRI to discuss the search and assess the vendor’s ability to partner and deliver.
+1. The Director, Executive Search will set up an informational call with the potential vendor, Talent DRI and Hiring DRI to discuss the search and assess the vendor's ability to partner and deliver.
 1. If the vendor is chosen to move forward, the Director, Executive Search engages the vendor and involves procurement in the contract discussion. No work should be completed by the vendor before we have a signed agreement.
 
 ## Communication Cadences
@@ -209,7 +209,7 @@ A screening call with the candidate will be conducted via Zoom by the Talent DRI
 
 - Interview between Hiring DRI and the candidate. The purpose of this interview is to:
   - Discuss the role requirements and responsibilities
-  - Discuss the candidate’s background
+  - Discuss the candidate's background
   - Share GitLab pitch and positioning
   - Assess GitLab values fit
 - Within 24 hours of the interview, the Hiring DRI provides:
@@ -240,7 +240,7 @@ For E-Group and other senior level searches, meeting board members may be necess
 - Post completion of the above, board interviews will then be scheduled.
 - The Talent DRI will work with the Hiring DRI, EBA and CES team to schedule board interviews.
 - The Talent DRI is responsible for briefing board members with a written briefing incorporating all feedback and recommendations.
-- The Talent DRI is responsible for sharing an interview notes document with the board member, following the process in “Interview Documentation” above.
+- The Talent DRI is responsible for sharing an interview notes document with the board member, following the process in "Interview Documentation" above.
 - Within 24 hours of the interview, the board interviewer provides:
   - Candidate rating (Strong Yes, Yes or No), as well as shorthand feedback in designated feedback repo.
 - Within 24 hours of the board interviews concluding, the Talent DRI will tag the Hiring DRI in the search Slack channel with a summary of feedback and a recommendation on next steps. The Hiring DRI will confirm next steps before the Talent DRI moves the process forward.
@@ -257,11 +257,11 @@ After each stage in the interview process, the Talent DRI and Hiring DRI will re
 
 **References**
 
-References will be conducted in accordance with GitLab’s standard policies documented [here]({{< ref "hiring-manager#step-7hm-complete-references" >}})
+References will be conducted in accordance with GitLab's standard policies documented [here]({{< ref "hiring-manager#step-7hm-complete-references" >}})
 
 **Background Check**
 
-Background check will be conducted in accordance with GitLab’s standard policies documented [here]({{< ref "people-policies#background-screenings" >}})
+Background check will be conducted in accordance with GitLab's standard policies documented [here]({{< ref "people-policies#background-screenings" >}})
 
 **Offer Preparation**
 

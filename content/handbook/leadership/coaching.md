@@ -221,11 +221,11 @@ Compared with people at low-trust companies, people at high trust companies repo
 #### Additional resources on trust building
 
 1. [How to build and rebuilt trust - Ted Talk](https://www.ted.com/talks/frances_frei_how_to_build_and_rebuild_trust/)
-1. [New to the Team? Here’s How to Build Trust (Remotely) - Harvard Business Review](https://hbr.org/2021/03/new-to-the-team-heres-how-to-build-trust-remotely)
+1. [New to the Team? Here's How to Build Trust (Remotely) - Harvard Business Review](https://hbr.org/2021/03/new-to-the-team-heres-how-to-build-trust-remotely)
 
 ### Will and skill
 
-Will and Skill is a framework that can be used to coach team members based on their Will and Skill. Will reflects the team member’s motivation and engagement with their work. Skill is a reflection of their ability to do the tasks. Scoring in either category as high or low means a team member will fall into one of four quadrants, each of which can be coached and managed differently.
+Will and Skill is a framework that can be used to coach team members based on their Will and Skill. Will reflects the team member's motivation and engagement with their work. Skill is a reflection of their ability to do the tasks. Scoring in either category as high or low means a team member will fall into one of four quadrants, each of which can be coached and managed differently.
 
 - [Persinio's Guide to Will and Skill Matrix](https://www.personio.com/hr-lexicon/skill-will-matrix-defined/)
 - [AIHR's Guide to Will and Skill](https://www.aihr.com/blog/skill-will-matrix/)
@@ -281,7 +281,7 @@ The planning for the action phase is about enabling the coachee to make a plan w
 - Coaches may not necessarily be attached to the results a coachee achieves.
 - Actions are anchored in what is important to the coachee, what changes they want to achieve. Coaches should hold their coachee accountable for performance on action steps and their overall change agenda.
 
-When you are planning for action while wearing your coaching hat, you are not evaluating or judging or driving your agenda. The coachee should ultimately decide the action steps, committing to their path forward. As a coach, you are curious and non-judgemental while living up to [GitLab values]({{< ref "values" >}}).
+When you are planning for action while wearing your coaching hat, you are not evaluating or judging or driving your agenda. The coachee should ultimately decide the action steps, committing to their path forward. As a coach, you are curious and non-judgemental while living up to [GitLab values](/handbook/values/).
 
 #### Sample planning for action questions
 
@@ -319,10 +319,10 @@ The coach might also want to end the conversation with a few statements about wh
 
 ## Team member relations
 
-When coaching is unsuccessful, GitLab’s Team Member Relations group is available to help you. The first thing a manager should do is reach out to the aligned Team Member Relations Partner to review the situation and collaborate on a plan of action.
+When coaching is unsuccessful, GitLab's Team Member Relations group is available to help you. The first thing a manager should do is reach out to the aligned Team Member Relations Partner to review the situation and collaborate on a plan of action.
 That action will include additional coaching, both verbal and documented.
 
-There are times when a Team Member’s behavior becomes so egregious that it is more than a performance issue, and becomes a true conduct concern. If at any point you suspect a team member has engaged in such behavior TMR should be looped in immediately, regardless of whether or not you consider the Team Member a high performer.
+There are times when a Team Member's behavior becomes so egregious that it is more than a performance issue, and becomes a true conduct concern. If at any point you suspect a team member has engaged in such behavior TMR should be looped in immediately, regardless of whether or not you consider the Team Member a high performer.
 
 - [TMR Handbook Page](/handbook/people-group/readmes)
 - [LDR 102 Underperformance](https://www.youtube.com/watch?v=nRJHvzXwXBU&t=1s)

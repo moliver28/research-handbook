@@ -1,20 +1,12 @@
 ---
-
 title: "Google Lighthouse"
 description: "Google Lighthouse is used on our Buyer Experience site to measure the performance of our site over time."
 ---
 
-
-
-
-
-
-
 Relevant links
 
-* Link to CI server: [https://gitlab-be-lhci-server-b083c644acc1.herokuapp.com/app/projects/gitlab-be-lhci-server/dashboard](https://gitlab-be-lhci-server-b083c644acc1.herokuapp.com/app/projects/gitlab-be-lhci-server/dashboard)
-* Link to project in GitLab: [https://gitlab.com/gitlab-com/marketing/digital-experience/lighthouse-ci-server](https://gitlab.com/gitlab-com/marketing/digital-experience/lighthouse-ci-server)
-* Documentation: [https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/server.md](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/server.md)
+* Link to project in GitLab: <https://gitlab.com/gitlab-com/marketing/digital-experience/lighthouse-ci-server>
+* Documentation: <https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/server.md>
 
 ### What is the Google Lighthouse CI server?
 
@@ -27,7 +19,7 @@ Relevant links
 * Use to low-hanging fruit that can improve and monitor key pages.
 * Use as evidence for larger site projects
 
-### Where is the project’s code for that web project?
+### Where is the project's code for that web project?
 
 * https://gitlab.com/gitlab-com/marketing/digital-experience/lighthouse-ci-server Whenever the main branch is updated, we need to upload the new version to Heroku. More notes from their [Heroku recipe](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/recipes/heroku-server/README.md)
 

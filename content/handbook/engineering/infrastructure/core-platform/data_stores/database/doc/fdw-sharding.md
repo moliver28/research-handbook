@@ -3,11 +3,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database
 title: PostgreSQL 11 sharding with foreign data wrappers and partitioning
 ---
 
-
-
-
-
-
 ## PostgreSQL 11 sharding with foreign data wrappers and partitioning
 
 This document captures our exploratory testing around using foreign data wrappers in combination with partitioning. The idea is to implement partitions as foreign tables and have other PostgreSQL clusters act as shards and hold a subset of the data.

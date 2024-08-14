@@ -1,13 +1,6 @@
 ---
-
 title: Development Talent Assessment Process
 ---
-
-
-
-
-
-
 
 ### Talent Assessment Process
 
@@ -50,7 +43,7 @@ In addition to the [calibration session pre work](/handbook/people-group/talent-
 
 1. Performance and Growth Potential notes need to be added to the [session agenda doc](https://docs.google.com/document/d/1zrlZSfdNXpSZ09uvDM71KxH42RWBJxa6U1QTCTw05iI/edit#) for each team member at least 3 business days before the synchronous calibration session.
 
-1. Managers should include 2-3 supporting points for each team member for the assessment under each section in the [agenda doc notes](https://docs.google.com/document/d/1zrlZSfdNXpSZ09uvDM71KxH42RWBJxa6U1QTCTw05iI/edit#) to help support the “why” behind the assessment. _Note: The overviews in the agenda document for calibration are meant to provide enough of an overview so peers have an understanding of the "why", while simultaneously not overwhelming with information and decreasing efficiency of the session. Please limit to 2-3 supporting points per team member._
+1. Managers should include 2-3 supporting points for each team member for the assessment under each section in the [agenda doc notes](https://docs.google.com/document/d/1zrlZSfdNXpSZ09uvDM71KxH42RWBJxa6U1QTCTw05iI/edit#) to help support the "why" behind the assessment. _Note: The overviews in the agenda document for calibration are meant to provide enough of an overview so peers have an understanding of the "why", while simultaneously not overwhelming with information and decreasing efficiency of the session. Please limit to 2-3 supporting points per team member._
 
 1. Key Talent assessment need to be completed and added to the session agenda doc at least 3 business days before the live calibration session.
 

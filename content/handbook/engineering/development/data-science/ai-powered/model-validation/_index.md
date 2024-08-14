@@ -12,6 +12,12 @@ The AI Model Validation team mission is to support and improve the integrity, re
 
 [Here](https://about.gitlab.com/direction/ai-powered/ai_model_validation/) is the group direction page. We have two categories under this group: Category AI Evaluation and Category AI Research. This group is part of the [AI-Powered stage](/handbook/engineering/development/data-science/ai-powered/).
 
+### Central Evaluation Framework (CEF)
+
+Model validation is the primary maintainer of our [Central Evaluation Framework](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library) (CEF). This tool supports the entire end-to-end process of AI feature creation, from selecting the appropriate model for a use case to evaluating the AI features’ output. AI Validation works in concert with other types of evaluation, such as SET Quality testing and diagnostic testing, but is specifically focused on the interaction with Generative AI.
+
+> Read about how we [How we validate and test AI models at scale](https://about.gitlab.com/blog/2024/05/09/developing-gitlab-duo-how-we-validate-and-test-ai-models-at-scale/) on the GitLab blog.
+
 ## 🚀 Team members
 
 The team is composed of [ML engineers](/job-families/engineering/development/data-science/machine-learning/) focused on ML science and MLOps backend, and they are permanent members of the AI Model Validation Group.

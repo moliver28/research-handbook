@@ -1,5 +1,4 @@
 ---
-
 title: Elevate Applied
 ---
 

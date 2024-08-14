@@ -1,5 +1,4 @@
 ---
-
 title: "IT Compliance"
 description: "IT Compliance works collaboratively with multiple functional teams throughout the GitLab organization to ensure compliannce with various requirements related to financial reporting and security."
 ---
@@ -47,7 +46,9 @@ Our [IT Compliance](https://gitlab.com/groups/gitlab-com/-/boards/1802558?label_
 - Facilitate SOX UARs for systems and key reports
 - Facilitate SOD reviews for key SOX financial applications
 
-#### [IT General Controls](/handbook/business-technology/it-compliance/ITGC.html)
+#### IT General Controls
+
+[IT General Controls](/handbook/business-technology/it-compliance/ITGC.html)
 
 **Most Common:**
 
@@ -59,17 +60,17 @@ The most common ITGCs:
 - System and data backup and recovery controls
 - Computer operation controls
 
-**GitLab’s IT Complaince Function will focus on the following for the next 3 months:**
+**GitLab's IT Complaince Function will focus on the following for the next 3 months:**
 
 - Continuing to mature our access and change management programs
 - System development life cycle controls
 - Program change management controls
 - System data backup and recovery controls
 
-#### [Business Continuity Plan](/handbook/business-technology/gitlab-business-continuity-plan/)
+#### Business Continuity Plan
 
-IT Compliance works closely with our Security Compliance team to ensure that GitLab's Business Continuity Plan is up to date.  In the future, we will look to expand or capabilities to further ensure we are doing more in the area of BCP and resiliency to ensure we are meeting all requirements.
+IT Compliance works closely with our Security Compliance team to ensure that GitLab's [Business Continuity Plan](/handbook/business-technology/gitlab-business-continuity-plan/) is up to date.  In the future, we will look to expand or capabilities to further ensure we are doing more in the area of BCP and resiliency to ensure we are meeting all requirements.
 
-#### [Business Technology Change Management](/handbook/business-technology/change-management/)
+#### Business Technology Change Management
 
-IT Compliance works closely with our internal business partners for all Enterprise Application Change Management. More information can be found in our [Business Technology Change Management](https://internal.gitlab.com/handbook/it/it-change-management/) handbook page.
+IT Compliance works closely with our internal business partners for all Enterprise Application [Change Management](/handbook/business-technology/change-management/). More information can be found in our [Business Technology Change Management](https://internal.gitlab.com/handbook/it/it-change-management/) handbook page.

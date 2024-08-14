@@ -56,25 +56,31 @@ You can follow along with the team's accomplishments by reading the [latest week
 
 ## Working Agreements
 
-### 🤝 [Collaboration](/handbook/values/#collaboration)
+### 🤝 Collaboration
+
+[Collaboration](/handbook/values/#collaboration)
 
 * Anything in an issue description is allowed to change. And YOU'RE allowed to do it. Since we have the description history, we can always go back to an old version with negligible effort.  If making a substantial change to the description, provide some explanation to explain why it's changing. **Issue descriptions are documentation, not a single person's opinion**.
-  * Related: try to keep “I”s out of the issues you write, or differentiate your personal opinions/context by adding a disclaimer/bold/italics.  Personal opinions could also be added to the comments section so that others can respond and discuss them. If a description is less personal, it's easier for anyone else to feel like they can improve or refine it.
+  * Related: try to keep "I"s out of the issues you write, or differentiate your personal opinions/context by adding a disclaimer/bold/italics.  Personal opinions could also be added to the comments section so that others can respond and discuss them. If a description is less personal, it's easier for anyone else to feel like they can improve or refine it.
 * It's ok to ask people to do things directly. It may feel uncomfortable, but you have to trust that they can manage their own time and priorities.
   * **"Someone should probably do X."** is a trap. Prefer "Would anyone be willing to do X?" or "Who can take on X?".  Identifying a specific owner for each new task or subtask (write tests, update docs, add a follow-up, etc) will prevent it from getting lost or forgotten.
 * Conversely, it's ok to say no or offer hard limits.
   * **When you do say "no", propose alternatives or a potential path forward** for that person to get what they want/need.
 
-### 📈 [Results](/handbook/values/#results)
+### 📈 Results
+
+[Results](/handbook/values/#results)
 
 * **Just declare a plan.** If people don't agree, they'll tell you.
   * If requirements are unclear, ask for help and explain exactly what you're looking for. Prefer questions like "What should happen in scenario X?" to "I'm not sure how Y should work." The responder should be able to tell whether they've unblocked you simply by making sure each of your questions has an answer.
   * If the discussion has gotten off-track, you can't tell what the action item should be, or you don't have an opinion yourself, make the plan up! Then communicate it.
 * It's also ok to express a direct opinion about what you think is best when presenting a set of options.
   * It's way easier to engage with your work if you believe in what you're building. Advocate for it.
-* Sometimes it’s necessary to accept risk to make progress.
+* Sometimes it's necessary to accept risk to make progress.
 
-### ⏱️ [Efficiency](/handbook/values/#efficiency)
+### ⏱️ Efficiency
+
+[Efficiency](/handbook/values/#efficiency)
 
 * It's ok to say "I'm so confused, can you explain it differently?"
 * When answering questions or posing questions, **always think "who is my audience, and what info do they need right now?"**
@@ -82,16 +88,22 @@ You can follow along with the team's accomplishments by reading the [latest week
   * If posing a question/problem to multiple groups, **categorize information & label it**. Let the reader choose what they want to read.
   * A question posed to a designer *should* be different from a question asked of an engineer. Our designer needs to know the impact of the decision on the user, how big of a pain a given solution is, or whether an option has implications for the design down the line. Conversely, an engineer needs to know which code is being discussed, any implicit assumptions that have been made, which requirements are already known, or why certain options have been ruled out. But in either circumstance, you want to provide the responder with exactly what they need to make an informed choice by the time they reach the end of the question/comment.
 
-### 🌐 [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion)
+### 🌐 Diversity, Inclusion & Belonging
+
+[Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion)
 
 * Communication is hard. Our attention spans are short. If possible, supplement with pictures.
   * If you are verbose, that's ok. **Include summaries, tldrs, tables, headers, and style your text to make it easier to consume your writing.**
 
-### 👣 [Iteration](/handbook/values/#iteration)
+### 👣 Iteration
+
+[Iteration](/handbook/values/#iteration)
 
 * If you already took an action down one path, but now you need to go a different direction, that's ok. That's iteration. You did not waste time or do anything wrong. You just moved forward.
 
-### 👁️ [Transparency](/handbook/values/#transparency)
+### 👁️ Transparency
+
+[Transparency](/handbook/values/#transparency)
 
 * If there's 80% of a decision but still some unknowns, **it can be ok to use "I'm just going to improvise" as the plan** for the remaining pieces. Just state it explicitly in advance & communicate the outcome afterward.
   * The best path forward is sometimes the path of least resistance. **It often doesn't matter *what* you do, as long as it's well communicated.**
@@ -225,10 +237,10 @@ How this differs from past approaches:
 Why we choose this approach:
 
 1. Clear goals. Puts the focus on committing to milestone goals, and whether we're achieving them. Milestone plan is the go-to source of truth for our priorities.
-   1. Bonus: we get better at writing goals (Say), because if we don’t they’ll be hard to assess (Do).
+   1. Bonus: we get better at writing goals (Say), because if we don't they'll be hard to assess (Do).
 1. Accuracy. By zooming out to the epic-level, we gain accuracy. We don't need to label individual issues, they're either part of a deliverable goal / epic, or not.
 1. Usability. By being less granular, we don't need to spend time labeling individual issues. Engineering Managers save time, engineers retain ownership and case-by-case decisions within an established goal/epic.
-1. Easier to reason about. The Say Do ratio is "rounder" (20%, 25%, 33%, 40%, etc), since the number of goals is 3-5. It’s less noisy, and less prone to over-analysis than an issue-based ratio. E.g. what would it mean to go from 77.8% to 73.6% delivered issues? Is it worrisome? Is it ok?
+1. Easier to reason about. The Say Do ratio is "rounder" (20%, 25%, 33%, 40%, etc), since the number of goals is 3-5. It's less noisy, and less prone to over-analysis than an issue-based ratio. E.g. what would it mean to go from 77.8% to 73.6% delivered issues? Is it worrisome? Is it ok?
 1. See [this thread](https://gitlab.com/gitlab-org/monitor/respond/-/issues/217#note_1326514387) for the original context that lead to this approach.
 
 Downsides to this approach:
@@ -272,7 +284,7 @@ The following people are owners of this account and can [grant access](https://z
 
 #### Documentation
 
-For more information on how to use Zoom see theirs [guides](https://marketplace.zoom.us/docs/guides) and [API reference](https://marketplace.zoom.us/docs/api-reference/introduction).
+For more information on how to use Zoom see theirs [guides](https://developers.zoom.us/docs/) and [API reference](https://developers.zoom.us/docs/api/).
 
 ## Labels
 

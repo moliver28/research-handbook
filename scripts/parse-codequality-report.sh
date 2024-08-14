@@ -1,6 +1,7 @@
 #!/bin/bash
 MREPORT=markdownlint-cli2-codequality.json
 VREPORT=vale-codequality.json
+HREPORT=handbook-codequality.json
 ERRORS=()
 MSG=""
 REPO_URL="https://gitlab.com/gitlab-com/content-sites/handbook"
@@ -24,10 +25,12 @@ generate_table() {
       LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
       DESCRIPTION=$(yq ".[$i].description" $MREPORT -o yaml | cut -d ':' -f 2-)
       ERRORS+=( $ERROR )
-      if [[ -z "$ERROR" ]] || [[ $ERROR == "Missing CODEOWNER entry" ]] || [[ -z "$URL" ]]; then
-        MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
-      else
-        MSG+="| [$ERROR]($URL) | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+      if [[ "$ERROR" ]]; then
+        if [[ -z "$URL" ]]; then
+          MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+        else
+          MSG+="| [$ERROR]($URL) | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+        fi
       fi
     done
     for i in $(seq 0 $(($(yq 'length' $VREPORT -o yaml)-1))); do
@@ -39,11 +42,24 @@ generate_table() {
         LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
         DESCRIPTION=$(yq ".[$i].description" $VREPORT -o yaml | cut -d ':' -f 2-)
         ERRORS+=( $ERROR )
-        if [[ -z "$ERROR" ]] || [[ $ERROR == "Missing CODEOWNER entry" ]] || [[ -z "$URL" ]]; then
-            MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
-        else
-            MSG+="| [$ERROR]($URL) | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+        if [[ "$ERROR" ]]; then
+          if [[ -z "$URL" ]]; then
+              MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+          else
+              MSG+="| [$ERROR]($URL) | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+          fi
         fi
+      fi
+    done
+    for i in $(seq 0 $(($(yq 'length' $HREPORT -o yaml)-1))); do
+      ERROR=$(yq ".[$i].check_name" $HREPORT -o yaml | cut -d '/' -f 1)
+      FILE=$(yq ".[$i].location.path" $HREPORT -o yaml)
+      LINE=$(yq ".[$i].location.lines.begin" $HREPORT -o yaml)
+      LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
+      DESCRIPTION=$(yq ".[$i].description" $HREPORT -o yaml | cut -d ':' -f 2-)
+      ERRORS+=( $ERROR )
+      if [[ "$ERROR" ]]; then
+        MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
       fi
     done
     MSG+="\n"
@@ -91,7 +107,7 @@ case "${#existing_reports[@]}" in
         ;;
 esac
 
-# TODO Improve error handling https://gitlab.com/gitlab-com/content-sites/docsy-gitlab/-/issues/10 
+# TODO Improve error handling https://gitlab.com/gitlab-com/content-sites/docsy-gitlab/-/issues/10
 if ! yq > /dev/null; then
     echo "Error: You need to have yq install.  Exiting..."
     exit 1

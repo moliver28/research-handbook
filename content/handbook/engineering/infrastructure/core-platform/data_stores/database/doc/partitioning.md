@@ -3,11 +3,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database
 title: Database Partitioning
 ---
 
-
-
-
-
-
 ## Introducing PostgreSQL table partitioning to GitLab's database
 
 This is a working document to discuss how we are going to introduce table partitioning to GitLab.

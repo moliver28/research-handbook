@@ -5,7 +5,7 @@ description: A guide for Managers on the Growth and Development Fund
 
 ## Introduction
 
-GitLab’s Growth & Development (G&D) Fund is an investment into continuously expanding skills and capabilities of GitLab team members. As a people leader at GitLab, encouraging use of the Growth and Development Fund is a fantastic way to help develop your team members so that they can achieve their career goals at GitLab. This guide provides information on how and why managers should encourage the use of this opportunity, guidance on appropriate usage, and some tips on utilization.
+GitLab's Growth & Development (G&D) Fund is an investment into continuously expanding skills and capabilities of GitLab team members. As a people leader at GitLab, encouraging use of the Growth and Development Fund is a fantastic way to help develop your team members so that they can achieve their career goals at GitLab. This guide provides information on how and why managers should encourage the use of this opportunity, guidance on appropriate usage, and some tips on utilization.
 
 ### "Fund" vs "Benefit"
 
@@ -26,7 +26,11 @@ All Growth and Development applications need manager approval, so applications f
 
 As a result of these career conversations, you may identify an opportunity that could be suitable for a Growth and Development Fund application, that aligns with the team member's career goals. As a manager, you should try to look out for such opportunities to encourage this usage, it can make team members feel that they are valued and that you show an understanding and appreciation of their career goals, and want to play an active role in helping them achieve them.
 
-As much as possible, Growth and Development applications should be self-directed by your team members. You may be able to recommend specific courses or certifications that helped you in your career, but managers should not direct their team members to use the G&D Fund for specific opportunities, individual OKRs / business goals should not be tied to G&D opportunities, unless the team member thinks it's appropriate.
+Individual OKRs and business goals should not be tied to GD opportunities, unless the individual team member thinks it's appropriate.
+
+Growth and Development applications should generally be self-directed by your team members, but if each of your team members has G&D budget remaining, there are instances in which a manager can recommend a training for their whole team to make use of. Take a look at the [Bulk Applications](handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#bulk-applications) section for more info
+
+We see use of the Growth and Development fund as a great means of supporting [High Performing Teams](/handbook/company/high-performing-teams/#high-performing-teams-indicators) at GitLab
 
 ### Expected Outcomes
 
@@ -46,7 +50,7 @@ When a manager approves a G&D request, they are communicating that the growth ex
 
 1. Manager Approval: $0-$1000
 1. Manager AND VP Approval: $1000.01 - $5000
-1. Manager AND eGroup Approval for any spend beyond $5000
+1. Manager AND e-group Approval for any spend beyond $5000
     1. Sales: $5000+ approval by VP
 
 ### Managers should know what they are approving
@@ -80,7 +84,7 @@ Growth & Development requests are a reimbursed expense and follow a reimbursemen
 
 As an option, requests over $1000 USD can take advantage of the split disbursement option designed to help team members carry the financial lift of costly experiences. The split disbursement option allows for 50% of the costs to be reimbursed immediately after payment and the remaining 50% is reimbursed upon completion.
 
-*Here’s how this workflow works*: 1). After all necessary approvals, the requesting team member pays for approved G&D experience. 2). If costs for this G&D experience exceed $1000USD, the team member can submit the proof of payment (via Navan), and the approved GitLab issue to receive a reimbursement of 50% of the total costs. 3). Upon completion, the team member will submit the proof of completion (certificate, completion email, etc.) along with that same approved issue to receive the remaining 50% of total costs.
+*Here's how this workflow works*: 1). After all necessary approvals, the requesting team member pays for approved G&D experience. 2). If costs for this G&D experience exceed $1000USD, the team member can submit the proof of payment (via Navan), and the approved GitLab issue to receive a reimbursement of 50% of the total costs. 3). Upon completion, the team member will submit the proof of completion (certificate, completion email, etc.) along with that same approved issue to receive the remaining 50% of total costs.
 
 ## Types of opportunities
 
@@ -88,17 +92,17 @@ Before encouraging team members to utliize the G&D Fund, it's important to be aw
 
 ## Company-directed Learning vs Growth & Development funded learning experiences
 
-It's important to differentiate between mandatory, company-directed learning initiatives and optional opportunities funded by G&D. While both are essential for professional development, the G&D Fund specifically supports elective learning experiences that align with the team member's personal growth/development goals.
+It's important to differentiate between mandatory, company-directed learning initiatives and optional opportunities funded by G&D. While both are essential for professional development, the G&D Fund specifically supports elective learning experiences that align with the team member's personal growth/development goals. This does not mean that team-based learning applications will be rejected in all instances, please see the FAQs below for more detail.
 
 ## FAQs
 
 ### I would like to utilize the Growth and Development Fund for some team training, is that allowed?
 
-The G&D Fund is primarily intended for individual use for career growth. It is not permitted for managers to use the fund to put their team through role-related training, if a manager views a particular course or training program as being important to their teams success, the budget for that should be taken from the department / divisional budget.
+The G&D Fund is primarily intended for individual use for career growth and this accounts for the vast majority of applications. However, if a manager feels strongly they could benefit from a team-based training opportunity, their team memebers are supportive of that, and each team member has the remaining G&D allowance required for the opportunity, this may be suitable for G&D use. The Learning & Development review these applications on a case by case basis, so please reach out in [#learninganddevelopment](https://gitlab.enterprise.slack.com/archives/CMRAWQ97W) to discuss the suitability of your team training opportunity.
 
-You can still recommend team members utilize the Growth and Development Fund for specific learning opportunities that would improve their performance and further their careers in line with your individual development conversations with team members. E.g. A manager completed a certification that helped them move up in their career, and recommends it to one of their team members with similar career aspirations.
+If the budget isn't available to put team members through a paid learning opportunity, we recommend engaging the Learning and Development Team using our [Engagement Concierge](/handbook/people-group/engagement-concierge/) program, where we can assist in creating a customized learning path using our existing resources and expertise.
 
-If the department budget isn’t available to put team members through an already identified paid learning opportunity, we recommend engaging the Learning and Development Team using our [Engagement Concierge](/handbook/people-group/engagement-concierge/) program.
+Note: G&D budgets cannot be pooled - e.g. if one team member has spent their full allowance for the year and you want to put them through a team training that costs $2000 per participant, they can't draw on the unused allowance from other team members to fund the training.
 
 ### Can I utilize the Growth and Development Fund to help manage underperformance?
 
@@ -120,4 +124,6 @@ As a general rule of thumb, opportunities to improve skills that are rarely need
 
 #### My team member wants to go to a conference, but the travel isn't covered by the G&D Fund, why?
 
-Correction: If the Growth & Development conference request has been approved, then the accompanied travel expenses are also approved, but they must be filed/reimbursed separately because they come from two different budgets. The Growth and Development Fund can be used to cover the cost of conference tickets and admission, but the costs for travel, accomodation, and meals, should come from your departments Travel & Expenses budget. These costs have been accounted for in the budget for each department. Team members should still include the approximate travel and hotel costs in their Growth and Development issue, so that your department's VP can review and approve the costs, with the understanding that it is coming from their T&E budget. The T&E costs are not subtracted from a team members G&D buget of 10,000 USD.
+If the Growth & Development conference request has been approved, then the accompanied travel expenses are also approved, but they must be filed/reimbursed separately because they come from two different budgets. 
+
+The Growth and Development Fund can be used to cover the cost of conference tickets and admission, but the costs for travel, accomodation, and meals, should come from your departments Travel & Expenses budget. These costs have been accounted for in the budget for each department. Team members should still include the approximate travel and hotel costs in their Growth and Development issue, so that your department's VP can review and approve the costs, with the understanding that it is coming from their T&E budget. The T&E costs are not subtracted from a team members G&D buget of 10,000 USD.

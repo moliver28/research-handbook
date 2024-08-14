@@ -8,9 +8,9 @@ description: "The GitLab Sales Kickoff sets the tone for the GitLab field organi
 
 This event sets the tone for the GitLab field organization for the new fiscal year. The objective of SKO is that team members will leave feeling...
 
-1. **Motivated**: *"Our product is helping our customers achieve amazing things and the vision for our market is incredible. I know we have what it takes to win. I feel energized by the opportunity to connect with team members in-person/virtually.”*
-1. **Celebrated**: *"I feel like my team and leaders recognize and appreciate the work I do in helping GitLab grow and succeed.”*
-1. **Enabled**: *“I am confident that I have the skills and resources needed to excel in my territory/role and predictably Land with vision and Expand with purpose. I feel supported by Marketing and Product teams who want to help me win.”*
+1. **Motivated**: *"Our product is helping our customers achieve amazing things and the vision for our market is incredible. I know we have what it takes to win. I feel energized by the opportunity to connect with team members in-person/virtually."*
+1. **Celebrated**: *"I feel like my team and leaders recognize and appreciate the work I do in helping GitLab grow and succeed."*
+1. **Enabled**: *"I am confident that I have the skills and resources needed to excel in my territory/role and predictably Land with vision and Expand with purpose. I feel supported by Marketing and Product teams who want to help me win."*
 
 We will achieve this by creating an event that is:
 
@@ -20,13 +20,10 @@ We will achieve this by creating an event that is:
 
 ---
 
-## [Sales Kickoff 2023](/handbook/sales/training/SKO/2023)
-
-## [Sales Kickoff 2022](/handbook/sales/training/SKO/2022)
-
-## [Sales Kickoff 2021](/handbook/sales/training/SKO/2021)
-
-## [Sales Kickoff 2020](/handbook/sales/training/SKO/2020)
+- [Sales Kickoff 2023](/handbook/sales/training/SKO/2023)
+- [Sales Kickoff 2022](/handbook/sales/training/SKO/2022)
+- [Sales Kickoff 2021](/handbook/sales/training/SKO/2021)
+- [Sales Kickoff 2020](/handbook/sales/training/SKO/2020)
 
 ---
 

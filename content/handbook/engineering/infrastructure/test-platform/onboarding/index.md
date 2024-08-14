@@ -1,5 +1,4 @@
 ---
-
 title: "Test Platform Onboarding"
 description: "Guidelines for onboarding as a new Test Platform team member"
 ---
@@ -19,8 +18,8 @@ and complete the issue.
 * General testing guidelines
   * [Testing standards and style guidelines](https://docs.gitlab.com/ee/development/testing_guide/index.html)
 * CI infrastructure for CE and EE
-  * [GitLab project pipelines](https://docs.gitlab.com/ee/development/pipelines.html)
-  * [Testing from CI](https://docs.gitlab.com/ee/development/testing_guide/ci.html)
+  * [GitLab project pipelines](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/)
+  * [Testing from CI](https://docs.gitlab.com/ee/development/cicd/)
   * [Review Apps](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html)
 * Tests statistics
   * [Redash Test Suite Statistics](https://redash.gitlab.com/dashboard/test-suite-statistics)

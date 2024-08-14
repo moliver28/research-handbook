@@ -320,6 +320,8 @@ This also mitigates the issue of potential weak communication encryption since t
 
 It can be distracting when a call with a large number of attendees has folks joining unmuted. For [Assembly](/handbook/company/gitlab-assembly), CEO [AMAs](/handbook/communication/ask-me-anything), and other meetings in which we expect an attendance of over 25 folks, meetings should be scheduled, so that folks enter on mute. These folks can then opt to unmute as required to participate in the conversation.
 
+If a team member in a meeting is not on mute but creating sound that is distracting, any other team member should feel empowered to put this person on mute. A person must be a co-host or host to put someone on mute. If you are the host and you'd like help with muting people, ensure that "co-host" is enabled in your Zoom settings. During meetings, you can click on individuals in the meeting and designate them as "co-hosts."
+
 ---
 
 ## During your Zoom Meeting
@@ -337,7 +339,7 @@ To auto-record meetings set up [cloud recording](https://support.zoom.us/hc/en-u
 You can also configure Zoom to save to the cloud automatically.
 Go to "My Meeting Settings" and find the "Recording" section, then click on "Cloud Recording".
 Setting the topic of the meeting is important, otherwise all meetings will be recorded with a generic name.
-Once recording is complete, your videos will not appear in the “Recordings” section of your Zoom account.
+Once recording is complete, your videos will not appear in the "Recordings" section of your Zoom account.
 
 If the meeting topic in Zoom (editable by logging into <https://zoom.us/>) contains the text `[REC]`, these recordings will
 automatically be saved to a folder on Google Drive under `GitLab Videos Recorded` (accessible from [Google shared drives](https://drive.google.com/drive/shared-drives)).
@@ -415,6 +417,28 @@ a co-host.
 For cloud recordings, the file name ends with `.transcript.txt` and the full transcription is always
 available. Processing takes about 15 minutes, so the video files appear before the transcription.
 
+### Zoom AI Companion
+
+#### Meeting summary with AI Companion
+
+1. Start a meeting with the Zoom desktop client.
+1. Click `AI Companion` in the meeting control toolbar.
+1. Click `Start summary`. 
+1. Participants will see a notification that AI Companion is active and analyzing the discussion.
+1. Once the meeting ends, the summary will be emailed to the meeting host and meeting invitees in our organization.
+
+#### Accessing AI Companion Meeting Summaries
+
+1. Go to your Zoom account's [profile](https://gitlab.zoom.us/profile).
+1. In the side bar expand `AI Companion` and then click on `Meeting Summary`.
+1. To edit or share, click on a meeting topic and you will have the option to `Share`, `Edit`, or `Delete` meeting summaries.
+
+### Enabling email notifications for hosts when attendees join first
+
+1. Go to your Zoom account [settings](https://gitlab.zoom.us/profile/setting).
+1. Click the `Meeting` tab.
+1. Under `Email notification`, click the `When attendees join meeting before host` toggle to enable or disable it.
+
 ### How to share a presentation in Zoom
 
 At some point, you may need to give a slide presentation using Zoom.
@@ -487,15 +511,15 @@ Here are some tips for quick and effective telephone connections to Zoom meeting
 
 Check in with your Audience: There are multiple stages throughout your Zoom presentation or video conference which are prime points to engage the audience with a simple check-in.
 
-- At the beginning of the presentation: You could check in with your audience as soon as you have explained the upcoming meeting/presentation agenda, this will help to make sure that everyone understands the journey you’re about to take them on.
-- After delivering the initial value prop: You should most certainly check in after delivering GitLab’s value proposition or key message.
-  It’s generally best to use people’s names e.g. John, Ryan, please let me know if there is anything you would like me to clarify in more detail?  By using names in this way will force a response, show that you are engaged with them directly and keep the audience tuned in.
+- At the beginning of the presentation: You could check in with your audience as soon as you have explained the upcoming meeting/presentation agenda, this will help to make sure that everyone understands the journey you're about to take them on.
+- After delivering the initial value prop: You should most certainly check in after delivering GitLab's value proposition or key message.
+  It's generally best to use people's names e.g. John, Ryan, please let me know if there is anything you would like me to clarify in more detail?  By using names in this way will force a response, show that you are engaged with them directly and keep the audience tuned in.
 
 ### Involve the remote audience when presenting
 
 There are a number of simple methods presenters can use to involve the participants throughout your presentation.
 
-- Direct Reference: ‘As most of you will be aware…’ or ‘Some of you might be wondering…’ and good phrases to grab your participants' attention and make them feel involved as well as reinforce your own position as a subject matter expert.
+- Direct Reference: 'As most of you will be aware…' or 'Some of you might be wondering…' and good phrases to grab your participants' attention and make them feel involved as well as reinforce your own position as a subject matter expert.
 - Rhetorical Questions: Rhetorical questions generally encourage the participant to formulate answers to your question for discussion at a later point in the presentation.
   This method can be good to highlight a point that you want the participant to recall later during the presentation.
 - Acknowledge Challenges: Acknowledging the impact of your message upon the audience to help enforce you as a trusted GitLab representative of their interests.
@@ -503,30 +527,30 @@ There are a number of simple methods presenters can use to involve the participa
 ### Keeping a Remote Audience on Track
 
 - Always have an agenda: Having a clear agenda will help set expectations.
-  With longer presentations, you may wish to summarize where you’ve been and where you are up to within your agenda.
+  With longer presentations, you may wish to summarize where you've been and where you are up to within your agenda.
 - Put emphasis on your key message: Because of the constant barrage of emails, texts, calls, and social media updates, participants joining via Zoom (or any video conferencing tool) can easily get distracted and quickly tune out.
   Bring their attention back to you and your presentation by making sure you really emphasize your key message.
   You will sound much more focused, and thereby, help remote attendees relate points and examples back to the core of your presentation or meeting.
 - Refer Directly to Your Slides: Refer directly to your presentation or meeting slides, particularly those that are more complex and which you should spend more time explaining (e.g. with graphs graphics or flow diagrams).
-  It’s important to verbally indicated to the audience where you are on the slide by using the mouse cursor or virtual laser dot.
+  It's important to verbally indicated to the audience where you are on the slide by using the mouse cursor or virtual laser dot.
 
 ### Remember to Breathe
 
-Harness the power of pausing to help people keep up and absorb what you’re sharing is even more important in a removed presenting environment.
-That’s because, without an audience in front of us, we tend to speed up and truncate our pauses even more.
+Harness the power of pausing to help people keep up and absorb what you're sharing is even more important in a removed presenting environment.
+That's because, without an audience in front of us, we tend to speed up and truncate our pauses even more.
 So be extra mindful of this and of your audience.
 At the end of the day, listeners lost means a missed opportunity to get your message across.
 
 ### Make the participant experience an enjoyable one
 
 Video calling via Zoom and other technologies is incredibly useful and convenient but can make presentations dull and boring for both the audience and the presenter.
-For this reason, it’s even more important to find ways to build rapport and to have fun and inject some humor into the meeting (if possible).
-It’s important that you give yourself, and the audience, the permission to have some banter and moments of ‘lightness’ during the presentation.
-Don’t take the entire experience too seriously or you’ll bleed the presentation dry of any interactivity.
+For this reason, it's even more important to find ways to build rapport and to have fun and inject some humor into the meeting (if possible).
+It's important that you give yourself, and the audience, the permission to have some banter and moments of 'lightness' during the presentation.
+Don't take the entire experience too seriously or you'll bleed the presentation dry of any interactivity.
 
 Therefore it is good to allow your natural personality to shine through.
 This will refresh the presentation with an air of genuine spirit, much needed when your audience is remote and cannot interact with you in person.
-Remember, if you sound like you’re enjoying hosting the meeting, the audience is more likely to enjoy listening to it. Find other tips for increasing user engagemnet from our [live speaker series with Lorraine Lee on all-remote video and presentation tips](/handbook/communication/#video-and-presentation-tips-with-lorraine-lee)
+Remember, if you sound like you're enjoying hosting the meeting, the audience is more likely to enjoy listening to it. Find other tips for increasing user engagemnet from our [live speaker series with Lorraine Lee on all-remote video and presentation tips](/handbook/communication/#video-and-presentation-tips-with-lorraine-lee)
 
 ### Provide links rather than sharing while you present or edit
 
@@ -587,9 +611,9 @@ Note that you must start the `ZoomLauncher` binary and not the shell script wrap
 
 ### Virtual background
 
-With or without a physical [green screen](https://www.amazon.com/dp/B00JSAOGWG/ref=psdc_3443951_t1_B0053EBFRU), you can utilize [virtual backgrounds](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) so that you don't have to worry about what's behind you while on a video call.
+With or without a physical [green screen](https://www.amazon.com/dp/B00JSAOGWG/ref=psdc_3443951_t1_B0053EBFRU), you can utilize [virtual backgrounds](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) so that you don't have to worry about what's behind you while on a video call. You can also find more virtual backgrounds in our [GitLab-branded green screen library](https://drive.google.com/drive/folders/10DqQ8kBICPTuPNG0PGf-JWXBFytZHQ88) (*Google Drive access available to GitLab team members who are logged in*).
 
-Consider using a [custom GitLab Background](https://docs.google.com/presentation/d/1PM4sCuCTSmVtoCp_O-_K9BS7yrIJjh1kteMTT7PS9zI/edit#slide=id.gc454e6622b_0_3) (*Google Drive access available to GitLab team members who are logged in*).
+Consider using a [customizable GitLab Background](https://docs.google.com/presentation/d/1PM4sCuCTSmVtoCp_O-_K9BS7yrIJjh1kteMTT7PS9zI/edit#slide=id.gc454e6622b_0_3) (*Google Drive access available to GitLab team members who are logged in*).
 
 1. In your Zoom [In Meeting (Advanced)](https://zoom.us/profile/setting#advanced_meeting_options) settings, enable `Virtual background`
 1. In your Zoom application on your computer, open settings and click on the `Virtual Background` setting

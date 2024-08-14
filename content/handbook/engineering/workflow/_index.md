@@ -57,7 +57,7 @@ There are two phases for fixing a broken `master` incident which have a target S
 
 | Phase | Service level objective | DRI |
 | --- | --- | --- |
-| [Triage](#triage-broken-master) | 4 hours from the initial broken `master` incident creation until assignment | group labelled on the incident |
+| [Triage](#triage-broken-master) | 4 hours from the initial broken `master` incident creation until assignment | group labeled on the incident |
 | [Resolution](#resolution-of-broken-master) | 4 hours from assignment to DRI until incident is resolved | Merge request author or team of merge request author or dev on-call engineer |
 
 Note: Untriaged incidents are negatively impacting master pipeline stability and development velocity. Any untriaged incident will be automatically escalated to dev-on-call within 30 minutes of inactivity, following a Slack reminder to the attributed channel, to ensure the triage SLO is met. Before escalation, if an incident becomes a blocker for MRs and deployments, the team member being impacted should refer to the [broken `master` escalation](#broken-master-escalation) steps to request help from the current [engineer on-call](/handbook/engineering/infrastructure/incident-management/#who-is-the-current-eoc) as early as needed.
@@ -133,19 +133,20 @@ When an incident is attributed to a group, a notification will be sent to the tr
         /label ~"flaky-test::transient bug"
         /label ~"flaky-test::unreliable dom selector"
         /label ~"flaky-test::unstable infrastructure"
+        /label ~"flaky-test::too-many-sql-queries"
         ```
 
       - Close the incident
    - Add the stacktrace of the error to the incident (if it is not already posted by gitlab-bot), as well as Capybara screenshots if available in the job artifacts.
      - To find the screenshot: download the job artifact, and copy the screenshot in `artifacts/tmp/capybara` to the incident if one is available.
    - Identify the merge request that introduced the failures. There are a few possible approaches to try:
-      - Check the commit in the failed job, and find the associated MR, if any (it’s not as simple most of the times though).
+      - Check the commit in the failed job, and find the associated MR, if any (it's not as simple most of the times though).
       - [Look at the project activity](https://gitlab.com/gitlab-org/gitlab/activity), and search for keywords in the recent merged events.
       - [Look at the recent commits on master](https://gitlab.com/gitlab-org/gitlab/-/commits/master) and search for keywords you might see in the failing job/specs (e.g. if you see a `geo` spec file is failing, specifically the `shard` spec, search for those keywords in the commit history).
         - You can [filter with the `Merge branch` text](https://gitlab.com/gitlab-org/gitlab/-/commits/master?search=Merge%20branch) to only see merge commits.
       - Look at the spec file history or blame views, by clicking respectively the `History` or `Blame` button at the top of a file in the file explorer, e.g. at <https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/backup.rb>.
    - If you identified a merge request, assign the incident to its author if they are available at the moment. If they are not available, assign to the maintainer that approved/merged the MR. If none are available, mention the team Engineering Manager and seek assistance in the `#development` Slack channel.
-      - You can find the team somebody is in and who's the manager for that team by searching in https://about.gitlab.com/handbook/product/categories/.
+      - You can find the team somebody is in and who's the manager for that team by searching in https://handbook.gitlab.com/handbook/product/categories/.
    - If no merge request was identified, ask for assistance in the `#development` Slack channel.
    - Please set the appropriate `~master-broken:*` label from the list below:
 
@@ -354,7 +355,7 @@ For better efficiency, it's common for a regression to be fixed in an MR without
 
 ## Basics
 
-1. Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority and relevant label you can work on, and assign it to yourself. [You can use this query, which sorts by priority for the started milestones](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&milestone_title=%23started&assignee_id=None&sort=priority), and filter by the label for your team.
+1. Start working on an issue you're assigned to. If you're not assigned to any issue, find the issue with the highest priority and relevant label you can work on, and assign it to yourself. [You can use this query, which sorts by priority for the started milestones](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&milestone_title=%23started&assignee_id=None&sort=priority), and filter by the label for your team.
 1. If you need to schedule something or prioritize it, apply the appropriate labels (see [Scheduling issues](#scheduling-issues)).
 1. If you are working on an issue that touches on areas outside of your expertise, be sure to mention someone in the other group(s) as soon as you start working on it. This allows others to give you early feedback, which should save you time in the long run.
 1. If you are working on an issue that requires access to specific features, systems, or groups, open an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Access_Change_Request) to obtain access on staging and production for testing your changes after they are merged.
@@ -427,7 +428,7 @@ for more discussion.
 
 Start working on things with the highest priority in the current milestone. The priority of items are defined under labels in the repository, but you are able to sort by priority.
 
-After sorting by priority, choose something that you’re able to tackle and falls under your responsibility. That means that if you’re a frontend developer, you work on something with the label `frontend`.
+After sorting by priority, choose something that you're able to tackle and falls under your responsibility. That means that if you're a frontend developer, you work on something with the label `frontend`.
 
 To filter very precisely, you could filter all issues for:
 
@@ -438,7 +439,7 @@ To filter very precisely, you could filter all issues for:
 
 [Use this link to quickly set the above parameters](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&milestone_title=%23started&assignee_id=None&sort=priority). You'll still need to filter by the label for your own team.
 
-If you’re in doubt about what to work on, ask your lead. They will be able to tell you.
+If you're in doubt about what to work on, ask your lead. They will be able to tell you.
 
 ## Triaging and Reviewing Code from the rest of the Community
 
@@ -483,7 +484,7 @@ Any scheduled issue should have a team label assigned, and at least one type lab
 To request scheduling an issue, ask the [responsible product manager](/handbook/product/categories/#devops-stages)
 
 We have many more requests for great features than we have capacity to work on.
-There is a good chance we’ll not be able to work on something.
+There is a good chance we'll not be able to work on something.
 Make sure the appropriate labels (such as `customer`) are applied so every issue is given the priority it deserves.
 
 ## Product Development Timeline
@@ -541,7 +542,7 @@ All other important dates for a milestone are relative to the release date:
 - **On or around the Wednesday immediately following the release day**:
   - [Product plans](/handbook/product/product-processes/#managing-your-product-direction) are updated to reflect previous and current releases, including category epics and direction pages.
 - **On or around the second Monday following the release day**:
-  - Non-critical security patches are [released](https://about.gitlab.com/handbook/engineering/releases/security-releases/).
+  - Non-critical security patches are [released](/handbook/engineering/releases/security-releases/).
 
 Refer to [release post content reviews](/handbook/marketing/blog/release-posts/#content-reviews) for additional deadlines.
 
@@ -586,7 +587,7 @@ The milestone cleanup will happen the day before the release date.
 These actions will be applied to open issues:
 
 - Open issues and merge requests will be moved to the next milestone, and
-  labelled with `~"missed:x.y"`.
+  labeled with `~"missed:x.y"`.
 - `~"missed-deliverable"` will also be added whenever `~"Deliverable"`
     is presented.
 

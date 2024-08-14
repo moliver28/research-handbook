@@ -1,5 +1,4 @@
 ---
-
 title: "Ally Resources"
 ---
 

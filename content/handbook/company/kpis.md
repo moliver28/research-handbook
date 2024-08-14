@@ -1,5 +1,4 @@
 ---
-
 title: KPIs
 ---
 
@@ -36,12 +35,14 @@ The icons below are relevant for [Phase 1](/handbook/company/kpis/) and can be a
 
 ## GitLab KPIs
 
+GitLab's **North Star metric** is run-rate revenue. In addition, there are other 10 other top KPIs.
+
 GitLab KPIs are duplicates of goals of the reports further down this page.
 GitLab KPIs are the 10 most important indicators of company performance, and the most important KPI is Net ARR.
 We review these at each quarterly meeting of the Board of Directors.
 These KPIs are determined by a combination of their stand alone importance to the company and the amount of management focus devoted to improving the metric.
 
-1. [Revenue](/handbook/company/kpis/#sales-kpis) vs. plan (lagging) **North Star KPI**
+1. [Revenue](/handbook/company/kpis/#sales-kpis) vs. plan (lagging) 
 1. [R&D Overall MR Rate](/handbook/engineering/performance-indicators/#rd-overall-mr-rate) (leading)
 1. [Estimated Combined Monthly Active Users (CMAU)](/handbook/product/performance-indicators/#estimated-combined-monthly-active-users) (leading)
 1. [Net New Business Pipeline Created ($s)](/handbook/marketing/performance-indicators/#net-new-business-pipeline-created) 🐔 (leading)
@@ -109,8 +110,8 @@ GitLab team members can access and update all Product performance indicators wit
 ## Satisfaction
 
 We do satisfaction scope on a scale of 1 to 5 how satisfied people are with the experience.
-We don’t use NPS since that cuts off certain scores and we want to preserve fidelity.
-We have the following abbreviation letter before SAT, please don’t use SAT without letter before to specify it:
+We don't use NPS since that cuts off certain scores and we want to preserve fidelity.
+We have the following abbreviation letter before SAT, please don't use SAT without letter before to specify it:
 
 - C = unused since customer is ambiguous (can mean product or support, not all users are customers)
 - E = unused since employee is used by other companies but not by us

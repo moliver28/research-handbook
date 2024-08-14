@@ -1,7 +1,6 @@
 ---
-
 title: Success Services
- 
+
 
 ---
 The Success Services department is part of the [Customer Success](/handbook/customer-success/) function who partners with our customers to deliver value and positive business outcomes throughout their journey with GitLab.
@@ -26,7 +25,7 @@ Education Services included with Success Services encompasses 1day of Instructor
 
 ### Accelerators
 
-Success Services include up to 4 Accelerators, 1 per quarter, that your [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) will deliver.  
+Success Services include up to 4 Accelerators, 1 per quarter, that your [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) will deliver.
 
 > An accelerator is a customized form of enablement that a GitLab CSA will define and deliver to a customer. These accelerators span a quarter and they're mapped to your mutual success plan.
 
@@ -52,3 +51,54 @@ An Accelerator, depending on customer requirements and defined outcomes, will pu
 |Agile Planning|Jira + GitLab workshop|This workshop will detail the options you have when integrating Jira and GitLab|Your CSA will spend time discovering your current needs and setup; then they'll deliver a customized workshop catered to your outcomes|
 |AI/ML|AI/ML hands on lab|Bootstrap your developers on all the AI/ML features GitLab has and how to use them|Your team will walk away being familiar with how to invoke all the AI features and suggested usages for them; they will also have access to a gitlab.com sandbox for 3 days to keep experimenting|
 |System administration|Upgrade package|This deep dive accelerator will prepare your system administration team for upcoming upgrades|The outcome will be a detailed upgrade plan, a presentation on the depreprecations as well as new features you need to be aware of, and a collaboration project to track any and all questions you have leading up to the upgrade|
+
+## CSA Processes
+
+We have CSA specific processes that go above and beyond the CSM role. It is expected that this is layered on top of the CSM processes and responsibilities.
+
+### SPS Customer Onboarding
+
+```mermaid
+graph LR
+    A[Order Form Received] --> B[<b>Welcome Email Sent</b><br><i>24hrs after resources identified</i>]
+    B --> C[<b>Internal Account Team Handover</b><br><i>within first week</i>]
+    C --> D[<b>Customer Kick-Off Call</b><br><i>within first 1 to 2 weeks</i>]
+    D --> E[<b>Accelerator Begins]
+```
+
+1. Introduction Email
+   1. This email will be sent within 24hrs of both CSA and ASE resources being identified and as close as possible to Order Form being received from Customer.
+   2. Utilize [this internal email](https://docs.google.com/document/d/1eDj4zSzuHega_wvZrWMkOC9TAWMWs_bjVwnn7GeJzzY/edit) and customize to your customer's needs
+   3. The first priority is getting the kick-off call locked in so that you can review the program and get in front of the customer
+
+2. Internal Kick-off Call
+   1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around
+   2. Customer Objectives identified prior to the Order Form being signed are to be documented by CSA and shared with account team
+
+3. Customer Kick-off Call
+   1. This will be scheduled within the first week of the agreement, subject to customer availability.
+   2. If customer is not available in first week for a formal kick-off, both ASE and CSA should begin work async and will start any needed conversations via email.
+   3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal)
+   4. Share the .pdf version post call as well as immediate next steps, such as a discovery workshop
+    
+### Logging Accelerator Events
+
+In order to keep track of key deliverables in the Accelerator process, CSAs need to log these events in Gainsight. This will allow reporting and a complete account timeline within Gainsight.
+
+Instructions:
+
+1. Add new activity (utilize the calendar plugin to auto-populate details of the meeting)
+2. Select customer
+3. "Activity Type" = "CSA Engagement"
+4. Choose "Acceleratory Type". Use your best judgement to categorize the type of activity it is:
+   * Agile Planning
+   * CI
+   * CD
+   * Security
+   * AI
+   * Compliance
+   * System Administration
+5. Fill in "Accelerator Content Module"
+   * Use this optional field to document the activity itself
+   * i.e. "Delivered guidance report for cost optimization", or "Custom Security Policy Workshop"
+   

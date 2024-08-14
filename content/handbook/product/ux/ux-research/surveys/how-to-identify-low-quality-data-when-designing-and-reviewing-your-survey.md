@@ -11,8 +11,8 @@ A major challenge in UX Research is ensuring data is representative of the users
 
 Attention check questions are designed to ensure participants are paying attention and responding thoughtfully. Consider including an attention check question to more easily filter during cleaning and analysis.
 
-* **Example:** “Please select ‘agree’ for this question to confirm you're paying attention.” If the respondent selects ‘agree’, this indicates they are reviewing and responding to questions carefully, so this respondent shouldn’t be removed.
-* **Example:** “The following question is to verify that you are a real person. Please enter the word ‘Red’ into the box below.” If the respondent responds ‘Blue’, this suggests they are likely not paying attention and should be removed from the dataset.
+* **Example:** "Please select 'agree' for this question to confirm you're paying attention." If the respondent selects 'agree', this indicates they are reviewing and responding to questions carefully, so this respondent shouldn't be removed.
+* **Example:** "The following question is to verify that you are a real person. Please enter the word 'Red' into the box below." If the respondent responds 'Blue', this suggests they are likely not paying attention and should be removed from the dataset.
 
 Attention checks should be used strategically. They are best suited for complex surveys, long surveys, and surveys with a large number of multiple choice questions. They are not suited for short surveys, surveys with a large number of open responses, and screener surveys.
 
@@ -55,7 +55,7 @@ Rapid completion may indicate that participants are not engaging thoughtfully wi
 Straightlining occurs when respondents consistently choose the same response option without considering the question. It can indicate inattentiveness or a lack of genuine engagement.
 
 * **Example:** A respondent selects "strongly agree" for every question in the survey. There is no perfect solution to straightlining or other pattern based responses. If there is only one or a small number of these responses it is best practice to remove those participants because their data is untrustworthy. If you find a large number of these kinds of responses in your data you can adjust your survey to avoid matrix style questions with too many options or to present one question per page.
-* **Example:** A respondent who picks a mix of “strongly agree” and “agree” throughout the survey shouldn’t be excluded.
+* **Example:** A respondent who picks a mix of "strongly agree" and "agree" throughout the survey shouldn't be excluded.
 
 ### Inconsistent responses
 
@@ -76,6 +76,6 @@ Common AI generated phrasing that could suggest fraudulent or insincere response
 * "I apologize for the inconvenience. Unfortunately, I am unable to provide real-time data at this moment."
   * This response demonstrates typical AI behavior by offering a polite apology but failing to provide a direct answer and specifically mentions real-time data. AI-generated responses often default to formal language and may avoid committing to real-time interactions, leading to vague or evasive responses.
 * "As of my last knowledge update..."
-  * This response displays AI’s tendency to rely on qualifiers and pre-programmed responses. AI-generated content often includes disclaimers or phrases indicating reliance on outdated information, reflecting the system's inability to provide real-time updates or nuanced understanding.
+  * This response displays AI's tendency to rely on qualifiers and pre-programmed responses. AI-generated content often includes disclaimers or phrases indicating reliance on outdated information, reflecting the system's inability to provide real-time updates or nuanced understanding.
 * "Certainly, here is a summary of the requested information."
   * This response exhibits characteristics typical of AI-generated content by using formal language and offering to provide information in a structured format. AI-generated responses often prioritize delivering data or summaries in a straightforward manner, lacking the spontaneity and contextual understanding inherent in human communication. The use of the word "certainly" followed by a predetermined action (providing a summary) suggests a scripted response rather than a genuine human interaction.

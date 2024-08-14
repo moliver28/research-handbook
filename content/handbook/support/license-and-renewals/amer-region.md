@@ -1,10 +1,7 @@
 ---
-
 title: AMER Licensing & Renewals Team
 description: Information specific to the AMER region's Licensing & Renewals Support Team
 ---
-
-
 
 ## Overview
 

@@ -1,16 +1,10 @@
 ---
-
 title: "GitLab.tv Events Channel Playbook"
 description: GitLab.tv Events Channel Playbook
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
-
 
 ## Introduction
 
@@ -58,7 +52,7 @@ Start with the [Go Live decision tree](/handbook/marketing/virtual-events/#decis
 
 Uploading criteria:
 
-- **Title:** The title of your video should describe exactly what you are showing in the video. For example, “GitLab Commit 2020 Product Roadmap”
+- **Title:** The title of your video should describe exactly what you are showing in the video. For example, "GitLab Commit 2020 Product Roadmap"
 - **Description:** Repeat the title of the video followed by 3-5 sentences explaining what the viewer is going to experience or learn from the video. If the video is longer than 10 minutes, please include timestamps. If the video is referencing a previously approved sharable contribution, please link to the merge request.
 - **Call to action (CTA):** Event videos should include a link to an event and/or campaign associated with the video that is being posted.
 - **UTM codes:** Please be sure to add a UTM code to your CTA in the video description when uploading your videos to YouTube. This **required** action is needed to track your video's performance. For event-related videos, the UTM code should follow this sequence: `?&utm_medium=social&utm_source=youtube&utm_campaign=events&utm_content={{video}}`
@@ -83,7 +77,7 @@ These are the possible ways you can have your event video promoted through inter
 1. Submit to GitLab social team for consideration (DRI must create issue to enable this step)
 1. Submit to GitLab editorial team for consideration on the blog and/or bi-weekly newsletter (DRI must create issue to enable this step)
 1. Third-party content platforms (e.g. like ITPro.tv, industry blogs, etc.)
-1. Highlighted on GitLab’s weekly “This Week at GitLab” video series (Based on viewership numbers, topic and speaker)
+1. Highlighted on GitLab's weekly "This Week at GitLab" video series (Based on viewership numbers, topic and speaker)
 
 ---
 

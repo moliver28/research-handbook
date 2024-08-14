@@ -1,14 +1,6 @@
 ---
-
 title: "Product and Solution Marketing Project Management Overview"
 ---
-
-
-
-
-
-
-
 
 ### Project management overview
 
@@ -40,7 +32,7 @@ We've established the following  workflow/process in order for us to consistentl
 
 **The process is simple:**
 
-![SM Request Flow](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/SM_Request_FLow_V5.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct }
+![SM Request Flow](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/SM_Request_FLow_V5.png)
 
 Here's a short overview of the process:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cuIHNintg1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -51,7 +43,7 @@ The process is simple:
 
 1. The Product and Solution Marketing leadership team will review the request(Daily), assign it to the ideal SM Team, prioritize the work and plan how to support your requests.
 
-![sm_reqest board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-request-board.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct }
+![sm_reqest board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-request-board.png)
 
 #### SM Request Process Flow
 
@@ -112,11 +104,11 @@ Quick actions are **very,very** helpful and efficient when you want to make mult
 
 - SM Request Overall - the whole processes
 
-![SM Request Overall](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-req-overall.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct }
+![SM Request Overall](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-req-overall.png)
 
-![SM Request Overall-by team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-req-overall-by-team.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct }
+![SM Request Overall-by team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-req-overall-by-team.png)
 
-![SM Request Assigned-by team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-req-assigned-by-team.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct }
+![SM Request Assigned-by team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-req-assigned-by-team.png)
 
 [GitLab Product and Solution Marketing PMM Insights](https://gitlab.com/gitlab-com/marketing/product-marketing/insights/#/smCharts)
 
@@ -130,7 +122,7 @@ For example, in order to visualize all our regular work in a given quarter, we h
 
 The first time we applied a milestone to regular work was in [Q4-FY20](https://gitlab.com/gitlab-com/marketing/product-marketing/-/milestones/4), where we saw the pattern of new work flowing in, while other work was completed and closed.
 
-![SM Q4FY20 Milestone](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-q4fy20-milestone.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct }
+![SM Q4FY20 Milestone](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-q4fy20-milestone.png)
 
 In [Q1-FY21](https://gitlab.com/gitlab-com/marketing/product-marketing/-/milestones/6), we are continuing to use a milestone to track regular work, and as we learn about our patterns and flow, we believe we will be able to increase our velocity and flow.
 
@@ -140,7 +132,7 @@ As of 13 April:
 - 173 open and
 - 159 closed
 
-![SM Q1FY21 Milestone](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-q1fy21-milestone.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct }
+![SM Q1FY21 Milestone](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-q1fy21-milestone.png)
 
 #### Complex projects
 
@@ -160,7 +152,7 @@ For example the UseCase GTM Project to build out the messaging, demos, compariso
 - And then we broke each epic into Months so we could see the associated
   - [SCM Month 1 Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/665)
 
-![epic](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/epic.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width90pct }
+![epic](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/epic.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D74xKFNw8vg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -168,7 +160,7 @@ We've organized our UseCase GTM work by month, and have a Monthly "Sprint"/Miles
 
 For example this "Milestone" - shows a summary of ALL the usecase work in the Month of April.
 
-![milestone](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/milestone.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width90pct }
+![milestone](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/milestone.png)
 
 Here is a link to the current [UseCase 2020-3](https://gitlab.com/gitlab-com/marketing/product-marketing/-/milestones/13) milestone.
 
@@ -260,15 +252,15 @@ Through this, we can track our work and improve our balance and focus:
 
 ### PMM Insights - (Internal vs External)
 
-![pmm insights Internal vs External](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/pmm-insights-IvE.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width90pct }
+![pmm insights Internal vs External](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/pmm-insights-IvE.png)
 
 ### PMM Insights (External details)
 
-![pmm insights External Details](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/pmm-insights-external-details.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width90pct }
+![pmm insights External Details](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/pmm-insights-external-details.png)
 
 ### PMM Insights (Details)
 
-![pmm insights Details](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/pmm-insights-details.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width90pct }
+![pmm insights Details](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/pmm-insights-details.png)
 
 [GitLab Product and Solution Marketing PMM Insights](https://gitlab.com/gitlab-com/marketing/product-marketing/insights/#/pmmCharts)
 
@@ -302,6 +294,6 @@ Some of us in the team use **GitLab Issue Boards** to manage our workflow. Using
 1. Label `To-Do` : Issues that we will pick up next
 1. Label `Open` : Issues in our backlog
 
-![pmm Issue Board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/pmm-issue-board.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width90pct }
+![pmm Issue Board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/pmm-issue-board.png)
 
 We move issues across these stages based on the progress and order them within the stage based on our priority of working on them. This helps team members to manage the issues assigned to them better as well as managers to asynchronously get a view of what's in progress and what's blocked.

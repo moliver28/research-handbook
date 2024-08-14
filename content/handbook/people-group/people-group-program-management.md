@@ -28,7 +28,7 @@ Regardless of the team, our Program Management key competencies are consistent t
 | Growth mindset | Ensure we remain iterative and continue to grow and improve (e.g. facilitate retrospectives, and optimize where possible). |
 | Change management | Supports change management when needed and can quickly facilitate or pivot changes in schedule or timeline. |
 | Stakeholder management | Keeps project teams and stakeholders aligned and accountable for executing deliverables. |
-| Strategic planning | Ensures work aligns with the division’s and organization’s overall goals. |
+| Strategic planning | Ensures work aligns with the division's and organization's overall goals. |
 | Program management methodologies | Research, discovery, and documentation of current state processes and workflow. Creates and maintains the project plan in collaboration with team members and helps identify, mitigate, and escalate risks and issues. |
 
 *Note: Company-wide competencies can be referenced [here](/handbook/competencies/) and company-wide job frameworks can be referenced [here](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=819074618). The competencies outlined above are intended to complement these existing artifacts, not replace them.*

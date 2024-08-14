@@ -1,5 +1,4 @@
 ---
-
 title: "Tableau Developer Tips and Tricks"
 description: "Tableau Developer tips and tricks"
 ---

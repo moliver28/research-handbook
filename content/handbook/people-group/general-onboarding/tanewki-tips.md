@@ -56,6 +56,16 @@ After you sign your offer and complete your background check and references, you
 1. [OneTab](https://www.one-tab.com/) - Tab organizer for Chrome, Firefox, Edge, or Safari
 1. [Early Career Discussion Group Slack Channel](https://gitlab.slack.com/archives/C0340TYR7AA) This group is for anyone, but specifically for helping those who are transitioning to a new or first career! Everyone is welcome, and all your questions that you may not know where to ask are welcome here.
 1. [Brag Docs](https://jvns.ca/blog/brag-documents/) are a way of tracking the work you've done. It can be a very helpful document when talking with managers, leadership, or when seeking promotions. Here's a [recording](https://youtu.be/oVd3jN76b5c) of an event hosted by the Early Career Team Member Discussion Group to talk about some advice for keeping a brag doc and more.
+1. To manage timezone pains:
+
+    - [Clocker App](https://apps.apple.com/us/app/clocker/id1056643111?mt=12)
+
+        <img src="/handbook/people-group/general-onboarding/images/clocker_app.png" alt="a screenshot of clocker app on mac desktop" width="300"/>
+
+    - [Find a Time in Google Calendar](https://www.getclockwise.com/blog/google-calendar-find-a-time)
+    - [See Other TimeZone in Google Calendar](https://support.google.com/calendar/answer/37064?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Csee-other-time-zones)
+    - [Better Team Page](https://leipert-projects.gitlab.io/better-team-page/timezones/) - Okta Sign In Required
+    - [Every Timezone](https://everytimezone.com/)
 
 ## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Acronym Dictionary
 
@@ -138,15 +148,16 @@ GitLab utitilizes Navan as our team member [expense](/handbook/finance/expenses/
 1. Take your time! There is a lot to go through, and you may feel like you have to get to everything each day. If you do great! If not, that's great too.
    - The entire onboarding issue is [self-paced and self-learning](/handbook/values/#self-service-and-self-learning) however, anything marked with a big red dot - 🔴 - should be completed with importance on the assigned day it is under.
 1. There is a lot to complete in your onboarding issue and you may feel eager to do them all as soon as possible but remember, pace yourself! You have a dedicated 2 weeks to complete your onboarding tasks and have support from your manager, onboarding buddy, assigned People Connect Team member, and the entire company to help you if you need it along the way.
-    - Two of the best Slack channels to get yourself into to ask questions are `#it-help` and `#people-connect`
+    - You can reach out to the People Connect team or IT Ops team anytime via HelpLab for assistance and/or guidance.
 1. There is a lot of Handbook content in this issue, that can at times require quite a bit of reading. Consider enabling one of the helpful text to speech tools in the Helpful Tools section above.
 1. We use Slack as our formal/informal communications tool. This allows us to communicate with our team members, teams and wider company. New to Slack? No problem! This [quick start guide](https://slack.com/intl/en-za/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide) will share all the helpful tips on getting you started.
 1. We do not use the standard operating software and instead have a business account with Google Workspace. We use the [Gmail](https://workspace.google.com/intl/en/products/gmail/) feature to retrieve our emails, we use [Drive](https://workspace.google.com/intl/en/products/drive/) to store all our important documents, and Google [Docs](https://workspace.google.com/intl/en/products/docs/)/[Sheets](https://workspace.google.com/intl/en/products/sheets/) for anything we need to document.
 
+{{% alert color="info" %}}
 <i class="fab fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
 Want to learn more about Onboarding from current team members? View their feedback [here](/handbook/people-group/general-onboarding/onboarding-feedback)!
 &nbsp;&nbsp;<i class="fab fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
-{: .alert .alert-webcast}
+{{% /alert %}}
 
 ## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Frequently Asked Questions
 
@@ -206,6 +217,10 @@ A: You can read about our ESPP program [here](/handbook/total-rewards/stock-opti
 
 A: You won't need to action anything until day one! We are going to want you to review your `Welcome to GitLab Onboarding` email first and follow the instructions within that email to make sure that all your access is set up correctly. This will include creating your GitLab account, getting access to your GitLab email, and all other systems!
 
+**Q: I already have an existing personal GitLab username, can I use this for my account at GitLab?**
+
+A: Whilst this is possible, it is not a recommended option. If you ever choose to leave GitLab the account will be disabled and you will no longer have any access to it per our [access management policy](/handbook/security/access-management-policy/#reclaiming-gitlab-accounts-during-offboarding). We like to encourage new hires to create a new username as a mark that starts their career at GitLab :) If you would still like to use your personal GitLab username, please reach out to the IT Ops team on day one for them to link this to your GitLab account with the relevant permissions.
+
 ### GitLab Culture
 
 **Q: Any tips for working in a remote environment and keeping myself engaged and productive?**
@@ -218,4 +233,4 @@ A: We have many location slack channels here tht allows team members to schedule
 
 **Q: What is Family & Friend's Day?**
 
-A: In an ongoing pandemic with COVID-19 affecting many of our team members, we want to ensure that people are making their well-being a top priority and that we are living out our values, to emphasize this we will coordinate a monthly "Family and Friends Day". On this day, we will close the doors to the GitLab virtual office, reschedule all meetings, and have a publicly visible shutdown. You can read up more about it and view the schedule in our [Handbook](/handbook/company/family-and-friends-day/).
+A: Following on from the global pandemic affecting many of our team members, we want to ensure that people are making their well-being a top priority and that we are living out our values, to emphasize this we will coordinate a quarterly "Family and Friends Day". On this day, we will "close the doors" to the GitLab virtual office, reschedule all meetings, and have a publicly visible shutdown. You can read up more about it and view the schedule in our [Handbook](/handbook/company/family-and-friends-day/).

@@ -1,10 +1,7 @@
 ---
-
 title: "Governance and IT Program Management"
 description: "Describes the program methodology for GitLab IT programs to ensure strong results and execution in an efficient way, proper scoping consistent with our value of iteration, correct stakeholders consistent with our value of collaboration and proper documentation for compliance consistent with our transparency value."
 ---
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
@@ -22,7 +19,7 @@ This page describes the program methodology for GitLab IT programs to ensure str
 
 - Please refer to the one time program development controls below and follow the requirements as a best practice
 - Non SOX projects User Acceptance Testing (UAT) practices:
-  - Obtain testing screenshots only for high/critical risk test scenarios. These should be test cases that are used to validate the core functionalities of the system. If a high/critical test case failed, the failure would have a significant negative impact on the operations of the system and business processes.
+  - Obtain testing screenshots only for high/critical risk test scenarios. These should be test cases that are used to validate the security and core functionalities of the system. If a high/critical test case failed, the failure would have a significant negative impact on the operations of the system and business processes.
   - For high/critical risk test failures, testers should take screenshots of their own testing and also obtain screenshots documenting resolution.
 
 ***For SOX projects please ensure all requirments are met including screenshots for all UAT test scenarios**
@@ -54,8 +51,9 @@ A program should have a program DRI who is responsible for building out the prog
 
 A business requirements document (BRD) is the first document to be created by the Program DRI in partnership with the Business Lead in order to start a new program. The BRD is report that explains why the program is being undertaken and details everything the new program requires for success, providing clarity and context for stakeholders.
 
+{{% alert color="warning" %}}
 [Business Requirements Document (BRD) Template](https://docs.google.com/document/d/1qKqFLqgolDPXImhJL7iq4yu2A52iv0Te1ho5q3UBEVg/edit)
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Program charter
 
@@ -90,15 +88,17 @@ All reference points that marks a significant event or a branching decision poin
 
 Every program should have success metrics. These metrics should either demonstrate an increase in revenue or an increase in efficiency that helps reduce cost.
 
+{{% alert color="warning" %}}
 [Project Kickoff Template](https://docs.google.com/presentation/d/1p04S-TpitASMmdLn1fhKB4KewDr0-y9twP52Cel1oIo/edit#slide=id.p1)
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Steering committee
 
 As part of the program charter an executive steering committee should be named. This should include an executive from the sponsoring business organization and an executive from IT. For example in our expense management program we created a steering committee that included the VP IT, VP Controller, VP FieldOps. With this steering committee we cover executives for enablement and front office, back office and then IT.
 
+{{% alert color="warning" %}}
 [Steering Committee Meeting Template](https://docs.google.com/presentation/d/1hKXH1WA9W-1_l66kwDV-rzoisdJ1z04tm15fHlHkOUs/edit#slide=id.p1)
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Core team
 
@@ -116,8 +116,9 @@ The IT Program Manager updates the [Rolly](/handbook/business-technology/pmo/#we
 
 For larger programs, and based on the information from Rolly, the IT Program Manager might create a Status Report to be shared across the program team and is often reviewed during the weekly program status meetings.
 
+{{% alert color="warning" %}}
 [Status Report Template](https://docs.google.com/presentation/d/1FvtL0MHftG33b-6eKO1sVx3vPFKu0DaeVp-GGbLdpcs/edit#slide=id.p1)
-{: .alert .alert-warning}
+{{% /alert %}}
 
 #### Geekbot
 
@@ -140,8 +141,9 @@ The program DRI should establish a clear escalation process so that if a program
 
 There should be a clear program timeline with sprints defined so that we can deliver the program in smaller increments. There should be clarity around key requirement deadlines, delivery milestones, testing timelines so that everyone is clear. The program timeline should consider company holidays, enablement time and consider adding additional time for complex requirements (if needed).
 
+{{% alert color="warning" %}}
 The IT PMO team uses the [GitLab Roadmap](https://docs.gitlab.com/ee/user/group/roadmap/#roadmap) feature to track the progress of each program.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Clear documentation for data model
 
@@ -163,8 +165,10 @@ The relevant controls that need to be documented in these programs are these thr
 
 #### Program Development / Implementation of the system (1 time controls)
 
-1. Control - PD1 - Significant program changes are tested and known issues are communicated to the relevant stakeholders prior to approval.
-1. Control - PD2 - GitLab validates that data transferred during an applicable program change is complete and accurate.
+1. Control - PD1 - Management evaluates and defines project risks and scoping, governance structure, project requirements, and business requirements. Project status and key milestones are defined and communicated to key stakeholders.
+1. Control - PD2 - Management performs adequate user acceptance testing (UAT) prior to go-live. Test cases are developed, executed and documented. Any failed test cases are formally logged, and re-tested until successful or approval is obtained to resolve post-go live.
+1. Control - PD3 - Management develops an implementation/cutover plan, outlining key tasks, systems requirements for cutover, and back-out plan. Documented approvals of the implementation/cutover plan and go-live assessment are obtained from key stakeholders prior to go-live.
+1. Control - PD4 - Data conversion/migration validations are performed post-go live to assess the completeness and accuracy of migrated information/data. Data validation procedures are performed and documented including steps performed, variances, and supporting files. Any variances identified are formally tracked, and re-migrated until no variances are identified or approval is obtained to go-live with a plan in place to resolve these variances post-go live.
 
 As a result the DRI needs to:
 
@@ -173,7 +177,7 @@ As a result the DRI needs to:
 - Confirm that full scope is documented prior to go-live and reconciled with implemented functionality.
 - Ensure there is documentation that UAT was complete and sign-off on the UAT by business stakeholders established in the core team. This UAT sign-off should be reviewed by the steering committee and signed off as well prior to go-live.
 - Testing over key processes, reports, and ensuring business needs will be met by the system (and how).
-- When known issues are identified during UAT or prior to go-live they should be documented and the resolution/remediation tracked. Ideally, they would all be resolved prior to go-live, but if there are some exceptional situations, audit would look for documentation/review/some sort of approval that the program team is okay to go-live with the open issues and the plan to resolve after go-live. If these issues were audit-tested supporting evidence would look for tracking prior to go-live and resolution after go-live for all identified issues.
+- When known issues are identified during UAT or prior to go-live, they need to be documented and issue resolution/remediation needs to be tracked. All critical and high risk issues that impact security and functionality of the system need to be resolved before go-live. However, if there are exceptional situations, a workaround plan needs to be identified, documented, and approved by the Business, IT leads, and the steering committee before go-live. All open issues before go-live need to be documented, tracked, and resolved post go-live, and resolution documentation needs to be retained. 
 - Final approval for business go-live is captured. Approvals from technical owners and business owners at appropriate levels (e.g. does this warrant CFO sign-off vs. Manager sign-off).
 
 ##### SDLC Approvals
@@ -189,12 +193,13 @@ The sign-off process for each documentation and/or SDLC stage may vary depending
 
 - If there is data migration, demonstrate a reconciliation that the migration was complete and accurate prior to go-live.  Ideal evidence would include system evidence (e.g. reports, screenshots of how reports were generated from source & target systems, row count match) and a compare of each row/field. Any variance should be resolved prior to go-live and tie-outs should align with sign-off.
 - For data that will be imported, what is the process for getting that into the system and what are the controls/checks in place to ensure the data that gets in completely and accurately.
-- This can be solved through several avenues but good documentation is key. Who has access during transformation? Are there before/after checks? What are the “key” fields? Is there  an acceptable level of data loss/inaccuracy?
+- This can be solved through several avenues but good documentation is key. Who has access during transformation? Are there before/after checks? What are the "key" fields? Is there  an acceptable level of data loss/inaccuracy?
 - Evidencing data management is the most important part of this Program Development process. How can we adequately demonstrate that data in the system is complete and accurate according to our business needs?
 - Show documentation of an enablement plan and that the changes were communicated effectively to the users of the changed system.
 
+{{% alert color="warning" %}}
 [SOX Compliance Template](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/772)
-{: .alert .alert-warning}
+{{% /alert %}}
 
 ### Enablement plan
 

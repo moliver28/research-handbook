@@ -47,8 +47,8 @@ description: Information and guidelines about the Innovation Pitch Competition
 
 * Participants were offered [resources](https://gitlab.devpost.com/resources) to get started, to contribute to GitLab and to contact GitLab and get support.
 * Participants were kept up to date mainly via an [Updates](https://gitlab.devpost.com/updates) channel on DevPost. Each time an update was published, all participants were sent an email containing the information of the update.
-* Participants could contact the GitLab team via a [Discussions](https://gitlab.devpost.com/forum_topics) channel on DevPost. The GitLab team also made use of this channel to craft FAQ’s.
-* The GitLab team organized 4 AMA’s (video sessions) which ran on Discord.
+* Participants could contact the GitLab team via a [Discussions](https://gitlab.devpost.com/forum_topics) channel on DevPost. The GitLab team also made use of this channel to craft FAQ's.
+* The GitLab team organized 4 AMA's (video sessions) which ran on Discord.
   * AMA 1: [General info on the Innovation Pitch Competition](https://www.youtube.com/watch?v=c0hDvIE3q00)
   * AMA 2: [How to Give a Great Pitch](https://www.youtube.com/watch?v=IHUz7xr0vmU)
   * AMA 3: [Public Speaking 101](https://www.youtube.com/watch?v=uFDLzyH7RDM)
@@ -163,7 +163,7 @@ Evaluating a submission and scoring it was less obvious for a few key reasons:
 Suggestions for improving future iterations of the competition based on feedback and observations.
 
 * Prepare a FAQ for participants based on the [questions asked](https://gitlab.devpost.com/forum_topics/) during this edition.
-* Add “custom submission questions” to the initial participants’ entry form. Such questions make the eligibility process much faster later on in the competition.
+* Add "custom submission questions" to the initial participants' entry form. Such questions make the eligibility process much faster later on in the competition.
 * Expand the competition's reach by partnering with educational institutions, [social impact groups](https://docs.google.com/spreadsheets/d/1uxzVhZcj3MbhQ_Pg1OeTCDSCYLDyiy8JCRVdAA5Mpu8/edit?usp=sharing), and other organizations, offering them customized media packages for promotion or creating specific subcategories to engage them.
 * Enhance GitLab team involvement by framing the competition as a collective endeavor, especially for competitions with a social impact theme, to boost team engagement.
 * The competition's social media presence was limited, with GitLab's marketing efforts not translating into significant traffic spikes. A review on how to enhance this aspect is needed.
@@ -191,7 +191,7 @@ Discuss whether the competition should become a recurring event and, if so, any 
 
 ## Format suggestions for future events
 
-These format ideas emerged during the Innovation Pitch Competition. Although these formats were initially developed as “spinoffs,” they have garnered positive feedback from several team members. These ideas are supported by the team to consider for future events.
+These format ideas emerged during the Innovation Pitch Competition. Although these formats were initially developed as "spinoffs," they have garnered positive feedback from several team members. These ideas are supported by the team to consider for future events.
 
 Projects poised to deliver significant benefits to the wider community, with strong potential to draw in new contributors, keep current ones engaged, and enhance GitLab's standing among competitors. For more information, please refer to the detailed descriptions in the background document or contact the DRI of this competition.
 
@@ -205,7 +205,7 @@ Projects poised to deliver significant benefits to the wider community, with str
   * Advancing company documentation by creating tools (guardrails) that detect bias or employ AI to refine search capabilities.
   * Leverage the power of AI to reduce carbon footprint or to improve the yield of alternative energy sources.
   * Create components aimed at achieving a more equitable distribution of intellectual property rights or providing assistance to the unbanked and uninsured.
-* **Beyond the Platform** initiatives that transcend the traditional boundaries of a coding community. For example advice on healthier living, tips to manage mental stress, and guidance for career growth. GitLab is not just about code and contributions; it’s about caring for you as a human being (see also: ‘Social Impact Specials’ above). This approach aligns perfectly with the GitLab ethos and is not a radical shift but a natural progression.
+* **Beyond the Platform** initiatives that transcend the traditional boundaries of a coding community. For example advice on healthier living, tips to manage mental stress, and guidance for career growth. GitLab is not just about code and contributions; it's about caring for you as a human being (see also: 'Social Impact Specials' above). This approach aligns perfectly with the GitLab ethos and is not a radical shift but a natural progression.
 
 ## Closing
 

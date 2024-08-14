@@ -1,14 +1,7 @@
 ---
-
 title: "Technical Questions for Sales"
 description: "To improve sales efficiency, the GitLab Solution Architect team identified and answered some of the most common technical questions that GitLab sales team members should be able to answer"
 ---
-
-
-
-
-
-
 
 ## **Introduction**
 
@@ -64,7 +57,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
 
 - **Short answer**: Since self-managed admins have complete ownership of the environment, they have more flexibility and configuration control. There are three buckets of primary differences:
 
-1. Instance-level controls that just aren’t possible on a shared server
+1. Instance-level controls that just aren't possible on a shared server
 1. Directory integration options, and
 1. A few authentication options that are missing from GitLab.com (e.g. Kerberos and smartcard auth)
 
@@ -181,7 +174,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/bmnFgGSY_L8" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Continuous Integration works by pushing small code chunks to your application’s code base hosted in a Git repository, and, to every push, run a pipeline of scripts to build, test, and validate the code changes before merging them into the main branch. Check out the [GitLab CI/CD documentation](https://docs.gitlab.com/ee/ci/).
+- **Learn more**: Continuous Integration works by pushing small code chunks to your application's code base hosted in a Git repository, and, to every push, run a pipeline of scripts to build, test, and validate the code changes before merging them into the main branch. Check out the [GitLab CI/CD documentation](https://docs.gitlab.com/ee/ci/).
 
 #### How can we do test management with GitLab?
 
@@ -192,7 +185,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/qmJXn2GlASY" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: The GitLab Product Team is exploring enhancements in this area. Check out the [Quality Management Direction page](https://about.gitlab.com/direction/plan/certify/).
+- **Learn more**: The GitLab Product Team is exploring enhancements in this area. Check out the [Quality Management Direction page](https://about.gitlab.com/direction/plan/).
 
 #### What are runners and how do they actually work?
 
@@ -214,7 +207,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/6Kb3BJ0bXrw" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Review the [best practices documentation for using and administering GitLab Runner](https://docs.gitlab.com/runner/best_practice/)
+- **Learn more**: Review the [best practices documentation for using and administering GitLab Runner](https://docs.gitlab.com/runner/fleet_scaling/)
 
 ### Package
 
@@ -302,7 +295,7 @@ No questions at this time.
   <iframe src="https://www.youtube.com/embed/-WaX9nLKQME" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: GitLab supports a number of scaling options to ensure that your self-managed instance is able to scale out to meet your organization’s needs when scaling up a single-box GitLab installation is no longer practical or feasible. Check out [GitLab's Reference Architecture documentation](https://docs.gitlab.com/ee/administration/reference_architectures/index.html#reference-architectures).
+- **Learn more**: GitLab supports a number of scaling options to ensure that your self-managed instance is able to scale out to meet your organization's needs when scaling up a single-box GitLab installation is no longer practical or feasible. Check out [GitLab's Reference Architecture documentation](https://docs.gitlab.com/ee/administration/reference_architectures/index.html#reference-architectures).
 
 #### What are the best practices for backing up a GitLab instance?
 

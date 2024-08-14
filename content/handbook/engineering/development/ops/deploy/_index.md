@@ -1,13 +1,6 @@
 ---
-
 title: Deploy Stage
 ---
-
-
-
-
-
-
 
 ## Who We Are
 

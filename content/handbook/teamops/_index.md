@@ -10,9 +10,9 @@ cascade:
 
 Organizations need people and teams — their creativity, perspectives, and humanity. That need will only grow as we move towards a future with bigger problems to solve, and as AI displaces every variety of rules-based knowledge work which can be automated.
 
-Tomorrow's winners will be determined by how they bring teams together, and how well they’re able to get every person on those teams to contribute to their mission.
+Tomorrow's winners will be determined by how they bring teams together, and how well they're able to get every person on those teams to contribute to their mission.
 
-Up to this point, teams, and the ways the people on them work, have been treated in a profoundly subjective manner: ad hoc, DIY, left up to whims of the individual manager and the quirks of a given corporate culture. It’s viewed as a soft problem, mixing 20th century management philosophies with pop psychology. Grounded in opinion, not reality. Feelings, not behaviors.
+Up to this point, teams, and the ways the people on them work, have been treated in a profoundly subjective manner: ad hoc, DIY, left up to whims of the individual manager and the quirks of a given corporate culture. It's viewed as a soft problem, mixing 20th century management philosophies with pop psychology. Grounded in opinion, not reality. Feelings, not behaviors.
 
 Meanwhile, other critical areas of business have been studied, made objective, codified, and operationalized. Why not so with our most valuable resource: teams?
 

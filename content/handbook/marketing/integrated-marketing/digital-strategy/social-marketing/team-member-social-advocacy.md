@@ -1,5 +1,4 @@
 ---
-
 title: Team Member Social Media Advocacy
 description: Strategies and details to enable team members to share GitLab-related news on personal social media channels
 twitter_image: /images/opengraph/handbook/social-marketing/team-member-social-advocacy-opengraph.png
@@ -8,12 +7,7 @@ twitter_site: gitlab
 twitter_creator: gitlab
 ---
 
-
-
-
-
-
-[Login to Bambu via Okta SSO](https://gitlab.getbambu.com/login){:.btn .btn-purple-inv}
+[Login to Bambu via Okta SSO](https://gitlab.getbambu.com/login)
 
 ## Team Member Social Media Advocacy and Enablement
 
@@ -71,7 +65,7 @@ When you log into Bambu, you will see a collection of stories curated specifical
 This is a centralized hub for you to learn, build your reputation online, and help spread the word about GitLab by sharing these stories with your networks on Facebook, LinkedIn, and Twitter. We made it easy to share, too.
 </p>
 <p>
-When you click the share icon on any story, you’ll see that we’ve added a suggested status update. Of course, you’re welcome to adjust or completely rewrite it to match your own voice (the only exception to this will be when you’re sharing content that needs to be worded a certain way for compliance reasons, in which case, we'll say so in the notes). However, sharing to Twitter requires customizing a minimum of 20 characters in the copy suggestions we provide. This is because Twitter would otherwise see a lot of tweets with the exact same text and each of these posts would be marked as spam and receive no impressions, engagements, or clicks. This is a feature of Bambu. When you go to schedule a tweet, you'll see a note requiring you to update the copy.
+When you click the share icon on any story, you'll see that we've added a suggested status update. Of course, you're welcome to adjust or completely rewrite it to match your own voice (the only exception to this will be when you're sharing content that needs to be worded a certain way for compliance reasons, in which case, we'll say so in the notes). However, sharing to Twitter requires customizing a minimum of 20 characters in the copy suggestions we provide. This is because Twitter would otherwise see a lot of tweets with the exact same text and each of these posts would be marked as spam and receive no impressions, engagements, or clicks. This is a feature of Bambu. When you go to schedule a tweet, you'll see a note requiring you to update the copy.
 </p>
 
 </details>
@@ -101,7 +95,7 @@ If you run your workday via your calendar, consider adding a 25 min block once a
 <details><summary>Can I automate Bambu?</summary>
 
 <p>
-It’s possible to spend less than 25 minutes every time you log into Bambu to schedule content on your social media channels for a week or two. <a href="https://bambu.zendesk.com/hc/en-us/articles/360004450291-Sharing-a-Story">We highly recommend taking advantage of the “Send Later” button feature</a> when you want to share a story.
+It's possible to spend less than 25 minutes every time you log into Bambu to schedule content on your social media channels for a week or two. <a href="https://bambu.zendesk.com/hc/en-us/articles/360004450291-Sharing-a-Story">We highly recommend taking advantage of the "Send Later" button feature</a> when you want to share a story.
 </p>
 
 </details>
@@ -152,7 +146,7 @@ Curators have all Reader access as well as the ability to curate stories and sub
 Join the #social-advocacy-curators Slack channel to stay in touch with the curator program and the latest news. This channel is intended for team members who are identified as content curators only.
 </p>
 <p>
-<a href="https://about.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/">If you're a curator or interested in becoming a curator, head to our curator-specific handbook page here.</a>
+<a href="https://handbook.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/">If you're a curator or interested in becoming a curator, head to our curator-specific handbook page here.</a>
 </p>
 
 </details>
@@ -187,7 +181,7 @@ Elevate the way they use Bambu, and in turn produce more content shares, engagem
 
 #### Schedule a post at least every other day
 
-We certainly don’t want you to share just for the sake of sharing, but with Bambu, you’ll have relevant content curated for you almost daily. By sharing more often, it signals to your social audience that you are a go-to source of information and expertise.
+We certainly don't want you to share just for the sake of sharing, but with Bambu, you'll have relevant content curated for you almost daily. By sharing more often, it signals to your social audience that you are a go-to source of information and expertise.
 
 Schedule content in advance using the content scheduler function in Bambu. Consider scheduling posts during your timezones regular business hours --- at the start of the work day (7am - 10am) around lunch time (11am - 1pm) and just after the end of the day (5pm - 7 pm). What works for your followers may also be different - it's important to check out post performance and to try out different times to see which would work best. Sorry, Bambu doesn't provide "best time of day" for scheduling posts.
 
@@ -197,13 +191,13 @@ Scheduling stories on your social media channels is the best way to automate som
 
 #### Customize the post copy with your point of view
 
-Bambu let’s us include suggested post copy for you, but to truly stand out and resonate with your audience, customize the suggested post copy to reflect your perspective on the content you’re sharing. Make sure to incorporate best practices like hashtags, tagging handles and others outlined in our social advocacy handbook. And remember, it's required to change 20 characters of the copy for Tweets, so have some fun with it.
+Bambu let's us include suggested post copy for you, but to truly stand out and resonate with your audience, customize the suggested post copy to reflect your perspective on the content you're sharing. Make sure to incorporate best practices like hashtags, tagging handles and others outlined in our social advocacy handbook. And remember, it's required to change 20 characters of the copy for Tweets, so have some fun with it.
 
-Pro tip: If you’re stuck on what to say, think “how would I explain this content to someone if I was talking to them in person?” and use your answer as the basis for your copy. People react well to posts that sound like a human.
+Pro tip: If you're stuck on what to say, think "how would I explain this content to someone if I was talking to them in person?" and use your answer as the basis for your copy. People react well to posts that sound like a human.
 
 #### Engage beyond the share
 
-When your audience really connects with a post you’ve shared, they may comment with their thoughts or even a question. It’s a great opportunity to start a dialogue by replying to their comment and sharing more of your perspective.
+When your audience really connects with a post you've shared, they may comment with their thoughts or even a question. It's a great opportunity to start a dialogue by replying to their comment and sharing more of your perspective.
 
 Pro tip: Aim to reply to comments within 1-2 days to keep the conversation timely and relevant.
 
@@ -318,24 +312,24 @@ Here are some best practices for using Bambu for GitLab-related social media pos
 ### Use Your Voice
 
 - Write posts in your own personal voice and style.
-- Be sure to refer to GitLab with “we” and not "I" (as appropriate) to represent the company and the community. Remember that even if you are not a formal spokesperson for the company, people will see you as a representative of GitLab.
+- Be sure to refer to GitLab with "we" and not "I" (as appropriate) to represent the company and the community. Remember that even if you are not a formal spokesperson for the company, people will see you as a representative of GitLab.
 - If you choose to address competitors, highlight positive differences (focus on the ways that GitLab outperforms other solutions)
-- For example, if someone complains about GitLab’s product, you can suggest they’d tell us more by providing feedback in the issue tracker. Someone thinks GitLab could be better? Invite them to submit a feature proposal.
+- For example, if someone complains about GitLab's product, you can suggest they'd tell us more by providing feedback in the issue tracker. Someone thinks GitLab could be better? Invite them to submit a feature proposal.
 
 ### Social Media Structure and Style
 
 Make sure your copy follows the AIDA Model, a copywriting formula to drive interest and action from your audience.
 
-- Attention: Catch your audience’s attention to create awareness.
+- Attention: Catch your audience's attention to create awareness.
 - Interest: Drive interest by connecting with your reader.
 - Desire: Generate desire by explaining what they get out of it.
-- Action: Move your reader to take action. (ex. ‘Learn more’)
+- Action: Move your reader to take action. (ex. 'Learn more')
 - Try to visually break it into paragraphs or one-liners (even using emoji/bullets) for longer copy. For example:
 
   ```text
   GitLab has been a catalyst for change when it comes to the evolution of #DevSecOps.
 
-  That’s why we were recognized as a challenger in the 2021 Gartner Magic Magic Quadrant for Application Security Testing! 🏆
+  That's why we were recognized as a challenger in the 2021 Gartner Magic Magic Quadrant for Application Security Testing! 🏆
 
   Learn more about this award. 👇
   ```
@@ -350,16 +344,16 @@ You can always go longer or use threaded tweets, but this is a good recommendati
 
 ### Addressing and Avoiding Conflict
 
-Feel free to disagree with people. Try to inform the person (respectfully) and provide any links they may need to make a more informed decision. Begin your response with “I disagree” as opposed to “You’re wrong.”
+Feel free to disagree with people. Try to inform the person (respectfully) and provide any links they may need to make a more informed decision. Begin your response with "I disagree" as opposed to "You're wrong."
 
 Sometimes, the best course of action is to walk away and not engage with the person at all. Use your judgment in how you approach rude or off-putting comments from strangers in real life to help you decide.
 
-You can choose not to engage with arguments, step away from the conversation and delegate to someone else, or give a simple acknowledgment (e.g. “Thanks for sharing your opinion.”)
+You can choose not to engage with arguments, step away from the conversation and delegate to someone else, or give a simple acknowledgment (e.g. "Thanks for sharing your opinion.")
 
 For a foundational understanding of these nuances, read [GitLab's guide to communicating effectively and responsibly through text](/handbook/company/culture/all-remote/effective-communication/).
 
-- Assume good faith. People have opinions and sometimes they’re strong ones. It’s usually not personal.
-- Sometimes all people need is acknowledgment. Saying “Sorry things aren’t working for you” can go a long way.
+- Assume good faith. People have opinions and sometimes they're strong ones. It's usually not personal.
+- Sometimes all people need is acknowledgment. Saying "Sorry things aren't working for you" can go a long way.
 
 **If you are unsure if you should respond to someone who has responded to your posts, join the #social_media_action Slack channel and ask for feedback.**
 
@@ -434,5 +428,5 @@ While you should display the fact that you work at GitLab in your bio if you int
     Where can I learn more about social media for our company?
   </summary>
 
-<i>You can <a href="https://about.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/">check out our social media handbook here</a>.</i>
+<i>You can <a href="https://handbook.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/">check out our social media handbook here</a>.</i>
 </details>

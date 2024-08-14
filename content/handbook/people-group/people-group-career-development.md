@@ -7,7 +7,7 @@ description: "Learn about learning and development opportunities for members of 
 
 Click here to visit the [People Group Learning Hub in GitLab Learn](https://gitlab.edcast.com/channel/people-group-learning-hub)!
 
-It's important for members of the People Group to [take time to learn]({{< ref "learning-initiatives#take-time-out-to-learn-campaign" >}}) and prioritize their personal and professional development as members of the GitLab team. Use the [People Group Learning Hub](https://gitlab.edcast.com/channel/people-group-learning-hub) to view suggested courses fron LinkedIn Learning, the GitLab Handbook, and other sources specific to each People Group department. You'll also find suggested training that crosses all departments, including leadership development, diversity, inclusion, and belonging, and team member wellbeing.
+It's important for members of the People Group to [take time to learn]({{< ref "learning-initiatives#take-time-out-to-learn-campaign" >}}) and prioritize their personal and professional development as members of the GitLab team. Use the [People Group Learning Hub](https://gitlab.edcast.com/channel/people-group-learning-hub) to view suggested courses fron LinkedIn Learning, the GitLab Handbook, and other sources specific to each People Group department. You'll also find suggested training that crosses all departments, including leadership development, diversity, inclusion, and belonging, and team member well-being.
 
 ## Where should I start?
 
@@ -60,7 +60,7 @@ Not sure how to get started? Use these steps to determine the best place to star
 1. [Transformational Leadership](https://gitlab.edcast.com/insights/transformational)
 1. [Human Resources: Leadership and Strategic Impact](https://gitlab.edcast.com/insights/human-resources-leadership)
 
-### Wellbeing
+### Well-being
 
 1. [Mental Wellness Discussion - L&D Session](https://gitlab.edcast.com/insights/mental-wellness)
 1. [Avoiding Burnout](https://gitlab.edcast.com/insights/avoiding)

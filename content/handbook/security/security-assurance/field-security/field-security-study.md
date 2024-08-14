@@ -57,5 +57,5 @@ A detailed report is produced and provided to relevant [internal](/handbook/comm
 - [FY23 Field Security Study](https://docs.google.com/document/d/1QD55PuhfO15hWFaz7BoLiHLxMU7q3JuFJ5EbB57MH9s/edit) report.
 
 <div class="d-grid gap-2 my-4">
-<a href="https://about.gitlab.com/handbook/security/security-assurance/field-security/" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>
+<a href="https://handbook.gitlab.com/handbook/security/security-assurance/field-security/" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>
 </div>

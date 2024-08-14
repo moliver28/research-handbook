@@ -63,15 +63,15 @@ As we execute our [3-year strategy](https://about.gitlab.com/direction/#3-year-s
 1. 🟨 Ops Teams
 1. ⬜️ Central IT / System Admins
 
-#### Software Developer [Sacha](/handbook/product/personas/#sasha-software-developer)
+#### Software Developer Sacha
 
-Software developers have expertise in all sorts of development tools and programming languages; an invaluable skillset to help ensure usability and consistency throughout the entire application development process and software development ecosystem while managing packages, storing and distributing images, and more.
+[Software developers](/handbook/product/personas/#sasha-software-developer) have expertise in all sorts of development tools and programming languages; an invaluable skillset to help ensure usability and consistency throughout the entire application development process and software development ecosystem while managing packages, storing and distributing images, and more.
 
 - Developers are problem solvers, critical thinkers, and love to learn. They work best on planned tasks and want to spend a majority of their time creating value that's delivered to customers in the form of lovable features.
 
-#### DevOps Engineer [Devon](/handbook/product/personas/)
+#### DevOps Engineer Devon
 
-DevOps Engineers have a deep understanding of their organization's SDLC and provide support for infrastructure, environments, and integrations.
+[DevOps Engineers](/handbook/product/personas/) have a deep understanding of their organization's SDLC and provide support for infrastructure, environments, and integrations.
 
 - DevOps engineers strive to make their daily life a little bit easier every day by automating everything.
 
@@ -84,7 +84,7 @@ DevOps Engineers have a deep understanding of their organization's SDLC and prov
 | 3) API                                | An API for all features is required for supporting your customer workflows.       |
 | 4) Storage management                 | Dependencies can build up fast. You need a way to manage storage costs.          |
 | 5) Extensive metadata                 | Dependency metadata is required to validate you are using the correct one.       |
-| 6) Dependency scanning                | Automatically find security vulnerabilities in your dependencies while you’re developing and testing your applications.  |
+| 6) Dependency scanning                | Automatically find security vulnerabilities in your dependencies while you're developing and testing your applications.  |
 | 7) Dependency firewall                | Prevent the introduction of security vulnerabilities from external dependencies  |
 | 8) Virtual registries                 | A collection of local, remote, and other virtual repositories accessed through a single logical URL. This hides the access details of the underlying repositories letting users work with a single, well-known URL.          |
 | 9) High availability                  | A highly available product will ensure your teams stay productive                |

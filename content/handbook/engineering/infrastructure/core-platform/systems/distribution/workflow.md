@@ -179,7 +179,7 @@ When you are not on DRI duty, please consider the following when the request is 
 
 ## Iteration
 
-Use iteration to better control scope and deliver measurable value in each release. A timebox measurement process would ensure that if expected progress isn’t achieved, there’s a procedure to follow.
+Use iteration to better control scope and deliver measurable value in each release. A timebox measurement process would ensure that if expected progress isn't achieved, there's a procedure to follow.
 
 * If a project goes more than 2 milestones without delivering on the success criteria within the defined MVC/issue, a detailed evaluation/retrospective should be performed.
 * If the project goes 3 milestones without meeting success criteria, then a larger evaluation should be performed with the section leaders.

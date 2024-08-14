@@ -1,5 +1,4 @@
 ---
-
 title: "Tableau Developer Guide"
 description: "GitLab's Tableau Developer guide"
 ---
@@ -72,6 +71,23 @@ In the following window, be sure to check the box for 'Embed Credentials'.
 ![''](images/cloud-embed.png)
 
 </details>
+
+### Workflow for Embedding Your Rolename to Avoid Errors in Published Dashboards
+
+This is the process for ensuring that your rolename is properly embedded into your published dashboards. This has two key steps, and following them in this order can help avoid the following two errors:
+
+1. A user tries to access your published dashboard and is instead met with an error window asking them to login to Snowflake.
+1. Another analyst tries to quickly check your data source in Cloud, to see how it is built or to see how the custom SQL is constructed.
+
+The first place that you get the option to embed your rolename is when you first form a connection to your datasource. It looks like this:
+
+![Connection](images/initial_connection_rolename.png)
+
+If you want other people to be able to access your data source, you need to leave it blank. There is no reason to enter your rolename at this step, you will do it at a later step, so the proper workflow is to leave it blank at this step.
+
+From here, set up your datasource and develop as you would like. Then, when you are ready, publish your workbook/datasource. This is where you will follow the steps from the [start of this section](.../tableau-developer-guide/#connection-types-in-workbooks) for embedding your rolename as you publish the workbook. 
+
+If you forget to embed your rolename at this step, then your users will be asked to sign into Snowflake or otherwise send an error instead of letting them access the dashboard.
 
 ## Embedding in the Handbook
 
@@ -324,3 +340,31 @@ Testing MR databases is a useful way to test changes before they get merged into
 It is not efficient to extensively test changes that would require many changes to the dashboard/ calculated fields, because you will not be able to save those changes for use with the updated table once the MR goes through.
 
 Make sure to open a local, development copy of the workbook/data source prior to testing the MR database.
+
+## What are Relationships? (Tableau)
+
+Relationships are a feature in Tableau that allow you to combine data from multiple tables for analysis without having to define join types. They offer a more flexible and performant way to work with multi-table data sources compared to traditional joins. Here are some key points about relationships in Tableau:
+
+1. Dynamic and flexible: Relationships adapt to the specific fields and filters used in a visualization, optimizing queries for better performance.
+
+2. Maintain data granularity: Unlike joins, relationships preserve the native level of detail in each related table, reducing data duplication and aggregation issues.
+
+3. Multiple tables at different levels of detail: You can easily relate tables with different levels of granularity without worrying about fanout or incorrect aggregations.
+
+4. Noodle diagrams: Relationships are represented visually as "noodles" connecting tables in the data model, making it easier to understand table associations.
+
+5. Context-aware: Tableau only queries the tables and fields necessary for the current visualization, improving performance and reducing unnecessary data retrieval.
+
+6. Easy to set up: Simply drag and drop tables onto the canvas and define relationships based on common fields between tables.
+
+7. Compatibility with joins: You can still use traditional joins within a single logical table, allowing for a hybrid approach when needed.
+
+8. Performance optimization: Relationships often result in better query performance compared to complex join scenarios, especially for large datasets.
+
+9. Simplified data modeling: Relationships make it easier to create and maintain complex data models without requiring extensive knowledge of join types and their implications.
+
+10. Improved data accuracy: By maintaining the native level of detail in each table, relationships help prevent accidental data loss or duplication that can occur with poorly designed joins.
+
+When working with multi-table data sources in Tableau, consider using relationships as your default approach for combining tables, reserving joins for specific scenarios where more precise control over table combinations is required.
+
+If you would like to see a simple example demonstrating how relationships work - with the SQL queries that the example produced, you can find an in-depth writeup [here](https://anniesanalytics.com/what-are-relationships-in-tableau-really).

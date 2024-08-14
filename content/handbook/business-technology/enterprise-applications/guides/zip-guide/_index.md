@@ -9,8 +9,9 @@ description: "Zip End Users Guide"
 
 Zip is an add-on to Coupa that will streamline the approval process to ensure we are gathering all the right information to manage the associated approvals, and get you the services you need as soon as possible. As a result, you will now have visibility into your purchase requests including the ability to see status and current stage of the approval process.
 
-**Note:** Check this [2 Minute Zip Overview Video](https://ziphq.wistia.com/medias/d7isqa87qz) to learn more about Zip and how to submit a purchase request.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+Check this [2 Minute Zip Overview Video](https://ziphq.wistia.com/medias/d7isqa87qz) to learn more about Zip and how to submit a purchase request.
+{{% /alert %}}
 
 ### How to access Zip
 
@@ -134,8 +135,9 @@ If there is an existing purchase order (PO) that needs a change, follow the step
 7. Attach supporting documentation from the supplier for the change. This could be a SOW, Change Request, and/or Order Form based on the purchase type.
 8. Submit the Change Request. `Procurement` team will amend the PO in `Coupa` on your behalf.
 
+{{% alert color="info" %}}
 Please note that a change request will require the same approvals as a new request.
-{: .alert .alert-info}
+{{% /alert %}}
 
 **NOTE** Change Request can NOT be submitted to updated the vendor. If the vendor of PO should be updated please contact the Procurement Team in the #procurement slack.
 
@@ -173,8 +175,9 @@ Virtual card requests will go through Zip as a regular purchase request.
 
 ![zip-image-6](/handbook/business-technology/enterprise-applications/guides/zip-guide/submitted-request2.png)
 
-**Note:** See which approvals are complete and which have yet to be completed. Automatic notifications via Slack and email will go out as the request is approved by different parties.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+See which approvals are complete and which have yet to be completed. Automatic notifications via Slack and email will go out as the request is approved by different parties.
+{{% /alert %}}
 
 ### How to check status of a new request?
 
@@ -277,9 +280,10 @@ Some users identified by Legal, HR, Procurement, Security and Privacy have the o
 
 ![zip-image-8](/handbook/business-technology/enterprise-applications/guides/zip-guide/approval-request7.png)
 
-**Note:** You can set your approval notification preferences (Email and/or Slack) by logging into Zip, clicking:
+{{% alert title="Note" color="info" %}}
+You can set your approval notification preferences (Email and/or Slack) by logging into Zip, clicking:
 Settings -> Personal Settings -> Notifications.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ![zip-image-9](/handbook/business-technology/enterprise-applications/guides/zip-guide/approval-request9.png)
 
@@ -289,7 +293,7 @@ Settings -> Personal Settings -> Notifications.
 
 If you are the default assignee for your queue, you can view all pending requests for your approval by simply clicking `Dashboard` in the top right, on the Home dashboard page and selecting the `Needs My Approval` tab.
 
-If you are not the default assignee for your queue, you can view all requests awaiting your queue’s approval by clicking `Dashboard` in the top right corner, selecting the `Queues` tab and selecting your queue. All requests in your queues will appear, you can update the `Status` filter if necessary to see previously approved or upcoming requests.
+If you are not the default assignee for your queue, you can view all requests awaiting your queue's approval by clicking `Dashboard` in the top right corner, selecting the `Queues` tab and selecting your queue. All requests in your queues will appear, you can update the `Status` filter if necessary to see previously approved or upcoming requests.
 
 ![zip-image-11](/handbook/business-technology/enterprise-applications/guides/zip-guide/approval-request4.png)
 
@@ -318,5 +322,6 @@ Click on the `Documents` tab at the top of any request, to see all the documents
   - Do I need to submit a new supplier request?
 - The **Finance System Admins** should be the first point of contact for any **technical** issues and / or questions (eg. Access Requests, problems with login, bugs, etc).
 
-**Note:** To contact the Procurement Team or Finance System Admins, send a message to [#zip-faq](https://gitlab.slack.com/archives/C04K1EJGLT1) with your question.
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+To contact the Procurement Team or Finance System Admins, send a message to [#zip-faq](https://gitlab.slack.com/archives/C04K1EJGLT1) with your question.
+{{% /alert %}}

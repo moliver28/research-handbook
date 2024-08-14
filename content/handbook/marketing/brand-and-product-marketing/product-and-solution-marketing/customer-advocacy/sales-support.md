@@ -1,14 +1,6 @@
 ---
-
 title: "Customer Advocacy: Sales Support"
 ---
-
-
-
-
-
-
-
 
 | Sales Quick Reference Links: |  |
 | ----------- | ----------- |
@@ -18,9 +10,11 @@ title: "Customer Advocacy: Sales Support"
 | [Case Study Board - Search](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/boards/1804878?scope=all&utf8=%E2%9C%93&state=opened) | [Email Copy for Case Study Reference](https://docs.google.com/document/d/1dSHnDSjuWG77Yb2hc4zbMY_zPNbo2Oycctkzre2w3VQ/edit?usp=sharing) |
 | [Customer Logo Authorization Form](https://drive.google.com/file/d/14wpojWWURWWLhcAle9Z8Ub3K5_5u9Bey/view?usp=sharing) | [Media Consent and Model Release Form](https://drive.google.com/file/d/1ioB0-WPVn4KonwMujYX-yWIDgZgkqnlS/view?usp=sharing) |
 
-## [Quarterly Earnings Customer References](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/earnings-support/)
+## Quarterly Earnings Customer References
 
-Earnings statement customer reference identification and outreach is a continuous activity that occurs across each new quarter in support of the public earnings package. By identifying customers as part of this process, they enter the referencing “pipeline” to provide valuable proof points for the earnings statement and additional customer story content in the future.
+[Quarterly Earnings Customer References](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/earnings-support/)
+
+Earnings statement customer reference identification and outreach is a continuous activity that occurs across each new quarter in support of the public earnings package. By identifying customers as part of this process, they enter the referencing "pipeline" to provide valuable proof points for the earnings statement and additional customer story content in the future.
 
 Use the **Earnings Toolkit** to perform outreach, get customer legal permissions, and created the needed content.
 

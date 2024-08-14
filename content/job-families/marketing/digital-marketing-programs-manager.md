@@ -32,7 +32,7 @@ The Digital Marketing Manager is a [grade 6](/handbook/total-rewards/compensatio
 
 - Assist in building and improving paid demand generation campaigns across paid search, paid social, programmatic display, and/or sponsored publisher channels.
 - Help manage paid demand generation strategy to assist in building sales pipeline by driving high quality leads to our Sales team
-- Leverage the customer’s buyer’s journey to architect innovative multi-channel engagement programs that will lead customer prospects through the sales funnel (inquiry through closed-won).
+- Leverage the customer's buyer's journey to architect innovative multi-channel engagement programs that will lead customer prospects through the sales funnel (inquiry through closed-won).
 - Manage budgets and project plans to ensure campaigns launch on due date and meet their objectives
 - Partner with Campaigns team to develop creative, content, and web experiences that follow media best practices that will engage customers throughout their journey
 - Provide campaign support to other parts of the organization (field marketing, corporate, account-based marketing, etc).
@@ -59,7 +59,7 @@ The Senior Digital Marketing Manager is a [grade 7](/handbook/total-rewards/comp
 
 - Define our overall paid demand generation strategy across paid search, paid social, programmatic display, and/or sponsored publisher channels
 - Plan quarterly media budgets across various segments and regions in order to help Sales meet their pipeline goals
-- Leverage the customer’s buyer’s journey to architect innovative multi-channel engagement programs that will lead customer prospects from inquiry > MQL > SAO > closed won
+- Leverage the customer's buyer's journey to architect innovative multi-channel engagement programs that will lead customer prospects from inquiry > MQL > SAO > closed won
 - Lead efforts and strategy with our Ad Agency proactively test and improve demand generation campaigns
 - Improve closed-loop reporting and analysis capabilities for all paid demand generation efforts
 - Drive innovation and experimentation in our demand generation programs to improve our demand creation & conversion

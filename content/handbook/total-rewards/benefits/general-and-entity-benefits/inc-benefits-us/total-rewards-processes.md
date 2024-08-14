@@ -26,7 +26,7 @@ Cadence: Ad hoc (check at least weekly)
     - Select "New Document Request" and paste the following text:
        > Hello,
        >
-       > We received your request to update your benefits due to your Qualifying Life Event. This Qualifying Life Event requires documentation to substantiate it. Please review the following table to understand the documentation requirements: https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/total-rewards-processes/#qle-acceptable-documentation-table.
+       > We received your request to update your benefits due to your Qualifying Life Event. This Qualifying Life Event requires documentation to substantiate it. Please review the following table to understand the documentation requirements: https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/total-rewards-processes/#qle-acceptable-documentation-table.
        >
        > If you have any questions or neeed any help uploading your documentation, please reach out to the Total Rewards team.
     - Choose acceptable documents for the team member's Life Event per the table below and click "Submit"
@@ -182,7 +182,7 @@ Example on how many entries should be in the report per team member: If a team m
 
 #### Cobra Navia
 
-Team members have the option of electing the HRA during Cobra, once elected and payment is made, WEX sends email notification to Navia informing them of the COBRA election and to reactivate the member’s access to HRA.
+Team members have the option of electing the HRA during Cobra, once elected and payment is made, WEX sends email notification to Navia informing them of the COBRA election and to reactivate the member's access to HRA.
 The process for reporting elections is managed by WEX.
 
 ### Payroll Hourly Reporting in to Workday for ACA Measurement

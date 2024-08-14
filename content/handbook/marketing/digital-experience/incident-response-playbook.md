@@ -1,9 +1,7 @@
 ---
-
 title: "Incident Response Matrix"
 description: "A guide for incidents that may occur on the Marketing site"
 ---
-
 
 ## Overview
 

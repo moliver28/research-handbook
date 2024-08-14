@@ -1,12 +1,6 @@
 ---
-
 title: Cadence Calls
 ---
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -165,11 +159,11 @@ At the end of each customer call any changes to customer health should be reflec
 - Write down your *agenda* (including questions you want to ask) in advance. This way you can quickly add your notes for the specific context.
 - If you're comfortable in writing in [Markdown format](/handbook/markdown-guide/), use it to quickly structure your notes in real time.
 - Allow yourself time directly after the call to clean up your notes. Avoid scheduling back-to-back meetings.
-- Practice slowing down call conversations. Stopping the dialog for a few seconds to say “let me write that down” tells the customer what they said is important to you.
+- Practice slowing down call conversations. Stopping the dialog for a few seconds to say "let me write that down" tells the customer what they said is important to you.
 - Ask your SAE/AE/SA to take notes with you. After the meeting combine and add detail.
 - Use [Chorus](/handbook/business-technology/tech-stack/#chorus) to record your calls so there's less pressure for you to take note of everything.
 - Sometimes it makes sense for somebody on the [account team](/handbook/customer-success/account-team/) to go back through the call in Chorus to transcribe it.
-- Write notes in whatever is easiest and always copy them to the source of truth meeting notes doc. If you can write them in the source of truth in the first place, you’ll be more efficient and consistent, and your account team will be able to follow along real-time.
+- Write notes in whatever is easiest and always copy them to the source of truth meeting notes doc. If you can write them in the source of truth in the first place, you'll be more efficient and consistent, and your account team will be able to follow along real-time.
 
 ## Cadence Call Topics
 

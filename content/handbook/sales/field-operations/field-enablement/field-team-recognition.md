@@ -1,17 +1,7 @@
 ---
-
 title: "Field Team Recognition Programs"
 description: "Field Team Recognition Programs aim to recognize Field team members for significant contributions to team performance. These programs are a direct result of Sales engagement survey data and CRO leaders' commitment to fostering a culture of recognition"
 ---
-
-
-
-
-
-
-
-
-
 
 ### Why Recognition?
 
@@ -26,7 +16,7 @@ When it comes to work, [Harvard Business Review](https://hbr.org/2020/10/use-gra
 1. Increased retention
    - 63% of employees who are recognized are very unlikely to look for a new job ([source](https://www.hrtechnologist.com/articles/rewards-and-recognition/employee-recognition-and-retention-statistics/#))
 1. Increased trust
-   - 50% of employees believe being thanked by managers not only improved their relationship but also built trust with their managers/executives ([source](https://www.tinypulse.com/blog/sk-employee-recognition-stats))
+   - 50% of employees believe being thanked by managers not only improved their relationship but also built trust with their managers/executives ([source](https://web.archive.org/web/20230131145032/https://www.tinypulse.com/blog/sk-employee-recognition-stats))
 
 It's important to note that these results rely on a steady gratitude practice over a longer period, which means **we must make recognition a daily practice for our teams**.
 

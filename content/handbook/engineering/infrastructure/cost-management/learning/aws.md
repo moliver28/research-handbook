@@ -1,17 +1,7 @@
 ---
-
 title: "AWS"
 description: "Learn about various aspects of cost management for AWS"
 ---
-
-
-
-
-
-
-
-
-
 
 ---
 

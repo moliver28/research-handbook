@@ -55,7 +55,7 @@ done, the schedule is classified as "unused".
 1. Click the blue `Save Schedule` button
 1. Update the [schedules listing](#current-schedules-used-by-support)
 1. Update
-   [the static_data.yaml file](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/static_data.yaml)
+   [the static_data.yaml file](https://gitlab.com/gitlab-support-readiness/support-team/-/blob/master/data/static_data.yaml)
 
 ## Modifying a schedule
 
@@ -75,7 +75,7 @@ pagerduty for more information.
 1. Click the blue `Save Schedule` button at the bottom-left of the page
 1. Update the [schedules listing](#current-schedules-used-by-support)
 1. Update
-   [the static_data.yaml file](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/static_data.yaml)
+   [the static_data.yaml file](https://gitlab.com/gitlab-support-readiness/support-team/-/blob/master/data/static_data.yaml)
 
 ## Deleting a schedule
 
@@ -90,7 +90,7 @@ policy. You need to remove it first.
 1. Click the red `Delete this Schedule`
 1. Update the [schedules listing](#current-schedules-used-by-support)
 1. Update
-   [the static_data.yaml file](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/static_data.yaml)
+   [the static_data.yaml file](https://gitlab.com/gitlab-support-readiness/support-team/-/blob/master/data/static_data.yaml)
 
 ## Current schedules used by support
 
@@ -403,17 +403,6 @@ This rotation is used for Support Directors.
   - Hours: 1600-0000
   - Members
     - Lee Matos
-
-### SSAT Reviewing Manager
-
-This rotation is used for assigning Support Managers SSAT reviewing duties.
-
-- [Schedule link](https://gitlab.pagerduty.com/schedules#P9UIIDY)
-- Timezone: UTC
-- Layer 1
-  - Rotation type: weekly
-  - Handoff time: Tuesday 0000
-  - Hours: Not restricted to specific times
 
 ### Shadow - Customer Emergenices
 

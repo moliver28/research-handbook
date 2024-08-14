@@ -1,5 +1,4 @@
 ---
-
 title: 'Partner Training, Accreditations, and Enablement'
 description: "Learning program including functional, soft skills, and technical training for channel and alliances partners to support and scale GitLab's and our partners' growth and success"
 ---
@@ -23,7 +22,7 @@ At GitLab we value asynchronous working relationships, that's why all of our Par
 
 ## <span class="colour" style="color: rgb(252, 109, 38);">Training for all Partner Learners</span>
 
-We reccommend that every learner begin their journey with GitLab, by taking the GitLab Foundations course. This fundamental course will give you and introduction to the GitLab product, licensing model, and how to transact with GitLab.
+We recommend that every learner begin their journey with GitLab, by taking the GitLab Foundations course. This fundamental course will give you and introduction to the GitLab product, licensing model, and how to transact with GitLab.
 
 ## <span class="colour" style="color: rgb(252, 109, 38);">Training for Sales Professionals</span>
 
@@ -31,7 +30,7 @@ We reccommend that every learner begin their journey with GitLab, by taking the 
 
 The GitLab Sales Professional Learning Pathway is ideal for Account Executives and Sales Engineers. Learn about the core features, use cases and solutions that GitLab provides. The GitLab Sales Professional contains 4 courses: GitLab Foundations, Understanding DevSecOps, GitLab Customers, Pitching GitLab. Each course contains 3-5 lessons and knowledge checks. There is a final exam at the end of the learning pathway, upon passing learners will be awarded the GitLab Sales Professional Accreditation.
 
-After completing this training, learners will be familiar with GitLab's core usecases, ideal customer profile and buyer personas, and how to pitch the DevSecOps platform story.
+After completing this training, learners will be familiar with GitLab's core use cases, ideal customer profile and buyer personas, and how to pitch the DevSecOps platform story.
 
 This learning pathway takes approximately 3 hours to complete.
 
@@ -84,8 +83,8 @@ GitLab uses Credly to award our Technical Certifications and Accreditations. Onc
 
 ## <span class="colour" style="color: rgb(56, 13, 117);">Additional Enablement Resources</span>
 
-- **Building Pipeline with GitLab Webcast** - Every 1st and 3rd wednesday of the month, GitLab hosts Building Pipelines with GitLab,  a webcast for partners that cover topics on how to best build your GitLab pipeline. You can access previous recordings of the Building Pipelines with GitLab webcast in the [partner portal](https://partners.gitlab.com/prm/api/objects/v1/asset/vmyjbknbzcv2/_download), or [register](https://gitlab.zoom.us/webinar/register/WN_XjqiiczZQje-RugNH1Eugg) to attend live.
-- **Partner Marketing Webcasts** - GitLab Partners’ Marketing team members are invited to join our monthly webcast to learn about the latest Partner marketing campaigns, resources and more.
+- **Building Pipeline with GitLab Webcast** - Every 1st and 3rd Wednesday of the month, GitLab hosts Building Pipelines with GitLab,  a webcast for partners that cover topics on how to best build your GitLab pipeline. You can access previous recordings of the Building Pipelines with GitLab webcast in the [partner portal](https://partners.gitlab.com/prm/api/objects/v1/asset/vmyjbknbzcv2/_download), or [register](https://gitlab.zoom.us/webinar/register/WN_XjqiiczZQje-RugNH1Eugg) to attend live.
+- **Partner Marketing Webcasts** - GitLab Partners' Marketing team members are invited to join our monthly webcast to learn about the latest Partner marketing campaigns, resources and more.
 - **The [GitLab Partner Portal](https://partners.gitlab.com/English/)** - provides Partners with easy access to additional sales resources, webcast replays, competitive analysis, event calendar, Marketing campaigns, support and more.
 - **Newsletter** - sign up [here](https://partnerflash.gitlab.com/registration)
 - **GitLab Handbook** - start your Handbook search on the [Channel Partner Handbook Page](/handbook/resellers/)

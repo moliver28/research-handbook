@@ -180,7 +180,7 @@ It is up to the engineer writing the function to determine which arguments are p
 
 #### Returning values
 
-When a function grows in complexity, it is not uncommon to use multiple return statements inside the function’s body.
+When a function grows in complexity, it is not uncommon to use multiple return statements inside the function's body.
 However, in order to keep a clear intent and sustainable readability, it is preferable to avoid returning meaningful values from many output points in the body.
 When a function has multiple main exit points for its normal course, it becomes difficult to debug the returned result, so it may be preferable to keep a single exit point
 
@@ -413,7 +413,7 @@ for i in foo:
         foo.remove(i)
 
 ## Bad
-## Don’t make multiple passes through the list
+## Don't make multiple passes through the list
 
 while i in foo:
     foo.remove(i)
@@ -465,7 +465,7 @@ print(F"list_b: {list_b}")
 ## list_b: [1, 2, 3, 1, 2, 3]
 ```
 
-It’s safer to create a new list object and leave the original alone.
+It's safer to create a new list object and leave the original alone.
 
 ```python
 list_a = [3, 4, 5]
@@ -516,7 +516,7 @@ When a logical line of code is longer than the accepted limit, you need to split
 ## Bad
 my_very_big_string = """When a logical line of code is longer than the accepted limit, \
     you need to split it over multiple physical lines. \
-    The Python interpreter will join consecutive lines if the last character of the line is a backslash.”"""
+    The Python interpreter will join consecutive lines if the last character of the line is a backslash.""""
 
 from some.deep.module.inside.a.module import a_nice_function, another_nice_function, \
     yet_another_nice_function
@@ -525,7 +525,7 @@ from some.deep.module.inside.a.module import a_nice_function, another_nice_funct
 my_very_big_string = (
     "When a logical line of code is longer than the accepted limit, "
     "you need to split it over multiple physical lines. "
-    "The Python interpreter will join consecutive lines if the last character of the line is a backslash.”"
+    "The Python interpreter will join consecutive lines if the last character of the line is a backslash.""
 )
 
 from some.deep.module.inside.a.module import (
@@ -859,7 +859,7 @@ Most functional tests frameworks, and `pytest` as well, follow the `Arrange-Act-
 - `Act` - by calling some function or method
 - `Assert` - that some end condition is `True` (a test will pass) or `False` (a test will fail)
 
-`pytest` simplifies testing workflow by allowing you to use Python’s assert keyword directly without any boilerplate code.
+`pytest` simplifies testing workflow by allowing you to use Python's assert keyword directly without any boilerplate code.
 
 ##### Writing New Tests
 
@@ -958,7 +958,7 @@ In other words, you can think of this decorator behaving as a `zip*` function an
 
 ##### Categorizing Tests using marks
 
-In any large test suite, some of the tests will inevitably be slow. They might test timeout behavior, for example, or they might exercise a broad area of the code. Whatever the reason, it would be nice to avoid running all the slow tests when you’re trying to iterate quickly on a new feature.
+In any large test suite, some of the tests will inevitably be slow. They might test timeout behavior, for example, or they might exercise a broad area of the code. Whatever the reason, it would be nice to avoid running all the slow tests when you're trying to iterate quickly on a new feature.
 pytest enables you to define categories for your tests and provides options for including or excluding categories when you run your suite. You can mark a test with any number of categories.
 
 Marking tests is useful for categorizing tests by subsystem or dependencies. If some of your tests require access to a network, for example, then you could create a `@pytest.mark.network_access` mark for them.
@@ -1010,7 +1010,7 @@ test.py .
 
 ##### Duration Report
 
-If you plan to improve the speed of your tests, then it’s useful to know which tests might offer the biggest improvements. `pytest` can automatically record test durations for you and report the top offenders.
+If you plan to improve the speed of your tests, then it's useful to know which tests might offer the biggest improvements. `pytest` can automatically record test durations for you and report the top offenders.
 Use the `--durations` option to the pytest command to include a duration report in your test results. `--durations` expects an integer value n and will report the slowest n number of tests.
 
 ```python
@@ -1186,7 +1186,7 @@ pylint extract/ --ignore=analytics/dags --disable=line-too-long,E0401,E0611,W120
 
 ##### xenon
 
-[**Xenon**](https://pypi.org/project/xenon/) is a monitoring tool based on Radon. It monitors your code’s complexity. Ideally, Xenon is run every time you commit code. Through command line options, you can set various thresholds for the complexity of your code. It will fail *(i.e. it will exit with a non-zero exit code)* when any of these requirements is not met.
+[**Xenon**](https://pypi.org/project/xenon/) is a monitoring tool based on Radon. It monitors your code's complexity. Ideally, Xenon is run every time you commit code. Through command line options, you can set various thresholds for the complexity of your code. It will fail *(i.e. it will exit with a non-zero exit code)* when any of these requirements is not met.
 
 ```bash
 run xenon --max-absolute B --max-modules B --max-average A . -i transform,shared_modules

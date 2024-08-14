@@ -154,7 +154,7 @@ For all details regarding swag, [please see here](/handbook/marketing/channel-ma
 * [ ] [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=mdf-list-upload) - Partner Team creates, assigns to MOps
 * [ ] [Create Proof of Performance Issue](https://gitlab.com/gitlab-com/marketing/partner-marketing//-/issues/new?issuable_template=channel_mdf_pop) - Partner Team creates
 
-/label ~"mktg-status::wip"  ~“Channel Marketing” ~"Channel" ~"MDF"
+/label ~"mktg-status::wip"  ~"Channel Marketing" ~"Channel" ~"MDF"
 /confidential
 ```
 
@@ -165,11 +165,11 @@ For all details regarding swag, [please see here](/handbook/marketing/channel-ma
 ```markdown
 <!-- Name this epic: Name of Event - Date of Event -->
 
-## [Main Issue]() - [template] (https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/new?issuable_template=ptnr_mktg_webinar_main_template)
+## [Main Issue]() - template: https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/new?issuable_template=ptnr_mktg_webinar_main_template
 
-## [Copy Document](https://docs.google.com/document/d/1w9yMw2DQJ5u1RxC3kYO0ZgQM5TJfKlRiGGjJqVFg1GE/edit?usp=sharing)
+## Copy Document: https://docs.google.com/document/d/1w9yMw2DQJ5u1RxC3kYO0ZgQM5TJfKlRiGGjJqVFg1GE/edit?usp=sharing
 
-## [Dry Run Agenda]() - [template](https://docs.google.com/document/d/1vrdOEV4fbl5bzYpqQcCFnMN6QjuCIc0nRfilP3IvCfM/edit#heading=h.qv152nkfuvce)
+## [Dry Run Agenda]() - template: https://docs.google.com/document/d/1vrdOEV4fbl5bzYpqQcCFnMN6QjuCIc0nRfilP3IvCfM/edit#heading=h.qv152nkfuvce
 
 ## [Landing Page]() - `to be added when live`
 

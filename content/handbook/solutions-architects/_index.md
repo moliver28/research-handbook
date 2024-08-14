@@ -1,9 +1,7 @@
 ---
-
 title: Solutions Architects Handbook
 description: "Solutions Architects (SA) are the trusted advisors to GitLab prospects and customers during the presales motion, demonstrating how the GitLab application and GitLab Professional Services address common and unique business requirements"
 ---
-
 
 ## Solutions Architecture Mission
 
@@ -30,9 +28,9 @@ Our Field SA's also engage proactively with existing GitLab customer to provide 
 
 The [Strategic Field Organization](/handbook/solutions-architects/strategic-field-org/) is a team of [Principal Solutions Architects](/job-families/sales/solutions-architect/#principal-solutions-architect-responsibilities) that support global strategic sales opportunities and customers. This team collaborates with the regional account teams to work together on large engagements that require a higher degree of strategic planning, consulting, executive-level technical leadership, and internal GitLab cross-departmental collaboration.
 
-### Alliance & Channel Solutions Architects
+### Partner Solutions Architects
 
-[Alliance and Channel Solutions Architects](/job-families/sales/solutions-architect/#specialties) are the trusted advisors to our channel resellers, professional services partners, and strategic alliances partners. The focus of this team is to develop relationships and provide technical assistance and leadership to drive joint GTM strategies. This team helps grow and strengthen the partner ecosystem by building new capabilities and growing GitLab revenue together with partners.
+[Partner Solutions Architects](/job-families/sales/solutions-architect/#specialties) are the trusted advisors to our channel resellers, professional services partners, and strategic alliances partners. The focus of this team is to develop relationships and provide technical assistance and leadership to drive joint GTM strategies. This team helps grow and strengthen the partner ecosystem by building new capabilities and growing GitLab revenue together with partners.
 
 In addition to core responsibilities, Solutions Architects may assist in other client-facing activities aligned to Content Marketing or Strategic Marketing such as blogs, videos, webinars, presentations and industry trade show presence. Some examples are listed below:
 
@@ -55,7 +53,7 @@ Demo Architects are tasks with maintaining public facing demo content (Workshops
 
 - [SA Manager Process](/handbook/solutions-architects/sa-manager/)
 
-The Field and Alliance/Channels SA Management (referred as SA management going forward) around the globe collaborates around unique requirements, identifies improvements in the go-to-market approaches and focussed on prioritises on strategies to address the market's requirements. The SA management is aligned in the interest of technical matters to address exisiting needs raised by customers and priotise on innovative requirements. The SA management will collaborate with product teams to achieve required outcomes.
+The Field and Partner SA Management (referred as SA management going forward) around the globe collaborates around unique requirements, identifies improvements in the go-to-market approaches and focussed on prioritises on strategies to address the market's requirements. The SA management is aligned in the interest of technical matters to address exisiting needs raised by customers and priotise on innovative requirements. The SA management will collaborate with product teams to achieve required outcomes.
 
 ## Trusted Advisors
 
@@ -79,7 +77,7 @@ These offerings are delivered each within a specific context of a particular cus
 - **Demonstrations**: Built around the work done within the technical discovery. Demonstrations aim to address at least 3 specific pain points identified during discovery while selling the vision of GitLab's DevSecOps platform approach.
 - **Guided Trials**: Three goals in 30 days through the usage of a GitLab Trial. This can oftentimes be used to replace the need for the more formal Proof of Value.
 - **Proofs of Value**: Technical evaluation with more complexities than a Guided Trial. May last up to 8 weeks.
-- **Technical Close Plans**: An internal strategy used to secure a technical win for a given opportunity. It leverages the Command Plan and also details the customer’s desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks.
+- **Technical Close Plans**: An internal strategy used to secure a technical win for a given opportunity. It leverages the Command Plan and also details the customer's desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks.
 
 ## Changing the Solutions Architects Handbook Content
 

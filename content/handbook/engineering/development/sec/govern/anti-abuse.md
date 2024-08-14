@@ -18,11 +18,11 @@ Our [planning issues](https://gitlab.com/gitlab-org/modelops/anti-abuse/team-tas
 
 ### Workflow
 
-We follow the same [workflow pattern](./authorization.md#workflow) as our friends in Govern::Authorization.
+We follow the same [workflow pattern](authorization.md#workflow) as our friends in Govern::Authorization.
 
 ## Iteration
 
-When planning how to construct our [MVC](/handbook/values/#minimal-viable-change-mvc), we need to be aware of the [tradeoffs of slicing MR’s vertically vs horizontally](/handbook/engineering/workflow/iteration/#tradeoffs-between-horizontal-and-vertical-slicing). Reducing scope for each iteration is encouraged.
+When planning how to construct our [MVC](/handbook/values/#minimal-viable-change-mvc), we need to be aware of the [tradeoffs of slicing MR's vertically vs horizontally](/handbook/engineering/workflow/iteration/#tradeoffs-between-horizontal-and-vertical-slicing). Reducing scope for each iteration is encouraged.
 
 As requirements can shift, and complexity can increase when uncovering challenging areas in the codebase, we strive to keep issue requirements updated for clarity.
 
@@ -30,7 +30,7 @@ We follow the [iteration process](/handbook/engineering/development/principles/#
 
 ## Weekly async issue updates
 
-We use the same [weekly async issue template](./authorization.md#weekly-async-issue-updates) as our friends in Govern::Authorization.
+We use the same [weekly async issue template](authorization.md#weekly-async-issue-updates) as our friends in Govern::Authorization.
 
 ## Group members
 
@@ -53,7 +53,7 @@ You are encouraged to work as closely as needed with our [stable counterparts](/
 Other teams that we might collaborate with include but are not limited to:
 
 - [Govern:Authentication and Authorization](/handbook/engineering/development/sec/govern/authentication-and-authorization/)
-- [Growth:Acquisition and Activation](/handbook/marketing/growth/engineering/)
+- [Growth:Acquisition and Activation](/handbook/engineering/development/growth/)
 - [Fulfillment:Fulfillment Platform](/handbook/engineering/development/fulfillment/fulfillment-platform/#team-members)
 
 Here are some examples of when to engage with your counterpart:
@@ -68,11 +68,11 @@ The Anti-abuse team works closely with [Trust and Safety](/handbook/security/sec
 
 #### Pipeline Validation Service responsibility
 
-[PVS](https://gitlab.com/gitlab-org/modelops/anti-abuse/pipeline-validation-service) is an internal service that belongs to the Anti-abuse team. It’s a combination of heuristic-based (text matching, etc) and behavior-based rules (duplicate builds, etc). The [Trust and Safety team](/handbook/security/security-operations/trustandsafety/) leverages this service the most, and acts as the customer for feature requests.
+[PVS](https://gitlab.com/gitlab-org/modelops/anti-abuse/pipeline-validation-service) is an internal service that belongs to the Anti-abuse team. It's a combination of heuristic-based (text matching, etc) and behavior-based rules (duplicate builds, etc). The [Trust and Safety team](/handbook/security/security-operations/trustandsafety/) leverages this service the most, and acts as the customer for feature requests.
 
 #### Heuristic rules
 
-Due to the nature of cryptomining attacks, heuristics are going to change quickly and need to be implemented rapidly. Accordingly, T&S is invited to submit MR’s to PVS that are heuristic based, or alternatively [request these changes](https://gitlab.com/gitlab-org/modelops/anti-abuse/pipeline-validation-service/-/issues/new?issuable_template=pvs_miss) from the Anti-abuse team.
+Due to the nature of cryptomining attacks, heuristics are going to change quickly and need to be implemented rapidly. Accordingly, T&S is invited to submit MR's to PVS that are heuristic based, or alternatively [request these changes](https://gitlab.com/gitlab-org/modelops/anti-abuse/pipeline-validation-service/-/issues/new?issuable_template=pvs_miss) from the Anti-abuse team.
 
 #### Behavior rules
 

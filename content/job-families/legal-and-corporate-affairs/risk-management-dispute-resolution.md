@@ -1,6 +1,6 @@
 ---
 title: Risk Management & Dispute Resolution
-description: The Risk Management and Dispute Resolution (RMDR) division of GitLab Legal and Corporate Affairs (LACA) is responsible for informing and guiding GitLab’s risk management strategies as well as managing internal and external investigations, litigation and other dispute resolution.
+description: The Risk Management and Dispute Resolution (RMDR) division of GitLab Legal and Corporate Affairs (LACA) is responsible for informing and guiding GitLab's risk management strategies as well as managing internal and external investigations, litigation and other dispute resolution.
 ---
 
 ## Senior Director of Legal, Risk Management & Dispute Resolution
@@ -21,7 +21,7 @@ The Senior Director of Legal, Risk Management & Dispute Resolution reports to th
 - Establish and manage outside counsel relationships, including staffing, strategy, work product, day-to-day case activity, and budget management
 - Track and report on status and outcomes of investigations, litigation matters, and dispute resolution
 - Architect and manage scalable processes and procedures
-- Inform and guide GitLab’s risk management strategies and contribute to GitLab’s global compliance program(s)
+- Inform and guide GitLab's risk management strategies and contribute to GitLab's global compliance program(s)
 
 ### Senior Director of Legal, Risk Management & Dispute Resolution Requirements
 
@@ -32,7 +32,7 @@ The Senior Director of Legal, Risk Management & Dispute Resolution reports to th
 - Enthusiastic self-starter; equally comfortable operating at the micro and macro levels with the innate ability to know which level is needed at what time
 - Experience with establishing and managing an operating budget
 - Background with hyper-growth organizations, and proven ability to adapt and learn things quickly
-- An effective communicator with the ability to use “plain language” and to escalate, stay coordinated, provide feedback, and ask for help
+- An effective communicator with the ability to use "plain language" and to escalate, stay coordinated, provide feedback, and ask for help
 - Strong operational mindset with ability to prioritize projects and demands
 - Embrace GitLab Values of [Collaboration](/handbook/values/#collaboration[), [Results](/handbook/values/#results), [Efficiency](/handbook/values/#efficiency), [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion), [Iteration](/handbook/values/#iteration), and [Transparency](/handbook/values/#transparency)
 

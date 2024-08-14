@@ -147,7 +147,7 @@ When needed we also sometimes deal with CPU saturation by making application cha
 
 #### Network Architecture
 
-<img src="/images/handbook/engineering/infrastructure/production-architecture/network-arch.png" alt="">
+<img src="https://about.gitlab.com/images/handbook/engineering/infrastructure/production-architecture/network-arch.png" alt="">
 
 [Source](https://drive.google.com/file/d/19-IMmcJHVUz_bWOXU7_1NoYOdQJEZ3lM/view?usp=sharing), GitLab internal use only
 

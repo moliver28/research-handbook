@@ -21,7 +21,7 @@ To achieve fair value with limited relative volatility as a publicly traded comp
 1. Building out a fulsome compliance program which includes: securities law trainings, communications policies, handbook adjustments, required policies such as insider / [trading window](/handbook/finance/investor-relations/#trading-window)
 1. Maintaining a high degree of [transparency](/handbook/values/#transparency) that we believe increases contributions and makes collaboration easier. This is a core value and may result in higher than expected volatility.
 
-A successful public offering is a significant milestone, but it is not GitLab’s [mission](/handbook/company/mission/#mission). Like graduating from high school, a great day but it shouldn't be the biggest thing you achieve in life.
+A successful public offering is a significant milestone, but it is not GitLab's [mission](/handbook/company/mission/#mission). Like graduating from high school, a great day but it shouldn't be the biggest thing you achieve in life.
 
 ## Market Capitalization
 
@@ -33,7 +33,7 @@ Market capitalization (stock price x shares outstanding) will be the result of a
 1. Clarity of [value proposition](/handbook/company/strategy/#organization)
 1. Perception of management [team](/handbook/company/team/)
 
-As GitLab team members, delivering on our annual plan and long-term strategy are the most productive ways to contribute to the company achieving full, fair value with limited relative volatility. At a departmental level, we have [key performance indicators](/handbook/company/kpis/#what-are-kpis) aligned to our plan and performance to empower "everyone to contribute" to GitLab’s long term success and public market valuation.
+As GitLab team members, delivering on our annual plan and long-term strategy are the most productive ways to contribute to the company achieving full, fair value with limited relative volatility. At a departmental level, we have [key performance indicators](/handbook/company/kpis/#what-are-kpis) aligned to our plan and performance to empower "everyone to contribute" to GitLab's long term success and public market valuation.
 
 ## Short Term Focus Can Be A Distraction
 
@@ -75,7 +75,7 @@ In situations where we are using the standard communications channels that other
 
 ## Disclaimer
 
-Statements on this page are being made pursuant to, and in accordance with, Rule 135 under the Securities Act of 1933, as amended (the “Securities Act”) and shall not constitute an offer to sell, or the solicitation of an offer to buy, any securities. Any offers, solicitations or offers to buy, or any sales of securities will be made in accordance with the registration requirements of the Securities Act.
+Statements on this page are being made pursuant to, and in accordance with, Rule 135 under the Securities Act of 1933, as amended (the "Securities Act") and shall not constitute an offer to sell, or the solicitation of an offer to buy, any securities. Any offers, solicitations or offers to buy, or any sales of securities will be made in accordance with the registration requirements of the Securities Act.
 
 ## Remaining an Independent Company
 

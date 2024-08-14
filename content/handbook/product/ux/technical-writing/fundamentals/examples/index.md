@@ -7,7 +7,7 @@ We want to make sure we're telling readers everything they need to know.
 
 However, research shows that information is easier to digest if it's presented in
 repeatable patterns, so at GitLab we're moving toward using industry-standard
-[topic types](https://docs.gitlab.com/ee/development/documentation/structure.html).
+[topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/).
 
 Each topic, or section on a page under a heading, should be identifiable as a concept, task, reference, or
 troubleshooting topic. This structure helps our users recognize patterns and

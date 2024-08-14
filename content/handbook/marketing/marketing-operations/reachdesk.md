@@ -1,5 +1,4 @@
 ---
-
 title: "Reachdesk"
 description: "Reachdesk is a direct mail provider that we use for sales and marketing campaigns to fuel pipeline progression using personalized gifts"
 ---
@@ -73,7 +72,7 @@ Please refer to GitLab's policies related to Gifts and Contributions [here](/han
 
 ## How to send a campaign
 
-1. Please click the ‘Send Engage +’  button and select the campaign/gift you need to send to a prospect.
+1. Please click the 'Send Engage +'  button and select the campaign/gift you need to send to a prospect.
 1. After selecting the campaign, you need to add personal details, this webpage will be different in case you are sending an e-gift or a physical gift.
 1. Check the status of your gifts from the sends tab. E-gifts will be sent out immediately, like an ordinary email. In case of physical gifts you will have a 30 mins window to cancel or edit your orders. After that window expires please reach out to us at support@reachdesk.com in case of further assistance.
 

@@ -4,15 +4,18 @@ title: "ESG"
 description: "Information and processes related to ESG"
 ---
 
-The Environmental, Social, and Governance (ESG) [Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) creates and maintains GitLab’s Corporate Sustainability strategy and programs. This includes ESG disclosures and public ESG reporting, identifying and prioritizing key issues to advance GitLab’s social and environmental goals, and creating partnerships with nonprofit organizations that support GitLab’s values and mission.
+The Environmental, Social, and Governance (ESG) [Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) creates and maintains GitLab's Corporate Sustainability strategy and programs. This includes ESG disclosures and public ESG reporting, identifying and prioritizing key issues to advance GitLab's social and environmental goals, and creating partnerships with nonprofit organizations that support GitLab's values and mission.
 
 ## ESG Strategy
 
-Environmental, social, and governance (ESG) practices, although newly formalized in GitLab Inc.’s (“GitLab”, “we”, “our”) strategy, have been embedded into our work culture since our inception. Deeply integrated into our business philosophy, GitLab’s ESG strategy is driven by our [values](/handbook/values/) of Collaboration, Results, Efficiency, Diversity, Inclusion and Belonging, Iteration, and Transparency (CREDIT).
+Environmental, social, and governance (ESG) practices, although newly formalized in GitLab Inc.'s ("GitLab", "we", "our") strategy, have been embedded into our work culture since our inception. Deeply integrated into our business philosophy, GitLab's ESG strategy is driven by our [values](/handbook/values/) of Collaboration, Results, Efficiency, Diversity, Inclusion and Belonging, Iteration, and Transparency (CREDIT).
 
-In December 2022, we conducted an ESG materiality assessment to determine which ESG topics are most important to our business and our stakeholders. Through engagement with both internal and external stakeholders, we explored which ESG topics have the greatest impact on GitLab’s business, and where we have the potential to have the greatest impact on the environment, society, and our global communities. Our materiality matrix was finalized in January 2023.
+In December 2022, we conducted an ESG materiality assessment to determine which ESG topics are most important to our business and our stakeholders. Through engagement with both internal and external stakeholders, we explored which ESG topics have the greatest impact on GitLab's business, and where we have the potential to have the greatest impact on the environment, society, and our global communities. Our materiality matrix was finalized in January 2023.
 
-In 2023, we released our inaugural [FY23 ESG Report](/handbook/company/esg/) in the Handbook. The report includes information on our key ESG focus areas, our programs and policies, acheivements to date, metrics and targets, and plans for the future.
+Every year GitLab publishes an annual ESG report where we share our approach to managing our key ESG focus areas, provide updates on programs and policies, achievements to date, metrics and targets and plans for the future.  
+
+- [FY23 ESG Report](handbook/legal/esg/fy23-esg-report/) 
+- [FY24 ESG Report](handbook/company/esg/)
 
 ## ESG Request Process
 
@@ -40,32 +43,32 @@ Once all necessary approvals have been documented for the charitable contributio
 
 #### GiveLab
 
-GiveLab is GitLab’s Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab’s overall [ESG strategy](/handbook/legal/esg/#esg-strategy) and program development. The term GiveLab encompasses all Team Member Volunteering initiatives at GitLab.
+GiveLab is GitLab's Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab's overall [ESG strategy](/handbook/legal/esg/#esg-strategy) and program development. The term GiveLab encompasses all Team Member Volunteering initiatives at GitLab.
 
 GitLab encourages team members to take part in volunteer initiatives that support their local communities, participate in virtual volunteer activities, and organize volunteer activities as part of team events and get togethers.
 
-Team members may self organize volunteer events at any point throughout the year. To submit a request for a team volunteer activity with a [Registered Nonprofit Organization](/handbook/legal/philanthropy-policy/#who-we-support) that isn’t on the current [GiveLab Nonprofit Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?gid=0#gid=0), please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support).
+Team members may self organize volunteer events at any point throughout the year. To submit a request for a team volunteer activity with a [Registered Nonprofit Organization](/handbook/legal/philanthropy-policy/#who-we-support) that isn't on the current [GiveLab Nonprofit Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?gid=0#gid=0), please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support).
 
-Team members can also request support from the ESG Team to organize local or virtual volunteer opportunities on their behalf by going to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and opening a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support). Please write “yes” for the question, “Would you like the ESG team’s help organizing the volunteer activity?”
+Team members can also request support from the ESG Team to organize local or virtual volunteer opportunities on their behalf by going to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and opening a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support). Please write "yes" for the question, "Would you like the ESG team's help organizing the volunteer activity?"
 
-All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/). Team members must follow GitLab’s paid time off (PTO) policy if volunteering during work hours and use the “public service/volunteer” option in Time Off by Deel.
+All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/). Team members must follow GitLab's paid time off (PTO) policy if volunteering during work hours and use the "public service/volunteer" option in Workday.
 
-If volunteering in person, team members may incur some expenses. All expenses should be submitted in Navan using the “GiveLab” classification. Please note that GitLab does not allow team members to travel to in-person volunteer events. All in-person volunteering should be local to the team member.
+If volunteering in person, team members may incur some expenses. All expenses should be submitted in Navan using the "GiveLab" classification. Please note that GitLab does not allow team members to travel to in-person volunteer events. All in-person volunteering should be local to the team member.
 
-As with all [company expenses](/handbook/finance/expenses/#1-policy), team members must be thoughtful in spending the company’s money and use best judgment to ensure that all expenses are deemed “ordinary and necessary.” Team members should follow all [team member expense responsibilities](/handbook/finance/expenses/#2-responsibilities).
+As with all [company expenses](/handbook/finance/expenses/#1-policy), team members must be thoughtful in spending the company's money and use best judgment to ensure that all expenses are deemed "ordinary and necessary." Team members should follow all [team member expense responsibilities](/handbook/finance/expenses/#2-responsibilities).
 
 Expenses allowed for reimbursement (for in-person volunteer events):
 
-- Local travel only -  [mileage](/handbook/finance/expenses/#mileage), [train](/handbook/finance/expenses/#train), [taxi/rideshares](/handbook/finance/expenses/#transportationparking). Must follow and comply with the current limits of our Expense Policy. Code under their individual travel category and use the “GiveLab” classification in Navan
-- [Parking](/handbook/finance/expenses/#transportationparking) for the event.  Must follow and comply with the current limits of our Expense Policy.  Please use the “GiveLab” classification in Navan
-- [Meal](/handbook/finance/expenses/#meals-company-provided-while-traveling) during the event.  Must follow and comply with the current limits of our Expense Policy.  Code under Travel-Meals for Myself and use the “GiveLab” classification in Navan
+- Local travel only -  [mileage](/handbook/finance/expenses/#mileage), [train](/handbook/finance/expenses/#train), [taxi/rideshares](/handbook/finance/expenses/#transportationparking). Must follow and comply with the current limits of our Expense Policy. Code under their individual travel category and use the "GiveLab" classification in Navan
+- [Parking](/handbook/finance/expenses/#transportationparking) for the event.  Must follow and comply with the current limits of our Expense Policy.  Please use the "GiveLab" classification in Navan
+- [Meal](/handbook/finance/expenses/#meals-company-provided-while-traveling) during the event.  Must follow and comply with the current limits of our Expense Policy.  Code under Travel-Meals for Myself and use the "GiveLab" classification in Navan
 
 Expenses not allowed for reimbursement:
 
 - Any airfare, lodging, rental cars, coworking space, internet expenses are not allowed
 - Any supplies or items needed for the event
 - Donations to the nonprofit
-- Any expenses that are not mentioned as “allowed” above are not reimbursable and there will be no exceptions
+- Any expenses that are not mentioned as "allowed" above are not reimbursable and there will be no exceptions
 
 As with our unique ways of working, GitLab and its team members have identified and sought out opportunities for impact that speak not only to our [values](/handbook/values/) but also to our [all-remote](/handbook/company/culture/all-remote/guide/) nature. To review previous opportunities that team members participated in, visit the [historical activities page](/handbook/people-group/givelab-volunteer-initiatives/#gitlab-donation-drives).
 
@@ -89,14 +92,14 @@ GiveLab Champions help team members build trust through social connections, buil
 
 **Team member benefits of volunteering**
 
-- Champions introduce new and current team members to GitLab’s culture and help to build and maintain engagement
+- Champions introduce new and current team members to GitLab's culture and help to build and maintain engagement
 - Champions help build trust through social connections
 - Champions have the opportunity to develop professional and leadership skills, build relationships across the company and make a difference at work and in local communities
 - Champions can network and provide positive impacts to the business
 
 **GiveLab Champion responsibilities**
 
-- Recommend local [Registered Nonprofit Organizations](/handbook/legal/philanthropy-policy/#who-we-support) that meet GitLab’s eligibility criteria for volunteer activities
+- Recommend local [Registered Nonprofit Organizations](/handbook/legal/philanthropy-policy/#who-we-support) that meet GitLab's eligibility criteria for volunteer activities
 - Help organize local volunteer events for team members to participate in
 - Provide recommendations to the ESG Team for virtual volunteer opportunities
 - Encourage team members to volunteer
@@ -140,9 +143,9 @@ Nonprofits accepted into the program will be provided a free Ultimate license fo
 
 **Who qualifies for the program?**
 
-GitLab supports Registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that align with our [Values](/handbook/values/). A “Registered Nonprofit Organization” is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal or national government.
+GitLab supports Registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that align with our [Values](/handbook/values/). A "Registered Nonprofit Organization" is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal or national government.
 
-GitLab prioritizes Registered Nonprofit Organizations that help advance GitLab’s social and environmental key topics that were defined in GitLab’s [2022 materiality assessment](/handbook/legal/esg/). GitLab’s current social and environmental key topics are:
+GitLab prioritizes Registered Nonprofit Organizations that help advance GitLab's social and environmental key topics that were defined in GitLab's [2022 materiality assessment](/handbook/legal/esg/). GitLab's current social and environmental key topics are:
 
 - Diversity, Inclusion, and Belonging
 - Talent Management & Engagement
@@ -182,7 +185,7 @@ While GitLab for Nonprofits Program benefits do not include product [support](ht
 - Post questions in the [GitLab Forum](https://forum.gitlab.com/), where community members and GitLab team members can review and discuss them.
 - File bug reports and breaking behaviors [as issues](https://gitlab.com/gitlab-org/gitlab/-/issues) for product teams to review and address.
 
-**I’m a GitLab Team Member and I have a customer applying for the program. What do I do?**
+**I'm a GitLab Team Member and I have a customer applying for the program. What do I do?**
 
 - Please point the Nonprofit to the GitLab for Nonprofits page to learn about the program, eligibility and application.
 - If the Nonprofit has questions on the eligibility or status of an application, please advise them to reach out to nonprofits@gitlab.com. Or team members can inquire about the status of an application in #esg.
@@ -201,11 +204,11 @@ NOTE: For any request(s) that require payment, please be certain to follow appli
 
 ## ESG Materiality Matrix
 
-Six key topics were identified in GitLab’s materiality assessment. These key topics will drive GitLab’s ESG strategy and program development. This page will continue to be updated as we make progress towards developing plans and programs to advance our ESG goals.
+Six key topics were identified in GitLab's materiality assessment. These key topics will drive GitLab's ESG strategy and program development. This page will continue to be updated as we make progress towards developing plans and programs to advance our ESG goals.
 
 ![2023 Materiality Matrix](/handbook/legal/esg/2022-materiality-matrix-062123.png)
 
-Here are GitLab’s current key topics with their drivers:
+Here are GitLab's current key topics with their drivers:
 
 ### Environment
 

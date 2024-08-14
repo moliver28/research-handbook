@@ -1,14 +1,7 @@
 ---
-
 title: Runner Group - Risk Map
 description: "The goal of this page is to document a general risk map for the Runner group."
 ---
-
-
-
-
-
-
 
 ## Overview
 

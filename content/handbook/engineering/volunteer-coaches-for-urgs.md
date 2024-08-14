@@ -1,13 +1,6 @@
 ---
-
 title: "Volunteer Coaches for URGs"
 ---
-
-
-
-
-
-
 
 ## Pilot Program Overview
 
@@ -39,11 +32,11 @@ graph LR
 
 To make this program as scalable as possible we partner with other organizations that run their own education, training, coaching, or mentorship programs. They already have processes, curriculum, students, and coaches. GitLab supplies additional coaches through this program. If you run such an organization and would like to tap into our pool of coaches, please contact [Roos Takken](https://gitlab.com/rtakken) or [Giuliana Lucchesi](https://gitlab.com/glucchesi), People Business Partners who work with GitLab Engineering.
 
-### [Latinitas](https://latinitasmagazine.org/)
+### Latinitas
 
-Here is a little bit about **Latinitas** in [their own words](https://latinitasmagazine.org/about-us/):
+Here is a little bit about **[Latinitas](https://latinitasmagazine.org/)** in [their own words](https://latinitasmagazine.org/about-us/):
 
-> Latinas are underestimated and underrepresented. It’s time for Latinas to know that they are important; they deserve to see their experiences reflected honestly and accurately.
+> Latinas are underestimated and underrepresented. It's time for Latinas to know that they are important; they deserve to see their experiences reflected honestly and accurately.
 > Through after-school clubs, camps, events and publications, and channels, we provide a space, both in the physical and online, for girls to express themselves, develop their skills, learn about their culture and discover their unique voice.
 
 GitLab Contact: [Melissa Ushakov](https://gitlab.com/mushakov)
@@ -53,9 +46,9 @@ GitLab Contact: [Melissa Ushakov](https://gitlab.com/mushakov)
 | [Melissa Ushakov](/handbook/company/team/#mushakov)      |   February 2021     |   TBD  |
 | [Chad Woolley](/handbook/company/team/#cwoolley-gitlab)     |    February 2021     |   TBD  |
 
-### [FreeCodeCamp](https://www.freecodecamp.org/)
+### FreeCodeCamp
 
-Here is a little bit about **FreeCodeCamp** in [their own words](https://www.freecodecamp.org/learn):
+Here is a little bit about **[FreeCodeCamp](https://www.freecodecamp.org/)** in [their own words](https://www.freecodecamp.org/learn):
 
 > Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public. We also have thousands of freeCodeCamp study groups around the world.
 
@@ -70,9 +63,9 @@ GitLab Contact: [Greg Myers](https://gitlab.com/greg)
 
 Coaches interested in helping others in the freeCodeCamp community are encouraged to join the [freeCodeCamp Forum](https://forum.freecodecamp.org/) to help provide guidance and answer questions.
 
-### [re:learn](https://relearn.ng/)
+### re:learn
 
-Here is a little bit about **re:learn** in [their own words](https://relearn.ng/):
+Here is a little bit about **[re:learn](https://relearn.ng/)** in [their own words](https://relearn.ng/):
 
 > At re:learn, our goal is to help schools use technology in a smart way to enhance learning. Through content curation and capacity development - with a wide network of trained facilitators, our aim is to improve the learning experience in and out of the classroom.
 

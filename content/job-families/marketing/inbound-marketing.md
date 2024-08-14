@@ -13,7 +13,7 @@ Inbound Marketing focuses on expanding GitLab's organic discovery with data-driv
 - Be an expert on our buyer persona audiences, speicifically the language they use to describe problems GitLab solves and the way they prefer to interact with marketing and sales teams.
 - Be an expert on our customer lifecycle, and ways in which customer needs are evolving/how our product meets them.
 - Work with product team to implement marketing strategies across trial/product experience to impact both customer conversion and future retention/upsell.
-- Grow inbound demand through GitLab’s marketing site by optimizing the customer journey:
+- Grow inbound demand through GitLab's marketing site by optimizing the customer journey:
   - Improve conversion rate from search results to website visitor.
   - Improve conversion rate from website visitor to gated submit event (resources, webcasts, trials).
   - Improve conversion rate from gated submit event to activated trial.

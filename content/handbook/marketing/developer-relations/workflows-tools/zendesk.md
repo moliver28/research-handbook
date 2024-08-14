@@ -1,14 +1,6 @@
 ---
-
 title: "Zendesk for GitLab Developer Relations"
 ---
-
-
-
-
-
-
-
 
 ## Developer Relations Zendesk instance
 

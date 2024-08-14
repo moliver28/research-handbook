@@ -55,7 +55,7 @@ To share your time-off:
 
 1. In Slack, find the `Time Off by Deel` application under the `Apps` menu.
 1. Under `Home`, click on `Your Events` to show a dropdown.
-1. Click on ‘Calendar Sync’ under the Settings break.
+1. Click on 'Calendar Sync' under the Settings break.
 1. Click `Add calendar` under `Additional calendars to include?`. Use the calendar ID above.
 
 To visualize the calendar:
@@ -127,6 +127,61 @@ These items must be triaged continuously throughout the milestone which means th
         - If the incident isn't resolved in 30 minutes or more, investigate on it.
         - Write down in the insident Slack thread all the steps that were done to resolve it.
 
+#### Handover
+
+1. As Reaction Rotation is continous process, post the handover status to the reaction rotation issue using the following template:
+
+<details>
+<summary>Reaction Rotation Handover Template</summary>
+
+### Reaction Rotation Handover Template
+
+```markdown
+
+---
+
+**Outgoing Engineers:** [1st reaction rotation eng., 2nd reaction rotation eng.]
+
+**Incoming Engineers:** [1st reaction rotation eng., 2nd reaction rotation eng.]
+
+---
+
+#### **Ongoing Tasks and Issues**
+
+1. **Security Tasks:**
+   - **Vulnerabilities:**
+     - [Issue #1234](link to issue): Description of the vulnerability, current status, and next steps.
+   - **Security Automation Failures:**
+     - [Automation Job #9012](link to job): Description of the failure, any initial troubleshooting steps taken, and next steps.
+   - **Dependency Updates:**
+     - [Dependency Update #3456](link to update): Description, current status, and next steps for updating the dependency.
+
+2. **Support Tasks:**
+   - **Support Requests:**
+     - [Request #7890](link to request): Description of the support request in progress, current status, and any communication with the requester.
+   - **Slack Channels Monitoring:**
+     - #g_secure-composition-analysis: Summary of recent discussions, any unresolved questions, and pending actions.
+     - #s_secure-alerts: Summary of recent alerts, any unresolved issues, and pending actions.
+
+3. **Maintenance Tasks:**
+   - **Community Contributions:**
+     - [Merge Request #6789](link to MR): Description of the contribution, current status, and next steps.
+   - **Scheduled Bugs and Maintenance Issues:**
+     - [Issue #3456](link to issue): Description of the issue, current status, and next steps.
+
+#### **Additional Notes**
+
+1. **Any additional context or notes relevant to the next engineer:**
+   - Additional Note.
+
+```
+
+This handover template ensures that the incoming engineer is fully informed of the current status of tasks, issues, and any important context. It facilitates a smooth transition and minimizes the risk of overlooking critical responsibilities.
+
+</details>
+
+1. Assign ownership of the [Reaction Rotation group](https://gitlab.com/groups/gitlab-org/secure/composition-analysis-dev/reaction-rotation/-/group_members?with_inherited_permissions=exclude) to the new engineers.
+
 ### Security vulnerabilities triaging process
 
 We are responsible for triaging vulnerabilities reported on 2 sets of projects: the projects maintained by GitLab and the upstream scanner software we might depend on. Though, we have different processes that apply depending on the situation.
@@ -135,7 +190,7 @@ See the [Secure sub-department vulnerability management process](/handbook/engin
 
 #### Security Policy
 
-We prioritize findings by their CVSS severities and [SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas), and currently focus on security findings with these severity levels:
+We prioritize findings by their CVSS severities and [SLAs](/handbook/security/product-security/vulnerability-management/sla/), and currently focus on security findings with these severity levels:
 
 - Critical
 - High
@@ -148,7 +203,7 @@ Please utilize all the time you have set aside. If you complete all the ones at 
 
 We use the Vulnerability Report with filters to focus on items matching [our policy](#security-policy) and reported on the relevant projects.
 
-1. [Analyzers Vulnerability Report](https://gitlab.com/groups/gitlab-org/security-products/analyzers/-/security/vulnerabilities/?state=DETECTED&severity=CRITICAL&severity=HIGH&projectId=13150952,15369510,24673064,52241202,6126012,9450192&activity=STILL_DETECTED)
+1. [Analyzers Vulnerability Report](https://gitlab.com/groups/gitlab-org/security-products/analyzers/-/security/vulnerabilities/?state=DETECTED&severity=CRITICAL,HIGH&projectId=13150952,15369510,24673064,52241202,6126012,9450192&activity=STILL_DETECTED)
     - To configure the report manually, select all [shared](#shared), [container scanning](#container-scanning), and [dependency scanning](#dependency-scanning) projects and apply the `Still detected` activity filter and apply the `Needs Triage` status.
 1. [License-db Vulnerability Report](https://gitlab.com/groups/gitlab-org/security-products/license-db/-/security/vulnerabilities/?state=DETECTED&severity=CRITICAL,HIGH&projectId=39193358,39229232,39233486,39298809,39622674,40857363,45266022&activity=STILL_DETECTED)
     - To configure the report manually, select all [license-db](#license-db) projects and apply the `Still detected` activity filter and apply the `Needs Triage` status.
@@ -257,7 +312,7 @@ that have impacted composition analysis in the future.
     ```text
     <!--
     Select one of the following severities
-    Ref: https://about.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity
+    Ref: https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity
     -->
     /label ~"severity::1"
     /severity S1
@@ -273,7 +328,7 @@ that have impacted composition analysis in the future.
 
     <!--
     Select one of the following priorities
-    Ref: https://about.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority
+    Ref: https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority
     -->
     /label ~"priority::1"
     /label ~"priority::2"
@@ -301,9 +356,9 @@ detection, resolution, and any other events that you feel are worth highlighting
 
 ### Maintenance triaging process
 
-To help our Product Manager prioritize maintenance issues, the engineering team assigns them a [priority label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority).
+To help our Engineering Manager prioritize maintenance issues, the engineering team assigns them a [priority label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority).
 
-1. Leverage the [Maintenance issues board](https://gitlab.com/groups/gitlab-org/-/boards/2168528?label_name[]=group%3A%3Acomposition%20analysis&label_name[]=type%3A%3Amaintenance).
+1. Leverage the [Maintenance issues board](https://gitlab.com/groups/gitlab-org/-/boards/7658725?label_name[]=group%3A%3Acomposition%20analysis&label_name[]=type%3A%3Amaintenance).
 1. For each open issue that has no Priority label ("Open" column), shortly investigate the issue (< 1h) and comment with your findings. Make sure the correct sub-category label is applied per our [Work type clasification](/handbook/engineering/metrics/#work-type-classification) (e.g. `~maintenance::refactor`).
 
 ### Code review
@@ -356,6 +411,11 @@ The OCS module is part of the [`gitlab-agent`](https://gitlab.com/gitlab-org/clu
 
 - [semver_dialects](https://gitlab.com/gitlab-org/ruby/gems/semver_dialects)
 
+### CI/CD components
+
+- [Dependency Scanning](https://gitlab.com/components/dependency-scanning)
+- [Container Scanning](https://gitlab.com/components/container-scanning)
+
 ### Upstream scanner mirrors
 
 As some of our analyzers rely on open source software, we include them in our security testing to increase coverage and reduce risk.
@@ -373,7 +433,7 @@ The vulnerabilities reported on the currently used version of the scanner are au
 #### Setting up a mirror
 
 1. create a new project in https://gitlab.com/gitlab-org/security-products/dependencies (blank project).
-2. set up the project repository as [a pull mirror](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html#pulling-from-a-remote-repository) of the upstream repository.
+2. set up the project repository as [a pull mirror](https://docs.gitlab.com/ee/user/project/repository/mirror/#pulling-from-a-remote-repository) of the upstream repository.
 3. find the git tag that matches the version currently used by our analyzer (usually represented by the `SCANNER_VERSION` variable in the analyzer's `Dockerfile`). Use exact commit if there is no git tag for the corresponding release we use.
 4. create a branch from that ref following naming convention `VERSION-security-checks` where `VERSION` is the version of the upstream scanner we currently use (e.g. `v6.12.0`).
 5. add a `.gitlab-ci.yml` configuration file to configure all compatible security scans.
@@ -383,6 +443,15 @@ The vulnerabilities reported on the currently used version of the scanner are au
 
 We check for new releases of the upstream scanners on a monthly basis, as part of our [release issue](https://gitlab.com/gitlab-org/security-products/release/-/blob/master/scripts/templates/release_issue.md.erb). When an update is available, a new issue is created using the [update scanner issue template](https://gitlab.com/gitlab-org/security-products/release/-/blob/master/scripts/templates/update_scanner_issue.md.erb) and added to the next milestone.
 
+##### Upstream Tools and Analyzers list
+
+1. [Trivy](https://gitlab.com/gitlab-org/security-products/dependencies/trivy).
+   1. [Container Scanning](https://gitlab.com/gitlab-org/security-products/analyzers/container-scanning/-/blob/master/doc/howto/update-scanners.md)
+   1. [Trivy K8S wrapper](https://gitlab.com/gitlab-org/security-products/analyzers/trivy-k8s-wrapper/-/blob/main/docs/update_scanner.md)
+1. [OpenTofu](https://opentofu.org/)
+   1. [Deployment](https://gitlab.com/gitlab-org/security-products/license-db/deployment)
+1. [OpenTofu component](https://gitlab.com/components/opentofu)
+   1. [Deployment](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/.gitlab-ci.yml#L5)
 Every analyzer relying on an upstream scanner has a "*How to update the upstream Scanner*" section in their readme detailing the process. This includes a verification for possible new security vulnerabilities and a license check which are detailed below.
 
 ##### Security checks when updating an upstream scanner

@@ -7,9 +7,7 @@ controlled_document: true
 This document only covers our shared and GitLab shared runners, which are
 available for GitLab.com users and managed by the [Infrastructure teams](../).
 
-## General Architecture
-
-{: #ci-general-arch}
+## General Architecture {#ci-general-arch}
 
 Our CI infrastructure is hosted on Google Cloud Engine (GCE). In GCE we
 use the `us-east1-c` and `us-east1-d`  All of them are configured via
@@ -19,11 +17,11 @@ use terraform at this time.
 In each region we have few types of machines:
 
 - **X-runners-manager** - hosts with the GitLab Runner process. These hosts
-  handle job’s execution and autoscaled machines scheduling. For the second task
+  handle job's execution and autoscaled machines scheduling. For the second task
   they are using Docker Machine and API exposed by used cloud provider.
 - **autoscaled-machine-N** - hosts created and managed by the GitLab Runner.
-  They are used to run a job’s scripts inside of Docker containers. Currently
-  we’re allowing a machine to be used only by one job at once. Machines created
+  They are used to run a job's scripts inside of Docker containers. Currently
+  we're allowing a machine to be used only by one job at once. Machines created
   by `gitlab-shared-runners-manager-X` and `private-runners-manager-X` are
   re-used. However, machines created by `shared-runners-manager-X` are removed
   immediately after the job is finished.
@@ -48,9 +46,7 @@ The runners are connected as follows:
   dev.gitlab.org. They are registered as specific runners to the GitLab
   application projects and used only by us. Privileged mode is on.
 
-## Detailed Architecture
-
-{: #ci-detailed-arch-diagram}
+## Detailed Architecture {#ci-detailed-arch-diagram}
 
 <img src="/images/handbook/engineering/infrastructure/production-architecture/ci-cd-gce-arch.png" alt="">
 
@@ -62,9 +58,7 @@ The runners are connected as follows:
 
 [Source](https://docs.google.com/drawings/d/1oApCYUuh7ft8hnm9ToWjG8Ce9g1Hvo8MKTBL5DtjDk8/edit)
 
-## Data Flow
-
-{: #ci-data-flow}
+## Data Flow {#ci-data-flow}
 
 ### Management Data Flow
 
@@ -78,18 +72,18 @@ The runners are connected as follows:
 
 - **runners-manager-X** hosts are connected to one or more GitLab instances and
   are constantly asking the API for new jobs that should be executed. After the
-  job is started Runners are also updating the job’s trace and status by sending
-  updates to the GitLab instance. This communication uses Runner’s API from
+  job is started Runners are also updating the job's trace and status by sending
+  updates to the GitLab instance. This communication uses Runner's API from
   GitLab APIv4.
 
 - **autoscaled-machine-N** hosts first access GitLab with the git+http(s)
   protocol to receive project sources with git pull or git fetch operations,
   depending on configuration. This operation uses the general git+http(s)
   protocol and specific type of authentication (using gitlab-ci-token feature).
-  The job may also access project’s submodules using GitLab with the same
+  The job may also access project's submodules using GitLab with the same
   protocol as for the project. These hosts may also upload and/or download
   artifacts to and from GitLab. The `gitlab-runner-helper` binary is used for
-  this purpose which uses Runner’s API from GitLab APIv4.
+  this purpose which uses Runner's API from GitLab APIv4.
 
 ### Cloud Region Internal Communication
 
@@ -99,7 +93,7 @@ The runners are connected as follows:
   Engine API endpoint is available. In GCE this uses the internal IP
   address. Using the Docker Engine API, Runner first schedules the
   different containers used for the purpose of the job. It then starts
-  job’s scripts and receive commands output. This output is then sent
+  job's scripts and receive commands output. This output is then sent
   upstream to GitLab as it was described above.
 
 - **prometheus-X** to **autoscaled-machine-N** - the Prometheus server requests
@@ -120,11 +114,9 @@ The runners are connected as follows:
   using Docker Registry API, pulls Docker Images from external machines. This
   could be Docker Hub, GitLab Registry, or any other Docker compatible registry.
 
-## Deployment and Configuration Updates
+## Deployment and Configuration Updates {#ci-configuration}
 
-{: #ci-configuration}
-
-The Runner and it’s configuration is handled with Chef and defined on
+The Runner and it's configuration is handled with Chef and defined on
 chef.gitlab.com. The detailed upgrade process is described in the [associated runbook](https://gitlab.com/gitlab-com/runbooks/blob/master/howto/update-gitlab-runner-on-managers.md).
 
 In summary:
@@ -140,28 +132,26 @@ In summary:
 
 Why the difference?
 
-When we’re updating Runner, the process needs to be stopped. If this is done
-during job’s execution, it will break the job. That’s why we use Runner’s
-feature named graceful shutdown. By sending SIGQUIT signal to the Runner, we’re
+When we're updating Runner, the process needs to be stopped. If this is done
+during job's execution, it will break the job. That's why we use Runner's
+feature named graceful shutdown. By sending SIGQUIT signal to the Runner, we're
 causing Runner to not request new jobs but still wait for existing ones to
 finish. If this was done from inside of `chef-client` run it could fail in
-unexpected way. With the `/root/runner_upgrade.sh` script we’re first stopping
+unexpected way. With the `/root/runner_upgrade.sh` script we're first stopping
 Runner gracefully (with 7200 minutes timeout) and then starting `chef-client` to
 update the version.
 
-For Runner’s configuration update there is no need to stop/restart Runner’s
-process and since we’re not changing Runner’s version, `chef-client` is not
-upgrading package (which could trigger Runner’s process stop). In that case we
+For Runner's configuration update there is no need to stop/restart Runner's
+process and since we're not changing Runner's version, `chef-client` is not
+upgrading package (which could trigger Runner's process stop). In that case we
 can simply run `sudo chef-client`. This will update the config.toml file and
 Runner will automatically update most of the configuration.
 
-Some of the general configuration parameters can’t be refreshed without
+Some of the general configuration parameters can't be refreshed without
 restarting the process. In that case we need to use the same script as for the
 Runner Upgrade.
 
-## Important Links and Metrics
-
-{: #ci-important-info-links}
+## Important Links and Metrics {#ci-important-info-links}
 
 ### Monitoring Information
 
@@ -177,7 +167,7 @@ Runner Upgrade.
   `prometheus-01.us-east1-d.gce.gitlab-runners.gitlab.net` - for scraping
   metrics from exporters installed on autoscaled machines - currently node
   exporter only.
-  - In GCP we’re using native GCP service discovery support that is available in
+  - In GCP we're using native GCP service discovery support that is available in
     Prometheus.
 - Alerts are sent to #ci-cd-alerts channel on Slack
 

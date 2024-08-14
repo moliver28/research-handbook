@@ -23,7 +23,7 @@ Once a new branch is created, only commits that pass the CI tests are eligible f
 
 Automated tasks in the [release-tools](https://gitlab.com/gitlab-org/release-tools) project are setup to drive the next steps:
 
-- Twice every hour, a task runs to cherry-pick merge requests labeled with `~"Pick into auto-deploy"` (See [Labels of importance]).
+- Twice every hour, a task runs to cherry-pick merge requests labeled with `~"Pick into auto-deploy"` (See [Labels of importance](#labels-of-importance)).
 - Twice every hour, a task searches for the latest "green build" in the auto-deploy branch.
   - If it finds a commit that has not been previously deployed, it will start the process of creating a new package.
   - If the commit has already been deployed, the task will not take any actions.

@@ -1,11 +1,8 @@
 ---
-
 title: How to Handle Product Offering Migration Tickets
 description: "How to handle product offering migration tickets"
 category: Handling tickets
 ---
-
-
 
 ## Overview
 

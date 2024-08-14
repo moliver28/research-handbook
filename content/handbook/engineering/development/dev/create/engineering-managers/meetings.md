@@ -1,23 +1,16 @@
 ---
-
 title: Meetings
 ---
-
-
-
-
-
-
 
 ---
 
 ## How do we lead 1-1 meetings efficiently?
 
-The Engineering Manager 1-1’s are held weekly on Tuesdays.  They are 30 minutes each in order to make an efficient usage of everyone’s time. Synchronous time at GitLab is a very valuable commodity.  It should always be regarded as an opportunity to connect, communicate and collaborate.  Working remotely, these ideas become even more important.  Consequently the time should be well respected through planning and preparation prior to the meeting.
+The Engineering Manager 1-1's are held weekly on Tuesdays.  They are 30 minutes each in order to make an efficient usage of everyone's time. Synchronous time at GitLab is a very valuable commodity.  It should always be regarded as an opportunity to connect, communicate and collaborate.  Working remotely, these ideas become even more important.  Consequently the time should be well respected through planning and preparation prior to the meeting.
 
 ## Audience
 
-This is the template used by the Create Stage Senior Manager.  Each Engineering Manager conducts meetings using their own personal styles that work best for them. However this template is available if anyone viewing this template finds that it would be useful for their 1-1’s.
+This is the template used by the Create Stage Senior Manager.  Each Engineering Manager conducts meetings using their own personal styles that work best for them. However this template is available if anyone viewing this template finds that it would be useful for their 1-1's.
 
 ## Async Meeting Prep
 
@@ -47,20 +40,20 @@ The template below is used for every 1-1 the Senior Manager hosts.  This templat
 - What has gone well this past week?
 - What has not gone so well this past week?
 - How is everything going with people you work with/on your team?
-- Any interactions you’d like to discuss?
+- Any interactions you'd like to discuss?
 - Any CREDIT Values you would care to highlight?
 - Do you have any questions about any recent GitLab changes?
   - Is there anything can I help you with between now and the next time we meet?
-  - Is there anything we didn’t cover that you’d like to discuss next time?
+  - Is there anything we didn't cover that you'd like to discuss next time?
 - Do you have any feedback for me?
 
 ## Frequency
 
-The Engineering Manager 1-1’s are held weekly on Tuesdays.  They are 30 minutes each in order to make an efficient usage of everyone’s time. One of the best gifts to give to a team member is respecting their time.  We all have many action items each day and using someone’s time efficiently frees them up to work on their To Do list for the day.  Originally these meetings were an hour long but we were able to divide our meeting time in half through leaning into a more asynchronous format.
+The Engineering Manager 1-1's are held weekly on Tuesdays.  They are 30 minutes each in order to make an efficient usage of everyone's time. One of the best gifts to give to a team member is respecting their time.  We all have many action items each day and using someone's time efficiently frees them up to work on their To Do list for the day.  Originally these meetings were an hour long but we were able to divide our meeting time in half through leaning into a more asynchronous format.
 
 ## Sync vs. Async
 
-Originally the entire 1-1’s were sync and one hour long.  We applied iteration to these meetings in order to make a more efficient usage of our time. We began to break the meetings up into two sections:
+Originally the entire 1-1's were sync and one hour long.  We applied iteration to these meetings in order to make a more efficient usage of our time. We began to break the meetings up into two sections:
 
 - Verbalize
 - Read Only
@@ -81,11 +74,11 @@ Another iteration of the 1-1 meeting was recommended collectively by the Create 
   - Tracking these action items using Issue Boards gives a visual representation of the current activities for each Engineering   Manager which is much more efficient than scanning through a document for both the Engineering Manager and the Senior Manager
 - Transparency
   - Due Dates are set by the Engineering Manager and communicated in the issue so that the estimated due date is transparent
-  - Level of Effort Labels are used so that the Engineering Manager’s workload is transparent to the Senior Manager which allows the Senior Manager to calibrate the priority and action items assigned to each Engineering Manager based on their Issue Boards and existing issues (action items)
+  - Level of Effort Labels are used so that the Engineering Manager's workload is transparent to the Senior Manager which allows the Senior Manager to calibrate the priority and action items assigned to each Engineering Manager based on their Issue Boards and existing issues (action items)
 
 ## Removing Distractions
 
-Throughout a given day there are many distractions. There are often times I would like to pick up a Zoom call and ask someone a question.  1-1’s provide a space for the questions that are not so urgent. They might be important however, they might also be able to wait a few days.  Whenever you have the opportunity to avoid interrupting or causing a distraction to the team, you should take that opportunity to remove distractions by adding an item in the upcoming 1-1 document.
+Throughout a given day there are many distractions. There are often times I would like to pick up a Zoom call and ask someone a question.  1-1's provide a space for the questions that are not so urgent. They might be important however, they might also be able to wait a few days.  Whenever you have the opportunity to avoid interrupting or causing a distraction to the team, you should take that opportunity to remove distractions by adding an item in the upcoming 1-1 document.
 
 ## Giving Feedback
 

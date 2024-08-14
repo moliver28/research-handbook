@@ -3,9 +3,9 @@ title: "DevOps Solution Resource: Software Compliance"
 description: "How GitLab approaches the software compliance solution including messaging and key resources to help marketing and sales."
 ---
 
-## Looking for a customer-facing overview of GitLab's Software Compliance capabilities? See the [Compliance Solution](https://about.gitlab.com/solutions/compliance)
+**Looking for a customer-facing overview of GitLab's Software Compliance capabilities? See the [Compliance Solution](https://about.gitlab.com/solutions/compliance)**
 
-## GitLab field teams refer to this [Security and Governance highspot page](https://gitlab.highspot.com/items/61f415455b20d8eb224750a3) for latest information
+**GitLab field teams refer to this [Security and Governance highspot page](https://gitlab.highspot.com/items/61f415455b20d8eb224750a3) for latest information**
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around DevSecOps.
 
@@ -95,7 +95,7 @@ GitLab Software Compliance solution overview
 | ------ | ------ |
 | Single Application for Entire DevOps Lifecycle | a single application eliminates complex integrations, data chokepoints, and toolchain maintenance, resulting in greater productivity |
 | End-to-End Insight and Visibility | GitLab's common data model enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically |
-| Deploy Your Software Anywhere | GitLab is infrastructure-agnostic (supporting GCP, AWS, Azure, OpenShift, VMware, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment |
+| Deploy Your Software Anywhere | GitLab is infrastructure-agnostic (supporting GCP, AWS, Azure, OpenShift, VMWare, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment |
 | Leading SCM and CI in One Application | having the backbone of a DevOps toolchain in one application streamlines code review & collaboration (one interface, one user model, one data model) |
 | Built-in Security and Compliance | move security testing earlier in the development lifecycle with out-of-the-box security features (code scanning, dependency scanning, secrets detection, etc.) and automated security testing and audit controls to facilitate policy compliance |
 
@@ -155,7 +155,7 @@ Note: The Free tier does not include providing these results in vulnerability re
 **Key Compliance features with Ultimate:**
 
 - [Compliant workflows and Compliant pipelines](https://docs.gitlab.com/ee/user/project/settings/index.html#compliance-pipeline-configuration) - projects are assigned a compliance framework and policies are enforced accordingly. This is a key capability for winning compliance opportunities!
-- [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard/index.html) - See if merge requests were approved, and by whom.
+- [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_center/) - See if merge requests were approved, and by whom.
 - Fuzz testing, called out by the 2021 US Executive Order to Improve Cybersecurity
 - [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html) - identify the presence of new software licenses included in your project and track project dependencies. Approve or deny the inclusion of a specific license.
 
@@ -233,8 +233,8 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 **5. Related security questions**
 
 - What percentage of code are you currently scanning? Are there holes where an attacker could more easily enter and then traverse laterally? How much more would it cost you to scan all of your code?
-- If you are using containers, orchestrators, and/or microservices/API’s, how are you scanning them for vulnerabilities and monitoring them during production?
-- How much of the security team’s time is spent tracking vulnerabilities, triaging them, and following up to see that they were remediated?
+- If you are using containers, orchestrators, and/or microservices/API's, how are you scanning them for vulnerabilities and monitoring them during production?
+- How much of the security team's time is spent tracking vulnerabilities, triaging them, and following up to see that they were remediated?
 
 #### Before state and negative consquences
 
@@ -342,7 +342,7 @@ The following will link to enablement and training videos and content.
 
 GitLab offers a [variety of pre-packaged and custom services](https://about.gitlab.com/services/) for our customers and partners. The following are service offers specific to this solution. For additional services, see the [full service catalog](https://about.gitlab.com/services/catalog/).
 
-- [DevOps Fundamentals Training](https://about.gitlab.com/services/education/devops-fundamentals/) (all stages of the DevOps lifecycle)
+- [DevOps Fundamentals Training](https://university.gitlab.com/courses/gitlab-devops-fundamentals) (all stages of the DevOps lifecycle)
 - [GitLab CI/CD Training](https://about.gitlab.com/services/education/gitlab-ci/)
 - [Integration Services](https://about.gitlab.com/services/implementation/integration/ )
 

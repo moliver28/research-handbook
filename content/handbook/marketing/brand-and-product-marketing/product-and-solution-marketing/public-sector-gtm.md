@@ -1,13 +1,6 @@
 ---
-
 title: "Public Sector Go To Market"
 ---
-
-
-
-
-
-
 
 ### Public Sector Message House
 
@@ -83,7 +76,7 @@ _User personas*
 
 #### Unifying Message
 
-GitLab secures your speed to mission by addressing elements to stay ahead of threat vectors, automating the end-to-end DevSecOps experience, and empowering collaboration between teams and vendors.  With development, operations, security, and compliance processes embedded within a single DevSecOps platform and aligning to the [Improving the Nation’s Cybersecurity](https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/12/fact-sheet-president-signs-executive-order-charting-new-course-to-improve-the-nations-cybersecurity-and-protect-federal-government-networks/) Executive Order,  GitLab helps you achieve a secure and successful digital transformation - without compromising your speed to mission.
+GitLab secures your speed to mission by addressing elements to stay ahead of threat vectors, automating the end-to-end DevSecOps experience, and empowering collaboration between teams and vendors.  With development, operations, security, and compliance processes embedded within a single DevSecOps platform and aligning to the [Improving the Nation's Cybersecurity](https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/12/fact-sheet-president-signs-executive-order-charting-new-course-to-improve-the-nations-cybersecurity-and-protect-federal-government-networks/) Executive Order,  GitLab helps you achieve a secure and successful digital transformation - without compromising your speed to mission.
 
 #### Pain Point 1: How do we stay ahead of threat vectors to ensure we are securing the mission?
 
@@ -111,7 +104,7 @@ GitLab secures your speed to mission by addressing elements to stay ahead of thr
 
 **Solution:** GitLab with end-to-end DevSecOps workflows is built on a single codebase enabling software development that eliminates the digital duct tape inefficiencies so you can accelerate the delivery of critical capabilities.
 
-A software factory that accelerates the delivery of critical capabilities with flexible, automatic business, development, operations, and security requirements and workflows in one DevSecOps platform speeding  up Authority to Operate (ATO). Slow manual processes are eliminated, what once took months to produce is now developed, tested, and in a citizen’s hands in days/weeks.
+A software factory that accelerates the delivery of critical capabilities with flexible, automatic business, development, operations, and security requirements and workflows in one DevSecOps platform speeding  up Authority to Operate (ATO). Slow manual processes are eliminated, what once took months to produce is now developed, tested, and in a citizen's hands in days/weeks.
 
 GitLab is cloud-neutral—connecting with AWS, Google Cloud, Azure, and beyond—so IT leaders and developers know it will work seamlessly with other investments now and in the future further enabling the digital transformation journey.
 
@@ -127,7 +120,7 @@ GitLab is cloud-neutral—connecting with AWS, Google Cloud, Azure, and beyond�
 
 **Solution:** GitLab supports public sector missions and enables collaboration between teams and vendors with multi-system integrations. Everyone can contribute at every development stage - Plan, Create, Verify, Secure, Package, Release, Configure, Monitor, Protect, and Manage within one DevSecOps platform. The embedded security, frequent update cycle, and agile project management provide visibility within the SDLC with end-to-end traceability dramatically accelerating the speed to mission — increasing code deployment by up to 200%. GitLab also increases user adoption and employee retention enabling organizations to do more for citizens, peacekeepers, students, and the public sector workforce.
 
-GitLab intimately understands the evolving challenges of software development for mission success and is designed to empower government employees, developers, and vendors to build remotely—or wherever they’re most efficient. GitLab is a pioneer in remote work, recognizing it as an advantage that enables progress.
+GitLab intimately understands the evolving challenges of software development for mission success and is designed to empower government employees, developers, and vendors to build remotely—or wherever they're most efficient. GitLab is a pioneer in remote work, recognizing it as an advantage that enables progress.
 
 **Value Prop Pillars:**
 
@@ -153,11 +146,11 @@ Secure by design:
 Automate software factory deployment:
 
 - [The Paul G. Allen Center for Computer Science & Engineering gains control and flexibility to easily manage 10,000+ projects](https://about.gitlab.com/customers/uw/)
-- [How Chicago’s Cook County assesses economic data with transparency and version control](https://about.gitlab.com/customers/cook-county/)
+- [How Chicago's Cook County assesses economic data with transparency and version control](https://about.gitlab.com/customers/cook-county/)
 
 Empowering the mission:
 
-- [How the U.S. Army Cyber School created “Courseware as Code” with GitLab](https://about.gitlab.com/customers/us_army_cyber_school/)
+- [How the U.S. Army Cyber School created "Courseware as Code" with GitLab](https://about.gitlab.com/customers/us_army_cyber_school/)
 
 GitLab is 100% remote and helps to foster collaborative environments. It has been recognized by numerous awards, including as a [Best Workplace by Inc. Magazine](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/) and a [Top Small and Medium Workplace for Millennials by Fortune](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/).
 

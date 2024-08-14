@@ -1,17 +1,7 @@
 ---
-
 title: "GCP"
 description: "Learn about various aspects of cost management for GCP"
 ---
-
-
-
-
-
-
-
-
-
 
 ---
 

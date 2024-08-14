@@ -6,12 +6,12 @@ title: "DevOps Platform Message House"
 
 In the spirit of [Command of the Message](/handbook/sales/command-of-the-message/), this page will help GitLab team members understand and define the GitLab DevOps Platform solutions to customers in an authentic, consistent manner than differentiates us from our competitors. It includes:
 
-- [Historical context of the market evolution](./index.html#the-four-phases-of-devops)
-- [General messaging guidelines](./index.html#messaging-guidelines)
-- [Third-party validation and perspective](./index.html#supporting-data)
-- [Segment-specific messaging suggestions](./index.html#segment-messaging-and-positioning)
+- [Historical context of the market evolution](index.html#the-four-phases-of-devops)
+- [General messaging guidelines](index.html#messaging-guidelines)
+- [Third-party validation and perspective](index.html#supporting-data)
+- [Segment-specific messaging suggestions](index.html#segment-messaging-and-positioning)
 
-**NOTE: If you are searching for approved copy to describe The DevOps Platform, please skip ahead to [Messaging Guidelines](./index.html#messaging-guidelines).**
+**NOTE: If you are searching for approved copy to describe The DevOps Platform, please skip ahead to [Messaging Guidelines](index.html#messaging-guidelines).**
 
 ## The Four Phases of DevOps
 
@@ -32,7 +32,7 @@ To address this, organizations moved to the second phase, *Best in Class DevOps*
 
 ### Phase 3: Do It Yourself (DIY): Custom integration
 
-To remedy this problem, organizations adopted “Do It Yourself DevOps,” building on top of and between their tools. They performed a lot of custom work to integrate their DevOps point solutions together; however, since these tools were developed independently without integration in mind, they never fit quite right. For many organizations, maintaining DIY DevOps was a significant effort and resulted in higher costs, with engineers maintaining tooling integration rather than working on their core product.
+To remedy this problem, organizations adopted "Do It Yourself DevOps," building on top of and between their tools. They performed a lot of custom work to integrate their DevOps point solutions together; however, since these tools were developed independently without integration in mind, they never fit quite right. For many organizations, maintaining DIY DevOps was a significant effort and resulted in higher costs, with engineers maintaining tooling integration rather than working on their core product.
 
 ### Phase 4: DevOps Platform: Single application
 
@@ -57,8 +57,8 @@ As we look ahead to software-led organizations becoming even more distributed an
 |--------------|----------|----------|----------|
 | **Promise** | **Efficiency**:<br>Maximize R&D and IT productivity. | **Velocity**:<br>Accelerate speed to market. | **Security**:<br>Compliance without compromise. |
 | **Customer pain** |  Organizations waste time and resources maintaining toolchain integrations, create silos of tool-specific competencies, create "Data gaps" in integrations resulting in incomplete context and manual workarounds. | DIY toolchains limit visibility into critical DevOps data that should inform decisions. They are also unreliable and inconsistent, prohibiting organizations from executing on decisions at scale without dramatically increasing risk. | Security scanning happens too late--if at all--requiring extensive rework as developers trace vulnerabilities back to their source and repair both the vulnerable code and other code changes built upon it. |
-| **GitLab Promise** | As a single application, built on a unified data source, GitLab provides a complete DevOps solution without the need to spend any resources on building and maintaining a DIY toolchain. If integrations are necessary for any reason, businesses can integrate once and have access to the entire platform. | GitLab’s single application, built on a unified data source, provides a complete end-to-end view of the entire software supply chain, enabling full transparency. The lack of toolchain integrations creates a more consistent, predictable, lower-maintenance development flow. | With built-in security scanners, organizations can scan every line of code as it is committed, allowing developers to identify and remediate vulnerabilities before they are even pushed. |
-| **ROI Theme** | As a single application, built on a unified data source, GitLab provides a complete DevOps solution without the need to spend any resources on building and maintaining a DIY toolchain. If integrations are necessary for any reason, businesses can integrate once and have access to the entire platform. | GitLab’s single application, built on a unified data source, provides a complete end-to-end view of the entire software supply chain, enabling full transparency. The lack of toolchain integrations creates a more consistent, predictable, lower-maintenance development flow. | With built-in security scanners, organizations can scan every line of code as it is committed, allowing developers to identify and remediate vulnerabilities before they are even pushed. |
+| **GitLab Promise** | As a single application, built on a unified data source, GitLab provides a complete DevOps solution without the need to spend any resources on building and maintaining a DIY toolchain. If integrations are necessary for any reason, businesses can integrate once and have access to the entire platform. | GitLab's single application, built on a unified data source, provides a complete end-to-end view of the entire software supply chain, enabling full transparency. The lack of toolchain integrations creates a more consistent, predictable, lower-maintenance development flow. | With built-in security scanners, organizations can scan every line of code as it is committed, allowing developers to identify and remediate vulnerabilities before they are even pushed. |
+| **ROI Theme** | As a single application, built on a unified data source, GitLab provides a complete DevOps solution without the need to spend any resources on building and maintaining a DIY toolchain. If integrations are necessary for any reason, businesses can integrate once and have access to the entire platform. | GitLab's single application, built on a unified data source, provides a complete end-to-end view of the entire software supply chain, enabling full transparency. The lack of toolchain integrations creates a more consistent, predictable, lower-maintenance development flow. | With built-in security scanners, organizations can scan every line of code as it is committed, allowing developers to identify and remediate vulnerabilities before they are even pushed. |
 | **Product Proof** | - One system to install and maintain. - End-to-end lifecycle support from one provider. - One point of integration for external systems. - One user interface for the entire lifecycle. | - Value Stream Analytics allows you to monitor and manage the flow of work, identifying inefficiencies and blockers to value delivery. - Automatic correlation of artifacts and actions across the lifecycle--from ideation to code creation to testing, security scans, and performance impact--complete traceability. - Role-based dashboards (e.g., Security Dashboard, Epic Roadmaps) with contextual drill-downs into any level of detail | - Run static and dynamic security scans on every commit--without having to merge code. - Provide clear accountability for the introduction, remediation, and dismissal of security vulnerabilities and policy violations. - Maintain complete context by collaborating in a single system across development, operations, security, and audit/compliance. |
 | **Customer Examples** | [Glympse](https://about.gitlab.com/customers/glympse/) (Replaced 20 distinct tools with GitLab), [Jasper Solutions](https://about.gitlab.com/customers/jasper-solutions/) (33-37% YoY Cost Savings, 30% reduction in cycle time, 25% increase in deployment frequency, 90-95% of projects on budget on time) | [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/) (From biweekly builds to > 1000/day) [BI Worldwide](https://about.gitlab.com/customers/bi_worldwide/) (10X daily deployments for modernized applications, Eliminated challenges of multiple tools, logins, and user experiences) | [HackerOne](https://about.gitlab.com/customers/hackerone/)(Scanning earlier, more frequently, more economically) |
 
@@ -66,7 +66,7 @@ As we look ahead to software-led organizations becoming even more distributed an
 
 In their [Market Guide for DevOps Value Stream Delivery Platforms](https://page.gitlab.com/resources-report-gartner-market-guide-vsdp.html), Gartner's Strategic Planning Assumption was:
 
-**“By 2023, 40% of organizations will have switched from multiple point solutions to DevOps value stream delivery platforms to streamline application delivery, versus less than 10% in 2020.”**
+**"By 2023, 40% of organizations will have switched from multiple point solutions to DevOps value stream delivery platforms to streamline application delivery, versus less than 10% in 2020."**
 
 <sub>[Market Guide for DevOps Value Stream Delivery Platforms](https://page.gitlab.com/resources-report-gartner-market-guide-vsdp.html), Manjunath Bhat, Hassan Ennaciri, Chris Saunderson, Daniel Betts, Thomas Murphy, Joachim Herschmann, 28 September 2020</sub>
 

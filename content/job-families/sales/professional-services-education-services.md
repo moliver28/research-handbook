@@ -4,9 +4,9 @@ title: "Global Education Services"
 
 ## Certification Exam Developer
 
-GitLab’s Education Services team is looking for an experienced certification exam developer responsible for managing the design, development and maintenance of GitLab’s certification exams. In this role, you will lead the efforts to work cross-functionally in designing the competency framework, blueprints, candidate test items, study materials, and test forms.
+GitLab's Education Services team is looking for an experienced certification exam developer responsible for managing the design, development and maintenance of GitLab's certification exams. In this role, you will lead the efforts to work cross-functionally in designing the competency framework, blueprints, candidate test items, study materials, and test forms.
 
-Your goal is to accelerate the adoption of GitLab by ensuring our customers, community and partners of various sizes and industries can gain benefit, demonstrate their product expertise, and advance their careers with GitLab. As a member of the Education Services team, you’ll be part of a team that cares deeply about creating learning experiences that deliver value at scale. We want our customers to not only become GitLab experts, but champions of our brand.
+Your goal is to accelerate the adoption of GitLab by ensuring our customers, community and partners of various sizes and industries can gain benefit, demonstrate their product expertise, and advance their careers with GitLab. As a member of the Education Services team, you'll be part of a team that cares deeply about creating learning experiences that deliver value at scale. We want our customers to not only become GitLab experts, but champions of our brand.
 
 This job family reports to the Sr. Director of Education Services.
 
@@ -54,7 +54,7 @@ Candidates for this position can expect the hiring process to follow the order b
 
 ## Lab Development Engineer
 
-GitLab’s Education Services team is looking for an experienced lab development engineer to design and build hands-on labs for self-paced courses/tutorials. In this role, you'll have experience developing and deploying solutions using cloud-based services, and excellent writing skills.
+GitLab's Education Services team is looking for an experienced lab development engineer to design and build hands-on labs for self-paced courses/tutorials. In this role, you'll have experience developing and deploying solutions using cloud-based services, and excellent writing skills.
 
 Additionally, the ideal candidate will have training development experience and be able to provide analysis of learning materials from a technical perspective. Software development experience would be a plus. Above all, you will have a passion for learning and contributing to team and learner success.
 
@@ -87,7 +87,7 @@ The Lab Development Engineer is a [grade 6](/handbook/total-rewards/compensation
 
 ## Senior Lab Development Engineer
 
-GitLab’s Education Services team is looking for an experienced senior lab development engineer to design and build hands-on assessments for GitLab professional certification program and instructor-led training. In this role, you'll have experience developing and deploying solutions using cloud-based services, a deep technical knowledge of multiple IT domains, and excellent writing skills.
+GitLab's Education Services team is looking for an experienced senior lab development engineer to design and build hands-on assessments for GitLab professional certification program and instructor-led training. In this role, you'll have experience developing and deploying solutions using cloud-based services, a deep technical knowledge of multiple IT domains, and excellent writing skills.
 
 Additionally, the ideal candidate will have training delivery, or training development experience and be able to provide analysis of learning materials from a technical perspective. Software development experience would be a plus. Above all, you will have a passion for learning and contributing to team and learner success.
 
@@ -143,9 +143,9 @@ Candidates for this position can expect the hiring process to follow the order b
 
 ## Technical Curriculum Developer
 
-GitLab’s Education Services team is looking for an experienced technical curriculum developer who will help drive our customer, partner and community facing education efforts. In this role, you create new and improve existing courses for the ever-growing solutions that we offer to our customers, partners, and community across the globe.
+GitLab's Education Services team is looking for an experienced technical curriculum developer who will help drive our customer, partner and community facing education efforts. In this role, you create new and improve existing courses for the ever-growing solutions that we offer to our customers, partners, and community across the globe.
 
-Your goal is to accelerate the adoption of GitLab by ensuring our customers, community and partners of various sizes and industries can gain benefit, demonstrate their product expertise, and advance their careers with GitLab. As a member of the Education Services team, you’ll be part of a team that cares deeply about creating learning experiences that deliver value at scale. We want our customers to not only become GitLab experts, but champions of our brand.
+Your goal is to accelerate the adoption of GitLab by ensuring our customers, community and partners of various sizes and industries can gain benefit, demonstrate their product expertise, and advance their careers with GitLab. As a member of the Education Services team, you'll be part of a team that cares deeply about creating learning experiences that deliver value at scale. We want our customers to not only become GitLab experts, but champions of our brand.
 
 This job family reports to the Sr. Director of Education Services.
 
@@ -161,7 +161,7 @@ The Technical Curriculum Developer is a [grade 6](/handbook/total-rewards/compen
 - Work with Instructional Designers to plan, create, analyze, and update courses, exercises and assessments that can be delivered as instructor-led, self-paced and virtual labs.
 - Apply modern instructional design techniques, best practices, and adult learning theory to design highly effective and compelling learning experiences
 - Continually iterate, update and improve your content portfolio
-- Contributes to accreditation/certification exam questions and answers used to test the learner’s expertise of the subject matter
+- Contributes to accreditation/certification exam questions and answers used to test the learner's expertise of the subject matter
 - Stay up to date with the latest GitLab feature releases
 
 ### Requirements
@@ -190,9 +190,9 @@ Candidates for this position can expect the hiring process to follow the order b
 
 ## Associate LSM Administrator, Education Services
 
-GitLab’s Education Services team is looking for an experienced LMS administrator, education services who will help drive our customer, partner and community facing education efforts. In this role, you'll be responsible for supporting the day-to-day operations of this rapidly scaling team.
+GitLab's Education Services team is looking for an experienced LMS administrator, education services who will help drive our customer, partner and community facing education efforts. In this role, you'll be responsible for supporting the day-to-day operations of this rapidly scaling team.
 
-Your goal is to execute operational tactics and activities, along with providing support for strategic business priorities. An ideal candidate will be a generalist who can support a variety of strategic and operational projects and programs. As a member of the education services team, you’ll be part of a team that cares deeply about creating learning experiences that deliver value at scale.
+Your goal is to execute operational tactics and activities, along with providing support for strategic business priorities. An ideal candidate will be a generalist who can support a variety of strategic and operational projects and programs. As a member of the education services team, you'll be part of a team that cares deeply about creating learning experiences that deliver value at scale.
 
 This job family reports to the Sr. Director of Education Services.
 
@@ -210,7 +210,7 @@ Associate LMS Administrator, Education Services is a [grade 5](/handbook/total-r
 - Perform data analysis and compilation for tracking and reporting purposes
 - Assist in defining project scope, goals and deliverables that support business goals in collaboration with the team – update and adapt to changes as needed
 - Prioritize requests and escalate as required to team leadership
-- Create and manage software “tickets” for improvements to technology systems
+- Create and manage software "tickets" for improvements to technology systems
 - Serve as an embedded chief of staff to the education services leadership team in support of their top initiatives
 
 ### Requirements
@@ -316,13 +316,13 @@ The Senior Technical Instructor is a [grade 7](/handbook/total-rewards/compensat
 ### Senior Technical Instructor Responsibilities
 
 - Extends the Technical Instructor (Intermediate) responsibilities
-- Has extensive knowledge of GitLab’s education tech stack (Thought Industries, Instruqt, Credly)
+- Has extensive knowledge of GitLab's education tech stack (Thought Industries, Instruqt, Credly)
 - Viewed as a subject matter expert and trusted advisor by key stakeholders
 - Innovates and continually improves the Education Services offerings
 - Acts a player/coach and regularly shares best practices and provides constructive feedback to members of the Education Services team and its partners
 - Exerts influence on the overall objectives and long-range goals of the Education Services team
 - Lead and provide direction to other technical instructors on Education Services deliverables.
-- Acts as a mentor and model for GitLab’s Values (Collaboration, Results, Efficiency, Diversity, Inclusion & Belonging, Iteration, and Transparency)
+- Acts as a mentor and model for GitLab's Values (Collaboration, Results, Efficiency, Diversity, Inclusion & Belonging, Iteration, and Transparency)
 
 ### Senior Technical Instructor Requirements
 
@@ -390,7 +390,7 @@ The Senior Manager, Education Delivery is a [grade 9](/handbook/total-rewards/co
 - Ensure Training Specialists and Operations staff are provided with up-to-date knowledge of project related updates, processes, and procedures.
 - Develop a means of measuring the effectiveness of training programs developed or administered through evaluation, testing, and assessment of program outcomes.
 - Align content distribution paths with GitLab Partner ecosystems and experience to increase efficiency and scale
-- Build a partner-centric approach for creating and updating content that answers the “what’s in it for the partner” question and resolves what’s missing from a partner perspective when delivering customer education
+- Build a partner-centric approach for creating and updating content that answers the "what's in it for the partner" question and resolves what's missing from a partner perspective when delivering customer education
 - Manage training delivery and content development of partner and customer education programs
 - Design and implement new training and certification programs to our Partner community, including virtual and onsite instructor-led training, webinars, and e-learning
 - Design and manage a feedback program to evaluate training content, establish KPIs, and maintain a continuous improvement cycle
@@ -401,7 +401,7 @@ Collaborate with Senior leadership to ensure financial and operational goals are
 
 ### Senior Manager, Education Delivery Requirements
 
-- Bachelor’s degree in business, management, education or related field.
+- Bachelor's degree in business, management, education or related field.
 - 5+ years building and managing for-profit education businesses, including product management, learning content delivery, training delivery, and certification programs.
 - Comprehensive knowledge of the principles, methods, and techniques used in the development and delivery of training and certification programs
 - Comprehensive knowledge of relevant training technologies, such as Learning Management Systems (LMS).
@@ -416,7 +416,7 @@ Collaborate with Senior leadership to ensure financial and operational goals are
 
 ## Senior Director, Education Services
 
-The Senior Director of Global Education for GitLab Academy will be responsible for leading and inspiring a fast-growing team that designs and delivers compelling and impactful learning solutions to GitLab’s fast growing community of DevOps practitioners that includes community users, customers and partners. The ideal candidate will execute on the vision of learning as an effective accelerant to solidify GitLab’s leadership in industry and academia while positioning the organization to meet/exceed business goals.
+The Senior Director of Global Education for GitLab Academy will be responsible for leading and inspiring a fast-growing team that designs and delivers compelling and impactful learning solutions to GitLab's fast growing community of DevOps practitioners that includes community users, customers and partners. The ideal candidate will execute on the vision of learning as an effective accelerant to solidify GitLab's leadership in industry and academia while positioning the organization to meet/exceed business goals.
 
 The Senior Director, Education Services reports to the Senior Director, Global Professional Services.
 
@@ -426,16 +426,16 @@ The Senior Director, Education Services is a [grade 11](/handbook/total-rewards/
 
 ### Senior Director, Education Services Responsibilities
 
-- Lead the global content and knowledge management strategy for technical training and enablement for GitLab’s product and DevOps practices.
+- Lead the global content and knowledge management strategy for technical training and enablement for GitLab's product and DevOps practices.
 - Own the development and delivery of learning experiences for all GitLab products and DevOps  enablement, - creating an impactful suite of ongoing learning experiences using relevant research and a variety of mediums to drive learning goals.
 - Lead and energize a high-performing organization, set a clear vision, and establish a culture of continuous improvement to drive team and company successManage a team of Instructional designers and content producers to deliver timely, relevant, comprehensive and effective curricula for diverse audience profiles and segments.
 - Be responsible for delivering a world class learner experience, including learners' journey, programs and offerings, LMS/LXP systems, processes and policies, support interactions, and digital touchpoints.
-- Partner closely with Marketing to execute on the strategy and brand of ‘GitLab certification’ as synonymous with DevOps expertise.
+- Partner closely with Marketing to execute on the strategy and brand of 'GitLab certification' as synonymous with DevOps expertise.
 - Establish, monitor, and achieve key financial and non-financial performance metrics for the Learning function to ensure the program is delivering to brand, community, marketing, and sales goals.
 - Make GitLab Academy integral to the Marketing, Sales, Engineering, and Customer Success organizations to retain and expand the customer base.
 - Manage cross-functional interlock and lead strategic and operational interlock with Marketing, Sales, Sales Operations, Engineering, and Customer Success (e.g., marketing and sales messaging, enablement, customer success metrics, etc.).
 - Partner and align effectively with the Channels team to expand the competency, capacity, and capability of the partner ecosystem.
-- Innovate with blended learning solutions while aligning with GitLab’s overall knowledge and information strategy, including documentation, self-help, and community.
+- Innovate with blended learning solutions while aligning with GitLab's overall knowledge and information strategy, including documentation, self-help, and community.
 - Lead the business-level implementation and support of a Learning Management System in coordination with the global, enterprise-wide effort.
 
 ### Senior Director, Education Services Requirements

@@ -1,5 +1,4 @@
 ---
-
 title: "Analyst Resources for SDR and Sales Enablement Topics"
 ---
 ## This is a list of analyst resources that may be useful for deeper dives into the topics covered in SDR Enablement conversations

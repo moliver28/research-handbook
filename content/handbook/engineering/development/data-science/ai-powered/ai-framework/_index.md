@@ -56,7 +56,7 @@ Depending on the context here are the most appropriate ways to reach out to the 
 
 2. **Duo Workflow Weekly**
    * **When:** Every Monday at 17:00 – 18:00 PM GMT+1 Wednesday at 09:00 – 10:00 GMT+1.
-   * **What:** This meeting focuses on reviewing Duo Workflow related items. 
+   * **What:** This meeting focuses on reviewing Duo Workflow related items.
 
 3. **Think BIG sessions**
    * **When:** Once a month
@@ -86,14 +86,6 @@ Our workflow process for our [board](https://gitlab.com/groups/gitlab-org/-/boar
 7. **workflow::verification** ✅: Following a successful code and UX review, the issue should be moved to this list and the "verification" label should be applied.
 8. **workflow::complete** 🎉: Once the issue is verified and confirmed to be working properly, it should be moved to this list, the "complete" label should be applied, and the issue should be closed.
 
-### 📝 Issue Priority
-
-To ensure that our developers are aware of the priority of their work, we [use three labels](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=AIF):
-
-* **AIF-Priority::1**: This label is for issues that are of the highest priority. These issues should be addressed first.
-* **AIF-Priority::2**: This label is for issues that are of medium priority. These issues should be addressed after all Priority 1 issues have been resolved.
-* **AIF-Priority::3**: This label is for issues that are of lower priority. These issues should be addressed after all Priority 1 and Priority 2 issues have been resolved.
-
 ### 🔄 Processes
 
 #### 🗓️ Weekly Process
@@ -122,14 +114,14 @@ It's okay to create specific engineering-driven implementation issues for more c
 
 🏋 Weighting and Estimation Process
 
-To assign weights to issues effectively, it’s important to remember that issue weight should not be tied to time. Instead, it should be a purely abstract measure of the issue’s significance. The team uses the Fibonacci sequence starting from weight 0:
+To assign weights to issues effectively, it's important to remember that issue weight should not be tied to time. Instead, it should be a purely abstract measure of the issue's significance. The team uses the Fibonacci sequence starting from weight 0:
 
 * **Weight 0:** Reserved for the smallest and easiest issues, such as typos or minor formatting changes, or very minor code changes with no tests required.
-* **Weight 1:** For simple issues with little or no uncertainty, risk or complexity. These issues may have labels like “good for new contributors” or “Hackathon - Candidate”. Example: Changing copy text which may be simple but take some time.
+* **Weight 1:** For simple issues with little or no uncertainty, risk or complexity. These issues may have labels like "good for new contributors" or "Hackathon - Candidate". Example: Changing copy text which may be simple but take some time.
 * **Weight 2:** For more involved issues which are still straightforward without much risk or complexity, but may involve touching multiple areas of the code, and updating multiple tests.
 * **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant breaking down into smaller separate issues.
-* **Weight 5:** Normally, this weight should be avoided, and indicates that the issue ideally should be broken down into smaller separate issues. However, in some cases, a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn’t necessarily involve significant risk or uncertainty.
-* **Weight 8/13+:** Weights above 5 are used to clearly indicate work that is not yet ready to be assigned for implementation, and must be broken down because it is too large in scope to start implementing, and/or still has too many unknowns/risks. This weight is temporarily assigned to “placeholder” issues to capture the scope of the effort in our velocity-based capacity planning calculations.
+* **Weight 5:** Normally, this weight should be avoided, and indicates that the issue ideally should be broken down into smaller separate issues. However, in some cases, a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn't necessarily involve significant risk or uncertainty.
+* **Weight 8/13+:** Weights above 5 are used to clearly indicate work that is not yet ready to be assigned for implementation, and must be broken down because it is too large in scope to start implementing, and/or still has too many unknowns/risks. This weight is temporarily assigned to "placeholder" issues to capture the scope of the effort in our velocity-based capacity planning calculations.
 
 ## 📝 AI Feature Evaluations Guidelines - Evaluate like I am 5
 

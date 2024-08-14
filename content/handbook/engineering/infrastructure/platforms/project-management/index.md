@@ -1,5 +1,4 @@
 ---
-
 title: "The Infrastructure SaaS Platforms Project Management"
 ---
 
@@ -22,8 +21,13 @@ This enables other engineers and other managers to have good information about p
 Completed epics should remain "Open" with the ~"workflow-infra::In Progress" label.
 Update the status block in the epic description to summarize the project and share the completed status.
 
-We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) to collect the status information into top-level epics for each group.
+We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) to collect the status information into top-level epics for each group, and to gather status updates from epic notes.
 This automation runs several times each day, and can be triggered by [running the pipeline listed on the project page](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/pipeline_schedules).
+
+#### Status updates on project epics
+
+Comments are automatically generated on project epics to report status.
+To enable this functionality, please ensure the epic follows [these steps](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/c04662931be080c0b4d2b3495c2296476469c807/README.md#child-epics).
 
 #### When a project is finished
 
@@ -78,31 +82,10 @@ The DRI and the EM are responsible for updating the list of participants accordi
 - @participantN
 ```
 
-#### Development Log
-
-This section contains the previous Status Updates. At least, it is updated everytime the DRI updates the Status Section.
-
-```markdown
-### Development Log
-
-<details>
-
-<details>
-<summary>(Previous) Status YYYY-MM-DD</summary>
-
-
-</details>
-
-</details>
-```
-
 #### Status Section
 
-```markdown
-### Status YYYY-MM-DD
-
-<Updates about the project at the YYYY-MM-DD>
-```
+The status section is generated automatically on sub-epics.
+See the section on [status updates on project epics](#status-updates-on-project-epics) for more info.
 
 ### Should this be an issue or an epic?
 
@@ -191,3 +174,17 @@ This is a list of the group issue trackers:
 For labeling and bot notifications under [gitlab-com/gl-infra](https://gitlab.com/gitlab-com/gl-infra) we use [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage) and the [triage-ops](https://gitlab.com/gitlab-com/gl-infra/triage-ops/) project.
 For labeling, enforcing SLOs, and managing workflow labeling there are common policies that are set uniformly for projects in Infrastructure, Platform.
 For more information and how to add additional policies see [the project README.md](https://gitlab.com/gitlab-com/gl-infra/triage-ops/-/blob/master/README.md?ref_type=heads).
+
+## Retrospectives
+
+At the end of the quarter, or the completion of a large deliverable, teams should perform a retrospective to capture learnings.
+There is no set format for the retrospective though Engineering Managers should be aware of the [GitLab Retrospective Guidelines](/handbook/engineering/management/group-retrospectives/).
+The retrospective DRI identifies a list of actions which they consolidate in the Summary of Actions section in the issue description.
+
+Process to identify actions:
+
+1. Add a comment on each thread with Actions as the title of the comment (H3 level)
+1. Some threads may not require an action, you may want to state this explicitly at the end of the thread for transparency
+1. Below the Actions comment, add a suggestion on an action the team can take
+1. Ping the contributors to get a round of validation on the actions and potential refinement
+1. Create an issue for each action and list them in the Summary of Actions section

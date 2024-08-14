@@ -25,7 +25,7 @@ To use GitLab CI/CD, you start with a .gitlab-ci.yml file at the root of your pr
 
 1. Leave **Enable Static Application Security Testing (SAST)** unchecked.
 
-1. Click the **Create project** button and wait for GitLab to redirect you to the new project’s main page.
+1. Click the **Create project** button and wait for GitLab to redirect you to the new project's main page.
 
 1. Create a new file by clicking **(+) > This directory > New file**
 
@@ -85,13 +85,13 @@ To use GitLab CI/CD, you start with a .gitlab-ci.yml file at the root of your pr
 
 > Pipelines are the top-level component of continuous integration, delivery, and deployment. Pipelines comprise of **Jobs**, which define what to do, and **Stages**, which define when to run the jobs. For example, a stage can be defined for all the operations that build a project, and a job of this stage could be to compile the code. To learn more, click [here](https://docs.gitlab.com/ee/ci/pipelines/).
 
-1. GitLab started running a CI/CD pipeline as soon as you committed `.gitlab-ci.yml` to your project’s repository. To see the project’s pipelines, navigate to **Build > Pipelines**.
+1. GitLab started running a CI/CD pipeline as soon as you committed `.gitlab-ci.yml` to your project's repository. To see the project's pipelines, navigate to **Build > Pipelines**.
 
-1. Only 1 pipeline has run so far, so your table of pipelines has only 1 row. See the details of that pipeline by clicking the **status** label at the left of the pipeline’s row.
+1. Only 1 pipeline has run so far, so your table of pipelines has only 1 row. See the details of that pipeline by clicking the **status** label at the left of the pipeline's row.
 
     > The status label should show either **Running** or **Passed**
 
-1. Inspect the pipeline graph. Each column represents a stage. In the **Build** stage, there’s a widget representing the **build1** job. In the **Test** column there’s a widget representing the **test1** job. Click on the **build1** widget to see the job’s output in a web terminal. For example, look for the message `Do your build here` in the output.
+1. Inspect the pipeline graph. Each column represents a stage. In the **Build** stage, there's a widget representing the **build1** job. In the **Test** column there's a widget representing the **test1** job. Click on the **build1** widget to see the job's output in a web terminal. For example, look for the message `Do your build here` in the output.
 
 1. Return to the pipeline graph by clicking on the back button on your web browser. Click on the **test1** widget to see the job's output in a web terminal. For example, look for the message `Do a test here` in the output.
 
@@ -101,4 +101,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you’d like to suggest changes to the lab, please submit them via merge request.
+If you'd like to suggest changes to the lab, please submit them via merge request.

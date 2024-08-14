@@ -1,16 +1,10 @@
 ---
-
 title: Inbound Marketing Handbook
 description: Inbound Marketing Handbook
 twitter_image: /images/tweets/handbook-marketing.png
 twitter_site: '@gitlab'
 twitter_creator: '@gitlab'
 ---
-
-
-
-
-
 
 ## Inbound Marketing Overview
 
@@ -96,14 +90,18 @@ The brand and design team is now the Brand Activation team under Corporate Marke
 
 Overarching Inbound Marketing Boards
 
-### [Triage Board](https://gitlab.com/groups/gitlab-com/-/boards/1761578?&label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Atriage)
+### Triage Board
 
-- **GOAL:** Weed out issues that superfluous or don’t contain extra information
+[Triage Board](https://gitlab.com/groups/gitlab-com/-/boards/1761578?&label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Atriage)
+
+- **GOAL:** Weed out issues that superfluous or don't contain extra information
 - **ACTIONS:** Move to either
   - Move to either `mktg-status:PLAN` which puts into the Sprint cycle or;
   - [mktg-status: blocked] and comment why it is being blocked
 
-### [Sprint Board](https://gitlab.com/groups/gitlab-com/-/boards/1761580?label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Awip)
+### Sprint Board
+
+[Sprint Board](https://gitlab.com/groups/gitlab-com/-/boards/1761580?label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Awip)
 
 - **GOAL:** Assign issues to milestones to be worked on then based on due dates, weights, priorities, resources
 - **ACTIONS:**
@@ -112,13 +110,15 @@ Overarching Inbound Marketing Boards
 
 - Move to a specific week taking into consideration the above
   - Backlog if:
-    - It doesn’t fit into current goals or priorities
+    - It doesn't fit into current goals or priorities
     - We don't have the time or resources currently
     - It is just a cool idea (some of these may be labeled for future review for upcoming strategies & tactics)
   - Comment why it is backlogged
   - Never backlog PR issues without prior discussion
 
-### [Inbound Marketing Leads Overview](https://gitlab.com/groups/gitlab-com/-/boards/1787553?milestone_title=%23started&&label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Awip)
+### Inbound Marketing Leads Overview
+
+[Inbound Marketing Leads Overview](https://gitlab.com/groups/gitlab-com/-/boards/1787553?milestone_title=%23started&&label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Awip)
 
 - **GOAL:** An overview of the work on each of the Inbound Marketing Teams during the current Milestone Sprint
 - **ACTIONS:**
@@ -313,7 +313,7 @@ This is how we work with Issues and their scope
   - Re-assign as need, make sure it is in a sprint week and follow documented processes
 - If the ask (External brief Issue) requires more than one ask:
   - Create an Epic to hold project
-  - Copy and paste markdown into Epic Description and use header: “External Brief”
+  - Copy and paste markdown into Epic Description and use header: "External Brief"
   - Associate Issue with Epic
   - Comment Close Issue that the project epic has been created
   - Build out necessary Issues in project, Associate with Epic, assign Issues and update Epic Description as needed with additional brief information
@@ -341,7 +341,7 @@ In an effort to make async communication and collaboration as effective as possi
 
 ### Vendor recruitment
 
-If you know of a brand or digital vendor, whether “an agency of one” (aka freelancer) or agency, please share the contact with your manager for further consideration.
+If you know of a brand or digital vendor, whether "an agency of one" (aka freelancer) or agency, please share the contact with your manager for further consideration.
 
 ### Vendor on-boarding
 
@@ -357,7 +357,7 @@ If you know of a brand or digital vendor, whether “an agency of one” (aka fr
 #### Team
 
 - **Assigning Issues to Vendors**
-  - Assign the vendor and team member who will be the vendor’s buddy.
+  - Assign the vendor and team member who will be the vendor's buddy.
   - Ensure following labels are on the issue:
     - `vendor`
   - Assign the issue to a milestone, as appropriate.
@@ -369,8 +369,8 @@ If you know of a brand or digital vendor, whether “an agency of one” (aka fr
 - **Managing Vendor Work**
   - Ensure you and vendor are assigned to the issue.
   - Check-in regularly to ensure progress and clear blockers.
-  - Ensure projects to which you’re assigned are maintained on the [vendor board](https://gitlab.com/groups/gitlab-com/-/boards/1511334?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=mktg-inbound&label_name%5B%5D=outsource), just as you maintain your own projects.
-  - Communicate with vendor in issues and or the vendor-contract slack channel, [#brand-contractors](https://gitlab.slack.com/archives/C011PDBLWLC), per GitLab’s async communication best practices. Also be aware GitLab’s async model may be new to contractors. Be open to synchronous meetings as vendors acclimate to async work.
+  - Ensure projects to which you're assigned are maintained on the [vendor board](https://gitlab.com/groups/gitlab-com/-/boards/1511334?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=mktg-inbound&label_name%5B%5D=outsource), just as you maintain your own projects.
+  - Communicate with vendor in issues and or the vendor-contract slack channel, [#brand-contractors](https://gitlab.slack.com/archives/C011PDBLWLC), per GitLab's async communication best practices. Also be aware GitLab's async model may be new to contractors. Be open to synchronous meetings as vendors acclimate to async work.
   - Meet standard GitLab and Brand and Digital work practices, including open and inclusive design and **weekly status updates**.
   - Review vendor deliverables for quality assurance.
 - **Addressing Concerns**
@@ -383,17 +383,17 @@ If you know of a brand or digital vendor, whether “an agency of one” (aka fr
 #### Vendor buddy
 
 - Ensure you know enough about the [invoicing process](/handbook/finance/accounting/#invoicing-in-coupa) to assist when directing invoicing questions from the vendor to the appropriate party.
-  - Please don’t drop the ball, we want vendors to be happy and get paid.
+  - Please don't drop the ball, we want vendors to be happy and get paid.
   - Please follow any questions from start to finish to keep things moving along.
-    - Ex: “I’m having trouble with Coupa, who can help me?” (Accounts Payable Team)
-    - Ex: “Do I need a purchase order number for my invoice?”
+    - Ex: "I'm having trouble with Coupa, who can help me?" (Accounts Payable Team)
+    - Ex: "Do I need a purchase order number for my invoice?"
 
 #### Managers
 
-- **Vendor contracts** - Negotiate and execute [vendor contracts](/handbook/finance/procurement/), with Director’s approval. Goals are to maximize value delivered within our allocated vendor budget.
+- **Vendor contracts** - Negotiate and execute [vendor contracts](/handbook/finance/procurement/), with Director's approval. Goals are to maximize value delivered within our allocated vendor budget.
 - **Invoicing** - Ensure vendors:
   - [Successfully onboards themselves in Coupa](/handbook/finance/accounting/#3-vendor-master-management)
-  - Adhere to GitLab’s invoicing standards
+  - Adhere to GitLab's invoicing standards
   - Invoice all remaining hours by the end of month
 - **Monthly vendor work report**
   - Provide director with end of month report of vendor projects, including projects in progress and those completed within the past month.

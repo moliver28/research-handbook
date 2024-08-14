@@ -1,5 +1,5 @@
 ---
-title: "GitLab Agile Portfolio Management - Hands-On Lab: Access The Gitlab Training Environment"
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Access The GitLab Training Environment"
 description: "This Hands-On Guide walks you through accessing the GitLab training environment."
 ---
 

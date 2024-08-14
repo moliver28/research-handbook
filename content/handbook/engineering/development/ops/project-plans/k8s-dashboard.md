@@ -1,15 +1,8 @@
 ---
-
 title: Kubernetes Dashboard
 description: >-
   Project plan for providing customer a complete dashboard to visualize the status of their cluster
 ---
-
-
-
-
-
-
 
 ## Weekly Project Plan
 

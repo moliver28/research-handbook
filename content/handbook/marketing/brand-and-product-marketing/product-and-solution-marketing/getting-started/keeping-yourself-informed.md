@@ -3,12 +3,6 @@ aliases: handbook/marketing/brand-and-product-marketing/product-and-solution-mar
 title: "Keeping Yourself Informed"
 ---
 
-
-
-
-
-
-
 ## Communications within Product and Solution  Marketing
 
 As a distributed organization, GitLab and [our Product and Solution Marketing department and teams](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) use [asynchronous](/handbook/people-group/employment-branding/people-communications/), [transparent](/handbook/values/#transparency), [frequent](/handbook/values/#iteration), and [multimodal communication](/handbook/communication/#multimodal-communication) to keep ourselves informed.

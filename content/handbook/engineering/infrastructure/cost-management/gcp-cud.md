@@ -1,17 +1,7 @@
 ---
-
 title: "GCP CUD"
 description: "GCP Committed Use Discounts"
 ---
-
-
-
-
-
-
-
-
-
 
 ---
 
@@ -38,7 +28,9 @@ We can share CUD across projects, but the dimensions CUD are split across are li
 
 ### GCP CUD Purchase Approval Process
 
-#### 1. Fill out [CUD Analysis Template](https://docs.google.com/spreadsheets/d/1yAIpX875Mjcq-DfuyFi4C-y5FaWGoAvoHmW6qHj9Rlc) with relevant details for new request
+#### 1. Fill out CUD Analysis Template with relevant details for new request
+
+[CUD Analysis Template](https://docs.google.com/spreadsheets/d/1yAIpX875Mjcq-DfuyFi4C-y5FaWGoAvoHmW6qHj9Rlc) (internal)
 
 CUD Analysis should assume the other commitments do not end. CUD renewals should be looked at in a separate analysis so there is no confusion of CUD that cover new and existing covered usage.
 
@@ -57,7 +49,9 @@ Example Issue: https://gitlab.com/gitlab-com/Finance-Division/finance/-/issues/4
 
 The infra analyst should make sure there are enough Committed CPU Quota to meet the request and execute this purchase in Billing-Tools GCP Project.
 
-#### 4. Add the commitment to CUD commitments [master spreadsheet](https://docs.google.com/spreadsheets/d/1qwsrRidYsYgoEIbCA6VDhdZW_P6ljeYcLMcja2bhCtc)
+#### 4. Add the commitment to CUD commitments
+
+Add to [CUD commitments spreadsheet](https://docs.google.com/spreadsheets/d/1qwsrRidYsYgoEIbCA6VDhdZW_P6ljeYcLMcja2bhCtc) (internal)
 
 #### 5. Reservation Configuration
 

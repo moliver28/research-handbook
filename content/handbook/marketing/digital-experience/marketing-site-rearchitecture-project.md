@@ -1,5 +1,4 @@
 ---
-
 title: Core Marketing Site Architecture Plan
 description: Core Marketing Site Changes
 ---
@@ -17,7 +16,7 @@ After considering [3 different approaches](https://docs.google.com/document/d/1y
 1. Making key business driving pages of GitLab's Marketing site build faster, resulting in increased engineering output. Anticipated ROI includes:
     1. **Pipeline times**: currently we are at about 20 minutes average pipeline time. There are some work items that we need to see in the review app (anything requiring a data file), which means it can take **20 minutes to validate a change**.
     1. **Merge train times**: since we work in a shared repository with the handbook that receives so many MRs so often, our work ends up in long merge trains. Looking at a [recent production deploy on `2021-07-23`](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/86942), this MR took closer to **40 minutes to go live**.
-    1. **Development feedback loop**: running the Middleman preview server (our local development environment) by itself can take **3 full minutes to reload changes** to our codebase. We implemented a monkey patch on Middleman to cut that down, and reduced it to 46 seconds. [Benchmarks here](https://gitlab.com/tywilliams/worknotes/-/tree/master/middleman_improvement_profiling). But the monkey patch doesn’t work on data-driven routes, so as we move more and more content into Netlify CMS, we spend more and more time waiting on three-minute refreshes in development.
+    1. **Development feedback loop**: running the Middleman preview server (our local development environment) by itself can take **3 full minutes to reload changes** to our codebase. We implemented a monkey patch on Middleman to cut that down, and reduced it to 46 seconds. [Benchmarks here](https://gitlab.com/tywilliams/worknotes/-/tree/master/middleman_improvement_profiling). But the monkey patch doesn't work on data-driven routes, so as we move more and more content into Netlify CMS, we spend more and more time waiting on three-minute refreshes in development.
 1. Decreasing size of Marketing site repository to ensure stability
     1. As of `2021-07-23` the files in [our repository](https://gitlab.com/gitlab-com/www-gitlab-com) take up **2.6GB of space**. But GitLab registers it as over **68TB of storage overall**.
 1. Connecting Storybook design system platform with Marketing site to increase design & engineering output
@@ -112,7 +111,7 @@ We will require GCP Deployment Keys from Infrastructure. We would also like a ne
 ## Definitions
 
 1. Core Marketing Site: Key pages that drive ARR
-1. ARR: https://about.gitlab.com/handbook/sales/sales-term-glossary/arr-in-practice/
+1. ARR: https://handbook.gitlab.com/handbook/sales/sales-term-glossary/arr-in-practice/
 1. Vue.js: https://vuejs.org
 1. SSG: Static Site Generator
 1. Nuxt.js: https://nuxtjs.org

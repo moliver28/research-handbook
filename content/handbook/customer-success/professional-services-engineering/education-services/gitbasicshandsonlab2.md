@@ -14,9 +14,9 @@ In this lab you will practice using a repository on your local computer and lear
 - editing and committing a file
 - pushing and pulling changes to and from a remote repository.
 
-Please take time to understand any code that you are asked to copy and paste in any lab. Ask your instructor to explain any code that’s not clear.
+Please take time to understand any code that you are asked to copy and paste in any lab. Ask your instructor to explain any code that's not clear.
 
-> Many of the Git commands used in this lab are summarized in GitLab’s helpful [git cheat sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf). This lab will require you to be able to use your local computer to have SSH access to the internet. Please make sure your machine has the required permissions.
+> Many of the Git commands used in this lab are summarized in GitLab's helpful [git cheat sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf). This lab will require you to be able to use your local computer to have SSH access to the internet. Please make sure your machine has the required permissions.
 
 ## Task A. Verify that Git is installed locally
 
@@ -30,7 +30,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 ## Task B. Generate an SSH key
 
-> GitLab uses the SSH protocol to securely communicate with Git. When you use SSH keys to authenticate to the GitLab remote server, you don’t need to supply your username and password each time. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/ssh.html).
+> GitLab uses the SSH protocol to securely communicate with Git. When you use SSH keys to authenticate to the GitLab remote server, you don't need to supply your username and password each time. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/ssh.html).
 
 1. We will use OpenSSH client, which comes pre-installed on GNU/Linux, macOS, and Windows 10. To check your current version run the following command in your terminal or Powershell:
 
@@ -183,7 +183,7 @@ If the command completes with a welcome message instead of an error, your SSH ke
 
 ## Task E. Work on a branch
 
-> Branches are versions of a project’s working tree. When you create a new project, GitLab creates a default branch for your repository named `main` (formerly `master`) that cannot be deleted. Default branch settings can be configured at the project, subgroup, group, or instance level. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/project/repository/branches/).
+> Branches are versions of a project's working tree. When you create a new project, GitLab creates a default branch for your repository named `main` (formerly `master`) that cannot be deleted. Default branch settings can be configured at the project, subgroup, group, or instance level. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/project/repository/branches/).
 
 1. Create a new branch called **temporary_branch** on your computer.
 
@@ -233,7 +233,7 @@ If the command completes with a welcome message instead of an error, your SSH ke
    git add README.md
    ```
 
-   > `git add` doesn’t move `README.md` on your filesystem, but it does add it to Git’s "staging area".
+   > `git add` doesn't move `README.md` on your filesystem, but it does add it to Git's "staging area".
 
 1. Make sure that `README.md` is now ready to be committed (that is, it has been successfully staged).
 
@@ -271,11 +271,11 @@ You will now see that the `README` file has a green font color. This indicates t
 
 ## Task J. Edit, commit, and push the file again
 
-1. In your local machine’s text editor (not GitLab’s in-browser editor), add this new line to the end of your local copy of `README.md` and save the file.
+1. In your local machine's text editor (not GitLab's in-browser editor), add this new line to the end of your local copy of `README.md` and save the file.
 
    ```a second line in README.md```
 
-1. In your terminal, move the edited file to Git’s staging area via the `git add` command.
+1. In your terminal, move the edited file to Git's staging area via the `git add` command.
 
    ```bash
    git add README.md
@@ -313,9 +313,9 @@ You will now see that the `README` file has a green font color. This indicates t
 
 ## Task K. Edit a remote branch
 
-> Let’s simulate someone else in your organization making a change to the **temporary_branch** that lives in the remote repository on the GitLab instance. When we’re done with this section, the remote and local versions of **temporary_branch** will be different: the code on that branch will have moved under your feet (so to speak). In the section after this one, we’ll see how to reconcile this difference.
+> Let's simulate someone else in your organization making a change to the **temporary_branch** that lives in the remote repository on the GitLab instance. When we're done with this section, the remote and local versions of **temporary_branch** will be different: the code on that branch will have moved under your feet (so to speak). In the section after this one, we'll see how to reconcile this difference.
 
-1. In GitLab, navigate to the **Top Level Project** landing page. If you’re not already on **temporary_branch**, go to the left-hand navigation pane and click on **Code > Branches > temporary_branch**.
+1. In GitLab, navigate to the **Top Level Project** landing page. If you're not already on **temporary_branch**, go to the left-hand navigation pane and click on **Code > Branches > temporary_branch**.
 
 1. You are now looking at files in **temporary_branch**. Click **README.md** to see its contents.
 
@@ -337,7 +337,7 @@ After making this commit, the remote repository on the GitLab instance is now on
 
 ## Task L. Get metadata about changes to the remote **temporary_branch**
 
-> Your local **temporary_branch** is out of sync with the remote **temporary_branch** on the GitLab instance. The `git fetch` command gets the updated state of remote branches without updating the contents of your local branches. In other words, it tells you how many commits your local branches are behind the remote branches, but it doesn’t make any changes to the files in your local branches.
+> Your local **temporary_branch** is out of sync with the remote **temporary_branch** on the GitLab instance. The `git fetch` command gets the updated state of remote branches without updating the contents of your local branches. In other words, it tells you how many commits your local branches are behind the remote branches, but it doesn't make any changes to the files in your local branches.
 
 1. Retrieve metadata about branches on the remote copy of the repository using the `git fetch` command.
 
@@ -405,7 +405,7 @@ You will see that your branch is one commit behind in the `git status` output.
    git push
    ```
 
-1. Return to the GitLab page in your browser and view `README.md` in your project’s **main** branch to view the changes you just pushed to the remote copy of **main**.
+1. Return to the GitLab page in your browser and view `README.md` in your project's **main** branch to view the changes you just pushed to the remote copy of **main**.
 
 ## Lab Guide Complete
 
@@ -413,4 +413,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you’d like to suggest changes to the lab, please submit them via merge request.
+If you'd like to suggest changes to the lab, please submit them via merge request.

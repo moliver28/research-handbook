@@ -14,7 +14,6 @@ The following teams comprise the Ops sub-department:
 - Verify stage - [handbook](/handbook/engineering/development/ops/verify/)
   - Pipeline Execution - [handbook](/handbook/engineering/development/ops/verify/pipeline-execution/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/)
   - Pipeline Authoring - [handbook](/handbook/engineering/development/ops/verify/pipeline-authoring/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-authoring/jtbd/)
-  - Pipeline Security - [handbook](/handbook/engineering/development/ops/verify/pipeline-security/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-security/JTBD/)
   - Runner - [handbook](/handbook/engineering/development/ops/verify/runner/), [jtbd](/handbook/engineering/development/ops/verify/runner/jtbd/)
   - CI Platform - [handbook](/handbook/engineering/development/ops/verify/ci-platform/)
 - Package stage - [handbook](/handbook/engineering/development/ops/package/), [jtbd](/handbook/engineering/development/ops/package/jtbd/)
@@ -39,7 +38,7 @@ Teams in the Ops Sub-Department map to several Product Sections.  Product direct
 - [#cd-section](https://gitlab.slack.com/archives/C05BTB4CBGQ) - CD Section discussions spanning Deploy Stage
 - [#ops_staff_plus](https://gitlab.slack.com/archives/C0305PJB9JR) - Foster collaboration and technical leadership within Ops section
 - [#doe-ops](https://gitlab.slack.com/archives/CT9CM1VDJ) - Channel for GitLab's Director of Engineering, Ops
-- 🔒ops-staff-confidential - Channel for reviewing topics for Ops Engineering leaders.  Please use #doe-ops or other public channels for topics that don’t require confidentiality.
+- 🔒ops-staff-confidential - Channel for reviewing topics for Ops Engineering leaders.  Please use #doe-ops or other public channels for topics that don't require confidentiality.
 
 ## Meetings
 
@@ -61,7 +60,13 @@ Beginning in March 2023 all Ops teams are **required** to provide at least one s
 
 Team members are encouraged to use these videos to transparently showcase the current state of their projects.  It is not encouraged to spend significant time prepping for these demos or only showcase finished, polished functionality; showing functionality in an incomplete state is encouraged.  Videos may be specifically recorded for this purpose or be excerpts from team meetings, etc.  Some suggested ideas to consider could be related to error budget improvements, performance improvements to current features, refactoring to codebase for future maintainability, etc.
 
-[Ops Engineering Showcase Epic](https://gitlab.com/groups/gitlab-com/-/epics/1157)
+[Ops Engineering Showcases](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/?sort=popularity&state=opened&search=Sub-Dept%20Highlights%20and%20Showcases&first_page_size=20)
+
+#### Recordings
+
+<details markdown="1">
+
+<summary markdown="span">Past Recordings</summary>
 
 #### Quarterly Recordings
 
@@ -97,6 +102,14 @@ Team members are encouraged to use these videos to transparently showcase the cu
 | 2020 | October | [Video](https://youtu.be/Abg5rCqRDVE) | Skipped | |
 | 2020 | September | [Video](https://www.youtube.com/watch?v=hjHg_aG7Wr0) | [Video](https://www.youtube.com/watch?v=LUIdfAQf1B0) | |
 | 2020 | August | [Video](https://www.youtube.com/watch?v=H47juOWB2F8) | [Video](https://www.youtube.com/watch?v=RABnrVmios0) | |
+
+</details>
+
+#### Hackathons
+
+Hackathons provide a great opportunity for team members to experiment with working on ideas as possible features that can be integrated into GitLab in the future. The intent is to inspire creativity and encourage collaboration amongst those you may not have the opportunity to work with on a regular basis, set aside regular milestone deliverables, and have some fun with tackling different challenges. 
+
+With the IT landscape rapidly changing with explorations in emerging technologies, having Hackathons take place twice a year offers everyone a chance to contribute to different areas of interest.
 
 ## Planning Processes
 
@@ -232,7 +245,6 @@ Key projects will be listed in the table below:
 
 | Project Name                                  | Link to Project Plan                                                                                                                                  | DRI                         | [Tech Leads](/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role)                  |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------| --------------------------- |
-| CI/CD Catalog                                 | [Project plan](/handbook/engineering/development/ops/project-plans/ci-catalog/)                                                                       | Mark Nuzzo                  | Fabio Pitino (transitioning to Laura Montemayor and Avielle Wolfe) |
 | CI Data Partitioning                          | [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/ci-data-partitioning/)                                   | Caroline Simpson            | Marius Bobin                |
 | CI Primary Key Conversion                     | [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/ci-pk-conversion/)                                       | Drew Stachon / Caroline Simpson | Tianwen Chen            |
 | Container Registry v2 Self-Managed            | [Project plan](/handbook/engineering/development/ops/project-plans/container-registry-v2/)                                                            | Crystal Poole               | Hayley Swimelar             |
@@ -247,6 +259,7 @@ Key projects will be listed in the table below:
 
 | Project Name                                  | Link to Project Plan                                                                                                                                  | DRI                       | Tech Leads                | Completed |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------| --------------------------| ------- |
+| CI/CD Catalog                                 | [Project plan](/handbook/engineering/development/ops/project-plans/ci-catalog/)                                                                       | Mark Nuzzo                  | Laura Montemayor and Avielle Wolfe | FY25-Q1 |
 | Merge Train Improvements (Fast-Foward Support)| [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/merge-trains/) | Caroline Simpson | Allison Browne, Hordur Yngvason | FY24-Q4 |
 | O11y Distributed Tracing | [Project plan](/handbook/engineering/development/ops/monitor/observability/#weekly-project-plan) | Nicholas Klick | | FY24-Q4 |
 | GCP Secrets Integration | [Project plan](/handbook/engineering/development/ops/project-plans/gcp-secrets-integration/) | Scott Hampton | Albert Salim | FY24-Q4 |
@@ -268,13 +281,13 @@ Weekly project plan template
 Week of Jan 4th
 
     Single chart shows up in Slack. Data is canned.
-    Schedule risk: we’re validating our list of chart types are all technically feasible. We’ll demo outcome of that investigation.
+    Schedule risk: we're validating our list of chart types are all technically feasible. We'll demo outcome of that investigation.
 
 Week of Jan 11th
 
     Chart data reflects live information, and is functional in Slack chart.
     Additional chart type shows in Slack room, with most basic visual design.
-    We’ve shown to at least one alpha customer for feedback. We start sharing with them every week from here on out.
+    We've shown to at least one alpha customer for feedback. We start sharing with them every week from here on out.
     Jessica is on-call and doing interrupt-driven work for week.
 
 Week of Jan 18th
@@ -285,7 +298,7 @@ Week of Jan 18th
 Week of Jan 25th
 
     Holiday Jan 26th.
-    Charts look great and are thoroughly tested, instrumented. We’ll show usage dashboards.
+    Charts look great and are thoroughly tested, instrumented. We'll show usage dashboards.
     Release end of week.
 
 ```
@@ -387,7 +400,7 @@ and would benefit from additional visibility, please post a link with a short de
 
 ### Supporting Customers on Dedicated instances
 
-When teams are asked to triage support requests for customers on GitLab Dedicated and engineers need access to their logs, a sync can be arranged between the engineer and the assigned Support Engineer for a screensharing session.
+When teams are asked to triage support requests for customers on GitLab Dedicated and engineers need access to their logs, a sync can be arranged between the engineer and the assigned Support Engineer for a screen sharing session.
 However, when further troubleshooting is needed by the engineering team or async collaboration is preferred, follow these steps to request access:
 
 1. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) (AR) and list the engineers who require access.  (Note that EMs can create this issue and provide `Manager Approval` on behalf of the engineers)

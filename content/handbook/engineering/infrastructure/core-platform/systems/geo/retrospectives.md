@@ -7,7 +7,7 @@ description: "How the Geo Team Runs Retrospectives"
 
 Retrospectives are a [crucial component](https://www.retrium.com/blog/i-was-wrong-retrospectives-are-not-the-most-critical-part-of-agile-but-they-are-close) of the agile methodology. However, having a retro should not be about checking-off a mark in our agile todo list. The purpose of the retro is to learn and then take action that leads to a better place. We learn from our past actions and results and we use that knowledge to improve our future execution.
 
-The Geo team will have monthly retrospectives as a way to reflect on how things are working out for the team and for its members. The objective is to learn and become a better team in terms of collaboration and execution of the team’s mission.
+The Geo team will have monthly retrospectives as a way to reflect on how things are working out for the team and for its members. The objective is to learn and become a better team in terms of collaboration and execution of the team's mission.
 
 > Retrospectives enable Actionable Team Learning. By Learning, I mean that the retrospective must lead to the acquisition of new knowledge or skills. By Team Learning, I mean that the learning must be for the whole team and not isolated to an individual. And by Actionable Team Learning, I mean that the knowledge or skills that the team has acquired must have the potential to lead to change. - [David Horowitz](https://www.retrium.com/ultimate-guide-to-agile-retrospectives/retrospectives-101) (Retrium CEO and Co-Founder)
 
@@ -57,7 +57,7 @@ Right after check-in, members are expected to participate in the data gathering 
 
 This phase is where the meaningful analysis of the data happens. This is where team members collaborate to learn from each other and where they find actionable insights.
 
-Throughout the day, team members are expected to read all the data collected in the board as sticky notes and start the conversation by asking each other questions in written conversation threads (i.e. comments) in the context of specific issues. It is helpful during this phase to ask clarifying questions or ask the “why” of the problems identified to try to reach root causes.
+Throughout the day, team members are expected to read all the data collected in the board as sticky notes and start the conversation by asking each other questions in written conversation threads (i.e. comments) in the context of specific issues. It is helpful during this phase to ask clarifying questions or ask the "why" of the problems identified to try to reach root causes.
 
 By the end of day, all team members should take a last look at the board and make sure they have seen the latest comments that may have come in later in the day. Overall team members are not expected to take more than 1 hour this day to engage in insight generation.
 

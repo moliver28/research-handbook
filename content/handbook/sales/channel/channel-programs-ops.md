@@ -1,14 +1,6 @@
 ---
-
 title: "Channel Programs Operations"
 ---
-
-
-
-
-
-
-
 
 ### Overview
 
@@ -53,7 +45,7 @@ The Admin console capabilities include:
 - Partner will fill out Long-Form Contact Information
 - Partner will automatically go into Pending Status
 - Pending Status email will be sent to the registered partner email address
-- Notification Emails will be sent to each Partner Team’s region for each applicant in their region
+- Notification Emails will be sent to each Partner Team's region for each applicant in their region
 
 ### Pending Status
 
@@ -69,7 +61,7 @@ The Admin console capabilities include:
 ### Partner Approved
 
 - Select Pending partner application
-- Select “APPROVE” of “DENY”
+- Select "APPROVE" of "DENY"
 - Confirm Account: **Primary Vertical** is Selected
   1. Pending Account > Standard Registration Form > Primary Vertical > (7) Options
   2. If Blank, Select **Commercial** option
@@ -83,23 +75,23 @@ The Admin console capabilities include:
 ### Partner Denied
 
 - Select Pending partner application
-- Select “DENY”
+- Select "DENY"
 
 ### Partner Click-Through Agreement
 
 - Partner receives an email with their log-in information
-- Once Partner logs in they will be prompted to Read and Agree to GitLab’s Click-Through Partner Agreement
+- Once Partner logs in they will be prompted to Read and Agree to GitLab's Click-Through Partner Agreement
 - Once Agreed, the partner will have access to the partner portal to being the Welcome Onboarding Journey
 - Partners will not be able to fully access the partner portal without Agreeing to the Partner Agreement
 
-**Q:  Partner says “I’m not able to login” or “my account has been deactivated”**
+**Q:  Partner says "I'm not able to login" or "my account has been deactivated"**
 
-**A:**This could be due to a partner not being registered or an individual thinking they registered before. Or it could be an Alliance partner, those partners currently don’t get portal access. Otherwise, we could’ve deactivated them due to inactivity. Try one of these:
+**A:**This could be due to a partner not being registered or an individual thinking they registered before. Or it could be an Alliance partner, those partners currently don't get portal access. Otherwise, we could've deactivated them due to inactivity. Try one of these:
 
 1. Check to see if the user exists in Impartner.
    - If not, have them register at partners.gitlab.com.
    - If yes, proceed to the next step.
-2. On the Partner Account, check the Partner Status. If this is not “Authorized” or “NDA”, the partner cannot login and should not be activated until they have signed a Partner Agreement. _Only set it to Authorized if the partner signed a contract._
+2. On the Partner Account, check the Partner Status. If this is not "Authorized" or "NDA", the partner cannot login and should not be activated until they have signed a Partner Agreement. _Only set it to Authorized if the partner signed a contract._
    - _Is Active? field right now should only be marked "true" if:_
      - _Partner Type = Channel_
      - _Partner Status = Authorized (or in rare cases, NDA)_
@@ -185,7 +177,7 @@ Partner Help Desk (PHD) reviews request to verify:
   - If existing licenses, set the expiration date to the same expiration date as existing license (unless this is a renewal of course)
 - If the partner has at least one employee who has completed the Solution Architect Certification or Professional Services Engineer Certification training, lab and exam (with a passing score).
   - Check in Impartner for certifications by going to the Training tab
-  - Next to the Certification: _Solution Architect Core,_ click the number in the “Completed” column to display all certification completions and sort by account to see if a certification has been completed.
+  - Next to the Certification: _Solution Architect Core,_ click the number in the "Completed" column to display all certification completions and sort by account to see if a certification has been completed.
   - Next to the Certification: _GitLab Trusted Professional Services Engineer (PSE) Certification,_ click the number in the Completed column and sort by account to see if a certification has been completed.
   - If the partner has no certifications yet, but meets the other two eligibility criteria above, currently we can still send the NFR license, but we should encourage the partner to complete the Solution Architect Core. See sample email to Partner contact and CAM, once the license has been sent, below:
 
@@ -215,8 +207,8 @@ PHD informs requestor license has been sent.
 
 **Creating and Sending NFR Licenses**
 
-1. Once you’ve confirmed the partner is eligible to receive NFR licenses, login to license.gitlab.com
-2. Click the green button in the upper right corner “New license”
+1. Once you've confirmed the partner is eligible to receive NFR licenses, login to license.gitlab.com
+2. Click the green button in the upper right corner "New license"
 3. Enter this info at minimum:
 
    - Name
@@ -225,7 +217,7 @@ PHD informs requestor license has been sent.
    - Users count
    - GitLab Plan = Ultimate (default)
    - Check Trial checkbox
-   - Starts at = Today’s date
+   - Starts at = Today's date
    - Expires at = 1 year (unless the partner already has existing NFR licenses, then set to the expiration date of the existing license so that all licenses expire the same day and can be reviewed and renewed, if needed, at the same time)
    - Notes = [User count] [GitLab Plan] NFR Licenses for Partner: [Insert Name]
 
@@ -246,27 +238,27 @@ Create a [Single Access Request](https://gitlab.com/gitlab-com/team-member-epics
    2. Under _Account Creation_ go down to the checkboxes for System name:
       1. _System name:_dev.gitlab.org
       2. _Justification for this access:_I need access to this system so that I can also login and gain access to license.gitlab.com. As a Partner Help Desk Specialist, I will be fulfilling and creating new NFR licenses for Channel Partners for their internal use/demo purposes.
-   3. _When is access needed?_ Check the box next to “Within next 72 hours” and add the corresponding label in the _Labels_ section.
+   3. _When is access needed?_ Check the box next to "Within next 72 hours" and add the corresponding label in the _Labels_ section.
 4. _Assignee: *Your Manager,*_Yourself (so you can track)
 5. _Labels:_ IT::to do, AR-Priority::3 (other labels will be auto-added)
 6. Click _Submit Issue_ button
-7. In the _Comments_section below the body of the issue, type: @gitlab-com/business-technology/team-member-enablement and then click _Comment_ to post.
+7. In the _Comments_section below the body of the issue, type: @gitlab-com/gl-security/corp/helpdesk and then click _Comment_ to post.
 8. You may also want to comment to @your manager to ask them to label _AR-Approval Manager Approved_ and _ReadyForProvisioning_
 9. Once approved, it should be processed by IT-OPs within the timeframe needed
 
-Once access is granted, you will get an email from dev.gitlab.org “Account was created for you”, make sure you open the email and click the link to set your password.
+Once access is granted, you will get an email from dev.gitlab.org "Account was created for you", make sure you open the email and click the link to set your password.
 
 **<span style="text-decoration:underline;">Logging in to license.gitlab.com</span>**
 
-Once your password is set at dev.gitlab.org, go to license.gitlab.com. A login screen will appear, click the green button on the left, “Login with GitLab” and use your email and the password you just created for dev.gitlab.org.
+Once your password is set at dev.gitlab.org, go to license.gitlab.com. A login screen will appear, click the green button on the left, "Login with GitLab" and use your email and the password you just created for dev.gitlab.org.
 
 **<span style="text-decoration:underline;">Set Up Google Form Spreadsheet Notifications</span>**
 
 Access the [NFR License Request Form Google Sheet](https://docs.google.com/spreadsheets/d/1AXB3ERYQMQ3RmtweidgxR18rdlb8ZObqicanOPgWyVA/edit#gid=1914005562)and set notifications following the instructions below.
 
-You can only set up notifications for yourself. You won’t get notifications when you make changes on your spreadsheet, but you’ll get notifications when others make changes.
+You can only set up notifications for yourself. You won't get notifications when you make changes on your spreadsheet, but you'll get notifications when others make changes.
 
-Open the form as a spreadsheet in Google Sheets (click the Responses tab on the form and right below that in the top right corner, click the Sheets icon “View responses in Sheets”).
+Open the form as a spreadsheet in Google Sheets (click the Responses tab on the form and right below that in the top right corner, click the Sheets icon "View responses in Sheets").
 
 At the top of the spreadsheet, click _Tools_ and then _Notification rules_.
 
@@ -375,7 +367,7 @@ The Channel Programs and Enablement team is responsible for the maintence and ma
 
 ## **Partner Communications**
 
-The Channel Programs and Enablement team is responsible for “To Partner” Communications.
+The Channel Programs and Enablement team is responsible for "To Partner" Communications.
 
 Partners are a huge part of the GitLab go-to-market strategy.  Teams managing our product, pricing, or process changes should always consider our Partners as it puts them in the best position to be successful with GitLab customers.
 
@@ -392,7 +384,7 @@ NOD is used to communicate to Partners via targeted emails and the Partner Flash
 
 **Partner Flash is 100% Targeted** - using groups, we can target the audience of each communication or email. \
   \
-**Partner Flash is 100% Personalized**- Partners can choose topic preferences and delivery cadence. They can opt to receive the newsletter Daily, Weekly, Bi-Weekly or Monthly. Partners can also access Partner Flash via the “My News” tab in the Partner Portal.
+**Partner Flash is 100% Personalized**- Partners can choose topic preferences and delivery cadence. They can opt to receive the newsletter Daily, Weekly, Bi-Weekly or Monthly. Partners can also access Partner Flash via the "My News" tab in the Partner Portal.
 
 **Everyone can Contribute!** - Anyone at GitLab can create a story or article for the newsletter! If you would like to be a contributor,[click here](https://partnerflash.gitlab.com/registration/admin/personal_profile) to fill out the request form.  Once approved, navigate to the NOD **Home Page** to access training and helpful tips.
 
@@ -552,7 +544,7 @@ Qualitative Success Metrics
 
 **Projects**
 
-- Create issues under the “Channels” project
+- Create issues under the "Channels" project
 
 **Labels**
 

@@ -9,7 +9,7 @@ The Pricing team owns the definition and execution of pricing strategy at GitLab
 
 - Define, track and measure pricing performance, defining actionable decision insights on pricing performance
 - Build models to inform the impact of price changes on customer acquisition, usage and churn
-- Provide critical thinking to make a huge positive impact on GitLab’s top line growth and bottom line profitability
+- Provide critical thinking to make a huge positive impact on GitLab's top line growth and bottom line profitability
 
 ## Requirements
 
@@ -29,7 +29,7 @@ The pricing team measures its success by tracking growth in the following areas:
 - Average Selling Price (ASP)
 - Average Revenue Per User (ARPU)
 
-Additional performance indicators may be added as the team expands. 
+Additional performance indicators may be added as the team expands.
 
 ## Levels
 
@@ -103,7 +103,7 @@ The Senior Pricing Manager brings pricing and packaging domain expertise, contri
 - Familiarity in pricing research methodologies, such as conjoint, Van Westendorp, and max diff analysis
 - Strong analytical skills with the ability to interpret complex data and provide actionable insights
 - Comfortable working in an environment of ambiguity, driving towards clarity to acheive results
-- Successful track record of maintaing alignment across key cross functional stakeholders 
+- Successful track record of maintaing alignment across key cross functional stakeholders
 
 #### Senior Pricing Manager Job Grade
 
@@ -117,7 +117,7 @@ Candidates for this position can expect the hiring process to follow the order b
 - Next, candidates will be invited to schedule an interview with a Principal Pricing Manager
 - Next, candidates will be initied to schedule an interview with a member of the Product Organization
 - Next, candidates will be invited to schedule an interview with a member of the Finance Organization
-- Next, candidates will be invited to schedule an interview with a member of the Sales and/or Marketing Organization 
+- Next, candidates will be invited to schedule an interview with a member of the Sales and/or Marketing Organization
 - Next, candidates will be invited to schedule an interview with the VP of Product
 
 ### Principal Pricing Manager
@@ -135,7 +135,7 @@ The Principal Pricing Manager role builds upon the Senior Pricing Manager role b
 
 #### Principal Pricing Manager Requirements
 
-- 7+ years of pricing experience.  MBA preferred.  
+- 7+ years of pricing experience.  MBA preferred.
 - Fluency in pricing research methodologies like conjoint and Van Westendorp Analysis
 - Deep analytical skill and experience creating complex models to forecast the impact of pricing changes
 - Expertise in quantitative and qualitative customer validation techniques, including surveys & customer interviewing to test customer segmentation, value metrics, pricing models, etc.
@@ -168,7 +168,7 @@ The Director of Pricing reports to the [VP of Product Monetization](/job-familie
 - Work closely with the CEO, CMO, CRO, and VP of Product to drive decision making around all aspects of the [pricing model](/handbook/company/pricing/)
 - Collaborate effectively cross-functionally to drive complex pricing decisions at all levels including e-group
 - Ensure pricing and packaging projects are effectively executed, including customer messaging, product experience, and internal enablement
-- Drive robust pricing related research and analysis to generate and test hypotheses to optimize GitLab’s pricing model, including pricing metrics, price points, and package construction
+- Drive robust pricing related research and analysis to generate and test hypotheses to optimize GitLab's pricing model, including pricing metrics, price points, and package construction
 - Implement continuous pricing optimization plans
 - Work across Fulfillment, Sales, Marketing, Legal, and Finance to deliver pricing and packaging changes
 - Contribute to our broader strategy collaborating closely with the Product Leadership Team

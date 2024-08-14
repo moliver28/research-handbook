@@ -1,5 +1,4 @@
 ---
-
 title: Negotiate to Close
 description: >-
   A sales negotiation is a strategic discussion (or series of discussions)
@@ -7,12 +6,6 @@ description: >-
   goal of the negotiation process is to reach an agreement that's acceptable to
   everyone.
 ---
-
-
-
-
-
-
 
 ## Overview
 

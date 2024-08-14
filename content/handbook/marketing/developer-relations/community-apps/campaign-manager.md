@@ -1,13 +1,6 @@
 ---
-
 title: "Campaign Manager"
 ---
-
-
-
-
-
-
 
 ## <i class="" id="overview"></i> Managing Campaigns
 

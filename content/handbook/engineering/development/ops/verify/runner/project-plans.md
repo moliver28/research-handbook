@@ -1,14 +1,7 @@
 ---
-
 title: "Verify:Runner Project Plans"
 description: "This project's scope is to replace the current autoscaling technology, Docker Machine, used for the GitLab SaaS Shared Runners."
 ---
-
-
-
-
-
-
 
 ## Autoscaling Provider for GitLab Runner to replace Docker Machine
 

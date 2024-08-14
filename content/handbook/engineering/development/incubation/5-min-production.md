@@ -1,13 +1,6 @@
 ---
-
 title: Five Minute Production
 ---
-
-
-
-
-
-
 
 ## Five Minute Production
 

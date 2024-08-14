@@ -14,7 +14,7 @@ dbt, short for [data build tool](https://www.getdbt.com/), is an [open source pr
 
 The following links will give you an excellent overview of what dbt is:
 
-- [What, exactly, is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/) - This is a less technical overview for understanding the tool
+- [What, exactly, is dbt?](https://www.getdbt.com/blog/what-exactly-is-dbt) - This is a less technical overview for understanding the tool
 - [What is dbt?](https://docs.getdbt.com/docs/introduction) - This is a bit more technical and comes straight from the docs
 
 But why do we use dbt? There are several reasons.
@@ -42,22 +42,34 @@ If you're interested in using dbt, the [dbt documentation has a great tutorial](
 
 If you wish to use dbt and contribute to the data team project, you'll need to gain access to our Snowflake instance, which can be done via an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
-### Configuration
+### Local environment
 
-- Ensure you have access to our Snowflake instance
+We use user-dedicated development databases and [virtual environments](/handbook/business-technology/data-team/platform/dbt-guide/#venv-workflow) via [make](https://www.gnu.org/software/make/manual/make.html) recipes in order to facilitate a 'local' development environment for GitLab team members contributing to our dbt project(s)
+
+#### 'Local' User-Dedicated Development Databases
+
+When needed for team members we create local development databases corresponding to the snowflake user with `_PREP` and `_PROD` suffixes, corresponding to the `PREP` and `PROD` databases in snowflake. These will be targeted by our main dbt project when run within the local environment so that contributors can develop and test changes to our dbt project. More detail on our development process within our dbt project can be found on the [dbt Change Workflow page](/handbook/business-technology/data-team/how-we-work/dbt-change-workflow/).
+
+Any data built within these development databases should be considered ephemeral as they're only to be used for local development. To ensure the optimal use of dbt, as well as appropriate security and compliace, these databases should be cleaned by the owning user regularly. [This Runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/Snowflake/snowflake_dev_clean_up.md) can be used to make that process quick and easy, and it's suggested to be run at the end or beginning of each development cycle. Additionaly, in order to ensure compliance with our data retention policies and procedures we will automatically drop all tables in development environments after **80 days** without alteration. This retention period is set within the dbt project with the `dev_db_object_expiration` variable and tables are deleted each weekend.
+
+Note: Development databases are dropped as soon as the corresponding Team Member is deprovisioned access to Snowflake (i.e. in case of offboarding or [inactive usage](/handbook/business-technology/data-team/data-management/#snowflake-1). There is not [backup]/handbook/business-technology/data-team/platform/#backups) process for development databases.
+
+#### Configuration
+
+- Ensure you have access to our Snowflake instance and dedicated development databases for your snowflake user
 - Ensure you have [Make](https://en.wikipedia.org/wiki/Make_(software)) installed (should be installed on new Macs and with XCode)
 - Create a folder in your home directory called `.dbt`
 - In the `~/.dbt/` folder there should be a `profiles.yml`file that looks like this [sample profile](https://gitlab.com/gitlab-data/analytics/blob/master/admin/sample_profiles.yml)
 - The smallest possible warehouse should be stored as an environment variable. Our dbt jobs use `SNOWFLAKE_TRANSFORM_WAREHOUSE` as the variable name to identify the warehouse. The environment variable can be set in the `.bashrc` or `.zshrc` file as follows:
-  - `export SNOWFLAKE_TRANSFORM_WAREHOUSE="ANALYST_XS"`
+  - `export SNOWFLAKE_TRANSFORM_WAREHOUSE="DEV_XS"`
   - In cases where more compute is required, this variable can be overwritten at run. We will cover how to do this in the [next section](/handbook/business-technology/data-team/platform/dbt-guide/#choosing-the-right-snowflake-warehouse-when-running-dbt).
 - Clone the [analytics project](https://gitlab.com/gitlab-data/analytics/)
 - If running on Linux:
-  - Ensure you have [Docker installed](https://docs.docker.com/docker-for-mac/)
+  - Ensure you have [Rancher Desktop Installed](https://rancherdesktop.io/)
 
 Note that many of these steps are done in the [onboarding script](https://gitlab.com/gitlab-data/analytics/-/blob/master/admin/onboarding_script.zsh) we recommend new analysts run.
 
-### Choosing the right Snowflake warehouse when running dbt
+#### Choosing the right Snowflake warehouse when running dbt
 
 Our Snowflake instance contains [warehouses of multiple sizes](https://docs.snowflake.com/en/user-guide/warehouses-overview.html), which allow for dbt developers to allocate
 differing levels of compute resources to the queries they run. The larger a warehouse is and the longer it runs, the more the query costs. For example, it costs [8 times](https://docs.snowflake.com/en/user-guide/warehouses-overview.html#warehouse-size) more to run a Large warehouse for an hour than it costs to run an X-Small warehouse for an hour.
@@ -83,7 +95,7 @@ gitlab-snowflake:
       user: {username}
       role: {rolename}
       database: {databasename}
-      warehouse: ANALYST_XS
+      warehouse: DEV_XS
       schema: preparation
       authenticator: externalbrowser
     dev_l:
@@ -93,7 +105,7 @@ gitlab-snowflake:
       user: {username}
       role: {rolename}
       database: {databasename}
-      warehouse: ANALYST_L
+      warehouse: DEV_L
       schema: preparation
       authenticator: externalbrowser
 ```
@@ -105,9 +117,7 @@ use a larger warehouse. You want to retry the build, but this time you want dbt 
 `dbt run --models @{model_name} --target dev_l`, which tells dbt to use the warehouse you specified in the `dev_l` target in your `profiles.yml` file. After a few minutes, the build
 completes and you start checking your work.
 
-### Venv Workflow
-
-{: #Venv-workflow}
+#### Venv Workflow {#Venv-workflow}
 
 Recommended workflow for anyone running a Mac system.
 
@@ -129,7 +139,30 @@ Recommended workflow for anyone running a Mac system.
 
 #### Why do we use a virtual environment for local dbt development?
 
-We use virtual environments for local dbt development because it ensures that each developer is running exactly the same dbt version with exactly the same dependencies. This minimizes the risk that developers will have different development experiences due to different software versions, and makes it easy to upgrade everyone’s software simultaneously. Additionally, because our staging and production environments are containerized, this approach ensures that the same piece of code will execute as predictably as possible across all of our environments.
+We use virtual environments for local dbt development because it ensures that each developer is running exactly the same dbt version with exactly the same dependencies. This minimizes the risk that developers will have different development experiences due to different software versions, and makes it easy to upgrade everyone's software simultaneously. Additionally, because our staging and production environments are containerized, this approach ensures that the same piece of code will execute as predictably as possible across all of our environments.
+
+#### Build Changes Locally
+
+To clone and build all of the changed models in the local development space the same `build_changes` process can be used that is used in the [CI Job](/handbook/business-technology/data-team/platform/ci-jobs/#build_changes).  The primary difference is that instead of a `WAREHOUSE` variable the developer can pass a `TARGET` variable to use a target configured with a different warehouse size.  To run the process, run the `make build-changes` command from within the virtual environment.
+
+```console
+ ~/repos/analytics/transform/snowflake-dbt
+╰─$ make build-changes DOWNSTREAM="+1" FULL_REFRESH="True" TARGET="dev_xl" VARS="key":"value" EXCLUDE="test_model" 
+```
+
+#### SQLFluff linter
+
+We use SQLFluff to enforce [SQL style guide](/handbook/business-technology/data-team/platform/sql-style-guide/) on our code. In addition to the methods for executing the linter found in the documentation, when in the dbt virtual environment the `make lint-models` can be used.  By default the `lint-models` process will lint all changed sql files, but the `MODEL` variable can be used to lint a specif sql file and the `FIX` variable can be used to run the linters fix command that will make changes to the sql file.
+
+```console
+~/repos/analytics/transform/snowflake-dbt
+╰─$ make lint-models 
+sqlfluff lint models/workspaces/workspace_data/mock/data_type_mock_table.sql
+
+~/repos/analytics/transform/snowflake-dbt
+╰─$ make lint-models FIX="True" MODEL="dim_date"  
+sqlfluff fix ./models/common/dimensions_shared/dim_date.sql
+```
 
 #### Cloning models locally
 
@@ -181,9 +214,7 @@ We are actively transitioning to the new `clone-dbt-select-local-user-noscript` 
   - `make DBT_MODELS="<dbt_selector>" clone-dbt-select-local-branch`
   - eg. `make DBT_MODELS="+dim_subscription" clone-dbt-select-local-branch`
 
-### Docker Workflow
-
-{: #docker-workflow}
+### Docker Workflow {#docker-workflow}
 
 The below is the recommended workflow primarily for users running Linux as the venv workflow has fewer prerequisites and is considerably faster.
 
@@ -242,10 +273,6 @@ dbt specific:
 - `cycle_logs` - a function we've added to your computer to clear out the dbt logs (not accessible from within the docker container)
 - `make dbt-docs` - a command that will spin up a local container to serve you the `dbt` docs in a web-browser, found at `localhost:8081`
 
-##### SQLFluff linter
-
-We use SQLFluff to enforce [SQL style guide](/handbook/business-technology/data-team/platform/sql-style-guide/) on our code. To have the SQLFluff in the DBT venv you will have to rebuild it. The make prepare-dbt or more specifically the pipenv install from within that command will install the correct version of the tool into the venv. If you have done that and it is not working you can try a direct install of version 0.9.3 using the pip installer.
-
 ### VSCode extension: dbt Power User
 
 [dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user) makes VScode seamlessly work with dbt. The guide below will allow you to install dbt Power User if you followed the [Venv workflow](/handbook/business-technology/data-team/platform/dbt-guide/#Venv-workflow).
@@ -253,9 +280,9 @@ We use SQLFluff to enforce [SQL style guide](/handbook/business-technology/data-
 Before we start, there are some settings to adjust in your VScode:
 
 - Go in Code > Settings > Settings…
-  - Search for ‘Python info visibility’ > Set this setting as ‘Always’
+  - Search for 'Python info visibility' > Set this setting as 'Always'
   - In a terminal, run `make run-dbt` as described in the [Using dbt](/handbook/business-technology/data-team/platform/dbt-guide/#using-dbt) section. Once it ran and the new shell spawned, run `echo $VIRTUAL_ENV`. Copy that value.
-    - Search for ‘venv path’ in VScode settings.
+    - Search for 'venv path' in VScode settings.
     - Set this setting to the path that you copied last step, which should look like `/Users/<username>/Library/Caches/pypoetry/virtualenvs/` if you followed a standard installation. Remove the last part of the path `analytics-*******-py3.10` at the time of writing.
 - Open VScode in /analytics (File > Open Folder... or Workspace...)
 - You now see a python interpreter selector at the bottom right of VScode, click on it
@@ -290,9 +317,7 @@ Before we start, there are some settings to adjust in your VScode:
   }
   ```
 
-  {{% panel header="**Note**" header-bg="warning" %}}
-  If the code base is updated with new values for these environment variables, you will have to update them in your `settings.json` according to the values of variables located in the `Makefile` at the root of the analytics repository.
-  {{% /panel %}}
+  Note: If the code base is updated with new values for these environment variables, you will have to update them in your `settings.json` according to the values of variables located in the `Makefile` at the root of the analytics repository.
 
 - Edit `DBT_PROFILES_DIR` so that it points to your `~/.dbt/` folder (it seems that path must be relative and pointing to your `~/.dbt` folder, from the `/analytics` folder)
 - Restart VScode and re-open the analytics workspace
@@ -355,7 +380,7 @@ The information in this section is from previous iterations of the handbook.
 
 - The goal of a (final) `_xf` dbt model should be a `BEAM*` table, which means it follows the business event analysis & model structure and answers the who, what, where, when, how many, why, and how question combinations that measure the business.
 - `base models`- the only dbt models that reference the source table; base models have minimal transformational logic (usually limited to filtering out rows with data integrity issues or actively flagged not for analysis and renaming columns for easier analysis); can be found in the `legacy` schema; is used in `ref` statements by `end-user models`
-- `end-user models` - dbt models used for analysis. The final version of a model will likely be indicated with an `_xf` suffix when it’s goal is to be a `BEAM*` table. It should follow the business event analysis & model structure and answer the who, what, where, when, how many, why, and how question combinations that measure the business. End user models are found in the `legacy` schema.
+- `end-user models` - dbt models used for analysis. The final version of a model will likely be indicated with an `_xf` suffix when it's goal is to be a `BEAM*` table. It should follow the business event analysis & model structure and answer the who, what, where, when, how many, why, and how question combinations that measure the business. End user models are found in the `legacy` schema.
 
 Look at the [Use This Not That](https://docs.google.com/spreadsheets/d/1yr-J4ztkyl9vmJ6Euj58gczDLTIss7xIher5SV-1VDY/edit?usp=sharing) mapping to determine which new Kimball model replaces the legacy model.
 {{% /panel %}}
@@ -728,14 +753,12 @@ In our dbt project we make use of the [dbt-utils package](https://github.com/dbt
 - [star](https://github.com/dbt-labs/dbt-utils?tab=readme-ov-file#star-source) - This macro pulls all the columns from a table excluding the columns listed in the except argument
 - [surrogate_key](https://github.com/dbt-labs/dbt-utils?tab=readme-ov-file#generate_surrogate_key-source) - This macro takes a list of field names and returns a hash of the values to generate a unique key
 
-### Seeds
-
-{: #seeds}
+### Seeds {#seeds}
 
 Seeds are a way to load data from csv files into our data warehouse ([dbt documentation](https://docs.getdbt.com/docs/building-a-dbt-project/seeds/)).
 Because these csv files are located in our dbt repository, they are version controlled and code reviewable.
 This method is appropriate for loading static data which changes infrequently.
-A csv file that’s up to ~1k lines long and less than a few kilobytes is probably a good candidate for use with the `dbt seed` command.
+A csv file that's up to ~1k lines long and less than a few kilobytes is probably a good candidate for use with the `dbt seed` command.
 
 #### Organizing columns
 
@@ -1208,9 +1231,7 @@ Data extraction is loading data from the source system to Snowflake data warehou
 
 Data transformation is downstream transformation via dbt for Dimensions, Facts, Marts and reports models.
 
-### Snapshots
-
-{: #snapshots}
+### Snapshots {#snapshots}
 
 dbt snapshots are
 

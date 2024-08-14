@@ -24,7 +24,7 @@ At GitLab, Production Designers collaborate closely with Brand Designers, and ot
 - Degree in graphic design or a related field.
 - Strong portfolio showcasing brand and marketing experience across print, web, and digital mediums.
 - You have an eye for exemplary typography, illustration, icon design, and overall user experience.
-- You know Sketch, Adobe Illustrator, Photoshop, InDesign, Google Slides, and Powerpoint like nobody’s business.
+- You know Sketch, Adobe Illustrator, Photoshop, InDesign, Google Slides, and Powerpoint like nobody's business.
 - Comfortable with Git, HTML, CSS, and Markdown to update [about.gitlab.com](https://about.gitlab.com/).
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Ability to use GitLab

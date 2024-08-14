@@ -1,19 +1,9 @@
 ---
-
-title: "Brand Strategy team"
-description: "The GitLab Brand Strategy team handbook"
+title: "The GitLab Brand Strategy team"
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
-
-
-
-
-
-
-## The GitLab Brand Strategy team
-
-The Brand Strategy team is responsible for accelerating GitLab’s path to market by creating awareness, trust, and affinity for the GitLab brand.
+The Brand Strategy team is responsible for accelerating GitLab's path to market by creating awareness, trust, and affinity for the GitLab brand.
 
 ## Meet the team
 
@@ -21,7 +11,7 @@ The Brand Strategy team is responsible for accelerating GitLab’s path to marke
 - Matthew Jordan: Senior Brand Manager - `@jmatthewj`
 - Betsy Bula: Senior Brand Manager - `@bbula`
 
-We’re part of the broader [Brand and Product Marketing team](/handbook/marketing/brand-and-product-marketing/) at GitLab, and we’re close counterparts of the Brand Creative team. Looking for design-related resources? Check out the [Brand Creative handbook](/handbook/marketing/brand-and-product-marketing/design/).
+We're part of the broader [Brand and Product Marketing team](/handbook/marketing/brand-and-product-marketing/) at GitLab, and we're close counterparts of the Brand Creative team. Looking for design-related resources? Check out the [Brand Creative handbook](/handbook/marketing/brand-and-product-marketing/design/).
 
 ## What we do
 
@@ -36,13 +26,13 @@ In FY24, our goal is to establish a global, always-on digital presence with brea
 
 ## Objectives and Key Results (OKRs)
 
-Want to learn more about our current projects, objectives, and key results? GitLab team members can find the Brand Strategy team’s OKRs [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Abrandstrategy&first_page_size=100).
+Want to learn more about our current projects, objectives, and key results? GitLab team members can find the Brand Strategy team's OKRs [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Abrandstrategy&first_page_size=100).
 
 ## How to work with us
 
 ## Requesting support
 
-If you have a question or request that isn’t outlined on this page, you can reach our team in the #brand Slack channel.
+If you have a question or request that isn't outlined on this page, you can reach our team in the #brand Slack channel.
 
 ### Creative requests
 
@@ -97,6 +87,6 @@ GitLab's official brand guidelines can be found at [design.gitlab.com](https://d
 
 ## Logo and trademark usage
 
-GitLab's official logo files can be found and downloaded in the [press kit](/press/press-kit/).
+GitLab's official logo files can be found and downloaded in the [press kit](https://about.gitlab.com/press/press-kit/).
 
 Refer to GitLab's [trademark guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/) for details on how our trademarks can and can't be used.

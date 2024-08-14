@@ -1,6 +1,6 @@
 ---
 title: Director, Internal Audit
-description: Responsible for supporting the Vice-President, Internal Audit in preparing and implementing a risk-based audit plan to assess, report on, and recommend improvements to address GitLab’s strategic, business and compliance objectives.
+description: Responsible for supporting the Vice-President, Internal Audit in preparing and implementing a risk-based audit plan to assess, report on, and recommend improvements to address GitLab's strategic, business and compliance objectives.
 ---
 
 The position additionally will support in developing and executing the Internal Audit strategic plan and roadmap to build the next generation Audit function.
@@ -13,7 +13,7 @@ The Director, Internal Audit is a [grade 10](/handbook/total-rewards/compensatio
 
 ### Responsibilities
 
-- Plans and executes risk-based operational audits and makes high impact recommendations to address GitLab’s strategic, business and compliance objectives as well as current and emerging internal and external risks
+- Plans and executes risk-based operational audits and makes high impact recommendations to address GitLab's strategic, business and compliance objectives as well as current and emerging internal and external risks
 - Provides oversight over GitLab SOX program to ensure the program is run effectively and efficiently
 - Supports in developing and executing Internal Audit strategic plan and roadmap to build the next generation audit function
 - Implement Quality Assurance and Improvement Plan (QAIP) to meet the IIA standards and ensure ongoing compliance to QAIP requirements
@@ -21,8 +21,8 @@ The Director, Internal Audit is a [grade 10](/handbook/total-rewards/compensatio
 - Build and manage a highly functioning, distributed team of direct reports.
 - Identify and assess the implementation of new controls as necessary.
 - Identify and design anti-fraud criteria and controls.
-- Monitor and audit the company’s compliance with established internal controls.
-- Report findings to senior management and the company’s audit committee.
+- Monitor and audit the company's compliance with established internal controls.
+- Report findings to senior management and the company's audit committee.
 - Coordinate activities with external auditors to support their audit and review procedures.
 - Lead and participate in special projects and other critical initiatives of Internal Audit function
 
@@ -40,7 +40,7 @@ The Director, Internal Audit is a [grade 10](/handbook/total-rewards/compensatio
 - Ability to work in US time zones mainly Pacific and Eastern time zones
 - 10+ years of experience in audit and risk management
 - Experience in the software industry is highly preferred.
-- MBA, Bachelor’s degree in accounting or related finance field. Chartered accountant (CA) or certified public accountant (CPA) desirable.
+- MBA, Bachelor's degree in accounting or related finance field. Chartered accountant (CA) or certified public accountant (CPA) desirable.
 - Certified internal auditor (CIA) or certified information systems auditor (CISA) preferred.
 - Ability to use GitLab
 

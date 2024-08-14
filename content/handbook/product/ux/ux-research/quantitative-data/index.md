@@ -15,22 +15,22 @@ Quantitative data is any kind of data **that can be quantified through counting 
 ### What can quantitative data tell us?
 
 Quantitative data can tell us more about the **who, what, when, and sometimes how** of our
-product’s usage. As an example, quantitative data can answer the following research questions:
+product's usage. As an example, quantitative data can answer the following research questions:
 
 - *How many users engage with CI Pipeline templates?*
 - *Which GitLab features are used by Executives? (for users who provide their role)*
 
-### What can’t quantitative data tell us?
+### What can't quantitative data tell us?
 
-Quantitative data **cannot tell us the “why”**, because there are always aspects of a user’s situation that aren’t understood or under our control. For example:
+Quantitative data **cannot tell us the "why"**, because there are always aspects of a user's situation that aren't understood or under our control. For example:
 
 *Imagine two users. One is a student who has been following some tutorials they found online to learn how repositories work. The other user is a software engineer who uses GitLab occasionally on their freelance projects. Both users use the same features at around the same time, and neither have their profile information filled out.*
 
-From this point of view, there is no way to tell the difference in use cases through usage analytics, and over time these users will end up being misrepresented in the product. While quantitative data is powerful, it’s important to recognize the limitations of what it can provide.
+From this point of view, there is no way to tell the difference in use cases through usage analytics, and over time these users will end up being misrepresented in the product. While quantitative data is powerful, it's important to recognize the limitations of what it can provide.
 
 ### When to consider using quantitative data?
 
-If your hypotheses and research questions are similar to the examples below, then quantitative data may be one tool you consider using. Remember, this doesn’t mean that quantitative data is the only tool to use, because there are still limitations as to what analytics can tell us.
+If your hypotheses and research questions are similar to the examples below, then quantitative data may be one tool you consider using. Remember, this doesn't mean that quantitative data is the only tool to use, because there are still limitations as to what analytics can tell us.
 
 Examples of questions that point towards using quantitative data:
 
@@ -41,7 +41,7 @@ Examples of questions that point towards using quantitative data:
 - *How often is a feature used?*
 - *Which different types of options do users select?*
 
-You can usually spot these questions, as they tend to start with “what,” “how," or “when.” Here is a [walkthrough](/handbook/product/ux/ux-resources/designers-guide-to-data/#using-data-for-design-decisions-at-gitlab) of how designers are using data to make decisions.
+You can usually spot these questions, as they tend to start with "what," "how," or "when." Here is a [walkthrough](/handbook/product/ux/ux-resources/designers-guide-to-data/#using-data-for-design-decisions-at-gitlab) of how designers are using data to make decisions.
 
 ## What is the process of conducting quantitative research?
 
@@ -54,7 +54,7 @@ The typical process is as follows:
 
 ### Why do I need to generate questions and hypotheses prior to conducting quantitative research?
 
-Before starting any kind of quantitative research, it is important to identify your hypotheses and questions to avoid the problem of “data snooping.” In data snooping, a lack of defined hypotheses/questions leads you to find results that *seem* meaningful, but are actually misleading and misrepresentative of the user population. Hypotheses/questions serve as an anchor for your overall analysis.
+Before starting any kind of quantitative research, it is important to identify your hypotheses and questions to avoid the problem of "data snooping." In data snooping, a lack of defined hypotheses/questions leads you to find results that *seem* meaningful, but are actually misleading and misrepresentative of the user population. Hypotheses/questions serve as an anchor for your overall analysis.
 
 ### How do I collect data?
 
@@ -92,7 +92,7 @@ There are dozens of ways to [lie with visualizations](https://handsondataviz.org
 - For chronological studies, always put time on the X axis.
 - Keep it simple. Titles should be clear and concise, and there should be enough context for a team member unfamiliar with the topic to understand the message.
 - State the limitations, including the date the data was pulled, and where it was pulled from. Use subtitles for references when needed.
-- Consider your audience’s familiarity with the data set. A simple and informative graph can often have more impact on your audience than a “flashy” graph with multiple groupings and axes.
+- Consider your audience's familiarity with the data set. A simple and informative graph can often have more impact on your audience than a "flashy" graph with multiple groupings and axes.
 
 ### Summarizing quantitative data
 
@@ -109,11 +109,11 @@ Once you have identified patterns, summarize those patterns as best you can whil
 
 #### An example of quantitative data summary
 
-The following is an example of using quantitative data to investigate [Actionable Insights (AI)](/handbook/product/ux/ux-research/research-insights/#actionable-insights). The research question was, “What are the potential factors in whether an (AI) issue is successfully completed or not?” First, the researcher pulled usage data in Sisense related to GitLab issues with the Actionable Insight label. Then, they created these charts:
+The following is an example of using quantitative data to investigate [Actionable Insights (AI)](/handbook/product/ux/ux-research/research-insights/#actionable-insights). The research question was, "What are the potential factors in whether an (AI) issue is successfully completed or not?" First, the researcher pulled usage data in Sisense related to GitLab issues with the Actionable Insight label. Then, they created these charts:
 
 ![sharesettings](/handbook/product/ux/ux-research/quantitative-data/ai.png)
 
-Based on these charts, it is evident that there is a huge decline in issues closed after 7 months. So the finding were presented as, “If Actionable Insight issues are not addressed within 7 months of creation, they are likely to be left open.”
+Based on these charts, it is evident that there is a huge decline in issues closed after 7 months. So the finding were presented as, "If Actionable Insight issues are not addressed within 7 months of creation, they are likely to be left open."
 
 [Additional examples of Product Designers using data for decisions](/handbook/product/ux/ux-resources/designers-guide-to-data/#how-is-data-being-captured)
 
@@ -166,7 +166,7 @@ Example 2: *Finding areas for improvement of a new feature for future iterations
 1. Include priorities based on user input and time-on-page trends.
 1. Use those insights to help map future iterations in the roadmap.
 
-### What do you do when you don’t have enough quantitative data?
+### What do you do when you don't have enough quantitative data?
 
 There are many common scenarios where you might not have enough data. For example:
 

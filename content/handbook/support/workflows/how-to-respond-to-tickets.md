@@ -1,29 +1,26 @@
 ---
-
 title: How to Respond to Tickets
 category: Handling tickets
 description: Advice for providing human, helpful responses to support tickets to improve customer experience and excellence
 ---
 
-
-
 ## How to respond to a ticket
 
 ### Smart Humans Provide Smart Support
 
-We aim to hire smart people, and let them be smart. This means we try to offer sensible guidelines that will help, but avoid “scripts” or rigidity. Speak in your natural voice as you would to a peer at a conference. Obviously avoid unprofessional language, but you’ll want to match the customer’s tone. There is often a desire to “unify” by everyone speaking in a robotic tone:
+We aim to hire smart people, and let them be smart. This means we try to offer sensible guidelines that will help, but avoid "scripts" or rigidity. Speak in your natural voice as you would to a peer at a conference. Obviously avoid unprofessional language, but you'll want to match the customer's tone. There is often a desire to "unify" by everyone speaking in a robotic tone:
 
-> “Thank you for contacting support. We can help you with this. It looks like you are asking for help with resetting your password…”
+> "Thank you for contacting support. We can help you with this. It looks like you are asking for help with resetting your password…"
 
-This dehumanizes us and we lose our best asset: *Support from a human.* When you speak more naturally it anchors that we are also real people and not “support minds as a service:”
+This dehumanizes us and we lose our best asset: *Support from a human.* When you speak more naturally it anchors that we are also real people and not "support minds as a service:"
 
-> “Ah, sorry to hear that you lost your password. I’ve issued a password reset and you are good to go. In the future, you can use this link:
+> "Ah, sorry to hear that you lost your password. I've issued a password reset and you are good to go. In the future, you can use this link:
 >
 > <link>
 >
-> Let us know if there is anything else we can help with. “
+> Let us know if there is anything else we can help with. "
 
-### We Aren’t a Cannery (but we sometimes use canned goods)
+### We Aren't a Cannery (but we sometimes use canned goods)
 
 At GitLab, we consider the elements of our responses carefully. If you find yourself
 wanting to use canned responses, or are saying the same things over and over, it's
@@ -56,25 +53,25 @@ contain the following 3 things:
 
 For example, a customer might ask:
 
-> “ My GitLab server appears to be slowing down. Can you help me?”
+> " My GitLab server appears to be slowing down. Can you help me?"
 
 An *okay* response is:
 
-> “ Please send us over your production logs and we can use that to troubleshoot some more. “
+> " Please send us over your production logs and we can use that to troubleshoot some more. "
 
-Notice we asked for what we needed, and we’ll be able to help. Let’s make it great using the sandwich method:
+Notice we asked for what we needed, and we'll be able to help. Let's make it great using the sandwich method:
 
-> “It will be helpful to get as many logs as possible during the slowness to help us isolate the problem. You can find them in /var/log/gitlab (This is our ask)
+> "It will be helpful to get as many logs as possible during the slowness to help us isolate the problem. You can find them in /var/log/gitlab (This is our ask)
 >
-> Usually when we see slowness, it’s isolated to a specific part of the application. Can you help us narrow down the issue by outlining when you see things slow down? (This is our premise for them to reinforce our expertise.)
+> Usually when we see slowness, it's isolated to a specific part of the application. Can you help us narrow down the issue by outlining when you see things slow down? (This is our premise for them to reinforce our expertise.)
 >
-> Once you send these over and help us understand how you are getting to the slow state we’ll be happy to help you dive in some more.” (This is us reassuring them we’ll help.)
+> Once you send these over and help us understand how you are getting to the slow state we'll be happy to help you dive in some more." (This is us reassuring them we'll help.)
 
-We’ve asked for what we need early. Emphasize the ask *early*, so they can start thinking
-on it and if they stop reading right there, they didn’t miss the ask. We’ve given
+We've asked for what we need early. Emphasize the ask *early*, so they can start thinking
+on it and if they stop reading right there, they didn't miss the ask. We've given
 a hypothesis which is something for them to chew on and understand our vantage.
-We don’t want to *serve* our customers, we want to *partner* with them. This is
-one way for them to see us as a peer vs. “support minds as a service.”
+We don't want to *serve* our customers, we want to *partner* with them. This is
+one way for them to see us as a peer vs. "support minds as a service."
 
 We then make sure to let them know *we are still here* and will be when they come back.
 

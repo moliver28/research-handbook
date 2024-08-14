@@ -1,12 +1,13 @@
 ---
-title: Governance and Field Security Team Charter
+title: "Governance and Field Security Team Charter"
+description: "Governance and Field Security Team Charter"
 ---
 
 ## Team Charter
 
 ### Mission
 
-The mission of the Governance and Field Security team is to: (i) drive the development of GitLab’s internal security strategy and posture through automation, security awareness, policy management, and regulatory and compliance oversight, and (ii) drive company ARR through effective and efficient customer assurance activities and external security evangelism; and support the sales organization through field security focused training and strategy alignment.
+The mission of the Governance and Field Security team is to: (i) drive the development of GitLab's internal security strategy and posture through automation, security awareness, policy management, and regulatory and compliance oversight, and (ii) drive company ARR through effective and efficient customer assurance activities and external security evangelism; and support the sales organization through field security focused training and strategy alignment.
 
 ### Roles and responsibilities
 
@@ -28,16 +29,16 @@ Please refer to the following roles and responsibilities for Governance and Fiel
 
 ### Field Security Research
 
-- Discovery and communication of internal and external security events to support the development of Field Security’s strategy
+- Discovery and communication of internal and external security events to support the development of Field Security's strategy
 - Empowering sales by providing internal documentation to help shorten the current sales cycle
 - Highlighting topics stemming from customer feedback to inform the Security Assurance roadmap
 
 ### Security Sales Enablement
 
 - Execution of customer assurance activities
-- Identifying opportunities to streamline Field Security’s involvement in the sales cycle
+- Identifying opportunities to streamline Field Security's involvement in the sales cycle
 - Develop and distribute training on Field Security processes and resources to the Sales organization
-- Collaborating with the Solution Architecture team as the Customer’s trusted security advisors
+- Collaborating with the Solution Architecture team as the Customer's trusted security advisors
 
 ### Automation
 
@@ -66,7 +67,7 @@ Please refer to the following roles and responsibilities for Governance and Fiel
 
 - Help to increase monthly ARR for the company through customer assurance activities
 - Support customer security needs and requirements to drive customer attainment, retention, and satisfaction
-- Increase awareness of GitLab’s security capabilities and GitLab Inc’s security controls through external evangelism activities
+- Increase awareness of GitLab's security capabilities and GitLab Inc's security controls through external evangelism activities
 
 ### Governance
 

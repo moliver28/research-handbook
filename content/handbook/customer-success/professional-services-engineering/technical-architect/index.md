@@ -1,55 +1,109 @@
 ---
-
 title: "Professional Services Technical Architect"
-description: "Learn about the processes that the GitLab Technical Architect team uses for technical leadership, enablement and to deliver successful engagements with Customers."
 ---
-  
 
+## Who We Are
 
- 
+The Professional Services Technical Architect (TA) team at GitLab consists of highly skilled experts responsible for providing technical leadership, presales support, delivery oversight, and fostering collaboration across functional roles. With deep knowledge of GitLab's platform, DevOps practices, and industry best practices, we work closely with customers to understand their unique challenges and provide tailored solutions aligned with their business goals. Our team bridges the gap between technical and non-technical stakeholders ensuring clear communication and alignment throughout the scoping process and engagements.  We continuously seek ways to improve our services, deliver exceptional value, and enable customers to maximize the benefits of the GitLab platform for their DevOps transformation Journey.
 
+## Pre-Sales Support
 
- 
-GitLab takes our customer's success very seriously. In Professional Services (PS) we strive to provide a first class experience for all engagements.
+**Collaboration:**
 
-### Pre Sales
+The TA team assists Account Teams (e.g. Account Executives, Solution Architects, Customer Success Managers, and Engagement Managers) with technical sales by following the [MEDDPICC](/handbook/sales/meddppicc/) sales qualification methodology, acting as a trusted advisor during the scoping process, and providing Engagement Managers with strategic technical solutions to enhance the Customer Journey to full platform adoption.
 
-Working with Professional Service Pre-Sales to provide:
+## Expert Technical Assistance to Engagement Managers
 
- 1. Assistance to Sales Area Managers, Solution Architects, Customer Success Managers and Professional Services Engagement Managers providing technical sales.
-       - Follow meddpicc sales qualification methodology
-       - Become a trusted advisor to the customer early in the qualification period
-       - Understand the [Customer Journey](/handbook/customer-success/vision/#high-level-visual-of-gitlab-adoption-journey)
-       Understand common customer change management workflows and incorporate security, compliance and observability into customer engagements
- 2. Expert Technical Assistance to Engagement Managers
-       - Provide Engagement Managers with strategic technical solutions that complement the Customer Journey to full platform utilization
-       - Approve SOW solutions including line item deliverables and corresponding level of effort
+**Technical Guidance and Solution Design:**
+
+- Understand the [Customer Journey](/handbook/customer-success/vision/#high-level-visual-of-gitlab-adoption-journey)
+- Understand common customer change management workflows and incorporate security, compliance and observability into customer engagements.
+- Assist the Engagement Managers in scoping the technical challenges that the customer is currently encountering.
+- Approve Statements of Work (SOW) including deliverables and level of effort.
 
 ## Engage with an Architect
 
-- TA's are available for Scoping Calls when an opportunity has been identified and discovery of the techinical challenges and an estimate of days required is unclear for the estimation templates. To inclue a TA in the conversation please use the conventions below. Please try to limit the unclusion of a TA to neccasary calls only.
-  - For calls please tag `@ps-ta` in the `#ps-ta-ama` channel with the time proposed.
-  - For Scoping issues add the label `Scoping::Needs_TA_Assistance` to the related GitLab issue with a clear ask in the comments for them to follow up on. [Scoping Information](/handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/)
-  - General questions can be asked in `#ps-ta-ama`. Any conversations that happen in this channel that need to be factored in for the SOW should be addded as a comment to the scoping issue.
+### Establish Subject Matter Expertise
 
-## Aprovals
+TA's Leverage their expertise to build trust and demonstrate the value of GitLab services in achieving desired outcomes.  They can help navigate challenging customer scenarios while continually communicating the value of GitLab services.
 
-Any SOWs that have not had a TA involved in the scoping will need the `TA::Needs-Review` label added to the scoping issue to ensure we are reviewing it from a delivery standpoint. This does not include SKU's or standard migrations scoped with the estimate sheet.
+### Helping with Discovery Calls
 
-## Estimates
+Support effective discovery sessions to gather detailed requirements and insights.
 
-We are working on transitioning the original [Estimate Template](https://docs.google.com/spreadsheets/d/1YKMyflzsA-VPEVobB82zC8-n0hlC-uRBtiNB7Fm-kZg/edit#gid=674039849) to a new [Estimate Template](https://docs.google.com/spreadsheets/d/1WSV_inLaN4tCIJ6jKkZFuHm7KGlfTHQ93LEY44okRIE/edit#gid=854215547). We will continue to add templates based off of the frequency we are engaging in esimates.
+**Role of EM:**
 
-### Project Discovery
+- Act as the facilitator, asking higher-level questions to guide the discussion.
 
-Provide Discovery activities for large strategic and enterprise customers
+**Role of TA:**
 
- 1. Use the [Discovery Questionnaire internal link](https://docs.google.com/document/d/11CVuqRU0VFS6Ozd52vUYNNrGMcq21iIFhe3WTMP3ZDE/edit?usp=sharing) to acquire customer environmental data to be used for laying out the Project Deliverables engagement plan
- 2. If a Change Request is necessary, work with Project Management to implement a change in Discovery.
+- Ask more detailed, technical questions, to ensure all necessary information is gathered for successful project planning.
+- Clarify technical requirements and constraints, and document technical dependencies.
+- Identify potential risks and challenges early in the discovery process.
+- Provide insights on best practices and suggest innovative solutions based on past experiences.
+- Ensure all technical aspects are comprehensively understood, documented, greed upon, and aligned to avoid creep and misunderstandings later in the project.
 
-#### Project Technical Leadership
+### Estimating Level of Effort (LOE) and Required Scope
 
-Provide Project Technical Leadership on all GitLab Professional Service or Partner Service engagements
+Accurately determine the resources and time needed for the project.
 
- 1. Be a point of escalations to get Professional Service Engineers and Partners out of critical problems quickly
- 2. Always be enabling Professional Service Engineers and Partner Engineers to better understand the GitLab Platform, GitLab workflows
+**Role of TA:**
+
+- Collaborate with EMs to figure out the LOE.
+- Account for potential risks and develop a comprehensive scope of work.
+- Utilize experience and technical knowledge to provide accurate estimates and assumptions.
+
+### Helping Deliver Technical Details During Proposal
+
+Ensure proposals are detailed and credible.
+
+**Role of EM:**
+
+- Lead the presentation of overall value proposition, timeline, cost, and schedule.
+
+**Role of TA:**
+
+- Add detailed technical insights, past customer experiences, and tribal knowledge.
+- Substantiate the proposed plan and reinforce its feasibility and value.
+
+### Scoping and Planning Guidelines
+
+**Preparation:**
+
+- Reach out to your assigned TA with at least two business days notice using the [PS and Sales team mapping](https://docs.google.com/document/d/1sdehii3Eqp_CiYsGT3dDb0nKbbtwpxKQlni7t3ZgfCs/edit#heading=h.1er41qhhpoj5)
+- Provide relevant context, notes, and information needed for the scoping call.
+- If the TA assigned does not specialize in the topics discussed on the customer call, coordinate with the TA team to identify a suitable expert.
+- If the assigned TA is not available, redirect your request to #ps-ta-ama
+
+### Scoping Related Questions
+
+**Process:**
+
+- Add the label `Scoping::Needs_TA_Assistance` to related GitLab issues with a clear request in the comments for TA follow-up.
+- Update the label to `Scoping::TA_Assisted` to when there are no outstanding questions in the issue.
+
+### Approvals and Review
+
+**Review Process:**
+
+- Add the `TA::Needs-Review` label to any SOWs not previously reviewed by a TA.
+- Technical Architects will review within two business days, clarifying actions, assumptions, and deliverables.
+- The `TA::Approved` label will be added once the SOW is reviewed and approved.
+
+## General Inquiries and Discussions
+
+**Communication:**
+
+- Use the #ps-ta-ama channel on Slack for broader technical questions or role-related inquiries.
+- Conduct discussions related to ongoing SOWs within the comments of the associated scoping issue to maintain context.
+
+## Project Technical Leadership
+
+**Responsibilities:**
+
+- Act as a point of escalation to resolve critical issues quickly.
+- Enable Professional Service Engineers and Partner Engineers to better understand the GitLab Platform and workflows.
+- Transition from scoping to leading the delivery of larger engagements, such as transformations or multi-workstream projects.
+- Focus on Discovery and clearing technical hurdles in engagements.
+- Ensure that [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) are iterated on during Delivery.
+- Collaborate with the PMO to ensure project status is up to date in line with our Delivery [Methodology](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-delivery-methodology/-/wikis/home).

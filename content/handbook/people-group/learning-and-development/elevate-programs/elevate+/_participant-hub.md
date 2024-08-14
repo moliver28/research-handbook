@@ -1,5 +1,4 @@
 ---
-
 title: Elevate+ Participant Hub
 
 ---
@@ -62,8 +61,8 @@ During Module 1, you will:
 1. Understand the difference between leading a team and leading leaders
 1. Discuss the GitLab values and how we can lead to bring our values to life as leaders
 1. Consider what it takes to be a leader others want to follow
-1. Explore unconscious bias – mine and how to manage my org’s
-1. Review what’s next in the Elevate+ path
+1. Explore unconscious bias – mine and how to manage my org's
+1. Review what's next in the Elevate+ path
 
 **Key Links**
 
@@ -108,7 +107,7 @@ In Module 3, create a shared understanding around the importance for your team m
 
 In Module 4, increase your cross-functional effectiveness in order to clear the way for your team to get results.
 
-1. Share your team’s highest order purpose and alignment to GitLab’s overall goals
+1. Share your team's highest order purpose and alignment to GitLab's overall goals
 1. Map your cross-functional partners within and outside GitLab
 1. Learn skills for building and repairing relationships with key partners
 

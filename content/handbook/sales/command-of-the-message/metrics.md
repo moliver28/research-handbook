@@ -1,14 +1,7 @@
 ---
-
 title: "Demystifying the Metrics Conversation"
 description: "Practical tips for sales reps to demystify the Metrics component of the Command of the Message customer conversation framework"
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -37,14 +30,14 @@ Keep in mind that many customers may not understand why their DevOps initiatives
 
 Below is just one example of how you could leverage Nico's approach to open the conversation with your customers to begin to understand the specific challenges they are experiencing.
 
-“If you’re like other organizations we speak with, below are some of the common challenges they encounter in their software development life cycle:
+"If you're like other organizations we speak with, below are some of the common challenges they encounter in their software development life cycle:
 
 1. There is still significant room for improvement in their DevOps processes
 1. They lack visibility across their entire Software Development Life Cycle
 1. They are unable to clearly measure and assess developer productivity
 1. Silos persist between Development, Security, and Operations teams
 
-Are any of these true for your organization?”
+Are any of these true for your organization?"
 
 Another critical way to embrace your role as a trusted advisor is to become and stay intimately familiar with the specific problems that GitLab helps to solve. Watch the below video and master your knowledge of [GitLab's customer use cases](/handbook/marketing/use-cases/).
 
@@ -54,7 +47,7 @@ Another critical way to embrace your role as a trusted advisor is to become and 
 
 ## Be a Good Storyteller
 
-The best Metrics conversations are **STORIES** that articulate quantifiable measurements and proof of the business benefits of the solution to the customer’s problem(s). John May (Strategic Account Executive, US East) leverages this [DORA State of DevOps 2019 slide](https://docs.google.com/presentation/d/1cNcqXbcYR5pEfz-t8_VBE86fqdma_Jc7ws5Icm9FDKY/edit?usp=sharing) to emotionally appeal to individuals' desire to become elite performers and highlight relevant success stories of organizations ([Ticketmaster](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/), [Verizon Connect](https://www.youtube.com/watch?v=zxMFaw5j6Zs), [Paessler AG](https://about.gitlab.com/customers/paessler/), and more) that have become Elite Performers by adopting and expanding their GitLab footprint. Learn more from John in this [Art Behind Command of the Message](https://youtu.be/-iIK7SlplEo) sales enablement videocast (GitLab internal only, Oct 2019, 26 minutes).
+The best Metrics conversations are **STORIES** that articulate quantifiable measurements and proof of the business benefits of the solution to the customer's problem(s). John May (Strategic Account Executive, US East) leverages this [DORA State of DevOps 2019 slide](https://docs.google.com/presentation/d/1cNcqXbcYR5pEfz-t8_VBE86fqdma_Jc7ws5Icm9FDKY/edit?usp=sharing) to emotionally appeal to individuals' desire to become elite performers and highlight relevant success stories of organizations ([Ticketmaster](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/), [Verizon Connect](https://www.youtube.com/watch?v=zxMFaw5j6Zs), [Paessler AG](https://about.gitlab.com/customers/paessler/), and more) that have become Elite Performers by adopting and expanding their GitLab footprint. Learn more from John in this [Art Behind Command of the Message](https://youtu.be/-iIK7SlplEo) sales enablement videocast (GitLab internal only, Oct 2019, 26 minutes).
 
 Listen to how Nico Ochoa (Strategic Account Executive, US West) explains the value of GitLab by talking in terms of a software factory and applying lean manufacturing principles. More specifically, GitLab applies these principles to take waste out of the process of developing and deploying applications to increase operational efficiencies, deliver better products faster, and reduce security and compliance risk.
 
@@ -141,7 +134,7 @@ Link your **technical buyers** to the metrics and their role in driving the posi
 ## Embrace the Tension
 
 - Early in the sales process, a difficult metrics conversation is a good sign that the customer wants and needs a trusted advisor (you!!) to help them with their DevOps adoption journey. Leverage relevant proof points to instill confidence that GitLab is uniquely suited to help them achieve their desired outcomes.
-- As the opportunity progresses, customers will ask for and expect discounting because that’s what they’ve been trained to do. Maintain conviction in and continue to reiterate the VALUE of the GitLab solution and the defensible differentiators that make GitLab the best choice.
+- As the opportunity progresses, customers will ask for and expect discounting because that's what they've been trained to do. Maintain conviction in and continue to reiterate the VALUE of the GitLab solution and the defensible differentiators that make GitLab the best choice.
 
 ## Leverage Metrics to Create Urgency
 
@@ -166,5 +159,6 @@ Periodically, conduct a critical review of the below questions. This can be done
 1. Has the economic buyer made reference calls based on the identified metrics?
 
 ## Practice, Practice, Practice
-
-Purposeful practice (combined with on-the-job experience) leads to skill mastery. [Read the article](https://www.mikekunkle.com/2018/04/08/sales-leaders-its-time-to-get-serious-about-purposeful-practice-skill-mastery/). Michael Jordan became the greatest basketball player of all time, at least in part, because he worked hard at practicing and perfecting his craft. Practice having the metrics conversation with yourself, with a peer, a mentor, your manager, or other. As you become more comfortable and confident, positive results will follow.
+<!-- vale handbook.InclusionGender = NO -->
+Purposeful practice (combined with on-the-job experience) leads to skill mastery. [Read the article](https://www.mikekunkle.com/sales-leaders-its-time-to-get-serious-about-purposeful-practice-skill-mastery/). Michael Jordan became the greatest basketball player of all time, at least in part, because he worked hard at practicing, and perfecting his craft. Practice having the metrics conversation with yourself, with a peer, a mentor, your manager, or other. As you become more comfortable and confident, positive results will follow.
+<!-- vale handbook.InclusionGender = YES -->

@@ -343,7 +343,7 @@ DORA Metrics Pricing/ Track DORA-4 lead time for changes metric Title needs edit
 
 [GitLab 14.8 Release: New Security Features](https://youtu.be/Ak4pJiK07b0)
 
-[GitLab 14.8 - Auto-completion of keywords in the Pipeline Editor and Add default issue and merge request templates in a project’s repository](https://youtu.be/DgJarI1xR5c)
+[GitLab 14.8 - Auto-completion of keywords in the Pipeline Editor and Add default issue and merge request templates in a project's repository](https://youtu.be/DgJarI1xR5c)
 
 [GitLab 14.8 - Additional data for deployment frequency graph & Display average and median for DORA4 graphs](https://youtu.be/rWMhlZ6Svb4)
 

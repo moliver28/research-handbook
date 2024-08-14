@@ -1,19 +1,12 @@
 ---
-
 title: "Travel Priorities"
 ---
-
-
-
-
-
-
 
 As a team, we need to help our team maintain a healthy work/life balance.  We often face multiple requests for support for various events and activities around the world.  The following priority list will help us make hard decisions about events that we can support and those that we may have to decline.
 
 **Travel Priorities**
 
-1. Speaking opportunities - Large industry events (over 1000)  
+1. Speaking opportunities - Large industry events (over 1000)
 1. Speaking opportunities - Mid size events (200-1000)
 1. Customer Meetings - Large enterprise
 1. Customer meetings - Commercial

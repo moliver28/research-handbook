@@ -1,14 +1,7 @@
 ---
-
 title: Commercial Sales Enablement
 description: Welcome to the Commercial Sales Enablement Handbook Page
 ---
-
-
-
-
-
-
 
 ## Welcome to the Commercial Sales Enablement Handbook Page
 
@@ -51,7 +44,7 @@ With all the uncertainty around Covid-19, we have developed a process to capture
 **Fields that need to be updated at all times**
 
 1. Close date
-1. $ value (by a t-shirt size). “T-shirt sizing” an opportunity is a way of estimating how much a prospect should be able to spend on GitLab for that transaction (new, add-on, or renewal). It’s a way of shorthanding the size or complexity of the opportunity and is meant as a gut-check based on both data and your experience working with similar opportunities.
+1. $ value (by a t-shirt size). "T-shirt sizing" an opportunity is a way of estimating how much a prospect should be able to spend on GitLab for that transaction (new, add-on, or renewal). It's a way of shorthanding the size or complexity of the opportunity and is meant as a gut-check based on both data and your experience working with similar opportunities.
     - Each opportunity created should have a dollar amount in the Incremental ACV field greater than $0 to ensure visibility into pipeline and for forecasting purposes.
     - Similar to account ranking, the advantage of sizing each opportunity is that it helps you prioritize and allocate the right resources to optimize your iACV/hour. For example, if an opportunity is t-shirt sized larger, you might reach out on a daily basis to schedule the first meeting whereas your communication cadence might be every other day for a smaller sized opportunity. T-shirt sizing also gives you a sense of what resources (technical, leadership, etc.) might be needed to move the opportunity through the pipeline and increase your win rates.
     - After reading SDR notes, the two key places to look at firmographic information are LinkedIn and Crunchbase. Data points to consider include where the company is located, employee size, as well who the contact is and at what level of the org they live. As an example, you may asses an opportunity in which there are more employees as a larger t shirt size. Remember, this is only an estimate - opportunity amounts can be refined after deeper discovery.
@@ -61,20 +54,20 @@ With all the uncertainty around Covid-19, we have developed a process to capture
 1. Next steps
 1. Next Steps Date
 1. Stage
-1. Any activity that’s logged while working the opportunity needs to be attached to the **contact** and the **opportunity**
-    - Best Practice is to log an activity in ‘activity history’
+1. Any activity that's logged while working the opportunity needs to be attached to the **contact** and the **opportunity**
+    - Best Practice is to log an activity in 'activity history'
     - For Call activity types, associate the record with the correct contact(s) list and as needed, include **(ii)** in the record subject to call attention to information inside
 1. Command Plan
 
 **How to get each of those required fields**
 
 1. Research online
-1. Write the discussion questions you’re going to ask to obtain the info
+1. Write the discussion questions you're going to ask to obtain the info
 1. Qualification Indicators (101)
     - How to get these - Qual 201
 1. Other SFDC field requirements
 1. Recap on the objections
-    - Review the list and reiterate that they’re not acceptable reasons to not fill out those fields
+    - Review the list and reiterate that they're not acceptable reasons to not fill out those fields
 
 ### Tiering Accounts
 
@@ -102,17 +95,17 @@ For more details visit the [Account Ranking](/handbook/sales/commercial/#account
 1. ID your ideal client: personally I want some form of intro…
     - A slow valuable intro is better than most fast, cold connects
 1. Get a 10-15 min connect in whatever way they prefer:
-    - Nice to meet you - how’s it going?
+    - Nice to meet you - how's it going?
     - Give your credibility statement.
     - Ask them if they think there is anyway that GitLab could help.
     - When they say no, be sad. Then ask what challenges their team or they have.
     - When they say yes, listen up and begin discovery, then bounce back to qualification to understand if its worth it for them to work on it.
 1. Document all notes and immediately build the most compelling customized deck on why they should try GitLab
-    - See where the biggest gaps are in the deck, and if you aren’t sure, role play with a colleague on it to see what is missing
+    - See where the biggest gaps are in the deck, and if you aren't sure, role play with a colleague on it to see what is missing
 1. ID EXACTLY the info missing to make it somewhat compelling
 1. Go back to your list of contacts and find out who could best get you this info
 
-**The tougher, non-intro’d scenario:**
+**The tougher, non-intro'd scenario:**
 
 1. Dig in on the persona of the contact info you have so you can reach out in a way that you have 100% confidence that this connect will result in 2-way communication
     - This can be showing up at an event
@@ -142,7 +135,7 @@ GitLab is an organization that is built on contribution and collaboration. These
 #### Why Do We Take Notes on Accounts?
 
 1. Capture insight and learning
-    - Notes draw out key insights that help you better understand GitLab’s potential and existing customers. As you plan, organize and grow your territory, the discipline of note taking empowers you to scale your efforts, clarify needs, next steps and signals in ways your memory cannot.
+    - Notes draw out key insights that help you better understand GitLab's potential and existing customers. As you plan, organize and grow your territory, the discipline of note taking empowers you to scale your efforts, clarify needs, next steps and signals in ways your memory cannot.
     - Note taking shares knowledge and guidance that the whole sales organization (from sales reps to leadership) can benefit from. Why are customers buying GitLab? What are their common challenges? Are we seeing interest from new groups of buyers? Notes on Salesforce are the corporate memory of the commercial team, if there are no notes, it increases the probability of wasted meetings.
 1. Become better sales leaders
     - Through note taking you position yourself to be great at your job, which is great for our potential and existing customers. Notes create a framework for how you can best help your customer. What is your next step following your call? What did the customer really want from GitLab Premium? Just check your notes.
@@ -153,7 +146,7 @@ GitLab is an organization that is built on contribution and collaboration. These
 
 **Raw Notes Section**
 
-- Sales call notes could be word-for-word transcripts or much less structured. They must include customer specific language and should always detail technologies and challenges in the customer's exact words (in the case of Kubernetes, spelling matters for future search). This portion is called raw notes. For example, who did you perceive to be the decision makers (DM’s) and influencers (INF) in the meeting and why? What were the key points raised or asked? How did they feel? Were you unclear on certain things? What questions did you not know to ask at the time and what would you ask if you could do it again? These type of notes are primarily for you to recall noteworthy moments from the meeting that you can build upon.
+- Sales call notes could be word-for-word transcripts or much less structured. They must include customer specific language and should always detail technologies and challenges in the customer's exact words (in the case of Kubernetes, spelling matters for future search). This portion is called raw notes. For example, who did you perceive to be the decision makers (DM's) and influencers (INF) in the meeting and why? What were the key points raised or asked? How did they feel? Were you unclear on certain things? What questions did you not know to ask at the time and what would you ask if you could do it again? These type of notes are primarily for you to recall noteworthy moments from the meeting that you can build upon.
 
 **Questions Section**
 
@@ -161,11 +154,11 @@ GitLab is an organization that is built on contribution and collaboration. These
 
 **Summary Section**
 
-- These type of notes are not just for you. Rather, they benefit the entire sales team. Summaries focus on important, actionable and insightful points - things that will help you in you in your next meeting. Try and convey timelines where relevant, include dates, times of day, etc. Did you say you would follow up in the morning with a response before sending a quote? That’s a great note to include. Lastly, when it comes to summaries, bullet points are our friends.
+- These type of notes are not just for you. Rather, they benefit the entire sales team. Summaries focus on important, actionable and insightful points - things that will help you in you in your next meeting. Try and convey timelines where relevant, include dates, times of day, etc. Did you say you would follow up in the morning with a response before sending a quote? That's a great note to include. Lastly, when it comes to summaries, bullet points are our friends.
 
 **Next Steps Section**
 
-- Just as it sounds, "Next Steps" outline strategic actionable items that need to be acted upon by yourself, someone else in the team or a customer. Where possible, tag internal colleagues on tasks that relate to them and follow up with customers via email on tasks that relate to them. Next steps are great for handovers and business continuity, remember the story you’re compiling? think of next steps as bookmarks - people can pick up the story where you leave them.
+- Just as it sounds, "Next Steps" outline strategic actionable items that need to be acted upon by yourself, someone else in the team or a customer. Where possible, tag internal colleagues on tasks that relate to them and follow up with customers via email on tasks that relate to them. Next steps are great for handovers and business continuity, remember the story you're compiling? think of next steps as bookmarks - people can pick up the story where you leave them.
 
 #### Notes Subject Line
 
@@ -178,14 +171,14 @@ Login to [Salesforce](https://gitlab.my.salesforce.com/00T4M00002KWYXx?srPos=24&
 
 #### Characteristics of Next Steps
 
-1. **A colleague with a similar skill set should be able to pick up your notes, get an understanding of what’s happened and take action quickly (within 3-5 minutes).**
-1. They should be compelling for the future version of you who will read them. If, when you read the next steps, you aren’t motivated to take action at the exact time and day that you prescribe, you should iterate on them. Compelling next steps are specific, concise, actionable and efficient. Please think about our [values](/handbook/values/#hierarchy) of transparency, collaboration, efficiency and results.
-1. Next Steps and actions, once completed, will add value to the customer’s GitLab experience and journey. They are impactful.
+1. **A colleague with a similar skill set should be able to pick up your notes, get an understanding of what's happened and take action quickly (within 3-5 minutes).**
+1. They should be compelling for the future version of you who will read them. If, when you read the next steps, you aren't motivated to take action at the exact time and day that you prescribe, you should iterate on them. Compelling next steps are specific, concise, actionable and efficient. Please think about our [values](/handbook/values/#hierarchy) of transparency, collaboration, efficiency and results.
+1. Next Steps and actions, once completed, will add value to the customer's GitLab experience and journey. They are impactful.
 
 **Example:** Vanilla Notes vs Great Notes
 
-- A Vanilla Note: “Follow up with Anthony next week.”
-- Great Note: “Send an email to Anthony (our #1 champion at XYZ Corp) next Tuesday morning at 10 his time to confirm he got sign off from Ryan on Premium: ‘Anthony, did you have a chance to present the ROI slide we created? I’d love to hear feedback on those numbers…’” [RO note: the statement in single quotes should actually be written in your next steps so that you could cut and paste it into and email verbatim.]
+- A Vanilla Note: "Follow up with Anthony next week."
+- Great Note: "Send an email to Anthony (our #1 champion at XYZ Corp) next Tuesday morning at 10 his time to confirm he got sign off from Ryan on Premium: 'Anthony, did you have a chance to present the ROI slide we created? I'd love to hear feedback on those numbers…'" [RO note: the statement in single quotes should actually be written in your next steps so that you could cut and paste it into and email verbatim.]
 
 **This Sales Team takes great notes!**
 

@@ -70,3 +70,4 @@ This Working Group has the following goals:
 | Member             | Frédéric Caplette   | Senior Frontend Engineer, Verify:Pipeline Authoring |
 | Member             | Vitaly Slobodin     | Staff Frontend Engineer, Fulfillment                |
 | Member             | Marina Mosti        | Senior Frontend Engineer, Switchboard               |
+| Member             | Nathan Dubord       | Senior Frontend Engineer, about.gitlab.com          |

@@ -1,9 +1,7 @@
 ---
-
 title: "Contentful CMS"
 description: "Editing and creating content using Contentful"
 ---
-
 
 ## What is Contentful?
 

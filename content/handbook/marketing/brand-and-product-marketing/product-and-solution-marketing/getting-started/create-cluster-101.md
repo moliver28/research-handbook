@@ -1,5 +1,4 @@
 ---
-
 title: "101 - Creating Kubernetes cluster"
 ---
 

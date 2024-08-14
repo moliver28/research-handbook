@@ -1,17 +1,10 @@
 ---
-
 title: "GitLab.com logins for demos"
 ---
 
-
-
-
-
-
-
 ## Overview
 
-The following table lists all of the persona accounts that have been set up on gitlab.com for use in demos. Passwords for these are in 1Password in the Marketing vault. Search for “GitLab persona”.
+The following table lists all of the persona accounts that have been set up on gitlab.com for use in demos. Passwords for these are in 1Password in the Marketing vault. Search for "GitLab persona".
 
 | **Login Id** | **First name** | **Last name** | **Persona description** | **Picture** |
 | --- | ----------------- | ------- | --------------- | ------------------------ | ------------ |

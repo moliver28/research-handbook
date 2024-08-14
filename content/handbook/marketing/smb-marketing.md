@@ -1,13 +1,6 @@
 ---
-
 title: "SMB Marketing"
 ---
-
-
-
-
-
-
 
 ## Who we are
 

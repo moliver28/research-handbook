@@ -1,10 +1,7 @@
 ---
-
 title: "Coupa End Users Quick Guide"
 description: "Coupa End Users Quick Guide"
 ---
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 

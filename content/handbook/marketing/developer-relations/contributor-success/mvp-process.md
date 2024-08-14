@@ -3,7 +3,6 @@ title: "GitLab MVP Selection Process"
 description: Process for Contributor Success to select GitLab MVPs
 ---
 
-
 ## GitLab MVP
 
 Each month GitLab recognizes one or more community contributors as GitLab MVPs ("Most Valuable Persons") to be featured in the GitLab release post. Nominations are a rolling process so that contributors can be nominated and supported at anytime. The GitLab MVPs are recognized within the GitLab release post and across Slack and Discord. MVPs also receive an achievement badge for their profile and a GitLab swag pack or tree planting option in celebration of their contribution.
@@ -33,6 +32,18 @@ is used for the entire major release cycle (for example 17.0 through 17.11). Com
 1. From the current release branch, draft a merge request for adding the new MVP(s)
    - The first step is switching to the current release branch `release-x-y` in the `www-gitlab-org` project. Using the 15.8 release as an example, navigate to the current release branch directly on GitLab by selecting the `release-15-8` branch from the dropdown menu. If working locally, checkout the `release-15-8` branch.
    - Navigate to the `mvp.yml` file inside the current release folder under `data/release_posts/x_y`. In this example it would be the `15_8` folder which has a placeholder `mvp.yml` file inside.
+      - **NOTE**: When there are multiple MVPs, please use array syntax in the yaml files, when singular please avoid array syntax. Examples:
+
+      ```yaml
+        fullname: Single Recipient
+        gitlab: single_username
+      ```
+
+      ```yaml
+        fullname: ['First Recipient', 'Second Recipient']
+        gitlab: ['first_username', 'second_username']
+      ```
+
    - Begin drafting the merge request by updating the new MVP name and user handle. Remove the placeholder text for the write-up blurb. Commit the changes on a new branch. When creating the merge request on GitLab make sure your branch is targeting the current release branch `release-x-y` and not targeting `master`.
    - Follow the steps to collaborate the [MVP write-up blurb](#mvp-write-up-blurb).
    - Update the [data/mvps.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/mvps.yml) file from your existing merge request.
@@ -52,7 +63,7 @@ is used for the entire major release cycle (for example 17.0 through 17.11). Com
    https://gitlab.com/api/graphql
    ```
 
-   NOTE: To find a userId from a username, visit the GitLab profile page for the user and click the dropdown elipsis in the upper right corner.
+   NOTE: To find a userId from a username, visit the GitLab profile page for the user and click the dropdown ellipsis (kebab menu) in the upper right corner.
 
 1. Follow the steps for [Sending MVP Appreciation Gifts](#sending-mvp-appreciation-gifts).
 1. After release post goes live, link the MVP section of the release post in Slack `#whats-happening-at-gitlab` channel along with a reminder to add new nominations.
@@ -64,7 +75,7 @@ is used for the entire major release cycle (for example 17.0 through 17.11). Com
    ```
 
 1. Forward the message to `#developer-relations`, `#mr-coaching`, and `#core`
-1. Share the message in the Discord `#announcements` channel and thank any wider community members who added nomoinations or support.
+1. Share the message in the Discord `#announcements` channel and thank any wider community members who added nominations or support.
 
 ### MVP Eligibility
 

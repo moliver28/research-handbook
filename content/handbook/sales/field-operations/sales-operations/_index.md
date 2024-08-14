@@ -1,15 +1,7 @@
 ---
-
 title: 'Sales Operations'
 description: "Sales Operations aim to help facilitate new and existing processes throughout our field organization via the use of systems, policies, and direct support. "
 ---
-
-
-
-
-
-  
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 

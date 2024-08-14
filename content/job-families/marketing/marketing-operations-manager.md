@@ -57,7 +57,7 @@ The Marketing Operations Manager is a [grade 6](/handbook/total-rewards/compensa
 
 Marketing technology
 
-- Maintain Marketo’s performance and optimize processes.
+- Maintain Marketo's performance and optimize processes.
 - Create training documentation that guides the marketing team.
 - Train the marketing team on marketing software tools.
 - Audit use of marketing software tools with an eye towards continually improving how they are configured.
@@ -149,7 +149,7 @@ The Principal Marketing Operations Manager is a [grade 9](/handbook/total-reward
 
 #### Justification
 
-The business need for an individual contributor Staff Manager Marketing Operations Manager role is to have a team member with a high level of expertise working with cross-functional groups and to be able to confidently drive facilitation of problem-solving and influence decisions by being a technical/functional knowledge expert that articulates ideas very well. Heavy cross-department collaboration is expected with a greater emphasis on being a thought partner and having a strong problem-solving skillset. This position is needed to help with alignment with our growing stakeholder list across the company that has complex work requirements we need to support but often don’t have a project driver.
+The business need for an individual contributor Staff Manager Marketing Operations Manager role is to have a team member with a high level of expertise working with cross-functional groups and to be able to confidently drive facilitation of problem-solving and influence decisions by being a technical/functional knowledge expert that articulates ideas very well. Heavy cross-department collaboration is expected with a greater emphasis on being a thought partner and having a strong problem-solving skillset. This position is needed to help with alignment with our growing stakeholder list across the company that has complex work requirements we need to support but often don't have a project driver.
 
 #### Responsibilities
 
@@ -249,7 +249,7 @@ The Director, Marketing Operations is a grade 10.
 - Define the Marketing Operations vision and strategy that enables intelligent decisions through precise analysis.
 - Own the marketing operations roadmap, ensuring marketing technology is evaluated, selected, implemented and customized to meet the needs of the marketing department.
 - Administer the marketing budget and ensure marketing costs are tracked correctly.
-- Partner with GitLab’s Data and Analytics team to ensure the marketing department can correctly report on the ratio between customer lifetime value and customer acquisition cost, by marketing acquisition tactic.
+- Partner with GitLab's Data and Analytics team to ensure the marketing department can correctly report on the ratio between customer lifetime value and customer acquisition cost, by marketing acquisition tactic.
 - Regularly inform stakeholders across marketing, sales, and finance of insights on marketing performance to ensure cross functional alignment on the best possible data-driven marketing strategy.
 - Track and report on the entire marketing funnel including volume, velocity, conversion stage-to-stage, and average value; make sure funnel measures can be analyzed by key dimensions such as industry, geo, and persona.
 - Work with the Product team on having product usage inform better marketing to our customers and people trialing GitLab.

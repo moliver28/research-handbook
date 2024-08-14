@@ -19,7 +19,7 @@ References to `Year 1`, `Year 2`, etc. in the outline below are meant to indicat
 
 ### Q2
 
-1. Make a plan to incorporate learning into the GitLab work week using the [Take time to Learn Campaign]({{< ref "learning-initiatives#take-time-out-to-learn-campaign" >}}). [Focus Friday's]({{< ref "communication#focus-fridays" >}}) are a great time to learn during the week. Block out a recurring calendar focus block dedicated to learning.
+1. Make a plan to incorporate learning into the GitLab work week using the [Take time to Learn Campaign]({{< ref "learning-initiatives#take-time-out-to-learn-campaign" >}}). [Focus Friday's](/handbook/communication/#focus-fridays) are a great time to learn during the week. Block out a recurring calendar focus block dedicated to learning.
 1. Attend one Live Learning session found on the [L&D calendar](/handbook/people-group/learning-and-development#fy23-learning--development-calendar)
 
 ### Q3

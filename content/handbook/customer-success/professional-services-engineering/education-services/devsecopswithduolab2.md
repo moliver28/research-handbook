@@ -1,6 +1,6 @@
 ---
-title: "DevSecOps with GitLab Duo - Hands-On Lab: Getting Started with GitLab Duo"
-description: "This Hands-On Guide walks you through using GitLab Duo to generate code."
+title: "DevSecOps with GitLab Duo - Hands-On Lab: Code Generation with GitLab Duo"
+description: "This Hands-On Guide walks you through using GitLab Duo to generate and explain code."
 ---
 
 > Estimated time to complete: 30 minutes
@@ -113,4 +113,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you’d like to suggest changes to the lab, please submit them via merge request.
+If you'd like to suggest changes to the lab, please submit them via merge request.

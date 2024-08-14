@@ -4,6 +4,8 @@ aliases: /handbook/engineering/development/incubation/mlops/ml_experiment_tracki
 title: Machine Learning Experiment Tracking
 ---
 
+NOTE: The MLOps Incubation Engineering project has become the MLOps team. These pages are left fir historical purposes, but are not actively maintained. Please refer to the [MLOps team page](/handbook/engineering/development/data-science/modelops/mlops) for updated information.
+
 This is a project led by the Incubation Engineer - MLOps
 
 DRI: [@eduardobonet](https://gitlab.com/eduardobonet)

@@ -1,11 +1,11 @@
 ---
 title: "Financial Planning & Analysis"
-description: "Welcome to the FP&A Team Handbook. Our missions is to maximize GitLab's long-term valuation by enabling eGroup and FP&A to plan, prioritize, and execute effectively"
+description: "Welcome to the FP&A Team Handbook. Our missions is to maximize GitLab's long-term valuation by enabling e-group and FP&A to plan, prioritize, and execute effectively"
 ---
 
 ## Our mission
 
-Maximize GitLab's long-term valuation by enabling eGroup and FP&A to plan, prioritize, and execute effectively
+Maximize GitLab's long-term valuation by enabling e-group and FP&A to plan, prioritize, and execute effectively
 
 ## Our objectives
 
@@ -16,11 +16,11 @@ Maximize GitLab's long-term valuation by enabling eGroup and FP&A to plan, prior
 1. Ensure sound data-driven decision support
 1. Ensure our public company narrative aligns with operating strategy
 
-## How GitLab’s FP&A plans to get there…
+## How GitLab's FP&A plans to get there…
 
 1. Manage the budget and planning processes for GitLab's Board Plan
 1. Build and maintain a [long-term financial model](#long-range-outlook-lro) that identifies long-term strategy and financial targets
-1. Define business drivers and [KPIs]({{< ref "kpis" >}}) in our operating and long-term models in collaboration with the business and measure efficacy of the business plan
+1. Define business drivers and [KPIs](/handbook/company/kpis/) in our operating and long-term models in collaboration with the business and measure efficacy of the business plan
 1. Own the rolling forecast process and provide actionable insights to ensure departmental performance vs. plan and strategy
 1. Drive quarterly earnings process as public company, including guidance and investor narratives
 1. Provide insights on the business drivers to constantly look for opportunities to improve performance
@@ -32,18 +32,18 @@ Maximize GitLab's long-term valuation by enabling eGroup and FP&A to plan, prior
 
 FP&A comprises five different sub-teams to support our FP&A goals:
 
-- [Corporate FP&A]({{< ref "./corporate-finance" >}})
-- [Sales Finance]({{< ref "./sales-finance" >}})
-- [Marketing]({{< ref "./marketing-finance" >}})
-- [R&D]({{< ref "./r-and-d-finance" >}})
-- [G&A]({{< ref "./ga-finance" >}})
+- [Corporate FP&A](corporate-finance/)
+- [Sales Finance](sales-finance/)
+- [Marketing](marketing-finance/)
+- [R&D](r-and-d-finance/)
+- [G&A](ga-finance/)
 
 ### Common Links
 
 - [Finance Issue Tracker](https://gitlab.com/gitlab-com/finance/issues)
 - [Analytics Issue Tracker](https://gitlab.com/gitlab-data/analytics) for all data, dashboard, or reporting requests
 - [FP&A Job Ladder](/job-families/finance/finance-planning-and-analysis)
-- [Adaptive Insights]({{< ref "./adaptive-insights" >}})
+- [Adaptive Insights](adaptive-insights/)
 
 ### Key Slack Channels
 
@@ -72,7 +72,7 @@ FP&A comprises five different sub-teams to support our FP&A goals:
 - Review product investments vs expected revenue generation
 - Set expected amount for annual compensation increases
 - Set targets for any contributors on a company based performance plan
-- Provide a budget envelope to each eGroup leader based on dollars that they can allocate into headcount and program spend
+- Provide a budget envelope to each e-group leader based on dollars that they can allocate into headcount and program spend
 - Generate the expense Plan based on a headcount list, TBH list, vendor level spend list
 - Headcount list communicated to talent acquisition, proposed vendor list communicated to procurement (future with Purchase Orders in place for existing vendors)
 - Generate and document key assumptions
@@ -98,12 +98,12 @@ All of the data for these planning documents are locked in our Adaptive Planning
 Key planning milestones are listed below. For a more detailed timeline and planning checklist please engage your FP&A business partner.
 
 - 2023-09-04 Finalize FY25 Bookings proposal with CRO and CFO
-- 2023-09-11 Kick off FY25 Plan with eGroup and FP&A
+- 2023-09-11 Kick off FY25 Plan with e-group and FP&A
 - 2023-10-03 GTM Offsite for key design decisions
-- 2023-11-20 eGroup update on Preliminary FY25 Plan. Rollup based on FP&A 9+3 Forecast lock
+- 2023-11-20 e-group update on Preliminary FY25 Plan. Rollup based on FP&A 9+3 Forecast lock
 - 2023-11-27 (week of) Individual department reviews with CEO and CFO
 - 2023-12-14 Q3 Board meeting with update on Preliminary Plan
-- 2024-01-16 eGroup update on Final FY25 Plan
+- 2024-01-16 e-group update on Final FY25 Plan
 - 2023-03-28 Q4 Board meeting for Final FY25 Plan approval
 
 ## Long Range Outlook ("LRO")
@@ -149,13 +149,13 @@ The following are inputs in the LRO refresh and subsequent LRO updates:
 - Cash commissions
 - PP&E/Capex purchases
 
-The Corporate Finance team leads the LRO refresh and updates in collaboration with: eGroup members to determine key investments, capabilities, and dependencies; GTM Finance team for sales productivity/capacity models, CTB, and bookings attainment; G&A Finance team for total rewards strategy, benefit assumptions; and the R&D Finance team to help inform on allocations, hosting/infrastructure expenses.
+The Corporate Finance team leads the LRO refresh and updates in collaboration with: e-group members to determine key investments, capabilities, and dependencies; GTM Finance team for sales productivity/capacity models, CTB, and bookings attainment; G&A Finance team for total rewards strategy, benefit assumptions; and the R&D Finance team to help inform on allocations, hosting/infrastructure expenses.
 
 ## Business Planning
 
 ### Business Planning Goal
 
-For GitLab’s top growth drivers and new products, drive and document alignment between contributors to success. Writing a business plan drives clarity of thought and operations. Agree on governance models to manage initiative success and cross-functional accountability. At a minimum, each business plan should cover:
+For GitLab's top growth drivers and new products, drive and document alignment between contributors to success. Writing a business plan drives clarity of thought and operations. Agree on governance models to manage initiative success and cross-functional accountability. At a minimum, each business plan should cover:
 
 - Explain what an initiative is, why we should be focused on it.
 - Identify how each function will support its success, what are dependencies & risks.
@@ -181,11 +181,11 @@ For GitLab’s top growth drivers and new products, drive and document alignment
   - Support/Services
   - As needed: fulfillment, IT, accounting, legal, security
 - Approvers / Informed:
-  - CFO, CRO, CMO, CPO, eGroup
+  - CFO, CRO, CMO, CPO, e-group
 
 ### Review and Governance
 
-- Contributors (above) agree on business plan and review with eGroup members for feedback. Include proposed measurement plan (e.g. bookings or pipeline goals)
+- Contributors (above) agree on business plan and review with e-group members for feedback. Include proposed measurement plan (e.g. bookings or pipeline goals)
 - On a defined cadence (monthly or other), review product accomplishments vs. plan
 - On a defined cadence (monthly or other), review GTM measures of success vs. plan
 - On a defined cadence (quarterly or other), review P&L impact vs. plan
@@ -193,7 +193,7 @@ For GitLab’s top growth drivers and new products, drive and document alignment
 
 ## Quarterly & Monthly Cycle (incl. close, variance, forecast, guidance)
 
-GitLab’s FP&A team participates in a rigorous monthly close process.
+GitLab's FP&A team participates in a rigorous monthly close process.
 
 ### Goals
 
@@ -219,7 +219,7 @@ GitLab’s FP&A team participates in a rigorous monthly close process.
 
 - **Purpose**: In a dynamic high-growth business, GitLab's needs may change through the year and we need a guidepost to hold business leaders accountable. We plan our expenses at a high level (e-group) and we expect this group to make prioritizations and trade-offs while remaining accountable against the plan parameters. By formally reforecasting quarterly, we can quickly evaluate and incorporate new initiatives into our forecasting model. That being said, we do follow an annual plan to set our goals and measurement for our top-level targets of revenue, profitability and expense management and ensure we continue to  meet any public guidance previously communicated
 - **What**: Forecast at `FYyy-Qx` is a dynamic assessment based on current expectations of financial performance. The (3+9), (6+6), and (9+3) quarterly forecasts include revenue driven by bookings and other key inputs and expenses driven by headcount and vendors.
-- **Governance**: The quarterly forecast is approved by the Head of FP&A and reviewed with the CFO. It is then reviewed with eGroup and the board of directors. eGroup will be held accountable to the quarterly forecast for expenses.
+- **Governance**: The quarterly forecast is approved by the Head of FP&A and reviewed with the CFO. It is then reviewed with e-group and the board of directors. e-group will be held accountable to the quarterly forecast for expenses.
 
 #### Forecast Snapshots in Months 2-3 of each Fiscal Quarter
 
@@ -264,7 +264,7 @@ The Accounting close calendar can be found [here](https://docs.google.com/spread
 
 #### Variance Meeting with CFO
 
-Each month after the financials have been published, GitLab reviews all aspects of the business including Corporate Metrics, Bookings, Revenue, Gross Margins, Expenses. The goal of this meeting is to do a comprehensive review so that finance leadership has a pulse on the business and signs off on the financials. Based on insights from variance analysis, the FP&A team makes actionable recommendations to the CFO and eGroup to ensure continued performance to Plan/Forecast.
+Each month after the financials have been published, GitLab reviews all aspects of the business including Corporate Metrics, Bookings, Revenue, Gross Margins, Expenses. The goal of this meeting is to do a comprehensive review so that finance leadership has a pulse on the business and signs off on the financials. Based on insights from variance analysis, the FP&A team makes actionable recommendations to the CFO and e-group to ensure continued performance to Plan/Forecast.
 
 The variance analysis will compare department budgets with actual results and examine any material differences between budgeted and actual costs. Additionally, the actuals for expenses will be compared to the quarterly rolling forecast. The expenses are reviewed at the divisional department level, allowing GitLab to measure progress in meeting its Plan or rolling forecast. The team also evaluates the accuracy of forecasts and will make adjustments to the next rolling forecast.
 
@@ -342,7 +342,7 @@ As a public company we share financial results publicly after the close of each 
 
 #### **Single Source of Truth (SSOT) Headcount Forecast and Hiring Plan**
 
-Financial Planning & Analysis (FP&A) team is the owner of SSOT for GitLab’s **Hiring Plan** which contributes to our Headcount Forecast.
+Financial Planning & Analysis (FP&A) team is the owner of SSOT for GitLab's **Hiring Plan** which contributes to our Headcount Forecast.
 
 - Headcount Forecast is a live forecast in Workday Adaptive (a financial planning software)
 
@@ -352,7 +352,7 @@ Financial Planning & Analysis (FP&A) team is the owner of SSOT for GitLab’s **
 - Finance owns the Hiring Plan to ensure there is only one Headcount Forecast and Hiring Plan for the business
 - Hiring Plan increases our predictability as a company and streamlines the hiring process
 - Based on historical time to start data, new requisitions released via RLOA in a quarter can be expected to start in the following quarter at the earliest
-- For questions specific to TA’s process and REQ creation, please refer to [TA’s section of the handbook](/handbook/hiring/talent-acquisition-framework/req-creation/)
+- For questions specific to TA's process and REQ creation, please refer to [TA's section of the handbook](/handbook/hiring/talent-acquisition-framework/req-creation/)
 
 ### Position ID (PID)
 
@@ -372,7 +372,7 @@ Position ID is a unique identifier and is the link between approved headcount an
   - PID simplifies and provides transparency on modeled headcount (attrition and backfill)
   - PID is an unique identifier for positions assigned to all current and future approved headcount
 - PIDs are created and assigned by Corporate FP&A (Corporate) when Hiring Plan is finalized or upon change request of existing position(s)
-  - All approved Planned and Backfill positions are assigned with an GHPID (please refer to [TA’s section on GHPID](/handbook/hiring/talent-acquisition-framework/req-creation/))
+  - All approved Planned and Backfill positions are assigned with an GHPID (please refer to [TA's section on GHPID](/handbook/hiring/talent-acquisition-framework/req-creation/))
   - Not all positions are assigned with GHPIDs
   - Key difference between GHPID and PID
     - GHPID has 1-to-1 relationship with an Opening ID in Greenhouse (please refer to [TA section on Opening](/handbook/hiring/talent-acquisition-framework/req-creation/))
@@ -394,7 +394,7 @@ Position ID is a unique identifier and is the link between approved headcount an
   - Details of the position include, but are not limited to, Department, Job Title, Job Grade, Salary, Location
   - FBP include all PIDs (assigned by Corporate) for approved Planned and Backfill positions in Hiring Plan
   - FBP include all GHPIDs for roles eligible to be opened in Greenhouse
-- Adding/removing/exchanging position(s) requires FP&A’s approval through existing RLOA or rolling forecast. FBP will submit change request Google Form
+- Adding/removing/exchanging position(s) requires FP&A's approval through existing RLOA or rolling forecast. FBP will submit change request Google Form
 - PIDs and GHPIDs are audited and reconciled by Corporate regularly
   - PIDs are reconciled **monthly** before each rolling forecast lock
   - GHPIDs are reconciled **weekly** before each weekly interlock
@@ -409,7 +409,7 @@ Position ID is a unique identifier and is the link between approved headcount an
 
 1. Hiring Plan
    - Finance Business Partners (FBPs) work with Business Partners (BPs) to discuss role details and enter final decisions to Adaptive as Hiring Plan
-   - Hiring Plans are approved by Board of Directors (during AOP) or CFO & eGroup (during RLOA).
+   - Hiring Plans are approved by Board of Directors (during AOP) or CFO & e-group (during RLOA).
    - All approved positions will be communicated by FBPs to TA partners, PBPs, and BPs
 1. Requisition Release
    - Role details are added to Live Interlock sheets. Details allow TA to open a requisition in Greenhouse
@@ -472,8 +472,8 @@ FP&A Position IDs increase visibility and accuracy for headcount forecasting (co
 - PID is an unique identifier for positions assigned by Corporate to **all** positions in Hiring Plan
 - Add/remove/exchange positions requires FBP approval via existing process, e.g. RLOA or rolling forecast and submit change request Google Form [here](https://docs.google.com/forms/d/e/1FAIpQLSeHS97lg1Fz_SIQTisg-TOPHsXf6QMGw6vXfuEDkB_GY8pKfA/viewform)
 - Positions reconciled regularly, e.g. monthly before each rolling forecast lock
-- Position ID follows “**FIN-Fiscal Year-0000 (4-digit PID code)**” as naming convention
-  - For example, if a role is opened in FY24, the PID is “FIN-FY24-0000”
+- Position ID follows "**FIN-Fiscal Year-0000 (4-digit PID code)**" as naming convention
+  - For example, if a role is opened in FY24, the PID is "FIN-FY24-0000"
 
 #### Creating GHPID
 
@@ -483,17 +483,17 @@ All GHPIDs are system-generated by a FP&A internal Google Sheet
   - FBPs will refer to GHPID generator and assign GHPIDs to all approved positions
   - **Future State:** Corporate will migrate GHPID generator to Workday (pending on Workday/Adaptive integration and Workday Position Management)
 - GHPID is updated during weekly forecast interlock and regular forecast cycles.
-- **Starting FY25 Annual Operating Planning, GHPID will follow “GH-Fiscal Year-Department Internal ID-0000 (4-digit GHPID code)”** as naming convention.
-  - For example, if sales and/or marketing is hiring a role, the GHPID will be“GH-FY25-100-0001”.
-  - When a role is pushed into next fiscal year, the GHPID won’t change
-  - When a role is re-allocated into a different department, the GHPID won’t change
+- **Starting FY25 Annual Operating Planning, GHPID will follow "GH-Fiscal Year-Department Internal ID-0000 (4-digit GHPID code)"** as naming convention.
+  - For example, if sales and/or marketing is hiring a role, the GHPID will be"GH-FY25-100-0001".
+  - When a role is pushed into next fiscal year, the GHPID won't change
+  - When a role is re-allocated into a different department, the GHPID won't change
   - Each GHPID is unique to each opening of a requisition
   - **Department internal ID** is from Netsuite as SSOT and consistent to Adaptive department code
   - Once a number has been used in Greenhouse for a job, it can not be reused. If the role is a future role and has been deleted, but was never input into Greenhouse, the FBP can use that number for its replacement or a different role since it was not used yet.
 
 ### Maintaining Hiring Plan
 
-FP&A team is the owner and maintainer of SSOT for GitLab’s Hiring Plan
+FP&A team is the owner and maintainer of SSOT for GitLab's Hiring Plan
 
 1. Objective of this control is to ensure completeness, accuracy, and consistency of Hiring Plan
    - **Completeness**: all approved positions are assigned with PIDs and GHPIDs
@@ -501,7 +501,7 @@ FP&A team is the owner and maintainer of SSOT for GitLab’s Hiring Plan
    - **Consistency**: ensure Hiring Plan in Adaptive is fully reconciled to details in Live Interlock Google Sheet and details in Greenhouse requisition
 1. PIDs and GHPIDs are stored in Workday Adaptive (Adaptive) and are required fields in Hiring Plan
    - FBPs will update Hiring Plan weekly in Adaptive & update TA through weekly Interlock.
-   - FBPs may update their Headcount Forecast on a more frequent basis (more than weekly) depending on their individual department’s business needs
+   - FBPs may update their Headcount Forecast on a more frequent basis (more than weekly) depending on their individual department's business needs
    - Updating Hiring Plan could require adding new roles, deleting roles, trading off roles, or adding backfills
 1. Hiring Plan audit and reconciliation is performed by Corporate, including
    - Weekly GHPID audit and reconciliation through TA and FP&A Interlock
@@ -524,9 +524,9 @@ Unless otherwise noted in the HC Forecast calendar or communicated via Slack, th
 
 1. **By noon (PST) Monday**, the Corp FP&A team downloads the data from Adaptive and refreshes the headcount forecast templates. Talent Acquisition also refreshes the headcount forecast templates with the latest data from Greenhouse.
 
-1. **By end of day (PST) Wednesday**, the Talent Acquisition Managers and Recruiters review their respective roles line by line and make adjustments and comments related to expected start dates and other role details provided by the Finance Business Partners. If no indication is made for a specific role in the headcount forecast template, Talent Acquisition signals that the current indication is reasonable and indicative of a 50/50 “most-realistic” forecast. The Talent Acquisition Managers also pay close attention to any recruiting capacity restraints within any given quarter. In order to maximize transparency and understanding of any changes, the Talent Acquisition Managers and Recruiters provide comments (e.g., wrong GHP ID, rejection of an offer, delay due to business decision, etc.) for specific roles.
+1. **By end of day (PST) Wednesday**, the Talent Acquisition Managers and Recruiters review their respective roles line by line and make adjustments and comments related to expected start dates and other role details provided by the Finance Business Partners. If no indication is made for a specific role in the headcount forecast template, Talent Acquisition signals that the current indication is reasonable and indicative of a 50/50 "most-realistic" forecast. The Talent Acquisition Managers also pay close attention to any recruiting capacity restraints within any given quarter. In order to maximize transparency and understanding of any changes, the Talent Acquisition Managers and Recruiters provide comments (e.g., wrong GHP ID, rejection of an offer, delay due to business decision, etc.) for specific roles.
 
-1. **By end of day (PST) Thursday**, the Finance Business Partners update Adaptive with their best estimates of the start dates of all planned personnel for the forecast period based on the input from Talent Acquisition in the headcount forecast templates. This reflects a 50/50 “most realistic” view of headcount expenses/timing.
+1. **By end of day (PST) Thursday**, the Finance Business Partners update Adaptive with their best estimates of the start dates of all planned personnel for the forecast period based on the input from Talent Acquisition in the headcount forecast templates. This reflects a 50/50 "most realistic" view of headcount expenses/timing.
 
 1. **By end of day (PST) Friday**, the Corp FP&A team sends a P&L snapshot to the CFO incorporating any headcount forecast adjustments. Note: P&L snapshots are not provided during accounting close.
 
@@ -536,7 +536,7 @@ Communication related to the interlock takes place in the #fpa-ta_headcount_fore
 
 #### Deliverables
 
-The Finance Business Partners and Talent Acquisition Managers collaborate to provide the most current and 50/50 “most-realistic” view of headcount-related expenses. This is done through the interlock process in the headcount forecast template and is ultimately uploaded into the Planned Personnel sheet in Adaptive.
+The Finance Business Partners and Talent Acquisition Managers collaborate to provide the most current and 50/50 "most-realistic" view of headcount-related expenses. This is done through the interlock process in the headcount forecast template and is ultimately uploaded into the Planned Personnel sheet in Adaptive.
 
 The inputs loaded into Adaptive are then used to provide the CFO a weekly P&L snapshot in order to facilitate in-quarter spending decisions and ensure the company tracks vs.  guidance and consensus expectations.
 
@@ -566,21 +566,21 @@ Adaptive Quarterly Roadmap
 ### Intent of RLOA Process
 
 1. Reinvest back into the business when company expects to beat expectations
-1. Enable eGroup and leaders to make informed and fast business decisions
+1. Enable e-group and leaders to make informed and fast business decisions
 1. Create a repeatable and transparent quarterly process into incremental investments
 
 ### Expectations for Business Partners
 
 1. Your FP&A partner will assist in maintaining a rolling list of asks (RLOA). This list includes prioritization/sequencing, rationale/ROI, and considerations against current FvP
 1. In weeks 0-2 of each qtr (quarterly fcst), work with FP&A to make a final proposal, if needed, for additional investment over the rest of the fiscal year
-1. By week 4 of each qtr (earnings guidance), funding decisions reviewed, prioritized, and decided by CFO and eGroup
+1. By week 4 of each qtr (earnings guidance), funding decisions reviewed, prioritized, and decided by CFO and e-group
 
 ### Detailed Expectations for FP&A
 
 1. **Throughout quarter,** FP&A maintains alignment with business needs.
    - FBPs, with the functional leader(s), maintain a RLOA file of key incremental investments from the business
    - FBPs, with the functional leader(s), prioritize the RLOA and develop a recommendation following the below timeline
-1. **During quarterly RLOA process,** FP&A team finalizes RLOA proposal to share with eGroup, and communicates decisions to functional leaders to enable business execution. Below is the timeline
+1. **During quarterly RLOA process,** FP&A team finalizes RLOA proposal to share with e-group, and communicates decisions to functional leaders to enable business execution. Below is the timeline
    - **WD-1:** Corporate FP&A locks Prelim Forecast version and shares detailed daily calendar with FBPs
    - **WD+1:** FBPs prepare prelim variance package and review with BPs (Async) to help the business prioritize the asks
    - **Acct Close +2:** Forecast pencils down
@@ -595,9 +595,9 @@ Adaptive Quarterly Roadmap
         - Rationale for each request and Finance POV
    - **At CFO Variance Meeting (typically third Thu):** FP&A team reviews RLOA proposal with CFO & VP of Finance. Discussion around:
         - Incremental investments required from RLOA proposal
-        - Make recommendation to eGroup thereafter
-   - **At eGroup Review Meeting (typically Mon after CFO Variance Meeting),** CFO shares proposal for formal approval and inclusion into investor guidance
-   - **After eGroup Review Meeting,** FP&A team communicates approved incremental investments to functional leaders to begin execution
+        - Make recommendation to e-group thereafter
+   - **At e-group Review Meeting (typically Mon after CFO Variance Meeting),** CFO shares proposal for formal approval and inclusion into investor guidance
+   - **After e-group Review Meeting,** FP&A team communicates approved incremental investments to functional leaders to begin execution
 
    *Note: WD is defined as Working Days, which are Mondays through Fridays, excluding Federal holidays.*
 
@@ -614,6 +614,6 @@ Adaptive Quarterly Roadmap
   - FP&A does lap with TA to review RLOA asks to determine recruiting feasibility
   - Final Forecast Lock (pre-tax) on 2024-05-15 used for earnings call
 - **Week of 2024-05-13:** CFO review RLOA proposal based on Forecast vs. Street Consensus performance
-- **Week of 2024-05-20:** At eGroup Meeting, CFO shares proposal for formal approval and inclusion into investor guidance
+- **Week of 2024-05-20:** At e-group Meeting, CFO shares proposal for formal approval and inclusion into investor guidance
   - Corporate FP&A updates this section of the Handbook page with the timeline for the next RLOA cycle
   - After formal approvals, business, FP&A, and TA collaborate to execute on RLOA approved asks

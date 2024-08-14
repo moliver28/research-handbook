@@ -188,16 +188,6 @@ In general, we want to keep as few projects in `security-products` as necessary.
 
 There may be projects that should belong in `secure` or `govern` but for technical reasons are much easier to have in `security-products`. In those cases, we can locate the project in `security-products` if reasonable efforts were made to get the project in `secure` or `govern` but were unsuccessful.
 
-### License approval policy
-
-As of 2024-05-17, Analyzer projects (`gitlab-org/security-products/analyzers`) are subject to a [security policy](https://gitlab.com/gitlab-org/security-products/analyzers/analyzers-security-policy-project/-/blob/main/.gitlab/security-policies/policy.yml) that requires approval for merge requests that introduce new licenses. The policy enforces our [company-wide policy](/handbook/legal/product/#using-open-source-software) for open source software.
-
-- Approvers: members of the [`gitlab-org/secure/managers`](https://gitlab.com/groups/gitlab-org/secure/managers/-/group_members?with_inherited_permissions=exclude) group.
-- Pre-approved licenses: as per the [company-wide policy](/handbook/legal/product/#using-open-source-software).
-- Excluded projects: the list includes test projects, other security policy projects, and any projects that can't have license finding enabled. Members of the [`gitlab-org/secure/managers`](https://gitlab.com/groups/gitlab-org/secure/managers/-/group_members?with_inherited_permissions=exclude) group can add exceptions as required.
-
-This is a dogfooding experiment that we intend to eventually apply to all Sec projects.
-
 ### Recommended settings
 
 When creating a new project, all settings should be left to the default options, except for the following which are specific to the secure stage:
@@ -425,7 +415,7 @@ At least once per milestone, Senior Engineering Managers in the section will do 
 
 - In partnership with Product Management, initiatives 6 months or older will be evaluated to determine if they're still relevant.
 - New initiatives will be triaged, checking their requirements for understandability and completeness. Further, the group most impacted will be identified.
-  - In situations where most impacted group is not clear, the Architectural Council will be engaged to help discern which group that might be.
+  - In situations where most impacted group is not clear, technical leadership via #sec-section will be engaged to help discern which group that might be.
 - Group most impacted will be declared DRI for that initiative and are expected to:
   - Produce a high-level implementation plan that will scale for the whole problem.
   - Create implementation issues that are broken down by feature category.
@@ -435,107 +425,29 @@ At least once per milestone, Senior Engineering Managers in the section will do 
 
 Generated issues will be worked through normal prioritization processes as they are distributed to individual groups.
 
-## Councils and Chapters
-
-### Architectural Council
-
-Slack [#s_sec-architectural-council](https://gitlab.slack.com/archives/C012RKVK231)
-
-[Snippet to use in issues](https://gitlab.com/gitlab-com/www-gitlab-com/-/snippets/2126492).
-
-In order to help the Sec section come to resolution on defining approaches to section-wide issues,
-we have formed an Architectural Council. This group comprises tech leads (and SMEs to provide context)
-in order to keep the team small and nimble. The group is a non-authoritative, supportive group whose members provide representative insights from their respective teams.
-
-- Tech leads will serve as the representative for their team
-- An issue should be created to capture the discussion that covers:
-  - What is the issue at hand and what is the preferred action
-  - What are the potential solutions and their associated pros/cons
-  - What approach was decided and why
-  - 2-business day [SLO](/handbook/engineering/workflow/code-review/#review-response-slo)
-    - We need to know when to start the clock on these as some issues can exist for months before being brought to the council. In this case, we should define within the issue when the clock does start.
-- There will be a DRI assigned to the issue that is being discussed
-- The DRI will be decided by either who has to address the issue first or where the code change is occurring the most (in that order)
-- The issue will be discussed and the DRI will be the ultimate decision-maker for the approach taken
-- Issues will be tackled on a First-In-and-First-Out (FIFO) order. Attempts to minimize SLA overlap should be made to prevent scheduling conflicts between member’s time
-
-#### Considerations when determining the approach
-
-- Simplicity and elegance
-- Portability and/or modularity
-- Supportability
-- Maintainability
-- Scalability
-- Extensibility
-- Reliability
-- Security
-- Cost (will it impact .com for large customers)
-- Performance (speed and accuracy)
-- Consistency (Fit with existing code base)
-
-#### Capturing Resolved/Discovered Standards
-
-Common scenarios/architectural concepts will likely be resolved/discovered. These should be captured generically in an architectural guidelines page of the handbook and, if possible, codified into our processes/templates.
-
-##### Scope
-
-The table below captures characteristics (requirements?) of work that is in-scope, opt-in, or out-of-scope. All requirements must be met for each category.
-
-| Reason/Condition                                           | In-Scope | Opt-in | Out-of-Scope |
-|------------------------------------------------------------|----------|--------|--------------|
-| Does not involve architectural decisions                   |          |        | x            |
-| Is after-the-fact                                          |          |        | x            |
-| Is not already covered by architecture guidelines/handbook | x        | x      |              |
-| Has broad impact within #secure[^1]                        | x        |        |              |
-| Is a new unit of work                                      | x        | x      |              |
-| Is strictly #secure or #govern                             | x        | x      |              |
-| Could not come to an agreement (escalation)                |          | ?      |              |
-| Involves architecture decisions                            | x        | x      |              |
-
-[^1]: Meaning that the proposed work requires knowledge or impacts multiple groups
-
-#### Acceptance Criteria
-
-GitLab’s Stance for Architectural issues: https://about.gitlab.com/handbook/engineering/architecture/
-
-#### Team Representatives
-
-| Team                                                     | Representative                                                                   |
-|----------------------------------------------------------|----------------------------------------------------------------------------------|
-| [Composition Analysis](secure/composition-analysis/)     | {{< member-by-gitlab "fcatteau" >}}                                          |
-| [Security Policies](govern/security-policies/)           | {{< member-by-gitlab "sashi_kumar" >}}.                                              |
-| [Dynamic Analysis](secure/dynamic-analysis/)             | {{< member-by-gitlab "cam_swords" >}}                                        |
-| [Static Analysis](secure/static-analysis/)               | {{< member-by-gitlab "theoretick" >}}                                        |
-| [Threat Insights](govern/threat-insights/) BE            | {{< member-by-gitlab "minac" >}}                                             |
-| [Threat Insights](govern/threat-insights/) FE            | {{< member-by-gitlab "svedova" >}}                                           |
-| [Vulnerability Research](secure/vulnerability-research/) | {{< member-by-gitlab "idawson" >}}, {{< member-by-gitlab "julianthome" >}}|
-| [Compliance](govern/compliance/) | {{< member-by-gitlab "huzaifaiftikhar1" >}}|
-
-There may be a need for more than one team member per group, and also for team members to rotate in and out of the council depending on other priorities. In these cases team members should discuss with their direct manager, and open an MR to update their membership and share in the [#s_sec-architectural-council](https://gitlab.slack.com/archives/C012RKVK231) Slack channel.
-
-#### Page Performance
+## Page Performance
 
 Our team monitors [LCP](/handbook/engineering/development/performance-indicators/#largest-contentful-paint-lcp) (Largest Contentful Paint) to ensure performance is below our target (currently 2500ms).
 
 [LCP Dashboard for Secure owned pages](https://dashboards.gitlab.net/d/sftijGFMz/sitespeed-lcp-leaderboard?from=now-90d&orgId=1&to=now&refresh=30s&var-namespace=sitespeed_io&var-path=desktop&var-testname=gitlab&var-domains=gitlab_com&var-pages=API_Fuzzing_Config_UI&var-pages=DAST_Profiles&var-pages=On_Demand_Scans&var-pages=SAST_Config_UI&var-pages=Secure_Dependency_List&var-pages=Secure_License_Compliance&var-pages=Secure_Security_Configuration&var-pages=DAST_Config_UI&var-browser=chrome&var-function=median&var-connectivity=cable)
 
-#### How to work with the Quality team
-
-#### Working with Customer Support
+## Working with Customer Support
 
 The Sec engineering teams do not provide support directly to customers. Instead engineers collaborate with our Customer Support Engineers via the [process on the Sec Sub-department support project](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/).
 
-#### Frontend Responsibilities
+## How to work with the Quality team
+
+### Frontend Responsibilities
 
 1. Being able to identify what code changes would likely break E2E or System level tests and informing Quality.
 1. Not to write E2E tests, but to catch potential failures and communicate gaps in coverage before landing to master.
 
-#### Identifying potential breakages
+### Identifying potential breakages
 
 1. Look to see if issue you are working on [has existing test coverage](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/736). These are the tests likely to fail
 1. If you are working around code that contains a selector like `data-qa-selector="&lt;name&gt;"`, then there is likely to be an existing E2E test. Tests can be found by searching our [E2E tests in Secure](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa/qa/specs/features/ee/browser_ui/secure).
 
-#### Communicating changes that may break tests
+### Communicating changes that may break tests
 
 Ping the DRI for quality assigned to Secure. You can find the person on the [team page](/handbook/engineering/development/sec/secure/#team-members). If they are unavailable, then #quality on slack or the [triage DRI](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) dependent on severity.
 

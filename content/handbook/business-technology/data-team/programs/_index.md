@@ -1,14 +1,7 @@
 ---
-
 title: "Data Team Programs"
 description: "Data Programs."
 ---
-
-
-
-
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 

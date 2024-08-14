@@ -4,12 +4,6 @@ aliases: /handbook/engineering/development/training/staff-plus-role.html
 title: "Resources for Staff+ roles"
 ---
 
-
-
-
-
-
-
 ## Overview
 
 This page provides resources for Staff+ engineers and aspiring Staff engineers.
@@ -37,4 +31,4 @@ Here are various activities that can be useful for this purpose:
 
 ## Book club
 
-We hosted a book club: [The Staff Engineer’s Path](https://gitlab.com/gitlab-com/books-clubs/combined-book-clubs/-/issues/45) (internal link), where you can find more resources.
+We hosted a book club: [The Staff Engineer's Path](https://gitlab.com/gitlab-com/books-clubs/combined-book-clubs/-/issues/45) (internal link), where you can find more resources.

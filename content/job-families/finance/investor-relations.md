@@ -13,7 +13,7 @@ The Investor Relations Analyst is a [grade 6](/handbook/total-rewards/compensati
 
 ### Responsibilities
 
-- Develop a deep understanding of GitLab’s initiatives, the broader DevOps ecosystem, and the competitive environment to shape the investment thesis.
+- Develop a deep understanding of GitLab's initiatives, the broader DevOps ecosystem, and the competitive environment to shape the investment thesis.
 - Assist in the quarterly earnings process including overall messaging development, datapoint collection and synthesis, scripts, Q&A prep, and conference call prep.
 - Analyze competitors' business models through their financial announcements, SEC filings and analyst days; report with quantitative and qualitative analysis to execs with information and perspective that might impact the company.
 - Maintain competitive peer analysis, including the development of industry and peer company performance benchmarks.
@@ -25,8 +25,8 @@ The Investor Relations Analyst is a [grade 6](/handbook/total-rewards/compensati
 
 ### Requirements
 
-- Bachelor’s degree in business or related field; advanced degree is preferred.
-- 2+ years’ experience in investment banking, private equity, equity research, corporate development or similar field.
+- Bachelor's degree in business or related field; advanced degree is preferred.
+- 2+ years' experience in investment banking, private equity, equity research, corporate development or similar field.
 - Highly organized, analytical and ability to multitask.
 - Strong analytical skills, fluency in performing rigorous financial, valuation and broad quantitative analyses.
 - Proficient in presentation and spreadsheet tools.
@@ -35,7 +35,7 @@ The Investor Relations Analyst is a [grade 6](/handbook/total-rewards/compensati
 
 ## Vice President, Investor Relations
 
-The Vice President of Investor Relations drives the strategy and long-term market positioning of GitLab in the public financial markets. This position reports to the CFO and works closely with senior leadership across the company including interaction with the executive team. This position will be responsible for developing and executing an effective investor communications strategy, performing financial analysis, and maintaining strong relationships with investors, investment banks and analysts. The VP of IR is expected to be deeply immersed in GitLab’s values of transparency and efficiency and has a passionate point of view of how to incorporate those values into GitLab’s investor relations strategy and process.
+The Vice President of Investor Relations drives the strategy and long-term market positioning of GitLab in the public financial markets. This position reports to the CFO and works closely with senior leadership across the company including interaction with the executive team. This position will be responsible for developing and executing an effective investor communications strategy, performing financial analysis, and maintaining strong relationships with investors, investment banks and analysts. The VP of IR is expected to be deeply immersed in GitLab's values of transparency and efficiency and has a passionate point of view of how to incorporate those values into GitLab's investor relations strategy and process.
 
 ### Job Grade
 
@@ -43,9 +43,9 @@ The Vice President, Investor Relations is a [grade 12](/handbook/total-rewards/c
 
 ### Responsibilities
 
-1. Develop long term relationships with industry analysts and investors to communicate the company’s financial results and strategic positioning.
+1. Develop long term relationships with industry analysts and investors to communicate the company's financial results and strategic positioning.
 1. Design the quarterly earnings process and Q&A topics in partnership with CEO, CFO and executive team.
-1. Execute on the Company’s investor education strategy to ensure the GitLab story is well positioned to the top 30 software IPO investors.
+1. Execute on the Company's investor education strategy to ensure the GitLab story is well positioned to the top 30 software IPO investors.
 1. Serve as a key advisor to the CFO on issues involving analyst and investor perception of the long term growth and health of the business.
 1. Serve as an on-the-record spokesperson with industry analysts, to advance corporate brand narratives with financial data & insights.
 1. Monitor industry developments and market trends, develop executive summaries for senior leadership and the Board of Directors on peer company news, financial and market share performance.

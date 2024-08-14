@@ -1,18 +1,11 @@
 ---
-
 title: "Thong Kuah's README"
 job: "Staff Backend Engineer"
 ---
 
-
-
-
-
-
-
 ## Introduction
 
-Hello, my name is Thong Kuah. I am a Staff Backend Engineer with the [Tenant Scale group](/handbook/engineering/infrastructure/core-platform/data_stores/tenant-scale/). I currently reside in Wellington, New Zealand.
+Hello, my name is Thong Kuah. I am a Staff Backend Engineer with the [Tenant Scale group](/handbook/engineering/infrastructure/core-platform/tenant-scale/). I currently reside in Wellington, New Zealand.
 
 I joined GitLab in 2018, starting with the Configure group.
 
@@ -28,7 +21,7 @@ As my timezone is UTC +12 or UTC +13, Mondays are relatively quiet. There is som
 
 After droping my children off at school, I start work shortly after 9 AM. The morning will then be either reviewing merge requests, replying to mentions to unblock others. Sometimes I elect to focus on a particular issue instead.
 
-I mostly work from home, so lunch is mostly leftover dinners. After lunch, there’s usually more work to continue though I tend to slow down. I stop work to pick up kids from school at 3 PM.
+I mostly work from home, so lunch is mostly leftover dinners. After lunch, there's usually more work to continue though I tend to slow down. I stop work to pick up kids from school at 3 PM.
 
 In the evenings (Mon-Thurs) after the kids have gone to bed, I resume work as this is my most productive time. Friday evenings is a no-work time slot as it is reserved for movie nights with my partner.
 
@@ -54,7 +47,7 @@ Here is my office setup:
 
 * Standing desk from a local office supplier
 * Samsung WQHD 24 inch external monitor (S24H850)
-* Goldtouch [adjustable keyboard](https://shop.goldtouch.com/products/goldtouch-v2-adjustable-comfort-keyboard-pc-and-mac-compatible-usb)
+* Goldtouch [adjustable keyboard](https://www.goldtouch.com/v2-adjustable-keyboard/)
 * Logitech mouse
 * Logitech wired headset
 

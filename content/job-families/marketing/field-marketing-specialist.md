@@ -122,7 +122,7 @@ This role includes all of the requirements of the previous level, plus:
 
 - 7+ years experience in marketing or event management with the desire to learn more about Field Marketing.
 - Proven knowledge of working within GitLab or within an agile environment.
-- Ability to travel if needed and comply with the company’s travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Performance Indicators
 
@@ -152,7 +152,7 @@ This role includes all of the requirements of the previous level, plus:
 - Requires exemplary analytical skills and proven aptitude to use data to optimize program performance and
 inform future processes
 - Complete [Adobe Marketo Engage Professional Training - Section 3](https://experienceleague.adobe.com/en/docs/certification/program/technical-certifications/ame/ame-professional/ame-p) - Defining and targeting audiences
-- Detailed understanding of GitLab’s accounting process and proven ability to work efficiently within Allocadia
+- Detailed understanding of GitLab's accounting process and proven ability to work efficiently within Allocadia
 - Excellent analytical and problem-solving skills
 - Proven expertise working within GitLab or within an agile environment
 - 10+ years experience in marketing or event management with the desire to learn more about Field Marketing

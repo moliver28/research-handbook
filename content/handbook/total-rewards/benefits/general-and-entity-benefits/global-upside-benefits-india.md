@@ -16,10 +16,10 @@ All of the benefits listed below are administered and managed by [Global Upside]
 
 ### Medical Benefits
 
-- Group Mediclaim Policy is arranged through [ICICI Lombard](https://www.icicilombard.com/)
-- [Group Health (Floater) Insurance Policy](https://drive.google.com/file/d/1-LAXZgtEqVmsybJsb5rS4JL3ewspH_4f/view?usp=sharing) which will take care of hospitalization expenses, the coverage provided is available for the team member, their spouse, up to two children, and dependent parents or parent in-laws.  Should additional cover be required this will need to be purchased by the team member in the form of an Individual Policy. This can not be purchased under the Group Mediclaim Policy. See [additional details](https://drive.google.com/file/d/1jLQ34jc6IGIojvaOEk3Y0tspcKpIPEyy/view?usp=sharing) on the policy and definitions.
+- Group Mediclaim Policy is arranged through [ICICI Lombard](https://www.icicilombard.com/) and renews on May 29. 
+- [2024 Group Health (Floater) Insurance Policy](https://drive.google.com/drive/folders/1YHx7lcR1MXdttY8iK6ugypnonr-JemII) which will take care of hospitalization expenses, the coverage provided is available for the team member, their spouse, up to two children, and dependent parents or parent in-laws.  Should additional cover be required this will need to be purchased by the team member in the form of an Individual Policy. This can not be purchased under the Group Mediclaim Policy. See [additional details](https://drive.google.com/file/d/1jLQ34jc6IGIojvaOEk3Y0tspcKpIPEyy/view?usp=sharing) on the policy and definitions.
 - Group Personal Accident policy including accidental death benefit.
-- For additional information on how [Benefits](https://drive.google.com/file/d/1g1CTUGi8p7GzEd4B4uwb5XhJ8L_WBEXL/view?usp=sharing) operate, please check out the documentation on the Google Drive.
+- For additional information on how [2024 Benefits](https://docs.google.com/presentation/d/1dF9vM-tCQy53dKgQM9zgQNppPi6ptR1I/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true) operate, please check out the documentation on the Google Drive.
 
 ### Pension
 
@@ -71,7 +71,7 @@ GitLab has implemented a private loyalty bonus scheme since some team members ha
 
 **Elibility:** One can only claim Loyalty Bonus after retirement or resign from the service after completing 5 years of continuous service.
 
-**Forfeiture of Loyalty Bonus:** The full amount of Loyalty Bonus can be forfeited if a team member’s services have been terminated due to: a) Riotous or disorderly conduct or any other violent act; b) Committing an offence involving moral turpitude.
+**Forfeiture of Loyalty Bonus:** The full amount of Loyalty Bonus can be forfeited if a team member's services have been terminated due to: a) Riotous or disorderly conduct or any other violent act; b) Committing an offence involving moral turpitude.
 
 **Calculation of Loyalty Bonus:**
 
@@ -106,7 +106,7 @@ PhilHealth is a government corporation attached to the Department of Health. It 
 ### Medical Benefits
 
 - GitLab offers International Healthcare Insurance through [NOW Health International](https://www.now-health.com/en/) which covers 100% of team member contributions and 66% for spouse & kids of premiums for medical, vision, dental and maternity coverage.
-- For specific information on how your benefits operate, please read the [NOW WorldCare Member's Handbook](https://drive.google.com/file/d/1wUtwcJkUqKgW7radXM6pJoTELGGHOyzp/view?usp=sharing). Feel free to also peruse NOW Health International’s [document library](https://www.now-health.com/en/document-library/).
+- For specific information on how your benefits operate, please read the [NOW WorldCare Member's Handbook](https://drive.google.com/file/d/1wUtwcJkUqKgW7radXM6pJoTELGGHOyzp/view?usp=sharing). Feel free to also peruse NOW Health International's [document library](https://www.now-health.com/en/document-library/).
 
 ### 13th Month Pay
 
@@ -251,7 +251,7 @@ GitLab offers company paid International Group Life and Disability Plans through
 
 ### 13th Salary (Aguinaldo)
 
-The 13th salary is equal to a month’s pay and must be paid within the first 20 days of December each year.
+The 13th salary is equal to a month's pay and must be paid within the first 20 days of December each year.
 
 ### Global Upside -  Costa Rica Leave Policy
 
@@ -275,7 +275,7 @@ To initiate your parental leave, submit your time off by selecting the `Parental
 
 #### Adoption Leave
 
-Team members who adopt a child are entitled to 3 months’ paid leave starting from the date of child birth. To take adoption leave, team members need to submit a certificate from the National Foundation for Children or a family court confirming the adoption, to the employer.
+Team members who adopt a child are entitled to 3 months' paid leave starting from the date of child birth. To take adoption leave, team members need to submit a certificate from the National Foundation for Children or a family court confirming the adoption, to the employer.
 
 ## Latvia
 
@@ -310,9 +310,9 @@ Team members are entitled to up to 56 calendar days of prenatal leave and 56 cal
 
 **Paternity Leave:**
 
-Team members are entitled to take up to 10 days of Paternity Leave which must be taken within the first two months of the child’s birth.
+Team members are entitled to take up to 10 days of Paternity Leave which must be taken within the first two months of the child's birth.
 
-- In the event that the mother has died, refuses to care for the child, or cannot take care of the child due to illness, injury, or other health-related reason up to the 42nd day of the period following childbirth, the father (or another person who actually takes care of the child) will be entitled to leave for the period up to the 70th day of the child’s life.
+- In the event that the mother has died, refuses to care for the child, or cannot take care of the child due to illness, injury, or other health-related reason up to the 42nd day of the period following childbirth, the father (or another person who actually takes care of the child) will be entitled to leave for the period up to the 70th day of the child's life.
 
 **Adoption Leave**
 

@@ -90,10 +90,6 @@ DRI rotation:
 | Deepika Guliana | 2023-04-10 | 2023-04-21 | |
 | Eulyeon Ko | 2023-04-24 | 2023-05-05 | |
 
-#### Historical Capacity
-
-{{% include "includes/engineering/plan/historical-capacity.md" %}}
-
 ### Collaboration between backend and frontend
 
 #### Using the ~"backend complete" label
@@ -112,6 +108,20 @@ additional column to show in-progress community contributions. Filtering it by
 It's OK to not take the top item if you are not confident you can solve
 it, but please post in [#s_plan](https://gitlab.slack.com/archives/s_plan) if that's the case, as this probably
 means the issue should be better specified.
+
+### Queueing Experimentation
+
+As part of our ongoing efforts to improve efficiency, we will experiment with [queuing techniques](https://www.brightball.com/articles/story-points-are-pointless-measure-queues) instead of traditional weight/story points for the [migration of legacy issues to work items project](https://gitlab.com/gitlab-org/gitlab/-/issues/461855). Starting in milestone 17.3, we will:
+
+1. **Refine Required Issues**: Review the [list of required issues for the first MVC](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=work%20items::ga-issues&label_name%5B%5D=work%20items&first_page_size=100).
+
+    - Determine the best way to group bundles of tasks, using issues or epics.
+    - Break down large issues into tasks, aiming for tasks that are small enough to be moved from ~"workflow::in dev" to ~"workflow::in review" within 5 business days.
+
+2. **Prioritize Tasks**: Prioritize the tasks from step 1.
+3. **Update Workflow**: Update the #picking-something-to-work-on section to include the list of tasks, monitoring work in progress to keep it as low as possible.
+
+This will help us manage and report progress more effectively using queue management principles.
 
 #### High Severity Issues
 

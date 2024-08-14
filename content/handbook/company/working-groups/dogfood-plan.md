@@ -1,6 +1,6 @@
 ---
 title: "Dogfood Plan Working Group"
-description: "This working group will integrate new Plan stage features in GitLab’s own agile planning process."
+description: "This working group will integrate new Plan stage features in GitLab's own agile planning process."
 ---
 
 ## Attributes
@@ -14,12 +14,12 @@ description: "This working group will integrate new Plan stage features in GitLa
 
 ## Business Goal
 
-This working group will integrate new Plan stage features in GitLab’s own agile planning process. Additionally, there may be some existing features we can consume. We would start with the Plan stage group itself, asking the people who are responsible for the features to implement their usage locally. Assuming success we might roll this out further across R&D (other stages) in a future iteration. The benefits we hope to achieve are:
+This working group will integrate new Plan stage features in GitLab's own agile planning process. Additionally, there may be some existing features we can consume. We would start with the Plan stage group itself, asking the people who are responsible for the features to implement their usage locally. Assuming success we might roll this out further across R&D (other stages) in a future iteration. The benefits we hope to achieve are:
 
 - Our current process is not standardized and some teams are probably planning releases in a sub-optimal (not efficiently, transparently, async, etc) because they are not benefitting from what other teams have figured out works well
 - Dogfooding
-  - If we’re going to standardize on a tool it should be our own product
-  - It’ll make the product better for users/customers
+  - If we're going to standardize on a tool it should be our own product
+  - It'll make the product better for users/customers
 - This will reiterate to the team, users, and customers how invested we are in our own planning feature set while GitLab also integrate with other planning tools because they are entrenched in customer organizations
 
 ## Exit Criteria

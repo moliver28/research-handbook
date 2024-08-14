@@ -48,7 +48,7 @@ The Senior Corporate Communications Manager is a [grade 7](/handbook/total-rewar
 - Develop integrated communications campaigns.
 - Develop overarching company storylines for media.
 - Have your finger on the pulse of the news and provide creative ideas to gain media coverage.
-- Manage GitLab’s PR agency relationships and ensure their programs are in line with overall corporate marketing objectives and goals.
+- Manage GitLab's PR agency relationships and ensure their programs are in line with overall corporate marketing objectives and goals.
 - Conduct media training for spokespeople as needed.
 - Strategically lead crisis communications efforts as needed.
 - Responsible for ideation of Corp Communications activities, OKRs, and reporting on results.
@@ -74,7 +74,7 @@ Manager, Corporate Communications is a [grade 8](/handbook/total-rewards/compens
 - Manage a team of direct reports, freelancers and/or agencies to scale integrated communications programs and ensure their results contribute to the  corporate communications strategy.
 - Manage media training schedule and ensure 100% compliance of training completion.
 - Strategically lead crisis communications efforts as needed.
-- Develop program’s OKRs and deliver quarterly reporting of results.
+- Develop program's OKRs and deliver quarterly reporting of results.
 - Responsible for ideation of Corp Communications activities, OKRs, and reporting on results.
 
 #### Requirements
@@ -99,7 +99,7 @@ Staff Corporate Communications Manager is a [grade 8](/handbook/total-rewards/co
 - Develop QoQ and YoY integrated communications programs.
 - Develop overarching company storylines for media.
 - Strategically lead crisis communications efforts as needed.
-- Develop program’s OKRs and deliver quarterly reporting of results.
+- Develop program's OKRs and deliver quarterly reporting of results.
 - Responsible for ideation of Corp Communications activities, OKRs, and reporting on results.
 
 #### Requirements
@@ -174,7 +174,7 @@ The Director, Corporate Communications is a [grade 10](/handbook/total-rewards/c
 
 ### Executive Communications
 
-The executive communications manager will work closely with the executive leadership team to develop content for executive speaking opportunities, extend the reach of executive participation in external events, develop a platform for “Pick Your Brain” or other Zoom series, executive contributed articles and more.
+The executive communications manager will work closely with the executive leadership team to develop content for executive speaking opportunities, extend the reach of executive participation in external events, develop a platform for "Pick Your Brain" or other Zoom series, executive contributed articles and more.
 
 #### Responsibilities
 
@@ -202,7 +202,7 @@ The executive communications manager will work closely with the executive leader
 
 ### Senior Executive Content Communications Manager (CEO)
 
-The executive communications to CEO specialty manager for the corporate communications team will work closely with the manager of the executive communications program, the CEO, and the Office of the CEO to extend the reach of the CEO’s participation in external events, bylined articles and more.
+The executive communications to CEO specialty manager for the corporate communications team will work closely with the manager of the executive communications program, the CEO, and the Office of the CEO to extend the reach of the CEO's participation in external events, bylined articles and more.
 
 #### Responsibilities
 
@@ -241,7 +241,7 @@ The GitLab [PR Manager](/job-families/marketing/pr-manager/) will help GitLab bu
 
 ### Social Marketing
 
-The [Social Marketing Manager](/job-families/marketing/social-marketing-manager/) is a key part of building GitLab’s brand into one that is loved by its audience of developers, IT ops practitioners, and IT leaders.
+The [Social Marketing Manager](/job-families/marketing/social-marketing-manager/) is a key part of building GitLab's brand into one that is loved by its audience of developers, IT ops practitioners, and IT leaders.
 
 ### Internal Communications
 
@@ -267,16 +267,16 @@ Additional details about our process can be found on our [hiring page](/handbook
 The Senior Director, Corporate Communications is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 This role is responsible for corporate PR, financial communications, reputation management, and executive visibility programs, serving to develop, raise, and protect GitLab's reputation and that of its CEO, CMO, and CFO.
 
-This role develops and leads a cross-functional, long-term strategic communications strategy that translates and synthesizes GitLab’s executives' vision and voice across organizational and industry topics.
+This role develops and leads a cross-functional, long-term strategic communications strategy that translates and synthesizes GitLab's executives' vision and voice across organizational and industry topics.
 
 #### Responsibilities
 
-- Manage GitLab’s reputation and crisis communications on critical corporate issues and initiatives that impact the company’s brand.
+- Manage GitLab's reputation and crisis communications on critical corporate issues and initiatives that impact the company's brand.
 - Initiatives include corporate strategy, organizational changes, or product issues in partnership with the VP of Corporate Communications, Chief Marketing and Strategy Officer, CEO, and Chief Legal Officer.
 - Create executive communications platforms for the CEO, CMO, and CFO aligned to business, financial, and leadership priorities.
-- Lead the development and execution of executive media relations and visibility strategies and plans, including helping to establish and shape the executive’s brands through earned and contributed opportunities in business, technology, and developer media and through speaking opportunities and awards.
+- Lead the development and execution of executive media relations and visibility strategies and plans, including helping to establish and shape the executive's brands through earned and contributed opportunities in business, technology, and developer media and through speaking opportunities and awards.
 - Drive collaboration and alignment across communications stakeholders, writers, and contractors on the development and production of bylines, blogs, presentations, and digital assets to raise the visibility of GitLab among key stakeholders by leveraging the voice and external presence of executives.
-- Partner with the AR and social media teams to proactively and reactively identify and seize thought leadership opportunities to drive GitLab’s industry-leading reputation and boost executive awareness.
+- Partner with the AR and social media teams to proactively and reactively identify and seize thought leadership opportunities to drive GitLab's industry-leading reputation and boost executive awareness.
 - Collaborate with the Diversity Inclusion and Belonging and ESG teams to ensure external communications reflect key initiatives and messaging.
 - In partnership with the VP of Communications, build a Communications Center of Excellence across media relations, analyst relations, social media, crisis management, and executive communications that will scale as GitLab grows.
 
@@ -295,10 +295,10 @@ This role develops and leads a cross-functional, long-term strategic communicati
 - Uses data to measure results and inform decision-making and strategy development.
 - Experience working with technical founders in a fast paced scaling startup environment
 - Fluency with public company disclosure requirements, including Regulation FD
-- Experience with evolving a company’s position to a new market category that aligns it with current market and customer priorities.
-- Proven track record in building, getting buy-in, executing plans, and staying focused on “getting it done” in a fast-moving, technical environment.
+- Experience with evolving a company's position to a new market category that aligns it with current market and customer priorities.
+- Proven track record in building, getting buy-in, executing plans, and staying focused on "getting it done" in a fast-moving, technical environment.
 - Comfortable with transparency in our communications, internally and externally
-- You share our values (<https://about.gitlab.com/handbook/values>) and work following those values.
+- You share our values (<https://handbook.gitlab.com/handbook/values>) and work following those values.
 - Ability to use GitLab
 
 ### VP, Corporate Communications
@@ -331,14 +331,14 @@ The VP, Corporate Communications is a grade 12.
 - Experience in OSS on a global scale a plus
 - Proven progressive leadership experience, with an emphasis on people leadership, building teams to scale, and engaging global and local stakeholders.
 - Skilled and proven experience bringing new campaigns and ideas to life.
-- Track record of evolving a company’s position to a new market category that aligns it with current market and customer priorities.
-- Proven track record in building, getting buy-in and executing marketing plans, and staying focused on “getting it done” in a fast-moving, technical environment.
+- Track record of evolving a company's position to a new market category that aligns it with current market and customer priorities.
+- Proven track record in building, getting buy-in and executing marketing plans, and staying focused on "getting it done" in a fast-moving, technical environment.
 - Ability to coordinate across many teams and perform in a fast-moving environment.
 - Proven ability to be self-directed and work with minimal supervision.
 - Outstanding written and verbal communications skills with the ability to explain and translate complex technology concepts into simple and intuitive communications.
 - Uses data to measure results and inform decision making and strategy development.
 - Comfortable with transparency in our communications, internally and externally
-- You share our values (<https://about.gitlab.com/handbook/values/>), and work in accordance with those values.
+- You share our values (<https://handbook.gitlab.com/handbook/values/>), and work in accordance with those values.
 Leadership (<https://about.gitlab.com/company/team/structure/#director-group>) at GitLab
 Ability to use GitLab
 

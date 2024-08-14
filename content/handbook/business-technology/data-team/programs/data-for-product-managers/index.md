@@ -17,7 +17,7 @@ Here are some useful links that we recommend for you to bookmark:
 - [DBT documentation](https://gitlab-data.gitlab.io/analytics/#!/overview) (where most of our models are documented)
 - [Service Ping Metrics Dictionary](https://metrics.gitlab.com/)
 - [Service Ping documentation](https://docs.gitlab.com/ee/development/service_ping/)
-- [Snowplow documentation](https://docs.gitlab.com/ee/development/snowplow/)
+- [Snowplow documentation](/handbook/business-technology/data-team/platform/snowplow/)
 - [Analytics Instrumentation Quick Links](https://about.gitlab.com/direction/analytics/analytics-instrumentation/#quick-links)
 - [Product Data Insights handbook](/handbook/product/product-analysis/)
 
@@ -117,7 +117,7 @@ You can find details about those snippets on the [Product Manager Toolkit](/hand
   - With the JS library, we track a lot of front-end activity automatically (All page views, sessions, link clicks, some button clicks, etc.) We also utilize structured events to capture specific events with defined business logic.
 - We do not track `user_id` on any of the snowplow events, making all events functionally anonymous. This severely limits the utility of these events.
 - We have found the [Snowplow Inspector](https://chrome.google.com/webstore/detail/snowplow-inspector/maplkdomeamdlngconidoefjpogkmljm?hl=en) to be very useful in tracing and debugging events being sent through the browser.
-- Snowplow is not sending data from self-managed instances. If they deem it helpful, the instance administrator can [configure their own Snowplow endpoint](https://docs.gitlab.com/ee/development/snowplow/#enable-snowplow-tracking) for the events.
+- Snowplow is not sending data from self-managed instances. If they deem it helpful, the instance administrator can [configure their own Snowplow endpoint](https://docs.gitlab.com/ee/api/settings.html#list-of-settings-that-can-be-accessed-via-api-calls) for the events.
 
 #### What can Product Managers do?
 
@@ -127,7 +127,7 @@ Because Snowplow doesn't rely on Service Ping and is mainly for GitLab SaaS, dat
 
 As mentioned, even though the anonymization of snowplow events is a major limitation, with the fast feedback, it is an effective source of data to measure feature adoption and usage.
 
-We recommend Product Managers and their teams use [Snowplow custom structured events](https://github.com/snowplow/snowplow/wiki/canonical-event-model#customstruct), which are Snowplow's canonical events. We have built [`Tracking`](https://docs.gitlab.com/ee/development/snowplow/implementation.html#snowplow-javascript-frontend-tracking) and [`GitLab::Tracking`](https://docs.gitlab.com/ee/development/snowplow/implementation.html#implement-ruby-backend-tracking), 2 wrappers for Snowplow JavaScript and Ruby Trackers respectively.
+We recommend Product Managers and their teams use [Snowplow custom structured events](https://github.com/snowplow/snowplow/wiki/canonical-event-model#customstruct), which are Snowplow's canonical events. We have built `Tracking` and `GitLab::Tracking`, 2 wrappers for Snowplow JavaScript and Ruby Trackers respectively.
 
 - JavaScript trackers can be used to collect users' frontend action, especially clicks.
 - Ruby trackers can be used to collect any event happening in the backend. For example, we currently use them for monitor:APM. More information in this [issue](https://gitlab.com/gitlab-org/gitlab/issues/121724)
@@ -136,7 +136,7 @@ To get started, use the [Snowplow event tracking template](https://gitlab.com/gi
 
 #### Snowplow structured event taxonomy
 
-Please read our [Snowplow Guide](https://docs.gitlab.com/ee/development/snowplow/index.html#structured-event-taxonomy) for more information around the recommended taxonomy.
+Please read our [Snowplow Guide](/handbook/business-technology/data-team/platform/snowplow/) for more information around the recommended taxonomy.
 
 #### Testing your events
 

@@ -26,7 +26,7 @@ In article [Leadership during adversity - 5 tips to help weather the storm](http
 1. **Communicate a realistic strategy and keep moving forward**: Iteration is even more important at this time. Keep your teams focused and moving toward the department, division or organizational goals.
 1. **Focus on what you can control**: Keep focusing your teams on the producing Results.
 1. **Create small wins and motivating environment**: Efficiency and boring solutions should still be a focus for the team.
-1. **Take care of your team**: [Family first]({{< ref "values#family-and-friends-first-work-second" >}}) is part of our Diversity, Inclusion & Belonging  values and as a manager making sure your team members are taken care of as well as yourself is even more important during difficult times.
+1. **Take care of your team**: [Family first](/handbook/values/#family-and-friends-first-work-second) is part of our Diversity, Inclusion & Belonging  values and as a manager making sure your team members are taken care of as well as yourself is even more important during difficult times.
 
 ## Additional resources
 

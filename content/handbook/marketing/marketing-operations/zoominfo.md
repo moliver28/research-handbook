@@ -1,14 +1,7 @@
 ---
-
 title: "Zoominfo"
 description: "ZoomInfo is sales intelligence software that provides a database of business and professional contact information."
 ---
-
-
-
-
-
-
 
 ### About ZoomInfo
 
@@ -34,24 +27,24 @@ Your direct login allows for direct export into SFDC. However you can also acces
 - Under your name on the right hand side click on Zoominfo University
 - Once you've created your Zoominfo University login the links below will give you direct access
 
-**I'm brand new to DiscoverOrg or Zoominfo! Start here:**
+**I'm brand new to Zoominfo! Start here:**
 
-| Title | Duration | Summary |
-| ------ | ------ | ------ |
-| [Introduction to Zoominfo (condensed version)](https://university.zoominfo.com/learn/course/101-introduction-to-zoominfo-condensed/training-session/salesos-essential-features)| 7:01 | A general overview covering core concepts, profile info, building a search, saving and subscribing, and tagging.  |
-| [Best Practices with Zoominfo Advanced Features (condensed version)](https://university.zoominfo.com/learn/course/102-best-practices-with-zoominfo-condensed/training-session/salesos-advanced-features) | 5:55 | Using scoops and more advanced features. We do not currently have Intent, so you can skip this section. |
-| [Zoominfo Introduction in Salesforce](https://university.zoominfo.com/learn/course/101-introduction-in-salesforce-on-demand/training-session/salesos-essential-features-in-salesforce) | 21:36 | This is a general overview of how to use the native integration within SFDC.|
+| Title | Summary |
+| ------ | ------ |
+| [Getting Started with SalesOS)](https://university.zoominfo.com/salesos-essential-features-on-demand) | A general overview covering core concepts, profile info, building a search, saving, and subscribing, and tagging.  |
+| [SalesOS Advanced Features (Condensed)](https://university.zoominfo.com/salesos-advanced-features-condensed) | Using scoops and more advanced features. We do not currently have Intent, so you can skip this section. |
+| [Salesforce Integration Made Easy](https://university.zoominfo.com/salesforce-integration-made-easy) | This is a general overview of how to use the native integration within SFDC.|
 
-**I've been using DiscoverOrg or Zoominfo already or ready to learn more! Skip to topics that interest you:**
+**I've been using Zoominfo already or ready to learn more! Skip to topics that interest you:**
 
-| Title | Duration | Summary |
-| ------ | ------ | ------ |
-| [Tagging](https://university.zoominfo.com/learn/course/tagging-hosted-by-dan-veillette/knowledge-center/staff-picks-series-tagging) | 4:54 | A quick review on how to use tags. |
-| [Scoops](https://university.zoominfo.com/learn/course/scoops-hosted-by-joy-bernard/knowledge-center/staff-picks-series-scoops) | 10:06 | A guide for searching and filtering for Scoops alerts. |
-| [ListMatch](https://university.zoominfo.com/learn/course/listmatch-hosted-by-amber-jackson/knowledge-center/staff-pick-series-listmatch) | 13:01 | ListMatch allows you to upload a list of contacts or company information in bulk to run through the Zoominfo search. |
-| [Technology and Company Attributes](https://university.zoominfo.com/learn/course/technology-and-company-attributes-hosted-by-william-stevens/knowledge-center/staff-picks-series-technology-and-company-attributes) | 3:56 | Learn how to access technology information within a company profile. |
-| [Exploring the Sunny Side of Saved Searches](https://university.zoominfo.com/learn/course/exploring-the-sunny-side-of-saved-searches/exploring-the-sunny-side-of-saved-searches/video) | 57:26 | **Skip to 6:40** to learn about general info on saved searches. **Skip to 14:32** for building a saved search. **Skip to 21:30** to learn how to set up an email alert for your saved search. **Skip to 29:17** to learn about how to save Scoops alerts. **Skip to 35:14** for learning about targeting personas with saved searches. **Skip to 38:10** to learn about the tagging feature. **Skip to 43:00** for saving and sharing searches with others.|
-| [How to Make a (Sales) Splash with ReachOut](hhttps://university.zoominfo.com/learn/course/how-to-make-a-sales-splash-with-reachout/how-to-make-a-sales-splash-with-reachout/video) | 53:12 | **Skip to 14:10** to see how to use it with LinkedIn. **Skip to 17:00** to export into SFDC. **Skip to 18:00** to build a list from LinkedIn and export in bulk by using tags. **Skip to 30:20** to see how to use the extension on a company website. |
+| Title | Summary |
+| ------ | ------ |
+| [ZoomInfo Sales Feature Highlight: Using Tags](https://university.zoominfo.com/salesos-feature-highlight-using-tags/91744) | A quick review on how to use tags. |
+| [SalesOS Feature Highlight: Search & Subscribe to Scoops](https://university.zoominfo.com/salesos-feature-highlight-search-subscribe-to-scoops) | A guide for searching and filtering for Scoops alerts. |
+| [SalesOS Best Practices: ListMatch](https://university.zoominfo.com/salesos-best-practices-listmatch) | ListMatch allows you to upload a list of contacts or company information in bulk to run through the Zoominfo search. |
+| [SalesOS Best Practices: Technology Filters](https://university.zoominfo.com/salesos-best-practices-technology-filters) | Learn how to access technology information within a company profile. |
+| [Save and Subscribe Function Explained](www.help.zoominfo.com/lightning/articles/help/Save-and-Subscribe-Function-Explained) |The ZoomInfo Sales Save and Subscribe function protects users from having to rebuild their lists when returning to the platform.|
+| [How to Make a (Sales) Splash with ReachOut](https://university.zoominfo.com/best-practices-reachout) | Learn best practices for using the ZoomInfo Chrome Extension to maximize outreach on public forums like LinkedIn. |
 
 **Sales Enablement Recordings:**
 
@@ -103,7 +96,7 @@ You can also reach out to the Data Intelligence or Mops teams via Slack at #data
 5. Keep track of split of Marketing and Sales licenses. If we run short on Sales licenses, we can borrow some from marketing with the following message.
 6. Create an issue in the Data Intelligence project on a monthly basis to track the users that were deactivated. The label Mktg Tool Audit and Data Intelligence :: Tech Stack should be userd. This will serve as support for any possible audit.
 
-**To note that:** If the license is borrowed from the marketing team, it can be revoked at any time. Please inform the user: “Greetings! We currently do not have Zoominfo licenses available for field sales. We have assigned you a temporary ZoomInfo license borrowed from the marketing team so you can have access to the platform. Due to limited licenses being available, your license may be revoked if the marketing team needs the license back for one of their team members. If such an instance does arise, you will be notified before the license is revoked and we will work to get you procured a Sales Operations license. Thank you for your understanding.”
+**To note that:** If the license is borrowed from the marketing team, it can be revoked at any time. Please inform the user: "Greetings! We currently do not have Zoominfo licenses available for field sales. We have assigned you a temporary ZoomInfo license borrowed from the marketing team so you can have access to the platform. Due to limited licenses being available, your license may be revoked if the marketing team needs the license back for one of their team members. If such an instance does arise, you will be notified before the license is revoked and we will work to get you procured a Sales Operations license. Thank you for your understanding."
 
 ### Controls
 
@@ -203,10 +196,10 @@ This may be related to the Zoominfo Google Chrome extension. To troubleshoot the
     - Select the three dots in the top right-hand corner of your Chrome browser > choose "Settings"
     - From the Settings page, select "Privacy and Security" > then "Third-party cookies" > then "Allow third-party cookies"
 
-1. Clear your browser’s cache and cookies for all time:
-    - Click the three dots in the top right corner of your Chrome browser > click "More Tools" > then “Clear Browsing Data”
-    - In the pop-up window, select the "Advanced" tab > then Time Range of “All Time”
-    - Select the following two checkboxes called “Cookies and other site data” AND “Cached images and files”
-    - Click “Clear data”
+1. Clear your browser's cache and cookies for all time:
+    - Click the three dots in the top right corner of your Chrome browser > click "More Tools" > then "Clear Browsing Data"
+    - In the pop-up window, select the "Advanced" tab > then Time Range of "All Time"
+    - Select the following two checkboxes called "Cookies and other site data" AND "Cached images and files"
+    - Click "Clear data"
 
 1. Lastly, log back into the ZoomInfo platform first, and then log into the Extension

@@ -1,15 +1,6 @@
 ---
-
 title: "Developer Relations Events"
 ---
-
-
-
-
-
-
-
-
 
 Events are a great way for GitLab and the Developer Relations team to connect with customers
 and the wider GitLab community.
@@ -160,6 +151,9 @@ If those demo environments do not suit your needs, you can view our [other demo 
 which are sorted by use case. You can also check out the [CS Shared Demo Library](https://gitlab.com/gitlab-learn-labs/webinars)
 for ready-to-go sales demos created by other solutions architects.
 
+All Developer Advocacy maintained projects are documented [in the projects handbook](/handbook/marketing/developer-relations/developer-advocacy/projects/#organisation-structure).
+Conference-specific demos are maintained in the [gitlab-da/conferences](https://gitlab.com/gitlab-da/conferences) group.
+
 **Note**: Before demoing using these projects you should familiarize yourself with the project and its instructions provided in
 their README. The projects are meant to be cloned and used within your own space.
 
@@ -171,7 +165,7 @@ with less experience in delivering demos and in environments where there is limi
 The available click-through demos are as follows:
 
 - [GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
-- [Remote Development](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
+- [Workspaces](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
 - [Feature Flags](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
 - [CI Overview](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
 

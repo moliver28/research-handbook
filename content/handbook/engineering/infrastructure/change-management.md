@@ -1,6 +1,5 @@
 ---
 title: "Change Management"
-controlled_document: true
 ---
 
 ## Purpose
@@ -190,6 +189,7 @@ When scheduling your change, keep the impact of the change in mind and consider 
 1. Does the change being conducted contain a planned failover or other high-risk component, where the risk to customers can be reduced by executing the change in a low-traffic period?
 1. As the DRI for the change, are you able to supervise the change, and communicate its status to the EOC, for an agreed upon period of time after the change?
 1. Is the change being conducted at a time conducive to recovering (i.e. rollback of the change) from any issues arising from the change? It is a general best practice to schedule the change early enough in the change technicians' workday to allow for several hours afterwards for any unforeseen impacts to become visible. That way the change technician is still around to mitigate and address those impacts.
+1. Are there Engineer on Call or Release Manager shift changes at or during the proposed time?
 
 ## Change Execution
 
@@ -212,6 +212,8 @@ bastion-01-gstg  $ ./script/migrate
 
 Maintenance changes require change reviews. The reviews are intended to bring to bear the **collective** experience of the team while providing a forum for pointing out potential risks for any given change. Consider using multiple reviewers for ~C1 or ~C2 Change requests.
 
+If you are not sure who to request a review from, ask for an SRE to review the change request in [#production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N).
+
 Fill each of the items under the `Change Reviewer checklist` based on the change criticality label assigned to the issue.
 
 ## Communication Channels
@@ -226,7 +228,7 @@ This flow is determined by:
 
 For instance, a large end-user may choose to avoid doing a software release during a maintenance window to avoid any chance that issues may affect their release.
 
-Furthermore, avoiding information overload is necessary to keep every stakeholder’s focus.
+Furthermore, avoiding information overload is necessary to keep every stakeholder's focus.
 
 To improve communication the following are recommendations for high criticality Changes:
 
@@ -277,7 +279,7 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
-| 2024-03-08 23:00 UTC -> 2024-03-18 09:00 UTC | Hard | GitLab Summit |
+| 2024-07-30 00:00 UTC -> 2024-07-31 04:00 UTC | Soft | [Testing PG16 Logical replicatio](https://gitlab.com/gitlab-com/gl-infra/change-lock/-/merge_requests/47) |
 | Recurring: [Monthly release date](https://about.gitlab.com/releases/)      | Soft       | Release day                   |
 | Recurring: [Scheduled Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days)         | Soft       | Family and Friends Days                   |
 | Recurring: Saturday 01:00 UTC -> Sunday 21:00 UTC | Soft       | Weekend                   |

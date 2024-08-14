@@ -32,7 +32,7 @@ The Inside Sales Representative is a [grade 6](/handbook/total-rewards/compensat
 - Preferred experience with Git, Software Development Tools, Application Lifecycle Management
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
 
 ## Public Sector Inside Sales Representative
 
@@ -42,7 +42,7 @@ The Public Sector Inside Sales Representative is a [grade 6](/handbook/total-rew
 
 ### Additional Responsibilities
 
-- Work with government contract officers to ensure RFQ’s are responded and closed in a timely manner. This would include working with the Public Sector Inside Sales Manager to determine which partners could bring value if we assign them to run with an account.
+- Work with government contract officers to ensure RFQ's are responded and closed in a timely manner. This would include working with the Public Sector Inside Sales Manager to determine which partners could bring value if we assign them to run with an account.
 - Work with Channel Managers to team on call campaigns and quotes for RFQs through distribution.
 - Manage Reseller relationships: Quoting, Lead generation, Renewals, Product and price list updates.
 

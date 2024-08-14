@@ -25,7 +25,7 @@ The Verify Pipeline teams focused on the following Engineering-led initiatives, 
 1. [CI Data Partitioning](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/ci_data_decay/pipeline_partitioning.md)
 1. Pipeline speed improvements - including analysis of pipeline performance
 1. Review of the [data retention strategy of CI data on gitlab.com](https://gitlab.com/gitlab-org/verify-stage/-/issues/440)
-1. Security vulnerabilities and infradev issues related to SaaS availablity
+1. Security vulnerabilities and infradev issues related to SaaS availability
 1. S1/S2 bug burndown of Categories that do not have planned feature development for FY24.
     1. Note that this also includes the `Continuous Integration` category, which has the biggest backlog of bugs in Verify.  While it may be considered to be "Maintenance" (no new feature development planned), this work remains critical in ensuring we keep GitLab CI performant and reliable.
     1. [Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/) owns the `Continuous Integration` category. The team is also the DRI for CI Data Partitioning and Pipeline speed improvement efforts.
@@ -48,7 +48,6 @@ The Verify stage is made up of 5 groups:
 1. [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
 
 1. [Verify:Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/)
-1. [Verify:Pipeline Security](/handbook/engineering/development/ops/verify/pipeline-security/)
 
 1. [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
 
@@ -61,10 +60,6 @@ The Verify stage is made up of 5 groups:
 ### Verify:Pipeline Execution
 
 {{< team-by-manager-role "Engineering Manager(.+)Pipeline Execution" >}}
-
-### Verify:Pipeline Security
-
-{{< team-by-manager-role "Engineering Manager(.+)Pipeline Security" >}}
 
 ### Verify:Runner
 
@@ -91,7 +86,6 @@ A [Job to be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) is a framework,
 * [Verify:Pipeline Execution JTBD](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/)
 * [Verify:Pipeline Authoring JTBD](/handbook/engineering/development/ops/verify/pipeline-authoring/jtbd/)
 * [Verify:Runner JTBD](/handbook/engineering/development/ops/verify/runner/jtbd/)
-* [Verify:Pipeline Security JTBD](/handbook/engineering/development/ops/verify/pipeline-security/JTBD/)
 
 ### Developer Onboarding in Verify
 
@@ -99,7 +93,7 @@ Welcome to the team! Whether you're joining GitLab as a new hire, transferring i
 
 Read over this page as a starting point and feel free to set up regular sync or async conversations with your buddy. We recommend setting up weekly touch points, at a minimum, and joining our regular team syncs to learn more about how we work. (Reach out to our Engineering Managers for an invite to those recurring meetings). Please also schedule a few coffee chats to meet some members of our team. You will be assigned a team specific developer onboarding issue (For example, [Pipeline Execution Developer onboarding checklist](https://gitlab.com/gitlab-org/ci-cd/onboarding/-/blob/master/.gitlab/issue_templates/verify-pipeline-execution_developer-onboarding.md)) for you to go through. It contains admin tasks to complete (as a new team member, if relevant), and also links to technical documentation, meeting agendas, and recordings.
 
-Issues labelled with `~onboarding` are smaller issues to help you get onboarded into the CI feature area. We typically work Kanban, so if there aren't [any `~onboarding` issues in the current milestone](https://gitlab.com/groups/gitlab-org/-/boards/1372896?milestone_title=%23started&label_name[]=onboarding), reach out to the Product Manager and/or Engineering Managers to see which issues you can start on as part of your onboarding period.
+Issues labeled with `~onboarding` are smaller issues to help you get onboarded into the CI feature area. We typically work Kanban, so if there aren't [any `~onboarding` issues in the current milestone](https://gitlab.com/groups/gitlab-org/-/boards/1372896?milestone_title=%23started&label_name[]=onboarding), reach out to the Product Manager and/or Engineering Managers to see which issues you can start on as part of your onboarding period.
 
 In May 2021, we introduced the [CI Shadow Program](https://gitlab.com/gitlab-com/Product/-/issues/2542), which we are trialing as a way to onboard existing GitLab team members from other Engineering teams to the CI domain and contribute to CI features.
 
@@ -135,7 +129,7 @@ To help with prioritizing within the list of available `Verify candidate` issues
 
 ### Issue Health Status Definitions & Async Issue Updates
 
-Across Verify we value [Transparency](/handbook/values/#transparency), we live our values of [Inclusion](/handbook/values/#bias-towards-asynchronous-communication), and we expect [Efficiency](/handbook/values/#write-things-down) by dogfooding using Issue Health Statuses and providing regular updates on active issues. Each team in the Verify Stage will define the cadence of updates and specific defintion of the statuses, but generally the expectation is a weekly update on in progress issues with the following Health Statuses:
+Across Verify we value [Transparency](/handbook/values/#transparency), we live our values of [Inclusion](/handbook/values/#bias-towards-asynchronous-communication), and we expect [Efficiency](/handbook/values/#write-things-down) by dogfooding using Issue Health Statuses and providing regular updates on active issues. Each team in the Verify Stage will define the cadence of updates and specific definition of the statuses, but generally the expectation is a weekly update on in progress issues with the following Health Statuses:
 
 * On Track
 * Needs Attention
@@ -171,7 +165,7 @@ Some of the noted benefits include reduced time spent in sync meetings, allowing
 
 ## Verify Engineering - Async Updates
 
-### Current (2022 onwards)
+### Current (2022 onward)
 
 As of June 2022, async issue updates are created weekly at the stage level and for each of the groups within the stage, following the [Ops section process of async updates](/handbook/engineering/development/ops/#weekly-async-updates-no-status-in-meetings).  Contributions will be added by Principal+ Engineers, Engineering Managers, and the Senior Engineering Manager of the Verify stage.
 
@@ -179,13 +173,13 @@ As of June 2022, async issue updates are created weekly at the stage level and f
 
 Every two weeks the Verify Engineering Update Newsletter is set out to an opt-in subscriber list. The purpose of the email is to share recent highlights from the Verify stage so folks will have a better idea of what is happening on other teams, and provide new opportunities for learning and collaboration.
 
-Everyone is welcome to sign up or view previous issue on the [newsletter page](https://www.getrevue.co/profile/verify-engineering-update).
+Everyone is welcome to sign up or view previous issue on the newsletter page (link no longer available).
 
 Each issue of the newsletter is planned using individual issues linked in the [newsletter epic](https://gitlab.com/groups/gitlab-com/-/epics/1148). Content is generally contributed by managers, but everyone is encouraged to contribute topics for the newsletter.
 
 ## Verify Technical Discussions
 
-Verify Technical Discussions is a Zoom meeting hosted monthly by the team members in the Verify stage. Everyone is invited, however paricipation from the Verify stage members is especially encouraged.
+Verify Technical Discussions is a Zoom meeting hosted monthly by the team members in the Verify stage. Everyone is invited, however participation from the Verify stage members is especially encouraged.
 
 During the meeting we discuss a variety of technical aspects related to the Verify stage roadmap. Folks are also encouraged to challenges they're facing working on problems in the CI domain.
 

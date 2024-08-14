@@ -17,7 +17,7 @@ For system access questions and [laptop wipes](/handbook/business-technology/end
 
 For payroll questions or outstanding expense claims, please reach out to either `uspayroll@gitlab.com` or `nonuspayroll@gitlab.com`.
 
-For any other offboarding questions, please reach out to People Connect via `people-connect@gitlab.com` or directly in the `#people-connect` Slack channel.
+For any other offboarding questions from active team members please reach out to People Connect via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=897eb385478c069067429ee0026d432c) or send an email to `people-connect@gitlab.com` if your access has already been terminated.
 
 **Note:** If a termination date changes, please reach out to People Connect via HelpLab. The team will update Workday.  The notice is used as supporting documentation of the change and is saved in the team members Workday record. If the team member is employed via a PEO, they will also be notified by People Connect.
 
@@ -34,10 +34,20 @@ For any other offboarding questions, please reach out to People Connect via `peo
 1. **Team Member:** Following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit) submit your resignation directly in Workday which you may access through Okta.
 1. **Team Member:** If you are employed via a PEO or Third-Party Employer forward a copy of your Letter of Resignation directly to them.
 1. **Team Member:** Within 48 hours of submitting your resignation you can anticipate receiving both your offboarding information email and a request to complete an exit survey along with an invitation to take part in an optional exit interview.
-1. **Team Member:** You should review the [Offboarding FAQ](/handbook/people-group/offboarding/faq) handbook page to address any questions you may have. If you have a question that is not on that page, please reach out in #people-connect. **Note: You will not see your offboarding issue prior to your departure as this is an issue used to deprovision access and is created once you are done working.**
+1. **Team Member:** You should review the [Offboarding FAQ](/handbook/people-group/offboarding/faq) handbook page to address any questions you may have. If you have a question that is not on that page, please reach out to the People Connect Team. **Note: You will not see your offboarding issue prior to your departure as this is an issue used to deprovision access and is created once you are done working.**
 1. **Manager:** You will receive the resignation for review through your Workday Inbox - ensure that the proposed final date of employment aligns to the documented [notice period]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) for the team members location.
 1. **Manager:** In the instance that the resignation details require revision, you may send it back to the team member by clicking `Send Back`.  If you are satisfied with the information, click `Approve`.
 1. **Manager:** Once the details about the team members departure have been finalized schedule time with the team member to plan the [departure announcement](#communicating-departures). Please reach out to your PBP if you need additional guidance.
+
+#### ***Country Specific Requirements for Resignation***
+
+##### France 
+
+Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com.
+
+##### Singapore
+
+Team Members located in Singapore who are resigning and are **not** Singapore citizens need to complete a Letter of Undertaking [document](https://docs.google.com/document/d/1l4Iq6atvXzq6Gt_DdiWfv3DwvshTOoEYZv8baMq_HKo/edit?usp=sharing) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) in order to process this with the local provider/partner. Please download or make a copy of the document in order to complete.
 
 ### Termination
 
@@ -96,19 +106,19 @@ The manager and the team member should have walked through the guidelines on [un
 
 ##### All Team Members
 
-1. **Final Pay:** "Your final check (or invoice period) is for the pay period of X and includes X days of pay”.
-1. **Company Property:** “Please return all property as explained in the handbook, also please delete GitLab’s email connection from your phone”.
-1. **Business Expenses:** “Please create your final expense report to Navan Expense (for employees), OR, please file any outstanding expenses with your final invoice (for contractors), so these can be reimbursed to you in a timely manner”.
-1. **Confidentiality and Non-Disclosure:** “We know you are a professional, please keep in mind the agreement you signed when you were hired”.
+1. **Final Pay:** "Your final check (or invoice period) is for the pay period of X and includes X days of pay".
+1. **Company Property:** "Please return all property as explained in the handbook, also please delete GitLab's email connection from your phone".
+1. **Business Expenses:** "Please create your final expense report to Navan Expense (for employees), OR, please file any outstanding expenses with your final invoice (for contractors), so these can be reimbursed to you in a timely manner".
+1. **Confidentiality and Non-Disclosure:** "We know you are a professional, please keep in mind the agreement you signed when you were hired".
 1. **Personal Particulars:** If you would like GitLab to share your personal email with the rest of the company, please send an email to People Ops or a farewell message that can be forwarded on your behalf.
 
 ##### US Team Members
 
-1. **COBRA:** “Your benefits will cease on last day of the month you are eligible for Consolidated Omnibus Budget Reconciliation Act (“COBRA”), the carrier (Lumity) has been notified and the carrier will send out the paperwork to your home address on file”.
-1. **PPACA:** "You may also be eligible under the Patient Protection and Affordable Care Act (“PPACA”) for subsidized health care options via the marketplace.
-If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month”.
-1. **HIPAA:** " Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from People Ops”.
-1. **Unemployment Insurance:** "It is up to your state's labor agency (in CA: EDD) to decide if you are eligible for unemployment insurance”.
+1. **COBRA:** "Your benefits will cease on last day of the month you are eligible for Consolidated Omnibus Budget Reconciliation Act ("COBRA"), the carrier (Lumity) has been notified and the carrier will send out the paperwork to your home address on file".
+1. **PPACA:** "You may also be eligible under the Patient Protection and Affordable Care Act ("PPACA") for subsidized health care options via the marketplace.
+If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month".
+1. **HIPAA:** " Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from People Ops".
+1. **Unemployment Insurance:** "It is up to your state's labor agency (in CA: EDD) to decide if you are eligible for unemployment insurance".
 1. **Keep GitLab Informed:** "If you move I want to be sure your W-2 gets to you at the end of the year.
 You may also contact X at GitLab (provide phone number and email address) with any other questions that you may have" (consider inviting them to contact you at anytime for any reason).
 
@@ -165,7 +175,7 @@ Separation and Release of Claims Agreements ***do not*** apply for all offboardi
 - Separation pay is not paid until the ex-team member signs the document and the revocation period has passed.
 - We treat team members equally and therefore do not take tenure into consideration when determining separation pay unless legally required. We know that other companies sometimes gives higher separation pay to longer tenure. We think that a short tenure can be harder to explain to a next employer and with a shorter tenure you might have less stock option upside, maybe you have not even reached your vesting cliff.
 - Make sure you understand the rules for over 40.
-- You must use language in your exit meeting that is in no way forceful of the ex-team member to sign the agreement. Use phrasing such as “if you choose to sign”; “you have a right to have legal council review this document before you sign”, etc.
+- You must use language in your exit meeting that is in no way forceful of the ex-team member to sign the agreement. Use phrasing such as "if you choose to sign"; "you have a right to have legal council review this document before you sign", etc.
 
 ### Team Member Leave during an Investigation
 
@@ -193,13 +203,8 @@ To ensure a successful completion of the offboarding issue, it is important that
 
 ## GitLab Alumni Program
 
-Voluntary exits that are eligible to be rehired will be added to the Slack channel `#gitlab-alumni`. The offboarding details provided by the Manager in Workday is how eligibility is determined and later shared with IT.
-
-Reasons that someone would not be permitted to join would be:
-
-1. Due to involuntary offboarding for extreme behavior or a violation of our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d).
-1. Underperformance or other causes for involuntary offboarding are not a reason to exclude someone from the alumni program.
-1. Team members who are not eligible for rehire.
+All voluntary exits are eligible to be added to the Slack channel `#gitlab-alumni`, unless otherwise noted. Involuntary exits are not eligible for the alumni channel, unless otherwise noted by Team Member Relations.
+The offboarding details provided by the terminatino transaction in Workday is how eligibility is determined and later shared with IT.
 
 The purpose of this channel is to network and socialize with team members.
 
@@ -208,10 +213,6 @@ Joining the channel is voluntary and subject to GitLab's [Code of Conduct](https
 GitLab, the company, monitors the channel and can remove people from it at their sole discretion.
 The GitLab [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) is enforced in the channel.
 
-### Process for Team Members Outside of the US
-
-*To be documented*
-
 ## Communicating Departures
 
 Our goals in communicating offboardings are transparency, and to provide an opportunity for team members to say goodbye. We understand that different individuals are comfortable with different levels of communication and that each offboarding situation has different situations and nuances. For this reason and out of respect for individuals, we have a couple of key guiding principles for communicating offboarding:
@@ -219,7 +220,7 @@ Our goals in communicating offboardings are transparency, and to provide an oppo
 1. We ask that all offboardings are announced in the `#team-member-updates` Slack channel for transparency and awareness. While we encourage all offboardings to be posted in #team-member-updates, we recognize there may be select situations that we should consider a different approach for. If a team member or their manager does not want to post in #team-member-updates, please discuss with your [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) or [Team Member Relations](/handbook/people-group/team-member-relations).
 1. Team members and managers have the discretion to determine who shares the news of the team member's offboarding (I.E. team member or manager). Regardless of who shares, it is required that team members review offboarding messaging with their managers prior to sharing.
 
-Depending on the team members’ role, timing of communication may vary (e.g. direct team, key stakeholders, etc.), and managers have discretion to determine who should be informed most immediately. The typical order followed for communicating departures is:
+Depending on the team members' role, timing of communication may vary (e.g. direct team, key stakeholders, etc.), and managers have discretion to determine who should be informed most immediately. The typical order followed for communicating departures is:
 
 ### 1. Inform Direct Team
 
@@ -248,11 +249,11 @@ As explained briefly in the [offboarding issue](https://gitlab.com/gitlab-com/pe
 
 However as mentioned in the procedures, for [voluntary offboarding](/handbook/people-group/offboarding#voluntary-offboarding), the team member can work with their manager on messaging to share a company-wide message about their departure.
 
-Once the news has been shared with the team member’s team and other stakeholders, and messaging is agreed upon between the departing team members and their manager, the departure message should be shared in the `#team-member-updates` Slack channel.
-Managers and team members can optionally leverage this template as a guide on how to communicate a team member’s upcoming departure:
+Once the news has been shared with the team member's team and other stakeholders, and messaging is agreed upon between the departing team members and their manager, the departure message should be shared in the `#team-member-updates` Slack channel.
+Managers and team members can optionally leverage this template as a guide on how to communicate a team member's upcoming departure:
 
 ```text
-I want to share that [team member’s name] ([group] [role]) will be leaving GitLab, and [his/her/their] last day is (date of their last day). (Context to add about the team member’s time at GitLab - examples: their favorite contribution to the handbook or they can use the update to express gratitude towards teams and individuals that have made their experience at GitLab positive.) I would like to take this opportunity to thank (team member's name) for their contributions and wish them all the best for the future. If you have questions about tasks or projects that need to be picked up, please let me know. If you have concerns, please bring them up with your manager. To keep in touch with (team member's name) he/she/they can be reached at (contact info - e.g. LinkedIn, email, etc.)
+I want to share that [team member's name] ([group] [role]) will be leaving GitLab, and [his/her/their] last day is (date of their last day). (Context to add about the team member's time at GitLab - examples: their favorite contribution to the handbook or they can use the update to express gratitude towards teams and individuals that have made their experience at GitLab positive.) I would like to take this opportunity to thank (team member's name) for their contributions and wish them all the best for the future. If you have questions about tasks or projects that need to be picked up, please let me know. If you have concerns, please bring them up with your manager. To keep in touch with (team member's name) he/she/they can be reached at (contact info - e.g. LinkedIn, email, etc.)
 ```
 
 There will be situations in which team members prefer to share their offboarding message, and situations in which managers prefer to do so. Either is ok, **so long as team member and manager have reviewed the messaging together prior to posting**.
@@ -261,7 +262,7 @@ If someone is let go involuntarily, this generally cannot be shared since it aff
 
 If you are not close to an employee's offboarding, it may seem unnecessarily swift.
 Please remember that these decisions are never made without following the above process to come to a positive resolution first - we need to protect the interests of the individual as well as the company, and offboarding is a last resort.
-According to our values [negative feedback is 1-1 between you and your manager]({{< ref "values#negative-feedback-is-1-1" >}}) and we are limited in what we can share about private employee issues.
+According to our values [negative feedback is 1-1 between you and your manager](/handbook/values/#negative-feedback-is-1-1) and we are limited in what we can share about private employee issues.
 Please discuss any concerns you have about another employee's offboarding with your manager or your People Business Partner.
 
 Given the expectations and responsibility that come with a VP and above position, when there is an involuntary offboarding for one of these positions, additional context for the personnel change can be provided to the organization.
@@ -343,6 +344,6 @@ Unemployment Insurance is funded through employer contributions and most states 
 
 If you are a full-time team member and you are contacted by your state's Unemployment Commission to discuss your request for Unemployment Benefits, you may be a victim of Unemployment Claim Fraud.
 
-Before giving out any information to the caller, please confirm that you are speaking with an agency employee. If you confirm with your state's Unemployment Commission that there is a fraudulent claim, please report it via email to people-connect@gitlab.com.
+Before giving out any information to the caller, please confirm that you are speaking with an agency employee. If you confirm with your state's Unemployment Commission that there is a fraudulent claim, please report it via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) to the People Connect team.
 
 Additionally here is a link to the [U.S Department of Labor Contact Particulars](https://www.dol.gov/agencies/eta/unemployment-insurance-payment-accuracy/UIFraudReporting) to report Unemployment Insurance Fraud.

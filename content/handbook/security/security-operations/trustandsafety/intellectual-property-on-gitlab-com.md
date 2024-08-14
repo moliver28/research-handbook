@@ -12,9 +12,9 @@ GitLab takes the intellectual property rights of others seriously and require th
 
 ### Trademark Policy
 
-GitLab can’t adjudicate disputes between third parties, and so we are not in a position to act on trademark reports that require an in-depth trademark analysis or a real-world dispute outside of GitLab. In these situations, rather than contacting GitLab, you may want to reach out directly to the party that you believe is infringing your rights, or seek any resolution in court or by other judicial means.
+GitLab can't adjudicate disputes between third parties, and so we are not in a position to act on trademark reports that require an in-depth trademark analysis or a real-world dispute outside of GitLab. In these situations, rather than contacting GitLab, you may want to reach out directly to the party that you believe is infringing your rights, or seek any resolution in court or by other judicial means.
 
-If you’re sure you want to report content on GitLab that you believe infringes your trademark, please review the `Submitting a Trademark Notice` section further below.
+If you're sure you want to report content on GitLab that you believe infringes your trademark, please review the `Submitting a Trademark Notice` section further below.
 
 ### Namespace Policy
 
@@ -46,8 +46,8 @@ A DMCA notice is a legal document, therefore GitLab requires you to submit a not
 1. A description of the copyrighted work that you claim is being infringed;
 1. A description of the material you claim is infringing and that you want removed or access to which you want disabled, and the URL or other location of that material;
 1. Your name, title (if acting as an agent), address, telephone number, and email address;
-1. The following statement: `“I have a good faith belief that the use of the copyrighted material I am complaining of is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use)”`;
-1. The following statement: `“The information in this notice is accurate and, under penalty of perjury, I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right that is allegedly infringed”`; and
+1. The following statement: `"I have a good faith belief that the use of the copyrighted material I am complaining of is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use)"`;
+1. The following statement: `"The information in this notice is accurate and, under penalty of perjury, I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right that is allegedly infringed"`; and
 1. An electronic or physical signature of the owner of the copyright or a person authorized to act on the owner's behalf.
 
 After your submission to dmca@gitlab.com, you should receive an automated confirmation of receipt.
@@ -93,7 +93,7 @@ The Counter complaint is a legal document and must comply with the requirements 
 #### Trademark Infringement
 
 {{% details summary="Submitting a Trademark Infringement Notice" %}}
-If you’re sure you want to report content on GitLab that you believe infringes your trademark, please provide the following information:
+If you're sure you want to report content on GitLab that you believe infringes your trademark, please provide the following information:
 
 1. Details of the original trademark (and a description if it's a logo).
 1. A list of the countries in which the trademark is registered.

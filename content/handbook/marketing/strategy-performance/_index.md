@@ -1,5 +1,4 @@
 ---
-
 title: Marketing Analytics
 description: >-
   Marketing Analytics supports the entire Marketing team to

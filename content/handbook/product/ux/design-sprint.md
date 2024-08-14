@@ -21,7 +21,7 @@ When making a request to conduct a RDS, work closely with your Product Design Ma
 
 ### Who should participate in a Remote Design Sprint
 
-You should keep the RDS team to around 5-7 people. More than that becomes difficult for the facilitator to manage and less than that can limit the diversity of backgrounds and knowledge needed to solve the problem. RDS participants should be a mix of counterparts from each participating team, such as UX (Product Designers, Researchers, Tech Writers), Development, Product Management, Sales, Customer Support. The more diverse the better, but be sure they’re relevant to the challenges being worked on and that they have the time to contribute effectively.
+You should keep the RDS team to around 5-7 people. More than that becomes difficult for the facilitator to manage and less than that can limit the diversity of backgrounds and knowledge needed to solve the problem. RDS participants should be a mix of counterparts from each participating team, such as UX (Product Designers, Researchers, Tech Writers), Development, Product Management, Sales, Customer Support. The more diverse the better, but be sure they're relevant to the challenges being worked on and that they have the time to contribute effectively.
 
 ### Remote Design Sprint methodology
 
@@ -81,7 +81,7 @@ RDS participants are responsible for participating in the RDS activities as outl
 - It's recommended to attend the sync sessions. During sync sessions, follow the general [guidelines for effective all-remote meetings](/handbook/company/culture/all-remote/meetings/).
 - If the sync sessions are out of the participant's working hours, it's important to participate asynchronously, for example by sharing a video recording about the RDS deliverable for the day or any questions the RDS participant might have.
 - All asynchronous tasks must be completed before or on the due dates. If there is a problem achieving any of the above this must be communicated to the Facilitator or co-facilitator as quickly as possible so adjustments or assistance can be provided.
-- Honor the Facilitator’s directions. They’re the guide for the entire process.
+- Honor the Facilitator's directions. They're the guide for the entire process.
 - The Decider has the final, ultimate decision at the end of each activity.
 
 ### Tools

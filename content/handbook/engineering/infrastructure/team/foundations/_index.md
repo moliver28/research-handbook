@@ -137,6 +137,11 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
   - [Agenda](https://docs.google.com/document/d/1T5LIBt3RZR5TBLzkmRd08oMwfwiNFAr5ImPD5NP7lOw/edit?usp=sharing)
   - [Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqWfqy6IhKlVDUbk-f9NnmR).
 
+#### Calendar
+
+- We have a internal team calendar for regular team meetings.
+  - To subscribe to the calendar you can use `Other Calendars > Subscribe to calendar` with `c_fbda056c7fecb09a0d0d0801527838384fe862b80f2e36cdc24bca7b0d9d274f@group.calendar.google.com` as the ID.
+
 ### Standup
 
 We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel.
@@ -153,6 +158,36 @@ We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_found
 ### Retros
 
 We have a quarterly async retro that aligns with the company fiscal quarters and OKRs. In addition to reflecting on our quarter in general, we take a set of actions to try the next quarter and revisit how successful they were in the next retro.
+
+### Picking up work
+
+We have three buckets of work:
+
+1. OKRs (project work)
+1. External requests
+1. General operations, also known as Keep the lights on (KTLO)
+
+While we rely on the `workflow-infra::*` labels to denote the current state of any given issue, we rely on the [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583?label_name%5B%5D=Foundations%3A%3ABuild) to understand what specific issues are ready to be picked up.
+
+In short, anyone on the team can find issues to work on in the Build Board.
+
+When something is prioritized to be worked on, the `Foundations::Build` label is applied so it is included on the board. With the exception of some external requests, issues being added should be in `workflow-infra::Ready` (clearly defined and [ready](../../platforms/project-management/index.md#workflow-labels) for any team member to pick up).
+
+We want the build board to be relatively small in size so it is easy to traverse and there is no confusion around what needs to be worked on. It can provide some options for people to find work, but also prevent key work from being missed.
+
+Different people are responsible for adding the `Foundations::Build` label to issues for each bucket of work:
+
+- OKRs - DRIs of each OKR uses the `Foundations::Build` label to communicate what the next issues needed to be picked up are.
+- External requests - the Engineering manager will add `Foundations::Build` to issues that need attention. These will also include the `unblocks others` label to make it clear to people on the interrupt rotation which issues are external requests. The person on interrupt rotation can also actively triage incoming issues, adding the `Foundations::Build` label when new issues are opened.
+- KTLO - These issues will generally be added according to a general combination of due date/priority/severity/weight. Any team member should feel empowered to add KTLO issues to the board when they fit the criteria (prioritization makes sense based on the due date/priority/severity/weight).
+
+From here, people have options when looking for what's next:
+
+1. Pick up issues related to the OKR they are involved with
+1. Pick up KTLO work they are interested in or to create a break between other project work
+1. Help out with external requests if the interrupt rotation has higher volume on a given week
+
+We trust everyone to be a [Manager of One](../../../../leadership/_index.md#managers-of-one) - owning not just their own work, but the team's work - taking responsibility to define their own workflow that provides the right balance of work for them to be most impactful to the team.
 
 ### Prioritization of work
 

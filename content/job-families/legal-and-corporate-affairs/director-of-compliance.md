@@ -1,6 +1,6 @@
 ---
 title: Director of Compliance
-description: The Director of Compliance is responsible for providing counsel and guidance related to the design, implementation and monitoring of policies and procedures to ensure GitLab’s compliance with applicable laws and regulations.
+description: The Director of Compliance is responsible for providing counsel and guidance related to the design, implementation and monitoring of policies and procedures to ensure GitLab's compliance with applicable laws and regulations.
 ---
 
 ## Director of Compliance
@@ -13,7 +13,7 @@ The Director of Compliance is a [Grade 10](/handbook/total-rewards/compensation/
 
 ### Director of Compliance: Responsibilities
 
-- Architect and manage GitLab’s full suite of global compliance programs including, but not limited to, organizational strategies, policies and practices
+- Architect and manage GitLab's full suite of global compliance programs including, but not limited to, organizational strategies, policies and practices
 - Advise E-Group and other key stakeholders including the GitLab Board of Directors on compliance matters including procedures and practices regarding anti-bribery and anti-corruption, contracts, confidentiality, conflicts of interest, privacy and security and other matters
 - Promote and lead team member enablement and education to enable compliance with laws, rules, regulations, internal policies and procedures; facilitate company-wide proactive communication to ensure a culture of compliance at GitLab
 - Design and implement monitoring frameworks to identify, report and mitigate compliance risks; conduct periodic risk assessments and develop and implement a work plan to address risk
@@ -29,7 +29,7 @@ The Director of Compliance is a [Grade 10](/handbook/total-rewards/compensation/
 - Ownership mindset, equally comfortable operating at the micro and macro levels with the innate ability to know which level is needed at what time as well as appropriate sense of urgency
 - Experience with establishing and managing an operating budget
 - Background with building efficiency for scale, and proven ability to iterate and learn things quickly
-- An effective communicator with the ability to use “plain language”, escalate, coordinate, provide feedback, and ask for help
+- An effective communicator with the ability to use "plain language", escalate, coordinate, provide feedback, and ask for help
 - Strong operational mindset with ability to prioritize projects and demands
 - Embrace GitLab Values of [Collaboration](/handbook/values/#collaboration), [Results](/handbook/values/#results), [Efficiency](/handbook/values/#efficiency), [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion), [Iteration](/handbook/values/#iteration), and [Transparency](/handbook/values/#transparency)
 

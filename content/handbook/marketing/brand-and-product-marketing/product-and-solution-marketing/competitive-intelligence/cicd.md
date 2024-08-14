@@ -1,13 +1,6 @@
 ---
-
 title: "CI/CD Tools Primer"
 ---
-
-
-
-
-
-
 
 ## CI & CD
 
@@ -16,7 +9,7 @@ From "[Setting up GitLab CI/CD for Android projects](https://about.gitlab.com/bl
 
 ### Continuous Integration (CI)
 
-> **Continuous Integration** usually refers to integrating, building, and testing code within the development environment. Continuous Delivery builds on this, dealing with the final stages required for production deployment.  
+> **Continuous Integration** usually refers to integrating, building, and testing code within the development environment. Continuous Delivery builds on this, dealing with the final stages required for production deployment.
 > \- [Martin Fowler on continuous delivery, 2013](https://martinfowler.com/bliki/ContinuousDelivery.html)
 
 #### What
@@ -41,7 +34,7 @@ From "[Setting up GitLab CI/CD for Android projects](https://about.gitlab.com/bl
 
 ### Continuous Delivery/Deployment (CD)
 
-> **Continuous Delivery** is sometimes confused with **Continuous Deployment**. Continuous Deployment means that every change goes through the pipeline and automatically gets put into production, resulting in many production deployments every day. Continuous Delivery just means that you are able to do frequent deployments but may choose not to do it, usually due to businesses preferring a slower rate of deployment. In order to do Continuous Deployment you must be doing Continuous Delivery.  
+> **Continuous Delivery** is sometimes confused with **Continuous Deployment**. Continuous Deployment means that every change goes through the pipeline and automatically gets put into production, resulting in many production deployments every day. Continuous Delivery just means that you are able to do frequent deployments but may choose not to do it, usually due to businesses preferring a slower rate of deployment. In order to do Continuous Deployment you must be doing Continuous Delivery.
 > \- [Martin Fowler on continuous delivery, 2013](https://martinfowler.com/bliki/ContinuousDelivery.html)
 
 #### What
@@ -74,7 +67,7 @@ From "[Setting up GitLab CI/CD for Android projects](https://about.gitlab.com/bl
 
 ### Forrester CI Wave
 
-![Forrester CI Wave](/images/home/forrester-ci-wave-graphic.svg){: .small.left}
+![Forrester CI Wave](/images/home/forrester-ci-wave-graphic.svg)
 
 - No vendor can survive today by only doing CI
 - Vendors in the CI space have all evolved to include CD, as it is a natural extension of the capabilities of a CI system

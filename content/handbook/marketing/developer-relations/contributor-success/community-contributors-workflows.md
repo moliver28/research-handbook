@@ -11,6 +11,10 @@ A GitLab contributor room is available on [Discord](https://discord.gg/gitlab) f
 
 ## Issues
 
+### Labeling issues for community contributors
+
+See guidance on [seeking wider community contributions](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions) and the [criteria for `quick win` issues](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#criteria-for-quick-win-issues).
+
 ### Community issues workflow manual process
 
 See the [partial issue triage checklist](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#partial-triage-checklist).
@@ -273,10 +277,6 @@ To encourage contribution to priority issues on an on-going basis (and not just 
 
 We run a [Community Newsletter](/handbook/marketing/developer-relations/developer-advocacy/#community-newsletter) to share developer-focused content, alert community members about upcoming events, and keep contributors engaged. The focus of the newsletter is on driving contributions and engagement. It will not be used to generate or nurture leads and allow us to connect with and share our community's contributions.
 
-#### Issues for new contributors
-
-To highlight issues that would be good for new contributors, you can add a [label `quick win`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=quick%20win&first_page_size=50). It is strongly recommended that these issues have mentor(s) listed so that the new contributor knows who they can get help from while they work on the issue.
-
 ## Supporting the Wider Community Contributors
 
 ### Unblocking wider community contributions
@@ -298,13 +298,24 @@ These 10 GitLab values support efforts to unblock the wider community and push f
 
 ### Seeking wider community contributions
 
-GitLab team members seeking help can reach out to the wider community for contributions. It is suggested to start with smaller issues that have a clear implementation plan before moving on to bigger project requests.
+GitLab team members seeking help can reach out to the wider community for contributions. It is suggested to start with smaller `quick win` issues that have a clear implementation plan before moving on to bigger project requests.
 
-- Add a `quick win` label to the issue.
-- Add a clear implementation plan to the issue description.
+- Add a `quick win` label to the issue by following the [criteria for `quick win` issues](#criteria-for-quick-win-issues).
 - Share the issue on the GitLab Community Discord in the [#contribute channel](https://discord.com/channels/778180511088640070/997442331202564176).
 - If a community contributor expresses interest, assign them to the issue.
 - Follow up with the community contributor to see if they need help.
+
+### Criteria for `quick win` issues
+
+GitLab guides the wider community to search for issues with the `quick win` label when looking to contribute. These issues are intended to be straightforward for community contributors and quick enough to complete while still learning the contribution process. This follows [GitLab's mission](/handbook/company/mission/#mission) to enable everyone to contribute and to support our first-time contributors onboarding with the community. The [GitLab Bot](https://gitlab.com/gitlab-bot) helps to maintain this criteria and will remove the `quick win` label when an issue does not meet the requirements.
+
+- The issue description must include an `## Implementation plan` second-level heading, containing guidance to help contributors get started.
+This section can be very brief or offer possible actions to resolve the issue.
+- The issue must be assigned a weight between 0-3.
+Issue weights should approximate the complexity and effort required.
+Do not relate weight to time estimates.
+- Consider including a GitLab team member or experienced community contributor as a contact person
+for contributors to ask questions or get mentorship.
 
 ### First-time contributors
 

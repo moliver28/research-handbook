@@ -48,7 +48,7 @@ Note that any changes to the Renewal Ownership (Tier) field within the current F
 
 ## Renewal opportunity activities - by tier
 
-The following activities are recommended for each Renewals Manager as a baseline for engagement with a customer throughout their subscription journey. This framework is flexible, and ultimately every Renewals Manager must us their discretion to discern which activities make sense for their customer's experience.
+The following activities are recommended for each Renewals Manager as a baseline for engagement with a customer throughout their subscription journey. This framework is flexible, and ultimately every Renewals Manager must use their discretion to discern which activities make sense for their customer's experience.
 
 | ID |Tier|Stage| Motion | Process | Primary activities |
 |--|-----|------|------|--------|----------------------------|
@@ -87,10 +87,10 @@ To build and maintain an efficient, fair, and high impact renewals organization,
   - First order business is handled by Account Executives
   - Customer add-ons are identified by Renewals Managers, and primarily managed by Account Executives (exceptions made for timing risk to customers environment; risk to experience)
   - Connected-new opportunities are handled by Account Executive
-- **Renewal opporutnities**
+- **Renewal opportunities**
   - Customer true-ups are handled by Renewal Manager
   - Renewals Managers do not waive true-ups
-- **Channel opporuntities**
+- **Channel opportunities**
   - We respect the incumbency of partners unless a lack of action by the partner puts a customers environment at risk
 - **Opportunity Coverage**
   - Renewals managers primary focus is managing renewal opportunitie `ARR basis` ; coverage for new business and add-on's `growth NetARR` should default to the account executives team
@@ -101,7 +101,7 @@ Our management philosophy regarding the expectations of booking renewals is simp
 
 - **Timely**:
   - It is expected that a renewal opportunity be closed-won or closed-lost by the `subscription renewal date`.
-  - We close-lost opportunities when we have full confidence that the customers will not renew (we don’t use sales automation to close opportunities)
+  - We close-lost opportunities when we have full confidence that the customers will not renew (we don't use sales automation to close opportunities)
 - **Accurate**:
   - *No pushing*: We do not manipulate the close date to influence personal performance metrics (i.e. pushing churning opportunities into the next quarter/year)
   - *No detrimental pulling*: We do not pull opportunities forward into quarters for the purpose of personal performance metric effect if it results in compression (i.e. offering a discount for an early contract reset to improve a quarters performance)

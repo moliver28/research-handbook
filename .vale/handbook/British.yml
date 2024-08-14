@@ -26,6 +26,8 @@ swap:
   behaviour: behavior
   busses: buses
   calibre: caliber
+  cancelled: canceled
+  cancelling: canceling
   categorise: categorize
   categorised: categorized
   categorises: categorizes

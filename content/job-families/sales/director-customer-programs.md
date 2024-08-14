@@ -2,7 +2,7 @@
 title: Director, Digital Success
 ---
 
-The Director, Digital Success is responsible for defining, leading, and tracking strategic and operational programs to improve GitLab’s ability to effectively and efficiently deliver excellent customer outcomes through the digital experience. The Director, Digital Success works cross-functionally to orchestrate results with Customer Success, Sales, Marketing, Product and Engineering, Support, and Finance.
+The Director, Digital Success is responsible for defining, leading, and tracking strategic and operational programs to improve GitLab's ability to effectively and efficiently deliver excellent customer outcomes through the digital experience. The Director, Digital Success works cross-functionally to orchestrate results with Customer Success, Sales, Marketing, Product and Engineering, Support, and Finance.
 
 The Director, Digital Success reports to the [Director Customer Success Operations](/job-families/sales/director-customer-operations/).
 

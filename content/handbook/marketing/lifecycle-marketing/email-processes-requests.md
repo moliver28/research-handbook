@@ -1,16 +1,10 @@
 ---
-
 title: Emails Processes
 description: An overview of email processes at GitLab.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
-
 
 ## Overview
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -40,8 +34,8 @@ Due to limited seats, we will be providing 1-2 seats per team on the calendar. P
 Steps to add to the Asana calendar:
 
 * Ensure the label for "email-calendar" is added to your issue.
-* Add labels for the appropriate segmentation: “Global-email”, “EMEA-email”, “AMER-email”, “APAC-email”
-* Add labels for appropriate email type: “operational-email” “non-operational-email”
+* Add labels for the appropriate segmentation: "Global-email", "EMEA-email", "AMER-email", "APAC-email"
+* Add labels for appropriate email type: "operational-email" "non-operational-email"
 * Set email issue due date as the send date
 
 ### Email Request Issue Template
@@ -185,14 +179,22 @@ First step in requesting an email from lifecycle begins by creating an issue usi
 <!-- DO NOT CHANGE THIS ANCHOR -->
 *Submit final email for QA and scheduling*
 
-* Step 1: Submit an email issue for the appropriate email type and assign yourself and a lifecycle counterpart to your email. Be sure to include the proper labels for the email calendar.
+* Step 1: Campaign manager: Submit an email issue for the appropriate email type and assign yourself and a lifecycle counterpart to your email. Be sure to include the proper labels for the email calendar. This needs to be done before the SLA date or at latest by Thursday at 9 am PT (with audience information) the week before send (i.e. if an email is going out the following Friday, it still needs to be in on Thursday the week before)
 * Step 2: Highlight your desired send date and time. (Will be reviewed and potentially modified by the Lifecycle team).
 * Step 3: Build the program and email in Marketo by referring to our [email marketing best practices](https://docs.google.com/presentation/d/1j6F-3ZOFtFM9Tjz1srzbqLjSA56sK7lR2LPdKSl57Vo/edit?usp=sharing) and segment the email accordingly.
 * Step 4: Include a link to the Marketo program while submitting an [Email issue request](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email).
 * Step 5: Send a sample for lifecycle to QA
   * Global/AMER/Newsletters/Corporate/Intelligent Nurture = reviewed by [Allie](mailto:aklatzkin@gitlab.com)
+  * Customers/AMER = reviewed by [Alison](mailto:alee@gitlab.com)
   * APAC/EMEA/PubSec and Localized Nurtures = reviewed by [Luis](mailto:ldambrosio@gitlab.com)
-* Step 6: Make revisions & schedule the email. Can be done by lifecycle or campaigns team member.
+* Step 6: Lifecycle will make revisions and send the email back to the campaign manager.
+* Step 7: Lifecycle will schedule the email to send at requested time slot
+
+*SLAS:*
+
+1. Larger events (GitLab 17 is typically Lifecycle owned, but events of similar scale): 7 business days
+2. Tech demos: 5 business days
+3. Email follow-ups: 2 business days
 
 #### Field Marketing QA process
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -370,7 +372,7 @@ Instead, we should take the following steps:
 1. Build a second email and create a description of what was changed in the name i.e "Subject line test version" (or even saying the test)
 2. Add it as a random sample in the send controller as shown in the flow below (use 50% for 2 versions, or split between 100% for more versions):
 
-    ![email-ab-test](/handbook/marketing/lifecycle-marketing/emails-nurture/image-4.png){: .medium.center}
+    ![email-ab-test](/handbook/marketing/lifecycle-marketing/emails-nurture/image-4.png)
 
 3. Monitor results on an email report
 4. Document results on [A/B testing tracker](https://docs.google.com/spreadsheets/d/1BaGJbiYIG8187nnXXy2tvNtJyKXLV4CenCAZMYJbmeI/edit#gid=2079991889)
@@ -450,7 +452,7 @@ For the following, you can update 1 issue then drag it down (at least for email 
 8. Upload issue to the campaigns project using the import button. https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/uploads/c644b04f8460d6f1007e731093ff16fc/Screen_Shot_2022-08-11_at_2.10.56_PM.png
 9. Check to make sure your issues uploaded correctly and are in the right epic!
 
-## Adding “add to calendar” links in our emails without using 3rd party tools
+## Adding "add to calendar" links in our emails without using 3rd party tools
 <!-- DO NOT CHANGE THIS ANCHOR -->
 Example:
 
@@ -458,10 +460,10 @@ Example:
 
 **Note:** gmail inboxes a majority of our sends, according to litmus analytics pixel data. Outlook makes up 3-15% of our recipients. This is exactly what Limus did:
 
-It’s virtually impossible to support all the calendar applications available. To help us understand what calendar tools to focus on, we took a look at our Email Analytics data. The most popular email clients our subscribers use are Apple Mail, Gmail, and Outlook. Using this data, we focused our efforts on creating a “add to calendar” button that would be compatible with iCalendar, Google’s calendar, and Outlook’s calendar.
+It's virtually impossible to support all the calendar applications available. To help us understand what calendar tools to focus on, we took a look at our Email Analytics data. The most popular email clients our subscribers use are Apple Mail, Gmail, and Outlook. Using this data, we focused our efforts on creating a "add to calendar" button that would be compatible with iCalendar, Google's calendar, and Outlook's calendar.
 [Learn More Here](https://litmus.com/blog/how-to-create-an-add-to-calendar-link-for-your-emails)
 
-### Steps to manually creating “add to calendar” links in our emails
+### Steps to manually creating "add to calendar" links in our emails
 <!-- DO NOT CHANGE THIS ANCHOR -->
 * Create google calendar link for your events
   * Use this tool to generate your event information: [http://kalinka.tardate.com/](http://kalinka.tardate.com/)
@@ -479,7 +481,7 @@ It’s virtually impossible to support all the calendar applications available. 
 
 * Create ICS file for all other calendars (mostly Outlook and Apple)
   * Marketo can create an ICS file
-  * Add “Calendar File” Token to local tokens section
+  * Add "Calendar File" Token to local tokens section
   * Paste all necessary information (same as above)
   * Add token to the email as follows:
 

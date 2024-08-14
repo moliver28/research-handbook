@@ -7,7 +7,7 @@ GitLab treats every users' data the same regardless of their local regulations b
 
 ## GDPR
 
-The General Data Protection Regulations came into effect in the European Union in May 2018.  Anyone who handles personal information of Europeans must comply.  In the European Union, privacy of personal information is a personal right belonging to the owner of the information and cannot be commoditized, utilized, processed without that person’s consent.  The European Union (EU) and European Economic Area (EEA) diligently try to preserve the rights of their citizens but such efforts were without coordinated and express direction – until now.  The GDPR reflects a unified approach to handling personal, sensitive information in the EU/EEA.
+The General Data Protection Regulations came into effect in the European Union in May 2018.  Anyone who handles personal information of Europeans must comply.  In the European Union, privacy of personal information is a personal right belonging to the owner of the information and cannot be commoditized, utilized, processed without that person's consent.  The European Union (EU) and European Economic Area (EEA) diligently try to preserve the rights of their citizens but such efforts were without coordinated and express direction – until now.  The GDPR reflects a unified approach to handling personal, sensitive information in the EU/EEA.
 
 The regulation is implemented in all local privacy laws across the entire EU and EEA region. It applies to all companies selling and storing personal information about citizens in Europe, including companies on other continents.
 
@@ -41,7 +41,7 @@ Data that can directly or indirectly identify a person is covered by GDPR. GDPR 
 
 **The right to object** – this includes the right of individuals to stop the processing of their data for direct marketing. There are no exemptions to this rule, and any processing must stop as soon as the request is received. In addition, this right must be made clear to individuals at the very start of any communication.
 
-**The right to be notified** – If there has been a data breach which compromises an individual’s personal data, the individual has a right to be informed within 72 hours of first having become aware of the breach.
+**The right to be notified** – If there has been a data breach which compromises an individual's personal data, the individual has a right to be informed within 72 hours of first having become aware of the breach.
 
 ## CPPA
 

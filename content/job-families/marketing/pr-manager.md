@@ -11,7 +11,7 @@ The GitLab PR Manager will help GitLab build thought leadership and drive conver
 
 - Think globally to implement global PR campaigns.
 - Execute thought leadership, product, partner, technical, channel, crisis, rapid response and proactive PR campaigns.
-- Manage GitLab’s PR agency relationship and develop a PR program in line with overall corporate marketing objectives and goals.
+- Manage GitLab's PR agency relationship and develop a PR program in line with overall corporate marketing objectives and goals.
 - Work closely with executives, spokespeople and the greater organization to develop press releases, blog posts and media relations strategy for GitLab announcements and news.
 - Collaborate across the organization to support the news cycle through various channels, as well as educate teams on news.
 - Oversee the GitLab awards submission program.
@@ -77,7 +77,7 @@ The Senior PR Manager is a [grade 7](/handbook/total-rewards/compensation/compen
 - Responsible for ideation of PR activities, OKRs, and reporting on results.
 - Think globally to implement global PR strategy and  campaigns.
 - Plan, implement and manage PR programs  for product, security and partner/channel including thought leadership, technical, crisis, rapid response and proactive PR campaigns.
-- Engage and coordinate with GitLab’s PR agency relationship and develop a PR program in line with overall corporate marketing objectives and goals.
+- Engage and coordinate with GitLab's PR agency relationship and develop a PR program in line with overall corporate marketing objectives and goals.
 - Work closely with executives, spokespeople and the greater organization to develop press releases  and media relations strategy for GitLab announcements and news.
 - Collaborate across the organization to support the news cycle through various channels, as well as educate teams on news.
 - Respond to daily media inquiries in a timely and professional manner.
@@ -133,7 +133,7 @@ The GitLab Manager, PR  will lead a team of PR managers to build GitLab thought 
 
 - Think globally to implement global PR strategy and  campaigns.
 - Plan, implement and manage PR programs  for product, security, verticals and partner and channel including thought leadership, technical, crisis, rapid response and proactive PR campaigns.
-- Manage GitLab’s PR agency relationship and develop a PR program in line with overall corporate marketing objectives and goals.
+- Manage GitLab's PR agency relationship and develop a PR program in line with overall corporate marketing objectives and goals.
 - Work closely with executives, spokespeople and the greater organization to develop press releases  and media relations strategy for GitLab announcements and news.
 - Collaborate across the organization to support the news cycle through various channels, as well as educate teams on news.
 - Respond to daily media inquiries in a timely and professional manner.

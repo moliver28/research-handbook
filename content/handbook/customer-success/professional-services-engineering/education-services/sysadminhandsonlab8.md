@@ -13,52 +13,52 @@ The purpose of this lab is to show how to troubleshoot the GitLab server by usin
 
 1. From a shell session on your GitLab instance, view one of the NGINX active logs.
 
-```bash
-sudo gitlab-ctl tail nginx/gitlab_access.log
-```
+   ```bash
+   sudo gitlab-ctl tail nginx/gitlab_access.log
+   ```
 
-Note the log adds new entries every few seconds. Most of these entries are gitlab-runner checking in with the GitLab instance via HTTP.
+   Note the log adds new entries every few seconds. Most of these entries are gitlab-runner checking in with the GitLab instance via HTTP.
 
 1. Stop the NGINX services.
 
-```bash
-sudo gitlab-ctl stop nginx
-```
+   ```bash
+   sudo gitlab-ctl stop nginx
+   ```
 
 1. Attempt to navigate to `http://<your_gitlab_instance>` using a web browser. Your web browser should display "**This site can't be reached**" or a similar message.
 
 1. Check `nginx/access_log` again.
 
-```bash
-sudo gitlab-ctl tail nginx/gitlab_access.log
-```
+   ```bash
+   sudo gitlab-ctl tail nginx/gitlab_access.log
+   ```
 
 The log should no longer be updating since no clients can make HTTP/HTTPS requests to GitLab after stopping NGINX.
 
 1. Verify web services aren't running or listening anywhere.
 
-```bash
-curl -i http://localhost/nginx_status
-curl -i http://localhost:80
-```
+   ```bash
+   curl -i http://localhost/nginx_status
+   curl -i http://localhost:80
+   ```
 
 1. Restart NGINX services.
 
-```bash
-sudo gitlab-ctl restart nginx
-```
+   ```bash
+   sudo gitlab-ctl restart nginx
+   ```
 
 1. Verify the clients (e.g. the GitLab Runner) can communicate with GitLab again.
 
-```bash
-sudo gitlab-ctl tail nginx/gitlab_access.log
-```
+   ```bash
+   sudo gitlab-ctl tail nginx/gitlab_access.log
+   ```
 
 1. Verify the webserver is running and listening on port 80.
 
-```bash
-curl -i http://localhost/nginx_status
-```
+   ```bash
+   curl -i http://localhost/nginx_status
+   ```
 
 ### Task B. Troubleshoot Puma
 
@@ -66,59 +66,59 @@ curl -i http://localhost/nginx_status
 
 1. From a shell session on the GitLab instance, stop Puma.
 
-```bash
-sudo gitlab-ctl stop puma
-```
+   ```bash
+   sudo gitlab-ctl stop puma
+   ```
 
 1. Refresh GitLab in your web browser. You should immediately see an error that reads "**502: GitLab is taking too much time to respond**". NGINX is running, so it can accept HTTP requests. However, when workhorse tries to pass an HTTP request to the Rails application, there is no running service to accept it.
 
 1. View the GitLab Workhorse logs.
 
-```bash
-sudo gitlab-ctl tail gitlab-workhorse/current
-```
+   ```bash
+   sudo gitlab-ctl tail gitlab-workhorse/current
+   ```
 
-You will see a variety of **502** and **badgateway** errors in the output.
+   You will see a variety of **502** and **badgateway** errors in the output.
 
 1. View Puma logs.
 
-```bash
-sudo gitlab-ctl tail puma
-```
+   ```bash
+   sudo gitlab-ctl tail puma
+   ```
 
-You should see a message in `puma/puma_stdout.log` about the Puma service shutting down. You may also see errors in `puma/puma_stderr.log`.
+   You should see a message in `puma/puma_stdout.log` about the Puma service shutting down. You may also see errors in `puma/puma_stderr.log`.
 
 1. Restart Puma.
 
-```bash
-sudo gitlab-ctl restart puma
-```
+   ```bash
+   sudo gitlab-ctl restart puma
+   ```
 
 1. View Puma's runit log.
 
-```bash
-sudo gitlab-ctl tail puma/current
-```
+   ```bash
+   sudo gitlab-ctl tail puma/current
+   ```
 
-You may see output indicating Puma has restarted.
+   You may see output indicating Puma has restarted.
 
 1. View `puma/puma_stdout.log`.
 
-```bash
-sudo gitlab-ctl tail puma/puma_stdout.log
-```
+   ```bash
+   sudo gitlab-ctl tail puma/puma_stdout.log
+   ```
 
-You should see that Puma is running and consuming resources again.
+   You should see that Puma is running and consuming resources again.
 
 1. Wait about 2 minutes, then refresh GitLab in your web browser. The application should now be reachable.
 
 1. View the GitLab Workhorse log.
 
-```bash
-sudo gitlab-ctl tail gitlab-workhorse/current
-```
+   ```bash
+   sudo gitlab-ctl tail gitlab-workhorse/current
+   ```
 
-Recent entries should indicate successful requests to Puma (i.e. when you reloaded GitLab in your web browser).
+   Recent entries should indicate successful requests to Puma (i.e. when you reloaded GitLab in your web browser).
 
 ### Task C. Troubleshoot Gitaly
 
@@ -136,15 +136,15 @@ Recent entries should indicate successful requests to Puma (i.e. when you reload
 
 1. SSH into your **GitLab Runner server**.
 
-```bash
-ssh -i <SSH_HOST_KEY>.pem ec2-user@<GITLAB_runner_host>
-```
+   ```bash
+   ssh -i <SSH_HOST_KEY> root@<GITLAB_runner_host>
+   ```
 
 1. Download Git if it is not already installed.
 
-```bash
-sudo dnf install -y git
-```
+   ```bash
+   sudo apt-get install -y git
+   ```
 
 1. Back on GitLab's **Test project**, select **Clone** on the right side of the page.
 
@@ -152,51 +152,51 @@ sudo dnf install -y git
 
 1. From your GitLab Runner server, clone the repository.
 
-```bash
-git clone <URL_copied_from_previous_step>
-```
+   ```bash
+   git clone <URL_copied_from_previous_step>
+   ```
 
 1. Verify the project is correctly cloned.
 
-```bash
-cd ~/test-project
-ls -a
-git status
-```
+   ```bash
+   cd ~/test-project
+   ls -a
+   git status
+   ```
 
 1. Enter `exit` to exit the SSH session on your GitLab Runner server.
 
 1. Open an SSH session on your **GitLab Omnibus instance**.
 
-```bash
-ssh -i <SSH_HOST_KEY>.pem ec2-user@<GITLAB_OMNIBUS_HOST>
-```
+   ```bash
+   ssh -i <SSH_HOST_KEY> root@<GITLAB_OMNIBUS_HOST>
+   ```
 
 1. Verify Gitaly is running.
 
-```bash
-sudo gitlab-ctl status gitaly
-```
+   ```bash
+   sudo gitlab-ctl status gitaly
+   ```
 
 1. View Gitaly logs.
 
-```bash
-sudo gitlab-ctl tail gitaly
-```
+   ```bash
+   sudo gitlab-ctl tail gitaly
+   ```
 
-> You should see many recent gRPC requests relating to **Test Project** (you can see the references more clearly if you grep the output, e.g. `sudo gitlab-ctl tail gitaly | grep test-project`).
+   > You should see many recent gRPC requests relating to **Test Project** (you can see the references more clearly if you grep the output, e.g. `sudo gitlab-ctl tail gitaly | grep test-project`).
 
 1. Stop Gitaly services.
 
-```bash
-sudo gitlab-ctl stop gitaly
-```
+   ```bash
+   sudo gitlab-ctl stop gitaly
+   ```
 
 1. Verify Gitaly (and only Gitaly) is stopped.
 
-```bash
-sudo gitlab-ctl status
-```
+   ```bash
+   sudo gitlab-ctl status
+   ```
 
 1. Navigate back to **Test Project** in your web browser. On the project page select the dropdown that says **main** under the project title. Ordinarily you would be able to select a Git branch to switch to. Now you see an error and the branch list will not load.
 
@@ -208,55 +208,55 @@ sudo gitlab-ctl status
 
 1. Return to your GitLab instance SSH session. Check Gitaly's recent log entries.
 
-```bash
-sudo gitlab-ctl tail gitaly/current
-```
+   ```bash
+   sudo gitlab-ctl tail gitaly/current
+   ```
 
-> Note the many errors in the log output.
+   > Note the many errors in the log output.
 
 1. Enter `exit` to exit the SSH session on your GitLab Instance server.
 
 1. SSH back into your **GitLab Runner server**.
 
-```bash
-ssh -i <SSH_HOST_KEY>.pem ec2-user@<GITLAB_RUNNER_HOST>
-```
+   ```bash
+   ssh -i <SSH_HOST_KEY> root@<GITLAB_RUNNER_HOST>
+   ```
 
 1. Navigate into your cloned **Test Project**.
 
-```bash
-cd ~/test-project
-```
+   ```bash
+   cd ~/test-project
+   ```
 
 1. Try to fetch any new changes from the remote repo on the GitLab instance.
 
-```bash
-git fetch
-```
+   ```bash
+   git fetch
+   ```
 
-> You may see error 503 in the output, indicating Gitaly is not reachable and can not handle the request.
+   > You may see error 503 in the output, indicating Gitaly is not reachable and can not handle the request.
 
 1. Enter `exit` to exit the SSH session on your GitLab Runner server.
 
 1. Re-initiate an SSH session on your **GitLab Omnibus instance**.
 
-```bash
-ssh -i <SSH_HOST_KEY>.pem ec2-user@<GITLAB_OMNIBUS_HOST>
-```
+   ```bash
+   ssh -i <SSH_HOST_KEY> root@<GITLAB_OMNIBUS_HOST>
+   ```
 
 1. Restart Gitaly services.
 
-```bash
-sudo gitlab-ctl start gitaly
-```
+   ```bash
+   sudo gitlab-ctl start gitaly
+   ```
 
 1. Check Gitaly logs.
 
-```bash
-sudo gitlab-ctl tail gitaly/current
-```
+   ```bash
+   sudo gitlab-ctl tail gitaly/current
+   ```
 
-> The output should now show successful gRPC requests.
+   > The output should now show successful gRPC requests.
 
 1. Return to **Test Project** in your web browser. Refresh the page. You should now be able to navigate around the repository, view files, and check out branches.
 
@@ -298,4 +298,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ### Suggestions?
 
-If you’d like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.
+If you'd like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.

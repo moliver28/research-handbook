@@ -3,7 +3,6 @@ title: "GitLab System Administration - Hands-on Lab: Configure GitLab Runners"
 description: "This Hands-On Guide walks you through installing and managing a GitLab Runner on a virtual machine."
 ---
 
-
 > Estimated time to complete: 40 minutes
 
 ## Objectives
@@ -15,7 +14,7 @@ The objective of this lab is to demonstrate how to create and register a GitLab 
 1. Use your assigned IP address and SSH key file to log into your **GitLab Runner** server (*not* your Omnibus server).
 
     ```bash
-    ssh -i <YOUR_ASSIGNED_SSH_KEYFILE> ec2-user@<YOUR_RUNNER_SERVER_PUBLIC_IP>
+    ssh -i <YOUR_ASSIGNED_SSH_KEYFILE> root@<YOUR_RUNNER_SERVER_PUBLIC_IP>
     ```
 
 1. If your system displays an authentication warning, type `yes` and press <kbd>Enter</kbd>
@@ -23,24 +22,24 @@ The objective of this lab is to demonstrate how to create and register a GitLab 
 1. Add the GitLab Runner installation repository.
 
     ```bash
-    curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh" | sudo bash
+    curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
     ```
 
 1. Install the GitLab Runner agent.
 
-  ```bash
-  sudo dnf install -y gitlab-runner
-  ```
+    ```bash
+    sudo apt-get install -y gitlab-runner
+    ```
 
 1. Once the install completes, check that the service is running.
 
-  ```bash
-  sudo gitlab-runner status
-  ```
+    ```bash
+    sudo gitlab-runner status
+    ```
 
 ### Task B. Register a runner with GitLab
 
-1. Sign into your GitLab instance with a web browser and select **Menu > Admin Area**.
+1. Sign into your GitLab instance with a web browser and select **Admin Area** from the left sidebar.
 
 1. In the left sidebar, under **CI/CD**, select **Runners**.
 
@@ -51,6 +50,8 @@ The objective of this lab is to demonstrate how to create and register a GitLab 
     > This will allow the runner to pick up any jobs rather than just jobs with specific tags.
 
 1. Leave all other options as default and select **Create runner**.
+
+1. Ensure that **Linux** is selected as the **Operating system** for the runner.
 
 1. Copy the command in **Step 1**, and add `sudo` in front of the command. Run it in your command prompt.
 
@@ -64,7 +65,7 @@ The objective of this lab is to demonstrate how to create and register a GitLab 
 
 1. Run `sudo gitlab-runner list` to verify the runner after registration.
 
-1. Return to your web browser and select **Go to runners page**. Verify the runner you registered appears in the list and shows as online.
+1. Return to your web browser and select **View runners**. Verify the runner you registered appears in the list and shows as online.
 
 ### Task C. Test the runner with a CI/CD pipeline
 
@@ -86,21 +87,21 @@ The objective of this lab is to demonstrate how to create and register a GitLab 
 
 1. Paste the following code into the body of the file.
 
-  ```yml
-  stages:
-    - build
-    - test
+    ```yml
+    stages:
+      - build
+      - test
 
-  build_app:
-    stage: build
-    script:
-      - echo "The build stage requires at least one job"
+    build_app:
+      stage: build
+      script:
+        - echo "The build stage requires at least one job"
 
-  test_app:
-    stage: test
-    script:
-      - echo "The test stage requires at least one job"
-  ```
+    test_app:
+      stage: test
+      script:
+        - echo "The test stage requires at least one job"
+    ```
 
 1. Select **Commit changes**.
 
@@ -116,4 +117,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ### Suggestions?
 
-If you’d like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.
+If you'd like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.

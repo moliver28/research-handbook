@@ -1,13 +1,6 @@
 ---
-
 title: Incubation Engineering Offsites
 ---
-
-
-
-
-
-
 
 ## Incubation Engineering Offsites
 
@@ -21,7 +14,7 @@ Post-event retrospectives were held to help the team reflect on the offsite.
 
 * Bartek
   * Good
-    * Team enjoyed meeting each other, and I could see lots of conversations on overlap between different SEG’s.
+    * Team enjoyed meeting each other, and I could see lots of conversations on overlap between different SEG's.
     * Great retrospectives from each team member on the challenges they faced in Incubation Engineer, all unique and helpful to the wider audience.
     * In budget!
   * Bad

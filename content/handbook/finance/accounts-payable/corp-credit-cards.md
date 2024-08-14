@@ -7,12 +7,12 @@ decription: >-
 ## 1. POLICY
 
 - The purpose of this Navan Physical Card policy is to facilitate purchases necessary for the company operations and expedite the process in an efficient manner.
-- The introduction of this mode of payment is not to override the procedures set forth in the Company’s Procurement Policy, but to provide an alternative method of purchase for lower cost necessary goods and services.
+- The introduction of this mode of payment is not to override the procedures set forth in the Company's Procurement Policy, but to provide an alternative method of purchase for lower cost necessary goods and services.
 - This policy intends to ensure that Navan Physical Cards are used for appropriate business purposes and that adequate controls are installed for regular use.
 
 **This policy applies to**:
 
-- Ad hoc Vendor’s & less than $5,000 USD for the transaction.
+- Ad hoc Vendor's & less than $5,000 USD for the transaction.
 - In case of transactions where the vendor only accepts credit card payments.
 
 **Please note that the policy restricts the use of the card**:
@@ -20,16 +20,16 @@ decription: >-
 - To bypass the GitLab Procurement process.
 - For any charges above 5,000 USD; as they must submit through Zip for procurement processing.
 - For any items already noted as not permissible per the Expense policy (ie. software).
-- For the additional items noted as “non-permissible” and should be personally expensed that are listed  below in section 4.
+- For the additional items noted as "non-permissible" and should be personally expensed that are listed  below in section 4.
 
-To ensure good financial management and sound corporate governance, cards are only provided to team members under their name, and with the request/approval of the Direct Manager, and Chief Accounting Officer’s final approval. These approvals are documented in an issue for tracking purposes.
+To ensure good financial management and sound corporate governance, cards are only provided to team members under their name, and with the request/approval of the Direct Manager, and Chief Accounting Officer's final approval. These approvals are documented in an issue for tracking purposes.
 
 ## 2. General Guidelines
 
 - All card charges require a receipt, with exception of US team members in which receipts are required for
 anything over $50.   You can add the receipt once the charge reflects in Navan Cards, and in any event within 30 days.
 - If a card holder is missing a receipt, a Missing Receipt Affidavit will need to be completed and attached to the expense.  Note: Missing Receipt Affidavit should be attached as a PDF.
-- Ensure to use the appropriate Expense type for proper allocation. If the expense type is not on the list, you may use the “Other” category and add any supporting details in the description field.
+- Ensure to use the appropriate Expense type for proper allocation. If the expense type is not on the list, you may use the "Other" category and add any supporting details in the description field.
 - If applicable, add expense tags under "Classifications" to the related purchase. Common expense tag examples include company Contributes, marketing campaigns and professional service engagements.
 - Non-Permissible items will be flagged upon charge. Please ensure to only use the card for items under permissible items only.
 - Purchases on your card should not exceed $5,000 USD for each transaction.
@@ -52,7 +52,7 @@ anything over $50.   You can add the receipt once the charge reflects in Navan C
 - Gifts can be purchased for significant life events up to $125 USD.
 - Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as the birth of a little one; well wishes ahead of surgery, or the loss of a loved one.
 - Managers can facilitate the ordering of Flowers or Gifts for delivery.
-- Executive Business Assistant’s are permitted to purchase gifts for team member significant life events on behalf of their managers.  An email or Slack pre-approval from their manager must be attached to the expense to be reimbursed.
+- Executive Business Assistant's are permitted to purchase gifts for team member significant life events on behalf of their managers.  An email or Slack pre-approval from their manager must be attached to the expense to be reimbursed.
 - Gift cards for Team members are not allowed for these gifts.
 - Please reference the [Gift Handbook Page](/handbook/people-group/celebrations).
 - Note that these Expenses are tracked by department, thus whoever submits these expenses must be in the same department as the team member the gift pertains to.
@@ -147,7 +147,7 @@ Along with any charges that are over $5,000 USD (or equivalent local currency) t
 
 ## 5. Out of Policy Transactions
 
-- Expenses flagged as “Out of Policy” does not necessarily mean it is “out of policy”- it can also mean that certain expenses require additional review due to requiring certain attachments (ie an approved issue) and approvals.
+- Expenses flagged as "Out of Policy" does not necessarily mean it is "out of policy"- it can also mean that certain expenses require additional review due to requiring certain attachments (ie an approved issue) and approvals.
 Upon review, if more clarification is needed for a certain expense, the AP team will contact the team member in the Navan tool to ask for justification of the transaction before approving or rejecting the expense.
 - If the claim is over the advised guidance, an approval will be required from the VP Corporate Controller.
 - Where the team member has already received approval from the manager, that approval should be attached as a receipt on the claim transaction.
@@ -156,8 +156,8 @@ Upon review, if more clarification is needed for a certain expense, the AP team 
 
 ## 6. Manager Expectations
 
-- Managers are expected to review their team’s expenses in their entirety every month, and must flag any concerns immediately to the Accounts Payable team.
-- Managers will be required to sign off on a quarterly issue that they have reviewed their team’s expenses
+- Managers are expected to review their team's expenses in their entirety every month, and must flag any concerns immediately to the Accounts Payable team.
+- Managers will be required to sign off on a quarterly issue that they have reviewed their team's expenses
 - Managers will be held accountable for any unreported abuse of their team members.
 - Managers must be aware of the policy guidance and advise the team members as such when requests for purchase are made.
 - AP will flag Managers if further information is required for their direct reports.
@@ -190,13 +190,13 @@ Upon review, if more clarification is needed for a certain expense, the AP team 
 
 ### 8.3 Credit Card Misuse
 
-- An authorized user must follow GitLab’s Code of Business Conduct and Ethics as these cards are considered GitLab Property.
+- An authorized user must follow GitLab's Code of Business Conduct and Ethics as these cards are considered GitLab Property.
 - Any reports with continuous violations to our policy will be subject to management review and could be taken away for non-compliance.
 - A cardholder must detail any disputed transaction in writing to expenses@gitlab.com with a copy to the issuing bank to resolve any disputes. The cardholder must ensure that a refund, if processed, should be in favor of GitLab.
 
 ### 8.4 Card Lost or Stolen
 
-- It is the cardholder’s responsibility to always safeguard the Navan Physical card and Navan Physical card account number and/or security number.
+- It is the cardholder's responsibility to always safeguard the Navan Physical card and Navan Physical card account number and/or security number.
 - Cards that are lost or stolen must be reported immediately by the cardholder to the AP Analyst who will take appropriate steps to cancel it.
 - At the earliest opportunity, a written notification must also be given to Expenses@GitLab.com  and Card administrator so that the cancellation of the card may be confirmed and a reconciliation of the card account from the date the card was lost or stolen may be performed.
 

@@ -25,7 +25,6 @@ domain_expertise.yml \
 entity_mapper.yml \
 features.yml \
 jobs_to_be_done.yml \
-people_group/people_business_partners.yml \
 pricing_themes.yml \
 projects.yml \
 release_post_managers.yml \

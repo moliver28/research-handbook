@@ -7,14 +7,14 @@ Frontend Engineers at GitLab work on our product. This includes both the open so
 ## Responsibilities
 
 - Develop features and improvements to the GitLab product in a secure, well-tested, and performant way
-- You’ll work with Product Management and other stakeholders (Backend, UX, etc.) to iterate on new features within the GitLab product.
+- You'll work with Product Management and other stakeholders (Backend, UX, etc.) to iterate on new features within the GitLab product.
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
 - Consistently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 - Help improve the overall experience of our product through improving the quality of the Frontend features both in your [group](/handbook/product/categories/#hierarchy) and features that benefit other groups.
-- You’ll help identify areas of improvements in the code base, both specific to your [group](/handbook/product/categories/#hierarchy) and outside your group (eg. component library) and help contribute to make it better
-- You’ll learn, collaborate and teach other Frontend Engineers. Everyone can contribute something new to the team regardless of how long they’ve been in the industry.
-- You’ll fix prioritized issues from the issue tracker. These are typically bugs listed in a GitLab issue with an attached severity and priority label.
-- You’ll contribute to and follow our workflow process, alongside the rest of the Frontend Engineers and the GitLab community as a whole.
+- You'll help identify areas of improvements in the code base, both specific to your [group](/handbook/product/categories/#hierarchy) and outside your group (eg. component library) and help contribute to make it better
+- You'll learn, collaborate and teach other Frontend Engineers. Everyone can contribute something new to the team regardless of how long they've been in the industry.
+- You'll fix prioritized issues from the issue tracker. These are typically bugs listed in a GitLab issue with an attached severity and priority label.
+- You'll contribute to and follow our workflow process, alongside the rest of the Frontend Engineers and the GitLab community as a whole.
 
 ## Requirements
 

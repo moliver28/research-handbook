@@ -1,16 +1,10 @@
 ---
-
 title: Team Member Social Media Policy
 description: This is the GitLab employee social media policy
 twitter_image: "/images/opengraph/handbook/social-marketing/team-member-social-media-policy.png"
 twitter_image_alt: GitLab Social Media Policy
 
 ---
-
-
-
-
-
 
 ## Introduction
 
@@ -96,7 +90,7 @@ If it's written in a blog, presented at a public conference, or simply on GitLab
 - Positive news media that mentions GitLab and is shared in the #newswire Slack channel (team member adds no commentary/copy to the post) or is available to share in the social media advocacy tool (with commentary/copy to share)
 - Industry reports that are publicly available and are ungated
 - Videos from either our [brand](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg) or [Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) YouTube Channels
-- Third-party articles that don’t bash competitors (mentioning them or comparing GitLab and competitors is fine)
+- Third-party articles that don't bash competitors (mentioning them or comparing GitLab and competitors is fine)
 - Retweeting or sharing GitLab brand social channel posts from [Twitter](https://twitter.com/gitlab), [LinkedIn](https://www.linkedin.com/company/gitlab-com/), [Facebook](https://www.facebook.com/gitlab/), or [Instagram](https://www.instagram.com/gitlab/)
 - All of the above from our eco and alliance partners
 - Items that are not connected to your job or GitLab at all! Social Media is best when you bring your true-self to the mix. DevOps isn't the only thing you're interested in, so consider posting about other passions and topics.
@@ -117,8 +111,8 @@ _Click each recommendation below for more details_
   </summary>
 
 <ul>
-<li>Forward-looking statements predict, project, or use future events as expectations or possibilities. Team Members mustn't speculate or add forward-looking statements to their opinions written on social media. Forward-looking statements could include company valuation, details on customer volume, subscription growth, and more. This would include forecasting, or when data is presented to argue for or against future trends. Sometimes an article from a news source will use speculative information in their story. While this is okay to share, it is not okay to share your commentary with speculative information. Not sure if it's public? Ask in the #safe Slack channel or <a href="https://about.gitlab.com/handbook/legal/safe-framework/">review the SAFE handbook page</a>.</li>
-<li><b>Some language idicators that you're talking about forward-looking statements would be using one of the following words: “will,” “may,” “should,” “expects,” “intends,” “plans,” “aims,” “anticipates,” “believes,” “estimates,” “predicts,” “potential,” "looking to," or “continue,”.</b></li>
+<li>Forward-looking statements predict, project, or use future events as expectations or possibilities. Team Members mustn't speculate or add forward-looking statements to their opinions written on social media. Forward-looking statements could include company valuation, details on customer volume, subscription growth, and more. This would include forecasting, or when data is presented to argue for or against future trends. Sometimes an article from a news source will use speculative information in their story. While this is okay to share, it is not okay to share your commentary with speculative information. Not sure if it's public? Ask in the #safe Slack channel or <a href="https://handbook.gitlab.com/handbook/legal/safe-framework/">review the SAFE handbook page</a>.</li>
+<li><b>Some language idicators that you're talking about forward-looking statements would be using one of the following words: "will," "may," "should," "expects," "intends," "plans," "aims," "anticipates," "believes," "estimates," "predicts," "potential," "looking to," or "continue,".</b></li>
 </ul>
 
 </details>
@@ -128,7 +122,7 @@ _Click each recommendation below for more details_
     Don't share customer or Team Member personal information
   </summary>
 
-Team Members are prohibited from using social media to post or display comments about co-workers or supervisors/managers of GitLab that are knowingly false, vulgar, obscene, threatening, intimidating, disparages GitLab's products or services, depicts the team member engaging in conduct that is unlawful or in violation of GitLab’s workplace policies against workplace violence or discrimination and harassment based on any protected status under federal, state or local law. Allow the team member(s) to own the decision on what is and isn't public about them.
+Team Members are prohibited from using social media to post or display comments about co-workers or supervisors/managers of GitLab that are knowingly false, vulgar, obscene, threatening, intimidating, disparages GitLab's products or services, depicts the team member engaging in conduct that is unlawful or in violation of GitLab's workplace policies against workplace violence or discrimination and harassment based on any protected status under federal, state or local law. Allow the team member(s) to own the decision on what is and isn't public about them.
 
 For customers, any [customer with a published case study](https://about.gitlab.com/customers/) is available to share publicly. If you would like to share information about a customer please reach out to the customer reference team first before sharing any content on social media.
 
@@ -153,11 +147,11 @@ Never share anything to do with a legal issue, legal case, or attorneys without 
     Don't share confidential information
   </summary>
 <ul>
-<li>Don't share information that is considered personal or GitLab proprietary confidential. If it's related to work in an issue, consider reviewing whether or not the issue was made confidential. It is inappropriate to use or disclose confidential personal information about another individual or use or disclose GitLab’s proprietary confidential information in any form of social media.</li>
+<li>Don't share information that is considered personal or GitLab proprietary confidential. If it's related to work in an issue, consider reviewing whether or not the issue was made confidential. It is inappropriate to use or disclose confidential personal information about another individual or use or disclose GitLab's proprietary confidential information in any form of social media.</li>
 
-<li>Confidential personal information refers to information that could be used to commit identity theft such as an individual's Social Security Number, financial account numbers, driver’s license number or personal medical information (including family medical history).</li>
+<li>Confidential personal information refers to information that could be used to commit identity theft such as an individual's Social Security Number, financial account numbers, driver's license number or personal medical information (including family medical history).</li>
 
-<li>GitLab’s proprietary confidential information refers to internal information regarding GitLab’s finances, future business performance and business plans, business and brand strategies and information which is or relates to GitLab’s trade secrets.</li>
+<li>GitLab's proprietary confidential information refers to internal information regarding GitLab's finances, future business performance and business plans, business and brand strategies and information which is or relates to GitLab's trade secrets.</li>
 </ul>
 
 </details>
@@ -210,7 +204,7 @@ Never share anything to do with a legal issue, legal case, or attorneys without 
 
 ### Connecting with Team Members on Social Media
 
-In case you want to connect with fellow team members of GitLab on social media, you have to keep it professional. With this communication, we would like you to consider GitLab’s [Communication Guidelines](/handbook/communication/) at all times. Aligned with our [Anti-Harassment Policy](/handbook/people-group/anti-harassment/), it is expected that everyone will contribute to an inclusive and collaborative working environment and respect each other at all times.
+In case you want to connect with fellow team members of GitLab on social media, you have to keep it professional. With this communication, we would like you to consider GitLab's [Communication Guidelines](/handbook/communication/) at all times. Aligned with our [Anti-Harassment Policy](/handbook/people-group/anti-harassment/), it is expected that everyone will contribute to an inclusive and collaborative working environment and respect each other at all times.
 
 ### Mimicking the GitLab brand
 
@@ -228,7 +222,7 @@ As part of your role at GitLab, you may be responsible for a contest or a sweeps
 
 ### Follow website terms of use
 
-Most social media websites/services have rules concerning the use of and activity conducted on their sites. These are sometimes referred to as “Terms of Use.” Team Members must follow the established terms and conditions of use that have been established by the website, social media network, or channel and not do anything that would violate those rules.
+Most social media websites/services have rules concerning the use of and activity conducted on their sites. These are sometimes referred to as "Terms of Use." Team Members must follow the established terms and conditions of use that have been established by the website, social media network, or channel and not do anything that would violate those rules.
 
 ## Ramifications of not following the social media policy
 

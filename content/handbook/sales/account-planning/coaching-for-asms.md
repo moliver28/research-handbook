@@ -3,12 +3,6 @@ aliases: /handbook/sales/account-planning/coaching
 title: "Coaching Account Planning for ASMs"
 ---
 
-
-
-
-
-
-
 ## Overview
 
 It is essential that Area Sales Managers (ASMs) support the Account Planning and Gainsight initiative with their teams. Below are the key messages that will need to be reinforced.

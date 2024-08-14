@@ -1,14 +1,7 @@
 ---
-
 title: "Using Issue Prioritization Dashboard as a CSM"
 description: "The key aspects of how Customer Success Managers use Sisense Issue Prioritization Dashboard to drive success for customers."
 ---
-
-
-
-
-
-
 
 The Customer Prioritization Framework is currently an MVC and in its initial pilot phase.** Work in progress can be seen on the [WG:Prioritization Framework issue board](https://gitlab.com/groups/gitlab-com/-/boards/2086332?label_name[]=wg%3Aprioritization%20framework). For any questions or to collaborate, feel reach out to DRI `@gweaver` or join the [ongoing bi-weekly sync](https://docs.google.com/document/d/1oBWNxBSOJKrh3ubHwN5pI8243vBjJ-Y_Cax17A5abII/)
 
@@ -16,7 +9,7 @@ The Customer Prioritization Framework is currently an MVC and in its initial pil
 
 ## Dashboard
 
-The [issue prioritization dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/970772/User-Request-Issue-Prioritization---CSM-Customer-View) is located in Sisense. The data is aggregated from the [feedback template](/handbook/product/how-to-engage/#feedback-template) used when a customer or prospect has expressed interest in a feature.
+The [issue prioritization dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/970772/User-Request-Issue-Prioritization---CSM-Customer-View) is located in Sisense. The data is aggregated from the [feedback template](/handbook/product/product-management/#feedback-template) used when a customer or prospect has expressed interest in a feature.
 
 ## How CSMs use the dashboard
 

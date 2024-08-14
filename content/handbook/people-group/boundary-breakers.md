@@ -31,7 +31,7 @@ Following the workshop, participants will begin an 8 week program including:
 
 ## Topics
 
-| Week | Lesson Title | What you’ll learn |
+| Week | Lesson Title | What you'll learn |
 | ----- | ----- | ---------- |
 | 1 | Start with Self | Recognize what you need to show up as your best self at work. Discuss emotionally fit leadership and learn steps to improve your own resilience.|
 | 2 | Start with Self | Set and maintain boundaries; Apply a sense of curiosity to your role as a manager.|

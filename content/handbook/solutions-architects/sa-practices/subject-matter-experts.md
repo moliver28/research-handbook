@@ -1,5 +1,4 @@
 ---
-
 title: Solutions Architects - Subject Matter Experts
 ---
 

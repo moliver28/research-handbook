@@ -6,11 +6,9 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-## Overview
+## Overview {#overview}
 
-{: #overview .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
----
 
 External virtual events are, by definition, not owned and hosted by GitLab. They are hosted by an external third party (i.e. a partner or paid vendor). The goal of external virtual events is to drive net new leads, and we do not promote to our internal database. The various types of external virtual events are below, and involve epic and issue creation, designation of DRIs, and workback schedule definition within the issue due dates.
 
@@ -20,32 +18,28 @@ External virtual events are, by definition, not owned and hosted by GitLab. They
 * [Executive Roundtable](/handbook/marketing/virtual-events/external-virtual-events/#executive-roundtables):  hosted on an external vendor platform, this is a gathering of high level CxO attendees run as an open discussion between the moderator/host, GitLab expert and delegates. There usually aren't any presentations, but instead a discussion where anyone can chime in to speak. The host would prepare questions to lead discussion topics and go around the room asking delegates questions to answer. The goal of an executive roundtable is net new leads - we do not promote to our existing database as it is a paid activity.
 * [Vendor Arranged Meetings](/handbook/marketing/virtual-events/external-virtual-events/#vendor-arranged-meetings): hosted by an external vendor, the vendor organizes one-to-one meetings with prospect or customer accounts. This does not include meetings set internally by GitLab team members. An example would be a "speed dating" style meeting setup where a vendor organizes meetings with prospects of interest to GitLab. The goal of a venor arranged meeting is to generate meetings with accounts of interest that we are finding challenging to break into directly - we do not promote to our existing database as it is a paid activity.
 
-## Partner Webinars
+## Partner Webinars {#partner-hosted-webinars}
 
-{: #partner-hosted-webinars .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
----
 
 *A parter-hosted webinar is hosted by the partner, with the goal of driving net new leads. The partner is responsible for driving registration, moderating and hosting the webinar on their platform, and, in some cases, delivering a lead list after the event. The project owner (Partner Marketing) is responsible for creating the epic and related issue creation, and keeping timelines and DRIs up-to-date.*
 
-### How to request Partner Marketing support
+### How to request Partner Marketing support {#partner-hosted-webinar-requesting-support}
 
-{: #partner-hosted-webinar-requesting-support}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 CAMs and Alliance Managers should use this [issue template](https://gitlab.com/gitlab-com/marketing/partner-marketing/-/issues/new) to request Channel Marketing support for their planned event or webinar.
 
-#### How to view triage board of Partner Marketing Requests
+#### How to view triage board of Partner Marketing Requests {#partner-hosted-webinar-triage-board}
 
-{: #partner-hosted-webinar-triage-board}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 [View Board](https://gitlab.com/groups/gitlab-com/-/boards/1779611?label_name[]=Channel&label_name[]=Channel%20Marketing)
 
-### Process in GitLab to organize epic & issues
+### Process in GitLab to organize epic & issues {#partner-hosted-webinar-project-management}
 
-{: #partner-hosted-webinar-project-management}
 <!-- DO NOT CHANGE THIS ANCHOR -->
+
 The project owner is responsible for following the steps below to create the epic and related issues in GitLab.
 
 1. Project owner creates the epic to house all related issues (code below)
@@ -55,9 +49,8 @@ The project owner is responsible for following the steps below to create the epi
 
 *Note: if the date of the tactic changes, the project owner is responsible for changing the due dates of all related issues to match the new date, and alerting the team members involved.*
 
-### Epic code and issue templates
+### Epic code and issue templates {#partner-hosted-webinar-epic-code}
 
-{: #partner-hosted-webinar-epic-code}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ```markdown
@@ -71,11 +64,11 @@ The project owner is responsible for following the steps below to create the epi
 ## :notepad_spiral: Key Details
 * **Slack channel:** <!-- add slack channel # -->
 * **[Meeting Notes]()** <!-- to be added by Partner Marketing -->
-* **Speaker(s) and Moderator:** <!-- add gitlab handle and company -->
-* **CAM:** <!-- add gitlab handle -->
-* **Partner Marketing DRI:** <!-- add gitlab handle -->
-* **Other GitLab Sponsors:** <!-- add gitlab handle(s) -->
-* **Partner's Marketing Liaison:** <!-- add gitlab handle / name -->
+* **Speaker(s) and Moderator:** <!-- add GitLab handle and company -->
+* **CAM:** <!-- add GitLab handle -->
+* **Partner Marketing DRI:** <!-- add GitLab handle -->
+* **Other GitLab Sponsors:** <!-- add GitLab handle(s) -->
+* **Partner's Marketing Liaison:** <!-- add GitLab handle / name -->
 * **Marketo Program Type:** Webinar (Partner)
 * **Organizer/Webinar hosting:** <!-- add who is hosting the webinar -->
 * **Landing Page/Registration URL:**
@@ -102,7 +95,9 @@ The project owner is responsible for following the steps below to create the epi
 
 ## :books: Tasks and Issues Created and Linked to Epic
 
-## If GitLab is hosting, follow [Webcast process in handbook](/handbook/marketing/virtual-events/webcasts/#partner-webcasts)
+## If GitLab is hosting
+
+Follow [Webcast process in handbook](/handbook/marketing/virtual-events/webcasts/#partner-webcasts)
 
 ## General Checklist
 - [ ] Make sure partner is adhering to the GitLab Branding guides and logo usage
@@ -140,18 +135,16 @@ Leave Opt-In empty if no other option is available
 
 ```
 
-## Sponsored Webinars
+## Sponsored Webinars {#sponsored-webinars}
 
-{: #sponsored-webinars .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
----
 
 *A sponsored webcast is hosted on an external vendor platform (i.e. DevOps.com); this is a paid tactic. The vendor is responsible for driving registration, moderating and hosting the webinar on their platform, and delivering a lead list after the event. The goal of a sponsored webinar is net new leads - we do not promote to our existing database as it is a paid activity.*
 
-### Process in GitLab to organize epic & issues
+### Process in GitLab to organize epic & issues {#sponsored-webinar-project-management}
 
-{: #sponsored-webinar-project-management}
 <!-- DO NOT CHANGE THIS ANCHOR -->
+
 The project owner is responsible for following the steps below to create the epic and related issues in GitLab.
 
 1. Project owner (FMM) creates the main tactic issue
@@ -162,9 +155,8 @@ The project owner is responsible for following the steps below to create the epi
 
 *Note: if the date of the tactic changes, the project owner is responsible for changing the due dates of all related issues to match the new date, and alerting the team members involved.*
 
-### Epic code and issue templates
+### Epic code and issue templates {#sponsored-webinar-epic-code}
 
-{: #sponsored-webinar-epic-code}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ```markdown
@@ -172,7 +164,7 @@ The project owner is responsible for following the steps below to create the epi
 
 ## [Main Issue >>]()
 
-## [Copy document >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy document >>]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## :notepad_spiral: Key Details
 * **Project Owner:**
@@ -226,11 +218,9 @@ Add the team label to indicate the team running the event (Example: Field Market
 
 ☝️ *Note on campaign utm format: we avoid using special characters due to issues in the past passing UTMs from Bizible to SFDC, the basis for attribution reporting.*
 
-## Virtual Conferences
+## Virtual Conferences {#virtual-conferences}
 
-{: #virtual-conferences .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
----
 
 *A virtual conference is hosted on an external vendor platform; this is a paid tactic. GitLab pays a sponsorship fee to receive a virtual booth and often speaking session or panel presence. The goal of a sponsored virtual conference is net new leads - we do not promote to our existing database as it is a paid activity.*
 
@@ -238,9 +228,8 @@ This section is the responsibility of Corporate Events to keep up-to-date.
 
 **Presence of a virtual booth is a requirement for the virtual event to be considered a Virtual Conference.** [Link to Marketo program template that will be cloned.](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME7624A1)
 
-### Process in GitLab to organize epic & issues
+### Process in GitLab to organize epic & issues {#virtual-conference-project-management}
 
-{: #virtual-conference-project-management}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 The project owner is responsible for following the steps below to create the epic and related issues in GitLab.
@@ -253,9 +242,8 @@ The project owner is responsible for following the steps below to create the epi
 
 *Note: if the date of the tactic changes, the project owner is responsible for changing the due dates of all related issues to match the new date, and alerting the team members involved.*
 
-### Epic code and issue templates
+### Epic code and issue templates {#virtual-conference-epic-code}
 
-{: #virtual-conference-epic-code}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ```markdown
@@ -263,7 +251,7 @@ The project owner is responsible for following the steps below to create the epi
 
 ## [Main Issue >>]()
 
-## [Copy document >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy document >>]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## :notepad_spiral: Key Details
 * **Corp Events/Field Marketing Manager/Requester:**
@@ -376,7 +364,7 @@ Add the team label to indicate the team running the event (Example: Field Market
 
 ## [Landing Page >>]() - `to be added when live`
 
-## [Copy for landing page and emails >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy for landing page and emails >>]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## Event Details
 * `place details from the event issue here`
@@ -511,7 +499,7 @@ Needs updating to be confernece specific:
 
 #### Test your set up
 
-1. Submit a test lead using your gitlab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email from zoom.
+1. Submit a test lead using your GitLab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email from zoom.
 
 #### Sending follow up emails
 
@@ -537,7 +525,7 @@ Needs updating to be confernece specific:
 12. On the next screen (New Merge Request), add `WIP:` to the beginning of the title and add a quick description (`Add PathFactory link to LP for [webcast name] will suffice`).
 13. If you have merge access, assign Merge Request to yourself. If you don't have merge access, assign Merge Request to Jackie Gragnola or Agnes Oetama. Scroll down, check the box for `Delete source branch when merge request is accepted`.
 14. Click Submit Merge Request.
-15. You’ve now created the Merge Request.
+15. You've now created the Merge Request.
 16. **Login to Marketo.** Go to the webcast program and update the `{{my.ondemandUrl}}` token with the webcast PathFactory link.
 17. Go to the assets folder within your webcast program and update the `On-demand Autoresponder` email with relevant copies related to the webcast.
 18. Navigate to the `Viewed On Demand` Smart campaign within your webcast program.
@@ -546,17 +534,14 @@ Needs updating to be confernece specific:
 21. **Go back to your MR.** Once the pipeline passes and if everything looks okay in the review app remove WIP and merge (if you have merge access). If you don't have merge access, ping @jgragnola or @aoetama in the MR comment to merge.
 22. Add your webcast to the /resources page by following the instructions [outlined here](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/).
 
-## Executive Roundtables
+## Executive Roundtables {#executive-roundtables}
 
-{: #executive-roundtables .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
----
 
 *An executive roundtable is a gathering of high level CxO attendees run as an open discussion between the moderator/host, GitLab expert and delegates. There usually aren't any presentations, but instead a discussion where anyone can chime in to speak. The host would prepare questions to lead discussion topics and go around the room asking delegates questions to answer. The project owner (field marketing) is responsible for creating the epic and related issue creation, and keeping timelines and DRIs up-to-date. Mareting Ops is responsible for uploading the list to our database.*
 
-### Process in GitLab to organize epic & issues
+### Process in GitLab to organize epic & issues {#executive-roundtable-project-management}
 
-{: #executive-roundtable-project-management}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 The project owner is responsible for following the steps below to create the epic and related issues in GitLab.
@@ -569,9 +554,8 @@ The project owner is responsible for following the steps below to create the epi
 
 *Note: if the date of the tactic changes, the project owner is responsible for changing the due dates of all related issues to match the new date, and alerting the team members involved.*
 
-### Epic code and issue templates
+### Epic code and issue templates {#executive-roundtable-epic-code}
 
-{: #executive-roundtable-epic-code}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ```markdown
@@ -579,7 +563,7 @@ The project owner is responsible for following the steps below to create the epi
 
 ## [Main Issue >>]()
 
-## [Copy document >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy document >>]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## :notepad_spiral: Key Details
 * **Project Owner/Field Marketing Manager:**
@@ -618,17 +602,14 @@ The project owner is responsible for following the steps below to create the epi
 /label ~"mktg-status::wip" ~"Field Marketing" ~"Executive Roundtable"
 ```
 
-## Vendor Arranged Meetings
+## Vendor Arranged Meetings {#vendor-arranged-meetings}
 
-{: #vendor-arranged-meetings .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
----
 
 *A vendor arranged meeting is used for campaigns where a third party vendor is organizing one-to-one meetings with prospect or customer accounts, ideally connecting our team with target accounts that are challenging to set meetings with directly. This does not include meetings set internally by GitLab team members. An example would be a "speed dating" style meeting setup where a vendor organized meetings with prospects of interest to GitLab. The project owner (field marketing commonly) is responsible for creating the epic and related issue creation, and keeping timelines and DRIs up-to-date. Mareting Ops is responsible for uploading the list to our database.*
 
-### Process in GitLab to organize epic & issues
+### Process in GitLab to organize epic & issues {#vendor-arranged-meeting-project-management}
 
-{: #vendor-arranged-meeting-project-management}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 The project owner is responsible for following the steps below to create the epic and related issues in GitLab.
@@ -641,9 +622,8 @@ The project owner is responsible for following the steps below to create the epi
 
 *Note: if the date of the tactic changes, the project owner is responsible for changing the due dates of all related issues to match the new date, and alerting the team members involved.*
 
-### Epic code and issue templates
+### Epic code and issue templates {#vendor-arranged-meeting-epic-code}
 
-{: #vendor-arranged-meeting-epic-code}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ```markdown
@@ -651,7 +631,7 @@ The project owner is responsible for following the steps below to create the epi
 
 ## [Main Issue >>]()
 
-## [Copy document >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy document >>]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## :notepad_spiral: Key Details
 * **Project Owner:**
@@ -690,15 +670,14 @@ The project owner is responsible for following the steps below to create the epi
 /label ~"mktg-status::wip" ~"Field Marketing" ~"Vendor Arranged Meetings"
 ```
 
-## Actions after the external virtual event
+## Actions after the external virtual event {#post-external-virtual-event}
 
-{: #post-external-virtual-event .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-### Posting external virtual event recordings to youtube
+### Posting external virtual event recordings to youtube {#post-youtube}
 
-{: #post-youtube}
 <!-- DO NOT CHANGE THIS ANCHOR -->
+
 Follow this handbook documentation on how to [upload external webcast recordings](/handbook/marketing/marketing-operations/youtube/#uploading-conversations-to-youtube) to the [GitLab branded YouTube channel](/handbook/marketing/marketing-operations/youtube/#channels).
 
 **This process must be completed by the tactic owner.**
@@ -709,24 +688,23 @@ For immediate follow-up emails, it is recommended to point directly to the GitLa
 
 If an upload to Pathfactory (an addition to a track), is *required*, the tactiic owner must open a [Pathfactory Upload](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-upload) issue and **include the GitLab YouTube link**, as well as a [Pathfactory Track](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-track) issue to have the asset added to a track.
 
-### Gating external webcasts
+### Gating external webcasts {#post-gating}
 
-{: #post-gating}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### Posting external webcasts WITHOUT a tech/alliance partner
+#### Posting external webcasts WITHOUT a tech/alliance partner {#post-gating-non-alliance}
 
-{: #post-gating-non-alliance}
 <!-- DO NOT CHANGE THIS ANCHOR -->
+
 The recording meets all of the following criterias:
 
 1. Content solidifies GitLab use case or existing campaign messaging.
 2. Future gated page has an omni-channel (min 2, 1 out of the 2 has to be paid) promotion plans. The issue for the  promotion plans has to be linked to the gating request.
 
-#### Posting external webcasts WITH a tech/alliance partner
+#### Posting external webcasts WITH a tech/alliance partner {#post-gating-with-alliance}
 
-{: #post-gating-with-alliance}
 <!-- DO NOT CHANGE THIS ANCHOR -->
+
 The recording meets all of the following criterias:
 
 1. Select or High priority partner: Listed as high priority on the [Alliances Technology Dashboard](https://docs.google.com/spreadsheets/d/1-EE7vChGkDeyJxoM-LjVmUdwYwboxBmq8_42hjHGw_w/edit#gid=0) or is a Select channel partner.
@@ -737,4 +715,4 @@ OR
 
 Ungated video garners 550 youtube views within the first 7 days of posting.
 
-*Note: The 550 min threshold is based on the avg of top 10 videos on gitlab branded youtube channel between 8/11/20 - 8/18/20.*
+*Note: The 550 min threshold is based on the avg of top 10 videos on GitLab branded youtube channel between 8/11/20 - 8/18/20.*

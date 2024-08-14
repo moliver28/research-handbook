@@ -116,9 +116,9 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 | [How GitLab Offers a Space That Inspires Women to Shape The Future](https://builtin.com/articles/how-gitlab-offers-space-inspires-women-shape-future) | AI / Product |
 | [These Companies Are Taking an Intentional Approach to Artificial Intelligence](https://builtin.com/brand-studio/these-companies-are-taking-intentional-approach-artificial-intelligence?utm_source=bambu&utm_medium=social&utm_campaign=advocacy) | AI / Product |
 | [How Iteration drives innovation in our engineering org](https://about.gitlab.com/blog/2022/06/10/how-gitlab-iteration-value-drives-innovation-through-the-engineering-organization/) | Engineering |
-| [The Best Leadership Advice I Never Received](https://womeninsaleseverywhere.com/blog/author/meaghan-thatcher/) | Sales |
+| [The Best Leadership Advice I Never Received](https://www.womeninsaleseverywhere.com/blog/the-best-leadership-advice) | Sales |
 | [How GitLab's customer and partner focus fuels our culture](https://about.gitlab.com/blog/2022/05/03/how-gitlabs-customer-and-partner-focus-fuels-our-culture/) | Sales |
-| [How GitLab Enabled One Sales Pro to Build Her ‘Dream Life’](https://builtin.com/gitlab-enabled-one-sales-pro-build-her-dream-life?utm_source=linkedin&utm_medium=social_media&utm_campaign=gitlab) | Sales |
+| [How GitLab Enabled One Sales Pro to Build Her 'Dream Life'](https://builtin.com/gitlab-enabled-one-sales-pro-build-her-dream-life?utm_source=linkedin&utm_medium=social_media&utm_campaign=gitlab) | Sales |
 | [DEI Spotlight - Diversity, Equity, and Inclusion at GitLab](https://venturefizz.com/insights/dei-spotlight-diversity-equity-and-inclusion-gitlab) | General / DIB |
 | [GitLab is Changing the Look of DevOps and Remote Work, One Iteration at a Time](https://builtin.com/brand-studio/gitlab-changing-look-devops-remote-work?utm_source=linkedin&utm_medium=social_media&utm_campaign=gitlab) | General |
 | [The Most Rewarding Teams in Tech are Looking For Talent. Are You in?](https://builtin.com/job-search-recruiting/most-rewarding-teams-tech-looking-talent) | General |

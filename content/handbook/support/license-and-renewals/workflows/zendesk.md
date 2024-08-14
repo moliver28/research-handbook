@@ -14,7 +14,7 @@ Support Engineers that work on Licensing and Renewal (L&R) tickets should apply 
 
 1. [Selecting tickets](/handbook/support/workflows/working-on-tickets#selecting-tickets)
 1. [Assigning tickets](/handbook/support/workflows/working-on-tickets#assigning-tickets)
-1. Responding to next-to-breach ticket, both your own and [responding to other SEs tickets](/handbook/support/support-global-groups/sgg-faq#1-should-ses-respond-to-other-ses-tickets)
+1. Responding to next-to-breach tickets
 
 ### The workflow
 

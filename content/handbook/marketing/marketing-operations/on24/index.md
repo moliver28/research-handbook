@@ -41,7 +41,7 @@ The chart below outlines the user permissions for each role (Producer, Presenter
 | Advance slides | x | x |  |
 | Push poll questions to the audience | x | x |  |
 | Whiteboarding tools | x | x |  |
-| Screenshare | x | x |  |
+| Screen share | x | x |  |
 | Q&A | x | x | x |
 | Team chat | x | x | x |
 
@@ -187,7 +187,7 @@ Click the globe icon in your webcast library or on the chain icon anywhere in an
 The Console Builder is at the heart of creating a custom webcast experience for your audience. The webcast console is what your audience will see when they attend your webcast. We currently have 2 console templates:
 
 1. `Standard event template`, which includes a media player, slides, Q&A, resources, and speaker bio modules
-1. `XL Media Player`, which is a media player with no slides. This template should be used if your presenter prefers to screenshare their slides, as opposed to uploading their deck into a separate module. This console also includes Q&A, resources, and speaker bio modules
+1. `XL Media Player`, which is a media player with no slides. This template should be used if your presenter prefers to screen share their slides, as opposed to uploading their deck into a separate module. This console also includes Q&A, resources, and speaker bio modules
 Note we are sticking to using specific templates for the time being while we build out integrations and test platform capabilities vs team use case.
 
 Follow these steps to apply a console template:
@@ -309,7 +309,11 @@ In order to get `Q&A`, `poll` and `survey` data into Marketo from On24, a list u
     - For every poll or survey answer uploaded, be sure to include the question asked.
 1. To start, these will be treated the same as manual list uploads to be completed by MktgOps. Please follow the regular process of sharing the spreadsheet with MktgOps to have them upload via a list upload issue. Soon this will be moved to more of a drag-and-drop process, similar to the [self-service list import process](/handbook/marketing/marketing-operations/automated-list-import/). This page will be updated when that is ready.
 
-#### Field Matching Instructions for Marketing Ops
+#### Q&A Syncing into Salesforce
+
+After an [update from Q2 2024](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/8776#note_1944794265), Workato now automatically pulls Q&A data from On24 into Marketo, giving easier access for those interested in viewing conversations between GitLab staff and attendees from On24 events. 
+
+#### Field Matching Instructions for Marketing Ops (Outdated Upload Instructions)
 
 The smart campaign being used to compile the notes is found here: [Compile On24 fields into Last Event Notes](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC33343C3ZN19). This flow can only be triggered once per hour. The field matching for the upload spreadsheet is as follows:
 
@@ -326,8 +330,28 @@ The smart campaign being used to compile the notes is found here: [Compile On24 
 
 ### Reporting
 
-The On24 Engagement Score is an aggregate of all of the activities that an attendee could do while viewing on of your events.  It will give you an idea of how often the engagement tools you’ve added to the console of the event are being used.  Each individual attendee will have their own engagement score, and there is an average engagement score for your entire webcast program that is available on the Analytics Dashboard in the platform. Read more about Engagement Scores [here](https://support.on24.com/Support/s/article/Engagement-Score)
+The On24 Engagement Score is an aggregate of all of the activities that an attendee could do while viewing on of your events.  It will give you an idea of how often the engagement tools you've added to the console of the event are being used.  Each individual attendee will have their own engagement score, and there is an average engagement score for your entire webcast program that is available on the Analytics Dashboard in the platform. Read more about Engagement Scores [here](https://support.on24.com/hc/en-us/articles/21420782187163-Engagement-Score)
 
 ### ON24 FAQ
 
 The campaigns team has started a FAQ document [here](https://docs.google.com/document/d/1UI5EzypN1j6_Gx5xcM8mR2gKFcM9QFxs-OZwkpK0QDU/edit#). *Once it is completed, the text will be added to this page.
+
+### Fields That Sync Between On24 and Marketo
+
+Fields we have set up to directly sync between On24 and Marketo are as follows: 
+
+- First Name
+- Last Name
+- Company
+- Job Title
+- Address
+- City 
+- State
+- Postal Code
+- Country
+- Work Phone 
+- more tbd 
+
+### Data Removal Requests
+
+If a user requests we remove their data from On24, email `dsr@on24.com` with the request and On24 will manage the removal.

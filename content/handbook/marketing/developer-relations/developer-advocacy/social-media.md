@@ -1,15 +1,8 @@
 ---
-
 title: "Developer Advocacy on Social Media"
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/social-media/index.html
 ---
-
-
-
-
-
-
 
 ## Introduction
 
@@ -33,7 +26,7 @@ LinkedIn and Twitter are the target platforms. Both platforms have different tar
 
 > Wil Spillane in Slack:
 >
-> Tweets are more fleeting. I think a lot of folks choose to view tweets in reverse chronological order. For LinkedIn, the default is “top” posts and it’s not very visible to many to switch to “recent”. Also, LinkedIn shows posts with recent activity in the recent feed, not just the plain reverse chronological order that Twitter does. So in some ways, LinkedIn posts linger across feeds longer than a tweet.
+> Tweets are more fleeting. I think a lot of folks choose to view tweets in reverse chronological order. For LinkedIn, the default is "top" posts and it's not very visible to many to switch to "recent". Also, LinkedIn shows posts with recent activity in the recent feed, not just the plain reverse chronological order that Twitter does. So in some ways, LinkedIn posts linger across feeds longer than a tweet.
 
 Experimental platforms:
 
@@ -263,7 +256,7 @@ This strategy can help amplify impressions and build out thought leadership.
 - Adopt new ideas with live streaming or community coffee chats.
   - Engage community members in discussions.
 
-Example: Chromium build times discussion led to [Self-Managed GitLab with auto-scaling runners](https://twitter.com/dnsmichi/status/1351241954349223944) on Monday. On Wednesday, we decided to try it [live on YouTube](https://twitter.com/dnsmichi/status/1351944765697363974) in the [#everyonecancontribute cafe](https://www.youtube.com/watch?v=isKaBJ4VT24). Max wrote a [blog post](https://fotoallerlei.com/blog/post/2021/13-everyonecancontribute-cafe-autoscaling-gitlab-runners-on-hetzner-cloud/post) afterwards.
+Example: Chromium build times discussion led to [Self-Managed GitLab with auto-scaling runners](https://twitter.com/dnsmichi/status/1351241954349223944) on Monday. On Wednesday, we decided to try it [live on YouTube](https://twitter.com/dnsmichi/status/1351944765697363974) in the [#everyonecancontribute cafe](https://www.youtube.com/watch?v=isKaBJ4VT24). Max wrote a [blog post](https://fotoallerlei.com/blog/2020/autoscaling-gitlab-runners-on-hetzner-cloud/) afterwards.
 
 ### Build your Social Profile
 

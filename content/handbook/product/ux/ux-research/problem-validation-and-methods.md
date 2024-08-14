@@ -17,7 +17,7 @@ Problem validation research seeks to provide decision makers with a well underst
 
 Problem validation happens [earlier on in the product life cycle](/handbook/product/ux/ux-research/when-to-conduct-ux-research/#design-the-right-thingproblem-validation) when we want to get insight into a problem and scope down the focus of a problem.
 
-**Foundational research** is done when we don’t have a good understanding of what the problem is we need to solve. Often this occurs at the very beginning of the product design process. The purpose is to formulate a problem to solve and have a decent level of confidence that the problem is a relevant one.
+**Foundational research** is done when we don't have a good understanding of what the problem is we need to solve. Often this occurs at the very beginning of the product design process. The purpose is to formulate a problem to solve and have a decent level of confidence that the problem is a relevant one.
 
 **Descriptive and informative research** starts with a problem statement, which provides us a concrete problem to solve. This research is used to gain a better understanding of the context we are trying to solve for through our design and is imperative to fill the knowledge gaps of the solution environment by what our participants know.
 
@@ -29,7 +29,7 @@ When you are conducting a problem validation research effort, make sure to apply
 
 - Is there a problem? If so, what is it?
 - Who are the users?
-- What are the users’ mental models as they relate to the problem(s)?
+- What are the users' mental models as they relate to the problem(s)?
 
 **Descriptive and informative research** provides answers to these questions:
 
@@ -49,7 +49,7 @@ Problem validation research is not only conducted with end users. Often, sales, 
 
 ### Foundational research methods
 
-To choose the right ***foundational*** research method, you need to identify the purpose for your research. Ask yourself ***“Why am I doing this research?”*** Your answer will help you choose which method to use. You should also ask yourself [how much detail you need, what kind of participants you need, and the fidelity of insight you require](/handbook/product/ux/ux-research/choosing-a-research-methodology/).  If you are still unsure, please reach out to your UX Researcher.
+To choose the right ***foundational*** research method, you need to identify the purpose for your research. Ask yourself ***"Why am I doing this research?"*** Your answer will help you choose which method to use. You should also ask yourself [how much detail you need, what kind of participants you need, and the fidelity of insight you require](/handbook/product/ux/ux-research/choosing-a-research-methodology/).  If you are still unsure, please reach out to your UX Researcher.
 
 |                                                  Overall Purpose for Research                                                  |            Research Method            |
 |:-------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------|
@@ -59,15 +59,15 @@ To choose the right ***foundational*** research method, you need to identify the
 
 ### Descriptive and informative research methods
 
-To choose the right ***descriptive and informative*** research method, ask yourself, ***“What do I need to understand better?”*** Your answer will help you choose which method to use. If you are still unsure, please reach out to your UX Researcher.
+To choose the right ***descriptive and informative*** research method, ask yourself, ***"What do I need to understand better?"*** Your answer will help you choose which method to use. If you are still unsure, please reach out to your UX Researcher.
 
 |                                                  What I need to understand better                                                  |            Research Method            |
 |:-------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------|
 | <ul><li>How users perform in their natural environment</li> <li>What tools they use</li> <li>How their space is set up</li></ul> | [Contextual inquiry](https://www.usability.gov/how-to-and-tools/methods/contextual-interview.html)        |
-| <ul><li>What users’ attitudes, beliefs, desires, and experiences are</li></ul>                             | [In-depth interview](https://www.usability.gov/how-to-and-tools/methods/individual-interviews.html)        |
+| <ul><li>What users' attitudes, beliefs, desires, and experiences are</li></ul>                             | [In-depth interview](https://www.usability.gov/how-to-and-tools/methods/individual-interviews.html)        |
 | <ul><li>How users complete tasks over an extended period of time (hours, days or weeks)</li></ul>                                         | [Diary study](/handbook/product/ux/ux-research/diary-studies/) |
 | <ul><li>How my customers might solve product problems for themselves</li></ul>                                          | [Participatory design](https://uxmag.com/articles/participatory-design-in-practice) |
-| <ul><li>What the entire experience is from the user’s standpoint</li></ul>                                          | [User journey mapping](https://www.nngroup.com/articles/journey-mapping-101/) |
+| <ul><li>What the entire experience is from the user's standpoint</li></ul>                                          | [User journey mapping](https://www.nngroup.com/articles/journey-mapping-101/) |
 
 Check out our guidance for [writing your discussion guide](/handbook/product/ux/ux-research/discussion-guide-user-interviews/) and [facilitating user sessions](/handbook/product/ux/ux-research/facilitating-user-interviews/) for In-depth interviews.
 
@@ -78,6 +78,6 @@ You can also frame questions using the [Taxonomy of Cognitive Domain](http://www
 | Knowledge     | Remembering <br>Memorizing <br>Recognizing   | Who <br>What <br>When <br>Where <br>How                       | <ul><li>What do you like about how you currently [problem/task]?</li> <li>What is the biggest pain point related to [problem/task]?</li> <li>Tell me about the last time you tried to [problem/task].</li> <li>How much time do you typically spend on [problem/task]?</li></ul>  |
 | Comprehension | Interpreting <br>Translating <br>Describing  | Explain <br>Outline <br>Distinguish <br>Compare <br>Define    | <ul><li>Why is [problem/task] important to you? </li></ul>                                                                                                                                                                                           |
 | Application   | Problem-solving <br>Applying information | Show <br>Use <br>Complete <br>Classify <br>Relate             | <ul><li>Show me how you currently go about [problem/task].</li></ul>                                                                                                                                                                                  |
-| Analysis      | Separating <br>Finding structure         | Contrast <br>Categorize <br>Identify <br>Separate <br>Diagram | <ul><li>What type of workarounds have you created to help with [problem/task]?</li> <li>What do you like or dislike about these other products or tools?</li> <li>What’s the hardest part about [problem/task]?</li></ul>                                               |
+| Analysis      | Separating <br>Finding structure         | Contrast <br>Categorize <br>Identify <br>Separate <br>Diagram | <ul><li>What type of workarounds have you created to help with [problem/task]?</li> <li>What do you like or dislike about these other products or tools?</li> <li>What's the hardest part about [problem/task]?</li></ul>                                               |
 | Synthesis     | Creating <br>Combining                   | Create <br>Imagine <br>Design <br>Propose <br>Invent          | <ul><li>Create your ideal pipeline status page. Explain your design.</li></ul>                                                                                                                                                                        |
 | Evaluation    | Judging <br>Resolving                    | Select <br>Decide <br>Prioritize <br>Rate <br>Discuss         | <ul><li>Rank the following features in order of their usefulness to you in completing your tasks. Explain your answers. </li></ul>                                                                                                                    |

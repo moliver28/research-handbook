@@ -1,14 +1,7 @@
 ---
-
 title: "Email Management"
 description: "Email database management is a core responsibility for MktgOps. Ensuring GitLab is following email best practices, in compliance with Global spam laws and overall health of active database are all priorities."
 ---
-
-
-
-
-
-
 
 ## Overview
 

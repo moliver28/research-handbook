@@ -17,15 +17,6 @@ These go directly to us. Currently, we have 6 problem types:
 - [Support portal questions](#support-portal-questions)
 - [Other](#other)
 
-## Always check if the user is authenticated
-
-When you are the first one reviewing a ticket, you need to check if the user was
-authenticated when the ticket was created (i.e. logged into the support portal).
-If they were not, use the macro
-`Support::Support-Ops::Ticket filed by unauthenticated user` on the ticket. This
-will send a brief message about the current state of the ticket and ask the
-requester to reply back confirming the request and actions therein.
-
 ## First time setup
 
 This is for user's who have not been setup in the support portal previously.
@@ -133,7 +124,7 @@ be:
 1. Clear all cookies and cache on the browser.
 1. Try logging in again to the Support Portal.
 1. If you are still having issues, obtain the following:
-   - the browser’s version
+   - the browser's version
    - the browser's type
    - your operating system (and distro)
    - any other identifying information
@@ -188,105 +179,29 @@ using this problem type.
 ## Incorrect initial form tickets
 
 When a ticket is filed using the incorrect form, agents will use the
-`General::Forms::Incorrect form used` macro. This will change the form to our
-form, tag the ticket, and leave an internal note. From there, we are expected
-to review the ticket and resolve the problem.
+`General::Forms::Incorrect form used` macro. This will change the form to `Support Ops`,
+tag the ticket, and leave an internal note. From there, we are expected
+to review the ticket and determine the next steps.
 
-To accomplish this, we need to review the ticket and determine the next steps.
-As the ticket as not gotten a first response from the correct team (because it
-was using the wrong form), we should be setting the stage to FRT when we correct
-the form. If doing so would cause the ticket to instantly breach, we instead
-want to create a new ticket.
+As the ticket was initially created using an incorrect form, it is likely that it will not have a first response yet from the correct team. In such cases, we should set the `Ticket Stage` to `FRT` before correcting the form. 
 
 ```mermaid
 graph TD;
   A-->B;
   B-->C;
   C-->|Yes| D;
-  C-->|No| I;
-  D-->|Yes| E;
-  D-->|No| H;
-  E-->F;
-  F-->G;
+  C-->|No| E;
+  D--> E;
   A(Ticket comes to Ops due to incorrect form)
-  B(Ops determines correct form)
-  C{Will the ticket breach<br>FRT SLA is moved<br>over currently?}
-  D{Does the ticket have previous<br>agent replies or would new<br>ticket creation result in<br>a poor customer experience?}
-  E(Add the tag transferred_breached<br>to the ticket)
-  F(Add an internal note detailing<br>the situation and why it is<br>being moved breached)
-  G(Move the ticket to the correct form)
-  H(Create a new ticket and use the macro<br>Support::Support-Ops::Response<br>to original ticket using an incorrect form)
-  I(Move the ticket to the correct form,<br>setting stage to FRT, removing<br>assignee, and ensuring the SGG is blank)
+  B(Ops determines the correct form)
+  C{Will the ticket breach<br>FRT SLA if moved<br>over currently?}
+  D(Add the tag `transferred_breached`<br>to the ticket)
+  E(Move the ticket to the correct form)
 ```
 
 **Notes**:
 
-1. If the ticket needs to undergo the Needs-Org process, please do that in the
-   original ticket first. We want the new ticket to be as ready to be worked
-   as possible, and starting a new ticket we created for an end-user with the
-   Needs-Org process is not a great customer experience.
-1. If you determine the ticket is from a free or community user, there is no
-   need to create a new ticket. Instead, simply change the form to the
-   appropriate support form and ensure the gitlab.com/Self-managed Subscription
-   is set to 'Free User'. Make sure to set the SGG field on the ticket to a
-   blank value!
+1. If you determine the ticket is from a free or community user, make sure to set the `GitLab Plan` to `Free`
+before moving the ticket to another form.
 1. When moving tickets to a new form, do your best to fill out the ticket
-   metadata for the team that will work the ticket.
-
-### If you are making a new ticket
-
-Once you determine the correct form, you should review what ticket fields that
-form uses and what information is missing. In the original ticket, leave an
-internal comment saying which form needed to be used and what data is missing.
-Any of the data you can determine based on the original ticket is a
-plus, as it will skip needing to ask the customer to reply with that
-information in the new ticket. An example note could be:
-
-> The correct form should have been Self-Managed.
->
-> The missing data is:
->
-> - Self-Managed Problem Type
-> - GitLab Install Type
-> - GitLab Version
-
-Once you have noted the original ticket, create the new ticket using the
-correct ticket form. Make sure to file the ticket using
-<https://support.gitlab.com/hc/en-us/requests/new> (you may need to use a
-different browser or an incognito window) so the first reply is from the
-original requester and not an agent (this ensures it gets the FRT SLA). Make
-sure to fill in as much of the information as is possible. For any information
-you do not readily know, do your best to guess for the time being.
-
-Some notes to help in filing the ticket properly:
-
-- The subject of the ticket should be the *exact* same as the original ticket.
-- The description should be in the format:
-  > Greetings <NAME_OF_ORIGINAL_REQUESTER>,
-  >
-  > Recently you filed ticket #<ID_OF_ORIGINAL_TICKET> with us. Sadly, it was
-  > using the incorrect form and was filed incorrectly on our end. To help
-  > clear that up and get you working with the correct team, we are filing this
-  > new ticket on your behalf.
-  >
-  > Your original response was:
-  >
-  > <DESCRIPTION_FROM_ORIGINAL_TICKET>
-  >
-  > During our review of ticket #<ID_OF_ORIGINAL_TICKET>, we did find some
-  > needed information was missing. Please comment back as soon as possible
-  > with the following information:
-  >
-  > <LIST_OF_MISSING_DATA>
-  >
-  > While we review your ticket, here is some other data you could also send
-  > that is often helpful to us:
-  >
-  > - A GitLabSOS report (<https://gitlab.com/gitlab-com/support/toolbox/gitlabsos/>) if you are using Omnibus
-  > - A KubeSOS report (<https://gitlab.com/gitlab-com/support/toolbox/kubesos/>) if you are using Kubernetes
-  >
-
-- Markdown does not work for customer filed tickets. Try to limit the markdown
-  used to markdown that will still render properly in plaintext
-
-Once the new ticket is created, notate the original ticket and send a reply using the [`Support::Support-Ops::Response to original ticket using an incorrect form`](https://gitlab.zendesk.com/admin/workspaces/agent-workspace/macros/4623695359260) macro.
+   metadata as much as possible for the team that will work the ticket.

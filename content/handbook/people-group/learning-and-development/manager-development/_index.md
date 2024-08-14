@@ -17,9 +17,9 @@ To reach that success, you will need a network of support, templates, tools, and
 
 #### Finding the balance between contributing and managing
 
-Let’s take a closer look at just two of the challenges you might face. The first is finding a balance between contributing and managing.
+Let's take a closer look at just two of the challenges you might face. The first is finding a balance between contributing and managing.
 
-By doing too much of the team’s work yourself, you may deprive team members of the means to improve themselves and make them overly dependent upon you. You also risk facing burnout. One solution is to change the way you contribute to your employees’ efforts. Instead of doing a piece of work for them, ask them to take small iterative steps.
+By doing too much of the team's work yourself, you may deprive team members of the means to improve themselves and make them overly dependent upon you. You also risk facing burnout. One solution is to change the way you contribute to your employees' efforts. Instead of doing a piece of work for them, ask them to take small iterative steps.
 
 For example, a team member has a project but has no idea where to start, so they ask you for help.
 
@@ -29,11 +29,11 @@ You could show them how you would start it, but that could lead to a long-term d
 
 If you have been promoted to a manager role, a second challenge you might face is navigating the complexity of managing your former peers.
 
-The key to making this transition smooth is to be inclusive and communicate with your team and external collaborators. During your first few weeks as a new manager, try to identify a few small decisions you can make fairly quickly, but defer bigger ones until you’ve been in the role longer and have time to gather input from everyone. For example, set up a new schedule and agenda for team meetings, this is a small change but it clearly establishes your role as manager.
+The key to making this transition smooth is to be inclusive and communicate with your team and external collaborators. During your first few weeks as a new manager, try to identify a few small decisions you can make fairly quickly, but defer bigger ones until you've been in the role longer and have time to gather input from everyone. For example, set up a new schedule and agenda for team meetings, this is a small change but it clearly establishes your role as manager.
 
-Also, in the first few weeks, take actions that establish your credibility and indicate how you’ll work as a manager. One of the best ways is to meet with your team, as a group and individually, and share with them your management style or review your Manager [README]({{< ref "leadership#your-individual-readme" >}}). Meeting with the team will help you to identify their motivators so that you can start working with the team to create more informed individual and team goals.
+Also, in the first few weeks, take actions that establish your credibility and indicate how you'll work as a manager. One of the best ways is to meet with your team, as a group and individually, and share with them your management style or review your Manager [README]({{< ref "leadership#your-individual-readme" >}}). Meeting with the team will help you to identify their motivators so that you can start working with the team to create more informed individual and team goals.
 
-During this type of transition, it’s easy to become overly focused on your former peers. Don’t forget to build relationships with your new leader and schedule coffee chats with other stakeholders across the organization.
+During this type of transition, it's easy to become overly focused on your former peers. Don't forget to build relationships with your new leader and schedule coffee chats with other stakeholders across the organization.
 
 #### The "Becoming a GitLab Manager" issue, support, and resources
 
@@ -47,7 +47,7 @@ If you have questions as you work your way through this checklist please ask the
 
 ## Becoming a GitLab Manager Issue Retrospective
 
-An important task is to create a retrospective thread within the Becoming a GitLab Manager issue, so that the team member can log any questions, comments, proposals and more about their issue. Retrospectives are used in many ways at GitLab, like after a GitLab product [release]({{< ref "communication#release-retrospectives-and-kickoffs" >}}) based on the Product [retrospective workflow](/handbook/engineering/workflow/#retrospective). For the Becoming a GitLab Manager issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Feel free to please ask any questions in the [#managers](https://gitlab.slack.com/messages/C5Z55R5J5/details/) Slack channel.
+An important task is to create a retrospective thread within the Becoming a GitLab Manager issue, so that the team member can log any questions, comments, proposals and more about their issue. Retrospectives are used in many ways at GitLab, like after a GitLab product [release](/handbook/communication/#release-retrospectives-and-kickoffs) based on the Product [retrospective workflow](/handbook/engineering/workflow/#retrospective). For the Becoming a GitLab Manager issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Feel free to please ask any questions in the [#managers](https://gitlab.slack.com/messages/C5Z55R5J5/details/) Slack channel.
 
 ### Coaching remote work practices
 

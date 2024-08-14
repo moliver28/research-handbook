@@ -1,20 +1,11 @@
 ---
-
 title: "Infrastructure Analyst Board"
 description: "Infra Analyst Workflow Planning"
 ---
 
-
-
-
-
-
-
-
 ---
 
 [Workflow Board](https://gitlab.com/gitlab-com/www-gitlab-com/-/boards/1942495?label_name[]=Engineering%20Metrics)
-{:.btn .btn-purple}
 
 ## Criteria
 

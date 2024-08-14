@@ -1,14 +1,7 @@
 ---
-
 title: "Environments Canary Stage"
 description: "Detailed information about how the Canary stage works in our Environments"
 ---
-
-
-
-
-
-
 
 ## Environments Canary Stage
 

@@ -1,14 +1,7 @@
 ---
-
 title: "Performance and Scalability"
 description: "The Quality Department has a focus on measuring and improving the performance of GitLab, as well as creating and validating reference architectures that self-managed customers can rely on as performant configurations."
 ---
-
-
-
-
-
-
 
 The Quality Department has a focus on measuring and improving the performance of GitLab, as well as
 creating and validating reference architectures that self-managed customers can rely on as

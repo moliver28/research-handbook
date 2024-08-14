@@ -1,34 +1,25 @@
 ---
-
 title: "Sales Play: Expand with Package"
 description: "This page has all the information for the expand with Package sales play."
 
 ---
 
-
-
-
-
-
-
-
-
 Note: Think of a sales play as a recipe. If you follow the recipe, we can achieve more predictable, consistent results. And if we find an asset or approach that works best (or flops), then we can tweak the recipe to continuously improve. **If you have improvements to suggest, please contribute comments to [this issue](https://gitlab.com/gitlab-com/Product/-/issues/4440) to suggest your edits and upvote on others.
 
-### [Sales Play Quick Reference Guide](https://docs.google.com/presentation/d/1F0aZ4k9NutSwYDBCiXF4AcwprBPDcsISvAOYb7NgepM/edit?usp=sharing)
+### Sales Play Quick Reference Guide
+
+[Sales Play Quick Reference Guide](https://docs.google.com/presentation/d/1F0aZ4k9NutSwYDBCiXF4AcwprBPDcsISvAOYb7NgepM/edit?usp=sharing) (internal)
 
 ## Overview
 
 **Objective** - Competitive take out of JFrog's Artifactory and Sonatype's Nexus.
 
-Who is this sales play for?  
+Who is this sales play for?
 
-* Primary: SAEs and AEs who call on one or more existing GitLab Premium/Ultimate customers  
-* Secondary: SAs and CSMs who support one or more existing GitLab Premium/Ultimate customers  
+* Primary: SAEs and AEs who call on one or more existing GitLab Premium/Ultimate customers
+* Secondary: SAs and CSMs who support one or more existing GitLab Premium/Ultimate customers
 
 ## Who to meet
-
-{: .alert .alert-gitlab-orange}
 
 **Ideal Customer Profile**  - GitLab customers looking to consolidate on GitLab and migrate away from JFrog's Artifactory or Sonatype's Nexus.
 
@@ -58,9 +49,7 @@ Consider the following questions:
 
 ## Value Discovery
 
-{: .alert .alert-gitlab-orange}
-
-### Common Pains  
+### Common Pains
 
 GitLab Premium/Ultimate customers may be experiencing one or more of the below challenges:
 
@@ -71,11 +60,11 @@ GitLab Premium/Ultimate customers may be experiencing one or more of the below c
 | Costly triaging and tracking of vulnerabilities    | Inefficient use of scarce security resources, lengthy remediation process |
 | Costs are unpredictable or concerning as DevSecOps scales | Must find more money as number of supported applications grows |
 
-### Common Benefits  
+### Common Benefits
 
 By consolidating on GitLab for package management, customers may experience one or more of the below benefits:
 
-| Desired Future State (“After Scenarios”) | So What? (“Positive Business Outcomes”)   |
+| Desired Future State ("After Scenarios") | So What? ("Positive Business Outcomes")   |
 | ------------- | ------------- |
 | Reduced cost, maintenance, and admin overhead    | Save money on licensing costs |
 | Greater efficiencies for security, admin, and dev    | Less risk and greater velocity of DevSecOps |
@@ -89,14 +78,14 @@ By consolidating on GitLab for package management, customers may experience one 
 | Publish, download, and validate container images  | A highly scalable application that stores and lets you distribute Docker images. |
 | Reduce costs with cleanup policies                | Dependencies can build up fast. You need a way to manage storage costs.          |
 | Use GitLab metadata to validate artifacts         | Dependency metadata is required to validate you are using the correct one.       |
-| Comprehensive app sec scanning methods.            | Automatically find security vulnerabilities in your dependencies while you’re developing and testing your applications.  |
+| Comprehensive app sec scanning methods.            | Automatically find security vulnerabilities in your dependencies while you're developing and testing your applications.  |
 | Filter upstream dependencies prior to download.    | Prevent the introduction of security vulnerabilities from external dependencies.  |
 | Cache upstream dependencies from multiple sources. | A collection of local, remote, and other virtual repositories accessed through a single logical URL. |
 | Sign and protect packages, images, and containers.             | Protect important artifacts from being corrupted or overridden.               |
 
 ## Engaging the Customer
 
-| Questions to Better Understand the Customer’s needs  | Discovery questions  |
+| Questions to Better Understand the Customer's needs  | Discovery questions  |
 | ------------- | ------------- |
 | current state    | 1. Do you want to move away from Artifactory or Nexus? How is that going?<br>2. What challenges does managing these extra tools bring you? <br>3. How are you currently securing your container images and packages?|
 | future state    | 1. What if you reduce your total licensing costs and tool chain? ?<br>2. What challenges do you have with your existing tools and can you predict their cost 2 yrs out?<br>3. Would you like improve developer experience and ensure greater security compliance? |

@@ -1,21 +1,15 @@
 ---
-
 title: "Self-Service Data Team at GitLab"
 description: "The Self-Service Data Team is responsible for leveraging data to optimize for the self-service customer experience and drive nARR growth via sales efficiency. Data insights from this team feed: sales visibility, self-service fulfillment features, and growth/marketing experiments. The Self-Service Data Team also aims to create data tools to help with efficiency, prioritization, and decision making."
 ---
-
-
-
-
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 ## Welcome to the Self-Service Data Team Handbook
 
-**The Self-Service Data Team is responsible for leveraging data to optimize for the self-service customer experience and drive nARR growth via sales efficiency. Data insights from this team feed: sales visibility, self-service fulfillment features, and growth/marketing experiments. The Self-Service Data Team also aims to create data tools to help with efficiency, prioritization, and decision making.**
-{: .alert .alert-success}
+{{% alert color="success" %}}
+The Self-Service Data Team is responsible for leveraging data to optimize for the self-service customer experience and drive nARR growth via sales efficiency. Data insights from this team feed: sales visibility, self-service fulfillment features, and growth/marketing experiments. The Self-Service Data Team also aims to create data tools to help with efficiency, prioritization, and decision making.
+{{% /alert %}}
 
 ## Team
 
@@ -82,19 +76,19 @@ description: "The Self-Service Data Team is responsible for leveraging data to o
 
 **Goal**: Minimize dependencies/blockers to insights while providing transparent engagement model
 
-**Disclaimer**: Not all data questions will be able to be answered. Ultimately, taking time to answer ad-hoc questions means less time on projects (aka the zero-sum capacity problem). That is not to say that ad-hoc questions are not important; however, we do have “boulder” level projects in flight have been prioritized via the OKR process, which we also need to make progress on.
+**Disclaimer**: Not all data questions will be able to be answered. Ultimately, taking time to answer ad-hoc questions means less time on projects (aka the zero-sum capacity problem). That is not to say that ad-hoc questions are not important; however, we do have "boulder" level projects in flight have been prioritized via the OKR process, which we also need to make progress on.
 
 **How to submit your ad-hoc data request or question**:
 
 1. Have you tried to answer this question leveraging existing resources (e.g. data hub, SFDC)?
 
    - If no, please try to answer your question using these existing resources.
-   - If yes, but you’re still unable to answer your question, go to question 2.
+   - If yes, but you're still unable to answer your question, go to question 2.
 
 2. Using the Data Question Intake issue template in [our project](https://gitlab.com/gitlab-com/sales-team/self-service/), please:
 
-- Fill out all items under the “Filled out by Requestor” section
-- Add the “Self-Service Data” and “Self-Service Data Ad Hoc” labels
+- Fill out all items under the "Filled out by Requestor" section
+- Add the "Self-Service Data" and "Self-Service Data Ad Hoc" labels
 - If business stopping: tag Max in Slack (ideally in [self-service_public](https://gitlab.slack.com/archives/C02F6JUKF6X)) with link to issue.
 
 <!-- ## How we prioritize ad hoc requests
@@ -115,7 +109,7 @@ If an ad-hoc request scores north of 7 points, we will re-consider prioritizing 
 
 - Low Touch - Consists of  any AMER SMB FO or Pooled Account opportunity
 - Pooled Model - handbook page
-- Pooled Cases - SFDC cases that are created for pooled accounts (Pooled cases will have record_type_id = ‘0128X000001pPRkQAM’)
+- Pooled Cases - SFDC cases that are created for pooled accounts (Pooled cases will have record_type_id = '0128X000001pPRkQAM')
 - Tasks - SFDC tasks
 - WW FO Count = All New - First Order deals
 - WW Web Growth nARR = Any non-First Order nARR transacted through Web (Web Portal Purchase = T)

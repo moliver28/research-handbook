@@ -1,16 +1,9 @@
 ---
-
 title: "Content Marketing"
 description: "The content marketing team is responsible for strategic and resourceful content creation."
 ---
 
-
-
-
-
-
-
-The Global Content team is responsible for showcasing GitLab’s expertise and leadership in DevOps through easy-to-find content that is educational, thought-provoking, and market-defining. As part of Global Content, the Content Marketing team works with stakeholders across GitLab to provide readers with end-to-end content experiences that garner trust, create source credibility, and generate customer engagement.
+The Global Content team is responsible for showcasing GitLab's expertise and leadership in DevOps through easy-to-find content that is educational, thought-provoking, and market-defining. As part of Global Content, the Content Marketing team works with stakeholders across GitLab to provide readers with end-to-end content experiences that garner trust, create source credibility, and generate customer engagement.
 
 ## Meet the Content Marketing team
 
@@ -38,7 +31,7 @@ The Global Content team is responsible for showcasing GitLab’s expertise and l
 
 ### What we can help with
 
-We’re here to help with your content, writing, and editing needs! Ask us for help with:
+We're here to help with your content, writing, and editing needs! Ask us for help with:
 
 - Writing content for GTM campaigns (mostly awareness- and consideration-level eBooks, landing pages, nurture emails, related blog posts and/or articles)
 - Writing blog posts to support strategic [Editorial team](/handbook/marketing/brand-and-product-marketing/content/editorial-team/) needs
@@ -83,7 +76,7 @@ The team will review all incoming requests in the [Content Marketing project](ht
 | Final proofread (checking that all edits are implemented, confirming links) | Writer (Content Marketing), Editor (Content Marketing) |
 | Publish | Campaigns team |
 
-*Note: Each role should be assigned at the project outset; for example “Editor (Content Marketing)” would be a single person who would be identified in the relevant project issues/epics and would review the draft at all of the designated times to keep things consistent.*
+*Note: Each role should be assigned at the project outset; for example "Editor (Content Marketing)" would be a single person who would be identified in the relevant project issues/epics and would review the draft at all of the designated times to keep things consistent.*
 
 ### Current projects (Q3 FY23)
 
@@ -122,7 +115,7 @@ A blog can and should be repurposed as a web article/cluster page if the content
 
 A whitepaper is a technical and focused topic study intended to educate a prospective buyer during the Consideration or Purchase stages of a campaign. The whitepaper offers a problem and solution instance in a granular, technical tone. The content team member should collaborate closely with their product marketing counterpart when researching and writing the asset so that the content reaches appropriate technical standards for the intended audience.
 
-Any technical GitLab team member is welcome to write a whitepaper and collaborate with the content team. If you’re interested in writing a whitepaper, open an issue in the [Content Marketing project](https://gitlab.com/gitlab-com/marketing/inbound-marketing/global-content/content-marketing) and describe your idea, or post in the [#content](https://gitlab.slack.com/archives/C2R1NED61) Slack channel. Whitepapers should be related to specific use cases and support campaigns, when possible.
+Any technical GitLab team member is welcome to write a whitepaper and collaborate with the content team. If you're interested in writing a whitepaper, open an issue in the [Content Marketing project](https://gitlab.com/gitlab-com/marketing/inbound-marketing/global-content/content-marketing) and describe your idea, or post in the [#content](https://gitlab.slack.com/archives/C2R1NED61) Slack channel. Whitepapers should be related to specific use cases and support campaigns, when possible.
 
 **Examples:**
 
@@ -183,7 +176,7 @@ Case studies are in-depth customer stories that provide insight as to how GitLab
 
 Anyone at GitLab can reach out to the content team in the #content channel on Slack.
 
-Here are a few other Slack channels to check out if you’d like to learn more about marketing content:
+Here are a few other Slack channels to check out if you'd like to learn more about marketing content:
 
 - **`#content-team-lounge`**: Where the content team can hang out. This is a public channel.
 - **`#content`**: A general discussion channel for all things content, including blog posts, case studies, videos, webcasts, newsletter content, interesting articles, etc

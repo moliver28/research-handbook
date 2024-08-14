@@ -72,7 +72,7 @@ In addition to the responsibilities of the Senior Manager, Quote to Cash below, 
 - Partner with Senior leadership to define the future state of Quote to Cash
 - Own the creation and iteration of:
   - Current state process workflow documentation
-  - GitLab’s holistic Quote to Cash roadmap including current and future toolsets
+  - GitLab's holistic Quote to Cash roadmap including current and future toolsets
   - Milestone-based roadmap of releases to the field
 - Define and document best in class Q2C processes to support our internal and external customers
 - Serve in an advisory role to the Deal Desk & Sales Operations teams across GitLab

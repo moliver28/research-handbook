@@ -198,7 +198,7 @@ At this point you should have your own group on GitLab.com SaaS as well as a GCP
 
    > This step also makes sure that your agent was set up correctly. If your Auto DevOps pipeline does not look like the one below make sure your agent config is correct. It may be a single indent is missing that invailidated the whole yaml.
 
-   ![Correct Auto DevOps Pipeline](./ADO.png)
+   ![Correct Auto DevOps Pipeline](ADO.png)
 
 1. It is out of scope for onboarding but you could continue to modify the agent as you add more and more projects to this group. The below example is what your manifest definition might look like if you started adding multiple projects:
 

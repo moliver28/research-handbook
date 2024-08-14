@@ -31,7 +31,7 @@ description: "This Facilitator Guide is intended to walk you through all importa
 
 - Hands-on Environment: Instruct learners to sign into your hands-on demo/lab environment prior to the starting these sections of the module.
 
-- GitLab Maturity page: you may want to demo from [this page](https://about.gitlab.com/direction/maturity/>) to get the latest updates to the maturity model - the deck only has a screenshot.
+- GitLab Maturity page: you may want to demo from [this page](https://about.gitlab.com/direction/#maturity) to get the latest updates to the maturity model - the deck only has a screenshot.
 
 - GitLab.org project page site: https://gitlab.com/gitlab-org/gitlab
 

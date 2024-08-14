@@ -1,5 +1,6 @@
 ---
 title: "Security Risk Team"
+description: "Security Risk Team"
 ---
 
 ## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Security Risk Mission{#security-risk-mission}
@@ -12,7 +13,7 @@ To drive security risk treatment at GitLab by empowering teams to make informed 
 
 ### <i class="fas fa-shield-alt" style="color:rgb(253,109,38)" aria-hidden="true"></i> Security Operational Risk Management (StORM) Program{#storm}
 
-The Security Risk team manages an integrated Operational Risk Management program focused on the identification, assessment, continuous monitoring, and reporting of Security Risks across the organization. Risk Reduction is 1 of 5 of the Security Department's operating principles ([Security Vision and Mission](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)). As such, the Security Risk Team takes a leading role in providing the information required by leadership to establish our Strategic Roadmap and our quarterly [Objectives and Key Results (OKRs)](/handbook/company/okrs/).
+The Security Risk team manages an integrated [Operational Risk Management](/handbook/security/security-assurance/security-risk/storm-program/) program focused on the identification, assessment, continuous monitoring, and reporting of Security Risks across the organization. Risk Reduction is 1 of 5 of the Security Department's operating principles ([Security Vision and Mission](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)). As such, the Security Risk Team takes a leading role in providing the information required by leadership to establish our Strategic Roadmap and our quarterly [Objectives and Key Results (OKRs)](/handbook/company/okrs/).
 
  Visit the [StORM Program & Procedures]({{< ref "storm-program" >}}) handbook page for additional details, including a quick introduction to Risk Management at GitLab as well as information about the purpose, scope, and specific procedures executed as part of the program.
 
@@ -22,7 +23,7 @@ Please refer to the [communication section of the StORM Program & Procedures]({{
 
 ### <i class="fas fa-hands-helping" style="color:rgb(253,109,38)" aria-hidden="true"></i> Security Third Party Risk Management (TPRM) Program{#tprm}
 
-GitLab maintains an industry-leading Third Party Risk Management (TPRM) Program through the use of automation, continuous monitoring, and deep integration across business functions to validate the security of GitLab data shared with external parties.
+GitLab maintains an industry-leading [Third Party Risk Management (TPRM) Program](/handbook/security/security-assurance/security-risk/third-party-risk-management) through the use of automation, continuous monitoring, and deep integration across business functions to validate the security of GitLab data shared with external parties.
 
 The integration of GitLab's TPRM program within the vendor Procurement flow enables cross-functional [collaboration](/handbook/values/#collaboration) between Privacy, Legal, IT, and People Operations to facilitate [transparent](/handbook/values/#transparency), risk-based decision making, Business and Stakeholder-focused [Results](/handbook/values/#results), and adherence to GitLab's Regulatory and [Compliance Obligations](/handbook/security/security-assurance/security-compliance/certifications.html). The vendor relationships maintained through this program are leveraged to create efficiencies across the organization.
 
@@ -43,10 +44,10 @@ Establishing a complete and accurate inventory of assets is key to the success o
 |Team Member|Role|
 |:----------:|:----------:|
 |[Ty Dilbeck](https://gitlab.com/tdilbeck)|[Senior Manager, Security Risk](/job-families/security/security-leadership/#senior-manager-security)|
+|[Nirmal Devarajan](https://gitlab.com/ndevarajan)|[Senior Security Risk Engineer](/job-families/security/security-assurance-job-family/#security-risk-1)|
 |[Eric Geving](https://gitlab.com/ericgeving)|[Senior Security Risk Engineer](/job-families/security/security-assurance-job-family/#security-risk-1)|
-|[Kyle Smith](https://gitlab.com/kylesmith2)|[Senior Security Risk Engineer](/job-families/security/security-assurance-job-family/#security-risk-1)|
 |[Ryan Lawson](https://gitlab.com/rlawson1)|[Senior Security Risk Engineer](/job-families/security/security-assurance-job-family/#security-risk-1)|
-|[Nirmal Devarajan](https://gitlab.com/ndevarajan)|[Security Assurance Engineer](/job-families/security/security-assurance-job-family/#security-risk)|
+|[Kyle Smith](https://gitlab.com/kylesmith2)|[Staff Security Risk Engineer](/job-families/security/security-assurance-job-family/#security-risk-2)|
 
 ## <i class="fa-solid fa-d" style="color:rgb(110,73,203)" aria-hidden="true"></i> Functional DRIs{#dris}
 

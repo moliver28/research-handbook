@@ -1,13 +1,6 @@
 ---
-
 title: "Industry Analyst Briefings at GitLab"
 ---
-
-
-
-
-
-
 
 The purpose of a briefing is to inform or educate analysts about something we are doing. The majority of the time, GitLab is expected to be presenting information, usually through presentations and demos, along with some Q&A time for analysts to get additional clarity or further explore a topic. Some industry analyst firms, like Gartner, [will generally not provide feedback in a briefing](https://www.gartner.com/en/contact/vendor-briefings) and will prefer to do that in a follow-on inquiry as their feedback and advice is a core component of their commercial service offering. There are also other analyst firms that are more than happy to provide feedback they might have during the briefing itself.
 

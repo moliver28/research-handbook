@@ -1,5 +1,4 @@
 ---
-
 title: Elevate+
 
 ---
@@ -14,11 +13,11 @@ Elevate+ will create a shared leadership development experience across the organ
 
 In Elevate+, participants will:
 
-1. Understand and practice behaviors and frameworks anchored in GitLab’s values and leadership competencies
+1. Understand and practice behaviors and frameworks anchored in GitLab's values and leadership competencies
 1. Apply new skills to support their highest priority business needs
 1. Build cross-division relationships and learning through small group cohorts
 1. Collaborate with stakeholders to integrate their learnings into their day-to-day work in order to tackle real challenges
-1. Take action on feedback from their team, leader, and cross-functional stakeholders to map out your and your teams’ future growth
+1. Take action on feedback from their team, leader, and cross-functional stakeholders to map out your and your teams' future growth
 
 ## Participant Hub
 
@@ -51,7 +50,7 @@ Elevate+ runs for a total of 6 months and is organized into 5 learning modules. 
 | 3 | 4 | Live Cohort Workshop (Zoom) | Cross-functional synchronous cohort workshop sessions with ~8-10 other GitLab people leaders to review Intersession work, give and get feedback on application of concepts, and additional opportunities for practice | 80 minutes |
 | 4 | 5 | Share Module Feedback (Google Forms) | Share your perspective on the Elevate+ program by providing input about each module | 5 minutes |
 
-Throughout the program, participants will also revisit and adapt their ReadMes, crystallizing their focus on leadership development and the ways in which they contribute to GitLab’s business.
+Throughout the program, participants will also revisit and adapt their ReadMes, crystallizing their focus on leadership development and the ways in which they contribute to GitLab's business.
 
 ## Pre-Certification Coaching
 
@@ -64,18 +63,18 @@ In preparation for the pre-certification session, please review the [certificati
 During the session, you can expect the following:
 
 1. Review the criteria for peer evaluation and calibrate on the scoring scale you will use during the certification
-1. The Elevate coach will model coaching during a coaching demonstration. The group will observe the discussion and identify what they’re noticing the coach does well, and where they could do something differently
+1. The Elevate coach will model coaching during a coaching demonstration. The group will observe the discussion and identify what they're noticing the coach does well, and where they could do something differently
 1. In pairs, participants will move into breakouts and practice coaching based on one of the scenarios
 
 ## Certification
 
-Elevate+ Certification is a time to demonstrate everything you’ve learned and celebrate your new skills and self awareness as you continue to grow as a leader of leaders at GitLab. It's not meant to be scary, and we want all participants to feel fully supported to pass.
+Elevate+ Certification is a time to demonstrate everything you've learned and celebrate your new skills and self awareness as you continue to grow as a leader of leaders at GitLab. It's not meant to be scary, and we want all participants to feel fully supported to pass.
 
-Certification will occur in a live, collaborative, 50 minute session with up to 4 other Elevate+ participants, likely in your cohort, and will follow this format:
+Certification will occur in a live, collaborative, 60 minute session with up to 4 other Elevate+ participants, likely in your cohort, and will follow this format:
 
-1. Intro to certification logistics (5 min)
-1. Part 1: Leadership presentations (25 min) - 5 min presentation/1 min scoring per person x 4 people
-1. Part 2: Coaching scenarios (20 min) - 5 min per person x 4 people
+1. Intro to certification logistics
+1. Part 1: Leadership presentations - 5 min presentation/1 min scoring per person x 4 people
+1. Part 2: Coaching scenarios - 5 min per person x 4 people
 
 Review these materials to best prepare for certification:
 
@@ -107,7 +106,7 @@ Review the [scoring rubric](https://docs.google.com/document/d/1gCHmc8lQPPaFYdaC
 
 ## Making up missed sessions
 
-Attendance to all Elevate+ live sessions is required to earn the certification. We understand that making time for all live sessions can be difficult. We have options for making up sessions you’ve missed:
+Attendance to all Elevate+ live sessions is required to earn the certification. We understand that making time for all live sessions can be difficult. We have options for making up sessions you've missed:
 
 **Option 1: Attend Another Session**
 
@@ -154,13 +153,13 @@ Yes, this and Elevate are both a required training for all people leaders at Git
 
 ### Where do I communicate my questions, concerns, and feedback as I go through the program?
 
-When the program begins, you’ll be added to a Slack group that includes all members of your cohort. You can also reach out directly to your manager or the Learning and Development team.
+When the program begins, you'll be added to a Slack group that includes all members of your cohort. You can also reach out directly to your manager or the Learning and Development team.
 
 ### I missed, or cannot attend, a live session. What do I do?
 
-It’s a requirement to make up missed sessions within each month to ensure that you’re learning each new skill and moving through the program in the appropriate order. Please make every effort to attend live sessions as scheduled. Please review makeup options outline above.
+It's a requirement to make up missed sessions within each month to ensure that you're learning each new skill and moving through the program in the appropriate order. Please make every effort to attend live sessions as scheduled. Please review makeup options outline above.
 
-We’re committed to working with you to find a solution that let’s you successfully complete Elevate. If you must miss one live session for personal reasons, you need approval from your manager. Additional missed sessions will result in an incomplete Elevate status.
+We're committed to working with you to find a solution that let's you successfully complete Elevate. If you must miss one live session for personal reasons, you need approval from your manager. Additional missed sessions will result in an incomplete Elevate status.
 
 ### What if I have already completed the manager challenge?
 
@@ -176,7 +175,7 @@ Our goal is to enroll all eligible managers into Elevate+ during FY25.
 
 ### Is there opportunity to participate in the program if I am an aspiring manager?
 
-Due to our priority to certify people leaders, participation by aspiring managers is not currently an option. We’ve put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate (please note, there is not yet an async option for Elevate+). You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
+Due to our priority to certify people leaders, participation by aspiring managers is not currently an option. We've put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate (please note, there is not yet an async option for Elevate+). You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
 
 ### I was asked to fill out the Stakeholder Assessment - what does this mean?
 

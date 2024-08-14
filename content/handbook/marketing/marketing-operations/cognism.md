@@ -4,12 +4,6 @@ title: "Cognism"
 description: "Cognism is sales intelligence software that provides contact or account data helping sales and marketing teams drive predictable pipeline"
 ---
 
-
-
-
-
-
-
 ## About Cognism
 
 Cognism is sales intelligence software that provides contact or account data helping sales and marketing teams drive predictable pipeline
@@ -22,7 +16,7 @@ Once you receive your login and enter the Cognism platform you will need to down
 
 Once you are logged in into your Cognism Web-App, start by connecting your tools (Salesforce & Outreach). This will allow you to export leads to both tools.
 
-Even though this process is very straight forward, feel free to reference the [How to Integrate Cognism to Salesforce](https://help.cognism.com/hc/en-gb/articles/4407455139602-How-to-Integrate-Cognism-to-Salesforce-) and [How to Integrate Cognism to Outreach](https://help.cognism.com/hc/en-gb/articles/4403394602130-How-to-integrate-Cognism-to-Outreach) documentations if need be.
+Even though this process is very straight forward, feel free to reference the [How to Integrate Cognism to Salesforce](https://help.cognism.com/hc/en-gb/articles/4407455139602-How-to-Integrate-Cognism-to-Salesforce-) and [How to Integrate Cognism to Outreach](https://help.cognism.com/hc/en-gb/articles/12127689794834-How-to-integrate-Cognism-to-Outreach) documentations if need be.
 
 ## Ways to access Cognism
 

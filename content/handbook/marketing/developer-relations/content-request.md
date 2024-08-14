@@ -1,20 +1,8 @@
 ---
-
 title: "Developer Relations Content Requests"
 description: "How to request content from the Developer Relations team"
 
 ---
-
-
-
-
-
-
-
-
-
-
-
 
 ## Developer Relations content request overview
 

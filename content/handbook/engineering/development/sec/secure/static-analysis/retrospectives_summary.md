@@ -21,3 +21,11 @@ Specific Remediations raised during the discussion:
 1. Undertake [maintenance tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/440373) to reduce complexity of semgrep & sast-rules release.
 
 1. Apply strict review processes for implementation plans, and refer to the [MVC principle](/handbook/product/product-principles/#the-minimal-viable-change-mvc) more frequently
+
+### 17.1
+
+This milestone focused on [SAST in the IDE](https://gitlab.com/groups/gitlab-org/-/epics/13753) and various maintenance tasks. During the retrospective discussion, the following points were raised:
+
+1. The format of weekly team meetings is inefficient. The second iteration of the meeting often repeats discussions from the first iteration. To address this, the meeting format will now include "Carry-over" items that need further discussion in the next timezone. All other items will be marked as read-only.
+
+1. The policy for handling vulnerabilities is unclear. To improve this, we will create a [runbook](/handbook/engineering/development/sec/secure/static-analysis/runbooks) detailing the required steps.

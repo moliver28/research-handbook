@@ -118,7 +118,7 @@ Read more about what a [specialty](/handbook/hiring/#definitions) is at GitLab h
 
 - [Number of Opportunities closed by Contract Manager(s) per Quarter](/handbook/legal/#number-of-opportunities-closed-by-contract-managers-per-quarter--66)
 - [Response times to initial requests for review](/handbook/legal/#response-times-to-initial-requests-for-review--24-business-hours)
-- [‘Turn-Around’ times on received red-lines](/handbook/legal/#turn-around-times-on-received-red-lines--72-business-hours)
+- ['Turn-Around' times on received red-lines](/handbook/legal/#turn-around-times-on-received-red-lines--72-business-hours)
 
 ## Career Ladder
 

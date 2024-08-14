@@ -1,16 +1,7 @@
 ---
-
 title: "Sales & Customer Success Quick Start Learning Path"
 description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 ---
-
-
-
-
-
-
-
-
 
 ## Sales & Customer Success Learning Path - Core Curriculum
 
@@ -55,7 +46,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
   - Compare the traditional DevOps Daisy Chain of disparate tools to an integrated solution for Complete DevOps. GitLab delivers a seamlessly integrated platform for developers and operators to collaborate in real-time and move ideas into production faster.
   - [YouTube - Traditional DevOps Daisy Chain](https://www.youtube.com/watch?v=YHznYB275Mg)
   - Manage Your Toolchain Before It manages You! white paper ([gated link](https://about.gitlab.com/resources/whitepaper-forrester-manage-your-toolchain/)) ([internal link](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/source/resources/downloads/201906-gitlab-forrester-toolchain.pdf))
-  - [YouTube - You’re Living Like This?](https://www.youtube.com/watch?v=w6X4Ha1oC6I)
+  - [YouTube - You're Living Like This?](https://www.youtube.com/watch?v=w6X4Ha1oC6I)
 - **QUIZ: Increase Operational Efficiencies (Assignment - 25 Minutes - 6 Points - Pre Work)**
   - GitLab is a single application for the entire DevOps lifecycle! Please read the "Manage Your Tool Chain Before it Manages You" white paper from Forrester (see link above) to answer the questions in the [Google Form Quiz.](https://forms.gle/namX7dcg1dbo5KQQ7)
 
@@ -87,7 +78,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 
 - **Our Portfolio**
   - Please click on the link below and go through the course modules.
-  - [Our Portfolio](https://gitlabtrainingcontent.s3-us-west-2.amazonaws.com/GitLab+Field+Enablement+Our+Portfolio+-+Storyline+output/story.html)
+  - Our Portfolio (no longer available)
 - **QUESTION: Pitch Deck Video (Material - Video - 15 Minutes)**
   - Please write one thing you learned or found interesting from watching the GitLab Pitch Deck video.
 - **GitLab Features & Functionality**
@@ -100,7 +91,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
   - [GitLab Secure Doc](https://docs.gitlab.com/ee/user/application_security/index.html)
   - [GitLab Security and Compliance Capabilities Deck](https://docs.google.com/presentation/d/1WHTyUDOMuSVK9uK7hhSIQ_JbeUbo7k5AW3D6WwBReOg/edit)
 - **Selling Professional Services (Material - Video - 30 Minutes)**
-  - Our [Professional Services](/handbook/customer-success/professional-services-engineering/selling/) team is made up of not only GitLab subject matter experts but seasoned DevOps professionals who have experience in deploying and maintaining both large-scale applications as well as creating and teaching best practices throughout the SDLC. Our experts help lead Concurrent DevOps Transformations, providing direct support to our customer’s strategic business initiatives. GitLab's Professional Services team exists to enable your clients realize the full value of their GitLab installation. We can provide direct implementation support to ensure the GitLab installation is resilient and secure. We also offer migration services to facilitate the transition to GitLab by delivering a clean dataset to resume operations at once. Our education and specialized training provide training in best practices, such as CI/CD, version control, metrics, and more.
+  - Our [Professional Services](/handbook/customer-success/professional-services-engineering/selling/) team is made up of not only GitLab subject matter experts but seasoned DevOps professionals who have experience in deploying and maintaining both large-scale applications as well as creating and teaching best practices throughout the SDLC. Our experts help lead Concurrent DevOps Transformations, providing direct support to our customer's strategic business initiatives. GitLab's Professional Services team exists to enable your clients realize the full value of their GitLab installation. We can provide direct implementation support to ensure the GitLab installation is resilient and secure. We also offer migration services to facilitate the transition to GitLab by delivering a clean dataset to resume operations at once. Our education and specialized training provide training in best practices, such as CI/CD, version control, metrics, and more.
   - You can also watch the [Sales Enablement Session](/handbook/customer-success/professional-services-engineering/sales-enablement/) about how to sell services
 - **GitLab Direction & Latest Releases**
   - Our vision is to replace disparate DevOps toolchains with a single application that is pre-configured to work by default across the entire DevOps lifecycle. We aim to make it faster and easier for groups of contributors to deliver value to their users, and we achieve this by enabling:
@@ -112,7 +103,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
     - [GitLab Releases](https://about.gitlab.com/releases/categories/releases/)
 - **Product Maturity**
   - GitLab has a broad scope and vision, and we are constantly iterating on existing and new features. Some stages and features are more mature than others.
-  - To convey the state of our feature set and be transparent, we have developed a [GitLab Product Maturity framework](https://about.gitlab.com/direction/maturity/) for categories, application types, and stages.
+  - To convey the state of our feature set and be transparent, we have developed a [GitLab Product Maturity framework](https://about.gitlab.com/direction/#maturity) for categories, application types, and stages.
 - **Additional Resources**
   - The below are resources you might want to review or bookmark for later.
     - [GitLab Terms & Conditions](https://about.gitlab.com/terms/)
@@ -144,7 +135,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
   - Read about [Success Plans in the Handbook](/handbook/customer-success/csm/success-plans/)
   - Read about [Executive Business Reviews in the Handbook](/handbook/customer-success/csm/ebr/)
 - **Professional Services Engineers (Material - Handbook - 10 minutes)**
-   -Professional Services Engineers (PSEs) provide professional services on-site or remote deployment of GitLab technology and solutions as well as training. The PSE will act as the technical representative leading the direct interaction with the customer’s personnel and project teams by rolling out best practices.
+   -Professional Services Engineers (PSEs) provide professional services on-site or remote deployment of GitLab technology and solutions as well as training. The PSE will act as the technical representative leading the direct interaction with the customer's personnel and project teams by rolling out best practices.
   - Read the [PSE Role job description](/job-families/sales/professional-services-engineer/)
   - Read the [Handbook](/handbook/customer-success/professional-services-engineering/)
 - **Customer Success Handbook (Material - Handbook - 10 minutes)**
@@ -213,7 +204,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 - **Using GitLab: The Basics (Material - Handbook - 45 minutes)**
    -This module includes information to help you learn GitLab, and walks you through Projects, Issues, Merge Requests, Pipelines, Settings, User & Admin Area. It includes the Git Basics Training commonly delivered to customers by Professional Services and documentation to help you feel more comfortable with using GitLab.
    -[Learning GitLab with Git Basics](https://gitlab-training.gitlab.io/basics/deck/both.html#/1)
-   -[GitLab Basics Guides](https://docs.gitlab.com/ee/gitlab-basics/)
+   -[GitLab Basics Guides](https://docs.gitlab.com/ee/tutorials/)
    -[Introduction to GitLab Workflow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
    -[Description Templates](https://gitlab.com/help/user/project/description_templates)
 - **GitLab Tech Stack Details (Material - Handbook - 10 Minutes)**
@@ -246,9 +237,9 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 - **Support for GitLab Team Members (Material - Handbook - 10 Minutes)**
   - [GitLab Support](/handbook/support/internal-support/#what-does-the-support-team-do) provides technical support to our Self-managed and GitLab.com customers for the GitLab product. We are not internal IT Support, so we probably can't help you with your MacBook, 1Password or similar issues.
 - **GitLab Alliances (Material - Handbook - 10 Minutes)**
-  - Watch the [video](https://www.youtube.com/watch?v=Mi3dtKxypkA&feature=youtu.be), check out the [handbook](/handbook/alliances/) page, and [slides](https://docs.google.com/presentation/d/1iSW8-h6nVaqIdHm5jJZqRrHMB-GCiOe-9ODFo0oke4E/edit?usp=sharing) to understand how we parter with other companies to accelerate GitLab’s trajectory by connecting the great work every team is doing with the outside world.
+  - Watch the [video](https://www.youtube.com/watch?v=Mi3dtKxypkA&feature=youtu.be), check out the [handbook](/handbook/alliances/) page, and [slides](https://docs.google.com/presentation/d/1iSW8-h6nVaqIdHm5jJZqRrHMB-GCiOe-9ODFo0oke4E/edit?usp=sharing) to understand how we parter with other companies to accelerate GitLab's trajectory by connecting the great work every team is doing with the outside world.
 - **GitLab Terms & Conditions (Material - Handbook - 10 Minutes)**
-  - The following [terms and conditions](https://about.gitlab.com/terms/) govern all use of the GitLab.com website, or any other website owned and operated by GitLab which incorporate these terms and conditions) (the “Website”), including all content, services and support packages provided on via the Website. The Website is offered subject to your acceptance without modification of all of the terms and conditions contained herein and all other operating rules, policies (including, without limitation, procedures that may be published from time to time on this Website by GitLab (collectively, the “Agreement”).
+  - The following [terms and conditions](https://about.gitlab.com/terms/) govern all use of the GitLab.com website, or any other website owned and operated by GitLab which incorporate these terms and conditions) (the "Website"), including all content, services and support packages provided on via the Website. The Website is offered subject to your acceptance without modification of all of the terms and conditions contained herein and all other operating rules, policies (including, without limitation, procedures that may be published from time to time on this Website by GitLab (collectively, the "Agreement").
 - **Where to Find Sponsored Marketing Events (Material - Handbook - 10 Minutes)**
   - Take a look at the [marketing issue board](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933457?&label_name[]=West) to see when and where we will be hosting marketing events.
 
@@ -353,15 +344,15 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 ### 13. Integrations (SA, CSM, and PSE Only)
 
 - **Category Overview**
-  - GitLab's vision is to be the best single application for every part of the DevOps toolchain. However, some customers use tools other than our built-in features–and we respect those decisions. The Integrations category was created specifically to better serve those customers. Currently, GitLab offers [30+ project services](https://docs.gitlab.com/ee/user/project/integrations/project_services.html#project-services) that integrate with a variety of external systems. Integrations are a high priority for GitLab, and the Integrations category was established to develop and maintain these integrations with key 3rd party systems and services.
+  - GitLab's vision is to be the best single application for every part of the DevOps toolchain. However, some customers use tools other than our built-in features–and we respect those decisions. The Integrations category was created specifically to better serve those customers. Currently, GitLab offers [30+ project services](https://docs.gitlab.com/ee/user/project/integrations/) that integrate with a variety of external systems. Integrations are a high priority for GitLab, and the Integrations category was established to develop and maintain these integrations with key 3rd party systems and services.
 - **Jira**
   - GitLab Issues are a powerful tool for discussing ideas and planning and tracking work. However, many organizations have been using Jira for these purposes and have extensive data and business processes built into it. While you can always migrate content and process from Jira to GitLab Issues, you can also opt to continue using Jira and use it together with GitLab through our [integration.](https://docs.gitlab.com/ee/integration/jira/) For a video demonstration of integration with Jira, watch [GitLab workflow with Jira issues](https://youtu.be/fWvwkx5_00E)
 - **Jenkins**
-  - GitLab’s [Jenkins integration](https://docs.gitlab.com/ee/integration/jenkins.html) allows you to trigger a Jenkins build when you push code to a repository, or when a merge request is created. Additionally, it shows the pipeline status on merge request widgets and on the project’s home page. Videos are also available on [GitLab workflow with Jira issues and Jenkins pipelines](https://youtu.be/Jn-_fyra7xQ) and [Migrating from Jenkins to GitLab.](https://youtu.be/RlEVGOpYF5Y)
+  - GitLab's [Jenkins integration](https://docs.gitlab.com/ee/integration/jenkins.html) allows you to trigger a Jenkins build when you push code to a repository, or when a merge request is created. Additionally, it shows the pipeline status on merge request widgets and on the project's home page. Videos are also available on [GitLab workflow with Jira issues and Jenkins pipelines](https://youtu.be/Jn-_fyra7xQ) and [Migrating from Jenkins to GitLab.](https://youtu.be/RlEVGOpYF5Y)
 - **Github**
   - GitLab provides an integration for updating the pipeline statuses on GitHub. This is especially useful if using GitLab for CI/CD only. This project integration is separate from the [instance wide GitHub integration](https://docs.gitlab.com/ee/user/project/import/github.html#mirroring-and-pipeline-status-sharing) and is automatically configured on [GitHub import.](https://docs.gitlab.com/ee/integration/github.html)
 - **GitLab as OAuth 2 Authentication Service Provider (Material - GitLab Docs - 60 minutes)**
-   -OAuth provides to client applications a ‘secure delegated access’ to server resources on behalf of a resource owner. In fact, OAuth allows an authorization server to issue access tokens to third-party clients with the approval of the resource owner, or the end-user.
+   -OAuth provides to client applications a 'secure delegated access' to server resources on behalf of a resource owner. In fact, OAuth allows an authorization server to issue access tokens to third-party clients with the approval of the resource owner, or the end-user.
    -Review this page to learn how to use [GitLab as an OAuth authentication service provider](https://docs.gitlab.com/ee/integration/oauth_provider.html)
 
 </details>
@@ -381,7 +372,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
   - Create a project in a familiar framework and language. Add the following capabilities to the project:
     - Containerize the application and push to the container registry
     - Enable GitLab Kubernetes integration and [connect to the demo cluster](/handbook/customer-success/demo-systems/tutorials/getting-started/configuring-group-cluster/)
-    - Add unit tests to the project and include [unit test reports](https://docs.gitlab.com/ee/ci/unit_test_reports.html)
+    - Add unit tests to the project and include [unit test reports](https://docs.gitlab.com/ee/ci/testing/unit_test_reports.html)
     - Add [static analysis](https://docs.gitlab.com/ee/user/application_security/sast/) to identify vulnerabilities in the codebase
     - Add [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) to identify vulnerabilities in the projects dependencies
     - Add [multiple approvals rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html) and review gating mechanisms

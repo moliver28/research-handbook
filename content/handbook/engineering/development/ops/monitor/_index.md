@@ -1,14 +1,7 @@
 ---
-
 title: "Monitor Stage"
 description: "The Monitor Stage is responsible providing observability and response features."
 ---
-
-
-
-
-
-
 
 ## Groups
 

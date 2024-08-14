@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab for Open Source Program Workflows"
 description: "Details on program-specific workflows related to the GitLab for Open Source Program"
 ---

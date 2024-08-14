@@ -35,7 +35,7 @@ An intern must:
 
 ### Data Governance and Quality Analyst (Associate)
 
-The Data Governance and Quality Analyst (Associate) reports to the [Director, Data Governance and Data Quality](/job-families/finance/data-and-insights-executive/#director-data-governance-and-quality) 
+The Data Governance and Quality Analyst (Associate) reports to the [Director, Data Governance and Data Quality](/job-families/finance/data-and-insights-executive/#director-data-governance-and-quality)
 
 #### Data Governance and Quality Analyst (Associate) Job Grade
 
@@ -54,7 +54,7 @@ The responsibilities of this role includes but are not limited to the below
 
 #### Data Governance and Quality Analyst (Associate) Requirements
 
-- Bachelor’s degree in a quantitative discipline or relevant experience
+- Bachelor's degree in a quantitative discipline or relevant experience
 - 1+ years experience in an analytics role or data governance role or equivalent experience/training
 - Working knowledge of analytical tools, SQL or similar coding language, and relational databases
 - Hands on experience in building dashboards using Tableau

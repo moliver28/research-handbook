@@ -17,8 +17,8 @@ There are 3 groups within marketing who handle external events. Each group has a
 - This language is what we should be adding to supplier agreements (when agreeing on their template):
   - "Termination for Convenience. GitLab may terminate this Agreement, any SOW or Order, or all at any time, for no reason or for any reason, upon notice to Vendor. Upon receipt of notice of such termination, Vendor shall inform GitLab of the extent to which it has completed performance as of the date of the notice, and Vendor will collect and deliver to GitLab whatever Work Product then exists, if applicable. GitLab will pay Vendor for all Work acceptably performed through the date of notice of termination, provided that GitLab will not be obligated to pay any more than the payment that would have become due had Vendor completed and GitLab had accepted the Work. GitLab will have no further payment obligation in connection with any termination. Upon termination or expiration of this Agreement, Vendor shall return or destroy any GitLab Confidential Information and provide certification thereof."
 - In the event that any supplier does not accept the termination for convenience language here, then, we can following up with this option
-  - "Neither party shall be liable to the other for delays or failures in performance resulting from causes beyond the reasonable control of that party, including, but not limited to, acts of God, labor disputes or disturbances, material shortages or rationing, pandemics, riots, acts of war, governmental regulations, communication or utility failures, or casualties (“Force Majeure”).
-- In the event of a Force Majeure impact on the performance of either party, then the parties are immediately relieved of obligation to perform. From notice to supplier, GitLab is relieved of the payment obligation. As soon as is practical, but not more than sixty (60) days from GitLab’s notice to supplier, GitLab shall receive from supplier a pro-rata refund of, any fees previously paid, from the date of notice to supplier to the end of the term."
+  - "Neither party shall be liable to the other for delays or failures in performance resulting from causes beyond the reasonable control of that party, including, but not limited to, acts of God, labor disputes or disturbances, material shortages or rationing, pandemics, riots, acts of war, governmental regulations, communication or utility failures, or casualties ("Force Majeure").
+- In the event of a Force Majeure impact on the performance of either party, then the parties are immediately relieved of obligation to perform. From notice to supplier, GitLab is relieved of the payment obligation. As soon as is practical, but not more than sixty (60) days from GitLab's notice to supplier, GitLab shall receive from supplier a pro-rata refund of, any fees previously paid, from the date of notice to supplier to the end of the term."
 - Required details for leads shared include: first name, last name, company, title, email
 
 ## Which events is GitLab already sponsoring?
@@ -49,7 +49,7 @@ If your event fits the criteria above and you would like support from marketing,
 - **Developer Relations** - We are unable to support inbound requests for sponsorship of community events for the remainder of FY23.
 - [**Corporate Events**](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_Sponsored_Corporate_Events) - use the "Event-Request" template
 - **Field Marketing**
-  `Please Note:` *These requests will be reviewed by the appropriate regional Field Marketing Manager. Even if the event is free or low-cost, all requests must be approved by Field Marketing prior to any commitment to ensure the event or tactic aligns to the marketing strategy, meets SAO objectives and Field Marketing can properly execute to maximize GitLab’s future success.* - To suggest a Field Marketing event (in-person or virtual) or other tactic for review, please open an [`Event_Tactic_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Event_Tactic_Request) issue and follow the instructions.
+  `Please Note:` *These requests will be reviewed by the appropriate regional Field Marketing Manager. Even if the event is free or low-cost, all requests must be approved by Field Marketing prior to any commitment to ensure the event or tactic aligns to the marketing strategy, meets SAO objectives and Field Marketing can properly execute to maximize GitLab's future success.* - To suggest a Field Marketing event (in-person or virtual) or other tactic for review, please open an [`Event_Tactic_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Event_Tactic_Request) issue and follow the instructions.
 
 Be sure you review the issue template and provide all necessary information that is asked of you in the issue.
 
@@ -130,11 +130,11 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
 * Event Budget:
 * Allocadia ID: `enter ID`
 
-## [Copy for landing page and emails >>]() - [template](https://docs.google.com/document/d/1_ek6A9fFPxHzPDTGs24oKM-5J5eQPLQ5CIgD0zu7_uI/edit#heading=h.6vgpxnyb4dh1)
+## [Copy for landing page and emails >>]() - template: https://docs.google.com/document/d/1_ek6A9fFPxHzPDTGs24oKM-5J5eQPLQ5CIgD0zu7_uI/edit#heading=h.6vgpxnyb4dh1
 
 * Alliances/Partner Marketing involved - (if yes, must designate a DRI)
 * Will this event include use of Marketing Development Funds (MDFs)? YES/NO
-   * [Requesting MDF Funds](<a href="https://about.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/channel-marketing/#requesting-mdf-funds"</a>)
+   * Requesting MDF Funds: `https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/channel-marketing/#requesting-mdf-funds`
 
 ## Issues to be created
 
@@ -304,7 +304,7 @@ FMM determines format of this virtual event from [documented options.](/handbook
   - FMM: set up Zoom Meeting and provide Zoom link and ID to FMC.
 - **If this is a GitLab Hosted ZOOM Webcast:**
   - FMM: provide new campaign tag (if applicable).
-  - FMC: If Epic wasn’t created, create the epic with the [Virtual Event Epic code.](/handbook/marketing/virtual-events/) If Epic was created, change it to the Virtual Event Epic Code.
+  - FMC: If Epic wasn't created, create the epic with the [Virtual Event Epic code.](/handbook/marketing/virtual-events/) If Epic was created, change it to the Virtual Event Epic Code.
   - FMC: Create new marketo program under `Virtual Events` cloning `YYYYMMDD_WebcastTopic_Region (Single time slot)` or `YYYYMMDD_WebcastTopic_Region (Multiple Time Slot)` template and save to the `GitLab Webcasts` folder. If you are using the same campaign tag as the original live event, add "OLD" to the beginning of the existing live event Marketo program as Marketo will not allow two programs with the same name.
   - FMC: create a new folder in the `GitLab Webcasts` folder for the virtual event.
   - FMC: create new SF campaign by syncing new marketo program to SFDC.
@@ -316,7 +316,7 @@ FMM determines format of this virtual event from [documented options.](/handbook
   - Deactivate the `Registration` and `Interesting Moments` smart campaigns.
   - Deactivate any invitations (ex: sales-nominated) smart campaigns that are live and stop all promotions.
   - If you want to create a new landing page for the virtual event and the initial landing page has already been promoted:
-    - Add a note about how the virtual event is collecting registrations.Suggestion: `We’ve gone virtual! Please register the virtual event page [link to new page] to register for this event.`
+    - Add a note about how the virtual event is collecting registrations.Suggestion: `We've gone virtual! Please register the virtual event page [link to new page] to register for this event.`
     - Remove the form
   - If you want to keep the same landing page URL as the offline event:
     - Delete the landing page from the newly created program
@@ -331,7 +331,7 @@ FMM determines format of this virtual event from [documented options.](/handbook
 
 These will be Virtual Sponsorships with booths (not just a sponsored webcast).
 
-- FMC: if Epic wasn’t created, create the epic with the [Virtual Event Epic code.](/handbook/marketing/virtual-events/) If Epic was created, change it to the Virtual Event Epic Code.
+- FMC: if Epic wasn't created, create the epic with the [Virtual Event Epic code.](/handbook/marketing/virtual-events/) If Epic was created, change it to the Virtual Event Epic Code.
 - FMM/CMM: let interested teams know that the event has switched to digital and sales-nominated flow has been stopped (if applicable).
 - FMC: Add [Virtual] to the beginning of the epic and all supporting issues.
 - FMM/CMM: Add a note to the epic and the main issue: `This event has changed from live to virtual. Original date [2020-xx-xx], New Date: [2020-xx-xx], This [epic/issue] reflects information for the virtual event.` Date can be left off if it is the same.
@@ -341,9 +341,9 @@ These will be Virtual Sponsorships with booths (not just a sponsored webcast).
 - FMC: create new SF campaign by syncing new marketo program to SFDC.
 - FMC: update links in Epic to new SFDC and Marketo links. Update the utm if applicable.
 - FMC: follow standard processes with tokens, program activation, etc.
-- FMC: For conferences: update event YML with event’s virtual details (change location to virtual, update copy dates if needed)
+- FMC: For conferences: update event YML with event's virtual details (change location to virtual, update copy dates if needed)
 - **Existing event Marketo program FMC tasks:**
-  - Move the existing event marketo program under the new folder you have created and add `OLD` at the beginning of the title. If the original Marketo program wasn’t being used yet (no invites, no members, only linked to SFDC) it can also be deleted or moved to an archived folder.
+  - Move the existing event marketo program under the new folder you have created and add `OLD` at the beginning of the title. If the original Marketo program wasn't being used yet (no invites, no members, only linked to SFDC) it can also be deleted or moved to an archived folder.
   - Deactivate the `Interesting Moments` smart campaign.
   - Deactivate any invitations (ex: sales-nominated) smart campaigns that are live and stop all promotions.
 - **Salesforce FMC tasks (applies to both types):**
@@ -389,7 +389,7 @@ The above planning list is not exhaustive - see planning issue template in field
 - Suggestion for staffing: Field Marketing will evalute GitLab team members who live in the area who might be a good fit for the audience.
 - We lean towards those who might be thought leaders, specialists, or more social for a specific show - i.e. if we are sponsoring an AWS show, we would like for a GitLab + AWS expert to staff the event.
 - We aim to bring minimal team members to keep costs and disruption to normal workflow low. We take into account what value everyone will provide as well as coverage balance. Please check with the event DRI if you personally would like to attend or if you would like to suggest someone participate in an event.
-- Once you have agreed to attend an event, you are not able to back out unless there is a customer facing obligation you need to tend to. We have this in place to avoid unnecessary rework on the event DRI’s behalf.
+- Once you have agreed to attend an event, you are not able to back out unless there is a customer facing obligation you need to tend to. We have this in place to avoid unnecessary rework on the event DRI's behalf.
 - A lot of times a technical sales resource needs to also be assigned to attend an event. In order to do so, please review the SA handbook for [instructions](/handbook/solutions-architects/#when-and-how-to-engage-a-solutions-architect) on how to secure one of our awesome SA's. Tag the issue with technical-staff::required and once staffing attained change to label technical-staff::complete.
 - All those attending will need their manager's approval.
 - If you have been approved by the DRI and your manager to help staff an event, all your travel will be included during the time for the event/ expo days. You need to be onsite and ready to help out as soon as the first expo hall shift opens up and you may book travel any time after the expo hall closes. We will cover the night of lodging before the expo hall opens through to the night it closes. Any additional nights will need to be covered by the individual.
@@ -458,33 +458,33 @@ The sales nominated process allows for records to be added to the campaign in or
 - Perfect your Pitch
   - Most people have two ears and one mouth. Successful pitching is two parts listening to one part talking. Be engaged and interested in folks that visit. Be genuinely curious about their story. Understand them first before you start telling them about us.
   - A great way to start is to offer a welcome and say,
-    1. "Hi, my name is [your_name]”
-       1. “Hi I’m [their_name]”
-    1. “[their_name, are you familiar with GitLab?”
-       1. “Yes”
-          1. “Thanks for using us, I'm curious which aspect of the DevOps platform you're using?”
-       1. “No” - “Great, in a nutshell we <140 character description> - for example, what company do you work for?”
-          1. “Company X”
-          1. And what’s your role at company x?
-          1. “Title X”
+    1. "Hi, my name is [your_name]"
+       1. "Hi I'm [their_name]"
+    1. "[their_name, are you familiar with GitLab?"
+       1. "Yes"
+          1. "Thanks for using us, I'm curious which aspect of the DevOps platform you're using?"
+       1. "No" - "Great, in a nutshell we <140 character description> - for example, what company do you work for?"
+          1. "Company X"
+          1. And what's your role at company x?
+          1. "Title X"
           1. Tailor your pitch to their specific experience. Ask about what tools they are using today, what they like or dislike about those tools.
   - Working at the booth is a great place to try out different ways of explaining technology and trying out different value propositions to see what resonates the most.
   - Know some stock answers
-  - You can ask them which talk they’ve heard so far has been the most interesting.
+  - You can ask them which talk they've heard so far has been the most interesting.
 - Close the deal
   - Figure out what the next step for this person is. Are they a decision maker at a large org?
   - If a conversation is running long, get their info and schedule a time to chat or follow up at a later time outside of the booth. The goal of the booth is to make initial contact and connections.
   - Give a personal follow up
 - Stand at the front of booth facing the crowd.
-  - Don’t make folks walk into the booth and seek you out. Stand out at the front. Make eye contact and smile at folks walking by. If they stop or pause you can ask them, “Are you familiar with GitLab?”
+  - Don't make folks walk into the booth and seek you out. Stand out at the front. Make eye contact and smile at folks walking by. If they stop or pause you can ask them, "Are you familiar with GitLab?"
 - Hangout outside the booth.
-  - Too many GitLab team-members in the booth discourages other folks from coming by. The booth can be a great place to meet up, but don’t hang out there. Move the conversation to a near by lounge or social area.
+  - Too many GitLab team-members in the booth discourages other folks from coming by. The booth can be a great place to meet up, but don't hang out there. Move the conversation to a near by lounge or social area.
   - When you are at the booth keep conversation with your coworkers to a minimum.
   - When you are at the booth focus on serving the attendees.
   - Do not do normal daily work in the booth - the booth is not a place for taking calls, or responding to emails. When you are at the booth you are on booth duty and that is it.
 - Be prepared to schedule follow up meetings
   - To make it easier for our prospects and customers to continue conversation initiated at the event (considering all of the vendor follow-ups and the need to catch up on missed days of productivity following events), please have your computer handy (in a safe and secure location within the booth) to schedule Initial Qualifying Meetings when appropriate.
-  - Some example verbiage to facilitate this would be: “Let's schedule some time to follow up on your conversation with us today in a setting that is a little less hectic so we can answer any questions that you may have”
+  - Some example verbiage to facilitate this would be: "Let's schedule some time to follow up on your conversation with us today in a setting that is a little less hectic so we can answer any questions that you may have"
 - Keep an abundant tidy stash of swag out
   - During slow times, restock swag and tidy up booth.
 - Keep the booth clean.
@@ -499,10 +499,10 @@ The sales nominated process allows for records to be added to the campaign in or
 #### Scanning Best Practices
 
 - Be an active but polite Badge Scanner
-  1. Don’t reach for the badge without first asking if you can scan someone’s badge and don't lead a conversation with "May I scan you." Ask folks politely, “Would you appreciate a follow up email?” or “Mind if I scan your badge?” Many folks will say, “yes.” If they say, “Not really.” You can say, “Great, we don’t want to clutter up your inbox. You can always go online to about.gitlab.com if you’d like to check back in with us.”
+  1. Don't reach for the badge without first asking if you can scan someone's badge and don't lead a conversation with "May I scan you." Ask folks politely, "Would you appreciate a follow up email?" or "Mind if I scan your badge?" Many folks will say, "yes." If they say, "Not really." You can say, "Great, we don't want to clutter up your inbox. You can always go online to about.gitlab.com if you'd like to check back in with us."
   1. Trade scans for all swag if the attendee consents. If we have the space and staff, someone should be in charge of distributing and organizing swag, and scanning folks who come by for swag.
 - Take good notes:
-  1. Your initials (This way the email can be more personalized to say, “We saw you chatted with [name] in the booth.”) Add your initials + “follow up” if you personally can send them an email within a week of the conference.
+  1. Your initials (This way the email can be more personalized to say, "We saw you chatted with [name] in the booth.") Add your initials + "follow up" if you personally can send them an email within a week of the conference.
   1. The tech stack (what tools they are using)
   1. Any specifics needed in the follow up (schedule a call, send docs for X, interested in Y, etc.)
 
@@ -551,7 +551,7 @@ The sales nominated process allows for records to be added to the campaign in or
 
 ##### PubSec booth presentation material
 
-- [GitLab’s Hardened Container Image for Secure Software Development](https://docs.google.com/document/d/1Rl0050Z-PYogJAraHNdLPvgpwAmqlJ7-81PpCMpw_Fw/edit#)
+- [GitLab's Hardened Container Image for Secure Software Development](https://docs.google.com/document/d/1Rl0050Z-PYogJAraHNdLPvgpwAmqlJ7-81PpCMpw_Fw/edit#)
 - [PubSec Capabilities Statement](https://about.gitlab.com/images/press/gitlab-capabilities-statement.pdf)
 - [Speed to Mission (whitepaper)](https://about.gitlab.com/resources/whitepaper-speed-to-mission/)
 - [The Hidden Costs of DevOps Toolchains (with guest speaker from Forrester)](https://about.gitlab.com/webcast/simplify-to-accelerate/)
@@ -560,7 +560,7 @@ The sales nominated process allows for records to be added to the campaign in or
 - [Government Matters Technology Leaders Innovation Series: Low-to-High Collaboration (with Marc Kriz) (video)](https://www.youtube.com/watch?v=RvZSTCbPkiE&feature=youtu.be)
 - [Modernizing Government IT through DevOps (whitepaper)](https://about.gitlab.com/resources/whitepaper-modernizing-government-it/)
 - [Cross Domain DevSecOps: Low-to-High Side Collaboration](https://drive.google.com/file/d/1ewgLvmlfg3f0CVE3B6mu9wRtgK-TcORz/view)
-- [DevSecOps: How Proactive Security Integration Reduces Your Agency's Risks & Vulnerability](https://gcn.com/whitepapers/2020/06/gitlab-devsecops-wp-060120.aspx?&pc=G0136GCN&utm_source=webmktg&utm_medium=E-Mail&utm_campaign=G0136GCN)
+- [DevSecOps: How Proactive Security Integration Reduces Your Agency's Risks & Vulnerability](https://www.ncsi.com/wp-content/uploads/2021/03/GCN_DevSecOps_How-Proactive-Security-Integration-Reduces-Your-Agencies-Risks-and-Vulnerability.pdf)
 - [Hardened Containers: The Right Application Platform Can Help DoD Develop Its DevSecOps Culture](https://drive.google.com/file/d/1cszlj5fKFE12qFd4aMNij0a83v-3Fe4r/view)
 - [VPAT Template](https://docs.google.com/document/d/1o6gCe2Se_Cuia-VsrUTdGvESNZVefyoqFAu1NY8rJpQ/edit)
 - [What is GitLab? Speed. Efficiency. Trust](https://www.youtube.com/watch?v=-_CDU6NFw7U&list=PL05JrBw4t0KpEQDAhM3Txia7QHdYlngMa&index=2&t=16s)
@@ -720,7 +720,9 @@ Field Marketing utilizes the [QR Code Generator](https://login.qr-code-generator
 
 Corporate Events utilizes [QR Code Generator](https://www.qr-code-generator.com/) to create specific QR Codes to track how many people are visiting CTA weblinks. We  promote through different pieces of collateral passed out at the booth and signage we have created promoting registration for an on-site ancillary or virtual event. Other use cases such as people scanning to attend onsite virtual activities such as coding challenges or UX surveys.
 
-#### Login for the [QR Code Generator](https://www.qr-code-generator.com/)
+#### Login for the QR Code Generator
+
+[QR Code Generator](https://www.qr-code-generator.com/)
 
 Both Field Marketing and Corporate Events utilize the same login found in the Marketing 1pass vault under `QR Code Generator - Field Marketing and Corporate Events`.
 
@@ -859,7 +861,7 @@ For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
 - Please review the [Marketo Check-in App Instructions](/handbook/marketing/events/#marketo-check-in-app)
 - In order to use the Marketo Check-in App, you must have a wifi connected device.
 - Before the event, use your personal Marketo login to log in to the Marketo Check-in App on the iPad and make sure it is working properly and that your event is displayed. NOTE: Your event is pulled into the app 7 days before the event begins and will not show up before this time.
-- The Marketo Check-in App will pull attendees in alphabetical order unless the first letter of the attendee’s name is not capitalized. Those attendees will show up out of order at the very bottom of the list of names. As a result, it is often faster to check attendees off as attended in a spreadsheet as they come in (see below instructions) and then check them in on the Marketo App after registration.
+- The Marketo Check-in App will pull attendees in alphabetical order unless the first letter of the attendee's name is not capitalized. Those attendees will show up out of order at the very bottom of the list of names. As a result, it is often faster to check attendees off as attended in a spreadsheet as they come in (see below instructions) and then check them in on the Marketo App after registration.
 - A lead list is not required when using the Marketo check-in app as leads are synced directly to the Marketo program.
 
 ### Field Marketing Venue Search
@@ -890,11 +892,11 @@ At GitLab owned events we will sometimes host 10 minute lightning meetings with 
 
 #### Things to consider
 
-- If people would just like to meet the CXO and don’t need to take the full 10 mins for the meeting that is great! The max time is 10 mins.
-- There is no agenda for the 10 min meeting. The DRI for the meetings should quickly research the company via SFDC (if you don’t have the SFDC app on your phone, this is a great use case for why it’s useful!) gather as much info as quickly possible and relay this info to the CXO. As an example, if there is an enterprise customer next in-line to meet with CXO, let the CXO know. Short brief info, as you won’t have much time to relay this info.
+- If people would just like to meet the CXO and don't need to take the full 10 mins for the meeting that is great! The max time is 10 mins.
+- There is no agenda for the 10 min meeting. The DRI for the meetings should quickly research the company via SFDC (if you don't have the SFDC app on your phone, this is a great use case for why it's useful!) gather as much info as quickly possible and relay this info to the CXO. As an example, if there is an enterprise customer next in-line to meet with CXO, let the CXO know. Short brief info, as you won't have much time to relay this info.
 - Notes should be taken by the DRI or a designated delegate in the room so the CXO can focus on the meeting. These notes should be added within 48 hours to the person record in SFDC by the DRI note taker. If any next steps were discussed and an action was assigned to someone not in the room, be sure to tag the person who was assigned!
 
-## How to add events to [about.gitlab.com/events](https://about.gitlab.com/events/)
+## How to add events to `about.gitlab.com/events`
 
 In an effort to publicly share where people can find GitLab for virtual events and events in-person throughout the world, we have created [about.gitlab.com/events](https://about.gitlab.com/events). This page is to be updated by the person responsible for the event. This page is now managed through [Contentful](/handbook/marketing/digital-experience/contentful-cms/). To add your event to the page or make any changes to existing events, please see the instructions [here](/handbook/marketing/digital-experience/contentful-cms/editing-content/#adding-an-event-to-the-events-page).
 
@@ -924,7 +926,7 @@ For corporate conferences, we will send emails in accordance with the standards 
 
 ## Speaking at events
 
-If you’re looking for information about speaking at an events head over to our [Corporate Communications page](/handbook/marketing/corporate-communications/speaking-resources/) for complete details.
+If you're looking for information about speaking at an events head over to our [Corporate Communications page](/handbook/marketing/corporate-communications/speaking-resources/) for complete details.
 
 ### Paying for Speaker travel
 

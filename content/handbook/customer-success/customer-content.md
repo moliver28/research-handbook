@@ -1,5 +1,4 @@
 ---
-
 title: "Resources to get started with GitLab"
 description: "A 5-day plan to get started with GitLab"
 ---

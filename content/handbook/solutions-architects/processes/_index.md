@@ -1,8 +1,6 @@
 ---
-
 title: Solutions Architects Processes
 ---
-
 
 ## SA Process Maps
 
@@ -99,7 +97,7 @@ handbook page.
 - You can start with [Security - GitLab Trust Center](https://about.gitlab.com/security/) in some cases.
 - Encourage customers to use and review [Self-service Information Gathering](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
 - SAs can attempt a first-pass for all security questionnaires if time permits
-  - Do it, it’s fun and educational!
+  - Do it, it's fun and educational!
   - You can also make use of the [GitLab's Trust Center](https://trust.gitlab.com/)
 - Additional requests can be made in [#sec-fieldsecurity](https://gitlab.slack.com/archives/CV5A53V70) Slack Channel.
 - When spending time on a security questionnaire ensure you capture the initial time dedicated via our SA Activity Capture system (troops).
@@ -214,7 +212,7 @@ Solution Architects should participate in [technical discovery](#technical-disco
 - Prospect Q&A sessions
 - RFI/RFP completion
 - PoV planning, documentation and execution strategy
-- [Security Audits](https://about.gitlab.comhandbook/security/security-assurance/field-security/customer-security-assessment-process.html)
+- [Security Audits](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html)
 - [SOW Scoping with Professional Services](/handbook/customer-success/professional-services-engineering/selling/)
 
 SA's may also work in tandem with a CSM to support existing customers, especially when expand opportunities exist within the account. And SA's may also have regular touch points smaller customers who do not have a CSM assigned.
@@ -231,7 +229,7 @@ The Solutions Architect, in order to tailor conversations and demos to demonstra
 
 1. **Outcome:**
 
-- What’s in it for the client?
+- What's in it for the client?
 - Why look at a new strategy for software development?
 - What triggered the sudden client interest in GitLab?
 
@@ -385,7 +383,7 @@ There is a 5 day SLA in place to secure SA participation.
 
 ## Request Solutions Support from Product
 
-When a prospect or customer have required capabilities that do not map directly to our product offering, Solutions Architect’s first step is to explore solutions or work-arounds that would satisfy their requirements with our current toolset.
+When a prospect or customer have required capabilities that do not map directly to our product offering, Solutions Architect's first step is to explore solutions or work-arounds that would satisfy their requirements with our current toolset.
 If the SA is unable to determine an approach that works for the prospect, the next best action is to reach out to the Product Manager. To determine what Product Manager is appropriate, review the [Product Categories handbook page](/handbook/product/categories/).
 
 To be efficient as possible, this is the recommended approach:

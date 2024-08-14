@@ -24,13 +24,13 @@ To summarize:
 
 In comparison to other usability testing protocols, RITE consists of the following elements:
 
-- **It’s rapid and iterative:** RITE tests are run regularly with a smaller number of participants. Each usability problem identified you aim to fix *immediately* and *test again* with a new set of participants. This process continues until no new usability issues are identified.
+- **It's rapid and iterative:** RITE tests are run regularly with a smaller number of participants. Each usability problem identified you aim to fix *immediately* and *test again* with a new set of participants. This process continues until no new usability issues are identified.
 - **Classification of issues:** To move quickly with the test sessions, usability problems identified in a session are categorized into the following categories:
 
 | Category | Description                                                                                                                                       | What to do                                                                               |
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 |     A    | Issues with an obvious cause and an obvious solution that can be implemented in the prototype quickly, such as text changes, re-labeling buttons. | Implement solutions immediately and this will be the version for the next test session.  |
-|     B    | Issues with an obvious cause and an obvious solution that can’t be implemented quickly/by the time of the next test session.                      | Start working on the solution to address these issues and test in an upcoming session.   |
+|     B    | Issues with an obvious cause and an obvious solution that can't be implemented quickly/by the time of the next test session.                      | Start working on the solution to address these issues and test in an upcoming session.   |
 |     C    | Issues with no obvious cause or due to other factors, such as task instructions.                                                                  | Collect more data in the upcoming session until they can be promoted to Category A or B. |
 
 - **Domain knowledge and decision making:** The decision makers of the team should be present or catch up on the session insights in order to quickly react on the learnings from each session. Domain knowledge is essential to estimate if the observed problems are likely to be a problem for others.
@@ -41,7 +41,7 @@ RITE studies promise a rapid and iterative process for evaluating and improving 
 
 - **Product Designer:** Make time to prepare a design prototype, set up a test in usertesting.com based on the prototype, and then launch it. Watch the sessions as soon as they are available and analyze insights. Share your observations in the team sync and decide what changes need to be made with the Product Manager. Document all identified usability problems by placing them into the three categories (A-C). Based on the learnings, you need time to work on future iterations. In the example schedule below, we aim to test two iterations per week, which means during this week, the majority of your time will be spent on running RITE.
 - **Product Managers:** While optional, make time to watch each research session as soon as a study gets picked up. Share your observations in the team sync, and decide what changes need to be made with the Product Designer for the next iteration. In the example schedule below, we aim to test two iterations per week.
-- **Engineering:** Building great products is a team effort, and having exposure to real users regularly is crucial. While optional, it’s recommended to make time to watch some or all of the sessions and contribute your insights in the team sync.
+- **Engineering:** Building great products is a team effort, and having exposure to real users regularly is crucial. While optional, it's recommended to make time to watch some or all of the sessions and contribute your insights in the team sync.
 
 ### Sample size
 
@@ -51,7 +51,7 @@ The sample size for RITE studies is both unique and critical to follow. It's fai
 
 You only need 3 participants per iteration because as more iterations are made, the N increases, which provides that opportunity to capture additional usability issues. Over time, a larger number of users provides feedback on the product, and you fix the problems you identify as you go.
 
-The RITE process is completed if you don’t identify any new usability issues in an iteration. However, a sample size of 5 participants is recommended to increase the likelihood of identifying the majority of usability issues. Therefore, if your iteration doesn’t bring in any new usability issues, add two more participants to ensure that all usability problems were identified.
+The RITE process is completed if you don't identify any new usability issues in an iteration. However, a sample size of 5 participants is recommended to increase the likelihood of identifying the majority of usability issues. Therefore, if your iteration doesn't bring in any new usability issues, add two more participants to ensure that all usability problems were identified.
 
 ### Metrics
 
@@ -59,7 +59,7 @@ Since a RITE study is a usabity testing method, the same measures that are used 
 
 ### Number of tasks
 
-There's no magic number when it comes to how many tasks to include. A guideline is to have [3 - 4 tasks](/handbook/product/ux/ux-research/writing-usability-testing-script/#tasks) to ensure that participants don’t get tired and exhausted. Another aspect to consider is that unmoderated test sessions should be 15 - 20 minutes max and moderated sessions 60 minutes max. If you find your study may be too long for unmoderated testing, you might have to split your tasks across multiple usertesting.com sessions.
+There's no magic number when it comes to how many tasks to include. A guideline is to have [3 - 4 tasks](/handbook/product/ux/ux-research/writing-usability-testing-script/#tasks) to ensure that participants don't get tired and exhausted. Another aspect to consider is that unmoderated test sessions should be 15 - 20 minutes max and moderated sessions 60 minutes max. If you find your study may be too long for unmoderated testing, you might have to split your tasks across multiple usertesting.com sessions.
 
 The key thing to remember when writing your tasks is [that they reflect realistic user goals](/handbook/product/ux/ux-research/writing-usability-testing-script/#tasks). Taking the JTBD into account when creating your tasks helps keep the focus on user goals.
 
@@ -96,7 +96,7 @@ Same as Day 2: Launch your test in usertesting.com with three participants. Anal
 
 Same as Day 3: Everyone in the team should have a chance to watch the session and contribute to deciding how to act upon the learnings.
 
-You can repeat this process in the same milestone or in an upcoming one, depending on how long it takes to find solutions for issues in Category B, as well as other activities that need to be taken care of. Document usability issues in Category B (Issues with an obvious solution that can’t be implemented immediately) in GitLab for future planning of work.
+You can repeat this process in the same milestone or in an upcoming one, depending on how long it takes to find solutions for issues in Category B, as well as other activities that need to be taken care of. Document usability issues in Category B (Issues with an obvious solution that can't be implemented immediately) in GitLab for future planning of work.
 
 The process is considered complete when usability issues are no longer found in a sample of 5 participants, and you're confident that your solution is user friendly, which may not happen within one milestone.
 

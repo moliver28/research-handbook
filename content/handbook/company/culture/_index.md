@@ -12,15 +12,18 @@ twitter_creator: "@gitlab"
 Please see our [company page]({{< ref "company" >}}) for more general information about GitLab. You can see how our team has grown at the [GitLab Contribute page.](https://about.gitlab.com/events/gitlab-contribute/)
 
 <!-- blank line -->
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/848558836?h=2fc8efce78&autoplay=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<figure style="padding:56.25% 0 0 0;position:relative;">
+  <iframe src="https://player.vimeo.com/video/947155019" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+</figure>
+<!-- blank line -->
 
 ## Life at GitLab
 
 ![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration-illustration.jpg)
 {.mx-auto style="max-width: 50%;"}
 
-It’s an exciting time to be part of GitLab. We're a fast-growing, all-remote team, and we're looking for people to join us around the world.
-Here's a look at what you can expect from our culture and [all-remote environment]({{< ref "./all-remote/guide" >}}).
+It's an exciting time to be part of GitLab. We're a fast-growing, all-remote team, and we're looking for people to join us around the world.
+Here's a look at what you can expect from our culture and [all-remote environment](all-remote/guide/).
 
 ### Everyone can contribute
 
@@ -53,11 +56,11 @@ As our company and the industry continue to grow, you'll have the freedom to cha
 
 *In the above [interview](https://youtu.be/eIs71f5IEUU) with [Stuart Miniman](https://twitter.com/stu) of [theCUBE](https://www.thecube.net/), GitLab CEO and co-founder Sid Sijbrandij discusses the merits of operating a 100% remote organization, and why he believes it's the future of work.*
 
-> At GitLab, we're figuring out a lot of things you have to do to be all-remote, and we're trying to share those lessons. That's anything from working [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) to [communication styles]({{< ref "./all-remote/effective-communication" >}}) and being intentional about [informal communication]({{< ref "./all-remote/informal-communication" >}}).
+> At GitLab, we're figuring out a lot of things you have to do to be all-remote, and we're trying to share those lessons. That's anything from working [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) to [communication styles](all-remote/effective-communication/) and being intentional about [informal communication](all-remote/informal-communication/).
 >
 > If you Google "*GitLab all-remote*", you'll find tons of tips. And those are based not just on what we say, but what we *do*. We have a public [handbook](/handbook) of over 3000 pages with all our internal processes. You can check out what we really do to make this work.
 >
-> I think it's going to be the future. In the future, companies who make digital products are going to be much more all-remote. And we want to [enable that trend]({{< ref "remote-vision" >}}). We think it's great for [team members]({{< ref "./all-remote/people" >}}).
+> I think it's going to be the future. In the future, companies who make digital products are going to be much more all-remote. And we want to [enable that trend]({{< ref "remote-vision" >}}). We think it's great for [team members](all-remote/people/).
 
 GitLab is one of the world's largest all-remote companies, and being a part of our team offers unique advantages beyond the requisite flexibility you'll find in many organizations.
 
@@ -69,7 +72,7 @@ By nature, having no offices or headquarters makes us more inclusive, more trans
 With a team spread across over 65 countries around the globe, we invite diverse perspectives, we document everything, and we collaborate asynchronously.
 
 Despite all of its benefits for team members, our company, and the world, remote work isn't for everyone.
-Learn more about [all-remote work]({{< ref "all-remote" >}}) at GitLab and decide if it's right for you.
+Learn more about [all-remote work](/handbook/company/culture/all-remote/) at GitLab and decide if it's right for you.
 
 ## Culture at GitLab
 
@@ -78,8 +81,8 @@ Learn more about [all-remote work]({{< ref "all-remote" >}}) at GitLab and decid
 
 Culture at GitLab is composed of three things.
 
-1. [GitLab Values]({{< ref "values" >}})
-1. Camaraderie (mutual trust and friendship). This is created and maintained by [informal communication]({{< ref "./all-remote/informal-communication" >}}). We also build trust by [effectively collaborating]({{< ref "values#dont-let-each-other-fail" >}}) with others.
+1. [GitLab Values](/handbook/values/)
+1. Camaraderie (mutual trust and friendship). This is created and maintained by [informal communication](all-remote/informal-communication/). We also build trust by [effectively collaborating](/handbook/values/#dont-let-each-other-fail) with others.
 1. Work style (how we work). This is defined and articulated in our [communication guide]({{< ref "communication" >}}) and [handbook usage guide]({{< ref "handbook-usage" >}}).
 
 In other organizations, culture may be defined through the *personality of the group*. This includes people who have traits in common and people who you enjoy spending time with. Note that this is not something that should matter when [evaluating people for work]({{< ref "#culture-fit-is-a-bad-excuse" >}}), and this is not what we mean with Culture at GitLab.
@@ -92,7 +95,7 @@ Some key takeaways from the call include:
 
 1. Culture isn't preserved. Instead, it evolves. Every team member can contribute to and iterate on the company culture.
 1. It's important to scale communication as companies grow to accommodate different learning styles, communities, and team member expectations.
-1. Culture shouldn't look at roles or levels in the company. There’s no way for a company to dictate a culture from the top down. If you manage to build up this sense of belonging in everyone in the company, it builds up resilience.
+1. Culture shouldn't look at roles or levels in the company. There's no way for a company to dictate a culture from the top down. If you manage to build up this sense of belonging in everyone in the company, it builds up resilience.
 
 ## Advantages
 
@@ -100,12 +103,12 @@ Some key takeaways from the call include:
 
 ## Other pages related to culture
 
-1. [GitLab 101]({{< ref "./gitlab-101" >}})
+1. [GitLab 101](gitlab-101/)
 1. [GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute/)
 1. [Internal Feedback]({{< ref "internal-feedback" >}})
-1. [Diversity, Inclusion and Belonging]({{< ref "./inclusion" >}})
-1. [All-Remote]({{< ref "./all-remote" >}})
-1. [GitLab Songbook]({{< ref "./songbook" >}})
+1. [Diversity, Inclusion and Belonging](inclusion/)
+1. [All-Remote](all-remote/)
+1. [GitLab Songbook](songbook/)
 1. [Still a Startup]({{< ref "still-a-startup" >}})
 
 ## Historical Anecdotes

@@ -1,5 +1,4 @@
 ---
-
 title: "Qualified"
 description: "Qualified facilitates instant sales conversations with visitors on the GitLab marketing website"
 ---
@@ -38,7 +37,7 @@ If you feel you have been routed a conversation or visitor in error please post 
 
 ### Signals
 
-Signals data is a collection of custom fields added to the Account object, reports, and dashboard components in Salesforce to showcase Signals data for your organization. The Signals Account 360 is a robust account profile that presents an account’s engagement with your campaigns and their likely purchase intent over time. Sales reps and executives alike can view the Signals Account 360 to identify which accounts and opportunities are most likely to close.
+Signals data is a collection of custom fields added to the Account object, reports, and dashboard components in Salesforce to showcase Signals data for your organization. The Signals Account 360 is a robust account profile that presents an account's engagement with your campaigns and their likely purchase intent over time. Sales reps and executives alike can view the Signals Account 360 to identify which accounts and opportunities are most likely to close.
 
 ### Integrations
 
@@ -54,7 +53,7 @@ The Qualified/Outreach integration allows Qualified to be able to identify if a 
 
 #### 6sense
 
-Qualified offers an integration with 6sense to help you pull in firmographic information about the website visitors from the start. Using 6sense’s reverse IP lookup, you can quickly see where the visitor is coming from, their company information, segments they belong to, and insights for their product lines.
+Qualified offers an integration with 6sense to help you pull in firmographic information about the website visitors from the start. Using 6sense's reverse IP lookup, you can quickly see where the visitor is coming from, their company information, segments they belong to, and insights for their product lines.
 
 #### Zoom
 
@@ -65,6 +64,12 @@ A seamless integration with Zoom is coming shortly. Until then, reps can either:
     OR
 
 2. Manually open the calendar invite in Google calendar and click `Add video conferencing details` to add a unique Zoom link.
+
+#### Marketo
+
+While Qualfied can create/edit person records, leads are typically created in SFDC first. Marketo utilizes triggers from SFDC activity or campaign membership for Interesting Moments and scoring for Qualified actions.
+
+Qualified also has an integration to view a program in Marketo, within Qualified. We have hundreds of programs, so to reduce visibility, we created a program tag type `UsedWithQualified` = `True` to surface the program to Marketo. You can do this in Marketo's individual program settings under `setup`. This tag is not required, so despite having a `false` value, you can simply not use it if you do not want to surface the program to Qualified.
 
 ### Performance Measurement
 

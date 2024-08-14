@@ -56,7 +56,7 @@ The Manager, Business Development is a [grade 8](/handbook/total-rewards/compens
 - Work closely with the Events and Digital teams on Field events and targeted ad and nurture campaigns.
 - Work closely with Sales and other members of the Sales Development Leadership team to improve opportunity management and qualification processes
 - Work closely with Sales, Senior SDR Manager/Director, as well as the Regional Sales Director's to identify key company accounts to develop.
-- Work in collaboration with Content, Marketing Program Managers, and Product Marketing to develop effective messaging for outbound communications to your team’s assigned accounts.
+- Work in collaboration with Content, Marketing Program Managers, and Product Marketing to develop effective messaging for outbound communications to your team's assigned accounts.
 
 #### Manager, Business Development Requirements
 

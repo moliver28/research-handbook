@@ -3,12 +3,6 @@ aliases: /handbook/engineering/communication
 title: Engineering Communication
 ---
 
-
-
-
-
-
-
 ## Communication
 
 GitLab Engineering values clear, concise, transparent, asynchronous, and frequent communication. Here are our most important modes of communication:

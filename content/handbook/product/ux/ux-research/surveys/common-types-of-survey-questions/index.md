@@ -7,7 +7,7 @@ There are many types of survey questions to choose from when designing your surv
 
 - **Open ended** - Typically a comment box or a single line where respondents can type in responses.
   - Best for: qualitative data such as providing feedback
-  - Things to watch for: don’t use too many of these types of questions, time-consuming to analyze, participants tend to skip them and/or leave limited detail
+  - Things to watch for: don't use too many of these types of questions, time-consuming to analyze, participants tend to skip them and/or leave limited detail
 
     ![Example of an open ended survey question](open_ended.png)
 
@@ -19,7 +19,7 @@ There are many types of survey questions to choose from when designing your surv
 
 - **Rating scale** - Allows the respondent to select a number as their response.
   - Best for: research questions that require numerical measures as data (example: scores, ratings, etc.)
-  - Things to watch for: the scale needs to be defined (example: if the scale is ‘1-5’…define what 1 and 5 mean)
+  - Things to watch for: the scale needs to be defined (example: if the scale is '1-5'…define what 1 and 5 mean)
 
     ![Example of a rating scale survey question](rating.png)
 
@@ -45,7 +45,7 @@ There are many types of survey questions to choose from when designing your surv
 
 | **Question type** | **Goal of this sample question**                            | **Poor wording version**                                                        | **Problem with the wording**                                            | **Better wording version**                                                                                                           |
 |-------------------|-------------------------------------------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Open-ended        | Acquire feedback on the GitLab experience                   | *“How great is the GitLab experience?”*                                         | Positively biased                                                       | *“Tell us about your experience using GitLab.”*                                                                                      |
-| Multiple choice   | Understanding how many hours respondents use GitLab per day | *“How many hours do you use GitLab per day?” (1-2 \| 2-3 \| 3-4 \| 4-5 \| 5-6)* | Overlapping options, lack of scoped timeframe, no option for ‘other___’ | *“Within the last week, how many hours have you used GitLab per day?” (1-2 \| 3-4 \| 5-6 \| Other:*__)_                              |
-| Rating scale      | Net Promoter Score                                          | *“How likely are you to recommend GitLab…” (0-10)*                              | Scale is not defined                                                    | *“How likely are you to recommend GitLab…” (0 (not likely) -10 (very likely))*                                                       |
-| Likert scale      | Understand satisfaction of the GitLab experience            | *“How was your GitLab experience?” (Awesome \| Amazing \| Great \| Good \| OK)* | Unbalanced scale                                                        | *“How satisfied were you with the GitLab experience?” (Very dissatisfied \| Dissatisfied \| Neutral \| Satisfied \| Very satisfied)* |
+| Open-ended        | Acquire feedback on the GitLab experience                   | *"How great is the GitLab experience?"*                                         | Positively biased                                                       | *"Tell us about your experience using GitLab."*                                                                                      |
+| Multiple choice   | Understanding how many hours respondents use GitLab per day | *"How many hours do you use GitLab per day?" (1-2 \| 2-3 \| 3-4 \| 4-5 \| 5-6)* | Overlapping options, lack of scoped timeframe, no option for 'other___' | *"Within the last week, how many hours have you used GitLab per day?" (1-2 \| 3-4 \| 5-6 \| Other:*__)_                              |
+| Rating scale      | Net Promoter Score                                          | *"How likely are you to recommend GitLab…" (0-10)*                              | Scale is not defined                                                    | *"How likely are you to recommend GitLab…" (0 (not likely) -10 (very likely))*                                                       |
+| Likert scale      | Understand satisfaction of the GitLab experience            | *"How was your GitLab experience?" (Awesome \| Amazing \| Great \| Good \| OK)* | Unbalanced scale                                                        | *"How satisfied were you with the GitLab experience?" (Very dissatisfied \| Dissatisfied \| Neutral \| Satisfied \| Very satisfied)* |

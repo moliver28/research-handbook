@@ -1,0 +1,25 @@
+{{/*  
+    Allows to print links to user profiles. 
+
+    Usage (can only be called from shortcodes, layouts and partials for now):
+    {{ partial "gitlab/profile-links" (dict "handles" "@user") }}
+
+    Parameters:
+    - handles: Handle with or without "@". Can also take an array and print a list of profile links.
+*/}}
+
+{{ $handles := .handles  }}
+{{ if $handles }}
+    {{ if reflect.IsSlice $handles }}
+        {{ range $handles }}
+            {{ template "link" . }}
+        {{ end }}
+    {{ else }}
+        {{ template "link" $handles }}
+    {{ end }}
+{{ end }}
+
+{{ define "link" }}
+    {{ $handle := replace . "@" ""  }}
+    <code><a href="https://gitlab.com/{{ $handle }}">{{ $handle }}</a></code>
+{{ end }}

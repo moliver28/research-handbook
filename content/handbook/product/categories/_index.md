@@ -75,7 +75,7 @@ For groups that have two or more categories, but not _all_ categories in a stage
 
 If you want to refer to a group in context of their stage you can write that as "Stage:Group". This can be useful in email signatures, job titles, and other communications. E.g. "Monitor:Health" rather than "Monitor Health" or "Monitor, Health."
 
-When naming a new stage, group, or category, you should search the handbook and main marketing website to look for other naming conflicts which could confuse customers or employees. Uniqueness is preferred if possible to help drive clarity and reduce confusion. See additional [product feature naming guidelines](/handbook/product/gitlab-the-product/#factors-in-picking-a-name) as well.
+When naming a new stage, group, or category, you should search the handbook and main marketing website to look for other naming conflicts which could confuse customers or employees. Uniqueness is preferred if possible to help drive clarity and reduce confusion. See additional [product feature naming guidelines](/handbook/product/categories/gitlab-the-product/#factors-in-picking-a-name) as well.
 
 ### More Details
 
@@ -269,12 +269,12 @@ We have boundless [ambition](/handbook/product/product-principles/#how-this-impa
 1. Networking, maybe leveraging some of the [open source standards for networking](https://www.linux.com/news/5-open-source-software-defined-networking-projects-know/) and/or [Terraform networking providers](https://www.terraform.io/docs/providers/type/network-index.html)
 1. Design, we already have [design management](https://gitlab.com/groups/gitlab-org/-/epics/1445) today
 
-Stages are different from the [application types](https://about.gitlab.com/direction/maturity/#application-type-maturity) you can service with GitLab.
+Stages are different from the [application types](https://about.gitlab.com/direction/#maturity) you can service with GitLab.
 
 ## Maturity
 
 Not all categories are at the same level of maturity. Some are just minimal and
-some are lovable. See the [category maturity page](https://about.gitlab.com/direction/maturity/) to see where each
+some are lovable. See the [category maturity page](https://about.gitlab.com/direction/#maturity) to see where each
 category stands.
 
 ## Other functionality
@@ -282,9 +282,13 @@ category stands.
 This list of other functionality so you can easily find the team that owns it.
 Maybe we should make our features easier to search to replace the section below.
 
-### Other functionality in [Plan](/handbook/product/categories/#plan-stage) stage
+### Other functionality in Plan stage
 
-#### [Project Management group](/handbook/product/categories/#project-management-group)
+[Plan](/handbook/product/categories/#plan-stage) stage
+
+#### Project Management group
+
+[Project Management group](/handbook/product/categories/#project-management-group)
 
 - assignees
 - milestones
@@ -296,41 +300,61 @@ Maybe we should make our features easier to search to replace the section below.
 - to-do list
 - Real-time features (excluding [real-time collaboration](/handbook/engineering/development/incubation/real-time-collaboration/))
 
-#### [Knowlege group](/handbook/product/categories/#knowledge-group)
+#### Knowlege group
+
+[Knowlege group](/handbook/product/categories/#knowledge-group)
 
 - markdown functionality
 - rich text editor
 
-### Other functionality in [Create](/handbook/product/categories/#create-stage) stage
+### Other functionality in Create stage
 
-#### [Code Review group](/handbook/product/categories/#code-review-group)
+[Create](/handbook/product/categories/#create-stage) stage
+
+#### Code Review group
+
+[Code Review group](/handbook/product/categories/#code-review-group)
 
 - [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/)
 - [GitLab CLI](https://gitlab.com/gitlab-org/cli)
 
-#### [IDE group](/handbook/product/categories/#ide-group/)
+#### Remote Development group
+
+[Remote Development group](/handbook/product/categories/#remote-development-group/)
 
 - [GitLab Workflow extension for Visual Studio Code](https://docs.gitlab.com/ee/user/project/repository/vscode.html)
 
 ### Other functionality in Verify
 
-#### [CI Group](#ci-group)
+#### CI Group
+
+[CI Group](#ci-group)
 
 - [CI Abuse Response](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11678)
 
-#### [Pipeline Authoring Group](#pipeline-authoring-group)
+#### Pipeline Authoring Group
+
+[Pipeline Authoring Group](#pipeline-authoring-group)
 
 - [CI/CD Template Management and Contributions](https://docs.gitlab.com/ee/development/cicd/templates.html)
 
-### Other functionality in [Monitor stage](/handbook/product/categories/#monitor-stage)
+### Other functionality in Monitor stage
 
-### Other functionality in [Manage](/handbook/product/categories/#manage-stage) stage
+[Monitor stage](/handbook/product/categories/#monitor-stage)
 
-### Other functionality in [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
+### Other functionality in Manage stage
+
+[Manage](/handbook/product/categories/#manage-stage) stage
+
+### Other functionality in Engineering Productivity
+
+[Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
 
 - [GDK](/handbook/engineering/infrastructure/engineering-productivity/gdk/)
 
-### Other functionality in [Test Platform](/handbook/engineering/infrastructure/test-platform/)
+### Other functionality in Test Platform
+
+[Test Platform](/handbook/engineering/infrastructure/test-platform/)
 
 - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
 - [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
@@ -340,9 +364,13 @@ Maybe we should make our features easier to search to replace the section below.
 
 Internal Customers: [Gitaly](/handbook/engineering/infrastructure/#gitalycluster-group), [Core Platform section](/handbook/engineering/infrastructure/#core-platform-section), [SaaS Platforms section](/handbook/engineering/infrastructure/#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
 
-### Other functionality in [Analytics](/handbook/product/categories/#analytics-stage)
+### Other functionality in Analytics
 
-#### [Product Analytics group](/handbook/product/categories/#product-analytics-group)
+[Analytics](/handbook/product/categories/#analytics-stage)
+
+#### Product Analytics group
+
+[Product Analytics group](/handbook/product/categories/#product-analytics-group)
 
 - [Analytics Dashboards](https://docs.gitlab.com/ee/user/product_analytics/#product-analytics-dashboards) - used by many groups to add visualizations or provide pre-configured dashboards to users
 
@@ -366,7 +394,7 @@ If you encounter an issue falling into a facilitated area:
 
 There are certain product capabilities that are foundational in nature and affect or refer to horizontal components of the architecture that have an impact across functional groups and stages.
 
-These capabilities may refer to "Facilitated Functionality" (see section above) where the mental models are owned by a particular group, while anyone can contribute. However, there may be others that will not have a clear owner because they don’t fall squarely into any particular group’s purview of product categories. Prime examples of this are issues related to the improvement or evolution of foundational components, frameworks and libraries that are used by several or all groups across the organization. Another example could be components created by special task groups in the past that have been since dissolved and that have not required continued development to justify the funding of a dedicated permanent group to maintain them.
+These capabilities may refer to "Facilitated Functionality" (see section above) where the mental models are owned by a particular group, while anyone can contribute. However, there may be others that will not have a clear owner because they don't fall squarely into any particular group's purview of product categories. Prime examples of this are issues related to the improvement or evolution of foundational components, frameworks and libraries that are used by several or all groups across the organization. Another example could be components created by special task groups in the past that have been since dissolved and that have not required continued development to justify the funding of a dedicated permanent group to maintain them.
 
 Whatever the source of the functionality, rather than thinking of these components as "not having an owner", it is important to think of them as being owned by everyone through the lens of shared responsibility. "Shared responsibility" means that every group should be committed and responsible to **contribute** to their continued maintenance, improvement and innovation.
 

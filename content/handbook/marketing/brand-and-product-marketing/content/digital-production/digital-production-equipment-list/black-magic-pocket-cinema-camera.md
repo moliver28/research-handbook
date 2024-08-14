@@ -262,7 +262,7 @@ GVM Panel lights should be operated in CCT mode only. In most cases, it will not
 1. Using the thumb screws on both sides of the mirror, rotate the mirror forward to an angle of about 45 degrees.
 1. Attach the hood over the mirror using the velcro on the side of the mirror to secure. The hood should extend back over the "plate" where you attached the tripod.
 1. Attach your camera to the teleprompter using the thumbscrew. All cameras have a thread on the bottom that will accept the screw.
-1. Slide the camera forward until you are able to pull the hood around the lens, but don’t secure just yet.
+1. Slide the camera forward until you are able to pull the hood around the lens, but don't secure just yet.
 1. Check on the camera that you have an image that you are happy with. When you are content with the image, pull the hood around the lens and pull the threads to gently close it.
 1. Extend the shelf in front of the mirror and place the device you will use to display your script.
 1. Close the shelf to secure.

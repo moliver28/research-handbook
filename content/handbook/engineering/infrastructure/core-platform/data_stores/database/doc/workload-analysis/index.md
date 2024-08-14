@@ -3,11 +3,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database
 title: Workload analysis for GitLab.com
 ---
 
-
-
-
-
-
 ## Workload Analysis for GitLab.com
 
 This document discusses several approaches to understand the database workload for GitLab.com better. It aims to provide a few more perspectives on database workload, in addition to already existing monitoring solutions.

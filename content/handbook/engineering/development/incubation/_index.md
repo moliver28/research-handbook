@@ -18,7 +18,7 @@ Our success is tied to the community of developers and users that can benefit fr
 
 ### Investment Framework
 
-The aim of the SEG's in the Incubation Engineering Department is to get ideas for new markets into the Viable category from our [maturity](https://about.gitlab.com/direction/maturity/) framework.  Ideas that we successfully incubate will become a stage or feature within the relevant areas of our product, with full Product, Engineering, UX and Infrastructure support for future development.
+The aim of the SEG's in the Incubation Engineering Department is to get ideas for new markets into the Viable category from our [maturity](https://about.gitlab.com/direction/#maturity) framework.  Ideas that we successfully incubate will become a stage or feature within the relevant areas of our product, with full Product, Engineering, UX and Infrastructure support for future development.
 
 In some cases we may invest in an SEG and then decide to acquire an existing product or team in the same area. These situations are disruptive, but unavoidable, and we will work closely with the affected SEG to adapt.
 
@@ -73,7 +73,7 @@ Each SEG page has a list of the targets and progress for each month, and these s
 
 <div class="flex-row" markdown="0">
   <div>
-  
+
   <a href="/handbook/engineering/development/incubation/istio/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Istio</a>
   <a href="/handbook/engineering/development/incubation/secrets-rotation/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Secrets Rotation</a>
   </div>
@@ -89,7 +89,7 @@ Each SEG page has a list of the targets and progress for each month, and these s
     <a href="/handbook/engineering/development/incubation/apm/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Application Performance Monitoring</a> matured to <a href="/handbook/product/categories/#observability-group" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Observability Group</a>
   </div>
   <div>
-    <a href="/handbook/engineering/development/incubation/server-runtime/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Server Runtime</a> matured to <a href="/handbook/product/categories/#ide-group" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">IDE Group</a>
+    <a href="/handbook/engineering/development/incubation/server-runtime/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Server Runtime</a> matured to <a href="/handbook/product/categories/#remote-development-group" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Remote Development Group</a>
   </div>
   <div>
     <a href="/handbook/engineering/development/incubation/okr/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">OKR Management</a> matured to <a href="/handbook/product/categories/#product-planning-group" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Product Planning Group</a>
@@ -124,7 +124,7 @@ We do this in order to ensure alignment with impacted teams at GitLab, to provid
 
 Around the 15th of the month each SEG should provide a short update video that covers the following key points:
 
-- *What progress have we made?* Each week we should be moving closer to our goal of having a [Viable](https://about.gitlab.com/direction/maturity/) product or feature.
+- *What progress have we made?* Each week we should be moving closer to our goal of having a [Viable](https://about.gitlab.com/direction/#maturity) product or feature.
 - *Current Usage and Used Feedback* We should strive to measure usage of our ideas from the beggining. How is the adoption of the idea we are working on?
 - *What have we learnt?* Either through technical research, experiementation, or feedback, do we better understand the problem we are trying to solve?
 - *What new decisions do we need to make?* Have we identified any new opportunities or options that need wider consultation to help address?
@@ -176,12 +176,12 @@ You can also reach us on Slack at `#incubation-eng` in [Slack](https://gitlab.sl
 
 ## Playbook
 
-The [Incubation Engineer's Playbook](./playbook/) contains useful tips and tricks an Incubation Engineer may employ for SEG and project success.
+The [Incubation Engineer's Playbook](playbook/) contains useful tips and tricks an Incubation Engineer may employ for SEG and project success.
 
 ## Offsites
 
 From time-to-time Incubation Engineers get together to discuss and share ideas, learn from each other, and discuss the latest trends in the industry.
 
-Details are logged in the [Incubation Offsites](./offsites) page.
+Details are logged in the [Incubation Offsites](offsites/) page.
 
-The [Incubation Engineer's Playbook](./playbook/) contains useful tips and tricks an Incubation Engineer may employ for SEG and project success.
+The [Incubation Engineer's Playbook](playbook/) contains useful tips and tricks an Incubation Engineer may employ for SEG and project success.

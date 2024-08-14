@@ -28,23 +28,23 @@ Bashes are useful when [foundational research](/handbook/product/ux/ux-research/
 
 #### Step 2. Create a Bash Guideline Issue and Bash Slack Channel
 
-- A [Bash Guideline Issue](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/UX%20Bash%20Template.md) is designed to be the participant’s single source of truth for the Bash. It should include the objectives of the Bash, instructions on how to access the feature they are testing, instructions on how to deliver their feedback, and known problems that come up throughout the Bash.
+- A [Bash Guideline Issue](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/UX%20Bash%20Template.md) is designed to be the participant's single source of truth for the Bash. It should include the objectives of the Bash, instructions on how to access the feature they are testing, instructions on how to deliver their feedback, and known problems that come up throughout the Bash.
   - Example: https://gitlab.com/gitlab-org/ux-research/-/issues/2682
 - Create a dedicated private Slack channel for your Bash (ex. #duo_chat_bash_oct24). This allows participants to collaborate and seek clarification during the Bash. It is best practice to include the Bash Guideline Issue and your data collection mechanism as Bookmarks in the Slack channel.
 
 #### Step 3. Determine Data Collection Approach
 
 - Since the goal of the Bash is to collect as much feedback as possible, you need a way to collect that information. Qualtrics is one type of survey tool that allows multiple entries for a Bash, but you have the flexibility to select any feedback mechanism that works best for you and your team (i.e. GitLab issues, Google Forms, etc.). Your feedback mechanism should collect the information you and your team are most interested in, but should be short and to the point. We want to collect as much information as possible without becoming burdensome to the participant.
-- For example, in the Duo Chat Bash, the team was most interested in participants’ perceptions of accuracy. Here is an example of some of the questions presented in a Qualtrics survey ([Link to example survey](https://gitlab.fra1.qualtrics.com/jfe/form/SV_8p2Hp3HVgsiVEKW)):
+- For example, in the Duo Chat Bash, the team was most interested in participants' perceptions of accuracy. Here is an example of some of the questions presented in a Qualtrics survey ([Link to example survey](https://gitlab.fra1.qualtrics.com/jfe/form/SV_8p2Hp3HVgsiVEKW)):
   - What was the question you asked Duo Chat?
-  - What was Duo’s response?
+  - What was Duo's response?
   - Ratings of overall quality
   - Ratings of the speed of the response
 
 #### Step 4. Recruit
 
 - Determine who will participate in the Bash. Ensure that participants accurately represent the target users of the feature in order to provide actionable feedback. You can choose to target a diverse group or a specific audience based on the goals of your Bash.
-- Bashes don’t have a maximum number of participants, but can expand based on your needs, ability to recruit from a population, and your ability to analyze the data efficiently. Previous Bashes have usually consisted of 5-10 users.
+- Bashes don't have a maximum number of participants, but can expand based on your needs, ability to recruit from a population, and your ability to analyze the data efficiently. Previous Bashes have usually consisted of 5-10 users.
 
 ##### For Recruiting Internal Participants
 

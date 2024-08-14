@@ -1,5 +1,4 @@
 ---
-
 title: Product Analytics Group
 description: "The Product Analytics group works on the tools that enable customers to use GitLab to analyze the use of their deployed applications."
 ---

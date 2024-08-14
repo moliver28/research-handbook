@@ -9,7 +9,7 @@ aliases:
 
 At GitLab, we strongly believe in team member ownership in our Company. We are in business to create value for our shareholders and we want our team members to benefit from that shared success.
 
-This guide is meant to help you understand the piece of GitLab that you’re going to own!  Its goal is to be more straightforward than the full GitLab 2015  & GitLab 2021 Equity Incentive Plans (the “2015 Equity Plan”) and (the “2021 Equity Plan”) and your stock option agreement or RSU agreement which you are advised to read, which both go into the full legal details. Please note, however, that while we hope that this guide is helpful to understanding the stock options and/or stock issued to you or RSU grants under the both Equity Plans, the governing terms and conditions are contained in the 2015 and 2021 Equity Plans and the related stock option agreement. You should consult an employment attorney and/or a tax advisor if you have any questions about navigating your stock options or RSU grants before you make important decisions.
+This guide is meant to help you understand the piece of GitLab that you're going to own!  Its goal is to be more straightforward than the full GitLab 2015  & GitLab 2021 Equity Incentive Plans (the "2015 Equity Plan") and (the "2021 Equity Plan") and your stock option agreement or RSU agreement which you are advised to read, which both go into the full legal details. Please note, however, that while we hope that this guide is helpful to understanding the stock options and/or stock issued to you or RSU grants under the both Equity Plans, the governing terms and conditions are contained in the 2015 and 2021 Equity Plans and the related stock option agreement. You should consult an employment attorney and/or a tax advisor if you have any questions about navigating your stock options or RSU grants before you make important decisions.
 
 Two things must happen for your stock options or RSUs to be meaningful,  for example:
 
@@ -28,7 +28,7 @@ If a team member leaves GitLab, they have 90 days post termination to exercise t
 
 ## Stock Options
 
-In the past at GitLab, we have given equity grants in the form of Incentive Stock Options (ISOs) and Non-Qualified Stock Options (NQs). It’s called an option because you have the option to    buy GitLab stock, subject to vesting terms, at the exercise price provided at the time of grant.
+In the past at GitLab, we have given equity grants in the form of Incentive Stock Options (ISOs) and Non-Qualified Stock Options (NQs). It's called an option because you have the option to    buy GitLab stock, subject to vesting terms, at the exercise price provided at the time of grant.
 
 These stock option grants since becoming a public company are limited as to grants.
 
@@ -39,7 +39,7 @@ The difference in these two types of grants are, generally, as follows:
 
 ### Restricted Stock Units (RSUs)
 
-In September 2021, in connection with our IPO that occurred on October 14, 2021, our board of directors and stockholders approved the  2021 Equity Incentive Plan (the “2021 Plan”) as a successor to our 2015 Plan (together the “Plans”). The  2021 Plan authorizes the award of both stock options, which are intended to qualify for tax treatment  under Section 422 of the Internal Revenue Code, and nonqualified stock options, as well for the award of  restricted stock awards (“RSAs”), stock appreciation rights (“SARs”), restricted stock units (RSUs), and performance and stock  bonus awards. Pursuant to the 2021 Plan, NQ stock options may be granted only to our team  members. Since September 2021, we have issued RSUs for grants of shares of the Company’s common stock, the vesting of which is based on the requisite service requirement. Generally, the Company’s RSUs are subject to forfeiture and are expected to vest over two to four years ratably on a combination of bi-annual and quarterly basis. For RSU Grant Cadence and Vesting please see the following [slide deck](https://docs.google.com/presentation/d/1a3iisaLdoMFdujTyh9K2gYB2eOTi1xC2Ul7ycj7HkSg/edit#slide=id.p)
+In September 2021, in connection with our IPO that occurred on October 14, 2021, our board of directors and stockholders approved the  2021 Equity Incentive Plan (the "2021 Plan") as a successor to our 2015 Plan (together the "Plans"). The  2021 Plan authorizes the award of both stock options, which are intended to qualify for tax treatment  under Section 422 of the Internal Revenue Code, and nonqualified stock options, as well for the award of  restricted stock awards ("RSAs"), stock appreciation rights ("SARs"), restricted stock units (RSUs), and performance and stock  bonus awards. Pursuant to the 2021 Plan, NQ stock options may be granted only to our team  members. Since September 2021, we have issued RSUs for grants of shares of the Company's common stock, the vesting of which is based on the requisite service requirement. Generally, the Company's RSUs are subject to forfeiture and are expected to vest over two to four years ratably on a combination of bi-annual and quarterly basis. For RSU Grant Cadence and Vesting please see the following [slide deck](https://docs.google.com/presentation/d/1a3iisaLdoMFdujTyh9K2gYB2eOTi1xC2Ul7ycj7HkSg/edit#slide=id.p)
 
 ### Sell-to-cover - RSUs
 
@@ -56,13 +56,13 @@ Taxation of Ordinary Income - RSU - More Detail
 
 Please note that all tax withholding is based on tax rates provided by Baker McKenzie - You can find our current Tax Matrix [here](https://drive.google.com/file/d/13deasDMvCiXcInQOFvORM6cKNazim7pz/view?usp=drive_link)
 
-## Employee Stock Purchase Plan (“ESPP”)
+## Employee Stock Purchase Plan ("ESPP")
 
 ### What is an ESPP?
 
-An ESPP is a benefit GitLab offers that allows team members to optionally purchase shares of their company’s stock at a discount through regular payroll deductions over specified Offering Periods.
+An ESPP is a benefit GitLab offers that allows team members to optionally purchase shares of their company's stock at a discount through regular payroll deductions over specified Offering Periods.
 
-In September 2021, the Company’s board of directors and its stockholders approved the 2021 Employee Stock Purchase Plan (“ESPP”) to enable eligible team members to purchase shares of the Company’s Class A common stock with accumulated payroll deductions and provides a 15% purchase price discount of the fair market value of the Company’s Class A common stock on the IPO date or purchase date, whichever is lower. The 2021 ESPP also provides up to a 24-month look-back period with four purchase dates in May and November of each year, and the first purchase occurred in May 2022.
+In September 2021, the Company's board of directors and its stockholders approved the 2021 Employee Stock Purchase Plan ("ESPP") to enable eligible team members to purchase shares of the Company's Class A common stock with accumulated payroll deductions and provides a 15% purchase price discount of the fair market value of the Company's Class A common stock on the IPO date or purchase date, whichever is lower. The 2021 ESPP also provides up to a 24-month look-back period with four purchase dates in May and November of each year, and the first purchase occurred in May 2022.
 
 ### Eligibility Requirements
 
@@ -146,15 +146,15 @@ Note: All equity grants are subject to approval by the Board of Directors and no
 
 ## Annual Refresh Grant Program Eligibility
 
-Team members may be eligible to participate in the annual refresh grant cycle review if they have completed six months of service with the company. However, participation will be based upon individual team member talent assessments (including if a team member is currently in good standing) and [key talent criteria](/handbook/people-group/talent-assessment#key-talent-criteria). Therefore, not all team members will receive a refresh grant in the annual review cycle. Leaders will have discretion on the size of the refresh grant based on talent assessments and equity budget as allocated to each E-group member’s division. All proposed grants will be reviewed by the People team for pay equality. All proposed equity grants are subject to review and approval by the GitLab Board of Directors.
+Team members may be eligible to participate in the annual refresh grant cycle review if they have completed six months of service with the company. However, participation will be based upon individual team member talent assessments (including if a team member is currently in good standing) and [key talent criteria](/handbook/people-group/talent-assessment#key-talent-criteria). Therefore, not all team members will receive a refresh grant in the annual review cycle. Leaders will have discretion on the size of the refresh grant based on talent assessments and equity budget as allocated to each E-group member's division. All proposed grants will be reviewed by the People team for pay equality. All proposed equity grants are subject to review and approval by the GitLab Board of Directors.
 
 ## Option Vesting
 
-Vesting means that you have to remain employed by, or are otherwise a service provider to, GitLab for a certain period of time before you can fully own the stock under your stock option grant. Instead of giving you the right to purchase and own all of the common stock under your stock option on day one, you get to own the stock under your stock option in increments over time. This process is called vesting and different companies offer vesting schedules of different lengths. At GitLab, our standard practice is to issue options with a four year vesting schedule so you would own a quarter of your stock after 12 months, half of your stock after two years, and all of it after 4 years. Vesting happens on a monthly basis after the first year for new hire grants and monthly after grant for refresh grants. A cliff on a new hire grant is the period at the beginning of the vesting period where your equity does not vest monthly, but instead vests at the end of the cliff period. At most companies, including GitLab, this cliff period is generally one year. This means that if you leave your job either voluntarily or involuntarily before you’ve worked for a whole year, none of your options will be vested. At the end of that year, you’ll vest the entire year’s worth (12 months) of equity all at once. This helps keep the ownership of GitLab stock to team members who have worked at the company for a meaningful amount of time.
+Vesting means that you have to remain employed by, or are otherwise a service provider to, GitLab for a certain period of time before you can fully own the stock under your stock option grant. Instead of giving you the right to purchase and own all of the common stock under your stock option on day one, you get to own the stock under your stock option in increments over time. This process is called vesting and different companies offer vesting schedules of different lengths. At GitLab, our standard practice is to issue options with a four year vesting schedule so you would own a quarter of your stock after 12 months, half of your stock after two years, and all of it after 4 years. Vesting happens on a monthly basis after the first year for new hire grants and monthly after grant for refresh grants. A cliff on a new hire grant is the period at the beginning of the vesting period where your equity does not vest monthly, but instead vests at the end of the cliff period. At most companies, including GitLab, this cliff period is generally one year. This means that if you leave your job either voluntarily or involuntarily before you've worked for a whole year, none of your options will be vested. At the end of that year, you'll vest the entire year's worth (12 months) of equity all at once. This helps keep the ownership of GitLab stock to team members who have worked at the company for a meaningful amount of time.
 
 ## RSU Vesting & Grant Cadence
 
-RSUs are grants of shares of the Company’s common stock, the vesting of which is based on the requisite service requirement. Generally, the Company’s RSUs are subject to forfeiture and are expected to vest over two to four years ratably on a combination of bi-annual and quarterly basis. New hire grants vest after 6 months, quarterly thereafter over the 4 years.  Refresh grants vest quarterly over 4 years.
+RSUs are grants of shares of the Company's common stock, the vesting of which is based on the requisite service requirement. Generally, the Company's RSUs are subject to forfeiture and are expected to vest over two to four years ratably on a combination of bi-annual and quarterly basis. New hire grants vest after 6 months, quarterly thereafter over the 4 years.  Refresh grants vest quarterly over 4 years.
 
 Per our [SAFE framework](/handbook/legal/safe-framework/), we do not add specific dates to the handbook regarding equity. For more information on grant cadence & vesting, please see the following [slide deck](https://docs.google.com/presentation/d/1a3iisaLdoMFdujTyh9K2gYB2eOTi1xC2Ul7ycj7HkSg/edit#slide=id.p).
 
@@ -203,7 +203,7 @@ If your employment ends for whatever reason, you have a three month window to ex
 
 ### Equity Administration
 
-Administration of (i.e. RSUs, stock options, ESPP share transactions) and equity grant transactions at GitLab are conducted on the ETrade platform.  Equity Grants are approved by the Board of Directors “or their designee” at regularly scheduled quarterly board meetings, which contain  information relevant to the grant including the number of shares, exercise price, vesting period and other key terms. This information is then recorded in your account at ETrade. New participant grants, will need to accepted the Grant Agreements in ETrade document under “Grant Acceptance” under the Plan Elections section in your E-TRADE account. Please see [GitLab Stock Plan RSUs & Stock Options](https://drive.google.com/file/d/16Hby-UdCKA-BJDHvZQ9bpbU5cEQlzeUE/view).
+Administration of (i.e. RSUs, stock options, ESPP share transactions) and equity grant transactions at GitLab are conducted on the ETrade platform.  Equity Grants are approved by the Board of Directors "or their designee" at regularly scheduled quarterly board meetings, which contain  information relevant to the grant including the number of shares, exercise price, vesting period and other key terms. This information is then recorded in your account at ETrade. New participant grants, will need to accepted the Grant Agreements in ETrade document under "Grant Acceptance" under the Plan Elections section in your E-TRADE account. Please see [GitLab Stock Plan RSUs & Stock Options](https://drive.google.com/file/d/16Hby-UdCKA-BJDHvZQ9bpbU5cEQlzeUE/view).
 
 With the implementation of WorkDay, interfaces to ETrade provide for electronic files for status updates to participants, such as terminations and change in Cost Centers.
 
@@ -213,7 +213,7 @@ Tax law is complex and you should consult a tax attorney or other tax advisor wh
 
 ### US employees with Incentive Stock Options (ISOs)
 
-Taxation from the US perspective is not as straightforward as you might like. You aren’t taxed when you exercise your options. Tax is due on the gain or profit you make when you sell the stock. Depending on your holding period, the tax may be treated as ordinary income or capital gain. Moreover, when you hold the options long enough you may be subject to 0% capital gains tax. To outline the five possibilities of the different scenarios that may apply:
+Taxation from the US perspective is not as straightforward as you might like. You aren't taxed when you exercise your options. Tax is due on the gain or profit you make when you sell the stock. Depending on your holding period, the tax may be treated as ordinary income or capital gain. Moreover, when you hold the options long enough you may be subject to 0% capital gains tax. To outline the five possibilities of the different scenarios that may apply:
 
 1. Exercise your options to purchase shares, and hold.
 1. Exercise your options to purchase shares, and sell the shares within the same year.
@@ -258,6 +258,6 @@ Class B Common Stock - 10 votes per share
 
 ## Being Public
 
-- Class B converts to Class A in sale or distribution unless “permitted transfer” (see below).
+- Class B converts to Class A in sale or distribution unless "permitted transfer" (see below).
 - Additional sales of Class A common stock.
 - Permitted transfers would be transfers to one or more family members, transfers to a trust for the benefit of the stockholder or in favor of a family member of the stockholder, or transfers   to a general partnership, limited partnership, limited liability corporation, or other entity controlled by the stockholder or a family member of the stockholder.

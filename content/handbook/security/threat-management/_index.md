@@ -8,7 +8,7 @@ The Security Threat Management sub-department is responsible for identifying and
 
 ### Security Threat Management Mission
 
-The Security Threat Management sub-department’s mission is to support the business and our overall security efforts by ensuring that we are focused on real world threats and vulnerabilities that impact us. We accomplish this by:
+The Security Threat Management sub-department's mission is to support the business and our overall security efforts by ensuring that we are focused on real world threats and vulnerabilities that impact us. We accomplish this by:
 
 - working closely with engineering, product, infrastructure, and other security department teams
 - designing and deploying vulnerability and threat management processes

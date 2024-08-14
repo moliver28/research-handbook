@@ -1,13 +1,6 @@
 ---
-
 title: "GitLab Dedicated SLAs"
 ---
-
-
-
-
-
-
 
 ## GitLab Dedicated: Service Level Availability and Disaster Recovery Plan
 
@@ -51,7 +44,7 @@ GitLab's current monthly service level objective for GitLab Dedicated is 99.5% (
 
 ## Exclusions
 
-Calculation of Service Level Availability does not include failures resulting from (1) misuses or misconfiguration of the applicable service or feature provided with Dedicated, (2) customer activity outside GitLab's terms of service, (3) components or services not defined in the Scope section (above), (4) factors outside of GitLab’s reasonable control, such as force majeure events, or (5) Customer’s or selected cloud hosting providers services, equipment or other technologies. Scheduled maintenance or urgent unscheduled system maintenance necessary to address critical issues (e.g. security vulnerabilities, data consistency issues, etc) are also not included in the calculation of Service Level Availability.
+Calculation of Service Level Availability does not include failures resulting from (1) misuses or misconfiguration of the applicable service or feature provided with Dedicated, (2) customer activity outside GitLab's terms of service, (3) components or services not defined in the Scope section (above), (4) factors outside of GitLab's reasonable control, such as force majeure events, or (5) Customer's or selected cloud hosting providers services, equipment or other technologies. Scheduled maintenance or urgent unscheduled system maintenance necessary to address critical issues (e.g. security vulnerabilities, data consistency issues, etc) are also not included in the calculation of Service Level Availability.
 
 ## Disaster Recovery Plan
 

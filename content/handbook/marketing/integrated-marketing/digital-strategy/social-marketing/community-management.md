@@ -1,5 +1,4 @@
 ---
-
 title: Social Media Community Management
 description: 'Engaging and responding to the community'
 twitter_image: /images/opengraph/handbook/social-marketing/social-admin-cm.png
@@ -7,11 +6,6 @@ twitter_image_alt: GitLab's Social Media Community Management Handbook Page
 twitter_site: 'gitlab'
 twitter_creator: 'gitlab'
 ---
-
-
-
-
-
 
 ## Community Management is a team effort
 

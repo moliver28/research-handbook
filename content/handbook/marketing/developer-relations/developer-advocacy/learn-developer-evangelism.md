@@ -1,16 +1,8 @@
 ---
-
 title: "Learn Developer Advocacy"
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/learn-developer-evangelism/index.html
 ---
-
-
-
-
-
-
-
 
 ## What is advocacy?
 
@@ -56,7 +48,7 @@ Our KPIs and processes follow industry best practices. We regularly iterate on n
 * [Measuring Success and KPIs in Developer Relations - Community Contributed Outline](https://dev.to/tessamero/measuring-success-and-kpis-in-developer-relations-community-contributed-outline-1383)
 * [Measuring the Impact of Your Developer Relations Team](https://openviewpartners.com/blog/measuring-the-impact-of-your-developer-relations-team/)
 * [Developer evangelism and GitHub metrics - Or why stars are not the answer](https://devrel.net/strategy-and-metrics/developer-evangelism-github-metrics)
-* [Developer Evangelism with Tessa Mero of Cisco](https://openchannel.io/blog/developer-evangelism-tessa-mero-cisco/)
+* [Developer Evangelism with Tessa Mero of Cisco](https://web.archive.org/web/20220629131422/https://openchannel.io/blog/developer-evangelism-tessa-mero-cisco/)
 * [What Do You Do as a Developer Advocate (🥑) at Elastic?](https://xeraa.net/blog/2020_what-do-you-do-as-a-developer-advocate-at-elastic/)
 * [How to teach code](https://welearncode.com/teaching-code/) by Ali Spittel
 

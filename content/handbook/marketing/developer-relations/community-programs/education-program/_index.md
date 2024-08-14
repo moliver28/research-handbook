@@ -1,5 +1,4 @@
 ---
-
 title: "Education Program"
 description: "Learn about the GitLab for Education Program and other education-related programs from GitLab's Developer Relations team"
 ---
@@ -16,7 +15,7 @@ Additionally, the Education Program seeks to evangelize the benefits of an all-r
 
 ## How to reach us
 
-* DRI: [@esalvadorp](https://gitlab.com/esalvadorp)
+* DRI: [@Akarsten1](https://gitlab.com/Akarsten1)
 * Email: `education@gitlab.com`
 
 Additionally, see the following Slack channels.

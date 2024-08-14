@@ -1,5 +1,4 @@
 ---
-
 title: "MikeL's README"
 description: "Personal readme page for Mike Lockhart, Support Engineer, GitLab"
 job: "Support Engineer - APAC"
@@ -13,7 +12,7 @@ job: "Support Engineer - APAC"
 
 This page aims to help others who haven't worked with me before, understand what that might be like.
 
-It’s also a well-intentioned effort at building some trust by being vulnerable, and to share my ideas of a good working relationship, to reduce your anxiety when starting to work with me.
+It's also a well-intentioned effort at building some trust by being vulnerable, and to share my ideas of a good working relationship, to reduce your anxiety when starting to work with me.
 
 Please feel free to contribute to this page by opening a merge request, particularly if you've worked with me before and know something which should be added or improved.
 

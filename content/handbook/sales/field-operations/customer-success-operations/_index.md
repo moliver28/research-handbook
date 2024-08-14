@@ -1,5 +1,4 @@
 ---
-
 title: "Customer Success Operations"
 description: "The Customer Success Operations team's handbook page. This covers our mission, strategies, responsibilities, and processes."
 ---
@@ -63,7 +62,7 @@ Instructions for new request intake and execution for following along with the f
 1. **CSOps::In Process** - Issue Assignee is actively working the issue; if you are working an issue, it must have this label
 1. **CSOps::Awaiting Feedback** - Issue Assignee to add Peer Reviewer and add label
 1. **CSOps::Blocked** - Issue Assignee applies the label when the issue cannot be worked (technical problem or decision to be made)
-1. **CSOps::Won’t Do** - Workstream Lead selects this when the decision has been made that it will not be worked, then close the issue
+1. **CSOps::Won't Do** - Workstream Lead selects this when the decision has been made that it will not be worked, then close the issue
 1. **CSOps::Backlog** - Workstream Lead applies label when we've agreed it's helpful and reasonable, but is either a lower priority or cannot achieve in the next 90 days
 1. **Issue closing** - Issue Assignee to:
    1. Ensure any handbook sections have been updated
@@ -129,7 +128,7 @@ Labels to use when creating new issues or MRs for CS Ops:
 - **CSOps::Backlog** - Issues that are not currently being evaluated or worked on
 - **CSOps - Interrupt** - Issue that was submitted after the current milestone started and prioritized ahead of the original milestone scope
 - **CSOps::Triage**- Issue that is in the triage stage
-- **CSOps::Won’t Do** - Indicates that the issue is not going to be worked/completed, although scoping of solution might have already been concluded
+- **CSOps::Won't Do** - Indicates that the issue is not going to be worked/completed, although scoping of solution might have already been concluded
 - **CSOPs::Completed** - Used to show that the work associated with the issue has been delivered/completed and the issue is being closed
 
 **Segment and Team Support Labels** - for tracking where the request(s) came from

@@ -1,5 +1,4 @@
 ---
-
 title: "Sales Order Processing"
 description: "This page outlines the Quote to Cash process, starting from account and opportunity creation, quote configuration, approvals, booking requirements and to the ultimate closure of a deal."
 ---
@@ -363,11 +362,11 @@ To add our SaaS SLA Addendum to an order form, please open a Legal case after al
 
 1. Why is Trade Compliance (Export / Import) important
     1. Not complying could be detrimental to the United States and other countries GitLab operates in
-    1. IT’S THE LAW!
+    1. IT'S THE LAW!
     1. Not complying could result in fines or penalties for GitLab and/or GitLab team members
     1. Non-compliance could result in the inability to sell to federal customers, lose the trust of our customers, partners and investors and result in fines or jail time for officers and offenders
 1. For more information see the [Trade Compliance](/handbook/legal/trade-compliance/) handbook page and the [Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) page.
-1. GitLab uses a third party tool called “Visual Compliance” that is connected to our GitLab SalesForce account
+1. GitLab uses a third party tool called "Visual Compliance" that is connected to our GitLab SalesForce account
 1. This tool checks Account information against various databases to ensure no matches, Accounts are checked repeatedly to ensure GitLab's continued compliance
 
 1. VISUAL COMPLIANCE STEPS
@@ -375,20 +374,20 @@ To add our SaaS SLA Addendum to an order form, please open a Legal case after al
     1. The information is automatically reviewed for non-compliance / issues with the Account
     1. If the Account information provides NO MATCHES, Visual Compliance will CLEAR the Account
         1. NOTE: Visual Compliance will update SFDC every 15 minutes
-    1. If the Account information provides a ‘hit’, meaning it matches some element of information from a regulation or restriction, a GitLab legal member will manually review the Account
+    1. If the Account information provides a 'hit', meaning it matches some element of information from a regulation or restriction, a GitLab legal member will manually review the Account
         *NOTE: GitLab legal reviews these accounts at 09:00, 12:00, 5:00 (CENTRAL TIME)
     1. If the Account is approved, the GitLab legal member will CLEAR the Account, and Visual Compliance will update (every 15 minutes)
-        *NOTE: If GitLab legal finds an issue with the Account they will alert the Sales Team to the Account being ‘locked’ and will work to verify next steps.
+        *NOTE: If GitLab legal finds an issue with the Account they will alert the Sales Team to the Account being 'locked' and will work to verify next steps.
 
 1. My Account has been flagged for Export Compliance Review!
     1. Tag Legal in chatter on the associated account. Accounts are reviewed and validated periodically throughout the day. Only the Legal team can unlock accounts flagged for EC review!!
 
 1. WHAT SHOULD SALES DO?
-    1. The more accurate information in the Account--THE BETTER! Meaning, provide the full company name, company address, and contact name(s). Partial information will result in ‘hits’ and delay the process
+    1. The more accurate information in the Account--THE BETTER! Meaning, provide the full company name, company address, and contact name(s). Partial information will result in 'hits' and delay the process
     1. If you receive the below error when attempting to update an Account:
-        *(i) Check if the Visual Compliance Section [of the Account] says “Pending”-- Wait 15-30 minutes for the system to run its initial check and update. However, if Visual Compliance finds a potential ‘hit’ it will be cleared per the below
-        *(ii) If the Visual Compliance Section [of the Account] says  “Yellow” or“Red”-- The legal team is manually reviewing the Account to ensure compliance. This is done three (3) times a day and will automatically update the Account--check back in on the Account during the same day
-        *(iii) If the Account requires immediate action (i.e., to close a deal), open a Chatter message in the Account and message “@legal”--upon receipt the Legal team will immediately review and update in Visual Compliance--change should update in 15-30 minutes
+        *(i) Check if the Visual Compliance Section [of the Account] says "Pending"-- Wait 15-30 minutes for the system to run its initial check and update. However, if Visual Compliance finds a potential 'hit' it will be cleared per the below
+        *(ii) If the Visual Compliance Section [of the Account] says  "Yellow" or"Red"-- The legal team is manually reviewing the Account to ensure compliance. This is done three (3) times a day and will automatically update the Account--check back in on the Account during the same day
+        *(iii) If the Account requires immediate action (i.e., to close a deal), open a Chatter message in the Account and message "@legal"--upon receipt the Legal team will immediately review and update in Visual Compliance--change should update in 15-30 minutes
     1. Once the Visual Compliance Section is updated, all Account functionality will return and you may proceed
 
 </details>
@@ -511,7 +510,7 @@ Within the Customer Opportunity:
 After both parties have signed the contract, complete these steps:
 
 1. Upload the fully executed pdf to the contract page;
-1. Edit the `Contract Status` field to show “Active”;
+1. Edit the `Contract Status` field to show "Active";
 1. Input the `Contract Start Date` and fill in the `Contract Term (months)` field, if applicable. The End Date will auto-fill based on the number you enter. Do not put the end date in the Termination Date field.
 1. Copy and paste the terms that have capture fields from the executed contract into the fields. Then, change the drop-down named "Term Capture" to "Complete". If you run into problems, you can change the field to "Started" and then request help by sending a chatter message at @Contracts.
 
@@ -543,8 +542,8 @@ If GitLab agrees to customized subscription terms with a customer, all quotes, S
 
 To update the terms of a quote, follow these steps:
 
-1. Delete the reference in the quote to GitLab’s URL terms.
-1. Replace the reference with the following language - “By accepting this Quote, you and the entity that you represent (collectively, “Customer”) unconditionally agree to be bound by and a party to the GitLab Subscription Agreement signed by Customer and GitLab with an effective date of mm/dd/yyyy.”
+1. Delete the reference in the quote to GitLab's URL terms.
+1. Replace the reference with the following language - "By accepting this Quote, you and the entity that you represent (collectively, "Customer") unconditionally agree to be bound by and a party to the GitLab Subscription Agreement signed by Customer and GitLab with an effective date of mm/dd/yyyy."
 1. Insert the effective date of the customized agreement signed by both parties. The effective date should be set forth in the agreement, but if not specifically set forth, use the date the last party signed.
 
 #### Adding Custom Terms to a Quote
@@ -588,8 +587,8 @@ Prior to generating a standard (non-draft) quote to deliver to a client or prosp
    - **CRO Deal Approvals:**
      - When requesting CRO approval for any discount or other non-standard deal element, please fill out the [CRO Deal Approval Template](https://docs.google.com/document/d/1thffIdwcjutUIhLW4tYlc_28O8ylPLB1WiFH98f20ac/edit) and provide a link to your copy within the request.
      - When requesting approval via the SFDC Quote Object (i.e. clicking Submit for Approval), please link your copy of the CRO Deal Approval Template in the "Submitter Comments" field on the quote.
-     - When requesting approval via SFDC Chatter, please link your copy of the CRO Deal Approval Template in the original chatter request when tagging Chris.
-     - *In all scenarios, please ensure Chris Weber has permission to access the form prior to submitting the quote for approval.*
+     - When requesting approval via SFDC Chatter, please link your copy of the CRO Deal Approval Template in the original chatter request when tagging Jake Bielecki.
+     - *In all scenarios, please ensure Jake Bielecki has permission to access the form prior to submitting the quote for approval.*
 
 1. You will be able to see who the required approvers are on the quote prior to submitting the quote and why they are required.
 1. Click the `Submit for Approval` button on the quote screen.
@@ -617,7 +616,7 @@ The quote approval module and approval workflow outlined above **does not apply 
 
 ### Where do I find the partner's contractual discount?
 
-The quoting system will provide visibility into the correct programmatic partner discount. On the quote object, each line will be stamped with the “Partner Programmatic Discount.” This field is populated by the system, but does not provide any actual discount to the quote. In order to apply the discount to the quote, this amount should be entered into the “Discount %” field on the edit products page. To confirm that the discount is correct, go to the opportunity and look at the Partner Deal Type, and then look at the Partner Engagement. Next, reference the appropriate [Partner Program Discount Table](/handbook/sales/field-operations/channel-operations/#partner-program-discounts). The product, Engagement, and Deal Type will allow you to find the proper discount in the matrix..
+The quoting system will provide visibility into the correct programmatic partner discount. On the quote object, each line will be stamped with the "Partner Programmatic Discount." This field is populated by the system, but does not provide any actual discount to the quote. In order to apply the discount to the quote, this amount should be entered into the "Discount %" field on the edit products page. To confirm that the discount is correct, go to the opportunity and look at the Partner Deal Type, and then look at the Partner Engagement. Next, reference the appropriate [Partner Program Discount Table](/handbook/sales/field-operations/channel-operations/#partner-program-discounts). The product, Engagement, and Deal Type will allow you to find the proper discount in the matrix..
 
 ### Service Attach Quote Approval
 
@@ -711,7 +710,7 @@ If an opportunity meets the criteria listed above, but does not meet the Minimum
    - What use cases are they adopting?
    - What specific services were positioned?
    - Was PS services engagement manager engaged (y/n)?
-   - What was the customer’s reason why they didn’t agree to services?
+   - What was the customer's reason why they didn't agree to services?
    - Other supporting reasons?
 
 1. Submit the quote for approval by clicking "Submit for Approval" on the quote object.
@@ -822,7 +821,7 @@ Once a user submits a quote for approval, it will follow the order of approvers 
 
 ###### How It Works
 
-- Slack Approvals sends quote approval requests from Salesforce right to your Slack via the “Quote Approval Bot.” As soon as a submitter clicks “Submit for Approval” on the quote object, the first approver will receive the request. After an approver actions their step, any subsequent approver(s) will receive their request in sequence until the quote is fully approved, or until a user rejects the quote. When it’s your turn to approve, you’ll be able to approve, reject, add comments, and monitor progression - all right in Slack. Each action writes back to Salesforce and leaves a timestamp - just like we’re used to.
+- Slack Approvals sends quote approval requests from Salesforce right to your Slack via the "Quote Approval Bot." As soon as a submitter clicks "Submit for Approval" on the quote object, the first approver will receive the request. After an approver actions their step, any subsequent approver(s) will receive their request in sequence until the quote is fully approved, or until a user rejects the quote. When it's your turn to approve, you'll be able to approve, reject, add comments, and monitor progression - all right in Slack. Each action writes back to Salesforce and leaves a timestamp - just like we're used to.
 - The Quote Approval Bot's Approval Dashboard conveniently lists all pending approval requests in one location. No more worrying you missed one!
 
 ###### Alert Types
@@ -861,7 +860,7 @@ Both submitters and approvers will receive alerts via the Quote Approval Bot as 
 
 7. Is there any functionality that enables deal-specific discussion directly in Slack?
 
-   At this time, there is no functionality that enables deal-specific discussion directly within the Quote Approval Bot. We’ve custom built this integration, and will consider such functionality for future iterations.
+   At this time, there is no functionality that enables deal-specific discussion directly within the Quote Approval Bot. We've custom built this integration, and will consider such functionality for future iterations.
 
 ###### Learn More
 
@@ -906,7 +905,7 @@ If a quote has a <span style="color:green">**green circle**</span> at the top of
 
 The first time you login to DocuSign from SFDC, you will be required to Authorize access and log in. Please follow these steps when prompted:
 
-1. After clicking on the “Send with DocuSign” button, you will be prompted with this screen. Select “Authorize” to continue.
+1. After clicking on the "Send with DocuSign" button, you will be prompted with this screen. Select "Authorize" to continue.
 
       ![DocuSign 1](/handbook/sales/images/docusign1.png)
 
@@ -914,8 +913,8 @@ The first time you login to DocuSign from SFDC, you will be required to Authoriz
 
       ![DocuSign 2](/handbook/sales/images/docusign2.png)
 
-3. Once logged in, click “Accept” to grant access to DocuSign.
-4. On the next screen, click “Allow” to grant DocuSign access to Salesforce.
+3. Once logged in, click "Accept" to grant access to DocuSign.
+4. On the next screen, click "Allow" to grant DocuSign access to Salesforce.
 5. On the final screen, you may be asked to login to Salesforce again. After this access will be granted going forward.
 
 #### How to Send an Order Form to the Customer for Signature via DocuSign
@@ -926,8 +925,8 @@ To send a digital copy of an Order Form to the customer via DocuSign:
 
 1. On the Approved quote, Click "Generate Quote PDF", near the top of the page.
 1. Proceed to the related opportunity.
-1. Confirm the PDF has been generated under the “Google Docs, Notes & Attachments” section on the opportunity.
-1. From the Opportunity, select the “Send with DocuSign” button.
+1. Confirm the PDF has been generated under the "Google Docs, Notes & Attachments" section on the opportunity.
+1. From the Opportunity, select the "Send with DocuSign" button.
 
       ![DocuSign 5](/handbook/sales/images/docusign5.png)
 
@@ -937,13 +936,13 @@ To send a digital copy of an Order Form to the customer via DocuSign:
 - If this is the correct document, click **Next**.
 - If this is NOT the correct document, uncheck the box next to the document, and add the correct file.
 
-1. To add one or multiple files, select “Add from Salesforce” or “Upload” from your computer:
+1. To add one or multiple files, select "Add from Salesforce" or "Upload" from your computer:
 
-- “Add from Salesforce” will allow you to select any Order Form PDF that has been attached to the opportunity.
-  - When selecting a document from “Add from Salesforce” make sure the box is checked to the left of the document so it is added to the envelope.
-- “Upload” will allow you to select any PDF from your computer. NOTE that any document not generated from a quote will require signature tags to be placed manually.
+- "Add from Salesforce" will allow you to select any Order Form PDF that has been attached to the opportunity.
+  - When selecting a document from "Add from Salesforce" make sure the box is checked to the left of the document so it is added to the envelope.
+- "Upload" will allow you to select any PDF from your computer. NOTE that any document not generated from a quote will require signature tags to be placed manually.
   - Note: Order Form PDFs generated prior to 2021-06-03 will require the manual placement of signature tags.
-- Make sure to hit “Next” once all the documents have been selected!
+- Make sure to hit "Next" once all the documents have been selected!
 
 1. Now you must add a **Recipient**:
 
@@ -956,12 +955,12 @@ To send a digital copy of an Order Form to the customer via DocuSign:
 
 1. Use one of two recommended methods of adding a Recipient:
 
-- “From Salesforce” - Simply type in the name of a contact in Salesforce. Click Select.
+- "From Salesforce" - Simply type in the name of a contact in Salesforce. Click Select.
   - Note: If a contact on the related SFDC opportunity has the "DocuSign Signer" contact role selected, that contact will automatically display as the signer upon arriving to this step.
-- “By Name & Email” - Enter Full name and email address. Click Select.
-  - Note: When using this option to add a signer, **leave “Role” blank.**
+- "By Name & Email" - Enter Full name and email address. Click Select.
+  - Note: When using this option to add a signer, **leave "Role" blank.**
 
-1. To add a second signer, add a **second recipient.** Ensure the second signer is marked as “Signer 2.”
+1. To add a second signer, add a **second recipient.** Ensure the second signer is marked as "Signer 2."
 1. Recipient Messaging
 
 - After specifying the envelope recipient, **modify the email subject line and enter an optional email message.**
@@ -975,16 +974,16 @@ To send a digital copy of an Order Form to the customer via DocuSign:
 1. Click Next.
 1. Send Page
 
-- **If you are sending the document to one signer:** Review the document to ensure the Signer 1 signature tags are visible on the signature block. These tags are automatically applied to any Order Form PDF generated from the SFDC quote (generated on or after 2021-06-03). When ready, click “Send.
+- **If you are sending the document to one signer:** Review the document to ensure the Signer 1 signature tags are visible on the signature block. These tags are automatically applied to any Order Form PDF generated from the SFDC quote (generated on or after 2021-06-03). When ready, click "Send.
   - Note: Order Forms generated before 2021-06-03 will have legacy signature tags, and will require manual placement of signature tags via the DocuSign tool. Only Order Forms generated with the new DocuSign templates (available starting 2021-06-03) will automatically place the signature tags.
-  - To manually add signature tags on a PDF within the DocuSign tool, select the appropriate signer in the drop down menu on the top left of the screen. Drag and drop the appropriate signature tags from the “Standard Fields” section onto the signature block on the order form.
+  - To manually add signature tags on a PDF within the DocuSign tool, select the appropriate signer in the drop down menu on the top left of the screen. Drag and drop the appropriate signature tags from the "Standard Fields" section onto the signature block on the order form.
   - For each signer, GitLab requires:
     - Signature
     - Date Signed
     - Full Name
     - Title
   - Note: Signature fields can only be added for recipients who need to take action on the document.
-- **If you are sending the document to two signers:** Select the appropriate signer in the drop down menu on the top left of the screen. Drag and drop the appropriate signature tags from the “Standard Fields” section onto the signature block on the order form. Repeat for the second signer.
+- **If you are sending the document to two signers:** Select the appropriate signer in the drop down menu on the top left of the screen. Drag and drop the appropriate signature tags from the "Standard Fields" section onto the signature block on the order form. Repeat for the second signer.
   - For each signer, GitLab requires:
     - Signature
     - Date Signed
@@ -992,16 +991,16 @@ To send a digital copy of an Order Form to the customer via DocuSign:
     - Title
   - Note: Signature fields can only be added for recipients who need to take action on the document. Fields are not added for recipients who only need to view or receive a copy of the document.
 
-1. When Complete, click “Send.”
+1. When Complete, click "Send."
 
 #### How do I check if the customer has signed the Order Form via DocuSign?
 
-1. From the Opportunity level in our Salesforce instance, you can view the status of a document by hovering over the “DocuSign Envelope Status.
+1. From the Opportunity level in our Salesforce instance, you can view the status of a document by hovering over the "DocuSign Envelope Status.
 
     ![DocuSign 6](/handbook/sales/images/docusign6.png)
 
-    - Once the document has been sent the status will state “Sent.”
-    - Once the document has been signed the status will update to “Completed.”
+    - Once the document has been sent the status will state "Sent."
+    - Once the document has been signed the status will update to "Completed."
     - You will receive email notifications to your GitLab email address when the document has been viewed, and when it has been signed.
 
 2. **When the document has been fully signed, it will automatically be attached to the opportunity.**
@@ -1010,7 +1009,7 @@ To send a digital copy of an Order Form to the customer via DocuSign:
 
 **Internal Resources:**
 
-- For a visual demo of GitLab’s DocuSign instance, review this [LevelUP Webinar from 2021-05-13](https://youtu.be/Dch4zaUQOeg)
+- For a visual demo of GitLab's DocuSign instance, review this [LevelUP Webinar from 2021-05-13](https://youtu.be/Dch4zaUQOeg)
 - Note: If you cannot view the video, make sure you are logged in to GitLab Unfiltered. [You can learn more about how to log in or request access to GitLab Unfiltered here!](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube)
 
 **DocuSign University:**
@@ -1150,7 +1149,7 @@ An Authorized Reseller, Distributor, or MSP is an approved partner with an activ
    - The PO received is issued to the correct GitLab entity and references the applicable Order Form Quote No. which includes, Quote ID, products, # of users, term, and pricing of the subscription(s).
 1. Clickthrough EULA must be delivered and accepted by the End User. Please attach a Note to the Notes and Attachments section with a confirmation link or email.
 1. The correct quote template must be selected for the relevant route to market. Authorized Reseller, Authorized Distributor, and Managed Service Provider (MSP) templates.
-1. If the End User has previously accepted a EULA, then we can use it as the governing terms with respect to the End User for this purchase.  In such a case go to our [EULA Request Server](https://customers.gitlab.com/admin/eula_request) and find the `Token` and `Accepted At` from the customer's previous EULA. Then insert the following into the quote: *"By accepting this quote, you, and the entity that you represent (collectively, “Customer”) unconditionally agree to be bound by the terms agreed to in EULA `Token` previously accepted on `Accepted At`."*
+1. If the End User has previously accepted a EULA, then we can use it as the governing terms with respect to the End User for this purchase.  In such a case go to our [EULA Request Server](https://customers.gitlab.com/admin/eula_request) and find the `Token` and `Accepted At` from the customer's previous EULA. Then insert the following into the quote: *"By accepting this quote, you, and the entity that you represent (collectively, "Customer") unconditionally agree to be bound by the terms agreed to in EULA `Token` previously accepted on `Accepted At`."*
 
 </details>
 
@@ -1353,7 +1352,7 @@ This policy dictates the timing of opportunity closure for all sales-assisted de
   - Relevant details about the account/opp seeking early booking
   - Why an exception is needed (justification)
   - Impact to the business (Net ARR or Renewal ARR loss)
-  - **Approval from both** CRO and CFO (or Principal Accounting Officer)
+  - **Approval from both** CRO and CFO (or Chief Accounting Officer, if CFO is not available)
   - Anticipated (revised) Renewal Close Date
   - Tag @Sales-Support and the Sr. Dir., Deal Desk for visibility
 
@@ -1463,8 +1462,8 @@ Note: If an exception is granted and the PO is not received within 10 days, on t
 
 When you have reviewed [all opportunity requirements](/handbook/sales/field-operations/order-processing/) and have met all necessary booking requirements, please submit the opportunity for approval.
 
-1. **To submit the opportunity for approval and closure, the Sales Rep should set the opportunity stage to 6-Awaiting Signature and afterwards click on the “Submit for Approval” button on the opportunity level.**
-    - The opportunity page will then display “edit” mode. Click Save.
+1. **To submit the opportunity for approval and closure, the Sales Rep should set the opportunity stage to 6-Awaiting Signature and afterwards click on the "Submit for Approval" button on the opportunity level.**
+    - The opportunity page will then display "edit" mode. Click Save.
 1. At this time, no further action is required from the Account Team. You will be notified by the Order Management team if further information is needed or if the opp is missing required information.
 
 **NOTE** - Orders will be processed as long as the Quote Start Date is within 15 calendar days from date of submission. If the Quote Start Date is more than 15 days out, Order Management will approve and update the close date to the earliest date that the opportunity can be booked. Only on or after that date will the Billing team review the opportunity for final booking. For more information, review the [Bookings Policy](/handbook/sales/field-operations/order-processing/#bookings-policy).
@@ -1488,22 +1487,22 @@ To view the status of an opportunity after it has been submitted for approval, *
 #### Common errors when submitting an opportunity for approval
 
 - Be sure to submit an opportunity for approval *on the opportunity* level, not the quote level.
-- Once submitted, the opportunity’s stage will update to “7- Closing,"" the opportunity record will become locked, and the Approval Status will read "In Progress." No further edits can be made to the opportunity by the field at this time.
-- Recalling Approval:  To unlock the opportunity to make changes, recall the approval submission by scrolling down to Approval History and clicking “Recall Approval Request.” Once you’ve made your changes, resubmit the opportunity for approval. You will receive a confirmation email once the opportunity has been submitted for approval.
+- Once submitted, the opportunity's stage will update to "7- Closing,"" the opportunity record will become locked, and the Approval Status will read "In Progress." No further edits can be made to the opportunity by the field at this time.
+- Recalling Approval:  To unlock the opportunity to make changes, recall the approval submission by scrolling down to Approval History and clicking "Recall Approval Request." Once you've made your changes, resubmit the opportunity for approval. You will receive a confirmation email once the opportunity has been submitted for approval.
 
 #### Deal Desk + Finance Approval Workflow
 
-- **Deal Desk Review** is initiated. It is unnecessary to chatter Sales Ops after you submit an opportunity. A Deal Desk Analyst will assign themselves to review the deal via the “Deal Desk Analyst” opportunity field.
-- **Deal Desk Approval:** If Deal Desk approves the opportunity based on the criteria above, the “Approval Status” field will update to “Deal Desk Approved.” The opportunity will remain in stage “7- Closing,” but will route to the Billing team for Finance approval.
-- **Deal Desk Rejection:** If Deal Desk rejects the opportunity based on the criteria above, the “Approval Status” field will update to “Rejected” and the opportunity will unlock. The opportunity will revert to stage “6- Awaiting Signature.” A rejection email will be sent to the Sales Rep with rejection comments and/or instructions. After taking the appropriate action(s) outlined in the rejection comments, the Sales Rep should re-submit the opportunity for approval.
-- **Finance Approval**: Once Deal Desk has reviewed and approved the transaction, Finance will review. If the opportunity is approved by Finance, the stage will update to “Closed Won” and the deal is officially booked. An approval email will be sent to the opportunity owner and Slack message will appear in the “wins” channel and the "wins-key-deals" channel where applicable.
-- **Finance Rejection:** Once Deal Desk has reviewed and approved the transaction, Finance may reject the opportunity. If Finance rejects the opportunity, the stage will remain in “7- Closing” and both the Sales Rep and Deal Desk Analyst will receive an alert email containing the rejection reason. The Sales Rep should work with the Deal Desk Analyst to rectify the issues that led to Finance rejection. Once the issues are resolved, the Deal Desk Analyst will approve the deal once more to submit it to Finance for final approval.
+- **Deal Desk Review** is initiated. It is unnecessary to chatter Sales Ops after you submit an opportunity. A Deal Desk Analyst will assign themselves to review the deal via the "Deal Desk Analyst" opportunity field.
+- **Deal Desk Approval:** If Deal Desk approves the opportunity based on the criteria above, the "Approval Status" field will update to "Deal Desk Approved." The opportunity will remain in stage "7- Closing," but will route to the Billing team for Finance approval.
+- **Deal Desk Rejection:** If Deal Desk rejects the opportunity based on the criteria above, the "Approval Status" field will update to "Rejected" and the opportunity will unlock. The opportunity will revert to stage "6- Awaiting Signature." A rejection email will be sent to the Sales Rep with rejection comments and/or instructions. After taking the appropriate action(s) outlined in the rejection comments, the Sales Rep should re-submit the opportunity for approval.
+- **Finance Approval**: Once Deal Desk has reviewed and approved the transaction, Finance will review. If the opportunity is approved by Finance, the stage will update to "Closed Won" and the deal is officially booked. An approval email will be sent to the opportunity owner and Slack message will appear in the "wins" channel and the "wins-key-deals" channel where applicable.
+- **Finance Rejection:** Once Deal Desk has reviewed and approved the transaction, Finance may reject the opportunity. If Finance rejects the opportunity, the stage will remain in "7- Closing" and both the Sales Rep and Deal Desk Analyst will receive an alert email containing the rejection reason. The Sales Rep should work with the Deal Desk Analyst to rectify the issues that led to Finance rejection. Once the issues are resolved, the Deal Desk Analyst will approve the deal once more to submit it to Finance for final approval.
 
 ### **Post Sale Information**
 
 The opportunity closed! Congrats! Wait... my customer still has questions! Here are some of the most common questions that come up after an opportunity has closed... and how to resolve them.
 
-**[CustomersDot Access and Use handbook page](/handbook/product/fulfillment-guide/#customersdot-admin-panel)**
+**[CustomersDot Access and Use handbook page](/handbook/product/groups/fulfillment-guide/#customersdot-admin-panel)**
 
 #### How do I know if a License Key was sent to the Customer?
 

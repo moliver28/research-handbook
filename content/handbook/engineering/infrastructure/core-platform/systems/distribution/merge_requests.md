@@ -5,12 +5,6 @@ title: "Distribution Team Merge Request Handling"
 description: "Workflow and responsibilities for Merge Requests performed by Distribution Engineers."
 ---
 
-
-
-
-
-
-
 ## Introduction
 
 Merge Requests are the responsibility of all Distribution Engineers. For the most part, we follow the [engineering process for code review](/handbook/engineering/workflow/code-review/).

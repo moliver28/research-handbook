@@ -32,7 +32,7 @@ If you have any feedback or questions relating to compensation, please reach out
 1. We base compensation on current position and performance at GitLab – not on what we paid you last month – and, generally, we don't reduce compensation.
 1. Increases within the market pay bands will be based on performance.
     - At hire, we base our compensation offer on the position and experience in the market.
-    - For promotions, increases are based on ensuring alignment to the new role’s market range.
+    - For promotions, increases are based on ensuring alignment to the new role's market range.
     - At [Annual Compensation review]({{< ref "compensation-review-cycle#annual-compensation-review" >}}), increases will ensure alignment to the market (by being within the entire range of the calculator), and resources will be allocated to top performing team members within the organization.
 1. GitLab will continue to monitor [pay equality](/handbook/people-group/people-success-performance-indicators/#sts=Pay%20Equality) to ensure underrepresented groups are paid at the same rate as the company.
 1. We want to follow the processes on this page for everyone, please email `total-rewards@ gitlab` when we don't. If you have a specific question around your compensation or one of your direct reports' please schedule a call with `total-rewards@ gitlab` to review.
@@ -97,7 +97,7 @@ We have a market-based approach to compensation because:
 1. It allows for us to adapt to market changes, thus remaining competitive for local talent
 1. Role, location, and level benchmarks keep compensation bands consistent. Market-based benchmarks also help with keeping it fair and consistent rather than expecting our team members to negotiate their pay.
 1. Prevents wage compression which occurs when new employees negotiate and get higher wages than those being paid to current team members.
-1. As long as budget permits, we do what’s right for the market even if it means paying a team member higher than their “expected” pay.
+1. As long as budget permits, we do what's right for the market even if it means paying a team member higher than their "expected" pay.
 
 ## Compensation Group
 
@@ -155,7 +155,7 @@ For team members on an OTE (On Target Earnings) compensation plan in Go-to-Marke
 
 #### Tracking
 
-Interim/acting roles should be tracked in Workday, in some cases the process is initated in Greenhouse or may also be tracked in the [Acting/Interim Tracker](https://docs.google.com/spreadsheets/d/1Uoz0frqDYEDINeodeeKBGMFVzdTuoe4x63LpHxU9WMo/edit#gid=0) managed by the People Connect Team.
+Interim/acting roles should be tracked in Workday, in some cases the process is initiated in Greenhouse or may also be tracked by the manager by completing a Submission of Acting Role for a Team Member [form](https://forms.gle/KdB4TBtfuHxgGLzE8).
 
 Guidance on different processes can be found below:
 
@@ -174,21 +174,21 @@ Workday examples:
 - An Engineering Manager takes on an interim role as a Senior Engineering Manager
 - A Product Manager takes on an interim role as a Senior Backend Engineer (after having gone through an interview process)
 
-The process for tracking interim/acting roles in both cases is as follows:
+The process for tracking interim/acting roles is as follows:
 
-1. Managers send an email to `people-connect@gitlab.com` with their People Business Partner in copy with the following information:
+1. *(For Acting)*, Managers will align with their Manager and People Business Partner and align on the following:
     - Whether the role is interim or acting
     - Whether the role is in a new job family or the same job family
     - Whether the interim/acting role is lateral or a higher level
     - The effective start date of the interim/acting period
-1. *(for interim)* People Business Partner will submit a [Job Change - Change Job Details](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit?usp=sharing) request in Workday. Job title should not be changed, as compensation and job family are not altered as part of the interim/acting process. Only a modification to the team member's `Business Title` is required. This step is only done for interim positions as acting positions are not tracked in Workday, but exclusively on the spreadsheet.
-1. People Connect will either, 1) confirm that the interim/acting period has been added to the [Acting/Interim Tracker](https://docs.google.com/spreadsheets/d/1Uoz0frqDYEDINeodeeKBGMFVzdTuoe4x63LpHxU9WMo/edit#gid=0), or 2) confirm that the job title has been added to Workday.
+    - Once agreed and approved, Managers will submit the [Submission of Acting Role for a Team Member form](https://docs.google.com/forms/d/e/1FAIpQLSd5CkHvcDYx6oaNzrAm8QqFZpCVLcoDrcTpaAl-cuKCUERc2A/viewform).
+1. *(For Interim)* People Business Partner will submit a [Job Change - Change Job Details](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit?usp=sharing) request in Workday. Job title should not be changed, as compensation and job family are not altered as part of the interim/acting process. Only a modification to the team member's `Business Title` is required. This step is only done for interim positions as acting positions are not tracked in Workday.
 
 #### Submitting
 
 When the interim/acting period ends, the following process should be followed to submit the interim bonus request:
 
-- *(For Acting bonuses)* The manager replies to the initial email to `people-connect@gitlab.com` and their People Business Partner to confirm the start/end date of the acting period and their initial bonus calculation
+- *(For Acting bonuses)* The manager references the start/end dates Acting period as initially submitted through the Acting form for the bonus calculation.
 - *(For Interim bonuses)* The manager references the Workday `Job` tab and clicks into `Job History` and review the 'Business Title' column to confirm the start date of the interim period
 - Once confirmed, the Manager submits the bonus in Workday. Follow the [Request a One-Time Payment job-aid](https://docs.google.com/document/d/15_cqMAIoqkxNhoCTL42X3XUpr0E9fNZXFmY3Yitk2LQ/edit?usp=sharing) to submit an OTP. Manager must also provide the start and end date of the of interim period in Workday under the *Additional Information* section in Workday
 

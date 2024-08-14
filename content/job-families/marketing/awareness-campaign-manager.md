@@ -16,7 +16,7 @@ The Awareness Campaign Manager is a [grade 6](/handbook/total-rewards/compensati
 - Work across marketing to oversee brand awareness campaign strategy and execution.
 - Develop recommendations for how we implement brand awareness campaigns, aligning them with business objectives.
 - Collaborate across multiple teams and leadership levels to collect, deliver and present information as needed.
-- Understand the competitive landscape and implications which could impact GitLab’s success and help the team navigate/leverage them.
+- Understand the competitive landscape and implications which could impact GitLab's success and help the team navigate/leverage them.
 - Build out strategy to activate internal GitLab audiences to build brand awareness excitement and buy-in.
 - Champion the voice of the GitLab customer.
 

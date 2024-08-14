@@ -1,14 +1,7 @@
 ---
-
 title: "Vimeo"
 description: "Vimeo is a video hosting, sharing, and services platform. "
 ---
-
-
-
-
-
-
 
 ## About Vimeo
 
@@ -18,11 +11,11 @@ Vimeo is a video hosting, sharing, and services platform.
 
 ### Single access
 
-Vimeo is connected to Okta. To request access, [create an access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) and use the GitLab user group `@gitlab-com/business-technology/team-member-enablement` to provision you. Make sure to include the business case for why you would like access and tag a team member from digital production. Once provisioned to Vimeo, marketing ops can adjust your permission set as neeeded.
+Vimeo is connected to Okta. To request access, [create an access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) and use the GitLab user group `gitlab-com/gl-security/corp/helpdesk` to provision you. Make sure to include the business case for why you would like access and tag a team member from digital production. Once provisioned to Vimeo, marketing ops can adjust your permission set as needed.
 
 ### Bulk access
 
-If a team is needing access to Vimeo, please open a [bulk access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and use the GitLab user group `@gitlab-com/business-technology/team-member-enablement` to provision you. Business Ops will create a group in Okta that gets pushed to Vimeo via SSO. Once access is granted, please ping `@MihaiConteanu` to update permissions for each user in the group. The group created in Okta does not sync to the `Manage Team` section in Vimeo - it will show the individual users as part of the group or team and not the team itself. However, this group/team does sync with regards to folder permissions and access. To provide access to a specific folder in Vimeo to an entire team, click on the folder settings in Vimeo and click `Share`. There, you can adjust the permissions for an entire team to your selected folder.
+If a team is needing access to Vimeo, please open a [bulk access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and use the GitLab user group `@gitlab-com/gl-security/corp/helpdesk` to provision you. Business Ops will create a group in Okta that gets pushed to Vimeo via SSO. Once access is granted, please ping `@MihaiConteanu` to update permissions for each user in the group. The group created in Okta does not sync to the `Manage Team` section in Vimeo - it will show the individual users as part of the group or team and not the team itself. However, this group/team does sync with regards to folder permissions and access. To provide access to a specific folder in Vimeo to an entire team, click on the folder settings in Vimeo and click `Share`. There, you can adjust the permissions for an entire team to your selected folder.
 
 ### User Roles
 
@@ -30,7 +23,7 @@ If a team is needing access to Vimeo, please open a [bulk access request](/handb
 
 1. `Uploaders` - Uploaders can only upload videos to the account. On their upload page, they will be able to toggle between uploading videos to their own account and uploading videos to the company account. Uploaders will only be able to edit the title and description of the video while it is being uploaded to the company account. Any videos an uploader adds to the company account will have the [privacy setting](#privacy-settings-overview) `Only Me`, but as the account owner, you can change the video's privacy setting after upload. **Note:** Uploaders will need to make sure they select the correct account from their upload page. Uploaders do not have any access to the company account otherwise. They cannot view or edit the video after they've uploaded it nor can they access any settings for the company account.
 1. `Viewers` - Viewers can be invited to specific folders within the account, but they will have limited access to the contents of those folders. They can access the review page, leave notes, and share videos that are within those folders. They do not have the ability to upload, edit, publish, or access any other settings or areas of the account that are meant for working members.
-1. `Contributors` - Contributors can be invited to access a specific folder within the account. They’ll have the ability to upload, edit, review, share, and publish videos within a folder, but won’t have access to any of your other folders or areas of your account. A contributor also won’t be able to change the title of a folder, delete a folder, or delete a video from the account. They can view settings of a video in that folder as well as the analytics tab, which has numbers from the past 30 days but won't have access to advanced analytics for the video. Once in the `Video Manager`, Contributors will only be able see the folders to which they have been invited. In addition, contributors can access settings of an archived live event within the folder to which they contribute. Contributors can start a live event to Vimeo if they are using an external encoder via RTMP (after the Owner or Admin creates an event and provides the Contributor with the RTMP URL and Stream Key). **Note:** If the Vimeo account is connected to other social accounts such as Facebook, then any live events the Contributor starts from their encoder will also simulcast to that destination.
+1. `Contributors` - Contributors can be invited to access a specific folder within the account. They'll have the ability to upload, edit, review, share, and publish videos within a folder, but won't have access to any of your other folders or areas of your account. A contributor also won't be able to change the title of a folder, delete a folder, or delete a video from the account. They can view settings of a video in that folder as well as the analytics tab, which has numbers from the past 30 days but won't have access to advanced analytics for the video. Once in the `Video Manager`, Contributors will only be able see the folders to which they have been invited. In addition, contributors can access settings of an archived live event within the folder to which they contribute. Contributors can start a live event to Vimeo if they are using an external encoder via RTMP (after the Owner or Admin creates an event and provides the Contributor with the RTMP URL and Stream Key). **Note:** If the Vimeo account is connected to other social accounts such as Facebook, then any live events the Contributor starts from their encoder will also simulcast to that destination.
 1. `Admins` - Admins can help upload and manage all videos, folders, and collections. Admins will not be able to access account settings or payment information. Admins also cannot delete videos; only the account owner can do this. Admins have access to the following features:
    - Creating, managing, and deleting collections
    - Creating, managing, and deleting folders
@@ -82,7 +75,7 @@ Only the `Owner` role has the ability to delete videos in Vimeo. As such, we hav
 
 ## Create
 
-[Vimeo Create](https://vimeo.zendesk.com/hc/en-us/articles/360037832151-Vimeo-Create-overview) is Vimeo’s new video maker tool. It allows you to easily and quickly create your own video from stock videos, photos, and personal videos. [See the knowledgebase article](https://vimeo.zendesk.com/hc/en-us/articles/360037832151-Vimeo-Create-overview) for a full tutorial.
+[Vimeo Create](https://vimeo.zendesk.com/hc/en-us/articles/360037832151-Vimeo-Create-overview) is Vimeo's new video maker tool. It allows you to easily and quickly create your own video from stock videos, photos, and personal videos. [See the knowledge base article](https://vimeo.zendesk.com/hc/en-us/articles/360037832151-Vimeo-Create-overview) for a full tutorial.
 
 ## Upload
 
@@ -141,11 +134,11 @@ The indicator bar at the top displays one of the following statuses:
 
 Stream metrics display the incoming bitrate and frame rate data. The graph updates in real time and details the changes in bitrate/frame rate over the last ten minutes of your stream.
 
-Below the graph you’ll find the bitrate, average bitrate, frame rate, average frame rate, and video resolution for your stream. These metrics update in real time as well.
+Below the graph you'll find the bitrate, average bitrate, frame rate, average frame rate, and video resolution for your stream. These metrics update in real time as well.
 
 ### Advanced Analytics
 
-Below stream metrics, click `Advanced Analytics` to see additional information about your stream, namely Video codec, Audio codec, AVC profile, and AVC level. These inform you of your stream’s video and audio compression format (AVC stands for Advanced Video Coding), and the Session ID is a unique string that identifies your stream for Vimeo.
+Below stream metrics, click `Advanced Analytics` to see additional information about your stream, namely Video codec, Audio codec, AVC profile, and AVC level. These inform you of your stream's video and audio compression format (AVC stands for Advanced Video Coding), and the Session ID is a unique string that identifies your stream for Vimeo.
 
 Ensure that you have the `GitLab` account selected to view video analytics specific to our account as each user also has a personal account.
 
@@ -159,7 +152,7 @@ With [Graphics](https://vimeo.zendesk.com/hc/en-us/articles/360029427951-Graphic
 
 ### Lower Thirds
 
-The name “lower third” specifically refers to the bottom one-third of the screen. [These graphics](https://vimeo.zendesk.com/hc/en-us/articles/360029427951-Graphic-overlays#h_01EKZD4FKSH76E84VWZXXHE03Q) are typically used to introduce a speaker or participant on your stream or identify the location of your event, among other uses.
+The name "lower third" specifically refers to the bottom one-third of the screen. [These graphics](https://vimeo.zendesk.com/hc/en-us/articles/360029427951-Graphic-overlays#h_01EKZD4FKSH76E84VWZXXHE03Q) are typically used to introduce a speaker or participant on your stream or identify the location of your event, among other uses.
 
 **Create a lower third**
 
@@ -169,7 +162,7 @@ The name “lower third” specifically refers to the bottom one-third of the sc
 
 ### Fullscreen Graphics
 
-Fullscreen graphics work the same way as lower thirds, except they cover the entire screen. This is ideal for displaying information prior to any action taking place or during any breaks in your event (e.g. “Stay Tuned,” “We’ll be right back.”)
+Fullscreen graphics work the same way as lower thirds, except they cover the entire screen. This is ideal for displaying information prior to any action taking place or during any breaks in your event (e.g. "Stay Tuned," "We'll be right back.")
 
 **Add a fullscreen graphic**
 
@@ -201,7 +194,7 @@ A logo is a small icon that appears in the lower right corner of the screen and 
 
 1. To answer a question, hover over the question and click `Answer`. A graphic overlay will appear as a lower third with the question automatically. **Note:** You are expected to address the question within the stream; there is no option to type in an answer into the Q&A module.
 1. You can hide (and re-show) the graphic overlay by clicking `Hide (Show)` in the `Active Questions` list.
-1. When you’ve finished answering the question, click `Archive` to remove the question from the list. You may also archive questions without answering them or publishing them to the stream. If you've archived a question by mistake, you can switch over to the `Archived` tab, hover over the questions and click `Unarchive`. This will put the question back in the `Active` tab.
+1. When you've finished answering the question, click `Archive` to remove the question from the list. You may also archive questions without answering them or publishing them to the stream. If you've archived a question by mistake, you can switch over to the `Archived` tab, hover over the questions and click `Unarchive`. This will put the question back in the `Active` tab.
 
 ### Ending Q&A
 
@@ -223,14 +216,14 @@ The CSV includes the following information:
 
 ## Polls
 
-[Live polls](https://vimeo.zendesk.com/hc/en-us/articles/360002126447-Live-polls) allows you to insert questions into your live stream for viewers to respond to via [live chat](#chat). Polls can be used to gather feedback from viewers (answers ranked by percentage) or as a quiz (one option being the correct response). You can have as many polls as you’d like per stream, but only one poll may be open at a time.
+[Live polls](https://vimeo.zendesk.com/hc/en-us/articles/360002126447-Live-polls) allows you to insert questions into your live stream for viewers to respond to via [live chat](#chat). Polls can be used to gather feedback from viewers (answers ranked by percentage) or as a quiz (one option being the correct response). You can have as many polls as you'd like per stream, but only one poll may be open at a time.
 
 ### Create a poll
 
 1. Once you have set up your live event, click `Polls` in the left sidebar menu.
 1. Click the `Create Poll` button.
 1. Enter the question and up to four options. You have the optional ability to mark one option as the correct choice by clicking the star icon associated with that option.
-1. Once your poll has been created and you are live, select `Open poll` to show this poll and allow viewers to participate. Polls can be created before going live, but they cannot be opened until you are streaming. Opened polls are pinned to the beginning of the live chat and visible to all viewers. You can keep your poll open for as long as you’d like. While open, you can choose to `Show graphic` which will show the poll options on the stream itself. The percentages for each option will continue to changes as more viewers partake.
+1. Once your poll has been created and you are live, select `Open poll` to show this poll and allow viewers to participate. Polls can be created before going live, but they cannot be opened until you are streaming. Opened polls are pinned to the beginning of the live chat and visible to all viewers. You can keep your poll open for as long as you'd like. While open, you can choose to `Show graphic` which will show the poll options on the stream itself. The percentages for each option will continue to changes as more viewers partake.
 1. Once viewers have had enough time to submit their response, click `Publish results` to close the poll so no more responses can be accepted. You can continue to use the `Show graphic/Hide graphic` button to display or hide the final results. Once your poll has concluded and you no longer need the results, you can remove it by clicking `Archive`. **Note:** Poll results will not be stored anywhere on the Vimeo account after the event so take note of them before removing them.
 
 ## Chat
@@ -247,22 +240,22 @@ Vimeo supports [simulcasting](https://vimeo.zendesk.com/hc/en-us/articles/360000
 
 ## Interaction tools
 
-[Interaction tools](https://vimeo.zendesk.com/hc/en-us/articles/115007469788-Video-interaction-tools-overview) allow you to engage with your audience at meaningful points within the video, and give them the opportunity to connect to additional external sites or resources.
+[Interaction tools](https://help.vimeo.com/hc/en-us/articles/12426192274961-How-to-add-cards-to-videos) allow you to engage with your audience at meaningful points within the video, and give them the opportunity to connect to additional external sites or resources.
 
 ### Email capture
 
 [Email capture](https://vimeo.zendesk.com/hc/en-us/articles/224819147-Email-capture) can appear before, during, or after a video, with the option to "gate" your video behind the email capture field, or let viewers skip it.
 
-You can set up the email capture screen to appear before, during, or after your embedded videos, then download those email addresses. There is no direct integration between Vimeo and Marketo. You can only set up one email capture screen per video. For example, if you’ve already chosen to display the email capture screen before your video, you’ll no longer see the options to display it during or after in the embed settings. **Note:** Email capture is not supported on Facebook or Twitter.
+You can set up the email capture screen to appear before, during, or after your embedded videos, then download those email addresses. There is no direct integration between Vimeo and Marketo. You can only set up one email capture screen per video. For example, if you've already chosen to display the email capture screen before your video, you'll no longer see the options to display it during or after in the embed settings. **Note:** Email capture is not supported on Facebook or Twitter.
 
 **Setting up email capture**
 
-1. Navigate to the `Interaction tools` tab in your video’s settings.
+1. Navigate to the `Interaction tools` tab in your video's settings.
 1. Select to enable email capture before, during, or after your video. If you choose to display the email capture screen before or during your video, you have the option to allow or prevent viewers from skipping the email capture screen. You also have the option to add a custom message, up to 100 characters in length, that will display along with the email capture fields.
 
 **Interaction stats for email capture**
 
-From the stats panel for your video, you can check the number of times the email capture screen has been seen and the number of email addresses submitted for the past 30 days. [Learn more about stats for video interaction tools](https://help.vimeo.com/hc/en-us/articles/115004386887-Videos-page-stats-panel).
+From the stats panel for your video, you can check the number of times the email capture screen has been seen and the number of email addresses submitted for the past 30 days. [Learn more about stats for video interaction tools](https://help.vimeo.com/hc/en-us/articles/12426973464465-Live-analytics-overview).
 
 **Downloading all captured emails as a CSV**
 
@@ -295,8 +288,8 @@ If you only want the email addresses from one particular video, you can download
 1. `Only people I follow` - Make my videos visible only to people I follow on Vimeo (Note: this setting will make it so that people you follow will see your video in their feeds)
 1. `Only people I choose` - I'll select people with whom I want to share this video (Note: this setting will only work for sharing with other Vimeo members you follow)
 1. `Only people with a password` - Protect this video with a password (Note: you can share password-protected videos with non-Vimeo members).
-1. `Only people with the private link` - Make video visible only to people who have the link. (Your video cannot appear in channels or groups, and any credits you’ve added will be removed.)
-1. `Hide this video from vimeo.com` - This video can be embedded on other sites but can’t be viewed on vimeo.com. (Your video cannot appear in channels and groups but can still be added to showcases and portfolios.)
+1. `Only people with the private link` - Make video visible only to people who have the link. (Your video cannot appear in channels or groups, and any credits you've added will be removed.)
+1. `Hide this video from vimeo.com` - This video can be embedded on other sites but can't be viewed on vimeo.com. (Your video cannot appear in channels and groups but can still be added to showcases and portfolios.)
 
 [See more info on privacy settings](https://vimeo.zendesk.com/hc/en-us/articles/224817847-Privacy-settings-overview).
 
@@ -335,7 +328,7 @@ Analytics allow you to access in-depth insights about your videos and your Vimeo
 
 To access video [analytics](https://vimeo.zendesk.com/hc/en-us/articles/224820247-Analytics-overview), hover over `Manage Videos` in the top left navigation menu and click `Analytics`.
 
-[View the knowledgebase article](https://vimeo.zendesk.com/hc/en-us/articles/224820247-Analytics-overview) for a full tutorial.
+[View the knowledge base article](https://vimeo.zendesk.com/hc/en-us/articles/224820247-Analytics-overview) for a full tutorial.
 
 ## Integrations
 
@@ -353,7 +346,7 @@ If there is an interest to pursue the [Slack integration](https://vimeo.zendesk.
 
 ### Google Tag Manager
 
-The following event actions are sent from the player and are [being tracked via Google Tag Manager](https://help.vimeo.com/hc/en-us/articles/115002859607-Integrating-with-Google-Tag-Manager):
+The following event actions are sent from the player and are [being tracked via Google Tag Manager](https://help.vimeo.com/hc/en-us/articles/22098668654481-Google-Tag-Manager-Integration):
 
 1. load
 1. play
@@ -361,4 +354,4 @@ The following event actions are sent from the player and are [being tracked via 
 1. progress - 50%
 1. progress - 75%
 1. progress - 100%
-1. emailcapture
+1. `emailcapture`

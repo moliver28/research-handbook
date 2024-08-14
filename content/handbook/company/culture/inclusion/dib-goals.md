@@ -34,7 +34,7 @@ What is a timeline to create a US leadership KPI and/or OKR?
 
 ### Global Representation of URGs
 
-These breakouts are currently found [here]({{< ref "identity-data" >}})
+These breakouts are currently found [here](/handbook/company/culture/inclusion/identity-data/)
 
 ## Past Goals
 

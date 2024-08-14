@@ -1,12 +1,9 @@
 ---
-
 title: Feedback and Complaints
 category: Handling tickets
 subcategory: Writing responses and handling feedback
 description: "Support Engineering workflow for receiving and responding to customer feedback"
 ---
-
-
 
 ### Overview
 
@@ -46,10 +43,8 @@ Sometimes a customer may provide feedback via the ticket directly, or they may p
 this feedback is captured, please create an issue in the Customer Feedback
 project using the
 [Indirect Feedback template](https://gitlab.com/gitlab-com/support/feedback/-/issues/new?issuable_template=Indirect%20Feedback)
-and copy the feedback into the new issue. The
-[SSAT Reviewing Manager](https://gitlab.pagerduty.com/schedules#P9UIIDY)
-will be assigned to the issue and they will review the feedback and take
-appropriate action.
+and copy the feedback into the new issue. Assign the issue to the manager of the assignee 
+and they will review the feedback and take appropriate action.
 
 In the meantime, you should continue to assist the customer with their queries
 and address their feedback if appropriate. If you are unsure on how to proceed,

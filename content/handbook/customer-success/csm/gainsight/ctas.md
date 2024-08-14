@@ -1,14 +1,7 @@
 ---
-
 title: "Calls to Action (CTAs)"
 description: "The Gainsight guide to using Calls to Action (CTAs) to assist you managing your accounts, making sure customers' needs are addressed, and planning for what's next."
 ---
-
-
-
-
-
-
 
 A [CTA](https://support.gainsight.com/Gainsight_NXT/04Cockpit_and_Playbooks/01About/CTAs_Tasks_and_Playbooks_Overview) is a call to action that is tied to a customer and appears in a CSM's cockpit, as well as the account cockpit. CTAs can be created manually at any time, but some will automatically be created for you based on certain events or data.
 
@@ -62,7 +55,7 @@ There are several "types" of CTAs, which will have different corresponding playb
   - New Customer Onboarding - SaaS email assist
   - New Customer Onboarding - Self-Managed email assist
   - Usage Data Enablement
-  - Webinar Attended by Customer  
+  - Webinar Attended by Customer
 - Activity
   - [New Account Handoff](/handbook/customer-success/csm/account-handoff/#account-handoff-cta)
 - Renewal

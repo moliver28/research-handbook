@@ -11,15 +11,15 @@ description: "Step by Step instructions for Field Marketers on how to set up var
 
 This type of event is generally recommended for smaller virtual events (200 attendees max) and allows you to break the audience into smaller groups during the event. Attendees are able to be interactive in this event type, having the option to share both audio/video if allowed by the host. We can track registration, but there is NO Marketo integration, which requires manual list upload to Marketo post-event.
 
-Please note this option does not allow for registration to be capped. You can require approval, but Zoom doesn’t allow customization of the rejection email (and it isn’t clear if a rejection email is even sent).
+Please note this option does not allow for registration to be capped. You can require approval, but Zoom doesn't allow customization of the rejection email (and it isn't clear if a rejection email is even sent).
 
-#### [Owned Events Hosted on Personal Zoom Accounts](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#owned-events-hosted-on-personal-zoom-accounts-1)
+#### Owned Events Hosted on Personal Zoom Accounts
 
-This is a light-weight virtual event that is hosted on any team member’s personal Zoom.
+This is a light-weight virtual event that is [hosted on any team member's personal Zoom](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#owned-events-hosted-on-personal-zoom-accounts-1).
 
 #### Virtual Lunch and Learn Session (Owned Events)
 
-A Virtual Lunch and Learn sessions is another type of light-weight account-centric event that is hosted on a team member’s personal zoom account. The sessions are informal online meetings that take place during break or lunchtime and focus on specific topics, educate and raise product and brand awareness. Lunch and learn sessions usually last 45 minutes to an hour, but depending on the topic and attendee dynamics, some sessions may run longer.
+A Virtual Lunch and Learn sessions is another type of light-weight account-centric event that is hosted on a team member's personal zoom account. The sessions are informal online meetings that take place during break or lunchtime and focus on specific topics, educate and raise product and brand awareness. Lunch and learn sessions usually last 45 minutes to an hour, but depending on the topic and attendee dynamics, some sessions may run longer.
 
 ##### Goal
 
@@ -28,16 +28,16 @@ In most cases we work closely with an advocate within an account to drive produc
 ##### Best Practices
 
 1. The FMM works with the account team (SAL, AE, SA, TAM) to determine accounts to be targeted and choose the relevant topic ([currrently vailable topics](https://drive.google.com/drive/folders/1L_kd6QudSWcvAKDM-h6oPvvC6LiNj_ER))
-1. The FMM sets up the [event](/handbook/marketing/events/#event-execution) and is hosted on the team member’s personal zoom account.
+1. The FMM sets up the [event](/handbook/marketing/events/#event-execution) and is hosted on the team member's personal zoom account.
 1. Before the Lunch and Learn session, the participants receive an e-voucher (example value $25), uber eat gift card, Just Eat or similar depending on availability in their area. The FMC will coordinate the advanced purchase of these vouchers and send through a [Reachdesk campaign](/handbook/marketing/marketing-operations/reachdesk/#e-gift-cards-and-reward-pass). Small swag items (e.g Stickers and socks) can be sent instead of food vouchers.
 1. If budget allows, the participants may receive a GitLab swag gift through a [Reachdesk Landing Page](/handbook/marketing/marketing-operations/reachdesk/#creating-a-landing-page)
 1. All participants are followed up by email with session recording and SDR/SALs direct follow-up.
 
 ## Hosted on Field Marketing Zoom License
 
-### [Virtual Workshops](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshops-1)
+### Virtual Workshops
 
-Field Marketers will work with the Customer Success teams, Product Marketing & Solution Engineers to build various types of Virtual Workshops, depending on the needs of the region. These Virtual Workshops are designed to accelerate pipeline and attract new customers to GitLab by providing a hands-on experience.
+Field Marketers will work with the Customer Success teams, Product Marketing & Solution Engineers to build various types of [Virtual Workshops](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshops-1), depending on the needs of the region. These Virtual Workshops are designed to accelerate pipeline and attract new customers to GitLab by providing a hands-on experience.
 
 For more information regarding workshop capacities, please review [these details](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#workshop-registration-caps-and-closing-registration).
 
@@ -52,9 +52,9 @@ Note that Virtual Workshops involve the SLA timeline below. Please make sure to 
 
 - **Virtual Workshops (-40 business day [SLA](https://docs.google.com/spreadsheets/d/1YXriQ1clvYyBn-TDbbCVvNP6NEbrAF-0w6tIHKhDeZM/edit#gid=1983708280&range=A48))** - These workshops utilize the material from the current workshops that have already been created. For these workshops, you will be re-utilizing all the existing content with either no content changes or *very* minor content adjustments (example - change of title from Advanced CI/CD Workshop to Advanced CI/CD Workshop for the PubSec).
 
-### [Webcasts](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#webcasts-1)
+### Webcasts
 
-This is a GitLab-hosted virtual event with Webcast type configuration in Zoom. This is the preferred setup for larger GitLab-hosted virtual events (up to 1,000 attendees) that requires registration due to the integration with Marketo for automated lead flow and event tracking. GitLab-hosted webcast type is a single room virtual event that allows multiple hosts. Attendees cannot share audio/video unless manually grated access.
+This is a GitLab-hosted virtual event with [Webcast type](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#webcasts-1) configuration in Zoom. This is the preferred setup for larger GitLab-hosted virtual events (up to 1,000 attendees) that requires registration due to the integration with Marketo for automated lead flow and event tracking. GitLab-hosted webcast type is a single room virtual event that allows multiple hosts. Attendees cannot share audio/video unless manually grated access.
 
 #### Webcast SLA
 
@@ -66,7 +66,7 @@ For more information on Virtual Event type comparisons, promotion, Zoom capabili
 
 ## Closed Captioning
 
-When utiling our Zoom webcast license we can either provide manual captioning, or now with Zoom’s live transcription feature, we can also automatically provide captions. You will see a `Live Transcript` button at the bottom of your Zoom interface where this feature can be turned on at the beginning of your webinar.
+When utiling our Zoom webcast license we can either provide manual captioning, or now with Zoom's live transcription feature, we can also automatically provide captions. You will see a `Live Transcript` button at the bottom of your Zoom interface where this feature can be turned on at the beginning of your webinar.
 
 **Please Note:**
 
@@ -170,19 +170,19 @@ There are two types of speakers in Zoom webcasts: Host and Panelist. A Host can 
 
 Panelists have the ability to unmute, share screen, answer chat, answer Q&A, etc. They just can't start/end/record. Any external speakers must be set up as Panelists. The panelist link is not secure, meaning anyone can click on it and join the meeting as a panelist and the name will read the name of the person that was entered in Zoom. We typically put the links in the dry run doc instead of public calendars, just to be safe.
 
-It’s not recommended to have more than a few hosts because it can get a bit confusing when you go to end the meeting, stop recording, etc. Recommendation is the FMC sets themselves as host, the FMM also as a host and 1-2 SAs as hosts.
+It's not recommended to have more than a few hosts because it can get a bit confusing when you go to end the meeting, stop recording, etc. Recommendation is the FMC sets themselves as host, the FMM also as a host and 1-2 SAs as hosts.
 
-#### [Zoom Configuration Training Video](https://www.youtube.com/watch?v=ofUPO3gHxmQ&feature=youtu.be)
+#### Zoom Configuration Training Video
 
-This training video includes Zoom configuration setup instructions, as well as Marketo program/SFDC Campaign setup instructions.
+[This training video](https://www.youtube.com/watch?v=ofUPO3gHxmQ&feature=youtu.be) includes Zoom configuration setup instructions, as well as Marketo program/SFDC Campaign setup instructions.
 
 *This video has been uploaded as a private video in GitLab Unfiltered. You MUST be logged into Unfiltered to view the video. Instructions on how to log into GitLab Unfiltered can be found [here](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).*
 
 #### Zoom Configuration Instructions
 
-1. **LOGIN**: log into Zoom,  go to the Webinars tab then click “Schedule a webinar”.
-1. **TEMPLATE**: make sure to select “TEMPLATE” in the "use a template" section.
-1. **TOPIC**: add the topic as follows “Webcast title - Month DD, YYYY - HH:MM am/pm PT/HH:MM am/pm UTC” (for example: `Debunking Serverless security myths - October 21, 2019 - 8:30 am PT/3:30 pm UTC`).
+1. **LOGIN**: log into Zoom,  go to the Webinars tab then click "Schedule a webinar".
+1. **TEMPLATE**: make sure to select "TEMPLATE" in the "use a template" section.
+1. **TOPIC**: add the topic as follows "Webcast title - Month DD, YYYY - HH:MM am/pm PT/HH:MM am/pm UTC" (for example: `Debunking Serverless security myths - October 21, 2019 - 8:30 am PT/3:30 pm UTC`).
 1. **DESCRIPTION**: add a sentence to describe what the webcast is about at a high-level - this is usually what would be included in the description when adding the event to the GitLab Events Page
 1. **WHEN**: add the webcast date and time.
 1. **DURATION**: add how long the webcast will be PLUS 45 minutes. You must include an additional 45 minutes for the prep call before the event plus padding for running over, otherwise the Launchpoint integration will fail. Keep the start time as the actual time attendees should join, but increase the duration. For example, if your webcast is from 9:00am-10:00am PT, enter start time of 9:00am, but a duration of 1 hour and 45 minutes.
@@ -217,9 +217,9 @@ This training video includes Zoom configuration setup instructions, as well as M
 
 ### Step 2: Set up the webcast in Marketo/SFDC and integrate to Zoom
 
-#### [Marketo Program and SFDC Campaign Setup Training Video](https://www.youtube.com/watch?v=ofUPO3gHxmQ&feature=youtu.be)
+#### Marketo Program and SFDC Campaign Setup Training Video
 
-Note: This training video includes Zoom configuration setup instructions, as well as Marketo program/SFDC Campaign setup instructions. Marketo program/SFDC Campaign setup instructions begin around the 9.5 minute mark.
+Note: This training video includes Zoom configuration setup instructions, as well as [Marketo program/SFDC Campaign setup instructions](https://www.youtube.com/watch?v=ofUPO3gHxmQ&feature=youtu.be). Marketo program/SFDC Campaign setup instructions begin around the 9.5 minute mark.
 
 *This video has been uploaded as a private video in GitLab Unfiltered. You MUST be logged into Unfiltered to view the video. Instructions on how to log into GitLab Unfiltered can be found [here](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).*
 
@@ -362,7 +362,7 @@ If additional assistance is required, please comment in the [#marketing_programs
 
 **DRI: Marketing Ops**
 
-1. Update emails `invitation 1 - 2 weeks prior`,  `invitation 2 - 1 week prior` , and if needed `invitation 3 - Day before` with relevant copies related to the webcast. *Note: We normally use the same copy for all 3 emails and simply tweaked the templated subject lines to sound more like “Reminders”.*
+1. Update emails `invitation 1 - 2 weeks prior`,  `invitation 2 - 1 week prior` , and if needed `invitation 3 - Day before` with relevant copies related to the webcast. *Note: We normally use the same copy for all 3 emails and simply tweaked the templated subject lines to sound more like "Reminders".*
 2. Approve copy and send samples to the requestor, and the presenter (if different from requestor).
 3. Go to the List folder and edit the `Target List` smart list and input the names of past similar programs and applicable program statuses to the `Member of program` filter. This will make sure people that have attended programs with similar topics in the past are included in the invite.
 4. Once you get approval on the sample email copy, schedule the email programs outlined in step 1.
@@ -466,16 +466,16 @@ Trim your videos
 
 1. Sign in to [YouTube Studio](https://studio.youtube.com/).
 1. From the left menu, select **Content**.
-1. Click the title or thumbnail of the video you’d like to edit.
+1. Click the title or thumbnail of the video you'd like to edit.
 1. From the left menu, select **Editor**.
 1. Select Trim & cut. A blue box will appear in the editor.
-1. Drag the sides of the blue box. Stop when the box is covering the portion of the video that you’d like to keep. Anything not in the box will be removed from the video.
+1. Drag the sides of the blue box. Stop when the box is covering the portion of the video that you'd like to keep. Anything not in the box will be removed from the video.
 1. Click **Save**
 
 Editing a section of your video
 
 1. Select Trim & cut, then click **NEW CUT**. A red box will appear in the editor.
-1. Drag the sides of the red box. Stop when the red box is covering the portion of the video that you’d like to remove. Anything not in the red box will remain in  the video.
+1. Drag the sides of the red box. Stop when the red box is covering the portion of the video that you'd like to remove. Anything not in the red box will remain in  the video.
 1. To confirm your edits, select **Cut**.
 1. Click **Save**.
 
@@ -504,7 +504,7 @@ More options
 
 **Webcasts:**
 
-- Click into your campaign’s Marketo program and update the `ondemandUrl` token with the Pathfactory track URL.
+- Click into your campaign's Marketo program and update the `ondemandUrl` token with the Pathfactory track URL.
   - The track URL should NOT contain any `?` question marks (if it does, you did not update the custom URL slug) - [WATCH THE EXPLAINER VIDEO](https://www.youtube.com/watch?v=VHgR33cNeJg)
   - The URL should NOT contain `https://` and should NOT contain the Pathfactory tracking parameter `lb_email=` (this is already incorporated into all assets of the Marketo program template).
 
@@ -618,24 +618,24 @@ PLEASE NOTE: The below instructions are only for virtual workshops. If you are r
 
 ## Canceling a Workshop or Webcast
 
-PLEASE NOTE: The below instructions are only for virtual workshops. If you are canceling an in-person workshop (a workshop that is NOT utilizing our Zoom integration), then please follow our general cancelation instructions [here](/handbook/marketing/field-marketing/#rescheduling-or-canceling-events).
+PLEASE NOTE: The below instructions are only for virtual workshops. If you are canceling an in-person workshop (a workshop that is NOT utilizing our Zoom integration), then please follow our general cancellation instructions [here](/handbook/marketing/field-marketing/#rescheduling-or-canceling-events).
 
 ### FMM Tasks
 
 - FMM to update Allocadia showing the event as canceled by going to the event sub-category panel and selecting `Yes` to the `Campaign Cancelled?` dropdown. FMM to also add in `CANCELED` to the `Official Event/Campaign Name` field so the title in the main issue stays updated.
 - FMM to remove any planned/forecasted costs in Allocadia accordingly.
-- FMM to ping the FMC and staff/DRIs in the main Field Marketing issue to communicate the cancelation and close out the issue.
-- If there are registrations for the event, please either notify the registrants of the cancelation directly, or ask your FMC to create a cancelation email issue and provide copy in the copy doc. Note that this email must follow the [MOps SLA](/handbook/marketing/marketing-operations/campaign-operations/#slas).
+- FMM to ping the FMC and staff/DRIs in the main Field Marketing issue to communicate the cancellation and close out the issue.
+- If there are registrations for the event, please either notify the registrants of the cancellation directly, or ask your FMC to create a cancellation email issue and provide copy in the copy doc. Note that this email must follow the [MOps SLA](/handbook/marketing/marketing-operations/campaign-operations/#slas).
 
 ### FMC Tasks
 
 - The FMC will update the [Marketing Calendar](/handbook/marketing/#marketing-calendar) by selecting the event line item and adding a strikethrough to indicate the event has been canceled.
 - The FMC will delete the invite in the [GitLab Hosted Zoom Webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar.
 - The FMC will submit an MR to delete the event listing on the [Events Page](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents).
-- The FMC will comment regarding the cancelation in all open sub-issues and close out the issues. If there are any emails scheduled to send, the FMC will ping MOps specically in those issues to have them unschedule the sends first.
+- The FMC will comment regarding the cancellation in all open sub-issues and close out the issues. If there are any emails scheduled to send, the FMC will ping MOps specically in those issues to have them unschedule the sends first.
 - The FMC will unschedule the Dry Run invite in the [GitLab Hosted Zoom Webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar.
-- If the FMM is not sending their own cancelation email to registrants and would like to send a Marketo cancellation email, create an [issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/request_email_invite.md) for the request and triage to Marketing Ops. Please Note: This email must be scheduled and sent BEFORE the rest of the steps below can be completed.
-- Once all sub-issues are closed, the FMC will also note the cancelation in the epic and close the epic.
+- If the FMM is not sending their own cancellation email to registrants and would like to send a Marketo cancellation email, create an [issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/request_email_invite.md) for the request and triage to Marketing Ops. Please Note: This email must be scheduled and sent BEFORE the rest of the steps below can be completed.
+- Once all sub-issues are closed, the FMC will also note the cancellation in the epic and close the epic.
 - SFDC: Add `[CANCELED]` to the campaign name and select `Aborted` in the `Campaign Status` dropdown.
 - Marketo: Add `[CANCELED]` to the program name. Go to the `Salesforce campaign sync` field and click on the linked campaign, select `None` from the dropdown and click `Save.` This removes the SFDC and Marketo sync for the program. Deactivate any [activated smart campaigns](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-4-activate-marketo-smart-campaigns).
 - FMC to ping MOps with the Marketo program link in the `#mktgops` Slack channel and request the program be deleted (FM does not have access in Marketo to delete programs). Please Note: Once the Marketo program is deleted, the Marketo LP will also be deleted and not accessible by anyone with the registration link.
@@ -808,7 +808,7 @@ In order to cap registration, we remove the registration form on the Landing Pag
    - If new content: Work with Presenters/Instructors to create presentation slides, labs, demos, as well as copy for landing page and emails.
    - If existing content: Work with Presenters/Instructors to update presentation slides.
 1. FMM DRI to work together on developing the script for MC within the Dry Run document utilizing the [Dry Run Template](https://docs.google.com/document/d/1DzNkJnwlVOB1vw4yvgXtIxtddfw_x4u7WC9xAqSVEHM/edit?ts=5f2414fd).
-   - FMM also needs to compile Presenter’s Bio’s to include in the script for MC to announce as a brief introduction during the workshop before they begin their portion.
+   - FMM also needs to compile Presenter's Bio's to include in the script for MC to announce as a brief introduction during the workshop before they begin their portion.
    - For more details, please review the [Workshop Dry Run and Q&A Section](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#workshop-dry-run-and-qa) below.
 1. FMM to fill out [Dry Run Template](https://docs.google.com/document/d/1ePmUc0ZUgO4aip8i3hjkROh2hKIO3WuQ7h0aSl0IsZA/edit) with roles/responsibilities/quick links and more.
 1. FMM will need to create the [Intro and Transition Slidedeck](https://docs.google.com/presentation/d/19BD2fZ2fN1AcvWo-Xf9bEL8AR8R6sYxY1s2aA6gfEF4/edit) and Lead SA to create remaining Workshop slides and update content in the Workshop Google drive [here](https://drive.google.com/drive/folders/1qAymFTiXFEk-lRSNreIhaZ6Z62fdo_y2).
@@ -819,7 +819,7 @@ In order to cap registration, we remove the registration form on the Landing Pag
    - Please note for the Advanced CI/CD workshop you really need three (3) dedicated Q&A SAs to support the level and number of questions in addition to the presenters and two (2) FMMs are needed and must support transferring Q&A from the zoom webcast to the slack QA channel and back to the answers.
 1. Create Event Slack Channel for the team to discuss details, logistics, etc.
 1. FMM Create Q&A Slack Channel for the event (example channel: [#2020-virtual-workshop-qa](https://gitlab.slack.com/archives/C017TMC32EQ)) to triage questions/responses from the event.
-1. If you have budget and would like to host a virtual raffle, please follow the following process: Select the items (recommend 3 prizes total) you’d like to give away. Include the items in the [Transition Slide Deck](https://docs.google.com/presentation/d/19BD2fZ2fN1AcvWo-Xf9bEL8AR8R6sYxY1s2aA6gfEF4/edit#slide=id.g7dd1ed64d9_0_5929) to have the MC announce at the beginning of the event and at the end. For those who attend the entire event will be eligible for the raffle. You will need to provide the attendees with a code word at the end of the event via the Chat feature in Zoom Webcast during the beginning of the Closing / Final Q&A portion of the event along with the URL to the post-event survey. In addition to adding a question at the end of the Post-Event Survey (click [here](https://docs.google.com/forms/d/e/1FAIpQLSc16eOijHQqrwBvx0Uk2SZRJeIjjCR6Xt2EICUZJm6UsEbh6Q/viewform) for example of post-event survey) that allows the attendees to enter the code word.
+1. If you have budget and would like to host a virtual raffle, please follow the following process: Select the items (recommend 3 prizes total) you'd like to give away. Include the items in the [Transition Slide Deck](https://docs.google.com/presentation/d/19BD2fZ2fN1AcvWo-Xf9bEL8AR8R6sYxY1s2aA6gfEF4/edit#slide=id.g7dd1ed64d9_0_5929) to have the MC announce at the beginning of the event and at the end. For those who attend the entire event will be eligible for the raffle. You will need to provide the attendees with a code word at the end of the event via the Chat feature in Zoom Webcast during the beginning of the Closing / Final Q&A portion of the event along with the URL to the post-event survey. In addition to adding a question at the end of the Post-Event Survey (click [here](https://docs.google.com/forms/d/e/1FAIpQLSc16eOijHQqrwBvx0Uk2SZRJeIjjCR6Xt2EICUZJm6UsEbh6Q/viewform) for example of post-event survey) that allows the attendees to enter the code word.
 
 #### Canva
 
@@ -862,7 +862,7 @@ Once you have the final workshop presentation deck, follow the below instruction
 1. Leave `SEO Title` blank
 1. `Content Type` will be `Presentation` (this auto-populates the `Funnel Stage` and `Estimated Cost` fields)
 1. `Custom URL Slug` should **always** be created for an asset (example - CICDWorkshop-1/12/21). No spaces, each word should be separated by a dash and try to keep slug as short as possible.
-1. Don’t adjust `Scoring`
+1. Don't adjust `Scoring`
 1. Adjust to the appropriate `Language` utilized in your content
 1. `Business Units` is the [GTM Motion](/handbook/marketing/plan-fy22/#gtm-motions) associated with the piece of content. Every asset should be tagged and aligned to a GTM motion.
 1. `Personas` is WIP and does not currently need to be added
@@ -894,7 +894,7 @@ Note: Cloning a track will pull over all settings from that initial track. All w
 #### Adding the Track to Marketo Token and Checking Follow up Email
 
 1. When you are in your newly cloned Pathfactory track, go to the top left corner and click on the `Get Share URL` icon. Copy the URL link. You do not need to add a `Query String`.
-1. Click into your campaign’s Marketo program tokens and update `{{my.pfslidelink}}` with your new Pathfactory track by following [these instructions](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#fmc-tokens).
+1. Click into your campaign's Marketo program tokens and update `{{my.pfslidelink}}` with your new Pathfactory track by following [these instructions](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#fmc-tokens).
 1. Helpful Hint: Once you receive final slides from the FMM and add to the Pathfactory track, it's a good idea for you both to go back to your follow up email test (email also available to preview in the Marketo program) and make sure the presentation link button in the email is taking you to the correct Pathfactory track with updated presentation.
 
 #### Workshop Dry Run and Q&A
@@ -912,7 +912,7 @@ Note: Cloning a track will pull over all settings from that initial track. All w
 **DRI: FMM**
 
 - Coordinator will copy all questions into Slack.
-- If a question looks good to answer live, mark it as “Answer Live” in Slack (so no one else starts work on it), then in the Q&A window.
+- If a question looks good to answer live, mark it as "Answer Live" in Slack (so no one else starts work on it), then in the Q&A window.
 - Only the Q&A Coordinator should enter answers into the Q&A box in Zoom. SAs will answer in the thread and indicate the answer is ready to give to attendees using the emoji system noted in the channel.
 - If a question is marked to answer live, do not touch it until AFTER it is read and fully answered.
 - Q&A support will respond in threaded comments while using the following emoji:
@@ -923,9 +923,9 @@ Note: Cloning a track will pull over all settings from that initial track. All w
   - Answer Live: :microphone:
 - Questions may be held in queue until the coordinator wants them answered. For example, a question may come up during the basics presentation that makes more sense to answer during the CI/CD session. The question will sit unanswered in the queue until then.
 - Be comfortable with questions not being answered right away. It is up to the coordinator to determine when to answer and who will answer.
-- Follow-up with attendees who we say we’ll follow-up with. The person responsible for follow-up will be determined during the dry run.
+- Follow-up with attendees who we say we'll follow-up with. The person responsible for follow-up will be determined during the dry run.
 - Questions asked by attendees are not visible to other attendees until the answer is written. Answer live questions are visible.
-- You may also dismiss questions by hovering over them and hitting “Dismiss”
+- You may also dismiss questions by hovering over them and hitting "Dismiss"
 
 ### During Event
 
@@ -942,7 +942,7 @@ For more information about hosting a virtual hands-on workshop, please watch [**
 **DRI: FMM**
 
 - Field Marketing is the Host of the workshop and runs pre-event check, ensuring all speakers are able to properly display slides and are heard.  This time is also to address any last minute questions from the team executing the event.
-- Field Marketing helps support by placing questions in the designated slack channel for Question Coordinator (Lead SA) to assign SA’s to answer the question. The slack channel allows other SAs to jump in if they have some free time in their day and it allows an easier point of discussion.  Once a question is answered, the Question Coordinator (Lead SA) will place the answer in the Q&A section of the Zoom webcast queue.
+- Field Marketing helps support by placing questions in the designated slack channel for Question Coordinator (Lead SA) to assign SA's to answer the question. The slack channel allows other SAs to jump in if they have some free time in their day and it allows an easier point of discussion.  Once a question is answered, the Question Coordinator (Lead SA) will place the answer in the Q&A section of the Zoom webcast queue.
 - FMMs will at times need to update the Introductions & Transitions Slide Deck with the accurate time of the break. This can be updated in advance but the presentations before the `Break` slide in the deck can run long or short due so advise for the FMM to update in real-time.
 - FMMs will need to list the following in the Chat feature of the Zoom Webcast live during the beginning of the Closing / Q&A section of the event once the MC announces the raffle prizes:
   - Shortened URL of the Post-Event Survey
@@ -953,7 +953,7 @@ For more information about hosting a virtual hands-on workshop, please watch [**
 
 **DRI: FMM**
 
-FMMs will need to keep a close eye on the time. Notify the team and the next presenter when there time is nearing an end in the event’s slack channel (not the Q&A slack channel for the event)
+FMMs will need to keep a close eye on the time. Notify the team and the next presenter when there time is nearing an end in the event's slack channel (not the Q&A slack channel for the event)
 
 #### Workshop Communication to Attendees During Event
 
@@ -1009,7 +1009,7 @@ Now that the event is over, it is important to consolidate all of the informatio
 - In the webcast account, click Webinars > Previous Webinars
 - Select the webinar you would like to pull reports for.
 - Scroll down to the bottom of the screen and click `View Attendee Report`
-- Select the live workshop date (you will see two, one for the dry run, one for the live event). You’ll know it is the correct one because it will have more attendees.
+- Select the live workshop date (you will see two, one for the dry run, one for the live event). You'll know it is the correct one because it will have more attendees.
 - Click `Generate CSV Report`
 - From the same screen, select `Q&A Report`
 - If your event does not pull into the display automatically, enter the webcast ID OR enter the date of the event
@@ -1043,7 +1043,7 @@ Now that the event is over, it is important to consolidate all of the informatio
 **DRI: FMM**
 
 1. At the completion of the event, take the number of attendees and add them to a random number generator to select your winner(s).  You can choose how many times you would like to randomize, but usually 3 or 4 times will do it.  Select the number of winners based on your prizes from the top of the list.
-1. Once the winner(s) have been selected, send an email ([click here for template](https://docs.google.com/document/d/1EHGBy9VXEfp6cDDla56a31nChkR4BIv8rmhaii_SRNE/edit)) to the winner(s) to notify them that they’ve won and collect an address to ship the
+1. Once the winner(s) have been selected, send an email ([click here for template](https://docs.google.com/document/d/1EHGBy9VXEfp6cDDla56a31nChkR4BIv8rmhaii_SRNE/edit)) to the winner(s) to notify them that they've won and collect an address to ship the
 prize to. Option to CC the SAE who is tied to the account to allow them visibility / allow for possible follow up meeting.
 1. Once you have the responses from the winner(s), ship the prizes, delete the email with the address and if possible do not save the shipping address in your Amazon/Best Buy account or delete immediately after delivery.
 
@@ -1055,7 +1055,7 @@ Normal FM close process: Send follow-up email, gather recap information from the
 
 ## Proposing New Workshops
 
-If you have a new workshop idea/topic, you can build out a Parent Epic for that workshop utilizing the epic code below. Please note that the first time you set up the new workshop, it will run as a -45 SLA with all new content. If you decide you would like to repeat the workshop in the future, you will need to work with the Marketing Ops team to build out the new workshop’s backend templates in Marketo. Please open an issue with them [here](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues) to work through setting up the new workshop. You would also then need to add all finalized details and link to the new workshop throughout these handbook page instructions, as well add the new workshop details to the [FM Workshop Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Workshop_Template).
+If you have a new workshop idea/topic, you can build out a Parent Epic for that workshop utilizing the epic code below. Please note that the first time you set up the new workshop, it will run as a -45 SLA with all new content. If you decide you would like to repeat the workshop in the future, you will need to work with the Marketing Ops team to build out the new workshop's backend templates in Marketo. Please open an issue with them [here](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues) to work through setting up the new workshop. You would also then need to add all finalized details and link to the new workshop throughout these handbook page instructions, as well add the new workshop details to the [FM Workshop Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Workshop_Template).
 
 ```markdown
 
@@ -1159,15 +1159,21 @@ Note that our capacity for events run on personal Zoom accounts is 200 attendees
 
 **DRI: FMM & FMC**
 
-## [Best Practices](/handbook/marketing/virtual-events/self-service-virtual-events/#best-practices)
+## Best Practices
+
+[Best Practices](/handbook/marketing/virtual-events/self-service-virtual-events/#best-practices)
 
 **DRI: FMM**
 
-## [Promotion Guidelines](/handbook/marketing/virtual-events/self-service-virtual-events/#self-service-virtual-event-promotion-guide)
+## Promotion Guideline
+
+[Promotion Guidelines](/handbook/marketing/virtual-events/self-service-virtual-events/#self-service-virtual-event-promotion-guide)
 
 **DRI: FMM**
 
-## [Logistical Setup](/handbook/marketing/virtual-events/self-service-virtual-events/#logistical-set-up)
+## Logistical Setup
+
+[Logistical Setup](/handbook/marketing/virtual-events/self-service-virtual-events/#logistical-set-up)
 
 **DRI: FMM**
 
@@ -1179,12 +1185,18 @@ Note that our capacity for events run on personal Zoom accounts is 200 attendees
 - If you plan on sending a Marketo reminder email to attendees, you do not need to set up the reminder email in Zoom.
 In order for your FMC to triage your Marketo LP issues, you **must** have your Zoom event set up in advance and link your URL in the FMC Checklist section of your FM issue.
 
-## [During the Event](/handbook/marketing/virtual-events/self-service-virtual-events/#during-the-event)
+## During the Event
+
+[During the Event](/handbook/marketing/virtual-events/self-service-virtual-events/#during-the-event)
 
 **DRI: FMM**
 
-## [Post Event](/handbook/marketing/virtual-events/self-service-virtual-events/#post-event)
+## Post Event
+
+[Post Event](/handbook/marketing/virtual-events/self-service-virtual-events/#post-event)
 
 **DRI: FMM**
 
-## [Results](/handbook/marketing/virtual-events/self-service-virtual-events/#results)
+## Results
+
+[Results](/handbook/marketing/virtual-events/self-service-virtual-events/#results)

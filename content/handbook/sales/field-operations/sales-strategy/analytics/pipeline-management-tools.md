@@ -1,13 +1,6 @@
 ---
-
 title: "Sales Strategy and Analytics - Pipeline Management Tools"
 ---
-
-
-
-
-
-
 
 ## Pipeline Management Tools
 
@@ -46,7 +39,7 @@ and Remainder to Target is defined as
 `Target Net ARR` - `Booked Net ARR (to date in a given quarter)`.
 
 For future quarters, the calculation would be
-`Open Pipe Net ARR` / `Target Net ARR` as there won’t be any Booked Net ARR yet.
+`Open Pipe Net ARR` / `Target Net ARR` as there won't be any Booked Net ARR yet.
 
 Unless otherwise stated, Pipeline coverage is calculated with the definition above.
 
@@ -156,8 +149,8 @@ We iterate on the definition of Sales Accepted Opportunities (SAOs), Pipeline Ge
 Please refer to Permission Handling section below
 
 - **It is a little overwhelming with so many dashboards. Which one is the most important one that I should keep an eye on regularly?**
-  - If you are looking for insights related to current (and upcoming future quarters) and you want to know if your team (or globally) is on the right trajectory for achieving the target, you can leverage the “Pipeline X-Ray: Current & Next Quarters Overview” dashboard. After checking specific region/ order type, you might be interested in more granular detail and move on to the "SAE Heatmap" to check metrics per each SAE.
-  - If you would like to see metrics development for a longer timeframe (across multiple years and quarters) for various segments (Sales Segment, Order Type, Geo etc), you can check out the “Pipeline Velocity & Generation” dashboard.
+  - If you are looking for insights related to current (and upcoming future quarters) and you want to know if your team (or globally) is on the right trajectory for achieving the target, you can leverage the "Pipeline X-Ray: Current & Next Quarters Overview" dashboard. After checking specific region/ order type, you might be interested in more granular detail and move on to the "SAE Heatmap" to check metrics per each SAE.
+  - If you would like to see metrics development for a longer timeframe (across multiple years and quarters) for various segments (Sales Segment, Order Type, Geo etc), you can check out the "Pipeline Velocity & Generation" dashboard.
 
 - **Are there any SFDC reports that I can refer to, to cross-check numbers?** <br>
 Please have a look at `Readme` tab in Pipeline X-Ray tool for links for the related SFDC reports

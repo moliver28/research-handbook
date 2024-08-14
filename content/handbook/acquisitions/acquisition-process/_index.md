@@ -1,13 +1,6 @@
 ---
-
 title: "Acquisition Process"
 ---
-
-
-
-
-
-
 
 This is a detailed view of our acquisition process. For more information about
 our acquisitions approach visit our [acquisitions handbook](/handbook/acquisitions/).
@@ -132,6 +125,7 @@ The process is comprised of five key stages:
     1. Deal Milestones:
         1. We aim to set 3 milestones at 2, 4 and 6 months from joining GitLab, to provide a concise set of goals which should cover the bulk of our product interest in the target company
         1. Milestones should be articulated as objectives as opposed to tasks. The structure of defining milestones should resemble that of OKRs, with each milestone having an objective and then a few key results which will be required to achieve the objective. This will help target companies focus on driving the objectives and not be tied to, and concerned with, a specific task as changes are likely to occur once integration work starts. The milestones outline the objectives to facilitate the work required in achieving the roadmap advancement the deal was identified with delivering. Each milestone should be broken down to the keys required to complete in order to achieve success for the milestone's objective.
+            1. Include GitLab Legal on Milestone formation discussion threads and synchronous calls to help ensure that Milestone language is meets GitLab Legal's level of specificity and clarity.
         1. First milestone shipped within 60 days of joining GitLab:
             1. Accounting for 3 weeks of onboarding, targets will ship the first milestone 5 weeks following the end of the onboarding period
             1. Critical to adopting our culture and successful future integration of the target's engineering team in GitLab
@@ -186,9 +180,9 @@ The process is comprised of five key stages:
             1. Link to final version of APA
 1. The Corporate Development Champion will coordinate the signing and closing of the deal
 
-### [Integration](/handbook/acquisitions/acquisition-process/integration/)
+### Integration
 
-The Corporate Development team is responsible for overseeing and facilitating the post-closing integration, working closely with Legal, Product, Engineering, People, Finance, and other GitLab divisions as appropriate. The DRI is the Senior Director Corporate Development.
+The Corporate Development team is responsible for overseeing and facilitating the post-closing [integration](/handbook/acquisitions/acquisition-process/integration/), working closely with Legal, Product, Engineering, People, Finance, and other GitLab divisions as appropriate. The DRI is the Senior Director Corporate Development.
 
 The integration process is outlined in our [acquisition integration page](/handbook/acquisitions/acquisition-process/integration/).
 

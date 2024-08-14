@@ -53,7 +53,7 @@ If another support engineer joins your emergency call, feel free to assign them 
 
 ### Take care of yourself
 
-Make a real effort to de-stress during your on-call shift. After being on-call, consider taking time off, as noted in the [main GitLab Handbook](https://about.gitlab.com/handbook/people-group/paid-time-off/). Just being available for emergencies and outages causes stress, even if there are no pages. Resting is critical for proper functioning. Just let your team know.
+Make a real effort to de-stress during your on-call shift. After being on-call, consider taking time off, as noted in the [main GitLab Handbook](/handbook/people-group/paid-time-off/). Just being available for emergencies and outages causes stress, even if there are no pages. Resting is critical for proper functioning. Just let your team know.
 
 When you get a notification from PagerDuty give yourself a few minutes to prepare.
 
@@ -201,16 +201,14 @@ To see who the *current* Support Engineer on-call is, you can:
 - Log in to PagerDuty to view the [Customer Support](https://gitlab.pagerduty.com/service-directory/PL3TX00) service
 - View the `#spt-gg-forest` Slack channel, the regional bot message lists who is on-call for the different schedules today
 
-To see who the *upcoming* Support Engineer on-call is, you can:
+To see who the *upcoming* Support Engineer on-call is, you can view the individual on-call schedules for:
 
-- View the individual on-call schedules for
-  - [Customer Emergencies - APAC Group 1](https://gitlab.pagerduty.com/schedules/PQB9Q6K)
-  - [Customer Emergencies - APAC Group 2](https://gitlab.pagerduty.com/schedules/PKPXM8K)
-  - [Customer Emergencies - EMEA](https://gitlab.pagerduty.com/schedules/P9SV029)
-  - [Customer Emergencies - AMER Group 1](https://gitlab.pagerduty.com/schedules/PBLAHV7)
-  - [Customer Emergencies - AMER Group 2](https://gitlab.pagerduty.com/schedules/P9FKYZC)
-  - [Customer Emergencies - AMER Group 3](https://gitlab.pagerduty.com/schedules/PP28N7L)
-- View the internal [Oncall Schedules](https://gitlab-com.gitlab.io/support/team/oncall.html) page
+- [Customer Emergencies - APAC Group 1](https://gitlab.pagerduty.com/schedules/PQB9Q6K)
+- [Customer Emergencies - APAC Group 2](https://gitlab.pagerduty.com/schedules/PKPXM8K)
+- [Customer Emergencies - EMEA](https://gitlab.pagerduty.com/schedules/P9SV029)
+- [Customer Emergencies - AMER Group 1](https://gitlab.pagerduty.com/schedules/PBLAHV7)
+- [Customer Emergencies - AMER Group 2](https://gitlab.pagerduty.com/schedules/P9FKYZC)
+- [Customer Emergencies - AMER Group 3](https://gitlab.pagerduty.com/schedules/PP28N7L)
 
 When in doubt, you can always ask in `#support_leadership`.
 
@@ -222,13 +220,11 @@ To see who the *current* manager on-call is, you can:
 - Log in to PagerDuty to view the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service
 - View the `#spt-gg-forest` Slack channel, the regional bot message lists who is on-call for the different schedules today
 
-To see who the *upcoming* manager on-call is, you can:
+To see who the *upcoming* manager on-call is, you can view the individual on-call schedules for:
 
-- View the individual on-call schedules for
-  - [Support Manager - APAC](https://gitlab.pagerduty.com/schedules/PWBXTYX)
-  - [Support Manager - EMEA](https://gitlab.pagerduty.com/schedules/PXQ2ZAZ)
-  - [Support Manager - AMER](https://gitlab.pagerduty.com/schedules/PTI56V1)
-- View the internal [Oncall Schedules](https://gitlab-com.gitlab.io/support/team/oncall.html) page
+- [Support Manager - APAC](https://gitlab.pagerduty.com/schedules/PWBXTYX)
+- [Support Manager - EMEA](https://gitlab.pagerduty.com/schedules/PXQ2ZAZ)
+- [Support Manager - AMER](https://gitlab.pagerduty.com/schedules/PTI56V1)
 
 When in doubt, you can always ask in `#support_leadership`.
 

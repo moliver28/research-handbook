@@ -1,13 +1,6 @@
 ---
-
 title: "Secret Detection Runbooks"
 ---
-
-
-
-
-
-
 
 ## Overview
 

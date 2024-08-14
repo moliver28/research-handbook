@@ -1,11 +1,11 @@
 ---
 title: "Marketing Metrics"
-description: "We use Sisense to view and analyze our marketing metrics from multiple data sources."
+description: "We use Tableau to view and analyze our marketing metrics from multiple data sources."
 ---
 
 ## Marketing Metrics
 
-Below are the definitions of our primay Marketing Metrics.
+Below are the definitions of our primary Marketing Metrics.
 
 ### Inquiry
 
@@ -13,13 +13,13 @@ An inquiry is a stage of the lead/contact objects in SFDC. GitLab defines inquir
 
 #### First Order Inquiries
 
-Inquiries that are part of a parent account that has not made an order through GitLab are classified as first-order inquiries. To find them, we join the account table to the person table on the inquiry account ID. If the field `has_first_order_available` is true on the account object, the inquiry is first order. If the inquiry does not have an account associated with it, it is also first order.
+Inquiries that are part of a parent account that has not made an order through GitLab are classified as first order inquiries. To find them, we join the account table to the person table on the inquiry's account ID. If the field `has_first_order_available` is true on the corresponding account object, the inquiry is first order. If the inquiry does not have an account associated with it, it is also first order.
 
 #### Date of Inquiry
 
-Finding when a lead became an inquiry requires accounting for leads who skipped the inquiry stage. To do this take the lesser of `inquiry_date` and `inquiry_inferred_date`.
+Finding when a person became an inquiry requires accounting for person records who skipped the inquiry stage. To do this take the lesser of `inquiry_date` and `inquiry_inferred_date`.
 
-The logic for finding when a person became an inquiry is captured in the `inquiry_reporting_date` field. It should always be used to report inquiries unless you are looking for something specific.
+The logic for finding when a person became an inquiry is captured in the `true_inquiry_date` field. It should always be used to report inquiries unless you are looking for something specific.
 
 #### Technical Definition
 
@@ -36,15 +36,13 @@ Example Query, this will return a list of inquiries with the date they became an
   inquiry_reporting_date
   FROM common_mart_marketing.mart_crm_person
   where
-  lower(Status) != ’raw`
-  and inquiry_reporting_date is not null
+  lower(Status) != 'raw`
+  and true_inquiry_date is not null
 ```
 
 #### Source & Metric
 
 An Inquiry is defined by records in the [Person Mart](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_crm_person). To find the number of inquiries, take the unique count of `email_hash`
-
-Sisense View: [rpt_crm_person_inquiry](https://app.periscopedata.com/app/gitlab:safe-dashboard/view/rpt_crm_person_inquiry/5edb66186f094f40bc49e87694ea8e8f/edit)
 
 ### MQL
 
@@ -82,7 +80,7 @@ For circumstances where the cavacts above impact reports, we have created the MQ
 
 #### Technical Definition
 
-Any lead or contact from the [fct_crm_person](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_person) table where the MQL first or Inferred MQL date is not null.
+Any lead or contact from the [fct_crm_person](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_person) table where the MQL latest or Inferred MQL date is not null.
 
 This is captured in the [fct_crm_person](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_person) table by the `is_mql = TRUE`.
 
@@ -93,7 +91,7 @@ Example Query, this will return a list of MQLs with the date they became an MQL:
   dim_crm_person.dim_crm_person_id,
   dim_crm_person.sfdc_record_id,
   Dim_crm_person.email_hash,
-  collate(mql_date, mql_inquiry_date) as mql_date
+  collate(mql_date_latest_pt, inferred_mql_date_latest) as mql_date
   FROM mart_crm_person
   where
   is_mql = TRUE
@@ -102,8 +100,6 @@ Example Query, this will return a list of MQLs with the date they became an MQL:
 #### Source
 
 An MQL is defined by records in the [Person Mart](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_crm_person).
-
-Sisense Snippet: [rpt_crm_person_mql](https://app.periscopedata.com/app/gitlab:safe-dashboard/view/rpt_crm_person_mql/5e19022f569a480bb73adcef3a1d2681/edit)
 
 ### SAO
 
@@ -150,7 +146,7 @@ A Closed Won Opportunity (CW) is an opportunity where the sales team won the dea
 #### First Order CW Opportunities
 
 Because a closed-won deal is an opportunity, the order_type field stores the first order information.
-When querying for First Order Closed Won, it’s best to use the `is_new_logo_first_order` flag, this ensures that all our dashboards are using the same logic to find FO CW.
+When querying for First Order Closed Won, it's best to use the `is_new_logo_first_order` flag, this ensures that all our dashboards are using the same logic to find FO CW.
 
 #### Date of Closed Deal
 
@@ -189,7 +185,7 @@ Sisense Snippet: [rpt_crm_opportunity_closed_period_closed_won](https://app.peri
 
 #### SaaS Trial Volume
 
-GitLab counts the number of SaaS trial signups by counting the number of Inquiries in Salesforce with a lead source = ‘SaaS Free Trial’.
+GitLab counts the number of SaaS trial signups by counting the number of Inquiries in Salesforce with a lead source = 'SaaS Free Trial'.
 
 #### Trial-to-Paid Conversion Metric
 
@@ -204,7 +200,7 @@ We do not count every namespace trial. Instead, we only include those with the f
 
 ##### Trial-to-Paid Dashboard
 
-You can find the SSoT for the [Trial-to-Paid metric in Tableau](https://10az.online.tableau.com/#/site/gitlab/views/TrialNamespaceConversionRateCohorted/ThreeLines_1?:iid=1). This dashboard is the source of trial conversion metrics for Marketing in Key Reviews and other executive readouts. The dashboard cohorts the company trial conversion rate described above to 45 days, 30 days, and 90 days. While the 45-Day rate is the primary metrics we use for reporting, we’ve included the others as they give more context to decision-makers.
+You can find the SSoT for the [Trial-to-Paid metric in Tableau](https://10az.online.tableau.com/#/site/gitlab/views/TrialNamespaceConversionRateCohorted/ThreeLines_1?:iid=1). This dashboard is the source of trial conversion metrics for Marketing in Key Reviews and other executive readouts. The dashboard cohorts the company trial conversion rate described above to 45 days, 30 days, and 90 days. While the 45-Day rate is the primary metrics we use for reporting, we've included the others as they give more context to decision-makers.
 
 The dashboard creates the cohorts in the following way:
 
@@ -453,11 +449,15 @@ Note: There is a current transition to move towards the [Territory Success Plann
 
 ## Dashboard Review Videos
 
-### [Marketing Metrics](https://app.periscopedata.com/app/gitlab/798262/TD---Marketing-Metrics)
+### Marketing Metrics
+
+[Marketing Metrics](https://app.periscopedata.com/app/gitlab/798262/TD---Marketing-Metrics)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7cT_IsyWrus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### [SDR Metrics](https://app.periscopedata.com/app/gitlab/641469/SDR-Metrics)
+### SDR Metrics
+
+[SDR Metrics](https://app.periscopedata.com/app/gitlab/641469/SDR-Metrics)
 
 [Video Walkthrough](https://www.youtube.com/watch?v=ygeZvKvU9uc) (Private Video)
 
@@ -509,7 +509,7 @@ Inquiries (people who end up registering for your event or engaging with your ad
 
 If you were driving people to register for something, then hop over to your SFDC campaign. Then go down to the `Custom Links` section and click on the `View All Campaign Members` report.
 
-You’ll then want to sort by `Ad Campaign Name (FT)`, which answers the question “What was the 1st touch ad this record interacted with?” and also the `Ad Campaign Name (LC)`, which answers the question “What ad created this lead?”.
+You'll then want to sort by `Ad Campaign Name (FT)`, which answers the question "What was the 1st touch ad this record interacted with?" and also the `Ad Campaign Name (LC)`, which answers the question "What ad created this lead?".
 
 If you did not have a specific SFDC Campaign you were driving to, and you wanted to see the success of your campaign, then you would still refer to the [WW SFDC Field Marketing Digital Report](https://gitlab.my.salesforce.com/00O4M000004aA0V), add in your campaigns UTM there, using the filter `Ad Campaign Name` [contains] and add your UTM.
 

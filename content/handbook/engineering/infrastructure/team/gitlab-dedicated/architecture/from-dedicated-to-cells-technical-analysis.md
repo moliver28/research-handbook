@@ -3,21 +3,15 @@ aliases: /handbook/engineering/infrastructure/team/gitlab-dedicated/architecture
 title: "From Dedicated to Cells: A Technical Analysis"
 ---
 
-
-
-
-
-
-
 ## Introduction
 
 This document is intended to be a high-level summary describing how the existing GitLab Dedicated
 architecture could be used as a foundation for deployment and operating large numbers of GitLab Cell instances.
 
 Additionally, it explains certain decisions in the Dedicated architecture, and why these are beneficial
-to both GitLab Dedicated and GitLab Cells, and how they differ from other approaches, such as GitLab.com’s IaC, or GET.
+to both GitLab Dedicated and GitLab Cells, and how they differ from other approaches, such as GitLab.com's IaC, or GET.
 
-Note to readers: Please keep in mind that this is not a critique of GitLab.com’s approach, nor GET’s.
+Note to readers: Please keep in mind that this is not a critique of GitLab.com's approach, nor GET's.
 It is an explanation of how and why Dedicated differs from these other approaches, and offers some insight into
 how different requirements led to different design choices.
 
@@ -34,7 +28,7 @@ Terraform configuration and the k8s-workloads group for Kubernetes configuration
 
 #### Heterogeneous vs Homogeneous Environments
 
-Let’s discuss the distinction between homogeneous and heterogeneous GitLab environments.
+Let's discuss the distinction between homogeneous and heterogeneous GitLab environments.
 
 ##### GitLab.com: Many Heterogeneous Environments
 
@@ -44,9 +38,9 @@ For Terraform and Chef, each of these environments is unique, although they shar
 ensure consistency. However, each environment can differ from the others. There is no way to ensure uniformity, and over time
 these environments have, for a variety of reasons, drifted away from uniformity.
 
-![''](./img/envs-in-gitlab-com-config-mgmt.png)
+![Config MGMT](img/envs-in-gitlab-com-config-mgmt.png)
 
-*Similar but different: environments in GitLab.com’s config-mgmt project*
+*Similar but different: environments in GitLab.com's config-mgmt project*
 
 Since GitLab.com was originally built for a small number of environments (production and staging), it was not designed to be
 scaled up to a large number of homogeneous environments.
@@ -59,7 +53,8 @@ smaller/cheaper copy of Production). They are two distinctive environments, buil
   <img alt="GKE Zonal Configuration for Staging" src="./img/gke-zonal-conf-gstg.png" width="49%" />
   <img alt="GKE Zonal Configuration for Production" src="./img/gke-zonal-conf-gprd.png" width="49%" />
 </p>
-_**Same Same, but Different:** the GKE Zonal Configuration for Staging and Production. Similar, but not the same._
+
+*Same Same, but Different: the GKE Zonal Configuration for Staging and Production. Similar, but not the same.*
 
 GitLab.com evolved in this way for many reasons, and its approach allows for maximum flexibility. However, creating new environments
 takes weeks or months of operator time. Dedicated takes minutes of operator time and hours of wall time to create new environments.
@@ -88,7 +83,7 @@ coordination needs to be carried out to ensure that change is done in the correc
 may need to be applied, followed by chef-repo changes. If differences happen to occur in the manual coordination of these changes,
 it may lead to unexpected outcomes, ultimately leading to slower delivery, outages or even data-loss.
 
-![''](./img/many-config-mngmt-tools.png)
+![Many congif mngmt tools](img/many-config-mngmt-tools.png)
 
 *GitLab.com: Many Different Configuration Management Tools*
 
@@ -97,7 +92,7 @@ it may lead to unexpected outcomes, ultimately leading to slower delivery, outag
 Dedicated seeks to simplify this model by providing a single project, Instrumentor, which encapsulates all atomic changes to
 the tenant or cell environment. The problem of coordinating changes across multiple projects is solved by integrating all changes into a single project.
 
-![''](./img/dedicated-single-poe-for-all-envs.png)
+![Dedicated single poe for all envs](img/dedicated-single-poe-for-all-envs.png)
 
 *Dedicated: Single Entrypoint for All Environment Changes*
 
@@ -114,15 +109,15 @@ To make a change to a GitLab.com environment, one needs to:
 2. Make chef-repo change for Staging
 3. Merge and apply Terraform module change for Staging
 4. Merge and apply chef-repo change for Staging
-5. Test change to ensure it does what it’s expected to do
+5. Test change to ensure it does what it's expected to do
 6. Create a similar, but not identical Terraform module change for Production
 7. Merge and apply Terraform module change for Production
 8. Merge and apply Chef-Repo change for Production
 
 This example only describes two environments, but the more environments (eg, Pre-Prod) the more work to roll-out the change.
-What’s more: there’s no guarantee that the environments are identical, or that some feature of one environment may change the behaviour
+What's more: there's no guarantee that the environments are identical, or that some feature of one environment may change the behaviour
 in that environment. The environments are not deterministic and this leads to additional risk during change rollouts. This additional
-risk is then gated with a Change Management process in the form of CR’s for more complicated changes. As is usual with manual steps,
+risk is then gated with a Change Management process in the form of CR's for more complicated changes. As is usual with manual steps,
 this process aims to reduce a chance of configuration drift but it also slows down the roll-out.
 
 For Dedicated, the workflow is as follows:
@@ -132,7 +127,7 @@ For Dedicated, the workflow is as follows:
 3. Instrumentor will automatically release a new version of the Instrumentor package.
 4. Starting with staging, progressively update all tenant models to the new version, and roll out across the fleet until all tenants/cells are running the latest version. Halt the rollout if problems are detected.
 
-What’s important is that for Dedicated, every change is encapsulated in a single lineage of packaged releases on a single artefact - Instrumentor.
+What's important is that for Dedicated, every change is encapsulated in a single lineage of packaged releases on a single artefact - Instrumentor.
 
 #### Summary
 
@@ -162,7 +157,7 @@ and adding the features to support this would add a great deal of complexity tha
 
 This section describes the components of GitLab Dedicated, focusing on why these components were included in the design.
 
-![''](./img/gitlab-dedicated-components.png)
+![GitLab Dedicated components](img/gitlab-dedicated-components.png)
 
 *GitLab Dedicated Components*
 
@@ -239,11 +234,11 @@ tools in MacOS and different versions of linux) and is fully tested. Additionall
 as the complexity of the project increases over time.
 
 *The alternative to tenctl is something we see too often on many Infrastructure projects today*: dozens of unmaintained – and unmaintainable –
-untested bash scripts, each with its own input, arguments, subset of environments in which it can run, each with it’s own way of converting input
+untested bash scripts, each with its own input, arguments, subset of environments in which it can run, each with it's own way of converting input
 data into configuration data. This leads to complexity, inconsistency, cognitive load and ultimately lower velocity and even outages due to unexpected
-behaviours (aka: “it worked on my machine”).
+behaviours (aka: "it worked on my machine").
 
-To illustrate this with an analogy: it’s possible to interact with a Kubernetes cluster using only bash and curl. However, using `kubectl` allows for
+To illustrate this with an analogy: it's possible to interact with a Kubernetes cluster using only bash and curl. However, using `kubectl` allows for
 a much more consistent and scalable client. tenctl is similar to `kubectl`, but focused on GitLab Tenant instances instead of Kubernetes instances.
 
 Cells benefit greatly from using a tool like tenctl. By ensuring that there is a single way to template configuration across different tools,
@@ -267,7 +262,7 @@ Many of the same design considerations that apply for GitLab Dedicated apply equ
 
 Cells could use the same deployment model as Environment Automation used before Switchboard had been developed. This is represented by the switchboard_la project.
 
-![''](./img/cells-deployments-via-environment-automation.png)
+![Cells deployments via env automation](img/cells-deployments-via-environment-automation.png)
 
 *Deploying Cells using Environment Automation*
 

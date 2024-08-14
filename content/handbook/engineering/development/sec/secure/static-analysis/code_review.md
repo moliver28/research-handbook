@@ -4,12 +4,6 @@ aliases: /handbook/engineering/development/sec/secure/static-analysis/code_revie
 title: "Static Analysis Group Code Review Process"
 ---
 
-
-
-
-
-
-
 ## Overview
 
 This page documents the code review process utilized by the Static Analysis team.

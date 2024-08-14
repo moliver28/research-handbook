@@ -6,7 +6,7 @@ canonical_path: "/job-families/engineering/acting-cos-to-the-cto/"
 
 ## Chief of Staff to the CTO
 
-This role will help enable communication, collaboration, strategy execution, and special projects across the CTO organization. The responsibilities include both directed work that will mostly be triggered by a direction from the CTO, as well as leadership work that is self-directed and includes inputs and priorities from the CTO leadership team. This individual will work in close partnership with the CTO to drive programs and execute and monitor our business strategy. The role requires a sharp, critical thinker who can solve business issues and communicate effectively.  
+This role will help enable communication, collaboration, strategy execution, and special projects across the CTO organization. The responsibilities include both directed work that will mostly be triggered by a direction from the CTO, as well as leadership work that is self-directed and includes inputs and priorities from the CTO leadership team. This individual will work in close partnership with the CTO to drive programs and execute and monitor our business strategy. The role requires a sharp, critical thinker who can solve business issues and communicate effectively.
 
 ### Responsibilities
 
@@ -60,12 +60,12 @@ This role will help enable communication, collaboration, strategy execution, and
 - Detail and results-oriented; driven and self-motivated with strong initiative
 - Excellent organization and time management skills; ability to prioritize tasks across multiple projects
 - Problem solver, analytical and organized thinker
-- Proven track record of effectively interacting with senior stakeholders on cross-functional projects  
+- Proven track record of effectively interacting with senior stakeholders on cross-functional projects
 - You have short toes and an aptitude for working well with a wide range of people
-- “Calm under fire” demeanor
+- "Calm under fire" demeanor
 - Operational experience in a previous role
-- Ability to use GitLab  
-- Structured about how to prioritize work and time  
+- Ability to use GitLab
+- Structured about how to prioritize work and time
 
 ### Stakeholders and peers
 

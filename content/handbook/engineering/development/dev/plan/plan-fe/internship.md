@@ -1,13 +1,6 @@
 ---
-
 title: "Plan Frontend Engineer Internship"
 ---
-
-
-
-
-
-
 
 ## Overview
 
