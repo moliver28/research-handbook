@@ -107,8 +107,9 @@ flow is:
 1. PMDB infrastructure runs the KEV feeder daily in order to pull, process and
    publish KEV data.
 1. The advisory-processor receives the KEV data and stores them to the PMDB DB.
-1. PMDB exports KEV data as part of the advisories data to an existing advisory
-   bucket.
+1. The exporter links each KEV data entry to its corresponding advisory using a
+   `CVE-ID` based join. Then, it exports KEV as part of the advisory data to an
+   existing advisory bucket.
 
 1. GitLab instances pull advisory data from the bucket.
 
