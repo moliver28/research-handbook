@@ -7,8 +7,8 @@ status: proposed
 creation-date: "2024-08-11"
 authors: [ "@onaaman" ]
 coaches: [ "@theoretick" ]
-dris: [ "@product-manager", "@engineering-manager" ]
-owning-stage: "~devops::<stage>"
+approvers: [ "@johncrowley", "@tkopel" ]
+owning-stage: "~devops::secure"
 participating-stages: [ ]
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
@@ -22,7 +22,7 @@ toc_hide: true
 
 ## Summary
 
-[KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) is a catalog
+[KEV (Known Exploited Vulnerabilities)](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) is a catalog
 maintained by [CISA](https://www.cisa.gov) that identifies vulnerabilities
 that have been actively exploited in the wild.
 KEV support in GitLab aims to enhance vulnerability prioritization and
@@ -39,7 +39,7 @@ The goal is to make KEV information accessible through the GitLab GraphQL API,
 visible on vulnerability report and details pages, and usable for filtering and
 policy setting.
 The implementation will leverage the existing Package Metadata Database (PMDB,
-also known as license-db) infrastructure for advisory pull-and-enrichment, The
+also known as license-db) infrastructure for advisory pull-and-enrichment. The
 flow is as follows:
 
 ```mermaid
