@@ -24,7 +24,7 @@ toc_hide: true
 
 [KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) is a catalog
 maintained by [CISA](https://www.cisa.gov) that identifies vulnerabilities
-actively exploited in the wild.
+that have been actively exploited in the wild.
 KEV support in GitLab aims to enhance vulnerability prioritization and
 remediation efforts by highlighting these high-risk vulnerabilities.
 The KEV support requirements are outlined
