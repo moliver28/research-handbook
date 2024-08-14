@@ -76,7 +76,7 @@ The following stages are outlined below:
 1. Use a User Account
 1. Use a Service Account
 1. Use an OAuth Access Token
-1. Declarative permissions per job
+1. Declarative permissions
 
 ### Stage 1: Use a User Account
 
@@ -215,7 +215,7 @@ Cons:
 * This may require the creation of a new user record for every project that has CI enabled.
 * This may require the creation of a new `oauth_applications` record for each project that has CI enabled.
 
-### Stage 4: Declarative permissions per job
+### Stage 4: Declarative permissions
 
 In this stage, we will introduce support for defining permissions for each job
 using a declarative syntax in the [`.gitlab-ci.yml`][22] file.
@@ -223,6 +223,20 @@ using a declarative syntax in the [`.gitlab-ci.yml`][22] file.
 The exact syntax for defining these permissions is yet to be determined, but the
 goal of this stage is to enable the specification of different permissions for
 different jobs within the same pipeline.
+
+Below are examples of what the syntax could look like:
+
+```yaml
+permissions:
+  read_issue:
+    - project: gitlab-org/gitlab
+      confidential: false
+  read_repo:
+    - project: gitlab-org/gitlab
+    - project: gitlab-org/www-gitlab-com
+  create_release:
+    - project: gitlab-org/gitlab
+```
 
 ## Alternative Solutions
 
