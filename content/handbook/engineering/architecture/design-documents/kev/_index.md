@@ -32,8 +32,7 @@ in [the KEV epic](https://gitlab.com/groups/gitlab-org/-/epics/11912). This
 document focuses on the technical implementation of KEV support.
 
 KEV data will be sourced from the CISA KEV catalog, which is
-available [as a JSON
-file on the CISA website](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json).
+available [as a JSON file on the CISA website](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json).
 This file is regularly updated by CISA and can be
 downloaded and processed to extract the latest KEV information.
 The goal is to make KEV information accessible through the GitLab GraphQL API,
@@ -137,8 +136,8 @@ flowchart LR
 ### Important note
 
 - Though the KEV catalog is updated with new entries, the status of exploited
-  vulnerabilities rarely changes. However, [vulnerabilities can be removed from
-  the catalog](https://www.cisa.gov/news-events/alerts/2023/12/01/cisa-removes-one-known-exploited-vulnerability-catalog#:~:text=CISA%20Removes%20One%20Known%20Exploited%20Vulnerability%20From%20Catalog,-Release%20Date&text=As%20a%20result%20of%20this,816L%20Remote%20Code%20Execution%20Vulnerability),
+  vulnerabilities rarely changes.
+  However, [vulnerabilities can be removed from the catalog](https://www.cisa.gov/news-events/alerts/2023/12/01/cisa-removes-one-known-exploited-vulnerability-catalog#:~:text=CISA%20Removes%20One%20Known%20Exploited%20Vulnerability%20From%20Catalog,-Release%20Date&text=As%20a%20result%20of%20this,816L%20Remote%20Code%20Execution%20Vulnerability),
   and CISA doesn't guarantee immutability here. Therefore, we should support
   this edge case as well.
 
