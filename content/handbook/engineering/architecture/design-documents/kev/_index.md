@@ -7,7 +7,7 @@ status: proposed
 creation-date: "2024-08-11"
 authors: [ "@onaaman" ]
 coaches: [ "@theoretick" ]
-dris: [ "@product-manager", "@engineering-manager" ]
+approvers: [ "@johncrowley", "@tkopel" ]
 owning-stage: "~devops::<stage>"
 participating-stages: [ ]
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
