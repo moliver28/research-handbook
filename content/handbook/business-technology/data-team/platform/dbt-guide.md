@@ -1,6 +1,7 @@
 ---
 title: "dbt Guide"
 description: "data build tool (dbt) Guide"
+math: true
 ---
 
 ## Quick Links
