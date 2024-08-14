@@ -313,7 +313,6 @@ Most Opportunity based enagement should start with the ESM and they should ident
 
 See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem#Engaging-an-Ecosystem-SolutionsArchitect) handbook page.
 
-
 ### Subject Matter Expert Engagement Model
 
 Before you invite or request an [Subject Matter Expert](/handbook/solutions-architects/sa-practices/subject-matter-experts) for your opportunity, ensure your opportunity is fully qualified. The SME should be requested by the primary Solutions Architect. This will help make sure we're using our resources efficiently and effectively.
