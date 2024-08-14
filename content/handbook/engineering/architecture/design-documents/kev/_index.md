@@ -58,6 +58,10 @@ all published CVEs have a high or critical score.
 Other metrics need to be employed to reduce remediation fatigue and help
 developers prioritize their work better. KEV provides a focused list of
 vulnerabilities that are actively exploited in the wild.
+These vulnerabilities also likely have documented exploitation techniques which
+attackers may reproduce. Many vulnerabilities marked as critical will never be
+exploited; KEV defines a list of ones that have been exploited and likely will
+be exploited again.
 Combined with existing prioritization methods, KEV helps to focus remediation
 efforts on the most immediate threats and reduce overall remediation workload.
 By adding KEV data to the information presented to users, we deliver these
