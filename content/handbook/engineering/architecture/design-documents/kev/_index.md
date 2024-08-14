@@ -8,7 +8,7 @@ creation-date: "2024-08-11"
 authors: [ "@onaaman" ]
 coaches: [ "@theoretick" ]
 approvers: [ "@johncrowley", "@tkopel" ]
-owning-stage: "~devops::<stage>"
+owning-stage: "~devops::secure"
 participating-stages: [ ]
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
