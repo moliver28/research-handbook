@@ -1,12 +1,8 @@
 ---
 title: "Technical Program Manager"
 description: "This role supports cross-division initaitives across PM, UX, Engineering and other functions within R&D along with functions across GTM"
-aliases:
-- /job-families/product/program-manager
-- /job-families/product/program-manager/
-- /job-families/product/technical-program-manager
-- /job-families/product/technical-program-manager/
 ---
+
 ## Technical Program Management Context and Mission
 
 ### Context

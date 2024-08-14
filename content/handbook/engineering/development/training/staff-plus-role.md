@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/training/staff-plus-role.html
-
 title: "Resources for Staff+ roles"
 ---
 

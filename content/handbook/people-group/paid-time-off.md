@@ -1,7 +1,5 @@
 ---
 title: "Paid Time Off at GitLab"
-aliases:
-- /handbook/paid-time-off/
 ---
 
 ## Introduction

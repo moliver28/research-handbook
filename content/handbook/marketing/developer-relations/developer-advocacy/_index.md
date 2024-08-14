@@ -1,8 +1,6 @@
 ---
 title: "Developer Advocacy"
 description: "Developer Advocates build GitLab's technical brand with deep, meaningful conversations on engineering topics relevant to our community."
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/index.html
 ---
 
 ## <i class="fas fa-bullhorn fa-fw color-purple font-awesome"></i> Welcome to the Developer Advocacy Handbook

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/product/product-manager-role/product-CDF-competencies
 title: Product Management CDF and Competencies
 ---
 

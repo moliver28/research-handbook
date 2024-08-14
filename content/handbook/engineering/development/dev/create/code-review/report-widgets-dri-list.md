@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/dev/create/code-review/report-widgets-dri-list.html
-
 title: "Merge Request Report Widgets - DRI list"
 description: Listing the DRIs for Merge Request Report Widgets which share ownership over the code powering the several widgets.
 ---

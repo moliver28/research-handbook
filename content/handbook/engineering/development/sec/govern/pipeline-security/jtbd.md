@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/development/ops/verify/pipeline-security/JTBD
 title: Pipeline Security Group - JTBD
 description: "The jobs-to-be-done that the Pipeline Security Group is solving for."
 ---

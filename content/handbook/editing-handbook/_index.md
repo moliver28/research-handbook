@@ -1,10 +1,6 @@
 ---
 title: "Editing the Handbook"
 description: "Information on how to edit the handbook including tips and troubleshooting."
-aliases:
-- /docs/editing-the-handbook/
-- /docs/editing-handbook/
-- /handbook/git-page-update/
 ---
 
 This page focuses on how to edit the handbook.

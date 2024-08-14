@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/fellow/shadow
 title: "Engineering Fellow Shadow"
 description: "GitLab engineers: work with an Engineering Fellow for a week"
 ---

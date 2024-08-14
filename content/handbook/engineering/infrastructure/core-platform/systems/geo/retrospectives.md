@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/geo/retrospectives.html
-
 title: "Geo and Disaster Recovery - Retrospectives"
 description: "How the Geo Team Runs Retrospectives"
 ---

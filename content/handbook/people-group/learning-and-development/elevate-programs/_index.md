@@ -1,8 +1,5 @@
 ---
 title: Elevate Programs
-aliases:
-- /handbook/people-group/learning-and-development/elevate
-
 ---
 
 Use the links below to navigate to each Elevate program. Here is a useful guide to ensure you're choosing the right program:

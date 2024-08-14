@@ -1,8 +1,6 @@
 ---
 title: AMAs
 description: What you need to know about Ask Me Anything (AMA)
-aliases:
-- /handbook/amas/
 ---
 
 An AMA (Ask Me Anything) is a session for team members to ask a specific individual or group of individuals questions either generally or on a specific topic.

@@ -1,5 +1,4 @@
 ---
-aliases: handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/group-conversations
 title: "Product and Solution Marketing Group Conversations How-to"
 ---
 

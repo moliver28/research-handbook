@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/professional-services-engineering/workflows/project_execution/welcome-email.html
 title: Welcome E-mail
 category: Project Execution
 ---

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/reliability/general.html
 title: "Production Engineering Ops Team"
 ---
 

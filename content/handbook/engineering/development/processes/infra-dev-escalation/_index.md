@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/development/processes/Infra-Dev-Escalation
 title: General Information of Development Escalation Process
 ---
 

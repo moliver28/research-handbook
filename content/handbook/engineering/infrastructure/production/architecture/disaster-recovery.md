@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/production/architecture/disaster-recovery.html
 title: "Disaster Recovery Architecture"
 controlled_document: true
 ---
