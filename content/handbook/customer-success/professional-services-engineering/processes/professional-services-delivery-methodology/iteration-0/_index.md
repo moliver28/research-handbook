@@ -52,6 +52,7 @@ To better support our engagement, we can proactively prepare Support by providin
 
 If you do not have ZenDesk light (Read-Only) open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) requesting one.
 
+### Creating a ZenDesk Note for Support
 
 1. Find the relavant org yaml find in the [Repository](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/tree/master/organizations) by [Searching](https://gitlab.com/search?search=&nav_source=navbar&project_id=27675679&group_id=78867384&search_code=true&repository_ref=master) for the Customer Name (It will be a hash, followed by the name in Salesforce).
 ![image](Zen-search.png)
