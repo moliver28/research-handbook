@@ -72,8 +72,8 @@ The following stages are outlined below:
 
 1. Use a User Account
 1. Use a Service Account
+1. Use Declarative Permissions
 1. Use an OAuth Access Token
-1. Declarative permissions
 
 ### Stage 1: Use a User Account
 
@@ -180,7 +180,88 @@ Cons:
 - This creates a user record for every project.
 - This may add complexity to the UI to apply a role to a service account.
 
-### Stage 3: Use an OAuth Access Token
+### Stage 3: Use Declarative Permissions
+
+In this stage, we will introduce support for defining permissions for each job
+using a declarative syntax in the [`.gitlab-ci.yml`](https://docs.gitlab.com/ee/ci/yaml/) file.
+
+The exact syntax for defining these permissions is yet to be determined, but the
+goal of this stage is to enable the specification of different permissions for
+different jobs within the same pipeline.
+
+Below are examples of what the syntax could look like:
+
+```yaml
+permissions:
+  read_issue:
+    - project: gitlab-org/gitlab
+      confidential: false
+  read_repo:
+    - project: gitlab-org/gitlab
+    - project: gitlab-org/www-gitlab-com
+  create_release:
+    - project: gitlab-org/gitlab
+```
+
+The permissions that are defined in the `.gitlab-ci.yml` file will restrict
+which permissions are allowed to be used for the execution of the pipeline. The
+assumption is that the service account bound to the CI job will, at a minimum,
+have these permissions to perform the job. The intention of declaring these
+permissions is to restrict which permissions are available to the token that is
+generated for the CI job session.
+
+These permissions will be encoded into an ephemeral job token that will be
+digitally signed so that it can be verified for authenticity and to detect
+tampering. The algorithm for the digital signature will use a public/private key
+pair with a minimum of SHA-256 for computing the digest.
+
+When any API is presented with the `CI_JOB_TOKEN` it will verify the signature
+of the token and honour the API request according to the permissions defined in
+the `scope` claim.
+
+Example 1: Single Project
+
+Project
+- id: 42
+- global_id: "gid://gitlab/Project/42"
+- name: "acme-org/widgets"
+
+The following `.gitlab-ci.yml` file can be used to configure what permissions
+will be encoded in the `CI_JOB_TOKEN`.
+
+```yaml
+# .gitlab-ci.yml
+permissions:
+  read_issue:
+    - project: self
+  read_repo:
+    - project: self
+```
+
+The following is the JWT body portion of the `CI_JOB_TOKEN` that contains some
+of the standard claims as well as the
+[scope](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim)
+extension for encoding the necessary permissions into a Base64 encoded string.
+One thing to note is that the `scope` claim is represented as an array rather
+than a single string value.
+
+```json
+{
+  "iss": "gitlab.com",
+  "sub": "gid://gitlab/Ci::Build/1",
+  "aud": "",
+  "exp": 1300819380,
+  "scope": [
+    "read_issue": ["gid://gitlab/Project/42"],
+    "read_repo": ["gid://gitlab/Project/42"]
+  ]
+}
+```
+
+Example 2: Multi Project
+
+
+### Stage 4: Use an OAuth Access Token
 
 In this stage, we will create and register a trusted OAuth app
 (`Doorkeeper::Application`) and use it to generate OAuth access tokens on behalf
@@ -235,29 +316,6 @@ Cons:
 
 - Doesn't fully conform to the OAuth Token Exchange Protocol.
 - This will create a new record in the `oauth_access_tokens` for each job. (This will have a significant database impact)
-
-### Stage 4: Declarative permissions
-
-In this stage, we will introduce support for defining permissions for each job
-using a declarative syntax in the [`.gitlab-ci.yml`](https://docs.gitlab.com/ee/ci/yaml/) file.
-
-The exact syntax for defining these permissions is yet to be determined, but the
-goal of this stage is to enable the specification of different permissions for
-different jobs within the same pipeline.
-
-Below are examples of what the syntax could look like:
-
-```yaml
-permissions:
-  read_issue:
-    - project: gitlab-org/gitlab
-      confidential: false
-  read_repo:
-    - project: gitlab-org/gitlab
-    - project: gitlab-org/www-gitlab-com
-  create_release:
-    - project: gitlab-org/gitlab
-```
 
 ## Alternative Solutions
 
