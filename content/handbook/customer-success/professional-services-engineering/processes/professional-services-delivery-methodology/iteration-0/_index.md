@@ -43,3 +43,7 @@ Before we enter Project Kickoff, the goal is to confidently be on the same under
 * It is recommended to use GitLab for Iteration status reporting, but if the customer prefers a deck, please reference this [template.](https://docs.google.com/presentation/d/1jSc5vAID3DMMwojyZnAnOT0aKY2UwDfH2Si-XxEHjLU/edit#slide=id.g2e5808acdbf_0_252)
 
 output: prepared & scheduled Discovery & Planning sessions, and [Iteration Cadences](../iteration-scheduling/_index.md) are confirmed by the Customer
+
+## Prepare Support for Issues and Escalations
+
+To better support our engagement, we can proactively prepare Support by providing key project information in advance. This process allows us to pre-populate any support tickets that the customer opens during our engagement with relevant details. During the engagement, product issues, bugs, or unexpected functionality may arise. Additionally, there could be corruption or environment issues on the customer’s side that require involvement from Support or Product teams. By ensuring that relevant data is readily available, we can facilitate smoother and quicker collaboration when issues arise.
