@@ -142,7 +142,7 @@ Our long term roadmap is written down on our [direction page](https://about.gitl
 We use issue boards to track issue progress on a daily basis. Issue boards are our single source of truth for the status of our work. Issue boards should be viewed at the highest group level for visibility into all nested projects in a group.
 
 - [**Analytics Instrumentation Issue Board - Current Milestone**](https://gitlab.com/groups/gitlab-org/-/boards/5071664?milestone_title=Started)
-- [**Analytics Instrumentation Issue Board _- by milestone_**](https://gitlab.com/groups/gitlab-org/-/boards/2774881?scope=all&not[label_name][]=product%20work&not[label_name][]=Technical%20Writing&not[label_name][]=UX)
+- [**Analytics Instrumentation Issue Board *- by milestone***](https://gitlab.com/groups/gitlab-org/-/boards/2774881?scope=all&not[label_name][]=product%20work&not[label_name][]=Technical%20Writing&not[label_name][]=UX)
 
 ### Picking something to work on
 
@@ -430,8 +430,8 @@ When choosing whether to declare an incident:
 
 ### Incident Creation
 
-_(DRI: The team/individual detecting the issue or first team member to see the
-alert)_
+*(DRI: The team/individual detecting the issue or first team member to see the
+alert)*
 
 1. Create an issue and fill all necessary information using the [Analytics Instrumentation Incident Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Analytics+Instrumentation+Incident).
 1. Add appropriate label using the below guideline
@@ -446,7 +446,7 @@ alert)_
 
 ### Incident Resolution
 
-_(DRI: To be identified by EM of the Analytics Instrumentation group)_
+*(DRI: To be identified by EM of the Analytics Instrumentation group)*
 
 1. DRI to work on resolving the issue as quickly as possible. The first priority is to find a fix, even if that is a temporary one, before working on a long term resolution. Our [monitoring and troubleshooting guide](./monitoring_troubleshooting.html) can be helpful here.
 1. EM to review severities assigned by detection DRI.
@@ -466,7 +466,7 @@ _(DRI: To be identified by EM of the Analytics Instrumentation group)_
 
 ### Incident Notification
 
-_(DRI: The PM of the Analytics Instrumentation group)_
+*(DRI: The PM of the Analytics Instrumentation group)*
 
 1. Notify these slack channels [#g_analyze_product_analytics](https://gitlab.slack.com/archives/C03M4R74NDU), [#data_rd_fusion](https://gitlab.slack.com/archives/C02C82WDP0U), [#data](https://gitlab.slack.com/archives/C8D1LGC23) with link to the issue.
 1. Inform Monitor stage Engineering & Product GPM.
