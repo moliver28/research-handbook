@@ -219,6 +219,20 @@ When any API is presented with the `CI_JOB_TOKEN` it will verify the signature
 of the token and honour the API request according to the permissions defined in
 the `scope` claim.
 
+Currently, when we authorize any request in the HTTP APIs we lookup a token in a
+database and find the user that is associated with the token. We then look at
+the role that this user has for a given resource (for example Project, Group).
+After determining the role we enable `Declarative Policy` rules based on their
+role (for example an Owner also has `read_issue` and `read_repo` on a project).
+
+In this stage, we're going to look at the permissions that are encoded in the
+token itself and enable those `Declarative Policy` rules after validating that
+the provided token was issued from an authority that we trust. This allows us to
+encode permissions bound to a specific CI job session without a significant
+change to our authorization policies. The `Declarative Policy` checks require a
+specific user account as the subject of the decision. We will use the service
+account created in stage 2 as the subject of check.
+
 Example 1: Single Project
 
 Project
