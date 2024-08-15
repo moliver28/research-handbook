@@ -10,7 +10,7 @@ The project handoff process is a critical component of our project management me
 - Before the handoff, the outgoing resource and/or the PM should create a project transition issue in the [Customer Project](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) using the resources transition template.
 
 ### Scheduling the Transition Call
-The transition call should be scheduled at a time convenient for all key participants, including the outgoing and incoming resources, and any relevant internal stakeholders. Ensure that the agenda is shared with all participants ahead of the meeting.
+The transition call should be scheduled at a time convenient for all key participants, including the outgoing and incoming resources, and any relevant internal stakeholders. Ensure that the agenda template is shared with all participants ahead of the meeting.
 
 ### Conducting the Transition Call
 During the transition call, follow the structured agenda to ensure all critical aspects of the handoff are covered. The agenda includes sections on project overview, roles and responsibilities, key stakeholders, ongoing tasks, risks and issues, and tools and access along with desired outcomes.
