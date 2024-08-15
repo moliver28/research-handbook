@@ -30,7 +30,7 @@ Get personal. We don’t “enable partners.”  We develop champions.  Share an
 
 ### Working with Strategic Alliance Partners
 
-The Ecosystem SA is an influential technical representative from GitLab to Alliance partners like AWS, Google, IBM, Microsoft, VMWare, Red Hat, etc. The Ecosystem SA role also entails communicating technical concerns of partners back into GitLab Product, Engineering, Marketing and other areas as appropriate. This role involves pre-sales and driving partner solutions, joint GTM initiatives, and spearheading integrations with our GitLab product and engineering counterparts. In terms of key responsibilities:
+The Ecosystem SA is an influential technical representative from GitLab to Alliance partners like AWS, Google, IBM, Microsoft, VMWare, Red Hat, etc. The Ecosystem SA role also entails communicating technical concerns of partners back into GitLab Product, Engineering, Marketing and other areas as appropriate. This role involves pre-sales and driving partner solutions, joint GTM initiatives, and spearheading integrations with our GitLab product and engineering counterparts. In terms of key responsibilities, the Ecosystem SA is responsible for supporting these Strategic Alliance Partnerships through the following activities:
 
 Partner Development: Works across the partner ecosystem, helps with offerings, enablement and field marketing, both internal and external.
 Subject Matter Expertise: Recognized as a trusted advisor within an area of focus, with exceptional soft / public speaking skills and “hands on the keyboard” depth. Frequently this expertise involves entire technical ecosystems and technical cultural attributes of partner organizations.
