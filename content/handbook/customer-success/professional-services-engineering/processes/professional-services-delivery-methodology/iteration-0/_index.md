@@ -84,3 +84,5 @@ Include the details below and anything else that would be helpful for support to
 1. Hit Enter to accept the default branch name (Should by a combination with your user name)
 
 1. Select the Create MR Button on the bottom right of the Web IDE.
+
+1. At the close of the project repeat this step, but remove the contents added after details.
