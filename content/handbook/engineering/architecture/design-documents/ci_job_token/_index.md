@@ -73,7 +73,7 @@ The following stages are outlined below:
 1. Use a User Account
 1. Use a Service Account
 1. Use Declarative Permissions
-1. Use an OAuth Access Token
+1. Integrate with our OAuth Provider
 
 ### Stage 1: Use a User Account
 
@@ -146,31 +146,6 @@ Owners will be able to assign a role to this Service Account. If the project
 has an Ultimate license, the service account can be assigned a custom role;
 otherwise, a standard role can be selected.
 
-Below is a snippet of code that summarizes the idea.
-
-```ruby
-# This example assumes a single bot account for the instance that can have a
-# different role assigned for any project in the instance
-
-module Users
-  class Internal
-    class << self
-      def ci_bot
-        email_pattern = "ci-bot%s@#{Settings.gitlab.host}"
-
-        unique_internal(User.where(user_type: :ci_bot), 'GitLab-CI', email_pattern) do |u|
-          u.bio = 'The bot for GitLab CI'
-          u.name = 'Continuous Integration'
-          u.avatar = bot_avatar(image: 'ci-bot.png')
-          u.confirmed_at = Time.zone.now
-          u.private_profile = true
-        end
-      end
-    end
-  end
-end
-```
-
 Pros:
 
 - Does not occupy a licensed seat
@@ -195,7 +170,6 @@ Below are examples of what the syntax could look like:
 permissions:
   read_issue:
     - project: gitlab-org/gitlab
-      confidential: false
   read_repo:
     - project: gitlab-org/gitlab
     - project: gitlab-org/www-gitlab-com
@@ -213,7 +187,7 @@ generated for the CI job session.
 These permissions will be encoded into an ephemeral job token that will be
 digitally signed so that it can be verified for authenticity and to detect
 tampering. The algorithm for the digital signature will use a public/private key
-pair with a minimum of SHA-256 for computing the digest.
+pair with a minimum of SHA256 for computing the digest.
 
 When any API is presented with the `CI_JOB_TOKEN` it will verify the signature
 of the token and honour the API request according to the permissions defined in
@@ -235,13 +209,12 @@ account created in stage 2 as the subject of check.
 
 Example 1: Single Project
 
-Project
-- id: 42
-- global_id: "gid://gitlab/Project/42"
-- name: "acme-org/foo"
+| global_id | name |
+| --------- | ---- |
+| "gid://gitlab/Project/42"  | "acme-org/foo" |
 
 The following `.gitlab-ci.yml` file can be used to configure what permissions
-will be encoded in the `CI_JOB_TOKEN`.
+will be encoded into the `CI_JOB_TOKEN`.
 
 ```yaml
 # .gitlab-ci.yml
@@ -253,11 +226,9 @@ permissions:
 ```
 
 The following is the JWT body portion of the `CI_JOB_TOKEN` that contains some
-of the standard claims as well as the
-[scope](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim)
-extension for encoding the necessary permissions into a Base64 encoded string.
-One thing to note is that the `scope` claim is represented as an array rather
-than a single string value.
+of the standard claims as well as the [scope](https://datatracker.ietf.org/doc/html/rfc8693#name-scope-scopes-claim)
+extension for encoding the necessary permissions. One thing to note is that the
+`scope` claim is represented as an array rather than a single string value.
 
 ```json
 {
@@ -272,32 +243,12 @@ than a single string value.
 }
 ```
 
-TODO:: Describe how roles will be configured for the service account
-
-`members`
-
-| id | source_id | source_type | user_id | member_role_id |
-| -- | --------- | ----------- | ------- | -------------- |
-| | | | |
-
-
-`members_roles`
-
-| id | permissions |
-| -- | ----------- |
-| | |
-
 Example 2: Multi Project
 
-Project 1:
-- id: 42
-- global_id: "gid://gitlab/Project/42"
-- name: "acme-org/foo"
-
-Project 2
-- id: 256
-- global_id: "gid://gitlab/Project/256"
-- name: "acme-org/bar"
+| global_id | name |
+| --------- | ---- |
+| "gid://gitlab/Project/42"  | "acme-org/foo" |
+| "gid://gitlab/Project/256" | "acme-org/bar" |
 
 ```yaml
 # .gitlab-ci.yml
@@ -309,6 +260,8 @@ permissions:
     - project: acme-org/bar
 ```
 
+Below is an example of the body of the JWT token that contains the requested
+permissions.
 
 ```json
 {
@@ -328,50 +281,36 @@ permissions:
 }
 ```
 
-### Stage 4: Use an OAuth Access Token
+In order to generate the token above the service account used for jobs will need
+a membership to the downstream project with the `read_repo` permission.
+Currently, this permission is not listed as one of the supported custom
+abilities but it is implicitly available through one of the standard roles.
+We will need to list each of the specific abilities to make it possible to
+generate documentation to indicate which permissions can be configured through
+the `.gitlab-ci.yml`.
+
+Pros:
+
+* This removes the need to write additional data to the database to represent temporary roles for each build.
+* This design supports a change in permissions in the `.gitlab-ci.yml` file so
+  that two concurrent pipelines in the same project for two different commits
+  can operate with the appropriate access controls independent of each other.
+
+Cons:
+
+* Token revocation is trickier with a stateless token.
+
+### Stage 4: Integrate with our OAuth Provider
 
 In this stage, we will create and register a trusted OAuth app
 (`Doorkeeper::Application`) and use it to generate OAuth access tokens on behalf
 of the service account defined in stage 2. This approach will leverage our
 existing OAuth implementation and provide an extension point for any API outside
-of the [monolith](https://gitlab.com/gitlab-org/gitlab) to verify the claims associated with a `CI_JOB_TOKEN` by
-making an API call to the [token introspection endpoint](https://docs.gitlab.com/ee/api/oauth2.html#retrieve-the-token-information).
+of the [monolith](https://gitlab.com/gitlab-org/gitlab) to verify the claims
+associated with a `CI_JOB_TOKEN` by making an API call to the
+[token introspection endpoint](https://docs.gitlab.com/ee/api/oauth2.html#retrieve-the-token-information).
 
-An example of how to implement this can be found in [this MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/162333). Below is a
-snippet of code that summarizes the idea.
-
-```ruby
-module Ci
-  class Build < Ci::Processable
-    add_authentication_token_field :token,
-      encrypted: :required,
-      token_generator: ->(build) { build.create_oauth_access_token },
-      format_with_prefix: :prefix_and_partition_for_token
-
-    private
-
-    def oauth_application
-      Doorkeeper::Application.find_or_create_by!(
-        name: 'GitLab CI',
-        redirect_uri: Gitlab::Routing.url_helpers.root_url,
-        scopes: [:api],
-        trusted: true,
-        confidential: false
-      )
-    end
-
-    def create_oauth_access_token
-      application = oauth_application
-
-      OauthAccessToken.create!(
-        application_id: application.id,
-        expires_in: 2.hours,                     # default to max timeout for pipeline
-        resource_owner_id: user&.id,             # this is the service account
-        token: Doorkeeper::OAuth::Helpers::UniqueToken.generate,
-        scopes: application.scopes.to_s
-      ).token
-    end
-```
+An example of how to implement this can be found in [this MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/162333).
 
 Pros:
 
@@ -382,7 +321,7 @@ Pros:
 Cons:
 
 - Doesn't fully conform to the OAuth Token Exchange Protocol.
-- This will create a new record in the `oauth_access_tokens` for each job. (This will have a significant database impact)
+- This will create a new record in the `oauth_access_tokens` for each job.
 
 ## Alternative Solutions
 
