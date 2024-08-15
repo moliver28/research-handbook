@@ -573,9 +573,7 @@ Team members are encouraged to review additional information on [working time in
 
 ### GitLab Canada Corp (Canada)
 
-GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the sense that the policies listed here are stating the statutory minimum that each GitLab Canada Corp team member must take to be compliant with relevant provincial laws.
-
-#### GitLab Canada Corp observes provincial laws regarding vacation time and vacation pay. For more information, refer to the applicable employment standards legislation of the Province in which you reside
+GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the sense that the policies listed here are stating the statutory minimum that each GitLab Canada Corp team member must take to be compliant with relevant provincial laws. For more information, refer to the applicable employment standards legislation of the Province in which you reside.
 
 - [Alberta Employment Standards](https://www.alberta.ca/employment-standards.aspx)
 - [British Columbia Employment Standards](https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards)

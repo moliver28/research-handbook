@@ -108,7 +108,7 @@ Please follow the process as listed on the Expense Handbook [page](/handbook/fin
 
 Typically, benefits coverage ends your last day with GitLab. In the US, medical, dental, and vision coverage will end of the month during which you leave, all other benefits end on your last day. 
 
-### How will my stock options be managed? What will happen to my stock options if I have been at GitLab less than a year at my date of departure?
+### How will my stock options be managed? What if I have been at GitLab less than a year?
 
 All information is on the [Stock Options](/handbook/total-rewards/stock-options/) handbook page, specifically the [Exercise Window after Termination](/handbook/total-rewards/stock-options/#exercise-window-after-termination) section.
 
