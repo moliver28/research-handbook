@@ -1,4 +1,5 @@
 ---
+title: SAST IDE Integration
 status: ongoing
 creation-date: "2024-06-21"
 authors: [ "@erran", "@jleasure", "@julianthome", "@theoretick" ]
