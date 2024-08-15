@@ -40,7 +40,6 @@ GitLab Alliances Strategy: generates ideas for and participates in Alliances gro
 Feedback: Tightens feedback loops from the field to R&D, Marketing, and Customer Success @GitLab. Proactively breaks down silos to envision and co-create products with cross-team, cross-company communication and collaboration.
 Content Creation:: Develops and maintains content that is easy to find and use, and helps meet the goals of GitLab and its Alliance partners.
 
-
 ### TODO Working with Services Partners
 
 ### MBO Guidelines
