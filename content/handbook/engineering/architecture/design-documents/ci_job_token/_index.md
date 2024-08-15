@@ -238,7 +238,7 @@ Example 1: Single Project
 Project
 - id: 42
 - global_id: "gid://gitlab/Project/42"
-- name: "acme-org/widgets"
+- name: "acme-org/foo"
 
 The following `.gitlab-ci.yml` file can be used to configure what permissions
 will be encoded in the `CI_JOB_TOKEN`.
@@ -274,6 +274,44 @@ than a single string value.
 
 Example 2: Multi Project
 
+Project 1:
+- id: 42
+- global_id: "gid://gitlab/Project/42"
+- name: "acme-org/foo"
+
+Project 2
+- id: 256
+- global_id: "gid://gitlab/Project/256"
+- name: "acme-org/bar"
+
+```yaml
+# .gitlab-ci.yml
+permissions:
+  read_issue:
+    - project: self
+  read_repo:
+    - project: self
+    - project: acme-org/bar
+```
+
+
+```json
+{
+  "iss": "gitlab.com",
+  "sub": "gid://gitlab/Ci::Build/1",
+  "aud": "",
+  "exp": 1300819380,
+  "scope": [
+    "read_issue": [
+      "gid://gitlab/Project/42"
+    ],
+    "read_repo": [
+      "gid://gitlab/Project/42",
+      "gid://gitlab/Project/256"
+    ]
+  ]
+}
+```
 
 ### Stage 4: Use an OAuth Access Token
 
