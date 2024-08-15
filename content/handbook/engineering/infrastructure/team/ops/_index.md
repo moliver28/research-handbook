@@ -17,10 +17,7 @@ There are two areas that are the Ops team primary focus:
 
 1. Incident Management - Ops is responsible for improving the processes GitLab uses for incident management
 2. Disaster Recovery - Ops is responsible for managing our disaster recovery processes with a particular focus on reducing our RTO
-
-### Services
-
-The Ops team has inherited assignment of services with `owner: reliability_general` in the [Service Catalog](https://gitlab.com/gitlab-com/runbooks/blob/master/services/service-catalog.yml). Our goal is to help find appropriate owners for those services.
+3. Patching Processes - Ops is responsible for defining and maintaining the GitLab.com patching process
 
 ## How We Work - Prioritization
 
