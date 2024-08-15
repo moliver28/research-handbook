@@ -225,7 +225,9 @@ More information can be found [here](/job-families/people-group/executive-busine
 
 ## Signature Request procedure
 
-### When requesting a wet signature for a document(s) please have the following questions answered in advance
+### Requesting a wet signature
+
+When requesting a wet signature for a document(s) please have the following questions answered in advance
 
 1. Is there an issue? If there is more than two documents you may want to consider creating an issue to track progress
 1. What is this for?
