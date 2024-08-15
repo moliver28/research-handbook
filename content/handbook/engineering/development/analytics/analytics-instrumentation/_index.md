@@ -12,7 +12,6 @@ You can learn more about what we're building next on the [Analytics Instrumentat
 
 ## History and direction
 
-
 {{< youtube "_D-C8B5vPS0" >}}
 
 *In the [GitLab Unfiltered video](https://youtu.be/_D-C8B5vPS0) Niko is talking about the groups's approach to Analytics Intrumentation tools improvements and evolution*
