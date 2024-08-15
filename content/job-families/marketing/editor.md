@@ -141,6 +141,10 @@ The Manager, Blog Strategy is a [grade 8](/handbook/total-rewards/compensation/c
 
 - Define strategy and direction, and drive execution of GitLab's blog:
 - Serve as GitLab's go-to source for all things editorial
+  - Content quality standards and best practices
+  - Editorial processes and workflows
+  - Brand voice and tone consistency
+  - Digital publishing strategies and trends
 - Set the publishing strategy, directives, and goals, together with blog team
 - Drive improvements to user experience on the GitLab blog, working with Digital Experience, Design, SEO, and other involved teams
 - Effectively and efficiently partner with peer groups within marketing to ensure editorial strategy aligns with and supports broader marketing strategy
