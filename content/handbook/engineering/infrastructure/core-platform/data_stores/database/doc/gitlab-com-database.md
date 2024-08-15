@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/doc/gitlab-com-database.html
 title: Working with the GitLab.com database for developers
 ---
 

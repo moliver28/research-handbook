@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/product/ux/ux-research-coordination/IP-Assignment
 title: "The IP Assignment and when to show it"
 description: "Learn about what the IP Assignment is and when to show it to research participants."
 ---

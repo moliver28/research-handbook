@@ -1,6 +1,5 @@
 ---
 title: "Content Websites"
-aliases: /handbook/content-websites/
 ---
 
 ## Overview

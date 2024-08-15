@@ -1,7 +1,5 @@
 ---
 title: Elevate
-aliases:
-- /handbook/people-group/learning-and-development/elevate/elevate
 ---
 
 Managers at GitLab enable our mission that [everyone can contribute]({{< ref "mission" >}}). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.

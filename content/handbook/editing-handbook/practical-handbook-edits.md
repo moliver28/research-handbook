@@ -1,8 +1,6 @@
 ---
 title: "Practical Handbook Editing Tips"
 description: "Video recordings and written tips for team members on additional tips to working handbook first."
-aliases:
-- /handbook/practical-handbook-edits/
 ---
 
 This page contains instructions, tips, and historical recordings for non-technical team members on how to work handbook-first.

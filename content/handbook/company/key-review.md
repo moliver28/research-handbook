@@ -1,7 +1,5 @@
 ---
 title: "Key Reviews"
-aliases:
-- /handbook/key-review/
 ---
 
 ## Purpose
@@ -30,7 +28,7 @@ Key Reviews are once per quarter.
 ## Scheduling
 
 The Staff EBA to the CFO is the scheduling DRI for the Key Reviews and will schedule a four hour block during the week after [Sales QBRs](../sales/qbrs/index.md).
-They will break up the block into 8 blocks of 25 minutes each (one for each function) and invite relevant attendees to each session. 
+They will break up the block into 8 blocks of 25 minutes each (one for each function) and invite relevant attendees to each session.
 
 The Key Review meeting invitations will utilize the CFO's Zoom account. The functional DRI and corresponding EBA will be set as co-hosts. The Key Reviews should always be recorded, with the functional DRI's EBA as the recording DRI.
 

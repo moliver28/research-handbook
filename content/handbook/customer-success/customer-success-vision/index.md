@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/vision
 title: "Customer Success Vision"
 description: "Create a company-wide customer success approach, providing an engagement
   framework for the Customer Success organization"

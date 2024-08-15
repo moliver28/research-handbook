@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/management/career-development
 title: "Engineering Management Career Development"
 description: "Career development information and process to follow for Engineering Managers at GitLab."
 ---

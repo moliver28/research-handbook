@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/sales/training/SKO/SKO-planning
 title: "Sales Kickoff Planning"
 description: "This page outlines the GitLab Sales Kickoff core team structure and planning process"
 ---

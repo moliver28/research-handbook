@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/search/es-rollout-timeline.html
 title: Advanced Global Search Rollout on GitLab.com
 ---
 

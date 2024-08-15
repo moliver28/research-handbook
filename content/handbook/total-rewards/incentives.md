@@ -1,8 +1,6 @@
 ---
 title: "Incentives at GitLab"
 description: "The page contains information about incentives available for GitLab team members."
-aliases:
-- /handbook/incentives/
 ---
 
 Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).

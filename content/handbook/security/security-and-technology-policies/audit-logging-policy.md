@@ -1,8 +1,6 @@
 ---
 title: "GitLab Audit Logging Policy"
 controlled_document: true
-aliases:
-- /handbook/security/audit-logging-policy/
 ---
 
 ## Purpose
@@ -32,7 +30,7 @@ The audit logging policy applies to all systems within our production environmen
 Inline with GitLab's Continuous Monitoring Controls
 System Owners are responsible for determining what constitutes "critical information system activity" in their respective system based on their experience and professional judgement
 
-Such activity is then documented either in the handbook or a runbook, whichever is found to be appropriate. 
+Such activity is then documented either in the handbook or a runbook, whichever is found to be appropriate.
 
 Audit logging process must be created and implemented by the department(s) or team(s) responsible for a given system.
 

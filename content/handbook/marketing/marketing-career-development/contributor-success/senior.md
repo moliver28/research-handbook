@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/marketing/career-development/matrix/marketing/community-relations/contributor-success/senior
 title: "Contributor Success Career Framework: Senior Fullstack Engineer"
 description: "These are the expected competencies of a Senior Fullstack Engineer, Contributor Success at GitLab."
 ---

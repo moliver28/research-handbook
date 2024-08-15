@@ -1,6 +1,5 @@
 ---
 title: Security Policies and Threat Insights planning
-aliases: /handbook/engineering/development/sec/govern/sp-ti-planning.html
 ---
 
 ## How we do planning

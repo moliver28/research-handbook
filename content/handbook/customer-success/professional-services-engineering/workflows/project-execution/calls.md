@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/professional-services-engineering/workflows/project_execution/calls.html
 title: Standing Calls
 category: Project Execution
 ---

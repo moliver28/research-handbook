@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/cloud-connector/knowledge.html
 title: Application Performance Group - Knowledge Sharing
 ---
 

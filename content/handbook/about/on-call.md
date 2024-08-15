@@ -1,7 +1,5 @@
 ---
 title: Handbook Escalation
-aliases:
-- /about/support/
 ---
 
 For information on team members' roles and responsibilities, see [Content Websites page](../).

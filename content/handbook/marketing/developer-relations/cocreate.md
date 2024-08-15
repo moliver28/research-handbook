@@ -1,9 +1,5 @@
 ---
 title: "GitLab Co-Create Initiative"
-aliases:
-- /handbook/marketing/developer-relations/cocreate/
-- /handbook/marketing/developer-relations/cocreation
-- /handbook/marketing/developer-relations/cocreation/
 ---
 
 ## Goal
