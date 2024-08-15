@@ -46,4 +46,16 @@ output: prepared & scheduled Discovery & Planning sessions, and [Iteration Caden
 
 ## Prepare Support for Issues and Escalations
 
-To better support our engagement, we can proactively prepare Support by providing key project information in advance. This process allows us to pre-populate any support tickets that the customer opens during our engagement with relevant details. During the engagement, product issues, bugs, or unexpected functionality may arise. Additionally, there could be corruption or environment issues on the customer’s side that require involvement from Support or Product teams. By ensuring that relevant data is readily available, we can facilitate smoother and quicker collaboration when issues arise.
+To better support our engagement, we can proactively prepare Support by providing key project information in advance. This process allows us to pre-populate any support tickets that the customer opens during our engagement with relevant details. During the engagement, product issues, bugs, or unexpected functionality may arise. Additionally, there could be corruption or environment issues on the customer’s side that require involvement from Support or Product teams. By ensuring that relevant data is readily available, we can facilitate smoother and quicker collaboration when issues arise. While this is critical for any infrastructure related project like implementation, it's likely useful for any engagement in the event a support issue arises. 
+
+1. Collect the following information
+   ```
+   Project Manager: 
+   Slack Channels:
+   Engineers: 
+   Start Date:
+   Anticipated End Date: 
+   Summary of Engagement:
+   Support should know:
+   Project Plan Link:
+   ```
