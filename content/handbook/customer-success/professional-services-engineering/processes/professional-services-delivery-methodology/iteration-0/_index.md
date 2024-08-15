@@ -48,14 +48,38 @@ output: prepared & scheduled Discovery & Planning sessions, and [Iteration Caden
 
 To better support our engagement, we can proactively prepare Support by providing key project information in advance. This process allows us to pre-populate any support tickets that the customer opens during our engagement with relevant details. During the engagement, product issues, bugs, or unexpected functionality may arise. Additionally, there could be corruption or environment issues on the customer’s side that require involvement from Support or Product teams. By ensuring that relevant data is readily available, we can facilitate smoother and quicker collaboration when issues arise. While this is critical for any infrastructure related project like implementation, it's likely useful for any engagement in the event a support issue arises. 
 
-1. Collect the following information
+### Getting Access to ZenDesk Ticket System
+
+If you do not have ZenDesk light (Read-Only) open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) requesting one.
+
+
+1. Find the relavant org yaml find in the [Repository](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/tree/master/organizations) by [Searching](https://gitlab.com/search?search=&nav_source=navbar&project_id=27675679&group_id=78867384&search_code=true&repository_ref=master) for the Customer Name (It will be a hash, followed by the name in Salesforce).
+![image](Zen-search.png)
+   
+1. Create a new Merge Request by Selecting the YAML from Search. Then `Edit > Open in Web IDE`
+![image](edit-yaml.png)
+
+1. Add the block below after details starting with a pipe "|" (this Character indicates a multi line entry). The fields should be spaced 1 tab from details.
+Include the details below and anything else that would be helpful for support to know when engaging the customer. 
    ```
-   Project Manager: 
-   Slack Channels:
-   Engineers: 
-   Start Date:
-   Anticipated End Date: 
-   Summary of Engagement:
-   Support should know:
-   Project Plan Link:
+   ---
+   id: 27946339528
+   name: 5a1f9965 Test Account
+   notes: This is a test note for a test account.
+   details: |
+      Project Manager: 
+      Slack Channels:
+      Engineers: 
+      Start Date:
+      Anticipated End Date: 
+      Summary of Engagement:
+      Support should know:
+      Project Plan Link:
    ```
+
+1. Commit your changes by clicking the Source Control Button (noted with 1 change) > The drop down arrow > Create new branch and commit.
+![image](newmr.jpg)
+
+1. Hit Enter to accept the default branch name (Should by a combination with your user name)
+
+1. Select the Create MR Button on the bottom right of the Web IDE.
