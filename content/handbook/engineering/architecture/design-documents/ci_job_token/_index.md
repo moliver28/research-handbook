@@ -272,6 +272,21 @@ than a single string value.
 }
 ```
 
+TODO:: Describe how roles will be configured for the service account
+
+`members`
+
+| id | source_id | source_type | user_id | member_role_id |
+| -- | --------- | ----------- | ------- | -------------- |
+| | | | |
+
+
+`members_roles`
+
+| id | permissions |
+| -- | ----------- |
+| | |
+
 Example 2: Multi Project
 
 Project 1:
