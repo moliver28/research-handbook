@@ -10,6 +10,13 @@ To do this, we build data collection and analytics tools within the GitLab produ
 Insights generated from Analytics Instrumentation enable us to identify the best places to invest people and resources, what product categories mature faster, where our user experience can be improved, and how product changes impact the business.
 You can learn more about what we're building next on the [Analytics Instrumentation Direction page](https://about.gitlab.com/direction/analytics/analytics-instrumentation/).
 
+## History and direction
+
+
+{{< youtube id="_D-C8B5vPS0" >}}
+
+*In the [GitLab Unfiltered video](https://youtu.be/_D-C8B5vPS0) Niko is talking about the groups's approach to Analytics Intrumentation tools improvements and evolution*
+
 ## How we work
 
 - We work in accordance with our [GitLab values](/handbook/values/).
