@@ -79,8 +79,6 @@ audience.
 
 - Enable users to use KEV data on GitLab as another metric for their
   vulnerability prioritization efforts.
-- Enable compliance tracking for BOD 22-01, supporting FCEB agencies and other
-  entities in monitoring and remediating KEV catalog vulnerabilities.
 
 #### Phase 1 (MVC)
 
