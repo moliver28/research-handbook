@@ -162,7 +162,7 @@ The Manager, Blog Strategy is a [grade 8](/handbook/total-rewards/compensation/c
 - Degree in English, journalism or media, or equivalent work experience.
 - Excellent communication, organizational, and leadership capabilities.
 - Proven experience as a managing editor or similar role, preferably within enterprise marketing.
-- Experience as a people manager.
+- Experience mentoring and leading others by sharing solutions and problem solving approaches.
 - Markdown proficiency.
 - Familiarity of the software development processes including Git, CI and CD
 - You share our values, and work in accordance with those values.
