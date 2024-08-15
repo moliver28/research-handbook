@@ -678,7 +678,8 @@ The Data Team reservers the right to reject code that will dramatically slow the
   ```
 
 - All `{{ ref('...') }}` statements should be placed in CTEs at the top of the file. (Think of these as import statements.)
-  - This does not imply all CTE's that have a `{{ ref('...') }}` should be `SELECT *` only. It is ok to do additional manipulations in a CTE with a `ref` if it makes sense for the model
+  - This does not imply all CTE's that have a `{{ ref('...') }}` should be `SELECT *` only. It is ok to do additional manipulations in a CTE with a `ref` if it makes sense for the model.
+  - If only a small number of fields are required from a model containing many columns then it can be performant to list them in the CTE, otherwise it is better to use `SELECT *`. To do this, the `simple_cte` macro can be used.
 
 - If you want to separate out some complex SQL into a separate model, you absolutely should to keep things DRY and easier to understand. The config setting `materialized='ephemeral'` is one option which essentially treats the model like a CTE.
 
@@ -706,7 +707,7 @@ In normal usage, dbt knows the proper order to run all models based on the usage
   })
 }}
 
--- depends on: {{ ref('snowplow_sessions') }}
+-- depends_on: {{ ref('snowplow_sessions') }}
 
 {{ schema_union_all('snowplow_', 'snowplow_sessions') }}
 ```
