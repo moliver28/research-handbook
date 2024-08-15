@@ -54,25 +54,25 @@ If you do not have ZenDesk light (Read-Only) open an [Access Request](https://gi
 
 ### Creating a ZenDesk Note for Support
 
-1. Find the relavant org yaml find in the [Repository](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/tree/master/organizations) by [Searching](https://gitlab.com/search?search=&nav_source=navbar&project_id=27675679&group_id=78867384&search_code=true&repository_ref=master) for the Customer Name (It will be a hash, followed by the name in Salesforce).
+1. Find the relavant org `.yaml` find in the [Repository](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/tree/master/organizations) by [Searching](https://gitlab.com/search?search=&nav_source=navbar&project_id=27675679&group_id=78867384&search_code=true&repository_ref=master) for the Customer Name (It will be a hash, followed by the name in Salesforce).
 ![image](Zen-search.png)
-   
+
 1. Create a new Merge Request by Selecting the YAML from Search. Then `Edit > Open in Web IDE`
 ![image](edit-yaml.png)
 
 1. Add the block below after details starting with a pipe "|" (this Character indicates a multi line entry). The fields should be spaced 1 tab from details.
-Include the details below and anything else that would be helpful for support to know when engaging the customer. 
+Include the details below and anything else that would be helpful for support to know when engaging the customer.
    ```
    ---
    id: 27946339528
    name: 5a1f9965 Test Account
    notes: This is a test note for a test account.
    details: |
-      Project Manager: 
+      Project Manager:
       Slack Channels:
-      Engineers: 
+      Engineers:
       Start Date:
-      Anticipated End Date: 
+      Anticipated End Date:
       Summary of Engagement:
       Support should know:
       Project Plan Link:
