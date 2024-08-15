@@ -235,8 +235,6 @@ Cons:
 
 - Doesn't fully conform to the OAuth Token Exchange Protocol.
 - This will create a new record in the `oauth_access_tokens` for each job. (This will have a significant database impact)
-- This may require the creation of a new user record for every project that has CI enabled.
-- This may require the creation of a new `oauth_applications` record for each project that has CI enabled.
 
 ### Stage 4: Declarative permissions
 
