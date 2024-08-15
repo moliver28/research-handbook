@@ -77,7 +77,7 @@ set of widgets for them.
 
 | Widget  | Description | Feature flag | Write permission | GraphQL Subscription Support |
 |---|---|---|---|---|
-| [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/index.html#workitemwidgetassignees) | List of work item assignees | |`Guest`|Yes|
+| [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/index.html#workitemwidgetassignees) | List of work item assignees | For epics work item type `work_items_beta`, otherwise no FF |`Guest`|Yes|
 | [WorkItemWidgetAwardEmoji](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetawardemoji) | Emoji reactions added to work item, including support for upvote/downvote counts | |Anyone who can view|No|
 | [WorkItemWidgetColor](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetcolor) | Set color of a work item. **Note:** Color is available only for epics. | |`Reporter`|No|
 | [WorkItemWidgetCurrentUserTodos](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetcurrentusertodos) | User todo state of work item | |Anyone who can view|No|
@@ -107,7 +107,7 @@ set of widgets for them.
 
 | Widget | Epic | Issue | Task | Objective | Key Result |
 |---|---|---|---|---|---|
-| [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/index.html#workitemwidgetassignees) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/index.html#workitemwidgetassignees) | ✅ | ✔️  | ✅ | ✅ | ✅ |
 | [WorkItemWidgetAwardEmoji](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetawardemoji) | ✅ | ✔️ | ✅ | ✅ | ✅ |
 | [WorkItemWidgetColor](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetcolor) | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [WorkItemWidgetCurrentUserTodos](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetcurrentusertodos) | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -182,7 +182,7 @@ Since this is a large project with numerous moving parts, feature flags are bein
 |---|---|
 | `work_items` | defaulted to on |
 | `work_items_beta` | `gitlab-org`, `gitlab-com` |
-| `work_items_mvc_2` | `gitlab-org/plan-stage` |
+| `work_items_alpha` | `gitlab-org/plan-stage` |
 
 For epic work item specific feature flags, please see the [Epic Work Item Migration Epic](https://gitlab.com/groups/gitlab-org/-/epics/11777#feature-flags).
 
