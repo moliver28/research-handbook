@@ -93,7 +93,7 @@ These channels (prefixed with `ext-`) are used for communication with vendors or
 
 - **`#ext-gitlab-abc`**: Shared channel with Customer/Vendor ABC for project collaboration and support.
 
-WWhen using an external channel, ensure that you follow GitLab's guidelines for external communication, including keeping information [SAFE](/handbook/legal/safe-framework/). External channels with no activity in the last year will be removed by CorpSec. 
+When using an external channel, ensure that you follow GitLab's guidelines for external communication, including keeping information [SAFE](/handbook/legal/safe-framework/). External channels with no activity in the last year will be removed by CorpSec. 
 
 Steps:
 
