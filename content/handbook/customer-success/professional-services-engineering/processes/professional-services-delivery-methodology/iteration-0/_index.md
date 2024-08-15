@@ -43,3 +43,47 @@ Before we enter Project Kickoff, the goal is to confidently be on the same under
 * It is recommended to use GitLab for Iteration status reporting, but if the customer prefers a deck, please reference this [template.](https://docs.google.com/presentation/d/1jSc5vAID3DMMwojyZnAnOT0aKY2UwDfH2Si-XxEHjLU/edit#slide=id.g2e5808acdbf_0_252)
 
 output: prepared & scheduled Discovery & Planning sessions, and [Iteration Cadences](../iteration-scheduling/_index.md) are confirmed by the Customer
+
+## Prepare Support for Issues and Escalations
+
+To better support our engagement, we can proactively prepare the Support team by providing key project information in advance. This process enables us to pre-populate support tickets with relevant details when a customer opens them during the engagement. Throughout the engagement, product issues, bugs, or unexpected functionality may occur. Additionally, there could be corruption or environment issues on the customer’s side that were not initially scoped into the engagement, requiring involvement from Support or Product teams. By ensuring that pertinent data is readily available, we can streamline collaboration and resolve issues more efficiently as they arise. While this process is critical for any infrastructure-related project, such as implementations, it can also be valuable for other engagements where support issues may occur.
+
+### Getting Access to ZenDesk Ticket System
+
+If you do not have ZenDesk light (Read-Only) open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) requesting one.
+
+### Creating a ZenDesk Note for Support
+
+1. Find the relevant org `.yaml` find in the [Repository](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/tree/master/organizations) by [Searching](https://gitlab.com/search?search=&nav_source=navbar&project_id=27675679&group_id=78867384&search_code=true&repository_ref=master) for the Customer Name (It will be a hash, followed by the name in Salesforce).
+![image](Zen-search.png)
+
+1. Create a new Merge Request by Selecting the YAML from Search. Then `Edit > Open in Web IDE`
+![image](edit-yaml.png)
+
+1. Add the block below after details starting with a pipe "|" (this Character indicates a multi line entry). The fields should be spaced 1 tab from details.
+Include the details below and anything else that would be helpful for support to know when engaging the customer.
+
+   ```yaml
+   ---
+   id: 27946339528
+   name: 5a1f9965 Test Account
+   notes: This is a test note for a test account.
+   details: |
+      Project Manager:
+      Slack Channels:
+      Engineers:
+      Start Date:
+      Anticipated End Date:
+      Summary of Engagement:
+      Support should know:
+      Project Plan Link:
+   ```
+
+1. Commit your changes by clicking the Source Control Button (noted with 1 change) > The drop down arrow > Create new branch and commit.
+![image](newmr.jpg)
+
+1. Hit Enter to accept the default branch name (Should by a combination with your user name)
+
+1. Select the Create MR Button on the bottom right of the Web IDE.
+
+1. At the close of the project repeat this step, but remove the contents added after details.
