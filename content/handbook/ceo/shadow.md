@@ -130,7 +130,6 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ------- | --------- | -------------- | 
-| 2024-08-12 | 2024-08-16 | [Emily Plotkin](https://gitlab.com/emilyplotkin) - Senior Director, Legal - Employment | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
 | 2024-08-19 | 2024-08-23 | OPEN | [Emily Plotkin](https://gitlab.com/emilyplotkin) - Senior Director, Legal - Employment | REMOTE - PT - limited week (M-W)|
 | 2024-08-26 | 2024-08-30 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | OPEN | REMOTE - PT |
 | 2024-09-02 | 2024-09-06 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
@@ -830,4 +829,5 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) | Sr Director, ESG | |
 | 2024-07-15 | 2024-07-26 | [Kristine Setschin](https://gitlab.com/KSetschin) | Senior Manager Regional Marketing, EMEA | |
 | 2024-07-22 | 2024-08-02 | [Lesley Razzaghian](https://gitlab.com/lesley-r) | Backend Engineer | | 
-| 2024-07-29 | 2024-08-09 | [Gary Holtz](https://gitlab.com/garyh) | Senior Backend Engineer | |
+| 2024-07-29 | 2024-08-09 | [Gary Holtz](https://gitlab.com/garyh) | Senior Backend Engineer | || 2024-08-12 | 2024-08-16 | 
+|2024-08-05 |2024-08-16 | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
