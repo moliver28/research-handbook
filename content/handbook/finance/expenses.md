@@ -566,7 +566,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 ### VPN Subscription
 
-- Please read [Why We Don't Have A Corporate VPN](/handbook/security#why-we-dont-have-a-corporate-vpn), and check out our [Personal VPN]({{< ref "personal-vpn" >}}) page regarding usage at GitLab.
+- Please read [Why We Don't Have A Corporate VPN](/handbook/security/product-security/architecture/zero-trust/#why-we-dont-have-a-corporate-vpn), and check out our [Personal VPN]({{< ref "personal-vpn" >}}) page regarding usage at GitLab.
 - Policy is set at $150 per year.
 - Yearly subscription can be submitted in one claim.
 - Monthly subscriptions to be submitted monthly.
