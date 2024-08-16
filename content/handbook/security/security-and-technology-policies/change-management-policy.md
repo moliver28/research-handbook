@@ -1,7 +1,5 @@
 ---
 title: "Change Management Policy"
-aliases:
-- /handbook/security/change-management-policy
 ---
 
 ## Purpose
