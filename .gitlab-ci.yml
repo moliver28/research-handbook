@@ -156,7 +156,7 @@ build:
     variables:
       PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
       ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
-      HUGO_BASE_URL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+      HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
 
 ###################################
 #
@@ -171,10 +171,10 @@ pages:
     # tracking DORA deployment frequency
     name: $ENVIRONMENT
     deployment_tier: production
-    url: $HUGO_BASE_URL
+    url: $HUGO_BASEURL
   variables:
     ENVIRONMENT: production
-    HUGO_BASE_URL: https://handbook.gitlab.com/
+    HUGO_BASEURL: https://handbook.gitlab.com/
     GIT_STRATEGY: none
   pages:
     path_prefix: "$PAGES_PREFIX"
@@ -190,12 +190,12 @@ pages:
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'mr/$CI_MERGE_REQUEST_IID'
-        HUGO_BASE_URL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
     - <<: *merge-request-only
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'mr/$CI_MERGE_REQUEST_IID'
-        HUGO_BASE_URL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
       when: manual
       allow_failure: true
 
