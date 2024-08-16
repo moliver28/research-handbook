@@ -381,7 +381,6 @@ Commercial SA team meetings are held on a regular basis to ensure alignment, sha
    - Duration: 25 minutes
    - Purpose: Quick check-in to discuss workload, ongoing tasks, blockers, priorities for the week, and triage any open SA Requests
 
-
 All team meetings are facilitated to be asynchronous friendly. Therefore, all meetings are recorded and shared with the team. Team members are expected to attend these meetings regularly, or review and contribute to the discussions and share relevant information asynchronously
 
 
@@ -400,7 +399,6 @@ To best support our customers, consider the following:
 - Dashboards - Open Requests and Key Metrics by Geo
    - [COMM AMER SA Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000011ihZ2AQ/view)
    - [COMM EMEA SA Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000012gc52AA/view)
-[Commercial Solutions Architect Triage Board](https://gitlab.com/gitlab-com/customer-success/sa-triage-boards/commercial-triage/-/boards/3487724) - Used to track Solutions Architect requests for SMB and Mid-Market companies.
 - [Solutions Architect GitLab Group](https://gitlab.com/gitlab-com/customer-success/solutions-architecture) - Used to share things across Solutions Architects such as links to demos, snippets, training, etc.
 - [Customer Success Tools](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools) - Used to store customer success automation and migration tools.
 - [Commercial SA Initiatives](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/initiatives/)- Initiatives specific for Commercial Solutions Architecture Organization.
