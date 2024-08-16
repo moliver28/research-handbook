@@ -234,45 +234,6 @@ Solutions Architects are required to fill out in their judgment on all opportuni
 
 Live Optimization sessions are one-time post-sales activities session conducted 1-2 months after a closed deal by a Commercial Solutions Architect in order to support and 'fine tune' net new SMB customers' adoption of GitLab. Read more on the process in the [SMB Sales Handbook](/handbook/sales/commercial/smb/live-optimization/).
 
-## SA Circles
-
-The Commercial Solutions Architecture team leverages SA Circles for two primary reasons:
-
-- Circles accelerate our learning, as pre-sales professionals, with increased exposure and understanding of deals as they are in an active pre-sales cycle. This acceleration helps us get more immediate feedback to change direction, or ideas to enhance the positioning that has already occurred.
-- Circles normalize opportunity distribution. Ensure that some team members are not getting overloaded and burnt out, with the potential for other team members to sit with an empty queue, and perhaps under pressure to just 'grab anything that comes'
-
-### Guiding Principles
-
-The guiding principles of circles
-
-#### **Diversity, Inclusion, Belonging** drives **Collaboration**
-
-- No one member is 'in charge' of a circle, as they will still report to regional managers. SA Circles are meant to be working groups of peers.
-- Circles reflect a diversity of seniority levels. The key benefit of a circle is receiving different points of views, and giving everyone opportunities for new learning experiences.
-- Circles support a combination of SMB, MM and Strategic AEs
-
-#### Focus is on **Efficiency** and Collective **Results**
-
-- Strategically important opportunities that have been identified within an SA Circle ought to have increased awareness and focus from the more senior-level SAs. Segment-Specific Engagement Alignment will be a primary tool to indicate what is strategic but may deviate.
-- Success of an SA Circle is viewed from a team success perspective, not individual SA success
-- SA Circles have autonomy to manage their individual triage process, while being encouraged to share their learnings to the other SA Circles
-
-#### Results-Focused and Collaboration fuels **Iteration** and **Transparency**
-
-- Experimentation within a cirlce is encouraged!
-- SA Circles will focus on being open about how work is triaged and performed.
-- Iteration will help ensure that we find ways to be proactive in a function that can stagnate when it is only reactive
-
-### SA Circle Experimentation
-
-When a team decides to [run an experiment](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/issues/new?issuable_template=Initiative&issue%5Btitle%5D=FY24-Q1%20-%20Circle%20Experiment%20-%20NAME_OF_EXPERIMENT%20-%20Commercial%20SA%20Initiative) for a given circle, it should be done in a way that is FAST:
-
-That is to say, every experiment should have:
-
-- **F**requent Discussions that help keep the experiment top of mind for the circle. Discussions should happen as much as possible within its respective issue.
-- **A**mbitious Scope with all-circle buy-in. Every team member within the circle should commit to putting serious effort into measuring an experiment's success.
-- **S**pecific Milestones that timebox the experiment and help keep it on track. Experiments should not be tested within a single quarter.
-- **T**ransparency across all circles so that others can watch the experiment in action. This can be done in the form of an issue.
 
 ## Commercial SA Processes
 
