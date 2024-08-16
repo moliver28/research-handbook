@@ -224,7 +224,7 @@ Avoid using these Slack channels for cases that require technical discovery and 
 With the continuous iteration and releases of GitLab, it's important to stay up to date on the newest capabilities while staying sharp on existing use-cases to best serve customers.
 The Commercial Demo Jam serves as a safe forum for the Commercial SA team to practice demoing features, discuss potential customer objections, and articulate value through storytelling.
 
-*Structure*
+**Structure**:
 
 - Demo Jams are hosted twice a quarter as a part of Global Bi-Weekly Meeting as a 15-25 minutes secondary agenda
 - Each session should consistes of a ~5 minutes demo (recorded or live) and ~5 minutes for team feedback/discussion.
@@ -234,7 +234,7 @@ The Commercial Demo Jam serves as a safe forum for the Commercial SA team to pra
 
 Commercial SA team recognizes [Peer Review sessions](/handbook/solutions-architects/sa-practices/deliberate-practice/#peer-reviews) as a key activity in elevating the quality of pre-sales efforts, fostering collaboration, promoting continuous learning, and ultimately increasing the chances of successful client engagements.
 
-*Structure*
+**Structure**:
 
 - Peer Reviews are hosted twice a quarter as a part of Global Bi-Weekly Meeting as a 15-25 minutes secondary agenda
 - Duration: 25 minutes (assuming two presenters)
