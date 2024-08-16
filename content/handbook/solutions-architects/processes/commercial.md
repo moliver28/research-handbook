@@ -322,9 +322,9 @@ Quarterly review of wins and losses to identify patterns and things we can do to
 
 Commercial SA team meetings are held on a regular basis to ensure alignment, share knowledge, and discuss important topics. The following meetings are part of the Commercial SA team's schedule:
 
-### 1. Bi-Weekly Global Team Meeting
+### Global Team Meeting
 
-- Frequency: Every other Monday
+- Frequency: Bi-Weekly, every other Monday
 - Duration: 50 minutes
 - Purpose: Discuss global initiatives, share best practices, and align on cross-regional topics
 - Second half of the Global Team Meeting is dedicated to specific topics:
@@ -334,9 +334,9 @@ Commercial SA team meetings are held on a regular basis to ensure alignment, sha
   - Team Retrospective (last week of a quarter)
   - Open Topic (once a quarter)
 
-### 2. Bi-Weekly Geo Team Sync (EMEA or AMER)
+### Regional Team Meeting (EMEA or AMER)
 
-- Frequency: Every other Monday
+- Frequency: Bi-Weekly, every other Monday
 - AMER
   - Duration: 25 minutes
   - Purpose: Connect as a team, discuss any ongoing initiatives, share updates, provide feedack, foster open discussions
@@ -344,13 +344,13 @@ Commercial SA team meetings are held on a regular basis to ensure alignment, sha
   - Duration: 50 minutes
   - Purpose: Connect as a team, discuss any ongoing initiatives, regional priorities, share updates, and address any pressing issues
 
-### 3. Manager Sync
+### Manager Sync
  
 - Frequency: Weekly
 - Duration: 25 minutes
 - Purpose: Discuss team performance, address any challenges, and align on priorities for the upcoming weeks, months, quarters
 
-### 4. Weekly Standups
+### Weekly Standups
 
 - Frequency: Weekly
 - Duration: 25 minutes
@@ -363,10 +363,11 @@ All team meetings are facilitated to be asynchronous friendly. Therefore, all me
 Commercial SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/people-group/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time.
 To best support our customers, consider the following:
 
-- Create a [PTO coverage issue](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/announcements/-/issues/new?issuable_template=PTO) A PTO coverage issue may not always be required but here are a couple guiding examples on when to create one:
+1. Create a [PTO coverage issue](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/announcements/-/issues/new?issuable_template=PTO) A PTO coverage issue may not always be required but here are a couple guiding examples on when to create one:
   - Customers are running an active trial and may need technical guidance.
   - Leaving for more than 2 weeks and need to distribute the workload across the team.
-- Announce your time off to your team and, share the PTO Coverage issue link, and communicate any expected coverage requirements.
+
+2. Announce your time off to your team and, share the PTO Coverage issue link, and communicate any expected coverage requirements.
 
 ## Team Links
 
