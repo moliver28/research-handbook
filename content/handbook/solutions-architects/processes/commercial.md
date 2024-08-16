@@ -121,7 +121,7 @@ There are often 'what-if' scenarios when an SA evaluates an incoming lead. These
 
 ### Expectations when working with an SA
 
-#### Meeting Expectations
+#### Running Meetings
 
 - All meetings should be planned with clear desired outcomes available to the SA
   - Why does the prospect want to meet with us?
@@ -133,16 +133,6 @@ There are often 'what-if' scenarios when an SA evaluates an incoming lead. These
   - Technical Deep Dives are used to show off a very specific function or capability within GitLab's product.
   - Reverse AMAs where the SAs evaluate the customer environment and provide recommendations on ways to more effectively use GitLab.
 
-#### Async Slack support
-
-In some cases SA support might be required in early stage or not fully qualified opportunities. Slack can be used for answering narrowlly-scoped technical questions, providing additional customer outreach materials or helping an Account Executive with a narrowly-scoped customer inquiry. These requests can be served asynchronously via Slack:
-
-- AMER: `#cs-commercial-amer-support`
-- EMEA: `#cs-commercial-emea-support`
-
-These Slack channels are considered to be a safe harbor for all Commercial AE <-> SA communication. When asking questions, please ensure you always provide as much context as possible; including the SFDC URL, and type of subscription (SaaS or Self-Managed). Solutions Architecture will monitor and provide best effort support on these requests.
-Avoid using these Slack channels for cases that require technical discovery and solutioning. These have to be handled via standard SA Request process.
-
 #### Post-Sales Engagement
 
 As an opportunity enters into either the [Negotiating or Awaiting Signature](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) stage, the Solutions Architect and Account Executive ought to begin introducing the customer to a Customer Success Manager following the [Commercial CSM Transition Process](/handbook/customer-success/pre-sales-post-sales-transition/#commercial-csm-transition-process).
@@ -150,6 +140,35 @@ As an opportunity enters into either the [Negotiating or Awaiting Signature](/ha
 Solutions Architects ought to be primarily engaged with accounts that have active opportunities in Salesforce.  When we work with customers, it's easy to build a trusted advisor relationship with them that persists past the end of the sale.  In these cases, SAs must use their judgment in determining when to redirect a customer to the proper support channel for follow-up questions.
 
 Below are a few example responses an SA can provide customers that reach out for help after a deal closes. Please leverage your personal connection to them and their company to customize these as you see fit.
+
+##### Accounts without a Customer Success Manager
+
+> Thanks for reaching out!
+>
+> In order to best direct your question and provide you a timely response, can you submit a support ticket with our support team? Additionally, I have copied your Account Executive as they can help escalate your request if necessary. Below are some links to get started with GitLab support.
+>
+> I thoroughly enjoyed getting a chance to work with you and role is primarily focused on our customers that are involved in pre-sales engagements; and being a person of one, I don't want to be a bottleneck to you getting a response.
+>
+> You can go to [support.gitlab.com](https://support.gitlab.com/hc/en-us/requests/new) and submit a new request. Please use your company email address and an account and password will be created for you. There are more details regarding [reaching out to support](https://about.gitlab.com/support/#first-time-reaching-suppor).
+
+##### Accounts with a Customer Success Manager
+
+> Thanks for reaching out!
+>
+> In order to best direct your question and provide you a timely response, can you submit a support ticket with our support team? Additionally, I have copied your Customer Success Manager and Account Executive, as well, as they can help escalate your request if necessary. Below are some links to get started with GitLab support.
+>
+> I thoroughly enjoyed getting a chance to work with you and role is primarily focused on our customers that are involved in pre-sales engagements; and being a person of one, I don't want to be a bottleneck to you getting a response.
+>
+> You can go to [support.gitlab.com](https://support.gitlab.com/hc/en-us/requests/new) and submit a new request. Please use your company email address and an account and password will be created for you. There are more details regarding [reaching out to support](https://about.gitlab.com/support/#first-time-reaching-suppor).
+
+**Below are some additional items you can share with the customer.**
+
+- Search GitLab documentation and issues with these pro [tips](/handbook/tools-and-tips/searching/)!
+- If you do not find a proposed feature in the [GitLab issues list](https://gitlab.com/gitlab-org/gitlab/-/issues), please [contribute an idea](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20proposal%20-%20detailed&issue[title]=Docs%20feedback%20-%20feature%20proposal:%20Write%20your%20title) to our product team to improve the community's experience!
+- [GitLab Documentation](https://docs.gitlab.com/) covering How-Tos for Installation and Day-to-Day usage.
+- GitLab is fortunate enough to have a strong community of contributors where you can search for ideas and issues within the GitLab [Forum](https://forum.gitlab.com/) or moderated [subreddit](https://www.reddit.com/r/gitlab/).
+- With transparency being a value of ours, we strive to push content daily to both the [GitLab Youtube](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg) and [GitLab Unfiltered Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A). You will find How-Tos and Daily Engineering conversations in these channels.
+- If you need engineering assistance, please [create a support ticket](https://support.gitlab.com/hc/en-us). Your team has ["Standard Support"](https://about.gitlab.com/support/#standard-support) which means "Next Day" or 24-hour support Monday thru Friday.
 
 #### On-site Engagement
 
@@ -188,36 +207,41 @@ To facilitate the review process, the following information should be provided b
 
 This review process aims to help ensure on-site engagements have the highest level of professionalism and that they deliver the intended value to the customer.
 
-##### Accounts without a Customer Success Manager
+## Commercial SA Processes
 
-> Thanks for reaching out!
->
-> In order to best direct your question and provide you a timely response, can you submit a support ticket with our support team? Additionally, I have copied your Account Executive as they can help escalate your request if necessary. Below are some links to get started with GitLab support.
->
-> I thoroughly enjoyed getting a chance to work with you and role is primarily focused on our customers that are involved in pre-sales engagements; and being a person of one, I don't want to be a bottleneck to you getting a response.
->
-> You can go to [support.gitlab.com](https://support.gitlab.com/hc/en-us/requests/new) and submit a new request. Please use your company email address and an account and password will be created for you. There are more details regarding [reaching out to support](https://about.gitlab.com/support/#first-time-reaching-suppor).
+### Async Slack support
 
-##### Accounts with a Customer Success Manager
+In some cases SA support might be required in early stage or not fully qualified opportunities. Slack can be used for answering narrowlly-scoped technical questions, providing additional customer outreach materials or helping an Account Executive with a narrowly-scoped customer inquiry. These requests can be served asynchronously via Slack:
 
-> Thanks for reaching out!
->
-> In order to best direct your question and provide you a timely response, can you submit a support ticket with our support team? Additionally, I have copied your Customer Success Manager and Account Executive, as well, as they can help escalate your request if necessary. Below are some links to get started with GitLab support.
->
-> I thoroughly enjoyed getting a chance to work with you and role is primarily focused on our customers that are involved in pre-sales engagements; and being a person of one, I don't want to be a bottleneck to you getting a response.
->
-> You can go to [support.gitlab.com](https://support.gitlab.com/hc/en-us/requests/new) and submit a new request. Please use your company email address and an account and password will be created for you. There are more details regarding [reaching out to support](https://about.gitlab.com/support/#first-time-reaching-suppor).
+- AMER: `#cs-commercial-amer-support`
+- EMEA: `#cs-commercial-emea-support`
 
-**Below are some additional items you can share with the customer.**
+These Slack channels are considered to be a safe harbor for all Commercial AE <-> SA communication. When asking questions, please ensure you always provide as much context as possible; including the SFDC URL, and type of subscription (SaaS or Self-Managed). Solutions Architecture will monitor and provide best effort support on these requests.
+Avoid using these Slack channels for cases that require technical discovery and solutioning. These have to be handled via standard SA Request process.
 
-- Search GitLab documentation and issues with these pro [tips](/handbook/tools-and-tips/searching/)!
-- If you do not find a proposed feature in the [GitLab issues list](https://gitlab.com/gitlab-org/gitlab/-/issues), please [contribute an idea](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20proposal%20-%20detailed&issue[title]=Docs%20feedback%20-%20feature%20proposal:%20Write%20your%20title) to our product team to improve the community's experience!
-- [GitLab Documentation](https://docs.gitlab.com/) covering How-Tos for Installation and Day-to-Day usage.
-- GitLab is fortunate enough to have a strong community of contributors where you can search for ideas and issues within the GitLab [Forum](https://forum.gitlab.com/) or moderated [subreddit](https://www.reddit.com/r/gitlab/).
-- With transparency being a value of ours, we strive to push content daily to both the [GitLab Youtube](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg) and [GitLab Unfiltered Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A). You will find How-Tos and Daily Engineering conversations in these channels.
-- If you need engineering assistance, please [create a support ticket](https://support.gitlab.com/hc/en-us). Your team has ["Standard Support"](https://about.gitlab.com/support/#standard-support) which means "Next Day" or 24-hour support Monday thru Friday.
+### Demo Jam
 
-#### Solutions Architect Judgment Indicator
+With the continuous iteration and releases of GitLab, it's important to stay up to date on the newest capabilities while staying sharp on existing use-cases to best serve customers.
+The Commercial Demo Jam serves as a safe forum for the Commercial SA team to practice demoing features, discuss potential customer objections, and articulate value through storytelling.
+
+*Structure*
+
+- Demo Jams are hosted twice a quarter as a part of Global Bi-Weekly Meeting as a 15-25 minutes secondary agenda
+- Each session should consistes of a ~5 minutes demo (recorded or live) and ~5 minutes for team feedback/discussion.
+- Recordings are published to the [Solutions Architecture playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Ko87g05LlHroe7eLPzCPJUY) on GitLab Unfiltered.
+
+### Peer Review
+
+Commercial SA team recognizes [Peer Review sessions](/handbook/solutions-architects/sa-practices/deliberate-practice/#peer-reviews) as a key activity in elevating the quality of pre-sales efforts, fostering collaboration, promoting continuous learning, and ultimately increasing the chances of successful client engagements.
+
+*Structure*
+
+- Peer Reviews are hosted twice a quarter as a part of Global Bi-Weekly Meeting as a 15-25 minutes secondary agenda
+- Duration: 25 minutes (assuming two presenters)
+- Two opportunities are reviewed during the session (10 minutes each)
+- Outcomes are documented and are stored in [Commercial SA / Reviews & Retros](https://drive.google.com/drive/folders/1Ye6Ks5aHMhVFEsDXbqvglzJMI4Kb_S5s)
+
+### Solutions Architect Judgment Indicator
 
 The Solutions Architect Judgment Indicator (SA Judgment) is a metric used to assess the technical perception and feedback regarding current opportunities. It aids in making informed decisions and effectively managing sales pipelines. This indicator enhances the precision of forecasting by providing a means to validate AE judgment based on the technical seller's assumptions. It also facilitates discussions during deal reviews and pipeline analysis by highlighting potential misalignments more easily.
 
@@ -246,30 +270,6 @@ Solutions Architects are required to fill out in their judgment on all opportuni
 - Net ARR >$50K
 - Stage: 3+ (potentially 2+)
 
-## Commercial SA Processes
-
-### Commercial Demo Jam
-
-With the continuous iteration and releases of GitLab, it's important to stay up to date on the newest capabilities while staying sharp on existing use-cases to best serve customers.
-The Commercial Demo Jam serves as a safe forum for the Commercial SA team to practice demoing features, discuss potential customer objections, and articulate value through storytelling.
-
-#### Structure
-
-- Demo Jams are hosted twice a quarter as a part of Global Bi-Weekly Meeting as a 15-25 minutes secondary agenda
-- Each session should consistes of a ~5 minutes demo (recorded or live) and ~5 minutes for team feedback/discussion.
-- Recordings are published to the [Solutions Architecture playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Ko87g05LlHroe7eLPzCPJUY) on GitLab Unfiltered.
-
-### Commercial SA Peer Review
-
-Commercial SA team recognizes [Peer Review sessions](/handbook/solutions-architects/sa-practices/deliberate-practice/#peer-reviews) as a key activity in elevating the quality of pre-sales efforts, fostering collaboration, promoting continuous learning, and ultimately increasing the chances of successful client engagements.
-
-#### Structure
-
-- Peer Reviews are hosted twice a quarter as a part of Global Bi-Weekly Meeting as a 15-25 minutes secondary agenda
-- Duration: 25 minutes (assuming two presenters)
-- Two opportunities are reviewed during the session (10 minutes each)
-- Outcomes are documented and are stored in [Commercial SA / Reviews & Retros](https://drive.google.com/drive/folders/1Ye6Ks5aHMhVFEsDXbqvglzJMI4Kb_S5s)
-
 ### 5-Minute Demo Framework
 
 The 5-Minute Demo Framework is a method to quickly produce technical content that is easy to consume for the customer. The intent of the framework is to rapidly develop tutorials while also generating value-packed content for the customer to consume. This content can range from videos, blog posts, or tutorials. As a result of building and sharing out bit-sized videos, the Commercial SA team can scale out our reach to a broader technical audience. Moreover, as the content compounds, the Account Executive teams will have a bank of content to share asynchronously to customers used to deliver value to customers efficiently.
@@ -297,7 +297,7 @@ The 5-Minute Demo Framework is a method to quickly produce technical content tha
 
 ##### Practice and review
 
-- If you produce a video and are requesting feedback, feel free to add it to the [Demo Jam](#commercial-demo-jam) agenda. An alternative is to record it and share it asynchronously in #cs_mm_sa slack channel for feedback.
+- If you produce a video and are requesting feedback, feel free to add it to the [Demo Jam](#demo-jam) agenda. An alternative is to record it and share it asynchronously in #cs_mm_sa slack channel for feedback.
 
 ### Commercial SA Win/Lost Retro
 
@@ -328,8 +328,8 @@ Commercial SA team meetings are held on a regular basis to ensure alignment, sha
 - Duration: 50 minutes
 - Purpose: Discuss global initiatives, share best practices, and align on cross-regional topics
 - Second half of the Global Team Meeting is dedicated to specific topics:
-  - [Commercial Demo Jam](#commercial-demo-jam) (twice a quarter)
-  - [Commercial SA Peer Review](#commercial-sa-peer-review) (twice a quarter)
+  - [Commercial Demo Jam](#demo-jam) (twice a quarter)
+  - [Commercial SA Peer Review](#peer-review) (twice a quarter)
   - Strategy (once a quarter)
   - Team Retrospective (last week of a quarter)
   - Open Topic (once a quarter)
