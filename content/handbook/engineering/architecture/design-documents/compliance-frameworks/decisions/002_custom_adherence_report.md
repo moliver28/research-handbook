@@ -185,7 +185,8 @@ requirements.
 1. Similar to the previous approaches, we would still be storing results for all the compliance adherence checks for
 ultimate projects, irrespective of the frameworks applied to that project, however, we would only display the results
 of checks for the projects that have compliance frameworks applied with requirements configured at the compliance
-standards adherence dashboard.
+standards adherence dashboard. This means there is no need for a relationship between `compliance_checks` and
+`project_compliance_standards_adherence` database tables.
 1. In the next iteration we would also allow importing and exporting the compliance adherence report configurations.
 
 ## Decision
