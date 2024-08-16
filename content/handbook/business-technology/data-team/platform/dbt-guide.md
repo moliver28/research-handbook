@@ -151,6 +151,8 @@ To clone and build all of the changed models in the local development space the 
 ╰─$ make build-changes DOWNSTREAM="+1" FULL_REFRESH="True" TARGET="dev_xl" VARS="key":"value" EXCLUDE="test_model" 
 ```
 
+[Video Introduction](https://youtu.be/0WiljW6Bihw)
+
 #### SQLFluff linter
 
 We use SQLFluff to enforce [SQL style guide](/handbook/business-technology/data-team/platform/sql-style-guide/) on our code. In addition to the methods for executing the linter found in the documentation, when in the dbt virtual environment the `make lint-models` can be used.  By default the `lint-models` process will lint all changed sql files, but the `MODEL` variable can be used to lint a specif sql file and the `FIX` variable can be used to run the linters fix command that will make changes to the sql file.
@@ -164,6 +166,8 @@ sqlfluff lint models/workspaces/workspace_data/mock/data_type_mock_table.sql
 ╰─$ make lint-models FIX="True" MODEL="dim_date"  
 sqlfluff fix ./models/common/dimensions_shared/dim_date.sql
 ```
+
+[Video Introduction](https://youtu.be/MwVJHf7XvrI)
 
 #### Cloning models locally
 
