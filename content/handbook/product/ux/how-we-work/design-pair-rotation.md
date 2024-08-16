@@ -25,29 +25,25 @@ Collaborating on key activities offers a unique opportunity to broaden your know
 
 ### Schedule
 
-This is the rotation schedule for FY25-Q1 and Q2 (2024-02-01 until 2024-07-31).
+This is the rotation schedule for FY25-Q3 and Q4 (2024-08-01 until 2025-01-31).
 
 <!-- TIP: To update the table below, create the schedule in a temporary spreadsheet, and then copy/paste the rows into an online markdown generator (https://www.google.com/search?q=copy-table-in-excel-and-paste-as-a-markdown-table) -->
 
-| Designer               | Design Pair                |
-|------------------------|----------------------------|
-| Michael Le             | Katie Macoy                |
-| Alex Fracazo           | Bonnie Tsang               |
-| Timothy Noah           | Annabel Gray               |
-| Julia Miocene          | Graham Bachelder           |
-| Veethika Mishra        | Chad Lavimoniere           |
-| Dan Mizzi-Harris       | Camellia Yang              |
-| Sunjung Park           | Sascha Eggenberger         |
-| Mike Nichols           | Taylor Vanderhelm          |
-| Amelia Bauerly         | Becka Lippert              |
-| Emily Bauman           | Austin Regnery             |
-| Ilonah Pelaez          | Gina Doyle                 |
-| Michael Fangman        | Jeremy Elder               |
-| Nick Leonard           | Divya Alagarsamy           |
-| Nick Brandt            | Ian Gloude                 |
-
-### Temporary pairing
-
-| Designer               | Design Pair                |
-|------------------------|----------------------------|
-| Pedro Moreira da Silva | Nicolle Merrill            |
+| Designer          | Design Pair            |
+|-------------------|------------------------|
+| Libor Vanc        | Emily Bauman           |
+| Amelia Bauerly    | Chad Lavimoniere       |
+| Graham Bachelder  | Annabel Gray           |
+| Nicolle Merrill   | Nick Brandt            |
+| Alyssa Trinh      | Mike Nichols           |
+| Taylor Vanderhelm | Jeremy Elder           |
+| Lina Fowler       | Becka Lippert          |
+| Ian Gloude        | Michael Fangman        |
+| Nick Leonard      | Austin Regnery         |
+| Gina Doyle        | Timothy Noah           |
+| Ilonah Pelaez     | Katie Macoy            |
+| Veethika Mishra   | Pedro Moreira da Silva |
+| Dan Mizzi-Harris  | Julia Miocene          |
+| Camellia Yang     | Sascha Eggenberger     |
+| Sunjung Park      | Alex Fracazo           |
+| Bonnie Tsang      | Michael Le             |
