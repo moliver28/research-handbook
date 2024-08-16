@@ -57,7 +57,7 @@ The Commercial SA Triage Process is a structured approach to managing and priori
 
 4. Assignment:
    - Based on the evaluation, the request is assigned to an available SA with the appropriate skills and capacity.
-   - Assignment is done collaboratively within the SA Circle, prioritizing "two pairs of eyes" principle.
+   - Assignment is done collaboratively within the SA Team, prioritizing "two pairs of eyes" principle.
 
 5. Prioritization:
    - Requests are prioritized based on factors such as deal size, strategic importance, and urgency.
