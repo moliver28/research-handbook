@@ -32,11 +32,12 @@ We will follow our parent department [Engineering](/handbook/engineering/#divers
 
 ## Organizational responsibilities
 
-The development team is responsible for developing products in the following categories:
+The Expansion department includes the following sub-departments and groups:
 
-- [Sec](/handbook/engineering/development/sec/)
-- [Govern](/handbook/engineering/development/govern/)
+- [Secure](/handbook/engineering/development/sec/secure/)
+- [Govern](/handbook/engineering/development/sec/govern/)
 - [Fulfillment](/handbook/engineering/development/fulfillment/)
+- [Growth](/handbook/engineering/development/growth/)
 
 ## Team Members
 
