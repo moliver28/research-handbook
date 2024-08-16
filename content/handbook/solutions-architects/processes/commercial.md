@@ -274,7 +274,29 @@ That is to say, every experiment should have:
 - **S**pecific Milestones that timebox the experiment and help keep it on track. Experiments should not be tested within a single quarter.
 - **T**ransparency across all circles so that others can watch the experiment in action. This can be done in the form of an issue.
 
-## SA Initiatives
+## Commercial SA Processes
+
+### Commercial Demo Jam
+
+With the continuous iteration and releases of GitLab, it's important to stay up to date on the newest capabilities while staying sharp on existing use-cases to best serve customers.
+The Commercial Demo Jam serves as a safe forum for the Commercial SA team to practice demoing features, discuss potential customer objections, and articulate value through storytelling.
+
+#### Structure
+
+- Demo Jams are hosted twice a quarter as a part of Global Bi-Weekly Meeting as a 15-25 minutes secondary agenda
+- Each session should consistes of a ~5 minutes demo (recorded or live) and ~5 minutes for team feedback/discussion.
+- Recordings are published to the [Solutions Architecture playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Ko87g05LlHroe7eLPzCPJUY) on GitLab Unfiltered.
+
+### Commercial SA Peer Review
+
+Commercial SA team recognizes [Peer Review sessions](/handbook/solutions-architects/sa-practices/deliberate-practice/#peer-reviews) as a key activity in elevating the quality of pre-sales efforts, fostering collaboration, promoting continuous learning, and ultimately increasing the chances of successful client engagements.
+
+#### Structure
+
+- Peer Reviews are hosted twice a quarter as a part of Global Bi-Weekly Meeting as a 15-25 minutes secondary agenda
+- Duration: 25 minutes (assuming two presenters)
+- Two opportunities are reviewed during the session (10 minutes each)
+- Outcomes are documented and are stored in [Commercial SA / Reviews & Retros](https://drive.google.com/drive/folders/1Ye6Ks5aHMhVFEsDXbqvglzJMI4Kb_S5s)
 
 ### 5-Minute Demo Framework
 
@@ -305,19 +327,6 @@ The 5-Minute Demo Framework is a method to quickly produce technical content tha
 
 - If you produce a video and are requesting feedback, feel free to add it to the [Demo Jam](#commercial-demo-jam) agenda. An alternative is to record it and share it asynchronously in #cs_mm_sa slack channel for feedback.
 
-### Commercial Demo Jam
-
-With the continuous iteration and releases of GitLab, it's important to stay up to date on the newest capabilities while staying sharp on existing use-cases to best serve customers.
-The Commercial Demo Jam serves as a safe forum for the Commercial SA team to practice demoing features, discuss potential customer objections, and articulate value through storytelling.
-
-#### Structure
-
-- Demo Jams are hosted every two weeks and the Wheel of Names is used to randomly select a team member.
-- This is a 25 minute meeting with two presenters.
-- Each presentation has ~5 minutes to present and ~5 minutes for feedback/discussion.
-- List of all previous sessions (including links to recordings) can be found in [Commercial Demo Jam document](https://docs.google.com/document/d/1m-iZKHSnDOD1xfpbut1GkXJPnpHDFgxZCRm7HNtUf-E/edit)
-- Recordings are published to the [Solutions Architecture playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Ko87g05LlHroe7eLPzCPJUY) on GitLab Unfiltered.
-
 ### Commercial SA Win/Lost Retro
 
 Quarterly review of wins and losses to identify patterns and things we can do to keep winning, prevent losses, and improve GitLab as a product. Encourage everyone to try to add at least one thing.
@@ -337,26 +346,54 @@ Quarterly review of wins and losses to identify patterns and things we can do to
   - 00:20 - 00:35 - Review Losses
   - 00:35 - 00:50 - Review Action Items
 
-### Commercial SA Peer Review
 
-Commercial SA team holds [Peer Review sessions](/handbook/solutions-architects/sa-practices/deliberate-practice/#peer-reviews) every two weeks as a key activity in elevating the quality of pre-sales efforts, fostering collaboration, promoting continuous learning, and ultimately increasing the chances of successful client engagements.
+## Team Meetings
 
-#### Structure
+Commercial SA team meetings are held on a regular basis to ensure alignment, share knowledge, and discuss important topics. The following meetings are part of the Commercial SA team's schedule:
 
-- Peer Reviews are hosted every two weeks
-- Duration: 25 minutes (assuming two presenters)
-- Two opportunities are reviewed during the session (10 minutes each)
-- Outcomes are documented and are stored in [Commercial SA / Reviews & Retros](https://drive.google.com/drive/folders/1Ye6Ks5aHMhVFEsDXbqvglzJMI4Kb_S5s)
+### 1. Bi-Weekly Global Team Meeting
+   - Frequency: Every other Monday
+   - Duration: 50 minutes
+   - Purpose: Discuss global initiatives, share best practices, and align on cross-regional topics
+   - Second half of the Global Team Meeting is dedicated to specific topics:
+      - [Commercial Demo Jam](#commercial-demo-jam) (twice a quarter)
+      - [Commercial SA Peer Review](#commercial-sa-peer-review) (twice a quarter)
+      - Strategy (once a quarter)
+      - Team Retrospective (last week of a quarter)
+      - Open Topic (once a quarter)
+
+### 2. Bi-Weekly Geo Team Sync (EMEA or AMER)
+   - Frequency: Every other Monday
+   - AMER
+      - Duration: 25 minutes
+      - Purpose: Connect as a team, discuss any ongoing initiatives, share updates, provide feedack, foster open discussions
+   - EMEA
+      - Duration: 50 minutes
+      - Purpose: Connect as a team, discuss any ongoing initiatives, regional priorities, share updates, and address any pressing issues
+
+### 3. Manager Sync
+   - Frequency: Weekly
+   - Duration: 25 minutes
+   - Purpose: Discuss team performance, address any challenges, and align on priorities for the upcoming weeks, months, quarters
+
+### 4. Weekly Standups
+   - Frequency: Weekly
+   - Duration: 25 minutes
+   - Purpose: Quick check-in to discuss workload, ongoing tasks, blockers, priorities for the week, and triage any open SA Requests
+
+
+All team meetings are facilitated to be asynchronous friendly. Therefore, all meetings are recorded and shared with the team. Team members are expected to attend these meetings regularly, or review and contribute to the discussions and share relevant information asynchronously
+
 
 ## Paid Time Off
 
 Commercial SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/people-group/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time.
 To best support our customers, consider the following:
 
-1. Communicate your time off within your circle in case of coverage.
-2. Create a [PTO coverage issue](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/announcements/-/issues/new?issuable_template=PTO) A PTO coverage issue may not always be required but here are a couple guiding examples on when to create one:
+1. Create a [PTO coverage issue](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/announcements/-/issues/new?issuable_template=PTO) A PTO coverage issue may not always be required but here are a couple guiding examples on when to create one:
    - Customers are running an active trial and may need technical guidance.
    - Leaving for more than 2 weeks and need to distribute the workload across the team.
+2. Announce your time off to your team and, share the PTO Coverage issue link, and communicate any expected coverage requirements.
 
 ## Team Links
 
