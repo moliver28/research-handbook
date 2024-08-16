@@ -360,11 +360,15 @@ To best support our customers, consider the following:
 
 ## Team Links
 
-- [Commercial Solutions Architect Triage Board](https://gitlab.com/gitlab-com/customer-success/sa-triage-boards/commercial-triage/-/boards/3487724) - Used to track Solutions Architect requests for SMB and Mid-Market companies.
+- Dashboards - Open Requests and Key Metrics by Geo
+   - [COMM AMER SA Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000011ihZ2AQ/view)
+   - [COMM EMEA SA Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000012gc52AA/view)
+[Commercial Solutions Architect Triage Board](https://gitlab.com/gitlab-com/customer-success/sa-triage-boards/commercial-triage/-/boards/3487724) - Used to track Solutions Architect requests for SMB and Mid-Market companies.
 - [Solutions Architect GitLab Group](https://gitlab.com/gitlab-com/customer-success/solutions-architecture) - Used to share things across Solutions Architects such as links to demos, snippets, training, etc.
 - [Customer Success Tools](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools) - Used to store customer success automation and migration tools.
-- [SA Leadership Initiatives](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/)- Used as the single location for all initiatives that are being worked on across the Solutions Architecture Organization.
-- [FIRE Collaborations](https://gitlab.com/gitlab-com/alliances/gitlab-alliances-team/firecollaborations) - Used to track collaborations.
+- [Commercial SA Initiatives](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/initiatives/)- Initiatives specific for Commercial Solutions Architecture Organization.
+- [SA Leadership Initiatives](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/)- Initiatives by the wider Solutions Architecture Organization.
+- [FIRE Collaborations](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/field-cto-team/firecollaborations) - Used to track collaborations.
 - [Guided Explorations on GitLab](https://gitlab.com/guided-explorations) - Used to create and store example production projects with customers.
 - [Customer & Prospects Drive](https://drive.google.com/drive/folders/0B-ytP5bMib9Ta25aSi13Q25GY1U?resourcekey=0-MBirIe2vWyQXYi8cJEkH2Q) - Used to store all customer files such as notes, etc.
 - [YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Ko87g05LlHroe7eLPzCPJUY) - Used to store saved videos by the SA team.
