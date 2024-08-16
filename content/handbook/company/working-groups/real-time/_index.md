@@ -24,7 +24,7 @@ To ship one real-time feature to self-managed customers.
 
 (✅ Done, ✏️ In-progress)
 
-### One Working Real-Time Feature, Usable by Single Instance/Small Cluster, Self-Hosting Customers `=> 100%`
+### One Real-Time Feature, Usable by Single Instance/Small Cluster, Self-Hosting Customers `=> 100%`
 
 [Issue](https://gitlab.com/gitlab-org/gitlab/issues/17589)
 
@@ -43,7 +43,7 @@ To ship one real-time feature to self-managed customers.
 
 (✅ Done, ✏️ In-progress)
 
-### One Working Real-Time Feature, Usable on larger deployments `=> 100%`
+### One Real-Time Feature, Usable on larger deployments `=> 100%`
 
 [Issue](https://gitlab.com/gitlab-org/gitlab/issues/17589)
 
