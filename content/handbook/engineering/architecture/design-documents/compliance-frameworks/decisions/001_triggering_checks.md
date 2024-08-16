@@ -1,5 +1,5 @@
 ---
-title: "Compliance Frameworks ADR 004: Compliance Adherence Checks"
+title: "Compliance Frameworks ADR 001: Triggering Checks"
 ---
 
 ## Context

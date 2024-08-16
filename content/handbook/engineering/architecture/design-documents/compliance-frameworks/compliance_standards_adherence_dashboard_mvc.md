@@ -73,4 +73,4 @@ We received good feedbacks from the users after the MVC was released, however, s
 around the checks being rigid and the inability to configure them as per their requirement. For example: Some of the
 users didn't have a requirement to get their merge requests approved by two users. They want the ability to change the
 count of required approvers to 1 for their projects. We plan to work on these in the next iteration and have created an
-architectural decision record for [custom adherence report](decisions/005_custom_adherence_report.md).
+architectural decision record for [custom adherence report](decisions/002_custom_adherence_report.md).
