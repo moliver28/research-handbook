@@ -31,17 +31,17 @@ The Vice President of Tax is a [grade #12](/handbook/total-rewards/compensation/
 ## Requirements
 
 - Ability to use GitLab
-- Bachelor's Degree (B.S.) in Accounting. Master's Degree preferred.
-- JD and/or CPA preferred.
-- 10 years of related experience with at least 5 years in a public accounting firm.
-- Experience with Software and/or SAAS in a high growth environment.
+- Bachelor's Degree (B.S.) in Accounting. Master's Degree preferred
+- JD and/or CPA preferred
+- 10 years of related experience with at least 5 years in a public accounting firm
+- Experience with Software and/or SAAS in a high growth environment
 - Must have demonstrated a hands-on approach and success in working in a team-based environment
 - International tax experience required
 - Leadership at [GitLab](/handbook/company/structure/#director-group)
 
 ## Performance Indicators
 
-- Effective Tax Rate](<https://handbook.gitlab.com/handbook/tax/performance-indicators/#effective-tax-rate-etr>)
+- Effective Tax Rate (<https://handbook.gitlab.com/handbook/tax/performance-indicators/#effective-tax-rate-etr>)
 - [Budget vs. Actual](/handbook/tax/performance-indicators/#budget-vs-actual)
 - [Audit Adjustments](/handbook/tax/performance-indicators/#audit-adjustments)
 - Effective Tax Compliance and Strategic Outlook
