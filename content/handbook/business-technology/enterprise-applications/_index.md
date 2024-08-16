@@ -1,5 +1,5 @@
 ---
-title: "Enterprise Applications Organizational Structure"
+title: "Organizational Structure"
 description: "The Enterprise Applications Team implements and supports specialized applications that support our business processes within GitLab."
 ---
 
