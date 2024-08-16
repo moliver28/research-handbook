@@ -17,7 +17,6 @@ The Commercial Solutions Architecture team is a part of the global [SA Organizat
 3. [Solutions Architecture Managers](/job-families/sales/solutions-architect/#manager-solutions-architects)
 4. [Director of Commercial Solutions Architecture](/job-families/sales/solutions-architect/#director-solutions-architects)
 
-
 ## Commercial Solutions Architecture Engagement Model
 
 ### SA Engagement Considerations
@@ -28,7 +27,6 @@ The Commercial Solutions Architecture team is a part of the global [SA Organizat
 - Compelling events are to be clearly defined in the Command Plan on an opportunity with a positive Net ARR (or negative Net ARR when the account needs deep technical knowledge or needs to be resold).
 - When SAs engage, their notes and activities are logged across Salesforce (review the [SA Activity Capture page](/handbook/solutions-architects/processes/activity-capture/)) and the [Customers & Prospects](https://drive.google.com/drive/folders/0B-ytP5bMib9Ta25aSi13Q25GY1U?resourcekey=0-MBirIe2vWyQXYi8cJEkH2Q&usp=sharing) Google Drive directory.
 
-
 ### Segment-Specific Engagement Models
 
 The SA team’s engagement is segmented by the AE role, so that the SA engagement model is aligned with the Sales Organisation's structures. [See individual AE's role, area, and segment in this report](https://gitlab.my.salesforce.com/00O8X000008RUf1)
@@ -38,7 +36,6 @@ The SA team’s engagement is segmented by the AE role, so that the SA engagemen
 1. **Mid-Market First Order (FO)**: Early-stage `2-Scoping` through `4-Proposal` for opportunities where a Command Plan and Custom Pitch Deck are being leveraged where an SA is necessary. The goal is to complete the `3-Technical Evaluation` prior to 15 days of the Close Date.
 1. **Mid-Market Named (Key)**: Opportunities (regardless of stage) where an SA is necessary through the course of the opportunity. The goal is to complete the `3-Technical Evaluation` prior to 30 days of the Close Date.
 1. **Mid-Market Territory (Terr)**: `3-Technical Evaluation` for opportunities where a Command Plan and Custom Pitch Deck are being leveraged and where an SA is necessary. The goal is to complete the `3-Technical Evaluation` prior to 30 days of the Close Date.
-
 
 ### SA Request Triage Process
 
@@ -79,7 +76,6 @@ The Commercial SA Triage Process is a structured approach to managing and priori
    - Post-engagement, the SA documents the outcomes, next steps, and any relevant information in Salesforce and the Customers & Prospects Google Drive folder.
    - The SA collaborates with the AE on any follow-up actions or additional support needed.
 
-
 This triage process ensures that SA resources are utilized effectively, customer needs are met promptly, and the sales team receives timely and valuable technical support throughout the sales cycle.
 
 #### Guidelines for efficient triage process
@@ -92,7 +88,6 @@ _It doesn't need to be within an hour.  You can eat lunch first_
 - Totally Acceptable Behavior: A new opportunity is created, and someone in the Team's Slack channel says "hey there is a new opp and I would like to discuss" and that the Team follow-up discussion doesn't come for 2, or even 4 hours, because the rest of the Team is busy with other things. This is still okay. The wait period is not a diss to anyone, the Team will get to it when they can, in natural pauses of the day.
 - One Full Business Day Defined:  If it comes in at 4pm, the Team has until 4pm the next day to triage.
 
-
 ##### #2: Better Triage Happens with a second pair of eyes
 
 _If possible, two team members review a Command Plan before assignment_
@@ -100,8 +95,8 @@ _If possible, two team members review a Command Plan before assignment_
 - Some days, this may not be possible.  If 1/2 the team is on PTO and the other 1/2 is slammed. But whenever possible, the Team aims to have at least 2 team members review the Command Plan before assignment.
 - The Team's Reporting Managers are considered a very valued 2nd person to review, when directly requested.
 - Other reason to skip the "two pairs of eyes" principle
-   - Fast-track prioritization for demos that were scheduled with less than 24 hours notice
-   - Very specific communication language or skill required for the engagement (which means the request can be directly assigned to a specific SA)
+  - Fast-track prioritization for demos that were scheduled with less than 24 hours notice
+  - Very specific communication language or skill required for the engagement (which means the request can be directly assigned to a specific SA)
 
 ##### The 4 Questions
 
@@ -123,7 +118,6 @@ There are often 'what-if' scenarios when an SA evaluates an incoming lead. These
 - **#4: Does the SA have relatable experience on this type of account.**
   - 'Yes' could be the "preferred" answer depending on the account and timeline.
   - But 'No' is also a 'Yes'. Solution Architects belong to a learning-focused organization. Less experienced SAs are going to continue to take on accounts where they do not know everything, and will have a chance to learn with the support of the wider team
-
 
 ### Expectations when working with an SA
 
@@ -252,7 +246,6 @@ Solutions Architects are required to fill out in their judgment on all opportuni
 - Net ARR >$50K
 - Stage: 3+ (potentially 2+)
 
-
 ## Commercial SA Processes
 
 ### Commercial Demo Jam
@@ -325,40 +318,43 @@ Quarterly review of wins and losses to identify patterns and things we can do to
   - 00:20 - 00:35 - Review Losses
   - 00:35 - 00:50 - Review Action Items
 
-
 ## Team Meetings
 
 Commercial SA team meetings are held on a regular basis to ensure alignment, share knowledge, and discuss important topics. The following meetings are part of the Commercial SA team's schedule:
 
 ### 1. Bi-Weekly Global Team Meeting
-   - Frequency: Every other Monday
-   - Duration: 50 minutes
-   - Purpose: Discuss global initiatives, share best practices, and align on cross-regional topics
-   - Second half of the Global Team Meeting is dedicated to specific topics:
-      - [Commercial Demo Jam](#commercial-demo-jam) (twice a quarter)
-      - [Commercial SA Peer Review](#commercial-sa-peer-review) (twice a quarter)
-      - Strategy (once a quarter)
-      - Team Retrospective (last week of a quarter)
-      - Open Topic (once a quarter)
+
+- Frequency: Every other Monday
+- Duration: 50 minutes
+- Purpose: Discuss global initiatives, share best practices, and align on cross-regional topics
+- Second half of the Global Team Meeting is dedicated to specific topics:
+ - [Commercial Demo Jam](#commercial-demo-jam) (twice a quarter)
+ - [Commercial SA Peer Review](#commercial-sa-peer-review) (twice a quarter)
+ - Strategy (once a quarter)
+ - Team Retrospective (last week of a quarter)
+ - Open Topic (once a quarter)
 
 ### 2. Bi-Weekly Geo Team Sync (EMEA or AMER)
-   - Frequency: Every other Monday
-   - AMER
-      - Duration: 25 minutes
-      - Purpose: Connect as a team, discuss any ongoing initiatives, share updates, provide feedack, foster open discussions
-   - EMEA
-      - Duration: 50 minutes
-      - Purpose: Connect as a team, discuss any ongoing initiatives, regional priorities, share updates, and address any pressing issues
+
+- Frequency: Every other Monday
+- AMER
+ - Duration: 25 minutes
+ - Purpose: Connect as a team, discuss any ongoing initiatives, share updates, provide feedack, foster open discussions
+- EMEA
+ - Duration: 50 minutes
+ - Purpose: Connect as a team, discuss any ongoing initiatives, regional priorities, share updates, and address any pressing issues
 
 ### 3. Manager Sync
-   - Frequency: Weekly
-   - Duration: 25 minutes
-   - Purpose: Discuss team performance, address any challenges, and align on priorities for the upcoming weeks, months, quarters
+ 
+- Frequency: Weekly
+- Duration: 25 minutes
+- Purpose: Discuss team performance, address any challenges, and align on priorities for the upcoming weeks, months, quarters
 
 ### 4. Weekly Standups
-   - Frequency: Weekly
-   - Duration: 25 minutes
-   - Purpose: Quick check-in to discuss workload, ongoing tasks, blockers, priorities for the week, and triage any open SA Requests
+
+- Frequency: Weekly
+- Duration: 25 minutes
+- Purpose: Quick check-in to discuss workload, ongoing tasks, blockers, priorities for the week, and triage any open SA Requests
 
 All team meetings are facilitated to be asynchronous friendly. Therefore, all meetings are recorded and shared with the team. Team members are expected to attend these meetings regularly, or review and contribute to the discussions and share relevant information asynchronously
 
@@ -369,15 +365,15 @@ Commercial SA team members are strongly encouraged to take time off as part of [
 To best support our customers, consider the following:
 
 1. Create a [PTO coverage issue](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/announcements/-/issues/new?issuable_template=PTO) A PTO coverage issue may not always be required but here are a couple guiding examples on when to create one:
-   - Customers are running an active trial and may need technical guidance.
-   - Leaving for more than 2 weeks and need to distribute the workload across the team.
+ - Customers are running an active trial and may need technical guidance.
+ - Leaving for more than 2 weeks and need to distribute the workload across the team.
 2. Announce your time off to your team and, share the PTO Coverage issue link, and communicate any expected coverage requirements.
 
 ## Team Links
 
 - Dashboards - Open Requests and Key Metrics by Geo
-   - [COMM AMER SA Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000011ihZ2AQ/view)
-   - [COMM EMEA SA Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000012gc52AA/view)
+ - [COMM AMER SA Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000011ihZ2AQ/view)
+ - [COMM EMEA SA Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000012gc52AA/view)
 - [Solutions Architect GitLab Group](https://gitlab.com/gitlab-com/customer-success/solutions-architecture) - Used to share things across Solutions Architects such as links to demos, snippets, training, etc.
 - [Customer Success Tools](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools) - Used to store customer success automation and migration tools.
 - [Commercial SA Initiatives](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/initiatives/)- Initiatives specific for Commercial Solutions Architecture Organization.
