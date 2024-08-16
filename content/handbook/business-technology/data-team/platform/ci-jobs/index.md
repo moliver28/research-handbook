@@ -317,6 +317,10 @@ A failure indicates one of two things:
 - your model does NOT have MNPI data, but is downstream of a model that does have MNPI data
   - Fix: add `mnpi_exception` tag to the model
 
+##### How to decide when to use the mnpi_exception tag
+
+The MNPI exception tag `mnpi_exception` can be added to the model if it does not contain MNPI data. MNPI data would be columns containing information like Paid Licensed Users, ARR, Net_ARR, Revenue, Net Retention, Expenses etc. Essentially Financial Data that would allow a person to understand GitLab's publicly disclosed financial metrics on a trending basis and result in providing information that would be material to investment decisions. Once we financial data is surfaced in a data model, we take a conservative approach and put the model into the restricted schema and no tag is required in that case since it is in the restricted schema. 
+
 #### `🔍macro_name_check`
 
 Automatically runs when making changes in the snowflake-dbt/macros folder and checks if the newly created macros match the correct name format.
