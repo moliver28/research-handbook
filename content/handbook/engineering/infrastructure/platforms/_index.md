@@ -87,7 +87,11 @@ If you need assistance with a production issue or incident, please see the secti
 |[#scalability-social](https://gitlab.enterprise.slack.com/archives/C0108V9SQHY)| Our social channel. |
 | #scalability-id-project-name() | We use project specific channels to keep make it easier to follow specific topics. Channel names follow this format. |
 
-Queries to the Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution.
+The SaaS Platforms group is gradually directing requests for help to the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) Slack channel.
+This channel can be used if it is unclear which Infrastructure team the question should be directed to.
+For more information, refer to the [landing page for getting assistance](../getting-assistance). 
+
+The [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel is monitored by SaaS Platforms Engineering Managers and Staff+ engineers who triage any inbound requests. When triaging this channel, one should locate the team who can best answer this question and instruct the requestor to contact that team using the team's preferred contact method. When the requestor is connected to the right team, add a green check emoji to the message. Finally, if needed, update the [getting assistance](./getting-assistance)] page with any changes.
 
 #### Meetings
 
