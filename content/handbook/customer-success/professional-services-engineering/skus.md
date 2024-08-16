@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/professional-services-engineering/SKUs
 title: "PS Standard SKUs"
 description: "Discover GitLab's Professional Services Standard SKUs"
 ---

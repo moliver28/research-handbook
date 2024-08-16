@@ -1,8 +1,6 @@
 ---
 title: "Equity Compensation"
 description: "Learn more about Equity Compensation at GitLab"
-aliases:
-- /handbook/stock-options/
 ---
 
 ## About Your Ownership in GitLab

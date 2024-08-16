@@ -1,8 +1,6 @@
 ---
 title: Group Conversations
 description: "Everything you need to know about GitLab's daily, recurring Group Conversations"
-aliases:
-- /handbook/group-conversations/
 ---
 
 ## Introduction

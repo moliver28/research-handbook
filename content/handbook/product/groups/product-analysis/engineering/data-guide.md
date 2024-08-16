@@ -1,7 +1,5 @@
 ---
 title: "Guide to Engineering Analytics Data"
-aliases:
-- /handbook/engineering/data-guide/
 ---
 
 ## Introduction

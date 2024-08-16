@@ -1,9 +1,5 @@
 ---
 title: How We Work (CorpSec)
-aliases:
-- /handbook/security/corporate/how-we-work/engineering
-- /handbook/security/corporate/how-we-work/program
-- /handbook/security/corporate/how-we-work/services
 ---
 
 We have four approaches to how we work:
@@ -164,7 +160,7 @@ Any expectations should be mentioned in the issue description or comments so the
 ### Engineering
 
 - (Report) [Management Status Report (Updated Daily)](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/blob/main/status_report.md?ref_type=heads)
-- Kanban Board 
+- Kanban Board
   - (Board) All Teams - [Current Iteration](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?iteration_id=Current&iteration_cadence_id=1053644) - [Iteration Sprint Issues (by Status)](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111)
   - (Board) Code - [Current Iteration](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?label_name[]=corpsec-team-code&iteration_id=Current&iteration_cadence_id=1053644) - [All Open Issues](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?label_name[]=corpsec-team-code)
   - (Board) Device Trust - [Current Iteration](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?label_name[]=corpsec-team-device&iteration_id=Current&iteration_cadence_id=1053644) - [All Open Issues](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?label_name[]=corpsec-team-device)

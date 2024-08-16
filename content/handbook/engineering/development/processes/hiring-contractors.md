@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/processes/hiring-contractors.html
-
 title: "Hiring Contractors - Development Department"
 description: "How the development department hires engineers as contractors"
 ---

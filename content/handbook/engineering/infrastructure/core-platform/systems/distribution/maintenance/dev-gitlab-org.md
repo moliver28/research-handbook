@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/maintenance/dev-gitlab-org.html
-
 title: "Distribution Team Infrastructure and Maintenance - dev.gitlab.org"
 description: "Guidelines for maintaining dev.gitlab.org, including manual package upgrades/downgrades, and GitLab configuration changes."
 ---

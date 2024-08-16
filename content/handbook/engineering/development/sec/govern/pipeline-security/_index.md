@@ -1,7 +1,6 @@
 ---
 title: "Govern:Pipeline Security Group"
 description: "The GitLab Govern:Pipeline Security Group Handbook page"
-aliases: /handbook/engineering/development/ops/verify/pipeline-security/
 ---
 
 ## Vision

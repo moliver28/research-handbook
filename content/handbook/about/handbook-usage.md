@@ -1,8 +1,6 @@
 ---
 title: "GitLab Handbook Usage"
 description: "About how GitLab uses the handbook."
-aliases:
-- /handbook/handbook-usage/
 ---
 
 ## Flow structure

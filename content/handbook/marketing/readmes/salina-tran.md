@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/marketing/readmes/salina-tran
 title: "Salina Tran | Senior Marketing Operations Manager"
 description: "Welcome to my ReadMe - Get to know me and how I work"
 ---

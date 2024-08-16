@@ -1,7 +1,5 @@
 ---
 title: "On-Call"
-aliases:
-- /handbook/on-call/
 ---
 
 {{% alert color="warning" %}}

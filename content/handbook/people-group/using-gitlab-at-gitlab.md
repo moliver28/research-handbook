@@ -1,7 +1,5 @@
 ---
 title: "Using GitLab at GitLab"
-aliases:
-- /handbook/using-gitlab-at-gitlab/
 ---
 
 ## Intro

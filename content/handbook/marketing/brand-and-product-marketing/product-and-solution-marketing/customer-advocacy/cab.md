@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/CAB
 title: "Customer Advisory Boards"
 ---
 ### GitLab Customer Advisory Boards

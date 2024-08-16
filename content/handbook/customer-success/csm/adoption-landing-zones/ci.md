@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/csm/adoption-landing-zones/CI
 title: "CI Adoption Landing Zone"
 description: "A page containing links to helpful CI resources for the CSM team and our customers"
 ---

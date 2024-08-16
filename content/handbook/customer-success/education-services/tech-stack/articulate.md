@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/education-services/tech_stack/articulate.html
 title: "Articulate 360 Tech Stack Guide"
 description: "Tech Stack Guide for Articulate 360 Content Authoring tool."
 ---

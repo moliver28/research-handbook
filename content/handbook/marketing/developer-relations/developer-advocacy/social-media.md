@@ -1,7 +1,5 @@
 ---
 title: "Developer Advocacy on Social Media"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/social-media/index.html
 ---
 
 ## Introduction

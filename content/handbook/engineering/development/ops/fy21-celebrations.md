@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/ops/fy21-celebrations.html
-
 title: FY21 Celebrations - Ops Sub-department
 description: "Info about team celebrations in FY21"
 ---

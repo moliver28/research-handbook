@@ -3,7 +3,6 @@ title: SA Career Development
 description: >-
   For career development Solution Architects can choose between an individual
   contributor or leadership track
-aliases: /handbook/solutions-architects/career-development/
 ---
 
 ## Career Development

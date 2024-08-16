@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/it/guides/nordlayer
 title: "Nordlayer"
 description: "What is NordLayer?"
 ---

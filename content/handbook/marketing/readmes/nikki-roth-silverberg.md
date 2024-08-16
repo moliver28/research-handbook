@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/marketing/readmes/nikki-roth-silverberg.html
 title: "Nikki Roth Silverberg README (Staff Marketing Operations Manager)"
 description: "Learn more about working with Nikki Roth Silverberg"
 ---

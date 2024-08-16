@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/geo/process.html
-
 title: "Geo and Disaster Recovery - Planning"
 description: "How the Geo Team Operates"
 ---

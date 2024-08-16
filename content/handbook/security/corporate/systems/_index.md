@@ -1,10 +1,6 @@
 ---
 title: CorpSec Systems and Tech Stack
 description: The Corporate Security department provides configuration management engineering and tech support helpdesk services for team members and temporary service providers (aka contractors, vendors, etc.) for the company-wide systems that we manage. The systems directory provides a list of all of our systems with quick reference links to administration runbooks, end user documentation, issue templates, mentionable groups, and tags that are used in GitLab epics, issues, and merge requests.
-aliases:
-    - /handbook/security/guides
-    - /handbook/security/systems
-    - /handbook/systems
 ---
 
 ## Cross-Department System Owners

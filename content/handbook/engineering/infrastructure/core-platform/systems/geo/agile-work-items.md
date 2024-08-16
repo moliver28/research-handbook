@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/geo/agile-work-items.html
-
 title: "Geo and Disaster Recovery - Hierarchy of Agile Work Items"
 description: "How the Geo Team organizes agile work items"
 ---

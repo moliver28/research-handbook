@@ -1,8 +1,6 @@
 ---
 title: "Application Security"
 description: "The application security team's mission is to support the business and ensure that all GitLab products securely manage customer data."
-aliases:
-- /handbook/security/security-engineering/application-security
 ---
 <!-- markdownlint-disable MD052 -->
 

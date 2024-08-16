@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/legal/esg/Team-Member-Sustainability-Guide
 title: "Team Member Sustainability Guide"
 description: "GitLab's Team Member Sustainability Guide for Remote Work"
 ---

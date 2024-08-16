@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/sec/secure/qa_process.html
-
 title: Secure QA Process
 ---
 

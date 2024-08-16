@@ -1,7 +1,5 @@
 ---
 title: "HackerOne Process"
-aliases:
-- /handbook/security/security-engineering/hackerone-process
 ---
 
 GitLab utilizes [HackerOne](https://hackerone.com/gitlab) for its bug bounty program. Security researchers can report vulnerabilities in GitLab applications or the GitLab infrastructure via the HackerOne website. Team members authorized to respond to HackerOne reports use procedures outlined here.

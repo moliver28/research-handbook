@@ -1,7 +1,5 @@
 ---
 title: "Purple Teaming at GitLab"
-aliases:
-  - /handbook/security/threat-management/red-team/purple-teaming/
 ---
 
 The terms "Red Team" and "Blue Team" are used to describe the roles of attackers and defenders during planned security exercises. At GitLab, where collaboration and transparency are two of our [core values](/handbook/values/), we like to join forces and conduct what is commonly referred to as "Purple Teaming".

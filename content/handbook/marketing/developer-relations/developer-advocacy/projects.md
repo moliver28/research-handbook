@@ -1,7 +1,5 @@
 ---
 title: "Projects"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/projects/index.html
 ---
 
 ## Introduction
@@ -16,7 +14,7 @@ All projects are organized in sub-groups on the top level. No projects are allow
 
 | Group        | DRI | Description  |
 |--------------|-----|--------------|
-| [conferences](https://gitlab.com/gitlab-da/conferences) | @fjdiaz | Group for public demos for team members at [conferences, events, meetups, etc.](/handbook/marketing/developer-relations/events/#event-booth-training)  | 
+| [conferences](https://gitlab.com/gitlab-da/conferences) | @fjdiaz | Group for public demos for team members at [conferences, events, meetups, etc.](/handbook/marketing/developer-relations/events/#event-booth-training)  |
 | [playground](https://gitlab.com/gitlab-da/playground) | all | Test projects, simple demo cases, code snippets, etc. without support. Please move them into the corresponding use-cases groups when linking from a blog post. |
 | [use-cases](https://gitlab.com/gitlab-da/use-cases) | all | Use cases for specific topics for product demos, talks, thought leadership, research |
 | [projects](https://gitlab.com/gitlab-da/projects) | @abuango | Production projects maintained by the team. For blog projects and demos, use the specific `use-cases` groups. |
@@ -212,7 +210,7 @@ Maintainers: [Michael Friedrich, @dnsmichi](https://about.gitlab.com/company/tea
 
 ### LinkedIn Lives in Collaboration with the Social team
 
-GitLab hosts a monthly LinkedIn Live broadcast, generally on the fourth Thursday of every month, to highlight our monthly release, and share product updates and thought leadership. Each broadcast features GitLab team members and special guests to discuss the latest in AI-powered software development. This is a collaborative project between [Developer Advocacy](/handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/) and the [Social Media](/handbook.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) teams. 
+GitLab hosts a monthly LinkedIn Live broadcast, generally on the fourth Thursday of every month, to highlight our monthly release, and share product updates and thought leadership. Each broadcast features GitLab team members and special guests to discuss the latest in AI-powered software development. This is a collaborative project between [Developer Advocacy](/handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/) and the [Social Media](/handbook.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) teams.
 
 Episodes generally run for 30 minutes and feature 4-5 panelists and a moderator to discuss a predetermined topic or product update. In certain instances, the conversations are pre-recorded.
 
@@ -225,18 +223,18 @@ Episodes generally run for 30 minutes and feature 4-5 panelists and a moderator 
 
 #### Information for Panelists
 
-**Before the Broadcast/Recording** 
+**Before the Broadcast/Recording**
 
 - You will be added to a temporary Slack channel with the social media team and other panelists to discuss the agenda, logistics, and promotion.
 - You will be asked to be available for a 30-minute walkthrough before the recording/broadcast to do a tech check, walk through the talking points, and meet the other panelists.
-- You will be added as a speaker to the LinkedIn event page so your network is notified that you will be going live on LinkedIn. 
+- You will be added as a speaker to the LinkedIn event page so your network is notified that you will be going live on LinkedIn.
 - Please help us promote the event by sharing any LinkedIn posts promoting the event with your network.
 
-**During the Broadcast/Recording** 
+**During the Broadcast/Recording**
 
-- Please confirm you have a strong wifi signal and are in a well-lit area that is free from distractions. 
+- Please confirm you have a strong wifi signal and are in a well-lit area that is free from distractions.
   - Ideally, use a virtual background.
-- If you have GitLab swag, please wear it! 
+- If you have GitLab swag, please wear it!
 - Use a headset as your microphone.
 
 **After the Broadcast**

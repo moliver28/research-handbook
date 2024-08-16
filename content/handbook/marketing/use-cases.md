@@ -1,7 +1,5 @@
 ---
 title: "Core DevOps Solutions"
-aliases:
-- /handbook/use-cases/
 ---
 
 ## Core DevOps Solution Definition

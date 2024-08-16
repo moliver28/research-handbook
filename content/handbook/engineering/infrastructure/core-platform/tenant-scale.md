@@ -1,8 +1,6 @@
 ---
 title: Tenant Scale Group
 description: "The Tenant Scale Group is the direct outcome of applying our value of Iteration to the direction of the Database Scalability Working Group."
-aliases:
-- /handbook/engineering/infrastructure/core-platform/data_stores/tenant-scale/
 ---
 
 ## About

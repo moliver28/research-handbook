@@ -1,10 +1,6 @@
 ---
 title: "Editing the Handbook"
 description: "Information on how to edit the handbook including tips and troubleshooting."
-aliases:
-- /docs/editing-the-handbook/
-- /docs/editing-handbook/
-- /handbook/git-page-update/
 ---
 
 This page focuses on how to edit the handbook.
@@ -200,7 +196,7 @@ section-dir/
 If you delete, rename, or move a page, you can:
 
 1. [update all existing links](practical-handbook-edits.md#find-and-replace-a-string-in-all-matching-files)
-1. [add an alias to redirect](/docs/frontmatter.md#aliases)
+1. [add a redirect](/docs/frontmatter.md#aliases)
 
 ## Editing content from shortcodes
 

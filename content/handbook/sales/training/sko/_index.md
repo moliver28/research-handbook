@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/sales/training/SKO
 title: "Sales Kickoff"
 description: "The GitLab Sales Kickoff sets the tone for the GitLab field organization for the new fiscal year"
 ---

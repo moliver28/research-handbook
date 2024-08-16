@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/gitlab-dedicated/architecture/from-dedicated-to-cells-technical-analysis.html
 title: "From Dedicated to Cells: A Technical Analysis"
 ---
 

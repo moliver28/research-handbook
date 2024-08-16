@@ -1,8 +1,6 @@
 ---
 title: "Developer Onboarding"
 description: "Awesome! You're about to become a GitLab developer! Here you'll find everything you need to start developing."
-aliases:
-- /handbook/developer-onboarding/
 ---
 
 Awesome! You're about to become a GitLab developer!

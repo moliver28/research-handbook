@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/scalability/observability/capacity_planning.html
-
 title: "Capacity Planning"
 ---
 

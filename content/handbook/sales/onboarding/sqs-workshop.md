@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/sales/onboarding/SQS-workshop
 title: "Sales Quick Start (SQS) Workshop"
 ---
 

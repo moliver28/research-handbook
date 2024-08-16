@@ -1,21 +1,19 @@
 ---
 title: GitLab Environmental, Social, and Governance
 description: "An overview of corporate sustainability at GitLab."
-aliases:
-- /handbook/esg/
 ---
 
 ## GitLab Fiscal Year 2024 (FY24) ESG Report
 
 ### Message From Our Chief Executive Officer
 
-At GitLab, our mission is to enable everyone to contribute to and co-create the software that powers our world. This, together with our values, is at the core of how we manage our business, including our approach to Environmental, Social, and Governance (“ESG”). 
+At GitLab, our mission is to enable everyone to contribute to and co-create the software that powers our world. This, together with our values, is at the core of how we manage our business, including our approach to Environmental, Social, and Governance (“ESG”).
 
 Our all-remote team drives GitLab’s strategy and business results in more than 60 countries worldwide. In FY24, we sharpened our focus on our people by emphasizing the foundational role of high-performing teams and continuing to leverage our core value of diversity, inclusion, and belonging (DIB) to drive innovation and impact across our business. These efforts included launching new training and development programs and additional resources to encourage and enable team members to contribute and to give our people leaders more of the skills they need to manage efficient and effective teams.
 
-Our ESG strategy also encompasses efforts to minimize our environmental impact and better understand and address the potential effects of climate change on our business. In FY24, we continued to enhance our approach to measuring and reporting our greenhouse gas emissions. We conducted GitLab’s first climate risk assessment in alignment with the Task Force on Climate-related Financial Disclosures (TCFD) and launched the first iteration of a supplier engagement program focused on improving the visibility of emissions in our supply chain. 
+Our ESG strategy also encompasses efforts to minimize our environmental impact and better understand and address the potential effects of climate change on our business. In FY24, we continued to enhance our approach to measuring and reporting our greenhouse gas emissions. We conducted GitLab’s first climate risk assessment in alignment with the Task Force on Climate-related Financial Disclosures (TCFD) and launched the first iteration of a supplier engagement program focused on improving the visibility of emissions in our supply chain.
 
-We are committed to good corporate governance and high standards of ethics and compliance. In particular, as we continue to harness the power of AI to enhance the GitLab platform, we recognize the importance of working within a robust framework of ethical principles and protecting our customers’ and users’ data. In early fiscal year 2025, we launched the GitLab AI Transparency Center, giving customers direct access to our AI Ethics Principles for Product Development, AI Continuity Plan, and AI features documentation so that they can adopt AI with confidence. 
+We are committed to good corporate governance and high standards of ethics and compliance. In particular, as we continue to harness the power of AI to enhance the GitLab platform, we recognize the importance of working within a robust framework of ethical principles and protecting our customers’ and users’ data. In early fiscal year 2025, we launched the GitLab AI Transparency Center, giving customers direct access to our AI Ethics Principles for Product Development, AI Continuity Plan, and AI features documentation so that they can adopt AI with confidence.
 
 Lastly, our strategy and mission are also bolstered by engagement with the wider GitLab community. In the last fiscal year, we continued to expand outreach and drive social impact through community programs such as GitLab for Startups, GitLab for Open Source, and GitLab for Education. We also launched GitLab for Nonprofits, which provides free GitLab licenses to registered nonprofit organizations that align with our values and ESG strategy. Our charitable efforts are further complemented by the GitLab Foundation, which supports people in growing their lifetime earnings through education, training, access to opportunities, and systems changes on a global scale.
 
@@ -33,7 +31,7 @@ GitLab Co-Founder and Chief Executive Officer
 
 GitLab’s [mission](/handbook/company/mission/) is to enable everyone to contribute to and co-create the software that powers our world.
 
-Our mission is the way we realize [our purpose](/handbook/company/purpose/): to help people increase their lifetime earnings through access to opportunities and the DevSecOps platform. 
+Our mission is the way we realize [our purpose](/handbook/company/purpose/): to help people increase their lifetime earnings through access to opportunities and the DevSecOps platform.
 
 Our [vision](/handbook/company/vision/) captures what we want to deliver to customers in the next 10 years. Today, GitLab is the most comprehensive AI-powered DevSecOps platform. The DevSecOps Platform shift is part of a larger trend: teams of all types are realizing that breaking down silos has compounding effects on productivity and collaboration. We see it with data and operations teams creating DataOps; we see it with machine learning and ops teams creating MLOps. As more companies (and more teams within a company) rely on our platform, we are positioned to become the **AllOps platform** — a single application for all R&D.
 
@@ -114,7 +112,7 @@ Our [People Group](/handbook/people-group/) is dedicated to supporting each team
 
 In FY24, we focused on accelerating GitLab’s 3-year strategy through re-emphasizing the foundational role of high-performing teams. At GitLab, high-performing teams:
 
-1. Act with urgency to deliver key results 
+1. Act with urgency to deliver key results
 1. Hold individuals and teams accountable for great work
 1. Trust each other
 1. Deliver results on time
@@ -178,7 +176,7 @@ We do this through our A.D.A.P.T. strategy:
 
 - **A**ction – Puts intentionality into how we attract, progress, and retain our team members, engage with our customers, and diversify the open source community.
 - **D**o Good – By providing avenues and opportunities for GitLab and team members to meaningfully contribute to our community and society.
-- **A**ccountable – We hold ourselves accountable in the commitments we make as well as being answerable for the outcome. 
+- **A**ccountable – We hold ourselves accountable in the commitments we make as well as being answerable for the outcome.
 - **P**olicies – scalable processes and policies inform and govern our program development and execution.
 - **T**ransparent – Our internal efforts are shared externally.
 Additionally, to continue to drive progress, we’ve organized our DIB work into three pillars: empowering our people, uplifting our communities, and building inclusivity into all we do.
@@ -280,7 +278,7 @@ Our key community programs include the following:
 
 - Launched in FY24, [GitLab for Startups](/handbook/marketing/developer-relations/community-programs/startups-program/) helps qualifying startups streamline their development processes and improve collaboration by providing free access to GitLab Ultimate for one year, followed by deeply discounted access to any tier for a second year. Current participants include several startups focused on delivering innovative sustainability solutions, such as [Breathe Battery Technologies](https://breathebatteries.com/), [Verity Nature](https://www.veritynature.com/), and [ClimaSens](https://climasens.com/).
 - The [GitLab for Open Source](/handbook/marketing/developer-relations/community-programs/open-source-program/) program provides qualifying projects with no-cost subscriptions of GitLab Ultimate. By empowering open source projects with our most advanced features, GitLab for Open Source supports our mission and helps make GitLab the best place for open source projects to grow and thrive.
-- The [GitLab for Education](/handbook/marketing/community-relations/community-programs/education-program/) program aims to enable educational institutions to succeed in teaching, learning, and conducting research with GitLab. We seek to build an engaged community of GitLab users around the world who actively contribute to GitLab and each other’s success and ultimately become evangelists of GitLab in the workplace and beyond. As of January 2024, the GitLab for Education program provides over 3.5 million seats of GitLab Ultimate at more than 1,800 educational institutions in more than 74 countries. 
+- The [GitLab for Education](/handbook/marketing/community-relations/community-programs/education-program/) program aims to enable educational institutions to succeed in teaching, learning, and conducting research with GitLab. We seek to build an engaged community of GitLab users around the world who actively contribute to GitLab and each other’s success and ultimately become evangelists of GitLab in the workplace and beyond. As of January 2024, the GitLab for Education program provides over 3.5 million seats of GitLab Ultimate at more than 1,800 educational institutions in more than 74 countries.
 
 For information on GitLab for Nonprofits, see [Social Impact](#social-impact) below.
 
@@ -304,7 +302,7 @@ In FY24, our Contributor Success Team sought to enhance community relations and 
 
 Launched in 2023, GitLab’s [Philanthropy Policy](/handbook/legal/philanthropy-policy/) supports GitLab teams that want to engage in charitable giving and activities benefiting registered nonprofit organizations that align with GitLab’s mission, values, and ESG strategy. By enabling teams to contribute to causes aligned with their work, we foster connections between GitLab’s purpose and values and the opportunity to drive impact in the broader community. For example, in FY24:
 
-- [GitLab Women](/handbook/company/culture/inclusion/tmrg-gitlab-women/), our TMRG that helps women advance their skills and leadership potential, donated funds to [Women Who Code](https://womenwhocode.com/), a national organization focused on empowering women to excel in technology careers. 
+- [GitLab Women](/handbook/company/culture/inclusion/tmrg-gitlab-women/), our TMRG that helps women advance their skills and leadership potential, donated funds to [Women Who Code](https://womenwhocode.com/), a national organization focused on empowering women to excel in technology careers.
 - Participants in our sales incentive program, GitLab President’s Club, built filter kits with [Water to Wine](https://www.wtw.org/), an international nonprofit committed to building a holistic, community-based model by supporting the life and dignity of all through the power of clean water.
 
 ##### GitLab for Nonprofits
@@ -347,7 +345,7 @@ More detailed results of our inventory are available in the [Performance Data Ta
 
 In FY24, we took steps to further understand our climate impacts and advance the development of a formal emissions reduction strategy. This included initiating GitLab’s first climate risk assessment, to help us better understand climate-related risks and opportunities for our business. For more information on our climate risk assessment and scenario analysis, please see our [TCFD Index](https://about.gitlab.com/documents/GitLab_FY24_TCFD_Index.pdf).
 
-In FY24, we also launched a supplier engagement program with a focus on climate. As an initial step, we engaged our top 20 suppliers by spend who are not currently disclosing emissions data, asking them to start measuring their emissions and sharing the data publicly. We will be expanding the scope of the engagement to include more suppliers in FY25. 
+In FY24, we also launched a supplier engagement program with a focus on climate. As an initial step, we engaged our top 20 suppliers by spend who are not currently disclosing emissions data, asking them to start measuring their emissions and sharing the data publicly. We will be expanding the scope of the engagement to include more suppliers in FY25.
 In FY25, we will continue working to establish GHG emissions reduction targets. We have also launched the first iteration of a team member [sustainability guide](/handbook/legal/esg/team-member-sustainability-guide/) with the goal of educating GitLab team members on how to be more sustainable.
 
 In January 2024, GitLab purchased and retired carbon removal credits worth 8,580 tonnes of CO2e. The purchase funds a reforestation program called Trees for Global Benefits, a long-running cooperative carbon offsetting program that combines community-led activities to increase carbon sequestration, encourage sustainable land-use practices, and provide farmers with performance-based payments. We also retired additional credits worth 877 tonnes of CO2e that were purchased in FY23.
@@ -481,7 +479,7 @@ GitLab’s commitment to legal and ethical conduct extends to its suppliers, con
 
 ### Contact
 
-For questions regarding GitLab’s ESG report and data, please contact <ESG@GitLab.com>. 
+For questions regarding GitLab’s ESG report and data, please contact <ESG@GitLab.com>.
 
 ### Forward-Looking Statements
 

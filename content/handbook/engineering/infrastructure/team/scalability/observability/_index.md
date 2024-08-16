@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/scalability/observability.html
 title: "Scalability:Observability Team"
 ---
 

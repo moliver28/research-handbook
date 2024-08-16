@@ -2,8 +2,6 @@
 title: "Equal Contributions"
 summary: "Everyone must be able to equally contribute. Organizations must **create a system** where everyone can consume information and contribute equally, regardless of level, function, or location. When people don't have the opportunity to contribute because of their background, or where they live, or their life stage, we miss out on valuable perspectives."
 weight: 2
-aliases: /teamops/everyone-contributes/
-canonical_path: "/teamops/equal-contributions/"
 images:
     - /images/opengraph/all-remote.jpg
 ---

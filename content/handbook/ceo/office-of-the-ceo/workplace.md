@@ -1,13 +1,6 @@
 ---
 title: "GitLab Strategy and Operations (Workplace) Team Handbook"
 description: GitLab Strategy and Operations (Workplace) Team Handbook
-twitter_image: "/images/opengraph/all-remote.jpg"
-twitter_image_alt: "GitLab's All-Remote Marketing branded image"
-twitter_site: "@gitlab"
-twitter_creator: "@gitlab"
-aliases:
-- /handbook/ceo/office-of-the-ceo/workplace/
-- /handbook/ceo/chief-of-staff-team/workplace/
 ---
 
 ## About the GitLab Strategy and Operations (Workplace) Team

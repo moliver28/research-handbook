@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/incubation/mlops/ml_model_registry.html
-
 title: ML Model Registry
 ---
 

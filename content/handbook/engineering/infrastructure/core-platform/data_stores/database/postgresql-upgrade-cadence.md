@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/postgresql-upgrade-cadence.html
 title: PostgreSQL Upgrade Cadence
 ---
 
