@@ -363,10 +363,10 @@ All team meetings are facilitated to be asynchronous friendly. Therefore, all me
 Commercial SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/people-group/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time.
 To best support our customers, consider the following:
 
-1. Create a [PTO coverage issue](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/announcements/-/issues/new?issuable_template=PTO) A PTO coverage issue may not always be required but here are a couple guiding examples on when to create one:
-  1. Customers are running an active trial and may need technical guidance.
-  1. Leaving for more than 2 weeks and need to distribute the workload across the team.
-1. Announce your time off to your team and, share the PTO Coverage issue link, and communicate any expected coverage requirements.
+- Create a [PTO coverage issue](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/announcements/-/issues/new?issuable_template=PTO) A PTO coverage issue may not always be required but here are a couple guiding examples on when to create one:
+  - Customers are running an active trial and may need technical guidance.
+  - Leaving for more than 2 weeks and need to distribute the workload across the team.
+- Announce your time off to your team and, share the PTO Coverage issue link, and communicate any expected coverage requirements.
 
 ## Team Links
 
