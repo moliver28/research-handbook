@@ -32,6 +32,8 @@ The following can be used as a guide on what actions could be taken before your 
 - Prepare a handover document for your team / manager.
 - Notify customers and introduce them to the team member that will be assisting them going forward (if applicable).
 - If you feel comfortable, send a message in the [#team-member-updates](https://gitlab.slack.com/archives/CL55Q4U0K) Slack channel notifying everyone of your departure.
+
+- If you are a team member located in France, please send your resignation email to the legal department, `legal-employment@gitlab.com`
 -
 
 ## Your Laptop and Account steps
