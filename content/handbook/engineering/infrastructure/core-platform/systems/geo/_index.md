@@ -33,6 +33,7 @@ as part of a related project. Where this is not possible, we use time around our
 Every quarter the engineering team sets [objectives and key results](/handbook/company/okrs/#what-are-okrs). OKRs are managed in GitLab as of FY24-Q1. The following are links to issues lists for Geo's OKRs.
 
 [OKRs FY25-Q2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Ageo&milestone_title=FY25-Q2&first_page_size=20)
+[OKRs FY25-Q3](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Ageo&milestone_title=FY25-Q3&first_page_size=20)
 
 ## Geo's Relationship to Disaster Recovery
 
