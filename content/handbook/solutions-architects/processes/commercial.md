@@ -2,60 +2,113 @@
 title: Commercial SA Engagement Model
 ---
 
+## Vision
+
+The Commercial SA team is the best place for demonstrating technical talent and product passion motivating the commercial customer to establish their unified DevOps strategy.
+
+## Structure
+
+The Commercial Solutions Architecture team is a part of the global [SA Organization](/handbook/solutions-architects/) that focuses on primarily Mid-Market customers aiming to provide efficient and effective support. The team is divided into two main geographical regions: AMER and EMEA. Each region has its own team of Solutions Architects (SAs) who are responsible for supporting customers in their respective areas.
+
+### Team Roles
+
+1. [Solutions Architects (SAs)](/job-families/sales/solutions-architect/)
+2. [Demo Architects](/job-families/sales/demo-architect/)
+3. [Solutions Architecture Managers](/job-families/sales/solutions-architect/#manager-solutions-architects)
+4. [Director of Commercial Solutions Architecture](/job-families/sales/solutions-architect/#director-solutions-architects)
+
+
 ## Commercial Solutions Architecture Engagement Model
-
-The Commercial SA Engagement Model ([SA Circles](#sa-circles)) intends to foster collaboration amongst 3-6 Solutions Architects and 20-25 Account Executives.
-
-The SA team's engagement is [segmented by the AE role](#segment-specific-engagement-models), so that the SA engagement model is aligned with the AE team structures.
-
-Solutions architects are responsible for owning their engagement on opportunities. The "engagement model" is a general recommendation, not a rule, and will be left to the discretion of the solutions architect.
 
 ### SA Engagement Considerations
 
 - Solutions Architects (SAs) help prospects and new customers that are wanting to buy and consume more of GitLab's offerings.  Customer Success Managers and Customer Success Engineers guide a customer's adoption of what the customer has already purchased. Professional Services works with a customer to implement what the customer has already purchased.
-- All requests for SAs are submitted using the SA Request button on the Salesforce Opportunity.
+- All requests for SAs are submitted using the [SA Request button](#sa-request-triage-process) on the Salesforce Opportunity.
 - Salesforce opportunities should have [MEDDPPICC](/handbook/sales/meddppicc/) (and [required 7 methods applied](/handbook/sales/commercial/#required-7)).
 - Compelling events are to be clearly defined in the Command Plan on an opportunity with a positive Net ARR (or negative Net ARR when the account needs deep technical knowledge or needs to be resold).
 - When SAs engage, their notes and activities are logged across Salesforce (review the [SA Activity Capture page](/handbook/solutions-architects/processes/activity-capture/)) and the [Customers & Prospects](https://drive.google.com/drive/folders/0B-ytP5bMib9Ta25aSi13Q25GY1U?resourcekey=0-MBirIe2vWyQXYi8cJEkH2Q&usp=sharing) Google Drive directory.
 
+
+### Segment-Specific Engagement Models
+
+The SA team’s engagement is segmented by the AE role, so that the SA engagement model is aligned with the Sales Organisation's structures. [See individual AE's role, area, and segment in this report](https://gitlab.my.salesforce.com/00O8X000008RUf1)
+
+#### Mid-Market
+
+1. **Mid-Market First Order (FO)**: Early-stage `2-Scoping` through `4-Proposal` for opportunities where a Command Plan and Custom Pitch Deck are being leveraged where an SA is necessary. The goal is to complete the `3-Technical Evaluation` prior to 15 days of the Close Date.
+1. **Mid-Market Named (Key)**: Opportunities (regardless of stage) where an SA is necessary through the course of the opportunity. The goal is to complete the `3-Technical Evaluation` prior to 30 days of the Close Date.
+1. **Mid-Market Territory (Terr)**: `3-Technical Evaluation` for opportunities where a Command Plan and Custom Pitch Deck are being leveraged and where an SA is necessary. The goal is to complete the `3-Technical Evaluation` prior to 30 days of the Close Date.
+
+
 ### SA Request Triage Process
 
-Solutions Architects operate within Circles (small teams of SAs).  Each Circle is responsible for managing their triaging process.  When scheduling conflicts arise, SA Circles may distribute opportunity workload to other Circles.  When taking PTO, or out on a sick day, an SA's Circle is their first stop for backup.
+The Commercial SA Triage Process is a structured approach to managing and prioritizing incoming Solutions Architect (SA) requests. This process ensures efficient allocation of SA resources and timely response to customer needs. The key steps in the triage process are:
 
-- Goals of Circle Triage:
-  - Create a mechanism to pragmatically assign opportunities to members of our SA team who are available and ready - in time and skill set.
-  - Enable SAs with a process that allows the majority of their time to be focused on current deals and projects that contribute to the greater Customer Success org - not Salesforce report refreshes.
+1. Request Submission:
+   - All SA requests are submitted through the SA Request button on the Salesforce Opportunity.
+   - Requests should include a completed Command Plan and MEDDPPICC information.
 
-#### SA Circle Triage Guidelines
+2. Initial Review:
+   - SA Regional Team (EMEA or AMER) members review new requests within one business day.
+   - The review includes assessing the Command Plan, technical requirements, and opportunity details.
 
-##### #1: No Circle Team Member Self-assigns an Opportunity
+3. Evaluation of the "[4 Questions](#the-4-questions)":
+   - Is the Command Plan properly completed?
+   - Does the SA have a good understanding of the customer's current stack, competitive landscape, attendees, use cases, and motivations?
+   - Does the SA have sufficient lead time for preparation?
+   - Does the SA have relatable experience for this account?
 
-_Self-assignment does not happen without first discussing the opportunity and the "4 Questions" in the Circle-slack channel_
+4. Assignment:
+   - Based on the evaluation, the request is assigned to an available SA with the appropriate skills and capacity.
+   - Assignment is done collaboratively within the SA Circle, prioritizing "two pairs of eyes" principle.
 
-- **This is the #1 immutable rule.**  All others build off of it.  We must Collaborate, prioritizing The Circle and The Process over "just this once".
-  - We will have a Fast-track prioritization route for those demos that were scheduled with less than 24 hours.   We will still collaborate in Slack circle-region channels when this situation occurs.
+5. Prioritization:
+   - Requests are prioritized based on factors such as deal size, strategic importance, and urgency.
+   - Fast-track prioritization is available for time-sensitive requests.
 
-##### #2: Triage within One Business Day
+6. Communication:
+   - The assigned SA communicates with the Account Executive to confirm details, set expectations, and discuss possible account strategies
+   - The SA and AE disucss timeline, next steps, agenda for the next meeting and roles they will play in the call
+   - Any additional information or clarification needed is requested at this stage.
+
+7. Preparation and Execution:
+   - The assigned SA prepares for the engagement, which may include customizing demos, researching the customer, and collaborating with other team members.
+   - The SA executes the requested activities, such as discovery calls, demonstrations, or technical deep dives.
+
+8. Follow-up and Documentation:
+   - Post-engagement, the SA documents the outcomes, next steps, and any relevant information in Salesforce and the Customers & Prospects Google Drive folder.
+   - The SA collaborates with the AE on any follow-up actions or additional support needed.
+
+
+This triage process ensures that SA resources are utilized effectively, customer needs are met promptly, and the sales team receives timely and valuable technical support throughout the sales cycle.
+
+#### Guidelines for efficient triage process
+
+##### #1: Triage within One Business Day
 
 _It doesn't need to be within an hour.  You can eat lunch first_
 
-- Totally Acceptable Circle Behavior:  A new opportunity is created and sits for 3 hours because the Circle is busy with demos and life.
-- Totally Acceptable Circle Behavior: A new opportunity is created, and someone in the Circle-slack channel says "hey there is a new opp and I would like to discuss" and that Circle follow-up discussion doesn't come for 2, or even 4 hours, because the rest of the Circle is busy with other things.  This is still okay.  The wait period is not a diss to anyone, the Circle will get to it when they can, in natural pauses of the day.
-- One Full Business Day Defined:  If it comes in at 4pm, the Circle has 4pm the next day to Triage.
+- Totally Acceptable Behavior: A new opportunity is created and sits for 3 hours because the Team is busy with demos and life.
+- Totally Acceptable Behavior: A new opportunity is created, and someone in the Team's Slack channel says "hey there is a new opp and I would like to discuss" and that the Team follow-up discussion doesn't come for 2, or even 4 hours, because the rest of the Team is busy with other things. This is still okay. The wait period is not a diss to anyone, the Team will get to it when they can, in natural pauses of the day.
+- One Full Business Day Defined:  If it comes in at 4pm, the Team has until 4pm the next day to triage.
 
-##### #3: Better Triage Happens with a Second Review
+
+##### #2: Better Triage Happens with a second pair of eyes
 
 _If possible, two team members review a Command Plan before assignment_
 
-- Some days, this may not be possible.  If 1/2 the team is on PTO and the other 1/2 is slammed, then perhaps in the Slack circle-region channel we might to eachother, after a request for a Circle review, "don't have time for 2eyes, if you have the capacity and feel fully comfortable with the 4 questions being fulfilled, then assign it to yourself".  The key is, to get here, as a Circle, we communicated on Triage.
-  - The Circle's Reporting Managers are considered a very valued 2nd person to review, when directly requested.
+- Some days, this may not be possible.  If 1/2 the team is on PTO and the other 1/2 is slammed. But whenever possible, the Team aims to have at least 2 team members review the Command Plan before assignment.
+- The Team's Reporting Managers are considered a very valued 2nd person to review, when directly requested.
+- Other reason to skip the "two pairs of eyes" principle
+   - Fast-track prioritization for demos that were scheduled with less than 24 hours notice
+   - Very specific communication language or skill required for the engagement (which means the request can be directly assigned to a specific SA)
 
 ##### The 4 Questions
 
-There are often 'what-if' scenarios when an SA evaluates an incoming lead.   These 4 questions give us the start to our async Slack conversations.  _Should this meeting move forward if I don't know 'X'?_  is exacty when the members of The Circle will able to add context, and conversation to the Triage Collaboration.
+There are often 'what-if' scenarios when an SA evaluates an incoming lead. These 4 questions give us the start to our async Slack conversations.  _Should this meeting move forward if I don't know 'X'?_  is exacty when the members of The Team will able to add context, and conversation to the Triage Collaboration.
 
 - **#1: Is the Command Plan Properly completed?  Read through the Plan.  Identify if anything is missing.**
-  - Goal: Make it acceptable for the AE and the Command Plan not to be perfect. Make it thusly acceptable for the SA Circle to ask clarifying questions and request more information before the opportunity is assigned, and before the next proposed meeting can take place.
+  - Goal: Make it acceptable for the AE and the Command Plan not to be perfect. Make it thusly acceptable for the SA Team to ask clarifying questions and request more information before the opportunity is assigned, and before the next proposed meeting can take place.
     - Command Plan clarification questions are a great opportunity for our experienced SA org to lead and guide those folks who are in the sales org who are newer to GitLab and/or DevOps.  Having the proper time for a feedback loop serves everyone involved in the lead.   If we don't tells our AEs what more we need, how else will they understand what to ask in the future?
 - **#2:  Based on the Command Plan, does the SA have a good understanding of the following:**
   - Current DevOps stack? (SCM, Plan, CI/CD, Cloud Vendor(s), Deployment technologies)
@@ -64,31 +117,13 @@ There are often 'what-if' scenarios when an SA evaluates an incoming lead.   The
   - What are the specific use-cases they are looking for GitLab to address?
   - Why Now?
 - **#3: Does the SA have the lead time to prepare; is the meeting is not scheduled within 12-24 hours of the request**
-  - Goal: AEs to hold off on scheduling the next customer meetings until the SA Circle has enough time to evaluate if all correct information has been collected in Questions 1 & 2.
-    - SAs deserve time to clarify on Command Plans with the AEs and prepare demonstration environments.  GitLab is a large, and ever changing platform - the product is forever being delivered (every month). The SA team requests proper time to prepare so they can deliver the best results.
-    - Sometimes, a lot of runaway is not possible.  We will still have a 'Fast Track' process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Circle in the Slack circle-region-aeasm channel (because the SAs will be doing other work than always watching incoming opportunities.  See Point #2 in Triage Guidelines!)
+  - Goal: AEs to hold off on scheduling the next customer meetings until the SA Team has enough time to evaluate if all correct information has been collected in Questions 1 & 2.
+    - SAs deserve time to clarify on Command Plans with the AEs and prepare demonstration environments. GitLab is a large, and ever changing platform - the product is forever being delivered (every month). The SA team requests proper time to prepare so they can deliver the best results.
+    - Sometimes, a lot of runaway is not possible. We will still have a 'Fast Track' process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Team 
 - **#4: Does the SA have relatable experience on this type of account.**
   - 'Yes' could be the "preferred" answer depending on the account and timeline.
-  - But 'No' is also a 'Yes'. Solution Architects belong to a learning-focused organization. Less experienced SAs are going to continue to take on accounts where they do not know everything, and will hopefully do even better with their small accessible Circle to constantly collaborate with.
-  - An additional benefit of the Circle structure is we now have a dedicated small-group who are there for a main-assist.
+  - But 'No' is also a 'Yes'. Solution Architects belong to a learning-focused organization. Less experienced SAs are going to continue to take on accounts where they do not know everything, and will have a chance to learn with the support of the wider team
 
-### Segment-Specific Engagement Models
-
-[See which region an AE is located within](https://gitlab.my.salesforce.com/00O8X000008RUf1) or
-leverage the Account Sales Territory in the Circle Slack Channel to determine an Account Executive's segment.
-
-#### SA Engagement for Mid-Market
-
-1. **Mid-Market First Order (FO)**: Early-stage `2-Scoping` through `4-Proposal` for opportunities where a Command Plan and Custom Pitch Deck are being leveraged where an SA is necessary. The goal is to complete the `3-Technical Evaluation` prior to 15 days of the Close Date.
-1. **Mid-Market Named (Key)**: Opportunities (regardless of stage) where an SA is necessary through the course of the opportunity. The goal is to complete the `3-Technical Evaluation` prior to 30 days of the Close Date.
-1. **Mid-Market Territory (Terr)**: `3-Technical Evaluation` for opportunities where a Command Plan and Custom Pitch Deck are being leveraged and where an SA is necessary. The goal is to complete the `3-Technical Evaluation` prior to 30 days of the Close Date.
-
-#### SA Engagement for SMB
-
-1. **SMB First Order (FO)**: Late-stage `2-Scoping` and `3-Technical Evaluation` for opportunities where a Command Plan and Custom Pitch Deck are being leveraged where an SA is necessary. The goal is to complete the `3-Technical Evaluation` prior to 15 days of the Close Date.
-1. **SMB Named (Key)**: Late-stage `2-Scoping` and `3-Technical Evaluation` for opportunities where a Command Plan and Custom Pitch Deck are being leveraged where an SA is necessary.  The goal is to complete the `3-Technical Evaluation` within 15 days of the Close Date.
-1. **SMB First Year Expand (Exp)**: AEs should rely on the CSM and CSEs as much as possible for First Year Expand opportunities given that the focus of a customer's first year is to adopt as much of what they have purchased as possible.  If a customer has demonstrable adoption of GitLab and is looking for more of GitLab's offering to use, then AEs ought to have the opportunity reviewed by their ASM prior to getting an SA engaged.
-1. **SMB Pooled (Pool)**: Requests ought to be brought forth by the AE and approved by the ASM and SA Manager to ensure that the need for an SA is justified.
 
 ### Expectations when working with an SA
 
@@ -216,23 +251,6 @@ Solutions Architects are required to fill out in their judgment on all opportuni
 - EMEA COMM Business Unit
 - Net ARR >$50K
 - Stage: 3+ (potentially 2+)
-
-#### Other Considerations
-
-##### Team meetings
-
-- Team meetings are held on Mondays (Americas) at 10:30am PST for 25 minutes.
-- Try to be respectful of our scheduled 1:1's meetings, though they can be more easily rescheduled in favor of customer engagement.
-
-##### Meeting Follow up/Research
-
-- Solutions Architects need time to provide follow up with information in as near real-time as possible. We aim to minimize scheduling "back-to-back" meetings as this can compromise our ability to provide our best possible response for the customers/prospects we're supporting.
-- [Mid-Market Case Studies](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/boards/1804878?scope=all&utf8=%E2%9C%93&label_name%5B%5D=Mid-Market) | [SMB Case Studies](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/boards/1804878?scope=all&utf8=%E2%9C%93&label_name%5B%5D=SMB)
-- [Whitepapers, Analyst Reports, etc...](https://docs.google.com/spreadsheets/d/1NK_0Lr0gA0kstkzHwtWx8m4n-UwOWWpK3Dbn4SjLu8I/edit#gid=0)
-
-### Live Optimization Sessions
-
-Live Optimization sessions are one-time post-sales activities session conducted 1-2 months after a closed deal by a Commercial Solutions Architect in order to support and 'fine tune' net new SMB customers' adoption of GitLab. Read more on the process in the [SMB Sales Handbook](/handbook/sales/commercial/smb/live-optimization/).
 
 
 ## Commercial SA Processes
