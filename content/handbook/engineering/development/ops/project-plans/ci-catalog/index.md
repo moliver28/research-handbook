@@ -15,8 +15,6 @@ The following page may contain information related to upcoming products, feature
 
 - Visibility into where components are used - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14027)
   - Create fields to return project list where components were used in a pipeline - [#466575](https://gitlab.com/gitlab-org/gitlab/-/issues/466575) 
-- Security & Compliance workflow [epic](https://gitlab.com/groups/gitlab-org/-/epics/14060) for CI Catalog (Multi milestone effort)
-  - Allow administrator to restrict usage of 3rd party components - [#441102](https://gitlab.com/gitlab-org/gitlab/-/issues/441102)
 - Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
   - Add new publish API endpoint with input params - [#442783](https://gitlab.com/gitlab-org/gitlab/-/issues/442783) (in-dev)
 - Inputs enhancements
@@ -27,6 +25,8 @@ The following page may contain information related to upcoming products, feature
 
 #### Goals
 
+- Security & Compliance workflow [epic](https://gitlab.com/groups/gitlab-org/-/epics/14060) for CI Catalog (Multi milestone effort)
+  - Allow administrator to restrict usage of 3rd party components - [#441102](https://gitlab.com/gitlab-org/gitlab/-/issues/441102)
 - Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788)
   - `release-cli` to extract and validate metadata - [#442785](https://gitlab.com/gitlab-org/gitlab/-/issues/442785)
   - Add an indicator if the release goes to the catalog - [#438958](https://gitlab.com/gitlab-org/gitlab/-/issues/438958)
