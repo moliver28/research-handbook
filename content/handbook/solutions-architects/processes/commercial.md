@@ -328,21 +328,21 @@ Commercial SA team meetings are held on a regular basis to ensure alignment, sha
 - Duration: 50 minutes
 - Purpose: Discuss global initiatives, share best practices, and align on cross-regional topics
 - Second half of the Global Team Meeting is dedicated to specific topics:
- - [Commercial Demo Jam](#commercial-demo-jam) (twice a quarter)
- - [Commercial SA Peer Review](#commercial-sa-peer-review) (twice a quarter)
- - Strategy (once a quarter)
- - Team Retrospective (last week of a quarter)
- - Open Topic (once a quarter)
+  - [Commercial Demo Jam](#commercial-demo-jam) (twice a quarter)
+  - [Commercial SA Peer Review](#commercial-sa-peer-review) (twice a quarter)
+  - Strategy (once a quarter)
+  - Team Retrospective (last week of a quarter)
+  - Open Topic (once a quarter)
 
 ### 2. Bi-Weekly Geo Team Sync (EMEA or AMER)
 
 - Frequency: Every other Monday
 - AMER
- - Duration: 25 minutes
- - Purpose: Connect as a team, discuss any ongoing initiatives, share updates, provide feedack, foster open discussions
+  - Duration: 25 minutes
+  - Purpose: Connect as a team, discuss any ongoing initiatives, share updates, provide feedack, foster open discussions
 - EMEA
- - Duration: 50 minutes
- - Purpose: Connect as a team, discuss any ongoing initiatives, regional priorities, share updates, and address any pressing issues
+  - Duration: 50 minutes
+  - Purpose: Connect as a team, discuss any ongoing initiatives, regional priorities, share updates, and address any pressing issues
 
 ### 3. Manager Sync
  
@@ -364,15 +364,15 @@ Commercial SA team members are strongly encouraged to take time off as part of [
 To best support our customers, consider the following:
 
 1. Create a [PTO coverage issue](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/announcements/-/issues/new?issuable_template=PTO) A PTO coverage issue may not always be required but here are a couple guiding examples on when to create one:
- - Customers are running an active trial and may need technical guidance.
- - Leaving for more than 2 weeks and need to distribute the workload across the team.
-2. Announce your time off to your team and, share the PTO Coverage issue link, and communicate any expected coverage requirements.
+  - Customers are running an active trial and may need technical guidance.
+  - Leaving for more than 2 weeks and need to distribute the workload across the team.
+1. Announce your time off to your team and, share the PTO Coverage issue link, and communicate any expected coverage requirements.
 
 ## Team Links
 
 - Dashboards - Open Requests and Key Metrics by Geo
- - [COMM AMER SA Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000011ihZ2AQ/view)
- - [COMM EMEA SA Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000012gc52AA/view)
+  - [COMM AMER SA Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000011ihZ2AQ/view)
+  - [COMM EMEA SA Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000012gc52AA/view)
 - [Solutions Architect GitLab Group](https://gitlab.com/gitlab-com/customer-success/solutions-architecture) - Used to share things across Solutions Architects such as links to demos, snippets, training, etc.
 - [Customer Success Tools](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools) - Used to store customer success automation and migration tools.
 - [Commercial SA Initiatives](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/initiatives/)- Initiatives specific for Commercial Solutions Architecture Organization.
