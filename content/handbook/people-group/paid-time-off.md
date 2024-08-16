@@ -10,7 +10,7 @@ This policy relates to the types of leaves that GitLab offers and the guidelines
 
 Time away from work can help team members in maintaining a [healthy work/life balance](/handbook/company/culture/all-remote/people/#worklife-harmony). GitLab encourages managers and [leadership]({{< ref "leadership" >}}) to set the example by taking time off when needed and ensuring their reports do the same.
 
-Time away from work is aligned with GitLab's operating principle [Family and friends first, work second](/handbook/values/#family-and-friends-first-work-second). It is also supports [mental health](/handbook/company/culture/all-remote/mental-health/). Time off can provide a mental recharge that supports team members in doing their best work. 
+Time away from work is aligned with GitLab's operating principle [Family and friends first, work second](/handbook/values/#family-and-friends-first-work-second). It also supports [mental health](/handbook/company/culture/all-remote/mental-health/). Time off can provide a mental recharge that supports team members in doing their best work. 
 
 This page is written with a focus on vacation. The below recommendations on communicating your time off apply to time off for all reasons where possible and avoid concerns of health, safety, or job abandonment. GitLab offers a Flexible PTO Policy, but team members are not allowed to substitute PTO for sick time. If taking time off for medical needs or sick time, whether physical or mental, please follow our [Sick Time Policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting).
 
