@@ -358,7 +358,6 @@ Commercial SA team meetings are held on a regular basis to ensure alignment, sha
 
 All team meetings are facilitated to be asynchronous friendly. Therefore, all meetings are recorded and shared with the team. Team members are expected to attend these meetings regularly, or review and contribute to the discussions and share relevant information asynchronously
 
-
 ## Paid Time Off
 
 Commercial SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/people-group/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time.
