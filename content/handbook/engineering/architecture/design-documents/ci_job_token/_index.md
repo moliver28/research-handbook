@@ -31,7 +31,7 @@ while delivering incremental value along the way.
 
 Currently, when a CI job runs, it is provided with a `CI_JOB_TOKEN`, which the
 job can use to interact with other GitLab resources. This token is generated
-on behalf of the user who triggered the CI pipeline, effectively granting the CI
+on behalf of the user who triggered the CI job, effectively granting the CI
 job the same level of access as the user.
 
 This poses a security risk, as it allows for token theft, enabling a malicious
