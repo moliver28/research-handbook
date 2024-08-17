@@ -42,6 +42,26 @@ The following members of other functional teams are our stable counterparts:
 
 The Global Search team shares responsibilites with the AI Framework team in the area of [Retrieval Augmented Generation](rag_ownership_framework.png) (RAG). Specifically, we will collaborate in the data preparation stage and information retrieval stage of the RAG process.
 
+## Advanced Search data stores and interfaces today
+![Global Search data stores and interfaces diagram](global_search_interfaces.png)
+
+
+## Current state of Advanced Search scopes
+
+There are many data types and search scopes already available via the Advanced Search interfaces. Below is a table that outlines the various available data types and the status of various functional elements, such as permissions, cross-group searching, and embeddings.
+
+| Data type / scope | Privacy / Permissions | Cross-namespace / cross-group searching | Keyword search | Similarity search & Embeddings | Metadata filtering |
+|-------------------|-----------------------|-----------------------------------------|----------------|--------------------------------|--------------------|
+| **Code** | Yes | Yes | Yes | In progress | Group, Project, Include/exclude archived, include/exclude forks, Language, Filename, Path, Extension |
+| **Issues** | Yes | Yes | Yes | Yes | Group, Project, Status, Confidentiality, Labels, Include/exclude archived |
+| **Merge requests** | Yes | Yes | Yes | No | Group, Project, Status, Include/exclude archived |
+| **Epics** | Yes | Yes | Yes | No | Group, Project |
+| **Comments** | Yes | Yes | Yes | No | Group, Project, Include/exclude archived |
+| **Users** | Yes | Yes | Yes | No | Group, Project |
+| **Commits** | Yes | Yes | Yes | No | Include/exclude archived |
+| **Milestones** | Yes | Yes | Yes | No | Include/exclude archived |
+| **Project** | Yes | Yes | Yes | No | Group |
+
 ## Meetings
 
 Whenever possible, we prefer to communicate asynchronously using issues, merge requests, and Slack. However, face-to-face meetings are useful for establishing a personal connection and addressing items that would be more efficiently discussed synchronously, such as blockers.
