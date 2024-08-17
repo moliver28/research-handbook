@@ -829,5 +829,5 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) | Sr Director, ESG | |
 | 2024-07-15 | 2024-07-26 | [Kristine Setschin](https://gitlab.com/KSetschin) | Senior Manager Regional Marketing, EMEA | |
 | 2024-07-22 | 2024-08-02 | [Lesley Razzaghian](https://gitlab.com/lesley-r) | Backend Engineer | | 
-| 2024-07-29 | 2024-08-09 | [Gary Holtz](https://gitlab.com/garyh) | Senior Backend Engineer | || 2024-08-12 | 2024-08-16 | 
-|2024-08-05 |2024-08-16 | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
+| 2024-07-29 | 2024-08-09 | [Gary Holtz](https://gitlab.com/garyh) | Senior Backend Engineer | 2024-08-12 | 2024-08-16 | 
+| 2024-08-05 | 2024-08-16 | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
