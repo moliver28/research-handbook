@@ -207,6 +207,7 @@ Further, we iterate and act more quickly with feedback and [here](https://gitlab
 
 ## 🔗 Additional Resources
 
+- [Current Milestone Commitments](https://gitlab.com/groups/gitlab-org/-/boards/7476573) (don't forget to filter by current milestone!)
 - [GitLab Validation Metrics](https://about.gitlab.com/direction/ai-powered/ai_model_validation/ai_evaluation/metrics/)
 - [GitLab Evaluation Procedure](https://about.gitlab.com/direction/ai-powered/ai_model_validation/ai_evaluation/procedures/)
 - [Blog: How we validate and test at scale](https://about.gitlab.com/blog/2024/05/09/developing-gitlab-duo-how-we-validate-and-test-ai-models-at-scale/)
