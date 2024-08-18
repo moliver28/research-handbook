@@ -364,6 +364,8 @@ Corrective Actions issues in the [Reliability project](https://gitlab.com/gitlab
 engineers on call. The project README contains links to checklists for each
 of the above roles.
 
+[Docs runbook](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/infrastructure.md?ref_type=heads) for docs.gitlab.com.
+
 **In the event of a GitLab.com outage**, a mirror of the runbooks repository is available on at https://ops.gitlab.net/gitlab-com/runbooks.
 
 ### Who is the Current EOC?
