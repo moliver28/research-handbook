@@ -26,7 +26,7 @@ Outline how compliance enforcement and visibility will be handled through Compli
 
 There are three main parts to compliance posture of a customer [Enforcement](#enforcement), [Visibility](#visibility), and [Audit History](#audit-history).
 
-### Enforcement
+#### Enforcement
 
 Enforcement within GitLab is currently done through [Security Policies](https://docs.gitlab.com/ee/user/application_security/policies/) and [Compliance Pipelines](https://docs.gitlab.com/ee/user/group/compliance_pipelines.html). This gives users two very different ways of implementing the same functionality, which has been described as confusing for users. Compliance pipelines also have some inherent technical limitation, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/6241).
 
@@ -47,25 +47,25 @@ This is currently achieved through compliance events ([Audit events](https://doc
 
 ### Background
 
-##### Deprecate compliance pipelines
+#### Deprecate compliance pipelines
 
 We deprecated [compliance pipelines](https://docs.gitlab.com/ee/user/group/compliance_pipelines.html) in favour of
 [pipeline execution policy](https://docs.gitlab.com/ee/user/application_security/policies/pipeline_execution_policies.html)
 in GitLab 17.3. This decision was taken to align with the future state of enforcing compliance through security policies.
 
-##### Scope policies through compliance frameworks
+#### Scope policies through compliance frameworks
 
 We introduced the capability of scoping security policies allowing us to enforce policies against a specific set of
 projects or against projects applied a given set of compliance frameworks. This helped us move towards the
 goal of enforcing compliance through frameworks.
 
-##### Multiple compliance frameworks
+#### Multiple compliance frameworks
 
 Before GitLab 17.3 it was not possible to apply more than one compliance framework to a project. To work towards the
 future state of allowing users to customise the adherence dashboard, we created the ability to apply multiple
 compliance frameworks in GitLab 17.3.
 
-#### Goals
+### Goals
 
 1. Provide support need for multiple frameworks
 1. Incongruence with compliance pipelines and security policies
@@ -75,7 +75,7 @@ compliance frameworks in GitLab 17.3.
 1. Allow users to customise Standards
 1. Allow users to create their own Standards
 
-#### Non-Goals
+### Non-Goals
 
 1. Allow users to create customisable Checks
 1. Compliance events
