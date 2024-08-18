@@ -24,7 +24,7 @@ Outline how compliance enforcement and visibility will be handled through Compli
 
 ### Motivation
 
-There are three main parts to compliance posture of a customer Enforcement, Visibility, and History.
+There are three main parts to compliance posture of a customer [Enforcement](#enforcement), [Visibility](#visibility), and [Audit History](#audit-history).
 
 ### Enforcement
 
@@ -41,9 +41,11 @@ Currently the Standards are hard coded in the Adherence report (renamed to Statu
 1. Allow users to create their own Standards
 1. Allow users to create customisable Checks
 
-#### History
+#### Audit History
 
 This is currently achieved through compliance events ([Audit events](https://docs.gitlab.com/ee/user/compliance/audit_events.html) and [Violations within MRs](https://docs.gitlab.com/ee/user/compliance/compliance_center/compliance_violations_report.html)). Both of these are outside the scope of this blueprint.
+
+### Background
 
 ##### Deprecate compliance pipelines
 
@@ -54,13 +56,13 @@ in GitLab 17.3. This decision was taken to align with the future state of enforc
 ##### Scope policies through compliance frameworks
 
 We introduced the capability of scoping security policies allowing us to enforce policies against a specific set of
-projects or against projects containing a given set of compliance framework labels. This helped us move towards the
+projects or against projects applied a given set of compliance frameworks. This helped us move towards the
 goal of enforcing compliance through frameworks.
 
 ##### Multiple compliance frameworks
 
 Before GitLab 17.3 it was not possible to apply more than one compliance framework to a project. To work towards the
-future state of allowing users to customise standards adherence dashboard, we created the ability to add multiple
+future state of allowing users to customise the adherence dashboard, we created the ability to apply multiple
 compliance frameworks in GitLab 17.3.
 
 #### Goals
