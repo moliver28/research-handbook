@@ -39,9 +39,9 @@ As the program matures, we will also include automation and AI as top priorities
 
 We reward GitLab team members for reporting emerging threats that lead to:
 
-- Enhanced detection and response capabilities.
-- Preventative measures against credible risks.
-- Discovery of malicious activity on GitLab.com or our corporate systems.
+- Enhanced detection and response capabilities for imminent risks.
+- Preventative measures against credible, near-term threats.
+- Timely discovery of active malicious activity on GitLab.com or our corporate systems.
 
 These threats can surface anywhere - in chat rooms, social media, online forums, and beyond. As a GitLab team member, you're uniquely positioned to spot these risks during your daily online interactions.
 
@@ -50,7 +50,7 @@ To participate:
 1. Open an issue using this template (TODO: LINK)
 2. Share an intro and a link to your issue in the Slack channel `#sd_security_threat_intel`
 
-If the Threat Intelligence team includes your submission in a Flash Report or Threat Briefing, you'll earn (TODO: REWARD TBA).
+We review all submissions, prioritizing high-quality reports that are timely, relevant, and actionable. Submissions selected for inclusion in a Flash Report or Threat Briefing earn (TODO: REWARD TBA).
 
 ## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide
 
