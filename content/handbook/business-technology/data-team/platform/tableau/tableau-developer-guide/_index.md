@@ -251,13 +251,27 @@ Create a Data Source filter using the `USERNAME()` function and the `tableau_use
 
 ## Guidelines for Publishing Extracts to Production and Ad-Hoc Projects
 
-1. ~1 GB Storage Limit per published extract. This is ~10 million rows of data.
-2. Scheduled extract refreshes should run between 18:00 and 05:00 UTC
-3. Extracts are a performance management tool and should not be used by default. Live Connections should be the default selection and Extracts should only be considered when dashboard performance becomes an issue (i.e. most visualizations still aren't loading after one minute and performance optimizers have been applied)
-4. We currently have 200 GBs of storage on the Tableau Online site and have dedicated 100 GBs of that storage space for extracts
-5. After an extract is published to the Production or Ad-Hoc Project, the extract in the development folder should be deleted
-6. Extracts built directly from tables or marts can be published as a Datasource
-7. Extracts built with Custom SQL must be embedded in a workbook.
+1. **Data Source Live vs. Extract** - Extracts are primarily a performance optimization tool and should not be the default choice. Use Live Connections by default, and consider Extracts only in the following situations:
+
+   - **Dashboard Performance** - If visualizations take longer than one minute to load despite applying performance optimizers.
+
+   - **Heavy traffic data sources** - To reduce data warehouse costs, use scheduled Extract refreshes instead of numerous user live queries.
+
+1. **Extract Size** - We have 1 TB of storage on Tableau Cloud. Extracts should not exceed 5 GB, which accommodates up to ~50 million rows of data.
+
+1. **Extract Scheduling** - Schedule Extract refreshes between 18:00 and 05:00 UTC. Ideally, limit refreshes to business weekdays.
+
+1. **Optimize Extracts** - Consider the following strategies to shrink and improve extract refresh performance:
+   
+   - **Aggregate Data** - Aggregate data at a higher level before creating an extract to reduce size and improve performance.
+  
+   - **Filter Data** - Apply filters to include only relevant data in the extract. This can help reduce size and improve refresh times.
+  
+   - **Use Incremental Refreshes** - For large datasets, configure incremental refreshes instead of full refreshes. This updates only the new or changed data, which is more efficient. Consider using Tableau Prep to implement incremental and merge/update refreshes.
+
+1. **Clean up** - After an extract is published to the Production or Ad-Hoc Project, delete the corresponding Extract from the development folder. 
+
+1. **Extract Refresh Suspension** - Tableau Cloud will automatically suspend data sources that remain unused for 30 days.
 
 ## Improving Local Connection Timeouts
 
