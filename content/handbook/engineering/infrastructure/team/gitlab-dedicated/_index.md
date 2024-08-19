@@ -204,6 +204,18 @@ The outcome of the call is shared in a persistent location (Slack is not persist
 
 `1*` Exceptions to the recording rule are: 1-1 calls, discussions around non-project work, and in cases where parties do not feel comfortable with recording. However, even with the exceptions, outcome of project related discussions need to be logged in a persistent location, such as the main issue tracker.
 
+### Protecting Customer Identity
+
+GitLab [confidentiality levels](/handbook/communication/confidentiality-levels/) require that we do not publicly identify customers without their express permission.
+
+When it is necessary to refer to a specific customer we use the following guidelines:
+
+| Use Case                               | Example                                                                     | Process                                                                                                                                                                                                                                                                                                                                                                     |
+|----------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Internal Communication & Collaboration | Slack conversations                                                         | <ul><li>Use the customer name</li></ul> |
+| Public Collaboration | Collaboration on issues, epics and recorded calls                           | <ul><li>Avoid using the customer name by providing internal links that aid the identification and internal notes where necessary</li><li>If a customer name is mentioned on a recorded call the video should be set to Private and the reason included in the YouTube description</li></ul> |
+| Implementation Level                   | We need the ability to map a codename to a tenant_id within the tech stack  | <ul><li>Use internal codenames for this use case.</li><li> Switchboard is the SSOT for internal codenames. </ul></li>                                                                                                                                                                                                                                                     |
+
 ### GitLab Group Hierarchy
 
 We use [GitLab Groups](https://docs.gitlab.com/ee/user/group/#groups) to logically organize team-members working on GitLab Dedicated projects.
