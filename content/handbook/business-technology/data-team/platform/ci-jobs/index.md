@@ -106,7 +106,7 @@ This pipeline needs to be executed when doing changes to any of the below manife
 - el_gitlab_dotcom_db_manifest.yaml
 - el_gitlab_dotcom_scd_db_manifest.yaml
 
-This pipeline requires.
+This pipeline requires:
 
 1. Clone of `TAP_POSTGRES` schema(Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
 2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_com_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_gitlab_com`.
