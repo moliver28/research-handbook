@@ -3,7 +3,7 @@ title: Low-Privilege CI Job Tokens
 status: proposed
 creation-date: "2024-08-08"
 authors: [ "@mokhax" ]
-coaches: [ ]
+coaches: ["@grzesiek", "@fabiopitino"]
 dris: [ "@jrandazzo", "@jayswain" ]
 owning-stage: "~govern::authorization"
 participating-stages: [ "~devops::verify" ]
